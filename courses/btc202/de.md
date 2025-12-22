@@ -13,336 +13,175 @@ objectives:
 
 
 ---
-# Werden Sie ein souveräner Bitcoiner
+# Werde ein souveräner Bitcoiner
+Du kennst wahrscheinlich das Sprichwort "Not your Keys, not your Coins", das zur Selbstverwahrung deiner Bitcoins aufruft. Der Besitz deiner eigenen Keys (Schlüssel) ist in der Tat ein wichtiger erster Schritt, aber er reicht nicht aus. Um echte monetäre Souveränität zu erlangen, musst du auch deine eigenen Bitcoin-Node installieren und verwenden. Dieser Kurs soll dich durch diesen grundlegenden Schritt auf deiner Bitcoin Reise führen!
 
+BTC 202 ist eine leicht zugänglicher Kurs, der dir beibringt, wie du deine eigene Bitcoin-Node betreibst, auch wenn du kein technischer Experte bist. Wir beginnen damit, zu definieren, was eine Bitcoin-Node ist, wozu sie dient und warum es absolut wesentlich ist, selbst eine zu betreiben. Anschließend führe ich dich Schritt für Schritt durch die Auswahl deiner Hardware, die Installation der erforderlichen Software, die Verbindung deiner Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
 
-
-Sie kennen wahrscheinlich das Sprichwort "Nicht Ihre Schlüssel, nicht Ihre Münzen", das zur Selbstverwahrung Ihrer Bitcoins aufruft. Der Besitz Ihrer eigenen Schlüssel ist in der Tat ein wichtiger erster Schritt, aber er reicht nicht aus. Um echte monetäre Souveränität zu erlangen, müssen Sie auch Ihren eigenen Bitcoin-Knoten installieren und verwenden. Dieser Kurs soll Sie durch diesen grundlegenden Schritt auf Ihrer Bitcoin Reise führen!
-
-
-
-BTC 202 ist eine leicht zugängliche Schulung, die Ihnen beibringt, wie Sie Ihren eigenen Bitcoin-Knoten betreiben, auch wenn Sie kein technischer Experte sind. Wir beginnen damit, zu definieren, was ein Bitcoin-Knoten ist, wozu er dient und warum es absolut wesentlich ist, einen selbst zu betreiben. Anschließend führe ich Sie Schritt für Schritt durch die Auswahl Ihrer Hardware, die Installation der erforderlichen Software, die Verbindung Ihrer Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
-
-
-
-Der Betrieb eines Bitcoin-Knotens ist nicht nur eine Option für Experten, er ist eine Notwendigkeit. Es ist ein Resilienz-Tool, das jeder Benutzer verstehen und implementieren muss. Dieser Kurs ist Ihr Startpunkt, um ein souveräner Bitcoiner zu werden!
-
-
-
+Der Betrieb einer Bitcoin-Node ist nicht nur eine Option für Experten, er ist eine Notwendigkeit. Es ist ein Resilienz-Tool, das jeder Benutzer verstehen und implementieren muss. Dieser Kurs ist dein Startpunkt, um ein souveräner Bitcoiner zu werden!
 
 +++
 
-
-
-
 # Einführung
-
 
 <partId>fc46ccd7-5d6d-40c3-9e9f-fbbb323c760a</partId>
 
-
-
-
 ## Überblick über den Kurs
-
 
 <chapterId>916b1f86-38a4-4ede-bdb7-83841d5a7abe</chapterId>
 
-
-
-Willkommen bei BTC 202, wo Sie lernen werden, wie Sie einen Bitcoin-Knoten einfach und unabhängig installieren, konfigurieren und benutzen können. Aber das ist noch nicht alles: Sie werden auch mehr über den Platz und die Funktion von Knoten im Bitcoin-System erfahren. Der Kurs wechselt zwischen theoretischen Erklärungen und angeleiteter praktischer Anwendung.
-
-
+Willkommen bei BTC 202, wo du lernen wirst, wie du eine Bitcoin-Node einfach und unabhängig installieren, konfigurieren und benutzen kannst. Aber das ist noch nicht alles: Du wirst auch mehr über den Platz und die Funktion von Nodes im Bitcoin-System erfahren. Der Kurs wechselt zwischen theoretischen Erklärungen und angeleiteter praktischer Anwendung.
 
 ### Teil 1 - Einführung
 
-
-
-In diesem ersten Teil des Kurses werden wir die grundlegenden Begriffe klären und dann zu genaueren Definitionen übergehen. Was ist ein Knoten? Was sind die Unterschiede zwischen Knoten, Wallet und Miner? Dann lernen Sie etwas über Bitcoin core und die Implementierungen des Protokolls. Das Ziel ist es, dieselbe Sprache zu sprechen, Verwirrung zu vermeiden und eine solide theoretische Grundlage zu schaffen.
-
-
+In diesem ersten Teil des Kurses werden wir die grundlegenden Begriffe klären und dann zu genaueren Definitionen übergehen. Was ist eine Node? Was sind die Unterschiede zwischen Nodes, Wallets und Minern? Dann lernst du etwas über Bitcoin Core und die Implementierungen des Protokolls. Das Ziel ist es, dieselbe Sprache zu sprechen, Verwirrung zu vermeiden und eine solide theoretische Grundlage zu schaffen.
 
 ### Teil 2 - Ein souveräner Bitcoiner werden
 
+In diesem zweiten Teil werde ich zunächst erklären, warum es wichtig ist, eine eigene Bitcoin-Node zu betreiben. Dann werden wir die verschiedenen Arten von Nodes (complete, pruned, SPV...), ihre Funktionsweise und ihre technischen Auswirkungen untersuchen.
 
+Anschließend geben wir dir einen Überblick über die Software, die für den Betrieb einer Bitcoin-Node zur Verfügung steht, einschließlich ihrer Vor- und Nachteile. Abschließend geben wir dir einige sehr praktische Empfehlungen für die Auswahl der richtigen Hardware für deine Bedürfnisse und dein Budget.
 
-In diesem zweiten Teil werde ich zunächst erklären, warum es wichtig ist, einen eigenen Bitcoin-Knoten zu betreiben. Dann werden wir die verschiedenen Arten von Knoten (vollständig, pruned, SPV...), ihre Funktionsweise und ihre technischen Auswirkungen untersuchen.
-
-
-
-Anschließend geben wir Ihnen einen Überblick über die Software, die für den Betrieb eines Bitcoin-Knotens zur Verfügung steht, einschließlich ihrer Vor- und Nachteile. Abschließend geben wir Ihnen einige sehr praktische Empfehlungen für die Auswahl der richtigen Hardware für Ihre Bedürfnisse und Ihr Budget.
-
-
-
-Dieser Abschnitt veranschaulicht daher den Weg des souveränen Bitcoiners: Verstehen, warum es notwendig ist, einen Knoten zu betreiben, die Art des Knotens wählen, auf der Grundlage dieser Wahl die Software auswählen und, abhängig von der gewählten Software, die geeignete Hardware bestimmen.
-
-
+Dieser Abschnitt veranschaulicht daher den Weg des souveränen Bitcoiners: Verstehen, warum es notwendig ist, eine Node zu betreiben, die Art der Node wählen, auf der Grundlage dieser Wahl die Software auswählen und, abhängig von der gewählten Software, die geeignete Hardware bestimmen.
 
 ### Teil 3 - Einfache Installation eines Bitcoin-Knotens
 
+Sobald diese Vorbereitungen abgeschlossen sind, ist es an der Zeit, mit Teil 3, der Umbrel gewidmet ist, in die Praxis zu gehen: das Home-Cloud-Betriebssystem, das das Selbsthosten und die Installation einer Bitcoin- und Lightning-Node vereinfacht.
 
+Nach einer kurzen Einführung in Umbrel bieten wir ein detailliertes Tutorial, das dich durch den Installations- und Konfigurationsprozess auf deinem eigenen Heimwerker-Rechner führt. Das Ziel dieses Teils ist klar: Du wirst deine erste voll funktionsfähige und synchronisierte Bitcoin-Node haben.
 
-Sobald diese Vorbereitungen abgeschlossen sind, ist es an der Zeit, mit Teil 3, der Umbrel gewidmet ist, in die Praxis zu gehen: das Home-Cloud-Betriebssystem, das das Selbsthosten und die Installation eines Bitcoin- und Lightning-Knotens vereinfacht.
+### Teil 4 - Anschließen deiner Wallet an deine Node
 
+Nachdem du nun eine Bitcoin-Node eingerichtet hast, ist es an der Zeit, sie zu benutzen! In diesem Abschnitt erfährst du, wie du deine Wallet-Verwaltungssoftware (wie Sparrow wallet) mit deinem eigenen Address-Indexer (Electrs oder Fulcrum) oder direkt mit Bitcoin Core verbinden kannst, damit du nicht mehr von öffentlichen Servern abhängig bist.
 
-
-Nach einer kurzen Einführung in Umbrel bieten wir ein detailliertes Tutorial, das Sie durch den Installations- und Konfigurationsprozess auf Ihrem eigenen Heimwerker-Rechner führt. Das Ziel dieses Teils ist klar: Ihr werdet euren ersten voll funktionsfähigen und synchronisierten Bitcoin Knoten haben.
-
-
-
-### Teil 4 - Anschließen Ihres Wallet an Ihren Knoten
-
-
-
-Nachdem Sie nun einen Bitcoin-Knoten eingerichtet haben, ist es an der Zeit, ihn zu benutzen! In diesem Abschnitt erfahren Sie, wie Sie Ihre Wallet-Verwaltungssoftware (wie Sparrow wallet) mit Ihrem eigenen Address-Indexer (Electrs oder Fulcrum) oder direkt mit Bitcoin core verbinden können, damit Sie nicht mehr von öffentlichen Servern abhängig sind.
-
-
-
-Wir werden auch die Rolle der Indexer und die verschiedenen Methoden der Verbindung zu Ihrem Knoten (LAN, Tor, Tailscale, etc.) untersuchen. Schließlich, im letzten Kapitel, werden wir die nützlichsten Anwendungen, die auf Umbrel für den alltäglichen Bitcoiner verfügbar sind, besprechen.
-
-
+Wir werden auch die Rolle der Indexer und die verschiedenen Methoden der Verbindung zu deiner Node (LAN, Tor, Tailscale, etc.) untersuchen. Schließlich, im letzten Kapitel, werden wir die nützlichsten Anwendungen, die auf Umbrel für den alltäglichen Bitcoiner verfügbar sind, besprechen.
 
 ### Teil 5 - Fortgeschrittene Konzepte und bewährte Verfahren
 
+In diesem letzten Teil von BTC 202 geht es darum, dein Wissen zu vertiefen. Zunächst befassen wir uns mit den besten Praktiken, die du bei deiner neuen Bitcoin-Node anwenden solltest, und mit der Frage, wie du ihn auf lange Sicht warten kannst.
 
-
-In diesem letzten Teil von BTC 202 geht es darum, Ihr Wissen zu vertiefen. Zunächst befassen wir uns mit den besten Praktiken, die Sie bei Ihrem neuen Bitcoin-Knoten anwenden sollten, und mit der Frage, wie Sie ihn auf lange Sicht warten können.
-
-
-
-Wir werden uns dann die Zeit nehmen, einige der zuvor im Kurs behandelten Theorien zu wiederholen, einschließlich des Verständnisses des IBD-Prozesses und der Peer-Erkennung im Detail, der Erforschung der Anatomie eines Knotens und schließlich der Verwendung der Datei "Bitcoin.conf" zur Feinabstimmung Ihrer Einstellungen.
-
-
+Wir werden uns dann die Zeit nehmen, einige der zuvor im Kurs behandelten Theorien zu wiederholen, einschließlich des Verständnisses des IBD-Prozesses und der Peer-Erkennung im Detail, der Erforschung der Anatomie einer Node und schließlich der Verwendung der Datei "Bitcoin.conf" zur Feinabstimmung deiner Einstellungen.
 
 ### Teil 6 - Letzter Abschnitt
 
+Wie bei allen Plan ₿ Academy-Kursen findest du im letzten Abschnitt eine Abschlussprüfung, um dein Wissen über Bitcoin-Nodes zu testen.
+Bist du also bereit, deine erste Bitcoin-Node einzuschalten? Nimm Kurs auf Souveränität!
 
-
-Wie bei allen Plan ₿ Academy-Kursen finden Sie im letzten Abschnitt eine Abschlussprüfung, um Ihr Wissen über Bitcoin-Knoten zu testen.
-
-
-
-Sind Sie also bereit, Ihren ersten Bitcoin-Knoten einzuschalten? Nehmen Sie Kurs auf Souveränität!
-
-
-
-## Was ist ein Bitcoin-Knoten?
-
+## Was ist eine Bitcoin-Node?
 
 <chapterId>0a9fd4e0-94ab-405e-924c-023397393027</chapterId>
 
-
-
-Wie von seinem Schöpfer, Satoshi Nakamoto, beschrieben, präsentiert sich Bitcoin als ein elektronisches Peer-to-Peer-Geldsystem. Dieser einfache Satz, der auch der Titel des Weißbuchs ist, enthält viele Hinweise auf das Wesen von Bitcoin:
-
-
-
+Wie von seinem Schöpfer, Satoshi Nakamoto, beschrieben, präsentiert sich Bitcoin als ein elektronisches Peer-to-Peer-Geldsystem. Dieser einfache Satz, der auch der Titel des Whitepapers ist, enthält viele Hinweise auf das Wesen von Bitcoin:
 
 - Zunächst einmal beschreibt Satoshi Bitcoin als ein "System", d. h. eine zusammenhängende Menge von Hardware- und Softwarekomponenten, die zusammenwirken, um einen bestimmten Dienst zu erbringen oder eine bestimmte Funktion auszuführen;
 - Weiter erklärt er, dass dieses System die Verwendung von elektronischem Bargeld ermöglicht, d.h. eine Art immaterielle Währung;
 - Schließlich weist er darauf hin, dass dieses System von keiner zentralen Stelle abhängt: Es ist ein "Peer-to-Peer"-System, d. h. die Nutzer selbst sind es, die das System betreiben.
 
-
-
-Da Bitcoin ein System ist, muss es zwangsläufig auf Computern betrieben werden. Und da es sich um ein Peer-to-Peer-System handelt, sind die Benutzer selbst für den Betrieb dieser Computer verantwortlich. Was wir einen "Bitcoin-Knoten" nennen, ist genau der Computer, auf dem die Software läuft, die das Bitcoin-Protokoll implementiert (wie Bitcoin core, aber darauf kommen wir später zurück). Dadurch kann Bitcoin ohne eine zentrale Autorität funktionieren: Die Validierung wird auf verteilte Weise von Tausenden unabhängiger Maschinen durchgeführt, die Tausenden von Benutzern gehören.
-
-
+Da Bitcoin ein System ist, muss es zwangsläufig auf Computern betrieben werden. Und da es sich um ein Peer-to-Peer-System handelt, sind die Benutzer selbst für den Betrieb dieser Computer verantwortlich. Was wir eine "Bitcoin-Node" nennen, ist genau der Computer, auf dem die Software läuft, die das Bitcoin-Protokoll implementiert (wie Bitcoin Core, aber darauf kommen wir später zurück). Dadurch kann Bitcoin ohne eine zentrale Autorität funktionieren: Die Validierung wird auf verteilte Weise von Tausenden unabhängiger Maschinen durchgeführt, die Tausenden von Benutzern gehören.
 
 ![Image](assets/fr/047.webp)
 
-
-
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
-
-
 
 Es sind genau diese Nutzer, die die Sicherheit von Bitcoin gewährleisten. Wie Eric Voskuil in seinem Buch *Cryptoeconomics* erklärt, beruht die Sicherheit von Bitcoin weder auf Blockchain, noch auf Hashing-Power, noch auf Validierung, Dezentralisierung, Kryptographie, Open Source oder Spieltheorie. Die Sicherheit von Bitcoin hängt in erster Linie von den Individuen ab, die bereit sind, sich einem persönlichen Risiko auszusetzen. Die Dezentralisierung ermöglicht es, dieses Risiko auf eine große Anzahl von Personen zu verteilen, und nur deren Fähigkeit, dem zu widerstehen, gewährleistet die Robustheit des Systems.
 
-
-
-Dieses Prinzip ist leicht zu verstehen: Wenn Bitcoin von einem einzigen Knotenpunkt abhängt, der einer einzigen Person gehört, würde die Inhaftierung dieser Person ausreichen, um das Netz abzuschalten, da sie allein alle Risiken trägt. Bei Zehntausenden von Knotenpunkten, die über die ganze Welt verteilt sind, ist das Risiko breit gestreut: Jeder dieser Betreiber müsste neutralisiert werden, um Bitcoin auszuschalten.
-
-
+Dieses Prinzip ist leicht zu verstehen: Wenn Bitcoin von einer einzigen Node abhängt, der einer einzigen Person gehört, würde die Inhaftierung dieser Person ausreichen, um das Netz abzuschalten, da sie allein alle Risiken trägt. Bei Zehntausenden von Knotenpunkten, die über die ganze Welt verteilt sind, ist das Risiko breit gestreut: Jeder dieser Betreiber müsste neutralisiert werden, um Bitcoin auszuschalten.
 
 ![Image](assets/fr/048.webp)
 
-
-
 Wir können also mehrere Begriffe unterscheiden und benennen, um die Dinge für den Rest des Kurses zu klären:
 
-
-
-
 - Bitcoin-Währung: die für Transaktionen innerhalb dieses Systems verwendete Rechnungseinheit;
-- Das Bitcoin-Netz: die Menge aller verbundenen Knotenpunkte;
-- Bitcoin-Knoten: Rechner, auf denen eine Implementierung von Bitcoin läuft;
+- Das Bitcoin-Netzwerk: die Menge aller verbundenen Node;
+- Bitcoin-Nodes: Rechner, auf denen eine Implementierung von Bitcoin läuft;
 - Bitcoin-Implementierungen: Software, die das Protokoll in ausführbare Anweisungen umsetzt;
 - Bitcoin-Protokoll: das Regelwerk, das den Betrieb des Systems regelt;
 - Das Bitcoin-System: die kohärente Kombination all dieser Elements.
 
-
-
 ### Die Rolle des Bitcoin-Knotens
 
+Die Bitcoin-Nodes bilden zusammen das so genannte Bitcoin-Netzwerk. Sie ermöglichen dem gesamten System einen autonomen Betrieb, ohne Rückgriff auf eine zentrale Behörde oder eine Hierarchie von Servern.
 
-
-Die Bitcoin-Knoten bilden zusammen das so genannte Bitcoin-Netz. Sie ermöglichen dem gesamten System einen autonomen Betrieb, ohne Rückgriff auf eine zentrale Behörde oder eine Hierarchie von Servern.
-
-
-
-Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer einen persönlichen Knoten betreiben konnte. Dies gilt auch für die heutige Bitcoin core-Software, die die Funktionen von Wallet und Knoten vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Geldbörsen sind nur Geldbörsen, die mit externen Knoten verbunden sind (die derselben Person gehören oder nicht).
-
-
+Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer einen persönlichen Knoten betreiben konnte. Dies gilt auch für die heutige Bitcoin Core Software, die die Funktionen von Wallet und Nodes vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Wallets sind nur Geldbörsen, die mit externen Knoten verbunden sind (die derselben Person gehören oder nicht).
 
 ### Blockchain beibehalten
 
-
-
-Die erste Aufgabe eines Knotens besteht darin, eine lokale Kopie des Blockchain zu führen. Um Double-spending auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine Transaktion im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem Zeitstempel versehen und in Blöcken gruppiert, und jeder Knoten speichert den gesamten Blockchain.
-
-
+Die erste Aufgabe eines Knotens besteht darin, eine lokale Kopie der Blockchain zu führen. Um Double-Spending auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine Transaktion im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem Zeitstempel versehen und in Blöcken gruppiert, und jede Node speichert die gesamte Blockchain.
 
 > Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.
 
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
-
-
-Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem Miner veröffentlicht wird, prüft der Knoten dessen Gültigkeit, bevor er ihn zu seiner eigenen lokalen Kopie der Kette hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
-
-
+Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem Miner veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor er ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
 
 ![Image](assets/fr/049.webp)
 
-
-
-Der Knotenpunkt unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeitpunkt vorhandenen UTXOs, die als **UTXO-Set** bezeichnet wird. Diese Datenbank enthält alle nicht verbrauchten Bitcoin-Fragmente. Wir werden dieses Thema im letzten Teil des Kurses noch einmal ausführlich behandeln.
-
-
+Die Node unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeitpunkt vorhandenen UTXOs, die als **UTXO-Set** bezeichnet wird. Diese Datenbank enthält alle nicht ausgegebenen Bitcoin-Fragmente. Wir werden dieses Thema im letzten Teil des Kurses noch einmal ausführlich behandeln.
 
 ### Überprüfen und Verteilen von Transaktionen
 
-
-
-Die zweite Aufgabe eines Knotens besteht darin, die Überprüfung und Weiterleitung von Transaktionen sicherzustellen. Wenn eine neue Transaktion den Knoten erreicht (entweder über die Wallet-Software oder einen anderen Knoten), prüft er, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln) übereinstimmt. Zum Beispiel:
-
-
-
+Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln) übereinstimmt. Zum Beispiel:
 
 - ausgegebene Bitcoins müssen in seinem UTXO-Set (der Datenbank der nicht ausgegebenen Ausgaben) vorhanden sein;
-- die Unterschrift muss gültig sein, und alle Ausgabenbedingungen müssen erfüllt sein (gültiges Skript);
+- die Signatur muss gültig sein, und alle Ausgabenbedingungen müssen erfüllt sein (gültiges Skript);
 - der Gesamtbetrag der Outputs darf den Gesamtbetrag der Inputs nicht übersteigen, d. h. die Kosten dürfen nicht negativ sein.
-
-
 
 ![Image](assets/fr/050.webp)
 
-
-
-Nach der Validierung wird die Transaktion im Mempool des Knotens gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen er verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Knoten zu Knoten fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netz verbreitet, und jeder Knoten speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste Bestätigung hin handelt.
-
-
+Nach der Validierung wird die Transaktion im Mempool der Node gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen er verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Node zu Node fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netzwerk verbreitet, und jede Node speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste Bestätigung hin handelt.
 
 ### Kontrolle und Verteilung der Blöcke
 
-
-
-Die dritte Aufgabe des Knotens ist die Verwaltung der abgebauten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen Proof of Work entdeckt, wird er im Netz verbreitet. Die Knoten empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie des Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit dem Knoten verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Knoten im Bitcoin-Netz von dem neuen Block Kenntnis haben.
-
-
+Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen Proof-of-Work entdeckt, wird er im Netz verbreitet. Die Nodes empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie des Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit der Node verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Node im Bitcoin-Netz von dem neuen Block Kenntnis haben.
 
 ![Image](assets/fr/051.webp)
 
-
-
 ## Was ist der Unterschied zwischen einem Bogen und einem Wallet?
-
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
+Bei der Verwendung von Bitcoin ist es wichtig, zwischen zwei verschiedenen Arten von Software zu unterscheiden: der Node und der Wallet.
 
+Eine Bitcoin-Node ist, wie bereits erwähnt, ein Stück Software, das aktiv am Peer-to-Peer-Netzwerk teilnimmt. Er führt drei Hauptaufgaben aus:
 
-Bei der Verwendung des Bitcoin ist es wichtig, zwischen zwei verschiedenen Arten von Software zu unterscheiden: dem Knoten und dem Wallet.
+- Sicherung des Blockchain,
+- Validierung und Weiterleitung von Transaktionen,
+- Blockvalidierung und Relais.
 
+Ein Bitcoin Wallet hingegen ist eine Software, die dazu dient, deine privaten Keys zu speichern und zu verwalten. Mit diesen Keys kannst du deine Bitcoins ausgeben, indem du die Sperrskripte erfüllst (in der Regel durch eine Signatur). Ein Wallet kann eine Verbindung zu einer (lokalen oder entfernten) Node herstellen, um den Status der Blockchain abzufragen und die von ihm erstellten Transaktionen zu übermitteln, aber er ist als solcher kein Teilnehmer des Netzwerks.
 
-
-Ein Bitcoin-Knoten ist, wie bereits erwähnt, ein Stück Software, das aktiv am Peer-to-Peer-Netzwerk teilnimmt. Er führt drei Hauptaufgaben aus:
-
-
-
-
-- sicherung des Blockchain,
-- validierung und Weiterleitung von Transaktionen,
-- blockvalidierung und Relais.
-
-
-
-Ein Bitcoin Wallet hingegen ist eine Software, die dazu dient, Ihre privaten Schlüssel zu speichern und zu verwalten. Mit diesen Schlüsseln können Sie Ihre Bitcoins ausgeben, indem Sie die Sperrskripte erfüllen (in der Regel durch eine Signatur). Ein Wallet kann eine Verbindung zu einem (lokalen oder entfernten) Knoten herstellen, um den Status des Blockchain abzufragen und die von ihm erstellten Transaktionen zu übermitteln, aber er ist als solcher kein Teilnehmer des Netzwerks.
-
-
-
-In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Software, wie im Fall des Bitcoin core, der sowohl als Full node als auch als Wallet dient. Viele gängige Wallet-Programme (Sparrow, BlueWallet usw.) erfordern jedoch eine Verbindung zu einem externen Knoten (ob Ihr eigener oder der eines Drittanbieters), um Transaktionen zu übertragen und den Wallet-Saldo zu ermitteln.
-
-
+In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Software, wie im Fall des Bitcoin Core, welche sowohl als Full-Node als auch als Wallet dient. Viele gängige Wallet-Programme (Sparrow, BlueWallet usw.) erfordern jedoch eine Verbindung zu einer externen Node (ob deine eigene oder die eines Drittanbieters), um Transaktionen zu übertragen und den Wallet-Saldo zu ermitteln.
 
 ![Image](assets/fr/052.webp)
 
-
-
-## Was ist der Unterschied zwischen einem Knoten und einem Miner?
-
+## Was ist der Unterschied zwischen einer Node und einem Miner?
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
-
-
 Die Begriffe "Knoten" und "Miner" werden oft verwechselt. Doch diese beiden Elements erfüllen völlig unterschiedliche Funktionen innerhalb des Systems.
-
-
 
 Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: Sie fungierte als Wallet, ein Knotenpunkt, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was Sie tun mussten, war, die Bitcoin-Software auf Ihrem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
 
-
-
 Mit der allmählichen Verbreitung von Bitcoin und dem Anstieg der Zahl der Bergleute hat sich die Wettbewerbslandschaft bei Mining jedoch radikal verändert. Heute ist Mining zu einer extrem wettbewerbsintensiven Aktivität geworden, die von industriellen Akteuren mit spezialisierten Infrastrukturen dominiert wird. Die zum Schürfen eines neuen Blocks erforderliche Leistung ist inzwischen so groß, dass es für einen einzelnen Nutzer praktisch unmöglich ist, dies nur mit einem herkömmlichen Computer zu erreichen. Infolgedessen wird Mining heute hauptsächlich von spezialisierten Maschinen, so genannten ASICs (*Application-Specific Integrated Circuits*), betrieben. Diese Chips sind ausschließlich für die Ausführung des doppelten SHA-256, des für Mining verwendeten Algorithmus, auf Bitcoin optimiert.
-
-
 
 ![Image](assets/fr/053.webp)
 
-
-
 Angesichts dieser Entwicklung haben sich die Rollen des Bitcoin-Knotens und des Miner-Knotens deutlich voneinander unterschieden. Wie oben dargestellt, ist die Rolle eines Bitcoin-Knotens rein informativ und validierungsbasiert. Die Rolle des Miner ist eine andere:
-
-
-
 
 - Sie wählt die ausstehenden Transaktionen in der Mempool aus.
 - Er erstellt einen Kandidatenblock, der diese Transaktionen integriert.
 - Er sucht durch Versuch und Irrtum nach einem gültigen Proof of Work.
 - Findet er einen gültigen Beweis, sendet er den Block über seinen Knotenpunkt an die anderen Knotenpunkte.
 
-
-
 Ein Miner benötigt einen Bitcoin-Knoten, um mit dem Netz zu interagieren.
-
-
 
 Die Rolle des Miner wird manchmal auch von der des Zerhackers unterschieden. Ein Zerhacker ist eine Maschine, deren Aufgabe darin besteht, Hash Vorlagenblöcke, die vom Server eines Pools geliefert werden, nach Hashes zu durchsuchen, die dem für die Anteile definierten Schwierigkeitsziel entsprechen, und nicht dem von Bitcoin. Der Rest des Mining-Prozesses, der die eigentliche Blockkonstruktion, die Transaktionsauswahl oder die Proof-of-Work-Suche nach der Bitcoin-eigenen Schwierigkeit sowie die Verteilung umfasst, wird direkt von den Pools durchgeführt.
 
-
-
 ![Image](assets/fr/054.webp)
-
-
 
 Schließlich gibt es einen wichtigen Unterschied in Bezug auf den wirtschaftlichen Anreiz zwischen dem Miner und dem Knoten. Der Betrieb eines Bitcoin-Knotens bringt keinen direkten finanziellen Vorteil. Auf der anderen Seite bringt die Teilnahme an Mining Belohnungen (Subventionen und Transaktionsgebühren) für jeden gefundenen Block.
 
-
-
 In Teil 2 werden wir uns eingehender mit den praktischen und persönlichen Vorteilen der Installation und Nutzung eines Bitcoin-Knotens befassen, die über den rein finanziellen Aspekt hinausgehen.
-
-
 
 ## Bitcoin core und Protokollimplementierungen
 

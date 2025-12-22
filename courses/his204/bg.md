@@ -1621,13 +1621,13 @@ objectives:
 
 2. Вобан, "Проект за кралски дворец", 1707 г.; преиздание Institut Coppet, 2014 г.; Anne Blanchard, Vauban, Fayard, 1996 г
 
-3.	Boisguilbert, Détail de la France, 1695 г.; преиздадена от Institut Coppet, 2014 г
+3.	Боагилбер, Détail de la France, 1695 г.; преиздадена от Institut Coppet, 2014 г
 
 4. Феликс Кадет, Пиер дьо Боагилбер: предшественик на икономистите, Институт Копет, 2014 г
 
 5. Pierre de Boisguilbert ou la naissance de l'économie politique, Paris, INED, 1966
 
-6. Richard Cantillon, Essai sur la nature du commerce en général, 1755 г.; преиздадено от Institut Coppet, 2015 г
+6. Ришар Кантийон, Essai sur la nature du commerce en général, 1755 г.; преиздадено от Institut Coppet, 2015 г
 
 7. Антоан Мърфи, Ричард Кантийон, банкер и икономист, Оксфорд, 1986 г
 

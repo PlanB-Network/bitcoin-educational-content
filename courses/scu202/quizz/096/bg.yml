@@ -1,0 +1,9 @@
+question: Какъв тип протокол трябва да се активира, за да се криптират заявките за DNS в локална мрежа?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS през HTTPS) и DoT (DNS през TLS) криптират заявките за DNS, като предотвратяват прихващането им.
+reviewed: false

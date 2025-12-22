@@ -1,8 +1,0 @@
-question: What is the primary consequence of LDK's broad scope as a generic Lightning solution that most significantly impacted Lipa's development velocity?
-answer: The development team had to spend considerable time troubleshooting routing problems and implementing features that should ideally be handled at the library level
-wrong_answers:
-  - The lack of LNURL support forced developers to create custom payment request formats that were incompatible with existing Lightning wallets
-  - The absence of anchor outputs required manual fee management for all channel operations, creating complex user interface requirements
-  - The low-level Rust implementation demanded extensive memory optimization work to prevent mobile applications from crashing during network synchronization
-explanation: |
-  LDK's generic nature meant it couldn't quickly address specific issues that wallet developers commonly face. The development team found themselves implementing wallet-specific features and fixing routing problems that an opinionated, wallet-focused solution like Breeze SDK handles internally. The other options describe legitimate LDK limitations but don't capture the core velocity impact of having to build wallet-specific functionality on top of a generic toolkit.

@@ -330,7 +330,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Dalam tutorial ini, saya akan menunjukkan kepada Anda penggunaan lanjutan Passport dengan Sparrow Wallet. Namun, dompet perangkat keras ini juga kompatibel dengan Envoy (aplikasi Foundation), Keeper, BlueWallet, Nunchuk, Spectre, dan banyak lagi...
 
-Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
+Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
 
 ![Image](assets/fr/54.webp)
 

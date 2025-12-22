@@ -6,3 +6,4 @@ wrong_answers:
   - Avledede verk kan bare distribueres under proprietære lisenser som krever betaling av royalties
 explanation: |
   Definisjonen av åpen kildekode sier eksplisitt at "lisensen må tillate modifikasjoner og avledede verk, og må tillate at de distribueres under de samme vilkårene som lisensen for den opprinnelige programvaren" Dette sikrer at avledede verk opprettholder de samme frihetene som originalen, og forhindrer at noen tar åpen kildekode og gjør den proprietær. De andre alternativene bryter med dette grunnleggende prinsippet ved enten å begrense friheten eller endre lisenskompatibiliteten.
+reviewed: false

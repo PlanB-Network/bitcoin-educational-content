@@ -6,3 +6,4 @@ wrong_answers:
   - Ini menekankan pada pengurangan kebutuhan komputasi untuk node daripada memperluas kapasitas jaringan
 explanation: |
   Buku ini mendefinisikan penskalaan sebagai 'meningkatkan kapasitas penggunaan Bitcoin tanpa mengorbankan ketahanan sensor,' yang secara eksplisit mencakup kendala ketahanan sensor. Hal ini membedakannya dari definisi lain yang hanya berfokus pada peningkatan kapasitas transaksi, peningkatan efisiensi, atau sistem berlapis tanpa mempertimbangkan pelestarian sifat fundamental Bitcoin. Persyaratan ketahanan sensor memastikan bahwa solusi penskalaan tidak merusak proposisi nilai inti Bitcoin sebagai sistem terdesentralisasi yang tidak dapat dipercaya dan tidak dapat dikontrol oleh satu entitas pun.
+reviewed: false

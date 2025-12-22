@@ -6,3 +6,4 @@ wrong_answers:
   - 20.500.000,0000 BTC ungefähr
 explanation: |
   Pieter Wuille hat errechnet, dass das theoretische Maximalangebot 20.999.999,9769 BTC beträgt, was etwas weniger ist als die allgemein genannten 21 Millionen. Dies ist auf den spezifischen Halbierungsplan und die Rundung im Code von Bitcoin zurückzuführen. Die Zahl von 21 Millionen ist ein gerundeter Näherungswert. Die Zahl 20.999.817,3131 stellt den tatsächlichen Umlauf dar, nachdem verlorene Münzen und mining-Fehler bis zu einem bestimmten Block berücksichtigt wurden, und nicht das theoretische Maximum.
+reviewed: false

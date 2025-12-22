@@ -149,8 +149,8 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-- Android Flash-verktøy**: Bruk det offisielle Google-verktøyet [flash.android.com] (https://flash.android.com) for å enkelt gjenopprette Pixel-enheten din til standard Android fra nettleseren din (Chrome/Edge kreves)
-- Alternativ**: Fabrikkbilder manuelt fra [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Android Flash-verktøy**: Bruk det offisielle Google-verktøyet [flash.android.com](https://flash.android.com) for å enkelt gjenopprette Pixel-enheten din til standard Android fra nettleseren din (Chrome/Edge kreves)
+- Alternativ**: Fabrikkbilder manuelt fra [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ Ifølge offisiell statistikk inkluderer de mest brukte modellene en rekke enhete
 
 
 
-**ADB- og Fastboot-verktøy:** Følg den [offisielle LineageOS-veiledningen] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) for å installere Android SDK Platform Tools. Bekreft installasjonen med `adb version` og `fastboot --version`.
+**ADB- og Fastboot-verktøy:** Følg den [offisielle LineageOS-veiledningen](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) for å installere Android SDK Platform Tools. Bekreft installasjonen med `adb version` og `fastboot --version`.
 
 
 
@@ -722,9 +722,9 @@ LineageOS tilbyr et modent alternativ for å gjenvinne kontrollen over Android-s
 
 
 
-- [LineageOS offisielle nettside] (https://lineageos.org)
-- [LineageOS Wiki] (https://wiki.lineageos.org) - Installasjonsveiledninger etter modell
-- [LineageOS for microG] (https://lineage.microg.org) - Versjon med integrert microG
+- [LineageOS offisielle nettside](https://lineageos.org)
+- [LineageOS Wiki](https://wiki.lineageos.org) - Installasjonsveiledninger etter modell
+- [LineageOS for microG](https://lineage.microg.org) - Versjon med integrert microG
 
 
 
@@ -733,7 +733,7 @@ LineageOS tilbyr et modent alternativ for å gjenvinne kontrollen over Android-s
 
 
 
-- [Subreddit r/LineageOS] (https://reddit.com/r/LineageOS)
+- [Subreddit r/LineageOS](https://reddit.com/r/LineageOS)
 - [Mastodon-konto @LineageOS](https://fosstodon.org/@LineageOS)
 
 

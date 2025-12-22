@@ -6,3 +6,4 @@ wrong_answers:
   - Käyttäjät ovat täysin anonyymejä, eikä tapahtumia voida yhdistää toisiinsa
 explanation: |
   Bitcoin:n pseudonyymi luonne tarkoittaa, että vaikka käyttäjät toimivat pseudonyymeillä (julkisista avaimista johdetuilla osoitteilla), heidän transaktioitaan voidaan silti jäljittää ja yhdistää näiden pseudonyymien välillä lohkoketjussa. Tämä eroaa todellisesta anonymiteetistä, jossa transaktioista ei jäisi lainkaan jäljitettäviä yhteyksiä. Bitcoin:ssä voi seurata osoitteiden välisiä rahavirtoja, mutta osoitteiden takana oleva todellinen henkilöllisyys ei paljastu suoraan, ellei joku vapaaehtoisesti paljasta sitä tai tee virheitä, jotka vuotavat hänen yksityisiä tietojaan.
+reviewed: false

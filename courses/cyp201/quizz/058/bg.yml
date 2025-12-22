@@ -1,0 +1,9 @@
+question: Коя функция се използва, за да се извлече seed от мнемоничната фраза?
+answer: PBKDF2 с HMAC-SHA512
+wrong_answers:
+  - Само SHA256
+  - Двойно SHA256
+  - AES-256
+explanation: |
+  seed се генерира с помощта на функцията PBKDF2 с HMAC-SHA512 и 2048 итерации от мнемоничната фраза и passphrase.
+reviewed: false

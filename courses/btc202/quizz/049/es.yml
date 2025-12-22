@@ -1,7 +1,7 @@
 question: ¿Cuál es el valor por defecto del parámetro dbcache en Bitcoin core?
-answer: 450 MB
+answer: 450 MiB
 wrong_answers:
-  - 128 MB
+  - 128 MiB
   - 1 GiB
   - 4 GiB
 explanation: |

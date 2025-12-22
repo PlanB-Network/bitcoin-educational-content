@@ -1,0 +1,8 @@
+question: Vilken är den största fördelen med att använda typerna Result och Option i stället för panic för felhantering i Rust-kod i produktion?
+answer: De tvingar fram en uttrycklig bekräftelse av potentiella fel och möjliggör en smidig felåterställning
+wrong_answers:
+  - De ger bättre prestanda genom att undvika att stapeln rullas upp under felförhållanden
+  - De konverterar automatiskt alla feltyper till strängmeddelanden för enklare felsökning
+  - De eliminerar behovet av felutbredning genom att hantera fel vid felpunkten
+explanation: |
+  Typerna Result och Option gör felhanteringen explicit och återställbar genom att tvinga utvecklare att erkänna att operationer kan misslyckas och tillhandahålla mekanismer för att hantera dessa misslyckanden på ett elegant sätt. Till skillnad från panik, som omedelbart avbryter exekveringen, tillåter dessa typer att program fortsätter att köras och svarar på lämpligt sätt på felförhållanden. De felaktiga svaren ger en felaktig bild av deras kapacitet: prestanda är inte deras främsta fördel, de konverterar inte automatiskt fel till strängar (det är anyhows funktion) och de underlättar snarare än eliminerar felfortplantning genom operatorer som ?

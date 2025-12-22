@@ -141,7 +141,7 @@ Mottakeren din må skanne den genererte QR-koden for å gjøre krav på satoshie
 
 
 
-Offline-betalinger gjøres hovedsakelig ved hjelp av [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). Transaksjonen lagres i telefonen din, og så snart du får tilgang til Internett, bekreftes transaksjonen automatisk. Du kan også bekrefte betalingen manuelt ved å klikke på **Bekreft transaksjonen**.
+Offline-betalinger gjøres hovedsakelig ved hjelp av [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transaksjonen lagres i telefonen din, og så snart du får tilgang til Internett, bekreftes transaksjonen automatisk. Du kan også bekrefte betalingen manuelt ved å klikke på **Bekreft transaksjonen**.
 
 
 

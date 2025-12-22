@@ -415,7 +415,7 @@ Flere ressurser i vedleggene.
 
 
 
-- [BEEP] (https://planb.academy/resources/glossary/bip)
+- [BEEP](https://planb.academy/resources/glossary/bip)
 - [BIP-32](https://planb.academy/resources/glossary/bip0032)
 - [BIP-39](https://planb.academy/resources/glossary/bip0039)
 - [BIP-85](https://planb.academy/resources/glossary/bip0085)

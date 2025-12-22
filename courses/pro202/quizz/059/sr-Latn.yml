@@ -1,0 +1,8 @@
+question: U kontekstu kompaktnih blok filtera (BIP158) za klijente sa očuvanjem privatnosti, koja je ključna razmena koja ih čini efikasnim za wallet privatnost?
+answer: Oni mogu proizvesti lažno pozitivne rezultate, ali nikada lažno negativne, omogućavajući klijentima preuzimanje potencijalno irelevantnih blokova bez otkrivanja specifičnih adresa.
+wrong_answers:
+  - Oni mogu proizvesti lažno negativne rezultate, ali nikada lažno pozitivne, osiguravajući da klijenti preuzimaju samo blokove koji sadrže njihove transakcije.
+  - Oni eliminišu i lažno pozitivne i lažno negativne rezultate koristeći determinističko filtriranje zasnovano na wallet adresama.
+  - "Proizvode i lažno pozitivne i lažno negativne rezultate u jednakim proporcijama kako bi zamaglili stvarne obrasce transakcija klijenta"
+explanation: |
+  Kompaktni blok filteri su dizajnirani sa asimetričnim modelom greške: mogu naznačiti da blok sadrži relevantne transakcije kada to nije slučaj (lažno pozitivan), ali nikada neće propustiti blok koji zaista sadrži relevantne transakcije (nema lažno negativnih). Ovaj dizajn je ključan jer bi lažno negativni značili propuštanje stvarnih uplata, dok lažno pozitivni samo rezultiraju preuzimanjem nepotrebnih blokova. Stopa lažno pozitivnih pruža privatnost tako što prisiljava klijente da preuzmu neke nerelevantne blokove, čineći nemogućim za posmatrače da odrede koji blokovi zaista sadrže transakcije klijenta.

@@ -6,3 +6,4 @@ wrong_answers:
   - Impide el uso de la llave de revocación
 explanation: |
   El cierre forzado es menos deseable porque incluye un bloqueo de tiempo, lo que ralentiza el proceso, y las tarifas pueden ser inapropiadas ya que se establecieron en el momento de la creación del canal.
+reviewed: true

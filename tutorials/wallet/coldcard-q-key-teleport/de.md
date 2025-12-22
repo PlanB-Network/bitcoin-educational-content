@@ -32,7 +32,7 @@ Dies kann zur Übertragung verwendet werden:
 
 
 - **gW-0-Sätze** (ColdCard Qs seed-Master oder die in ColdCardQs [seed-Gewölbe](https://coldcard.com/docs/temporary-seeds/#seed-vault) gespeicherten Geheimnisse.
-- **vertrauliche Notizen und Passwörter**: Dies kann ein beliebiges Geheimnis oder das gesamte Verzeichnis [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) auf Ihrer ColdCardQ sein.
+- **vertrauliche Notizen und Passwörter**: Dies kann ein beliebiges Geheimnis oder das gesamte Verzeichnis [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) auf Ihrer ColdCardQ sein.
 - eine Sicherungskopie Ihrer gesamten **ColdCardQ**: die ColdCardQ, die diese Sicherungskopie erhält, darf keinen seed Master haben, damit dies funktioniert.
 - gW-3 (**Teilsignierte Bitcoin-Transaktionen**) als Teil eines Multisignatursystems.
 

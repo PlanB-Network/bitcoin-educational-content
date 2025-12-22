@@ -1,11 +1,17 @@
 ---
-name: Mesec
+name: Moon
 description: Plaćajte bitcoinima gde god se prihvataju Visa kartice.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Ažuriranje decembar 2025: Pažnja, **od početka decembra 2025 deo Moon usluga više nije dostupan**, naročito dopunjive Visa bankarske kartice. Još uvek ne znamo da li je ova nedostupnost privremena ili trajna. Ovaj tutorijal biće ažuriran čim budemo imali više informacija.*
+
+---
 
 Moon vam omogućava da koristite kriptovalute poput bitcoina za kupovinu virtuelnih Visa kartica i poklon kartica bez KYC-a, koje se mogu koristiti kod miliona online trgovaca, baš kao tradicionalna bankovna kartica. Tako nudi jednostavan način da potrošite svoj sats gde god je Visa prihvaćena, bez prolaska kroz platformu za razmenu.
 
@@ -177,7 +183,7 @@ Pomoću ove virtuelne kartice, možete plaćati proizvode i usluge online kao š
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

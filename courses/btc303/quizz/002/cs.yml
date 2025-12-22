@@ -6,3 +6,4 @@ wrong_answers:
   - Decentralizace uživatelů a decentralizace vývojářů
 explanation: |
   Decentralizace Bitcoin má dvě klíčové složky: decentralizaci těžařů a decentralizaci full node. Decentralizace Miner znamená, že zpracování a objednávání transakcí není řízeno žádným jednotlivým subjektem, ale dynamickým kolektivem těžařů, kteří se mohou volně připojit nebo odejít. Decentralizace Full node znamená, že ověřování bloků provádějí na okraji sítě sami uživatelé, nikoli důvěryhodné autority. Tyto dva aspekty spolupracují na dosažení odolnosti vůči cenzuře - těžaři zabraňují centralizovanému nařizování transakcí, zatímco plné uzly zajišťují nedůvěryhodné ověřování blockchainu.
+reviewed: false

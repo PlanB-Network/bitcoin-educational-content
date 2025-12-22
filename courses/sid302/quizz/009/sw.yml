@@ -1,0 +1,8 @@
+question: Kusudi kuu la Ahadi za Pedersen katika Elements' Confidential Transactions ni lipi?
+answer: Kubadilisha kiasi cha miamala kinachoonekana na ahadi za kriptografia ambazo zinaweza kuthibitishwa bila kufichua thamani halisi
+wrong_answers:
+  - Kwa vitambulisho vya kipekee vya heksadesimali vya generate vyenye herufi 64 kwa mali mpya zilizotolewa kwenye blockchain ya Elements
+  - Ili kuzuia double-spending kwa kuunda uthibitisho wa hisabati kwamba thamani zilizofichwa ni nambari chanya ndani ya masafa halali
+  - Ili kuwezesha uhamisho wa Bitcoin kutoka kwa mnyororo mkuu hadi minyororo ya kando ya Elements kupitia mifumo ya uandishi wa kriptografia
+explanation: |
+  Ahadi za Pedersen ndio utaratibu mkuu wa kriptografia unaowezesha faragha katika Confidential Transactions kwa kubadilisha kiasi kinachoonekana na ahadi za hisabati. Kutokana na sifa zao za homomorphic, wathibitishaji wanaweza kuthibitisha kwamba ingizo hulingana na matokeo pamoja na ada bila kuona thamani halisi. Uthibitisho wa Masafa huzuia kiasi hasi, vitambulisho vya mali hutambua tokeni, na mifumo ya vigingi hushughulikia uhamishaji wa mnyororo mtambuka, lakini hakuna hata moja kati ya haya ambayo ni kazi ya Ahadi za Pedersen haswa.

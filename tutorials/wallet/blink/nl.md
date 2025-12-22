@@ -20,7 +20,7 @@ description: Complete Blink Wallet-handleiding - Bitcoin probleemloos verzenden,
 Vergeet alles wat je denkt te weten over Bitcoin portemonnees die ingewikkeld zijn. Blink is de iPhone van de Bitcoin portemonnees.
 
 
-Voorheen bekend als Bitcoin Beach Wallet, is Blink een gebruiksvriendelijke mobiele app die Bitcoin naar iedereen brengt, waar ook ter wereld. Het werd oorspronkelijk [gebouwd voor de Bitcoin Beach gemeenschap] (https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador, en het helpt nu mensen over de hele wereld om moeiteloos Bitcoin te verzenden, ontvangen en gebruiken.
+Voorheen bekend als Bitcoin Beach Wallet, is Blink een gebruiksvriendelijke mobiele app die Bitcoin naar iedereen brengt, waar ook ter wereld. Het werd oorspronkelijk [gebouwd voor de Bitcoin Beach gemeenschap](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador, en het helpt nu mensen over de hele wereld om moeiteloos Bitcoin te verzenden, ontvangen en gebruiken.
 
 
 Of je nu nieuw bent met Bitcoin of een doorgewinterde gebruiker, deze gids leidt je door alles wat je moet weten om aan de slag te gaan.
@@ -62,7 +62,7 @@ Dit is wat veel gebruikers schokte: Het instellen van Blink gaat sneller dan het
 
 - Downloaden Blink Wallet
  - Zoek naar "Blink Wallet" in de [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) of [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), afhankelijk van je apparaat.
- - Je kunt het ook rechtstreeks downloaden van de [Blink Wallet website] (https://blink.sv).
+ - Je kunt het ook rechtstreeks downloaden van de [Blink Wallet website](https://blink.sv).
 - Maak een Wallet
  - Tik op "Nieuw Wallet aanmaken"
  - Ga akkoord met voorwaarden en bepalingen
@@ -79,7 +79,7 @@ Dit is wat veel gebruikers schokte: Het instellen van Blink gaat sneller dan het
 ![image](assets/fr/02.webp)
 
 
-Als je [Blink Wallet] (https://blink.sv/) voor het eerst opent, zie je iets verfrissend schoons. Geen grafieken die naar je schreeuwen, geen knipperende getallen, alleen je saldo en een paar eenvoudige knoppen.
+Als je [Blink Wallet](https://blink.sv/) voor het eerst opent, zie je iets verfrissend schoons. Geen grafieken die naar je schreeuwen, geen knipperende getallen, alleen je saldo en een paar eenvoudige knoppen.
 
 
 ### Overzicht hoofdscherm
@@ -305,7 +305,7 @@ Blink is een custodial Wallet, wat betekent dat ze je fondsen namens jou bewaren
 
 
 - Voordelen: Eenvoudige installatie, gebruiksvriendelijke Interface, klantondersteuning beschikbaar
-- Nadelen: Je hebt geen controle over je [privésleutels] (https://www.blink.sv/blog/not-your-keys-not-your-coins), wat betekent dat je op Blink vertrouwt om je geld te beheren
+- Nadelen: Je hebt geen controle over je [privésleutels](https://www.blink.sv/blog/not-your-keys-not-your-coins), wat betekent dat je op Blink vertrouwt om je geld te beheren
 
 
 ### Limieten voor transacties
@@ -358,7 +358,7 @@ Blink is een custodial Wallet, wat betekent dat ze je fondsen namens jou bewaren
 
 - Raadpleeg de documentatie en [FAQ] van Blink (https://faq.blink.sv/)
 - Neem contact op met de klantenservice via de app
-- Controleer [Blink ondersteuningspagina] (https://www.blink.sv/en/support)
+- Controleer [Blink ondersteuningspagina](https://www.blink.sv/en/support)
 - Word lid van de [Blink Telegram community](https://t.me/blinkbtc) voor algemene vragen
 
 

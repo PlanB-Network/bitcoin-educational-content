@@ -1,5 +1,5 @@
 ---
-name: Yeşim Kendin Yap
+name: Jade DIY
 description: 15 dolarlık bir geliştirme kartını tamamen işlevsel bir Bitcoin donanım wallet'e dönüştürün
 ---
 
@@ -105,7 +105,7 @@ Ancak donanım cüzdanları kendi tehditlerini de beraberinde getirir. Üreticin
 
 
 
-- Entropi ve seed ifadeleri:** wallet'iniz ancak onu doğuran rastgelelik kadar güvenlidir. Cihazın rastgele sayı üretecini zar atma gibi insan dostu hilelerle karıştıracağız, bu entropiyi 12 veya 24 kelimelik bir [BIP39 ifadesine] (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) dönüştüreceğiz ve güvendiğiniz yazılı veya metal bir yedekle odadan çıkacağız.
+- Entropi ve seed ifadeleri:** wallet'iniz ancak onu doğuran rastgelelik kadar güvenlidir. Cihazın rastgele sayı üretecini zar atma gibi insan dostu hilelerle karıştıracağız, bu entropiyi 12 veya 24 kelimelik bir [BIP39 ifadesine](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) dönüştüreceğiz ve güvendiğiniz yazılı veya metal bir yedekle odadan çıkacağız.
 - Tohum cümlesi hijyeni:** seed'ye birikimlerinizin ana anahtarları gibi davranın. Kelimeleri asla bir telefona veya bilgisayara yazmayın - keylogger'lar, ekran görüntüleri ve bulut yedeklemeleri sonsuza kadar sızdırabilir. İfadeyi çevrimdışı tutun, sadece sizin erişebileceğiniz bir yerde saklayın ve ayrılmadan önce yüksek sesle okuma alıştırması yapın.
 - Güvenli eleman + mikrodenetleyici:** secure element'i kasa ve mikrodenetleyiciyi beyin olarak düşünün. secure element, özel anahtarları kurcalamaya karşı dirençle korurken, mikrodenetleyici ekranı, düğmeleri ve ürün yazılımı mantığını yönetir. Bugün inşa ettiğimiz donanım cüzdanlarının secure element'e sahip olmadığını unutmayın. Bu güvensiz olduğu anlamına gelmez, sadece bir koruma seviyesi daha azdır.
 - Firmware'e güvenmek:** Firmware, wallet'un görünmez işletim sistemidir. Her zaman etiketli sürümlerden indirin, yayınlanan karmayı kontrol edin ve tekrarlanabilir yapıların birden fazla kişinin aynı kodu derlemesine ve tam olarak aynı ikili dosyaya ulaşmasına izin verdiğini anlayın. Sağlama toplamı eşleşmiyorsa, imzalamayın.
@@ -132,7 +132,7 @@ Bugün, aygıt yazılımlarını 15 dolarlık bir donanıma yükleyeceğiz.
 
 
 
-- LilyGO T-Display (kabuklu 16MB, model K164)** - [Doğrudan LilyGO'dan sipariş edin] (https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) yaklaşık 15 $ karşılığında. Bu ESP32 kartı, Blockstream'in Jade Plus'ını yansıtan ekran, düğmeler ve USB arayüzü sağlar. Yerleşik ESP32 ayrıca Wi-Fi ve Bluetooth radyoları içerir; bunları devre dışı bırakan ürün yazılımı göndereceğiz, ancak tehdit modelinizi şekillendiriyorlar çünkü kötü amaçlı kod bunları tekrar açabilir.
+- LilyGO T-Display (kabuklu 16MB, model K164)** - [Doğrudan LilyGO'dan sipariş edin](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) yaklaşık 15 $ karşılığında. Bu ESP32 kartı, Blockstream'in Jade Plus'ını yansıtan ekran, düğmeler ve USB arayüzü sağlar. Yerleşik ESP32 ayrıca Wi-Fi ve Bluetooth radyoları içerir; bunları devre dışı bırakan ürün yazılımı göndereceğiz, ancak tehdit modelinizi şekillendiriyorlar çünkü kötü amaçlı kod bunları tekrar açabilir.
 - USB-C kablosu** - Aygıt yazılımını flaş edebilmeniz ve kartı doğrudan dizüstü bilgisayarınızdan çalıştırabilmeniz için veri özellikli bir kablo getirin (sınıf kullanımı için tamamen uygundur).
 
 
@@ -153,7 +153,7 @@ Bugün, aygıt yazılımlarını 15 dolarlık bir donanıma yükleyeceğiz.
 ### Davanızı Hazırlayın
 
 
-LilyGO T-Display kartınızı barındırmak için iki seçeneğiniz vardır: 3D baskılı bir kasa veya resmi LilyGO muhafazası. Basılı kasa [bu model] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure) adresinden bulunabilir ve yazdırılabilir. Cihazınız için hafif ve özelleştirilebilir bir kabuk sunar.
+LilyGO T-Display kartınızı barındırmak için iki seçeneğiniz vardır: 3D baskılı bir kasa veya resmi LilyGO muhafazası. Basılı kasa [bu model](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure) adresinden bulunabilir ve yazdırılabilir. Cihazınız için hafif ve özelleştirilebilir bir kabuk sunar.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ Blockstream Green, JadeDIY'nin kurulumunu tamamlayan yazılımdır ve masaüstü
 
 
 
-- Resmi Blockstream uygulamasını edinin - bu, web sitelerinden ona giden bağlantıdır. Oraya gittiğinizde [Şimdi indir] (https://blockstream.com/app/) seçeneğine tıklayın.
+- Resmi Blockstream uygulamasını edinin - bu, web sitelerinden ona giden bağlantıdır. Oraya gittiğinizde [Şimdi indir](https://blockstream.com/app/) seçeneğine tıklayın.
 
 
 ![image](assets/fr/12.webp)

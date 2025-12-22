@@ -1,0 +1,8 @@
+question: 从自我管理的 LDK 实施迁移到 Breez SDK 基于云的架构时，最重要的隐私权衡是什么？
+answer: 通过基于云的路由选择，Greenlight 获得了对付款目的地和发票生成活动的潜在可见性
+wrong_answers:
+  - "私钥存储在 Blockstream 的服务器上，而不是用户设备上的本地存储器"
+  - 通道状态信息通过 Greenlight 节点在 Lightning Network 图上公开可见
+  - LSP 服务现在可以监控所有 on-chain 交易，并将其与 Lightning 支付模式联系起来
+explanation: |
+  正确答案指出了隐私退化的关键所在：基于云的路由允许 Greenlight 观察支付目的地，而云发票生成则扩大了信息曝光范围，超出了传统的仅 LSP 架构所揭示的范围。错误答案的原因是：尽管采用了云架构，私钥仍由用户控制；通道状态不会通过路由公开；LSP 不会通过这种架构变化获得额外的 on-chain 交易监控能力。

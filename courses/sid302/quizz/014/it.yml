@@ -1,0 +1,8 @@
+question: Cosa garantisce che entrambe le parti in uno swap cross-layer completino con successo la transazione o che entrambe falliscano senza perdere fondi?
+answer: Lo stesso blocco hash viene utilizzato su entrambe le reti, creando un legame crittografico tra le gambe di scambio
+wrong_answers:
+  - I blocchi temporali impediscono a una delle parti di richiedere fondi finché entrambe le reti non confermano le transazioni
+  - L'aggregazione di chiavi MuSig2 richiede la co-firma di entrambe le parti prima che i fondi possano essere spostati
+  - "Il percorso dello script di Taproot inverte automaticamente le transazioni se una rete non viene completata"
+explanation: |
+  La natura atomica degli scambi tra livelli si basa sull'utilizzo di blocchi hash identici in entrambe le reti. Quando il destinatario rivela la preimmagine segreta per richiedere fondi su un livello, lo stesso segreto diventa visibile e utilizzabile dal mittente per richiedere fondi reciproci sull'altro livello. Questo vincolo crittografico garantisce l'atomicità: o entrambe le parti ottengono i fondi o nessuna, eliminando il rischio di controparte negli swap senza fiducia.

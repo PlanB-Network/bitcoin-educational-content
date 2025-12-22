@@ -6,3 +6,4 @@ wrong_answers:
   - El canal no puede cerrarse hasta que el HTLC haya expirado.
 explanation: |
   Durante un cierre forzoso, los HTLC pendientes se representan como resultados en las transacciones de compromiso, asegurando así su ejecución o devolución según las condiciones definidas.
+reviewed: true

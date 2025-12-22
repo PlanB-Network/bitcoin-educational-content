@@ -6,3 +6,4 @@ wrong_answers:
   - Los sistemas en línea procesan las transacciones más rápidamente, lo que facilita a los adversarios lanzar ataques coordinados
 explanation: |
   La distinción clave destacada por Andrew Poelstra es que los sistemas físicos pueden confiar en las fuerzas del orden y en la visibilidad de los adversarios para disuadir los ataques, incluso aceptando algunos riesgos como el incendio de edificios. Sin embargo, los sistemas en línea como Bitcoin operan en un entorno en el que los adversarios pueden actuar de forma seudónima o anónima, conectarse desde cualquier lugar y explotar los puntos débiles sin ser identificados ni descubiertos. Esta diferencia fundamental significa que todas las debilidades conocidas de Bitcoin deben ser abordadas, ya que inevitablemente serán explotadas por adversarios invisibles que no se enfrentan a consecuencias en el mundo real.
+reviewed: false

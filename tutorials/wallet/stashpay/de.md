@@ -23,7 +23,7 @@ StashPay ist ein selbstverwaltender Wallet, der vor allem für seine minimalisti
 
 
 
-StashPay ist ein Open-Source-Projekt, das in React Native entwickelt wurde und darauf abzielt, das Problem der hohen Transaktionsgebühren selbst bei Transaktionen auf der Hauptkette des Bitcoin-Protokolls zu lösen. Es ist als mobile App für Android- und iOS-Plattformen über Download-Links auf der [Website] (https://stashpay.me/) verfügbar.
+StashPay ist ein Open-Source-Projekt, das in React Native entwickelt wurde und darauf abzielt, das Problem der hohen Transaktionsgebühren selbst bei Transaktionen auf der Hauptkette des Bitcoin-Protokolls zu lösen. Es ist als mobile App für Android- und iOS-Plattformen über Download-Links auf der [Website](https://stashpay.me/) verfügbar.
 
 
 

@@ -1,0 +1,8 @@
+question: Milline matemaatiline seos peab ECDSA allkirja kontrollimise protsessis kehtima, et allkirja saaks lugeda kehtivaks?
+answer: UG + VP x-koordinaat peab olema võrdne R, kus U = Z/S ja V = R/S
+wrong_answers:
+  - UG + VP y-koordinaat peab olema võrdne S, kus U = R/Z ja V = S/Z
+  - KG + ZP x-koordinaat peab olema võrdne S, kus K on nonce ja Z on hash
+  - R + S summa peab olema võrdne avaliku võtmepunkti P x-koordinaadiga
+explanation: |
+  ECDSA verifitseerimine toimib algse punkti KG rekonstrueerimise kaudu võrrandi UG + VP abil, kus U = Z/S (hash jagatud S-ga) ja V = R/S. Kui selle rekonstrueeritud punkti x-koordinaat on võrdne allkirja R-ga, on verifitseerimine edukas. See matemaatiline seos võimaldab verifitseerimist ilma isikliku võtme või nonce K teadmata, kuna algebra rekonstrueerib KG kaudselt avaliku võtme ja allkirja komponentide kaudu.

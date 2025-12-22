@@ -6,3 +6,4 @@ wrong_answers:
   - Inga ytterligare system kan byggas ovanpå det
 explanation: |
   Bitcoin:s tillitslösa baslager utgör en grund som möjliggör flexibilitet när det gäller att bygga olika typer av system ovanpå. Som Matt Corallo förklarade kan du inte bygga opålitliga system ovanpå pålitliga system, men du kan bygga pålitliga system (som förvaringsplånböcker) ovanpå opålitliga system. Detta innebär att Bitcoin:s trustless foundation stöder både trustless applikationer och trusted services, vilket ger systemdesigners friheten att välja lämpliga avvägningar utan att tvinga samma avvägningar på alla andra som använder baslagret.
+reviewed: false

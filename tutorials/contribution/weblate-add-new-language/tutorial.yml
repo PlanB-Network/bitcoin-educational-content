@@ -38,11 +38,12 @@ proofreading:
     contributor_names:
     reward: 0.75
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.29
+      - ProfScofield21
+    reward: 0.15
   - language: it
     last_contribution_date: '2025-10-31'
     urgency: 1
@@ -146,6 +147,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.08
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.75
 tags:
   - guides
   - development

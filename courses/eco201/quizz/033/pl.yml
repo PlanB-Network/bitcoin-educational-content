@@ -1,11 +1,11 @@
-question: Jaki jest związek między oszczędnościami a standardem życia według austriackich ekonomistów?
+question: Jaki jest związek między oszczędnościami a standardem życia według ekonomistów austriackich?
 answer: Im więcej zaoszczędzimy, tym więcej kapitału będziemy w stanie zgromadzić, co z kolei przełoży się na wzrost produktywności, przynoszący więcej dóbr. W ten sposób osiągniemy wyższy standard życia.
 wrong_answers:
   - Im więcej oszczędzamy, tym niższy staje się nasz standard życia.
   - Nie ma związku między oszczędnościami a standardem życia.
   - Im mniej oszczędzamy, tym wyższy staje się nasz standard życia.
 explanation: |
-  Austriaccy ekonomiści uważają, że obniżenie preferencji czasowej jest
+  Ekonomistów austriaccy uważają, że obniżenie preferencji czasowej jest
   punktem wyjścia dla pozytywnego cyklu oszczędności → więcej dóbr kapitałowych
   → większa produktywność → więcej dóbr = wyższy standard życia → niższa preferencja czasowa.
   Im więcej oszczędzamy, tym więcej kapitału jesteśmy w stanie zgromadzić,

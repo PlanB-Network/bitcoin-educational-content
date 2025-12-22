@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya mbinu ya usalama wa kumbukumbu ya muda wa kukusanya ya Rust ikilinganishwa na ukusanyaji wa takataka?
+answer: Huondoa gharama za uendeshaji wa muda wa uendeshaji na kusimamishwa kwa utendaji bila kutabirika
+wrong_answers:
+  - Inatumia kumbukumbu zaidi lakini hutoa dhamana bora za usalama
+  - Inahitaji msimbo mdogo kuandika lakini huendeshwa polepole kuliko ukusanyaji wa takataka
+  - Huzuia makosa yote ya wakati wa utekelezaji lakini hutumia CPU zaidi wakati wa utekelezaji
+explanation: |
+  Mbinu ya usalama wa kumbukumbu ya muda wa kukusanya ya Rust huchambua msimbo wakati wa kukusanya ili kuhakikisha usalama wa kumbukumbu bila gharama yoyote ya muda wa utekelezaji. Tofauti na ukusanyaji wa takataka unaotumika katika lugha kama Java na Go, ambayo huanzisha uendeshaji wa uendeshaji na inaweza kusababisha kusitishwa kusikotabirika wakati wa utekelezaji wa programu, mfumo wa Rust hauna athari yoyote ya muda wa utekelezaji. Chaguzi zingine si sahihi kwa sababu Rust hutumia kumbukumbu kwa ufanisi zaidi (sio zaidi), haifanyi kazi polepole (inafanya kazi kwa kasi zaidi bila ukaguzi wa muda wa utekelezaji), na haitumii CPU zaidi wakati wa utekelezaji (kazi inafanywa wakati wa kukusanya).

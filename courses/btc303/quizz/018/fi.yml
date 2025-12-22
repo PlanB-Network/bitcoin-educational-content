@@ -6,3 +6,4 @@ wrong_answers:
   - Verkon konsensusmekanismit kelvollisten lohkojen sopimiseksi
 explanation: |
   Bitcoin:n luotettava ominaisuus eliminoi nimenomaan sen, että pankkien tai rahoituslaitosten kaltaiset luotettavat kolmannet osapuolet eivät enää tarvitse transaktioiden käsittelyä ja validointia. Kuten Satoshi Nakamoto selitti Bitcoin:n whitepaperissa, perinteinen kaupankäynti perustuu rahoituslaitoksiin, jotka toimivat luotettavina välittäjinä, mutta Bitcoin:n suunnittelun ansiosta järjestelmä toimii oikein ilman luotettavia osapuolia sen hajautetun konsensusmekanismin ansiosta. Muut vaihtoehdot edustavat olennaisia teknisiä komponentteja, joita Bitcoin edelleen vaatii - osallistumiseen tarvitaan edelleen laitteistoa/ohjelmistoa, salausturva on edelleen olennaisen tärkeää, ja verkkokonsensus on Bitcoin:n keino, jolla Bitcoin:n avulla saavutetaan luottamuksen puute, eikä se poista sitä.
+reviewed: false

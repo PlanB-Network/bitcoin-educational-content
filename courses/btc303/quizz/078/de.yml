@@ -6,3 +6,4 @@ wrong_answers:
   - Zur Aufrechterhaltung der Abwärtskompatibilität mit älteren Node-Versionen, die keine Notfall-Patches verarbeiten können
 explanation: |
   Die richtige Antwort verdeutlicht ein entscheidendes Paradoxon beim Sicherheitspatching: Die Korrektur selbst kann die Schwachstelle aufdecken. Das Kapitel betont, dass die Entwickler die Patches sorgfältig verschleiern müssen, da ihre sofortige Veröffentlichung Angreifern die Schwachstelle offenbaren könnte, bevor die meisten Knoten geschützt sind. Die falschen Antworten sind zwar plausibel, geben aber die Prioritäten falsch wieder: Die Altcoin-Benachrichtigung erfolgt nach der Bereitstellung des Bitcoin-Netzwerks, mining-Pooltests sind nicht das Hauptanliegen bei unkritischen Problemen, und die Abwärtskompatibilität ist nicht ausschlaggebend für den Zeitplan der Sicherheitspatches.
+reviewed: false

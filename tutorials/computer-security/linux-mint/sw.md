@@ -1,7 +1,7 @@
 ---
 name: Linux Mint
 
-description: Sanidi kompyuta kwa shughuli za Bitcoin
+description: Sanidi kompyuta kwa miamala ya Bitcoin
 ---
 
 ![image](assets/cover.webp)
@@ -74,34 +74,34 @@ Bei ya hii hapo juu ni nzuri. Vipimo ni vya kutosha. Ina kamera ya ndani ambayo 
 Baadhi ya wale wa bei nafuu wana 64Gb tu ya nafasi ya gari; Sijajaribu kompyuta za mkononi zilizo na viendeshi vidogo hivyo - labda ni sawa kuwa na 64Gb, lakini inaweza kuwa inasukuma.
 
 
-## Chaguzi zingine - Mikia
+## Chaguzi zingine - Tails
 
 
-Mikia ni mfumo wa uendeshaji ambao hutoka kwenye gari la kidole cha USB, na huchukua kwa muda vifaa vya kompyuta yoyote. Inatumia miunganisho ya Tor pekee, kwa hivyo utahitaji kuwa na urahisi kutumia Tor. Hakuna data ambayo unaandika kwenye kumbukumbu wakati wa kipindi chako itahifadhiwa kwenye hifadhi (inaanza upya kila wakati) isipokuwa ukibadilisha mipangilio na kuunda chaguo la kudumu la kuhifadhi (kwenye kiendeshi gumba cha USB) - ambacho unakifunga kwa nenosiri.
+Tails ni mfumo wa uendeshaji ambao hutoka kwenye USB drive, na huchukua kwa muda vifaa vya kompyuta yoyote. Inatumia miunganisho ya Tor pekee, kwa hivyo utahitaji kuwa na urahisi kutumia Tor. Hakuna data ambayo unaandika kwenye kumbukumbu wakati wa kipindi chako itahifadhiwa kwenye hifadhi (inaanza upya kila wakati) isipokuwa ukibadilisha mipangilio na kuunda chaguo la kudumu la kuhifadhi (kwenye  USB drive) - ambacho unakifunga kwa nenosiri.
 
 
-Sio chaguo mbaya na ni bure, lakini ni kidogo kidogo kwa madhumuni yetu. Kusakinisha programu mpya juu yake sio rahisi. Kipengele kimoja kizuri ni kwamba inakuja na Electrum, lakini upande wa chini wa hii ni kwamba haukuisakinisha mwenyewe. Hakikisha hifadhi ya USB unayotumia ni angalau 8Gb.
+Sio chaguo mbaya na ni bure, lakini ni kidogo kidogo kwa madhumuni yetu. Kusakinisha programu mpya juu yake sio rahisi. Kipengele kimoja kizuri ni kwamba inakuja na Electrum, lakini upande wa chini wa hii ni kwamba haukuisakinisha mwenyewe. Hakikisha USB drive unayotumia ni angalau 8Gb.
 
 
-Unyumbulifu wako hupunguzwa ikiwa unatumia Mikia. Huenda usiweze kufuata miongozo mbalimbali ili kusanidi unachohitaji na kukifanya kifanye kazi ipasavyo. Kwa mfano, ukifuata mwongozo wangu wa kusakinisha Bitcoin Core, kuna marekebisho yanayohitajika ili kuifanya ifanye kazi. Sidhani kama nitakuwa nikitengeneza mwongozo maalum wa Mikia, kwa hivyo utahitaji kujenga ujuzi wako na kuifanya peke yako.
+Unyumbulifu wako hupunguzwa ikiwa unatumia Tails. Huenda usiweze kufuata miongozo mbalimbali ili kusanidi unachohitaji na kukifanya kifanye kazi ipasavyo. Kwa mfano, ukifuata mwongozo wangu wa kusakinisha Bitcoin Core, kuna marekebisho yanayohitajika ili kuifanya ifanye kazi. Sidhani kama nitakuwa nikitengeneza mwongozo maalum wa Tails, kwa hivyo utahitaji kujenga ujuzi wako na kuifanya peke yako.
 
 
-Pia sina uhakika jinsi pochi za vifaa zitaingiliana na OS hii.
+Pia sina uhakika jinsi hardware wallets zitaingiliana na OS hii.
 
 
-Baada ya kusema haya yote, kompyuta ya Tails kwa miamala ya Bitcoin ni chaguo zuri la ziada, na hakika itasaidia ujuzi wako wa faragha kujifunza kutumia Mikia.
+Baada ya kusema haya yote, kompyuta ya Tails kwa miamala ya Bitcoin ni chaguo zuri la ziada, na hakika itasaidia ujuzi wako wa faragha kujifunza kutumia Tails.
 
 
 ## Chaguzi zingine - Boot ya moja kwa moja ya OS
 
 
-Hii ni sawa na Mikia, isipokuwa mfumo wa uendeshaji haujajitolea kwa faragha. Njia ya msingi ya kutumia hii ni kuwasha kiendeshi cha USB na mfumo wa uendeshaji wa Linux ulioupenda na kufanya buti ya kompyuta kutoka hapo badala ya kiendeshi cha ndani. Jinsi ya kufanya hivyo itaelezewa baadaye.
+Hii ni sawa na Tails, isipokuwa mfumo wa uendeshaji haujajitolea kwa faragha. Njia ya msingi ya kutumia hii ni kuwasha USB drive na mfumo wa uendeshaji wa Linux ulioupenda na kufanya buti ya kompyuta kutoka hapo badala ya driver ya ndani. Jinsi ya kufanya hivyo itaelezewa baadaye.
 
 
 Faida ni kwamba wewe ni mdogo na vikwazo na mambo yatafanya kazi bila tweaks ya juu.
 
 
-Sina hakika jinsi mfumo kama huo unavyotenga programu hasidi kwenye kompyuta iliyopo kutoka kwa kiendeshi cha kuwasha USB unachotumia ambacho kinashikilia mfumo mpya wa uendeshaji. Labda inafanya kazi nzuri na labda sio nzuri kama Mikia. Kwa sababu sijui, upendeleo wangu ni kompyuta ya mkononi iliyojitolea.
+Sina hakika jinsi mfumo kama huo unavyotenga programu hasidi kwenye kompyuta iliyopo kutoka kwa kiendeshi cha kuwasha USB unayotumia ambacho kinashikilia mfumo mpya wa uendeshaji. Labda inafanya kazi nzuri na labda sio nzuri kama Tails. Kwa sababu sijui, upendeleo wangu ni kompyuta ya mkononi iliyojitolea.
 
 Chaguzi zingine - Laptop yako mwenyewe iliyotumika au kompyuta ya mezani
 
@@ -118,7 +118,7 @@ Ukichagua kutumia kompyuta ya mezani ya zamani badala ya kompyuta ndogo ya zaman
 Haya ni maagizo ya kufuta mfumo wowote wa uendeshaji kutoka kwa kompyuta yako ndogo mpya na kusakinisha Linux Mint, lakini unaweza kuibadilisha ili kusakinisha takriban toleo lolote la Linux kwenye kompyuta yoyote.
 
 
-Tutatumia kompyuta yoyote kuangaza mfumo wa uendeshaji kwenye kumbukumbu ya aina fulani. Haijalishi ni fimbo gani ya kumbukumbu, mradi tu inaendana na bandari ya USB, na ninapendekeza kiwango cha chini cha 16Gb.
+Tutatumia kompyuta yoyote kuangaza mfumo wa uendeshaji kwenye kumbukumbu ya aina fulani. Haijalishi ni fimbo gani ya kumbukumbu, mradi tu inaendana na port ya USB, na ninapendekeza kiwango cha chini cha 16Gb.
 
 
 Pata moja ya mambo haya:
@@ -139,7 +139,7 @@ Ifuatayo, nenda kwa linuxmint.com
 ![image](assets/5.webp)
 
 
-Elea kipanya juu ya menyu ya Upakuaji iliyo juu kisha ubofye kiungo, "Linux Mint 20.3" au toleo lolote ambalo linapendekezwa hivi karibuni zaidi wakati unapofanya hivi.
+Elea mouse juu ya menyu ya Upakuaji iliyo juu kisha ubofye kiungo, "Linux Mint 20.3" au toleo lolote ambalo linapendekezwa hivi karibuni zaidi wakati unapofanya hivi.
 
 
 ![image](assets/6.webp)

@@ -6,3 +6,4 @@ wrong_answers:
   - Évaluer chaque vulnérabilité de manière isolée, sans tenir compte de la manière dont plusieurs problèmes mineurs peuvent se combiner pour créer des risques de sécurité majeurs
 explanation: |
   Maxwell soutient que les développeurs devraient considérer les vulnérabilités comme plus graves qu'elles ne le paraissent, car les problèmes difficiles à exploiter peuvent devenir triviaux avec la bonne technique, et des problèmes apparemment mineurs peuvent se transformer en menaces sérieuses. Il souligne que de simples bogues de performance peuvent être utilisés pour partitionner le réseau et permettre des attaques double-spending. Cette approche prudente reconnaît que les développeurs peuvent ne pas comprendre au départ tout le potentiel d'exploitation d'une vulnérabilité, ce qui fait qu'il est plus prudent d'envisager le pire des scénarios plutôt que de sous-estimer la menace.
+reviewed: false

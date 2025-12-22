@@ -1,0 +1,8 @@
+question: Co dzieje się w HTLC z obsługą Taproot, gdy obie strony wspólnie zgadzają się na dokończenie wymiany międzywarstwowej?
+answer: Składają oni wspólny podpis przy użyciu swojego zagregowanego klucza publicznego za pośrednictwem MuSig2, tworząc transakcję nieodróżnialną od standardowej płatności z pojedynczym podpisem
+wrong_answers:
+  - Muszą ujawnić kompletny skrypt zawierający hash i time locki on-chain do weryfikacji sieciowej
+  - Publikują one tylko określoną gałąź drzewa Merkle'a, utrzymując zagregowany klucz w ukryciu przed obserwatorami
+  - Rozgłaszają oddzielne transakcje w każdej warstwie jednocześnie, aby zapewnić atomowe rozliczenie bez agregacji kluczy
+explanation: |
+  Współpracująca "ścieżka klucza" w Taproot pozwala stronom łączyć swoje klucze w jeden zagregowany klucz publiczny za pomocą MuSig2. Gdy obie strony wyrażą zgodę, po prostu podpisują transakcję, która wygląda identycznie jak każda standardowa płatność w łańcuchu bloków. Zapewnia to maksymalną prywatność i wydajność, ponieważ żadna logika skryptu nie jest ujawniana, zużywając minimalną przestrzeń blokową. Pozostałe opcje nieprawidłowo opisują albo starsze zachowanie HTLC, albo scenariusz ścieżki skryptu przeciwnika.

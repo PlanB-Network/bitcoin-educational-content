@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen turvallisuusriski, kun RefCelliä käytetään monisäikeisessä ympäristössä?
+answer: RefCell ei ole säikeenkestävä ja aiheuttaa määrittelemätöntä käyttäytymistä, jos sitä käytetään useista säikeistä
+wrong_answers:
+  - RefCell synkronoi automaattisesti säikeiden väliset käyttöoikeudet, mutta se aiheuttaa huomattavaa suorituskyvyn ylikuormitusta
+  - RefCell joutuu paniikkiin ajonaikana, kun useampi säie yrittää käyttää sitä yhtäaikaisesti
+  - RefCell ajautuu umpikujaan, kun useat säikeet yrittävät lainata samaa dataa yhtäaikaisesti
+explanation: |
+  RefCell on suunniteltu yksinomaan yhden säikeen skenaarioita varten, eikä siinä ole säikeiden synkronointimekanismeja. Toisin kuin Mutexin kaltaiset säikeenkestävät vaihtoehdot, RefCell ei suorita atomisia operaatioita tai lukitusta, jolloin useiden säikeiden samanaikainen käyttö johtaa määrittelemättömään käyttäytymiseen ja mahdollisiin datakilpailuihin. RefCellin suorittamat ajonaikaiset lainaustarkastukset eivät ole säikeenkestäviä, ja samanaikainen käyttö voi vahingoittaa niitä, mikä johtaa muistiturvallisuuden loukkauksiin, jotka Rust yleensä estää.

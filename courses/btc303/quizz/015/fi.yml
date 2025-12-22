@@ -6,3 +6,4 @@ wrong_answers:
   - Kolmannen osapuolen palvelut saavat mahdollisuuden luoda uusia bitcoineja tavanomaisen liikkeeseenlaskun aikataulun ulkopuolella
 explanation: |
   Kun käyttäjät eivät ylläpidä omia täydellisiä solmujaan, he ulkoistavat Bitcoin:n sääntöjen noudattamisen muille. Tämä heikentää Bitcoin:n hajautusta, koska vähemmän riippumattomia osapuolia validoi transaktioita ja lohkoja. Kuten David Harding selittää, tämä luo tilanteen, jossa pieni määrä louhijoita ja palveluntarjoajia voi mahdollisesti muuttaa Bitcoin:n sääntöjä muille kuin vahvistaville käyttäjille, kun taas nämä käyttäjät eivät voi tehdä liiketoimia sellaisten henkilöiden kanssa, joilla on täydellisiä vahvistussolmuja ja jotka hylkäävät nämä sääntömuutokset.
+reviewed: false

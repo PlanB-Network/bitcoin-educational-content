@@ -1,0 +1,8 @@
+question: Co se stane s odvozováním typů uzávěrů, jakmile je uzávěr volán s určitými typy?
+answer: Tyto typy jsou pro danou instanci uzávěrky pevně stanoveny
+wrong_answers:
+  - Uzávěrka může i v budoucích voláních přijímat různé typy
+  - Překladač resetuje typy pro další volání funkce
+  - Typy zůstávají flexibilní a mohou se měnit v závislosti na kontextu
+explanation: |
+  V Rust mají uzávěry výhodu automatické typové inference, ale tato flexibilita má své limity. Jakmile je uzávěr volán s určitými typy parametrů, kompilátor tyto typy uzamkne pro danou instanci uzávěru. To znamená, že stejná uzávěra nemůže být později volána s jinými typy - stane se monomorfizovanou na první typy, se kterými se setká. Tím se liší od generických funkcí, které lze volat s různými typy, protože každé volání vytváří samostatnou instanci. Ostatní možnosti jsou nesprávné, protože naznačují průběžnou flexibilitu, která po určení typů uzávěru neexistuje.

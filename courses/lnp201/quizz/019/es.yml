@@ -6,4 +6,4 @@ wrong_answers:
   - Que las comisiones se comparten entre los dos participantes
 explanation: |
   Las transacciones de compromiso firmadas aseguran que cada participante pueda recuperar sus fondos publicando la última versión en caso de que el canal se cierre.
-reviewed: false
+reviewed: true

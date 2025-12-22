@@ -6,3 +6,4 @@ wrong_answers:
   - For å tillate ubegrenset gjenbruk av samme pseudonym på tvers av flere transaksjoner
 explanation: |
   Bitcoin bruker adresser avledet fra offentlige nøkler som pseudonymer fordi dette systemet gjør det mulig for brukere å opprette nye adresser på en sikker måte offline uten å måtte registrere dem i blokkjeden først. Bruk av beskrivende brukernavn ville kreve at koblingen mellom brukernavnet og den offentlige nøkkelen kunngjøres i blokkjeden, noe som ville koste gebyrer, gjøre blokkjeden større og redusere sikkerheten. I tillegg ville brukernavn oppmuntre til gjenbruk (noe som reduserer personvernet) og skape risiko for etterligning. Det adressebaserte systemet eliminerer disse problemene, samtidig som det opprettholder den kryptografiske sikkerheten som er nødvendig for at Bitcoin skal fungere skikkelig.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wakati nodi ya Bitcoin inapoomba vichwa vya habari vya kuzuia kwa kutumia amri ya getheaders, ni idadi gani ya juu zaidi ya vichwa vya habari vinavyoweza kurejeshwa katika jibu moja, na ni nini kinachofuata kila kichwa cha habari cha baiti 80?
+answer: Hadi vichwa vya habari 2000 vinaweza kurejeshwa, kila kimoja kikifuatiwa na hesabu ya miamala isiyo ya kawaida ya sifuri
+wrong_answers:
+  - Hadi vichwa vya habari 1000 vinaweza kurejeshwa, kila kimoja kikifuatiwa na hesabu halisi ya miamala kama chaguo
+  - Hadi vichwa vya habari 2000 vinaweza kurejeshwa, kila kimoja kikifuatiwa na jumla ya ukaguzi wa baiti 4 wa data ya kichwa cha habari.
+  - Hadi vichwa vya habari 500 vinaweza kurejeshwa, kila kimoja kikifuatiwa na hash ya mzizi wa Merkle kwa ajili ya uthibitisho
+explanation: |
+  Itifaki ya P2P ya Bitcoin huweka kikomo cha majibu ya getheaders hadi kiwango cha juu cha vichwa 2000 ili kuzuia nodi nyingi zenye majibu makubwa. Kila kichwa cha habari kina baiti 80 haswa na kinafuatwa na sehemu ya hesabu ya miamala iliyowekwa hadi sifuri, kwa kuwa ujumbe wa vichwa vya habari pekee haujumuishi miamala halisi. Muundo huu unaruhusu usawazishaji mzuri wa mnyororo ambapo nodi zinaweza kupakua na kuthibitisha muundo wa mnyororo wa proof-of-work haraka kabla ya kuomba data kamili ya kizuizi.

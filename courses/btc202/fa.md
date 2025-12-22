@@ -1521,7 +1521,7 @@ SSDها تجربه کاربری شما را به طور اساسی تغییر م
 
 
 
-کد Umbrel به‌صورت عمومی در دسترس است (می‌توانید آن را مشاهده، Fork، و تغییر دهید)، اما تحت یک مجوز واقعی متن‌باز نیست. در واقع، umbrelOS تحت مجوز [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/) توزیع می‌شود، اگرچه برخی از ابزارهای توسعه مرتبط تحت مجوز MIT در دسترس هستند.
+کد Umbrel به‌صورت عمومی در دسترس است (می‌توانید آن را مشاهده، Fork، و تغییر دهید)، اما تحت یک مجوز واقعی متن‌باز نیست. در واقع، umbrelOS تحت مجوز [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/) توزیع می‌شود، اگرچه برخی از ابزارهای توسعه مرتبط تحت مجوز MIT در دسترس هستند.
 
 
 
@@ -2472,7 +2472,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### گره لایتنینگ
 

@@ -1,5 +1,5 @@
-question: 如果某个区块违反了共识规则，会发生什么？
-answer: 节点立即拒绝接受
+question: 当一个区块违反共识规则时，网络会如何处理？
+answer: 节点立即拒绝区块
 wrong_answers:
   - 它存储在 Mempool 中，等待验证
   - 仅由接受其他规则的节点转发

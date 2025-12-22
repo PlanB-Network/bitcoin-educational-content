@@ -1,0 +1,8 @@
+question: Qu'est-ce qui empêche les utilisateurs de créer de l'argent à partir de rien dans le système Elements' Confidential Transactions ?
+answer: Preuves d'intervalles qui prouvent mathématiquement que les valeurs cachées sont des nombres entiers positifs dans des intervalles valides
+wrong_answers:
+  - Pedersen Engagements qui lient cryptographiquement les montants des transactions aux clés publiques
+  - Validation du registre des actifs qui vérifie tous les montants des transactions par rapport aux limites des actifs enregistrés
+  - Des nœuds de consensus fédérés qui décryptent et vérifient tous les montants des transactions confidentielles
+explanation: |
+  Les preuves de plage sont le mécanisme cryptographique spécifique qui empêche les utilisateurs d'exploiter le système de transactions confidentielles en utilisant des nombres négatifs ou des montants non valides pour créer de l'argent à partir de rien. Alors que les Pedersen Commitments cachent les montants réels, les Range Proofs garantissent l'intégrité mathématique en prouvant que les valeurs cachées se situent dans des fourchettes légitimes. Le registre des actifs ne fait qu'associer les identifiants des actifs à des noms lisibles par l'homme et ne valide pas les montants, et les nœuds fédérés ne décryptent pas les transactions confidentielles - ils les vérifient sans voir les valeurs réelles.

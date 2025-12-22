@@ -7,7 +7,7 @@ description: Explorez la chaine principale du protocole Bitcoin.
 
 Bitfeed est une plateforme de visualisation de la couche principale (onchain) du protocole Bitcoin. Elle a été initiée par un des contributeurs du projet Mempool.space et se démarque principalement par son aspect minimaliste et son utilisation simple.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Dans ce tutoriel, nous partons à la découverte de cet outil qui vous permet d'explorer l'ensemble des transactions et blocs du réseau.
 
@@ -49,7 +49,7 @@ La première transaction de ce bloc représente la transaction **coinbase** qui 
 
 ![coinbase](assets/fr/06.webp)
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Par défaut les transactions d'un bloc sont représentées selon deux critères :
 - La taille qui peut varier entre la valeur et le poids (vBytes) ;

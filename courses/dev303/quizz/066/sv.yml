@@ -1,0 +1,8 @@
+question: Vilken kombination av Rust-egenskaper gör den särskilt lämplig för att hantera den irreversibla karaktären hos Bitcoin-transaktioner?
+answer: Statiskt, starkt typsystem som fångar upp fel vid kompilering och förhindrar minnesrelaterade sårbarheter
+wrong_answers:
+  - Dynamisk typning med runtime-kontroller och automatisk garbage collection för minneshantering
+  - Svagt typsystem med flexibla konverteringar och manuell minneshantering för prestandaoptimering
+  - Just-in-time-kompilering med körtidsoptimering och tolkad felhantering för flexibilitet
+explanation: |
+  Rust:s statiska starka typsystem är avgörande för Bitcoin-utvecklingen eftersom det fångar upp typfel och logikfel innan programmet körs, vilket förhindrar problem som kan påverka användarnas medel. Den statiska karaktären innebär att fel hittas vid kompileringstiden snarare än vid körning när verkliga transaktioner hanteras. Rust:s typsystem hanterar dessutom minnesägande och förhindrar minnesrelaterade sårbarheter som dubbelfria fel och tävlingsförhållanden. Detta är viktigt för Bitcoin-applikationer där misstag är oåterkalleliga och det inte finns någon myndighet att vända sig till för att återfå medel, till skillnad från traditionella finansiella system med chargeback-mekanismer.

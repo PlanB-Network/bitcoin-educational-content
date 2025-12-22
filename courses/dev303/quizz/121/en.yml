@@ -1,4 +1,4 @@
-question: What is the primary mechanism by which Breeze SDK's zero-channel reserves feature creates additional risk that must be absorbed by Lightning Service Providers?
+question: What is the primary mechanism by which Breez SDK's zero-channel reserves feature creates additional risk that must be absorbed by Lightning Service Providers?
 answer: LSPs must accept the risk of users spending their complete channel balance, eliminating the safety buffer that traditionally protects against channel force closures
 wrong_answers:
   - LSPs become responsible for maintaining continuous network graph synchronization across multiple user devices without traditional reserve-based fee compensation

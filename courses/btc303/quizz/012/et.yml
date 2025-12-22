@@ -6,3 +6,4 @@ wrong_answers:
   - Protokolli rikkuvad ebaõiged müntide emiteerimise ajakavad
 explanation: |
   Kuigi full node saab kontrollida, et plokid järgivad konsensuse reegleid, vältida kehtetu mündi väljaandmist ja tuvastada protokolli rikkumisi, ei saa see takistada ahela ümberkirjutamist, kus kaevurid korraldavad plokiahelat ümber, et tehinguid topelt kulutada. Peatükis on konkreetselt öeldud, et olenemata sellest, kui arenenud on teie tarkvara, peate ikkagi usaldama, et teie münte sisaldavaid plokke ei kirjutata ümber. Seepärast tugineb Bitcoin kaitsemehhanism mitme kinnituse ootamisele, et vähendada ahela ümberkirjutamise tõenäosust vastuvõetavale tasemele.
+reviewed: false

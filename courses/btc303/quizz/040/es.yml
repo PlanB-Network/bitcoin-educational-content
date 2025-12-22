@@ -1,8 +1,9 @@
-question: Según lo expuesto en el capítulo sobre la compatibilidad con Bitcoin, ¿qué tipo de compatibilidad ofrece una fork blanda?
+question: Según lo expuesto en el capítulo sobre la compatibilidad con Bitcoin, ¿qué tipo de compatibilidad ofrece un soft fork?
 answer: Compatibilidad hacia delante y hacia atrás, por lo que es totalmente compatible
 wrong_answers:
-  - Sólo compatibilidad con versiones anteriores, lo que permite al nuevo software procesar datos antiguos
-  - Sólo compatibilidad con el futuro, lo que permite que el software antiguo procese los nuevos datos
+  - Solo compatibilidad con versiones anteriores, lo que permite al nuevo software procesar datos antiguos
+  - Solo compatibilidad con el futuro, lo que permite que el software antiguo procese los nuevos datos
   - No es compatible con versiones anteriores ni posteriores, por lo que requiere actualizaciones completas del sistema
 explanation: |
-  El capítulo establece claramente que "se dice que un cambio en las normas de consenso de Bitcoin es un fork blando si es totalmente compatible" Define la compatibilidad total como la compatibilidad hacia delante y hacia atrás. La compatibilidad hacia adelante significa que el software antiguo puede procesar datos de versiones más recientes ignorando las partes que no entiende, mientras que la compatibilidad hacia atrás significa que el software nuevo puede procesar datos antiguos. Esta doble compatibilidad es lo que hace que las bifurcaciones suaves sean el mecanismo de actualización preferido para Bitcoin, ya que no rompen los sistemas existentes a la vez que permiten nuevas funcionalidades.
+  El capítulo establece claramente que "se dice que un cambio en las normas de consenso de Bitcoin es un soft fork si es totalmente compatible" Define la compatibilidad total como la compatibilidad hacia delante y hacia atrás. La compatibilidad hacia adelante significa que el software antiguo puede procesar datos de versiones más recientes ignorando las partes que no entiende, mientras que la compatibilidad hacia atrás significa que el software nuevo puede procesar datos antiguos. Esta doble compatibilidad es lo que hace que las bifurcaciones suaves sean el mecanismo de actualización preferido para Bitcoin, ya que no rompen los sistemas existentes a la vez que permiten nuevas funcionalidades.
+reviewed: false

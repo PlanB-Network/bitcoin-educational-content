@@ -1,9 +1,9 @@
-question: Why might a company consider holding part of its treasury in Bitcoin?
-answer: As a potentially appreciating asset that can store value and offer liquidity without relying on traditional financial intermediaries.
+question: Tại sao một công ty lại cân nhắc nắm giữ một phần kho bạc của mình ở Bitcoin?
+answer: Là một tài sản có khả năng tăng giá trị, có thể lưu trữ giá trị và cung cấp thanh khoản mà không cần dựa vào các trung gian tài chính truyền thống.
 wrong_answers:
-  - To immediately eliminate all risk and guarantee stable returns.
-  - To comply with mandatory government regulations requiring Bitcoin holdings.
-  - To ensure it can never convert its assets back into traditional currencies.
+  - Để loại bỏ ngay mọi rủi ro và đảm bảo lợi nhuận ổn định.
+  - Để tuân thủ các quy định bắt buộc của chính phủ yêu cầu nắm giữ Bitcoin.
+  - Để đảm bảo rằng nó không bao giờ có thể chuyển đổi tài sản của mình trở lại thành tiền tệ truyền thống.
 explanation: |
-  Bitcoin’s scarcity, global liquidity, and independence from traditional banking systems can make it attractive as a treasury asset. Although it involves risk and volatility, businesses may view it as a long-term store of value and a hedge against inflation.
-reviewed: false
+  Tính khan hiếm, tính thanh khoản toàn cầu và tính độc lập với hệ thống ngân hàng truyền thống của Bitcoin có thể khiến nó trở thành một tài sản kho bạc hấp dẫn. Mặc dù tiềm ẩn rủi ro và biến động, các doanh nghiệp có thể xem đây là một kênh lưu trữ giá trị dài hạn và là một biện pháp phòng ngừa lạm phát.
+reviewed: true

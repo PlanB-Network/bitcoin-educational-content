@@ -6,3 +6,4 @@ wrong_answers:
   - Pueden exigirse tasas administrativas, pero sólo para redistribuciones comerciales
 explanation: |
   La definición de código abierto establece explícitamente en "Redistribución libre" que "La licencia no exigirá un canon u otra tasa por dicha venta" Esto significa que el software de código abierto debe ser de libre redistribución sin tasas ni royalties obligatorios. Las otras opciones sugieren incorrectamente que se permiten varios tipos de tasas, lo que violaría el principio fundamental de libre redistribución que define el software de código abierto.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Was passiert, wenn eine Variable im Rust-Eigentümersystem den Geltungsbereich verlässt?
+answer: Der Wert wird automatisch gelöscht und sein Speicherplatz wird freigegeben
+wrong_answers:
+  - Der Wert wird zur Wiederverwendung in den globalen Bereich verschoben
+  - Der Wert wird unveränderlich und bleibt im Speicher
+  - Der Wert wird zur Sicherheit an einen Sicherungsort kopiert
+explanation: |
+  Im Rust-Eigentümersystem wird der Wert einer Variablen automatisch gelöscht und ihr Speicher freigegeben, wenn sie den Anwendungsbereich verlässt (typischerweise, wenn die Ausführung einen durch geschweifte Klammern definierten Block verlässt). Diese automatische Bereinigung wird durch den Drop-Mechanismus von Rust implementiert, bei dem die Sprache implizit eine Drop-Funktion für Variablen aufruft, die den Anwendungsbereich verlassen. Dies gewährleistet eine ordnungsgemäße Ressourcenverwaltung, ohne dass der Programmierer expliziten Bereinigungscode eingeben muss, und folgt dem von C++ übernommenen RAII-Muster.

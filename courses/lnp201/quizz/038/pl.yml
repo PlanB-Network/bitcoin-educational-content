@@ -6,4 +6,4 @@ wrong_answers:
   - Nakłada dodatkowe opłaty za każdy węzeł pośredniczący
 explanation: |
   Blokada czasowa nakłada ramy czasowe na ukończenie kontraktu HTLC, co pozwala na odzyskanie środków poprzez anulowanie płatności po tym okresie, jeśli transakcja się nie powiedzie.
-reviewed: false
+reviewed: true

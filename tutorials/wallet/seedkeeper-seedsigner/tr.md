@@ -31,7 +31,7 @@ Kurulumu tamamlamak için ihtiyacınız olan tek şey aşağıdaki öğelerdir:
 
 
 - Klasik bir SeedSigner için gereken olağan ekipmanlar: bir Raspberry Pi Zero, bir Waveshare 1.3" ekran, uyumlu bir kamera ve bir microSD kart (aşağıdaki SeedSigner eğitiminde daha fazla ayrıntı bulacaksınız);
-- SeedSigner uzatma kiti, [resmi Satochip mağazasında] (https://satochip.io/product/seedsigner-extension-kit/) mevcuttur, bu da akıllı kartı doğrudan SeedSigner'ınızdan okumanızı ve yazmanızı sağlar. Diğer bir seçenek ise Raspberry Pi üzerindeki Micro-USB portuna kablo ile bağlanabilen harici bir akıllı kart okuyucu kullanmaktır. Ancak, bu çözümü kendim test etmedim;
+- SeedSigner uzatma kiti, [resmi Satochip mağazasında](https://satochip.io/product/seedsigner-extension-kit/) mevcuttur, bu da akıllı kartı doğrudan SeedSigner'ınızdan okumanızı ve yazmanızı sağlar. Diğer bir seçenek ise Raspberry Pi üzerindeki Micro-USB portuna kablo ile bağlanabilen harici bir akıllı kart okuyucu kullanmaktır. Ancak, bu çözümü kendim test etmedim;
 - Bir Seedkeeper veya alternatif olarak Seedkeeper uygulamasının yükleneceği boş bir akıllı kart (Satochip tarafından satılan eklenti kiti zaten boş bir akıllı kart içerir).
 
 

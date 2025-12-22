@@ -104,10 +104,11 @@ proofreading:
     contributor_names:
     reward: 1.06
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 1.38
+      - Tinnah924
+    reward: 0.69
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -143,3 +144,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.02
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.38

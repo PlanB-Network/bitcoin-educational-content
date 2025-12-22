@@ -12,7 +12,7 @@ Bitfinex støtter aktivt utviklingen av Bitcoin, investerer i teknologier som Li
 
 ## 1 - Opprette en Bitfinex-konto
 
-Gå til [det offisielle Bitfinex-nettstedet] (https://www.bitfinex.com/). På hjemmesiden, finn og klikk på "*Sign Up *" -alternativet for å begynne å opprette kontoen din.
+Gå til [det offisielle Bitfinex-nettstedet](https://www.bitfinex.com/). På hjemmesiden, finn og klikk på "*Sign Up *" -alternativet for å begynne å opprette kontoen din.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -169,7 +169,7 @@ Hvis du er interessert i Lightning Network, har vi også et komplett opplærings
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Etter at du har kjøpt dine første bitcoins, har du selvsagt muligheten til å la dem bli værende på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok i egen forvaring. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
+Etter at du har kjøpt dine første bitcoins, har du selvsagt muligheten til å la dem bli værende på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok i egen forvaring. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Kjøp og salg av bitcoins på Bitfinex
 

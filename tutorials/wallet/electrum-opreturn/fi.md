@@ -164,7 +164,7 @@ Muunna viestisi heksadesimaaliksi :
 
 
 
-- Voit käyttää [online-työkalua] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), mutta varo käsittelemästä arkaluonteisia tietoja siellä (vaikka periaatteessa Blockchain Bitcoin:ssä OP_RETURN:n kautta julkaistavaksi tarkoitetut tiedot eivät aiheuta luottamuksellisuusongelmia);
+- Voit käyttää [online-työkalua](https://www.rapidtables.com/convert/number/ascii-to-hex.html), mutta varo käsittelemästä arkaluonteisia tietoja siellä (vaikka periaatteessa Blockchain Bitcoin:ssä OP_RETURN:n kautta julkaistavaksi tarkoitetut tiedot eivät aiheuta luottamuksellisuusongelmia);
 - Suuremman luottamuksellisuuden vuoksi voit suorittaa muunnoksen paikallisesti pienellä Python :
 
 

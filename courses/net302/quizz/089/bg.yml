@@ -1,0 +1,9 @@
+question: Кой протокол използва командата ping за тестване на мрежовата свързаност?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Командата ping използва протокола ICMP за изпращане на ехо заявки и измерване на мрежовата латентност.
+reviewed: false

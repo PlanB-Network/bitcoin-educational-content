@@ -37,7 +37,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Gucuruza ku ncuro ya mbere na Banxaas
 
@@ -175,7 +175,7 @@ Ishirahamwe rya Banxaas riri ku ruhande rwawe kugira rigufashe mu ngorane zose w
 - [X](ubutumwa bw'ibanki)
 - [Itelegaramu](imbuga ngurukanabumenyi)
 - [Ikiganiro](imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
-- [Nostr] (https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrh7zy)
+- [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrh7zy)
 
 
 

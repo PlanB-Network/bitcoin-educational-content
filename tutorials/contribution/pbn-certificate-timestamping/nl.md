@@ -176,7 +176,7 @@ Als je een bericht als het volgende ziet, is de tijdstempel geldig:
 OPMERKING: deze procedure **vereist een draaiende lokale Bitcoin node**
 
 
-1. Installeer de OpenTimestamps-client vanuit de officiële [repository] (https://github.com/opentimestamps/opentimestamps-client) door het volgende commando uit te voeren:
+1. Installeer de OpenTimestamps-client vanuit de officiële [repository](https://github.com/opentimestamps/opentimestamps-client) door het volgende commando uit te voeren:
 
 
 ```

@@ -1,11 +1,17 @@
 ---
-name: Bulan
+name: Moon
 description: Bayar dengan bitcoin di mana pun kartu bank Visa diterima.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Pembaruan Desember 2025: Perhatian, **sejak awal Desember 2025, sebagian layanan Moon tidak lagi tersedia**, khususnya kartu bank Visa isi ulang. Kami belum mengetahui apakah ketidaktersediaan ini bersifat sementara atau permanen. Tutorial ini akan diperbarui segera setelah kami memiliki informasi lebih lanjut.*
+
+---
 
 Moon memungkinkan Anda menggunakan mata uang kripto seperti bitcoin untuk membeli kartu Visa virtual bebas KYC dan kartu hadiah, yang dapat digunakan di jutaan pedagang online, seperti kartu bank tradisional. Dengan demikian, Moon menawarkan cara sederhana untuk membelanjakan sats Anda di mana pun Visa diterima, tanpa melalui platform penukaran.
 
@@ -177,7 +183,7 @@ Dengan kartu virtual ini, Anda dapat membayar produk dan layanan secara online s
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

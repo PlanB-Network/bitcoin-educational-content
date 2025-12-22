@@ -1,0 +1,11 @@
+question: Какво представлява AMF?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Американски паричен фонд.
+  - Асоциация на Mining Facilities.
+  - Автоматизиран паричен поток.
+explanation: |
+  AMF, или Autorité des Marchés Financiers, е френски
+  който регулира платформите, където могат да се продават биткойни
+  купуват.
+reviewed: true

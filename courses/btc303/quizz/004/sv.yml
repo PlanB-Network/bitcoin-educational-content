@@ -6,3 +6,4 @@ wrong_answers:
   - Ett system för blinda signaturer med en central betrodd part för att förhindra dubbelspridning
 explanation: |
   Satoshi Nakamoto föreslog specifikt att använda en "peer-to-peer-distribuerad tidsstämpelserver för att generate beräkna bevis på transaktionernas kronologiska ordning", vilket anges i Bitcoin:s vitbok. Nyckelordet är "distribuerad", vilket betyder att det inte finns någon central kontrollpunkt. De felaktiga svaren representerar tidigare misslyckade försök med digitala pengar som förlitade sig på centraliserade eller semicentraliserade tillvägagångssätt, vilket gjorde dem sårbara för censur och misslyckande - exakt de problem som Bitcoin utformades för att lösa genom verklig decentralisering.
+reviewed: false

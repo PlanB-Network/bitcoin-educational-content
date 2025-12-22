@@ -1,0 +1,9 @@
+question: Eric Hughesin Cypherpunk-manifestin mukaan mikä on ensisijainen menetelmä, jota salakirjoittajien tulisi käyttää saavuttaakseen yksityisyyttä ja vapautta koskevat tavoitteensa?
+answer: Kirjoitetaan koodia sellaisten salausjärjestelmien rakentamiseksi, jotka tekevät poliittisista jakolinjoista merkityksettömiä
+wrong_answers:
+  - Hallitusten lobbaaminen vahvempien yksityisyyden suojaa koskevien lakien ja asetusten hyväksymiseksi
+  - Järjestetään joukkomielenosoituksia ja kansalaistottelemattomuuskampanjoita valvontaa vastaan
+  - Koulutusohjelmien luominen yleisön tietoisuuden lisäämiseksi digitaalisen yksityisyyden suojasta
+explanation: |
+  Eric Hughes totesi nimenomaisesti, että "Cypherpunks kirjoittavat koodia" on heidän peruslähestymistapansa. Manifestissa korostetaan, että cypherpunks ei löydä lohtua toiveista ja toivomuksista, vaan puuttuu aktiivisesti rakentamalla anonyymejä järjestelmiä kryptografian avulla.
+  Tämä muuttaa abstraktit vapauden ideat konkreettiseksi taloudelliseksi ja yhteiskunnalliseksi todellisuudeksi ja tekee poliittisista jakolinjoista mielivaltaisia ja tarpeettomia. Muut vaihtoehdot edustavat perinteistä poliittista aktivismia, joka on ristiriidassa salainen punk-filosofian kanssa, jossa teknologiset ratkaisut ovat tärkeämpiä kuin institutionaaliset uudistukset.

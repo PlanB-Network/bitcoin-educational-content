@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'anonset rétrospectif permet de mesurer la résistance de la confidentialité de la pièce face à une analyse présent vers passé (sortie vers entrée).
 
-reviewed: false
+reviewed: true 

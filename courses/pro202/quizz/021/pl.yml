@@ -1,0 +1,8 @@
+question: Jaka jest główna konsekwencja zapomnienia o uwzględnieniu wyjścia zmiany podczas wydawania UTXO, który zawiera więcej Bitcoin niż potrzeba?
+answer: Nadwyżka kwoty automatycznie staje się opłatą górniczą
+wrong_answers:
+  - Transakcja zostanie odrzucona przez sieć jako nieważna
+  - "Nadpłata jest zwracana na pierwotny adres nadawcy"
+  - Nadwyżka kwoty pozostaje zablokowana w pierwotnym UTXO
+explanation: |
+  W modelu UTXO w Bitcoin opłaty transakcyjne są obliczane pośrednio jako różnica między całkowitymi nakładami a całkowitymi wynikami (opłata = suma (nakłady) - suma (wyniki)). Kiedy wydajesz UTXO, musisz wydać go w całości - częściowe wydanie jest niemożliwe. Jeśli musisz wydać tylko część wartości UTXO, musisz utworzyć wyjście zmiany, aby otrzymać pozostałą część. Jeśli zapomnisz uwzględnić ten wynik zmiany, nieuwzględniona różnica między wejściem a wyjściem automatycznie stanie się opłatą górniczą. Właśnie dlatego prawidłowa konstrukcja wyjścia zmiany jest niezbędna - bez niej można przypadkowo zapłacić ogromne opłaty górnikom.

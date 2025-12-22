@@ -1,9 +1,9 @@
-question: Ni gute Lightning Network yateye imbere kugira ngo umuntu ashobore kuyikoresha neza kuva yatanguye?
+question: Ni gute Lightning Network yateye imbere kugira ngo umuntu ashobore kuyikoresha neza kuva aho itanguriye?
 answer: Yashizeho ibintu nk’ugukoranya, amafagitire ya Bolt12 adahinduka, n’ugucungera neza amafaranga, bituma amafaranga agenda neza kandi yizigirwa.
 wrong_answers:
   - Yakuyeho ibintu vyose vy’umutekano kugira ngo amafaranga yihutishe.
   - Ubu bisaba ko Leta yemeza ko umuntu wese yishura.
   - Yarahagaritse gukora ku bintu bishasha, yizigiye gusa uko yari yateguwe mu ntango.
 explanation: |
-  Mu gihe c’igihe, Lightning Network yarabonye ivyiza vy’ubuhinga bigabanya ugushihana ku bakoresha. Ibintu bishasha be n’ibikoresho vyiza vyo gucunga amanode vyatumye habaho uburyo bwo gukoresha neza kandi bubereye.
-reviewed: false
+  Uko igihe kigenda kiraza, Lightning Network yarabonye ivyiza vy’ubuhinga bigabanya ugushihana ku bakoresha. Ibintu bishasha be n’ibikoresho vyiza vyo gucunga amanode vyatumye habaho uburyo bwo gukoresha neza kandi bubereye.
+reviewed: true

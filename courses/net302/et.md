@@ -90,7 +90,7 @@ Kas olete valmis sukelduma arvutivõrkude maailma? Läheme!
 **MÄRKUS**: Kirjeldused põhinevad GNU/Linux CentOS 7 süsteemil. Siiski on võrgukonfiguratsioonid suures osas samad, kui võrrelda Debiani ja CentOS süsteemi. Seega ei tee me mingit vahet. Kui see on olemas, siis lisame sellele konkreetse logo.
 
 
-**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust] (https://planb.academy/resources/glossary), et leida mõisted.
+**N.B.**: Kui kursuse käigus satute mõne tundmatu terminiga kokku, vaadake [sõnastikust](https://planb.academy/resources/glossary), et leida mõisted.
 
 
 

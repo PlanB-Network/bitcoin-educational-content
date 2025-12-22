@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen syy siihen, että skriptipalapelit, jotka luottavat vain julkisiin tietoihin ilman allekirjoitustarkastuksia, ovat haavoittuvia Bitcoin:ssa?
+answer: Louhijat voivat kopioida ratkaisun mempoolista ja ohjata maksun itselleen
+wrong_answers:
+  - Skriptin suoritus ei ole deterministinen eri verkon solmujen välillä
+  - Tapahtuman validointiin kuluva aika kasvaa neliöllisesti palapelin monimutkaisuuden myötä
+  - Pinoihin perustuva suoritusmalli ei pysty käsittelemään monimutkaisia matemaattisia operaatioita turvallisesti
+explanation: |
+  Käsikirjoitusarvoitukset, jotka perustuvat vain julkisiin tietoihin (kuten matemaattisiin ongelmiin tai hash-esikuviin) ilman allekirjoitustarkastuksia, ovat alttiita louhijoiden etukäteisoperaatioille. Kun kelvollinen ratkaisu ilmestyy mempooliin, kuka tahansa louhija voi tarkkailla sitä, kopioida ratkaisun ja luoda oman transaktionsa, jolla maksun saa omasta osoitteestaan. Tämän vuoksi reaalimaailman Bitcoin-sopimuksissa on lähes aina allekirjoitustarkistukset - allekirjoitukset sitovat ratkaisun tiettyyn osapuoleen ja estävät muita varastamasta voittoa, mikä säilyttää asianmukaiset kannustimet pulmien ratkaisijoille.

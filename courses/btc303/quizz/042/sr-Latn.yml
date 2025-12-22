@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin Core developeri su zatražili alternativu kako bi smanjili svoju odgovornost u nadogradnjama
 explanation: |
   Prema poglavlju, kada je Segwit aktivacioni kod objavljen u oktobru 2016. godine, postojala je ogromna podrška među Bitcoin korisnicima, ali rudari nisu signalizirali podršku za nadogradnju, što je zaustavilo aktivaciju bez rešenja na vidiku. Ovo je stvorilo potrebu za alternativnim mehanizmom koji se ne oslanja na signalizaciju rudara, što je navelo Shaolinfry-a da predloži UASF kao rešenje koje bi koristilo sprovođenje ekonomske većine umesto aktivacije putem hash snage.
+reviewed: false

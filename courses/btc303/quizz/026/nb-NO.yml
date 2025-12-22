@@ -6,3 +6,4 @@ wrong_answers:
   - Anonymiteten som oppnås ved å bruke flere wallet-adresser
 explanation: |
   Blockchain-personvern refererer spesifikt til informasjonen du avslører ved å handle på blokkjeden, som gjelder for alle transaksjoner du sender og mottar. Dette er noe annet enn wallet-kryptering (som beskytter lagrede nøkler), internettforbindelsessikkerhet (som er off-chain-personvern) eller misoppfatningen om at flere adresser gir anonymitet. Personvernslekkasjer i kjeden oppstår gjennom gjenbruk av adresser og klyngedannelse, der transaksjoner kan kobles sammen for å avsløre mønstre om brukernes økonomiske aktiviteter.
+reviewed: false

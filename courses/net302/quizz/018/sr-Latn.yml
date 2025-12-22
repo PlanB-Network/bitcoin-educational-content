@@ -3,7 +3,7 @@ answer: Samostalni blok podataka prenet preko mreže
 wrong_answers:
   - Šifrovana poruka namenjena jednom uređaju
   - TCP segment inkapsuliran u UDP
-  - Fizički signal sa Network Access Layer
+  - Fizički signal koji dolazi sa sloja za pristup mreži (eng. Network Access layer)
 explanation: |
   IP podaci se prenose u obliku datagrama, nezavisnih blokova koji sadrže sve informacije potrebne za isporuku.
-reviewed: false
+reviewed: true

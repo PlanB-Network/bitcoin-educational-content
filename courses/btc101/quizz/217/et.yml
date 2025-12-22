@@ -1,9 +1,9 @@
-question: Mida võimaldab Lightning Network?
-answer: Kohesed, madala kuluga Bitcoin'i tehingud.
+question: Mis on Lightning Networki peamine eesmärk?
+answer: Võimaldada offchain-makseid, mis on kiired ja odavad
 wrong_answers:
-  - Kohesed, kõrge kuluga Bitcoin'i tehingud.
-  - Viivitatud, madala kuluga Bitcoin'i tehingud.
-  - Viivitatud, kõrge kuluga Bitcoin'i tehingud.
-explanation: >-
-  Lightning Network võimaldab koheseid, madala kuluga Bitcoin'i tehinguid,
-  lahendades seeläbi Bitcoin'i skaleeritavuse probleemi.
+  - Suurendada Bitcoini plokiahela plokkide suurust
+  - Asendada Bitcoini plokiahel järk-järgult tõhusama süsteemiga
+  - Teha kaevandusfarmid väga rikkaks
+explanation: |
+  Lightning Networki eesmärk on võimaldada peaaegu koheseid bitcoini makseid madalate tasudega, koormamata põhivõrku.
+reviewed: false

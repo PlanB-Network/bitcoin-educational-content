@@ -1,0 +1,8 @@
+question: Når Bitcoin-blokkhashes tolkes som little-endian heltall for sammenligning av mål, hvorfor viser gyldige blokker vanligvis mange etterfølgende nuller i den heksadesimale representasjonen?
+answer: Fordi little-endian-tolkning betyr at byte lengst til høyre i hex tilsvarer de mest signifikante bitene i heltallsverdien
+wrong_answers:
+  - Fordi SHA-256-algoritmen naturlig nok produserer etterfølgende nuller når inndataene inneholder transaksjonsdata med gjentatte mønstre
+  - Fordi utvinnere bevisst fyller blokkhodet med null byte for å gjøre hashberegningen mer effektiv for ASIC-maskinvaren
+  - Fordi nonce-feltet inkrementeres fra null og oppover, fører det til at hashfunksjonen generate-mønstre med etterfølgende nuller
+explanation: |
+  Ved little-endian-tolkning leses byte i omvendt rekkefølge, slik at byte lengst til høyre i heksadesimal blir den mest signifikante delen av heltallet. For at en hash skal være under målet (et lite tall), må de mest signifikante bitene være null, noe som vises som etterfølgende nuller i hex-visningen. Dette er en ren representasjonsartefakt av endianness-konverteringen, og ikke en egenskap ved SHA-256 eller mining-maskinvaren.

@@ -1,0 +1,8 @@
+question: Mis on Rust küsimärgi operaatori (?) peamine eesmärk, kui seda kasutatakse koos tulemitüüpidega?
+answer: Edukate väärtuste automaatseks lahtipakkimiseks ja vigade koheseks tagastamiseks praegusest funktsioonist
+wrong_answers:
+  - Kõigi tulemuse tüüpide teisendamine valiku tüübiks, et lihtsustada nullide käsitlemist
+  - Et automaatselt paanikat tekitada kohandatud sõnumiga, kui ilmneb mõni viga
+  - Edukate väärtuste mähkimiseks täiendava tulemuse kihi sisse, et tagada lisaturvalisus
+explanation: |
+  Küsitav operaator (?) on mõeldud spetsiaalselt vigade levitamiseks Rust-s. Kui seda rakendatakse tulemuse suhtes, võtab see välja edukuse väärtuse, kui operatsioon õnnestus, võimaldades koodil jätkata selle väärtusega. Kui aga tekkis viga, siis tagastab ? operaator selle vea kohe jooksvast funktsioonist, levitades seda sisuliselt ülespoole kutsete virna. See kõrvaldab vajaduse sõna-sõnaliste vasteavalduste järele, säilitades samas selgesõnalise veakäsitluse semantika. Operaatorit saab kasutada ainult funktsioonides, mis tagastavad Result-tüüpi, tagades korrektse vea leviku mustri.

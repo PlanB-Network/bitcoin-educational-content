@@ -1,0 +1,8 @@
+question: Welcher zweistufige Validierungsprozess muss bei der Ausgabe einer P2SH-Ausgabe stattfinden, damit die Transaktion als gültig betrachtet wird?
+answer: Überprüfen Sie zunächst, ob HASH160 des Redeem-Skripts mit dem ScriptPubKey-Hash übereinstimmt, und führen Sie dann das Redeem-Skript mit den angegebenen Daten aus
+wrong_answers:
+  - Führen Sie zunächst das Redeem-Skript mit den angegebenen Daten aus und überprüfen Sie dann, ob der resultierende Hash mit dem scriptPubKey übereinstimmt
+  - Überprüfen Sie zunächst, ob alle Signaturen mit ihren öffentlichen Schlüsseln gültig sind, und prüfen Sie dann, ob der Hash des Redem-Skripts übereinstimmt
+  - Überprüfen Sie zunächst, ob das Redemptionsskript gültige Opcodes enthält, und überprüfen Sie dann, ob die Skriptausführung ein richtiges Ergebnis liefert
+explanation: |
+  Die P2SH-Validierung erfordert einen speziellen zweistufigen Prozess: Zunächst muss der Hash des bereitgestellten Einlöseskripts mit dem 20-Byte-Hash im scriptPubKey übereinstimmen (HASH160-Verifizierung), und erst nachdem diese Verifizierung erfolgreich war, führt das Netzwerk das Einlöseskript selbst mit den Freischaltdaten aus. Auf diese Weise wird sichergestellt, dass nur das korrekte Einlöseskript verwendet werden kann, während die tatsächlichen Ausgabebedingungen verborgen bleiben, bis die Ausgabe erfolgt. Die anderen Optionen beschreiben plausible, aber falsche Validierungssequenzen, die nicht dem eigentlichen P2SH-Protokoll folgen.

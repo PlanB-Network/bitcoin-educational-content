@@ -6,3 +6,4 @@ wrong_answers:
   - Umožnit neomezené opakované použití stejného pseudonymu při více transakcích
 explanation: |
   Bitcoin používá adresy odvozené z veřejných klíčů jako pseudonymy, protože tento systém umožňuje uživatelům bezpečně vytvářet nové adresy offline, aniž by je museli nejprve registrovat v blockchainu. Použití popisných uživatelských jmen by vyžadovalo oznámení vazby mezi uživatelským jménem a veřejným klíčem v blockchainu, což by znamenalo náklady na poplatky, nafouknutí blockchainu a snížení bezpečnosti. Uživatelská jména by navíc podporovala opakované použití (snižovala by soukromí) a vytvářela by riziko zosobnění. Systém založený na adresách tyto problémy odstraňuje a zároveň zachovává kryptografické zabezpečení potřebné pro správné fungování Bitcoin.
+reviewed: false

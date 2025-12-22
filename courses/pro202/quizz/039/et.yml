@@ -1,0 +1,8 @@
+question: Milline on peamine turvarisk, mis muudab P2SH tehingu fondide tagasinõudmise seisukohast põhimõtteliselt erinevaks tavalisest Bitcoin tehingust?
+answer: Lunastusskripti kaotamine lukustab rahalised vahendid jäädavalt, isegi kui teil on privaatvõtmed olemas
+wrong_answers:
+  - 20 baidi suurust hash'i saab lõhkuda, kui lunastusskript on liiga lihtne
+  - P2SH aadressid aeguvad pärast teatud plokkide kõrgust, mistõttu vahendeid ei ole võimalik tagasi saada
+  - Kaheastmeline valideerimisprotsess võib juhuslikult ebaõnnestuda, põhjustades fondi püsiva kaotuse
+explanation: |
+  P2SH kehtestab ainulaadse turvanõude: raha kulutamiseks on vaja nii isiklikke võtmeid kui ka lunastusskripti. Erinevalt tavatehingutest, mille puhul on vaja ainult isiklikke võtmeid, nõuab P2SH, et kulutamise ajal esitataks tegelik lunastusskript. Kui lunastusskript läheb kaduma, muutuvad vahendid hoolimata õigete isiklike võtmete olemasolust jäädavalt kättesaamatuks, sest kulutamistingimusi ei saa taastada ega kinnitada.

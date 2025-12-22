@@ -1,0 +1,8 @@
+question: Jaké je zásadní omezení transakčních možností sady Breez Liquid SDK, které ji odlišuje od plnohodnotného uzlu Lightning Network?
+answer: Nemůže provádět přímé transakce Lightning-to-Lightning nebo Bitcoin-Bitcoin, protože pracuje výhradně s Liquid jako svou domovskou základnou
+wrong_answers:
+  - Nezvládá atomické výměny mezi různými blockchainovými sítěmi kvůli chybějící podpoře cross-chain smart contract
+  - "Nemůže zpracovávat transakce větší než 0,1 BTC kvůli vestavěným omezením velikosti transakcí v Liquid Network."
+  - Nemůže fungovat bez připojení k internetu, protože vyžaduje neustálou synchronizaci s centralizovanými servery Breez
+explanation: |
+  SDK je výslovně popsán jako "výhradně Liquid-centrický nástroj", který pracuje s Liquid jako se svou "domovskou základnou" Podporuje pouze tři specifické operace: Liquid na Liquid, Liquid na Lightning a Liquid na Bitcoin. Na rozdíl od plnohodnotného uzlu Lightning, který může směrovat platby mezi kanály Lightning, nemůže SDK Breez provádět přímé transakce Lightning-to-Lightning, čímž se zásadně liší od tradiční infrastruktury Lightning.

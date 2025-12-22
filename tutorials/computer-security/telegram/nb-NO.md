@@ -18,7 +18,7 @@ I tillegg til å utveksle meldinger, kan du med Telegram foreta video- og talean
 Selv om Telegram er tilgjengelig fra offisielle butikker, er rådet alltid det samme: last ned fra utviklerens nettsted, en god vane for de som, som deg, er på en personvernbevisst reise.
 
 
-Gå til nettstedet [telegram.org] (https://telegram.org) med telefonens nettleser. Du kan velge ditt foretrukne språk, men jeg anbefaler å fortsette på engelsk, så velg _Telegram for Android_
+Gå til nettstedet [telegram.org](https://telegram.org) med telefonens nettleser. Du kan velge ditt foretrukne språk, men jeg anbefaler å fortsette på engelsk, så velg _Telegram for Android_
 
 
 ![image](assets/en/01.webp)
@@ -356,7 +356,7 @@ Du kan se på bildet nedenfor hvor du finner denne innstillingen.
 Telegram kan brukes fra datamaskinen din, slik at den synkroniseres med kontoen som vises på telefonen din. Du kan velge å ikke laste ned applikasjonen og bare bruke den via nettet. Denne versjonen har imidlertid begrensninger sammenlignet med den som kjøres på datamaskinen, derfor anbefaler jeg at du laster ned og installerer den for å få mest mulig ut av dette kraftige verktøyet.
 
 
-Alle alternativene som hittil er sett med mobilmodellen, kan utnyttes på nøyaktig samme måte fra datamaskinen din. Også for denne installasjonen går du til den offisielle nettsiden [telegram.org] (https://telegram.org). Fra hjemmesiden velger du _Telegram for PC/Linux_.
+Alle alternativene som hittil er sett med mobilmodellen, kan utnyttes på nøyaktig samme måte fra datamaskinen din. Også for denne installasjonen går du til den offisielle nettsiden [telegram.org](https://telegram.org). Fra hjemmesiden velger du _Telegram for PC/Linux_.
 
 I skjermbildet som åpnes, klikker du på for å laste ned den kjørbare filen som passer for operativsystemet ditt.
 

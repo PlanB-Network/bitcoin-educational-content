@@ -301,7 +301,7 @@ Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitc
 
 Setelah melakukan coinjoins dengan Whirlpool, berguna untuk mengevaluasi secara tepat tingkat privasi yang dicapai untuk UTXO campuran Anda. Untuk melakukan ini, Anda dapat menggunakan alat Python *Whirlpool Stat Tool*. Alat ini memungkinkan Anda untuk mengukur baik skor prospektif maupun retrospektif dari UTXO Anda, sambil menganalisis tingkat difusi mereka di kolam.
 
-Untuk memperdalam pemahaman Anda tentang mekanisme perhitungan anonset ini, saya merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
+Untuk memperdalam pemahaman Anda tentang mekanisme perhitungan anonset ini, saya merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
 
 Untuk mengakses alat WST, buka RoninCLI. Untuk melakukan ini, buka terminal pada komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
 `SSH ronindojo@[IP]`

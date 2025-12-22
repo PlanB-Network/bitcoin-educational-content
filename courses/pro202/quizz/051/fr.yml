@@ -1,0 +1,8 @@
+question: Dans la structure des messages du réseau P2P de Bitcoin, quelles données spécifiques constituent le champ de contrôle de 4 octets dans chaque enveloppe de message ?
+answer: Les 4 premiers octets du hash256 de la charge utile du message
+wrong_answers:
+  - Les 4 premiers octets du hachage SHA256 de l'ensemble de l'enveloppe du message
+  - Les 4 premiers octets du hash256 du champ de commande concaténés avec la charge utile
+  - Les 4 premiers octets du hachage RIPEMD160 de la charge utile du message
+explanation: |
+  L'enveloppe du message P2P de Bitcoin utilise un mécanisme de somme de contrôle spécifique dans lequel le champ de somme de contrôle de 4 octets contient les 4 premiers octets du hash256 appliqué à la charge utile du message uniquement. Ce mécanisme permet de vérifier l'intégrité des données utiles pendant la transmission sur le réseau. Les autres options sont incorrectes car elles font référence à des fonctions de hachage différentes (SHA256 simple, RIPEMD160) ou à des données d'entrée différentes (enveloppe entière, commande+charge utile) de ce que Bitcoin met réellement en œuvre dans son protocole de réseau.

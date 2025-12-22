@@ -1,0 +1,9 @@
+question: Коя операция на договор RGB създава ново състояние, без да затваря печат?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Активиране на Valency
+explanation: |
+  State Extension ви позволява да създавате ново състояние или права (Valencies), без печатът да се затваря веднага.
+reviewed: false

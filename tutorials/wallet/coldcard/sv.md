@@ -134,7 +134,7 @@ I den .txt-fil som genererades av Coldcard tidigare kopierar du nu raden som bö
 Om svaret innehåller "message": "Avståndsbeskrivare ska inte ha en etikett", radera posten "etikett": "Coldcard xxxx0000" i den kopierade raden från .txt-filen och klistra sedan in hela raden igen i Bitcoin Core-konsolen.
 
 
-Om det behövs kan du hitta lite hjälp [här] (https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) på Coldcard Github.
+Om det behövs kan du hitta lite hjälp [här](https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) på Coldcard Github.
 
 
 ## Validering av Wallet-import i Bitcoin-kärnan

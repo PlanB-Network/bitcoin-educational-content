@@ -6,3 +6,4 @@ wrong_answers:
   - Größere Blöcke führen zu mehr Transaktionskonflikten zwischen konkurrierenden Blöcken, was es schwieriger macht, zu entscheiden, welcher Block akzeptiert werden sollte
 explanation: |
   Die richtige Antwort nennt den Kernmechanismus, der hinter veralteten Blöcken steckt. Wenn Blöcke größer sind, benötigen sie mehr Bandbreite für die Übertragung zwischen den Knoten und mehr Zeit für die Validierung. Während dieser verlängerten Ausbreitungszeit können mehrere Miner konkurrierende Blöcke in gleicher Höhe finden, da sie den neuesten Block noch nicht erhalten haben. Dies führt zu einem Wettlauf, bei dem letztlich nur ein Block akzeptiert werden kann, wodurch die anderen veraltet sind. Die falschen Antworten verwechseln dieses Ausbreitungsproblem mit mining-Schwierigkeiten, Konsensmechanismen oder Transaktionskonflikten, die von dem Zeitproblem, das veraltete Blöcke verursacht, getrennt sind.
+reviewed: false

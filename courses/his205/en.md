@@ -2886,9 +2886,9 @@ There really is no limit. There are no mandatory reserve levels anymore, at leas
 They just need to make sure they can make these transfers, but there's no 3%, 1%, 10% compulsory reserve. We've truly moved away from the fractional reserve concept. Now, it's central banks, governments through fiscal deficits, central banks through quantitative easing (QE), and private banks through the creation of bank loans that can increase the total money supply and, in my opinion, cause inflation.
 
 
-To understand the link between money and inflation, I recommend a course I have on Plan ₿ Network dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. In fact, when we refer to inflation, we're often talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
+To understand the link between money and inflation, I recommend a course I have on Plan ₿ Academy dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. In fact, when we refer to inflation, we're often talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 To conclude this section on the fiat world, I'd like to point out a resource to help you better understand the phenomena I've just explained, such as inflation.
 

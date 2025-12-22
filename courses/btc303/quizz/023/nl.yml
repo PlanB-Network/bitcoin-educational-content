@@ -6,3 +6,4 @@ wrong_answers:
   - Gebruikers zijn volledig anoniem en kunnen geen enkele transactie met elkaar in verband brengen
 explanation: |
   De pseudonieme aard van Bitcoin betekent dat gebruikers onder pseudoniemen werken (adressen afgeleid van publieke sleutels), maar dat hun transacties nog steeds getraceerd en gelinkt kunnen worden tussen deze pseudoniemen op de blockchain. Dit verschilt van echte anonimiteit, waarbij transacties helemaal geen traceerbare connecties achterlaten. In Bitcoin kun je de geldstroom tussen adressen volgen, maar de echte identiteit achter die adressen wordt niet direct onthuld, tenzij iemand die vrijwillig vrijgeeft of fouten maakt waardoor zijn privégegevens uitlekken.
+reviewed: false

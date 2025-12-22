@@ -1,0 +1,8 @@
+question: Welk kritiek probleem lost het just-in-time kanaalmechanisme van de Breez SDK op waarmee traditionele Lightning-implementaties worstelen?
+answer: Het creëert automatisch nieuwe kanalen met voldoende inkomende liquiditeit wanneer betalingen binnenkomen, zodat gebruikers de kanaalcapaciteit niet handmatig hoeven te beheren
+wrong_answers:
+  - Het voorkomt gedwongen afsluiting van kanalen door automatisch fondsen te herbalanceren over meerdere kanalen wanneer één kanaal niet meer reageert of offline gaat
+  - Het verlaagt de transactiekosten door meerdere kleine betalingen te bundelen tot grotere kanaaltransacties die worden verwerkt tijdens daluren van het netwerk
+  - Het elimineert de noodzaak voor wachttorenservices door tijdelijke kanalen aan te maken die automatisch verlopen nadat de betaling succesvol is afgerond
+explanation: |
+  Het just-in-time kanaalmechanisme pakt specifiek de liquiditeitsbeheeruitdaging van Lightning aan waarbij fondsen alleen kunnen stromen in richtingen waar capaciteit aanwezig is. Wanneer een gebruiker een betaling moet ontvangen maar niet over voldoende inkomende liquiditeit beschikt, opent de LSP automatisch een nieuw kanaal op het moment dat de betaling binnenkomt, wat naadloos gebeurt zonder tussenkomst van de gebruiker. De foute antwoorden beschrijven andere Lightning-uitdagingen, maar niet het specifieke liquiditeitsprobleem dat just-in-time kanalen oplossen.

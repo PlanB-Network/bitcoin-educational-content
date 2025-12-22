@@ -1,0 +1,8 @@
+question: En un Taproot habilitado para HTLC, ¿qué ocurre cuando ambas partes acuerdan cooperativamente completar el intercambio entre capas?
+answer: Firman conjuntamente utilizando su clave pública agregada a través de MuSig2, creando una transacción indistinguible de un pago estándar con una sola firma
+wrong_answers:
+  - Deben revelar la secuencia de comandos completa que contiene el hash y el tiempo de bloqueo on-chain para la verificación de la red
+  - Sólo publican la rama específica del árbol de Merkle que necesitan, manteniendo la clave agregada oculta a los observadores
+  - Emiten transacciones separadas en cada capa simultáneamente para garantizar una liquidación atómica sin agregación de claves
+explanation: |
+  La "ruta de claves" cooperativa de Taproot permite a las partes combinar sus claves en una única clave pública agregada utilizando MuSig2. Cuando ambas están de acuerdo, simplemente firman conjuntamente la transacción, que parece idéntica a cualquier pago estándar en la cadena de bloques. Esto proporciona la máxima privacidad y eficiencia, ya que no se revela ninguna lógica de script, consumiendo un espacio de bloque mínimo. Las otras opciones describen incorrectamente el comportamiento heredado de HTLC o el escenario de ruta de script adversario.

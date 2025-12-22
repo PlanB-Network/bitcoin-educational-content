@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Contrairement à Wasabi 1.0, où le change était directement lié aux inputs des utilisateurs, Wabisabi cherche à subdiviser le change en plusieurs petites sommes, réparties en dénominations égales pour tous les participants.
 
-reviewed: false
+reviewed: true 

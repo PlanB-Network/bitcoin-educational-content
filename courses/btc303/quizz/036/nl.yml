@@ -6,3 +6,4 @@ wrong_answers:
   - De kosten van bloksubsidies worden gedragen door beurzen via handelsvergoedingen, terwijl de transactiekosten worden betaald door wallet aanbieders
 explanation: |
   Zoals Paul Sztorc opmerkte, zijn bloksubsidie en transactievergoedingen fundamenteel verschillend van aard. De blokkensubsidie vertegenwoordigt de creatie van nieuwe bitcoins, die het bestaande aanbod verdunt en effectief alle bitcoinhouders op kosten jaagt door monetaire inflatie. Transactievergoedingen daarentegen zijn directe betalingen door gebruikers die een transactie willen doen, wat betekent dat spenders deze kosten direct dragen. Het hoofdstuk illustreert deze overgang en laat zien hoe beveiligingskosten verschuiven van houders naar spenders naarmate de bloksubsidie in de loop van de tijd afneemt.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kako integracija Lightning Service Provider (LSP) u Breez SDK rešava problem upravljanja likvidnošću za primanje uplata?
+answer: LSP-ovi automatski otvaraju nove Lightning kanale sa dolaznom likvidnošću u trenutku kada uplata stigne, koristeći kreiranje kanala u pravom trenutku.
+wrong_answers:
+  - LSP-ovi unapred finansiraju sve korisničke kanale sa maksimalnim kapacitetom likvidnosti i periodično balansiraju sredstva preko topologije mreže.
+  - LSP-ovi održavaju zajednički fond likvidnosti koji privremeno pozajmljuje sredstva korisnicima tokom prijema plaćanja pre nego što dođe do poravnanja
+  - LSP-ovi usmeravaju plaćanja kroz više posredničkih kanala kako bi pronašli postojeće puteve likvidnosti bez stvaranja novih odnosa kanala
+explanation: |
+  Breez SDK implementira 'just-in-time' kanale gde LSP-ovi automatski otvaraju nove Lightning kanale tačno kada korisnik treba da primi uplatu, ali nema dovoljno dolazne likvidnosti. Ovo se dešava neprimetno bez intervencije korisnika, rešavajući osnovno ograničenje Lightning-a u likvidnosti gde sredstva mogu teći samo u pravcima gde postoji kapacitet kanala. Druge opcije opisuju različite pristupe koji ne odgovaraju stvarnoj implementaciji dinamičkog kreiranja kanala u SDK-u.

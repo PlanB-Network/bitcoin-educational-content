@@ -1,0 +1,8 @@
+question: Bitcoin'da ECDSA imzaları için güvenlik temelini sağlayan matematiksel problem hangisidir?
+answer: Eliptik eğri ayrık logaritma problemi
+wrong_answers:
+  - Tamsayı çarpanlarına ayırma problemi
+  - Kuadratik kalıntı problemi
+  - Hash çarpışma problemi
+explanation: |
+  ECDSA güvenliği eliptik eğri ayrık logaritma problemine dayanır: P = eG verildiğinde, e ve G'den P'yi hesaplamak kolaydır, ancak P açık anahtarından e özel anahtarını türetmek hesaplama açısından mümkün değildir. Bu tek yönlü matematiksel ilişki, tamsayı çarpanlarına ayırmaya dayanan RSA'dan daha küçük anahtar boyutlarıyla güvenli açık anahtar kriptografisi sağlar.

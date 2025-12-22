@@ -1,10 +1,9 @@
-question: Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent inférieurs à... ?
-answer: 0,5 %
+question: Quel avantage Ark offre-t-il par rapport à Lightning pour la réception ?
+answer: Pas besoin de liquidité entrante
 wrong_answers:
-  - 1 %
-  - 2 %
-  - 3 %
-explanation: >-
-  Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent
-  inférieurs à 0,5 %.
-reviewed: true
+  - Finalité immédiate du paiement
+  - Absence de frais de transaction
+  - Pas besoin d'avoir de wallet
+explanation: |
+  Ark permet de recevoir des paiements sans disposer à l’avance de liquidité entrante.
+reviewed: false

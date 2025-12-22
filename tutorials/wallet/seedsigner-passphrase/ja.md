@@ -1,5 +1,5 @@
 ---
-name: BIP-39 パスフレーズ SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: passphraseをSeedSignerのポートフォリオに追加するにはどうすればよいですか？
 ---
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Netzwerk-Validatoren, die in einem demokratischen Prozess über die Gültigkeit von Transaktionen abstimmen
 explanation: |
   Das Bitcoin-Angebotslimit wird durch vollständige Knoten durchgesetzt, die einen Verifizierungscode ausführen, um die Coinbase-Transaktion jedes Blocks mit den Konsensregeln zu vergleichen. Selbst wenn einige Knoten böswillig werden und ungültige Blöcke mit übermäßigen Belohnungen akzeptieren, werden ehrliche Knoten sie einfach ignorieren und mit der gültigen Kette fortfahren. Auf diese Weise entsteht ein vertrauensloses System, bei dem man keiner Person oder Autorität vertrauen muss - man muss lediglich einen Code ausführen, der die Einhaltung der Regeln überprüft, wodurch das Netzwerk kollektiv gegen Angebotsinflationsversuche abgesichert wird.
+reviewed: false

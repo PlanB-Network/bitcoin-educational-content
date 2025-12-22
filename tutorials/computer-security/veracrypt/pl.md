@@ -222,4 +222,4 @@ Teraz można usunąć nośnik pamięci.
 Gratulacje, masz teraz zaszyfrowany nośnik do bezpiecznego przechowywania danych osobowych, a tym samym kompletną strategię 3-2-1 oprócz kopii na komputerze i rozwiązania do przechowywania danych online.
 
 
-Jeśli chcesz wesprzeć rozwój VeraCrypt, możesz również przekazać darowiznę w bitcoinach [na tej stronie] (https://www.veracrypt.fr/en/Donation.html).
+Jeśli chcesz wesprzeć rozwój VeraCrypt, możesz również przekazać darowiznę w bitcoinach [na tej stronie](https://www.veracrypt.fr/en/Donation.html).

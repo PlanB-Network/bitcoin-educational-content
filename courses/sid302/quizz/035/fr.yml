@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal du processus en trois étapes Connecter, Préparer et Exécuter dans l'interface développeur du SDK Breez ?
+answer: Normaliser les flux financiers complexes en synchronisant les portefeuilles, en calculant tous les frais à l'avance, puis en construisant des transactions
+wrong_answers:
+  - Établir des connexions de sauvegarde redondantes entre plusieurs fournisseurs d'échange avant d'entamer toute opération atomique
+  - Créer des signatures cryptographiques distinctes pour chaque réseau impliqué dans des opérations de swap sous-marin entre chaînes
+  - Valider les pré-images de paiement par rapport aux contrats à terme avant de débloquer les fonds des mécanismes de dépôt fiduciaire
+explanation: |
+  Le modèle Connect, Prepare, Execute simplifie le développement en divisant les opérations complexes en étapes gérables : Connect initialise les portefeuilles et établit des connexions de surveillance, Prepare calcule et affiche tous les coûts de manière transparente pour les utilisateurs, et Execute gère la construction et la diffusion de la transaction proprement dite. Cette normalisation fait abstraction de la complexité sous-jacente des échanges sous-marins et des opérations inter-chaînes, ce qui permet aux développeurs d'intégrer plus facilement la fonctionnalité Bitcoin sans avoir à gérer les détails de bas niveau.

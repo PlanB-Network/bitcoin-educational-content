@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo do campo do número de sequência nas entradas de transação Bitcoin?
+answer: Para ativar os relógios de ponto e a funcionalidade Substituição por tarifa (RBF)
+wrong_answers:
+  - Para especificar a ordem em que as entradas devem ser processadas pelos mineiros
+  - Para evitar o double-spending, criando um identificador único para cada entrada
+  - Para indicar o nível de prioridade da transação para o cálculo da taxa
+explanation: |
+  O campo do número de sequência nas entradas de transacções Bitcoin tem dois objectivos principais: implementar timelocks (que atrasam o momento em que uma transação pode ser confirmada) e ativar a funcionalidade Replace-by-Fee (RBF) (que permite aos utilizadores aumentar as taxas em transacções não confirmadas). As outras opções estão incorrectas porque: as entradas não precisam de ser processadas por uma ordem específica pelos mineiros, a prevenção double-spending é gerida pelo modelo UTXO e pelo consenso da cadeia de blocos em vez dos números de sequência, e a prioridade das transacções é determinada pelas taxas de comissão em vez dos números de sequência.

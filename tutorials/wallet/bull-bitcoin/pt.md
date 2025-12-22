@@ -54,7 +54,7 @@ O Wallet está em constante evolução, por isso não se surpreenda se encontrar
 
 
 
-- Por exemplo, a partir de 19/07/2025, os botões **"Comprar / Vender / Pagar "** estão visíveis mas a cinzento na aplicação, uma vez que estas opções, disponíveis em Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel), serão em breve integradas para uma experiência unificada. A sua utilização continuará a ser totalmente opcional. Muitos outros desenvolvimentos estão em curso ou planeados: gestão multi-Wallet, passphrase, compatibilidade com carteiras de hardware...
+- Por exemplo, a partir de 19/07/2025, os botões **"Comprar / Vender / Pagar "** estão visíveis mas a cinzento na aplicação, uma vez que estas opções, disponíveis em Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), serão em breve integradas para uma experiência unificada. A sua utilização continuará a ser totalmente opcional. Muitos outros desenvolvimentos estão em curso ou planeados: gestão multi-Wallet, passphrase, compatibilidade com carteiras de hardware...
 - No [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), pode consultar os tópicos actuais e os próximos desenvolvimentos. Como o projeto é 100% open-source e "construído em público", pode também enviar-nos as suas sugestões e quaisquer bugs que encontre.
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Glossário] (https://planb.academy/fr/resources/glossary/payjoin)
+- [Glossário](https://planb.academy/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Glossário] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Glossário](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Crie a sua conta] (https://app.bullbitcoin.com/registration/orangepeel) com 0,25% de desconto nas compras e vendas de Bitcoin.
+[Crie a sua conta](https://app.bullbitcoin.com/registration/orangepeel) com 0,25% de desconto nas compras e vendas de Bitcoin.
 
 
 

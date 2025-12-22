@@ -1,0 +1,8 @@
+question: Điểm yếu về mặt vận hành nghiêm trọng nào phát sinh từ mô hình ủy quyền đồng ký của AMP đối với các giao dịch chuyển nhượng tài sản được quản lý?
+answer: Tính thanh khoản của tài sản sẽ tạm dừng hoàn toàn nếu máy chủ AMP không khả dụng vì mỗi giao dịch chuyển khoản đều yêu cầu chữ ký xác nhận của máy chủ.
+wrong_answers:
+  - Phí giao dịch tăng theo cấp số nhân khi nhiều người đồng ký cố gắng ủy quyền chuyển khoản cùng một lúc.
+  - Quyền riêng tư của giao dịch bí mật bị phá vỡ vì việc cùng ký tên làm lộ ra các yếu tố che giấu thông tin đối với những người quan sát trên mạng.
+  - Các chủ sở hữu tài sản mất quyền kiểm soát khi cơ chế đồng ký chuyển các khóa riêng tư cho máy chủ AMP.
+explanation: |
+  Mô hình ủy quyền của AMP yêu cầu máy chủ AMP phải đồng ký mọi giao dịch chuyển nhượng tài sản, tạo ra một điểm yếu duy nhất. Nếu máy chủ ngoại tuyến, không giao dịch nào có thể được hoàn tất, dẫn đến việc đóng băng toàn bộ tính thanh khoản của tài sản. Các lựa chọn khác đều không chính xác: phí không tăng theo cấp số nhân khi có người đồng ký, quyền riêng tư của Giao dịch Bảo mật vẫn được giữ nguyên (chỉ người phát hành mới có thể xem được), và người dùng vẫn giữ khóa riêng của họ trong khi máy chủ chỉ cung cấp chữ ký ủy quyền.

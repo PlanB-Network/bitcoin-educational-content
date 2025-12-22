@@ -1,5 +1,5 @@
-question: 如果通过 umbrel.local 访问失败，哪条命令可以检索 Umbrel 的本地 IP Address？
-answer: 主机名 -I
+question: 如果通过 umbrel.local 的访问失败，哪条命令可以检索 Umbrel 的本地 IP 地址？
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

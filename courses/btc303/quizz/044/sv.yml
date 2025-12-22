@@ -6,3 +6,4 @@ wrong_answers:
   - Uppgraderingen orsakade en permanent kedjesplittring eftersom gruvarbetare och användare var oense om implementeringsdetaljerna
 explanation: |
   BIP66-incidenten avslöjade ett kritiskt fel i mineraktiverade softforks: att signalera beredskap garanterar inte faktisk validering. Trots att 95 % av miners angav att de var redo för uppgraderingen validerade ungefär hälften inte de nya reglerna ordentligt och minade av misstag på ett ogiltigt block. Detta visade att hashkraftssignalering kan vara vilseledande och inte säkerställer korrekt implementering, vilket var ett av Shaolinfrys viktigaste argument för att föreslå användaraktiverade Soft-forkar som en mer tillförlitlig uppgraderingsmekanism.
+reviewed: false

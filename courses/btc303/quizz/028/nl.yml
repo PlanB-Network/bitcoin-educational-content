@@ -6,3 +6,4 @@ wrong_answers:
   - Miners zullen volledig stoppen met mining omdat transactiekosten alleen de elektriciteitskosten niet kunnen dekken
 explanation: |
   Fee sniping treedt op wanneer miners proberen om vorige blokken die transacties met hoge vergoedingen bevatten opnieuw te delven in plaats van de keten eerlijk uit te breiden. Dit wordt economisch rationeel wanneer de vergoedingen in een vorig blok aanzienlijk hoger zijn dan die in de huidige mempool. Hoewel de kans op succes lager is dan bij eerlijk mining, kan de potentiële beloning veel hoger zijn. Dit gedrag is vooral zorgwekkend omdat het een cascade-effect kan creëren waarbij meer miners oneerlijke praktijken toepassen, wat uiteindelijk het veiligheidsmodel van Bitcoin bedreigt wanneer de bloksubsidies afnemen.
+reviewed: false

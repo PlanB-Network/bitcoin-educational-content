@@ -1,8 +1,9 @@
-question: Bitcoin 的擴充性問題是什麼？
-answer: 當採用貨幣系統時，如何實現每秒能夠提供越來越多交易的挑戰。
+question: 哪種機制使 Lightning 支付具有原子性？
+answer: HTLC
 wrong_answers:
-  - 隨著時間的推移，Mining 新比特幣的價值不斷增加，其難度也隨之增加。
-  - 每次 Halving 之後，Bitcoin 的價格波動性都會增加。
-  - Bitcoin 缺乏監管，會使交易變成非法。
-explanation: >-
-reviewed: true
+  - 多重簽名
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC 將支付與秘密的揭露相連結，從而保證完全成功或失敗且不會產生損失。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Rust özelliklerinin hangi kombinasyonu, Bitcoin işlemlerinin geri döndürülemez doğasını ele almak için özellikle uygundur?
+answer: Hataları derleme zamanında yakalayan ve bellekle ilgili güvenlik açıklarını önleyen statik güçlü tip sistemi
+wrong_answers:
+  - Bellek yönetimi için çalışma zamanı kontrolleri ve otomatik çöp toplama ile dinamik yazım
+  - Performans optimizasyonu için esnek dönüşümlere ve manuel bellek yönetimine sahip zayıf tip sistemi
+  - Esneklik için çalışma zamanı optimizasyonu ve yorumlanmış hata işleme ile tam zamanında derleme
+explanation: |
+  Rust'ün statik güçlü tip sistemi Bitcoin geliştirme için çok önemlidir çünkü tip uyumsuzluklarını ve mantık hatalarını program çalışmadan önce yakalayarak kullanıcı fonlarını etkileyebilecek sorunları önler. Statik yapı, hataların gerçek işlemlerle uğraşırken çalışma zamanı yerine derleme zamanında bulunacağı anlamına gelir. Ayrıca, Rust'ün tip sistemi bellek sahipliğini ele alır ve çift serbest hatalar ve yarış koşulları gibi bellekle ilgili güvenlik açıklarını önler. Bu, hataların geri döndürülemez olduğu ve ters ibraz mekanizmalarına sahip geleneksel finansal sistemlerin aksine fon kurtarma için başvurulacak bir makamın olmadığı Bitcoin uygulamaları için çok önemlidir.

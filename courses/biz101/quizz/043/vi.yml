@@ -1,9 +1,9 @@
-question: What does Bitcoin allow you to do without intermediaries?
-answer: Exchange value on the Internet
+question: Bitcoin cho phép bạn làm gì mà không cần trung gian?
+answer: Giá trị Exchange trên Internet
 wrong_answers:
-  - Create centralized applications
-  - Obtain bank loans
-  - Store personal data
+  - Tạo các ứng dụng tập trung
+  - Vay vốn ngân hàng
+  - Lưu trữ dữ liệu cá nhân
 explanation: |
-  Bitcoin enables the exchange of value on the Internet without intermediaries through its peer-to-peer protocol.
-reviewed: false
+  Bitcoin cho phép trao đổi giá trị trên Internet mà không cần trung gian thông qua giao thức ngang hàng.
+reviewed: true

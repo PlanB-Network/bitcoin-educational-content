@@ -1,11 +1,17 @@
 ---
-name: Maan
+name: Moon
 description: Betaal in bitcoins overal waar Visa-bankkaarten worden geaccepteerd.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Update december 2025: Let op, **sinds begin december 2025 is een deel van de diensten van Moon niet langer beschikbaar**, met name de oplaadbare Visa-bankkaarten. We weten nog niet of deze onbeschikbaarheid tijdelijk of definitief is. Deze handleiding wordt bijgewerkt zodra er meer informatie beschikbaar is.*
+
+---
 
 Met Moon kun je cryptocurrencies zoals bitcoin gebruiken om KYC-vrije virtuele Visa-kaarten en cadeaubonnen te kopen, die je kunt gebruiken bij miljoenen online handelaars, net als een traditionele bankpas. Het biedt dus een eenvoudige manier om je sats uit te geven waar Visa wordt geaccepteerd, zonder via een uitwisselingsplatform te gaan.
 
@@ -177,7 +183,7 @@ Met deze virtuele kaart kun je online voor producten en diensten betalen, net zo
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

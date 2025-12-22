@@ -1,0 +1,8 @@
+question: Quel est le fondement mathématique qui rend le problème du logarithme discret infaisable en cryptographie à courbe elliptique ?
+answer: La distribution imprévisible des points lors de la génération d'un groupe cyclique par addition répétée de points
+wrong_answers:
+  - Propriété de symétrie des courbes elliptiques qui reflètent les points sur l'axe des x
+  - Les opérations arithmétiques modulaires effectuées dans des champs finis au lieu de nombres réels
+  - Le grand nombre premier utilisé comme caractéristique du champ dans l'équation de la courbe
+explanation: |
+  La difficulté du problème du logarithme discret provient de la distribution imprévisible et non linéaire des points lors de la génération d'un groupe cyclique (G, 2G, 3G, ..., nG). Même si les points sont générés de manière séquentielle, ils apparaissent dispersés et aléatoires, ce qui rend la détermination du scalaire s à partir du point P = sG infaisable d'un point de vue informatique. Bien que la symétrie, l'arithmétique modulaire et les grands nombres premiers soient des propriétés importantes des courbes elliptiques, elles ne créent pas directement la fonction à sens unique qui permet de sécuriser la cryptographie à clé publique.

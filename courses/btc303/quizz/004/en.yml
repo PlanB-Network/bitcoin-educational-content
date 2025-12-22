@@ -6,3 +6,4 @@ wrong_answers:
   - A blind signature system with central trusted party for double-spend prevention
 explanation: |
   Satoshi Nakamoto specifically proposed using a 'peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions' as stated in the Bitcoin whitepaper. The key word is 'distributed,' meaning no central point of control. The wrong answers represent earlier failed attempts at digital money that relied on centralized or semi-centralized approaches, which made them vulnerable to censorship and failure - exactly the problems Bitcoin was designed to solve through true decentralization.
+reviewed: false

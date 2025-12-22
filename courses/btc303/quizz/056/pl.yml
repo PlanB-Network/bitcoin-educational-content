@@ -6,3 +6,4 @@ wrong_answers:
   - Utwory pochodne muszą zawierać oryginalną markę Bitcoin Core i nie mogą być przemianowywane ani rebrandowane
 explanation: |
   Licencja MIT wymaga, aby prace pochodne były rozpowszechniane na tych samych warunkach licencyjnych, co oryginalne oprogramowanie, zapewniając zachowanie charakteru open source. Nie zabrania to sprzedaży komercyjnej (błędna odpowiedź 1), nie wymaga zgody deweloperów (błędna odpowiedź 2) i nie nakazuje zachowania oryginalnej marki (błędna odpowiedź 3). Licencja wyraźnie stanowi, że modyfikacje i prace pochodne muszą być dozwolone na tych samych warunkach, utrzymując model rozwoju bez zezwoleń, który umożliwia innowacje, takie jak Lightning Network i łańcuchy boczne.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Kook Wallet
+name: Cake Wallet
 description: Tutorial Cake Wallet ja vaiksete maksete kohta
 ---
 
@@ -227,7 +227,7 @@ Kui olete tehingu saatnud, küsitakse, kas soovite selle kontakti oma aadressira
 ## 5️⃣ PayJoin
 
 
-Vaatame üle, mis on PayJoin [umbes] (https://docs.cakewallet.com/cryptos/bitcoin/#payjoin):
+Vaatame üle, mis on PayJoin [umbes](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin):
 
 
 _Payjoin v2 on Bitcoin privaatsust säilitav ja tasu säästev funktsioon, mis võimaldab tehingu saatjal ja saajal teha koostööd, et luua üks tehing. Sellisel tehingul on sisendid nii saatjalt kui ka saajalt, mis murrab Bitcoin vastu suunatud kõige levinumad jälgimismeetodid ning võimaldab mõnes olukorras ka paremat skaalumist ja tasude kokkuhoidu _

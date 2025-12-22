@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Si une même adresse est utilisée pour plusieurs transactions, il devient possible de déduire que tous les bitcoins associés à cette adresse appartiennent à une même personne.
 
-reviewed: false
+reviewed: true 

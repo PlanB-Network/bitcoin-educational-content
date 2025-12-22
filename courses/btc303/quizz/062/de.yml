@@ -6,3 +6,4 @@ wrong_answers:
   - Abgeleitete Werke können nur unter geschützten Lizenzen verbreitet werden, die die Zahlung von Lizenzgebühren erfordern
 explanation: |
   Die Open-Source-Definition besagt ausdrücklich, dass "die Lizenz Modifikationen und abgeleitete Werke zulassen muss und dass diese unter denselben Bedingungen wie die Lizenz der ursprünglichen Software verbreitet werden dürfen" Damit wird sichergestellt, dass abgeleitete Werke die gleichen Freiheiten wie das Original behalten, und es wird verhindert, dass jemand Open-Source-Code nimmt und ihn proprietär macht. Die anderen Optionen verletzen dieses Grundprinzip, indem sie entweder die Freiheit einschränken oder die Kompatibilität der Lizenzen verändern.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Säilyttää taaksepäin yhteensopivuus vanhempien solmuversioiden kanssa, jotka eivät pysty käsittelemään hätälaastareita
 explanation: |
   Oikea vastaus korostaa tietoturvakorjausten keskeistä ristiriitaa: korjaus itsessään voi paljastaa haavoittuvuuden. Luvussa korostetaan, että kehittäjien on naamioitava korjaukset huolellisesti, koska niiden välitön julkaiseminen saattaa paljastaa haavoittuvuuden hyökkääjille ennen kuin suurin osa solmuista on suojattu. Vaikka väärät vastaukset ovatkin uskottavia, ne antavat väärän kuvan prioriteeteista: altcoin-ilmoitus tapahtuu Bitcoin:n verkon käyttöönoton jälkeen, mining:n poolien testaus ei ole ensisijainen huolenaihe muiden kuin kriittisten ongelmien osalta, ja taaksepäin yhteensopivuus ei määrää tietoturvakorjausten ajoitusta.
+reviewed: false

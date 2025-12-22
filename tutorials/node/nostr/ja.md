@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: NOSTRの発見と利用開始
 ---
 

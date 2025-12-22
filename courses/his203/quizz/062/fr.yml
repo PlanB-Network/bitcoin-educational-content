@@ -1,0 +1,9 @@
+question: Sur quel subreddit les utilisatrices pouvaient publier des photos dénudées d'elles-même contre des pourboires en bitcoins à partir de mars 2012 ?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ Il a été ouvert le 26 mars 2012 par Julian Tosh, alias Tuxavant, un défenseur de Linux et de la vie privée vivant à Las Vegas. Le subreddit comptait près de 2 000 membres à la fin de l'année.
+reviewed: false

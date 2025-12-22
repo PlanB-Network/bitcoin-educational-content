@@ -96,7 +96,7 @@ Oavsett vad du väljer, kom ihåg att allt innehåll som publiceras på Plan ₿
 ## 2 - Kontakta Plan ₿ Academy-teamet
 
 
-När du har valt tema för din handledning är nästa steg att informera oss om din avsikt att lägga till detta innehåll på plattformen. Det enklaste sättet, om du har ett Telegram-konto, är att [gå med i vår grupp] (https://t.me/PlanBNetwork_ContentBuilder).
+När du har valt tema för din handledning är nästa steg att informera oss om din avsikt att lägga till detta innehåll på plattformen. Det enklaste sättet, om du har ett Telegram-konto, är att [gå med i vår grupp](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 ![TUTO](assets/fr/39.webp)

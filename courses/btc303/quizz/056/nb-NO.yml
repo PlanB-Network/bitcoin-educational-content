@@ -6,3 +6,4 @@ wrong_answers:
   - Avledede verk må inneholde den opprinnelige Bitcoin Core-merkevaren og kan ikke omdøpes eller omprofileres
 explanation: |
   MIT-lisensen krever at avledede verk distribueres under de samme lisensvilkårene som den opprinnelige programvaren, noe som sikrer at den åpne kildekodekarakteren bevares. Dette forbyr ikke kommersielt salg (feil svar 1), krever ikke tillatelse fra utviklere (feil svar 2) og pålegger ikke å beholde den opprinnelige merkevaren (feil svar 3). Lisensen sier spesifikt at modifikasjoner og avledede verk må være tillatt under de samme vilkårene, og opprettholder den tillatelsesfrie utviklingsmodellen som muliggjør innovasjon som Lightning Network og sidekjeder.
+reviewed: false

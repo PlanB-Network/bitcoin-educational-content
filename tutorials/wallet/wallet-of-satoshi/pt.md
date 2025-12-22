@@ -12,7 +12,7 @@ _Este tutorial foi escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus
 
 O Wallet do Satoshi é um Lightning Network Wallet, de custódia, e muito simples de utilizar.
 
-Para efeitos do curso [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), é utilizado para os cupões Redeem Lightning Network.
+Para efeitos do curso [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), é utilizado para os cupões Redeem Lightning Network.
 
 
 **Lembrem-se sempre**: _não as vossas chaves, não as vossas moedas_

@@ -6,3 +6,4 @@ wrong_answers:
   - Rywalizacja między rozwiązaniami warstwy drugiej i skalowaniem on-chain o ograniczone zasoby rozwojowe i wsparcie społeczności
 explanation: |
   Maxwell zidentyfikował dwustronny problem, w którym Bitcoin traci swoje zalety w obu kierunkach: jeśli wykorzystanie zasobów jest zbyt wysokie w stosunku do dostępnej technologii, walidacja staje się zbyt kosztowna i wycenia użytkowników, którzy następnie muszą polegać na zaufanych stronach trzecich zamiast na niezależnej walidacji. I odwrotnie, jeśli pojemność jest zbyt niska, a metody transakcji są nieefektywne, dostęp do blockchaina w celu rozstrzygania sporów staje się zbyt kosztowny, co ponownie popycha użytkowników w kierunku zaufanych usług. Tworzy to delikatną równowagę, w której muszą poruszać się rozwiązania skalujące.
+reviewed: false

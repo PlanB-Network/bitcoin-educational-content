@@ -1,0 +1,8 @@
+question: Qu'adviendrait-il de l'offre totale de Bitcoin si les mineurs ne réclamaient systématiquement que 90 % de la subvention autorisée pour tous les blocs ?
+answer: L'offre totale serait définitivement réduite à moins de 21 millions de BTC, les subventions non réclamées étant perdues à jamais
+wrong_answers:
+  - Les 10 % restants s'accumuleraient dans un fonds de réserve que les futurs mineurs pourraient utiliser pendant les périodes où les droits sont peu élevés
+  - Le mécanisme d'ajustement de la difficulté compenserait en augmentant les récompenses des blocs futurs pour maintenir le plafond de 21 millions d'euros
+  - Les subventions non réclamées seraient redistribuées proportionnellement entre les bénéficiaires des frais de transaction dans les blocs suivants
+explanation: |
+  Le protocole de Bitcoin permet aux mineurs de réclamer moins que la subvention maximale autorisée, mais tout montant non réclamé est définitivement perdu - il n'y a pas de mécanisme pour le redistribuer ou le récupérer plus tard. La formule de subvention et le calendrier de réduction de moitié déterminent le maximum théorique d'environ 21 millions de BTC, mais l'offre réelle dépend des mineurs qui réclament la totalité de leurs droits. Contrairement à l'ajustement de la difficulté qui répond aux conditions de la mining, il n'y a pas de mécanisme compensatoire pour les récompenses non réclamées, ce qui rend l'offre totale potentiellement déflationniste si les mineurs ne réclament pas suffisamment.

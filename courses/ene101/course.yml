@@ -21,7 +21,7 @@ start_date: 2025-11-27 # update based on info
 end_date: 2025-11-27 # update based on info
 requires_payment: true # keep that one
 inperson_price_dollars: 0 # update based on info
-payment_expiration_date: 2025-11-27 # start_date - 1 day
+payment_expiration_date: 2025-11-28 # start_date - 1 day
 available_seats: 50 # update based on info
 paid_description: |
   Ce séminaire explore les fondements thermodynamiques de Bitcoin, expliquant les concepts d'énergie, d'entropie, de valeur et de rareté. Il aborde également les enjeux de décentralisation et de confidentialité dans la transition numérique, ainsi que la vision de Friedrich Hayek sur la concurrence des monnaies face au monopole de la monnaie fiat.
@@ -36,4 +36,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0
+    reward: 0.48

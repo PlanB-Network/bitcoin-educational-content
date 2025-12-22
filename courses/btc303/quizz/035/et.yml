@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   Õige valem on (x/(1-x))^2, sest tasu sniping nõuab, et kaevur kaevandaks edukalt kaks järjestikust plokki, et asendada eelmine plokk ja pikendada ahelat. mining ühe ploki tõenäosus ausate kaevurite vastu on x/(1-x) ja kuna kaks plokki tuleb kaevandada järjestikku, on see tõenäosus ruut. Teised valemid on matemaatiliselt usutavad, kuid kujutavad endast erinevaid tõenäosusstsenaariume, mis ei vasta tasu snaipimise erinõuetele, kus ebaaus kaevandaja peab ületama ausat võrgustikku kaks korda järjest.
+reviewed: false

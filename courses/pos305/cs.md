@@ -2082,7 +2082,7 @@ Správci serverů mohou otevřít další podrobnosti a zobrazit je.
 #### LND (REST)
 
 
-BTCPay vystavuje službu REST LND pro externí použití; informace o připojení najdete zde; kompatibilní peněženky jsou uvedeny zde. Mezi kompatibilní peněženky patří Joule, Alby a ZeusLN. Server BTCPay poskytuje pro připojení QR kód, který lze naskenovat a použít v kompatibilní peněžence Wallet.
+BTCPay vystavuje službu REST LND pro externí použití; informace o připojení najdete [zde](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatibilní peněženky jsou uvedeny [zde](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Mezi kompatibilní peněženky patří Joule, Alby a ZeusLN. Server BTCPay poskytuje pro připojení QR kód, který lze naskenovat a použít v kompatibilní peněžence Wallet.
 
 
 

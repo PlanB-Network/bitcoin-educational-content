@@ -1,0 +1,8 @@
+question: Wat gebeurt er met de oorspronkelijke instantie van de structuur als je de struct update syntaxis gebruikt met niet-kopiërende types?
+answer: Velden die worden gekopieerd, worden onbruikbaar in de oorspronkelijke instantie vanwege de verplaatsingssemantiek
+wrong_answers:
+  - De oorspronkelijke instantie blijft volledig ongewijzigd en volledig toegankelijk
+  - De volledige oorspronkelijke instantie wordt gekloond, waardoor beide instanties volledig functioneel blijven
+  - Alleen de velden die je expliciet wijzigt, worden ontoegankelijk in het oorspronkelijke
+explanation: |
+  Bij gebruik van struct update syntaxis met niet-kopieerbare types, verplaatst Rust's eigendomssysteem de gekopieerde velden van de originele instantie naar de nieuwe. Dit betekent dat die specifieke velden onbruikbaar worden in de originele instantie, terwijl velden die niet gekopieerd zijn toegankelijk blijven. De compiler volgt deze gedeeltelijke verplaatsingen op een intelligente manier, waardoor toegang tot verplaatste velden wordt voorkomen terwijl het gebruik van niet-verplaatste velden wel mogelijk blijft. Dit gedrag zorgt voor geheugenveiligheid door meerdere eigenaren van dezelfde gegevens te voorkomen.

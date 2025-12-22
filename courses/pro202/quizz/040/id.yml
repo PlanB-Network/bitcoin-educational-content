@@ -1,0 +1,8 @@
+question: Mengapa penambang ASIC modern memodifikasi data dalam transaksi Coinbase daripada hanya mengandalkan bidang nonce header blok?
+answer: Bidang nonce 4-byte menyediakan ruang pencarian yang tidak mencukupi untuk ASIC modern, sehingga penambang memodifikasi data Coinbase untuk mengubah root Merkle dan membuat ruang pencarian tambahan
+wrong_answers:
+  - Memodifikasi transaksi Coinbase memungkinkan penambang untuk mengklaim hadiah blok yang lebih tinggi daripada jumlah subsidi standar yang diizinkan
+  - "Transaksi Coinbase harus dimodifikasi untuk menyertakan tanda tangan digital penambang untuk tujuan validasi blok"
+  - Mengubah data Coinbase mengurangi kesulitan komputasi dengan mengizinkan penambang untuk melewati persyaratan proof-of-work standar
+explanation: |
+  ASIC modern dapat menghabiskan ruang nonce 4-byte (kemungkinan 2^32) dengan sangat cepat, sehingga membutuhkan ruang pencarian tambahan. Dengan memodifikasi data dalam transaksi Coinbase, penambang mengubah hash transaksi, yang mengubah root Merkle di header blok, secara efektif menciptakan miliaran nilai nonce tambahan untuk dicoba. Teknik ini, yang disebut 'ekstra-nonce,' sangat penting untuk operasi mining modern di mana perangkat keras jauh melebihi kapasitas bidang nonce asli.

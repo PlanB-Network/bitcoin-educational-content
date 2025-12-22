@@ -6,3 +6,4 @@ wrong_answers:
   - Mecanismos de consenso en red para acordar bloques válidos
 explanation: |
   La propiedad trustless de Bitcoin elimina específicamente la necesidad de terceros de confianza como bancos o instituciones financieras para procesar y validar las transacciones. Como explicó Satoshi Nakamoto en el libro blanco de Bitcoin, el comercio tradicional se basa en instituciones financieras que actúan como intermediarios de confianza, pero el diseño de Bitcoin permite que el sistema funcione correctamente sin ninguna parte de confianza a través de su mecanismo de consenso descentralizado. Las otras opciones representan componentes técnicos esenciales que Bitcoin sigue requiriendo: se sigue necesitando hardware/software para participar, la seguridad criptográfica sigue siendo fundamental y el consenso de red es cómo Bitcoin logra la ausencia de confianza en lugar de algo que elimina.
+reviewed: false

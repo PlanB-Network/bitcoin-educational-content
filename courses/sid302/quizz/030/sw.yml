@@ -1,0 +1,8 @@
+question: Kusudi kuu la utaratibu wa kubadilishana ufunguo wa ECDH katika usanifu wa Confidential Transactions wa Liquid ni lipi?
+answer: Ili kuwawezesha watumaji kusimba kiasi na aina za mali kwa kutumia ufunguo wa umma unaopofusha wa mpokeaji huku wakitoa uthibitisho wa masafa unaoweza kuthibitishwa
+wrong_answers:
+  - Kuanzisha njia salama za mawasiliano kati ya seva za AMP na wateja wa wallet wakati wa michakato ya uidhinishaji wa miamala
+  - Kuunda siri za pamoja za usajili wa maelezo ya saini nyingi kati ya pochi na miundombinu ya seva ya AMP
+  - Kwa sahihi za siri za generate zinazothibitisha umiliki wa mali bila kufichua taarifa muhimu za kibinafsi
+explanation: |
+  Ubadilishaji wa funguo za ECDH (Elliptic Curve Diffie-Hellman) katika Confidential Transactions ya Liquid huwezesha hasa uhamishaji wa mali unaohifadhi faragha kwa kuruhusu watumaji kusimba thamani za matokeo ya miamala kwa kutumia ufunguo wa umma unaoficha macho wa mpokeaji. Hii huunda siri iliyoshirikiwa ambayo ni mpokeaji pekee ndiye anayeweza kuficha macho kwa kutumia ufunguo wake wa faragha unaoficha macho, huku wakati huo huo akitoa uthibitisho wa masafa unaoruhusu wathibitishaji wa mtandao kuthibitisha uhalali wa miamala bila kuona kiasi halisi. Chaguo zingine zinaelezea vibaya ECDH kama inayohudumia usalama wa mawasiliano, usajili wa maelezo, au kazi za uthibitisho wa umiliki, ambazo hushughulikiwa na mifumo tofauti ya usimbaji wa siri katika mfumo ikolojia wa Liquid.

@@ -1,0 +1,8 @@
+question: Milline on LDK püsivuskihi disaini ja traditsioonilise Lightning-sõlme andmehalduse kriitiline erinevus, mis võimaldab platvormideülese kasutuselevõtu paindlikkust?
+answer: LDK pakub salvestamiseks abstraktset binaarset andmekogumit, samas kui rakendused rakendavad oma salvestusmehhanisme
+wrong_answers:
+  - LDK kasutab standardiseeritud SQL-andmebaase, samas kui traditsioonilised sõlmed nõuavad kohandatud failisüsteemi rakendusi
+  - LDK sünkroonib automaatselt andmeid mitmel platvormil, samas kui traditsioonilised sõlmed salvestavad andmeid ainult lokaalselt
+  - LDK krüpteerib vaikimisi kõik püsivusandmed, samas kui traditsioonilised sõlmed tuginevad rakendustasandi krüpteerimisele
+explanation: |
+  LDK püsivuskiht abstraheerib salvestamise, pakkudes rakendustele serialiseeritud binaarsed andmeplokid, mida tuleb usaldusväärselt salvestada ja kätte saada, käsitledes samal ajal kogu keerukust, mis on seotud Lightning-kanali olekute ja võrguandmete serialiseerimisega sisemiselt. See võimaldab rakendustel valida mis tahes salvestuslahenduse (failisüsteemid, pilvesalvestus, andmebaasid), mis vastab nende platvormi nõuetele. Traditsioonilised Lightning-sõlmed rakendavad tavaliselt oma spetsiifilisi andmehaldussüsteeme, mis on seotud konkreetsete salvestusmehhanismidega, mis muudab need vähem paindlikuks erinevates rakenduskeskkondades.

@@ -1,9 +1,9 @@
-question: Which statement best captures Bitcoin s role as a network and asset for businesses?
-answer: It can act as both a store of value and a medium of exchange in a global, decentralized system.
+question: Câu nào mô tả tốt nhất vai trò của Bitcoin như một mạng lưới và tài sản cho doanh nghiệp?
+answer: Nó có thể hoạt động như một kho lưu trữ giá trị và phương tiện trao đổi trong một hệ thống phi tập trung toàn cầu.
 wrong_answers:
-  - It can only function as a local gift card system.
-  - It s solely a speculative trading tool with no real utility.
-  - It must be tied to a single country s monetary policies to operate.
+  - Nó chỉ có thể hoạt động như một hệ thống thẻ quà tặng địa phương.
+  - Đây chỉ là một công cụ giao dịch đầu cơ không có tiện ích thực sự.
+  - Nó phải gắn liền với chính sách tiền tệ của một quốc gia để có thể hoạt động.
 explanation: |
-  Bitcoin s global, internet-native design allows it to serve not just as a store of value but also as a medium of exchange, providing businesses with fast, permissionless, and final settlement of transactions worldwide.
-reviewed: false
+  Thiết kế toàn cầu, dựa trên internet của Bitcoin cho phép nó không chỉ đóng vai trò là nơi lưu trữ giá trị mà còn là phương tiện trao đổi, cung cấp cho các doanh nghiệp dịch vụ thanh toán nhanh chóng, không cần xin phép và hoàn tất các giao dịch trên toàn thế giới.
+reviewed: true

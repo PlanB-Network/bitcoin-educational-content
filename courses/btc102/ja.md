@@ -1007,7 +1007,7 @@ Bitcoinでは、誰でも自分のコンピューターやサーバー上で「�
 #### 弾力性のある国境を越えた決済方法
 
 
-非中央集権的な性質により、Bitcoinは国境や時間帯に影響されることなく、24時間365日稼動している。伝統的な銀行インフラが不足している地域では、Bitcoinは、高価な仲介業者に頼ることなく、資金を送受信するための迅速で低コストのソリューションとしてしばしば利用されています。取引手数料はネットワークの混雑状況によって変動するものの、一般的に銀行が国際送金に課す手数料よりもはるかに低い。さらに、Lightning NetworkのようなLayer-2ソリューションでは、Bitcoinトランザクションをさらに迅速かつ安価に行うことができます。
+非中央集権的な性質により、Bitcoinは国境や時間帯に影響されることなく、24時間365日稼動している。伝統的な銀行インフラが不足している地域では、Bitcoinは、高価な仲介業者に頼ることなく、資金を送受信するための迅速で低コストのソリューションとしてしばしば利用されています。取引手数料はネットワークの混雑状況によって変動するものの、一般的に銀行が国際送金に課す手数料よりもはるかに低い。さらに、[Lightning Network](https://planb.academy/resources/glossary/lightning-network)のようなLayer-2ソリューションでは、Bitcoinトランザクションをさらに迅速かつ安価に行うことができます。
 
 
 #### 価値の貯蔵
@@ -1429,7 +1429,7 @@ Bitcoinは世界的なネットワークであるため、各国の対応は千�
 - 個人のWalletへのビットコインの引き出しが簡単で無料。
 
 
-現地の規制を遵守する取引所は通常、厳格な**"Know Your Customer "**（KYC）プロトコルに従わなければならず、ユーザーはサービスにアクセスする前に本人確認書類を提出する必要がある。このようなプロセスは違法行為を防ぐために設計されていますが、Bitcoinが本来提供するプライバシーを損なう可能性があります。
+現地の規制を遵守する取引所は通常、厳格な**"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "**（KYC）プロトコルに従わなければならず、ユーザーはサービスにアクセスする前に本人確認書類を提出する必要がある。このようなプロセスは違法行為を防ぐために設計されていますが、Bitcoinが本来提供するプライバシーを損なう可能性があります。
 
 
 ![image](assets/ja/058.webp)
@@ -1538,7 +1538,7 @@ BitcoinWallet業界はいくつかのカテゴリーに分けられ、それぞ�
 
 
 
-- Hardware Walletメーカー：これらの企業は、安全な鍵保管のために設計された物理デバイスを開発している。オープンソースのものもあれば、さまざまな機能とセキュリティ・レベルの独自ソリューションを提供しているものもある。Ledger、Trezor、Coinkite、Foundation、Shiftcryptoなどが有名である。
+- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)メーカー：これらの企業は、安全な鍵保管のために設計された物理デバイスを開発している。オープンソースのものもあれば、さまざまな機能とセキュリティ・レベルの独自ソリューションを提供しているものもある。Ledger、Trezor、Coinkite、Foundation、Shiftcryptoなどが有名である。
 - **Software Walletデベロッパー**：モバイル・アプリケーションやデスクトップ・アプリケーションを開発する企業から独立した開発者まで、さまざまな開発者がいる。提供されるものは、ユーザーエクスペリエンス、セキュリティ、機能において様々である。例えば、Sparrow、Wizard Sardine、Galoy、Synonym、Blockstreamなどがある。
 - DIY (*Do It Yourself*) ウォレット: これらのオープンソースソリューションは、完全なコントロールとサードパーティへの依存を最小限にしたい上級ユーザーのために設計されています。独自のWalletを構築することで、信頼依存を減らし、セキュリティ体制を強化することができます。注目すべきDIYオプションには、SeedsignerとSpecter DIYが含まれます。
 
@@ -2682,7 +2682,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 

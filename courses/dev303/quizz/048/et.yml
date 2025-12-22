@@ -1,0 +1,8 @@
+question: Mis on RC ja RefCelli kombineerimise peamine eesmärk Rust programmeerimisel?
+answer: Võimaldada mitmel omanikul jagada ja muuta samu andmeid koos laenutuskontrollidega tööajal
+wrong_answers:
+  - Laenutusreeglite jõustamise üleviimine tööajalt tagasi kompileerimisele, et saavutada parem jõudlus
+  - Et luua muutumatuid jagatud andmeid, millele saab turvaliselt ligi pääseda mitme niidi vahel
+  - Vältida viitamistsükleid ja mälulekkeid, kui andmeid jagatakse mitme omaniku vahel
+explanation: |
+  RC<RefCell<T>> kombineerib viitade lugemise jagatud omandiõiguse jaoks ja sisemise muutuvuse jaoks, mis võimaldab jooksvalt kontrollitud mutatsioone. RC võimaldab mitmel koodiosal omada samu andmeid, samas kui RefCell võimaldab mutatsiooni muutumatute viidete kaudu, kontrollides laenutusreegleid jooksuaegselt. Teised valikud on valed: see muster liigutab kontrolli tegelikult jooksuaegse (mitte kompileerimise aegse) kontrolli, loob muutuvaid (mitte muutumatuid) jagatud andmeid ja võib tegelikult pigem põhjustada viitetsükleid, kui neid vältida.

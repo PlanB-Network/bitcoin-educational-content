@@ -6,4 +6,4 @@ wrong_answers:
   - Zamykając i ponownie otwierając kanał po każdej transakcji
 explanation: |
   Każda transakcja w ramach kanału aktualizuje stan kanału o nową transakcję zobowiązującą, odzwierciedlając bieżący podział środków między dwoma uczestnikami.
-reviewed: false
+reviewed: true

@@ -44,7 +44,7 @@ En ce sens, tous les contributeurs de Plan ₿ Academy sont des éducateurs !
 ## Les premières étapes de la relecture sur Plan ₿ Academy
 
 
-Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira une "[issue](https://github.com/orgs/Plan ₿ Academy/projects/3)" dédiée. Lorsque vous recevrez le lien de l'issue, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
+Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira une "[issue](https://github.com/orgs/PlanB-Network/projects/3)" dédiée. Lorsque vous recevrez le lien de l'issue, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
 
 
 Ce système aide le coordinateur à suivre l'évolution de la situation dans le répertoire et permet au contenu d'être "revendiqué" par le relecteur, ce qui évite la duplication des efforts par quelqu'un d'autre.
@@ -196,7 +196,33 @@ Dans cette même section initiale, conservez le format tel quel. N'ajoutez rien 
 
 ![REVIEW](assets/en/8.webp)
 
+## Comment gérer les images des cours
 
+Notre site web propose désormais des images traduites pour presque tous les cours !
+
+Lorsque vous relisez, vérifiez toujours que toutes les images sont présentes et affichées correctement. Dans la `vue code`, si vous trouvez ce type de ligne `![IMAGE](assets/en/001.webp)`, cela signifie qu'une image sera affichée à cet endroit.
+
+Assurez-vous de toujours ajouter une nouvelle ligne entre le code de l'image et le texte. Un exemple ci-dessous :
+
+```
+CONFIGURATION INCORRECTE :
+- pour commencer à traduire, cliquez sur le bouton `Translate` : ![language](assets/08.webp)
+Pour enregistrer, cliquez sur `save` !
+  
+CONFIGURATION CORRECTE :
+
+- pour commencer à traduire, cliquez sur le bouton `Translate` : 
+
+![language](assets/08.webp)
+
+Pour enregistrer, cliquez sur `save` !
+```
+
+Par ailleurs, pensez à lire le contenu de chaque image. Si vous remarquez des problèmes avec la traduction du texte à l'intérieur des images, informez votre coordinateur et vous aurez l'occasion de les relire également !
+
+Vous pouvez visualiser l'image dans la section `Preview` de Github (ou sur notre site web, ouvert dans un autre onglet). Ensuite, revenez à la section `code` à côté pour la relecture.
+
+![REVIEW](assets/en/9.webp)
 
 ## Recommandations sur le format
 
@@ -209,7 +235,7 @@ Vous trouverez ci-dessous quelques exemples de problèmes de format auxquels il 
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +243,7 @@ Par conséquent, vérifiez toujours le texte original en anglais pour voir si un
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -230,7 +256,7 @@ Par conséquent, vérifiez toujours le texte original en anglais pour voir si un
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
 
 ## Relecture du questionnaire
 
@@ -244,17 +270,43 @@ Une fois de plus, assurez-vous que vous vous trouvez dans une branche spécialem
 Une chose importante à garder à l'esprit lors de la relecture de ce type de fichier _yml_ est d'éviter d'ajouter des deux-points ``:`` à l'intérieur du texte. En fait, le deux-points est **uniquement** utilisé pour séparer les paires clé-valeur comme `wrong_answers` du reste. Vous pouvez voir un exemple dans l'image ci-dessous :
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/13.webp)
 
 
 Après avoir relu la question, assurez-vous de changer le statut `reviewed` de `false` à `true`, comme le montre l'image ci-dessous. Veillez à ce que ces mots d'état restent en anglais, quelle que soit la langue dans laquelle vous travaillez !
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/14.webp)
 
 
 Si la ligne de statut `reviewed:true` est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
+
+## Relecture de tutoriel
+
+Si vous décidez de relire des tutoriels, le coordinateur ouvrira une issue dédiée pour **toute la section du tutoriel**. Lorsque vous terminez votre tâche, vous pouvez documenter votre progression en commentant dans l'issue avec une liste des tutoriels révisés : de cette façon, vous créez un système de suivi clair pour référence future, ce qui est important car du nouveau contenu est ajouté chaque mois. Vous pouvez voir un exemple de cette approche [ici](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/15.webp)
+
+Étant donné que de nouveaux tutoriels sont ajoutés mensuellement, votre branche peut devenir obsolète pendant le processus de relecture. Certains relecteurs ont abordé ce problème en synchronisant la branche exacte sur laquelle ils travaillent : **s'il vous plaît, ne faites JAMAIS cela ! Si vous le faites, vous risquez de perdre toute la progression que vous avez réalisée jusqu'à ce moment !**
+
+Au lieu de cela, vous devez d'abord finir de relire les tutoriels dans votre fork actuel. Ensuite, **synchronisez `dev`**, et créez une nouvelle branche où vous vous concentrez sur la relecture des tutoriels nouvellement ajoutés (uniquement ceux qui manquent dans votre branche précédente).
+
+Dans les tutoriels, il y a une chance que **les images ne soient pas traduites**. Étant donné que la plupart des tutoriels sont **rédigés à l'origine en français ou en anglais**, vous trouverez probablement des images qui contiennent des commandes ou des instructions dans leur langue d'origine. Prenons un exemple du tutoriel sur Sparrow en néerlandais, en présentant à la fois le texte et l'image associée.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/16.webp)
+
+Comme vous pouvez le voir, l'image indique clairement `Public Server`, en anglais, tandis que le texte mentionne l'expression `_Publieke server_`. Dans ce cas, il y a un problème de cohérence, car le lecteur trouve des informations contradictoires en confrontant l'image avec le texte.
+
+Pour résoudre ce problème, vous pouvez insérer la commande telle qu'elle apparaît dans l'image (anglais ou français), suivie de la traduction dans votre langue entre parenthèses, comme indiqué ci-dessous :
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 
 ## Relecture du glossaire
@@ -271,7 +323,7 @@ Si le titre est laissé en anglais, vous pouvez adapter la phrase à votre langu
 En outre, veillez à écrire les titres en LETTRES MAJUSCULES.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 
 ## Le titre et la description de votre PR
@@ -302,7 +354,7 @@ De cette manière, la PR et l'issue seront liées, et quiconque consulte le dép
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
@@ -316,7 +368,7 @@ Vérifiez toujours tous les liens hypertextes dans le texte, afin de vous assure
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
@@ -325,7 +377,7 @@ Vérifiez toujours tous les liens hypertextes dans le texte, afin de vous assure
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
 
 Il en va de même pour les "codes d'image" comme celui-ci ``[IMAGE](asset/fr/001.webp)`` : veillez à toujours ajouter une nouvelle ligne entre le code d'image et le texte. Un exemple ci-dessous :
@@ -349,14 +401,10 @@ To save, click on `save`!
 
 ## Conclusion
 
+Pour résumer, être conscient des erreurs courantes des relecteurs peut vraiment vous aider à améliorer vos compétences lors de la vérification du contenu. Il est facile de négliger des éléments comme le contexte ou la cohérence, et détecter ces erreurs peut faire une grande différence.
 
-En résumé, le fait d'être conscient des erreurs courantes des correcteurs peut vraiment vous aider à améliorer vos compétences en matière de vérification du contenu. Il est facile de négliger des éléments tels que le contexte ou la cohérence, et la détection de ces erreurs peut faire une grande différence.
+Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, il est donc de notre responsabilité de nous assurer qu'ils comprennent pleinement. **En tant que relecteur, vous êtes un éducateur !**
 
+Vous êtes maintenant prêt à commencer à relire les cours, tutoriels, quiz et mots du glossaire. Restez à l'écoute pour commencer à vérifier également les transcriptions vidéo !
 
-Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, et qu'il est donc de notre responsabilité de veiller à ce qu'il les comprenne parfaitement. En tant que correcteur, vous êtes un éducateur !
-
-
-Vous êtes maintenant prêt à relire les cours, les tutoriels, les quiz et les glossaires. Restez à l'écoute pour commencer à vérifier les images et les transcriptions vidéo ;)
-
-
-Merci d'avoir lu ce tutoriel et bonne lecture !
+Merci d'avoir lu ce tutoriel et profitez de votre parcours de relecture !

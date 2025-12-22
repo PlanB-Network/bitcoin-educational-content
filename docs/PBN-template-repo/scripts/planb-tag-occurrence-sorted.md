@@ -204,7 +204,7 @@
 - mix: 3
 - payjoin: 3
 - P2EP: 3
-- Breeze: 2
+- Breez: 2
 - cryptocurrency: 2
 - ethics: 2
 - banking: 2

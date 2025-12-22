@@ -6,3 +6,4 @@ wrong_answers:
   - Un enlace directo con cada otro nodo de la red
 explanation: |
   La técnica de apertura triangular permite a cada nodo lograr una liquidez equilibrada, tanto entrante como saliente, formando un bucle de canales entre varios participantes.
+reviewed: true

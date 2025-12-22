@@ -1,0 +1,8 @@
+question: Mitä tietoja Bitcoin:n P2P-verkon sanomarakenteessa on 4 tavun tarkistussummakentässä jokaisessa sanoman kirjekuoressa?
+answer: Viestin hyötykuorman hash256:n 4 ensimmäistä tavua
+wrong_answers:
+  - Koko viestin SHA256-hash-tunnisteen 4 ensimmäistä tavua
+  - Komentokentän hash256:n 4 ensimmäistä tavua yhdistettynä hyötykuormaan
+  - Sanoman hyötykuorman RIPEMD160-haastattelun 4 ensimmäistä tavua
+explanation: |
+  Bitcoin:n P2P-sanoman kirjekuoressa käytetään erityistä tarkistussummamekanismia, jossa 4 tavun tarkistussummakenttä sisältää vain sanoman hyötykuormaan sovelletun hash256:n 4 ensimmäistä tavua. Näin varmistetaan hyötykuorman tietojen eheys verkon lähetyksen aikana. Muut vaihtoehdot ovat virheellisiä, koska niissä viitataan erilaisiin hash-funktioihin (yksittäinen SHA256, RIPEMD160) tai erilaisiin syöttötietoihin (koko kirjekuori, komento + maksulataus) kuin mitä Bitcoin todellisuudessa toteuttaa verkkoprotokollassaan.

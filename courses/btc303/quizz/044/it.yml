@@ -6,3 +6,4 @@ wrong_answers:
   - L'aggiornamento ha causato una spaccatura permanente della catena perché minatori e utenti non erano d'accordo sui dettagli dell'implementazione
 explanation: |
   L'incidente di BIP66 ha rivelato un difetto critico nei soft fork attivati dai minatori: la segnalazione della disponibilità non garantisce l'effettiva convalida. Nonostante il 95% dei minatori abbia indicato di essere pronto per l'aggiornamento, circa la metà non ha convalidato correttamente le nuove regole e ha erroneamente effettuato un mining su un blocco non valido. Ciò ha dimostrato che la segnalazione della potenza di hash può essere fuorviante e non garantisce una corretta implementazione, che era uno degli argomenti chiave di Shaolinfry per proporre le Soft fork attivate dall'utente come meccanismo di aggiornamento più affidabile.
+reviewed: false

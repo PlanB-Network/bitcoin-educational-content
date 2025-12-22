@@ -1,0 +1,8 @@
+question: Que se passe-t-il lorsque vous clonez une instance RC<T> contenant une grande structure de données ?
+answer: Seule la référence est copiée et le compteur de référence est incrémenté, laissant les données originales inchangées
+wrong_answers:
+  - L'ensemble de la structure de données est dupliqué en mémoire et les deux copies conservent des compteurs de référence distincts
+  - Une copie superficielle est créée dans laquelle les champs primitifs sont copiés mais les champs complexes restent des références partagées
+  - Les données sont déplacées vers un nouvel emplacement mémoire et le CR original devient invalide jusqu'à ce qu'il soit réinitialisé
+explanation: |
+  Lors du clonage d'un CR, Rust ne fait que copier le pointeur de référence et incrémenter le compteur de référence interne, ce qui rend l'opération extrêmement efficace quelle que soit la taille des données. Les données sous-jacentes restent dans le même emplacement de mémoire et sont partagées entre toutes les instances de CR. Ceci est fondamentalement différent du clonage des données réelles, qui irait à l'encontre de l'objectif de la propriété partagée et gaspillerait de la mémoire.

@@ -1,0 +1,8 @@
+question: Hvilken matematisk egenskap gjør det beregningsmessig umulig å reversere operasjonen k-P på en elliptisk kurve?
+answer: Det diskrete logaritmeproblemet
+wrong_answers:
+  - Modulær aritmetikk for endelige felt
+  - Egenskapen for punktet i uendeligheten
+  - Kurvens ligning y² = x³ + 7
+explanation: |
+  Det diskrete logaritmeproblemet er det matematiske fundamentet som gjør elliptisk kurvekryptografi sikker. Mens det er enkelt å beregne k-P (skalarmultiplikasjon), er det ekstremt vanskelig å finne k når P og k-P er gitt - dette er kjent som den elliptiske kurvens diskrete logaritmeproblem. De andre alternativene er viktige matematiske komponenter, men de utgjør ikke sikkerhetsbarrieren: aritmetikk med endelige felt muliggjør operasjonene, punktet i uendeligheten fungerer som identitetselementet, og kurvelikningen definerer strukturen, men ingen av disse skaper den beregningsmessige ugjennomførbarheten som beskytter Bitcoins kryptografiske sikkerhet.

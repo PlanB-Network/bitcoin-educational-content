@@ -6,3 +6,4 @@ wrong_answers:
   - Een systeem waarbij transacties door niemand kunnen worden teruggedraaid of betwist
 explanation: |
   Trustless verwijst specifiek naar een technische eigenschap waarbij een gedistribueerd systeem correct kan functioneren zonder dat er vertrouwde partijen nodig zijn. Dit is iets anders dan het elimineren van alle vertrouwen (je vertrouwt nog steeds je software/hardware) of het voorkomen van omkeringen (Bitcoin transacties kunnen worden teruggedraaid door middel van chain rewrites). De term betekent ook niet dat gebruikers deelnemers niet kunnen vertrouwen - het is eerder zo dat de correctheid van het systeem niet afhangt van hun vertrouwen.
+reviewed: false

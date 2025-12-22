@@ -6,3 +6,4 @@ wrong_answers:
   - Özel anahtarlar tek bir wallet yerine birden fazla cihazda saklanır
 explanation: |
   Full node merkezsizleştirme, blokların (madencilerin ürettiği veriler) doğrulanmasının, işlemleri doğrulamak için birkaç güvenilir otoriteye güvenmek yerine, kendi düğümlerini çalıştıran bireysel kullanıcılar tarafından ağın kenarında gerçekleşmesi anlamına gelir. Bu, işlem sıralama ve işleme ile ilgilenen madenci ademi merkeziyetçiliğinden farklıdır. Diğer seçenekler full node ademi merkeziyetçiliğini mining dağıtımı, yönetişim yapıları veya güvenlik uygulamaları ile karıştırmaktadır, ancak hiçbiri ağ katılımcıları tarafından dağıtılmış blok doğrulama temel kavramını yakalayamamaktadır.
+reviewed: false

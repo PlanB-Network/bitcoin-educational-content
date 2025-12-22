@@ -1,0 +1,8 @@
+question: Liquid Network 多久生成一次新区块？
+answer: 每一分钟
+wrong_answers:
+  - 每 10 分钟
+  - 每 30 秒
+  - 每 5 分钟
+explanation: |
+  Liquid Network 以确定性循环方式每分钟生成一个区块，比 Bitcoin 的 10 分钟概率间隔更快、更可预测。这种精确的一分钟定时对于套利和交易所间快速结算等网络用例至关重要，可提供机构交易业务所需的速度。

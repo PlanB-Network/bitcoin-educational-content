@@ -1,0 +1,8 @@
+question: Rust yapı adları ve alan adları için sırasıyla hangi adlandırma kuralını uygulamaktadır?
+answer: Yapı adları için CamelCase ve alan adları için snake_case
+wrong_answers:
+  - yapı adları için snake_case ve alan adları için CamelCase
+  - yapı adları için kebab-case ve alan adları için camelCase
+  - Yapı adları için UPPER_CASE ve alan adları için küçük harf
+explanation: |
+  Rust, derleyicinin uyarılar yoluyla uyguladığı belirli adlandırma kurallarını takip eder. Yapı isimleri CamelCase (PascalCase olarak da bilinir) kullanmalıdır, burada her kelime 'MyStruct' gibi büyük harfle başlar. Yapılar içindeki alan adları, 'my_field' gibi kelimeleri ayıran alt çizgilerle yılan_harfi kullanmalıdır. Bu kural, Rust kod tabanları arasında tutarlılığı korur ve geliştiriciler için okunabilirliği artırır.

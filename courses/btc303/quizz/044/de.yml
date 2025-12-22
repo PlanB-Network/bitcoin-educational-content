@@ -6,3 +6,4 @@ wrong_answers:
   - Das Upgrade führte zu einer dauerhaften Spaltung der Kette, da sich Miner und Nutzer über die Details der Implementierung uneinig waren
 explanation: |
   Der BIP66-Vorfall offenbarte eine kritische Schwachstelle bei von Minern aktivierten Soft Forks: Die Signalisierung der Bereitschaft ist keine Garantie für eine tatsächliche Validierung. Obwohl 95 % der Miner angaben, dass sie für das Upgrade bereit waren, hat etwa die Hälfte die neuen Regeln nicht richtig validiert und fälschlicherweise auf einem ungültigen Block geschürft. Dies zeigte, dass die Signalisierung der Hash-Power irreführend sein kann und keine ordnungsgemäße Implementierung gewährleistet. Dies war eines der Hauptargumente von Shaolinfry, die benutzeraktivierte Soft-Gabelungen als zuverlässigeren Upgrade-Mechanismus vorschlug.
+reviewed: false

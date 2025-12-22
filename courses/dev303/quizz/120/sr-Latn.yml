@@ -1,0 +1,8 @@
+question: Koji je najznačajniji kompromis u pogledu privatnosti koji se uvodi prilikom prelaska sa samostalno upravljane LDK implementacije na Breez SDK-ovu arhitekturu zasnovanu na oblaku?
+answer: Greenlight dobija potencijalni uvid u destinacije plaćanja i aktivnosti generisanja faktura putem usmeravanja zasnovanog na oblaku
+wrong_answers:
+  - "Privatni ključevi su pohranjeni na serverima Blockstream-a umesto lokalno na korisnikovom uređaju"
+  - Informacije o stanju kanala postaju javno vidljive na Lightning Network grafu putem Greenlight čvorova
+  - LSP usluge sada mogu pratiti sve on-chain transakcije i povezati ih sa Lightning obrascima plaćanja
+explanation: |
+  Tačan odgovor identifikuje ključnu degradaciju privatnosti: rutiranje zasnovano na oblaku omogućava Greenlight-u da potencijalno posmatra destinacije plaćanja, dok generisanje faktura u oblaku proširuje izloženost informacija izvan onoga što su tradicionalne arhitekture samo sa LSP-om otkrivale. Pogrešni odgovori su netačni jer: privatni ključevi ostaju pod kontrolom korisnika uprkos arhitekturi oblaka; stanja kanala nisu javno vidljiva kroz rutiranje; i LSP-ovi ne dobijaju dodatne mogućnosti praćenja transakcija on-chain kroz ovu promenu arhitekture.

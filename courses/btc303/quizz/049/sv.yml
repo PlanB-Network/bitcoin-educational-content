@@ -6,3 +6,4 @@ wrong_answers:
   - "Bitcoin:s fasta tillgång gör det ekonomiskt ogenomförbart att absorbera förluster från framgångsrika attacker till skillnad från traditionella finansiella system"
 explanation: |
   Det korrekta svaret återspeglar Andrew Poelstras viktigaste insikt om onlinesystem jämfört med fysiska system. Till skillnad från byggnader där vi accepterar en viss risk och förlitar oss på brottsbekämpning, verkar Bitcoin i en pseudonym miljö där angripare kan agera utan insyn eller konsekvenser. Denna grundläggande skillnad innebär att varje känd svaghet oundvikligen kommer att utnyttjas, vilket gör omfattande säkerhet till en nödvändighet snarare än en valfri riskhantering.
+reviewed: false

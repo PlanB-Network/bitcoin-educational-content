@@ -342,7 +342,7 @@ After performing coinjoins with Whirlpool, it's useful to precisely evaluate the
 
 To deepen your understanding of the calculation mechanisms of these anonsets, I recommend reading the article: REMIX - WHIRLPOOL, which details the functioning of these indices.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

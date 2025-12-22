@@ -1,0 +1,8 @@
+question: No formato de codificação DER para assinaturas ECDSA, qual é o aumento de tamanho típico dos dados brutos da assinatura para a assinatura final codificada?
+answer: De 64 bytes para aproximadamente 71-72 bytes devido à sobrecarga de formatação DER
+wrong_answers:
+  - De 32 bytes para aproximadamente 64 bytes devido à codificação dos componentes R e S
+  - De 64 bytes para exatamente 128 bytes devido à dupla codificação dos componentes da assinatura
+  - De 71 bytes para aproximadamente 64 bytes devido à compressão dos marcadores de sequência
+explanation: |
+  A codificação DER acrescenta uma sobrecarga estrutural às assinaturas ECDSA através de marcadores de sequência (0x30), bytes de comprimento e prefixos de componentes (0x02). A assinatura ECDSA em bruto consiste em dois valores de 32 bytes (R e S), totalizando 64 bytes, mas a formatação DER expande-os para aproximadamente 71-72 bytes. Esta ineficiência foi uma das razões pelas quais o Bitcoin adoptou posteriormente as assinaturas Schnorr no Taproot, que utilizam assinaturas fixas de 64 bytes sem sobrecarga de codificação.

@@ -1,0 +1,9 @@
+question: Коя концепция за електронни пари е изрично спомената от Satoshi Nakamoto в бялата книга на Bitcoin?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - малко злато (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (Дейвид Чаум)
+explanation: |
+  Това беше първата препратка. Satoshi я добави през август 2008 г. след размяната на мнения с Wei Dai.
+reviewed: true

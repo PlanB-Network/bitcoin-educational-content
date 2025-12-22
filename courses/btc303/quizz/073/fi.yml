@@ -6,3 +6,4 @@ wrong_answers:
   - Normaalin 90 päivän embargojakson jälkeen, riippumatta siitä, missä asemassa hän on
 explanation: |
   Bitcoin Core noudattaa pikemminkin käyttöönottoon perustuvaa julkistamisaikataulua kuin kiinteää ajanjaksoa. 80 prosentin kynnysarvo varmistaa, että suurin osa verkosta on suojattu ennen kuin hyökkääjät saavat tietää haavoittuvuudesta julkisesta paljastuksesta. Tämä lähestymistapa asettaa verkkoturvallisuuden mielivaltaisia aikarajoja tärkeämmäksi, sillä ennenaikainen paljastaminen voisi altistaa loput 20 prosenttia solmuista kohdennetuille hyökkäyksille. Muut vaihtoehdot edustavat perinteisen ohjelmistoturvallisuuden yleisiä käytäntöjä, mutta niissä ei oteta huomioon Bitcoin:n hajautettua luonnetta, jossa käyttäjien on päivitettävä solmujaan vapaaehtoisesti.
+reviewed: false

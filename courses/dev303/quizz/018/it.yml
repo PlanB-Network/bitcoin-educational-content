@@ -1,0 +1,8 @@
+question: Quale meccanismo utilizza Rust per ripulire automaticamente le variabili e le loro risorse quando escono dall'ambito?
+answer: Il meccanismo di caduta che richiama le funzioni di caduta sulle variabili
+wrong_answers:
+  - Un garbage collector che analizza periodicamente la memoria inutilizzata
+  - Deallocazione manuale della memoria tramite chiamate esplicite alla funzione free()
+  - Conteggio dei riferimenti che tiene traccia del numero di puntatori che fanno riferimento a ciascun valore
+explanation: |
+  Rust utilizza il meccanismo di drop per ripulire automaticamente le risorse quando le variabili escono dallo scope. Questo sistema richiama implicitamente una funzione di drop su ogni variabile quando esce dall'ambito, contrassegnando la memoria come disponibile per il riutilizzo ed eseguendo tutte le operazioni di pulizia necessarie, come la chiusura degli handle dei file. Questo approccio, mutuato dal modello RAII del C++, garantisce la gestione automatica delle risorse senza richiedere la garbage collection, la gestione manuale della memoria o i sistemi di conteggio dei riferimenti utilizzati da altri linguaggi.

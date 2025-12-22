@@ -6,3 +6,4 @@ wrong_answers:
   - Birden fazla küçük sorunun nasıl bir araya gelerek büyük güvenlik riskleri oluşturabileceğini dikkate almadan her bir güvenlik açığını tek başına değerlendirmek
 explanation: |
   Maxwell, geliştiricilerin güvenlik açıklarını göründüklerinden daha ciddi olarak ele almaları gerektiğini, çünkü istismar edilmesi zor sorunların doğru teknikle önemsiz hale gelebileceğini ve görünüşte küçük sorunların ciddi tehditlere dönüşebileceğini savunuyor. Basit performans hatalarının ağı bölmek ve double-spending saldırılarını mümkün kılmak için silah haline getirilebileceğini vurguluyor. Bu muhafazakar yaklaşım, geliştiricilerin başlangıçta bir güvenlik açığının tam istismar potansiyelini anlamayabileceğini kabul eder ve tehdidi hafife almak yerine en kötü senaryoyu varsaymayı ihtiyatlı hale getirir.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Mtunza mbegu
+name: Seedkeeper
 description: Je, ninawezaje kuhifadhi nakala ya wallet Bitcoin yangu kwa kadi mahiri ya Seedkeeper?
 ---
 

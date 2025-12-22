@@ -6,3 +6,4 @@ wrong_answers:
   - Avoimen lähdekoodin luonne tarkoittaa, että kaikki haavoittuvuudet on julkistettava ennen korjausten kehittämistä
 explanation: |
   Tekstissä korostetaan erityisesti, että kehittäjien on oltava erittäin varovaisia, kun he julkaisevat korjauksia, koska "korjaus itsessään saattaa paljastaa haavoittuvuuden" Tämä luo ainutlaatuisen haasteen, jossa ratkaisu voi tahattomasti paljastaa ongelman. Neljännessä luetelmakohdassa kuvataan, miten Bitcoin:n kehittäjät testaavat, onko korjaustiedosto "naamioitu riittävän hyvin", antamalla kokeneiden kehittäjien tarkistaa sen tuntematta tiettyä haavoittuvuutta. Jos nämä asiantuntijat eivät pysty tunnistamaan haavoittuvuutta laastarista, se katsotaan turvalliseksi ottaa käyttöön. Muut vaihtoehdot ovat virheellisiä: koordinointi tapahtuu Bitcoin:n ytimen ylläpitäjien välityksellä, laastareilta ei vaadita yksimielisyyttä, ja haavoittuvuudet pidetään salassa vastuullisen julkistamisen aikana.
+reviewed: false

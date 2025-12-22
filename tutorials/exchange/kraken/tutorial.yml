@@ -18,11 +18,12 @@ professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-06-23
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Skyman21m
-    reward: 1.19
+      - marshal-opsource
+    reward: 0.59
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -39,10 +40,11 @@ proofreading:
     contributor_names:
     reward: 2.37
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.37
+      - Salgraphics
+    reward: 1.19
   - language: et
     last_contribution_date:
     urgency: 1
@@ -148,3 +150,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.64
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.13

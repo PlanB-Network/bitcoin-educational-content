@@ -96,7 +96,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher] (https://etcher.balena.io/), sau đó thực hiện như sau:
+Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher](https://etcher.balena.io/), sau đó thực hiện như sau:
 
 
 

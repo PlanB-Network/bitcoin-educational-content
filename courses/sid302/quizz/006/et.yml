@@ -1,0 +1,8 @@
+question: Millist krüptograafilist tehnikat kasutab Elements tehingusummade varjamiseks, võimaldades samal ajal võrgu valideerimist?
+answer: Pederseni kohustused
+wrong_answers:
+  - Merkle Tree pesemine
+  - Elliptilise kõveraga allkirjad
+  - SHA-256 krüpteerimine
+explanation: |
+  Pedersen Commitments on konkreetne krüptotehnika, mida kasutatakse Elements' Confidential Transactions-s tehingusummade varjamiseks. Need kohustused asendavad nähtavad summad krüptograafiliste kohustustega, mida valideerijad saavad endiselt matemaatiliselt kontrollida, paljastamata tegelikke väärtusi. Merkle Tree Hashing kasutatakse tehinguandmete organiseerimiseks plokkidesse, Elliptic Curve Signatures kasutatakse tehingu autoriseerimiseks ja SHA-256 on hashing-algoritm, kuid ükski neist ei peida tehingusummasid, säilitades samal ajal valideerimisvõime, nagu seda teevad Pedersen Commitments.

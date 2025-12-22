@@ -6,3 +6,4 @@ wrong_answers:
   - Sosiaalisessa mediassa julkaistavien viestien ja julkisten liiketoimia koskevien ilmoitusten avulla
 explanation: |
   Luvun sisällön mukaan yksityiset tiedot voivat vuotaa kahdella ensisijaisella tavalla: on-chain ja off-chain. Ketjussa tapahtuvat vuodot tapahtuvat julkisen lohkoketjun analyysin kautta, jolloin transaktiomallit, osoitteiden uudelleenkäyttö ja klusterointi voivat paljastaa taloudellisia tietoja. Ketjun ulkopuoliset vuodot tapahtuvat, kun pahantahtoiset toimijat sieppaavat internet-viestinnän tai muilla lohkoketjun ulkopuolisilla keinoilla. Vaikka väärissä vastauksissa mainitaan todellisia turvallisuusongelmia Bitcoin-ekosysteemissä, ne eivät edusta aineistossa esitettyä perustavaa laatua olevaa luokittelua siitä, miten yksityisyydensuojavuotoja tapahtuu.
+reviewed: false

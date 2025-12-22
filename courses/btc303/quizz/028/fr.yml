@@ -6,3 +6,4 @@ wrong_answers:
   - Les mineurs arrêteront complètement le mining parce que les frais de transaction ne suffisent pas à couvrir les coûts de l'électricité
 explanation: |
   Le "fee sniping" se produit lorsque les mineurs tentent d'extraire à nouveau des blocs antérieurs contenant des transactions à frais élevés plutôt que d'étendre honnêtement la chaîne. Cette pratique devient économiquement rationnelle lorsque les frais d'un bloc antérieur dépassent de manière significative ceux du mempool actuel. Bien que la probabilité de réussite soit inférieure à celle d'une extension honnête de la chaîne, la récompense potentielle peut être beaucoup plus élevée. Ce comportement est particulièrement préoccupant car il peut créer un effet de cascade où d'autres mineurs s'engagent dans des pratiques malhonnêtes, menaçant finalement le modèle de sécurité du Bitcoin lorsque les subventions des blocs diminuent.
+reviewed: false

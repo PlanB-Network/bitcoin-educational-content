@@ -1,0 +1,8 @@
+question: What mathematical property makes it computationally infeasible to reverse the operation k·P on an elliptic curve?
+answer: The discrete logarithm problem
+wrong_answers:
+  - The finite field modular arithmetic
+  - The point at infinity property
+  - The curve equation y² = x³ + 7
+explanation: |
+  The discrete logarithm problem is the mathematical foundation that makes elliptic curve cryptography secure. While computing k·P (scalar multiplication) is computationally easy, finding k when given P and k·P is extremely difficult - this is known as the elliptic curve discrete logarithm problem. The other options are important mathematical components but don't provide the security barrier: finite field arithmetic enables the operations, the point at infinity serves as the identity element, and the curve equation defines the structure, but none of these create the computational infeasibility that protects Bitcoin's cryptographic security.

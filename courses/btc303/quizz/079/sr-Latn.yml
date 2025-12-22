@@ -6,3 +6,4 @@ wrong_answers:
   - Da bi se izbegli pravni problemi odgovornosti koji bi mogli nastati usled preuranjenog otkrivanja trećim stranama
 explanation: |
   Strategija tempiranja odražava pristup sigurnosti na prvom mestu gde mreža Bitcoin mora biti zaštićena pre nego što se pomogne drugima. Ako bi altcoini bili obavešteni istovremeno, napadači bi mogli proučiti implementacije altcoina ili ih iskoristiti da razumeju ranjivost, a zatim potencijalno napasti Bitcoin čvorove koji još nisu nadograđeni. Sekvencijalni pristup osigurava široku zaštitu Bitcoin pre nego što se proširi pomoć na druge mreže, minimizirajući prozor za eksploataciju ranjivosti širom ekosistema.
+reviewed: false

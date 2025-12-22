@@ -1,0 +1,8 @@
+question: ¿Cuál es la causa del error de off-by-one en OP_CHECKMULTISIG que requiere un OP_0 extra en ScriptSigs multisig desnudos?
+answer: OP_CHECKMULTISIG consume un elemento de pila adicional además de las firmas y claves públicas previstas
+wrong_answers:
+  - El proceso de verificación de la firma requiere un byte adicional para que la validación ECDSA funcione correctamente
+  - "La implementación de la pila de Bitcoin tiene una comprobación de límites que necesita un elemento de relleno para la alineación de memoria"
+  - El recuento del umbral multisig comienza en cero en lugar de en uno, lo que requiere un valor de marcador de posición de desplazamiento
+explanation: |
+  El opcode OP_CHECKMULTISIG tiene un error de implementación por el que extrae un elemento más de la pila de lo que debería durante la ejecución. Esto significa que además de las m firmas y n claves públicas requeridas, consume un elemento extra de la pila. Para evitar que la operación falle, los ScriptSigs multisig bare deben incluir un OP_0 inicial (que empuja una matriz de bytes vacía) para satisfacer este consumo inesperado de la pila. Las otras opciones describen problemas técnicos plausibles pero no son la causa real de esta peculiaridad bien conocida de Bitcoin.

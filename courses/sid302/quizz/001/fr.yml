@@ -1,0 +1,8 @@
+question: Combien de signatures de fonctionnaires sont nécessaires pour valider un bloc dans la Liquid Network ?
+answer: Au moins 11 des 15 fonctionnaires doivent signer
+wrong_answers:
+  - Au moins 8 des 15 fonctionnaires doivent signer
+  - Au moins 10 fonctionnaires sur 15 doivent signer
+  - Au moins 12 des 15 fonctionnaires doivent signer
+explanation: |
+  Le Liquid Network exige la signature d'au moins 11 des 15 fonctionnaires pour valider un bloc, ce qui représente un seuil de deux tiers plus un. Cette exigence spécifique garantit un consensus solide tout en empêchant un petit groupe de contrôler le réseau. Les autres options sont incorrectes : 8 signatures seraient insuffisantes pour la sécurité, 10 ne respecteraient pas le seuil des deux tiers et 12 seraient inutilement restrictives pour les opérations normales.

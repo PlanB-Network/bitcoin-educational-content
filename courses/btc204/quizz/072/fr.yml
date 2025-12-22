@@ -8,6 +8,6 @@ wrong_answers:
   - P2SH
 
 explanation: |
-  Pour être caché dans la plus grande foule possible, il est recommandé d'utiliser le modèle de script le plus adopté. Les scripts P2TR sont ceux les plus utilisés actuellement dans les transactions Bitcoin.
+  Pour être caché dans la plus grande foule possible, il est recommandé d'utiliser le modèle de script le plus adopté. Les scripts P2TR sont actuellement les plus utilisés dans les transactions Bitcoin.
 
-reviewed: false
+reviewed: true 

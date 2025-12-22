@@ -61,7 +61,7 @@ LNbits ku bubatsi: [RU](/itunga/lnbits-abubatsi-ru.pdf) | [DE](/itunga/ibice-vy'
 # Ivy'ishimikiro
 
 
-LNbits ikora ishingiye ku masezerano ya LNURL bisobanura ko ibisabwa bifise akamaro mu buryo bubiri: nk’ihuriro rya https:// clearnet (nta vyemezo vy’ukwisinya vyemewe) canke nk’ihuriro ry’igitunguru http:// v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits gushika kuri clearnet (https).
+LNbits ikora ishingiye ku masezerano ya LNURL bisobanura ko ibisabwa bifise akamaro mu buryo bubiri: nk’ihuriro rya https://clearnet (nta vyemezo vy’ukwisinya vyemewe) canke nk’ihuriro ry’igitunguru http://v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits gushika kuri clearnet (https).
 
 
 Imbere yo gushiramwo LNbits urabe neza ko warasomye kandi ugatahura uburongozi rusangi bukurikira ku bijanye n’ico LNbits ari co n’ubushobozi iguha.
@@ -71,7 +71,7 @@ Imbere yo gushiramwo LNbits urabe neza ko warasomye kandi ugatahura uburongozi r
 - [Igitabu ca LND](https://inyandiko.umuravyo.ubuhinga/) | Gushiramwo LND
 - [Urugero rw'Imiterere ya LND](Urugero rw'Imiravyo/LND/Igikoresho/Umukuru/Urugero-LND.conf) | LND Amagenamiterere
 - [Inyigisho ya CLN](https://inyandiko.umuco.org/inyandiko/gushiraho) | Gushiramwo CLN
-- [Ivyiyumviro](Ivyiyumviro) Ivyerekeye LNURL | [Ivyiyumviro] (imbuga ngurukanabumenyi)
+- [Ivyiyumviro](Ivyiyumviro) Ivyerekeye LNURL | [Ivyiyumviro](imbuga ngurukanabumenyi)
 - [Gukoresha Watchtower](https://inyandiko.umuravyo.ubuhinga/ibikoresho-vy'uruja n'uruza rw'umuravyo/LND/Watchtower) | Ni ivy’agaciro cane!
 
 
@@ -105,9 +105,9 @@ Ushobora guhitamwo hagati y’abarongozi b’amapaki basanzwe nk’imivugo na ni
 Ku muntu wese mushasha muri ivyo, uzosanga ubuyobozi burambuye bw'intambwe ku yindi bwo gutuma LNbits zawe zikora mu bidukikije vyihariye:
 
 
-- [Ibice vya LN ku rubuga rutomoye] (https: umurongo w'imbere.
-- [Ibice vya LN kuri VPS] (ibice vya LN) na Hannes
-- [Ibice vya LN ku gicu] (Ibice vy'Ivyigwa) vyanditswe na Leo
+- [Ibice vya LN ku rubuga rutomoye](https: umurongo w'imbere.
+- [Ibice vya LN kuri VPS](ibice vya LN) na Hannes
+- [Ibice vya LN ku gicu](Ibice vy'Ivyigwa) vyanditswe na Leo
 
 
 Ushobora kandi kubona videwo ku [gutegura kuri VPS ikoresheje PostgreSQ, LightningTipBot nk’inkomoko y’amahera ukoresheje nginx](ingene woheza-ugutegura-vps/).
@@ -208,7 +208,7 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
 ### Umuravyo TipBot
 
 
-Kugira ngo uhuze [Impanuro y'Umuravyo] (https://t.me/Impanuro y'Umuravyo) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
+Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
 
 
   - `LNBITS_INYUMA_IKIGANIRO_IKIGO`: **Igikapu c'Impanuro za Ln**
@@ -216,7 +216,7 @@ Kugira ngo uhuze [Impanuro y'Umuravyo] (https://t.me/Impanuro y'Umuravyo) yawe k
   - `LNBITS_KEY`: Kugira ngo ubone Urufunguzo uzokenera gukoresha /api mu kiganiro c'ibanga na Tipbot y'Umuravyo kuri Telegram rimwe.
 
 
-Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri vps] (ingene woheza-gushinga-vps/)
+Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri vps](ingene woheza-gushinga-vps/)
 
 
 ### IKIBANZA C'IBEX
@@ -570,7 +570,7 @@ Mu nsiguro y’ibikorwa vyawe uzosangamwo umwampi mutoyi wa Green ku bijanye n�
 Niwafyonda kuri iyo myampi, ubutumwa burasohoka bugaragara hamwe n'izina ry'uwaburungitse iyo ryatanzwe.
 
 
-Kugira ngo utunganye izina kugira ngo riboneka mu kwishura, muri LNbits ivyo ubu ntibishoboka gukorwa - ariko kwakira. Ivyo bishoboka gusa iyo LN Wallet y’uwurungitse ishigikiye [LUD-18] (izinaDesc) nka [OBW, Blixt, Alby, ZBD, BitBanana] (inyandiko z'inyandiko).
+Kugira ngo utunganye izina kugira ngo riboneka mu kwishura, muri LNbits ivyo ubu ntibishoboka gukorwa - ariko kwakira. Ivyo bishoboka gusa iyo LN Wallet y’uwurungitse ishigikiye [LUD-18](izinaDesc) nka [OBW, Blixt, Alby, ZBD, BitBanana](inyandiko z'inyandiko).
 
 
 Uzoca ubona izina ry’uruyeri/izina ry’uruyeri mu gice c’ibisobanuro vy’ibikorwa vyawe vya LNbits (kanda imyampi). Zirikana ko ushobora gutanga izina iryo ari ryo ryose kandi rishobora kuba ridafitaniye isano n ́izina ry ́uwo ryarungitse iyo uronse iryo zina.
@@ -588,7 +588,7 @@ Ushobora gukoresha [Zeus](Zeus]() canke [Bluewallet](Bluewallet]() nk'amaporogar
 Igihe ukora ivyo turagusavye gushinga URI y'urubuga rwa LN ku rwego rwawe bwite. Niba instance yawe ya LNbits ari Tor gusa, ubwirizwa kandi gukoresha izo porogaramu zifise Tor ikoreshwa. Kandi muri iki gihe ukeneye gufungura urupapuro rwa LNbits biciye kuri Tor .onion Address yawe.
 
 
-Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura On-Chain, suzuma nimba instance yawe ya LNbits ikoresha python 3.10 yoshobora gushikirwa na [iki ikibazo] (ibibazo/72409563/bidashigikiwe-Hash-ubwoko-ripemd160-n'hashlib-mu-pithon). Guhindura openssl.cnf nk'uko vyavuzwe mu nyishu ya stackoverflow hanyuma wongere utangure LNbits zawe.
+Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura On-Chain, suzuma nimba instance yawe ya LNbits ikoresha python 3.10 yoshobora gushikirwa na [iki ikibazo](ibibazo/72409563/bidashigikiwe-Hash-ubwoko-ripemd160-n'hashlib-mu-pithon). Guhindura openssl.cnf nk'uko vyavuzwe mu nyishu ya stackoverflow hanyuma wongere utangure LNbits zawe.
 
 
 
@@ -604,7 +604,7 @@ Igihe uri mushasha mu kwubaka tangura n’ibi [ibiganiro vya MakerBits](amasanam
 ### BIHAMBAYE:
 
 
-- LNbits ikora ishingiye ku nzira ya LNURL ibisabwa bifise akamaro mu buryo bubiri: nk'ihuriro rya https:// clearnet (nta vyemezo vy'ukwisinya vyemewe) canke nk'ihuriro ry'igitunguru http:// v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits kuri clearnet (https).
+- LNbits ikora ishingiye ku nzira ya LNURL ibisabwa bifise akamaro mu buryo bubiri: nk'ihuriro rya https://clearnet (nta vyemezo vy'ukwisinya vyemewe) canke nk'ihuriro ry'igitunguru http://v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits kuri clearnet (https).
 - Koresha gusa DATA-Cables kugira ngo ukoreshe esp32 yawe. Si intsinga zose zishigikira amakuru uretse no guha ubushobozi esp. Ntuzoba uwa mbere iyo umugozi waje na esp ari uwukoresha ubushobozi gusa
 - Raba neza ko udakoresha USB-Hub iri kumwe n’ibindi bikoresho bifatanye. Ivyo bishobora gutuma habaho ingaruka zidasanzwe ziri Hard zo gukosora (nk'akarorero kudatangura canke guhagarika).
 - Kugira ngo ushobore gushitsa imigambi ya esp ukoresheje MacOS uzokenera umushoferi w’ikiraro ca UART. Niba ufise ingorane n’umushoferi kuri Mac canke Linux, ushobora kuronka izo hano canke, nimba hariho TTGO Display iri muri iyi. Niba uri kuri windows kandi ufise ingorane zo gufatanya urabe ko ushobora gukuraho version ya kera 11.1.0 kuko iyo nshasha ntikora! Ushobora kandi kubona umurongo w'uruhererekane hano kugira ngo usuzume ubufatanye bwawe - ushireho baudrate 115200.
@@ -630,7 +630,7 @@ Aha hariho ivyiciro vy'imigambi ushobora kwubaka ukoresheje LNbits:
 - [Igikoresho co Gusinya Nostr](Igikoresho-n'Inyubako-n'Igikoresho co Gusinya Nostr)
 - [Imashini y'Ivy'Imikino](Igikoresho-n'Inyubako-n'Ivy'Imikino#imashini-y'Ivy'Imikino)
 - [Gerty](Ibikoresho-n'Inyubako-n'Ibice#gerty)
-- [Itara rya Nostr Zap] (Ibikoresho-n'Inyubako-n'Itara rya Zap)
+- [Itara rya Nostr Zap](Ibikoresho-n'Inyubako-n'Itara rya Zap)
 - [BTC/LN ATM](Ibikoresho-n'Inyubako-n'Ibice #atm)
 - [LNPoS](Ibikoresho-n'Inyubako-n'Ibice-LNpos#Iherezo-lnpos)
 - [Ingurube y'umuravyo](https://github.com/ibice/ibice/wiki/Ibikoresho-n'Inyubako-n'ibice-vy'umuravyo#ingurube-y'umuravyo)

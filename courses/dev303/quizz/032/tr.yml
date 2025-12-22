@@ -1,0 +1,8 @@
+question: Rust'ın hata işleme sisteminde kurtarılabilir ve kurtarılamaz hatalar arasındaki temel fark nedir?
+answer: Kurtarılabilir hatalar zarif bir şekilde ele alınarak programların devam etmesine izin verilirken, kurtarılamayan hatalar programı sonlandırır
+wrong_answers:
+  - Kurtarılabilir hatalar panic! makrosunu kullanırken, kurtarılamayan hatalar uygun hata yönetimi için Result enum'unu kullanır
+  - Kurtarılabilir hatalar derleme zamanında meydana gelirken, kurtarılamaz hatalar yalnızca programın çalışma zamanı yürütmesi sırasında meydana gelir
+  - Kurtarılabilir hatalar yığının çözülmesini gerektirirken, kurtarılamayan hatalar çağıran kod tarafından göz ardı edilebilir
+explanation: |
+  Rust hataları, programların bu hatalardan makul bir şekilde kurtulup kurtulamayacağına göre sınıflandırır. Kurtarılabilir hatalar, eksik dosyalar veya ağ sorunları gibi programların Sonuç türlerini kullanarak zarif bir şekilde ele alabileceği ve yürütmenin uygun hata işleme ile devam etmesine izin veren beklenen hata koşullarını temsil eder. Kurtarılamayan hatalar, programın güvenli bir şekilde devam edemediği bellek güvenliği ihlalleri veya mantık hataları gibi temel sorunları gösterir ve daha fazla bozulmayı önlemek için yürütmeyi sonlandıran panikleri tetikler.

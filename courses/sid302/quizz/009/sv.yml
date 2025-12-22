@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med Pedersens åtaganden i Elements och Confidential Transactions?
+answer: Att ersätta synliga transaktionsbelopp med kryptografiska åtaganden som kan valideras utan att de faktiska värdena avslöjas
+wrong_answers:
+  - Till generate unika hexadecimala identifierare med 64 tecken för nyemitterade tillgångar på Elements-blockkedjan
+  - För att förhindra double-spending genom att skapa matematiska bevis för att dolda värden är positiva heltal inom giltiga intervall
+  - Att möjliggöra överföring av Bitcoin från huvudkedjan till Elements-sidokedjor genom kryptografiska pegging-mekanismer
+explanation: |
+  Pedersen Commitments är den centrala kryptografiska mekanismen som möjliggör integritet i Confidential Transactions genom att synliga belopp ersätts med matematiska åtaganden. På grund av deras homomorfa egenskaper kan validerare verifiera att inmatningar är lika med utmatningar plus avgifter utan att se faktiska värden. Range Proofs förhindrar negativa belopp, tillgångs-ID:n identifierar tokens och pegging-mekanismer hanterar överföringar mellan kedjor, men inget av detta är en specifik funktion hos Pedersen Commitments.

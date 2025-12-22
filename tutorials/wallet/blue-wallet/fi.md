@@ -121,7 +121,7 @@ Voit siis valita sinulle sopivan transaktiomaksusuhteen, jos haluat, että trans
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -263,7 +263,7 @@ Kun vahvistat tapahtuman, tarvitset toisen allekirjoituksen, jolla hyväksyt bit
 
 
 
-Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman] (https://planb.academy/resources/glossary/psbt) QR-koodin.
+Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman](https://planb.academy/resources/glossary/psbt) QR-koodin.
 
 
 

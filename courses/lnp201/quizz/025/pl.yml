@@ -6,4 +6,4 @@ wrong_answers:
   - Zamknięcie bezpośrednie, zamknięcie pośrednie, zamknięcie z roszczeniem
 explanation: |
   Istnieją trzy metody: zamknięcie oparte na współpracy, w którym strony zgadzają się, wymuszone zamknięcie bez odpowiedzi jednej ze stron oraz zamknięcie z oszustwem, w którym strona próbuje opublikować starą transakcję.
-reviewed: false
+reviewed: true

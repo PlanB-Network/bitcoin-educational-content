@@ -93,7 +93,7 @@ Navigeren op het apparaat is eenvoudig: gebruik de rechterknop om naar rechts te
 
 
 
-In deze tutorial laat ik je zien hoe je de Trezor Safe 3 gebruikt met [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
+In deze tutorial laat ik je zien hoe je de Trezor Safe 3 gebruikt met [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
 
 
 
@@ -565,7 +565,7 @@ Selecteer het bedrag dat naar deze Address moet worden gestuurd.
 
 
 
-Pas het tarief van je transactie aan volgens de huidige markt. Je kunt bijvoorbeeld [Mempool.space] (https://Mempool.space/) gebruiken om een geschikt tarief te kiezen.
+Pas het tarief van je transactie aan volgens de huidige markt. Je kunt bijvoorbeeld [Mempool.space](https://Mempool.space/) gebruiken om een geschikt tarief te kiezen.
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - "Pevná nabídka Bitcoin způsobuje, že na rozdíl od tradičních finančních systémů je ekonomicky neúnosné absorbovat ztráty z úspěšných útoků."
 explanation: |
   Správná odpověď odráží klíčový poznatek Andrewa Poelstry o online systémech oproti fyzickým. Na rozdíl od budov, kde akceptujeme určité riziko a spoléháme se na vymáhání práva, Bitcoin funguje v pseudonymním prostředí, kde mohou útočníci jednat bez viditelnosti a následků. Tento zásadní rozdíl znamená, že každá známá slabina bude nevyhnutelně zneužita, takže komplexní zabezpečení je spíše nezbytné než volitelné řízení rizik.
+reviewed: false

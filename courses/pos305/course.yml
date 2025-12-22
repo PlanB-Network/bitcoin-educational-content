@@ -5,161 +5,166 @@ type: practice
 level: advanced
 hours: 8
 professors_id:
-- e7e63d59-ea19-4960-9446-61bd4dcc98f0
+  - e7e63d59-ea19-4960-9446-61bd4dcc98f0
 published_at: 2024-06-20
 contributor_names:
-- Asi0Flammeus
+  - Asi0Flammeus
 original_language: en
 proofreading:
-- language: cs
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: de
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 62.31
-- language: en
-  last_contribution_date: '2025-08-18'
-  urgency: 1
-  contributor_names:
-  - melontwist
-  - 2raj2raj
-  reward: 15.58
-- language: es
-  last_contribution_date: 2024-11-16
-  urgency: 1
-  contributor_names:
-  - OscarG673
-  reward: 31.16
-- language: fi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: fr
-  last_contribution_date: 2025-05-14
-  urgency: 1
-  contributor_names:
-  - Sosylos
-  reward: 31.16
-- language: it
-  last_contribution_date: 2025-10-31
-  urgency: 1
-  contributor_names:
-  - TinF0ilHat1
-  - AlbertoMagno21
-  reward: 15.58
-- language: ja
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 124.53
-- language: pt
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 62.31
-- language: ru
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: vi
-  last_contribution_date: 2025-11-05
-  urgency: 1
-  contributor_names:
-  - Henry-Da0
-  - Anh-La
-  reward: 31.13
-- language: et
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: id
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 103.79
-- language: zh-Hans
-  last_contribution_date: 2024-09-24
-  urgency: 1
-  contributor_names:
-  - MilankovicProtocol
-  reward: 51.89
-- language: nb-NO
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: pl
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: hi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 145.26
-- language: sr-Latn
-  last_contribution_date: 2025-08-18
-  urgency: 1
-  contributor_names:
-  - Sanja22B
-  reward: 41.53
-- language: sw
-  last_contribution_date: 2025-11-05
-  urgency: 1
-  contributor_names:
-  - monyangi10
-  - Arianebtc
-  reward: 20.76
-- language: zh-Hant
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 103.79
-- language: fa
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: sv
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 62.31
-- language: nl
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 83.05
-- language: tr
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 103.79
-- language: ko
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 103.79
-- language: rn
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 124.53
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 61.93
+  - language: en
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - melontwist
+      - 2raj2raj
+    reward: 15.48
+  - language: es
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributor_names:
+      - OscarG673
+    reward: 30.97
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: fr
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Sosylos
+    reward: 30.97
+  - language: it
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - TinF0ilHat1
+      - AlbertoMagno21
+    reward: 15.48
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.77
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 61.93
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: vi
+    last_contribution_date: 2025-11-05
+    urgency: 1
+    contributor_names:
+      - Henry-Da0
+      - Anh-La
+    reward: 30.94
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.15
+  - language: zh-Hans
+    last_contribution_date: 2024-09-24
+    urgency: 1
+    contributor_names:
+      - MilankovicProtocol
+    reward: 51.58
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 144.38
+  - language: sr-Latn
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - Sanja22B
+    reward: 41.27
+  - language: sw
+    last_contribution_date: 2025-11-05
+    urgency: 1
+    contributor_names:
+      - monyangi10
+      - Arianebtc
+    reward: 20.64
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.15
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 61.93
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.15
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.15
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.77
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.54
 tags:
-- guides
-- business
+  - guides
+  - business
 videos:
-- id: c20b6df7-0c3a-4785-94b9-42ef59093acc
-  youtube:
-  - en: mhE_vvwAiRc
-- id: 8e61664b-e0c0-416d-8ef9-b631bf28ec4d
-  youtube:
-  - en: s4qbGxef43A
+  - id: c20b6df7-0c3a-4785-94b9-42ef59093acc
+    youtube:
+      - en: mhE_vvwAiRc
+  - id: 8e61664b-e0c0-416d-8ef9-b631bf28ec4d
+    youtube:
+      - en: s4qbGxef43A

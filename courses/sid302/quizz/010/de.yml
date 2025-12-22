@@ -1,0 +1,8 @@
+question: Was hindert die Nutzer daran, im Elements' Confidential Transactions-System Geld aus dem Nichts zu schaffen?
+answer: Bereichsbeweise, die mathematisch beweisen, dass versteckte Werte positive ganze Zahlen innerhalb gültiger Bereiche sind
+wrong_answers:
+  - Pedersen Commitments, die Transaktionsbeträge kryptografisch an öffentliche Schlüssel binden
+  - Validierung des Vermögensregisters, das alle Transaktionsbeträge mit den registrierten Vermögensgrenzen vergleicht
+  - Föderierte Konsensknoten, die alle vertraulichen Transaktionsbeträge entschlüsseln und verifizieren
+explanation: |
+  Range Proofs sind der spezielle kryptografische Mechanismus, der verhindert, dass Benutzer das vertrauliche Transaktionssystem ausnutzen, indem sie negative Zahlen oder ungültige Beträge verwenden, um Geld aus dem Nichts zu schaffen. Während Pedersen Commitments die tatsächlichen Beträge verbergen, stellen Range Proofs die mathematische Integrität sicher, indem sie beweisen, dass die verborgenen Werte innerhalb legitimer Bereiche liegen. Das Asset-Register ordnet nur Asset-IDs menschenlesbaren Namen zu und validiert keine Beträge, und föderierte Knoten entschlüsseln keine vertraulichen Transaktionen - sie verifizieren sie, ohne die tatsächlichen Werte zu sehen.

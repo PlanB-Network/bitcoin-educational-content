@@ -70,7 +70,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pobierz aplikację ze strony [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Pobierz aplikację ze strony [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Postępuj zgodnie z instrukcjami instalacji na urządzeniu.
 - Podczas instalacji zostaniesz poproszony o wybranie, czy chcesz udostępnić określone dane w celu ulepszenia aplikacji Peach (obrazek 1)
 - Na następnym ekranie (obrazek 2) dostępne są dwie opcje:

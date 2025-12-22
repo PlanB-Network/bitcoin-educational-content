@@ -33,7 +33,7 @@ Diperlukan perangkat lunak untuk mengikuti tutorial ini:
 
 - [GitHub Desktop](https://desktop.github.com/);
 - Editor file markdown seperti [Obsidian](https://obsidian.md/);
-- Editor kode ([VSC] (https://code.visualstudio.com/) atau [Sublime Text] (https://www.sublimetext.com/)).
+- Editor kode ([VSC](https://code.visualstudio.com/) atau [Sublime Text](https://www.sublimetext.com/)).
 
 ![TUTO](assets/fr/01.webp)
 
@@ -41,8 +41,8 @@ Prasyarat sebelum memulai tutorial:
 
 
 - Memiliki [akun GitHub](https://github.com/signup);
-- Memiliki fork dari [Plan ₿ Repositori sumber jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Memiliki [profil profesor di Plan ₿ Academy] (https://planb.academy/professors) (hanya jika Anda mengajukan tutorial lengkap).
+- Memiliki fork dari [Plan ₿ Repositori sumber jaringan](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Memiliki [profil profesor di Plan ₿ Academy](https://planb.academy/professors) (hanya jika Anda mengajukan tutorial lengkap).
 
 Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu Anda:
 
@@ -167,7 +167,7 @@ Pilih nama untuk direktori yang dibuat khusus untuk tutorial Anda. Nama folder i
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Untuk tag, pilih 2 atau 3 kata kunci yang relevan yang terkait dengan konten tutorial Anda, pilih secara eksklusif dari [Daftar tag Paket ₿ Jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Perangkat lunak ini juga menyediakan fungsi pencarian kata kunci dengan daftar tarik-turun.
+Untuk tag, pilih 2 atau 3 kata kunci yang relevan yang terkait dengan konten tutorial Anda, pilih secara eksklusif dari [Daftar tag Paket ₿ Jaringan](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Perangkat lunak ini juga menyediakan fungsi pencarian kata kunci dengan daftar tarik-turun.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -177,7 +177,7 @@ Setelah semua informasi dimasukkan dan diverifikasi, klik "Buat Tutorial" untuk 
 
 Anda sekarang dapat melewati subbagian "Tanpa skrip Python saya" dan juga langkah 3, "Mengisi file YAML," karena skrip telah menyelesaikan tindakan ini untuk Anda. Lanjutkan langsung ke langkah 4 dan mulailah menulis tutorial Anda.
 
-Untuk informasi lebih lanjut tentang skrip Python ini, Anda juga dapat melihat [README] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Untuk informasi lebih lanjut tentang skrip Python ini, Anda juga dapat melihat [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Tanpa skrip Python saya
 
@@ -367,7 +367,7 @@ Subfolder bahasa dalam folder `assets` digunakan untuk menyimpan diagram dan vis
 
 Untuk menamai gambar Anda, cukup gunakan nomor yang sesuai dengan urutan kemunculannya dalam tutorial, yang diformat dengan dua digit (atau tiga digit jika tutorial Anda berisi lebih dari 99 gambar). Contohnya, beri nama gambar pertama Anda `01.webp`, gambar kedua `02.webp`, dan seterusnya.
 
-Gambar Anda harus dalam format `.webp` secara eksklusif. Jika diperlukan, Anda dapat menggunakan [perangkat lunak konversi gambar saya] (https://github.com/LoicPandul/ImagesConverter).
+Gambar Anda harus dalam format `.webp` secara eksklusif. Jika diperlukan, Anda dapat menggunakan [perangkat lunak konversi gambar saya](https://github.com/LoicPandul/ImagesConverter).
 
 ![TUTO](assets/fr/26.webp)
 
@@ -390,7 +390,7 @@ Jika Anda ingin membuat diagram Anda sendiri, pastikan untuk mematuhi piagam gra
 
 **Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumbernya**. Selain itu, semua diagram yang dipublikasikan di Plan ₿ Academy tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
 
-**-> Tips:** Ketika berbagi file secara publik, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, atau detail tentang pembuatnya. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan proses ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner] (https://exifcleaner.com/), yang memungkinkan pembersihan metadata dokumen melalui seret dan lepas.
+**-> Tips:** Ketika berbagi file secara publik, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, atau detail tentang pembuatnya. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan proses ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner](https://exifcleaner.com/), yang memungkinkan pembersihan metadata dokumen melalui seret dan lepas.
 
 ## 7 - Simpan dan Kirimkan Tutorial
 

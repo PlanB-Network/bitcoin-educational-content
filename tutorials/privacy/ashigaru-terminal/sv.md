@@ -33,7 +33,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3
 
 
 
-För att installera Ashigaru Terminal behöver du Tor Browser, eftersom binärfilerna endast distribueras via Tor-nätverket. Om du inte redan har gjort det, [installera det på din maskin] (https://www.torproject.org/download/).
+För att installera Ashigaru Terminal behöver du Tor Browser, eftersom binärfilerna endast distribueras via Tor-nätverket. Om du inte redan har gjort det, [installera det på din maskin](https://www.torproject.org/download/).
 
 
 
@@ -41,7 +41,7 @@ För att installera Ashigaru Terminal behöver du Tor Browser, eftersom binärfi
 
 
 
-Från Tor Browser, gå till [release-sidan i deras Git-arkiv] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) för att ladda ner den senaste versionen av Ashigaru Terminal för ditt operativsystem.
+Från Tor Browser, gå till [release-sidan i deras Git-arkiv](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) för att ladda ner den senaste versionen av Ashigaru Terminal för ditt operativsystem.
 
 
 
@@ -109,7 +109,7 @@ Om ett felmeddelande visas i detta skede är signaturen ogiltig. I så fall ska 
 
 
 
-Keybase har försett dig med den autentiserade hashen för applikationen. Vi ska nu kontrollera att hashen för filen `.deb`, `.zip` eller `.dmg` som du har hämtat matchar den som validerats på Keybase. För att göra detta, gå till [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase har försett dig med den autentiserade hashen för applikationen. Vi ska nu kontrollera att hashen för filen `.deb`, `.zip` eller `.dmg` som du har hämtat matchar den som validerats på Keybase. För att göra detta, gå till [HASH FILE ONLINE](https://hash-file.online/).
 
 
 

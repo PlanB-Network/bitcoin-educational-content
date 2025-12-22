@@ -1,0 +1,9 @@
+question: Коя команда показва подробното състояние на всички мрежови интерфейси в Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  командата "ip addr show" показва всички мрежови интерфейси, заедно с тяхното състояние, адреси и свързани параметри.
+reviewed: false

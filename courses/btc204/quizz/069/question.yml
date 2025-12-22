@@ -33,11 +33,12 @@ proofreading:
     contributor_names:
     reward: 0.17
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.08
+      - ProfScofield21
+    reward: 0.04
   - language: it
     last_contribution_date:
     urgency: 1
@@ -67,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -82,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -104,7 +105,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -129,14 +130,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17

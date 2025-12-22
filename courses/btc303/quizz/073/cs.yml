@@ -6,3 +6,4 @@ wrong_answers:
   - Po uplynutí standardní 90denní lhůty pro uvalení embarga bez ohledu na stav nasazení
 explanation: |
   Jádro Bitcoin se řídí spíše časovým harmonogramem zveřejňování informací na základě nasazení než pevně stanoveným časovým obdobím. Prahová hodnota 80 % zajišťuje, že převážná většina sítě je chráněna dříve, než se útočníci o zranitelnosti dozvědí z jejího zveřejnění. Tento přístup upřednostňuje bezpečnost sítě před libovolným časovým rozvrhem, protože předčasné zveřejnění by mohlo vystavit zbývajících 20 % uzlů cíleným útokům. Ostatní možnosti představují běžné postupy v tradičním zabezpečení softwaru, ale nezohledňují decentralizovanou povahu Bitcoin, kde uživatelé musí dobrovolně aktualizovat své uzly.
+reviewed: false

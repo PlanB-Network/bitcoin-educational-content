@@ -6,3 +6,4 @@ wrong_answers:
   - O mecanismo de consenso consumiria demasiada energia computacional para ser prático
 explanation: |
   A primeira frase da primeira resposta por correio eletrónico ao anúncio do whitepaper do Satoshi sobre o Bitcoin afirmava especificamente que "não parece ter a dimensão necessária" Isto mostra que as preocupações com a escala existiam desde as primeiras discussões públicas do Bitcoin, mesmo antes do lançamento da rede. As outras opções, embora sejam preocupações potencialmente válidas para um sistema de criptomoeda, não foram o foco dessa resposta inicial, que identificou imediatamente a escalabilidade como o principal problema da proposta do Satoshi.
+reviewed: false

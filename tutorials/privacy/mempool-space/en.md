@@ -89,7 +89,7 @@ A block is mined approximately every ten minutes due to the difficulty of the pr
 ![difficulty](assets/fr/05.webp)
 
 
-The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks**, equivalent to around 4 years** during halvings) and transaction fees.
+The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks**, equivalent to around **4 years** during halvings) and transaction fees.
 
 
 ![halving](assets/fr/06.webp)
@@ -171,7 +171,7 @@ On the transaction details page, click on the **Accelerate** button, then procee
 
 ![accelerate-section](assets/fr/11.webp)
 
-## Minors
+## Miners
 
 
 A miner refers to a person who manages a mine, i.e. a computer engaged in the mining process, which consists of participating in Proof-of-Work. The miner groups the pending transactions in his Mempool to form a candidate block. It then searches for a valid hash, less than or equal to the target, for the header of this block by modifying the various nonces. If he finds a valid hash, he broadcasts his block to the Bitcoin network and pockets the associated pecuniary reward, made up of the block subsidy (creation of new bitcoins ex-nihilo), and the transaction fee.

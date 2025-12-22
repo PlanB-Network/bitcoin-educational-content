@@ -1,0 +1,9 @@
+question: Quel était le principal reproche adressé au bitcoin par les libertariens américains qui invoquaient le théorème de régression de Mises ?
+answer: Il n'avait pas de valeur intrinsèque ni d'adossement à quelque chose de concret
+wrong_answers:
+  - Il avait une inflation monétaire, avec un taux d'émission de 40 % par an en 2011
+  - Il n'était pas utilisé comme unité de compte, qualité essentielle de la monnaie
+  - Il créait une répartition des richesses profondément inégalitaire
+explanation: |
+ Certains libertariens américains, attachés à l'école autrichienne, rejetaient Bitcoin car il contredisait (d'après eux) le théorème de régression de Ludwig von Mises, qui stipule qu'un bien doit avoir une valeur d'usage objective non monétaire avant de devenir une monnaie. C'était notamment le cas de Peter Schiff, le fils du militant antifiscal Irwin Schiff et partisan invétéré de l'étalon-or.
+reviewed: false

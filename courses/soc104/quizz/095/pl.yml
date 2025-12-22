@@ -1,0 +1,9 @@
+question: Zgodnie z filozofią Satoshi Nakamoto, jaki jest podstawowy problem z konwencjonalnymi walutami, który Bitcoin miał rozwiązać?
+answer: Nadmierne zaufanie wymagane w scentralizowanych instytucjach, które w przeszłości naruszały to zaufanie poprzez obniżanie wartości waluty
+wrong_answers:
+  - Brak infrastruktury cyfrowej i niskie prędkości przetwarzania transakcji w tradycyjnych systemach bankowych
+  - Wysokie opłaty transakcyjne i ograniczona dostępność międzynarodowych przelewów pieniężnych za pośrednictwem banków
+  - Wpływ na środowisko i zużycie energii przez tradycyjne systemy bankowe i systemy przetwarzania płatności
+explanation: |
+  Satoshi Nakamoto wyraźnie stwierdził, że "głównym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane, aby działała" i że bankom centralnym należy ufać, że nie będą debetować waluty, ale "historia walut fiducjarnych jest pełna naruszeń tego zaufania".
+  Cytat ten ujawnia główny cel Bitcoin: wyeliminowanie potrzeby zaufania do scentralizowanych instytucji. Pozostałe opcje, choć potencjalnie wiążą się z ważnymi obawami dotyczącymi tradycyjnych finansów, nie rozwiązują podstawowego problemu filozoficznego zidentyfikowanego przez Satoshi - że systemy fiducjarne wymagają ślepej wiary w instytucje, które wielokrotnie okazały się niegodne zaufania poprzez manipulacje monetarne i obniżanie wartości.

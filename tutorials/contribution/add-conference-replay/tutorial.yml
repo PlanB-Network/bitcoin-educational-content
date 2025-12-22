@@ -16,11 +16,12 @@ proofreading:
     contributor_names:
     reward: 1.53
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.76
+      - ProfScofield21
+    reward: 0.38
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -145,6 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.96
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.0
 tags:
   - guides
   - user-friendly

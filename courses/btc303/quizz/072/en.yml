@@ -6,3 +6,4 @@ wrong_answers:
   - The competition between layer-two solutions and on-chain scaling approaches for limited development resources and community support
 explanation: |
   Maxwell identified a dual-sided problem where Bitcoin loses its advantages in both directions: if resource usage is too high relative to available technology, validation becomes too costly and prices out users who then must rely on trusted third parties instead of validating independently. Conversely, if capacity is too low and transaction methods are inefficient, accessing the blockchain for dispute resolution becomes prohibitively expensive, again pushing users toward trusted services. This creates a delicate balance that scaling solutions must navigate.
+reviewed: false

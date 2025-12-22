@@ -1,0 +1,8 @@
+question: In the context of compact block filters (BIP158) for privacy-preserving light clients, what is the critical trade-off that makes them effective for wallet privacy?
+answer: They can produce false positives but never false negatives, allowing clients to download potentially irrelevant blocks without revealing specific addresses
+wrong_answers:
+  - They can produce false negatives but never false positives, ensuring clients only download blocks containing their transactions
+  - They eliminate both false positives and false negatives by using deterministic filtering based on wallet addresses
+  - "They produce both false positives and false negatives in equal proportions to obfuscate the client's actual transaction patterns"
+explanation: |
+  Compact block filters are designed with an asymmetric error model: they may indicate a block contains relevant transactions when it doesn't (false positive), but they will never miss a block that actually contains relevant transactions (no false negatives). This design is crucial because false negatives would mean missing actual payments, while false positives only result in downloading unnecessary blocks. The false positive rate provides privacy by forcing clients to download some irrelevant blocks, making it impossible for observers to determine which blocks actually contain the client's transactions.

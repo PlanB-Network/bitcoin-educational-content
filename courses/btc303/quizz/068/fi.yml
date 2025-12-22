@@ -6,3 +6,4 @@ wrong_answers:
   - Se vähentää verkon kokonaishashlausnopeutta, koska louhijat käyttävät resursseja yhteyksiin mining:n sijasta
 explanation: |
   Luvussa selitetään, että kun lohkokoot kasvavat, etenemisajat kasvavat, mikä johtaa useampiin vanhentuneisiin lohkoihin. Jotta louhijat eivät menettäisi lohkopalkkioita vanhentuneista lohkoista, he etsivät poolit, joissa on parempi kaistanleveys ja yhteydet. Tämä ajaa louhijat kohti suurempia, hyvin yhdistettyjä pooleja, mikä vähentää mining:n hajauttamista. Muut vaihtoehdot ovat virheellisiä: vaikeusaste säätyy automaattisesti poolin yhteydestä riippumatta, yhteyskustannukset eivät aiheuta ylimääräisiä transaktiomaksuja, eivätkä louhijat vähennä hash-nopeutta liittyessään parempien yhteyksien pooliin.
+reviewed: false

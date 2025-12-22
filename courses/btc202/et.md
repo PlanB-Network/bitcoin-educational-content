@@ -1437,7 +1437,7 @@ Umbrel pakub kahte erinevat lähenemist:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
 
 
 
@@ -2472,7 +2472,7 @@ Kui soovite rohkem teada saada Mempool.Space exploreri kasutamisest, siis soovit
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Välgussõlm
 

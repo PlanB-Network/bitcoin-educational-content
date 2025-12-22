@@ -1,9 +1,9 @@
-question: Ni ivyiza ibihe vyo gukoresha Passkeys nk’ubundi buryo bwo gukoresha amajambo y’ibanga asanzwe?
-answer: Batanga imfunguruzo zidasanzwe zifatanijwe n’ikintu co mu karere. Imfunguruzo zicakirwa n’uwuzitanga ariko ziguma kure y’aho zishobora gushika.
+question: Ni ivyiza ibihe vyo gukoresha Passkeys nk’ubundi buryo butari gukoresha amajambo y’ibanga bisanzwe?
+answer: zitanga imfunguruzo zidasanzwe zinyegeje zifatanijwe n’ikintu co mu mashini yawe, ivyo uwubitanga naho abitanga biaguma kure y’aho ashobora gushika.
 wrong_answers:
   - Biroroshe kwibuka kuruta amajambo y’ibanga asanzwe.
   - Ntibisaba ibindi bintu vyo kwemeza ko ari ivy’ukuri.
   - Bishobora gukoreshwa ku mbuga zose ataco bihinduye.
 explanation: |
-  Passkeys zitanga imfunguruzo zidasanzwe zifatanijwe n’ikintu co mu karere (biometrics canke PIN) umutanga amakuru ashobora kwakira. Ariko rero, imfunguruzo ziguma kure y’aho bashobora kuzishikira. Ubwo buryo burakuraho ivy’uko umuntu akeneye amajambo y’ibanga, gutyo akagira umutekano mwinshi ata ngorane zijanye n’amajambo y’ibanga asanzwe.
+  Passkeys zitanga imfunguruzo zidasanzwe zinyegeje zifatanijwe n’ikintu co mu mashini yawe (nka biometrics canke PIN), ivyo uwubitanga naho abitanga biaguma kure y’aho ashobora gushika. Ubwo buryo burakuraho ivy’uko umuntu akeneye amajambo y’ibanga, gutyo akagira umutekano mwinshi ata ngorane zijanye n’amajambo y’ibanga asanzwe.
 reviewed: true

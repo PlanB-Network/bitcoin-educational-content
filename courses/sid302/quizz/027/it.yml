@@ -1,0 +1,8 @@
+question: Nell'architettura di blocco di Blockstream AMP, quale meccanismo crittografico consente la crittografia dell'importo delle attività mantenendo la verifica della validità delle transazioni?
+answer: Scambio di chiavi a curva ellittica Diffie-Hellman con prove di intervallo che verificano la validità della transazione senza rivelare i valori crittografati
+wrong_answers:
+  - SNARK a conoscenza zero con schemi di impegno che nascondono gli importi delle transazioni dimostrando l'integrità computazionale
+  - Firme ad anello con indirizzi nascosti che offuscano l'identità del mittente mantenendo l'audit crittografico
+  - Crittografia omomorfa con impegni ad albero di Merkle che consentono di eseguire operazioni matematiche sui dati delle transazioni crittografate
+explanation: |
+  AMP utilizza lo scambio di chiavi ECDH in cui i mittenti crittografano gli importi delle attività utilizzando le chiavi pubbliche cieche dei destinatari, generando prove di portata che verificano matematicamente la validità delle transazioni senza esporre i valori. Questo differisce dagli SNARK (prove computazionali), dalle firme ad anello (incentrate sull'anonimato) o dalla crittografia omomorfa (calcolo su dati crittografati): AMP ha bisogno di transazioni riservate ma verificabili.

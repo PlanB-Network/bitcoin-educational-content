@@ -6,3 +6,4 @@ wrong_answers:
   - Através de publicações nas redes sociais e anúncios de transacções públicas
 explanation: |
   De acordo com o conteúdo do capítulo, a fuga de dados privados pode ocorrer de duas formas principais: on-chain e off-chain. As fugas on-chain ocorrem através da análise da blockchain pública, onde os padrões de transação, a reutilização de endereços e o agrupamento podem revelar informações financeiras. As fugas fora da cadeia ocorrem quando agentes maliciosos interceptam comunicações na Internet ou através de outros meios não relacionados com a cadeia de blocos. Embora as respostas erradas mencionem preocupações reais de segurança no ecossistema Bitcoin, elas não representam a categorização fundamental de como os vazamentos de privacidade ocorrem, conforme descrito no material.
+reviewed: false

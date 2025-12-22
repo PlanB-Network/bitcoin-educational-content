@@ -1,6 +1,6 @@
 ---
 name: Alias Vault
-description: Chombo chenye nguvu cha kudhibiti manenosiri, uthibitishaji wa sababu mbili na lakabu (pamoja na seva ya barua pepe iliyojengewa ndani) - Pia imejipangisha mwenyewe!
+description: Chombo chenye nguvu cha kudhibiti manenosiri, uthibitishaji wa sababu mbili na lakabu (pamoja na server ya barua pepe iliyojengewa ndani) - Pia imejipangisha mwenyewe!
 ---
 
 ![cover](assets/cover.webp)
@@ -15,11 +15,11 @@ Masuala haya, zaidi ya hayo, ni sehemu ya ulimwengu katika msukosuko wa mara kwa
 
 
 
-Hivi ndivyo ilivyo kwa **Leendert de Borst** na `Alias ​​Vault` yake, zana ya kimapinduzi (ya kwanza ya aina yake) inayokuruhusu kudhibiti na kuhifadhi manenosiri, kutumia rekodi za nenosiri ili kuthibitisha huduma za wavuti, kudhibiti uthibitishaji wa vipengele viwili, lakini muhimu zaidi generate _aliases_ halisi, yote katika Interface moja.
+Hivi ndivyo ilivyo kwa **Leendert de Borst** na `Alias ​​Vault` yake, zana ya kimapinduzi (ya kwanza ya aina yake) inayokuruhusu kudhibiti na kuhifadhi manenosiri, kutumia rekodi za nenosiri ili kuthibitisha huduma za wavuti, kudhibiti Two factor authentication, lakini muhimu zaidi kuzalisha _aliases_ halisi, yote katika Interface moja.
 
 
 
-**Lakini Alias ​​Vault haishii hapo **.
+**Lakini Alias ​​Vault haishii hapo**.
 
 
 
@@ -27,7 +27,7 @@ Hivi ndivyo ilivyo kwa **Leendert de Borst** na `Alias ​​Vault` yake, zana y
 
 
 
-Vault ya jina hufanya kazi katika wingu kwenye seva za msanidi programu au inajiendesha yenyewe katika miundombinu yake, chaguo ambalo faili na picha za Docker zinapatikana ili kusakinisha kwa kutumia scipt. Mbali na mtandao wa Interface, viendelezi vinapatikana kwa vivinjari vyote maarufu, pamoja na programu za simu za iOS na Android; mwisho pia inaweza kupakuliwa kutoka F-Droid, bypassing Google Store rasmi.
+Vault ya jina hufanya kazi katika cloud kwenye server za msanidi programu au inajiendesha yenyewe katika miundombinu yake, chaguo ambalo faili na picha za Docker zinapatikana ili kusakinisha kwa kutumia scipt. Mbali na mtandao wa Interface, viendelezi vinapatikana kwa vivinjari vyote maarufu, pamoja na programu za simu za iOS na Android; mwisho pia inaweza kupakuliwa kutoka F-Droid, bypassing Google Store rasmi.
 
 
 
@@ -36,10 +36,10 @@ Katika Vault moja ya Interface Alias ​​ni:
 
 
 
-- Chanzo huria na wazi**
-- Kidhibiti Nenosiri**, ili kuhifadhi manenosiri yote changamano. Kwa kutumia kiendelezi cha kivinjari, msimamizi wa nenosiri hukamilisha kuingia kwenye tovuti
-- 2FA**, ili kusaidia uthibitishaji wa vipengele viwili
-- Msimamizi wa lakabu aliye na seva iliyopachikwa ya barua pepe**: Vault ya Lakabu haiundi lakabu zinazosambaza barua pepe kwa kisanduku cha barua cha mtumiaji; badala yake, inaunda mabadiliko halisi, kamili na jina la kwanza, jina la mwisho, jinsia, jina la mtumiaji, nenosiri, na siku ya kuzaliwa (ikiwa taarifa hii inahitajika).
+- **Chanzo huria na wazi**
+- **Kidhibiti Nenosiri**, ili kuhifadhi manenosiri yote changamano. Kwa kutumia kiendelezi cha kivinjari, msimamizi wa nenosiri hukamilisha kuingia kwenye tovuti
+- **2FA**, ili kusaidia Two factor authentication
+- **Msimamizi wa lakabu aliye na server iliyopachikwa ya barua pepe**: Vault ya Lakabu haiundi lakabu zinazosambaza barua pepe kwa kisanduku cha barua cha mtumiaji; badala yake, inaunda mabadiliko halisi, kamili na jina la kwanza, jina la mwisho, jinsia, jina la mtumiaji, nenosiri, na siku ya kuzaliwa (ikiwa taarifa hii inahitajika).
 
 
 
@@ -51,7 +51,7 @@ Nyaraka za kina na za kina ni sehemu ya kifurushi, ambacho kitaambatana na wagen
 
 
 
-Inaanza, kama kawaida, kutoka kwa tovuti ya [aliasvault.net](aliasvault.net). Kama ilivyotajwa, Vault ya Alias ​​inaweza kutumika kwenye seva ya mtu mwenyewe, au kutoka kwa wingu la msanidi programu ili kufahamiana nayo kabla ya kuhamia suluhisho la mwenyeji mwenyewe.
+Inaanza, kama kawaida, kutoka kwa tovuti ya [aliasvault.net](aliasvault.net). Kama ilivyotajwa, Vault ya Alias ​​inaweza kutumika kwenye server ya mtu mwenyewe, au kutoka kwa cloud la msanidi programu ili kufahamiana nayo kabla ya kuhamia suluhisho la mwenyeji mwenyewe.
 
 
 
@@ -71,7 +71,7 @@ Kwa mshangao wako mkubwa utapata kwamba Vault ya Alias ​​haiulizi habari za 
 
 
 
-Weka **`nenosiri kuu`** sasa, ambayo ni sehemu muhimu ya taarifa katika mfumo wako wote mpya. Ukiwa na nenosiri hili moja, kwa kweli, utakuwa wewe pekee unayeweza kufikia/kurejesha akaunti, kwani itaweka `vault` yako ikiwa imesimbwa kwa njia fiche kwenye seva ambayo itapangisha taarifa zako.
+Weka **`nenosiri kuu`** sasa, ambayo ni sehemu muhimu ya taarifa katika mfumo wako wote mpya. Ukiwa na nenosiri hili moja, kwa kweli, utakuwa wewe pekee unayeweza kufikia/kurejesha akaunti, kwani itaweka `vault` yako ikiwa imesimbwa kwa njia fiche kwenye server ambayo itapangisha taarifa zako.
 
 
 
@@ -133,7 +133,7 @@ Sehemu ya juu ya skrini ya kwanza, unaweza kuitumia kuleta kitambulisho cha neno
 
 
 
-Iwapo umewasha uthibitishaji wa vipengele viwili kwenye huduma zozote (au zote) kati ya zilizo hapo juu, ukitumia Lakabu Vault unaweza pia kudhibiti usalama huu wa ziada wa Layer kwa kuleta `ufunguo wa siri`. Lakabu Vault itaunda `TOTP` inayohitajika kwa ufikiaji.
+Iwapo umewasha Two factor authentication kwenye huduma zozote (au zote) kati ya zilizo hapo juu, ukitumia Lakabu Vault unaweza pia kudhibiti usalama huu wa ziada wa Layer kwa kuleta `ufunguo wa siri`. Lakabu Vault itaunda `TOTP` inayohitajika kwa ufikiaji.
 
 
 
@@ -181,7 +181,7 @@ Kabla ya kutumia barua pepe hii kwa huduma ya kuingia, unaweza kujaribu utendaka
 
 
 
-**⚠️ ONYO**: Kupokea barua pepe kunawezekana kutokana na seva iliyojengewa ndani ya Alias ​​Vault, lakini hii hukuruhusu kupokea barua pepe tu na kutojibu, au kutumia kisanduku cha barua pepe chenye utendaji wa "kawaida" wa huduma ya `lakabu`. Kwa hivyo inatofautiana sana na Kuingia kwa Rahisi, Addy na majukwaa mengine ambayo yamejitolea kwa aina hii ya huduma. Kwa mfano wa Kuingia Rahisi unaweza kutazama mafunzo yaliyojitolea:
+**⚠️ ONYO**: Kupokea barua pepe kunawezekana kutokana na server iliyojengewa ndani ya Alias ​​Vault, lakini hii hukuruhusu kupokea barua pepe tu na kutojibu, au kutumia kisanduku cha barua pepe chenye utendaji wa "kawaida" wa huduma ya `lakabu`. Kwa hivyo inatofautiana sana na Kuingia kwa Rahisi, Addy na majukwaa mengine ambayo yamejitolea kwa aina hii ya huduma. Kwa mfano wa Kuingia Rahisi unaweza kutazama mafunzo yaliyojitolea:
 
 
 
@@ -263,7 +263,7 @@ Mara tu unapomaliza kuingia, utapata data ambayo tayari umeunda imesawazishwa te
 
 
 
-Programu ya simu inaweza kuelekezwa kwa kiungo cha `vault` iliyopangishwa kwenye seva yake yenyewe.
+Programu ya simu inaweza kuelekezwa kwa kiungo cha `vault` iliyopangishwa kwenye server yake yenyewe.
 
 
 
@@ -283,7 +283,7 @@ Lakabu Vault, kuwa sawa, sio `kidhibiti cha nenosiri` cha kwanza kinachokuruhusu
 
 
 
-Fursa ni ya kipekee: **komesha utegemezi kwa watoa huduma wa nje au wingu, lakini tumia seva yako ya ndani ili kulinda na kudhibiti manenosiri, lakabu na maelezo nyeti sana yanayohusiana nayo**. Ukiwa na Lakabu Vault unaweza pia kuwa na kituo cha huduma ya barua pepe kwa seva yako ya barua pepe kwa usiri ulioongezwa.
+Fursa ni ya kipekee: **komesha utegemezi kwa watoa huduma wa nje au cloud, lakini tumia server yako ya ndani ili kulinda na kudhibiti manenosiri, lakabu na maelezo nyeti sana yanayohusiana nayo**. Ukiwa na Lakabu Vault unaweza pia kuwa na kituo cha huduma ya barua pepe kwa server yako ya barua pepe kwa usiri ulioongezwa.
 
 
 
@@ -299,7 +299,7 @@ Vault ya Alias ​​huendesha kwenye Docker Compose, kwa hivyo uzoefu mdogo na 
 
 
 
-Seva yako lazima iwe inaendeshwa kwenye mashine ya 64-bit, yenye usambazaji wa Linux, GB 1 ya RAM na angalau GB 16 ya hifadhi; toleo la Docker (CE) lazima liwe angalau 20.10 au zaidi, wakati Docker Compose inahitaji kutolewa kutoka 2.0 na zaidi.
+server yako lazima iwe inaendeshwa kwenye mashine ya 64-bit, yenye usambazaji wa Linux, GB 1 ya RAM na angalau GB 16 ya hifadhi; toleo la Docker (CE) lazima liwe angalau 20.10 au zaidi, wakati Docker Compose inahitaji kutolewa kutoka 2.0 na zaidi.
 
 
 
@@ -413,11 +413,11 @@ Kulingana na yale ambayo Lanedirt inaeleza kwenye tovuti, katika hati, na kwenye
 
 
 
-Kila kitu bado kimefichwa hata kutoka kwa wingu au meneja wa huduma ya mwenyeji. Kwa kweli, kutoka kwa paneli ya msimamizi huwezi kufikia maelezo ya mtumiaji, unaweza kujua tu ikiwa wameunda lakabu, barua pepe zilizopokea, na zingine kidogo.
+Kila kitu bado kimefichwa hata kutoka kwa cloud au meneja wa huduma ya mwenyeji. Kwa kweli, kutoka kwa paneli ya msimamizi huwezi kufikia maelezo ya mtumiaji, unaweza kujua tu ikiwa wameunda lakabu, barua pepe zilizopokea, na zingine kidogo.
 
 
 
-Maudhui yote yaliyohifadhiwa yamesimbwa kwa njia fiche na kusimbwa kwa vitufe vya kriptografia vinavyotokana na `nenosiri kuu`. **Data iliyosimbwa pekee ndiyo huhifadhiwa kwenye seva, hakuna kitu kinachoonekana katika maandishi wazi**. Mtumiaji akisahau au kupoteza `nenosiri lake kuu`, akaunti iliyounganishwa nalo itapotea kwa njia isiyoweza kutenduliwa, kwa vile seva haiwezi kufikia maudhui ya maandishi wazi.
+Maudhui yote yaliyohifadhiwa yamesimbwa kwa njia fiche na kusimbwa kwa vitufe vya kriptografia vinavyotokana na `nenosiri kuu`. **Data iliyosimbwa pekee ndiyo huhifadhiwa kwenye server, hakuna kitu kinachoonekana katika maandishi wazi**. Mtumiaji akisahau au kupoteza `nenosiri lake kuu`, akaunti iliyounganishwa nalo itapotea kwa njia isiyoweza kutenduliwa, kwa vile server haiwezi kufikia maudhui ya maandishi wazi.
 
 
 
@@ -429,7 +429,7 @@ Kwa toleo linalopangishwa binafsi kuna hati ya kuweka upya `nenosiri kuu`, lakin
 
 
 
-Kwa kuwa Vault ya Lakabu iko katika hatua ya _Beta_, unaweza kuwa na ugumu wa kuipata ikiwa utabadilisha/kusasisha nenosiri kuu. Ninapendekeza uchague ikiwa ni thabiti na ngumu tangu mwanzo ili uweze kujaribu huduma hiyo na hatimaye uamue ikiwa utaitumia. Ikiwa una ugumu wa kufikia wingu kufuatia sasisho la nenosiri, tafadhali wasiliana na usaidizi wa Vault ya Alias.
+Kwa kuwa Vault ya Lakabu iko katika hatua ya _Beta_, unaweza kuwa na ugumu wa kuipata ikiwa utabadilisha/kusasisha nenosiri kuu. Ninapendekeza uchague ikiwa ni thabiti na ngumu tangu mwanzo ili uweze kujaribu huduma hiyo na hatimaye uamue ikiwa utaitumia. Ikiwa una ugumu wa kufikia cloud kufuatia sasisho la nenosiri, tafadhali wasiliana na usaidizi wa Vault ya Alias.
 
 
 

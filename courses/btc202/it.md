@@ -1521,7 +1521,7 @@ Uno dei vantaggi principali di Umbrel rispetto ai suoi concorrenti è la sua vas
 
 
 
-Il codice di Umbrel è pubblicamente disponibile (è possibile visualizzarlo, Fork e modificarlo), ma non è sotto una vera licenza open-source. Infatti, umbrelOS è distribuito sotto la licenza [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), sebbene alcuni strumenti di sviluppo associati siano disponibili sotto la licenza MIT.
+Il codice di Umbrel è pubblicamente disponibile (è possibile visualizzarlo, Fork e modificarlo), ma non è sotto una vera licenza open-source. Infatti, umbrelOS è distribuito sotto la licenza [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), sebbene alcuni strumenti di sviluppo associati siano disponibili sotto la licenza MIT.
 
 
 
@@ -2472,7 +2472,7 @@ Per saperne di più sull'uso dell'explorer Mempool.Space, vi consiglio di consul
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nodo fulmineo
 

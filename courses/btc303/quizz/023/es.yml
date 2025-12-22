@@ -6,3 +6,4 @@ wrong_answers:
   - Los usuarios son completamente anónimos y no hay forma de relacionar las transacciones
 explanation: |
   La naturaleza seudónima de Bitcoin significa que, aunque los usuarios operan con seudónimos (direcciones derivadas de claves públicas), sus transacciones pueden rastrearse y vincularse entre estos seudónimos en la cadena de bloques. Esto difiere del verdadero anonimato, en el que las transacciones no dejarían ninguna conexión rastreable. En Bitcoin, se puede seguir el flujo de fondos entre direcciones, pero la identidad real detrás de esas direcciones no se revela directamente a menos que alguien la revele voluntariamente o cometa errores que filtren su información privada.
+reviewed: false

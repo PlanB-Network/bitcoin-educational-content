@@ -73,13 +73,13 @@ maailmanlaajuinen pankkitoiminnan ulkopuolelle jäävä väestö
 Tämä luento, **"Miksi El Salvador tarvitsee Bitcoin:n "**, tarjoaa yleiskatsauksen **Bitcoin-protokollaan**, sen juuriin **Cypherpunk-liikkeessä** ja sen rooliin vapautta edistävänä välineenä, joka mahdollistaa **sensuroimattoman rahan**, **rahoituksellisen osallisuuden** ja paljon muuta.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Bitcoin-protokolla:_ Säännöt ja rakenne, jotka ohjaavat Bitcoin:n toimintaa hajautettuna digitaalisena valuuttana.
-> - __Cypherpunk-liike:_ Ryhmä, joka kannattaa salakirjoituksen käyttöä yksityisyyden ja vapauden varmistamiseksi digitaalisissa tiloissa.
-> - _Rahoitusmarkkinoille osallistaminen:_ Rahoituspalvelujen tarjoaminen ihmisille, jotka ovat jääneet perinteisten pankkijärjestelmien ulkopuolelle ja joihin usein viitataan nimellä "ilman pankkitoimintaa"
-> - _ Sensuroimaton raha:_ Raha, jota hallitukset tai rahoituslaitokset eivät voi valvoa tai rajoittaa.
+
+- _Bitcoin-protokolla:_ Säännöt ja rakenne, jotka ohjaavat Bitcoin:n toimintaa hajautettuna digitaalisena valuuttana.
+- __Cypherpunk-liike:_ Ryhmä, joka kannattaa salakirjoituksen käyttöä yksityisyyden ja vapauden varmistamiseksi digitaalisissa tiloissa.
+- _Rahoitusmarkkinoille osallistaminen:_ Rahoituspalvelujen tarjoaminen ihmisille, jotka ovat jääneet perinteisten pankkijärjestelmien ulkopuolelle ja joihin usein viitataan nimellä "ilman pankkitoimintaa"
+- _ Sensuroimaton raha:_ Raha, jota hallitukset tai rahoituslaitokset eivät voi valvoa tai rajoittaa.
 
 #### Rickyn tausta ja Bitcoin:n puolustaminen
 
@@ -102,11 +102,11 @@ Autoritaarisissa järjestelmissä, joissa taloudellinen sorto on yleistä, Bitco
 Bitcoin:lla on potentiaalistaan huolimatta merkittäviä haasteita. Afrikan ja Intian kaltaisilla alueilla perusinfrastruktuuri, kuten sähkö- ja internet-yhteydet, puuttuvat usein, mikä rajoittaa käyttöönottoa. Lisäksi **digitaalinen osallisuus** - sen varmistaminen, että kaikenikäiset ja koulutustasoltaan erilaiset ihmiset voivat käyttää teknologiaa - on edelleen suuri este.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Private keys:_ Salaiset koodit, joilla pääsee käsiksi käyttäjän Bitcoin:ään.
-> - _Avoin lähdekoodi:_ Ohjelmisto, jota kuka tahansa voi tarkastaa, muokata ja parantaa.
+
+- _Private keys:_ Salaiset koodit, joilla pääsee käsiksi käyttäjän Bitcoin:ään.
+- _Avoin lähdekoodi:_ Ohjelmisto, jota kuka tahansa voi tarkastaa, muokata ja parantaa.
 
 ### El Salvadorin tapaus
 
@@ -135,10 +135,10 @@ Yhteenvetona voidaan todeta, että Bitcoin on valtavan lupaava rahoitusalan voim
 Cypherpunk-liike** syntyi 1900-luvun loppupuolella, ja se ajoi yksityisyyden ja vapauden säilyttämistä salakirjoituksen avulla. Edelläkävijät, kuten **Eric Hughes** ja **Tim May**, uskoivat, että vahva salaus oli välttämätöntä henkilökohtaisen vapauden suojelemiseksi digitaalisessa maailmassa. Heidän ajatuksensa vaikuttivat suuresti Bitcoin:n luomiseen.
 
 
-> **Määritelmä:**
->
+**Määritelmä:**
 
-> - __Cypherpunk:_ Liike, joka edistää yksityisyyttä ja vapautta kryptografian avulla.
+
+- __Cypherpunk:_ Liike, joka edistää yksityisyyttä ja vapautta kryptografian avulla.
 
 #### Itävaltalainen taloustiede
 
@@ -146,10 +146,10 @@ Cypherpunk-liike** syntyi 1900-luvun loppupuolella, ja se ajoi yksityisyyden ja 
 Samaan aikaan **australialainen taloustiede** loi perustan Bitcoin:n rahapoliittisille periaatteille. Taloustieteilijät, kuten **Ludwig von Mises** ja **Friedrich Hayek**, väittivät, että terveen rahan pitäisi olla niukkaa, kestävää ja hyvää arvon säilyttäjää - nämä keskeiset periaatteet muokkasivat Bitcoin:n suunnittelua.
 
 
-> **Määritelmä:**
->
+**Määritelmä:**
 
-> - _Puute:_ Rajoitettu saatavuus, joka luo arvoa huolellisen jakamisen tarpeen vuoksi.
+
+- _Puute:_ Rajoitettu saatavuus, joka luo arvoa huolellisen jakamisen tarpeen vuoksi.
 
 ### Bitcoin:n luominen
 
@@ -157,10 +157,10 @@ Samaan aikaan **australialainen taloustiede** loi perustan Bitcoin:n rahapoliitt
 **Satoshi Nakamoto** yhdisti nämä ideat ja loi Bitcoin:n vuonna 2008 hajautetuksi, sensuurin kestäväksi digitaaliseksi valuutaksi. Yhdistämällä Cypherpunk:n yksityisyyden ihanteet ja itävaltalaiset terveen rahan periaatteet Bitcoin tarjoaa rahoitusjärjestelmän, joka haastaa perinteiset pankit ja hallituksen valvonnan.
 
 
-> **Määritelmä:**
->
+**Määritelmä:**
 
-> - _Sensuurin kestävä:_ Raha, jota ulkoiset voimat eivät voi valvoa tai estää.
+
+- _Sensuurin kestävä:_ Raha, jota ulkoiset voimat eivät voi valvoa tai estää.
 
 #### Keskeiset taloudelliset periaatteet
 
@@ -171,11 +171,11 @@ Samaan aikaan **australialainen taloustiede** loi perustan Bitcoin:n rahapoliitt
 - Säästäminen:** Arvon varastointi tulevia tarpeita varten, mikä johtaa investointeihin ja innovaatioihin.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Aikapreferenssi:_ Nykyisten hyödykkeiden arvostaminen tuleviin nähden.
-> - _Säästäminen:_ Arvon tallentaminen tulevaa käyttöä varten.
+
+- _Aikapreferenssi:_ Nykyisten hyödykkeiden arvostaminen tuleviin nähden.
+- _Säästäminen:_ Arvon tallentaminen tulevaa käyttöä varten.
 
 ### Bitcoin El Salvadorissa
 
@@ -243,11 +243,11 @@ Bitcoin perustuu **digitaalisiin allekirjoituksiin**, joissa käytetään **elli
 **Satoshi Nakamoto**, Bitcoin:n pseudonyymi, laajensi näitä ajatuksia siirtymällä PoW-mallista hajautettuun **Blockchain**-malliin. Tämä mahdollisti sen, että solmujen hajautettu verkko voi validoida ja kirjata transaktioita ilman keskusviranomaista, mikä merkitsi merkittävää kehitystä aiemmista digitaalisen valuutan yrityksistä.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Proof-of-Work (PoW):_ Järjestelmä, jossa osallistujien on ratkaistava laskennallisia pulmia transaktioiden vahvistamiseksi ja verkon suojaamiseksi.
-> - _Elliptic Curve Cryptography:_ Kryptografinen menetelmä, joka mahdollistaa turvalliset ja tehokkaat digitaaliset allekirjoitukset.
+
+- _Proof-of-Work (PoW):_ Järjestelmä, jossa osallistujien on ratkaistava laskennallisia pulmia transaktioiden vahvistamiseksi ja verkon suojaamiseksi.
+- _Elliptic Curve Cryptography:_ Kryptografinen menetelmä, joka mahdollistaa turvalliset ja tehokkaat digitaaliset allekirjoitukset.
 
 ### Blockchain-mekaniikka ja tapahtumien validointi
 
@@ -264,12 +264,12 @@ Jokainen **lohko** Blockchain:ssä koostuu **otsikosta** (jossa on edellisen loh
 Ennen kuin tapahtumat sisällytetään lohkoon, ne ovat **Mempool**:ssä, jossa ne odottavat validointia. Kun transaktiot on validoitu, ne lisätään juuri louhittuun lohkoon ja sen jälkeen Blockchain:een.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Mining:_ Prosessi, jossa kryptografisia arvoituksia ratkotaan uusien lohkojen lisäämiseksi Blockchain:een.
-> - _Nonce:_ Arvo, jota käytetään oikean Hash:n löytämiseen Mining:n aikana.
-> - _Mempool:_ Odotusalue vahvistamattomille transaktioille ennen niiden lisäämistä lohkoon.
+
+- _Mining:_ Prosessi, jossa kryptografisia arvoituksia ratkotaan uusien lohkojen lisäämiseksi Blockchain:een.
+- _Nonce:_ Arvo, jota käytetään oikean Hash:n löytämiseen Mining:n aikana.
+- _Mempool:_ Odotusalue vahvistamattomille transaktioille ennen niiden lisäämistä lohkoon.
 
 ### Skaalautuvuus, yksityisyys ja kehitys Bitcoin:ssa
 
@@ -283,12 +283,12 @@ Bitcoin:n haasteet liittyvät skaalautuvuuteen ja yksityisyyteen. Blockchain:n r
 Bitcoin:n kehitys on kehittynyt suorituskyvyn ja turvallisuuden parantamiseksi. Tärkeimpiä parannuksia ovat **Segregated Witness (SegWit)**, joka puuttuu transaktioiden muokattavuuteen ja kasvattaa tehokasta lohkokokoa, sekä **Taproot**, joka parantaa yksityisyyttä ja mahdollistaa monimutkaisemmat sopimukset käyttämällä **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _SegWit:_ Bitcoin-päivitys, joka erottaa allekirjoitustiedot tapahtumatiedoista ja parantaa tehokkuutta.
-> - _Taproot:_ Päivitys, joka parantaa Bitcoin:n yksityisyyttä ja skaalautuvuutta mahdollistamalla monimutkaisemmat älykkäät sopimukset.
-> - _Lightning Network:_ Toinen Layer -ratkaisu nopeampiin ja halvempiin Bitcoin-tapahtumiin maksukanavia käyttäen.
+
+- _SegWit:_ Bitcoin-päivitys, joka erottaa allekirjoitustiedot tapahtumatiedoista ja parantaa tehokkuutta.
+- _Taproot:_ Päivitys, joka parantaa Bitcoin:n yksityisyyttä ja skaalautuvuutta mahdollistamalla monimutkaisemmat älykkäät sopimukset.
+- _Lightning Network:_ Toinen Layer -ratkaisu nopeampiin ja halvempiin Bitcoin-tapahtumiin maksukanavia käyttäen.
 
 #### Päätelmä
 
@@ -316,11 +316,11 @@ Tällä luennolla kumotaan yleisiä myyttejä, jotka liittyvät **Bitcoin:aan**,
 Yleinen väärinkäsitys on, että **Bitcoin** ja **Blockchain** ovat samat. Bitcoin on digitaalinen valuutta, mutta **Blockchain** on teknologia, jolla se toimii. Lohkoketjut tarjoavat todennetun tallenteen transaktioista, mutta niihin liittyy kompromisseja, kuten hitaampi nopeus ja korkeammat kustannukset, joita **Lightning Network** Address:n kaltaiset ratkaisut tarjoavat.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Lohkoketju:_ Taustalla oleva teknologia, jota käytetään transaktioiden tallentamiseen hajautettuun, muuttumattomaan Ledger:ään.
-> - _Lightning Network:_ Toinen Layer-ratkaisu, joka parantaa Bitcoin:n tapahtumien tehokkuutta mahdollistamalla off-chain-tapahtumat.
+
+- _Lohkoketju:_ Taustalla oleva teknologia, jota käytetään transaktioiden tallentamiseen hajautettuun, muuttumattomaan Ledger:ään.
+- _Lightning Network:_ Toinen Layer-ratkaisu, joka parantaa Bitcoin:n tapahtumien tehokkuutta mahdollistamalla off-chain-tapahtumat.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ Yleinen väärinkäsitys on, että **Bitcoin** ja **Blockchain** ovat samat. Bit
 Toinen tärkeä ero on se, että **Bitcoin** luotiin ainoastaan tarjoamaan hajautettu, sensuurin kestävä rahamuoto, joka ei ole minkään yrityksen tai hallituksen valvonnassa. Kryptovaluutat **shitcoins** sen sijaan on usein suunniteltu keskitetysti valvottaviksi, ja ne ovat ensisijaisesti olemassa rikastuttaakseen niiden takana olevia yrityksiä saalistuskäytännöillä, pumppaus- ja myyntijärjestelmillä tai suoranaisilla huijauksilla. Näillä rahakkeilla ei tyypillisesti ole muuta todellista tarkoitusta kuin tuottaa nopeaa voittoa niiden luojille tietämättömien sijoittajien kustannuksella. Bitcoin on kuitenkin ainoa aidosti hajautettu digitaalinen valuutta, jonka turvallisuus ja kestävyys on todistetusti todistettu.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Shitcoinit:_ Shitcoinit ovat arvoltaan vähäisiä tai laadultaan kyseenalaisia kryptovaluuttoja, joista puuttuu todellinen hyöty. Ne ovat usein hyvin spekulatiivisia, ja ne luodaan joskus vilpillisiin tarkoituksiin tai ilman selkeää tarkoitusta kryptovaluuttamarkkinoiden noususuhdannetta hyväksikäyttäen.
+
+- _Shitcoinit:_ Shitcoinit ovat arvoltaan vähäisiä tai laadultaan kyseenalaisia kryptovaluuttoja, joista puuttuu todellinen hyöty. Ne ovat usein hyvin spekulatiivisia, ja ne luodaan joskus vilpillisiin tarkoituksiin tai ilman selkeää tarkoitusta kryptovaluuttamarkkinoiden noususuhdannetta hyväksikäyttäen.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Toinen tärkeä ero on se, että **Bitcoin** luotiin ainoastaan tarjoamaan hajau
 Yksi Bitcoin:n yleisimmistä kritiikeistä on sen **energiankulutus**. Vaikka Bitcoin Mining kuluttaa energiaa, sen osuus on alle 1 % maailmanlaajuisesta sähkönkulutuksesta ja alle 3 % hukkaenergiasta. Lisäksi **Bitcoin Mining** hyödyntää usein käyttämättömiä tai uusiutuvia energialähteitä, mikä tekee siitä usein esitettyä vihreämmän.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Bitcoin Mining:_ Transaktioiden validointi ja verkon turvaaminen ratkaisemalla kryptografisia arvoituksia, mikä vaatii laskentatehoa.
+
+- _Bitcoin Mining:_ Transaktioiden validointi ja verkon turvaaminen ratkaisemalla kryptografisia arvoituksia, mikä vaatii laskentatehoa.
 
 ### Rikollista käyttöä koskevat väärinkäsitykset
 
@@ -359,10 +359,10 @@ Bitcoin:ää kritisoidaan usein siitä, että sitä käytetään rikollisessa to
 *gW-118:n olennaisia ominaisuuksia ovat *Salaisuus** ja **siitettävyys**. Yksityisyys suojaa käyttäjiä sortohallinnoissa, ja korvattavuus varmistaa, että jokainen Bitcoin on samanarvoinen sen historiasta riippumatta. Tämä tekee Bitcoin:sta luotettavan ja oikeudenmukaisen rahan.
 
 
-> **Määritelmät:**
->
+**Määritelmät:**
 
-> - _Korvattavuus:_ Rahan ominaisuus, jossa jokainen yksikkö on vaihdettavissa toiseen, mikä takaa yhtäläisen arvon.
+
+- _Korvattavuus:_ Rahan ominaisuus, jossa jokainen yksikkö on vaihdettavissa toiseen, mikä takaa yhtäläisen arvon.
 
 ### FUD:n ja markkinadynamiikan käsittely
 
@@ -2985,7 +2985,7 @@ Lompakot voidaan luokitella sen mukaan, kenellä on yksityiset avaimet ja kuka h
 
 
 - Huoltajan lompakot**: Kolmannen osapuolen hallussa olevat yksityiset avaimet, tarjoavat yleensä automaattisen likviditeetinhallinnan. Esimerkkejä ovat Wallet ja Satoshi.
-- Muiden kuin huoltajien lompakot**: Käyttäjillä on yksityiset avaimet, voi vaatia manuaalista likviditeetin hallintaa. Esimerkkejä ovat Breeze ja OBW.
+- Muiden kuin huoltajien lompakot**: Käyttäjillä on yksityiset avaimet, voi vaatia manuaalista likviditeetin hallintaa. Esimerkkejä ovat Breez ja OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Kehittäjien haasteena on toteuttaa saumaton likviditeetinhallinta sovelluksissa
 - Mahdolliset ratkaisut**: Kehittäjät tutkivat kehittyneitä algoritmeja **likviditeetin reititystä** varten ja hyödyntävät **kaksinkertaisesti rahoitettuja kanavia** varmistaakseen, että likviditeetti on saatavilla transaktion molemmissa päissä.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **Liquidius**: Varojen saatavuus salamakanavassa maksujen suorittamiseksi tai vastaanottamiseksi.
-> - **LSP (Lightning Service Provider)**: Palvelu, joka auttaa käyttäjiä hallitsemaan likviditeettiä ja kanavia Lightning Network:ssä.
+
+- **Liquidius**: Varojen saatavuus salamakanavassa maksujen suorittamiseksi tai vastaanottamiseksi.
+- **LSP (Lightning Service Provider)**: Palvelu, joka auttaa käyttäjiä hallitsemaan likviditeettiä ja kanavia Lightning Network:ssä.
 
 ---
 
@@ -3129,12 +3129,12 @@ Kehittäjien tehtävänä on abstrahoida L1:n ja L2:n monimutkaisuus käyttäjil
 - Mahdolliset ratkaisut**: (joka mahdollistaa varojen lisäämisen tai poistamisen kanavasta sulkematta sitä) ja automaattisia kanavien hallintatyökaluja.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **L1 (Layer 1)**: Bitcoin: Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, joka toimii Bitcoin:n päällä ja mahdollistaa nopeammat ja halvemmat maksutapahtumat.
-> - **Splicing**: Tekniikka, joka mahdollistaa salamakanavan tasapainon muuttamisen sulkematta sitä.
+
+- **L1 (Layer 1)**: Bitcoin: Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, joka toimii Bitcoin:n päällä ja mahdollistaa nopeammat ja halvemmat maksutapahtumat.
+- **Splicing**: Tekniikka, joka mahdollistaa salamakanavan tasapainon muuttamisen sulkematta sitä.
 
 ---
 
@@ -3163,11 +3163,11 @@ Kehittäjät tutkivat tapoja, joilla käyttäjät voivat vastaanottaa Lightning-
 - Mahdolliset ratkaisut**: Tutkimukset **offline-maksusetelistä**, joiden avulla vastaanottajat voisivat hakea maksuja, kun he ovat jälleen yhteydessä verkkoon, ovat käynnissä.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **Offline-maksut**: Maksut, jotka lähetetään tai vastaanotetaan, kun toinen osapuoli ei ole yhteydessä Lightning Network:een.
-> - **Huoltajan lompakot**: Lompakot, joissa kolmas osapuoli hallitsee yksityisiä avaimia ja hoitaa transaktioita käyttäjän puolesta.
+
+- **Offline-maksut**: Maksut, jotka lähetetään tai vastaanotetaan, kun toinen osapuoli ei ole yhteydessä Lightning Network:een.
+- **Huoltajan lompakot**: Lompakot, joissa kolmas osapuoli hallitsee yksityisiä avaimia ja hoitaa transaktioita käyttäjän puolesta.
 
 ---
 
@@ -3196,10 +3196,10 @@ Kehittäjien on otettava käyttöön varmuuskopiointiratkaisuja, joiden avulla k
 - Mahdolliset ratkaisut**: **mutta täysin automatisoituja ja turvallisia varmuuskopioita varten tarvitaan kehittyneempiä ratkaisuja.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **Static Channel Backup (SCB)**: Varmuuskopiointityyppi, jonka avulla käyttäjät voivat palauttaa varojaan salamakanavalta vikatilanteessa palauttamalla kanavan viimeisimmän tilan.
+
+- **Static Channel Backup (SCB)**: Varmuuskopiointityyppi, jonka avulla käyttäjät voivat palauttaa varojaan salamakanavalta vikatilanteessa palauttamalla kanavan viimeisimmän tilan.
 
 ---
 
@@ -3293,7 +3293,7 @@ blinded-reitit on suunniteltu parantamaan vastaanottimen yksityisyyttä Lightnin
 
 **Salamapalveluntarjoajat (LSP) **
 
-Breeze Wallet:n ideoimien Lightning-palveluntarjoajien (LSP) tavoitteena on parantaa käyttäjäkokemusta mahdollistamalla välittömät vastaanottotoiminnot. LSP:t avaavat käyttäjille kanavia samaan tapaan kuin internet-palveluntarjoajat tarjoavat yhteyspalveluja. Tämä innovaatio yksinkertaistaa käyttäjän käyttöönottoprosessia ja varmistaa saumattoman vuorovaikutuksen Lightning Network:lla.
+Breez Wallet:n ideoimien Lightning-palveluntarjoajien (LSP) tavoitteena on parantaa käyttäjäkokemusta mahdollistamalla välittömät vastaanottotoiminnot. LSP:t avaavat käyttäjille kanavia samaan tapaan kuin internet-palveluntarjoajat tarjoavat yhteyspalveluja. Tämä innovaatio yksinkertaistaa käyttäjän käyttöönottoprosessia ja varmistaa saumattoman vuorovaikutuksen Lightning Network:lla.
 
 
 **Lähteet, joiden avulla pysyt ajan tasalla**
@@ -3342,12 +3342,12 @@ Perinteisillä laskuilla on kuitenkin rajoituksensa. Esimerkiksi:
 - Kokorajoitukset**: Suuria laskuja voi olla vaikea käsitellä QR-koodin muodossa, mikä tekee niistä epäkäytännöllisiä tietyissä sovelluksissa.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **Invoice**: Lightning Network:n maksupyyntö, joka sisältää yleensä summan ja vastaanottajan tiedot.
-> - **HTLC (Hash aikalukittu Contract)**: Smart contract-tyyppi, jota käytetään varmistamaan ehdolliset maksut määräajassa.
-> - **Sipulireititys**: Sipulireititys: Tietosuojaustekniikka, jossa transaktiotiedot kerrostetaan sipulin tavoin lähettäjän ja vastaanottajan henkilöllisyyden suojaamiseksi.
+
+- **Invoice**: Lightning Network:n maksupyyntö, joka sisältää yleensä summan ja vastaanottajan tiedot.
+- **HTLC (Hash aikalukittu Contract)**: Smart contract-tyyppi, jota käytetään varmistamaan ehdolliset maksut määräajassa.
+- **Sipulireititys**: Sipulireititys: Tietosuojaustekniikka, jossa transaktiotiedot kerrostetaan sipulin tavoin lähettäjän ja vastaanottajan henkilöllisyyden suojaamiseksi.
 
 ### Protokollat ja käyttötapaukset
 
@@ -3374,15 +3374,15 @@ Toinen protokolla, **RGB**, laajentaa Lightningin toimintoja entisestään mahdo
 *myös *Lightning Liquidity Service Providers (LSP)** ovat ratkaisevassa asemassa Lightning-maksujen laajentamisessa. LSP:t tarjoavat likviditeettiä maksujen vastaanottamiseen, auttavat avaamaan **kaksinkertaisesti rahoitettuja kanavia** ja varmistavat saumattomat transaktiot pysäyttämällä maksut ja avaamalla kanavia lennossa.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **LNURL**: Protokolla, joka mahdollistaa dynaamisen Invoice:n luomisen ja tekee maksamisesta helpompaa ja joustavampaa.
-> - **Bolt 12**: Lightningin laajennus, joka hyödyntää Onion-viestintää yksityisyyden suojaamiseksi ja automatisoi Invoice noutoa.
-> - **Nostr**: Hajautettu alusta, joka integroi LProtokollat ja käyttötapaukset
-> ightning-maksut mikrotransaktioista.
-> - **RGB-protokolla**: Protokolla, joka mahdollistaa varojen, kuten polettien, siirron Lightning Network:n kautta.
-> - **LSP (Lightning Service Provider)**: Yhteisö, joka tarjoaa likviditeettiä ja avaa kanavia Lightning-tapahtumille, jolloin verkko on paremmin käyttäjien käytettävissä.
+
+- **LNURL**: Protokolla, joka mahdollistaa dynaamisen Invoice:n luomisen ja tekee maksamisesta helpompaa ja joustavampaa.
+- **Bolt 12**: Lightningin laajennus, joka hyödyntää Onion-viestintää yksityisyyden suojaamiseksi ja automatisoi Invoice noutoa.
+- **Nostr**: Hajautettu alusta, joka integroi LProtokollat ja käyttötapaukset
+- Lightning-maksut mikrotransaktioista.
+- **RGB-protokolla**: Protokolla, joka mahdollistaa varojen, kuten polettien, siirron Lightning Network:n kautta.
+- **LSP (Lightning Service Provider)**: Yhteisö, joka tarjoaa likviditeettiä ja avaa kanavia Lightning-tapahtumille, jolloin verkko on paremmin käyttäjien käytettävissä.
 
 ### Liiketoimintamallit ja kehittyneet protokollat
 
@@ -3405,12 +3405,12 @@ Edistyneet protokollat, kuten **Point Time-Locked Contracts (PTLCs)**, vievät L
 Protokollat, kuten **LNURL** ja **Bolt 12**, virtaviivaistavat maksuja vähentämällä manuaalista vuorovaikutusta ja varmistavat, että Lightning Network on käyttäjäystävällisempi ja laajemmin käytössä.
 
 
-> **Määritelmät**:
->
+**Määritelmät:**
 
-> - **PTLC (Point Time-Locked Contract)**: Salausmenetelmä, joka parantaa HTLC:tä ja mahdollistaa joustavammat ja turvallisemmat maksut.
-> - **Esi-kuva**: Arvo, jota käytetään HTLC:n lukituksen avaamiseen ja joka voi toimia myös palveluiden pääsyavaimena.
-> - **Huutokauppamalli**: Maksumalli, jossa maksuja odotetaan huutokaupan aikana ja ne vapautetaan vasta, kun korkein tarjous on hyväksytty.
+
+- **PTLC (Point Time-Locked Contract)**: Salausmenetelmä, joka parantaa HTLC:tä ja mahdollistaa joustavammat ja turvallisemmat maksut.
+- **Esi-kuva**: Arvo, jota käytetään HTLC:n lukituksen avaamiseen ja joka voi toimia myös palveluiden pääsyavaimena.
+- **Huutokauppamalli**: Maksumalli, jossa maksuja odotetaan huutokaupan aikana ja ne vapautetaan vasta, kun korkein tarjous on hyväksytty.
 
 ### Päätelmä
 

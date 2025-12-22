@@ -6,7 +6,7 @@ description: Konfigurieren eines Ledgers ohne Ledger Live-Software
 
 Wenn Sie einen Ledger verwenden, haben Sie wahrscheinlich festgestellt, dass Sie zumindest für die anfängliche Konfiguration des Geräts die Software Ledger Live verwenden müssen, um seine Authentizität zu überprüfen und die Bitcoin-Anwendung darauf zu installieren. Nach dieser Konfiguration ziehen es jedoch viele Bitcoiner vor, spezialisierte Bitcoin-Wallet-Verwaltungssoftware wie Sparrow oder Liana zu verwenden, anstatt Ledger Live. Obwohl Ledger hervorragende Hardware-Wallets herstellt, die schnell die neuesten Bitcoin-Funktionen enthalten, ist ihre Software nicht unbedingt an die spezifischen Bedürfnisse von Bitcoinern angepasst. Tatsächlich enthält Ledger Live viele Funktionen, die für Altcoins entwickelt wurden, während die Optionen für die Verwaltung von Bitcoin-Wallets begrenzt sind. Aber das Problem mit Sparrow und Liana ist (im Moment), dass sie Ihnen nicht erlauben, die Bitcoin-Anwendung auf dem Ledger zu installieren.
 
-Um die Notwendigkeit zu umgehen, Ledger Live während der Erstkonfiguration Ihres Ledgers zu verwenden, können Sie das Bacca-Tool (oder "Ledger Installer") nutzen. Diese Software ermöglicht es Ihnen, die Bitcoin-Anwendung zu installieren und zu aktualisieren, die Echtheit Ihres Ledgers zu überprüfen und sogar später die Firmware des Geräts zu aktualisieren. Bacca wurde von Antoine Poinsot (Darosior), Bitcoin Core Entwickler bei Chaincode Labs, Mitbegründer [von Revault und Liana] (https://wizardsardine.com/) und Pythcoiner, entwickelt.
+Um die Notwendigkeit zu umgehen, Ledger Live während der Erstkonfiguration Ihres Ledgers zu verwenden, können Sie das Bacca-Tool (oder "Ledger Installer") nutzen. Diese Software ermöglicht es Ihnen, die Bitcoin-Anwendung zu installieren und zu aktualisieren, die Echtheit Ihres Ledgers zu überprüfen und sogar später die Firmware des Geräts zu aktualisieren. Bacca wurde von Antoine Poinsot (Darosior), Bitcoin Core Entwickler bei Chaincode Labs, Mitbegründer [von Revault und Liana](https://wizardsardine.com/) und Pythcoiner, entwickelt.
 
 In diesem Tutorial zeige ich Ihnen, wie Sie dieses Tool verwenden können, damit Sie auf die Ledger Live-Software verzichten und trotzdem Ledger-Geräte nutzen können. Es funktioniert auf allen Geräten: Nano S Classic, Nano S Plus, Nano X, Flex und Stax.
 
@@ -46,11 +46,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 **Windows:**
 
-Um Git zu installieren, besuchen Sie [die offizielle Website des Projekts] (https://git-scm.com/). Laden Sie die Software herunter und folgen Sie den Installationsanweisungen.
+Um Git zu installieren, besuchen Sie [die offizielle Website des Projekts](https://git-scm.com/). Laden Sie die Software herunter und folgen Sie den Installationsanweisungen.
 
 ![BACCA](assets/fr/01.webp)
 
-Gehen Sie auf die gleiche Weise vor, um Rust von [der offiziellen Website] (https://www.rust-lang.org/tools/install) zu installieren.
+Gehen Sie auf die gleiche Weise vor, um Rust von [der offiziellen Website](https://www.rust-lang.org/tools/install) zu installieren.
 
 ![BACCA](assets/fr/02.webp)
 

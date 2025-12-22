@@ -6,3 +6,4 @@ wrong_answers:
   - Diensten van derden krijgen de mogelijkheid om nieuwe bitcoins te creëren buiten het normale uitgifteschema om
 explanation: |
   Wanneer gebruikers niet hun eigen volledige nodes beheren, besteden ze hun macht om de regels van Bitcoin af te dwingen uit aan anderen. Dit verzwakt de decentralisatie van Bitcoin, omdat minder onafhankelijke partijen transacties en blokken valideren. Zoals David Harding uitlegt, creëert dit een situatie waarin een klein aantal miners en serviceproviders mogelijk de regels van Bitcoin kunnen veranderen voor niet-validerende gebruikers, terwijl deze gebruikers niet in staat zijn om transacties te doen met mensen die volledige validatieknooppunten draaien die deze regelwijzigingen afwijzen.
+reviewed: false

@@ -2,15 +2,10 @@
 name: Una mwelekeo gani kisiasa?
 goal: Elewa ugumu wa wigo wa kisiasa wa kisasa ili kutambua mwelekeo wako mwenyewe na kuweka familia kuu za kiitikadi zaidi ya mgawanyiko wa kushoto-kulia.
 objectives: 
-
-
   - Kuelewa kwamba aina ya kisiasa ina maelezo zaidi kuliko mhimili rahisi wa kushoto/kulia
-  - Tambua vipimo viwili vikuu vinavyounda wigo wa kisiasa: mada za kiuchumi na mada za kijamii
-  - Taja familia nne kuu za kisiasa: Waliberali, Wasoshalisti, Wahafidhina, Wakomunisti wa Kati
+  - Tambua vipimo viwili vikuu vinavyounda wigo wa kisiasa
+  - Taja familia nne kuu za kisiasa
   - Kuchunguza nafasi ya wafanyabiashara wa bitcoin katika wigo wa kisiasa
-
-
-
 ---
 
 Je, msimamo wako wa kisiasa unaanzia kulia au kushoto? Kozi hii inatoa mbinu ya mapinduzi ya kuelewa wigo wa kisiasa kupitia mhimili wa msingi wa Uhuru na Ushuru. Kwa kutumia Mchoro wa Nolan, tunachambua familia za kisiasa - wasoshalisti, wahafidhina, wa katikati na waliberali - si kulingana na nia zao zilizotajwa, bali kulingana na kiwango chao cha kujiamini katika udhibiti wa serikali. Gundua mantiki ya mpangilio wa hiari, chunguza masuala halisi ya kifalsafa (ubinafsi dhidi ya ujumuishaji) na ujifunze kufafanua maadili yako mwenyewe bila kuanguka katika mitego ya lebo za kitamaduni.

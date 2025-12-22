@@ -165,7 +165,7 @@ Tässä osassa tarkastelemme Nmap-verkon skannaustyökalun tärkeimpiä käyttö
 
 
 
-Nmapia voidaan käyttää verkon diagnostiikkaan ja laajemmin valvontaan. Samalla tavalla kuin ping-mittauksen avulla voidaan määrittää, ovatko kaksi isäntäkohtaa yhteydessä toisiinsa, Nmapin avulla voidaan nopeasti määrittää, onko jokin isäntä aktiivinen tai onko jokin tietty palvelu toiminnassa. [Nmapin] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") avulla voidaan saada tarkkoja tietoja isännän vasteajasta, pakettien kulkemasta reitistä, tietyn palvelun antamasta vastauksesta jne.
+Nmapia voidaan käyttää verkon diagnostiikkaan ja laajemmin valvontaan. Samalla tavalla kuin ping-mittauksen avulla voidaan määrittää, ovatko kaksi isäntäkohtaa yhteydessä toisiinsa, Nmapin avulla voidaan nopeasti määrittää, onko jokin isäntä aktiivinen tai onko jokin tietty palvelu toiminnassa. [Nmapin](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") avulla voidaan saada tarkkoja tietoja isännän vasteajasta, pakettien kulkemasta reitistä, tietyn palvelun antamasta vastauksesta jne.
 
 
 
@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Vastaus osoittaa selvästi, että paketti "nmap" on olemassa arkistoissa (tässä tapauksessa Kali [Linuxin] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Tästä eteenpäin voit asentaa Nmapin tavallisilla asennuskomennoilla, ei mitään aseistariisuvaa toistaiseksi 🙂:
+Vastaus osoittaa selvästi, että paketti "nmap" on olemassa arkistoissa (tässä tapauksessa Kali [Linuxin](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Tästä eteenpäin voit asentaa Nmapin tavallisilla asennuskomennoilla, ei mitään aseistariisuvaa toistaiseksi 🙂:
 
 
 
@@ -901,7 +901,7 @@ uDP-pakettien lähetys ja ICMP-vastaanotto (portti ei tavoitettavissa) Nmap-skan
 
 
 
-Yllä olevasta kuvakaappauksesta näemme, että Nmap lähettää suuren määrän UDP-paketteja ja vastaanottaa suurimmalle osalle niistä ICMP-paketin "Destination unreachable (Port unreachable)". Tämä on normaalia, sillä se on [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määrittelemä asianmukainen vastaus, kun UDP-portti on saavuttamaton:
+Yllä olevasta kuvakaappauksesta näemme, että Nmap lähettää suuren määrän UDP-paketteja ja vastaanottaa suurimmalle osalle niistä ICMP-paketin "Destination unreachable (Port unreachable)". Tämä on normaalia, sillä se on [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määrittelemä asianmukainen vastaus, kun UDP-portti on saavuttamaton:
 
 
 

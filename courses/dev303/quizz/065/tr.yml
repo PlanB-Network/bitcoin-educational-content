@@ -1,7 +1,7 @@
-question: 'Hızlı hareket et ve bir şeyleri kır' felsefesi, geleneksel yazılım geliştirmeye kıyasla Bitcoin geliştirme için neden özellikle uygun değildir?
-answer: Bitcoin işlemleri geri döndürülemez ve hatalardan kaynaklanan fonları geri alacak merkezi bir otorite yoktur
+question: "'Hızlı hareket et ve bir şeyleri kır' felsefesi, geleneksel yazılım geliştirmeye kıyasla Bitcoin geliştirme için neden özellikle uygun değildir?"
+answer: "Bitcoin işlemleri geri döndürülemez ve hatalardan kaynaklanan fonları geri alacak merkezi bir otorite yoktur"
 wrong_answers:
-  - Bitcoin geliştirme, geleneksel web uygulamalarına göre daha hızlı yineleme döngüleri gerektirir
+  - "Bitcoin geliştirme, geleneksel web uygulamalarına göre daha hızlı yineleme döngüleri gerektirir"
   - "Rust'ün derleyicisi blok zinciri inovasyonu için gereken hızlı prototiplemeyi engelliyor"
   - "Bitcoin'ün açık kaynak yapısı, dağıtımdan sonra hataların düzeltilmesini zorlaştırıyor"
 explanation: |

@@ -1855,7 +1855,7 @@ Bijvoorbeeld, voor een entropie van 256 bits is het resultaat ${ENT} \264 bits e
 ### Conversie van de binaire sequentie in een Mnemonic zin
 
 
-De bitreeks ${ENT} \wordt dan verdeeld in segmenten van 11 bits. Elk 11-bits segment komt, na omzetting naar decimaal, overeen met een getal tussen 0 en 2047, dat de positie van een woord aangeeft [in een lijst van 2048 woorden gestandaardiseerd door BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+De bitreeks ${ENT} \wordt dan verdeeld in segmenten van 11 bits. Elk 11-bits segment komt, na omzetting naar decimaal, overeen met een getal tussen 0 en 2047, dat de positie van een woord aangeeft [in een lijst van 2048 woorden gestandaardiseerd door BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

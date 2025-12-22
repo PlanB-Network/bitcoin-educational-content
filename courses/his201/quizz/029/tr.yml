@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin Sybil saldırılarına karşı savunmasızdır
   - Bitcoin deflasyonisttir
 explanation: |
-  Elektrik tükettiği ve karbondioksit (bir sera gazı) ürettiği için Bitcoin'i [eleştirdi] (https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html).
+  Elektrik tükettiği ve karbondioksit (bir sera gazı) ürettiği için Bitcoin'i [eleştirdi](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html).
 reviewed: true

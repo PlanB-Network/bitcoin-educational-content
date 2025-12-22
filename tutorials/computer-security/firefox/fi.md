@@ -615,8 +615,8 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Enhanced Tracking Protection] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Virallinen opas parannettuun jäljityssuojaukseen
-- [State Partitioning] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tekninen dokumentaatio tilojen jakamisesta
+- [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Virallinen opas parannettuun jäljityssuojaukseen
+- [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tekninen dokumentaatio tilojen jakamisesta
 - [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Täydellinen referenssi verkkoturvallisuudesta
 
 

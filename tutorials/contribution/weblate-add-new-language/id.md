@@ -10,7 +10,7 @@ Situs web kami saat ini menyediakan berbagai bahasa, dan kami terus berupaya unt
 
 Jika bahasa ibu Anda belum tersedia di situs web kami dan Anda ingin menambahkannya, tutorial ini cocok untuk Anda!
 
-Pertama, pastikan Anda menghubungi tim Plan ₿ Academy melalui [grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki Telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
+Pertama, pastikan Anda menghubungi tim Plan ₿ Academy melalui [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder). Jika Anda tidak memiliki Telegram, Anda dapat mengirim email ke mari@planb.network. Pastikan untuk menulis presentasi singkat tentang siapa Anda dan bahasa yang Anda kuasai.
 
 ## Memeriksa apakah suatu Bahasa ada di Weblate
 
@@ -45,7 +45,7 @@ Jika bahasa Anda tidak ada, ikuti tutorial di bawah ini untuk menambahkannya.
 ![language](assets/04.webp)
 
 
-- Buka daftar pilihan dan pilih bahasa yang ingin Anda tambahkan. Jika bahasa yang Anda cari tidak tersedia dalam daftar dropdown, Anda dapat menghubungi [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) agar tim kami dapat membuatnya secara manual:
+- Buka daftar pilihan dan pilih bahasa yang ingin Anda tambahkan. Jika bahasa yang Anda cari tidak tersedia dalam daftar dropdown, Anda dapat menghubungi [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) agar tim kami dapat membuatnya secara manual:
 
 ![language](assets/05.webp)
 

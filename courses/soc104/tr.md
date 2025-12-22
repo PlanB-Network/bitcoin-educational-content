@@ -2,14 +2,10 @@
 name: Siyasi eğilimin nedir?
 goal: Kendi eğiliminizi belirlemek ve sol-sağ ayrımının ötesindeki başlıca ideolojik aileleri konumlandırmak için modern siyasi yelpazenin karmaşıklığını anlayın.
 objectives: 
-
-
   - Siyasi tipolojinin basit bir sol/sağ ekseninden daha nüanslı olduğunun anlaşılması
-  - Siyasi yelpazeyi yapılandıran iki ana boyutu tanımlamak: ekonomik temalar ve toplumsal temalar
-  - Dört ana siyasi aileyi karakterize ediniz: Liberteryenler, Sosyalistler, Muhafazakarlar, Merkezciler
+  - Siyasi yelpazeyi yapılandıran iki ana boyutu tanımlamak
+  - Dört ana siyasi aileyi karakterize ediniz
   - Bitcoin kullanıcılarının siyasi yelpazedeki konumlarının araştırılması
-
-
 
 ---
 

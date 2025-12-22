@@ -2,14 +2,10 @@
 name: Jakie są twoje poglądy polityczne?
 goal: Zrozumienie złożoności współczesnego spektrum politycznego w celu zidentyfikowania własnych tendencji i umiejscowienia głównych rodzin ideologicznych poza podziałem lewica-prawica.
 objectives: 
-
-
   - Zrozumienie, że typologia polityczna jest bardziej zniuansowana niż prosta oś lewica/prawica
-  - Zidentyfikuj dwa główne wymiary, które tworzą spektrum polityczne: tematy ekonomiczne i społeczne
-  - Scharakteryzuj cztery główne rodziny polityczne: Libertarianie, Socjaliści, Konserwatyści, Centryści
+  - Zidentyfikuj dwa główne wymiary, które tworzą spektrum polityczne
+  - Scharakteryzuj cztery główne rodziny polityczne
   - Badanie pozycji bitcoinerów w spektrum politycznym
-
-
 
 ---
 

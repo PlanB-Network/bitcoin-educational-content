@@ -2,11 +2,9 @@
 name: Qual è la sua inclinazione politica?
 goal: Comprendere la complessità dello spettro politico moderno per identificare la propria tendenza e collocare le principali famiglie ideologiche al di là della divisione sinistra-destra.
 objectives: 
-
-
   - Comprendere che la tipologia politica è più sfumata di un semplice asse destra/sinistra
-  - Identificare le due dimensioni principali che strutturano lo spettro politico: temi economici e temi sociali
-  - Caratterizzare le quattro principali famiglie politiche: Libertari, Socialisti, Conservatori, Centristi
+  - Identificare le due dimensioni principali che strutturano lo spettro politico
+  - Caratterizzare le quattro principali famiglie politiche
   - Esplorare il posizionamento dei bitcoiners nello spettro politico
 
 

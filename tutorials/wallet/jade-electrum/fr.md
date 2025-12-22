@@ -7,7 +7,7 @@ description: Comment utiliser votre Jade ou Jade Plus avec Electrum (bureau)
 
 
 
-ce guide est extrait d'une [leçon des ateliers Bitcoin] (https://officinebitcoin.it/lezioni/jadeele/index.html)
+ce guide est extrait d'une [leçon des ateliers Bitcoin](https://officinebitcoin.it/lezioni/jadeele/index.html)
 
 
 

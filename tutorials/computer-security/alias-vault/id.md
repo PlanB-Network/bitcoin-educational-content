@@ -433,7 +433,7 @@ Karena Alias Vault masih dalam tahap _Beta_, Anda mungkin akan mengalami kesulit
 
 
 
-Untuk pemahaman yang lengkap mengenai arsitektur dan keamanan yang diadopsi oleh Alias Vault, saya sangat menyarankan Anda untuk membaca [halaman ini] (https://docs.aliasvault.net/architecture/), yang berisi rincian kriptografi yang mendasari operasinya.
+Untuk pemahaman yang lengkap mengenai arsitektur dan keamanan yang diadopsi oleh Alias Vault, saya sangat menyarankan Anda untuk membaca [halaman ini](https://docs.aliasvault.net/architecture/), yang berisi rincian kriptografi yang mendasari operasinya.
 
 
 

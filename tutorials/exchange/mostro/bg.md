@@ -950,7 +950,7 @@ Mostro P2P представлява обещаваща алтернатива н
 
 
 
-- [Официален уебсайт на Mostro] (https://mostro.network)
+- [Официален уебсайт на Mostro](https://mostro.network)
 - [Техническа документация](https://mostro.network/docs-english/index.html)
 - [Фондация Mostro](https://mostro.foundation)
 

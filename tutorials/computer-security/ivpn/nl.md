@@ -65,9 +65,9 @@ En voor het Pro-plan:
 
 ## Hoe installeer ik IVPN op een computer?
 
-Download [de nieuwste versie van de software] (https://www.ivpn.net/en/apps-windows/) voor uw besturingssysteem en ga dan verder met de installatie door de stappen in de installatiewizard te volgen. iVPN](assets/notext/02.webp)
+Download [de nieuwste versie van de software](https://www.ivpn.net/en/apps-windows/) voor uw besturingssysteem en ga dan verder met de installatie door de stappen in de installatiewizard te volgen. iVPN](assets/notext/02.webp)
 
-Linux-gebruikers moeten de specifieke instructies voor hun distributie raadplegen die beschikbaar zijn op [deze pagina] (https://www.ivpn.net/en/apps-linux/).
+Linux-gebruikers moeten de specifieke instructies voor hun distributie raadplegen die beschikbaar zijn op [deze pagina](https://www.ivpn.net/en/apps-linux/).
 
 ![IVPN](assets/notext/03.webp)
 

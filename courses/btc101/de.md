@@ -83,7 +83,6 @@ Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
-**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 ## Die Vorgeschichte von Bitcoin
 
@@ -206,7 +205,7 @@ Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in v
 
 Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
 
-Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung](https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
+Andererseits eröffnet Bitcoin neue Perspektiven. Seine Eigenschaften, insbesondere ein strikt begrenztes Angebot, machen ihn zu einem hervorragenden Wertspeicher. Zudem stellt er als neutrale Internetwährung ein tragfähiges **Tauschmittel** dar, das Grenzen überwinden kann. Dennoch ist er trotz einer kontinuierlichen Adoption (wie die [BTCmap-Karte](https://btcmap.org/map) zeigt) im Handel bislang noch nicht weit verbreitet akzeptiert.
 
 ## Fiat-Währungen
 

@@ -47,7 +47,7 @@ Este tutorial centra-se principalmente na interface, que será a mesma independe
 
 ![ALBY HUB](assets/fr/02.webp)
 
-Para a instalação local no seu PC, [descarregue e instale o software de acordo com o seu sistema operativo] (https://github.com/getAlby/hub/releases), depois siga as mesmas instruções na interface.
+Para a instalação local no seu PC, [descarregue e instale o software de acordo com o seu sistema operativo](https://github.com/getAlby/hub/releases), depois siga as mesmas instruções na interface.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ Para a instalação local no seu PC, [descarregue e instale o software de acordo
 
 O primeiro passo é criar uma conta Alby. Embora esta não seja essencial para utilizar o Alby Hub, permite-lhe tirar o máximo partido das opções disponíveis, incluindo a possibilidade de obter um endereço Lightning.
 
-Aceder ao [sítio Web oficial da Alby] (https://getalby.com/) e clicar no botão "*Criar conta*".
+Aceder ao [sítio Web oficial da Alby](https://getalby.com/) e clicar no botão "*Criar conta*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -276,7 +276,7 @@ Para instalar o Alby Go, aceda à loja de aplicações do seu dispositivo:
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Os utilizadores do Android também podem instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Alby] (https://github.com/getAlby/go/releases).
+Os utilizadores do Android também podem instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Alby](https://github.com/getAlby/go/releases).
 
 ![ALBY HUB](assets/fr/45.webp)
 

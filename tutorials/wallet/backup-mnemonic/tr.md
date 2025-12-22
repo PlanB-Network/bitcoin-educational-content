@@ -62,7 +62,7 @@ Kurtarma cümlenizi kaydetmek için, kağıt veya metal gibi fiziksel bir ortama
 İfadenizi basit bir kağıda yazmak zaten iyi bir uygulama olsa da, paslanmaz çelik gibi metal bir tutucu tercih etmek daha fazla güvenlik sağlar. Bu tür bir tutucu, Mnemonic ifadenizi, saklama yerini etkileyebilecek yangın, sel veya çökme risklerinden korur.
 
 
-İfadelerini metal üzerinde desteklemek için ekonomik bir seçenek arayanlar için [*SAFU Ninja'nın* DIY yöntemi] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) mükemmel bir çözümdür. Tek yapmanız gereken mağazalardan metal pullar, bir vida ve bir somun satın almak. Daha sonra her bir pulun üzerine cümlenizin kelimelerini kazıyarak numaralandırmak ve bunları somunla birlikte vidaya monte etmek. Bu düşük maliyetli yöntem zaten iyi bir direnç sunuyor.
+İfadelerini metal üzerinde desteklemek için ekonomik bir seçenek arayanlar için [*SAFU Ninja'nın* DIY yöntemi](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) mükemmel bir çözümdür. Tek yapmanız gereken mağazalardan metal pullar, bir vida ve bir somun satın almak. Daha sonra her bir pulun üzerine cümlenizin kelimelerini kazıyarak numaralandırmak ve bunları somunla birlikte vidaya monte etmek. Bu düşük maliyetli yöntem zaten iyi bir direnç sunuyor.
 
 
 ![SEED](assets/fr/01.webp)
@@ -71,7 +71,7 @@ Kurtarma cümlenizi kaydetmek için, kağıt veya metal gibi fiziksel bir ortama
 Resim kredisi: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Komple bir metal yedekleme cihazına yatırım yapmayı tercih ediyorsanız, piyasada bulunan çözümlerin çoğunu değerlendiren [Jameson Lopp'un direnç testlerine] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/) göz atmanızı tavsiye ederim. Gravür, damgalama veya delme için metal plaka gibi tek parça destekleri tercih etmenizi tavsiye ederim. Bu cihazlar genellikle monte edilecek bağımsız harfler kullanan sistemlerden çok daha fazla direnç sunar.
+Komple bir metal yedekleme cihazına yatırım yapmayı tercih ediyorsanız, piyasada bulunan çözümlerin çoğunu değerlendiren [Jameson Lopp'un direnç testlerine](https://jlopp.github.io/metal-Bitcoin-storage-reviews/) göz atmanızı tavsiye ederim. Gravür, damgalama veya delme için metal plaka gibi tek parça destekleri tercih etmenizi tavsiye ederim. Bu cihazlar genellikle monte edilecek bağımsız harfler kullanan sistemlerden çok daha fazla direnç sunar.
 
 
 Kağıt Wallet'yi tercih ederseniz, birkaç seçeneğiniz vardır: basit bir boş kağıt, genellikle Hardware Wallet'unuzla birlikte verilen karton Wallet veya [buraya tıklayarak] yazdırabileceğiniz indirilebilir şablonumuz (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).

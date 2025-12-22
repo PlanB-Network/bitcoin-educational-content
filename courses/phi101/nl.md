@@ -324,7 +324,7 @@ Er bestaat echter een ander perspectief op geschiedenis. Het is behoorlijk succe
 Het verklaart de buitengewone groei van Europa voornamelijk door de vooruitgang van de technologie in combinatie met de "primitieve accumulatie" van kapitaal, voortkomend uit imperialisme, slavernij, de driehoekshandel, de onteigening van kleine boeren en de uitbuiting van de arbeidersklasse. De conclusie is duidelijk. Deze uitzonderlijke Europese groei werd bereikt ten koste van miljoenen en miljoenen slaven en onderdrukte individuen.
 
 
-In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [Communistisch Manifesto_] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
+In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [Communistisch Manifesto_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
 
 
 > Het is niet aan mij om klassen en klassenstrijd in de moderne samenleving te ontdekken. Lang voor mij hadden burgerlijke historici de historische ontwikkeling van deze klassenstrijd beschreven en burgerlijke economen de economische anatomie van klassen.
@@ -1988,7 +1988,7 @@ Ludwig von Mises benadrukt dat Marx er niet in slaagde om een onderscheid te mak
 In _The Ethics of Liberty_ en _Anatomy of the State_, legde Murray Rothbard uit dat uitbuiting alleen zin heeft als agressie tegen privé-eigendom en dat alleen de staat zijn inkomsten verkrijgt door middel van agressie, dat wil zeggen door belasting te heffen, schulden te maken, geld bij te drukken en dus door inflatie. In werkelijkheid is staatsinterventie, en niet klassenstrijd, de bron van geweld en conflicten in de samenleving. Door zich middelen toe te eigenen en de economie te reguleren creëert de staat verstoringen en onrechtvaardigheden die leiden tot conflicten en onderdrukking. Het beëindigen van uitbuiting vereist dus het verminderen van de macht van de roofzuchtige kaste: de staat.
 
 
-Zie hierover ook: _Marxistische en Oostenrijkse klassenanalyse_, Hans Hermann Hoppe, Tijdschrift voor Libertarische Studies, Vol IX No. 2, Herfst 1990. [Vertaling door François Guillaumat] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Opgenomen als hoofdstuk 4 van _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+Zie hierover ook: _Marxistische en Oostenrijkse klassenanalyse_, Hans Hermann Hoppe, Tijdschrift voor Libertarische Studies, Vol IX No. 2, Herfst 1990. [Vertaling door François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Opgenomen als hoofdstuk 4 van _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
 
 ### Polylogisme

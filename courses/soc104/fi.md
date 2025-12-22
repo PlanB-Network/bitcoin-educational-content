@@ -2,11 +2,9 @@
 name: Mikä on poliittinen suuntautumisesi?
 goal: Ymmärtää nykyaikaisen poliittisen kirjon monimutkaisuutta, jotta voit tunnistaa oman suuntauksesi ja sijoittaa suuret ideologiset perheet vasemmisto-oikeisto-jaon ulkopuolelle.
 objectives: 
-
-
   - Ymmärrys siitä, että poliittinen typologia on vivahteikkaampaa kuin pelkkä vasemmisto/oikeisto -akseli
-  - Tunnistetaan kaksi pääulottuvuutta, jotka jäsentävät poliittista kirjoa: taloudelliset teemat ja yhteiskunnalliset teemat
-  - Luonnehtikaa neljää tärkeintä poliittista perhettä: Libertaristit, sosialistit, konservatiivit ja keskustalaiset
+  - Tunnistetaan kaksi pääulottuvuutta, jotka jäsentävät poliittista kirjoa
+  - Luonnehtikaa neljää tärkeintä poliittista perhettä
   - Tutkitaan bitcoin-asiakkaiden sijoittumista poliittiseen spektriin
 
 

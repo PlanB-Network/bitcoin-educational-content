@@ -43,7 +43,7 @@ https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43c
 
 
 
-Det første du må gjøre på [banxaas] (https://banxaas.com), er å definere retningen til Exchange:
+Det første du må gjøre på [banxaas](https://banxaas.com), er å definere retningen til Exchange:
 
 
 
@@ -173,8 +173,8 @@ Banxaas-teamet står til din disposisjon for å hjelpe deg med eventuelle proble
 
 
 - [X](https://x.com/banxaas_sn)
-- [Telegram] (https://t.me/banxaas_app)
-- [Whatsapp] (https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
+- [Telegram](https://t.me/banxaas_app)
+- [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
 - [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
 
 

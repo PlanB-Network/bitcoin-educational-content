@@ -105,7 +105,7 @@ Hårdvaruplånböcker medför dock sina egna hot. Du måste lita på att tillver
 
 
 
-- Entropi och seed-fraser:** Din wallet är bara lika säker som den slumpmässighet som föder den. Vi kommer att blanda enhetens slumptalsgenerator med människovänliga knep som tärningskast, konvertera entropin till en 12- eller 24-ords [BIP39-fras] (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) och lämna rummet med en skriftlig eller metallisk backup som du litar på.
+- Entropi och seed-fraser:** Din wallet är bara lika säker som den slumpmässighet som föder den. Vi kommer att blanda enhetens slumptalsgenerator med människovänliga knep som tärningskast, konvertera entropin till en 12- eller 24-ords [BIP39-fras](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) och lämna rummet med en skriftlig eller metallisk backup som du litar på.
 - Fröfrashygien:** Behandla seed som huvudnycklar till dina besparingar. Skriv aldrig in orden i en telefon eller dator - keyloggers, skärmdumpar och molnbackuper kan läcka dem för alltid. Håll frasen offline, förvara den på en plats som bara du har tillgång till och öva på att läsa upp den högt innan du åker.
 - Secure element + microcontroller:** Tänk på secure element som valvet och microcontrollern som hjärnan. secure element skyddar privata nycklar med manipuleringsskydd, medan mikrokontrollern hanterar skärmen, knapparna och logiken i den inbyggda programvaran. Observera att de hårdvaruplånböcker som vi bygger idag inte har någon secure element. Det betyder inte att den är osäker, bara att den har en skyddsnivå mindre.
 - Lita på firmware:** Firmware är det osynliga operativsystemet i wallet. Ladda alltid ner från taggade utgåvor, kontrollera den publicerade hashen och förstå att reproducerbara builds låter flera personer kompilera samma kod och komma fram till exakt samma binärfil. Om kontrollsumman inte matchar signerar du inte.
@@ -116,7 +116,7 @@ Hårdvaruplånböcker medför dock sina egna hot. Du måste lita på att tillver
 ## Vad är det vi bygger?
 
 
-Vi tar generisk hårdvara, LilyGo T-Display, och flashar Jade SDK-firmware på den. [Jade Plus] (https://blockstream.com/jade/jade-plus/) är en wallet med öppen källkod som vanligtvis kostar 150 dollar:
+Vi tar generisk hårdvara, LilyGo T-Display, och flashar Jade SDK-firmware på den. [Jade Plus](https://blockstream.com/jade/jade-plus/) är en wallet med öppen källkod som vanligtvis kostar 150 dollar:
 
 
 ![image](assets/fr/02.webp)
@@ -153,7 +153,7 @@ Idag ska vi flasha deras firmware till en 15-dollars hårdvara istället.
 ### Förbered ditt ärende
 
 
-Du har två alternativ för att hysa ditt LilyGO T-Display-kort: ett 3D-utskrivet fodral eller det officiella LilyGO-kabinettet. Det tryckta fodralet kan hittas och skrivas ut från [den här modellen] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Det erbjuder ett lätt och anpassningsbart skal för din enhet.
+Du har två alternativ för att hysa ditt LilyGO T-Display-kort: ett 3D-utskrivet fodral eller det officiella LilyGO-kabinettet. Det tryckta fodralet kan hittas och skrivas ut från [den här modellen](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Det erbjuder ett lätt och anpassningsbart skal för din enhet.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ Blockstream Green är programvaran för att slutföra installationen av JadeDIY 
 
 
 
-- Hämta den officiella Blockstream-applikationen - det här är länken till den från deras webbplats. När du är där klickar du på [Ladda ner nu] (https://blockstream.com/app/).
+- Hämta den officiella Blockstream-applikationen - det här är länken till den från deras webbplats. När du är där klickar du på [Ladda ner nu](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

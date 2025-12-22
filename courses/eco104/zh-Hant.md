@@ -56,7 +56,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 ● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) 全球仍有十億成年人沒有銀行服務，而其他無數人則只能使用有限的銀行服務。
 
-到 [2022] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) 年底，全球幾乎有一半的國家面臨兩位數字的通貨膨脹率，侵蝕 Hard 所賺錢的價值。從這個角度來看，如果十年內通貨膨脹率為 10%，您將損失 65% 的購買力。
+到 [2022](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) 年底，全球幾乎有一半的國家面臨兩位數字的通貨膨脹率，侵蝕 Hard 所賺錢的價值。從這個角度來看，如果十年內通貨膨脹率為 10%，您將損失 65% 的購買力。
 
 即使沒有持續的通貨膨脹，美元這種可以說是全球最強大的貨幣，在過去一個世紀中已經喪失了[96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/)的購買力。
 
@@ -1645,7 +1645,7 @@ _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 
 然而，近年來，Bitcoin 已經成為金融授權的有力工具，特別是對於經常被邊緣化的婦女而言。Roya Mahboob](https://twitter.com/royamahboob)是一位利用 Bitcoin 潛力的個人，她是一位阿富汗企業家，利用數位貨幣幫助她的國家的婦女獲得金融服務，重拾尊嚴。
 
-當全世界驚恐地目睹塔利班在 [1996] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) 奪取阿富汗的控制權時，這個年幼的女孩 Roya 正生活在衝突的中心。當她的家鄉被塔利班入侵和佔領時，年僅七歲的她發現自己陷入了戰爭的動盪和不確定之中。儘管面臨危險和逆境，加上無法上學，Roya 拒絕被打敗。相反，她轉而接受教育，以克服環境對她的限制。
+當全世界驚恐地目睹塔利班在 [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) 奪取阿富汗的控制權時，這個年幼的女孩 Roya 正生活在衝突的中心。當她的家鄉被塔利班入侵和佔領時，年僅七歲的她發現自己陷入了戰爭的動盪和不確定之中。儘管面臨危險和逆境，加上無法上學，Roya 拒絕被打敗。相反，她轉而接受教育，以克服環境對她的限制。
 
 ![image](assets/en/005.webp)
 

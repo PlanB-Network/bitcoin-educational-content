@@ -48,7 +48,7 @@ Moon ile bitcoinleriniz ve çoğu tüccar sitesinde kabul edilen Visa kart ödem
 
 
 
-Moon'un [resmi platformuna] (https://paywithmoon.com) gidin, ardından **"Kaydol "** düğmesine tıklayın, insan doğrulamasını (CAPTCHA) geçin, ardından e-posta adresinizi ve şifrenizi girerek kaydolun.
+Moon'un [resmi platformuna](https://paywithmoon.com) gidin, ardından **"Kaydol "** düğmesine tıklayın, insan doğrulamasını (CAPTCHA) geçin, ardından e-posta adresinizi ve şifrenizi girerek kaydolun.
 
 
 

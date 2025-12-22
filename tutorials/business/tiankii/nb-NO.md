@@ -127,7 +127,7 @@ Tiankii krever ingen kompliserte tekniske forutsetninger. Applikasjonene fungere
 
 
 
-**For private brukere (IBI-appen)**: Ingen tidligere wallet Lightning er påkrevd. Når du oppretter kontoen din, konfigurerer Tiankii automatisk en fungerende Address Lightning via [Breez SDK Liquid] (https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), en nodeless-implementering som bruker Liquid-nettverket i bakgrunnen. Du kan umiddelbart motta og sende betalinger uten noen teknisk konfigurasjon. Denne løsningen forenkler tilgangen for nybegynnere drastisk, samtidig som den er selvforvaltende.
+**For private brukere (IBI-appen)**: Ingen tidligere wallet Lightning er påkrevd. Når du oppretter kontoen din, konfigurerer Tiankii automatisk en fungerende Address Lightning via [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), en nodeless-implementering som bruker Liquid-nettverket i bakgrunnen. Du kan umiddelbart motta og sende betalinger uten noen teknisk konfigurasjon. Denne løsningen forenkler tilgangen for nybegynnere drastisk, samtidig som den er selvforvaltende.
 
 
 
@@ -430,10 +430,10 @@ Selv om utbredt bruk av Bitcoin fortsatt er en utfordring som krever utdanning o
 
 
 - [Tiankiis offisielle nettside](https://tiankii.com)
-- [Tiankiis hjelpesenter] (https://help.tiankii.com)
-- [IBI-applikasjon] (https://go.ibi.me)
+- [Tiankiis hjelpesenter](https://help.tiankii.com)
+- [IBI-applikasjon](https://go.ibi.me)
 - [Merchant Dashboard](https://pay.tiankii.com)
-- [Kommandosenter] (https://cc.ibi.me)
+- [Kommandosenter](https://cc.ibi.me)
 
 
 
@@ -442,10 +442,10 @@ Selv om utbredt bruk av Bitcoin fortsatt er en utfordring som krever utdanning o
 
 
 
-- [Koble til LNbits] (https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
+- [Koble til LNbits](https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
 - [Koble til BlueWallet (LNDHub)](https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
 - [Connect Alby Wallet](https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
-- [Connect Strike Wallet] (https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
+- [Connect Strike Wallet](https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
 
 
 
@@ -464,6 +464,6 @@ Selv om utbredt bruk av Bitcoin fortsatt er en utfordring som krever utdanning o
 
 
 
-- [Blink Wallet] (https://blink.sv) - Wallet Lightning-kompatibel anbefales
-- [LNbits] (https://lnbits.com) - Selvbetjent wallet-løsning
-- [Standard Bolt-kort] (https://github.com/boltcard) - Tekniske spesifikasjoner for NFC-kort
+- [Blink Wallet](https://blink.sv) - Wallet Lightning-kompatibel anbefales
+- [LNbits](https://lnbits.com) - Selvbetjent wallet-løsning
+- [Standard Bolt-kort](https://github.com/boltcard) - Tekniske spesifikasjoner for NFC-kort

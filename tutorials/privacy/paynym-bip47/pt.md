@@ -132,7 +132,7 @@ Pode então colar o código de pagamento completo do destinatário ou ler o seu 
 
 
 
-Se só tiver o seu ID PayNym, vá a [Paynym.rs] (https://paynym.rs/) para encontrar o código QR associado ao seu código de pagamento.
+Se só tiver o seu ID PayNym, vá a [Paynym.rs](https://paynym.rs/) para encontrar o código QR associado ao seu código de pagamento.
 
 
 

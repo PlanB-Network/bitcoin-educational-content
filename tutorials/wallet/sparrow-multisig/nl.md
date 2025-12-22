@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-In deze tutorial laat ik je zien hoe je een Multisig maakt met [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
+In deze tutorial laat ik je zien hoe je een Multisig maakt met [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
 
 
 
@@ -491,7 +491,7 @@ Voer het bedrag in dat naar de geselecteerde Address moet worden gestuurd.
 
 
 
-Pas het oplaadniveau aan de huidige netwerkomstandigheden aan. Raadpleeg bijvoorbeeld [Mempool.space] (https://Mempool.space/) om een geschikt oplaadniveau te selecteren.
+Pas het oplaadniveau aan de huidige netwerkomstandigheden aan. Raadpleeg bijvoorbeeld [Mempool.space](https://Mempool.space/) om een geschikt oplaadniveau te selecteren.
 
 
 

@@ -44,7 +44,7 @@ Intambwe ya mbere ni ugukuraho porogarama ya Lipa. Kugeza ubu, iboneka kuri iOS 
 
 
 
-- [Ku bwa Pome] (iporogarama.
+- [Ku bwa Pome](iporogarama.
 
 
 Verisiyo ya Android ubu iriko irategurwa kandi izoboneka vuba.

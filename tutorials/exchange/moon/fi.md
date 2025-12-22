@@ -48,7 +48,7 @@ Moonin avulla sinulla on todellinen silta bitcoinien ja Visa-korttimaksujärjest
 
 
 
-Siirry Moonin [viralliselle alustalle] (https://paywithmoon.com), napsauta sitten **"Rekisteröidy "**-painiketta, läpäise inhimillinen todentaminen (CAPTCHA) ja rekisteröidy syöttämällä sähköpostiosoitteesi ja salasanasi.
+Siirry Moonin [viralliselle alustalle](https://paywithmoon.com), napsauta sitten **"Rekisteröidy "**-painiketta, läpäise inhimillinen todentaminen (CAPTCHA) ja rekisteröidy syöttämällä sähköpostiosoitteesi ja salasanasi.
 
 
 

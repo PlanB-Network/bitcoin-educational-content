@@ -114,7 +114,7 @@ Następnie możesz dostosować opcję w ustawieniach eksperckich.
 
 
 
-Następnie należy zdefiniować **hasło odpowiadające kluczowi szyfrowania**. Hasło to umożliwi **odblokowanie sejfu Cryptomator** i dostęp do jego danych. **Jeśli je utracisz, stracisz dostęp do swoich danych**. Wreszcie, nadal masz możliwość **utworzenia klucza zapasowego**, zaznaczając opcję "**Tak, lepiej bezpieczniej niż żałować**", w tym samym duchu, co klucz odzyskiwania [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Jest to zalecane, ale nie przechowuj tego klucza zapasowego w katalogu głównym OneDrive!
+Następnie należy zdefiniować **hasło odpowiadające kluczowi szyfrowania**. Hasło to umożliwi **odblokowanie sejfu Cryptomator** i dostęp do jego danych. **Jeśli je utracisz, stracisz dostęp do swoich danych**. Wreszcie, nadal masz możliwość **utworzenia klucza zapasowego**, zaznaczając opcję "**Tak, lepiej bezpieczniej niż żałować**", w tym samym duchu, co klucz odzyskiwania [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Jest to zalecane, ale nie przechowuj tego klucza zapasowego w katalogu głównym OneDrive!
 
 
 

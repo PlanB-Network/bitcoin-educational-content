@@ -148,7 +148,7 @@ Pour sécuriser notre wallet, nous pouvons créer une sauvegarde en suivant les 
 ![image](assets/en/08.webp)
 
 
-**Note** : À partir de septembre 2025, l'authentification biométrique par empreinte digitale sur les appareils Android devra fonctionner avec au moins une implémentation biométrique de classe 2. Pour plus de détails, voir [ici] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Toutefois, cette exigence pourrait changer à l'avenir.
+**Note** : À partir de septembre 2025, l'authentification biométrique par empreinte digitale sur les appareils Android devra fonctionner avec au moins une implémentation biométrique de classe 2. Pour plus de détails, voir [ici](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Toutefois, cette exigence pourrait changer à l'avenir.
 
 
 ### D - Paramètres de confidentialité 🔒

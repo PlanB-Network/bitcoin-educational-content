@@ -16,7 +16,7 @@ Tämä mekanismi lisää transaktioiden luottamuksellisuutta vaatimatta muutoksi
 323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
 ```
 
-On vaikea määritellä varmasti, kuka esitteli ensimmäisenä Bitcoinin coinjoinin idean ja kenellä oli ajatus käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell keskusteli asiasta ensimmäisenä [BitcoinTalkin viestissä vuonna 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+On vaikea määritellä varmasti, kuka esitteli ensimmäisenä Bitcoinin coinjoinin idean ja kenellä oli ajatus käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell keskusteli asiasta ensimmäisenä [BitcoinTalkin viestissä vuonna 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 Chaumin sokeiden allekirjoitusten käyttö: Käyttäjät muodostavat yhteyden ja antavat syötteet (ja vaihtavat osoitteita) sekä kryptografisesti sokean version osoitteesta, johon he haluavat lähettää yksityiset kolikkonsa; palvelin allekirjoittaa merkit ja palauttaa ne. Käyttäjät yhdistyvät uudelleen anonyymisti, paljastavat lähtöosoitteensa ja lähettävät ne takaisin palvelimelle. Palvelin näkee, että se on allekirjoittanut kaikki lähetykset ja että näin ollen kaikki lähetykset ovat peräisin päteviltä osallistujilta. Myöhemmin ihmiset ottavat uudelleen yhteyttä ja allekirjoittavat.
 

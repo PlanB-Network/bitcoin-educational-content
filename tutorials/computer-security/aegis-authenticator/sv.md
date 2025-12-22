@@ -63,7 +63,7 @@ Eftersom Aegis Authenticator är öppen källkod föredrar dess utvecklare integ
 
 
 
-Det säkraste och enklaste sättet är genom F-Droid, den fria alternativa butiken. Om F-Droid ännu inte är installerat på din telefon, börja med att ladda ner det från den officiella webbplatsen [F-Droid.org] (https://f-droid.org). Sedan :
+Det säkraste och enklaste sättet är genom F-Droid, den fria alternativa butiken. Om F-Droid ännu inte är installerat på din telefon, börja med att ladda ner det från den officiella webbplatsen [F-Droid.org](https://f-droid.org). Sedan :
 
 
 

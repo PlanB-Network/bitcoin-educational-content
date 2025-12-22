@@ -2,11 +2,9 @@
 name: Was ist Ihre politische Einstellung?
 goal: Verstehen Sie die Komplexität des modernen politischen Spektrums, um Ihre eigene Tendenz zu erkennen und die großen ideologischen Familien jenseits der Links-Rechts-Spaltung einzuordnen.
 objectives: 
-
-
   - Verstehen, dass die politische Typologie nuancierter ist als eine einfache Links-Rechts-Achse
-  - Die zwei Hauptdimensionen zu identifizieren, die das politische Spektrum strukturieren: wirtschaftliche Themen und gesellschaftliche Themen
-  - Charakterisieren Sie die vier großen politischen Familien: Libertäre, Sozialisten, Konservative, Zentristen
+  - Die zwei Hauptdimensionen zu identifizieren, die das politische Spektrum strukturieren
+  - Charakterisieren Sie die vier großen politischen Familien
   - Erkundung der Positionierung von Bitcoinern im politischen Spektrum
 
 

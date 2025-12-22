@@ -38,7 +38,7 @@ Traitez les Minibits comme un Wallet de tous les jours, et non comme un compte d
 ## 1️⃣ Configuration de votre Wallet
 
 
-Pour commencer, visitez le [Site web Minibits] (https://www.minibits.cash/) où vous trouverez des options de téléchargement pour toutes les principales plateformes. Les utilisateurs iOS peuvent télécharger à partir de l'[App Store] (https://testflight.apple.com/join/defJQgTD), tandis que les utilisateurs iOS de l'UE ont l'option supplémentaire d'installer à partir de l'[Freedom Store] (https://freedomstore.io/). Les utilisateurs d'Android peuvent obtenir l'application depuis [Google Play Store] (https://play.google.com/store/apps/details?id=com.minibits_wallet) ou télécharger le fichier APK directement depuis la page [GitHub Releases] (https://github.com/minibits-cash/minibits_wallet/releases).
+Pour commencer, visitez le [Site web Minibits](https://www.minibits.cash/) où vous trouverez des options de téléchargement pour toutes les principales plateformes. Les utilisateurs iOS peuvent télécharger à partir de l'[App Store](https://testflight.apple.com/join/defJQgTD), tandis que les utilisateurs iOS de l'UE ont l'option supplémentaire d'installer à partir de l'[Freedom Store](https://freedomstore.io/). Les utilisateurs d'Android peuvent obtenir l'application depuis [Google Play Store](https://play.google.com/store/apps/details?id=com.minibits_wallet) ou télécharger le fichier APK directement depuis la page [GitHub Releases](https://github.com/minibits-cash/minibits_wallet/releases).
 
 
 Lors de l'installation des Minibits, des écrans d'introduction vous expliquent les concepts de base. Vous pouvez les lire ou les ignorer si vous êtes déjà familiarisé avec la technologie. Une fois ces étapes initiales terminées, vous serez invité à choisir entre :
@@ -73,7 +73,7 @@ Par défaut, la Monnaie Minibits est activée au démarrage de l'application. Ce
 
 La sauvegarde est sans doute l'étape la plus critique de tout le processus d'installation. Pour accéder aux options de sauvegarde, naviguez vers `Settings`-> `Backup` Ici vous trouverez deux options essentielles :
 
-1. votre phrase seed, qui contient 12 mots, vous permet de récupérer votre solde d'argent en cas de perte de votre appareil. Cette phrase seed est votre clé principale pour tous les ecashs de toutes les monnaies que vous avez ajoutées. Notez-la sur un support physique (papier ou métal) et conservez-la en lieu sûr à plusieurs endroits. Ne stockez jamais votre phrase seed sur un support numérique où elle pourrait être compromise. Consultez ce [tutoriel] (https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) pour connaître les meilleures pratiques en matière de protection de votre Wallet.
+1. votre phrase seed, qui contient 12 mots, vous permet de récupérer votre solde d'argent en cas de perte de votre appareil. Cette phrase seed est votre clé principale pour tous les ecashs de toutes les monnaies que vous avez ajoutées. Notez-la sur un support physique (papier ou métal) et conservez-la en lieu sûr à plusieurs endroits. Ne stockez jamais votre phrase seed sur un support numérique où elle pourrait être compromise. Consultez ce [tutoriel](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) pour connaître les meilleures pratiques en matière de protection de votre Wallet.
 
 2. `Wallet backup` qui contient une longue chaîne de sauvegarde.
 
@@ -168,9 +168,9 @@ Les Minibits constituent un point d'entrée accessible dans le monde de l'ecash,
 Pour des ressources supplémentaires, consultez le dépôt GitHub de Minibits, le site officiel et leur canal Telegram où la communauté discute activement des développements et résout les problèmes
 
 
-- [Github] (https://github.com/minibits-cash/minibits_wallet)
+- [Github](https://github.com/minibits-cash/minibits_wallet)
 - [Site web](https://www.minibits.cash/)
-- [Télégramme] (https://t.me/MinibitsWallet)
+- [Télégramme](https://t.me/MinibitsWallet)
 
 
 L'écosystème ecash est encore en pleine évolution, mais des outils comme Minibits rendent cette puissante technologie de protection de la vie privée de plus en plus accessible aux utilisateurs quotidiens.

@@ -139,7 +139,7 @@ Ayrıca çevrimiçi mağazamızdan **bir OPNsense rafa monte edilebilir cihaz** 
 
 
 
-OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanız gerekir. Bu konu [bu dokümantasyon sayfası] (https://docs.opnsense.org/manual/hardware.html) adresinde ayrıntılı olarak açıklanmıştır.
+OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanız gerekir. Bu konu [bu dokümantasyon sayfası](https://docs.opnsense.org/manual/hardware.html) adresinde ayrıntılı olarak açıklanmıştır.
 
 
 
@@ -157,7 +157,7 @@ Son olarak, **kaynak gereksinimleriniz her şeyden önce yönetilecek bağlantı
 
 
 
-Ayrıca [resmi web sitesinden] (https://opnsense.org/download/) indirebileceğiniz OPNsense kurulum ISO görüntüsüne de ihtiyacınız olacak. Bir sanal makineye kurulum için, bir ISO görüntüsü elde etmek üzere görüntü türü olarak "**dvd**" seçeneğini seçin (ve bununla istediğinizi yapın...). Önyüklenebilir bir USB anahtarı aracılığıyla kurulum için, bir "**.img**" dosyası elde etmek üzere "**vga**" seçeneğini seçin.
+Ayrıca [resmi web sitesinden](https://opnsense.org/download/) indirebileceğiniz OPNsense kurulum ISO görüntüsüne de ihtiyacınız olacak. Bir sanal makineye kurulum için, bir ISO görüntüsü elde etmek üzere görüntü türü olarak "**dvd**" seçeneğini seçin (ve bununla istediğinizi yapın...). Önyüklenebilir bir USB anahtarı aracılığıyla kurulum için, bir "**.img**" dosyası elde etmek üzere "**vga**" seçeneğini seçin.
 
 
 

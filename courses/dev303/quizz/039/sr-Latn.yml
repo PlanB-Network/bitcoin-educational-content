@@ -1,4 +1,4 @@
-question: `Fn` trait
+question: "`Fn` trait"
 answer: Fn
 wrong_answers:
   - FnOnce

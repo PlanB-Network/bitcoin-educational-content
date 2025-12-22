@@ -2,11 +2,9 @@
 name: ¿Cuál es su tendencia política?
 goal: Comprender la complejidad del espectro político moderno para identificar su propia tendencia y situar las principales familias ideológicas más allá de la división izquierda-derecha.
 objectives: 
-
-
   - Comprender que la tipología política tiene más matices que un simple eje izquierda/derecha
-  - Identificar las dos dimensiones principales que estructuran el espectro político: los temas económicos y los temas sociales
-  - Caracterice las cuatro principales familias políticas: Libertarios, Socialistas, Conservadores, Centristas
+  - Identificar las dos dimensiones principales que estructuran el espectro político
+  - Caracterice las cuatro principales familias políticas
   - Exploración del posicionamiento de los bitcoiners en el espectro político
 
 

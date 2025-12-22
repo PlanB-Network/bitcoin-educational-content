@@ -7,7 +7,7 @@ description: En Bitcoin-node med åpen kildekode for personvern og autonomi
 
 
 
-*Denne veiledningen er basert på [den offisielle Ashigaru-dokumentasjonen] (https://ashigaru.rs/docs/), som jeg har overtatt og utvidet. Jeg har omskrevet alle avsnitt for å gjøre dem mer oversiktlige, lagt til mer detaljerte forklaringer og illustrasjoner for nybegynnere, slik at installasjonen og bruken blir enklere å forstå
+*Denne veiledningen er basert på [den offisielle Ashigaru-dokumentasjonen](https://ashigaru.rs/docs/), som jeg har overtatt og utvidet. Jeg har omskrevet alle avsnitt for å gjøre dem mer oversiktlige, lagt til mer detaljerte forklaringer og illustrasjoner for nybegynnere, slik at installasjonen og bruken blir enklere å forstå
 
 
 
@@ -140,7 +140,7 @@ Fra en datamaskin som allerede fungerer (din vanlige maskin), laster du ned Ubun
 
 
 
-Sett inn en USB-nøkkel på minst 8 GB i denne datamaskinen, og opprett deretter en oppstartbar nøkkel ved hjelp av programvare som [Balena Etcher] (https://etcher.balena.io/). Velg Ubuntu ISO-bildet du nettopp har lastet ned, velg USB-nøkkelen som målenhet, og start deretter opprettelsesprosessen (vær tålmodig, det kan ta flere minutter).
+Sett inn en USB-nøkkel på minst 8 GB i denne datamaskinen, og opprett deretter en oppstartbar nøkkel ved hjelp av programvare som [Balena Etcher](https://etcher.balena.io/). Velg Ubuntu ISO-bildet du nettopp har lastet ned, velg USB-nøkkelen som målenhet, og start deretter opprettelsesprosessen (vær tålmodig, det kan ta flere minutter).
 
 
 
@@ -496,7 +496,7 @@ torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.on
 
 
 
-Hent det komprimerte arkivet som inneholder Dojo-kildekoden. I dette eksemplet er den nyeste versjonen `1.27.0`: modifiser kommandoen i henhold til [den nyeste versjonen her på det offisielle GitHub-arkivet] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
+Hent det komprimerte arkivet som inneholder Dojo-kildekoden. I dette eksemplet er den nyeste versjonen `1.27.0`: modifiser kommandoen i henhold til [den nyeste versjonen her på det offisielle GitHub-arkivet](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 
 
@@ -1103,7 +1103,7 @@ Dojo Maintenance Tool er et sikkert, nettbasert Interface som lar deg overvåke 
 
 
 
-For å få tilgang til den, må du vite URL-en til DMT-en din og koble deg til den [via Tor-nettleseren] (https://www.torproject.org/download/). For å gjøre dette åpner du en terminal og går til katalogen `/my-dojo`:
+For å få tilgang til den, må du vite URL-en til DMT-en din og koble deg til den [via Tor-nettleseren](https://www.torproject.org/download/). For å gjøre dette åpner du en terminal og går til katalogen `/my-dojo`:
 
 
 
@@ -1386,7 +1386,7 @@ Du er nå koblet til dojoen din.
 
 
 
-Dojo installerer automatisk en Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), som trekker direkte på data fra din egen Bitcoin-node. En utforsker gir deg tilgang til rå informasjon fra Blockchain og din Mempool gjennom en lettfattelig Interface-web. Du kan for eksempel enkelt sjekke statusen til en ventende transaksjon, se saldoen til en Address eller undersøke sammensetningen av en blokk.
+Dojo installerer automatisk en Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), som trekker direkte på data fra din egen Bitcoin-node. En utforsker gir deg tilgang til rå informasjon fra Blockchain og din Mempool gjennom en lettfattelig Interface-web. Du kan for eksempel enkelt sjekke statusen til en ventende transaksjon, se saldoen til en Address eller undersøke sammensetningen av en blokk.
 
 
 
@@ -1422,7 +1422,7 @@ Hvis du allerede er koblet til DMT-enheten, kan du også finne denne Address i "
 
 
 
-For å få tilgang til nettleseren din fra en hvilken som helst maskin på et hvilket som helst nettverk (også eksternt), åpner du [Tor Browser] (https://www.torproject.org/download/) og skriver inn URL-en du nettopp har hentet.
+For å få tilgang til nettleseren din fra en hvilken som helst maskin på et hvilket som helst nettverk (også eksternt), åpner du [Tor Browser](https://www.torproject.org/download/) og skriver inn URL-en du nettopp har hentet.
 
 
 
@@ -1501,7 +1501,7 @@ cd ~/dojo-app/docker/my-dojo
 
 
 
-Dojo utvikles jevnlig, og nye versjoner utgis for å fikse feil, forbedre stabiliteten og legge til nye funksjoner. Det er derfor viktig [å se etter oppdateringer regelmessig] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) og å oppdatere Dojo. Prosessen er lik den første installasjonen, men krever at du erstatter visse filer med den nyeste tilgjengelige versjonen, samtidig som du beholder konfigurasjonen. Her er de detaljerte trinnene du må følge for en ren og sikker oppdatering:
+Dojo utvikles jevnlig, og nye versjoner utgis for å fikse feil, forbedre stabiliteten og legge til nye funksjoner. Det er derfor viktig [å se etter oppdateringer regelmessig](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) og å oppdatere Dojo. Prosessen er lik den første installasjonen, men krever at du erstatter visse filer med den nyeste tilgjengelige versjonen, samtidig som du beholder konfigurasjonen. Her er de detaljerte trinnene du må følge for en ren og sikker oppdatering:
 
 
 
@@ -1567,7 +1567,7 @@ cd ~/
 
 
 
-Last ned den nyeste versjonen av Dojo fra GitHub via Tor. I dette eksemplet er det versjon `1.28.0` (som ennå ikke eksisterer i skrivende stund: dette er bare for å gi et eksempel). Husk å erstatte filen og lenken [med den versjonen du ønsker å installere] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
+Last ned den nyeste versjonen av Dojo fra GitHub via Tor. I dette eksemplet er det versjon `1.28.0` (som ennå ikke eksisterer i skrivende stund: dette er bare for å gi et eksempel). Husk å erstatte filen og lenken [med den versjonen du ønsker å installere](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

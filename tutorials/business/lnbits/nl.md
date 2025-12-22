@@ -61,7 +61,7 @@ LNbits voor bouwers: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-
 # Enkele basisprincipes
 
 
-LNbits werkt op basis van het LNURL protocol wat betekent dat verzoeken geldig zijn in twee vormen: ofwel als https:// clearnet link (geen zelfondertekende certificaten toegestaan) of als http:// v2/v3 onion link. Om LNbits diensten aan te bieden zoals LNURLp/w QR codes of NFC kaarten, die in het wild gebruikt kunnen worden, moet je LNbits openstellen voor clearnet (https).
+LNbits werkt op basis van het LNURL protocol wat betekent dat verzoeken geldig zijn in twee vormen: ofwel als https://clearnet link (geen zelfondertekende certificaten toegestaan) of als http://v2/v3 onion link. Om LNbits diensten aan te bieden zoals LNURLp/w QR codes of NFC kaarten, die in het wild gebruikt kunnen worden, moet je LNbits openstellen voor clearnet (https).
 
 
 Voordat je LNbits installeert, moet je eerst de volgende algemene gidsen hebben gelezen en begrepen over wat LNbits is en welke mogelijkheden het voor je ontketent.
@@ -69,7 +69,7 @@ Voordat je LNbits installeert, moet je eerst de volgende algemene gidsen hebben 
 
 
 - [LND Gids](https://docs.lightning.engineering/) | LND installeren
-- [LND Configuratievoorbeeld] (https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Instellingen
+- [LND Configuratievoorbeeld](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Instellingen
 - [CLN gids](https://docs.corelightning.org/docs/installation) | CLN installeren
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Voer een Watchtower uit (https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Zeer belangrijk!
@@ -125,7 +125,7 @@ Raadpleeg voor bundelsoftware nodes hun specifieke documentatie over LNbits: [Ci
 Als je niet zo technisch bent en je financieringsbron of je lnbits niet zelf wilt hosten, is er een [LNbits SaaS-versie](https://saas.lnbits.com) (Software-as-a-service) die je kunt gebruiken. Het is eigenlijk net als LNbits in een cloud, maar je kunt de financieringsbron (bijv. je Node, een LNbits Wallet, de LNtipbot, fakewallet enz.) en omgevingsvariabelen zelf definiëren - wat meestal niet het geval is bij andere cloud-oplossingen.
 
 
-[Hier is een gedetailleerde handleiding hoe LNbits SaaS te gebruiken voor specifieke use cases] (https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
+[Hier is een gedetailleerde handleiding hoe LNbits SaaS te gebruiken voor specifieke use cases](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
 ## Financieringsbronnen
@@ -208,7 +208,7 @@ Om je macaron te versleutelen, voer je `./venv/bin/python lnbits/wallets/macaroo
 ### Bliksem TipBot
 
 
-Om je [Lightning Tipbot] (https://t.me/LightningTipBot) vanuit Telegram te verbinden, moet je de volgende parameter instellen:
+Om je [Lightning Tipbot](https://t.me/LightningTipBot) vanuit Telegram te verbinden, moet je de volgende parameter instellen:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
@@ -216,13 +216,13 @@ Om je [Lightning Tipbot] (https://t.me/LightningTipBot) vanuit Telegram te verbi
   - `LNBITS_KEY`: Om de sleutel te krijgen moet je eenmaal /api uitvoeren in een privéchat met de LightningTipbot op Telegram.
 
 
-Bekijk ook deze tutorial over het installeren van [LNbits met LightningTipBot via vps] (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
+Bekijk ook deze tutorial over het installeren van [LNbits met LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
 ### IBEX HUB
 
 
-Registreer [hier] (https://ibexpay.ibexmercado.com/onboard) en haal daar je sleutels/tokens vandaan, het eindpunt is https://ibexpay-api.ibexmercado.com.
+Registreer [hier](https://ibexpay.ibexmercado.com/onboard) en haal daar je sleutels/tokens vandaan, het eindpunt is https://ibexpay-api.ibexmercado.com.
 
 Voor meer informatie zie [IBEX API-Documentatie](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
@@ -388,7 +388,7 @@ Hopelijk werkt alles nu en wordt het gemigreerd... Start LNbits opnieuw en contr
 #### Back-up en herstel van de database
 
 
-Raadpleeg [deze zeer gedetailleerde handleiding over het back-up & herstelproces] (https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
+Raadpleeg [deze zeer gedetailleerde handleiding over het back-up & herstelproces](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 
 
@@ -431,7 +431,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 Ik kreeg "https error", netwerkfout" of anderen bij het scannen van een QR</summary>
 
 
-Slecht nieuws, dit is een routeringsfout die verschillende redenen kan hebben. Controleer eerst de LNURL van de QR met de [Lightning Decoder] (https://lightningdecoder.com/) of je daar iets vreemds in kunt vinden. Laten we een paar van de meest mogelijke problemen en hun oplossingen proberen.
+Slecht nieuws, dit is een routeringsfout die verschillende redenen kan hebben. Controleer eerst de LNURL van de QR met de [Lightning Decoder](https://lightningdecoder.com/) of je daar iets vreemds in kunt vinden. Laten we een paar van de meest mogelijke problemen en hun oplossingen proberen.
 
 
 LNbits draait alleen via Tor, je kunt het niet openen op een openbaar domein zoals lnbits.yourdomain.com
@@ -476,7 +476,7 @@ Bewaar altijd een kopie van uw Wallet-URL, Export2phone-QR of LNDhub voor uw eig
 
 ### Wallet op uw eigen financieringsbron/knooppunt
 
-Bewaar altijd een kopie van uw Wallet-URL, Export2phone-QR of LNDhub voor uw eigen portemonnees op een veilige plaats. Je kunt alle LNbits gebruikers en Wallet-ID's vinden in je LNbits user manager extensie of in je sqlite database. Om de LNbits database te bewerken of te lezen, ga je naar de LNbits /data map en zoek je naar het bestand sqlite.db. U kunt het openen en bewerken met Excel of met een speciale SQL-editor zoals [SQLite browser] (https://sqlitebrowser.org/).
+Bewaar altijd een kopie van uw Wallet-URL, Export2phone-QR of LNDhub voor uw eigen portemonnees op een veilige plaats. Je kunt alle LNbits gebruikers en Wallet-ID's vinden in je LNbits user manager extensie of in je sqlite database. Om de LNbits database te bewerken of te lezen, ga je naar de LNbits /data map en zoek je naar het bestand sqlite.db. U kunt het openen en bewerken met Excel of met een speciale SQL-editor zoals [SQLite browser](https://sqlitebrowser.org/).
 
 
 Je kunt ook de portemonnees dumpen via CLI en elke Wallet in je database bekijken.
@@ -588,14 +588,14 @@ Je kunt [Zeus](https://zeusln.app/) of [Bluewallet](https://bluewallet.io/) gebr
 Als je dit doet, raden we je aan om ook de LN netwerk URI in te stellen op die van je eigen node. Als je LNbits instantie alleen Tor is, moet je deze apps ook gebruiken met Tor geactiveerd. Ook in dit geval moet je de LNbits pagina openen via je Tor .onion Address.
 
 
-Als je een Error "unsupported Hash type" hebt bij het gebruik van een ypub in On-Chain extensie, controleer dan of je LNbits instance python 3.10 gebruikt. Dit probleem kan van invloed zijn op [dit probleem] (https://stackoverflow.com/questions/72409563/unsupported-Hash-type-ripemd160-with-hashlib-in-python). Bewerk de openssl.cnf zoals beschreven in het stackoverflow antwoord en herstart je LNbits.
+Als je een Error "unsupported Hash type" hebt bij het gebruik van een ypub in On-Chain extensie, controleer dan of je LNbits instance python 3.10 gebruikt. Dit probleem kan van invloed zijn op [dit probleem](https://stackoverflow.com/questions/72409563/unsupported-Hash-type-ripemd160-with-hashlib-in-python). Bewerk de openssl.cnf zoals beschreven in het stackoverflow antwoord en herstart je LNbits.
 
 
 
 ## Gereedschap maken en bouwen met LNbits
 
 
-LNbits heeft allerlei [open API's] (https://legend.lnbits.com/docs) en tools om te programmeren en verbinding te maken met een heleboel verschillende apparaten voor een heleboel verschillende gebruikssituaties.
+LNbits heeft allerlei [open API's](https://legend.lnbits.com/docs) en tools om te programmeren en verbinding te maken met een heleboel verschillende apparaten voor een heleboel verschillende gebruikssituaties.
 
 
 Als je nieuw bent met bouwen, begin dan met deze [MakerBits presentaties](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) van Ben Arc over het bouwen van gadgets gebaseerd op LNbits.
@@ -604,7 +604,7 @@ Als je nieuw bent met bouwen, begin dan met deze [MakerBits presentaties](https:
 ### BELANGRIJK:
 
 
-- LNbits werkt op basis van het LNURL protocol waarbij verzoeken in twee vormen geldig zijn: als https:// clearnet link (geen zelfondertekende certificaten toegestaan) of als http:// v2/v3 onion link. Om LNbits diensten aan te bieden zoals LNURLp/w QR codes of NFC kaarten, die in het wild gebruikt kunnen worden, moet je LNbits openen naar clearnet (https).
+- LNbits werkt op basis van het LNURL protocol waarbij verzoeken in twee vormen geldig zijn: als https://clearnet link (geen zelfondertekende certificaten toegestaan) of als http://v2/v3 onion link. Om LNbits diensten aan te bieden zoals LNURLp/w QR codes of NFC kaarten, die in het wild gebruikt kunnen worden, moet je LNbits openen naar clearnet (https).
 - Gebruik alleen DATA-kabels om je esp32 van stroom te voorzien. Niet alle kabels ondersteunen data naast het voeden van de esp. Je zou niet de eerste zijn als de kabel die bij de esp is geleverd alleen een voedingskabel is
 - Zorg ervoor dat u geen USB-Hub gebruikt waaraan andere apparaten zijn aangesloten. Dit kan leiden tot vreemde effecten die Hard zijn om te debuggen (bijvoorbeeld niet starten of stoppen).
 - Om esp projecten te realiseren met een MacOS heb je een UART Bridge Driver nodig. Als je problemen hebt met het stuurprogramma op Mac- of Linux-systemen, kun je die hier vinden of, als het om een TTGO Display gaat, deze. Als je Windows gebruikt en problemen hebt met de verbinding, zorg er dan voor dat je de oude versie 11.1.0 downloadt, want de nieuwere versie werkt niet! Je kunt hier ook een seriële terminal vinden om je verbinding te controleren - stel deze in op baudrate 115200.
@@ -627,15 +627,15 @@ Hier zijn enkele projectcategorieën die je kunt bouwen met LNbits:
 
 
 
-- [Nostr Ondertekeningsapparaat] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
+- [Nostr Ondertekeningsapparaat](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
 - [Archade Machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
 - [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
 - [Nostr Zap Lamp](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
 - [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
 - [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
 - [Bliksemschicht Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
-- [Hardware Wallet] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-Wallet)
-- [Bitcoin Schakelaar] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Bitcoin-switch)
+- [Hardware Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-Wallet)
+- [Bitcoin Schakelaar](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Bitcoin-switch)
 - [Automaat](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
 - [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
 - [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)

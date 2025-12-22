@@ -2,7 +2,7 @@
 term: DER
 ---
 
-Acrónimo de *Distinguished Encoding Rules* (regras de codificação distintas). Trata-se de um subconjunto estrito das regras de codificação ASN.1 definidas na especificação [ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) e utilizadas para codificar qualquer tipo de dados numa sequência binária. O DER é utilizado principalmente em domínios específicos, como a criptografia, em que os dados devem ser codificados de forma normalizada e previsível.
+Acrónimo de *Distinguished Encoding Rules* (regras de codificação distintas). Trata-se de um subconjunto estrito das regras de codificação ASN.1 definidas na especificação [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) e utilizadas para codificar qualquer tipo de dados numa sequência binária. O DER é utilizado principalmente em domínios específicos, como a criptografia, em que os dados devem ser codificados de forma normalizada e previsível.
 
 
 No Bitcoin, as assinaturas ECDSA são codificadas no formato DER. Consistem em dois números codificados de 32 bytes (`r`,`s`). O formato da assinatura consiste no seguinte Elements (71 bytes):

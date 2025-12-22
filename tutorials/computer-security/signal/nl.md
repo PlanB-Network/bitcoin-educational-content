@@ -65,7 +65,7 @@ Signal is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks down
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/signalapp/Signal-Android/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 

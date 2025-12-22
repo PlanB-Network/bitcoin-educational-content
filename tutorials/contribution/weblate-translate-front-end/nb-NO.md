@@ -12,12 +12,12 @@ I denne veiledningen viser vi deg hvordan du enkelt kan bidra til oversettelsen 
 - frontend-data/statiske elementer (sider, knapper osv.);
 - det pedagogiske innholdet (veiledninger, kurs, ressurser ...).
 
-For å oversette det pedagogiske innholdet bruker vi [kunstig intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). For å rette opp eventuelle feil i disse filene inviterer vi korrekturlesere til å bidra. Hvis du ønsker å korrekturlese noe av innholdet, kan du se følgende veiledning:
+For å oversette det pedagogiske innholdet bruker vi [kunstig intelligens](https://github.com/Asi0Flammeus/LLM-Translator). For å rette opp eventuelle feil i disse filene inviterer vi korrekturlesere til å bidra. Hvis du ønsker å korrekturlese noe av innholdet, kan du se følgende veiledning:
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Hvis du derimot er interessert i å oversette de statiske elementene på nettstedet (unntatt pedagogisk innhold), har du kommet til rett sted! For å oversette frontend på en effektiv måte bruker vi Weblate-verktøyet, som er veldig enkelt å bruke og gjør det lettere å oversette.
 
-Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Academy, må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
+Hvis du ønsker å legge til et helt nytt språk i Plan ₿ Academy, må du kontakte Plan ₿ Academy-teamet via vår [Telegram-gruppe](https://t.me/PlanBNetwork_ContentBuilder). Hvis du ikke har telegram, kan du sende en e-post til mari@planb.network. Husk å skrive en liten presentasjon om hvem du er og hvilke språk du snakker.
 
 Teammedlemmene våre vil gi deg spesifikke instruksjoner og åpne relaterte "issues" på Github for å koordinere arbeidet ditt.
 
@@ -29,7 +29,7 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 ## Registrer deg på Weblate
 
 
-- Gå til [den selvbetjente Weblate of Plan ₿ Academy] (https://weblate.planb.network/):
+- Gå til [den selvbetjente Weblate of Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -157,5 +157,5 @@ Når du er klar til å begynne å oversette, kan du gå tilbake til denne veiled
 
 ![weblate](assets/23.webp)
 
-På forhånd takk for ditt bidrag til oversettelsen av Plan ₿ Academy! Hvis du har spesifikke spørsmål eller kommentarer til oss, er du velkommen til å kontakte oss via [Telegram-gruppen] (https://t.me/PlanBNetwork_ContentBuilder).
+På forhånd takk for ditt bidrag til oversettelsen av Plan ₿ Academy! Hvis du har spesifikke spørsmål eller kommentarer til oss, er du velkommen til å kontakte oss via [Telegram-gruppen](https://t.me/PlanBNetwork_ContentBuilder).
 

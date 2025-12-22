@@ -1,0 +1,9 @@
+question: บทบาทหลักของที่อยู่ Bitcoin ในการทำธุรกรรมคืออะไร?
+answer: ล็อค UTXOs ใน scriptPubKey
+wrong_answers:
+  - ปลดล็อก UTXOs ใน scriptSig
+  - Signal สิ้นสุดการทำธุรกรรม
+  - ระบุบล็อกการยืนยัน
+explanation: |
+  ที่อยู่ Bitcoin ถูกฝังอยู่ใน scriptPubKey เพื่อล็อก UTXOs มันกำหนดเงื่อนไขที่จำเป็นในการปลดล็อกเงินทุน
+reviewed: false

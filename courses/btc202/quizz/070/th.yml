@@ -1,0 +1,9 @@
+question: ใครเป็นผู้ดูแลเซิร์ฟเวอร์ DNS seed ที่ใช้สำหรับการค้นหาเพื่อนเริ่มต้น?
+answer: นักพัฒนาระบบนิเวศ
+wrong_answers:
+  - ผู้ให้บริการอินเทอร์เน็ต
+  - Satoshi Nakamoto
+  - Mining pools
+explanation: |
+  DNS seeds ถูกดูแลโดยนักพัฒนาที่มีชื่อเสียง (Wuille, Corallo, Dashjr, ฯลฯ) และให้ IP ของโหนดที่ใช้งานเพื่อเริ่มการเชื่อมต่อ
+reviewed: true

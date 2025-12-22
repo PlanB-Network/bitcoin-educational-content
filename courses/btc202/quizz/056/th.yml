@@ -1,0 +1,9 @@
+question: วิธีที่ง่ายที่สุดในการเชื่อมต่อมือถือ wallet กับ Electrs ผ่าน Umbrel คืออะไร?
+answer: สแกน QR โค้ดของ Tor
+wrong_answers:
+  - ดาวน์โหลดไฟล์คุกกี้
+  - นำเข้าคีย์ส่วนตัว
+  - คัดลอกไฟล์ Wallet.dat
+explanation: |
+  Umbrel ช่วยให้คุณสแกนรหัส QR ของ Tor ที่จัดทำโดย Electrs ได้โดยตรงเพื่อกำหนดค่าการเชื่อมต่อมือถือของคุณ
+reviewed: true

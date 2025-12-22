@@ -1,0 +1,9 @@
+question: ใครเป็นคนแรกที่นำ mining มาใช้กับหน่วยประมวลผลกราฟิก (GPU) ในปี 2010?
+answer: ลาสโล ฮานเยซ
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - นิลส์ ชไนเดอร์
+explanation: |
+  ในเดือนเมษายน 2010 เขาใช้สภาพแวดล้อม OpenCL เพื่อให้ GPU มีส่วนร่วมใน bitcoin mining เมื่อวันที่ 10 พฤษภาคม เขา [เผยแพร่](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) ไฟล์ที่สามารถรันได้ของเขาบนฟอรัม
+reviewed: true

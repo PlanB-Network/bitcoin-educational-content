@@ -1,0 +1,9 @@
+question: ไฟล์ใดที่โหนดตรวจสอบก่อนเพื่อค้นหาเพียร์เก่าของมันเมื่อรีบูต?
+answer: anchors.dat และ peers.dat
+wrong_answers:
+  - Mempool.dat และ peers.dat
+  - Mempool.dat และ ip.dat
+  - ip.dat และ anchors.dat
+explanation: |
+  Bitcoin Core จะตรวจสอบ anchors.dat (เพื่อนขาออกก่อนหน้า) ก่อน จากนั้น peers.dat (สมุดที่อยู่ที่รู้จัก) เพื่อเชื่อมต่อใหม่
+reviewed: true

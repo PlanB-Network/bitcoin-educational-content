@@ -1,0 +1,9 @@
+question: องค์ประกอบสำคัญที่ทำให้ Bob ได้รับสินทรัพย์ในระหว่าง State Transition ใน RGB คืออะไร?
+answer: Seal Definition ใหม่ชี้ไปที่ Bob ของ UTXO
+wrong_answers:
+  - ธุรกรรมการควบคุมโดยไม่มีการอ้างอิงถึง UTXO
+  - แถลงการณ์สาธารณะจาก Alice
+  - ลายเซ็นคู่ที่ใช้ร่วมกันโดย Alice และ Bob
+explanation: |
+  Seal Definition เชื่อมโยงสินทรัพย์กับ UTXO ของ Bob ด้วยการเข้ารหัสลับ เพื่อให้มั่นใจว่าเขาเป็นเจ้าของมัน
+reviewed: false

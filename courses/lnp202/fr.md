@@ -645,7 +645,7 @@ Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire 
 
 
 
-# Gérer les liquidités de son nœud Lightning
+# Gérer son nœud Lightning
 
 
 
@@ -905,45 +905,56 @@ Votre offre de swap est maintenant créée. Il ne reste plus qu’à attendre qu
 
 070
 
-Toutes les places du swap ont été prises : nous passons désormais à la phase d’ouverture des canaux. Chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning. De votre côté, ouvrez le canal en utilisant le Node ID fourni par LN+ et en respectant le montant indiqué.
+Toutes les places du swap ont été prises : nous passons désormais à la phase d’ouverture des canaux. Chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning.
+
+084
+
+De votre côté, ouvrez le canal en utilisant le Node ID fourni par LN+ et en respectant le montant indiqué. Comme nous l’avons vu dans les chapitres précédents, vous pouvez effectuer cette ouverture soit via ThunderHub, soit avec un autre gestionnaire de nœud Lightning, soit directement depuis l’interface de base de l’application `Lightning Node`.
+
+085
+
+Une fois l’ouverture lancée, vous pouvez la voir apparaître dans la section des canaux en attente. Dans mon cas, il s’agit du canal avec le nœud `Plebian_fr`.
+
+086
+
+Vous pouvez ensuite retourner sur LN+ afin de confirmer que vous avez bien initié l’ouverture du canal. Cliquez simplement sur le bouton `Channel Opening Started`.
+
+087
+
+Lorsque tous les autres participants ont également ouvert le canal auquel ils s’étaient engagés, pensez à leur laisser un avis positif.
+
+088
+
+En cas de difficulté ou de retard, vous pouvez contacter vos pairs directement via la section commentaires située en bas de la page.
+
+089
+
+Il arrive que certains participants souhaitent rééquilibrer les canaux circulaires dès le départ, en effectuant un paiement vers eux-mêmes. Cela permet d’obtenir une répartition équilibrée des liquidités dans chaque canal. Si vous êtes dans un profil de "consommateur", ce n’est pas indispensable, mais vous pouvez soit effectuer ce rééquilibrage vous-même si vous le souhaitez, soit fixer temporairement les frais de vos canaux à zéro afin de faciliter l’opération pour le pair qui souhaite s’en charger. Parfois personne ne souhaite le faire.
+
+090
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# Libérer le potentiel de votre nœud Lightning
+# Libérer le potentiel de son nœud Lightning
 
 
 ## Connecter un portefeuille mobile via Tailscale
 
+Ça y est, vous disposez désormais d’un nœud Lightning bien connecté, avec à la fois de la liquidité entrante et sortante. Tout est donc prêt pour utiliser votre nœud Lightning dans la vie réelle. Jusqu’ici, nous avons toujours utilisé directement des interfaces sur Umbrel, que ce soit celle de l’application `Lightning Node` ou l’interface `ThunderHub`. Ces outils fonctionnent pour envoyer et recevoir des paiements, mais ils ne sont clairement pas optimisés pour des paiements Lightning du quotidien. L’interface est pensée pour un usage sur ordinateur, peu pratique sur smartphone, et nécessite en plus d’être connecté au même réseau pour fonctionner correctement (même s’il est techniquement possible de s’y connecter à distance via Tor).
+
+Dans la pratique, ce que nous recherchons en tant que bitcoiner, c’est une interface de wallet Lightning classique sur smartphone : la possibilité de scanner des invoices via QR code, et une interface simple pour payer et encaisser des sats. C’est précisément ce que nous allons mettre en place dans ce chapitre et le suivant. L’idée générale est d’avoir sur votre smartphone une application de wallet Lightning mobile, utilisable depuis n’importe où (pas uniquement depuis votre réseau local) mais qui, en arrière-plan, s’appuie sur votre propre nœud Lightning pour envoyer et recevoir des paiements.
 
 ### Quelles sont les solutions pour connecter un client mobile ?
 
-Ça y est, vous disposez désormais d’un nœud Lightning bien connecté, avec à la fois de la liquidité entrante et sortante. Tout est donc prêt pour utiliser votre nœud Lightning dans la vie réelle. Jusqu’ici, nous avons toujours utilisé directement des interfaces sur Umbrel, que ce soit celle de l’application `Lightning Node` ou l’interface `ThunderHub`. Ces outils fonctionnent bien pour envoyer et recevoir des paiements, mais ils ne sont clairement pas optimisés pour des paiements Lightning du quotidien. L’interface est pensée pour un usage sur ordinateur, peu pratique sur smartphone, et nécessite en plus d’être connecté au même réseau pour fonctionner correctement (même s’il est techniquement possible de s’y connecter à distance via Tor).
-
-Dans la pratique, ce que nous recherchons en tant que bitcoiner, c’est une interface de wallet Lightning classique sur smartphone : la possibilité de scanner des invoices via QR code, et une interface simple pour payer et recevoir des sats. C’est précisément ce que nous allons mettre en place dans ce chapitre et le suivant.
-
-L’idée générale est d’avoir sur votre smartphone une application de wallet Lightning mobile, utilisable depuis n’importe où (pas uniquement depuis votre réseau local) mais qui, en arrière-plan, s’appuie sur votre propre nœud Lightning pour envoyer et recevoir des paiements.
-
 Aujourd’hui, il existe plusieurs manières de procéder, tant du côté de l’application mobile que du type de connexion entre votre nœud et cette application. Les trois principaux modes de connexion sont :
-- via Tor ;
-- via un VPN Tailscale ;
-- via Nostr Wallet Connect.
+- via ***Tor*** ;
+- via un VPN ***Tailscale*** ;
+- via ***Nostr Wallet Connect***.
 
-Il y a quelques années, j’utilisais une connexion via Tor, mais j’ai rapidement arrêté : le nombre d’échecs et les délais de communication étaient beaucoup trop importants. En théorie, cela fonctionne, mais en pratique, l’expérience utilisateur était catastrophique. Je vous déconseille donc cette approche.
+Il y a quelques années, j’utilisais une connexion via ***Tor***, mais j’ai rapidement arrêté : le nombre d’échecs et les délais de communication étaient beaucoup trop importants. En théorie, cela fonctionne, mais en pratique, l’expérience utilisateur était catastrophique. Je vous déconseille donc cette approche.
 
-L’alternative que j’ai ensuite adoptée consiste à utiliser un VPN Tailscale pour assurer la communication entre l’application mobile et le nœud. Cette solution fonctionne très bien : même sur des réseaux mobiles avec peu de débit, mes paiements sont toujours passés sans difficulté. C’est donc cette méthode que je vais vous présenter en premier dans ce chapitre, avec l’application Zeus.
+L’alternative que j’ai ensuite adoptée consiste à utiliser un VPN ***Tailscale*** pour assurer la communication entre l’application mobile et le nœud. Cette solution fonctionne très bien : même sur des réseaux mobiles avec peu de débit, mes paiements sont toujours passés sans difficulté. C’est donc cette méthode que je vais vous présenter en premier dans ce chapitre, avec l’application Zeus.
 
-Dans le chapitre suivant, nous verrons une autre solution plus récente, qui fonctionne elle aussi très bien : Nostr Wallet Connect. Nous utiliserons cette fois l’application Alby Go afin de vous présenter une alternative, même si Zeus est également compatible avec NWC si vous le souhaitez.
+Dans le chapitre suivant, nous verrons une autre solution plus récente, qui fonctionne elle aussi très bien : ***Nostr Wallet Connect***. Nous utiliserons cette fois l’application Alby Go afin de vous présenter une alternative, même si Zeus est également compatible avec NWC si vous le souhaitez.
 
 ### Installer et configurer Tailscale
 
@@ -1005,21 +1016,107 @@ Vous avez maintenant accès à votre nœud Lightning depuis l’application Zeus
 
 083
 
+Astuce : Tailscale ne se limite pas à l’utilisation de votre nœud Lightning à distance. Il vous permet d’accéder à l’ensemble des outils de votre Umbrel depuis d’autres logiciels, même à distance. Par exemple, vous pouvez utiliser l’adresse IP Tailscale de votre Umbrel pour connecter votre nœud Bitcoin (via Electrs ou Fulcrum) à Sparrow Wallet, sans passer par Tor. Cela permet d’éviter, une fois de plus, les lenteurs inhérentes à Tor.
+
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
 Dans le prochain chapitre, nous découvrirons une autre méthode, tout aussi efficace, pour connecter un client mobile à votre nœud Lightning : Nostr Wallet Connect. Nous utiliserons alors une autre application que Zeus (même si Zeus est également compatible avec NWC) à savoir l’application Alby Go.
 
 ## Connecter un portefeuille mobile via NWC
 
+Si vous n'avez pas été convaincu par la connexion via Tailscale, ou bien que la gesiton de double VPN vous embête, je vais vous présenter dans ce chapitre un autre moyen d'utiliser un client mobile à distance pour payer et recevoir via votre noeud Lightning : ***Nostr Wallet Connect***. Nous allons utiliser pour l'exemple l'application mobile Alby Go, qui est très bien faite et très simple à utiliser, mais vous pouvez très bien utiliser Zeus, ou ni'mporte quelle applicaiton mobile compatible NWC. Vous pouvez retrouver la liste des apps comaptibles [sur le dépôt GitHub `awesome-nwc`](https://github.com/getAlby/awesome-nwc).
 
+### Comment fonctionne Nostr Wallet Connect ?
 
+Nostr Wallet Connect est un protocole standardisé qui permet à une application (un portefeuille mobile, une app, voire même un site web) de déclencher des actions sur un nœud Lightning distant, sans établir de connexion réseau directe vers ce nœud (pas d’API LND exposée, pas de VPN, pas de service `.onion`...). NWC définit la manière dont une application formule une intention (par exemple `pay_invoice`) et reçoit le résultat.
 
+Son fonctionnement est assez simple. Vous initialisez une session en scannant un QR code ou via un deeplink `nostr+walletconnect:`. Cette chaîne contient les paramètres de session et un secret d’autorisation. Ensuite, lorsque l’application veut payer, elle sérialise la requête, la chiffre, puis la publie sous forme d’événement sur un relais Nostr. Le nœud lit l’événement sur le relais, le déchiffre, vérifie que l’auteur est autorisé pour cette session, exécute le paiement, puis renvoie une réponse chiffrée (succès avec préimage, ou erreur). Le relais ne sert que d’intermédiaire de transport : il ne peut pas lire le contenu, mais il peut éventuellement observer des métadonnées comme le moment et la fréquence des requêtes.
 
+Par rapport à une connexion via Tailscale ou Tor, l’intérêt principal de NWC est d’éviter toute joignabilité directe de votre nœud depuis l’extérieur. Cela simplifie énormément l’usage en mobilité : votre nœud n’a pas besoin d’accepter des connexions entrantes, il lui suffit de pouvoir communiquer avec un relais. En contrepartie, vous introduisez une dépendance fonctionnelle à des relais Nostr : s’ils sont indisponibles, l’expérience se dégrade. Aussi, même si les messages sont chiffrés, le relais peut aussi observer un certain niveau de métadonnées d’activité.
 
+La différence de modèle de sécurité est également importante. Avec Tailscale ou Tor, vous exposez un accès direct à votre nœud (via l’API de LND) protégé par des secrets très sensibles. C’est puissant, car vous pouvez tout administrer, mais c’est aussi une surface d’attaque plus basse couche. Avec NWC, l’accès est plus applicatif : vous déléguez un jeton de session qui autorise seulement certaines actions.
 
+### Installer Alby Hub sur votre nœud Lightning
 
+Auparavant, il existait une application spécifiquement dédiée aux connexions NWC dans l’App Store d’Umbrel, mais elle n’est malheureusement plus disponible aujourd’hui. Il faut donc désormais passer par Alby Hub pour établir ce type de connexion. Pour cela, commencez par installer l’application Alby Hub directement depuis le store.
 
+091
 
+À l’ouverture, passez les écrans d’introduction, puis cliquez sur le bouton `Get Started (LND)`. Il est important de vérifier qu’il est bien indiqué `LND`, et non `LDK`, entre parenthèses. Si `LND` apparaît, cela signifie qu’Alby Hub a correctement détecté votre nœud Lightning existant et va se configurer comme interface pour celui-ci. En revanche, si `LDK` est affiché, cela indique qu’Alby Hub n’a pas détecté votre nœud et s’apprête à en créer un nouveau, ce qui n’est pas l’objectif ici.
 
+092
 
+Il vous est ensuite proposé de connecter un compte Alby. Pour un usage limité à NWC, ce n’est pas nécessaire, mais vous pouvez le faire si vous souhaitez profiter des services spécifiques d’Alby. Si ce n’est pas le cas, cliquez sur `Maybe later` pour continuer.
 
+093
 
+Choisissez ensuite un mot de passe fort et unique. Celui-ci protège l’accès à Alby Hub sur votre nœud. Pensez à l’enregistrer dans votre gestionnaire de mots de passe.
 
+094
+
+Vous arrivez alors sur l’interface d’Alby Hub. Il n’est pas nécessaire de procéder à l’ensemble de la configuration, sauf si vous souhaitez l’utiliser comme gestionnaire principal de votre nœud Lightning. Comme vu précédemment, Alby Hub peut en effet remplacer l’usage de ThunderHub pour l’administration de votre nœud. Si vous souhaitez en savoir plus sur les options d'Alby Hub, consultez notre tutoriel dédié :
+
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+Rendez-vous dans le menu `Connections`.
+
+095
+
+Vous pouvez y voir toutes les applications pouvant se connecter à votre nœud Lightning via NWC. Parmi elles figure notamment Zeus, déjà évoquée dans le chapitre précédent. Ici, nous allons utiliser Alby Go. Cliquez donc sur Alby Go, puis sur le bouton `Connect to Alby Go` afin de lancer le processus de connexion.
+
+096
+
+### Installer et connecter Alby Go
+
+Sur votre smartphone, installez l’application Alby Go :
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.getalby.mobile) ;
+- [Apple App Store](https://apps.apple.com/us/app/alby-go/id6471335774) ;
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
+
+Dans Alby Hub, configurez ensuite les droits que vous souhaitez accorder à l’application Alby Go sur votre nœud Lightning. Vous pouvez par exemple définir des limites de dépenses par période, une date d’expiration pour le lien NWC ou bien laisser un contrôle total. Une fois les paramètres définis, cliquez sur le bouton `Next`.
+
+097
+
+Alby Hub génère alors un QR code permettant d’établir la connexion NWC entre votre nœud Lightning et Alby Go.
+
+098
+
+Sur l’application Alby Go, lors de la première ouverture, cliquez sur `Connect Wallet`, puis scannez le QR code fourni par Alby Hub.
+
+099
+
+Choisissez un nom pour identifier ce wallet. Vous avez désormais accès à votre nœud Lightning à distance via Alby Go. Vous pouvez générer des invoices pour recevoir des sats sur votre nœud, ou régler des invoices Lightning directement avec celui-ci.
+
+100
+
+Par exemple, j’ai envoyé 1543 sats depuis l’interface d’Alby Go.
+
+101
+
+Si je me rends sur l’interface de base de mon nœud Lightning sur Umbrel, je peux constater que ce paiement a bien été effectué par mon nœud.
+
+102
+
+Vous savez dorénavant comment utiliser facilement votre nœud Lightning depuis n'importe quel endroit.
+
+## Pérenniser son autonomie sur Lightning
+
+Nous arrivons maintenant à la fin de ce cours pratique LNP 202. Vous disposez désormais des bases nécessaires pour utiliser le Lightning Network de manière souveraine : vous comprenez le rôle réel d’un nœud, les compromis des différentes approches, et vous avez mis en place une instance LND sur Umbrel avec une stratégie de sauvegarde et de protection cohérente. Vous avez également ouvert vos premiers canaux, appris à gérer les liquidités, afin de rendre vos paiements fiables au quotidien.
+
+Pour la suite sur le plan opérationnel, votre nœud doit désormais entrer dans un rythme de maintenance. L’essentiel consiste à le surveiller (uptime, synchronisation, état des canaux, échecs de paiements...), à appliquer les mises à jour proposées par Umbrel lorsque des versions stables sont disponibles, et à vérifier périodiquement que vos sauvegardes et votre configuration de watchtower sont toujours actives.
+
+Côté canaux, gardez une approche pragmatique : conservez ceux qui vous rendent service, fermez ceux qui sont durablement inactifs ou associés à des pairs instables, et réallouez progressivement votre capital vers une topologie plus robuste.
+
+**Attention toutefois :** l’un des pièges les plus courants à ce stade consiste à vouloir allouer trop de capital à son nœud Lightning. Gardez à l’esprit que votre nœud Lightning est beaucoup moins sécurisé qu'un hardware wallet, et que la disponibilité des fonds engagés dans vos canaux repose sur des mécanismes de sauvegarde qui restent imparfaits. Il est donc très important de rester sur des montants raisonnables, que vous pouvez vous permettre de perdre en cas de problème, et de toujours conserver la majorité de vos sats avec un hardware wallet onchain.
+
+Concernant les outils, je vous recommande de rester curieux et attentif aux évolutions et aux nouveautés. Dans cette formation, nous en avons découvert plusieurs, que ce soit pour la gestion de votre nœud, sa connectivité ou l’usage à distance pour effectuer des paiements. Cependant, Lightning est un domaine particulièrement dynamique. Chaque année, de nouveaux outils pertinents voient le jour, et de nombreuses applications apparaissent également sur Umbrel. Se tenir informé de ces nouveautés peut vous permettre de découvrir des solutions plus performantes ou plus pratiques que celles présentées dans ce cours.
+
+Sur le plan pédagogique, si ce n’est pas encore fait, je vous conseille vivement de suivre le cours théorique LNP 201 de Fanis Michalakis, dédié au fonctionnement du Lightning Network. Il vous aidera à mieux comprendre les manipulations réalisées dans ce cours LNP 202 et vous apportera davantage de confiance dans la gestion quotidienne de votre nœud.
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Dans un registre différent, mais tout aussi essentiel dans votre parcours de bitcoiner, je vous recommande également l’excellent cours de Ludovic Lars consacré à l’histoire de la création de Bitcoin.
+
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+
+Mais avant de passer à autre chose, vous pouvez donner votre avis sur cette formation LNP 202 et, bien entendu, passer le diplôme afin de valider que vous avez bien assimilé l’ensemble de son contenu.

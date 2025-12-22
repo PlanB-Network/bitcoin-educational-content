@@ -32,7 +32,7 @@ Ovo se može koristiti za prenos:
 
 
 - gW-0 fraze (ColdCard Q-ova seed master ili tajne pohranjene u ColdCardQ-ovom [seed Vault-u](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
+- **poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
 - rezervna kopija celog vašeg **ColdCardQ**: ColdCardQ koji prima ovu rezervnu kopiju ne sme imati seed Master da bi ovo funkcionisalo.
 - gW-3 (**Delimično potpisane Bitcoin transakcije**) kao deo šeme sa više potpisa.
 

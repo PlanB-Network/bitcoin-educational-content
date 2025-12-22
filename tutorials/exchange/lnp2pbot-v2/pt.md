@@ -127,7 +127,7 @@ Neste guia, veremos em pormenor como :
 
 ![Sélection d'une offre de vente](assets/fr/01.webp)
 
-Navegue pelas ofertas em [@p2plightning] (https://t.me/p2plightning) e clique no botão "Comprar satoshis" por baixo do anúncio que lhe interessa.
+Navegue pelas ofertas em [@p2plightning](https://t.me/p2plightning) e clique no botão "Comprar satoshis" por baixo do anúncio que lhe interessa.
 
 **2. Validar a oferta e o montante**
 

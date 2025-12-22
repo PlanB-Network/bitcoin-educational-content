@@ -332,7 +332,7 @@ Ardından, uzantı kimlik bilgilerimizi web sitesindeki uygun alanlara otomatik 
 ## Bitwarden yazılımı nasıl kullanılır?
 
 
-Bitwarden masaüstü yazılımını yüklemek için [indirme sayfasına] (https://bitwarden.com/download/#downloads-desktop) giderek başlayın. İşletim sisteminize karşılık gelen sürümü seçin ve indirin.
+Bitwarden masaüstü yazılımını yüklemek için [indirme sayfasına](https://bitwarden.com/download/#downloads-desktop) giderek başlayın. İşletim sisteminize karşılık gelen sürümü seçin ve indirin.
 
 ![BITWARDEN](assets/notext/58.webp)
 

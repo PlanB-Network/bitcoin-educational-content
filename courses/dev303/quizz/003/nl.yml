@@ -1,0 +1,8 @@
+question: Welk Cargo commando voert compilatiecontroles uit zonder een uitvoerbaar bestand te genereren?
+answer: vrachtcontrole
+wrong_answers:
+  - vrachtconstructie
+  - vrachtrit
+  - vrachttest
+explanation: |
+  Het commando 'cargo check' voert alle compilatiecontroles uit en controleert of je code correct compileert zonder het uiteindelijke uitvoerbare bestand te genereren. Dit maakt het aanzienlijk sneller dan een volledige build wanneer je gewoon de correctheid van de code wilt controleren. Daarentegen compileert 'cargo build' en genereert het uitvoerbare bestanden, 'cargo run' bouwt en voert het programma uit en 'cargo test' compileert en voert tests uit.

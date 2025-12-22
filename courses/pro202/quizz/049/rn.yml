@@ -1,0 +1,8 @@
+question: Ni ibihe bipimo bibiri bihambaye vy’ukugenzura node ya Bitcoin itegerezwa gukora igihe yakira igice gishasha imbere y’uko yemera muri blockchain?
+answer: Hash y'ibarabara itegerezwa kuba iri munsi y'ingorane y'intumbero kandi umuzi wa Merkle waharuwe utegerezwa guhura n'umuzi wa Merkle w'umutwe
+wrong_answers:
+  - Ikidodo c'igihe c'ububiko kigomba kuba gifise akamaro kandi imikono yose y'ubucuruzi igomba kugenzurwa mu buryo bw'ibanga
+  - Ingano y'ububiko igomba kuba munsi ya 1MB kandi hash y'ububiko bwa kera igomba kwerekeza ku bubiko buzwi bubereye
+  - Verisiyo y'ububiko itegerezwa guhura n'amasezerano y'urubuga kandi amafaranga yose y'ugucuruza ategerezwa kurenga impembo ya mining
+explanation: |
+  Ingingo ya Bitcoin "ntiwizere, usuzume" isaba neza na neza ivyigwa bibiri vy'ishimikiro kugira ngo umuntu yemere ububiko: kwemeza proof-of-work (ububiko hash munsi y'intumbero y'ingorane) n'ugusuzuma ubutungane bw'ibikorwa (Merkle root matching). Naho ibindi bipimo nk’ukwemeza ikidodo c’igihe, ukugenzura umukono, n’imipaka y’ubunini ari ngirakamaro, ivyo bipimo bibiri vyihariye bituma igice gihuye n’ibisabwa vy’ingorane kandi kirimwo amafaranga yivugwa ataco ahinduye.

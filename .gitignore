@@ -20,3 +20,4 @@ AGENTS.md
 .env
 scripts/pdf_courses
 scripts/quizz_to_pdfs/output
+claudedocs

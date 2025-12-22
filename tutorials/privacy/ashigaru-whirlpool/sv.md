@@ -324,7 +324,7 @@ Här är flera möjliga strategier för att hantera din utländska valuta UTXOs 
 
 
 
-- Köp förbetalda presentkort eller Visa-kort:** Plattformar som [Bitrefill] (https://www.bitrefill.com/) låter dig byta dina bitcoins mot presentkort eller omladdningsbara Visa-kort som kan användas i butiker. Detta kan vara ett enkelt och diskret sätt att spendera dina giftiga UTXO.
+- Köp förbetalda presentkort eller Visa-kort:** Plattformar som [Bitrefill](https://www.bitrefill.com/) låter dig byta dina bitcoins mot presentkort eller omladdningsbara Visa-kort som kan användas i butiker. Detta kan vara ett enkelt och diskret sätt att spendera dina giftiga UTXO.
 
 
 

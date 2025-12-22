@@ -1,0 +1,8 @@
+question: Hvor mange eiere kan en verdi ha til enhver tid i henhold tRusts eierskapssystem?
+answer: Nøyaktig én eier
+wrong_answers:
+  - Flere eiere er tillatt
+  - Maksimalt to eiere
+  - Ingen eiere før tilgang
+explanation: |
+  Rusts eierskapssystem bygger på tre grunnleggende regler, der den første er at hver verdi har nøyaktig én eier til enhver tid. Dette prinsippet om én eier er avgjørende for minnesikkerheten, fordi det forhindrer at flere deler av programmet prøver å frigjøre det samme minnet eller endre data samtidig. Flere eiere ville føre til "use-after-free"-feil og dataløp, mens ingen eiere ville bety at minnet aldri kunne ryddes opp på riktig måte.

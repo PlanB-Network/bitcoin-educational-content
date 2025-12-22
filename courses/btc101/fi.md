@@ -83,7 +83,6 @@ Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten to
 
 Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
 
-**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary).
 
 ## Bitcoinin esihistoria
 
@@ -206,7 +205,7 @@ Näiden kriteerien täyttämiseksi valuutta on historiallisesti kehittynyt eri v
 
 Valuutat kehittyvät edelleen tähän päivään asti, ja niiden muotoja mukautetaan eri käyttötarkoituksiin. Kuten sanoimme, vaikka kulta on erinomainen arvovaluutta, se ei enää sovi nykyiseen globalisoituneeseen talouteen. Vastaavasti dollarin ja euron kaltaiset fiduciary-valuutat ovat erittäin likvidejä ja helposti kuljetettavia, koska ne ovat nykyään enimmäkseen digitaalisia, mutta niiden arvoa laskee jatkuvasti rahan inflaatio.
 
-Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten tiukasti rajoitettu tarjonta, tekevät siitä erinomaisen arvosäilön. Neutraalina internet-valuuttana se toimii lisäksi elinkelpoisena **vaihtovälineenä**, joka ylittää rajat. Sitä ei kuitenkaan vielä nykyäänkään hyväksytä laajasti kaupankäynnissä, vaikka se [otetaan jatkuvasti käyttöön] (https://btcmap.org/map).
+Toisaalta Bitcoin avaa uusia näkymiä. Sen ominaisuudet, erityisesti tiukasti rajattu tarjonta, tekevät siitä erinomaisen arvonsäilyttäjän. Lisäksi neutraalina internet-valuuttana se muodostaa elinkelpoisen **vaihdon välineen**, joka kykenee ylittämään rajat. Siitä huolimatta, jatkuvasta käyttöönotosta huolimatta (kuten [BTCmap-kartta](https://btcmap.org/map) osoittaa), sitä ei vielä laajalti hyväksytä kaupankäynnissä.
 
 ## Fiduciary valuutat
 
@@ -395,7 +394,7 @@ Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkita
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitaalisen niukkuuden takaaminen
 
@@ -637,7 +636,7 @@ Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockm
 
 Tämän ensimmäisen käytännön ohella perintösuunnitelman laatiminen on ratkaiseva askel sen varmistamiseksi, että bitcoinisi ovat asianmukaisesti hallinnassa kuolemasi jälkeen. Tähän suunnitelmaan kuuluu kirjeen kirjoittaminen käsin, jossa hahmotat omaisuutesi luonteen, niiden käyttötavat ja niiden luotettavien henkilöiden yhteystiedot, joilla on vastuu niistä. On myös tärkeää keskustella bitcoinien perinnöstä notaarin kanssa verosäännösten noudattamisen varmistamiseksi, vaikka tälle henkilölle ei pitäisi koskaan uskoa suoraan bitcoiniesi hallintaa.
 
-Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
+Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
 
 ![image](assets/fi/037.webp)
 
@@ -679,7 +678,7 @@ Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteita ja parhaita käytänt
 
 ![image](assets/fi/038.webp)
 
-Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "White Paper", jossa esiteltiin Bitcoinin toimintaa.
+Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "[White Paper](https://planb.academy/resources/glossary/white-paper)", jossa esiteltiin Bitcoinin toimintaa.
 
 Tämä aloite ei heti herättänyt innostusta, mikä johtui luultavasti siitä, että aiemmat yritykset luoda digitaalinen käteisrahajärjestelmä ovat epäonnistuneet. Valkoisesta kirjasta tuli kuitenkin lopulta Bitcoin-käyttäjien viitekehys, ja siitä on vuosien mittaan käyty monia keskusteluja Bitcoin-ekosysteemissä.
 
@@ -714,7 +713,7 @@ Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satosh
 > "Hallitukset ovat hyviä katkaisemaan keskitetysti toimivan
 > napsterin kaltaiset valvotut verkot, mutta puhtaat P2P-verkot, kuten
 > Gnutella ja Tor näyttävät pitävän pintansa." - Satoshi Nakamoto
-> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston] (https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
+> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston](https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
 
 Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
@@ -753,7 +752,7 @@ Tässä vaiheessa transaktio on luotu, ja Bobin lompakko jakaa sen Bitcoin-verko
 
 Vaikka tämä transaktio on kaikkien tiedossa (Mempool-nimisen työkalun kautta), sitä ei voida pitää vahvistettuna ennen kuin louhija lisää sen lohkoon, sillä vain louhija vahvistaa transaktiot sisällyttämällä ne lohkoketjuun.
 
-Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "proof of work", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
+Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
 
 ![image](assets/fi/047.webp)
 
@@ -836,7 +835,7 @@ Tämän voiton jälkeen solmut aktivoivat SegWit-nimisen päivityksen, joka taso
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
+**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä [ASIC](https://planb.academy/resources/glossary/asic)-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
 
 ![image](assets/fi/054.webp)
 
@@ -1043,9 +1042,11 @@ Bitcoin-taloustiede on olemassa ja kehittyy tietyillä alueilla maailmassa, kute
 
 Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, yritykset ja organisaatiot hyväksyvät Bitcoinin maksuvälineenä tuotteidensa tai palveluidensa maksamiseen.
 
-![image](assets/fi/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
+*Lähde : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
 
 ### Miksi meidän pitäisi hyväksyä Bitcoin sen sijaan, että ostaisimme sitä?
 

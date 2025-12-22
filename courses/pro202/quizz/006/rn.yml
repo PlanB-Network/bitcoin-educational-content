@@ -1,0 +1,8 @@
+question: Ni ikihe kintu c’akaranga kiri mu mugwi w’umurongo w’uruzitiro gikoreshwa mu bikorwa vyo kwongerako uturongo?
+answer: Intumbero iri ku butagira iherezo
+wrong_answers:
+  - Inkomoko (0,0)
+  - Igikoresho ca jeneratore G
+  - Igiharuro c'umugongo a
+explanation: |
+  Intumbero iri ku butagira urugero ikora nk’ikintu c’akaranga mu migwi y’imirongo y’uruzitiro, bisobanura ko kwongerako inkuru iyo ari yo yose P ku ntumbero iri ku butagira urugero bigarura P itahindutse. Ivyo bisa n’ingene kwongerako zero bikora mu mibare isanzwe. Inkomoko (0,0) ntabwo ari ngombwa ko iba ku nzira, akarongo k'umuyagankuba G gakoreshwa mu kurema imfunguruzo za bose, kandi umurongo w'inzira a ni umubare gusa mu nzira y'inzira, si ikintu c'akaranga.

@@ -1,0 +1,8 @@
+question: 在 Bitcoin 的 P2P 網路握手程序中，在兩個節點開始主動轉送庫存和交易資料之前，必須滿足什麼特定條件？
+answer: 兩個節點必須互相交換版本和 verack 訊息
+wrong_answers:
+  - 連線節點必須收到核心開發人員的 DNS seed 確認
+  - 「兩個節點必須互相驗證區塊高度和鏈尖切細值」
+  - 「接收節點必須驗證連線節點的對等憑證」
+explanation: |
+  Bitcoin P2P 握手需要雙向交換，連接節點傳送版本訊息，接收者回覆 verack 及其自己的版本訊息，原始傳送者回覆其 verack。只有在這個完整的四訊息交換 (version→verack+version→verack) 之後，節點才能開始主動通訊。DNS 種子只用於初始對等體發現，而不是握手。Bitcoin 不使用憑證，連線建立後才會進行連線鏈驗證。

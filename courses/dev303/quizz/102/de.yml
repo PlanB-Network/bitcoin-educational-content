@@ -1,0 +1,8 @@
+question: Was ist der grundlegende Unterschied zwischen LDKs Blockchain-Integrationsansatz und herkömmlichen Lightning-Knoten in Bezug auf ressourcenbeschränkte Umgebungen?
+answer: LDK bietet eine auf Filterung basierende Abstraktion, die es Anwendungen ermöglicht, die Überwachung durch leichtgewichtige Datenquellen wie Electrum-Server zu implementieren
+wrong_answers:
+  - LDK erfordert eine vollständige Blockchain-Synchronisierung, optimiert aber die Speicherung durch komprimierte Blockheader und Mechanismen zur Transaktionsbeschneidung
+  - LDK implementiert ein benutzerdefiniertes Blockchain-Protokoll, das die Bandbreite reduziert, indem nur kanalrelevante Transaktionen im Speicher gehalten werden
+  - LDK verwendet einen hybriden Konsensmechanismus, der nur Lightning-bezogene Transaktionen validiert und Standard-Bitcoin-Operationen ignoriert
+explanation: |
+  Die Blockchain-Integration von LDK ist mit zwei Modi konzipiert: Vollblockmodus für ressourcenreiche Umgebungen und filterbasierter Modus für eingeschränkte Umgebungen. Der Filterungsansatz ermöglicht es LDK, seine Überwachungsanforderungen über abstrakte Schnittstellen zu kommunizieren und die Überwachung bestimmter Transaktionen, UTXOs oder Skriptmuster anzufordern. Anwendungen können diese Überwachung dann mithilfe von leichtgewichtigen Quellen wie Electrum-Servern oder Blockexplorern implementieren, wodurch die Anforderungen an Bandbreite und Speicherplatz im Vergleich zur vollständigen Blockchain-Synchronisierung drastisch reduziert werden. Diese Abstraktion ermöglicht es mobilen Wallets und Webanwendungen, die Lightning-Funktionalität ohne den Ressourcen-Overhead aufrechtzuerhalten, den traditionelle Lightning-Knoten benötigen.

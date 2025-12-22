@@ -509,6 +509,6 @@ Embora a aplicação exija um investimento inicial em infraestrutura e aprendiza
 
 
 
-- [Grupo comunitário do Telegrama Specter] (https://t.me/spectersupport)
+- [Grupo comunitário do Telegrama Specter](https://t.me/spectersupport)
 - [Fórum de discussão do Reddit](https://reddit.com/r/specterdesktop/)
 - [Relatórios de erros do GitHub](https://github.com/cryptoadvance/specter-desktop/issues)

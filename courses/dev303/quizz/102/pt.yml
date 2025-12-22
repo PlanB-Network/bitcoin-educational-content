@@ -1,0 +1,8 @@
+question: Qual é a diferença fundamental entre a abordagem de integração de blockchain da LDK e os nós Lightning tradicionais em relação a ambientes com recursos limitados?
+answer: O LDK fornece uma abstração baseada em filtragem que permite às aplicações implementar a monitorização através de fontes de dados leves como os servidores Electrum
+wrong_answers:
+  - O LDK requer a sincronização total da cadeia de blocos, mas optimiza o armazenamento através de cabeçalhos de blocos comprimidos e mecanismos de eliminação de transacções
+  - A LDK implementa um protocolo de blockchain personalizado que reduz a largura de banda, mantendo na memória apenas as transacções relevantes para o canal
+  - O LDK utiliza um mecanismo de consenso híbrido que valida apenas as transacções relacionadas com o Lightning, ignorando as operações normais do Bitcoin
+explanation: |
+  A integração de blockchain do LDK foi projetada com dois modos: modo de bloco completo para ambientes ricos em recursos e modo baseado em filtragem para ambientes restritos. A abordagem de filtragem permite que o LDK comunique suas necessidades de monitoramento por meio de interfaces abstratas, solicitando a vigilância de transações específicas, UTXOs ou padrões de script. Os aplicativos podem então implementar esse monitoramento usando fontes leves como servidores Electrum ou exploradores de blocos, reduzindo drasticamente os requisitos de largura de banda e armazenamento em comparação com a sincronização completa do blockchain. Esta abstração permite que as carteiras móveis e as aplicações Web mantenham a funcionalidade Lightning sem a sobrecarga de recursos que os nós Lightning tradicionais exigem.

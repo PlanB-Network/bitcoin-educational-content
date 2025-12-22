@@ -1,0 +1,8 @@
+question: 哪个 Python 函数专门用于在加密操作中执行高效的模态指数运算？
+answer: pow(base, exp, mod)
+wrong_answers:
+  - 调制(基数, 指数, 质数)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Python 内置的 pow(base, exp, mod) 函数是专为高效模态指数化而设计的，这对于涉及大指数的加密操作至关重要。该函数使用优化算法来计算 (base^exp) mod mod，而无需先计算 base^exp 的潜在巨大中间结果。其他选项都不是有效的 Python 函数--在 Python 标准库中，不存在具有这些参数模式的用于加密模块运算的 mod()、exp() 和 mult()。

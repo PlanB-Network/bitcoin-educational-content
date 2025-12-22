@@ -1,0 +1,8 @@
+question: Hva er den mest hensiktsmessige responsen når en Bitcoin-applikasjon støter på en ugyldig inndatafeil, for eksempel når den mottar en negativ verdi for et felt som bare krever positive heltall?
+answer: Avviser inndataene og returnerer en feilmelding til den som ringer
+wrong_answers:
+  - Konverter den negative verdien til absoluttverdien og fortsett behandlingen
+  - Loggfør feilen, men fortsett operasjonen med en standardverdi
+  - Avslutt hele applikasjonen umiddelbart for å forhindre datakorrupsjon
+explanation: |
+  Ugyldige inputfeil representerer kontraktsbrudd mellom den som kaller opp og funksjonen, der de oppgitte parameterne ikke oppfyller funksjonens krav. Den riktige tilnærmingen er å avvise inndataene og returnere en feilindikasjon, slik at den som kaller opp funksjonen, kan håndtere situasjonen på riktig måte. Konvertering av negative verdier til positive verdier maskerer feilen og kan føre til utilsiktet oppførsel. Bruk av standardverdier ignorerer oppringerens intensjon og kan behandle feil data. Å avslutte hele applikasjonen er overdrevet ved feil i inndatavalidering og vil skape en dårlig brukeropplevelse i Bitcoin-applikasjoner der elegant feilhåndtering er avgjørende.

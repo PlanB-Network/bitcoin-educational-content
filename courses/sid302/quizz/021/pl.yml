@@ -1,0 +1,8 @@
+question: Jaką podstawową korzyść biznesową zapewnia 2-minutowy czas rozliczenia Liquid w porównaniu z tradycyjnymi systemami finansowymi?
+answer: Zmniejsza ryzyko kontrahenta, umożliwiając rozrachunek atomowy, w którym dostawa i płatność następują jednocześnie
+wrong_answers:
+  - Eliminuje potrzebę zgodności z przepisami i wymogami KYC w handlu aktywami
+  - Umożliwia nieograniczoną skalowalność dla transakcji o wysokiej częstotliwości bez żadnych opłat transakcyjnych
+  - Umożliwia automatyczne odkrywanie cen dzięki wbudowanym algorytmom tworzenia rynku
+explanation: |
+  Dwuminutowy rozrachunek Liquid umożliwia rozrachunek atomowy, który ma kluczowe znaczenie dla zmniejszenia ryzyka kontrahenta, ponieważ obie strony otrzymują należne im kwoty jednocześnie, eliminując lukę, w której jedna ze stron może nie wywiązać się ze swoich zobowiązań. Tradycyjny rozrachunek T+2 tworzy okno, w którym istnieje ryzyko kontrahenta. Inne opcje są nieprawidłowe: Liquid nadal wymaga zgodności za pośrednictwem AMP, ma opłaty transakcyjne i limity skalowania oraz nie zapewnia automatycznego tworzenia rynku.

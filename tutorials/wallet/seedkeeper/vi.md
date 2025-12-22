@@ -125,7 +125,7 @@ Nếu bạn muốn sử dụng chức năng sao lưu của Seedkeeper, rõ ràng
 
 
 
-Trong hướng dẫn này, chúng ta sẽ sao lưu danh mục đầu tư seed của mình trên Seedkeeper. Bước đầu tiên là cài đặt phần mềm trên máy tính hoặc điện thoại thông minh. Trên PC, bạn cần tải xuống phiên bản mới nhất của Satochip-Utils (https://github.com/Toporin/Satochip-Utils/releases). Trên thiết bị di động, ứng dụng Seedkeeper có sẵn trên [Google Play Store] (https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) cũng như trên [Apple App Store] (https://apps.apple.com/be/app/seedkeeper/id6502836060).
+Trong hướng dẫn này, chúng ta sẽ sao lưu danh mục đầu tư seed của mình trên Seedkeeper. Bước đầu tiên là cài đặt phần mềm trên máy tính hoặc điện thoại thông minh. Trên PC, bạn cần tải xuống phiên bản mới nhất của Satochip-Utils (https://github.com/Toporin/Satochip-Utils/releases). Trên thiết bị di động, ứng dụng Seedkeeper có sẵn trên [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) cũng như trên [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

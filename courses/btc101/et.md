@@ -85,7 +85,6 @@ Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile mee
 
 Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 ## Bitcoini eelajalugu
 
@@ -208,7 +207,7 @@ Nende kriteeriumide täitmiseks on valuuta ajalooliselt arenenud erinevate sammu
 
 Valuutad arenevad tänaseni, kohandades oma vorme erinevate kasutusviiside jaoks. Nagu me ütlesime, on kuld küll suurepärane väärtuse säilitaja, kuid praeguses globaliseerunud majanduses ei sobi see enam. Samamoodi on sellised fiduciary valuutad nagu dollar ja euro väga likviidsed ja kergesti transporditavad, sest need on nüüd enamasti digitaalsed, kuid nende väärtust alandab pidevalt rahapoliitiline inflatsioon.
 
-Teisest küljest pakub Bitcoin uusi võimalusi. Selle omadused, näiteks rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Lisaks sellele on see neutraalse internetivaluutana elujõuline **vahetusvahend**, mis ei tunne piire. Siiski ei ole see tänapäeval kaubanduses veel laialdaselt aktsepteeritud, vaatamata selle [pidevale kasutuselevõtule](https://btcmap.org/map).
+Teisest küljest avab Bitcoin uusi väljavaateid. Selle omadused, eeskätt rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Samuti kujutab see neutraalse internetirahadena elujõulist **vahetusvahendit**, mis suudab ületada piire. Siiski, hoolimata pidevast kasutuselevõtust (nagu näitab [BTCmapi kaart](https://btcmap.org/map)), ei ole see täna kaubanduses veel laialdaselt aktsepteeritud.
 
 ## Usaldusvaluutad
 
@@ -639,7 +638,7 @@ Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Bloc
 
 Selle esimese praktika kõrval on pärimisplaani koostamine oluline samm, et tagada teie bitcoinide nõuetekohane haldamine pärast teie surma. See plaan hõlmab käsitsi kirjutatud kirja, milles kirjeldate oma varade olemust, nende kasutusviise ja nende eest vastutavate usaldusisikute kontaktandmeid. Samuti on oluline arutada bitcoinide pärandamist notariga, et tagada maksukohustuse täitmine, isegi kui sellele isikule ei tohiks kunagi usaldada otseselt teie bitcoinide haldamist.
 
-Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
+Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
 
 ![image](assets/et/037.webp)
 
@@ -716,7 +715,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 > "Valitsused on tublid, kui nad lõikavad keskmiselt pead maha
 > kontrollitud võrgud nagu Napster, kuid puhtad P2P-võrgud nagu
 > Gnutella ja Tor näivad end hoidvat." - Satoshi Nakamoto
-> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi] (https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
+> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi](https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
 
 Mõnede jaoks on Bitcoin määratletud kui seeneolend nagu [mütseel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), samas kui teised kirjeldavad seda kui [musta auku](https://dergigi.com/). Armastage või vihkake seda, Bitcoin jätkab oma pideva rütmiga (10 minutit ploki kohta) nagu uue rahasüsteemi südamelöök.
 
@@ -755,7 +754,7 @@ Selles etapis on tehing loodud ja Bobi rahakott jagab seda Bitcoini võrguga. Se
 
 Sel hetkel, kuigi see tehing on kõigile teada (Mempool-nimelise tööriista kaudu), ei saa seda kinnitada enne, kui kaevandaja, kes on ainus, kes tehingute kinnitamiseks neid plokiahelasse lisab, seda plokki sisestab.
 
-Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "proof of work", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
+Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
 
 ![image](assets/et/047.webp)
 
@@ -838,7 +837,7 @@ Pärast seda võitu aktiveerisid sõlmed uuenduse nimega SegWit, sillutades teed
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat ASIC-masinate abil, et lahendada Bitcoini töötõendit **
+**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat [ASIC](https://planb.academy/resources/glossary/asic)-masinate abil, et lahendada Bitcoini töötõendit **
 
 ![image](assets/et/054.webp)
 
@@ -1044,9 +1043,11 @@ Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Sa
 
 Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
 
-![image](assets/et/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
+*Allikas : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
 
 ### Miks me peaksime selle ostmise asemel Bitcoini vastu võtma?
 

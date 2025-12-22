@@ -93,7 +93,7 @@ Cihazda gezinme basittir: sağa kaydırmak için sağ düğmeyi, sola kaydırmak
 
 
 
-Bu eğitimde, Trezor Safe 3'ü [Sparrow wallet Wallet yönetim yazılımı] (https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nın yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
+Bu eğitimde, Trezor Safe 3'ü [Sparrow wallet Wallet yönetim yazılımı](https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nın yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
 
 
 
@@ -385,7 +385,7 @@ Hardware Wallet'inizde düzenli ürün yazılımı güncellemeleri yapmak ya da 
 
 
 
-Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 

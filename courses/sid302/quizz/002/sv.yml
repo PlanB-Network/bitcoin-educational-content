@@ -1,0 +1,8 @@
+question: Hur ofta genereras nya block i Liquid Network?
+answer: Varje minut
+wrong_answers:
+  - Var 10:e minut
+  - Var 30:e sekund
+  - Var 5:e minut
+explanation: |
+  Liquid Network producerar block varje minut i ett deterministiskt round-robin-förfarande, vilket är mycket snabbare och mer förutsägbart än Bitcoin:s probabilistiska 10-minutersintervall. Denna exakta timing på en minut är avgörande för nätverkets användningsområden som arbitrage och snabb avveckling mellan börser, vilket ger den hastighet som krävs för institutionella handelsoperationer.

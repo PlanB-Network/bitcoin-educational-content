@@ -1,0 +1,8 @@
+question: Koja je primarna razlika između povratljivih i nepovratljivih grešaka u Rust sistemu za rukovanje greškama?
+answer: Povratljive greške mogu se elegantno obraditi omogućavajući programima da nastave, dok nepovratljive greške prekidaju program.
+wrong_answers:
+  - Povratljive greške koriste panic! makro dok nepovratljive greške koriste Result enum za pravilno upravljanje greškama
+  - Greške koje se mogu ispraviti javljaju se tokom vremena kompajliranja, dok se nepopravljive greške dešavaju samo tokom izvršavanja programa.
+  - Greške koje se mogu oporaviti zahtevaju odmotavanje steka dok se greške koje se ne mogu oporaviti mogu ignorisati od strane pozivajućeg koda.
+explanation: |
+  Rust kategorizuje greške na osnovu toga da li programi mogu razumno da se oporave od njih. Greške koje se mogu oporaviti predstavljaju očekivane uslove neuspeha kao što su nedostajuće datoteke ili mrežni problemi koje programi mogu elegantno da reše koristeći Result tipove, omogućavajući nastavak izvršavanja uz odgovarajuće rukovanje greškama. Neopozive greške ukazuju na osnovne probleme kao što su kršenja bezbednosti memorije ili logičke greške gde program ne može bezbedno da nastavi, izazivajući panike koje prekidaju izvršavanje kako bi se sprečila dalja korupcija.

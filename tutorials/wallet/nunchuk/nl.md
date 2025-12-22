@@ -394,7 +394,7 @@ U bevindt zich in _Home_, waar u de nieuw aangemaakte Wallet ziet met de balans 
 
 
 - Met het lenspictogram in de rechterbovenhoek kun je een transactie zoeken;
-- `View Wallet config` geeft toegang tot het configuratiemenu, waar je de naam van de Wallet kunt wijzigen en geavanceerde opties kunt inschakelen, rechtsboven (waarvan je geen screenshots kunt krijgen). Hier kun je de Wallet configuratie exporteren, labels, toetsen vervangen, de [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) veranderen en meer.
+- `View Wallet config` geeft toegang tot het configuratiemenu, waar je de naam van de Wallet kunt wijzigen en geavanceerde opties kunt inschakelen, rechtsboven (waarvan je geen screenshots kunt krijgen). Hier kun je de Wallet configuratie exporteren, labels, toetsen vervangen, de [gap limit](https://planb.academy/en/resources/glossary/gap-limit) veranderen en meer.
 
 
 

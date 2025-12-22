@@ -94,7 +94,7 @@ Um Ihren SeedSigner zu bauen, benötigen Sie die folgenden Komponenten:
 
 - Gehäuse (optional, aber empfohlen)** (optional, aber empfohlen)** (optional, aber empfohlen)** (optional, aber empfohlen)**)
     - Schützt das Gerät und macht es einfach zu bedienen.
-    - Das beliebteste Modell ist das "*Orange Pill Case*", für das [Open-Source STL-Dateien für den 3D-Druck verfügbar sind] (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Das beliebteste Modell ist das "*Orange Pill Case*", für das [Open-Source STL-Dateien für den 3D-Druck verfügbar sind](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Die Boxen sind auch bei [unabhängigen, mit dem Projekt verbundenen Wiederverkäufern] erhältlich (https://seedsigner.com/hardware/).
 
 
@@ -207,7 +207,7 @@ Das erwartete Ergebnis ist ein `OK` neben der `.img` Datei. Dies bestätigt, das
 
 
 
-Unter Windows ist das Verfahren ähnlich, aber die Befehle sind anders. Beginnen Sie mit der Installation von [Gpg4win] (https://www.gpg4win.org/) und öffnen Sie die Anwendung *Kleopatra*. Importieren Sie den öffentlichen Schlüssel des SeedSigner-Projekts von der URL Keybase :
+Unter Windows ist das Verfahren ähnlich, aber die Befehle sind anders. Beginnen Sie mit der Installation von [Gpg4win](https://www.gpg4win.org/) und öffnen Sie die Anwendung *Kleopatra*. Importieren Sie den öffentlichen Schlüssel des SeedSigner-Projekts von der URL Keybase :
 
 
 
@@ -1239,4 +1239,4 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-*Hinweis: Einige der Bilder in diesem Tutorial stammen von der [offiziellen SeedSigner-Projekt-Website] (https://seedsigner.com/) und dem [GitHub-Repository] (https://github.com/SeedSigner/seedsigner)
+*Hinweis: Einige der Bilder in diesem Tutorial stammen von der [offiziellen SeedSigner-Projekt-Website](https://seedsigner.com/) und dem [GitHub-Repository](https://github.com/SeedSigner/seedsigner)

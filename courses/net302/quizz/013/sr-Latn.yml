@@ -5,5 +5,5 @@ wrong_answers:
   - RFC
   - Google
 explanation: |
-  Internet Assigned Numbers Authority (IANA) upravlja Assignment brojevima verzija IP protokola i dodelom opsega protokola.
-reviewed: false
+  Internet Assigned Numbers Authority (IANA) upravlja dodelom brojeva verzija IP protokola i raspodelom protokolskih opsega (eng. protocol ranges).
+reviewed: true

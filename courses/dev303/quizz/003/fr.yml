@@ -1,0 +1,8 @@
+question: Quelle commande Cargo effectue des contrôles de compilation sans générer de fichier exécutable ?
+answer: contrôle du fret
+wrong_answers:
+  - construction d'une cargaison
+  - course de marchandises
+  - test de cargaison
+explanation: |
+  La commande "cargo check" effectue tous les contrôles de compilation et vérifie que votre code se compile correctement sans générer le fichier exécutable final. Elle est donc beaucoup plus rapide qu'une compilation complète lorsque vous souhaitez simplement vérifier l'exactitude du code. En revanche, 'cargo build' compile et génère des fichiers exécutables, 'cargo run' compile et exécute le programme, et 'cargo test' compile et exécute des tests.

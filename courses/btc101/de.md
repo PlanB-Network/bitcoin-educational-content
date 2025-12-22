@@ -83,7 +83,6 @@ Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
-**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 ## Die Vorgeschichte von Bitcoin
 
@@ -127,7 +126,7 @@ Die nachstehende Abbildung veranschaulicht die Entwicklung der Bewegung durch ih
 
 ![image](assets/de/005.webp)
 
-In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis (proof of work) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
+In diesem fruchtbaren Umfeld veröffentlichte der geheimnisvolle Satoshi Nakamoto im Jahr 2008 das Bitcoin-Whitepaper. In diesem Dokument kombinierte er mehrere Ideen aus der Cypherpunk-Bewegung, wie den Arbeitsnachweis ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) und kryptografische Zeitstempel (cryptographic timestamps), um eine dezentrale und zensurresistente digitale Währung zu schaffen.
 
 Bitcoin war jedoch mehr als nur das: Er repräsentierte die Verwirklichung der Cypherpunk-Ideale. Über seine Technologie hinaus symbolisierte er eine Revolution gegen traditionelle Finanzsysteme und bot eine Alternative, die auf Transparenz, Dezentralisierung und individueller Souveränität basierte.
 
@@ -206,7 +205,7 @@ Um diese Kriterien zu erfüllen, hat sich die Währung in der Vergangenheit in v
 
 Währungen entwickeln sich auch heute noch weiter und passen ihre Formen an die verschiedenen Verwendungszwecke an. Wie wir bereits sagten, ist Gold zwar ein ausgezeichneter Wertaufbewahrer, aber für die heutige globalisierte Wirtschaft nicht mehr geeignet. Auch Fiat-Währungen wie der Dollar und der Euro sind sehr liquide und leicht zu transportieren, da sie heute größtenteils digital sind, aber ihr Wert wird durch die Geldinflation ständig gesenkt.
 
-Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie das streng begrenzte Angebot, machen ihn zu einem hervorragenden Wertaufbewahrungsmittel. Außerdem dient er als neutrale Internetwährung als praktikables **Tauschmittel**, das Grenzen überschreitet. Allerdings ist er trotz seiner [ständigen Verbreitung](https://btcmap.org/map) im Handel noch nicht weithin akzeptiert.
+Andererseits eröffnet Bitcoin neue Perspektiven. Seine Eigenschaften, insbesondere ein strikt begrenztes Angebot, machen ihn zu einem hervorragenden Wertspeicher. Zudem stellt er als neutrale Internetwährung ein tragfähiges **Tauschmittel** dar, das Grenzen überwinden kann. Dennoch ist er trotz einer kontinuierlichen Adoption (wie die [BTCmap-Karte](https://btcmap.org/map) zeigt) im Handel bislang noch nicht weit verbreitet akzeptiert.
 
 ## Fiat-Währungen
 
@@ -370,7 +369,7 @@ Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt,
 
 ![image](assets/de/022.webp)
 
-Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "halving" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
+Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "[halving](https://planb.academy/resources/glossary/halving)" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -680,7 +679,7 @@ Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für
 
 ![image](assets/de/038.webp)
 
-Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "White Paper", in dem die Funktionsweise von Bitcoin erläutert wurde.
+Der 31. Oktober 2008 markiert die Geburtsstunde der neuen Finanztechnologie Bitcoin. An diesem Tag stellte der anonyme Satoshi Nakamoto der Welt seine Innovation in einer E-Mail an die Mailingliste der Cypherpunks vor, einer Gemeinschaft von Kryptographie-Enthusiasten, die sich für den Schutz der Privatsphäre im Internet einsetzen. Diese E-Mail enthielt ein Dokument namens "[White Paper](https://planb.academy/resources/glossary/white-paper)", in dem die Funktionsweise von Bitcoin erläutert wurde.
 
 Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der früheren Fehlschläge bei den Versuchen, ein digitales Bargeldsystem zu schaffen. Nichtsdestotrotz wurde dieses White Paper schließlich zu einer Referenz für Bitcoin-Nutzer und war im Laufe der Jahre Gegenstand vieler Debatten im Bitcoin-Ökosystem.
 
@@ -836,7 +835,7 @@ Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten dami
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
+**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch [ASIC](https://planb.academy/resources/glossary/asic)-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
 ![image](assets/de/054.webp)
 
@@ -1043,7 +1042,9 @@ Die Bitcoin-Ökonomie existiert und entwickelt sich in bestimmten Regionen der W
 
 Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelpersonen, Unternehmen und Organisationen, die Bitcoin als Zahlungsmittel für ihre Produkte oder Dienstleistungen akzeptieren.
 
-![image](assets/de/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Quelle : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Darüber hinaus wurde ein Open-Source- und Gemeinschaftsprojekt ins Leben gerufen, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), um die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern. Diese Plattform listet alle Händler auf, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften auf der ganzen Welt, so dass du ihre Website besuchen kannst, um das Bitcoin-Ökosystem um dich herum zu entdecken. Trotz der Schwierigkeiten und des Zögerns gibt es also Initiativen wie BTCMap, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen.
 
@@ -1116,7 +1117,7 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 
 **Vorsicht vor UTXO's**: Denk daran, deine UTXOs von Zeit zu Zeit in deinen Wallets zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
-Ein [UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
+Ein [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 

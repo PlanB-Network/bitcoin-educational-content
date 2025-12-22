@@ -1,0 +1,8 @@
+question: Breez SDK'nın tam zamanında kanal mekanizması, geleneksel Lightning uygulamalarının mücadele ettiği hangi kritik sorunu çözüyor?
+answer: Ödemeler geldiğinde yeterli gelen likiditeye sahip yeni kanalları otomatik olarak oluşturarak kullanıcıların kanal kapasitesini manuel olarak yönetme ihtiyacını ortadan kaldırır
+wrong_answers:
+  - Biri yanıt vermediğinde veya çevrimdışı olduğunda birden fazla kanaldaki fonları otomatik olarak yeniden dengeleyerek kanalın zorla kapatılmasını önler
+  - Birden fazla küçük ödemeyi, yoğun olmayan ağ saatlerinde işlenen daha büyük kanal işlemlerinde gruplayarak işlem ücretlerini azaltır
+  - Başarılı ödeme tamamlandıktan sonra otomatik olarak sona eren geçici kanallar oluşturarak gözetleme kulesi hizmetlerine olan ihtiyacı ortadan kaldırır
+explanation: |
+  Tam zamanında kanal mekanizması, özellikle Lightning'in fonların yalnızca kapasitenin mevcut olduğu yönlere akabileceği likidite yönetimi sorununu ele almaktadır. Bir kullanıcının bir ödeme alması gerektiğinde ancak yeterli gelen likiditesi olmadığında, LSP ödeme geldiği anda otomatik olarak yeni bir kanal açar ve kullanıcı müdahalesi olmadan sorunsuz bir şekilde gerçekleşir. Yanlış cevaplar diğer Lightning zorluklarını tanımlar ancak tam zamanında kanalların çözdüğü özel likidite sorununu tanımlamaz.

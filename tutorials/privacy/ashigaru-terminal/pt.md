@@ -41,7 +41,7 @@ Para instalar o Terminal Ashigaru, é necessário o Navegador Tor, pois os biná
 
 
 
-A partir do Navegador Tor, vá para [a página de lançamentos do seu repositório Git] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) para descarregar a última versão do Terminal Ashigaru para o seu sistema operativo.
+A partir do Navegador Tor, vá para [a página de lançamentos do seu repositório Git](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) para descarregar a última versão do Terminal Ashigaru para o seu sistema operativo.
 
 
 
@@ -73,7 +73,7 @@ Antes de executar o software no seu dispositivo, é necessário verificar a sua 
 
 
 
-Abra um novo separador do browser e aceda a [Keybase verification tool] (https://keybase.io/verify). Cole o conteúdo do ficheiro `.txt` que acabou de descarregar no campo fornecido e, em seguida, clique no botão `Verificar`.
+Abra um novo separador do browser e aceda a [Keybase verification tool](https://keybase.io/verify). Cole o conteúdo do ficheiro `.txt` que acabou de descarregar no campo fornecido e, em seguida, clique no botão `Verificar`.
 
 
 

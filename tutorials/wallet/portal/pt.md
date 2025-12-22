@@ -10,7 +10,7 @@ O que distingue o Portal de outras carteiras de hardware no mercado é a sua int
 
 ![Image](assets/fr/01.webp)
 
-Totalmente de código aberto, o Portal baseia-se num firmware escrito em Rust e utiliza o BDK (Bitcoin Dev Kit) para a gestão de chaves e transacções. É vendido por 89 euros [no sítio Web oficial] (https://store.twenty-two.xyz/products/portal-hardware-wallet).
+Totalmente de código aberto, o Portal baseia-se num firmware escrito em Rust e utiliza o BDK (Bitcoin Dev Kit) para a gestão de chaves e transacções. É vendido por 89 euros [no sítio Web oficial](https://store.twenty-two.xyz/products/portal-hardware-wallet).
 
 No momento em que escrevo, o Portal é compatível com as aplicações Nunchuk e Bitcoin Keeper. Neste tutorial, vamos configurá-lo com o Nunchuk.
 

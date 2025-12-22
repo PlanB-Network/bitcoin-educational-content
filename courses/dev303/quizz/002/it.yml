@@ -1,0 +1,8 @@
+question: Cosa succede quando si dichiara una variabile in Rust usando 'let x = 5' senza alcuna parola chiave aggiuntiva?
+answer: La variabile diventa immutabile e non può essere modificata dopo l'assegnazione
+wrong_answers:
+  - La variabile diventa mutabile e può essere modificata in qualsiasi momento
+  - La variabile viene ottimizzata automaticamente solo per le build di rilascio
+  - La variabile richiede l'annotazione esplicita del tipo per essere compilata correttamente
+explanation: |
+  In Rust, le variabili sono immutabili per impostazione predefinita quando sono dichiarate con 'let'. Ciò significa che una volta assegnato un valore a una variabile come "let x = 5", non è possibile modificarlo in seguito nel programma. Se si cerca di modificarlo, il compilatore produce un errore. Questa immutabilità predefinita è una caratteristica di sicurezza fondamentale che previene molti bug di programmazione comuni causati da cambiamenti di stato inattesi. Per rendere mutabile una variabile, è necessario utilizzare esplicitamente la parola chiave "mut", come "let mut x = 5".

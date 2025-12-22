@@ -1,0 +1,8 @@
+question: Hva er den viktigste forskjellen mellom hvordan lånebrudd håndteres med vanlige Rust-referanser og RefCell?
+answer: Vanlige referanser forårsaker kompileringsfeil, mens RefCell forårsaker panikk under kjøring
+wrong_answers:
+  - Vanlige referanser forårsaker panikk under kjøring, mens RefCell forårsaker feil under kompilering
+  - Vanlige referanser tillater flere muterbare lån, mens RefCell håndhever én muterbar tilgang
+  - Vanlige referanser krever eksplisitte levetidsannotasjoner, mens RefCell bruker automatisk opprydding
+explanation: |
+  RefCell flytter Rusts håndheving av lånereglene fra kompileringstid til kjøretid. Mens kompilatoren statisk analyserer vanlige referanser og forhindrer brudd på lånereglene før programmet kjøres, utfører RefCell de samme sikkerhetskontrollene under kjøring av programmet. Dette gjør at RefCell kan omgå kompilatorens konservative restriksjoner i tilfeller der programmereren vet at koden er sikker, men der brudd resulterer i panikk under kjøring i stedet for kompileringsfeil.

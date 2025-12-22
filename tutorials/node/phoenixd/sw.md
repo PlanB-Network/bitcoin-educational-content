@@ -99,7 +99,7 @@ Phoenixd inahitaji mazingira ya Linux (Ubuntu/Debian inapendekezwa), yenye ujuzi
 
 
 
-Nenda kwenye ukurasa wa [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) na upakue toleo jipya zaidi la usanifu wako:
+Nenda kwenye ukurasa wa [GitHub releases](https://github.com/ACINQ/phoenixd/releases) na upakue toleo jipya zaidi la usanifu wako:
 
 
 

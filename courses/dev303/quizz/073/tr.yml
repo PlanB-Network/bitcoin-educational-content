@@ -1,0 +1,8 @@
+question: Rust hata işlemede unwrap() veya expect() yöntemleri yerine soru işareti operatörü (?) ne zaman tercih edilmelidir?
+answer: Çağıran işlevin işlemesi için hataları çağrı yığınına yaymanız gerektiğinde
+wrong_answers:
+  - Başarısız işlemlerde hata ayıklama için özel hata mesajları sağlamak istediğinizde
+  - İşlemin başarılı olacağından emin olduğunuzda ve hata işlemeyi önlemek istediğinizde
+  - Hataları varsayılan bir değere dönüştürmeniz ve program yürütmeye devam etmeniz gerektiğinde
+explanation: |
+  Soru işareti işleci (?) hata yayılımı için tasarlanmıştır - başarı değerlerini çıkarır ancak hataları geçerli işlevden hemen döndürerek çağıranların bunları ele almasına izin verir. Hatalarda panik yapan unwrap()/expect() veya varsayılanları sağlayan unwrap_or()'un aksine, ? operatörü hata bağlamını korur ve sorumluluğu uygun işleme kararlarını verebilecek daha üst düzey kodlara aktarır.

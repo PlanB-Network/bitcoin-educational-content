@@ -72,7 +72,7 @@ Diese Architektur ist jedoch von Tailscale Inc. für die Netzwerkkoordination ab
 
 
 
-**Für eine detaillierte Erklärung der inneren Funktionsweise von Tailscale, einschließlich Control-Plane-Management, NAT-Traversal und DERP-Relais, empfehlen wir den ausgezeichneten Artikel** [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) **auf dem offiziellen Blog. Dieser Artikel erklärt ausführlich die technischen Konzepte, die Tailscale so leistungsfähig machen.**
+**Für eine detaillierte Erklärung der inneren Funktionsweise von Tailscale, einschließlich Control-Plane-Management, NAT-Traversal und DERP-Relais, empfehlen wir den ausgezeichneten Artikel** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) **auf dem offiziellen Blog. Dieser Artikel erklärt ausführlich die technischen Konzepte, die Tailscale so leistungsfähig machen.**
 
 
 
@@ -169,7 +169,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Dieses Skript wird das offizielle Tailscale-Repository hinzufügen und das Paket installieren. Sie können auch [manuell das APT-Repository hinzufügen] (https://pkgs.tailscale.com) oder normale Snap- oder apt-Pakete verwenden. Nach der Installation wird daemon `tailscaled` im Hintergrund laufen. Sie müssen dann den Knoten **authentifizieren** (siehe Interface CLI vs. Web unten). Bei anderen Distributionen (Fedora, Arch...) ist das Paket auch über die Standard-Repositories oder das universelle Installationsskript verfügbar. Für einen Headless-Server verwenden Sie CLI: zum Beispiel `sudo tailscale up --auth-key <key>`, wenn Sie einen vorgenerierten Authentifizierungsschlüssel verwenden, oder einfach `tailscale up` für eine interaktive Anmeldung (die eine URL zur Authentifizierung des Geräts bereitstellt).
+Dieses Skript wird das offizielle Tailscale-Repository hinzufügen und das Paket installieren. Sie können auch [manuell das APT-Repository hinzufügen](https://pkgs.tailscale.com) oder normale Snap- oder apt-Pakete verwenden. Nach der Installation wird daemon `tailscaled` im Hintergrund laufen. Sie müssen dann den Knoten **authentifizieren** (siehe Interface CLI vs. Web unten). Bei anderen Distributionen (Fedora, Arch...) ist das Paket auch über die Standard-Repositories oder das universelle Installationsskript verfügbar. Für einen Headless-Server verwenden Sie CLI: zum Beispiel `sudo tailscale up --auth-key <key>`, wenn Sie einen vorgenerierten Authentifizierungsschlüssel verwenden, oder einfach `tailscale up` für eine interaktive Anmeldung (die eine URL zur Authentifizierung des Geräts bereitstellt).
 
 
 
@@ -635,4 +635,4 @@ Tailscale ist dank seiner Einfachheit und Effizienz ein unverzichtbares Werkzeug
 
 
 
-Tailscale bietet regelmäßig neue Inhalte und Funktionen. Besuchen Sie den [offiziellen Blog] (https://tailscale.com/blog/) für die neuesten Nachrichten und Fallstudien.
+Tailscale bietet regelmäßig neue Inhalte und Funktionen. Besuchen Sie den [offiziellen Blog](https://tailscale.com/blog/) für die neuesten Nachrichten und Fallstudien.

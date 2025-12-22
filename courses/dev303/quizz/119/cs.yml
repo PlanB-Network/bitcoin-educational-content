@@ -1,0 +1,8 @@
+question: Které zásadní architektonické omezení sady Lightning Development Kit (LDK) vytváří nejvážnější provozní riziko pro uživatele mobilních sítí wallet při prudkých nárůstech síťových poplatků?
+answer: Absence kotevních výstupů zabraňujících nucenému uzavření kanálu, když přednastavené poplatky nestačí k potvrzení transakce
+wrong_answers:
+  - Chybějící podpora LNURL, která vyžaduje ruční generování faktur a zpracování plateb pro všechny transakce Lightning
+  - Chybějící synchronizace síťového grafu způsobující selhání směrování plateb při restartování mobilních aplikací po delší době
+  - Nedostatečná správa rezervy kanálu, která vede k zablokování fondu, když se uživatelé pokusí utratit celý zobrazený zůstatek
+explanation: |
+  Absence kotevních výstupů v LDK vytváří kritickou zranitelnost, kdy kanály nemohou být násilně uzavřeny během poplatkových skoků, protože přednastavené poplatky se stanou nedostatečnými pro potvrzení blockchainu. To je obzvláště nebezpečné pro mobilní peněženky, kde mohou uživatelé opustit aplikaci bez kooperativního uzavření, což může způsobit, že finanční prostředky zůstanou na neurčito. Zatímco absence LNURL ovlivňuje uživatelskou zkušenost a problémy se směrováním mají dopad na spolehlivost, ani jedno z toho nevytváří existenční riziko pro obnovu prostředků, které představuje omezení výstupu kotvy během prostředí s vysokými poplatky.

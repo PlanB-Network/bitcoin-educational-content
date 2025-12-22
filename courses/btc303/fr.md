@@ -665,7 +665,7 @@ Ce chapitre examine la limite de Bitcoin de 21 millions de BTC, ou combien est-e
 La fameuse quantité finie de 21 millions de BTC est considérée comme une propriété fondamentale de Bitcoin. Mais est-elle vraiment gravée dans le marbre ?
 
 
-Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur la pile Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
+Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur StackExchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
 
 
 > Si vous additionnez tous ces chiffres, vous obtenez 20999999.9769 BTC.
@@ -898,7 +898,7 @@ Ce que Corallo propose est une combinaison d'un Soft Fork activé par mineur et 
 Lorsque Taproot a été prêt à être déployé en octobre 2020, c'est-à-dire lorsque tous les détails techniques relatifs aux règles de consensus ont été mis en œuvre et ont été largement approuvés par la communauté, les discussions sur la manière de le déployer ont commencé à s'intensifier. Jusqu'alors, ces discussions étaient restées assez discrètes.
 
 
-De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
+De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
 
 
 > Au moment de la rédaction du présent document, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) a été rédigé sur la base des enseignements tirés en 2017. Un changement notable suite aux BIP 9+148 est que l'activation forcée est désormais basée sur la hauteur du bloc plutôt que sur le temps médian passé ; un second changement notable est que l'activation forcée est un paramètre booléen choisi lorsque les paramètres d'activation d'un Soft Fork sont définis soit pour le déploiement initial, soit mis à jour lors d'un déploiement ultérieur.

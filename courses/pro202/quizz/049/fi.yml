@@ -1,0 +1,8 @@
+question: Mitkä ovat ne kaksi kriittistä tarkistusta, jotka Bitcoin-solmun on suoritettava vastaanottaessaan uuden lohkon ennen sen hyväksymistä lohkoketjuun?
+answer: Lohkon hash-arvon on oltava tavoitevaikeuden alapuolella ja lasketun Merkle-juuren on vastattava otsikon Merkle-juurta
+wrong_answers:
+  - Lohkon aikaleiman on oltava voimassa, ja kaikki transaktioiden allekirjoitukset on varmennettava salakirjoituksella
+  - Lohkon koon on oltava alle 1MB ja edellisen lohkon hash:n on viitattava tunnettuun kelvolliseen lohkoon
+  - Lohkon version on vastattava verkon konsensusta, ja transaktiopalkkioiden kokonaismäärän on oltava suurempi kuin mining-palkkio
+explanation: |
+  Bitcoin:n "älä luota, tarkista" -periaate edellyttää täsmälleen kahta perustavanlaatuista tarkistusta lohkon hyväksymiseksi: proof-of-work:n validointi (lohkon hash alle vaikeustavoitteen) ja transaktion eheyden todentaminen (Merkle root matching). Vaikka muut tarkistukset, kuten aikaleiman validointi, allekirjoituksen todentaminen ja kokorajat, ovat tärkeitä, näillä kahdella erityisellä tarkistuksella varmistetaan, että lohko täyttää vaikeusvaatimukset ja sisältää väitetyt transaktiot ilman peukalointia.

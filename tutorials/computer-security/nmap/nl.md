@@ -165,7 +165,7 @@ In dit gedeelte kijken we naar de belangrijkste toepassingen van het netwerkscan
 
 
 
-Nmap kan gebruikt worden voor netwerkdiagnose en, in bredere zin, voor monitoring. Net zoals een ping gebruikt kan worden om te bepalen of twee hosts communiceren, kan Nmap gebruikt worden om snel te bepalen of een host actief is, of een bepaalde dienst operationeel is. Dankzij [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kunnen we precieze gegevens verkrijgen over de reactietijd van een host, de route die pakketten afleggen, de respons van een specifieke dienst, enzovoort.
+Nmap kan gebruikt worden voor netwerkdiagnose en, in bredere zin, voor monitoring. Net zoals een ping gebruikt kan worden om te bepalen of twee hosts communiceren, kan Nmap gebruikt worden om snel te bepalen of een host actief is, of een bepaalde dienst operationeel is. Dankzij [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kunnen we precieze gegevens verkrijgen over de reactietijd van een host, de route die pakketten afleggen, de respons van een specifieke dienst, enzovoort.
 
 
 
@@ -312,7 +312,7 @@ In deze sectie leren we hoe we de Nmap netwerkscan tool kunnen installeren op Li
 
 
 
-Nmap is oorspronkelijk ontworpen om op GNU/Linux besturingssystemen te draaien. Als gevolg hiervan, en dankzij zijn lange levensduur en populariteit, vind je het in alle officiële repositories van de grote Unix distributies. In deze tutorial gebruik ik een Debian-gebaseerd besturingssysteem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Maar je kunt het op precies dezelfde manier gebruiken als een klassieke Debian, CentOS, Red Hat of wat dan ook!
+Nmap is oorspronkelijk ontworpen om op GNU/Linux besturingssystemen te draaien. Als gevolg hiervan, en dankzij zijn lange levensduur en populariteit, vind je het in alle officiële repositories van de grote Unix distributies. In deze tutorial gebruik ik een Debian-gebaseerd besturingssysteem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Maar je kunt het op precies dezelfde manier gebruiken als een klassieke Debian, CentOS, Red Hat of wat dan ook!
 
 
 
@@ -551,7 +551,7 @@ Denk er vanaf nu aan om alleen hosts in een gecontroleerde omgeving te scannen w
 
 
 
-- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -901,7 +901,7 @@ uDP pakketoverdracht en ICMP ontvangst (poort onbereikbaar) tijdens Nmap scan
 
 
 
-We kunnen op de bovenstaande schermafbeelding zien dat Nmap een groot aantal UDP pakketten verstuurt en als antwoord op de meeste pakketten een ICMP "Destination unreachable (Port unreachable)" pakket ontvangt. Dit is normaal, want het is het gepaste antwoord gedefinieerd door [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wanneer een UDP poort onbereikbaar is:
+We kunnen op de bovenstaande schermafbeelding zien dat Nmap een groot aantal UDP pakketten verstuurt en als antwoord op de meeste pakketten een ICMP "Destination unreachable (Port unreachable)" pakket ontvangt. Dit is normaal, want het is het gepaste antwoord gedefinieerd door [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wanneer een UDP poort onbereikbaar is:
 
 
 
@@ -3385,7 +3385,7 @@ Voordat u een netwerk of systeem scant, moet u ervoor zorgen dat u de juiste aut
 
 
 
-- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3437,7 +3437,7 @@ Zoals we door deze tutorial heen hebben gezien, kan Nmap erg langdradig zijn op 
 
 
 
-Om incidenten te voorkomen, moet je het gedrag van Nmap onder de knie krijgen en weten hoe je het aanpast aan de context waarin het wordt gebruikt, door middel van de verschillende opties die in deze tutorial worden besproken. We zullen Nmap niet noodzakelijkerwijs op dezelfde manier gebruiken op een informatiesysteem met industriële [hardware] (https://www.it-connect.fr/actualites/actu-materiel/) als in een gebruikersnetwerk dat bestaat uit Windows systemen die beschermd worden door een lokale firewall of in een netwerkkern.
+Om incidenten te voorkomen, moet je het gedrag van Nmap onder de knie krijgen en weten hoe je het aanpast aan de context waarin het wordt gebruikt, door middel van de verschillende opties die in deze tutorial worden besproken. We zullen Nmap niet noodzakelijkerwijs op dezelfde manier gebruiken op een informatiesysteem met industriële [hardware](https://www.it-connect.fr/actualites/actu-materiel/) als in een gebruikersnetwerk dat bestaat uit Windows systemen die beschermd worden door een lokale firewall of in een netwerkkern.
 
 
 

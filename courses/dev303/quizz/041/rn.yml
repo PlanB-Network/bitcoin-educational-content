@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo butatu ibipfukisho bishobora gufata ibihinduka biva mu bidukikije vyavyo muri Rust?
+answer: Kubera ivyerekanwa bidahinduka, ku vyerekeye ivyerekanwa bihinduka, canke mu gufata uburenganzira
+wrong_answers:
+  - Mu gukopa agaciro, mu kugurana ivyerekeye, canke mu gukuraho ivyerekeye
+  - Kubera ugutanga ikirundo, ku gutanga ikirundo, canke ku kubika ububiko
+  - Kubera kuronka, ku kuronka kwihariye, canke ku kuronka kumwe
+explanation: |
+  Ivyugarijwe muri Rust bifata ibihinduka vy’ibidukikije mu buryo butatu nyabwo: biciye ku nsiguro idahinduka (igihe bikeneye gusoma gusa), biciye ku nsiguro ihinduka (igihe bikeneye guhindura), canke mu gufata uburenganzira (igihe bikeneye kwimurira agaciro, kenshi kubera umutekano w’urudodo). Ico gikoresho gica gihitamwo uburyo buzitiye cane bushitsa ivyo gufunga bikeneye, akurikije ingingo ngenderwako y’agateka gatoyi.

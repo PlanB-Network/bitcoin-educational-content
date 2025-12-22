@@ -482,7 +482,7 @@ Estes exemplos podem ser utilizados em debates para explicar por que razão a in
 ![image](assets/pt/023.webp)
 
 
-Porque, como mostra esta [thread] (https://twitter.com/saifedean/status/1673639779433590786): A inflação é tudo exceto culpa dos bancos centrais.
+Porque, como mostra esta [thread](https://twitter.com/saifedean/status/1673639779433590786): A inflação é tudo exceto culpa dos bancos centrais.
 
 
 

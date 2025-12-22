@@ -137,7 +137,7 @@ Pada halaman ini, tempelkan URL relai Umbrel Anda yang telah Anda salin sebelumn
 
 
 
-**Koneksi:** noStrudel menawarkan beberapa opsi koneksi. Dalam kasus kami, kami akan memilih "Kunci Pribadi" dan menempelkan kunci pribadi Nostr yang telah dibuat sebelumnya. Jika Anda belum memiliki kunci, Anda dapat memasang ekstensi [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) untuk membuat dan/atau menyimpan kunci Nostr Anda dan dengan demikian dapat berkomunikasi dengan lebih aman dengan berbagai aplikasi Nostr.
+**Koneksi:** noStrudel menawarkan beberapa opsi koneksi. Dalam kasus kami, kami akan memilih "Kunci Pribadi" dan menempelkan kunci pribadi Nostr yang telah dibuat sebelumnya. Jika Anda belum memiliki kunci, Anda dapat memasang ekstensi [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) untuk membuat dan/atau menyimpan kunci Nostr Anda dan dengan demikian dapat berkomunikasi dengan lebih aman dengan berbagai aplikasi Nostr.
 
 
 

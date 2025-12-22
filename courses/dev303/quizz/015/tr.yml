@@ -1,0 +1,8 @@
+question: Rust'ın use-after-free ve buffer overflows gibi bellekle ilgili hataları önlemek için kullandığı birincil mekanizma nedir?
+answer: Statik analiz tamamen derleme zamanında gerçekleştirilir
+wrong_answers:
+  - Otomatik bellek temizleme ile çalışma zamanı çöp toplama
+  - Program yürütme sırasında dinamik bellek denetimi
+  - Açık tahsis çağrıları ile manuel bellek yönetimi
+explanation: |
+  Rust, derleyicinin kaynak kodu incelediği ve bellek işlemlerinin güvenli olup olmadığını kesin olarak belirlediği, tamamen derleme zamanında gerçekleştirilen statik analiz yoluyla bellekle ilgili hataları önler. Bu, çalışma zamanı ek yükü getiren çöp toplama (Java/Go tarafından kullanılır), çalışma zamanı doğrulama gerektiren dinamik kontrol ve programcı disiplinine dayanan manuel bellek yönetiminden (C/C++ tarafından kullanılır) farklıdır. Rust'in derleme zamanı yaklaşımı, çalışma zamanı maliyetleri veya öngörülemeyen duraklamalar olmadan bellek güvenliğini sağlar.

@@ -1,0 +1,8 @@
+question: Når du utvikler en egendefinert funksjonslignende makro i Rust, hva er hovedformålet med å bruke fragmentspesifikatorer som `expr`, `ty` og `ident` i mønstermatching?
+answer: For å definere hva slags kodeelementer som kan matches og sikre syntaktisk gyldig input
+wrong_answers:
+  - For å spesifisere returtypen til den genererte koden og optimalisere kompileringsytelsen
+  - For å bestemme eksekveringsrekkefølgen for makroforgreninger og håndtere kjøretidstypekontroll
+  - For å kontrollere minneallokeringsmønstre og definere regler for variabelomfang i utvidet kode
+explanation: |
+  Fragmentspesifikatorer i makromønstre fungerer som typebegrensninger som validerer syntaksen til inndatatokener under makroekspansjonen. De sikrer at makroen mottar riktig type kodeelement (uttrykk, type, identifikator osv.) og gir tydelige feilmeldinger når ugyldig syntaks oppstår. Dette skjer på kompileringstidspunktet under mønstermatching, ikke under kjøring, og de kontrollerer ikke direkte minneallokering, kjøringsrekkefølge eller returtyper i den genererte koden.

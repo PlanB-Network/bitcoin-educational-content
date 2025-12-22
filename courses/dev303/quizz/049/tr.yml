@@ -1,0 +1,8 @@
+question: RC, Box'ın Rust'ın sahiplik sisteminde üstesinden gelemediği hangi temel sorunu çözüyor?
+answer: RC, referans sayımı yoluyla aynı verinin birden fazla sahipliğini mümkün kılar
+wrong_answers:
+  - RC, Box'a göre daha hızlı bellek ayırma ve çıkarma sağlar
+  - RC, herhangi bir çalışma zamanı ek yükü olmadan otomatik bellek yönetimine izin verir
+  - RC, Box'ın gerçekleştiremediği derleme zamanı ödünç alma kontrollerini etkinleştirir
+explanation: |
+  RC (Referans Sayacı), birden fazla kod parçasının aynı verinin sahipliğini aynı anda paylaşmasına izin vererek Box'ın tek sahiplik modelinin sınırlamasını özellikle ele alır. Box, aynı anda yalnızca bir varlığın veriye sahip olabileceği geleneksel sahiplik kurallarını izler, bu da birden fazla listenin aynı kuyruk kısmına referans verdiği paylaşılan veri yapıları gibi senaryolar oluşturmayı imkansız hale getirir. RC, referansları izleyen, klonlandığında artan ve bırakıldığında azalan, yalnızca sayı sıfıra ulaştığında belleği serbest bırakan dahili bir sayaç tutar. Bu, Box'ın özel sahiplik yaklaşımından temelde farklı olan bellek güvenliğini korurken esnek veri paylaşım modellerine olanak tanır.

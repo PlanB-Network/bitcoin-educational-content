@@ -100,7 +100,7 @@ För att Manjaro ska fungera optimalt måste din dator uppfylla vissa minimikrav
 
 
 
-För att ladda ner, gå till [den officiella Manjaro-webbplatsen] (https://manjaro.org/) och välj den utgåva som bäst passar dina behov. När du har hämtat filen måste du skapa ett startbart USB-minne med Manjaros ISO-bild.
+För att ladda ner, gå till [den officiella Manjaro-webbplatsen](https://manjaro.org/) och välj den utgåva som bäst passar dina behov. När du har hämtat filen måste du skapa ett startbart USB-minne med Manjaros ISO-bild.
 
 
 

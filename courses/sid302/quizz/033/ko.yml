@@ -1,0 +1,8 @@
+question: Breez Liquid SDK의 트랜잭션 기능의 근본적인 한계는 무엇이며, 이는 전체 Lightning Network 노드와 어떻게 다른가요?
+answer: Liquid를 홈베이스로만 운영하기 때문에 라이트닝 대 라이트닝 또는 Bitcoin 대 Bitcoin 간 직접 거래는 수행할 수 없습니다
+wrong_answers:
+  - 크로스체인 스마트 컨트랙트를 지원하지 않기 때문에 서로 다른 블록체인 네트워크 간의 아토믹 스왑을 처리할 수 없습니다
+  - "Liquid Network의 내장된 트랜잭션 크기 제한으로 인해 0.1 BTC보다 큰 트랜잭션을 처리할 수 없습니다."
+  - 중앙 집중식 Breez 서버와 지속적으로 동기화해야 하므로 인터넷 연결 없이는 작동할 수 없습니다
+explanation: |
+  SDK는 Liquid을 '홈베이스'로 하여 작동하는 '엄격하게 Liquid 중심 도구'로 명시적으로 설명되어 있습니다 이 도구는 세 가지 특정 작업만 지원합니다: Liquid-to-Liquid, Liquid-to-Lightning, Liquid-to-Bitcoin입니다. 라이트닝 채널 간에 결제를 라우팅할 수 있는 전체 라이트닝 노드와 달리 Breez SDK는 라이트닝 간 직접 트랜잭션을 수행할 수 없으므로 기존 라이트닝 인프라와 근본적으로 다릅니다.

@@ -1,0 +1,8 @@
+question: Mục đích chính của kiểu liệt kê Option<T> của Rust là gì?
+answer: Để biểu diễn an toàn các giá trị có thể có hoặc không có, ngăn ngừa lỗi con trỏ null.
+wrong_answers:
+  - Lưu trữ nhiều kiểu dữ liệu khác nhau trong một biến duy nhất mà không cần kiểm tra kiểu dữ liệu.
+  - Để tạo các tham số tùy chọn trong định nghĩa hàm mà có thể bỏ qua trong quá trình gọi hàm.
+  - Cung cấp phương thức trả về nhiều loại lỗi khác nhau từ một hàm duy nhất.
+explanation: |
+  Kiểu liệt kê Option<T> đóng vai trò là giải pháp của Rust cho các vấn đề con trỏ null bằng cách buộc phải xử lý rõ ràng các giá trị bị thiếu. Nó có hai biến thể: Some(T) cho các giá trị hiện có và None cho các giá trị vắng mặt. Trình biên dịch yêu cầu bạn kiểm tra biến thể nào bạn đang sử dụng trước khi dùng giá trị, giúp ngăn ngừa lỗi thời gian chạy. Các câu trả lời sai nhầm lẫn Option với các khái niệm khác: union/variant (đầu tiên), tham số mặc định (thứ hai) và kiểu Result để xử lý lỗi (thứ ba).

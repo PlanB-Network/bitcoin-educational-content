@@ -145,7 +145,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Portfolios und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
+- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Portfolios und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream](https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
 - **Hauptmerkmale**:
 - **Onchain-Transaktionen** auf Blockchain Bitcoin.
     - Transaktionen über das **Liquid**-Netz (Sidechain für schnellen, vertraulichen Austausch).
@@ -170,10 +170,10 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Für Android**:
-    - Laden Sie [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
+    - Laden Sie [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
     - Alternativ: Installieren Sie über die APK-Datei, die auf [Blockstreams offiziellem GitHub](https://github.com/Blockstream/green_android) verfügbar ist.
 - Für **iOS**:
-    - Laden Sie [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
+    - Laden Sie [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
 - **Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
 
 

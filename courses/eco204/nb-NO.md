@@ -482,7 +482,7 @@ Disse eksemplene kan brukes i diskusjoner for å forklare hvorfor inflasjon ikke
 ![image](assets/nb-NO/023.webp)
 
 
-Fordi, som denne [tråden] (https://twitter.com/saifedean/status/1673639779433590786) viser: Inflasjon er alt annet enn sentralbankenes skyld.
+Fordi, som denne [tråden](https://twitter.com/saifedean/status/1673639779433590786) viser: Inflasjon er alt annet enn sentralbankenes skyld.
 
 
 
@@ -1119,7 +1119,7 @@ Weimarrepublikkens historie viser at man i denne perioden konfiskerte eiendeler 
 
 > Weimar: "All tysk kapital i utlandet var blitt konfiskert."
 
-> [20minutes.fr] (https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver i utlandet har blitt frosset som en del av de vestlige sanksjonene, av de 640 milliarder dollar i reserver som den russiske sentralbanken sitter på."
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver i utlandet har blitt frosset som en del av de vestlige sanksjonene, av de 640 milliarder dollar i reserver som den russiske sentralbanken sitter på."
 
 #### 3. Begrepet markedspris
 

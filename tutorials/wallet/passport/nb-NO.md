@@ -79,7 +79,7 @@ Neste trinn er å kontrollere enheten din. Dette bekrefter passets ekthet og sik
 
 ![Image](assets/fr/08.webp)
 
-Gå til [det offisielle verifikasjonsnettstedet] (https://validate.foundationdevices.com/) og velg "*Passport*".
+Gå til [det offisielle verifikasjonsnettstedet](https://validate.foundationdevices.com/) og velg "*Passport*".
 
 ![Image](assets/fr/09.webp)
 
@@ -135,7 +135,7 @@ Passet ditt er klart til å motta den nye fastvaren via et MicroSD-kort.
 
 ![Image](assets/fr/20.webp)
 
-For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site] (https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository] (https://github.com/Foundation-Devices/passport2/releases).
+For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site](https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
@@ -324,7 +324,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 I denne veiledningen skal jeg vise deg en avansert bruk av Passport med Sparrow Wallet. Denne maskinvarelommeboken er imidlertid også kompatibel med Envoy (Foundation-applikasjonen), Keeper, BlueWallet, Nunchuk, Specter og mange andre...
 
-Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet] (https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
+Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet](https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
 
 ![Image](assets/fr/54.webp)
 

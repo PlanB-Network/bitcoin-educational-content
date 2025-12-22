@@ -64,13 +64,13 @@ För **Windows**, om du inte har GPG, kan du installera programvaran [Gpg4win](h
 ## Ladda ner dokument
 
 
-Till att börja med behöver vi olika dokument. Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "*Download*"] (https://sparrowwallet.com/download/). Om du vill verifiera en annan programvara, gå till den programvarans webbplats.
+Till att börja med behöver vi olika dokument. Besök den officiella webbplatsen för [Sparrow wallet i avsnittet "*Download*"](https://sparrowwallet.com/download/). Om du vill verifiera en annan programvara, gå till den programvarans webbplats.
 
 
 ![GnuPG](assets/notext/02.webp)
 
 
-Du kan också gå [till GitHub-arkivet för projektet] (https://github.com/sparrowwallet/Sparrow/releases).
+Du kan också gå [till GitHub-arkivet för projektet](https://github.com/sparrowwallet/Sparrow/releases).
 
 
 ![GnuPG](assets/notext/03.webp)
@@ -97,7 +97,7 @@ Ladda ner PGP-signaturen för filen också. Detta är dokumentet i `.asc`-format
 Se till att placera alla dessa filer i samma mapp för de följande stegen.
 
 
-Slutligen behöver du utvecklarens offentliga nyckel, som vi kommer att använda för att verifiera PGP-signaturen. Denna nyckel är ofta tillgänglig antingen på programvarans webbplats, på GitHub-arkivet för projektet, ibland på utvecklarens sociala medier eller på specialiserade webbplatser som Keybase. När det gäller Sparrow wallet kan du hitta utvecklaren Craig Raw's offentliga nyckel [på Keybase] (https://keybase.io/craigraw). För att ladda ner den direkt från terminalen, kör kommandot:
+Slutligen behöver du utvecklarens offentliga nyckel, som vi kommer att använda för att verifiera PGP-signaturen. Denna nyckel är ofta tillgänglig antingen på programvarans webbplats, på GitHub-arkivet för projektet, ibland på utvecklarens sociala medier eller på specialiserade webbplatser som Keybase. När det gäller Sparrow wallet kan du hitta utvecklaren Craig Raw's offentliga nyckel [på Keybase](https://keybase.io/craigraw). För att ladda ner den direkt från terminalen, kör kommandot:
 
 
 ```bash

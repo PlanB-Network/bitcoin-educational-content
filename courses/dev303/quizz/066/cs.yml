@@ -1,0 +1,8 @@
+question: Která kombinace vlastností Rust jej činí zvláště vhodným pro zpracování nevratné povahy transakcí Bitcoin?
+answer: Staticky silný typový systém, který zachycuje chyby při kompilaci a zabraňuje zranitelnostem souvisejícím s pamětí
+wrong_answers:
+  - Dynamické psaní s kontrolami za běhu a automatickým vybíráním odpadu pro správu paměti
+  - Slabý typový systém s flexibilními převody a ruční správou paměti pro optimalizaci výkonu
+  - Just-in-time kompilace s optimalizací za běhu a interpretovaným zpracováním chyb pro flexibilitu
+explanation: |
+  Statický systém silných typů Rust je pro vývoj Bitcoin klíčový, protože zachycuje typové neshody a logické chyby ještě před spuštěním programu, čímž předchází problémům, které by mohly ovlivnit uživatelské prostředky. Statická povaha znamená, že chyby jsou nalezeny v době kompilace, nikoli za běhu při zpracování skutečných transakcí. Kromě toho typový systém Rust řeší vlastnictví paměti a zabraňuje zranitelnostem souvisejícím s pamětí, jako jsou chyby typu double-free a závodní podmínky. To je zásadní pro aplikace Bitcoin, kde jsou chyby nevratné a kde není žádná autorita, na kterou by se dalo odvolat kvůli navrácení prostředků, na rozdíl od tradičních finančních systémů s mechanismy zpětného účtování.

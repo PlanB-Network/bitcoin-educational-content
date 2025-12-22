@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio che le prove Merkle offrono ai clienti SPV (Simplified Payment Verification) nella verifica dell'inclusione delle transazioni?
+answer: Permettono di verificare l'inclusione delle transazioni senza scaricare l'intero blocco, richiedendo solo poche centinaia di byte anche per blocchi con migliaia di transazioni
+wrong_answers:
+  - Eliminano la necessità di verificare l'hash del blocco rispetto all'obiettivo di difficoltà, riducendo i requisiti computazionali per i client leggeri
+  - Forniscono una prova crittografica che previene gli attacchi double-spending convalidando tutti gli input delle transazioni all'interno del blocco
+  - Consentono ai clienti SPV di ricostruire la cronologia completa delle transazioni senza connettersi contemporaneamente a più nodi completi
+explanation: |
+  Le prove Merkle sfruttano la proprietà di crescita logaritmica degli alberi Merkle, consentendo ai client SPV di verificare l'inclusione delle transazioni con i soli hash dei fratelli lungo il percorso verso la radice. Questo richiede solo poche centinaia di byte, indipendentemente dalla dimensione del blocco, rendendolo pratico per i client leggeri. Le risposte sbagliate confondono le prove Merkle con altri meccanismi Bitcoin: non eliminano la verifica delle difficoltà, non prevengono direttamente il double-spending e non ricostruiscono la cronologia delle transazioni.

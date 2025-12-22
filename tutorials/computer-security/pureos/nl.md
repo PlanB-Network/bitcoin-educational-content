@@ -68,7 +68,7 @@ Ga naar de [PureOS official website](https://pureos.net/) en download vervolgens
 
 
 
-Om PureOS te installeren, moet je een opstartbare USB-sleutel maken met flashsoftware zoals [Balena Etcher] (https://www.balena.io/etcher).
+Om PureOS te installeren, moet je een opstartbare USB-sleutel maken met flashsoftware zoals [Balena Etcher](https://www.balena.io/etcher).
 
 
 

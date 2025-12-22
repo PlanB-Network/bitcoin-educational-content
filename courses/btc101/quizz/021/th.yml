@@ -1,0 +1,9 @@
+question: วิวัฒนาการของสกุลเงินในปัจจุบันเป็นอย่างไร?
+answer: หินดิบ -> Coin -> ธนบัตร -> บัตรธนาคาร -> Blockchain -> Lightning Network
+wrong_answers:
+  - หินดิบ -> Coin -> ธนบัตร -> Blockchain -> Lightning Network
+  - หินดิบ -> Coin -> ธนบัตร -> บัตรธนาคาร -> Lightning Network
+  - หินดิบ -> Coin -> บัตรธนาคาร -> ธนบัตร -> Blockchain -> Lightning Network
+explanation: |
+  สกุลเงินเป็นเทคโนโลยีที่พัฒนามาตามกาลเวลา เริ่มจากการเป็นตัวแทนด้วยหินดิบ เปลี่ยนเป็นเหรียญโลหะ แล้วกลายเป็นธนบัตร บัตรธนาคาร และสุดท้ายเป็นเครือข่ายเพียร์ทูเพียร์ด้วยการใช้บล็อกเชน Bitcoin และ Lightning Network
+reviewed: true

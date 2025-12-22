@@ -1,0 +1,8 @@
+question: Hvilken makromønstersyntaks vil matche null eller flere uttrykk atskilt med komma i en egendefinert funksjonslignende makro?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Den korrekte syntaksen $($x:expr),* bruker Rusts repetisjonsmønster der dollartegnet introduserer en repetisjonsgruppe, $x:expr matcher hvert uttrykk med expr-fragmentspesifikatoren, kommaet fungerer som separator mellom uttrykk, og stjernen (*) indikerer null eller flere repetisjoner. De gale svarene inneholder syntaksfeil: $($x:expr)*, plasserer kommaet utenfor repetisjonsgruppen, $[x:expr],* bruker hakeparenteser i stedet for parenteser og utelater dollartegnet før x, og ${$x:expr},* bruker krøllparenteser i stedet for parenteser for repetisjonsgruppen.

@@ -42,15 +42,15 @@ Um Ihre Wiederherstellungsphrase zu speichern, müssen Sie sie auf einem physisc
 
 Während das Aufschreiben Ihres Spruchs auf einem einfachen Stück Papier bereits eine gute Praxis ist, bietet die Entscheidung für einen Metallhalter, z. B. aus Edelstahl, zusätzliche Sicherheit. Diese Art von Halterung schützt Ihren Merksatz vor Feuer, Überschwemmung oder Einsturz, die den Aufbewahrungsort beeinträchtigen können.
 
-Für diejenigen, die nach einer kostengünstigen Möglichkeit suchen, ihren Satz auf Metall zu sichern, ist [die DIY-Methode des "*SAFU Ninja*"] (https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) eine ausgezeichnete Lösung. Alles, was Sie tun müssen, ist, Metallscheiben, eine Schraube und eine Mutter im Handel zu kaufen. Dann gravieren Sie die Worte Ihres Satzes auf jede Unterlegscheibe, wobei Sie darauf achten, sie zu nummerieren, und montieren sie auf die Schraube mit der Mutter. Diese kostengünstige Methode bietet bereits eine gute Beständigkeit.
+Für diejenigen, die nach einer kostengünstigen Möglichkeit suchen, ihren Satz auf Metall zu sichern, ist [die DIY-Methode des "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) eine ausgezeichnete Lösung. Alles, was Sie tun müssen, ist, Metallscheiben, eine Schraube und eine Mutter im Handel zu kaufen. Dann gravieren Sie die Worte Ihres Satzes auf jede Unterlegscheibe, wobei Sie darauf achten, sie zu nummerieren, und montieren sie auf die Schraube mit der Mutter. Diese kostengünstige Methode bietet bereits eine gute Beständigkeit.
 
 ![SEED](assets/fr/01.webp)
 
 Bildnachweis: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-Wenn Sie lieber in ein komplettes Metall-Sicherungsgerät investieren möchten, empfehle ich Ihnen einen Blick auf [Jameson Lopps Widerstandstests] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), in denen die meisten auf dem Markt erhältlichen Lösungen bewertet werden. Ich würde Ihnen raten, sich für einteilige Halterungen zu entscheiden, wie z. B. eine Metallplatte zum Gravieren, Prägen oder Stanzen. Diese Vorrichtungen bieten im Allgemeinen eine viel höhere Widerstandsfähigkeit als Systeme, bei denen einzelne Buchstaben zusammengefügt werden müssen.
+Wenn Sie lieber in ein komplettes Metall-Sicherungsgerät investieren möchten, empfehle ich Ihnen einen Blick auf [Jameson Lopps Widerstandstests](https://jlopp.github.io/metal-bitcoin-storage-reviews/), in denen die meisten auf dem Markt erhältlichen Lösungen bewertet werden. Ich würde Ihnen raten, sich für einteilige Halterungen zu entscheiden, wie z. B. eine Metallplatte zum Gravieren, Prägen oder Stanzen. Diese Vorrichtungen bieten im Allgemeinen eine viel höhere Widerstandsfähigkeit als Systeme, bei denen einzelne Buchstaben zusammengefügt werden müssen.
 
-Wenn Sie sich für eine Brieftasche aus Papier entscheiden, haben Sie mehrere Möglichkeiten: ein einfaches leeres Blatt Papier, die Brieftasche aus Pappe, die oft mit Ihrer Hardware-Brieftasche geliefert wird, oder unsere Vorlage zum Herunterladen, die Sie ausdrucken können [indem Sie hier klicken] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Wenn Sie sich für eine Brieftasche aus Papier entscheiden, haben Sie mehrere Möglichkeiten: ein einfaches leeres Blatt Papier, die Brieftasche aus Pappe, die oft mit Ihrer Hardware-Brieftasche geliefert wird, oder unsere Vorlage zum Herunterladen, die Sie ausdrucken können [indem Sie hier klicken](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

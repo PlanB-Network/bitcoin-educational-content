@@ -1,0 +1,8 @@
+question: Hangi yöntem bir hata oluştuğunda özel bir panik mesajı sağlarken bir Sonuçtan bir değer çıkarmanıza olanak tanır?
+answer: beklemek
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  Expect yöntemi, bir hata oluştuğunda görüntülenecek özel bir panik mesajı sağlamanıza izin verirken, bir Sonuçtan başarı değerini çıkarmak için özel olarak tasarlanmıştır. Bu, genel bir panik mesajı kullanan unwrap ile karşılaştırıldığında hata ayıklamayı kolaylaştırır. Unwrap_or_else yöntemi panik yapmaz, bunun yerine bir hata oluştuğunda bir closure çalıştırır. Diğer seçenekler (unwrap_with_message ve panic_with) Sonuç türlerini işlemek için gerçek Rust yöntemleri değildir.

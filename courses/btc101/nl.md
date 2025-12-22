@@ -29,7 +29,7 @@ Welkom bij de BTC101-cursus!
 
 Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook wel BTC genoemd) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
-Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
+Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "[blockchain](https://planb.academy/resources/glossary/blockchain)", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
@@ -83,7 +83,6 @@ Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 ## De Voorgeschiedenis Van Bitcoin
 
@@ -126,7 +125,7 @@ De afbeelding hieronder illustreert duidelijk de ontwikkeling van de beweging do
 
 ![image](assets/nl/005.webp)
 
-In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals proof of work en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
+In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals [proof of work](https://planb.academy/resources/glossary/proof-of-work) en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
 
 Bitcoin was echter meer dan dat: het vertegenwoordigde de verwezenlijking van de Cypherpunk idealen. Naast de technologie symboliseerde het een revolutie tegen traditionele financiële systemen en bood het een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
 
@@ -203,7 +202,7 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 
 Geld evolueert tot op de dag van vandaag en past zijn vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in commercie, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Anderzijds opent Bitcoin nieuwe perspectieven. Zijn eigenschappen, met name een strikt beperkt aanbod, maken het tot een uitstekende waardeopslag. Bovendien vormt het, als neutrale internetvaluta, een levensvatbaar **ruilmiddel** dat grenzen kan overstijgen. Desondanks wordt het, ondanks een voortdurende adoptie (zoals geïllustreerd door [de BTCmap-kaart](https://btcmap.org/map)), vandaag de dag nog niet breed geaccepteerd in de handel.
 
 ## Fiduciaire valuta's
 
@@ -391,7 +390,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 
@@ -419,7 +418,7 @@ Het idee om de valuta te devalueren druist in tegen de fundamentele filosofie va
 
 De schaarste van Bitcoin is een belangrijke troef en de maximale hoeveelheid van 21 miljoen bitcoins in omloop is openbaar en kan door iedereen geverifieerd worden.
 
-In feite kan iedereen dit doen via een Bitcoin node (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
+In feite kan iedereen dit doen via een Bitcoin [node](https://planb.academy/resources/glossary/node) (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
 
 ```json
 {
@@ -677,7 +676,7 @@ Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveil
 
 ![image](assets/nl/038.webp)
 
-31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "White Paper", waarin werd uitgelegd hoe Bitcoin werkte.
+31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "[White Paper](https://planb.academy/resources/glossary/white-paper)", waarin werd uitgelegd hoe Bitcoin werkte.
 
 Dit initiatief wekte niet meteen enthousiasme op, waarschijnlijk vanwege de eerdere mislukkingen in de pogingen om een digitaal geldsysteem te creëren. Desondanks werd deze whitepaper uiteindelijk een referentie voor Bitcoin gebruikers en is het door de jaren heen het onderwerp geweest van vele debatten in het Bitcoin ecosysteem.
 
@@ -835,7 +834,7 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin proof of work op te lossen.**
+**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via [ASIC](https://planb.academy/resources/glossary/asic) machines om de Bitcoin proof of work op te lossen.**
 
 ![image](assets/nl/054.webp)
 
@@ -1037,7 +1036,9 @@ De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld
 
 Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individuen, bedrijven en organisaties die Bitcoin accepteren als betaalmiddel voor hun producten of diensten.
 
-![image](assets/nl/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Bron : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Daarnaast is er een open-source en samenwerkingsproject gelanceerd, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), om het gebruik van Bitcoin in alledaagse transacties te vergemakkelijken. Dit platform geeft een overzicht van alle bedrijven, winkeliers en handelaren die Bitcoin accepteren, evenals de verschillende Bitcoin gemeenschappen over de hele wereld, dus je kunt hun website bezoeken om het Bitcoin ecosysteem om je heen te ontdekken. Dus, ondanks de moeilijkheden en aarzelingen, zijn er initiatieven zoals BTCMap die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen.
 

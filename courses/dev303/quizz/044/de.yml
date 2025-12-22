@@ -1,0 +1,8 @@
+question: Welches ist die grundlegendste Eigenschaft, die alle Schließungen in der Rust-Schließungseigenschaftshierarchie implementieren?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce ist die grundlegendste Eigenschaft, die alle Closures in Rust implementieren. Sie steht für Closures, die mindestens einmal aufgerufen werden können, und bildet damit die Grundlage der Closure-Eigenschaftshierarchie. FnMut und Fn sind restriktivere Traits, die auf FnOnce aufbauen - FnMut erlaubt mehrere Aufrufe mit Mutation, während Fn mehrere Aufrufe ohne Mutation erlaubt. Iterator hat nichts mit den Closure Traits zu tun und wird für die Verarbeitung von Datensequenzen verwendet.

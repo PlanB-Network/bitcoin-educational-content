@@ -46,7 +46,7 @@ Anslut din Ledger till din dator och lås upp den.
 
 
 
-För att installera applikationen, öppna programvaran [Ledger Live] (https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
+För att installera applikationen, öppna programvaran [Ledger Live](https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
 
 
 

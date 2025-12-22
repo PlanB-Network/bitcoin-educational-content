@@ -1,0 +1,8 @@
+question: ¿Qué técnica criptográfica utiliza Elements para ocultar el importe de las transacciones y permitir al mismo tiempo la validación de la red?
+answer: Compromisos de Pedersen
+wrong_answers:
+  - Hashing Merkle Tree
+  - Firmas de curva elíptica
+  - Cifrado SHA-256
+explanation: |
+  Los compromisos de Pedersen son la técnica criptográfica específica utilizada en Elements' Confidential Transactions para ocultar los importes de las transacciones. Estos compromisos sustituyen los importes visibles por compromisos criptográficos que pueden seguir siendo verificados matemáticamente por los validadores sin revelar los valores reales. Merkle Tree Hashing se utiliza para organizar los datos de las transacciones en bloques, las firmas de curva elíptica se utilizan para la autorización de transacciones, y SHA-256 es un algoritmo hash, pero ninguno de ellos oculta los importes de las transacciones manteniendo la capacidad de validación como hacen los compromisos de Pedersen.

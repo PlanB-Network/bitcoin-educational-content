@@ -1,0 +1,8 @@
+question: Mis on peamine eesmärk hash160 (SHA-256, seejärel RIPEMD-160) kasutamisel Bitcoin aadresside loomisel avalikest võtmetest?
+answer: Avaliku võtme varjamiseks kuni kulutamiseni ja lühemate, paremini hallatavate aadresside loomiseks
+wrong_answers:
+  - Privaatvõtme krüpteerimiseks ja wallet vahenditele volitamata juurdepääsu vältimiseks
+  - generate jaoks on tehingu valideerimiseks vajalik digitaalallkiri plokiahelas
+  - Elliptilise kõvera punktide konverteerimiseks sobivasse formaati secp256k1 operatsioonide jaoks
+explanation: |
+  Hash160 täidab Bitcoin aadressi loomisel mitmeid olulisi funktsioone. Avaliku võtme hashimine hoiab tegeliku avaliku võtme varjatud kuni müntide kulutamiseni, pakkudes täiendavat turvalisuse taset. Hashimine vähendab ka oluliselt aadressi suurust 33/65 baidilt vaid 20 baidile, mis muudab aadressid paremini hallatavaks. Valed vastused ajavad selle segi privaatvõtme krüpteerimisega (mida ei tehta), digitaalallkirjadega (mis kasutavad erinevaid krüptograafilisi operatsioone) või kõverate vormindamisega (mis toimub SEC-sarjaliikumise, mitte aadressi loomise ajal).

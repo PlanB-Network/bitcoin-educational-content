@@ -15,7 +15,7 @@ Kuva mu gihe c'ikiza ca COVID-19, ukwishyura mu buryo bwa digitale ata gukorana 
 
 
 
-Breez POS ni igikorwa co kwibungabunga gitangwa na Breez wallet. Ubuhinga bw’iyi serivisi ni ugutuma abacuruzi bashobora gutora amahera biciye kuri Bitcoin mu gihe baguma ku rubuga rworoshe, rusa cane n’amasakoshi atandukanye ya Lightning. Breez POS iboneka ku [Iduka rya Google Play] (Android) no kuri [Iduka ry’Iporogarama] (Iduka ry’Iporogarama ry’Iporogarama)
+Breez POS ni igikorwa co kwibungabunga gitangwa na Breez wallet. Ubuhinga bw’iyi serivisi ni ugutuma abacuruzi bashobora gutora amahera biciye kuri Bitcoin mu gihe baguma ku rubuga rworoshe, rusa cane n’amasakoshi atandukanye ya Lightning. Breez POS iboneka ku [Iduka rya Google Play](Android) no kuri [Iduka ry’Iporogarama](Iduka ry’Iporogarama ry’Iporogarama)
 
 
 

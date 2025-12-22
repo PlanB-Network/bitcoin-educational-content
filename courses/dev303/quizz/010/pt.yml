@@ -1,0 +1,8 @@
+question: O que acontece a uma variável quando a propriedade é transferida para outra variável no Rust?
+answer: A variável original torna-se inválida e já não pode ser utilizada
+wrong_answers:
+  - A variável original torna-se uma referência só de leitura para os dados
+  - Ambas as variáveis partilham a propriedade e podem modificar os dados de forma independente
+  - A variável original é automaticamente convertida numa referência mutável
+explanation: |
+  Quando a propriedade é transferida no Rust, a variável original torna-se completamente inválida e deixa de poder ser acedida. Este é um recurso de segurança fundamental que evita que várias variáveis gerenciem a mesma memória heap, o que poderia levar a bugs de uso após a liberação ou erros de liberação dupla. A operação de deslocação transfere o controlo total para a nova variável e o compilador produzirá um erro se tentar utilizar a variável original após a deslocação. Isto difere da cópia (em que ambas as variáveis permanecem válidas) e do empréstimo (em que o proprietário original mantém a propriedade).

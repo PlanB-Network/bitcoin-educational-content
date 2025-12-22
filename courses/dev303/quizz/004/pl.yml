@@ -1,0 +1,8 @@
+question: Jakie słowo kluczowe jest wymagane, aby zmienna była modyfikowalna po jej początkowej deklaracji w Rust?
+answer: mut
+wrong_answers:
+  - var
+  - zmienny
+  - zmiana
+explanation: |
+  W Rust słowo kluczowe "mut" jest wymagane do zadeklarowania zmiennej jako mutowalnej, umożliwiając zmianę jej wartości po początkowym przypisaniu. Domyślnie wszystkie zmienne w Rust są niezmienne ze względów bezpieczeństwa. Składnia to 'let mut x = 5' dla zmiennej mutowalnej i 'let x = 5' dla niezmiennej. Inne opcje, takie jak "var", "mutable" i "change" nie są poprawnymi słowami kluczowymi Rust do tego celu.

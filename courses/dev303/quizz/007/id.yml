@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan perintah `cargo check` selama pengembangan?
+answer: Ini melakukan pemeriksaan kompilasi lebih cepat daripada build penuh tanpa menghasilkan file yang dapat dieksekusi
+wrong_answers:
+  - Secara otomatis memperbaiki kesalahan kompilasi dan masalah gaya kode dalam proyek Anda
+  - Mengunduh dan memperbarui semua dependensi proyek ke versi terbarunya
+  - Menjalankan program Anda dengan informasi debug dan pelaporan kesalahan yang terperinci
+explanation: |
+  Perintah `cargo check` dirancang untuk iterasi pengembangan yang cepat dengan melakukan semua pemeriksaan kompilasi yang sama dengan `cargo build` tetapi melewatkan langkah pembuatan eksekusi akhir. Hal ini membuatnya jauh lebih cepat daripada build penuh ketika Anda hanya perlu memverifikasi bahwa kode Anda dikompilasi dengan benar. Jawaban yang salah menggambarkan fungsionalitas alat bantu lain: Clippy dan linters lainnya dapat menyarankan perbaikan tetapi tidak secara otomatis menerapkannya, `cargo update` menangani pembaruan ketergantungan, dan `cargo run` mengeksekusi program dengan kemampuan debugging.

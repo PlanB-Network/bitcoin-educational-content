@@ -1,0 +1,8 @@
+question: Điều gì sẽ xảy ra với tổng nguồn cung của Bitcoin nếu các thợ đào liên tục chỉ yêu cầu 90% lượng trợ cấp khối được cho phép trên tất cả các khối?
+answer: Tổng nguồn cung sẽ giảm vĩnh viễn xuống dưới 21 triệu BTC, vì các khoản trợ cấp không được nhận sẽ bị mất vĩnh viễn.
+wrong_answers:
+  - 10% còn lại sẽ được tích lũy vào quỹ dự trữ để các thợ đào tương lai có thể sử dụng trong thời kỳ phí thấp.
+  - Cơ chế điều chỉnh độ khó sẽ bù đắp bằng cách tăng phần thưởng khối trong tương lai để duy trì giới hạn 21 triệu.
+  - Các khoản trợ cấp chưa được nhận sẽ được phân bổ lại theo tỷ lệ cho những người nhận phí giao dịch trong các khối tiếp theo.
+explanation: |
+  Giao thức của Bitcoin cho phép thợ đào nhận ít hơn mức trợ cấp tối đa cho phép, nhưng bất kỳ số tiền nào không được nhận sẽ bị mất vĩnh viễn — không có cơ chế nào để phân phối lại hoặc khôi phục sau này. Công thức trợ cấp và lịch trình giảm một nửa xác định mức tối đa lý thuyết là khoảng 21 triệu BTC, nhưng nguồn cung thực tế phụ thuộc vào việc thợ đào nhận đủ phần thưởng mà họ được hưởng. Không giống như việc điều chỉnh độ khó dựa trên các điều kiện của mining, không có cơ chế bù đắp cho phần thưởng không được nhận, khiến tổng nguồn cung có khả năng giảm phát nếu thợ đào liên tục nhận ít hơn mức tối đa cho phép.

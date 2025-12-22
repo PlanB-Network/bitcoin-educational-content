@@ -106,7 +106,7 @@ Następnym krokiem jest sprawdzenie urządzenia. Potwierdza to autentyczność p
 ![Image](assets/fr/08.webp)
 
 
-Wejdź na [oficjalną stronę weryfikacji] (https://validate.foundationdevices.com/) i wybierz "*Passport*".
+Wejdź na [oficjalną stronę weryfikacji](https://validate.foundationdevices.com/) i wybierz "*Passport*".
 
 
 ![Image](assets/fr/09.webp)

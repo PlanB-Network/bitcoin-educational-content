@@ -1,0 +1,8 @@
+question: Proč musí být v zásobníku svědků transakce P2WSH pro multisig 2 ze 3 na konci zásobníku svědků prázdný prvek?
+answer: Kompenzovat chybu CHECKMULTISIG off-by-one, která během provádění spotřebovává další prvek zásobníku
+wrong_answers:
+  - "Poskytnutí zástupného symbolu pro třetí podpis, který nebyl použit při ověřování multisig 2 ze 3"
+  - Oddělení podpisových dat od skriptu svědka pro správné zpracování validace SegWit
+  - Aby měl zásobník svědků sudý počet prvků pro efektivní konstrukci merkleova stromu
+explanation: |
+  Opční kód CHECKMULTISIG má historickou chybu, kdy ze zásobníku vyskočí jeden prvek navíc, než by měl. To se týká všech multisig transakcí, včetně P2WSH. Prázdný prvek tuto chybu kompenzuje a zajišťuje, že zbývající prvky zásobníku (podpisy a svědecký skript) jsou správně umístěny pro ověření. Ostatní možnosti jsou nesprávné: nepoužité podpisy nejsou reprezentovány prázdnými prvky, rozbor svědků nevyžaduje oddělovací prvky a zásobníky svědků nepotřebují sudý počet prvků pro operace merkle.

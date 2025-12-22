@@ -1,0 +1,8 @@
+question: Koja je ključna prednost korišćenja derive makroa kao što je #[derive(Debug)] u poređenju sa ručnim implementiranjem osobina za prilagođene tipove?
+answer: Oni automatski generate kompletiraju implementacije osobina u vreme kompajliranja, smanjujući boilerplate kod.
+wrong_answers:
+  - Oni pružaju bolje performanse u radu optimizacijom poziva metoda osobina tokom izvršavanja.
+  - Omogućavaju da se osobine implementiraju više puta za isti tip sa različitim ponašanjima
+  - Oni omogućavaju dinamičku implementaciju osobina koja se može modifikovati u vreme izvršavanja na osnovu stanja programa
+explanation: |
+  Automatski izvedi makroe za implementacije osobina generate tokom kompilacije, eliminišući potrebu za ručnim pisanjem ponavljajućeg koda. Kada koristite #[derive(Debug)], kompajler generiše svu potrebnu logiku formatiranja za tu osobinu. Pogrešni odgovori su netačni jer: izvedeni makroi ne poboljšavaju performanse u vreme izvršavanja (oni generate isti kod koji biste ručno napisali), osobine mogu biti implementirane samo jednom po tipu bez obzira na to kako su implementirane, i izvedeni makroi generate statički kod u vreme kompilacije umesto omogućavanja modifikacija u vreme izvršavanja.

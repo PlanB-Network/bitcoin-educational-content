@@ -1,0 +1,8 @@
+question: Apa yang dapat dilakukan oleh sintaks struct update ketika membuat instance struktur baru di Rust?
+answer: Membuat instance baru dengan menentukan hanya bidang yang diubah sambil menyalin bidang yang tersisa dari instance yang sudah ada
+wrong_answers:
+  - Memodifikasi bidang struktur yang sudah ada tanpa membuat instance baru
+  - Secara otomatis nilai default generate untuk bidang yang tidak ditentukan menggunakan sifat Default
+  - Menggabungkan beberapa instance struktur menjadi satu instance gabungan
+explanation: |
+  Sintaks struct update di Rust memungkinkan Anda untuk membuat instance struktur baru dengan menentukan hanya field yang ingin Anda ubah, sementara secara otomatis menyalin semua field lain dari instance yang sudah ada. Hal ini dilakukan dengan menggunakan sintaks `..existing_instance`. Pilihan lainnya tidak benar: sintaks struct update selalu membuat instance baru daripada memodifikasi yang sudah ada, sintaks ini tidak menggunakan nilai default generate tetapi menyalin dari instance yang sudah ada, dan bekerja dengan satu source instance daripada menggabungkan beberapa instance.

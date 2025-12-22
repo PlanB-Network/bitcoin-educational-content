@@ -102,7 +102,7 @@ The first type of cryptographic algorithms used in Bitcoin encompasses hash func
 Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic hash function. In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the [SHA256](https://planb.academy/resources/glossary/sha256) hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -700,12 +700,12 @@ A user who wishes to make a Bitcoin transaction must therefore create a digital 
 
 As a result, a user who owns bitcoins locked with a public key must find a way to securely store what allows unlocking their funds: the private key. A Bitcoin wallet is precisely a device that will allow you to easily keep all your keys without other people having access to them. It is therefore more like a keychain than a wallet.
 
-The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
+The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
 These two algorithms are quite similar in their mechanisms. They are both based on elliptic curve cryptography. The major difference between these two protocols lies in the structure of the signature and some specific mathematical properties. We will therefore study the functioning of these algorithms, starting with the oldest: ECDSA.
 
 ### Elliptic Curve Cryptography
 
-Elliptic Curve Cryptography (ECC) is a set of algorithms that use an elliptic curve for its various mathematical and geometric properties for cryptographic purposes. The security of these algorithms relies on the difficulty of the discrete logarithm problem on elliptic curves. Elliptic curves are notably used for key exchanges, asymmetric encryption, or for creating digital signatures.
+[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Cryptography (ECC) is a set of algorithms that use an elliptic curve for its various mathematical and geometric properties for cryptographic purposes. The security of these algorithms relies on the difficulty of the discrete logarithm problem on elliptic curves. Elliptic curves are notably used for key exchanges, asymmetric encryption, or for creating digital signatures.
 
 An important property of these curves is that they are symmetric with respect to the x-axis. Thus, any non-vertical line cutting the curve at two distinct points will always intersect the curve at a third point. Moreover, any tangent to the curve at a non-singular point will intersect the curve at another point. These properties will be useful for defining operations on the curve.
 
@@ -1250,7 +1250,7 @@ In HD wallets, key derivation is performed according to a hierarchical structure
 
 ### The BIP39 Standard: The Mnemonic Phrase
 
-In addition to BIP32, BIP39 standardizes the seed format as a mnemonic phrase, to facilitate backup and readability by users. The mnemonic phrase, also called a recovery phrase or 24-word phrase, is a sequence of words drawn from a predefined list that securely encodes the wallet's seed.
+In addition to BIP32, [BIP39](https://planb.academy/resources/glossary/bip0039) standardizes the seed format as a mnemonic phrase, to facilitate backup and readability by users. The mnemonic phrase, also called a recovery phrase or 24-word phrase, is a sequence of words drawn from a predefined list that securely encodes the wallet's seed.
 
 The mnemonic phrase greatly simplifies backup for the user. In case of loss, damage, or theft of the device hosting the wallet, simply knowing this mnemonic phrase allows for the recreation of the wallet and recovery of access to all the funds secured by it.
 
@@ -1262,7 +1262,7 @@ In the upcoming chapters, we will explore the internal workings of HD wallets, i
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Modern HD wallets rely on a single initial piece of information called "entropy" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
+Modern HD wallets rely on a single initial piece of information called "[entropy](https://planb.academy/resources/glossary/entropy)" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
 
 ### Definition of Entropy
 
@@ -1833,7 +1833,7 @@ Over time, different BIPs have introduced standards for these derivation paths, 
 
 Derivation paths are organized into layers of depth, ranging from depth 0, which represents the master key and master chain code, to layers of sub-levels for deriving addresses used to lock UTXOs. The BIPs (*Bitcoin Improvement Proposals*) define the standards for each layer, which helps to harmonize practices across different wallet management software.
 
-A derivation path, therefore, refers to the sequence of indices used to derive child keys from a master key.
+A [derivation path](https://planb.academy/resources/glossary/derivation-path), therefore, refers to the sequence of indices used to derive child keys from a master key.
 
 **Depth 0: Master Key (BIP32)**
 

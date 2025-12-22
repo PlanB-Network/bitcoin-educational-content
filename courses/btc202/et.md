@@ -1437,7 +1437,7 @@ Umbrel pakub kahte erinevat lähenemist:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
 
 
 

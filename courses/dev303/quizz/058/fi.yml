@@ -1,0 +1,8 @@
+question: Kun luodaan mukautettua funktiota muistuttavaa makroa, jonka on käsiteltävä eri määrä syöttöargumentteja, mikä fragmenttimääritteen ja toistokuvion yhdistelmä olisi sopivin?
+answer: Käytä $($x:expr),* sovittaaksesi nollaa tai useampaa pilkulla erotettua lauseketta
+wrong_answers:
+  - Käytä $($x:ident)+:a, kun haluat löytää yhden tai useamman tunnisteen ilman erottimia
+  - Käytä $($x:ty);*, jos haluat löytää nolla tai useampia tyyppejä puolipisteillä erotettuna
+  - Käytä $($x:expr)? vastaamaan valinnaista yksittäistä lauseketta ilman toistoa
+explanation: |
+  Kuvio $($x:expr),* on suunniteltu erityisesti muuttujamakroille, joissa expr vastaa mitä tahansa lauseketta ja ,*-syntaksi käsittelee nollaa tai useampaa pilkulla erotettua toistoa. Juuri tätä tarvitaan vec!:n kaltaisissa makroissa, jotka voivat hyväksyä vaihtelevan määrän argumentteja. Muut vaihtoehdot ovat virheellisiä, koska: ident vastaa vain tunnisteita (ei täydellisiä lausekkeita), ty vastaa tyyppejä (ei arvoja) ja ? vastaa valinnaisia yksittäisiä elementtejä muuttujien toistojen sijaan.

@@ -1,0 +1,8 @@
+question: Milline makromustri süntaks sobiks õigesti nulli või rohkemale komadega eraldatud väljenditele kohandatud funktsioonilaadses makros?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Õige süntaks $($x:expr),* kasutab Rust kordusmustrit, kus dollarimärk juhatab sisse kordusgrupi, $x:expr vastab igale väljendile koos expr fragmendi täpsustajaga, koma toimib eraldajana väljendite vahel ja tärn (*) näitab nulli või rohkem kordust. Valed vastused sisaldavad süntaksivigu: $($x:expr)*, paigutab koma väljapoole kordusgruppi, $[x:expr],* kasutab sulgude asemel nurksulgusid ja jätab dollari märgi enne x-i ära ning ${$x:expr},* kasutab kordusgrupi jaoks sulgude asemel sulge.

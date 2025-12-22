@@ -1,0 +1,8 @@
+question: Ni utaratibu gani maalum unaohakikisha kwamba nodi za kabla ya SegWit zinakubali miamala ya P2WPKH kama halali bila kuelewa sheria za uthibitishaji wa mashahidi?
+answer: Nodi za kabla ya SegWit hutafsiri hati ya hashi ya OP_0 + baiti 20 kama matokeo ya 'anyone-can-spend' ambayo hayahitaji uthibitisho wa sahihi
+wrong_answers:
+  - Nodi za kabla ya SegWit husambaza kiotomatiki miamala ya P2WPKH kwenye nodi zilizoboreshwa kwa ajili ya uthibitisho wa mashahidi kabla ya kuzikubali
+  - Nodi za kabla ya SegWit hutambua muundo wa P2WPKH na huacha uthibitisho kabisa, zikichukulia miamala yote ya mashahidi kama iliyothibitishwa awali.
+  - Nodi za kabla ya SegWit hubadilisha data ya shahidi kuwa umbizo la kawaida la hati ya SIg kwa kutumia sheria za mabadiliko ya utangamano wa nyuma
+explanation: |
+  Ustadi wa muundo wa SegWit upo katika kutumia jinsi nodi za kabla ya SegWit zinavyoshughulikia mifumo isiyojulikana ya hati. Nodi hizi za zamani zinapokutana na hati ya P2WPKH (OP_0 ikifuatiwa na msukumo wa baiti 20), hazitambui kama programu maalum ya shahidi. Badala yake, wanaitathmini kama hati ya kawaida inayoacha OP_0 na hashi kwenye rundo. Kwa kuwa OP_0 hutathmini kuwa si kweli katika mfumo wa hati wa Bitcoin, nodi za kabla ya SegWit hutafsiri hii kama sharti la 'anyone-can-spend' - ikimaanisha kuwa hakuna uthibitisho wa saini unaohitajika kutoka kwa mtazamo wao. Hii inaruhusu muamala kukubaliwa katika kumbukumbu zao na kuzuia bila kuvunja makubaliano, huku nodi zinazofahamu SegWit zikifanya uthibitishaji halisi wa kriptografia kwa kutumia data ya shahidi.

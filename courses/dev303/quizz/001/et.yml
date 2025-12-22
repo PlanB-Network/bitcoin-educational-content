@@ -1,0 +1,8 @@
+question: Mis on Rustupi peamine eesmärk Rust arendusökosüsteemis?
+answer: Terviklik tööriistaketi haldussüsteem Rust paigaldamiseks ja haldamiseks
+wrong_answers:
+  - Paketihaldur sõltuvuste käsitlemiseks Rust projektides
+  - Täiustatud linter, mis analüüsib koodi ja annab parandusettepanekuid
+  - Build-süsteem, mis kompileerib Rust programme ja haldab projekti struktuuri
+explanation: |
+  Rustup on spetsiaalselt loodud tööriistaketi haldussüsteemina, mis tegeleb Rust enda paigaldamise, uuendamise ja haldamisega erinevates projektides ja platvormidel. Kui Cargo toimib Rust projektide paketihaldurina ja ehitussüsteemina ning Clippy koodianalüüsi linterina, siis Rustup tegutseb kõrgemal tasemel, hallates kogu Rust arenduskeskkonda. See võimaldab arendajatel installeerida erinevaid Rust versioone, hallata erinevate platvormide kompileerimise sihtmärke ja uuendada lihtsate käskudega, nagu "rustup update", hõlpsasti uutele Rust versioonidele.

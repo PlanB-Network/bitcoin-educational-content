@@ -122,7 +122,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 ### 2. Instalacja zgodnie z posiadanym systemem
 
 
-Postępuj zgodnie z krokami instalacji odpowiednimi dla twojego systemu operacyjnego. Jeśli napotkasz jakiekolwiek trudności podczas instalacji, możesz zapoznać się ze szczegółowym przewodnikiem na [oficjalnej wiki Bisq] (https://bisq.wiki/Downloading_and_installing).
+Postępuj zgodnie z krokami instalacji odpowiednimi dla twojego systemu operacyjnego. Jeśli napotkasz jakiekolwiek trudności podczas instalacji, możesz zapoznać się ze szczegółowym przewodnikiem na [oficjalnej wiki Bisq](https://bisq.wiki/Downloading_and_installing).
 
 
 ### 3. Pierwsze uruchomienie

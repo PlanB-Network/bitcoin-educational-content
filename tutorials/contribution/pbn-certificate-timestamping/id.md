@@ -32,7 +32,7 @@ Tanda tangan GPG diperoleh dengan menggunakan perangkat lunak sumber terbuka ber
 
 Di sisi lain, jika seseorang ingin memverifikasi keaslian file yang ditandatangani, mereka dapat menggunakan GPG untuk mengimpor kunci publik dari penerbit dan memverifikasi. Pada bagian kedua dari tutorial ini, kita akan melihat bagaimana cara melakukannya dengan sebuah terminal.
 
-Bagi mereka yang penasaran dan ingin mempelajari lebih lanjut tentang perangkat lunak yang luar biasa ini, Anda dapat merujuk ke ["Buku Pegangan Privasi GNU"] (https://www.gnupg.org/gph/en/manual/x135.html)
+Bagi mereka yang penasaran dan ingin mempelajari lebih lanjut tentang perangkat lunak yang luar biasa ini, Anda dapat merujuk ke ["Buku Pegangan Privasi GNU"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 ## Bagaimana cara kerja cap waktu?
 

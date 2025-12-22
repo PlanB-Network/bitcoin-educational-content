@@ -602,8 +602,8 @@ GrapheneOS ni umwobo w’inkwavu umuntu wese yoshobora kumara amayinga menshi ar
 
 - [Igitabu cemewe c'ikoreshwa rya GrapheneOS](https://grapheneos.org/ikoreshwa) - Urubuga rwemewe
 - [Ihuriro rya GrapheneOS](https://kuganira ku mbuga ngurukanabumenyi
-- [Ivyigwa vy'Imiterere ya GrapheneOS] (Ivyigwa vy'Imiterere ya GrapheneOS] - Videwo ya 'Umurongozi w'Ibanga'
-- [Ikiganiro rusangi ca GrapheneOS] (Ikiganiro rusangi ca GrapheneOS] - Igitabu ca 'Watchman Privacy'
+- [Ivyigwa vy'Imiterere ya GrapheneOS](Ivyigwa vy'Imiterere ya GrapheneOS] - Videwo ya 'Umurongozi w'Ibanga'
+- [Ikiganiro rusangi ca GrapheneOS](Ikiganiro rusangi ca GrapheneOS] - Igitabu ca 'Watchman Privacy'
 
 
 *Iyi nyigisho ni uguhindura ibirimwo vy’umwimerere vyasohowe na [BitcoinQnA kuri Bitcoiner.Guide munsi y’uruhusha rwa MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), uwo ni we afise icubahiro cose ku bijanye n’inyandiko ya mbere.

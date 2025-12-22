@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta korzystania ze skompresowanego formatu SEC w porównaniu z nieskompresowanym formatem SEC dla kluczy publicznych Bitcoin?
+answer: Zmniejsza rozmiar pamięci z 65 bajtów do 33 bajtów przy zachowaniu tego samego bezpieczeństwa kryptograficznego
+wrong_answers:
+  - Zapewnia silniejsze bezpieczeństwo kryptograficzne dzięki zastosowaniu dodatkowych warstw szyfrowania
+  - Umożliwia szybsze operacje mnożenia punktów podczas procesów weryfikacji podpisu
+  - Pozwala to na uzyskanie wielu kluczy publicznych z jednego skompresowanego formatu
+explanation: |
+  Skompresowany format SEC zmniejsza rozmiar klucza publicznego z 65 bajtów (nieskompresowany) do 33 bajtów poprzez przechowywanie tylko współrzędnej x i bitu parzystości (prefiks 0x02 lub 0x03) zamiast obu pełnych współrzędnych. Współrzędna y może być matematycznie zrekonstruowana ze współrzędnej x i informacji o parzystości, ponieważ krzywe eliptyczne mają co najwyżej dwie wartości y dla danego x. Ta kompresja zapewnia znaczną oszczędność miejsca bez utraty bezpieczeństwa, dlatego Bitcoin preferuje obecnie klucze skompresowane ze względu na wydajność.

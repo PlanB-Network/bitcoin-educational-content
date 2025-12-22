@@ -32,7 +32,7 @@ Wat de verbinding betreft, kun je met Sparrow verbinding maken met je eigen Bitc
 ## Sparrow wallet installeren
 
 
-Ga naar [de officiële Sparrow wallet downloadpagina] (https://sparrowwallet.com/download/) en kies de softwareversie die overeenkomt met jouw besturingssysteem.
+Ga naar [de officiële Sparrow wallet downloadpagina](https://sparrowwallet.com/download/) en kies de softwareversie die overeenkomt met jouw besturingssysteem.
 
 
 ![Image](assets/fr/01.webp)
@@ -191,7 +191,7 @@ Deze handeling kan ook worden uitgevoerd via de grafische Interface Bitcoin-QT. 
 ![Image](assets/fr/12.webp)
 
 
-Zoek het IP Address van de machine die Bitcoin core host op je lokale netwerk. Om dit te doen, kunt u een tool zoals [Angry IP Scanner] (https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
+Zoek het IP Address van de machine die Bitcoin core host op je lokale netwerk. Om dit te doen, kunt u een tool zoals [Angry IP Scanner](https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
 
 
 Voeg in het `Bitcoin.conf` bestand de volgende regels toe en stel `rpcbind=192.168.1.18` in zodat dit overeenkomt met het IP Address van je node.

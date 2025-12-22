@@ -35,7 +35,7 @@ Istnieją dwa główne powody, dla których warto używać alternatywnego klient
 ## Jak zainstalować węzły Bitcoin?
 
 
-Przejdź do [oficjalnej strony Bitcoin Knots] (https://bitcoinknots.org/#download), aby pobrać wersję dla swojego systemu operacyjnego. Nie zapomnij pobrać odcisku palca i podpisów, aby zweryfikować oprogramowanie. Pliki te są również dostępne [na repozytorium Bitcoin Knots GitHub](https://github.com/bitcoinknots/Bitcoin).
+Przejdź do [oficjalnej strony Bitcoin Knots](https://bitcoinknots.org/#download), aby pobrać wersję dla swojego systemu operacyjnego. Nie zapomnij pobrać odcisku palca i podpisów, aby zweryfikować oprogramowanie. Pliki te są również dostępne [na repozytorium Bitcoin Knots GitHub](https://github.com/bitcoinknots/Bitcoin).
 
 
 ![Image](assets/fr/02.webp)

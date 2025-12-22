@@ -1,0 +1,9 @@
+question: Según el Manifiesto Cypherpunk de Eric Hughes, ¿qué enfoque fundamental distingue a los cypherpunks de quienes se limitan a esperar la protección de la privacidad?
+answer: Escriben código activamente para crear sistemas criptográficos en lugar de esperar a que las instituciones les proporcionen privacidad
+wrong_answers:
+  - Se centran en la presión política y las reformas legales para establecer derechos constitucionales de privacidad
+  - Dan prioridad a la educación del público sobre los riesgos de la vigilancia mediante investigaciones y publicaciones académicas
+  - Trabajan dentro de las instituciones financieras existentes para implantar gradualmente tecnologías que preserven la privacidad
+explanation: |
+  Eric Hughes declaró explícitamente que "los cypherpunks escriben código" como su metodología definitoria. El manifiesto subraya que los cypherpunks no esperan a que los gobiernos, las empresas u otras organizaciones protejan la privacidad.
+  En su lugar, actúan directamente creando herramientas criptográficas y sistemas descentralizados. Este enfoque de construcción activa, en lugar de la esperanza pasiva o la reforma institucional, se convirtió en la base de innovaciones como Bitcoin, que encarnaba su filosofía de construir sistemas alternativos al margen de las estructuras de poder tradicionales.

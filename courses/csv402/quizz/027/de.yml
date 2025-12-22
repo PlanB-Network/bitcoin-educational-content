@@ -1,9 +1,9 @@
 question: Was ist das Äquivalent der Komponente Schema in der objektorientierten Programmierung (OOP) im RGB-Kontext?
-answer: Definition der Klasse
+answer: Klassendefinition
 wrong_answers:
   - Der Klassenkonstruktor
   - Implementierung einer Schnittstelle
   - Prototyping von Methoden
 explanation: |
-  Das Schema entspricht der Definition einer Klasse in OOP, die die Eigenschaften, Methoden und Regeln der Geschäftslogik beschreibt.
+  Das Schema entspricht der Klassendefinition in OOP, die die Eigenschaften, Methoden und Regeln der Business Logic beschreibt.
 reviewed: false

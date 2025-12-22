@@ -71,7 +71,7 @@ De kosten variëren van 0% tot 2%, afhankelijk van het gekozen bloksjabloon.
 Alle informatie over de pool is transparant, inclusief alle gebruikersgegevens. Laten we een voorbeeld nemen om dit punt te begrijpen:
 
 
-[Op het Ocean dashboard] (https://ocean.xyz/dashboard), heb je talrijke stukjes informatie zoals de Hashrate over de laatste zes maanden, het aantal deelnemers in de pool, het totale aantal gemijnde bitcoins, enz.
+[Op het Ocean dashboard](https://ocean.xyz/dashboard), heb je talrijke stukjes informatie zoals de Hashrate over de laatste zes maanden, het aantal deelnemers in de pool, het totale aantal gemijnde bitcoins, enz.
 
 
 We zullen ons concentreren op de "Contributors" sectie. Je kunt de lijst van alle bijdragers zien met hun gemiddelde Hashrate over de laatste drie uur en ook het percentage **"shares"** en **"Hash"** ten opzichte van de rest van de pool.

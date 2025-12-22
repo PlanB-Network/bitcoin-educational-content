@@ -300,7 +300,7 @@ Rero nzokwongerako gusa ijambo **contrib** ku mirongo nk'iyi.
 
 
 
-Intambwe zisigaye ziri ku rubuga rwa [NtopNG] (https://packages.ntop.org/apt/) aho, kuri Debian 11, ukeneye kwongerako inkomoko za Ntop kugira ngo uzozishiremwo mu gihe kizoza. Ukwo kwongerako kwikora hakoreshejwe a:
+Intambwe zisigaye ziri ku rubuga rwa [NtopNG](https://packages.ntop.org/apt/) aho, kuri Debian 11, ukeneye kwongerako inkomoko za Ntop kugira ngo uzozishiremwo mu gihe kizoza. Ukwo kwongerako kwikora hakoreshejwe a:
 
 
 

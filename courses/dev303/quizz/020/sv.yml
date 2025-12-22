@@ -1,0 +1,8 @@
+question: Vad är den största skillnaden mellan metoder och tillhörande funktioner i Rust-strukturer?
+answer: Metoder tar self som sin första parameter, medan tillhörande funktioner inte gör det
+wrong_answers:
+  - Metoder är offentliga som standard, medan tillhörande funktioner är privata som standard
+  - Metoder kan bara läsa data, medan associerade funktioner kan modifiera strukturfält
+  - Metoder använder punktnotation för att anropa, medan tillhörande funktioner använder pilnotation
+explanation: |
+  Metoder i Rust är funktioner som definieras i ett impl-block och som tar någon form av self som sin första parameter (self, &self eller &mut self), vilket gör att de kan verka på instanser av strukturen. Associerade funktioner definieras också i impl-block men tar inte self som parameter, vilket gör att de liknar statiska metoder i andra språk. Associerade funktioner anropas med dubbelkolonnssyntax (Type::function_name()) och används ofta som konstruktörer, medan metoder anropas på instanser med punktnotation. De andra alternativen är felaktiga eftersom både metoder och associerade funktioner följer samma regler för synlighet, båda kan utformas för att ändra eller läsa data beroende på hur de implementeras och associerade funktioner använder syntax med dubbla kolon, inte pilnotation.

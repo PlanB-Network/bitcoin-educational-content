@@ -1,0 +1,9 @@
+question: Według Manifestu Cypherpunk Erica Hughesa, jaki jest główny obowiązek ochrony prywatności w otwartym społeczeństwie elektronicznym?
+answer: Jednostki muszą aktywnie bronić własnej prywatności, zamiast polegać na rządach lub korporacjach, które ją zapewnią
+wrong_answers:
+  - Rządy powinny ustanowić kompleksowe przepisy dotyczące prywatności, aby chronić obywateli przed inwigilacją ze strony korporacji
+  - Duże organizacje muszą dobrowolnie wdrożyć ochronę prywatności w ramach swojej społecznej odpowiedzialności biznesu
+  - Międzynarodowe traktaty powinny być negocjowane w celu stworzenia uniwersalnych standardów prywatności egzekwowanych przez ponadnarodowe organy
+explanation: |
+  Hughes wyraźnie stwierdził, że "nie możemy oczekiwać, że rządy, korporacje lub inne duże anonimowe organizacje zagwarantują nam poufność" i że głównym celem cypherpunków jest "zmuszenie ludzi do obrony swojej poufności, zamiast polegania na kimś innym, kto ją zapewni".
+  Odzwierciedla to podstawową cypherpunkową filozofię indywidualnej odpowiedzialności i nieufności wobec scentralizowanych instytucji. Ruch ten wierzył, że narzędzia kryptograficzne powinny umożliwiać jednostkom ochronę samych siebie, zamiast polegać na instytucjach, które postrzegali jako potencjalne zagrożenie dla prywatności i wolności.

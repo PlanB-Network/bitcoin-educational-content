@@ -40,7 +40,7 @@ Witamy w kursie BTC101!
 Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą "walutę internetową": jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (bitcoin).
 
 
-Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "[blockchain](https://planb.academy/resources/glossary/blockchain)", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
 
 **Kompleksowy, ale przystępny program nauczania:**
@@ -122,7 +122,6 @@ Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy
 Gotowy, by zanurzyć się w fascynującym świecie Bitcoin i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 
 
-**N.B.**: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku] (https://planb.academy/resources/glossary).
 
 
 ## Prehistoria Bitcoin
@@ -190,7 +189,7 @@ Poniższy obrazek wyraźnie ilustruje rozwój ruchu poprzez liczne innowacje tec
 ![image](assets/en/005.webp)
 
 
-To właśnie w tym żyznym środowisku tajemniczy Satoshi Nakamoto opublikował białą księgę Bitcoin w 2008 roku. W dokumencie tym połączył kilka pomysłów z ruchu cypherpunk, takich jak proof of work i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
+To właśnie w tym żyznym środowisku tajemniczy Satoshi Nakamoto opublikował białą księgę Bitcoin w 2008 roku. W dokumencie tym połączył kilka pomysłów z ruchu cypherpunk, takich jak [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
 
 
 Bitcoin był jednak czymś więcej: reprezentował osiągnięcie ideałów cypherpunku. Poza technologią symbolizował rewolucję przeciwko tradycyjnym systemom finansowym i oferował alternatywę opartą na przejrzystości, decentralizacji i indywidualnej suwerenności.
@@ -308,7 +307,7 @@ Aby spełnić te kryteria, waluta ewoluowała w przeszłości, podejmując róż
 Waluty ewoluują do dziś, dostosowując swoje formy do różnych przypadków użycia. Jak już wspomnieliśmy, chociaż złoto jest doskonałym środkiem przechowywania wartości, nie jest już odpowiednie dla obecnej zglobalizowanej gospodarki. Podobnie waluty fiducjarne, takie jak dolar i euro, są bardzo płynne i łatwe w transporcie, ponieważ są obecnie w większości cyfrowe, ale ich wartość jest stale obniżana przez inflację monetarną.
 
 
-Z drugiej strony Bitcoin oferuje nowe możliwości. Jego właściwości, takie jak ściśle ograniczona podaż, czynią go doskonałym magazynem wartości. Co więcej, jako neutralna waluta internetowa, służy jako realne **medium wymiany**, które wykracza poza granice. Jednak nadal nie jest powszechnie akceptowany w handlu, pomimo jego [ciągłej adopcji] (https://btcmap.org/map).
+Z drugiej strony Bitcoin otwiera nowe perspektywy. Jego właściwości, w szczególności ściśle ograniczona podaż, czynią go doskonałym magazynem wartości. Ponadto, jako neutralna waluta internetowa, stanowi on realny **środek wymiany**, zdolny do przekraczania granic. Niemniej jednak, pomimo ciągłej adopcji (co ilustruje [mapa BTCmap](https://btcmap.org/map)), nie jest on jeszcze powszechnie akceptowany w handlu.
 
 
 ## Waluty powiernicze
@@ -556,7 +555,7 @@ Tworzenie nowych bitcoinów jest wynikiem procesu mining. W skrócie, górnicy u
 ![image](assets/en/022.webp)
 
 
-Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "halving"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
+Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "[halving](https://planb.academy/resources/glossary/halving)"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -582,7 +581,7 @@ Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitc
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Koncepcję mining omówimy bardziej szczegółowo w rozdziale [górnik] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Koncepcję mining omówimy bardziej szczegółowo w rozdziale [górnik](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 
 ### Gwarancja cyfrowego niedoboru
@@ -745,7 +744,7 @@ Co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odp
 Tak więc prawdopodobieństwo zhakowania Bitcoin wallet jest astronomicznie niskie, jeśli przestrzegasz dobrych praktyk bezpieczeństwa, które szczegółowo omówimy w następnej sekcji.
 
 
-Pamiętaj, aby wybrać odpowiedni wallet do swoich potrzeb i zastosowań: szczegółowe samouczki dotyczące zarządzania i zabezpieczania różnych portfeli są dostępne w [sekcji samouczków na naszym uniwersytecie] (https://planb.academy/tutorials/wallet).
+Pamiętaj, aby wybrać odpowiedni wallet do swoich potrzeb i zastosowań: szczegółowe samouczki dotyczące zarządzania i zabezpieczania różnych portfeli są dostępne w [sekcji samouczków na naszym uniwersytecie](https://planb.academy/tutorials/wallet).
 
 
 Jeśli podczas swojej podróży w dół króliczej nory chcesz dowiedzieć się więcej o budowaniu Bitcoin wallet, od entropii po odbieranie adresów, polecamy kurs CYP 201 poświęcony temu tematowi:
@@ -879,7 +878,7 @@ Po skonfigurowaniu wallet oprogramowanie zazwyczaj tworzy klucz prywatny, zwykle
 - Nigdy nie chowaj listy słów w nietypowym miejscu.
 
 
-Powinieneś dosłownie wziąć czystą kartkę papieru lub wydrukować ten [szablon] (https://bitcoiner.guide/backup.pdf) i napisać listę słów długopisem, postępując zgodnie z przedstawioną kolejnością starannie i wyraźnie. Pamiętaj, że jeśli atrament z czasem wyblaknie, możesz stracić swoje fundusze. Dlatego ważne jest, aby chronić tę kartkę papieru przed czynnikami środowiskowymi, które mogą potencjalnie ją uszkodzić, takimi jak wilgoć lub ogień.
+Powinieneś dosłownie wziąć czystą kartkę papieru lub wydrukować ten [szablon](https://bitcoiner.guide/backup.pdf) i napisać listę słów długopisem, postępując zgodnie z przedstawioną kolejnością starannie i wyraźnie. Pamiętaj, że jeśli atrament z czasem wyblaknie, możesz stracić swoje fundusze. Dlatego ważne jest, aby chronić tę kartkę papieru przed czynnikami środowiskowymi, które mogą potencjalnie ją uszkodzić, takimi jak wilgoć lub ogień.
 
 
 Poniżej znajduje się przykład, jak skompilować artykuł: słowa są fałszywe, więc nie używaj ich!
@@ -941,7 +940,7 @@ Dostępne są różne rozwiązania: niektóre z nich są niedrogie, takie jak "B
 Oprócz tej pierwszej praktyki, stworzenie planu spadkowego jest kluczowym krokiem do zapewnienia, że twoje bitcoiny będą odpowiednio zarządzane po twojej śmierci. Plan ten obejmuje odręczne napisanie listu, w którym przedstawisz charakter swoich aktywów, metody dostępu do nich oraz dane kontaktowe zaufanych osób, które są za nie odpowiedzialne. Ważne jest również, aby omówić dziedziczenie bitcoinów z księgowym i/lub prawnikiem ds. spadków, aby zapewnić zgodność z przepisami podatkowymi, nawet jeśli tej osobie nigdy nie należy powierzać bezpośredniego zarządzania bitcoinami.
 
 
-Jeśli chcesz dalej zgłębiać temat planu dziedziczenia swoich bitcoinów, zalecamy przeczytanie książki Pameli Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) lub zapisanie się na kurs BTC102, w którym zapewniamy wskazówki dotyczące tworzenia planu.
+Jeśli chcesz dalej zgłębiać temat planu dziedziczenia swoich bitcoinów, zalecamy przeczytanie książki Pameli Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) lub zapisanie się na kurs BTC102, w którym zapewniamy wskazówki dotyczące tworzenia planu.
 
 
 ![image](assets/en/037.webp)
@@ -1004,7 +1003,7 @@ Teraz, gdy omówiliśmy podstawy portfeli Bitcoin i najlepsze praktyki ich zabez
 ![image](assets/en/038.webp)
 
 
-31 października 2008 r. to data narodzin nowej technologii finansowej, jaką jest Bitcoin. Tego dnia anonimowy Satoshi Nakamoto zaprezentował światu swoją innowację za pośrednictwem wiadomości e-mail wysłanej na listę mailingową cypherpunks, społeczności entuzjastów kryptografii poświęconej promowaniu prywatności w Internecie. Wiadomość ta zawierała dokument o nazwie "White Paper", który przedstawiał sposób działania Bitcoin.
+31 października 2008 r. to data narodzin nowej technologii finansowej, jaką jest Bitcoin. Tego dnia anonimowy Satoshi Nakamoto zaprezentował światu swoją innowację za pośrednictwem wiadomości e-mail wysłanej na listę mailingową cypherpunks, społeczności entuzjastów kryptografii poświęconej promowaniu prywatności w Internecie. Wiadomość ta zawierała dokument o nazwie "[White Paper](https://planb.academy/resources/glossary/white-paper)", który przedstawiał sposób działania Bitcoin.
 
 
 Inicjatywa ta nie spotkała się z natychmiastowym entuzjazmem generate, prawdopodobnie ze względu na wcześniejsze niepowodzenia w próbach stworzenia cyfrowych systemów gotówkowych. Niemniej jednak, biała księga ostatecznie stała się punktem odniesienia dla użytkowników Bitcoin i przez lata była przedmiotem wielu debat w ekosystemie Bitcoin.
@@ -1055,10 +1054,10 @@ W 2010 roku, gdy Bitcoin zaczął przyciągać uwagę mediów, Satoshi postanowi
 > kontrolowane sieci, takie jak Napster, ale czyste sieci P2P, takie jak
 > Wydaje się, że Gnutella i Tor trzymają się dzielnie" - Satoshi Nakamoto
 
-Pomimo nieobecności Satoshi, Bitcoin był nadal rozwijany: historia Bitcoin jest pisana co 10 minut, a protokół działa do dziś zgodnie z przeznaczeniem. Niezależnie od wszelkich obaw, niepewności lub wątpliwości, Bitcoin nadal posuwa się naprzód, z bardzo silną dostępnością online. W rzeczywistości, według tej [strony internetowej] (https://bitcoinuptime.com/), Bitcoin działał i działa bez większych problemów przez 99,988% czasu od jego utworzenia.
+Pomimo nieobecności Satoshi, Bitcoin był nadal rozwijany: historia Bitcoin jest pisana co 10 minut, a protokół działa do dziś zgodnie z przeznaczeniem. Niezależnie od wszelkich obaw, niepewności lub wątpliwości, Bitcoin nadal posuwa się naprzód, z bardzo silną dostępnością online. W rzeczywistości, według tej [strony internetowej](https://bitcoinuptime.com/), Bitcoin działał i działa bez większych problemów przez 99,988% czasu od jego utworzenia.
 
 
-Dla niektórych Bitcoin jest definiowany jako byt grzybowy, taki jak [grzybnia] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), podczas gdy inni opisują go jako [czarną dziurę] (https://dergigi.com/). Można go kochać lub nienawidzić, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
+Dla niektórych Bitcoin jest definiowany jako byt grzybowy, taki jak [grzybnia](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), podczas gdy inni opisują go jako [czarną dziurę](https://dergigi.com/). Można go kochać lub nienawidzić, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
 
 
 Aby dowiedzieć się więcej o pismach Satoshi Nakamoto, zalecamy przeczytanie ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autorstwa Phila Champagne'a lub filmu dokumentalnego ARTE "Le mystaire Satoshi".
@@ -1184,7 +1183,7 @@ W związku z tym każde urządzenie z uruchomionym oprogramowaniem Bitcoin, zwan
 ### Węzły stanowią centralny rdzeń Bitcoin.
 
 
-Każdy węzeł posiada kopię łańcucha bloków, co pozwala na weryfikację transakcji i zapobiega wszelkim próbom oszustwa. Zdecentralizowany charakter sieci zapewnia Bitcoin wyjątkową odporność i wytrzymałość. W rzeczywistości, aby zatrzymać protokół Bitcoin, wszystkie węzły na całym świecie musiałyby zostać wyłączone. We wrześniu 2023 r. istniało około [45 000 węzłów] (https://bitnodes.io/nodes/all/) rozmieszczonych na całym świecie.
+Każdy węzeł posiada kopię łańcucha bloków, co pozwala na weryfikację transakcji i zapobiega wszelkim próbom oszustwa. Zdecentralizowany charakter sieci zapewnia Bitcoin wyjątkową odporność i wytrzymałość. W rzeczywistości, aby zatrzymać protokół Bitcoin, wszystkie węzły na całym świecie musiałyby zostać wyłączone. We wrześniu 2023 r. istniało około [45 000 węzłów](https://bitnodes.io/nodes/all/) rozmieszczonych na całym świecie.
 
 
 Węzły są w stanie weryfikować ważność bloków i transakcji, ponieważ przestrzegają zasad konsensusu Bitcoin. Zasady te ustanawiają politykę pieniężną Bitcoin, taką jak kwota nagrody mining (którą omówimy bardziej szczegółowo w następnej sekcji) i ilość bitcoinów w obiegu. W pewnym sensie węzły działają jako system prawny sieci, ponieważ egzekwują zasady Bitcoin, utrzymując neutralność sieci. Zasady konsensusu prawie się nie różnią, jeśli w ogóle, ponieważ do wprowadzenia zmian wymagana jest zgoda wszystkich węzłów.
@@ -1237,7 +1236,7 @@ Po tym zwycięstwie węzły aktywowały aktualizację o nazwie SegWit, torując 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny ASIC, aby rozwiązać Bitcoin proof of work.**
+**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny [ASIC](https://planb.academy/resources/glossary/asic), aby rozwiązać Bitcoin proof of work.**
 
 
 ![image](assets/en/054.webp)
@@ -1548,8 +1547,10 @@ Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, na p
 Niemniej jednak w Salwadorze i innych częściach świata jest coraz więcej osób, firm i organizacji, które akceptują Bitcoin jako środek płatniczy za swoje produkty lub usługi.
 
 
-![image](assets/en/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*Źródło : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Ponadto uruchomiono projekt open-source i współpracy, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), aby ułatwić korzystanie z Bitcoin w codziennych transakcjach. Platforma ta zawiera listę wszystkich sprzedawców akceptujących Bitcoin, a także różnych społeczności Bitcoin na całym świecie, dzięki czemu można odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoin wokół siebie. Tak więc, pomimo trudności i wahań, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich.
 
@@ -1721,7 +1722,7 @@ Ważne jest, aby zdać sobie sprawę, że KYC jest istotnym tematem dyskusji w b
 ### Rozwiązania inne niż KYC
 
 
-Ponadto istnieje kilka [rynków] (https://planb.academy/tutorials/exchange), na których można kupować i sprzedawać bitcoiny w ramach wymiany peer-to-peer. Ogólnie rzecz biorąc, można rozważyć następujące opcje:
+Ponadto istnieje kilka [rynków](https://planb.academy/tutorials/exchange), na których można kupować i sprzedawać bitcoiny w ramach wymiany peer-to-peer. Ogólnie rzecz biorąc, można rozważyć następujące opcje:
 
 
 

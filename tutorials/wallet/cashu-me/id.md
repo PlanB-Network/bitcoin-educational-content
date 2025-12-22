@@ -81,7 +81,7 @@ Hal ini menjadikan ecash sebagai solusi kustodian untuk Bitcoin itu sendiri, mes
 ![image](assets/en/01.webp)
 
 
-Setelah menyelesaikan penyiapan, Anda harus terhubung ke `Mint`. Ketuk `TAMBAH MINT` diikuti dengan `TEMUKAN MINT` untuk melihat mint yang direkomendasikan oleh komunitas Nostr. Untuk verifikasi tambahan, Anda dapat meninjau peringkat mint di [bitcoinmints.com] (bitcoinmints.com).
+Setelah menyelesaikan penyiapan, Anda harus terhubung ke `Mint`. Ketuk `TAMBAH MINT` diikuti dengan `TEMUKAN MINT` untuk melihat mint yang direkomendasikan oleh komunitas Nostr. Untuk verifikasi tambahan, Anda dapat meninjau peringkat mint di [bitcoinmints.com](bitcoinmints.com).
 
 
 Selanjutnya ketuk `Klik untuk menelusuri permen` untuk melihat daftar lengkapnya. Pilih permen dengan menyalin URL-nya, tempelkan ke dalam bidang URL, dan beri nama yang mudah dikenali. Untuk contoh ini, kita akan menggunakan:
@@ -188,7 +188,7 @@ Di luar fungsionalitas pengiriman dan penerimaan inti, Cashu.me menawarkan fitur
 ### Nostr Wallet Connect
 
 
-Nostr Wallet Connect (`NWC`) mengubah cara Anda berinteraksi dengan aplikasi Nostr dengan menciptakan koneksi tanpa batas antara Wallet dan aplikasi sosial. Protokol ini memungkinkan aplikasi seperti [Damus] (https://damus.io/) atau [Primal] (https://primal.net/home) untuk meminta pembayaran secara langsung melalui relay Nostr tanpa mengharuskan Anda meninggalkan aplikasi.
+Nostr Wallet Connect (`NWC`) mengubah cara Anda berinteraksi dengan aplikasi Nostr dengan menciptakan koneksi tanpa batas antara Wallet dan aplikasi sosial. Protokol ini memungkinkan aplikasi seperti [Damus](https://damus.io/) atau [Primal](https://primal.net/home) untuk meminta pembayaran secara langsung melalui relay Nostr tanpa mengharuskan Anda meninggalkan aplikasi.
 
 
 Untuk mengatur `NWC` di Cashu.me:
@@ -209,13 +209,13 @@ Untuk mengatur `NWC` di Cashu.me:
 ### Lightning Address via npub.cash
 
 
-Cashu.me terintegrasi dengan [npub.cash] (https://npub.cash/) untuk menyediakan Anda dengan Lightning Address yang bekerja secara mulus dengan protokol Nostr. Di sini Anda dapat mendaftar dan mengklaim nama pengguna Anda dengan memberikan `nsec` Nostr Anda, yang berharga 5.000 Sats dan mendukung proyek npub.cash, atau Anda dapat menggunakan kunci publik Nostr apa pun (`npub`) tanpa registrasi.
+Cashu.me terintegrasi dengan [npub.cash](https://npub.cash/) untuk menyediakan Anda dengan Lightning Address yang bekerja secara mulus dengan protokol Nostr. Di sini Anda dapat mendaftar dan mengklaim nama pengguna Anda dengan memberikan `nsec` Nostr Anda, yang berharga 5.000 Sats dan mendukung proyek npub.cash, atau Anda dapat menggunakan kunci publik Nostr apa pun (`npub`) tanpa registrasi.
 
 
 Pertama, masuk ke `Pengaturan` dan ketuk `Aktifkan` Lightning Address dengan npub.cash. Ini akan membuat generate npub.cash Address menggunakan string `npub` yang berasal dari frasa Wallet seed Anda secara default.
 
 
-Atau, kunjungi [halaman web ini] (https://npub.cash/username) untuk mengklaim nama pengguna khusus menggunakan Nostr `nsec` Anda sendiri, yang memberi Anda Lightning Address yang dipersonalisasi seperti username@npub.cash.
+Atau, kunjungi [halaman web ini](https://npub.cash/username) untuk mengklaim nama pengguna khusus menggunakan Nostr `nsec` Anda sendiri, yang memberi Anda Lightning Address yang dipersonalisasi seperti username@npub.cash.
 
 
 ![image](assets/en/11.webp)

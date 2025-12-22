@@ -1,0 +1,9 @@
+question: ขนาดจำกัดเริ่มต้นของ Mempool ใน Bitcoin Core คือเท่าใด?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  ตามค่าเริ่มต้น Bitcoin Core จำกัด Mempool ไว้ที่ 300 MB เกินกว่านั้นจะขับไล่ธุรกรรมที่มีกำไรน้อยกว่าออกไป
+reviewed: true

@@ -1,0 +1,8 @@
+question: Jakou zásadní strategickou výhodu poskytuje regulační postavení Liquid ve srovnání s jinými tokenizačními platformami, jako je Ethereum nebo Solana?
+answer: Liquid se vyhýbá rizikům neregistrovaných cenných papírů tím, že používá Bitcoin (L-BTC) jako své nativní aktivum, aniž by předtím provedla mining nebo ICO
+wrong_answers:
+  - Společnost Liquid působí ve zvláštním regulačním prostoru, který ji ve většině jurisdikcí vyjímá z působnosti zákonů o cenných papírech
+  - "Model federace Liquid automaticky kvalifikuje všechny vydané tokeny jako regulované cenné papíry podle stávajících rámců."
+  - Společnost Liquid získala od hlavních finančních úřadů všeobecné regulatorní schválení pro všechna tokenizovaná aktiva na své platformě
+explanation: |
+  Strategická regulační výhoda Liquid vyplývá spíše z jeho technické architektury než ze zvláštních výjimek nebo schválení. Tím, že Bitcoin používá jako své nativní aktivum (L-BTC), aniž by předtím používala tokeny mining nebo prováděla ICO, se Liquid vyhýbá klasifikaci "neregistrovaného cenného papíru", která ohrožuje mnoho jiných blockchainových platforem. To je zásadní, protože regulační orgány, jako je SEC, stále častěji zkoumají blockchainové projekty, které vytvořily a prodávají své vlastní tokeny, a potenciálně je klasifikují jako neregistrované cenné papíry. Špatné odpovědi nesprávně naznačují, že Liquid má zvláštní regulační oprávnění nebo automatické funkce pro dodržování předpisů, zatímco ve skutečnosti jeho výhoda spočívá v tom, že se zcela vyhýbá problematické ekonomice token.

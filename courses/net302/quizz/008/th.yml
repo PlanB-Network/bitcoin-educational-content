@@ -1,0 +1,9 @@
+question: ในปีใดที่ส่วนแรกของ ARPANET เริ่มใช้งานได้?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  ส่วนแรกของ ARPANET เริ่มใช้งานในเดือนตุลาคม 1969 เชื่อมต่อ UCLA และ Stanford เข้าด้วยกัน
+reviewed: false

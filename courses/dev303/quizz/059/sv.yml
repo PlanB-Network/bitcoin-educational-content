@@ -1,0 +1,8 @@
+question: Vad är den viktigaste fördelen med att använda derive-makron som #[derive(Debug)] jämfört med att manuellt implementera egenskaper för anpassade typer?
+answer: De använder automatiskt generate för kompletta implementeringar av egenskaper vid kompilering, vilket minskar mängden standardkod
+wrong_answers:
+  - De ger bättre prestanda under körning genom att optimera metodanrop för egenskaper under exekvering
+  - De gör det möjligt att implementera egenskaper flera gånger för samma typ med olika beteenden
+  - De möjliggör dynamisk implementering av egenskaper som kan modifieras under körning baserat på programstatus
+explanation: |
+  Derive-makron genererar automatiskt generate-egenskapsimplementeringar under kompilering, vilket eliminerar behovet av att skriva repetitiv boilerplate-kod manuellt. När du använder #[derive(Debug)] genererar kompilatorn all nödvändig formateringslogik för den egenskapen. De felaktiga svaren är felaktiga eftersom: derive-makron inte förbättrar körtidsprestanda (de generate samma kod som du skulle skriva manuellt), egenskaper kan bara implementeras en gång per typ oavsett hur de implementeras, och derive-makron generate statisk kod vid kompileringstid snarare än att möjliggöra körtidsändringar.

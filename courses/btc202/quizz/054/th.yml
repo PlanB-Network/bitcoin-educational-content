@@ -1,0 +1,9 @@
+question: Bitcoin core เวอร์ชันใดที่แนะนำโมเดล Ultraprune?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  ตั้งแต่เวอร์ชัน 0.8.0, Bitcoin Core ไม่ได้ใช้ดัชนีแบบทั่วโลกอีกต่อไป แต่จะดูแลชุด UTXO โดยตรงด้วยความช่วยเหลือจาก Ultraprune.
+reviewed: true

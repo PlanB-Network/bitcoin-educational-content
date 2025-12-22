@@ -30,7 +30,7 @@ Selamat datang di kursus BTC101!
 
 Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
-Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
+Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "[blockchain](https://planb.academy/resources/glossary/blockchain)" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
 **Sebuah kurikulum yang lengkap namun mudah diakses:**
 
@@ -84,7 +84,6 @@ Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi 
 
 Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
 
 ## Prasejarah Bitcoin
 
@@ -128,7 +127,7 @@ Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui 
 
 ![image](assets/id/005.webp)
 
-Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
+Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti [proof of work](https://planb.academy/resources/glossary/proof-of-work) dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
 
 Namun, Bitcoin lebih dari sekadar itu: Bitcoin mewakili pencapaian cita-cita cypherpunk. Di luar teknologinya, Bitcoin melambangkan sebuah revolusi melawan sistem keuangan tradisional dan menawarkan sebuah alternatif berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
 
@@ -207,7 +206,7 @@ Untuk memenuhi kriteria ini, mata uang secara historis telah berevolusi dengan m
 
 Mata uang masih terus berkembang hingga hari ini, bentuknya beradaptasi untuk memenuhi berbagai kasus penggunaan. Seperti yang telah kami katakan, meskipun emas adalah penyimpan nilai yang sangat baik, emas tidak lagi cocok untuk ekonomi global saat ini. Demikian pula, mata uang fiat seperti dolar dan euro sangat likuid dan mudah diangkut karena sebagian besar mata uang tersebut sekarang berbentuk digital, tetapi nilainya terus menurun karena inflasi moneter.
 
-Di sisi lain, Bitcoin menghadirkan berbagai kemungkinan baru. Sifat-sifatnya, seperti supply yang sangat terbatas, menjadikannya penyimpan nilai yang sangat baik. Selain itu, sebagai mata uang internet yang netral, Bitcoin berfungsi sebagai alat tukar yang layak yang melampaui batas-batas negara. Namun, Bitcoin masih belum diterima secara luas dalam perdagangan saat ini, meskipun telah diadopsi secara terus-menerus (https://btcmap.org/map).
+Di sisi lain, Bitcoin membuka perspektif baru. Sifat-sifatnya, khususnya pasokan yang sangat terbatas, menjadikannya penyimpan nilai yang sangat baik. Selain itu, sebagai mata uang internet yang netral, Bitcoin merupakan **alat tukar** yang layak, mampu melampaui batas negara. Namun demikian, meskipun adopsinya terus berlanjut (sebagaimana ditunjukkan oleh [peta BTCmap](https://btcmap.org/map)), saat ini Bitcoin belum diterima secara luas dalam perdagangan.
 
 ## Mata uang fidusia/fiat
 
@@ -372,7 +371,7 @@ Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para p
 
 ![image](assets/id/022.webp)
 
-Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
+Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "[halving](https://planb.academy/resources/glossary/halving)"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
 | Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving  | Perkiraan BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -574,7 +573,7 @@ Jumlah yang ingin ditinggalkan pada tingkat keamanan tertentu tergantung pada ma
 
 Kesimpulannya, kepemilikan langsung atas bitcoin seseorang merupakan elemen penting untuk memastikan kedaulatan finansial. Disarankan untuk menggunakan dompet mobile untuk pengeluaran harian dan dompet fisik offline atau "dingin" untuk menyimpan jumlah yang lebih besar. Di sisi lain, bisnis harus mempertimbangkan untuk menggunakan sistem tanda tangan multi, atau "multisig", untuk meningkatkan keamanan bersama. Penting juga untuk menghindari layanan kustodian, yang dapat mereplikasi beberapa kerentanan sistem keuangan tradisional.
 
-Dengan mengingat hal ini, sekarang kita dapat beralih ke bagian selanjutnya di mana kami akan menjelaskan bagaimana cara membuat dompet Bitcoin. Namun, jika Anda ingin mendalami topik keamanan lebih lanjut, Anda dapat membaca [artikel dari DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Dengan mengingat hal ini, sekarang kita dapat beralih ke bagian selanjutnya di mana kami akan menjelaskan bagaimana cara membuat dompet Bitcoin. Namun, jika Anda ingin mendalami topik keamanan lebih lanjut, Anda dapat membaca [artikel dari DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Menyiapkan Dompet
 
@@ -639,7 +638,7 @@ Berbagai solusi tersedia: beberapa di antaranya berbiaya rendah, seperti "Blockm
 
 Bersamaan dengan praktik pertama ini, membuat rencana warisan adalah langkah penting untuk memastikan bahwa bitcoin Anda dikelola dengan baik setelah Anda meninggal. Rencana ini melibatkan penulisan surat dengan tangan di mana Anda menguraikan sifat aset Anda, metode aksesnya, dan informasi kontak dari orang-orang tepercaya yang bertanggung jawab atas aset tersebut. Penting juga untuk mendiskusikan pewarisan bitcoin dengan notaris untuk memastikan kepatuhan pajak, meskipun orang ini tidak boleh dipercayakan secara langsung untuk mengelola bitcoin Anda.
 
-Jika Anda ingin menjelajahi lebih jauh subjek rencana warisan untuk bitcoin Anda, kami sarankan untuk membaca buku Pamela Morgan [Rencana Warisan Aset Kripto] (https://planb.academy/resources/books/28) atau mendaftar di kursus BTC102, di mana kami memberikan panduan untuk membuat rencana Anda.
+Jika Anda ingin menjelajahi lebih jauh subjek rencana warisan untuk bitcoin Anda, kami sarankan untuk membaca buku Pamela Morgan [Rencana Warisan Aset Kripto](https://planb.academy/resources/books/28) atau mendaftar di kursus BTC102, di mana kami memberikan panduan untuk membuat rencana Anda.
 
 ![image](assets/id/037.webp)
 
@@ -681,7 +680,7 @@ Sekarang kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untu
 
 ![image](assets/id/038.webp)
 
-Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "White Paper", yang mempresentasikan cara kerja Bitcoin.
+Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "[White Paper](https://planb.academy/resources/glossary/white-paper)", yang mempresentasikan cara kerja Bitcoin.
 
 Inisiatif ini tidak langsung menimbulkan antusiasme, mungkin karena kegagalan sebelumnya dalam upaya menciptakan sistem uang digital. Namun demikian, Buku Putih ini akhirnya menjadi referensi bagi para pengguna Bitcoin dan telah menjadi bahan perdebatan dalam ekosistem Bitcoin selama bertahun-tahun.
 
@@ -703,7 +702,7 @@ Pada tanggal 9 Januari 2009, Satoshi mengumumkan peluncuran Bitcoin versi 0.1.0.
 
 Ketertarikan terhadap Bitcoin tumbuh dengan cepat, membuat banyak orang mengujinya, terlibat dalam perdebatan, memecahkan masalah, dan merefleksikan aspek etika, ekonomi, dan filosofinya. Orang-orang begitu terpikat sehingga Satoshi menciptakan forum BitcoinTalk pada tanggal 22 November 2009, untuk memfasilitasi jenis konfrontasi ini.
 
-Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh para pengguna Bitcoin, sedemikian rupa sehingga meme dan simbol terkenal yang terkait dengan Bitcoin lahir darinya, seperti [logo Bitcoin] (https://bitcointalk.org/index.php?topic=64.0), [Hodl] (https://bitcointalk.org/index.php?topic=375643.0) yang terkenal, atau bahkan [hari Pizza] (https://bitcointalk.org/index.php?topic=137.msg1195).
+Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh para pengguna Bitcoin, sedemikian rupa sehingga meme dan simbol terkenal yang terkait dengan Bitcoin lahir darinya, seperti [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), [Hodl](https://bitcointalk.org/index.php?topic=375643.0) yang terkenal, atau bahkan [hari Pizza](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 \*\*Tahukah Anda? Pada tanggal 22 Mei 2010, Laszlo Hanyecz membuat sejarah dengan menawarkan untuk membeli dua pizza seharga 10.000 BTC: ini adalah pertama kalinya Bitcoin digunakan untuk membeli barang fisik.
 
@@ -718,13 +717,13 @@ Pada tahun 2010, ketika Bitcoin mulai menarik perhatian media, Satoshi memutuska
 > Gnutella dan Tor tampaknya akan bertahan dengan sendirinya." - Satoshi Nakamoto
 > Terlepas dari ketidakhadiran Satoshi, Bitcoin terus dikembangkan: sejarah Bitcoin ditulis setiap 10 menit, dan protokolnya terus berfungsi hingga hari ini sebagaimana mestinya. Terlepas dari ketakutan, ketidakpastian, atau keraguan, Bitcoin terus bergerak maju, dengan ketersediaan online yang sangat kuat. Faktanya, menurut [situs web] ini (https://bitcoinuptime.com/), Bitcoin telah berfungsi dan berjalan tanpa masalah besar selama 99,988% dari waktu sejak diciptakan.
 
-Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miselium] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), sementara yang lain menggambarkannya sebagai [lubang hitam] (https://dergigi.com/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
+Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miselium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), sementara yang lain menggambarkannya sebagai [lubang hitam](https://dergigi.com/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
 
-Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
+Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
 
 ![image](assets/id/044.webp)
 
-> "Akar masalah dari mata uang konvensional adalah dibutuhkan kepercayaan untuk membuatnya berjalan. Bank sentral harus dipercaya untuk tidak men-devaluasi nilai mata uang, namun sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan cadangan yang nyaris tidak ada" - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Akar masalah dari mata uang konvensional adalah dibutuhkan kepercayaan untuk membuatnya berjalan. Bank sentral harus dipercaya untuk tidak men-devaluasi nilai mata uang, namun sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan cadangan yang nyaris tidak ada" - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Setelah mengetahui latar belakangnya, mari kita lihat bagaimana cara kerja transaksi Bitcoin secara umum.
 
 ## Transaksi Bitcoin
@@ -796,13 +795,13 @@ Node adalah elemen fundamental dalam arsitektur jaringan Bitcoin, karena node me
 - Mengirimkan informasi ke node lain
 - Menegakkan aturan protokol Bitcoin.
 
-Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin node (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
+Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin [node](https://planb.academy/resources/glossary/node) (sering kali menggunakan [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
 
 ![image](assets/id/050.webp)
 
 ### Node adalah inti utama dari Bitcoin.
 
-Setiap node menyimpan salinan blockchain, yang memungkinkan verifikasi transaksi dan mencegah upaya penipuan. Sifat jaringan yang terdesentralisasi memberikan Bitcoin ketahanan dan kekuatan yang luar biasa. Faktanya, untuk menghentikan protokol Bitcoin, semua node di seluruh dunia harus dimatikan. Sebagai informasi, pada September 2023, ada sekitar [45.000 node] (https://bitnodes.io/nodes/all/) yang tersebar di seluruh dunia.
+Setiap node menyimpan salinan blockchain, yang memungkinkan verifikasi transaksi dan mencegah upaya penipuan. Sifat jaringan yang terdesentralisasi memberikan Bitcoin ketahanan dan kekuatan yang luar biasa. Faktanya, untuk menghentikan protokol Bitcoin, semua node di seluruh dunia harus dimatikan. Sebagai informasi, pada September 2023, ada sekitar [45.000 node](https://bitnodes.io/nodes/all/) yang tersebar di seluruh dunia.
 
 Node mampu memverifikasi keabsahan blok dan transaksi karena mereka mengikuti aturan konsensus Bitcoin. Aturan-aturan ini menetapkan kebijakan moneter Bitcoin, seperti jumlah upah penambang (yang akan kita bahas secara lebih rinci di bagian selanjutnya) dan jumlah bitcoin yang beredar. Di satu sisi, node bertindak sebagai sistem hukum jaringan karena semua peserta jaringan mengikuti aturan yang sama, sehingga memastikan netralitas protokol Bitcoin. Aturan konsensus hampir tidak pernah berubah, jika ada, karena untuk membuat perubahan, diperlukan persetujuan dari semua node.
 
@@ -838,7 +837,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
+**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin [ASIC](https://planb.academy/resources/glossary/asic) untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
 ![image](assets/id/054.webp)
 
@@ -1044,9 +1043,11 @@ Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, se
 
 Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
-![image](assets/id/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Selain itu, sebuah proyek open-source dan kolaboratif telah diluncurkan, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari. Platform ini mencantumkan semua pedagang yang menerima Bitcoin, serta berbagai komunitas Bitcoin di seluruh dunia, sehingga Anda dapat mengunjungi situs web mereka untuk menemukan ekosistem Bitcoin di sekitar Anda. Jadi, terlepas dari kesulitan dan keraguan, ada inisiatif seperti BTCMap yang berkontribusi untuk membuat ekonomi Bitcoin lebih mudah diakses dan nyaman bagi semua orang.
+*Sumber : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Selain itu, sebuah proyek open-source dan kolaboratif telah diluncurkan, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari. Platform ini mencantumkan semua pedagang yang menerima Bitcoin, serta berbagai komunitas Bitcoin di seluruh dunia, sehingga Anda dapat mengunjungi situs web mereka untuk menemukan ekosistem Bitcoin di sekitar Anda. Jadi, terlepas dari kesulitan dan keraguan, ada inisiatif seperti BTCMap yang berkontribusi untuk membuat ekonomi Bitcoin lebih mudah diakses dan nyaman bagi semua orang.
 
 ### Mengapa kita harus menerima Bitcoin dan bukan membelinya?
 
@@ -1196,7 +1197,7 @@ Pada akhirnya, kami mengundang Anda untuk merenungkan revolusi moneter yang baru
 
 ![image](assets/id/079.webp)
 
-Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang tepat: banyak penulis, pemikir, dan penulis esai yang telah membuat konten edukasi mengenai Bitcoin. Selama beberapa tahun terakhir, kami telah membuat daftar dan mengkategorikan karya-karya tersebut untuk menawarkan [perpustakaan sumber daya] (https://planb.academy/resources) kepada Anda yang paling ingin tahu di antara lingkungan Anda. Di bagian tersebut, Anda akan menemukan podcast, situs web, artikel, tutorial, buku, dan konten lainnya yang terbaik.
+Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang tepat: banyak penulis, pemikir, dan penulis esai yang telah membuat konten edukasi mengenai Bitcoin. Selama beberapa tahun terakhir, kami telah membuat daftar dan mengkategorikan karya-karya tersebut untuk menawarkan [perpustakaan sumber daya](https://planb.academy/resources) kepada Anda yang paling ingin tahu di antara lingkungan Anda. Di bagian tersebut, Anda akan menemukan podcast, situs web, artikel, tutorial, buku, dan konten lainnya yang terbaik.
 
 > "Saya pikir Internet akan menjadi salah satu kekuatan utama untuk mengurangi peran pemerintah. Satu hal yang belum ada, namun akan segera dikembangkan, adalah e-cash yang dapat diandalkan - sebuah metode di mana di Internet Anda dapat mentransfer dana dari A ke B tanpa A mengetahui B atau B mengetahui A." - Prediksi Milton Friedman pada tahun 1999
 

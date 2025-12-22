@@ -1,6 +1,8 @@
 import os
 import json
 from appdirs import user_config_dir
+from utils.path_utils import normalize_base_path
+
 
 APP_NAME = "Tutorial Creator GUI"
 APP_AUTHOR = "Plan B Network"
@@ -23,6 +25,7 @@ def load_settings():
     settings.setdefault("theme", "Light")
     settings.setdefault("window_width", 768)
     settings.setdefault("window_height", 576)
+    settings["base_path"] = normalize_base_path(settings.get("base_path", ""))
     return settings
 
 def save_settings(settings):

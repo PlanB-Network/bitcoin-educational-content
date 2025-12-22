@@ -1,0 +1,8 @@
+question: Rust 对结构名和字段名分别执行什么命名约定？
+answer: 结构名用 CamelCase，字段名用 snake_case
+wrong_answers:
+  - 结构名使用 snake_case，字段名使用 CamelCase
+  - 结构名用 kebab 大小写，字段名用 camelCase 大小写
+  - 结构名用大写，字段名用小写
+explanation: |
+  Rust 遵循特定的命名约定，编译器会通过警告来强制执行这些约定。结构体名称应使用 CamelCase（也称为 PascalCase），每个单词都以大写字母开头，如 "MyStruct"。结构中的字段名应使用蛇形小写，下划线分隔单词，如 "my_field"。这一约定保持了 Rust 代码库的一致性，并提高了开发人员的可读性。

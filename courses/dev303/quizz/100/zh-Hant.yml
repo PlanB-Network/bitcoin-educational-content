@@ -1,0 +1,8 @@
+question: LDK 能在傳統 Lightning 節點無法運作的 WebAssembly 瀏覽器環境中運作的主要架構優勢是什麼？
+answer: LDK 的無系統呼叫設計哲學允許它在不直接存取檔案系統、網路套接字或熵源的情況下運作。
+wrong_answers:
+  - 「LDK的模組化Rust函式庫結構透過原生Rust到WASM的編譯功能，自動提供WebAssembly相容性」
+  - 「LDK的事件驅動架構消除了對持久連接的需求，可以完全通過HTTP請求-回應週期進行操作」
+  - 「LDK的輕量級區塊鏈整合充分降低了記憶體使用量，以滿足WebAssembly嚴格的資源限制和約束」
+explanation: |
+  LDK的無系統調用設計具體地實現了瀏覽器兼容性。傳統的 Lightning 節點在網路、檔案 I/O 和隨機性方面仰賴直接的系統呼叫，而 WebAssembly 環境基於安全理由禁止這樣做。LDK 對這些依賴進行了抽象，允許開發人員使用 WebSockets 來實現網路，使用瀏覽器 API 來實現持久性和隨機性，同時保持完全的 Lightning 協定合規性。

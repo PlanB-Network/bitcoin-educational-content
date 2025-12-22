@@ -1,0 +1,8 @@
+question: 哪种方法可让您从结果中提取值，同时在出现错误时提供自定义紧急消息？
+answer: 预想
+wrong_answers:
+  - 否则
+  - 带消息的解包
+  - 恐慌
+explanation: |
+  expect 方法专门设计用于从结果中提取成功值，同时允许您提供自定义的紧急消息，在发生错误时显示。与使用通用惊恐消息的 unwrap 相比，这种方法使调试变得更容易。unwrap_or_else 方法不会引起恐慌，而是在发生错误时执行闭包。其他选项（unwrap_with_message 和 panic_with）并非处理结果类型的实际 Rust 方法。

@@ -1,0 +1,8 @@
+question: Apa alasan mendasar mengapa arsitektur Breez SDK mencegah rintangan regulasi yang biasanya memengaruhi layanan Lightning kustodian?
+answer: Pengguna memiliki kontrol penuh atas kunci pribadi mereka yang tidak pernah meninggalkan perangkat mereka, menjadikannya perangkat lunak non-kustodian
+wrong_answers:
+  - SDK beroperasi melalui LSP terdesentralisasi yang mendistribusikan tanggung jawab regulasi di berbagai yurisdiksi
+  - Infrastruktur Greenlight di-host di yurisdiksi yang ramah regulasi yang membebaskan layanan Lightning berbasis cloud
+  - Mekanisme saluran just-in-time menciptakan saluran pembayaran sementara yang berada di luar peraturan keuangan tradisional
+explanation: |
+  Breez SDK menghindari rintangan regulasi karena mempertahankan prinsip-prinsip non-kustodian - kunci pribadi pengguna tidak pernah meninggalkan perangkat mereka dan Greenlight tidak dapat mengakses dana pengguna atau melakukan operasi yang tidak sah. Arsitektur non-kustodian ini berarti perangkat lunak tidak menyimpan dana pelanggan, tidak seperti layanan kustodian yang menghadapi persyaratan peraturan yang signifikan karena mereka mengontrol aset pengguna. Opsi lain secara keliru menyarankan keuntungan regulasi berasal dari fitur teknis atau strategi yurisdiksi, padahal keuntungan intinya adalah perangkat lunak non-kustodian menghadapi lebih sedikit hambatan regulasi secara global.

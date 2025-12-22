@@ -82,7 +82,7 @@ L'applicazione è disponibile direttamente su App Store o Play Store. È suffici
 
 
 
-Per installare Jami sul vostro dispositivo, dovete prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
+Per installare Jami sul vostro dispositivo, dovete prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download](https://jami.net/download-jami-windows/).
 
 
 
@@ -312,7 +312,7 @@ Una volta inserita la password, il dispositivo si connetterà automaticamente al
 
 
 
-Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui] (https://jami.net/extensions/).
+Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui](https://jami.net/extensions/).
 
 
 

@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het gebruik van map() en map_err() methoden op Result types in vergelijking met traditionele try-catch foutafhandelingspatronen?
+answer: Ze staan functionele ketens van bewerkingen toe, terwijl de foutafhandeling dicht bij de bewerkingen blijft die kunnen falen
+wrong_answers:
+  - Ze converteren automatisch alle fouttypes naar tekenreeksen voor eenvoudiger debuggen en weergave door de gebruiker
+  - Ze elimineren de noodzaak voor de vraagtekenoperator door ingebouwde mechanismen voor foutverspreiding te bieden
+  - Ze voorkomen paniektoestanden door alle potentieel falende bewerkingen in veilige Result containers te verpakken
+explanation: |
+  De map() en map_err() methoden maken een functionele foutafhandeling mogelijk waarbij je bewerkingen kunt chainen en waarden of fouten kunt transformeren op het punt waar ze optreden. Dit houdt de logica voor foutafhandeling dicht bij de operaties die kunnen mislukken, in tegenstelling tot try-catch blokken waar foutafhandeling gescheiden is van de eigenlijke operaties. De andere opties zijn onjuist: mapmethodes converteren fouten niet naar strings (dat is de rol van Anyhow), ze werken naast de vraagtekenoperator in plaats van deze te vervangen, en ze voorkomen geen panics maar bieden eerder gestructureerde foutafhandeling voor Resultaten.

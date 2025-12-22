@@ -90,7 +90,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ### 2. Instalação de acordo com o seu sistema
 
-Siga os passos de instalação adequados ao seu sistema operativo. Se tiver alguma dificuldade durante a instalação, pode consultar o guia detalhado no [wiki oficial do Bisq] (https://bisq.wiki/Downloading_and_installing).
+Siga os passos de instalação adequados ao seu sistema operativo. Se tiver alguma dificuldade durante a instalação, pode consultar o guia detalhado no [wiki oficial do Bisq](https://bisq.wiki/Downloading_and_installing).
 
 ### 3. Primeiro arranque
 
@@ -127,7 +127,7 @@ A pré-configuração dos métodos de pagamento é opcional, mas recomendada par
 
 **Cópia de segurança dos dados:**
 
-Ao contrário do Bisq 1, o Bisq 2 não integra atualmente uma carteira Bitcoin: as transacções são, portanto, efectuadas através das suas próprias carteiras externas. No entanto, recomendamos que faças regularmente cópias de segurança da tua pasta de dados do Bisq 2. Para localizar a tua pasta de dados, consulta a [wiki oficial do Bisq] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+Ao contrário do Bisq 1, o Bisq 2 não integra atualmente uma carteira Bitcoin: as transacções são, portanto, efectuadas através das suas próprias carteiras externas. No entanto, recomendamos que faças regularmente cópias de segurança da tua pasta de dados do Bisq 2. Para localizar a tua pasta de dados, consulta a [wiki oficial do Bisq](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Gestão da identidade:**
 

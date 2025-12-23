@@ -1,15 +1,15 @@
 ---
-name: Einrichten Ihres ersten Bitcoin-Knotens
-goal: Verstehen, Installieren, Konfigurieren und Verwenden eines Bitcoin-Knotens
+name: Einrichten deiner ersten Bitcoin-Node
+goal: Verstehen, Installieren, Konfigurieren und Verwenden einer Bitcoin-Node
 objectives: 
 
 
-  - Die Rolle und den Zweck eines Bitcoin-Knotens zu verstehen.
+  - Die Rolle und den Zweck einer Bitcoin-Node verstehen.
   - Die verschiedenen verfügbaren Hardware- und Softwarelösungen zu identifizieren.
-  - Installieren und konfigurieren Sie einen Full node (Bitcoin core).
-  - Verwenden Sie den Interface Regenschirm und fügen Sie nützliche Anwendungen hinzu.
-  - Verbinden Sie einen persönlichen Wallet mit seinem eigenen Knoten.
-  - Erkunden Sie die erweiterten Einstellungen und die besten Sicherheitspraktiken.
+  - Installieren und konfigurieren einer Full Node (Bitcoin Core).
+  - Verwenden des Umbrel Interfaces und installieren nützlicher Anwendungen.
+  - Verbinden einer persönlichen Wallet mit seiner eigenen Node.
+  - Erkunden der erweiterten Einstellungen und der besten Sicherheitspraktiken.
 
 
 ---
@@ -158,174 +158,104 @@ In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Soft
 
 <chapterId>d2992614-7ab7-4bf9-81b1-f548cda67257</chapterId>
 
-Die Begriffe "Knoten" und "Miner" werden oft verwechselt. Doch diese beiden Elements erfüllen völlig unterschiedliche Funktionen innerhalb des Systems.
+Die Begriffe "Node" und "Miner" werden oft verwechselt. Doch diese beiden Elemente erfüllen völlig unterschiedliche Funktionen innerhalb des Systems.
 
-Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: Sie fungierte als Wallet, ein Knotenpunkt, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was Sie tun mussten, war, die Bitcoin-Software auf Ihrem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
+Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: Sie fungierte als Wallet, Node, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was du tun musstest, war, die Bitcoin-Software auf deinem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
 
-Mit der allmählichen Verbreitung von Bitcoin und dem Anstieg der Zahl der Bergleute hat sich die Wettbewerbslandschaft bei Mining jedoch radikal verändert. Heute ist Mining zu einer extrem wettbewerbsintensiven Aktivität geworden, die von industriellen Akteuren mit spezialisierten Infrastrukturen dominiert wird. Die zum Schürfen eines neuen Blocks erforderliche Leistung ist inzwischen so groß, dass es für einen einzelnen Nutzer praktisch unmöglich ist, dies nur mit einem herkömmlichen Computer zu erreichen. Infolgedessen wird Mining heute hauptsächlich von spezialisierten Maschinen, so genannten ASICs (*Application-Specific Integrated Circuits*), betrieben. Diese Chips sind ausschließlich für die Ausführung des doppelten SHA-256, des für Mining verwendeten Algorithmus, auf Bitcoin optimiert.
+Mit der allmählichen Verbreitung von Bitcoin und dem Anstieg der Zahl der Miner hat sich die Wettbewerbslandschaft bei Mining jedoch radikal verändert. Heute ist Mining zu einer extrem wettbewerbsintensiven Aktivität geworden, die von industriellen Akteuren mit spezialisierten Infrastrukturen dominiert wird. Die zum minen eines neuen Blocks erforderliche Leistung ist inzwischen so groß, dass es für einen einzelnen Nutzer praktisch unmöglich ist, dies nur mit einem herkömmlichen Computer zu erreichen. Infolgedessen wird Mining heute hauptsächlich von spezialisierten Maschinen, so genannten ASICs (*Application-Specific Integrated Circuits*), betrieben. Diese Chips sind ausschließlich für die Ausführung des doppelten SHA-256, des für Mining verwendeten Algorithmus auf Bitcoin, optimiert.
 
 ![Image](assets/fr/053.webp)
 
-Angesichts dieser Entwicklung haben sich die Rollen des Bitcoin-Knotens und des Miner-Knotens deutlich voneinander unterschieden. Wie oben dargestellt, ist die Rolle eines Bitcoin-Knotens rein informativ und validierungsbasiert. Die Rolle des Miner ist eine andere:
+Angesichts dieser Entwicklung haben sich die Rollen der Nodes und der Miner deutlich voneinander getrennt. Wie oben dargestellt, ist die Rolle einer Bitcoin-Node rein informativ und validierungsbasiert. Die Rolle des Miner's ist eine andere:
 
-- Sie wählt die ausstehenden Transaktionen in der Mempool aus.
-- Er erstellt einen Kandidatenblock, der diese Transaktionen integriert.
-- Er sucht durch Versuch und Irrtum nach einem gültigen Proof of Work.
-- Findet er einen gültigen Beweis, sendet er den Block über seinen Knotenpunkt an die anderen Knotenpunkte.
+- Er wählt die ausstehenden Transaktionen im Mempool aus.
+- Er erstellt einen potenziellen Block, der diese Transaktionen integriert.
+- Er sucht durch Trail-and-Error nach einem gültigen Proof-of-Work.
+- Findet er einen gültigen Proof-of-Work, sendet er den Block über seine Node an die anderen Nodes.
 
-Ein Miner benötigt einen Bitcoin-Knoten, um mit dem Netz zu interagieren.
+Ein Miner benötigt eine Bitcoin-Node, um mit dem Netzwerk zu interagieren.
 
-Die Rolle des Miner wird manchmal auch von der des Zerhackers unterschieden. Ein Zerhacker ist eine Maschine, deren Aufgabe darin besteht, Hash Vorlagenblöcke, die vom Server eines Pools geliefert werden, nach Hashes zu durchsuchen, die dem für die Anteile definierten Schwierigkeitsziel entsprechen, und nicht dem von Bitcoin. Der Rest des Mining-Prozesses, der die eigentliche Blockkonstruktion, die Transaktionsauswahl oder die Proof-of-Work-Suche nach der Bitcoin-eigenen Schwierigkeit sowie die Verteilung umfasst, wird direkt von den Pools durchgeführt.
+Die Rolle des Miner wird manchmal auch von der des Hashers unterschieden. Ein Hasher ist eine Maschine, deren Aufgabe darin besteht, potenzielle Blöcke, die vom Server eines Pools geliefert werden, nach Hashes zu durchsuchen, die dem für die Anteile definierten Schwierigkeitsziel entsprechen, und nicht dem von Bitcoin. Der Rest des Mining-Prozesses, der die eigentliche Blockkonstruktion, die Transaktionsauswahl oder die Proof-of-Work-Suche nach der Bitcoin-eigenen Schwierigkeit sowie die Verteilung umfasst, wird direkt von den Pools durchgeführt.
 
 ![Image](assets/fr/054.webp)
 
-Schließlich gibt es einen wichtigen Unterschied in Bezug auf den wirtschaftlichen Anreiz zwischen dem Miner und dem Knoten. Der Betrieb eines Bitcoin-Knotens bringt keinen direkten finanziellen Vorteil. Auf der anderen Seite bringt die Teilnahme an Mining Belohnungen (Subventionen und Transaktionsgebühren) für jeden gefundenen Block.
+Schließlich gibt es einen wichtigen Unterschied in Bezug auf den wirtschaftlichen Anreiz zwischen dem Miner und der Node. Der Betrieb einer Bitcoin-Node bringt keinen direkten finanziellen Vorteil. Auf der anderen Seite bringt die Teilnahme an Mining Belohnungen (Subventionen und Transaktionsgebühren) für jeden gefundenen Block.
 
-In Teil 2 werden wir uns eingehender mit den praktischen und persönlichen Vorteilen der Installation und Nutzung eines Bitcoin-Knotens befassen, die über den rein finanziellen Aspekt hinausgehen.
+In Teil 2 werden wir uns eingehender mit den praktischen und persönlichen Vorteilen der Installation und Nutzung einer Bitcoin-Node befassen, die über den rein finanziellen Aspekt hinausgehen.
 
-## Bitcoin core und Protokollimplementierungen
-
+## Bitcoin Core und Protokollimplementierungen
 
 <chapterId>72381876-9317-4faa-8d41-2b252a945b8a</chapterId>
 
+Das Bitcoin-Protokoll ist keine Software, sondern ein Satz impliziter Regeln, die von den Netzwerknutzern gemeinsam genutzt werden. Es definiert Bedingungen für die Gültigkeit von Transaktionen, Mechanismen zur Geldschöpfung, das Blockformat, Proof-of-Work-Bedingungen und viele andere Spezifikationen. Um mit diesem Protokoll zu interagieren, müssen die Benutzer eine Software ausführen, die diese Regeln implementiert: Dies wird als **Implementierung** von Bitcoin bezeichnet.
 
+Eine Implementierung ist daher eine Node-Software: ein Programm, das in der Lage ist, eine Schnittstelle zu anderen Rechnern im Bitcoin-Netzwerk herzustellen, Blöcke und Transaktionen herunterzuladen, zu verifizieren, zu speichern und weiterzuleiten sowie Konsens- und Weiterleitungsregeln lokal durchzusetzen. Jede Implementierung ist eine konkrete Interpretation des Protokolls, geschrieben in einer bestimmten Programmiersprache, mit eigener Architektur, Leistung und Ergonomie. Jede Implementierung hat auch ihre eigene Entwicklungsorganisation mit einer eigenen Aufteilung der Verantwortlichkeiten.
 
-Das Bitcoin-Protokoll ist keine Software, sondern ein Satz stillschweigender Regeln, die von den Netzbenutzern gemeinsam genutzt werden. Es definiert Bedingungen für die Gültigkeit von Transaktionen, Mechanismen zur Geldschöpfung, das Blockformat, Proof-of-Work-Bedingungen und viele andere Spezifikationen. Um mit diesem Protokoll zu interagieren, müssen die Benutzer eine Software ausführen, die diese Regeln implementiert: Dies wird als **Implementierung** von Bitcoin bezeichnet.
-
-
-
-Eine Implementierung ist daher eine Knotensoftware: ein Programm, das in der Lage ist, eine Schnittstelle zu anderen Rechnern im Bitcoin-Netz herzustellen, Blöcke und Transaktionen herunterzuladen, zu verifizieren, zu speichern und weiterzuleiten sowie Konsens- und Weiterleitungsregeln lokal durchzusetzen. Jede Implementierung ist eine konkrete Interpretation des Protokolls, geschrieben in einer bestimmten Programmiersprache, mit eigener Architektur, Leistung und Ergonomie. Jede Implementierung hat auch ihre eigene Entwicklungsorganisation mit einer eigenen Aufteilung der Verantwortlichkeiten.
-
-
-
-Unter diesen Implementierungen dominiert eine bei weitem: **Bitcoin core**.
-
-
+Unter diesen Implementierungen dominiert eine bei weitem: **Bitcoin Core**.
 
 ![Image](assets/fr/055.webp)
 
-
-
 ### Eine historische Umsetzung, die zum Maßstab geworden ist
 
+Bitcoin Core ist die Referenzsoftware für das Bitcoin-Protokoll. Es ist von dem ursprünglichen Code abgeleitet, der von Satoshi Nakamoto 2008-2009 geschrieben wurde, und ist eine direkte Fortsetzung desselben. Ursprünglich bekannt als "*Bitcoin*", dann "*Bitcoin QT*" (aufgrund der Hinzufügung eines grafischen Interface über die Qt-Bibliothek), wurde es 2014 in "*Bitcoin Core*" umbenannt, um die Software klar vom Netzwerk zu unterscheiden. Seit Version 0.5 wird es mit zwei Komponenten vertrieben: `Bitcoin-qt` (das grafische Interface) und `bitcoind` (das Command-Line-Interface).
 
-
-Bitcoin core ist die Referenzsoftware für das Bitcoin-Protokoll. Es ist von dem ursprünglichen Code abgeleitet, der von Satoshi Nakamoto 2008-2009 geschrieben wurde, und ist eine direkte Fortsetzung desselben. Ursprünglich bekannt als "*Bitcoin*", dann "*Bitcoin QT*" (aufgrund der Hinzufügung eines grafischen Interface über die Qt-Bibliothek), wurde es 2014 in "*Bitcoin core*" umbenannt, um die Software klar vom Netzwerk zu unterscheiden. Seit Version 0.5 wird es mit zwei Komponenten vertrieben: `Bitcoin-qt` (das grafische Interface) und `bitcoind` (das Kommandozeilen-Interface).
-
-
-
-Theoretisch stellt Bitcoin core nicht das Bitcoin-Protokoll dar, sondern ist nur eine Implementierung unter vielen. Es zeichnet sich jedoch durch seine massive Verbreitung, sein Alter, die Robustheit seines Codes und die Strenge seines Entwicklungsprozesses aus. Folglich sind die von Bitcoin core angewandten Regeln in der Praxis de facto die des Bitcoin-Protokolls: Nutzer, Entwickler, Miner und Ökosystemdienste beziehen sich fast ausschließlich auf dieses Protokoll.
-
-
+Theoretisch stellt Bitcoin Core nicht das Bitcoin-Protokoll dar, sondern ist nur eine Implementierung unter vielen. Es zeichnet sich jedoch durch seine massive Verbreitung, sein Alter, die Robustheit seines Codes und die Strenge seines Entwicklungsprozesses aus. Folglich sind die von Bitcoin Core angewandten Regeln in der Praxis de facto die des Bitcoin-Protokolls: Nutzer, Entwickler, Miner und Ökosystemdienste beziehen sich fast ausschließlich auf dieses Protokoll.
 
 ### Derzeitige Verteilung der Implementierungen
 
-
-
 Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (einem bekannten Entwickler im Ökosystem) gesammelten Daten ist die Verteilung der Implementierungen auf die öffentlichen Knoten des Netzwerks wie folgt:
 
-
-
-
-- Bitcoin core**: 87.3% der Knotenpunkte
-- Bitcoin Knots**: 12.5
-- Andere kumulative Implementierungen**: 0.2% (btcsuite, Bcoin, BTCD...)
-
-
+- **Bitcoin Core**: 87.3% der Nodes
+- **Bitcoin Knots**: 12.5%
+- **Andere kumulative Implementierungen**: 0.2% (btcsuite, Bcoin, BTCD...)
 
 ![Image](assets/fr/056.webp)
 
+Mit anderen Worten: Etwa 9 von 10 öffentlichen Nodes laufen mit Bitcoin Core. Der Rest des Netzes verlässt sich auf eher unbedeutende Clients (obwohl der Anteil von Knots in den letzten Monaten stark zugenommen hat, nicht zuletzt im Zuge der Debatten über die Größenbeschränkung von OP_RETURN). Diese alternativen Implementierungen werden oft von einer einzigen Person oder einem kleinen Team gepflegt.
 
+**Anmerkung:** Bei diesen Zahlen handelt es sich jedoch noch um Schätzungen, da sie in erster Linie auf *listening Nodes* beruhen, d. h. auf Nodes, die eingehende Verbindungen annehmen (mit offenem Port 8333). *Non-Listening-Nodes* sind viel komplexer zu zählen, da es unmöglich ist, sich direkt mit ihnen zu verbinden: Man muss darauf warten, dass die Initiative von ihnen ausgeht, in Form einer ausgehenden Verbindung. Die Website von Luke Dashjr behauptet, auch diese *Non-Listening-Nodes* zu zählen, aber es ist nach wie vor unmöglich, genaue Daten über sie zu erhalten, und die Aktualisierung dieser Statistiken hinkt zwangsläufig der Realität hinterher.
 
-Mit anderen Worten: Etwa 9 von 10 öffentlichen Knoten laufen mit Bitcoin core. Der Rest des Netzes verlässt sich auf eher unbedeutende Clients (obwohl der Anteil von Knots in den letzten Monaten stark zugenommen hat, nicht zuletzt im Zuge der Debatten über die Größenbeschränkung von OP_RETURN). Diese alternativen Implementierungen werden oft von einer einzigen Person oder einem kleinen Team gepflegt.
-
-
-
-**Anmerkung:** Bei diesen Zahlen handelt es sich jedoch noch um Schätzungen, da sie in erster Linie auf *hörenden Knoten* beruhen, d. h. auf Knoten, die eingehende Verbindungen annehmen (mit offenem Port 8333). Nicht-abhörende Knoten* sind viel komplexer zu zählen, da es unmöglich ist, sich direkt mit ihnen zu verbinden: Man muss darauf warten, dass die Initiative von ihnen ausgeht, in Form einer ausgehenden Verbindung. Die Website von Luke Dashjr behauptet, auch diese *nicht-hörenden Knoten* zu zählen, aber es ist nach wie vor unmöglich, genaue Daten über sie zu erhalten, und die Aktualisierung dieser Statistiken hinkt zwangsläufig der Realität hinterher.
-
-
-
-### Interner Betrieb des Bitcoin core
-
-
+### Interner Betrieb des Bitcoin Core
 
 Bitcoin Core ist eine in C++ geschriebene Software. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft freiwilliger oder von verschiedenen Organisationen bezahlter Entwickler gepflegt wird (oft von Unternehmen des Ökosystems, die ein Interesse an einem erfolgreichen Verlauf der Core-Entwicklung haben). [Der Code wird auf GitHub gehostet](https://github.com/bitcoin/bitcoin), und die Entwicklung folgt einem strengen Modell:
 
-
-
-
-- Mitwirkende** reichen Vorschläge in Form von _Pull Requests_ (PR) ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
-- Die **Maintainer** haben das Recht, PRs zu genehmigen und zusammenzuführen. Sie sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
-- Seit Februar 2023 gibt es keinen **Hauptbetreuer** mehr. Diese Rolle hatte zunächst Satoshi Nakamoto beim Start von Bitcoin inne, dann Gavin Andresen nach Nakamotos Weggang Anfang 2011 und schließlich Wladimir J. Van Der Laan von 2014 bis 2023.
-
-
+- **Mitwirkende** reichen Vorschläge in Form von *Pull Requests (PR)* ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
+- Die **Maintainer** haben das Recht, PRs zu genehmigen und zu mergen. Sie sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
+- Seit Februar 2023 gibt es keinen **Hauptbetreuer** mehr. Diese Rolle hatte zunächst Satoshi Nakamoto beim Start von Bitcoin inne, dann Gavin Andresen nach Nakamotos Abgang Anfang 2011 und schließlich Wladimir J. Van Der Laan von 2014 bis 2023.
 
 ![Image](assets/fr/057.webp)
 
-
-
-Die Entwicklung von Bitcoin core folgt einer meritokratischen Logik: Neue Mitwirkende werden ermutigt, den Code zu überprüfen und zu testen, bevor sie selbst Änderungen vorschlagen. Entscheidungen beruhen auf technischem Konsens, und größere Änderungen (insbesondere in Bereichen, in denen ein Konsens besteht) erfordern Diskussionen in öffentlichen Kanälen wie Mailinglisten oder PR Review Clubs.
-
-
+Die Entwicklung von Bitcoin Core folgt einer meritokratischen Logik: Neue Mitwirkende werden ermutigt, den Code zu überprüfen und zu testen, bevor sie selbst Änderungen vorschlagen. Entscheidungen beruhen auf technischem Konsens, und größere Änderungen (insbesondere in Bereichen, in denen ein Konsens besteht) erfordern Diskussionen in öffentlichen Kanälen wie Mailinglisten oder PR-Review-Clubs.
 
 ### Andere Bitcoin-Implementierungen
 
-
-
-Auch wenn die Verbreitung gering ist, gibt es andere Clients. Der wichtigste ist der von Luke Dashjr entwickelte Bitcoin Knots, ein Fork des Bitcoin core, der zusätzliche Optionen und einen konservativeren Ansatz bei der Entwicklung bietet. Dazu gehören strengere Beschränkungen für Transaktionsformate.
-
-
+Auch wenn die Verbreitung gering ist, gibt es andere Clients. Der wichtigste ist der von Luke Dashjr entwickelte Bitcoin Knots, ein Fork des Bitcoin Core, der zusätzliche Optionen und einen konservativeren Ansatz bei der Entwicklung bietet. Dazu gehören strengere Beschränkungen für Transaktionsformate.
 
 ![Image](assets/fr/058.webp)
 
-
-
 Wir können auch erwähnen:
 
-
-
-
-- Libbitcoin**: eine modulare C++-Bibliothek, die von Amir Taaki entwickelt und von Eric Voskuil gepflegt wird;
-- Bcoin**: eine JavaScript-Implementierung, die nicht mehr aktiv gepflegt wird;
+- **Libbitcoin**: eine modulare C++-Bibliothek, die von Amir Taaki entwickelt und von Eric Voskuil gepflegt wird;
+- **Bcoin**: eine JavaScript-Implementierung, die nicht mehr aktiv gepflegt wird;
 - **BTCD/btcsuite** : eine Implementierung in Go.
 
-
-
-Diese Projekte tragen zur Vielfalt des Ökosystems bei, aber ihre Akzeptanz ist nach wie vor sehr begrenzt, so dass es für Bitcoin core schwierig ist, sich unabhängig weiterzuentwickeln.
-
-
+Diese Projekte tragen zur Vielfalt des Ökosystems bei, aber ihre Akzeptanz ist nach wie vor sehr begrenzt, so dass es für Bitcoin Core schwierig ist, sich unabhängig weiterzuentwickeln.
 
 ### Die Macht der Core-Entwickler
 
+Man könnte meinen, dass die Entwickler von Bitcoin Core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. Sie können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seine Node zu entscheiden, ob er diesen Code verwendet oder nicht.
 
+Das bedeutet, dass eine Änderung in Bitcoin Core, die nicht konsensfähig ist, von den Nodes ignoriert werden kann, indem entweder Bitcoin Core nicht aktualisiert wird oder einfach die Implementierung geändert wird. Umgekehrt ist es, wenn eine von den Nutzern gewünschte Funktion im Kernentwicklungsprozess blockiert wird, immer möglich, zu einer anderen Implementierung oder Fork des Projektes zu wechseln.
 
-Man könnte meinen, dass die Entwickler von Bitcoin core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. Sie können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seinen Knoten zu entscheiden, ob er diesen Code verwendet oder nicht.
+Wie wir später in diesem Kurs erörtern werden, sind es die Nodes (d.h. die Händler), die entsprechend ihrem wirtschaftlichen Gewicht einer Version des Protokolls (und damit der entsprechenden Währung) einen Nutzen verleihen, indem sie Einheiten akzeptieren, die dessen Regeln einhalten. Die wirkliche Macht über Bitcoin liegt also bei diesen Händlern, nicht bei den Entwicklern.
 
-
-
-Das bedeutet, dass eine Änderung in Bitcoin core, die nicht konsensfähig ist, von den Knotenpunkten ignoriert werden kann, indem entweder Bitcoin core nicht aktualisiert wird oder einfach die Implementierung geändert wird. Umgekehrt ist es, wenn eine von den Nutzern gewünschte Funktion im Kernentwicklungsprozess blockiert wird, immer möglich, zu einer anderen Implementierung oder Fork dem Projekt zu wechseln.
-
-
-
-Wie wir später in diesem Kurs erörtern werden, sind es die Knotenpunkte (d. h. die Händler), die entsprechend ihrem wirtschaftlichen Gewicht einer Version des Protokolls (und damit der entsprechenden Währung) einen Nutzen verleihen, indem sie Einheiten akzeptieren, die dessen Regeln einhalten. Die wirkliche Macht über Bitcoin liegt also bei diesen Händlern, nicht bei den Entwicklern.
-
-
-
-
-# Werden Sie ein souveräner Bitcoiner
-
+# Werde ein souveräner Bitcoiner
 
 <partId>df64cad2-e92d-4949-9cca-14394aad0bc6</partId>
 
-
-
-
-## Warum sollte man seinen eigenen Knoten betreiben?
-
+## Warum sollte man seine eigene Node betreiben?
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
-
-
 
 Es gibt eine weit verbreitete Überzeugung, dass der Betrieb eines Bitcoin-Knotens ein rein altruistischer Akt ohne persönlichen Gewinn ist, der ausschließlich im Dienste der Dezentralisierung des Netzwerks steht. Einige betrachten es als eine Art Pflicht für Bitcoiner, das System zu unterstützen und Bitcoin ihre Dankbarkeit zu zeigen.
 

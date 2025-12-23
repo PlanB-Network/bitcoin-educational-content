@@ -1,0 +1,8 @@
+question: นักขุดทำการตรวจสอบธุรกรรมและรวมไว้ในบล็อกอย่างไร?
+answer: ผ่านกระบวนการพิสูจน์การทำงาน
+wrong_answers:
+  - ผ่านกระบวนการ Proof of stake.
+  - ผ่านกระบวนการพิสูจน์อำนาจ
+  - ผ่านกระบวนการ Proof of burn.
+explanation: >-
+reviewed: true

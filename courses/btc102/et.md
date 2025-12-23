@@ -978,7 +978,7 @@ Bitcoin üks alahinnatud tugevusi on selle jagatavus. Iga Bitcoin saab jaotada 1
 #### Avalik protokoll, mida kõik saavad kontrollida
 
 
-Bitcoin töötab avaliku, **avatud lähtekoodiga** protokolli alusel (eelkõige [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin) kaudu). See tähendab, et selle kood on vabalt kättesaadav kõigile, kes saavad seda kontrollida, auditeerida ja täiustada. Ei ole mingeid varjatud mehhanisme ega suletud süsteeme; kõik Bitcoin tööpõhimõtted on avalikult kättesaadavad.
+Bitcoin töötab avaliku, **avatud lähtekoodiga** protokolli alusel (eelkõige [Bitcoin Core](https://github.com/Bitcoin/Bitcoin) kaudu). See tähendab, et selle kood on vabalt kättesaadav kõigile, kes saavad seda kontrollida, auditeerida ja täiustada. Ei ole mingeid varjatud mehhanisme ega suletud süsteeme; kõik Bitcoin tööpõhimõtted on avalikult kättesaadavad.
 
 Selline läbipaistvuse tase muudab tagauste sisseviimise või salajaste muudatuste tegemise uskumatult keeruliseks. Igaüks, kellel on tehnilised oskused, võib käivitada sõlme, aidata kaasa arendusele või ehitada ühilduvaid tööriistu. Bitcoin-s teenitakse usaldus koodi ja konsensuse, mitte tsentraliseeritud kontrolli kaudu.
 
@@ -3188,7 +3188,7 @@ Pamela Morgan toob oma raamatus *[Cryptoasset Inheritance Planning](https://www.
 Hästi läbimõeldud plaan ei tähenda mitte ainult varanduse ülekandmist, vaid ka teie lähedaste kaitsmist tavaliste vigade ja võimalike ohtude eest.
 
 
-See peatükk on inspireeritud [Pamela Morgani] (https://x.com/pamelawjd) tööst. [Tema raamat](https://www.amazon.com/gp/product/1947910116/) ja kuigi tema raamat pakub üksikasjalikku ja ekspertide poolt kinnitatud meetodit Bitcoin pärimiskava koostamiseks, **see sisu ei kujuta endast juriidilist nõuannet**.  Tegemist on tõestatud lähenemisega, kuid iga inimene peaks tegema oma uurimistöö ja kohandama soovitusi vastavalt oma isiklikule olukorrale ja jurisdiktsioonile.
+See peatükk on inspireeritud [Pamela Morgani](https://x.com/pamelawjd) tööst. [Tema raamat](https://www.amazon.com/gp/product/1947910116/) ja kuigi tema raamat pakub üksikasjalikku ja ekspertide poolt kinnitatud meetodit Bitcoin pärimiskava koostamiseks, **see sisu ei kujuta endast juriidilist nõuannet**.  Tegemist on tõestatud lähenemisega, kuid iga inimene peaks tegema oma uurimistöö ja kohandama soovitusi vastavalt oma isiklikule olukorrale ja jurisdiktsioonile.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) on lahkelt lubanud kasutada [tema tööd](https://www.amazon.com/gp/product/1947910116/) selle kursuse jaoks ning me järgime tema lähenemisviisi, et luua konkreetne Bitcoin pärimisplaan. Selles peatükis keskendume tema raamatu esimesele osale.

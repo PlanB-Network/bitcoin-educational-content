@@ -1,0 +1,8 @@
+question: Kada makro koristi obrazac `$($x:expr),*` u svojoj definiciji, šta ovaj obrazac postiže?
+answer: Podudara se sa nula ili više izraza odvojenih zarezima, omogućavajući liste argumenata promenljive dužine
+wrong_answers:
+  - Podudara se tačno sa jednim izrazom i ponavlja proširenje makroa više puta
+  - Odgovara bilo kom broju definicija tipa odvojenih tačka-zarezima za generisanje koda
+  - Kreira petlju koja izvršava makro u vreme izvođenja sa različitim vrednostima izraza
+explanation: |
+  Šablon `$($x:expr),*` koristi Rust-ovu sintaksu za ponavljanje makroa gde `*` kvantifikator znači 'nula ili više', `$x:expr` hvata svaki izraz, a zarez specificira separator između izraza. Ovo omogućava makroima kao što je `vec!` da prihvate bilo koji broj argumenata: `vec![1, 2, 3]` ili `vec![]`. Ostale opcije su netačne jer: šablon obrađuje više izraza, a ne samo jedan, specifično se poklapa sa izrazima, a ne definicijama tipova i koristi zareze, a ne tačka-zareze, i makroi se izvršavaju u vreme kompajliranja tokom generisanja koda, a ne u vreme izvršavanja.

@@ -39,7 +39,7 @@ Sejak tahun 2009, Bitcoin telah berkembang tanpa henti. Pertumbuhan ini telah te
 Perkembangannya juga terlihat di On-Chain, dengan jumlah transaksi yang terus meningkat.
 
 
-Sebagai contoh, antara 1 Januari 2018 dan 1 Januari 2024, jumlah transaksi pada Bitcoin utama Layer diperkirakan telah [meningkat 66,2%] (https://dune.com/queries/3375917/5663935). Sementara itu, antara Agustus 2021 dan Agustus 2023, jumlah transaksi publik di Lightning Network [meningkat 1.212%] (https://river.com/learn/files/river-lightning-report-2023.pdf).
+Sebagai contoh, antara 1 Januari 2018 dan 1 Januari 2024, jumlah transaksi pada Bitcoin utama Layer diperkirakan telah [meningkat 66,2%](https://dune.com/queries/3375917/5663935). Sementara itu, antara Agustus 2021 dan Agustus 2023, jumlah transaksi publik di Lightning Network [meningkat 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -245,7 +245,7 @@ Kita akan membahas banyak dari kemungkinan ini secara mendetail di bagian 6/8 ku
 
 
 
-Meskipun setiap komunitas bebas untuk membentuk opini mereka sendiri, meluncurkan proyek, dan bereksperimen dengan cara mereka sendiri, pertemuan terbukti semakin penting untuk pengembangan Bitcoin dan pertumbuhan bitcoiners. **Mengorganisirnya memang membutuhkan waktu dan usaha**, itulah sebabnya kursus ini membagikan pengalaman gabungan dari [sekitar enam puluh komunitas Bitcoin di Prancis dan Belgia] (https://btcmap.org/communities/map#2/5.24949/0.20000) **untuk membantu Anda membangun dan mengembangkan komunitas dan pertemuan Anda sendiri semulus mungkin**.
+Meskipun setiap komunitas bebas untuk membentuk opini mereka sendiri, meluncurkan proyek, dan bereksperimen dengan cara mereka sendiri, pertemuan terbukti semakin penting untuk pengembangan Bitcoin dan pertumbuhan bitcoiners. **Mengorganisirnya memang membutuhkan waktu dan usaha**, itulah sebabnya kursus ini membagikan pengalaman gabungan dari [sekitar enam puluh komunitas Bitcoin di Prancis dan Belgia](https://btcmap.org/communities/map#2/5.24949/0.20000) **untuk membantu Anda membangun dan mengembangkan komunitas dan pertemuan Anda sendiri semulus mungkin**.
 
 
 
@@ -283,7 +283,7 @@ Beberapa tips untuk memandu keputusan Anda:
 
 3/ **Periksa apakah sudah ada pertemuan di dekat Anda**.
 
-Anda dapat memeriksa [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), yang mencantumkan sebagian besar komunitas dan pertemuan Bitcoin di seluruh dunia.
+Anda dapat memeriksa [btcmap.org](https://btcmap.org/communities/map#0/0/0/), yang mencantumkan sebagian besar komunitas dan pertemuan Bitcoin di seluruh dunia.
 
 
 
@@ -353,7 +353,7 @@ Acara pertama Anda kemungkinan besar adalah pertemuan. Tujuan utamanya: untuk me
 
 
 
-Namun, seperti yang akan kita lihat nanti di [Contoh proyek dan inisiatif] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **pertemuan dapat dibuat dengan berbagai cara, dengan berbagai tujuan:** 1
+Namun, seperti yang akan kita lihat nanti di [Contoh proyek dan inisiatif](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **pertemuan dapat dibuat dengan berbagai cara, dengan berbagai tujuan:** 1
 
 
 
@@ -782,7 +782,7 @@ Sebagai contoh, **di Prancis, Jerman dan Italia, Telegram dan Twitter adalah pla
 Sebaliknya, di Republik Ceko, banyak komunitas yang menggunakan **Matrix**, sebuah protokol pesan instan yang aman, sebagai pengganti Telegram.
 
 
-Tips: Sebelum memilih saluran Anda, **lihatlah apa yang dilakukan oleh komunitas terdekat**. Gunakan peta [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) untuk melihat platform mana yang paling populer di wilayah Anda.
+Tips: Sebelum memilih saluran Anda, **lihatlah apa yang dilakukan oleh komunitas terdekat**. Gunakan peta [btcmap.org](https://btcmap.org/communities/map#0/0/0/) untuk melihat platform mana yang paling populer di wilayah Anda.
 
 
 Sebagai contoh, komunitas Swiss umumnya menggunakan Telegram, Twitter, dan situs web mereka sendiri:
@@ -1060,7 +1060,7 @@ Hal ini tidak selalu diperlukan, tetapi dapat menambah perlindungan Layer ekstra
 **Opsi lain untuk mengonfigurasi dan mengamankan grup atau supergrup Telegram Anda adalah dengan menambahkan bot multi-fungsi**. Hal ini memungkinkan Anda untuk memperluas fitur dan kemampuan moderasi grup Anda secara signifikan.
 
 
-Dengan menggunakan **bot [@GroupHelpBot] (https://telegram.me/grouphelpbot)**, opsi yang paling berguna adalah:
+Dengan menggunakan **bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, opsi yang paling berguna adalah:
 
 
 
@@ -1232,7 +1232,7 @@ Twitter sangat mudah digunakan, dan untuk meningkatkan privasi Anda, Anda perlu 
 1/ **Twitter**, yang mendefinisikan identitas Anda dan membuat Anda mudah ditemukan. Jika nama komunitas Anda adalah "Bitcoin [CITY]", maka sebaiknya memilih "@Bitcoin[CITY]";
 
 
-2/ **logo dan spanduk** yang telah Anda buat untuk komunitas atau pertemuan Anda (lihat bagian [Membuat logo, poster, dan spanduk] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo dan spanduk** yang telah Anda buat untuk komunitas atau pertemuan Anda (lihat bagian [Membuat logo, poster, dan spanduk](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **deskripsi**, yang memungkinkan Anda untuk berbagi informasi penting tentang komunitas Anda dalam beberapa ratus karakter. Sebagai contoh:
@@ -1260,7 +1260,7 @@ Selain itu, **beberapa pengaturan privasi perlu disesuaikan**:
 Untuk setiap acara, Anda mungkin akan menggunakan Twitter untuk berbagi informasi yang berguna. Namun, seperti kebanyakan jejaring sosial, **keterlihatan adalah segalanya**.
 
 
-Untuk menghemat waktu Anda, kami meluangkan waktu untuk mempelajari [algoritme peringkat sumber terbuka Twitter] (https://github.com/twitter).
+Untuk menghemat waktu Anda, kami meluangkan waktu untuk mempelajari [algoritme peringkat sumber terbuka Twitter](https://github.com/twitter).
 
 
 Berikut ini adalah **hal-hal penting yang harus difokuskan untuk meningkatkan visibilitas Anda**:
@@ -1342,7 +1342,7 @@ Setelah saluran komunikasi dan jejaring sosial Anda disiapkan dan mencerminkan i
 
 
 
-Di Twitter, mulailah dengan mengikuti akun-akun utama yang mempromosikan Bitcoin secara global seperti [@Bitcoin] (https://twitter.com/Bitcoin) dan [@planb_network] (https://twitter.com/planb_network), serta berbagai inisiatif seperti [@FBCEglobal] (https://twitter.com/FBCEglobal). Anda juga dapat me-retweet tweet "Running Bitcoin" yang terkenal dari @halfin](https://twitter.com/halfin) pada tanggal 11 Januari 2009. Dan yang lebih penting lagi, **follow akun-akun komunitas dan pertemuan Bitcoin di negara Anda**.
+Di Twitter, mulailah dengan mengikuti akun-akun utama yang mempromosikan Bitcoin secara global seperti [@Bitcoin](https://twitter.com/Bitcoin) dan [@planb_network](https://twitter.com/planb_network), serta berbagai inisiatif seperti [@FBCEglobal](https://twitter.com/FBCEglobal). Anda juga dapat me-retweet tweet "Running Bitcoin" yang terkenal dari @halfin](https://twitter.com/halfin) pada tanggal 11 Januari 2009. Dan yang lebih penting lagi, **follow akun-akun komunitas dan pertemuan Bitcoin di negara Anda**.
 
 
 Hal ini menciptakan **peluang untuk saling mengikuti, saling menandai, dan meningkatkan visibilitas kolektif**. Hal ini sudah menjadi praktik umum di antara ~50 komunitas Bitcoin di Prancis, inisiatif "Satoshi Spritz" di Italia, dan kelompok "Einundzwanzig" di Jerman.
@@ -1359,7 +1359,7 @@ Hidangan **Cercle du Coin** adalah contoh lain yang bagus.
 
 
 
-Di Perancis, mungkin juga relevan untuk **mengikuti inisiatif seperti [@KonsensusFR] (https://twitter.com/KonsensusFR), [@bitcoinpointfr] (https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin] (https://twitter.com/DecouvreBitcoin) dan [@btcmap] (https://twitter.com/btcmap) **. Tentu saja ini hanyalah saran, dan setiap komunitas bebas melakukan apa yang mereka inginkan, dalam desentralisasi dan otonomi penuh.
+Di Perancis, mungkin juga relevan untuk **mengikuti inisiatif seperti [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) dan [@btcmap](https://twitter.com/btcmap) **. Tentu saja ini hanyalah saran, dan setiap komunitas bebas melakukan apa yang mereka inginkan, dalam desentralisasi dan otonomi penuh.
 
 
 Seperti yang telah disebutkan di atas, tujuan dari saling mengikuti adalah untuk membangun visibilitas bersama. Semakin banyak Anda mempromosikan komunitas Anda dan komunitas di wilayah/negara Anda di jejaring sosial, semakin banyak orang yang akan membicarakan Anda. Semakin banyak orang membicarakan Anda, semakin besar kemungkinan mereka untuk menghadiri acara Anda.
@@ -1393,7 +1393,7 @@ Ini termasuk:
 
 - [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan Sats mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.**
-- tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
+- tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
     - menyebut @bitcoinpointfr di Twitter untuk setiap acara komunitas baru
     - menyematkan pengumuman acara baru di grup Telegram mereka.
 
@@ -1412,7 +1412,7 @@ Demikian pula, **[Orangepillapp](https://www.orangepillapp.com/)** adalah aplika
 
 Meskipun dua platform terakhir ini dapat membantu meningkatkan visibilitas, mereka tidak direkomendasikan saat meluncurkan komunitas, hanya karena mereka tidak gratis.
 
-**Dimulai dengan mendaftar di [btcmap.org] (https://btcmap.org/), [BitcoinerEvents] (https://www.bitcoinerevents.com/) dan untuk komunitas Prancis, di [Bitcoin.fr] (https://Bitcoin.fr) sudah lebih dari cukup**.
+**Dimulai dengan mendaftar di [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) dan untuk komunitas Prancis, di [Bitcoin.fr](https://Bitcoin.fr) sudah lebih dari cukup**.
 
 
 Selamat! Komunitas Anda telah terbentuk, visual Anda telah siap, tujuan Anda telah ditetapkan, saluran komunikasi Anda telah siap, jejaring sosial Anda telah diluncurkan, dan strategi visibilitas Anda telah diputuskan.
@@ -1523,7 +1523,7 @@ Jika sebuah kelompok bitcoiners dan peserta yang tertarik terbentuk, masuk akal 
 2) membantu **membangun "kebiasaan "**. Bahkan jika seseorang berhenti memeriksa saluran Anda secara teratur, mereka akan tetap tahu kapan pertemuan itu terjadi dan dapat mampir seperti biasa.
 
 
-Poin kedua ini adalah salah satu alasan mengapa, **di Prancis, sebagian besar pertemuan berlangsung pada hari Rabu pertama setiap bulan** (lihat inisiatif "duta besar", yang diluncurkan oleh [DecouvreBitcoin] (https://decouvrebitcoin.fr/) pada tahun 2022).
+Poin kedua ini adalah salah satu alasan mengapa, **di Prancis, sebagian besar pertemuan berlangsung pada hari Rabu pertama setiap bulan** (lihat inisiatif "duta besar", yang diluncurkan oleh [DecouvreBitcoin](https://decouvrebitcoin.fr/) pada tahun 2022).
 
 Di Jerman dan Italia, tidak ada hari nasional yang tetap.
 
@@ -1590,7 +1590,7 @@ Selain itu, berikut ini ada tiga hal penting yang perlu diingat:
 
 
 
-- terakhir, beberapa komunitas **hanya ingin mengadakan acara mereka di tempat-tempat yang menerima pembayaran Bitcoin**, dan hal ini dapat dimengerti. Dalam hal ini, ada baiknya untuk **memulai dengan mencari bisnis yang menerima Bitcoin di kota Anda** (di [btcmap.org] (https://btcmap.org/map/) dan hubungi mereka untuk melihat apakah mereka memenuhi kriteria Anda. Jika tidak ada yang cocok, Anda dapat mencoba menerima pedagang baru, tetapi mungkin akan ada banyak penolakan, yang bisa mengecewakan. Itulah mengapa sering kali lebih baik untuk tidak menetapkan hal ini sebagai tujuan dari awal, dan mempertimbangkannya setelah komunitas Anda sudah mapan dan Anda memiliki "daya tembak" yang cukup
+- terakhir, beberapa komunitas **hanya ingin mengadakan acara mereka di tempat-tempat yang menerima pembayaran Bitcoin**, dan hal ini dapat dimengerti. Dalam hal ini, ada baiknya untuk **memulai dengan mencari bisnis yang menerima Bitcoin di kota Anda** (di [btcmap.org](https://btcmap.org/map/) dan hubungi mereka untuk melihat apakah mereka memenuhi kriteria Anda. Jika tidak ada yang cocok, Anda dapat mencoba menerima pedagang baru, tetapi mungkin akan ada banyak penolakan, yang bisa mengecewakan. Itulah mengapa sering kali lebih baik untuk tidak menetapkan hal ini sebagai tujuan dari awal, dan mempertimbangkannya setelah komunitas Anda sudah mapan dan Anda memiliki "daya tembak" yang cukup
 
 
 Selain itu, saat meluncurkan acara pertemuan Anda, jangan ragu untuk berganti-ganti tempat selama beberapa bulan pertama. Hal ini akan membantu Anda **membangun hubungan dengan manajer yang berbeda**, menjelajahi berbagai suasana, dan mengumpulkan informasi tentang calon tuan rumah di masa depan.
@@ -1721,7 +1721,7 @@ Roma tidak dibangun dalam satu hari, begitu juga dengan komunitas Anda. Momentum
 Untuk mewujudkannya, ada satu hal yang penting: **membuat peserta tetap terlibat**.
 
 
-Ini mungkin dimulai dengan sekelompok kecil pengguna bitcoin yang bersemangat, yang bertujuan untuk berkumpul secara teratur dan membicarakan Bitcoin. Seiring berjalannya waktu, tergantung pada ketersediaan dan minat setiap orang, Anda dapat **berbagi tugas organisasi tertentu dengan grup**, atau mengundang **anggota inti untuk mengerjakan proyek-proyek tertentu**. Hal ini dapat menjadi unik untuk komunitas Anda, pertemuan Anda atau kota Anda atau bahkan terinspirasi oleh banyak inisiatif yang diusulkan dalam [bagian 6/8 dari kursus ini] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hal ini tidak hanya menumbuhkan Commitment dari anggota inti Anda, tetapi juga membantu komunitas Anda untuk tumbuh dan berkembang**.
+Ini mungkin dimulai dengan sekelompok kecil pengguna bitcoin yang bersemangat, yang bertujuan untuk berkumpul secara teratur dan membicarakan Bitcoin. Seiring berjalannya waktu, tergantung pada ketersediaan dan minat setiap orang, Anda dapat **berbagi tugas organisasi tertentu dengan grup**, atau mengundang **anggota inti untuk mengerjakan proyek-proyek tertentu**. Hal ini dapat menjadi unik untuk komunitas Anda, pertemuan Anda atau kota Anda atau bahkan terinspirasi oleh banyak inisiatif yang diusulkan dalam [bagian 6/8 dari kursus ini](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Hal ini tidak hanya menumbuhkan Commitment dari anggota inti Anda, tetapi juga membantu komunitas Anda untuk tumbuh dan berkembang**.
 
 
 Seiring dengan berjalannya pertemuan Anda, wajah-wajah baru akan bermunculan: orang-orang yang telah membeli BTC dan/atau altcoin pada siklus sebelumnya, penggemar teknologi yang ingin memperdalam pemahaman mereka, atau para pemula yang ingin tahu tentang sistem pembayaran yang tidak dapat disensor, terdesentralisasi, transparan, dan adil yang bekerja tanpa syarat dan tanpa pihak ketiga yang tepercaya.
@@ -1871,7 +1871,7 @@ Tergantung pada ketersediaan Anda dan tingkat keterlibatan dalam komunitas Anda,
 
 - Malam restoran untuk merayakan **Pizza Day** pada tanggal 22 Mei
 - Malam atau akhir pekan untuk merayakan **Halving** berikutnya
-- Malam permainan keluarga tentang Bitcoin dan cara kerjanya, menggunakan permainan seperti [Le Coin de Table] (https://www.Maximalist.ovh/) atau [SHAmory] (https://shamory.com/)
+- Malam permainan keluarga tentang Bitcoin dan cara kerjanya, menggunakan permainan seperti [Le Coin de Table](https://www.Maximalist.ovh/) atau [SHAmory](https://shamory.com/)
 - Lokakarya **Mining** yang menghadirkan berbagai jenis perangkat keras (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - Sore atau malam hari untuk **pemula**, dengan lokakarya bertema
 - **Pertemuan bersama dengan komunitas tetangga**
@@ -1911,7 +1911,7 @@ Sebelum memesan, ingatlah kiat-kiat berikut ini:
 
 
 
-Tergantung pada kebutuhan dan pemasok Anda, 1.000 stiker bisa berharga antara 100 Euro dan 250 Euro. Anda bisa menghubungi [@Mill3sim3 di Twitter] (https://x.com/Mill3sim3), seorang Bitcoiner Perancis yang berspesialisasi di bidang pemasaran, yang terkadang bisa mendapatkan harga hingga 30% lebih rendah daripada vendor online standar.
+Tergantung pada kebutuhan dan pemasok Anda, 1.000 stiker bisa berharga antara 100 Euro dan 250 Euro. Anda bisa menghubungi [@Mill3sim3 di Twitter](https://x.com/Mill3sim3), seorang Bitcoiner Perancis yang berspesialisasi di bidang pemasaran, yang terkadang bisa mendapatkan harga hingga 30% lebih rendah daripada vendor online standar.
 
 
 Meskipun begitu, 1.000 stiker itu sangat banyak. Biasanya lebih baik memulai dengan sekitar 100 stiker untuk memastikan Anda dapat mendistribusikan semuanya.
@@ -1949,7 +1949,7 @@ Jika Anda menjalankan sebuah asosiasi dan ingin menginvestasikan sebagian dana A
 ![image](assets/id/039.webp)
 
 
-Untuk mendukung ekosistem ini, **[penerbit Konsensus Network] (https://konsensus.network/) telah menawarkan diskon 15% hingga 35% untuk semua bukunya kepada para peserta pertemuan dan komunitas Bitcoin internasional sejak akhir tahun 2023, untuk pemesanan tiga buku atau lebih**.
+Untuk mendukung ekosistem ini, **[penerbit Konsensus Network](https://konsensus.network/) telah menawarkan diskon 15% hingga 35% untuk semua bukunya kepada para peserta pertemuan dan komunitas Bitcoin internasional sejak akhir tahun 2023, untuk pemesanan tiga buku atau lebih**.
 
 
 Untuk memanfaatkan diskon ini, cukup **hubungi [penerbit Konsensus](https://twitter.com/KonsensusFR) di Twitter**.
@@ -2050,7 +2050,7 @@ Meskipun meninggalkan kertas putih Bitcoin adalah simbolis, namun sering kali te
 - kertas putih Bitcoin, diterjemahkan ke dalam bahasa Prancis.
 
 
-Berikut ini [buklet yang dibagikan kepada para pengguna bitcoin di Perancis](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) yang telah ditempatkan di lusinan kotak buku di seluruh negeri. Desainnya juga [tersedia sebagai sumber terbuka] (https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Berikut ini [buklet yang dibagikan kepada para pengguna bitcoin di Perancis](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) yang telah ditempatkan di lusinan kotak buku di seluruh negeri. Desainnya juga [tersedia sebagai sumber terbuka](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2086,7 +2086,7 @@ Bagi sebagian besar masyarakat, harga ini sangat mahal, terutama karena film dok
 Tentu saja, proyeksi lain pun dimungkinkan.
 
 
-Sebagai contoh, di Prancis, **sutradara [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) memberikan hak kepada pertemuan lokal untuk melihat pratinjau film dokumenternya yang berjudul "Stranded"**, yang mencakup cuplikan dari film tahun 2024 yang akan datang [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Sebagai contoh, di Prancis, **sutradara [Alana Mediavilla](https://twitter.com/AlanaMediavilla) memberikan hak kepada pertemuan lokal untuk melihat pratinjau film dokumenternya yang berjudul "Stranded"**, yang mencakup cuplikan dari film tahun 2024 yang akan datang [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
 Beberapa bitcoiners bahkan berinisiatif untuk menerjemahkan "Stranded" ke dalam bahasa Prancis, menambahkan subtitle, dan membagikannya ke berbagai pertemuan di seluruh negeri. Selama minggu 4 Maret 2024, film ini diputar secara serentak di sekitar selusin pertemuan di seluruh negeri.
@@ -2113,7 +2113,7 @@ Di beberapa negara Eropa (termasuk Jerman, Spanyol, dan Perancis), para pengguna
 Beberapa desain mengerjakan ulang karya seni Banksy untuk menyertakan logo Bitcoin.
 
 
-Salah satu contohnya adalah [StreetCyberArt] (https://twitter.com/streetcyber_art), seorang bitcoiner Jerman yang telah membuat kolase dan seni jalanan selama beberapa tahun.
+Salah satu contohnya adalah [StreetCyberArt](https://twitter.com/streetcyber_art), seorang bitcoiner Jerman yang telah membuat kolase dan seni jalanan selama beberapa tahun.
 
 
 
@@ -2137,7 +2137,7 @@ Juga perlu diperhatikan, bahwa mencetak poster ini pada printer pribadi biasanya
 Inisiatif ini bisa memakan biaya lebih dari 0,40 € per poster (sekitar 40 € untuk seratus poster) dan harga online bisa bervariasi dari dua hingga lima kali lipat dari jumlah tersebut. Kontak yang baik sangat penting.
 
 
-Seperti yang disebutkan di atas, bitcoiner Prancis [@Mill3sim3] (https://twitter.com/Mill3sim3) memiliki peralatan profesional yang tepat dan dapat dihubungi untuk mendapatkan informasi lebih lanjut.
+Seperti yang disebutkan di atas, bitcoiner Prancis [@Mill3sim3](https://twitter.com/Mill3sim3) memiliki peralatan profesional yang tepat dan dapat dihubungi untuk mendapatkan informasi lebih lanjut.
 
 
 Sebagai alternatif, pilihan yang lebih DIY adalah membuat stensil dari selembar karton besar dan menggunakan cat semprot untuk menandai desain Anda di tempat-tempat tertentu di sekitar kota Anda.
@@ -2154,10 +2154,10 @@ Sebagai alternatif, pilihan yang lebih DIY adalah membuat stensil dari selembar 
 Ide proyek orisinil lainnya adalah membuat kartu NFC yang dipersonalisasi untuk pembayaran Lightning (kompatibel dengan standar BoltCard). Untuk hal ini, Swiss Bitcoin Pay adalah mitra yang tepat.
 
 
-[Situs web mereka] (https://swiss-Bitcoin-pay.ch/cards) saat ini menawarkan empat desain standar.
+[Situs web mereka](https://swiss-Bitcoin-pay.ch/cards) saat ini menawarkan empat desain standar.
 
 
-Jika Anda ingin memesan lebih dari 50 kartu NFC, Anda bisa menghubungi perusahaan melalui situs web resminya atau [Twitter] (https://twitter.com/SwissBitcoinPay) untuk mengusulkan desain khusus untuk bagian depan kartu. Sisi sebaliknya akan tetap standar.
+Jika Anda ingin memesan lebih dari 50 kartu NFC, Anda bisa menghubungi perusahaan melalui situs web resminya atau [Twitter](https://twitter.com/SwissBitcoinPay) untuk mengusulkan desain khusus untuk bagian depan kartu. Sisi sebaliknya akan tetap standar.
 
 
 
@@ -2165,7 +2165,7 @@ Jika Anda ingin memesan lebih dari 50 kartu NFC, Anda bisa menghubungi perusahaa
 
 
 
-Contohnya, pada tahun 2023, asosiasi Prancis [Bitcoin Lille] (https://twitter.com/BitcoinLille) memesan sejumlah kartu NFC dengan desain khusus. Setiap anggota baru menerima satu kartu dalam paket selamat datang mereka sepanjang tahun. Ide ini dapat dengan mudah diadaptasi dan dipersonalisasi untuk komunitas Anda sendiri.
+Contohnya, pada tahun 2023, asosiasi Prancis [Bitcoin Lille](https://twitter.com/BitcoinLille) memesan sejumlah kartu NFC dengan desain khusus. Setiap anggota baru menerima satu kartu dalam paket selamat datang mereka sepanjang tahun. Ide ini dapat dengan mudah diadaptasi dan dipersonalisasi untuk komunitas Anda sendiri.
 
 
 Harga satuan untuk kartu-kartu ini biasanya berkisar antara 2,50 € hingga 5 €, tergantung pada ukuran pesanan dan kondisi pasar, dengan harga yang lebih rendah untuk jumlah yang lebih besar.
@@ -2195,7 +2195,7 @@ Nantinya, Anda bisa membeli nama domain Anda sendiri atau bahkan meng-host situs
 Meskipun ada platform CMS lain, beberapa di antaranya memiliki antarmuka yang lebih sederhana dan lebih ramah bagi pemula, mereka biasanya kurang dapat dikustomisasi. Itulah mengapa WordPress umumnya merupakan titik awal yang terbaik.
 
 
-WordPress juga mendukung berbagai macam pengaya (beberapa di antaranya berbayar tetapi berkualitas tinggi) yang dapat memperluas kemampuan situs Anda secara signifikan tanpa memerlukan keahlian pengkodean. Salah satu contohnya adalah [tema premium "Uncode"] (https://undsgn.com/uncode/)
+WordPress juga mendukung berbagai macam pengaya (beberapa di antaranya berbayar tetapi berkualitas tinggi) yang dapat memperluas kemampuan situs Anda secara signifikan tanpa memerlukan keahlian pengkodean. Salah satu contohnya adalah [tema premium "Uncode"](https://undsgn.com/uncode/)
 
 
 
@@ -2222,7 +2222,7 @@ Platform yang populer meliputi:
 - [**peertube**](https://joinpeertube.org/fr_FR), memungkinkan Anda meng-host platform video Anda sendiri, meskipun lebih rumit untuk disiapkan.
 
 
-Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran Anda menarik. Canva, yang disebutkan dalam [bagian 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) menawarkan kategori "Gambar Kecil YouTube" dengan desain yang sudah jadi dan dapat disesuaikan.
+Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran Anda menarik. Canva, yang disebutkan dalam [bagian 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) menawarkan kategori "Gambar Kecil YouTube" dengan desain yang sudah jadi dan dapat disesuaikan.
 
 
 
@@ -2230,9 +2230,9 @@ Apa pun yang Anda pilih, rancanglah visual khusus platform untuk membuat saluran
 
 
 
-Untuk **merekam** dari komputer Anda, [Streamlabs] (https://streamlabs.com/fr-fr) gratis, kaya fitur, dan mendukung transisi adegan.
+Untuk **merekam** dari komputer Anda, [Streamlabs](https://streamlabs.com/fr-fr) gratis, kaya fitur, dan mendukung transisi adegan.
 
-Untuk **pengeditan video**, [Wondershare Filmora] (https://filmora.wondershare.fr/) (sekitar 45€/tahun) mudah digunakan dan menghasilkan hasil profesional dengan cepat.
+Untuk **pengeditan video**, [Wondershare Filmora](https://filmora.wondershare.fr/) (sekitar 45€/tahun) mudah digunakan dan menghasilkan hasil profesional dengan cepat.
 
 
 Untuk intro dan outro **video** Anda, Anda dapat dengan mudah menemukan templat yang sesuai di Canva. Sesuaikan desain dengan selera Anda, unduh, dan tambahkan ke perangkat lunak pengeditan Anda.
@@ -2259,7 +2259,7 @@ Platform podcast yang populer meliputi:
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
-- [**Podcast Google**] (https://podcasts.google.com/).
+- [**Podcast Google**](https://podcasts.google.com/).
 
 
 Setiap platform memiliki pendengarnya sendiri, jadi hadir di beberapa platform akan memperluas jangkauan Anda. **[Spotify untuk podcaster](https://podcasters.spotify.com/) memudahkan hal ini dengan memungkinkan Anda mengunggah podcast Anda sekali dan generate umpan RSS untuk platform lain**.
@@ -2267,7 +2267,7 @@ Setiap platform memiliki pendengarnya sendiri, jadi hadir di beberapa platform a
 Jadi, setelah pekerjaan selesai di "Spotify untuk Podcasters," yang tersisa hanyalah memformat konten Anda untuk platform lain, sebuah proses yang relatif cepat.
 
 
-Untuk merekam, [Audacity] (https://www.audacityteam.org/) gratis dan memungkinkan Anda menyesuaikan level audio, menambahkan efek seperti memudar, dan meningkatkan kejernihan selama pengeditan. Sangat mudah untuk merekam suara Anda dan membuat podcast berkualitas profesional.
+Untuk merekam, [Audacity](https://www.audacityteam.org/) gratis dan memungkinkan Anda menyesuaikan level audio, menambahkan efek seperti memudar, dan meningkatkan kejernihan selama pengeditan. Sangat mudah untuk merekam suara Anda dan membuat podcast berkualitas profesional.
 
 
 Berikut ini adalah tutorial singkat selama 10 menit yang mencakup hal-hal penting untuk membuat podcast dengan Audacity:
@@ -2334,7 +2334,7 @@ Sebaiknya Anda bekerja sama dengan komunitas Anda untuk membuat prosedur yang je
 
 Memiliki protokol standar juga mencegah siapa pun, baik anggota maupun tamu, memanfaatkan situasi untuk mencuri dana.
 
-Anda dapat membentuk kelompok kerja khusus untuk mendefinisikan proses ini. Asosiasi Bitcoin Lille sudah mengerjakan [dokumen] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), yang mereka rencanakan untuk dirilis sebagai sumber terbuka dalam beberapa bulan mendatang.
+Anda dapat membentuk kelompok kerja khusus untuk mendefinisikan proses ini. Asosiasi Bitcoin Lille sudah mengerjakan [dokumen](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), yang mereka rencanakan untuk dirilis sebagai sumber terbuka dalam beberapa bulan mendatang.
 
 
 
@@ -2487,7 +2487,7 @@ Setelah Anda memiliki beberapa bisnis yang ramah Bitcoin, sarankan untuk membuat
 - Memperkuat jaringan Bitcoin lokal.
 
 
-Canvassing adalah permainan jangka panjang. Dibutuhkan kesabaran, ketekunan, dan strategi. Tetapi jika komunitas Anda siap, Anda dapat mulai meletakkan fondasi untuk ekonomi sirkular Bitcoin yang sebenarnya, seperti [Arnhem di Belanda] (https://www.arnhembitcoinstad.nl/) di Belanda.
+Canvassing adalah permainan jangka panjang. Dibutuhkan kesabaran, ketekunan, dan strategi. Tetapi jika komunitas Anda siap, Anda dapat mulai meletakkan fondasi untuk ekonomi sirkular Bitcoin yang sebenarnya, seperti [Arnhem di Belanda](https://www.arnhembitcoinstad.nl/) di Belanda.
 
 
 
@@ -2501,7 +2501,7 @@ Canvassing adalah permainan jangka panjang. Dibutuhkan kesabaran, ketekunan, dan
 Para Bitcoiners sering kali berfokus pada media sosial dan platform online untuk melakukan penjangkauan, namun itu hanya sebagian dari gambaran. Media lokal dan radio bisa menjadi sekutu yang kuat.
 
 
-Beberapa komunitas, seperti [Breizh Bitcoin] (https://breizhbitcoin.com/) di Prancis, **secara teratur menghubungi media lokal mereka**:
+Beberapa komunitas, seperti [Breizh Bitcoin](https://breizhbitcoin.com/) di Prancis, **secara teratur menghubungi media lokal mereka**:
 
 
 - Umumkan acara yang akan datang (pertemuan, presentasi, lokakarya, pesta Halving, dll.).
@@ -2657,7 +2657,7 @@ Solusinya: desentralisasi tugas, peran, dan akses sehingga grup dapat terus berj
 
 **Bagaimana Mendorong Desentralisasi Lebih Jauh?**
 
-Gunakan perangkat lunak bebas dan sumber terbuka seperti [framasoft suite] (https://framasoft.org/fr/) untuk mengurangi ketergantungan pada platform terpusat dan menambah ketahanan terhadap potensi sensor negara atau larangan Bitcoin.
+Gunakan perangkat lunak bebas dan sumber terbuka seperti [framasoft suite](https://framasoft.org/fr/) untuk mengurangi ketergantungan pada platform terpusat dan menambah ketahanan terhadap potensi sensor negara atau larangan Bitcoin.
 
 Gunakan **alat komunikasi terenkripsi atau anonim** untuk melindungi privasi anggota dan aktivitas komunitas Anda.
 

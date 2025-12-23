@@ -30,7 +30,7 @@ Dette er ikke den "vanlige kopien" av Debian for små kort av typen Raspberry. D
 
 - Optimalisert for hastighet og letthet**: en [sammenligning med andre Debian-distribusjoner for SBC](https://dietpi.com/blog/?p=888), DietPi er lettere i alt. DietPi ISO-bildet veier mindre enn 1 GB, og er det desidert minste blant de som er dedikert til eldre modeller av Raspberry eller Orange PI (for eksempel). Etterspørselen etter RAM- og CPU-ressurser er veldig lav, slik at den alltid får det beste ut av brettene, selv eldre.
 - Innebygde automatiseringer og installeringsprogrammer**: En rekke dedikerte kommandoer hjelper brukerne med å overvåke systemressursene samt automatisere oppgaver for å installere og starte programmer, oppdatere versjoner, ta sikkerhetskopier og sjekke alle logger.
-- Et sterkt, eksperimentorientert fellesskap**: [tutorials] (https://dietpi.com/forum/c/community-tutorials/8) og prosjekter fra DietPi-fellesskapet er ideelle for å bli inspirert av programvare du kan installere med ett klikk, takket være DietPi.
+- Et sterkt, eksperimentorientert fellesskap**: [tutorials](https://dietpi.com/forum/c/community-tutorials/8) og prosjekter fra DietPi-fellesskapet er ideelle for å bli inspirert av programvare du kan installere med ett klikk, takket være DietPi.
 
 
 
@@ -181,7 +181,7 @@ Det er definitivt terminalen som er det første nyttige verktøyet for å komme 
 
 
 
-På terminalskjermen finner du en rekke kommandoer innledet med `dietpi-`, som representerer [verktøyene] (https://dietpi.com/docs/dietpi_tools/) i dette operativsystemet:
+På terminalskjermen finner du en rekke kommandoer innledet med `dietpi-`, som representerer [verktøyene](https://dietpi.com/docs/dietpi_tools/) i dette operativsystemet:
 
 
 

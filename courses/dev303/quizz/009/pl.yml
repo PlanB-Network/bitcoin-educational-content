@@ -1,0 +1,8 @@
+question: Co polecenie `cargo new project_name` automatycznie tworzy jako część struktury projektu?
+answer: Repozytorium Git, plik Cargo.toml i podstawowy plik main.rs z programem Hello World
+wrong_answers:
+  - Tylko plik konfiguracyjny Cargo.toml i pusta struktura katalogów źródłowych
+  - Kompletny zestaw testów, pliki dokumentacji i konfiguracja gotowa do produkcji
+  - Binarne pliki wykonywalne, katalog docelowy i konfiguracja kompilacji wydania
+explanation: |
+  Polecenie `cargo new` tworzy kompleksową podstawę projektu, w tym repozytorium Git do kontroli wersji, plik Cargo.toml do konfiguracji projektu i zależności oraz podstawowy plik main.rs zawierający program "Hello, world!". Zapewnia to wszystko, co jest potrzebne do natychmiastowego rozpoczęcia rozwoju. Pozostałe opcje są nieprawidłowe, ponieważ cargo new nie tworzy zestawów testów, plików dokumentacji, wykonywalnych plików binarnych ani artefaktów kompilacji - ustawia jedynie początkową strukturę projektu.

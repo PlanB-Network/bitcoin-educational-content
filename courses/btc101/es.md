@@ -84,7 +84,6 @@ Lo importante aquí es comprender esta nueva tecnología de forma general, así 
 
 ¿Listo para sumergirte en el fascinante universo de Bitcoin y comprender todos sus engranajes? ¡Vamos allá!
 
-**N.B.**: Si encuentra términos desconocidos durante el curso, por favor consulte [el glosario](https://planb.academy/resources/glossary) para obtener definiciones.
 
 ## La prehistoria de Bitcoin
 
@@ -207,7 +206,7 @@ Para cumplir estos criterios, la moneda ha evolucionado históricamente dando di
 
 Las monedas siguen evolucionando a día de hoy, adaptando sus formas para satisfacer diferentes casos de uso. Como decíamos, aunque el oro es un excelente depósito de valor, ya no es adecuado para la actual economía globalizada. Del mismo modo, las monedas fiduciarias como el dólar y el euro son muy líquidas y fácilmente transportables porque ahora son en su mayoría digitales, pero su valor disminuye constantemente debido a la inflación monetaria.
 
-Por otro lado, Bitcoin presenta nuevas posibilidades. Sus propiedades, como la oferta estrictamente limitada, lo convierten en un excelente depósito de valor. Además, como moneda neutral de Internet, sirve como **medio de intercambio** viable que trasciende fronteras. Sin embargo, a día de hoy todavía no goza de gran aceptación en el comercio, a pesar de su [constante adopción](https://btcmap.org/map).
+Por otra parte, Bitcoin abre nuevas perspectivas. Sus propiedades, en particular una oferta estrictamente limitada, lo convierten en una excelente reserva de valor. Asimismo, como moneda de internet neutral, constituye un **medio de intercambio** viable, capaz de trascender fronteras. No obstante, a pesar de una adopción continua (como lo ilustra [el mapa de BTCmap](https://btcmap.org/map)), todavía no es ampliamente aceptado en el comercio actual.
 
 ## Monedas fiduciarias
 

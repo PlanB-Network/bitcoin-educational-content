@@ -154,7 +154,7 @@ Les clients achètent un produit dans le magasin avec Bitcoin.
 
 
 - Mise en place :
-  - Voir les diagrammes/explications dans le Figjam - [Schéma de l'activité] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) ci-joint.
+  - Voir les diagrammes/explications dans le Figjam - [Schéma de l'activité](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) ci-joint.
   - Demandez à trois élèves volontaires de jouer les rôles du client (Alice), du commerçant (Bob) et de la banque.
 - Jouez la séquence des événements :
   - Client - il parcourt le magasin en ligne et trouve un article à 25 $, qu'il désire, et informe le commerçant qu'il souhaite l'acheter
@@ -176,7 +176,7 @@ Les clients achètent un produit dans le magasin avec Bitcoin.
 
 
 - Mise en place :
-  - Voir les diagrammes/explications dans le Figjam - [Schéma de l'activité] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) ci-joint.
+  - Voir les diagrammes/explications dans le Figjam - [Schéma de l'activité](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) ci-joint.
   - Remplacer la banque par neuf élèves qui joueront le rôle d'un ordinateur (Bitcoin nœuds/mineurs) dans un réseau destiné à remplacer la banque.
 - Chacun des neuf ordinateurs dispose d'un historique complet de toutes les transactions passées (ce qui permet d'obtenir des soldes exacts sans falsification), ainsi que d'un ensemble de règles :
   - Vérifier que la transaction est correctement signée (thekeyfitsthelock)
@@ -436,8 +436,8 @@ En fonction du système d'exploitation de votre téléphone portable (Android ou
 1. Téléchargez un authentificateur à deux facteurs.
 
 
-   - Authy pour [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) ou [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator pour [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) ou [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Authy pour [Android](https://play.google.com/store/apps/details?id=com.authy.authy) ou [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator pour [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) ou [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
    - Google Authenticator pour [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) ou [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Après avoir téléchargé et installé l'application Authenticator.
@@ -838,7 +838,7 @@ La fonction Rescan s'appuie sur le "Scantxoutset" de Bitcoin core 0.17.0 pour an
 
 1. Problème de limite d'écart - La plupart des portefeuilles tiers sont des portefeuilles légers qui partagent un nœud entre plusieurs utilisateurs. Les portefeuilles légers et dépendant de la Full node limitent le nombre (généralement 20) d'adresses sans solde qu'ils suivent sur la Blockchain afin d'éviter les problèmes de performance. Le serveur BTCPay génère une nouvelle Address pour chaque Invoice. Compte tenu de ce qui précède, après que BTCPay Server ait généré 20 factures impayées consécutives, la Wallet externe cesse de récupérer les transactions, en supposant qu'aucune nouvelle transaction n'a eu lieu. Votre Wallet externe ne les affichera pas une fois que les factures auront été payées le 21, le 22, etc. D'autre part, en interne, la Wallet du serveur BTCPay suit toutes les Address qu'elle génère, ainsi qu'une limite d'écart nettement plus élevée. Il ne dépend pas d'un tiers et peut toujours afficher un solde correct.
 
-2. La solution de la limite d'écart - Si votre [Wallet externe/existant] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) permet la configuration de la limite d'écart, la solution la plus simple est de l'augmenter. Cependant, la majorité des portefeuilles ne le permettent pas. À notre connaissance, les seuls portefeuilles qui prennent actuellement en charge la configuration de la limite de l'écart sont Electrum, Wasabi et Sparrow wallet. Malheureusement, il est probable que vous rencontriez un problème avec de nombreux autres portefeuilles. Pour une expérience utilisateur et une confidentialité optimales, envisagez d'utiliser le Wallet interne du serveur BTCPay plutôt que des portefeuilles externes.
+2. La solution de la limite d'écart - Si votre [Wallet externe/existant](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) permet la configuration de la limite d'écart, la solution la plus simple est de l'augmenter. Cependant, la majorité des portefeuilles ne le permettent pas. À notre connaissance, les seuls portefeuilles qui prennent actuellement en charge la configuration de la limite de l'écart sont Electrum, Wasabi et Sparrow wallet. Malheureusement, il est probable que vous rencontriez un problème avec de nombreux autres portefeuilles. Pour une expérience utilisateur et une confidentialité optimales, envisagez d'utiliser le Wallet interne du serveur BTCPay plutôt que des portefeuilles externes.
 
 
 #### Le serveur BTCPay utilise "mempoolfullrbf=1"
@@ -2222,7 +2222,7 @@ Avant tout, essayez de déterminer à quel moment le problème se produit. Essay
 ##### Mise à jour du serveur
 
 
-Vérifiez votre version de BTCPay Server si elle est beaucoup plus ancienne que la [dernière version] (https://github.com/btcpayserver/btcpayserver/releases) de BTCPay Server. La mise à jour de votre serveur peut résoudre le problème.
+Vérifiez votre version de BTCPay Server si elle est beaucoup plus ancienne que la [dernière version](https://github.com/btcpayserver/btcpayserver/releases) de BTCPay Server. La mise à jour de votre serveur peut résoudre le problème.
 
 
 ##### Redémarrage du serveur
@@ -2375,7 +2375,7 @@ bitcoin-lightning-cli.sh getlog
 En plus de [consulter les journaux](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de votre conteneur bitcoind, vous pouvez également utiliser n'importe laquelle des [commandes bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
 
 
-[(ouvre une nouvelle fenêtre)] (https://developer.Bitcoin.org/reference/RPC/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
+[(ouvre une nouvelle fenêtre)](https://developer.Bitcoin.org/reference/RPC/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
 
 
 Dans le dossier btcpayserver-docker, récupérez les informations de Blockchain en utilisant votre node :
@@ -2621,7 +2621,7 @@ Le bénéficiaire et le demandeur peuvent consulter le statut de la demande de p
 Le contenu de la description peut être modifié à l'aide de l'éditeur de texte de la demande de paiement. Les deux options sont disponibles si vous souhaitez utiliser des thèmes de couleurs supplémentaires ou un style CSS personnalisé.
 
 
-Les utilisateurs non techniques peuvent utiliser un [thème bootstrap] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Une personnalisation plus poussée peut être effectuée en fournissant du code CSS supplémentaire, comme indiqué ci-dessous.
+Les utilisateurs non techniques peuvent utiliser un [thème bootstrap](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Une personnalisation plus poussée peut être effectuée en fournissant du code CSS supplémentaire, comme indiqué ci-dessous.
 
 
 ```css
@@ -2670,7 +2670,7 @@ Et si, au lieu de pousser le paiement, l'expéditeur permettait au destinataire 
 ### Paiements
 
 
-La fonctionnalité de paiement est liée à la fonction [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Cette fonctionnalité vous permet de créer des paiements dans votre BTCPay. Cette fonctionnalité vous permet de traiter les paiements pull (remboursements, paiements de salaires, ou retraits).
+La fonctionnalité de paiement est liée à la fonction [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Cette fonctionnalité vous permet de créer des paiements dans votre BTCPay. Cette fonctionnalité vous permet de traiter les paiements pull (remboursements, paiements de salaires, ou retraits).
 
 
 #### Exemple 1 : Remboursement
@@ -2700,7 +2700,7 @@ Le client est maintenant mis à jour sur la page de réclamation. Il peut suivre
 #### Exemple 2 : Salaire
 
 
-Passons maintenant au paiement des salaires, puisqu'il est piloté depuis le magasin et non en fonction de la demande du client. Le concept sous-jacent est le même ; il utilise les paiements tirés. Mais au lieu de créer un remboursement, nous allons effectuer un [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Passons maintenant au paiement des salaires, puisqu'il est piloté depuis le magasin et non en fonction de la demande du client. Le concept sous-jacent est le même ; il utilise les paiements tirés. Mais au lieu de créer un remboursement, nous allons effectuer un [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Allez dans l'onglet Paiements tirés de votre serveur BTCPay. En haut à droite, cliquez sur le bouton Créer un paiement tiré.
@@ -2744,7 +2744,7 @@ Ensuite, l'expéditeur peut partager le paiement à l'aide d'un lien avec le des
 Une fois qu'un paiement est créé, il est pris en compte dans la limite du paiement tiré pour la période en cours. L'expéditeur approuve alors le paiement en définissant le taux auquel le paiement sera envoyé et procède au paiement.
 
 
-Pour l'expéditeur, nous fournissons une méthode facile à utiliser pour regrouper plusieurs paiements à partir du [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Pour l'expéditeur, nous fournissons une méthode facile à utiliser pour regrouper plusieurs paiements à partir du [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

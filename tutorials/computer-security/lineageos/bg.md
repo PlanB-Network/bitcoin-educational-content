@@ -722,7 +722,7 @@ LineageOS предлага зряла алтернатива за възвръщ
 
 
 
-- [Официален уебсайт на LineageOS] (https://lineageos.org)
+- [Официален уебсайт на LineageOS](https://lineageos.org)
 - [LineageOS Wiki](https://wiki.lineageos.org) - Ръководства за инсталиране по модел
 - [LineageOS за microG](https://lineage.microg.org) - Версия с вграден microG
 

@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil der Verwendung des Befehls "cargo expand" bei der Entwicklung komplexer Makros in Rust?
+answer: Es zeigt den vollständig erweiterten Code an, der durch Makroaufrufe erzeugt wird, so dass Entwickler die erzeugte Ausgabe überprüfen und Probleme beheben können
+wrong_answers:
+  - Es optimiert automatisch die Leistung von Makros, indem es die Kompilierungszeit verkürzt und überflüssige Mustervergleichszweige eliminiert
+  - Es validiert die Makrosyntax zur Laufzeit und bietet eine Echtzeit-Fehlerprüfung für die dynamische Validierung von Makroargumenten
+  - Es wandelt funktionsähnliche Makros automatisch in Ableitungsmakros um und verbessert so die Wiederverwendbarkeit von Code und die Effizienz der Trait-Implementierung
+explanation: |
+  Der Befehl "cargo expand" ist für die Makroentwicklung von unschätzbarem Wert, da er den tatsächlichen Code offenlegt, den Makros während der Kompilierung generate erzeugen. Da Makros zur Kompilierzeit arbeiten und Eingabemuster in generierten Code umwandeln, müssen Entwickler diese erweiterte Ausgabe sehen, um zu überprüfen, ob ihre Makros korrekt funktionieren. Dies ist besonders wichtig, wenn der von Makros erzeugte Code Fehler enthält, da die erweiterte Ausgabe dabei hilft festzustellen, ob die Probleme von der Makrodefinition selbst oder von der Struktur des erzeugten Codes herrühren. Die anderen Optionen sind falsch, weil `cargo expand` ein reines Debugging- und Inspektionswerkzeug ist - es optimiert nicht die Leistung, überprüft nicht das Laufzeitverhalten und konvertiert nicht automatisch zwischen Makrotypen.

@@ -91,7 +91,7 @@ Unterhalb dieses Detailbereichs finden Sie alle in diesem Block enthaltenen Tran
 
 
 
-Die allererste Transaktion im Block wird **Transaktionscoinbase** genannt. Sie wird verwendet, um die mining-Belohnung des Miners (alle Gebühren im Zusammenhang mit den im Block enthaltenen Transaktionen und dem Block Grant) zu verteilen. Die durch diese Transaktion erzeugten Bitcoins können erst ausgegeben werden, wenn weitere 100 aufeinanderfolgende Blöcke geschürft worden sind. Mit anderen Worten, um sie verwenden zu können, muss der Miner auf die Produktion von Block **919430** warten. Dies wird als [*"Fälligkeitsperiode "*] (https://planb.academy/fr/resources/glossary/maturity-period) bezeichnet.
+Die allererste Transaktion im Block wird **Transaktionscoinbase** genannt. Sie wird verwendet, um die mining-Belohnung des Miners (alle Gebühren im Zusammenhang mit den im Block enthaltenen Transaktionen und dem Block Grant) zu verteilen. Die durch diese Transaktion erzeugten Bitcoins können erst ausgegeben werden, wenn weitere 100 aufeinanderfolgende Blöcke geschürft worden sind. Mit anderen Worten, um sie verwenden zu können, muss der Miner auf die Produktion von Block **919430** warten. Dies wird als [*"Fälligkeitsperiode "*](https://planb.academy/fr/resources/glossary/maturity-period) bezeichnet.
 
 
 

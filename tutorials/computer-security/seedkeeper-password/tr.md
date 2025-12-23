@@ -25,7 +25,7 @@ Bana göre Seedkeeper'ın iki ana kullanım alanı var ve bunları 2 ayrı eğit
 
 
 
-Teknik olarak Seedkeeper 8192 baytlık bir kapasiteye sahiptir ve bu da en az 50 ayrı sırrı saklamasına olanak tanır (kesin sayı, boyutlarına ve her biriyle ilişkili meta verilere bağlı olacaktır). Seedkeeper'a bir bilgisayara [bağlı bir akıllı kart okuyucu aracılığıyla] (https://satochip.io/accessories/) ya da NFC bağlantılı mobil uygulama aracılığıyla erişilebilir. Tüm sistem internet bağlantısı olmadan çevrimdışı modda çalışarak sınırlı bir saldırı yüzeyini garanti eder.
+Teknik olarak Seedkeeper 8192 baytlık bir kapasiteye sahiptir ve bu da en az 50 ayrı sırrı saklamasına olanak tanır (kesin sayı, boyutlarına ve her biriyle ilişkili meta verilere bağlı olacaktır). Seedkeeper'a bir bilgisayara [bağlı bir akıllı kart okuyucu aracılığıyla](https://satochip.io/accessories/) ya da NFC bağlantılı mobil uygulama aracılığıyla erişilebilir. Tüm sistem internet bağlantısı olmadan çevrimdışı modda çalışarak sınırlı bir saldırı yüzeyini garanti eder.
 
 
 

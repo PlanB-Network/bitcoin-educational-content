@@ -978,7 +978,7 @@ Yksi Bitcoin:n aliarvostetuimmista vahvuuksista on sen jaettavuus. Kukin Bitcoin
 #### Julkinen protokolla, jonka kaikki voivat todentaa
 
 
-Bitcoin toimii julkisella, **avoimen lähdekoodin** protokollalla (lähinnä [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Tämä tarkoittaa, että sen koodi on vapaasti kaikkien saatavilla tarkastettavaksi, tarkastettavaksi ja parannettavaksi. Bitcoin:ssä ei ole piilomekanismeja tai suljettuja järjestelmiä; kaikki Bitcoin:n toimintaan liittyvä on avointa.
+Bitcoin toimii julkisella, **avoimen lähdekoodin** protokollalla (lähinnä [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Tämä tarkoittaa, että sen koodi on vapaasti kaikkien saatavilla tarkastettavaksi, tarkastettavaksi ja parannettavaksi. Bitcoin:ssä ei ole piilomekanismeja tai suljettuja järjestelmiä; kaikki Bitcoin:n toimintaan liittyvä on avointa.
 
 Tämä avoimuuden taso tekee takaovien käyttöönotosta tai salaisten muutosten tekemisestä uskomattoman vaikeaa. Kuka tahansa, jolla on teknisiä taitoja, voi käyttää solmua, osallistua kehitystyöhön tai rakentaa yhteensopivia työkaluja. Bitcoin:ssa luottamus ansaitaan koodin ja konsensuksen kautta, ei keskitetyn valvonnan kautta.
 
@@ -3175,7 +3175,7 @@ Vain 15 minuutista tuntiin perintösuunnitelman laatimiseen voi olla ratkaisevaa
 ### Bitcoin:n seuraajasuunnitelman tavoitteet
 
 
-Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* neljä keskeistä tavoitetta vankalle perintösuunnitelmalle:
+Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* neljä keskeistä tavoitetta vankalle perintösuunnitelmalle:
 
 
 
@@ -3188,7 +3188,7 @@ Pamela Morgan hahmottelee kirjassaan *[Cryptoasset Inheritance Planning] (https:
 Hyvin harkittu suunnitelma ei ole vain varallisuuden siirtämistä, vaan myös läheistesi suojelemista yleisiltä virheiltä ja mahdollisilta uhkilta.
 
 
-Tämä luku on saanut vaikutteita [Pamela Morganin] (https://x.com/pamelawjd) työstä. [Hänen kirjastaan](https://www.amazon.com/gp/product/1947910116/), ja vaikka hänen kirjansa tarjoaa yksityiskohtaisen ja asiantuntijoiden vahvistaman menetelmän Bitcoin-perintösuunnitelman laatimiseen, **tämä sisältö ei ole oikeudellista neuvontaa**.  Kyseessä on todistetusti toimiva lähestymistapa, mutta jokaisen henkilön tulisi tehdä oma tutkimuksensa ja mukauttaa suositukset omaan tilanteeseensa ja lainkäyttöalueeseensa sopiviksi.
+Tämä luku on saanut vaikutteita [Pamela Morganin](https://x.com/pamelawjd) työstä. [Hänen kirjastaan](https://www.amazon.com/gp/product/1947910116/), ja vaikka hänen kirjansa tarjoaa yksityiskohtaisen ja asiantuntijoiden vahvistaman menetelmän Bitcoin-perintösuunnitelman laatimiseen, **tämä sisältö ei ole oikeudellista neuvontaa**.  Kyseessä on todistetusti toimiva lähestymistapa, mutta jokaisen henkilön tulisi tehdä oma tutkimuksensa ja mukauttaa suositukset omaan tilanteeseensa ja lainkäyttöalueeseensa sopiviksi.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) on anteliaasti antanut luvan käyttää [hänen työtään](https://www.amazon.com/gp/product/1947910116/) tällä kurssilla, ja me seuraamme hänen lähestymistapaansa luodaksemme konkreettisen Bitcoin-perintösuunnitelman. Tässä luvussa keskitymme hänen kirjansa ensimmäiseen osaan.

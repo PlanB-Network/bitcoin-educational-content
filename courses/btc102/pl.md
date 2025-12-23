@@ -543,7 +543,7 @@ W miarę zagłębiania się w świat Bitcoin zauważysz, że ryzyko rośnie wraz
 Krótko mówiąc: nie lekceważ cyberbezpieczeństwa, poświęć czas na skonfigurowanie podstaw i pamiętaj, że kluczem jest konsekwencja. Bez odpowiedniej higieny cyfrowej, nawet najlepsze narzędzia nie zdadzą się na wiele.
 
 
-Zapoznaj się również z [naszymi samouczkami dotyczącymi bezpieczeństwa komputerowego] (https://planb.academy/tutorials/computer-security) na Plan ₿ Academy.
+Zapoznaj się również z [naszymi samouczkami dotyczącymi bezpieczeństwa komputerowego](https://planb.academy/tutorials/computer-security) na Plan ₿ Academy.
 
 
 ![image](assets/pl/020.webp)

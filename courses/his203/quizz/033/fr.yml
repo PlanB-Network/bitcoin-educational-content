@@ -1,0 +1,9 @@
+question: En plus de l'identifiant de sa coopérative, que contenaient majoritairement les inscriptions réalisées par Luke-Jr par le biais d'Eligius en août 2011 ?
+answer: Des prières
+wrong_answers:
+  - De la pédopornographie
+  - Des mèmes
+  - Des messages politiques
+explanation: |
+ Conformément à sa foi catholique (sédévacantiste), Luke-Jr a inscrit des prières et des textes sacrés dans la transaction de récompense des blocs minés par sa coopérative, Eligius, sans en référer aux mineurs concernés, ce qui a provoqué un vif débat.
+reviewed: false

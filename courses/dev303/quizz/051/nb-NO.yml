@@ -1,0 +1,8 @@
+question: Hva er det viktigste sikkerhetshensynet ved bruk av RefCell i et flertrådet miljø?
+answer: RefCell er ikke trådsikker og vil forårsake udefinert oppførsel hvis den brukes fra flere tråder
+wrong_answers:
+  - RefCell synkroniserer automatisk tilgang mellom tråder, men med betydelige ytelsesoverhead
+  - RefCell får panikk under kjøring når flere tråder prøver å få tilgang til den samtidig
+  - RefCell låser seg fast når flere tråder prøver å låne de samme dataene samtidig
+explanation: |
+  RefCell er utelukkende utviklet for enkelttrådede scenarier og har ingen synkroniseringsmekanismer for tråder. I motsetning til trådsikre alternativer som Mutex, utfører RefCell ingen atomiske operasjoner eller låsing, noe som gjør at samtidig tilgang fra flere tråder resulterer i udefinert oppførsel og potensielle dataløp. Kjøretidskontrollene som RefCell utfører, er ikke trådsikre og kan bli ødelagt av samtidig tilgang, noe som fører til brudd på minnesikkerheten som Rust normalt forhindrer.

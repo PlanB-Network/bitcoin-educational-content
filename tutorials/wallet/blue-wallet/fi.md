@@ -263,7 +263,7 @@ Kun vahvistat tapahtuman, tarvitset toisen allekirjoituksen, jolla hyväksyt bit
 
 
 
-Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman] (https://planb.academy/resources/glossary/psbt) QR-koodin.
+Jos toinen Wallet:n allekirjoittaja on myös käyttäjä, hän voi allekirjoittaa tapahtuman, vaikka hän ei olisi internetissä (ei Wi-Fi-yhteyttä, ei mobiilidataa), skannaamalla juuri luomasi [osittain allekirjoitetun tapahtuman](https://planb.academy/resources/glossary/psbt) QR-koodin.
 
 
 

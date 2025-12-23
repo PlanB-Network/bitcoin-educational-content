@@ -32,7 +32,7 @@ Aurora Store is om de volgende redenen een van de populairste alternatieve app s
 
 
 
-Je kunt Aurora Store downloaden van de [officiële site] (https://auroraoss.com/aurora-store) door te klikken op de knop "Release" in de buildtypes. Selecteer de optie Vanilla als je een ander merk telefoon dan Huawei gebruikt. Recente Huawei-telefoonmodellen hebben hun eigen versie van Aurora Store vanwege hun beperkingen voor Google-services als gevolg van Amerikaanse sancties.
+Je kunt Aurora Store downloaden van de [officiële site](https://auroraoss.com/aurora-store) door te klikken op de knop "Release" in de buildtypes. Selecteer de optie Vanilla als je een ander merk telefoon dan Huawei gebruikt. Recente Huawei-telefoonmodellen hebben hun eigen versie van Aurora Store vanwege hun beperkingen voor Google-services als gevolg van Amerikaanse sancties.
 
 
 

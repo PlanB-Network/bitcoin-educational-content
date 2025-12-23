@@ -1,0 +1,8 @@
+question: ¿Qué palabra clave se utiliza para obligar a un cierre a tomar posesión de las variables capturadas en lugar de tomarlas prestadas?
+answer: mover
+wrong_answers:
+  - propio
+  - captura
+  - toma
+explanation: |
+  La palabra clave `move` se utiliza antes de los parámetros de cierre para forzar al cierre a tomar posesión de todas las variables capturadas de su entorno. Esto es esencial cuando el cierre puede sobrevivir al ámbito en el que se definieron originalmente las variables, como cuando se generan hilos. Sin `move`, los cierres normalmente capturan por el método menos restrictivo (referencia inmutable, luego referencia mutable, luego propiedad), pero `move` anula este comportamiento automático para asegurar la transferencia de propiedad. Las otras opciones (`own`, `capture`, `take`) no son palabras clave de Rust válidas para este propósito.

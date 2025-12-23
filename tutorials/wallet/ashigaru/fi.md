@@ -98,7 +98,7 @@ Jos sinulla ei todellakaan ole varaa ylläpitää omaa Dojoa, voit löytää ihm
 
 
 
-Avaa puhelimessasi Tor Browser ja siirry [Ashigarun virallisen verkkosivuston] (https://ashigaru.rs/download/) "Lataa"-osioon. Napsauta sitten `Download for Android`-painiketta ladataksesi asennustiedoston.
+Avaa puhelimessasi Tor Browser ja siirry [Ashigarun virallisen verkkosivuston](https://ashigaru.rs/download/) "Lataa"-osioon. Napsauta sitten `Download for Android`-painiketta ladataksesi asennustiedoston.
 
 
 
@@ -114,7 +114,7 @@ Ennen sovelluksen asentamista laitteeseesi tarkistamme sen aitouden ja eheyden. 
 
 
 
-Mene takaisin [Ashigarun viralliselle verkkosivustolle] (https://ashigaru.rs/download/) `Lataus`-osioon ja kopioi sitten otsikon `SHA-256 Hash of the APK file` alla näkyvä viesti. Kopioi koko lohko, alkaen `BEGIN PGP SIGNED MESSAGE` ja päättyen `END PGP SIGNATURE`.
+Mene takaisin [Ashigarun viralliselle verkkosivustolle](https://ashigaru.rs/download/) `Lataus`-osioon ja kopioi sitten otsikon `SHA-256 Hash of the APK file` alla näkyvä viesti. Kopioi koko lohko, alkaen `BEGIN PGP SIGNED MESSAGE` ja päättyen `END PGP SIGNATURE`.
 
 
 

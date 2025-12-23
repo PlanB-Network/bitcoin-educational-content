@@ -63,7 +63,7 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-**Resmi indirme:** [firefox.com/browsers/desktop] (https://www.firefox.com/en-US/browsers/desktop/) adresine gidin. Bu sayfada, özel kurulum talimatlarını içeren uygun indirme sayfasına erişmek için işletim sisteminizi (Windows, macOS, Linux) seçin.
+**Resmi indirme:** [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/) adresine gidin. Bu sayfada, özel kurulum talimatlarını içeren uygun indirme sayfasına erişmek için işletim sisteminizi (Windows, macOS, Linux) seçin.
 
 
 
@@ -616,7 +616,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Gelişmiş Takip Koruması](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Gelişmiş izleme koruması için resmi kılavuz
-- [Durum Bölümleme] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Durum bölümleme hakkında teknik dokümantasyon
+- [Durum Bölümleme](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Durum bölümleme hakkında teknik dokümantasyon
 - [MDN Web Güvenliği](https://developer.mozilla.org/docs/Web/Security): Web güvenliği hakkında eksiksiz referans
 
 

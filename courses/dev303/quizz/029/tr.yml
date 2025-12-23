@@ -1,0 +1,8 @@
+question: Kurtarılabilir hataları işlemek için kullanılan Rust'ın Result enum'unun iki çeşidi nedir?
+answer: Başarılı işlemler için Ok(T) ve başarısızlıklar için Err(E)
+wrong_answers:
+  - Başarılı operasyonlar için Success(T) ve başarısızlıklar için Failure(E)
+  - Başarılı operasyonlar için Some(T) ve başarısızlıklar için None
+  - Başarılı operasyonlar için Pass(T) ve başarısızlıklar için Panic(E)
+explanation: |
+  Rust'deki Result enum'unun tam olarak iki çeşidi vardır: T tipinde başarılı bir değer içeren Ok(T) ve E tipinde bir hata içeren Err(E). Bu tasarım, geliştiricileri hem başarı hem de başarısızlık durumlarını açıkça ele almaya zorlar. Diğer seçenekler yanlıştır - Success/Failure Result varyantları değildir, Some/None null değerleri işlemek için Option enum'una aittir ve Pass/Panic hata işleme için standart Rust enum varyantları değildir.

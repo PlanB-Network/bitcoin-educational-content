@@ -50,7 +50,7 @@ Ente Auth, uçtan uca şifrelenmiş ve gizlilik dostu bir fotoğraf depolama hiz
 
 
 
-**Açık kaynak ve denetlenmiş**: Ente Auth'un kaynak kodu AGPL v3.0 lisansı altında [GitHub'da herkese açıktır] (https://github.com/ente-io/auth). Herhangi bir geliştirici, kusurları veya istenmeyen davranışları kontrol etmek için bunu denetleyebilir. Uygulanan kriptografi, uygulamanın güvenliğinin ciddiyetinin bir garantisi olan bir [bağımsız dış denetim](https://ente.io/blog/cryptography-audit/) konusu olmuştur.
+**Açık kaynak ve denetlenmiş**: Ente Auth'un kaynak kodu AGPL v3.0 lisansı altında [GitHub'da herkese açıktır](https://github.com/ente-io/auth). Herhangi bir geliştirici, kusurları veya istenmeyen davranışları kontrol etmek için bunu denetleyebilir. Uygulanan kriptografi, uygulamanın güvenliğinin ciddiyetinin bir garantisi olan bir [bağımsız dış denetim](https://ente.io/blog/cryptography-audit/) konusu olmuştur.
 
 
 
@@ -87,7 +87,7 @@ Ente Auth, uçtan uca şifrelenmiş ve gizlilik dostu bir fotoğraf depolama hiz
 
 
 
-Ente Auth en popüler platformlarda mevcuttur. Uygulamayı [resmi web sitesinden] (https://ente.io/auth) veya resmi mağazalardan indirebilirsiniz.
+Ente Auth en popüler platformlarda mevcuttur. Uygulamayı [resmi web sitesinden](https://ente.io/auth) veya resmi mağazalardan indirebilirsiniz.
 
 
 
@@ -530,7 +530,7 @@ Tanınmış firmalar tarafından gerçekleştirilen bu bağımsız denetimler, E
 
 
 
-Ente Auth, minimum veri toplamaya dayalı bir [örnek gizlilik politikası] (https://ente.io/privacy/) uygular. Yalnızca hizmetin çalışması için kesinlikle gerekli olan bilgiler saklanır: kimlik doğrulama ve hesap kurtarma için e-posta Address'unuz.
+Ente Auth, minimum veri toplamaya dayalı bir [örnek gizlilik politikası](https://ente.io/privacy/) uygular. Yalnızca hizmetin çalışması için kesinlikle gerekli olan bilgiler saklanır: kimlik doğrulama ve hesap kurtarma için e-posta Address'unuz.
 
 
 

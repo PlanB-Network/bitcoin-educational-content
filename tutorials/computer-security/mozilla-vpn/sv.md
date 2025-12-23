@@ -20,7 +20,7 @@ Ett ***Virtual Private Network*** (VPN) är ett system för att skapa en direktl
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Baserat på denna princip är [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) en VPN-tjänst med öppen källkod som utvecklades 2020 av Mozilla Foundation. Den är tillgänglig på:
+Baserat på denna princip är [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) en VPN-tjänst med öppen källkod som utvecklades 2020 av Mozilla Foundation. Den är tillgänglig på:
 
 
 
@@ -71,7 +71,7 @@ Den är tillgänglig i över 30 länder och har över 500 servrar som ansvarar f
 
 
 
-Du kan ladda ner [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) beroende på ditt operativsystem. I den här handledningen kommer vi att titta på Mozilla VPN under Windows-operativsystemet.
+Du kan ladda ner [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) beroende på ditt operativsystem. I den här handledningen kommer vi att titta på Mozilla VPN under Windows-operativsystemet.
 
 
 

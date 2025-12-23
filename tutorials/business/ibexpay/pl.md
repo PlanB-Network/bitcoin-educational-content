@@ -14,7 +14,7 @@ Uczynienie Bitcoin użytecznym dla każdego oznacza również pokazanie jego uż
 
 
 
-IbexPay to platforma opracowana przez IBEX, pioniera w dziedzinie usług infrastruktury Lightning. Aby założyć konto, należy wejść na stronę IbexPay [oficjalna platforma] (https://www.ibexpay.io/) i kliknąć przycisk "**Start**".
+IbexPay to platforma opracowana przez IBEX, pioniera w dziedzinie usług infrastruktury Lightning. Aby założyć konto, należy wejść na stronę IbexPay [oficjalna platforma](https://www.ibexpay.io/) i kliknąć przycisk "**Start**".
 
 
 

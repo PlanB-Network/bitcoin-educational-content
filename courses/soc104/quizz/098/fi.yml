@@ -1,0 +1,9 @@
+question: Eric Hughesin Cypherpunk-manifestin mukaan mikä perusperiaate erottaa salakirjoittajat niistä, jotka vain toivovat yksityisyyden suojaa?
+answer: Cypherpunks kirjoittavat aktiivisesti koodia rakentaakseen anonyymejä järjestelmiä sen sijaan, että odottaisivat instituutioiden tarjoavan yksityisyyden suojan
+wrong_answers:
+  - Cypherpunks keskittyy poliittiseen lobbaukseen ja lakiuudistuksiin yksityisyyden suojaa koskevien oikeuksien luomiseksi demokraattisten prosessien avulla
+  - Cypherpunks uskoo työskentelevänsä nykyisten rahoituslaitosten sisällä parantaakseen asteittain niiden yksityisyyden suojaa
+  - Cypherpunks priorisoi yksityisyyden suojaan liittyvistä riskeistä tiedottamista teknisten ratkaisujen kehittämisen sijaan
+explanation: |
+  Manifestissa todetaan nimenomaisesti, että "Cypherpunks kirjoittavat koodia", ja korostetaan, että he eivät löydä lohtua toiveista ja toivomuksista vaan puuttuvat aktiivisesti tapahtumiin.
+  Hughes väitti, että ihmiset eivät voi odottaa hallitusten, yritysten tai muiden suurten organisaatioiden takaavan yksityisyyttä, joten cypherpunksin on rakennettava salausjärjestelmät itse. Tämä aktiivinen, tekninen lähestymistapa koodin kehittämisen kautta erottaa heidät passiivisista lähestymistavoista, kuten lobbaamisesta, työskentelystä olemassa olevien järjestelmien sisällä tai pelkkä valistaminen ilman konkreettisten teknisten ratkaisujen luomista.

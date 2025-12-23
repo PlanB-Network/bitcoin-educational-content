@@ -1,0 +1,9 @@
+question: Volgens het Cypherpunk Manifest van Eric Hughes, welke fundamentele benadering onderscheidt cypherpunks van degenen die alleen maar hopen op privacybescherming?
+answer: Ze schrijven actief code om cryptografische systemen te bouwen in plaats van te wachten tot instellingen privacy bieden
+wrong_answers:
+  - Ze richten zich op politiek lobbyen en juridische hervormingen om grondwettelijke privacyrechten vast te leggen
+  - Ze geven prioriteit aan het voorlichten van het publiek over bewakingsrisico's door middel van academisch onderzoek en publicaties
+  - Ze werken binnen bestaande financiële instellingen om geleidelijk technologieën te implementeren die de privacy beschermen
+explanation: |
+  Eric Hughes stelde expliciet 'Cypherpunks schrijven code' als hun bepalende methodologie. Het manifest benadrukt dat cypherpunks niet wachten op overheden, bedrijven of andere organisaties om privacybescherming te bieden.
+  In plaats daarvan ondernemen ze directe actie door cryptografische gereedschappen en gedecentraliseerde systemen te maken. Deze actieve constructiebenadering, in plaats van passieve hoop of institutionele hervorming, werd de basis voor innovaties zoals Bitcoin, die hun filosofie belichaamde om alternatieve systemen te bouwen buiten de traditionele machtsstructuren om.

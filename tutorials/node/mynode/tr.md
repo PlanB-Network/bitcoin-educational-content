@@ -6,7 +6,7 @@ description: Bitcoin MyNode'unuzu ayarlayın
 ![image](assets/0.webp)
 
 
-[My Node] (https://mynodebtc.com/) bir Bitcoin ve Lightning düğümü çalıştırmanın en kolay ve en güçlü yoludur! Bitcoin ve Lightning'i kolayca, özel ve güvenli bir şekilde kullanabilmeniz için en iyi açık kaynak yazılımını Interface, yönetim ve desteğimizle birleştiriyoruz.
+[My Node](https://mynodebtc.com/) bir Bitcoin ve Lightning düğümü çalıştırmanın en kolay ve en güçlü yoludur! Bitcoin ve Lightning'i kolayca, özel ve güvenli bir şekilde kullanabilmeniz için en iyi açık kaynak yazılımını Interface, yönetim ve desteğimizle birleştiriyoruz.
 
 
 ## Düğüm kurulumu türleri

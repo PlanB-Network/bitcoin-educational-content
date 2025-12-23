@@ -1775,7 +1775,7 @@ Cuối cùng, chính bạn là người quyết định mức độ "mở và ba
 Khi các khối tiếp tục lăn, cộng đồng của bạn sẽ phát triển. Những gương mặt mới sẽ gia nhập, những người khác sẽ rời đi, nhưng nguyên tắc chỉ đạo vẫn phải giữ nguyên: phát triển hệ sinh thái Bitcoin và củng cố mối liên kết giữa các thành viên.
 
 
-Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Trước khi đi sâu hơn, chúng ta hãy xem lại một điểm đã đề cập trước đó.

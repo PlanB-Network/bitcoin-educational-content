@@ -644,7 +644,7 @@ Arvestades, et eesmärk on digitaliseerida säästud ja lihtsustada investeerimi
 
 
 
-Võite saata päringu otse rakenduses või võtta Telegrami kaudu ühendust nende väga hoolsa [klienditoega] (https://t.me/EjaraCSbot).
+Võite saata päringu otse rakenduses või võtta Telegrami kaudu ühendust nende väga hoolsa [klienditoega](https://t.me/EjaraCSbot).
 
 
 

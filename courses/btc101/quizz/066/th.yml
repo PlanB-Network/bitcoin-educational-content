@@ -1,0 +1,8 @@
+question: คีย์ส่วนตัวใน Bitcoin wallet คืออะไร?
+answer: กุญแจลับที่ช่วยให้คุณสามารถลงนามในธุรกรรมของคุณได้
+wrong_answers:
+  - คีย์สาธารณะที่ใช้กับที่อยู่ generate Bitcoin
+  - รายการคำลับเพื่อทำลาย wallet ในกรณีที่จำเป็น
+  - กุญแจลับสำหรับเข้ารหัสธุรกรรม Bitcoin
+explanation: >-
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is de meest geschikte reactie wanneer een Bitcoin toepassing een ongeldige invoerfout tegenkomt, zoals het ontvangen van een negatieve waarde voor een veld dat alleen positieve gehele getallen vereist?
+answer: Weiger de invoer en stuur een foutmelding terug naar de aanroeper
+wrong_answers:
+  - Converteer de negatieve waarde naar zijn absolute waarde en ga verder met verwerken
+  - Log de fout maar voer de bewerking uit met een standaardwaarde
+  - Beëindig de volledige applicatie onmiddellijk om gegevensbeschadiging te voorkomen
+explanation: |
+  Ongeldige invoerfouten vertegenwoordigen contractschendingen tussen de aanroeper en de functie, waarbij de geleverde parameters niet voldoen aan de vereisten van de functie. De juiste aanpak is om de invoer af te wijzen en een foutindicatie terug te geven, zodat de aanroeper de situatie op de juiste manier kan afhandelen. Het omzetten van negatieve waarden naar positieve waarden maskeert de fout stilletjes en kan leiden tot onbedoeld gedrag. Het gebruik van standaardwaarden negeert de intentie van de beller en kan onjuiste gegevens verwerken. De hele applicatie beëindigen is overdreven voor invoervalidatiefouten en zou een slechte gebruikerservaring opleveren in Bitcoin applicaties waar een goede foutafhandeling cruciaal is.

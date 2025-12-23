@@ -1,0 +1,9 @@
+question: ในบรรดาโปรโตคอลทั้ง 3 นี้ โปรโตคอลใดที่ไม่ใช่การใช้งานของ coinjoin?
+answer: Chainalysis.
+wrong_answers:
+  - เข้าร่วมตลาด
+  - วาบิซาบิ
+  - Whirlpool.
+explanation: |
+  Chainalysis ไม่ใช่การใช้งานของ coinjoin เลย เนื่องจากเป็นบริษัทวิเคราะห์บล็อกเชน
+reviewed: true

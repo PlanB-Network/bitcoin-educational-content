@@ -1,9 +1,9 @@
-question: Koja jedinica podataka se koristi u Internet Layer TCP/IP modelu?
+question: Koja jedinica podataka se koristi u internetskom sluju TCP/IP modela?
 answer: Datagram
 wrong_answers:
   - Segment
   - Ram
   - Poruka
 explanation: |
-  Internet Layer manipuliše datagramima, enkapsulirajući segmente iz Transport Layer.
-reviewed: false
+  Internetski sloj manipuliše datagramima, enkapsulirajući segmente iz transportnog sloja.
+reviewed: true

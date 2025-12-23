@@ -70,7 +70,7 @@ Antes de iniciar a instalação, certifique-se de que possui o seguinte equipame
 
 
 
-Vá ao sítio Web oficial do sistema operativo [elementary] (https://elementary.io/) e escolha um montante para apoiar o projeto. Este passo é opcional.
+Vá ao sítio Web oficial do sistema operativo [elementary](https://elementary.io/) e escolha um montante para apoiar o projeto. Este passo é opcional.
 
 
 Se desejar descarregar a imagem ISO gratuitamente, introduza 0 no campo **"Outros "** e comece a descarregar a imagem ISO do sistema.
@@ -89,7 +89,7 @@ Depois de descarregar a imagem ISO, terá de a tornar de arranque numa chave USB
 
 
 
-Descarregar um software como o [Balena Etcher] (https://etcher.balena.io/) ou uma ferramenta semelhante e, em seguida, lançar o software.
+Descarregar um software como o [Balena Etcher](https://etcher.balena.io/) ou uma ferramenta semelhante e, em seguida, lançar o software.
 
 
 Selecione a imagem ISO **Elementary OS** previamente descarregada e defina a sua chave USB como destino.

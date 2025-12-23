@@ -1,0 +1,8 @@
+question: Was geschieht mit einer Variablen, wenn die Eigentümerschaft in Rust auf eine andere Variable übertragen wird?
+answer: Die ursprüngliche Variable wird ungültig und kann nicht mehr verwendet werden
+wrong_answers:
+  - Die ursprüngliche Variable wird zu einem Nur-Lese-Verweis auf die Daten
+  - Beide Variablen sind gemeinsam im Besitz und können die Daten unabhängig voneinander ändern
+  - Die ursprüngliche Variable wird automatisch in eine veränderbare Referenz umgewandelt
+explanation: |
+  Wenn die Eigentümerschaft in Rust verschoben wird, wird die ursprüngliche Variable vollständig ungültig und es kann nicht mehr darauf zugegriffen werden. Dies ist eine grundlegende Sicherheitsfunktion, die verhindert, dass mehrere Variablen denselben Heap-Speicher verwalten, was zu Use-after-free-Bugs oder Double-free-Fehlern führen könnte. Beim Verschieben wird die vollständige Kontrolle an die neue Variable übertragen, und der Compiler gibt einen Fehler aus, wenn Sie versuchen, die ursprüngliche Variable nach dem Verschieben zu verwenden. Dies unterscheidet sich vom Kopieren (bei dem beide Variablen gültig bleiben) und vom Ausleihen (bei dem der ursprüngliche Eigentümer das Eigentum behält).

@@ -1,0 +1,8 @@
+question: Quel trait représente les fermetures qui peuvent être appelées plusieurs fois sans modifier l'environnement capturé ?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn est le trait de fermeture le plus restrictif qui représente des fermetures pouvant être appelées plusieurs fois sans que l'environnement capturé ne soit modifié. Ces fermetures ne capturent que des références immuables et peuvent être appelées simultanément en toute sécurité. FnOnce représente les fermetures qui ne peuvent être appelées qu'une seule fois, tandis que FnMut représente les fermetures qui peuvent être appelées plusieurs fois mais qui sont susceptibles de modifier leur environnement capturé. FnCapture n'est pas un véritable trait Rust.

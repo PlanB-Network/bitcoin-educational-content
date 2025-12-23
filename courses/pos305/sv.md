@@ -154,7 +154,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Be tre frivilliga studenter att spela rollerna som kund (Alice), handlare (Bob) och bank.
 - Spela upp händelseförloppet:
   - Kund - surfar i butiken på nätet och hittar en vara för 25 USD som han eller hon vill ha och meddelar handlaren att han eller hon vill köpa den
@@ -176,7 +176,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersätt banken med nio studenter som ska spela rollen som en dator (Bitcoin Nodes/Miners) i ett nätverk som ska ersätta banken.
 - Var och en av de 9 datorerna har en fullständig historik över alla tidigare transaktioner som någonsin gjorts (vilket innebär korrekta saldon utan förfalskningar), samt en uppsättning regler:
   - Verifiera att transaktionen är korrekt signerad (thekeyfitsthelock)
@@ -436,9 +436,9 @@ Baserat på din mobiltelefons operativsystem (Android eller iOS) kan du välja m
 1. Ladda ner en tvåfaktorsautentisering.
 
 
-   - Authy för [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy för [Android](https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator för [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator för [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Efter nedladdning och installation av Authenticator-appen.
 
@@ -2222,7 +2222,7 @@ Försök först och främst att avgöra när problemet uppstår. Försök att re
 ##### Uppdatering av servern
 
 
-Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen] (https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
+Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen](https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
 
 
 ##### Starta om servern
@@ -2621,7 +2621,7 @@ Betalningsmottagaren och uppdragsgivaren kan se status för betalningsuppdraget 
 Innehållet i beskrivningen kan redigeras med hjälp av betalningsbegärans textredigerare. Båda alternativen är tillgängliga om du vill använda ytterligare färgteman eller anpassad CSS-styling.
 
 
-Icke-tekniska användare kan använda ett [bootstrap-tema] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
+Icke-tekniska användare kan använda ett [bootstrap-tema](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
 
 
 ```css
@@ -2670,13 +2670,13 @@ Vad händer om avsändaren, i stället för att skicka betalningen, låter motta
 ### Utbetalningar
 
 
-Utbetalningsfunktionen är kopplad till funktionen [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
+Utbetalningsfunktionen är kopplad till funktionen [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
 
 
 #### Exempel 1: Återbetalning
 
 
-Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning] (https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
+Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning](https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
 
 
 Den första statusen den har är Väntar på godkännande. Butikspersonal kan kontrollera om flera väntar, och efter att ha gjort valet använder du knappen Åtgärder.
@@ -2700,7 +2700,7 @@ Kunden blir nu uppdaterad på sidan Claiming. Han kan följa transaktionen efter
 #### Exempel 2: Lön
 
 
-Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Gå till fliken Pull Payments i din BTCPay-server. Klicka på knappen Skapa Pull-betalning längst upp till höger.
@@ -2744,7 +2744,7 @@ Efter detta kan avsändaren dela pull-betalningen med mottagaren via en länk, s
 När en utbetalning har skapats kommer den att räknas av mot pull-betalningens gräns för den aktuella perioden. Avsändaren kommer sedan att godkänna utbetalningen genom att ställa in den hastighet som utbetalningen ska skickas med och fortsätta med betalningen.
 
 
-För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

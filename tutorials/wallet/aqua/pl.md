@@ -57,7 +57,7 @@ Pierwszym krokiem jest oczywiście pobranie aplikacji Aqua. Przejdź do sklepu z
 ![AQUA](assets/fr/04.webp)
 
 
-Użytkownicy Androida mają również możliwość zainstalowania aplikacji za pomocą pliku `.apk` [dostępnego na ich GitHub] (https://github.com/AquaWallet/Aqua-Wallet/releases).
+Użytkownicy Androida mają również możliwość zainstalowania aplikacji za pomocą pliku `.apk` [dostępnego na ich GitHub](https://github.com/AquaWallet/Aqua-Wallet/releases).
 
 
 ![AQUA](assets/fr/05.webp)

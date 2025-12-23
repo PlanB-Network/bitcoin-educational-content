@@ -1,0 +1,11 @@
+question: Jakie jest pięć sekcji zidentyfikowanych na diagramie politycznym Nolan Chart?
+answer: Etatyzm (dół), socjalizm (lewo), konserwatyzm (prawo), libertarianizm (góra) i centryzm (środek)
+wrong_answers:
+  - Autorytaryzm (dół), liberalizm (lewo), nacjonalizm (prawo), anarchizm (góra) i populizm (środek)
+  - Totalitaryzm (na dole), progresywizm (po lewej), tradycjonalizm (po prawej), kapitalizm (na górze) i umiarkowanie (w środku)
+  - Faszyzm (na dole), komunizm (po lewej), republikanizm (po prawej), demokracja (na górze) i pragmatyzm (w środku)
+explanation: |
+  Wykres Nolana dzieli spektrum polityczne na pięć odrębnych sekcji w oparciu o wolność gospodarczą i osobistą. Etatyzm reprezentuje
+  maksymalną kontrolę rządu na dole, podczas gdy libertarianizm na górze reprezentuje maksymalną wolność w obu wymiarach. Socjalizm (po lewej) wspiera wolność osobistą
+  wolność osobistą, ale sprzeciwia się wolności gospodarczej, podczas gdy konserwatyzm (po prawej) wspiera wolność gospodarczą, ale ogranicza wolność osobistą. Centryzm zajmuje miejsce pośrodku,
+  mieszając elementy obu wolności z pewnymi regulacjami.

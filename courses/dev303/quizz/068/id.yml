@@ -1,0 +1,8 @@
+question: Apa keunggulan utama pendekatan pengetikan statis Rust dibandingkan pengetikan dinamis ketika mengembangkan aplikasi Bitcoin?
+answer: Kesalahan pengetikan tertangkap pada waktu kompilasi sebelum penerapan, mencegah kegagalan runtime saat menangani dana pengguna
+wrong_answers:
+  - Pengetikan statis memungkinkan kecepatan eksekusi yang lebih cepat saat memproses transaksi Bitcoin di blockchain
+  - "Pengetikan dinamis membutuhkan lebih banyak alokasi memori yang bertentangan dengan persyaratan node ringan Bitcoin"
+  - Pengetikan statis memungkinkan pembuatan kode otomatis untuk implementasi protokol Bitcoin dan kontrak pintar
+explanation: |
+  Pengetikan statis Rust menangkap ketidakcocokan tipe selama kompilasi, memastikan kesalahan diselesaikan sebelum perangkat lunak dapat dibangun atau digunakan. Hal ini sangat penting untuk pengembangan Bitcoin karena ketika perangkat lunak menangani dana pengguna yang sebenarnya, kesalahan pengetikan pada saat proses berjalan dapat menyebabkan kerugian finansial yang tidak dapat dipulihkan. Pengetikan dinamis hanya mengungkapkan kesalahan selama eksekusi, berpotensi setelah penerapan ketika uang pengguna berisiko. Pilihan lain tidak tepat karena manfaat utama pengetikan statis bukanlah kecepatan eksekusi, penggunaan memori, atau pembuatan kode, tetapi lebih pada pencegahan kesalahan waktu kompilasi.

@@ -1,0 +1,8 @@
+question: Según la teoría del conocimiento disperso de Hayek, ¿por qué la planificación central es fundamentalmente defectuosa como mecanismo de coordinación económica?
+answer: El conocimiento sólo existe como fragmentos dispersos entre individuos, lo que hace imposible que los planificadores centrales accedan a la información completa necesaria para una coordinación eficaz
+wrong_answers:
+  - Los planificadores centrales carecen de autoridad moral para tomar decisiones por otros, incluso cuando poseen información completa sobre el mercado
+  - La corrupción política y el interés propio impiden a los planificadores centrales aplicar soluciones económicamente óptimas a pesar de tener acceso a todos los datos necesarios
+  - La planificación central requiere demasiada potencia de cálculo y una tecnología que no estaba disponible en la época de Hayek pero que podría funcionar hoy en día
+explanation: |
+  La crítica de Hayek a la planificación central es epistemológica, no moral ni tecnológica. Sostuvo que el conocimiento nunca existe de forma concentrada, sino sólo como "fragmentos dispersos de conocimientos incompletos y a menudo contradictorios que poseen todos los individuos distintos" Este problema de conocimiento disperso significa que los planificadores centrales no pueden acceder a los costes subjetivos, los beneficios y las preferencias locales que sólo poseen los individuos, lo que hace imposible una coordinación económica eficiente, independientemente de sus intenciones o capacidades computacionales.

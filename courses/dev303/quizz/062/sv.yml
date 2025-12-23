@@ -1,0 +1,8 @@
+question: Vilken är den främsta fördelen med att använda kommandot `cargo expand` när du utvecklar komplexa makron i Rust?
+answer: Den visar den fullständigt expanderade koden som genereras av makroanrop, vilket gör det möjligt för utvecklare att verifiera den genererade utdata och felsöka problem
+wrong_answers:
+  - Det optimerar automatiskt makroprestanda genom att minska kompileringstiden och eliminera redundanta mönstermatchningsgrenar
+  - Den validerar makrosyntax i körtid och ger felkontroll i realtid för dynamisk validering av makroargument
+  - Den konverterar funktionsliknande makron till deriveringsmakron automatiskt, vilket förbättrar återanvändbarheten av kod och effektiviteten i implementeringen av egenskaper
+explanation: |
+  Kommandot `cargo expand` är ovärderligt för makroutveckling eftersom det avslöjar den faktiska koden som makron generate under kompilering. Eftersom makron fungerar vid kompileringstiden och omvandlar inmatningsmönster till genererad kod måste utvecklare se denna expanderade utdata för att verifiera att deras makron fungerar korrekt. Detta är särskilt viktigt när makrogenererad kod innehåller fel, eftersom den expanderade utdata hjälper till att avgöra om problemen härrör från själva makrodefinitionen eller strukturen i den genererade koden. De andra alternativen är felaktiga eftersom `cargo expand` är ett rent felsöknings- och inspektionsverktyg - det optimerar inte prestanda, validerar körtidsbeteende eller konverterar automatiskt mellan makrotyper.

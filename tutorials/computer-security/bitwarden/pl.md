@@ -55,7 +55,7 @@ Kolejną funkcją Bitwarden jest możliwość samodzielnego hostowania menedżer
 ## Jak utworzyć konto Bitwarden?
 
 
-Odwiedź [stronę Bitwarden] (https://bitwarden.com/) i kliknij "*Get Started*".
+Odwiedź [stronę Bitwarden](https://bitwarden.com/) i kliknij "*Get Started*".
 
 ![BITWARDEN](assets/notext/03.webp)
 
@@ -256,7 +256,7 @@ Po pierwsze, możesz skonfigurować rozszerzenie przeglądarki, jeśli chcesz. R
 Codzienne korzystanie z tego rozszerzenia jest niezwykle wygodne, ale może również otwierać nowe wektory ataku. Dlatego też niektórzy eksperci ds. cyberbezpieczeństwa odradzają korzystanie z rozszerzeń przeglądarki do zarządzania hasłami. Jeśli jednak zdecydujesz się skorzystać z rozszerzenia Bitwarden, oto jak postępować:
 
 
-Zacznij od odwiedzenia [oficjalnej strony pobierania Bitwarden] (https://bitwarden.com/download/#downloads-web-browser).
+Zacznij od odwiedzenia [oficjalnej strony pobierania Bitwarden](https://bitwarden.com/download/#downloads-web-browser).
 
 
 ![BITWARDEN](assets/notext/44.webp)
@@ -332,7 +332,7 @@ Następnie rozszerzenie automatycznie wypełnia nasze dane uwierzytelniające w 
 ## Jak korzystać z oprogramowania Bitwarden?
 
 
-Aby zainstalować oprogramowanie Bitwarden desktop, zacznij od przejścia do [strony pobierania] (https://bitwarden.com/download/#downloads-desktop). Wybierz i pobierz wersję odpowiadającą Twojemu systemowi operacyjnemu.
+Aby zainstalować oprogramowanie Bitwarden desktop, zacznij od przejścia do [strony pobierania](https://bitwarden.com/download/#downloads-desktop). Wybierz i pobierz wersję odpowiadającą Twojemu systemowi operacyjnemu.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -347,7 +347,7 @@ Następnie przejdziesz do strony głównej swojego menedżera. Interface jest pr
 ## Jak korzystać z aplikacji Bitwarden?
 
 
-Aby uzyskać dostęp do haseł z telefonu, można zainstalować aplikację mobilną Bitwarden. Zacznij od przejścia do [strony pobierania] (https://bitwarden.com/download/#downloads-mobile) i zeskanowania smartfonem kodu QR odpowiadającego Twojemu systemowi operacyjnemu.
+Aby uzyskać dostęp do haseł z telefonu, można zainstalować aplikację mobilną Bitwarden. Zacznij od przejścia do [strony pobierania](https://bitwarden.com/download/#downloads-mobile) i zeskanowania smartfonem kodu QR odpowiadającego Twojemu systemowi operacyjnemu.
 
 ![BITWARDEN](assets/notext/61.webp)
 

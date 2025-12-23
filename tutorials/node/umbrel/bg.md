@@ -222,7 +222,7 @@ UmbrelOS е безплатна версия с отворен код на опе
 
 
 
-- Посетете [официалния уебсайт] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Посетете [официалния уебсайт](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Изтегляне на най-новата версия на UmbrelOS за Raspberry Pi 5
 
 
@@ -730,7 +730,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 - [Официален уебсайт на Umbrel](https://umbrel.com)
 - [Документация за Umbrel](https://github.com/getumbrel/umbrel/wiki)
-- [App Store Umbrel] (https://apps.umbrel.com)
+- [App Store Umbrel](https://apps.umbrel.com)
 
 
 
@@ -739,7 +739,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- [Bitcoin Core] (https://Bitcoin.org/fr/)
+- [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
 - [Mempool](https://Mempool.space)
 - [Sparrow Wallet](https://sparrowwallet.com)

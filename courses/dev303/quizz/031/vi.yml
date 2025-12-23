@@ -1,0 +1,8 @@
+question: Loại lỗi nào sẽ gây ra tình trạng hoảng loạn trong các chương trình Rust?
+answer: Các lỗi không thể khắc phục cho thấy lỗi logic lập trình hoặc trạng thái không an toàn.
+wrong_answers:
+  - Lỗi kết nối mạng hoặc lỗi hết thời gian chờ từ các dịch vụ bên ngoài
+  - Thông tin người dùng nhập không hợp lệ hoặc thiếu tệp cấu hình.
+  - Lỗi không tìm thấy tệp hoặc ngoại lệ bị từ chối quyền truy cập
+explanation: |
+  Việc sử dụng panic chỉ nên dành cho các lỗi không thể khắc phục được, thể hiện lỗi lập trình hoặc các tình huống mà chương trình rơi vào trạng thái không an toàn, chẳng hạn như vi phạm giới hạn mảng hoặc các vấn đề về an toàn bộ nhớ. Các câu trả lời sai đều mô tả các lỗi có thể khắc phục được - lỗi mạng, sự cố nhập liệu của người dùng và các vấn đề về hệ thống tập tin là những điều kiện dự kiến mà chương trình nên xử lý một cách khéo léo bằng cách sử dụng kiểu dữ liệu Result thay vì gây sập chương trình. Những lỗi có thể khắc phục được này cho phép chương trình tiếp tục chạy bằng cách triển khai các chiến lược xử lý lỗi thích hợp.

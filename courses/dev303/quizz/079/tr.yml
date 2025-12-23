@@ -1,0 +1,8 @@
+question: Rust uygulamalarında panik ve Result'un hata kurtarmayı ele alma biçimleri arasındaki temel fark nedir?
+answer: Panik, yürütmeyi derhal durdurur ve kurtarılamaz, Sonuç ise arayanların hataları zarif bir şekilde ele almasına olanak tanır
+wrong_answers:
+  - Panik ayrıntılı hata bilgisi sağlarken, Sonuç bağlam olmadan yalnızca başarı veya başarısızlığı gösterir
+  - Panik iş parçacığı güvenlidir ve iş parçacıkları arasında işlenebilirken, Sonuç hataları tek bir iş parçacığı ile sınırlıdır
+  - Panik, hataları otomatik olarak sisteme kaydederken, Sonuç manuel hata kaydı ve raporlama gerektirir
+explanation: |
+  Panik, çözme veya iptal etme yoluyla yürütmeyi derhal sonlandıran ve çağıran kodun hatayı ele alıp devam etmesini imkansız hale getiren kurtarılamaz hataları temsil eder. Ok(value) veya Err(error) içeren bir enum olarak Result, çağıranları olası hataları kabul etmeye ve hatayı ele alarak, varsayılanları sağlayarak veya çağrı yığınına yayarak nasıl yanıt vereceklerini seçmeye açıkça zorlar. Bu temel fark, Sonuç'u üretim kodundaki kurtarılabilir hatalar için tercih edilen seçenek haline getirirken, panik gerçekten kurtarılamaz durumlar veya geliştirme senaryoları için ayrılmalıdır.

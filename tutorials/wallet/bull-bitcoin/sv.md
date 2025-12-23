@@ -54,7 +54,7 @@ Wallet utvecklas ständigt, så bli inte förvånad om du hittar avvikelser mell
 
 
 
-- Till exempel, från och med 19/07/2025, är **"Köp / Sälj / Betala"** -knapparna synliga men gråtonade i applikationen, eftersom dessa alternativ, tillgängliga på Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel), snart kommer att integreras för en enhetlig upplevelse. Användningen av dem kommer att förbli helt valfri. Många andra utvecklingar pågår eller planeras: multi-Wallet-hantering, passphrase, kompatibilitet med hårdvaruplånböcker ...
+- Till exempel, från och med 19/07/2025, är **"Köp / Sälj / Betala"** -knapparna synliga men gråtonade i applikationen, eftersom dessa alternativ, tillgängliga på Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), snart kommer att integreras för en enhetlig upplevelse. Användningen av dem kommer att förbli helt valfri. Många andra utvecklingar pågår eller planeras: multi-Wallet-hantering, passphrase, kompatibilitet med hårdvaruplånböcker ...
 - På [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) kan du kolla in aktuella ämnen och kommande utveckling. Eftersom projektet är 100% öppen källkod och "byggt i allmänhet" kan du också skicka oss dina förslag och eventuella buggar du stöter på.
 
 
@@ -85,7 +85,7 @@ Innan du börjar använda **Bull Bitcoin Mobile** ska du se till att du har föl
 
 - Ladda ner **ansökan**:
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Ladda ner från applikationsbutiken för Android-enheter**
-- [GitHub] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Ladda ner APK för Android-enheter direkt**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Ladda ner APK för Android-enheter direkt**
 - [iOS](https://testflight.apple.com/join/FJbE4JPN) **Ladda ner via TestFlight för Apple-enheter**
  - Kontrollera utvecklarens namn (Bull Bitcoin) för att undvika bedrägliga applikationer.
  - Se till att den nedladdade versionen motsvarar den senaste stabila versionen som anges på GitHub.
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordlista] (https://planb.academy/fr/resources/glossary/payjoin)
+- [Ordlista](https://planb.academy/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordlista] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Ordlista](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Skapa ditt konto] (https://app.bullbitcoin.com/registration/orangepeel) med 0,25% rabatt på Bitcoin inköp och försäljning.
+[Skapa ditt konto](https://app.bullbitcoin.com/registration/orangepeel) med 0,25% rabatt på Bitcoin inköp och försäljning.
 
 
 

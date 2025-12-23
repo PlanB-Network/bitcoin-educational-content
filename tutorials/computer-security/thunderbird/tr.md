@@ -42,7 +42,7 @@ Thunderbird'ü yüklemek için yazılımı [resmi site](https://www.thunderbird.
 
 
 
-Thunderbird'ün belirli bir sürümünü indirmek için [bu sayfa] (https://www.thunderbird.net/an/thunderbird/all/) adresine gidin. Dilinizi, hedef işletim sisteminizi ve işlemci mimarinizi seçin, ardından indirmeyi başlatın.
+Thunderbird'ün belirli bir sürümünü indirmek için [bu sayfa](https://www.thunderbird.net/an/thunderbird/all/) adresine gidin. Dilinizi, hedef işletim sisteminizi ve işlemci mimarinizi seçin, ardından indirmeyi başlatın.
 
 
 

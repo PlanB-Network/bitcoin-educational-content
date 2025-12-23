@@ -1,0 +1,8 @@
+question: Phản hồi thích hợp nhất là gì khi ứng dụng Bitcoin gặp lỗi nhập liệu không hợp lệ, chẳng hạn như nhận được giá trị âm cho một trường chỉ yêu cầu số nguyên dương?
+answer: Từ chối dữ liệu đầu vào và trả về thông báo lỗi cho người gọi.
+wrong_answers:
+  - Chuyển đổi giá trị âm thành giá trị tuyệt đối và tiếp tục xử lý.
+  - Ghi lại lỗi nhưng vẫn tiếp tục thao tác bằng giá trị mặc định.
+  - Hãy tắt toàn bộ ứng dụng ngay lập tức để tránh làm hỏng dữ liệu.
+explanation: |
+  Lỗi nhập liệu không hợp lệ thể hiện sự vi phạm hợp đồng giữa người gọi và hàm, trong đó các tham số được cung cấp không đáp ứng yêu cầu của hàm. Cách tiếp cận đúng là từ chối đầu vào và trả về chỉ báo lỗi, cho phép người gọi xử lý tình huống một cách thích hợp. Việc chuyển đổi các giá trị âm thành giá trị dương sẽ âm thầm che giấu lỗi và có thể dẫn đến hành vi không mong muốn. Sử dụng các giá trị mặc định sẽ bỏ qua ý định của người gọi và có thể xử lý dữ liệu không chính xác. Việc chấm dứt toàn bộ ứng dụng là quá mức cần thiết đối với các lỗi xác thực đầu vào và sẽ tạo ra trải nghiệm người dùng kém trong các ứng dụng Bitcoin, nơi việc xử lý lỗi một cách khéo léo là rất quan trọng.

@@ -1,0 +1,8 @@
+question: Wat is het fundamentele mechanisme dat RC in staat stelt om meervoudig eigendom toe te staan met behoud van geheugenveiligheid?
+answer: Een interne teller die referenties bijhoudt en alleen geheugen vrijmaakt als de teller nul bereikt
+wrong_answers:
+  - Een compileeranalyse die alle referentiepatronen controleert voordat het programma wordt uitgevoerd
+  - Een afvalverzamelaar die periodiek onbereikbare geheugentoewijzingen scant en opruimt
+  - Een lock-gebaseerd systeem dat toegang synchroniseert tussen meerdere eigenaren van dezelfde gegevens
+explanation: |
+  RC houdt een interne referentieteller bij die verhoogt wanneer er gekloond wordt en verlaagt wanneer het wordt verwijderd, zodat geheugen alleen wordt vrijgegeven wanneer er geen referenties meer over zijn. Dit verschilt van compileer-tijd analyse (die Box gebruikt), afvalverzameling (die Rust niet gebruikt) of vergrendelmechanismen (die gebruikt worden voor synchronisatie van threads, niet voor het bijhouden van eigendom). De op tellers gebaseerde aanpak maakt veilig gedeeld eigendom mogelijk zonder de runtime overhead van vuilnisophaling of de beperkingen van enkelvoudig eigendom.

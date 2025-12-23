@@ -1,0 +1,8 @@
+question: Jakou proměnnou prostředí lze nastavit, aby se při výskytu paniky v Rust zobrazil kompletní sled zásobníku volání?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE je správná proměnná prostředí, která poskytuje další informace pro ladění tím, že zobrazuje kompletní zásobník volání, který vedl k panice. To pomáhá vývojářům přesně vysledovat, která posloupnost volání funkcí vedla k chybě. Ostatní možnosti (RUST_STACKTRACE, RUST_DEBUG_TRACE a RUST_PANIC_TRACE) nejsou platnými proměnnými prostředí Rust a při výskytu paniky neposkytnou žádný výstup pro ladění.

@@ -324,7 +324,7 @@ Bu değişiklik, her Tx0 için oluşturulan bir UTXO'e karşılık gelir. Diğer
 
 
 
-- Ön ödemeli hediye kartları veya Visa kartları satın alın:** [Bitrefill] (https://www.bitrefill.com/) gibi platformlar, bitcoinlerinizi mağazalarda kullanılabilecek hediye kartları veya yeniden yüklenebilir Visa kartları ile değiştirmenize olanak tanır. Bu, toksik UTXO'larınızı harcamak için basit ve gizli bir yol olabilir.
+- Ön ödemeli hediye kartları veya Visa kartları satın alın:** [Bitrefill](https://www.bitrefill.com/) gibi platformlar, bitcoinlerinizi mağazalarda kullanılabilecek hediye kartları veya yeniden yüklenebilir Visa kartları ile değiştirmenize olanak tanır. Bu, toksik UTXO'larınızı harcamak için basit ve gizli bir yol olabilir.
 
 
 

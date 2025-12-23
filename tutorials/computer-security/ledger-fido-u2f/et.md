@@ -46,7 +46,7 @@ Enne alustamist veenduge, et olete oma Bitcoin Wallet seadistanud Ledger-l. Olul
 
 
 
-Rakenduse installimiseks avage tarkvara [Ledger Live] (https://www.Ledger.com/Ledger-live), seejärel minge vahekaardile "*My Ledger*". Leidke rakendus "*Security Key*" ja installige see oma seadmesse.
+Rakenduse installimiseks avage tarkvara [Ledger Live](https://www.Ledger.com/Ledger-live), seejärel minge vahekaardile "*My Ledger*". Leidke rakendus "*Security Key*" ja installige see oma seadmesse.
 
 
 

@@ -12,7 +12,7 @@ _Bu eğitim_ [Bitcoin Kampüsü](https://linktr.ee/bitcoincampus_) tarafından y
 
 ## Sats.Mobi
 
-SatsMobi, Telegram üzerinde çalışan bir Wallet'tir ve bir Lightning Network (gözetim) Wallet'in tüm işlevlerinin yanı sıra bir dizi çok eğlenceli özelliğe sahiptir. Artık kullanılmayan LightningTipBot'un bir Fork'sından ortaya çıkmış, tüm özelliklerini miras alırken daha güncel olanları ekleyerek daha modern hale getirmiştir. LNTipBot gibi Sats.Mobi de açık kaynak felsefesini benimsemektedir. Wallet, bu [depodan] (https://github.com/massmux/SatsMobiBot) klonlanarak bağımsız olarak yapılandırılabilir ve yönetilebilir.
+SatsMobi, Telegram üzerinde çalışan bir Wallet'tir ve bir Lightning Network (gözetim) Wallet'in tüm işlevlerinin yanı sıra bir dizi çok eğlenceli özelliğe sahiptir. Artık kullanılmayan LightningTipBot'un bir Fork'sından ortaya çıkmış, tüm özelliklerini miras alırken daha güncel olanları ekleyerek daha modern hale getirmiştir. LNTipBot gibi Sats.Mobi de açık kaynak felsefesini benimsemektedir. Wallet, bu [depodan](https://github.com/massmux/SatsMobiBot) klonlanarak bağımsız olarak yapılandırılabilir ve yönetilebilir.
 
 
 Basitçe kullanmayı tercih ederseniz, Telegram'da bir sohbet başlatmak bunun bir bot olduğunu ortaya çıkaracaktır.
@@ -20,7 +20,7 @@ Basitçe kullanmayı tercih ederseniz, Telegram'da bir sohbet başlatmak bunun b
 
 ## Ayarlar
 
-Telegram arama çubuğundan "satsmobi" yi arayın ve [bot] (@SatsMobiBot) bağlantısı görünecektir.
+Telegram arama çubuğundan "satsmobi" yi arayın ve [bot](@SatsMobiBot) bağlantısı görünecektir.
 
 
 **Dikkat**: Telegram üzerinden arama yapmaktan emin değilseniz, aşağıdaki [link](https://t.me/SatsMobiBot) adresini kullanarak bota güvenli bir şekilde erişin

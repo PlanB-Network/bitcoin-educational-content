@@ -1,0 +1,8 @@
+question: "Quel est le compromis le plus important en matière de protection de la vie privée lorsque l'on passe d'une mise en œuvre autogérée du LDK à l'architecture en nuage du SDK Breez ?"
+answer: "Greenlight bénéficie d'une visibilité potentielle sur les destinations des paiements et les activités de génération de factures grâce à un routage basé sur le cloud"
+wrong_answers:
+  - "Les clés privées sont stockées sur les serveurs de Blockstream au lieu d'être stockées localement sur l'appareil de l'utilisateur"
+  - "Les informations sur l'état des canaux deviennent publiquement visibles sur le graphe Lightning Network par l'intermédiaire des nœuds Greenlight"
+  - "Les services FSL peuvent désormais contrôler toutes les transactions on-chain et les relier aux schémas de paiement Lightning"
+explanation: |
+  La bonne réponse identifie la principale dégradation de la confidentialité : le routage basé sur le nuage permet à Greenlight d'observer potentiellement les destinations de paiement, tandis que la génération de factures sur le nuage étend l'exposition à l'information au-delà de ce que les architectures traditionnelles basées uniquement sur les prestataires de services linguistiques ont révélé. Les mauvaises réponses sont incorrectes parce que : les clés privées restent sous le contrôle de l'utilisateur malgré l'architecture en nuage ; les états des canaux ne sont pas rendus publiquement visibles par le routage ; et les PSL n'acquièrent pas de capacités supplémentaires de surveillance des transactions on-chain grâce à ce changement d'architecture.

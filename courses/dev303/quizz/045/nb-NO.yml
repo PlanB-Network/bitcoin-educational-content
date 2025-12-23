@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med Rusts funksjonelle programmeringsfunksjoner som opprettholder nullkostnadsabstraksjoner?
+answer: De produserer effektiv maskinkode som kan sammenlignes med tradisjonelle sløyfebaserte metoder, uten at det går på bekostning av ytelsen
+wrong_answers:
+  - De håndterer automatisk allokering og deallokering av minne for å unngå overhead på kjøretiden helt
+  - De eliminerer behovet for typekontroll ved kompileringstidspunktet, samtidig som sikkerhetsgarantiene opprettholdes
+  - De tilbyr søppeloppsamlingsfunksjonalitet som kjører uten å påvirke hastigheten på programutførelsen
+explanation: |
+  Nullkostnadsabstraksjoner i Rusts funksjonelle programmeringsfunksjoner betyr at bruk av closures og iteratorer ikke går på bekostning av ytelse. Rust-kompilatoren optimaliserer disse høynivåkonstruksjonene for å produsere maskinkode som fungerer like bra som håndskrevne tradisjonelle løkker. Dette gjør det mulig for utviklere å skrive mer uttrykksfull og lesbar kode uten å måtte betale for dårligere ytelse under kjøring, noe som er et kjerneprinsipp i Rusts designfilosofi.

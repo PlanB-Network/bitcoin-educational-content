@@ -1,0 +1,8 @@
+question: Kuna tofauti gani kuu kati ya jinsi ukiukwaji wa mikopo unavyoshughulikiwa kwa marejeleo ya kawaida ya Rust dhidi ya RefCell?
+answer: Marejeleo ya kawaida husababisha hitilafu za muda wa kukusanya huku RefCell ikisababisha hofu ya wakati wa utekelezaji
+wrong_answers:
+  - Marejeleo ya kawaida husababisha hofu ya wakati wa utekelezaji huku RefCell ikisababisha makosa ya wakati wa kukusanya
+  - Marejeleo ya kawaida huruhusu mikopo mingi inayoweza kubadilishwa huku RefCell ikitekeleza ufikiaji mmoja unaoweza kubadilishwa
+  - Marejeleo ya kawaida yanahitaji maelezo dhahiri ya maisha yote huku RefCell ikitumia usafishaji otomatiki
+explanation: |
+  RefCell huhamisha utekelezaji wa sheria za kukopa za Rust kutoka wakati wa kukusanya hadi wakati wa utekelezaji. Ingawa mkusanyaji huchambua marejeleo ya kawaida kihalisia na kuzuia ukiukaji wa kukopa kabla ya programu kuendeshwa, RefCell hufanya ukaguzi huu wa usalama wakati wa utekelezaji wa programu. Hii inaruhusu RefCell kupita vikwazo vya kihafidhina vya mkusanyaji katika hali ambapo msanidi programu anajua msimbo ni salama, lakini ukiukaji husababisha hofu ya wakati wa utekelezaji badala ya kushindwa kwa mkusanyiko.

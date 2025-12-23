@@ -104,7 +104,7 @@ Pro stažení přejděte na [oficiální webové stránky Manjaro](https://manja
 
 
 
-Pak přejděte na webovou stránku softwaru [Rufus] (https://rufus.ie/fr/) a stáhněte si ji. Spusťte program, připojte klíč USB, vyberte obraz ISO Manjaro a spusťte flashování. Před vyjmutím klíče počkejte na dokončení procesu. Poté můžete restartovat počítač.
+Pak přejděte na webovou stránku softwaru [Rufus](https://rufus.ie/fr/) a stáhněte si ji. Spusťte program, připojte klíč USB, vyberte obraz ISO Manjaro a spusťte flashování. Před vyjmutím klíče počkejte na dokončení procesu. Poté můžete restartovat počítač.
 
 
 

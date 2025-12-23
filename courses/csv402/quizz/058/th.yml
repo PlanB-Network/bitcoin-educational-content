@@ -1,0 +1,9 @@
+question: curl -X POST /issueassetnia สามารถทำอะไรได้บน RLN?
+answer: สร้างสินทรัพย์ RGB ที่สามารถแลกเปลี่ยนได้และไม่เกิดเงินเฟ้อใหม่
+wrong_answers:
+  - สร้างสินทรัพย์ RGB แบบ non-fungible ใหม่
+  - สร้างสินทรัพย์ RGB แบบเงินเฟ้อที่สามารถทดแทนได้ใหม่
+  - สร้างสินทรัพย์ RGB แบบกึ่งเปลี่ยนได้ใหม่
+explanation: |
+  คำสั่ง "/issueassetnia" ใช้เพื่อออก RGB NIA ("Non Inflatable Asset") token ใหม่
+reviewed: false

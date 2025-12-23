@@ -5,5 +5,5 @@ wrong_answers:
   - 100,000
   - 10,000
 explanation: |
-  Той [пише](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), че възможността за генериране на единици днес с няколко цента изчислително време може да бъде много добър залог.
+  Той [пише](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), че възможността за генериране на единици днес с няколко цента изчислително време може да бъде много добър залог.
 reviewed: true

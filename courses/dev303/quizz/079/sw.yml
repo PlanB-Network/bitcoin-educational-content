@@ -1,0 +1,8 @@
+question: Kuna tofauti gani kuu kati ya jinsi hofu na Matokeo vinavyoshughulikia urejeshaji wa hitilafu katika programu za Rust?
+answer: Hofu husimamisha utekelezaji mara moja na haiwezi kurejeshwa, huku Matokeo yakiruhusu wapigaji simu kushughulikia hitilafu kwa uzuri
+wrong_answers:
+  - Panic hutoa taarifa za kina kuhusu hitilafu huku Matokeo yakionyesha tu mafanikio au kushindwa bila muktadha
+  - Hofu ni salama kwa nyuzi na inaweza kushughulikiwa katika nyuzi mbalimbali, huku hitilafu za matokeo zikiwekwa kwenye nyuzi moja tu.
+  - Hofu hurekodi makosa kiotomatiki kwenye mfumo huku Matokeo yakihitaji kumbukumbu na kuripoti makosa kwa mikono
+explanation: |
+  Hofu inawakilisha makosa yasiyoweza kurejeshwa ambayo husitisha utekelezaji mara moja kupitia kufungua au kukatiza, na kufanya iwe vigumu kwa msimbo wa kupiga simu kushughulikia hitilafu na kuendelea. Matokeo yake, kama enum iliyo na Ok(thamani) au Err(kosa), huwalazimisha wapigaji simu kutambua hitilafu zinazoweza kutokea na kuchagua jinsi ya kujibu - iwe kwa kushughulikia hitilafu, kutoa chaguo-msingi, au kuieneza kwenye rundo la simu. Tofauti hii ya msingi hufanya Matokeo kuwa chaguo linalopendelewa kwa makosa yanayoweza kurejeshwa katika msimbo wa uzalishaji, huku hofu ikipaswa kutengwa kwa hali au matukio ya maendeleo ambayo hayawezi kurejeshwa.

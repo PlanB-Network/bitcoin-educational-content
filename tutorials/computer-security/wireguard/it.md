@@ -282,7 +282,7 @@ Per il momento, lasceremo da parte la configurazione del lato server di WireGuar
 
 
 
-Affinché la nostra macchina Debian 11 sia in grado di **indirizzare i pacchetti tra reti diverse (come un router)**, cioè tra la rete VPN e la rete locale, è necessario abilitare [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Per impostazione predefinita, questa funzione è disabilitata.
+Affinché la nostra macchina Debian 11 sia in grado di **indirizzare i pacchetti tra reti diverse (come un router)**, cioè tra la rete VPN e la rete locale, è necessario abilitare [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Per impostazione predefinita, questa funzione è disabilitata.
 
 
 

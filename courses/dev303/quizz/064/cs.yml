@@ -1,0 +1,8 @@
+question: V čem je systém typů Rust obzvláště účinný při prevenci zranitelností souvisejících s pamětí v aplikacích Bitcoin?
+answer: Systém typů zvládá modelování obchodní logiky i kontrolu vlastnictví paměti prostřednictvím stejného mechanismu
+wrong_answers:
+  - Překladač automaticky generuje procedury alokace paměti, které zabraňují útokům typu buffer overflow
+  - Statické typování vyžaduje, aby všechny adresy paměti byly deklarovány v době kompilace, nikoli za běhu
+  - Silné typování převádí všechny operace s ukazateli na bezpečnou kontrolu hranic pole během provádění
+explanation: |
+  Typový systém Rust je jedinečný, protože slouží dvojímu účelu - modeluje složitou obchodní logiku a zároveň řídí bezpečnost paměti prostřednictvím vlastnictví, výpůjček a počítání referencí. Tato integrace znamená, že stejná typová kontrola, která zajišťuje správnou logiku programu, také eliminuje úniky paměti, chyby bez dvojího zápisu a závodní podmínky v době kompilace. Špatné odpovědi popisují mechanismy, které v Rust neexistují: překladač neprovádí automatické alokační rutiny generate, adresy paměti nejsou vyžadovány jako konstanty v době kompilace a bezpečnost ukazatelů vychází z pravidel vlastnictví, nikoli z kontroly hranic za běhu.

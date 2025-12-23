@@ -1,0 +1,8 @@
+question: Qual é a diferença crítica entre o design da camada de persistência do LDK e o gerenciamento de dados tradicional do Lightning node que permite flexibilidade de implantação entre plataformas?
+answer: O LDK fornece blobs de dados binários abstractos para armazenamento, enquanto as aplicações implementam os seus próprios mecanismos de armazenamento
+wrong_answers:
+  - O LDK utiliza bases de dados SQL padronizadas, enquanto os nós tradicionais requerem implementações de sistemas de ficheiros personalizados
+  - O LDK sincroniza automaticamente os dados em várias plataformas, enquanto os nós tradicionais armazenam os dados apenas localmente
+  - O LDK criptografa todos os dados de persistência por padrão, enquanto os nós tradicionais dependem da criptografia no nível do aplicativo
+explanation: |
+  A camada de persistência do LDK abstrai o armazenamento, fornecendo aos aplicativos blobs de dados binários serializados que devem ser armazenados e recuperados de forma confiável, enquanto lida internamente com toda a complexidade da serialização dos estados do canal Lightning e dos dados de rede. Isso permite que os aplicativos escolham qualquer solução de armazenamento (sistemas de arquivos, armazenamento em nuvem, bancos de dados) que corresponda aos requisitos de sua plataforma. Os nós tradicionais do Lightning geralmente implementam seus próprios sistemas de gerenciamento de dados específicos vinculados a mecanismos de armazenamento específicos, tornando-os menos flexíveis em diferentes ambientes de implantação.

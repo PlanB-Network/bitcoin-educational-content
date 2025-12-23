@@ -1,0 +1,8 @@
+question: Wat doet de unwrap methode als deze wordt aangeroepen op een Result type in Rust?
+answer: Extraheert de succeswaarde maar raakt in paniek als er een fout optreedt
+wrong_answers:
+  - Geeft Geen terug als er een fout optreedt en Enkele als het gelukt is
+  - Zet de fout om in een waarschuwingsbericht en gaat verder met de uitvoering
+  - Geeft de fout automatisch door aan de aanroepende functie
+explanation: |
+  De unwrap methode haalt de succeswaarde uit een Result, maar zorgt ervoor dat het programma in paniek raakt als er een fout optreedt. Dit maakt het nuttig voor snelle prototyping of situaties waarin je er zeker van bent dat een bewerking zal slagen. De andere opties beschrijven ander gedrag: het retourneren van None/Some beschrijft Optie types, het converteren van fouten naar waarschuwingen is geen standaard Rust patroon, en automatische foutvoortplanting is wat de vraagteken operator (?) doet, niet unwrap.

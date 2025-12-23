@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med å bruke map()- og map_err()-metodene på Result-typer sammenlignet med tradisjonelle try-catch-feilhåndteringsmønstre?
+answer: De tillater funksjonell kjeding av operasjoner, samtidig som feilhåndteringen skjer i nærheten av de operasjonene som kan mislykkes
+wrong_answers:
+  - De konverterer automatisk alle feiltyper til strengmeldinger for enklere feilsøking og brukervisning
+  - De eliminerer behovet for spørsmålstegnoperatoren ved å tilby innebygde mekanismer for feilforplantning
+  - De forhindrer panikktilstander ved å pakke alle potensielt feilende operasjoner inn i sikre Result-containere
+explanation: |
+  Metodene map() og map_err() muliggjør feilhåndtering i funksjonell stil, der du kan kjede operasjoner og transformere verdier eller feil rett der de oppstår. Dette holder feilhåndteringslogikken nær operasjonene som kan mislykkes, i motsetning til try-catch-blokker der feilhåndteringen er adskilt fra de faktiske operasjonene. De andre alternativene er feil: map-metoder konverterer ikke feil til strenger (det er anyhow sin rolle), de fungerer ved siden av spørsmålstegnoperatoren i stedet for å erstatte den, og de forhindrer ikke panikk, men gir strukturert feilhåndtering for Results.

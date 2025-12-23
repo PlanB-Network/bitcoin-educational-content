@@ -599,7 +599,7 @@ Uma vez que a Bitcoin funciona como um meio de troca, é possível imaginar uma 
 
 Trata-se de ganhar prémios com a exploração de máquinas mineiras. Para as empresas não especializadas, esta atividade continua a ser relativamente marginal. Pode participar através de intermediários que lhe venderão ou alugarão o computador, a rede e a manutenção. Se for proprietário das máquinas, pode contabilizá-las como activos depreciáveis. Em grande escala, será necessário calcular cuidadosamente o retorno do investimento, porque o mercado é altamente competitivo e exige uma boa antecipação dos custos, em particular da eletricidade.
 
-Para saber mais sobre os métodos de exploração mineira, pode [consultar a secção "exploração mineira" nos nossos tutoriais] (https://planb.academy/tutorials/mining).
+Para saber mais sobre os métodos de exploração mineira, pode [consultar a secção "exploração mineira" nos nossos tutoriais](https://planb.academy/tutorials/mining).
 
 
 - **Comprar Bitcoin:**
@@ -612,7 +612,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Para saber mais sobre os métodos de aquisição de bitcoins através de uma bolsa ou peer-to-peer, pode [consultar a secção "bolsa" nos nossos tutoriais] (https://planb.academy/tutorials/exchange).
+Para saber mais sobre os métodos de aquisição de bitcoins através de uma bolsa ou peer-to-peer, pode [consultar a secção "bolsa" nos nossos tutoriais](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/pt/012.webp)
 
@@ -930,7 +930,7 @@ Se estiver pronto para pôr as mãos na massa e quiser ter controlo total sobre 
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Finalmente, como complemento aos pontos de venda físicos, pode considerar a possibilidade de criar [um Bitcoinize PoS] (https://bitcoinize.com/).
+Finalmente, como complemento aos pontos de venda físicos, pode considerar a possibilidade de criar [um Bitcoinize PoS](https://bitcoinize.com/).
 
 ## O profissional
 

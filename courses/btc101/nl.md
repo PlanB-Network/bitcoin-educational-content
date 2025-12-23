@@ -83,7 +83,6 @@ Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 ## De Voorgeschiedenis Van Bitcoin
 
@@ -203,7 +202,7 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 
 Geld evolueert tot op de dag van vandaag en past zijn vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in commercie, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Anderzijds opent Bitcoin nieuwe perspectieven. Zijn eigenschappen, met name een strikt beperkt aanbod, maken het tot een uitstekende waardeopslag. Bovendien vormt het, als neutrale internetvaluta, een levensvatbaar **ruilmiddel** dat grenzen kan overstijgen. Desondanks wordt het, ondanks een voortdurende adoptie (zoals geïllustreerd door [de BTCmap-kaart](https://btcmap.org/map)), vandaag de dag nog niet breed geaccepteerd in de handel.
 
 ## Fiduciaire valuta's
 
@@ -391,7 +390,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 

@@ -143,8 +143,8 @@ https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Присъединете се към основния канал: [@p2plightning] (https://t.me/p2plightning)
-- Подкрепа: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Присъединете се към основния канал: [@p2plightning](https://t.me/p2plightning)
+- Подкрепа: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)
 
 
 ## Купуване и продажба на биткойни
@@ -380,4 +380,4 @@ Lnp2pbot има няколко предимства и недостатъци п
 - Официален уебсайт: https://lnp2pbot.com/
 - Документация: https://lnp2pbot.com/learn/
 - GitHub: https://github.com/lnp2pBot/bot
-- Подкрепа: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Подкрепа: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)

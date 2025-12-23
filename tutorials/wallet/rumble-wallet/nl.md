@@ -285,7 +285,7 @@ Op dezelfde manier kun je je bitcoins verkopen voor euro's, dollars of een ander
 ## 7. Een schepper tippen op Rumble
 
 
-Zoals vermeld in de inleiding, is Rumble Wallet perfect geïntegreerd met [het Rumble videoplatform] (https://rumble.com/). Hierdoor kun je eenvoudig tips in Bitcoin of USDT naar je favoriete makers sturen, zonder tussenkomst van tussenpersonen.
+Zoals vermeld in de inleiding, is Rumble Wallet perfect geïntegreerd met [het Rumble videoplatform](https://rumble.com/). Hierdoor kun je eenvoudig tips in Bitcoin of USDT naar je favoriete makers sturen, zonder tussenkomst van tussenpersonen.
 
 
 Hiervoor moet je de functie ***Tip Jars*** activeren. Klik op de startpagina van Rumble Wallet op de knop "*Activeer Tip Jars*".

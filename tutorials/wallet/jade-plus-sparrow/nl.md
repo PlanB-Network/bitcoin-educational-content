@@ -464,7 +464,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 In deze tutorial presenteer ik een geavanceerd gebruik van Jade Plus met Sparrow wallet. Deze Hardware Wallet is echter compatibel met vele andere programma's, zoals Liana, Nunchuk, Specter, Green en Keeper. Deze compatibiliteit varieert in termen van verbindingen: USB, Bluetooth of QR-code (zie de tabel in de inleiding voor details).
 
 
-Begin met het downloaden en installeren van Sparrow wallet [van de officiële website] (https://sparrowwallet.com/) op je computer, als je dat nog niet hebt gedaan.
+Begin met het downloaden en installeren van Sparrow wallet [van de officiële website](https://sparrowwallet.com/) op je computer, als je dat nog niet hebt gedaan.
 
 
 ![Image](assets/fr/50.webp)

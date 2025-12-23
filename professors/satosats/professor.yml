@@ -1,6 +1,10 @@
 id: 61afe93a-6e69-4846-a71f-c96e69f7a805
 name: Sato Sats
 
+links:
+  nostr: npub10mw4vdhyru8ejj28kv7vm4f7a62mrj9w3ag8j4pa4sl025fa2s4qyzxlk9
+  website: https://www.bitvero.it/
+
 tips:
   lightning_address: globalgibbon83@phoenixwallet.me
 

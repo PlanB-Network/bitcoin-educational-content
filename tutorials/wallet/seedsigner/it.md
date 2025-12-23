@@ -49,7 +49,7 @@ Per costruire SeedSigner, sono necessari i seguenti componenti:
 
 - Raspberry Pi Zero
     - Si consiglia la versione 1.3, che non dispone né di Wi-Fi né di Bluetooth, garantendo un isolamento completo.
- - Anche le versioni W e v2 sono compatibili, ma incorporano un chip Wi-Fi/Bluetooth. È quindi consigliabile disattivarlo fisicamente rimuovendo il modulo radio dalla scheda. L'operazione è relativamente semplice, ma richiede precisione (per la Zero W sono sufficienti pinze sottili, mentre per la v2 è necessaria una penna a caldo per rimuovere la piastra metallica che nasconde il modulo). Non entrerò nei dettagli in questo tutorial, ma troverete tutte le istruzioni in questo documento: *[Disabilitazione WiFi/Bluetooth via hardware] (https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
+ - Anche le versioni W e v2 sono compatibili, ma incorporano un chip Wi-Fi/Bluetooth. È quindi consigliabile disattivarlo fisicamente rimuovendo il modulo radio dalla scheda. L'operazione è relativamente semplice, ma richiede precisione (per la Zero W sono sufficienti pinze sottili, mentre per la v2 è necessaria una penna a caldo per rimuovere la piastra metallica che nasconde il modulo). Non entrerò nei dettagli in questo tutorial, ma troverete tutte le istruzioni in questo documento: *[Disabilitazione WiFi/Bluetooth via hardware](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
  - Attenzione: alcuni modelli di Raspberry Pi Zero vengono venduti senza pin GPIO pre-saldati. È possibile acquistare una versione con pin integrati direttamente (soluzione più semplice), oppure acquistare i pin separatamente e saldarli da soli (soluzione più complessa).
  - Non dimenticate di includere un alimentatore micro-USB.
 
@@ -207,7 +207,7 @@ Il risultato atteso è un `OK` accanto al file `.img`. Questo conferma che l'imm
 
 
 
-Su Windows, la procedura è simile ma i comandi sono diversi. Iniziare installando [Gpg4win] (https://www.gpg4win.org/) e aprire l'applicazione *Kleopatra*. Importare la chiave pubblica del progetto SeedSigner dall'URL Keybase :
+Su Windows, la procedura è simile ma i comandi sono diversi. Iniziare installando [Gpg4win](https://www.gpg4win.org/) e aprire l'applicazione *Kleopatra*. Importare la chiave pubblica del progetto SeedSigner dall'URL Keybase :
 
 
 
@@ -289,7 +289,7 @@ L'esito positivo della verifica garantisce che il file `.img' è autentico (firm
 
 
 
-Se non lo si possiede già, scaricare il software [Balena Etcher] (https://etcher.balena.io/), quindi :
+Se non lo si possiede già, scaricare il software [Balena Etcher](https://etcher.balena.io/), quindi :
 
 
 

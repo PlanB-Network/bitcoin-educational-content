@@ -1,0 +1,9 @@
+question: นักเศรษฐศาสตร์คนใดกล่าวในปี 1999 ว่าสิ่งเดียวที่ขาดหายไป แต่จะถูกพัฒนาในไม่ช้าคือเงินสดอิเล็กทรอนิกส์ที่เชื่อถือได้?
+answer: มิลตัน ฟรีดแมน
+wrong_answers:
+  - ฟรีดริช ฮาเย็ค
+  - เมอร์เรย์ รอธบาร์ด
+  - พอล ครุกแมน
+explanation: |
+  ผู้ชนะรางวัลโนเบลสาขาเศรษฐศาสตร์และผู้ก่อตั้ง Chicago School เขาได้ทำการทำนายนี้ที่ไมโครโฟนของ National Taxpayers Union Foundation [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: true

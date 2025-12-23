@@ -61,7 +61,7 @@ LNbits за строители: [EN](/assets/lnbits-builders-en.pdf) | [DE](/ass
 # Някои основни положения
 
 
-LNbits работи на базата на протокола LNURL, което означава, че заявките са валидни в две форми: или като https:// clearnet link (не се допускат самоподписани сертификати), или като http:// v2/v3 onion link. За да предлагате услуги на LNbits като LNURLp/w QR кодове или NFC карти, които могат да се използват в реални условия, ще трябва да отворите LNbits за clearnet (https).
+LNbits работи на базата на протокола LNURL, което означава, че заявките са валидни в две форми: или като https://clearnet link (не се допускат самоподписани сертификати), или като http://v2/v3 onion link. За да предлагате услуги на LNbits като LNURLp/w QR кодове или NFC карти, които могат да се използват в реални условия, ще трябва да отворите LNbits за clearnet (https).
 
 
 Преди да инсталирате LNbits, се уверете, че сте прочели и разбрали следните общи указания за това какво представлява LNbits и какви възможности разкрива за вас.
@@ -222,7 +222,7 @@ LNbits може да работи на базата на много източн
 ### IBEX HUB
 
 
-Регистрирайте се [тук] (https://ibexpay.ibexmercado.com/onboard), след което получете ключовете/токените си оттам, крайната точка е https://ibexpay-api.ibexmercado.com.
+Регистрирайте се [тук](https://ibexpay.ibexmercado.com/onboard), след което получете ключовете/токените си оттам, крайната точка е https://ibexpay-api.ibexmercado.com.
 
 Повече информация вижте в [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
@@ -604,7 +604,7 @@ LNbits разполага с всякакви [отворени API](https://leg
 ### ВАЖНО:
 
 
-- LNbits работи на базата на протокола LNURL, чиито заявки са валидни в две форми: или като https:// clearnet link (не се допускат самоподписани сертификати), или като http:// v2/v3 onion link. За да предлагате услуги на LNbits като LNURLp/w QR кодове или NFC карти, които могат да се използват в природата, ще трябва да отворите LNbits към clearnet (https).
+- LNbits работи на базата на протокола LNURL, чиито заявки са валидни в две форми: или като https://clearnet link (не се допускат самоподписани сертификати), или като http://v2/v3 onion link. За да предлагате услуги на LNbits като LNURLp/w QR кодове или NFC карти, които могат да се използват в природата, ще трябва да отворите LNbits към clearnet (https).
 - Използвайте само DATA-кабели за захранване на вашия esp32. Не всички кабели поддържат данни в допълнение към захранването на esp. Няма да сте първият, ако кабелът, доставен с esp, е само захранващ
 - Уверете се, че не използвате USB-Hub със свързани други устройства. Това може да доведе до странни ефекти, които са трудни за отстраняване (напр. не стартиране или спиране).
 - За да реализирате проектите esp с MacOS, ще ви е необходим драйвер за мост UART. Ако имате проблеми с драйвера на Mac или Linux системи, можете да намерите тези тук или, ако става въпрос за TTGO Display, този. Ако сте на Windows и имате проблеми със свързването, не забравяйте да изтеглите СТАРАТА версия 11.1.0, защото по-новата не работи! Можете също така да намерите сериен терминал тук, за да проверите връзката си - задайте скорост на предаване 115200.
@@ -628,15 +628,15 @@ LNbits разполага с всякакви [отворени API](https://leg
 
 
 - [Устройство за подписване Nostr](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
-- [Archade Machine] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
+- [Archade Machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
 - [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
-- [Nostr Zap Lamp] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
+- [Nostr Zap Lamp](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
 - [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
 - [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
-- [Светкавично прасенце] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
+- [Светкавично прасенце](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
 - [Hardware Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
-- [Превключвател Bitcoin] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
-- [Автомат за продажба] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
+- [Превключвател Bitcoin](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
+- [Автомат за продажба](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
 - [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
 - [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
 - [Bitcoin Ticker](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker)

@@ -1,0 +1,8 @@
+question: Vilken makromönstersyntax skulle korrekt matcha noll eller flera uttryck åtskilda av kommatecken i ett anpassat funktionsliknande makro?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Den korrekta syntaxen $($x:expr),* använder Rust:s upprepningsmönster där dollartecknet introducerar en upprepningsgrupp, $x:expr matchar varje uttryck med expr-fragmentspecifikationen, kommatecknet fungerar som separator mellan uttryck och asterisken (*) anger noll eller fler upprepningar. De felaktiga svaren innehåller syntaxfel: $($x:expr)*, placerar kommatecknet utanför repetitionsgruppen, $[x:expr],* använder hakparenteser i stället för parenteser och utelämnar dollartecknet före x, och ${$x:expr},* använder hakparenteser i stället för parenteser för repetitionsgruppen.

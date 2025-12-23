@@ -54,8 +54,8 @@ Wallet er i stadig utvikling, så ikke bli overrasket hvis du finner avvik mello
 
 
 
-- Fra og med 19.07.2025 er for eksempel **"Kjøp / Selg / Betal"**-knappene synlige, men nedtonet i applikasjonen, ettersom disse alternativene, som er tilgjengelige på Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel), snart vil bli integrert for en enhetlig opplevelse. Bruken av dem vil forbli helt valgfri. Mange andre utviklinger er i gang eller planlagt: multi-Wallet-administrasjon, passphrase, kompatibilitet med maskinvarelommebøker ...
-- På [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49) kan du sjekke ut aktuelle emner og kommende utvikling. Siden prosjektet er 100 % åpen kildekode og "bygget i offentligheten", kan du også sende oss forslag og eventuelle feil du støter på.
+- Fra og med 19.07.2025 er for eksempel **"Kjøp / Selg / Betal"**-knappene synlige, men nedtonet i applikasjonen, ettersom disse alternativene, som er tilgjengelige på Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), snart vil bli integrert for en enhetlig opplevelse. Bruken av dem vil forbli helt valgfri. Mange andre utviklinger er i gang eller planlagt: multi-Wallet-administrasjon, passphrase, kompatibilitet med maskinvarelommebøker ...
+- På [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) kan du sjekke ut aktuelle emner og kommende utvikling. Siden prosjektet er 100 % åpen kildekode og "bygget i offentligheten", kan du også sende oss forslag og eventuelle feil du støter på.
 
 
 
@@ -85,8 +85,8 @@ Før du begynner å bruke **Bull Bitcoin Mobile**, må du sørge for at du har f
 
 - Last ned søknaden:
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Last ned fra applikasjonsbutikken for Android-enheter**
-- [GitHub] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Last ned APK for Android-enheter direkte**
-- [iOS] (https://testflight.apple.com/join/FJbE4JPN) **Last ned via TestFlight for Apple-enheter**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Last ned APK for Android-enheter direkte**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Last ned via TestFlight for Apple-enheter**
  - Sjekk utviklerens navn (Bull Bitcoin) for å unngå falske applikasjoner.
  - Kontroller at den nedlastede versjonen samsvarer med den siste stabile versjonen som er angitt på GitHub.
  - Bull Bitcoin Mobile er **åpen kildekode**. For å se koden: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -179,7 +179,7 @@ Wallet BullBitcoin kobles som standard til Electrum-servere: den første adminis
 
 
 
-For større konfidensialitet kan du koble applikasjonen til din egen Bitcoin-node via en Electrum-server (instruksjoner er tilgjengelige på [BullBitcoins GitHub] (https://github.com/orgs/SatoshiPortal/projects/49) ).
+For større konfidensialitet kan du koble applikasjonen til din egen Bitcoin-node via en Electrum-server (instruksjoner er tilgjengelige på [BullBitcoins GitHub](https://github.com/orgs/SatoshiPortal/projects/49) ).
 
 
 
@@ -914,7 +914,7 @@ Siden "Innstillinger" kan åpnes direkte fra Bull Bitcoin-applikasjonens startsi
 
 
 
-- **Github-tilgang**: Lenke til [Bull Bitcoin Github repository] (https://github.com/SatoshiPortal) for å se åpen kildekode eller rapportere problemer.
+- **Github-tilgang**: Lenke til [Bull Bitcoin Github repository](https://github.com/SatoshiPortal) for å se åpen kildekode eller rapportere problemer.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordliste] (https://planb.academy/fr/resources/glossary/payjoin)
+- [Ordliste](https://planb.academy/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordliste] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Ordliste](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Opprett konto] (https://app.bullbitcoin.com/registration/orangepeel) med 0,25 % rabatt på kjøp og salg av Bitcoin.
+[Opprett konto](https://app.bullbitcoin.com/registration/orangepeel) med 0,25 % rabatt på kjøp og salg av Bitcoin.
 
 
 

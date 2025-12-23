@@ -1,0 +1,9 @@
+question: Jaký základní princip podle manifestu Cypherpunk Erica Hughese odlišuje cypherpunkery od těch, kteří pouze doufají v ochranu soukromí?
+answer: Cypherpunkeři aktivně píší kód a vytvářejí anonymní systémy, místo aby čekali, až instituce zajistí soukromí
+wrong_answers:
+  - Cypherpunkeři se zaměřují na politické lobbování a právní reformy s cílem zavést práva na soukromí prostřednictvím demokratických procesů
+  - Cypherpunkeři věří ve spolupráci se stávajícími finančními institucemi a v postupné zlepšování jejich ochrany soukromí
+  - Cypherpunkeři upřednostňují vzdělávání veřejnosti o rizicích pro soukromí před vývojem technických řešení
+explanation: |
+  V manifestu se výslovně uvádí, že "cypherpunkeři píší kód", a zdůrazňuje se, že nenacházejí útěchu v nadějích a přáních, ale aktivně zasahují do dění.
+  Hughes tvrdil, že lidé nemohou očekávat, že vlády, korporace nebo jiné velké organizace zaručí soukromí, a proto musí cypherpunkeři sami vytvářet kryptografické systémy. Tento aktivní, technický přístup prostřednictvím vývoje kódu je odlišuje od pasivních přístupů, jako je lobbování, práce v rámci existujících systémů nebo pouhé vzdělávání ostatních bez vytváření konkrétních technologických řešení.

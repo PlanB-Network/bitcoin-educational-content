@@ -1,0 +1,9 @@
+question: Milline poliitiline perekond toetaks kõige tõenäolisemalt poliitikat, mis ühendab üldise tervishoiuteenuste kättesaadavuse erasektori innovatsiooni ja tõhususe mehhanismidega?
+answer: Keskerakondlased, kes pooldavad segasüsteeme, mis tasakaalustavad riiklikke tagatisi ja erasektori panuseid
+wrong_answers:
+  - Sotsialistid, kes seavad esikohale üldise juurdepääsu üksnes riiklike tervishoiusüsteemide kaudu
+  - Libertaarid, kes pooldavad täielikku erastamist ja individuaalset valikut tervishoiuturgudel
+  - Konservatiivid, kes eelistavad eraturgusid minimaalse riikliku sekkumisega kõige haavatavamate inimeste jaoks
+explanation: |
+  Keskerakondlased pooldavad selgesõnaliselt tervishoiusüsteeme, mis tagavad üldise juurdepääsu riigi osaluse kaudu, kuid kaasavad samas erasektori elemente innovatsiooni ja tõhususe tagamiseks.
+  Sotsiaaldemokraadid lükkavad tagasi erasektori osaluse, pidades tervishoiuteenuseid põhiõigusena, mis nõuab avalikku teenust. Libertaarid on täielikult vastu riigi sekkumisele, eelistades turupõhiseid lahendusi. Konservatiivid pooldavad valdavalt erasektori süsteeme, kus riigi roll on minimaalne, mitte aga tasakaalustatud kombineeritud lähenemisviise.

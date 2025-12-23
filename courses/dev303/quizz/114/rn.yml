@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo nyamukuru bwo gucungera umutekano butuma ibikorwa remezo vya Greenlight bidashobora kuronka amahera y’abakoresha naho nyene bifise ama node ya Lightning mu gicu?
+answer: Imfunguruzo z'ibanga ntizigera ziva ku bikoresho vy'abakoresha kandi ibikorwa vyose bisaba gusinya
+wrong_answers:
+  - Amasakoshi y'amasinya menshi afise ibice vy'urufunguzo vyakwiragijwe ku batanga ibicu vyinshi
+  - Ivyuma vy'umutekano vy'ibikoresho bishiramwo amakuru yose imbere y'uko bikoreshwa mu gicu
+  - Amasezerano y'ubwenge apfungiwe n'igihe ahita asubiza amahera iyo umuntu yinjiye ata wemerewe
+explanation: |
+  Breez SDK ibungabunga umutekano biciye mu nyubakwa itagira icizigiro aho imfunguruzo z’ibanga ziguma ku bikoresho vy’abakoresha gusa. Naho Greenlight yakira ibikorwa remezo vy’uruzitiro rwa Lightning, ntishobora gukora ibikorwa vyose ata porogarama ihuye neza ishobora gusinya amafaranga n’ubutumwa. Iyi nzira ituma naho iyo node ikora mu gicu, Greenlight ntiyigera ibona imfunguruzo z’abakoresha kandi ntishobora kwimurira amahera ata ruhusha rw’abakoresha rutomoye biciye ku gikorwa cabo co mu karere. Ayandi mahitamwo adondora uburyo butandukanye bwo gucungera umutekano butakoreshwa muri iyi nyubakwa.

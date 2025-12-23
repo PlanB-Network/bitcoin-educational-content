@@ -1470,7 +1470,7 @@ A complexidade do Mining no contexto do Bitcoin envolve principalmente os factor
 
 5. **Dificuldade da rede**: A dificuldade da rede representa a quantidade de Hashrate em média necessária para minerar um bloco em 10 minutos.
 
-6. **Ferramentas estratégicas**: Ferramentas como [braiins.com] (https://insights.braiins.com) são inestimáveis para calcular a rentabilidade e ajudar os mineiros a tomar decisões baseadas em dados.
+6. **Ferramentas estratégicas**: Ferramentas como [braiins.com](https://insights.braiins.com) são inestimáveis para calcular a rentabilidade e ajudar os mineiros a tomar decisões baseadas em dados.
 
 
 #### Aplicação prática

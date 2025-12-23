@@ -348,7 +348,7 @@ Hatua za usanidi:
 
 
 
-**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu] (https://developer.paypal.com)
+**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu](https://developer.paypal.com)
 
 
 

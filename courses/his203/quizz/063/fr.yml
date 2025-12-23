@@ -1,0 +1,9 @@
+question: Quel service de l'écosystème de Bitcoin N'A PAS été touché par le piratage du service d'hébergement Linode le 1er mars 2012 ?
+answer: Le service de change BitInstant, géré par Charlie Shrem
+wrong_answers:
+  - La plateforme de trading Bitcoinica, gérée par Zhou Tong
+  - La coopérative de minage BitcoinCZ Mining, gérée par Slush
+  - Le Bitcoin faucet, géré par Gavin Andresen
+explanation: |
+ Le pirate a accédé au portail du service client de l'entreprise et a pris le contrôle de huit comptes, ayant tous une relation avec Bitcoin. Il s'est emparé de 43 554 bitcoins appartenant à Bitcoinica, a retiré 3 094 bitcoins du portefeuille chaud de la coopérative de Slush et a mis la main sur les 5 bitcoins présents sur le Bitcoin faucet de Gavin.
+reviewed: false

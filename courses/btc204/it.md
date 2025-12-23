@@ -3483,7 +3483,7 @@ Riassumerò insieme i passaggi appena visti per effettuare una transazione di no
 
 ### Notifica di transazione: uno studio pratico
 
-Per capire meglio come funziona, e in particolare l'uso di `OP_RETURN`, diamo un'occhiata a una vera transazione di notifica. Ho eseguito una transazione di questo tipo sulla testnet, che potete trovare [cliccando qui] (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Per capire meglio come funziona, e in particolare l'uso di `OP_RETURN`, diamo un'occhiata a una vera transazione di notifica. Ho eseguito una transazione di questo tipo sulla testnet, che potete trovare [cliccando qui](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 ![BTC204](assets/it/233.webp)
 

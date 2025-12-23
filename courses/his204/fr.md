@@ -27,7 +27,7 @@ L’objectif de cette formation est d’explorer les origines françaises du con
 Dans cette première section, nous plongeons dans le contexte historique du tournant des XVIIe et XVIIIe siècles, marqué par les excès de la monarchie absolue et les premiers appels à une gestion plus juste et rationnelle des affaires publiques. À travers les figures de Vauban, Boisguilbert et Cantillon, nous découvrirons des critiques précoces de l’interventionnisme étatique et une première esquisse de ce que deviendra plus tard l’économie politique libérale.
 
 **Section 3 : Les Réformateurs et Penseurs du Début 18e Siècle**
-Cette section s’intéresse à ceux qui, dans les premières décennies du XVIIIe siècle, ont tenté de réformer l’économie française à la lumière de principes nouveaux. De l’abbé de Saint-Pierre au marquis d’Argenson, en passant par Gournay et ses disciples, ces penseurs proposent de démanteler les obstacles corporatistes, de libéraliser les échanges et de promouvoir la concurrence comme moteur du développement. Leurs propositions, souvent audacieuses, préfigurent les grandes idées physiocratiques.
+Cette section s’intéresse à ceux qui, dans les premières décennies du XVIIIe siècle, ont tenté de réformer l’économie française à la lumière de principes nouveaux. De l’Abbé de Saint-Pierre au marquis d’Argenson, en passant par Gournay et ses disciples, ces penseurs proposent de démanteler les obstacles corporatistes, de libéraliser les échanges et de promouvoir la concurrence comme moteur du développement. Leurs propositions, souvent audacieuses, préfigurent les grandes idées physiocratiques.
 
 **Section 4 : L'École Physiocratique**
 Cette section est consacrée à l’un des moments culminants de la pensée économique française : l’école physiocratique. Nous étudierons ses origines, ses fondements doctrinaux et ses principales réalisations, en nous concentrant sur des figures comme Quesnay et Dupont de Nemours. C’est ici que le laissez-faire devient un système cohérent, reposant sur l’idée d’un ordre naturel auquel l’État doit se soumettre pour garantir la prospérité de tous.
@@ -100,12 +100,12 @@ Tels sont donc les quatre principes que le pouvoir suit depuis plusieurs décenn
 
 Aujourd’hui que la pression fiscale continue de croître dans notre pays, au risque d’étouffer les forces économiques nationales, des voix s’élèvent pour réclamer un changement. Consciemment ou inconsciemment, c’est sur le travail d’économistes français, qui, depuis le XVIIe siècle, ont critiqué la fiscalité française, toujours chaotique, toujours despotique, toujours excessive, que se fondent communément ces projets de réforme. 
 
-Premier dans l’ordre chronologique de ces réformateurs de l’impôt, et non moins dans celui du mérite, est le grand maréchal Sébastien Le Prestre Vauban, célèbre constructeur des places fortes et des citadelles.
+Premier dans l’ordre chronologique de ces réformateurs de l’impôt, et non moins dans celui du mérite, est le grand Maréchal Sébastien Le Prestre Vauban, célèbre constructeur des places fortes et des citadelles.
 
 ![image](assets/fr/008.webp)
 
 
-Comme nous l’avons malheureusement oublié, Vauban le militaire fut également un économiste. Il s’intéressa au sort des masses et proposa en 1695 (Projet de capitation) puis 1707 (Projet d’une dime royale) une réforme audacieuse de la fiscalité : remplacer la plupart des impôts existants par une taxe proportionnelle au revenu, une flat tax avant l’heure.
+Comme nous l’avons malheureusement oublié, Vauban le militaire fut également un économiste. Il s’intéressa au sort des masses et proposa en 1695 (Projet de capitation) puis 1707 (Projet d’une dîme royale) une réforme audacieuse de la fiscalité : remplacer la plupart des impôts existants par une taxe proportionnelle au revenu, une _flat tax_ avant l’heure.
 
 ![image](assets/fr/009.webp)
 
@@ -130,11 +130,11 @@ Il comprenait que la fiscalité oppressive et désincitative accablait les paysa
 
 Vauban voyait juste, car comme nous le savons aujourd’hui, l’Ancien Régime était marqué par une fiscalité irrationnelle et abusivement rigoureuse. C’est cette fiscalité, injuste dans sa distribution, et donc abusive dans son poids, que Vauban ambitionna de vaincre.
 
-La solution proposée par Vauban, un impôt proportionnel, une flat tax sur tous les revenus, permettrait à l’impôt de se répartir entre toutes les classes de citoyens. Fondée sur une théorie de l’Etat qui expliquait que l’intervention de la puissance publique était légitime car elle seule pouvait protéger les droits des personnes et la propriété de chacun, sa réforme fiscale faisait contribuer tous les Français à l’effort, en proportion stricte de leur revenu : chacun paierait par exemple 10% de ses revenus.
+La solution proposée par Vauban, un impôt proportionnel, une _flat tax_ sur tous les revenus, permettrait à l’impôt de se répartir entre toutes les classes de citoyens. Fondée sur une théorie de l’Etat qui expliquait que l’intervention de la puissance publique était légitime car elle seule pouvait protéger les droits des personnes et la propriété de chacun, sa réforme fiscale faisait contribuer tous les Français à l’effort, en proportion stricte de leur revenu : chacun paierait par exemple 10% de ses revenus.
 
 Dans son projet de Dîme royale, le seul de ses mémoires qui fut imprimé de son vivant, Vauban écrivit de manière tout à fait claire : 
 
-> Comme tous ceux qui composent un État, ont besoin de sa protection pour subsister, […] il est raisonnable que tous contribuent aussi selon leurs revenus, à ses dépenses et à son entretien […]. Rien n’est donc si injuste que d’exempter de cette contribution ceux qui sont le plus en état de la payer, pour en rejeter le fardeau sur les moins accommodés qui succombent sous le poids ; lequel serait d’ailleurs très léger s’il était porté par tous à proportion des forces d’un chacun ; d’où il suit que toute exemption à cet égard est un désordre qui doit être corrigé.
+> Comme tous ceux qui composent un État, ont besoin de sa protection pour subsister, […] il est raisonnable que tous contribuent aussi selon leurs revenus, à ses dépenses et à son entretien […]. Rien n’est donc si injuste que d’exempter de cette contribution ceux qui sont le plus en état de la payer, pour en rejeter le fardeau sur les moins accommodés qui succombent sous le poids ; lequel serait d’ailleurs très léger s’il était porté par tous à proportion des forces de chacun ; d’où il suit que toute exemption à cet égard est un désordre qui doit être corrigé.
 
 Peu avant sa mort, son idée fut suivie par les ministres de Louis XIV. Seulement, Vauban réclamait que l’impôt proportionnel soit instauré pour remplacer la totalité ou la quasi-totalité de la fiscalité existante. À la place, comme on fait souvent, on mit en place son impôt, mais on conserva tous les autres.
 
@@ -174,7 +174,7 @@ Et la liberté est bien sa conclusion finale. "Il n’est pas question d’agir,
 
 Ce dernier passage est crucial. Boisguilbert est le premier à réclamer distinctement une politique économique de laissez-faire, à en faire son credo, et à bâtir un véritable système autour de cette notion. Selon lui, il existe un ordre naturel des choses, et il convient de ne pas le corrompre, de ne pas le détruire, par des interventions publiques intempestives. L’Etat ne doit pas agir en ce qui concerne l’économie, mais laisser agir, sous peine de causer la misère. 
 
-Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur du peuple mais s’y prennent tout de travers. Ils souhtaient le bas prix du pain pour le peuple, mais ce bas prix forcé empêche les cultivateurs de vivre de leur travail, il les ruine, les chasse de leurs terres et les précipite dans la misère. C’est en effet, on le sait bien, de bonnes intentions qu’est pavé l’enfer.
+Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur du peuple mais s’y prennent tout de travers. Ils souhaitent le bas prix du pain pour le peuple, mais ce bas prix forcé empêche les cultivateurs de vivre de leur travail, il les ruine, les chasse de leurs terres et les précipite dans la misère. C’est en effet, on le sait bien, de bonnes intentions qu’est pavé l’enfer.
 
 ## Cantillon 
 <chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
@@ -200,7 +200,7 @@ On peut résumer à cinq domaines les grands mérites de l’Essai de Cantillon 
 
 Premier point, la théorie de la richesse. Contrairement au mercantilisme, dominant en son temps, Cantillon fonde son analyse sur la reconnaissance du fait que les produits propres à la jouissance de l’homme forment la richesse. Cette richesse provient de la nature et en est tirée par le travail de l’homme. Son analyse de la nature des richesses a très fortement influencé Beccaria et Adam Smith, et à travers ce dernier toute l’école classique anglaise.
 
-Deuxième point, Cantillon voit dans l’entrepreneur, bien que défini peu précisément, l’acteur principal et comme central de l’activité économique. Chez Cantillon, ce qui caractérise l’entrepreneur, c’est qu’il est un preneur de risque, c’est qui agit dans l’incertitude. Par ces idées sur l’entrepreneur, Cantillon a initié une tendance qui s’épanouira avec Turgot, et plus encore avec Say, pour enfin reconnaître à l’entrepreneur une place à part dans l’économie, contrairement cette fois-ci aux affirmations de l’école anglaise. 
+Deuxième point, Cantillon voit dans l’entrepreneur, bien que défini peu précisément, l’acteur principal et comme central de l’activité économique. Chez Cantillon, ce qui caractérise l’entrepreneur, c’est qu’il est un preneur de risque, c’est qu'il agit dans l’incertitude. Par ces idées sur l’entrepreneur, Cantillon a initié une tendance qui s’épanouira avec Turgot, et plus encore avec Say, pour enfin reconnaître à l’entrepreneur une place à part dans l’économie, contrairement cette fois-ci aux affirmations de l’école anglaise. 
 
 Troisième point, la monnaie. En réaction à l’expérience de John Law, Cantillon nous explique ce qui arrive ou ce qui doit arriver lorsque la monnaie est sans valeur réelle. 
 
@@ -216,23 +216,23 @@ Parmi ces cinq grandes idées de son Essai, la plus importante est certainement 
 
 
 
-# Les Réformateurs et Penseurs du Début 18e Siècle
+# Les Réformateurs et Penseurs du Début XVIIIe Siècle
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
-## L’abbé de Saint-Pierre
+## L’Abbé de Saint-Pierre
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
 :::video id=8d4e110f-ea4b-450b-b702-3acf86d6362c:::
 
-De tous les auteurs que nous avons sélectionné pour rejoindre le panthéon des penseurs français du laissez-faire au XVIIIe siècle, l’abbé de Saint-Pierre est sans aucun doute le plus méconnu. 
+De tous les auteurs que nous avons sélectionnés pour rejoindre le panthéon des penseurs français du laissez-faire au XVIIIe siècle, l’Abbé de Saint-Pierre est sans aucun doute le plus méconnu. 
 
 ![image](assets/fr/018.webp)
 
-C’est un peu de sa faute, parce qu’il a beaucoup, beaucoup écrit, et qu’il est assez pénible à lire, se répétant sans cesse. Jean-Jacques Rousseau essaya de résumer ses ouvrages ; il commença à le faire, mais abandonna assez vite cette tâche, car il comprit qu’elle était au-dessus de ses forces. Au milieu du XIXe siècle, Gustave de Molinari a fait beaucoup d’honneur à l’abbé de Saint-Pierre en publiant sur lui un ouvrage complet, dans lequel il rend hommage au pacifiste et à l’économiste qu’était l’abbé de Saint-Pierre. Mais cela n’a pas suffi pour le faire sortir de l’oubli car il y est encore plongé de nos jours.
+C’est un peu de sa faute, parce qu’il a beaucoup, beaucoup écrit, et qu’il est assez pénible à lire, se répétant sans cesse. Jean-Jacques Rousseau essaya de résumer ses ouvrages ; il commença à le faire, mais abandonna assez vite cette tâche, car il comprit qu’elle était au-dessus de ses forces. Au milieu du XIXe siècle, Gustave de Molinari a fait beaucoup d’honneur à l’Abbé de Saint-Pierre en publiant sur lui un ouvrage complet, dans lequel il rend hommage au pacifiste et à l’économiste qu’était l’Abbé de Saint-Pierre. Mais cela n’a pas suffi pour le faire sortir de l’oubli car il y est encore plongé de nos jours.
 
 ![image](assets/fr/019.webp)
 
 
-L’abbé de Saint-Pierre a écrit sur l’économie, mais c’est plutôt comme pacifiste que l’on s’intéresse d’habitude à lui. Il est l’auteur d’un Projet de paix perpétuelle, qui est antérieur à celui, bien connu, d’Emmanuel Kant.
+L’Abbé de Saint-Pierre a écrit sur l’économie, mais c’est plutôt comme pacifiste que l’on s’intéresse d’habitude à lui. Il est l’auteur d’un Projet de paix perpétuelle, qui est antérieur à celui, bien connu, d’Emmanuel Kant.
 
 ![image](assets/fr/020.webp)
 
@@ -240,21 +240,21 @@ Il y montre que les guerres sont destructives pour ceux qui les perdent comme po
 
 Pour lutter contre le fléau de la guerre, il recommande la constitution d’une sorte de ligue des nations européennes. Il se formerait un conseil européen où devraient se résoudre les problèmes des uns et des autres. On aurait donc recours à l’arbitrage, afin d’éviter d’en venir aux armes. Si une nation ne se montrait pas assez sage pour adopter la paix, si elle menaçait les autres nations européennes, l’entente européenne aurait de quoi répondre. On aurait recours, face à de tels évènements, à une armée européenne dont les forces seraient fournies par les différents pays.
 
-Il y a aussi, dans la vie de l’abbé de Saint-Pierre, un fait qui illustre bien l’intention critique qui est à la base de la démarche du laissez-faire français. Il était entré en 1695 à l’Académie française. Il en fut expulsé en 1718 pour avoir osé critiquer le bilan du règne de Louis XIV. En cela il est à rapprocher de Vauban et de Boisguilbert, qui ont osé parler de la misère populaire cachée sous le faste du règne du Roi Soleil. 
+Il y a aussi, dans la vie de l’Abbé de Saint-Pierre, un fait qui illustre bien l’intention critique qui est à la base de la démarche du laissez-faire français. Il était entré en 1695 à l’Académie française. Il en fut expulsé en 1718 pour avoir osé critiquer le bilan du règne de Louis XIV. En cela il est à rapprocher de Vauban et de Boisguilbert, qui ont osé parler de la misère populaire cachée sous le faste du règne du Roi Soleil. 
 
 ![image](assets/fr/021.webp)
 
-L’abbé de Saint-Pierre avait soutenu que le règne de Louis XIV, apogée du luxe de la cour et de l’esprit de conquête militaire, n’était pas celui d’un roi vertueux. Il refusait d’admettre que Louis XIV puisse mériter le titre de Louis le Grand. 
+L’Abbé de Saint-Pierre avait soutenu que le règne de Louis XIV, apogée du luxe de la cour et de l’esprit de conquête militaire, n’était pas celui d’un roi vertueux. Il refusait d’admettre que Louis XIV puisse mériter le titre de Louis le Grand. 
 
 
 
-Ruiner ses voisins et son peuple en même temps, ce n’est pas de la grandeur, disait-il. L’Académie française, qui avait fini par s’occuper à plein temps de faire des éloges du Roi, sous toutes les formes littéraires possibles, en fut très choquée et prononça à la quasi-unanimité le renvoi de l’abbé de Saint-Pierre.
+Ruiner ses voisins et son peuple en même temps, ce n’est pas de la grandeur, disait-il. L’Académie française, qui avait fini par s’occuper à plein temps de faire des éloges du Roi, sous toutes les formes littéraires possibles, en fut très choquée et prononça à la quasi-unanimité le renvoi de l’Abbé de Saint-Pierre.
 
 ![image](assets/fr/022.webp)
 
 En économie, il a toujours suivi le principe de l’utile, comme Bentham plus tard, et a fourni généralement de bons aperçus. Il était, c’est certain, encore imprégné de mercantilisme, à une époque où personne ne s’en était encore pleinement détaché. 
 
-Cependant, l’abbé de Saint-Pierre a aussi dit des choses très justes sur l’économie.
+Cependant, l’Abbé de Saint-Pierre a aussi dit des choses très justes sur l’économie.
 Avant Condillac, dont c’est l’un des principaux mérites, il a énoncé cette idée toute simple que dans un échange, les deux parties y gagnent. On la trouve dans son Projet pour perfectionner le Commerce de la France, qui date de 1733. Il y dit expressément :
 
 > Quand il se fait une vente entre marchands, le vendeur y gagne et l'acheteur aussi ; car, sans un gain réciproque et réel ou apparent, ni le vendeur ne vendrait à tel prix, ni l'acheteur, de son côté, n'achèterait à tel prix.
@@ -262,29 +262,29 @@ Avant Condillac, dont c’est l’un des principaux mérites, il a énoncé cett
 ![image](assets/fr/023.webp)
 
 
-Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail et sur la nécessité de le laisser attractif. "Tout travail est pénible, dit l’abbé de Saint-Pierre, et lorsque l'homme voit que son travail ne lui rapporte pas ou ne lui rapporte pas suffisamment, il demeure oisif et ne se donne pas de peines inutiles." Ce même propos sera repris par le marquis d’Argenson, par Vincent de Gournay et par les physiocrates pour s’opposer aux règlements tatillons et au système corporatif. Les corporations et les règlements, dirent-ils, découragent le travailleur, lui causent des peines inutiles, et le poussent finalement dans l’oisiveté, qu’il finit par trouver préférable à une activité productive exercée dans ces conditions.
+Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail et sur la nécessité de le laisser attractif. "Tout travail est pénible, dit l’Abbé de Saint-Pierre, et lorsque l'homme voit que son travail ne lui rapporte pas ou ne lui rapporte pas suffisamment, il demeure oisif et ne se donne pas de peines inutiles." Ce même propos sera repris par le Marquis d’Argenson, par Vincent de Gournay et par les physiocrates pour s’opposer aux règlements tatillons et au système corporatif. Les corporations et les règlements, dirent-ils, découragent le travailleur, lui causent des peines inutiles, et le poussent finalement dans l’oisiveté, qu’il finit par trouver préférable à une activité productive exercée dans ces conditions.
 
 ## Le Marquis d’Argenson
 <chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
 
 :::video id=c29c1507-6990-411d-8446-ffaf52d97378:::
 
-Le marquis d’Argenson est un fondateur oublié de la doctrine du laissez-faire. 
+Le Marquis d’Argenson est un fondateur oublié de la doctrine du laissez-faire. 
 
 ![image](assets/fr/024.webp)
 
-Il a été redécouvert par August Oncken, auteur d’un livre sur la doctrine du laissez-faire laissez-passer, qui conclut au rôle majeur joué par d’Argenson dans la naissance de cette idée.
+Il a été redécouvert par August Oncken, auteur d’un livre sur la doctrine du laissez-faire laissez-passer, qui conclut au rôle majeur joué par le Marquis d’Argenson dans la naissance de cette idée.
 
 
 
-René-Louis Voyer, marquis d’Argenson, est né en 1694. Il commença dans la politique en servant en tant que conseiller au parlement, puis au Conseil d’État. 
-Trente ans avant Adam Smith, le marquis d’Argenson défendit les mérites de la division du travail et de la spécialisation. 
+René-Louis Voyer, Marquis d’Argenson, est né en 1694. Il commença dans la politique en servant en tant que conseiller au parlement, puis au Conseil d’État. 
+Trente ans avant Adam Smith, le Marquis d’Argenson défendit les mérites de la division du travail et de la spécialisation. 
 
 ![image](assets/fr/025.webp)
 
 Il critiqua fortement les règlements qui tendaient, disait-il, à modifier les préférences qu’on faisait dans chaque lieu. Ainsi il s’étonnait qu’on voulait faire fabriquer à Tours, une ville pauvre à l’époque, des draps et des velours aussi beaux qu’à Gènes, ville prospère, connue pour son luxe. Il concluait : "Il faut laisser à chaque lieu le choix des manufactures qui lui sont propres. Liberté ! Liberté !" 
 
-Il ne manqua pas non plus de reconnaître un autre principe central chez Smith, l’ordre spontané naissant de la recherche de l’intérêt personnel. Le marquis d’Argenson était convaincu qu’un intérêt direct et prochain stimule l’énergie de l’homme. Il écrivit que l’imperfection et la fraude discréditent le fabricant, et qu’au contraire la diligence et la bonne foi l’enrichissent. Le meilleur arbitre de l’utilité, disait-il encore, c’est l’individu, c’est la masse du public qui consomme et qui est intéressé à bien acheter. "Chacun sent son intérêt, écrivait-il, chacun prend les mesures qui lui sont profitables, et c’est dans cet accord général que nous découvrons la vérité."  
+Il ne manqua pas non plus de reconnaître un autre principe central chez Smith, l’ordre spontané naissant de la recherche de l’intérêt personnel. Le Marquis d’Argenson était convaincu qu’un intérêt direct et prochain stimule l’énergie de l’homme. Il écrivit que l’imperfection et la fraude discréditent le fabricant, et qu’au contraire la diligence et la bonne foi l’enrichissent. Le meilleur arbitre de l’utilité, disait-il encore, c’est l’individu, c’est la masse du public qui consomme et qui est intéressé à bien acheter. "Chacun sent son intérêt, écrivait-il, chacun prend les mesures qui lui sont profitables, et c’est dans cet accord général que nous découvrons la vérité."  
 
 Avant Adam Smith, il comprenait que l’intérêt personnel bien entendu menait à l’intérêt général par la construction d’un ordre naturel spontané. 
 
@@ -292,9 +292,9 @@ Avant Adam Smith, il comprenait que l’intérêt personnel bien entendu menait 
 
 Il comparait ainsi la société à une ruche d’abeilles où chaque où chaque insecte agit selon son instinct. Il résulte de leurs actions, disait-il précisément, un grand amas pour les besoins de la petite société ; mais cela ne s’est pas opéré par des ordres, ou des généraux, qui aient obligé chaque individu à suivre les vues de leur chef." Une telle formulation est la plus proche que l’on trouve dans les écrits économiques français de la célèbre main invisible d’Adam Smith.
 
-Le marquis d’Argenson fut toujours outré des idées que partageaient les ministres de l’époque. La seule question qu’ils posaient était : faut-il réglementer de cette manière ou de cette manière, conduire l’économie dans telle direction ou dans telle autre ?  N’y aurait-il pas lieu d’examiner auparavant, leur répondit d’Argenson, s’il convient de diriger toutes ces choses, ou de les laisser aller d’elles-mêmes ?
+Le Marquis d’Argenson fut toujours outré des idées que partageaient les ministres de l’époque. La seule question qu’ils posaient était : faut-il réglementer de cette manière ou de cette manière, conduire l’économie dans telle direction ou dans telle autre ?  N’y aurait-il pas lieu d’examiner auparavant, leur répondit le Marquis d’Argenson, s’il convient de diriger toutes ces choses, ou de les laisser aller d’elles-mêmes ?
  
-À vrai dire, d’Argenson s’étonnait qu’on ait tant de mal à comprendre ou plutôt à voir les mauvais effets des règlements de toute sorte sur l’économie. Il suffisait selon lui d’ouvrir les yeux pour les voir. Que de choses vont encore passablement aujourd’hui, notait-il amèrement, par la seule raison qu’elles ont échappé jusqu’à présent aux lois. Parfois, il désespérait de voir ses idées si peu comprises. 
+À vrai dire, le Marquis d’Argenson s’étonnait qu’on ait tant de mal à comprendre ou plutôt à voir les mauvais effets des règlements de toute sorte sur l’économie. Il suffisait selon lui d’ouvrir les yeux pour les voir. Que de choses vont encore passablement aujourd’hui, notait-il amèrement, par la seule raison qu’elles ont échappé jusqu’à présent aux lois. Parfois, il désespérait de voir ses idées si peu comprises. 
 
 ![image](assets/fr/027.webp)
 

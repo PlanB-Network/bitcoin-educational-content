@@ -1,0 +1,8 @@
+question: Zgodnie z wolnorynkową teorią ekonomiczną, co się dzieje, gdy przedsiębiorcy przedwcześnie przewidują popyt konsumentów na innowację, która jeszcze nie istnieje?
+answer: Brak zysków w naturalny sposób zniechęca ich do kontynuowania i uniemożliwia innym pójście za ich przykładem
+wrong_answers:
+  - Interwencja rządowa przekierowuje ich wysiłki na bardziej korzystne społecznie projekty poprzez dotacje
+  - Inwestują tak długo, aż preferencje konsumentów ostatecznie pokryją się z ich początkowymi przewidywaniami
+  - Regulacje rynkowe zmuszają ich do porzucenia swoich projektów, aby zapobiec marnotrawstwu ekonomicznemu
+explanation: |
+  W systemie wolnorynkowym zyski służą jako kluczowe sygnały wskazujące na rzeczywisty popyt konsumencki. Kiedy przedsiębiorcy błędnie oceniają czas rynkowy i przewidują popyt, który nie istnieje, nie udaje im się osiągnąć zysków generate, co naturalnie zniechęca do dalszych inwestycji w tym kierunku. Ten samonaprawczy mechanizm zapobiega marnowaniu zasobów na przedwczesne innowacje. Pozostałe opcje błędnie sugerują interwencję zewnętrzną lub uporczywe inwestycje pomimo sygnałów rynkowych, co jest sprzeczne z naciskiem położonym w rozdziale na to, w jaki sposób sygnały zysku kierują racjonalnym podejmowaniem decyzji ekonomicznych.

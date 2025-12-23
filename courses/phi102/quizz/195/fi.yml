@@ -1,0 +1,8 @@
+question: Mikä tekee poliittisten päätösten seurausten arvioinnin yksittäisille kansalaisille erityisen vaikeaksi verrattuna henkilökohtaisiin taloudellisiin valintoihin?
+answer: Poliittiset seuraukset ovat kollektiivisia ja ajallisesti hajautettuja, minkä vuoksi yksilöiden on mahdotonta havaita suoraan niiden täydellistä vaikutusta näkymättömiin asianosaisiin
+wrong_answers:
+  - Poliittiset päätökset edellyttävät erityistietoa, jota vain koulutetut taloustieteilijät ja politiikan asiantuntijat voivat riittävästi ymmärtää ja arvioida
+  - Poliittisiin valintoihin liittyy moraalisia näkökohtia, jotka ovat rationaalisen laskelmoinnin yläpuolella, toisin kuin taloudelliset päätökset, jotka ovat puhtaasti utilitaristisia
+  - Poliittiset järjestelmät hämärtävät tietoa tarkoituksellisesti säilyttääkseen vallan, kun taas markkinat tarjoavat läpinäkyviä hintasignaaleja kaikille osallistujille
+explanation: |
+  Tekstissä selitetään erityisesti, että poliittisilla päätöksillä on kollektiivisia seurauksia, joita on "vaikea tarkastella jokaisen yksilön osalta" ja että "poliittinen toimenpide voi vahingoittaa täydellisesti ihmisiä, joita kansalainen ei näe suoraan" Tämä ajallinen ja alueellinen erillisyys seurauksista yhdistettynä niiden kollektiiviseen luonteeseen tekee poliittisista valinnoista luonnostaan vaikeammin arvioitavissa olevia kuin välittömät, henkilökohtaiset taloudelliset päätökset, joiden tulokset ovat suoraan havaittavissa ja säädettävissä.

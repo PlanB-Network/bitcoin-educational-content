@@ -1,0 +1,8 @@
+question: Mikä oli ensisijainen syy siihen, että maan yksityisomistusta oli mahdotonta luoda esihistoriallisissa yhteiskunnissa?
+answer: Tuottava toiminta, kuten metsästys ja keräily, edellytti laajojen yhteisten tilojen nomadista käyttöä
+wrong_answers:
+  - Uskonnolliset uskomukset kielsivät yksilöllisen omistajuuden ja edellyttivät kollektiivista henkistä yhteyttä maahan
+  - Poliittiset johtajat estivät tarkoituksellisesti yksityisomistuksen säilyttääkseen resurssiensa ehdottoman hallinnan
+  - Kirjakielen puute teki mahdottomaksi laatia omistusoikeuksia vahvistavia oikeudellisia asiakirjoja
+explanation: |
+  Luvun mukaan maan yksityisomistus oli esihistoriallisissa yhteiskunnissa mahdotonta käytännön materiaalisten rajoitteiden vuoksi. Biisonien metsästyksen, kalastuksen ja keräilyn kaltaiset toiminnot edellyttivät nomadista liikkumista hyvin laajoilla alueilla - pienellä suljetulla tontilla ei voinut metsästää tehokkaasti. Yhteisomistus ei ollut ideologinen valinta, vaan rationaalinen sopeutuminen siihen, miten ihmisten oli elettävä ja työskenneltävä selviytyäkseen. Muut vaihtoehdot viittaavat virheellisesti pikemminkin uskonnollisiin, poliittisiin tai oikeudellisiin syihin kuin näihin perustavanlaatuisiin taloudellisiin tarpeisiin.

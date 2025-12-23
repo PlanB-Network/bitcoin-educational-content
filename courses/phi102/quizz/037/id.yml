@@ -1,0 +1,8 @@
+question: Menurut analisis Bastiat, apa masalah logis dari pernyataan Proudhon 'properti adalah pencurian'?
+answer: Jika properti adalah pencurian, maka pencurian menjadi properti, menciptakan kontradiksi logis
+wrong_answers:
+  - Properti tidak dapat eksis tanpa peraturan pemerintah dan kerangka hukum
+  - Pencurian secara moral salah, sementara properti secara moral benar dalam segala situasi
+  - Properti membutuhkan kepemilikan fisik, sementara pencurian melibatkan akuisisi sementara
+explanation: |
+  Bastiat menunjukkan kontradiksi logis internal dalam frasa terkenal Proudhon dengan menunjukkan bahwa jika kita menerima properti sama dengan pencurian, maka dengan perluasan logis pencurian harus sama dengan properti. Hal ini menciptakan sebuah penalaran melingkar yang mustahil di mana sesuatu yang sah secara bersamaan tidak sah. Bastiat berpendapat bahwa properti secara alamiah berasal dari kerja, kepemilikan pribadi, dan kemampuan manusia, sehingga menjadikannya sebuah konsep yang fundamental dan logis daripada sebuah bentuk pencurian.

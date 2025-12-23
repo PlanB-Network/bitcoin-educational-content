@@ -1,0 +1,8 @@
+question: Abbé de Saint-Pierre'in ticari mübadele analizine göre, tüccarlar arasında gönüllü ticaretin neden gerçekleştiğini açıklayan temel ilke hangisidir?
+answer: Hem alıcı hem de satıcı işlemden karşılıklı fayda sağlar, aksi takdirde ikisi de ticaret yapmayı kabul etmez
+wrong_answers:
+  - Taraflardan biri her zaman diğerinden daha fazla kazanarak gelecekteki müzakerelerde rekabet avantajı yaratır
+  - Hükümet, kârın ticaret yapan taraflar arasında adil dağılımını sağlamak için fiyatları düzenler
+  - Piyasa güçleri kazançları otomatik olarak dengeler, böylece toplam servet tüm işlemlerde sabit kalır
+explanation: |
+  Abbé de Saint-Pierre, gönüllü mübadelenin her iki tarafın da fayda sağladığı pozitif toplamlı bir oyun olduğunu kabul etmiştir. Tüccarlar arasında bir satış gerçekleştiğinde, hem satıcının hem de alıcının kazançlı çıktığını, çünkü karşılıklı fayda olmadan ikisinin de bu fiyattan işlem yapmayı kabul etmeyeceğini belirtmiştir. Bu ilke, gönüllü ticaretin sadece servetin birinden diğerine aktarılmasından ziyade her iki taraf için de değer yarattığını ve bu nedenle insanların ticaret ve sözleşme yapmayı tercih ettiğini göstermektedir.

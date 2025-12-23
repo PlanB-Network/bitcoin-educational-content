@@ -1,0 +1,8 @@
+question: De acordo com a análise de Bastiat, qual é o problema lógico da afirmação de Proudhon "a propriedade é um roubo"?
+answer: Se a propriedade é roubo, então o roubo torna-se propriedade, criando uma contradição lógica
+wrong_answers:
+  - A propriedade não pode existir sem regulamentação governamental e quadros jurídicos
+  - O roubo é moralmente errado, enquanto a propriedade é moralmente correta em todas as circunstâncias
+  - A propriedade exige a posse física, enquanto o furto implica uma aquisição temporária
+explanation: |
+  Bastiat demonstrou a contradição lógica interna da famosa frase de Proudhon, mostrando que, se aceitarmos que a propriedade é igual ao roubo, então, por extensão lógica, o roubo deve ser igual à propriedade. Isto cria um raciocínio circular impossível, em que algo legítimo é simultaneamente ilegítimo. Bastiat argumentou, em vez disso, que a propriedade deriva naturalmente do trabalho, da propriedade de si próprio e das faculdades humanas, o que faz dela um conceito fundamental e lógico e não uma forma de roubo.

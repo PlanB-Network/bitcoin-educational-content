@@ -1,0 +1,8 @@
+question: Jaký je podle Bastiatovy analýzy logický problém Proudhonova výroku "vlastnictví je krádež"?
+answer: Pokud je majetek krádeží, pak se krádež stává majetkem, což vytváří logický rozpor
+wrong_answers:
+  - Vlastnictví nemůže existovat bez vládní regulace a právních rámců
+  - Krádež je morálně špatná, zatímco vlastnictví je morálně správné za všech okolností
+  - Vlastnictví vyžaduje fyzické držení, zatímco krádež zahrnuje dočasné nabytí
+explanation: |
+  Bastiat ukázal vnitřní logický rozpor ve slavné Proudhonově větě tím, že ukázal, že pokud připustíme, že vlastnictví se rovná krádeži, pak se logicky musí krádež rovnat vlastnictví. To vytváří nemožné kruhové uvažování, kdy něco legitimního je zároveň nelegitimní. Bastiat namísto toho tvrdil, že vlastnictví přirozeně vyplývá z práce, vlastnictví sebe sama a lidských schopností, což z něj činí základní a logický pojem, a nikoli formu krádeže.

@@ -1,0 +1,9 @@
+question: Que représente le Node ID d’un nœud Lightning ?
+answer: Clé publique du nœud et adresse
+wrong_answers:
+  - Seed du nœud et adresse
+  - Alias du nœud et clé publique
+  - Hash de l'alias du nœud et seed
+explanation: |
+  Le Node ID combine la clé publique du nœud avec son adresse réseau et son port.
+reviewed: false

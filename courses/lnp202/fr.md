@@ -54,7 +54,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### C'est quoi un nœud Lightning ?
 
-Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. "Offchain" signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
+Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. "*Offchain*" signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
 
 Pour fonctionner, Lightning repose sur l’ouverture de canaux de paiement entre les participants, au sein desquels les transactions peuvent être réalisées presque instantanément, avec des frais souvent minimes, sans qu’il soit nécessaire de les inscrire une par une sur la blockchain Bitcoin. Ces canaux peuvent rester ouverts très longtemps et ne requièrent des transactions onchain qu’au moment de leur ouverture et de leur fermeture.
 
@@ -286,19 +286,19 @@ Dans ce premier chapitre, nous allons voir comment installer LND sur votre Umbre
 
 Depuis la page d’accueil, ouvrez l’`App Store` situé en bas de l’interface.
 
-015
+![Image](assets/fr/015.webp)
 
 Dans la barre de recherche, saisissez `Lightning Node`, puis cliquez sur l’application.
 
-016
+![Image](assets/fr/016.webp)
 
 Cliquez ensuite sur le bouton `Install` pour lancer l’installation.
 
-017
+![Image](assets/fr/017.webp)
 
 Depuis la page d’accueil, cliquez sur l’application pour l’ouvrir, puis sélectionnez `Setup a new node`.
 
-018
+![Image](assets/fr/018.webp)
 
 Une phrase mnémonique de 24 mots vous est donnée. Conservez-la précieusement dans un endroit sûr. Nous verrons plus en détail dans le prochain chapitre comment récupérer l’accès à votre nœud Lightning (c'est un processus beaucoup plus complexe que pour un simple portefeuille Bitcoin) mais retenez pour le moment que cette phrase joue un rôle crucial et doit être sauvegardée avec le plus grand soin.
 
@@ -306,11 +306,11 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Sauvegardez cette phrase de la même manière qu’une phrase mnémonique classique : sur un support physique (papier ou métal) stocké dans un endroit sécurisé, puis cliquez sur le bouton `NEXT`.
 
-019
+![Image](assets/fr/019.webp)
 
 Saisissez ensuite les mots de votre phrase afin de vérifier que vous les avez correctement notés.
 
-020
+![Image](assets/fr/020.webp)
 
 Un message d’avertissement vous rappellera que l’application est en version bêta et que le Lightning Network demeure une technologie expérimentale. Évidemment, n’engagez jamais sur votre nœud Lightning des montants que vous n’êtes pas prêt à perdre.
 
@@ -323,11 +323,11 @@ Sur la droite, vous verrez plusieurs informations importantes concernant votre n
 - Le total de vos liquidités sortantes, c’est-à-dire ce que vous pouvez théoriquement dépenser sur Lightning ;
 - Le total de vos liquidités entrantes, c’est-à-dire ce que vous pouvez théoriquement recevoir sur Lightning.
 
-021
+![Image](assets/fr/021.webp)
 
 Nous allons commencer par personnaliser notre nœud. Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Advanced Settings`. Dans le sous-menu `Personalization`, vous pouvez définir un nom public pour votre nœud (évitez d’utiliser votre véritable nom) et choisir sa couleur.
 
-046
+![Image](assets/fr/046.webp)
 
 Cliquez ensuite sur le bouton vert `SAVE AND RESTART` afin de redémarrer votre nœud et appliquer ces modifications.
 
@@ -348,7 +348,7 @@ Sur un nœud Lightning, il ne suffit pas de sauvegarder la seed et d’espérer 
 
 Lorsque vous initialisez LND, vous recevez une seed de 24 mots. Il s’agit d’un format spécifique à LND appelé *aezeed*. Ce n’est pas une seed BIP39 classique, même si elle lui ressemble beaucoup. À partir de cette seed, LND dérive les clés privées de votre portefeuille onchain associé au noeud Lightning, c’est-à-dire les adresses dans lesquelles vous pouvez recevoir ou vers lesquelles vous pouvez rapatrier des bitcoins suite à des fermetures de canaux.
 
-019
+![Image](assets/fr/019.webp)
 
 Cette seed permet donc de recréer le portefeuille onchain associé à votre nœud et de retrouver les fonds qui ont déjà été rapatriés onchain (par exemple après une fermeture de canal). En revanche, la seed seule ne suffit pas à restaurer vos canaux Lightning encore ouverts, car elle ne contient pas les informations nécessaires sur l'état de vos canaux.
 
@@ -427,7 +427,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Maintenant que vous avez compris le fonctionnement théorique, passons à la pratique. Depuis votre application `Lightning Node` (qui correspond en réalité à LND), cliquez en haut à droite sur les trois petits points.
 
-022
+![Image](assets/fr/022.webp)
 
 Trois éléments nous intéressent ici pour la sauvegarde :
 - Vérifiez que l’option `Automatic backups` est bien activée. C’est elle qui permet d’envoyer automatiquement votre SCB chiffré aux serveurs d’Umbrel.
@@ -457,7 +457,7 @@ Le mécanisme de pénalité ne fonctionne que si la partie lésée est en mesure
 * de déterminer si cette transaction correspond au dernier état valide ou à un état révoqué ;
 * en cas d’état révoqué, de diffuser à temps la transaction de justice qui utilise la clé de révocation pour récupérer l’intégralité des fonds avant l’expiration du timelock.
 
-023
+![Image](assets/fr/023.webp)
 
 Dans un scénario idéal, votre nœud Lightning est en ligne 24/7, synchronisé, et surveille la blockchain en continu. Il peut alors, à lui seul, détecter une tentative de triche et réagir. Mais en pratique, un nœud Lightning personnel peut s’éteindre, notamment en cas de coupure prolongée d’électricité ou de connexion internet.
 
@@ -474,7 +474,7 @@ Le fonctionnement d’une watchtower est conçu pour minimiser les informations 
 
 Comme le TXID transmis à la watchtower est incomplet, celle-ci ne peut pas déchiffrer la transaction de justice. En revanche, elle peut surveiller la blockchain à la recherche d’un TXID qui correspond à la partie qu’elle possède. Si elle détecte une telle transaction, elle tente alors d’utiliser le TXID complet de cette transaction pour déchiffrer votre transaction de pénalité. Si le déchiffrement réussit, elle sait qu’il s’agit d’une tentative de triche et publie immédiatement, à votre place, la transaction de justice.
 
-024
+![Image](assets/fr/024.webp)
 
 La watchtower n’a donc aucune visibilité sur les détails de vos canaux : ni l’identité de vos pairs, ni les soldes, ni la structure des transactions. Elle ne voit que des paquets chiffrés. La seule information qu’elle peut déduire est le rythme de mise à jour de vos canaux, puisqu’elle reçoit un paquet à chaque nouvel état, mais sans pouvoir en connaître le contenu. En cas de triche, elle découvrira certes les informations du canal en déchiffrant la transaction de pénalité, mais au moins, vos sats seront sauvés.
 
@@ -512,25 +512,25 @@ Maintenant que nous disposons d’un service de watchtower altruiste, voyons com
 
 Depuis l’application `Lightning Node`, cliquez sur les trois points en haut à droite de l’interface, puis sélectionnez `Advanced Settings`.
 
-025
+![Image](assets/fr/025.webp)
 
 Rendez-vous ensuite dans le menu `Watchtower`.
 
-026
+![Image](assets/fr/026.webp)
 
 Activez l’option `Watchtower Client`, puis cliquez sur le bouton `SAVE AND RESTART NODE`. Patientez le temps que LND redémarre.
 
-027
+![Image](assets/fr/027.webp)
 
 Une fois le redémarrage terminé, retournez dans le même menu et renseignez l’identifiant de la watchtower altruiste de votre choix dans le champ prévu à cet effet. Cliquez ensuite sur le bouton `ADD` pour confirmer. Vous pouvez également ajuster le paramètre `Watchtower Client Sweep Fee Rate` : il s’agit du taux de frais que vous êtes prêt à payer pour une éventuelle transaction de justice diffusée par la watchtower. Inutile de choisir un taux excessivement élevé, mais évitez aussi un taux trop bas, au risque que la transaction de justice ne soit pas confirmée à temps.
 
 Redémarrez votre nœud à l’aide du bouton `SAVE AND RESTART NODE` afin d’appliquer ces modifications.
 
-028
+![Image](assets/fr/028.webp)
 
 Si vous revenez dans ce même menu, vous pourrez constater que votre nœud Lightning est désormais protégé par la watchtower que vous venez d’ajouter.
 
-029
+![Image](assets/fr/029.webp)
 
 Une watchtower altruiste est généralement suffisante, surtout si vous ne placez pas de montants trop importants sur votre nœud Lightning et si vous avez une bonne gestion de votre nœud (ne pas le laisser off trop longtemps). Pour renforcer encore votre sécurité, vous pouvez également en ajouter plusieurs en répétant ce même processus.
 
@@ -593,13 +593,13 @@ https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb
 
 Ici, je vous propose toutefois d’utiliser [l’outil Lightning Terminal de Lightning Labs](https://terminal.lightning.engineering/), qui fournit un classement (certes basé sur des critères en partie subjectifs) des nœuds Lightning jugés les plus pertinents pour ouvrir un canal.
 
-030
+![Image](assets/fr/030.webp)
 
 Le problème avec les très gros nœuds Lightning que l’on retrouve en tête de ce classement est que la plupart n’acceptent pas l’ouverture de canaux en dessous de montants très élevés. Beaucoup appliquent également des politiques strictes de gestion des pairs, ce qui peut conduire à la fermeture de votre canal. Par ailleurs, ces nœuds n’ont généralement aucun besoin de liquidité entrante au vu de leur nombre de connexions.
 
 Je vous conseille donc plutôt de descendre dans ce classement afin de trouver un nœud bien connecté, fiable et suffisamment central dans le graphe du réseau, sans être excessivement gros. Par exemple, j’ai ici identifié le nœud Lightning du site stacker.news, qui est très bien connecté, dispose de capacités importantes et occupe une position centrale dans le graphe du réseau.
 
-031
+![Image](assets/fr/031.webp)
 
 Une autre approche intéressante consiste à ouvrir un canal vers un nœud ayant besoin de liquidité entrante, comme un commerçant que vous connaissez, une association ou une communauté. Cette stratégie présente trois avantages :
 - L’entité choisie ayant besoin de liquidité entrante, elle sera logiquement moins incitée à fermer votre canal sans raison ;
@@ -614,45 +614,45 @@ Maintenant que nous avons identifié le nœud avec lequel ouvrir notre premier c
 
 Depuis l’interface principale de LND, repérez votre `Bitcoin Wallet`, puis cliquez sur le bouton `Deposit`. Une adresse de réception onchain est alors générée : envoyez-y des sats. Le montant à transférer dépend de la capacité que vous souhaitez allouer à votre premier canal, mais gardez en tête qu’il faut envoyer légèrement plus que la capacité visée. Par exemple, si vous souhaitez ouvrir un canal de 500 000 sats, n’envoyez pas exactement 500 000 sats, mais un montant supérieur.
 
-032
+![Image](assets/fr/032.webp)
 
 Une fois la transaction diffusée, elle apparaît dans l’interface. Attendez qu’elle soit confirmée avant de procéder à l’ouverture du canal. Vous verrez une flèche vert à côté de celle-ci lorsque ce sera le cas.
 
-033
+![Image](assets/fr/033.webp)
 
 Descendez sur l'interface principale, puis cliquez sur `+ OPEN CHANNEL`.
 
-034
+![Image](assets/fr/034.webp)
 
 Renseignez le `Node ID` du nœud avec lequel vous souhaitez ouvrir un canal, indiquez le montant que vous voulez y bloquer, puis ajustez les frais de la transaction d’ouverture en fonction de l’état du marché des frais onchain. Évidemment, assurez-vous de disposer, au préalable, d’un solde suffisant dans votre portefeuille onchain LND.
 
 Une fois tous les paramètres complétés, cliquez sur le bouton `OPEN CHANNEL`.
 
-035
+![Image](assets/fr/035.webp)
 
 Patientez ensuite le temps que la transaction d’ouverture soit confirmée onchain. Votre premier canal sera alors officiellement opérationnel : félicitations !
 
 On peut constater que, pour le moment, la liquidité du canal est à 100 % de mon côté : c’est normal, puisque c’est moi qui ai ouvert le canal. Au fil des paiements et du routage, cette répartition va évoluer, mais la capacité totale du canal restera toujours identique.
 
-036
+![Image](assets/fr/036.webp)
 
 Maintenant que vous disposez d’un canal, vous pouvez effectuer vos premiers paiements sur Lightning, à condition que le nœud choisi soit correctement connecté au réseau. Nous verrons bien sûr, dans les chapitres suivants, comment mettre en place une méthode plus pratique pour payer des invoices Lightning depuis votre mobile. Mais pour l’instant, essayons d’effectuer un premier paiement directement depuis LND sur Umbrel.
 
 Pour cela, dans la section `Lightning Wallet`, cliquez sur le bouton `SEND`, puis collez l’invoice à régler.
 
-037
+![Image](assets/fr/037.webp)
 
 Le montant de l’invoice s’affiche. Validez le paiement en cliquant sur le bouton `SEND`.
 
-038
+![Image](assets/fr/038.webp)
 
 Si une route valide est trouvée, votre premier paiement Lightning devrait aboutir.
 
-039
+![Image](assets/fr/039.webp)
 
 Si l’on observe ensuite la répartition des liquidités dans le canal, on voit que mon pair dispose désormais de 5 002 sats de son côté. Cela correspond aux 5 000 sats du paiement que je viens d’effectuer et qu’il a routé vers le nœud du destinataire. Les 2 sats supplémentaires représentent les frais de routage que j’ai payés, puisque le destinataire a bien reçu exactement 5 000 sats.
 
-040
+![Image](assets/fr/040.webp)
 
 Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire d’ouvrir d’autres canaux. En fonction de nos objectifs, nous devrons également trouver un moyen de disposer de liquidité entrante afin de pouvoir recevoir des paiements sur Lightning. Ce sera précisément le sujet de la prochaine partie.
 
@@ -677,7 +677,7 @@ C’est le profil de la grande majorité des utilisateurs. Vous exploitez votre 
 
 Ce profil est le plus simple à gérer, car votre besoin principal est d’être capable de payer. Concrètement, cela signifie que vous devez disposer de liquidité sortante. Une fois que vous avez ouvert un ou plusieurs canaux correctement dimensionnés vers des nœuds stables et bien connectés, vos paiements sortants déplaceront mécaniquement la liquidité vers l’autre côté de vos canaux. C’est justement ce mouvement qui finit par créer naturellement une quantité raisonnable de liquidité entrante. Résultat : même si vous ne cherchez pas à recevoir régulièrement, vous serez tout de même capable de recevoir de temps en temps sans mettre en place une stratégie complexe. Vous n'avez donc pas besoin de vous soucier de vos liquidités entrantes.
 
-Dans ce cours LNP 202, nous allons nous concentrer sur ce profil "consommateur" d'opérateur de nœud, car c’est celui qui correspond à la quasi-totalité des utilisateurs de Bitcoin sur Lightning.
+Dans ce cours LNP 202, nous allons nous concentrer sur ce profil "*consommateur*" d'opérateur de nœud, car c’est celui qui correspond à la quasi-totalité des utilisateurs de Bitcoin sur Lightning.
 
 ### Le commerçant
 
@@ -727,23 +727,23 @@ https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 Ces logiciels peuvent tous être installés très facilement depuis l’App Store d’Umbrel. Comme je vous l’indiquais, nous allons utiliser ThunderHub ici, mais si vous souhaitez en tester un autre par la suite, la procédure sera similaire.
 
-041
+![Image](assets/fr/041.webp)
 
 Umbrel vous fournit un mot de passe par défaut pour accéder à ThunderHub. Copiez-le : vous en aurez besoin juste après. Pensez également à l’enregistrer dans votre gestionnaire de mots de passe, car il vous sera demandé à chaque ouverture du logiciel.
 
-042
+![Image](assets/fr/042.webp)
 
 Cliquez sur `Login`, puis collez le mot de passe fourni par Umbrel afin de vous connecter.
 
-043
+![Image](assets/fr/043.webp)
 
 Vous arrivez ensuite sur la page d’accueil de ThunderHub, qui affiche les principales informations relatives à votre nœud Lightning.
 
-044
+![Image](assets/fr/044.webp)
 
 Pour commencer, je vous recommande d’activer l'authentification à deux facteurs (2FA). Dans les paramètres, cliquez simplement sur `Enable` à côté de `Enable 2FA`, puis suivez le processus classique.
 
-045
+![Image](assets/fr/045.webp)
 
 ### Utiliser ThunderHub
 
@@ -767,13 +767,13 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 Le menu qui nous intéressera le plus ici est `Channels`. Il offre une vue détaillée de l’ensemble des canaux de votre nœud, avec leur répartition de liquidités. Vous pouvez notamment consulter les canaux ouverts dans `Open`, ceux en attente d’ouverture ou de fermeture dans `Pending`, et les canaux déjà fermés dans `Closed`.
 
-047
+![Image](assets/fr/047.webp)
 
 Pour un canal donné, vous pouvez cliquer sur le nom du pair ou sur l’identifiant du canal afin d’ouvrir sa page Amboss et obtenir plus d’informations. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier les paramètres du canal, notamment la politique de frais appliquée à ce canal si votre nœud route des paiements vers celui de votre pair.
 
-048
+![Image](assets/fr/048.webp)
 
-Si vous utilisez votre nœud Lightning principalement comme "consommateur", il n’est pas nécessaire de modifier ces frais : vous pouvez conserver les valeurs par défaut. En revanche, si vous souhaitez mieux comprendre le fonctionnement des frais de routage sur Lightning, je vous recommande la formation LNP 201, et en particulier le chapitre 4.1 :
+Si vous utilisez votre nœud Lightning principalement comme "*consommateur*", il n’est pas nécessaire de modifier ces frais : vous pouvez conserver les valeurs par défaut. En revanche, si vous souhaitez mieux comprendre le fonctionnement des frais de routage sur Lightning, je vous recommande la formation LNP 201, et en particulier le chapitre 4.1 :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -781,15 +781,15 @@ En cliquant sur la petite croix à côté d’un pair, vous pouvez initier la fe
 
 Deux options s’offrent alors à vous. La première, toujours préférable, est la fermeture coopérative. En confirmant cette action, votre nœud demande à votre pair de fermer le canal de manière conjointe. S’il accepte, vous pouvez diffuser la transaction de fermeture onchain et récupérer votre part des fonds. Les avantages de cette méthode sont que vous choisissez les frais onchain de la transaction, ce qui évite ainsi des coûts inutiles, et que les fonds sont récupérés plus rapidement, sans aucun timelock.
 
-049
+![Image](assets/fr/049.webp)
 
 La seconde option est la fermeture forcée. Dans ce cas, vous ne sollicitez pas l’accord du pair et diffusez directement la dernière transaction d’engagement en votre possession. Je vous déconseille cette méthode sauf en dernier recours, par exemple si le pair refuse systématiquement les fermetures coopératives ou ne répond plus. La fermeture forcée présente deux inconvénients majeurs : des frais souvent très élevés, car ils ont été définis à l’avance pour anticiper une hausse des frais onchain, et un délai de récupération des fonds, puisqu'ils sont bloqués par un timelock. Ce timelock permet de laisser le temps à votre pair de réagir en cas de tentative de triche (ce n'est évidemment pas le cas ici, mais il faut tout de même attendre).
 
-050
+![Image](assets/fr/050.webp)
 
 Enfin, pour ouvrir un nouveau canal, rendez-vous dans le menu `Home` et cliquez sur `Open a Channel` dans la section `Liquidity`. Vous pourrez alors renseigner l’identifiant du nœud choisi, la capacité du canal, les frais de routage Lightning souhaités, ainsi que les frais onchain pour la transaction d’ouverture.
 
-051
+![Image](assets/fr/051.webp)
 
 Voilà pour les principales actions dont vous aurez besoin sur ThunderHub. Nous découvrirons d’autres fonctionnalités au fil des besoins dans ce cours LNP 202.
 
@@ -798,9 +798,9 @@ Voilà pour les principales actions dont vous aurez besoin sur ThunderHub. Nous 
 
 Vous l’aurez compris : disposer de liquidité sortante pour effectuer des paiements sur Lightning n’est pas particulièrement complexe. Il suffit d’ouvrir des canaux de votre propre initiative vers d’autres nœuds pour commencer à envoyer des sats. En revanche, disposer de liquidité entrante, pour recevoir des paiements sur Lightning, est plus compliqué, puisqu’il faut soit que d’autres nœuds ouvrent des canaux vers vous, soit que vous déplaciez vous-même la liquidité en effectuant des paiements.
 
-Si vous adoptez un profil de "consommateur", il n’y a généralement pas lieu de s’inquiéter de la liquidité entrante. Votre usage du nœud Lightning sera majoritairement orienté vers les paiements plutôt que vers les encaissements. En effectuant simplement quelques paiements Lightning, vous créerez naturellement de la liquidité entrante au fil du temps.
+Si vous adoptez un profil de "*consommateur*", il n’y a généralement pas lieu de s’inquiéter de la liquidité entrante. Votre usage du nœud Lightning sera majoritairement orienté vers les paiements plutôt que vers les encaissements. En effectuant simplement quelques paiements Lightning, vous créerez naturellement de la liquidité entrante au fil du temps.
 
-En revanche, si vous êtes dans un profil de "commerçant", la situation est inversée : vous allez principalement encaisser des paiements et en effectuer peu. Vous ne pouvez donc pas compter uniquement sur vos propres paiements pour disposer de liquidité entrante. Il devient alors nécessaire que d’autres nœuds Lightning ouvrent des canaux vers le vôtre. Mais comment y parvenir ? Comment inciter d’autres opérateurs à immobiliser du capital pour vous ? C’est précisément ce que nous allons explorer dans ce chapitre.
+En revanche, si vous êtes dans un profil de "*commerçant*", la situation est inversée : vous allez principalement encaisser des paiements et en effectuer peu. Vous ne pouvez donc pas compter uniquement sur vos propres paiements pour disposer de liquidité entrante. Il devient alors nécessaire que d’autres nœuds Lightning ouvrent des canaux vers le vôtre. Mais comment y parvenir ? Comment inciter d’autres opérateurs à immobiliser du capital pour vous ? C’est précisément ce que nous allons explorer dans ce chapitre.
 
 ### Acheter de la liquidité entrante
 
@@ -812,41 +812,41 @@ Il existe de nombreuses méthodes pour acheter de la liquidité entrante. Celle 
 
 Rendez-vous sur [le site de Magma](https://magma.amboss.tech/buy), dans la section `Buy Channels`.
 
-052
+![Image](assets/fr/052.webp)
 
 Si vous le souhaitez, vous pouvez créer un compte afin de suivre vos différents achats, mais ce n’est pas obligatoire. Si vous ne créez pas de compte, Magma vous fournira simplement un identifiant de session, qui vous permettra de retrouver vos achats ultérieurement.
 
 Une fois sur le site, renseignez les informations nécessaires à l’achat de liquidité. Sélectionnez `One Time` pour un achat ponctuel, puis indiquez le montant que vous êtes prêt à payer pour obtenir de la liquidité entrante. Plus le montant payé est élevé, plus le canal ouvert vers votre nœud aura une grande capacité. Une estimation de la capacité du canal apparaît en dessous : il s’agit d’une approximation, car le montant final dépendra de la meilleure offre trouvée par Magma, qui est parfois supérieure, parfois inférieure.
 
-053
+![Image](assets/fr/053.webp)
 
 Renseignez ensuite l’identifiant de votre nœud. Vous pouvez le retrouver dans le menu `Node ID` de l’application `Lightning Node` sur Umbrel.
 
-054
+![Image](assets/fr/054.webp)
 
 Une fois toutes les informations complétées, cliquez sur le bouton `Review & open order`.
 
-055
+![Image](assets/fr/055.webp)
 
 Si vous n’avez pas créé de compte, Magma vous fournit une clé de session ainsi qu’un fichier de sauvegarde. Conservez soigneusement ces deux éléments, car ils vous permettront de retrouver cette commande ultérieurement ou de suivre son état en cas de problème. Une fois la sauvegarde effectuée, cliquez sur le bouton `Pay with Lightning`.
 
-056
+![Image](assets/fr/056.webp)
 
 Magma génère alors une invoice Lightning correspondant au montant que vous avez choisi. Vous devez la payer. Si vous disposez déjà de canaux sur votre nœud Lightning, vous pouvez la payer directement depuis celui-ci, ou utiliser un autre portefeuille Lightning externe.
 
-057
+![Image](assets/fr/057.webp)
 
 Une fois le paiement effectué, la transaction apparaît comme en cours de traitement dans l’interface Magma.
 
-058
+![Image](assets/fr/058.webp)
 
 Après quelques minutes, la demande est traitée : un canal avec des sats est en cours d’ouverture vers votre nœud Lightning. Une fois la transaction d’ouverture confirmée onchain, vous disposerez de la liquidité entrante correspondante.
 
-059
+![Image](assets/fr/059.webp)
 
 Magma est également intégré directement dans ThunderHub. Dans l’onglet `Home`, descendez jusqu’à la section `Liquidity` et cliquez sur `Buy Inbound Liquidity`. Il vous suffira alors d’indiquer le montant souhaité et de confirmer. Aucune invoice n’est à payer manuellement, car ThunderHub se charge automatiquement du paiement depuis votre nœud.
 
-060
+![Image](assets/fr/060.webp)
 
 Si vous êtes commerçant, ce type de service est particulièrement adapté, car il permet d’obtenir rapidement une quantité importante de liquidité entrante depuis des nœuds fiables, ce qui garantit que vos clients pourront vous payer sans difficulté. En revanche, si vous êtes un particulier ou si vous ne souhaitez pas payer pour disposer de liquidité entrante, il existe également des solutions gratuites. Voyons cela ensemble.
 
@@ -868,43 +868,43 @@ Prenons un exemple pour bien comprendre le fonctionnement de Lightning Network +
 
 Bien entendu, il n’existe aucun mécanisme technique garantissant qu’un participant ouvrira effectivement le canal qu’il s’est engagé à créer. C’est pourquoi la plateforme a mis en place un système de réputation, basé sur des avis positifs lorsque les opérateurs respectent leurs engagements. Et dans le pire des cas, si vous tombez sur une personne qui ne coopère pas, vous n’aurez pas perdu d’argent : vous aurez simplement manqué une opportunité d'avoir de la liquidité entrante.
 
-Cette solution est particulièrement adaptée à un profil de "consommateur", car elle permet d’obtenir gratuitement de la liquidité entrante, tout en connectant son nœud à d’autres petits opérateurs. En revanche, si vous êtes commerçant, cette approche n’est généralement pas pertinente : chaque sat de liquidité entrante nécessite de bloquer un sat de liquidité sortante, et vos besoins importants en liquidité entrante impliqueraient alors une immobilisation de capital trop élevée.
+Cette solution est particulièrement adaptée à un profil de "*consommateur*", car elle permet d’obtenir gratuitement de la liquidité entrante, tout en connectant son nœud à d’autres petits opérateurs. En revanche, si vous êtes commerçant, cette approche n’est généralement pas pertinente : chaque sat de liquidité entrante nécessite de bloquer un sat de liquidité sortante, et vos besoins importants en liquidité entrante impliqueraient alors une immobilisation de capital trop élevée.
 
 Pour utiliser Lightning Network +, deux options s’offrent à vous : soit passer par l’application intégrée à Umbrel, soit utiliser le site web classique et créer un compte en vous connectant depuis votre nœud. Je vous recommande cette seconde solution, car l’application intégrée ne propose pas l’ensemble des fonctionnalités disponibles.
 
 Rendez-vous sur le site de [Lightning Network +](https://lightningnetwork.plus/) et cliquez sur le bouton `Login` en haut à droite de l’interface.
 
-061
+![Image](assets/fr/061.webp)
 
 Pour vous authentifier, vous devez signer le message fourni à l’aide de la clé privée de votre nœud Lightning. Avec ThunderHub, cette opération est très simple. Commencez par copier le message affiché par LN+.
 
-062
+![Image](assets/fr/062.webp)
 
 Dans ThunderHub, allez dans l’onglet `Tools`, puis cliquez sur le bouton `Sign` dans la section `Messages`.
 
-063
+![Image](assets/fr/063.webp)
 
 Collez le message d’authentification fourni par LN+, puis cliquez sur `Sign`.
 
-064
+![Image](assets/fr/064.webp)
 
 ThunderHub signe alors ce message à l’aide de la clé privée de votre nœud. Copiez la signature générée.
 
-065
+![Image](assets/fr/065.webp)
 
 Collez cette signature dans le champ correspondant sur le site LN+, puis cliquez sur `Sign in`.
 
-066
+![Image](assets/fr/066.webp)
 
 Vous êtes maintenant connecté à LN+ avec votre nœud Lightning. Ce processus permet à LN+ de vérifier que vous êtes bien le propriétaire légitime du nœud que vous revendiquez sur leur plateforme.
 
-067
+![Image](assets/fr/067.webp)
 
 Si vous le souhaitez, vous pouvez personnaliser votre profil LN+, par exemple en ajoutant une courte biographie.
 
 Pour participer à votre première ouverture de canaux circulaire, rendez-vous dans le menu `Swaps` en haut de l’interface. Vous y trouverez l’ensemble des swaps actuellement disponibles en fonction des caractéristiques de votre nœud.
 
-068
+![Image](assets/fr/068.webp)
 
 Pour rejoindre une offre de swap existante, il suffit de cliquer dessus puis de s’inscrire. Toutefois, sur LN+, le créateur d’un swap peut imposer certaines conditions aux participants, notamment un nombre minimal de canaux ou une capacité totale minimale du nœud. Il est donc possible, surtout au début, que peu d’offres soient accessibles à votre nœud. Dans mon cas, malgré quelques canaux déjà ouverts, aucune offre n’était disponible pour mon nœud. J’ai donc créé mon propre swap, et vous pouvez faire de même si vous êtes dans la même situation.
 
@@ -916,39 +916,39 @@ Cliquez sur `Start Liquidity Swap`, puis renseignez les paramètres de votre off
 
 Une fois tous les paramètres définis, cliquez sur le bouton `Start Liquidity Swap`.
 
-069
+![Image](assets/fr/069.webp)
 
 Votre offre de swap est maintenant créée. Il ne reste plus qu’à attendre que d’autres opérateurs de nœuds s’y inscrivent. Si vos conditions ne sont pas trop restrictives, cela ne devrait pas prendre trop de temps. Pensez à surveiller l’état de votre swap dans les heures ou les jours suivants.
 
-070
+![Image](assets/fr/070.webp)
 
 Toutes les places du swap ont été prises : nous passons désormais à la phase d’ouverture des canaux. Chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning.
 
-084
+![Image](assets/fr/084.webp)
 
 De votre côté, ouvrez le canal en utilisant le Node ID fourni par LN+ et en respectant le montant indiqué. Comme nous l’avons vu dans les chapitres précédents, vous pouvez effectuer cette ouverture soit via ThunderHub, soit avec un autre gestionnaire de nœud Lightning, soit directement depuis l’interface de base de l’application `Lightning Node`.
 
-085
+![Image](assets/fr/085.webp)
 
 Une fois l’ouverture lancée, vous pouvez la voir apparaître dans la section des canaux en attente. Dans mon cas, il s’agit du canal avec le nœud `Plebian_fr`.
 
-086
+![Image](assets/fr/086.webp)
 
 Vous pouvez ensuite retourner sur LN+ afin de confirmer que vous avez bien initié l’ouverture du canal. Cliquez simplement sur le bouton `Channel Opening Started`.
 
-087
+![Image](assets/fr/087.webp)
 
 Lorsque tous les autres participants ont également ouvert le canal auquel ils s’étaient engagés, pensez à leur laisser un avis positif.
 
-088
+![Image](assets/fr/088.webp)
 
 En cas de difficulté ou de retard, vous pouvez contacter vos pairs directement via la section commentaires située en bas de la page.
 
-089
+![Image](assets/fr/089.webp)
 
-Il arrive que certains participants souhaitent rééquilibrer les canaux circulaires dès le départ, en effectuant un paiement vers eux-mêmes. Cela permet d’obtenir une répartition équilibrée des liquidités dans chaque canal. Si vous êtes dans un profil de "consommateur", ce n’est pas indispensable, mais vous pouvez soit effectuer ce rééquilibrage vous-même si vous le souhaitez, soit fixer temporairement les frais de vos canaux à zéro afin de faciliter l’opération pour le pair qui souhaite s’en charger. Parfois personne ne souhaite le faire.
+Il arrive que certains participants souhaitent rééquilibrer les canaux circulaires dès le départ, en effectuant un paiement vers eux-mêmes. Cela permet d’obtenir une répartition équilibrée des liquidités dans chaque canal. Si vous êtes dans un profil de "*consommateur*", ce n’est pas indispensable, mais vous pouvez soit effectuer ce rééquilibrage vous-même si vous le souhaitez, soit fixer temporairement les frais de vos canaux à zéro afin de faciliter l’opération pour le pair qui souhaite s’en charger. Parfois personne ne souhaite le faire.
 
-090
+![Image](assets/fr/090.webp)
 
 
 # Libérer le potentiel de son nœud Lightning
@@ -981,59 +981,59 @@ Pour cette première méthode, nous allons avoir besoin de Tailscale. Il s’agi
 
 Pour l’utiliser, vous devez commencer par créer un compte. Rendez-vous sur le site de Tailscale, puis cliquez sur le bouton `Get Started`.
 
-071
+![Image](assets/fr/071.webp)
 
 Choisissez ensuite un fournisseur d’identité pour votre compte Tailscale. Personnellement, j’ai utilisé l’un de mes comptes GitHub pour me connecter.
 
-072
+![Image](assets/fr/072.webp)
 
 Une fois connecté, quelques questions vous seront posées concernant votre usage. Répondez-y brièvement afin de poursuivre.
 
-073
+![Image](assets/fr/073.webp)
 
 Tailscale vous propose ensuite d’installer un client sur votre machine. Pour l’instant, ce n’est pas ce qui nous intéresse : rendez-vous directement sur Umbrel et installez l’application Tailscale depuis l’App Store.
 
-074
+![Image](assets/fr/074.webp)
 
 À l’ouverture de l’application, cliquez sur `Log In`, puis suivez le processus d’authentification en utilisant la même méthode que lors de la création de votre compte.
 
-075
+![Image](assets/fr/075.webp)
 
 Cliquez sur `Connect` pour confirmer. Votre Umbrel est maintenant connecté à votre réseau VPN.
 
-076
+![Image](assets/fr/076.webp)
 
 Téléchargez ensuite l’application Tailscale sur votre smartphone et connectez-vous de la même manière, avec le même compte. Attention : sur Android, il n’est pas possible d’utiliser deux VPN simultanément. Pour que Tailscale fonctionne, vous devrez donc désactiver tout autre VPN actif. De plus, chaque fois que vous souhaiterez utiliser votre nœud Lightning via Zeus, il faudra impérativement que le VPN Tailscale soit activé, sans quoi la connexion ne pourra pas s’établir.
 
-077
+![Image](assets/fr/077.webp)
 
 Sur le site de Tailscale, maintenant qu’au moins deux clients sont connectés, vous pouvez accéder à la console d’administration avec la liste de tous vos appareils connectés au réseau et leurs adresses IP Tailscale.
 
-078
+![Image](assets/fr/078.webp)
 
 ### Connecter Zeus
 
 Installez l’application Zeus sur votre téléphone. À l’ouverture, sélectionnez `Advanced Setup`, puis `Create or connect a wallet`.
 
-079
+![Image](assets/fr/079.webp)
 
 Dans la section `Wallet interface`, choisissez `LND (REST)`. Renseignez ensuite l’adresse Tailscale de votre Umbrel, que vous pouvez retrouver depuis votre tableau de bord Tailscale ou directement dans l’application Tailscale sur Umbrel. Pour le port, indiquez `8080`.
 
-080
+![Image](assets/fr/080.webp)
 
 Zeus vous demande ensuite de fournir un `Macaroon`. Il s’agit d’un jeton d’autorisation permettant de définir précisément les droits accordés à une application (en l’occurrence Zeus) pour interagir avec votre nœud Lightning. Il est possible de générer un macaroon depuis ThunderHub, dans le menu `Tools`, sous-menu `Bakery`, mais pour cet usage, le plus simple est de le récupérer directement depuis l’application `Lightning Node`.
 
 Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Connect Wallet`. Vous pourrez alors copier un macaroon disposant des droits appropriés.
 
-081
+![Image](assets/fr/081.webp)
 
 Collez-le dans le champ correspondant dans Zeus, puis cliquez sur le bouton `SAVE WALLET CONFIG`.
 
-082
+![Image](assets/fr/082.webp)
 
 Vous avez maintenant accès à votre nœud Lightning depuis l’application Zeus. Vous pouvez ainsi générer des invoices pour recevoir des paiements directement sur votre nœud Lightning depuis votre smartphone, et également régler des invoices Lightning, où que vous soyez.
 
-083
+![Image](assets/fr/083.webp)
 
 Astuce : Tailscale ne se limite pas à l’utilisation de votre nœud Lightning à distance. Il vous permet d’accéder à l’ensemble des outils de votre Umbrel depuis d’autres logiciels, même à distance. Par exemple, vous pouvez utiliser l’adresse IP Tailscale de votre Umbrel pour connecter votre nœud Bitcoin (via Electrs ou Fulcrum) à Sparrow Wallet, sans passer par Tor. Cela permet d’éviter, une fois de plus, les lenteurs inhérentes à Tor.
 
@@ -1060,19 +1060,19 @@ La différence de modèle de sécurité est également importante. Avec Tailscal
 
 Auparavant, il existait une application spécifiquement dédiée aux connexions NWC dans l’App Store d’Umbrel, mais elle n’est malheureusement plus disponible aujourd’hui. Il faut donc désormais passer par Alby Hub pour établir ce type de connexion. Pour cela, commencez par installer l’application Alby Hub directement depuis le store.
 
-091
+![Image](assets/fr/091.webp)
 
 À l’ouverture, passez les écrans d’introduction, puis cliquez sur le bouton `Get Started (LND)`. Il est important de vérifier qu’il est bien indiqué `LND`, et non `LDK`, entre parenthèses. Si `LND` apparaît, cela signifie qu’Alby Hub a correctement détecté votre nœud Lightning existant et va se configurer comme interface pour celui-ci. En revanche, si `LDK` est affiché, cela indique qu’Alby Hub n’a pas détecté votre nœud et s’apprête à en créer un nouveau, ce qui n’est pas l’objectif ici.
 
-092
+![Image](assets/fr/092.webp)
 
 Il vous est ensuite proposé de connecter un compte Alby. Pour un usage limité à NWC, ce n’est pas nécessaire, mais vous pouvez le faire si vous souhaitez profiter des services spécifiques d’Alby. Si ce n’est pas le cas, cliquez sur `Maybe later` pour continuer.
 
-093
+![Image](assets/fr/093.webp)
 
 Choisissez ensuite un mot de passe fort et unique. Celui-ci protège l’accès à Alby Hub sur votre nœud. Pensez à l’enregistrer dans votre gestionnaire de mots de passe.
 
-094
+![Image](assets/fr/094.webp)
 
 Vous arrivez alors sur l’interface d’Alby Hub. Il n’est pas nécessaire de procéder à l’ensemble de la configuration, sauf si vous souhaitez l’utiliser comme gestionnaire principal de votre nœud Lightning. Comme vu précédemment, Alby Hub peut en effet remplacer l’usage de ThunderHub pour l’administration de votre nœud. Si vous souhaitez en savoir plus sur les options d'Alby Hub, consultez notre tutoriel dédié :
 
@@ -1080,11 +1080,11 @@ https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 Rendez-vous dans le menu `Connections`.
 
-095
+![Image](assets/fr/095.webp)
 
 Vous pouvez y voir toutes les applications pouvant se connecter à votre nœud Lightning via NWC. Parmi elles figure notamment Zeus, déjà évoquée dans le chapitre précédent. Ici, nous allons utiliser Alby Go. Cliquez donc sur Alby Go, puis sur le bouton `Connect to Alby Go` afin de lancer le processus de connexion.
 
-096
+![Image](assets/fr/096.webp)
 
 ### Installer et connecter Alby Go
 
@@ -1095,27 +1095,27 @@ Sur votre smartphone, installez l’application Alby Go :
 
 Dans Alby Hub, configurez ensuite les droits que vous souhaitez accorder à l’application Alby Go sur votre nœud Lightning. Vous pouvez par exemple définir des limites de dépenses par période, une date d’expiration pour le lien NWC ou bien laisser un contrôle total. Une fois les paramètres définis, cliquez sur le bouton `Next`.
 
-097
+![Image](assets/fr/097.webp)
 
 Alby Hub génère alors un QR code permettant d’établir la connexion NWC entre votre nœud Lightning et Alby Go.
 
-098
+![Image](assets/fr/098.webp)
 
 Sur l’application Alby Go, lors de la première ouverture, cliquez sur `Connect Wallet`, puis scannez le QR code fourni par Alby Hub.
 
-099
+![Image](assets/fr/099.webp)
 
 Choisissez un nom pour identifier ce wallet. Vous avez désormais accès à votre nœud Lightning à distance via Alby Go. Vous pouvez générer des invoices pour recevoir des sats sur votre nœud, ou régler des invoices Lightning directement avec celui-ci.
 
-100
+![Image](assets/fr/100.webp)
 
 Par exemple, j’ai envoyé 1543 sats depuis l’interface d’Alby Go.
 
-101
+![Image](assets/fr/101.webp)
 
 Si je me rends sur l’interface de base de mon nœud Lightning sur Umbrel, je peux constater que ce paiement a bien été effectué par mon nœud.
 
-102
+![Image](assets/fr/102.webp)
 
 Vous savez dorénavant comment utiliser facilement votre nœud Lightning depuis n'importe quel endroit.
 

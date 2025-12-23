@@ -2180,13 +2180,13 @@ I nodi Bitcoin sono la spina dorsale della rete Bitcoin. Si connettono tra loro,
 #### Bitcoin Core
 
 
-Bitcoin core è l'implementazione Full node più diffusa. Svolge la doppia funzione di Full node e Wallet. Gli aspetti chiave del Bitcoin core includono:
+Bitcoin core è l'implementazione di full node più diffusa. Svolge la doppia funzione di full node e wallet. Gli aspetti chiave di Bitcoin Core includono:
 
 
 
-- Usabilità**: Può essere utilizzato tramite una riga di comando Interface (CLI) e un utente grafico Interface (GUI).
-- Natura open-source**: Il codice è open-source e consente agli sviluppatori di contribuire e di esaminare il suo funzionamento.
-- Linguaggio**: Scritto in C++ con test in Python, per garantire prestazioni robuste e affidabilità.
+- **Usabilità**: Può essere utilizzato tramite un'interfaccia a riga di comando (CLI) e un'interfaccia grafica (GUI).
+- **Natura open-source**: Il codice è open-source e consente agli sviluppatori di contribuire e di esaminare il suo funzionamento.
+- **Linguaggio**: Scritto in C++ con test in Python, per garantire prestazioni robuste e affidabilità.
 
 
 ![cli-gui](assets/en/039.webp)
@@ -2195,7 +2195,7 @@ Bitcoin core è l'implementazione Full node più diffusa. Svolge la doppia funzi
 ##### Esplorare il Bitcoin core
 
 
-Per fare esperienza pratica con Bitcoin core, è possibile compilare ed eseguire i test utilizzando Git. Questo processo prevede:
+Per fare esperienza pratica con Bitcoin Core, è possibile compilare ed eseguire i test utilizzando Git. Questo processo prevede:
 
 
 
@@ -2226,17 +2226,17 @@ test/functional/test_runner.py
 
 
 
-- Creare ed eseguire un test in Python per convalidare una funzionalità specifica. Il file [example.py](https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) è un esempio pesantemente commentato di un caso di test che utilizza entrambe le interfacce RPC e P2P.
+- Creare ed eseguire un test in Python per convalidare una funzionalità specifica. Il file [example.py](https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) è un esempio ampiamente commentato di un caso di test che utilizza entrambe le interfacce RPC e P2P.
 
 
 #### Implementazioni alternative dei nodi
 
 
-Oltre al Bitcoin core, esistono diverse implementazioni alternative dei nodi:
+Oltre a Bitcoin Core, esistono diverse implementazioni alternative dei nodi:
 
 
 
-- Bitcoin Knots**: Offre funzioni più avanzate rispetto al Bitcoin core, ma richiede più spazio e memoria.
+- Bitcoin Knots**: Offre funzioni più avanzate rispetto a Bitcoin Core, ma richiede più spazio e memoria.
 - LibBitcoin**: Un'implementazione flessibile e modulare.
 - btcd**: Scritto in Go, offre diverse filosofie di progettazione.
 
@@ -2250,66 +2250,66 @@ L'implementazione di queste alternative comporta dei rischi, in particolare per 
 ### Portafogli e sicurezza Bitcoin
 
 
-I portafogli Bitcoin sono fondamentali per gestire in modo sicuro le proprie disponibilità Bitcoin. Sono disponibili in varie forme, ognuna con caratteristiche e considerazioni di sicurezza diverse.
+I portafogli Bitcoin sono fondamentali per gestire in modo sicuro i propri bitcoin. Sono disponibili in varie forme, ognuna con caratteristiche e considerazioni di sicurezza diverse.
 
 
 #### Tipi di portafogli Bitcoin
 
 
-1. **Custode vs. non custode**:
+1. **Custodian vs. non custodian**:
 
 
 
-   - Portafogli del depositario**: Gestiti da terzi, offrono convenienza ma richiedono fiducia nel depositario.
-   - Portafogli non depositari**: Controllati dagli utenti, offrono maggiore sicurezza e privacy.
+   - **Custodian Wallets**: Gestiti da terzi, offrono convenienza ma richiedono fiducia nel depositario.
+   - **Non-Custodian Wallets**: Controllati dagli utenti, offrono maggiore sicurezza e privacy.
 
 
 2. **Desktop vs. mobile**:
 
 
 
-   - Portafogli desktop**: In genere più ricchi di funzioni e sicuri.
-   - Portafogli mobili**: Offrono comodità e portabilità.
+   - **Portafogli desktop**: In genere più ricchi di funzioni e sicuri.
+   - **Portafogli mobili**: Offrono comodità e portabilità.
 
 
-3. **On-Chain contro i fulmini**:
+3. **On-Chain vs. Lightning**:
 
 
 
-   - Portafogli On-Chain**: Interagiscono direttamente con il Bitcoin Blockchain.
-   - Portafogli Lightning**: Facilitano transazioni più veloci e meno costose off-chain.
+   - **Portafogli On-Chain**: Interagiscono direttamente con la blockchain di Bitcoin.
+   - **Portafogli Lightning**: Facilitano transazioni off-chain più veloci e meno costose.
 
 
-4. **Portafogli Cold vs. Portafogli Hot**:
+4. **Cold Wallet vs. Hot Wallet**:
 
 
-   - Portafogli Cold**: Non sono collegati a Internet e garantiscono una sicurezza superiore contro gli hacker.
-   - Portafogli Hot**: Collegati a Internet, offrono maggiore accessibilità ma minore sicurezza.
+   - **Cold Wallets**: Non sono collegati a Internet e garantiscono una sicurezza superiore contro gli hacker.
+   - **Hot Wallets**: Collegati a Internet, offrono maggiore accessibilità ma minore sicurezza.
 
 
 #### Sicurezza Cold Wallet
 
 
-I portafogli Cold sono apprezzati per la loro sicurezza. Rimanendo offline, sono intrinsecamente resistenti agli attacchi online. Tuttavia, è fondamentale assicurarsi che le transazioni effettuate tramite i portafogli Cold siano sicure e accurate per evitare di inviare inavvertitamente Bitcoin ad attori malintenzionati.
+I cold wallet sono apprezzati per la loro sicurezza. Rimanendo offline, sono intrinsecamente resistenti agli attacchi online. Tuttavia, è fondamentale assicurarsi che le transazioni effettuate tramite i cold wallet siano sicure e accurate per evitare di inviare inavvertitamente bitcoin ad attori malintenzionati.
 
 
-#### Portafogli per soli orologi
+#### Watch-only Wallets
 
 
-I portafogli di sola vigilanza contengono solo chiavi pubbliche, consentendo agli utenti di ricevere Bitcoin e monitorare il proprio saldo senza la possibilità di spendere. Questa funzione aggiunge un ulteriore Layer di sicurezza per coloro che hanno bisogno di tenere sotto controllo i propri averi.
+I wallet "Watch-only" contengono solo chiavi pubbliche, consentendo agli utenti di ricevere bitcoin e monitorare il proprio saldo senza la possibilità di spendere. Questa funzione aggiunge un ulteriore layer di sicurezza per coloro che hanno bisogno di tenere sotto controllo i propri averi.
 
 
 #### Funzioni di base di un Bitcoin Wallet
 
 
-Indipendentemente dal tipo, ogni Bitcoin Wallet svolge tre funzioni fondamentali:
+Indipendentemente dal tipo, ogni Bitcoin wallet svolge tre funzioni fondamentali:
 
 
-1. **Ricevere gli indirizzi Bitcoin**: Indirizzi generate e monitoraggio delle transazioni in entrata.
+1. **Ricevere bitcoin**: Genera indirizzi e monitoraggio le transazioni in entrata.
 
-2. **Invio di Bitcoin**: Crea e trasmette transazioni alla rete.
+2. **Inviare bitcoin**: Crea e trasmette transazioni al network.
 
-3. **Visualizzazione del saldo**: Mostra il saldo attuale del Wallet.
+3. **Visualizzazione del saldo**: Mostra il saldo attuale del wallet.
 
 
 #### Ruolo dei portafogli Bitcoin
@@ -2323,7 +2323,7 @@ Indipendentemente dal tipo, ogni Bitcoin Wallet svolge tre funzioni fondamentali
 
 
 
-- Controllano il Blockchain per le transazioni in entrata.
+- Controllano la blockchain per le transazioni in entrata.
 
 
 ![monitor](assets/en/042.webp)
@@ -2336,10 +2336,10 @@ Indipendentemente dal tipo, ogni Bitcoin Wallet svolge tre funzioni fondamentali
 ![tx_builder](assets/en/043.webp)
 
 
-#### Riutilizzabilità della logica Wallet
+#### Logica della Riutilizzabilità del Wallet
 
 
-Dato che tutti i portafogli Bitcoin condividono funzioni simili, riscrivere ripetutamente la logica del Wallet è inefficiente. È qui che entra in gioco il kit di sviluppo Bitcoin (BDK).
+Dato che tutti i portafogli Bitcoin condividono funzioni simili, riscrivere ripetutamente la logica del wallet è inefficiente. È qui che entra in gioco il kit di sviluppo Bitcoin (BDK).
 
 
 ### Kit di sviluppo Bitcoin (BDK) e concetti tecnici
@@ -2351,7 +2351,7 @@ Il Bitcoin Development Kit (BDK) è una libreria progettata per semplificare la 
 #### Panoramica del BDK
 
 
-BDK semplifica la creazione di Wallet fornendo funzionalità di livello superiore costruite sopra Rust Bitcoin. Supporta diversi linguaggi di programmazione attraverso i bindings, tra cui Kotlin, Swift e Python.
+BDK semplifica la creazione di wallet fornendo funzionalità di livello superiore costruite sopra Rust Bitcoin. Supporta diversi linguaggi di programmazione attraverso i bindings(collegamenti), tra cui Kotlin, Swift e Python.
 
 
 #### Altre librerie Bitcoin
@@ -2363,9 +2363,9 @@ Numerose librerie Bitcoin si rivolgono a diversi linguaggi di programmazione, co
 #### Concetti tecnici chiave
 
 
-1. **Descrittori**: I descrittori descrivono come derivare gli script e gli indirizzi Bitcoin dalle chiavi, consentendo funzionalità Wallet più flessibili e potenti.
+1. **Descriptors**: I descrittori descrivono come derivare gli script e gli indirizzi Bitcoin dalle chiavi, consentendo funzionalità del wallet più flessibili e potenti.
 
-2. **PSBT (transazioni parzialmente firmate Bitcoin)**: PSBT è un formato per le transazioni che richiedono più firme, facilitando le transazioni collaborative e una maggiore sicurezza.
+2. **PSBT (transazioni Bitcoin parzialmente firmate)**: PSBT è un formato per le transazioni che richiedono più firme, facilitando le transazioni collaborative e una maggiore sicurezza.
 
 3. **Sintassi Rust**: I concetti chiave di Rust, come `Option` per la sicurezza di null e il tipo `Result` per la gestione degli errori, sono parte integrante della comprensione e dell'uso efficace di BDK.
 
@@ -2387,7 +2387,7 @@ BDK semplifica il processo di creazione, firma e trasmissione delle transazioni:
 
 
 
-- Configurare il Wallet**: Inizializza un Wallet con i descrittori.
+- **Configurare il Wallet**: Inizializza un Wallet con i descrittori.
 
 
 ```Rust
@@ -2411,7 +2411,7 @@ Ok(())
 
 
 
-- Indirizzi generate**: Creare nuovi indirizzi per ricevere Bitcoin da un Testnet Faucet.
+- **Indirizzi generati**: Creare nuovi indirizzi per ricevere Bitcoin da un Testnet Faucet.
 
 
 ```Rust
@@ -2425,7 +2425,7 @@ let address = wallet.get_address(AddressIndex::New)?;
 
 
 
-- Controllare l'equilibrio**: Controllare il bilanciamento del Wallet, prima collegandosi a electrum, sincronizzando il Wallet e ottenendo il bilanciamento dal Wallet.
+- **Balance check**: Controllare il saldo del wallet, prima collegandosi a Electrum, sincronizzando il wallet e ottenendo il saldo.
 
 
 ```Rust
@@ -2443,7 +2443,7 @@ println!("This is your wallet balance: {}", balance);
 
 
 
-- Costruire, firmare e trasmettere transazioni**: Costruire e finalizzare le transazioni, quindi trasmetterle alla rete.
+- **Costruire, firmare e trasmettere transazioni**: Costruire e finalizzare le transazioni, quindi trasmetterle alla rete.
 
 
 ```Rust
@@ -2491,16 +2491,16 @@ L'assegnazione e la stampa del transaction ID (txid) consentono il monitoraggio 
 #### Considerazioni sull'utilità e sulla privacy di BDK
 
 
-Il BDK è prezioso per semplificare lo sviluppo del Bitcoin Wallet. Per una maggiore privacy, si consigliano strumenti come Electrum, Explora e nodi Bitcoin core personali.
+Il BDK è prezioso per semplificare lo sviluppo dei wallet Bitcoin. Per una maggiore privacy, si consigliano strumenti come Electrum, Explora e nodi Bitcoin core personali.
 
 
 #### Linguaggi di programmazione
 
 
-Nello sviluppo di progetti Bitcoin , il Rust è spesso preferito per la sua sicurezza ed efficienza. Tuttavia, la scelta del linguaggio può variare in base ai requisiti specifici del progetto e alle competenze dello sviluppatore.
+Nello sviluppo di progetti Bitcoin, Rust è spesso preferito per la sua sicurezza ed efficienza. Tuttavia, la scelta del linguaggio può variare in base ai requisiti specifici del progetto e alle competenze dello sviluppatore.
 
 
-#### Dipendenze BDK
+#### BDK dependencies
 
 
 BDK si basa su diverse dipendenze chiave, tra cui Rust-Bitcoin e Rust-Miniscipt. Possono essere impiegate librerie aggiuntive per la gestione dei database e la crittografia.
@@ -2534,25 +2534,25 @@ Benvenuti alla nostra conferenza sulle moderne soluzioni di pagamento nell'ambit
 #### Panoramica e contesto storico
 
 
-Le chiusure multi-hop (MHL) e il Lightning Network sono concetti avanzati della tecnologia Blockchain che facilitano micropagamenti efficienti e sicuri attraverso la rete. Storicamente, la necessità di queste innovazioni è nata dalle inefficienze e dalle limitazioni osservate nella distribuzione iniziale delle tecnologie Blockchain, in particolare della Bitcoin. Approfondendo l'argomento, capirete come le strutture basate su argomenti e gli approcci a strati abbiano rivoluzionato le transazioni Blockchain.
+Le chiusure multi-hop (MHL) e il Lightning Network sono concetti avanzati della tecnologia Blockchain che facilitano micropagamenti efficienti e sicuri attraverso la rete. Storicamente, la necessità di queste innovazioni è nata dalle inefficienze e dalle limitazioni osservate nella distribuzione iniziale delle tecnologie blockchain, in particolare di Bitcoin. Approfondendo l'argomento, capirete come le strutture basate su topic e gli approcci a strati abbiano rivoluzionato le transazioni blockchain.
 
 
 ### Struttura basata su argomenti
 
 
-L'introduzione degli MHL e del Lightning Network rappresenta un cambiamento di paradigma dalle transazioni Blockchain tradizionali e lineari a sistemi più sofisticati e a più livelli. Compartimentando le transazioni in argomenti o segmenti specifici, queste innovazioni consentono un'infrastruttura di pagamento più scalabile e sicura che risolve molti dei problemi intrinseci alle prime implementazioni del Blockchain.
+L'introduzione degli MHL e del Lightning Network rappresenta un cambiamento di paradigma dalle transazioni blockchain tradizionali e lineari a sistemi più sofisticati e a più livelli. Compartimentando le transazioni in argomenti o segmenti specifici, queste innovazioni consentono un'infrastruttura di pagamento più scalabile e sicura che risolve molti dei problemi intrinseci alle prime implementazioni della blockchain.
 
 
 ### Problemi con il Bitcoin
 
 
-Bitcoin, il pioniere della tecnologia Blockchain, ha introdotto un sistema decentralizzato in cui le transazioni vengono trasmesse all'intera rete. Pur essendo rivoluzionario, questo metodo è intrinsecamente inefficiente. Ogni nodo della rete deve convalidare ogni transazione, con conseguenti ritardi e colli di bottiglia, soprattutto in caso di elevati volumi di transazioni.
+Bitcoin, il pioniere della tecnologia Blockchain, ha introdotto un sistema decentralizzato in cui le transazioni vengono trasmesse all'intero network. Pur essendo rivoluzionario, questo metodo è intrinsecamente inefficiente. Ogni nodo della rete deve convalidare ogni transazione, con conseguenti ritardi e colli di bottiglia, soprattutto in caso di elevati volumi di transazioni.
 
 
 Il processo di validazione decentralizzato di Bitcoin richiede notevoli risorse computazionali. Ogni transazione deve essere verificata e registrata da più nodi, consumando enormi quantità di energia e potenza di elaborazione. Questo non solo fa lievitare i costi operativi, ma mette anche a dura prova la larghezza di banda della rete, con conseguente aumento delle commissioni sulle transazioni e rallentamento dei tempi di elaborazione.
 
 
-La decentralizzazione del Bitcoin è uno dei suoi principali punti di forza, ma pone anche sfide significative. La natura pubblica del Blockchain significa che tutte le transazioni sono visibili a tutti, sollevando problemi di privacy. Inoltre, la necessità di consenso tra numerosi nodi può portare a pressioni di centralizzazione, in quanto il potere del Mining si concentra nelle mani di poche grandi entità.
+La decentralizzazione di Bitcoin è uno dei suoi principali punti di forza, ma pone anche sfide significative. La natura pubblica della blockchain significa che tutte le transazioni sono visibili a tutti, sollevando problemi di privacy. Inoltre, la necessità di consenso tra numerosi nodi può portare a pressioni di centralizzazione, in quanto il potere del mining si concentra nelle mani di poche grandi entità.
 
 
 ### I canali di pagamento come soluzione
@@ -2561,19 +2561,19 @@ La decentralizzazione del Bitcoin è uno dei suoi principali punti di forza, ma 
 ![Gold coin](assets/en/044.webp)_Gold Standard Metaphor_
 
 
-Per ovviare alle inefficienze e ai problemi di privacy del Address, i canali di pagamento sono stati proposti come una soluzione valida. I canali di micropagamento consentono di effettuare transazioni off-chain, riducendo la necessità di una costante condivisione di dati sull'intera rete. Questo alleggerisce notevolmente l'onere per il Blockchain, consentendo transazioni più rapide ed economiche.
+Per ovviare alle inefficienze e ai problemi di privacy, i canali di pagamento sono stati proposti come una soluzione valida. I canali di micropagamento consentono di effettuare transazioni off-chain, riducendo la necessità di una costante condivisione di dati sull'intera rete. Questo alleggerisce notevolmente l'onere per la blockchain, consentendo transazioni più rapide ed economiche.
 
 
-Il principio fondamentale che sta alla base dei canali di pagamento è il concetto di "prendere le transazioni off-chain". Invece di trasmettere ogni transazione all'intera rete, le parti possono aprire un canale di pagamento e condurre numerose transazioni tra di loro. Solo l'apertura e la chiusura del canale vengono registrate sul Blockchain, migliorando notevolmente l'efficienza e la privacy.
+Il principio fondamentale che sta alla base dei canali di pagamento è il concetto di "spostare" le transazioni off-chain. Invece di trasmettere ogni transazione all'intera rete, le parti possono aprire un canale di pagamento e condurre numerose transazioni tra di loro. Solo l'apertura e la chiusura del canale vengono registrate sulla blockchain, migliorando notevolmente l'efficienza e la privacy.
 
 
-Nonostante la natura off-chain dei canali di pagamento, rimane la possibilità di far rispettare le transazioni On-Chain . In caso di controversie o di tentativi di truffa da parte di una delle parti, lo stato più recente del canale può essere trasmesso al Blockchain, assicurando che le transazioni concordate siano onorate e che i fondi siano assegnati correttamente.
+Nonostante la natura off-chain dei canali di pagamento, rimane la possibilità di far rispettare le transazioni On-Chain . In caso di controversie o di tentativi di truffa da parte di una delle parti, lo stato più recente del canale può essere trasmesso alla blockchain, assicurando che le transazioni concordate siano onorate e che i fondi siano assegnati correttamente.
 
 
-I canali di pagamento rappresentano un significativo balzo in avanti nella tecnologia del Blockchain, in quanto forniscono un metodo scalabile e sicuro per condurre transazioni, risolvendo al contempo molti dei problemi fondamentali associati al Bitcoin. Continuando a innovare e a costruire su queste basi, il futuro del Blockchain appare sempre più promettente.
+I canali di pagamento rappresentano un significativo balzo in avanti nella tecnologia della blockchain, in quanto forniscono un metodo scalabile e sicuro per condurre transazioni, risolvendo al contempo molti dei problemi fondamentali associati al Bitcoin. Continuando a innovare e a costruire su queste basi, il futuro della blockchain appare sempre più promettente.
 
 
-In conclusione, la comprensione del contesto storico e delle sfide del Bitcoin, nonché delle soluzioni innovative proposte attraverso i canali MHL, Lightning Network e di pagamento, fornisce una visione completa del panorama attuale e del potenziale futuro della tecnologia Blockchain.
+In conclusione, la comprensione del contesto storico e delle sfide di Bitcoin, nonché delle soluzioni innovative proposte attraverso i canali MHL, Lightning Network e di pagamento, fornisce una visione completa del panorama attuale e del potenziale futuro della tecnologia blockchain.
 
 
 ## Storia del routing atomico

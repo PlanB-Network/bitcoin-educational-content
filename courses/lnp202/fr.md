@@ -20,35 +20,41 @@ LNP 202 est une formation accessible aux utilisateurs intermédiaires, qui vous 
 +++
 
 
-
-
 # Introduction
-
-
+<partId>5e77c17a-0853-4f36-a988-1b4a956f49e4</partId>
 
 ## Aperçu du cours
+<chapterId>e0871abf-af6d-4221-9389-1a996aea9b79</chapterId>
 
-Ce cours LNP 202 est la suite logique de deux autres cours sur Plan ₿ Network :
-
-- BTC 202, dans lequel je vous explique comment déployer votre premier nœud Bitcoin. Il est absolument indispensable d’avoir appliqué ce qui est présenté dans BTC 202 avant de suivre LNP 202, car je pars du principe que vous disposez déjà d’un nœud Bitcoin sous Umbrel, synchronisé, configuré et sécurisé.
+LNP 202 est un cours pratique, conçu pour vous rendre autonome sur Lightning en exploitant votre propre nœud. L’objectif est simple : partir d’un nœud Bitcoin déjà en place, déployer LND sur Umbrel, sécuriser correctement l’ensemble, ouvrir et gérer vos premiers canaux, puis utiliser votre nœud au quotidien depuis un portefeuille mobile. Ce cours suppose que vous avez déjà suivi le cours BTC 202, car je pars du principe que votre nœud Bitcoin sous Umbrel est en place et synchronisé. Nous ne reviendrons pas ici sur comment mettre en place un nœud Bitcoin.
 
 https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
-- LNP 201, dans lequel Fanis Michalakis détaille le fonctionnement théorique du Lightning Network. Ce cours n’est pas obligatoire pour suivre LNP 202, mais je vous recommande vivement de le consulter au préalable, car il vous permettra de mieux comprendre les manipulations que nous allons réaliser ici.
+Pour mieux comprendre la mécanique interne de Lightning, le cours LNP 201 est également vivement recommandé, même s’il n’est pas indispensable pour suivre ce cours :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+Dans la première partie de ce cours LNP 202, nous reviendrons sur ce qu’est réellement un nœud Lightning, ce que cela change par rapport à un simple portefeuille, et pourquoi l’exploitation d’un nœud personnel constitue la seule manière d’utiliser Lightning sans déléguer vos sats à un tiers de confiance. Cette partie se terminera par un choix stratégique : déterminer quelle solution correspond à votre usage, depuis les approches les plus simples jusqu’au nœud Lightning classique, celui que nous mettrons en place dans ce cours.
+
+Dans la partie 2 du cours, vous installerez LND sur Umbrel, puis vous mettrez en place les éléments qui évitent les erreurs les plus coûteuses : une stratégie de sauvegarde réaliste et une protection contre la triche via une watchtower. Une fois ces bases en place, vous ouvrirez votre premier canal, afin de commencer à payer sur Lightning avec votre propre infrastructure.
+
+La partie 3 vous fera ensuite passer d’un nœud qui fonctionne à un nœud que vous saurez piloter. Vous commencerez par déterminer votre profil d’opérateur de nœud Lightning (consommateur, commerçant ou routeur), puis vous prendrez en main un logiciel gestionnaire complet, afin de suivre vos canaux et d’agir proprement sur votre topologie. Enfin, vous aborderez un point très important de Lightning : comment obtenir de la liquidité entrante, que ce soit via des solutions payantes ou coopératives.
+
+La partie 4 portera sur l’usage quotidien. Vous mettrez en place une connexion entre votre nœud et un client mobile, pour payer et encaisser simplement depuis votre smartphone, sans renoncer à la self-custody. Nous verrons d’abord une approche réseau via *Tailscale*, puis une approche protocole via *Nostr Wallet Connect*, avec leurs avantages et leurs compromis respectifs. Le cours se conclura par un dernier chapitre qui vous donnera les bonnes habitudes pour pérenniser votre autonomie, à la fois sur le plan opérationnel et sur le plan pédagogique.
+
+Si vous suivez ce cours LNP 202 dans l’ordre, vous disposerez à la fin d’une configuration complète pour votre nœud Lightning, fonctionnelle au quotidien, et surtout maîtrisée.
 
 
 ## Comprendre ce qu'est un nœud Lightning
+<chapterId>8275dfd8-7a72-48cc-bf7f-bc2a46063003</chapterId>
 
-Avant de lancer votre propre nœud LN, je vous propose de revoir brièvement dans ce chapitre le fonctionnement théorique de base du Lightning Network. Il est en effet important de comprendre les mécanismes en jeu, car cela vous permettra d’identifier les risques et d’adopter les bonnes pratiques pour les limiter. Je n’entrerai toutefois pas dans les détails ici, car ce n’est pas l’objectif principal de ce cours. Si vous souhaitez approfondir le sujet, je vous recommande vivement de consulter le cours LNP 201 de Fanis Michalakis, qui fait référence en la matière :
+Avant de lancer votre propre nœud, je vous propose de revoir brièvement dans ce chapitre le fonctionnement théorique de base du Lightning Network. Il est en effet important de comprendre les mécanismes en jeu, car cela vous permettra d’identifier les risques et d’adopter les bonnes pratiques pour les limiter. Je n’entrerai toutefois pas dans les détails ici, car ce n’est pas l’objectif principal de ce cours. Si vous souhaitez approfondir le sujet, je vous recommande vivement de consulter le cours LNP 201 de Fanis Michalakis, qui fait référence en la matière :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### C'est quoi un nœud Lightning ?
 
-Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. *Offchain* signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
+Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comprendre ce qu’est le Lightning Network. Il s’agit d’un protocole de couche supérieure, construit au-dessus de Bitcoin, destiné à permettre des transactions en BTC offchain, rapides (à finalité quasi instantanée) et généralement peu coûteuses. "Offchain" signifie que les transactions effectuées sur Lightning ne sont pas destinées à apparaître sur la blockchain principale de Bitcoin. Lightning constitue également une réponse, certes partielle, à l’augmentation de l’usage de Bitcoin et aux phénomènes de congestion onchain, qui suscitent des inquiétudes quant à la scalabilité du système.
 
 Pour fonctionner, Lightning repose sur l’ouverture de canaux de paiement entre les participants, au sein desquels les transactions peuvent être réalisées presque instantanément, avec des frais souvent minimes, sans qu’il soit nécessaire de les inscrire une par une sur la blockchain Bitcoin. Ces canaux peuvent rester ouverts très longtemps et ne requièrent des transactions onchain qu’au moment de leur ouverture et de leur fermeture.
 
@@ -167,6 +173,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ## Pourquoi exploiter son propre nœud Lightning ?
+<chapterId>421db24e-511c-41ed-ad68-69b0662042ea</chapterId>
 
 Répondre à cette question est assez simple, puisqu’elle est rhétorique : sans son propre nœud, on n’utilise plus réellement Lightning, mais seulement l’illusion de Lightning au travers de l’infrastructure d’une entreprise.
 
@@ -188,6 +195,7 @@ La bonne nouvelle, c’est qu’aujourd’hui, exploiter son propre nœud Lightn
 
 
 ## Choisir la solution adaptée à son usage
+<chapterId>615870e3-741d-4ec1-875d-a483e70f39d4</chapterId>
 
 Il est aujourd’hui possible d'avoir une expérience utilisateur très proche de celle d’un portefeuille Lightning custodial, tout en restant en self-custody. L’objectif de ce chapitre est justement de vous aider à choisir la voie la plus adaptée à votre profil.
 
@@ -265,8 +273,10 @@ Vous êtes un utilisateur intermédiaire ou avancé, prêt à investir du temps 
 
 
 # Créer son premier nœud Lightning
+<partId>b6db225e-61ab-437a-bccb-33d07503da15</partId>
 
 ## Installer LND avec Umbrel
+<chapterId>a0014bf3-1bd3-4311-b15b-5ef2354ec744</chapterId>
 
 Maintenant que nous avons revu les bases de Lightning et les solutions disponibles, il est temps de passer à la pratique. Pour suivre ce cours, vous aurez besoin d’un nœud Bitcoin synchronisé sur Umbrel. Cette formation LNP 202 est la continuité de BTC 202 ; si vous n’avez pas encore de nœud Bitcoin, je vous invite à suivre cette autre formation avant de revenir ici une fois votre nœud synchronisé. Je vous recommande vivement de la consulter, car je ne reviendrai pas en détail sur son fonctionnement, sa configuration, ni sur les mesures de sécurité à appliquer.
 
@@ -324,6 +334,7 @@ Cliquez ensuite sur le bouton vert `SAVE AND RESTART` afin de redémarrer votre 
 Votre nœud Lightning est désormais prêt à ouvrir ses premiers canaux pour effectuer des paiements. Mais avant cela, voyons comment protéger vos sats !
 
 ## Sauvegarder son nœud Lightning
+<chapterId>638fa75d-62af-4bf3-ab4a-b7d10ea75815</chapterId>
 
 Avant d’envoyer vos premiers sats sur votre nœud, il est important de comprendre comment fonctionne sa sauvegarde et quels sont les risques associés. Contrairement à un simple portefeuille Bitcoin onchain, la sauvegarde d’un nœud Lightning est assez complexe : une mauvaise stratégie peut mener à la perte définitive de vos fonds. Dans ce chapitre, nous allons voir ce qu’il faut réellement sauvegarder, puis comment Umbrel gère ce processus avec LND.
 
@@ -427,6 +438,7 @@ Vous savez désormais comment protéger les sats de votre nœud Lightning face a
 
 
 ## Watchtower : rôle et mise en place
+<chapterId>e6c654dd-26c5-4e4d-8d11-a215bac37812</chapterId>
 
 Sur Lightning, chaque canal repose sur une suite d’états successifs, représentés par des transactions d’engagement non publiées. À chaque paiement ou routage Lightning, les 2 participants du canal construisent un nouveau couple de transactions d’engagement qui reflète la répartition actuelle des fonds dans le canal. Les anciennes transactions d’engagement deviennent alors obsolètes.
 
@@ -523,6 +535,7 @@ Si vous revenez dans ce même menu, vous pourrez constater que votre nœud Light
 Une watchtower altruiste est généralement suffisante, surtout si vous ne placez pas de montants trop importants sur votre nœud Lightning et si vous avez une bonne gestion de votre nœud (ne pas le laisser off trop longtemps). Pour renforcer encore votre sécurité, vous pouvez également en ajouter plusieurs en répétant ce même processus.
 
 ## Ouvrir son premier canal Lightning
+<chapterId>00642af7-8f3d-4a25-96d7-34e85de7bd5d</chapterId>
 
 Si vous êtes arrivé jusqu’ici, vous savez déjà qu’un nœud Lightning sans canal est un peu comme un wallet vide : il existe, mais il ne sert à rien. Pour pouvoir envoyer ou recevoir des paiements, votre nœud doit être relié à au moins un autre nœud du réseau Lightning via un canal. Par la suite, il sera fortement recommandé d’ouvrir plusieurs canaux, pour des raisons de résilience et d’efficacité de routage. Nous verrons également dans les chapitres suivants comment gérer vos liquidités, optimiser votre topologie de canaux et utiliser des outils plus avancés que l’interface de base de LND sur Umbrel.
 
@@ -646,11 +659,13 @@ Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire 
 
 
 # Gérer son nœud Lightning
+<partId>e27c3e1e-487b-4414-ad6b-d67bdb91c7c5</partId>
 
 
 
 
 ## Définir son profil d'opérateur de nœud
+<chapterId>d3b2e163-50f6-4d1d-a5fc-8fd177dfac76</chapterId>
 
 Maintenant que votre nœud Lightning est opérationnel, l’étape suivante consiste à définir votre profil d’opérateur. Ce choix est important, car il conditionne votre stratégie d’ouverture de canaux, le type de pairs à privilégier, ainsi que votre manière de gérer la liquidité.
 
@@ -689,6 +704,7 @@ Si vous vous reconnaissez dans le profil consommateur, votre priorité sera de p
 Définir ce profil dès maintenant vous évitera un piège classique : appliquer une stratégie de canaux conçue pour un commerçant ou un routeur, alors que vous êtes simplement un utilisateur qui veut payer.
 
 ## Utiliser un gestionnaire de nœud Lightning
+<chapterId>02eb4c09-d14b-4ff0-8b04-b90de3307d34</chapterId>
 
 Dans la partie précédente de cette formation LNP 202, nous avons utilisé l’interface de base de l’application `Lightning Node` sur Umbrel. Cette interface est suffisante pour les opérations essentielles (consulter le solde, visualiser la répartition des liquidités, ouvrir et fermer un canal) mais elle est volontairement très simplifiée. Cette simplicité limite les options disponibles et ne donne pas accès à de nombreuses fonctionnalités avancées de votre nœud LND. C’est pour cette raison que nous allons maintenant utiliser un autre logiciel de gestion de nœud Lightning, plus complet.
 
@@ -778,6 +794,7 @@ Enfin, pour ouvrir un nouveau canal, rendez-vous dans le menu `Home` et cliquez 
 Voilà pour les principales actions dont vous aurez besoin sur ThunderHub. Nous découvrirons d’autres fonctionnalités au fil des besoins dans ce cours LNP 202.
 
 ## Obtenir de la liquidité entrante
+<chapterId>b740c656-a897-4d95-af4b-116b718447cd</chapterId>
 
 Vous l’aurez compris : disposer de liquidité sortante pour effectuer des paiements sur Lightning n’est pas particulièrement complexe. Il suffit d’ouvrir des canaux de votre propre initiative vers d’autres nœuds pour commencer à envoyer des sats. En revanche, disposer de liquidité entrante, pour recevoir des paiements sur Lightning, est plus compliqué, puisqu’il faut soit que d’autres nœuds ouvrent des canaux vers vous, soit que vous déplaciez vous-même la liquidité en effectuant des paiements.
 
@@ -935,9 +952,11 @@ Il arrive que certains participants souhaitent rééquilibrer les canaux circula
 
 
 # Libérer le potentiel de son nœud Lightning
+<partId>8dcc24b1-6eb9-4a5f-a56b-8a823e5ac0fd</partId>
 
 
 ## Connecter un portefeuille mobile via Tailscale
+<chapterId>5fefb222-3f50-4f9d-a170-2ea628be4437</chapterId>
 
 Ça y est, vous disposez désormais d’un nœud Lightning bien connecté, avec à la fois de la liquidité entrante et sortante. Tout est donc prêt pour utiliser votre nœud Lightning dans la vie réelle. Jusqu’ici, nous avons toujours utilisé directement des interfaces sur Umbrel, que ce soit celle de l’application `Lightning Node` ou l’interface `ThunderHub`. Ces outils fonctionnent pour envoyer et recevoir des paiements, mais ils ne sont clairement pas optimisés pour des paiements Lightning du quotidien. L’interface est pensée pour un usage sur ordinateur, peu pratique sur smartphone, et nécessite en plus d’être connecté au même réseau pour fonctionner correctement (même s’il est techniquement possible de s’y connecter à distance via Tor).
 
@@ -1023,6 +1042,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 Dans le prochain chapitre, nous découvrirons une autre méthode, tout aussi efficace, pour connecter un client mobile à votre nœud Lightning : Nostr Wallet Connect. Nous utiliserons alors une autre application que Zeus (même si Zeus est également compatible avec NWC) à savoir l’application Alby Go.
 
 ## Connecter un portefeuille mobile via NWC
+<chapterId>f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4</chapterId>
 
 Si vous n'avez pas été convaincu par la connexion via Tailscale, ou bien que la gesiton de double VPN vous embête, je vais vous présenter dans ce chapitre un autre moyen d'utiliser un client mobile à distance pour payer et recevoir via votre noeud Lightning : ***Nostr Wallet Connect***. Nous allons utiliser pour l'exemple l'application mobile Alby Go, qui est très bien faite et très simple à utiliser, mais vous pouvez très bien utiliser Zeus, ou ni'mporte quelle applicaiton mobile compatible NWC. Vous pouvez retrouver la liste des apps comaptibles [sur le dépôt GitHub `awesome-nwc`](https://github.com/getAlby/awesome-nwc).
 
@@ -1100,6 +1120,7 @@ Si je me rends sur l’interface de base de mon nœud Lightning sur Umbrel, je p
 Vous savez dorénavant comment utiliser facilement votre nœud Lightning depuis n'importe quel endroit.
 
 ## Pérenniser son autonomie sur Lightning
+<chapterId>691a0942-b46d-482a-8fbc-fe19b3814992</chapterId>
 
 Nous arrivons maintenant à la fin de ce cours pratique LNP 202. Vous disposez désormais des bases nécessaires pour utiliser le Lightning Network de manière souveraine : vous comprenez le rôle réel d’un nœud, les compromis des différentes approches, et vous avez mis en place une instance LND sur Umbrel avec une stratégie de sauvegarde et de protection cohérente. Vous avez également ouvert vos premiers canaux, appris à gérer les liquidités, afin de rendre vos paiements fiables au quotidien.
 

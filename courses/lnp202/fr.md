@@ -58,22 +58,22 @@ Revenons aux fondamentaux : avant de définir ce qu’est un nœud, il faut comp
 
 Pour fonctionner, Lightning repose sur l’ouverture de canaux de paiement entre les participants, au sein desquels les transactions peuvent être réalisées presque instantanément, avec des frais souvent minimes, sans qu’il soit nécessaire de les inscrire une par une sur la blockchain Bitcoin. Ces canaux peuvent rester ouverts très longtemps et ne requièrent des transactions onchain qu’au moment de leur ouverture et de leur fermeture.
 
-Un nœud Lightning est justement un participant à ce réseau Lightning : il ouvre des canaux et réalise des paiements avec d’autres nœuds. Concrètement, un nœud Lightning est un logiciel exécuté sur un ordinateur et qui implémente le protocole Lightning Network. Il peut s’agir, par exemple, de LND, Core Lightning ou Eclair. Le rôle de ce logiciel va princiaplement être :
+Un nœud Lightning est justement un participant à ce réseau Lightning : il ouvre des canaux et réalise des paiements avec d’autres nœuds. Concrètement, un nœud Lightning est un logiciel exécuté sur un ordinateur et qui implémente le protocole Lightning Network. Il peut s’agir, par exemple, de LND, Core Lightning ou Eclair. Le rôle de ce logiciel va principalement être :
 * de se connecter à un nœud Bitcoin pour obtenir les informations de la blockchain principale ;
-* de créer et gèrer des canaux de paiement bidirectionnels avec d’autres nœuds ;
+* de créer et gérer des canaux de paiement bidirectionnels avec d’autres nœuds ;
 * d'échanger des messages avec l’ensemble du réseau Lightning.
 
 ![Image](assets/fr/001.webp)
 
-### Nœud vs Wallet Lightning : une distinction importante
+### Nœud vs. Wallet Lightning : une distinction importante
 
-Sur Bitcoin (onchain), on parle de “wallet” pour désigner un logiciel qui gère vos clés privées, calcule votre solde à partir de vos UTXOs et construit vos transactions. Ce portefeuille peut s’appuyer sur votre propre nœud Bitcoin ou sur un nœud d'une autre personne, mais aujourd’hui, le rôle du nœud et celui du portefeuille onchain sont clairement distincts.
+Sur Bitcoin (onchain), on parle de "*wallet*" pour désigner un logiciel qui gère vos clés privées, calcule votre solde à partir de vos UTXOs et construit vos transactions. Ce portefeuille peut s’appuyer sur votre propre nœud Bitcoin ou sur un nœud d'une autre personne, mais aujourd’hui, le rôle du nœud et celui du portefeuille onchain sont clairement distincts.
 
-Sur Lightning, il est plus difficile de réutiliser ce vocabulaire sans créer de confusion. Parler d’un “wallet Lightning” est assez vague, car en réalité il n’existe pas de portefeuille Lightning véritablement self-custodial sans qu’il repose sur un nœud. Seulement deux situations sont donc possibles :
+Sur Lightning, il est plus difficile de réutiliser ce vocabulaire sans créer de confusion. Parler d’un "*wallet Lightning*" est assez vague, car en réalité il n’existe pas de portefeuille Lightning véritablement self-custodial sans qu’il repose sur un nœud. Seulement deux situations sont donc possibles :
 
-- Avoir un véritable nœud Lightning (donc non-custodial) : le logiciel que vous utilisez (par exemple une app mobile comme Phoenix ou une instance LND sur Umbrel) exécute réellement un nœud, et vous détenez effectivement les clés permettant de récupérer vos bitcoins. Dans ce cas, votre “wallet Lightning” n’est en réalité qu’une interface utilisateur au-dessus d’un nœud Lightning, qu’il soit embarqué ou distant.
+- Avoir un véritable nœud Lightning (donc non-custodial) : le logiciel que vous utilisez (par exemple une app mobile comme Phoenix ou une instance LND sur Umbrel) exécute réellement un nœud, et vous détenez effectivement les clés permettant de récupérer vos bitcoins. Dans ce cas, votre "*wallet Lightning*" n’est en réalité qu’une interface utilisateur au-dessus d’un nœud Lightning, qu’il soit embarqué ou distant.
 
-- Utiliser un service custodial : vous utilisez une application qui vous affiche un solde en sats sur Lightning, mais en arrière-plan, les fonds se trouvent sur le nœud d’un prestataire (par exemple : Wallet of Satoshi). Vous ne possédez ni les clés, ni le contrôle des canaux. Votre solde n’est qu’une écriture comptable dans la base de données de l'entreprise ; en somme, c’est comparable au fait de laisser ses bitcoins sur une plateforme d’échange, avec tous les risques associés. Dans ce cas, votre “wallet Lightning” n’est qu’un accès à un compte géré par un opérateur qui, lui, exploite un vrai nœud Lightning.
+- Utiliser un service custodial : vous utilisez une application qui vous affiche un solde en sats sur Lightning, mais en arrière-plan, les fonds se trouvent sur le nœud d’un prestataire (par exemple : Wallet of Satoshi). Vous ne possédez ni les clés, ni le contrôle des canaux. Votre solde n’est qu’une écriture comptable dans la base de données de l'entreprise. C’est comparable au fait de laisser ses bitcoins sur une plateforme d’échange, avec tous les risques associés. Dans ce cas, votre "*wallet Lightning*" n’est qu’un accès à un compte géré par un opérateur qui, lui, exploite un vrai nœud Lightning.
 
 Il n’existe donc aucun entre-deux sur Lightning : soit vous avez un nœud (même embarqué) et vous êtes en self-custody, soit vous n’en avez pas, et une entreprise détient vos sats. Mais comme nous le verrons dans les chapitres suivants, ces deux usages peuvent parfois être difficiles à distinguer. Par exemple, Phoenix est une application mobile qui embarque un véritable nœud Lightning, mais l’utilisateur n’en a pas forcément conscience, car toute la complexité de son fonctionnement est presque entièrement cachée.
 
@@ -87,7 +87,7 @@ Le cœur du réseau Lightning repose sur les canaux de paiement bidirectionnels.
 
 ![Image](assets/fr/002.webp)
 
-Du point de vue Lightning, il s’agit d’un canal de paiement disposant de liquidités réparties entre les deux participants.
+Du point de vue de Lightning, il s’agit d’un canal de paiement disposant de liquidités réparties entre les deux participants.
 
 ![Image](assets/fr/003.webp)
 
@@ -116,7 +116,7 @@ Un canal peut être fermé proprement via une fermeture coopérative, lorsque le
 Lightning fonctionne ainsi comme une couche secondaire ancrée sur Bitcoin : seuls certains événements (l’ouverture et la fermeture des canaux) apparaissent sur la blockchain principale. Les paiements intermédiaires restent offchain.
 
 Avant de continuer, voici deux notions essentielles pour comprendre la gestion d’un canal Lightning :
-- La *liquidité* : c'est quantité de sats disponibles d’un côté du canal ;
+- La *liquidité* : c'est la quantité de sats disponibles d’un côté du canal ;
 - La *capacité* : c'est le montant total verrouillé dans l’output multisig 2/2, c’est-à-dire la somme des liquidités des deux côtés du canal.
 
 #### Un réseau de canaux et de liquidité
@@ -179,7 +179,7 @@ Répondre à cette question est assez simple, puisqu’elle est rhétorique : sa
 
 Utiliser un portefeuille Lightning custodial signifie que les bitcoins appartiennent techniquement à l’entreprise qui opère le nœud. Vous ne détenez pas les clés privées et vous ne contrôlez pas les canaux. Votre solde de portefeuille n’est qu’une ligne dans la base de données d’un prestataire. C’est certes très pratique pour les débutants, l’expérience utilisateur est souvent fluide, mais la question de fond est la suivante : quel est l’intérêt de se donner la peine d’utiliser Bitcoin et Lightning si l’on renonce précisément à ce qui les distingue des monnaies étatiques et des banques ?
 
-Les deux principales propositions de valeur de Bitcoin sont la souveraineté monétaire (ne plus dépendre d’une autorité centrale pour l’émission et la détention) et la résistance à la censure (impossibilité pour un tiers d’empêcher ou de filtrer des paiements légitimes). Un système custodial sur Lightning va frontalement à l’encontre de ces deux objectifs : vous ne pouvez pas vérifier l’offre monétaire interne de la plateforme, et par définition, un opérateur qui détient tous les fonds et tous les canaux peut censurer, retarder, prioriser ou bloquer vos paiements. Dans ces conditions, on peut légitimement se demander, **à quoi bon utiliser le bitcoin via Lightning si c’est pour reproduire les mêmes modèles de confiance et de dépendance qu’avec les systèmes de monnaie étatique traditionnels**.
+Les deux principales propositions de valeur de Bitcoin sont la souveraineté monétaire (ne plus dépendre d’une autorité centrale pour l’émission et la détention) et la résistance à la censure (impossibilité pour un tiers d’empêcher ou de filtrer des paiements). Un système custodial sur Lightning va frontalement à l’encontre de ces deux objectifs : vous ne pouvez pas vérifier l’offre monétaire interne de la plateforme, et par définition, un opérateur qui détient tous les fonds et tous les canaux peut censurer, retarder, prioriser ou bloquer vos paiements. Dans ces conditions, on peut légitimement se demander, **à quoi bon utiliser le bitcoin via Lightning si c’est pour reproduire les mêmes modèles de confiance et de dépendance qu’avec les systèmes de monnaie étatique traditionnels**.
 
 > What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.
 
@@ -221,11 +221,11 @@ Donc pour un usage ponctuel, cela reste acceptable, mais pour un utilisateur tr�
 
 La deuxième catégorie de solutions repose sur les nœuds Lightning embarqués directement dans une application mobile. Phoenix Wallet a été le pionnier de ce modèle et reste une référence. Aujourd’hui, d’autres projets proposent des approches comparables, comme Zeus (en mode embedded) ou BitKit.
 
-L’idée est simple : l’application exécute en réalité un nœud Lightning, mais toutes les opérations complexes sont gérées automatiquement en arrière-plan. Vous disposez d’une interface de *wallet Lightning* avec une phrase mnémonique pour la sauvegarde, vous voyez un solde et vous payez des invoices, mais vous ne gérez ni canaux, ni liquidité, ni la plupart des paramètres.
+L’idée est simple : l’application exécute en réalité un nœud Lightning, mais toutes les opérations complexes sont gérées automatiquement en arrière-plan. Vous disposez d’une interface de "*wallet Lightning*" avec une phrase mnémonique pour la sauvegarde, vous voyez un solde et vous payez des invoices, mais vous ne gérez ni canaux, ni liquidité, ni la plupart des paramètres.
 
 ![Image](assets/fr/014.webp)
 
-Ces solutions sont toujours self-custodial. Les clés qui contrôlent les fonds sont générées et stockées sur votre téléphone, et la sauvegarde passe par une seed ou un mécanisme équivalent. Vous n’êtes pas simplement titulaire d’un compte chez un prestataire, vous possédez réellement des bitcoins verrouillés dans des canaux qui vous appartiennent et ne peuvent pas vous être volés.
+Ces solutions sont toujours self-custodiales. Les clés qui contrôlent les fonds sont générées et stockées sur votre téléphone, et la sauvegarde passe par une seed ou un mécanisme équivalent. Vous n’êtes pas simplement titulaire d’un compte chez un prestataire, vous possédez réellement des bitcoins verrouillés dans des canaux qui vous appartiennent et ne peuvent pas vous être volés.
 
 Les avantages des nœuds LN embarqués sont nombreux :
 * installation et prise en main extrêmement simples ;
@@ -241,7 +241,7 @@ Enfin, cette simplicité a un prix. Les services de nœuds LN embarqués facture
 
 La troisième solution, celle que nous allons approfondir dans ce cours LNP 202, consiste à exploiter un nœud Lightning classique sur un serveur ou un appareil dédié.
 
-Par *classique* j'entends que vous installez et configurez vous-même une implémentation Lightning (par exemple LND) au-dessus de votre propre nœud Bitcoin. Vous choisissez vos pairs, vous ouvrez vos canaux, vous gérez votre liquidité entrante et sortante, et vous définissez vos politiques de frais de routage.
+Par "*classique*" j'entends que vous installez et configurez vous-même une implémentation Lightning (par exemple LND) au-dessus de votre propre nœud Bitcoin. Vous choisissez vos pairs, vous ouvrez vos canaux, vous gérez votre liquidité entrante et sortante, et vous définissez vos politiques de frais de routage.
 
 Sur le plan de la souveraineté, c’est la meilleure solution. Vous ne dépendez plus d’une entreprise spécifique pour vos canaux ou vos paiements : si un pair vous censure ou ferme un canal, vous pouvez en ouvrir un autre avec un nœud différent. Si un service disparaît, vos sats restent dans les canaux que vous contrôlez, et vous pouvez les rapatrier onchain. Vous avez également la possibilité d’optimiser vos coûts à long terme : une fois vos canaux correctement dimensionnés et gérés, le coût global des paiements peut devenir très faible.
 
@@ -346,7 +346,7 @@ Sur un nœud Lightning, il ne suffit pas de sauvegarder la seed et d’espérer 
 
 #### La seed (*aezeed*)
 
-Lorsque vous initialisez LND, vous recevez une seed de 24 mots. Il s’agit d’un format spécifique à LND appelé *aezeed*. Ce n’est pas une seed BIP39 classique, même si elle lui ressemble beaucoup. À partir de cette seed, LND dérive les clés privées de votre portefeuille onchain associé au noeud Lightning, c’est-à-dire les adresses dans lesquelles vous pouvez recevoir ou vers lesquelles vous pouvez rapatrier des bitcoins suite à des fermetures de canaux.
+Lorsque vous initialisez LND, vous recevez une seed de 24 mots. Il s’agit d’un format spécifique à LND appelé "*aezeed*". Ce n’est pas une seed BIP39 classique, même si elle lui ressemble beaucoup. À partir de cette seed, LND dérive les clés privées de votre portefeuille onchain associé au nœud Lightning, c’est-à-dire les adresses dans lesquelles vous pouvez recevoir ou vers lesquelles vous pouvez rapatrier des bitcoins suite à des fermetures de canaux.
 
 ![Image](assets/fr/019.webp)
 
@@ -376,20 +376,20 @@ Lors d’une récupération via SCB, le processus est le suivant :
 - Vous restaurez votre seed (*aezeed*), ce qui recrée votre portefeuille onchain associé au nœud Lightning ;
 - Vous fournissez à LND votre SCB le plus récent ;
 - LND utilise le SCB pour retrouver la liste de vos pairs et les canaux que vous aviez avec eux ;
-- Il contacte chaque pair, lui indique que vous avez subi une perte de données et lui demande de force-close votre canal avec lui, afin que vous puissiez récupérer votre part onchain.
+- Il contacte chaque pair, lui indique que vous avez subi une perte de données et lui demande de "*force-close*" votre canal avec lui, afin que vous puissiez récupérer votre part onchain.
 
 L’idée est donc que vos pairs, en constatant que vous déclarez une perte de données, vont diffuser leur dernière transaction d’engagement et fermer le canal de force. Une fois ces transactions confirmées, vos fonds réapparaissent dans votre portefeuille onchain (lié à la seed).
 
-Ce mécanisme de récupération n’est toutefois pas parfait. D’abord, il ne permet pas à proprement parler de restaurer votre nœud Lightning, puisque tous les canaux seront fermés. Il faudra donc ensuite refaire un nouveau Lightning de zéro. Ensuite, il ne garantit pas de récupérer 100 % des fonds, même s’il augmente considérablement les chances de retrouver vos soldes onchain en cas de problème. En effet, ce protocole de récupération dépend de la coopération et de la disponibilité de vos pairs : si l’un d’eux est hors ligne, a perdu ses propres données ou refuse de coopérer, vos fonds peuvent rester bloqués, voire être définitivement perdus. C’est pourquoi il est important de ne pas conserver sur votre nœud Lightning, en temps normal, des canaux ouverts avec des pairs injoignables sur une longue durée. Si vous subissez une perte de données à ce moment-là et que le pair demeure injoignable, la récupération via le SCB sera impossible, et vos fonds resteront perdus tant que ce pair ne reviendra pas en ligne (peut-être pour toujours).
+Ce mécanisme de récupération n’est toutefois pas parfait. D’abord, il ne permet pas à proprement parler de restaurer votre nœud Lightning, puisque tous les canaux seront fermés. Il faudra donc ensuite refaire un nouveau nœud Lightning de zéro. Ensuite, il ne garantit pas de récupérer 100 % des fonds, même s’il augmente considérablement les chances de retrouver vos soldes onchain en cas de problème. En effet, ce protocole de récupération dépend de la coopération et de la disponibilité de vos pairs : si l’un d’eux est hors ligne, a perdu ses propres données ou refuse de coopérer, vos fonds peuvent rester bloqués, voire être définitivement perdus. C’est pourquoi il est important de ne pas conserver sur votre nœud Lightning, en temps normal, des canaux ouverts avec des pairs injoignables sur une longue durée. Si vous subissez une perte de données à ce moment-là et que le pair demeure injoignable, la récupération via le SCB sera impossible, et vos fonds resteront perdus tant que ce pair ne reviendra pas en ligne (peut-être pour toujours).
 
 Pour résumer une bonne stratégie de sauvegarde Lightning sur LND repose sur trois piliers :
-* votre seed (*aezeed*), pour la couche onchain ;
+* Votre seed (*aezeed*), pour la couche onchain ;
 * Une sauvegarde automatique fiable du SCB ;
-* Une bonne gestion des canaux en choisissant des pairs fiables et en fermant ceux qui sont injoignables.
+* Une bonne gestion des canaux en choisissant des pairs fiables et en fermant préventivement ceux qui sont souvent injoignables.
 
 ### Comment Umbrel gère la sauvegarde de votre nœud LND ?
 
-Umbrel propose une mécanique de sauvegarde simplifiée pour le nœud LND, basée précisément sur le SCB. L’idée est de vous éviter de manipuler vous-même ce fichier et d'en faire une sauvegarde, et d'automatiser au maximum le processus.
+Umbrel propose une mécanique de sauvegarde simplifiée pour le nœud LND, basée précisément sur le SCB. L’idée est de vous éviter de manipuler vous-même ce fichier, d'en faire une sauvegarde et d'automatiser au maximum le processus.
 
 Lors de la création de votre nœud sur Umbrel, vous recevez une seed qui joue un double rôle :
 * elle permet de dériver votre portefeuille Bitcoin onchain associé à votre nœud Lightning ;
@@ -399,7 +399,7 @@ Grâce à ce mécanisme, Umbrel réalise automatiquement une sauvegarde chiffré
 
 Ces sauvegardes sont chiffrées localement par votre nœud avant d’être envoyées, ce qui garantit la confidentialité de vos données : Umbrel ne peut pas lire le contenu du SCB. La transmission s’effectue via Tor, ce qui évite de faire fuiter votre adresse IP. De plus, votre Umbrel ajoute du bruit au trafic (padding aléatoire et faux backups envoyés à intervalles irréguliers) afin d’empêcher le serveur de déduire précisément quand vous ouvrez ou fermez un canal.
 
-Le principal avantage de cette méthode est qu’elle simplifie considérablement la sauvegarde de votre nœud Lightning : vous n’avez qu’à sauvegarder votre seed une seule fois lors de l’initialisation du nœud. Cela comporte certes des risques, puisqu’il s’agit uniquement d’un backup SCB, mais pour des montants raisonnables, c’est un compromis acceptable.
+Le principal avantage de cette méthode est qu’elle simplifie considérablement la sauvegarde de votre nœud Lightning : vous n’avez qu’à sauvegarder votre seed une seule fois lors de l’initialisation du nœud. Cela comporte certes des risques, puisqu’il s’agit uniquement d’un backup du SCB, mais pour des montants raisonnables, c’est un compromis acceptable.
 
 ### Les bonnes pratiques pour limiter les risques de perte
 
@@ -407,7 +407,7 @@ Même avec la sauvegarde Umbrel, quelques bonnes pratiques simples permettent de
 
 - Surveiller la disponibilité de vos pairs :
 
-Si un canal important est fréquemment associé à un pair injoignable ou instable, il est plus prudent de le fermer proprement tant que votre nœud fonctionne encore. Une fermeture coopérative, réalisée alors que tout le monde est en ligne, élimine une source potentielle de problème en cas de récupération par SCB.
+Si un canal important est fréquemment associé à un pair injoignable ou instable, il est plus prudent de le fermer proprement tant que votre nœud fonctionne encore. Une fermeture coopérative ou forcée préventive élimine une source potentielle de problème en cas de récupération par SCB.
 
 - Éviter de concentrer trop de liquidité sur des pairs inconnus :
 
@@ -419,7 +419,9 @@ En plus de la sauvegarde automatique d'Umbrel, vous pouvez également conserver 
 
 - Gérer sa seed de la bonne manière
 
-Votre seed Umbrel permet non seulement de restaurer votre portefeuille onchain, mais aussi de dériver la clé de chiffrement des sauvegardes. Un attaquant qui y aurait accès pourrait donc lancer une récupération et transférer vos fonds vers son propre portefeuille, sans même avoir accès physiquement à votre nœud. Aussi, si vous devez restaurer votre nœud mais que vous n’avez plus votre seed, vous ne pourrez rien récupérer : tous vos sats seront perdus. Il est donc très important de sauvegarder cette seed avec le plus grand soin, uniquement sur un support physique (papier ou métal), et de la conserver dans un lieu sécurisé. Pour plus d'informations sur la gestion d’une seed, je vous invite à consulter ce tutoriel :
+Votre seed Umbrel permet non seulement de restaurer votre portefeuille onchain, mais aussi de dériver la clé de chiffrement des sauvegardes. Un attaquant qui y aurait accès pourrait donc lancer une récupération et transférer vos fonds vers son propre portefeuille, sans même avoir accès physiquement à votre nœud.
+
+Aussi, si vous devez restaurer votre nœud mais que vous n’avez plus votre seed, vous ne pourrez rien récupérer : tous vos sats seront perdus. Il est donc très important de sauvegarder cette seed avec le plus grand soin, uniquement sur un support physique (papier ou métal), et de la conserver dans un lieu sécurisé. Pour plus d'informations sur la gestion d’une seed, je vous invite à consulter ce tutoriel :
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
@@ -579,7 +581,7 @@ Des canaux anciens et encore actifs sont un bon signal : ils suggèrent que la r
 À l’inverse, un pair souvent hors ligne ou qui ferme rapidement ses canaux peut être source de problèmes pour vous et de frais supplémentaire pour l'ouverture de nouveaux canaux.
 
 Même avec ces critères, vous ne ferez pas des choix parfaits du premier coup. C’est normal : la qualité réelle d’un pair se révèle surtout à l’usage. Il est donc important de :
-* surveiller l’activité de vos canaux (volumes routés, succès/échecs de paiements, disponibilité...) ;
+* surveiller l’activité de vos canaux (volumes routés, disponibilité...) ;
 * fermer les canaux qui ne servent à rien ou dont le pair est trop souvent hors ligne ;
 * réallouer votre capital vers de meilleurs pairs au fil du temps.
 
@@ -590,6 +592,8 @@ L’idée n’est pas d’ouvrir et fermer des canaux tous les jours (ce qui ser
 Pour appliquer ces critères, vous aurez besoin d’outils qui donnent de la visibilité sur le réseau Lightning. Il existe plusieurs explorateurs et services qui permettent de faire cela. Parmi les explorateurs Lightning les plus connus, il y a [1ML](https://1ml.com/) et [Amboss](https://amboss.space/).
 
 https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb-af18-491384af1017
+
+https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87fd-007cb7640e7b
 
 Ici, je vous propose toutefois d’utiliser [l’outil Lightning Terminal de Lightning Labs](https://terminal.lightning.engineering/), qui fournit un classement (certes basé sur des critères en partie subjectifs) des nœuds Lightning jugés les plus pertinents pour ouvrir un canal.
 
@@ -656,13 +660,8 @@ Si l’on observe ensuite la répartition des liquidités dans le canal, on voit
 
 Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire d’ouvrir d’autres canaux. En fonction de nos objectifs, nous devrons également trouver un moyen de disposer de liquidité entrante afin de pouvoir recevoir des paiements sur Lightning. Ce sera précisément le sujet de la prochaine partie.
 
-
-
 # Gérer son nœud Lightning
 <partId>e27c3e1e-487b-4414-ad6b-d67bdb91c7c5</partId>
-
-
-
 
 ## Définir son profil d'opérateur de nœud
 <chapterId>d3b2e163-50f6-4d1d-a5fc-8fd177dfac76</chapterId>
@@ -683,9 +682,9 @@ Dans ce cours LNP 202, nous allons nous concentrer sur ce profil "*consommateur*
 
 Le commerçant est, en quelque sorte, l'inverse du consommateur. Ici, l’objectif principal n’est pas de payer, mais d’encaisser. Un commerce, un prestataire de services, une boutique en ligne ou un point de vente qui accepte Lightning recevra beaucoup de paiements entrants, et effectuera relativement peu de paiements sortants depuis ce nœud.
 
-Ce profil est plus exigeant, car un paiement refusé sur Lightning représente potentiellement une vente perdue. La priorité devient donc la liquidité entrante. Si votre nœud ne dispose pas d’assez d’inbound, vos clients verront leurs paiements échouer, même s’ils ont les fonds, simplement parce qu’aucun chemin ne peut acheminer la liquidité vers vous dans le bon sens.
+Ce profil est plus exigeant, car un paiement refusé sur Lightning représente potentiellement une vente perdue. La priorité devient donc la liquidité entrante. Si votre nœud ne dispose pas d’assez d’inbound, vos clients verront leurs paiements échouer, même s’ils ont les fonds, simplement parce qu’aucune route ne peut acheminer la liquidité vers vous dans le bon sens.
 
-Le défi majeur du commerçant vient aussi de l’évolution naturelle des canaux. Si vous ne faites que recevoir, vos canaux vont progressivement se remplir de votre côté. Il faut donc prévoir des mécanismes pour maintenir et renouveler votre liquidité entrante : c’est un sujet à part entière, que nous aborderons avec des outils et méthodes spécifiques dans un chapitre dédié.
+Le défi majeur du commerçant vient aussi de l’évolution naturelle des canaux. Si vous ne faites que recevoir, vos canaux vont progressivement se remplir de votre côté. Il faut donc prévoir des mécanismes pour maintenir et renouveler votre liquidité entrante.
 
 Il existe toutefois un cas plus simple : le profil mixte consommateur et commerçant. Si vous encaissez sur Lightning, mais dépensez aussi sur Lightning (dépenses professionnelles, paiements à des fournisseurs, ou même dépenses personnelles), alors vos paiements sortants recréent naturellement de l’inbound. La gestion devient plus fluide, car les flux se compensent, et vous avez moins besoin de recourir à des mécanismes artificiels uniquement destinés à regagner de la liquidité entrante.
 
@@ -808,7 +807,7 @@ Comme vous vous en doutez, la manière la plus efficace d’inciter quelqu’un 
 
 Si vous êtes une entreprise ou un commerçant, cette approche permet d’obtenir rapidement des canaux fiables afin d’encaisser les paiements de vos clients sans friction.
 
-Il existe de nombreuses méthodes pour acheter de la liquidité entrante. Celle que j’utilise personnellement et que je vous recommande est la plateforme [Magma](https://magma.amboss.tech/) d’Amboss. Son utilisation est très simple, l’ouverture de canal est rapide et les tarifs sont généralement raisonnables. Magma fonctionne comme une place de marché avec des makers et des takers, mais sa version 2 a grandement simplifié l’expérience : il suffit de créer une demande, de payer le prix via Lightning, et Magma se charge automatiquement de la faire correspondre avec la meilleure offre disponible. Après six confirmations onchain, votre canal avec liquidité entrante est opérationnel. Voici comment procéder.
+Il existe de nombreuses méthodes pour acheter de la liquidité entrante. Celle que j’utilise personnellement et que je vous recommande est la plateforme [Magma](https://magma.amboss.tech/) d’Amboss. Son utilisation est très simple, l’ouverture de canal est rapide et les tarifs sont généralement raisonnables. Magma fonctionne comme une place de marché avec des makers et des takers, mais sa version 2 a grandement simplifié l’expérience : il suffit de créer une demande, de payer le prix via Lightning, et Magma se charge automatiquement de la faire correspondre avec la meilleure offre disponible. Après six confirmations onchain, votre canal avec liquidité entrante est opérationnel. Voici comment procéder :
 
 Rendez-vous sur [le site de Magma](https://magma.amboss.tech/buy), dans la section `Buy Channels`.
 
@@ -820,7 +819,7 @@ Une fois sur le site, renseignez les informations nécessaires à l’achat de l
 
 ![Image](assets/fr/053.webp)
 
-Renseignez ensuite l’identifiant de votre nœud. Vous pouvez le retrouver dans le menu `Node ID` de l’application `Lightning Node` sur Umbrel.
+Renseignez ensuite l’identifiant de votre nœud. Vous pouvez le retrouver par exemple dans le menu `Node ID` de l’application `Lightning Node` sur Umbrel.
 
 ![Image](assets/fr/054.webp)
 
@@ -852,7 +851,7 @@ Si vous êtes commerçant, ce type de service est particulièrement adapté, car
 
 ### Obtenir de la liquidité entrante par coopération
 
-Si vous n’êtes pas commerçant mais que vous avez malgré tout besoin de disposer d’un peu de liquidité entrante (par exemple pour amorcer votre nœud au démarrage, en attendant d’avoir effectué quelques paiements) vous n’êtes pas forcément obligé de payer pour l’obtenir. L’une des solutions que je préfère consiste à coopérer avec d’autres opérateurs de nœuds qui, eux aussi, ont besoin de liquidité entrante, afin d’ouvrir mutuellement des canaux Lightning. De cette façon, l’ouverture d’un canal vous apporte de la liquidité sortante, tout en vous procurant en parallèle de la liquidité entrante, et ce gratuitement (en négligeant les frais onchain pour l'ouverture).
+Si vous n’êtes pas commerçant mais que vous avez malgré tout besoin de disposer d’un peu de liquidité entrante (par exemple pour amorcer votre nœud au démarrage, en attendant d’avoir effectué quelques paiements) vous n’êtes pas forcément obligé de payer pour l’obtenir. L’une des solutions que je préfère consiste à coopérer avec d’autres opérateurs de nœuds qui, eux aussi, ont besoin de liquidité entrante, afin d’ouvrir mutuellement des canaux Lightning. De cette façon, l’ouverture d’un canal vous apporte de la liquidité sortante, tout en vous procurant en parallèle de la liquidité entrante, et ce gratuitement (modulo les frais onchain pour l'ouverture).
 
 Pour cela, vous pouvez bien sûr vous organiser directement avec des amis bitcoiners. Il existe toutefois une plateforme dédiée à ce type de mise en relation pour réaliser des ouvertures circulaires : [Lightning Network +](https://lightningnetwork.plus/). Le principe n’est pas d’ouvrir deux canaux entre les mêmes personnes, mais de mettre en place des ouvertures circulaires impliquant au minimum trois participants, voire davantage.
 
@@ -954,7 +953,6 @@ Il arrive que certains participants souhaitent rééquilibrer les canaux circula
 # Libérer le potentiel de son nœud Lightning
 <partId>8dcc24b1-6eb9-4a5f-a56b-8a823e5ac0fd</partId>
 
-
 ## Connecter un portefeuille mobile via Tailscale
 <chapterId>5fefb222-3f50-4f9d-a170-2ea628be4437</chapterId>
 
@@ -1023,7 +1021,7 @@ Dans la section `Wallet interface`, choisissez `LND (REST)`. Renseignez ensuite 
 
 Zeus vous demande ensuite de fournir un `Macaroon`. Il s’agit d’un jeton d’autorisation permettant de définir précisément les droits accordés à une application (en l’occurrence Zeus) pour interagir avec votre nœud Lightning. Il est possible de générer un macaroon depuis ThunderHub, dans le menu `Tools`, sous-menu `Bakery`, mais pour cet usage, le plus simple est de le récupérer directement depuis l’application `Lightning Node`.
 
-Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Connect Wallet`. Vous pourrez alors copier un macaroon disposant des droits appropriés.
+Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Connect Wallet`. Choisissez `REST (Local Network)`. Vous pourrez alors copier un macaroon disposant des droits appropriés.
 
 ![Image](assets/fr/081.webp)
 
@@ -1035,24 +1033,26 @@ Vous avez maintenant accès à votre nœud Lightning depuis l’application Zeus
 
 ![Image](assets/fr/083.webp)
 
-Astuce : Tailscale ne se limite pas à l’utilisation de votre nœud Lightning à distance. Il vous permet d’accéder à l’ensemble des outils de votre Umbrel depuis d’autres logiciels, même à distance. Par exemple, vous pouvez utiliser l’adresse IP Tailscale de votre Umbrel pour connecter votre nœud Bitcoin (via Electrs ou Fulcrum) à Sparrow Wallet, sans passer par Tor. Cela permet d’éviter, une fois de plus, les lenteurs inhérentes à Tor.
+Astuce : Tailscale ne se limite pas à l’utilisation de votre nœud Lightning à distance. Il vous permet d’accéder à l’ensemble des outils de votre Umbrel depuis d’autres logiciels, même à distance. Par exemple, vous pouvez utiliser l’adresse IP Tailscale de votre Umbrel pour connecter votre nœud Bitcoin (via Electrs ou Fulcrum) à Sparrow Wallet, sans passer par Tor. Cela permet d’éviter, une fois de plus, les lenteurs inhérentes à Tor. Il suffit pour cela d'installer le client Tailscale sur votre ordinateur et de le connecter à votre réseau.
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Dans le prochain chapitre, nous découvrirons une autre méthode, tout aussi efficace, pour connecter un client mobile à votre nœud Lightning : Nostr Wallet Connect. Nous utiliserons alors une autre application que Zeus (même si Zeus est également compatible avec NWC) à savoir l’application Alby Go.
+Dans le prochain chapitre, nous découvrirons une autre méthode, tout aussi efficace, pour connecter un client mobile à votre nœud Lightning : Nostr Wallet Connect. Nous utiliserons alors une autre application que Zeus (même si Zeus est également compatible avec NWC) à savoir Alby Go.
 
 ## Connecter un portefeuille mobile via NWC
 <chapterId>f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4</chapterId>
 
-Si vous n'avez pas été convaincu par la connexion via Tailscale, ou bien que la gesiton de double VPN vous embête, je vais vous présenter dans ce chapitre un autre moyen d'utiliser un client mobile à distance pour payer et recevoir via votre noeud Lightning : ***Nostr Wallet Connect***. Nous allons utiliser pour l'exemple l'application mobile Alby Go, qui est très bien faite et très simple à utiliser, mais vous pouvez très bien utiliser Zeus, ou ni'mporte quelle applicaiton mobile compatible NWC. Vous pouvez retrouver la liste des apps comaptibles [sur le dépôt GitHub `awesome-nwc`](https://github.com/getAlby/awesome-nwc).
+Si la connexion via Tailscale ne vous a pas convaincu, ou si la gestion d’un double VPN vous semble contraignante, je vous propose dans ce chapitre une autre méthode pour utiliser un client mobile à distance afin de payer et recevoir des sats via votre nœud Lightning : ***Nostr Wallet Connect***.
+
+Pour l’exemple, nous utiliserons l’application mobile Alby Go, qui est très bien conçue et particulièrement simple à prendre en main. Cela dit, vous pouvez tout à fait utiliser Zeus ou n’importe quelle autre application mobile compatible avec NWC. Vous trouverez la liste des applications compatibles sur [le dépôt GitHub `awesome-nwc`](https://github.com/getAlby/awesome-nwc).
 
 ### Comment fonctionne Nostr Wallet Connect ?
 
-Nostr Wallet Connect est un protocole standardisé qui permet à une application (un portefeuille mobile, une app, voire même un site web) de déclencher des actions sur un nœud Lightning distant, sans établir de connexion réseau directe vers ce nœud (pas d’API LND exposée, pas de VPN, pas de service `.onion`...). NWC définit la manière dont une application formule une intention (par exemple `pay_invoice`) et reçoit le résultat.
+Nostr Wallet Connect est un protocole standardisé qui permet à une application ou un site web de déclencher des actions sur un nœud Lightning distant, sans établir de connexion réseau directe vers ce nœud (pas d’API LND exposée, pas de VPN, pas de service `.onion`...). NWC définit la manière dont une application formule une intention (par exemple `pay_invoice`) et reçoit le résultat.
 
-Son fonctionnement est assez simple. Vous initialisez une session en scannant un QR code ou via un deeplink `nostr+walletconnect:`. Cette chaîne contient les paramètres de session et un secret d’autorisation. Ensuite, lorsque l’application veut payer, elle sérialise la requête, la chiffre, puis la publie sous forme d’événement sur un relais Nostr. Le nœud lit l’événement sur le relais, le déchiffre, vérifie que l’auteur est autorisé pour cette session, exécute le paiement, puis renvoie une réponse chiffrée (succès avec préimage, ou erreur). Le relais ne sert que d’intermédiaire de transport : il ne peut pas lire le contenu, mais il peut éventuellement observer des métadonnées comme le moment et la fréquence des requêtes.
+Son fonctionnement est assez simple. Vous initialisez une session en scannant un QR code ou via un deeplink `nostr+walletconnect:`. Cette chaîne contient les paramètres de session et un secret d’autorisation. Ensuite, lorsque l’application veut payer, elle sérialise la requête, la chiffre, puis la publie sous forme d’événement sur un relais Nostr. Le nœud lit l’événement sur le relais, le déchiffre, vérifie que l’auteur est autorisé pour cette session, exécute le paiement, puis renvoie une réponse chiffrée (succès avec préimage, ou erreur). Le relais ne sert que d’intermédiaire de transport : il ne peut pas lire le contenu, mais il peut éventuellement observer le moment et la fréquence des requêtes.
 
-Par rapport à une connexion via Tailscale ou Tor, l’intérêt principal de NWC est d’éviter toute joignabilité directe de votre nœud depuis l’extérieur. Cela simplifie énormément l’usage en mobilité : votre nœud n’a pas besoin d’accepter des connexions entrantes, il lui suffit de pouvoir communiquer avec un relais. En contrepartie, vous introduisez une dépendance fonctionnelle à des relais Nostr : s’ils sont indisponibles, l’expérience se dégrade. Aussi, même si les messages sont chiffrés, le relais peut aussi observer un certain niveau de métadonnées d’activité.
+Par rapport à une connexion via Tailscale ou Tor, l’intérêt principal de NWC est d’éviter toute joignabilité directe de votre nœud depuis l’extérieur. Cela simplifie énormément l’usage en mobilité : votre nœud n’a pas besoin d’accepter des connexions entrantes, il lui suffit de pouvoir communiquer avec un relais. En contrepartie, vous introduisez une dépendance fonctionnelle à des relais Nostr : s’ils sont indisponibles, l’expérience se dégrade. Aussi, même si les messages sont chiffrés, le relais peut observer un certain niveau de métadonnées d’activité.
 
 La différence de modèle de sécurité est également importante. Avec Tailscale ou Tor, vous exposez un accès direct à votre nœud (via l’API de LND) protégé par des secrets très sensibles. C’est puissant, car vous pouvez tout administrer, mais c’est aussi une surface d’attaque plus basse couche. Avec NWC, l’accès est plus applicatif : vous déléguez un jeton de session qui autorise seulement certaines actions.
 
@@ -1140,4 +1140,4 @@ Dans un registre différent, mais tout aussi essentiel dans votre parcours de bi
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Mais avant de passer à autre chose, vous pouvez donner votre avis sur cette formation LNP 202 et, bien entendu, passer le diplôme afin de valider que vous avez bien assimilé l’ensemble de son contenu.
+Mais avant de passer à autre chose, vous pouvez donner votre avis sur ce cours LNP 202 et, bien entendu, passer le diplôme afin de valider que vous avez bien assimilé l’ensemble de son contenu.

@@ -1,5 +1,5 @@
 ---
-name: Спектр Сделай сам
+name: Specter DIY
 description: Руководство по настройке Specter DIY
 ---
 

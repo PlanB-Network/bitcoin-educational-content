@@ -1,5 +1,5 @@
 ---
-name: Обмен Зевса
+name: Zeus Swap
 description: Служба Exchange без опеки между биткоинами On-Chain и Lightning Network
 ---
 

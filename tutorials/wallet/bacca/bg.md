@@ -70,7 +70,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ![BACCA](assets/fr/01.webp)
 
 
-Продължете по същия начин, за да инсталирате Rust от [официалния уебсайт] (https://www.rust-lang.org/tools/install).
+Продължете по същия начин, за да инсталирате Rust от [официалния уебсайт](https://www.rust-lang.org/tools/install).
 
 
 ![BACCA](assets/fr/02.webp)

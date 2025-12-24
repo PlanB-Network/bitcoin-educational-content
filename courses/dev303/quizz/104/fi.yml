@@ -1,0 +1,8 @@
+question: Mikä mahdollistaa sen, että LDK tukee erilaisia siirtomekanismeja, kuten TCP-soketteja, WebSocketteja ja USB-sarjaliitäntöjä Lightning Network-viestinnässä?
+answer: Vertaishallintajärjestelmä toimii taustalla olevasta siirtomekanismista riippumatta, kun se käsittelee meluprotokollan salausta
+wrong_answers:
+  - Kanavahallinta koordinoi useiden verkkosovittimien kanssa yhtenäisen socket-abstraktiokerroksen kautta
+  - LDK toteuttaa protokollakohtaiset ajurit kullekin siirtotyypille ydinverkkomoduulissaan
+  - Tapahtumajärjestelmä tunnistaa automaattisesti käytettävissä olevat siirtomenetelmät ja määrittää asianmukaiset yhteyden käsittelijät
+explanation: |
+  LDK:n vertaishallintajärjestelmä on suunniteltu erityisesti käsittelemään Lightning-protokollan viestintää (mukaan lukien kohinan salaus ja viestirakenteet) varsinaisesta siirtokerroksesta riippumatta. Tämän arkkitehtuurisen erottelun ansiosta kehittäjät voivat toteuttaa minkä tahansa kaksisuuntaisen viestintäkanavan, kun taas vertaishallinta keskittyy pelkästään Lightning-protokollan noudattamiseen. Muissa vaihtoehdoissa annetaan virheellisesti ymmärtää, että LDK tarjoaa sisäänrakennettuja kuljetustoteutuksia tai automaattista tunnistusta, vaikka todellisuudessa LDK:n vahvuus on abstrahointi tietyistä kuljetusmekanismeista kokonaan pois.

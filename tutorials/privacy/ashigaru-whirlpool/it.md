@@ -324,7 +324,7 @@ Ecco alcune possibili strategie per gestire le UTXO in valuta estera da coinjoin
 
 
 
-- Acquistare carte regalo prepagate o carte Visa:** Piattaforme come [Bitrefill] (https://www.bitrefill.com/) consentono di scambiare i bitcoin con carte regalo o carte Visa ricaricabili che possono essere utilizzate nei negozi. Questo può essere un modo semplice e discreto per spendere gli UTXO tossici.
+- Acquistare carte regalo prepagate o carte Visa:** Piattaforme come [Bitrefill](https://www.bitrefill.com/) consentono di scambiare i bitcoin con carte regalo o carte Visa ricaricabili che possono essere utilizzate nei negozi. Questo può essere un modo semplice e discreto per spendere gli UTXO tossici.
 
 
 

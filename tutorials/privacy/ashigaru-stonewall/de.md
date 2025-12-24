@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Steinmauer
+name: Ashigaru - Stonewall
 description: Stonewall-Transaktionen auf Ashigaru verstehen und nutzen
 ---
 ![cover stonewall](assets/cover.webp)

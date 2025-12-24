@@ -221,7 +221,7 @@ Inyandiko isanzwe cane isaba umukono n'urufunguzo rw'ibanga rujanye n'i Address.
 ### UTXOs: Ivyiza biva mu bikorwa bitakoreshejwe
 
 
-Ku Bitcoin, ivyo mu vy'ukuri Exchange si bitcoins, ariko **UTXOs** (_Ibiva mu bikorwa bitakoreshejwe_), bisobanura "ibiva mu bikorwa bitakoreshejwe".
+Ku Bitcoin, ivyo mu vy'ukuri Exchange si bitcoins, ariko **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Ibiva mu bikorwa bitakoreshejwe_), bisobanura "ibiva mu bikorwa bitakoreshejwe".
 
 
 UTXO ni igice ca Bitcoin gishobora kuba c’agaciro ako ari ko kose, nk’akarorero, **amafaranga 2.000**, **amafaranga 8**, canke mbere **8.000 Sats**. Buri UTXO ikingirwa n'inyandiko, kandi kugira ngo umuntu ayikoreshe, ategerezwa gushitsa ivyo inyandiko isaba, akenshi umukono ufise urufunguzo rw'ibanga rujanye n'inyandiko ya Address.
@@ -431,7 +431,7 @@ Kugira ngo ivyo bimenyekane, Alice na Bob barahingura **isoko rishasha rya Bitco
 ### Uburyo bwo kwimurira: Invoice
 
 
-Iyo Bob ashaka kwakira amahera, yohereza Alice **_invoice_** y’amasatoshi 30.000. Alice rero ibandanya kwishura iyo Invoice mu gutangura kwimurira mu muhora. Nk’uko twabibonye, ​​iyo nzira ishingiye ku kurema no gusinya **Commitment Transaction** nshasha.
+Iyo Bob ashaka kwakira amahera, yohereza Alice **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** y’amasatoshi 30.000. Alice rero ibandanya kwishura iyo Invoice mu gutangura kwimurira mu muhora. Nk’uko twabibonye, ​​iyo nzira ishingiye ku kurema no gusinya **Commitment Transaction** nshasha.
 
 
 Buri Commitment Transaction igereranya ugusangira amahera gushasha mu muyoboro inyuma y’ugutanga. Muri aka karorero, inyuma y’ugucuruza, Bob irafise amasatoshi 30.000, Alice na yo ikaba ifise amasatoshi 100.000. Iyo umwe muri abo babiri bari muri iyo nama afata ingingo yo gusohora iyi Commitment Transaction kuri Blockchain, vyotuma iyo nzira ifunga, amahera agaca agabanwa hakurikijwe iyo nzira ya nyuma.
@@ -916,7 +916,7 @@ Muri iki gice, twasuzumye inzira yo kwishura kuri Lightning Network. Ariko ikiba
 :::id ya videwo::
 
 
-Muri iki gice, tuzobona ingene Lightning ireka amahera ashobora guca mu nzira z’ubuhuza ataco akeneye kwizigira, bivuye kuri **HTLC** (_Amasezerano ya Hashed Time-Locked_). Aya masezerano y’ubwenge atuma buri nzira y’ubuhuza izoronka amahera gusa avuye mu muhora wayo iyo yohereza amahera ku wuzoyakira wa nyuma, ahandi ho, amahera ntazokwemezwa.
+Muri iki gice, tuzobona ingene Lightning ireka amahera ashobora guca mu nzira z’ubuhuza ataco akeneye kwizigira, bivuye kuri **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Amasezerano ya Hashed Time-Locked_). Aya masezerano y’ubwenge atuma buri nzira y’ubuhuza izoronka amahera gusa avuye mu muhora wayo iyo yohereza amahera ku wuzoyakira wa nyuma, ahandi ho, amahera ntazokwemezwa.
 
 
 Ikibazo kivyuka rero ku bijanye n’inzira y’ukwishura ni ukwizigira gukenewe mu bice vy’ubuhuza, no mu bice vy’ubuhuza ubwavyo. Kugira ngo ivyo tubigereranye, reka dusubire kuraba akarorero kacu koroshe ka Lightning Network gafise uturongo 3 n’imirongo 2:
@@ -1524,7 +1524,7 @@ Mu bice vya mbere, twasuzumye ingene imigwi ibiri, mu gufungura umurongo wo kwis
 - **Gufungura umurongo**: Guhingura umurongo bikorwa biciye mu gukoresha Bitcoin bifunga amafaranga mu 2/2 Address y'imikono myinshi. Ivyo bibanza bigereranya umurongo w'umuravyo kuri Blockchain.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 

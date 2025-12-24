@@ -368,7 +368,7 @@ Configurazione identica: copiare `.env-sample` in `.env` e inserire i propri par
 
 
 
-**Passo 1**: Andare alla pagina [GitHub releases] (https://github.com/MostroP2P/mobile/releases) e scaricare il file **app-release.apk** (circa 65 MB).
+**Passo 1**: Andare alla pagina [GitHub releases](https://github.com/MostroP2P/mobile/releases) e scaricare il file **app-release.apk** (circa 65 MB).
 
 
 

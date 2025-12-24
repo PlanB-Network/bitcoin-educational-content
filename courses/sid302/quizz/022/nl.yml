@@ -1,0 +1,8 @@
+question: Welk cruciaal strategisch voordeel biedt de wettelijke positionering van Liquid in vergelijking met andere tokenisatieplatformen zoals Ethereum of Solana?
+answer: Liquid vermijdt ongeregistreerde veiligheidsrisico's door Bitcoin (L-BTC) te gebruiken als native asset zonder pre-mining of het uitvoeren van een ICO
+wrong_answers:
+  - Liquid opereert onder een speciale regelgevende zandbak die het vrijstelt van de effectenwetgeving in de meeste rechtsgebieden
+  - "Het federatiemodel van Liquid kwalificeert alle uitgegeven tokens automatisch als gereguleerde effecten onder bestaande kaders."
+  - Liquid heeft goedkeuring gekregen van de belangrijkste financiële autoriteiten voor alle token-activa op zijn platform
+explanation: |
+  Het strategische regelgevende voordeel van Liquid komt voort uit de technische architectuur en niet uit speciale vrijstellingen of goedkeuringen. Door Bitcoin te gebruiken als zijn eigen activa (L-BTC) zonder pre-mining tokens of het uitvoeren van een ICO, vermijdt Liquid de classificatie "ongeregistreerd effect" die veel andere blockchainplatforms bedreigt. Dit is cruciaal omdat regelgevende instanties zoals de SEC blockchainprojecten die hun eigen tokens creëerden en verkochten steeds kritischer onder de loep hebben genomen en mogelijk hebben geclassificeerd als ongeregistreerde effecten. De foute antwoorden suggereren ten onrechte dat Liquid speciale wettelijke toestemmingen of automatische nalevingsfuncties heeft, terwijl het voordeel in werkelijkheid zit in het volledig vermijden van de problematische token economie.

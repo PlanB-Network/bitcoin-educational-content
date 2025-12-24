@@ -42,7 +42,7 @@ Anda tidak memerlukan pengetahuan teknis atau pengetahuan mendalam sebelum mengg
 
 
 
-Buka situs web [Coinos] (https://coinos.io/) di browser Anda dan klik **Mulai dalam hitungan detik**.
+Buka situs web [Coinos](https://coinos.io/) di browser Anda dan klik **Mulai dalam hitungan detik**.
 
 
 

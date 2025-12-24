@@ -1,0 +1,9 @@
+question: เบราว์เซอร์ข้อความใดที่ไม่มีการสนับสนุนกราฟิก Interface หรือ JavaScript ที่เก่าแก่ที่สุดที่ยังคงได้รับการดูแลรักษา?
+answer: ลิงซ์
+wrong_answers:
+  - Mullvad Browser
+  - Polypane
+  - วีวัลดี
+explanation: |
+  Lynx ซึ่งปรากฏในปี 1992 ทำงานในโหมดข้อความ ไม่รองรับ JavaScript และยังคงถูกใช้เพื่อวัตถุประสงค์เฉพาะเจาะจงมากๆ
+reviewed: false

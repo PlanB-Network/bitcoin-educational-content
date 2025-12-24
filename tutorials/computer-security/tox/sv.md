@@ -50,7 +50,7 @@ Den teknik som Tox-protokollet använder liknar peer-to-peer-nätverk som blockk
 
 
 
-Du kan använda Tox-protokollet via en snabbmeddelandeklient som du kan ladda ner från [Tox Chat-webbplatsen] (https://tox.chat).
+Du kan använda Tox-protokollet via en snabbmeddelandeklient som du kan ladda ner från [Tox Chat-webbplatsen](https://tox.chat).
 
 
 
@@ -74,7 +74,7 @@ Beroende på ditt operativsystem kan du ladda ner och installera en Tox-klient s
 
 
 
-- qTox: En Tox-klient från [öppen källkod] (https://github.com/TokTok/qTox) baserad på Qt Framework (C++) tillgänglig på Windows, Linux, MacOs.
+- qTox: En Tox-klient från [öppen källkod](https://github.com/TokTok/qTox) baserad på Qt Framework (C++) tillgänglig på Windows, Linux, MacOs.
 
 
 

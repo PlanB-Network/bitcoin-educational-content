@@ -13,142 +13,17 @@ category: communication
 
 level: intermediate
 
-professor_id: 4e4b23c8-14e8-4867-93da-161a3915af99
+professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
 
 licence: CC-BY-SA-V4
 
 # Proofreading metadata
 
-original_language: fr
+original_language: en
 proofreading:
-  - language: fr
-    last_contribution_date: 2025-11-06
-    urgency: 1
-    contributor_names:
-      - LoicPandul
-    reward: 0.06
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-12-07
     urgency: 1
     contributor_names:
-    reward: 0.13
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
+      - runningbitcoin
+    reward: 1.73

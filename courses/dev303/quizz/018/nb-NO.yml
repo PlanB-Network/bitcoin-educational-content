@@ -1,0 +1,8 @@
+question: Hvilken mekanisme bruker Rust for å automatisk rydde opp i variabler og ressursene deres når de går ut av scope?
+answer: Drop-mekanismen som kaller drop-funksjoner på variabler
+wrong_answers:
+  - En søppelsamler som med jevne mellomrom søker etter ubrukt minne
+  - Manuell deallokering av minne gjennom eksplisitte free()-funksjonskall
+  - Referansetelling som sporer hvor mange pekere som refererer til hver verdi
+explanation: |
+  Rust bruker drop-mekanismen til automatisk å rydde opp i ressurser når variabler går ut av scope. Systemet kaller implisitt en drop-funksjon på hver variabel når den går ut av scope, markerer minnet som tilgjengelig for gjenbruk og utfører alle nødvendige oppryddingsoperasjoner, for eksempel å lukke filhåndtak. Denne tilnærmingen, som er lånt fra C++s RAII-mønster, sikrer automatisk ressurshåndtering uten å kreve søppelsamling, manuell minnehåndtering eller referansetellingssystemer som brukes i andre språk.

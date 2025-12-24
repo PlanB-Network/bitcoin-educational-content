@@ -1,5 +1,5 @@
 ---
-name: SwapMarkt
+name: SwapMarket
 description: Bitcoin en Lightning ruil diensten aggregator
 ---
 

@@ -98,7 +98,7 @@ Linux altında bir yönlendirici monte etmek ve üzerine ntopng yüklemek tamame
 
 
 
-Not: [Raspberry Pi ve RaspAP ile bir Wifi yönlendirici oluşturun] (https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) makalesini okuyanlar için, doğru istatistikler elde etmek için Rpi'nize ntopng yüklemek tamamen mümkündür!
+Not: [Raspberry Pi ve RaspAP ile bir Wifi yönlendirici oluşturun](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) makalesini okuyanlar için, doğru istatistikler elde etmek için Rpi'nize ntopng yüklemek tamamen mümkündür!
 
 
 

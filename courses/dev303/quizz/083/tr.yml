@@ -1,0 +1,8 @@
+question: UniFFI, Rust fonksiyonlarından Kotlin ve Python gibi hedef dillere hata yayılımını nasıl ele alıyor?
+answer: Sonuç türlerini döndüren işlevler UDL'de 'throws' ile işaretlenir ve hedef dillerde generate yerel istisnaları
+wrong_answers:
+  - Hata türleri otomatik olarak dize mesajlarına dönüştürülür ve tüm hedef dillerde isteğe bağlı değerler olarak döndürülür
+  - Tüm Rust hataları, geliştiriciler tarafından manuel olarak açılması gereken genel bir UniFFI hata türüne sarılmıştır
+  - Hata işleme, geliştiricilerin her hedef dil platformu için hata çeviri kodunu manuel olarak uygulamasını gerektirir
+explanation: |
+  UniFFI, Rust'ün Sonuç tabanlı hata modelini koruyan ve her hedef dil için uygun şekilde çeviren gelişmiş hata işleme sağlar. Rust'te Result türleri döndüren işlevler UDL'de 'throws' anahtar sözcüğü ile işaretlenir ve bu generate yerel istisna işleme hedef dillerde - Kotlin yöntemleri Java/Kotlin kurallarını izleyerek istisnaları fırlatırken, Python Python'un istisna modelini kullanır. Bu, genel sarmalayıcıların veya manuel çeviri yaklaşımlarının aksine, orijinal Rust hata türlerinin anlamsal anlamını korurken, hata işlemenin her dilde doğal ve deyimsel hissettirmesini sağlar.

@@ -1,0 +1,8 @@
+question: När det gäller kompakta blockfilter (BIP158) för integritetsskyddande ljusklienter, vad är den kritiska avvägningen som gör dem effektiva för wallet-integritet?
+answer: De kan ge falska positiva resultat men aldrig falska negativa, vilket gör att klienter kan ladda ner potentiellt irrelevanta block utan att avslöja specifika adresser
+wrong_answers:
+  - De kan ge falska negativ men aldrig falska positiv, vilket säkerställer att kunderna bara laddar ner block som innehåller deras transaktioner
+  - De eliminerar både falska positiva och falska negativa resultat genom att använda deterministisk filtrering baserad på wallet-adresser
+  - "De producerar både falska positiva och falska negativa resultat i lika stora proportioner för att dölja kundens faktiska transaktionsmönster"
+explanation: |
+  Kompakta blockfilter är utformade med en asymmetrisk felmodell: de kan indikera att ett block innehåller relevanta transaktioner när det inte gör det (falskt positivt), men de kommer aldrig att missa ett block som faktiskt innehåller relevanta transaktioner (inga falska negativa). Denna design är avgörande eftersom falska negativa skulle innebära att man missar faktiska betalningar, medan falska positiva bara leder till att man laddar ner onödiga block. Andelen falska positiva ger integritet genom att tvinga kunderna att ladda ner vissa irrelevanta block, vilket gör det omöjligt för observatörer att avgöra vilka block som faktiskt innehåller kundens transaktioner.

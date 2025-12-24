@@ -1,0 +1,8 @@
+question: Která syntaxe vzoru makra by správně odpovídala nule nebo více výrazům odděleným čárkami ve vlastním makru podobném funkci?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Správná syntaxe $($x:expr),* používá vzor opakování Rust, kde znak dolaru zavádí skupinu opakování, $x:expr odpovídá každému výrazu se specifikátorem fragmentu expr, čárka slouží jako oddělovač mezi výrazy a hvězdička (*) označuje nula nebo více opakování. Špatné odpovědi obsahují syntaktické chyby: $($x:expr)*, umisťuje čárku mimo skupinu opakování, $[x:expr],* používá hranaté závorky místo závorek a vynechává znak dolaru před x a ${$x:expr},* používá pro skupinu opakování hranaté závorky místo závorek.

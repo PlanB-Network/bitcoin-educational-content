@@ -1,0 +1,9 @@
+question: ใครเป็นผู้คิดค้นแนวคิดของ proof of work?
+answer: ซินเธีย ดเวิร์ก และ โมนิ เนาออร์
+wrong_answers:
+  - มาร์คัส จาคอบส์สัน และ อารี จูลส์
+  - อดัม แบ็ค
+  - Satoshi Nakamoto
+explanation: |
+  พวกเขาได้อธิบายแนวคิดนี้ในปี 1992 Markus Jakobsson และ Ari Juels ได้บัญญัติศัพท์ว่า proof of work ต่อมา Adam Back ได้นำแนวคิดนี้ไปใช้กับ Hashcash
+reviewed: true

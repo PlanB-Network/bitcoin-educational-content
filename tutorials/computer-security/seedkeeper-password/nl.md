@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Wachtwoordmanager
+name: Seedkeeper - Wachtwoordbeheerder
 description: Hoe sla je wachtwoorden op met de Seedkeeper smartcard?
 ---
 

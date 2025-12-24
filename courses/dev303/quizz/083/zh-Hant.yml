@@ -1,0 +1,8 @@
+question: UniFFI 如何處理從 Rust 函式到 Kotlin 和 Python 等目標語言的錯誤傳播？
+answer: 返回結果類型的函數在 UDL 中會標示為 'throws'，而在目標語言中，則會標示為 generate 原生異常。
+wrong_answers:
+  - 在所有目標語言中，錯誤類型會自動轉換為字串訊息，並作為可選值傳回
+  - 所有 Rust 錯誤都包裝在通用的 UniFFI 錯誤類型中，必須由開發人員手動解除包裝。
+  - 錯誤處理需要開發人員針對每個目標語言平台手動執行錯誤轉譯程式碼
+explanation: |
+  UniFFI 提供精密的錯誤處理，保留 Rust 以結果為基礎的錯誤模型，同時針對每種目標語言進行適當的轉譯。在 Rust 中返回 Result 類型的函數在 UDL 中會標示「throws」關鍵字，而這些 generate 原生異常處理在目標語言中 - Kotlin 方法依照 Java/Kotlin 慣例拋出異常，而 Python 則使用 Python 的異常模型。這可確保錯誤處理在每種語言中都感覺自然且慣用，同時保留原始 Rust 錯誤類型的語義，這與一般包裝程式或手動翻譯方法不同。

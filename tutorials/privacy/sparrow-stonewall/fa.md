@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - استون‌وال
+name: Sparrow Wallet - Stonewall
 description: درک و استفاده از تراکنش‌های Stonewall در Sparrow
 ---
 

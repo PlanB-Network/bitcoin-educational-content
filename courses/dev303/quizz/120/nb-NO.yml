@@ -1,0 +1,8 @@
+question: Hva er den viktigste personvernmessige avveiningen som gjøres når man går fra en selvadministrert LDK-implementering til Breez SDKs skybaserte arkitektur?
+answer: Greenlight får potensielt innsyn i betalingsdestinasjoner og fakturagenereringsaktiviteter gjennom skybasert ruting
+wrong_answers:
+  - "Private nøkler lagres på Blockstreams servere i stedet for lokalt på brukerens enhet"
+  - Informasjon om kanalstatus blir offentlig synlig på Lightning Network-grafen gjennom Greenlight-noder
+  - LSP-tjenester kan nå overvåke alle on-chain-transaksjoner og knytte dem til Lightning-betalingsmønstre
+explanation: |
+  Det riktige svaret identifiserer den viktigste personvernforringelsen: skybasert ruting gjør det mulig for Greenlight å potensielt observere betalingsdestinasjoner, mens skybasert fakturagenerering utvider informasjonseksponeringen utover det som tradisjonelle LSP-arkitekturer avslørte. De gale svarene er feil fordi: private nøkler forblir under brukerens kontroll til tross for skyarkitekturen, kanalstatusene blir ikke gjort offentlig synlige gjennom ruting, og LSP-er får ikke flere on-chain-transaksjonsovervåkningsmuligheter gjennom denne arkitekturendringen.

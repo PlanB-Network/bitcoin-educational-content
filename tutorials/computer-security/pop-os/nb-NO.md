@@ -171,7 +171,7 @@ Denne kontrollen er veldig enkel:
 
 
 
-ISO-bildet av Pop!OS kan lastes ned direkte fra den offisielle System76-siden: [system76.com/pop] (https://system76.com/pop/).
+ISO-bildet av Pop!OS kan lastes ned direkte fra den offisielle System76-siden: [system76.com/pop](https://system76.com/pop/).
 
 
 
@@ -251,7 +251,7 @@ Du kan bruke flere verktøy, for eksempel Balena Etcher :
 
 
 
-- Last ned og installer [Balena Etcher] (https://etcher.balena.io/).
+- Last ned og installer [Balena Etcher](https://etcher.balena.io/).
 
 
 

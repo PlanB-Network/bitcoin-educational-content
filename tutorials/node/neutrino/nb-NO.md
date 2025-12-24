@@ -11,7 +11,7 @@ description: Installasjonsveiledning for LND Neutrino
 ### 1. Last ned Raspberry Pi OS Lite
 
 
-Du finner instruksjoner for nedlasting og installasjon av avbildningen på et micro SD-kort i Windows, Mac og Linux på [denne siden] (https://www.raspberrypi.org/software/operating-systems/).
+Du finner instruksjoner for nedlasting og installasjon av avbildningen på et micro SD-kort i Windows, Mac og Linux på [denne siden](https://www.raspberrypi.org/software/operating-systems/).
 
 
 ### 2. Formater SD-kortet
@@ -147,7 +147,7 @@ $ sudo apt install fail2ban
 ### 10. Installer Go
 
 
-Hvis du ikke bruker en raspberry pi, kan du laste ned go for your architecture [her] (https://golang.org/dl/).
+Hvis du ikke bruker en raspberry pi, kan du laste ned go for your architecture [her](https://golang.org/dl/).
 
 
 ```

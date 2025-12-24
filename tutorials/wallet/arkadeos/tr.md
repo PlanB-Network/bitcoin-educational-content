@@ -267,7 +267,7 @@ Para göndermek için **"Gönder "** düğmesine basın ve alıcının adresini 
 
 
 
-**on-chain çıktı gizliliği**: Aşağıdaki örnek bir [mempool.space üzerinde Ark çıktı işlemini] (https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb) göstermektedir. CoinJoin gibi 4 farklı çıktıya dağıtılmış bir girdi gözlemliyoruz. Harici bir gözlemci için hangi miktarın hangi kullanıcıya ait olduğunu belirlemek imkansızdır.
+**on-chain çıktı gizliliği**: Aşağıdaki örnek bir [mempool.space üzerinde Ark çıktı işlemini](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb) göstermektedir. CoinJoin gibi 4 farklı çıktıya dağıtılmış bir girdi gözlemliyoruz. Harici bir gözlemci için hangi miktarın hangi kullanıcıya ait olduğunu belirlemek imkansızdır.
 
 
 

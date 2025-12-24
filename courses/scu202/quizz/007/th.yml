@@ -1,0 +1,9 @@
+question: ระบบใดที่โดดเด่นในด้านโมเดลแบบโอเพ่นซอร์สที่ขับเคลื่อนโดยชุมชน?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux เป็นซอฟต์แวร์ฟรีและพัฒนาโดยชุมชนทั่วโลก ซึ่งรับประกันความโปร่งใส ความปลอดภัย และความยืดหยุ่นสำหรับผู้ใช้
+reviewed: false

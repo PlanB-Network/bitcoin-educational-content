@@ -1,0 +1,8 @@
+question: Mit welcher Methode können Sie einen Wert aus einem Ergebnis extrahieren und gleichzeitig eine benutzerdefinierte Panikmeldung bereitstellen, wenn ein Fehler auftritt?
+answer: erwarten
+wrong_answers:
+  - unwrap_or_else
+  - auspacken_mit_nachricht
+  - panik_mit
+explanation: |
+  Die expect-Methode wurde speziell entwickelt, um den Erfolgswert aus einem Ergebnis zu extrahieren, während Sie eine benutzerdefinierte Panikmeldung bereitstellen können, die angezeigt wird, wenn ein Fehler auftritt. Dies erleichtert die Fehlersuche im Vergleich zu unwrap, das eine generische Panikmeldung verwendet. Die Methode unwrap_or_else löst keine Panik aus, sondern führt beim Auftreten eines Fehlers eine Closure aus. Die anderen Optionen (unwrap_with_message und panic_with) sind keine eigentlichen Rust-Methoden zur Behandlung von Ergebnistypen.

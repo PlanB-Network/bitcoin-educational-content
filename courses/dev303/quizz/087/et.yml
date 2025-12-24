@@ -1,0 +1,8 @@
+question: Mis juhtub Rust struktuuridega ja nendega seotud meetoditega, kui need kaardistatakse UniFFI UDL-i kaudu sihtkeeltesse nagu Kotlin või Swift?
+answer: Need on UDLis esitatud liidetena ja generate-s objektorienteeritud sihtkeeltes meetoditega klassidena
+wrong_answers:
+  - Need teisendatakse lihtsateks sõnastuteks, millel puudub sihtkeeles igasugune meetodi funktsionaalsus
+  - Need nõuavad iga meetodi käsitsi rakendamist sihtkeeles, kasutades tagasivõtuliideseid
+  - Need muutuvad automaatselt nimeruumi funktsioonideks, mis võtavad esimese parameetrina struktuuri
+explanation: |
+  UniFFI säilitab objektorienteeritud disainimustrid, kaardistades Rust struktuurid koos seotud meetoditega UDL-i liidesteks, mis seejärel generate emakeelsete klassidena koos meetoditega sihtkeeltes. See säilitab algse Rust rakendamise struktuurilise terviklikkuse ja käitumise, esitades samal ajal tuttavaid objektorienteeritud liideseid arendajatele sellistes keeltes nagu Kotlin ja Swift. Teised võimalused on valed, sest UniFFI säilitab konkreetselt meetodite funktsionaalsuse, mitte ei lamedaks sõnastikuks, ei nõua käsitsi rakendamist, kuna sidumised genereeritakse automaatselt, ja ei muuda struktuurimeetodeid nimeruumi funktsioonideks.

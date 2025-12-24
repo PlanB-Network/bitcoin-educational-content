@@ -1,0 +1,8 @@
+question: Welches ist die kritische operative Schwachstelle, die sich aus dem AMP-Autorisierungsmodell für regulierte Vermögensübertragungen ergibt?
+answer: Die Liquidität von Vermögenswerten wird vollständig unterbrochen, wenn der AMP-Server nicht mehr verfügbar ist, da jede Übertragung eine Mitunterzeichnung des Servers erfordert
+wrong_answers:
+  - Die Transaktionsgebühren steigen exponentiell, wenn mehrere Mitunterzeichner gleichzeitig versuchen, Überweisungen zu autorisieren
+  - Vertraulichkeit der Transaktion wird unterbrochen, da die Mitunterzeichnung den Beobachtern des Netzes verdeckte Faktoren offenbart
+  - Die Inhaber von Vermögenswerten verlieren die Sorgerechtskontrolle, da der Mitzeichnungsmechanismus private Schlüssel an den AMP-Server überträgt
+explanation: |
+  Das AMP-Autorisierungsmodell erfordert, dass der AMP-Server jeden Vermögenstransfer mitunterzeichnet, was einen einzigen Fehlerpunkt darstellt. Wenn der Server offline geht, können keine Transaktionen abgeschlossen werden, wodurch die gesamte Liquidität der Vermögenswerte eingefroren wird. Die anderen Optionen sind falsch: Die Gebühren steigen nicht exponentiell mit der Mitunterzeichnung, der Datenschutz für vertrauliche Transaktionen bleibt intakt (nur der Emittent erhält Einblick), und die Benutzer behalten ihre privaten Schlüssel, während der Server nur Autorisierungssignaturen liefert.

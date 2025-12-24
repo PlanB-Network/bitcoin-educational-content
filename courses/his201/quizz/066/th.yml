@@ -1,0 +1,9 @@
+question: ชื่อของบล็อกที่ดำเนินการโดย Jon Matonis ที่ครอบคลุมสกุลเงินดิจิทัล (รวมถึง Bitcoin ตั้งแต่เดือนมีนาคม 2010) คืออะไร?
+answer: อนาคตทางการเงิน
+wrong_answers:
+  - การศึกษาทางเศรษฐศาสตร์แบบคลาสสิก
+  - กลับไปใช้เงินสด
+  - สถาบันนากาโมโตะ
+explanation: |
+  หลังจากแลกเปลี่ยนอีเมลกับ Satoshi เขาได้ตีพิมพ์[บทความแรกของเขาเกี่ยวกับ Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) เมื่อวันที่ 13 มีนาคม 2010
+reviewed: true

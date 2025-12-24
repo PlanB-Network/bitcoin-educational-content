@@ -1,0 +1,8 @@
+question: Mikä on Rust:n kysymysmerkkioperaattorin (?) ensisijainen tarkoitus, kun sitä käytetään tulostyyppien kanssa?
+answer: Voit automaattisesti purkaa onnistuneet arvot ja palauttaa virheet välittömästi nykyisestä funktiosta
+wrong_answers:
+  - Kaikkien Result-tyyppien muuntaminen Option-tyypeiksi nollakäsittelyn helpottamiseksi
+  - Jos haluat automaattisesti hätääntyä mukautetun viestin kanssa, kun jokin virhe ilmenee
+  - Onnistuneiden arvojen kääriminen ylimääräiseen Result-kerrokseen lisäturvallisuuden takaamiseksi
+explanation: |
+  Kysymysmerkkioperaattori (?) on suunniteltu erityisesti Rust:n virheen etenemistä varten. Kun sitä sovelletaan Result-operaattoriin, se poimii success-arvon, jos operaatio onnistui, jolloin koodi voi jatkaa kyseisellä arvolla. Jos kuitenkin tapahtui virhe, ? -operaattori palauttaa virheen välittömästi nykyisestä funktiosta ja siirtää sen tehokkaasti kutsupinoa ylöspäin. Tämä poistaa tarpeen sanallisille täsmäämisilmauksille ja säilyttää samalla virheenkäsittelyn selkeä semantiikka. Operaattoria voidaan käyttää vain funktioissa, jotka palauttavat Result-tyyppejä, mikä varmistaa virheiden asianmukaisen etenemismallin.

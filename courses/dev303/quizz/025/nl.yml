@@ -1,0 +1,8 @@
+question: Welk sleutelwoord wordt gebruikt om implementatieblokken te definiëren die methoden en bijbehorende functies bevatten voor structuren in Rust?
+answer: impl
+wrong_answers:
+  - methode
+  - struct
+  - fn
+explanation: |
+  Het `impl` sleutelwoord wordt specifiek gebruikt om implementatieblokken te maken waar je methodes en geassocieerde functies voor structuren definieert. Terwijl `struct` de structuur zelf definieert, `fn` individuele functies definieert en `method` helemaal geen Rust sleutelwoord is, creëert alleen `impl` het blok dat het gedrag bevat dat geassocieerd is met een type. Met implementatieblokken die `impl` gebruiken, kun je functionaliteit aan je structuren toevoegen, waardoor ze meer worden dan alleen gegevenscontainers.

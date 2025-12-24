@@ -1,0 +1,8 @@
+question: Milline LDK sündmusepõhise arhitektuuri konkreetne omadus võimaldab rakendustel säilitada selge eraldatus Lightning-protokolli loogika ja rakendusspetsiifiliste vastuste vahel?
+answer: Kõigi oluliste toimingute ja oleku muutuste kohta on olemas asünkroonsed teated, mis võimaldab iseseisvalt rakendada kohandatud sündmuste käitlejaid
+wrong_answers:
+  - Sünkroonseid tagasikutseid käivitatakse otse kanalihalduris, mis nõuab protokollile vastavuse säilitamiseks koheseid vastuseid
+  - Sündmuste käitlejad genereeritakse automaatselt rakenduse konfiguratsiooni alusel, mis välistab vajaduse kohandatud rakendusloogika järele
+  - Kõik sündmused pannakse kesksesse puhvrisse järjekorda ja neid töödeldakse järjestikku, et tagada rakenduse deterministlik käitumine
+explanation: |
+  LDK sündmuste süsteem pakub asünkroonseid teateid kõigi Lightningi toimingute, sealhulgas partnerite ühenduste, maksete ja kanalimuutuste kohta. See võimaldab arendajatel rakendada kohandatud sündmuste käitlejaid, mis reageerivad asjakohaselt, säilitades samal ajal LDK põhifunktsioonide ja rakendusloogika puhta eraldatuse. Teised valikud on valed, sest LDK ei kasuta sünkroonseid tagasikutseid, mis blokeerivad protokollioperatsioone, ei kasuta automaatseid generate käitlejaid ega nõua sündmuste järjestikust töötlemist.

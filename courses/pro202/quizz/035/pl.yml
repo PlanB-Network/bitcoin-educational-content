@@ -1,0 +1,8 @@
+question: Podczas generowania podpisów dla danych wejściowych P2SH podczas konstruowania transakcji, jakiego skryptu należy użyć w procesie obliczania sighash?
+answer: Zamiast klucza scriptPubKey należy użyć skryptu redeem
+wrong_answers:
+  - Oryginalny scriptPubKey zawierający hash musi być użyty bezpośrednio
+  - Należy użyć kombinacji skryptu scriptPubKey i skryptu redeem
+  - Zamiast tego należy użyć ScriptSig zawierającego dane odblokowujące
+explanation: |
+  Podczas generowania podpisu P2SH proces sighash wymaga użycia skryptu redeem zamiast klucza scriptPubKey. Ma to kluczowe znaczenie, ponieważ scriptPubKey zawiera tylko hash skryptu redeem, a nie rzeczywiste warunki wydatkowania. Skrypt redeem zawiera rzeczywistą logikę (taką jak wymagania multisig), która określa, w jaki sposób można wydać dane wyjściowe, więc podpisy muszą być generowane względem tego skryptu bazowego, aby były ważne. Bezpośrednie użycie scriptPubKey nie powiedzie się, ponieważ zawiera on tylko porównanie hash, a nie rzeczywiste warunki wydatków, które muszą zostać spełnione.

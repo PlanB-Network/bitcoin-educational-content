@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Akademia - aplikacja Pears
+name: Plan ₿ Academy - Pears App
 description: Jak zainstalować i korzystać z aplikacji Plan ₿ Academy na Pears?
 ---
 

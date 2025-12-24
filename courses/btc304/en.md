@@ -24,7 +24,7 @@ In BTC304, we’ll look at why community building matters, explore tools for cre
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
 
-Welcome to BTC302!
+Welcome to BTC 304!
 
 
 Since 2009, Bitcoin has grown relentlessly. This growth has taken shape through new Bitcoin Improvement Proposals (BIP), the creation of additional layers to make the network scalable (Lightning Network among others), and the development of multiple companies and start-ups.
@@ -1962,12 +1962,12 @@ Alone, you can quickly explore one of the many tunnels in the Bitcoin rabbit hol
 **By creating and/or joining a community of bitcoiners, and by sharing and exchanging with them regularly, you'll be moving in all directions down the rabbit hole at the same time.**
 
 
-## BTC302, What's Next
+## BTC 304, What's Next
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
-In this BTC302 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
+In this BTC 304 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
 
 When your community is ready to take the next step, **you can create a formal association**.
 In France, for example, of the roughly sixty communities and meet-ups, almost a dozen have an association status.

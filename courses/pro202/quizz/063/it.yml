@@ -1,0 +1,8 @@
+question: Qual è la proprietà crittografica principale che consente ai filtri a blocchi compatti (BIP158) di fornire privacy ai clienti leggeri mantenendo una perfetta precisione?
+answer: Possono produrre falsi positivi ma mai falsi negativi quando vengono abbinate le transazioni
+wrong_answers:
+  - Utilizzano prove a conoscenza zero per nascondere quali indirizzi vengono interrogati dai nodi
+  - "Crittografano tutti i dati del filtro utilizzando la chiave pubblica del cliente per impedire le intercettazioni"
+  - Randomizzano l'ordine degli hash delle transazioni per nascondere i modelli di spesa agli osservatori
+explanation: |
+  I filtri a blocchi compatti utilizzano strutture di dati probabilistici che possono indicare erroneamente una corrispondenza (falso positivo), ma non mancheranno mai una corrispondenza effettiva (falso negativo). Questa proprietà asimmetrica è cruciale: i falsi positivi causano solo inutili download di blocchi, mentre i falsi negativi fanno sì che i portafogli perdano completamente i pagamenti. Il vantaggio in termini di privacy deriva da questa incertezza: gli osservatori non possono distinguere tra le corrispondenze autentiche e i falsi positivi, oscurando quali transazioni appartengono effettivamente al wallet interrogato.

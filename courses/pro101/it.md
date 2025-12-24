@@ -2211,7 +2211,7 @@ make install # optional
 
 
 
-- Eseguire i test per assicurarsi che tutto funzioni correttamente. Le istruzioni sono disponibili [qui] (https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
+- Eseguire i test per assicurarsi che tutto funzioni correttamente. Le istruzioni sono disponibili [qui](https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
 
 
 ```Bash

@@ -573,14 +573,14 @@ Biciye ku gukorana n’abantu benshi bo mu mugwi wa Gournay, abanditsi benshi ba
 
 
 
-- Igitabo ca Herbert ku [Polisi rusangi y’intete] (ibitabu 6 mu myaka 4)
+- Igitabo ca Herbert ku [Polisi rusangi y’intete](ibitabu 6 mu myaka 4)
 
 
 ![image](assets/rn/033.webp)
 
 
 
-- Coyer’s [Ubucuruzi bw’icubahiro] (ibisobanuro/ubucuruzi bw’icubahiro00coye/urupapuro/n3/uburyo/2up) (Ivyasohotse 5 mu myaka 2)
+- Coyer’s [Ubucuruzi bw’icubahiro](ibisobanuro/ubucuruzi bw’icubahiro00coye/urupapuro/n3/uburyo/2up) (Ivyasohotse 5 mu myaka 2)
 
 
 
@@ -588,7 +588,7 @@ Biciye ku gukorana n’abantu benshi bo mu mugwi wa Gournay, abanditsi benshi ba
 
 
 - Igitabo ca Plumard de Dangeul [Ivyiyumviro ku vyiza n’ibibi vy’Ubufaransa n’Ubwongereza](https://archive.org/details/bim_ibisobanuro-vy’inyungu_za_plumard-de-dangeul-loui_1754) (integuro y’imyaka 3 mu mwaka wa mbere)
-- Cliquot-Blervache na Gournay [Ivyiyumviro vyerekeye ubuhinga] (Ivyasohowe 2 mu 1758)
+- Cliquot-Blervache na Gournay [Ivyiyumviro vyerekeye ubuhinga](Ivyasohowe 2 mu 1758)
 
 Iryo tsinda ryaragize kandi uruhara runini mu gusohora igitabu ca 1914.
 

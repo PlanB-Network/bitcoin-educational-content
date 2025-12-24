@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’Isezerano rya Pedersen muri Elements’ Confidential Transactions?
+answer: Gusubirira amafaranga abonetse y'ibikorwa n'amasezerano y'ibanga ashobora kwemezwa ata guhishura agaciro nyako .
+wrong_answers:
+  - Ku generate bidasanzwe vy'inyuguti 64 vy'ibimenyetso vy'imitungo mishasha yasohotse ku rubuga rwa Elements
+  - Kugira ngo ukingire double-spending mu guhingura ibimenyamenya vy'imibare vyerekana ko agaciro kanyegejwe ari imibare myiza iri mu bice vy'ukuri
+  - Kugira ngo bishobore kwimurira Bitcoin kuva ku ruzitiro rukuru gushika ku ruzitiro rwo ku ruhande rwa Elements biciye ku buryo bwo gushiramwo amakuru
+explanation: |
+  Ivyemezo vya Pedersen ni uburyo nyamukuru bwo gukingira amakuru bushoboza ubuzima bwite muri Confidential Transactions mu gusubirira amafaranga aboneka n’ivyemezo vy’imibare. Kubera imiterere yabo y’ubumwe, abagenzura barashobora kugenzura ko ivyo binjira bingana n’ivyo bivako hamwe n’amahera batabona agaciro nyako. Ivyemezo vy’urutonde birabuza amafaranga mabi, ID z’itunga zigaragaza ibimenyetso, n’uburyo bwo gushiramwo amafaranga bukorana n’uguhererekanya amafaranga, ariko nta na kimwe muri ivyo ari igikorwa c’Isezerano rya Pedersen vyihariye.

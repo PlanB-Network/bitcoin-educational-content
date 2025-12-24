@@ -14,7 +14,7 @@ Web sitemiz şu anda bir dizi dil sunuyor ve daha fazlasını eklemek için sür
 Ana diliniz henüz web sitemizde mevcut değilse ve eklemek istiyorsanız, bu eğitim tam size göre!
 
 
-Öncelikle, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Telegram'ınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve hangi dilleri konuştuğunuz hakkında küçük bir sunum yazdığınızdan emin olun.
+Öncelikle, [Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Telegram'ınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve hangi dilleri konuştuğunuz hakkında küçük bir sunum yazdığınızdan emin olun.
 
 
 ## Bir Dilin Weblate üzerinde mevcut olup olmadığını kontrol etme
@@ -61,7 +61,7 @@ Diliniz orada değilse, eklemek için aşağıdaki öğreticiyi izleyin.
 ![language](assets/04.webp)
 
 
-- Açılır listeyi açın ve eklemek istediğiniz dili seçin. Aradığınız dil açılır listede mevcut değilse, ekibimizin manuel olarak oluşturabilmesi için [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) üzerinden ulaşabilirsiniz:
+- Açılır listeyi açın ve eklemek istediğiniz dili seçin. Aradığınız dil açılır listede mevcut değilse, ekibimizin manuel olarak oluşturabilmesi için [Telegram grubu](https://t.me/PlanBNetwork_ContentBuilder) üzerinden ulaşabilirsiniz:
 
 ![language](assets/05.webp)
 

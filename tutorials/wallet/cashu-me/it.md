@@ -81,7 +81,7 @@ per installare la PWA, toccare il pulsante del menu ⋮ nel browser e selezionar
 ![image](assets/en/01.webp)
 
 
-Dopo aver completato la configurazione, è necessario collegarsi a una "menta". Toccare `ADD MINT` seguito da `DISCOVER MINTS` per visualizzare le zecche raccomandate dalla comunità Nostr. Per ulteriori verifiche, è possibile esaminare le valutazioni delle zecche su [bitcoinmints.com] (bitcoinmints.com).
+Dopo aver completato la configurazione, è necessario collegarsi a una "menta". Toccare `ADD MINT` seguito da `DISCOVER MINTS` per visualizzare le zecche raccomandate dalla comunità Nostr. Per ulteriori verifiche, è possibile esaminare le valutazioni delle zecche su [bitcoinmints.com](bitcoinmints.com).
 
 
 Toccare quindi "Clicca per sfogliare le mentine" per visualizzare l'elenco completo. Selezionate una menta copiando il suo URL, incollandolo nel campo URL e assegnandole un nome riconoscibile. Per questo esempio, useremo:

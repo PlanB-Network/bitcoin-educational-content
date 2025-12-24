@@ -1,0 +1,8 @@
+question: Phương pháp nào cho phép bạn trích xuất một giá trị từ Kết quả đồng thời cung cấp thông báo lỗi tùy chỉnh nếu xảy ra sự cố?
+answer: trông chờ
+wrong_answers:
+  - giải nén_hoặc_khác
+  - unwrap_with_message
+  - hoảng loạn với
+explanation: |
+  Phương thức `expect` được thiết kế đặc biệt để trích xuất giá trị thành công từ một đối tượng `Result` đồng thời cho phép bạn cung cấp một thông báo lỗi tùy chỉnh sẽ được hiển thị nếu xảy ra lỗi. Điều này giúp việc gỡ lỗi dễ dàng hơn so với phương thức `unwrap`, phương thức này sử dụng một thông báo lỗi chung chung. Phương thức `unwrap_or_else` không gây ra lỗi mà thay vào đó thực thi một closure khi xảy ra lỗi. Các tùy chọn khác (`unwrap_with_message` và `panic_with`) không phải là các phương thức Rust thực sự để xử lý các kiểu `Result`.

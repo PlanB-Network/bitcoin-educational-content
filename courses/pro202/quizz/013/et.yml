@@ -1,0 +1,8 @@
+question: Millise matemaatilise struktuuri moodustavad elliptilise kõvera punktid liitmisoperatsiooni korral?
+answer: Matemaatiline rühm, millel on sulgemine, assotsiatiivsus, identsus ja inversioonid
+wrong_answers:
+  - Lõplik väli, kus on määratletud korrutamis- ja jagamisoperatsioonid
+  - Vektorruum skalaarkordistamise ja lineaarkombinatsioonidega
+  - Ringstruktuur, milles on nii liitmis- kui ka korrutamisoperatsioonid
+explanation: |
+  Elliptilise kõvera punktid moodustavad matemaatilise grupi liitmisel, mis tähendab, et nad vastavad neljale olulisele omadusele: sulgemine (kahe punkti liitmine annab teise punkti kõveral), assotsiatiivsus (operatsioonide järjekord ei ole oluline), identsus (punkt lõpmatuses on null) ja inversioonid (igal punktil on peegeldus üle x-telje, mis tühistab selle). See grupistruktuur on elliptilise kõveruse krüptograafia jaoks oluline, sest see tagab, et sellised operatsioonid nagu skalaarkordistamine (punkti korduv liitmine iseendaga) on hästi määratletud ja prognoositavad, võimaldades turvalisi krüptograafilisi protokolle nagu need, mida kasutatakse Bitcoin-s.

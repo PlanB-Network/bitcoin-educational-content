@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen tekninen syy siihen, että Greenlight-lompakoilla saavutetaan parempi maksujen reitityksen luotettavuus kuin perinteisillä mobiililaitteiden Lightning-toteutuksilla?
+answer: Greenlight-solmut toimivat jatkuvasti pilvessä, ylläpitäen reaaliaikaista verkon graafien synkronointia ja välittömän pääsyn täydellisiin graafitietoihin
+wrong_answers:
+  - Greenlight käyttää kehittyneitä koneoppimisalgoritmeja ennustamaan optimaalisia maksureittejä historiallisten tapahtumamallien perusteella
+  - Greenlight käyttää omaa monipolkuista maksujen jakamista, joka jakaa maksutapahtumat useisiin kanaviin samanaikaisesti redundanssin varmistamiseksi
+  - Greenlight ylläpitää erityisiä suuren kaistanleveyden yhteyksiä tärkeimpiin Lightning-keskittymiin, mikä varmistaa ensisijaisen reitityksen kaikkein likvidimpien kanavien kautta
+explanation: |
+  Oikea vastaus yksilöi Greenlightin pilvipohjaisen lähestymistavan perustavanlaatuisen arkkitehtuurisen edun. Perinteisten mobiililaitteiden Lightning-lompakoiden on synkronoitava verkon graafitiedot käynnistyksen yhteydessä, mikä aiheuttaa viiveitä ja saattaa johtaa vanhentuneisiin reititystietoihin. Greenlight ratkaisee tämän ajamalla Lightning-solmuja jatkuvasti pilvipalvelussa, jolloin varmistetaan, että niillä on aina ajantasainen verkkotieto ja että ne pystyvät välittömästi tarjoamaan täydelliset graafitiedot, kun käyttäjät ottavat yhteyttä. Väärät vastaukset kuvaavat uskottavia mutta olemattomia ominaisuuksia - Greenlight ei käytä ML-reititysalgoritmeja, omaa maksujen jakamista Lightningin standardiprotokollien ulkopuolella tai erityisiä solmupisteyhteyksiä ensisijaista reititystä varten.

@@ -1,0 +1,35 @@
+title: "Game-Theoretic Analysis of DDoS Attacks Against Bitcoin Mining Pools"
+original_language: en
+authors:
+  - Benjamin Johnson
+  - Aron Laszka
+  - Jens Grossklags
+  - Marie Vasek
+  - Tyler Moore
+abstract: |
+  One of the unique features of the digital currency Bitcoin is
+  that new cash is introduced by so-called miners carrying out resource-
+  intensive proof-of-work operations. To increase their chances of obtaining
+  freshly minted bitcoins, miners typically join pools to collaborate on the
+  computations. However, intense competition among mining pools has
+  recently manifested in two ways. Miners may invest in additional com-
+  puting resources to increase the likelihood of winning the next mining
+  race. But, at times, a more sinister tactic is also employed: a mining pool
+  may trigger a costly distributed denial-of-service (DDoS) attack to lower
+  the expected success outlook of a competing mining pool. We explore
+  the trade-off between these strategies with a series of game-theoretical
+  models of competition between two pools of varying sizes. We consider
+  differences in costs of investment and attack, as well as uncertainty over
+  whether a DDoS attack will succeed. By characterizing the game’s equi-
+  libria, we can draw a number of conclusions. In particular, we find that
+  pools have a greater incentive to attack large pools than small ones. We
+  also observe that larger mining pools have a greater incentive to attack
+  than smaller ones.
+publication_date: 2014-01-01
+paper_type: conference
+source: FC
+topics:
+  - Mining Pool Economics
+  - Game Theory Analysis
+pdf_url: https://aronlaszka.com/papers/johnson2014game.pdf
+id: 70e3df9e-0de9-44e8-89d4-0452eaadcf89

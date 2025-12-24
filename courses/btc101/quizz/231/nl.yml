@@ -1,8 +1,0 @@
-question: Wat is het concept van geldstromen in de context van de Lightning Network?
-answer: Continue, realtime microbetalingen doen.
-wrong_answers:
-  - Bitcoin omzetten in contant geld op een fysieke locatie via een geldautomaat.
-  - Streaming audio- of video-inhoud voor Bitcoin.
-  - Nieuwe bitcoins creëren door Mining operaties die in real-time plaatsvinden.
-explanation: >-
-reviewed: true

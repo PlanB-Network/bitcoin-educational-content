@@ -1,0 +1,8 @@
+question: Kulingana na uchambuzi wa Paul Leroy-Beaulieu wa 1883, mifumo ya ujumuishaji kwa kawaida hupataje uvumbuzi wa kiteknolojia na kiutaratibu?
+answer: Wanaiga uvumbuzi uliotengenezwa nje na jamii za soko huria kwa sababu hawawezi kuunda uvumbuzi wa ndani wa generate
+wrong_answers:
+  - Wanaendeleza uvumbuzi kupitia kamati kuu za utafiti zinazoratibu maendeleo ya kisayansi
+  - Wanaunda uvumbuzi kwa kuunganisha maarifa ya pamoja na kuondoa vikwazo vya ushindani kwa ushirikiano
+  - Wanabuni generate kupitia taasisi zinazofadhiliwa na serikali zinazolenga rasilimali katika uboreshaji wa kimfumo
+explanation: |
+  Paul Leroy-Beaulieu alitabiri kwamba mifumo ya ujumuiya haingeweza kimuundo kufanya uvumbuzi wa ndani kutokana na asili yake ya urasimu na ukosefu wa motisha za kibinafsi. Alitarajia kwa usahihi kwamba jamii za kikomunisti zingetegemea kuiga uvumbuzi kutoka kwa jamii huru badala ya kuunda zao wenyewe, kwani kukosekana kwa mifumo ya malipo ya kibinafsi na mifumo ngumu ya udhibiti huzuia mpango wa kuchukua hatari na ubunifu unaohitajika kwa uvumbuzi wa kweli.

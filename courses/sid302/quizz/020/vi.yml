@@ -1,0 +1,8 @@
+question: Cấu hình mạng sẽ thay đổi như thế nào trong quá trình chuyển đổi Liên kết động (Dynafed) của Liquid khi cần thay thế một chức năng viên?
+answer: Mạng lưới phát đi một giao dịch chuyển đổi, tiếp theo là giai đoạn chồng lấp kéo dài hai tuần trước khi cấu hình mới có hiệu lực.
+wrong_answers:
+  - Mạng lưới sẽ ngay lập tức chuyển sang cấu hình chức năng mới sau khi phát sóng giao dịch chuyển đổi.
+  - Tất cả các thành viên hội đồng quản trị phải đồng loạt bỏ phiếu thông qua việc thay thế trước khi bất kỳ thay đổi cấu hình nào được thực hiện.
+  - Mạng yêu cầu thiết lập fork cứng và tạm thời tắt để cập nhật danh sách chức năng và khởi động lại hoạt động.
+explanation: |
+  Dynamic Federation cho phép Liquid phát triển mà không cần phân nhánh cứng thông qua một quy trình chuyển đổi được dàn dựng cẩn thận. Khi cần thay thế chức năng, mạng sẽ phát đi một giao dịch chuyển đổi báo hiệu sự thay đổi sắp tới. Sau đó là một giai đoạn chồng chéo bắt buộc kéo dài hai tuần, trong đó cả cấu hình cũ và mới cùng tồn tại, đảm bảo tính liên tục liền mạch. Các lựa chọn khác không chính xác vì việc chuyển đổi ngay lập tức sẽ gây nguy cơ mất ổn định mạng, bỏ phiếu đồng thời không phải là cơ chế được sử dụng, và phân nhánh cứng chính là điều mà Dynafed được thiết kế để tránh.

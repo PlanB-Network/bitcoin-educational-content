@@ -1,0 +1,8 @@
+question: Cơ chế chính mà Rust sử dụng để ngăn ngừa các lỗi liên quan đến bộ nhớ như lỗi sử dụng sau khi giải phóng (use-after-free) và tràn bộ đệm là gì?
+answer: Phân tích tĩnh được thực hiện hoàn toàn tại thời điểm biên dịch.
+wrong_answers:
+  - Thu gom rác trong quá trình chạy với tính năng tự động dọn dẹp bộ nhớ.
+  - Kiểm tra bộ nhớ động trong quá trình thực thi chương trình
+  - Quản lý bộ nhớ thủ công bằng các lệnh cấp phát rõ ràng
+explanation: |
+  Rust ngăn ngừa các lỗi liên quan đến bộ nhớ thông qua phân tích tĩnh được thực hiện hoàn toàn trong quá trình biên dịch, nơi trình biên dịch kiểm tra mã nguồn và xác định chắc chắn liệu các thao tác bộ nhớ có an toàn hay không. Điều này khác với cơ chế thu gom rác (được sử dụng bởi Java/Go) gây ra chi phí hoạt động, kiểm tra động yêu cầu xác minh trong thời gian chạy và quản lý bộ nhớ thủ công (được sử dụng bởi C/C++) dựa vào kỷ luật của lập trình viên. Phương pháp biên dịch của Rust đảm bảo an toàn bộ nhớ mà không gây ra chi phí hoạt động hoặc tạm dừng không thể đoán trước.

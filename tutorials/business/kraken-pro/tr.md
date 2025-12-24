@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 Şirketinizin finansmanını yönetmek için Kraken'i kullanmanın ilk adımı elbette bir hesap oluşturmaktır. Burada, bireyler için bir hesap oluşturmayacağız, ancak yalnızca mevzuata uygunluğu sağlamakla kalmayıp aynı zamanda muhasebe dışa aktarımı gibi özel olarak uyarlanmış özellikler sunan kurumsal bir hesap oluşturacağız.
 
 
-Resmi web sitesine [kraken.com] (https://www.kraken.com/) gidin ve "*Kayıt Ol*" düğmesine tıklayın.
+Resmi web sitesine [kraken.com](https://www.kraken.com/) gidin ve "*Kayıt Ol*" düğmesine tıklayın.
 
 
 ![KRAKEN](assets/fr/01.webp)

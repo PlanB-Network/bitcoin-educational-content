@@ -163,7 +163,7 @@ Transaksjonen som tar opp mest plass, er derfor ikke nødvendigvis den transaksj
 
 
 
-Hvis du følger skalaen i **Info**-menyen, er transaksjonen med den høyeste transaksjonskostnaden den lilla. Dette er transaksjonen [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35] (https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) med en transaksjonskostnadsratio på `147,49 sats/vBytes`.
+Hvis du følger skalaen i **Info**-menyen, er transaksjonen med den høyeste transaksjonskostnaden den lilla. Dette er transaksjonen [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35](https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) med en transaksjonskostnadsratio på `147,49 sats/vBytes`.
 
 
 
@@ -177,7 +177,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempool er det virtuelle stedet der Bitcoin-transaksjoner som venter på å bli inkludert i en blokk, er gruppert sammen. Bitfeed gjør det mulig å konsultere [mempool] (https://planb.academy/resources/glossary/mempool) for flere Bitcoin-utvinnere, og tilbyr et bredt spekter av transaksjonssporing.
+Mempool er det virtuelle stedet der Bitcoin-transaksjoner som venter på å bli inkludert i en blokk, er gruppert sammen. Bitfeed gjør det mulig å konsultere [mempool](https://planb.academy/resources/glossary/mempool) for flere Bitcoin-utvinnere, og tilbyr et bredt spekter av transaksjonssporing.
 
 
 

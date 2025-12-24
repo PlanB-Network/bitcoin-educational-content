@@ -36,7 +36,7 @@ Kenianer können daher in drei einfachen Schritten Satoshis kaufen, ohne KYC ode
 
 
 
-Um die Lösung zu nutzen, besuchen Sie die Plattform [Bitika] (https://bitika.xyz/). Ob auf dem Computer oder dem Smartphone, die Schnittstelle bleibt dieselbe.
+Um die Lösung zu nutzen, besuchen Sie die Plattform [Bitika](https://bitika.xyz/). Ob auf dem Computer oder dem Smartphone, die Schnittstelle bleibt dieselbe.
 
 
 

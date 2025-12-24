@@ -64,7 +64,7 @@ O Olvid está disponível em todas as plataformas. Pode descarregar a aplicaçã
 
 
 
-No Android, também é possível [instalar via APK] (https://www.olvid.io/download/).
+No Android, também é possível [instalar via APK](https://www.olvid.io/download/).
 
 
 

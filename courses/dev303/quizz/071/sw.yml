@@ -1,0 +1,8 @@
+question: Ni jibu gani linalofaa zaidi wakati programu ya Bitcoin inapokutana na hitilafu batili ya kuingiza data, kama vile kupokea thamani hasi kwa sehemu inayohitaji nambari chanya pekee?
+answer: Kataa ingizo na urudishe ishara ya hitilafu kwa mpigaji
+wrong_answers:
+  - Badilisha thamani hasi kuwa thamani yake kamili na uendelee kusindika
+  - Andika hitilafu lakini endelea na operesheni kwa kutumia thamani chaguo-msingi
+  - Komesha programu nzima mara moja ili kuzuia ufisadi wa data
+explanation: |
+  Makosa batili ya kuingiza data yanawakilisha ukiukaji wa mkataba kati ya mpigaji simu na kitendakazi, ambapo vigezo vilivyotolewa havifikii mahitaji ya kitendakazi. Mbinu sahihi ni kukataa ingizo na kurudisha kiashiria cha hitilafu, kumruhusu mpigaji simu kushughulikia hali hiyo ipasavyo. Kubadilisha thamani hasi kuwa chanya huficha kosa kimya kimya na kunaweza kusababisha tabia isiyotarajiwa. Kutumia thamani chaguo-msingi hupuuza nia ya mpigaji simu na kunaweza kuchakata data isiyo sahihi. Kusitisha programu nzima ni kupita kiasi kwa hitilafu za uthibitishaji wa ingizo na kungesababisha uzoefu duni wa mtumiaji katika programu za Bitcoin ambapo utunzaji mzuri wa hitilafu ni muhimu.

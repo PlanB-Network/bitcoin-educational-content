@@ -447,7 +447,7 @@ Trotz gewisser Einschränkungen (keine automatischen Updates, eingeschränkte Ko
 
 
 - [Privacy Guides](https://www.privacyguides.org/en/desktop-browsers/)
-- [Vergleichende Tests zum Schutz der Privatsphäre] (https://privacytests.org)
+- [Vergleichende Tests zum Schutz der Privatsphäre](https://privacytests.org)
 
 
 

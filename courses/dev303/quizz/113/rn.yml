@@ -1,0 +1,8 @@
+question: Ni igiki gikomeye c’ibidukikije vy’amaporogarama y’amatelefone ngendanwa porogarama y’intango ya Breez yerekanye yatumye habaho iterambere ry’ubwubatsi bwa SDK?
+answer: Porogaramu zikoreshwa kuri telefone ngendanwa ntizishobora kuvugana n’izindi mu buryo bworoshe, ivyo bikaba bituma abazikora bubaka ibintu vyose vya Lightning mu porogaramu imwe aho gusangira ibikorwa remezo vya Lightning .
+wrong_answers:
+  - Ivyuma bigendanwa ntibigira ubushobozi buhagije bwo gukoresha ubuhinga bwa Lightning nodes mu buryo bwizewe, bisaba ibikorwa remezo bishingiye ku gicu kugira ngo bishobore gukora ibiharuro bikomeye vy’inzira .
+  - Uburyo bwo gukoresha telefone ngendanwa burabuza cane ibikorwa vyo mu nyuma, bikaba bibuza Lightning nodes kuguma zihuye n'urubuga
+  - Amaduka y'amaporogarama y'amatelefone ngendanwa arabuza amaporogarama y'ivy'amahera atagira ububiko, agahatira abahinguzi gushiramwo inyishu z'ububiko kugira ngo bashobore kwemererwa amaduka y'amaporogarama
+explanation: |
+  Porogaramu y’intango ya Breez yerekanye ko ibidukikije bigendagenda bidashobora gutuma habaho uguhanahana amakuru hagati y’iporogarama, bikaba bibuza porogaramu zidasanzwe gukoresha ibikorwa remezo vya Lightning bisangiye. Ivyo bikoresho vy’ubwubatsi vyatumye ibikorwa vyose vya Lightning bikoreshwa mu buryo bumwe. Ayandi mahitamwo ntabwo ari meza: ibikoresho bigendanwa birashobora gukoresha Lightning nodes (nk’uko Breez yavyerekanye), amategeko y’inyuma arashobora gutunganirizwa n’ubwubatsi bubereye, kandi amaduka y’amaporogarama muri rusangi yemera amaporogarama y’ivy’ubutunzi atari ay’ububiko.

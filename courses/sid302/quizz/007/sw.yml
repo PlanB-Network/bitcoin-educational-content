@@ -1,0 +1,8 @@
+question: Kuna uhusiano gani kati ya Elements na Liquid Network?
+answer: Liquid ni mfano maalum wa mnyororo wa pembeni wa Elements ulioundwa kwa ajili ya matumizi ya uzalishaji
+wrong_answers:
+  - Elements ni mfano maalum wa Liquid Network ulioundwa kwa madhumuni ya majaribio
+  - Liquid na Elements ni majukwaa mawili ya blockchain yanayoshindana yenye besi tofauti za msimbo
+  - "Elements ni utaratibu wa makubaliano unaowezesha uthibitishaji wa vitalu vya Liquid Network"
+explanation: |
+  Elements ni programu ya jukwaa la blockchain huria, huku Liquid ikiwa ni utekelezaji maalum au 'mfano' wa mnyororo wa kando wa Elements ambao umeundwa kwa ajili ya matumizi ya uzalishaji kwa kutumia mfumo wa makubaliano ya pamoja. Fikiria Elements kama mfumo wa msingi wa teknolojia, na Liquid kama mtandao mmoja maalum uliojengwa kwa kutumia mfumo huo. Hii ni sawa na jinsi Bitcoin Core ilivyo programu inayowezesha mtandao wa Bitcoin - Elements ni injini ya programu inayowezesha Liquid na minyororo mingine maalum.

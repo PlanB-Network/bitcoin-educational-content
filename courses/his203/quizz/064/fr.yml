@@ -1,0 +1,9 @@
+question: Quelle a été la méthode utilisée par Tony76 pour mettre en place son escroquerie du 20 avril 2012 sur la place de marché Silk Road ?
+answer: Utiliser sa réputation irréprochable de vendeur pour exiger une finalisation anticipée des transactions
+wrong_answers:
+  - Exploiter une vulnérabilité technique dans le traitement des paiements en bitcoins sur la plateforme
+  - Manipuler le cours du bitcoin pour faire gonfler articificiellement les prix affichés sur Silk Road
+  - Faire chanter un employé de Silk Road pour qu'il fasse apparaitre des fausses descriptions de produits
+explanation: |
+ Tony76 bénéficiait d'une réputation excellente, ce qui lui permettait d'exiger que les acheteurs utilisent la finalisation anticipée, au lieu du dépôt fiduciaire. Le 20 avril étant une date emblématique pour les consommateurs de cannabis, il a proposé pour l'occasion des réductions multiples sur ses produits habituels, et les commandes se sont multipliées. Il a disparu avec les bitcoins par la suite, et n'a jamais honoré ses commandes.
+reviewed: false

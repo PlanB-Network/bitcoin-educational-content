@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto เผยแพร่เอกสารไวท์เปเปอร์ Bitcoin ที่ไหนเมื่อวันที่ 31 ตุลาคม 2008?
+answer: รายชื่อผู้รับจดหมายการเข้ารหัสลับ
+wrong_answers:
+  - Reddit
+  - ทวิตเตอร์
+  - Hackernews
+explanation: |
+  ในฐานะผู้สืบทอดของรายชื่ออีเมล cypherpunks รายชื่ออีเมลนี้ได้รับการจัดการโดยนักพัฒนา Perry Metzger ตั้งแต่ปี 1996
+reviewed: true

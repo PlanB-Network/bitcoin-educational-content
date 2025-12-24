@@ -1,0 +1,9 @@
+question: สมาชิกฟอรั่มคนใดที่ทำให้ mining อัลกอริทึมของพวกเขาเป็นสาธารณะหลังจากได้รับการบริจาคอย่างใจกว้างจาก Jeff Garzik เมื่อวันที่ 18 กันยายน 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  จนกระทั่งถึงตอนนั้น พวกเขาได้กำไรจากค่าคอมมิชชั่นในการใช้งานซอฟต์แวร์ของพวกเขา พวกเขา[เผยแพร่](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135)ภายใต้ใบอนุญาตฟรี
+reviewed: true

@@ -1,0 +1,8 @@
+question: Warum muss im Zeugenstapel einer P2WSH-Transaktion für eine 2-von-3-Multisig ein leeres Element am unteren Ende des Zeugenstapels enthalten sein?
+answer: Um den Off-by-One-Fehler von CHECKMULTISIG zu kompensieren, der während der Ausführung ein zusätzliches Stackelement verbraucht
+wrong_answers:
+  - "Um einen Platzhalter für die dritte Signatur bereitzustellen, die bei der 2-von-3-Multisig-Validierung nicht verwendet wurde"
+  - Trennung der Unterschriftsdaten vom Zeugenskript für eine ordnungsgemäße SegWit-Validierungsanalyse
+  - Um sicherzustellen, dass der Zeugenstapel eine gerade Anzahl von Elementen für eine effiziente Merkle-Baumkonstruktion hat
+explanation: |
+  Der CHECKMULTISIG-Opcode hat einen historischen Fehler, bei dem ein zusätzliches Element vom Stack gepoppt wird, das nicht benötigt wird. Dies betrifft alle Multisig-Transaktionen, einschließlich P2WSH. Das leere Element kompensiert diesen Fehler und stellt sicher, dass die verbleibenden Stack-Elemente (Signaturen und Zeugenskript) für die Validierung richtig positioniert sind. Die anderen Optionen sind falsch: unbenutzte Signaturen werden nicht durch leere Elemente repräsentiert, das Parsen von Zeugen erfordert keine Trennelemente, und Zeugenstapel benötigen keine geraden Elementzahlen für Merkle-Operationen.

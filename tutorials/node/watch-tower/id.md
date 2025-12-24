@@ -33,7 +33,7 @@ Dalam tutorial ini, kita akan mencermati 3 cara menggunakan **Watchtower**:
 
 
 
-*Tutorial ini diambil dari [dokumentasi resmi LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya
+*Tutorial ini diambil dari [dokumentasi resmi LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya
 
 
 
@@ -327,11 +327,11 @@ OPTIONS:
 
 
 
-*Tutorial ini sebagian diambil dari artikel di [Summer of Bitcoin Blog] (https://blog.summerofbitcoin.org/). Modifikasi telah dilakukan terhadap versi aslinya*
+*Tutorial ini sebagian diambil dari artikel di [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/). Modifikasi telah dilakukan terhadap versi aslinya*
 
 
 
-Eye of Satoshi ([Rust-TEOS] (https://github.com/talaia-labs/Rust-teos)) adalah Watchtower Lightning non-depositori, yang sesuai dengan [Bolt 13] (https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). Terdiri dari dua komponen utama:
+Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) adalah Watchtower Lightning non-depositori, yang sesuai dengan [Bolt 13](https://github.com/sr-gi/bolt13/blob/master/13-watchtowers.md?ref=blog.summerofbitcoin.org). Terdiri dari dua komponen utama:
 
 
 
@@ -519,7 +519,7 @@ Pada menu yang sama, Anda juga akan menemukan URI layanan Watchtower Anda jika A
 
 
 
-Ada beberapa Menara Pengawal yang tersedia secara online. Sebagai contoh, [LN+ dan Voltage menawarkan Watchtower altruistik] (https://lightningnetwork.plus/Watchtower) yang dapat Anda sambungkan:
+Ada beberapa Menara Pengawal yang tersedia secara online. Sebagai contoh, [LN+ dan Voltage menawarkan Watchtower altruistik](https://lightningnetwork.plus/Watchtower) yang dapat Anda sambungkan:
 
 
 

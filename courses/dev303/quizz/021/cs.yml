@@ -1,0 +1,8 @@
+question: Jaký typ parametru by měla metoda Rust použít, pokud potřebuje změnit instanci struktury a zároveň umožnit volajícímu zachovat vlastnictví?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - vlastní
+  - mut self
+explanation: |
+  Metody, které potřebují modifikovat instanci struktury a zároveň umožňují volajícímu zachovat vlastnictví, by měly jako první parametr použít `&mut self`. Tím se vytvoří mutabilní reference na instanci, což metodě umožní měnit pole struktury, aniž by volajícímu bylo odebráno vlastnictví. Použití `&self` by umožnilo pouze čtení instance, `self` by instanci zcela spotřeboval a `mut self` není platnou syntaxí Rust pro parametry metod.

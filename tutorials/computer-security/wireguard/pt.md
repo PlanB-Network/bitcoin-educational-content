@@ -282,7 +282,7 @@ Por enquanto, vamos deixar de lado a configuração do lado do servidor do WireG
 
 
 
-Para que a nossa máquina Debian 11 seja capaz de **encaminhar pacotes entre redes diferentes (como um router)**, i.e. entre a rede VPN e a rede local, nós precisamos de ativar o [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Por defeito, esta funcionalidade está desactivada.
+Para que a nossa máquina Debian 11 seja capaz de **encaminhar pacotes entre redes diferentes (como um router)**, i.e. entre a rede VPN e a rede local, nós precisamos de ativar o [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Por defeito, esta funcionalidade está desactivada.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: कॉइनोस
+name: Coinos
 description: बिटकॉइन भुगतान भेजने, प्राप्त करने और स्वीकार करने के लिए एक सरल वेब एप्लिकेशन।
 ---
 ![cover](assets/cover.webp)

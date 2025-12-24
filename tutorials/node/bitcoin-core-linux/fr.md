@@ -216,7 +216,7 @@ Pour voir les journaux de votre noeud Bitcoin concernant spécifiquement ses int
 **Tip💡:** voici quelques liens intéressants :
 
 
-- [Page wiki expliquant Tor et sa relation avec Bitcoin] (https://en.Bitcoin.it/wiki/Tor)
+- [Page wiki expliquant Tor et sa relation avec Bitcoin](https://en.Bitcoin.it/wiki/Tor)
 - [Générateur de fichier de configuration Bitcoin core par Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
 - [Guide de configuration de Tor par Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 

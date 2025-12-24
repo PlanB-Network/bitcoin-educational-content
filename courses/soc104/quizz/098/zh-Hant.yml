@@ -1,0 +1,9 @@
+question: 根據 Eric Hughes 的 Cypherpunk Manifesto，有什麼基本原則可以區別於那些只希望隱私權受到保護的 cypherpunks？
+answer: Cypherpunks 主動寫程式碼來建立匿名系統，而不是等待機構提供隱私權
+wrong_answers:
+  - Cypherpunks 著重於政治遊說和法律改革，以透過民主程序建立隱私權。
+  - Cypherpunks 相信在現有的金融機構內進行合作，逐步改善其隱私權保護。
+  - Cypherpunks 優先教育大眾有關隱私權的風險，而非開發技術解決方案
+explanation: |
+  宣言明確指出「cypherpunks 會寫程式碼」，並強調他們不會在希望與願望中尋找安慰，而是積極介入事件。
+  Hughes 認為，人們不能期待政府、企業或其他大型組織保證隱私，因此 Cypherpunks 必須自己建立密碼系統。這種透過程式碼開發的主動、技術方法，使他們有別於被動的方法，例如遊說、在現有系統內工作，或只是教育他人而不創造具體的技術解決方案。

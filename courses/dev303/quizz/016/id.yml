@@ -1,0 +1,8 @@
+question: Jenis operasi apa yang dilakukan Rust secara default ketika menetapkan satu variabel String ke variabel lainnya?
+answer: Operasi pemindahan yang memindahkan kepemilikan dan membatalkan variabel sumber
+wrong_answers:
+  - Salinan dalam yang menduplikasi semua data tumpukan untuk membuat string independen
+  - Salinan dangkal yang membuat dua penunjuk ke memori tumpukan yang sama
+  - Pembuatan referensi yang memungkinkan kedua variabel berbagi akses hanya-baca
+explanation: |
+  Rust melakukan operasi pemindahan secara default ketika menetapkan tipe kompleks seperti String. Hal ini memindahkan kepemilikan dari sumber ke variabel tujuan sekaligus menginvalidasi sumber, mencegah skenario berbahaya di mana beberapa variabel dapat memodifikasi memori heap yang sama. Salinan yang dalam tidak akan efisien untuk string yang besar, salinan yang dangkal akan menimbulkan masalah keamanan memori dengan beberapa penunjuk ke data yang sama, dan pembuatan referensi membutuhkan sintaks eksplisit dengan operator ampersand.

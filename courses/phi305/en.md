@@ -29,7 +29,7 @@ Learn practical tools from Spinoza's ethics to understand bitcoin's philosophica
 In this course, I'm delighted to present the philosophy of Baruch de Spinoza (1632-1677), the famous 17th-century philosopher considered to be the father of rational Enlightenment philosophy.
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/en/001.webp)
 
 Portrait of Spinoza
 
@@ -55,7 +55,7 @@ And particularly in its philosophical aspect, which makes us reflect precisely o
 First, I'll introduce you to Spinoza, his character, his social, religious and family background, and the historical context of the United Provinces where he lived.
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/en/002.webp)
 
 Portrait of Spinoza
 
@@ -72,13 +72,13 @@ Nature, in other words God, is the famous "Deus sive Natura" in Latin that illus
 We'll also take a look at Spinoza's two major works, starting with the Ethics, published posthumously in 1677, which focuses entirely on freedom and the need to liberate ourselves from the servitudes that confine us.
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/en/003.webp)
 
 
 Then we'll look at the Traité théologico-Politique, published during his lifetime in 1670, which let us consider freedom from another angle: freedom of thought and belief. In other words, religious freedom, but above all political freedom.
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/en/004.webp)
 
 
 Finally, we'll see why Spinozism is a Copernican revolution of ideas, and how it represents a new definition of the world and human nature, by studying the 3 fundamental illusions denounced by Spinoza: the illusion of free will, the illusion of final causes or finalism, and the theological illusion.
@@ -87,7 +87,7 @@ Finally, we'll see why Spinozism is a Copernican revolution of ideas, and how it
 Thanks to the theory of affects developed in the manner of the geometers, "more geometrico", we will finally see how Spinoza offers us a practical method for freeing ourselves, or attempting to free ourselves, from the servitudes inherent in human nature and external passions. A rational mechanism which, to fight against ignorance, can be compared to the certainty that the three angles of a triangle always equal 180°, and will allow us to connect the spirit of the Enlightenment that resulted from it with the liberal currents of the 19th century or libertarianism of the 20th century, which are directly linked to the invention of Satoshi Nakamoto, Bitcoin.
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/en/005.webp)
 
 
 We'll then understand that, among the many points in common between Spinozist concepts and this tool of freedom invented by Satoshi Nakamoto, the first is that, in both cases, if we are curious, well-intentioned, as it was said at the time, have "understanding", then we cannot help but adhere to it. And if we don't adhere to it, which would of course be our most absolute right since it's fundamental to respect the freedom to believe, or not to believe, then we'd be determined not to be able to, or not to want to, which amounts to the same thing.
@@ -114,13 +114,12 @@ Who was Baruch de Spinoza? Well, he was a Dutch philosopher born in 1632 and die
 Of Jewish faith, he was a member of the Portuguese Sephardic community descended from the Marranos forced to leave Spain by the Catholics in the 15th century, he was brought up in a religious and intellectual environment, aware of what it means to be persecuted.
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/en/006.webp)
 
 
 In fact, from an early age, he showed a strongly critical spirit towards established religion, and in particular towards his Hebrew community, from which he was violently rejected in 1656, aged just 24, before he had published anything.
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 This "excommunication", it is said, allowed him to isolate himself and focus on his work without ever looking back.
@@ -129,7 +128,7 @@ This "excommunication", it is said, allowed him to isolate himself and focus on 
 An heir, like his contemporaries Descartes (1596-1650), Pascal (1632-1662) and Newton (1643-1727), to the new rational ideas in the physics of Copernicus (1473-1543), Kepler (1571-1630) and Galileo (1564-1642), who preceded him by just a few years, Spinoza developed a way of thinking in the manner of the geometers, in accordance with Galileo's principle that mathematics is the language of the universe.
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/en/007.webp)
 
 
 But these were very dangerous ideas for the time, after the trial of the monk and philosopher Giordano Bruno (1548-1600), who was burnt alive for heresy in a public square in Rome, and the trial of Galileo, forced by the inquisition in 1633 to renounce his Copernican heliocentric convictions.
@@ -144,9 +143,9 @@ In fact, Spinoza's work speaks only of God, whom he identifies with Nature, and 
 And it is this approach that links Spinoza to the philosophy of the Enlightenment, whether German, with Leibniz (1646-1716), Kant (1724-1804), Schopenhauer (1788-1860) and Nietzsche (1844-1900), English with Locke (1632-1704) or French with Voltaire (1694-1778), Rousseau (1712-1778) and Diderot (1713-1784). All agreed that reason should be used to combat obscurantism, especially religious obscurantism, to fight ignorance and to defend the ideals of freedom and progress.
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/en/008.webp)
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/en/009.webp)
 
 
 Now, to begin connecting this philosophy with Bitcoin, it's important to note that Spinoza was born in a very particular era.
@@ -158,7 +157,7 @@ In the 17th century, the United Provinces were not only the freest country in th
 Wealth, however, is not tied to natural resources, the exploitation and despoliation of colonies or slavery, but to international trade and commerce in a liberal, entrepreneurial spirit. A spirit later championed by a famous Spinozist, Voltaire (1694-1778), for whom, in a trading room, a businessman or entrepreneur of liberal persuasion would never be excluded, called an infidel or excommunicated, he said, on the basis of his religion or origins, but only if he had gone bankrupt.
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/en/010.webp)
 
 
 What's more, Holland at that time was also advanced in major technological fields, for example in the fields of mechanics and optics. The astronomical telescopes used by Galileo to look up at the sky and discover the universe were indeed considered cutting-edge technology for their era, as are the new technologies associated with computing, AI and, of course, crypto today.
@@ -193,7 +192,6 @@ Whether these means are philosophical or technological, as we shall see later, B
 In this chapter, I propose that we now turn to Spinoza's major work, entitled Ethics, published posthumously in 1677.
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 Why posthumously? Well, because his ideas were revolutionary, or at least counterintuitive and disruptive, and therefore very dangerous at the time, even in the liberal context of the 17th-century United Provinces.
@@ -202,7 +200,7 @@ Why posthumously? Well, because his ideas were revolutionary, or at least counte
 The Ethics is a work written in Latin in the manner of geometers, probably inspired by the scientific spirit of Galileo (1564-1642), the father, along with Kepler (1571-1630), of modern science, according to whom mathematics is the language of the universe. Spinoza develops his ideas in five main parts, using propositions accompanied by demonstrations, scolia, axioms and definitions.
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/en/011.webp)
 
 
 As such, the Ethics is, in Spinoza's words, "a way of arriving at freedom or the paths leading to it", and is not really a book that can be read from cover to cover, but rather one that can be worked through by reading, for example, one proposition that refers to another, which in turn is understood through a third, and so on, in a perfectly coherent, rational and logical system.
@@ -211,7 +209,7 @@ As such, the Ethics is, in Spinoza's words, "a way of arriving at freedom or the
 I'd like to point out that when you open the Ethics, it's recommended to begin with the postfaces and appendices, these short sections are written by Spinoza in everyday language, so they're easy to understand and, in a way, a summary of his sometimes complex thought.
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/en/012.webp)
 
 
 By subjecting the world around us to the "microscope of reason", Spinoza's work dissects human nature on the principle that the human being is not self-caused, i.e. that we did not ask to be born, neither here, nor in our time, nor with such physical or intellectual attribute.
@@ -235,7 +233,7 @@ But there are two points to keep in mind:
 Firstly, if chance doesn't exist for Spinoza, it's because it's an event whose cause we don't know. But, of course, he says, just because we don't know the cause doesn't mean it doesn't exist.
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/en/013.webp)
 
 
 Secondly, there's absolutely no question of fatalism either, since nature is not endowed with intention. Lightning, for example, has no intention of punishing anyone, as one might think in the case of a tragedy. No, it simply expresses the essence of its own nature, which is to strike with lightning. To strike.
@@ -250,7 +248,7 @@ Finally, it's important to note that ethics is not morality.
 According to Gilles Deleuze (1925-1995), the famous professor of philosophy and Spinoza specialist, morality is a system of judgment useful for living in society. But it's a subjective system, since what's right here may be wrong elsewhere, and what's wrong today may be right later.
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/en/014.webp)
 
 
 And rather than determining what is right or wrong, ethics establishes what is good or bad for our own nature and our capacity, says Spinoza, to preserve in our being. To be free. It is, therefore, a true ethology, that is to say, a science of ways of being, or, as Gilles Deleuze further explains, the art of making good encounters.
@@ -277,7 +275,7 @@ After the Ethics, i'd like to introduce you to another major work in this chapte
 This is the Traité théologico-politique, or TTP, published anonymously in 1670.
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/en/015.webp)
 
 
 Spinoza (1632-1677) wrote this book while interrupting the writing of his Ethics, in an attempt to put an end to a misunderstanding that still exists today. It's the belief that he was an atheist.
@@ -285,7 +283,7 @@ Spinoza (1632-1677) wrote this book while interrupting the writing of his Ethics
 As we have seen, Spinoza's concept of God is the subject of the entire first part of the Ethics, in which he demonstrates not only god's existence but also what his true nature is.
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/en/016.webp)
 
 
 And since Spinoza's concepts are generally quite difficult to grasp, it is often easier to understand them by saying what they are not, rather than by trying to say what they are. An approach which, incidentally and as we shall see later, is very useful for understanding Bitcoin.
@@ -294,7 +292,7 @@ And since Spinoza's concepts are generally quite difficult to grasp, it is often
 This is how Spinoza shows us that God, in his view, is not an anthropomorphic being endowed with intentions, punishing or rewarding, to whom we would speak and who would listen to us according to a ritual that we may or may not follow. In other words, according to him, God is not an old man with a long white beard hidden behind a cloud who would solve the world's difficulties and make us dependent on him.
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/en/017.webp)
 
 
 So to speak of God is to evoke Nature as a unique, infinite and eternal Substance, made up of an infinite number of attributes, of which us human beings know only two: matter, or the extent, and thought.
@@ -320,7 +318,7 @@ In other words, freedom of thought and belief, so that people can break free fro
 The infamous earthquake in Lisbon on November 1, 1755, showed a major shift in the way people thought about natural events and disasters, and about how to protect themselves against them.
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/en/018.webp)
 
 
 This terrible earthquake destroyed the city and killed hundreds of thousands of innocent people, many of whom were in church at that moment, since it was All Saints’ Day, which added to the survivors’ incomprehension.
@@ -329,13 +327,13 @@ This terrible earthquake destroyed the city and killed hundreds of thousands of 
 A drama that revived the question posed by the German philosopher and mathematician Leibniz (1646-1716) about the anthropomorphic vision of a God endowed with intention, goodness, and omnipotence. For if God were good, as Leibniz says in his Theodicy, then he would not be omnipotent, since he would allow such catastrophes, and if he were omnipotent, then he would not be good, since he could not prevent them.
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/en/019.webp)
 
 
 Far beyond damning the hand of God, Jean-Jacques Rousseau (1712-1778) wrote to Voltaire, who was struck by the injustice and horrors  discriminately suffered by humankind, that "nature was not evil in itself, and that we should not see in it any divine hand that would explain its design".
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/en/020.webp)
 
 
 To which Voltaire (1694-1778), a Spinozist if ever there was one, replied that this natural catastrophe should above all make us realize that the scientific means to protect ourselves from nature did exist, and that the challenge of their time was therefore to ask whether human beings could, thanks to the knowledge and progress, take their future into their own hands and free themselves from theology and superstition.
@@ -368,9 +366,8 @@ Thanks to this new way of understanding God, in other words Nature, offered by m
 Just as Nicolas Copernicus (1473-1543) established that the earth was not the center of the world, and Charles Darwin (1809-1882) showed three centuries later that human beings were not at the center of "life", so Spinoza followed this logic and asserted in his own time that human beings are not the "master of their own house" and that the universe is not made solely for their benefit.
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/en/021.webp)
 
-![image](./assets/fr/3.1.2.webp)
 
 
 He says that man is not "an empire within an empire" and that, just as the earth is reduced to the status of a mere planet, like all the other planets, the human being is reduced to the status of a mere modes of nature, like all the other finite modes of nature, such as animals, plants and all "existing beings".
@@ -379,7 +376,7 @@ He says that man is not "an empire within an empire" and that, just as the earth
 Before him, classical Greek philosophy proposed an ordered, hierarchical vision of the universe to explain the world, the cosmos and human experience. Based on mythical narratives, it basically sought to explain the origin of the world, insisting on the harmony of the universe, nature and mankind.
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/en/022.webp)
 
 
 The scholastic cosmology of the Middle Ages, essentially from the 12th century onwards, was an evolution towards more reasoning in order to harmonize reason and faith to explain a universe that was still hierarchical, but which corresponded better to Christian philosophy.
@@ -388,21 +385,20 @@ The scholastic cosmology of the Middle Ages, essentially from the 12th century o
 But with the new physics of Copernicus (1473-1543) in the 15th century, cosmology underwent a major turning point in the understanding of the universe, whose geocentric model was thus called into question in favor of the heliocentric system, which paved the way for modern science, notably the new physics and astronomy of Kepler (1571-1630) and Galileo (1564-1642). Then Isaac Newton (1643-1727) and finally Albert Einstein (1879-1955), a committed  Spinozist.
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/en/023.webp)
 
-![image](./assets/fr/3.1.5.webp)
 
 
 But to fully understand Spinozism, we also need to consider the context of René Descartes (1596-1650), the famous French philosopher who preceded Spinoza and of whom he was both a disciple and a great admirer.
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/en/024.webp)
 
 
 Despite the risks and the condemnations of Giordano Bruno (1548-1600) and Galileo, Descartes set out to distinguish "truth from falsehood" and to harmonize theology, philosophy and physics. In his famous Discourse on Method, published in 1637, Descartes argued that reason is the foundation of knowledge, through which human beings can attain freedom.
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/en/025.webp)
 
 
 By explaining the world according to universal laws rather than a nature endowed with moral intentions, he paved the way for determinism, which Spinoza would later according.
@@ -435,7 +431,7 @@ In this course, we will now turn to the delicate question of free will, in order
 As we've already seen, Spinoza (1632-1677) is well known for considering free will as an illusion from which it is extremely difficult to free oneself.
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/en/026.webp)
 
 
 Why so? Because it goes against the philosophical tradition since Antiquity, and still defended by Descartes (1596-1642), that human beings can initiate something from nothing and bear full responsibility for their actions, especially before God, says Saint Augustine (354-430), father of the Christian Church.
@@ -453,7 +449,7 @@ In other words, mankind is able to disrupt nature's order, rather than be subjec
 In the conduct of his life, because he would be subject to no law other than that of his own will, he would therefore be not only above nature and animals, mere machines, but also above all other finite modes of nature. This was the position of Descartes (1596-1650), for whom the causes of human impotence and inconstancy lay not in the natural order, but in the vices of human nature itself.
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/en/027.webp)
 
 
 But while Spinoza credits Descartes for opening the way to rational control of the affective life, he distances himself from him entirely by firmly criticizing this hypothesis of an "absolute power" of the will.
@@ -465,7 +461,7 @@ Spinoza, on the other hand, considers that our world is perfectly coherent and d
 This is the idea of absolute determinism, from which he establishes in his Ethics that men have no free will whatsoever because, he says, they are conscious of their actions, but they ignore, or prefer to ignore, the true causes that determine them.
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/en/028.webp)
 
 
 For Spinoza, human beings, as "finite modes" of nature like animals or plants, cannot therefore start something from nothing; they are not exempt from the laws of nature, both in their bodies and in their minds.
@@ -486,7 +482,7 @@ On the other hand, it would be an illusion to believe that the actions of a crim
 This approach to freedom as a capacity to act is the connection we can make with 18th-century Enlightenment philosophy. According to one of its greatest ambassadors, the German philosopher Immanuel Kant (1724-1804), the Enlightenment was indeed the means of freeing humans from the state of tutelage, or as Étienne de la Boétie (1530-1563) would have said, from voluntary servitude, for which they themselves were responsible.
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/en/029.webp)
 
 
 Kant's motto is "Think for yourself" and "Dare to know", the famous Latin "Sapere Aude".
@@ -505,9 +501,8 @@ And it's worth recalling Sigmund Freud's (1856-1939) definition of an illusion. 
 Finally, it's worth pointing out that while the libertarian movement we're about to discuss refers directly to this new liberal philosophy, there are those who point out that figures such as Ayn Rand (1905-1982), author of "La Grève" and "La Source vive", support the existence of free will, believing that human beings have the capacity to make free choices.
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/en/030.webp)
 
-![image](./assets/fr/3.2.6.webp)
 
 
 But the reality is quite different, and the confusion stems rather from a semantic problem: by recognizing the capacity of human beings to act, and to make choices, while acknowledging the logical determinism of which they are the object. the first libertarians are, in reality, also heirs of Spinoza. What they have in common with Spinoza is the belief that humans are not above nature but instead are the result of an evolutionary process that places them within a determinism, a history that goes beyond them, and is largely responsible for what humans are and what they do.
@@ -530,7 +525,7 @@ We saw in the previous chapter that the illusion of free will consists in believ
 But for Spinoza (1632-1677), man is not "an empire within an empire", i.e. he is not, contrary to what Descartes established (1596-1650), an exception in nature, and is never exempt from the prolongement of the deterministic chain of cause and effect.
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/en/031.webp)
 
 
 And since Nature, says Spinoza, has no prescribed end from a moral point of view, and since humans tend to mistake their imagination for understanding, They interpret it according to what suits their own interests. To the point that they give a meaning to things that derives only from the way they appreciate them and relate them to themselves.
@@ -548,7 +543,7 @@ A belief that expresses an intention, notably divine, and which, in the way we i
 And that's why new diseases such as AIDS in the 90s or covid in 2020 have always been perceived by some as the expression of a divine and often punitive intention, according to a reasoning that runs counter to the principle of causality that underpins rationalism and modern science established since Copernicus (1473-1543), Kepler (1571-1630) and Galileo (1564-1727).
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/en/032.webp)
 
 
 The fact is, as Spinoza says, that it matters little to people that so many things are beyond their imagination, that there is more disorder than order in nature. Yet the complexity of things beyond their grasp should dissuade them from believing in any teleological project. It doesn't matter, he says, because humans' belief in the relevance of their certainty based on what suits their desire and utility is always stronger than any rational argument or concern for truth.
@@ -560,13 +555,13 @@ Finalism thus amounts to inverting the causes and effects of things in order to 
 And this is exactly what the French naturalist Jean-Baptiste de Lamarck (1744-1829) asserted (image 3.3.3) when he established his predarwinian theory that it is the function that creates the organ, and not the other way round.
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/en/033.webp)
 
 
 But as Spinoza says, "the delusion of men does not end there", and among all the examples of naive, and ultimately rather amusing, teleological ideas, we often cite the famous example of the biologist Bernardin de Saint-Pierre (1737-1814). This former director of the Paris Museum of Natural History regarded the finalism of nature with poetry, lyricism and a certain naivety, considering that the melon, for example, had been created for the sole purpose of pleasing large families, since its ridged skin made it easy to cut into equal slices.
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/en/034.webp)
 
 
 The definition of inflation given by Keynesian economists and advocates of the welfare state, for example, also illustrates this paradox very well. According to them, inflation is an increase in prices which, according to some central bankers, comes either from "nowhere", or from geopolitical contexts which nobody can control or anticipate. While an increase in prices can indeed lead to cyclical inflation - for example, when the price of oil rises, the prices of certain processed goods will also rise - the real structural causes of inflation are primarily linked to an increase in the money supply, which in turn implies a fall in the value of money and, ipso facto, a mechanical rise in prices.
@@ -578,7 +573,7 @@ Believing, or having others believe, the opposite is tantamount to dreaming with
 However, this biased interpretation of inflation leads us to forget that, while it is useful for managing the economy in the short term, it is in fact a hidden tax, leading in the long term only to human and material disasters, and rendering states incapable of not abusing their power. This is what Friedrich Hayek (1899-1992) describes so well in his essay The Road to Serfdom, when he evokes the servitude from which states can no longer extricate themselves.
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/en/035.webp)
 
 
 Finally, it's worth noting here that this finalistic mechanism is also well illustrated in the way Bitcoin's detractors express their criticism by focusing precisely on its effects.
@@ -605,7 +600,7 @@ Thank you for your attention, and I'll see you in the next chapter.
 In this final chapter on the new Copernican vision of ideas offered by Spinozism, we turn finally to the third illusion presented by Spinoza (1632-1677) in his work, the Ethics.
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/en/036.webp)
 
 
 This illusion is directly linked to the first two, the illusion of free will and the illusion of finality.
@@ -623,7 +618,7 @@ This is why humans believe that if natural means exist and are useful, such as t
 In other words, a white-bearded old man hidden behind a cloud, who is credited with creating all things in nature as a means to our end, because he loves us, and protects us as we honor and worship him.
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/en/037.webp)
 
 
 This is the first stage of theological illusion.
@@ -632,7 +627,7 @@ This is the first stage of theological illusion.
 But despite our pride in believing ourselves to be above Nature, and in imagining that we can start something from nothing, in reality we are always subject to conditions of existence that indicate that, in the end, we won't really be able to "get away with it", as philosophy professor Gilles Deleuze (1925-1995) put it. We are mortal, like all animals, but we know it.
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/en/038.webp)
 
 
 Believing or imagining the opposite in order to reassure ourselves is the reason why we are perpetually tossed back and forth between fear and hope, like two opposing and inseparable poles between a feeling of security and a feeling of panic, since fear is always linked to the hope of better days.
@@ -647,7 +642,7 @@ And since "we are disposed to believe easily what we hope for", says Spinoza in 
 In other words, "the infamous" according to Voltaire (1694-1778), for whom superstition is never born of reason, and it always corresponds to an irrational or unfounded belief, opposed to any form of rationality by attributing to objects or actions powers or spiritual potency that they don't have.
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/en/039.webp)
 
 
 Under the guise of relieving us, of allowing us to imagine a better world, superstition actually locks us into our own illusions and lies. In servitudes from which we'll have a hard time extricating ourselves.
@@ -656,13 +651,13 @@ Under the guise of relieving us, of allowing us to imagine a better world, super
 This is what the German, English and French Enlightenment defended from the 18th century onwards, asserting that superstition simply prevents men from becoming adults, not only by limiting the exercise of reason, but also, and above all, by giving rise to intolerance, which is the best instrument for establishing the domination of a power. Whether political or religious.
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/en/040.webp)
 
 
 And this is what Spinoza demonstrates again in his Theologico Political Treatise, which we've already touched on. In this essay, he writes that "the great secret of the monarchical regime, and its major interest, is to deceive people, and to disguise with the name of religion the fear which must control them". This is why tyrants, dictators or revolutionaries, who are always people driven by the desire to do good for others, often, if not always, fall into the trap of doing the opposite of their principles in order to achieve them.
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/en/041.webp)
 
 
 But the novelty that Spinoza brings to the TTP, and which makes him in a way the father of secularism, is to consider that while it is essential to fight superstition and the call to violence that freedom paradoxically allows, the fact is that it is in the stat's interest to protect the right to believe and the freedom to think.
@@ -707,13 +702,13 @@ In other words, the question is whether "evil" exists in nature, and whether hum
 Ancient philosophers believed that evil did not exist in nature, and Socrates (470-399 B.C.), for example, taught that "evil is nothing". According to him, a wicked person was not wicked by nature, and in a way was simply mistaken about the nature of good.
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/en/042.webp)
 
 
 But the scholastic tradition, notably that of Saint Augustine (354-430), which still influences Christian morality today, argued that evil not only exists, that it is a reality, but that it can be explained because people are free, because they are capable of making a choice between good and evil, and that the evil they cause is therefore entirely their own responsibility.
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/en/043.webp)
 
 
 And even if responsibility for the harm caused by an earthquake, a deadly virus or the fact that a child is born blind should not be attributed to people, this way of thinking persists by giving nature a moral intention that makes them responsible. For example, by considering that if an earthquake has occurred, it's precisely because people have behaved badly.
@@ -725,7 +720,7 @@ Of course, as you can imagine, this idea is torn to shreds by Spinoza, who consi
 "Nothing happens in nature that can be attributed to a vice existing in it", writes Spinoza in the Ethics, and according to him, we would therefore be mistaken in considering, for example, the blindness of a newborn baby as "evil" since when born blind, a baby is no more deprived of sight than a stone would be.
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/en/044.webp)
 
 
 And if we think that the blind lack sight, it's only from the point of view of those who see.
@@ -741,7 +736,7 @@ Clearly, the actions of a criminal are always connected to family, social, econo
 This is why the Spinozist Gilles Deleuze (1925-1995) explains that ethics is a kind of ethology, i.e. a practical science of ways of being, or, as he puts it, "the art of making good encounters".
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/en/045.webp)
 
 
 In other words, freedom, according to Spinoza, consists in directing our existence towards that which "increases our power to act" and, always looking optimistically to the future, seeing the world as it is rather than imagining it as we'd like to see it.
@@ -770,7 +765,7 @@ According to Spinoza, freedom is a concept to be discovered, a path to a better,
 He develops his system in the third part of the Ethics. It is the famous "theory of affects".
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/en/046.webp)
 
 
 The principle is that human affects are, says Spinoza, active or passive modifications of the body and thought that influence our power to act, i.e. that is our behavior.
@@ -788,7 +783,7 @@ We speak of slavery, or servitude, a state characterized by the inability to con
 This is what Spinoza says in his Ethics, when he is surprised that "people often see the best, approve of it and do the worst", or that "they fight for their servitude as if they were fighting for their salvation".
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/en/047.webp)
 
 
 Spinoza takes the example of hatred, which he sees as a passive affect, turned towards sadness and born of inadequate ideas, i.e. a partial knowledge of causes, and which he defines as "a sadness that is associated with the idea of an external cause".
@@ -800,7 +795,7 @@ In other words, if we hate a foreigner, it's because we associate this foreigner
 This is particularly true, by the way, in the field of cryptocurrencies.
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/en/048.webp)
 
 
 Spinoza says if we remove this negative idea of an external cause, not by morality, but by education, by empathy, by reason, notably by focusing in this case on the qualities of this stranger, or in Bitcoin's case, on its practical aspect or usefulness, then the associated feeling of sadness disappears and, automatically, so does hatred.
@@ -815,7 +810,7 @@ But if this so-called theory of affects applies to our "unconscious", this ratio
 This is the example of lightning. Because when lightning strikes and kills innocent people, the ignorant ones will tend to see it as the hand of God, to consider that lightning expresses a moral and finalistic intention. Aids in the 90s or even, more recently, covid have been interpreted by some as divine punishment.
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/en/049.webp)
 
 
 Whereas for Spinoza, of course, all these teleological ideas are merely superstitions, synonymous with ignorance, insofar as in this example the lightning that strikes does nothing, he says, but express the essence of its own nature. Which is to strike. Without, of course, any moral intention to punish or reward anyone.
@@ -830,7 +825,7 @@ And, in this case, it would be to protect ourselves from lightning by being rati
 This is the genius of the Ethics. Spinoza shows us that it is possible to move from voluntary servitude, from a "in spite of ourselves" and a weathervane life of perpetual alienation, to a life lived through the knowledge of affections and determinations.
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/en/050.webp)
 
 
 It's a way of thinking that allows us to dissect human nature in order to see the bright side or the truth in things. To eliminate the reasons for sadness and fear that weigh us down. To be free, in other words, being able to stop obeying sad passions and change our behavior.
@@ -859,12 +854,11 @@ As you now know, freedom according to Spinoza is an awareness of our determinism
 In the end, this lucidity means no longer living in the nihilism later described by Friedrich Nietzsche (1844-1900), for whom men lose themselves in ideological ideals, i.e. political or religious fictions, because of which they deny reality, infantilize themselves and make themselves unhappy.
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 This is precisely what the Enlightenment rational philosophy was all about, thanks in particular to Immanuel Kant (1724-1804), for whom only an educated individual, under the guidance of reason, can think for himself and determine, ethically, what is "true" or "good," and what is toxic.
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/en/051.webp)
 
 
 In other words, he says, if we think for ourselves, if we reason as rational adults, and if we therefore strive to attach ourselves to the causal links between things, we will no longer need a moral authority to teach us, for example, the true virtues of religion or true ethical values in the political and economic spheres.
@@ -872,13 +866,13 @@ In other words, he says, if we think for ourselves, if we reason as rational adu
 It's a line of reasoning that makes the link with the Austrian school of liberal economics, born in the extremely fertile intellectual atmosphere of Vienna before the First World War. For it was in this context that intellectuals such as Carl Menger (1840-1921), Ludwig von Mises (1883-1979) and Friedrich Hayek (1899-1992) laid the foundations for a new school of liberal economics, which was to become the foundation for the convictions of future cypherpunks. And hence the creation of Bitcoin.
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/en/052.webp)
 
 
 Menger and Mises established, for example, that all knowledge must be constructed according to the causal link between things, and thus proposed a new causal conception of economics. Inspired in particular by the liberal spirit developed a few years earlier by the French economist Frédéric Bastiat (1801-1850).
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/en/053.webp)
 
 
 Hayek, on the other hand, considers that all economic decisions always express a form of uncertainty and ignorance, and that the fact of not suffering from it because of morality, beliefs, prejudices or political ideologies, makes it possible to analyze economic behavior correctly and, by extension, to consider what is good for individuals, for society and for the State.
@@ -893,19 +887,19 @@ Why is this? Because it always finds itself in a form of servitude that prevents
 As a Spinozist, Hayek explains in a video that "since this power cannot be taken away without violence, all that can be done is to use a trick and introduce a new concept of money that governments can no longer stop". An argument echoed by Milton Friedman (1912-2006) in an interview, in which he in turn discusses this new form of digital currency in the context of the nascent Internet.
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/en/054.webp)
 
 
 These are the political and economic arguments put forward by the first cypherpunks, Eric Hughes (1953-), in his "Cypherpunk manifesto", or Timothy May (1951-2018) in his "crypto anarchist manifesto", and which Satoshi Nakamoto will take up again.
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/en/055.webp)
 
 
 Particularly when he inscribed the Times headline of January 3, 2009 in the coinbase of the Genesis block of Blockchain Bitcoin to illustrate the end of one era, Keynesian, and the beginning of another with liberal, anarchist and libertarian aspirations.
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/en/056.webp)
 
 
 The White Paper published on October 31, 2008 presents Bitcoin as a means of exchanging value on the Internet without a trusted third party, based on a decentralized protocol. A "Copernican" revolution that will finally enable people to regain their ability to act, i.e. their freedom, their freedom to trade, their right to property and respect for their privacy.

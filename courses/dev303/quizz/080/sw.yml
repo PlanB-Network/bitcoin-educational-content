@@ -1,0 +1,8 @@
+question: Ni faida gani muhimu zaidi ya kutumia aina za Matokeo na Chaguo badala ya hofu kwa ajili ya kushughulikia hitilafu katika msimbo wa uzalishaji wa Rust?
+answer: Hulazimisha kukiri waziwazi makosa yanayoweza kutokea na kuwezesha urejeshaji mzuri wa makosa
+wrong_answers:
+  - Hutoa utendaji bora kwa kuepuka kufunguka kwa mrundikano wakati wa hali ya hitilafu
+  - Hubadilisha kiotomatiki aina zote za hitilafu kuwa ujumbe wa kamba ili kurahisisha utatuzi wa matatizo
+  - Huondoa hitaji la uenezaji wa makosa kwa kushughulikia makosa wakati yanaposhindwa.
+explanation: |
+  Aina za matokeo na Chaguo hufanya utunzaji wa makosa kuwa wazi na unaoweza kurejeshwa kwa kuwalazimisha wasanidi programu kukubali kwamba shughuli zinaweza kushindwa na kutoa mifumo ya kushughulikia hitilafu hizo kwa uzuri. Tofauti na hofu, ambayo husimamisha utekelezaji mara moja, aina hizi huruhusu programu kuendelea kufanya kazi na kujibu ipasavyo hali ya hitilafu. Majibu yasiyo sahihi yanawakilisha vibaya uwezo wao: utendaji sio faida yao kuu, hawabadilishi makosa kiotomatiki kuwa mifuatano (hiyo ni sifa ya hivyo), na kwa kweli hurahisisha badala ya kuondoa uenezaji wa hitilafu kupitia waendeshaji kama ?.

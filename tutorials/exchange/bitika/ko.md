@@ -1,5 +1,5 @@
 ---
-name: 비티카
+name: Bitika
 description: M-Pesa를 통해 비트코인을 구매하는 간단한 3단계
 ---
 ![cover](assets/cover.webp)

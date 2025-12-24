@@ -1,0 +1,8 @@
+question: Welk specifiek cryptografisch element in een Lightning Send-swap stelt de swapaanbieder in staat om de vergrendelde Liquid-fondsen op te eisen na betaling van de Lightning-factuur?
+answer: Het preimage van de Lightning-betaling dient als cryptografische sleutel om de geblokkeerde Liquid-middelen te ontgrendelen
+wrong_answers:
+  - De hash time-lock contracthandtekening die gegenereerd wordt tijdens de initiële Liquid lock-up transactie geeft toegang tot
+  - De WebSocket verbindingsmetadata bevatten de ontgrendelingssleutel die de fondsvrijgave aan de provider autoriseert
+  - "De privésleutel van de swapaanbieder ontgrendelt de fondsen automatisch zodra de Lightning-betalingsbevestiging is ontvangen"
+explanation: |
+  Het preimage van de betaling is het cryptografische ontvangstbewijs dat bewijst dat een Lightning-betaling met succes is voltooid. Bij onderzeese swaps fungeert dit preimage als de ontgrendelingssleutel voor de geëscrowde Liquid fondsen, waardoor atomiciteit wordt gegarandeerd - de swapaanbieder kan alleen aanspraak maken op de Liquid fondsen als hij de Lightning factuur daadwerkelijk heeft betaald. De andere opties beschrijven ofwel generieke cryptografische elementen die niet het specifieke bewijs van betaling leveren dat nodig is, of onjuiste mechanismen die de vertrouwensloze aard van de atomaire swap in gevaar zouden brengen.

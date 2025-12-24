@@ -1,5 +1,5 @@
 ---
-name: Desktop ya Specter
+name: Specter Desktop
 description: Dhibiti portfolio zako za Bitcoin zenye saini nyingi katika uhuru kamili na nodi yako mwenyewe
 ---
 

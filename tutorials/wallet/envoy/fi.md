@@ -64,7 +64,7 @@ Mene sovelluskauppaan ja lataa Envoy :
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
 - [App Storessa](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- On [F-Cold] (https://foundation.xyz/fdroid/).
+- On [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 

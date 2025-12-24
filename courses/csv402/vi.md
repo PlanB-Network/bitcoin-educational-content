@@ -3163,7 +3163,7 @@ Nó có thể được truyền tới Bob qua bất kỳ kênh nào (văn bản,
 Để chuyển từ hóa đơn này:
 
 
-- Bob (người giữ token trong kho của mình) có một ví Bitcoin. Anh ta cần chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ: `tx.psbt`) để chi tiêu UTXO tại nơi có token RGB cần thiết, cộng với một UTXO để đổi tiền (trao đổi);
+- Bob (người giữ các token trong stash của mình) có một ví Bitcoin. Anh ta phải chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ `tx.psbt`) chi tiêu các UTXO nơi các token RGB cần thiết đang nằm, cùng với một UTXO cho tiền thối lại (change);
 - Bob thực hiện lệnh sau:
 
 ```bash

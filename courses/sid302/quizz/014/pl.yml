@@ -1,0 +1,8 @@
+question: Co gwarantuje, że obie strony transakcji cross-layer swap pomyślnie zakończą transakcję lub obie zakończą się niepowodzeniem bez utraty środków?
+answer: Ta sama blokada hash jest używana w obu sieciach, tworząc kryptograficzne powiązanie między nogami wymiany
+wrong_answers:
+  - Blokady czasowe uniemożliwiają każdej ze stron pobranie środków do momentu potwierdzenia transakcji przez obie sieci
+  - Agregacja kluczy MuSig2 wymaga podpisu obu stron przed przeniesieniem jakichkolwiek środków
+  - "Ścieżka skryptu Taproot automatycznie odwraca transakcje, jeśli jedna sieć nie zostanie ukończona"
+explanation: |
+  Atomowy charakter wymiany międzywarstwowej opiera się na wykorzystaniu identycznych blokad hash w obu sieciach. Gdy odbiorca ujawnia tajny obraz wstępny, aby zażądać środków na jednej warstwie, ten sam sekret staje się widoczny i użyteczny przez nadawcę, aby zażądać wzajemnych środków na drugiej warstwie. To wiązanie kryptograficzne zapewnia atomowość - albo obie strony otrzymają swoje środki, albo żadna z nich, eliminując ryzyko kontrahenta w swapach bez zaufania.

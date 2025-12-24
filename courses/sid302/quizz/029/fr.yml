@@ -1,0 +1,8 @@
+question: Quel compromis fondamental les investisseurs doivent-ils accepter lorsqu'ils participent aux écosystèmes d'actifs AMP de Blockstream par rapport aux transactions Liquid Network standard ?
+answer: Visibilité complète de leurs avoirs et de l'historique de leurs transactions auprès de l'émetteur d'actifs, tout en préservant leur confidentialité vis-à-vis des autres utilisateurs
+wrong_answers:
+  - Frais de transaction plus élevés en raison de la charge de calcul supplémentaire requise pour les mécanismes d'autorisation de cosignature
+  - Réduction de la vitesse des transactions car tous les transferts doivent être validés par des serveurs de conformité centralisés avant d'être confirmés
+  - La transférabilité des actifs est limitée puisque les jetons AMP ne peuvent être envoyés qu'à des portefeuilles pré-approuvés au sein de la même juridiction réglementaire
+explanation: |
+  La bonne réponse identifie le compromis fondamental du PGA en matière de protection de la vie privée : alors que la Confidential Transactions préserve la vie privée de chaque utilisateur, les actifs du PGA permettent aux émetteurs de bénéficier d'une visibilité complète de la unblinded pour se conformer à la réglementation. Les mauvaises réponses décrivent les contraintes opérationnelles (frais, rapidité, transférabilité) plutôt que le compromis fondamental de transparence qui distingue le PGA du modèle Liquid standard entièrement confidentiel.

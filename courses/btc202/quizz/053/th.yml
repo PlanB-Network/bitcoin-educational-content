@@ -1,0 +1,9 @@
+question: ดัชนีทางเลือกใดที่สามารถเปิดใช้งานใน Bitcoin Core เพื่อค้นหาธุรกรรมโดยใช้ txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  ตัวเลือก txindex=1 ใช้ในการค้นหาธุรกรรมโดยใช้ตัวระบุเฉพาะของมัน (txid)
+reviewed: true

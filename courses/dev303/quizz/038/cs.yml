@@ -1,0 +1,8 @@
+question: Jaká syntaxe se používá pro definici parametrů v uzávěrkách Rust?
+answer: Znaky potrubí (|) pro uzavření parametrů
+wrong_answers:
+  - Závorky () pro uzavření parametrů
+  - Hranaté závorky [] pro uzavření parametrů
+  - Kudrnaté závorky {} pro uzavření parametrů
+explanation: |
+  Uzávěry Rust používají k definici parametrů znaky roury (|), čímž se liší od běžných funkcí, které používají závorky. Například uzávěr bez parametrů se zapisuje jako ||, zatímco uzávěr s parametry vypadá jako |x, y|. Díky této jedinečné syntaxi jsou uzávěry snadno rozpoznatelné a odlišují se od definic funkcí. Závorky se používají pro běžné funkce, zatímco hranaté závorky a kulaté závorky slouží v syntaxi Rust k jiným účelům.

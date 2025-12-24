@@ -1,0 +1,9 @@
+question: ใครเป็นผู้ก่อตั้งสหกรณ์ mining แห่งแรกเพื่อผลิตบล็อกบน Bitcoin?
+answer: ดับเบิ้ลซี
+wrong_answers:
+  - สลัช
+  - พุดดิ้นป๊อป
+  - m0mchil
+explanation: |
+  เขาโปรโมทมันเมื่อวันที่ 1 ธันวาคม บล็อกถูก[พบ](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688)เมื่อวันที่ 4 ธันวาคม 2010 ในทางกลับกัน สหกรณ์ของ Slush เปิดตัวเมื่อวันที่ 16 ธันวาคม
+reviewed: true

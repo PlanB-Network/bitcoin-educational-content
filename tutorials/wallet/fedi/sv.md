@@ -141,7 +141,7 @@ Din mottagare måste skanna den genererade QR-koden för att göra anspråk på 
 
 
 
-Offlinebetalningar görs främst med hjälp av [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). Transaktionen lagras i din telefon och så snart du kommer åt Internet bekräftas transaktionen automatiskt. Du kan också bekräfta betalningen manuellt genom att klicka på **Bekräfta transaktionen**.
+Offlinebetalningar görs främst med hjälp av [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transaktionen lagras i din telefon och så snart du kommer åt Internet bekräftas transaktionen automatiskt. Du kan också bekräfta betalningen manuellt genom att klicka på **Bekräfta transaktionen**.
 
 
 

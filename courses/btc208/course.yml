@@ -1,6 +1,5 @@
 id: 8a6d2cba-ced8-11f0-833a-638aea8a47f1
 
-test_only: true
 
 published_at: 2025-12-10
 
@@ -20,7 +19,7 @@ address_city_country: Paris, France
 address_line_2: 3 rue de Montyon, 9eme arrondissement
 
 start_date: 2025-12-18 # update based on info
-end_date: 2025-12-18 # update based on info
+end_date: 2025-12-19 # update based on info
 requires_payment: true # keep that one
 inperson_price_dollars: 0 # update based on info
 payment_expiration_date: 2025-12-19 # start_date - 1 day

@@ -1,0 +1,9 @@
+question: ส่วนประกอบหลักที่จำเป็นในการรันโหนด Lightning ที่เข้ากันได้กับ RGB คืออะไร?
+answer: bitcoind, เครื่องจัดทำดัชนี และเซิร์ฟเวอร์พร็อกซี RGB
+wrong_answers:
+  - โหนด Lightning, ตัวจัดทำดัชนี และเซิร์ฟเวอร์ IPFS
+  - An RGB mobile wallet, an RGB proxy server and a bitcoind
+  - เว็บไคลเอนต์, ดัชนี และเซิร์ฟเวอร์พร็อกซี RGB
+explanation: |
+  ในการรันโหนด Lightning ที่เปิดใช้งาน RGB คุณต้องมีโหนด bitcoind เพื่อโต้ตอบกับบล็อกเชน Bitcoin, ตัวจัดทำดัชนีเพื่อขุดธุรกรรม on-chain, และเซิร์ฟเวอร์พร็อกซี RGB เพื่ออำนวยความสะดวกในการแลกเปลี่ยนสินค้าระหว่างเพื่อนร่วมเครือข่าย
+reviewed: false

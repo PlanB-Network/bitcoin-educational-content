@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - 聯署
+name: COLDCARD - Co-Sign
 description: 發現 Co-Sign 功能並在您的 COLDCARD 上使用它
 ---
 

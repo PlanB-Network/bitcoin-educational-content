@@ -1,0 +1,8 @@
+question: Qual é o principal mecanismo pelo qual o recurso de reservas de canal zero do Breez SDK cria um risco adicional que deve ser absorvido pelos provedores de serviços Lightning?
+answer: Os LSPs devem aceitar o risco de os utilizadores gastarem todo o saldo do canal, eliminando a reserva de segurança que tradicionalmente protege contra o encerramento forçado do canal
+wrong_answers:
+  - Os LSPs tornam-se responsáveis por manter a sincronização contínua do gráfico de rede em vários dispositivos de utilizador sem a tradicional compensação de taxas baseada em reservas
+  - Os LSPs devem garantir o encaminhamento instantâneo dos pagamentos sem a almofada de liquidez que as reservas de canal proporcionam para lidar com cenários de congestionamento da rede
+  - Os LSPs assumem a responsabilidade pelas falhas de troca do on-chain quando os utilizadores tentam converter todo o seu saldo Lightning para o Bitcoin durante os períodos de taxas elevadas
+explanation: |
+  As reservas de canal zero permitem que os usuários gastem todo o seu saldo exibido, mas isso elimina o buffer de segurança tradicional que protege os provedores de serviços Lightning durante o fechamento forçado do canal. As reservas de canal normalmente garantem que alguns fundos permaneçam bloqueados para cobrir os custos de fechamento e fornecer segurança contra comportamento mal-intencionado. Ao remover estas reservas para melhorar a experiência do utilizador, os LSPs têm de absorver os riscos operacionais e financeiros adicionais que estes amortecedores foram concebidos para mitigar, representando um claro compromisso em que a complexidade técnica e o risco são transferidos dos utilizadores para os fornecedores de serviços.

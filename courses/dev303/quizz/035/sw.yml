@@ -1,0 +1,8 @@
+question: Mbinu ya kufungua hufanya nini inapoitwa kwenye aina ya Matokeo katika Rust?
+answer: Huondoa thamani ya mafanikio lakini huogopa ikiwa hitilafu itatokea
+wrong_answers:
+  - Hurejesha Hakuna ikiwa hitilafu itatokea na Baadhi ikiwa imefanikiwa
+  - Hubadilisha hitilafu kuwa ujumbe wa onyo na kuendelea kutekeleza
+  - Hueneza hitilafu kiotomatiki kwenye kitendakazi cha kupiga simu
+explanation: |
+  Mbinu ya kufungua huondoa thamani ya mafanikio kutoka kwa Matokeo lakini husababisha programu kuwa na hofu ikiwa hitilafu itatokea. Hii inafanya iwe muhimu kwa uundaji wa haraka wa prototype au hali ambapo una uhakika kuwa operesheni itafanikiwa. Chaguzi zingine zinaelezea tabia tofauti: kurudisha Hakuna/Baadhi huelezea aina za Chaguo, kubadilisha makosa kuwa maonyo sio muundo wa kawaida wa Rust, na uenezaji wa hitilafu kiotomatiki ndio opereta wa alama ya kuuliza (?) hufanya, sio kufungua.

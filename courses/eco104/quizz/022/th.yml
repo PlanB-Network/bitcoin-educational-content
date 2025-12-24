@@ -1,0 +1,11 @@
+question: Stablecoins ช่วยลดต้นทุนที่เกี่ยวข้องกับการโอนเงินได้อย่างไร?
+answer: โดยการเสนอค่าธรรมเนียมที่ต่ำกว่าบริการแบบดั้งเดิม
+wrong_answers:
+  - โดยการให้บริการโอนเงินฟรี
+  - โดยให้บุคคลได้รับอัตราแลกเปลี่ยนที่ดีกว่าบริการแบบดั้งเดิม
+  - โดยการแปลงสกุลเงินเฟียตให้เป็นดิจิทัล
+explanation: |
+  Stablecoins, unlike traditional money transfer services, have significantly 
+  lower fees because they do not require intermediaries such as banks or money 
+  transfer services.
+reviewed: true

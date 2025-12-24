@@ -43,7 +43,7 @@ LNbits für Bauherren: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbit
 
 # Einige Grundlagen
 
-LNbits arbeitet auf der Grundlage des LNURL-Protokolls, was bedeutet, dass Anfragen in zwei Formen gültig sind: entweder als https:// clearnet link (keine selbstsignierten Zertifikate erlaubt) oder als http:// v2/v3 onion link. Um LNbits-Dienste wie LNURLp/w QR-Codes oder NFC-Karten anbieten zu können, die in freier Wildbahn verwendet werden können, müssen Sie LNbits für das Clearnetz (https) öffnen.
+LNbits arbeitet auf der Grundlage des LNURL-Protokolls, was bedeutet, dass Anfragen in zwei Formen gültig sind: entweder als https://clearnet link (keine selbstsignierten Zertifikate erlaubt) oder als http://v2/v3 onion link. Um LNbits-Dienste wie LNURLp/w QR-Codes oder NFC-Karten anbieten zu können, die in freier Wildbahn verwendet werden können, müssen Sie LNbits für das Clearnetz (https) öffnen.
 
 Bevor Sie LNbits installieren, vergewissern Sie sich, dass Sie die folgenden allgemeinen Hinweise darüber gelesen und verstanden haben, was LNbits ist und welche Möglichkeiten es für Sie freisetzt.
 
@@ -60,7 +60,7 @@ Ausführlichere Anleitungen zur Verwendung von LNbits in spezifischen Anwendungs
 - [Erste Schritte mit LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack-Anleitung
 - [ToDos für Ihre Sicherheit mit LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
 - [Privatbanken im Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Substack-Leitfaden
-- [Führen Sie Geldbörsen für Ihre Freunde & Familie] (https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
+- [Führen Sie Geldbörsen für Ihre Freunde & Familie](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
 - [LNbits für ein kleines Restaurant / Hotel](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack guide
 - [Verwendung von LNbits Streamer Copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack-Anleitung
 - [Starten Sie Ihren NOSTR-Markt mit LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Substack-Leitfaden
@@ -77,11 +77,11 @@ Sie können zwischen den gängigsten Paketmanagern wie Poetry und Nix wählen. S
 Für alle, die neu in diesem Bereich sind, gibt es eine detaillierte Schritt-für-Schritt-Anleitung, wie Sie Ihre LNbits in bestimmten Umgebungen zum Laufen bringen:
 
 
-- [LNbits auf clearnet] (https://ereignishorizont.xyz/lnbits-server/en/) von Axel
-- [LNbits auf einem VPS] (https://github.com/TrezorHannes/vps-lnbits) von Hannes
-- [LNbits auf cloudflare] (https://www.nodeacademy.org/lnbits) von Leo
+- [LNbits auf clearnet](https://ereignishorizont.xyz/lnbits-server/en/) von Axel
+- [LNbits auf einem VPS](https://github.com/TrezorHannes/vps-lnbits) von Hannes
+- [LNbits auf cloudflare](https://www.nodeacademy.org/lnbits) von Leo
 
-Sie können auch ein Video auf dem [dockerised Setup auf einem VPS mit PostgreSQ, LightningTipBot als Finanzierungsquelle unter Verwendung von nginx] (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/) finden.
+Sie können auch ein Video auf dem [dockerised Setup auf einem VPS mit PostgreSQ, LightningTipBot als Finanzierungsquelle unter Verwendung von nginx](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/) finden.
 
 [Weitere Installationsszenarien hier](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
 
@@ -91,7 +91,7 @@ Für Bundle-Software-Knoten lesen Sie bitte deren spezifische Dokumentation übe
 
 Wenn Sie sich nicht mit dem technischen Kram beschäftigen und weder Ihre Finanzierungsquelle noch Ihre LNbits selbst hosten wollen, gibt es eine [LNbits SaaS-Version](https://saas.lnbits.com) (Software-as-a-Service), die Sie nutzen können. Es ist im Grunde wie LNbits in einer Cloud, aber Sie können die Finanzierungsquelle (z.B. Ihren Node, eine LNbits-Wallet, den LNtipbot, Fakewallet usw.) und Umgebungsvariablen selbst definieren - was bei anderen Cloud-Lösungen meist nicht der Fall ist.
 
-[Hier finden Sie einen detaillierten Leitfaden für die Nutzung von LNbits SaaS für bestimmte Anwendungsfälle] (https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
+[Hier finden Sie einen detaillierten Leitfaden für die Nutzung von LNbits SaaS für bestimmte Anwendungsfälle](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 ## Quellen der Finanzierung
 
@@ -161,7 +161,7 @@ Um Ihr Macaroon zu verschlüsseln, führen Sie `./venv/bin/python lnbits/wallets
 
 ### Blitz-TipBot
 
-Um Ihren [Lightning Tipbot] (https://t.me/LightningTipBot) mit Telegram zu verbinden, müssen Sie die folgenden Parameter einstellen:
+Um Ihren [Lightning Tipbot](https://t.me/LightningTipBot) mit Telegram zu verbinden, müssen Sie die folgenden Parameter einstellen:
 
 
   - lNBITS_BACKEND_WALLET_CLASS": **LnTipsWallet**
@@ -172,9 +172,9 @@ Siehe auch diese Anleitung zur Installation von [LNbits mit LightningTipBot via 
 
 ### IBEX HUB
 
-Registrieren Sie sich [hier] (https://ibexpay.ibexmercado.com/onboard) und holen Sie sich Ihre Schlüssel/Tokens von dort, der Endpunkt ist https://ibexpay-api.ibexmercado.com.
+Registrieren Sie sich [hier](https://ibexpay.ibexmercado.com/onboard) und holen Sie sich Ihre Schlüssel/Tokens von dort, der Endpunkt ist https://ibexpay-api.ibexmercado.com.
 
-Weitere Informationen finden Sie unter [IBEX API-Dokumentation] (https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
+Weitere Informationen finden Sie unter [IBEX API-Dokumentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 ### LNPay
 
@@ -298,7 +298,7 @@ Hoffentlich funktioniert jetzt alles und wird migriert... Starten Sie LNbits ern
 
 #### Sicherung und Wiederherstellung der Datenbank
 
-Bitte lesen Sie [diesen sehr ausführlichen Leitfaden über den Sicherungs- und Wiederherstellungsprozess] (https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
+Bitte lesen Sie [diesen sehr ausführlichen Leitfaden über den Sicherungs- und Wiederherstellungsprozess](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 #### Das Aufladen meiner LNbits-Brieftasche von meinem Node aus funktioniert nicht
 
@@ -357,7 +357,7 @@ Speichern Sie immer eine Kopie Ihrer Wallet-URL, Export2phone-QR oder LNDhub fü
 
 ### Brieftasche mit eigener Finanzierungsquelle/Knotenpunkt
 
-Speichern Sie immer eine Kopie Ihrer Wallet-URL, Export2phone-QR oder LNDhub für Ihre eigenen Wallets an einem sicheren Ort. Sie finden alle LNbits-Benutzer und Wallet-IDs in Ihrer LNbits-Benutzermanager-Erweiterung oder in Ihrer Sqlite-Datenbank. Um die LNbits-Datenbank zu bearbeiten oder zu lesen, gehen Sie in den Ordner LNbits /data und suchen Sie die Datei sqlite.db. Sie können sie mit Excel oder einem speziellen SQL-Editor wie [SQLite browser] (https://sqlitebrowser.org/) öffnen und bearbeiten.
+Speichern Sie immer eine Kopie Ihrer Wallet-URL, Export2phone-QR oder LNDhub für Ihre eigenen Wallets an einem sicheren Ort. Sie finden alle LNbits-Benutzer und Wallet-IDs in Ihrer LNbits-Benutzermanager-Erweiterung oder in Ihrer Sqlite-Datenbank. Um die LNbits-Datenbank zu bearbeiten oder zu lesen, gehen Sie in den Ordner LNbits /data und suchen Sie die Datei sqlite.db. Sie können sie mit Excel oder einem speziellen SQL-Editor wie [SQLite browser](https://sqlitebrowser.org/) öffnen und bearbeiten.
 
 Außerdem können Sie die Geldbörsen über CLI auslesen und jede Geldbörse in Ihrer Datenbank einsehen.
 
@@ -435,7 +435,7 @@ Im Detailbereich Ihrer LNbits-Transaktionen wird dann ein Alias/Pseudonym angeze
 
 Um Ihr LNbits-Konto in eine Wallet-App zu importieren, öffnen Sie Ihr LNbits mit dem Konto / der Wallet, die Sie verwenden möchten, gehen Sie zu "Erweiterungen verwalten" und aktivieren Sie die LNDHUB-Erweiterung. Öffnen Sie die LNDHUB-Erweiterung, wählen Sie die Wallet, die Sie verwenden möchten, und scannen Sie entweder den "Admin"- oder den "Nur-Rechnung"-QR, je nachdem, welche Sicherheitsstufe Sie für diese Wallet wünschen.
 
-Sie können [Zeus] (https://zeusln.app/) oder [Bluewallet] (https://bluewallet.io/) als Geldbörsen-Apps für ein lndhub-Konto verwenden, wobei BW mehr als eine solche Geldbörse unterstützt.
+Sie können [Zeus](https://zeusln.app/) oder [Bluewallet](https://bluewallet.io/) als Geldbörsen-Apps für ein lndhub-Konto verwenden, wobei BW mehr als eine solche Geldbörse unterstützt.
 
 Wenn du dies tust, empfehlen wir dir, auch die LN-Netzwerk-URI auf die deines eigenen Knotens zu setzen. Wenn deine LNbits-Instanz nur Tor ist, musst du diese Anwendungen auch mit aktiviertem Tor verwenden. Auch in diesem Fall musst du die LNbits-Seite über deine Tor.onion-Adresse öffnen.
 
@@ -443,14 +443,14 @@ Wenn Sie einen Fehler "unsupported hash type" bei der Verwendung eines ypub in d
 
 ## Werkzeugbau und Bau mit LNbits
 
-LNbits verfügt über alle Arten von [offenen APIs] (https://legend.lnbits.com/docs) und Tools zur Programmierung und Verbindung mit vielen verschiedenen Geräten für eine Unmenge von Anwendungsfällen.
+LNbits verfügt über alle Arten von [offenen APIs](https://legend.lnbits.com/docs) und Tools zur Programmierung und Verbindung mit vielen verschiedenen Geräten für eine Unmenge von Anwendungsfällen.
 
-Wenn Sie neu im Bauen sind, beginnen Sie mit dieser [MakerBits-Präsentation] (https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) von Ben Arc über das Bauen von Gadgets auf der Basis von LNbits.
+Wenn Sie neu im Bauen sind, beginnen Sie mit dieser [MakerBits-Präsentation](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) von Ben Arc über das Bauen von Gadgets auf der Basis von LNbits.
 
 ### WICHTIG!
 
 
-- LNbits arbeitet auf der Grundlage des LNURL-Protokolls, dessen Anfragen in zwei Formen gültig sind: entweder als https:// clearnet link (keine selbstsignierten Zertifikate erlaubt) oder als http:// v2/v3 onion link. Um LNbits-Dienste wie LNURLp/w-QR-Codes oder NFC-Karten anbieten zu können, die in freier Wildbahn verwendet werden können, müssen Sie LNbits für clearnet (https) öffnen.
+- LNbits arbeitet auf der Grundlage des LNURL-Protokolls, dessen Anfragen in zwei Formen gültig sind: entweder als https://clearnet link (keine selbstsignierten Zertifikate erlaubt) oder als http://v2/v3 onion link. Um LNbits-Dienste wie LNURLp/w-QR-Codes oder NFC-Karten anbieten zu können, die in freier Wildbahn verwendet werden können, müssen Sie LNbits für clearnet (https) öffnen.
 - Verwenden Sie für die Stromversorgung Ihres esp32 nur DATA-Kabel. Nicht alle Kabel unterstützen neben der Stromversorgung des esp auch Daten. Sie wären nicht der Erste, wenn das Kabel, das mit dem esp geliefert wurde, ein reines Stromkabel wäre
 - Achten Sie darauf, dass Sie keinen USB-Hub mit anderen angeschlossenen Geräten verwenden. Dies kann zu seltsamen Effekten führen, die schwer zu beheben sind (z. B. nicht starten oder stoppen).
 - Um esp Projekte mit einem MacOS zu realisieren, benötigen Sie einen UART Bridge Treiber. Wenn Sie Probleme mit dem Treiber auf Mac oder Linux-Systemen haben, finden Sie diese hier oder, wenn es sich um ein TTGO-Display handelt, hier. Wenn Sie unter Windows arbeiten und Probleme mit der Verbindung haben, stellen Sie sicher, dass Sie die alte Version 11.1.0 herunterladen, da die neuere Version nicht funktioniert! Sie können auch ein serielles Terminal hier finden, um Ihre Verbindung zu überprüfen - stellen Sie die Baudrate auf 115200.
@@ -462,7 +462,7 @@ Wenn Sie neu im Bauen sind, beginnen Sie mit dieser [MakerBits-Präsentation] (h
 - Bitte beachten Sie diese PIN-OUT-Referenz für die esp
 - Wenn Sie FOSSoftware oder FOSGuides verwenden, verlinken Sie bitte immer den Autor. Jeder liebt es, sein Baby wachsen zu sehen und es initiiert auch eine Baukette, die ziemlich toll zu beobachten ist:)
 
-Komm zur [Makerbits Telegram Group] (https://t.me/makerbits), wenn du Hilfe bei einem Projekt brauchst - wir haben dich!
+Komm zur [Makerbits Telegram Group](https://t.me/makerbits), wenn du Hilfe bei einem Projekt brauchst - wir haben dich!
 
 ![lnbits hackathlon](assets/lnbits-hackathlon.webp)
 
@@ -471,19 +471,19 @@ Hier sind einige Projektkategorien, die Sie mit LNbits erstellen können:
 
 - [Nostr Signing Device](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#nostr-signing-device)
 - [Archade Machine](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#arcade-machine)
-- [Gerty] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
+- [Gerty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#gerty)
 - [Nostr Zap Lampe](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
 - [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
 - [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
 - [Lightning Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
 - [Hardware-Wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
 - [Bitcoin Switch](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
-- [Verkaufsautomat] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
+- [Verkaufsautomat](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
 - [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
-- [Nerdminer] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
+- [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
 - [Bitcoin-Ticker](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker)
 - [BTClock](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#btclock)
-- [Lora und die Maschenvernetzung] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora)
+- [Lora und die Maschenvernetzung](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora)
 - [HELFER & RESSOURCEN](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources)
 - [Weitere Beispiele für Projekte "Powered by LNbits" hier](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
 - [Anwendungsfälle für LNbits](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)

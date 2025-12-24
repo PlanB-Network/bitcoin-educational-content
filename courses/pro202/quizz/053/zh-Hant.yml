@@ -1,0 +1,8 @@
+question: 從交易資料建構和驗證 Merkle 樹時，Bitcoin 節點必須處理哪些特定的 endianness 轉換挑戰？
+answer: 事務切細值必須從 little-endian 序列化格式反轉為 big-endian，以進行內部樹狀運算，然後再反轉回去儲存
+wrong_answers:
+  - 在計算 Merkle 根之前，區塊標頭必須從 big-endian 轉換為 little-endian，以符合網路傳輸格式
+  - 只有在透過 P2P 訊息傳送至其他節點時，才必須將最終的 Merkle 根從 big-endian 轉換為 little-endian
+  - 交易 ID 以 big-endian 格式儲存，但必須在 Merkle 樹中的散列對之前轉換為 little-endian 格式。
+explanation: |
+  Bitcoin 的 Merkle 樹建構涉及一個關鍵的 endianness 轉換步驟。序列化的區塊資料使用 little-endian 格式，而內部的 Merkle 樹計算則需要 big-endian 的哈希值。節點必須在建立樹之前，將交易哈希值從序列化的 little-endian 格式反轉為 big-endian，然後將最終根轉回 little-endian，以儲存在區塊標頭中。這個轉換對於正確的驗證非常重要。

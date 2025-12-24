@@ -185,7 +185,7 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 特別是針對公立學校的教科書，以及由國家雇用的教授所撰寫的教科書。
 
-19 世紀一位來自劍橋的歷史學家 [Lord Acton] (https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) 所寫的兩卷本著作則不然。他的全名是 John Emerich Edward Dalberg, Baron of Acton (1834-1902)。他是 _History of Liberty in Antiquity and Christianity_ 的作者。他的著作被認為是該主題最重要的著作之一，他將其職業生涯的大部分時間都貢獻給了這部著作。他的著作雖未完成，但對濫用權力的危險提出了有力的警告，他對自由和個人責任的倡導在今天仍然適用。
+19 世紀一位來自劍橋的歷史學家 [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) 所寫的兩卷本著作則不然。他的全名是 John Emerich Edward Dalberg, Baron of Acton (1834-1902)。他是 _History of Liberty in Antiquity and Christianity_ 的作者。他的著作被認為是該主題最重要的著作之一，他將其職業生涯的大部分時間都貢獻給了這部著作。他的著作雖未完成，但對濫用權力的危險提出了有力的警告，他對自由和個人責任的倡導在今天仍然適用。
 
 這位作者最為人熟知的格言是：「權力趨於腐化，絕對權力絕對腐化」。這句話與孟德斯鸠在[_The Spirit of the Laws_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316)中的論述不謀而合：
 

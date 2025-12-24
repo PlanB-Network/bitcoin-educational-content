@@ -1,0 +1,8 @@
+question: Jaký přínos má kompatibilita Rust s různými platformami pro vývoj aplikací Bitcoin v různých prostředích nasazení?
+answer: Umožňuje spouštět unifikované kódové základny na mobilních platformách, webových prohlížečích prostřednictvím WebAssembly a tradičních operačních systémech
+wrong_answers:
+  - Automaticky zpracovává převody směnných kurzů kryptoměn na různých regionálních trzích a v různých měnách
+  - Poskytuje vestavěné protokoly pro synchronizaci blockchainu, které fungují stejně ve všech síťových architekturách
+  - Nabízí nativní integraci s hardwarovými peněženkami a bezpečnostními moduly na všech podporovaných platformách
+explanation: |
+  Multiplatformní funkce Rust umožňují vývojářům psát aplikace Bitcoin, které lze nasadit v různých prostředích včetně mobilních zařízení (Android/iOS), webových prohlížečů (díky kompilaci WebAssembly) a tradičních desktopových operačních systémů. Tuto všestrannost dokazují projekty jako Mutiny Wallet, který využívá podporu WebAssembly v Rust k vytváření peněženek Lightning, které běží přímo v prohlížečích. Špatné odpovědi popisují funkce, které nesouvisejí s kompatibilitou napříč platformami - konverze měny je funkce na úrovni aplikace, protokoly blockchainu jsou záležitostí síťové vrstvy a integrace hardwaru vyžaduje spíše specifické rozhraní API než obecnou podporu napříč platformami.

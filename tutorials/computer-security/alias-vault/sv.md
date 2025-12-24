@@ -227,7 +227,7 @@ Den enda försiktighetsåtgärden är att kontrollera att Alias Vault är aktivt
 
 
 
-Som alla appar med självrespekt av det här slaget har Alias Vault en version för mobila enheter, i både Android- och iOS-miljöer. För Android kan du ladda ner appen från [F-Droid] (https://f-droid.org/packages/net.aliasvault.app/).
+Som alla appar med självrespekt av det här slaget har Alias Vault en version för mobila enheter, i både Android- och iOS-miljöer. För Android kan du ladda ner appen från [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
 
 
@@ -287,7 +287,7 @@ Möjligheten är unik: **Sluta vara beroende av externa tjänsteleverantörer el
 
 
 
-Det är dags att vända sig till [dokumentation] (https://docs.aliasvault.net/installation/), för att ta reda på hur man går vidare till självhosting Alias Vault.
+Det är dags att vända sig till [dokumentation](https://docs.aliasvault.net/installation/), för att ta reda på hur man går vidare till självhosting Alias Vault.
 
 
 
@@ -433,7 +433,7 @@ Eftersom Alias Vault är i _Beta_-stadiet kan du ha svårt att komma åt det om 
 
 
 
-För en fullständig förståelse av arkitekturen och säkerheten i Alias Vault rekommenderar jag starkt att du läser [denna sida] (https://docs.aliasvault.net/architecture/), som innehåller detaljer om den kryptografi som ligger till grund för dess funktion.
+För en fullständig förståelse av arkitekturen och säkerheten i Alias Vault rekommenderar jag starkt att du läser [denna sida](https://docs.aliasvault.net/architecture/), som innehåller detaljer om den kryptografi som ligger till grund för dess funktion.
 
 
 

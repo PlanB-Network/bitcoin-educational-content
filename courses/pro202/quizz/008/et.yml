@@ -1,0 +1,8 @@
+question: Mis on see matemaatiline alus, mis muudab diskreetse logaritmi probleemi elliptilise kõveraga krüptograafias arvutuslikult teostamatuks?
+answer: Punktide ettearvamatu jaotumine tsüklilise grupi genereerimisel korduva punktlisandamise teel
+wrong_answers:
+  - Elliptiliste kõverate sümmeetriaomadus, mis peegeldab punkte üle x-telje
+  - Reaalarvude asemel lõplike väljadega tehtavad modulaararvutusoperatsioonid
+  - Suur algarv, mida kasutatakse kõvera võrrandis välja karakteristikuna
+explanation: |
+  Diskreetse logaritmi probleemi raskus tuleneb punktide ettearvamatust, mittelineaarsest jaotusest tsüklilise rühma (G, 2G, 3G, ..., nG) genereerimisel. Kuigi punktid genereeritakse järjestikku, tunduvad need hajutatud ja juhuslikud, mistõttu on skalaari s määramine punktist P = sG arvutuslikult teostamatu. Kuigi sümmeetria, modulaarne aritmeetika ja suured algarvud on elliptiliste kõverate olulised omadused, ei loo nad otseselt ühesuunalist funktsiooni, mis võimaldab turvalist avaliku võtme krüptograafiat.

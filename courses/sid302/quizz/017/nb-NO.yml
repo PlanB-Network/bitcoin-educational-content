@@ -1,0 +1,8 @@
+question: I Liquids fødererte konsensusmodell, hva er det minste antallet funksjonærsignaturer som kreves for å validere en blokk, og hva er det maksimale antallet nodefeil nettverket kan tolerere?
+answer: 11 signaturer kreves, tåler opptil fire nodefeil
+wrong_answers:
+  - 8 signaturer kreves, tåler opptil 7 nodefeil
+  - 15 signaturer kreves, tåler opptil 2 nodefeil
+  - 9 signaturer kreves, tåler opptil 6 nodefeil
+explanation: |
+  Liquid bruker et 11 av 15-terskelsystem der minst 11 av 15 funksjonærer må signere hver blokk for at den skal være gyldig. Denne utformingen gjør at nettverket kan fortsette å fungere selv om opptil fire noder svikter (15 - 11 = 4). De andre alternativene gir enten feil signaturterskelverdier eller feilberegner feiltoleransen, som alltid er det totale antallet noder minus de nødvendige signaturene.

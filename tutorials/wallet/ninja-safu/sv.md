@@ -36,7 +36,7 @@ Ninja SAFU-metoden erbjuder flera fördelar:
 
 
 
-- **Tillförlitlighet**: Metoden har testats sedan 2020 och har testats av säkerhetsexperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den för rigorösa stresstester (extrem värme, korrosion, mekaniskt tryck).
+- **Tillförlitlighet**: Metoden har testats sedan 2020 och har testats av säkerhetsexperter som [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den för rigorösa stresstester (extrem värme, korrosion, mekaniskt tryck).
 
 
 
@@ -354,13 +354,13 @@ Enligt Jameson Lopp:
 
 
 
-- [Rapportera] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
+- [Rapportera](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
 
 
 
 
 
-- Jämförelsetabell [komplett] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Jämförelsetabell [komplett](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -380,22 +380,22 @@ Enligt Jameson Lopp:
 
 
 - **Brickor** för
- - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
+ - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
 - **Brickor + mutter + skyddsfodral** (för brickor)
- - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
- - [TerraSteel] (https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
+ - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
+ - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Stansuppsättning
- - [PlebStyle] (https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
+ - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
 - **Grund för typning**
- - [PlebStyle] (https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
+ - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
 - **Tappningsanordning** (guide)
- - [TerraSteel] (https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
+ - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Tätningsanordning
- - [Förseglad påse] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
- - [Tätningslister] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
+ - [Förseglad påse](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Tätningslister](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - **Komplett** sats
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
- - [TerraSteel] (https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
+ - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 
 
 

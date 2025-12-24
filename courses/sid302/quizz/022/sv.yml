@@ -1,0 +1,8 @@
+question: Vilken kritisk strategisk fördel ger Liquid:s regulatoriska positionering jämfört med andra tokeniseringsplattformar som Ethereum eller Solana?
+answer: Liquid undviker oregistrerade säkerhetsrisker genom att använda Bitcoin (L-BTC) som sin ursprungliga tillgång utan pre-mining eller genomförande av en ICO
+wrong_answers:
+  - Liquid verkar under en särskild regulatorisk sandlåda som undantar den från värdepapperslagar i de flesta jurisdiktioner
+  - "Liquid:s federationsmodell kvalificerar automatiskt alla utgivna tokens som reglerade värdepapper enligt befintliga ramverk"
+  - Liquid har erhållit ett övergripande regulatoriskt godkännande från större finansiella myndigheter för alla tokeniserade tillgångar på sin plattform
+explanation: |
+  Liquid:s strategiska regleringsfördel härrör från dess tekniska arkitektur snarare än särskilda undantag eller godkännanden. Genom att använda Bitcoin som sin ursprungliga tillgång (L-BTC) utan pre-mining-tokens eller genomföra en ICO, undviker Liquid klassificeringen "oregistrerad säkerhet" som hotar många andra blockchain-plattformar. Detta är avgörande eftersom tillsynsmyndigheter som SEC i allt högre grad har granskat blockchain-projekt som skapat och sålt sina egna tokens och potentiellt klassificerat dem som oregistrerade värdepapper. De felaktiga svaren antyder felaktigt att Liquid har särskilda regleringstillstånd eller automatiska efterlevnadsfunktioner, när dess fördel i själva verket kommer från att undvika problematiska token-ekonomier helt och hållet.

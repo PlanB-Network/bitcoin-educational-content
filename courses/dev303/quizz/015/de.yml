@@ -1,0 +1,8 @@
+question: Was ist der primäre Mechanismus, den Rust verwendet, um speicherbezogene Fehler wie Use-after-free und Pufferüberläufe zu verhindern?
+answer: Statische Analyse wird vollständig zur Kompilierzeit durchgeführt
+wrong_answers:
+  - Garbage Collection zur Laufzeit mit automatischer Speicherbereinigung
+  - Dynamische Speicherprüfung während der Programmausführung
+  - Manuelle Speicherverwaltung mit expliziten Zuweisungsaufrufen
+explanation: |
+  Rust verhindert speicherbezogene Fehler durch statische Analyse, die vollständig zur Kompilierzeit durchgeführt wird, wobei der Compiler den Quellcode untersucht und mit Sicherheit feststellt, ob Speicheroperationen sicher sind. Dies unterscheidet sich von der Garbage Collection (die von Java/Go verwendet wird), die einen Laufzeit-Overhead verursacht, von der dynamischen Überprüfung, die eine Laufzeitüberprüfung erfordert, und von der manuellen Speicherverwaltung (die von C/C++ verwendet wird), die auf die Disziplin des Programmierers angewiesen ist. Der Ansatz von Rust zur Kompilierzeit gewährleistet Speichersicherheit ohne Laufzeitkosten oder unvorhersehbare Pausen.

@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - स्टोनवॉल
+name: Sparrow Wallet - Stonewall
 description: Sparrow पर स्टोनवॉल लेनदेन को समझना और उसका उपयोग करना
 ---
 

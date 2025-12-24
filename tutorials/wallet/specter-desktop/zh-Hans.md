@@ -1,5 +1,5 @@
 ---
-name: 幽灵桌面
+name: Specter Desktop
 description: 使用自己的节点，完全自主地管理多签名 Bitcoin 投资组合
 ---
 

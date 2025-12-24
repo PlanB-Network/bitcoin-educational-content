@@ -1,0 +1,8 @@
+question: Mitä tapahtuu Rust-rakenteille ja niihin liittyville metodeille, kun ne kartoitetaan UniFFI:n UDL:n kautta kohdekieliin, kuten Kotliniin tai Swiftiin?
+answer: UDL:ssä ne esitetään rajapintoina ja generate:ssä luokkina, joilla on metodeja oliokeskeisissä kohdekielissä
+wrong_answers:
+  - Ne muunnetaan yksinkertaisiksi sanakirjoiksi, joissa ei ole kohdekielissä mitään metoditoimintoja
+  - Ne edellyttävät kunkin menetelmän manuaalista toteuttamista kohdekielellä käyttäen takaisinkutsurajapintoja
+  - Ne muutetaan automaattisesti nimiavaruusfunktioiksi, jotka ottavat ensimmäisenä parametrina structin
+explanation: |
+  UniFFI säilyttää oliosuuntautuneet suunnittelumallit kartoittamalla Rust-rakenteet ja niihin liittyvät metodit UDL:n rajapinnoiksi, jotka sitten generate:n natiiviluokkina metodeineen kohdekielissä. Näin säilytetään alkuperäisen Rust-toteutuksen rakenteellinen eheys ja käyttäytyminen samalla kun Kotlinin ja Swiftin kaltaisten kielten kehittäjille esitetään tuttuja oliopohjaisia rajapintoja. Muut vaihtoehdot ovat virheellisiä, koska UniFFI säilyttää nimenomaan metoditoiminnallisuuden eikä tasoita sanakirjoiksi, ei vaadi manuaalista toteutusta, koska sidonnat luodaan automaattisesti, eikä muunna struct-metodeja nimiavaruusfunktioiksi.

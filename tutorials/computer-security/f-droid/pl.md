@@ -27,7 +27,7 @@ Niestety, F-Droid nie jest aplikacją dostępną na iOS i zawiera wiele narzędz
 
 
 
-Możesz pobrać F-droid z [oficjalnej strony] (https://f-droid.org/) w formacie APK i zainstalować go ręcznie na swoim telefonie z Androidem.
+Możesz pobrać F-droid z [oficjalnej strony](https://f-droid.org/) w formacie APK i zainstalować go ręcznie na swoim telefonie z Androidem.
 
 
 

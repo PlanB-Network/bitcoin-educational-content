@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin е уязвим към атаки на Sybil
   - Bitcoin е дефлационен
 explanation: |
-  Той [критикува](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin за това, че консумира електроенергия и генерира въглероден диоксид (парников газ).
+  Той [критикува](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin за това, че консумира електроенергия и генерира въглероден диоксид (парников газ).
 reviewed: true

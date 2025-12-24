@@ -1,0 +1,8 @@
+question: Jaka jest główna rola asercji w tworzeniu aplikacji Bitcoin zgodnie z najlepszymi praktykami Rust?
+answer: Wyłapywanie błędów podczas testowania, powodowanie wczesnej awarii programu w przypadku wystąpienia problemów i służenie jako wykonywalna dokumentacja założeń programisty
+wrong_answers:
+  - Obsługa błędów zasobów runtime, takich jak awarie dostępu do plików i problemy z łącznością sieciową, w łagodny sposób
+  - Aby przetłumaczyć niskopoziomowe błędy biblioteki na wysokopoziomowe błędy aplikacji, które użytkownicy mogą zrozumieć i podjąć odpowiednie działania
+  - Aby zapobiec nieprawidłowym błędom wejściowym poprzez ograniczenie parametrów funkcji do akceptowania tylko wartości w prawidłowych zakresach
+explanation: |
+  Asercje pełnią trzy krytyczne funkcje w solidnym tworzeniu oprogramowania Bitcoin: wyłapują błędy podczas fazy testowania, zapewniają, że programy zawodzą wcześnie, gdy naruszane są podstawowe założenia (ułatwiając debugowanie) i działają jako wykonywalna dokumentacja, która opisuje oczekiwania programisty dotyczące stanu programu. Pozostałe opcje opisują różne strategie obsługi błędów - łagodną obsługę awarii zasobów zewnętrznych, translację błędów między warstwami abstrakcji i walidację danych wejściowych - które są ważne, ale różnią się od konkretnej roli asercji w weryfikacji wewnętrznych założeń programu.

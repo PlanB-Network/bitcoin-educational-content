@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta leniwych iteratorów w Rust?
+answer: Nie wykonują one żadnej pracy, dopóki nie zostaną zużyte, umożliwiając wydajne łączenie w łańcuchy bez tworzenia pośrednich kolekcji
+wrong_answers:
+  - Automatycznie zrównoleglają operacje na wielu rdzeniach CPU, zapewniając lepszą wydajność
+  - Buforują poprzednie wyniki w pamięci, aby uniknąć wielokrotnego obliczania tych samych wartości
+  - Zużywają mniej pamięci, przechowując tylko odniesienia zamiast kopiowania rzeczywistych wartości danych
+explanation: |
+  Leniwa ewaluacja w iteratorach Rust oznacza, że nie wykonują one żadnego przetwarzania, dopóki nie zostanie wywołana metoda konsumująca. Pozwala to na łączenie wielu operacji, takich jak mapowanie, filtrowanie i inne adaptery, bez tworzenia pośrednich kolekcji między każdym krokiem. Kompilator może zoptymalizować cały łańcuch w wydajny kod, który przetwarza elementy pojedynczo przez wszystkie transformacje, zamiast tworzyć tymczasowe wektory lub inne kolekcje na każdym etapie.

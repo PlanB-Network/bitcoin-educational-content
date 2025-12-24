@@ -1,0 +1,8 @@
+question: Miksi P2WSH käyttää SHA256-hashingia hash160:n (RIPEMD160+SHA256) sijasta skriptisitoumukseen todistajaohjelmissa?
+answer: SHA256 tarjoaa 32 tavun hash-tunnisteen, joka erottaa P2WSH:n P2WPKH:n 20 tavun hash-tunnisteesta160 ja tarjoaa vahvemman turvallisuuden monimutkaisille skripteille
+wrong_answers:
+  - SHA256 on nopeampi laskea kuin hash160, mikä lyhentää monimutkaisten monimerkkisten transaktioiden validointiaikaa korkean läpimenon skenaarioissa
+  - "Hash160 poistettiin käytöstä SegWit:ssa Bitcoin:n varhaisessa kehitysvaiheessa havaittujen mahdollisten törmäyshaavoittuvuuksien vuoksi"
+  - SHA256 sallii 520 tavua suurempien todistusskriptien käytön, kun taas hash160 asetti tiukat kokorajoitukset skriptien monimutkaisuudelle
+explanation: |
+  P2WSH käyttää SHA256:ta luodakseen 32 tavun hasheja, jotka eroavat erityisesti P2WPKH:n 20 tavun hash160-sitoumuksesta, jolloin solmut voivat välittömästi tunnistaa todistajaohjelman version. Pidempi hash tarjoaa myös paremman turvallisuuden monimutkaisille skripteille, joilla voi olla suurempi arvo tai enemmän hyökkäyspintaa. Muut vaihtoehdot ovat virheellisiä: SHA256 ei välttämättä ole nopeampi kuin hash160, hash160:n käytöstä ei ole luovuttu haavoittuvuuksien vuoksi, eikä hash-funktion valinta vaikuta skriptien kokorajoituksiin.

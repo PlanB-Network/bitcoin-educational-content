@@ -1,0 +1,8 @@
+question: Rust 對結構名稱和欄位名稱分別執行什麼命名慣例？
+answer: 結構名稱使用 CamelCase，欄位名稱使用 snake_case
+wrong_answers:
+  - 結構名稱使用 snake_case，欄位名稱使用 CamelCase
+  - 結構名稱使用 kebab 大小寫，欄位名稱使用 camelCase 大小寫
+  - 結構名稱使用大寫，欄位名稱使用小寫
+explanation: |
+  Rust 遵循特定的命名慣例，編譯器會透過警告來強制執行。結構名稱應該使用 CamelCase (也稱為 PascalCase)，每個字以大寫字母開頭，例如 'MyStruct'。結構內的欄位名稱應該使用 snake_case 並以下劃線分隔字詞，例如 'my_field'。此慣例維持 Rust 代碼庫的一致性，並提高開發人員的可讀性。

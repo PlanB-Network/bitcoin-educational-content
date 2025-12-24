@@ -102,7 +102,7 @@ Navigatie op het apparaat is redelijk intuïtief:
 
 
 
-In deze tutorial laat ik je zien hoe je de Trezor Safe 5 gebruikt met [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
+In deze tutorial laat ik je zien hoe je de Trezor Safe 5 gebruikt met [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Als je deze software nog niet hebt geïnstalleerd, doe dat dan nu. Als je hulp nodig hebt, hebben we ook een gedetailleerde tutorial over het configureren van Sparrow wallet:
 
 
 

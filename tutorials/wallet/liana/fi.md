@@ -307,7 +307,7 @@ Tapahtuman pitäisi näkyä päänäytöllä. Kun se on vahvistettu, palautus on
 
 ## Bonus: kuvaaja-analyysi
 
-Kuvaaja on ihmisen luettavissa oleva merkkijono, joka kuvaa tyhjentävästi joukon osoitteita. Siinä yhdistyvät useat olennaiset tiedot, joita tarvitaan kehittyneen salkun osien (UTXO) hakemiseen. Kuvaajan kirjoitustapa perustuu Andrew Poelstran, Pieter Wuillen ja Sanket Kanjalkarin vuonna 2019 kehittämään skriptikieleen [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).
+Kuvaaja on ihmisen luettavissa oleva merkkijono, joka kuvaa tyhjentävästi joukon osoitteita. Siinä yhdistyvät useat olennaiset tiedot, joita tarvitaan kehittyneen salkun osien (UTXO) hakemiseen. Kuvaajan kirjoitustapa perustuu Andrew Poelstran, Pieter Wuillen ja Sanket Kanjalkarin vuonna 2019 kehittämään skriptikieleen [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).
 
 Jotta ymmärtäisimme paremmin, miksi tämä merkkijono on tärkeä, analysoidaan esimerkkimme kuvaajaa, joka on :
 

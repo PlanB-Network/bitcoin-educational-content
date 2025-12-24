@@ -221,7 +221,7 @@ När LND är igång kan du öppna din första Lightning-kanal. För att hitta kv
 
 
 
-Till exempel är [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en erkänd nod med utmärkt tillgänglighets- och likviditetsstatistik.
+Till exempel är [ACINQ-noden](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en erkänd nod med utmärkt tillgänglighets- och likviditetsstatistik.
 
 
 
@@ -229,7 +229,7 @@ Till exempel är [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d98
 
 
 
-För denna handledning öppnar vi en kanal med [Swiss Bitcoin Pay] (https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informationen som krävs för anslutning (pubkey@ip:port) ges på deras Amboss sida.
+För denna handledning öppnar vi en kanal med [Swiss Bitcoin Pay](https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informationen som krävs för anslutning (pubkey@ip:port) ges på deras Amboss sida.
 
 
 

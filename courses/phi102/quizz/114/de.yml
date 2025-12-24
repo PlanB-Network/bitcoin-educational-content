@@ -1,0 +1,8 @@
+question: Was passiert nach der Theorie der freien Marktwirtschaft, wenn Unternehmer die Verbrauchernachfrage nach einer Innovation, die es noch gar nicht gibt, voreilig vorwegnehmen?
+answer: Das Ausbleiben von Gewinnen hält sie natürlich davon ab, weiterzumachen, und hindert andere daran, ihrem Beispiel zu folgen
+wrong_answers:
+  - Staatliche Eingriffe lenken ihre Bemühungen durch Subventionen auf gesellschaftlich nützlichere Projekte um
+  - Sie investieren so lange, bis die Verbraucherpräferenzen mit ihren ursprünglichen Prognosen übereinstimmen
+  - Die Marktvorschriften zwingen sie dazu, ihre Projekte aufzugeben, um wirtschaftliche Verschwendung zu vermeiden
+explanation: |
+  In einem System der freien Marktwirtschaft dienen die Gewinne als wichtige Signale für die tatsächliche Verbrauchernachfrage. Wenn Unternehmer das Timing des Marktes falsch einschätzen und eine Nachfrage vorwegnehmen, die nicht existiert, scheitern sie an generate-Gewinnen, was natürlich von weiteren Investitionen in diese Richtung abhält. Dieser Selbstkorrekturmechanismus verhindert, dass Ressourcen für verfrühte Innovationen verschwendet werden. Die anderen Optionen suggerieren fälschlicherweise ein Eingreifen von außen oder anhaltende Investitionen trotz Marktsignalen, was der Betonung des Kapitels, wie Gewinnsignale rationale wirtschaftliche Entscheidungen leiten, widerspricht.

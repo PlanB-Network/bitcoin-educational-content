@@ -1,0 +1,8 @@
+question: Che tipo di operazione esegue Rust per default quando assegna una variabile String a un'altra?
+answer: Un'operazione di spostamento che trasferisce la proprietà e invalida la variabile sorgente
+wrong_answers:
+  - Una copia profonda che duplica tutti i dati dell'heap per creare stringhe indipendenti
+  - Una copia superficiale che crea due puntatori alla stessa memoria heap
+  - Una creazione di riferimento che consente a entrambe le variabili di condividere l'accesso in sola lettura
+explanation: |
+  Rust esegue un'operazione di spostamento per impostazione predefinita quando si assegnano tipi complessi come String. Questa operazione trasferisce la proprietà dalla variabile di origine a quella di destinazione, invalidando al contempo l'origine, evitando scenari pericolosi in cui più variabili potrebbero modificare la stessa memoria heap. Una copia profonda sarebbe inefficiente per stringhe di grandi dimensioni, una copia superficiale creerebbe problemi di sicurezza della memoria con più puntatori agli stessi dati e la creazione di riferimenti richiede una sintassi esplicita con l'operatore ampersand.

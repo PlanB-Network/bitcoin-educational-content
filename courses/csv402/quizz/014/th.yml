@@ -1,0 +1,9 @@
+question: Schema มีบทบาทอย่างไรใน RGB?
+answer: กำหนดตัวแปรของสัญญา กฎเกณฑ์ และตรรกะทางธุรกิจ
+wrong_answers:
+  - เก็บรักษาสินค้าฝากขายที่แลกเปลี่ยนระหว่างผู้เข้าร่วม
+  - การตรวจสอบความถูกต้องของ Pedersen Commitments บนธุรกรรม Bitcoin
+  - I'm sorry, I need more context or specific text to translate. Could you please provide the text you would like translated into Thai?
+explanation: |
+  Schema กำหนดโครงสร้างสถานะของสัญญาและกำหนดการเปลี่ยนแปลงที่อนุญาตและเงื่อนไขการตรวจสอบความถูกต้อง
+reviewed: false

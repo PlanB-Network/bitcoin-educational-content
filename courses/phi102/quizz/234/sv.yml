@@ -1,0 +1,8 @@
+question: Vilken ekonomisk mekanism förlitar sig avtalsfriheten främst på för att säkerställa att båda parter drar nytta av frivilliga utbyten?
+answer: Vardera partens subjektiva värdering som gör att utbytet är att föredra framför att avstå från det
+wrong_answers:
+  - Statlig reglering som säkerställer lika fördelning av fördelar mellan avtalsparter
+  - Marknadspriskontroll som garanterar rättvis ersättning till alla deltagare i börsen
+  - Objektiv mätning av värde som skapar matematiskt likvärdiga vinster för båda sidor
+explanation: |
+  Frivilliga avtal skapar ömsesidigt berikande eftersom varje individ väljer att delta endast när de subjektivt värderar det de får högre än det de ger upp. Det är denna subjektiva preferens, snarare än någon extern reglering eller objektiv värdemätning, som ligger bakom det frivilliga utbytets positiva summa-karaktär. Statlig reglering eller priskontroll skulle i själva verket undergräva denna frivilliga mekanism, medan objektiv värdemätning ignorerar de personliga preferenser som motiverar individer att ingå avtal över huvud taget.

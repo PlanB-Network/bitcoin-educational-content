@@ -1,0 +1,9 @@
+question: วิธีการนำเข้า NonInflatableAsset.rgb Schema ไปยังคลังท้องถิ่นคืออะไร?
+answer: rgb นำเข้า schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb นำเข้า schema/NonInflatableAssets.rgb
+  - rgb clone schemata/NonInflatableAssets.rgb
+  - rgb โคลน schema/NonInflatableAssets.rgb
+explanation: |
+  ไฟล์ Schema ที่คอมไพล์แล้วจะถูกนำเข้าไปยังที่เก็บข้อมูลในเครื่องโดยใช้คำสั่ง "rgb import schemata/NonInflatableAssets.rgb"
+reviewed: false

@@ -1,0 +1,8 @@
+question: According to liberal economic theory, what is the primary mechanism through which free competition justly distributes resources in society?
+answer: It rewards the productive efforts of individuals based on their economic contributions
+wrong_answers:
+  - It ensures equal distribution of wealth among all members of society regardless of effort
+  - It redistributes resources from the wealthy to the poor through democratic voting mechanisms
+  - It allocates resources based on government planning and regulatory oversight of markets
+explanation: |
+  The chapter explains that free competition distributes resources justly because it rewards productive efforts of individuals, creating a merit-based system where economic success correlates with productive contribution. The wrong answers misrepresent liberal theory: equal distribution ignores merit and effort, democratic redistribution represents the political method rather than contractual exchange, and government planning contradicts the free market principle that competition naturally allocates resources efficiently.

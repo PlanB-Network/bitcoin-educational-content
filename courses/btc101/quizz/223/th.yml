@@ -1,0 +1,9 @@
+question: บิตคอยน์ที่ใช้บน Liquid เรียกว่าอะไร?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  บน Liquid, บิตคอยน์ถูกแทนด้วย L-BTC ซึ่งตรึงค่า 1 ต่อ 1 กับ BTC
+reviewed: false

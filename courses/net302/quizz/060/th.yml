@@ -1,0 +1,9 @@
+question: ที่อยู่ loopback ของ IPv6 ซึ่งเทียบเท่ากับ 127.0.0.1 ใน IPv4 คือ ::1
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  ที่อยู่ "::1/128" คือที่อยู่ loopback ใช้สำหรับการทดสอบภายในเครื่อง
+reviewed: false

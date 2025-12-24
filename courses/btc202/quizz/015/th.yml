@@ -1,0 +1,9 @@
+question: ทางเลือกหลักในการใช้งาน Bitcoin Core คืออะไร?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin เงินสด
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, พัฒนาโดย Luke Dashjr, เป็น fork ของ Core, ที่มีตัวเลือกเพิ่มเติมและวิสัยทัศน์ที่อนุรักษ์นิยมมากขึ้น
+reviewed: true

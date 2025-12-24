@@ -534,7 +534,7 @@ Le jeu des 14 différences !
 
 Lorsque la monnaie se déprécie à une vitesse vertigineuse, même les tentatives les plus ambitieuses pour inonder le marché avec de nouveaux billets peuvent se révéler insuffisantes. La demande incessante pour la monnaie tangibles peut surpasser de loin la capacité des banques centrales à produire des billets, créant des crises de liquidités sans précédent.
 
-> Weimar: “Au cours de ce mois-ci, elle sera augmentée à presque 4 milliards de marks papier, chiffre avec lequel on espère que la pénurie de monnaie sera définitivement surmontée.”
+> Weimar : “Au cours de ce mois-ci, elle sera augmentée à presque 4 milliards de marks papier, chiffre avec lequel on espère que la pénurie de monnaie sera définitivement surmontée.”
 
 > Zimbabwe: “De 2002 à janvier 2009, il y a eu plusieurs pénuries critiques de liquidités. Il n'y avait tout simplement pas assez de billets imprimés ou en circulation pour suivre le rythme de l'inflation galopante.”
 
@@ -550,9 +550,9 @@ La rapidité avec laquelle la monnaie peut perdre de sa valeur dans certaines si
 
 Dans certaines circonstances économiques, la valeur intrinsèque d'un billet peut devenir inférieure à la valeur du papier sur lequel il est imprimé. Cette dépréciation drastique transforme les billets de banque, normalement symboles de valeur et de pouvoir d'achat, en simples morceaux de papier sans valeur marchande.
 
-> Weimar: “Des dénominations entières de billets en marks étaient sans valeur presque dès leur sortie de l'imprimerie.”
+> Weimar : “Des dénominations entières de billets en marks étaient sans valeur presque dès leur sortie de l'imprimerie.”
 
-> Zimbabwe: “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
+> Zimbabwe : “La Banque centrale avait gaspillé de l'argent en imprimant un billet qui ne valait pas le papier sur lequel il était imprimé. En d'autres termes, sa valeur était inférieure à celle du papier toilette. Aussi absurde que cela puisse paraître, il était alors moins cher d'utiliser le billet de ZWD 100 trillions comme papier toilette que d'acheter le véritable papier toilette.”
 
 ![image](assets/fr/042.webp)
 
@@ -572,53 +572,53 @@ Technique ouzbèke de comptage de l’argent
 
 Dans des économies perturbées, les modes de paiement traditionnels, comme les chèques, peuvent rapidement perdre leur efficacité. Les banques, débordées par la demande croissante de monnaie due à l'hyperinflation, peuvent rationner ou retarder l'encaissement des chèques, réduisant ainsi leur valeur réelle. Cette instabilité conduit souvent à une hiérarchisation des méthodes de paiement, où les prix peuvent varier en fonction de la manière dont on choisit de payer.
 
-> Weimar: “L'augmentation des prix a intensifié la demande de monnaie, à la fois par l'État et par d'autres employeurs. Les banques privées ne pouvaient pas du tout répondre à la demande et devaient rationner l'encaissement des chèques, de sorte que les chèques non encaissés restaient gelés pendant que leur pouvoir d'achat s'épuisait.”
+> Weimar : “L'augmentation des prix a intensifié la demande de monnaie, à la fois par l'État et par d'autres employeurs. Les banques privées ne pouvaient pas du tout répondre à la demande et devaient rationner l'encaissement des chèques, de sorte que les chèques non encaissés restaient gelés pendant que leur pouvoir d'achat s'épuisait.”
 
-> Zimbabwe: “La valeur temporelle de l'argent a créé trois prix pour les biens et services; à savoir, un prix en espèces, un prix en règlement brut en temps réel, et un prix par chèque. Finalement, personne n'acceptait les chèques, qui mettaient cinq jours à être encaissés.”
+> Zimbabwe : “La valeur temporelle de l'argent a créé trois prix pour les biens et services; à savoir, un prix en espèces, un prix en règlement brut en temps réel, et un prix par chèque. Finalement, personne n'acceptait les chèques, qui mettaient cinq jours à être encaissés.”
 
 #### 6. Les "Burner-preneurs"
 
 À mesure que la valeur de la monnaie s'érode, de nouvelles opportunités économiques émergent, exploitant les distorsions du marché. Ces entrepreneurs, souvent baptisés de noms inventifs comme "Burner-preneurs", peuvent prospérer en empruntant de la monnaie dévaluée pour investir dans des biens tangibles, puis en remboursant leurs dettes avec une monnaie encore plus dévaluée.
 
-> Weimar: “La spéculation sur l'inflation consistait à emprunter des marks papier, à les convertir en biens et usines, puis à rembourser les prêteurs avec du papier déprécié.”
+> Weimar : “La spéculation sur l'inflation consistait à emprunter des marks papier, à les convertir en biens et usines, puis à rembourser les prêteurs avec du papier déprécié.”
 
-> Zimbabwe: Les “Burner-preneurs”
+> Zimbabwe : Les “Burner-preneurs”
 
 #### 7. L'honnêteté et le travail acharné perdent leur attrait
 
 Dans des contextes économiques instables, les valeurs traditionnelles de travail acharné, d'économie et d'intégrité peuvent être éclipsées par l'attrait de la richesse rapide. La spéculation et le commerce de devises offrent souvent des récompenses bien supérieures à celles du travail régulier, provoquant un bouleversement des priorités sociétales.
 
-> Weimar: “Alors que les anciennes vertus d'économie, d'honnêteté et de travail acharné perdaient de leur attrait, tout le monde cherchait à s'enrichir rapidement, d'autant plus que la spéculation sur la monnaie ou les actions pouvait manifestement rapporter bien plus que le travail.”
+> Weimar : “Alors que les anciennes vertus d'économie, d'honnêteté et de travail acharné perdaient de leur attrait, tout le monde cherchait à s'enrichir rapidement, d'autant plus que la spéculation sur la monnaie ou les actions pouvait manifestement rapporter bien plus que le travail.”
 
-> Zimbabwe: “Ces pratiques, si elles ont enrichi quelques personnes, ont appauvri la classe ouvrière urbaine ainsi que la population rurale. L'éducation avait perdu de sa valeur, car ce commerce était animé par des personnes n'ayant besoin ni d'éducation ni de travail acharné pour le justifier. Tout ce dont ils avaient besoin, c'étaient des relations et un capital initial pour démarrer leur affaire d'argent facile.”
+> Zimbabwe : “Ces pratiques, si elles ont enrichi quelques personnes, ont appauvri la classe ouvrière urbaine ainsi que la population rurale. L'éducation avait perdu de sa valeur, car ce commerce était animé par des personnes n'ayant besoin ni d'éducation ni de travail acharné pour le justifier. Tout ce dont ils avaient besoin, c'étaient des relations et un capital initial pour démarrer leur affaire d'argent facile.”
 
 ![image](assets/fr/043.webp)
 
 #### 8. Les "banques du monde"
 
-Dans des situations d'hyperinflation ou de crise monétaire, les marchés parallèles et non réglementés de devises étrangères tendent à proliférer. Ces "banques" informelles, souvent appelées de manière humoristique "banques du monde" ou par d'autres noms locaux, offrent un refuge pour ceux qui cherchent à protéger leurs actifs de la dévaluation. Bien que ces marchés puissent fournir une bouée de sauvetage économique nécessaire, ils soulignent souvent la méfiance généralisée envers les institutions financières officielles et les politiques gouvernementales.
+Dans des situations d'hyperinflation ou de crise monétaire, les marchés parallèles et non réglementés de devises étrangères tendent à proliférer. Ces << banques >> informelles, souvent appelées de manière humoristique “banques du monde ” ou par d'autres noms locaux, offrent un refuge pour ceux qui cherchent à protéger leurs actifs de la dévaluation. Bien que ces marchés puissent fournir une bouée de sauvetage économique nécessaire, ils soulignent souvent la méfiance généralisée envers les institutions financières officielles et les politiques gouvernementales.
 
-> Weimar: “Leurs transactions se faisaient principalement par l'intermédiaire des soi-disant Winkelbankiers, les opérateurs de ruelles qui avaient émergé avec l'inflation et qui, prospérant dans une économie malade, vivaient entièrement en profitant de la différence entre les prix d'achat et de vente des devises étrangères.”
+> Weimar : “Leurs transactions se faisaient principalement par l'intermédiaire des soi-disant Winkelbankiers, les opérateurs de ruelles qui avaient émergé avec l'inflation et qui, prospérant dans une économie malade, vivaient entièrement en profitant de la différence entre les prix d'achat et de vente des devises étrangères.”
 
-> Zimbabwe: “Ils étaient aussi les changeurs de monnaie. Ils opéraient en toute impunité entre la 2ème et la 6ème Avenue et Fort Street à Bulawayo, grâce à leurs compétences commerciales astucieuses impliquant la corruption et d'autres pratiques. Cette zone de la ville était connue sous le nom de “Banque Mondiale”.
+> Zimbabwe : “Ils étaient aussi les changeurs de monnaie. Ils opéraient en toute impunité entre la 2e et la 6e Avenue et Fort Street à Bulawayo, grâce à leurs compétences commerciales astucieuses impliquant la corruption et d'autres pratiques. Cette zone de la ville était connue sous le nom de “Banque Mondiale”.
 
-> Argentine: “Je suis donc allé là où vont tous les Argentins : les cuevas, les “grottes”, que l’on trouve dans le quartier de Florida au cœur de Buenos Aires.” - TheBigWhale
+> Argentine : “Je suis donc allé là où vont tous les Argentins : les cuevas, les “grottes”, que l’on trouve dans le quartier de Florida au cœur de Buenos Aires.” - TheBigWhale
 
 #### 9. Les échanges de monnaie étrangères étaient illégal
 
 Les gouvernements, dans un effort pour stabiliser leur propre monnaie et contrôler le flux de capitaux, peuvent rendre illégales ces transactions en devises étrangères. Ces mesures répressives, bien que destinées à protéger l'économie nationale, peuvent souvent avoir l'effet inverse, exacerbant la méfiance du public et encourageant le marché noir.
 
-> Weimar: “Les gens en venaient à commercer par le troc et se tournaient progressivement vers les devises étrangères comme seul moyen d'échange fiable. De nouveaux décrets ont été introduits concernant l'achat de traites étrangères et l'utilisation de devises étrangères pour régler les paiements intérieurs. En plus de l'emprisonnement, des amendes pouvaient désormais être imposées jusqu'à dix fois le montant d'une transaction illégale.”
+> Weimar : “Les gens en venaient à commercer par le troc et se tournaient progressivement vers les devises étrangères comme seul moyen d'échange fiable. De nouveaux décrets ont été introduits concernant l'achat de traites étrangères et l'utilisation de devises étrangères pour régler les paiements intérieurs. En plus de l'emprisonnement, des amendes pouvaient désormais être imposées jusqu'à dix fois le montant d'une transaction illégale.”
 
-> Zimbabwe: “Des descentes dans les entreprises ont conduit à l'emprisonnement de plusieurs hommes d'affaires de Bulawayo pour le week-end et à des amendes équivalant au double du montant en devises récupéré, cette bravoure s'est ensuite atténuée.”
+> Zimbabwe : “Des descentes dans les entreprises ont conduit à l'emprisonnement de plusieurs hommes d'affaires de Bulawayo pour le week-end et à des amendes équivalant au double du montant en devises récupéré, cette bravoure s'est ensuite atténuée.”
 
 #### 10. Contrôle des capitaux
 
 Lorsqu'un pays est confronté à une crise monétaire ou économique, l'une des réponses courantes des gouvernements est d'exercer un contrôle strict sur les mouvements et les formes de capital. Que ce soit par des ordonnances forçant l'acceptation de monnaies nationales dévaluées ou par des sanctions sévères contre ceux qui rejettent certaines méthodes de paiement, ces mesures visent souvent à contenir la panique et à restaurer la confiance. Cependant, l'efficacité varie, et parfois, ces mesures peuvent s'avérer contre-productives ou déconnectées de la réalité vécue par les citoyens.
 
-> Weimar: “Les commerçants avaient récemment été contraints par un nouvel édit d'accepter les billets de banque de l'État ; mais puisqu'il permettait également l'utilisation continue de devises étrangères pour tous les achats, les commerçants trouvaient généralement des excuses pour n'accepter presque rien d'autre.”
+> Weimar : “Les commerçants avaient récemment été contraints par un nouvel édit d'accepter les billets de banque de l'État ; mais puisqu'il permettait également l'utilisation continue de devises étrangères pour tous les achats, les commerçants trouvaient généralement des excuses pour n'accepter presque rien d'autre.”
 
-> Zimbabwe: “le gouvernement a introduit le SI 175/2008 le 12 décembre 2008 concernant le paiement par chèques. Il stipulait, ‘La pénalité pour avoir refusé un paiement par un chèque/carte bancaire ou une autre méthode de paiement électronique médiée par une banque, sera une amende de niveau 8 ou une peine d'emprisonnement d'une durée de six mois ou les deux.’ Évidemment, nous avons ignoré le SI car il était totalement en décalage avec la réalité.”
+> Zimbabwe : “le gouvernement a introduit le SI 175/2008 le 12 décembre 2008 concernant le paiement par chèques. Il stipulait, ‘La pénalité pour avoir refusé un paiement par un chèque/carte bancaire ou une autre méthode de paiement électronique médiée par une banque, sera une amende de niveau 8 ou une peine d'emprisonnement d'une durée de six mois ou les deux.’ Évidemment, nous avons ignoré le SI car il était totalement en décalage avec la réalité.”
 
 ![image](assets/fr/044.webp)
 
@@ -642,7 +642,7 @@ Face à une économie en déroute et à des réglementations omniprésentes, la 
 
 L'achat frénétique de devises étrangères a souvent marqué un tournant critique dans la dévaluation monétaire, exacerbant la chute de leur valeur.
 
-> Weimar: "Mannheimer, sur instruction de son chef, est sorti en août 1921 et a commencé à acheter des devises étrangères à n'importe quel prix — 'car l'Allemagne avait une quantité infinie de marks en papier mais pas de devises étrangères.' C'était le premier signe de l'effondrement absolu de la valeur du mark."
+> Weimar : "Mannheimer, sur instruction de son chef, est sorti en août 1921 et a commencé à acheter des devises étrangères à n'importe quel prix car l'Allemagne avait une quantité infinie de marks en papier mais pas de devises étrangères. C'était le premier signe de l'effondrement absolu de la valeur du mark."
 
 > Zimbabwe : Il a été allégué qu'on leur donnait des objectifs quotidiens à atteindre, car certaines des exigences en forex étaient urgentes et ils achèteraient à n'importe quel taux pour accumuler le forex afin de respecter le délai. Cette prétendue pratique a été accusée d'alimenter le feu de la dévaluation alors que la valeur du dollar zimbabwéen poursuivait sa chute vertigineuse."
 
@@ -670,17 +670,17 @@ Zimbabwe : « Pour aggraver les choses, en raison du manque de devises étrangè
 
 La dévalorisation de la monnaie peut pousser les citoyens à un comportement de survie basé sur le vandalisme. Face à une économie en déroute, des infrastructures publiques coûteuses comme les systèmes de transport peuvent être compromises, conduisant à des conséquences sociétales désastreuses.
 
-> Weimar: "À Berlin, le système de tramway a cessé de fonctionner faute de moyens."
+> Weimar : "À Berlin, le système de tramway a cessé de fonctionner faute de moyens."
 
-> Zimbabwe: "L'un des scénarios les plus troublants et tristes fut lorsque presque toute la ligne de cuivre électrique reliant Harare à Dabuka (plus de 280 kilomètres) a été volée. À son achèvement, elle avait été la fierté du Zimbabwe, avec des trains électriques rapides de passagers et de marchandises empruntant cette route."
+> Zimbabwe : "L'un des scénarios les plus troublants et tristes fut lorsque presque toute la ligne de cuivre électrique reliant Harare à Dabuka (plus de 280 kilomètres) a été volée. À son achèvement, elle avait été la fierté du Zimbabwe, avec des trains électriques rapides de passagers et de marchandises empruntant cette route."
 
 #### 3. “Mealie Meal”
 
 Dans le contexte de salaires dérisoires et d'une économie instable, les entreprises ont été contraintes d'offrir de la nourriture à leurs employés pour les maintenir productifs et opérationnels. Cette initiative était non seulement un moyen de pallier la pénurie et les coûts élevés de la nourriture, mais aussi une stratégie pour retenir le personnel dans un environnement économique difficile.
 
-> Weimar: "À Berlin, les employés de bureau, qui constituaient une classe très importante dans la capitale, avaient des salaires totalement inadéquats allant de 12 000 à 20 000 par mois (soit entre 12 et 19 livres par an), se réduisant constamment; mais la plupart pouvaient encore obtenir leurs déjeuners pour une somme symbolique, fournis par leurs bureaux, de sorte que le corps et l'âme pouvaient tout juste être maintenus ensemble."
+> Weimar : "À Berlin, les employés de bureau, qui constituaient une classe très importante dans la capitale, avaient des salaires totalement inadéquats allant de 12 000 à 20 000 par mois (soit entre 12 et 19 livres par an), se réduisant constamment; mais la plupart pouvaient encore obtenir leurs déjeuners pour une somme symbolique, fournis par leurs bureaux, de sorte que le corps et l'âme pouvaient tout juste être maintenus ensemble."
 
-> Zimbabwe: "À ce stade, nous fournissions à tout notre personnel un déjeuner gratuit. La farine de maïs était essentielle au fonctionnement continu de notre entreprise, car dans de nombreux cas, c'était le seul repas que notre personnel recevait chaque jour."
+> Zimbabwe : "À ce stade, nous fournissions à tout notre personnel un déjeuner gratuit. La farine de maïs était essentielle au fonctionnement continu de notre entreprise, car dans de nombreux cas, c'était le seul repas que notre personnel recevait chaque jour."
 
 #### 4. Coupon d'essence
 

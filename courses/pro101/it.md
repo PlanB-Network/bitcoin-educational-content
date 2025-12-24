@@ -2664,7 +2664,7 @@ Alice deve conoscere la topologia della rete per decidere il percorso di pagamen
 In sintesi, il corretto funzionamento dei nodi garantisce pagamenti atomici e il Lightning Network mira a risolvere molti dei problemi affrontati dai sistemi di pagamento tradizionali come Ripple. Sfruttando gli HTLC e il routing strategico, il Lightning Network fornisce una soluzione più scalabile, efficiente e sicura per i pagamenti decentralizzati.
 
 
-## Recensione di Bolt
+## Recensione di BOLT
 
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
@@ -2672,19 +2672,19 @@ In sintesi, il corretto funzionamento dei nodi garantisce pagamenti atomici e il
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
-La rete Bitcoin opera come un sistema Trustless a valore Exchange, servendo principalmente come Layer di regolamento in cui le transazioni sono registrate su un Ledger pubblico. Questo garantisce sicurezza e immutabilità, ma comporta delle limitazioni, soprattutto in termini di velocità delle transazioni e di commissioni. Di conseguenza, il Bitcoin può essere inefficiente per le piccole transazioni quotidiane.
+La rete Bitcoin opera come un sistema di scambio di valore trustless, servendo principalmente come layer di regolamento in cui le transazioni sono registrate su un registro pubblico. Questo garantisce sicurezza e immutabilità, ma comporta delle limitazioni, soprattutto in termini di velocità delle transazioni e di commissioni. Di conseguenza, Bitcoin può essere inefficiente per le piccole transazioni quotidiane.
 
 
-Il Lightning Network, che funziona come un secondo Layer in aggiunta al Bitcoin Blockchain. Questa rete di pagamento è progettata per facilitare le transazioni rapide e a basso costo. Aprendo un canale di pagamento tra due parti, queste possono effettuare transazioni off-chain, registrando solo i saldi iniziali e finali sul Bitcoin Blockchain. Questo riduce significativamente il carico sulla rete principale, migliorando la scalabilità e rendendo possibili le microtransazioni.
+Il Lightning Network, che funziona come un secondo layer in aggiunta alla blockchain di Bitcoin. Questa rete di pagamento è progettata per facilitare le transazioni rapide e a basso costo. Aprendo un canale di pagamento tra due parti, queste possono effettuare transazioni off-chain, registrando solo i saldi iniziali e finali sulla blockchain. Questo riduce significativamente il carico sulla rete principale, migliorando la scalabilità e rendendo possibili le microtransazioni.
 
 
-Per comprendere meglio il concetto, si consideri l'analogia con il conto di un bar. Quando si apre un conto al bar, si possono ordinare continuamente bevande senza pagare dopo ciascuna di esse. Infine, si salda l'importo totale alla fine della serata. Allo stesso modo, un canale Lightning consente transazioni multiple off-chain, che vengono regolate On-Chain solo quando il canale viene chiuso. Un'altra analogia è quella di un aeroporto, dove l'instradamento di un pagamento attraverso più nodi è simile al prendere un volo di collegamento per raggiungere la destinazione. Ogni nodo (o "volo") aiuta a indirizzare il pagamento verso la destinazione, garantendo un percorso efficiente.
+Per comprendere meglio il concetto, si consideri l'analogia con il conto di un bar. Quando si apre un conto al bar, si possono ordinare continuamente bevande senza pagare dopo ciascuna di esse. Infine, si salda l'importo totale alla fine della serata. Allo stesso modo, un canale Lightning consente transazioni multiple off-chain, che vengono regolate on-chain solo quando il canale viene chiuso. Un'altra analogia è quella di un aeroporto, dove l'instradamento di un pagamento attraverso più nodi è simile al prendere un volo di collegamento per raggiungere la destinazione. Ogni nodo (o "volo") aiuta a indirizzare il pagamento verso la destinazione, garantendo un percorso efficiente.
 
 
 ![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
-In sostanza, il Lightning Network integra la rete Bitcoin risolvendo i suoi limiti, trasformandola da un semplice Layer di regolamento in un sistema versatile in grado di gestire in modo efficiente le transazioni quotidiane.
+In sostanza, il Lightning Network integra la rete Bitcoin risolvendo i suoi limiti, trasformandola da un semplice layer di regolamento in un sistema versatile in grado di gestire in modo efficiente le transazioni quotidiane.
 
 
 ### **Specifiche Lightning Network**

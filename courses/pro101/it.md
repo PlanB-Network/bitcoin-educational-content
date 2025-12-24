@@ -1,5 +1,5 @@
 ---
-name: Fondamenti dello sviluppo Bitcoin
+name: Fondamenti dello sviluppo Bitcoin 
 goal: Acquisire tutte le basi per iniziare a sviluppare su Bitcoin
 objectives:
 - Comprendere i concetti fondamentali e la tecnologia alla base di Bitcoin

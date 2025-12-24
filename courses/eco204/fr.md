@@ -429,10 +429,10 @@ Merci pour votre attention. La prochaine session sera entièrement dédiée à d
 Dans cette section, nous explorons les diverses définitions de l'hyperinflation, un terme crucial dans l'étude des phénomènes monétaires extrêmes. La définition la plus reconnue nous vient de Philip Cagan, qui dans son ouvrage de 1956, The Monetary Dynamics of Hyperinflation, propose une compréhension quantitative de l'hyperinflation. Selon Cagan :
 
 - Début et Fin de l'Hyperinflation :
-  - L'hyperinflation commence lorsque l'inflation mensuelle excède 50%.
-  - Elle se termine quand le taux d'inflation descend en dessous de 50% par mois pour une durée d'au moins un an.
+  - L'hyperinflation commence lorsque l'inflation mensuelle excède 50 %.
+  - Elle se termine quand le taux d'inflation descend en dessous de 50 % par mois pour une durée d'au moins un an.
 
-Pour illustrer, si l'inflation chute à 40% en juillet et ne remonte pas au-dessus de 50% jusqu'au juillet de l'année suivante, alors la période d'hyperinflation est considérée comme terminée en juillet de l'année précédente. Cette définition permet une caractérisation précise des épisodes d'hyperinflation, permettant une analyse structurée.
+Pour illustrer, si l'inflation chute à 40 % en juillet et ne remonte pas au-dessus de 50 % jusqu'au juillet de l'année suivante, alors la période d'hyperinflation est considérée comme terminée en juillet de l'année précédente. Cette définition permet une caractérisation précise des épisodes d'hyperinflation, permettant une analyse structurée.
 
 Cette définition a été adoptée dans le tableau Hanke-Krus, qui documente 56 épisodes d'hyperinflation. On peut maintenant ajouter à ce tableau une autre période d'hyperinflation, celle du Venezuela en 2016, portant le total à 57.
 
@@ -442,11 +442,11 @@ zoom
 
 ![image](assets/fr/034.webp)
 
-Il est à noter que cette définition, bien que précise, pourrait possiblement exclure certains épisodes d'hyperinflation en raison de la rigueur du seuil de 50%. Il existe une possibilité d'élargissement de cette définition pour inclure d'autres épisodes qui, bien que ne répondant pas strictement au critère de Cagan, représentent néanmoins des périodes d'inflation extrêmement élevée. Cette observation ouvre la porte à une exploration plus large des phénomènes d'hyperinflation, permettant une compréhension plus nuancée de ses causes et de ses effets. Dans les discussions ultérieures, nous envisagerons de revisiter cette définition et d'examiner des épisodes d'hyperinflation non couverts par le critère strict de Cagan.
+Il est à noter que cette définition, bien que précise, pourrait possiblement exclure certains épisodes d'hyperinflation en raison de la rigueur du seuil de 50 %. Il existe une possibilité d'élargissement de cette définition pour inclure d'autres épisodes qui, bien que ne répondant pas strictement au critère de Cagan, représentent néanmoins des périodes d'inflation extrêmement élevée. Cette observation ouvre la porte à une exploration plus large des phénomènes d'hyperinflation, permettant une compréhension plus nuancée de ses causes et de ses effets. Dans les discussions ultérieures, nous envisagerons de revisiter cette définition et d'examiner des épisodes d'hyperinflation non couverts par le critère strict de Cagan.
 
 ### la Définition de l'Hyperinflation par Cagan
 
-Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbitraire avec le seuil de 50% d'inflation mensuelle. Il admet lui-même que cette définition est arbitraire et servait principalement son analyse basée sur sept épisodes d'hyperinflation. L'examen des données de Cagan révèle que les trois épisodes d'hyperinflation avec les taux d'inflation mensuels les plus bas étaient autour de 47%, 46% et 57%. Il semble que le seuil de 50% a été choisi pour englober ces cas dans son étude.
+Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbitraire avec le seuil de 50 % d'inflation mensuelle. Il admet lui-même que cette définition est arbitraire et servait principalement son analyse basée sur sept épisodes d'hyperinflation. L'examen des données de Cagan révèle que les trois épisodes d'hyperinflation avec les taux d'inflation mensuels les plus bas étaient autour de 47 %, 46 % et 57 %. Il semble que le seuil de 50 % a été choisi pour englober ces cas dans son étude.
 
 ![image](assets/fr/035.webp)
 
@@ -454,15 +454,15 @@ Philip Cagan, en définissant l'hyperinflation, a peut-être posé un jalon arbi
   La définition de Cagan date de 1956, et se base sur un nombre limité d'épisodes d'hyperinflation disponibles à cette époque.
 
 - Observations de Cagan :
-  Selon Cagan, aucun épisode n'a atteint ce seuil d'environ 50% sans évoluer vers une hyperinflation plus grave, ce qui pourrait justifier le choix de ce seuil.
+  Selon Cagan, aucun épisode n'a atteint ce seuil d'environ 50 % sans évoluer vers une hyperinflation plus grave, ce qui pourrait justifier le choix de ce seuil.
 
 - Critique de la Définition de Cagan :
-  D'autres économistes, comme Bernholz, l'auteur de Monetary Regime and Inflation, ont également qualifié le seuil de 50% d'arbitraire.
-  Bernholz note qu'il existe des épisodes de haute inflation ayant les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation, sans atteindre le seuil de 50%.
+  D'autres économistes, comme Bernholz, l'auteur de Monetary Regime and Inflation, ont également qualifié le seuil de 50 % d'arbitraire.
+  Bernholz note qu'il existe des épisodes de haute inflation ayant les mêmes caractéristiques qualitatives que les épisodes d'hyperinflation, sans atteindre le seuil de 50 %.
 
 ![image](assets/fr/036.webp)
 
-Cette réflexion nous conduit à questionner la rigidité de la définition traditionnelle de l'hyperinflation, et souligne la nécessité de peut-être revisiter ce seuil en intégrant plus d'épisodes et de données historiques. La définition de l'hyperinflation pourrait nécessiter une flexibilité pour englober diverses manifestations d'inflation extrême dans différents contextes économiques et historiques.
+Cette réflexion nous conduit à questionner la rigidité de la définition traditionnelle de l'hyperinflation et souligne la nécessité de peut-être revisiter ce seuil en intégrant plus d'épisodes et de données historiques. La définition de l'hyperinflation pourrait nécessiter une flexibilité pour englober diverses manifestations d'inflation extrême dans différents contextes économiques et historiques.
 
 ### La Définition de l'Hyperinflation Selon L'International Accounting Standards Board (IASB)
 
@@ -493,7 +493,7 @@ Cette définition fournie par l'IASB s'éloigne du seuil quantitatif strict prop
 
 ### Du coup, combien d'hyperinflation en tous ?
 
-Les définitions courantes d'hyperinflation, comme celle avancée par Cagan stipulant une inflation mensuelle de 50%, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000% et 3 000% peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50%, selon la définition de Cagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
+Les définitions courantes d'hyperinflation, comme celle avancée par Cagan stipulant une inflation mensuelle de 50 %, peuvent parfois prêter à confusion ou être réductrices. Par exemple, deux pays connaissant des taux d'inflation annuelle respectifs de 1 000 % et 3 000 % peuvent être perçus différemment en fonction de la répartition mensuelle de cette inflation. Si aucun mois ne dépasse le seuil de 50 %, selon la définition de Cagan, ces pays ne seraient pas en état d'hyperinflation. Cette approche peut donc conduire à des anomalies dans la classification de l'hyperinflation, surtout quand on compare des inflations cumulées sur l'année.
 
 ![image](assets/fr/039.webp)
 
@@ -502,7 +502,7 @@ Les définitions courantes d'hyperinflation, comme celle avancée par Cagan stip
 - La collection personnelle de billets de David issus de 36 périodes d'hyperinflation, permettant une compréhension tangible et historique.
 - Le tableau Hanky Cross (version 2012, mise à jour en 2016 avec le Venezuela), recensant 57 périodes d'hyperinflation basées sur la définition de Cagan.
 
-Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4% et 40%. Ces taux, bien que élevés, ne dépassent pas le seuil de 50% stipulé par Cagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
+Il est à noter que certaines périodes historiques d'inflation élevée ne figurent pas dans les tableaux classiques d'hyperinflation, souvent en raison des critères stricts de classification. Par exemple, pendant la guerre d'indépendance des États-Unis en novembre 1779, et durant la guerre civile américaine en mars 1864, les taux d'inflation mensuels étaient respectivement de 47,4 % et 40 %. Ces taux, bien que élevés, ne dépassent pas le seuil de 50 % stipulé par Cagan, excluant ainsi ces périodes des cas classés comme hyperinflation. Cette omission illustre les limites des définitions rigides et souligne la nécessité d'une approche plus nuancée pour appréhender l'hyperinflation dans toute sa complexité.
 
 ## Weimar vs Zimbabwe similitudes
 

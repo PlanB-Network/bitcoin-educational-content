@@ -2696,42 +2696,42 @@ Il protocollo Lightning Network è definito meticolosamente attraverso 10 BOLT (
 ![bolt](assets/en/049.webp)_BOLT Diagram _
 
 
-#### Bolt 1 (protocollo di base)
+#### BOLT 1 (protocollo di base)
 
 
-Il Bolt 1 delinea la formattazione dei messaggi utilizzando una struttura di tipo-lunghezza-valore (TLV), che assicura che i messaggi siano compresi in modo uniforme da diverse implementazioni. La comunicazione avviene tipicamente tramite una porta TCP specifica e i messaggi possono essere classificati in:
-
-
-
-- Messaggi di comunicazione**: Comprendono i messaggi `Init`, `Error`, `Warning`, `Ping` e `Pong`, che stabiliscono connessioni, gestiscono errori, sondano lo stato della connessione e offuscano il traffico.
-- Messaggi di impostazione del canale**: Sono fondamentali durante la fase di creazione di un canale.
-- Messaggi sullo stato del canale**: Questi messaggi gestiscono gli aggiornamenti dei canali attivi, assicurando che entrambe le parti siano sincronizzate.
-- Messaggi di pettegolezzo**: Vengono utilizzati per la scoperta e l'aggiornamento della topologia di rete.
-- Messaggi sperimentali**: Consentono di testare nuove funzionalità senza interrompere la rete.
-
-
-#### Bolt 2 (ciclo di vita del canale)
-
-
-Bolt 2 approfondisce il ciclo di vita del canale, dalla creazione alle normali operazioni e, infine, alla liquidazione. I processi chiave includono:
+Il BOLT 1 delinea la formattazione dei messaggi utilizzando una struttura di tipo-lunghezza-valore (TLV), che assicura che i messaggi siano compresi in modo uniforme da diverse implementazioni. La comunicazione avviene tipicamente tramite una porta TCP specifica e i messaggi possono essere classificati in:
 
 
 
-- Creazione del canale**: In questa fase, le parti aprono un canale, appongono le firme Exchange e creano una transazione di finanziamento.
-- Funzionamento normale**: In questo caso, lo stato del canale viene continuamente aggiornato utilizzando i Hash Time-Locked Contracts (HTLC). I messaggi Commitment e di revoca assicurano che entrambe le parti concordino sullo stato corrente.
-- Liquidazione**: Si tratta di chiudere il canale, di solito attraverso un accordo reciproco e la negoziazione delle tariffe, per finalizzare le transazioni senza entrare in un ciclo di chiusura indefinito.
+- **Communication messages**: Comprendono i messaggi `Init`, `Error`, `Warning`, `Ping` e `Pong`, che stabiliscono connessioni, gestiscono errori, sondano lo stato della connessione e offuscano il traffico.
+- **Channel set up messages**: Sono fondamentali durante la fase di creazione di un canale.
+- **Channel state message**: Questi messaggi gestiscono gli aggiornamenti dei canali attivi, assicurando che entrambe le parti siano sincronizzate.
+- **Gossip message**: Vengono utilizzati per la scoperta e l'aggiornamento della topologia di network.
+- **Experimental messages**: Consentono di testare nuove funzionalità senza interrompere il network.
+
+
+#### BOLT 2 (ciclo di vita del canale)
+
+
+BOLT 2 approfondisce il ciclo di vita del canale, dalla creazione alle normali operazioni e, infine, alla liquidazione. I processi chiave includono:
+
+
+
+- **Creazione del canale**: In questa fase, le parti aprono un canale, appongono le firme di scambio e creano una transazione di finanziamento.
+- **Funzionamento normale**: In questo caso, lo stato del canale viene continuamente aggiornato utilizzando gli Hash Time-Locked Contracts (HTLC). I messaggi di revoca e di vincolo assicurano che entrambe le parti concordino sullo stato corrente.
+- **Liquidazione**: Si tratta di chiudere il canale, di solito attraverso un accordo reciproco e la negoziazione delle tariffe, per finalizzare le transazioni senza entrare in un ciclo di chiusura indefinito.
 
 
 #### Meccanismo di aggiornamento
 
 
-Gli HTLC svolgono un ruolo fondamentale nell'instradamento dei pagamenti della rete, consentendo transazioni sicure senza fiducia. I messaggi Commitment e di revoca assicurano l'accordo reciproco sullo stato del canale e prevengono le frodi.
+Gli HTLC svolgono un ruolo fondamentale nell'instradamento dei pagamenti della rete, consentendo transazioni sicure senza fiducia. I messaggi Commitment(vincolo) e di revoca assicurano l'accordo reciproco sullo stato del canale e prevengono le frodi.
 
 
 #### Messaggi speciali
 
 
-Messaggi specifici come `Update Fee` regolano le tariffe Miner per le transazioni Commitment, mentre i messaggi `Channel Reestablish` assicurano che entrambi i peer rimangano sincronizzati dopo le disconnessioni.
+Messaggi specifici come `Update Fee` regolano le tariffe dei miner per le transazioni commitment, mentre i messaggi `Channel Reestablish` assicurano che entrambi i peer rimangano sincronizzati dopo le disconnessioni.
 
 
 #### Chiusura dei canali
@@ -2743,13 +2743,13 @@ I canali possono essere chiusi di comune accordo, con un'azione unilaterale o co
 #### Swap per la gestione della liquidità
 
 
-Gli swap consentono prelievi On-Chain e una gestione efficiente della liquidità senza chiudere i canali. Per migliorare questo processo si stanno sviluppando soluzioni future come lo splicing.
+Gli swap consentono prelievi on-chain e una gestione efficiente della liquidità senza chiudere i canali. Per migliorare questo processo si stanno sviluppando soluzioni future come lo splicing.
 
 
 #### Misure di sicurezza
 
 
-Le transazioni Commitment incorporano meccanismi come nLockTime, OPCheckSequenceVerify e chiavi di revoca per proteggere i fondi e prevenire i furti.
+Le transazioni commitment incorporano meccanismi come nLockTime, OPCheckSequenceVerify e chiavi di revoca per proteggere i fondi e prevenire i furti.
 
 
 ### Routing e onion routing
@@ -2758,13 +2758,13 @@ Le transazioni Commitment incorporano meccanismi come nLockTime, OPCheckSequence
 ![onion routing](assets/en/050.webp)_Onion Routing diagram _
 
 
-I pagamenti vengono instradati utilizzando il routing Onion, che prevede la creazione di pacchetti criptati inviati attraverso più nodi. Gli HTLC proteggono la transazione, garantendo privacy e sicurezza.
+I pagamenti vengono instradati utilizzando  l'Onion Routing, che prevede la creazione di pacchetti criptati inviati attraverso più nodi. Gli HTLC proteggono la transazione, garantendo privacy e sicurezza.
 
 
-### Struttura del Invoice
+### Struttura dell'invoice
 
 
-Le fatture Lightning Network (Bolt 11) sono codificate in Bech32 e includono dettagli come il pagamento Hash, la descrizione e la scadenza. Ogni Invoice deve essere utilizzato una sola volta per evitare problemi di riutilizzo.
+Le fatture Lightning Network (BOLT 11) sono codificate in Bech32 e includono dettagli come l'hash del pagamento, la descrizione e la scadenza. Ogni invoice deve essere utilizzato una sola volta per evitare problemi di riutilizzo.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -2779,32 +2779,32 @@ Le procedure di handshake e la crittografia (Chacha20) con autenticazione (Poly1
 #### Alternative
 
 
-Altri metodi di richiesta di pagamento come LNURL, Keysend e Bolt 12 offrono caratteristiche e livelli di adozione diversi, garantendo la flessibilità della rete.
+Altri metodi di richiesta di pagamento come LNURL, Keysend e BOLT 12 offrono caratteristiche e livelli di adozione diversi, garantendo la flessibilità della rete.
 
 
 #### Individuazione della rete
 
 
-La scoperta della rete nel Lightning Network si è evoluta dall'uso iniziale di IRC (Internet Relay Communication) a un protocollo più sofisticato definito dal Bolt 7. Questo protocollo utilizza specifici messaggi Lightning, comunemente chiamati messaggi di gossip, per scoprire e mantenere la topologia della rete.
+La scoperta della rete nel Lightning Network si è evoluta dall'uso iniziale di IRC (Internet Relay Communication) a un protocollo più sofisticato definito dal BOLT 7. Questo protocollo utilizza specifici messaggi Lightning, comunemente chiamati messaggi di gossip, per scoprire e mantenere la topologia della rete.
 
 
-#### Messaggi Bolt7
+#### Messaggi BOLT7
 
 
-I messaggi chiave del Bolt 7 includono:
+I messaggi chiave del BOLT 7 includono:
 
 
 
-- Annuncio di un nodo**: Questo messaggio trasmette l'esistenza di un nodo.
-- Annuncio di canale**: Questo messaggio informa la rete della creazione di un nuovo canale.
-- Firma dell'annuncio**: Garantisce l'autenticità dei messaggi di trasmissione.
-- Aggiornamento canale**: Questo messaggio comunica gli aggiornamenti relativi a un canale, come le strutture tariffarie e gli importi massimi HTLC.
+- **Annuncio di un nodo**: Questo messaggio trasmette l'esistenza di un nodo.
+- **Annuncio di canale**: Questo messaggio informa la rete della creazione di un nuovo canale.
+- **Firma dell'annuncio**: Garantisce l'autenticità dei messaggi di trasmissione.
+- **Aggiornamento canale**: Questo messaggio comunica gli aggiornamenti relativi a un canale, come le strutture tariffarie e gli importi massimi HTLC.
 
 
 #### Processo di annuncio del canale
 
 
-Il processo inizia con lo scambio di identità e dettagli del canale tra i peer locali. Dopo aver verificato le firme e finanziato le transazioni, annunciano il canale ai loro pari di rete, assicurando che l'intera rete rimanga aggiornata con le più recenti modifiche alla topologia.
+Il processo inizia con lo scambio di identità e dettagli del canale tra i peer locali. Dopo aver verificato le firme e finanziato le transazioni, annunciano il canale ai loro peer di rete, assicurando che l'intero network rimanga aggiornato con le più recenti modifiche alla topologia.
 
 
 #### Bootstrap DNS
@@ -2819,13 +2819,13 @@ La scoperta dei peer Lightning è facilitata dalle query DNS e Bitcoin DNS seed 
 I nodi possono trasmettere le loro caratteristiche supportate, assicurando la compatibilità all'indietro e consentendo al contempo miglioramenti opzionali. Questa flessibilità garantisce che tutti i nodi possano interagire senza problemi, anche quando il protocollo si evolve.
 
 
-#### Gestione delle fatture Bolt11
+#### Gestione delle fatture BOLT11
 
 
-La rete garantisce l'unicità delle fatture Bolt 11 per evitare pagamenti multipli per lo stesso Invoice. Se un Invoice viene riutilizzato, i nodi della rete intercettano e impediscono i doppi pagamenti, mantenendo l'integrità delle transazioni.
+La rete garantisce l'unicità delle fatture BOLT11 per evitare pagamenti multipli per la stessa invoice. Se un invoice viene riutilizzata, i nodi del network intercettano e impediscono i doppi pagamenti, mantenendo l'integrità delle transazioni.
 
 
-#### Voce Trasmissione dati
+#### Trasmissione dati Vocali
 
 
 Sebbene sia possibile, la trasmissione di dati vocali tramite il Lightning Network è fortemente compressa e limitata dalle dimensioni del messaggio. Un esempio di applicazione è Sphinx, che esplora l'uso innovativo di Lightning per la trasmissione di dati.
@@ -2837,13 +2837,13 @@ Sebbene sia possibile, la trasmissione di dati vocali tramite il Lightning Netwo
 Lo scopo del Lightning Network è oggetto di un dibattito continuo. Sebbene sia stato progettato principalmente per i pagamenti, si stanno esplorando altri casi d'uso, come la trasmissione di dati, sebbene non siano universalmente accettati. La comunità discute continuamente di potenziali applicazioni di rete e miglioramenti del protocollo.
 
 
-#### Discussioni comunitarie
+#### Discussioni della community
 
 
-La comunità Lightning Network è vivace, impegnata in continui dibattiti e discussioni su casi d'uso, applicazioni del protocollo e potenziali miglioramenti. Questo ambiente collaborativo favorisce l'innovazione e garantisce che la rete si evolva per soddisfare le esigenze degli utenti.
+La community del Lightning Network è vivace, impegnata in continui dibattiti e discussioni su casi d'uso, applicazioni del protocollo e potenziali miglioramenti. Questo ambiente collaborativo favorisce l'innovazione e garantisce che la rete si evolva per soddisfare le esigenze degli utenti.
 
 
-In conclusione, la comprensione della Seconda Importanza Layer, delle Specifiche Lightning Network e dei meccanismi di Network Discovery è fondamentale per chiunque voglia addentrarsi nelle complessità del Lightning Network. Si tratta di un campo complesso ma altamente gratificante che promette di trasformare il futuro delle transazioni digitali.
+In conclusione, la comprensione dell'importanza del Layer 2, delle Specifiche Lightning Network e dei meccanismi di Network Discovery è fondamentale per chiunque voglia addentrarsi nelle complessità del Lightning Network. Si tratta di un campo complesso ma altamente gratificante che promette di trasformare il futuro delle transazioni digitali.
 
 
 ## Principali clienti di LN
@@ -2854,7 +2854,7 @@ In conclusione, la comprensione della Seconda Importanza Layer, delle Specifiche
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
-Il Lightning Network (LN) rappresenta un significativo passo avanti nella scalabilità e nella velocità delle transazioni del Bitcoin. I client LN, tipicamente denominati portafogli Lightning, sono software o applicazioni specializzate che consentono agli utenti di condurre transazioni attraverso il Lightning Network. Questi portafogli fungono da Interface intermediario cruciale tra l'utente e il LN, facilitando le transazioni istantaneamente regolate e a basso costo sfruttando i percorsi off-chain .
+Il Lightning Network (LN) rappresenta un significativo passo avanti nella scalabilità e nella velocità delle transazioni Bitcoin. I client LN, tipicamente denominati portafogli Lightning, sono software o applicazioni specializzate che consentono agli utenti di condurre transazioni attraverso il Lightning Network. Questi portafogli fungono da interfaccia intermediaria cruciale tra l'utente e il LN, facilitando le transazioni istantaneamente regolate e a basso costo sfruttando i percorsi off-chain .
 
 
 I portafogli Lightning sono progettati per rendere il processo di facile utilizzo, consentendo anche a chi ha conoscenze tecniche minime di beneficiare delle funzionalità avanzate di Bitcoin. Consentendo microtransazioni rapide e convenienti, questi portafogli contribuiscono in modo significativo a una più ampia adozione di Bitcoin per le transazioni quotidiane.
@@ -2873,36 +2873,36 @@ I portafogli Bitcoin e i portafogli Lightning differiscono fondamentalmente nell
 
 
 
-- Preoccupazione per la chiave privata**: L'obiettivo principale dei portafogli Bitcoin è chi detiene la chiave privata. Questo determina la sicurezza e il controllo dei fondi dell'utente.
-- Complessità delle transazioni**: I portafogli Bitcoin gestiscono diversi script di transazione come Segregated Witness (SegWit) e Taproot, che ottimizzano le dimensioni delle transazioni e migliorano la privacy e la sicurezza.
+- **Problematiche legate alla chiave privata**: L'obiettivo principale dei portafogli Bitcoin è chi detiene la chiave privata. Questo determina la sicurezza e il controllo dei fondi dell'utente.
+- **Complessità delle transazioni**: I portafogli Bitcoin gestiscono diversi script di transazione come Segregated Witness (SegWit) e Taproot, che ottimizzano le dimensioni delle transazioni e migliorano la privacy e la sicurezza.
 
 
-#### Portafogli luminosi:
+#### Portafogli Lightning:
 
 
 
-- Gestione delle chiavi private**: Come per i portafogli Bitcoin, il controllo delle chiavi private rimane fondamentale.
-- Gestione della liquidità**: Una caratteristica distintiva dei portafogli Lightning è la necessità di gestire la liquidità, che comporta il bilanciamento della liquidità locale (in uscita) e di quella remota (in entrata) per garantire l'instradamento regolare delle transazioni. Ciò richiede che gli utenti comprendano e ottimizzino i propri canali per facilitare un inoltro efficiente dei pagamenti.
+- **Gestione delle chiavi private**: Come per i portafogli Bitcoin, il controllo delle chiavi private rimane fondamentale.
+- **Gestione della liquidità**: Una caratteristica distintiva dei portafogli Lightning è la necessità di gestire la liquidità, che comporta il bilanciamento della liquidità locale (in uscita) e di quella remota (in entrata) per garantire l'instradamento regolare delle transazioni. Ciò richiede che gli utenti comprendano e ottimizzino i propri canali per facilitare un inoltro efficiente dei pagamenti.
 
 
-#### Gestione della liquidità nei portafogli lightning
+#### Gestione della liquidità nei portafogli Lightning
 
 
-Un'efficace gestione della liquidità è una pietra miliare per il successo delle operazioni di Lightning Network . Comporta l'equilibrio strategico di due tipi primari di liquidità:
+Un'efficace gestione della liquidità è una colonna portante per il successo delle operazioni su Lightning Network . Comporta l'equilibrio strategico di due tipi primari di liquidità:
 
 
 #### Liquidità locale (in uscita):
 
 
 
-- Rappresenta la quantità di Bitcoin che un utente può inviare dai propri canali Lightning. È fondamentale per avviare i pagamenti e garantire che le transazioni possano essere inoltrate al destinatario.
+- Rappresenta la quantità di bitcoin che un utente può inviare dai propri canali Lightning. È fondamentale per avviare i pagamenti e garantire che le transazioni possano essere inoltrate al destinatario.
 
 
 #### Liquidità remota (in entrata):
 
 
 
-- Rappresenta la quantità di Bitcoin che un utente può ricevere attraverso i suoi canali. È altrettanto importante, in quanto garantisce che altri possano inviare pagamenti all'utente.
+- Rappresenta la quantità di bitcoin che un utente può ricevere attraverso i suoi canali. È altrettanto importante, in quanto garantisce che altri possano inviare pagamenti all'utente.
 
 
 #### Esempio di gestione della liquidità:
@@ -2922,15 +2922,15 @@ Si consideri uno scenario che coinvolga Alice, Bob, Charlie e Dan, utenti tipici
 ![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
-Tuttavia, se uno di questi canali si esaurisce o ha problemi di connettività, la transazione può fallire. Ciò dimostra l'importanza di mantenere una liquidità equilibrata in tutta la rete.
+Tuttavia, se uno di questi canali si esaurisce o ha problemi di connettività, la transazione può fallire. Ciò dimostra l'importanza di mantenere una liquidità equilibrata in tutto il network.
 
 
 #### Sfide nel Lightning Network:
 
 
 
-- Impoverimento dei canali**: Con il tempo, i canali possono diventare sbilanciati, con i fondi concentrati su un solo lato, limitando le capacità di transazione.
-- Problemi di connettività**: L'instradamento efficiente delle transazioni richiede connessioni di rete solide, che possono essere difficili da mantenere.
+- **Impoverimento dei canali**: Con il tempo, i canali possono diventare sbilanciati, con i fondi concentrati su un solo lato, limitando le capacità di transazione.
+- **Problemi di connettività**: L'instradamento efficiente delle transazioni richiede connessioni di rete solide, che possono essere difficili da mantenere.
 
 
 Per risolvere queste sfide, i fornitori di servizi di liquidità (LSP) offrono servizi di gestione della liquidità, spesso a pagamento, assicurando agli utenti il mantenimento di saldi di canale ottimali per transazioni senza problemi.
@@ -2942,39 +2942,39 @@ Per risolvere queste sfide, i fornitori di servizi di liquidità (LSP) offrono s
 Sono disponibili diversi portafogli Lightning, ognuno dei quali risponde a diverse esigenze e preferenze degli utenti. Ecco alcuni esempi:
 
 
-#### Wallet di Satoshi:
+#### Wallet of Satoshi:
 
 
 
-- Caratteristiche**: Completamente custodiale, facile da usare, ma closed source con potenziali problemi di privacy.
+- **Caratteristiche**: Completamente custodial, facile da usare, ma il codiice sorgente è chiuso, con potenziali problemi di privacy.
 
 
 #### Albi:
 
 
 
-- Caratteristiche**: Estensione del browser, open-source, supporta sia i modelli con custodia che quelli senza custodia, aumentando la versatilità.
+- **Caratteristiche**: Estensione del browser, open-source, supporta sia i modelli con custodial che quelli non-custodial, aumentando la versatilità.
 
 
-#### Brezza:
+#### Breez:
 
 
 
-- Caratteristiche**: Nodo leggero su un telefono, open-source, combina l'autocustodia con la liquidità gestita, offrendo un equilibrio tra controllo e convenienza.
+- **Caratteristiche**: Nodo leggero su un telefono, open-source, combina l'autocustodia con la liquidità gestita, offrendo un equilibrio tra controllo e convenienza.
 
 
 #### Phoenix:
 
 
 
-- Caratteristiche**: Simile a Breez, utilizza un modello LSP per la liquidità, è open-source, si concentra sulla semplicità d'uso e sulla gestione efficace della liquidità.
+- **Caratteristiche**: Simile a Breez, utilizza un modello LSP per la liquidità, è open-source, si concentra sulla semplicità d'uso e sulla gestione efficace della liquidità.
 
 
-#### Aprire Bitcoin Wallet (OBW):
+#### Open Bitcoin Wallet (OBW):
 
 
 
-- Caratteristiche**: Integra i portafogli On-Chain e Lightning, supporta i canali ospitati, open-source con funzioni avanzate, adatto agli utenti più esperti.
+- **Caratteristiche**: Integra i portafogli On-Chain e Lightning, supporta i canali hosted, open-source con funzioni avanzate, adatto agli utenti più esperti.
 
 
 ### Matrice di gestione della custodia e della liquidità
@@ -2984,8 +2984,8 @@ I portafogli possono essere classificati in base a chi detiene le chiavi private
 
 
 
-- Portafogli depositari**: Terzi detengono le chiavi private e di solito offrono una gestione automatica della liquidità. Gli esempi includono Wallet e Satoshi.
-- Portafogli non custoditi**: Gli utenti detengono le chiavi private e possono richiedere una gestione manuale della liquidità. Ne sono un esempio Breez e OBW.
+- **Custodial Wallets**: Terzi detengono le chiavi private e di solito offrono una gestione automatica della liquidità. Gli esempi includono Wallet of Satoshi.
+- **Non-custodial Wallets**: Gli utenti detengono le chiavi private e possono richiedere una gestione manuale della liquidità. Ne sono un esempio Breez e OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -2998,9 +2998,9 @@ Nonostante i loro vantaggi, i portafogli Lightning devono affrontare diverse cri
 
 
 
-- Privacy**: I portafogli chiusi e alcuni modelli di custodia sollevano problemi di privacy.
-- Facilità d'uso**: Bilanciare le funzioni avanzate con la facilità d'uso rimane una sfida.
-- Sviluppo open-source**: Livelli diversi di contributi open-source influenzano la fiducia degli utenti e il ritmo dell'innovazione.
+- **Privacy**: I portafogli chiusi e alcuni modelli di custodia sollevano problemi di privacy.
+- **Facilità d'uso**: Bilanciare le funzioni avanzate con la facilità d'uso rimane una sfida.
+- **Sviluppo open-source**: Livelli diversi di contributi open-source influenzano la fiducia degli utenti e il ritmo dell'innovazione.
 
 
 ### Ulteriori approfondimenti e casi d'uso

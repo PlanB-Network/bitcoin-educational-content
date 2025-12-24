@@ -1,5 +1,5 @@
 ---
-name: Fondamenti dello sviluppo Bitcoin 
+name: Fondamenti dello sviluppo Bitcoin
 goal: Acquisire tutte le basi per iniziare a sviluppare su Bitcoin
 objectives:
 - Comprendere i concetti fondamentali e la tecnologia alla base di Bitcoin
@@ -2589,22 +2589,22 @@ In conclusione, la comprensione del contesto storico e delle sfide di Bitcoin, n
 Nelle nostre precedenti discussioni abbiamo trattato i fondamenti dei canali di pagamento di base. Questi canali consentono a due partecipanti, ad esempio Alice e Bob, di effettuare transazioni dirette tra loro senza soluzione di continuità. Tuttavia, questo modello presenta un limite evidente: Alice può effettuare transazioni solo con Bob e non con altri partecipanti come Charlie, a meno che non stabilisca canali separati con ciascuno di essi. Questa necessità di canali multipli porta a problemi di inefficienza e scalabilità, in quanto sarebbe poco pratico per Alice aprire un canale diretto con tutti coloro con cui ha bisogno di effettuare transazioni.
 
 
-### Luppolo centralizzato
+### Centralized hops
 
 
-Per ovviare a queste limitazioni, nel 2012 Manny Rosenfeld ha proposto il concetto di hops centralizzato. Questo modello ha introdotto processori di pagamento centralizzati, come TrustPay, per instradare i pagamenti tra gli utenti. Se da un lato questo metodo può ridurre la necessità di più canali diretti, dall'altro introduce notevoli svantaggi. Gli hops centralizzati presentano problemi di sicurezza, problemi di fiducia, violazioni della privacy, possibilità di truffe, censura e problemi di affidabilità. Gli utenti devono fidarsi di queste entità centralizzate per facilitare le loro transazioni, il che è contrario all'etica della decentralizzazione.
+Per ovviare a queste limitazioni, nel 2012 Manny Rosenfeld ha proposto il concetto di hops centralizzati. Questo modello ha introdotto processori di pagamento centralizzati, come TrustPay, per instradare i pagamenti tra gli utenti. Se da un lato questo metodo può ridurre la necessità di più canali diretti, dall'altro introduce notevoli svantaggi. Gli hops centralizzati presentano problemi di sicurezza, problemi di fiducia, violazioni della privacy, possibilità di truffe, censura e problemi di affidabilità. Gli utenti devono fidarsi di queste entità centralizzate per facilitare le loro transazioni, il che è contrario all'etica della decentralizzazione.
 
 
 ### Blocco temporale hashed Contract (HTLC) e implementazione
 
 
-I limiti e gli svantaggi degli hops centralizzati hanno richiesto una soluzione più sicura e decentralizzata. Questa esigenza ha portato allo sviluppo dell'Hashed Time Lock Contract (HTLC), proposto nel 2015 da Joseph Poon e Thaddeus Dreijer come parte del Lightning Network. Gli HTLC combinano i principi dei time lock e dei lock Hash per garantire l'atomicità e l'affidabilità delle transazioni. Ciò significa che una transazione o si completa completamente o non si verifica affatto, attenuando i rischi associati ai pagamenti incompleti.
+I limiti e gli svantaggi degli hops centralizzati hanno richiesto una soluzione più sicura e decentralizzata. Questa esigenza ha portato allo sviluppo dell'Hashed Time Lock Contract (HTLC), proposto nel 2015 da Joseph Poon e Thaddeus Dreijer come parte del Lightning Network. Gli HTLC combinano i principi dei time lock e dei hash lock per garantire l'atomicità e l'affidabilità delle transazioni. Ciò significa che una transazione o si completa o non si verifica affatto, attenuando i rischi associati ai pagamenti incompleti.
 
 
-Il flusso di lavoro di HTLC prevede un processo in più fasi che garantisce un instradamento sicuro attraverso più intermediari. Supponiamo che Alice voglia pagare Eric attraverso gli intermediari Bob, Carol e Diana. Ogni fase del processo comporta la creazione di transazioni Commitment con tempi e importi decrescenti. Se necessario, la fase finale può essere trasmessa alla rete Bitcoin per finalizzare la transazione.
+Il flusso di lavoro di HTLC prevede un processo in più fasi che garantisce un instradamento sicuro attraverso più intermediari. Supponiamo che Alice voglia pagare Eric attraverso gli intermediari Bob, Carol e Diana. Ogni fase del processo comporta la creazione di transazioni con tempi e importi decrescenti. Se necessario, la fase finale può essere trasmessa alla rete Bitcoin per finalizzare la transazione.
 
 
-In un HTLC, Alice blocca il pagamento con un Hash di una "R" segreta I Bob, Carol e Diana creano contratti simili con i loro intermediari successivi, assicurando che possano richiedere i loro fondi solo se presentano il segreto "R" corretto Questo meccanismo garantisce l'atomicità; il pagamento si completa o fallisce completamente, salvaguardando le perdite parziali dei fondi.
+In un HTLC, Alice blocca il pagamento con un hash di una "R" segreta. Bob, Carol e Diana creano contratti simili con i loro intermediari successivi, assicurando che possano richiedere i loro fondi solo se presentano il segreto "R" corretto. Questo meccanismo garantisce l'atomicità; il pagamento si completa o fallisce completamente, salvaguardando le perdite parziali dei fondi.
 
 
 ![Hash lock](assets/en/045.webp)_Hash lock function_
@@ -2640,7 +2640,7 @@ Gli intermediari come Diana e Carol sono incentivati ad agire correttamente all'
 ### Considerazioni pratiche
 
 
-Tuttavia, un maggior numero di salti nel percorso di pagamento può aumentare la latenza, le tariffe e la potenziale inaffidabilità. L'apertura di più canali può contribuire a ridurre il numero di salti necessari per l'instradamento, migliorando l'efficienza complessiva.
+Tuttavia, un maggior numero di hops nel percorso di pagamento può aumentare la latenza, le tariffe e la potenziale inaffidabilità. L'apertura di più canali può contribuire a ridurre il numero di hops necessari per l'instradamento, migliorando l'efficienza complessiva.
 
 
 #### Grafico del canale e liquidità
@@ -2652,7 +2652,7 @@ I nodi all'interno della rete possono far parte di un grafo di canali annunciati
 #### Routing della sorgente e privacy
 
 
-Il Alice deve conoscere la topologia della rete per decidere il percorso di pagamento. L'instradamento alla fonte viene utilizzato per preservare la privacy nonostante la complessità dell'instradamento dei pagamenti attraverso più intermediari.
+Alice deve conoscere la topologia della rete per decidere il percorso di pagamento. L'instradamento alla fonte viene utilizzato per preservare la privacy nonostante la complessità dell'instradamento dei pagamenti attraverso più intermediari.
 
 
 ![Source Routing](assets/en/047.webp)_Source Routing Path_
@@ -2661,7 +2661,7 @@ Il Alice deve conoscere la topologia della rete per decidere il percorso di paga
 #### Conclusione
 
 
-In sintesi, il corretto funzionamento dei nodi garantisce pagamenti atomici e il Lightning Network mira a Address risolvere molti dei problemi affrontati dai sistemi di pagamento tradizionali come Ripple. Sfruttando gli HTLC e il routing strategico, il Lightning Network fornisce una soluzione più scalabile, efficiente e sicura per i pagamenti decentralizzati.
+In sintesi, il corretto funzionamento dei nodi garantisce pagamenti atomici e il Lightning Network mira a risolvere molti dei problemi affrontati dai sistemi di pagamento tradizionali come Ripple. Sfruttando gli HTLC e il routing strategico, il Lightning Network fornisce una soluzione più scalabile, efficiente e sicura per i pagamenti decentralizzati.
 
 
 ## Recensione di Bolt

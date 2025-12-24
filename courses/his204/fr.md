@@ -302,11 +302,11 @@ L’idéal de politique économique qu’il défendait s’inscrivait donc contr
 
 Cette vision du rôle de l’État face à l’activité économique s’illustrait naturellement dans l’étude des deux grandes questions qui remuèrent les économistes et les penseurs sociaux de son temps : la réglementation de l’industrie et le commerce du blé.
 
-Les règlements sur l’industrie, d’abord, obtenaient tout son ressentiment, parce qu’ils étaient des privilèges pour les uns aux dépens des autres. "La vraie cause du déclin de nos fabriques, écrivait-il, c’est la protection outrée qu’on leur accorde". Et c’est avec un credo non moins vif qu’il exprimait sa critique face au zèle dirigiste des hommes d’état de son temps : 
+Les règlements sur l’industrie, d’abord, obtenaient tout son ressentiment, parce qu’ils étaient des privilèges pour les uns aux dépens des autres. "La vraie cause du déclin de nos fabriques, écrivait-il, c’est la protection outrée qu’on leur accorde". Et c’est avec un credo non moins vif qu’il exprimait sa critique face au zèle dirigiste des hommes d’État de son temps : 
 
 > Diriger l’industrie malgré elle, c’est vouloir sa ruine.
 
-Sur la question du commerce des subsistances, d’Argenson n’avait pas d’autre réponse que la liberté. Les disettes de froment venaient selon lui du monopole et des précautions abusives que prenait le gouvernement. Il suffisait qu’on laisse faire, et il n’arriverait jamais de disette de blé dans un pays où les ports seront ouverts ; les étrangers, attiré comme tous les autres hommes par l’appât du gain, nous fourniraient le nécessaire et emporteraient notre surplus. "Laissez libre, disait-il, et tout ira bien."
+Sur la question du commerce des subsistances, le Marquis d’Argenson n’avait pas d’autre réponse que la liberté. Les disettes de froment venaient selon lui du monopole et des précautions abusives que prenait le gouvernement. Il suffisait qu’on laisse faire, et il n’arriverait jamais de disette de blé dans un pays où les ports seront ouverts ; les étrangers, attirés comme tous les autres hommes par l’appât du gain, nous fourniraient le nécessaire et emporteraient notre surplus. "Laissez libre, disait-il, et tout ira bien."
 
 ## Vincent de Gournay
 <chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
@@ -327,7 +327,7 @@ On a de lui (1) des Remarques sur une traduction d’un ouvrage de l’économis
 
 
 
-et (3) des "Observations sur la compagnie des Indes" jointes par l’abbé Morellet à son Mémoire sur la situation actuelle de la compagnie des Indes (1769). 
+et (3) des "Observations sur la compagnie des Indes" jointes par l’Abbé Morellet à son Mémoire sur la situation actuelle de la compagnie des Indes (1769). 
 
 
 
@@ -366,7 +366,7 @@ Comme nous l’avons vu lors de la précédente leçon, Gournay était fasciné 
 
 C’est ce qui l’incita à traduire et à faire traduire ces écrits économiques.
 
-Or il s’avérait que sa position dans la haute administration permettait à Gournay d’entrer en contact avec tous les spécialistes de l’économie que connaissait la France de l’époque. C’est ainsi qu’il constitua un groupe de traducteurs extrêmement capables. Gournay traduisit lui-même Child et Culpeper ; l’abbé Le Blanc traduisit les Discours politique de David Hume ; Véron de Forbonnais traduisit l’espagnol Geronymo de Uztariz ; Turgot traduisit Tucker ; Montesquieu fils traduisit Joshua Gee.
+Or il s’avérait que sa position dans la haute administration permettait à Gournay d’entrer en contact avec tous les spécialistes de l’économie que connaissait la France de l’époque. C’est ainsi qu’il constitua un groupe de traducteurs extrêmement capables. Gournay traduisit lui-même Child et Culpeper ; l’Abbé Le Blanc traduisit les Discours politiques de David Hume ; Véron de Forbonnais traduisit l’espagnol Geronymo de Uztariz ; Turgot traduisit Tucker ; Montesquieu fils traduisit Joshua Gee.
 
 Grâce à la collaboration de plusieurs membres du cercle de Gournay, de nombreux auteurs publièrent aussi des écrits sous leur nom. Ces livres, ainsi que les traductions, eurent un véritable succès. On peut citer notamment l’Essai sur la police générale des grains de Herbert (6 éditions en 4 ans),
 
@@ -382,19 +382,19 @@ On doit aussi au cercle de Gournay d’avoir lancé la publication de l’Essai 
 
 ![image](assets/fr/034.webp)
 
-Ce livre, composé vers 1730, était resté à l’état de manuscrit à la mort de l’auteur. C’est Gournay, aidé par ses amis économistes, qui en assura la publication en 1755. Selon l’abbé Morellet, membre du cercle, Gournay en recommanda la lecture à tous les économistes qu’il connaissait.
+Ce livre, composé vers 1730, était resté à l’état de manuscrit à la mort de l’auteur. C’est Gournay, aidé par ses amis économistes, qui en assura la publication en 1755. Selon l’Abbé Morellet, membre du cercle, Gournay en recommanda la lecture à tous les économistes qu’il connaissait.
 
 Ces productions intellectuelles du cercle de Gournay ont eu un impact considérable sur l’histoire des idées. À ce titre, le cercle de Gournay est à placer aux origines de la science économique en France. Christine Théré, de l’INED, a travaillé sur les publications économiques dans l’histoire, et elle montre que pas moins de 349 ouvrages d’économie furent publiés entre 1750 et 1759, contre seulement 83 entre 1740 et 1749. Cette révolution, dans la décennie 1750, est à mettre en grande partie au crédit du cercle de Gournay.
 
 ![image](assets/fr/035.webp)
 
-Pour diffuser le goût des discussions économiques dans la population française, Gournay et ses amis travaillèrent à rendre ces questions accessibles en utilisant le roman. C’est ainsi qu’après un Mémoire sur les corps de métiers, critiquant les corporations, Gournay et Cliquot-Blervache aidèrent l’abbé Coyer à écrire le texte connu sous le nom de Chinki : histoire cochinchinoise applicable à d’autres pays. 
+Pour diffuser le goût des discussions économiques dans la population française, Gournay et ses amis travaillèrent à rendre ces questions accessibles en utilisant le roman. C’est ainsi qu’après un Mémoire sur les corps de métiers, critiquant les corporations, Gournay et Cliquot-Blervache aidèrent l’Abbé Coyer à écrire le texte connu sous le nom de Chinki : histoire cochinchinoise applicable à d’autres pays. 
 
 ![image](assets/fr/036.webp)
 
 Il s’agit d’un court roman dans lequel le personnage principal, Chinki, abandonne ses terres à cause de la fiscalité excessive et cherche à trouver un travail artisanal pour ses enfants en ville. Or tous les métiers leur sont fermés à cause des règlements abusifs des corporations et il va ainsi de déception en déception, le tout avec humour.
 
-Le cercle de Gournay est donc à l’origine d’une intense activité de publication. Si cet apport majeur a été oublié par les historiens de la pensée économique, il était très clair dans l’esprit des contemporains. Les physiocrates, qui structurent leur école dans la décennie 1760, présenteront le groupe de Gournay comme des précurseurs directs. En 1767, l’économiste Jacques Accarias de Serionne sera encore plus clair dans son éloge. Il écrit : "Un petit nombre de français, également philosophes et citoyens, commencèrent il y a quelques années à imiter les écrivains anglais. Ils traduisirent d’abord leurs modèles, et les ont bientôt surpassés en beaucoup de choses. Ils ont employés tous les agréments, toutes les richesses de la littérature, à traiter des choses utiles ; ils ont fait naître et répandu le goût des sciences les plus nécessaires à la prospérité de l’État." Et en effet, dans la décennie 1750, les questions économiques sont devenues à la mode. On connaît le mot de Voltaire, selon lequel vers 1750 les Français ont abandonné les romans pour discuter de la liberté du commerce des blés. C’est aussi ce qu’observait le Mercure de France. On lit dans un numéro de 1758, quelques mois avant la mort de Gournay : "L’économie politique est aujourd’hui la science à la mode. Les livres qui traitent de l’Agriculture, de la population, de l’industrie, du commerce et des finances, sont dans les mains d’une infinité de personnes qui, naguère, ne feuilletaient que des romans." On ne pouvait donner meilleur hommage à Gournay et à l’activité de son cercle d’économistes.
+Le cercle de Gournay est donc à l’origine d’une intense activité de publication. Si cet apport majeur a été oublié par les historiens de la pensée économique, il était très clair dans l’esprit des contemporains. Les physiocrates, qui structurent leur école dans la décennie 1760, présenteront le groupe de Gournay comme des précurseurs directs. En 1767, l’économiste Jacques Accarias de Serionne sera encore plus clair dans son éloge. Il écrit : "Un petit nombre de français, également philosophes et citoyens, commencèrent il y a quelques années à imiter les écrivains anglais. Ils traduisirent d’abord leurs modèles, et les ont bientôt surpassés en beaucoup de choses. Ils ont employé tous les agréments, toutes les richesses de la littérature, à traiter des choses utiles ; ils ont fait naître et répandu le goût des sciences les plus nécessaires à la prospérité de l’État." Et en effet, dans la décennie 1750, les questions économiques sont devenues à la mode. On connaît le mot de Voltaire, selon lequel vers 1750 les Français ont abandonné les romans pour discuter de la liberté du commerce des blés. C’est aussi ce qu’observait le Mercure de France. On lit dans un numéro de 1758, quelques mois avant la mort de Gournay : "L’économie politique est aujourd’hui la science à la mode. Les livres qui traitent de l’Agriculture, de la population, de l’industrie, du commerce et des finances, sont dans les mains d’une infinité de personnes qui, naguère, ne feuilletaient que des romans." On ne pouvait donner meilleur hommage à Gournay et à l’activité de son cercle d’économistes.
 
 ## Mirabeau
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
@@ -409,7 +409,7 @@ Par son talent et sa place dans l’histoire de France, il a fait oublier son p�
 
 ![image](assets/fr/038.webp)
 
-Le marquis de Mirabeau avait d’ailleurs connu une immense célébrité avant même son adhésion à la Physiocratie. C’était en 1757, un an avant sa rencontre avec Quesnay, de par un livre intitulé L’Ami des Hommes. Traité de la population. 
+Le Marquis de Mirabeau avait d’ailleurs connu une immense célébrité avant même son adhésion à la Physiocratie. C’était en 1757, un an avant sa rencontre avec Quesnay, de par un livre intitulé L’Ami des Hommes. Traité de la population. 
 
 
 

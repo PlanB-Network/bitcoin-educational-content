@@ -734,9 +734,9 @@ L'artiste derrière ce Notgeld semble adresser une critique ironique envers les 
 
 À Weimar, certaines dettes ont été réévaluées pour compenser l'impact de l'inflation. Cette mesure n'a pas été adoptée au Zimbabwe.
 
-> Weimar: "Une décision visant à réévaluer les emprunts propres du gouvernement est devenue loi en 1925, ce qui a abouti à ce que les actionnaires reçoivent 2,5 pour cent de leur investissement initial sous réserve que toutes les réparations aient été payées."
+> Weimar : "Une décision visant à réévaluer les emprunts propres du gouvernement est devenue loi en 1925, ce qui a abouti à ce que les actionnaires reçoivent 2,5 pour cent de leur investissement initial, sous réserve que toutes les réparations aient été payées."
 
-> Zimbabwe: "En juillet 2007 (trois ans plus tard), je pouvais sortir de ma poche un billet dévalué de ZDW 500 000 (bt "000"), maintenant d'une valeur de 1,67 dollars au taux du marché parallèle, et rembourser le prêt hypothécaire, qui était censé être remboursé en vingt ans. De plus, ce billet ne représentait que 0,49 pour cent de mon salaire mensuel du même mois."
+> Zimbabwe : "En juillet 2007 (trois ans plus tard), je pouvais sortir de ma poche un billet dévalué de ZDW 500 000 (bt "000"), maintenant d'une valeur de 1,67 dollars au taux du marché parallèle, et rembourser le prêt hypothécaire, qui était censé être remboursé en vingt ans. De plus, ce billet ne représentait que 0,49 pour cent de mon salaire mensuel du même mois."
 
 Pour en apprendre plus sur la gestion de la crise allemande ce livre est également fondamental.
 

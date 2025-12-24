@@ -72,7 +72,7 @@ Cette affirmation souligne la relation intrinsèque entre l'expansion monétaire
 Quand on évoque le phénomène monétaire, on fait référence à la manière dont la masse monétaire d'une économie est influencée. Milton Friedman y voyait essentiellement un accroissement de cette masse. Il y a historiquement deux principales méthodes pour augmenter la masse monétaire :
 
 1. Impression Monétaire:
-   Dans les systèmes monétaires traditionnels, l'accroissement de la masse monétaire était réalisé en imprimant physiquement de nouveaux billets. Bien que de nos jours, avec la prédominance de la monnaie numérique, cette impression soit principalement électronique (à travers les bases de données des banques centrales et autres institutions financières), l'histoire nous montre des périodes où la littérale impression de billets a engendré de l'hyperinflation.
+   Dans les systèmes monétaires traditionnels, l'accroissement de la masse monétaire était réalisé en imprimant physiquement de nouveaux billets. Bien que, de nos jours, avec la prédominance de la monnaie numérique, cette impression soit principalement électronique (à travers les bases de données des banques centrales et autres institutions financières), l'histoire nous montre des périodes où la littérale impression de billets a engendré de l'hyperinflation.
 
 2. Réduction du contenu métallique:
    Une autre méthode consistait à réduire la quantité de métal précieux dans les monnaies basées sur des métaux tels que l'argent ou l'or. Un exemple frappant se trouve dans l'Empire romain, où le denarius, initialement composé presque entièrement d'argent, a vu sa teneur en argent drastiquement diminuée au fil du temps. Cela équivalait à une forme d'inflation, mais pas nécessairement à une hyperinflation.
@@ -95,7 +95,7 @@ Gravure représentant le massacre des Athéniens sur les rives de l'Assinaros.
 
 #### 2. Rome Antique durant l'Empire:
 
-Après l'ère de la République Romaine, durant l'Empire, les 3e et 4e siècles ont connu une dévaluation monétaire notable. C'est illustré par la diminution de la teneur en argent des pièces, comme nous l'avons vu dans le graphique précédent. Une étude montre que le prix du blé en Égypte, mesuré en drachma, a grimpé d'un facteur d'un million sur une période d'environ 300 ans, allant de 40 à 360 après Jésus-Christ. Sur cette durée, cela représente une inflation annuelle moyenne d'environ 4,4%. Cependant, cette inflation n'était pas répartie uniformément. Elle a véritablement débuté autour de 238 après Jésus-Christ. De 250 à 293 après Jésus-Christ, le taux d'inflation était d'environ 3,65%, et il est passé à 22,28% entre 293 et 301 après Jésus-Christ.
+Après l'ère de la République Romaine, durant l'Empire, les 3ᵉ et 4ᵉ siècles ont connu une dévaluation monétaire notable. C'est illustré par la diminution de la teneur en argent des pièces, comme nous l'avons vu dans le graphique précédent. Une étude montre que le prix du blé en Égypte, mesuré en drachma, a grimpé d'un facteur d'un million sur une période d'environ 300 ans, allant de 40 à 360 après Jésus-Christ. Sur cette durée, cela représente une inflation annuelle moyenne d'environ 4,4%. Cependant, cette inflation n'était pas répartie uniformément. Elle a véritablement débuté autour de 238 après Jésus-Christ. De 250 à 293 après Jésus-Christ, le taux d'inflation était d'environ 3,65 %, et il est passé à 22,28% entre 293 et 301 après Jésus-Christ.
 
 Bien que ces périodes aient connu une inflation significative, elles n'ont pas atteint les niveaux d'hyperinflation que nous pouvons observer dans certaines situations modernes. La raison en est que, même si la monnaie était dévaluée, elle était toujours basée sur des métaux précieux. Le fait qu'il fallait frapper les pièces a offert une certaine protection contre les niveaux extrêmes d'inflation. Dans les sections suivantes, nous explorerons plus en détail la nature et les conséquences de l'hyperinflation.
 
@@ -104,14 +104,14 @@ Bien que ces périodes aient connu une inflation significative, elles n'ont pas 
 - Le Denarius de Marque Aurel (160 après Jésus-Christ):
   L'une des pièces les plus emblématiques de la Rome antique est le denarius, une monnaie en argent. Je possède une pièce spécifique de Marque Aurel datant de 160 après Jésus-Christ, avant la majorité de la dévaluation. Bien que la caméra puisse avoir du mal à saisir les détails fins, à l'œil nu, on peut voir que c'est une belle pièce en argent, reflétant une teneur en argent relativement élevée.
 
-- L'Antononianus (fin du 3e siècle après Jésus-Christ):
+- L'Antononianus (fin du 3ᵉ siècle après Jésus-Christ):
   Avec la dévaluation monétaire, une nouvelle monnaie, l'Antononianus, a fait son apparition. Cette monnaie était censée valoir deux deniers, mais contenait beaucoup moins d'argent. Ma pièce d'Antononianus montre clairement que la teneur en argent a été considérablement réduite. Elle est ornée d'une couronne, typique des monnaies romaines de cette époque, appelée "radiates". En comparant la couleur et la qualité, on voit que l'Antononianus est loin d'être une pièce en argent pur.
 
-En comparant les deux pièces côte à côte, la différence est flagrante. Le denarius de 160 après Jésus-Christ a une apparence argentée distincte, alors que l'Antononianus de la fin du 3e siècle après Jésus-Christ est bien plus terne, indiquant une diminution significative de la teneur en argent. Cette comparaison visuelle offre une illustration claire de la dévaluation monétaire que la Rome antique a subie en quelques siècles.
+En comparant les deux pièces côte à côte, la différence est flagrante. Le denarius de 160 après Jésus-Christ a une apparence argentée distincte, alors que l'Antononianus de la fin du 3ᵉ siècle après Jésus-Christ est bien plus terne, indiquant une diminution significative de la teneur en argent. Cette comparaison visuelle offre une illustration claire de la dévaluation monétaire que la Rome antique a subie en quelques siècles.
 
 ![image](assets/fr/005.webp)
 
-Pour compléter cette démonstration, un graphique illustrant la dévaluation de ces pièces au fil du temps serait idéal. Bien que difficile à visualiser à travers cette plateforme, imaginez un graphique montrant la valeur du denarius, puis sa chute vers la fin du 2e siècle, remplacé par l'Antononianus supposé valoir deux deniers mais avec une teneur en argent bien moindre. Ces artefacts sont des témoins silencieux des fluctuations économiques de civilisations passées.
+Pour compléter cette démonstration, un graphique illustrant la dévaluation de ces pièces au fil du temps serait idéal. Bien que difficile à visualiser à travers cette plateforme, imaginez un graphique montrant la valeur du denarius, puis sa chute vers la fin du 2ᵉ siècle, remplacé par l'Antononianus supposé valoir deux deniers mais avec une teneur en argent bien moindre. Ces artefacts sont des témoins silencieux des fluctuations économiques de civilisations passées.
 
 #### 3. Le Maravédis Espagnol : Témoin d'une Dévaluation Ciblée
 
@@ -131,19 +131,19 @@ Le cas du Maravédis illustre comment un État peut dévaluer sélectivement une
 
 [Voir une collection de pièces](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
-#### 4. Révolution des prix du 15e au 17e siècle
+#### 4. Révolution des prix du 15ᵉ au 17ᵉ siècle
 
-Entre le 15e et le 17e siècle, l'Europe a été témoin d'un phénomène économique remarquable, souvent décrit comme la "révolution des prix". Cette période d'inflation a été en grande partie déclenchée par un afflux massif de métaux précieux, notamment l'or et l'argent, provenant des Amériques. Avec une économie européenne alors largement basée sur l'étalon métallique, cet apport supplémentaire de métaux a augmenté la masse monétaire. En conséquence, une inflation d'environ 1 à 2 % par an s'est manifestée. À première vue, cette inflation pourrait sembler modeste. Toutefois, à cette époque, une telle fluctuation des prix était suffisamment inhabituelle pour être considérée comme une "révolution". Cela met en évidence à quel point des changements dans les réserves monétaires peuvent influencer le système économique dans son ensemble.
+Entre le 15ᵉ et le 17ᵉ siècle, l'Europe a été témoin d'un phénomène économique remarquable, souvent décrit comme la "révolution des prix". Cette période d'inflation a été en grande partie déclenchée par un afflux massif de métaux précieux, notamment l'or et l'argent, provenant des Amériques. Avec une économie européenne alors largement basée sur l'étalon métallique, cet apport supplémentaire de métaux a augmenté la masse monétaire. En conséquence, une inflation d'environ 1 à 2 % par an s'est manifestée. À première vue, cette inflation pourrait sembler modeste. Toutefois, à cette époque, une telle fluctuation des prix était suffisamment inhabituelle pour être considérée comme une "révolution". Cela met en évidence à quel point des changements dans les réserves monétaires peuvent influencer le système économique dans son ensemble.
 
 #### 5. John Law et les assignats
 
-Au 18e siècle, l'histoire économique française a été marquée par deux événements significatifs liés à la monnaie. Tout d'abord, John Law, un économiste et financier écossais, a persuadé le gouvernement français d'adopter un système monétaire basé sur la monnaie papier. Bien qu'initialement considérée comme une solution innovante aux problèmes financiers du pays, cette initiative a rapidement conduit à une inflation galopante. Puis, peu de temps après, lors des tumultes de la Révolution française, le gouvernement a introduit les "assignats".
+Au 18ᵉ siècle, l'histoire économique française a été marquée par deux événements significatifs liés à la monnaie. Tout d'abord, John Law, un économiste et financier écossais, a persuadé le gouvernement français d'adopter un système monétaire basé sur la monnaie papier. Bien qu'initialement considérée comme une solution innovante aux problèmes financiers du pays, cette initiative a rapidement conduit à une inflation galopante. Puis, peu de temps après, lors des tumultes de la Révolution française, le gouvernement a introduit les "assignats".
 
 ![image](assets/fr/008.webp)
 
 Assignats de 1793
 
-Ces billets sont un témoignage vivant de la première grande période d'hyperinflation de l'histoire. Initialement conçus comme une réponse aux crises financières successives, les assignats sont rapidement devenus un symbole de l'instabilité monétaire. Le gouvernement, en s'appuyant excessivement sur cette monnaie papier pour financer ses dépenses, a engendré une crise économique sans précédent et a a créé une grande période d'hyperinflation en France après la révolution.
+Ces billets sont un témoignage vivant de la première grande période d'hyperinflation de l'histoire. Initialement conçus comme une réponse aux crises financières successives, les assignats sont rapidement devenus un symbole de l'instabilité monétaire. Le gouvernement, en s'appuyant excessivement sur cette monnaie papier pour financer ses dépenses, a engendré une crise économique sans précédent et a créé une grande période d'hyperinflation en France après la révolution.
 
 #### 6. L'Ordre exécutif 6102 et la Dévaluation du Dollar
 
@@ -183,7 +183,7 @@ En résumé, en l'espace d'une année, le gouvernement a effectivement saisi l'o
 
 Les États-Unis ont marqué un tournant historique en devenant les premiers à dévaluer la monnaie de réserve mondiale, le dollar américain, contrairement aux pratiques antérieures observées chez les petites nations commerçantes.
 
-Auparavant, durant la Renaissance, le florin italien émis par Florence au XIIIe siècle était la monnaie de réserve internationale, et aucune dévaluation n'avait été enregistrée durant sa période d'usage, reflétant l'importance de la stabilité monétaire pour le commerce international.
+Auparavant, durant la Renaissance, le florin italien émis par Florence au XIIIᵉsiècle était la monnaie de réserve internationale, et aucune dévaluation n'avait été enregistrée durant sa période d'usage, reflétant l'importance de la stabilité monétaire pour le commerce international.
 
 Dans le même esprit, l'Espagne et les Pays-Bas, en tant que détenteurs de la monnaie de réserve mondiale grâce à leur commerce international florissant, maintenaient l'intégrité de leur monnaie pour préserver la confiance et le statu quo dans les échanges internationaux. Les Pays-Bas ont même été le théâtre de la création de la première banque centrale, un jalon crucial dans l'évolution monétaire globale.
 
@@ -201,7 +201,7 @@ Cependant, les guerres du Golfe marquèrent un tournant dans l'histoire du Swiss
 
 ![image](assets/fr/015.webp)
 
-Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie, et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
+Un phénomène distinctif émergea dans l'économie irakienne post-guerre du Golfe : le système de double prix. Les commerçants proposaient des prix différents selon le type de billet utilisé pour le paiement, favorisant le Swiss Dinar original au détriment du billet chinois. Ce système reflétait la confiance maintenue envers les billets de meilleure qualité, moins susceptibles de dévaluation, même dans un contexte où la valeur était principalement imposée par l'État. Cet épisode démontre l'importance des caractéristiques intrinsèques de la monnaie et comment, même dans un régime de monnaie fiat, la qualité perçue d'une monnaie peut influencer sa valeur relative et, par extension, la confiance des acteurs économiques.
 
 #### Oui, on pesait vraiment les pieces !
 

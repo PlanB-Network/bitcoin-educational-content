@@ -16,7 +16,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Langkah pertama dalam menggunakan Kraken untuk mengelola keuangan perusahaan Anda, tentu saja, adalah membuat akun. Di sini, kami tidak akan membuat akun untuk individu, tetapi akun perusahaan, yang tidak hanya memastikan kepatuhan terhadap peraturan, tetapi juga menawarkan fitur-fitur yang dirancang khusus seperti ekspor akuntansi.
 
-Kunjungi situs web resmi [kraken.com] (https://www.kraken.com/) dan klik tombol "*Daftar*".
+Kunjungi situs web resmi [kraken.com](https://www.kraken.com/) dan klik tombol "*Daftar*".
 
 ![KRAKEN](assets/fr/01.webp)
 

@@ -12,7 +12,7 @@ _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampu
 
 Satoshi:n Wallet on Lightning Network Wallet, huoltajuus, ja se on hyvin helppokäyttöinen.
 
-Kurssilla [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
+Kurssilla [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
 
 
 **Aina muista**: ei avaimia, ei kolikoita

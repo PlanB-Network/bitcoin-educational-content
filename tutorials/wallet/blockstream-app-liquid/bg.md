@@ -149,7 +149,7 @@ Liquid разчита на **федерация** от доверени учас
 
 
 - За **Андроид**:
-    - Изтеглете [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) от Google Play Store.
+    - Изтеглете [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) от Google Play Store.
     - Алтернатива: Инсталирайте чрез APK файла, наличен в [официалния GitHub на Blockstream](https://github.com/Blockstream/green_android).
 - За **iOS**:
     - Изтеглете [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) от App Store.

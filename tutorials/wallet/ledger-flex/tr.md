@@ -52,7 +52,7 @@ Test ettikten sonra ürünün kalitesinden çok etkilendim. Kullanıcı deneyimi
 ## Ledger Flex Nasıl Satın Alınır?
 
 
-Ledger Flex [resmi web sitesinden] (https://shop.Ledger.com/pages/Ledger-flex) satın alınabilir. Fiziksel bir mağazadan satın almak için, Ledger web sitesinde [sertifikalı satıcıların listesini] (https://www.Ledger.com/reseller) de bulabilirsiniz.
+Ledger Flex [resmi web sitesinden](https://shop.Ledger.com/pages/Ledger-flex) satın alınabilir. Fiziksel bir mağazadan satın almak için, Ledger web sitesinde [sertifikalı satıcıların listesini](https://www.Ledger.com/reseller) de bulabilirsiniz.
 
 
 ## Ön Koşullar

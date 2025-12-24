@@ -48,7 +48,7 @@ Mooniga on teil tõeline sild teie bitcoinide ja Visa kaardimakse süsteemi vahe
 
 
 
-Mine Mooni [ametlikule platvormile] (https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
+Mine Mooni [ametlikule platvormile](https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
 
 
 

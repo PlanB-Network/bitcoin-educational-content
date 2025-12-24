@@ -142,7 +142,7 @@ A partir desta página, é possível saber em que bloco a transação foi inclu�
 
 
 
-O Liquid Network é um [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) e uma solução de código aberto de nível 2 para o protocolo Bitcoin. Em particular, permite transacções de bitcoin mais rápidas e mais confidenciais.
+O Liquid Network é um [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) e uma solução de código aberto de nível 2 para o protocolo Bitcoin. Em particular, permite transacções de bitcoin mais rápidas e mais confidenciais.
 
 
 

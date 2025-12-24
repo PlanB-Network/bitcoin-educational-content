@@ -74,7 +74,7 @@ Yazılım tarafında ise COLDCARD Q, Coinkite'ın diğer cihazları gibi bir diz
 Kısacası, COLDCARD Q, MK4'e göre gelişmiş bir kullanıcı deneyimi sunuyor ve daha fazla kullanım kolaylığı arayan orta ve ileri düzey kullanıcılar için ideal olabilir.
 
 
-COLDCARD Q [resmi Coinkite web sitesinde] (https://store.coinkite.com/store/coldcard) satışa sunulmuştur. Ayrıca bir perakendeciden de satın alınabilir.
+COLDCARD Q [resmi Coinkite web sitesinde](https://store.coinkite.com/store/coldcard) satışa sunulmuştur. Ayrıca bir perakendeciden de satın alınabilir.
 
 
 ## Eğitimin hazırlanması
@@ -220,7 +220,7 @@ COLDCARD'ınızın mevcut aygıt yazılımı sürümünü kontrol edebilirsiniz.
 ![CCQ](assets/fr/019.webp)
 
 
-Daha yeni bir sürümün mevcut olup olmadığını görmek için [resmi COLDCARD web sitesinde] (https://coldcard.com/downloads) kontrol edin. Yeni aygıt yazılımını indirmek için "*İndir*" üzerine tıklayın.
+Daha yeni bir sürümün mevcut olup olmadığını görmek için [resmi COLDCARD web sitesinde](https://coldcard.com/downloads) kontrol edin. Yeni aygıt yazılımını indirmek için "*İndir*" üzerine tıklayın.
 
 
 ![CCQ](assets/fr/020.webp)

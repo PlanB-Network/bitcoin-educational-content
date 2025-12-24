@@ -10,7 +10,7 @@ Tätä varten käyttäjät toimittavat koordinaattorille syötteensä ja salatun
 
 Tällä menetelmällä varmistetaan, että koordinaattori ei voi vaarantaa osallistujien anonymiteettiä eikä varastaa bitcoineja koko coinjoin-prosessin aikana.
 
-On vaikea määritellä varmasti, kuka esitteli ensimmäisenä Bitcoinin coinjoinin idean ja kuka sai idean käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell keskusteli asiasta ensimmäisenä [BitcoinTalkin viestissä vuonna 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+On vaikea määritellä varmasti, kuka esitteli ensimmäisenä Bitcoinin coinjoinin idean ja kuka sai idean käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell keskusteli asiasta ensimmäisenä [BitcoinTalkin viestissä vuonna 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 > *"Käyttämällä Chaumin sokeaa allekirjoitusta: Käyttäjät muodostavat yhteyden ja antavat syötteet (ja vaihtavat osoitteita) sekä kryptografisesti sokean version osoitteesta, johon he haluavat lähettää yksityiset kolikkonsa; palvelin allekirjoittaa merkit ja palauttaa ne. Käyttäjät yhdistyvät uudelleen nimettöminä, paljastavat lähtöosoitteensa ja palauttavat ne palvelimelle. Palvelin näkee, että hän on allekirjoittanut kaikki lähetykset ja että kaikki lähetykset ovat siis peräisin päteviltä osallistujilta. Myöhemmin ihmiset ottavat uudelleen yhteyden ja allekirjoittavat." *
 Maxwell, G. (2013, 22. elokuuta). *CoinJoin: Bitcoinin yksityisyys reaalimaailmassa*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0

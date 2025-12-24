@@ -20,7 +20,7 @@ Det återstod dock ett stort problem mellan Bitcoin-protokollets lager: interope
 
 
 
-[Boltz] (https://boltz.Exchange) är en plattform utan förvaring som är idealisk för alla som vill göra transaktioner mellan de olika lagren i Bitcoin-protokollet:
+[Boltz](https://boltz.Exchange) är en plattform utan förvaring som är idealisk för alla som vill göra transaktioner mellan de olika lagren i Bitcoin-protokollet:
 
 
 

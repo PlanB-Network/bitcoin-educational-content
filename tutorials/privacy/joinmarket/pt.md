@@ -35,7 +35,7 @@ Pode acompanhar o episódio nestas ligações diretas:
 
 
 
-- [Spotify] (https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
+- [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
 - [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (aqui pode ouvir diretamente a partir do browser).
@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-se aparecer um erro, é muito provável que tenhamos definido incorretamente os 4 campos RPC especificados acima. Neste caso, poderá ser útil seguir [este guia] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) que se encontra na documentação original do JoinMarket.
+se aparecer um erro, é muito provável que tenhamos definido incorretamente os 4 campos RPC especificados acima. Neste caso, poderá ser útil seguir [este guia](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) que se encontra na documentação original do JoinMarket.
 
 
 
@@ -491,4 +491,4 @@ Feliz mistura de tartarugas!🐢 💚
 
 
 
-[Aqui] (https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) pode apoiar o Turtlecute
+[Aqui](https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) pode apoiar o Turtlecute

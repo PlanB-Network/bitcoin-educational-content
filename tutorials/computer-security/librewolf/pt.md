@@ -446,8 +446,8 @@ Embora tenha certas limitações (sem actualizações automáticas, compatibilid
 
 
 
-- [Guias de privacidade] (https://www.privacyguides.org/en/desktop-browsers/)
-- [Testes comparativos de privacidade] (https://privacytests.org)
+- [Guias de privacidade](https://www.privacyguides.org/en/desktop-browsers/)
+- [Testes comparativos de privacidade](https://privacytests.org)
 
 
 

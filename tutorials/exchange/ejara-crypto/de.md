@@ -32,8 +32,8 @@ Gehen Sie zu Ihrem Anwendungsspeicher und laden Sie **Ejara Crypto** herunter:
 
 
 
-- [Für Android] (https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
-- [Für Apple] (https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
+- [Für Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
+- [Für Apple](https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
 
 
 
@@ -537,7 +537,7 @@ Sobald Sie Ihre ersten on-chain-Bitcoins oder eine größere Menge an Satoshis e
 
 
 
-Wenn Sie noch nicht wissen, wie man ein Bitcoin-Portfolio verwendet, lade ich Sie ein, [den Abschnitt "Wallet" auf der Plan ₿ Academy] (https://planb.academy/tutorials/wallet) zu erkunden.
+Wenn Sie noch nicht wissen, wie man ein Bitcoin-Portfolio verwendet, lade ich Sie ein, [den Abschnitt "Wallet" auf der Plan ₿ Academy](https://planb.academy/tutorials/wallet) zu erkunden.
 
 
 
@@ -644,7 +644,7 @@ Da das Ziel darin besteht, Ersparnisse zu digitalisieren und Investitionen in di
 
 
 
-Sie können eine Anfrage direkt in der App senden oder den sehr fleißigen [Kundensupport] (https://t.me/EjaraCSbot) über Telegram kontaktieren.
+Sie können eine Anfrage direkt in der App senden oder den sehr fleißigen [Kundensupport](https://t.me/EjaraCSbot) über Telegram kontaktieren.
 
 
 

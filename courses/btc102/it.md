@@ -2221,7 +2221,7 @@ Un piano ben congegnato non serve solo a trasferire il patrimonio, ma anche a pr
 
 Questo capitolo si ispira al lavoro di [Pamela Morgan](https://x.com/pamelawjd). [Il suo libro](https://www.amazon.com/gp/product/1947910116/) spiega un metodo dettagliato e convalidato da esperti per creare un piano ereditario, ma **questo contenuto non costituisce una consulenza legale**.  Si tratta di un approccio collaudato, ma ogni persona dovrebbe fare le proprie ricerche e adattare le raccomandazioni alla propria situazione personale e alla propria giurisdizione.
 
-[Pamela Morgan] (https://x.com/pamelawjd) ha generosamente autorizzato l'uso del [suo lavoro] (https://www.amazon.com/gp/product/1947910116/) per questo corso, e seguiremo il suo approccio per creare un concreto piano di eredità. In questo capitolo ci concentreremo sulla prima parte del suo libro.
+[Pamela Morgan](https://x.com/pamelawjd) ha generosamente autorizzato l'uso del [suo lavoro](https://www.amazon.com/gp/product/1947910116/) per questo corso, e seguiremo il suo approccio per creare un concreto piano di eredità. In questo capitolo ci concentreremo sulla prima parte del suo libro.
 
 ![image](assets/it/097.webp)
 

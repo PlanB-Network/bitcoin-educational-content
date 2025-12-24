@@ -86,7 +86,7 @@ Dojo hakkında daha fazla bilgi edinmek ve nasıl kurulacağını öğrenmek iç
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Kendi Dojo'nuzu çalıştırmaya gerçekten gücünüz yetmiyorsa, [dojobay.pw] (https://www.dojobay.pw/mainnet/) adresinde örneklerini ücretsiz olarak paylaşmak isteyen kişiler bulabilirsiniz. Bu geçici bir çözüm olabilir, ancak uzun vadede, egemenliğinizi ve gizliliğinizi garanti altına almak için kendi Dojo'nuzu kullanmanızı tavsiye ederim.
+Kendi Dojo'nuzu çalıştırmaya gerçekten gücünüz yetmiyorsa, [dojobay.pw](https://www.dojobay.pw/mainnet/) adresinde örneklerini ücretsiz olarak paylaşmak isteyen kişiler bulabilirsiniz. Bu geçici bir çözüm olabilir, ancak uzun vadede, egemenliğinizi ve gizliliğinizi garanti altına almak için kendi Dojo'nuzu kullanmanızı tavsiye ederim.
 
 
 
@@ -98,7 +98,7 @@ Kendi Dojo'nuzu çalıştırmaya gerçekten gücünüz yetmiyorsa, [dojobay.pw] 
 
 
 
-Telefonunuzda Tor Browser'ı açın ve [resmi Ashigaru web sitesine] (https://ashigaru.rs/download/), `İndir` bölümüne gidin. Ardından kurulum dosyasını indirmek için `Android için İndir` düğmesine tıklayın.
+Telefonunuzda Tor Browser'ı açın ve [resmi Ashigaru web sitesine](https://ashigaru.rs/download/), `İndir` bölümüne gidin. Ardından kurulum dosyasını indirmek için `Android için İndir` düğmesine tıklayın.
 
 
 
@@ -122,7 +122,7 @@ Resmi Ashigaru web sitesine] (https://ashigaru.rs/download/) `İndir` bölümün
 
 
 
-Hala telefonunuzdayken Tor Browser'da yeni bir sekme açın ve [Keybase doğrulama aracına] (https://keybase.io/verify) gidin. Az önce kopyaladığınız mesajı verilen alana yapıştırın ve ardından `Doğrula` düğmesine tıklayın.
+Hala telefonunuzdayken Tor Browser'da yeni bir sekme açın ve [Keybase doğrulama aracına](https://keybase.io/verify) gidin. Az önce kopyaladığınız mesajı verilen alana yapıştırın ve ardından `Doğrula` düğmesine tıklayın.
 
 
 
@@ -142,7 +142,7 @@ Ancak, bu aşamada bir hata görünürse, imzanın geçersiz olduğu anlamına g
 
 
 
-Keybase size uygulamanın hash'ini sağladı. Şimdi indirdiğiniz `.apk` dosyasının hash'inin Keybase'de doğrulanmış olanla eşleşip eşleşmediğini kontrol edeceğiz. Bunu yapmak için [HASH FILE ONLINE] (https://hash-file.online/) adresine gidin.
+Keybase size uygulamanın hash'ini sağladı. Şimdi indirdiğiniz `.apk` dosyasının hash'inin Keybase'de doğrulanmış olanla eşleşip eşleşmediğini kontrol edeceğiz. Bunu yapmak için [HASH FILE ONLINE](https://hash-file.online/) adresine gidin.
 
 
 

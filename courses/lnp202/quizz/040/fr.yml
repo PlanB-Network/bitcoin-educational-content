@@ -1,0 +1,9 @@
+question: Pourquoi utiliser un gestionnaire de nœud Lightning ?
+answer: Accéder facilement aux fonctions avancées
+wrong_answers:
+  - Remplacer l'implémentation de LND
+  - Supprimer la dépendance à Umbrel
+  - Modifier le protocole Lightning
+explanation: |
+  Les gestionnaires avancés offrent des fonctionnalités absentes de l’interface de base, tout en restant de simples interfaces.
+reviewed: false

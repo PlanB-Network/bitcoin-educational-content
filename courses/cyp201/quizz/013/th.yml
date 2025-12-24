@@ -1,0 +1,9 @@
+question: บทบาทหลักของ PBKDF2 ใน Bitcoin คืออะไร?
+answer: สร้าง seed ของ HD wallet
+wrong_answers:
+  - ตรวจสอบความถูกต้องของธุรกรรม
+  - เข้ารหัสคีย์ส่วนตัว
+  - สร้างที่อยู่ Bitcoin
+explanation: |
+  PBKDF2 ถูกใช้เพื่อสร้าง seed จากวลีช่วยจำและ passphrase ที่เป็นทางเลือก
+reviewed: false

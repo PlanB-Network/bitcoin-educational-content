@@ -139,7 +139,7 @@ Prima di tutto, è necessario decidere dove installare OPNsense. Ci sono diverse
 
 
 
-È necessario tenere conto delle risorse hardware necessarie per l'esecuzione di OPNsense. I dettagli sono riportati in [questa pagina di documentazione] (https://docs.opnsense.org/manual/hardware.html).
+È necessario tenere conto delle risorse hardware necessarie per l'esecuzione di OPNsense. I dettagli sono riportati in [questa pagina di documentazione](https://docs.opnsense.org/manual/hardware.html).
 
 
 

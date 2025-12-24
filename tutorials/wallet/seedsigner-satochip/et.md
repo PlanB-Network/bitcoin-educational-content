@@ -96,7 +96,7 @@ Et kasutada oma SeedSignerit koos Satochipiga, peate installima alternatiivse fi
 
 
 
-Kui teil seda veel ei ole, laadige alla tarkvara [Balena Etcher] (https://etcher.balena.io/), seejärel toimige järgmiselt:
+Kui teil seda veel ei ole, laadige alla tarkvara [Balena Etcher](https://etcher.balena.io/), seejärel toimige järgmiselt:
 
 
 

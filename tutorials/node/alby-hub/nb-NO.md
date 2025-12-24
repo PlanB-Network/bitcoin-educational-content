@@ -41,13 +41,13 @@ Det er også mulig å installere Alby Hub direkte på PC-en din, selv om dette a
 
 - Alby Hub på en personlig server :**
 
-For avanserte brukere kan Alby Hub distribueres på en personlig server med en enkel kommando. Dette alternativet er ikke dekket i denne veiledningen, men du kan finne dedikerte instruksjoner [på Albys GitHub] (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+For avanserte brukere kan Alby Hub distribueres på en personlig server med en enkel kommando. Dette alternativet er ikke dekket i denne veiledningen, men du kan finne dedikerte instruksjoner [på Albys GitHub](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 Denne veiledningen fokuserer hovedsakelig på grensesnittet, som vil være det samme uansett hvilket alternativ du velger. Vi ser også på hvordan du distribuerer Alby Hub med det betalte skyalternativet, og deretter med node-in-box-alternativet (Umbrel eller Start9).
 
 ![ALBY HUB](assets/fr/02.webp)
 
-For lokal installasjon på PC-en din, [last ned og installer programvaren i henhold til operativsystemet] (https://github.com/getAlby/hub/releases), og følg deretter de samme instruksjonene på grensesnittet.
+For lokal installasjon på PC-en din, [last ned og installer programvaren i henhold til operativsystemet](https://github.com/getAlby/hub/releases), og følg deretter de samme instruksjonene på grensesnittet.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ For lokal installasjon på PC-en din, [last ned og installer programvaren i henh
 
 Det første trinnet er å opprette en Alby-konto. Selv om dette ikke er avgjørende for å kunne bruke Alby Hub, gir det deg muligheten til å dra full nytte av de tilgjengelige alternativene, inkludert muligheten til å få en Lightning-adresse.
 
-Gå til [det offisielle Alby-nettstedet] (https://getalby.com/) og klikk på "*Opprett konto*"-knappen.
+Gå til [det offisielle Alby-nettstedet](https://getalby.com/) og klikk på "*Opprett konto*"-knappen.
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -271,12 +271,12 @@ I denne veiledningen anbefaler jeg at du velger Alby Go, som er veldig enkelt å
 Gå til applikasjonsbutikken på enheten din for å installere Alby Go:
 
 
-- [For Android] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [For Apple] (https://apps.apple.com/us/app/alby-go/id6471335774).
+- [For Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [For Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Android-brukere kan også installere appen via `.apk`-filen [tilgjengelig på Albys GitHub] (https://github.com/getAlby/go/releases).
+Android-brukere kan også installere appen via `.apk`-filen [tilgjengelig på Albys GitHub](https://github.com/getAlby/go/releases).
 
 ![ALBY HUB](assets/fr/45.webp)
 

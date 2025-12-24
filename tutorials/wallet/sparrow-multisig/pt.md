@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-Neste tutorial, vou mostrar-lhe como criar um Multisig com o [software de gestão de portefólio Sparrow Wallet] (https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
+Neste tutorial, vou mostrar-lhe como criar um Multisig com o [software de gestão de portefólio Sparrow Wallet](https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
 
 
 
@@ -491,7 +491,7 @@ Introduzir o montante a enviar para o Address selecionado.
 
 
 
-Ajuste a taxa de carregamento de acordo com as condições actuais da rede. Por exemplo, consulte [Mempool.space] (https://Mempool.space/) para selecionar um nível de carga adequado.
+Ajuste a taxa de carregamento de acordo com as condições actuais da rede. Por exemplo, consulte [Mempool.space](https://Mempool.space/) para selecionar um nível de carga adequado.
 
 
 

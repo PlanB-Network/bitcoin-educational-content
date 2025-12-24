@@ -1,0 +1,9 @@
+question: องค์กรใดที่กำหนดหมายเลขเวอร์ชันโปรโตคอล IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) จัดการการกำหนดหมายเลขเวอร์ชันโปรโตคอล IP และการจัดสรรช่วงโปรโตคอล
+reviewed: false

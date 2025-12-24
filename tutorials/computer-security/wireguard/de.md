@@ -282,7 +282,7 @@ Für den Moment lassen wir die Konfiguration der WireGuard-Serverseite beiseite.
 
 
 
-Damit unser Debian-11-Rechner in der Lage ist, **Pakete zwischen verschiedenen Netzwerken (wie ein Router)** weiterzuleiten, d. h. zwischen dem VPN-Netzwerk und dem lokalen Netzwerk, müssen wir [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) aktivieren. Standardmäßig ist diese Funktion deaktiviert.
+Damit unser Debian-11-Rechner in der Lage ist, **Pakete zwischen verschiedenen Netzwerken (wie ein Router)** weiterzuleiten, d. h. zwischen dem VPN-Netzwerk und dem lokalen Netzwerk, müssen wir [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) aktivieren. Standardmäßig ist diese Funktion deaktiviert.
 
 
 

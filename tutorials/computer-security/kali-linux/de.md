@@ -90,7 +90,7 @@ Sie können verschiedene Tools verwenden, wie z. B. Balena Etcher :
 
 
 
-- Laden Sie [Balena Etcher] (https://etcher.balena.io/) herunter und installieren Sie es.
+- Laden Sie [Balena Etcher](https://etcher.balena.io/) herunter und installieren Sie es.
 
 
 

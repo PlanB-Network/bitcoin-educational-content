@@ -1831,7 +1831,7 @@ Para instalar o Ubuntu no seu computador, precisa de tornar a imagem ISO de arra
 
 
 
-Ligue uma unidade flash USB de pelo menos 8 GB (atenção, o seu conteúdo será apagado) e, em seguida, utilize uma ferramenta como o [BalenaEtcher] (https://www.balena.io/etcher) para criar um suporte de arranque a partir da imagem ISO. Basta selecionar o ficheiro ISO, a pen USB e clicar em "*Flash*".
+Ligue uma unidade flash USB de pelo menos 8 GB (atenção, o seu conteúdo será apagado) e, em seguida, utilize uma ferramenta como o [BalenaEtcher](https://www.balena.io/etcher) para criar um suporte de arranque a partir da imagem ISO. Basta selecionar o ficheiro ISO, a pen USB e clicar em "*Flash*".
 
 
 
@@ -4129,7 +4129,7 @@ Para começar, vai precisar de vários documentos relacionados com o software qu
 
 
 
-Visite o site oficial do [Sparrow wallet na secção "_Download_"] (https://sparrowwallet.com/download/). Se quiser consultar outro programa, visite o site desse programa.
+Visite o site oficial do [Sparrow wallet na secção "_Download_"](https://sparrowwallet.com/download/). Se quiser consultar outro programa, visite o site desse programa.
 
 
 
@@ -4137,7 +4137,7 @@ Visite o site oficial do [Sparrow wallet na secção "_Download_"] (https://spar
 
 
 
-Também pode ir [ao repositório GitHub do projeto] (https://github.com/sparrowwallet/Sparrow/releases).
+Também pode ir [ao repositório GitHub do projeto](https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -4177,7 +4177,7 @@ Por fim, precisará da chave pública do programador para verificar a assinatura
 
 
 
-No caso do *Sparrow wallet*, pode encontrar a chave pública do programador [Craig Raw on Keybase] (https://keybase.io/craigraw). Para a descarregar diretamente a partir do terminal, execute o seguinte comando:
+No caso do *Sparrow wallet*, pode encontrar a chave pública do programador [Craig Raw on Keybase](https://keybase.io/craigraw). Para a descarregar diretamente a partir do terminal, execute o seguinte comando:
 
 
 
@@ -5556,7 +5556,7 @@ O objetivo deste capítulo é ajudá-lo a escolher o browser que melhor se adapt
 
 
 
-o [Chrome] (https://www.google.com/chrome/) beneficia de um desenvolvimento rápido e contínuo, liderado principalmente pela Google. É reconhecido pelo seu elevado desempenho, velocidade, ampla compatibilidade com as normas Web modernas e uma boa integração dos serviços Google.
+o [Chrome](https://www.google.com/chrome/) beneficia de um desenvolvimento rápido e contínuo, liderado principalmente pela Google. É reconhecido pelo seu elevado desempenho, velocidade, ampla compatibilidade com as normas Web modernas e uma boa integração dos serviços Google.
 
 
 
@@ -5642,7 +5642,7 @@ Para verificar se a impressão digital do seu browser o torna único ou se se co
 
 
 
-a [Vivaldi] (https://vivaldi.com/), fundada pelo antigo CEO da Opera, destina-se a utilizadores avançados que procuram uma personalização mais profunda e funcionalidades avançadas, como painéis laterais, um gestor de separadores avançado e a tomada de notas integrada.
+a [Vivaldi](https://vivaldi.com/), fundada pelo antigo CEO da Opera, destina-se a utilizadores avançados que procuram uma personalização mais profunda e funcionalidades avançadas, como painéis laterais, um gestor de separadores avançado e a tomada de notas integrada.
 
 
 
@@ -6308,7 +6308,7 @@ O objetivo é simples: impedir que um incidente que envolva uma atividade espec�
 
 
 
-- **Utilizar contentores incorporados**: O Firefox oferece a extensão [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), que lhe permite abrir separadores separados, cada um com o seu próprio início de sessão e cookies. Também pode atribuir automaticamente determinados sites a um contentor específico, para os manter separados de cada vez que são abertos.
+- **Utilizar contentores incorporados**: O Firefox oferece a extensão [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), que lhe permite abrir separadores separados, cada um com o seu próprio início de sessão e cookies. Também pode atribuir automaticamente determinados sites a um contentor específico, para os manter separados de cada vez que são abertos.
 
 
 
@@ -6412,7 +6412,7 @@ O motor de busca que utiliza tem uma influência direta na sua privacidade. De f
 
 
 
-Assim, um motor como o Google fornece resultados rápidos e relevantes (embora [alguns estudos sugiram] (https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) que o Google está a tornar-se cada vez menos eficaz), mas à custa da monitorização sistemática das suas consultas. O Bing (Microsoft) e o Yahoo seguem um modelo semelhante de recolha das suas actividades em linha para alimentar as suas redes de publicidade.
+Assim, um motor como o Google fornece resultados rápidos e relevantes (embora [alguns estudos sugiram](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) que o Google está a tornar-se cada vez menos eficaz), mas à custa da monitorização sistemática das suas consultas. O Bing (Microsoft) e o Yahoo seguem um modelo semelhante de recolha das suas actividades em linha para alimentar as suas redes de publicidade.
 
 
 
@@ -6643,7 +6643,7 @@ O CalyxOS também oferece aplicações pré-instaladas (Signal, F-Droid, Aurora 
 #### LineageOS
 
 
-o [LineageOS] (https://lineageos.org/), sucessor do CyanogenMod, é a ROM alternativa mais amplamente compatível. Suporta várias centenas de modelos, graças a uma grande comunidade de colaboradores. Baseada no AOSP, privilegia a personalização, a simplicidade e a liberdade de utilização.
+o [LineageOS](https://lineageos.org/), sucessor do CyanogenMod, é a ROM alternativa mais amplamente compatível. Suporta várias centenas de modelos, graças a uma grande comunidade de colaboradores. Baseada no AOSP, privilegia a personalização, a simplicidade e a liberdade de utilização.
 
 
 O LineageOS oferece-lhe um sistema Android sem sobreposições de fabricantes, sem bloatware, com gestão total de permissões, atualização fácil e um Interface simplificado. Pode adicionar serviços Google ou optar por uma utilização 100% gratuita.
@@ -7230,7 +7230,7 @@ O correio eletrónico continua a ser uma ferramenta de comunicação essencial, 
 
 
 
-- [FairEmail] (https://email.faircode.eu/)
+- [FairEmail](https://email.faircode.eu/)
 
 
 O FairEmail é uma aplicação Android abrangente e orientada para a segurança. Suporta todos os fornecedores IMAP/SMTP, permite a encriptação de mensagens via OpenPGP, bloqueia imagens remotas (utilizadas como localizadores) e não utiliza serviços de terceiros. Permite-lhe um controlo fino das ligações, notificações e comportamento de sincronização.
@@ -7250,7 +7250,7 @@ O K-9 Mail é um cliente de correio eletrónico Android de código aberto, recen
 
 
 
-- [Thunderbird Mobile] (https://www.thunderbird.net/mobile/)
+- [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
 O Thunderbird Mobile é a versão móvel do popular cliente de correio eletrónico de código aberto desenvolvido pela Fundação Mozilla. Fiel à filosofia do projeto, a aplicação privilegia a confidencialidade, a transparência do código e a ausência de telemetria intrusiva. O Thunderbird Mobile baseia-se na aplicação K-9 Mail, da qual é o sucessor oficial no Android. Possui uma gestão avançada de contas IMAP e POP, encriptação de correio eletrónico (via OpenPGP) e um Interface simples e eficiente.
@@ -7292,7 +7292,7 @@ Eis algumas sugestões para a escolha do seu fornecedor de correio eletrónico:
 
 - [Proton Mail](https://proton.me/mail)
 - [Tuta](https://tuta.com/)
-- [Caixa de correio] (https://mailbox.org/)
+- [Caixa de correio](https://mailbox.org/)
 - [Disroot](https://disroot.org/)
 - [Mailfence](https://mailfence.com/)
 
@@ -7310,7 +7310,7 @@ A maior parte das aplicações de mapas clássicas, como o Google Maps, o Waze o
 - [Mapas Orgânicos](https://organicmaps.app/)
 
 
-Organic Maps é uma aplicação de navegação offline gratuita. Baseia-se em dados do [OpenStreetMap] (https://www.openstreetmap.org), uma base de dados aberta e colaborativa. Descarrega os mapas das regiões em que está interessado e navega sem rede.
+Organic Maps é uma aplicação de navegação offline gratuita. Baseia-se em dados do [OpenStreetMap](https://www.openstreetmap.org), uma base de dados aberta e colaborativa. Descarrega os mapas das regiões em que está interessado e navega sem rede.
 
 
 Não contém publicidade, rastreio ou recolha de dados. A aplicação é particularmente adequada para deslocações a pé, de bicicleta ou de carro, sendo o Interface simples, rápido e sem distracções.
@@ -7345,7 +7345,7 @@ As ferramentas de escritório clássicas, como o Google Docs ou o Microsoft Offi
 
 
 
-- [Collabora Office] (https://www.collaboraoffice.com/)
+- [Collabora Office](https://www.collaboraoffice.com/)
 
 
 O Collabora Office é uma versão móvel do LibreOffice, concebida para smartphones e tablets Android e iOS. Permite-lhe criar, editar e partilhar documentos de escritório sem sair do seu dispositivo ou da sua nuvem pessoal.
@@ -7358,7 +7358,7 @@ A aplicação suporta a edição colaborativa quando ligada a uma instância Nex
 
 
 
-- [ONLYOFFICE] (https://www.onlyoffice.com/)
+- [ONLYOFFICE](https://www.onlyoffice.com/)
 
 
 O ONLYOFFICE é uma suite de escritório de código aberto. Permite-lhe abrir e editar documentos Word, Excel e PowerPoint diretamente no seu telemóvel, mesmo localmente. Também pode ligá-lo a vários serviços de nuvem para sincronização automática, como o Nextcloud.
@@ -7377,7 +7377,7 @@ Serviços como o Google Drive ou o Dropbox armazenam os seus ficheiros em servid
 
 
 
-- [Nextcloud] (https://nextcloud.com/)
+- [Nextcloud](https://nextcloud.com/)
 
 
 O Nextcloud é uma solução de nuvem pessoal de código aberto que pode ser alojada por si ou utilizada através de um fornecedor de confiança. Permite-lhe sincronizar, partilhar e editar os seus ficheiros a partir do seu smartphone, mantendo o controlo total sobre o seu armazenamento.
@@ -7422,7 +7422,7 @@ O Etar é um calendário simples, eficiente e completamente de código aberto. P
 
 
 
-- [Calendário simples] (https://simplemobiletools.com/simplecalendar/)
+- [Calendário simples](https://simplemobiletools.com/simplecalendar/)
 
 
 Esta aplicação faz parte do conjunto "*Simple Mobile Tools*". Não requer qualquer conta ou acesso à rede, o que a torna ideal para uma utilização completamente offline. Pode adicionar eventos, definir lembretes e organizar as visualizações por dia, semana ou mês. Tal como o resto da suite, o Simple Calendar não tem anúncios, não tem localizadores e é 100% de código aberto.
@@ -7432,7 +7432,7 @@ Esta aplicação faz parte do conjunto "*Simple Mobile Tools*". Não requer qual
 
 
 
-- [Calendário Tuta] (https://tuta.com/calendar)
+- [Calendário Tuta](https://tuta.com/calendar)
 
 
 O Tuta Calendar, desenvolvido pela equipa responsável pelo Tuta Mail, é um calendário totalmente encriptado de ponta a ponta, concebido para manter os seus eventos confidenciais. Funciona em Android, iOS e através de um cliente web. Até os títulos, as descrições e os metadados dos seus eventos são encriptados, garantindo que nenhum terceiro, incluindo o Tuta, possa aceder aos seus dados.
@@ -7442,7 +7442,7 @@ O Tuta Calendar, desenvolvido pela equipa responsável pelo Tuta Mail, é um cal
 
 
 
-- [Calendário de protões] (https://proton.me/calendar)
+- [Calendário de protões](https://proton.me/calendar)
 
 
 O Proton Calendar também oferece encriptação nativa de ponta a ponta para os seus eventos e respectivos metadados. É acessível no telemóvel (Android, iOS) e através de um cliente Web, com um Interface claro e intuitivo. O serviço permite a criação de vários calendários, a importação/exportação de eventos e opções de partilha. O cliente Web é de código aberto, mas as aplicações móveis ainda não são totalmente de código aberto.
@@ -7767,7 +7767,7 @@ O F-Droid é um catálogo de aplicações exclusivamente de código aberto. Todo
 
 
 
-- [Loja Aurora] (https://auroraoss.com/)
+- [Loja Aurora](https://auroraoss.com/)
 
 
 A Aurora Store permite-lhe aceder ao catálogo da Google Play Store de forma anónima, sem uma conta Google. Trata-se de um cliente gratuito que interage diretamente com os servidores da Google, mascarando a sua identidade através de uma conta genérica. É uma solução valiosa para continuar a utilizar determinadas aplicações proprietárias necessárias: Aplicações, evitando a telemetria do Google Play.
@@ -7799,7 +7799,7 @@ Os contactos do Google, tal como muitas aplicações predefinidas no Android, si
 
 
 
-- [Ligar-te] (https://github.com/you-apps/ConnectYou)
+- [Ligar-te](https://github.com/you-apps/ConnectYou)
 
 
 O Connect You é uma alternativa de código aberto leve e simples, concebida para aqueles que pretendem gerir os seus contactos localmente, sem recolha de dados ou sincronização forçada com uma nuvem de terceiros. Oferece um Interface intuitivo, facilita a ordenação, pesquisa e edição das suas entradas e pode integrar-se com serviços CalDAV se estiver a utilizar um servidor de contactos auto-hospedado (via Nextcloud, por exemplo).
@@ -7903,7 +7903,7 @@ O Google Translate é a referência em matéria de tradução automática, mas a
 
 
 
-- [TranslateYou] (https://github.com/you-apps/TranslateYou)
+- [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
 TranslateYou é uma aplicação de tradução de código aberto que respeita a privacidade dos seus utilizadores. Funciona como um Interface para vários motores de tradução (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.) e permite-lhe escolher um serviço que não explore os seus dados.
@@ -7947,7 +7947,7 @@ A Quick Share é agora a norma no Android. Este software, originalmente desenvol
 
 
 
-- [Snapdrop] (https://github.com/SnapDrop/snapdrop)
+- [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
 O Snapdrop é uma alternativa gratuita e de código aberto que não requer instalação. Permite-lhe partilhar ficheiros entre dispositivos ligados à mesma rede local, simplesmente através de um navegador Web. A transferência é direta (peer-to-peer) e os dados nunca passam por um servidor remoto.
@@ -8465,7 +8465,7 @@ Para melhorar a sua privacidade de navegação e bloquear determinados conteúdo
 
 
 
-- [Cloudflare DNS] (https://www.cloudflare.com/application-services/products/dns/): Rápido e comprometido com uma política rigorosa de não registo de dados
+- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): Rápido e comprometido com uma política rigorosa de não registo de dados
 
 
 

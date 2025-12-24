@@ -60,7 +60,7 @@ Ashigaru доступна в мобильной версии через прил
 
 
 
-Чтобы скачать файл `.apk` через Tor, вам понадобится браузер, способный получить доступ к сайтам `.onion`. Самый простой способ - установить на телефон приложение Tor Browser, доступное в [Google Play Store] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser) или напрямую [через его `.apk`] (https://www.torproject.org/download/#android).
+Чтобы скачать файл `.apk` через Tor, вам понадобится браузер, способный получить доступ к сайтам `.onion`. Самый простой способ - установить на телефон приложение Tor Browser, доступное в [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) или напрямую [через его `.apk`](https://www.torproject.org/download/#android).
 
 
 

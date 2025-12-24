@@ -1,0 +1,9 @@
+question: ภาษาไทย
+answer: รัสเซีย
+wrong_answers:
+  - ฝรั่งเศส
+  - เยอรมัน
+  - อิตาเลียน
+explanation: |
+  มันถูก[ก่อตั้ง](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241)โดย Martti Malmi เมื่อวันที่ 28 กรกฎาคม ภาษาต่าง ๆ ถูกเพิ่มเข้ามาในเดือนถัด ๆ ไป
+reviewed: true

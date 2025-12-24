@@ -132,7 +132,7 @@ Du kan sedan antingen klistra in mottagarens fullständiga betalkod eller skanna
 
 
 
-Om du bara har hans PayNym-ID, gå till [Paynym.rs] (https://paynym.rs/) för att hitta QR-koden som är kopplad till hans betalningskod.
+Om du bara har hans PayNym-ID, gå till [Paynym.rs](https://paynym.rs/) för att hitta QR-koden som är kopplad till hans betalningskod.
 
 
 

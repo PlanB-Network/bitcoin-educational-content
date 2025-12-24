@@ -866,7 +866,7 @@ Voor de tutorials hieronder hebben we oorspronkelijk de "Telegram+" APK gebruikt
 Als je een plek wilt creëren waar je leden rechtstreeks met elkaar kunnen praten, op elkaar kunnen reageren, enz., dan kun je beter een Telegram-groep maken en geen Telegram-kanaal!
 
 
-Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Ga direct naar het volgende gedeelte, getiteld [Een Telegram-groep maken](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1260,7 +1260,7 @@ Daarnaast zijn **een paar privacy-instellingen het aanpassen waard**:
 Voor elk evenement zul je Twitter waarschijnlijk gebruiken om nuttige informatie te delen. Maar zoals bij de meeste sociale netwerken is **zichtbaarheid alles**.
 
 
-Om je veel tijd te besparen, hebben we de tijd genomen om [Twitter's open-source rangschikkingsalgoritme] (https://github.com/twitter) te bestuderen.
+Om je veel tijd te besparen, hebben we de tijd genomen om [Twitter's open-source rangschikkingsalgoritme](https://github.com/twitter) te bestuderen.
 
 
 Dit zijn de **belangrijkste dingen waarop je je moet richten om je zichtbaarheid te vergroten**:
@@ -1820,7 +1820,7 @@ Naast de sterke educatieve waarde, maakt deze aanpak het mogelijk om open-source
 Hieronder staat de progressie van de Franse meetups voor 2023-2024. Voor elk thema zijn een open-source presentatie en een video beschikbaar, die je op ideeën kunnen brengen voor onderwerpen die je voor je eigen evenementen zou kunnen behandelen.
 
 
-Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)!
+Extra bewerkbaar materiaal is ook te vinden in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -2195,7 +2195,7 @@ Later kun je je eigen domeinnaam kopen of de site zelfs op je eigen server hoste
 Hoewel er andere CMS-platforms bestaan, sommige met eenvoudigere, beginnersvriendelijkere interfaces, zijn ze meestal veel minder aanpasbaar. Daarom is WordPress over het algemeen het beste uitgangspunt.
 
 
-WordPress ondersteunt ook een breed scala aan plug-ins (sommige betaald, maar van hoge kwaliteit) die de mogelijkheden van je site aanzienlijk kunnen uitbreiden zonder dat je codeervaardigheden nodig hebt. Een voorbeeld is het [premium "Uncode" thema] (https://undsgn.com/uncode/)
+WordPress ondersteunt ook een breed scala aan plug-ins (sommige betaald, maar van hoge kwaliteit) die de mogelijkheden van je site aanzienlijk kunnen uitbreiden zonder dat je codeervaardigheden nodig hebt. Een voorbeeld is het [premium "Uncode" thema](https://undsgn.com/uncode/)
 
 
 
@@ -2300,7 +2300,7 @@ Bij een andere, meer traditionele aanpak kun je deelnemers aan elk evenement vra
 Hoewel dit een beetje formeel is, kan dit leden helpen om gemakkelijker gemeenschappelijke interesses en gespreksonderwerpen te vinden, en het maakt het ook gemakkelijker voor nieuwkomers om de organisatoren (of officiële leden van de gemeenschap/vereniging) te herkennen.
 
 
-Verschillende badgesjablonen gebruikt door de vereniging Bitcoin Lille zijn [beschikbaar in open-source op Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Verschillende badgesjablonen gebruikt door de vereniging Bitcoin Lille zijn [beschikbaar in open-source op Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Het is verstandig om samen met je gemeenschap vooraf een duidelijke procedure op
 
 Het hebben van een standaardprotocol voorkomt ook dat iemand, lid of gast, misbruik maakt van de situatie om geld te stelen.
 
-Je zou een speciale werkgroep kunnen vormen om dit proces te definiëren. De vereniging Bitcoin Lille werkt al aan een dergelijk [document] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), dat ze in de komende maanden als open-source willen vrijgeven.
+Je zou een speciale werkgroep kunnen vormen om dit proces te definiëren. De vereniging Bitcoin Lille werkt al aan een dergelijk [document](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), dat ze in de komende maanden als open-source willen vrijgeven.
 
 
 

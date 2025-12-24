@@ -195,7 +195,7 @@ Geben Sie Ihren PIN-Code ein.
 
 ![Image](assets/fr/39.webp)
 
-Gehen Sie dann auf [die Blockstream-Website] (https://jadefw.blockstream.com/pinqr/qrpin.html), um QR-Codes mit dem Orakel auszutauschen.
+Gehen Sie dann auf [die Blockstream-Website](https://jadefw.blockstream.com/pinqr/qrpin.html), um QR-Codes mit dem Orakel auszutauschen.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Klicken Sie auf "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 Ihr Jade Plus zeigt jeden Bereich Ihres QR-Codes an.
 
@@ -328,7 +328,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 In diesem Tutorial stelle ich eine fortgeschrittene Verwendung von Jade Plus mit Sparrow Wallet vor. Diese Hardware-Geldbörse ist jedoch mit vielen anderen Programmen kompatibel, wie Liana, Nunchuk, Specter, Green und Keeper. Diese Kompatibilitäten variieren in Bezug auf die Verbindungen: USB, Bluetooth oder QR-Code (siehe Tabelle in der Einleitung für Details).
 
-Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website] (https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
+Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website](https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
 
 ![Image](assets/fr/50.webp)
 

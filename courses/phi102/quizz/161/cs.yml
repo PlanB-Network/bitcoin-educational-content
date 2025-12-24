@@ -1,0 +1,8 @@
+question: Jaký základní mechanismus podle Tocquevillovy analýzy demokratických společností brání vládám v hospodárném vynakládání veřejných prostředků?
+answer: Občané mají přirozeně tendenci odmítat poplatky, které si sami účtují, a zároveň využívat výhod, čímž se přeruší vazba mezi využíváním služeb a úhradou jejich nákladů
+wrong_answers:
+  - Demokratické vlády nemají ve srovnání s manažery v soukromém sektoru dostatečné technické znalosti pro efektivní správu veřejných zdrojů
+  - Ústavní omezení brání demokratickým představitelům v rychlém rozhodování o rozpočtových škrtech během hospodářských krizí
+  - Volební cykly nutí politiky upřednostňovat krátkodobou popularitu před dlouhodobou fiskální odpovědností a hospodářským plánováním
+explanation: |
+  Tocqueville zjistil, že jádro problému spočívá v samotné lidské povaze - lidé přirozeně chtějí přenést náklady na ostatní a ponechat si výhody pro sebe. To narušuje základní vazbu mezi využíváním veřejných služeb a nesením jejich nákladů. Tento mechanismus umožňuje deficitní výdaje a akumulaci dluhu, protože současní občané mohou využívat služeb a zároveň přenášet finanční břemeno na budoucí generace, které nemohou hájit své zájmy, protože ještě neexistují ani nevolí.

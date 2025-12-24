@@ -36,7 +36,7 @@ Kwa hivyo Wakenya wanaweza kununua satoshi kwa hatua tatu rahisi, bila KYC au ma
 
 
 
-Ili kutumia suluhisho, tembelea mfumo wa [Bitika] (https://bitika.xyz/). Iwe kwenye kompyuta yako au simu mahiri, kiolesura kinasalia sawa.
+Ili kutumia suluhisho, tembelea mfumo wa [Bitika](https://bitika.xyz/). Iwe kwenye kompyuta yako au simu mahiri, kiolesura kinasalia sawa.
 
 
 

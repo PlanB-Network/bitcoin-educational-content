@@ -1,0 +1,8 @@
+question: According to liberal economic theory, what fundamental problem does deficit spending create in democratic societies?
+answer: It allows current generations to enjoy benefits while transferring the costs to future generations who cannot participate in current democratic decisions
+wrong_answers:
+  - It creates excessive inflation that immediately reduces the purchasing power of current taxpayers and destabilizes the economy
+  - It concentrates too much economic power in the hands of wealthy creditors who can then influence government policy decisions
+  - It reduces government efficiency by creating bureaucratic competition between different spending departments for limited resources
+explanation: |
+  The chapter explains that deficit spending breaks the natural link between enjoyment and responsibility by allowing current citizens to benefit from government services while legally transferring the costs to future generations. This creates a fundamental democratic contradiction because those future citizens who will bear the financial burden cannot participate in today's political decisions that create the debt. This violates the principle of 'no taxation without representation' since future generations are effectively taxed without having a voice in the decision-making process.

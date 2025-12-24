@@ -1925,7 +1925,7 @@ Die Entscheidung, Bitcoin auszugeben, ist oft Gegenstand von Kritik. Einige Anwe
 
 Ein logischerer Ansatz ist die Methode "Ausgeben und Ersetzen". Dies bedeutet, dass du Bitcoin aus den oben genannten Gründen ausgibst und dann, anstatt deine Bitcoin-Ersparnisse schrumpfen zu lassen, die ausgegebenen Sats durch den Kauf neuer Sats in Fiat-Währung ersetzen.
 
-Um das Ausgeben von Bitcoin zu erleichtern, gibt es zahlreiche Tools, wie z.B. [BTC Map] (https://btcmap.org/), die dir Händler auf der ganzen Welt zeigt, die Bitcoin akzeptieren. Bei einigen dieser Händler können du sogar online bestellen und dir die Produkte liefern lassen.
+Um das Ausgeben von Bitcoin zu erleichtern, gibt es zahlreiche Tools, wie z.B. [BTC Map](https://btcmap.org/), die dir Händler auf der ganzen Welt zeigt, die Bitcoin akzeptieren. Bei einigen dieser Händler können du sogar online bestellen und dir die Produkte liefern lassen.
 
 Da wir uns noch in einer Übergangsphase befinden, in der nicht alle Händler des täglichen Lebens BTC akzeptieren, gibt es einige einfache, aber effektive Umgehungsmöglichkeiten. Zum Beispiel ist der Kauf von Geschenkkarten mit Bitcoin eine praktische Lösung, und viele Anbieter wie Bitrefill, Coinsbee oder The Bitcoin Company bieten diesen Service an.
 

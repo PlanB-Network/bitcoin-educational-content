@@ -1,0 +1,9 @@
+question: รูปแบบหลักสองประเภทของสัญญาอัจฉริยะที่ใช้ใน coinswaps คืออะไร?
+answer: HTLC และ PTLC
+wrong_answers:
+  - หลายลายเซ็นและลายเซ็นเดียว
+  - สัญญาอัจฉริยะและแอปพลิเคชันกระจายศูนย์ (DApps)
+  - SegWit และ Taproot
+explanation: |
+  ในการดำเนินการ coinswap สามารถใช้ HTLCs (Hash Time-Locked Contracts) หรือ PTLCs (Point Time-Locked Contracts) ได้
+reviewed: true

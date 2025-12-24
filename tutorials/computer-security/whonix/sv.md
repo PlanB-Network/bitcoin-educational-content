@@ -66,7 +66,7 @@ Här är de rekommenderade specifikationerna för en smidig och stabil upplevels
 
 
 
-Whonix finns i flera olika utgåvor, beroende på vilken typ av miljö du vill använda det i. För de flesta användare (Windows, Linux eller MacOs) är VirtualBox-utgåvan den enklaste att installera. Du kan ladda ner bilden direkt från [den officiella webbplatsen] (https://www.whonix.org/wiki/VirtualBox).
+Whonix finns i flera olika utgåvor, beroende på vilken typ av miljö du vill använda det i. För de flesta användare (Windows, Linux eller MacOs) är VirtualBox-utgåvan den enklaste att installera. Du kan ladda ner bilden direkt från [den officiella webbplatsen](https://www.whonix.org/wiki/VirtualBox).
 
 
 

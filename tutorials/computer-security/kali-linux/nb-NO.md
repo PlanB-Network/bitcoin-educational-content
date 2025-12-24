@@ -64,7 +64,7 @@ Det er viktig å ta sikkerhetskopi av dataene dine før du installerer på en ek
 
 
 
-- Gå til [kali.org/get-kali] (https://www.kali.org/get-kali/#kali-platforms)
+- Gå til [kali.org/get-kali](https://www.kali.org/get-kali/#kali-platforms)
 - Velg ISO-bildet for applikasjonen din:
   - Install Image** : for PC-installasjon.
   - Virtual Image**: for å installere Kali på VirtualBox eller VMware.
@@ -90,7 +90,7 @@ Du kan bruke flere verktøy, for eksempel Balena Etcher :
 
 
 
-- Last ned og installer [Balena Etcher] (https://etcher.balena.io/).
+- Last ned og installer [Balena Etcher](https://etcher.balena.io/).
 
 
 
@@ -343,7 +343,7 @@ Hvis du bruker **Live**-bildet, vises ikke neste trinn.
 
 
 
-Deretter kan du velge de [metapakkene] (https://www.kali.org/docs/general-use/metapackages/) du ønsker å installere. Standardalternativene vil installere et standard Kali Linux-system, så du trenger ikke å endre noe.
+Deretter kan du velge de [metapakkene](https://www.kali.org/docs/general-use/metapackages/) du ønsker å installere. Standardalternativene vil installere et standard Kali Linux-system, så du trenger ikke å endre noe.
 
 
 

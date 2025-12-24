@@ -916,7 +916,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ![BTC204](assets/nl/056.webp)
 
 
-Bron : [Mempool.space] (https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
+Bron : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 
 ### Gelijksoortige scripts en Wallet afdrukken
@@ -1049,7 +1049,7 @@ Bron : OXT.me
 Dit bereik komt waarschijnlijk overeen met Europa, Afrika of het Midden-Oosten. We kunnen daarom aannemen dat de gebruiker achter deze transacties in deze gebieden woont.
 
 
-Op een andere manier leidde een tijdanalyse van dit type ook tot de hypothese dat Satoshi Nakamoto niet opereerde vanuit Japan, maar vanuit de VS: [*The Time Zones of Satoshi Nakamoto*] (https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakamoto-aa40f035178f)
+Op een andere manier leidde een tijdanalyse van dit type ook tot de hypothese dat Satoshi Nakamoto niet opereerde vanuit Japan, maar vanuit de VS: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakamoto-aa40f035178f)
 
 
 ## In de praktijk brengen met een Block explorer
@@ -1969,7 +1969,7 @@ Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt 
 ![BTC204](assets/nl/089.webp)
 
 
-Om dit risico te beperken, raad ik je aan de voorkeur te geven aan contante transacties met vertrouwde personen, zoals familieleden of goede vrienden. Als alternatief kun je ook overwegen om te handelen op [lokale Bitcoin meetups] (https://btcmap.org/communities/map), nadat je een paar keer bent geweest. Zo leer je de andere deelnemers beter kennen en sta je er niet alleen voor wanneer je fysiek aan het ruilen bent. Het is echter belangrijk om te beseffen dat P2P contante uitwisselingen inherent risico's voor je persoonlijke veiligheid met zich meebrengen, die er niet zijn wanneer je via een gereguleerd platform en je bankrekening koopt.
+Om dit risico te beperken, raad ik je aan de voorkeur te geven aan contante transacties met vertrouwde personen, zoals familieleden of goede vrienden. Als alternatief kun je ook overwegen om te handelen op [lokale Bitcoin meetups](https://btcmap.org/communities/map), nadat je een paar keer bent geweest. Zo leer je de andere deelnemers beter kennen en sta je er niet alleen voor wanneer je fysiek aan het ruilen bent. Het is echter belangrijk om te beseffen dat P2P contante uitwisselingen inherent risico's voor je persoonlijke veiligheid met zich meebrengen, die er niet zijn wanneer je via een gereguleerd platform en je bankrekening koopt.
 
 
 Bovendien kan, afhankelijk van waar je woont, het vervoeren en opslaan van grote sommen geld riskant zijn, of het nu Bitcoin of contant geld is.
@@ -2627,7 +2627,7 @@ In dezelfde thread vinden we [een bericht van hashcoin in antwoord op Duncan Tow
 ### Zerolink
 
 
-Zerolink is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met portefeuillebeheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met portefeuillebeheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/nl/132.webp)
@@ -4118,7 +4118,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 Laten we eens samenvatten hoe een adaptorhandtekening werkt in een coinswap. In eerste instantie stuurt Alice Bob een niet-ondertekende transactie vergezeld van een adapter, zodat Bob kan verifiëren dat het later onthulde geheim hem toegang geeft tot bitcoins. In ruil daarvoor stuurt Bob Alice zijn eigen niet-ondertekende transactie en adapter. Alice kan dan Bob's transactie afronden en de bitcoins ophalen door een geldige transactie uit te zenden dankzij het geheim. Wanneer deze transactie wordt gepubliceerd op Blockchain, kan Bob het geheim ontfutselen en zo Alice's transactie ontgrendelen. Bijgevolg, als Alice een overdracht van Bob's Bitcoin initieert, kan Bob op zijn beurt toegang krijgen tot Alice's Bitcoin zonder dat wederzijds vertrouwen nodig is.
 
 
-Merk op dat coinswaps voor het eerst werden voorgesteld door [Gregory Maxwell in oktober 2013 op BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
+Merk op dat coinswaps voor het eerst werden voorgesteld door [Gregory Maxwell in oktober 2013 op BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 
 ### Atoomverwisseling
@@ -4912,7 +4912,7 @@ Ik zal de stappen die we net hebben gezien samenvatten om een meldingstransactie
 ### Transactiemelding: een praktische studie
 
 
-Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik van `OP_RETURN`, laten we eens kijken naar een echte meldingstransactie. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken] (https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik van `OP_RETURN`, laten we eens kijken naar een echte meldingstransactie. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 
 ![BTC204](assets/nl/233.webp)
@@ -5490,7 +5490,7 @@ BIP47 is alom bekritiseerd vanwege de onchain inefficiëntie. Zoals uitgelegd in
 In bepaalde situaties kan de meldingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin Address is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
 
 
-Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352] (https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder Address hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
+Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder Address hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
 
 
 ---

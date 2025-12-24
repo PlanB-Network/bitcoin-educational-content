@@ -15,7 +15,7 @@ Sejak pandemi COVID-19, pembayaran digital nirsentuh telah tersebar luas, bahkan
 
 
 
-Breez POS adalah layanan penitipan mandiri yang disediakan oleh Breez wallet. Kegunaan dari layanan ini adalah untuk memungkinkan pedagang untuk mengumpulkan pembayaran melalui Bitcoin dengan tetap menggunakan antarmuka yang sederhana, sangat mirip dengan berbagai dompet Lightning. Breez POS tersedia di platform unduhan [Google Play Store] (https://play.google.com/store/apps/details?id=com.breez.client) (Android) dan [App Store] (https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
+Breez POS adalah layanan penitipan mandiri yang disediakan oleh Breez wallet. Kegunaan dari layanan ini adalah untuk memungkinkan pedagang untuk mengumpulkan pembayaran melalui Bitcoin dengan tetap menggunakan antarmuka yang sederhana, sangat mirip dengan berbagai dompet Lightning. Breez POS tersedia di platform unduhan [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) dan [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
 
 

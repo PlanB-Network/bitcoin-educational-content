@@ -873,7 +873,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots ist ein Fork von Bitcoin core] (https://bitcoinknots.org/), gepflegt von Luke Dashjr. Es ist der wichtigste alternative Client zu Core für die Implementierung des Bitcoin-Protokolls. Er ist vollständig kompatibel mit dem Rest des Netzes (er ist keineswegs ein Hard Fork wie Bitcoin Cash), bietet jedoch zusätzliche Funktionen, einschließlich Optionen für die Weiterleitungspolitik, die in Core fehlen oder standardmäßig strenger angewendet werden, um das zu begrenzen, was manche als Spam ansehen.
+[Bitcoin Knots ist ein Fork von Bitcoin core](https://bitcoinknots.org/), gepflegt von Luke Dashjr. Es ist der wichtigste alternative Client zu Core für die Implementierung des Bitcoin-Protokolls. Er ist vollständig kompatibel mit dem Rest des Netzes (er ist keineswegs ein Hard Fork wie Bitcoin Cash), bietet jedoch zusätzliche Funktionen, einschließlich Optionen für die Weiterleitungspolitik, die in Core fehlen oder standardmäßig strenger angewendet werden, um das zu begrenzen, was manche als Spam ansehen.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel bietet zwei unterschiedliche Ansätze:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. Sie bestellen es, schließen es an und gehen zu `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. Sie bestellen es, schließen es an und gehen zu `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
 
 
 
@@ -1509,7 +1509,7 @@ Durch die Bereitstellung von Anwendungen in Containern können Sie Umbrel so ges
 
 
 
-Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord] (https://discord.gg/efNtFzqtdx) und [ihr Online-Forum] (https://community.umbrel.com/) erreichen. Hier finden Sie nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit Sie mit Ihrem Coin nicht allein gelassen werden.
+Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord](https://discord.gg/efNtFzqtdx) und [ihr Online-Forum](https://community.umbrel.com/) erreichen. Hier finden Sie nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit Sie mit Ihrem Coin nicht allein gelassen werden.
 
 
 
@@ -1619,7 +1619,7 @@ Bevor Sie UmbrelOS auf Ihrem Rechner installieren, müssen Sie einen bootfähige
 
 
 
-Gehen Sie auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stellen Sie sicher, dass Sie die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
+Gehen Sie auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stellen Sie sicher, dass Sie die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
 
 
 
@@ -1633,7 +1633,7 @@ Gehen Sie auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen] 
 
 
 
-Um den bootfähigen USB-Stick zu erstellen, verwenden Sie ein einfaches, plattformübergreifendes Tool namens [Balena Etcher] (https://www.balena.io/etcher/). Laden Sie es herunter und installieren Sie es auf Ihrem Computer.
+Um den bootfähigen USB-Stick zu erstellen, verwenden Sie ein einfaches, plattformübergreifendes Tool namens [Balena Etcher](https://www.balena.io/etcher/). Laden Sie es herunter und installieren Sie es auf Ihrem Computer.
 
 
 
@@ -2761,7 +2761,7 @@ Im Falle eines Fehlers auf Ihrem Umbrel, starten Sie zuerst generate ein Diagnos
 
 
 
-Wenn das Problem weiterhin besteht, empfehle ich Ihnen, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten] (https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel "Allgemeine Unterstützung" posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
+Wenn das Problem weiterhin besteht, empfehle ich Ihnen, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten](https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel "Allgemeine Unterstützung" posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
 
 
 
@@ -2891,7 +2891,7 @@ Wenn der Knoten neu gestartet wird, nachdem er bereits benutzt wurde, versucht C
 
 
 
-In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Knoten zurückgeben. Anhand dieser Adressen kann der neue Knoten seine ersten Verbindungen herstellen und die erforderlichen Daten von der IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
+In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Knoten zurückgeben. Anhand dieser Adressen kann der neue Knoten seine ersten Verbindungen herstellen und die erforderlichen Daten von der IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
 
 
 
@@ -3079,7 +3079,7 @@ Das Wachstum des UTXO-Satzes ergibt sich auch aus der Struktur des einfachen Zah
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Da ein Teil davon im Arbeitsspeicher gehalten werden muss, um Transaktionen in einer angemessenen Zeit zu überprüfen, kann der UTXO-Satz den Betrieb eines Full node allmählich zu kostspielig machen. Zur Lösung dieses Problems gibt es bereits einige Vorschläge, vor allem [Utreexo] (https://planb.academy/resources/glossary/utreexo).
+Da ein Teil davon im Arbeitsspeicher gehalten werden muss, um Transaktionen in einer angemessenen Zeit zu überprüfen, kann der UTXO-Satz den Betrieb eines Full node allmählich zu kostspielig machen. Zur Lösung dieses Problems gibt es bereits einige Vorschläge, vor allem [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3882,7 +3882,7 @@ Schließlich können Sie in der Datei "Bitcoin.conf" auch die Zugriffsparameter 
 
 
 
-Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Knotens dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn Sie mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator] (https://jlopp.github.io/Bitcoin-core-config-generator/).
+Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Knotens dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn Sie mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 

@@ -82,7 +82,7 @@ De eerste stap is natuurlijk het downloaden van de Green applicatie. Ga naar uw 
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
 
-Voor Android gebruikers kun je de applicatie ook installeren via het `.apk` bestand [beschikbaar op Blockstream's GitHub] (https://github.com/Blockstream/green_android/releases).
+Voor Android gebruikers kun je de applicatie ook installeren via het `.apk` bestand [beschikbaar op Blockstream's GitHub](https://github.com/Blockstream/green_android/releases).
 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
@@ -363,7 +363,7 @@ Kies het betalingsbedrag.
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
 
-Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, zie [Mempool.space] (https://Mempool.space/) in het gedeelte "*Transactiekosten*".
+Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, zie [Mempool.space](https://Mempool.space/) in het gedeelte "*Transactiekosten*".
 
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)

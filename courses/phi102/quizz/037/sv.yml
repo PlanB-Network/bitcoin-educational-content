@@ -1,0 +1,8 @@
+question: Vilket är enligt Bastiats analys det logiska problemet med Proudhons påstående "egendom är stöld"?
+answer: Om egendom är stöld, så blir stöld egendom, vilket skapar en logisk motsägelse
+wrong_answers:
+  - Fastigheter kan inte existera utan statliga regleringar och rättsliga ramverk
+  - Stöld är moraliskt fel medan egendom är moraliskt rätt under alla omständigheter
+  - Egendom kräver fysisk besittning medan stöld innebär tillfälligt förvärv
+explanation: |
+  Bastiat visade på den inre logiska motsägelsen i Proudhons berömda fras genom att visa att om vi accepterar att egendom är lika med stöld, så måste stöld i logisk förlängning vara lika med egendom. Detta skapar ett omöjligt cirkelresonemang där något legitimt samtidigt är illegitimt. Bastiat hävdade istället att egendom är en naturlig följd av arbete, självägande och mänskliga förmågor, vilket gör den till ett grundläggande och logiskt begrepp snarare än en form av stöld.

@@ -21,7 +21,7 @@ Penting untuk dicatat bahwa tidak semua node Lightning tersedia di platform Ambo
 
 
 
-Seperti [Mempool Space] (https://Mempool.space), yang menyediakan informasi berguna tentang rantai utama protokol Bitcoin, sejak tahun 2022 [Amboss] (https://amboss.space) menyediakan informasi tentang :
+Seperti [Mempool Space](https://Mempool.space), yang menyediakan informasi berguna tentang rantai utama protokol Bitcoin, sejak tahun 2022 [Amboss](https://amboss.space) menyediakan informasi tentang :
 
 
 
@@ -147,7 +147,7 @@ Pada bagian **Channels**, Anda akan melihat daftar saluran yang terbuka dan kone
 
 - Rasio masuk**: Jumlah yang akan ditagih oleh node kepada Anda untuk setiap juta Satoshi yang diterimanya, tergantung saluran yang dipilih.
 - Rasio (bagian per juta)**: yang mewakili jumlah Satoshi per juta unit yang akan ditagih oleh node kepada Anda ketika Anda memutuskan untuk melakukan pembayaran melalui salah satu salurannya. Katakanlah Anda memutuskan untuk melakukan pembayaran sebesar `10_000 Sats` melalui saluran yang rasio ppm-nya adalah `500 Sats`, Anda harus membayar satoshi `10_000 * 500 / 1_000_000` kepada node tersebut, yang setara dengan `5 Sats`.
-- Maksimum [HTLC] (https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
+- Maksimum [HTLC](https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
 
 
 

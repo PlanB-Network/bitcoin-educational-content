@@ -1,9 +1,9 @@
-question: Šta je anycast Address u IPv6?
-answer: Address dodeljen na više čvorova
+question: Šta je anycast adresa u IPv6?
+answer: Adresa dodeljena na više uređaja
 wrong_answers:
-  - Address posvećen globalnom multicastingu
-  - Address koji se menja pri svakom ponovnom pokretanju
-  - Address rezervisan za tehničku dokumentaciju
+  - Adresa posvećena globalnom multicastingu
+  - Adresa koja se menja pri svakom ponovnom pokretanju
+  - Adresa rezervisana za tehničku dokumentaciju
 explanation: |
-  Anycast Address je dodeljen više uređajima, a rutiranje isporučuje paket onom koji je topološki najbliži.
-reviewed: false
+  Anycast adresa zajednička za više uređaja, a rutiranje isporučuje paket onom koji je topološki najbliži.
+reviewed: true

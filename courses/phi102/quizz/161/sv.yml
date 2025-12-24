@@ -1,0 +1,8 @@
+question: Enligt Tocquevilles analys av demokratiska samhällen, vilken grundläggande mekanism hindrar regeringar från att vara sparsamma med offentliga utgifter?
+answer: Medborgarna tenderar naturligtvis att avvisa avgifter på sig själva samtidigt som de åtnjuter fördelar, vilket bryter kopplingen mellan att åtnjuta tjänster och att bära deras kostnader
+wrong_answers:
+  - Demokratiska regeringar saknar teknisk expertis för att effektivt förvalta offentliga resurser jämfört med förvaltare i den privata sektorn
+  - Konstitutionella begränsningar hindrar demokratiska ledare från att fatta snabba beslut om budgetnedskärningar under ekonomiska kriser
+  - Valcykler tvingar politikerna att prioritera kortsiktig popularitet framför långsiktigt finanspolitiskt ansvar och ekonomisk planering
+explanation: |
+  Tocqueville identifierade att kärnproblemet ligger i den mänskliga naturen - människor vill av naturliga skäl flytta kostnader till andra samtidigt som de behåller fördelarna för egen del. Detta bryter den viktiga kopplingen mellan att åtnjuta offentliga tjänster och att bära deras kostnader. Denna mekanism möjliggör underskott och skuldackumulering, eftersom nuvarande medborgare kan åtnjuta tjänster samtidigt som den ekonomiska bördan skjuts över på framtida generationer som inte kan försvara sina intressen eftersom de ännu inte existerar eller röstar.

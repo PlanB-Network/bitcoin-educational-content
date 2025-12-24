@@ -1,0 +1,9 @@
+question: ธุรกรรม Bitcoin แรกที่บันทึกไว้คืออะไร?
+answer: การทำธุรกรรม 10 BTC ระหว่าง Satoshi Nakamoto และ Hal Finney.
+wrong_answers:
+  - การทำธุรกรรม 10,000 BTC สำหรับพิซซ่า 2 ถาด
+  - การทำธุรกรรม 1 BTC ระหว่าง Satoshi Nakamoto และ Hal Finney.
+  - การทำธุรกรรม 10,000 BTC ระหว่าง Laszlo Hanyecz และ Hal Finney.
+explanation: |
+  ธุรกรรม Bitcoin ครั้งแรกที่บันทึกไว้คือธุรกรรมของ 10 BTC ระหว่าง Satoshi Nakamoto และ Hal Finney.
+reviewed: true

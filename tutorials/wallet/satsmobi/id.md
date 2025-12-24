@@ -20,7 +20,7 @@ Jika Anda lebih suka menggunakannya secara sederhana, memulai obrolan di Telegra
 
 ## Pengaturan
 
-Dari bilah pencarian Telegram, cari "satsmobi" dan tautan ke [bot] (@SatsMobiBot) akan muncul.
+Dari bilah pencarian Telegram, cari "satsmobi" dan tautan ke [bot](@SatsMobiBot) akan muncul.
 
 
 **Perhatian**: Jika Anda tidak yakin tentang pencarian melalui Telegram, akses bot dengan aman menggunakan [tautan] berikut ini (https://t.me/SatsMobiBot)
@@ -233,4 +233,4 @@ Jika Anda mencari dompet Lightning Network non-kustodian, sangat disarankan untu
 
 
 - [Github](https://github.com/massmux/SatsMobiBot)
-- Daftar putar demo [video] (https://www.youtube.com/results?search_query=Sats.mobi)
+- Daftar putar demo [video](https://www.youtube.com/results?search_query=Sats.mobi)

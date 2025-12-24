@@ -912,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’umugambi wa *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bwa Commitment, buzana iterambere mu bijanye n’ikirenge kuri Blockchain n’ibanga ry’ibikorwa vya Contract. Iciyumviro nyamukuru ni uguhisha Commitment mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot] (Taproot).
+Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’umugambi wa *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bwa Commitment, buzana iterambere mu bijanye n’ikirenge kuri Blockchain n’ibanga ry’ibikorwa vya Contract. Iciyumviro nyamukuru ni uguhisha Commitment mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot](Taproot).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Imbere yo gusobanura ingene Commitment yinjizwa mu gikorwa ca Taproot, reka turabe **uburyo nyabwo** bwa Commitment, butegerezwa **guhuye n'urudodo rw'amabayiti 64** . [yubatswe] (BP-WG/bp-core/blob/umukuru/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
+Imbere yo gusobanura ingene Commitment yinjizwa mu gikorwa ca Taproot, reka turabe **uburyo nyabwo** bwa Commitment, butegerezwa **guhuye n'urudodo rw'amabayiti 64** . [yubatswe](BP-WG/bp-core/blob/umukuru/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
 
 
 ```txt
@@ -2617,7 +2617,7 @@ Ownership yerekeza ku bushobozi bwo kugenzura no gukoresha UTXO yerekanwa na Sea
 PSBT (_Igice ca Bitcoin gishizweko umukono_) ni igitabu ca Bitcoin kitarashirwako umukono ku buryo bushitse. Ishobora gusangizwa hagati y’ibigo vyinshi, kimwe cose kikaba gishobora kwongerako canke kugenzura Elements zimwe zimwe (imikono, inyandiko...), gushika iyo nzira y’ugucuruza ibonwa ko yiteguriye gukwiragizwa On-Chain.
 
 
-Ku bindi bisobanuro: [BIP-0174] (BIP-0174.mediawiki)
+Ku bindi bisobanuro: [BIP-0174](BIP-0174.mediawiki)
 
 
 #### Pedersen commitment
@@ -2645,7 +2645,7 @@ $$
 Iyi nzira ni ngirakamaro, nk'akarorero, mu guhisha amafaranga y'ibimenyetso vyahinduwe, mu gihe ushobora kugenzura igitigiri cose.
 
 
-Ibindi bisobanuro: [Pedersen commitment] (igice ca 10.1007/3-540-46766-1_9)
+Ibindi bisobanuro: [Pedersen commitment](igice ca 10.1007/3-540-46766-1_9)
 
 
 #### Redeem
@@ -2699,7 +2699,7 @@ State Transition ni igikorwa gihindura ikibanza ca RGB Contract kikaja mu kibanz
 #### Taproot
 
 
-Ivuga ku buryo bwo gukoresha Bitcoin bwa SegWit v1, bwashizweho na [BIP341] [BIP342] (Ubuhinga bwo gusoma amakuru). Taproot itera imbere ibanga n’uguhinduranya inyandiko, cane cane mu gutuma amafaranga akoreshwa akora neza kandi akagora gutandukanya n’ayandi.
+Ivuga ku buryo bwo gukoresha Bitcoin bwa SegWit v1, bwashizweho na [BIP341] [BIP342](Ubuhinga bwo gusoma amakuru). Taproot itera imbere ibanga n’uguhinduranya inyandiko, cane cane mu gutuma amafaranga akoreshwa akora neza kandi akagora gutandukanya n’ayandi.
 
 
 #### Terminal Consignment - Consignment Endpoint
@@ -3292,7 +3292,7 @@ Ego ni ko, bivanye n’itariki ubona kuri iri shure, izo nzira zishobora kuba zi
 #### Akarorero ka Interface
 
 
-Iyi kode ya Rust yerekana [RGB20] (umutungo ushobora guhinduka). Iyi kode yakuwe muri dosiye `rgb20.rs` iri mu bubiko bw'ibitabu bwa RGB. Reka tuvyihweze kugira ngo dutahure imiterere ya Interface n’ingene itanga ikiraro hagati, ku ruhande rumwe, Business Logic (isobanuwe muri Schema) n’ibikorwa vyerekanwa n’amasakoshi n’abakoresha.
+Iyi kode ya Rust yerekana [RGB20](umutungo ushobora guhinduka). Iyi kode yakuwe muri dosiye `rgb20.rs` iri mu bubiko bw'ibitabu bwa RGB. Reka tuvyihweze kugira ngo dutahure imiterere ya Interface n’ingene itanga ikiraro hagati, ku ruhande rumwe, Business Logic (isobanuwe muri Schema) n’ibikorwa vyerekanwa n’amasakoshi n’abakoresha.
 
 
 ```rust
@@ -4425,7 +4425,7 @@ Kugira ngo ushiremwo iyi Invoice:
 
 
 
-- Bob (uwufise ibimenyetso muri Stash yiwe) afise Bitcoin Wallet. Arakeneye gutegura igikorwa co gucuruza Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.PSBT`) gikoresha ama UTXO aho ibimenyetso vya RGB bisabwa biri, yongerako UTXO imwe y’amahera (PSBT);
+- Bob (afise amatokeni mu stash yiwe) afise wallet ya Bitcoin. Ategerejwe gutegura transaction ya Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.psbt`) ikoresha UTXO zirimo amatokeni ya RGB akenewe, hakiyongerako UTXO imwe y’ivunjisha (change);
 - Bob ikora itegeko rikurikira:
 
 
@@ -4581,7 +4581,7 @@ Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
 
 
 
-- **Ububiko**: [Ishingiro rya bp] (Ishingiro ry'Igihugu)
+- **Ububiko**: [Ishingiro rya bp](Ishingiro ry'Igihugu)
 - **Isandugu**: [bp-dbc](https://isanduku.io/isanduku/bp-dbc)
 
 
@@ -4643,7 +4643,7 @@ Ivyiyumviro vy’ugushirwa mu ngiro, uburongozi bwa Stash na Wallet.
 
 
 - **Ububiko**: [Ububiko-2184](Ububiko).
-- **Amasandugu**: [RGB-CLI] (Isanduku.io/Isandugu/RGB-CLI), [Isandugu-2187-2185]
+- **Amasandugu**: [RGB-CLI](Isanduku.io/Isandugu/RGB-CLI), [Isandugu-2187-2185]
 
 
 Ivyo bikoresho bikoreshwa mu gukoresha amasezerano.
@@ -4654,7 +4654,7 @@ Ivyo bikoresho bikoreshwa mu gukoresha amasezerano.
 
 
 
-- **Ububiko**: [Imirongo ya RGB] (Imirongo ya RGB/Imirongo ya RGB/)
+- **Ububiko**: [Imirongo ya RGB](Imirongo ya RGB/Imirongo ya RGB/)
 
 
 Irimwo ingero z’imirongo (NIA, UDA, n’ibindi) n’ingene zishirwa mu ngiro.
@@ -4678,7 +4678,7 @@ Igikoresho gishingiye ku kwandika gikoreshwa mu gukoresha inyandiko zo kwemeza.
 
 
 
-- **Ububiko**: [bp-core] (bp-core), [bp-std] (bp-std), [bp-gW-2199](bp-gw-2199)
+- **Ububiko**: [bp-core](bp-core), [bp-std](bp-std), [bp-gW-2199](bp-gw-2199)
 
 
 Ivyongeyeko vyo gushigikira umurongo wa Bitcoin (ibikorwa, ivy’uguca mu nzira, n’ibindi).

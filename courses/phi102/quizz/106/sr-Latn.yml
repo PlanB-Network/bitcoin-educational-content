@@ -1,0 +1,8 @@
+question: Prema analizi Abbé de Saint-Pierrea o komercijalnoj razmeni, koji fundamentalni princip objašnjava zašto dolazi do dobrovoljne trgovine između trgovaca?
+answer: I kupac i prodavac ostvaruju obostranu korist od transakcije, inače nijedan ne bi pristao na trgovinu.
+wrong_answers:
+  - Jedna strana uvek dobija više od druge, stvarajući konkurentsku prednost u budućim pregovorima.
+  - Vlada reguliše cene kako bi osigurala pravednu raspodelu profita između trgovinskih strana.
+  - Tržišne sile automatski balansiraju dobitke tako da ukupno bogatstvo ostaje konstantno kroz sve transakcije
+explanation: |
+  Abbé de Saint-Pierre je prepoznao da je dobrovoljna razmena igra sa pozitivnim ishodom u kojoj obe strane imaju koristi. On je primetio da kada dođe do prodaje između trgovaca, i prodavac i kupac dobijaju jer bez obostrane koristi, nijedna strana ne bi pristala na transakciju po toj ceni. Ovaj princip pokazuje da dobrovoljna trgovina stvara vrednost za obe strane, umesto da jednostavno prenosi bogatstvo sa jedne na drugu, što je razlog zašto ljudi odlučuju da se bave trgovinom i ugovorima.

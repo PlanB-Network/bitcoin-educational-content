@@ -43,7 +43,7 @@ LNbits per i costruttori: [EN](/assets/lnbits-builders-it.pdf) | [DE](/assets/ln
 
 # Alcune nozioni di base
 
-LNbits funziona sulla base del protocollo LNURL, il che significa che le richieste sono valide in due forme: o come link https:// clearnet (non sono ammessi certificati autofirmati) o come link http:// v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).
+LNbits funziona sulla base del protocollo LNURL, il che significa che le richieste sono valide in due forme: o come link https://clearnet (non sono ammessi certificati autofirmati) o come link http://v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).
 
 Prima di installare LNbits, assicuratevi di aver letto e compreso le seguenti guide generali su cosa è LNbits e quali possibilità vi offre.
 
@@ -60,7 +60,7 @@ Guide più dettagliate sull'utilizzo di LNbit in scenari d'uso specifici qui:
 - [Guida introduttiva a LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Guida alla sottostazione
 - [ToDos per la vostra sicurezza con LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
 - [Banche private sulla rete dei fulmini](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Guida alla sottostima
-- [Esegui i portafogli dei custodi per i tuoi amici e parenti] (https://darthcoin.substack.com/p/the-bank-of-lnbits) | Guida alla sottostima
+- [Esegui i portafogli dei custodi per i tuoi amici e parenti](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Guida alla sottostima
 - [LNbits per un piccolo ristorante/albergo](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Guida Substack
 - [Utilizzo del copilota LNbits Streamer](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Guida di Substack
 - [Avvia il tuo mercato NOSTR con LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Guida alla sottostazione
@@ -168,11 +168,11 @@ Per collegare il [Lightning Tipbot](https://t.me/LightningTipBot) da Telegram è
   - `LNBITS_ENDPOINT`: https://ln.tips
   - `LNBITS_KEY`: Per ottenere la chiave è necessario eseguire /api in una chat privata con LightningTipbot su Telegram una volta.
 
-Si veda anche questo tutorial su come installare [LNbits con LightningTipBot via vps] (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
+Si veda anche questo tutorial su come installare [LNbits con LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 ### HUB IBEX
 
-Registratevi [qui] (https://ibexpay.ibexmercado.com/onboard) e poi prendete le vostre chiavi/token da lì, il punto finale è https://ibexpay-api.ibexmercado.com.
+Registratevi [qui](https://ibexpay.ibexmercado.com/onboard) e poi prendete le vostre chiavi/token da lì, il punto finale è https://ibexpay-api.ibexmercado.com.
 
 Per maggiori informazioni, vedere [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
@@ -298,7 +298,7 @@ Si spera che ora tutto funzioni e venga migrato... Avviare nuovamente LNbits e v
 
 #### Backup e ripristino del database
 
-Consultare [questa guida molto dettagliata sul processo di backup e ripristino] (https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
+Consultare [questa guida molto dettagliata sul processo di backup e ripristino](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 #### Finanziare il mio portafoglio LNbits dal mio nodo non funziona
 
@@ -357,7 +357,7 @@ Salvate sempre una copia del vostro wallet-URL, Export2phone-QR o LNDhub per i v
 
 ### Portafoglio sulla propria fonte/nodo di finanziamento
 
-Salvate sempre una copia del vostro wallet-URL, Export2phone-QR o LNDhub per i vostri portafogli in un luogo sicuro. È possibile trovare tutti gli utenti LNbits e gli ID dei portafogli nell'estensione LNbits User Manager o nel database sqlite. Per modificare o leggere il database di LNbits, andate nella cartella LNbits /data e cercate il file sqlite.db. È possibile aprirlo e modificarlo con excel o con un editor SQL dedicato come [SQLite browser] (https://sqlitebrowser.org/).
+Salvate sempre una copia del vostro wallet-URL, Export2phone-QR o LNDhub per i vostri portafogli in un luogo sicuro. È possibile trovare tutti gli utenti LNbits e gli ID dei portafogli nell'estensione LNbits User Manager o nel database sqlite. Per modificare o leggere il database di LNbits, andate nella cartella LNbits /data e cercate il file sqlite.db. È possibile aprirlo e modificarlo con excel o con un editor SQL dedicato come [SQLite browser](https://sqlitebrowser.org/).
 
 Inoltre è possibile scaricare i portafogli tramite cli e visualizzare ogni portafoglio all'interno del database.
 
@@ -439,18 +439,18 @@ Per importare il vostro conto LNbits in un'app portafoglio, aprite il vostro LNb
 
 Quando si esegue questa operazione, si consiglia di impostare anche l'URI della rete LN su quello del proprio nodo. Se l'istanza di LNbits è solo Tor, è necessario utilizzare queste applicazioni con Tor attivato. Anche in questo caso è necessario aprire la pagina di LNbits attraverso il proprio indirizzo Tor .onion.
 
-Se si verifica l'errore "tipo di hash non supportato" quando si utilizza un ypub nell'estensione On-chain, verificare se l'istanza di LNbits utilizza python 3.10, potrebbe essere affetta da [questo problema] (https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Modificare il file openssl.cnf come descritto nella risposta di stackoverflow e riavviare LNbits.
+Se si verifica l'errore "tipo di hash non supportato" quando si utilizza un ypub nell'estensione On-chain, verificare se l'istanza di LNbits utilizza python 3.10, potrebbe essere affetta da [questo problema](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Modificare il file openssl.cnf come descritto nella risposta di stackoverflow e riavviare LNbits.
 
 ## Attrezzi e costruzione con LNbits
 
-LNbits dispone di ogni sorta di [API aperte] (https://legend.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
+LNbits dispone di ogni sorta di [API aperte](https://legend.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
 
 Se siete alle prime armi con la costruzione, iniziate con questa [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) di Ben Arc sulla costruzione di gadget basati su LNbits.
 
 ### IMPORTANTE:
 
 
-- LNbits funziona sulla base del protocollo LNURL, le cui richieste sono valide in due forme: o come link https:// clearnet (non sono ammessi certificati autofirmati) o come link http:// v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).
+- LNbits funziona sulla base del protocollo LNURL, le cui richieste sono valide in due forme: o come link https://clearnet (non sono ammessi certificati autofirmati) o come link http://v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).
 - Per alimentare l'esp32 utilizzare solo cavi dati. Non tutti i cavi supportano i dati oltre all'alimentazione dell'esp. Non saresti il primo se il cavo fornito con l'esp fosse di sola alimentazione
 - Assicurarsi di non utilizzare un hub USB con altri dispositivi collegati. Questo può portare a strani effetti difficili da debuggare (ad esempio, il mancato avvio o l'arresto).
 - Per realizzare i progetti esp con MacOS è necessario un driver UART Bridge. Se avete problemi con il driver su sistemi Mac o Linux, potete trovarli qui o, se si tratta di un display TTGO, qui. Se avete problemi di connessione con Windows, assicuratevi di scaricare la VECCHIA versione 11.1.0 perché quella più recente non funziona! Per verificare la connessione, qui si può trovare anche un terminale seriale, impostato su un baudrate di 115200.

@@ -1,0 +1,9 @@
+question: นักพัฒนา Bitcoin พบกันที่ไหนเพื่อพูดคุยทางเทคนิคแบบไม่เป็นทางการมากขึ้น?
+answer: บนช่อง IRC \#bitcoin-dev
+wrong_answers:
+  - ในส่วนพิเศษของฟอรั่ม
+  - ในรายชื่อผู้รับจดหมายการพัฒนาบิตคอยน์
+  - บนซับเรดดิต r/Bitcoin
+explanation: |
+  This was [created](https: //mmalmi.github.io/satoshi/#email-27) by Martti Malmi in August 2009. It gained some popularity after the Slashdotting in July 2010.
+reviewed: true

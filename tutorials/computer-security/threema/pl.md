@@ -70,7 +70,7 @@ Threema jest dostępna na wszystkich platformach. Aplikację można pobrać bezp
 
 
 
-W systemie Android możliwa jest również [instalacja przez APK] (https://shop.threema.ch/en/download).
+W systemie Android możliwa jest również [instalacja przez APK](https://shop.threema.ch/en/download).
 
 
 
@@ -332,7 +332,7 @@ Tutaj możesz dostosować swój profil: dodać zdjęcie, wybrać, kto może je z
 
 
 
-Jeśli chcesz uzyskać dostęp do swoich rozmów na komputerze, możesz zsynchronizować swoje konto Threema za pomocą dedykowanego oprogramowania. Pobierz oprogramowanie dla swojego systemu operacyjnego [z oficjalnej strony internetowej] (https://threema.ch/en/download).
+Jeśli chcesz uzyskać dostęp do swoich rozmów na komputerze, możesz zsynchronizować swoje konto Threema za pomocą dedykowanego oprogramowania. Pobierz oprogramowanie dla swojego systemu operacyjnego [z oficjalnej strony internetowej](https://threema.ch/en/download).
 
 
 

@@ -90,7 +90,7 @@ Eis a razão pela qual utilizamos o Kali Linux:
 
 
 
-- Transfira e instale o [Balena Etcher] (https://etcher.balena.io/).
+- Transfira e instale o [Balena Etcher](https://etcher.balena.io/).
 
 
 

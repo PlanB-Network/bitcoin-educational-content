@@ -16,7 +16,7 @@ RoboSats (https://learn.robosats.com/), ulusal para birimleri için özel olarak
 ## Kılavuz
 
 
-**Not:** Bu kılavuz Bitocin Q&A'dan (https://bitcoiner.guide/robosats/) alınmıştır. Tüm krediler ona aittir, onu [burada] (https://bitcoiner.guide/contribute) destekleyebilirsiniz; BitcoinQ&A aynı zamanda bir Bitcoin mentorudur. Mentorluk için onunla iletişime geçin!
+**Not:** Bu kılavuz Bitocin Q&A'dan (https://bitcoiner.guide/robosats/) alınmıştır. Tüm krediler ona aittir, onu [burada](https://bitcoiner.guide/contribute) destekleyebilirsiniz; BitcoinQ&A aynı zamanda bir Bitcoin mentorudur. Mentorluk için onunla iletişime geçin!
 
 
 ![image](assets/0.webp)

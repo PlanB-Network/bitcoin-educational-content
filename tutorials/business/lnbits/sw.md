@@ -61,7 +61,7 @@ LNbits kwa wajenzi: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-b
 # Baadhi ya Misingi
 
 
-LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo ina maana kwamba maombi ni halali katika aina mbili: ama kama kiungo cha https:// clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http:// v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits hadi clearnet (https).
+LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo ina maana kwamba maombi ni halali katika aina mbili: ama kama kiungo cha https://clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http://v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits hadi clearnet (https).
 
 
 Kabla ya kusakinisha LNbits hakikisha kuwa umesoma na kuelewa miongozo ifuatayo ya jumla kuhusu LNbits ni nini na inakufungulia uwezekano gani.
@@ -604,7 +604,7 @@ Ukiwa mgeni anza na [Maonyesho ya MakerBits](https://www.youtube.com/channel/UCZ
 ### MUHIMU:
 
 
-- LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo maombi ni halali katika aina mbili: ama kama kiungo cha https:// clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http:// v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits ili clearnet (https).
+- LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo maombi ni halali katika aina mbili: ama kama kiungo cha https://clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http://v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits ili clearnet (https).
 - Tumia DATA-Cables pekee kuwasha esp32 yako. Sio nyaya zote zinazotumia data pamoja na kuwasha esp. Haungekuwa wa kwanza ikiwa kebo iliyokuja na esp ni ya nguvu tu
 - Hakikisha kuwa hutumii USB-Hub iliyo na vifaa vingine vilivyoambatishwa. Hii inaweza kusababisha athari za kushangaza ambazo ni Hard kutatua (k.m. kutoanza au kusitisha).
 - Ili kutambua miradi ya esp na MacOS utahitaji Dereva wa UART Bridge. Ikiwa una matatizo na kiendeshi kwenye mifumo ya Mac au Linux, unaweza kupata hizo hapa au, ikiwa Onyesho la TTGO linahusika hili. Ikiwa uko kwenye madirisha na una matatizo ya kuunganisha hakikisha kuwa umepakua toleo la KALE 11.1.0 kwa sababu jipya zaidi halifanyi kazi! Unaweza pia kupata terminal ya serial hapa ili kuangalia muunganisho wako - iliyowekwa kwa baudrate 115200.

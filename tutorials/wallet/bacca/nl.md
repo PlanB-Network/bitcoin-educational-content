@@ -70,7 +70,7 @@ Om Git te installeren, ga je naar [de officiële website van het project](https:
 ![BACCA](assets/fr/01.webp)
 
 
-Ga op dezelfde manier te werk om Rust te installeren vanaf [de officiële website] (https://www.Rust-lang.org/tools/install).
+Ga op dezelfde manier te werk om Rust te installeren vanaf [de officiële website](https://www.Rust-lang.org/tools/install).
 
 
 ![BACCA](assets/fr/02.webp)

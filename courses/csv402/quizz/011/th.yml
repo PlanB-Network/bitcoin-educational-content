@@ -1,0 +1,9 @@
+question: อะไรที่ประกอบขึ้นเป็น Anchor ใน RGB?
+answer: รหัสธุรกรรม, MPC, DBC, และหลักฐานธุรกรรมเพิ่มเติม
+wrong_answers:
+  - Genesis, Seal Definition, และ Transition Bundle
+  - Contract Schema, Business Logic, และ Owned State
+  - ลายเซ็น, ธุรกรรม Hash, และ Pedersen Commitment
+explanation: |
+  Anchor ประกอบด้วยข้อมูลที่จำเป็นในการพิสูจน์การรวมของข้อผูกพันที่ไม่ซ้ำกันในธุรกรรม Bitcoin
+reviewed: false

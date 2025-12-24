@@ -1,0 +1,9 @@
+question: คีย์ประเภทใดที่เกี่ยวข้องกับคำนำหน้า zpub?
+answer: คีย์สาธารณะที่ขยายสำหรับ SegWit V0 บน Mainnet
+wrong_answers:
+  - คีย์ส่วนตัวแบบขยายสำหรับ SegWit V1 บน Mainnet
+  - คีย์สาธารณะที่ขยายสำหรับ Legacy บน Testnet
+  - คีย์สาธารณะที่ขยายสำหรับ SegWit V2 บน Testnet
+explanation: |
+  คำนำหน้า zpub แสดงถึงคีย์สาธารณะที่ขยายสำหรับสคริปต์ SegWit V0 บน Mainnet
+reviewed: false

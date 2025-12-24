@@ -760,7 +760,7 @@ Un parallèle contemporain peut être tracé avec les propos de Christine Lagard
 
 L'histoire de la République de Weimar révèle que, pendant cette période, les avoirs et capitaux détenus à l'étranger furent confisqués. Cette mesure rappelle des événements plus récents en Russie, notamment au début d'un conflit. Ces situations mettent en évidence une réalité préoccupante : en période de crise, le respect de la propriété privée peut être compromis. C'est un parallèle historique et contemporain qui souligne les répercussions potentielles des crises sur les droits individuels.
 
-> Weimar: "Tous les capitaux allemands détenus à l'étranger avaient été confisqués."
+> Weimar : "Tous les capitaux allemands détenus à l'étranger avaient été confisqués."
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions) : "Environ 300 milliards de dollars des réserves russes détenues à l’étranger ont bien été gelés dans le cadre des sanctions occidentales, sur les 640 milliards de dollars de réserves que compte la Banque centrale russe."
 
@@ -774,7 +774,7 @@ Cette situation soulève une problématique centrale liée à la notion de prix 
 
 #### 4. Le déni du lien entre la masse monétaire et l'inflation.
 
-> Weimar : « Il restait fermement attaché à son point de vue selon lequel l'offre de monnaie n'était liée ni aux niveaux de prix ni aux taux de change ; »"
+> Weimar : « Il restait fermement attaché à son point de vue selon lequel l'offre de monnaie n'était liée ni aux niveaux de prix ni aux taux de change.»
 
 De manière contemporaine, cette tendance persiste avec l'exemple le chapitre précédent d'une liste d'explications avancées par divers économistes et instituts économiques pour justifier l'inflation.
 Ces raisons varient, allant d'événements culturels et de célébrités tels que Taylor Swift, Zelda ou Beyoncé, à des facteurs globaux comme la guerre et la pandémie. Toutes ces raisons, bien que potentiellement contributrices à des fluctuations économiques à court terme, détournent l'attention de la véritable cause sous-jacente, à savoir l'expansion de la masse monétaire
@@ -817,7 +817,7 @@ Nous allons regarder ensemble différentes périodes de rédénomination dans de
 
 ### Explication des graphes
 
-Sur la diapositive, à gauche, figurent les années de rédénomination, le nom de la nouvelle monnaie, et le taux d'échange avec l'ancienne monnaie. Prenant l'exemple de l'Argentine, le peso moneda nacional a été converti au taux de 25 pour 1 de la monnaie précédente, le peso réal. Dans ce contexte, nous examinerons l'évolution de la monnaie argentine au fil du temps. De plus, nous indiquerons les dénominations initiales et finales des billets de banque pour chaque période.
+Sur la diapositive, à gauche, figurent les années de rédénomination, le nom de la nouvelle monnaie et le taux d'échange avec l'ancienne monnaie. Prenant l'exemple de l'Argentine, le peso moneda nacional a été converti au taux de 25 pour 1 de la monnaie précédente, le peso réal. Dans ce contexte, nous examinerons l'évolution de la monnaie argentine au fil du temps. De plus, nous indiquerons les dénominations initiales et finales des billets de banque pour chaque période.
 
 ![image](assets/fr/053.webp)
 
@@ -825,7 +825,7 @@ Sur la diapositive, à gauche, figurent les années de rédénomination, le nom 
 
 Il est à noter que la rédénomination, en période d'inflation, est une mesure courante prise par les gouvernements. Cependant, cela ne résout pas le problème sous-jacent de l'inflation ou de l'hyperinflation. Ce n'est qu'une manière de renommer la monnaie et de supprimer des zéros, sans véritablement s'attaquer à la cause profonde de l'hyperinflation : l'expansion de la masse monétaire. Dans une vidéo ultérieure, nous discuterons des véritables solutions pour aborder et résoudre le problème de l'hyperinflation. Dans cette série, nous mettrons en lumière les conséquences d'une simple rédénomination sans réformes adéquates : l'inflation persiste.
 
-Après l'Argentine, notre étude couvrira le Brésil, la Bolivie, le Pérou, le Nicaragua, et le Venezuela. Nous examinerons les rédénominations qui ont eu lieu dans ces pays.
+Après l'Argentine, notre étude couvrira le Brésil, la Bolivie, le Pérou, le Nicaragua et le Venezuela. Nous examinerons les rédénominations qui ont eu lieu dans ces pays.
 
 ### Argentine
 
@@ -874,7 +874,8 @@ Voilà un aperçu de la tumultueuse histoire monétaire de la Bolivie, marquée 
 
 Le Pérou présente un cas intéressant en ce qui concerne les effets de la règle arbitraire des 50 %. Pour commencer par son histoire monétaire, le Pérou utilisait le réal espagnol jusqu'au 19e siècle et a déclaré son indépendance en 1821. Le réal péruvien était en usage de 1822 à 1863. En 1863, le réal péruvien a été remplacé par le sol de oro, avec un taux de 10 pour 1, atteignant une valeur maximale de 50 000. En 1985, la monnaie "Inti" a été introduite avec un taux de conversion de 1000 pour 1, culminant à 5 millions. En 1991, le "SOL" a été lancé avec un taux de 1 million pour 1, avec des billets allant de 10 à 200.
 
-En examinant les périodes de redénomination, 1988 est considéré comme une année d'hyperinflation, en particulier en septembre. Juillet-août 1990 a également vu une période d'hyperinflation. En 1988, l'inflation annuelle était de 667%, avec un pic de 50% en septembre. En revanche, 1989 a connu une inflation de 3000% sans mois dépassant 50%, donc elle n'a pas été classée comme hyperinflation. En 1990, l'inflation a culminé à 7481%. Il est clair que la règle des 50% peut être arbitraire, car 1988 a été considéré comme une année d'hyperinflation, contrairement à 1989. Si cette règle était reconsidérée, il serait peut-être judicieux de baisser le seuil pour inclure des périodes comme celle vécue par le Pérou en 1989.
+En examinant les périodes de redénomination, 1988 est considéré comme une année d'hyperinflation, en particulier en septembre. Juillet-août 1990 a également vu une période d'hyperinflation. En 1988, l'inflation annuelle était de
+667 %, avec un pic de 50 % en septembre. En revanche, 1989 a connu une inflation de 3000 % sans mois dépassant 50 %, donc elle n'a pas été classée comme hyperinflation. En 1990, l'inflation a culminé à 7481 %. Il est clair que la règle des 50 % peut être arbitraire, car 1988 a été considéré comme une année d'hyperinflation, contrairement à 1989. Si cette règle était reconsidérée, il serait peut-être judicieux de baisser le seuil pour inclure des périodes comme celle vécue par le Pérou en 1989.
 
 #### Comprendre ce qui se passe
 
@@ -918,7 +919,7 @@ Dans la prochaine vidéo, une collection de billets d'hyperinflation sera prése
 
 On a donc vue que l'hyperinflation n'est pas le seul indicateur d'une situation économique catastrophique. Redénominer plusieurs fois, supprimer des zéros ou changer le nom de la monnaie a des répercussions directes sur la population, allant de la perte d'aides à des problèmes d'alimentation. Bien que l'hyperinflation soit préoccupante, le nombre de redénominations, comme celles observées au Brésil, montre une réalité plus complexe.
 
-En se basant sur le critère du arbitraire du 50% d'inflation par mois, plusieurs périodes d'inflation catastrophiques sont écartées de la liste officielle des hyperinflations. Cela est particulièrement vrai lorsqu'on examine les critères de l'organisme international de comptabilité, qui considère entre autres des caractéristiques comme l'abandon rapide de la monnaie par la population, l'indexation des salaires et les prêts assortis de taux d'intérêt élevés pour compenser l'inflation.
+En se basant sur le critère du arbitraire du 50 % d'inflation par mois, plusieurs périodes d'inflation catastrophiques sont écartées de la liste officielle des hyperinflations. Cela est particulièrement vrai lorsqu'on examine les critères de l'organisme international de comptabilité, qui considère entre autres des caractéristiques comme l'abandon rapide de la monnaie par la population, l'indexation des salaires et les prêts assortis de taux d'intérêt élevés pour compenser l'inflation.
 
 En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La haute inflation, à elle seule, peut être tout aussi dommageable. La prochaine section explorera les solutions possibles pour sortir de l'hyperinflation.
 
@@ -948,7 +949,7 @@ Un aspect intéressant soulevé par Bernholz est que la réussite d'une réforme
 
 ![image](assets/fr/064.webp)
 
-Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimbabwéen. Initialement, deux dollars zimbabwéens valaient environ 1,60 dollar américain. Cependant, en 1997, suite à des mesures sociales en faveur des vétérans de la guerre d'indépendance, la monnaie a dévalué de 72% en une journée lors du Black Friday. Puis, au début des années 2000, le pays a lancé un programme de redistribution des terres, retirant les terres des propriétaires blancs pour les remettre à la population locale. Cette décision a nui à l'exportation car les nouveaux propriétaires n'avaient souvent pas l'expertise nécessaire pour gérer d'importantes exploitations agricoles. De fait, alors que le Zimbabwe était un exportateur net en 1999, il est devenu importateur net en 2003.
+Le Zimbabwe a accédé à l'indépendance en 1980 et a introduit le dollar zimbabwéen. Initialement, deux dollars zimbabwéens valaient environ 1,60 dollar américain. Cependant, en 1997, suite à des mesures sociales en faveur des vétérans de la guerre d'indépendance, la monnaie a dévalué de 72 % en une journée lors du Black Friday. Puis, au début des années 2000, le pays a lancé un programme de redistribution des terres, retirant les terres des propriétaires blancs pour les remettre à la population locale. Cette décision a nui à l'exportation car les nouveaux propriétaires n'avaient souvent pas l'expertise nécessaire pour gérer d'importantes exploitations agricoles. De fait, alors que le Zimbabwe était un exportateur net en 1999, il est devenu importateur net en 2003.
 
 En 2006, le pays a introduit une nouvelle version de sa monnaie, le ZWN, avec un taux d'échange de 1 pour 1 000. En 2008, une autre dénomination, le ZWR, a été introduite avec un taux d'échange de 1 pour 10 milliards. Cela a conduit à la création des billets emblématiques de 100 trillions.
 
@@ -1018,7 +1019,7 @@ Bien que posséder un vrai florin soit coûteux aujourd'hui, il existe des repro
 
 La pratique courante était alors la suivante : les orfèvres émettaient des lettres de change en retour des florins déposés chez eux. Ces florins étaient soigneusement gardés dans leurs voûtes. Ainsi, l'or véritable, représenté par le florin, constituait la première couche de monnaie, tandis que les lettres de change formaient une seconde couche. Cependant, la liquidité de ce système était limitée. Si quelqu'un voulait récupérer son or en échange de sa lettre, la transaction était simple. Mais échanger ces lettres entre individus n'était pas courant.
 
-#### La bourse d'Anvers (16e)
+#### La bourse d'Anvers (XVIe siècle)
 
 La bourse d'Anvers a marqué une étape clé dans l'évolution de la monnaie papier. C'est là qu'a été introduite la pratique de l'escompte des billets à ordre. Ces billets étaient des instruments papier représentant une valeur monétaire, mais leur particularité était qu'ils portaient des noms et des dates de maturité. Cela les rendait difficiles à échanger avant la date d'échéance.
 
@@ -1053,7 +1054,7 @@ Suite à la panique bancaire de 1796, un phénomène s'est produit où tout le m
 
 ### Conclusion:
 
-Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept du prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
+Les banques centrales ont évolué pour devenir des prêteurs de dernier recours, suspendant la convertibilité de leur monnaie en or. Bien que cette action ait été initialement conçue comme une solution temporaire, elle est finalement devenue permanente, marquant ainsi l'avènement du concept de prêteur de dernier recours. Cette transformation a façonné les banques centrales telles que nous les connaissons aujourd'hui. Cependant, dans des économies plus fragiles, cette capacité à imprimer de la monnaie à volonté peut entraîner des conséquences indésirables, comme l'hyperinflation, si elle est utilisée de manière irresponsable.
 
 ## Livres et ressources
 

@@ -479,7 +479,7 @@ Le réduire à cela, c’est un peu dommage, car Quesnay a aussi été le premie
 
 Nous parlerons plus en détail de la Physiocratie dans les trois prochains chapitres. Voyons d’abord François Quesnay lui-même.
 
-Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Mantes. 
+Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Nantes. 
 
 Il devient célèbre en 1730, à 36 ans, en s’opposant à la saignée, pratique qui selon lui est le résultat de théories fausses et de préjugés. Il ose également défier le système des corporations, dans lequel les chirurgiens peuvent seuls faire les opérations et les médecins donner les médicaments ; dans de nombreux cas, le bas peuple devait payer deux fois, et faire venir deux personnes, ce qui révoltait Quesnay. 
 
@@ -534,9 +534,9 @@ Ses origines peuvent être trouvées dans le développement des idées économiq
 
 
 
-Le laissez-faire avait connu plusieurs défenseurs depuis Boisguilbert, en particulier Vincent de Gournay et le marquis d’Argenson.
+Le laissez-faire avait connu plusieurs défenseurs depuis Boisguilbert, en particulier Vincent de Gournay et le Marquis d’Argenson.
 
-Il restait à faire de cette masse d’idées une doctrine précise et complète. C’est le marquis de Mirabeau qui essaya le premier de le faire. Il prit pour modèle l’Essai de Cantillon et se lança dans l’écriture d’un traité complet sur les matières économiques qu’il intitula l’Ami des Hommes et qui eut un grand succès.
+Il restait à faire de cette masse d’idées une doctrine précise et complète. C’est le Marquis de Mirabeau qui essaya le premier de le faire. Il prit pour modèle l’Essai de Cantillon et se lança dans l’écriture d’un traité complet sur les matières économiques qu’il intitula l’Ami des Hommes et qui eut un grand succès.
 
 Nous sommes en 1756 ; l’histoire de la Physiocratie peut dès lors commencer. François Quesnay, chirurgien devenu médecin personnel de Mme de Pompadour, la favorite de Louis XV, invite Mirabeau à Versailles pour débattre de ses idées économiques. 
 
@@ -549,7 +549,7 @@ Au bout de la discussion, Mirabeau se range aux idées de Quesnay. Dès lors ils
 
 
 
-L’accueil fait à leurs efforts n’est pas excellent. À la cour, c’est l’indifférence qui prédomine. Le Roi reconnaît le goût de Quesnay pour les théories et l’appelle avec fierté "mon penseur". Mais outre cette marque d’affection, les travaux des deux économistes se soldent sur un échec. Avec la Théorie de l’impôt, ils parviennent même à se mettre à dos les administrateurs de l’impôt, durement critiqués dans le livre. Ceux-ci réclament et obtiennent que Mirabeau soit envoyé en prison. Madame de Pompadour l’en sortira mais il continuera quelques semaines un exil sur ses terres de Bignon. 
+L’accueil fait à leurs efforts n’est pas excellent. À la Cour, c’est l’indifférence qui prédomine. Le Roi reconnaît le goût de Quesnay pour les théories et l’appelle avec fierté "mon penseur". Mais outre cette marque d’affection, les travaux des deux économistes se soldent sur un échec. Avec la Théorie de l’impôt, ils parviennent même à se mettre à dos les administrateurs de l’impôt, durement critiqués dans le livre. Ceux-ci réclament et obtiennent que Mirabeau soit envoyé en prison. Madame de Pompadour l’en sortira mais il continuera quelques semaines un exil sur ses terres de Bignon. 
 
 ![image](assets/fr/049.webp)
 
@@ -608,7 +608,7 @@ Libéraux en économie, les Physiocrates ne l’étaient donc pas en matière po
 
 ![image](assets/fr/055.webp)
 
-Les Physiocrates, Tocqueville le remarque bien, ont repoussé la démocratie dès qu’ils en ont aperçu les formes. Ils sont septiques envers la démocratie : ce sera une constante dans l’économie politique française. Car la démocratie est loin d’être un système parfait : c’est potentiellement l’oppression des minorités par la majorité ; elle peut être un instrument d’usurpation, de tyrannie et de spoliation.
+Les Physiocrates, Tocqueville le remarque bien, ont repoussé la démocratie dès qu’ils en ont aperçu les formes. Ils sont sceptiques envers la démocratie : ce sera une constante dans l’économie politique française. Car la démocratie est loin d’être un système parfait : c’est potentiellement l’oppression des minorités par la majorité ; elle peut être un instrument d’usurpation, de tyrannie et de spoliation.
 
 ### Troisième principe : respect absolu de la propriété privée
 
@@ -671,7 +671,7 @@ Conscient de la perte de notoriété qu’ils étaient en train de connaître, T
 
 ![image](assets/fr/061.webp)
 
-Lors de la Révolution française, les Physiocrates n’étaient plus très nombreux. Après la mort du marquis de Mirabeau, le 13 juillet 1789 — tout un symbole —, il ne restait plus qu’Abeille, d’ailleurs éloigné désormais de la Physiocratie, et Dupont de Nemours, qui y resta toujours fidèle. Nommé à l’Assemblé, Dupont de Nemours porta la voix de la physiocratie et demanda des réformes économiques en faveur de la propriété et de la liberté du commerce. 
+Lors de la Révolution française, les Physiocrates n’étaient plus très nombreux. Après la mort du marquis de Mirabeau, le 13 juillet 1789 — tout un symbole —, il ne restait plus qu’Abeille, d’ailleurs éloigné désormais de la Physiocratie, et Dupont de Nemours, qui y resta toujours fidèle. Nommé à l’Assemblée, Dupont de Nemours porta la voix de la physiocratie et demanda des réformes économiques en faveur de la propriété et de la liberté du commerce. 
 
 ![image](assets/fr/062.webp)
 

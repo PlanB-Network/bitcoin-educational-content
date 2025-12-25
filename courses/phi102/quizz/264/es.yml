@@ -1,0 +1,8 @@
+question: ¿Cuál es, según el texto, el método principal para reformar la libertad y qué ejemplo histórico lo demuestra?
+answer: Mediante la movilización de la opinión pública y el debate de ideas, como demostraron Cobden y la Liga contra la Ley del Maíz en Inglaterra
+wrong_answers:
+  - "A través de la agitación revolucionaria y la sustitución completa del sistema, como demuestra la transformación de la sociedad por la Revolución Francesa"
+  - "A través de la intervención gradual del Estado y la reforma reguladora, como demostró la política comercial de cereales de los fisiócratas en Francia"
+  - Mediante la cooperación internacional y la negociación de tratados, como demostraron los movimientos europeos de libre comercio del siglo XVIII
+explanation: |
+  El texto aboga explícitamente por la reforma frente a la revolución, citando el análisis de Tocqueville de que las revoluciones son costosas y suelen consolidar el poder centralizado. Presenta a Cobden y a la Liga contra la Ley del Maíz como el enfoque modelo, logrando la abolición de las leyes del grano mediante reuniones organizadas y debates públicos en toda Gran Bretaña. Este método se ajusta a los valores liberales de competencia, libertad y perfectibilidad a través de la persuasión y no de la fuerza.

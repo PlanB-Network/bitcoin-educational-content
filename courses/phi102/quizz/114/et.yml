@@ -1,0 +1,8 @@
+question: Mis juhtub vaba turu majandusteooria kohaselt, kui ettevõtjad ennetavad enneaegselt tarbijate nõudlust uuenduse järele, mida veel ei ole olemas?
+answer: Loomulikult heidutab kasumi puudumine neid jätkamast ja takistab teisi nende eeskuju järgimast
+wrong_answers:
+  - Valitsuse sekkumine suunab nende jõupingutused toetuste kaudu sotsiaalselt kasulikumatele projektidele
+  - Nad jätkavad investeerimist seni, kuni tarbijate eelistused lõpuks nende esialgsete prognoosidega ühilduvad
+  - Tururegulatsioonid sunnivad neid oma projektidest loobuma, et vältida majanduslikku raiskamist
+explanation: |
+  Vabaturusüsteemis on kasum oluline signaal, mis näitab tarbijate tegelikku nõudlust. Kui ettevõtjad hindavad turu ajastust valesti ja prognoosivad nõudlust, mida ei ole olemas, ei suuda nad generate kasumit saada, mis loomulikult heidutab edasisi investeeringuid selles suunas. See enesekorrigeeriv mehhanism takistab ressursside raiskamist enneaegsetele uuendustele. Teised valikud viitavad ekslikult välisele sekkumisele või püsivatele investeeringutele vaatamata turusignaalidele, mis on vastuolus peatükis rõhutatuga sellele, kuidas kasumimärguanded suunavad ratsionaalseid majandusotsuseid.

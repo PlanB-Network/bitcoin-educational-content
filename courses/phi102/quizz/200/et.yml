@@ -1,0 +1,8 @@
+question: Millise loogilise vea aluseks on Bastiat' majandussofismide kriitikas protektsionistlik argument, mille kohaselt Prantsusmaa peaks vältima Inglismaa rikastumist kaubanduse kaudu?
+answer: Vale eeldus, et majandushuvid on vabatahtlikus kaubavahetuses pigem antagonistlikud kui harmoonilised
+wrong_answers:
+  - Ekslik arvamus, et Prantsusmaal ei ole piisavalt loodusvarasid, et Inglismaaga konkureerida
+  - "Ekslik arusaam, et Inglismaa tööstuslik võimsus annab talle ebaõiglase tehnoloogilise eelise"
+  - Ekslik eeldus, et kaubandusdefitsiit toob automaatselt kaasa riigi majanduslanguse
+explanation: |
+  Bastiat tuvastas, et protektsionistid vaatlevad majandussuhteid ekslikult vastuoluliste huvide arhailise objektiivi kaudu, mis sarnaneb iidsete hõimude võitlusele jahipiirkondade pärast. Tegelikkuses on vabatahtlikust vahetusest kasu mõlemale poolele - kui kliendid ja tarnijad kauplevad vabalt, saavad mõlemad kasu. Protektsionistide hirm "vaenlaste rikastumise" ees kaubanduse kaudu peegeldab põhimõttelist arusaamatust sellest, kuidas turusuhted toimivad, kus vastastikune kasu, mitte nullsummaline konkurents, iseloomustab tõelist majanduslikku suhtlust.

@@ -1,0 +1,8 @@
+question: Kulingana na uchambuzi wa kiliberali, kwa nini kukandamizwa kwa uhuru wa kiuchumi katika mfumo wa jumuiya bila shaka kunasababisha kupotea kwa uhuru wa kuishi na kuishi?
+answer: Kwa sababu bila uhuru wa kuchagua kazi, watu lazima waishi karibu na mahali pao pa kazi na hawawezi kuchagua makazi yao.
+wrong_answers:
+  - Kwa sababu serikali inahitaji kufuatilia raia kwa karibu na lazima iwajikite katika maeneo yaliyotengwa ya makazi
+  - Kwa sababu umiliki wa pamoja wa mali unamaanisha kuwa watu binafsi hawawezi kumiliki nyumba na lazima wakubali nyumba zilizotengwa na serikali.
+  - Kwa sababu mipango ya kiuchumi inahitaji usambazaji wa idadi ya watu ili kuendana na upatikanaji wa rasilimali katika maeneo tofauti
+explanation: |
+  Uchambuzi wa kiliberali unaonyesha mnyororo wa moja kwa moja wa sababu: katika mfumo wa jumuiya, serikali huwapa watu kazi maalum na matawi ya uzalishaji bila chaguo lao. Kwa kuwa watu kwa kawaida huishi karibu na mahali pao pa kazi kwa sababu za vitendo, na hawawezi kuchagua kazi zao, kwa hivyo hawawezi kuchagua mahali pa kuishi. Hii inaonyesha jinsi ukosefu wa uhuru wa kiuchumi unavyounda athari ya domino, na kuondoa kimfumo uhuru mwingine wa kibinafsi ambao unaweza kuonekana hauhusiani na uchumi.

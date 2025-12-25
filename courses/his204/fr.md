@@ -813,7 +813,7 @@ Division du travail, souveraineté du consommateur, propriété privée, rôle d
 
 ![image](assets/fr/076.webp)
 
-Turgot a défendu la liberté du commerce des grains dans des lettres à l’abbé Terray, ensuite communiquées au Roi, mais dont la moitié est désormais perdue. Il écrit :
+Turgot a défendu la liberté du commerce des grains dans des lettres à l’Abbé Terray, ensuite communiquées au Roi, mais dont la moitié est désormais perdue. Il écrit :
 
 
 > Monsieur, si quelque chose presse, ce n’est pas de mettre de nouvelles entraves au commerce le plus nécessaire de tous ; c’est d’ôter celles qu’on a malheureusement laissé subsister.
@@ -821,7 +821,7 @@ Turgot a défendu la liberté du commerce des grains dans des lettres à l’abb
 
 
 
-En 1769, Turgot composa l’article Valeurs et monnaie, pour le Dictionnaire de Commerce de l’abbé Morellet, qui finalement ne paraîtra jamais. Galiani avait déjà remarqué que "l’homme est la commune mesure de toute chose", préfigurant cette analyse subjective que conduira Turgot trente ans plus tard dans cet article, où celui-ci développe cette proposition et la prouve.
+En 1769, Turgot composa l’article Valeurs et monnaie, pour le Dictionnaire de Commerce de l’Abbé Morellet, qui finalement ne paraîtra jamais. Galiani avait déjà remarqué que "l’homme est la commune mesure de toute chose", préfigurant cette analyse subjective que conduira Turgot trente ans plus tard dans cet article, où celui-ci développe cette proposition et la prouve.
 
 En 1770, bien avant Bentham, Turgot compose un mémoire réclamant la liberté du taux de l’intérêt et de l’usure. 
 
@@ -829,7 +829,7 @@ En 1770, bien avant Bentham, Turgot compose un mémoire réclamant la liberté d
 
 "C'est une erreur de croire que l'intérêt de l'argent dans le commerce doive être fixé par les lois des princes, dit-il : c'est un prix courant qui se règle de lui-même, comme celui de toutes les autres marchandises." Pour défendre cette position, il réfute l’opposition d’Aristote et celle des pères de l’Eglise.
 
-On trouve dans un écrit oublié de 1773, une lettre à l’abbé Terray sur la marque des fers, un résumé remarquable de la doctrine du laissez-faire telle que l’entendait Turgot:
+On trouve dans un écrit oublié de 1773, une lettre à l’Abbé Terray sur la marque des fers, un résumé remarquable de la doctrine du laissez-faire telle que l’entendait Turgot:
 
 > Ce que doit faire la politique est de s’abandonner au cours de la nature et au cours du commerce, non moins nécessaire, non moins irrésistible que le cours de la nature, sans prétendre le diriger ; parce que, pour le diriger sans le déranger et sans se nuire à soi-même, il faudrait pouvoir suivre toutes les variations des besoins, des intérêts, de l’industrie des hommes ; il faudrait les connaître dans un détail qu’il est physiquement impossible de se procurer, et sur lequel le gouvernement le plus habile, le plus actif, le plus détailleur, risquera toujours de se tromper au moins de la moitié."
 
@@ -847,7 +847,7 @@ Comme nous l’avons rapidement rappelé dans le chapitre précédent, Turgot es
 ![image](assets/fr/079.webp)
 
 Son père était prévôt des marchands de Paris et son grand-père intendant. Après de brillantes études, le dernier né des Turgot entend atteindre au minimum ces fonctions. 
-Il est d’abord un temps maître des requêtes, c’est-à-dire correspondant des intendants à Versailles. C’est un poste prestigieux, pour lequel il a du d’ailleurs obtenir une dispense d’âge, mais Turgot voit plus grand. La mort de son maitre Gournay l’incite d’ailleurs à viser plus haut et il sollicite du pouvoir un poste d’intendant.
+Il est d’abord un temps maître des requêtes, c’est-à-dire correspondant des intendants à Versailles. C’est un poste prestigieux, pour lequel il a du d’ailleurs obtenir une dispense d’âge, mais Turgot voit plus grand. La mort de son maître Gournay l’incite d’ailleurs à viser plus haut et il sollicite du pouvoir un poste d’intendant.
 
 En 1759 il demande d’abord l'intendance de Grenoble, mais elle lui est refusée. On lui propose à la place le poste de prévôt des marchands de Lyon, il décline. Il demande l'intendance de Bretagne, refusée également. Finalement en 1761 on lui propose le Limousin, et il accepte, un peu résigné. Il écrit à Voltaire : "j'ai le malheur d'être intendant" ;  peut-être en voulant dire : j'ai le malheur d'être intendant en Limousin. 
 
@@ -879,7 +879,7 @@ Turgot prépara six édits pour réformer l’économie française.
 
 C’était la première fois, et déjà l’une des dernières, où un spécialiste de l’économie était doté de la liberté d’action pour réformer l’économie de son pays. Trois de ces édits sont majeurs : l’un supprime les corvées, l’autre supprime les corporations, le troisième enfin établit la liberté du commerce des grains.
 
-À son entrée au ministère, Turgot savait qu’il devrait composer avec la résistance des privilégiés. "Je serai craint, haï même de la plus grande partie de la cour, de tout ce qui sollicite des grâces" avait-il dit au Roi. Les privilégiés se coalisèrent contre lui et causèrent son renvoi du Contrôle général des finances. Voltaire, tout acquis aux réformes de Turgot, écrira dans sa correspondance : 
+À son entrée au ministère, Turgot savait qu’il devrait composer avec la résistance des privilégiés. "Je serai craint, haï même de la plus grande partie de la Cour, de tout ce qui sollicite des grâces" avait-il dit au Roi. Les privilégiés se coalisèrent contre lui et causèrent son renvoi du Contrôle général des finances. Voltaire, tout acquis aux réformes de Turgot, écrira dans sa correspondance : 
 
 > Ah ! quelle funeste nouvelle j’apprends ! Que deviendrons-nous ? Je suis atterré ! Nous ne nous consolerons jamais d’avoir vu naître et périr l’âge d’or ! Ce coup de foudre m’est tombé sur la cervelle et sur le cœur.
 
@@ -902,7 +902,7 @@ Tout comme le mercantilisme, qui est sa manifestation pratique la plus évidente
 
 Ce sophisme, c’est l’idée que le commerce, l’échange, est un jeu à somme nulle. Tout ce qu’un agent gagne dans un échange, est forcément perdu par celui avec lequel il échange. Cela vaut, soutiennent ses partisans, aussi bien entre les individus qu’entre les nations.
 
-L’abbé de Condillac a joué un rôle majeur pour détruire définitivement cette idée fausse. 
+L’Abbé de Condillac a joué un rôle majeur pour détruire définitivement cette idée fausse. 
 
 
 
@@ -984,7 +984,7 @@ Bien qu’il employât toute son énergie à défendre Turgot, Condorcet n’ava
 
 :::video id=5e2e68a8-9fe7-4aeb-8ade-248ae4153523:::
 
-Dupont de Nemours était le plus jeune des disciples de François Quesnay, qui avait dit de lui : "Il faut soigner ce jeune homme, car il parlera quand nous serons morts." Quand sonna la Révolution française, tous les autres grands représentants de la Physiocratie étaient effectivement déjà morts, y compris le marquis de Mirabeau, qui s’arrangea pour s’éteindre le 13 juillet 1789. 
+Dupont de Nemours était le plus jeune des disciples de François Quesnay, qui avait dit de lui : "Il faut soigner ce jeune homme, car il parlera quand nous serons morts." Quand sonna la Révolution française, tous les autres grands représentants de la Physiocratie étaient effectivement déjà morts, y compris le Marquis de Mirabeau, qui s’arrangea pour s’éteindre le 13 juillet 1789. 
 
 Dupont de Nemours rédigea le cahier de doléance du baillage de Nemours. 
 
@@ -1006,7 +1006,7 @@ Il vaudrait mieux, dit-il, abandonner l’entreprise des banques aux lois de la 
 
 Cependant l’Assemblée passa outre ses critiques et fit un pas de plus dans la direction de l’établissement d’une banque centrale et dans l’instauration du monopole bancaire.
 
-En 1790, à l’Assemblé constituante, Dupont de Nemours suivra la fibre pacifiste de ses anciens amis Physiocrates et proposera un projet de loi interdisant les guerres offensives. On lisait dans le premier article :  "La Nation Française ne se permettra aucune guerre offensive pour s’emparer du territoire d’autrui, ni pour porter atteinte aux droits ou à la liberté d’aucune Nation." 
+En 1790, à l’Assemblée constituante, Dupont de Nemours suivra la fibre pacifiste de ses anciens amis Physiocrates et proposera un projet de loi interdisant les guerres offensives. On lisait dans le premier article :  "La Nation Française ne se permettra aucune guerre offensive pour s’emparer du territoire d’autrui, ni pour porter atteinte aux droits ou à la liberté d’aucune Nation." 
 Le projet de loi fut écarté. 
 
 En cette même année 1790, les débats commencèrent autour de l’émission d’un nouveau papier monnaie destiné à payer les dépenses de l’Etat.
@@ -1021,7 +1021,7 @@ Encore une fois, on passa outre son avis, et les assignats furent créés.
 
 ![image](assets/fr/093.webp)
 
-On sait quelle catastrophe, quelle ruine ils causèrent, et quelle fut aussi la misère du peuple, certains ayant tout perdu, quand il s’avéra que les assignats étaient sans valeur et qu’on devait se résigner à les bruler.
+On sait quelle catastrophe, quelle ruine ils causèrent, et quelle fut aussi la misère du peuple, certains ayant tout perdu, quand il s’avéra que les assignats étaient sans valeur et qu’on devait se résigner à les brûler.
 
 Quelques années plus tard, l’Assemblée s’occupa de réfléchir à la création d’une véritable banque de France, qui serait dotée d’un monopole sur la production de monnaie.
 
@@ -1052,7 +1052,7 @@ Vincent de Gournay affirme que la sur-réglementation du travail décourage les 
 
 
 
-Le marquis d’Argenson affirme qu’aucun gouvernement n’est capable de tout prévoir, de tout mesurer, et que par conséquent, il faut s’en remettre à l’intérêt personnel de chaque individu. 
+Le Marquis d’Argenson affirme qu’aucun gouvernement n’est capable de tout prévoir, de tout mesurer, et que par conséquent, il faut s’en remettre à l’intérêt personnel de chaque individu. 
 
 ![image](assets/fr/095.webp)
 

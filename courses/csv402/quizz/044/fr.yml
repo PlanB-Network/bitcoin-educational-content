@@ -5,5 +5,6 @@ wrong_answers:
   - Par la mécanique punitive du protocole RGB
   - Par l'intervention de l'émetteur de l'actif RGB via sa signature associée au Genesis
 explanation: |
-  Le mécanisme punitive classique du Lightning Network assure que la diffusion d'un état ancien peut être sanctionnée par la récupération de l'ensemble des fonds mis en jeu, notamment les actifs RGB.
+  Le mécanisme punitif classique du Lightning Network garantit que la diffusion d'un état ancien peut être sanctionnée par la récupération de tous les fonds impliqués, y compris les actifs RGB.
+révisé : faux
 reviewed: false

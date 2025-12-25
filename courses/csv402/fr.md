@@ -115,7 +115,7 @@ Pour comprendre en quoi la Client-side Validation et RGB répondent à des probl
 
 La blockchain est très décentralisée, mais peu scalable. De plus, comme tout se trouve dans un registre global et public, la confidentialité est limitée. On peut tenter d'améliorer la confidentialité avec des technologies zero-knowledge (transactions confidentielles, schémas mimblewimble, etc.), mais la chaîne publique ne peut pas masquer le graphique des transactions.
 
-- **Lightning/State channels**
+- **Lightning/Canaux d'état**
 
 Les canaux d'état (comme avec le Lightning Network) sont davantage scalables et plus privés que la blockchain, car les transactions s'effectuent off-chain. Toutefois, l'obligation d'annoncer publiquement certains éléments (transactions de financement, topologie du réseau) et la surveillance du trafic réseau peuvent compromettre en partie la confidentialité. Aussi, la décentralisation en pâtit : le routage requiert une grande quantité de liquidités et les nœuds majeurs peuvent devenir des points de centralisation. C'est justement un phénomène que l'on peut commencer à observer actuellement sur Lightning.
 
@@ -195,7 +195,7 @@ En pratique, ce modèle fonctionne pour Bitcoin en tant que couche de base (Laye
 
 La Client-side Validation repose sur l’idée inverse : plutôt que d’imposer que tout le réseau valide et stocke toutes les transactions, chaque participant (client) validera uniquement la partie de l’historique qui le concerne :
 - Lorsqu’une personne reçoit un actif (ou tout autre actif numérique), elle n’a besoin de connaître et de vérifier que la chaîne d’opérations (les transitions d'état) qui aboutit à cet actif et qui en prouve la légitimité ;
-- Cette suite d’opérations, de la ***Genesis*** (émission initiale) jusqu’à la transaction la plus récente, forme un graphe orienté acyclique (DAG) ou un shard, c’est-à-dire une fraction de l'historique global.
+- Cette suite d’opérations, de le ***Genesis*** (émission initiale) jusqu’à la transaction la plus récente, forme un graphe orienté acyclique (DAG) ou un shard, c’est-à-dire une fraction de l'historique global.
 
 ![RGB-Bitcoin](assets/en/013.webp)
 
@@ -353,11 +353,11 @@ Notons que ces briques logicielles sont agnostiques par rapport à Bitcoin ; on 
 
 Peter Todd a également créé le protocole _Open Timestamps_, et le concept de Single-use Seal est un prolongement naturel de ces idées. Au-delà de RGB, on peut envisager d'autres cas d'utilisation, par exemple la construction de _sidechains_ sans recourir au _merge mining_ ni aux propositions liées aux drivechains comme le BIP300. Tout système nécessitant un engagement unique peut, en principe, exploiter cette primitive cryptographique. Aujourd'hui, RGB est la première grande mise en application concrète et complète.
 
-#### Problèmes de disponibilité des données
+#### Problèmes liés à la disponibilité des données
 
 Étant donné qu'en Client-side Validation, chaque utilisateur stocke sa partie de l'historique, la disponibilité des données n'est pas garantie globalement. Si un émetteur de contrat ne publie pas certaines informations ou les révoque, vous pourriez ignorer l'évolution réelle de l'offre. Dans certains cas (comme les stablecoins), on s'attend à ce que l'émetteur tienne à jour des données publiques pour prouver le volume en circulation, mais rien ne l'y contraint techniquement. Il est donc possible de concevoir des contrats volontairement opaques avec un stock illimité, ce qui pose des questions de confiance.
 
-#### Sharding et isolement des contrats
+#### Sharding et isolation des contrats
 
 Chaque contrat représente un _shard_ isolé : USDT et USDC, par exemple, n'ont pas à partager leur historique. Les swaps atomiques restent possibles, mais cela n'implique pas de fusionner leurs registres. Tout se fait par engagement cryptographique, sans divulguer l'ensemble du graphe d'historique à chaque participant.
 
@@ -418,7 +418,7 @@ Ce schéma a été sélectionné pour sa compatibilité avec l’architecture RG
 
 La mention "O2" dans "TxO2" rappelle que la définition et la fermeture reposent toutes deux sur la dépense (ou la création) d’une sortie de transaction.
 
-### Exemple d'utilisation du schéma TxO2
+### Exemple de diagramme TxO2
 
 Pour rappel, définir un _single-use seal_ ne nécessite pas nécessairement de publier une transaction on-chain. Il suffit qu’Alice, par exemple, possède déjà un UTXO non dépensé. Elle peut décider : "Cet _outpoint_ (déjà existant) est désormais mon scellé". Elle le note localement (_client-side_), et tant que cet UTXO n’est pas dépensé, le scellé est considéré comme ouvert.
 
@@ -591,11 +591,11 @@ Pour inclure un commitment **Tapret**, il faut alors ajouter une **Script Path S
 - `t = tH_TWEAK(P || Script_root)` devient alors le nouveau facteur de tweak, incluant le **Script_root**.
 - `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` représente la racine de ce **script**, laquelle est simplement un hash de type `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
 
-La preuve d’inclusion et d’unicité dans l’arbre taproot se résume ici à la seule clé publique interne `P`.
+La preuve d’inclusion et d’unicité dans l’arborescence taproot se résume ici à la seule clé publique interne `P`.
 
 #### Intégration Tapret dans un Script Path préexistant
 
-Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui comporte déjà plusieurs scripts. Par exemple, on dispose d’un arbre de 3 scripts :
+Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui comporte déjà plusieurs scripts. Par exemple, on dispose d’une arborescence de 3 scripts :
 
 ![RGB-Bitcoin](assets/en/049.webp)
 
@@ -709,7 +709,7 @@ Le Multi Protocol Commitment (MPC) vise à répondre à deux besoins :
 - La construction du hash `mpc::Commitment` : celui-ci sera inclus dans la blockchain Bitcoin selon un schéma `Opret` ou `Tapret`, et doit refléter l’ensemble des états changés (state changes) à valider ;
 - Le stockage simultané de plusieurs contrats dans un seul _commitment_, permettant de gérer en une seule transaction Bitcoin des mises à jour distinctes, portant sur plusieurs assets ou contrats RGB.
 
-Concrètement, chacun des _transition bundles_ appartient à un contrat particulier. Toutes ces informations sont insérées dans un **MPC Tree** dont la racine (`mpc::Root`) est ensuite hachée de nouveau pour donner le `mpc::Commitment`. C’est ce dernier hash qui est placé dans la transaction Bitcoin (_witness transaction_), selon la méthode déterministe choisie.
+Concrètement, chacun des _transition bundles_ appartient à un contrat particulier. Toutes ces informations sont insérées dans un **MPC Tree** dont la racine (`mpc::Root`) est ensuite hashée de nouveau pour donner le `mpc::Commitment`. C’est ce dernier hash qui est placé dans la transaction Bitcoin (_witness transaction_), selon la méthode déterministe choisie.
 
 ![RGB-Bitcoin](assets/en/042.webp)
 
@@ -724,18 +724,18 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 où :
 - `mpc_tag` est une étiquette : `urn:ubideco:mpc:commitment#2024-01-31`, choisie selon les [conventions RGB de tagging](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md) ;
 - `depth` (1 octet) indique la profondeur du *MPC Tree* ;
-- `cofactor` (16 bits, en Little Endian) est un paramètre permettant de favoriser l’unicité des positions assignées à chaque contrat dans l’arbre ;
+- `cofactor` (16 bits, en Little Endian) est un paramètre permettant de favoriser l’unicité des positions assignées à chaque contrat dans l’arborescence ;
 - `mpc::Root` est la racine de *MPC Tree*, calculée selon le processus décrit dans la section suivante.
 
 ![RGB-Bitcoin](assets/en/044.webp)
 
-#### Construction du MPC Tree
+#### Construction de l'arborescence du MPC
 
-Pour construire ce MPC Tree, il faut assurer qu’à chaque contrat corresponde une position de feuille unique. Supposons qu’on ait :
+Pour construire cette arborescence (MPC Tree), il faut assurer qu’à chaque contrat corresponde une position de feuille unique. Supposons qu’on ait :
 - `C` contrats à inclure, indexés par `i` dans `i = {0,1,..,C-1}` ;
 - Pour chaque contrat `c_i`​, on dispose d’un identifiant `ContractId(i) = c_i`.
 
-On va alors construire un arbre de largeur `w` et de profondeur `d` telle que `2^d = w`, avec `w > C`, de sorte que chaque contrat puisse être placé dans une _leaf_ distincte. La position `pos(c_i)` de chaque contrat dans l’arbre est déterminée par :
+On va alors construire une arborescence de largeur `w` et de profondeur `d` telle que `2^d = w`, avec `w > C`, de sorte que chaque contrat puisse être placé dans une _leaf_ distincte. La position `pos(c_i)` de chaque contrat dans l’arborescence est déterminée par :
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
@@ -746,7 +746,7 @@ où `cofactor` est un entier qui augmente les probabilités d’obtenir des posi
 - On tente différents `cofactor` (jusqu’à `w/2`, ou un maximum de 500 pour des raisons de performance) ;
 - Si on ne parvient pas à positionner tous les contrats sans collision, on incrémente `d` et on recommence.
 
-Le but est d’éviter les arbres trop grands tout en maintenant un risque de collision minimal. Notons que le phénomène de collisions suit une logique de distribution aléatoire, liée au [Paradoxe des anniversaires](https://en.wikipedia.org/wiki/Birthday_problem).
+Le but est d’éviter les arborescences trop grandes tout en maintenant un risque de collision minimal. Notons que le phénomène de collisions suit une logique de distribution aléatoire, liée au [Paradoxe des anniversaires](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Les feuilles habitées
 
@@ -759,7 +759,7 @@ tH_MPC_LEAF(c_i) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x10 ||
 où :
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
 - `0x10` identifie un _contract leaf_ ;
-- `c_i` est l’identifiant de 32 octets du contrat (issu du hash de sa Genesis) ;
+- `c_i` est l’identifiant de 32 octets du contrat (issu du hash de son Genesis) ;
 - `BundleId(c_i)` est un hash de 32 octets décrivant l’ensemble des `State Transitions` relatives à `c_i` (réunies en une *Transition Bundle*).
 
 #### Les feuilles inhabitées
@@ -773,12 +773,12 @@ tH_MPC_LEAF(j) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x11 || e
 où :
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
 - `0x11` désigne une _entropy leaf_ ;
-- `entropy` est une valeur aléatoire de 64 octets, choisie par la personne qui construit l’arbre ;
-- `j` est la position (en 32 bits Little Endian) de cette feuille dans l’arbre.
+- `entropy` est une valeur aléatoire de 64 octets, choisie par la personne qui construit l’arborescence ;
+- `j` est la position (en 32 bits Little Endian) de cette feuille dans l’arborescence.
 
 #### Les nœuds MPC
 
-Après avoir généré les `w` feuilles (habitées ou non), on procède à la merkelisation. Tout nœud interne est haché comme suit :
+Après avoir généré les `w` feuilles (habitées ou non), on procède à la merkelisation. Tout nœud interne est hashé comme suit :
 
 ```txt
 tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
@@ -787,9 +787,9 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 où :
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, est toujours choisi selon les conventions Merkle de RGB ;
-- `b` est la _branching factor_ (8 bits). Le plus souvent, `b=0x02` car l’arbre est binaire et complet ;
-- `d` est la profondeur du nœud dans l’arbre ;
-- `w` est la largeur de l’arbre (en binaire 256 bits Little Endian) ;
+- `b` est la _branching factor_ (8 bits). Le plus souvent, `b=0x02` car l’arborescence est binaire et complet ;
+- `d` est la profondeur du nœud dans l’arborescence ;
+- `w` est la largeur de l’arborescence (en binaire 256 bits Little Endian) ;
 - `tH1` et `tH2` sont les hachages des nœuds enfants (ou feuilles), déjà calculés comme indiqués ci-dessus.
 
 En progressant ainsi, on obtient la racine `mpc::Root`. On peut ensuite calculer `mpc::Commitment` (comme expliqué précédemment) et l’insérer on-chain.
@@ -803,7 +803,7 @@ Le résultat final est le **mpc::Root**, puis le `mpc::Commitment`.
 
 ![RGB-Bitcoin](assets/en/053.webp)
 
-#### Vérification de l'arbre MPC
+#### Vérification de l'arborescence MPC
 
 Lorsqu’un vérificateur souhaite s’assurer qu’un contrat `c_i`​ (et son `BundleId`) est bien inclus dans l’engagement final `mpc::Commitment`, il reçoit simplement une preuve de Merkle. Cette preuve indique les nœuds nécessaires pour remonter des feuilles (ici, la _contract leaf_ de `c_i`​) jusqu’à la racine. Inutile de divulguer l’intégralité du *MPC Tree* : cela protège la confidentialité des autres contrats.
 
@@ -817,7 +817,7 @@ Ce mécanisme garantit ainsi que :
 
 #### Résumé de la structure MPC
 
-Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’agréger plusieurs contrats dans une seule transaction Bitcoin, tout en maintenant l’unicité des engagements et la confidentialité vis-à-vis des autres participants. Grâce à la construction déterministe de l’arbre, chaque contrat se voit attribuer une position unique et la présence de feuilles “dummy” (*Entropy Leaves*) masque partiellement le nombre total de contrats participant à l’opération.
+Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’agréger plusieurs contrats dans une seule transaction Bitcoin, tout en maintenant l’unicité des engagements et la confidentialité vis-à-vis des autres participants. Grâce à la construction déterministe de l’arborescence, chaque contrat se voit attribuer une position unique et la présence de feuilles “dummy” (*Entropy Leaves*) masque partiellement le nombre total de contrats participant à l’opération.
 
 Sur le client, on ne stocke jamais l’ensemble de l'arbre de Merkle. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
 
@@ -845,7 +845,7 @@ En théorie, il serait envisageable de retrouver ce `Txid` en retraçant la cha�
 #### MPC Proof
 
 Le second champ, la `MPC Proof`, se rapporte à la preuve que ce contrat précis (par exemple `c_i`) est bien inclus dans le _Multi Protocol Commitment_. Il s’agit d’une combinaison de :
-- `pos_i`, la position de ce contrat dans l’arbre du MPC ;
+- `pos_i`, la position de ce contrat dans l’arborescence du MPC ;
 - `cofactor`, la valeur définie pour résoudre les collisions de positions ;
 - la `Merkle Proof`, c’est-à-dire l’ensemble des nœuds et des hachages permettant de reconstruire la racine du MPC et de vérifier que l’identifiant de contrat et son `Transition Bundle` sont bien engagés dans la racine.
 
@@ -863,12 +863,12 @@ Le troisième champ, l’**ETP**, dépend du type d’engagement utilisé. Si l�
 
 **Si l’engagement est de type `Tapret`**, il faut fournir une preuve additionnelle appelée *Extra Transaction Proof – ETP*. Elle contient :
 - La clé publique interne (`P`) de la sortie taproot dans laquelle est incrusté le *commitment* ;
-- Les nœuds partenaires du `Script Path Spend` (lorsque le *commitment* Tapret est inséré dans un script), afin de prouver l’emplacement exact de ce script dans l’arbre taproot :
+- Les nœuds partenaires du `Script Path Spend` (lorsque le *commitment* Tapret est inséré dans un script), afin de prouver l’emplacement exact de ce script dans l’arborescence taproot :
 	- Si le *commitment* `Tapret` se trouve sur la branche de droite, on révèle le nœud de gauche (par exemple `tHABC`),
 	- Si le *commitment* `Tapret` est sur la gauche, il faut divulguer deux nœuds (par exemple `tHAB` et `tHC`) pour prouver qu’aucun autre *commitment* n’est présent sur la partie de droite.
-- Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arbre (optimisation de la preuve).
+- Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arborescence (optimisation de la preuve).
 
-Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arbre taproot afin de valider correctement l’emplacement du *commitment*.
+Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arborescence taproot afin de valider correctement l’emplacement du *commitment*.
 
 ![RGB-Bitcoin](assets/en/045.webp)
 
@@ -889,16 +889,16 @@ En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ 
 
 Dans le chapitre suivant, nous étudierons la composante purement off-chain de RGB, à savoir la logique des contrats. Nous verrons comment les contrats RGB, organisés sous forme de _finite state machine_ partiellement répliquée, atteignent une expressivité bien plus élevée que celle autorisée par les scripts Bitcoin, tout en préservant la confidentialité de leurs données.
 
-## Introduction aux contrats intelligents et à leurs états
+## Introduction aux smart contracts  et à leurs états
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 :::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
-Dans ce chapitre et le prochain, nous allons aborder la notion de **smart contract** au sein de l’environnement RGB et nous allons étudier les différentes manières dont ces contrats peuvent définir et faire évoluer leur état (*state*). Nous verrons pourquoi l’architecture RGB, en utilisant la séquence ordonnée de Single-use Seals, permet d’exécuter divers types de ***Contract Operations*** de manière scalable et sans passer par un registre centralisé. Nous verrons également le rôle fondamental de la ***Business Logic*** pour encadrer l’évolution de l’état contractuel.
+Dans ce chapitre et le prochain, nous allons aborder la notion de **smart contract** (contrat intelligent) au sein de l’environnement RGB et nous allons étudier les différentes manières dont ces contrats peuvent définir et faire évoluer leur état (*state*). Nous verrons pourquoi l’architecture RGB, en utilisant la séquence ordonnée de Single-use Seals, permet d’exécuter divers types de ***Contract Operations*** de manière scalable et sans passer par un registre centralisé. Nous verrons également le rôle fondamental du ***Business Logic*** pour encadrer l’évolution de l’état contractuel.
 
-### Contrats intelligents et droits au porteur numériques
+### Smart contracts et droits numériques au porteur 
 
-L’objectif de RGB est de proposer une infrastructure permettant la mise en œuvre des "smart contracts" sur Bitcoin. Par "smart contract", on entend un accord entre plusieurs parties qui est automatiquement et informatiquement appliqué, sans intervention humaine pour faire respecter les clauses. En d’autres termes, la loi du contrat est exécutée par le logiciel, et non par un tiers de confiance.
+L’objectif de RGB est de proposer une infrastructure permettant la mise en œuvre des "smart contracts" (contrats intelligents) sur Bitcoin. Par "smart contract", on entend un accord entre plusieurs parties qui est automatiquement et informatiquement appliqué, sans intervention humaine pour faire respecter les clauses. En d’autres termes, la loi du contrat est exécutée par le logiciel, et non par un tiers de confiance.
 
 Cette automatisation soulève la question de la décentralisation : comment s’affranchir d’un registre centralisé (par exemple une plateforme ou une base de données centrale) pour gérer la propriété et l’exécution des contrats ? L’idée d’origine, reprise par RGB, consiste à renouer avec un mode de possession dit **"au porteur"** (*bearer instruments*). Dans la tradition historique, certains titres (obligations, actions, etc.) étaient émis au porteur, permettant à quiconque possédait physiquement le document de faire valoir ses droits.  
 
@@ -910,7 +910,7 @@ RGB applique ce concept au monde numérique : les droits (et obligations) sont e
 
 Un smart contract dans RGB peut être vu comme une machine à états, définie par :
 - Un **State** (état), c’est-à-dire l’ensemble d’informations reflétant la configuration actuelle du contrat ;
-- Une **Business Logic** (ensemble de règles), qui décrit sous quelles conditions et par qui l’état peut être modifié.
+- Un **Business Logic** (ensemble de règles), qui décrit sous quelles conditions et par qui l’état peut être modifié.
 
 ![RGB-Bitcoin](assets/en/056.webp)
 
@@ -923,7 +923,7 @@ Cette séparation des rôles contribue à la résistance à la censure, en perme
 
 ### État et Business Logic dans RGB
 
-D’un point de vue pratique, la **Business Logic** du contrat se présente sous forme de règles et de scripts, définis dans ce que RGB appelle un **Schéma** (_Schema_). 
+D’un point de vue pratique, le **Business Logic** du contrat se présente sous forme de règles et de scripts, définis dans ce que RGB appelle un **Schéma** (_Schema_). 
 Le Schéma encode :
 - La structure de l’état (quels champs sont publics ? Quels champs sont détenus par telle ou telle partie ?) ;
 - Les conditions de validité (qu’est-ce qui doit être vérifié avant d’autoriser une mise à jour de l’état ?) ;
@@ -933,13 +933,13 @@ En parallèle, l’**état** (_Contract State_) se décompose souvent en deux vo
 - Un **Global State** : partie publique, potentiellement observable par tous (selon la configuration) ;
 - Des **Owned States** : parties privées, attribuées spécifiquement à des détenteurs (*owners*) via des UTXOs référencés dans la logique du contrat.
 
-Comme nous le verrons dans les chapitres suivants, toute mise à jour d’état (*Contract Operation*) doit s’arrimer à un _commitment_ Bitcoin (via `Opret` ou `Tapret`) et se conformer aux scripts de la *Business Logic* pour être considérée comme valide.
+Comme nous le verrons dans les chapitres suivants, toute mise à jour d’état (*Contract Operation*) doit s’arrimer à un _commitment_ Bitcoin (via `Opret` ou `Tapret`) et se conformer aux scripts du *Business Logic* pour être considérée comme valide.
 
 ### Contract Operations : création et évolution de l’état
 
 Dans l’univers RGB, on appelle ***Contract Operation*** tout événement qui fait passer le contrat d’un **ancien état** (_old state_) à un **nouvel état** (_new state_). Ces opérations suivent la logique suivante :
 - On prend connaissance de l’état actuel du contrat ;
-- On applique la règle ou l’opération (une ***State Transition***, une ***Genesis*** si c’est le tout premier état, ou encore une ***State Extension*** s’il y a une *valency* publique à redéclencher) ;
+- On applique la règle ou l’opération (une ***State Transition***, un ***Genesis*** si c’est le tout premier état, ou encore une ***State Extension*** s’il y a une *valency* publique à redéclencher) ;
 - On ancre la modification via un nouveau _commitment_ sur la blockchain, en fermant un _single-use seal_ et en créant un autre ;
 - Les détenteurs de droits concernés valident localement (*client-side*) que la transition est conforme au *Schema* et que la transaction Bitcoin associée est inscrite on-chain.
 
@@ -949,7 +949,7 @@ Le résultat final est un contrat mis à jour, dont l’état est désormais dif
 
 ### Chaîne d’opérations : de la Genèse à l'état terminal (from Genesis to Terminal State)
 
-Pour remettre en perspective, un smart contrat RGB démarre par une **Genesis**, le tout premier état. Par la suite, diverses _Contract Operations_ se succèdent, formant un DAG (*Directed Acyclic Graph*) d’opérations :
+Pour remettre en perspective, un smart contract RGB démarre par un **Genesis**, le tout premier état. Par la suite, diverses _Contract Operations_ se succèdent, formant un DAG (*Directed Acyclic Graph*) d’opérations :
 - Chaque transition s’appuie sur un état précédent (ou plusieurs, en cas de transitions convergentes) ;
 - L’ordre chronologique est garanti par l’inclusion de chaque transition dans un ancrage Bitcoin, horodaté et inaltérable grâce au consensus par Proof-of-Work ;
 - Lorsque plus aucune opération n’est en cours, on atteint un **Terminal State** : la situation la plus récente et complète du contrat.
@@ -960,22 +960,22 @@ Cette topologie en DAG (au lieu d’une simple chaîne linéaire) reflète la po
 
 ### Synthèse
 
-Les smart contrats dans RGB introduisent un modèle d’instruments au porteur numériques, décentralisés, mais ancrés dans Bitcoin pour l’horodatage et la garantie de l’ordre des opérations. L’exécution automatisée de ces contrats repose sur :
+Les smart contracts dans RGB introduisent un modèle d’instruments au porteur numériques, décentralisés, mais ancrés dans Bitcoin pour l’horodatage et la garantie de l’ordre des opérations. L’exécution automatisée de ces contrats repose sur :
 - Un **état** (*Contract State*), indiquant la configuration actuelle du contrat (droits, soldes, variables…) ;
-- Une **Business Logic** (*Schema*), définissant quelles transitions sont autorisées et comment elles doivent être validées ;
+- Un **Business Logic** (*Schema*), définissant quelles transitions sont autorisées et comment elles doivent être validées ;
 - Des **Contract Operations**, qui mettent à jour cet état étape par étape, grâce à des engagements ancrés dans des transactions Bitcoin.
 
-Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux Single-use Seals ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contrats tout en préservant la confidentialité des données.
+Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux Single-use Seals ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contracts tout en préservant la confidentialité des données.
 
 
-## Opérations des contrats RGB
+## Fonctionnement des contrats RGB
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 :::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
-Dans ce chapitre, nous allons étudier le fonctionnement des opérations dans les smart contrats et dans les transitions d'état, toujours au sein du protocole RGB. Le but sera également de comprendre comment plusieurs participants coopèrent pour transférer la propriété d’un actif.
+Dans ce chapitre, nous allons étudier le fonctionnement des opérations dans les smart contracts et dans les transitions d'état, toujours au sein du protocole RGB. Le but sera également de comprendre comment plusieurs participants coopèrent pour transférer la propriété d’un actif.
 
-### Les transitions d'état et leurs mécaniques
+### Les transitions d'état et leurs mécanismes
 
 Le principe général est toujours celui de la Client-side Validation, où les données de l’état sont conservées chez le propriétaire et validées par le destinataire. Toutefois, la spécificité ici avec RGB réside dans le fait que Bob, en tant que destinataire, demande à Alice d’incorporer certaines informations dans les données du contrat afin d’avoir un véritable contrôle sur l’actif reçu, via une référence cachée à l’un de ses UTXOs.
 
@@ -1002,7 +1002,7 @@ Alice crée ensuite une transaction Bitcoin dépensant l'UTXO référencé dans 
 **Transmission du *Consignment* à Bob :**
 Avant de diffuser la transaction, Alice envoie à Bob un ***Consignment*** contenant l’intégralité des données *client-side* nécessaires (son *stash*) ainsi que les informations du nouvel état en faveur de Bob. À ce stade, Bob applique les règles de consensus RGB :
 - Il valide toutes les données RGB contenues dans le *Consignment*, y compris le nouvel état qui lui octroie la propriété de l’actif ;
-- En s’appuyant sur les *Anchors* inclus dans le *Consignment*, il vérifie la chronologie des transactions témoins (depuis la Genesis jusqu’à la transition la plus récente) et valide les engagements correspondants dans la blockchain.
+- En s’appuyant sur les *Anchors* inclus dans le *Consignment*, il vérifie la chronologie des transactions témoins (depuis le Genesis jusqu’à la transition la plus récente) et valide les engagements correspondants dans la blockchain.
 
 **Finalisation de la transition :**
 Si Bob est satisfait, il peut éventuellement donner son approbation (par exemple en signant le *consignment*). Alice peut alors diffuser la transaction témoin préparée. Une fois confirmée, celle-ci clos le sceau précédemment détenu par Alice et officialise la propriété par Bob. La sécurité anti double-dépense se base alors sur le même mécanisme que dans Bitcoin : l’UTXO est dépensé, ce qui prouve qu’Alice ne peut plus le réutiliser.
@@ -1010,11 +1010,11 @@ Si Bob est satisfait, il peut éventuellement donner son approbation (par exempl
 ![RGB-Bitcoin](assets/en/061.webp)
 Le nouvel état référence désormais l'UTXO de Bob, ce qui confère à celui-ci la propriété que détenait auparavant Alice. La sortie Bitcoin où sont ancrées les données RGB devient la preuve irrévocable du transfert de propriété.
 
-Un exemple de DAG (*Directed Acyclic Graph*) minimal comprenant deux opérations de contrat (une **Genesis** puis un ***State Transition***) peut illustrer comment l’état RGB (couche *client-side*, en rouge) se relie à la blockchain Bitcoin (couche *Commitment*, en orange).  
+Un exemple de DAG (*Directed Acyclic Graph*) minimal comprenant deux opérations de contrat (un **Genesis** puis un ***State Transition***) peut illustrer comment l’état RGB (couche *client-side*, en rouge) se relie à la blockchain Bitcoin (couche *Commitment*, en orange).  
 
 ![RGB-Bitcoin](assets/en/062.webp)
 
-On y voit qu’une Genesis définit un sceau (*seal definition*), puis qu’une *State Transition* vient clore ce sceau pour en créer un nouveau dans un autre UTXO.
+On y voit qu’un Genesis définit un sceau (*seal definition*), puis qu’une *State Transition* vient clore ce sceau pour en créer un nouveau dans un autre UTXO.
 
 Dans ce contexte, voici quelques rappels de terminologie :
 - Une ***Assignment*** associe :
@@ -1022,7 +1022,7 @@ Dans ce contexte, voici quelques rappels de terminologie :
     - Des **Owned States**, c’est-à-dire des données liées à la propriété (par exemple, la quantité de tokens transférés).
 - Un **Global State** rassemble des propriétés générales du contrat, visibles par tous, et assurant la cohérence globale des évolutions.
 
-Les **State Transitions**, décrites dans le chapitre précédent, constituent la forme principale d’opérations de contrat. Elles se réfèrent à un ou plusieurs états antérieurs (issus de la Genesis ou d’une autre State Transition) et les mettent à jour vers un nouvel état.
+Les **State Transitions**, décrites dans le chapitre précédent, constituent la forme principale d’opérations de contrat. Elles se réfèrent à un ou plusieurs états antérieurs (issus du Genesis ou d’une autre State Transition) et les mettent à jour vers un nouvel état.
 
 ![RGB-Bitcoin](assets/en/063.webp)
 
@@ -1032,7 +1032,7 @@ Nous étudierons dans les chapitres suivants tous les composants et les processu
 
 ### Transition Bundle
 
-Sur RGB, il est possible de regrouper différentes State Transitions appartenant au même contrat (c’est-à-dire partageant le même **ContractId**, dérivé du **OpId** de la Genesis). Dans le cas le plus simple, comme entre Alice et Bob dans l’exemple ci-dessus, une **Transition Bundle** ne contient qu’une seule transition. Mais la prise en charge des opérations multi-payeurs (par exemple des coinjoins, des ouvertures de canaux Lightning, etc.) permet à plusieurs utilisateurs de combiner leurs State Transitions dans un seul bundle (ensemble).
+Sur RGB, il est possible de regrouper différentes State Transitions appartenant au même contrat (c’est-à-dire partageant le même **ContractId**, dérivé du **OpId** du Genesis). Dans le cas le plus simple, comme entre Alice et Bob dans l’exemple ci-dessus, une **Transition Bundle** ne contient qu’une seule transition. Mais la prise en charge des opérations multi-payeurs (par exemple des coinjoins, des ouvertures de canaux Lightning, etc.) permet à plusieurs utilisateurs de combiner leurs State Transitions dans un seul bundle (ensemble).
 
 Une fois rassemblées, ces transitions sont ancrées (par le mécanisme MPC + DBC) dans une unique transaction Bitcoin :
 - Chaque State Transition est hashée et regroupée en une Transition Bundle ;
@@ -1074,16 +1074,16 @@ Parmi celles-ci, **Genesis** et **State Extension** sont parfois appelées "*Sta
 
 ![RGB-Bitcoin](assets/en/064.webp)
 
-On définit souvent l’**Active State** d’un contrat comme l’ensemble des derniers états résultant de l’historique (le DAG) des opérations, en commençant par la Genesis et en suivant tous les ancrages dans la blockchain Bitcoin. Tous les anciens états déjà obsolètes (c’est-à-dire attachés à des UTXOs dépensés) ne sont plus considérés comme actifs, mais restent indispensables pour vérifier la cohérence de l’historique.
+On définit souvent l’**Active State** d’un contrat comme l’ensemble des derniers états résultant de l’historique (le DAG) des opérations, en commençant par le Genesis et en suivant tous les ancrages dans la blockchain Bitcoin. Tous les anciens états déjà obsolètes (c’est-à-dire attachés à des UTXOs dépensés) ne sont plus considérés comme actifs, mais restent indispensables pour vérifier la cohérence de l’historique.
 
 ### Genesis (Genèse)
 
-Le Genesis est le point de départ de tout contrat RGB. Elle est créée par l’émetteur du contrat et définit les paramètres initiaux, conformément au **Schema**. Dans le cas d’un token RGB, la Genesis peut spécifier, par exemple :
+Le Genesis est le point de départ de tout contrat RGB. Elle est créée par l’émetteur du contrat et définit les paramètres initiaux, conformément au **Schema**. Dans le cas d’un token RGB, le Genesis peut spécifier, par exemple :
 - La quantité de jetons créée à l’origine et leurs propriétaires ;
 - Le plafond total d’émission possible ;
 - Les éventuelles règles de réémission, et quels participants peuvent y prétendre.
 
-Étant la première opération du contrat, la Genesis ne référence aucun état antérieur, ni ne ferme aucun sceau. Toutefois, pour apparaître dans l’historique et être validée, la Genesis doit être **consommée** (refermée) par une première State Transition (souvent une transaction de balayage / auto-spend vers l’émetteur lui-même ou bien la distribution initiale aux utilisateurs).
+Étant la première opération du contrat, le Genesis ne référence aucun état antérieur, ni ne ferme aucun sceau. Toutefois, pour apparaître dans l’historique et être validée, le Genesis doit être **consommée** (refermée) par une première State Transition (souvent une transaction de balayage / dépense automatique vers l’émetteur lui-même ou la distribution initiale aux utilisateurs).
 
 ### State Extension
 
@@ -1092,11 +1092,11 @@ Les **State Extensions** offrent une fonctionnalité originale pour des smart co
 - Des mécanismes de swap (échanges) entre actifs ;
 - Des réémissions conditionnelles (pouvant inclure la destruction d’autres actifs, etc.).
 
-Sur le plan technique, une State Extension référence un *Redeem* (un type particulier d’input RGB) qui correspond à une *Valency* définie précédemment (par exemple dans la Genesis ou dans une autre State Transition). Elle définit un nouveau sceau, à la disposition de la personne ou de la condition qui en bénéficie. Pour que ce sceau soit rendu effectif, il faudra qu’une State Transition ultérieure vienne le dépenser.
+Sur le plan technique, une State Extension référence un *Redeem* (un type particulier d’input RGB) qui correspond à une *Valency* définie précédemment (par exemple dans le Genesis ou dans une autre State Transition). Elle définit un nouveau sceau, à la disposition de la personne ou de la condition qui en bénéficie. Pour que ce sceau soit rendu effectif, il faudra qu’une State Transition ultérieure vienne le dépenser.
 
 ![RGB-Bitcoin](assets/en/065.webp)
 
-Par exemple : la Genesis crée un droit d’émission (*Valency*). Celui-ci peut être exercé par un acteur autorisé, qui construit alors une State Extension :
+Par exemple : le Genesis crée un droit d’émission (*Valency*). Celui-ci peut être exercé par un acteur autorisé, qui construit alors une State Extension :
 - Elle référence la Valency (redeem) ;
 - Elle crée un nouvel *assignement* (nouvelles données *Owned State*) pointant vers un UTXO ;
 - Une State Transition future, émise par le propriétaire de ce nouvel UTXO, viendra réellement transférer ou répartir les jetons nouvellement émis.
@@ -1164,26 +1164,26 @@ Les éléments du **New State** sont :
 	- La **Seal Definition** ;
 	- Les **Owned State**.
 - Le **Global State**, qui peut être modifié ou enrichi ;
-- Les **Valencies**, éventuellement définies dans une State Transition ou une Genesis.
+- Les **Valencies**, éventuellement définies dans une State Transition ou un Genesis.
 
 L’**Old State** est référencé via :
-- Les **Inputs**, qui pointent vers des *Assignments* de transitions d’état précédentes (pas présents dans la Genesis) ;
+- Les **Inputs**, qui pointent vers des *Assignments* de transitions d’état précédentes (pas présents dans le Genesis) ;
 - Les **Redeems**, qui font référence à des Valencies antérieurement définies (uniquement dans les State Extensions).
 
 Par ailleurs, un Contract Operation inclut des champs plus généraux, propres à l’opération :
 - `Ffv` (*Fast-forward version*) : entier de 2 octets indiquant la version du contrat ;
 - `TransitionType` ou `ExtensionType` : entier 16 bits spécifiant le type de Transition ou d’Extension, selon la logique métier ;
-- `ContractId` : nombre de 32 octets renvoyant à l’*OpId* de la Genesis du contrat. Inclus dans les Transitions et Extensions, mais pas dans la Genesis ;
-- `SchemaId` : présent uniquement dans la Genesis, c’est le hash de 32 octets représentant la structure (*Schema*) du contrat ;
-- `Testnet` : booléen indiquant si l’on est sur le réseau Testnet ou Mainnet. Seulement dans la Genesis ;
-- `Altlayers1` : variable identifiant la couche alternative (sidechain ou autre) utilisée pour ancrer les données en plus de Bitcoin. Présente uniquement dans la Genesis ;
+- `ContractId` : nombre de 32 octets renvoyant à l’*OpId* du Genesis du contrat. Inclus dans les Transitions et Extensions, mais pas dans le Genesis ;
+- `SchemaId` : présent uniquement dans le Genesis, c’est le hash de 32 octets représentant la structure (*Schema*) du contrat ;
+- `Testnet` : booléen indiquant si l’on est sur le réseau Testnet ou Mainnet. Seulement dans le Genesis ;
+- `Altlayers1` : variable identifiant la couche alternative (sidechain ou autre) utilisée pour ancrer les données en plus de Bitcoin. Présente uniquement dans le Genesis ;
 - `Metadata` : champ pouvant stocker des informations temporaires, utiles à la validation d’un contrat complexe, mais qui ne doivent pas être enregistrées dans l’historique d’état final.
 
 Enfin, tous ces champs sont condensés par un procédé de hachage personnalisé, afin de produire une empreinte unique, l’`OpId`. Cet `OpId` est ensuite intégré au Transition Bundle, ce qui permettra de l’authentifier et de le valider au sein du protocole.
 
 Chaque *Contract Operation* est donc identifiée par un hash de 32 octets nommé `OpId`. Ce hash est calculé par un hachage SHA256 de l’ensemble des éléments composant l’opération. Autrement dit, chaque *Contract Operation* dispose de son propre engagement cryptographique, qui inclut toutes les données permettant de vérifier l’authenticité et la cohérence de l’opération.
 
-Un contrat RGB est ensuite identifié par un `ContractId`, dérivé de l’`OpId` de la Genesis (puisqu’il n’y a pas d’opération antérieure à la Genesis). Concrètement, on prend l’`OpId` de la Genesis, on en inverse l’ordre des octets et on applique un encodage Base58. Cet encodage rend le `ContractId` plus facilement manipulable et reconnaissable.
+Un contrat RGB est ensuite identifié par un `ContractId`, dérivé de l’`OpId` du Genesis (puisqu’il n’y a pas d’opération antérieure au Genesis). Concrètement, on prend l’`OpId` du Genesis, on en inverse l’ordre des octets et on applique un encodage Base58. Cet encodage rend le `ContractId` plus facilement manipulable et reconnaissable.
 
 ### Méthodes et règles de mise à jour de l’état
 
@@ -1201,7 +1201,7 @@ Une particularité majeure de RGB est la manière dont on modifie le Global Stat
 - **Mutable** : lorsqu’un élément d’état est décrit comme mutable, chaque nouvelle opération remplace l’état précédent par un nouvel état. L’ancienne donnée est alors considérée comme obsolète ;
 - **Accumulating** : lorsqu’un élément d’état est défini comme cumulatif, chaque nouvelle opération vient ajouter une information supplémentaire à l’état précédent, sans l’écraser. On obtient ainsi une sorte d’historique accumulé.
 
-Si, dans le contrat, un élément d’état n’est pas défini comme mutable ou cumulatif, cet élément restera vide pour les opérations ultérieures (autrement dit, il n’y a aucune nouvelle version pour ce champ). C'est le Schema du contrat (c’est-à-dire la logique métier codée) qui détermine si un état (Global ou Owned) est mutable, cumulatif ou fixe. Une fois la Genesis définie, ces propriétés ne peuvent être modifiées que si le contrat lui-même l’autorise par exemple via une State Extension spécifique.
+Si, dans le contrat, un élément d’état n’est pas défini comme mutable ou cumulatif, cet élément restera vide pour les opérations ultérieures (autrement dit, il n’y a aucune nouvelle version pour ce champ). C'est le Schema du contrat (c’est-à-dire la logique métier codée) qui détermine si un état (Global ou Owned) est mutable, cumulatif ou fixe. Une fois le Genesis défini, ces propriétés ne peuvent être modifiées que si le contrat lui-même l’autorise par exemple via une State Extension spécifique.
 
 Le tableau ci-dessous illustre comment chaque type de Contract Operation peut manipuler (ou non) le Global State et l’Owned State :
 
@@ -1252,7 +1252,7 @@ Une des grandes forces de RGB réside dans la possibilité de révéler (*reveal
 
 La *Seal Definition*, dans sa forme révélée, comporte quatre champs de base : `txptr`, `vout`, `blinding` et `method` :
 - **txptr** : c'est une référence à un UTXO sur Bitcoin :
-    - Dans le cas d’un **Genesis seal**, on pointe directement vers un UTXO existant (celui associé à la Genesis) ;
+    - Dans le cas d’un **Genesis seal**, on pointe directement vers un UTXO existant (celui associé au Genesis) ;
     - Dans le cas d’un **Graph seal**, on peut avoir :
         - Un simple `txid`, si on pointe vers un UTXO précis,
         - Ou un `WitnessTx`, qui désigne une auto-référence : le sceau pointe vers la transaction elle-même. Cela sert notamment quand aucun UTXO externe n’est disponible, par exemple dans des transactions d’ouverture de canal Lightning ou si le destinataire ne possède pas d’UTXO.
@@ -1350,7 +1350,7 @@ Les Inputs d’un *Contract Operation* font référence aux *Assignments* qui so
 - `AssignmentType` : le type d’*Assignment* (par exemple, `assetOwner` pour un token) ;
 - `Index` : l’index de l’*Assignment* dans la liste associée à l’`OpId` précédent, déterminé après un tri lexicographique des sceaux cachés.
 
-Les Inputs n’apparaissent jamais dans la Genesis, puisqu’il n’y a pas d’Assignments antérieurs. Ils n’apparaissent pas non plus dans les State Extensions (car ces dernières ne ferment pas de sceau ; elles redéfinissent plutôt de nouveaux sceaux en se basant sur des Valencies).
+Les Inputs n’apparaissent jamais dans le Genesis, puisqu’il n’y a pas d’Assignments antérieurs. Ils n’apparaissent pas non plus dans les State Extensions (car ces dernières ne ferment pas de sceau ; elles redéfinissent plutôt de nouveaux sceaux en se basant sur des Valencies).
 
 Lorsqu’on a des Owned States de type `Fungible`, la logique de validation (via l’AluVM script prévu dans le Schema) vérifie la cohérence des sommes : la somme de jetons entrants (*Inputs*) doit être égale à la somme de jetons sortants (dans les nouveaux *Assignments*).
 
@@ -1360,9 +1360,9 @@ Le champ **Metadata** peut aller jusqu’à 64 KiB et sert à inclure des donné
 
 ### Valencies
 
-Les **Valencies** sont un mécanisme original du protocole RGB. On peut les rencontrer dans la Genesis, les State Transitions ou les State Extensions. Elles représentent des droits numériques activables par une State Extension (via des *Redeems*), puis finalisés par une Transition ultérieure. Chaque Valency est identifiée par un `ValencyType` (16 bits). Sa sémantique (droit de réémission, échange de jetons, droit de destruction, etc.) est définie dans le Schema.
+Les **Valencies** sont un mécanisme original du protocole RGB. On peut les rencontrer dans le Genesis, les State Transitions ou les State Extensions. Elles représentent des droits numériques activables par une State Extension (via des *Redeems*), puis finalisés par une Transition ultérieure. Chaque Valency est identifiée par un `ValencyType` (16 bits). Sa sémantique (droit de réémission, échange de jetons, droit de destruction, etc.) est définie dans le Schema.
 
-Concrètement, on peut imaginer qu’une Genesis définisse une valency "droit de réémission". Une State Extension viendra la consommer (*Redeem*) si certaines conditions sont remplies, afin d’introduire une nouvelle quantité de jetons. Puis, une State Transition émanant du détenteur du sceau ainsi créé pourra transférer ces nouveaux jetons.
+Concrètement, on peut imaginer qu’un Genesis définisse une valency "droit de réémission". Une State Extension viendra la consommer (*Redeem*) si certaines conditions sont remplies, afin d’introduire une nouvelle quantité de jetons. Puis, une State Transition émanant du détenteur du sceau ainsi créé pourra transférer ces nouveaux jetons.
 
 ### Redeems
 
@@ -1396,7 +1396,7 @@ Grâce à ce protocole d’encodage strict :
 - L’ordre des champs est toujours le même, indépendamment de l’implémentation ou du langage de programmation utilisé ;
 - Les hash calculés sur un même ensemble de données sont donc reproductibles et identiques (*commitments* strictement déterministes) ;
 - Les bornes évitent la croissance incontrôlée de la taille des données (ex. nombre de champs trop élevé) ;
-- Cette forme d’encodage facilite la vérification cryptographique, car chaque participant sait exactement comment sérialiser et hacher les données.
+- Cette forme d’encodage facilite la vérification cryptographique, car chaque participant sait exactement comment sérialiser et hasher les données.
 
 En pratique, la structure (*Schema*) et le code qui en découle (*Interface* et logique associée) sont compilés. Il existe un langage descriptif qui précise la définition du contrat (types, champs, règles) et génère un format binaire strict. À la compilation, on obtient :
 - Un *Memory Layout* (la disposition en mémoire de chaque champ) ;
@@ -1430,11 +1430,11 @@ L’**Ownership**, elle, repose totalement sur la sécurité de Bitcoin. Posséd
 
 ![RGB-Bitcoin](assets/en/069.webp)
 
-Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contrat est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
+Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contract est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
 
 De plus, ce découplage permet à RGB de s’intégrer naturellement avec le Lightning Network. Les canaux Lightning peuvent servir à engager et à déplacer les actifs RGB sans engager à chaque fois les *commitments* on-chain. Nous étudierons plus précisément cette intégration de RGB sur Lightning dans les prochains chapitres de la formation.
 
-#### Évolutions de consensus dans RGB
+#### Évolutions du consensus dans RGB
 
 Outre le versionnage (gestion ou contrôle) sémantique du code, RGB inclut un système permettant de faire évoluer ou de mettre à jour les règles de consensus d’un contrat au fil du temps. On distingue deux grandes formes d’évolution :
 - **Fast-forward**
@@ -1539,7 +1539,7 @@ Chaque opération modifie l’état en y ajoutant ou en y remplaçant certaines 
 #### Contract Participant
 
 Un Contract Participant est un acteur prenant part aux opérations relatives au contrat. Dans RGB, on distingue :
-- L’émetteur du contrat, qui crée la Genesis (l’origine du contrat) ;
+- L’émetteur du contrat, qui crée le Genesis (l’origine du contrat) ;
 - Les parties aux contrats, c’est-à-dire les détenteurs de droits sur l’état du contrat ;
 - Les  parties publiques, acteurs pouvant construire des State Extensions si le contrat propose des Valencies accessibles au public.
 
@@ -1553,7 +1553,7 @@ Les Contract Rights désignent les différents droits que peuvent exercer les ac
 #### Contract State
 
 Le Contract State correspond à l’état courant d’un contrat à un instant donné. Il peut être constitué de données à la fois publiques et privées, qui reflète la situation du contrat. Dans RGB, on distingue :
-- Le **Global State**, qui comprend les propriétés publiques du contrat (mises en place dès la Genesis ou ajoutées via des mises à jour autorisées) ;
+- Le **Global State**, qui comprend les propriétés publiques du contrat (mises en place dès le Genesis ou ajoutées via des mises à jour autorisées) ;
 - Les **Owned States**, qui appartiennent à des détenteurs précis, identifiés par leurs UTXOs.
 
 #### Deterministic Bitcoin Commitment - DBC
@@ -1742,7 +1742,7 @@ Afin de mieux clarifier ces notions, voici un tableau récapitulatif comparant l
 | **Interface Implementation** | Mapping de la sémantique et de la logique | Impl (Rust) / Implements (Java)                    | Interface binaire d'application "Application Binary Interface" (ABI) |
 
 Dans la colonne de gauche, on retrouve les éléments propres au protocole RGB. Dans la colonne du milieu, on voit la fonction concrète de chaque composant. Puis, dans la colonne "Équivalent OOP", on trouve le terme équivalent dans la programmation orientée objet :
-- La **Genesis** joue un rôle similaire à un *Class constructor* : c’est là qu’on initialise l’état du contrat ;
+- Le **Genesis** joue un rôle similaire à un *Class constructor* : c’est là qu’on initialise l’état du contrat ;
 - Le **Schema** correspond à la description d’une classe, c’est-à-dire la définition des propriétés, des méthodes, et de la logique sous-jacente ;
 - L’**Interface** correspond aux *interfaces* (Java), aux *traits* (Rust) ou encore aux *protocols* (Swift) : ce sont les définitions publiques des fonctions, événements, champs… ;
 - L’**Interface Implementation** correspond à *Impl* en Rust ou *Implements* en Java, où l’on précise comment le code va réellement exécuter les méthodes annoncées dans l’interface.
@@ -1793,7 +1793,7 @@ Un autre point important est que la logique d’évolution de l’état (transfe
 
 #### Différence avec les blockchains programmables on-chain
 
-Contrairement à des systèmes comme Ethereum, où le code du smart contrat (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) off-chain, sous forme de document déclaratif compilé. Cela implique que :
+Contrairement à des systèmes comme Ethereum, où le code du smart contract (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) off-chain, sous forme de document déclaratif compilé. Cela implique que :
 - Il n’y a pas de VM Turing-complète qui tourne dans chaque nœud du réseau Bitcoin. Les règles d’un contrat RGB ne sont pas exécutées sur la blockchain, mais bien chez chaque utilisateur qui souhaite valider un état ;
 - Les données du contrat ne polluent pas la blockchain : seules des preuves cryptographiques (*commitments*) sont ancrées dans les transactions Bitcoin (via `Tapret` ou `Opret`) ;
 - Le Schema peut être mis à jour ou décliner des versions (*fast-forward*, *push-back*, etc.), sans nécessiter de fork sur la blockchain Bitcoin. Les wallets doivent simplement importer le nouveau Schema et s’adapter aux changements de consensus.
@@ -1956,7 +1956,7 @@ Cela modélise le comportement d’un transfert basique, qui consomme des tokens
 
 Enfin, on déclare un script AluVM (`Script::AluVM(AluScript { ... })`). Ce script contient :
 - Une ou plusieurs bibliothèques externes (`libs`) à utiliser durant la validation ;
-- Des `entry_points` qui pointent vers des offsets de fonctions dans le code AluVM, correspondant à la validation de la Genesis (`ValidateGenesis`) et de chaque Transition déclarée (`ValidateTransition(TS_TRANSFER)`).
+- Des `entry_points` qui pointent vers des offsets de fonctions dans le code AluVM, correspondant à la validation du Genesis (`ValidateGenesis`) et de chaque Transition déclarée (`ValidateTransition(TS_TRANSFER)`).
 
 Ce code de validation est responsable d’appliquer la logique métier. Par exemple, il vérifiera :
 - Que la `GS_ISSUED_SUPPLY` n’est pas dépassée lors du Genesis ;
@@ -2007,7 +2007,7 @@ En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` 
 
 #### Différence avec Ethereum et les autres systèmes
 
-Sur Ethereum, l’"Interface" (décrite via l’ABI, *Application Binary Interface*) est généralement dérivée d’un code stocké on-chain (le smart contrat). Il peut être coûteux ou compliqué de modifier une partie spécifique de l’interface sans toucher au contrat lui-même. Or, RGB repose sur une logique entièrement off-chain, avec des données ancrées en *commitments* sur Bitcoin. Cette conception rend possible la modification de l’Interface (ou de son implémentation) sans impact sur la sécurité fondamentale du contrat, car la validation des règles métier reste dans le Schema et le code AluVM référencé.
+Sur Ethereum, l’"Interface" (décrite via l’ABI, *Application Binary Interface*) est généralement dérivée d’un code stocké on-chain (le smart contract). Il peut être coûteux ou compliqué de modifier une partie spécifique de l’interface sans toucher au contrat lui-même. Or, RGB repose sur une logique entièrement off-chain, avec des données ancrées en *commitments* sur Bitcoin. Cette conception rend possible la modification de l’Interface (ou de son implémentation) sans impact sur la sécurité fondamentale du contrat, car la validation des règles métier reste dans le Schema et le code AluVM référencé.
 
 #### Compilation de l’Interface
 
@@ -2699,7 +2699,7 @@ rgb schemata
 ### Création d’un contrat (issuing)
 
 Pour créer un nouvel actif, il y a deux approches :
-- Soit on utilise un script ou code en Rust qui construit un Contract en alimentant les champs du schéma (global state, Owned States, etc.) et produit un fichier `.rgb` ou `.rgba` ;
+- Soit on utilise un script ou code en Rust qui construit un Contrat en alimentant les champs du schéma (global state, Owned States, etc.) et produit un fichier `.rgb` ou `.rgba` ;
 - Soit on utilise directement la sous-commande `issue`, avec un fichier YAML (ou TOML) décrivant les propriétés du token.
 
 Vous pouvez retrouver des exemples en Rust dans le dossier `examples` qui illustrent comment on construit un `ContractBuilder`, on renseigne le `global state` (nom de l’actif, ticker, supply, date, etc.), on définit l’Owned State (à quel UTXO il est assigné), puis on compile tout cela en un *contract consignment* qu’on peut exporter, valider et importer dans un stash.

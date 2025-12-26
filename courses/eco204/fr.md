@@ -74,7 +74,7 @@ Quand on évoque le phénomène monétaire, on fait référence à la manière d
 1. Impression Monétaire:
    Dans les systèmes monétaires traditionnels, l'accroissement de la masse monétaire était réalisé en imprimant physiquement de nouveaux billets. Bien que, de nos jours, avec la prédominance de la monnaie numérique, cette impression soit principalement électronique (à travers les bases de données des banques centrales et autres institutions financières), l'histoire nous montre des périodes où la littérale impression de billets a engendré de l'hyperinflation.
 
-2. Réduction du contenu métallique:
+2. Réduction du contenu métallique :
    Une autre méthode consistait à réduire la quantité de métal précieux dans les monnaies basées sur des métaux tels que l'argent ou l'or. Un exemple frappant se trouve dans l'Empire romain, où le denarius, initialement composé presque entièrement d'argent, a vu sa teneur en argent drastiquement diminuée au fil du temps. Cela équivalait à une forme d'inflation, mais pas nécessairement à une hyperinflation.
 
 ![image](assets/fr/002.webp)

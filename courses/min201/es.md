@@ -273,11 +273,11 @@ El desafío de una posible prohibición de la minería en Europa sigue siendo un
 
 ### ¿Soberanía antes que ganancias?
 
-Para abordar la cuestión de la riqueza a través de la minería, es importante considerar diversas perspectivas. La rentabilidad de la minería es una pregunta frecuente, con opciones como la compra de acciones de empresas mineras, el alquiler de máquinas en países de bajo costo energético como Islandia o Rusia, o la comparación directa entre la rentabilidad de la minería y la compra de Bitcoin. Si el costo de minar un Bitcoin supera el costo de compra, puede ser más sensato adquirir Bitcoin directamente y evitar los desafíos y costos adicionales de la minería.
+Para abordar la cuestión de los beneficios a través de la minería, es importante considerar diversas perspectivas. La rentabilidad de la minería es una pregunta frecuente, con opciones como la compra de acciones de empresas mineras, el alquiler de máquinas en países de bajo costo energético como Islandia o Rusia, o la comparación directa entre la rentabilidad de la minería y la compra de Bitcoin. Si el costo de minar un Bitcoin supera el costo de compra, puede ser más sensato adquirir Bitcoin directamente y evitar los desafíos y costos adicionales de la minería.
 
 Sin embargo, la minería ofrece formas únicas de participar en el ecosistema de Bitcoin. Por ejemplo, minar Bitcoin en invierno puede ser una manera ingeniosa de calentar ti vivienda mientras generas ingresos en Bitcoin. Otra opción consiste en invertir en empresas que gestionan equipos de minería en ubicaciones de bajo costo energético, lo que ofrece acceso a tarifas eléctricas competitivas sin la necesidad de gestionar el hardware.
 
-A pesar de estas opciones, la minería presenta desafíos significativos. La frase bien conocida en el mundo de Bitcoin, "No tus claves, no tus Bitcoins", encuentra un eco similar en el mundo de la minería: "No tu tasa de hash, no tu recompensa". Las decepciones en la industria, como máquinas desconectadas o proveedores que no cumplen sus promesas, son comunes. Problemas de suministro eléctrico y averías de equipos pueden dejar a los inversores sin control sobre costosos dispositivos. En este contexto, es fundamental la prudencia y una comprensión profunda de la industria antes de adentrarse en ella. Aunque existen oportunidades de ganancia, los riesgos son significativos, y un enfoque bien informado es esencial para navegar en este entorno complejo y a menudo impredecible.
+A pesar de estas opciones, la minería presenta desafíos significativos. La frase bien conocida en el mundo de Bitcoin, "No tus claves, no tus Bitcoins", encuentra un eco similar en el mundo de la minería: "No tu _hashrate_, no tu recompensa". Las estafas en la industria, como máquinas desconectadas o proveedores que no cumplen sus promesas, son comunes. Problemas de suministro eléctrico y averías de equipos pueden dejar a los inversores sin control sobre costosos dispositivos. En este contexto, es fundamental la prudencia y una comprensión profunda de la industria antes de adentrarse en ella. Aunque existen oportunidades de ganancia, los riesgos son significativos, y un enfoque bien informado es esencial para navegar en este entorno complejo y a menudo impredecible.
 
 ![image](assets/en/013.webp)
 
@@ -291,7 +291,7 @@ La posibilidad de minar bitcoins vírgenes mientras se evitan los procedimientos
 
 En este contexto, la elección de un enfoque autónomo y educado en materia de minería parece prudente. Adquirir tu propio hashrate e invertir en equipos de minería personales, mientras se permanece consciente de los riesgos y desafíos, puede potencialmente ofrecer un camino más seguro y más satisfactorio hacia la adquisición de bitcoins vírgenes, reforzando así la soberanía financiera del individuo mientras se apoya al ecosistema Bitcoin en su conjunto.
 
-### ¿La minería prohibida en Europa?
+### ¿Está prohibida la minería en Europa?
 
 
 Con la cuestión del potencial de prohibición de la minería en Europa, las discusiones sobre la regulación se vuelven cada vez más pertinentes. El paisaje regulatorio fluctuante puede, de hecho, influir considerablemente en la industria de la minería de Bitcoin. La prohibición de la minería en Europa es un escenario posible, especialmente considerando los precedentes en China. Aunque las operaciones de minería continúan en China a pesar de la prohibición, Europa podría seguir un camino similar. Una distribución más amplia del hashrate en diferentes regiones podría ayudar a fortalecer la comunidad de mineros en Europa, permitiéndoles oponerse eficazmente a los malentendidos y las ideas erróneas sobre la minería, su impacto ambiental y su huella en la red eléctrica.
@@ -360,11 +360,11 @@ Cuando sale de fábrica, un minero no es adecuado para servir como calefactor en
 
 Es una excelente oportunidad para aprender practicando y ser recompensado por tu participación con satoshis sin necesidad de KYC.
 
-## Guía de compra para un ASIC de segunda mano
+## Guía de compra de un ASIC de segunda mano
 
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
-En esta sección veremos las mejores prácticas para comprar un Bitmain Antminer S9 de segunda mano, la máquina en la que se basará este tutorial de retrofitting en radiador. Esta guía también funciona para otros modelos de ASIC, ya que es una guía de compra general para equipos de minería de segunda mano.
+En esta sección veremos las mejores prácticas para comprar un Bitmain Antminer S9 de segunda mano, la máquina en la que se basará este tutorial de adaptación a calefactor. Esta guía también funciona para otros modelos de ASIC, ya que es una guía de compra general para equipos de minería de segunda mano.
 
 El Antminer S9 es un dispositivo ofrecido por Bitmain desde mayo de 2016. Consume 1400W de electricidad y produce 13.5 TH/s. Aunque se considera antiguo, sigue siendo una excelente opción para comenzar a minar. Dado que se produjo en grandes cantidades, es fácil encontrar piezas de repuesto en abundancia en muchas regiones del mundo. Por lo general, se puede adquirir de persona a persona en sitios como Ebay o LeBonCoin, ya que los revendedores dirigidos a profesionales ya no lo ofrecen debido a su menor competitividad en comparación con máquinas más nuevas. Es menos eficiente que ASIC como el Antminer S19, lanzado en marzo de 2020, pero esto lo convierte en un hardware de segunda mano asequible y más adecuado para las modificaciones que vamos a realizar.
 
@@ -400,7 +400,7 @@ El Antminer S9 está compuesto por las siguientes partes:
 
 ![imagen](assets/en/021.webp)
 
-Cuando compres una máquina de segunda mano, es importante verificar que todas las piezas estén incluidas y funcionales. Durante el intercambio, debes pedir al vendedor que encienda la máquina para verificar su correcto funcionamiento. Es vital comprobar que el dispositivo se encienda correctamente y luego verificar la conectividad a Internet conectando un cable Ethernet y accediendo a la interfaz de inicio de sesión de Bitmain a través de un navegador web en la misma red local. Puedes encontrar esta dirección IP conectándote a la interfaz de tu enrutador de Internet y buscando los dispositivos conectados. Esta dirección debería tener el siguiente formato: 192.168.x.x
+Cuando compres una máquina de segunda mano, es importante verificar que todas las piezas estén incluidas y funcionales. Durante el intercambio, debes pedir al vendedor que encienda la máquina para verificar su correcto funcionamiento. Es vital comprobar que el dispositivo se encienda correctamente y luego verificar la conectividad a Internet conectando un cable Ethernet y accediendo a la interfaz de inicio de sesión de Bitmain a través de un navegador web en la misma red local. Puedes encontrar esta dirección IP conectándote a la interfaz de tu enrutador de Internet y buscando los dispositivos conectados. Esta dirección IP debería tener el siguiente formato: 192.168.x.x
 
 ![image](assets/en/022.webp)
 
@@ -417,11 +417,11 @@ Para resumir esta guía en una frase: **"No confíes, verifica"**.
 
 [También puedes recurrir a profesionales en la reacondicionamiento de máquinas de minería, como nuestro socio 21energy. Ofrecen S9 probados, limpios y con el software BraiiinOS+ ya instalado. Con el código de afiliación "decouvre", obtendrás un 10% de descuento en la compra de un S9 y al mismo tiempo apoyarás el proyecto Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
 
-## Guía de compra de piezas para modificaciones de hardware del S9
+## Guía de compra de piezas para las modificaciones de hardware del S9
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
-Propietario de un Antminer S9, probablemente sepas lo ruidoso y voluminoso que puede ser este dispositivo. Sin embargo, es posible convertirlo en una calefacción silenciosa y conectada siguiendo algunos pasos simples. En esta sección, te presentaremos los equipos necesarios para realizar las modificaciones.
+Propietario de un Antminer S9, probablemente sepas lo ruidoso y voluminoso que puede ser este dispositivo. Sin embargo, es posible convertirlo en un calefactor silenciosa y conectada siguiendo algunos pasos simples. En esta sección, te presentaremos los equipos necesarios para realizar las modificaciones.
 
 Si eres un aficionado a las actividades manuales y estás buscando convertir un minero en una calefacción, este tutorial es para ti. Queremos advertirte que las modificaciones realizadas a un dispositivo electrónico pueden presentar riesgos eléctricos. Por lo tanto, es esencial tomar todas las precauciones necesarias para evitar cualquier daño o lesión.
 
@@ -734,7 +734,7 @@ Y para el toque final, conecta el puente Vonet al puerto Ethernet a la fuente de
 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
-Te puedes imaginar un pool de minería como una cooperativa agrícola. Los agricultores unen sus producciones para reducir la variabilidad de la oferta y la demanda, y así obtener ingresos más estables para su explotación. Un grupo de minería funciona de la misma manera, y la materia prima que se comparte son los hash. De hecho, el descubrimiento de un solo hash válido permite la creación de un bloque y, por lo tanto, ganar la coinbase o la recompensa actual de 3,125 BTC más las tarifas de transacción incluidas en el bloque.
+Puedes imaginar un pool de minería como una cooperativa agrícola. Los agricultores unen sus producciones para reducir la variabilidad de la oferta y la demanda, y así obtener ingresos más estables para su explotación. Un grupo de minería funciona de la misma manera, y la materia prima que se comparte son los hash. De hecho, el descubrimiento de un solo hash válido permite la creación de un bloque y, por lo tanto, ganar la coinbase o la recompensa actual de 3,125 BTC más las tarifas de transacción incluidas en el bloque.
 
 Si minas en solitario, solo serás recompensado cuando encuentres un bloque. Al competir contra todos los demás mineros del planeta, tendrías muy pocas posibilidades de ganar esta gran lotería y aún así tendrías que pagar las tarifas asociadas al uso de tu minero sin ninguna garantía de éxito. Los grupos de minería abordan este problema al compartir la potencia de cálculo de varios (miles) de mineros y compartir la recompensa de acuerdo con el porcentaje de participación en el hashrate del grupo cuando se encuentra un bloque. Para visualizar tus posibilidades de minar un bloque por tu cuenta, puedes usar esta herramienta. Al ingresar la información de un Antminer S9, se puede ver que las posibilidades de encontrar un hash que permita la creación de un bloque son de 1/24,777,849 por bloque o de 1/172,068 por día. En promedio (con un hashrate y una dificultad constantes), tomaría 471 años encontrar un bloque.
 

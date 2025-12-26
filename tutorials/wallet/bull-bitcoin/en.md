@@ -162,7 +162,7 @@ For greater confidentiality, you can connect the application to your own Bitcoin
 
 ![image](assets/en/07.webp)
 
-C - Currency
+### C - Currency
 
 The available balance is displayed on the main screen in both `sats` and `USD`. To change this, navigate to `Settings` > `Currency`. There, you can toggle between `sats/BTC` and select your `default fiat currency`.
 
@@ -351,7 +351,7 @@ You can either scan an Lightning Address (e.g. `runningbitcoin@rizful.com`) whi
 
 The Bull Bitcoin Wallet sends Lightning payments by withdrawing funds from your `Instant Payments Wallet` (on Liquid) and swapping them via `Boltz`. This hybrid approach is fully self-custodial and avoids the high on-chain fees of managing a dedicated Lightning channel, but it requires paying a `swap fee`. For the lowest cost, send directly to a recipient's Liquid address if they also use a Bull Bitcoin wallet.
 
-## 🔟 **Transferring Funds Between Your Wallets**
+## 🔟 Transferring Funds Between Your Wallets
 
 Bull Bitcoin allows you to move your Bitcoin between your `Secure Bitcoin` wallet and your `Instant Payments Wallet` on the Liquid Network or to an `external Wallet`. To perform a transfer, simply navigate to the `Transfer` section, select the source and destination wallets, enter the amount you wish to move, and confirm the transaction.
 
@@ -361,7 +361,7 @@ Bull Bitcoin allows you to move your Bitcoin between your `Secure Bitcoin` walle
 
 This section explains how to regain access to your Bull Bitcoin Wallet funds if you lose your device, uninstall the app, or simply need to switch to a new one. As already explained, there are two primary methods for recovery: using the unique `Recoverbull` method and using a standard `BIP39 seed phrase`.
 
-### **Method 1: Recoverbull**
+### Method 1: Recoverbull
 
 Recap: Wallet backups are encrypted locally. The encrypted file can be stored in cloud storage, or on another device. The encryption key is stored by the Recoverbull Key Server. Both are kept separate and must be combined to recover a wallet.
 

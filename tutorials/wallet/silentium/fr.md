@@ -9,7 +9,11 @@ La réutilisation d'adresses Bitcoin constitue l'une des menaces les plus direct
 
 Silentium répond à cette problématique en proposant une solution élégante accessible directement depuis votre navigateur. Cette application web progressive (PWA) open-source, lancée en mai 2024 par Louis Singer, implémente les Silent Payments (BIP-352) : une adresse statique réutilisable où chaque paiement aboutit sur une adresse blockchain distincte, sans interaction préalable ni lien observable entre les transactions.
 
-**Avertissement important** : Silentium est un projet expérimental servant de preuve de concept (proof-of-concept) pour les wallets légers Silent Payments. Il ne doit pas être utilisé comme wallet quotidien ni pour stocker des montants significatifs. Les développeurs précisent explicitement : "Use at your own risk". A noter qu'il est possible d'utiliser ce wallet en testnet ou bien regtest. 
+**Avertissement important** : Silentium est un projet expérimental servant de *proof-of-concept* pour les wallets légers Silent Payments. Il ne doit pas être utilisé comme wallet quotidien ni pour stocker des montants significatifs. Les développeurs précisent explicitement : 
+
+> Use at your own risk.
+
+A noter qu'il est possible d'utiliser ce wallet en testnet ou bien regtest. 
 
 ## Qu'est-ce que Silentium ?
 
@@ -25,7 +29,7 @@ L'expéditeur combine ses clés privées d'inputs avec la clé de scan du destin
 
 Avantages : confidentialité renforcée pour l'émetteur et le destinataire, aucun serveur tiers nécessaire, transactions indiscernables des paiements Taproot classiques. Inconvénient principal : scan intensif de la blockchain pour détecter les paiements.
 
-Pour approfondir les Silent Payments, consultez le cours BTC204 sur Plan B Network :
+Pour approfondir le fonctionnement théorique des Silent Payments, consultez la dernière partie du cours BTC,204 sur Plan ₿ Academy :
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -37,7 +41,7 @@ Silentium est une Progressive Web App (PWA) accessible depuis n'importe quel nav
 
 ### Accès et installation
 
-Rendez-vous sur `https://app.silentium.dev/` depuis votre navigateur. L'application se charge instantanément et affiche l'écran d'accueil.
+[Rendez-vous sur `https://app.silentium.dev/` depuis votre navigateur](https://app.silentium.dev/). L'application se charge instantanément et affiche l'écran d'accueil.
 
 Pour l'installer comme application native sur iOS, appuyez sur le bouton de partage (carré avec flèche vers le haut) puis sélectionnez "Sur l'écran d'accueil". Sur Android, le navigateur propose généralement une notification "Ajouter à l'écran d'accueil" directement. Une fois installée, Silentium apparaît avec son icône dédiée et fonctionne comme une application native, mais nécessite une connexion internet pour synchroniser les transactions.
 

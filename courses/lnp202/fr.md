@@ -38,6 +38,10 @@ Dans la première partie de ce cours LNP 202, nous reviendrons sur ce qu’est r
 
 Dans la partie 2 du cours, vous installerez LND sur Umbrel, puis vous mettrez en place les éléments qui évitent les erreurs les plus coûteuses : une stratégie de sauvegarde réaliste et une protection contre la triche via une watchtower. Une fois ces bases en place, vous ouvrirez votre premier canal, afin de commencer à payer sur Lightning avec votre propre infrastructure.
 
+Vous l’aurez donc compris : dans ce cours LNP 202, nous allons mettre en place un nœud Lightning en mode *plug-and-play* via Umbrel, et non de manière classique en ligne de commande, afin que cette approche soit adaptée à des utilisateurs intermédiaires. Si vous préférez une installation via les lignes de commande, je vous recommande plutôt de suivre le tutoriel ci-dessous. Par ailleurs, d’autres cours sur Lightning, plus avancés et orientés ligne de commande, sont également en préparation.
+
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+
 La partie 3 vous fera ensuite passer d’un nœud qui fonctionne à un nœud que vous saurez piloter. Vous commencerez par déterminer votre profil d’opérateur de nœud Lightning (consommateur, commerçant ou routeur), puis vous prendrez en main un logiciel gestionnaire complet, afin de suivre vos canaux et d’agir proprement sur votre topologie. Enfin, vous aborderez un point très important de Lightning : comment obtenir de la liquidité entrante, que ce soit via des solutions payantes ou coopératives.
 
 La partie 4 portera sur l’usage quotidien. Vous mettrez en place une connexion entre votre nœud et un client mobile, pour payer et encaisser simplement depuis votre smartphone, sans renoncer à la self-custody. Nous verrons d’abord une approche réseau via *Tailscale*, puis une approche protocole via *Nostr Wallet Connect*, avec leurs avantages et leurs compromis respectifs. Le cours se conclura par un dernier chapitre qui vous donnera les bonnes habitudes pour pérenniser votre autonomie, à la fois sur le plan opérationnel et sur le plan pédagogique.
@@ -1141,3 +1145,21 @@ Dans un registre différent, mais tout aussi essentiel dans votre parcours de bi
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Mais avant de passer à autre chose, vous pouvez donner votre avis sur ce cours LNP 202 et, bien entendu, passer le diplôme afin de valider que vous avez bien assimilé l’ensemble de son contenu.
+
+# Partie finale
+<partId>683c998f-ba0a-4ffb-a7e8-4cd8369cb9b3</partId>
+
+## Avis & Notes
+<chapterId>aec048c7-7130-425d-8eca-9cd7f90c27f3</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+<chapterId>3951ccbb-14a3-4322-b81b-8dd2a6da19cb</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+<chapterId>30cd6309-5139-40d9-8927-92de0f76414a</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

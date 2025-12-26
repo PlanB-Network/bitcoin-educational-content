@@ -1141,3 +1141,21 @@ Dans un registre différent, mais tout aussi essentiel dans votre parcours de bi
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Mais avant de passer à autre chose, vous pouvez donner votre avis sur ce cours LNP 202 et, bien entendu, passer le diplôme afin de valider que vous avez bien assimilé l’ensemble de son contenu.
+
+# Partie finale
+<partId>683c998f-ba0a-4ffb-a7e8-4cd8369cb9b3</partId>
+
+## Avis & Notes
+<chapterId>aec048c7-7130-425d-8eca-9cd7f90c27f3</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+<chapterId>3951ccbb-14a3-4322-b81b-8dd2a6da19cb</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+<chapterId>30cd6309-5139-40d9-8927-92de0f76414a</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

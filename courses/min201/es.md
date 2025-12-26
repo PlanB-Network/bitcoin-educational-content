@@ -28,7 +28,7 @@ Esperamos que a través de este curso podamos mostrarte que la industria minera 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-¡Bienvenido al curso MIN201: Una introducción al minado! Ajelex, Jim y Rogzy están encantados de guiarte en tus primeros pasos en esta industria. Esperamos que disfrutes del curso y que te aventures en la emocionante experiencia del home mining.
+¡Bienvenido al curso MIN201: Una introducción al minado! Ajelex, Jim y Rogzy están encantados de guiarte en tus primeros pasos en esta industria. Esperamos que disfrutes del curso y que te aventures en la emocionante experiencia de la minería en casa.
 
 Este curso te lleva al corazón de la industria del minado de Bitcoin, proporcionándote conocimientos teóricos y prácticos. Ya seas principiante o tengas conocimientos previos, este recorrido te permitirá comprender los desafíos económicos y técnicos relacionados con el minado, mientras realizas un proyecto práctico de reutilización de un ASIC para calefacción doméstica.
 
@@ -64,13 +64,13 @@ Para explicar de manera simplificada el concepto de la minería, se puede utiliz
 
 ![imagen](assets/en/001.webp)
 
-Inicialmente en la red Bitcoin, la recompensa otorgada era de 50 bitcoins cada diez minutos, al mismo tiempo que se descubría un bloque cada diez minutos en promedio por los mineros. Esta recompensa se divide a la mitad cada 210,000 bloques (evento conocido como Halving), aproximadamente cada cuatro años. Esta remuneración sirve como un poderoso incentivo para alentar a los mineros a participar en el proceso de minería a pesar de su costo energético. Sin la recompensa, la minería, que es costosa en electricidad, sería abandonada, comprometiendo así la seguridad y estabilidad de toda la red Bitcoin.
+Inicialmente en la red Bitcoin, la recompensa otorgada era de 50 bitcoins cada diez minutos, descubriéndose un bloque cada diez minutos en promedio. Esta recompensa se divide a la mitad cada 210,000 bloques (evento conocido como Halving), aproximadamente cada cuatro años. Esta remuneración sirve como un poderoso incentivo para alentar a los mineros a participar en el proceso de minería a pesar de su costo energético. Sin la recompensa, la minería, que es costosa en electricidad, sería abandonada, comprometiendo así la seguridad y estabilidad de toda la red Bitcoin.
 
 La recompensa actual de minería es doble. Por un lado, incluye la creación de nuevos bitcoins, que ha pasado de 50 bitcoins cada diez minutos en sus inicios a 3,125 bitcoins hoy en día (2024). Por otro lado, incluye las tarifas de transacción, o tarifas de minería, de las transacciones que el minero elige incluir en su bloque. Cuando se realiza una transacción de bitcoin, se pagan tarifas de transacción. Estas tarifas funcionan como una especie de subasta donde los usuarios indican cuánto están dispuestos a pagar para que su transacción se incluya en el siguiente bloque. Para maximizar su recompensa, los mineros, actuando en su propio interés, seleccionan las transacciones más rentables para incluirlas en su bloque, teniendo en cuenta el espacio limitado disponible. Así, la recompensa de minería se compone tanto de la generación de nuevos bitcoins como de las tarifas de transacción, garantizando un incentivo continuo para los mineros y asegurando la sostenibilidad y seguridad de la red Bitcoin.
 
 ### Mineros y sus herramientas: Minería
 
-El proceso de minería consiste en encontrar un hash válido aceptable por la red Bitcoin. Este hash, una vez calculado y encontrado, es irreversible, al igual que las papas convertidas en puré. Verifica una función determinada sin posibilidad de retroceder. Los mineros, compitiendo entre sí, utilizan máquinas para calcular estos hashes. Aunque teóricamente es posible encontrar este hash manualmente, la complejidad de la operación hace que esta opción sea inviable. Por lo tanto, se utilizan computadoras capaces de realizar estos cálculos rápidamente, aunque consumen una cantidad significativa de electricidad.
+El proceso de minería consiste en encontrar un hash válido aceptable por la red Bitcoin. Este hash, una vez calculado y encontrado, es irreversible, al igual que las patatas convertidas en puré: verifica una función determinada sin posibilidad de retroceder. Los mineros, compitiendo entre sí, utilizan máquinas para calcular estos hashes. Aunque teóricamente es posible encontrar este hash manualmente, la complejidad de la operación hace que esta opción sea inviable. Por lo tanto, se utilizan computadoras capaces de realizar estos cálculos rápidamente, aunque consumen una cantidad significativa de electricidad.
 
 Al principio, la era de la CPU dominaba, donde los mineros utilizaban sus computadoras personales para la minería de Bitcoin. El descubrimiento de las ventajas de las GPU (tarjetas gráficas) para esta tarea marcó un punto de inflexión, aumentando sustancialmente la tasa de hash y reduciendo el consumo de energía. El progreso no se detuvo allí, con la posterior introducción de los FPGA (field-programmable gate array, o matriz de puertas programables en campo en español). Los FPGA sirvieron como plataforma para el desarrollo de los ASIC (application-specific integrated circuit, o Circuito integrado de aplicación específica).
 
@@ -107,7 +107,7 @@ En conclusión, la industria de la minería de Bitcoin continúa adaptándose y 
 
 ### Los Pools de Minería
 
-En la actualidad, la minería de Bitcoin ha evolucionado para convertirse en una industria seria y sustancial, con muchos actores ahora públicos y un número creciente de mineros significativos. Esta evolución ha hecho que la minería sea casi inaccesible para los pequeños actores debido al alto costo relacionado con la adquisición de nuevas máquinas de minería. Por lo tanto, surge la cuestión de la distribución del hashrate entre diversos actores del mercado. La situación es compleja, ya que es esencial examinar tanto la distribución del hashrate entre diferentes empresas como entre diferentes pools de minería.
+En la actualidad, la minería de Bitcoin se ha convertido en una industria consolidada y profesional, con muchos actores cotizando en bolsa y un número creciente de operadores a gran escala. Esta evolución ha hecho que la minería sea casi inaccesible para los pequeños actores debido al alto costo relacionado con la adquisición de nuevas máquinas de minería. Por lo tanto, surge la cuestión de la distribución del hashrate entre diversos actores del mercado. La situación es compleja, ya que es esencial examinar tanto la distribución del hashrate entre diferentes empresas como entre diferentes pools de minería.
 
 ![imagen](assets/en/005.webp)
 
@@ -117,9 +117,9 @@ Por ejemplo, si un pool encuentra un bloque y gana 3,125 bitcoins, un minero que
 
 ### Los softwares utilizados por la industria
 
-En el contexto de la minería de Bitcoin, el papel del software es tan crucial como el hardware. Un ejemplo de esto se ilustra con el papel de Bitmain, un fabricante prolífico que ha desarrollado el Antminer S9. Además del hardware de minería, la industria depende en gran medida de los pools de minería colaborativos, como Brainspool, que controla aproximadamente el 5% del hashrate global de la red Bitcoin.
+En el contexto de la minería de Bitcoin, el papel del software es tan crucial como el hardware. Un ejemplo de esto se ilustra con el papel de Bitmain, un fabricante prolífico que ha desarrollado el Antminer S9. Además del hardware de minería, la industria depende en gran medida de los pools de minería colaborativos, como Braiinspool, que controla aproximadamente el 5% del hashrate global de la red Bitcoin.
 
-Los actores de esta industria buscan constantemente aumentar la eficiencia a través del hardware y el software. Por ejemplo, un software popular utilizado en este contexto es BrainsOS Plus. Este software reemplaza el sistema operativo original de la máquina de minería, lo que permite ejecutar las mismas operaciones de manera más eficiente. Con este software, un minero puede aumentar la eficiencia de su máquina en un 25%. Esto significa que, con la misma cantidad de electricidad, la máquina puede producir un 25% más de hashrate, lo que aumenta las recompensas recibidas por el minero. Esta optimización de software es un elemento esencial para la competitividad en la minería de Bitcoin, demostrando la importancia de un enfoque integrado que combine mejoras tanto en hardware como en software para maximizar la eficiencia y los rendimientos.
+Los actores de esta industria buscan constantemente aumentar la eficiencia a través del hardware y el software. Por ejemplo, un software popular utilizado en este contexto es BraiinsOS Plus. Este software reemplaza el sistema operativo original de la máquina de minería, lo que permite ejecutar las mismas operaciones de manera más eficiente. Con este software, un minero puede aumentar la eficiencia de su máquina en un 25%. Esto significa que, con la misma cantidad de electricidad, la máquina puede producir un 25% más de hashrate, lo que aumenta las recompensas recibidas por el minero. Esta optimización de software es un elemento esencial para la competitividad en la minería de Bitcoin, demostrando la importancia de un enfoque integrado que combine mejoras tanto en hardware como en software para maximizar la eficiencia y los rendimientos.
 
 ### La regulación y el costo de la electricidad
 
@@ -156,7 +156,7 @@ La conclusión general es que la descentralización es crucial para la seguridad
 
 ### El principio de Attakai
 
-En el contexto actual, la práctica de la minar de Bitcoin en S9 puede parecer compleja, pero un análisis más profundo abre el camino a alternativas innovadoras. El principio de Attakai se basa en una reflexión sobre el uso de instalaciones mineras en diversos tipos de edificios, como escuelas u hospitales. La idea principal es colocar algunas máquinas mineras en diferentes lugares, lo que permite reutilizar el calor emitido por estas máquinas para calentar los establecimientos. Al optar por modelos más eficientes como el S19, sería posible distribuir la actividad minera, favoreciendo así un mejor rendimiento general y contribuyendo de manera útil a la sociedad. Esta iniciativa tiene como objetivo competir con las grandes instalaciones mineras centralizadas utilizando el calor generado por las máquinas mineras de manera productiva y eficiente.
+En el contexto actual, la práctica de la minería de Bitcoin en S9 puede parecer compleja, pero un análisis más profundo abre el camino a alternativas innovadoras. El principio de Attakai se basa en una reflexión sobre el uso de instalaciones mineras en diversos tipos de edificios, como escuelas u hospitales. La idea principal es colocar algunas máquinas mineras en diferentes lugares, lo que permite reutilizar el calor emitido por estas máquinas para calentar los establecimientos. Al optar por modelos más eficientes como el S19, sería posible distribuir la actividad minera, favoreciendo así un mejor rendimiento general y contribuyendo de manera útil a la sociedad. Esta iniciativa tiene como objetivo competir con las grandes instalaciones mineras centralizadas utilizando el calor generado por las máquinas mineras de manera productiva y eficiente.
 
 La iniciativa Attakai surge de una experiencia personal de minería en el hogar realizada por dos amigos que deseaban participar activamente en la red de Bitcoin. Se encontraron con obstáculos importantes, como el alto nivel de ruido de los equipos de minería, diseñados para uso industrial y no doméstico. Para solucionar este problema, se realizaron modificaciones de hardware a las máquinas mineras. Se reemplazaron los equipos originales por ventiladores más eficientes y silenciosos, lo que hizo que la minería en el hogar fuera más accesible y menos molesta. Además, la adición de un adaptador Wi-Fi eliminó la necesidad de una conexión Ethernet por cable, simplificando aún más el proceso de minería en el hogar. Durante el invierno, estos mineros modificados se utilizaron como fuente de calefacción, convirtiendo una molestia en un beneficio.
 
@@ -176,7 +176,7 @@ La cuestión de la eficiencia y la viabilidad a largo plazo del uso de los miner
 
 La cuestión de recibir recompensas en bitcoin en lugar de otra moneda es fundamental en el sistema ideado por Satoshi Nakamoto. La creación de Bitcoin se caracteriza por un límite fijo de 21 millones de unidades. El objetivo era encontrar una manera justa de distribuir estas unidades recién creadas. Los mineros, al proporcionar su poder de cálculo para asegurar la red y hacer que cualquier ataque sea cada vez más costoso, protegen eficazmente la red de Bitcoin. A cambio de esta contribución crucial, son recompensados con los nuevos bitcoins creados, facilitando así la distribución de las monedas en el ecosistema.
 
-Es un sistema en el que ambas partes ganan. A Los mineros son remunerados tanto por asegurar la red como por aprobar las transacciones. Los nuevos bitcoins creados se dan como incentivo para fortalecer la seguridad, y las tarifas de transacción son un ingreso adicional por aprobar las transacciones. Estos dos elementos combinados constituyen la recompensa total por la minería. La cuestión del futuro de la minería surge debido a la reducción programada de las recompensas de minería, que se reducen a la mitad cada cuatro años, en un evento conocido como "halving". Para 2032, la recompensa del bloque será inferior a un bitcoin, y para 2140, no se crearán nuevos bitcoins. En este punto, los mineros dependerán únicamente de las tarifas de transacción como compensación. La red de Bitcoin deberá soportar una gran cantidad de transacciones, con tarifas lo suficientemente altas, para garantizar la rentabilidad de la minería.
+Es un sistema en el que ambas partes ganan. Los mineros son remunerados tanto por asegurar la red como por aprobar las transacciones. Los nuevos bitcoins creados se dan como incentivo para fortalecer la seguridad, y las tarifas de transacción son un ingreso adicional por aprobar las transacciones. Estos dos elementos combinados constituyen la recompensa total por la minería. La cuestión del futuro de la minería surge debido a la reducción programada de las recompensas de minería, que se reducen a la mitad cada cuatro años, en un evento conocido como "halving". Para 2032, la recompensa del bloque será inferior a un bitcoin, y para 2140, no se crearán nuevos bitcoins. En este punto, los mineros dependerán únicamente de las tarifas de transacción como compensación. La red de Bitcoin deberá soportar una gran cantidad de transacciones, con tarifas lo suficientemente altas, para garantizar la rentabilidad de la minería.
 
 El surgimiento de la Lightning Network, que permite transacciones rápidas y de bajo costo fuera de la cadena principal de Bitcoin, plantea interrogantes sobre el futuro de la minería. La Lightning Network tiene el potencial de reducir significativamente las tarifas de transacción, lo que afectaría los ingresos de los mineros. Sin embargo, esto dependerá de la adopción y el uso de la Lightning Network en comparación con la red principal de Bitcoin. En un escenario pesimista, los mineros podrían encontrar rentable minar incluso a pérdida si han amortizado sus costos y tienen acceso a electricidad barata. En un escenario más optimista, las tarifas de transacción en la red principal de Bitcoin podrían seguir siendo lo suficientemente altas como para mantener la rentabilidad de la minería.
 
@@ -190,7 +190,7 @@ Con el crecimiento previsto de la Lightning Network y el consiguiente aumento en
 
 La especulación rodea el uso futuro del espacio de bloques, pero generalmente se acepta que es un recurso escaso que debe utilizarse de manera prudente. Aunque existe el deseo de llenarlo, es esencial preservarlo para garantizar la viabilidad a largo plazo de la red de Bitcoin, anticipando un aumento futuro en la demanda de espacio en los bloques. Como en cualquier mercado libre, la oferta y la demanda regularán el uso del espacio de bloques. Con una oferta limitada, las partes interesadas deberán tomar decisiones informadas sobre el uso de este valioso espacio para garantizar la eficiencia y la seguridad a largo plazo de la red de Bitcoin.
 
-## La minería en el protocolo bitcoin
+## La minería en el protocolo Bitcoin
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
@@ -199,7 +199,7 @@ El papel de los mineros en la red Bitcoin ha sido un tema de debate intenso dura
 
 ### La guerra de los bloques
 
-Durante la guerra de los bloques, muchos mineros se opusieron a ciertas evoluciones de la red, lo que resaltó la tensión entre los distintos actores del ecosistema. La cuestión sigue siendo cómo equilibrar el poder entre los mineros, los nodos y los usuarios para asegurar la seguridad a largo plazo de Bitcoin.
+Durante la guerra de los bloques, muchos mineros se opusieron a ciertas actualizaciones de la red, lo que resaltó la tensión entre los distintos actores del ecosistema. La cuestión sigue siendo cómo equilibrar el poder entre los mineros, los nodos y los usuarios para asegurar la seguridad a largo plazo de Bitcoin.
 
 ![image](assets/en/009.webp)
 
@@ -211,13 +211,13 @@ En última instancia, la responsabilidad es compartida entre todos los actores d
 
 ### El poder de los mineros
 
-La elegante teoría del juego de Satoshi Nakamoto ha establecido una situación donde cada actor de la red Bitcoin está incentivado a actuar correctamente para proteger tanto sus propios intereses como los de los demás participantes. Esto crea un equilibrio donde el mal comportamiento puede ser reprendido, reforzando así la seguridad y la estabilidad del sistema completo. A pesar de este equilibrio, los estados siguen siendo una amenaza potencial. Como se indicó en la presentación en Surfing Bitcoin 2022, los estados pueden intentar atacar la industria de la minería, exponiendo la red Bitcoin a riesgos de centralización y ataque. Escenarios hipotéticos como un ataque militar dirigido a las instalaciones de producción de hardware de minería subrayan la importancia de la diversificación geográfica e industrial para la resiliencia de la red Bitcoin.
+La elegante teoría del juego de Satoshi Nakamoto ha establecido una situación donde cada actor de la red Bitcoin está incentivado a actuar correctamente para proteger tanto sus propios intereses como los de los demás participantes. Esto crea un equilibrio donde el mal comportamiento puede ser reprendido, reforzando así la seguridad y la estabilidad del sistema completo. A pesar de este equilibrio, los Estados siguen siendo una amenaza potencial. Como se indicó en la presentación en Surfing Bitcoin 2022, estos pueden intentar atacar la industria de la minería, exponiendo la red Bitcoin a riesgos de centralización y ataque. Escenarios hipotéticos como un ataque militar dirigido a las instalaciones de producción de hardware de minería subrayan la importancia de la diversificación geográfica e industrial para la resiliencia de la red Bitcoin.
 
 ![image](assets/en/010.webp)
 
 La centralización de la producción de hardware de minería en China representa otro riesgo. Una posible negativa a exportar máquinas de minería o una concentración de hashrate para un potencial ataque del 51% por parte de China subrayan la necesidad de una producción diversificada de hardware de minería. Frente a estos riesgos, la comunidad de Bitcoin está explorando activamente soluciones. Empresas como Intel están considerando producir equipos de minería en los Estados Unidos, lo cual contribuye a una producción más distribuida. Otras iniciativas, como la de Block con su Mining Development Kit (MDK) de código abierto, buscan reducir el monopolio en el diseño y fabricación de hardware de minería, permitiendo una distribución más amplia del hashrate. En el centro de estas discusiones está la misión esencial de Bitcoin: ser una red de intercambio de valor resistente a la censura. La comunidad de Bitcoin trabaja constantemente para fortalecer la descentralización, la resistencia a la censura y la anti-fragilidad de la red, rechazando propuestas como el cambio a proof of stake, que no se alinean con estos principios fundamentales.
 
-### El vínculo físico del proof of work vs el proof of stake
+### El vínculo físico del Proof of Work vs el Proof of Stake
 
 El Proof of Work (PoW) es fundamental porque representa el vínculo físico entre el mundo real y Bitcoin. Aunque los bitcoins son intangibles, su producción requiere energía tangible, estableciendo así una conexión directa con el mundo físico y real. Esta relación asegura que la producción y validación de bitcoins y bloques tenga un costo energético real, anclando la red Bitcoin en la realidad física y previniendo su posible dominación por entidades poderosas. El PoW actúa como un baluarte contra la centralización, garantizando que la participación en la red y la validación de transacciones requieran una inversión en recursos tangibles. Esto impide que la red sea monopolizada por entidades que, de otro modo, podrían tomar control sin ninguna barrera de entrada significativa, asegurando así una distribución más equitativa del poder y la influencia dentro de la red de Bitcoin.
 
@@ -231,7 +231,7 @@ Por otro lado, el Proof of Stake (PoS), aunque permite la participación a menor
 
 En resumen, los mineros fortalecen la red de Bitcoin contra la censura al utilizar electricidad para calcular la prueba de trabajo de Bitcoin, y son recompensados con nuevos bitcoins y las tarifas de transacción. Con la profesionalización de la industria, han surgido diferentes actores que desempeñan varios roles, desde la creación de chips hasta la administración de granjas de minería. Además, el aspecto financiero también interviene, ejerciendo control y determinando quién sobrevive durante las diferentes fases del mercado. La problemática de la centralización persiste, con el riesgo de que las entidades más ricas puedan dominar el mercado. Sin embargo, se están desarrollando alternativas tanto en hardware como en software. Corresponde a cada persona tomar acción y contribuir a la distribución de la red. Bitcoin representa una oportunidad sin precedentes no solo en términos de libertad, sino también en independencia energética. A pesar de las controversias sobre su consumo de electricidad, Bitcoin ofrece un incentivo económico para una transición hacia un uso más eficiente y abundante de la energía, materializando lo que antes era solo un ideal ecológico.
 
-## Precio del bitcoin y hashrate, ¿una correlación?
+## Precio del Bitcoin y hashrate, ¿una correlación?
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
@@ -245,13 +245,13 @@ Esta situación también muestra la resiliencia de Bitcoin, a menudo evaluada en
 
 ![image](assets/en/012.webp)
 
-### Tasa de Hash y Recompensa
+### Tasa de hash y recompensa
 
 La minería establece un precio mínimo para Bitcoin, por debajo del cual los mineros venderían a pérdida. El costo de la minería influye considerablemente en el precio, como se demostró con la prohibición de la minería en China, donde la tasa de hash y el precio cayeron de forma significativa, aunque se recuperaron rápidamente. Enfocarse únicamente en el precio puede resultar engañoso. Estudiar el costo a través de calculadoras de rentabilidad ofrece una perspectiva más equilibrada. Sin embargo, el mercado puede comportarse de forma irracional, y los mineros podrían verse obligados a vender a pérdida, potencialmente bajando el precio por debajo del costo de minería. Para evaluar la salud de Bitcoin y su descentralización, se podría desarrollar una ecuación que integre diversos factores, como el número de nodos y el precio. Este enfoque proporcionaría un análisis más matizado del estado de Bitcoin en comparación con las discusiones centradas únicamente en el precio.
 
 ### Minar para el beneficio o para la red?
 
-La pregunta es profunda y abarca varias dimensiones de la minería de Bitcoin. El equilibrio entre la búsqueda de beneficio y la contribución a la seguridad y distribución de la red de Bitcoin es un dilema constante para los mineros. El debate continúa en la comunidad de Bitcoin, con argumentos sólidos de ambos lados.
+La pregunta es profunda y abarca varias dimensiones de la minería de Bitcoin. E  l equilibrio entre la búsqueda de beneficio y la contribución a la seguridad y distribución de la red de Bitcoin es un dilema constante para los mineros. El debate continúa en la comunidad de Bitcoin, con argumentos sólidos de ambos lados.
 
 - Minar para el beneficio:
 
@@ -260,7 +260,7 @@ La pregunta es profunda y abarca varias dimensiones de la minería de Bitcoin. E
 
 - Minar para la red:
 
-* A favor: Minar para contribuir a la seguridad y la descentralización de la red Bitcoin es una iniciativa noble. Esto ayuda a fortalecer la resiliencia de la red y a resistir la censura y los ataques.
+**A favor:** Minar para contribuir a la seguridad y la descentralización de la red Bitcoin es una iniciativa noble. Esto ayuda a fortalecer la resiliencia de la red y a resistir la censura y los ataques.
 **En contra:** Sin un incentivo financiero suficiente, puede ser difícil para los mineros continuar apoyando la red, especialmente si operan con pérdidas.
 
 La iniciativa Attakai destaca la importancia de contribuir a la red mientras ofrece soluciones para hacer la minería más accesible y menos perjudicial. La posibilidad de minar en casa, con equipos más asequibles y soluciones para reducir la contaminación acústica, puede ayudar a democratizar la minería de Bitcoin. Attakai anima a aquellos interesados en Bitcoin a no solo invertir y poseer bitcoins, sino también a participar activamente en la seguridad de la red. Al proporcionar equipos probados y guías para el ensamblaje e instalación, Attakai facilita la entrada al mundo de la minería de Bitcoin. Además, fomenta la innovación y las mejoras continuas, invitando a la comunidad a contribuir y compartir ideas y experiencias para mejorar la minería en casa. El modelo Attakai responde a la pregunta de si minar por ganancias o por la red: no se trata solo de obtener beneficios, sino también de fortalecer la distribución y la seguridad de la red, permitiendo que más personas participen y comprendan esta industria crucial.
@@ -567,7 +567,7 @@ Las credenciales predeterminadas son las mismas que las del sistema operativo or
 - nombre de usuario: root
 - contraseña: (ninguna)
 
-Luego serás recibido por el panel de control de Brains OS+.
+Luego serás recibido por el panel de control de Braiins OS+.
 
 ### Panel de control
 

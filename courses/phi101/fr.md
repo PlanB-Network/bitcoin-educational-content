@@ -408,30 +408,30 @@ L'expérience de la démocratie athénienne a marqué durablement l'histoire de 
 
 ![image](assets/fr/020.webp)
 
-Or la démocratie athénienne se caractérisait par un vif débat public sur les affaires de la cité, qui se tenait principalement sur l'agora, la place du marché. Ce mode de fonctionnement, fondé sur la raison et la discussion critique, tranchait nettement avec les pratiques antérieures où les lois et les coutumes étaient considérées comme sacrées et immuables, léguées par les ancêtres et protégées par les dieux.
+Or, la démocratie athénienne se caractérisait par un vif débat public sur les affaires de la cité, qui se tenait principalement sur l'agora, la place du marché. Ce mode de fonctionnement, fondé sur la raison et la discussion critique, tranchait nettement avec les pratiques antérieures, où les lois et les coutumes étaient considérées comme sacrées et immuables, léguées par les ancêtres et protégées par les dieux.
 
 ### La naissance de la politique avec la cité
 
-La démocratie athénienne représente une rupture majeure avec les traditions passées. En effet, dans les sociétés antérieures, il ne peut pas y avoir de « politique » au sens d’une discussion sur les règles sociales, puisque celles-ci sont imposées de manière transcendante par le mythe.
+La démocratie athénienne représente une rupture majeure avec les traditions passées. En effet, dans les sociétés antérieures, il ne pouvait pas y avoir de « politique » au sens d’une discussion sur les règles sociales, puisque celles-ci étaient imposées de manière transcendante par le mythe.
 
 ![image](assets/fr/021.webp)
 
 L’historien Jean-Pierre Vernant écrit :
 
-> L'apparition de la polis constitue, dans l'histoire de la pensée grecque, un événement décisif. Certes, sur le plan intellectuel comme dans le domaine des institutions, il ne portera toutes ses conséquences qu'à terme ; la polis connaîtra des étapes multiples, des formes variées. Cependant, dès son avènement, qu'on peut situer entre le VIIIe et le VIIe siècle, elle marque un commencement, une véritable invention ; par elle, la vie sociale et les relations entre les hommes prennent une forme neuve, dont les Grecs sentiront pleinement l'originalité. (…) Ce qu'implique le système de la polis, c'est d'abord une extraordinaire prééminence de la parole sur tous les autres instruments du pouvoir. Elle devient l'outil politique par excellence, la clé de toute autorité dans l'État, le moyen de commandement et de domination sur autrui. (…) Un second trait de la polis est le caractère de pleine publicité donnée aux manifestations les plus importantes de la vie sociale. On peut même dire que la polis existe dans la mesure seulement où s'est dégagé un domaine public, aux deux sens, différents, mais solidaires, du terme : un secteur d'intérêt commun, s'opposant aux affaires privées ; des pratiques ouvertes, établies au grand jour, s'opposant à des procédures secrètes. (…) Désormais la discussion, l'argumentation, la polémique deviennent les règles du jeu intellectuel, comme du jeu politique. Le contrôle constant de la communauté s'exerce sur les créations de l'esprit comme sur les magistratures de l'Etat.
+> L'apparition de la *polis* constitue, dans l'histoire de la pensée grecque, un événement décisif. Certes, sur le plan intellectuel comme dans le domaine des institutions, il ne portera toutes ses conséquences qu'à terme ; la *polis* connaîtra des étapes multiples, des formes variées. Cependant, dès son avènement, qu'on peut situer entre le VIIIᵉ et le VIIᵉ siècle, elle marque un commencement, une véritable invention ; par elle, la vie sociale et les relations entre les hommes prennent une forme neuve, dont les Grecs sentiront pleinement l'originalité. (…) Ce qu'implique le système de la *polis*, c'est d'abord une extraordinaire prééminence de la parole sur tous les autres instruments du pouvoir. Elle devient l'outil politique par excellence, la clé de toute autorité dans l'État, le moyen de commandement et de domination sur autrui. (…) Un second trait de la *polis* est le caractère de pleine publicité donnée aux manifestations les plus importantes de la vie sociale. On peut même dire que la *polis* existe dans la mesure seulement où s'est dégagé un domaine public, aux deux sens, différents, mais solidaires, du terme : un secteur d'intérêt commun, s'opposant aux affaires privées ; des pratiques ouvertes, établies au grand jour, s'opposant à des procédures secrètes. (…) Désormais la discussion, l'argumentation, la polémique deviennent les règles du jeu intellectuel, comme du jeu politique. Le contrôle constant de la communauté s'exerce sur les créations de l'esprit comme sur les magistratures de l'Etat.
 >
-> (Jean Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962)
+> (Jean-Pierre Vernant, _Les origines de la pensée grecque_, Paris, P.U.F, 1962)
 
 ![image](assets/fr/022.webp)
 
-Le mot grec « polis » qui va donner « politique » en français, signifie la cité. Quand Aristote écrit que « l’homme est par nature un animal politique », cela ne veut pas dire qu’il est fait pour le pouvoir. Il entend par politique la faculté qu’ont les hommes de délibérer sur la place publique pour déterminer le juste et l’injuste.
+Le mot grec « polis » qui va donner « politique » en français, signifie la « cité ». Quand Aristote écrit que « l’homme est par nature un animal politique », cela ne veut pas dire qu’il est fait pour le pouvoir. Il entend par politique la faculté qu’ont les hommes de délibérer sur la place publique pour déterminer le juste et l’injuste.
 
-Cette nouveauté repose sur la distinction fondamentale entre deux termes de la langue grecque, « phusis » et « nomos » qui désignent deux types de lois :
+Cette nouveauté repose sur la distinction fondamentale entre deux termes de la langue grecque, « *phusis* » et « *nomos* », qui désignent deux types de lois :
 
-- _Phusis_ est la loi de la nature (qui donne le mot « physique » en français).
-- _Nomos_ est la loi humaine (terme qu’on retrouve dans le mot « autonomie » qui signifie « obéir à sa propre loi »).
+- ***Phusis*** est la loi de la nature (qui donne le mot « physique » en français).
+- ***Nomos*** est la loi humaine (terme qu’on retrouve dans le mot « autonomie », qui signifie « obéir à sa propre loi »).
 
-La Cité émerge avec l’idée que la loi (nomos) est d’origine humaine, qu’elle peut être modifiée librement par l’homme, contrairement à la nature, et peut s’appliquer à tous. Les Grecs prennent alors conscience de l’autonomie de l’ordre social et politique par rapport à l’ordre naturel.
+La Cité émerge avec l’idée que la loi (*nomos*) est d’origine humaine, qu’elle peut être modifiée librement par l’homme, contrairement à la nature, et qu'elle peut s’appliquer à tous. Les Grecs prennent alors conscience de l’autonomie de l’ordre social et politique par rapport à l’ordre naturel.
 
 C’est l’apparition de la politique : la discussion permanente sur les règles mêmes de la vie sociale. Désormais, les problèmes seront résolus par une action concertée et non par un ordre sacral immuable.
 
@@ -445,13 +445,13 @@ L’harmonie sociale n’est pas produite par l’action intentionnelle des dieu
 
 ![image](assets/fr/023.webp)
 
-Pour Aristote, la tyrannie c’est l’obéissance à un homme et la liberté c’est l’obéissance à la loi. On lui attribue cette citation :
+Pour Aristote, la tyrannie c’est l’obéissance à un homme, et la liberté c’est l’obéissance à la loi. On lui attribue cette citation :
 
 > Vouloir le règne de la loi, c’est vouloir le règne exclusif de la raison. Vouloir au contraire le règne d’un homme, c’est y ajouter celui d’une bête sauvage, car le désir et la colère faussent le jugement des gouvernants, fussent-ils les meilleurs des hommes.
 
 Selon lui, les lois, étant impersonnelles et permanentes, permettent de garantir la justice et l'égalité pour tous les citoyens.
 
-Cicéron, célèbre orateur et philosophe romain du 1er siècle avant J.-C., a repris cette idée : « Nous sommes esclaves des lois pour pouvoir être libres » (_De Republica_, Livre III, chapitre 13). Dans ce passage, Cicéron développe un argumentaire en faveur d'une république gouvernée par les lois, plutôt que par un homme ou un petit groupe d'hommes.
+Cicéron, célèbre orateur et philosophe romain du Iᵉʳ siècle avant J.-C., a repris cette idée : « Nous sommes esclaves des lois pour pouvoir être libres » (_De Republica_, Livre III, chapitre 13). Dans ce passage, Cicéron développe un argumentaire en faveur d'une république gouvernée par les lois, plutôt que par un homme ou un petit groupe d'hommes.
 
 L’idée de république est une idée qui vient de la philosophie grecque. Elle a même souvent été opposée à la démocratie, jugée trop risquée. Platon a intitulé son livre principal de philosophie politique : _La République_ et il juge très sévèrement la démocratie. Quand le peuple gouverne, il risque fort d’imposer la loi de ses désirs et de confondre le bien avec l’agréable. D’où la mort tragique de Socrate, condamné à mort par un jury populaire, manipulé par les sophistes. Platon en a tiré toutes les leçons.
 
@@ -463,27 +463,27 @@ On retrouvera également l’idée de liberté sous la loi dans le vocable anglo
 
 ### La liberté politique
 
-On peut affirmer que les Grecs ont inventé le concept de liberté politique, par opposition à la domination tyrannique. Les Grecs de cette époque considéraient que l’esclavage était une institution naturelle et que les esclaves n’avaient pas le même statut que les citoyens. Cela peut sembler contradictoire avec l’idée de liberté, mais pour eux la liberté était liée à la citoyenneté et non à l’absence d’esclavage.
+On peut affirmer que les Grecs ont inventé le concept de liberté politique, par opposition à la domination tyrannique. Les Grecs de cette époque considéraient que l’esclavage était une institution naturelle et que les esclaves n’avaient pas le même statut que les citoyens. Cela peut sembler contradictoire avec l’idée de liberté, mais pour eux, la liberté était liée à la citoyenneté et non à l’absence d’esclavage.
 
-Hérodote, dans _Historia_ et Eschyle dans sa tragédie _Les Perses_, illustrent avec brio le contraste entre la monarchie absolue et tyrannique de Xerxès et l'esprit de liberté des Grecs. Ce peuple, caractérisé par l'absence de maîtres et le refus de se soumettre à l'esclavage par des barbares, si nombreux soient-ils, trouve sa force dans la loi, le « nomos », son véritable maître qui garantit sa liberté. Et cette loi émane de la volonté de tous.
+Hérodote, dans _Historia_, et Eschyle dans sa tragédie _Les Perses_, illustrent avec brio le contraste entre la monarchie absolue et tyrannique de Xerxès et l'esprit de liberté des Grecs. Ce peuple, caractérisé par l'absence de maîtres et le refus de se soumettre à l'esclavage par des barbares, si nombreux soient-ils, trouve sa force dans la loi, le « nomos », son véritable maître, qui garantit sa liberté. Et cette loi émane de la volonté de tous.
 
 Selon Jacqueline de Romilly :
 
-> Les Grecs eux-mêmes semblent avoir mesuré cette originalité et en avoir pris conscience au début du Ve siècle, dans le choc qui les opposa aux envahisseurs perses. Et le premier fait qui les frappa alors fut qu’il existait entre eux et leurs adversaires, une différence politique, qui commandait tout le reste. Les Perses obéissaient à un souverain absolu, qui était leur maître, qu’ils craignaient, et devant lequel ils se prosternaient : ces usages n’avaient pas cours en Grèce. On trouve un étonnant dialogue qui, dans Hérodote, oppose Xerxès à un ancien roi de Sparte. Ce roi annonce à Xerxès que les Grecs ne lui cèderont pas car la Grèce lutte toujours contre un asservissement à un maître. Elle se battra, quel que soit le nombre de ses adversaires. Car, si les Grec sont libres, « ils ne sont pas libres en tout : ils ont un maître, la loi, qu’ils redoutent encore bien plus que tes sujets ne te craignent.
+> Les Grecs eux-mêmes semblent avoir mesuré cette originalité et en avoir pris conscience au début du Vᵉ siècle, dans le choc qui les opposa aux envahisseurs perses. Et le premier fait qui les frappa alors fut qu’il existait entre eux et leurs adversaires, une différence politique, qui commandait tout le reste. Les Perses obéissaient à un souverain absolu, qui était leur maître, qu’ils craignaient, et devant lequel ils se prosternaient : ces usages n’avaient pas cours en Grèce. On trouve un étonnant dialogue qui, dans Hérodote, oppose Xerxès à un ancien roi de Sparte. Ce roi annonce à Xerxès que les Grecs ne lui cèderont pas car la Grèce lutte toujours contre un asservissement à un maître. Elle se battra, quel que soit le nombre de ses adversaires. Car, si les Grecs sont libres, ils ne sont pas libres en tout : ils ont un maître, la loi, qu’ils redoutent encore bien plus que tes sujets ne te craignent.
 >
-> (_La Grèce Antique à la découverte de la liberté, Paris, Editions de Fallois, 1989_)
+> (_La Grèce Antique à la découverte de la liberté_, Paris, Éditions de Fallois, 1989)
 
 ![image](assets/fr/025.webp)
 
-Hérodote est convaincu qu’un peuple d’hommes libres est un peuple qui obéit à une loi et non à maître, comme dans l’empire Perse ou un seul homme est libre et tous les autres sont esclaves. C’est vrai pour Athènes, une démocratie, mais c’est vrai aussi pour Sparte. Le roi ne crée par la loi, il n’impose pas sa volonté. Il veille au respect de la loi, il est à son service et il meurt, s’il le faut, pour la défendre.
+Hérodote est convaincu qu’un peuple d’hommes libres est un peuple qui obéit à une loi et non à un maître, comme dans l’empire perse où un seul homme est libre et tous les autres sont esclaves. C’est vrai pour Athènes, une démocratie, mais c’est vrai aussi pour Sparte. Le roi ne crée pas la loi, il n’impose pas sa volonté. Il veille au respect de la loi, il est à son service et il meurt, s’il le faut, pour la défendre.
 
 ### La quête de vérité et le pluralisme
 
-Se dégageant de la pensée mythologique, Thalès, Anaximandre, Anaximène, puis plus tard Démocrite et Empédocle, ont été les premiers à chercher à comprendre la phusis (nature) par la raison et non par des entités surnaturelles.
+Se dégageant de la pensée mythologique, Thalès, Anaximandre, Anaximène, puis plus tard Démocrite et Empédocle, ont été les premiers à chercher à comprendre la *phusis* (nature) par la raison et non par des entités surnaturelles.
 
 ![image](assets/fr/026.webp)
 
-Le principe fondamental posé par ces premiers philosophes présocratiques est que les éléments du kosmos (l’univers) tiennent en place parce qu’ils sont tous également soumis à une même « loi de la nature » (phusis) que l’on peut énoncer de manière universelle et nécessaire. L’univers est rationnel, il constitue un ensemble structuré, que l’homme peut découvrir avec sa raison (le « logos » par opposition au « mutos », le mythe).
+Le principe fondamental posé par ces premiers philosophes présocratiques est que les éléments du *kosmos* (l’univers) tiennent en place parce qu’ils sont tous également soumis à une même « loi de la nature » (*phusis*) que l’on peut énoncer de manière universelle et nécessaire. L’univers est rationnel, il constitue un ensemble structuré, que l’homme peut découvrir avec sa raison (le « *logos* » par opposition au « *muthos* », le mythe).
 
 D’après Karl Popper, on doit aux philosophes de la Grèce antique, en particulier aux présocratiques, l’invention du rationalisme critique, c’est-à-dire la tradition occidentale de la discussion critique, source de la pensée scientifique et du pluralisme. Il s’en explique dans un chapitre de _Conjectures et Réfutations_ intitulé « Retour aux présocratiques » :
 
@@ -495,18 +495,18 @@ Ces éléments indiquent, selon lui, que c’est Thalès qui est à l’origine 
 
 > Nos tentatives pour saisir et découvrir la vérité ne présentent pas un caractère définitif mais sont susceptibles de perfectionnement, notre savoir, notre corps de doctrine sont de nature conjecturale, ils sont faits de suppositions, d’hypothèses, et non de vérités certaines et dernières.
 
-Les seuls moyens dont nous disposons pour approcher la vérité sont la critique et la discussion. De la Grèce antique provient donc cette tradition:
+Les seuls moyens dont nous disposons pour approcher la vérité sont la critique et la discussion. De la Grèce antique provient donc cette tradition :
 
 > Qui consiste à formuler des conjectures hardies et à exercer la libre critique, tradition qui a été à l’origine de la démarche rationnelle et scientifique et, partant, de cette culture occidentale qui est la nôtre et la seule qui soit fondée sur la science même si, de toute évidence, ce n’est pas là son seul fondement.
 
-## L’invention du droit par les romains
+## L’invention du droit par les Romains
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
 
-L’empire romain était une vaste entité cosmopolite. A son apogée, vers 117 après J.-C., il était un immense État pluriethnique et plurilingue :
+L’Empire romain était une vaste entité cosmopolite. À son apogée, vers 117 après J.-C., il était un immense État pluriethnique et plurilingue :
 
 - À l'ouest, il s'étendait de la Grande-Bretagne (actuelle Angleterre) à l'Espagne, en passant par la Gaule (actuelle France) et le nord de l'Afrique.
 - Au nord, il atteignait le Rhin et le Danube, englobant des parties de l'Allemagne, des Pays-Bas, de la Suisse, de l'Autriche, de la Hongrie, de la Roumanie et de la Bulgarie.
@@ -515,19 +515,19 @@ L’empire romain était une vaste entité cosmopolite. A son apogée, vers 117 
 
 ![image](assets/fr/028.webp)
 
-Dès lors, les romains ont poussé très loin l’élaboration du droit contrairement aux grecs qui vivaient dans de petites cités ethniquement homogènes. Sous la république romaine, on trouve déjà une protection juridique de la propriété et des droits individuels.
+Dès lors, les Romains ont poussé très loin l’élaboration du droit contrairement aux Grecs qui vivaient dans de petites cités ethniquement homogènes. Sous la République romaine, on trouve déjà une protection juridique de la propriété et des droits individuels.
 
 En effet, le droit a pour fonction de rendre possible la cohabitation pacifique et l’échange entre les hommes, en délimitant les frontières du « mien » et du « tien ».
 
-La propriété privée a pris une nouvelle dimension dans la civilisation romaine qu’elle n’avait pas connue auparavant, même dans la civilisation grecque.
+La propriété privée a pris une nouvelle dimension dans la civilisation romaine, qu’elle n’avait pas connue auparavant, même dans la civilisation grecque.
 
-Le droit romain deviendra le socle de tous les droits occidentaux modernes au cours du Moyen-Âge et jusqu’à nos jours.
+Le droit romain deviendra le socle de tous les droits occidentaux modernes au cours du Moyen Âge et jusqu’à nos jours.
 
 ![image](assets/fr/029.webp)
 
 ### La protection des droits individuels
 
-Enfin le droit romain accordait une grande importance aux droits et aux libertés des individus, et les citoyens romains étaient fiers de leur statut de citoyen. La Loi des Douze Tables (450 av. J.-C.) a constitué le premier corpus de lois écrites et accessibles à tous les citoyens romains, patriciens comme plébéiens. Cette codification a permis de clarifier et d'uniformiser le droit, qui était auparavant dispersé et souvent coutumier, garantissant un certain niveau de transparence dans l'application du droit de se marier, d’acheter, de vendre etc.
+Enfin, le droit romain accordait une grande importance aux droits et aux libertés des individus, et les citoyens romains étaient fiers de leur statut de citoyen. La Loi des Douze Tables (450 av. J.-C.) a constitué le premier corpus de lois écrites et accessibles à tous les citoyens romains, patriciens comme plébéiens. Cette codification a permis de clarifier et d'uniformiser le droit, qui était auparavant dispersé et souvent coutumier, garantissant un certain niveau de transparence dans l'application du droit de se marier, d’acheter, de vendre, etc.
 
 Cette loi correspond de façon étonnante aux droits naturels fondamentaux tels que théorisés par John Locke deux mille ans plus tard. Elle permet une protection des droits individuels contre l'arbitraire et les abus de pouvoir.
 
@@ -537,17 +537,17 @@ Certes, les femmes, les esclaves et les étrangers étaient encore exclus de la 
 
 La Loi des Douze Tables accorde notamment une importance particulière aux droits de propriété :
 
-- Elle définit les différents types de propriété (foncière, mobilière, etc.)
-- Elle décompose la propriété en usus (droit d’usage), fructus (droit de percevoir les fruits) et abusus (droit d’aliéner)
+- Elle définit les différents types de propriété (foncière, mobilière, etc.).
+- Elle décompose la propriété en *usus* (droit d’usage), *fructus* (droit de percevoir les fruits) et *abusus* (droit d’aliéner).
 - Elle précise les conditions d'acquisition, de transmission et de protection de ces biens.
 
 En résumé, elle contribue à sécuriser les transactions et à protéger les individus contre les expropriations arbitraires, avec la possibilité de recours en cas de litige.
 
 ### La naissance de l’humanisme et de la vie privée
 
-Ce que l’on est dépend de ce que l’on a. L’être n’est pas si indépendant de l’avoir qu’on le dit parfois car ce qu’on possède nous distingue de ce que possède autrui. Et notre vie nous appartient, nous possédons d’abord nos facultés, notre corps avant de posséder des biens matériels.
+Ce que l’on est dépend de ce que l’on a. L’être n’est pas si indépendant de l’avoir qu’on le dit parfois, car ce qu’on possède nous distingue de ce que possède autrui. Et notre vie nous appartient, nous possédons d’abord nos facultés, notre corps avant de posséder des biens matériels.
 
-Dans la société romaine, chacun peut se différencier de plus en plus d’autrui et devenir ainsi acteur de sa propre vie. L’homme joue désormais un rôle singulier et Cicéron utilise le mot de « persona » pour le désigner. La "persona" était un masque porté par les acteurs romains, mais elle désignait également la personnalité juridique et sociale d'un individu. La notion de persona impliquait que les individus étaient des entités distinctes avec leurs propres droits et responsabilités. La notion de personne humaine individuelle (l’ego) avec sa vie intérieure et son destin singulier est née, elle se développera avec le christianisme.
+Dans la société romaine, chacun peut se différencier de plus en plus d’autrui et devenir ainsi acteur de sa propre vie. L’homme joue désormais un rôle singulier, et Cicéron utilise le mot de « *persona* » pour le désigner. La "*persona*" était un masque porté par les acteurs romains, mais elle désignait également la personnalité juridique et sociale d'un individu. La notion de *persona* impliquait que les individus étaient des entités distinctes avec leurs propres droits et responsabilités. La notion de personne humaine individuelle (l’ego) avec sa vie intérieure et son destin singulier est née, elle se développera avec le christianisme.
 
 De plus, la littérature et la philosophie romaines contiennent de nombreux exemples de réflexions sur la nature de l'individu, le bonheur, la sagesse et la vie en société.
 
@@ -555,7 +555,7 @@ De plus, la littérature et la philosophie romaines contiennent de nombreux exem
 
 Un modèle d’équilibre dans la pensée est Sénèque, philosophe stoïcien romain qui a écrit sur l'importance de la vertu, de la raison et du contrôle de soi. Contemporain de Jésus, il fut à la fois précepteur de Néron, riche banquier et célèbre écrivain romain.
 
-Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale stoïcienne. Le bonheur, dit Sénèque, « c'est une âme libre \[...\] inaccessible à la crainte \[...\] pour qui le mal unique est l'indignité morale ». Disciple de Socrate, le sage stoïcien ne craint pas le mal physique, la mort ou même le fait de subir l’injustice. Pour lui, le seul mal, c’est le mal moral. Par conséquent le souverain bien réside dans la vertu.
+Le Traité de la Vie Heureuse (_De Vita Beata_) est un plaidoyer pour la morale stoïcienne. Le bonheur, dit Sénèque, « c'est une âme libre \[...\] inaccessible à la crainte \[...\] pour qui le mal unique est l'indignité morale ». Disciple de Socrate, le sage stoïcien ne craint pas le mal physique, la mort ou même le fait de subir l’injustice. Pour lui, le seul mal c’est le mal moral. Par conséquent le souverain bien réside dans la vertu.
 
 ![image](assets/fr/031.webp)
 
@@ -563,7 +563,7 @@ Pour autant, le plaisir n’est pas incompatible avec la vertu :
 
 > Les anciens ont prescrit de vivre la vie la meilleure et non la plus agréable, de telle sorte que le plaisir soit non pas le guide de la volonté droite, mais son compagnon de route.
 
-C’est pourquoi, le sage ne rejette pas les dons de la fortune :
+C’est pourquoi le sage ne rejette pas les dons de la fortune :
 
 > Il n'aime pas les richesses, il les préfère ; il ne les accueille pas dans son cœur, mais dans sa maison ; il ne rejette pas celle qu'il possède, il les domine et veut qu'elles fournissent à sa vertu une plus ample matière.
 
@@ -573,29 +573,29 @@ Sénèque va plus loin encore. Les richesses sont pour le sage l’occasion et l
 
 ### La notion de loi supérieure
 
-L’expression « droits de l’Homme », à laquelle se rallient beaucoup de juristes, souscrit implicitement à l’idée d’une loi supérieure car elle vise les droits liés avant toute législation positive à l’humanité même de l’Homme. Sans cette norme morale supérieure, il n’y aurait plus d’instance critique capable d’interpréter et de mettre en question l’ordre juridique.
+L’expression « droits de l’Homme », à laquelle se rallient beaucoup de juristes, souscrit implicitement à l’idée d’une loi supérieure, car elle vise les droits liés avant toute législation positive à l’humanité même de l’Homme. Sans cette norme morale supérieure, il n’y aurait plus d’instance critique capable d’interpréter et de mettre en question l’ordre juridique.
 
-Cette idée rappelle que le Prince (tout comme les chefs politiques) ne dispose pas de la justice elle-même mais qu’il est lui-même soumis à une loi qui le dépasse et doit réguler son jugement.
+Cette idée rappelle que le Prince (tout comme les chefs politiques) ne dispose pas de la justice elle-même, mais qu’il est lui-même soumis à une loi qui le dépasse et doit réguler son jugement.
 
-C’est ce que les philosophes de l’Antiquité et particulièrement les romains comme Cicéron ou les stoïciens ont appelé le droit naturel. On en trouve les origines dans la pensée grecque, chez Sophocle et Aristote.
+C’est ce que les philosophes de l’Antiquité, et particulièrement les romains comme Cicéron ou les stoïciens, ont appelé le droit naturel. On en trouve les origines dans la pensée grecque, chez Sophocle et Aristote.
 
-Aristote distingue une justice naturelle et une justice légale. La justice naturelle est ce qui est universellement valide, en tout lieu et en tout temps. C’est une loi non écrite, connue par la raison. La justice légale est ce qui est en soi indifférent mais qui s’impose à tous par suite d’un choix conventionnel et qui est écrit dans un texte juridique. Autrement dit, on distingue un droit naturel et un droit positif.
+Aristote distingue une justice naturelle et une justice légale. La justice naturelle est ce qui est universellement valide, en tout lieu et en tout temps. C’est une loi non écrite, connue par la raison. La justice légale est ce qui est en soi indifférent, mais qui s’impose à tous par suite d’un choix conventionnel et qui est écrit dans un texte juridique. Autrement dit, on distingue un droit naturel et un droit positif.
 
-Le dramaturge Sophocle, dans sa pièce _Antigone_, met en scène un conflit entre la loi divine et la loi humaine. Antigone refuse d'obéir au décret du roi Créon qui interdit l'inhumation de son frère, arguant que les lois divines, immuables et supérieures, priment sur les lois humaines.
+Le dramaturge Sophocle, dans sa pièce _Antigone_, met en scène un conflit entre la loi divine et la loi humaine. Antigone refuse d'obéir au décret du roi Créon, qui interdit l'inhumation de son frère, arguant que les lois divines, immuables et supérieures, priment sur les lois humaines.
 
 ![image](assets/fr/032.webp)
 
-Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéir à sa conscience morale et religieuse. S’il n’y a que le droit positif, dit Aristote, Créon a toujours raison, même quand il a tort. Mais si nous maintenons l’idée régulatrice d’un droit naturel ou divin, Antigone peut se dresser le moment venu et invoquer contre une loi injuste, le droit supérieur de la loi non écrite.
+Quand Antigone désobéit à Créon, elle s’oppose au droit positif pour obéir à sa conscience morale et religieuse. S’il n’y a que le droit positif, dit Aristote, Créon a toujours raison, même quand il a tort. Mais si nous maintenons l’idée régulatrice d’un droit naturel ou divin, Antigone peut se dresser le moment venu et invoquer, contre une loi injuste, le droit supérieur de la loi non écrite.
 
 ### Cicéron et le droit naturel
 
-Cicéron a vécu au 1er siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous l’empire romain. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les européens instruits durant de nombreux siècles.
+Cicéron a vécu au Iᵉʳ siècle avant Jésus-Christ et il est considéré comme le plus grand orateur de langue latine sous la République romaine. C’est aussi un philosophe moral et politique proche des stoïciens. Ses essais ont été lus par les Européens instruits durant de nombreux siècles.
 
 ![image](assets/fr/033.webp)
 
-Dans son traité _Des Lois_ (_De Legibus_), il réfléchit au fondement du droit. Selon lui, le droit positif, l’ensemble des conventions ou des lois écrites adoptées par une société, ne saurait fonder une justice digne de ce nom. Il existe une justice naturelle, inscrite dans la raison humaine : « le droit a un fondement dans la nature même ». Dire que le juste et l'injuste sont le résultat d'une convention revient à dire que la vérité se décrète. Or la vérité ne se décrète pas, fut-ce à la majorité, elle guide nos jugements.
+Dans son traité _Des Lois_ (_De Legibus_), il réfléchit au fondement du droit. Selon lui, le droit positif, l’ensemble des conventions ou des lois écrites adoptées par une société, ne saurait fonder une justice digne de ce nom. Il existe une justice naturelle, inscrite dans la raison humaine : « le droit a un fondement dans la nature même ». Dire que le juste et l'injuste sont le résultat d'une convention revient à dire que la vérité se décrète. Or la vérité ne se décrète pas, fût-ce à la majorité, elle guide nos jugements.
 
-Cicéron rejette aussi l’utilité comme fondement du droit. En effet écrit-il :
+Cicéron rejette aussi l’utilité comme fondement du droit. En effet, écrit-il :
 
 > Si la justice est l'obéissance aux lois écrites et aux institutions des peuples et si, comme le disent ceux qui le soutiennent, l'utilité est la mesure de toutes choses, il méprisera et enfreindra les lois, celui qui croira y voir son avantage. Ainsi plus de justice, s'il n'y a pas une nature ouvrière de justice ; si c'est sur l'utilité qu'on la fonde, une autre utilité la renverse. Si donc le droit ne repose pas sur la nature, toutes les vertus disparaissent. Que deviennent en effet la libéralité, l'amour de la patrie, le respect des choses qui doivent nous être sacrées, la volonté de rendre service à autrui, celle de reconnaître le service rendu ? Toutes ces vertus naissent du penchant que nous avons à aimer les hommes, qui est le fondement du droit.
 
@@ -605,7 +605,7 @@ Il existe donc selon lui une justice universelle, inscrite dans la raison et la 
 
 Cette loi est supérieure aux législations en vigueur, dès lors, « on ne peut ni l’infirmer par d’autres lois, ni déroger à quelques-uns de ses préceptes, ni l’abroger tout entière », ajoute Cicéron. Le pouvoir politique n'a aucune prise sur elle.
 
-Ni la vérité ni la justice ne se décrètent, fut-ce à la majorité, car sinon elles deviennent l’enjeu de toutes les manipulations. Donc même si le dirigeant est le peuple, il n’est pas en droit de transgresser les principes de la loi naturelle.
+Ni la vérité ni la justice ne se décrètent, fût-ce à la majorité, car sinon elles deviennent l’enjeu de toutes les manipulations. Donc, même si le dirigeant est le peuple, il n’est pas en droit de transgresser les principes de la loi naturelle.
 
 En affirmant que le droit ne peut se réduire aux seules lois édictées par le législateur, Cicéron a voulu lutter contre l’arbitraire législatif et proposer une morale politique. Cette idée a eu une influence durable sur la pensée occidentale.
 
@@ -616,21 +616,21 @@ En affirmant que le droit ne peut se réduire aux seules lois édictées par le 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
 
-Pourquoi Rome a-t-elle déclinée puis finalement chutée ? Beaucoup aiment à penser que l’Empire Romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire Romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
+Pourquoi Rome a-t-elle décliné puis finalement chuté ? Beaucoup aiment à penser que l’Empire romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
 
 
 
-En 1734, dans ses _Considérations sur les causes de la grandeur des Romains et de leur décadence_, Montesquieu avait développé une thèse originale et unifiée pour expliquer l’ascension et la chute de la puissance romaine : la liberté gagnée sous la République puis perdue sous l’Empire. A partir du moment où s’étend la domination romaine, se perd la liberté et s’introduit la décadence.
+En 1734, dans ses _Considérations sur les causes de la grandeur des Romains et de leur décadence_, Montesquieu avait développé une thèse originale et unifiée pour expliquer l’ascension et la chute de la puissance romaine : la liberté gagnée sous la République puis perdue sous l’Empire. À partir du moment où s’étend la domination romaine, se perd la liberté et s’introduit la décadence.
 
 ![image](assets/fr/034.webp)
 
-L'Empire romain fut un régime militaire parasite, qui ne pouvait survivre que par un afflux permanent de richesses pillées à l’extérieur, des prisonniers réduits en esclavage et des terres volées.
+L'Empire romain fut un régime militaire parasite, qui ne pouvait survivre que par un afflux permanent de richesses pillées à l’extérieur, de prisonniers réduits en esclavage et de terres volées.
 
 En effet, l'enrichissement de l'aristocratie romaine ne provenait que du butin des invasions et non d'une quelconque création de valeur. Mais avec la fin des conquêtes et les rendements décroissants des pillages, l’administration dut recourir de plus en plus aux augmentations d’impôts pour satisfaire son besoin de richesses, ce qui entraîna un appauvrissement général de la population de l'Empire.
 
 ### Du pain et des jeux
 
-Vers 140, l’historien romain Fronto écrivait:
+Vers 140, l’historien romain Fronto écrivait :
 
 > La société romaine est préoccupée principalement par deux choses, ses ressources alimentaires et ses spectacles.
 
@@ -640,9 +640,9 @@ Sous le règne de l’empereur Antonin le Pieux (de 138 à 161), la bureaucratie
 
 Mais comme les revenus des impôts ne suffisaient pas à financer l'administration et les garnisons, les empereurs commencèrent à émettre de plus en plus de monnaie en réduisant la quantité d'argent dans chaque pièce.
 
-Le Denarius, la monnaie principale de Rome, vit sa teneur en argent passer de 100% à 0,5% entre 235 et 284 après JC. Avec la dévaluation de la monnaie, les prix augmentèrent de manière incontrôlable, entraînant une baisse de la consommation, du commerce et de la confiance.
+Le denarius, la monnaie principale de Rome, vit sa teneur en argent passer de 100 % à 0,5 % entre 235 et 284 après J.-C. Avec la dévaluation de la monnaie, les prix augmentèrent de manière incontrôlable, entraînant une baisse de la consommation, du commerce et de la confiance.
 
-La chute de l’Empire Romain fut un processus lent, directement relié à la faillite d’un système monétaire corrompu. L’hyperinflation qui en découla fit chuter l’économie et fit perdre la confiance du peuple dans la monnaie.
+La chute de l’Empire romain fut un processus lent, directement relié à la faillite d’un système monétaire corrompu. L’hyperinflation qui en découla fit chuter l’économie et fit perdre la confiance du peuple dans la monnaie.
 
 Puis l'instabilité politique s’est ajoutée à l’instabilité économique, avec plus de 50 empereurs différents sur le trône en 50 ans.
 
@@ -652,13 +652,13 @@ Un exemple classique d’interventionnisme a vu le jour à Rome lorsque l’empe
 
 ![image](assets/fr/035.webp)
 
-Les émissions monétaires à répétition par les empereurs successifs pour faire face à l'augmentation des dépenses militaires, avaient provoqué une flambée des prix. En 301 Dioclétien proclame l’édit du Maximum pour tenter de les plafonner. C’est un échec.
+Les émissions monétaires à répétition par les empereurs successifs pour faire face à l'augmentation des dépenses militaires avaient provoqué une flambée des prix. En 301, Dioclétien proclame l’édit du Maximum pour tenter de les plafonner. C’est un échec.
 
 Ludwig von Mises décrit cet épisode qui illustre bien les effets néfastes de l'interventionnisme :
 
 > L'empereur romain Dioclétien, (est) bien connu pour avoir été le dernier empereur romain qui ait persécuté les Chrétiens. Les empereurs romains, dans la seconde partie du troisième siècle ne disposaient que d'une seule méthode financière, qui était de falsifier la monnaie. Dans ces âges primitifs, avant l'invention de la presse à imprimer, l'inflation elle-même était primitive, pour ainsi dire. Elle comportait une fraude au niveau de la frappe des pièces, en particulier de l'argent, jusqu'à ce que la couleur de l'alliage en soit changée et le poids considérablement réduit. Le résultat de cet avilissement des monnaies joint à l'augmentation corrélative de la circulation fut une hausse des prix, suivie par un édit de contrôle des prix. Et les empereurs romains n'y allaient pas de main morte pour faire appliquer les lois ; ils ne considéraient pas que la mort fût une peine trop lourde pour un homme qui avait demandé un prix trop élevé. Ils firent respecter le contrôle des prix, mais en conséquence ils firent crouler la société. Cela finit par la désintégration de l'empire romain, et celle aussi de la division du travail.
 >
-> ([Politique économique, Réflexion pour aujourd’hui et pour demain](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
+> ([*Politique économique, Réflexion pour aujourd’hui et pour demain*](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### Du libéralisme au socialisme
 
@@ -666,31 +666,31 @@ Dans le sillage de Montesquieu, Philippe Fabry démontre que Rome a connu une tr
 
 ![image](assets/fr/036.webp)
 
-Rome fut elle la plus grande puissance libérale du monde antique ? Sombra-t-elle ensuite dans une forme de socialisme ? Définissons d’abord les termes :
+Rome fut-elle la plus grande puissance libérale du monde antique ? Sombra-t-elle ensuite dans une forme de socialisme ? Définissons d’abord les termes :
 
-Libéralisme : la confiance dans l’action des individus, produisant un ordre spontané, juste puisque résultant de leurs interactions volontaires, par le libre jeu du marché et le respect de leurs droits inaliénables.
+**Libéralisme** : la confiance dans l’action des individus, produisant un ordre spontané, juste puisque résultant de leurs interactions volontaires, par le libre jeu du marché et le respect de leurs droits inaliénables.
 
-Socialisme : l’organisation par l’État de la société considérée comme un tout, au moyen de la planification de la production et de la consommation.
+**Socialisme** : l’organisation par l’État de la société considérée comme un tout, au moyen de la planification de la production et de la consommation.
 
 La thèse du livre de Philippe Fabry est que « la chute de l’Empire romain est la conséquence de l’impasse dans laquelle le socialisme impérial avait conduit le monde antique ». C’est le dirigisme de l’État impérial romain qui a conduit à son effondrement.
 
 La République romaine, qui fut la plus grande puissance libérale du monde antique, a duré de 510 avant J.-C. à 23 avant J.-C., soit près de 500 ans. Mais progressivement, la collégialité civique qui caractérisait la République romaine a disparu au profit d’un pouvoir personnel incarné par des empereurs qui adoptèrent le style de gouvernement des potentats orientaux de l'Égypte et de la Perse antique.
 
-Rompant avec une politique extérieure jusque-là modérée, Rome soumis soudainement par la guerre des populations immenses qui fournirent des flots d’esclaves aux riches investisseurs romains, ruinant les classes moyennes. La population romaine exigea en retour de plus en plus de subventions.
+Rompant avec une politique extérieure jusque-là modérée, Rome soumit soudainement par la guerre des populations immenses qui fournirent des flots d’esclaves aux riches investisseurs romains, ruinant les classes moyennes. La population romaine exigea en retour de plus en plus de subventions.
 
 Aux premiers temps de sa grandeur, chaque Romain se considérait lui-même comme la principale source de ses revenus. Ce qu’il pouvait acquérir volontairement sur ​​le marché, était la source de son gagne-pain. Le déclin de Rome a commencé quand un grand nombre de citoyens ont découvert une autre source de revenus : le processus politique ou l'État redistributif.
 
 Les Romains ont alors abandonné la liberté et la responsabilité personnelle contre des promesses de privilèges et de richesses distribuées directement par le gouvernement. Les citoyens adoptèrent l’idée qu’il était plus avantageux d’obtenir un revenu par des moyens politiques plutôt que par le travail.
 
-Philippe Fabry résume:
+Philippe Fabry résume :
 
-> les faiblesses observées du système impérial \[…\] sont celles de tous les régimes totalitaires »_ : _« Priorité absolue donnée au maintien du système en place, inefficacité dans la production économique, corruption, clientélisme.
+> Les faiblesses observées du système impérial \[…\] sont celles de tous les régimes totalitaires » : « Priorité absolue donnée au maintien du système en place, inefficacité dans la production économique, corruption, clientélisme.
 
 Et il ajoute :
 
-> Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVe siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets.
+> Au total la vie économique, politique, artistique, religieuse sous l’Empire romain au IVᵉ siècle devait ressembler assez fortement à ce qu’elle était sous Brejnev en URSS (et dans les pires moments sous Staline) ou à ce qu’elle peut être aujourd’hui en Corée du Nord : toute la population du monde romain était enrégimentée par le socialisme impérial et en subissait, directement ou indirectement, les effets.
 
-# Les origines de la liberté : le Moyen-Âge
+# Les origines de la liberté : le Moyen Âge
 
 <partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
 
@@ -701,23 +701,25 @@ Et il ajoute :
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
 
-L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVe siècle, à Saint Thomas d’Aquin au XIIIe siècle. Quelle est cette idée ?
+L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVᵉ siècle, à Saint Thomas d’Aquin au XIIIᵉ siècle. Quelle est cette idée ?
 
 ![image](assets/fr/037.webp)
 
 ### La liberté est impliquée dans l’idée de péché
 
-D'emblée, le christianisme enseigne que le péché est une affaire personnelle, qu'il n'est pas inhérent au groupe, mais que chaque individu doit avoir la responsabilité de son propre salut. « Dieu a conféré à sa créature, avec le libre arbitre, la capacité de mal agir, et par-là même, la responsabilité du péché » affirme Saint Augustin dans son traité sur le libre arbitre _De Libero Arbitrio_.
+D'emblée, le christianisme enseigne que le péché est une affaire personnelle, qu'il n'est pas inhérent au groupe, mais que chaque individu doit avoir la responsabilité de son propre salut. « Dieu a conféré à sa créature, avec le libre arbitre, la capacité de mal agir, et par-là même, la responsabilité du péché », affirme Saint Augustin dans son traité sur le libre arbitre _De Libero Arbitrio_.
 
-Pas de péché sans liberté. Certes, le Dieu chrétien est un juge qui récompense la « vertu » et punit le « péché ». Mais cette conception de Dieu est justement incompatible avec le fatalisme car l’homme ne pourrait pas être coupable et faire son mea culpa s’il n’était pas d’abord libre de déterminer lui-même son comportement. Reconnaître sa faute morale, sa culpabilité, c’est reconnaître qu’on aurait pu agir autrement.
+Pas de péché sans liberté. Certes, le Dieu chrétien est un juge qui récompense la « vertu » et punit le « péché ». Mais cette conception de Dieu est justement incompatible avec le fatalisme, car l’homme ne pourrait pas être coupable et faire son mea culpa s’il n’était pas d’abord libre de déterminer lui-même son comportement. Reconnaître sa faute morale, sa culpabilité, c’est reconnaître qu’on aurait pu agir autrement.
 
-> D’où vient que nous agissons mal ? demande Saint Augustin. Si je ne me trompe, l’argumentation a montré que nous agissons ainsi par le libre arbitre de la volonté. Mais ce libre arbitre auquel nous devons notre faculté de pécher, nous en sommes convaincus, je me demande si celui qui nous a créés a bien fait de nous le donner. Il semble, en effet, que nous n’aurions pas été exposés à pécher si nous en avions été privés ; mais il est à craindre que, de cette façon, Dieu aussi passe pour l’auteur de nos mauvaises actions. (_De libero arbitrio_, I, 16, 35.)
+> D’où vient que nous agissons mal ? demande Saint Augustin. Si je ne me trompe, l’argumentation a montré que nous agissons ainsi par le libre arbitre de la volonté. Mais ce libre arbitre auquel nous devons notre faculté de pécher, nous en sommes convaincus, je me demande si celui qui nous a créés a bien fait de nous le donner. Il semble, en effet, que nous n’aurions pas été exposés à pécher si nous en avions été privés ; mais il est à craindre que, de cette façon, Dieu aussi passe pour l’auteur de nos mauvaises actions.
+>
+> (_De libero arbitrio_, I, 16, 35.)
 
 Si Dieu a voulu que l’homme puisse agir mal, n’est-il pas alors indirectement responsable du mal ? Pourquoi Dieu a-t-il voulu la possibilité du mal ? Saint Augustin répond :
 
-> la volonté libre sans laquelle personne ne peut bien vivre, tu dois reconnaître et qu’elle est un bien, et qu’elle est un don de Dieu, et qu’il faut condamner ceux qui mésusent de ce bien plutôt que de dire de celui qui l’a donné qu’il n’aurait pas dû le donner.
+> La volonté libre sans laquelle personne ne peut bien vivre, tu dois reconnaître et qu’elle est un bien, et qu’elle est un don de Dieu, et qu’il faut condamner ceux qui mésusent de ce bien plutôt que de dire de celui qui l’a donné qu’il n’aurait pas dû le donner.
 
-La réponse de S. Augustin au problème consiste à dire que Dieu est responsable de la possibilité du mal mais non de sa réalisation. Il veut la possibilité du mal car cette possibilité est nécessaire à la liberté sans laquelle il n’y a pas de responsabilité c’est-à-dire d’accès à la dignité de la vie morale.
+La réponse de Saint Augustin au problème consiste à dire que Dieu est responsable de la possibilité du mal mais non de sa réalisation. Il veut la possibilité du mal car cette possibilité est nécessaire à la liberté sans laquelle il n’y a pas de responsabilité, c’est-à-dire d’accès à la dignité de la vie morale.
 
 Mais la réalisation du mal moral est l’œuvre de l’homme, qui fait un mauvais usage de sa liberté et non de Dieu qui veut que l’homme choisisse le bien.
 
@@ -737,13 +739,13 @@ Ainsi, Saint Thomas écrit (_Somme contre les Gentils_, III, 69 et 122) :
 
 ![image](assets/fr/039.webp)
 
-La Providence nous donne donc les moyens d'être à nous même notre propre providence. Et il ajoute :
+La Providence nous donne donc les moyens d'être à nous-mêmes notre propre providence. Et il ajoute :
 
 > Un homme peut diriger et gouverner ses actions. Par consé­quent la créature rationnelle participe de la divine providence non seulement en étant gouverné mais également en gouver­nant.
 
 Pour que l’homme fasse le meilleur usage possible de sa liberté, Dieu lui donne un outil qui est sa raison et un mode d’emploi pour l’éclairer qui est la loi naturelle.
 
-La loi naturelle s’exprime en nous par des inclinations telles que l’amour de la vérité, l’obéissance à la raison ou la fameuse règle d’or : « Ne fais pas à autrui ce que tu ne voudrais pas subir ». Ces inclinations sont selon lui innées. En effet, écrit Saint Thomas, « il faut considérer que le juste naturel est ce vers quoi la nature de l'homme l'incline ».
+La loi naturelle s’exprime en nous par des inclinations telles que l’amour de la vérité, l’obéissance à la raison ou la fameuse règle d’or : « Ne fais pas à autrui ce que tu ne voudrais pas subir ». Ces inclinations sont selon lui innées. En effet, écrit Saint Thomas : « il faut considérer que le juste naturel est ce vers quoi la nature de l'homme l'incline ».
 
 Toutefois, cette lumière intérieure ne suffit pas pour bien agir. L’élaboration de normes concrètes d’action et leur application à des situations particulières est nécessaire. Il revient alors aux juristes de définir ces normes, en accord avec la loi naturelle : ce sont les lois humaines. Mais la loi naturelle est supérieure à la loi humaine et elle s’impose universellement, y compris aux Princes.
 
@@ -760,14 +762,14 @@ Il existe donc un droit antérieur à la formation de l'État, un ensemble de pr
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
 
-Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. A la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIe siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
+Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. À la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIᵉ siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
 
 ![image](assets/fr/040.webp)
 
 Il emprunte à la pensée d'Aristote l'idée d'un ordre naturel autonome, indépendant de l'ordre céleste. Cet ordre naturel est certes transcendé par l'ordre surnaturel, mais il existe cependant à part et lui est antérieur. Il y a donc pour lui deux manières d’accéder à la vérité sur le monde et en particulier sur Dieu :
 
 - D'un côté **la raison**, qui part de la nature, de l’expérience sensible, qui élabore des idées et parvient par ses raisonnements à des certitudes rationnelles.
-- De l'autre, **la foi** qui part d’une Révélation, c’est-à-dire d’un texte sacré inspiré de Dieu. La démarche est inverse, ce n'est pas le réel ou une caractéristique humaine (la pensée) qui conduit à des certitudes mais ce sont des vérités données d’en haut par Dieu qui vont expliquer le réel.
+- De l'autre, **la foi** qui part d’une Révélation, c’est-à-dire d’un texte sacré inspiré de Dieu. La démarche est inverse, ce n'est pas le réel ou une caractéristique humaine (la pensée) qui conduit à des certitudes, mais ce sont des vérités données d’en haut par Dieu qui vont expliquer le réel.
 
 Comment alors concilier les deux ? Au Moyen Âge, on peut recenser deux traditions d'articulation du rapport raison/foi : le mysticisme et le rationalisme religieux.
 
@@ -775,25 +777,25 @@ Comment alors concilier les deux ? Au Moyen Âge, on peut recenser deux traditio
 
 Le mysticisme consiste à exclure la raison de la foi. Celle-ci est absolue, au-delà du raisonnement, et ne doit jamais être soumise à la raison. Si elle contredit la raison, c'est normal, et vouloir faire entrer les vérités révélées dans le cadre de la raison est une hérésie. Dieu est bien au-delà de la raison, autrement dit, il ne sert à rien de chercher à l'expliquer. Dès lors, la philosophie est très mal vue. Dieu serait même au-delà du langage humain : ce serait l'innommable, le Tout Autre. Sa volonté est absolue et arbitraire. Il ne faut donc pas chercher à comprendre pourquoi Dieu a fait ceci ou cela, il suffit d’obéir, c’est la seule attitude qui convienne.
 
-Dans l’islam, on dira aussi qu’il ne faut pas représenter Dieu, lui donner une image. Dans le monde chrétien, un mystique comme Maître Eckhart écrivit notamment dans un Sermon : « Toutes choses ont un pourquoi, mais Dieu n'a pas de pourquoi. » Pour les mystiques, la seule philosophie valable est celle qui vient directement de la Révélation. Tout ce qui ne provient pas d’elle n’est ni vrai ni faux mais dépourvu de toute valeur de vérité.
+Dans l’islam, on dira aussi qu’il ne faut pas représenter Dieu, lui donner une image. Dans le monde chrétien, un mystique comme Maître Eckhart écrivit notamment dans un sermon : « Toutes choses ont un pourquoi, mais Dieu n'a pas de pourquoi. » Pour les mystiques, la seule philosophie valable est celle qui vient directement de la Révélation. Tout ce qui ne provient pas d’elle n’est ni vrai ni faux mais dépourvu de toute valeur de vérité.
 
 L'opposée directe de cette pensée est celle qui consiste à dire que seule la raison a raison, et que toute foi est un non-sens. C’est le rationalisme absolu, qui débouche sur l’athéisme. Toutefois, un tel courant n'émerge pas encore au Moyen Âge.
 
-Pour les tenants du rationalisme religieux, il y a une complémentarité entre raison et foi : c'est la position intermédiaire. La vérité peut aussi bien être connue par la foi que par la raison. Et ainsi, ce qui est vrai dans la foi doit l'être aussi en raison, et inversement. La vérité est une mais elle est accessible de deux manières. Il y a donc deux sciences qui ne peuvent se contredire mais qui se complètent l’une l’autre : la science naturelle ou philosophie et la science sacrée ou théologie. Si ce n'est pas le cas, si une contradiction apparaît entre la raison et la foi, c'est soit que l'on raisonne mal, soit que l'on interprète mal les Écritures.
+Pour les tenants du rationalisme religieux, il y a une complémentarité entre raison et foi : c'est la position intermédiaire. La vérité peut aussi bien être connue par la foi que par la raison. Ainsi, ce qui est vrai dans la foi doit l'être aussi en raison, et inversement. La vérité est une, mais elle est accessible de deux manières. Il y a donc deux sciences qui ne peuvent se contredire mais qui se complètent l’une l’autre : la science naturelle ou philosophie et la science sacrée ou théologie. Si ce n'est pas le cas, si une contradiction apparaît entre la raison et la foi, c'est soit que l'on raisonne mal, soit que l'on interprète mal les Écritures.
 
-Ainsi pour Thomas d'Aquin, « La foi est l'assentiment de la raison mue par la volonté en l'absence d'évidence. » Autrement dit, la raison est capable d'appréhender le monde et Dieu, rationnellement, jusqu'à à un certain point. A ce point, elle ne rencontre plus d'évidence. La volonté peut choisir alors de croire, et donc d'aller plus loin vers la vérité par la foi, où de ne pas croire. Mais la foi n’est pas un saut dans l’absurde, elle n’est pas une humiliation de la raison.
+Ainsi, pour Thomas d'Aquin, « La foi est l'assentiment de la raison mue par la volonté en l'absence d'évidence. » Autrement dit, la raison est capable d'appréhender le monde et Dieu, rationnellement, jusqu'à un certain point. À ce point, elle ne rencontre plus d'évidence. La volonté peut choisir alors de croire, et donc d'aller plus loin vers la vérité par la foi, ou de ne pas croire. Mais la foi n’est pas un saut dans l’absurde, elle n’est pas une humiliation de la raison.
 
 C'est la position médiane, qui cherche à réconcilier foi et raison. Le vrai rationalisme n’est pas de rejeter tout ce que la raison ne comprend pas mais de penser les limites de la raison. Ce qui dépasse la raison n’est pas nécessairement contre la raison. Une citation de Pascal dans les **_Pensées_** illustre très bien cet état d'esprit : « Deux excès : exclure la raison, n'admettre que la raison. »
 
 ### La naissance des universités
 
-Le Moyen Âge chrétien est marqué, au début du XIIIe siècle, par la naissance et la multiplicité des universités en Occident. Une université est une communauté d'étudiants et de maîtres d'une même ville sous le contrôle de l'Église et comportant en principe quatre facultés : arts, théologie, droit, médecine. La théologie est conçue comme une science, sur le modèle de la science grecque.
+Le Moyen Âge chrétien est marqué, au début du XIIIᵉ siècle, par la naissance et la multiplication des universités en Occident. Une université est une communauté d'étudiants et de maîtres d'une même ville sous le contrôle de l'Église et comportant en principe quatre facultés : arts, théologie, droit, médecine. La théologie est conçue comme une science, sur le modèle de la science grecque.
 
 ![image](assets/fr/041.webp)
 
-En 1200, Philippe-Auguste crée l’Université de Paris qui devient très vite l’université la plus réputée d’Europe. En 1257, Robert de Sorbon fonde un collège de théologie à l’Université de Paris qui s’appellera plus tard la Sorbonne.
+En 1200, Philippe Auguste crée l’Université de Paris qui devient très vite l’université la plus réputée d’Europe. En 1257, Robert de Sorbon fonde un collège de théologie à l’Université de Paris qui s’appellera plus tard la Sorbonne.
 
-Une nouvelle méthode d’enseignement et de recherche appelée scolastique (de schola, école) apparaît au sein de ces universités. On y pratique la « disputatio », sorte de débat contradictoire devant un auditoire. Une thèse est proposée. Elle est suivie d’objections auxquelles il faut opposer une réponse. Une fois l'ensemble des arguments épuisés, le maître tranche le débat en une solution argumentée.
+Une nouvelle méthode d’enseignement et de recherche appelée scolastique (de *schola*, "école") apparaît au sein de ces universités. On y pratique la « disputatio », sorte de débat contradictoire devant un auditoire. Une thèse est proposée. Elle est suivie d’objections auxquelles il faut opposer une réponse. Une fois l'ensemble des arguments épuisés, le maître tranche le débat en une solution argumentée.
 
 Parmi les grands maîtres aristotéliciens qui ont marqué cette époque, citons Albert le Grand (1200-1280) et Thomas d’Aquin (1224-1274). Ce dernier, établissant la raison dans ses droits, met en lumière la spécificité et l’autonomie de la sagesse philosophique par rapport à la théologie. De même que la grâce suppose la nature et l’accomplit, la foi suppose et perfectionne la raison.
 
@@ -806,9 +808,9 @@ Dès lors, c’est le rationalisme religieux qui va l’emporter définitivement
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
 
-Au Moyen Âge l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire Romain et que les historiens appellent le système théologico-politique c’est-à-dire un système où le pouvoir est sacral c’est-à-dire ou le chef politique est en même temps un chef religieux.
+Au Moyen Âge, l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire romain et que les historiens appellent le système théologico-politique, c’est-à-dire un système où le pouvoir est sacral, c’est-à-dire où le chef politique est en même temps un chef religieux.
 
-C’est pourquoi les sociétés médiévales sont caractérisées par l’unanimisme politico-religieux. Le pouvoir politique fonde sa légitimité, son autorité et son unité sur la foi chrétienne (ou musulmane). Il se considère comme le gardien de l'orthodoxie culturelle et religieuse et traite comme des parias ceux qui s’éloignent de cette unanimité. Dans ce cadre, même si une certaine tolérance peut être concédée à ceux qui se détachent de la vision culturelle commune (les juifs par exemple), aucun droit au pluralisme ne peut leur être reconnu. Il faudra attendre la fin du Moyen-âge, avec la conquête de l’Amérique pour que le problème des libertés civiles se pose de façon cruciale à l’Église et pour voir apparaître une première philosophie du droit qui affirme et protège les libertés individuelles, légitime le pluralisme et condamne la coercition étatique.
+C’est pourquoi les sociétés médiévales sont caractérisées par l’unanimisme politico-religieux. Le pouvoir politique fonde sa légitimité, son autorité et son unité sur la foi chrétienne (ou musulmane). Il se considère comme le gardien de l'orthodoxie culturelle et religieuse et traite comme des parias ceux qui s’éloignent de cette unanimité. Dans ce cadre, même si une certaine tolérance peut être concédée à ceux qui se détachent de la vision culturelle commune (les juifs par exemple), aucun droit au pluralisme ne peut leur être reconnu. Il faudra attendre la fin du Moyen Âge, avec la conquête de l’Amérique, pour que le problème des libertés civiles se pose de façon cruciale à l’Église et pour voir apparaître une première philosophie du droit qui affirme et protège les libertés individuelles, légitime le pluralisme et condamne la coercition étatique.
 
 ### Saint Augustin et la tentation théocratique
 
@@ -820,26 +822,26 @@ La question des rapports entre le politique et le religieux a pris forme avec l'
 
 Nous avons donc :
 
-- Un pouvoir spirituel issu de Dieu est incarné par le Pape et s'exerce sur toute la chrétienté (c'est la cité de Dieu).
+- Un pouvoir spirituel issu de Dieu, incarné par le Pape et s'exerce sur toute la chrétienté (c'est la cité de Dieu).
 - La cité des hommes, qui est terrestre et faite d'un pouvoir local et temporel. Elle est issue du péché originel, du Mal.
 
-Cependant, pour Augustin, cette cité terrestre est nécessaire. Elle est nécessaire car elle garantit la paix. Ainsi, la coexistence avec le religieux doit bien se faire et elle doit être réglée par une prédominance du pouvoir spirituel sur le pouvoir temporel. Mais il ne devrait pas y avoir de séparation radicale ni de conflit ouvert et les deux entités devraient travailler ensemble. Les historiens ont appelé cette doctrine l’augustinisme politique.
+Cependant, pour Augustin, cette cité terrestre est nécessaire. Elle est nécessaire car elle garantit la paix. Ainsi, la coexistence avec le religieux doit bien se faire et elle doit être réglée par une prédominance du pouvoir spirituel sur le pouvoir temporel. Mais il ne devrait pas y avoir de séparation radicale ni de conflit ouvert, et les deux entités devraient travailler ensemble. Les historiens ont appelé cette doctrine l’augustinisme politique.
 
 ![image](assets/fr/043.webp)
 
 ### La rivalité entre pouvoir temporel et pouvoir spirituel
 
-Toutefois ni les papes ni les rois n’étaient satisfaits de cette alliance. L’Église a essayé de revendiquer son autorité sur le pouvoir politique tandis que le pouvoir politique a tenté de s’en affranchir pour affirmer sa souveraineté.
+Toutefois, ni les papes ni les rois n’étaient satisfaits de cette alliance. L’Église a essayé de revendiquer son autorité sur le pouvoir politique, tandis que le pouvoir politique a tenté de s’en affranchir pour affirmer sa souveraineté.
 
-C’est ainsi que l'Église de son côté va mettre au point son droit et ses tribunaux et va postuler que le Pape peut régler les différends terrestres. De leur côté, les rois vont commencer à développer un appareil d'État le plus puissant possible. Ils vont aussi tenter de centraliser la résolution des conflits juridiques, puis ils vont peu à peu généraliser l'impôt, développer une administration territoriale et lever des armées : ils vont poser les bases de l'État moderne.
+C’est ainsi que l'Église de son côté va mettre au point son droit et ses tribunaux et va postuler que le pape peut régler les différends terrestres. De leur côté, les rois vont commencer à développer un appareil d'État le plus puissant possible. Ils vont aussi tenter de centraliser la résolution des conflits juridiques, puis ils vont peu à peu généraliser l'impôt, développer une administration territoriale et lever des armées : ils vont poser les bases de l'État moderne.
 
-Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque Prince ou chaque Pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait:
+Dans la réalité, la compétition entre les pouvoirs a donné lieu à de nombreux conflits. Chaque prince ou chaque pape a toujours essayé d'emporter le dernier mot et de convaincre qu'il possédait l'autorité suprême, en dernier recours. Ainsi, le Pape Grégoire VII déclarait :
 
 > Le pape est le seul homme dont tous les princes doivent baiser les pieds.
 
 De son côté, Saint Louis n’a pas hésité à s’opposer au Pape Innocent IV qui avait excommunié et déposé l’empereur Frédéric II, le privant ainsi de toute crédibilité auprès de son peuple. Son petit-fils, Philippe Le Bel, fera de même.
 
-La tentation théocratique de l’Église se heurte aussi à la théorie du « droit divin ». Si les rois de France se proclament monarques de « droit divin », c’est pour échapper à l’emprise du Pape et tirer leur autorité directement de Dieu, sans avoir d’ordre à recevoir des clercs.
+La tentation théocratique de l’Église se heurte aussi à la théorie du « droit divin ». Si les rois de France se proclament monarques de « droit divin », c’est pour échapper à l’emprise du pape et tirer leur autorité directement de Dieu, sans avoir d’ordre à recevoir des clercs.
 
 ## L’éthique biblique : la valeur sacrée de l’individu
 
@@ -850,15 +852,15 @@ La tentation théocratique de l’Église se heurte aussi à la théorie du « d
 
 La pensée antique subordonne l’homme à un cosmos divin, c’est-à-dire à un univers parfait dont il n’est qu’une parcelle. Le monothéisme, au contraire, affirme la valeur infiniment supérieure de l’homme sur la nature, dans la mesure où l’homme est créé à l’image de Dieu. Ce point capital est à l’origine d’une véritable révolution éthique. Dans la Bible est affirmée la valeur sacrée et infinie de chaque être humain.
 
-C’est pourquoi l’éthique biblique change notre rapport au mal. Elle apporte une sensibilité aigüe et inédite à la souffrance humaine. Elle incite donc à considérer comme anormaux et insupportables des maux que l'humanité jusque-là avait trouvé parfaitement supportables, en particulier le mal fait à autrui, au faible, à l’innocent.
+C’est pourquoi l’éthique biblique change notre rapport au mal. Elle apporte une sensibilité aiguë et inédite à la souffrance humaine. Elle incite donc à considérer comme anormaux et insupportables des maux que l'humanité jusque-là avait trouvé parfaitement supportables, en particulier le mal fait à autrui, au faible, à l’innocent.
 
 ### Le passage d’une éthique symétrique à une éthique dissymétrique
 
-L’éthique symétrique, c’est celle qui consiste à établir une stricte égalité dans les rapports humains ou stricte réciprocité. Elle apparaît dans la vertu de justice, vertu suprême pour les grecs. La justice c’est rendre à l’autre ce qu’on lui doit : à chacun le sien. Et le fait de percevoir le temps comme cyclique conduit à ne pas se sentir responsable du mal fait par les autres. Il y a du mal sur Terre mais il a toujours existé et il existera toujours. Il faut passer cela au compte des profits et des pertes et la somme en est constante. Il n'y a rien à faire, il en sera toujours ainsi, c’est le fatalisme grec et romain.
+L’éthique symétrique, c’est celle qui consiste à établir une stricte égalité dans les rapports humains ou une stricte réciprocité. Elle apparaît dans la vertu de justice, vertu suprême pour les Grecs. La justice c’est rendre à l’autre ce qu’on lui doit : à chacun le sien. Et le fait de percevoir le temps comme cyclique conduit à ne pas se sentir responsable du mal fait par les autres. Il y a du mal sur Terre mais il a toujours existé et il existera toujours. Il faut passer cela au compte des profits et des pertes, et la somme en est constante. Il n'y a rien à faire, il en sera toujours ainsi, c’est le fatalisme grec et romain.
 
-L’éthique biblique est dissymétrique ce qui veut dire qu’on doit donner plus que ce qu’on doit. Chacun se sent responsable du mal, même de celui que l’on n’a pas commis. Éthique du don, éthique du pardon, éthique de la compassion. On ne peut pas rester indifférent à la souffrance d’autrui et on ne doit pas tolérer la souffrance gratuite, y compris lorsqu’elle ne vient pas de nous. La quiétude du sage stoïcien qui accepte le destin devient impossible. C’est le sens de la parabole du Bon Samaritain. Rien ne l’oblige à s’arrêter et à prendre soin d’un homme blessé par des bandits. A partir de la révolution éthique apportée par la Bible, l'humanité entière devient une sorte de Bon Samaritain. Elle est invitée à ne pas tolérer le mal fait à autrui et à le combattre.
+L’éthique biblique est dissymétrique, ce qui veut dire qu’on doit donner plus que ce qu’on doit. Chacun se sent responsable du mal, même de celui que l’on n’a pas commis. Éthique du don, éthique du pardon, éthique de la compassion. On ne peut pas rester indifférent à la souffrance d’autrui et on ne doit pas tolérer la souffrance gratuite, y compris lorsqu’elle ne vient pas de nous. La quiétude du sage stoïcien qui accepte le destin devient impossible. C’est le sens de la parabole du Bon Samaritain. Rien ne l’oblige à s’arrêter et à prendre soin d’un homme blessé par des bandits. À partir de la révolution éthique apportée par la Bible, l'humanité entière devient une sorte de Bon Samaritain. Elle est invitée à ne pas tolérer le mal fait à autrui et à le combattre.
 
-De plus, puisque Dieu est créateur, nous voyons apparaître un nouveau concept, celui d’égalité : face à Dieu tous les hommes sont égaux. Il n'y a pas de privilégiés face à l'immensité du Dieu transcendant et les hommes sont tous égaux..
+De plus, puisque Dieu est créateur, nous voyons apparaître un nouveau concept, celui d’égalité : face à Dieu tous les hommes sont égaux. Il n'y a pas de privilégiés face à l'immensité du Dieu transcendant, et les hommes sont tous égaux.
 
 ### Le droit des Indiens
 
@@ -868,7 +870,9 @@ L'incarnation la plus connue de cette doctrine émergente est l'école de Salama
 
 La découverte des Amériques va constituer un véritable choc culturel, une première brèche dans l’unanimisme politico-religieux hérité de l’Antiquité. La fameuse querelle du droit des Indiens va en effet diviser les théologiens en deux camps opposés et irréconciliables.
 
-Dans un premier camp, il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 1° Ils sont de grands pécheurs (cannibalisme) 2° Ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
+Dans un premier camp, il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 
+1° Ils sont de grands pécheurs (cannibalisme) 
+2° Ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
 
 Dans l’autre camp, il y a les tenants du pluralisme et des libertés civiles : ce sont les théologiens de l’école de Salamanque, disciples de S. Thomas. Selon Francisco de Vitoria et Bartolomeo de Las Casas, des droits doivent être reconnus aux Indiens en tant qu'êtres humains et non du fait qu'ils ont adhéré ou non à la foi catholique. Non seulement on ne doit pas les convertir par la force, mais on ne doit pas non plus prendre leurs biens ou les soumettre à une quelconque forme d’esclavage. Leur argumentation s’appuie sur la conception thomiste de la loi naturelle, distincte de la loi divine.
 

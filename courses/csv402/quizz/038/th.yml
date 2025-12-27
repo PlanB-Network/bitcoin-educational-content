@@ -1,0 +1,9 @@
+question: ในไฟล์ YAML ที่ใช้ในการออกสินทรัพย์ ฟิลด์ใดที่กำหนดจำนวนโทเค็นทั้งหมดที่ออก?
+answer: issuedSupply
+wrong_answers:
+  - เจ้าของสินทรัพย์
+  - สเปค
+  - จำนวน
+explanation: |
+  ฟิลด์ "issuedSupply" ในไฟล์ YAML กำหนดจำนวนโทเค็นทั้งหมดที่ออกสำหรับสัญญา
+reviewed: false

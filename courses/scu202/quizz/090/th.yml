@@ -1,0 +1,9 @@
+question: พอร์ตเครือข่ายใดที่ใช้โดยค่าเริ่มต้นสำหรับการเชื่อมต่อ P2P บนเครือข่ายหลัก Bitcoin?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  พอร์ต 8333 เป็นพอร์ตมาตรฐานที่ใช้โดยโหนด Bitcoin สำหรับการเชื่อมต่อแบบ peer-to-peer กับ Mainnet.
+reviewed: false

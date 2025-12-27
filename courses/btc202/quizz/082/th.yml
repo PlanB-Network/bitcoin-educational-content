@@ -1,0 +1,9 @@
+question: ค่าเริ่มต้นสำหรับ minrelaytxfee ใน Bitcoin Core คืออะไร?
+answer: 0.00001 BTC/kvB (1 sat/vB)
+wrong_answers:
+  - 0.0001 BTC/kvB (10 sat/vB)
+  - 0.000001 BTC/kvB (0.1 sat/vB)
+  - 0.00002 BTC/kvB (2 sat/vB)
+explanation: |
+  minrelaytxfee ค่าเริ่มต้นคือ 0.00001 BTC/kvB หรือ 1 sat/vB ซึ่งต่ำกว่าค่านี้ธุรกรรมจะไม่ถูกส่งต่อ
+reviewed: true

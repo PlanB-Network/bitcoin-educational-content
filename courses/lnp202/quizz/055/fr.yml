@@ -1,0 +1,9 @@
+question: Dans le flux NWC, à quel moment le chiffrement intervient-il côté application ?
+answer: Avant publication sur le relais
+wrong_answers:
+  - Après lecture par le nœud
+  - Après publication sur le relais
+  - Jamais
+explanation: |
+  L’application sérialise la requête, la chiffre, puis la publie sous forme d’événement sur un relais Nostr.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ฟังก์ชันใดที่ใช้ในการสร้าง seed จากวลีช่วยจำ?
+answer: PBKDF2 with HMAC-SHA512
+wrong_answers:
+  - SHA256 เพียงอย่างเดียว
+  - ดับเบิล SHA256
+  - AES-256
+explanation: |
+  seed ถูกสร้างขึ้นโดยใช้ฟังก์ชัน PBKDF2 กับ HMAC-SHA512 และ 2048 รอบ จากวลีช่วยจำและ passphrase
+reviewed: false

@@ -1,0 +1,9 @@
+question: คำสั่งในการตรวจสอบปริมาณของบิตคอยน์ที่หมุนเวียนอยู่บนโหนด Bitcoin คืออะไร?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  คำสั่งในการตรวจสอบปริมาณของบิตคอยน์ที่หมุนเวียนอยู่บนโหนด Bitcoin คือ bitcoin-cli gettxoutsetinfo คำสั่งนี้ให้ความโปร่งใสและสามารถตรวจสอบได้ เพิ่มความเชื่อมั่นในระบบ Bitcoin
+reviewed: true

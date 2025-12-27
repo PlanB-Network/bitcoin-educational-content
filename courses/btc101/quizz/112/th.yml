@@ -1,0 +1,9 @@
+question: BitcoinTalk คืออะไร?
+answer: สถานที่สำหรับการสนทนาของผู้ใช้ Bitcoin
+wrong_answers:
+  - ซอฟต์แวร์ Bitcoin mining
+  - A Bitcoin wallet.
+  - การประชุม Bitcoin
+explanation: |
+  ฟอรัม BitcoinTalk เป็นสถานที่สำหรับการสนทนาของผู้ใช้ Bitcoin ถูกสร้างขึ้นโดย Satoshi Nakamoto เมื่อวันที่ 22 พฤศจิกายน 2009
+reviewed: true

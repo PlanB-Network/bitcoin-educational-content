@@ -1,0 +1,9 @@
+question: คำสั่งใดที่สามารถใช้ในการสอบถามเซิร์ฟเวอร์ DNS เพื่อรับที่อยู่ IP ของโดเมน?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - เอสเอส
+explanation: |
+  nslookup เป็นเครื่องมือสอบถาม DNS สำหรับแปลงชื่อโดเมนเป็นที่อยู่ IP
+reviewed: false

@@ -1,0 +1,9 @@
+question: บทบาทของ seed ใน Bitcoin HD wallet คืออะไร?
+answer: เพื่อใช้เป็นจุดเริ่มต้นสำหรับการสืบทอดคีย์ทั้งหมด
+wrong_answers:
+  - จัดเก็บธุรกรรมของ wallet
+  - โดยตรง generate คีย์สาธารณะหลัก
+  - รับรองความลับของธุรกรรม
+explanation: |
+  seed เป็นลำดับ 512 บิตที่ได้มาจากวลีช่วยจำและ passphrase มันเป็นพื้นฐานของคีย์ทั้งหมดใน wallet
+reviewed: false

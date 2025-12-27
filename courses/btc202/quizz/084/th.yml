@@ -1,0 +1,9 @@
+question: จำนวนการเชื่อมต่อขาออกเริ่มต้นที่โหนด Bitcoin Core รักษาไว้คือเท่าใด?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin Core รักษาการเชื่อมต่อขาออก 10 การเชื่อมต่อโดยค่าเริ่มต้น (8 full-relay และ 2 block-relay-only)
+reviewed: true

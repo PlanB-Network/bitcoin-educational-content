@@ -1,0 +1,9 @@
+question: ส่วนใดของผลลัพธ์ HMAC-SHA512 ที่ใช้เป็น child chain code?
+answer: ไบต์สุดท้าย 32 ไบต์
+wrong_answers:
+  - 32 ไบต์แรก
+  - ทั้ง 64 ไบต์
+  - SHA256 ของ 32 ไบต์ตรงกลาง
+explanation: |
+  ไบต์สุดท้าย 32 ไบต์ของผลลัพธ์ HMAC-SHA512 ทำหน้าที่เป็น chain code สำหรับคีย์ลูก
+reviewed: false

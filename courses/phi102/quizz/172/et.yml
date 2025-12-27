@@ -1,0 +1,8 @@
+question: Füsiokraatide analüüsi kohaselt, miks riigipoolne majandustegevuse planeerimine põhimõtteliselt ebaõnnestub?
+answer: Riigil puudub "peremehe silm" - üksikasjalikud kohalikud teadmised, mida omavad ainult üksikud majandustegelased oma igapäevases tegevuses
+wrong_answers:
+  - Riigil ei ole piisavalt rahalisi vahendeid, et tõhusalt koordineerida kõiki majandussektoreid suurtel territooriumidel
+  - Poliitilised juhid on loomupäraselt korrumpeerunud ja seavad isikliku kasu tõhusa majandusjuhtimise asemel esikohale isikliku kasu saamise
+  - Demokraatlikud hääletusprotsessid on liiga aeglased, et kiiresti reageerida kiiresti muutuvatele turutingimustele
+explanation: |
+  Füsiokraadid tuvastasid riikliku planeerimise põhilise epistemoloogilise probleemi: võimatus koguda ja töödelda tsentraalselt tohutut, keerulist ja pidevalt muutuvat teavet, mis juhib majandustegevust. Nad väitsid, et ainult üksikud majandussubjektid, kes tegutsevad oma konkreetses kontekstis, omavad üksikasjalikke teadmisi ("l'œil du maître"), mis on vajalikud asjakohaste majandusotsuste tegemiseks. See arusaam eelnes ja ennetas kaasaegse Austria kooli argumente teadmiste probleemi kohta sotsialistlikus arvestuses, näidates, et keskse planeerimise ebaõnnestumine ei tulene mitte ressursipuudusest või korruptsioonist, vaid sellest, et hajutatud individuaalsete teadmiste asendamine tsentraliseeritud bürokraatliku otsustusprotsessiga on võimatu.

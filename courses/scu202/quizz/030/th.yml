@@ -1,0 +1,9 @@
+question: เครื่องมือโอเพ่นซอร์สใดที่สามารถเข้ารหัสดิสก์ได้อย่างสมบูรณ์ภายใต้ Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - ซูเปอร์คริปต์
+explanation: |
+  LUKS (Linux Unified Key Setup) เป็นโซลูชันมาตรฐานบน Linux สำหรับการเข้ารหัสดิสก์ทั้งหมดระหว่างการติดตั้ง
+reviewed: false

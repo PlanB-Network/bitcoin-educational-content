@@ -1,0 +1,8 @@
+question: การกระทำใดต่อไปนี้ที่สามารถช่วยผู้ที่ต้องการใช้ Bitcoin ในชีวิตประจำวันได้บ้าง?
+answer: มีรายชื่อของร้านค้าทั้งหมดที่รับ Bitcoin.
+wrong_answers:
+  - เพิ่มราคาของ Bitcoin.
+  - ลดจำนวนบิตคอยน์
+  - จำกัดการใช้ Bitcoin.
+explanation: >-
+reviewed: true

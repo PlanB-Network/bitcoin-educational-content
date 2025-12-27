@@ -1,0 +1,9 @@
+question: wallet ประเภทใดบ้างที่พิจารณาในโปรไฟล์เริ่มต้น?
+answer: กระเป๋าเงิน Lightning แบบมีผู้ดูแลและแบบไม่มีผู้ดูแล
+wrong_answers:
+  - Hot และกระเป๋าเก็บความเย็น Bitcoin
+  - Multisig และกระเป๋า Bitcoin แบบกระดาษ
+  - ฮาร์ดแวร์และกระเป๋าเงิน Lightning ของสมอง
+explanation: |
+  โปรไฟล์ Starter ใช้กระเป๋าเงิน Lightning แบบมีผู้ดูแลหรือไม่มีผู้ดูแลก็ได้
+reviewed: true

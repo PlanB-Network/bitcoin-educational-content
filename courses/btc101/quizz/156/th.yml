@@ -1,0 +1,8 @@
+question: เวลาเฉลี่ยระหว่างการสร้างบล็อกสองบล็อกในโปรโตคอล Bitcoin คือเท่าใด?
+answer: 10 นาที
+wrong_answers:
+  - 5 นาที.
+  - 15 นาที
+  - 20 นาที
+explanation: >-
+reviewed: true

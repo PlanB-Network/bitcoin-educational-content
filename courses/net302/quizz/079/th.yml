@@ -1,0 +1,9 @@
+question: ประเภทของระเบียน DNS ที่ใช้ในการจับคู่ชื่อโดเมนกับที่อยู่ IPv6 คืออะไร?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Type AAAA (quad-A) ใช้สำหรับแมปชื่อโดเมนกับที่อยู่ IPv6 ในขณะที่ type A ถูกสงวนไว้สำหรับ IPv4.
+reviewed: false

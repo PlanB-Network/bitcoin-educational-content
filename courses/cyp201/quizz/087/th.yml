@@ -1,0 +1,9 @@
+question: คุณลักษณะเฉพาะของที่อยู่ SegWit v1 (P2TR) เมื่อเทียบกับที่อยู่ SegWit v0 คืออะไร?
+answer: พวกเขาใช้คีย์สาธารณะดิบในที่อยู่โดยตรง
+wrong_answers:
+  - พวกมันถูกเข้ารหัสใน base58check.
+  - พวกเขาต้องการลายเซ็นสองลายเพื่อให้มีผลบังคับใช้
+  - พวกเขาใช้แฮชคีย์สาธารณะในที่อยู่
+explanation: |
+  SegWit v1 (P2TR) addresses do not use a hash of the public key, but directly the Taproot public key.
+reviewed: false

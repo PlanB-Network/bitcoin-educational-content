@@ -1,0 +1,8 @@
+question: ข้อกังวลหลักเกี่ยวกับต้นทุนด้านสิ่งแวดล้อมของ Bitcoin mining คืออะไร?
+answer: การใช้พลังงาน
+wrong_answers:
+  - การผลิต ASICs.
+  - การรีไซเคิล ASICs
+  - ต้นทุนของไฟฟ้า
+explanation: >-
+reviewed: true

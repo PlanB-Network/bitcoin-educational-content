@@ -1,0 +1,8 @@
+question: Matokeo makuu ya uzalishaji wa ziada wa kilimo yalikuwa nini kulingana na sura hiyo?
+answer: Iliwezesha ufadhili wa kazi za ulinzi wa pamoja na taasisi za kijamii
+wrong_answers:
+  - Ilisababisha usawa wa haraka kati ya wanajamii wote
+  - Ilisababisha kuondolewa kabisa kwa migogoro kati ya makundi ya wanadamu
+  - Ilisababisha kuachwa kwa aina zote za umiliki wa mali
+explanation: |
+  Kulingana na sura hiyo, ziada ya kilimo ilikuwa muhimu kwa sababu ilizalisha rasilimali nyingi kuliko zilizotumika, jambo ambalo liliruhusu jamii kufadhili kazi za ulinzi wa pamoja na taasisi zilizohakikisha utulivu wa kijamii. Ziada hii iliunda mzunguko mzuri ambapo usalama uliwezesha maendeleo zaidi. Majibu yasiyo sahihi si sahihi kwa sababu: ziada haikuunda usawa wa haraka (mipango ya kijamii bado ilikuwepo), migogoro kati ya vikundi iliendelea kuwepo, na umiliki wa mali ukawa muhimu zaidi badala ya kuachwa.

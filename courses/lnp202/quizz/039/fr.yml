@@ -1,0 +1,9 @@
+question: À quoi correspond la liquidité sortante d'un nœud Lightning ?
+answer: Capacité à payer
+wrong_answers:
+  - Capacité à se connecter
+  - Capacité à recevoir
+  - Capacité à fermer des canaux
+explanation: |
+  La liquidité sortante représente les sats disponibles du côté de l’opérateur pour effectuer des paiements.
+reviewed: false

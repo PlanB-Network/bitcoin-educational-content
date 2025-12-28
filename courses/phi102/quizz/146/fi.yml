@@ -1,0 +1,8 @@
+question: Mikä erottaa esitetyn analyysin mukaan valtion lailliset tehtävät sen loistehtävistä?
+answer: Lailliset toiminnot suojelevat yksilön oikeuksia puuttumatta asiaan, kun taas loistoiminnot korvaavat vapaaehtoiset sopimukset hallinnollisilla määräyksillä
+wrong_answers:
+  - Laillisiin tehtäviin liittyy suoria taloudellisia toimia, kun taas loistehtävissä keskitytään vain yleisen järjestyksen ja turvallisuuden ylläpitämiseen
+  - Lailliset toiminnot edellyttävät enemmistön hyväksyntää demokraattisten prosessien kautta, kun taas loistoiminnot määräävät valitsemattomat byrokraatit
+  - Lailliset toiminnot generate-tuloja valtiolle, kun taas loistoiminnot kuluttavat julkisia varoja tuottamatta mitattavissa olevaa hyötyä
+explanation: |
+  Tekstissä erotetaan selvästi toisistaan niin sanotut valtion "negatiiviset ominaisuudet" (legitiimit tehtävät), joilla suojellaan omaisuutta, vapautta ja turvallisuutta puuttumatta vapaaehtoiseen vaihtoon, ja "positiiviset ominaisuudet" (loistehtävät), joilla estetään, estetään ja säännellään yksilön toimintaa hallinnollisilla säännöillä, jotka korvaavat vapaasti sovitut sopimukset ja vaihdot. Legitiimit toiminnot luovat puitteet vapaaehtoisille suhteille, kun taas loistoiminnot korvaavat yksilön valinnanvapauden ja sopimusvapauden poliittisilla päätöksillä.

@@ -1,0 +1,8 @@
+question: Millist rolli mängib vaba turuteooria kohaselt kasumi puudumine, kui ettevõtjad püüavad uuendusi kasutusele võtta enne, kui tarbijanõudlus on piisav?
+answer: See on loomulik hoiatav tegur, mis takistab raiskavaid investeeringuid ja annab ettevõtjatele märku, et nad suunaksid ressursid mujale
+wrong_answers:
+  - See julgustab rohkem ettevõtjaid turule sisenema, et kompenseerida valitsuse toetuste kaudu esialgset kahjumit
+  - See tekitab kunstliku nappuse, mis lõpuks suurendab nõudlust ja muudab innovatsiooni aja jooksul kasumlikuks
+  - See annab märku vajadusest suurendada turundustegevust, et teavitada tarbijaid uue toote eelistest
+explanation: |
+  Vabaturusüsteemis toimib kasumi puudumine olulise tagasisidemehhanismina, mis takistab enneaegseid investeeringuid uuendustesse. Kui ettevõtjad prognoosivad nõudlust, mida veel ei ole, siis kasumi puudumine loomulikult heidutab neid jätkamast ja takistab teisi järgimast, vältides seega ressursside raiskamist. See enesekorrigeeriv mehhanism tagab, et ressursid suunatakse pigem tegelike tarbijate vajaduste kui spekulatiivsete ettevõtmiste rahuldamiseks, mis näitab turusignaalide tõhusust tsentraliseeritud planeerimise või kunstliku sekkumise asemel.

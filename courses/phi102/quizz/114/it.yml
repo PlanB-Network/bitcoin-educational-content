@@ -1,0 +1,8 @@
+question: Secondo la teoria economica del libero mercato, cosa succede quando gli imprenditori anticipano prematuramente la domanda dei consumatori per un'innovazione che non esiste ancora?
+answer: L'assenza di profitti li dissuade naturalmente dal continuare e impedisce ad altri di seguire il loro esempio
+wrong_answers:
+  - L'intervento del governo reindirizza i loro sforzi verso progetti più vantaggiosi dal punto di vista sociale attraverso sussidi
+  - Continuano a investire finché le preferenze dei consumatori non si allineano alle loro previsioni iniziali
+  - Le regole del mercato li costringono ad abbandonare i progetti per evitare sprechi economici
+explanation: |
+  In un sistema di libero mercato, i profitti servono come segnali cruciali che indicano la reale domanda dei consumatori. Quando gli imprenditori sbagliano a valutare i tempi del mercato e anticipano una domanda che non esiste, non riescono a ottenere profitti generate, il che naturalmente scoraggia ulteriori investimenti in quella direzione. Questo meccanismo di autocorrezione impedisce di sprecare risorse in innovazioni premature. Le altre opzioni suggeriscono erroneamente un intervento esterno o un investimento persistente nonostante i segnali del mercato, il che contraddice l'enfasi posta dal capitolo su come i segnali di profitto guidino il processo decisionale economico razionale.

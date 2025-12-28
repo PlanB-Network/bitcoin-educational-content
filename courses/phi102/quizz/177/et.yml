@@ -1,0 +1,8 @@
+question: Miks viib majandusvabaduse mahasurumine kollektivistlikus süsteemis liberaalse analüüsi kohaselt paratamatult elukoha- ja elukohavabaduse kaotamiseni?
+answer: Kuna ilma vabaduseta valida oma töökohta peavad inimesed elama määratud töökoha lähedal ja ei saa oma elukohta valida
+wrong_answers:
+  - Kuna riik peab kodanikke tähelepanelikult jälgima ja koondama nad määratud elamupiirkondadesse
+  - Kuna kollektiivne omandiõigus tähendab, et üksikisikud ei saa omada kodu ja peavad leppima riigi poolt eraldatud eluasemega
+  - Kuna majanduse planeerimine eeldab elanikkonna jaotamist vastavalt ressursside kättesaadavusele erinevates piirkondades
+explanation: |
+  Liberaalne analüüs näitab otsest põhjuslikku ahelat: kollektivistlikus süsteemis määrab riik üksikisikud ilma nende endi valikuta konkreetsetele töökohtadele ja tootmisharudele. Kuna inimesed elavad praktilistel põhjustel tavaliselt oma töökoha lähedal ja nad ei saa valida oma tööd, ei saa nad järelikult ka valida, kus elada. See näitab, kuidas majanduslik ebavabadus tekitab doominoefekti, kõrvaldades süstemaatiliselt teisi isiklikke vabadusi, mis võivad tunduda majandusega mitteseotud olevat.

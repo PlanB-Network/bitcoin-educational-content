@@ -1,0 +1,8 @@
+question: Na jaký ekonomický mechanismus se smluvní svoboda primárně spoléhá, aby zajistila, že obě strany budou mít prospěch z dobrovolné směny?
+answer: Subjektivní hodnocení každé strany, které činí výměnu výhodnější než zdržení se výměny
+wrong_answers:
+  - Vládní regulace, která zajišťuje rovnoměrné rozdělení výhod mezi smluvními stranami
+  - Kontrola tržních cen, která zaručuje spravedlivou kompenzaci pro všechny účastníky burzy
+  - Objektivní měření hodnoty, které vytváří matematicky ekvivalentní zisky pro obě strany
+explanation: |
+  Dobrovolné smlouvy vytvářejí vzájemné obohacení, protože každý jednotlivec se rozhodne účastnit se pouze tehdy, pokud si subjektivně cení toho, co dostane, více než toho, čeho se vzdá. Tato subjektivní preference, spíše než jakákoli vnější regulace nebo objektivní měření hodnoty, je hnací silou dobrovolné směny s pozitivním součtem. Vládní regulace nebo cenové kontroly by tento dobrovolný mechanismus ve skutečnosti podkopaly, zatímco objektivní měření hodnot ignoruje osobní preference, které jednotlivce ke smlouvám motivují.

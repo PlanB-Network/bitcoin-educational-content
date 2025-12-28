@@ -1,9 +1,9 @@
-question: Ni akamaro akahe nyamukuru ko gutanga ibisohoka bigendagenda?
-answer: Koresha porogaramu nshasha
+question: Ni akamaro akahe nyamukuru ka distribution za rolling release?
+answer: Gukoresha porogarame nshasha
 wrong_answers:
   - Guhuza cane na Windows
-  - Ibidukikije bitagira ibishushanyo vya Interface
-  - Infashanyo y'ugucuruza itegeko
+  - Ikibanza kitagira Interface y’ibicapo
+  - Intererano y’Ubucuruzi itegekanijwe
 explanation: |
-  Ivyo gusohoka bihora bishiramwo ivyagezwe bihoraho, bituma umuntu ashobora kuronka verisiyo nshasha.
-reviewed: false
+  Rolling releases ishiramwo ibishasha umwanya ku mwanya, bituma umuntu ashobora kwama aronka verisiyo nshasha.
+reviewed: true

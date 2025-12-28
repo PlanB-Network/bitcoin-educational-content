@@ -364,7 +364,7 @@ Igihe c’amabuye y’agaciro gishasha rero ni co cashizeho imishinge y’ubutun
 
 
 
-## Ugushingwa kw'ibisagara vya mbere n'uguseruka kw'inyandiko .
+## Ugushingwa kw'ibisagara vya mbere n'ivuka ry'inyandiko .
 
 
 <chapterId>d6b799c2-8bf1-11f0-9c54-1b9f4f4c7011</chapterId>
@@ -373,7 +373,7 @@ Igihe c’amabuye y’agaciro gishasha rero ni co cashizeho imishinge y’ubutun
 
 :::video id=3ca18105-9856-4ceb-925c-c9e9215af21b:::
 
-### Gufumbira n'ivuka ry'ibisagara bininibinini .
+### Kuvomera n'ivuka ry'ibisagara bininibinini .
 
 
 
@@ -381,27 +381,27 @@ Muri iki gice, tuzovuga ingene ibisagara bikomeye vya mbere vyo muri iki gice c�
 
 
 
-Haciye nk’imyaka 6.000, mu biyaya vyiza vyo muri Misiri no muri Mezopotamiya, imiryango y’abantu yaratanguye gukoresha inzuzi mu gutegura uburyo bwo gufumbira. Ukwo kumenya neza amazi kwatumye haba uburimyi bwinshi, ivyo bikaba vyatumye haba ibisagara bininibinini nk’igisagara kizwi cane citwa Uruk, kiri mu bumanuko bwa Iraki y’ubu.
+Haciye nk’imyaka 6.000, mu biyaya vyiza vyo muri Misiri no muri Mezopotamiya, imiryango y’abantu yaratanguye gukoresha inzuzi mu gutegura uburyo bwo bwokuvomera. Ukwo kumenya gukoresha neza amazi kwatumye haba uburimyi bwinshi, ivyo bikaba vyatumye havuka ibisagara bininibinini nk’igisagara kizwi cane citwa Uruk, kiri mu bumanuko bwa Iraki y’ubu.
 
 
 
-Nko mu mwaka wa 3500 imbere ya Kristu, Uruk ni co cabaye igisagara kinini kuruta ibindi vyose kw'isi, gishika ku rwego rwo hejuru nko mu mwaka wa 2800 imbere ya Kristu, gifise abantu bashika 80.000. Muri ico gihe, hari ibintu bibiri bihambaye bishasha vyagaragaje cane ubutekerezi bw’Abasumeri: ukuza kw’intwaro itunganijwe ishobora gutwara Leta nyakuri, be n’uguhingura inyandiko mu buryo buteye akaga.
+Nko mu mwaka wa 3500 imbere ya Kristu, Uruk ni co cabaye igisagara kinini kuruta ibindi vyose kw'isi, gishika ku rwego rwo hejuru nko mu mwaka wa 2800 imbere ya Kristu, gifise abantu bashika 80.000. Muri ico gihe, hari ibintu bibiri bihambaye bishasha vyagaragaje cane imibereho yaba sumérienne: ukuza kw’intwaro itunganijwe ishobora gutwara Leta nyakuri, hamwe nivuka ryiterambere ryokwandika.
 
 
 
-### Uguhingura inyandiko y'inyuguti z'inyuguti
+### ivuka ryinyandiko rya cunéiforme
 
 
 
-Ukwandika kwavukiye muri iki gisagara nko mu mwaka w’3000 imbere ya Kristu, kwavyuriwe umutima ahanini n’ivyo umuntu akeneye mu vy’ubutunzi. Kubera ko ikibano cariko kirarushiriza kugorana be n’uguhinduranya, abarongozi b’urusengero n’ikirimba bari bakeneye igikoresho co kwizigirwa co kwandika neza ibikorwa vy’ubutunzi, nk’ugushikana ibikoresho, ugurungika imbere mu gihugu be n’ibintu vyariho.
+Ukwandika kwavukiye muri iki gisagara nko mu mwaka w’3000 imbere ya Kristu, bitewe hanini nivyipfuzo y'ivyubutunzi.Kubera ko ikibano cariko kirarushiriza kugorana be n’uguhinduranya, abarongozi b’urusengero n’ikirimba bari bakeneye igikoresho c'izewe co kwandika neza ibikorwa vy’ubutunzi, nk’ugushikana ibikoresho, ugurungika imbere mu gihugu be n’ibintu vyariho.
 
 
 
-Ubwo buryo bwateguwe bwitwa "cuneiform", buva mu kilatini "cuneus" bisobanura "urusenga", mu kwerekeza ku gukoresha urupapuro rufise ishusho y'urusenga kugira ngo umuntu acapwe ibimenyetso ku bipande vy'ibumba ry'amazi.
+Ubwo buryo bwateguwe bwitwa "cunéiforme", buva mu kilatini "cuneus" bisobanura "urusenga", mu kwerekeza ku gukoresha urupapuro rufise ishusho y'urusenga kugira ngo umuntu acapwe ibimenyetso ku bipande vy'ibumba ribomvye.
 
 
 
-Aha musi, urashobora gushima kopi yanje y’ikibumbano canditsweko amajambo y’ikirundi. Kugira ngo bandike kuri ivyo bisate, nizera ko bakoresheje ubwoko bw’igikoresho co kwandikako gikozwe mu marenga, kugira ngo bakurikirane ibumba ry’amazi maze bareme imibumbe, ni ukuvuga inyandiko y’inyuguti.
+Aha musi, urashobora kubona ikigura gisubiwemwo canditseko inyandiko ya cunéiforme, Kugira ngo bandike kuri ivyo bisate, nizera ko bakoresheje ubwoko bw’igikoresho co kwandikako gikozwe mu marenga, kugira ngo bandike mw'iryo bumba ribomvye izo nyandiko, kugira bandike kwico kigura.
 
 
 
@@ -409,21 +409,21 @@ Aha musi, urashobora gushima kopi yanje y’ikibumbano canditsweko amajambo y’
 
 
 
-Ndafise kandi ico nemera ko ari igisate c’ukuri c’ikisumeri cari gifise akajambo gatoyi k’inyuguti z’ikirundi hagati. Kuri iki gipande, hariho amasinyatire yakozwe mu gutera umupira, nzokwereka inyuma.
+Ndafise kandi ico nibaza ko ari igisate(ikigura) c’ukuri c’ikisumeri caba sumérienne cari gifise akajambo gatoyi k’inyuguti ca cuneiforme hagati. Kuri iki gipande(ikigura), hariho amasinyatire yakozwe mukuzinga umuzingo, nzokwereka inyuma.
 
 
 
-Ivyo bimenyetso vyari bifise utubazo dutoduto vyakoreshwa nk’imikono mu gihe abantu benshi batashobora kwandika, kuko abanditsi b’abahinga bonyene ari bo bari bafise ubwo bushobozi.
+Ivyo bimenyetso bishushanyeko abantu nivyo vyari umukono(sinyatire) w'ico gihe iyo uriko usinya ikete canke amasezerano kubera abantu benshi batashobora kwandika, kuko abanditsi b’abahinga nibo bonyene bategera ubwo buhinga.
 
 
 ![image](assets/rn/002.webp)
 
 
 
-Hasi, urashobora kubona igipimo c’umubiri twavuze haruguru: ibuye ryanditsweko imibumbe yihariye. Abantu barakunda guzingira iyo nzira y’umukono, izwi mu congereza ko ari ikidodo c’inzira, kugira ngo bashireko umukono ku makete. Yari uburyo bwo gusobanura neza amazina y’abanditsi, canke kwerekana ko zanditswe mw’izina ryabo.
+aha, ndafise iyo cylindre ari mubisanzwe ibuye bandikako ibishushanyo hanyuma bakazinga umuzingo wiyo cylindre n'umukono(signature), izwi mu congereza nka cylinder seal, kugira ngo bashireko umukono ku makete. Yari uburyo bwo gusobanura neza amazina y’abanditsi, canke kwerekana ko zanditswe mw’izina ryabo.
 
 
-Abanditsi bo muri ico gihe rero barakoresha ng’aho urupapuro rufise ishusho y’urusenga kugira ngo bacape ibimenyetso ku bipande vy’amazi.
+Abanditsi bo muri ico gihe rero barakoresha ng’aho urupapuro rufise ishusho y’urusenga kugira ngo bacape ibimenyetso kugipande(ikigura) kibovye.
 
 
 ![image](assets/rn/003.webp)

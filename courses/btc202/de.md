@@ -136,21 +136,21 @@ Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Mi
 
 ![Image](assets/fr/051.webp)
 
-## Was ist der Unterschied zwischen einem Bogen und einem Wallet?
+## Was ist der Unterschied zwischen einer Node und einer Wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
 Bei der Verwendung von Bitcoin ist es wichtig, zwischen zwei verschiedenen Arten von Software zu unterscheiden: der Node und der Wallet.
 
-Eine Bitcoin-Node ist, wie bereits erwähnt, ein Stück Software, das aktiv am Peer-to-Peer-Netzwerk teilnimmt. Er führt drei Hauptaufgaben aus:
+Eine Bitcoin-Node ist, wie bereits erwähnt, ein Stück Software, die aktiv am Peer-to-Peer-Netzwerk teilnimmt. Sie führt drei Hauptaufgaben aus:
 
 - Sicherung des Blockchain,
 - Validierung und Weiterleitung von Transaktionen,
 - Blockvalidierung und Relais.
 
-Ein Bitcoin Wallet hingegen ist eine Software, die dazu dient, deine privaten Keys zu speichern und zu verwalten. Mit diesen Keys kannst du deine Bitcoins ausgeben, indem du die Sperrskripte erfüllst (in der Regel durch eine Signatur). Ein Wallet kann eine Verbindung zu einer (lokalen oder entfernten) Node herstellen, um den Status der Blockchain abzufragen und die von ihm erstellten Transaktionen zu übermitteln, aber er ist als solcher kein Teilnehmer des Netzwerks.
+Ein Bitcoin Wallet hingegen ist eine Software, die dazu dient, deine privaten Keys zu speichern und zu verwalten. Mit diesen Keys kannst du deine Bitcoins ausgeben, indem du die Sperrskripte erfüllst (in der Regel durch eine Signatur). Eine Wallet kann eine Verbindung zu einer (lokalen oder entfernten) Node herstellen, um den Status der Blockchain abzufragen und die von ihm erstellten Transaktionen zu übermitteln, aber sie ist als solcher kein Teilnehmer des Netzwerks.
 
-In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Software, wie im Fall des Bitcoin Core, welche sowohl als Full-Node als auch als Wallet dient. Viele gängige Wallet-Programme (Sparrow, BlueWallet usw.) erfordern jedoch eine Verbindung zu einer externen Node (ob deine eigene oder die eines Drittanbieters), um Transaktionen zu übertragen und den Wallet-Saldo zu ermitteln.
+In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Software, wie im Fall des Bitcoin Core, welche sowohl als Full-Node als auch als Wallet dient. Viele gängige Wallet-Programme (Sparrow, BlueWallet usw.) erfordern jedoch eine Verbindung zu einer externen Node (deine eigene oder die eines Drittanbieters), um Transaktionen zu übertragen und den Wallet-Saldo zu ermitteln.
 
 ![Image](assets/fr/052.webp)
 
@@ -160,7 +160,7 @@ In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Soft
 
 Die Begriffe "Node" und "Miner" werden oft verwechselt. Doch diese beiden Elemente erfüllen völlig unterschiedliche Funktionen innerhalb des Systems.
 
-Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: du fungierte als Wallet, Node, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was du tun musstest, war, die Bitcoin-Software auf deinem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
+Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: Sie fungierte als Wallet, Node, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was du tun musstest, war, die Bitcoin-Software auf deinem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
 
 Mit der allmählichen Verbreitung von Bitcoin und dem Anstieg der Zahl der Miner hat sich die Wettbewerbslandschaft bei Mining jedoch radikal verändert. Heute ist Mining zu einer extrem wettbewerbsintensiven Aktivität geworden, die von industriellen Akteuren mit spezialisierten Infrastrukturen dominiert wird. Die zum minen eines neuen Blocks erforderliche Leistung ist inzwischen so groß, dass es für einen einzelnen Nutzer praktisch unmöglich ist, dies nur mit einem herkömmlichen Computer zu erreichen. Infolgedessen wird Mining heute hauptsächlich von spezialisierten Maschinen, so genannten ASICs (*Application-Specific Integrated Circuits*), betrieben. Diese Chips sind ausschließlich für die Ausführung des doppelten SHA-256, des für Mining verwendeten Algorithmus auf Bitcoin, optimiert.
 
@@ -219,8 +219,8 @@ Mit anderen Worten: Etwa 9 von 10 öffentlichen Nodes laufen mit Bitcoin Core. D
 
 Bitcoin Core ist eine in C++ geschriebene Software. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft freiwilliger oder von verschiedenen Organisationen bezahlter Entwickler gepflegt wird (oft von Unternehmen des Ökosystems, die ein Interesse an einem erfolgreichen Verlauf der Core-Entwicklung haben). [Der Code wird auf GitHub gehostet](https://github.com/bitcoin/bitcoin), und die Entwicklung folgt einem strengen Modell:
 
-- **Mitwirkende** reichen Vorschläge in Form von *Pull Requests (PR)* ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
-- Die **Maintainer** haben das Recht, PRs zu genehmigen und zu mergen. du sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
+- **Contributer** reichen Vorschläge in Form von *Pull Requests (PR)* ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
+- Die **Maintainer** haben das Recht, PRs zu genehmigen und zu mergen. Sie sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
 - Seit Februar 2023 gibt es keinen **Hauptbetreuer** mehr. Diese Rolle hatte zunächst Satoshi Nakamoto beim Start von Bitcoin inne, dann Gavin Andresen nach Nakamotos Abgang Anfang 2011 und schließlich Wladimir J. Van Der Laan von 2014 bis 2023.
 
 ![Image](assets/fr/057.webp)
@@ -243,7 +243,7 @@ Diese Projekte tragen zur Vielfalt des Ökosystems bei, aber ihre Akzeptanz ist 
 
 ### Die Macht der Core-Entwickler
 
-Man könnte meinen, dass die Entwickler von Bitcoin Core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. du können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seine Node zu entscheiden, ob er diesen Code verwendet oder nicht.
+Man könnte meinen, dass die Entwickler von Bitcoin Core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. Sie können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seine Node zu entscheiden, ob er diesen Code verwendet oder nicht.
 
 Das bedeutet, dass eine Änderung in Bitcoin Core, die nicht konsensfähig ist, von den Nodes ignoriert werden kann, indem entweder Bitcoin Core nicht aktualisiert wird oder einfach die Implementierung geändert wird. Umgekehrt ist es, wenn eine von den Nutzern gewünschte Funktion im Kernentwicklungsprozess blockiert wird, immer möglich, zu einer anderen Implementierung oder Fork des Projektes zu wechseln.
 
@@ -259,7 +259,7 @@ Wie wir später in diesem Kurs erörtern werden, sind es die Nodes (d.h. die Hä
 
 Es gibt eine weit verbreitete Überzeugung, dass der Betrieb einer Bitcoin-Node ein rein altruistischer Akt ohne persönlichen Gewinn ist, der ausschließlich im Dienste der Dezentralisierung des Netzwerks steht. Einige betrachten es als eine Art Pflicht für Bitcoiner, das System zu unterstützen und Bitcoin ihre Dankbarkeit zu zeigen.
 
-Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb einer Node keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb einer eigenen Node viele individuelle Vorteile. Um dich davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die dich dazu bewegen sollten, deine eigene Bitcoin-Node zu installieren und zu nutzen.
+Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb einer Node keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb einer eigenen Node viele individuelle Vorteile. Um dich davon zu überzeugen, werden wir in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die dich dazu bewegen sollten, deine eigene Bitcoin-Node zu installieren und zu nutzen.
 
 ### Vertraulichere Weitergabe von Transaktionen
 
@@ -269,13 +269,13 @@ Wie bereits in einem früheren Kapitel erwähnt, kommunizieren Wallets nicht auf
 
 ![Image](assets/fr/059.webp)
 
-Indem du deine eigene Node verwendest, übermittelst du deine Transaktionen direkt an das Netz und umgehst so die Zwischenhändler. Unter der Voraussetzung, dass du deine Node ordnungsgemäß absichern (worauf wir später noch eingehen werden) oder bestimmte Standards einhälst, werden keine Informationen preisgegeben: Weder deine IP Address noch die Details deiner Transaktionen laufen durch eine Einheit, die du nicht kontrollierst. Dies ist eine Grundvoraussetzung für die Wahrung deiner Vertraulichkeit auf Bitcoin.
+Indem du deine eigene Node verwendest, übermittelst du deine Transaktionen direkt an das Netz und umgehst so die Zwischenhändler. Unter der Voraussetzung, dass du deine Node ordnungsgemäß absicherst (worauf wir später noch eingehen werden) oder bestimmte Standards einhälst, werden keine Informationen preisgegeben: Weder deine IP Address noch die Details deiner Transaktionen laufen durch eine Einheit, die du nicht kontrollierst. Dies ist eine Grundvoraussetzung für die Wahrung deiner Vertraulichkeit auf Bitcoin.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Nicht zensierbare Transaktionen
 
-Aus denselben Gründen wie oben erwähnt ist Wallet-Software, die auf einer Node eines Drittanbieters basiert, anfällig für Zensurrisiken: Der Betreiber der entfernten Node kann sich aus verschiedenen Gründen weigern, bestimmte Transaktionen weiterzuleiten. Er kann dich für verdächtig halten oder für unvereinbar mit seiner Politik. Die Transaktion kann auch blockiert werden, wenn sie nicht mit den Weiterleitungsregeln der Node übereinstimmt. Schließlich kann der Betreiber gezielt deine IP Address anvisieren, um die Übertragung deiner Transaktionen zu blockieren.
+Aus denselben Gründen wie oben erwähnt ist Wallet-Software, die auf einer Node eines Drittanbieters basiert, anfällig für Zensurrisiken: Der Betreiber der externen Node kann sich aus verschiedenen Gründen weigern, bestimmte Transaktionen weiterzuleiten. Er kann dich für verdächtig halten oder für unvereinbar mit seiner Politik. Die Transaktion kann auch blockiert werden, wenn sie nicht mit den Weiterleitungsregeln der Node übereinstimmt. Schließlich kann der Betreiber gezielt deine IP Address anvisieren, um die Übertragung deiner Transaktionen zu blockieren.
 
 Umgekehrt sorgst du mit deiner eigenen Node für die Verbreitung deiner Transaktionen innerhalb des Peer-to-Peer-Netzwerks. Das bedeutet, dass du die volle Kontrolle über die Verbreitung deiner Transaktionen behälst, ohne von einem Vermittler abhängig zu sein. Solange die Transaktion mit den Konsens- und Weiterleitungs-Regeln der mit deiner verbundenen Node übereinstimmt, wird sie im Netzwerk verbreitet und dann, sofern genügend Gebühren enthalten sind, von einem Miner in einen Block integriert. Eine eigene Node garantiert eine neutrale, genehmigungsfreie Bestätigung deiner Transaktionen.
 
@@ -285,31 +285,21 @@ Ohne eine persönliche Node bist du für den Zugriff auf Informationen wie dein 
 
 ![Image](assets/fr/060.webp)
 
-Wenn du eine Full-Node betreibst, kannst du alle Protokollregeln für jede Transaktion und jeden Block selbst überprüfen. Folglich ist der von deiner Wallet angezeigten Salden nicht die von einem entfernten Server empfangenen Daten, sondern ein lokal aus einer vollständigen Kopie der Blockchain berechnetes Ergebnis, das Block für Block validiert wurde. Dieser Ansatz gibt der Maxime der Bitcoiners volle Bedeutung:
+Wenn du eine Full-Node betreibst, kannst du alle Protokollregeln für jede Transaktion und jeden Block selbst überprüfen. Folglich sind die von deiner Wallet angezeigten Salden nicht die von einem entfernten Server empfangenen Daten, sondern ein lokal aus einer vollständigen Kopie der Blockchain berechnetes Ergebnis, das Block für Block validiert wurde. Dieser Ansatz gibt der Maxime der Bitcoiners volle Bedeutung:
 
 > Don't trust, verify.
 
 ### Bessere Verteilung der Systemsicherheit
 
-Jeder Node, der sich dem Netz anschließt, verstärkt die Redundanz und Ausfallsicherheit von Bitcoin. Er erleichtert die Verbreitung von Informationen und ermöglicht es neuen Peers, sich miteinander zu verbinden. Ohne die Node wäre das System einfach nicht funktionsfähig.
+Jede Node, die sich dem Netz anschließt, verstärkt die Redundanz und Ausfallsicherheit von Bitcoin. Sie erleichtert die Verbreitung von Informationen und ermöglicht es neuen Peers, sich miteinander zu verbinden. Ohne die Nodes wäre das System einfach nicht funktionsfähig.
 
+Wie wir gesehen haben, basiert die Sicherheit von Bitcoin nicht auf Dezentralisierung, Mining oder Kryptographie: Wie bei jedem System hängt sie von Einzelpersonen ab. Genauer gesagt, hängt es von der Fähigkeit der Node-Betreiber ab, sich dem Zwang zu widersetzen.
 
+Das Besondere an dezentralen Systemen wie Bitcoin ist die Verteilung des Risikos auf alle am Betrieb Beteiligten. Wenn du deine eigene Bitcoin-Node betreibst, übernimmst du einen Teil dieses Risikos, indem du für die Sicherheit deiner Instanz sorgst; dadurch verringerst du auch die Risikobelastung für andere Node-Betreiber.
 
-Wie wir gesehen haben, basiert die Sicherheit von Bitcoin nicht auf Dezentralisierung, Mining oder Kryptographie: Wie bei jedem System hängt sie von Einzelpersonen ab. Genauer gesagt, hängt es von der Fähigkeit der Knotenbetreiber ab, sich dem Zwang zu widersetzen.
+Es handelt sich also nicht um einen direkten persönlichen Vorteil: Als Betreiber einer Node ist man mitverantwortlich für die Sicherheit des Netzwerks. Es ist vor allem ein kollektiver Nutzen, weil deine Beteiligung dazu beiträgt, das Risiko zu verteilen. Im Gegenzug erhöhst du deine eigene Fähigkeit, Bitcoin zuverlässig zu nutzen.
 
-
-
-Das Besondere an dezentralen Systemen wie Bitcoin ist die Verteilung des Risikos auf alle am Betrieb Beteiligten. Wenn du Ihren eigenen Bitcoin-Node betreiben, übernehmen du einen Teil dieses Risikos, indem du für die Sicherheit Ihrer Instanz sorgen; dadurch verringern du auch die Risikobelastung für andere Knotenbetreiber.
-
-
-
-Es handelt sich also nicht um einen direkten persönlichen Vorteil: Als Betreiber eines Node ist man mitverantwortlich für die Sicherheit des Netzes. Es ist vor allem ein kollektiver Nutzen, weil Ihre Beteiligung dazu beiträgt, das Risiko zu verteilen. Im Gegenzug erhöhen du Ihre eigene Fähigkeit, Bitcoin zuverlässig zu nutzen.
-
-
-
-### Vertiefen du dein Verständnis für das System
-
-
+### Vertiefe dein Verständnis für das System
 
 Die Installation eines Full node ist kein trivialer Vorgang. du umfasst die Installation der Software, das Verständnis der grundlegenden Funktionsweise, die Überwachung der Synchronisation, die Untersuchung der Protokolle bei Problemen und sogar die Verwendung des Terminals. Dies führt zwangsläufig dazu, dass du dein Verständnis des Protokolls vertiefen. Dies ist ein indirekter, aber nicht unbedeutender Vorteil.
 

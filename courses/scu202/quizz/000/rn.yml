@@ -1,7 +1,7 @@
 question: Ni ubuhe bwoko bwa porogarame uhanuriwe kuvoma muburyo buciye mu muco?
-answer: Porogarame z'ubuntu
+answer: Porogarame z’ubuntu
 wrong_answers:
-  - Porogarame y'umuntu
+  - Porogarame y’umuntu
   - Porogarame muri verisiyo ya beta
   - Porogarame irimwo kwamamaza
 explanation: |

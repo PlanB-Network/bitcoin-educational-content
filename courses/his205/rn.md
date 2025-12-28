@@ -430,18 +430,18 @@ Abanditsi bo muri ico gihe rero barakoresha ng’aho urupapuro rufise ishusho y�
 
 
 
-Inyuguti z’ikirundi ntizari zigereranya ururimi, ahubwo zari zigereranya uburyo bwo kwandika indimi zivugwa. Mu congereza, twovuga ngo "kwandika ni ururimi rwanditswe", hanyuma tukavuga ngo "cuneiforme ni inyandiko, si ururimi". Rero, mu gifaransa, twovuga ko cuneiforme atari ururimi, ahubwo ni uburyo bwo gukora kode y’ururimi.
+Inyuguti za cunéiforme ntiyari ururimi, ahubwo zari zigereranya uburyo bwo kwandika indimi zivugwa. Mu congereza, twovuga ngo "kwandika ni ururimi rwanditswe", hanyuma tukavuga ngo "cuneiforme ni inyandiko, si ururimi". Rero, mu gifaransa, twovuga ko cuneiforme atari ururimi, ahubwo ni uburyo bwo gukora kode y’ururimi.
 
 
 ### Ugutera imbere n'ingene inyandiko ikoreshwa .
 
 
 
-Mu binjana vya mbere vy’ukubaho kwayo, iyo nyandiko yagumye ari ntoyi, ahanini ikaba yari ikoreshwa nk’uburyo bwo kwibuka igitigiri c’ibintu, urutonde rw’ibintu vy’uburimyi be n’ibikoresho. Buhoro buhoro ni ho gusa ryashobora **guhindura amazina mu buryo bw’amajwi** n’amajambo yuzuye.
+Mu binjana vya mbere vy’ukubaho kwayo, iyo nyandiko yagumye ifise imbibe itarenga, ahanini ikaba yari ikoreshwa nk’uburyo bwo kwibuka igitigiri c’ibintu, urutonde rw’ibintu vy’uburimyi be n’ibikoresho. Buhoro buhoro ni ho gusa ryashobora **guhindura amazina mu buryo bw’amajwi** n’amajambo yuzuye.
 
 
 
-Mu ntango, amazina ntiyashobora guserurwa mu nyandiko z’inyuguti z’inyuguti kubera ko ahanini zagereranya ibintu n’ibintu vy’ukuri, nk’inka canke ingano, vyerekanywe nk’ibishushanyo bitobito. Uko igihe cagenda kirarenga, ayo mashusho yarahindutse uburyo bwo kwandika buteye imbere cane, bituma umuntu ashobora guserura amazina n’ivyiyumviro bikomeye.
+Mu ntango, amazina ntiyashobora guserurwa mu nyandiko z’inyuguti i kubera ko ahanini zagereranya ibintu n’ibintu vy’ukuri, nk’inka canke ingano, vyerekanywe nk’ibishushanyo bitobito. Uko igihe cagenda kirarenga, ayo mashusho yarahindutse uburyo bwo kwandika buteye imbere cane, bituma umuntu ashobora guserura amazina n’ivyiyumviro bikomeye.
 
 
 Iyo uwo muntu yitwa Laura, nk'akarorero, twari gushobora gufata ijambo, ijambo ry'inyongera ryumvikana nk'aho ari "amazi" n'irindi rimeze nk'aho ari "ras", tukagira izina Laura. Uko ni ko uburyo bwa mbere bw’ururimi rwanditswe bwateye imbere.

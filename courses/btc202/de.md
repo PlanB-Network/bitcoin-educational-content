@@ -5,7 +5,7 @@ objectives:
 
 
   - Die Rolle und den Zweck einer Bitcoin-Node verstehen.
-  - Die verschiedenen verfügbaren Hardware- und Softwarelösungen zu identifizieren.
+  - Die verschiedenen verfügbaren Hardware- und Softwarelösungen identifizieren.
   - Installieren und konfigurieren einer Full Node (Bitcoin Core).
   - Verwenden des Umbrel Interfaces und installieren nützlicher Anwendungen.
   - Verbinden einer persönlichen Wallet mit seiner eigenen Node.
@@ -14,9 +14,9 @@ objectives:
 
 ---
 # Werde ein souveräner Bitcoiner
-Du kennst wahrscheinlich das Sprichwort "Not your Keys, not your Coins", das zur Selbstverwahrung deiner Bitcoins aufruft. Der Besitz deiner eigenen Keys (Schlüssel) ist in der Tat ein wichtiger erster Schritt, aber er reicht nicht aus. Um echte monetäre Souveränität zu erlangen, musst du auch deine eigenen Bitcoin-Node installieren und verwenden. Dieser Kurs soll dich durch diesen grundlegenden Schritt auf deiner Bitcoin Reise führen!
+Du kennst wahrscheinlich das Sprichwort "Not your Keys, not your Coins", das zur Selbstverwahrung deiner Bitcoins aufruft. Der Besitz deiner eigenen Keys (Schlüssel) ist in der Tat ein wichtiger erster Schritt, aber er reicht nicht aus. Um echte monetäre Souveränität zu erlangen, musst du auch deine eigene Bitcoin-Node installieren und verwenden. Dieser Kurs soll dich durch diesen grundlegenden Schritt auf deiner Bitcoin Reise führen!
 
-BTC 202 ist eine leicht zugänglicher Kurs, der dir beibringt, wie du deine eigene Bitcoin-Node betreibst, auch wenn du kein technischer Experte bist. Wir beginnen damit, zu definieren, was eine Bitcoin-Node ist, wozu sie dient und warum es absolut wesentlich ist, selbst eine zu betreiben. Anschließend führe ich dich Schritt für Schritt durch die Auswahl deiner Hardware, die Installation der erforderlichen Software, die Verbindung deiner Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
+BTC 202 ist eine leicht zugänglicher Kurs, der dir beibringt, wie du deine eigene Bitcoin-Node betreibst, auch wenn du kein technischer Experte bist. Wir beginnen damit, zu definieren, was eine Bitcoin-Node ist, wozu sie dient und warum es absolut wesentlich ist, selbst eine zu betreiben. Anschließend führen wir dich Schritt für Schritt durch die Auswahl deiner Hardware, die Installation der erforderlichen Software, die Verbindung deiner Wallet-Software und die ersten möglichen Optimierungen, um weiterzugehen.
 
 Der Betrieb einer Bitcoin-Node ist nicht nur eine Option für Experten, er ist eine Notwendigkeit. Es ist ein Resilienz-Tool, das jeder Benutzer verstehen und implementieren muss. Dieser Kurs ist dein Startpunkt, um ein souveräner Bitcoiner zu werden!
 
@@ -38,27 +38,27 @@ In diesem ersten Teil des Kurses werden wir die grundlegenden Begriffe klären u
 
 ### Teil 2 - Ein souveräner Bitcoiner werden
 
-In diesem zweiten Teil werde ich zunächst erklären, warum es wichtig ist, eine eigene Bitcoin-Node zu betreiben. Dann werden wir die verschiedenen Arten von Nodes (complete, pruned, SPV...), ihre Funktionsweise und ihre technischen Auswirkungen untersuchen.
+In diesem zweiten Teil werden wir zunächst klären, warum es wichtig ist, eine eigene Bitcoin-Node zu betreiben. Dann werden wir die verschiedenen Arten von Nodes (complete, pruned, SPV...), ihre Funktionsweise und ihre technischen Auswirkungen untersuchen.
 
 Anschließend geben wir dir einen Überblick über die Software, die für den Betrieb einer Bitcoin-Node zur Verfügung steht, einschließlich ihrer Vor- und Nachteile. Abschließend geben wir dir einige sehr praktische Empfehlungen für die Auswahl der richtigen Hardware für deine Bedürfnisse und dein Budget.
 
 Dieser Abschnitt veranschaulicht daher den Weg des souveränen Bitcoiners: Verstehen, warum es notwendig ist, eine Node zu betreiben, die Art der Node wählen, auf der Grundlage dieser Wahl die Software auswählen und, abhängig von der gewählten Software, die geeignete Hardware bestimmen.
 
-### Teil 3 - Einfache Installation eines Bitcoin-Knotens
+### Teil 3 - Einfache Installation einer Bitcoin-Node
 
-Sobald diese Vorbereitungen abgeschlossen sind, ist es an der Zeit, mit Teil 3, der Umbrel gewidmet ist, in die Praxis zu gehen: das Home-Cloud-Betriebssystem, das das Selbsthosten und die Installation einer Bitcoin- und Lightning-Node vereinfacht.
+Sobald diese Vorbereitungen abgeschlossen sind, ist es an der Zeit, mit Teil 3, der Umbrel gewidmet ist, in die Praxis zu gehen: das Home-Cloud-Betriebssystem, welches das Selbsthosten und die Installation einer Bitcoin- und Lightning-Node vereinfacht.
 
-Nach einer kurzen Einführung in Umbrel bieten wir ein detailliertes Tutorial, das dich durch den Installations- und Konfigurationsprozess auf deinem eigenen Heimwerker-Rechner führt. Das Ziel dieses Teils ist klar: Du wirst deine erste voll funktionsfähige und synchronisierte Bitcoin-Node haben.
+Nach einer kurzen Einführung in Umbrel bieten wir ein detailliertes Tutorial, das dich durch den Installations- und Konfigurationsprozess auf deinem eigenen Server führt. Das Ziel dieses Teils ist klar: Du wirst deine erste voll funktionsfähige und synchronisierte Bitcoin-Node haben.
 
 ### Teil 4 - Anschließen deiner Wallet an deine Node
 
-Nachdem du nun eine Bitcoin-Node eingerichtet hast, ist es an der Zeit, sie zu benutzen! In diesem Abschnitt erfährst du, wie du deine Wallet-Verwaltungssoftware (wie Sparrow wallet) mit deinem eigenen Address-Indexer (Electrs oder Fulcrum) oder direkt mit Bitcoin Core verbinden kannst, damit du nicht mehr von öffentlichen Servern abhängig bist.
+Nachdem du nun eine Bitcoin-Node eingerichtet hast, ist es an der Zeit, sie zu benutzen! In diesem Abschnitt erfährst du, wie du deine Wallet-Software (wie Sparrow wallet) mit deinem eigenen Address-Indexer (Electrs oder Fulcrum) oder direkt mit Bitcoin Core verbinden kannst, damit du nicht mehr von öffentlichen Servern abhängig bist.
 
 Wir werden auch die Rolle der Indexer und die verschiedenen Methoden der Verbindung zu deiner Node (LAN, Tor, Tailscale, etc.) untersuchen. Schließlich, im letzten Kapitel, werden wir die nützlichsten Anwendungen, die auf Umbrel für den alltäglichen Bitcoiner verfügbar sind, besprechen.
 
 ### Teil 5 - Fortgeschrittene Konzepte und bewährte Verfahren
 
-In diesem letzten Teil von BTC 202 geht es darum, dein Wissen zu vertiefen. Zunächst befassen wir uns mit den besten Praktiken, die du bei deiner neuen Bitcoin-Node anwenden solltest, und mit der Frage, wie du ihn auf lange Sicht warten kannst.
+In diesem letzten Teil von BTC 202 geht es darum, dein Wissen zu vertiefen. Zunächst befassen wir uns mit den besten Praktiken, die du bei deiner neuen Bitcoin-Node anwenden solltest, und mit der Frage, wie du sie auf lange Sicht warten kannst.
 
 Wir werden uns dann die Zeit nehmen, einige der zuvor im Kurs behandelten Theorien zu wiederholen, einschließlich des Verständnisses des IBD-Prozesses und der Peer-Erkennung im Detail, der Erforschung der Anatomie einer Node und schließlich der Verwendung der Datei "Bitcoin.conf" zur Feinabstimmung deiner Einstellungen.
 
@@ -85,34 +85,34 @@ Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https:/
 
 Es sind genau diese Nutzer, die die Sicherheit von Bitcoin gewährleisten. Wie Eric Voskuil in seinem Buch *Cryptoeconomics* erklärt, beruht die Sicherheit von Bitcoin weder auf Blockchain, noch auf Hashing-Power, noch auf Validierung, Dezentralisierung, Kryptographie, Open Source oder Spieltheorie. Die Sicherheit von Bitcoin hängt in erster Linie von den Individuen ab, die bereit sind, sich einem persönlichen Risiko auszusetzen. Die Dezentralisierung ermöglicht es, dieses Risiko auf eine große Anzahl von Personen zu verteilen, und nur deren Fähigkeit, dem zu widerstehen, gewährleistet die Robustheit des Systems.
 
-Dieses Prinzip ist leicht zu verstehen: Wenn Bitcoin von einer einzigen Node abhängt, der einer einzigen Person gehört, würde die Inhaftierung dieser Person ausreichen, um das Netz abzuschalten, da sie allein alle Risiken trägt. Bei Zehntausenden von Knotenpunkten, die über die ganze Welt verteilt sind, ist das Risiko breit gestreut: Jeder dieser Betreiber müsste neutralisiert werden, um Bitcoin auszuschalten.
+Dieses Prinzip ist leicht zu verstehen: Wenn Bitcoin von einer einzigen Node abhängt, der einer einzigen Person gehört, würde die Inhaftierung dieser Person ausreichen, um das Netz abzuschalten, da sie allein alle Risiken trägt. Bei Zehntausenden von Nodes, die über die ganze Welt verteilt sind, ist das Risiko breit gestreut: Jeder dieser Betreiber müsste neutralisiert werden, um Bitcoin auszuschalten.
 
 ![Image](assets/fr/048.webp)
 
 Wir können also mehrere Begriffe unterscheiden und benennen, um die Dinge für den Rest des Kurses zu klären:
 
 - Bitcoin-Währung: die für Transaktionen innerhalb dieses Systems verwendete Rechnungseinheit;
-- Das Bitcoin-Netzwerk: die Menge aller verbundenen Node;
+- Das Bitcoin-Netzwerk: die Menge aller verbundenen Nodes;
 - Bitcoin-Nodes: Rechner, auf denen eine Implementierung von Bitcoin läuft;
 - Bitcoin-Implementierungen: Software, die das Protokoll in ausführbare Anweisungen umsetzt;
 - Bitcoin-Protokoll: das Regelwerk, das den Betrieb des Systems regelt;
-- Das Bitcoin-System: die kohärente Kombination all dieser Elements.
+- Das Bitcoin-System: die kohärente Kombination all dieser Elemente.
 
-### Die Rolle des Bitcoin-Knotens
+### Die Rolle der Bitcoin-Node
 
 Die Bitcoin-Nodes bilden zusammen das so genannte Bitcoin-Netzwerk. Sie ermöglichen dem gesamten System einen autonomen Betrieb, ohne Rückgriff auf eine zentrale Behörde oder eine Hierarchie von Servern.
 
-Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer einen persönlichen Knoten betreiben konnte. Dies gilt auch für die heutige Bitcoin Core Software, die die Funktionen von Wallet und Nodes vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Wallets sind nur Geldbörsen, die mit externen Knoten verbunden sind (die derselben Person gehören oder nicht).
+Von Anfang an war Bitcoin so konzipiert, dass jeder Benutzer eine persönliche Node betreiben konnte. Dies gilt auch für die heutige Bitcoin Core Software, die die Funktionen von Wallet und Node vereint. Heutzutage wird diese Funktion jedoch oft getrennt: Viele moderne Bitcoin-Wallets sind nur Geldbörsen, die mit einer externen Node verbunden sind (die derselben Person gehören oder nicht).
 
 ### Blockchain beibehalten
 
-Die erste Aufgabe eines Knotens besteht darin, eine lokale Kopie der Blockchain zu führen. Um Double-Spending auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine Transaktion im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem Zeitstempel versehen und in Blöcken gruppiert, und jede Node speichert die gesamte Blockchain.
+Die erste Aufgabe einer Node besteht darin, eine lokale Kopie der Blockchain zu führen. Um Double-Spending auf Bitcoin zu verhindern, ohne eine zentrale Behörde einzuschalten, muss jeder Benutzer prüfen, dass keine Transaktion im System existiert. Die einzige Möglichkeit, dies sicherzustellen, besteht darin, alle auf Bitcoin durchgeführten Transaktionen zu kennen. Aus diesem Grund werden alle Transaktionen mit einem Zeitstempel versehen und in Blöcken gruppiert, und jede Node speichert die gesamte Blockchain.
 
 > Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.
 
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
-Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem Miner veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor er ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
+Die Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem Miner veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor sie ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
 
 ![Image](assets/fr/049.webp)
 
@@ -122,17 +122,17 @@ Die Node unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeit
 
 Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln) übereinstimmt. Zum Beispiel:
 
-- ausgegebene Bitcoins müssen in seinem UTXO-Set (der Datenbank der nicht ausgegebenen Ausgaben) vorhanden sein;
-- die Signatur muss gültig sein, und alle Ausgabenbedingungen müssen erfüllt sein (gültiges Skript);
+- ausgegebene Bitcoins müssen in seinem UTXO-Set (der Datenbank der nicht ausgegebenen Bitcoin-Fragmente) vorhanden sein;
+- die Signatur muss gültig sein, und alle Ausgabebedingungen müssen erfüllt sein (gültiges Skript);
 - der Gesamtbetrag der Outputs darf den Gesamtbetrag der Inputs nicht übersteigen, d. h. die Kosten dürfen nicht negativ sein.
 
 ![Image](assets/fr/050.webp)
 
-Nach der Validierung wird die Transaktion im Mempool der Node gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen er verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Node zu Node fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netzwerk verbreitet, und jede Node speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste Bestätigung hin handelt.
+Nach der Validierung wird die Transaktion im Mempool der Node gespeichert, einem temporären Speicherplatz, der für unbestätigte Transaktionen reserviert ist, und dann an die anderen Netzwerk-Peers weitergeleitet, mit denen sie verbunden ist. Dieser Verteilungs- und Validierungsmechanismus setzt sich von Node zu Node fort. Auf diese Weise wird die Transaktion über das Bitcoin-Netzwerk verbreitet, und jede Node speichert sie im Mempool, bis sie von einem Miner in einen gültigen Block aufgenommen wird, der dann auf ihre erste Bestätigung hin handelt.
 
 ### Kontrolle und Verteilung der Blöcke
 
-Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen Proof-of-Work entdeckt, wird er im Netz verbreitet. Die Nodes empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie des Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit der Node verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Node im Bitcoin-Netz von dem neuen Block Kenntnis haben.
+Die dritte Aufgabe der Node ist die Verwaltung der geminten Blöcke. Wenn ein Miner einen neuen Block mit einem gültigen Proof-of-Work entdeckt, wird er im Netz verbreitet. Die Nodes empfangen ihn, prüfen, ob er allen Protokollregeln entspricht, und integrieren ihn dann in ihre eigene lokale Kopie der Blockchain, wenn er gültig ist. Wie bei Transaktionen werden die neu validierten Blöcke dann an alle mit der Node verbundenen Peers weitergeleitet. Dieser Prozess wird so lange fortgesetzt, bis alle Node im Bitcoin-Netzwerk von dem neuen Block Kenntnis haben.
 
 ![Image](assets/fr/051.webp)
 
@@ -160,7 +160,7 @@ In einigen Fällen koexistieren diese beiden Funktionen innerhalb derselben Soft
 
 Die Begriffe "Node" und "Miner" werden oft verwechselt. Doch diese beiden Elemente erfüllen völlig unterschiedliche Funktionen innerhalb des Systems.
 
-Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: Sie fungierte als Wallet, Node, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was du tun musstest, war, die Bitcoin-Software auf deinem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
+Als Bitcoin im Jahr 2009 von Satoshi Nakamoto ins Leben gerufen wurde, wurde von jedem Nutzer erwartet, dass er sich an dem Netzwerk als Ganzes beteiligt. Daher kombinierte die ursprüngliche Bitcoin-Software mehrere Funktionen auf einmal: du fungierte als Wallet, Node, und auch als Miner, der neue Blöcke erzeugen konnte. Zu dieser Zeit war der Schwierigkeitsgrad von Mining sehr gering. Alles, was du tun musstest, war, die Bitcoin-Software auf deinem Computer laufen zu lassen, um Blöcke zu finden und Bitcoins als Belohnung zu erhalten.
 
 Mit der allmählichen Verbreitung von Bitcoin und dem Anstieg der Zahl der Miner hat sich die Wettbewerbslandschaft bei Mining jedoch radikal verändert. Heute ist Mining zu einer extrem wettbewerbsintensiven Aktivität geworden, die von industriellen Akteuren mit spezialisierten Infrastrukturen dominiert wird. Die zum minen eines neuen Blocks erforderliche Leistung ist inzwischen so groß, dass es für einen einzelnen Nutzer praktisch unmöglich ist, dies nur mit einem herkömmlichen Computer zu erreichen. Infolgedessen wird Mining heute hauptsächlich von spezialisierten Maschinen, so genannten ASICs (*Application-Specific Integrated Circuits*), betrieben. Diese Chips sind ausschließlich für die Ausführung des doppelten SHA-256, des für Mining verwendeten Algorithmus auf Bitcoin, optimiert.
 
@@ -203,7 +203,7 @@ Theoretisch stellt Bitcoin Core nicht das Bitcoin-Protokoll dar, sondern ist nur
 
 ### Derzeitige Verteilung der Implementierungen
 
-Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (einem bekannten Entwickler im Ökosystem) gesammelten Daten ist die Verteilung der Implementierungen auf die öffentlichen Knoten des Netzwerks wie folgt:
+Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (einem bekannten Entwickler im Ökosystem) gesammelten Daten ist die Verteilung der Implementierungen auf die öffentlichen Node des Netzwerks wie folgt:
 
 - **Bitcoin Core**: 87.3% der Nodes
 - **Bitcoin Knots**: 12.5%
@@ -220,7 +220,7 @@ Mit anderen Worten: Etwa 9 von 10 öffentlichen Nodes laufen mit Bitcoin Core. D
 Bitcoin Core ist eine in C++ geschriebene Software. Es ist auch ein Open-Source-Projekt, das von einer Gemeinschaft freiwilliger oder von verschiedenen Organisationen bezahlter Entwickler gepflegt wird (oft von Unternehmen des Ökosystems, die ein Interesse an einem erfolgreichen Verlauf der Core-Entwicklung haben). [Der Code wird auf GitHub gehostet](https://github.com/bitcoin/bitcoin), und die Entwicklung folgt einem strengen Modell:
 
 - **Mitwirkende** reichen Vorschläge in Form von *Pull Requests (PR)* ein. Im Prinzip kann jeder eine Änderung vorschlagen, aber sie muss getestet und dokumentiert werden und einen Peer-Review-Prozess durchlaufen.
-- Die **Maintainer** haben das Recht, PRs zu genehmigen und zu mergen. Sie sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
+- Die **Maintainer** haben das Recht, PRs zu genehmigen und zu mergen. du sind diejenigen, die die Kohärenz und Stabilität des Projekts garantieren. Im Juli 2025 gibt es fünf von ihnen: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao und Ryan Ofsky.
 - Seit Februar 2023 gibt es keinen **Hauptbetreuer** mehr. Diese Rolle hatte zunächst Satoshi Nakamoto beim Start von Bitcoin inne, dann Gavin Andresen nach Nakamotos Abgang Anfang 2011 und schließlich Wladimir J. Van Der Laan von 2014 bis 2023.
 
 ![Image](assets/fr/057.webp)
@@ -243,7 +243,7 @@ Diese Projekte tragen zur Vielfalt des Ökosystems bei, aber ihre Akzeptanz ist 
 
 ### Die Macht der Core-Entwickler
 
-Man könnte meinen, dass die Entwickler von Bitcoin Core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. Sie können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seine Node zu entscheiden, ob er diesen Code verwendet oder nicht.
+Man könnte meinen, dass die Entwickler von Bitcoin Core direkte Kontrolle über Bitcoin haben, aber das ist nicht der Fall. du können keine Änderung des Protokolls erzwingen. Ihre Aufgabe ist es, Code vorzuschlagen. Es ist Sache jedes Benutzers, über seine Node zu entscheiden, ob er diesen Code verwendet oder nicht.
 
 Das bedeutet, dass eine Änderung in Bitcoin Core, die nicht konsensfähig ist, von den Nodes ignoriert werden kann, indem entweder Bitcoin Core nicht aktualisiert wird oder einfach die Implementierung geändert wird. Umgekehrt ist es, wenn eine von den Nutzern gewünschte Funktion im Kernentwicklungsprozess blockiert wird, immer möglich, zu einer anderen Implementierung oder Fork des Projektes zu wechseln.
 
@@ -257,71 +257,41 @@ Wie wir später in diesem Kurs erörtern werden, sind es die Nodes (d.h. die Hä
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
 
-Es gibt eine weit verbreitete Überzeugung, dass der Betrieb eines Bitcoin-Knotens ein rein altruistischer Akt ohne persönlichen Gewinn ist, der ausschließlich im Dienste der Dezentralisierung des Netzwerks steht. Einige betrachten es als eine Art Pflicht für Bitcoiner, das System zu unterstützen und Bitcoin ihre Dankbarkeit zu zeigen.
+Es gibt eine weit verbreitete Überzeugung, dass der Betrieb einer Bitcoin-Node ein rein altruistischer Akt ohne persönlichen Gewinn ist, der ausschließlich im Dienste der Dezentralisierung des Netzwerks steht. Einige betrachten es als eine Art Pflicht für Bitcoiner, das System zu unterstützen und Bitcoin ihre Dankbarkeit zu zeigen.
 
-
-
-Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb eines Knotens keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb eines eigenen Knotens viele individuelle Vorteile. Um Sie davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die Sie dazu bewegen sollten, Ihren eigenen Bitcoin-Knoten zu installieren und zu nutzen.
-
-
+Wie wir in den vorherigen Kapiteln hervorgehoben haben, bringt der Betrieb einer Node keinen direkten finanziellen Gewinn. Man könnte daher denken, dass es keinen persönlichen Nutzen hat, dies zu tun. Dennoch bietet der Betrieb einer eigenen Node viele individuelle Vorteile. Um dich davon zu überzeugen, werde ich in diesem Kapitel alle technischen und strategischen Gründe vorstellen, die dich dazu bewegen sollten, deine eigene Bitcoin-Node zu installieren und zu nutzen.
 
 ### Vertraulichere Weitergabe von Transaktionen
 
+Wenn die Wallet-Software eine Verbindung zu einer externen Node herstellt, überträgt sie deine Transaktionen an eine Infrastruktur, die nicht unter deiner Kontrolle steht. Daraus ergeben sich offensichtliche Überwachungsrisiken: Der Betreiber der Node kann die Einzelheiten deiner Transaktionen, einschließlich der Beträge und Häufigkeit, analysieren und sie durch Abgleich bestimmter Metadaten (wie IP-Adressen, Zeiten und Orte) möglicherweise mit deiner Identität in Verbindung bringen.
 
-
-Wenn die Wallet-Software eine Verbindung zu einem externen Knoten herstellt, überträgt sie ihre Transaktionen an eine Infrastruktur, die nicht unter Ihrer Kontrolle steht. Daraus ergeben sich offensichtliche Überwachungsrisiken: Der Betreiber des entfernten Knotens kann die Einzelheiten Ihrer Transaktionen, einschließlich der Beträge und Häufigkeit, analysieren und sie durch Abgleich bestimmter Metadaten (wie IP-Adressen, Zeiten und Orte) möglicherweise mit Ihrer Identität in Verbindung bringen.
-
-
-
-Wie bereits in einem früheren Kapitel erwähnt, kommunizieren Wallets nicht auf magische Weise mit dem Bitcoin-Netzwerk; sie müssen sich mit einem Knotenpunkt verbinden, um Salden abzufragen oder Transaktionen zu übertragen. Wenn Sie nie einen eigenen Knotenpunkt eingerichtet haben, bedeutet dies, dass Ihr Wallet von der Infrastruktur eines Dritten abhängt (in der Regel das Unternehmen, das hinter der Software steht). Dieser Dritte, insbesondere wenn es sich um ein Unternehmen handelt, kann diese Daten beobachten, auswerten oder sogar weitergeben: sei es aus kommerziellen Gründen, aus rechtlichen Gründen oder aufgrund von Piraterie.
-
-
+Wie bereits in einem früheren Kapitel erwähnt, kommunizieren Wallets nicht auf magische Weise mit dem Bitcoin-Netzwerk; sie müssen sich mit einer Node verbinden, um Salden abzufragen oder Transaktionen zu übertragen. Wenn du nie eine eigene Node eingerichtet hast, bedeutet dies, dass deine Wallet von der Infrastruktur eines Dritten abhängt (in der Regel das Unternehmen, das hinter der Software steht). Dieser Dritte, insbesondere wenn es sich um ein Unternehmen handelt, kann diese Daten beobachten, auswerten oder sogar weitergeben: sei es aus kommerziellen Gründen, aus rechtlichen Gründen oder aufgrund von Piraterie.
 
 ![Image](assets/fr/059.webp)
 
-
-
-Indem Sie Ihren eigenen Knotenpunkt verwenden, übermitteln Sie Ihre Transaktionen direkt an das Netz und umgehen so die Zwischenhändler. Unter der Voraussetzung, dass Sie Ihren Knoten ordnungsgemäß absichern (worauf wir später noch eingehen werden) oder bestimmte Standards einhalten, werden keine Informationen preisgegeben: Weder Ihre IP Address noch die Details Ihrer Transaktionen laufen durch eine Einheit, die Sie nicht kontrollieren. Dies ist eine Grundvoraussetzung für die Wahrung Ihrer Vertraulichkeit auf Bitcoin.
-
-
+Indem du deine eigene Node verwendest, übermittelst du deine Transaktionen direkt an das Netz und umgehst so die Zwischenhändler. Unter der Voraussetzung, dass du deine Node ordnungsgemäß absichern (worauf wir später noch eingehen werden) oder bestimmte Standards einhälst, werden keine Informationen preisgegeben: Weder deine IP Address noch die Details deiner Transaktionen laufen durch eine Einheit, die du nicht kontrollierst. Dies ist eine Grundvoraussetzung für die Wahrung deiner Vertraulichkeit auf Bitcoin.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Nicht zensierbare Transaktionen
 
+Aus denselben Gründen wie oben erwähnt ist Wallet-Software, die auf einer Node eines Drittanbieters basiert, anfällig für Zensurrisiken: Der Betreiber der entfernten Node kann sich aus verschiedenen Gründen weigern, bestimmte Transaktionen weiterzuleiten. Er kann dich für verdächtig halten oder für unvereinbar mit seiner Politik. Die Transaktion kann auch blockiert werden, wenn sie nicht mit den Weiterleitungsregeln der Node übereinstimmt. Schließlich kann der Betreiber gezielt deine IP Address anvisieren, um die Übertragung deiner Transaktionen zu blockieren.
 
-
-Aus denselben Gründen wie oben erwähnt ist Wallet-Software, die auf einem Knotenpunkt eines Drittanbieters basiert, anfällig für Zensurrisiken: Der Betreiber des entfernten Knotens kann sich aus verschiedenen Gründen weigern, bestimmte Transaktionen weiterzuleiten. Er kann sie für verdächtig halten oder für unvereinbar mit seiner Politik. Die Transaktion kann auch blockiert werden, wenn sie nicht mit den Weiterleitungsregeln des Knotens übereinstimmt. Schließlich kann der Betreiber gezielt Ihre IP Address anvisieren, um die Übertragung Ihrer Transaktionen zu blockieren.
-
-
-
-Umgekehrt sorgen Sie mit Ihrem eigenen Knoten für die Verbreitung Ihrer Transaktionen innerhalb des Peer-to-Peer-Netzwerks. Das bedeutet, dass Sie die volle Kontrolle über die Verbreitung Ihrer Transaktionen behalten, ohne von einem Vermittler abhängig zu sein. Solange die Transaktion mit den Konsens- und Relay-Regeln der mit Ihnen verbundenen Knoten übereinstimmt, wird sie im Netzwerk verbreitet und dann, sofern genügend Gebühren enthalten sind, von einem Miner in einen Block integriert. Ein eigener Knoten garantiert eine neutrale, genehmigungsfreie Bestätigung Ihrer Transaktionen.
-
-
+Umgekehrt sorgst du mit deiner eigenen Node für die Verbreitung deiner Transaktionen innerhalb des Peer-to-Peer-Netzwerks. Das bedeutet, dass du die volle Kontrolle über die Verbreitung deiner Transaktionen behälst, ohne von einem Vermittler abhängig zu sein. Solange die Transaktion mit den Konsens- und Weiterleitungs-Regeln der mit deiner verbundenen Node übereinstimmt, wird sie im Netzwerk verbreitet und dann, sofern genügend Gebühren enthalten sind, von einem Miner in einen Block integriert. Eine eigene Node garantiert eine neutrale, genehmigungsfreie Bestätigung deiner Transaktionen.
 
 ### Unabhängige Datenüberprüfung
 
-
-
-Ohne einen persönlichen Knotenpunkt sind Sie für den Zugriff auf Informationen wie Ihren Address-Saldo, den Status der Transaktionsbestätigung und die Gültigkeit von Blöcken weiterhin von einer dritten Partei abhängig. Dies setzt ein implizites Vertrauen in die Genauigkeit und Integrität des externen Knotens voraus.
-
-
+Ohne eine persönliche Node bist du für den Zugriff auf Informationen wie dein Address-Saldo, den Status der Transaktionsbestätigungen und die Gültigkeit von Blöcken weiterhin von einer dritten Partei abhängig. Dies setzt ein implizites Vertrauen in die Genauigkeit und Integrität der externen Node voraus.
 
 ![Image](assets/fr/060.webp)
 
+Wenn du eine Full-Node betreibst, kannst du alle Protokollregeln für jede Transaktion und jeden Block selbst überprüfen. Folglich ist der von deiner Wallet angezeigten Salden nicht die von einem entfernten Server empfangenen Daten, sondern ein lokal aus einer vollständigen Kopie der Blockchain berechnetes Ergebnis, das Block für Block validiert wurde. Dieser Ansatz gibt der Maxime der Bitcoiners volle Bedeutung:
 
-
-Wenn Sie einen Full node betreiben, können Sie alle Protokollregeln für jede Transaktion und jeden Block selbst überprüfen. Folglich ist der von Ihrem Wallet angezeigte Saldo nicht die von einem entfernten Server empfangenen Daten, sondern ein lokal aus einer vollständigen Kopie des Blockchain berechnetes Ergebnis, das Block für Block validiert wurde. Dieser Ansatz gibt der Maxime der Bitcoiners volle Bedeutung:
-
-
-
-> Vertrauen Sie nicht, überprüfen Sie.
+> Don't trust, verify.
 
 ### Bessere Verteilung der Systemsicherheit
 
-
-
-Jeder Knoten, der sich dem Netz anschließt, verstärkt die Redundanz und Ausfallsicherheit von Bitcoin. Er erleichtert die Verbreitung von Informationen und ermöglicht es neuen Peers, sich miteinander zu verbinden. Ohne die Knoten wäre das System einfach nicht funktionsfähig.
+Jeder Node, der sich dem Netz anschließt, verstärkt die Redundanz und Ausfallsicherheit von Bitcoin. Er erleichtert die Verbreitung von Informationen und ermöglicht es neuen Peers, sich miteinander zu verbinden. Ohne die Node wäre das System einfach nicht funktionsfähig.
 
 
 
@@ -329,23 +299,23 @@ Wie wir gesehen haben, basiert die Sicherheit von Bitcoin nicht auf Dezentralisi
 
 
 
-Das Besondere an dezentralen Systemen wie Bitcoin ist die Verteilung des Risikos auf alle am Betrieb Beteiligten. Wenn Sie Ihren eigenen Bitcoin-Knoten betreiben, übernehmen Sie einen Teil dieses Risikos, indem Sie für die Sicherheit Ihrer Instanz sorgen; dadurch verringern Sie auch die Risikobelastung für andere Knotenbetreiber.
+Das Besondere an dezentralen Systemen wie Bitcoin ist die Verteilung des Risikos auf alle am Betrieb Beteiligten. Wenn du Ihren eigenen Bitcoin-Node betreiben, übernehmen du einen Teil dieses Risikos, indem du für die Sicherheit Ihrer Instanz sorgen; dadurch verringern du auch die Risikobelastung für andere Knotenbetreiber.
 
 
 
-Es handelt sich also nicht um einen direkten persönlichen Vorteil: Als Betreiber eines Knotens ist man mitverantwortlich für die Sicherheit des Netzes. Es ist vor allem ein kollektiver Nutzen, weil Ihre Beteiligung dazu beiträgt, das Risiko zu verteilen. Im Gegenzug erhöhen Sie Ihre eigene Fähigkeit, Bitcoin zuverlässig zu nutzen.
+Es handelt sich also nicht um einen direkten persönlichen Vorteil: Als Betreiber eines Node ist man mitverantwortlich für die Sicherheit des Netzes. Es ist vor allem ein kollektiver Nutzen, weil Ihre Beteiligung dazu beiträgt, das Risiko zu verteilen. Im Gegenzug erhöhen du Ihre eigene Fähigkeit, Bitcoin zuverlässig zu nutzen.
 
 
 
-### Vertiefen Sie Ihr Verständnis für das System
+### Vertiefen du dein Verständnis für das System
 
 
 
-Die Installation eines Full node ist kein trivialer Vorgang. Sie umfasst die Installation der Software, das Verständnis der grundlegenden Funktionsweise, die Überwachung der Synchronisation, die Untersuchung der Protokolle bei Problemen und sogar die Verwendung des Terminals. Dies führt zwangsläufig dazu, dass Sie Ihr Verständnis des Protokolls vertiefen. Dies ist ein indirekter, aber nicht unbedeutender Vorteil.
+Die Installation eines Full node ist kein trivialer Vorgang. du umfasst die Installation der Software, das Verständnis der grundlegenden Funktionsweise, die Überwachung der Synchronisation, die Untersuchung der Protokolle bei Problemen und sogar die Verwendung des Terminals. Dies führt zwangsläufig dazu, dass du dein Verständnis des Protokolls vertiefen. Dies ist ein indirekter, aber nicht unbedeutender Vorteil.
 
 
 
-Das Erwerben dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Einen eigenen Knoten zu betreiben bedeutet auch, zu lernen.
+Das Erwerben dieses Wissens stärkt dein Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Einen eigenen Node zu betreiben bedeutet auch, zu lernen.
 
 
 
@@ -353,7 +323,7 @@ Das Erwerben dieses Wissens stärkt Ihr Vertrauen in das Werkzeug und kann das R
 
 
 
-Ein wichtiger Aspekt, der oft missverstanden wird, ist die Tatsache, dass der Betrieb eines Knotens es Ihnen ermöglicht, die Regeln zu wählen, die Sie lokal anwenden. Es gibt zwei Haupttypen von Regeln:
+Ein wichtiger Aspekt, der oft missverstanden wird, ist die Tatsache, dass der Betrieb eines Node es dir ermöglicht, die Regeln zu wählen, die du lokal anwenden. Es gibt zwei Haupttypen von Regeln:
 
 
 
@@ -367,7 +337,7 @@ Dies sind die Grundregeln des Bitcoin-Protokolls, die die Integrität des System
 
 
 
-Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protokolls und damit der Währung (Hard Fork). Aber auch ohne den Versuch, sie zu ändern, verleiht die einfache Tatsache der strikten Anwendung der bestehenden Regeln eine gewisse Macht: Wenn ein Block gegen die Regeln verstößt, lehnt der Knoten ihn sofort ab.
+Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protokolls und damit der Währung (Hard Fork). Aber auch ohne den Versuch, sie zu ändern, verleiht die einfache Tatsache der strikten Anwendung der bestehenden Regeln eine gewisse Macht: Wenn ein Block gegen die Regeln verstößt, lehnt der Node ihn sofort ab.
 
 
 
@@ -377,19 +347,19 @@ Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protoko
 
 
 
-Dabei handelt es sich um Regeln, die für jeden Bitcoin-Knoten spezifisch sind und zu den Konsensregeln hinzugefügt werden, um die Struktur der unbestätigten Transaktionen zu definieren, die im Mempool akzeptiert und an die Peers weitergegeben werden. Jeder Knoten konfiguriert und wendet diese Regeln lokal an, weshalb sie sich von einem Knoten zum anderen unterscheiden können. Sie gelten nur für unbestätigte Transaktionen: Eine Transaktion, die von einem Knoten als "nicht standardmäßig" eingestuft wird, wird nur akzeptiert, wenn sie bereits in einem gültigen Block enthalten ist. Eine Änderung dieser Regeln führt nicht zum Ausschluss des Knotens aus dem Bitcoin-System.
+Dabei handelt es sich um Regeln, die für jeden Bitcoin-Node spezifisch sind und zu den Konsensregeln hinzugefügt werden, um die Struktur der unbestätigten Transaktionen zu definieren, die im Mempool akzeptiert und an die Peers weitergegeben werden. Jeder Node konfiguriert und wendet diese Regeln lokal an, weshalb sie sich von einem Node zum anderen unterscheiden können. du gelten nur für unbestätigte Transaktionen: Eine Transaktion, die von einem Node als "nicht standardmäßig" eingestuft wird, wird nur akzeptiert, wenn sie bereits in einem gültigen Block enthalten ist. Eine Änderung dieser Regeln führt nicht zum Ausschluss des Node aus dem Bitcoin-System.
 
 
 
-Zum Beispiel ist eine Transaktion ohne Gebühren nach den Konsensregeln vollkommen gültig, wird aber nach der Bitcoin core-Relay-Policy standardmäßig abgelehnt, da der Parameter "minRelayTxFee" auf "0,00001" (in BTC/kB) gesetzt ist. Es ist jedoch möglich, diesen Schwellenwert auf Ihrem eigenen Knoten zu senken, um Transaktionen mit niedrigeren Gebühren weiterzuleiten, oder umgekehrt den Grenzwert z. B. auf 2 Sats/vB zu erhöhen, um die Weiterleitung von Transaktionen mit niedrigen Gebühren zu vermeiden.
+Zum Beispiel ist eine Transaktion ohne Gebühren nach den Konsensregeln vollkommen gültig, wird aber nach der Bitcoin core-Relay-Policy standardmäßig abgelehnt, da der Parameter "minRelayTxFee" auf "0,00001" (in BTC/kB) gesetzt ist. Es ist jedoch möglich, diesen Schwellenwert auf Ihrem eigenen Node zu senken, um Transaktionen mit niedrigeren Gebühren weiterzuleiten, oder umgekehrt den Grenzwert z. B. auf 2 Sats/vB zu erhöhen, um die Weiterleitung von Transaktionen mit niedrigen Gebühren zu vermeiden.
 
 
 
-Seinen eigenen Knoten zu spinnen bedeutet zu behaupten: "Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe "*. Auf diese Weise werden Sie zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die Ihnen inakzeptabel erscheint, oder eine Aktualisierung nach Ihren eigenen Kriterien zu genehmigen.
+Seinen eigenen Node zu spinnen bedeutet zu behaupten: "Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe "*. Auf diese Weise werden du zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die dir inakzeptabel erscheint, oder eine Aktualisierung nach Ihren eigenen Kriterien zu genehmigen.
 
 
 
-Wir können also schnell versuchen zu verstehen, wie viel Macht Sie dank Ihres Knotens über die Regeln haben. Und das Ausmaß dieser Macht hängt von der Art der Regel ab.
+Wir können also schnell versuchen zu verstehen, wie viel Macht du dank Ihres Node über die Regeln haben. Und das Ausmaß dieser Macht hängt von der Art der Regel ab.
 
 
 
@@ -397,15 +367,15 @@ Wir können also schnell versuchen zu verstehen, wie viel Macht Sie dank Ihres K
 
 
 
-Was die Weiterleitungsregeln betrifft, so ist der Besitz eines Knotens, unabhängig von seiner wirtschaftlichen Tätigkeit, das Wesentliche. Hier geht es darum, ob Sie zustimmen, bestimmte Arten von Transaktionen weiterzuleiten oder nicht.
+Was die Weiterleitungsregeln betrifft, so ist der Besitz eines Node, unabhängig von seiner wirtschaftlichen Tätigkeit, das Wesentliche. Hier geht es darum, ob du zustimmen, bestimmte Arten von Transaktionen weiterzuleiten oder nicht.
 
 
 
-Wenn Sie beispielsweise der Meinung sind, dass Transaktionen mit Gebühren von weniger als 1 sat/vB auf Bitcoin akzeptiert werden sollten, können Sie diese Regel auf Ihrem Knoten so anpassen, dass er diese Transaktionen sendet und so ihre Verbreitung im Netz erleichtert, bis ein Miner sie schließlich in einen gültigen Block aufnimmt. Im Wesentlichen geht es also um die Macht über die Verbreitung von Transaktionen: Jeder Knoten hat die Entscheidungsgewalt, da die Zustimmung zur Weiterleitung einer Transaktionsart gleichbedeutend ist mit der Förderung ihrer Akzeptanz im Bitcoin-Netzwerk. Wenn Sie mehrere Knotenpunkte betreiben, haben Sie folglich einen größeren Einfluss auf die Weiterleitungspolitik, da jeder Knotenpunkt seine eigenen Verbindungen und Einflussbereiche im Netz hat.
+Wenn du beispielsweise der Meinung sind, dass Transaktionen mit Gebühren von weniger als 1 sat/vB auf Bitcoin akzeptiert werden sollten, können du diese Regel auf Ihrem Node so anpassen, dass er diese Transaktionen sendet und so ihre Verbreitung im Netz erleichtert, bis ein Miner sie schließlich in einen gültigen Block aufnimmt. Im Wesentlichen geht es also um die Macht über die Verbreitung von Transaktionen: Jeder Node hat die Entscheidungsgewalt, da die Zustimmung zur Weiterleitung einer Transaktionsart gleichbedeutend ist mit der Förderung ihrer Akzeptanz im Bitcoin-Netzwerk. Wenn du mehrere Knotenpunkte betreiben, haben du folglich einen größeren Einfluss auf die Weiterleitungspolitik, da jeder Knotenpunkt seine eigenen Verbindungen und Einflussbereiche im Netz hat.
 
 
 
-Wenn ein oder mehrere Knoten mit spezifischen Weiterleitungsregeln konfiguriert sind, bedeutet dies, dass festgelegt wird, welcher Teil des Netzes die Weiterleitung einer bestimmten Art von Transaktion akzeptiert. Die Verbreitung einer Nachricht in einem Peer-to-Peer-Graphen, wie es bei Bitcoin-Transaktionen der Fall ist, folgt der Logik der Perkolationstheorie. Stellen Sie sich jeden Knoten als einen Standort vor, der aktiv (`p` = er leitet weiter) oder inaktiv (`1-p`) sein kann. Sobald der Anteil `p` einen kritischen Schwellenwert (`p_c`) überschreitet, entsteht eine riesige Komponente: Die Transaktion schafft es, das Netzwerk zu durchqueren und hat alle Chancen, einen Miner zu erreichen. In einem Netz wie Bitcoin, in dem jeder Knoten durchschnittlich 8 ausgehende Verbindungen unterhält, wird der `p_c`-Schwellenwert im Allgemeinen auf wenige Prozent festgelegt, sogar noch niedriger, wenn einige Knoten eine sehr große Anzahl von Verbindungen haben.
+Wenn ein oder mehrere Node mit spezifischen Weiterleitungsregeln konfiguriert sind, bedeutet dies, dass festgelegt wird, welcher Teil des Netzes die Weiterleitung einer bestimmten Art von Transaktion akzeptiert. Die Verbreitung einer Nachricht in einem Peer-to-Peer-Graphen, wie es bei Bitcoin-Transaktionen der Fall ist, folgt der Logik der Perkolationstheorie. Stellen du sich jeden Node als einen Standort vor, der aktiv (`p` = er leitet weiter) oder inaktiv (`1-p`) sein kann. Sobald der Anteil `p` einen kritischen Schwellenwert (`p_c`) überschreitet, entsteht eine riesige Komponente: Die Transaktion schafft es, das Netzwerk zu durchqueren und hat alle Chancen, einen Miner zu erreichen. In einem Netz wie Bitcoin, in dem jeder Node durchschnittlich 8 ausgehende Verbindungen unterhält, wird der `p_c`-Schwellenwert im Allgemeinen auf wenige Prozent festgelegt, sogar noch niedriger, wenn einige Node eine sehr große Anzahl von Verbindungen haben.
 
 
 
@@ -417,11 +387,11 @@ Solange `p` unter `p_c` bleibt, bleibt eine Transaktion auf isolierte Taschen be
 
 
 
-Letztendlich sind es immer die Miner, die entscheiden, ob eine Transaktion in einen Block aufgenommen wird oder nicht. Die Knotenpunkte greifen jedoch im Vorfeld ein, indem sie die Verteilung der Transaktionen beeinflussen: Sie bestimmen, ob die Miner von einer bestimmten Transaktion Kenntnis erhalten oder nicht. Wenn eine Transaktion nicht an die Miner weitergeleitet wird, ist es für diese natürlich unmöglich, sie in einen Block aufzunehmen.
+Letztendlich sind es immer die Miner, die entscheiden, ob eine Transaktion in einen Block aufgenommen wird oder nicht. Die Knotenpunkte greifen jedoch im Vorfeld ein, indem sie die Verteilung der Transaktionen beeinflussen: du bestimmen, ob die Miner von einer bestimmten Transaktion Kenntnis erhalten oder nicht. Wenn eine Transaktion nicht an die Miner weitergeleitet wird, ist es für diese natürlich unmöglich, sie in einen Block aufzunehmen.
 
 
 
-Das Hinzufügen einiger weiterer Knoten hat daher nur eine marginale Auswirkung, wenn sich das Netzwerk bereits in der Perkolationsphase für eine bestimmte Art von Transaktion befindet, kann sich aber als entscheidend erweisen, wenn sich die Perkolationsschwelle nähert. Der Besitz oder die Beeinflussung mehrerer Knoten, insbesondere wenn sie gut vernetzt sind, kann den Wert von "p" erhöhen oder verringern und damit indirekt die Weiterleitungsregeln steuern, die bestimmen, welche Transaktionen von den Minern gesehen und schließlich akzeptiert werden.
+Das Hinzufügen einiger weiterer Node hat daher nur eine marginale Auswirkung, wenn sich das Netzwerk bereits in der Perkolationsphase für eine bestimmte Art von Transaktion befindet, kann sich aber als entscheidend erweisen, wenn sich die Perkolationsschwelle nähert. Der Besitz oder die Beeinflussung mehrerer Node, insbesondere wenn sie gut vernetzt sind, kann den Wert von "p" erhöhen oder verringern und damit indirekt die Weiterleitungsregeln steuern, die bestimmen, welche Transaktionen von den Minern gesehen und schließlich akzeptiert werden.
 
 
 
@@ -429,7 +399,7 @@ Das Hinzufügen einiger weiterer Knoten hat daher nur eine marginale Auswirkung,
 
 
 
-Wenn es um den Einfluss Ihres Knotens auf die Konsensregeln geht, ist vor allem sein wirtschaftliches Gewicht entscheidend. Dies ist ein entscheidendes Konzept: Der Wert einer Währung steht in direktem Zusammenhang mit ihrer Fähigkeit, Exchange zu erleichtern. Wenn ein Gegenstand von niemandem in Exchange für Waren oder Dienstleistungen akzeptiert wird, hat er theoretisch keinen monetären Nutzen. Wenn zum Beispiel kein Händler Kieselsteine als Zahlungsmittel akzeptiert, haben sie keinen Nutzen als Geld. Natürlich bleibt der Nutzen auf individueller Ebene ein subjektiver Begriff, aber in einem bestimmten Gebiet ist es umso wahrscheinlicher, dass dieses Objekt für die in diesem Gebiet lebenden Menschen einen monetären Nutzen hat, je mehr Händler ein Objekt als Zahlungsmittel in Exchange akzeptieren.
+Wenn es um den Einfluss Ihres Node auf die Konsensregeln geht, ist vor allem sein wirtschaftliches Gewicht entscheidend. Dies ist ein entscheidendes Konzept: Der Wert einer Währung steht in direktem Zusammenhang mit ihrer Fähigkeit, Exchange zu erleichtern. Wenn ein Gegenstand von niemandem in Exchange für Waren oder Dienstleistungen akzeptiert wird, hat er theoretisch keinen monetären Nutzen. Wenn zum Beispiel kein Händler Kieselsteine als Zahlungsmittel akzeptiert, haben sie keinen Nutzen als Geld. Natürlich bleibt der Nutzen auf individueller Ebene ein subjektiver Begriff, aber in einem bestimmten Gebiet ist es umso wahrscheinlicher, dass dieses Objekt für die in diesem Gebiet lebenden Menschen einen monetären Nutzen hat, je mehr Händler ein Objekt als Zahlungsmittel in Exchange akzeptieren.
 
 
 
@@ -453,33 +423,33 @@ Auf Bitcoin umfasst die Rolle des "Händlers", verstanden als jede Einheit mit e
 
 
 
-Was die Konsensregeln anbelangt, so können Sie mit Ihrem Knotenpunkt Ihre Wirtschaftstätigkeit auf die eine oder andere Währung ausrichten. Wenn Sie beispielsweise 10 volle Knoten zu Hause haben, aber keine nennenswerten wirtschaftlichen Aktivitäten entfalten, wird Ihr Einfluss während eines Fork fast gleich Null sein. Umgekehrt verleiht ein einziger Knoten, der zur Verwaltung einer Kette von 200 Geschäften verwendet wird, die Bitcoin akzeptieren, ein erhebliches wirtschaftliches Gewicht.
+Was die Konsensregeln anbelangt, so können du mit Ihrem Knotenpunkt Ihre Wirtschaftstätigkeit auf die eine oder andere Währung ausrichten. Wenn du beispielsweise 10 volle Node zu Hause haben, aber keine nennenswerten wirtschaftlichen Aktivitäten entfalten, wird dein Einfluss während eines Fork fast gleich Null sein. Umgekehrt verleiht ein einziger Node, der zur Verwaltung einer Kette von 200 Geschäften verwendet wird, die Bitcoin akzeptieren, ein erhebliches wirtschaftliches Gewicht.
 
 
 
-Es kommt also nicht auf die Anzahl der Knotenpunkte an, sondern auf die Bedeutung der von ihnen unterstützten Wirtschaftstätigkeit. Mehr noch: Wenn Ihre wirtschaftliche Aktivität von einem Knoten abhängt, den Sie nicht kontrollieren, entscheidet dessen Eigentümer, welche Währung Sie verwenden, solange Sie mit diesem Knoten verbunden bleiben. Aus diesem Grund ist der Betrieb und die Nutzung eines eigenen Knotens im Rahmen der Systemsteuerung besonders wichtig:
+Es kommt also nicht auf die Anzahl der Knotenpunkte an, sondern auf die Bedeutung der von ihnen unterstützten Wirtschaftstätigkeit. Mehr noch: Wenn Ihre wirtschaftliche Aktivität von einem Node abhängt, den du nicht kontrollieren, entscheidet dessen Eigentümer, welche Währung du verwenden, solange du mit diesem Node verbunden bleiben. Aus diesem Grund ist der Betrieb und die Nutzung eines eigenen Node im Rahmen der Systemsteuerung besonders wichtig:
 
 
 
-> Nicht dein Knoten, nicht deine Regeln.
+> Nicht dein Node, nicht deine Regeln.
 
 
-## Die verschiedenen Typen von Bitcoin-Knoten
+## Die verschiedenen Typen von Bitcoin-Node
 
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
 
 
-Ein Bitcoin-Knoten ist also ein Rechner, auf dem eine Implementierung des Bitcoin-Protokolls läuft. Hinter dieser allgemeinen Definition von Knoten verbergen sich mehrere mögliche Konfigurationen, die nicht alle das gleiche Maß an Autonomie, Ressourcenverbrauch und Nutzen für das Netzwerk bieten. In diesem Kapitel werden wir versuchen, diese Unterschiede zu verstehen, um Ihnen zu helfen, eine Knotenarchitektur zu wählen, die Ihren Anforderungen und Hardwarebeschränkungen entspricht.
+Ein Bitcoin-Node ist also ein Rechner, auf dem eine Implementierung des Bitcoin-Protokolls läuft. Hinter dieser allgemeinen Definition von Node verbergen sich mehrere mögliche Konfigurationen, die nicht alle das gleiche Maß an Autonomie, Ressourcenverbrauch und Nutzen für das Netzwerk bieten. In diesem Kapitel werden wir versuchen, diese Unterschiede zu verstehen, um dir zu helfen, eine Knotenarchitektur zu wählen, die Ihren Anforderungen und Hardwarebeschränkungen entspricht.
 
 
 
-### Der vollständige Knoten
+### Der vollständige Node
 
 
 
-Ein Full node ist einfach ein Bitcoin-Knoten, der das gesamte Blockchain aus dem Genesis-Block herunterlädt, jeden Block unabhängig validiert und die Historie des gesamten Blockchain lokal speichert. Dies ist die "normale" Form eines Bitcoin-Knotens, wie sie sich Satoshi Nakamoto vorgestellt hat.
+Ein Full node ist einfach ein Bitcoin-Node, der das gesamte Blockchain aus dem Genesis-Block herunterlädt, jeden Block unabhängig validiert und die Historie des gesamten Blockchain lokal speichert. Dies ist die "normale" Form eines Bitcoin-Node, wie sie sich Satoshi Nakamoto vorgestellt hat.
 
 
 
@@ -487,7 +457,7 @@ Ein Full node ist einfach ein Bitcoin-Knoten, der das gesamte Blockchain aus dem
 
 
 
-Der Full node braucht niemandem zu vertrauen, da er alle Informationen im System validiert und kennt. Er ist die Art von Knotenpunkt, die Ihnen die meisten Garantien bietet: Sie wissen, ohne sich auf einen Dritten zu verlassen, ob eine Zahlung gültig ist, ob ein Block gültig ist, ob eine Umstrukturierung rechtmäßig ist und so weiter.
+Der Full node braucht niemandem zu vertrauen, da er alle Informationen im System validiert und kennt. Er ist die Art von Knotenpunkt, die dir die meisten Garantien bietet: du wissen, ohne sich auf einen Dritten zu verlassen, ob eine Zahlung gültig ist, ob ein Block gültig ist, ob eine Umstrukturierung rechtmäßig ist und so weiter.
 
 
 
@@ -495,15 +465,15 @@ In der Praxis benötigt ein Full node nicht unerhebliche Ressourcen, darunter me
 
 
 
-Je nach Bedarf können Sie einen Indexer zu Ihrem Full node hinzufügen. Der Bitcoin core bietet die Indexierung von Transaktionen als optionale Funktion (standardmäßig deaktiviert), die für bestimmte Zwecke nützlich sein kann. Allerdings ist kein Address-Indexer enthalten, der von einzelnen Benutzern oft am meisten nachgefragt wird. Um hier Abhilfe zu schaffen, können Sie eine spezielle Software auf Ihrem Knoten installieren, z. B. Electrs oder Fulcrum, um Abfragen zur Überprüfung des Address-Saldos von verbundenen UTXOs zu beschleunigen. Auf die Rolle des Indexers werden wir in einem separaten Kapitel noch einmal genauer eingehen.
+Je nach Bedarf können du einen Indexer zu Ihrem Full node hinzufügen. Der Bitcoin core bietet die Indexierung von Transaktionen als optionale Funktion (standardmäßig deaktiviert), die für bestimmte Zwecke nützlich sein kann. Allerdings ist kein Address-Indexer enthalten, der von einzelnen Benutzern oft am meisten nachgefragt wird. Um hier Abhilfe zu schaffen, können du eine spezielle Software auf Ihrem Node installieren, z. B. Electrs oder Fulcrum, um Abfragen zur Überprüfung des Address-Saldos von verbundenen UTXOs zu beschleunigen. Auf die Rolle des Indexers werden wir in einem separaten Kapitel noch einmal genauer eingehen.
 
 
 
-### Der beschnittene Knoten
+### Der beschnittene Node
 
 
 
-Der pruned-Knoten validiert alles wie ein Full node, vom Genesis-Block bis zum Kopf der Kette mit der meisten Arbeit, behält aber **nur den jüngsten Teil der Blockdateien**. Sobald die alten Blöcke überprüft worden sind, werden sie nach und nach gelöscht, um unter einer von Ihnen festgelegten Speicherplatzgrenze zu bleiben. Diese Konfiguration ist ideal, wenn Sie nur begrenzten Speicherplatz zur Verfügung haben: Sie behalten die Unabhängigkeit der Blocküberprüfung, ohne das komplette Blockchain-Archiv zu speichern. Diese Option ist besonders nützlich, wenn Sie Bitcoin core einfach auf Ihrem PC installieren möchten, ohne einen speziellen Rechner zu verwenden.
+Der pruned-Node validiert alles wie ein Full node, vom Genesis-Block bis zum Kopf der Kette mit der meisten Arbeit, behält aber **nur den jüngsten Teil der Blockdateien**. Sobald die alten Blöcke überprüft worden sind, werden sie nach und nach gelöscht, um unter einer von dir festgelegten Speicherplatzgrenze zu bleiben. Diese Konfiguration ist ideal, wenn du nur begrenzten Speicherplatz zur Verfügung haben: du behalten die Unabhängigkeit der Blocküberprüfung, ohne das komplette Blockchain-Archiv zu speichern. Diese Option ist besonders nützlich, wenn du Bitcoin core einfach auf Ihrem PC installieren möchten, ohne einen speziellen Rechner zu verwenden.
 
 
 
@@ -511,23 +481,23 @@ Der pruned-Knoten validiert alles wie ein Full node, vom Genesis-Block bis zum K
 
 
 
-Die technischen Implikationen dieser Option sind recht einfach: Der pruned-Knoten ist durchaus in der Lage, Ihre Transaktionen zu übertragen, am Relay teilzunehmen, Blöcke und Transaktionen zu verifizieren und die Kette zu verfolgen. Andererseits kann er nicht als Quelle historischer Daten über seine Grenzen hinaus für andere Anwendungen (z. B. Full Explorers, Indexers, Wallets) dienen. Funktionen, die das Archiv (oder einen globalen Index) benötigen, werden daher nicht verfügbar sein.
+Die technischen Implikationen dieser Option sind recht einfach: Der pruned-Node ist durchaus in der Lage, Ihre Transaktionen zu übertragen, am Relay teilzunehmen, Blöcke und Transaktionen zu verifizieren und die Kette zu verfolgen. Andererseits kann er nicht als Quelle historischer Daten über seine Grenzen hinaus für andere Anwendungen (z. B. Full Explorers, Indexers, Wallets) dienen. Funktionen, die das Archiv (oder einen globalen Index) benötigen, werden daher nicht verfügbar sein.
 
 
 
-In der Praxis können Sie einen pruned-Knoten verwenden, um Wallet-Verwaltungssoftware wie Sparrow wallet anzuschließen. Sie werden jedoch nicht in der Lage sein, Transaktionen auf Ihrem Wallet zu scannen, die vor der Bereinigungsgrenze liegen. Wenn Sie beispielsweise eine Transaktion im Block 901 458 registriert haben, Ihr Knoten aber nur Blöcke ab 905 402 aufwärts speichert (weil die ältesten Blöcke pruned waren), können Sie diese Transaktion nicht scannen. Hätten Sie sie hingegen bereits gescannt, als Ihr Knoten noch diese Blockhöhe hatte, dann würde Ihre Wallet-Verwaltungssoftware die Informationen speichern und den Saldo der entsprechenden UTXOs korrekt anzeigen.
+In der Praxis können du einen pruned-Node verwenden, um Wallet-Verwaltungssoftware wie Sparrow wallet anzuschließen. du werden jedoch nicht in der Lage sein, Transaktionen auf Ihrem Wallet zu scannen, die vor der Bereinigungsgrenze liegen. Wenn du beispielsweise eine Transaktion im Block 901 458 registriert haben, dein Node aber nur Blöcke ab 905 402 aufwärts speichert (weil die ältesten Blöcke pruned waren), können du diese Transaktion nicht scannen. Hätten du sie hingegen bereits gescannt, als dein Node noch diese Blockhöhe hatte, dann würde Ihre Wallet-Verwaltungssoftware die Informationen speichern und den Saldo der entsprechenden UTXOs korrekt anzeigen.
 
 
 
-Kurz gesagt, die Wallet-Verfolgung funktioniert problemlos auf einem pruned-Knoten, wenn Sie einen neuen Wallet erstellen, während Ihre Software bereits mit diesem Knoten verbunden ist. Andererseits können Sie auf Schwierigkeiten stoßen, wenn Sie einen alten Wallet wiederherstellen, da vergangene Transaktionen, die nicht mehr vom Knoten aufbewahrt werden, offensichtlich nicht abrufbar sind.
+Kurz gesagt, die Wallet-Verfolgung funktioniert problemlos auf einem pruned-Node, wenn du einen neuen Wallet erstellen, während Ihre Software bereits mit diesem Node verbunden ist. Andererseits können du auf Schwierigkeiten stoßen, wenn du einen alten Wallet wiederherstellen, da vergangene Transaktionen, die nicht mehr vom Node aufbewahrt werden, offensichtlich nicht abrufbar sind.
 
 
 
-### Der leichte Knoten / SPV
+### Der leichte Node / SPV
 
 
 
-Ein SPV-Knoten (*Simplified Payment Verification*) oder leichtgewichtiger Knoten speichert nur Block-Header, keine Transaktionsdetails, und verlässt sich auf andere vollständige Knoten, um den Beweis zu erhalten, dass eine Transaktion in einem Block ist (Merkle-Beweise über Bäume), für den er den Header hat. Das Konzept der vereinfachten Zahlungsüberprüfung ist nicht neu und wurde von Satoshi Nakamoto selbst in Teil 8 des Weißbuchs vorgeschlagen.
+Ein SPV-Node (*Simplified Payment Verification*) oder leichtgewichtiger Node speichert nur Block-Header, keine Transaktionsdetails, und verlässt sich auf andere vollständige Node, um den Beweis zu erhalten, dass eine Transaktion in einem Block ist (Merkle-Beweise über Bäume), für den er den Header hat. Das Konzept der vereinfachten Zahlungsüberprüfung ist nicht neu und wurde von Satoshi Nakamoto selbst in Teil 8 des Weißbuchs vorgeschlagen.
 
 
 
@@ -539,11 +509,11 @@ Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https:/
 
 
 
-Diese Art von Knoten ist in Bezug auf Speicherplatz und CPU-Nutzung natürlich viel leichter als ein Full node- oder sogar ein pruned-Knoten. Der SPV-Knoten ist daher gut für kleinere Geräte und intermittierende Verbindungen geeignet. In der Tat wird er oft direkt in den Wallet integriert, insbesondere in mobile Software wie die Blockstream App.
+Diese Art von Node ist in Bezug auf Speicherplatz und CPU-Nutzung natürlich viel leichter als ein Full node- oder sogar ein pruned-Node. Der SPV-Node ist daher gut für kleinere Geräte und intermittierende Verbindungen geeignet. In der Tat wird er oft direkt in den Wallet integriert, insbesondere in mobile Software wie die Blockstream App.
 
 
 
-Der Nachteil ist das Vertrauen und die Vertraulichkeit: Ein SPV-Client prüft nicht selbst Skripte oder Validierungsrichtlinien; er geht davon aus, dass die Kette mit der meisten Arbeit gültig ist, und ist für Antworten auf einen oder mehrere vollständige Knoten angewiesen. Die Verwendung eines solchen Knotens ist daher eine bessere Option als die Verbindung mit einem Knoten eines Drittanbieters; sie ist jedoch immer noch weniger vorteilhaft als ein Full node- oder sogar ein pruned-Knoten.
+Der Nachteil ist das Vertrauen und die Vertraulichkeit: Ein SPV-Client prüft nicht selbst Skripte oder Validierungsrichtlinien; er geht davon aus, dass die Kette mit der meisten Arbeit gültig ist, und ist für Antworten auf einen oder mehrere vollständige Node angewiesen. Die Verwendung eines solchen Node ist daher eine bessere Option als die Verbindung mit einem Node eines Drittanbieters; sie ist jedoch immer noch weniger vorteilhaft als ein Full node- oder sogar ein pruned-Node.
 
 
 
@@ -561,7 +531,7 @@ Der Nachteil ist das Vertrauen und die Vertraulichkeit: Ein SPV-Client prüft ni
 
 
 
-Für einen unerfahrenen Benutzer, der nur einen Wallet auf einer mobilen App hat, ist die Verwendung eines SPV-Knotens sicherlich der beste Weg, um loszulegen. Die Installation ist schnell, erfordert nur wenige Ressourcen, und die Erfahrung ist einfach und flüssig. Das bedeutet, dass Sie bestimmte Informationen selbst verifizieren können und daher weniger auf Knotenpunkte von Drittanbietern angewiesen sind, während Sie gleichzeitig unabhängiger sind, wenn es um die Übertragung von Transaktionen geht.
+Für einen unerfahrenen Benutzer, der nur einen Wallet auf einer mobilen App hat, ist die Verwendung eines SPV-Node sicherlich der beste Weg, um loszulegen. Die Installation ist schnell, erfordert nur wenige Ressourcen, und die Erfahrung ist einfach und flüssig. Das bedeutet, dass du bestimmte Informationen selbst verifizieren können und daher weniger auf Knotenpunkte von Drittanbietern angewiesen sind, während du gleichzeitig unabhängiger sind, wenn es um die Übertragung von Transaktionen geht.
 
 
 
@@ -571,7 +541,7 @@ Für einen unerfahrenen Benutzer, der nur einen Wallet auf einer mobilen App hat
 
 
 
-Ein mittlerer Benutzer mit einem PC kann einen pruned-Knoten installieren, um von fast allen Vorteilen eines Full node zu profitieren, ohne seinen Rechner täglich zu überlasten: vollständige Validierung, moderate Festplattennutzung und einfache Wartung. Es ist eine ideale Lösung, um Ihre Desktop-Wallets zu verbinden und bei der Verteilung Ihrer Transaktionen unabhängig zu bleiben, ohne in eine dedizierte Maschine zu investieren oder Ihren Speicherplatz zu überlasten.
+Ein mittlerer Benutzer mit einem PC kann einen pruned-Node installieren, um von fast allen Vorteilen eines Full node zu profitieren, ohne seinen Rechner täglich zu überlasten: vollständige Validierung, moderate Festplattennutzung und einfache Wartung. Es ist eine ideale Lösung, um Ihre Desktop-Wallets zu verbinden und bei der Verteilung Ihrer Transaktionen unabhängig zu bleiben, ohne in eine dedizierte Maschine zu investieren oder Ihren Speicherplatz zu überlasten.
 
 
 
@@ -581,7 +551,7 @@ Ein mittlerer Benutzer mit einem PC kann einen pruned-Knoten installieren, um vo
 
 
 
-Ein Full node ist nach wie vor die beste Lösung, wenn Sie bei der Nutzung des Bitcoin völlig unabhängig sein und sich später nicht auf fortgeschrittene Anwendungen wie einen Indexer, einen Lightning-Knoten oder sogar einen Block explorer beschränken wollen. Das ist genau das, was wir in diesem Kurs erforschen werden!
+Ein Full node ist nach wie vor die beste Lösung, wenn du bei der Nutzung des Bitcoin völlig unabhängig sein und sich später nicht auf fortgeschrittene Anwendungen wie einen Indexer, einen Lightning-Node oder sogar einen Block explorer beschränken wollen. Das ist genau das, was wir in diesem Kurs erforschen werden!
 
 
 
@@ -592,29 +562,29 @@ Ein Full node ist nach wie vor die beste Lösung, wenn Sie bei der Nutzung des B
 
 
 
-Auf der Softwareseite gibt es 2 Hauptmöglichkeiten, einen Bitcoin-Knoten zu betreiben:
+Auf der Softwareseite gibt es 2 Hauptmöglichkeiten, einen Bitcoin-Node zu betreiben:
 
 
 
 
 - direkt eine Protokollimplementierung wie Bitcoin core (empfohlen) oder Bitcoin Knots installieren,
-- oder verwenden Sie eine schlüsselfertige Distribution (oft "_node-in-a-box_" genannt), die eine Bitcoin-Implementierung auf die gleiche Weise integriert, aber auch ein Interface-Verwaltungssystem, einen Anwendungsspeicher und gebrauchsfertige Tools enthält (Lightning, Browser, Indexserver, sogar selbst gehostete Anwendungen außerhalb von Bitcoin...).
+- oder verwenden du eine schlüsselfertige Distribution (oft "_node-in-a-box_" genannt), die eine Bitcoin-Implementierung auf die gleiche Weise integriert, aber auch ein Interface-Verwaltungssystem, einen Anwendungsspeicher und gebrauchsfertige Tools enthält (Lightning, Browser, Indexserver, sogar selbst gehostete Anwendungen außerhalb von Bitcoin...).
 
 
 
-Beide Ansätze führen zum gleichen Ziel: einen eigenen Knoten zu haben, aber sie unterscheiden sich in Bezug auf die Interface-Installation und -Nutzung, die Wartung, die Erweiterbarkeit und die Kosten. Das werden wir in diesem Kapitel untersuchen.
+Beide Ansätze führen zum gleichen Ziel: einen eigenen Node zu haben, aber sie unterscheiden sich in Bezug auf die Interface-Installation und -Nutzung, die Wartung, die Erweiterbarkeit und die Kosten. Das werden wir in diesem Kapitel untersuchen.
 
 
 
-### Rohe Bitcoin-Knoten-Implementierungen
+### Rohe Bitcoin-Node-Implementierungen
 
 
 
-Die Installation einer Rohimplementierung bedeutet die direkte Verwendung der Software einer Bitcoin-Protokollimplementierung (wie Core), ohne zusätzliche Software Layer. Sie verwalten die Konfiguration, die Aktualisierungen und die zugehörigen Dienste (Indizierung, API, Lightning, Backups usw.) selbst, je nach Ihren Bedürfnissen.
+Die Installation einer Rohimplementierung bedeutet die direkte Verwendung der Software einer Bitcoin-Protokollimplementierung (wie Core), ohne zusätzliche Software Layer. du verwalten die Konfiguration, die Aktualisierungen und die zugehörigen Dienste (Indizierung, API, Lightning, Backups usw.) selbst, je nach Ihren Bedürfnissen.
 
 
 
-Das ist der souveränste und flexibelste Ansatz: Sie wissen genau, was läuft, wo die Daten sind und wie alles funktioniert. Auf der anderen Seite wird es komplexer, sobald man über den einfachen Betrieb eines Bitcoin-Knotens hinausgehen will. Wenn es nur darum geht, einen Knoten zu haben, ist die Komplexität vergleichbar mit der eines Node-in-a-Box, oder sogar geringer, da es nur darum geht, Software zu installieren.
+Das ist der souveränste und flexibelste Ansatz: du wissen genau, was läuft, wo die Daten sind und wie alles funktioniert. Auf der anderen Seite wird es komplexer, sobald man über den einfachen Betrieb eines Bitcoin-Node hinausgehen will. Wenn es nur darum geht, einen Node zu haben, ist die Komplexität vergleichbar mit der eines Node-in-a-Box, oder sogar geringer, da es nur darum geht, Software zu installieren.
 
 
 
@@ -622,7 +592,7 @@ Das ist der souveränste und flexibelste Ansatz: Sie wissen genau, was läuft, w
 
 
 
-[Bitcoin core ist der Client des Netzes, der die größte Mehrheit hat (https://bitcoincore.org/). Er lädt den Blockchain herunter, validiert und pflegt ihn, bietet RPC/REST-APIs und kann einen Wallet integrieren. Wenn Sie Standardtools bevorzugen und sich damit wohl fühlen, selbst Dienste hinzuzufügen (wie Electrum-Server, Explorer und LND), sind Sie mit Core besser bedient.
+[Bitcoin core ist der Client des Netzes, der die größte Mehrheit hat (https://bitcoincore.org/). Er lädt den Blockchain herunter, validiert und pflegt ihn, bietet RPC/REST-APIs und kann einen Wallet integrieren. Wenn du Standardtools bevorzugen und sich damit wohl fühlen, selbst Dienste hinzuzufügen (wie Electrum-Server, Explorer und LND), sind du mit Core besser bedient.
 
 
 
@@ -630,7 +600,7 @@ Das ist der souveränste und flexibelste Ansatz: Sie wissen genau, was läuft, w
 
 
 
-**Nachteile:** Sie müssen den Rest des Stacks manuell erstellen, um eine vollständige Anwendungsumgebung zu schaffen, und nicht nur einen Bitcoin-Knoten.
+**Nachteile:** du müssen den Rest des Stacks manuell erstellen, um eine vollständige Anwendungsumgebung zu schaffen, und nicht nur einen Bitcoin-Node.
 
 
 
@@ -646,18 +616,18 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-Es gibt 2 mögliche Gründe für die Wahl von Knoten statt Kern:
+Es gibt 2 mögliche Gründe für die Wahl von Node statt Kern:
 
 
 
 
-- Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Relaisverwaltung, indem festgelegt wird, welche Transaktionen von Ihrem Knoten akzeptiert und verbreitet werden.
+- Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Relaisverwaltung, indem festgelegt wird, welche Transaktionen von Ihrem Node akzeptiert und verbreitet werden.
 - Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und so dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie effektiv einsetzt. Andere nutzen Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Mehrheit des Client-Managements nicht einverstanden sind.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Ich persönlich empfehle Ihnen, sich für Core zu entscheiden, vor allem um schneller von Sicherheits-Patches zu profitieren. In der Tat werden einige in Knots entdeckte Schwachstellen mit Verzögerung behoben. Ganz allgemein ist der Entwicklungsprozess von Core solide strukturiert und wird von einer großen Zahl von Mitwirkenden unterstützt, während Knots von einer einzigen Person gepflegt wird und eine viel kleinere Gemeinschaft hat. Andererseits verlieren Relay-Regeln heute tendenziell ihre Nützlichkeit, insbesondere wenn sie nur von einem winzigen Teil des Netzwerks angewendet werden (wie bei der Perkolationstheorie).
+Ich persönlich empfehle dir, sich für Core zu entscheiden, vor allem um schneller von Sicherheits-Patches zu profitieren. In der Tat werden einige in Knots entdeckte Schwachstellen mit Verzögerung behoben. Ganz allgemein ist der Entwicklungsprozess von Core solide strukturiert und wird von einer großen Zahl von Mitwirkenden unterstützt, während Knots von einer einzigen Person gepflegt wird und eine viel kleinere Gemeinschaft hat. Andererseits verlieren Relay-Regeln heute tendenziell ihre Nützlichkeit, insbesondere wenn sie nur von einem winzigen Teil des Netzwerks angewendet werden (wie bei der Perkolationstheorie).
 
 
 
@@ -665,7 +635,7 @@ Ich persönlich empfehle Ihnen, sich für Core zu entscheiden, vor allem um schn
 
 
 
-Die _node-in-a-box_ kombiniert Bitcoin core (oder Knots) mit einem vorkonfigurierten Betriebssystem, einem Interface Web und einem App-Store für selbst gehostete Dienste (Lightning, explorers, Electrum Server, Mempool, BTCPay Server, Nextcloud usw.). Mit nur einem Klick können Sie diese verschiedenen Module installieren, aktualisieren und miteinander verbinden.
+Die _node-in-a-box_ kombiniert Bitcoin core (oder Knots) mit einem vorkonfigurierten Betriebssystem, einem Interface Web und einem App-Store für selbst gehostete Dienste (Lightning, explorers, Electrum Server, Mempool, BTCPay Server, Nextcloud usw.). Mit nur einem Klick können du diese verschiedenen Module installieren, aktualisieren und miteinander verbinden.
 
 
 
@@ -682,8 +652,8 @@ Die meisten dieser Lösungen sind in zwei Formaten erhältlich:
 
 
 
-- Vormontierter Rechner: ein kompletter Computer mit bereits installiertem Betriebssystem. Diese Pay-as-you-go-Rechner müssen lediglich an das Stromnetz angeschlossen und mit dem Internet verbunden werden, um betriebsbereit zu sein. Wenn Ihr Budget es zulässt, hat diese Option den Vorteil, dass sie sehr einfach einzurichten ist, oft vorrangigen Support bietet und zur Finanzierung der Entwicklung beiträgt, da das Geschäftsmodell dieser Unternehmen im Allgemeinen auf dem Verkauf von Hardware basiert.
-- DIY: Installieren Sie das Distributions-Betriebssystem auf Ihrem eigenen Rechner (alter PC, NUC, Raspberry Pi, Heimserver...). Dies ist die wirtschaftlichste Lösung, da Sie einen alten Rechner recyceln oder eine Hardware wählen können, die genau Ihren Bedürfnissen und Ihrem Budget entspricht. Es ist auch die flexibelste und am einfachsten zu konfigurierende Option. Diesen Ansatz werden wir im praktischen Teil des Kurses erkunden.
+- Vormontierter Rechner: ein kompletter Computer mit bereits installiertem Betriebssystem. Diese Pay-as-you-go-Rechner müssen lediglich an das Stromnetz angeschlossen und mit dem Internet verbunden werden, um betriebsbereit zu sein. Wenn dein Budget es zulässt, hat diese Option den Vorteil, dass sie sehr einfach einzurichten ist, oft vorrangigen Support bietet und zur Finanzierung der Entwicklung beiträgt, da das Geschäftsmodell dieser Unternehmen im Allgemeinen auf dem Verkauf von Hardware basiert.
+- DIY: Installieren du das Distributions-Betriebssystem auf Ihrem eigenen Rechner (alter PC, NUC, Raspberry Pi, Heimserver...). Dies ist die wirtschaftlichste Lösung, da du einen alten Rechner recyceln oder eine Hardware wählen können, die genau Ihren Bedürfnissen und Ihrem Budget entspricht. Es ist auch die flexibelste und am einfachsten zu konfigurierende Option. Diesen Ansatz werden wir im praktischen Teil des Kurses erkunden.
 
 
 
@@ -703,7 +673,7 @@ Hier ist ein Überblick über die wichtigsten verfügbaren Node-in-a-Box-Lösung
 
 
 
-Im Jahr 2020 als einfacher Bitcoin-Knoten mit einigen Zusatzanwendungen gestartet, hat sich Umbrel allmählich zu einer vollwertigen, modernen Heim-Cloud entwickelt.
+Im Jahr 2020 als einfacher Bitcoin-Node mit einigen Zusatzanwendungen gestartet, hat sich Umbrel allmählich zu einer vollwertigen, modernen Heim-Cloud entwickelt.
 
 
 
@@ -717,11 +687,11 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-[Start9 bietet StartOS (https://start9.com/) an, ein System für "souveränes Computing": Ziel ist es, dass jeder seinen eigenen privaten Server besitzt und verwaltet, der durch einen Marktplatz für selbst gehostete Anwendungen erweitert wird. Sie können einen Start9-Server kaufen (Server One für $619, Server Pure für $899) oder Ihren eigenen im DIY-Modus auf Ihrem eigenen Rechner zusammenstellen.
+[Start9 bietet StartOS (https://start9.com/) an, ein System für "souveränes Computing": Ziel ist es, dass jeder seinen eigenen privaten Server besitzt und verwaltet, der durch einen Marktplatz für selbst gehostete Anwendungen erweitert wird. du können einen Start9-Server kaufen (Server One für $619, Server Pure für $899) oder Ihren eigenen im DIY-Modus auf Ihrem eigenen Rechner zusammenstellen.
 
 
 
-Auf der Bitcoin-Seite können Sie mit StartOS einen Full node, einen Lightning-Knoten, BTCPay-Server, Electrs und viele andere Dienste installieren. Die Anziehungskraft von Start9 geht jedoch darüber hinaus: Es bietet die Möglichkeit, verschiedene Software (File Cloud, Messaging, Monitoring) auf einheitliche Weise und mit vollständiger Kontrolle zu entdecken, zu konfigurieren und freizugeben. Das Projekt richtet sich daher an Benutzer, die eine robuste Plattform zum Selbsthosten wünschen, nicht nur einen einfachen Bitcoin-Knoten. Es ist wahrscheinlich das vollständigste Ökosystem nach Umbrel.
+Auf der Bitcoin-Seite können du mit StartOS einen Full node, einen Lightning-Node, BTCPay-Server, Electrs und viele andere Dienste installieren. Die Anziehungskraft von Start9 geht jedoch darüber hinaus: Es bietet die Möglichkeit, verschiedene Software (File Cloud, Messaging, Monitoring) auf einheitliche Weise und mit vollständiger Kontrolle zu entdecken, zu konfigurieren und freizugeben. Das Projekt richtet sich daher an Benutzer, die eine robuste Plattform zum Selbsthosten wünschen, nicht nur einen einfachen Bitcoin-Node. Es ist wahrscheinlich das vollständigste Ökosystem nach Umbrel.
 
 
 
@@ -733,7 +703,7 @@ Der Hauptunterschied zu Umbrel liegt im Interface. Umbrel setzt auf eine ausgefe
 
 
 
-Kurz gesagt, wenn Sie nur die wesentlichen Anwendungen für Bitcoin benötigen, kein besonderes Interesse an Umbrels sehr reichhaltigem Ökosystem haben und der Interface-Benutzer keine Priorität hat, dann ist Start9 die bessere Wahl. Ansonsten ist Umbrel die bessere Wahl.
+Kurz gesagt, wenn du nur die wesentlichen Anwendungen für Bitcoin benötigen, kein besonderes Interesse an Umbrels sehr reichhaltigem Ökosystem haben und der Interface-Benutzer keine Priorität hat, dann ist Start9 die bessere Wahl. Ansonsten ist Umbrel die bessere Wahl.
 
 
 
@@ -743,7 +713,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode ist eine Distribution, die sich ausschließlich auf Bitcoin und Lightning konzentriert (https://mynodebtc.com/) und ein Web-Interface, einen Anwendungsmarktplatz und Ein-Klick-Upgrades bietet. Sie können entweder gebrauchsfertige Hardware kaufen (*Modell Zwei* für 549 $ erhältlich) oder MyNode kostenlos auf Ihrem eigenen Rechner installieren. Das Projekt bietet auch eine *Premium*-Version der Software ($94) an, die vorrangigen Support und erweiterte Funktionen umfasst.
+[MyNode ist eine Distribution, die sich ausschließlich auf Bitcoin und Lightning konzentriert (https://mynodebtc.com/) und ein Web-Interface, einen Anwendungsmarktplatz und Ein-Klick-Upgrades bietet. du können entweder gebrauchsfertige Hardware kaufen (*Modell Zwei* für 549 $ erhältlich) oder MyNode kostenlos auf Ihrem eigenen Rechner installieren. Das Projekt bietet auch eine *Premium*-Version der Software ($94) an, die vorrangigen Support und erweiterte Funktionen umfasst.
 
 
 
@@ -751,7 +721,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-In der Praxis vereint MyNode alle grundlegenden Bausteine, die für den Betrieb eines Full node erforderlich sind, sowie die für Bitcoin-Nutzer wichtigen Anwendungen. Daher ist es eine geeignete Lösung, wenn Sie keine Anwendungen außerhalb des Bitcoin-Ökosystems benötigen, wie z. B. selbst gehostete Anwendungen, die in Start9- und Umbrel-Systemen zu finden sind.
+In der Praxis vereint MyNode alle grundlegenden Bausteine, die für den Betrieb eines Full node erforderlich sind, sowie die für Bitcoin-Nutzer wichtigen Anwendungen. Daher ist es eine geeignete Lösung, wenn du keine Anwendungen außerhalb des Bitcoin-Ökosystems benötigen, wie z. B. selbst gehostete Anwendungen, die in Start9- und Umbrel-Systemen zu finden sind.
 
 
 
@@ -761,7 +731,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz ist ein 100% quelloffenes Projekt](https://docs.raspiblitz.org/) (MIT-Lizenz) für die Montage eines Bitcoin-Knotens und eines Lightning-Knotens auf einem Raspberry Pi. Laden Sie einfach das Image herunter, starten Sie es und folgen Sie dann dem Assistenten, um einen funktionierenden Node-in-a-Box auf Ihrem Raspberry Pi zu haben. Vormontierte Kits sind auch von Drittanbietern erhältlich und kosten in der Regel zwischen $300 und $400, je nach Hardware. RaspiBlitz bietet auch eine Reihe zusätzlicher, einfach zu installierender Anwendungen an.
+[RaspiBlitz ist ein 100% quelloffenes Projekt](https://docs.raspiblitz.org/) (MIT-Lizenz) für die Montage eines Bitcoin-Node und eines Lightning-Node auf einem Raspberry Pi. Laden du einfach das Image herunter, starten du es und folgen du dann dem Assistenten, um einen funktionierenden Node-in-a-Box auf Ihrem Raspberry Pi zu haben. Vormontierte Kits sind auch von Drittanbietern erhältlich und kosten in der Regel zwischen $300 und $400, je nach Hardware. RaspiBlitz bietet auch eine Reihe zusätzlicher, einfach zu installierender Anwendungen an.
 
 
 
@@ -769,7 +739,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-Wenn Sie einen Raspberry Pi besitzen, ist dies eine ausgezeichnete Option, da komplette Systeme wie Umbrel für diese Art von Mini-PC immer schwerer werden.
+Wenn du einen Raspberry Pi besitzen, ist dies eine ausgezeichnete Option, da komplette Systeme wie Umbrel für diese Art von Mini-PC immer schwerer werden.
 
 
 
@@ -783,7 +753,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-Das Prinzip ist einfach: Wenn Sie Ashigaru Wallet (der Fork-Nachfolger von Samurai Wallet, nachdem seine Entwickler verhaftet wurden) verwenden oder wenn Sie von fortgeschrittenen Datenschutz-Tools profitieren möchten, ist RoninDojo für Sie.
+Das Prinzip ist einfach: Wenn du Ashigaru Wallet (der Fork-Nachfolger von Samurai Wallet, nachdem seine Entwickler verhaftet wurden) verwenden oder wenn du von fortgeschrittenen Datenschutz-Tools profitieren möchten, ist RoninDojo für du.
 
 
 
@@ -801,7 +771,7 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-Eine weitere [Node-in-a-box-Lösung ist Nodl](https://www.nodl.eu/). Wie bei den vorherigen Projekten können Sie entweder die vorkonfigurierte Hardware kaufen (je nach Modell zwischen 599 und 799 €) oder sie selbst im DIY-Modus installieren.
+Eine weitere [Node-in-a-box-Lösung ist Nodl](https://www.nodl.eu/). Wie bei den vorherigen Projekten können du entweder die vorkonfigurierte Hardware kaufen (je nach Modell zwischen 599 und 799 €) oder sie selbst im DIY-Modus installieren.
 
 
 
@@ -813,7 +783,7 @@ Auf der Softwareseite integriert Nodl Bitcoin core, LND, BTCPay Server, Electrs,
 
 
 
-Nachdem Sie die verschiedenen Softwarelösungen untersucht haben, ist es nun an der Zeit, den Rechner auszuwählen, auf dem Ihr Knoten gehostet werden soll!
+Nachdem du die verschiedenen Softwarelösungen untersucht haben, ist es nun an der Zeit, den Rechner auszuwählen, auf dem dein Node gehostet werden soll!
 
 
 
@@ -825,15 +795,15 @@ Nachdem Sie die verschiedenen Softwarelösungen untersucht haben, ist es nun an 
 
 
 
-Nachdem wir nun alle Möglichkeiten der Software erkundet haben, wollen wir uns auf die für Ihren Knoten erforderliche Hardware konzentrieren. Ich werde Ihnen einige konkrete Ratschläge für die Auswahl Ihrer Komponenten geben, zusammen mit Konfigurationen, die auf verschiedene Budgets zugeschnitten sind. Natürlich handelt es sich hierbei um meine persönliche Meinung und mein Feedback: Es gibt sicherlich noch andere relevante Alternativen als die hier vorgestellten. Außerdem werde ich nicht auf die vormontierten Maschinen eingehen, die von Node-in-a-Box-Projekten angeboten werden und die wir bereits im vorherigen Kapitel behandelt haben. Hier werden wir uns ausschließlich auf DIY-Lösungen konzentrieren.
+Nachdem wir nun alle Möglichkeiten der Software erkundet haben, wollen wir uns auf die für Ihren Node erforderliche Hardware konzentrieren. Ich werde dir einige konkrete Ratschläge für die Auswahl Ihrer Komponenten geben, zusammen mit Konfigurationen, die auf verschiedene Budgets zugeschnitten sind. Natürlich handelt es sich hierbei um meine persönliche Meinung und mein Feedback: Es gibt sicherlich noch andere relevante Alternativen als die hier vorgestellten. Außerdem werde ich nicht auf die vormontierten Maschinen eingehen, die von Node-in-a-Box-Projekten angeboten werden und die wir bereits im vorherigen Kapitel behandelt haben. Hier werden wir uns ausschließlich auf DIY-Lösungen konzentrieren.
 
 
 
-### Brauchen Sie wirklich eine eigene Maschine?
+### Brauchen du wirklich eine eigene Maschine?
 
 
 
-In den letzten Jahren sind sich Bitcoiner zunehmend eines weit verbreiteten Missverständnisses bewusst geworden, insbesondere mit der Popularisierung von Node-in-a-Box in den frühen 2020er Jahren: Ein Bitcoin-Knoten muss zwangsläufig auf einem ausschließlich für diesen Zweck vorgesehenen Rechner laufen. Dies ist jedoch nicht der Fall. Sie brauchen nicht unbedingt einen speziellen Computer, um einen Bitcoin-Knoten zu betreiben: Bitcoin core kann durchaus auf Ihrem normalen PC laufen. Wenn Sie über genügend Speicherplatz für Blockchain verfügen oder das Pruning aktivieren, können Sie die Kette validieren, Ihren Wallet anschließen und das Programm sogar schließen, wenn Sie es nicht mehr benötigen. Der Vorteil dieses Ansatzes ist beträchtlich: keine Anfangsinvestition und minimale Komplexität.
+In den letzten Jahren sind sich Bitcoiner zunehmend eines weit verbreiteten Missverständnisses bewusst geworden, insbesondere mit der Popularisierung von Node-in-a-Box in den frühen 2020er Jahren: Ein Bitcoin-Node muss zwangsläufig auf einem ausschließlich für diesen Zweck vorgesehenen Rechner laufen. Dies ist jedoch nicht der Fall. du brauchen nicht unbedingt einen speziellen Computer, um einen Bitcoin-Node zu betreiben: Bitcoin core kann durchaus auf Ihrem normalen PC laufen. Wenn du über genügend Speicherplatz für Blockchain verfügen oder das Pruning aktivieren, können du die Kette validieren, Ihren Wallet anschließen und das Programm sogar schließen, wenn du es nicht mehr benötigen. Der Vorteil dieses Ansatzes ist beträchtlich: keine Anfangsinvestition und minimale Komplexität.
 
 
 
@@ -841,7 +811,7 @@ In den letzten Jahren sind sich Bitcoiner zunehmend eines weit verbreiteten Miss
 
 
 
-Dennoch ist es oft bequemer, einen eigenen Rechner zu verwenden. Er kann kontinuierlich (rund um die Uhr) laufen, ist jederzeit aus der Ferne erreichbar, beansprucht nicht die Ressourcen Ihres Hauptrechners und isoliert vor allem die Anwendungen (eine gute Sicherheitspraxis: Wenn Ihr persönlicher PC ein Problem hat, funktioniert Ihr Knoten weiter und umgekehrt). Die Frage lautet also nicht: "Brauche ich einen eigenen Rechner?", sondern vielmehr: "Brauche ich einen Knoten, der ständig online ist, auf den andere Geräte zugreifen können und der entwicklungsfähig ist?" (Lightning, Indexer, zusätzliche Anwendungen...). Wenn die Antwort "Ja" lautet, wird die Entscheidung für einen separaten Rechner die Dinge viel einfacher machen.
+Dennoch ist es oft bequemer, einen eigenen Rechner zu verwenden. Er kann kontinuierlich (rund um die Uhr) laufen, ist jederzeit aus der Ferne erreichbar, beansprucht nicht die Ressourcen Ihres Hauptrechners und isoliert vor allem die Anwendungen (eine gute Sicherheitspraxis: Wenn dein persönlicher PC ein Problem hat, funktioniert dein Node weiter und umgekehrt). Die Frage lautet also nicht: "Brauche ich einen eigenen Rechner?", sondern vielmehr: "Brauche ich einen Node, der ständig online ist, auf den andere Geräte zugreifen können und der entwicklungsfähig ist?" (Lightning, Indexer, zusätzliche Anwendungen...). Wenn die Antwort "Ja" lautet, wird die Entscheidung für einen separaten Rechner die Dinge viel einfacher machen.
 
 
 
@@ -853,15 +823,15 @@ Dennoch ist es oft bequemer, einen eigenen Rechner zu verwenden. Er kann kontinu
 
 
 
-Das ist die wirtschaftlichste Lösung. Die meisten von uns haben einen alten PC mit Dust zu Hause oder bei Freunden und Familie: dies ist die perfekte Gelegenheit, ihn wieder in Betrieb zu nehmen! Um ihn für die Verwendung als Bitcoin-Knoten anzupassen, fügen Sie einfach eine 2-TB-SSD hinzu und ersetzen oder fügen je nach Bedarf RAM-Riegel hinzu, um den Arbeitsspeicher zu erhöhen. Rechnen Sie mit einem Preis zwischen 100 und 200 € für eine voll funktionsfähige Maschine.
+Das ist die wirtschaftlichste Lösung. Die meisten von uns haben einen alten PC mit Dust zu Hause oder bei Freunden und Familie: dies ist die perfekte Gelegenheit, ihn wieder in Betrieb zu nehmen! Um ihn für die Verwendung als Bitcoin-Node anzupassen, fügen du einfach eine 2-TB-SSD hinzu und ersetzen oder fügen je nach Bedarf RAM-Riegel hinzu, um den Arbeitsspeicher zu erhöhen. Rechnen du mit einem Preis zwischen 100 und 200 € für eine voll funktionsfähige Maschine.
 
 
 
-Prüfen Sie vor dem Kauf eines Geräts die Anzahl der verfügbaren Festplattensteckplätze, die Art des Anschlusses (M.2 oder SATA), das Format des Arbeitsspeichers (SODIMM oder DIMM) und seine Generation (DDR4 usw.). Sie sollten auch die Gelegenheit nutzen, das Gerät zu reinigen, insbesondere den Lüfter, um eine optimale Leistung zu gewährleisten.
+Prüfen du vor dem Kauf eines Geräts die Anzahl der verfügbaren Festplattensteckplätze, die Art des Anschlusses (M.2 oder SATA), das Format des Arbeitsspeichers (SODIMM oder DIMM) und seine Generation (DDR4 usw.). du sollten auch die Gelegenheit nutzen, das Gerät zu reinigen, insbesondere den Lüfter, um eine optimale Leistung zu gewährleisten.
 
 
 
-Seien Sie jedoch vorsichtig, wenn Sie einen Laptop verwenden: Der Akku kann mit der Zeit zu einem Problem werden (mehr dazu später in diesem Kapitel).
+Seien du jedoch vorsichtig, wenn du einen Laptop verwenden: Der Akku kann mit der Zeit zu einem Problem werden (mehr dazu später in diesem Kapitel).
 
 
 
@@ -869,7 +839,7 @@ Seien Sie jedoch vorsichtig, wenn Sie einen Laptop verwenden: Der Akku kann mit 
 
 
 
-Der Markt ist voll von generalüberholten Business-Mini-PCs wie dem *Lenovo ThinkCentre Tiny*, dem *HP EliteDesk Mini* oder dem *Dell OptiPlex Micro*. Diese Geräte sind solide, kompakt, leise und energieeffizient. Ihr Preis liegt weit unter dem Neupreis, und es ist leicht, Modelle mit i5/i7-Prozessoren der 6. bis 10. Generation und 8 bis 16 GB Arbeitsspeicher zu finden, und das alles zu sehr attraktiven Preisen, die im Allgemeinen zwischen 70 und 200 Euro liegen, je nach Konfiguration. Meiner Meinung nach ist dies wahrscheinlich die beste Option, wenn Sie einen dedizierten Rechner für Ihren Bitcoin-Knoten suchen.
+Der Markt ist voll von generalüberholten Business-Mini-PCs wie dem *Lenovo ThinkCentre Tiny*, dem *HP EliteDesk Mini* oder dem *Dell OptiPlex Micro*. Diese Geräte sind solide, kompakt, leise und energieeffizient. dein Preis liegt weit unter dem Neupreis, und es ist leicht, Modelle mit i5/i7-Prozessoren der 6. bis 10. Generation und 8 bis 16 GB Arbeitsspeicher zu finden, und das alles zu sehr attraktiven Preisen, die im Allgemeinen zwischen 70 und 200 Euro liegen, je nach Konfiguration. Meiner Meinung nach ist dies wahrscheinlich die beste Option, wenn du einen dedizierten Rechner für Ihren Bitcoin-Node suchen.
 
 
 
@@ -881,7 +851,7 @@ Es ist auch möglich, gebrauchte PCs und Laptops zu finden, die schon ein paar J
 
 
 
-**Hinweis:** Geräte aus Firmenflotten, wie z. B. das *ThinkCentre Tiny*, sind oft nur mit einem *DisplayPort* (DP)-Anschluss für den Bildschirm ausgestattet und haben keinen HDMI-Ausgang. Vergessen Sie also nicht, einen Adapter oder ein DP-zu-HDMI-Kabel mitzubringen, falls Sie eines benötigen.
+**Hinweis:** Geräte aus Firmenflotten, wie z. B. das *ThinkCentre Tiny*, sind oft nur mit einem *DisplayPort* (DP)-Anschluss für den Bildschirm ausgestattet und haben keinen HDMI-Ausgang. Vergessen du also nicht, einen Adapter oder ein DP-zu-HDMI-Kabel mitzubringen, falls du eines benötigen.
 
 
 
@@ -889,7 +859,7 @@ Es ist auch möglich, gebrauchte PCs und Laptops zu finden, die schon ein paar J
 
 
 
-Wenn Ihr Budget es zulässt, können Sie sich auch für einen neuen Rechner entscheiden. Dies ist eine gute Option, wenn Sie aktuelle Hardware mit guter Leistung haben möchten, insbesondere wenn Sie Umbrel oder Start9 mit zusätzlichen Anwendungen außerhalb des Bitcoin-Ökosystems für das Self-Hosting verwenden möchten.
+Wenn dein Budget es zulässt, können du sich auch für einen neuen Rechner entscheiden. Dies ist eine gute Option, wenn du aktuelle Hardware mit guter Leistung haben möchten, insbesondere wenn du Umbrel oder Start9 mit zusätzlichen Anwendungen außerhalb des Bitcoin-Ökosystems für das Self-Hosting verwenden möchten.
 
 
 
@@ -901,7 +871,7 @@ Wenn Ihr Budget es zulässt, können Sie sich auch für einen neuen Rechner ents
 
 
 
-Mini-PCs bieten meiner Meinung nach den besten Kompromiss für das Hosting eines Bitcoin-Knotens zu Hause. Sie sind platzsparend, passen leicht in ein Regal, verbrauchen nur wenig Strom und eignen sich für einfache Hardwareänderungen, wie das Hinzufügen von RAM oder den Austausch der SSD.
+Mini-PCs bieten meiner Meinung nach den besten Kompromiss für das Hosting eines Bitcoin-Node zu Hause. du sind platzsparend, passen leicht in ein Regal, verbrauchen nur wenig Strom und eignen sich für einfache Hardwareänderungen, wie das Hinzufügen von RAM oder den Austausch der SSD.
 
 
 
@@ -925,7 +895,7 @@ Ich persönlich bevorzuge den *Lenovo ThinkCentre Tiny*, der auf dem Gebrauchtma
 
 
 
-Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage kann man gebrauchte oder sogar neue Laptops zu niedrigen Preisen finden, die mit guten Prozessoren, zahlreichen Anschlüssen sowie einem integrierten Bildschirm und einer Tastatur (sehr praktisch für die Erstinstallation) ausgestattet sind. Vor allem aber wirkt der Akku wie eine natürliche USV: Bei einem Stromausfall schaltet sich der Knoten nicht abrupt ab und kann sogar mehrere Stunden lang betriebsbereit bleiben.
+Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage kann man gebrauchte oder sogar neue Laptops zu niedrigen Preisen finden, die mit guten Prozessoren, zahlreichen Anschlüssen sowie einem integrierten Bildschirm und einer Tastatur (sehr praktisch für die Erstinstallation) ausgestattet sind. Vor allem aber wirkt der Akku wie eine natürliche USV: Bei einem Stromausfall schaltet sich der Node nicht abrupt ab und kann sogar mehrere Stunden lang betriebsbereit bleiben.
 
 
 
@@ -933,7 +903,7 @@ Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage k
 
 
 
-**Highlights:** All-in-One-Lösung, der Akku fungiert als USV (keine Stromausfälle), vereinfachte Installation dank integriertem Display und Tastatur, integrierte Wi-Fi-Karte und eine große Auswahl an Gebraucht- und Neuwarenmärkten (was oft bedeutet, dass Sie Preise aushandeln können).
+**Highlights:** All-in-One-Lösung, der Akku fungiert als USV (keine Stromausfälle), vereinfachte Installation dank integriertem Display und Tastatur, integrierte Wi-Fi-Karte und eine große Auswahl an Gebraucht- und Neuwarenmärkten (was oft bedeutet, dass du Preise aushandeln können).
 
 
 
@@ -941,11 +911,11 @@ Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage k
 
 
 
-Wenn Sie sich für diese Lösung entscheiden, empfehle ich Ihnen, den Zustand der Batterie genau im Auge zu behalten, um jegliche Gefahr zu vermeiden. Achten Sie auf übermäßige Hitze, ungewöhnliche Gerüche, Instabilität oder eine verformte Hülle. Im Falle eines Alarms schalten Sie den Computer sofort aus, ziehen Sie den Netzstecker und entsorgen Sie die Batterie in einer speziellen Recyclinganlage.
+Wenn du sich für diese Lösung entscheiden, empfehle ich dir, den Zustand der Batterie genau im Auge zu behalten, um jegliche Gefahr zu vermeiden. Achten du auf übermäßige Hitze, ungewöhnliche Gerüche, Instabilität oder eine verformte Hülle. Im Falle eines Alarms schalten du den Computer sofort aus, ziehen du den Netzstecker und entsorgen du die Batterie in einer speziellen Recyclinganlage.
 
 
 
-**Tipp:** Wenn BIOS/UEFI oder das Tool des Herstellers dies zulassen, können Sie eine Lastgrenze (z. B. 60 % oder 80 %) festlegen, um die Lebensdauer der Batterie zu verlängern.
+**Tipp:** Wenn BIOS/UEFI oder das Tool des Herstellers dies zulassen, können du eine Lastgrenze (z. B. 60 % oder 80 %) festlegen, um die Lebensdauer der Batterie zu verlängern.
 
 
 
@@ -953,7 +923,7 @@ Wenn Sie sich für diese Lösung entscheiden, empfehle ich Ihnen, den Zustand de
 
 
 
-In den frühen 2020er Jahren, mit dem Aufkommen der Node-in-a-Box-Software, kam auch der Raspberry Pi-Wahn auf, um einen Bitcoin-Knoten zu betreiben. Die Idee schien attraktiv: preiswert, kompakt und zugänglich.
+In den frühen 2020er Jahren, mit dem Aufkommen der Node-in-a-Box-Software, kam auch der Raspberry Pi-Wahn auf, um einen Bitcoin-Node zu betreiben. Die Idee schien attraktiv: preiswert, kompakt und zugänglich.
 
 
 
@@ -961,7 +931,7 @@ In den frühen 2020er Jahren, mit dem Aufkommen der Node-in-a-Box-Software, kam 
 
 
 
-In der Praxis kann ein Raspberry Pi ausreichend sein, wenn Ihr Ziel nur darin besteht, einen Bitcoin-Knoten ohne zusätzliche Anwendungen zu betreiben. Sobald Sie jedoch Umbrel, Start9 oder ein umfangreicheres Ökosystem (Block explorer, Address Indexer, Lightning-Knoten, selbst gehostete Anwendungen...) nutzen wollen, stößt der Rechner schnell an seine Grenzen.
+In der Praxis kann ein Raspberry Pi ausreichend sein, wenn dein Ziel nur darin besteht, einen Bitcoin-Node ohne zusätzliche Anwendungen zu betreiben. Sobald du jedoch Umbrel, Start9 oder ein umfangreicheres Ökosystem (Block explorer, Address Indexer, Lightning-Node, selbst gehostete Anwendungen...) nutzen wollen, stößt der Rechner schnell an seine Grenzen.
 
 
 
@@ -991,11 +961,11 @@ In der Vergangenheit lag der große Vorteil von SBCs wie dem Raspberry Pi in ihr
 
 
 
-Technisch ist es möglich, einen Bitcoin-Knoten auf einer Festplatte zu betreiben. Das Problem ist, dass sich alles beträchtlich verlangsamen wird, insbesondere die IBD, die aufgrund der intensiven Nutzung der Festplatte als Cache durch Bitcoin core extrem lang werden wird (insbesondere für das UTXO-Set). Aus diesem Grund rate ich dringend von der Verwendung einer Festplatte ab: Sie stellt einen echten Engpass dar, schränkt die künftige Entwicklung stark ein (z. B. für einen Lightning-Knoten) und kann sogar zu einer Fehlanpassung der Synchronisation mit dem Blockchain-Kopf führen. Außerdem erhöht die ständige Beanspruchung der mechanischen Festplatte das Risiko einer vorzeitigen Abnutzung.
+Technisch ist es möglich, einen Bitcoin-Node auf einer Festplatte zu betreiben. Das Problem ist, dass sich alles beträchtlich verlangsamen wird, insbesondere die IBD, die aufgrund der intensiven Nutzung der Festplatte als Cache durch Bitcoin core extrem lang werden wird (insbesondere für das UTXO-Set). Aus diesem Grund rate ich dringend von der Verwendung einer Festplatte ab: du stellt einen echten Engpass dar, schränkt die künftige Entwicklung stark ein (z. B. für einen Lightning-Node) und kann sogar zu einer Fehlanpassung der Synchronisation mit dem Blockchain-Kopf führen. Außerdem erhöht die ständige Beanspruchung der mechanischen Festplatte das Risiko einer vorzeitigen Abnutzung.
 
 
 
-SSDs verändern Ihr Nutzererlebnis radikal: Alles wird schneller und reibungsloser, bei weitaus höherer Zuverlässigkeit. Die Verwendung einer SSD ist daher (fast) obligatorisch für Ihren Knotenpunkt, und Sie werden es nicht bereuen, zumal Modelle mit hoher Kapazität jetzt relativ erschwinglich sind.
+SSDs verändern dein Nutzererlebnis radikal: Alles wird schneller und reibungsloser, bei weitaus höherer Zuverlässigkeit. Die Verwendung einer SSD ist daher (fast) obligatorisch für Ihren Knotenpunkt, und du werden es nicht bereuen, zumal Modelle mit hoher Kapazität jetzt relativ erschwinglich sind.
 
 
 
@@ -1003,7 +973,7 @@ SSDs verändern Ihr Nutzererlebnis radikal: Alles wird schneller und reibungslos
 
 
 
-Was die Kapazität angeht, so etablieren sich 2 TB allmählich als das neue vernünftige Minimum. Im Sommer 2025 nähert sich Blockchain bereits 700 GB, und wenn man Umbrel, einen Address-Indexer und einige Anwendungen hinzufügt, wird eine 1-TB-SSD schnell gesättigt sein. Mit 2 TB haben Sie einen komfortablen Spielraum für die kommenden Jahre (grob geschätzt zwischen 5 und 15 Jahren). Sie können sich auch für 4 TB entscheiden, wenn Sie planen, viele Anwendungen auf Umbrel zu nutzen, große Dateien im Self-Hosting zu speichern oder wenn Sie Ihren Speicherplatzbedarf weitgehend voraussehen wollen.
+Was die Kapazität angeht, so etablieren sich 2 TB allmählich als das neue vernünftige Minimum. Im Sommer 2025 nähert sich Blockchain bereits 700 GB, und wenn man Umbrel, einen Address-Indexer und einige Anwendungen hinzufügt, wird eine 1-TB-SSD schnell gesättigt sein. Mit 2 TB haben du einen komfortablen Spielraum für die kommenden Jahre (grob geschätzt zwischen 5 und 15 Jahren). du können sich auch für 4 TB entscheiden, wenn du planen, viele Anwendungen auf Umbrel zu nutzen, große Dateien im Self-Hosting zu speichern oder wenn du Ihren Speicherplatzbedarf weitgehend voraussehen wollen.
 
 
 
@@ -1023,7 +993,7 @@ Für Bitcoin core allein (ohne Umbrel-Overlay) empfehlen die Entwickler mindeste
 
 
 
-Wenn Sie hingegen ein Node-in-a-Box-System wie Umbrel oder Start9 verwenden, sind die Anforderungen an den Arbeitsspeicher deutlich höher. Die Umbrel-Entwickler empfehlen ein Minimum von 4 GB RAM. Das mag ausreichen, um nur Core laufen zu lassen, aber Sie werden bald an die Grenzen stoßen. Sie empfehlen daher 8 GB, was ich auch als Minimum für eine Grundkonfiguration um Bitcoin (Core, LND, Indexer und ein paar Anwendungen) betrachte. Meiner Erfahrung nach sind 8 GB mit Umbrel und ein paar zusätzlichen Diensten immer noch ein bisschen knapp. Um wirklich komfortabel zu sein und etwas Spielraum zu haben, würde ich 16 GB RAM empfehlen.
+Wenn du hingegen ein Node-in-a-Box-System wie Umbrel oder Start9 verwenden, sind die Anforderungen an den Arbeitsspeicher deutlich höher. Die Umbrel-Entwickler empfehlen ein Minimum von 4 GB RAM. Das mag ausreichen, um nur Core laufen zu lassen, aber du werden bald an die Grenzen stoßen. du empfehlen daher 8 GB, was ich auch als Minimum für eine Grundkonfiguration um Bitcoin (Core, LND, Indexer und ein paar Anwendungen) betrachte. Meiner Erfahrung nach sind 8 GB mit Umbrel und ein paar zusätzlichen Diensten immer noch ein bisschen knapp. Um wirklich komfortabel zu sein und etwas Spielraum zu haben, würde ich 16 GB RAM empfehlen.
 
 
 
@@ -1031,7 +1001,7 @@ Wenn Sie hingegen ein Node-in-a-Box-System wie Umbrel oder Start9 verwenden, sin
 
 
 
-Die Mindestanforderung für einen Umbrel-Knoten ist ein Dual-Core 64-Bit-Prozessor von Intel oder AMD. Wenn Sie zusätzlich zu Bitcoin core einige Anwendungen nutzen wollen, wird ein Quad-Core (oder höher) einen echten Unterschied in Bezug auf die Flüssigkeit machen. So sind beispielsweise i5/i7-Prozessoren der 6. bis 10. Generation auf dem Gebrauchtmarkt eine hervorragende Option.
+Die Mindestanforderung für einen Umbrel-Node ist ein Dual-Core 64-Bit-Prozessor von Intel oder AMD. Wenn du zusätzlich zu Bitcoin core einige Anwendungen nutzen wollen, wird ein Quad-Core (oder höher) einen echten Unterschied in Bezug auf die Flüssigkeit machen. So sind beispielsweise i5/i7-Prozessoren der 6. bis 10. Generation auf dem Gebrauchtmarkt eine hervorragende Option.
 
 
 
@@ -1039,7 +1009,7 @@ Die Mindestanforderung für einen Umbrel-Knoten ist ein Dual-Core 64-Bit-Prozess
 
 
 
-Im Folgenden schlage ich drei konkrete Konfigurationen vor, die an unterschiedliche Budgets und Bedürfnisse angepasst sind, mit genauen Modellen, die sie unterstützen. Diese Wahlmöglichkeiten dienen als Beispiele, um die Informationen in diesem Kapitel zu veranschaulichen; Sie sind nicht verpflichtet, genau diese Modelle zu wählen. Da ich den Mini-PC auf lange Sicht für die beste Option halte, werde ich mich bei den drei vorgeschlagenen Konfigurationen auf dieses Format stützen.
+Im Folgenden schlage ich drei konkrete Konfigurationen vor, die an unterschiedliche Budgets und Bedürfnisse angepasst sind, mit genauen Modellen, die sie unterstützen. Diese Wahlmöglichkeiten dienen als Beispiele, um die Informationen in diesem Kapitel zu veranschaulichen; du sind nicht verpflichtet, genau diese Modelle zu wählen. Da ich den Mini-PC auf lange Sicht für die beste Option halte, werde ich mich bei den drei vorgeschlagenen Konfigurationen auf dieses Format stützen.
 
 
 
@@ -1047,11 +1017,11 @@ Im Folgenden schlage ich drei konkrete Konfigurationen vor, die an unterschiedli
 
 
 
-In erster Linie benötigen Sie eine SSD, die groß genug ist, um den Blockchain unterzubringen, und die dennoch genügend Spielraum lässt. SSDs haben eine begrenzte Lebensdauer in Bezug auf die Schreibzyklen und das Gesamtvolumen der geschriebenen Daten. Ein Bitcoin-Knoten belastet die Festplatte beim Schreiben jedoch erheblich. Deshalb empfehle ich nicht die Einsteigermodelle, sondern eine NVMe-SSD, die eine deutlich bessere Leistung bietet.
+In erster Linie benötigen du eine SSD, die groß genug ist, um den Blockchain unterzubringen, und die dennoch genügend Spielraum lässt. SSDs haben eine begrenzte Lebensdauer in Bezug auf die Schreibzyklen und das Gesamtvolumen der geschriebenen Daten. Ein Bitcoin-Node belastet die Festplatte beim Schreiben jedoch erheblich. Deshalb empfehle ich nicht die Einsteigermodelle, sondern eine NVMe-SSD, die eine deutlich bessere Leistung bietet.
 
 
 
-Als Beispiel habe ich für die Zwecke dieses Kurses das folgende Modell gewählt: *Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*, erhältlich für rund 120 € auf Amazon. Sie können sich auch für andere bekannte Marken wie Crucial, Western Digital oder Kingston entscheiden.
+Als Beispiel habe ich für die Zwecke dieses Kurses das folgende Modell gewählt: *Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*, erhältlich für rund 120 € auf Amazon. du können sich auch für andere bekannte Marken wie Crucial, Western Digital oder Kingston entscheiden.
 
 
 
@@ -1063,11 +1033,11 @@ Als Beispiel habe ich für die Zwecke dieses Kurses das folgende Modell gewählt
 
 
 
-Wenn Ihr Budget sehr begrenzt ist (unter 200 €), würde ich Ihnen natürlich raten, nicht in eine spezielle Maschine zu investieren, sondern Bitcoin core direkt auf Ihrem normalen PC zu installieren (im pruned-Modus, wenn Sie nicht genügend Speicherplatz haben).
+Wenn dein Budget sehr begrenzt ist (unter 200 €), würde ich dir natürlich raten, nicht in eine spezielle Maschine zu investieren, sondern Bitcoin core direkt auf Ihrem normalen PC zu installieren (im pruned-Modus, wenn du nicht genügend Speicherplatz haben).
 
 
 
-Ansonsten empfehle ich für ein Einstiegsbudget den *HP EliteDesk 800 G2 Mini*. Ich habe bei Amazon ein generalüberholtes Modell für 96 € gefunden, das mit einem Intel Core i5 Prozessor der 6. Generation und 8 GB RAM ausgestattet ist. Dies ist eine besonders interessante Option für Einsteiger: Dieser Prozessor und diese Menge an Arbeitsspeicher sind mehr als genug, um Core auf Umbrel sowie mehrere Anwendungen gleichzeitig laufen zu lassen, z. B. einen Electrs-Indexer, einen Lightning-Knoten und eine Mempool-Instanz, vorausgesetzt, man weist Core nicht zu viel Cache zu. Darüber hinaus ist es bei dieser Art von Mini-PC einfach, den Arbeitsspeicher auf 16 GB zu erweitern, falls dies erforderlich sein sollte (für einen oder zwei hochwertige Speichersticks müssen Sie ca. 30-40 € zusätzlich bezahlen).
+Ansonsten empfehle ich für ein Einstiegsbudget den *HP EliteDesk 800 G2 Mini*. Ich habe bei Amazon ein generalüberholtes Modell für 96 € gefunden, das mit einem Intel Core i5 Prozessor der 6. Generation und 8 GB RAM ausgestattet ist. Dies ist eine besonders interessante Option für Einsteiger: Dieser Prozessor und diese Menge an Arbeitsspeicher sind mehr als genug, um Core auf Umbrel sowie mehrere Anwendungen gleichzeitig laufen zu lassen, z. B. einen Electrs-Indexer, einen Lightning-Node und eine Mempool-Instanz, vorausgesetzt, man weist Core nicht zu viel Cache zu. Darüber hinaus ist es bei dieser Art von Mini-PC einfach, den Arbeitsspeicher auf 16 GB zu erweitern, falls dies erforderlich sein sollte (für einen oder zwei hochwertige Speichersticks müssen du ca. 30-40 € zusätzlich bezahlen).
 
 
 
@@ -1075,7 +1045,7 @@ Ansonsten empfehle ich für ein Einstiegsbudget den *HP EliteDesk 800 G2 Mini*. 
 
 
 
-Fügen Sie dann einfach die SSD zum Budget hinzu. Ausgehend von der Samsung 2TB für 120 € ergeben sich Gesamtkosten von 216 € für ein komplettes, funktionsfähiges Gerät.
+Fügen du dann einfach die SSD zum Budget hinzu. Ausgehend von der Samsung 2TB für 120 € ergeben sich Gesamtkosten von 216 € für ein komplettes, funktionsfähiges Gerät.
 
 
 
@@ -1083,7 +1053,7 @@ Fügen Sie dann einfach die SSD zum Budget hinzu. Ausgehend von der Samsung 2TB 
 
 
 
-Wenn Sie über ein durchschnittliches Budget von etwa 300 Euro für den Rechner verfügen, der Ihren Knoten hosten soll, empfehle ich zum Beispiel einen *Lenovo ThinkCentre Tiny*, der mit einem leistungsstarken Prozessor und ausreichend Arbeitsspeicher ausgestattet ist. Ich habe bei Amazon ein generalüberholtes Modell für 180 € gefunden, das mit einem Intel Core i7-Prozessor der 6. Generation und 16 GB RAM ausgestattet ist. Zusammen mit der 2-TB-SSD für 120 Euro belaufen sich die Gesamtkosten auf 300 Euro.
+Wenn du über ein durchschnittliches Budget von etwa 300 Euro für den Rechner verfügen, der Ihren Node hosten soll, empfehle ich zum Beispiel einen *Lenovo ThinkCentre Tiny*, der mit einem leistungsstarken Prozessor und ausreichend Arbeitsspeicher ausgestattet ist. Ich habe bei Amazon ein generalüberholtes Modell für 180 € gefunden, das mit einem Intel Core i7-Prozessor der 6. Generation und 16 GB RAM ausgestattet ist. Zusammen mit der 2-TB-SSD für 120 Euro belaufen sich die Gesamtkosten auf 300 Euro.
 
 
 
@@ -1091,7 +1061,7 @@ Wenn Sie über ein durchschnittliches Budget von etwa 300 Euro für den Rechner 
 
 
 
-Mit dieser Maschine haben Sie eine komfortable Konfiguration: ein schnelles IBD und die Möglichkeit, zahlreiche Anwendungen auf Ihrem Umbrel oder Start9 ohne Schwierigkeiten auszuführen. Das ist genau die Konfiguration, die ich für diesen BTC 202 Kurs verwende.
+Mit dieser Maschine haben du eine komfortable Konfiguration: ein schnelles IBD und die Möglichkeit, zahlreiche Anwendungen auf Ihrem Umbrel oder Start9 ohne Schwierigkeiten auszuführen. Das ist genau die Konfiguration, die ich für diesen BTC 202 Kurs verwende.
 
 
 
@@ -1099,15 +1069,15 @@ Mit dieser Maschine haben Sie eine komfortable Konfiguration: ein schnelles IBD 
 
 
 
-Mit einem größeren Budget werden die Möglichkeiten deutlich größer. Sie können eine DIY-Konfiguration wählen oder sich sogar für eine vormontierte Maschine entscheiden, die direkt von einem node-in-a-box-Projekt angeboten wird.
+Mit einem größeren Budget werden die Möglichkeiten deutlich größer. du können eine DIY-Konfiguration wählen oder sich sogar für eine vormontierte Maschine entscheiden, die direkt von einem node-in-a-box-Projekt angeboten wird.
 
 
 
-Der *ASUS NUC 14 Pro* ist zum Beispiel neu bei Amazon für 540 € erhältlich. Für diesen Preis erhalten Sie einen Intel Core Ultra 5-Prozessor (aktuell und besonders leistungsstark), begleitet von 16 GB DDR5-RAM. Mit einer solchen Konfiguration können Sie eine IBD in Rekordzeit durchführen und anspruchsvolle Anwendungen problemlos installieren.
+Der *ASUS NUC 14 Pro* ist zum Beispiel neu bei Amazon für 540 € erhältlich. Für diesen Preis erhalten du einen Intel Core Ultra 5-Prozessor (aktuell und besonders leistungsstark), begleitet von 16 GB DDR5-RAM. Mit einer solchen Konfiguration können du eine IBD in Rekordzeit durchführen und anspruchsvolle Anwendungen problemlos installieren.
 
 
 
-Dies ist eine äußerst komfortable Konfiguration, sogar ein Overkill, wenn das ursprüngliche Ziel nur darin besteht, einen Bitcoin-Knoten zu betreiben. Wenn Sie hingegen alle Vorteile der auf Umbrel und Start9 verfügbaren selbst gehosteten Anwendungen nutzen wollen, ist diese Leistungsstufe genau richtig für Sie.
+Dies ist eine äußerst komfortable Konfiguration, sogar ein Overkill, wenn das ursprüngliche Ziel nur darin besteht, einen Bitcoin-Node zu betreiben. Wenn du hingegen alle Vorteile der auf Umbrel und Start9 verfügbaren selbst gehosteten Anwendungen nutzen wollen, ist diese Leistungsstufe genau richtig für du.
 
 
 
@@ -1115,7 +1085,7 @@ Dies ist eine äußerst komfortable Konfiguration, sogar ein Overkill, wenn das 
 
 
 
-Je nach Verwendungszweck können Sie sich entweder für eine 2-TB-SSD entscheiden, wie bei den anderen Konfigurationen, oder direkt für eine 4-TB-SSD für 260 €, wenn Sie auch persönliche Dateien speichern und Ihre Self-Hosting-Nutzung erweitern möchten. Mit einer 2-TB-SSD betragen die Gesamtkosten der Konfiguration 660 €, während sie mit einer 4-TB-SSD 800 € erreichen.
+Je nach Verwendungszweck können du sich entweder für eine 2-TB-SSD entscheiden, wie bei den anderen Konfigurationen, oder direkt für eine 4-TB-SSD für 260 €, wenn du auch persönliche Dateien speichern und Ihre Self-Hosting-Nutzung erweitern möchten. Mit einer 2-TB-SSD betragen die Gesamtkosten der Konfiguration 660 €, während sie mit einer 4-TB-SSD 800 € erreichen.
 
 
 
@@ -1125,31 +1095,31 @@ Je nach Verwendungszweck können Sie sich entweder für eine 2-TB-SSD entscheide
 
 
 
-- Wenn Sie gebrauchte Geräte kaufen und mit Bitcoins bezahlen möchten, kommen Sie zu einem Treffen in Ihrer Nähe! Wenn Sie sich mit anderen Teilnehmern austauschen, finden Sie mit Sicherheit passende Geräte zu einem guten Preis und tragen gleichzeitig dazu bei, die Kreislaufwirtschaft rund um Bitcoin am Leben zu erhalten. Es ist auch eine Gelegenheit, von den guten Ratschlägen der Gemeinschaft zu profitieren.
+- Wenn du gebrauchte Geräte kaufen und mit Bitcoins bezahlen möchten, kommen du zu einem Treffen in Ihrer Nähe! Wenn du sich mit anderen Teilnehmern austauschen, finden du mit Sicherheit passende Geräte zu einem guten Preis und tragen gleichzeitig dazu bei, die Kreislaufwirtschaft rund um Bitcoin am Leben zu erhalten. Es ist auch eine Gelegenheit, von den guten Ratschlägen der Gemeinschaft zu profitieren.
 
 
 
 
 
-- Für die Internetverbindung benötigen Sie natürlich ein RJ45-Ethernet-Kabel, zumindest für die Systeminstallation.
+- Für die Internetverbindung benötigen du natürlich ein RJ45-Ethernet-Kabel, zumindest für die Systeminstallation.
 
 
 
 
 
-- Einige Umgebungen wie Umbrel erlauben die Verwendung von Wi-Fi, aber die Leistung ist in der Regel schlechter (vor allem, wenn Sie Ihren Lightning-Knoten aus der Ferne verwenden möchten, da dies Auswirkungen haben kann). Wenn Sie sich für Wi-Fi entscheiden, vergewissern Sie sich, dass Ihr Rechner über eine integrierte Karte verfügt oder fügen Sie einen kompatiblen Dongle hinzu.
+- Einige Umgebungen wie Umbrel erlauben die Verwendung von Wi-Fi, aber die Leistung ist in der Regel schlechter (vor allem, wenn du Ihren Lightning-Node aus der Ferne verwenden möchten, da dies Auswirkungen haben kann). Wenn du sich für Wi-Fi entscheiden, vergewissern du sich, dass dein Rechner über eine integrierte Karte verfügt oder fügen du einen kompatiblen Dongle hinzu.
 
 
 
 
 
-- Verwenden Sie immer das Original-Netzgerät Supply des Herstellers für Ihr Gerät. Dies ist wichtig, um Schäden an Ihrem Gerät zu vermeiden und die Gefahr eines Brandes zu verhindern.
+- Verwenden du immer das Original-Netzgerät Supply des Herstellers für dein Gerät. Dies ist wichtig, um Schäden an Ihrem Gerät zu vermeiden und die Gefahr eines Brandes zu verhindern.
 
 
 
 
 
-- Wenn Ihre Maschine nicht über eine eingebaute Batterie verfügt, sollten Sie in einen Wechselrichter investieren, um plötzliche Abschaltungen zu vermeiden.
+- Wenn Ihre Maschine nicht über eine eingebaute Batterie verfügt, sollten du in einen Wechselrichter investieren, um plötzliche Abschaltungen zu vermeiden.
 
 
 
@@ -1161,11 +1131,11 @@ Je nach Verwendungszweck können Sie sich entweder für eine 2-TB-SSD entscheide
 
 
 
-- Denken Sie schließlich daran, die Kühlung Ihres Rechners zu optimieren: Reinigen Sie ihn regelmäßig und stellen Sie ihn an einem kühlen, gut belüfteten und übersichtlichen Ort auf, um eine Überhitzung zu vermeiden, die zu einer Drosselung (freiwillige Begrenzung der Geschwindigkeit Ihres Prozessors) führen könnte.
+- Denken du schließlich daran, die Kühlung Ihres Rechners zu optimieren: Reinigen du ihn regelmäßig und stellen du ihn an einem kühlen, gut belüfteten und übersichtlichen Ort auf, um eine Überhitzung zu vermeiden, die zu einer Drosselung (freiwillige Begrenzung der Geschwindigkeit Ihres Prozessors) führen könnte.
 
 
 
-# Einfache Installation eines Bitcoin-Knotens
+# Einfache Installation eines Bitcoin-Node
 
 
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
@@ -1173,18 +1143,18 @@ Je nach Verwendungszweck können Sie sich entweder für eine 2-TB-SSD entscheide
 
 
 
-## Umbrel: viel mehr als ein Bitcoin-Knoten
+## Umbrel: viel mehr als ein Bitcoin-Node
 
 
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
 
 
-Umbrel ist ein persönliches Server-Betriebssystem, das entwickelt wurde, um Self-Hosting zugänglich zu machen: Sie installieren Umbrel, öffnen einen Browser auf `umbrel.local`, und verwalten alles über einen einfachen Remote-Interface.
+Umbrel ist ein persönliches Server-Betriebssystem, das entwickelt wurde, um Self-Hosting zugänglich zu machen: du installieren Umbrel, öffnen einen Browser auf `umbrel.local`, und verwalten alles über einen einfachen Remote-Interface.
 
 
 
-Das Projekt machte zunächst die Idee eines Bitcoin- und Lightning-Knotens mit nur einem Klick populär und entwickelte sich dann zu einer echten "Home Cloud": Datei- und Fotospeicherung, Multimedia-Streaming, Netzwerk-Tools, Heimautomatisierung, lokale KI und Hunderte von Apps, die über einen integrierten App Store installiert werden können.
+Das Projekt machte zunächst die Idee eines Bitcoin- und Lightning-Node mit nur einem Klick populär und entwickelte sich dann zu einer echten "Home Cloud": Datei- und Fotospeicherung, Multimedia-Streaming, Netzwerk-Tools, Heimautomatisierung, lokale KI und Hunderte von Apps, die über einen integrierten App Store installiert werden können.
 
 
 
@@ -1192,7 +1162,7 @@ In Umbrel läuft jede Anwendung in einem Docker-Container (Isolierung, atomare U
 
 
 
-Das Ziel von Umbrel ist es daher, Ihnen die Kontrolle und die Vertraulichkeit Ihrer Daten zurückzugeben, ohne auf Cloud-Dienste angewiesen zu sein, und zwar über den einfachen Betrieb eines Bitcoin-Knotens hinaus.
+Das Ziel von Umbrel ist es daher, dir die Kontrolle und die Vertraulichkeit Ihrer Daten zurückzugeben, ohne auf Cloud-Dienste angewiesen zu sein, und zwar über den einfachen Betrieb eines Bitcoin-Node hinaus.
 
 
 
@@ -1206,7 +1176,7 @@ Umbrel bietet zwei unterschiedliche Ansätze:
 
 
 
-- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. Sie bestellen es, schließen es an und gehen zu `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. du bestellen es, schließen es an und gehen zu `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
 
 
 
@@ -1216,7 +1186,7 @@ Umbrel bietet zwei unterschiedliche Ansätze:
 
 
 
-- [**umbrelOS**](https://umbrel.com/umbrelos): Dies ist das Betriebssystem, das Sie selbst auf Ihrer eigenen Hardware installieren können (Mini-PC, NUC, Tower, dedizierter Laptop...). Sie haben denselben Interface und denselben App Store wie bei Umbrel Home.
+- [**umbrelOS**](https://umbrel.com/umbrelos): Dies ist das Betriebssystem, das du selbst auf Ihrer eigenen Hardware installieren können (Mini-PC, NUC, Tower, dedizierter Laptop...). du haben denselben Interface und denselben App Store wie bei Umbrel Home.
 
 
 
@@ -1232,11 +1202,11 @@ In beiden Fällen ist die Benutzererfahrung auf der Softwareseite identisch: bro
 
 
 
-Im nächsten Kapitel werden wir uns damit beschäftigen, wie Sie UmbrelOS DIY auf Ihrem eigenen Rechner installieren können. Sie können diesen BTC 202 Kurs jedoch auf die gleiche Weise verfolgen, wenn Sie sich für ein Umbrel Home entschieden haben.
+Im nächsten Kapitel werden wir uns damit beschäftigen, wie du UmbrelOS DIY auf Ihrem eigenen Rechner installieren können. du können diesen BTC 202 Kurs jedoch auf die gleiche Weise verfolgen, wenn du sich für ein Umbrel Home entschieden haben.
 
 
 
-### Anwendungsfall: vom Bitcoin-Knoten zur Home Cloud
+### Anwendungsfall: vom Bitcoin-Node zur Home Cloud
 
 
 
@@ -1246,7 +1216,7 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Einfacher Bitcoin-Knoten**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin core (oder Knots) laufen lassen, deine Wallets direkt mit deinem Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um den Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
+- Einfacher Bitcoin-Node**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin core (oder Knots) laufen lassen, deine Wallets direkt mit deinem Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um den Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
 
 
 
@@ -1256,7 +1226,7 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Lightning Network**: Mit Umbrel können Sie auch LND oder Core Lightning, zwei Implementierungen des Lightning Network, einsetzen, um Ihren eigenen Lightning-Knoten zu verwalten. Sie können Kanäle öffnen, Ihre Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, einen entfernten Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
+- Lightning Network**: Mit Umbrel können du auch LND oder Core Lightning, zwei Implementierungen des Lightning Network, einsetzen, um Ihren eigenen Lightning-Node zu verwalten. du können Kanäle öffnen, Ihre Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, einen entfernten Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
 
 
 
@@ -1266,11 +1236,11 @@ Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin kon
 
 
 
-- Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann Ihr persönlicher Server werden, der es Ihnen ermöglicht, die Kontrolle über Ihre Daten zurückzugewinnen. Sie hosten die Dienste, die Sie täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während Sie die volle Kontrolle über Ihre Daten und Ihre Privatsphäre behalten.
+- Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann dein persönlicher Server werden, der es dir ermöglicht, die Kontrolle über Ihre Daten zurückzugewinnen. du hosten die Dienste, die du täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während du die volle Kontrolle über Ihre Daten und Ihre Privatsphäre behalten.
 
 
 
-Durch die Bereitstellung von Anwendungen in Containern können Sie Umbrel so gestalten, wie Sie es wünschen: Beginnen Sie mit einem einfachen Bitcoin-Knoten und einigen Anwendungen, die mit seinem Ökosystem verbunden sind, installieren Sie dann einen Lightning-Knoten neben Ihrem Bitcoin-Knoten und erweitern Sie Ihre Instanz nach und nach mit den selbst gehosteten Anwendungen, die Sie benötigen.
+Durch die Bereitstellung von Anwendungen in Containern können du Umbrel so gestalten, wie du es wünschen: Beginnen du mit einem einfachen Bitcoin-Node und einigen Anwendungen, die mit seinem Ökosystem verbunden sind, installieren du dann einen Lightning-Node neben Ihrem Bitcoin-Node und erweitern du Ihre Instanz nach und nach mit den selbst gehosteten Anwendungen, die du benötigen.
 
 
 
@@ -1278,7 +1248,7 @@ Durch die Bereitstellung von Anwendungen in Containern können Sie Umbrel so ges
 
 
 
-Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord](https://discord.gg/efNtFzqtdx) und [ihr Online-Forum](https://community.umbrel.com/) erreichen. Hier finden Sie nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit Sie mit Ihrem Coin nicht allein gelassen werden.
+Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord](https://discord.gg/efNtFzqtdx) und [ihr Online-Forum](https://community.umbrel.com/) erreichen. Hier finden du nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit du mit Ihrem Coin nicht allein gelassen werden.
 
 
 
@@ -1290,11 +1260,11 @@ Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine gro�
 
 
 
-Der Code von Umbrel ist öffentlich zugänglich (Sie können ihn ansehen, Fork, und verändern), aber er steht nicht unter einer echten Open-Source-Lizenz. Tatsächlich wird umbrelOS unter der [*PolyForm Noncommercial 1.0*] Lizenz (https://polyformproject.org/licenses/noncommercial/1.0.0/) vertrieben, obwohl einige zugehörige Entwicklungswerkzeuge unter der MIT-Lizenz verfügbar sind.
+Der Code von Umbrel ist öffentlich zugänglich (du können ihn ansehen, Fork, und verändern), aber er steht nicht unter einer echten Open-Source-Lizenz. Tatsächlich wird umbrelOS unter der [*PolyForm Noncommercial 1.0*] Lizenz (https://polyformproject.org/licenses/noncommercial/1.0.0/) vertrieben, obwohl einige zugehörige Entwicklungswerkzeuge unter der MIT-Lizenz verfügbar sind.
 
 
 
-Praktisch gesehen können Sie mit umbrelOS so ziemlich alles machen, was Sie wollen, solange es für den persönlichen, nicht-kommerziellen Gebrauch ist: Modifikation, Weitergabe für nicht-kommerzielle Zwecke, Erstellung von Derivaten für Sie selbst oder für nicht-kommerzielle Organisationen, vorausgesetzt, Sie respektieren die rechtlichen Hinweise.
+Praktisch gesehen können du mit umbrelOS so ziemlich alles machen, was du wollen, solange es für den persönlichen, nicht-kommerziellen Gebrauch ist: Modifikation, Weitergabe für nicht-kommerzielle Zwecke, Erstellung von Derivaten für du selbst oder für nicht-kommerzielle Organisationen, vorausgesetzt, du respektieren die rechtlichen Hinweise.
 
 
 
@@ -1318,7 +1288,7 @@ Allerdings behält jede Anwendung im Store ihre eigene Lizenz, die häufig Open 
 
 
 
-Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit den Details zu befassen. In diesem Tutorial zeigen wir Ihnen, wie Sie einen kompletten Bitcoin Knoten mit UmbrelOS installieren.
+Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit den Details zu befassen. In diesem Tutorial zeigen wir dir, wie du einen kompletten Bitcoin Node mit UmbrelOS installieren.
 
 
 
@@ -1326,17 +1296,17 @@ Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit d
 
 
 
-Hier verwenden wir das UmbrelOS x86-Image (genauer gesagt, die x86_64-Version). Sie können diese Anleitung auf jedem Rechner Ihrer Wahl durchführen, solange er nicht mit einem Prozessor der ARM-Architektur ausgestattet ist (kein Apple Silicon, Raspberry Pi, etc.). Das bedeutet, dass jeder Computer mit einem Intel- oder AMD-64-Bit-Prozessor ausreicht, solange er die Mindestanforderungen erfüllt, je nachdem, wie Sie Ihren Umbrel verwenden wollen (mindestens ein Dual-Core-Prozessor wird empfohlen).
+Hier verwenden wir das UmbrelOS x86-Image (genauer gesagt, die x86_64-Version). du können diese Anleitung auf jedem Rechner Ihrer Wahl durchführen, solange er nicht mit einem Prozessor der ARM-Architektur ausgestattet ist (kein Apple Silicon, Raspberry Pi, etc.). Das bedeutet, dass jeder Computer mit einem Intel- oder AMD-64-Bit-Prozessor ausreicht, solange er die Mindestanforderungen erfüllt, je nachdem, wie du Ihren Umbrel verwenden wollen (mindestens ein Dual-Core-Prozessor wird empfohlen).
 
 
 
-Wenn Sie sich für einen Raspberry Pi 5 entschieden haben (eine Option, die ich nicht empfehle, wie im vorherigen Abschnitt erwähnt), ist die Installation etwas anders. Sie können dann dieser speziellen Anleitung folgen und zu meinem Kurs zurückkehren, sobald Sie auf der Interface Webseite `http://umbrel.local` sind:
+Wenn du sich für einen Raspberry Pi 5 entschieden haben (eine Option, die ich nicht empfehle, wie im vorherigen Abschnitt erwähnt), ist die Installation etwas anders. du können dann dieser speziellen Anleitung folgen und zu meinem Kurs zurückkehren, sobald du auf der Interface Webseite `http://umbrel.local` sind:
 
 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Wie im vorherigen Abschnitt erwähnt, habe ich mich entschieden, dieses Tutorial auf einem kleinen renovierten PC auszuführen, den ich zu einem guten Preis gefunden habe: ein *Lenovo ThinkCentre M900 Tiny*, ausgestattet mit einem Intel Core i7 Prozessor und 16 GB RAM. Dies ist eine sehr komfortable Konfiguration für den Betrieb von Umbrel, insbesondere für einen Bitcoin Knoten. Ich habe mich jedoch für diese Konfiguration entschieden, weil ich später einen Lightning-Knoten und andere anspruchsvollere Anwendungen installieren möchte. Ich habe auch eine 2TB SSD zu meinem ThinkCentre hinzugefügt, um den vollen Blockchain zu behalten und immer noch eine komfortable Marge zu haben. Mit dieser Konfiguration belaufen sich die Gesamtkosten auf 270 €, einschließlich aller Ausgaben.
+Wie im vorherigen Abschnitt erwähnt, habe ich mich entschieden, dieses Tutorial auf einem kleinen renovierten PC auszuführen, den ich zu einem guten Preis gefunden habe: ein *Lenovo ThinkCentre M900 Tiny*, ausgestattet mit einem Intel Core i7 Prozessor und 16 GB RAM. Dies ist eine sehr komfortable Konfiguration für den Betrieb von Umbrel, insbesondere für einen Bitcoin Node. Ich habe mich jedoch für diese Konfiguration entschieden, weil ich später einen Lightning-Node und andere anspruchsvollere Anwendungen installieren möchte. Ich habe auch eine 2TB SSD zu meinem ThinkCentre hinzugefügt, um den vollen Blockchain zu behalten und immer noch eine komfortable Marge zu haben. Mit dieser Konfiguration belaufen sich die Gesamtkosten auf 270 €, einschließlich aller Ausgaben.
 
 
 
@@ -1348,7 +1318,7 @@ Die ThinkCentre Tiny-Reihe von Lenovo hat es mir besonders angetan, denn es sind
 
 
 
-Wenn Sie sich, wie ich, für einen PC ohne Monitor entschieden haben, müssen Sie **nur für die Dauer der Installation einen Monitor und eine Tastatur** anschließen. Danach können Sie von einem anderen Computer im selben Netzwerk (oder über andere Methoden, die wir in späteren Kapiteln behandeln werden) auf den PC zugreifen. Sie benötigen außerdem ein RJ45-Ethernet-Kabel, um Ihren Rechner mit dem lokalen Netzwerk zu verbinden, und einen USB-Stick mit mindestens 4 GB, um das Installations-Image zu speichern.
+Wenn du sich, wie ich, für einen PC ohne Monitor entschieden haben, müssen du **nur für die Dauer der Installation einen Monitor und eine Tastatur** anschließen. Danach können du von einem anderen Computer im selben Netzwerk (oder über andere Methoden, die wir in späteren Kapiteln behandeln werden) auf den PC zugreifen. du benötigen außerdem ein RJ45-Ethernet-Kabel, um Ihren Rechner mit dem lokalen Netzwerk zu verbinden, und einen USB-Stick mit mindestens 4 GB, um das Installations-Image zu speichern.
 
 
 
@@ -1370,7 +1340,7 @@ Hier noch einmal die Anforderungen an die Ausrüstung:
 
 
 
-Je nach der von Ihnen gewählten Hardware müssen Sie zunächst die verschiedenen Komponenten Ihres Computers zusammenbauen. In meinem Fall hatte die ursprüngliche SSD zum Beispiel nur eine Kapazität von 256 GB, also werde ich sie für eine andere Verwendung recyceln und durch eine 2-TB-SSD ersetzen. Wenn Sie auch die RAM-Module ersetzen möchten, ist jetzt der richtige Zeitpunkt dafür.
+Je nach der von dir gewählten Hardware müssen du zunächst die verschiedenen Komponenten Ihres Computers zusammenbauen. In meinem Fall hatte die ursprüngliche SSD zum Beispiel nur eine Kapazität von 256 GB, also werde ich sie für eine andere Verwendung recyceln und durch eine 2-TB-SSD ersetzen. Wenn du auch die RAM-Module ersetzen möchten, ist jetzt der richtige Zeitpunkt dafür.
 
 
 
@@ -1378,17 +1348,17 @@ Je nach der von Ihnen gewählten Hardware müssen Sie zunächst die verschiedene
 
 
 
-Bevor Sie UmbrelOS auf Ihrem Rechner installieren, müssen Sie einen bootfähigen USB-Stick erstellen, der das Betriebssystem enthält. Alle Schritte in Schritt 2 müssen auf Ihrem persönlichen Computer durchgeführt werden (und nicht direkt auf dem Computer, der Ihr Knoten werden soll).
+Bevor du UmbrelOS auf Ihrem Rechner installieren, müssen du einen bootfähigen USB-Stick erstellen, der das Betriebssystem enthält. Alle Schritte in Schritt 2 müssen auf Ihrem persönlichen Computer durchgeführt werden (und nicht direkt auf dem Computer, der dein Node werden soll).
 
 
 
 
 
-- Laden Sie zunächst die neueste Version von UmbrelOS im USB-Format herunter:
+- Laden du zunächst die neueste Version von UmbrelOS im USB-Format herunter:
 
 
 
-Gehen Sie auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stellen Sie sicher, dass Sie die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
+Gehen du auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stellen du sicher, dass du die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
 
 
 
@@ -1402,7 +1372,7 @@ Gehen Sie auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](
 
 
 
-Um den bootfähigen USB-Stick zu erstellen, verwenden Sie ein einfaches, plattformübergreifendes Tool namens [Balena Etcher](https://www.balena.io/etcher/). Laden Sie es herunter und installieren Sie es auf Ihrem Computer.
+Um den bootfähigen USB-Stick zu erstellen, verwenden du ein einfaches, plattformübergreifendes Tool namens [Balena Etcher](https://www.balena.io/etcher/). Laden du es herunter und installieren du es auf Ihrem Computer.
 
 
 
@@ -1412,21 +1382,21 @@ Um den bootfähigen USB-Stick zu erstellen, verwenden Sie ein einfaches, plattfo
 
 
 
-- Stecken Sie einen leeren USB-Stick mit mindestens 4 GB ein:
+- Stecken du einen leeren USB-Stick mit mindestens 4 GB ein:
 
 
 
-Schließen Sie einen USB-Stick an Ihren Computer an (denjenigen, auf den Sie gerade das UmbrelOS und das Balena Etcher Image heruntergeladen haben). **Warnung: alle Daten auf dem Stick werden gelöscht**. Vergewissere dich, dass er keine wichtigen Dateien enthält.
+Schließen du einen USB-Stick an Ihren Computer an (denjenigen, auf den du gerade das UmbrelOS und das Balena Etcher Image heruntergeladen haben). **Warnung: alle Daten auf dem Stick werden gelöscht**. Vergewissere dich, dass er keine wichtigen Dateien enthält.
 
 
 
 
 
-- Brennen Sie das ISO-Image mit Balena Etcher auf den USB-Stick:
+- Brennen du das ISO-Image mit Balena Etcher auf den USB-Stick:
 
 
 
-Starten Sie den Balena Etcher und wählen Sie die soeben heruntergeladene ISO-Datei "umbrelos-amd64-usb-installer.iso", indem Sie auf die Schaltfläche "*Flash aus Datei*" klicken. Wählen Sie dann den USB-Stick als Zielgerät und klicken Sie auf "*Flash!*", um mit dem Schreiben zu beginnen.
+Starten du den Balena Etcher und wählen du die soeben heruntergeladene ISO-Datei "umbrelos-amd64-usb-installer.iso", indem du auf die Schaltfläche "*Flash aus Datei*" klicken. Wählen du dann den USB-Stick als Zielgerät und klicken du auf "*Flash!*", um mit dem Schreiben zu beginnen.
 
 
 
@@ -1446,19 +1416,19 @@ Sobald der Vorgang abgeschlossen ist, hast du einen bootfähigen USB-Stick, der 
 
 
 
-Jetzt, wo Ihr bootfähiger USB-Stick mit UmbrelOS fertig ist, können Sie Ihren Computer damit booten, um die Systeminstallation zu starten. Trennen Sie den USB-Stick von Ihrem Hauptrechner und stecken Sie ihn in das Gerät, auf dem Sie Umbrel und Ihren Bitcoin Knoten installieren möchten.
+Jetzt, wo dein bootfähiger USB-Stick mit UmbrelOS fertig ist, können du Ihren Computer damit booten, um die Systeminstallation zu starten. Trennen du den USB-Stick von Ihrem Hauptrechner und stecken du ihn in das Gerät, auf dem du Umbrel und Ihren Bitcoin Node installieren möchten.
 
 
 
-Wie zu Beginn dieses Kapitels erläutert, benötigen Sie zum Abschluss der Installation ein Anzeigegerät und ein Eingabegerät. Schließen Sie einen Bildschirm über HDMI (oder einen anderen Anschluss, je nach Ihrem PC) und eine Tastatur über USB an Ihren Rechner an. Diese Geräte werden nur für die Installation benötigt; danach brauchen Sie sie nicht mehr, da der Zugriff auf Umbrel von einem anderen Computer aus erfolgt. Schließen Sie diese beiden Geräte an Ihren PC an.
+Wie zu Beginn dieses Kapitels erläutert, benötigen du zum Abschluss der Installation ein Anzeigegerät und ein Eingabegerät. Schließen du einen Bildschirm über HDMI (oder einen anderen Anschluss, je nach Ihrem PC) und eine Tastatur über USB an Ihren Rechner an. Diese Geräte werden nur für die Installation benötigt; danach brauchen du sie nicht mehr, da der Zugriff auf Umbrel von einem anderen Computer aus erfolgt. Schließen du diese beiden Geräte an Ihren PC an.
 
 
 
-**Tipp:** Wenn Sie keinen peripheren Bildschirm zu Hause haben, können Sie Ihren Fernseher verwenden. Mit seinem HDMI-Eingang (oder einem anderen) kann er als vorübergehender Bildschirm verwendet werden, während Sie das Betriebssystem installieren.
+**Tipp:** Wenn du keinen peripheren Bildschirm zu Hause haben, können du Ihren Fernseher verwenden. Mit seinem HDMI-Eingang (oder einem anderen) kann er als vorübergehender Bildschirm verwendet werden, während du das Betriebssystem installieren.
 
 
 
-Umbrel benötigt natürlich eine Internetverbindung. Schließen Sie das RJ45-Ethernet-Kabel zwischen Ihrem Gerät und Ihrem Router an.
+Umbrel benötigt natürlich eine Internetverbindung. Schließen du das RJ45-Ethernet-Kabel zwischen Ihrem Gerät und Ihrem Router an.
 
 
 
@@ -1466,23 +1436,23 @@ Umbrel benötigt natürlich eine Internetverbindung. Schließen Sie das RJ45-Eth
 
 
 
-Schalten Sie Ihren Rechner ein. In den meisten Fällen sollte er den USB-Stick automatisch erkennen und von ihm booten. Sie sehen dann den UmbrelOS Interface Installationsbildschirm.
+Schalten du Ihren Rechner ein. In den meisten Fällen sollte er den USB-Stick automatisch erkennen und von ihm booten. du sehen dann den UmbrelOS Interface Installationsbildschirm.
 
 
 
-Wenn das Gerät auf einem anderen System bootet oder eine Fehlermeldung anzeigt, bedeutet dies wahrscheinlich, dass es nicht automatisch vom USB-Stick bootet. Starten Sie in diesem Fall neu und rufen Sie die BIOS/UEFI-Einstellungen auf (je nach Computerhersteller in der Regel durch Drücken von `DEL`, `F2`, `F12` oder `ESC`). Ändern Sie dann die Bootreihenfolge so, dass der USB-Stick Vorrang hat. Dann starten Sie das Gerät neu, um UmbrelOS zu starten.
+Wenn das Gerät auf einem anderen System bootet oder eine Fehlermeldung anzeigt, bedeutet dies wahrscheinlich, dass es nicht automatisch vom USB-Stick bootet. Starten du in diesem Fall neu und rufen du die BIOS/UEFI-Einstellungen auf (je nach Computerhersteller in der Regel durch Drücken von `DEL`, `F2`, `F12` oder `ESC`). Ändern du dann die Bootreihenfolge so, dass der USB-Stick Vorrang hat. Dann starten du das Gerät neu, um UmbrelOS zu starten.
 
 
 
-### Schritt 4: Installieren Sie UmbrelOS auf Ihrem Computer
+### Schritt 4: Installieren du UmbrelOS auf Ihrem Computer
 
 
 
-Sobald das Gerät vom USB-Stick gebootet hat, werden Sie von der Interface UmbrelOS-Installation begrüßt. In diesem Schritt wird das System direkt auf der internen Festplatte des Hard installiert.
+Sobald das Gerät vom USB-Stick gebootet hat, werden du von der Interface UmbrelOS-Installation begrüßt. In diesem Schritt wird das System direkt auf der internen Festplatte des Hard installiert.
 
 
 
-Auf dem nun erscheinenden Bildschirm werden alle vom Computer erkannten internen Speichergeräte aufgelistet. Jeder Datenträger ist mit einer Nummer, einem Namen und einer Speicherkapazität versehen. Suchen Sie den Datenträger, auf dem Sie Umbrel installieren möchten. **Warnung: Alle Dateien auf diesem Laufwerk werden dauerhaft gelöscht.**
+Auf dem nun erscheinenden Bildschirm werden alle vom Computer erkannten internen Speichergeräte aufgelistet. Jeder Datenträger ist mit einer Nummer, einem Namen und einer Speicherkapazität versehen. Suchen du den Datenträger, auf dem du Umbrel installieren möchten. **Warnung: Alle Dateien auf diesem Laufwerk werden dauerhaft gelöscht.**
 
 
 
@@ -1490,7 +1460,7 @@ Auf dem nun erscheinenden Bildschirm werden alle vom Computer erkannten internen
 
 
 
-Wenn Sie die richtige Festplatte gefunden haben (in der Regel die mit der größten Kapazität, um den Blockchain aufzunehmen), notieren Sie die ihr zugewiesene Nummer. Wenn die von Ihnen gewählte Platte beispielsweise unter der Nummer "2" erscheint, geben Sie einfach "2" ein und drücken dann die Eingabetaste auf der Tastatur.
+Wenn du die richtige Festplatte gefunden haben (in der Regel die mit der größten Kapazität, um den Blockchain aufzunehmen), notieren du die ihr zugewiesene Nummer. Wenn die von dir gewählte Platte beispielsweise unter der Nummer "2" erscheint, geben du einfach "2" ein und drücken dann die Eingabetaste auf der Tastatur.
 
 
 
@@ -1498,7 +1468,7 @@ Wenn Sie die richtige Festplatte gefunden haben (in der Regel die mit der größ
 
 
 
-Das Programm formatiert die ausgewählte Festplatte, installiert UmbrelOS und konfiguriert das System automatisch. Dies kann ein paar Minuten dauern. Lassen Sie den Prozess ohne Unterbrechung laufen.
+Das Programm formatiert die ausgewählte Festplatte, installiert UmbrelOS und konfiguriert das System automatisch. Dies kann ein paar Minuten dauern. Lassen du den Prozess ohne Unterbrechung laufen.
 
 
 
@@ -1506,7 +1476,7 @@ Das Programm formatiert die ausgewählte Festplatte, installiert UmbrelOS und ko
 
 
 
-Wenn die Installation abgeschlossen ist, werden Sie aufgefordert, das Gerät auszuschalten. Drücken Sie eine beliebige Taste, um den Computer auszuschalten.
+Wenn die Installation abgeschlossen ist, werden du aufgefordert, das Gerät auszuschalten. Drücken du eine beliebige Taste, um den Computer auszuschalten.
 
 
 
@@ -1514,7 +1484,7 @@ Wenn die Installation abgeschlossen ist, werden Sie aufgefordert, das Gerät aus
 
 
 
-Sie können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie für Ihren Umbrel nicht mehr benötigt werden. Alles, was von Ihrem Knoten übrig bleibt, ist der Strom Supply und das RJ45-Ethernet-Kabel.
+du können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie für Ihren Umbrel nicht mehr benötigt werden. Alles, was von Ihrem Node übrig bleibt, ist der Strom Supply und das RJ45-Ethernet-Kabel.
 
 
 
@@ -1522,7 +1492,7 @@ Sie können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie
 
 
 
-Überprüfen Sie vor dem Neustart des Geräts die beiden folgenden Punkte:
+Überprüfen du vor dem Neustart des Geräts die beiden folgenden Punkte:
 
 
 
@@ -1533,11 +1503,11 @@ Sie können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie
 
 
 
-Drücken Sie den Einschaltknopf. Das System bootet automatisch von der internen Festplatte, auf der UmbrelOS installiert wurde. Der erste Startvorgang kann etwa **5 Minuten** dauern. Während dieser Zeit initialisiert Umbrel seine Dienste und das Interface.
+Drücken du den Einschaltknopf. Das System bootet automatisch von der internen Festplatte, auf der UmbrelOS installiert wurde. Der erste Startvorgang kann etwa **5 Minuten** dauern. Während dieser Zeit initialisiert Umbrel seine Dienste und das Interface.
 
 
 
-Öffnen Sie von einem anderen Computer (Ihrem normalen PC), der an das **gleiche lokale Netzwerk** angeschlossen ist, einen Webbrowser (Firefox, Chrome...) und gehen Sie zu:
+Öffnen du von einem anderen Computer (Ihrem normalen PC), der an das **gleiche lokale Netzwerk** angeschlossen ist, einen Webbrowser (Firefox, Chrome...) und gehen du zu:
 
 
 
@@ -1551,7 +1521,7 @@ Dieses Address wird verwendet, um aus der Ferne auf das grafische Benutzer-Inter
 
 
 
-Wenn der Address `http://umbrel.local` nach mindestens 5 Minuten Wartezeit in Ihrem Browser nicht funktioniert, versuchen Sie es einfach:
+Wenn der Address `http://umbrel.local` nach mindestens 5 Minuten Wartezeit in Ihrem Browser nicht funktioniert, versuchen du es einfach:
 
 
 
@@ -1561,7 +1531,7 @@ http://umbrel
 
 
 
-Wenn das immer noch nicht funktioniert, gib die lokale IP Address deines Umbrel direkt in den Browser ein. Zum Beispiel (ersetzen Sie `42` mit der Nummer Ihres Rechners, auf dem Umbrel im lokalen Netzwerk läuft):
+Wenn das immer noch nicht funktioniert, gib die lokale IP Address deines Umbrel direkt in den Browser ein. Zum Beispiel (ersetzen du `42` mit der Nummer Ihres Rechners, auf dem Umbrel im lokalen Netzwerk läuft):
 
 
 
@@ -1571,19 +1541,19 @@ http://192.168.1.42
 
 
 
-Um Ihr Umbrel's IP Address zu identifizieren, gibt es mehrere Methoden, von der einfachsten bis zur fortschrittlichsten:
+Um dein Umbrel's IP Address zu identifizieren, gibt es mehrere Methoden, von der einfachsten bis zur fortschrittlichsten:
 
 
 
 
 
-- Greifen Sie auf die Verwaltung Ihres Routers Interface zu und suchen Sie die IP Address des Umbrel-Geräts im lokalen Netz.
+- Greifen du auf die Verwaltung Ihres Routers Interface zu und suchen du die IP Address des Umbrel-Geräts im lokalen Netz.
 
 
 
 
 
-- Verwenden Sie eine Netzwerk-Scan-Software wie Angry IP Scanner, um angeschlossene Geräte zu erkennen und den IP Address von Umbrel zu lokalisieren.
+- Verwenden du eine Netzwerk-Scan-Software wie Angry IP Scanner, um angeschlossene Geräte zu erkennen und den IP Address von Umbrel zu lokalisieren.
 
 
 
@@ -1595,7 +1565,7 @@ https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-- Als letzten Ausweg schließen Sie einen Monitor und eine Tastatur wieder an das Gerät an, melden Sie sich an (Standardanmeldung: `umbrel`, Kennwort: `umbrel`) und geben Sie den folgenden Befehl ein:
+- Als letzten Ausweg schließen du einen Monitor und eine Tastatur wieder an das Gerät an, melden du sich an (Standardanmeldung: `umbrel`, Kennwort: `umbrel`) und geben du den folgenden Befehl ein:
 
 
 
@@ -1605,7 +1575,7 @@ hostname -I
 
 
 
-Jetzt sind Sie bereit, Umbrel zu benutzen!
+Jetzt sind du bereit, Umbrel zu benutzen!
 
 
 
@@ -1613,7 +1583,7 @@ Jetzt sind Sie bereit, Umbrel zu benutzen!
 
 
 
-Um mit der Konfiguration Ihres Umbrel zu beginnen, klicken Sie auf die Schaltfläche "*Start*".
+Um mit der Konfiguration Ihres Umbrel zu beginnen, klicken du auf die Schaltfläche "*Start*".
 
 
 
@@ -1625,11 +1595,11 @@ Um mit der Konfiguration Ihres Umbrel zu beginnen, klicken Sie auf die Schaltfl�
 
 
 
-Wählen Sie ein Pseudonym oder geben Sie Ihren Namen ein und legen Sie dann ein sicheres Passwort fest. Seien Sie vorsichtig: Dieses Passwort ist die einzige Barriere, die den Zugang zu Ihrem Umbrel von Ihrem Netzwerk aus schützt (und damit möglicherweise auch zu Ihren Bitcoins, wenn Sie einen Lightning-Knoten auf Umbrel betreiben). Es schützt auch den Fernzugriff über Tor oder VPN, wenn diese Dienste aktiviert sind.
+Wählen du ein Pseudonym oder geben du Ihren Namen ein und legen du dann ein sicheres Passwort fest. Seien du vorsichtig: Dieses Passwort ist die einzige Barriere, die den Zugang zu Ihrem Umbrel von Ihrem Netzwerk aus schützt (und damit möglicherweise auch zu Ihren Bitcoins, wenn du einen Lightning-Node auf Umbrel betreiben). Es schützt auch den Fernzugriff über Tor oder VPN, wenn diese Dienste aktiviert sind.
 
 
 
-Wählen Sie ein sicheres Passwort und stellen Sie sicher, dass Sie mindestens eine Sicherungskopie aufbewahren (ein Passwortmanager wird empfohlen).
+Wählen du ein sicheres Passwort und stellen du sicher, dass du mindestens eine Sicherungskopie aufbewahren (ein Passwortmanager wird empfohlen).
 
 
 
@@ -1637,7 +1607,7 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Sobald Sie Ihr Passwort eingegeben haben, klicken Sie auf die Schaltfläche "*Erstellen*".
+Sobald du dein Passwort eingegeben haben, klicken du auf die Schaltfläche "*Erstellen*".
 
 
 
@@ -1663,7 +1633,7 @@ Der Interface von Umbrel ist ziemlich intuitiv:
 
 
 
-- Auf der Startseite können Sie Ihre installierten Anwendungen und Widgets anzeigen.
+- Auf der Startseite können du Ihre installierten Anwendungen und Widgets anzeigen.
 
 
 
@@ -1673,7 +1643,7 @@ Der Interface von Umbrel ist ziemlich intuitiv:
 
 
 
-- Im "*App Store*" können Sie neue Anwendungen installieren,
+- Im "*App Store*" können du neue Anwendungen installieren,
 
 
 
@@ -1693,11 +1663,11 @@ Der Interface von Umbrel ist ziemlich intuitiv:
 
 
 
-- Über das Menü "*Einstellungen*" können Sie die Einstellungen Ihres Umbrel ändern und auf seine Informationen zugreifen:
-    - Aktualisieren Sie Ihr Gerät, starten Sie es neu oder stoppen Sie es;
-    - Prüfen Sie den verfügbaren Speicherplatz, die RAM-Auslastung und die Prozessortemperatur;
+- Über das Menü "*Einstellungen*" können du die Einstellungen Ihres Umbrel ändern und auf seine Informationen zugreifen:
+    - Aktualisieren du dein Gerät, starten du es neu oder stoppen du es;
+    - Prüfen du den verfügbaren Speicherplatz, die RAM-Auslastung und die Prozessortemperatur;
     - Hintergrundbild ändern;
-    - Verwalten Sie den Fernzugriff über Tor, aktivieren Sie Wi-Fi oder 2FA.
+    - Verwalten du den Fernzugriff über Tor, aktivieren du Wi-Fi oder 2FA.
 
 
 
@@ -1709,13 +1679,13 @@ Der Interface von Umbrel ist ziemlich intuitiv:
 
 
 
-Zuallererst empfehle ich dringend, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Dies fügt Ihrem Passwort ein zusätzliches Layer an Sicherheit hinzu. Sie ist fast unverzichtbar, wenn Sie Ihren Umbrel zum Speichern persönlicher Dateien, zum Betreiben eines Lightning Nodes oder für andere sensible Aktivitäten nutzen wollen.
+Zuallererst empfehle ich dringend, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Dies fügt Ihrem Passwort ein zusätzliches Layer an Sicherheit hinzu. du ist fast unverzichtbar, wenn du Ihren Umbrel zum Speichern persönlicher Dateien, zum Betreiben eines Lightning Nodes oder für andere sensible Aktivitäten nutzen wollen.
 
 
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Klicken Sie dazu in den Einstellungen auf das entsprechende Feld.
+Klicken du dazu in den Einstellungen auf das entsprechende Feld.
 
 
 
@@ -1723,7 +1693,7 @@ Klicken Sie dazu in den Einstellungen auf das entsprechende Feld.
 
 
 
-Scannen Sie dann den angezeigten QR-Code mit Ihrer Authentifizierungsanwendung. Geben Sie dann den 6-stelligen dynamischen Code in das dafür vorgesehene Feld auf Ihrem Umbrel ein.
+Scannen du dann den angezeigten QR-Code mit Ihrer Authentifizierungsanwendung. Geben du dann den 6-stelligen dynamischen Code in das dafür vorgesehene Feld auf Ihrem Umbrel ein.
 
 
 
@@ -1735,11 +1705,11 @@ Von nun an erfordert jede neue Verbindung zu Ihrem Umbrel sowohl das Passwort al
 
 
 
-Was den Fernzugriff über Tor angeht, empfehle ich dir, diese Option zu deaktivieren, wenn du sie nicht brauchst, um die Angriffsfläche deines Umbrel zu begrenzen. Standardmäßig kann auf deinen Knoten nur von einem Rechner aus zugegriffen werden, der mit demselben lokalen Netzwerk verbunden ist. Wenn du den Zugang über Tor aktivierst, kannst du dein Umbrel trotzdem von unterwegs aus verwalten.
+Was den Fernzugriff über Tor angeht, empfehle ich dir, diese Option zu deaktivieren, wenn du sie nicht brauchst, um die Angriffsfläche deines Umbrel zu begrenzen. Standardmäßig kann auf deinen Node nur von einem Rechner aus zugegriffen werden, der mit demselben lokalen Netzwerk verbunden ist. Wenn du den Zugang über Tor aktivierst, kannst du dein Umbrel trotzdem von unterwegs aus verwalten.
 
 
 
-Wenn du diese Funktion aktivierst, ist es theoretisch möglich, dass jeder Rechner auf der Welt versucht, sich mit deinem Knoten zu verbinden, vorausgesetzt, er kennt den Tor Address. Dein Passwort und 2FA schützen dich aber immer noch.
+Wenn du diese Funktion aktivierst, ist es theoretisch möglich, dass jeder Rechner auf der Welt versucht, sich mit deinem Node zu verbinden, vorausgesetzt, er kennt den Tor Address. Dein Passwort und 2FA schützen dich aber immer noch.
 
 
 
@@ -1755,15 +1725,15 @@ Gib einfach diesen Tor Address in deinen Tor-Browser ein, um von jedem Netzwerk 
 
 
 
-Schließlich können Sie auf dieser Einstellungsseite auch die Wi-Fi-Verbindung aktivieren. Wenn Ihr Rechner, der Umbrel hostet, über eine Wi-Fi-Netzwerkkarte oder einen Wi-Fi-Dongle verfügt, können Sie damit auf das Internet zugreifen, ohne das RJ45-Kabel zu benutzen. Je nach Ihrer Konfiguration kann diese Lösung jedoch die Verbindung verlangsamen, was sich auf die anfängliche Synchronisierung (IBD) und die zukünftige Nutzung des Knotens (z.B. für Lightning-Transaktionen) auswirken kann. Ich persönlich empfehle diese Option nicht, da ein Knoten nicht für den mobilen Einsatz gedacht ist: Auf ihn wird immer aus der Ferne zugegriffen, also können Sie ihn auch eingesteckt lassen.
+Schließlich können du auf dieser Einstellungsseite auch die Wi-Fi-Verbindung aktivieren. Wenn dein Rechner, der Umbrel hostet, über eine Wi-Fi-Netzwerkkarte oder einen Wi-Fi-Dongle verfügt, können du damit auf das Internet zugreifen, ohne das RJ45-Kabel zu benutzen. Je nach Ihrer Konfiguration kann diese Lösung jedoch die Verbindung verlangsamen, was sich auf die anfängliche Synchronisierung (IBD) und die zukünftige Nutzung des Node (z.B. für Lightning-Transaktionen) auswirken kann. Ich persönlich empfehle diese Option nicht, da ein Node nicht für den mobilen Einsatz gedacht ist: Auf ihn wird immer aus der Ferne zugegriffen, also können du ihn auch eingesteckt lassen.
 
 
 
-### Schritt 6: Installation eines Bitcoin-Knotens auf Umbrel
+### Schritt 6: Installation eines Bitcoin-Node auf Umbrel
 
 
 
-Nachdem UmbrelOS nun korrekt auf Ihrem Rechner installiert und konfiguriert ist, können Sie mit der Installation Ihres Bitcoin Knotens fortfahren. Nichts könnte einfacher sein: Gehen Sie in den App Store, öffnen Sie die Kategorie "*Bitcoin*" und wählen Sie dann die Anwendung "*Bitcoin Node*" (eigentlich Bitcoin core).
+Nachdem UmbrelOS nun korrekt auf Ihrem Rechner installiert und konfiguriert ist, können du mit der Installation Ihres Bitcoin Node fortfahren. Nichts könnte einfacher sein: Gehen du in den App Store, öffnen du die Kategorie "*Bitcoin*" und wählen du dann die Anwendung "*Bitcoin Node*" (eigentlich Bitcoin core).
 
 
 
@@ -1771,7 +1741,7 @@ Nachdem UmbrelOS nun korrekt auf Ihrem Rechner installiert und konfiguriert ist,
 
 
 
-Klicken Sie dann auf die Schaltfläche "*Installieren*".
+Klicken du dann auf die Schaltfläche "*Installieren*".
 
 
 
@@ -1779,7 +1749,7 @@ Klicken Sie dann auf die Schaltfläche "*Installieren*".
 
 
 
-Sobald die Installation abgeschlossen ist, startet Ihr Bitcoin-Knoten seinen IBD (*Initial Block Download*): Er lädt alle Transaktionen und Blöcke seit der Gründung von Bitcoin im Jahr 2009 herunter und validiert sie.
+Sobald die Installation abgeschlossen ist, startet dein Bitcoin-Node seinen IBD (*Initial Block Download*): Er lädt alle Transaktionen und Blöcke seit der Gründung von Bitcoin im Jahr 2009 herunter und validiert sie.
 
 
 
@@ -1787,7 +1757,7 @@ Sobald die Installation abgeschlossen ist, startet Ihr Bitcoin-Knoten seinen IBD
 
 
 
-Diese Phase ist besonders zeitaufwendig, da ihre Dauer von mehreren Faktoren abhängt, u. a. von der Menge an RAM, die dem Cache des Knotens zugewiesen ist, der Festplattengeschwindigkeit, der Geschwindigkeit der Internetverbindung und der Prozessorleistung. Die Bandbreite der Dauer ist daher je nach Konfiguration sehr groß. Mit einem Hochleistungs-PC (NVMe-SSD, +32 GB RAM, leistungsstarker Prozessor und gute Internetverbindung) kann IBD in etwa zehn Stunden abgeschlossen werden. Mit einem alten Prozessor, wenig Arbeitsspeicher oder - noch schlimmer - einer mechanischen Hard-Festplatte (von der dringend abgeraten wird) kann sich dieser Vorgang hingegen auf mehrere Wochen ausdehnen.
+Diese Phase ist besonders zeitaufwendig, da ihre Dauer von mehreren Faktoren abhängt, u. a. von der Menge an RAM, die dem Cache des Node zugewiesen ist, der Festplattengeschwindigkeit, der Geschwindigkeit der Internetverbindung und der Prozessorleistung. Die Bandbreite der Dauer ist daher je nach Konfiguration sehr groß. Mit einem Hochleistungs-PC (NVMe-SSD, +32 GB RAM, leistungsstarker Prozessor und gute Internetverbindung) kann IBD in etwa zehn Stunden abgeschlossen werden. Mit einem alten Prozessor, wenig Arbeitsspeicher oder - noch schlimmer - einer mechanischen Hard-Festplatte (von der dringend abgeraten wird) kann sich dieser Vorgang hingegen auf mehrere Wochen ausdehnen.
 
 
 
@@ -1795,7 +1765,7 @@ Mit einem normal ausgestatteten PC (ordentlicher Prozessor, 8 bis 16 GB Arbeitss
 
 
 
-Um IBD etwas zu beschleunigen, können Sie den RAM-Speicher für den Knoten-Cache (der hauptsächlich für das UTXO-Set verwendet wird, auf das wir später im Kurs zurückkommen werden) über den Parameter "dbcache" erhöhen. Bei Umbrel wird diese Änderung in den Knotenparametern auf der Registerkarte "*Optimization*" vorgenommen.
+Um IBD etwas zu beschleunigen, können du den RAM-Speicher für den Node-Cache (der hauptsächlich für das UTXO-Set verwendet wird, auf das wir später im Kurs zurückkommen werden) über den Parameter "dbcache" erhöhen. Bei Umbrel wird diese Änderung in den Knotenparametern auf der Registerkarte "*Optimization*" vorgenommen.
 
 
 
@@ -1803,11 +1773,11 @@ Um IBD etwas zu beschleunigen, können Sie den RAM-Speicher für den Knoten-Cach
 
 
 
-Standardmäßig ist der Wert des Parameters `dbcache` in Bitcoin core auf 450 MiB, also etwa 472 MB, eingestellt. Wenn Sie diesen Wert erhöhen, können Sie IBD etwas beschleunigen. Ich würde jedoch nicht unbedingt empfehlen, diesen Parameter zu hoch zu setzen: Selbst wenn man ihn auf 4 GiB setzt, wird die Synchronisierung nur um etwa 10 % schneller, und im Falle einer Unterbrechung während IBD kann es zu einem Zeitverlust kommen.
+Standardmäßig ist der Wert des Parameters `dbcache` in Bitcoin core auf 450 MiB, also etwa 472 MB, eingestellt. Wenn du diesen Wert erhöhen, können du IBD etwas beschleunigen. Ich würde jedoch nicht unbedingt empfehlen, diesen Parameter zu hoch zu setzen: Selbst wenn man ihn auf 4 GiB setzt, wird die Synchronisierung nur um etwa 10 % schneller, und im Falle einer Unterbrechung während IBD kann es zu einem Zeitverlust kommen.
 
 
 
-Achten Sie darauf, dass Sie nicht einen zu großen Wert für Ihren Rechner zuweisen. Wenn der für UmbrelOS verfügbare Arbeitsspeicher erschöpft ist, kann Ihr Knoten abrupt anhalten, wodurch die IBD unterbrochen wird und Sie sie manuell neu starten müssen, was zu einem erheblichen Zeitverlust führt.
+Achten du darauf, dass du nicht einen zu großen Wert für Ihren Rechner zuweisen. Wenn der für UmbrelOS verfügbare Arbeitsspeicher erschöpft ist, kann dein Node abrupt anhalten, wodurch die IBD unterbrochen wird und du sie manuell neu starten müssen, was zu einem erheblichen Zeitverlust führt.
 
 
 
@@ -1815,7 +1785,7 @@ Um mehr über die Auswirkungen des Parameters `dbcache` auf die anfängliche Syn
 
 
 
-Sobald die IBD Ihres Knotens abgeschlossen ist (100%ige Synchronisierung), haben Sie nun einen voll funktionsfähigen Bitcoin-Knoten. Herzlichen Glückwunsch, Sie sind nun ein integraler Bestandteil des Bitcoin-Netzwerks!
+Sobald die IBD Ihres Node abgeschlossen ist (100%ige Synchronisierung), haben du nun einen voll funktionsfähigen Bitcoin-Node. Herzlichen Glückwunsch, du sind nun ein integraler Bestandteil des Bitcoin-Netzwerks!
 
 
 
@@ -1823,13 +1793,13 @@ Sobald die IBD Ihres Knotens abgeschlossen ist (100%ige Synchronisierung), haben
 
 
 
-Im nächsten Teil werden wir uns mit der praktischen Nutzung Ihres neuen Knotens befassen: wie Sie Ihren Wallet mit ihm verbinden und welche Anwendungen Sie installieren sollten, um ein souveräner Bitcoiner zu werden.
+Im nächsten Teil werden wir uns mit der praktischen Nutzung Ihres neuen Node befassen: wie du Ihren Wallet mit ihm verbinden und welche Anwendungen du installieren sollten, um ein souveräner Bitcoiner zu werden.
 
 
 
 
 
-# Anschließen Ihres Wallet an Ihren Knoten
+# Anschließen Ihres Wallet an Ihren Node
 
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
@@ -1843,7 +1813,7 @@ Im nächsten Teil werden wir uns mit der praktischen Nutzung Ihres neuen Knotens
 
 
 
-Wenn Sie sich bereits vor diesem Kurs mit Bitcoin-Knoten beschäftigt haben, ist Ihnen vielleicht der Begriff "Indexer" begegnet. Dabei handelt es sich um Werkzeuge wie Electrs oder Fulcrum, die zu einem Bitcoin core-Knoten hinzugefügt werden können. Aber was genau ist ihre Rolle? Wie funktionieren sie in der Praxis? Und sollten Sie einen auf Ihrem neuen Bitcoin-Knoten installieren? Das werden wir in diesem Kapitel untersuchen.
+Wenn du sich bereits vor diesem Kurs mit Bitcoin-Node beschäftigt haben, ist dir vielleicht der Begriff "Indexer" begegnet. Dabei handelt es sich um Werkzeuge wie Electrs oder Fulcrum, die zu einem Bitcoin core-Node hinzugefügt werden können. Aber was genau ist ihre Rolle? Wie funktionieren sie in der Praxis? Und sollten du einen auf Ihrem neuen Bitcoin-Node installieren? Das werden wir in diesem Kapitel untersuchen.
 
 
 
@@ -1855,11 +1825,11 @@ Im Allgemeinen ist ein Indexer ein Programm, das einen Satz von Rohdaten durchsu
 
 
 
-Für den Laien ist es das gleiche Prinzip wie ein Index in einem Buch: Wenn Sie eine bestimmte Information suchen, müssen Sie nicht das ganze Buch lesen, sondern können im Index direkt die Seite finden, auf der die gesuchte Information steht.
+Für den Laien ist es das gleiche Prinzip wie ein Index in einem Buch: Wenn du eine bestimmte Information suchen, müssen du nicht das ganze Buch lesen, sondern können im Index direkt die Seite finden, auf der die gesuchte Information steht.
 
 
 
-In einem Bitcoin-Knoten, wie Bitcoin core, werden Blockchain-Daten in ihrer rohen, chronologischen Form gespeichert. Jeder Block enthält Transaktionen, die wiederum Eingänge und Ausgänge enthalten, ohne eine besondere Klassifizierung nach Address, Kennung oder Wallet. Diese lineare Organisation ist optimal für die Blockvalidierung, aber ungeeignet für gezielte Suchen. Wenn Sie beispielsweise alle Transaktionen finden wollten, die mit einem bestimmten Address in einem nicht indizierten Knoten verknüpft sind, müssten Sie den gesamten Blockchain Block für Block und Transaktion für Transaktion manuell überprüfen. Genau hier kommt der Indexer auf Ihrem Bitcoin-Knoten ins Spiel.
+In einem Bitcoin-Node, wie Bitcoin core, werden Blockchain-Daten in ihrer rohen, chronologischen Form gespeichert. Jeder Block enthält Transaktionen, die wiederum Eingänge und Ausgänge enthalten, ohne eine besondere Klassifizierung nach Address, Kennung oder Wallet. Diese lineare Organisation ist optimal für die Blockvalidierung, aber ungeeignet für gezielte Suchen. Wenn du beispielsweise alle Transaktionen finden wollten, die mit einem bestimmten Address in einem nicht indizierten Node verknüpft sind, müssten du den gesamten Blockchain Block für Block und Transaktion für Transaktion manuell überprüfen. Genau hier kommt der Indexer auf Ihrem Bitcoin-Node ins Spiel.
 
 
 
@@ -1875,7 +1845,7 @@ Ein Indexer ist ein spezialisiertes Softwareprogramm, das diese Masse von Rohdat
 
 
 
-Die Indizierung ermöglicht es Ihnen, schnell, genau und effizient nach Informationen über Ihren Knoten zu suchen. Wenn Sie z. B. einen Wallet wie Sparrow an Ihren Knoten anschließen, kann dieser fast sofort den Saldo eines Address anzeigen. Konkret fragt er den Indexer mit einer Anfrage wie: "_Welche UTXOs sind mit diesem Skript-Hash verbunden?_" Der Indexer antwortet fast sofort, ohne den gesamten Blockchain neu lesen zu müssen, da diese Daten bereits in seiner Datenbank aufgeführt sind.
+Die Indizierung ermöglicht es dir, schnell, genau und effizient nach Informationen über Ihren Node zu suchen. Wenn du z. B. einen Wallet wie Sparrow an Ihren Node anschließen, kann dieser fast sofort den Saldo eines Address anzeigen. Konkret fragt er den Indexer mit einer Anfrage wie: "_Welche UTXOs sind mit diesem Skript-Hash verbunden?_" Der Indexer antwortet fast sofort, ohne den gesamten Blockchain neu lesen zu müssen, da diese Daten bereits in seiner Datenbank aufgeführt sind.
 
 
 
@@ -1887,7 +1857,7 @@ Ohne die Notwendigkeit zusätzlicher Software bietet Bitcoin core streng genomme
 
 
 
-Bis Bitcoin core Version 0.8.0 basierte die Transaktionsvalidierung auf einem globalen Transaktionsindex, der als "txindex" bekannt war. Dieser Index verwies auf alle Blockchain-Transaktionen und ihre Ausgaben. Wenn ein Knoten eine neue Transaktion erhielt, konsultierte er diesen Index, um zu überprüfen, ob die verbrauchten Ausgaben (in Eingaben) tatsächlich existierten und nicht bereits ausgegeben worden waren. daher war "txindex" seinerzeit für die Validierung von Transaktionen unerlässlich.
+Bis Bitcoin core Version 0.8.0 basierte die Transaktionsvalidierung auf einem globalen Transaktionsindex, der als "txindex" bekannt war. Dieser Index verwies auf alle Blockchain-Transaktionen und ihre Ausgaben. Wenn ein Node eine neue Transaktion erhielt, konsultierte er diesen Index, um zu überprüfen, ob die verbrauchten Ausgaben (in Eingaben) tatsächlich existierten und nicht bereits ausgegeben worden waren. daher war "txindex" seinerzeit für die Validierung von Transaktionen unerlässlich.
 
 
 
@@ -1895,7 +1865,7 @@ Dieser Ansatz hatte jedoch seine Grenzen: Er war langsam, kostspielig in Bezug a
 
 
 
-Diese Methode ist viel schneller und speichert nur den aktuellen Zustand des Registers, was den Indexer "txindex" überflüssig macht. Anstatt jedoch den `txindex`-Code zu löschen, haben sich die Entwickler dafür entschieden, diese Funktionalität hinter einem einfachen Parameter (`txindex=1`) zu belassen. Wenn Sie diese Option auf Ihrem Knoten aktivieren, können Sie jede Transaktion von seinem `txid` abfragen.
+Diese Methode ist viel schneller und speichert nur den aktuellen Zustand des Registers, was den Indexer "txindex" überflüssig macht. Anstatt jedoch den `txindex`-Code zu löschen, haben sich die Entwickler dafür entschieden, diese Funktionalität hinter einem einfachen Parameter (`txindex=1`) zu belassen. Wenn du diese Option auf Ihrem Node aktivieren, können du jede Transaktion von seinem `txid` abfragen.
 
 
 
@@ -1911,7 +1881,7 @@ Entgegen der landläufigen Meinung bietet Bitcoin core keine Address-basierte In
 
 
 
-- Die meisten Anwendungsfälle können bereits auf andere Weise abgedeckt werden. Um beispielsweise den Saldo eines Address zu schätzen, können Sie den Befehl `scantxoutset` verwenden, der den UTXO-Satz direkt abfragt, ohne dass ein vollständiger Index erforderlich ist.
+- Die meisten Anwendungsfälle können bereits auf andere Weise abgedeckt werden. Um beispielsweise den Saldo eines Address zu schätzen, können du den Befehl `scantxoutset` verwenden, der den UTXO-Satz direkt abfragt, ohne dass ein vollständiger Index erforderlich ist.
 
 
 
@@ -1925,7 +1895,7 @@ Bitcoin core verfügt zwar über einen optionalen Transaktionsindexer (`txindex`
 
 
 
-### Sollten Sie einen Address-Indexer zu Ihrem Knoten hinzufügen?
+### Sollten du einen Address-Indexer zu Ihrem Node hinzufügen?
 
 
 
@@ -1933,7 +1903,7 @@ Das Hinzufügen eines Address-Indexierers, z. B. von Electrs oder Fulcrum, ist n
 
 
 
-Wenn Sie einfach nur einen Wallet, wie z. B. Sparrow, mit Ihrem Knoten verbinden möchten, um die Salden einzusehen und Transaktionen zu übertragen, ist dies direkt über den Interface RPC des Bitcoin core möglich, entweder lokal oder aus der Ferne über Tor.
+Wenn du einfach nur einen Wallet, wie z. B. Sparrow, mit Ihrem Node verbinden möchten, um die Salden einzusehen und Transaktionen zu übertragen, ist dies direkt über den Interface RPC des Bitcoin core möglich, entweder lokal oder aus der Ferne über Tor.
 
 
 
@@ -1941,7 +1911,7 @@ Auf der anderen Seite, um mehr fortgeschrittene Software, wie z. B. mit einem Me
 
 
 
-Der Indexer benötigt eine gewisse Zeit für die Synchronisierung (weniger als die IBD) und belegt zusätzlichen Speicherplatz. Wenn Ihre SSD nach dem Herunterladen von Blockchain noch genügend freien Speicherplatz hat, können Sie problemlos einen Indexer hinzufügen.
+Der Indexer benötigt eine gewisse Zeit für die Synchronisierung (weniger als die IBD) und belegt zusätzlichen Speicherplatz. Wenn Ihre SSD nach dem Herunterladen von Blockchain noch genügend freien Speicherplatz hat, können du problemlos einen Indexer hinzufügen.
 
 
 
@@ -1961,7 +1931,7 @@ Einfach ausgedrückt ist Electrs recht kompakt: Es indiziert Blockchain schnelle
 
 
 
-Für den individuellen Gebrauch empfehle ich Electrs: Es verbraucht weniger Speicherplatz, wird gut gewartet und ist zwar bei bestimmten Anfragen etwas langsamer als Fulcrum, aber für den täglichen Gebrauch immer noch mehr als ausreichend. Wenn Sie die Zeit und den Speicherplatz haben, können Sie auch Fulcrum ausprobieren, das vor allem bei Geldbörsen mit vielen zu überprüfenden Adressen deutlich besser abschneidet.
+Für den individuellen Gebrauch empfehle ich Electrs: Es verbraucht weniger Speicherplatz, wird gut gewartet und ist zwar bei bestimmten Anfragen etwas langsamer als Fulcrum, aber für den täglichen Gebrauch immer noch mehr als ausreichend. Wenn du die Zeit und den Speicherplatz haben, können du auch Fulcrum ausprobieren, das vor allem bei Geldbörsen mit vielen zu überprüfenden Adressen deutlich besser abschneidet.
 
 
 
@@ -1970,13 +1940,13 @@ Konkret bedeutet dies, dass Electrs im August 2025 etwa 56 GB Speicherplatz ben�
 
 
 
-- Wenn Ihr Festplattenplatz sehr begrenzt ist, müssen Sie sich mit dem Bitcoin core ohne einen externen Address-Indexer begnügen.
-- Wenn Sie einen Indexer verwenden möchten, aber dennoch Kapazitätsengpässe haben, entscheiden Sie sich für Electrs.
-- Wenn Sie über ausreichend Speicherplatz verfügen, könnte Fulcrum genau das Richtige für Sie sein.
+- Wenn dein Festplattenplatz sehr begrenzt ist, müssen du sich mit dem Bitcoin core ohne einen externen Address-Indexer begnügen.
+- Wenn du einen Indexer verwenden möchten, aber dennoch Kapazitätsengpässe haben, entscheiden du sich für Electrs.
+- Wenn du über ausreichend Speicherplatz verfügen, könnte Fulcrum genau das Richtige für du sein.
 
 
 
-Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber Sie können einfach mit Fulcrum weitermachen: Die Installationsprozedur ist identisch, ebenso wie die Verbindung des Interface mit dem Wallet, da beide einen Electrum-Server bereitstellen.
+Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber du können einfach mit Fulcrum weitermachen: Die Installationsprozedur ist identisch, ebenso wie die Verbindung des Interface mit dem Wallet, da beide einen Electrum-Server bereitstellen.
 
 
 
@@ -1984,7 +1954,7 @@ Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber Sie könne
 
 
 
-Um Electrs (oder Fulcrum) auf Ihrem Umbrel zu installieren, ist das Verfahren einfach: Gehen Sie zum App Store, suchen Sie nach der entsprechenden Anwendung (auf der Registerkarte Bitcoin) und klicken Sie dann auf die Schaltfläche "*Installieren*".
+Um Electrs (oder Fulcrum) auf Ihrem Umbrel zu installieren, ist das Verfahren einfach: Gehen du zum App Store, suchen du nach der entsprechenden Anwendung (auf der Registerkarte Bitcoin) und klicken du dann auf die Schaltfläche "*Installieren*".
 
 
 
@@ -2000,18 +1970,18 @@ Sobald die Installation abgeschlossen ist, beginnt Electrs mit einer Synchronisi
 
 
 
-Sobald die Synchronisierung abgeschlossen ist, können Sie Ihre Wallet-Software mit Ihrem Electrum-Server verbinden, der auf Umbrel gehostet wird.
+Sobald die Synchronisierung abgeschlossen ist, können du Ihre Wallet-Software mit Ihrem Electrum-Server verbinden, der auf Umbrel gehostet wird.
 
 
 
-## Wie verbinde ich mein Wallet mit meinem Bitcoin-Knoten?
+## Wie verbinde ich mein Wallet mit meinem Bitcoin-Node?
 
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
 
 
-Nun, da Sie einen vollständigen Bitcoin-Knoten haben, ist es an der Zeit, ihn sinnvoll zu nutzen! Im nächsten Kapitel werden wir weitere Verwendungsmöglichkeiten für Ihre Umbrel-Instanz untersuchen. Lassen Sie uns jedoch mit den Grundlagen beginnen: die Anbindung Ihrer Wallet Software, um Informationen von Ihrem eigenen Blockchain zu nutzen und Transaktionen über Ihren eigenen Knoten zu verteilen.
+Nun, da du einen vollständigen Bitcoin-Node haben, ist es an der Zeit, ihn sinnvoll zu nutzen! Im nächsten Kapitel werden wir weitere Verwendungsmöglichkeiten für Ihre Umbrel-Instanz untersuchen. Lassen du uns jedoch mit den Grundlagen beginnen: die Anbindung Ihrer Wallet Software, um Informationen von Ihrem eigenen Blockchain zu nutzen und Transaktionen über Ihren eigenen Node zu verteilen.
 
 
 
@@ -2021,19 +1991,19 @@ Wie bereits erwähnt, gibt es zwei Hauptverbindungsschnittstellen:
 
 
 - Direkte Verbindung zum Bitcoin core über RPC;
-- Oder verbinden Sie sich mit einem Electrum-Server (Electrs oder Fulcrum).
+- Oder verbinden du sich mit einem Electrum-Server (Electrs oder Fulcrum).
 
 
 
-In diesem Tutorial konzentrieren wir uns auf die Verbindung zu deinem Knoten über Tor, da dies eine einfache und sichere Lösung für Anfänger ist. Ich rate dringend davon ab, den RPC-Port deines Knotens offen zu legen, da eine Fehlkonfiguration ein erhebliches Risiko für die Sicherheit und Vertraulichkeit deiner Daten darstellt. Der größte Nachteil der Kommunikation über Tor ist seine Langsamkeit. Im nächsten Kapitel werden wir eine schnelle und sichere Alternative zu Tor für den Fernzugriff auf Ihren Knoten erkunden: VPN.
+In diesem Tutorial konzentrieren wir uns auf die Verbindung zu deinem Node über Tor, da dies eine einfache und sichere Lösung für Anfänger ist. Ich rate dringend davon ab, den RPC-Port deines Node offen zu legen, da eine Fehlkonfiguration ein erhebliches Risiko für die Sicherheit und Vertraulichkeit deiner Daten darstellt. Der größte Nachteil der Kommunikation über Tor ist seine Langsamkeit. Im nächsten Kapitel werden wir eine schnelle und sichere Alternative zu Tor für den Fernzugriff auf Ihren Node erkunden: VPN.
 
 
 
-Wir verwenden in diesem Kapitel Sparrow als Beispiel, aber das Verfahren ist für alle anderen Wallet-Verwaltungssoftware, die Verbindungen zu Electrum-Servern akzeptiert, gleich. Suchen Sie einfach die entsprechende Einstellung in den Parametern Ihrer Anwendung (normalerweise unter "*Server*", "*Netzwerk*", "*Knoten*"...).
+Wir verwenden in diesem Kapitel Sparrow als Beispiel, aber das Verfahren ist für alle anderen Wallet-Verwaltungssoftware, die Verbindungen zu Electrum-Servern akzeptiert, gleich. Suchen du einfach die entsprechende Einstellung in den Parametern Ihrer Anwendung (normalerweise unter "*Server*", "*Netzwerk*", "*Node*"...).
 
 
 
-Öffnen Sie auf dem Sparrow die Registerkarte "*Datei*" und gehen Sie in das Menü "Einstellungen".
+Öffnen du auf dem Sparrow die Registerkarte "*Datei*" und gehen du in das Menü "Einstellungen".
 
 
 
@@ -2041,7 +2011,7 @@ Wir verwenden in diesem Kapitel Sparrow als Beispiel, aber das Verfahren ist fü
 
 
 
-Klicken Sie dann auf "*Server*", um die Verbindungsparameter aufzurufen.
+Klicken du dann auf "*Server*", um die Verbindungsparameter aufzurufen.
 
 
 
@@ -2049,14 +2019,14 @@ Klicken Sie dann auf "*Server*", um die Verbindungsparameter aufzurufen.
 
 
 
-Sie werden dann drei Optionen für die Verknüpfung Ihrer Software mit einem Bitcoin-Knoten entdecken:
+du werden dann drei Optionen für die Verknüpfung Ihrer Software mit einem Bitcoin-Node entdecken:
 
 
 
 
-- Öffentlicher Server* (gelb): Wenn Sie keinen Bitcoin-Knoten besitzen, verbindet Sie diese Option standardmäßig mit einem öffentlichen Knoten, der Ihnen nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da Sie Ihren eigenen Knoten auf Umbrel haben.
+- Öffentlicher Server* (gelb): Wenn du keinen Bitcoin-Node besitzen, verbindet du diese Option standardmäßig mit einem öffentlichen Node, der dir nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da du Ihren eigenen Node auf Umbrel haben.
 - Bitcoin core* (Green): Diese Option entspricht der Verbindung über Interface RPC, d. h. direkt mit Bitcoin core.
-- Private Electrum* (blau): Mit dieser Option können Sie eine Verbindung über den Interface Electrum Server (Electrs oder Fulcrum) Ihres Indexers herstellen.
+- Private Electrum* (blau): Mit dieser Option können du eine Verbindung über den Interface Electrum Server (Electrs oder Fulcrum) Ihres Indexers herstellen.
 
 
 
@@ -2064,7 +2034,7 @@ Sie werden dann drei Optionen für die Verknüpfung Ihrer Software mit einem Bit
 
 
 
-Wenn Ihr Umbrel-Knoten keinen Indexer hat, müssen Sie diese Option wählen. Auf Sparrow klicken Sie auf "*Bitcoin core*".
+Wenn dein Umbrel-Node keinen Indexer hat, müssen du diese Option wählen. Auf Sparrow klicken du auf "*Bitcoin core*".
 
 
 
@@ -2072,7 +2042,7 @@ Wenn Ihr Umbrel-Knoten keinen Indexer hat, müssen Sie diese Option wählen. Auf
 
 
 
-Sie müssen dann mehrere Informationen eingeben, um die Verbindung zu Ihrem Knoten herzustellen. Alle diese Daten können über die Anwendung "*Bitcoin Node*" auf Umbrel abgerufen werden, indem Sie auf die Schaltfläche "*Verbinden*" in der oberen rechten Ecke des Interface klicken.
+du müssen dann mehrere Informationen eingeben, um die Verbindung zu Ihrem Node herzustellen. Alle diese Daten können über die Anwendung "*Bitcoin Node*" auf Umbrel abgerufen werden, indem du auf die Schaltfläche "*Verbinden*" in der oberen rechten Ecke des Interface klicken.
 
 
 
@@ -2080,7 +2050,7 @@ Sie müssen dann mehrere Informationen eingeben, um die Verbindung zu Ihrem Knot
 
 
 
-Die Registerkarte "*RPC Details*" zeigt alle notwendigen Informationen für die Verbindung an. Wählen Sie eine Verbindung über Tor Address (in `.onion`).
+Die Registerkarte "*RPC Details*" zeigt alle notwendigen Informationen für die Verbindung an. Wählen du eine Verbindung über Tor Address (in `.onion`).
 
 
 
@@ -2088,7 +2058,7 @@ Die Registerkarte "*RPC Details*" zeigt alle notwendigen Informationen für die 
 
 
 
-Geben Sie diese Daten in die entsprechenden Felder des Sparrow wallet ein und klicken Sie dann auf die Schaltfläche "*Test Connection*".
+Geben du diese Daten in die entsprechenden Felder des Sparrow wallet ein und klicken du dann auf die Schaltfläche "*Test Connection*".
 
 
 
@@ -2108,7 +2078,7 @@ Das Häkchen unten rechts auf dem Interface Sparrow wallet wird nun zu Green (wa
 
 
 
-**Hinweis:** Damit die Verbindung erfolgreich hergestellt werden kann, muss Ihr Knoten zu 100% synchronisiert sein. Wenn dies nicht der Fall ist, warten Sie bitte bis zum Ende des IBD.
+**Hinweis:** Damit die Verbindung erfolgreich hergestellt werden kann, muss dein Node zu 100% synchronisiert sein. Wenn dies nicht der Fall ist, warten du bitte bis zum Ende des IBD.
 
 
 
@@ -2116,11 +2086,11 @@ Das Häkchen unten rechts auf dem Interface Sparrow wallet wird nun zu Green (wa
 
 
 
-Wenn Ihr Knoten über einen Indexer verfügt, ist es besser, sich mit diesem zu verbinden, als Bitcoin core direkt zu verwenden, da Ihre Abfragen dann schneller verarbeitet werden.
+Wenn dein Node über einen Indexer verfügt, ist es besser, sich mit diesem zu verbinden, als Bitcoin core direkt zu verwenden, da Ihre Abfragen dann schneller verarbeitet werden.
 
 
 
-Gehen Sie im Sparrow auf die Registerkarte "*Private Electrum*".
+Gehen du im Sparrow auf die Registerkarte "*Private Electrum*".
 
 
 
@@ -2128,11 +2098,11 @@ Gehen Sie im Sparrow auf die Registerkarte "*Private Electrum*".
 
 
 
-Sie müssen dann einige Informationen eingeben, um die Verbindung mit Ihrem Indexer herzustellen. Sie finden diese Daten in der Anwendung "*Electrs*" (oder ggf. "*Fulcrum*") auf Umbrel.
+du müssen dann einige Informationen eingeben, um die Verbindung mit Ihrem Indexer herzustellen. du finden diese Daten in der Anwendung "*Electrs*" (oder ggf. "*Fulcrum*") auf Umbrel.
 
 
 
-Wählen Sie die Registerkarte "*Tor*", um die `.onion`-Verbindung Address zu erhalten. Wenn Sie eine mobile Wallet-Software anschließen möchten, können Sie auch den QR-Code direkt scannen.
+Wählen du die Registerkarte "*Tor*", um die `.onion`-Verbindung Address zu erhalten. Wenn du eine mobile Wallet-Software anschließen möchten, können du auch den QR-Code direkt scannen.
 
 
 
@@ -2160,11 +2130,11 @@ Das Häkchen in der unteren rechten Ecke des Interface Sparrow wallet wird blau 
 
 
 
-**Hinweis:** Damit die Verbindung funktioniert, muss Ihr Indexer zu 100 % synchronisiert sein. Wenn dies nicht der Fall ist, warten Sie, bis der Indizierungsprozess abgeschlossen ist.
+**Hinweis:** Damit die Verbindung funktioniert, muss dein Indexer zu 100 % synchronisiert sein. Wenn dies nicht der Fall ist, warten du, bis der Indizierungsprozess abgeschlossen ist.
 
 
 
-Jetzt wissen Sie, wie Sie Ihren Wallet an Ihren Bitcoin-Knoten anschließen können! Im nächsten Kapitel werde ich Ihnen einige zusätzliche Anwendungen vorstellen, die auf Umbrel verfügbar sind, die ich besonders schätze und die es Ihnen ermöglichen, Ihre tägliche Nutzung des Bitcoin über Ihren Knoten zu verbessern.
+Jetzt wissen du, wie du Ihren Wallet an Ihren Bitcoin-Node anschließen können! Im nächsten Kapitel werde ich dir einige zusätzliche Anwendungen vorstellen, die auf Umbrel verfügbar sind, die ich besonders schätze und die es dir ermöglichen, Ihre tägliche Nutzung des Bitcoin über Ihren Node zu verbessern.
 
 
 
@@ -2176,15 +2146,15 @@ Jetzt wissen Sie, wie Sie Ihren Wallet an Ihren Bitcoin-Knoten anschließen kön
 
 
 
-Umbrel bietet einen umfangreichen Anwendungsspeicher. Wie Sie sehen werden, gibt es viele Tools im Zusammenhang mit Bitcoin, aber auch eine Vielzahl von Anwendungen in sehr unterschiedlichen Bereichen: Self-Hosting-Lösungen für Dienste und Dateien, Produktivitätsanwendungen, allgemeinere Finanztools, Medienmanagement, Netzwerksicherheit und -verwaltung, Entwicklung, künstliche Intelligenz, soziale Netzwerke und sogar Heimautomatisierung.
+Umbrel bietet einen umfangreichen Anwendungsspeicher. Wie du sehen werden, gibt es viele Tools im Zusammenhang mit Bitcoin, aber auch eine Vielzahl von Anwendungen in sehr unterschiedlichen Bereichen: Self-Hosting-Lösungen für Dienste und Dateien, Produktivitätsanwendungen, allgemeinere Finanztools, Medienmanagement, Netzwerksicherheit und -verwaltung, Entwicklung, künstliche Intelligenz, soziale Netzwerke und sogar Heimautomatisierung.
 
 
 
-In diesem BTC 202-Kurs werden wir uns ausschließlich auf Bitcoin-bezogene Anwendungen konzentrieren. Sie können jedoch auch den Rest des Katalogs nach Tools durchsuchen, die für Sie von Nutzen sein könnten.
+In diesem BTC 202-Kurs werden wir uns ausschließlich auf Bitcoin-bezogene Anwendungen konzentrieren. du können jedoch auch den Rest des Katalogs nach Tools durchsuchen, die für du von Nutzen sein könnten.
 
 
 
-Es wäre natürlich unmöglich, hier alle Bitcoin-Anwendungen aufzulisten. In diesem Kapitel möchte ich Ihnen die wichtigsten Werkzeuge vorstellen, die Ihre tägliche Arbeit mit Bitcoin erleichtern und bereichern werden.
+Es wäre natürlich unmöglich, hier alle Bitcoin-Anwendungen aufzulisten. In diesem Kapitel möchte ich dir die wichtigsten Werkzeuge vorstellen, die Ihre tägliche Arbeit mit Bitcoin erleichtern und bereichern werden.
 
 
 
@@ -2196,21 +2166,21 @@ Wenn es bei der täglichen Arbeit mit Bitcoin ein Werkzeug gibt, das wirklich un
 
 
 
-Konkret können Sie mit dem Explorer die Gebühren abschätzen, die für die Aufnahme Ihrer Transaktion in einen Block erforderlich sind, dann ihren Fortschritt verfolgen: Sie können herausfinden, ob sie je nach Gebührenmarkt wahrscheinlich in naher Zukunft aufgenommen wird, und schließlich bestätigen, dass sie tatsächlich in einen Block aufgenommen wurde. Es bietet auch die Möglichkeit, Ihre vergangenen Transaktionen zu analysieren und deren Historie einzusehen. Kurz gesagt, es ist das Schweizer Taschenmesser des Bitcoiners.
+Konkret können du mit dem Explorer die Gebühren abschätzen, die für die Aufnahme Ihrer Transaktion in einen Block erforderlich sind, dann ihren Fortschritt verfolgen: du können herausfinden, ob sie je nach Gebührenmarkt wahrscheinlich in naher Zukunft aufgenommen wird, und schließlich bestätigen, dass sie tatsächlich in einen Block aufgenommen wurde. Es bietet auch die Möglichkeit, Ihre vergangenen Transaktionen zu analysieren und deren Historie einzusehen. Kurz gesagt, es ist das Schweizer Taschenmesser des Bitcoiners.
 
 
 
-Wie bereits erwähnt, kann ein Explorer online auf einer Website gehostet oder lokal auf Ihrem Rechner ausgeführt werden. Ein großer Nachteil von Online-Diensten ist, dass sie Ihre Privatsphäre gefährden können. Ohne VPN oder Tor kann der Server, auf dem der Explorer gehostet wird, Ihre IP-Adresse Address mit den von Ihnen angezeigten Transaktionen verknüpfen, was einen idealen Einstiegspunkt für Kettenanalysen darstellen kann.
+Wie bereits erwähnt, kann ein Explorer online auf einer Website gehostet oder lokal auf Ihrem Rechner ausgeführt werden. Ein großer Nachteil von Online-Diensten ist, dass sie Ihre Privatsphäre gefährden können. Ohne VPN oder Tor kann der Server, auf dem der Explorer gehostet wird, Ihre IP-Adresse Address mit den von dir angezeigten Transaktionen verknüpfen, was einen idealen Einstiegspunkt für Kettenanalysen darstellen kann.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Darüber hinaus kann Ihr Internetdienstanbieter (ISP) wissen, dass Sie eine bestimmte Transaktion über die Block explorer-Website abrufen. Dies wirft auch eine Vertrauensfrage auf: Sie müssen sich darauf verlassen, dass der Online-Dienst Ihnen genaue Informationen über Ihre Transaktionen liefert, ohne dass Sie deren Wahrheitsgehalt selbst überprüfen können.
+Darüber hinaus kann dein Internetdienstanbieter (ISP) wissen, dass du eine bestimmte Transaktion über die Block explorer-Website abrufen. Dies wirft auch eine Vertrauensfrage auf: du müssen sich darauf verlassen, dass der Online-Dienst dir genaue Informationen über Ihre Transaktionen liefert, ohne dass du deren Wahrheitsgehalt selbst überprüfen können.
 
 
 
-Deshalb ist es immer am besten, Ihren eigenen lokalen Block explorer zu verwenden. Auf diese Weise können keine Daten über Ihre Suchaktivitäten nach außen dringen, da alle Abfragen direkt auf einem von Ihnen kontrollierten Rechner verarbeitet werden, ohne das Internet zu durchlaufen. Darüber hinaus stützt sich ein lokaler Explorer auf die Daten Ihres eigenen Bitcoin-Knotens, den Sie selbst nach Ihren eigenen Regeln validiert haben und dem Sie vertrauen können.
+Deshalb ist es immer am besten, Ihren eigenen lokalen Block explorer zu verwenden. Auf diese Weise können keine Daten über Ihre Suchaktivitäten nach außen dringen, da alle Abfragen direkt auf einem von dir kontrollierten Rechner verarbeitet werden, ohne das Internet zu durchlaufen. Darüber hinaus stützt sich ein lokaler Explorer auf die Daten Ihres eigenen Bitcoin-Node, den du selbst nach Ihren eigenen Regeln validiert haben und dem du vertrauen können.
 
 
 
@@ -2225,11 +2195,11 @@ Umbrel bietet mehrere Blockexplorer an:
 
 
 
-Besonders angetan bin ich von Mempool.Space, das ich auf meinem Knoten installiert habe. Bitte beachten Sie: um die meisten Block-Explorer auf Umbrel zu benutzen, ist ein Address Indexer erforderlich. Sie benötigen also die Anwendung Bitcoin Node (oder Bitcoin Knots), die einen 100% synchronisierten Blockchain hat, sowie einen Indexer wie Electrs oder Fulcrum, der ebenfalls 100% synchronisiert ist.
+Besonders angetan bin ich von Mempool.Space, das ich auf meinem Node installiert habe. Bitte beachten du: um die meisten Block-Explorer auf Umbrel zu benutzen, ist ein Address Indexer erforderlich. du benötigen also die Anwendung Bitcoin Node (oder Bitcoin Knots), die einen 100% synchronisierten Blockchain hat, sowie einen Indexer wie Electrs oder Fulcrum, der ebenfalls 100% synchronisiert ist.
 
 
 
-Sobald die Anwendung installiert ist, öffnen Sie sie einfach, um auf Ihren eigenen Explorer zuzugreifen.
+Sobald die Anwendung installiert ist, öffnen du sie einfach, um auf Ihren eigenen Explorer zuzugreifen.
 
 
 
@@ -2247,11 +2217,11 @@ https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43c
 
 
 
-Jetzt, da Sie Ihren eigenen Bitcoin-Knoten haben, können Sie auch Ihren eigenen Lightning-Knoten einrichten, um off-chain-Transaktionen durchzuführen, ohne auf die Infrastruktur eines Dritten angewiesen zu sein.
+Jetzt, da du Ihren eigenen Bitcoin-Node haben, können du auch Ihren eigenen Lightning-Node einrichten, um off-chain-Transaktionen durchzuführen, ohne auf die Infrastruktur eines Dritten angewiesen zu sein.
 
 
 
-Umbrel bietet eine Reihe von Anwendungen, die Ihnen helfen, Ihren Lightning-Knoten zum Laufen zu bringen. Sie können bereits zwischen zwei Hauptimplementierungen wählen:
+Umbrel bietet eine Reihe von Anwendungen, die dir helfen, Ihren Lightning-Node zum Laufen zu bringen. du können bereits zwischen zwei Hauptimplementierungen wählen:
 
 
 
@@ -2263,7 +2233,7 @@ Umbrel bietet eine Reihe von Anwendungen, die Ihnen helfen, Ihren Lightning-Knot
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Sie können Ihren Knoten dann vom Haupt-Interface aus verwalten, oder, für noch mehr Funktionalität und erweiterte Optionen, *Ride The Lightning* oder *ThunderHub* installieren. Diese Tools bieten Ihnen ein viel umfassenderes webbasiertes Interface-Verwaltungssystem für Ihren Knoten.
+du können Ihren Node dann vom Haupt-Interface aus verwalten, oder, für noch mehr Funktionalität und erweiterte Optionen, *Ride The Lightning* oder *ThunderHub* installieren. Diese Tools bieten dir ein viel umfassenderes webbasiertes Interface-Verwaltungssystem für Ihren Node.
 
 
 
@@ -2275,7 +2245,7 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-Schließlich empfehle ich die Anwendung *Lightning Network+*, mit der Sie Gleichgesinnte finden können, mit denen Sie Kanäle öffnen können, die sowohl ausgehende als auch eingehende Bargeldtransaktionen ermöglichen.
+Schließlich empfehle ich die Anwendung *Lightning Network+*, mit der du Gleichgesinnte finden können, mit denen du Kanäle öffnen können, die sowohl ausgehende als auch eingehende Bargeldtransaktionen ermöglichen.
 
 
 
@@ -2283,7 +2253,7 @@ Schließlich empfehle ich die Anwendung *Lightning Network+*, mit der Sie Gleich
 
 
 
-Dank Umbrel ist die Verwaltung eines persönlichen Lightning-Knotens stark vereinfacht worden, aber sie ist immer noch relativ komplex. Aus diesem Grund werden wir dieses Thema in einem zukünftigen Kurs, der sich ausschließlich mit dieser Anwendung befasst, näher beleuchten.
+Dank Umbrel ist die Verwaltung eines persönlichen Lightning-Node stark vereinfacht worden, aber sie ist immer noch relativ komplex. Aus diesem Grund werden wir dieses Thema in einem zukünftigen Kurs, der sich ausschließlich mit dieser Anwendung befasst, näher beleuchten.
 
 
 
@@ -2291,11 +2261,11 @@ Dank Umbrel ist die Verwaltung eines persönlichen Lightning-Knotens stark verei
 
 
 
-Eine weitere Anwendung, die ich bei Umbrel besonders mag, ist Tailscale. Dabei handelt es sich um eine VPN-Anwendung, die die Einrichtung sicherer Netzwerke zwischen mehreren Geräten vereinfacht, egal wo auf der Welt sie sich befinden. Im Gegensatz zu herkömmlichen VPNs, die sich auf zentrale Server stützen, nutzt Tailscale das WireGuard-Protokoll, um verschlüsselte End-to-End-Verbindungen zwischen Ihren verschiedenen Geräten herzustellen. Das bedeutet, dass Sie ein funktionierendes VPN in nur wenigen Minuten einrichten können, ohne komplizierte Netzwerkkonfigurationen vornehmen zu müssen.
+Eine weitere Anwendung, die ich bei Umbrel besonders mag, ist Tailscale. Dabei handelt es sich um eine VPN-Anwendung, die die Einrichtung sicherer Netzwerke zwischen mehreren Geräten vereinfacht, egal wo auf der Welt sie sich befinden. Im Gegensatz zu herkömmlichen VPNs, die sich auf zentrale Server stützen, nutzt Tailscale das WireGuard-Protokoll, um verschlüsselte End-to-End-Verbindungen zwischen Ihren verschiedenen Geräten herzustellen. Das bedeutet, dass du ein funktionierendes VPN in nur wenigen Minuten einrichten können, ohne komplizierte Netzwerkkonfigurationen vornehmen zu müssen.
 
 
 
-Bei Umbrel verbindet die Tailscale-Installation Ihren Bitcoin-Knoten mit Ihrem eigenen virtuellen privaten Netzwerk. Einmal konfiguriert, erhält Ihr Knoten eine private Tailscale-IP Address, auf die nur andere Geräte zugreifen können, die mit demselben Tailscale-Netzwerk verbunden sind (wie Computer, Smartphones und Tablets). Diese Verbindung ist Ende-zu-Ende verschlüsselt und läuft nicht durch ein ungeschütztes öffentliches Netzwerk, was die Sicherheit im Vergleich zu einer unverschlüsselten Verbindung deutlich erhöht.
+Bei Umbrel verbindet die Tailscale-Installation Ihren Bitcoin-Node mit Ihrem eigenen virtuellen privaten Netzwerk. Einmal konfiguriert, erhält dein Node eine private Tailscale-IP Address, auf die nur andere Geräte zugreifen können, die mit demselben Tailscale-Netzwerk verbunden sind (wie Computer, Smartphones und Tablets). Diese Verbindung ist Ende-zu-Ende verschlüsselt und läuft nicht durch ein ungeschütztes öffentliches Netzwerk, was die Sicherheit im Vergleich zu einer unverschlüsselten Verbindung deutlich erhöht.
 
 
 
@@ -2303,33 +2273,33 @@ Bei Umbrel verbindet die Tailscale-Installation Ihren Bitcoin-Knoten mit Ihrem e
 
 
 
-Konkret bietet Ihnen Tailscale bei der Nutzung Ihres Umbrel mehrere Vorteile:
+Konkret bietet dir Tailscale bei der Nutzung Ihres Umbrel mehrere Vorteile:
 
 
 
 
 
-- Du kannst den Interface Umbrel verwalten oder auf die mit deinem Knoten verbundenen Anwendungen (wie Mempool, Ride The Lightning, ThunderHub...) von überall aus zugreifen, als wärst du im selben lokalen Netzwerk, ohne Ports im Internet freizugeben und ohne durch Tor zu gehen, was sehr langsam ist;
+- Du kannst den Interface Umbrel verwalten oder auf die mit deinem Node verbundenen Anwendungen (wie Mempool, Ride The Lightning, ThunderHub...) von überall aus zugreifen, als wärst du im selben lokalen Netzwerk, ohne Ports im Internet freizugeben und ohne durch Tor zu gehen, was sehr langsam ist;
 
 
 
 
 
-- Sie können sich mit Ihrem Electrum-Server (Electrs oder Fulcrum) oder direkt mit Bitcoin core über Ihr VPN verbinden und dabei Tor umgehen. Dies bietet eine sichere Verbindung, vergleichbar mit der Verwendung von Tor, aber mit viel höherer Geschwindigkeit und geringerer Latenz. Kurz gesagt, Sie behalten die Datenschutz- und Sicherheitsvorteile von Tor, während Sie die Geschwindigkeit einer Clearnet-Verbindung genießen. Für einen On-Chain Wallet mag dieser Gewinn marginal erscheinen, aber wenn Sie planen, später einen eigenen Lightning-Knoten einzurichten, ist der Unterschied beträchtlich. In der Tat ist die Durchführung von Zahlungen über Ihren Knoten unterwegs auf Tor aufgrund der zahlreichen erforderlichen Austauschvorgänge extrem langsam, während es mit Tailscale perfekt funktioniert.
+- du können sich mit Ihrem Electrum-Server (Electrs oder Fulcrum) oder direkt mit Bitcoin core über dein VPN verbinden und dabei Tor umgehen. Dies bietet eine sichere Verbindung, vergleichbar mit der Verwendung von Tor, aber mit viel höherer Geschwindigkeit und geringerer Latenz. Kurz gesagt, du behalten die Datenschutz- und Sicherheitsvorteile von Tor, während du die Geschwindigkeit einer Clearnet-Verbindung genießen. Für einen On-Chain Wallet mag dieser Gewinn marginal erscheinen, aber wenn du planen, später einen eigenen Lightning-Node einzurichten, ist der Unterschied beträchtlich. In der Tat ist die Durchführung von Zahlungen über Ihren Node unterwegs auf Tor aufgrund der zahlreichen erforderlichen Austauschvorgänge extrem langsam, während es mit Tailscale perfekt funktioniert.
 
 
 
 
 
-- Sie müssen keine NAT-Regeln konfigurieren, keine Ports öffnen oder einen herkömmlichen VPN-Server einrichten. Sobald die Anwendung auf Umbrel und Ihren Geräten installiert ist, wird das Netzwerk automatisch aufgebaut.
+- du müssen keine NAT-Regeln konfigurieren, keine Ports öffnen oder einen herkömmlichen VPN-Server einrichten. Sobald die Anwendung auf Umbrel und Ihren Geräten installiert ist, wird das Netzwerk automatisch aufgebaut.
 
 
 
-Tailscale on Umbrel ist daher eine sehr interessante Lösung, wenn Sie von überall auf der Welt auf Ihren Knoten zugreifen wollen, und zwar auf eine sichere, leistungsstarke und einfach zu konfigurierende Art und Weise, ohne dabei die Privatsphäre oder die Sicherheit zu opfern.
+Tailscale on Umbrel ist daher eine sehr interessante Lösung, wenn du von überall auf der Welt auf Ihren Node zugreifen wollen, und zwar auf eine sichere, leistungsstarke und einfach zu konfigurierende Art und Weise, ohne dabei die Privatsphäre oder die Sicherheit zu opfern.
 
 
 
-Um Tailscale auf Ihrem Umbrel zu installieren und zu konfigurieren, lesen Sie dieses Tutorial, Abschnitt 4: "*Tailscale auf Umbrel verwenden*":
+Um Tailscale auf Ihrem Umbrel zu installieren und zu konfigurieren, lesen du dieses Tutorial, Abschnitt 4: "*Tailscale auf Umbrel verwenden*":
 
 
 
@@ -2355,15 +2325,15 @@ Mit deinem Umbrel kannst du deine Nutzung von Nostr optimieren. Durch die Instal
 
 
 
-Die Nostr-Clients ***noStrudel*** oder ***Snort*** sind ebenfalls auf Umbrel verfügbar. Dank dieser Anwendungen können Sie Profile veröffentlichen, lesen, suchen und mit dem Nostr-Ökosystem direkt vom Interface Web auf Ihrem Umbrel interagieren.
+Die Nostr-Clients ***noStrudel*** oder ***Snort*** sind ebenfalls auf Umbrel verfügbar. Dank dieser Anwendungen können du Profile veröffentlichen, lesen, suchen und mit dem Nostr-Ökosystem direkt vom Interface Web auf Ihrem Umbrel interagieren.
 
 
 
-Schließlich gibt es die Anwendung ***Nostr Wallet Connect*** auf Umbrel, die native Lightning-Zahlungen innerhalb von Nostr ermöglicht. Konkret können Sie Ihren zukünftigen Lightning-Knoten mit Ihren Nostr-Clients verbinden, um Mikrozahlungen, sogenannte „*Zaps*“, zu senden, um Inhalte zu belohnen oder auf monetarisierte Weise zu interagieren, ohne einen Drittanbieterdienst zu nutzen. Diese Zahlungen werden direkt von Ihrem persönlichen Knoten über Ihre Kanäle gesendet.
+Schließlich gibt es die Anwendung ***Nostr Wallet Connect*** auf Umbrel, die native Lightning-Zahlungen innerhalb von Nostr ermöglicht. Konkret können du Ihren zukünftigen Lightning-Node mit Ihren Nostr-Clients verbinden, um Mikrozahlungen, sogenannte „*Zaps*“, zu senden, um Inhalte zu belohnen oder auf monetarisierte Weise zu interagieren, ohne einen Drittanbieterdienst zu nutzen. Diese Zahlungen werden direkt von Ihrem persönlichen Node über Ihre Kanäle gesendet.
 
 
 
-Um herauszufinden, wie Sie all diese Anwendungen nutzen können, empfehle ich Ihnen, einen Blick auf diese vollständige Anleitung zu werfen:
+Um herauszufinden, wie du all diese Anwendungen nutzen können, empfehle ich dir, einen Blick auf diese vollständige Anleitung zu werfen:
 
 
 
@@ -2373,11 +2343,11 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server ist ein kostenloser Open-Source-Zahlungsprozessor, der es Ihnen ermöglicht, Zahlungen über Bitcoin und Lightning Network ohne Zwischenhändler zu akzeptieren, während Sie die Gelder selbst verwahren können.
+BTCPay Server ist ein kostenloser Open-Source-Zahlungsprozessor, der es dir ermöglicht, Zahlungen über Bitcoin und Lightning Network ohne Zwischenhändler zu akzeptieren, während du die Gelder selbst verwahren können.
 
 
 
-Die Architektur von BTCPay Server basiert auf einem Bitcoin-Knoten und für Lightning auf einer kompatiblen Implementierung (LND, Core Lightning...), was es zu einer der einzigen PoS-Lösungen macht, die vollständig ohne Verwahrung auskommt. Es ist auch die umfassendste Software für Tracking und Buchhaltung.
+Die Architektur von BTCPay Server basiert auf einem Bitcoin-Node und für Lightning auf einer kompatiblen Implementierung (LND, Core Lightning...), was es zu einer der einzigen PoS-Lösungen macht, die vollständig ohne Verwahrung auskommt. Es ist auch die umfassendste Software für Tracking und Buchhaltung.
 
 
 
@@ -2385,7 +2355,7 @@ Die Architektur von BTCPay Server basiert auf einem Bitcoin-Knoten und für Ligh
 
 
 
-Wenn Sie ein Unternehmen besitzen und Bitcoin-Zahlungen direkt über Ihren Umbrel-Knoten akzeptieren möchten, ist die BTCPay Server-Anwendung ideal für Sie. Um mehr über dieses Thema zu erfahren, empfehle ich Ihnen, die folgenden Ressourcen zu konsultieren:
+Wenn du ein Unternehmen besitzen und Bitcoin-Zahlungen direkt über Ihren Umbrel-Node akzeptieren möchten, ist die BTCPay Server-Anwendung ideal für du. Um mehr über dieses Thema zu erfahren, empfehle ich dir, die folgenden Ressourcen zu konsultieren:
 
 
 
@@ -2421,14 +2391,14 @@ https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Pflege deines Umbrel-Knotens
+## Pflege deines Umbrel-Node
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 
 
 
-Zum Auftakt dieses letzten Abschnitts und bevor wir uns der fortgeschrittenen Theorie zuwenden, möchte ich in diesem kurzen Kapitel auf die besten Praktiken und konkreten Maßnahmen eingehen, die Sie ergreifen können, sobald Ihr Umbrel-Knoten installiert, synchronisiert und korrekt konfiguriert ist. Wie pflegen Sie ihn täglich?
+Zum Auftakt dieses letzten Abschnitts und bevor wir uns der fortgeschrittenen Theorie zuwenden, möchte ich in diesem kurzen Kapitel auf die besten Praktiken und konkreten Maßnahmen eingehen, die du ergreifen können, sobald dein Umbrel-Node installiert, synchronisiert und korrekt konfiguriert ist. Wie pflegen du ihn täglich?
 
 
 
@@ -2436,23 +2406,23 @@ Zum Auftakt dieses letzten Abschnitts und bevor wir uns der fortgeschrittenen Th
 
 
 
-Ein zuverlässiger Knoten beginnt mit stabiler Hardware. Stellen Sie sicher, dass das Gerät, in dem Ihr Knoten untergebracht ist, gut belüftet, Dust-frei und in einer trockenen Umgebung installiert ist, fern von Wärme- und Feuchtigkeitsquellen. Vermeiden Sie es, ihn in einen engen Raum zu quetschen und wählen Sie einen gut belüfteten Standort.
+Ein zuverlässiger Node beginnt mit stabiler Hardware. Stellen du sicher, dass das Gerät, in dem dein Node untergebracht ist, gut belüftet, Dust-frei und in einer trockenen Umgebung installiert ist, fern von Wärme- und Feuchtigkeitsquellen. Vermeiden du es, ihn in einen engen Raum zu quetschen und wählen du einen gut belüfteten Standort.
 
 
 
-Bei Raspberry Pi und Mini-PCs verstopft Dust schließlich die Kühlkörper, wodurch die Temperatur ansteigt und es zu einer Drosselung (freiwillige Begrenzung der Ressourcennutzung) kommt, was wiederum zu einem Rückgang der Effizienz Ihres Knotens führt. Deshalb empfehle ich, den Lufteinlass und den Lüfter regelmäßig zu reinigen, am besten alle paar Monate.
+Bei Raspberry Pi und Mini-PCs verstopft Dust schließlich die Kühlkörper, wodurch die Temperatur ansteigt und es zu einer Drosselung (freiwillige Begrenzung der Ressourcennutzung) kommt, was wiederum zu einem Rückgang der Effizienz Ihres Node führt. Deshalb empfehle ich, den Lufteinlass und den Lüfter regelmäßig zu reinigen, am besten alle paar Monate.
 
 
 
-Achten Sie darauf, dass Sie ein hochwertiges Netzgerät Supply verwenden, da eine instabile Spannung zu einer Beschädigung des Systems führen und sogar eine Brandgefahr darstellen kann. Idealerweise sollten Sie das vom Hersteller Ihres Geräts gelieferte Originalnetzteil Supply verwenden. Achten Sie auch auf die Überhitzungsgefahr durch den Joule-Effekt bei Steckdosenleisten: Beachten Sie immer die maximal zulässige Leistung und schließen Sie niemals mehrere Steckdosenleisten in Kaskade an.
+Achten du darauf, dass du ein hochwertiges Netzgerät Supply verwenden, da eine instabile Spannung zu einer Beschädigung des Systems führen und sogar eine Brandgefahr darstellen kann. Idealerweise sollten du das vom Hersteller Ihres Geräts gelieferte Originalnetzteil Supply verwenden. Achten du auch auf die Überhitzungsgefahr durch den Joule-Effekt bei Steckdosenleisten: Beachten du immer die maximal zulässige Leistung und schließen du niemals mehrere Steckdosenleisten in Kaskade an.
 
 
 
-Ich empfehle auch, in eine USV zu investieren. Diese schützt Ihren Knoten vor plötzlichen Abschaltungen, ermöglicht Umbrel ein sauberes Herunterfahren im Falle eines Ausfalls und gewährleistet die Kontinuität des Betriebs bei Mikroausfällen oder kurzfristigen Störungen.
+Ich empfehle auch, in eine USV zu investieren. Diese schützt Ihren Node vor plötzlichen Abschaltungen, ermöglicht Umbrel ein sauberes Herunterfahren im Falle eines Ausfalls und gewährleistet die Kontinuität des Betriebs bei Mikroausfällen oder kurzfristigen Störungen.
 
 
 
-Auf der Speicherseite sollten Sie den Fortschritt im Auge behalten: Wenn sich die Festplatte der Sättigung nähert, sollten Sie erwägen, Speicherplatz freizugeben (Deinstallation ungenutzter Anwendungen, Anpassung der Indexer-Einstellungen) oder auf eine größere SSD zu migrieren. Der Nachteil eines vollen Bitcoin-Knotens ist, dass sein Speicherbedarf kontinuierlich steigt, da alle 10 Minuten ein neuer Block erzeugt wird und alte Blöcke nicht gelöscht werden können (es sei denn, der Knoten ist pruned). Ich rate Ihnen daher, beim Kauf Ihrer Hardware eine ausreichend große Kapazität einzuplanen (mindestens 2 TB).
+Auf der Speicherseite sollten du den Fortschritt im Auge behalten: Wenn sich die Festplatte der Sättigung nähert, sollten du erwägen, Speicherplatz freizugeben (Deinstallation ungenutzter Anwendungen, Anpassung der Indexer-Einstellungen) oder auf eine größere SSD zu migrieren. Der Nachteil eines vollen Bitcoin-Node ist, dass sein Speicherbedarf kontinuierlich steigt, da alle 10 Minuten ein neuer Block erzeugt wird und alte Blöcke nicht gelöscht werden können (es sei denn, der Node ist pruned). Ich rate dir daher, beim Kauf Ihrer Hardware eine ausreichend große Kapazität einzuplanen (mindestens 2 TB).
 
 
 
@@ -2460,13 +2430,13 @@ Auf der Speicherseite sollten Sie den Fortschritt im Auge behalten: Wenn sich di
 
 
 
-Node-Updates sind aus drei Gründen wichtig: erstens für die Sicherheit (Patches für Sicherheitslücken, Netzwerkhärtung und DoS-Schutz), zweitens für die Kompatibilität (Änderungen der Relay-Policy, Formatänderungen und Protokoll-Upgrades) und drittens für die Zuverlässigkeit und Leistung (Fehlerbehebungen, Ressourcenverbrauch und andere Verbesserungen). Prüfen Sie also regelmäßig, ob UmbrelOS und Ihre Anwendungen auf dem neuesten Stand sind:
+Node-Updates sind aus drei Gründen wichtig: erstens für die Sicherheit (Patches für Sicherheitslücken, Netzwerkhärtung und DoS-Schutz), zweitens für die Kompatibilität (Änderungen der Relay-Policy, Formatänderungen und Protokoll-Upgrades) und drittens für die Zuverlässigkeit und Leistung (Fehlerbehebungen, Ressourcenverbrauch und andere Verbesserungen). Prüfen du also regelmäßig, ob UmbrelOS und Ihre Anwendungen auf dem neuesten Stand sind:
 
 
 
 
 
-- So aktualisieren Sie das System: Öffnen Sie das Einstellungsmenü und klicken Sie auf die Schaltfläche "*Aktualisierung prüfen*" neben dem Parameter "*UmbrelOS*".
+- So aktualisieren du das System: Öffnen du das Einstellungsmenü und klicken du auf die Schaltfläche "*Aktualisierung prüfen*" neben dem Parameter "*UmbrelOS*".
 
 
 
@@ -2476,11 +2446,11 @@ Node-Updates sind aus drei Gründen wichtig: erstens für die Sicherheit (Patche
 
 
 
-- So aktualisieren Sie Anwendungen: Rufen Sie den App Store auf. Wenn eine Ihrer Anwendungen aktualisiert werden muss, erscheint in der oberen rechten Ecke des Interface eine Schaltfläche mit einer roten Blase. Klicken Sie einfach darauf und aktualisieren Sie dann jede Anwendung.
+- So aktualisieren du Anwendungen: Rufen du den App Store auf. Wenn eine Ihrer Anwendungen aktualisiert werden muss, erscheint in der oberen rechten Ecke des Interface eine Schaltfläche mit einer roten Blase. Klicken du einfach darauf und aktualisieren du dann jede Anwendung.
 
 
 
-Führen Sie diesen Vorgang regelmäßig durch, um Ihr Betriebssystem und Ihre Anwendungen auf dem neuesten Stand zu halten.
+Führen du diesen Vorgang regelmäßig durch, um dein Betriebssystem und Ihre Anwendungen auf dem neuesten Stand zu halten.
 
 
 
@@ -2488,15 +2458,15 @@ Führen Sie diesen Vorgang regelmäßig durch, um Ihr Betriebssystem und Ihre An
 
 
 
-Wenn du deinen Bitcoin Knoten nur zur Validierung und Verteilung deiner Transaktionen verwendest, deine Wallets aber außerhalb von Umbrel verwaltet werden (z.B. mit einem Hardware Wallet und Sparrow wallet), gibt es nichts, was du direkt in Umbrel sichern musst. In diesem Fall bleibt das wesentliche Backup das der Recovery Phrase und des Descriptor deines externen Wallet, und das gilt unabhängig davon, ob du deinen eigenen Node benutzt oder nicht. Es ändert sich also nichts an Ihrer bisherigen Konfiguration.
+Wenn du deinen Bitcoin Node nur zur Validierung und Verteilung deiner Transaktionen verwendest, deine Wallets aber außerhalb von Umbrel verwaltet werden (z.B. mit einem Hardware Wallet und Sparrow wallet), gibt es nichts, was du direkt in Umbrel sichern musst. In diesem Fall bleibt das wesentliche Backup das der Recovery Phrase und des Descriptor deines externen Wallet, und das gilt unabhängig davon, ob du deinen eigenen Node benutzt oder nicht. Es ändert sich also nichts an Ihrer bisherigen Konfiguration.
 
 
 
-Andererseits können je nach den zusätzlichen Anwendungen, die Sie auf Umbrel verwenden, weitere Backups erforderlich sein. Dies ist insbesondere dann der Fall, wenn Sie einen Lightning-Knoten auf Umbrel betreiben. In diesem Fall ist es unbedingt notwendig, das seed, das bei der Installation des Lightning-Knotens mitgeliefert wurde, zu sichern. Zusätzlich zum seed benötigen Sie ein aktuelles ***Static Channel Backup (SCB)***, um Ihren Lightning-Knoten im Falle eines Problems wiederherstellen zu können. Mit SCB können Sie Ihre Gelder wiederherstellen, indem Sie Kanäle zwangsweise schließen. Wenn entweder der seed oder die SCB fehlt, ist es unmöglich, einen Lightning-Knoten wiederherzustellen.
+Andererseits können je nach den zusätzlichen Anwendungen, die du auf Umbrel verwenden, weitere Backups erforderlich sein. Dies ist insbesondere dann der Fall, wenn du einen Lightning-Node auf Umbrel betreiben. In diesem Fall ist es unbedingt notwendig, das seed, das bei der Installation des Lightning-Node mitgeliefert wurde, zu sichern. Zusätzlich zum seed benötigen du ein aktuelles ***Static Channel Backup (SCB)***, um Ihren Lightning-Node im Falle eines Problems wiederherstellen zu können. Mit SCB können du Ihre Gelder wiederherstellen, indem du Kanäle zwangsweise schließen. Wenn entweder der seed oder die SCB fehlt, ist es unmöglich, einen Lightning-Node wiederherzustellen.
 
 
 
-Umbrel bietet auch die Möglichkeit, diese SCB automatisch und dynamisch über Tor auf ihren Servern zu sichern, um sicherzustellen, dass immer eine aktuelle Datei verfügbar ist. In diesem Fall wird nur der seed benötigt, um den Knoten wiederherzustellen.
+Umbrel bietet auch die Möglichkeit, diese SCB automatisch und dynamisch über Tor auf ihren Servern zu sichern, um sicherzustellen, dass immer eine aktuelle Datei verfügbar ist. In diesem Fall wird nur der seed benötigt, um den Node wiederherzustellen.
 
 
 
@@ -2508,15 +2478,15 @@ Wir werden diese Aspekte im nächsten LNP202-Kurs noch einmal im Detail behandel
 
 
 
-Was die Sicherheit betrifft, verwenden Sie ein langes, eindeutiges und zufälliges Passwort für Interface Umbrel und denken Sie daran, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Bei Anwendungen, die sowohl einen Passwort- als auch einen 2FA-Schutz bieten, aktivieren Sie immer beide und ändern Sie die Standardpasswörter.
+Was die Sicherheit betrifft, verwenden du ein langes, eindeutiges und zufälliges Passwort für Interface Umbrel und denken du daran, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Bei Anwendungen, die sowohl einen Passwort- als auch einen 2FA-Schutz bieten, aktivieren du immer beide und ändern du die Standardpasswörter.
 
 
 
-Stellen Sie das Dashboard niemals ins Internet, ohne ein sicheres Gateway zu verwenden (z. B. VPN, Tor oder nur lokaler Zugang). Begrenzen Sie die Anzahl der Anwendungen, die Sie installieren, und löschen Sie regelmäßig die Anwendungen, die Sie nicht mehr benötigen, um die Angriffsfläche zu verringern.
+Stellen du das Dashboard niemals ins Internet, ohne ein sicheres Gateway zu verwenden (z. B. VPN, Tor oder nur lokaler Zugang). Begrenzen du die Anzahl der Anwendungen, die du installieren, und löschen du regelmäßig die Anwendungen, die du nicht mehr benötigen, um die Angriffsfläche zu verringern.
 
 
 
-Um Ihr Wissen über Computersicherheit im Allgemeinen zu vertiefen, empfehle ich Ihnen, diesen anderen kostenlosen Kurs zu besuchen:
+Um dein Wissen über Computersicherheit im Allgemeinen zu vertiefen, empfehle ich dir, diesen anderen kostenlosen Kurs zu besuchen:
 
 
 
@@ -2526,19 +2496,19 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-Im Falle eines Fehlers auf Ihrem Umbrel, starten Sie zuerst generate ein Diagnosepaket über die Troubleshooting-Sektion von UmbrelOS oder der betreffenden Anwendung, dann starten Sie die Anwendung sauber neu. Versuchen Sie ggf. auch einen kompletten Neustart des Systems.
+Im Falle eines Fehlers auf Ihrem Umbrel, starten du zuerst generate ein Diagnosepaket über die Troubleshooting-Sektion von UmbrelOS oder der betreffenden Anwendung, dann starten du die Anwendung sauber neu. Versuchen du ggf. auch einen kompletten Neustart des Systems.
 
 
 
-Wenn das Problem weiterhin besteht, empfehle ich Ihnen, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten](https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel "Allgemeine Unterstützung" posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
+Wenn das Problem weiterhin besteht, empfehle ich dir, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten](https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel "Allgemeine Unterstützung" posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
 
 
 
-In diesen Bereichen können Sie nicht nur Sicherheitsankündigungen und -aktualisierungen verfolgen, sondern auch Fragen stellen und letztlich anderen Benutzern helfen. Oft werden bei diesem Austausch bewährte Verfahren entdeckt.
+In diesen Bereichen können du nicht nur Sicherheitsankündigungen und -aktualisierungen verfolgen, sondern auch Fragen stellen und letztlich anderen Benutzern helfen. Oft werden bei diesem Austausch bewährte Verfahren entdeckt.
 
 
 
-Mit diesen einfachen Gewohnheiten wird Ihr Umbrel-Knoten stabil, sicher und nützlich bleiben, sowohl für Sie als auch für das Bitcoin Netz.
+Mit diesen einfachen Gewohnheiten wird dein Umbrel-Node stabil, sicher und nützlich bleiben, sowohl für du als auch für das Bitcoin Netz.
 
 
 
@@ -2550,7 +2520,7 @@ Mit diesen einfachen Gewohnheiten wird Ihr Umbrel-Knoten stabil, sicher und nüt
 
 
 
-Ihr Bitcoin-Knoten wird ohne vorherige Kenntnis der Transaktionshistorie in Betrieb genommen. Zunächst ist er nur ein Computer, auf dem eine Software (Bitcoin core oder ähnlich) läuft. Um ein vollständig synchronisierter und funktionsfähiger Bitcoin-Knoten zu werden, muss er lokal den Zustand des Ledger rekonstruieren, indem er alle Blöcke überprüft, die seit dem Genesis-Block (Block 0, veröffentlicht von Satoshi Nakamoto am 3. Januar 2009) veröffentlicht wurden. Dieser Schritt wird **IBD (_Initial Block Download_)** genannt.
+dein Bitcoin-Node wird ohne vorherige Kenntnis der Transaktionshistorie in Betrieb genommen. Zunächst ist er nur ein Computer, auf dem eine Software (Bitcoin core oder ähnlich) läuft. Um ein vollständig synchronisierter und funktionsfähiger Bitcoin-Node zu werden, muss er lokal den Zustand des Ledger rekonstruieren, indem er alle Blöcke überprüft, die seit dem Genesis-Block (Block 0, veröffentlicht von Satoshi Nakamoto am 3. Januar 2009) veröffentlicht wurden. Dieser Schritt wird **IBD (_Initial Block Download_)** genannt.
 
 
 
@@ -2566,7 +2536,7 @@ IBD besteht darin, jeden Block und jede Transaktion einzeln herunterzuladen und 
 
 
 
-Die Synchronisierung beginnt mit dem Schritt _**headers-first**_. Ihr Knoten fordert die Folge von Block-Headern von mehreren Peers an und prüft für jeden von ihnen Proof of Work, Schwierigkeitsanpassung, Syntax sowie Timestamp und Versionsnummernregeln. Kurz gesagt, er stellt sicher, dass jeder empfangene Header den Konsensregeln entspricht.
+Die Synchronisierung beginnt mit dem Schritt _**headers-first**_. dein Node fordert die Folge von Block-Headern von mehreren Peers an und prüft für jeden von ihnen Proof of Work, Schwierigkeitsanpassung, Syntax sowie Timestamp und Versionsnummernregeln. Kurz gesagt, er stellt sicher, dass jeder empfangene Header den Konsensregeln entspricht.
 
 
 
@@ -2600,15 +2570,15 @@ Transaktionen werden in eine Merkle Tree übertragen. Dabei handelt es sich um e
 
 
 
-Dieser _**headers-first**_-Schritt ermöglicht es dem Knoten, den Zweig mit der meisten Arbeit (unabhängig von der Anzahl der Blöcke) zu identifizieren, d. h. den Zweig, auf den sich Bitcoin-Knoten synchronisieren. Sobald dieser Zweig identifiziert ist, lädt der Knoten den Inhalt der Blöcke parallel von mehreren Verbindungen herunter und validiert dann jede Transaktion: Format, Gültigkeit der Skripte (außer `assumevalid=1`), Beträge und das Fehlen von Doppelausgaben. Bei jeder erfolgreichen Prüfung wird der aktuelle Stand der nicht ausgegebenen Münzen (UTXO-Set) in der Datenbank "chainstate/" aktualisiert: ausgegebene Ausgaben werden entfernt, während neue gültige Ausgaben hinzugefügt werden.
+Dieser _**headers-first**_-Schritt ermöglicht es dem Node, den Zweig mit der meisten Arbeit (unabhängig von der Anzahl der Blöcke) zu identifizieren, d. h. den Zweig, auf den sich Bitcoin-Node synchronisieren. Sobald dieser Zweig identifiziert ist, lädt der Node den Inhalt der Blöcke parallel von mehreren Verbindungen herunter und validiert dann jede Transaktion: Format, Gültigkeit der Skripte (außer `assumevalid=1`), Beträge und das Fehlen von Doppelausgaben. Bei jeder erfolgreichen Prüfung wird der aktuelle Stand der nicht ausgegebenen Münzen (UTXO-Set) in der Datenbank "chainstate/" aktualisiert: ausgegebene Ausgaben werden entfernt, während neue gültige Ausgaben hinzugefügt werden.
 
 
 
-Mempool hingegen kommt nur ins Spiel, wenn man sich der Spitze der Kette nähert: Solange der Knoten spät dran ist, hat er keine anstehenden Transaktionen zu speichern.
+Mempool hingegen kommt nur ins Spiel, wenn man sich der Spitze der Kette nähert: Solange der Node spät dran ist, hat er keine anstehenden Transaktionen zu speichern.
 
 
 
-Sobald die IBD abgeschlossen ist, tritt der Knoten in seine normale Phase ein: Er validiert neue Blöcke, sobald sie veröffentlicht werden, unterhält seinen Mempool mit ausstehenden Transaktionen gemäß seinen Relay-Regeln, leitet Transaktionen und Blöcke weiter und verwaltet etwaige Kettenumstrukturierungen.
+Sobald die IBD abgeschlossen ist, tritt der Node in seine normale Phase ein: Er validiert neue Blöcke, sobald sie veröffentlicht werden, unterhält seinen Mempool mit ausstehenden Transaktionen gemäß seinen Relay-Regeln, leitet Transaktionen und Blöcke weiter und verwaltet etwaige Kettenumstrukturierungen.
 
 
 
@@ -2616,11 +2586,11 @@ Sobald die IBD abgeschlossen ist, tritt der Knoten in seine normale Phase ein: E
 
 
 
-Bitcoin core enthält einen Mechanismus, der die Zeit bis zur vollen Betriebsbereitschaft eines Knotens verkürzen soll, wobei das Prinzip der autonomen Überprüfung im Wesentlichen beibehalten wird: AssumeValid.
+Bitcoin core enthält einen Mechanismus, der die Zeit bis zur vollen Betriebsbereitschaft eines Node verkürzen soll, wobei das Prinzip der autonomen Überprüfung im Wesentlichen beibehalten wird: AssumeValid.
 
 
 
-Der Parameter `assumevalid` basiert auf einem vergangenen Referenzblock, dessen Hash in jede Softwareversion integriert ist. Wenn Ihr Knoten während der IBD feststellt, dass sich dieser Block tatsächlich auf dem Zweig mit der meisten Arbeit befindet, kann er die Skriptüberprüfung für alle Transaktionen vor diesem Punkt ignorieren.
+Der Parameter `assumevalid` basiert auf einem vergangenen Referenzblock, dessen Hash in jede Softwareversion integriert ist. Wenn dein Node während der IBD feststellt, dass sich dieser Block tatsächlich auf dem Zweig mit der meisten Arbeit befindet, kann er die Skriptüberprüfung für alle Transaktionen vor diesem Punkt ignorieren.
 
 
 
@@ -2628,7 +2598,7 @@ Alle anderen Regeln (Blockstruktur, Proof of Work, Größenbeschränkungen, Tran
 
 
 
-Sie können die vollständige Validierung aller Skripte erzwingen, indem Sie diesen Mechanismus deaktivieren, allerdings auf Kosten einer viel längeren IBD, indem Sie den Parameter `assumevalid=0` in der Datei `Bitcoin.conf` verwenden.
+du können die vollständige Validierung aller Skripte erzwingen, indem du diesen Mechanismus deaktivieren, allerdings auf Kosten einer viel längeren IBD, indem du den Parameter `assumevalid=0` in der Datei `Bitcoin.conf` verwenden.
 
 
 
@@ -2640,15 +2610,15 @@ ein weiterer vorhandener Parameter ist `assumeutxo`, der jedoch im Gegensatz zu 
 
 
 
-Auf diese Weise wird der Knoten schnell für gängige Zwecke (RPC, Verbindung zu Geldbörsen usw.) einsatzbereit, während er gleichzeitig im Hintergrund die vollständige, geprüfte Rekonstruktion seines eigenen UTXO-Satzes in Angriff nimmt. Sobald diese Phase abgeschlossen ist, wird der anfängliche Schnappschuss durch den lokal rekonstruierten Zustand ersetzt. Dieser Ansatz trennt die schnelle Bereitstellung von Knoten von der vollständigen Überprüfung, ohne letztere zu beeinträchtigen.
+Auf diese Weise wird der Node schnell für gängige Zwecke (RPC, Verbindung zu Geldbörsen usw.) einsatzbereit, während er gleichzeitig im Hintergrund die vollständige, geprüfte Rekonstruktion seines eigenen UTXO-Satzes in Angriff nimmt. Sobald diese Phase abgeschlossen ist, wird der anfängliche Schnappschuss durch den lokal rekonstruierten Zustand ersetzt. Dieser Ansatz trennt die schnelle Bereitstellung von Node von der vollständigen Überprüfung, ohne letztere zu beeinträchtigen.
 
 
 
-### Peer-Erkennung: Wie findet Ihr Knoten das Bitcoin-Netzwerk?
+### Peer-Erkennung: Wie findet dein Node das Bitcoin-Netzwerk?
 
 
 
-Wenn ein Knoten zum ersten Mal in Betrieb genommen wird, kennt er noch keine Peers. Er muss jedoch andere Bitcoin-Knoten im Internet finden, um Header und dann Blöcke anzufordern, um seinen IBD abzuschließen. Um diese Verbindungen zu initiieren, folgt Bitcoin core einer priorisierten Logik.
+Wenn ein Node zum ersten Mal in Betrieb genommen wird, kennt er noch keine Peers. Er muss jedoch andere Bitcoin-Node im Internet finden, um Header und dann Blöcke anzufordern, um seinen IBD abzuschließen. Um diese Verbindungen zu initiieren, folgt Bitcoin core einer priorisierten Logik.
 
 
 
@@ -2656,11 +2626,11 @@ Wenn ein Knoten zum ersten Mal in Betrieb genommen wird, kennt er noch keine Pee
 
 
 
-Wenn der Knoten neu gestartet wird, nachdem er bereits benutzt wurde, versucht Core zunächst, die Verbindung zu ausgehenden Gegenstellen wiederherzustellen, die vor dem Herunterfahren registriert wurden, wobei die Informationen in der Datei "anchors.dat" gespeichert sind. Dann konsultiert er sein IP-Address-Buch **`peers.dat`**, in dem die Liste der zuvor angetroffenen Gegenstellen gespeichert ist, um sich erneut mit ihnen zu verbinden. Dies ist einfach eine lokale Datei, die von Core aktualisiert und aufbewahrt wird. Bei einem neuen Knoten, der gerade erst gestartet wurde, sind diese beiden Dateien hingegen leer, da er noch nie mit anderen Bitcoin-Knoten kommuniziert hat.
+Wenn der Node neu gestartet wird, nachdem er bereits benutzt wurde, versucht Core zunächst, die Verbindung zu ausgehenden Gegenstellen wiederherzustellen, die vor dem Herunterfahren registriert wurden, wobei die Informationen in der Datei "anchors.dat" gespeichert sind. Dann konsultiert er sein IP-Address-Buch **`peers.dat`**, in dem die Liste der zuvor angetroffenen Gegenstellen gespeichert ist, um sich erneut mit ihnen zu verbinden. Dies ist einfach eine lokale Datei, die von Core aktualisiert und aufbewahrt wird. Bei einem neuen Node, der gerade erst gestartet wurde, sind diese beiden Dateien hingegen leer, da er noch nie mit anderen Bitcoin-Node kommuniziert hat.
 
 
 
-In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Knoten zurückgeben. Anhand dieser Adressen kann der neue Knoten seine ersten Verbindungen herstellen und die erforderlichen Daten von der IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
+In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Node zurückgeben. Anhand dieser Adressen kann der neue Node seine ersten Verbindungen herstellen und die erforderlichen Daten von der IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
 
 
 
@@ -2677,7 +2647,7 @@ In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [
 
 
 
-In den allermeisten Fällen reicht der Schritt *DNS-Seeds* aus, um die ersten Verbindungen mit anderen Knoten herzustellen. Wenn diese Server ausnahmsweise nicht innerhalb von 60 Sekunden antworten, geht der Knoten zu einer anderen Methode über: [eine statische Liste mit über 1.000 Adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) von _Saatknoten_ ist in den Code von Bitcoin core eingebaut und wird regelmäßig aktualisiert. Wenn die ersten beiden Methoden zur Beschaffung von IP-Adressen fehlschlagen, stellt diese letzte Lösung eine erste Verbindung her, von der aus der Knoten dann neue IP-Adressen anfordern kann.
+In den allermeisten Fällen reicht der Schritt *DNS-Seeds* aus, um die ersten Verbindungen mit anderen Node herzustellen. Wenn diese Server ausnahmsweise nicht innerhalb von 60 Sekunden antworten, geht der Node zu einer anderen Methode über: [eine statische Liste mit über 1.000 Adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) von _Saatknoten_ ist in den Code von Bitcoin core eingebaut und wird regelmäßig aktualisiert. Wenn die ersten beiden Methoden zur Beschaffung von IP-Adressen fehlschlagen, stellt diese letzte Lösung eine erste Verbindung her, von der aus der Node dann neue IP-Adressen anfordern kann.
 
 
 
@@ -2685,27 +2655,27 @@ In den allermeisten Fällen reicht der Schritt *DNS-Seeds* aus, um die ersten Ve
 
 
 
-Als letzten Ausweg können Sie manuell Supply IP-Adressen über die Datei "peers.dat" verwenden, um bestimmte Verbindungen zu erzwingen.
+Als letzten Ausweg können du manuell Supply IP-Adressen über die Datei "peers.dat" verwenden, um bestimmte Verbindungen zu erzwingen.
 
 
 
-Nach dem Hochfahren diversifiziert der interne Address-Manager die Quellen (separate autonome Netze, Clearnet und Tor sowie verschiedene geografische Gebiete), um das Risiko einer topologischen Isolierung zu verringern. Der Knoten stellt diese ausgehenden Verbindungen her (Verbindungen, die er selbst auswählt und die daher sicherer sind).
+Nach dem Hochfahren diversifiziert der interne Address-Manager die Quellen (separate autonome Netze, Clearnet und Tor sowie verschiedene geografische Gebiete), um das Risiko einer topologischen Isolierung zu verringern. Der Node stellt diese ausgehenden Verbindungen her (Verbindungen, die er selbst auswählt und die daher sicherer sind).
 
 
 
-Wenn Ihr Knoten an einem offenen Port lauscht (standardmäßig 8333), nimmt er eingehende Verbindungen an. Diese stärken die allgemeine Widerstandsfähigkeit des Netzwerks, indem sie eine Anlaufstelle für neue Knoten bieten, ohne einen besonderen Nutzen für deinen eigenen IBD zu bringen. Wenn dein Knoten auf Tor läuft, bleibt die Logik die gleiche, aber die verwendeten Adressen sind `.onion`-Dienste.
+Wenn dein Node an einem offenen Port lauscht (standardmäßig 8333), nimmt er eingehende Verbindungen an. Diese stärken die allgemeine Widerstandsfähigkeit des Netzwerks, indem sie eine Anlaufstelle für neue Node bieten, ohne einen besonderen Nutzen für deinen eigenen IBD zu bringen. Wenn dein Node auf Tor läuft, bleibt die Logik die gleiche, aber die verwendeten Adressen sind `.onion`-Dienste.
 
 
 
 
-## Anatomie deines Bitcoin-Knotens
+## Anatomie deines Bitcoin-Node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
 
 
-Wenn Ihr Knoten seine anfängliche Synchronisierung abgeschlossen hat, speichert er lokal mehrere komplementäre Datensätze, die es ihm ermöglichen, Blöcke und Transaktionen zu validieren, Netzwerk-Peers zu bedienen und unter Beibehaltung seines Zustands schnell neu zu starten. 3 Hauptbausteine sind für einen Knoten unerlässlich:
+Wenn dein Node seine anfängliche Synchronisierung abgeschlossen hat, speichert er lokal mehrere komplementäre Datensätze, die es ihm ermöglichen, Blöcke und Transaktionen zu validieren, Netzwerk-Peers zu bedienen und unter Beibehaltung seines Zustands schnell neu zu starten. 3 Hauptbausteine sind für einen Node unerlässlich:
 
 
 
@@ -2716,15 +2686,15 @@ Wenn Ihr Knoten seine anfängliche Synchronisierung abgeschlossen hat, speichert
 
 
 
-Darüber hinaus vervollständigen mehrere Hilfsdateien (Peers, Gebührenvoranschläge, Ausschlusslisten, Geldbörsen usw.) das Bild. Lassen Sie uns die Rolle all dieser Dateien entdecken.
+Darüber hinaus vervollständigen mehrere Hilfsdateien (Peers, Gebührenvoranschläge, Ausschlusslisten, Geldbörsen usw.) das Bild. Lassen du uns die Rolle all dieser Dateien entdecken.
 
 
 
-### Wo befinden sich die Daten des Knotens tatsächlich?
+### Wo befinden sich die Daten des Node tatsächlich?
 
 
 
-Bitcoin core speichert seine Daten standardmäßig in einem bestimmten Arbeitsverzeichnis. Unter GNU/Linux befindet sich dieses Verzeichnis normalerweise in `~/.Bitcoin/`, unter Windows in `%APPDATA%\Bitcoin/` und unter macOS in `~/Library/Application Support/Bitcoin/`. Wenn Sie eine Paketlösung verwenden (z. B. innerhalb einer Node-Distribution), kann dieses Verzeichnis an anderer Stelle eingebunden sein, seine Struktur bleibt jedoch gleich. Die wichtigen Unterordner und Dateien, die im Folgenden beschrieben werden, befinden sich weiterhin hier.
+Bitcoin core speichert seine Daten standardmäßig in einem bestimmten Arbeitsverzeichnis. Unter GNU/Linux befindet sich dieses Verzeichnis normalerweise in `~/.Bitcoin/`, unter Windows in `%APPDATA%\Bitcoin/` und unter macOS in `~/Library/Application Support/Bitcoin/`. Wenn du eine Paketlösung verwenden (z. B. innerhalb einer Node-Distribution), kann dieses Verzeichnis an anderer Stelle eingebunden sein, seine Struktur bleibt jedoch gleich. Die wichtigen Unterordner und Dateien, die im Folgenden beschrieben werden, befinden sich weiterhin hier.
 
 
 
@@ -2740,7 +2710,7 @@ Blockchain ist also eine Sammlung von Blöcken. Ein Full node speichert diese Bl
 
 
 
-**Hinweis:** Eine Reorganisation oder Resynchronisation ist ein Phänomen, bei dem der Blockchain aufgrund der Existenz konkurrierender Blöcke auf gleicher Höhe eine Änderung seiner Struktur erfährt. Dies geschieht, wenn ein Teil des Blockchain durch eine andere Kette mit einer größeren Menge an angesammelter Arbeit ersetzt wird. Diese Resynchronisationen sind ein natürlicher Teil der Funktionsweise von Bitcoin, bei der verschiedene Schürfer fast gleichzeitig neue Blöcke finden können, wodurch das Bitcoin-Netzwerk in zwei Teile geteilt wird. In solchen Fällen kann sich das Netzwerk vorübergehend in konkurrierende Ketten aufteilen. Wenn eine dieser Ketten mehr Arbeit anhäuft, werden die anderen Ketten von den Knoten aufgegeben, und ihre Blöcke werden als "veraltete Blöcke" oder "verwaiste Blöcke" bezeichnet Dieser Prozess des Ersetzens einer Kette durch eine andere wird als Resynchronisierung bezeichnet.
+**Hinweis:** Eine Reorganisation oder Resynchronisation ist ein Phänomen, bei dem der Blockchain aufgrund der Existenz konkurrierender Blöcke auf gleicher Höhe eine Änderung seiner Struktur erfährt. Dies geschieht, wenn ein Teil des Blockchain durch eine andere Kette mit einer größeren Menge an angesammelter Arbeit ersetzt wird. Diese Resynchronisationen sind ein natürlicher Teil der Funktionsweise von Bitcoin, bei der verschiedene Schürfer fast gleichzeitig neue Blöcke finden können, wodurch das Bitcoin-Netzwerk in zwei Teile geteilt wird. In solchen Fällen kann sich das Netzwerk vorübergehend in konkurrierende Ketten aufteilen. Wenn eine dieser Ketten mehr Arbeit anhäuft, werden die anderen Ketten von den Node aufgegeben, und ihre Blöcke werden als "veraltete Blöcke" oder "verwaiste Blöcke" bezeichnet Dieser Prozess des Ersetzens einer Kette durch eine andere wird als Resynchronisierung bezeichnet.
 
 
 
@@ -2756,7 +2726,7 @@ Empfangene und validierte Blöcke werden in sequentielle Container mit dem Namen
 
 
 
-Im pruned-Modus speichert der Knoten nur ein aktuelles Fenster dieser Dateien, um den Speicherplatzbedarf zu begrenzen. Er löscht die ältesten "blk*.dat"-Container, sobald das konfigurierte Speicherplatzziel erreicht ist, behält aber genügend Historie bei, um mit der besten bekannten Kette konsistent zu bleiben. Der Index und der UTXO-Satz bleiben normal, so dass die nächsten Transaktionen und Blöcke validiert werden können.
+Im pruned-Modus speichert der Node nur ein aktuelles Fenster dieser Dateien, um den Speicherplatzbedarf zu begrenzen. Er löscht die ältesten "blk*.dat"-Container, sobald das konfigurierte Speicherplatzziel erreicht ist, behält aber genügend Historie bei, um mit der besten bekannten Kette konsistent zu bleiben. Der Index und der UTXO-Satz bleiben normal, so dass die nächsten Transaktionen und Blöcke validiert werden können.
 
 
 
@@ -2764,7 +2734,7 @@ Im pruned-Modus speichert der Knoten nur ein aktuelles Fenster dieser Dateien, u
 
 
 
-Um während einer Reorganisation in der Zeit zurückgehen zu können, speichert Core parallel zu jeder "blk"-Datei eine "revNNNNN.dat"-Datei in "blocks/". Diese Datei enthält die Informationen, die erforderlich sind, um die Auswirkungen eines Blocks auf den UTXO-Satz rückgängig zu machen: für jeden vom Block verbrauchten Ausgang wird der vorherige Zustand des entsprechenden UTXO gespeichert (Menge, Skript, Höhe...). Im Falle eines Blockabbruchs kann der Knoten den vorherigen Zustand schnell wiederherstellen, ohne die gesamte Kette erneut scannen zu müssen.
+Um während einer Reorganisation in der Zeit zurückgehen zu können, speichert Core parallel zu jeder "blk"-Datei eine "revNNNNN.dat"-Datei in "blocks/". Diese Datei enthält die Informationen, die erforderlich sind, um die Auswirkungen eines Blocks auf den UTXO-Satz rückgängig zu machen: für jeden vom Block verbrauchten Ausgang wird der vorherige Zustand des entsprechenden UTXO gespeichert (Menge, Skript, Höhe...). Im Falle eines Blockabbruchs kann der Node den vorherigen Zustand schnell wiederherstellen, ohne die gesamte Kette erneut scannen zu müssen.
 
 
 
@@ -2794,7 +2764,7 @@ Einige Indizes sind optional und standardmäßig deaktiviert, da sie den Speiche
 
 
 - indexes/txindex/`, das wir bereits erwähnt haben, bietet eine Tabelle zur Abbildung von Transaktion → Ort, die es ermöglicht, jede bestätigte Transaktion abzurufen, ohne den Block zu kennen, der sie enthält. Dies ist nützlich für Wallet-Abfragen vom Typ "getrawtransaction", ist aber recht teuer.
-- indexes/blockfilter/`, die kompakte Blockfilter (BIP157/158) für Thin Clients enthalten können. Diese Strukturen beschleunigen die clientseitige Überprüfung auf Kosten von zusätzlichem Speicherplatz auf dem Indexer-Knoten.
+- indexes/blockfilter/`, die kompakte Blockfilter (BIP157/158) für Thin Clients enthalten können. Diese Strukturen beschleunigen die clientseitige Überprüfung auf Kosten von zusätzlichem Speicherplatz auf dem Indexer-Node.
 
 
 
@@ -2810,7 +2780,7 @@ Das Modell UTXO (*Unspent Transaction Output*) ist die buchhalterische Darstellu
 
 
 
-Die Gesamtheit all dieser Teile zu einem bestimmten Zeitpunkt T bildet den UTXO-Satz: eine große Liste aller jetzt verfügbaren Teile. Diesen Zustand konsultiert der Knoten, um zu entscheiden, ob eine Transaktion legitime Einheiten ausgibt, die nicht bereits in einer früheren Transaktion verwendet wurden (um Double-spending zu vermeiden).
+Die Gesamtheit all dieser Teile zu einem bestimmten Zeitpunkt T bildet den UTXO-Satz: eine große Liste aller jetzt verfügbaren Teile. Diesen Zustand konsultiert der Node, um zu entscheiden, ob eine Transaktion legitime Einheiten ausgibt, die nicht bereits in einer früheren Transaktion verwendet wurden (um Double-spending zu vermeiden).
 
 
 
@@ -2826,7 +2796,7 @@ Der UTXO-Satz wird im Ordner `chainstate/` als kompakte LevelDB-Datenbank gespei
 
 
 
-Der Knoten unterhält einen Speicher-Cache oberhalb von LevelDB, um häufige Lese- und Schreibvorgänge aufzufangen. Mit dem Parameter `dbcache` kann die Größe dieses Caches verändert werden: je größer er ist, desto mehr Speicherzugriffe kommen der IBD und der aktuellen Validierung zugute, allerdings auf Kosten eines höheren RAM-Verbrauchs. Wird ein neuer Block von einem Miner gefunden, löscht der Knoten die von den im Block enthaltenen Transaktionen ausgegebenen (oder verbrauchten) Outputs aus dem UTXO-Satz und fügt die neu erstellten Outputs hinzu.
+Der Node unterhält einen Speicher-Cache oberhalb von LevelDB, um häufige Lese- und Schreibvorgänge aufzufangen. Mit dem Parameter `dbcache` kann die Größe dieses Caches verändert werden: je größer er ist, desto mehr Speicherzugriffe kommen der IBD und der aktuellen Validierung zugute, allerdings auf Kosten eines höheren RAM-Verbrauchs. Wird ein neuer Block von einem Miner gefunden, löscht der Node die von den im Block enthaltenen Transaktionen ausgegebenen (oder verbrauchten) Outputs aus dem UTXO-Satz und fügt die neu erstellten Outputs hinzu.
 
 
 
@@ -2842,7 +2812,7 @@ Es sei darauf hingewiesen, dass der UTXO-Satz oft im Mittelpunkt der Bedenken ü
 
 
 
-Das Wachstum des UTXO-Satzes ergibt sich auch aus der Struktur des einfachen Zahlungsverkehrs auf Bitcoin. Wenn Sie eine Zahlung vornehmen, verbrauchen Sie einen einzigen UTXO als Input und erzeugen 2 neue UTXOs als Output (einen für die Zahlung und den anderen für den Exchange). Schließlich bietet eine Heuristik zur Kettenanalyse, genannt CIOH (*Common Input Ownership Heuristic*), einen weiteren Anreiz, die Konsolidierung von Coin zu vermeiden.
+Das Wachstum des UTXO-Satzes ergibt sich auch aus der Struktur des einfachen Zahlungsverkehrs auf Bitcoin. Wenn du eine Zahlung vornehmen, verbrauchen du einen einzigen UTXO als Input und erzeugen 2 neue UTXOs als Output (einen für die Zahlung und den anderen für den Exchange). Schließlich bietet eine Heuristik zur Kettenanalyse, genannt CIOH (*Common Input Ownership Heuristic*), einen weiteren Anreiz, die Konsolidierung von Coin zu vermeiden.
 
 
 
@@ -2856,18 +2826,18 @@ Da ein Teil davon im Arbeitsspeicher gehalten werden muss, um Transaktionen in e
 
 
 
-Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noch nicht bestätigt wurden. Zur Erinnerung: Eine "bestätigte Transaktion" ist eine Transaktion, die in einen gültigen Block aufgenommen wurde. Jeder Knoten verwaltet seinen eigenen Mempool, der sich von dem anderer Knoten im Netzwerk unterscheiden kann, je nachdem:
+Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noch nicht bestätigt wurden. Zur Erinnerung: Eine "bestätigte Transaktion" ist eine Transaktion, die in einen gültigen Block aufgenommen wurde. Jeder Node verwaltet seinen eigenen Mempool, der sich von dem anderer Node im Netzwerk unterscheiden kann, je nachdem:
 
 
 
 
-- die dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Knoten mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Knoten mit einem kleineren Mempool (es sei denn, letzterer wird leer);
-- die Mempool-Regeln: Sie bilden eine Teilmenge der Weiterleitungsregeln des Knotens und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
+- die dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Node mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Node mit einem kleineren Mempool (es sei denn, letzterer wird leer);
+- die Mempool-Regeln: du bilden eine Teilmenge der Weiterleitungsregeln des Node und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
 - perkolation von Transaktionen: Aufgrund verschiedener Faktoren kann eine bestimmte Transaktion bereits an einen Teil des Netzes verteilt worden sein, einen anderen aber noch nicht erreicht haben.
 
 
 
-Es ist wichtig zu beachten, dass Knoten-Mempools keinen Konsenswert haben. Bitcoin funktioniert perfekt, auch wenn jeder Knoten einen anderen Mempool hat. Letztendlich sind die maßgeblichen Blöcke immer diejenigen, die dem Blockchain hinzugefügt wurden. Selbst wenn ein Knoten beispielsweise eine bestimmte Transaktion in seinem Mempool (der gemäß den Konsensregeln gültig ist) zunächst ablehnt, ist er verpflichtet, sie zu akzeptieren, wenn sie schließlich in einen Block mit einem gültigen Proof of Work aufgenommen wird. Würde er dies nicht tun und diesen Block ablehnen, obwohl er die Konsensregeln eingehalten hat, würde er einen Hard Fork auslösen, d. h. die Schaffung eines neuen, separaten Bitcoin, in dem er allein wäre.
+Es ist wichtig zu beachten, dass Node-Mempools keinen Konsenswert haben. Bitcoin funktioniert perfekt, auch wenn jeder Node einen anderen Mempool hat. Letztendlich sind die maßgeblichen Blöcke immer diejenigen, die dem Blockchain hinzugefügt wurden. Selbst wenn ein Node beispielsweise eine bestimmte Transaktion in seinem Mempool (der gemäß den Konsensregeln gültig ist) zunächst ablehnt, ist er verpflichtet, sie zu akzeptieren, wenn sie schließlich in einen Block mit einem gültigen Proof of Work aufgenommen wird. Würde er dies nicht tun und diesen Block ablehnen, obwohl er die Konsensregeln eingehalten hat, würde er einen Hard Fork auslösen, d. h. die Schaffung eines neuen, separaten Bitcoin, in dem er allein wäre.
 
 
 
@@ -2879,7 +2849,7 @@ Wenn eine Transaktion empfangen wird, führt Core eine Reihe von Überprüfungen
 
 
 
-Die Größe des Mempool wird durch den Parameter `maxmempool` in der Datei `Bitcoin.conf` begrenzt (mehr dazu im nächsten Kapitel). Standardmäßig liegt die Grenze bei 300 MB. Wenn er voll ist, erhöht der Knoten dynamisch seine Mindestgebührenschwelle und stößt die am wenigsten profitablen Transaktionen zuerst aus (d.h. er behält Transaktionen zurück, die zuerst abgebaut werden sollten). Transaktionen, die zu alt sind, können auch nach einer konfigurierten Verzögerung verfallen.
+Die Größe des Mempool wird durch den Parameter `maxmempool` in der Datei `Bitcoin.conf` begrenzt (mehr dazu im nächsten Kapitel). Standardmäßig liegt die Grenze bei 300 MB. Wenn er voll ist, erhöht der Node dynamisch seine Mindestgebührenschwelle und stößt die am wenigsten profitablen Transaktionen zuerst aus (d.h. er behält Transaktionen zurück, die zuerst abgebaut werden sollten). Transaktionen, die zu alt sind, können auch nach einer konfigurierten Verzögerung verfallen.
 
 
 
@@ -2887,7 +2857,7 @@ Die Größe des Mempool wird durch den Parameter `maxmempool` in der Datei `Bitc
 
 
 
-Um den Neustart zu beschleunigen, serialisiert Core regelmäßig den Zustand des Mempool in der Datei `Mempool.dat`, wenn der Knoten heruntergefahren wird. Zusätzlich zum eigentlichen Mempool, der im Speicher verbleibt, speichert Core diese "Mempool.dat"-Datei auf der Festplatte. Wenn der Knoten das nächste Mal gestartet wird, lädt er diesen Schnappschuss neu und löscht alles, was für den aktuellen Blockchain nicht mehr gültig ist.
+Um den Neustart zu beschleunigen, serialisiert Core regelmäßig den Zustand des Mempool in der Datei `Mempool.dat`, wenn der Node heruntergefahren wird. Zusätzlich zum eigentlichen Mempool, der im Speicher verbleibt, speichert Core diese "Mempool.dat"-Datei auf der Festplatte. Wenn der Node das nächste Mal gestartet wird, lädt er diesen Schnappschuss neu und löscht alles, was für den aktuellen Blockchain nicht mehr gültig ist.
 
 
 
@@ -2900,14 +2870,14 @@ Mehrere andere Dateien auf der gleichen Ebene wie `blocks/`, `chainstate/` und `
 
 
 
-- die Datei "peers.dat" enthält ein IP-Address-Buch potenzieller Peers, das durch die anfängliche DNS-Ermittlung, Netzwerkaustausch und manuelle Ergänzungen gespeist wird. Wenn der Knoten startet, kann er auf diese Datei zurückgreifen, um ausgehende Verbindungen herzustellen.
-- Beim Ausschalten des Knotens speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass Sie beim nächsten Start schnell wieder versuchen können, sie zu kontaktieren.
-- die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder vom Knoten beschlossen wurden (wiederholtes ungültiges Verhalten), um den Knoten daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
+- die Datei "peers.dat" enthält ein IP-Address-Buch potenzieller Peers, das durch die anfängliche DNS-Ermittlung, Netzwerkaustausch und manuelle Ergänzungen gespeist wird. Wenn der Node startet, kann er auf diese Datei zurückgreifen, um ausgehende Verbindungen herzustellen.
+- Beim Ausschalten des Node speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass du beim nächsten Start schnell wieder versuchen können, sie zu kontaktieren.
+- die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder vom Node beschlossen wurden (wiederholtes ungültiges Verhalten), um den Node daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
 - die Datei "fee_estimates.dat" speichert Zeithorizontstatistiken über beobachtete Bestätigungen, die vom Gebührenschätzer verwendet werden, um Gebührensätze vorzuschlagen, die mit den bei der Erstellung einer Transaktion gewählten Verzögerungszielen vereinbar sind.
-- `bitcoin.conf` enthält die Konfigurationsparameter Ihres Knotens. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
+- `bitcoin.conf` enthält die Konfigurationsparameter Ihres Node. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
 - die Datei `settings.json` enthält zusätzliche Parameter zu `Bitcoin.conf`.
 - debug.log" ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Knotenaktivitäten verwendet werden kann.
-- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Start des Knotens erstellt und beim Herunterfahren gelöscht;
+- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. du wird beim Start des Node erstellt und beim Herunterfahren gelöscht;
 - `ip_asn.map` ist eine IP → ASN-Zuordnungstabelle (eigenständiges System), die für Bucketing und Peer Diversification (Option `-asmap`) verwendet wird.
 - `onion_v3_private_key` speichert den privaten Schlüssel des Tor v3 Dienstes, wenn die Option `-listenonion` aktiviert ist, um einen stabilen onion Address zwischen den Neustarts zu erhalten.
 - `i2p_private_key` speichert den privaten I2P-Schlüssel, wenn `-i2psam=` verwendet wird, um ausgehende und möglicherweise eingehende Verbindungen über I2P herzustellen.
@@ -2977,11 +2947,11 @@ Zusammenfassend lässt sich die Struktur der Bitcoin core-Datei wie folgt beschr
 
 
 
-Beim Empfang eines neuen Blocks prüft Ihr Knoten den Proof of Work und ganz allgemein die Einhaltung der Konsensregeln. Wenn alles in Ordnung ist, wendet er die Änderungen Transaktion für Transaktion auf seinen UTXO-Satz an: Er prüft, ob jeder Eintrag bestehende UTXOs mit einem gültigen Skript ausgibt, löscht diese UTXOs und fügt die neuen Ausgänge hinzu. Wenn alles gültig ist, werden die Änderungen an `chainstate/` übergeben.
+Beim Empfang eines neuen Blocks prüft dein Node den Proof of Work und ganz allgemein die Einhaltung der Konsensregeln. Wenn alles in Ordnung ist, wendet er die Änderungen Transaktion für Transaktion auf seinen UTXO-Satz an: Er prüft, ob jeder Eintrag bestehende UTXOs mit einem gültigen Skript ausgibt, löscht diese UTXOs und fügt die neuen Ausgänge hinzu. Wenn alles gültig ist, werden die Änderungen an `chainstate/` übergeben.
 
 
 
-Parallel dazu werden die Rückgängigmachungsdaten in die Datei `rev*.dat` und die Metadaten in den Index `blocks/index/` geschrieben. Der Block wird dann in die richtige Datei "blk*.dat" serialisiert. Im Falle einer Umstrukturierung liest der Knoten `rev*.dat` in umgekehrter Reihenfolge, um die aufgegebenen Blöcke sauber zu trennen, den UTXO-Satz wiederherzustellen und dann die Blöcke der neuen besten Kette zu verbinden.
+Parallel dazu werden die Rückgängigmachungsdaten in die Datei `rev*.dat` und die Metadaten in den Index `blocks/index/` geschrieben. Der Block wird dann in die richtige Datei "blk*.dat" serialisiert. Im Falle einer Umstrukturierung liest der Node `rev*.dat` in umgekehrter Reihenfolge, um die aufgegebenen Blöcke sauber zu trennen, den UTXO-Satz wiederherzustellen und dann die Blöcke der neuen besten Kette zu verbinden.
 
 
 
@@ -2994,11 +2964,11 @@ Parallel dazu werden die Rückgängigmachungsdaten in die Datei `rev*.dat` und d
 
 
 
-Die Datei "Bitcoin.conf" ist die Hauptkonfigurationsdatei des Interface für den Bitcoin core. Sie ermöglicht es Ihnen, das Verhalten und die Parameter Ihres Knotens anzupassen, ohne den Quellcode neu kompilieren oder Befehlszeilenänderungen vornehmen zu müssen. Konkret handelt es sich um eine einfache Textdatei, die in Schlüssel-Wert-Paaren strukturiert ist, d. h. jede Zeile der Datei verweist auf einen bestimmten Parameter (den Schlüssel) und den zugehörigen Wert, der geändert werden kann, um den Parameter anzupassen.
+Die Datei "Bitcoin.conf" ist die Hauptkonfigurationsdatei des Interface für den Bitcoin core. du ermöglicht es dir, das Verhalten und die Parameter Ihres Node anzupassen, ohne den Quellcode neu kompilieren oder Befehlszeilenänderungen vornehmen zu müssen. Konkret handelt es sich um eine einfache Textdatei, die in Schlüssel-Wert-Paaren strukturiert ist, d. h. jede Zeile der Datei verweist auf einen bestimmten Parameter (den Schlüssel) und den zugehörigen Wert, der geändert werden kann, um den Parameter anzupassen.
 
 
 
-Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und RPC-Zugangsparameter können in der Datei "Bitcoin.conf" definiert werden. Diese Konfigurationsdatei ändert jedoch niemals die Konsensregeln des Protokolls: Sie legt nur die lokale Politik des Knotens (Weiterleitungsregeln) fest, die Art und Weise, wie er sich verbindet, indiziert und Dienste bereitstellt.
+Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und RPC-Zugangsparameter können in der Datei "Bitcoin.conf" definiert werden. Diese Konfigurationsdatei ändert jedoch niemals die Konsensregeln des Protokolls: du legt nur die lokale Politik des Node (Weiterleitungsregeln) fest, die Art und Weise, wie er sich verbindet, indiziert und Dienste bereitstellt.
 
 
 
@@ -3006,7 +2976,7 @@ Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und
 
 
 
-Standardmäßig befindet sich die Datei `Bitcoin.conf` im Bitcoin core-Datenverzeichnis. Dies ist das berühmte Verzeichnis, das wir im vorherigen Kapitel erwähnt haben. Allerdings wird diese Datei nicht automatisch von Bitcoin core erstellt, außer in bestimmten Umgebungen, wie z.B. Umbrel. Wenn sie noch nicht existiert, müssen Sie sie selbst erstellen, indem Sie einfach eine Datei mit dem Namen `Bitcoin.conf` erstellen und diese dann in einem Texteditor öffnen, um Ihre Änderungen vorzunehmen.
+Standardmäßig befindet sich die Datei `Bitcoin.conf` im Bitcoin core-Datenverzeichnis. Dies ist das berühmte Verzeichnis, das wir im vorherigen Kapitel erwähnt haben. Allerdings wird diese Datei nicht automatisch von Bitcoin core erstellt, außer in bestimmten Umgebungen, wie z.B. Umbrel. Wenn sie noch nicht existiert, müssen du sie selbst erstellen, indem du einfach eine Datei mit dem Namen `Bitcoin.conf` erstellen und diese dann in einem Texteditor öffnen, um Ihre Änderungen vorzunehmen.
 
 
 
@@ -3020,7 +2990,7 @@ Die in der Datei `Bitcoin.conf` definierten Parameter können von 2 Ebenen über
 
 
 
-Beachten Sie, dass jede Änderung an `Bitcoin.conf` einen Neustart des Knotens erfordert, um wirksam zu werden.
+Beachten du, dass jede Änderung an `Bitcoin.conf` einen Neustart des Node erfordert, um wirksam zu werden.
 
 
 
@@ -3036,7 +3006,7 @@ Fast alle booleschen Optionen können mit einem Präfix "no" deaktiviert werden.
 
 
 
-Um die Konfiguration nach Netzen zu unterteilen, können Sie Abschnitte verwenden: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Alternativ können Sie dem Optionsnamen `regtest.maxmempool=100` voranstellen.
+Um die Konfiguration nach Netzen zu unterteilen, können du Abschnitte verwenden: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Alternativ können du dem Optionsnamen `regtest.maxmempool=100` voranstellen.
 
 
 
@@ -3049,13 +3019,13 @@ Wie oben erläutert, sind die Konsensregeln in der Datei "Bitcoin.conf" offensic
 
 
 
-- Rein lokale Parameter. Diese betreffen nur Ihren Knoten: Cache-Größe (`dbcache`), pruned-Modus (`prune`), optionale Indizes... Sie beeinflussen die Leistung Ihres Rechners, aber nicht die des Netzwerks.
-- Weiterleitungs- und Mempool-Richtlinien. Diese entscheiden darüber, was Ihr Knoten vor der Bestätigung akzeptiert, behält und weiterleitet: Mindestgebührenschwelle (`minrelaytxfee`), Mempool Größe und Aufbewahrungszeit (`maxmempool`, `mempoolexpiry`), Transaktionsersatz (RBF)... Diese Regeln sind nicht Teil des Konsens, so dass zwei verschiedene Knoten unterschiedliche Richtlinien haben können und trotzdem vollständig kompatibel sind. Andererseits haben diese Parameter einen Einfluss auf das Bitcoin-Netzwerk (wie im ersten Teil erklärt, insbesondere mit der Perkolationstheorie).
-- Netzwerk-Konnektivität. Diese Optionen bestimmen, wie dein Knoten Peers findet, zuhört, ein NAT durchläuft, Tor oder einen Proxy benutzt oder seine Bandbreite begrenzt. Sie formen Ihre Topologie, verändern aber nicht die Weiterleitung von Transaktionen.
+- Rein lokale Parameter. Diese betreffen nur Ihren Node: Cache-Größe (`dbcache`), pruned-Modus (`prune`), optionale Indizes... du beeinflussen die Leistung Ihres Rechners, aber nicht die des Netzwerks.
+- Weiterleitungs- und Mempool-Richtlinien. Diese entscheiden darüber, was dein Node vor der Bestätigung akzeptiert, behält und weiterleitet: Mindestgebührenschwelle (`minrelaytxfee`), Mempool Größe und Aufbewahrungszeit (`maxmempool`, `mempoolexpiry`), Transaktionsersatz (RBF)... Diese Regeln sind nicht Teil des Konsens, so dass zwei verschiedene Node unterschiedliche Richtlinien haben können und trotzdem vollständig kompatibel sind. Andererseits haben diese Parameter einen Einfluss auf das Bitcoin-Netzwerk (wie im ersten Teil erklärt, insbesondere mit der Perkolationstheorie).
+- Netzwerk-Konnektivität. Diese Optionen bestimmen, wie dein Node Peers findet, zuhört, ein NAT durchläuft, Tor oder einen Proxy benutzt oder seine Bandbreite begrenzt. du formen Ihre Topologie, verändern aber nicht die Weiterleitung von Transaktionen.
 
 
 
-Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht den Konsensregeln entspricht, wird Ihr Knoten sie in jedem Fall ablehnen. Aber eine strengere lokale Richtlinie kann sich weigern, eine Transaktion weiterzuleiten, die im Sinne des Konsenses gültig ist.
+Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht den Konsensregeln entspricht, wird dein Node sie in jedem Fall ablehnen. Aber eine strengere lokale Richtlinie kann sich weigern, eine Transaktion weiterzuleiten, die im Sinne des Konsenses gültig ist.
 
 
 
@@ -3063,12 +3033,12 @@ Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht d
 
 
 
-Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen zu unterscheiden, die ein Bitcoin-Knoten haben kann:
+Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen zu unterscheiden, die ein Bitcoin-Node haben kann:
 
 
 
 
-- Ausgehende Verbindungen, die von unserem Knoten zu einem anderen Knoten initiiert werden;
+- Ausgehende Verbindungen, die von unserem Node zu einem anderen Node initiiert werden;
 
 
 
@@ -3078,7 +3048,7 @@ Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen
 
 
 
-- Eingehende Verbindungen, die von einem anderen Knoten zu unserem initiiert werden.
+- Eingehende Verbindungen, die von einem anderen Node zu unserem initiiert werden.
 
 
 
@@ -3086,11 +3056,11 @@ Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen
 
 
 
-Diese beiden Verbindungsarten sind durchaus in der Lage, dieselben Daten in beide Richtungen auszutauschen; es geht nicht darum, die Richtung des Datenflusses zu beschränken, sondern nur um den Unterschied im Initiator der Verbindung. Aus der Sicht unseres Knotens gelten ausgehende Verbindungen im Allgemeinen als sicherer, da wir sie initiieren und genau auswählen, zu welchem Knoten wir eine Verbindung herstellen wollen, so dass es unwahrscheinlich ist, dass die Verbindung böswillig ist. Standardmäßig unterhält der Bitcoin core 10 ausgehende Verbindungen (8 "*full-relay*" + 2 "*block-relay-only*").
+Diese beiden Verbindungsarten sind durchaus in der Lage, dieselben Daten in beide Richtungen auszutauschen; es geht nicht darum, die Richtung des Datenflusses zu beschränken, sondern nur um den Unterschied im Initiator der Verbindung. Aus der Sicht unseres Node gelten ausgehende Verbindungen im Allgemeinen als sicherer, da wir sie initiieren und genau auswählen, zu welchem Node wir eine Verbindung herstellen wollen, so dass es unwahrscheinlich ist, dass die Verbindung böswillig ist. Standardmäßig unterhält der Bitcoin core 10 ausgehende Verbindungen (8 "*full-relay*" + 2 "*block-relay-only*").
 
 
 
-Ein Full node erhöht den Wert des Netzes, indem er eingehende Verbindungen annimmt. Mit dem Parameter "Listen=1" wird das Abhören auf dem Standard-Port 8333 des betreffenden Netzes aktiviert, so dass diese eingehenden Verbindungen über das Clearnet empfangen werden können. Damit dies funktioniert, muss dieser Port auch auf Ihrem Router geöffnet sein. Ist dies nicht der Fall, funktioniert Ihr Knoten weiterhin nur mit ausgehenden Verbindungen, was keine Auswirkungen auf Ihre persönliche Nutzung des Bitcoin hat. Die Entscheidung, ob Sie eingehende Verbindungen zulassen wollen, liegt bei Ihnen; es gibt keine "beste Wahl"
+Ein Full node erhöht den Wert des Netzes, indem er eingehende Verbindungen annimmt. Mit dem Parameter "Listen=1" wird das Abhören auf dem Standard-Port 8333 des betreffenden Netzes aktiviert, so dass diese eingehenden Verbindungen über das Clearnet empfangen werden können. Damit dies funktioniert, muss dieser Port auch auf Ihrem Router geöffnet sein. Ist dies nicht der Fall, funktioniert dein Node weiterhin nur mit ausgehenden Verbindungen, was keine Auswirkungen auf Ihre persönliche Nutzung des Bitcoin hat. Die Entscheidung, ob du eingehende Verbindungen zulassen wollen, liegt bei dir; es gibt keine "beste Wahl"
 
 
 
@@ -3104,19 +3074,19 @@ Auf der Netzebene haben wir auch:
 
 
 - `addnode`: fügt einen freundlichen Peer zur Kontaktaufnahme hinzu (kann mehrfach angegeben werden).
-- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Knoten verbinden;
-- seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Knoten hergestellt und dann getrennt wird.
-- max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass Ihr Knoten nie mehr als 125 Verbindungen akzeptiert.
+- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Node verbinden;
+- seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Node hergestellt und dann getrennt wird.
+- max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass dein Node nie mehr als 125 Verbindungen akzeptiert.
 - `maxuploadtarget` : begrenzt den Upload, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Verbreitung wesentlicher neuer Elemente;
-- `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich dein Knoten nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
-- `dnsseed`: erlaubt oder verbietet _DNS-Seeds_, um Peers anzufordern, wenn Ihr lokaler Address-Pool niedrig ist (Voreinstellung: `1`, es sei denn `-connect` oder `-maxconnections=0`).
-- `forcednsseed`: erzwingt, dass _DNS-Seeds_ beim Start angefordert werden, auch wenn Sie bereits Adressen auf Lager haben (Voreinstellung: `0`).
-- feste Seeds": Erlaubt die Verwendung von *seed-Knoten* (hartkodierte Address-Liste), wenn _DNS-Seeds_ fehlschlagen oder deaktiviert sind (Standard: `1`).
+- `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich dein Node nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
+- `dnsseed`: erlaubt oder verbietet _DNS-Seeds_, um Peers anzufordern, wenn dein lokaler Address-Pool niedrig ist (Voreinstellung: `1`, es sei denn `-connect` oder `-maxconnections=0`).
+- `forcednsseed`: erzwingt, dass _DNS-Seeds_ beim Start angefordert werden, auch wenn du bereits Adressen auf Lager haben (Voreinstellung: `0`).
+- feste Seeds": Erlaubt die Verwendung von *seed-Node* (hartkodierte Address-Liste), wenn _DNS-Seeds_ fehlschlagen oder deaktiviert sind (Standard: `1`).
 - `dns`: Erlaubt DNS-Auflösungen im Allgemeinen (z.B. für `-addnode`/`-seednode`/`-connect`).
 
 
 
-Standardmäßig kommuniziert Ihr Knoten über Clearnet, Tor und I2P. Das bedeutet, dass die Peers, mit denen er sich im Clearnetz verbindet, Ihre öffentliche IP Address sehen können, und Ihr ISP wird wahrscheinlich erkennen können, dass Sie einen Bitcoin-Knoten betreiben (obwohl P2P Transport V2 es für einen ISP schwieriger macht, zu lauschen). Das ist nicht unbedingt ein Problem, aber wenn du ein Durchsickern dieser Informationen vermeiden willst, kannst du deinen Knoten ausschließlich über das Tor-Netzwerk verbinden.
+Standardmäßig kommuniziert dein Node über Clearnet, Tor und I2P. Das bedeutet, dass die Peers, mit denen er sich im Clearnetz verbindet, Ihre öffentliche IP Address sehen können, und dein ISP wird wahrscheinlich erkennen können, dass du einen Bitcoin-Node betreiben (obwohl P2P Transport V2 es für einen ISP schwieriger macht, zu lauschen). Das ist nicht unbedingt ein Problem, aber wenn du ein Durchsickern dieser Informationen vermeiden willst, kannst du deinen Node ausschließlich über das Tor-Netzwerk verbinden.
 
 
 
@@ -3137,15 +3107,15 @@ Um vollständig Tor-fähig zu sein, musst du Bitcoin core zwingen, nur dieses Ne
 
 
 
-Alle deine P2P-Verbindungen gehen durch Tor. Dein Knoten erhält einen "onion"-Address für eingehende Verbindungen, so dass keine Ports auf dem Router geöffnet werden müssen. Dein ISP sieht nur den Tor-Verkehr, und deine Partner wissen nichts von deiner tatsächlichen öffentlichen IP Address.
+Alle deine P2P-Verbindungen gehen durch Tor. Dein Node erhält einen "onion"-Address für eingehende Verbindungen, so dass keine Ports auf dem Router geöffnet werden müssen. Dein ISP sieht nur den Tor-Verkehr, und deine Partner wissen nichts von deiner tatsächlichen öffentlichen IP Address.
 
 
 
-Um die DNS-Auflösung im Klartext zu vermeiden, können Sie `dnsseed=0` und `dns=0` zu Ihrer Konfiguration hinzufügen. Sie müssen dann manuell `.onion`-Peers über `seednode=` oder `addnode=` bereitstellen, da die Erkennung neuer Knoten sonst schwierig ist.
+Um die DNS-Auflösung im Klartext zu vermeiden, können du `dnsseed=0` und `dns=0` zu Ihrer Konfiguration hinzufügen. du müssen dann manuell `.onion`-Peers über `seednode=` oder `addnode=` bereitstellen, da die Erkennung neuer Node sonst schwierig ist.
 
 
 
-Wenn Sie Anfänger sind, würde ich Ihnen natürlich raten, all diese Netzwerkeinstellungen vorerst in Ruhe zu lassen. Die Standardkonfiguration ist oft ausreichend.
+Wenn du Anfänger sind, würde ich dir natürlich raten, all diese Netzwerkeinstellungen vorerst in Ruhe zu lassen. Die Standardkonfiguration ist oft ausreichend.
 
 
 
@@ -3157,13 +3127,13 @@ Wenn Sie Anfänger sind, würde ich Ihnen natürlich raten, all diese Netzwerkei
 
 
 
-Hier sind die grundlegenden Parameter, die Sie in Ihrer "Bitcoin.conf" ändern können und die die Verwaltung Ihres Mempool und die Weiterleitung unbestätigter Transaktionen betreffen:
+Hier sind die grundlegenden Parameter, die du in Ihrer "Bitcoin.conf" ändern können und die die Verwaltung Ihres Mempool und die Weiterleitung unbestätigter Transaktionen betreffen:
 
 
 
 
 
-- `maxmempool=<n>`: Begrenzt die maximale Größe des lokalen Mempool auf `<n>` Megabytes (Standard: `300`). Wenn das Limit erreicht ist, erhöht Ihr Knoten dynamisch seinen effektiven Gebührenschwellenwert und priorisiert die am wenigsten profitablen Transaktionen (basierend auf dem Gebührensatz, nicht auf dem absoluten Wert), um unter dem Limit zu bleiben. Sie können diese Einstellung als Standard belassen. Sie zu erhöhen kann nützlich sein, wenn Sie Mining alleine sind oder wenn Sie einen genaueren Überblick über die Mempool Überlastung erhalten und die Gebührenabschätzung verbessern wollen. Umgekehrt spart eine Verringerung des Wertes RAM und in geringerem Maße auch andere Systemressourcen.
+- `maxmempool=<n>`: Begrenzt die maximale Größe des lokalen Mempool auf `<n>` Megabytes (Standard: `300`). Wenn das Limit erreicht ist, erhöht dein Node dynamisch seinen effektiven Gebührenschwellenwert und priorisiert die am wenigsten profitablen Transaktionen (basierend auf dem Gebührensatz, nicht auf dem absoluten Wert), um unter dem Limit zu bleiben. du können diese Einstellung als Standard belassen. du zu erhöhen kann nützlich sein, wenn du Mining alleine sind oder wenn du einen genaueren Überblick über die Mempool Überlastung erhalten und die Gebührenabschätzung verbessern wollen. Umgekehrt spart eine Verringerung des Wertes RAM und in geringerem Maße auch andere Systemressourcen.
 
 
 
@@ -3193,7 +3163,7 @@ Hier sind die grundlegenden Parameter, die Sie in Ihrer "Bitcoin.conf" ändern k
 
 
 
-- `minrelaytxfee=<n>`: Minimaler Gebührensatz (in BTC/kvB), unter dem Transaktionen im Mempool des Knotens nicht akzeptiert und nicht an Peers weitergeleitet werden (Standard: `0.00001` = 1 sat/vB). Je höher dieser Wert ist, desto aggressiver filtert Ihr Knoten kostengünstige Transaktionen.
+- `minrelaytxfee=<n>`: Minimaler Gebührensatz (in BTC/kvB), unter dem Transaktionen im Mempool des Node nicht akzeptiert und nicht an Peers weitergeleitet werden (Standard: `0.00001` = 1 sat/vB). Je höher dieser Wert ist, desto aggressiver filtert dein Node kostengünstige Transaktionen.
 
 
 
@@ -3211,19 +3181,19 @@ Zur Erinnerung: RBF ist ein Transaktionsmechanismus, der es dem Absender ermögl
 
 
 
-Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtlinie. Wenn Sie ein Anfänger sind, sollten Sie diese Einstellungen nicht ändern müssen:
+Hier finden du die erweiterten Einstellungen für Mempool und die Relais-Richtlinie. Wenn du ein Anfänger sind, sollten du diese Einstellungen nicht ändern müssen:
 
 
 
 
 
-- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen Sie geminte `OP_RETURN` akzeptieren.
+- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen du geminte `OP_RETURN` akzeptieren.
 
 
 
 
 
-- datacarriersize=<n>`: Maximale Größe (in Bytes) des `OP_RETURN`, den der Knoten weiterleitet (Standard: `83`). Eine Verringerung dieses Wertes schränkt die über `OP_RETURN` transportierten Nutzdaten ein. Beachten Sie, dass dieses Limit in einer zukünftigen Version von Bitcoin core standardmäßig entfernt wird.
+- datacarriersize=<n>`: Maximale Größe (in Bytes) des `OP_RETURN`, den der Node weiterleitet (Standard: `83`). Eine Verringerung dieses Wertes schränkt die über `OP_RETURN` transportierten Nutzdaten ein. Beachten du, dass dieses Limit in einer zukünftigen Version von Bitcoin core standardmäßig entfernt wird.
 
 
 
@@ -3241,13 +3211,13 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-- whitelistrelay=1": Gewährt eingehenden Peers, die auf der Whitelist stehen, automatisch eine Relay-Erlaubnis (Standard: `1`). Die Transaktionen dieser Peers werden vom Relay akzeptiert, auch wenn sich Ihr Knoten nicht im allgemeinen Relay-Modus befindet.
+- whitelistrelay=1": Gewährt eingehenden Peers, die auf der Whitelist stehen, automatisch eine Relay-Erlaubnis (Standard: `1`). Die Transaktionen dieser Peers werden vom Relay akzeptiert, auch wenn sich dein Node nicht im allgemeinen Relay-Modus befindet.
 
 
 
 
 
-- whitelistforcerelay=1`: Weist "*forcerelay*"-Erlaubnis für Peers auf der Whitelist mit Standardberechtigungen zu (Standard: `0`). Der Knoten leitet dann ihre Transaktionen weiter, auch wenn sie bereits in Mempool vorhanden sind, und umgeht so die Anti-Redundanz-Mechanismen.
+- whitelistforcerelay=1`: Weist "*forcerelay*"-Erlaubnis für Peers auf der Whitelist mit Standardberechtigungen zu (Standard: `0`). Der Node leitet dann ihre Transaktionen weiter, auch wenn sie bereits in Mempool vorhanden sind, und umgeht so die Anti-Redundanz-Mechanismen.
 
 
 
@@ -3275,7 +3245,7 @@ Hier finden Sie die erweiterten Einstellungen für Mempool und die Relais-Richtl
 
 
 
-Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkeit von Transaktionen, die in einem gültigen Block enthalten sind. Sie dienen dazu, Ihren Beitrag zum Relay anzupassen, Ihre Ressourcen zu schützen und Ihren Knoten in eingeschränkten Umgebungen berechenbar zu machen, aber sie erlauben Ihnen niemals, Blöcke abzulehnen, die die Konsensregeln einhalten.
+Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkeit von Transaktionen, die in einem gültigen Block enthalten sind. du dienen dazu, Ihren Beitrag zum Relay anzupassen, Ihre Ressourcen zu schützen und Ihren Node in eingeschränkten Umgebungen berechenbar zu machen, aber sie erlauben dir niemals, Blöcke abzulehnen, die die Konsensregeln einhalten.
 
 
 
@@ -3283,7 +3253,7 @@ Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkei
 
 
 
-Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der Datei `Bitcoin.conf` anpassen. Wenn Sie Wallet nicht direkt in Core verwenden, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
+du können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der Datei `Bitcoin.conf` anpassen. Wenn du Wallet nicht direkt in Core verwenden, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
 
 
 
@@ -3307,19 +3277,19 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- `walletdir=<dir>`: Verzeichnis, das die Wallets enthält (Standard: `<datadir>/wallets` wenn es existiert, sonst `<datadir>`). Dies kann nützlich sein, wenn Sie die Wallets auf einem dedizierten oder verschlüsselten Volume speichern wollen.
+- `walletdir=<dir>`: Verzeichnis, das die Wallets enthält (Standard: `<datadir>/wallets` wenn es existiert, sonst `<datadir>`). Dies kann nützlich sein, wenn du die Wallets auf einem dedizierten oder verschlüsselten Volume speichern wollen.
 
 
 
 
 
-- walletbroadcast=1": Sendet automatisch Transaktionen, die von geladenen Geldbörsen erstellt wurden (Standard: `1`). Setzen Sie auf "0", wenn Sie die Übertragung über einen anderen Kanal verwalten möchten.
+- walletbroadcast=1": Sendet automatisch Transaktionen, die von geladenen Geldbörsen erstellt wurden (Standard: `1`). Setzen du auf "0", wenn du die Übertragung über einen anderen Kanal verwalten möchten.
 
 
 
 
 
-- walletrbf=1": Aktiviert RBF Opt-in, um RBF bei allen Transaktionen zu signalisieren (Standard: `1`). Ermöglicht es Ihnen, die Gebühren im Falle einer blockierten Transaktion später zu erhöhen.
+- walletrbf=1": Aktiviert RBF Opt-in, um RBF bei allen Transaktionen zu signalisieren (Standard: `1`). Ermöglicht es dir, die Gebühren im Falle einer blockierten Transaktion später zu erhöhen.
 
 
 
@@ -3379,7 +3349,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- `Discardfee=<amt>`: Satz (BTC/kvB), der angibt, inwieweit Sie bereit sind, den Exchange wegzuwerfen, indem Sie ihn zur Gebühr hinzufügen. Ausgaben, die bei diesem Satz mehr als ein Drittel ihres Wertes kosten würden, werden verworfen.
+- `Discardfee=<amt>`: Satz (BTC/kvB), der angibt, inwieweit du bereit sind, den Exchange wegzuwerfen, indem du ihn zur Gebühr hinzufügen. Ausgaben, die bei diesem Satz mehr als ein Drittel ihres Wertes kosten würden, werden verworfen.
 
 
 
@@ -3391,7 +3361,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-- disablewallet=1": Startet Bitcoin core ohne das Subsystem Wallet und deaktiviert die zugehörigen RPCs. Verringert die Angriffsfläche und den Fußabdruck, wenn der Knoten nur zur Validierung/Freigabe verwendet wird.
+- disablewallet=1": Startet Bitcoin core ohne das Subsystem Wallet und deaktiviert die zugehörigen RPCs. Verringert die Angriffsfläche und den Fußabdruck, wenn der Node nur zur Validierung/Freigabe verwendet wird.
 
 
 
@@ -3399,7 +3369,7 @@ Sie können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in de
 
 
 
-In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine einstellen. Dies kann besonders wichtig sein, wenn Sie über begrenzte Ressourcen oder im Gegenteil über eine große verfügbare Kapazität verfügen:
+In der Konfigurationsdatei können du auch die Parameter für Ihre Maschine einstellen. Dies kann besonders wichtig sein, wenn du über begrenzte Ressourcen oder im Gegenteil über eine große verfügbare Kapazität verfügen:
 
 
 
@@ -3423,7 +3393,7 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-- prune=<n>`: Aktiviert das Pruning von Blockdateien und setzt ein Speicherplatzziel in MiB (Standard: `0` = deaktiviert; `1` = manuelles Pruning über RPC; `>=550` = automatisches Pruning unterhalb des Ziels). Inkompatibel mit `txindex=1`. Der Knoten bleibt ein voll validierender Knoten, kann aber nicht mehr die alte Historie liefern. Diese Option ist besonders nützlich, wenn der Festplattenspeicherplatz begrenzt ist, z. B. bei der Installation eines Knotens auf Ihrem Heimcomputer.
+- prune=<n>`: Aktiviert das Pruning von Blockdateien und setzt ein Speicherplatzziel in MiB (Standard: `0` = deaktiviert; `1` = manuelles Pruning über RPC; `>=550` = automatisches Pruning unterhalb des Ziels). Inkompatibel mit `txindex=1`. Der Node bleibt ein voll validierender Node, kann aber nicht mehr die alte Historie liefern. Diese Option ist besonders nützlich, wenn der Festplattenspeicherplatz begrenzt ist, z. B. bei der Installation eines Node auf Ihrem Heimcomputer.
 
 
 
@@ -3435,7 +3405,7 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-- `assumevalid=<hex>`: Gibt einen Block an, von dem angenommen wird, dass er gültig ist, so dass Sie die Skriptprüfungen für seine Vorgänger überspringen können (setzen Sie `0`, um alles zu prüfen). Siehe das vorherige Kapitel für weitere Informationen.
+- `assumevalid=<hex>`: Gibt einen Block an, von dem angenommen wird, dass er gültig ist, so dass du die Skriptprüfungen für seine Vorgänger überspringen können (setzen du `0`, um alles zu prüfen). Siehe das vorherige Kapitel für weitere Informationen.
 
 
 
@@ -3471,7 +3441,7 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-- `par=<n>`: Legt die Anzahl der Skriptüberprüfungs-Threads fest (von `-10` bis `15`, `0` = auto, `<0` = lässt diese Anzahl von Kernen frei). Erlaubt Ihnen, die CPU-Parallelität während der Überprüfung anzupassen. Der Auto-Modus ist in den meisten Fällen geeignet.
+- `par=<n>`: Legt die Anzahl der Skriptüberprüfungs-Threads fest (von `-10` bis `15`, `0` = auto, `<0` = lässt diese Anzahl von Kernen frei). Erlaubt dir, die CPU-Parallelität während der Überprüfung anzupassen. Der Auto-Modus ist in den meisten Fällen geeignet.
 
 
 
@@ -3497,19 +3467,19 @@ In der Konfigurationsdatei können Sie auch die Parameter für Ihre Maschine ein
 
 
 
-Schließlich können Sie in der Datei "Bitcoin.conf" auch die Zugriffsparameter für Ihren Knoten konfigurieren. Seien Sie vorsichtig mit diesen Einstellungen, besonders wenn Sie gerade erst anfangen: Vermeiden Sie es, sie zu ändern, ohne die Auswirkungen genau zu verstehen, da dies zu Schwachstellen führen könnte.
+Schließlich können du in der Datei "Bitcoin.conf" auch die Zugriffsparameter für Ihren Node konfigurieren. Seien du vorsichtig mit diesen Einstellungen, besonders wenn du gerade erst anfangen: Vermeiden du es, sie zu ändern, ohne die Auswirkungen genau zu verstehen, da dies zu Schwachstellen führen könnte.
 
 
 
 
 
-- server=1": Aktiviert den JSON-RPC-Server. Unerlässlich, wenn Sie `bitcoind` über `bitcoin-cli` oder eine Anwendung eines Drittanbieters betreiben. Deaktivieren (`0`) auf einem reinen Validierungsknoten, der keine API offenlegt oder bereits einen Electrum-Server verwendet.
+- server=1": Aktiviert den JSON-RPC-Server. Unerlässlich, wenn du `bitcoind` über `bitcoin-cli` oder eine Anwendung eines Drittanbieters betreiben. Deaktivieren (`0`) auf einem reinen Validierungsknoten, der keine API offenlegt oder bereits einen Electrum-Server verwendet.
 
 
 
 
 
-- rpcbind=<addr>[:port]`: RPC-Server lauscht Address/Port. Standardmäßig erfolgt das Abhören nur lokal (`127.0.0.1` und `::1`). Dieser Parameter wird ignoriert, wenn `rpcallowip` nicht ebenfalls definiert ist. Verwenden Sie ihn, um Interface explizit einzuschränken.
+- rpcbind=<addr>[:port]`: RPC-Server lauscht Address/Port. Standardmäßig erfolgt das Abhören nur lokal (`127.0.0.1` und `::1`). Dieser Parameter wird ignoriert, wenn `rpcallowip` nicht ebenfalls definiert ist. Verwenden du ihn, um Interface explizit einzuschränken.
 
 
 
@@ -3533,19 +3503,19 @@ Schließlich können Sie in der Datei "Bitcoin.conf" auch die Zugriffsparameter 
 
 
 
-- rpccookiefile=<Pfad>`: Pfad zum Authentifizierungs-Cookie (Standard: Datei `.cookie` unter `datadir/`). Dies wird für den lokalen Zugriff desselben Benutzers ohne Verwaltung dauerhafter Passwörter verwendet. Beispielsweise können Sie damit den Liana Wallet mit Ihrem Bitcoin core auf demselben Rechner verbinden.
+- rpccookiefile=<Pfad>`: Pfad zum Authentifizierungs-Cookie (Standard: Datei `.cookie` unter `datadir/`). Dies wird für den lokalen Zugriff desselben Benutzers ohne Verwaltung dauerhafter Passwörter verwendet. Beispielsweise können du damit den Liana Wallet mit Ihrem Bitcoin core auf demselben Rechner verbinden.
 
 
 
 
 
-- rpcuser=<user>` / `rpcpassword=<pw>`: Klassische RPC-Authentifizierung mit Klartext-Passwort. Vermeiden Sie dies zugunsten von `rpcauth` oder einem Cookie.
+- rpcuser=<user>` / `rpcpassword=<pw>`: Klassische RPC-Authentifizierung mit Klartext-Passwort. Vermeiden du dies zugunsten von `rpcauth` oder einem Cookie.
 
 
 
 
 
-- rpcthreads=<n>`: Anzahl der Threads, die RPC-Aufrufe bedienen (Standard: `4`). Erhöhen Sie diese Zahl, wenn Sie hohe Aufrufspitzen auf der Seite der Überwachung/des externen Tools haben.
+- rpcthreads=<n>`: Anzahl der Threads, die RPC-Aufrufe bedienen (Standard: `4`). Erhöhen du diese Zahl, wenn du hohe Aufrufspitzen auf der Seite der Überwachung/des externen Tools haben.
 
 
 
@@ -3563,7 +3533,7 @@ Schließlich können Sie in der Datei "Bitcoin.conf" auch die Zugriffsparameter 
 
 
 
-- rest=1": Aktivieren Sie die öffentliche REST-API (standardmäßig deaktiviert). Darf nur in einem vertrauenswürdigen Netzwerk offengelegt werden (gleiche Vorsicht wie bei JSON-RPC).
+- rest=1": Aktivieren du die öffentliche REST-API (standardmäßig deaktiviert). Darf nur in einem vertrauenswürdigen Netzwerk offengelegt werden (gleiche Vorsicht wie bei JSON-RPC).
 
 
 
@@ -3651,23 +3621,23 @@ Schließlich können Sie in der Datei "Bitcoin.conf" auch die Zugriffsparameter 
 
 
 
-Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Knotens dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn Sie mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Node dar: du definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
-Wir sind am Ende dieses BTC 202-Kurses angelangt, der Sie nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch Ihren eigenen einzurichten. Sie sind jetzt ein souveräner Bitcoiner, mit Ihrem eigenen Wallet, der Ihre Transaktionen über Ihren eigenen Knoten überträgt. Herzlichen Glückwunsch!
+Wir sind am Ende dieses BTC 202-Kurses angelangt, der du nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch Ihren eigenen einzurichten. du sind jetzt ein souveräner Bitcoiner, mit Ihrem eigenen Wallet, der Ihre Transaktionen über Ihren eigenen Node überträgt. Herzlichen Glückwunsch!
 
 
 
-Sie können nun zum letzten Teil des Kurses übergehen, in dem Sie BTC 202 bewerten können, und anschließend Ihr Diplom ablegen, um zu überprüfen, ob Sie alle behandelten Konzepte beherrschen.
+du können nun zum letzten Teil des Kurses übergehen, in dem du BTC 202 bewerten können, und anschließend dein Diplom ablegen, um zu überprüfen, ob du alle behandelten Konzepte beherrschen.
 
 
 
-Ihnen stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung eines eigenen Lightning-Knotens, der es Ihnen ermöglicht, bei Ihren off-chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
+dir stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung eines eigenen Lightning-Node, der es dir ermöglicht, bei Ihren off-chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
 
 
 
-In der Zwischenzeit lade ich Sie ein, die BTC 204-Schulung kennenzulernen, die Sie in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
+In der Zwischenzeit lade ich du ein, die BTC 204-Schulung kennenzulernen, die du in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
 
 
 

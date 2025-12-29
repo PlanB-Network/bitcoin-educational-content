@@ -1,0 +1,8 @@
+question: Mục đích chính của cơ chế trao đổi khóa ECDH trong kiến trúc Confidential Transactions của Liquid là gì?
+answer: Cho phép người gửi mã hóa số lượng và loại tài sản bằng khóa công khai ẩn danh của người nhận, đồng thời tạo ra bằng chứng phạm vi có thể kiểm chứng.
+wrong_answers:
+  - Thiết lập các kênh liên lạc an toàn giữa máy chủ AMP và máy khách wallet trong quá trình xác thực giao dịch.
+  - Để tạo ra các khóa bí mật chung cho việc đăng ký mô tả đa chữ ký giữa các ví và cơ sở hạ tầng máy chủ AMP.
+  - Chữ ký mật mã generate chứng minh quyền sở hữu tài sản mà không tiết lộ thông tin khóa riêng tư cơ bản.
+explanation: |
+  Cơ chế trao đổi khóa ECDH (Elliptic Curve Diffie-Hellman) trong Confidential Transactions của Liquid cho phép chuyển giao tài sản bảo toàn quyền riêng tư bằng cách cho phép người gửi mã hóa giá trị đầu ra giao dịch bằng khóa công khai che giấu của người nhận. Điều này tạo ra một bí mật được chia sẻ mà chỉ người nhận mới có thể giải mã bằng khóa che giấu riêng tư của họ, đồng thời tạo ra bằng chứng phạm vi cho phép các trình xác thực mạng xác minh tính hợp lệ của giao dịch mà không cần nhìn thấy số tiền thực tế. Các tùy chọn khác mô tả không chính xác ECDH là phục vụ cho các chức năng bảo mật thông tin liên lạc, đăng ký mô tả hoặc chứng minh quyền sở hữu, những chức năng này được xử lý bởi các cơ chế mật mã khác nhau trong hệ sinh thái Liquid.

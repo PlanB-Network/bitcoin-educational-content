@@ -21,7 +21,7 @@ Denne tilnærmingen innebærer imidlertid en betydelig risiko: seed må være ti
 
 
 
-For å overkomme denne svakheten kan SeedSigner kombineres med [**Seedkeeper**] (https://satochip.io/product/seedkeeper/), et smartkort utviklet av Satochip. Dette gjør det mulig å lagre mnemoniske fraser (eller andre hemmeligheter) i en secure element som er beskyttet av en PIN-kode. Seedkeeper-appleten er åpen kildekode, og secure element har EAL6+-sertifisering. Sammen med SeedSigner tilbyr den en svært interessant sikkerhetsfunksjon: Nøklene dine administreres helt offline, du signerer transaksjonene dine på en klarert skjerm, og seed er fysisk beskyttet i et smartkort som er motstandsdyktig mot fysiske angrep.
+For å overkomme denne svakheten kan SeedSigner kombineres med [**Seedkeeper**](https://satochip.io/product/seedkeeper/), et smartkort utviklet av Satochip. Dette gjør det mulig å lagre mnemoniske fraser (eller andre hemmeligheter) i en secure element som er beskyttet av en PIN-kode. Seedkeeper-appleten er åpen kildekode, og secure element har EAL6+-sertifisering. Sammen med SeedSigner tilbyr den en svært interessant sikkerhetsfunksjon: Nøklene dine administreres helt offline, du signerer transaksjonene dine på en klarert skjerm, og seed er fysisk beskyttet i et smartkort som er motstandsdyktig mot fysiske angrep.
 
 
 
@@ -31,7 +31,7 @@ Alt du trenger for å fullføre installasjonen, er følgende elementer:
 
 
 - Det vanlige utstyret som trengs for en klassisk SeedSigner: en Raspberry Pi Zero, en Waveshare 1,3" skjerm, et kompatibelt kamera og et microSD-kort (du finner mer informasjon i SeedSigner-opplæringen nedenfor);
-- SeedSigner-utvidelsessettet, som er tilgjengelig [i den offisielle Satochip-butikken] (https://satochip.io/product/seedsigner-extension-kit/), lar deg lese og skrive til smartkortet direkte fra SeedSigner. Et annet alternativ er å bruke en ekstern smartkortleser, som kan kobles til en Micro-USB-port på Raspberry Pi med en kabel. Jeg har imidlertid ikke testet denne løsningen selv;
+- SeedSigner-utvidelsessettet, som er tilgjengelig [i den offisielle Satochip-butikken](https://satochip.io/product/seedsigner-extension-kit/), lar deg lese og skrive til smartkortet direkte fra SeedSigner. Et annet alternativ er å bruke en ekstern smartkortleser, som kan kobles til en Micro-USB-port på Raspberry Pi med en kabel. Jeg har imidlertid ikke testet denne løsningen selv;
 - En Seedkeeper, eller alternativt et tomt smartkort som du kan installere Seedkeeper-appleten på (utvidelsessettet som selges av Satochip, inneholder allerede et tomt smartkort).
 
 
@@ -64,7 +64,7 @@ For å bruke din SeedSigner med en Seedkeeper, må du installere en alternativ f
 
 
 
-Hvis du ikke allerede har det, laster du ned programvaren [Balena Etcher] (https://etcher.balena.io/), og gjør deretter følgende:
+Hvis du ikke allerede har det, laster du ned programvaren [Balena Etcher](https://etcher.balena.io/), og gjør deretter følgende:
 
 
 
@@ -505,6 +505,6 @@ Hvis dette oppsettet har overbevist deg, ikke nøl med å støtte prosjektene so
 
 
 
-- Ved å kjøpe utstyret ditt direkte [på Satochips nettsted] (https://satochip.io/shop/);
-- Ved å gi [en donasjon til SeedSigner-prosjektet] (https://seedsigner.com/donate/);
-- Ved å abonnere på [Crypto Guides YouTube-kanal] (https://www.youtube.com/@CryptoGuide/), som drives av personen som vedlikeholder GitHub-depotet som er vert for den modifiserte fastvaren.
+- Ved å kjøpe utstyret ditt direkte [på Satochips nettsted](https://satochip.io/shop/);
+- Ved å gi [en donasjon til SeedSigner-prosjektet](https://seedsigner.com/donate/);
+- Ved å abonnere på [Crypto Guides YouTube-kanal](https://www.youtube.com/@CryptoGuide/), som drives av personen som vedlikeholder GitHub-depotet som er vert for den modifiserte fastvaren.

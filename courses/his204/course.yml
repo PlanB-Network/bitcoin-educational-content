@@ -150,6 +150,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 61.28
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.89
 videos:
   - id: 71603b6d-b9f2-418d-b11e-f5e553041794
     youtube:

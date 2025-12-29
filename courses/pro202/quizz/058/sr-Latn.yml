@@ -1,0 +1,8 @@
+question: Kada Bitcoin wallet skenira blokove za dolazne uplate, zašto je preuzimanje celih blokova poželjnije od zahtevanja pojedinačnih transakcija od mrežnih čvorova?
+answer: Preuzimanje celih blokova pruža bolju zaštitu privatnosti tako što ne otkriva koje specifične transakcije ili adrese wallet želi da prati.
+wrong_answers:
+  - Preuzimanje celih blokova je računarski efikasnije jer zahteva manje kriptografskih heš operacija za verifikaciju autentičnosti transakcija.
+  - Preuzimanje celih blokova osigurava bržu sinhronizaciju jer vršnjaci mogu slati komprimovane podatke blokova umesto pojedinačnih odgovora na transakcije.
+  - Preuzimanje celih blokova pruža bolju sigurnost jer omogućava wallet da verifikuje kompletan proof-of-work za svaku transakciju
+explanation: |
+  Privatnost je ključna prednost preuzimanja na osnovu blokova. Kada wallet zatraži specifične transakcije, to odaje jake signale o aktivnosti korisnika i otkriva koje adrese pripadaju tom wallet. Preuzimanje čitavih blokova prikriva stvarne interese wallet među svim transakcijama u bloku. Pogrešni odgovori se fokusiraju na efikasnost, brzinu ili sigurnosne prednosti koje nisu primarna motivacija - individualni zahtevi za transakcijama teoretski bi mogli biti jednako sigurni ili efikasni, ali fundamentalno ugrožavaju privatnost otkrivanjem obrazaca nadzora wallet mrežnim partnerima.

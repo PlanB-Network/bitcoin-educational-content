@@ -1,0 +1,8 @@
+question: Qual è la limitazione fondamentale delle capacità di transazione dell'SDK Breez Liquid che lo distingue da un nodo Lightning Network completo?
+answer: Non può eseguire transazioni dirette da Fulmine a Fulmine o da Bitcoin a Bitcoin, poiché opera esclusivamente con il Liquid come base di partenza
+wrong_answers:
+  - Non è in grado di gestire gli scambi atomici tra reti blockchain diverse a causa della mancanza di supporto per gli smart contract cross-chain
+  - "Non può elaborare transazioni più grandi di 0,1 BTC a causa dei limiti di dimensione delle transazioni incorporati nel Liquid Network"
+  - Non può funzionare senza connettività Internet perché richiede una sincronizzazione costante con i server Breez centralizzati
+explanation: |
+  L'SDK è esplicitamente descritto come "uno strumento strettamente incentrato su Liquid" che opera con Liquid come "base" Supporta solo tre operazioni specifiche: Da Liquid a Liquid, da Liquid a Lightning e da Liquid a Bitcoin. A differenza di un nodo Lightning completo che può instradare i pagamenti tra i canali Lightning, l'SDK Breez non può eseguire transazioni dirette da Lightning a Lightning, il che lo rende fondamentalmente diverso dall'infrastruttura Lightning tradizionale.

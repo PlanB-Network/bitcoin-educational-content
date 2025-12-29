@@ -1,0 +1,8 @@
+question: Koja je primarna svrha Rust operatora upitnika (?) kada se koristi sa Result tipovima?
+answer: Da automatski odmotate uspešne vrednosti i odmah vratite greške iz trenutne funkcije
+wrong_answers:
+  - Da biste sve tipove Result pretvorili u tipove Option radi lakšeg rukovanja null vrednostima
+  - Da automatski paničite sa prilagođenom porukom kada dođe do bilo koje greške
+  - Da biste obavili uspešne vrednosti u dodatni sloj Result radi dodatne sigurnosti
+explanation: |
+  Operator upitnika (?) je dizajniran specifično za propagaciju grešaka u Rust. Kada se primeni na Result, on izvlači vrednost uspeha ako je operacija uspela, omogućavajući kodu da nastavi sa tom vrednošću. Međutim, ako se dogodila greška, operator ? odmah vraća tu grešku iz trenutne funkcije, efektivno je propagirajući uz stek poziva. Ovo eliminiše potrebu za opširnim match izrazima dok održava eksplicitnu semantiku rukovanja greškama. Operator se može koristiti samo u funkcijama koje vraćaju Result tipove, osiguravajući pravilne obrasce propagacije grešaka.

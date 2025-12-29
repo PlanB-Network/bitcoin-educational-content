@@ -408,7 +408,7 @@ Liquid-Bitcoin (L-BTC) almak için çeşitli seçenekler mevcuttur. Aşağıda a
 
 
 
-Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bir köprü] (https://boltz.Exchange/) kullanarak L-BTC için Lightning Network aracılığıyla: Address alan Liquid'inizi girin, tercih ettiğiniz şekilde ödeme yapın ve L-BTC'nizi alın.
+Alternatif olarak, Exchange bitcoinlerinizi zincir üzerinde veya [Boltz gibi bir köprü](https://boltz.Exchange/) kullanarak L-BTC için Lightning Network aracılığıyla: Address alan Liquid'inizi girin, tercih ettiğiniz şekilde ödeme yapın ve L-BTC'nizi alın.
 
 
 

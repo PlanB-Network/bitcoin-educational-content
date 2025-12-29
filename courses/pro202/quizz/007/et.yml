@@ -1,0 +1,8 @@
+question: Millise matemaatilise omaduse tõttu on operatsiooni k-P ümberpööramine elliptilisel kõveral arvutuslikult teostamatu?
+answer: Diskreetse logaritmi probleem
+wrong_answers:
+  - Lõpliku valdkonna modulaararvutid
+  - Punkti lõpmatusomadus
+  - Kõvera võrrand y² = x³ + 7
+explanation: |
+  Diskreetse logaritmi probleem on matemaatiline alus, mis muudab elliptilise kõveraga krüptograafia turvaliseks. Kui k-P arvutamine (skalaarne korrutamine) on arvutuslikult lihtne, siis k leidmine, kui on antud P ja k-P, on äärmiselt keeruline - seda nimetatakse elliptilise kõvera diskreetse logaritmi probleemiks. Teised võimalused on olulised matemaatilised komponendid, kuid ei paku turvatõket: lõpliku välja aritmeetika võimaldab operatsioone, punkt lõpmatuses toimib identiteedielemendina ja kõvera võrrand määratleb struktuuri, kuid ükski neist ei loo arvutuslikku teostamatust, mis kaitseb Bitcoin krüptograafilist turvalisust.

@@ -1,9 +1,9 @@
 question: Ni itandukaniro irihe rikomeye hagati yo gufata Bitcoin nk’umutungo w’ubuhinga bwa none n’ukuyifata nk’amahera mu vy’ubuhinga bwo guharura amafaranga?
-answer: Nk’umutungo w’ubuhinga bwa none, igiciro c’ibikorwa vyose n’inyungu/ibihombo bitegerezwa gukurikirana, mu gihe iyo bifatwa nk’amahera, gusubiramwo agaciro vyoba vyoroshe kandi ntibibe kenshi.
+answer: Nk’umutungo w’ubuhinga bwa none, igiciro c’ibikorwa vyose n’inyungu/ibihombo bitegerezwa gukurikiranwa, mu gihe iyo bifatwa nk’amahera, gusubiramwo agaciro vyoba vyoroshe kandi ntibibe kenshi.
 wrong_answers:
-  - Iyo ifashwe nk’umutungo w’ubuhinga bwa none, irasonerwa rwose imisoro yose.
+  - Iyo ifashwe nk’umutungo w’ubuhinga bwa none, ntamisoro isubira kubaho.
   - Iyo ifashwe nk’amahera, nta nyandiko z’ibikorwa zikenewe.
   - Kugira ngo umuntu ayifate nk’amahera bisaba ko umuntu ahita ahindukira akaja ku buhinga bushasha bwo guharura amafaranga.
 explanation: |
-  Ugufata umutungo w’ubuhinga bwa none mu bisanzwe birimwo kubara inyungu canke ibihombo ku bijanye n’ugucuruza kwose, ivyo bikaba bituma habaho ugusobanuka. Iyo Bitcoin ibarwa nk’amahera, vyoba vyoroshe; gusa guhindura agaciro ka fiat buri gihe, nk'uko bikorwa ku yandi mafaranga.
-reviewed: false
+  Ugufata umutungo w’ubuhinga bwa none mu bisanzwe birimwo guharura inyungu canke ibihombo ku bijanye n’ugucuruza kwose, ivyo bikaba bituma habaho ugusobanuka. Iyo Bitcoin ibarwa nk’amahera, vyoba vyoroshe; gusa guhindura agaciro ka mahera asanzwe buri gihe, nk'uko bikorwa ku yandi mafaranga.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 생강 Wallet
+name: Ginger Wallet
 description: 오픈소스, 자체 관리 Bitcoin wallet 소프트웨어, 와사비 Wallet의 fork, 코인조인스 통합
 ---
 ![cover](assets/cover.webp)

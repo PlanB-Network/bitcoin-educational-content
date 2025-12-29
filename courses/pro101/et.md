@@ -73,13 +73,13 @@ _Maailmne pankadeta elanikkond_
 Selles loengus **"Miks El Salvador vajab Bitcoin"** antakse ülevaade **Bitcoin protokollist**, selle juurtest **Cypherpunk liikumises** ja selle rollist vabadust võimaldava vahendina **tsenseerimata raha**, **finantskaasamise** ja palju muu hulgas.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Bitcoini protokoll:_ Reeglid ja struktuur, mis reguleerivad Bitcoin kui detsentraliseeritud digitaalse valuuta toimimist.
-> - _Cypherpunk liikumine:_ Rühm, mis propageerib krüptograafia kasutamist, et tagada privaatsus ja vabadus digitaalses ruumis.
-> - _Finantskaasamine:_ Finantsteenuste kättesaadavus inimestele, kes on traditsioonilisest pangandussüsteemist kõrvale jäänud ja keda sageli nimetatakse "pangata inimesteks"
-> - _Tsenseerimata raha:_ Raha, mida ei saa valitsuste või finantsasutuste poolt kontrollida ega piirata.
+
+- _Bitcoini protokoll:_ Reeglid ja struktuur, mis reguleerivad Bitcoin kui detsentraliseeritud digitaalse valuuta toimimist.
+- _Cypherpunk liikumine:_ Rühm, mis propageerib krüptograafia kasutamist, et tagada privaatsus ja vabadus digitaalses ruumis.
+- _Finantskaasamine:_ Finantsteenuste kättesaadavus inimestele, kes on traditsioonilisest pangandussüsteemist kõrvale jäänud ja keda sageli nimetatakse "pangata inimesteks"
+- _Tsenseerimata raha:_ Raha, mida ei saa valitsuste või finantsasutuste poolt kontrollida ega piirata.
 
 #### Ricky taust ja Bitcoin propageerimine
 
@@ -102,11 +102,11 @@ Autoritaarsetes režiimides, kus finantsrepressioonid on tavalised, võimaldab B
 Hoolimata oma potentsiaalist seisab Bitcoin silmitsi märkimisväärsete väljakutsetega. Sellistes piirkondades nagu Aafrika ja India puudub sageli põhiinfrastruktuur, nagu elekter ja internetiühendus, mis piirab selle kasutuselevõttu. Lisaks sellele on endiselt suur takistuseks **digitaalne kaasamine** - tagada, et igas vanuses ja haridustasemel inimesed saaksid tehnoloogiat kasutada.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Privaatvõtmed:_ Salajased koodid, mis annavad juurdepääsu kasutaja Bitcoin-le.
-> - _Avatud lähtekoodiga:_ Tarkvara, mida igaüks saab kontrollida, muuta ja täiustada.
+
+- _Privaatvõtmed:_ Salajased koodid, mis annavad juurdepääsu kasutaja Bitcoin-le.
+- _Avatud lähtekoodiga:_ Tarkvara, mida igaüks saab kontrollida, muuta ja täiustada.
 
 ### El Salvadori juhtum
 
@@ -135,10 +135,10 @@ Kokkuvõttes võib öelda, et Bitcoin on väga paljulubav rahaliste võimaluste 
 20. sajandi lõpus tekkis **Cypherpunk liikumine**, mis propageeris privaatsust ja vabadust krüptograafia abil. Pioneerid nagu **Eric Hughes** ja **Tim May** uskusid, et tugev krüpteerimine on digitaalmaailmas isikliku vabaduse kaitsmiseks hädavajalik. Nende ideed mõjutasid suuresti Bitcoin loomist.
 
 
-> **Määratlus:**
->
+**Määratlus:**
 
-> - _Cypherpunk:_ Liikumine, mis edendab privaatsust ja vabadust krüptograafia abil.
+
+- _Cypherpunk:_ Liikumine, mis edendab privaatsust ja vabadust krüptograafia abil.
 
 #### Austria majandusteadus
 
@@ -146,10 +146,10 @@ Kokkuvõttes võib öelda, et Bitcoin on väga paljulubav rahaliste võimaluste 
 Samal ajal pani **Austria majandus** aluse Bitcoin rahapoliitilistele põhimõtetele. Majandusteadlased nagu **Ludwig von Mises** ja **Friedrich Hayek** väitsid, et usaldusväärne raha peaks olema napp, vastupidav ja hea väärtuse säilitaja - need on põhiprintsiibid, mis kujundasid Bitcoin ülesehitust.
 
 
-> **Määratlus:**
->
+**Määratlus:**
 
-> - _Puudus:_ Piiratud kättesaadavus, mis loob väärtuse tänu vajadusele hoolikalt jaotada.
+
+- _Puudus:_ Piiratud kättesaadavus, mis loob väärtuse tänu vajadusele hoolikalt jaotada.
 
 ### Bitcoin loomine
 
@@ -157,10 +157,10 @@ Samal ajal pani **Austria majandus** aluse Bitcoin rahapoliitilistele põhimõte
 **Satoshi Nakamoto** ühendas need ideed, et luua 2008. aastal Bitcoin kui detsentraliseeritud, tsensuurikindel digitaalne valuuta. Ühendades Cypherpunk eraelu puutumatuse ideaalid ja Austria usaldusväärse raha põhimõtted, pakub Bitcoin finantssüsteemi, mis esitab väljakutse traditsioonilistele pankadele ja valitsuse kontrollile.
 
 
-> **Määratlus:**
->
+**Määratlus:**
 
-> - _Tsensuurikindel:_ Raha, mida ei saa kontrollida ega blokeerida väliste jõudude poolt.
+
+- _Tsensuurikindel:_ Raha, mida ei saa kontrollida ega blokeerida väliste jõudude poolt.
 
 #### Peamised majanduslikud põhimõtted
 
@@ -171,11 +171,11 @@ Samal ajal pani **Austria majandus** aluse Bitcoin rahapoliitilistele põhimõte
 - Säästmine:** Väärtuse säilitamine tulevaste vajaduste jaoks, mis viib investeeringute ja innovatsioonini.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Aja eelistamine:_ Praeguste kaupade väärtustamine tulevaste ees.
-> - _Säästmine:_ Väärtuse salvestamine edaspidiseks kasutamiseks.
+
+- _Aja eelistamine:_ Praeguste kaupade väärtustamine tulevaste ees.
+- _Säästmine:_ Väärtuse salvestamine edaspidiseks kasutamiseks.
 
 ### Bitcoin El Salvadoris
 
@@ -243,11 +243,11 @@ Bitcoin tugineb **digitaalsetele allkirjadele**, mis kasutavad tehingute kindlus
 **Satoshi Nakamoto**, Bitcoin pseudonüümne looja, laiendas neid ideid, viies PoW-mudeli üle detsentraliseeritud **Blockchain**-le. See võimaldas jaotatud sõlmede võrgustikul tehingute kinnitamist ja registreerimist ilma keskse asutuseta, mis tähistab olulist arengut võrreldes varasemate digitaalvaluuta katsetega.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Proof-of-Work (PoW):_ Süsteem, kus osalejad peavad lahendama arvutuslikke mõistatusi tehingute kinnitamiseks ja võrgu kindlustamiseks.
-> - _Elliptic Curve Cryptography:_ Krüptograafiline meetod, mis võimaldab turvalisi ja tõhusaid digitaalallkirju.
+
+- _Proof-of-Work (PoW):_ Süsteem, kus osalejad peavad lahendama arvutuslikke mõistatusi tehingute kinnitamiseks ja võrgu kindlustamiseks.
+- _Elliptic Curve Cryptography:_ Krüptograafiline meetod, mis võimaldab turvalisi ja tõhusaid digitaalallkirju.
 
 ### Blockchain mehaanika ja tehingu valideerimine
 
@@ -264,12 +264,12 @@ Iga **plokk** Blockchain-s koosneb **pealkirjast** (andmetega nagu eelmise ploki
 Enne tehingute lisamist plokki asuvad need **Mempool**-s, kus nad ootavad valideerimist. Pärast valideerimist lisatakse need tehingud äsja kaevandatud plokki ja seejärel Blockchain-sse.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Mining:_ Krüptograafiliste mõistatuste lahendamise protsess, et lisada uusi plokke Blockchain-le.
-> - _Nonce:_ Väärtus, mida kasutatakse õige Hash leidmiseks Mining ajal.
-> - _Mempool:_ Ooteala kinnitamata tehingute jaoks enne nende lisamist plokki.
+
+- _Mining:_ Krüptograafiliste mõistatuste lahendamise protsess, et lisada uusi plokke Blockchain-le.
+- _Nonce:_ Väärtus, mida kasutatakse õige Hash leidmiseks Mining ajal.
+- _Mempool:_ Ooteala kinnitamata tehingute jaoks enne nende lisamist plokki.
 
 ### Bitcoin skaleeritavus, privaatsus ja arendus
 
@@ -283,12 +283,12 @@ Bitcoin seisab silmitsi väljakutsetega, mis on seotud skaleeritavuse ja privaat
 Bitcoin arendus on arenenud jõudluse ja turvalisuse parandamiseks. Peamised uuendused hõlmavad **Segregated Witness (SegWit)**, mis tegeleb tehingu muutlikkusega ja suurendab bloki efektiivset suurust, ning **Taproot**, mis parandab privaatsust ja võimaldab keerulisemaid lepinguid, kasutades **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _SegWit:_ Bitcoin uuendus, mis eraldab allkirjaandmed tehinguandmetest, parandades tõhusust.
-> - _Taproot:_ Uuendus, mis suurendab Bitcoin privaatsust ja skaleeritavust, võimaldades keerulisemaid nutilepinguid.
-> - _Lightning Network:_ Teine Layer lahendus kiiremateks ja odavamateks Bitcoin tehinguteks maksekanalite abil.
+
+- _SegWit:_ Bitcoin uuendus, mis eraldab allkirjaandmed tehinguandmetest, parandades tõhusust.
+- _Taproot:_ Uuendus, mis suurendab Bitcoin privaatsust ja skaleeritavust, võimaldades keerulisemaid nutilepinguid.
+- _Lightning Network:_ Teine Layer lahendus kiiremateks ja odavamateks Bitcoin tehinguteks maksekanalite abil.
 
 #### Kokkuvõte
 
@@ -316,11 +316,11 @@ Selles loengus lammutame levinud müüte, mis ümbritsevad **Bitcoin**, **blokia
 Sageli on levinud väärarusaam, et **Bitcoin** ja **Blockchain** on samad. Kui Bitcoin on digitaalne valuuta, siis **Blockchain** on selle aluseks olev tehnoloogia. Plokiahelad pakuvad tehingute kontrollitud arvestust, kuid nendega kaasnevad kompromissid, nagu aeglasemad kiirused ja suuremad kulud, mille lahendused, nagu **Lightning Network** Address.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Blockchain:_ aluseks olev tehnoloogia, mida kasutatakse tehingute salvestamiseks detsentraliseeritud, muutumatu Ledger.
-> - _Lightning Network:_ Teine Layer lahendus, mis parandab Bitcoin tehingu tõhusust, võimaldades off-chain tehinguid.
+
+- _Blockchain:_ aluseks olev tehnoloogia, mida kasutatakse tehingute salvestamiseks detsentraliseeritud, muutumatu Ledger.
+- _Lightning Network:_ Teine Layer lahendus, mis parandab Bitcoin tehingu tõhusust, võimaldades off-chain tehinguid.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ Sageli on levinud väärarusaam, et **Bitcoin** ja **Blockchain** on samad. Kui 
 Teine oluline erinevus on see, et **Bitcoin** loodi ainsa eesmärgiga pakkuda detsentraliseeritud, tsensuurikindlat rahavormi, mida ei kontrolli ükski ettevõte ega valitsus. Seevastu krüptovaluutad **shitcoins** on sageli loodud tsentraliseeritud kontrolliga, mis on mõeldud eelkõige selleks, et rikastada nende taga olevaid ettevõtteid röövimiste, pump-and-dump skeemide või otseste pettuste kaudu. Need märgid ei teeni tavaliselt mingit tõelist eesmärki peale kiire kasumi teenimise nende loojate jaoks teadmatute investorite arvelt. Bitcoin on aga ainus tõeliselt detsentraliseeritud digitaalne valuuta, mille turvalisus ja vastupidavus on tõestatud.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Shitcoins:_ Shitcoins on madala väärtusega või küsitava kvaliteediga krüptovaluutad, millel puudub tegelik kasu. Need on sageli väga spekulatiivsed ja neid luuakse mõnikord pettuse eesmärgil või ilma selge eesmärgita, kasutades ära krüptovaluutaturu buumi.
+
+- _Shitcoins:_ Shitcoins on madala väärtusega või küsitava kvaliteediga krüptovaluutad, millel puudub tegelik kasu. Need on sageli väga spekulatiivsed ja neid luuakse mõnikord pettuse eesmärgil või ilma selge eesmärgita, kasutades ära krüptovaluutaturu buumi.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Teine oluline erinevus on see, et **Bitcoin** loodi ainsa eesmärgiga pakkuda de
 Üks kõige levinumaid kriitikaid Bitcoin kohta on selle **energiakulu**. Kuigi Bitcoin Mining kasutab energiat, moodustab see vähem kui 1% ülemaailmsest elektritarbimisest ja vähem kui 3% raisatud energiast. Lisaks sellele kasutab **Bitcoin Mining** sageli kasutamata või taastuvaid energiaallikaid, mistõttu on see rohelisem, kui sageli kujutatakse.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Bitcoin Mining:_ Tehingute valideerimise ja võrgu kindlustamise protsess krüptograafiliste mõistatuste lahendamise teel, mis nõuab arvutusvõimsust.
+
+- _Bitcoin Mining:_ Tehingute valideerimise ja võrgu kindlustamise protsess krüptograafiliste mõistatuste lahendamise teel, mis nõuab arvutusvõimsust.
 
 ### Väärarusaamad kuritegeliku kasutamise kohta
 
@@ -359,10 +359,10 @@ Bitcoini kritiseeritakse sageli selle eest, et seda kasutatakse kuritegelikus te
 **Privaatsus** ja **sõbralikkus** on Bitcoin olulised omadused. Privaatsus kaitseb kasutajaid repressiivsetes režiimides ja asendatavus tagab, et iga Bitcoin on võrdne, sõltumata selle ajaloost. See muudab Bitcoin usaldusväärseks ja õiglaseks rahavormiks.
 
 
-> **Määratlused:**
->
+**Määratlused:**
 
-> - _Koefitsientsus:_ Raha omadus, mille puhul iga ühik on vahetatav teise ühikuga, tagades võrdse väärtuse.
+
+- _Koefitsientsus:_ Raha omadus, mille puhul iga ühik on vahetatav teise ühikuga, tagades võrdse väärtuse.
 
 ### FUD ja turudünaamika käsitlemine
 
@@ -2956,7 +2956,7 @@ Saadaval on erinevad Lightning rahakotid, mis vastavad erinevatele kasutajate va
 - Omadused**: Toetab nii eestkostja kui ka mittekodaniku mudeleid, suurendades mitmekülgsust.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Saadaval on erinevad Lightning rahakotid, mis vastavad erinevatele kasutajate va
 
 
 
-- Omadused**: Sarnaselt Breeze'ile kasutab likviidsuse jaoks LSP mudelit, avatud lähtekoodiga, keskendub kasutaja lihtsusele ja tõhusale likviidsuse juhtimisele.
+- Omadused**: Sarnaselt Breez'ile kasutab likviidsuse jaoks LSP mudelit, avatud lähtekoodiga, keskendub kasutaja lihtsusele ja tõhusale likviidsuse juhtimisele.
 
 
 #### Avatud Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Rahakotid võib liigitada selle alusel, kellele kuuluvad privaatvõtmed ja kes h
 
 
 - Hoolduse rahakotid**: Kolmanda osapoole privaatvõtmed, tavaliselt pakuvad automaatset likviidsuse haldamist. Näiteks Wallet või Satoshi.
-- Mittekohustuslikud rahakotid**: Kasutajad omavad isiklikke võtmeid, võivad nõuda käsitsi likviidsuse haldamist. Näiteks Breeze ja OBW.
+- Mittekohustuslikud rahakotid**: Kasutajad omavad isiklikke võtmeid, võivad nõuda käsitsi likviidsuse haldamist. Näiteks Breez ja OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Arendajad seisavad silmitsi väljakutsega rakendada rakendustes sujuvat likviids
 - Võimalikud lahendused**: Arendajad uurivad täiustatud algoritme **likviidsuse marsruutimiseks** ja **kaksikfinantseeritud kanalite** kasutamiseks, et tagada likviidsuse kättesaadavus tehingu mõlemas otsas.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **Liikviidsus**: Rahaliste vahendite kättesaadavus välkmaksete tegemiseks või vastuvõtmiseks.
-> - **LSP (Lightning Service Provider)**: Teenus, mis aitab kasutajatel hallata Lightning Network likviidsust ja kanaleid.
+
+- **Liikviidsus**: Rahaliste vahendite kättesaadavus välkmaksete tegemiseks või vastuvõtmiseks.
+- **LSP (Lightning Service Provider)**: Teenus, mis aitab kasutajatel hallata Lightning Network likviidsust ja kanaleid.
 
 ---
 
@@ -3129,12 +3129,12 @@ Arendajate ülesanne on abstraheerida L1 ja L2 keerukus kasutajate jaoks, luues 
 - Võimalikud lahendused**: (mis võimaldab lisada või eemaldada vahendeid kanalist ilma seda sulgemata) ja automaatsed kanalihaldusvahendid.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **L1 (Layer 1)**: Bitcoin peamine Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, mis töötab Bitcoin peal, et võimaldada kiiremaid ja odavamaid tehinguid.
-> - **Splicing**: Tehnika, mis võimaldab muuta välgukanali tasakaalu, ilma et seda oleks vaja sulgeda.
+
+- **L1 (Layer 1)**: Bitcoin peamine Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, mis töötab Bitcoin peal, et võimaldada kiiremaid ja odavamaid tehinguid.
+- **Splicing**: Tehnika, mis võimaldab muuta välgukanali tasakaalu, ilma et seda oleks vaja sulgeda.
 
 ---
 
@@ -3163,11 +3163,11 @@ Arendajad uurivad võimalusi, kuidas võimaldada kasutajatel saada Lightning-mak
 - Võimalikud lahendused**: Uuringud **off-line maksevautšerite** kohta, mis võimaldaksid saajatel taotleda makseid, kui nad on uuesti võrku ühendatud, on käimas.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **Off-line maksed**: Maksed, mis saadetakse või saadetakse, kui üks osapool ei ole Lightning Network-ga ühendatud.
-> - **Kinnipidamiskohustuslikud rahakotid**: Rahakotid, kus kolmas osapool kontrollib privaatvõtmeid ja haldab tehinguid kasutaja nimel.
+
+- **Off-line maksed**: Maksed, mis saadetakse või saadetakse, kui üks osapool ei ole Lightning Network-ga ühendatud.
+- **Kinnipidamiskohustuslikud rahakotid**: Rahakotid, kus kolmas osapool kontrollib privaatvõtmeid ja haldab tehinguid kasutaja nimel.
 
 ---
 
@@ -3196,10 +3196,10 @@ Arendajad peavad rakendama varunduslahendusi, mis võimaldavad kasutajatel oma r
 - Võimalikud lahendused**: *taastamise lihtsustamiseks on välja töötatud *Static Channel Backups (SCB)**, kuid täielikult automatiseeritud ja turvaliste varunduste jaoks on vaja täiustatud lahendusi.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **Static Channel Backup (SCB)**: Tüüp varukoopia, mis võimaldab kasutajatel taastada oma rahalised vahendid välkkanalist rikke korral, taastades kanali viimase seisundi.
+
+- **Static Channel Backup (SCB)**: Tüüp varukoopia, mis võimaldab kasutajatel taastada oma rahalised vahendid välkkanalist rikke korral, taastades kanali viimase seisundi.
 
 ---
 
@@ -3293,7 +3293,7 @@ blinded teed on mõeldud Lightning Network vastuvõtja privaatsuse suurendamisek
 
 **Välketeenuse pakkujad (LSP) **
 
-Breeze Wallet poolt välja töötatud Lightning Service Providers (LSP) eesmärk on parandada kasutajakogemust, võimaldades kiiret vastuvõtuvõimalust. LSPd avavad kasutajatele kanaleid, sarnaselt sellega, kuidas internetiteenuse pakkujad pakuvad ühenduvusteenuseid. See uuendus lihtsustab kasutaja sisseelamisprotsessi ja tagab sujuva suhtluse Lightning Networks.
+Breez Wallet poolt välja töötatud Lightning Service Providers (LSP) eesmärk on parandada kasutajakogemust, võimaldades kiiret vastuvõtuvõimalust. LSPd avavad kasutajatele kanaleid, sarnaselt sellega, kuidas internetiteenuse pakkujad pakuvad ühenduvusteenuseid. See uuendus lihtsustab kasutaja sisseelamisprotsessi ja tagab sujuva suhtluse Lightning Networks.
 
 
 **Ressursid ajakohastamiseks**
@@ -3342,12 +3342,12 @@ Traditsioonilistel arvetel on siiski omad piirangud. Näiteks:
 - Suuruse piirangud**: Suurte arvete käsitlemine QR-koodi kujul võib olla keeruline, mistõttu on need teatud rakenduste puhul ebapraktilised.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **Invoice**: Lightning Network maksetaotlus, mis sisaldab tavaliselt summat ja saaja andmeid.
-> - **HTLC (Hash ajalukuga Contract)**: Smart contract tüüp, mida kasutatakse tähtaegsete tingimuslike maksete tagamiseks.
-> - **Sibulite marsruutimine**: See on privaatsustehnika, mille puhul tehinguandmed on kihiline nagu sibul, et kaitsta saatja ja saaja identiteeti.
+
+- **Invoice**: Lightning Network maksetaotlus, mis sisaldab tavaliselt summat ja saaja andmeid.
+- **HTLC (Hash ajalukuga Contract)**: Smart contract tüüp, mida kasutatakse tähtaegsete tingimuslike maksete tagamiseks.
+- **Sibulite marsruutimine**: See on privaatsustehnika, mille puhul tehinguandmed on kihiline nagu sibul, et kaitsta saatja ja saaja identiteeti.
 
 ### Protokollid ja kasutusjuhud
 
@@ -3374,15 +3374,15 @@ Teine protokoll, **RGB**, laiendab Lightning'i funktsionaalsust veelgi, võimald
 **Lightning Liquidity Service Providers (LSPd)** mängivad samuti olulist rolli Lightning-maksete laiendamisel. LSPd pakuvad maksete vastuvõtmiseks likviidsust, aitavad avada **kaksikfinantseeritud kanaleid** ja tagavad sujuvad tehingud, peatades makseid ja avades kanaleid jooksvalt.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **LNURL**: Protokolli, mis võimaldab dünaamilist Invoice loomist, muutes maksed lihtsamaks ja paindlikumaks.
-> - **Bolt 12**: Lightning'i laiendus, mis kasutab privaatsuse tagamiseks Onion-sõnumeid, automatiseerides samal ajal Invoice noppimist.
-> - **Nostr**: Detsentraliseeritud platvorm, mis integreerib LProtokolle ja kasutusjuhtumeid
-> ightning-maksed mikrotehingute eest.
-> - **RGB protokoll**: Protokoll, mis võimaldab varade, näiteks žetoonide, ülekandmist Lightning Network kaudu.
-> - **LSP (Lightning Service Provider)**: Üksus, mis pakub likviidsust ja avab kanalid Lightning-tehingutele, muutes võrgu kasutajatele kättesaadavamaks.
+
+- **LNURL**: Protokolli, mis võimaldab dünaamilist Invoice loomist, muutes maksed lihtsamaks ja paindlikumaks.
+- **Bolt 12**: Lightning'i laiendus, mis kasutab privaatsuse tagamiseks Onion-sõnumeid, automatiseerides samal ajal Invoice noppimist.
+- **Nostr**: Detsentraliseeritud platvorm, mis integreerib LProtokolle ja kasutusjuhtumeid
+- Lightning-maksed mikrotehingute eest.
+- **RGB protokoll**: Protokoll, mis võimaldab varade, näiteks žetoonide, ülekandmist Lightning Network kaudu.
+- **LSP (Lightning Service Provider)**: Üksus, mis pakub likviidsust ja avab kanalid Lightning-tehingutele, muutes võrgu kasutajatele kättesaadavamaks.
 
 ### Ärimudelid ja täiustatud protokollid
 
@@ -3405,12 +3405,12 @@ Täiustatud protokollid, nagu **Punktide ajaliselt lukustatud lepingud (PTLC)**,
 Sellised protokollid nagu **LNURL** ja **Bolt 12** lihtsustavad makseid, vähendades käsitsi tehtavaid toiminguid, tagades, et Lightning Network muutub kasutajasõbralikumaks ja laialdasemalt kasutatavaks.
 
 
-> **Määratlused**:
->
+**Määratlused:**
 
-> - **PTLC (Point Time-Locked Contract)**: Krüptograafiline primitiiv, mis täiendab HTLC-d, võimaldades paindlikumaid ja turvalisemaid makseid.
-> - **Esikuvand**: Väärtus, mida kasutatakse HTLC avamiseks, mis võib olla ka teenuste juurdepääsu võtmeks.
-> - **Auktsiooni mudel**: Maksemudel, kus makseid hoitakse oksjoni ajal ja vabastatakse alles siis, kui kõrgeim pakkumine on heaks kiidetud.
+
+- **PTLC (Point Time-Locked Contract)**: Krüptograafiline primitiiv, mis täiendab HTLC-d, võimaldades paindlikumaid ja turvalisemaid makseid.
+- **Esikuvand**: Väärtus, mida kasutatakse HTLC avamiseks, mis võib olla ka teenuste juurdepääsu võtmeks.
+- **Auktsiooni mudel**: Maksemudel, kus makseid hoitakse oksjoni ajal ja vabastatakse alles siis, kui kõrgeim pakkumine on heaks kiidetud.
 
 ### Kokkuvõte
 

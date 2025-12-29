@@ -141,7 +141,7 @@ Ihr Empfänger muss den generierten QR-Code scannen, um die Satoshis zu erhalten
 
 
 
-Offline-Zahlungen werden hauptsächlich mit [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum) durchgeführt. Die Transaktion wird in Ihrem Telefon gespeichert, und sobald Sie auf das Internet zugreifen, erfolgt die Bestätigung der Transaktion automatisch. Sie können die Zahlung auch manuell bestätigen, indem Sie auf **Transaktion bestätigen** klicken.
+Offline-Zahlungen werden hauptsächlich mit [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum) durchgeführt. Die Transaktion wird in Ihrem Telefon gespeichert, und sobald Sie auf das Internet zugreifen, erfolgt die Bestätigung der Transaktion automatisch. Sie können die Zahlung auch manuell bestätigen, indem Sie auf **Transaktion bestätigen** klicken.
 
 
 

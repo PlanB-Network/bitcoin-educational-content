@@ -1,0 +1,10 @@
+question: Kulingana na falsafa ya Satoshi Nakamoto, ni tatizo gani la msingi kuhusu sarafu za kawaida ambalo Bitcoin ilibuniwa kutatua?
+answer: Uaminifu mkubwa unaohitajika katika taasisi kuu ambazo kihistoria zimekiuka uaminifu huo kupitia kushushwa kwa sarafu
+wrong_answers:
+  - Ukosefu wa miundombinu ya kidijitali na kasi ya polepole ya usindikaji wa miamala katika mifumo ya benki ya jadi
+  - Ada kubwa za miamala na ufikiaji mdogo wa uhamishaji pesa wa kimataifa kupitia benki
+  - Athari za kimazingira na matumizi ya nishati ya mifumo ya jadi ya benki na usindikaji wa malipo
+explanation: |
+  Satoshi Nakamoto alisema waziwazi kwamba 'tatizo kuu la sarafu ya kawaida ni uaminifu wote unaohitajika ili kuifanya ifanye kazi' na kwamba benki kuu lazima ziaminiwe sio kushusha thamani ya sarafu, lakini 'historia ya sarafu za fiat imejaa uvunjaji wa uaminifu huo'.
+  
+  Nukuu hii inaonyesha kusudi kuu la Bitcoin: kuondoa hitaji la uaminifu katika taasisi za kati. Chaguzi zingine, ingawa zinaweza kuwa na wasiwasi kuhusu fedha za jadi, hazishughulikii tatizo la msingi la kifalsafa ambalo Satoshi ililibainisha - kwamba mifumo ya fiat inahitaji imani kipofu katika taasisi ambazo zimethibitishwa mara kwa mara kutokuwa za kuaminika kupitia udanganyifu wa fedha na ushushwaji.

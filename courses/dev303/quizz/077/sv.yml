@@ -1,0 +1,8 @@
+question: Vad händer när man anropar lock() på en mutex i Rust och varför anser många utvecklare att det är acceptabelt att avdramatisera denna operation?
+answer: Den returnerar ett resultat som kan misslyckas om en annan tråd fick panik medan den höll mutexen, och uppackning är acceptabelt eftersom du inte rimligen kan hantera fel från andra tråders panik
+wrong_answers:
+  - Den returnerar ett alternativ som kan vara None om mutexen är upptagen, och uppackning är acceptabelt eftersom upptagna mutexar bör orsaka omedelbar programavslutning
+  - Den returnerar ett resultat som kan misslyckas på grund av detektering av dödlås, och uppackning är acceptabelt eftersom dödlås indikerar grundläggande designfel som bör få panik
+  - Det lyckas alltid och returnerar låsvakten direkt, vilket gör uppackning onödig eftersom mutex-operationer garanteras vara trådsäkra i Rust
+explanation: |
+  Vid anrop av lock() på en mutex returnerar Rust ett Resultat eftersom operationen kan misslyckas om en annan tråd får panik medan den håller i mutexen och lämnar den i ett förgiftat tillstånd. Detta skapar en unik situation där din lokala kod får ett fel för något som hände i en helt annan tråds kontext. Eftersom du inte rimligen kan hantera eller återhämta dig från ett fel som härrör från en annan tråds panik, anser många utvecklare att det är acceptabelt att ta bort mutex-lås, särskilt i panikfria kodbaser. De andra alternativen är felaktiga eftersom mutex inte returnerar alternativ för upptagna tillstånd, inte har inbyggd deadlock-detektering som orsakar resultatfel och operationen inte alltid lyckas på grund av giftmekanismen.

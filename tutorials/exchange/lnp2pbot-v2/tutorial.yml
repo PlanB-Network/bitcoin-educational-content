@@ -13,11 +13,12 @@ project_id: 937f27f8-6ea6-497e-a7e4-9dd97852d050
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-12-09
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 1.32
+      - marshal-opsource
+    reward: 0.66
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -34,10 +35,11 @@ proofreading:
     contributor_names:
     reward: 2.64
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.64
+      - Salgraphics
+    reward: 1.32
   - language: et
     last_contribution_date:
     urgency: 1
@@ -144,6 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.18
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.48
 tags:
   - lightning
   - guides

@@ -1,0 +1,8 @@
+question: Která specifická vlastnost architektury LDK řízené událostmi umožňuje aplikacím zachovat čisté oddělení mezi logikou protokolu Lightning a odpověďmi specifickými pro aplikaci?
+answer: Pro všechny významné operace a změny stavu jsou k dispozici asynchronní oznámení, což umožňuje nezávisle implementovat vlastní obsluhy událostí
+wrong_answers:
+  - Synchronní zpětná volání jsou spouštěna přímo v rámci správce kanálů a vyžadují okamžitou odezvu, aby byla zachována shoda s protokolem
+  - Obsluhy událostí jsou automaticky generovány na základě konfigurace aplikace, čímž odpadá potřeba vlastní implementační logiky
+  - Všechny události jsou řazeny do centrální vyrovnávací paměti a zpracovávány postupně, aby bylo zajištěno deterministické chování aplikace
+explanation: |
+  Systém událostí LDK poskytuje asynchronní oznámení pro všechny operace Lightning včetně připojení partnerů, plateb a změn kanálů. To umožňuje vývojářům implementovat vlastní obsluhy událostí, které vhodně reagují, a zároveň zachovat čisté oddělení mezi základní funkčností LDK a aplikační logikou. Ostatní možnosti jsou nesprávné, protože LDK nepoužívá synchronní zpětná volání, která blokují operace protokolu, nemá automatické obsluhy generate a nevynucuje sekvenční zpracování událostí.

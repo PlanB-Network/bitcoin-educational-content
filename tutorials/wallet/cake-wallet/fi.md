@@ -1,5 +1,5 @@
 ---
-name: Kakku Wallet
+name: Cake Wallet
 description: Ohje Cake Wallet:stä ja hiljaisista maksuista
 ---
 

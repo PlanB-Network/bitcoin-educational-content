@@ -1,0 +1,8 @@
+question: วัตถุประสงค์ของสระ mining คืออะไร?
+answer: กลุ่ม Mining ช่วยให้ผู้ขุดสามารถรวมทรัพยากรการคำนวณของพวกเขาและได้รับรางวัลที่เล็กลงแต่บ่อยขึ้น
+wrong_answers:
+  - กลุ่ม Mining ถูกใช้เพื่อเพิ่ม HashRate ของเครือข่าย Bitcoin โดยรวม
+  - Mining พูลถูกใช้เพื่อลดความยากของ mining
+  - สระ Mining ถูกใช้เพื่อเพิ่มรางวัลสำหรับ mining
+explanation: >-
+reviewed: true

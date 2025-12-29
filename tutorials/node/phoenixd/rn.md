@@ -877,5 +877,5 @@ Na Phoenixd, wubaka ibikorwa remezo vyawe vy’ibanga vy’umuravyo ufise REST A
 
 
 
-- Ibibazo vya GitHub** : [ibibazo] (ibibazo) - Ubufasha mu vy'ubuhinga
+- Ibibazo vya GitHub** : [ibibazo](ibibazo) - Ubufasha mu vy'ubuhinga
 - Twitter ACINQ** : [@ACINQ_co](https://twitter.com/ACINQ_co) - Amakuru n'amatangazo

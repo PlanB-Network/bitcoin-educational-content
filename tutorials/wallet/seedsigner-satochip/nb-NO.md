@@ -7,7 +7,7 @@ description: Hvordan bruker jeg en Satochip med SeedSigner?
 
 
 
-*Takk til [Crypto Guide] (https://www.youtube.com/@CryptoGuide/) for fork av SeedSigner-fastvaren for smartkortstøtte, som vi vil bruke i denne veiledningen
+*Takk til [Crypto Guide](https://www.youtube.com/@CryptoGuide/) for fork av SeedSigner-fastvaren for smartkortstøtte, som vi vil bruke i denne veiledningen
 
 
 
@@ -69,7 +69,7 @@ For å utføre dette oppsettet trenger du følgende elementer:
 
 
 
-- SeedSigner-utvidelsessettet, som er tilgjengelig [fra den offisielle Satochip-butikken] (https://satochip.io/product/seedsigner-extension-kit/), lar deg lese og skrive til et smartkort direkte fra SeedSigner. Et annet alternativ er å bruke [en ekstern smartkortleser](https://satochip.io/product/chip-card-reader/), som kan kobles til en Micro-USB-port på Raspberry Pi med en kabel. Jeg har imidlertid ikke testet denne løsningen selv;
+- SeedSigner-utvidelsessettet, som er tilgjengelig [fra den offisielle Satochip-butikken](https://satochip.io/product/seedsigner-extension-kit/), lar deg lese og skrive til et smartkort direkte fra SeedSigner. Et annet alternativ er å bruke [en ekstern smartkortleser](https://satochip.io/product/chip-card-reader/), som kan kobles til en Micro-USB-port på Raspberry Pi med en kabel. Jeg har imidlertid ikke testet denne løsningen selv;
 - [En Satochip](https://satochip.io/product/satochip/), eller alternativt et [tomt smartkort](https://satochip.io/product/card-for-diy-project/) som du kan installere Satochip-appleten på (utvidelsessettet som selges av Satochip, inneholder allerede et tomt smartkort). Satochips utvidelsessett støtter også formatet [SIM JavaCard](https://satochip.io/product/blank-sim-javacard-for-diy-project/). Du kan altså velge dette formatet hvis du foretrekker det.
 
 
@@ -96,7 +96,7 @@ For å bruke din SeedSigner med en Satochip, må du installere en alternativ fas
 
 
 
-Hvis du ikke allerede har det, laster du ned programvaren [Balena Etcher] (https://etcher.balena.io/), og gjør deretter følgende:
+Hvis du ikke allerede har det, laster du ned programvaren [Balena Etcher](https://etcher.balena.io/), og gjør deretter følgende:
 
 
 
@@ -264,7 +264,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Når seed er generert, er dette den eneste gangen den befinner seg i SeedSigners RAM. I mitt tilfelle vil jeg lagre den på en [Seedkeeper] (https://satochip.io/product/seedkeeper/), et annet Satochip-produkt som er utviklet for å lagre hemmeligheter. Jeg vil bruke denne enheten som en siste utvei, i tilfelle jeg mister Satochipen min.
+Når seed er generert, er dette den eneste gangen den befinner seg i SeedSigners RAM. I mitt tilfelle vil jeg lagre den på en [Seedkeeper](https://satochip.io/product/seedkeeper/), et annet Satochip-produkt som er utviklet for å lagre hemmeligheter. Jeg vil bruke denne enheten som en siste utvei, i tilfelle jeg mister Satochipen min.
 
 
 
@@ -706,7 +706,7 @@ Fyll deretter ut transaksjonsfeltene:
 - I `Betal til` limer du inn mottakerens adresse eller skanner QR-koden deres ved hjelp av kameraikonet ;
 - I `Label` legger du til en etikett for å spore denne utgiften;
 - I `Beløp` angir du beløpet som skal sendes;
-- Til slutt velger du ladehastighet i henhold til gjeldende nettverksforhold (estimater er tilgjengelige på [mempool.space] (https://mempool.space/)).
+- Til slutt velger du ladehastighet i henhold til gjeldende nettverksforhold (estimater er tilgjengelige på [mempool.space](https://mempool.space/)).
 
 
 
@@ -933,6 +933,6 @@ Hvis dette oppsettet har overbevist deg, ikke nøl med å støtte prosjektene so
 
 
 
-- Ved å kjøpe utstyret ditt direkte [på Satochips nettsted] (https://satochip.io/shop/);
-- Ved å gi [en donasjon til SeedSigner-prosjektet] (https://seedsigner.com/donate/);
-- Ved å abonnere på [Crypto Guides YouTube-kanal] (https://www.youtube.com/@CryptoGuide/), som drives av personen som vedlikeholder GitHub-depotet som er vert for den modifiserte fastvaren vi brukte i denne opplæringen.
+- Ved å kjøpe utstyret ditt direkte [på Satochips nettsted](https://satochip.io/shop/);
+- Ved å gi [en donasjon til SeedSigner-prosjektet](https://seedsigner.com/donate/);
+- Ved å abonnere på [Crypto Guides YouTube-kanal](https://www.youtube.com/@CryptoGuide/), som drives av personen som vedlikeholder GitHub-depotet som er vert for den modifiserte fastvaren vi brukte i denne opplæringen.

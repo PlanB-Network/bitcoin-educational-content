@@ -1,0 +1,11 @@
+question: According to the text, what is the main problem with the traditional left-right political spectrum?
+answer: It leaves no room for classical liberal thinking
+wrong_answers:
+  - It favors centrist and moderate positions too much
+  - He overemphasizes extremist parties
+  - He simplifies debates by reducing everything to economics
+explanation: |
+  The chapter makes clear that the main problem with the left-right axis is that it cannot classify classical liberal thought, which corresponds to 
+  neither left-wing egalitarianism nor right-wing nationalism. Figures like Thomas Jefferson, Frédéric Bastiat or movements like Bitcoin transcend 
+  these traditional categories. The other options are incorrect, as the text does not criticize centrism as such, does not focus on extremism, and evokes 
+  many aspects other than economics.

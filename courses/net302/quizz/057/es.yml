@@ -5,5 +5,5 @@ wrong_answers:
   - ONBOOT=dhcp
   - GATEWAY=dhcp
 explanation: |
-  El parámetro "BOOTPROTO=dhcp" especifica que Interface debe obtener su configuración a través del protocolo DHCP.
-reviewed: false
+  El parámetro "BOOTPROTO=dhcp" especifica que interfaz debe obtener su configuración a través del protocolo DHCP.
+reviewed: true

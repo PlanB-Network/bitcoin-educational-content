@@ -1,0 +1,9 @@
+question: วัตถุประสงค์ของ Interface Implementation ในสถาปัตยกรรม RGB คืออะไร?
+answer: แมปฟิลด์ Schema ไปยังชื่อที่กำหนดใน Interface
+wrong_answers:
+  - รวบรวมสคริปต์ AluVM สำหรับการตรวจสอบ
+  - เพื่อกำหนดสถานะทั่วโลกและสถานะที่เป็นเจ้าของของสัญญา
+  - เพื่อจัดเก็บหลักฐานการเข้ารหัสฝั่งไคลเอ็นต์
+explanation: |
+  Interface Implementation สร้างความเชื่อมโยงระหว่างตรรกะทางธุรกิจของ Schema และการนำเสนอที่อ่านได้โดย Interface
+reviewed: false

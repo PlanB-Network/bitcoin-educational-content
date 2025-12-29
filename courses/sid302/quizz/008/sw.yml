@@ -1,0 +1,8 @@
+question: Msanidi programu anataka kujaribu utoaji wa mali kwenye Elements bila utegemezi wa nje au kusubiri uthibitisho wa block - ni usanidi gani wanapaswa kutumia?
+answer: Weka chain=elementsregtest ili kuunda mazingira ya majaribio ya ndani yenye uzalishaji wa vitalu vya papo hapo
+wrong_answers:
+  - Weka mnyororo=liquidv1 ili kuunganisha kwenye mtandao mkuu wa Liquid kwa ajili ya majaribio ya haraka
+  - Tumia amri ya issueasset RPC yenye alama ya --testmode kwa ajili ya uundaji uliotengwa
+  - "Sanidi mnyororo=bitcoin-regtest ili kufikia vipengele vya Elements katika mazingira ya majaribio ya Bitcoin"
+explanation: |
+  Usanidi wa elementsregtest huunda mazingira ya majaribio ya urejeshaji wa ndani ambapo watengenezaji wanaweza kuzuia generate mara moja kwa kutumia amri kama vile generateblock, na kuwaruhusu kujaribu utoaji wa mali na vipengele vingine bila kusubiri uthibitisho wa mtandao au kutegemea nodi za nje. Kuweka mnyororo=liquidv1 huunganisha kwenye mtandao wa uzalishaji wa Liquid ambao una muda wa kuzuia wa dakika 1 na utegemezi wa nje. Amri ya issueasset haina bendera ya --testmode, na bitcoin-regtest ni ya Bitcoin Core, si utendaji wa Elements.

@@ -1,5 +1,5 @@
 ---
-name: 제이드 DIY
+name: Jade DIY
 description: 15달러짜리 개발 보드를 완전한 기능을 갖춘 Bitcoin 하드웨어 wallet로 바꿔보세요
 ---
 

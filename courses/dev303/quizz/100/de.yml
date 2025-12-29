@@ -1,0 +1,8 @@
+question: Welches ist der primäre architektonische Vorteil, der es LDK ermöglicht, in WebAssembly-Browserumgebungen zu funktionieren, in denen herkömmliche Lightning-Knoten nicht funktionieren?
+answer: Die systemaufruffreie Designphilosophie von LDK ermöglicht den Betrieb ohne direkten Zugriff auf Dateisysteme, Netzwerk-Sockets oder Entropiequellen
+wrong_answers:
+  - "Die modulare Rust-Bibliotheksstruktur von LDK bietet automatisch WebAssembly-Kompatibilität durch native Rust-zu-WASM-Kompilierungsfunktionen"
+  - "Die ereignisgesteuerte Architektur von LDK macht dauerhafte Verbindungen überflüssig und kann vollständig über HTTP-Anfrage-Antwort-Zyklen betrieben werden"
+  - "Die leichtgewichtige Blockchain-Integration von LDK reduziert die Speichernutzung ausreichend, um die strengen Ressourcenbeschränkungen von WebAssembly zu erfüllen"
+explanation: |
+  Das systemaufruffreie Design von LDK ermöglicht Browser-Kompatibilität. Herkömmliche Lightning-Knoten sind auf direkte Systemaufrufe für die Vernetzung, Datei-E/A und Zufälligkeit angewiesen, die in WebAssembly-Umgebungen aus Sicherheitsgründen verboten sind. LDK abstrahiert diese Abhängigkeiten, so dass Entwickler browser-kompatible Implementierungen bereitstellen können, die WebSockets für die Vernetzung und Browser-APIs für die Persistenz und Zufälligkeit verwenden und dabei die volle Konformität mit dem Lightning-Protokoll beibehalten.

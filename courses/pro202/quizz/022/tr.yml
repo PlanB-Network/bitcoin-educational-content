@@ -1,0 +1,8 @@
+question: UTXO modelinin hangi temel sınırlaması Bitcoin'ı harcarken özel işlem gerektiriyor?
+answer: UTXO'lar tamamen harcanmalıdır ve kısmen tüketilemez
+wrong_answers:
+  - Çifte harcamayı önlemek için UTXO'lar blok başına yalnızca bir kez harcanabilir
+  - UTXO'lar oluşturulma zamanına göre kronolojik sırada harcanmalıdır
+  - UTXO'ların geçerli olması için farklı anahtarlardan birden fazla imza gerekir
+explanation: |
+  UTXO modeli, harcanmamış işlem çıktılarının tamamen tüketilmesi gerektiğine dair temel bir kısıtlamaya sahiptir - kısmi harcama için bir mekanizma yoktur. UTXO tutarının tamamından daha az harcama yapmanız gerektiğinde, UTXO'nin tamamını harcayan ve geri kalanı için kendinize bir değişiklik çıktısı içeren bir işlem oluşturmanız gerekir. Diğer seçenekler var olmayan sınırlamaları tanımlar: UTXO'lar blok başına birden fazla kez harcanabilir (farklı UTXO'lar), kronolojik sıralama gerektirmez ve özellikle multisig olarak tasarlanmadıkça tipik olarak yalnızca bir geçerli imzaya ihtiyaç duyar.

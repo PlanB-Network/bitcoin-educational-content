@@ -247,7 +247,7 @@ Turuncu renkli alanları hemen fark edeceksiniz. Gördüğünüz gibi bunlar BTC
 
 
 
-BTC Map [kendi topluluğunuzu eklemenize] (https://btcmap.org/communities/add/) izin verir, adım adım bir göz atalım:
+BTC Map [kendi topluluğunuzu eklemenize](https://btcmap.org/communities/add/) izin verir, adım adım bir göz atalım:
 
 
 
@@ -274,7 +274,7 @@ BTC Map [kendi topluluğunuzu eklemenize] (https://btcmap.org/communities/add/) 
 
 
 
-[Bu sayfa] (https://btcmap.org/add-location/) Open Street Map'i kullanarak Bitcoin uyumlu bir mülk listesini kendiniz nasıl ekleyeceğinizi göstermektedir. Eğer sorun yaşıyorsanız, doldurmanız için bir form var, böylece başka biri sizin için listeyi oluşturabilir (bu birkaç hafta sürebilir). Bir göz atalım:
+[Bu sayfa](https://btcmap.org/add-location/) Open Street Map'i kullanarak Bitcoin uyumlu bir mülk listesini kendiniz nasıl ekleyeceğinizi göstermektedir. Eğer sorun yaşıyorsanız, doldurmanız için bir form var, böylece başka biri sizin için listeyi oluşturabilir (bu birkaç hafta sürebilir). Bir göz atalım:
 
 
 

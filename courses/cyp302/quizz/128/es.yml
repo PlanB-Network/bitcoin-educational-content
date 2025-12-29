@@ -6,4 +6,4 @@ wrong_answers:
   - Intercambio seguro de claves
 explanation: |
   RSA se basa en la dificultad de la factorización de números primos, una tarea computacionalmente difícil que hace al criptosistema seguro contra ataques.
-reviewed: false
+reviewed: true

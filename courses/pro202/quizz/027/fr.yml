@@ -1,0 +1,8 @@
+question: Qu'arrive-t-il à la pile après l'exécution de OP_CHECKSIG lorsque la vérification de la signature réussit ?
+answer: La valeur 1 est poussée sur la pile
+wrong_answers:
+  - La signature et la clé publique restent sur la pile
+  - La pile est effacée et remise à zéro
+  - Le hachage de la clé publique est placé sur la pile
+explanation: |
+  OP_CHECKSIG est un opcode de transformation de la pile qui consomme une signature et une clé publique de la pile, vérifie la signature par rapport au sighash de la transaction et repousse 1 (pour valide) ou 0 (pour invalide) sur la pile. La signature et la clé publique originales sont supprimées au cours de ce processus. La pile n'est pas entièrement effacée, et aucune valeur de hachage n'est poussée - seulement le résultat booléen de l'opération de vérification.

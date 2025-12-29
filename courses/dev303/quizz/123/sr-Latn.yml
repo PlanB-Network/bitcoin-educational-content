@@ -1,0 +1,8 @@
+question: Koja je primarna arhitektonska prednost koja omogućava da Breez SDK eliminiše tradicionalnu Lightning Network barijeru ručnog otvaranja kanala za nove korisnike?
+answer: Funkcionalnost integrisanog provajdera usluga Lightning (LSP) koja automatski obezbeđuje dolaznu likvidnost prilikom instalacije wallet
+wrong_answers:
+  - Ugrađene usluge zamene podmornica koje konvertuju on-chain Bitcoin u Lightning kanale bez intervencije korisnika
+  - Unapred finansirani kanali koje upravlja Greenlight i koji se dinamički dodeljuju korisnicima na osnovu potražnje
+  - Automatski mehanizmi za otkrivanje vršnjaka koji povezuju nove novčanike sa čvorovima visoke likvidnosti za trenutnu kreaciju kanala
+explanation: |
+  Integrisana LSP funkcionalnost Breez SDK-a je posebno dizajnirana da eliminiše barijeru ručnog otvaranja kanala automatskim obezbeđivanjem dolazne likvidnosti kada korisnici instaliraju svoj wallet. Ovo omogućava trenutno primanje uplata bez tehničkog podešavanja. Podvodne zamene rešavaju konverziju slojeva, ali ne adresiraju početno obezbeđivanje kanala. Unapred finansirani fondovi i otkrivanje partnera nisu mehanizmi koje Breez koristi - umesto toga, LSP integracija direktno obezbeđuje neophodan dolazni kapacitet za nove korisnike da odmah primaju uplate.

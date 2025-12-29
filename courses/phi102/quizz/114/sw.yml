@@ -1,0 +1,8 @@
+question: Kulingana na nadharia ya uchumi wa soko huria, nini hutokea wakati wajasiriamali wanapotarajia mapema mahitaji ya watumiaji kwa uvumbuzi ambao bado haupo?
+answer: Kutokuwepo kwa faida kwa kawaida huwazuia kuendelea na kuwazuia wengine kufuata mfano wao.
+wrong_answers:
+  - Uingiliaji kati wa serikali unaelekeza juhudi zao kuelekea miradi yenye manufaa zaidi kijamii kupitia ruzuku
+  - Wanaendelea kuwekeza hadi mapendeleo ya watumiaji hatimaye yapatane na utabiri wao wa awali.
+  - Kanuni za soko zinawalazimisha kuacha miradi yao ili kuzuia upotevu wa kiuchumi
+explanation: |
+  Katika mfumo wa soko huria, faida hutumika kama ishara muhimu zinazoonyesha mahitaji halisi ya watumiaji. Wajasiriamali wanapohukumu vibaya muda wa soko na kutarajia mahitaji ambayo hayapo, wanashindwa kupata faida ya generate, ambayo kwa kawaida hukatisha tamaa uwekezaji zaidi katika mwelekeo huo. Utaratibu huu wa kujirekebisha huzuia rasilimali kupotea kwenye uvumbuzi wa mapema. Chaguzi zingine zinaonyesha vibaya uingiliaji kati wa nje au uwekezaji endelevu licha ya ishara za soko, jambo ambalo linapingana na msisitizo wa sura kuhusu jinsi ishara za faida zinavyoongoza kufanya maamuzi ya kiuchumi yenye mantiki.

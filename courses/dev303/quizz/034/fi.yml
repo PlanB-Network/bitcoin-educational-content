@@ -1,0 +1,8 @@
+question: Minkä menetelmän avulla voit poimia arvon tuloksesta ja antaa samalla mukautetun paniikkiviestin, jos virhe tapahtuu?
+answer: odottaa
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  Odota-metodi on suunniteltu erityisesti poimimaan onnistumisarvo Resultista, mutta samalla voit antaa mukautetun paniikkiviestin, joka näytetään virheen sattuessa. Tämä helpottaa virheenkorjausta verrattuna unwrap-menetelmään, joka käyttää yleistä paniikkiviestiä. Unwrap_or_else-menetelmä ei aiheuta paniikkia, vaan suorittaa sulkemisen, kun virhe tapahtuu. Muut vaihtoehdot (unwrap_with_message ja panic_with) eivät ole varsinaisia Rust-metodeja Result-tyyppien käsittelyyn.

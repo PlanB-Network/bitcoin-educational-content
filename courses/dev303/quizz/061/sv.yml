@@ -1,0 +1,8 @@
+question: Vad är den grundläggande skillnaden mellan hur makron och funktioner behandlas i Rust?
+answer: Makron expanderas av kompilatorn vid kompileringstillfället innan kompileringen påbörjas, medan funktioner anropas vid körning
+wrong_answers:
+  - Makron använder mönstermatchning för typkontroll medan funktioner använder statisk analys för validering vid körning
+  - Makron generate-optimerad assemblerkod direkt medan funktioner tolkas av den virtuella Rust-maskinen
+  - Makron lagras i minnet under körningen medan funktioner laddas från disken när de anropas
+explanation: |
+  Det korrekta svaret identifierar den viktigaste temporala skillnaden: makron fungerar under kompilering genom kodutvidgning, medan funktioner körs under programmets körtid. De felaktiga svaren blandar ihop olika programmeringskoncept - Rust använder inte en virtuell maskin, både makron och funktioner genomgår typkontroll (men i olika steg) och varken funktioner eller makron laddas från disk under exekveringen på det beskrivna sättet.

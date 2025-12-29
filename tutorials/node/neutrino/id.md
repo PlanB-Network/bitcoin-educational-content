@@ -146,7 +146,7 @@ $ sudo apt install fail2ban
 ### 10. Instal Go
 
 
-Kalau kamu tidak menggunakan raspberry pi, unduh go untuk arsitektur kamu [di sini] (https://golang.org/dl/).
+Jika kamu tidak menggunakan raspberry pi, unduh go untuk arsitektur kamu [di sini](https://golang.org/dl/).
 
 
 ```

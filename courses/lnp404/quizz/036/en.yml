@@ -1,0 +1,8 @@
+question: When analyzing a node's Fee Distribution Graph that shows a tight cluster of channels at 100ppm with several outliers at 1000ppm, what does this pattern most likely indicate about the node's routing strategy?
+answer: The node employs a tiered pricing strategy where scarce liquidity channels are priced at a premium while standard channels maintain competitive rates
+wrong_answers:
+  - The node has poor fee management practices with inconsistent pricing that suggests automated fee adjustment tools are malfunctioning
+  - The node is experiencing technical issues causing fee rate synchronization problems across its channel portfolio requiring immediate intervention
+  - The node follows a randomized fee distribution model to optimize for network privacy and avoid predictable routing patterns
+explanation: |
+  The Fee Distribution Graph's dual-axis design reveals sophisticated routing philosophies through fee clustering patterns. A tight cluster at lower rates (100ppm) with premium outliers (1000ppm) indicates deliberate tiered pricing where the operator charges premium rates for channels with scarce or strategically valuable liquidity while maintaining competitive rates on standard channels. This contrasts with flat distributions that suggest passive 'set-and-forget' management. The other options incorrectly assume dysfunction, technical problems, or privacy strategies, when this pattern actually demonstrates active, strategic channel management based on liquidity scarcity and routing value.

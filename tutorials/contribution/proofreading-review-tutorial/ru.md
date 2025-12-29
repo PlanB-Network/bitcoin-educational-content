@@ -41,7 +41,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- Вам также понадобится учетная запись в приложении для обмена сообщениями [Telegram] (https://telegram.org/).
+- Вам также понадобится учетная запись в приложении для обмена сообщениями [Telegram](https://telegram.org/).
 
 ## 2. Присоединяйтесь к группе Telegram
 

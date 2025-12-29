@@ -1,0 +1,8 @@
+question: Was macht das Typsystem von Rust besonders effektiv, um speicherbezogene Sicherheitslücken in Bitcoin-Anwendungen zu verhindern?
+answer: Das Typsystem verwaltet sowohl die Modellierung der Geschäftslogik als auch die Kontrolle des Speicherbesitzes über denselben Mechanismus
+wrong_answers:
+  - Der Compiler erzeugt automatisch Speicherzuweisungsroutinen, die Pufferüberlaufangriffe verhindern
+  - Die statische Typisierung erfordert, dass alle Speicheradressen zur Kompilierzeit und nicht zur Laufzeit deklariert werden
+  - Starke Typisierung wandelt alle Zeigeroperationen während der Ausführung in eine sichere Überprüfung der Array-Grenzen um
+explanation: |
+  Das Typsystem von Rust ist einzigartig, weil es einen doppelten Zweck erfüllt - es modelliert komplexe Geschäftslogik und verwaltet gleichzeitig die Speichersicherheit durch Besitz, Ausleihe und Referenzzählung. Diese Integration bedeutet, dass dieselbe Typprüfung, die eine korrekte Programmlogik sicherstellt, auch Speicherlecks, doppelt-freie Fehler und Wettlaufbedingungen zur Kompilierungszeit eliminiert. Die falschen Antworten beschreiben Mechanismen, die es in Rust nicht gibt: Der Compiler verwendet keine Auto-generate-Allokationsroutinen, Speicheradressen müssen keine Konstanten zur Kompilierzeit sein, und die Zeigersicherheit ergibt sich aus Eigentumsregeln und nicht aus der Überprüfung von Grenzen zur Laufzeit.

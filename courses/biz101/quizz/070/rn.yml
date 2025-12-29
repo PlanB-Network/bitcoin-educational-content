@@ -1,9 +1,9 @@
-question: Ni ibihe bintu biteye imbere bisabwa n’ubudandaji bw’umwuga?
+question: Ni ibihe bintu biteye imbere bisabwa n’uruganda rufise akaranga ka kinyamwuga ?
 answer: Raporo ziteye imbere n'inshingano nyinshi z'ubuyobozi
 wrong_answers:
-  - Inyandiko y'ishimikiro y'ibikorwa n'inyandiko zisanzwe
-  - Ugushiramwo Wallet yoroshe n'uguhingura kode ya QR
-  - Guhindura ubwavyo mu fiat ata mahitamwo yo gutanga raporo
+  - Inyandiko y'ishimikiro y'ibikorwa n'inyandiko zivyemeza zisanzwe
+  - Ugushiramwo ingodo yubuhinga ngurukana bumenyi yoroshe n'uguhingura kode ya QR
+  - Kuvunja amahera asanzwe muma bitcoin ata mahitamwo yo gutanga amaraporo
 explanation: |
   Ubucuruzi bw’umwuga busaba invoice zishobora guhindurwa, raporo zikomeye, n’ugucungera uruhara kugira ngo bihure n’ingene bakora.
-reviewed: false
+reviewed: true

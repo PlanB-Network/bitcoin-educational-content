@@ -1,5 +1,5 @@
 ---
-name: Siementarkastaja
+name: Seedkeeper
 description: Miten varmuuskopioin wallet Bitcoin:n Seedkeeper-älykortilla?
 ---
 

@@ -1,0 +1,8 @@
+question: Mitä matemaattista operaatiota käytetään elliptisen käyrän pisteen P + Q löytämiseksi?
+answer: Piirretään pisteiden P ja Q kautta viiva, etsitään kolmas leikkauspiste R ja heijastetaan R x-akselin poikki
+wrong_answers:
+  - Lisää P:n ja Q:n x-koordinaatit ja y-koordinaatit suoraan modulaarista aritmetiikkaa käyttäen
+  - Kerrotaan P:n ja Q:n koordinaatit keskenään ja sovelletaan käyrän yhtälöä tuloksen löytämiseksi
+  - Laske P:n ja Q:n välinen keskipiste ja käytä sitten tangenttiviivamenetelmää summan saamiseksi
+explanation: |
+  Elliptisen käyrän pisteiden yhteenlasku noudattaa tiettyä geometrista sääntöä: piirretään kahden pisteen P ja Q kautta viiva, joka leikkaa käyrän kolmannessa pisteessä R, ja heijastetaan sitten R x-akselin poikki, jolloin saadaan P + Q. Tämä geometrinen operaatio muuttuu algebralliseksi, kun työskennellään äärellisissä kentissä, mutta sama perusperiaate säilyy. Muut vaihtoehdot kuvaavat virheellisiä menetelmiä, jotka eivät noudata elliptisten käyrien vakiintunutta ryhmälakia.

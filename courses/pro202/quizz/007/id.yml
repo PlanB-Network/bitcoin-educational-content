@@ -1,0 +1,8 @@
+question: Properti matematika apa yang membuatnya tidak mungkin secara komputasi untuk membalikkan operasi k-P pada kurva elips?
+answer: Masalah logaritma diskrit
+wrong_answers:
+  - Aritmatika modular bidang terbatas
+  - Titik pada properti tak terhingga
+  - Persamaan kurva y² = x³ + 7
+explanation: |
+  Masalah logaritma diskrit adalah fondasi matematika yang membuat kriptografi kurva eliptik menjadi aman. Meskipun menghitung k-P (perkalian skalar) secara komputasi mudah dilakukan, menemukan k ketika diberikan P dan k-P sangatlah sulit - hal ini dikenal sebagai masalah logaritma diskrit kurva eliptik. Pilihan lainnya merupakan komponen matematika yang penting tetapi tidak memberikan penghalang keamanan: aritmatika lapangan terbatas memungkinkan operasi, titik di tak terhingga berfungsi sebagai elemen identitas, dan persamaan kurva mendefinisikan struktur, tetapi tidak ada satupun yang menciptakan ketidakmungkinan komputasi yang melindungi keamanan kriptografi Bitcoin.

@@ -1,0 +1,8 @@
+question: Koja je osnovna arhitektonska prednost pristupa Breez SDK-a upravljanju Lightning čvorovima u poređenju sa tradicionalnim samostalno hostovanim Lightning implementacijama?
+answer: Korisnici održavaju sopstvene Lightning čvorove na Greenlight infrastrukturi, dok zadržavaju isključivu kontrolu nad privatnim ključevima koji nikada ne napuštaju njihove uređaje.
+wrong_answers:
+  - Korisnici dele objedinjene Lightning kanale kojima upravlja Breez, dok zadržavaju individualno starateljstvo nad sredstvima putem multi-potpisnih aranžmana.
+  - "Korisnici pokreću lagane Lightning čvorove lokalno koji se sinhronizuju sa Breez glavnim čvorovima za poboljšanu pouzdanost i smanjene zahteve za propusnim opsegom"
+  - Korisnici delegiraju upravljanje kanalima provajderima Lightning usluga dok zadržavaju skrbništvo putem modula za hardversku sigurnost integrisanih u mobilne uređaje
+explanation: |
+  Arhitektura Breez SDK-a svakom korisniku daje sopstveni posvećeni Lightning čvor koji radi na Greenlight-ovoj cloud infrastrukturi, ali ključno je da privatni ključevi nikada ne napuštaju korisnikov uređaj. To znači da Greenlight ne može izvršavati bilo kakve Lightning operacije bez aktivnog potpisivanja transakcija od strane korisnikove aplikacije. Ovo se razlikuje od deljenih bazena kanala, lokalnih laganih čvorova ili modula za hardversku sigurnost - to je jedinstven hibridni pristup koji eliminiše operativnu složenost dok očuvava principe prave samostalne kustodije.

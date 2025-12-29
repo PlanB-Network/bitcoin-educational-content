@@ -1,0 +1,9 @@
+question: Menurut filosofi Satoshi Nakamoto, masalah mendasar apa yang ingin dipecahkan oleh Bitcoin dengan mata uang konvensional?
+answer: Kepercayaan berlebihan yang diperlukan dalam lembaga-lembaga terpusat yang secara historis melanggar kepercayaan itu melalui pelemahan mata uang
+wrong_answers:
+  - Inefisiensi teknis sistem pembayaran tradisional yang memproses transaksi terlalu lambat untuk perdagangan global
+  - Dampak lingkungan dari produksi mata uang fisik dan jejak karbon infrastruktur perbankan
+  - Keterbatasan geografis mata uang nasional yang menghalangi perdagangan dan perdagangan internasional tanpa hambatan
+explanation: |
+  Satoshi secara eksplisit menyatakan bahwa 'akar masalah dari mata uang konvensional adalah kepercayaan yang dibutuhkan untuk membuatnya bekerja' dan mencatat bahwa 'sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut
+  Bitcoin dirancang sebagai sistem tanpa kepercayaan untuk menghilangkan ketergantungan pada bank sentral yang secara historis telah merendahkan mata uang. Pilihan-pilihan lain, meskipun berpotensi menimbulkan kekhawatiran, bukanlah motivasi filosofis dasar di balik penciptaan Bitcoin seperti yang diartikulasikan oleh penciptanya.

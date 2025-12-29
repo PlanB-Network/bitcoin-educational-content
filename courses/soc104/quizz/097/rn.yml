@@ -1,0 +1,9 @@
+question: Dushingiye ku gitabu ca Eric Hughes citwa Cypherpunk Manifesto, ni uruhe ruhara nyamukuru rwo kurinda ubuzima bwite mu kibano c’ubuhinga bwa none gifunguye?
+answer: Abantu ku giti cabo bategerezwa kurwanira n’umwete ubuzima bwite bwabo aho kwizigira intwaro canke amashirahamwe kugira ngo abahe .
+wrong_answers:
+  - Leta zikwiye gushinga amategeko agenga ivy'ubuzima bwite kugira ngo zikingire abanyagihugu gucungera amashirahamwe .
+  - Imiryango minini itegerezwa gushitsa ku bushake uburinzi bw'ubuzima bwite nk'igice c'inshingano zayo z'imibano .
+  - Amasezerano mpuzamakungu akwiye gushikirizwa kugira ngo haboneke ingingo ngenderwako z’ubuzima bwite zishirwa mu ngiro n’inzego zisumba ibihugu .
+explanation: |
+  Hughes yavuze neza ko ‘Ntidushobora kwitega ko intwaro, amashirahamwe canke ayandi mashirahamwe manini manini atazwi azoduha ibanga’ kandi ko intumbero nyamukuru ya Cypherpunks ari ‘ugutuma abantu barwanira ibanga ryabo, aho kwizigira uwundi muntu ngo arihe’.
+  Ivyo vyerekana filozofiya nyamukuru ya cypherpunk y’inshingano z’umuntu ku giti ciwe n’ukutagira icizigiro ku nzego zishingiye ku rwego rwo hejuru. Iryo shirahamwe ryemera ko ibikoresho vy’ubuhinga bwa none bikwiye guha abantu ububasha bwo kwikingira aho kwizigira inzego nyene babona ko zishobora gutuma ubuzima bwite n’umwidegemvyo bihungabana.

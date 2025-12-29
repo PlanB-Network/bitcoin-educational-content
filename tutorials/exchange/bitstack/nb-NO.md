@@ -28,8 +28,8 @@ Alle andre operasjoner på plattformen er gratis, inkludert uttak av bitcoin (me
 For å laste ned Bitstack-applikasjonen går du til applikasjonsbutikken din:
 
 
-- [Last ned fra Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Last ned på App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
+- [Last ned fra Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Last ned på App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
 
 ![Image](assets/fr/02.webp)
 
@@ -184,7 +184,7 @@ Bestem transaksjonsprioriteten. For et gebyrfritt uttak velger du "*Standard*"-p
 
 ![Image](assets/fr/32.webp)
 
-Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Academy i delen "*Wallet*"] (https://planb.academy/tutorials/wallet).
+Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Academy i delen "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Selge bitcoin
 

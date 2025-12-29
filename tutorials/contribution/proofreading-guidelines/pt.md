@@ -44,7 +44,7 @@ Neste sentido, todos os colaboradores da Plan ₿ Academy são educadores!
 ## Os primeiros passos antes da revisão de provas no Plan ₿ Academy
 
 
-Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de Telegrama] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o coordenador da Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
+Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de Telegrama](https://t.me/PlanBNetwork_ContentBuilder) ou informe o coordenador da Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
 
 
 Este sistema ajuda o coordenador a acompanhar o progresso dentro do repositório e permite que o conteúdo seja "reclamado" pelo revisor, evitando a duplicação de esforços por outra pessoa.
@@ -60,7 +60,7 @@ Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. D
 
 
 
-Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 
@@ -277,7 +277,7 @@ Certifique-se de que verifica o ficheiro da língua original (frequentemente EN 
 ## Revisão de tutoriais
 
 
-Se decidir rever os tutoriais, o coordenador abrirá uma edição dedicada para a **secção completa de tutoriais**. Quando terminar a sua tarefa, pode documentar o seu progresso comentando a questão com uma lista dos tutoriais revistos: desta forma, cria um sistema de acompanhamento claro para referência futura, o que é importante porque todos os meses são adicionados novos conteúdos. Pode ver um exemplo desta abordagem [aqui] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+Se decidir rever os tutoriais, o coordenador abrirá uma edição dedicada para a **secção completa de tutoriais**. Quando terminar a sua tarefa, pode documentar o seu progresso comentando a questão com uma lista dos tutoriais revistos: desta forma, cria um sistema de acompanhamento claro para referência futura, o que é importante porque todos os meses são adicionados novos conteúdos. Pode ver um exemplo desta abordagem [aqui](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
 
 
 ![REVIEW](assets/en/13.webp)

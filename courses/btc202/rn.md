@@ -383,7 +383,7 @@ Mu vyiyumviro, Bitcoin core ntiserukira umurongo wa Bitcoin; ahubwo ni ugushirwa
 
 
 
-Dushingiye ku [amakuru yashizwe hamwe muri Myandagaro 2025 na Luke Dashjr] (umuhinga mu bijanye n’ugutegura ibintu azwi cane mu bijanye n’ibidukikije), ugukwiragira kw’ibikorwa hagati y’ibice vya bose vy’urubuga ni nk’uko bikurikira:
+Dushingiye ku [amakuru yashizwe hamwe muri Myandagaro 2025 na Luke Dashjr](umuhinga mu bijanye n’ugutegura ibintu azwi cane mu bijanye n’ibidukikije), ugukwiragira kw’ibikorwa hagati y’ibice vya bose vy’urubuga ni nk’uko bikurikira:
 
 
 
@@ -992,7 +992,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz ni umugambi w’inkomoko yuguruye 100%] (uruhusha rwa MIT) rwo gushiramwo urudodo rwa Bitcoin n’urudodo rwa Lightning kuri Raspberry Pi. Gusa n’uwukureho ishusho, uyifungure, hanyuma ukurikire umupfumu kugira ngo ugire urudodo rukora-mu-gasanduku kuri Raspberry Pi yawe. Ivyo bikoresho vy’imbere y’igihe na vyo nyene biraboneka ku bandi, akenshi bikaba biri hagati y’amadolari 300 n’amadolari 400, bivanye n’ibikoresho. RaspiBlitz kandi itanga urutonde rw’ibindi bikoresho vy’inyongera, vyoroshe gushiramwo.
+[RaspiBlitz ni umugambi w’inkomoko yuguruye 100%](uruhusha rwa MIT) rwo gushiramwo urudodo rwa Bitcoin n’urudodo rwa Lightning kuri Raspberry Pi. Gusa n’uwukureho ishusho, uyifungure, hanyuma ukurikire umupfumu kugira ngo ugire urudodo rukora-mu-gasanduku kuri Raspberry Pi yawe. Ivyo bikoresho vy’imbere y’igihe na vyo nyene biraboneka ku bandi, akenshi bikaba biri hagati y’amadolari 300 n’amadolari 400, bivanye n’ibikoresho. RaspiBlitz kandi itanga urutonde rw’ibindi bikoresho vy’inyongera, vyoroshe gushiramwo.
 
 
 
@@ -1521,7 +1521,7 @@ Kimwe mu vyiza bihambaye vya Umbrel ku bandi bayihiganwa ni umuryango wayo munin
 
 
 
-Kode ya Umbrel iraboneka ku mugaragaro (ushobora kuyibona, Fork, no kuyihindura), ariko ntabwo iri munsi y’uruhusha nyarwo rw’inkomoko yuguruye. Nkako, umbrelOS ikwiragizwa hakurikijwe uruhusha rwa [*PolyForm 1.0.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), naho nyene ibikoresho bimwebimwe bijanye n’iterambere biboneka hakurikijwe uruhusha rwa MIT.
+Kode ya Umbrel iraboneka ku mugaragaro (ushobora kuyibona, Fork, no kuyihindura), ariko ntabwo iri munsi y’uruhusha nyarwo rw’inkomoko yuguruye. Nkako, umbrelOS ikwiragizwa hakurikijwe uruhusha rwa [*PolyForm 1.0.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), naho nyene ibikoresho bimwebimwe bijanye n’iterambere biboneka hakurikijwe uruhusha rwa MIT.
 
 
 

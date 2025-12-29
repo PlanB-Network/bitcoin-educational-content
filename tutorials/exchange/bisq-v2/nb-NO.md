@@ -90,7 +90,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ### 2. Installasjon i henhold til ditt system
 
-Følg installeringstrinnene som gjelder for ditt operativsystem. Hvis du støter på problemer under installasjonen, kan du se den detaljerte veiledningen på [official Bisq wiki] (https://bisq.wiki/Downloading_and_installing).
+Følg installeringstrinnene som gjelder for ditt operativsystem. Hvis du støter på problemer under installasjonen, kan du se den detaljerte veiledningen på [official Bisq wiki](https://bisq.wiki/Downloading_and_installing).
 
 ### 3. Første oppstart
 
@@ -127,7 +127,7 @@ Det er valgfritt å forhåndskonfigurere betalingsmåter, men det anbefales for 
 
 **Sikkerhetskopiering av data:**
 
-I motsetning til Bisq 1 har Bisq 2 for øyeblikket ikke integrert en Bitcoin-lommebok: Transaksjoner utføres derfor via dine egne eksterne lommebøker. Vi anbefaler likevel at du regelmessig tar sikkerhetskopi av Bisq 2-datamappen din. For å finne datamappen din, se [offisiell Bisq-wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+I motsetning til Bisq 1 har Bisq 2 for øyeblikket ikke integrert en Bitcoin-lommebok: Transaksjoner utføres derfor via dine egne eksterne lommebøker. Vi anbefaler likevel at du regelmessig tar sikkerhetskopi av Bisq 2-datamappen din. For å finne datamappen din, se [offisiell Bisq-wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Identitetsstyring:**
 
@@ -367,4 +367,4 @@ Disse protokollene er under utvikling og vil gradvis bli integrert i Bisq 2, noe
 - Offisiell nettside: [bisq.network](https://bisq.network)
 - Dokumentasjon: [Bisq Wiki](https://bisq.wiki)
 - Støtte: [Forum Bisq](https://bisq.community)
-- Kildekode : [GitHub] (https://github.com/bisq-network)
+- Kildekode : [GitHub](https://github.com/bisq-network)

@@ -1,0 +1,8 @@
+question: Quel mot-clé est utilisé pour forcer une fermeture à s'approprier les variables capturées au lieu de les emprunter ?
+answer: déplacer
+wrong_answers:
+  - propre
+  - capturer
+  - prendre
+explanation: |
+  Le mot-clé `move` est utilisé avant les paramètres de fermeture pour forcer la fermeture à prendre possession de toutes les variables capturées dans son environnement. C'est essentiel lorsque la fermeture peut survivre à la portée où les variables ont été définies à l'origine, comme lors de la création de threads. Sans `move`, les fermetures capturent typiquement par la méthode la moins restrictive (référence immuable, puis référence mutable, puis propriété), mais `move` outrepasse ce comportement automatique pour assurer le transfert de propriété. Les autres options (`own`, `capture`, `take`) ne sont pas des mots-clés Rust valides dans ce but.

@@ -1,0 +1,8 @@
+question: Cơ chế kỹ thuật chính nào cho phép SDK Breez cung cấp cho người dùng một bảng cân đối thống nhất trong khi vẫn duy trì cả chức năng của Lightning và on-chain Bitcoin?
+answer: Các dịch vụ chuyển đổi tự động giữa Lightning và on-chain/Bitcoin diễn ra ngầm khi cần thiết.
+wrong_answers:
+  - Tính năng tổng hợp số dư theo thời gian thực hiển thị tổng số tiền trong tài khoản Lightning và on-chain mà không cần chuyển đổi thực tế.
+  - Việc gộp quỹ dự trữ kênh cho phép chuyển tiền tự do giữa các trạng thái Lightning và on-chain trong cùng một UTXO.
+  - Tạo địa chỉ hai lớp tạo ra các địa chỉ lai có khả năng nhận cả thanh toán Lightning và on-chain.
+explanation: |
+  Câu trả lời đúng là dịch vụ hoán đổi tự động vì SDK Breez đặc biệt triển khai chức năng hoán đổi on-chain để chuyển đổi liền mạch giữa Lightning và on-chain Bitcoin khi người dùng cần thực hiện các loại thanh toán khác nhau. Điều này cho phép người dùng chỉ thấy một số dư duy nhất trong khi hệ thống xử lý sự phức tạp về mặt kỹ thuật của việc chuyển tiền giữa các lớp. Các câu trả lời sai mô tả các cơ chế không tồn tại hoặc không thể thực hiện được về mặt kỹ thuật - tổng hợp số dư chỉ hiển thị tổng số tiền mà không cho phép chức năng liên lớp, dự trữ kênh không thể chuyển tiền sang trạng thái on-chain, và địa chỉ lai không tồn tại trong giao thức của Bitcoin.

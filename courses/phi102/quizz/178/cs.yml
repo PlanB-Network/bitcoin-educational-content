@@ -1,0 +1,8 @@
+question: Proč by podle předložené liberální analýzy nebylo možné zachovat svobodu tisku v kolektivistickém ekonomickém systému?
+answer: Stát kontroluje všechny výrobní prostředky včetně tiskařských strojů a rozhoduje o tom, co bude publikováno
+wrong_answers:
+  - Jednotliví novináři by nebyli ekonomicky motivováni k tvorbě kvalitního obsahu
+  - Soukromé noviny by byly pro občany příliš drahé na to, aby si je mohli kupovat za státem řízené ceny
+  - Politické strany by příliš intenzivně soupeřily o kontrolu nad médii, což by vedlo k cenzuře
+explanation: |
+  Liberální analýza identifikuje strukturální nemožnost: protože stát vlastní všechny výrobní prostředky v kolektivistickém systému, nutně kontroluje tiskárny a vydavatelskou infrastrukturu. To dává státu absolutní moc určovat, co se bude tisknout a distribuovat, což znemožňuje nezávislou svobodu tisku bez ohledu na politické záměry. Ostatní možnosti tento zásadní bod o ekonomické kontrole určující politické možnosti opomíjejí.

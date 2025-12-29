@@ -1,5 +1,5 @@
 ---
-name: Taart Wallet
+name: Cake Wallet
 description: Tutorial over Cake Wallet en Stille Betalingen
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Trình khám phá Blockstream
+name: Blockstream Explorer
 description: Khám phá lớp chính của Bitcoin và Liquid Network
 ---
 

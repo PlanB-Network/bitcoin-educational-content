@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con la configuración de la red durante el proceso de transición a la Federación Dinámica (Dynafed) de Liquid cuando hay que sustituir a un funcionario?
+answer: La red difunde una transacción de transición seguida de un periodo de solapamiento de dos semanas antes de que la nueva configuración tome el relevo
+wrong_answers:
+  - La red pasa inmediatamente a la nueva configuración funcional tras emitir la transacción de transición
+  - Todos los funcionarios deben votar simultáneamente para aprobar la sustitución antes de que se produzca cualquier cambio en la configuración
+  - La red requiere un fork duro y un apagado temporal para actualizar la lista de funcionarios y reiniciar las operaciones
+explanation: |
+  La Federación Dinámica permite a Liquid evolucionar sin bifurcaciones duras mediante un proceso de transición cuidadosamente orquestado. Cuando es necesaria una sustitución funcional, la red emite una transacción de transición que señala el próximo cambio. A esto le sigue un periodo de solapamiento obligatorio de dos semanas en el que coexisten las configuraciones antigua y nueva, lo que garantiza una continuidad sin fisuras. Las otras opciones son incorrectas porque el cambio inmediato podría provocar inestabilidad en la red, la votación simultánea no es el mecanismo utilizado y las bifurcaciones duras son específicamente lo que Dynafed se diseñó para evitar.

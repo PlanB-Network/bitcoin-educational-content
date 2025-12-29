@@ -67,7 +67,7 @@ Swiss Bitcoin Pay prezentuje się zatem jako interesująca alternatywa pomiędzy
 ## Jak utworzyć szwajcarskie konto Bitcoin Pay?
 
 
-Odwiedź [oficjalną stronę internetową Swiss Bitcoin Pay] (https://swiss-Bitcoin-pay.ch/).
+Odwiedź [oficjalną stronę internetową Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/).
 
 ![SWISS BITCOIN PAY](assets/notext/01.webp)
 

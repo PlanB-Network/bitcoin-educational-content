@@ -1,0 +1,8 @@
+question: Co się stanie, gdy dostawca usług zapłaci fakturę Lightning, aby zakończyć zamianę Liquid na Lightning przy użyciu HTLC?
+answer: Dostawca otrzymuje obraz wstępny z płatności Lightning, który może następnie wykorzystać do odblokowania i odebrania L-BTC z HTLC
+wrong_answers:
+  - Dostawca musi poczekać na wygaśnięcie blokady czasowej, zanim będzie mógł uzyskać dostęp do L-BTC zablokowanego w umowie HTLC
+  - "Klient automatycznie otrzymuje obraz wstępny i wykorzystuje go do zwolnienia L-BTC bezpośrednio do Liquid wallet dostawcy"
+  - Kontrakt HTLC automatycznie wykonuje i przekazuje L-BTC do dostawcy bez konieczności przeprowadzania dodatkowego dowodu kryptograficznego
+explanation: |
+  HTLC tworzą atomowe swapy poprzez wiązanie kryptograficzne przy użyciu tej samej blokady hash lock w obu sieciach. Gdy dostawca pomyślnie opłaci fakturę Lightning, uzyskuje obraz wstępny (sekret), który pasuje do blokady hash. Ten obraz wstępny jest kluczem kryptograficznym, który pozwala im odblokować L-BTC, który został wcześniej zablokowany w HTLC. Pozostałe opcje są nieprawidłowe, ponieważ nie odzwierciedlają atomowego charakteru HTLC - blokada czasowa jest tylko mechanizmem awaryjnym, klienci nie obsługują dystrybucji obrazu wstępnego, a HTLC wymagają aktywnego dowodu kryptograficznego, a nie automatycznego wykonania.

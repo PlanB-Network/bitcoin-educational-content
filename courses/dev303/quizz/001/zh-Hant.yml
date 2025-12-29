@@ -1,0 +1,8 @@
+question: Rustup 在 Rust 開發生態系統中的主要目的是什麼？
+answer: 用於安裝和管理 Rust 的全面工具鏈管理系統
+wrong_answers:
+  - 用於處理 Rust 專案中相依性的套件管理員
+  - 可分析程式碼並提供改善建議的進階內嵌程式
+  - 編譯 Rust 程式和管理專案結構的建立系統
+explanation: |
+  Rustup 是專門設計的工具鏈管理系統，可處理 Rust 本身在不同專案與平台上的安裝、更新與管理。Cargo 是 Rust 專案的套件管理員和建置系統，Clippy 則是程式碼分析的線結器，而 Rustup 則是在更高層次管理整個 Rust 開發環境。它允許開發人員安裝不同的 Rust 版本、管理各種平台的編譯目標，並透過「rustup update」等簡單指令，輕鬆更新至新的 Rust 版本。

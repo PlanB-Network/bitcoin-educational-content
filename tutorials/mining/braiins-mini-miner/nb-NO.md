@@ -14,7 +14,7 @@ Mini Miner braiins BMM 100 er et produkt laget av Mining pool Braiins. Denne enh
 
 
 
-Du kan også finne mye mer viktig informasjon ved å sjekke ut den komplette veiledningen direkte på [produsentens nettsted] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Du kan også finne mye mer viktig informasjon ved å sjekke ut den komplette veiledningen direkte på [produsentens nettsted](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
@@ -168,7 +168,7 @@ og vi må klikke på den lilla knappen til høyre der det står "Koble til arbei
 
 
 
-Her kommer vinduet med informasjonen vi trenger for å koble vår mini Miner til bassenget. Her er den eneste endringen vi kan gjøre å velge Stratum V2. For å finne ut hva Stratum v2 er, se denne oppføringen i [glossary] (https://planb.academy/en/resources/glossary/stratum-v2).
+Her kommer vinduet med informasjonen vi trenger for å koble vår mini Miner til bassenget. Her er den eneste endringen vi kan gjøre å velge Stratum V2. For å finne ut hva Stratum v2 er, se denne oppføringen i [glossary](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -240,7 +240,7 @@ hvis du går tilbake til dashbordet, bør du begynne å se bevegelse på grafen 
 
 
 
-Gjennom denne poolen kan man prøve lykken og utvinne alene, ved å lene seg på en pool. I dette tilfellet vil vi ikke motta belønning, men vi vil motta full belønning hvis vi noen gang klarer å utvinne en blokk. Vi kobler oss deretter til det offentlige bassenget, et basseng som kun består av Mining, og som er helt åpent. Vi åpner et nytt vindu i nettleseren og går til [web.public-pool.io] (https://web.public-pool.io/#/).
+Gjennom denne poolen kan man prøve lykken og utvinne alene, ved å lene seg på en pool. I dette tilfellet vil vi ikke motta belønning, men vi vil motta full belønning hvis vi noen gang klarer å utvinne en blokk. Vi kobler oss deretter til det offentlige bassenget, et basseng som kun består av Mining, og som er helt åpent. Vi åpner et nytt vindu i nettleseren og går til [web.public-pool.io](https://web.public-pool.io/#/).
 
 
 

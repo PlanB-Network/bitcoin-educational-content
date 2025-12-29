@@ -145,7 +145,7 @@ Tautan instalasi resmi :
 
 
 
-- [Instalasi pada Raspberry Pi 5] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Instalasi pada Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - [Instalasi pada sistem x86 (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems)
 - [Instalasi mesin virtual](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
@@ -704,8 +704,8 @@ Umbrel kamu sekarang siap dipakai. Kamu ikut berpartisipasi aktif di jaringan Bi
 
 - [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
-- [Mempool] (https://Mempool.space)
-- [Sparrow Wallet] (https://sparrowwallet.com)
+- [Mempool](https://Mempool.space)
+- [Sparrow Wallet](https://sparrowwallet.com)
 
 
 

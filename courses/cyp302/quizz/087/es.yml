@@ -6,4 +6,4 @@ wrong_answers:
   - SHA-256
 explanation: |
   El método CBC utiliza un vector de inicialización y aplica un XOR entre cada bloque de texto plano y el bloque cifrado anterior, haciendo que el cifrado sea probabilístico y más seguro que el ECB.
-reviewed: false
+reviewed: true

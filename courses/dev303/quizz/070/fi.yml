@@ -1,0 +1,8 @@
+question: Miten Rust:n yhtenäinen työkaluekosysteemi Cargon kautta eroaa lähestymistavasta, jota käytetään vanhemmissa kielissä, kuten C++:ssa Bitcoin-kehityksessä?
+answer: Cargo tarjoaa standardoidun riippuvuuksien hallinnan, rakentamisen, testauksen ja dokumentoinnin yhdessä työkalussa, mikä poistaa pirstaleisuuden
+wrong_answers:
+  - Cargo keskittyy yksinomaan muistiturvallisuuden validointiin, kun taas C++-työkalut asettavat etusijalle kääntämisnopeuden optimoinnin
+  - Cargo vaatii useiden erillisten työkalujen manuaalista konfigurointia, kun taas C++ tarjoaa integroidut kehitysympäristöt
+  - Cargo tukee vain Bitcoin-kohtaisia kirjastoja, kun taas C++-työkalut toimivat yleiskäyttöisten rahoitussovellusten kanssa
+explanation: |
+  Rust:n Cargo edustaa yhtenäistä lähestymistapaa projektinhallintaan, jossa kaikki olennaiset kehitystehtävät hoidetaan yhdellä standardoidulla työkalulla. Tämä poistaa C++:ssa havaitun pirstaloitumisongelman, jossa useat kilpailevat työkalut riippuvuuksien hallintaan, rakentamiseen ja testaamiseen aiheuttavat epäjohdonmukaisuutta eri projekteissa. Bitcoin-kehityksessä tämä standardointi on ratkaisevan tärkeää, koska se takaa johdonmukaiset rakentamisprosessit, luotettavan riippuvuuksien ratkaisun ja yhdenmukaiset koodin laatutarkastukset eri projekteissa ja tiimeissä, mikä vähentää tietoturvaa vaarantavien konfiguraatioon liittyvien virheiden riskiä.

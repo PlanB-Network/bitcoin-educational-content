@@ -1,0 +1,8 @@
+question: Ni igiki gitandukanya amakosa y’ibikoresho vy’igihe co gukora n’amakosa y’injiza atagira akamaro be n’amakosa y’ubwenge mu gutegura porogarama ya Bitcoin?
+answer: Amakosa y'ibikoresho vy'igihe co gukora aba iyo ibintu vyo hanze nk'amadosiye canke amahuza y'urubuga bitaboneka, bisaba gukosora ibidukikije aho guhindura kode
+wrong_answers:
+  - "Amakosa y'ibikoresho vy'igihe co gukora aba iyo imirongo y'imikorere idahuye n'ibisabwa, vyerekana ukurenga ku masezerano hagati y'uwuhamagara n'imikorere"
+  - Amakosa y'ibikoresho vy'igihe co gukora agereranya ibibazo mu gushirwa mu ngiro kwa porogaramu bisaba gukosora no guhindura kode kugira ngo bitorerwe umuti neza
+  - Amakosa y'ibikoresho vy'igihe co gukora aba iyo uburyo bw'ubwoko bunaniwe gufata ibidahuye, bigatuma ubwoko bw'amakuru butari bwo bukwiragizwa muri uburyo
+explanation: |
+  Amakosa y'ibikoresho vy'igihe co gukora ari hanze y'ubuhinga bwa porogaramu kandi abaho iyo ibishingiyeko nk'amadosiye, amahuza y'urubuga, canke ibikoresho vyo kubika bitaboneka. Udakunze amakosa y'injiza atagira akamaro (arimwo ukurenga ku masezerano y'ibipimo) canke amakosa y'ubwenge (ari yo makosa yo gushirwa mu ngiro), amakosa y'ibikoresho vy'igihe co gukora akenshi asaba gukosora ibidukikije aho guhindura kode. Porogaramu itegerezwa gukora neza ivyo kuko akenshi biba ari ivy'akanya gato kandi biri hanze y'ububasha bwa porogarama.

@@ -206,7 +206,7 @@ Untuk melihat log dari node Bitcoin kamu yang berkaitan dengan interaksi Tor, ta
 **Kiat💡:** Berikut ini ada beberapa tautan yang menarik:
 
 
-- [Halaman Wiki yang menjelaskan Tor dan hubungannya dengan Bitcoin] (https://en.Bitcoin.it/wiki/Tor)
+- [Halaman Wiki yang menjelaskan Tor dan hubungannya dengan Bitcoin](https://en.Bitcoin.it/wiki/Tor)
 - [Generator file konfigurasi Bitcoin core oleh Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
 - [Panduan konfigurasi Tor oleh Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 

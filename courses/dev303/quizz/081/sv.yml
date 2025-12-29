@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med att använda map_err() när man kedjar operationer med Result-typer i Rust?
+answer: Att omvandla feltyper samtidigt som framgångsvärden förblir oförändrade under felutbredningen
+wrong_answers:
+  - Att omvandla framgångsvärden samtidigt som fel automatiskt sprids utan modifiering
+  - Konvertera Result-typer till Option-typer när fel måste ignoreras
+  - För att förhindra att fel sprids genom att konvertera alla fel till standardvärden för framgång
+explanation: |
+  Metoden map_err() är särskilt utformad för att omvandla feltyper samtidigt som framgångsvärden bevaras oförändrade. Detta är avgörande för att bygga applikationer i flera lager där olika komponenter behöver olika felrepresentationer. Du kan till exempel konvertera parsing-fel på låg nivå till domänspecifika fel som ger bättre sammanhang. De andra alternativen är felaktiga: map() omvandlar framgångsvärden (inte map_err()), map_err() konverterar inte till Option-typer och förhindrar inte spridning eller skapar standardframgångsvärden.

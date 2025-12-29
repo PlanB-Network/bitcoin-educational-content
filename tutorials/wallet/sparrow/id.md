@@ -20,7 +20,7 @@ Soal koneksi, Sparrow ngasih fleksibilitas penuh — kamu bisa hubungkan langsun
 
 ## Cara Install Sparrow Wallet
 
-Buka [halaman unduhan resmi Sparrow Wallet] (https://sparrowwallet.com/download/) dan pilih versi perangkat lunak yang sesuai dengan sistem operasi Anda.
+Buka [halaman unduhan resmi Sparrow Wallet](https://sparrowwallet.com/download/) dan pilih versi perangkat lunak yang sesuai dengan sistem operasi Anda.
 
 ![Image](assets/fr/01.webp)
 
@@ -146,7 +146,7 @@ Kalau file bitcoin.conf belum ada, gampang kok — kamu bisa langsung bikin dari
 
 ![Image](assets/fr/12.webp)
 
-Temukan IP Address dari mesin yang menghosting Bitcoin Core di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner] (https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
+Temukan IP Address dari mesin yang menghosting Bitcoin Core di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner](https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
 
 Dalam berkas `Bitcoin.conf`, tambahkan baris berikut, atur `rpcbind=192.168.1.18` untuk mencocokkan IP Address node Anda.
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Solo dos valores pueden ocurrir con igual probabilidad
 explanation: |
   Una variable uniforme es una variable aleatoria donde todos los valores posibles tienen la misma probabilidad de ocurrir.
-reviewed: false
+reviewed: true

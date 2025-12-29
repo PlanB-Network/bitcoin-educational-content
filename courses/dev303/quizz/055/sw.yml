@@ -1,0 +1,8 @@
+question: Ni nini hutokea wakati wa mchakato wa ujumuishaji wakati mkusanyaji wa Rust anapokutana na ombi la jumla?
+answer: Kikusanyaji hulinganisha ingizo dhidi ya mifumo iliyoainishwa na hubadilisha simu ya macro na msimbo uliozalishwa kabla ya ukaguzi wa aina kutokea
+wrong_answers:
+  - Kikusanyaji huahirisha upanuzi wa jumla hadi baada ya ukaguzi wa aina na uboreshaji ili kuhakikisha uhalali wa msimbo
+  - Kikusanyaji huhifadhi simu ya jumla kama msimbo wa byte na huipanua kwa nguvu wakati wa utekelezaji wa wakati wa utekelezaji
+  - Kikusanyaji huthibitisha sintaksia ya jumla lakini huacha upanuzi halisi kwa kiunganishi kushughulikia
+explanation: |
+  Macro hupanuliwa wakati wa mkusanyiko kabla ya ukaguzi wa aina na uboreshaji kutokea. Kikusanyaji kinapokutana na ombi la macro, hulinganisha mara moja ingizo dhidi ya mifumo iliyoainishwa ya macro na hubadilisha simu nzima ya macro na msimbo uliozalishwa. Msimbo huu uliopanuliwa kisha hupitia michakato ya kawaida ya mkusanyiko ikiwa ni pamoja na ukaguzi wa aina. Chaguzi zingine si sahihi kwa sababu macro hufanya kazi wakati wa mkusanyiko, sio wakati wa utekelezaji, na upanuzi lazima ufanyike kabla ya ukaguzi wa aina kwani msimbo uliozalishwa unahitaji kuthibitishwa kwa usahihi.

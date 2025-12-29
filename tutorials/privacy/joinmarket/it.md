@@ -1,6 +1,5 @@
 ---
 name: JoinMarket
-
 description: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
 ---
 
@@ -14,7 +13,7 @@ L’obiettivo di questo tutorial é quello di illustrare il funzionamento teoric
 
 ## Definizione Teorica JoinMarket
 
-Possiamo definire JoinMarket come uno strumento, o un wallet, che permette di effettuare CoinJoin con altri utenti in maniera totalmente trustless e senza alcun coordinatore centrale.
+Possiamo definire JoinMarket come uno strumento, oppure un wallet, che permette di effettuare CoinJoin con altri utenti in maniera totalmente trustless e senza alcun coordinatore centrale.
 
 Essendo tutta la parte teorica di questo tool estremamente ampia, ho deciso di affrontarla in una puntata specifica del mio podcast. Per coloro che possono comprendere l'italiano, consiglio vivamente di proseguire nella lettura dopo aver ascoltato l’episodio, così da assimilare al meglio i concetti di base per utilizzare in maniera corretta questo programma.
 
@@ -29,16 +28,16 @@ Potete recuperare la puntata a questi link diretti:
 
 Sistemi operativi:
 
-- Raspiblitz
-- Umbrel
-- MyNode
-- Raspibolt
+- Raspiblitz;
+- Umbrel;
+- MyNode;
+- Raspibolt.
 
 ## File di Configurazione
 
-JoinMarket é un software personalizzabile e con un’infinitá di settaggi; quest’ultimi sono specificati in un file di configurazione presente nella directory principale del programma chiamato `Joinmarket.cfg`.
+JoinMarket é un software personalizzabile e con molti settaggi che sono specificati in un file di configurazione presente nella cartella principale del programma chiamato `Joinmarket.cfg`.
 
-In questa sezione andremo ad analizzare alcuni campi che potrebbe essere interessante approfondire e/o modificare, in base alle proprie esigenze. Vorrei sottolineare che tutte le modifiche di seguito elencate sono utili da conoscere per adattare il funzionamento del software alle esigenze personali pur non essendo obbligatorie.
+In questa sezione andremo ad analizzare alcuni campi che potrebbe essere interessante approfondire e/o modificare, in base alle proprie esigenze. Vorrei sottolineare che tutte le modifiche di seguito elencate sono utili da conoscere per adattare il funzionamento del software alle esigenze personali, pur non essendo obbligatorie.
 
 Prima di tutto spostiamoci nella cartella `joinmarket/scripts` e lanciamo il comando:
 
@@ -59,34 +58,34 @@ vim joinmarket.cfg
 
 una volta aperto noteremo numerose righe con varie impostazioni e relativa spiegazione in inglese. Nello specifico analizzeremo qua sotto le variabili piú interessanti:
 
-- `merge_algorithm` in caso facessimo da maker questo campo regola con quanta aggressivitá il software consoliderá gli Output non spesi. In caso avessimo molti UTXO da consolidare, potrebbe aver senso switchare da _gradual_ a _greedy_
-- `tx_fees` regola come taker le fees con cui pagare la transazione, é molto utile modificare questo setting in caso usaste spesso il tumbler (ne parleremo in seguito) in quanto se ci fosse uno spike delle fees durante l’esecuzione di quest’ultimo, se non settassimo correttamente questo campo, rischieremmo di andare a spendere tantissimi sats per i coinjoin. Settando valori in migliaia (come per esempio 2000) questo equivarrá a 2 sats/vByte, 3500 a 3.5 sats/vByte e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle vostre necessitá.
-- `max_cj_fee_abs` serve a specificare quanto siamo disposti a pagare in termini assoluti i maker che scegliamo durante il coinjoin. Di default questo campo per i maker é 200 sats, una buona opzione potrebbe essere un numero variabile da 200 a 1000 sats per controparte (questo in base a quanto volete spendere e quanto anon-set ricercate per i vostri coinjoin)
-- `max_cj_fee_rel` ha la stessa funzione del campo sopra ma specifica le fees relative (percentuali) che siamo disposti a pagare ad ogni controparte. Essendo questo un valore “percentuale”, state attenti a non settare valori alti per evitare costi elevati nei coinjoin con grossi importi. Il valore di default per i maker é _0.00002_, consiglio un valore simile o leggermente superiore.
+- `merge_algorithm` in caso facessimo da maker, questo campo regola con quanta aggressivitá il software consoliderá gli output non spesi. Nel caso in cui avessimo molti UTXO da consolidare, potrebbe aver senso passare da _gradual_ a _greedy_
+- `tx_fees` regola le commissioni che un taker deve pagare per le transazioni. È molto utile modificare questa impostazione se si utilizza frequentemente il tumbler (di cui parleremo più avanti). Se desideriamo impostare un limite massimo di satoshi da pagare, è fondamentale configurare correttamente questo campo. In caso contrario, potremmo ritrovarci a spendere più del necessario per i coinjoin. Settando valori in migliaia (come per esempio 2000) questo equivarrá a 2 sats/vByte, 3500 a 3.5 sats/vByte e cosi via. Mi sento di consigliare un numero che va da 1500 a 6000 in base alle necessitá.
+- `max_cj_fee_abs`  consente di specificare l'importo massimo che siamo disposti a pagare in modo assoluto ai maker scelti durante il coinjoin.  Di default questo campo per i maker é 200 sats, una buona opzione potrebbe essere un numero variabile da 200 a 1000 sats per ogni controparte, a seconda di quanto desiderate spendere e del livello di anonimato che cercate per i vostri coinjoin.
+- `max_cj_fee_rel` ha la stessa funzione di 'max_cj_fee_abs', ma specifica le commissioni relative che siamo disposti a pagare ad ogni controparte. Essendo un valore percentuale, è importante non impostare valori alti per evitare costi elevati nei coinjoin con grossi importi. Il valore di default per i maker é _0.00002_, consiglio un valore simile o leggermente superiore.
 - `minimum_makers` é il campo che specifica con quante altre controparti facciamo coinjoin, di default joinMarket sceglie sempre da 4 a 9 controparti, volendo, per una maggiore privacy, possiamo alzare questo valore a 5 o 6 (renderá però le transazioni piú costose).
-- `cjfee_a` specifica, in caso facessimo da maker, quanti sats in termini assoluti vogliamo incassare per l’affitto della nostra liquiditá. Questo campo é totalmente soggettivo, il valore di default é gia ottimo (avremo così miglior privacy come maker) possiamo valutare di portarlo a 0 se vogliamo fare piú coinjoin in meno tempo.
-- `cjfee_r` uguale al campo sopra citato ma in termini percentuali e non assoluti. Anche qua consiglio di lasciare il valore di default o abbassarlo per attrarre piú takers.
-- `ordertype` con questo campo scegliamo da maker se farci pagare in maniera assoluta (absoffer) o percentuale (reloffer). Solitamente i takers preferiscono le offerte assolute per questioni economiche.
-- `minsize` se da maker non vogliamo avere UTXO troppo piccoli possiamo specificare il coinjoin minimo per partecipare. Questo campo é espresso in satoshi ed é totalmente soggettivo. Potremmo lasciare questo campo a 0 oppure aumentare fino a 500000 (sats), 1000000 (sats), e così via.
+- `cjfee_a` questo parametro indica, in caso facessimo da maker, il numero di satoshi che desideriamo guadagnare in termini assoluti per l'utilizzo della nostra liquidità. Questo valore é soggettivo, il valore di default é gia ottimo (avremo così miglior privacy come maker) possiamo valutare di portarlo a 0 se vogliamo fare piú coinjoin in meno tempo.
+- `cjfee_r` uguale al campo sopra citato ma in termini percentuali e non assoluti. Consiglio di lasciare il valore di default o abbassarlo per attrarre piú takers.
+- `ordertype` con questo parametro possiamo decidere, da maker, se vogliamo essere compensati in termini assoluti (absoffer) o in percentuale (reloffer). Generalmente, i takers tendono a preferire le offerte in valore assoluto per motivi economici.
+- `minsize` se, come maker, desideriamo evitare UTXO troppo piccoli, possiamo specificare il valore minimo di satoshi per partecipare al coinjoin. Questo parametro è totalmente soggettivo e può essere impostato a 0 oppure aumentato fino a 500.000 satoshi, 1.000.000 satoshi, e così via.
 
-Prestate molta attenzione a non modificare in modo sbagliato campi errati, alcune delle varibili presenti nel file joinmarket.cfg se impostate erroneamente potrebbero compromettere la funzionalitá del software o annientare completamente la vostra privacy, occhi aperti e attenzione al massimo!
+Prestare molta attenzione nel modificare i campi del file joinmarket.cfg. Impostazioni errate di alcune variabili potrebbero compromettere la funzionalitá del software o annientare completamente la vostra privacy, occhi aperti e massima attenzione!
 
 ## Setup dell’Ambiente di Lavoro
 
-Alcuni nodi impostano automaticamente i valori corretti per questi campi all’interno del file joinmarket.cfg Consiglio di ricontrollare manualmente:
+Alcuni nodi impostano automaticamente i valori corretti per questi campi all’interno del file joinmarket.cfg. Consiglio di ricontrollare manualmente:
 
 - `rpc_user = yourusername-as-in-bitcoin.conf`
 - `rpc_password = yourpassword-as-in-bitcoin.conf`
 - `rpc_host = localhost #default usually correct`
 - `rpc_port = 8332 # default for mainnet`
 
-A questo punto potremo procedere con la creazione del nostro wallet all’interno di JoinMarket:
+Procediamo con la creazione del nostro wallet all’interno di JoinMarket:
 
 ```bash
 python wallet-tool.py generate
 ```
 
-Questo comando ci fará inserire una password con cui criptare il wallet e il nome che vogliamo dare ad esso, quando vi chiederá se volete supportare o meno i fidelity bond consiglio di usare l’opzione _yes_, l’output restituito sará simile a questo:
+Questo comando ci permetterà di impostare una password per criptare il wallet e di assegnargli un nome. Quando viene richiesto, se si desidera supportare i fidelity bond, consiglio di usare l’opzione _yes_, l’output restituito sará simile a questo:
 
 ```bash
 (jmvenv)$ python wallet-tool.py generate
@@ -99,9 +98,9 @@ Reenter wallet encryption passphrase:
 Input wallet file name (default: wallet.jmdat):
 saved to wallet.jmdat
 ```
-in caso compaia un errore é molto probabile che abbiamo settato male i 4 campi RPC sopra specificati. Nel caso potrebbe aiutare seguire [questa guida](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) presente nella documentazione originale di JoinMarket.
+Se si verifica un errore, è probabile che i quattro campi RPC specificati siano stati impostati in modo errato. In tal caso puà essere utile seguire [questa guida](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) presente nella documentazione originale di JoinMarket.
 
-Abbiamo completato il setup del nostro ambiente di lavoro e possiamo cominciare ad esplorare i comandi che piú ci torneranno utili. Tutti gli script di cui parleremo possono essere lanciati in console seguiti da `--help` per avere una spiegazione approfondita.
+Abbiamo completato il setup del nostro ambiente di lavoro e possiamo cominciare ad esplorare i comandi che ci saranno più utili. Tutti gli script di cui parleremo possono essere eseguiti nel terminale seguiti da `--help` per avere una spiegazione approfondita.
 
 Possiamo ora provare a lanciare:
 
@@ -110,7 +109,7 @@ python wallet-tool.py *nome del wallet prima creato*
 esempio: python wallet-tool.py wallet.jmdat
 ```
 
-questo comando vi mostrerá tutti i vari mixdepth del portafoglio con i vari indirizzi catalogati come:
+questo comando vi mostra tutti i vari mixdepth del wallet con i vari indirizzi catalogati come:
 - New (address mai usato)
 - Change-out (resto di una precedente transazione)
 - Cj-out (output di un coinjoin)
@@ -181,7 +180,7 @@ Balance:	0.00000000
 Balance for mixdepth 4:	0.00000000
 Total balance:	0.00000000
 ```
-Adesso possiamo procedere a depositare i nostri primi satoshi all’interno di uno o piú indirizzi ricordando che, indipendendentemente da maker o taker, il software non andrá mai a consolidare utxo in mixdepth diversi direttamente, in questo modo potremo tenere separati sats con diverso livello di privacy all’interno del wallet.
+Adesso possiamo procedere a depositare i nostri primi satoshi all’interno di uno o piú indirizzi ricordando che, indipendendentemente da maker o taker, il software non andrá mai a consolidare utxo in mixdepth diversi. Questo approccio ci consente di tenere separati satoshi con diversi livelli di privacy all’interno del wallet.
 
 ## Inviare Bitcoin con Coinjoin Singolo
 
@@ -196,7 +195,7 @@ che ci permetterá di inviare transazioni ad altri indirizzi con o senza coinjoi
 python sendpayment.py <option that can be viewed with --help> <wallet name> <satoshis amount> <destination address>
 ```
 
-un esempio basic di utilizzo potrebbe essere:
+un esempio semplice di utilizzo potrebbe essere:
 
 ```bash
 python sendpayment.py wallet.jmdat 5000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
@@ -210,13 +209,13 @@ python sendpayment.py -N 5 -m 1 wallet.jmdat 100000000 1mprGzBA9rQk82Ly41TsmpQGa
 ```
 in questo esempio abbiamo aggiunto due specifiche: -N indica con quante controparti andremo a mixare, -m il mixdepth da cui andremo a prelevare i fondi. Di fatto abbiamo inviato 100.000.000 sats (1 btc) all’indirizzo 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c con i fondi presenti nel mixdepth 1 e mixando con 5 controparti.
 
-Se mettessimo come valore di invio 0 specificando un mixdepth, joinMarket effettuerá un cosidetto `sweep`, ovvero invierá tutti i fondi presenti in quel mixdepth consolidandoli tra di loro:
+Mettendo come valore di invio 0 specificando un mixdepth, joinMarket effettuerá un cosidetto `sweep`, ovvero invierá tutti i fondi presenti in quel mixdepth consolidandoli tra di loro:
 
 ```bash
 python sendpayment.py -N 7 -m 0 wallet.jmdat 0 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
 ```
 
-quì abbiamo inviato tutti i fondi dal mixdepth 0 (potevamo anche non specificalo perché é quello di default) mixando con 7 controparti.
+quì abbiamo inviato tutti i fondi dal mixdepth 0 (potevamo anche non specificarlo perché é quello di default) mixando con 7 controparti.
 
 Il comando sendpayment serve per muovere fondi da joinMarket a wallet esterni o per inviare satoshi ad una persona aggiungendo un layer di privacy tra noi e lui. Per guadagnare un sufficiente livello di privacy sui nostri UTXO é piú indicato usare il comando tumbler.py che spiegheremo piú avanti in questa guida.
 
@@ -228,7 +227,7 @@ Lo script che andremo a trattare in questa sezione è:
 yg-privacyenhanced.py
 ```
 
-Questo programma serve per agire come maker nel marcato di joinMarket. Il software si connetterá al nostro nodo bitcoin ed al mercato interno della piattaforma in cui i maker si presentano come offerenti di liquiditá e i taker cercano le controparti. In caso vogliate usare un fidelity bond potrete crearne uno con questa formattazione:
+Questo programma consente di agire come maker nel marcato di joinMarket. Il software si connetterá al nostro nodo bitcoin ed al mercato interno della piattaforma dove i maker si presentano come offerenti di liquiditá ed i taker cercano le controparti. In caso vogliate usare un fidelity bond potrete crearne uno con questa formattazione:
 
 ```bash
 python3 wallet-tool.py <wallet name> gettimelockaddress <block date, written in YYYY-MM format>
@@ -240,12 +239,12 @@ per esempio:
 python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 ```
 
-l’output che ci verrá restituito sarà un indirizzo bitcoin (ovvero quello su cui dovrete depositare i fondi che volete destinare al fidelity).
+l’output che verrá restituito sarà un indirizzo bitcoin (ovvero quello su cui dovrete depositare i fondi che volete destinare al fidelity).
 
 **Attenzione**: ci sono due cose a cui fare molta attenzione se avete intenzione di creare un Fidelity Bond (anche detto FB);
 
-- una volta depositati i fondi, questi non potranno essere piú mossi fino alla scadenza di esso. Prestate attenzione a quanti sats inviate all’indirizzo e a come formattate la data. Non sono ammessi errori!
-- Il fidelity bond é facilmente riconoscibile onchain, pertanto é consigliabile depositare fondi attraverso un coinjoin e con provenienza non collegata alla vostra identitá. La stessa cosa é consigliabile farla anche una volta che vorrete spostare il fidelity bond scaduto fuori da JoinMarket.
+- una volta depositati i fondi, questi non potranno essere piú mossi fino alla scadenza del Bond. Prestate attenzione a quanti sats inviate all’indirizzo ed alla formattazione della data. Non sono ammessi errori!
+- Il fidelity bond é facilmente identificabile onchain, pertanto é consigliabile depositare fondi attraverso un coinjoin ed assicurarsi che la loro provenienza non sia collegata alla vostra identità. Precauzione valida anche quando si vuole trasferire il fidelity bond scaduto al di fuori di JoinMarket.
 
 É importante ricordare che é possibile ricaricare il fidelity bond con una sola transazione, in caso di multipli UTXO solo il maggiore verrà considerato valido per il FB.
 
@@ -255,53 +254,52 @@ Trattiamo ora lo script citato all’inizio di questo paragrafo, una volta creat
 python yg-privacyenhanced.py <wallet name>
 ```
 
-Da questo momento in poi (dopo qualche minuto di collegamento alla rete) e fino a quando non interromperemo lo script, il nostro client JoinMarket comparirà sulla lista dei maker attivi sul protocollo e offrirá la nostra liquiditá a varie controparti per effettuare coinjoin. Non aspettatevi decine di coinjoin al giorno (a meno di fidlity enorme e grande liquiditá depositata sul wallet), ricordate anche che fattori come le fees richieste e i satoshi depositati influiscono sulla frequenza con cui farete da maker.
+Da questo momento in poi (dopo qualche minuto di collegamento alla rete) e fino a quando non interromperemo lo script, il nostro client JoinMarket apparirà nella lista dei maker attivi del protocollo, offendo la nostra liquiditá a varie controparti per effettuare coinjoin. Non aspettatevi decine di coinjoin al giorno a meno che non abbiate un fidelity bond elevato e una grande liquidità depositata nel wallet. Ricordate che fattori come le commissioni richieste e i satoshi depositati influenzano la frequenza con cui opererete come maker.
 
-Eseguendo il comando sottostante potrete vedere lo storico di tutte le transazioni effettuate sul wallet e l’eventuale guadagno (se fate da maker) o spesa di fees (se siete taker) che avete avuto in tutto l’arco di vita del portafoglio.
-
+Eseguendo il comando sottostante potrete vedere lo storico di tutte le transazioni effettuate sul wallet, insieme all'eventuale guadagno (se state operando come maker) o alla spesa di commissioni (se siete taker) accumulati durante l'intera vita del wallet.
 ```bash
 python wallet-tool.py <wallet name> history
 ```
 
-Una volta che i vostri satoshi faranno dei coinjoin, si muoveranno da un mixdepth all’altro fino ad arrivare all’ultimo. Una volta superato il quarto torneranno al mixdepth 0, a voi la scelta di quanta privacy ottenere prima di spostarli su un cold wallet, é consigliabile concludere un ciclo completo del wallet.
+Una volta che i vostri satoshi partecipano ai coinjoin, si muoveranno da un mixdepth all’altro fino a raggiungere l’ultimo. Superato il quarto mixdepth torneranno al mixdepth 0. Sarà vostra la scelta su quanto livello di privacy desiderate ottenere prima di trasferirli ad un cold wallet (sinonimo di hardware wallet, considerato più sicuro di un software wallet). È consigliabile completare un ciclo intero del wallet prima di effettuare il trasferimento.
 
 ## Tumbler
 
-Eccoci finalmente alla parte piú succosa di JoinMarket, il tumbler! Se avete ascoltato il podcast sapete giá di cosa si tratta. Una raccomandazione prima di inziare: **attenzione alle fees!** Ricordatevi di settare i limiti nel file joinmarket.cfg (come spiegato all’inzio) e valutate di far girare il programma solo quando le fees onchain sono relativamente basse (sotto i 10 sats/vB).
+Eccoci finalmente alla parte piú interessante di JoinMarket, il tumbler! Se avete ascoltato il podcast sapete giá di cosa si tratta. Una raccomandazione prima di inziare: **fate attenzione alle commissioni!** Ricordate di impostare i limiti nel file joinmarket.cfg (come spiegato all’inzio) e considerate di far girare il programma solo quando le commissioni onchain sono relativamente basse (sotto i 10 sats/vB).
 
-Per lanciare il tumbler é necessario aver fermato lo script da maker (se era attivo), dopo potremo far partire il comando:
+Per lanciare il tumbler é necessario prima fermare lo script da maker (se era attivo), successivamente potremo far partire il comando:
 
 ```bash
 python tumbler.py <wallet name> <receiving address (1)> <receiving address (2)> <receiving address (3)>
 ```
 
-É fondamentale inserire **almeno** 3 indirizzi di output per il tumbler: questo serve a garantire una buona privacy e a non creare link evidenti tra gli UTXO durante tutto il processo. Come al solito aggiungendo`--help` al comando é possibile andare a vedere tutti i dettagli aggiuntivi. Andiamo a visionare un esempio piú complesso con regole avanzate:
+É fondamentale inserire **almeno** 3 indirizzi di output per il tumbler: questo serve a garantire una buona privacy ed a non creare link evidenti tra gli UTXO durante tutto il processo. Aggiungendo`--help` al comando é possibile vedere tutti i dettagli aggiuntivi. Ora visioniamo un esempio piú complesso con regole avanzate:
 
 ```bash
 pyhton tumbler.py TestWallet.jmdat -N 7 2 -c 3 1 bc1qz3f80rtv0ux85d7rc06ldtvmpqyfx6ly48c9pa bc1qf3wljw44utyv7qd0z57zvdkfl20y470mva0nes bc1qw48asjpkwm3k2w8cketqhrre0uwq9f7ypwzmxl
 ```
 
-In questo caso abbiamo lanciato uno script di tumbling che non userà il numero di controparti di default (il parametro -N indica che richiediamo 7 controparti con una varianza massima di 2, quindi un numero di maker random da 5 a 9) e con un numero maggiore di coinjoin per mixdepth (di default questo script effettua un numero random di coinjoin per sezione del wallet che va da 1 a 3, usando il comando -c 3 1 invece sará da 2 A 4). In questo modo spenderemo piú sats in fees ma avremo un anonimity set maggiore.
+In questo caso, abbiamo avviato uno script di tumbling che non utilizza il numero di controparti di default. Il parametro -N indica che richiediamo 7 controparti, con una varianza massima di 2; quindi, il numero di maker sarà casuale, compreso tra 5 e 9. Inoltre abbiamo impostato un numero maggiore di coinjoin per mixdepth: di default, questo script effettua un numero casuale di coinjoin per ogni sezione del wallet, che varia da 1 a 3. Scrivendo il comando -c 3 1, invece, otterremo un numero di coinjoin che varia da 2 a 4. In questo modo spenderemo piú satoshi in commissioni ma avremo un anonset maggiore.
 
-É possibile anche aggiungere quanti indirizzi di output si vogliono (minimo 3, non c'è un massimo se non il buon senso). Non é invece possibile, per questioni di privacy, decidere come saranno distribuiti i satoshi tra gli indirizzi specificati come output.
+É possibile aggiungere quanti indirizzi di output si desiderano (minimo 3, non esiste un massimo, se non il buon senso). Tuttavia, per motivi di privacy, non è possibile decidere come saranno distribuiti i satoshi tra gli indirizzi specificati come output.
 
-Il tumbler é un processo volutamente lungo, occasionalmente potrebbe capitare che qualcosa smetta di funzionare, nella maggior parte dei casi questo si risolverà in autonomia nel giro di poche ore. In caso di crash totale potremo tentare di riavviarlo con il comando:
+Il tumbler é un processo volutamente lungo e, occasionalmente potrebbe capitare che qualcosa smetta di funzionare. Nella maggior parte dei casi questo si risolve autonomamente nel giro di poche ore. In caso di crash totale, potremo tentare di riavviarlo con il comando:
 
 ```bash
 python tumbler.py --restart
 ```
 
-Oppure basterá far ripartire un nuovo comando di tumbling. Questo non avvierà lo scheduling del tumbler precedente ma inizierá un nuovo ciclo di mixing. In caso chiudendo il terminale SSH al vostro nodo si interrompa anche lo script potrete sfruttare il programma `TMUX` installabile con il comando:
+Oppure basterá far ripartire un nuovo comando di tumbling. Questo non riprenderà il programma del tumbler precedente ma inizierá un nuovo ciclo di mixing. Se chiudendo il terminale SSH al vostro nodo si interrompe anche lo script, potrete utilizzare il programma `TMUX` installabile con il comando:
 
 ```bash
 sudo apt install tmux
 ```
 
-Lanciandolo da shell digitando `tmux` vi si aprirá un terminale che rimarrá attivo in background anche chiudendo la connessione remota. Quando vi ri-connetterete al vostro nodo con il comando: `tmux attach` ri-aprirete la shell rimasta attiva in background.
+Lanciandolo da shell digitando `tmux`, si aprirá un terminale che rimarrá attivo in background anche chiudendo la connessione remota. Quando vi riconnetterete al vostro nodo con il comando: `tmux attach` verrà riaperta la shell rimasta attiva in background.
 
 ## Conclusione
 
-JoinMarket é un software sconfinato e personalizzabile. In questa guida abbiamo scoperto le funzioni principali in modo da rendere possibile per chiunque (o almeno ci ho provato, mi rendo conto che usare questo software non é una passeggiata) l’utilizzo di questo programma. Uno dei maggiori problemi di JoinMarket é proprio questo: il numero di persone che lo usano e che fanno da maker. Se pochi utenti sfruttano questo software, la privacy generale (anon-set) si abbassa. Ecco perché spero che questa guida possa incentivare l’uso e vi convinca a scaricare e installare il mio software preferito per fare coinjoin. In caso vogliate approfondire ancora di piú alcuni aspetti vi consiglio di dare una lettura ai vari docs di approfondimento presenti su github, sono vermanete ben fatti e li potete reperire qui.
+JoinMarket é un software sconfinato e personalizzabile. In questa guida abbiamo esplorato le funzioni principali in modo da rendere possibile per chiunque (o almeno ci ho provato, mi rendo conto che usare questo software non é una passeggiata) l’utilizzo di questo programma. Uno dei maggiori problemi di JoinMarket é proprio questo: il numero di persone che lo usano e che fanno da maker. Se pochi utenti sfruttano questo software, la privacy generale (anonset) si abbassa. Ecco perché spero che questa guida possa incentivarne l’uso e vi convinca a scaricare e installare il mio software preferito per fare coinjoin. In caso vogliate approfondire ancora di piú alcuni aspetti vi consiglio di dare una lettura ai vari docs di approfondimento presenti su github, sono vermanete ben fatti e li potete reperire qui.
 
 Buon mixing tartarughe!🐢 💚
 

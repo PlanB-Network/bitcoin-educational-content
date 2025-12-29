@@ -399,4 +399,4 @@ Kugira ngo ubone umutekano mwiza, turagusavye gukora ubwo bwoko bwompi bwo gucun
 
 
 - Videwo y'insobanuro y'igifaransa: [YouTube]( https://youtu.be/ziwhv9KqVkM)
-- Inyigisho yo gutangura vuba: [Igikarabiro Bitcoin] (https: gutangura vuba/)
+- Inyigisho yo gutangura vuba: [Igikarabiro Bitcoin](https: gutangura vuba/)

@@ -1,0 +1,8 @@
+question: En la pila de testigos de una transacción P2WSH para un multisig 2-de-3, ¿por qué debe incluirse un elemento vacío en la parte inferior de la pila de testigos?
+answer: Para compensar el error de off-by-one de CHECKMULTISIG que consume un elemento extra de la pila durante la ejecución
+wrong_answers:
+  - "Para proporcionar un marcador de posición para la tercera firma que no se utilizó en la validación multisig 2-de-3"
+  - Para separar los datos de la firma de la secuencia de comandos testigo para el correcto análisis de validación SegWit
+  - Para garantizar que la pila de testigos tiene un número par de elementos para la construcción eficiente del árbol merkle
+explanation: |
+  El opcode CHECKMULTISIG tiene un error histórico por el que salta un elemento extra de la pila más allá de lo que debería necesitar. Esto afecta a todas las transacciones multisig, incluyendo P2WSH. El elemento vacío compensa este error, asegurando que los elementos restantes de la pila (firmas y script testigo) se colocan correctamente para la validación. Las otras opciones son incorrectas: las firmas no utilizadas no están representadas por elementos vacíos, el análisis sintáctico de testigos no requiere elementos de separación y las pilas de testigos no necesitan recuentos de elementos pares para las operaciones merkle.

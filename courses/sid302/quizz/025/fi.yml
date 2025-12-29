@@ -1,0 +1,8 @@
+question: Mikä perustavanlaatuinen lohkoketjuarkkitehtuurin ero tekee Liquid:sta sopivamman kriittisiin rahoitustoimintoihin verrattuna Ethereum-pohjaisiin tokenisointialustoihin?
+answer: Liquid käyttää Bitcoin:n UTXO-mallia, joka tarjoaa deterministiset transaktiotulokset, kun taas Ethereumin tilimalli voi johtaa epäonnistuneisiin transaktioihin, jotka silti kuluttavat kaasumaksuja
+wrong_answers:
+  - Liquid toimii proof-of-stake -konsensusmekanismilla, kun taas Ethereum luottaa transaktioiden validointiin energiaintensiiviseen proof-of-work mining:een
+  - "Liquid:n federoitu sivuketjurakenne mahdollistaa rajattoman transaktioiden läpimenon, kun taas Ethereumia rajoittaa yhden ketjun lohkokokorajoitukset"
+  - Liquid toteuttaa natiivit älysopimustoiminnot Elements-skriptauksen avulla, kun taas Ethereum vaatii ulkoisen virtuaalikoneen suoritusympäristön
+explanation: |
+  UTXO-mallin deterministinen luonne on rahoituslaitoksille ratkaisevan tärkeää, koska transaktiot joko onnistuvat täysin tai epäonnistuvat ilman kustannuksia, jolloin lopputulos on ennakoitavissa. Ethereumin tilimalli voi johtaa epäonnistuneisiin transaktioihin, jotka silti kuluttavat kaasumaksuja, mikä aiheuttaa toiminnallista epävarmuutta ja lisäkustannuksia, joita ei voida hyväksyä tehtäväkriittisissä rahoitustoiminnoissa, joissa luotettavuus ja kustannusten ennustettavuus ovat ensiarvoisen tärkeitä.

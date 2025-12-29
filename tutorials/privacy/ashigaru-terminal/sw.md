@@ -1,5 +1,5 @@
 ---
-name: Kituo cha Ashigaru
+name: Ashigaru Terminal
 description: Tumia Ashigaru kwenye eneo-kazi ili kutengeneza viunga
 ---
 

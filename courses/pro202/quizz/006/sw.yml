@@ -1,0 +1,8 @@
+question: Ni kipengele gani cha utambulisho katika kundi la mkunjo wa mviringo kinachotumika kwa shughuli za kuongeza nukta?
+answer: Hoja ya kutokuwa na mwisho
+wrong_answers:
+  - Sehemu ya asili (0,0)
+  - Sehemu ya jenereta G
+  - Kigezo cha mkunjo a
+explanation: |
+  Pointi katika infinity hutumika kama kipengele cha utambulisho katika vikundi vya mkunjo wa duaradufu, ikimaanisha kuwa kuongeza nukta yoyote P kwenye nukta katika infinity hurudisha P bila kubadilika. Hii inafanana na jinsi kuongeza sifuri kunavyofanya kazi katika hesabu ya kawaida. Asili (0,0) si lazima iwe kwenye mkunjo, nukta ya jenereta G hutumika kuunda funguo za umma, na kigezo cha mkunjo a ni mgawo tu katika mlinganyo wa mkunjo, si kipengele cha utambulisho.

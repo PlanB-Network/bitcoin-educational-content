@@ -70,7 +70,7 @@ bu kılavuzun bir bölümü size bunu nasıl ve nerede yapacağınızı göstere
 
 
 
-Devam etmeye karar verdiğimde, PI Zero'nun tüm potansiyelinden tam olarak yararlanmak için aksesuarlarla dolu [bu kiti] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) buldum. Aslında, kit bir USB A -> mikro USB güç Supply, küçük bir USB hub, bir mini-HDMI -> HDMI adaptörü, bir bakır soğutucu ve bir alüminyum dış kasa içerir. Kitle birlikte ayrıca PI Zero'yu yeni kasaya yerleştirmek için gereken vidalar ve alyan anahtarı da veriliyor.
+Devam etmeye karar verdiğimde, PI Zero'nun tüm potansiyelinden tam olarak yararlanmak için aksesuarlarla dolu [bu kiti](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) buldum. Aslında, kit bir USB A -> mikro USB güç Supply, küçük bir USB hub, bir mini-HDMI -> HDMI adaptörü, bir bakır soğutucu ve bir alüminyum dış kasa içerir. Kitle birlikte ayrıca PI Zero'yu yeni kasaya yerleştirmek için gereken vidalar ve alyan anahtarı da veriliyor.
 
 
 

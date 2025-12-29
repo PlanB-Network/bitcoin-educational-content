@@ -1,0 +1,8 @@
+question: Hậu quả chính của việc quên không bao gồm kết quả thay đổi khi chi tiêu một UTXO chứa nhiều Bitcoin hơn mức cần thiết là gì?
+answer: Số tiền vượt quá sẽ tự động trở thành phí khai thác.
+wrong_answers:
+  - Giao dịch sẽ bị hệ thống từ chối vì không hợp lệ.
+  - "Số tiền thừa sẽ được hoàn trả về địa chỉ người gửi ban đầu."
+  - Số tiền dư thừa vẫn bị khóa trong UTXO ban đầu.
+explanation: |
+  Trong mô hình UTXO của Bitcoin, phí giao dịch được tính ngầm định là hiệu số giữa tổng đầu vào và tổng đầu ra (phí = tổng (đầu vào) - tổng (đầu ra)). Khi bạn sử dụng một UTXO, bạn phải sử dụng toàn bộ - việc sử dụng một phần là không thể. Nếu bạn chỉ cần sử dụng một phần giá trị của UTXO, bạn phải tạo một lệnh xuất tiền thừa để nhận phần còn lại. Nếu bạn quên tạo lệnh xuất tiền thừa này, sự chênh lệch không được tính đến giữa đầu vào và đầu ra sẽ tự động trở thành phí của người khai thác. Đó là lý do tại sao việc tạo lệnh xuất tiền thừa đúng cách là rất quan trọng - nếu không, bạn có thể vô tình trả những khoản phí khổng lồ cho người khai thác.

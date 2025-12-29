@@ -1,0 +1,8 @@
+question: Šta sprečava korisnike da stvaraju novac ni iz čega u sistemu Elements' Confidential Transactions?
+answer: Dokazi opsega koji matematički dokazuju da su skrivene vrednosti pozitivni celi brojevi unutar važećih opsega
+wrong_answers:
+  - Pedersen obaveze koje kriptografski vezuju iznose transakcija za javne ključeve
+  - Validacija Registra Imovine koja proverava sve iznose transakcija u odnosu na registrovana ograničenja imovine
+  - Federisani čvorovi konsenzusa koji dešifruju i verifikuju sve poverljive iznose transakcija
+explanation: |
+  Dokazi opsega su specifičan kriptografski mehanizam koji sprečava korisnike da eksploatišu sistem poverljivih transakcija korišćenjem negativnih brojeva ili nevažećih iznosa za stvaranje novca ni iz čega. Dok Pedersenova posvećenja skrivaju stvarne iznose, dokazi opsega osiguravaju matematički integritet dokazujući da skrivene vrednosti spadaju u legitimne opsege. Registar sredstava samo mapira ID-ove sredstava na imena koja su čitljiva ljudima i ne validira iznose, a federativni čvorovi ne dešifruju poverljive transakcije - oni ih verifikuju bez uvida u stvarne vrednosti.

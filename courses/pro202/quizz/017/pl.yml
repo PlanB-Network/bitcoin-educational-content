@@ -1,0 +1,8 @@
+question: Jaki krytyczny wymóg bezpieczeństwa musi być spełniony podczas generowania nonce K w tworzeniu podpisu ECDSA?
+answer: K musi być unikalny i nieprzewidywalny dla każdego podpisu, aby zapobiec kompromitacji klucza prywatnego
+wrong_answers:
+  - K musi pochodzić z klucza publicznego, aby weryfikacja podpisu działała poprawnie
+  - K musi być takie samo w wielu podpisach, aby zachować spójność w procesie podpisywania
+  - K musi być równe kluczowi prywatnemu pomnożonemu przez skrót wiadomości dla poprawności matematycznej
+explanation: |
+  Nonce K musi być unikalny i nieprzewidywalny dla każdego podpisu, ponieważ ponowne użycie K lub jego przewidywalność umożliwia atakującym odzyskanie klucza prywatnego. Jeśli ten sam K zostanie użyty dwukrotnie z różnymi wiadomościami, prosta algebra może ujawnić klucz prywatny. Nowoczesne implementacje wykorzystują deterministyczne generowanie K (RFC 6979), aby uniknąć awarii generatora liczb losowych przy jednoczesnym zapewnieniu unikalności. Pozostałe opcje są niepoprawne: K nigdy nie powinno pochodzić z klucza publicznego, nigdy nie powinno być używane ponownie i nigdy nie powinno być równe kluczowi prywatnemu razy hash wiadomości.

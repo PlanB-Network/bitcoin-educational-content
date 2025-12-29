@@ -94,7 +94,7 @@ Om je SeedSigner te bouwen, heb je de volgende onderdelen nodig:
 
 - Huisvesting (optioneel maar aanbevolen)** (optioneel maar aanbevolen)** (optioneel maar aanbevolen)** (optioneel maar aanbevolen)**)
     - Beschermt het apparaat en maakt het gebruiksvriendelijk.
-    - Het populairste model is de "*Orange Pill Case*", waarvoor [open-source STL-bestanden beschikbaar zijn voor 3D-printing] (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Het populairste model is de "*Orange Pill Case*", waarvoor [open-source STL-bestanden beschikbaar zijn voor 3D-printing](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Dozen zijn ook verkrijgbaar bij [onafhankelijke wederverkopers die verbonden zijn aan het project](https://seedsigner.com/hardware/).
 
 

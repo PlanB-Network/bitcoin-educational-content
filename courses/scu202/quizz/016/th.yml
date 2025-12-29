@@ -1,0 +1,9 @@
+question: ตระกูลการกระจายที่ใช้ตัวจัดการแพ็คเกจ RPM คืออะไร?
+answer: เรดแฮท
+wrong_answers:
+  - Debian
+  - อาร์ช
+  - Slackware
+explanation: |
+  รูปแบบ RPM ถูกริเริ่มโดย Red Hat และเป็นพื้นฐานสำหรับ Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux และการแจกจ่ายที่เกี่ยวข้องอื่น ๆ
+reviewed: false

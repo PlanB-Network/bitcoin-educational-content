@@ -1,0 +1,8 @@
+question: Quelle est la relation mathématique entre la valeur de difficulté de Bitcoin et la cible actuelle utilisée pour la validation du bloc ?
+answer: La difficulté est égale à l'objectif le plus bas possible divisé par l'objectif actuel
+wrong_answers:
+  - La difficulté est égale à l'objectif actuel divisé par l'objectif le plus bas possible
+  - La difficulté est égale à l'objectif actuel multiplié par l'objectif le plus bas possible
+  - La difficulté est égale au coefficient multiplié par 256 élevé à l'exposant moins 3
+explanation: |
+  La difficulté de Bitcoin est spécifiquement définie comme la cible la plus basse / la cible actuelle, ce qui exprime combien de fois la difficulté de mining est supérieure à la difficulté la plus facile possible. Cette relation inverse signifie que plus la cible est petite (rendant les hachages valides plus difficiles à trouver), plus la difficulté augmente proportionnellement. La formule garantit qu'une difficulté de 1 représente les conditions les plus faciles de mining, tandis que des valeurs plus élevées indiquent un travail de calcul proportionnellement plus important pour trouver des blocs valides.

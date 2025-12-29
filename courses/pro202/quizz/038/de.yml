@@ -1,0 +1,8 @@
+question: Was bestimmt die Höhe der Transaktionsgebühr bei einer Bitcoin-Transaktion während des Bauprozesses?
+answer: Die Differenz zwischen dem Gesamtwert aller Inputs und dem Gesamtwert aller Outputs
+wrong_answers:
+  - Ein fester Prozentsatz des gesamten Transaktionswerts, der vom Netzprotokoll berechnet wird
+  - Die Größe der Transaktion in Bytes multipliziert mit einer von den Minern festgelegten Standardrate
+  - Die Anzahl der erforderlichen Unterschriften für alle Eingaben plus eine Basisnetzgebühr
+explanation: |
+  Die Bitcoin-Transaktionsgebühren werden durch die Differenz zwischen den gesamten Eingängen und den gesamten Ausgängen bestimmt. Wenn Sie eine Transaktion erstellen, wählen Sie UTXOs als Inputs und erstellen Outputs für Empfänger und Wechselgeld. Der verbleibende Betrag wird zu der Gebühr, die den Minern einen Anreiz bietet, Ihre Transaktion zu berücksichtigen. Die Gebühr wird nicht anhand von Prozentsätzen, festen Sätzen oder der Anzahl der Unterschriften berechnet - es handelt sich einfach um den Betrag, der in der Wertbilanz der Transaktion nicht zugewiesen wird.

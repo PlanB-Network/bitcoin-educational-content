@@ -1,0 +1,11 @@
+question: หมายเลขบล็อกของธุรกรรม Bitcoin ครั้งแรกคืออะไร?
+answer: บล็อก 170.
+wrong_answers:
+  - บล็อก 1.
+  - บล็อก 17.
+  - บล็อก 1700.
+explanation: |
+  ธุรกรรม Bitcoin ครั้งแรก ซึ่งเป็นธุรกรรมของ
+  10 BTC ระหว่าง Satoshi Nakamoto และ Hal Finney ถูกบันทึก
+  ในบล็อก 170.
+reviewed: true

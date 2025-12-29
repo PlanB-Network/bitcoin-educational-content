@@ -24,7 +24,7 @@ Video [YouTube kanalı *BTC Sessions*](https://www.youtube.com/@BTCSessions) adr
 
 
 
-Video [*Vortex Bitcoin* YouTube kanalından] (https://www.youtube.com/@VortexBitcoin).
+Video [*Vortex Bitcoin* YouTube kanalından](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Video [*Vortex Bitcoin* YouTube kanalından] (https://www.youtube.com/@VortexBit
 
 
 
-Video [*Vortex Bitcoin* YouTube kanalından] (https://www.youtube.com/@VortexBitcoin).
+Video [*Vortex Bitcoin* YouTube kanalından](https://www.youtube.com/@VortexBitcoin).
 
 
 

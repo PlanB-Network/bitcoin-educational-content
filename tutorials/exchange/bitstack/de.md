@@ -184,7 +184,7 @@ Bestimmen Sie die Priorität der Transaktion. Für eine gebührenfreie Abhebung 
 
 ![Image](assets/fr/32.webp)
 
-Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Academy im Bereich "*Wallet*"] (https://planb.academy/tutorials/wallet).
+Wenn Sie mit der Funktionsweise eines Selbstverwahrungsportfolios nicht vertraut sind, bieten wir Ihnen Anleitungen zu den meisten der verfügbaren Lösungen [im Plan ₿ Academy im Bereich "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Bitcoin verkaufen
 

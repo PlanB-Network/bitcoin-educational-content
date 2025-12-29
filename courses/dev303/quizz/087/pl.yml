@@ -1,0 +1,8 @@
+question: Co dzieje się ze strukturami Rust z powiązanymi metodami, gdy są one mapowane przez UDL UniFFI do języków docelowych, takich jak Kotlin lub Swift?
+answer: Są one eksponowane jako interfejsy w UDL i generate jako klasy z metodami w obiektowych językach docelowych
+wrong_answers:
+  - Są one konwertowane na proste słowniki bez żadnych funkcji metod w językach docelowych
+  - Wymagają one ręcznej implementacji każdej metody w języku docelowym przy użyciu interfejsów wywołania zwrotnego
+  - Są one automatycznie przekształcane w funkcje przestrzeni nazw, które przyjmują strukturę jako pierwszy parametr
+explanation: |
+  UniFFI zachowuje obiektowe wzorce projektowe poprzez mapowanie struktur Rust z powiązanymi metodami na interfejsy w UDL, które następnie generate jako natywne klasy z metodami w językach docelowych. Zachowuje to integralność strukturalną i zachowanie oryginalnej implementacji Rust, jednocześnie prezentując znane interfejsy obiektowe programistom w językach takich jak Kotlin i Swift. Pozostałe opcje są niepoprawne, ponieważ UniFFI zachowuje funkcjonalność metod zamiast spłaszczać je do słowników, nie wymaga ręcznej implementacji, ponieważ powiązania są generowane automatycznie i nie konwertuje metod strukturalnych na funkcje przestrzeni nazw.

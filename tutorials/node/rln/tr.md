@@ -14,7 +14,7 @@ Bu adım adım eğitimde, Regtest ortamında bir Lightning RGB düğümünün na
 Bitfinex'in RGB ekibi, eksiksiz bir teknoloji yığını geliştirerek RGB ekosistemini zenginleştirmek için 2022'den beri çalışıyor. Tek bir ticari ürün hedeflemek yerine, çabaları açık kaynaklı yazılım tuğlalarını kullanılabilir hale getirmeye, RGB protokol spesifikasyonlarına katkıda bulunmaya ve uygulama referansları oluşturmaya odaklanmıştır.
 
 
-Bitfinex'in RGB ekosistemine kayda değer katkıları arasında, Rust'te yazılmış ve karmaşık doğrulama ve katılım mekanizmalarını kapsülleyerek RGB uygulamalarının geliştirilmesini büyük ölçüde basitleştiren Kotlin ve Python'daki bağlamalar aracılığıyla erişilebilen [*RGBlib* kütüphanesi] (https://github.com/RGB-Tools/RGB-lib) bulunmaktadır.
+Bitfinex'in RGB ekosistemine kayda değer katkıları arasında, Rust'te yazılmış ve karmaşık doğrulama ve katılım mekanizmalarını kapsülleyerek RGB uygulamalarının geliştirilmesini büyük ölçüde basitleştiren Kotlin ve Python'daki bağlamalar aracılığıyla erişilebilen [*RGBlib* kütüphanesi](https://github.com/RGB-Tools/RGB-lib) bulunmaktadır.
 
 
 Bitfinex ekibi ayrıca Android'de kullanılabilen "[*Iris Wallet*](https://iriswallet.com/)" adlı bir RGB mobil Wallet tasarladı. Bu Wallet, RGB üzerinde *Client-side Validation* için off-chain veri alışverişlerini (*satışlar*) kolayca yönetmek üzere bir RGB proxy sunucusunun kullanımını entegre etmektedir.

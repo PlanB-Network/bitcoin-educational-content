@@ -13,17 +13,17 @@ category: communication
 
 level: intermediate
 
-professor_id: 4e4b23c8-14e8-4867-93da-161a3915af99
+professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
 
 licence: CC-BY-SA-V4
 
 # Proofreading metadata
 
-original_language: fr
+original_language: en
 proofreading:
-  - language: fr
-    last_contribution_date: 2025-11-06
+  - language: en
+    last_contribution_date: 2025-12-07
     urgency: 1
     contributor_names:
-      - LoicPandul
-    reward: 0.06
+      - runningbitcoin
+    reward: 1.73

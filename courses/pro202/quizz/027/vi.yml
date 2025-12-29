@@ -1,0 +1,8 @@
+question: Điều gì xảy ra với ngăn xếp sau khi thực thi OP_CHECKSIG khi quá trình xác thực chữ ký thành công?
+answer: Giá trị 1 được đẩy vào ngăn xếp.
+wrong_answers:
+  - Chữ ký và khóa công khai vẫn được lưu trữ trên ngăn xếp.
+  - Ngăn xếp được xóa và đặt lại về trạng thái trống.
+  - Mã băm của khóa công khai được đẩy vào ngăn xếp.
+explanation: |
+  OP_CHECKSIG là một mã lệnh biến đổi ngăn xếp, lấy chữ ký và khóa công khai từ ngăn xếp, xác minh chữ ký so với giá trị băm của giao dịch, và đẩy 1 (hợp lệ) hoặc 0 (không hợp lệ) vào ngăn xếp. Chữ ký và khóa công khai ban đầu sẽ bị xóa trong quá trình này. Ngăn xếp không được xóa hoàn toàn và không có giá trị băm nào được đẩy vào - chỉ có kết quả boolean của thao tác xác minh.

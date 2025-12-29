@@ -19,7 +19,7 @@ Perlu kamu catat bahwa tidak semua node Lightning tersedia di platform Amboss.
 
 
 
-Seperti [Mempool Space] (https://Mempool.space), yang menyediakan informasi berguna tentang rantai utama protokol Bitcoin, sejak tahun 2022 [Amboss] (https://amboss.space) menyediakan informasi tentang :
+Seperti [Mempool Space](https://Mempool.space), yang menyediakan informasi berguna tentang rantai utama protokol Bitcoin, sejak tahun 2022 [Amboss](https://amboss.space) menyediakan informasi tentang :
 
 - Node pada Lightning Network
 - Saluran pembayaran dan kapasitas pembayarannya
@@ -93,9 +93,13 @@ Interface ini menampilkan alamat koneksi node dalam format `pubkey@ip:port`. Dal
 
 Pada bagian **Channels**, Anda akan melihat daftar saluran yang terbuka dan koneksi node ke node lain dalam jaringan. Pada Interface ini, beberapa informasi sangat penting untuk mengonfirmasi bahwa node ini sesuai dengan kebutuhan kita atau dapat diandalkan:
 
-- Rasio masuk**: Jumlah yang akan ditagih oleh node ke kamu untuk setiap juta Satoshi yang diterimanya, tergantung saluran yang dipilih.
-- Rasio (bagian per juta)**: yang mewakili jumlah Satoshi per juta unit yang akan ditagih oleh node ke kamu ketika Anda memutuskan untuk melakukan pembayaran melalui salah satu salurannya. Katakanlah Anda memutuskan untuk melakukan pembayaran sebesar `10_000 Sats` melalui saluran yang rasio ppm-nya adalah `500 Sats`, Anda harus membayar satoshi `10_000 * 500 / 1_000_000` kepada node tersebut, yang setara dengan `5 Sats`.
-- Maksimum [HTLC] (https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
+
+
+
+
+- Rasio masuk**: Jumlah yang akan ditagih oleh node kepada Anda untuk setiap juta Satoshi yang diterimanya, tergantung saluran yang dipilih.
+- Rasio (bagian per juta)**: yang mewakili jumlah Satoshi per juta unit yang akan ditagih oleh node kepada Anda ketika Anda memutuskan untuk melakukan pembayaran melalui salah satu salurannya. Katakanlah Anda memutuskan untuk melakukan pembayaran sebesar `10_000 Sats` melalui saluran yang rasio ppm-nya adalah `500 Sats`, Anda harus membayar satoshi `10_000 * 500 / 1_000_000` kepada node tersebut, yang setara dengan `5 Sats`.
+- Maksimum [HTLC](https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
 
 Dengan melihat tabel pada Interface ini, kamu juga dapat menemukan semua informasi ini pada node yang dicocokkan.
 

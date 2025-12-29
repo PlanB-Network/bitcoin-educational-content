@@ -1,0 +1,8 @@
+question: Ni sifa gani ya hisabati inayofanya iwezekane kimahesabu kugeuza operesheni k·P kwenye mkunjo wa duaradufu?
+answer: Tatizo la logarithm tofauti
+wrong_answers:
+  - Hesabu ya msimu ya sehemu finite
+  - Hoja katika mali isiyo na kikomo
+  - Mlinganyo wa mkunjo y² = x³ + 7
+explanation: |
+  Tatizo la logaritimu tofauti ni msingi wa hisabati unaofanya usimbaji fiche wa mkunjo wa mviringo kuwa salama. Ingawa kuhesabu k·P (uzidishaji wa scalar) ni rahisi kihesabu, kupata k inapotolewa P na k·P ni vigumu sana - hii inajulikana kama tatizo la logaritimu tofauti ya mkunjo wa mviringo. Chaguzi zingine ni vipengele muhimu vya hisabati lakini hazitoi kizuizi cha usalama: hesabu ya sehemu finite huwezesha shughuli, sehemu ya infinity hutumika kama kipengele cha utambulisho, na mlinganyo wa mkunjo hufafanua muundo, lakini hakuna hata moja kati ya hizi linalounda kutowezekana kwa hesabu ambayo inalinda usalama wa usimbaji fiche wa Bitcoin.

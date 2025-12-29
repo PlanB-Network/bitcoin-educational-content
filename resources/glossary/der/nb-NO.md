@@ -2,7 +2,7 @@
 term: DER
 ---
 
-Forkortelse for *Distinguished Encoding Rules*. Det er en streng delmengde av ASN.1-kodingsreglene som er definert i spesifikasjonen [ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf), og brukes til å kode alle typer data i en binær sekvens. DER brukes hovedsakelig innen spesifikke områder, for eksempel kryptografi, der data må kodes på en standard, forutsigbar måte.
+Forkortelse for *Distinguished Encoding Rules*. Det er en streng delmengde av ASN.1-kodingsreglene som er definert i spesifikasjonen [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf), og brukes til å kode alle typer data i en binær sekvens. DER brukes hovedsakelig innen spesifikke områder, for eksempel kryptografi, der data må kodes på en standard, forutsigbar måte.
 
 
 På Bitcoin er ECDSA-signaturer kodet i DER-format. De består av to 32-byte kodede tall (`r`, `s`). Signaturformatet består av følgende Elements (71 byte):

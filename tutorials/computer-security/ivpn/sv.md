@@ -67,7 +67,7 @@ Och för Pro-planen:
 
 Ladda ner [den senaste versionen av programvaran](https://www.ivpn.net/en/apps-windows/) för ditt operativsystem och fortsätt sedan med installationen genom att följa stegen i installationsguiden. ![IVPN](tillgångar/notext/02.webp)
 
-För Linux-användare, se de instruktioner som är specifika för din distribution som finns på [denna sida] (https://www.ivpn.net/en/apps-linux/).
+För Linux-användare, se de instruktioner som är specifika för din distribution som finns på [denna sida](https://www.ivpn.net/en/apps-linux/).
 
 ![IVPN](assets/notext/03.webp)
 
@@ -92,7 +92,7 @@ Låt oss nu gå vidare till att aktivera IVPN på dina enheter.
 ## Hur betalar jag för och aktiverar IVPN?
 
 
-Gå till IVPN:s officiella webbplats [på betalningssidan] (https://www.ivpn.net/en/pricing/).
+Gå till IVPN:s officiella webbplats [på betalningssidan](https://www.ivpn.net/en/pricing/).
 
 ![IVPN](assets/notext/07.webp)
 

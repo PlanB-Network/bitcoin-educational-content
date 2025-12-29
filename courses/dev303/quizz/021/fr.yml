@@ -1,0 +1,8 @@
+question: Quel type de paramètre une méthode Rust doit-elle utiliser si elle doit modifier l'instance de la structure tout en permettant à l'appelant d'en conserver la propriété ?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - soi
+  - mut self
+explanation: |
+  Les méthodes qui doivent modifier une instance de structure tout en permettant à l'appelant d'en conserver la propriété doivent utiliser `&mut self` comme premier paramètre. Cela crée une référence mutable à l'instance, permettant à la méthode de modifier les champs de la structure sans en retirer la propriété à l'appelant. L'utilisation de `&self` ne permettrait que la lecture de l'instance, `self` consommerait entièrement l'instance, et `mut self` n'est pas une syntaxe Rust valide pour les paramètres de méthode.

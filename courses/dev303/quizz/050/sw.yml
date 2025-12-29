@@ -1,0 +1,8 @@
+question: Ni hatari gani kubwa zaidi unapotumia RC<RefCell<T>> kwa hali inayoweza kubadilishwa pamoja, na ni utaratibu gani unaosaidia kuizuia?
+answer: Mizunguko ya marejeleo inayosababisha uvujaji wa kumbukumbu, inazuiwa kwa kutumia marejeleo dhaifu
+wrong_answers:
+  - Data hukimbia kati ya nyuzi, ikizuiwa kwa kutumia Mutex badala ya RefCell
+  - Hofu ya muda wa utekelezaji kutokana na ukiukaji wa kukopa, inazuiwa na ukaguzi wa muda wa kukusanya
+  - Kufurika kwa rafu kutoka kwa kurudia kwa kina, kumezuiwa kwa kupunguza kina cha marejeleo
+explanation: |
+  Unapotumia RC<RefCell<T>>, hatari kuu ni kuunda mizunguko ya marejeleo ambapo miundo ya data hujirejelea moja kwa moja au kupitia minyororo. Mizunguko hii huzuia hesabu za marejeleo kufikia sifuri, na kusababisha uvujaji wa kumbukumbu kwani data inaonekana kuwa na marejeleo yanayofanya kazi kila wakati. Marejeleo dhaifu hutatua hili kwa kutochangia hesabu ya marejeleo inayotumika kwa usimamizi wa kumbukumbu, kuvunja mizunguko huku ikihifadhi miunganisho. Chaguzi zingine si sahihi: RC<RefCell<T>> si salama kwa nyuzi kwa hivyo mbio za data sio jambo kuu, RefCell huhamisha hundi hadi wakati wa utekelezaji badala ya kuzizuia wakati wa kukusanya, na kufurika kwa rafu hakuhusiani na utaratibu wa kuhesabu marejeleo.

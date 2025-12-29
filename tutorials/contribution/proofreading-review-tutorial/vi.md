@@ -144,7 +144,7 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 ## 7. Chờ đánh giá
 
 
-- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab "Yêu cầu kéo" trên [Kho lưu trữ GitHub của Plan ₿ Academy] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab "Yêu cầu kéo" trên [Kho lưu trữ GitHub của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 

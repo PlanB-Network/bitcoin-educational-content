@@ -1,0 +1,18 @@
+title: "Scalable Funding of Bitcoin Micropayment Channel Networks"
+original_language: en
+authors:
+  - Conrad Burchert
+  - Christian Decker
+  - Roger Wattenhofer
+abstract: |
+  The Bitcoin network has scalability problems. To increase its transaction rate and speed, micropayment channel networks have been proposed, however these require to lock funds into specific channels. Moreover, the available space in the blockchain does not allow scaling to a world wide payment system. We propose a new layer that sits in between the blockchain and the payment channels. The new layer addresses the scalability problem by enabling trust-less off-blockchain channel funding. It consists of shared accounts of groups of nodes that flexibly create one-to-one channels for the payment network. The new system allows rapid changes of the allocation of funds to channels and reduces the cost of opening new channels. Instead of one blockchain transaction per channel, each user only needs one transaction to enter a group of nodes – within the group the user can create arbitrary many channels. For a group of 20 users with 100 intra-group channels, the cost of the blockchain transactions is reduced by 90% compared to 100 regular micropayment channels opened on the blockchain. This can be increased further to 96% if Bitcoin introduces Schnorr signatures with signature aggregation.
+paper_type: academic
+source: Royal Society open science
+type: SCIE
+category: MULTIDISCIPLINARY SCIENCES
+topics:
+  - Payment Channel Networks
+  - Micropayment Systems
+  - Off-Chain Scalability
+pdf_url: https://cdn.nakamotoinstitute.org/docs/scalable-funding-of-bitcoin-micropayment-channel-networks.pdf
+id: a1d7a140-6202-4313-a060-0a1f3f357e67

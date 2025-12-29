@@ -1,0 +1,8 @@
+question: Wat is de relatie tussen Elements en Liquid Network?
+answer: Liquid is een specifieke instantie van een Elements zijketen geconfigureerd voor productiegebruik
+wrong_answers:
+  - Elements is een specifieke instantie van Liquid Network geconfigureerd voor testdoeleinden
+  - Liquid en Elements zijn twee concurrerende blockchainplatforms met verschillende codebases
+  - "Elements is het consensusmechanisme dat de blokvalidatie van Liquid Network voedt"
+explanation: |
+  Elements is de open-source blockchainplatformsoftware, terwijl Liquid een specifieke implementatie of 'instantie' is van een Elements sidechain die geconfigureerd is voor productiegebruik met een gefedereerd consensusmodel. Zie Elements als het onderliggende technologische raamwerk, en Liquid als een specifiek netwerk dat gebouwd is met behulp van dat raamwerk. Dit is vergelijkbaar met hoe Bitcoin Core de software is die het Bitcoin netwerk aandrijft - Elements is de software engine die Liquid en andere aangepaste sidechains aandrijft.

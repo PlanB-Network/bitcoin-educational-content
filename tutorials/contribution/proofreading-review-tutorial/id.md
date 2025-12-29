@@ -6,7 +6,7 @@ description: Bagaimana cara berpartisipasi dalam peninjauan konten edukasi di Pl
 
 ## Dalam Ringkasan
 
-Jika Anda ingin berpartisipasi dalam meninjau dan mengoreksi konten untuk Plan ₿ Academy, bergabunglah dengan [grup Telegram kami] (https://t.me/PlanBNetwork_ContentBuilder) yang didedikasikan untuk kontribusi. Perkenalkan diri Anda secara singkat, lalu tentukan konten yang ingin Anda tinjau dan bahasanya. Lakukan koreksi Anda di cabang yang sedang bekerja dan kirimkan PR setelah tinjauan Anda selesai.
+Jika Anda ingin berpartisipasi dalam meninjau dan mengoreksi konten untuk Plan ₿ Academy, bergabunglah dengan [grup Telegram kami](https://t.me/PlanBNetwork_ContentBuilder) yang didedikasikan untuk kontribusi. Perkenalkan diri Anda secara singkat, lalu tentukan konten yang ingin Anda tinjau dan bahasanya. Lakukan koreksi Anda di cabang yang sedang bekerja dan kirimkan PR setelah tinjauan Anda selesai.
 
 Jika Anda tidak memahami bagian di atas, jangan khawatir-tutorial ini cocok untuk Anda!
 
@@ -21,7 +21,7 @@ Plan ₿ Academy bertujuan untuk menjadi alun-alun publik dunia maya Bitcoin, me
 
 Plan ₿ Academy pada dasarnya multibahasa, karena tujuan kami adalah membuat sumber daya Bitcoin dapat diakses oleh semua orang di seluruh dunia. Kami percaya bahwa bahasa seharusnya tidak menjadi penghalang untuk uang yang berdaulat.
 
-Untuk mencapai hal ini, kami menggunakan pendekatan Human x AI. Melalui [program] (https://github.com/Asi0Flammeus/LLM-Translator), kami dapat menerjemahkan konten kami secara otomatis ke dalam banyak bahasa. Namun, kami membutuhkan pembicara yang fasih untuk memeriksanya guna memastikan konten tersebut dapat dimengerti dan bebas dari istilah-istilah yang tidak tepat.
+Untuk mencapai hal ini, kami menggunakan pendekatan Human x AI. Melalui [program](https://github.com/Asi0Flammeus/LLM-Translator), kami dapat menerjemahkan konten kami secara otomatis ke dalam banyak bahasa. Namun, kami membutuhkan pembicara yang fasih untuk memeriksanya guna memastikan konten tersebut dapat dimengerti dan bebas dari istilah-istilah yang tidak tepat.
 
 Jika Anda ingin membantu membangun proyek edukasi ini untuk mempromosikan edukasi Bitcoin di komunitas Anda, Anda bisa memulainya dengan mengulas kursus atau tutorial.
 
@@ -46,7 +46,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 2. Bergabung dengan grup Telegram
 
 
-- Bergabunglah dengan [grup Pembangun Konten Plan ₿ Academy] (https://t.me/PlanBNetwork_ContentBuilder) di Telegram.
+- Bergabunglah dengan [grup Pembangun Konten Plan ₿ Academy](https://t.me/PlanBNetwork_ContentBuilder) di Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 

@@ -53,7 +53,7 @@ Untuk instalasi lokal pada PC, [unduh dan instal perangkat lunak sesuai dengan s
 
 Langkah pertama adalah membuat akun Alby. Meskipun tidak wajib untuk menggunakan Alby Hub, akun ini memungkinkan kamu memanfaatkan semua opsi yang tersedia, termasuk mendapatkan alamat Lightning.
 
-Kunjungi [situs web resmi Alby] (https://getalby.com/) dan klik tombol "*Buat Akun*".
+Kunjungi [situs web resmi Alby](https://getalby.com/) dan klik tombol "*Buat Akun*".
 
 ![ALBY HUB](assets/fr/04.webp)
 

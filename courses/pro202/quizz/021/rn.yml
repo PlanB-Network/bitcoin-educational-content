@@ -1,0 +1,8 @@
+question: Ni ingaruka iyihe nyamukuru yo kwibagirwa gushiramwo umusaruro w’ihinduka igihe ukoresha UTXO irimwo Bitcoin nyinshi kuruta uko bikenewe?
+answer: Amahera arenze ahita ahinduka amahera y'umucukuzi
+wrong_answers:
+  - Ivyo gucuruza bizokwankwa n'urubuga nk'ibidafise akamaro
+  - "Igiciro kirenze kirasubirwamwo aderesi y'uwo yarungitse"
+  - Ivyo bihembo birenze biguma bifungiwe muri UTXO y’intango.
+explanation: |
+  Mu citegererezo ca Bitcoin ca UTXO, amafaranga y’ugucuruza abarwa mu buryo butagaragara nk’itandukaniro hagati y’ivyo vyose bishirwamwo n’ivyo vyose bisohoka (amafaranga = umubare(ibisohoka) - umubare(ibisohoka)). Iyo ukoresheje UTXO, utegerezwa kuyikoresha yose - gukoresha igice ntibishoboka. Niba ukeneye gukoresha igice gusa c'agaciro ka UTXO, utegerezwa kurema igisohoka c'ihinduka kugira ngo uronke ibisigaye. Niwibagirwa gushiramwo iki gisohoka c'ihinduka, itandukaniro ritagira ibarura hagati y'ivyo winjiza n'ivyo usohoka rihita rihinduka amahera y'umucukuzi. Ni co gituma inyubako y’umusaruro w’ihinduka ryiza ari ngirakamaro - ataco, woshobora kwishura amahera menshi cane abacukuzi.

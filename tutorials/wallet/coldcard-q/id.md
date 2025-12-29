@@ -55,7 +55,7 @@ Dari sisi perangkat lunak, COLDCARD Q dilengkapi dengan baik seperti perangkat C
 
 Singkatnya, COLDCARD Q menawarkan pengalaman pengguna yang lebih baik daripada MK4, dan mungkin ideal bagi pengguna tingkat menengah hingga mahir yang mencari kemudahan penggunaan yang lebih baik.
 
-COLDCARD Q tersedia untuk dijual [di situs web resmi Coinkite] (https://store.coinkite.com/store/coldcard). Bisa juga dibeli dari pengecer.
+COLDCARD Q tersedia untuk dijual [di situs web resmi Coinkite](https://store.coinkite.com/store/coldcard). Bisa juga dibeli dari pengecer.
 
 ## Mempersiapkan tutorial
 
@@ -79,7 +79,7 @@ Jika Anda lebih suka memberi daya pada COLDCARD tanpa menghubungkannya ke komput
 
 ![CCQ](assets/fr/005.webp)
 
-Untuk tutorial ini, Anda juga membutuhkan Sparrow Wallet untuk mengelola dompet Bitcoin di komputer Anda. Unduh [Sparrow Wallet] (https://sparrowwallet.com/download/) dari situs web resminya. Saya sangat menyarankan Anda untuk memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui hash) sebelum melanjutkan instalasi. Jika Anda tidak tahu bagaimana cara melakukannya, ikuti tutorial ini:
+Untuk tutorial ini, Anda juga membutuhkan Sparrow Wallet untuk mengelola dompet Bitcoin di komputer Anda. Unduh [Sparrow Wallet](https://sparrowwallet.com/download/) dari situs web resminya. Saya sangat menyarankan Anda untuk memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui hash) sebelum melanjutkan instalasi. Jika Anda tidak tahu bagaimana cara melakukannya, ikuti tutorial ini:
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
@@ -153,11 +153,11 @@ Anda dapat memeriksa versi firmware COLDCARD Anda saat ini. Sebagai contoh, dala
 
 ![CCQ](assets/fr/019.webp)
 
-Periksa [di situs web resmi COLDCARD] (https://coldcard.com/downloads) untuk mengetahui apakah versi yang lebih baru tersedia. Klik "*Unduh*" untuk mengunduh firmware baru.
+Periksa [di situs web resmi COLDCARD](https://coldcard.com/downloads) untuk mengetahui apakah versi yang lebih baru tersedia. Klik "*Unduh*" untuk mengunduh firmware baru.
 
 ![CCQ](assets/fr/020.webp)
 
-Pada titik ini, kami sangat menyarankan untuk memeriksa integritas dan keaslian firmware yang diunduh. Untuk melakukan ini, unduh [dokumen yang berisi hash dari semua versi, yang ditandatangani oleh pengembang] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifikasi tanda tangan dengan [kunci publik pengembang] (https://keybase.io/dochex), dan pastikan bahwa hash yang ditunjukkan dalam dokumen yang ditandatangani sesuai dengan yang ada pada firmware yang diunduh dari situs. Jika semuanya sudah benar, Anda dapat melanjutkan pembaruan.
+Pada titik ini, kami sangat menyarankan untuk memeriksa integritas dan keaslian firmware yang diunduh. Untuk melakukan ini, unduh [dokumen yang berisi hash dari semua versi, yang ditandatangani oleh pengembang](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), verifikasi tanda tangan dengan [kunci publik pengembang](https://keybase.io/dochex), dan pastikan bahwa hash yang ditunjukkan dalam dokumen yang ditandatangani sesuai dengan yang ada pada firmware yang diunduh dari situs. Jika semuanya sudah benar, Anda dapat melanjutkan pembaruan.
 
 Jika Anda tidak terbiasa dengan proses verifikasi ini, saya sarankan Anda mengikuti tutorial ini:
 

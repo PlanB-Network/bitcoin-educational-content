@@ -1517,7 +1517,7 @@ Una de las principales ventajas de Umbrel frente a sus competidores es su amplia
 
 
 
-El código de umbrel está disponible públicamente (puedes verlo, Fork, y modificarlo), pero no está bajo una verdadera licencia de código abierto. De hecho, umbrelOS se distribuye bajo la licencia [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), aunque algunas herramientas de desarrollo asociadas están disponibles bajo la licencia MIT.
+El código de umbrel está disponible públicamente (puedes verlo, Fork, y modificarlo), pero no está bajo una verdadera licencia de código abierto. De hecho, umbrelOS se distribuye bajo la licencia [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), aunque algunas herramientas de desarrollo asociadas están disponibles bajo la licencia MIT.
 
 
 

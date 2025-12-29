@@ -64,13 +64,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 **Windows:**
 
 
-Git'i yüklemek için [projenin resmi web sitesine] (https://git-scm.com/) gidin. Yazılımı indirin ve kurulum talimatlarını izleyin.
+Git'i yüklemek için [projenin resmi web sitesine](https://git-scm.com/) gidin. Yazılımı indirin ve kurulum talimatlarını izleyin.
 
 
 ![BACCA](assets/fr/01.webp)
 
 
-Rust'i [resmi web sitesinden] (https://www.Rust-lang.org/tools/install) yüklemek için aynı şekilde devam edin.
+Rust'i [resmi web sitesinden](https://www.Rust-lang.org/tools/install) yüklemek için aynı şekilde devam edin.
 
 
 ![BACCA](assets/fr/02.webp)

@@ -1,0 +1,8 @@
+question: Sonuç türlerinde map() ve map_err() yöntemlerini kullanmanın geleneksel try-catch hata işleme modellerine kıyasla birincil avantajı nedir?
+answer: Hata işlemeyi başarısız olabilecek işlemlere yakın tutarken, işlemlerin işlevsel tarzda zincirlenmesine izin verirler
+wrong_answers:
+  - Daha kolay hata ayıklama ve kullanıcı görüntüleme için tüm hata türlerini otomatik olarak dize mesajlarına dönüştürürler
+  - Yerleşik hata yayma mekanizmaları sağlayarak soru işareti operatörüne olan ihtiyacı ortadan kaldırırlar
+  - Potansiyel olarak başarısız olabilecek tüm işlemleri güvenli Sonuç kaplarına sararak panik durumlarını önlerler
+explanation: |
+  Map() ve map_err() yöntemleri, işlemleri zincirleyebileceğiniz ve değerleri ya da hataları oluştukları noktada dönüştürebileceğiniz işlevsel tarzda hata işleme olanağı sağlar. Bu, hata işlemenin asıl işlemlerden ayrıldığı try-catch bloklarının aksine, hata işleme mantığını başarısız olabilecek işlemlere yakın tutar. Diğer seçenekler yanlıştır: map yöntemleri hataları dizelere dönüştürmez (bu anyhow'un rolüdür), soru işareti operatörünün yerini almak yerine onunla birlikte çalışır ve panikleri önlemez, bunun yerine Sonuçlar için yapılandırılmış hata işleme sağlar.

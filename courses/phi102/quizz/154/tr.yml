@@ -1,0 +1,8 @@
+question: Liberal ekonomi teorisine göre, bütçe açığı harcamaları demokratik toplumlarda hangi temel sorunu yaratır?
+answer: Mevcut nesillerin faydalardan yararlanmasına izin verirken, maliyetleri mevcut demokratik kararlara katılamayan gelecek nesillere aktarır
+wrong_answers:
+  - Mevcut vergi mükelleflerinin satın alma gücünü derhal azaltan ve ekonomiyi istikrarsızlaştıran aşırı enflasyon yaratır
+  - Ekonomik gücü, hükümetin politika kararlarını etkileyebilecek zengin alacaklıların elinde çok fazla yoğunlaştırıyor
+  - Sınırlı kaynaklar için farklı harcama birimleri arasında bürokratik rekabet yaratarak hükümetin verimliliğini azaltır
+explanation: |
+  Bu bölümde, bütçe açığı harcamalarının, mevcut vatandaşların devlet hizmetlerinden faydalanmasına izin verirken, maliyetleri yasal olarak gelecek nesillere aktararak zevk ve sorumluluk arasındaki doğal bağı kopardığı açıklanmaktadır. Bu durum temel bir demokratik çelişki yaratmaktadır çünkü mali yükü taşıyacak olan gelecekteki vatandaşlar borcu yaratan bugünkü siyasi kararlara katılamamaktadır. Bu durum, gelecek nesiller karar alma sürecinde söz sahibi olmadan vergilendirildiği için 'temsilsiz vergilendirme olmaz' ilkesini ihlal etmektedir.

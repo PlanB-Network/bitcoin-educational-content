@@ -1,0 +1,9 @@
+question: Milline põhiprintsiip eristab Eric Hughes'i Cypherpunk manifesti kohaselt salaprintsiibid neist, kes pelgalt loodavad eraelu puutumatuse kaitsele?
+answer: Cypherpunks kirjutavad aktiivselt koodi, et luua anonüümseid süsteeme, selle asemel, et oodata, et institutsioonid tagaksid privaatsuse
+wrong_answers:
+  - Cypherpunks keskendub poliitilisele lobitööle ja õiguslikele reformidele, et kehtestada eraelu puutumatuse õigused demokraatlike protsesside kaudu
+  - Cypherpunks usub, et olemasolevates finantsasutustes tuleb töötada, et järk-järgult parandada nende eraelu puutumatuse kaitset
+  - Cypherpunks seab prioriteediks avalikkuse harimise privaatsusriskide kohta, mitte tehniliste lahenduste väljatöötamise
+explanation: |
+  Manifestis öeldakse selgesõnaliselt "Cypherpunks kirjutab koodi" ja rõhutatakse, et nad ei leia lohutust lootustes ja soovides, vaid sekkuvad aktiivselt sündmustesse.
+  Hughes väitis, et inimesed ei saa oodata, et valitsused, korporatsioonid või muud suured organisatsioonid tagavad privaatsuse, seega peavad cypherpunks ise krüptosüsteeme ehitama. Selline aktiivne, tehniline lähenemine koodide arendamise kaudu eristab neid passiivsetest lähenemisviisidest, nagu lobitöö, töötamine olemasolevate süsteemide raames või lihtsalt teiste harimine ilma konkreetseid tehnoloogilisi lahendusi loomata.

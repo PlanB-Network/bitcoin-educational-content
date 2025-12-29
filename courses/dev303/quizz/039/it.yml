@@ -1,0 +1,8 @@
+question: Quale tratto rappresenta le chiusure che possono essere chiamate più volte senza mutare l'ambiente catturato?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn è il tratto di chiusura più restrittivo, che rappresenta chiusure richiamabili più volte senza mutare l'ambiente catturato. Queste chiusure catturano solo tramite un riferimento immutabile e possono essere chiamate in modo sicuro e simultaneo. FnOnce rappresenta le chiusure che possono essere chiamate una sola volta, mentre FnMut rappresenta le chiusure che possono essere chiamate più volte, ma possono mutare l'ambiente catturato. FnCapture non è un vero tratto di Rust.

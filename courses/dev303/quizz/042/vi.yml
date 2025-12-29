@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc các iterator hoạt động theo kiểu lười biếng trong Rust là gì?
+answer: Chúng không thực hiện bất kỳ công việc nào cho đến khi được tiêu thụ, cho phép xâu chuỗi hiệu quả mà không cần tạo ra các tập hợp trung gian.
+wrong_answers:
+  - Chúng tự động song song hóa các thao tác trên nhiều lõi CPU để đạt hiệu suất tốt hơn.
+  - Chúng lưu trữ kết quả trước đó trong bộ nhớ để tránh tính toán lại cùng một giá trị nhiều lần.
+  - Chúng sử dụng ít bộ nhớ hơn bằng cách chỉ lưu trữ các tham chiếu thay vì sao chép các giá trị dữ liệu thực tế.
+explanation: |
+  Việc đánh giá lười biếng trong các trình lặp Rust có nghĩa là chúng không thực hiện bất kỳ quá trình xử lý nào cho đến khi một phương thức sử dụng được gọi. Điều này cho phép bạn xích chuỗi nhiều thao tác như map, filter và các bộ điều hợp khác lại với nhau mà không cần tạo các tập hợp trung gian giữa mỗi bước. Trình biên dịch có thể tối ưu hóa toàn bộ chuỗi thành mã hiệu quả xử lý các phần tử từng cái một thông qua tất cả các phép biến đổi, thay vì tạo các vectơ tạm thời hoặc các tập hợp khác ở mỗi giai đoạn.

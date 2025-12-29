@@ -93,7 +93,7 @@ Die Navigation auf dem Gerät ist einfach: Verwenden Sie die rechte Taste, um na
 
 
 
-In diesem Tutorial zeige ich Ihnen, wie Sie den Trezor Safe 3 mit der [Sparrow Wallet Portfolio Management Software] (https://sparrowwallet.com/download/) verwenden können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Falls Sie Hilfe benötigen, haben wir auch eine ausführliche Anleitung zur Konfiguration von Sparrow Wallet:
+In diesem Tutorial zeige ich Ihnen, wie Sie den Trezor Safe 3 mit der [Sparrow Wallet Portfolio Management Software](https://sparrowwallet.com/download/) verwenden können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Falls Sie Hilfe benötigen, haben wir auch eine ausführliche Anleitung zur Konfiguration von Sparrow Wallet:
 
 
 
@@ -385,7 +385,7 @@ Wir werden die Trezor Suite Software nicht mehr benötigen, außer um regelmäß
 
 
 
-Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website] (https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
+Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website](https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
 
 
 

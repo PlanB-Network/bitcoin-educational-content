@@ -73,13 +73,13 @@ _Globalna populacija bez bankovnih usluga_
 Ovo predavanje, **"Zašto El Salvador treba Bitcoin,"** pruža pregled **Bitcoin protokola**, njegovih korena u **Cypherpunk pokretu**, i njegove uloge kao alata za slobodu—omogućavajući **necenzurisani novac**, **finansijsku inkluziju**, i još mnogo toga.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Bitcoin protokol:_ Pravila i struktura koja upravljaju načinom na koji Bitcoin funkcioniše kao decentralizovana digitalna valuta.
-> - _Cypherpunk pokret:_ Grupa koja se zalaže za korišćenje kriptografije kako bi se osigurala privatnost i sloboda u digitalnim prostorima.
-> - _Finansijska inkluzija:_ Pružanje pristupa finansijskim uslugama ljudima koji su bili isključeni iz tradicionalnih bankarskih sistema, često nazivanih "nebankarizovani."
-> - _Necenzurisani novac:_ Novac koji ne može biti kontrolisan ili ograničen od strane vlada ili finansijskih institucija.
+
+- _Bitcoin protokol:_ Pravila i struktura koja upravljaju načinom na koji Bitcoin funkcioniše kao decentralizovana digitalna valuta.
+- _Cypherpunk pokret:_ Grupa koja se zalaže za korišćenje kriptografije kako bi se osigurala privatnost i sloboda u digitalnim prostorima.
+- _Finansijska inkluzija:_ Pružanje pristupa finansijskim uslugama ljudima koji su bili isključeni iz tradicionalnih bankarskih sistema, često nazivanih "nebankarizovani."
+- _Necenzurisani novac:_ Novac koji ne može biti kontrolisan ili ograničen od strane vlada ili finansijskih institucija.
 
 #### Rickyjeva pozadina i zagovaranje Bitcoin
 
@@ -102,11 +102,11 @@ U autoritarnim režimima, gde je finansijska represija uobičajena, **necenzuris
 Uprkos svom potencijalu, Bitcoin se suočava sa značajnim izazovima. U oblastima kao što su Afrika i Indija, osnovna infrastruktura poput električne energije i pristupa internetu često nedostaje, što ograničava usvajanje. Štaviše, **digitalna inkluzija**—osiguravanje da ljudi svih uzrasta i nivoa obrazovanja mogu koristiti tehnologiju—ostaje velika prepreka.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Privatni ključevi:_ Tajni kodovi koji omogućavaju pristup korisnikovom Bitcoin.
-> - _Otvoreni kod:_ Softver koji svako može pregledati, modifikovati i unaprediti.
+
+- _Privatni ključevi:_ Tajni kodovi koji omogućavaju pristup korisnikovom Bitcoin.
+- _Otvoreni kod:_ Softver koji svako može pregledati, modifikovati i unaprediti.
 
 ### Slučaj El Salvadora
 
@@ -135,10 +135,10 @@ Ukratko, Bitcoin ima ogroman potencijal za finansijsko osnaživanje i inkluziju,
 Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i slobodu kroz kriptografiju. Pioniri poput **Erica Hughesa** i **Tima Maya** verovali su da je jaka enkripcija ključna za zaštitu lične slobode u digitalnom svetu. Njihove ideje su u velikoj meri uticale na stvaranje Bitcoin.
 
 
-> **Definicija:**
->
+**Definicija:**
 
-> - _Cypherpunk:_ Pokret koji promoviše privatnost i slobodu koristeći kriptografiju.
+
+- _Cypherpunk:_ Pokret koji promoviše privatnost i slobodu koristeći kriptografiju.
 
 #### Austrijska ekonomija
 
@@ -146,10 +146,10 @@ Pokret **Cypherpunk** pojavio se krajem 20. veka, zalažući se za privatnost i 
 U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe Bitcoin. Ekonomisti poput **Ludwig von Mises** i **Friedrich Hayek** su tvrdili da zdrava valuta treba da bude oskudna, dugotrajna i dobra za čuvanje vrednosti—osnovni principi koji su oblikovali dizajn Bitcoin.
 
 
-> **Definicija:**
->
+**Definicija:**
 
-> - _Oskudica:_ Ograničena dostupnost, stvaranje vrednosti kroz potrebu za pažljivom raspodelom.
+
+- _Oskudica:_ Ograničena dostupnost, stvaranje vrednosti kroz potrebu za pažljivom raspodelom.
 
 ### Kreacija Bitcoin
 
@@ -157,10 +157,10 @@ U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe 
 **Satoshi Nakamoto** je kombinovao ove ideje kako bi stvorio Bitcoin 2008. godine kao decentralizovanu, cenzuri otpornu digitalnu valutu. Spajanjem Cypherpunk ideala privatnosti sa austrijskim principima zdravog novca, Bitcoin nudi finansijski sistem koji izaziva tradicionalne banke i kontrolu vlade.
 
 
-> **Definicija:**
->
+**Definicija:**
 
-> - _Otporan na cenzuru:_ Novac koji ne može biti kontrolisan ili blokiran od strane spoljašnjih sila.
+
+- _Otporan na cenzuru:_ Novac koji ne može biti kontrolisan ili blokiran od strane spoljašnjih sila.
 
 #### Ključni ekonomski principi
 
@@ -171,11 +171,11 @@ U isto vreme, **Austrijska ekonomija** je pružila osnovu za monetarne principe 
 - Štednja:** Čuvanje vrednosti za buduće potrebe, što vodi ka investicijama i inovacijama.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Vremenska preferencija:_ Vrednovanje sadašnjih dobara više nego budućih.
-> - _Štednja:_ Čuvanje vrednosti za buduću upotrebu.
+
+- _Vremenska preferencija:_ Vrednovanje sadašnjih dobara više nego budućih.
+- _Štednja:_ Čuvanje vrednosti za buduću upotrebu.
 
 ### Bitcoin u El Salvadoru
 
@@ -243,11 +243,11 @@ Bitcoin se oslanja na **digitalne potpise** koristeći **kriptografiju eliptičk
 **Satoshi Nakamoto**, pseudonimni tvorac Bitcoin, proširio je ove ideje prelaskom sa PoW modela na decentralizovani **Blockchain**. Ovo je omogućilo distribuiranoj mreži čvorova da validira i beleži transakcije bez centralnog autoriteta, označavajući značajnu evoluciju u odnosu na prethodne pokušaje digitalne valute.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Proof-of-Work (PoW):_ Sistem gde učesnici moraju rešavati računarske zagonetke kako bi validirali transakcije i obezbedili mrežu.
-> - _Kriptografija eliptičkih krivih:_ Kriptografska metoda koja omogućava sigurne, efikasne digitalne potpise.
+
+- _Proof-of-Work (PoW):_ Sistem gde učesnici moraju rešavati računarske zagonetke kako bi validirali transakcije i obezbedili mrežu.
+- _Kriptografija eliptičkih krivih:_ Kriptografska metoda koja omogućava sigurne, efikasne digitalne potpise.
 
 ### Mehanika Blockchain i validacija transakcija
 
@@ -264,12 +264,12 @@ Svaki **blok** u Blockchain sastoji se od **zaglavlja** (sa podacima kao što je
 Pre nego što transakcije budu uključene u blok, one se nalaze u **Mempool**, gde čekaju validaciju. Kada budu validirane, ove transakcije se dodaju u novo iskopani blok, a zatim u Blockchain.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Rudarenje:_ Proces rešavanja kriptografskih zagonetki za dodavanje novih blokova u Blockchain.
-> - _Nonce:_ Vrednost korišćena za pronalaženje ispravnog Hash tokom Mining.
-> - _Mempool:_ Čekaonica za nepotvrđene transakcije pre nego što budu dodate u blok.
+
+- _Rudarenje:_ Proces rešavanja kriptografskih zagonetki za dodavanje novih blokova u Blockchain.
+- _Nonce:_ Vrednost korišćena za pronalaženje ispravnog Hash tokom Mining.
+- _Mempool:_ Čekaonica za nepotvrđene transakcije pre nego što budu dodate u blok.
 
 ### Skalabilnost, privatnost i razvoj u Bitcoin
 
@@ -283,12 +283,12 @@ Pokretanje **Full node** je ključno za osiguranje decentralizacije i bezbednost
 Razvoj Bitcoin evoluirao je kako bi poboljšao performanse i sigurnost. Glavne nadogradnje uključuju **Segregated Witness (SegWit)**, koji rešava problem promenljivosti transakcija i povećava efektivnu veličinu bloka, i **Taproot**, koji poboljšava privatnost i omogućava složenije ugovore koristeći **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _SegWit:_ A Bitcoin nadogradnja koja odvaja podatke o potpisu od podataka o transakciji, poboljšavajući efikasnost.
-> - _Taproot:_ Nadogradnja koja poboljšava privatnost i skalabilnost Bitcoin omogućavajući složenije pametne ugovore.
-> - _Lightning Network:_ Drugo-Layer rešenje za brže, jeftinije Bitcoin transakcije korišćenjem platnih kanala.
+
+- _SegWit:_ A Bitcoin nadogradnja koja odvaja podatke o potpisu od podataka o transakciji, poboljšavajući efikasnost.
+- _Taproot:_ Nadogradnja koja poboljšava privatnost i skalabilnost Bitcoin omogućavajući složenije pametne ugovore.
+- _Lightning Network:_ Drugo-Layer rešenje za brže, jeftinije Bitcoin transakcije korišćenjem platnih kanala.
 
 #### Zaključak
 
@@ -316,11 +316,11 @@ U ovom predavanju razotkrivamo uobičajene mitove oko **Bitcoin**, **blokčejnov
 Česta zabluda je da su **Bitcoin** i **Blockchain** isti. Dok je Bitcoin digitalna valuta, **Blockchain** je tehnologija koja je pokreće. Blokčejnovi pružaju verifikovan zapis transakcija, ali dolaze sa kompromisima kao što su sporije brzine i veći troškovi, što rešenja poput **Lightning Network** Address.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Blockchain:_ Osnovna tehnologija koja se koristi za beleženje transakcija u decentralizovanom, nepromenljivom Ledger.
-> - _Lightning Network:_ Drugo-Layer rešenje koje poboljšava efikasnost transakcija Bitcoin omogućavanjem off-chain transakcija.
+
+- _Blockchain:_ Osnovna tehnologija koja se koristi za beleženje transakcija u decentralizovanom, nepromenljivom Ledger.
+- _Lightning Network:_ Drugo-Layer rešenje koje poboljšava efikasnost transakcija Bitcoin omogućavanjem off-chain transakcija.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ U ovom predavanju razotkrivamo uobičajene mitove oko **Bitcoin**, **blokčejnov
 Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom pružanja decentralizovanog, cenzuri otpornog oblika novca, slobodnog od kontrole bilo koje kompanije ili vlade. Nasuprot tome, kriptovalute **shitcoins** su često dizajnirane sa centralizovanom kontrolom, prvenstveno postojeći da obogate kompanije iza njih kroz predatorske prakse, pump-and-dump šeme ili otvorene prevare. Ovi tokeni obično nemaju pravu svrhu osim brze zarade za svoje tvorce na račun neinformisanih investitora. Bitcoin, međutim, stoji sam kao jedina istinski decentralizovana digitalna valuta sa dokazanim rekordom sigurnosti i otpornosti.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Shitcoins:_ Shitcoins su kriptovalute niske vrednosti ili sumnjivog kvaliteta koje nemaju stvarnu korisnost. Često su visoko spekulativne i ponekad se stvaraju u svrhe prevare ili bez jasne svrhe, iskorišćavajući procvat tržišta kriptovaluta.
+
+- _Shitcoins:_ Shitcoins su kriptovalute niske vrednosti ili sumnjivog kvaliteta koje nemaju stvarnu korisnost. Često su visoko spekulativne i ponekad se stvaraju u svrhe prevare ili bez jasne svrhe, iskorišćavajući procvat tržišta kriptovaluta.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Još jedna ključna razlika je da je **Bitcoin** stvoren s isključivom svrhom p
 Jedna od najčešćih kritika na račun Bitcoin je njegova **potrošnja energije**. Iako Bitcoin Mining koristi energiju, on čini manje od 1% globalne potrošnje električne energije i manje od 3% izgubljene energije. Štaviše, **Bitcoin Mining** često koristi neiskorišćene ili obnovljive izvore energije, što ga čini ekološki prihvatljivijim nego što se često prikazuje.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Bitcoin Mining:_ Proces validacije transakcija i obezbeđivanja mreže rešavanjem kriptografskih zagonetki, što zahteva računarsku snagu.
+
+- _Bitcoin Mining:_ Proces validacije transakcija i obezbeđivanja mreže rešavanjem kriptografskih zagonetki, što zahteva računarsku snagu.
 
 ### Zablude o kriminalnoj upotrebi
 
@@ -359,10 +359,10 @@ Bitcoin se često kritikuje zbog korišćenja u kriminalnim aktivnostima. Međut
 **Privatnost** i **zamjenjivost** su ključne karakteristike Bitcoin. Privatnost štiti korisnike u represivnim režimima, a zamjenjivost osigurava da je svaki Bitcoin jednak, bez obzira na njegovu istoriju. Ovo čini Bitcoin pouzdanim i pravednim oblikom novca.
 
 
-> **Definicije:**
->
+**Definicije:**
 
-> - _Fungibilnost:_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, obezbeđujući jednaku vrednost.
+
+- _Fungibilnost:_ Svojstvo novca gde je svaka jedinica zamenljiva drugom, obezbeđujući jednaku vrednost.
 
 ### Rukovanje FUD-om i tržišnom dinamikom
 
@@ -2987,7 +2987,7 @@ Različiti Lightning novčanici su dostupni, svaki prilagođen različitim potre
 
 
 
-- Funkcije**: Slično Breeze-u, koristi LSP model za likvidnost, otvorenog koda, fokusira se na jednostavnost korisnika i efikasno upravljanje likvidnošću.
+- Funkcije**: Slično Breez-u, koristi LSP model za likvidnost, otvorenog koda, fokusira se na jednostavnost korisnika i efikasno upravljanje likvidnošću.
 
 
 #### Otvorite Bitcoin Wallet (OBW):
@@ -3005,7 +3005,7 @@ Novčanici se mogu klasifikovati na osnovu toga ko drži privatne ključeve i ko
 
 
 - Skrbnički novčanici**: Treća strana drži privatne ključeve, obično nude automatsko upravljanje likvidnošću. Primeri uključuju Wallet od Satoshi.
-- Novčanici bez staratelja**: Korisnici drže privatne ključeve, može biti potrebno ručno upravljanje likvidnošću. Primeri uključuju Breeze i OBW.
+- Novčanici bez staratelja**: Korisnici drže privatne ključeve, može biti potrebno ručno upravljanje likvidnošću. Primeri uključuju Breez i OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3116,11 +3116,11 @@ Programeri se suočavaju sa izazovom implementacije besprekornog upravljanja lik
 - Moguća rešenja**: Programeri istražuju napredne algoritme za **usmeravanje likvidnosti** i koriste **kanale sa dvostrukim finansiranjem** kako bi osigurali da je likvidnost dostupna na oba kraja transakcije.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **Likvidnost**: Dostupnost sredstava u Lightning kanalu za izvršavanje ili primanje uplata.
-> - **LSP (Lightning Service Provider)**: Usluga koja pomaže korisnicima da upravljaju likvidnošću i kanalima na Lightning Network.
+
+- **Likvidnost**: Dostupnost sredstava u Lightning kanalu za izvršavanje ili primanje uplata.
+- **LSP (Lightning Service Provider)**: Usluga koja pomaže korisnicima da upravljaju likvidnošću i kanalima na Lightning Network.
 
 ---
 
@@ -3149,12 +3149,12 @@ Razvijači imaju zadatak da apstrahuju složenosti L1 i L2 za korisnike, kreiraj
 - Moguća rešenja**: Programeri rade na funkcijama kao što su **splicing** (što omogućava dodavanje ili uklanjanje sredstava iz kanala bez njegovog zatvaranja) i alati za automatsko upravljanje kanalima.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **L1 (Layer 1)**: Bitcoin’s main Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, koji radi na vrhu Bitcoin kako bi omogućio brže i jeftinije transakcije.
-> - **Splicing**: Tehnika koja omogućava izmene u balansu Lightning kanala bez potrebe za njegovim zatvaranjem.
+
+- **L1 (Layer 1)**: Bitcoin’s main Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, koji radi na vrhu Bitcoin kako bi omogućio brže i jeftinije transakcije.
+- **Splicing**: Tehnika koja omogućava izmene u balansu Lightning kanala bez potrebe za njegovim zatvaranjem.
 
 ---
 
@@ -3183,11 +3183,11 @@ Programeri istražuju načine kako omogućiti korisnicima da primaju Lightning u
 - Moguća rešenja**: Istraživanje **vaučera za offline plaćanje**, koji bi omogućili primaocima da preuzmu uplate kada se ponovo povežu na mrežu, je u toku.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **Offline plaćanja**: Plaćanja poslana ili primljena dok jedna strana nije povezana na Lightning Network.
-> - **Skrbnički novčanici**: Novčanici gde treća strana kontroliše privatne ključeve i upravlja transakcijama u ime korisnika.
+
+- **Offline plaćanja**: Plaćanja poslana ili primljena dok jedna strana nije povezana na Lightning Network.
+- **Skrbnički novčanici**: Novčanici gde treća strana kontroliše privatne ključeve i upravlja transakcijama u ime korisnika.
 
 ---
 
@@ -3216,10 +3216,10 @@ Programeri treba da implementiraju rešenja za bekap koja omogućavaju korisnici
 - Moguća rešenja**: **Staticki bekapi kanala (SCBs)** su razvijeni da pojednostave oporavak, ali su potrebna naprednija rešenja za potpuno automatizovane i sigurne bekape.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **Staticka Rezerva Kanala (SCB)**: Tip rezervne kopije koja omogućava korisnicima da povrate svoja sredstva iz Lightning kanala u slučaju kvara tako što će obnoviti najnovije stanje kanala.
+
+- **Staticka Rezerva Kanala (SCB)**: Tip rezervne kopije koja omogućava korisnicima da povrate svoja sredstva iz Lightning kanala u slučaju kvara tako što će obnoviti najnovije stanje kanala.
 
 ---
 
@@ -3313,7 +3313,7 @@ blinded putanje su dizajnirane da poboljšaju privatnost primaoca u Lightning Ne
 
 **Pružaoci usluga munje (LSPs)**
 
-Konceptualizovano od strane Breeze Wallet, Provajderi usluga munje (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSPs otvaraju kanale za korisnike, slično kao što provajderi internet usluga nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava besprekornu interakciju na Lightning Network.
+Konceptualizovano od strane Breez Wallet, Provajderi usluga munje (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSPs otvaraju kanale za korisnike, slično kao što provajderi internet usluga nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava besprekornu interakciju na Lightning Network.
 
 
 **Resursi za ostajanje u toku**
@@ -3362,12 +3362,12 @@ Međutim, tradicionalni računi imaju svoja ograničenja. Na primer:
 - Ograničenja veličine**: Velike fakture mogu biti teške za rukovanje u obliku QR koda, što ih čini nepraktičnim za određene primene.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **Invoice**: Zahtev za plaćanje u Lightning Network, koji obično sadrži iznos i podatke o primaocu.
-> - **HTLC (Hash Time-Locked Contract)**: Tip Smart contract koji se koristi za osiguranje uslovnih plaćanja unutar vremenskog ograničenja.
-> - **Onion routing**: Tehnika privatnosti gde su podaci o transakciji slojeviti poput luka kako bi se zaštitili identiteti pošiljaoca i primaoca.
+
+- **Invoice**: Zahtev za plaćanje u Lightning Network, koji obično sadrži iznos i podatke o primaocu.
+- **HTLC (Hash Time-Locked Contract)**: Tip Smart contract koji se koristi za osiguranje uslovnih plaćanja unutar vremenskog ograničenja.
+- **Onion routing**: Tehnika privatnosti gde su podaci o transakciji slojeviti poput luka kako bi se zaštitili identiteti pošiljaoca i primaoca.
 
 ### Protokoli i slučajevi upotrebe
 
@@ -3394,15 +3394,15 @@ Još jedan protokol, **RGB**, dodatno proširuje funkcionalnost Lightning-a omog
 **Pružatelji usluga likvidnosti Lightning (LSPs)** takođe igraju ključnu ulogu u proširenju Lightning plaćanja. LSPs obezbeđuju likvidnost za primanje uplata, pomažu u otvaranju **dvosmerno finansiranih kanala**, i osiguravaju nesmetane transakcije presretanjem uplata i otvaranjem kanala u hodu.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **LNURL**: Protokol koji omogućava dinamičko kreiranje Invoice, čineći plaćanja lakšim i fleksibilnijim.
-> - **Bolt 12**: Proširenje Lightning-a koje koristi Onion razmenu poruka za privatnost dok automatizuje preuzimanje Invoice.
-> - **Nostr**: Decentralizovana platforma koja integriše LProtocols i Use Cases
-> ightning plaćanja za mikro-transakcije.
-> - **RGB protokol**: Protokol koji omogućava prenos sredstava, kao što su tokeni, preko Lightning Network.
-> - **LSP (Lightning Service Provider)**: Entitet koji obezbeđuje likvidnost i otvara kanale za Lightning transakcije, čineći mrežu pristupačnijom za korisnike.
+
+- **LNURL**: Protokol koji omogućava dinamičko kreiranje Invoice, čineći plaćanja lakšim i fleksibilnijim.
+- **Bolt 12**: Proširenje Lightning-a koje koristi Onion razmenu poruka za privatnost dok automatizuje preuzimanje Invoice.
+- **Nostr**: Decentralizovana platforma koja integriše LProtocols i Use Cases
+- Lightning plaćanja za mikro-transakcije.
+- **RGB protokol**: Protokol koji omogućava prenos sredstava, kao što su tokeni, preko Lightning Network.
+- **LSP (Lightning Service Provider)**: Entitet koji obezbeđuje likvidnost i otvara kanale za Lightning transakcije, čineći mrežu pristupačnijom za korisnike.
 
 ### Poslovni modeli i napredni protokoli
 
@@ -3425,12 +3425,12 @@ Napredni protokoli kao što su **Point Time-Locked Contracts (PTLCs)** unapređu
 Protokoli kao što su **LNURL** i **Bolt 12** pojednostavljuju plaćanja smanjujući manuelne interakcije, osiguravajući da Lightning Network postane korisnički prijatniji i šire prihvaćen.
 
 
-> **Definicije**:
->
+**Definicije**:
 
-> - **PTLC (Point Time-Locked Contract)**: Kriptografski primitiv koji unapređuje HTLC-ove, omogućavajući fleksibilnija i sigurnija plaćanja.
-> - **Pre-image**: Vrednost koja se koristi za otključavanje HTLC, koja takođe može služiti kao pristupni ključ za usluge.
-> - **Aukcioni model**: Model plaćanja gde su uplate na čekanju tokom aukcije i oslobađaju se samo kada je najviša ponuda prihvaćena.
+
+- **PTLC (Point Time-Locked Contract)**: Kriptografski primitiv koji unapređuje HTLC-ove, omogućavajući fleksibilnija i sigurnija plaćanja.
+- **Pre-image**: Vrednost koja se koristi za otključavanje HTLC, koja takođe može služiti kao pristupni ključ za usluge.
+- **Aukcioni model**: Model plaćanja gde su uplate na čekanju tokom aukcije i oslobađaju se samo kada je najviša ponuda prihvaćena.
 
 ### Zaključak
 

@@ -65,7 +65,7 @@ O Signal está disponível em todas as plataformas. Pode descarregar a aplicaç�
 
 
 
-No Android, também é possível [instalar via APK] (https://github.com/signalapp/Signal-Android/releases).
+No Android, também é possível [instalar via APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 

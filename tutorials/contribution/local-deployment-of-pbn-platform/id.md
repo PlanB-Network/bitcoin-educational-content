@@ -66,7 +66,7 @@ pastikan Anda telah menginstal versi nodejs yang sesuai. Pada 2024-12, v22.12.0 
 
 ⚠️ repositori Ubuntu 22.04 versi nodejs adalah 12.22.9: terlalu tua untuk memungkinkan Anda menginstal pnpm
 
-Untuk menginstal nodejs, temukan petunjuknya [di sini] (https://nodejs.org/en/download/package-manager); sebagai contoh, Anda dapat memilih untuk menggunakan metode instalasi `nvm`.
+Untuk menginstal nodejs, temukan petunjuknya [di sini](https://nodejs.org/en/download/package-manager); sebagai contoh, Anda dapat memilih untuk menggunakan metode instalasi `nvm`.
 
 ---
 Sebelum memulai tahap instalasi pnpm dari paket-paket yang diperlukan, pastikan semua dependensi telah terinstal, Anda dapat melakukannya dengan menjalankan perintah berikut:

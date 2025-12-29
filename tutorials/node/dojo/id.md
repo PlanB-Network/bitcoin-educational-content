@@ -7,7 +7,7 @@ description: Node Bitcoin sumber terbuka untuk privasi dan otonomi
 
 
 
-*Tutorial ini didasarkan pada [dokumentasi resmi Ashigaru] (https://ashigaru.rs/docs/), yang telah saya ambil alih dan kembangkan. Aku telah menulis ulang semua bagian untuk meningkatkan kejelasan, menambahkan penjelasan yang lebih rinci, serta ilustrasi untuk pemula, untuk membuat instalasi dan penggunaan lebih mudah dipahami.*
+*Tutorial ini didasarkan pada [dokumentasi resmi Ashigaru](https://ashigaru.rs/docs/), yang telah saya ambil alih dan kembangkan. Saya telah menulis ulang semua bagian untuk meningkatkan kejelasan, menambahkan penjelasan yang lebih rinci, serta ilustrasi untuk pemula, untuk membuat instalasi dan penggunaan lebih mudah dipahami.*
 
 
 
@@ -127,7 +127,7 @@ Setelah perangkat keras yang kamu pilih siap, sekarang saatnya menginstal sistem
 
 
 
-Dari komputer yang sudah berfungsi (komputer yang biasa kamu pakai), unduh citra ISO Ubuntu LTS [dari situs resmi] (https://ubuntu.com/download/desktop) (`24.04` pada saat tulisan ini dibuat, tetapi gunakan yang terbaru kalau ada yang tersedia).
+Dari komputer yang sudah berfungsi (komputer yang biasa Anda gunakan), unduh citra ISO Ubuntu LTS [dari situs resmi](https://ubuntu.com/download/desktop) (`24.04` pada saat tulisan ini dibuat, tetapi gunakan yang terbaru jika ada yang tersedia).
 
 
 
@@ -1328,7 +1328,8 @@ Sekarang kamu sudah terhubung ke Dojo milikmu.
 
 
 
-Dojo secara otomatis menginstal Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), yang secara langsung mengambil data dari node Bitcoin kamu sendiri. Penjelajah memungkinkan kamu mengakses informasi mentah dari Blockchain dan Mempool kamu melalui web Interface yang mudah dipahami. Jadi misalnya, kamu bisa memeriksa status transaksi yang tertunda, melihat saldo Address, atau memeriksa komposisi blok dengan mudah.
+Dojo secara otomatis menginstal Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), yang secara langsung mengambil data dari node Bitcoin Anda sendiri. Penjelajah memungkinkan Anda mengakses informasi mentah dari Blockchain dan Mempool Anda melalui web Interface yang mudah dipahami. Jadi, Anda dapat, misalnya, memeriksa status transaksi yang tertunda, melihat saldo Address, atau memeriksa komposisi blok dengan mudah.
+
 
 
 
@@ -1363,7 +1364,7 @@ Kalau kamu sudah terhubung ke DMT Anda, kamu juga dapat menemukan Address ini di
 
 
 
-Untuk mengakses peramban kamu dari mesin apa pun di jaringan apa pun (bahkan dari jarak jauh), buka [Tor Browser] (https://www.torproject.org/download/) dan masukkan URL yang baru saja Anda ambil.
+Untuk mengakses peramban Anda dari mesin apa pun di jaringan apa pun (bahkan dari jarak jauh), buka [Tor Browser](https://www.torproject.org/download/) dan masukkan URL yang baru saja Anda ambil.
 
 
 
@@ -1505,7 +1506,7 @@ cd ~/
 
 
 
-Unduh versi terbaru Dojo dari GitHub melalui Tor. Dalam contoh ini, versi yang digunakan adalah versi `1.28.0` (yang belum ada pada saat artikel ini ditulis: ini hanya sebagai contoh). Ingatlah untuk mengganti file dan tautan [dengan versi yang ingin Anda instal] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
+Unduh versi terbaru Dojo dari GitHub melalui Tor. Dalam contoh ini, versi yang digunakan adalah versi `1.28.0` (yang belum ada pada saat artikel ini ditulis: ini hanya sebagai contoh). Ingatlah untuk mengganti file dan tautan [dengan versi yang ingin Anda instal](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

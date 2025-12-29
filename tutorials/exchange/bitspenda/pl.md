@@ -35,7 +35,7 @@ BitSpenda to platforma internetowa, na której można korzystać z Exchange Bitc
 
 
 
-Dokonywanie transakcji za pomocą BitSpenda jest dość intuicyjne i wymaga kilku kroków. Na oficjalnej stronie BitSpenda [strona internetowa] (https://bitspenda.app), kliknij przycisk "Start", a zostaniesz przekierowany do Interface Exchange.
+Dokonywanie transakcji za pomocą BitSpenda jest dość intuicyjne i wymaga kilku kroków. Na oficjalnej stronie BitSpenda [strona internetowa](https://bitspenda.app), kliknij przycisk "Start", a zostaniesz przekierowany do Interface Exchange.
 
 
 

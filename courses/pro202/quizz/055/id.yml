@@ -1,0 +1,8 @@
+question: Ketika node Bitcoin meminta header blok menggunakan perintah getheaders, berapa jumlah maksimum header yang dapat dikembalikan dalam satu respons, dan apa yang mengikuti setiap header 80-byte?
+answer: Hingga 2000 header dapat dikembalikan, masing-masing diikuti dengan jumlah transaksi dummy nol
+wrong_answers:
+  - Hingga 1000 header dapat dikembalikan, masing-masing diikuti dengan jumlah transaksi aktual sebagai varint
+  - Hingga 2000 header dapat dikembalikan, masing-masing diikuti dengan checksum 4-byte dari data header
+  - Hingga 500 header dapat dikembalikan, masing-masing diikuti oleh hash akar Merkle untuk verifikasi
+explanation: |
+  Protokol P2P dari Bitcoin secara khusus membatasi respons getheader hingga maksimum 2000 header untuk mencegah node yang kewalahan dengan respons yang sangat besar. Setiap header berukuran tepat 80 byte dan diikuti oleh kolom jumlah transaksi yang disetel ke nol, karena pesan yang hanya berisi header tidak menyertakan transaksi yang sebenarnya. Desain ini memungkinkan sinkronisasi rantai yang efisien di mana node dapat dengan cepat mengunduh dan memverifikasi struktur rantai proof-of-work sebelum meminta data blok penuh.

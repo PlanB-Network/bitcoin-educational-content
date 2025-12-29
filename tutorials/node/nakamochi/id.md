@@ -20,7 +20,7 @@ Dengan Nakamochi, siapa pun bisa mengatur dan mengoperasikan sebuah node dari ru
 
 Nakamochi adalah node penuh khusus Bitcoin yang mendukung jaringan Bitcoin dan Lightning. Perangkat ini sudah termasuk dompet Bitcoin dan Lightning yang terintegrasi, yang memungkinkan kamu menjalankan node Bitcoin kamu sendiri dengan aman dan berdaulat sambil tetap menikmati kecepatan Lightning Network dan biaya transaksi yang rendah.
 
-Node Nakamochi dikelola melalui aplikasi seluler, [BitBanana (Android)] (https://bitbanana.app) dan [Zeus (iOS)] (https://bitbanana.app), yang memungkinkanmu untuk mengontrolnya dengan nyaman di mana aja. Aplikasi-aplikasi ini berfungsi sebagai kendali jarak jauh untuk node kamu, memungkinkan kamu membayar langsung dengan Bitcoin atau Lightning, mengelola transaksi, membuka atau menutup channel, memeriksa saldo, dan memantau kinerja node kamu, semuanya dengan mudah.
+Node Nakamochi kamu dikelola melalui aplikasi seluler, [BitBanana (Android)](https://bitbanana.app) dan [Zeus (iOS)](https://bitbanana.app), yang memungkinkan Anda untuk mengontrolnya dengan nyaman dari mana saja. Aplikasi-aplikasi ini bertindak sebagai kendali jarak jauh untuk node Anda, memungkinkan Anda untuk membayar secara langsung dengan Bitcoin atau Lightning, mengelola transaksi, membuka atau menutup saluran, memeriksa saldo, dan memantau kinerja node Anda, semuanya dengan mudah.
 
 ## Menyiapkan Nakamochi hanya membutuhkan waktu 5 menit
 

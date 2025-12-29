@@ -191,7 +191,7 @@ Bu işlem Bitcoin-QT Interface grafiksel Interface üzerinden de gerçekleştiri
 ![Image](assets/fr/12.webp)
 
 
-Yerel ağınızda Bitcoin core'ü barındıran makinenin IP Address'ini bulun. Bunu yapmak için [Angry IP Scanner] (https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'inin `192.168.1.18` olduğunu varsayalım.
+Yerel ağınızda Bitcoin core'ü barındıran makinenin IP Address'ini bulun. Bunu yapmak için [Angry IP Scanner](https://angryip.org/) gibi bir araç kullanabilirsiniz. Tartışma adına, düğümünüzün IP Address'inin `192.168.1.18` olduğunu varsayalım.
 
 
 Bitcoin.conf` dosyasına aşağıdaki satırları ekleyin ve `rpcbind=192.168.1.18` ayarını düğümünüzün IP Address'sı ile eşleşecek şekilde yapın.

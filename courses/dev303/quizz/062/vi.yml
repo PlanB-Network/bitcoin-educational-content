@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng lệnh `cargo expand` khi phát triển các macro phức tạp trong Rust là gì?
+answer: Nó hiển thị toàn bộ mã được tạo ra bởi các lệnh gọi macro, cho phép các nhà phát triển xác minh đầu ra được tạo ra và gỡ lỗi các sự cố.
+wrong_answers:
+  - Nó tự động tối ưu hóa hiệu năng macro bằng cách giảm thời gian biên dịch và loại bỏ các nhánh khớp mẫu dư thừa.
+  - Nó xác thực cú pháp macro trong quá trình chạy và cung cấp kiểm tra lỗi theo thời gian thực để xác thực đối số macro động.
+  - Nó tự động chuyển đổi các macro giống hàm thành macro kế thừa, cải thiện khả năng tái sử dụng mã và hiệu quả triển khai trait.
+explanation: |
+  Lệnh `cargo expand` vô cùng hữu ích cho việc phát triển macro vì nó hiển thị mã thực tế mà macro generate sử dụng trong quá trình biên dịch. Vì macro hoạt động ở thời điểm biên dịch và chuyển đổi các mẫu đầu vào thành mã được tạo ra, các nhà phát triển cần xem đầu ra được mở rộng này để xác minh macro của họ hoạt động chính xác. Điều này đặc biệt quan trọng khi mã được tạo bởi macro chứa lỗi, vì đầu ra được mở rộng giúp xác định xem các vấn đề bắt nguồn từ định nghĩa macro hay cấu trúc của mã được tạo ra. Các tùy chọn khác không chính xác vì `cargo expand` chỉ đơn thuần là một công cụ gỡ lỗi và kiểm tra - nó không tối ưu hóa hiệu suất, xác thực hành vi thời gian chạy hoặc tự động chuyển đổi giữa các loại macro.

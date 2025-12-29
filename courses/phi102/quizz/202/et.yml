@@ -1,0 +1,8 @@
+question: Bastiat' analüüsi "Les Harmonies économiques" kohaselt, mis eristab liberaalse ühiskonna huvide olemust primitiivsete ühiskondade huvidest?
+answer: Liberaalsetes ühiskondades on huvid harmoonilised tänu vabatahtlikule vahetusele, kus mõlemad pooled saavad kasu, erinevalt primitiivsetest ühiskondadest, kus huvid olid tõeliselt antagonistlikud piiratud ressursside eest peetava nullsummakonkurentsi tõttu
+wrong_answers:
+  - Liberaalsed ühiskonnad tekitavad keerulisemaid klassidevahelisi vastasseise, samas kui primitiivsetes ühiskondades olid lihtsamad, kuid otsesemad konfliktid otseste ellujäämisvajaduste üle
+  - Liberaalsed ühiskonnad suruvad loomuliku konkurentsiinstinkti maha reguleerimise kaudu, samas kui primitiivsed ühiskonnad võimaldasid vastuoluliste huvide vaba väljendamist otsese vastasseisu kaudu
+  - Liberaalsed ühiskonnad muudavad vastandlikud huvid valitsuse sekkumise kaudu koostööks, samas kui primitiivsetel ühiskondadel puudusid institutsioonilised mehhanismid konfliktide lahendamiseks
+explanation: |
+  Bastiat väidab, et liberaalses ühiskonnas loob vabatahtlik vahetus vastastikust kasu, mis muudab huvid pigem harmooniliseks kui vastandlikuks. Ta vastandab seda primitiivsetele ühiskondadele, kus tõeline nappus (näiteks kaks hõimu, kes konkureerivad sama jahimaa pärast) tekitas tõelisi vastuolusid. Väärad vastused moonutavad tema teooriat, viidates klassikonfliktidele, regulatiivsele allasurumisele või valitsuse sekkumisele kui võtmeteguritele, kuigi Bastiat rõhutab, et harmoonia tekib loomulikult vabatahtlikest turusuhetest ilma sunnita.

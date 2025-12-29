@@ -93,7 +93,7 @@ Phoenixd butuh lingkungan Linux (disarankan Ubuntu atau Debian) dengan sedikit s
 
 
 
-Buka halaman [rilis GitHub] (https://github.com/ACINQ/phoenixd/releases) dan unduh versi terbaru untuk arsitektur Anda:
+Buka halaman [rilis GitHub](https://github.com/ACINQ/phoenixd/releases) dan unduh versi terbaru untuk arsitektur Anda:
 
 
 
@@ -608,7 +608,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits dapat menggunakan Phoenixd sebagai sumber pendanaan sesuai dengan [dokumentasi resminya] (https://docs.lnbits.org/guide/wallets.html):
+LNbits dapat menggunakan Phoenixd sebagai sumber pendanaan sesuai dengan [dokumentasi resminya](https://docs.lnbits.org/guide/wallets.html):
 
 
 
@@ -697,7 +697,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Pembaruan:** Lihat [rilis GitHub] (https://github.com/ACINQ/phoenixd/releases) untuk versi baru. Memperbarui semudah mengganti biner dan memulai ulang layanan.
+**Pembaruan:** Lihat [rilis GitHub](https://github.com/ACINQ/phoenixd/releases) untuk versi baru. Memperbarui semudah mengganti biner dan memulai ulang layanan.
 
 
 

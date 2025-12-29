@@ -6,4 +6,4 @@ wrong_answers:
   - Porque los mensajes no pueden ser autenticados sin una firma digital.
 explanation: |
   La confidencialidad protege el contenido de los mensajes, pero sin un MAC, un atacante podría aún interceptar y modificar un mensaje sin entenderlo, comprometiendo así la integridad de la comunicación.
-reviewed: false
+reviewed: true

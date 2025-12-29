@@ -69,7 +69,7 @@ A última versão estável do pfSense, no momento da redação deste tutorial, �
 
 
 
-- [Descarregar pfSense] (https://www.pfsense.org/download/)
+- [Descarregar pfSense](https://www.pfsense.org/download/)
 
 
 

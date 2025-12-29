@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango ibimenyamenya vya Merkle bitanga ku bakiriya ba SPV (Igenzura ry’Ukwishyura ryoroshe) igihe bagenzura ko amafaranga yinjijwe?
+answer: Bituma umuntu ashobora kugenzura ko amafaranga akoreshwa ata gukuraho igice cose, bisaba ama bytes amajana makeyi gusa mbere no ku mabarabara afise ibihumbi vy’amafaranga .
+wrong_answers:
+  - Bakuraho ivy’ugusuzuma hash y’ibarabara ku bijanye n’intumbero y’ingorane, bikagabanya ibisabwa mu gukoresha ubuhinga bwa none ku bakiriya bafise uburemere buke .
+  - Batanga ikimenyamenya c'ibanga kibuza ibitero vya double-spending mu kwemeza ivyinjijwe vyose vy'ubudandaji biri mu gice .
+  - Bituma abaguzi ba SPV bashobora gusubira kwubaka amateka yose y'ibikorwa ata guhuza n'ibice vyinshi vyuzuye icarimwe .
+explanation: |
+  Ivyemezo vya Merkle bikoresha ubushobozi bwo gukura kw’ibiti vya Merkle, bikaba vyemerera abaguzi ba SPV kugenzura ko amafaranga yinjijwe n’ama hashes gusa y’abavukanyi ku nzira ija ku muzi. Ivyo bisaba amajana makeyi gusa y’ama bytes ata kuraba ubunini bw’ibarabara, bikaba bituma bishoboka ku bakiriya bafise uburemere buke. Inyishu zitari zo zitera urujijo ibimenyamenya vya Merkle n’ubundi buryo bwa Bitcoin - ntizikuraho ugusuzuma ingorane, ntizibuza double-spending ataco zihinduye, kandi ntizisubira kwubaka amateka y’ibikorwa.

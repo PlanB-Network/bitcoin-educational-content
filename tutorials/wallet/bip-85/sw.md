@@ -1,6 +1,6 @@
 ---
 name: BIP-85
-description: Ninawezaje kutumia maneno mengi ya mbegu ya BIP-85 hadi generate kutoka kwa seed kuu?
+description: Ninawezaje kutumia maneno mengi ya seed ya BIP-85 hadi generate kutoka kwa seed kuu?
 ---
 ![cover](assets/cover.webp)
 
@@ -52,11 +52,11 @@ BIP-85 ni muhimu ikiwa unataka:
 
 
 
-Kwa BIP-32, sentensi moja ya seed inaweza kutumika kwa generate safu kamili ya akaunti na anwani za Bitcoin, kwa kutumia njia za utokaji (kwa mfano: `m/44'/0'/0'/0/0`). Kila njia inaweza kuwakilisha akaunti tofauti, lakini **zote hubaki zimeunganishwa kwa sentensi sawa ya seed**. Kwa hivyo, ikiwa kifungu hiki cha maneno cha seed kitaathiriwa, **akaunti zote zinazotolewa zitaweza kufikiwa**.
+Kwa BIP-32, sentensi moja ya seed inaweza kutumika kwa generate safu kamili ya akaunti na address za Bitcoin, kwa kutumia njia za utokaji (kwa mfano: `m/44'/0'/0'/0/0`). Kila njia inaweza kuwakilisha akaunti tofauti, lakini **zote hubaki zimeunganishwa kwa sentensi sawa ya seed**. Kwa hivyo, ikiwa kifungu hiki cha maneno cha seed kitaathiriwa, **akaunti zote zinazotolewa zitaweza kufikiwa**.
 
 
 
-Kwa BIP-85, sentensi kuu ya seed inaweza kutumika kwa generate sentensi kadhaa za upili za seed zinazojitegemea kabisa: **ikiwa moja ya mbegu hizi za upili imeathiriwa, mshambuliaji hataweza kamwe kurudi kwenye seed kuu au kufikia portfolio nyingine**.
+Kwa BIP-85, sentensi kuu ya seed inaweza kutumika kwa generate sentensi kadhaa za upili za seed zinazojitegemea kabisa: **ikiwa moja ya seeds hizi za upili imeathiriwa, mshambuliaji hataweza kamwe kurudi kwenye seed kuu au kufikia portfolio nyingine**.
 
 
 Hii inafanya uwezekano wa kugawanya hatari:
@@ -66,7 +66,7 @@ Hii inafanya uwezekano wa kugawanya hatari:
 
 
 - Unaweza kutumia seed ya pili kwa Hot Wallet au matumizi ya muda, ukikubali kukabiliwa na mwonekano wa juu zaidi.
-- Hata kama Hot Wallet hii imeathiriwa, fedha zako nyingine, zikilindwa na mbegu nyingine au kuwekwa nje ya mtandao, **zinabaki salama**.
+- Hata kama Hot Wallet hii imeathiriwa, fedha zako nyingine, zikilindwa na seed nyingine au kuwekwa nje ya mtandao, **zinabaki salama**.
 
 
 
@@ -93,7 +93,7 @@ BIP-85 hukuruhusu kuunda jalada nyingi za Bitcoin kutoka kwa kifungu kimoja cha 
 
 - **Hali**: Unatumia "Hot Wallet" Wallet (iliyosakinishwa kwenye kifaa kilichounganishwa kwenye Intaneti), kwa shughuli za kila siku.
 - **Suluhisho BIP-85**: Unaunda maneno ya upili ya seed yaliyowekwa kwa kwingineko hii.
-- Manufaa zaidi ya **BIP-32**: Huhitaji kuleta kifungu cha msingi cha seed kwenye simu yako, hivyo basi kupunguza hatari ya kudukuliwa. Ni maneno ya pili ya seed pekee ndiyo yameathiriwa, kulinda pochi zako zingine. Ukiwa na BIP-32, unahitaji kutumia kifungu kikuu cha seed na njia ya kupita, ikionyesha pesa zako zote.
+- Manufaa zaidi ya **BIP-32**: Huhitaji kuleta kifungu cha msingi cha seed kwenye simu yako, hivyo basi kupunguza hatari ya kudukuliwa. Ni maneno ya pili ya seed pekee ndiyo yameathiriwa, kulinda wallet zako zingine. Ukiwa na BIP-32, unahitaji kutumia kifungu kikuu cha seed na njia ya kupita, ikionyesha pesa zako zote.
 
 
 
@@ -213,7 +213,7 @@ Washa Coldcard yako, weka PIN yako.
 
 
 
-ColdCard inakufahamisha kwamba mbegu zinazozalishwa zimetokana na kihisabati kutoka kwa seed yako kuu, lakini huru kisirisiri kabisa.
+ColdCard inakufahamisha kwamba seeds zinazozalishwa zimetokana na kihisabati kutoka kwa seed yako kuu, lakini huru kisirisiri kabisa.
 
 
 ![image](assets/fr/03.webp)
@@ -347,7 +347,7 @@ Tunashauri sana dhidi ya kutumia vifungu vya pili vya seed vinavyotokana na mane
 
 
 
-Sio programu zote zinazotumia moja kwa moja utokezi wa BIP85. Hata hivyo, mbegu zinazozalishwa kupitia BIP85 ni mbegu za kawaida za BIP39 (maneno 12, 18 au 24), na kwa hivyo zinaweza kutumika katika kwingineko yoyote inayotangamana na BIP39.
+Sio programu zote zinazotumia moja kwa moja utokezi wa BIP85. Hata hivyo, seeds zinazozalishwa kupitia BIP85 ni seeds za kawaida za BIP39 (maneno 12, 18 au 24), na kwa hivyo zinaweza kutumika katika kwingineko yoyote inayotangamana na BIP39.
 
 
 

@@ -1,0 +1,9 @@
+question: เทคนิคใดที่อนุญาตให้เครื่องภายในหลายเครื่องแชร์ที่อยู่ IP สาธารณะเดียวเพื่อเข้าถึงอินเทอร์เน็ต?
+answer: NAT (การแปลเครือข่าย Address)
+wrong_answers:
+  - ARP (โปรโตคอลการแก้ไขที่อยู่ Address)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT แปลงที่อยู่ภายในส่วนตัวเป็นที่อยู่ IP สาธารณะ ทำให้หลายอุปกรณ์สามารถแชร์การเชื่อมต่อภายนอกเดียวกันได้
+reviewed: false

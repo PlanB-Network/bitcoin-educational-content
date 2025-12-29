@@ -1,0 +1,9 @@
+question: บริการใดที่อนุญาตให้ย้ายสภาพคล่องไปยังฝั่งตรงข้ามของช่องทางขณะดึงเงิน on-chain?
+answer: วนออก
+wrong_answers:
+  - Keysend
+  - LNURL
+  - CoinSwap
+explanation: |
+  บริการ Loop Out จาก Lightning Labs ช่วยให้สามารถโอนเงินจากช่องทาง Lightning ไปยังบล็อกเชน on-chain ซึ่งจะช่วยเพิ่มประสิทธิภาพในการรับเงินพร้อมกับการดึงบิตคอยน์กลับมาบนเชนหลัก
+reviewed: true

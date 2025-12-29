@@ -1,0 +1,8 @@
+question: Miksi esitetyn liberaalin analyysin mukaan lehdistönvapautta olisi mahdotonta säilyttää kollektivistisessa talousjärjestelmässä?
+answer: Valtio valvoo kaikkia tuotantovälineitä, myös kirjapainoja, ja päättää, mitä julkaistaan
+wrong_answers:
+  - Yksittäisillä toimittajilla ei olisi taloudellisia kannustimia tuottaa laadukasta sisältöä
+  - Yksityisten sanomalehtien ostaminen olisi kansalaisille liian kallista valtion valvomassa hinnoittelussa
+  - Poliittiset puolueet kilpailisivat liian kovasti tiedotusvälineiden hallinnasta, mikä johtaisi sensuuriin
+explanation: |
+  Liberaalissa analyysissä havaitaan rakenteellinen mahdottomuus: koska valtio omistaa kaikki tuotantovälineet kollektivistisessa järjestelmässä, se välttämättä valvoo painokoneita ja julkaisuinfrastruktuuria. Tämä antaa valtiolle absoluuttisen vallan päättää, mitä painetaan ja levitetään, mikä tekee riippumattomasta lehdistönvapaudesta mahdotonta poliittisista aikomuksista riippumatta. Muissa vaihtoehdoissa ei oteta huomioon tätä perustavanlaatuista seikkaa, että taloudellinen valvonta määrittää poliittiset mahdollisuudet.

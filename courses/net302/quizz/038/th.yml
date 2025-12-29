@@ -1,0 +1,9 @@
+question: ช่วง CIDR ทั่วไปที่แสดงถึงขนาดของบล็อก IPv4 ที่ IANA จัดสรรให้กับ RIR คืออะไร?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA แบ่งพื้นที่ IPv4 ออกเป็นบล็อกขนาด /8 แต่ละบล็อกมีที่อยู่ 2^24 ที่อยู่
+reviewed: false

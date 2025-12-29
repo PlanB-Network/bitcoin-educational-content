@@ -1,0 +1,8 @@
+question: Mikä on Bastiat'n analyysin mukaan looginen ongelma Proudhonin lausumassa "omaisuus on varkautta"?
+answer: Jos omaisuus on varkautta, varkaudesta tulee omaisuutta, mikä on looginen ristiriita
+wrong_answers:
+  - Omaisuutta ei voi olla olemassa ilman valtion sääntelyä ja oikeudellisia puitteita
+  - Varkaus on moraalisesti väärin, kun taas omaisuus on moraalisesti oikein kaikissa olosuhteissa
+  - Omaisuus edellyttää fyysistä hallussapitoa, kun taas varkaus edellyttää väliaikaista hankkimista
+explanation: |
+  Bastiat osoitti Proudhonin kuuluisan lauseen sisäisen loogisen ristiriidan osoittamalla, että jos hyväksymme, että omaisuus on yhtä kuin varkaus, niin loogisesti katsoen varkauden on oltava yhtä kuin omaisuuden. Tämä luo mahdottoman ympäripyöreän päättelyn, jossa jokin laillinen asia on samanaikaisesti laiton. Bastiat sen sijaan väitti, että omaisuus juontuu luonnollisesti työstä, itseomistuksesta ja inhimillisistä kyvyistä, mikä tekee siitä pikemminkin perustavanlaatuisen ja loogisen käsitteen kuin varkauden muodon.

@@ -1,0 +1,8 @@
+question: Enligt den franska liberala traditionen, vad är det största problemet med den artificiella motsättningen mellan teoretiker och praktiker i den offentliga debatten?
+answer: Både teoretiker och praktiker förlitar sig på teoretiska ramverk, så den verkliga frågan är att skilja bra teorier från dåliga
+wrong_answers:
+  - Teoretiker är verkligen frikopplade från verkligheten medan praktiker har överlägsen konkret kunskap
+  - Motståndet är giltigt eftersom praktiker aldrig använder teoretiska ramverk i sitt arbete
+  - Teoretiker bör endast fokusera på abstrakta begrepp medan praktiker bör undvika allt teoretiskt tänkande
+explanation: |
+  I kapitlet förklaras att motsättningen mellan teori och praktik är konstlad eftersom alla mänskliga handlingar, även enkla sådana som att gå i trappor, bygger på implicita teorier som t.ex. gravitation. Praktiker tillämpar ständigt teoretiska ramverk, ofta omedvetet. Den verkliga utmaningen är inte att välja mellan teori och praktik, utan snarare att skilja bra teorier som bygger på observerbara fakta från dåliga teorier som bygger på felaktigheter. Detta visar att dikotomin är falsk eftersom båda grupperna oundvikligen använder sig av teoretiska grunder.

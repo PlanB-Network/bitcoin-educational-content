@@ -1,0 +1,9 @@
+question: คำสั่งใดที่ดึงที่อยู่ IP ภายในของ Umbrel ของคุณหากการเข้าถึงผ่าน umbrel.local ล้มเหลว?
+answer: ชื่อโฮสต์ -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  ในกรณีที่มีปัญหาการตรวจจับ คุณสามารถใช้คำสั่ง hostname -I บนเครื่อง Umbrel เพื่อค้นหา IP ภายในเครื่องได้
+reviewed: true

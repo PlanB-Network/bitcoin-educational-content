@@ -1,0 +1,8 @@
+question: BTCMap คืออะไร?
+answer: แพลตฟอร์มที่แสดงรายชื่อร้านค้าทั้งหมดที่รับ Bitcoin.
+wrong_answers:
+  - แผนที่ของเหมือง Bitcoin ทั้งหมดในโลก
+  - แผนที่ของการแลกเปลี่ยน Bitcoin ทั้งหมดในโลก
+  - แผนที่ของผู้ใช้ Bitcoin ทั้งหมดในโลก
+explanation: >-
+reviewed: true

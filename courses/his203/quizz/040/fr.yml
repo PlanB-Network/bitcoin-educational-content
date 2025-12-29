@@ -1,0 +1,9 @@
+question: En quoi consiste le schéma de script Pay to Script Hash ?
+answer: Bloquer des fonds avec l'empreinte d'un script, lequel devra être exécuté lors du déverrouillage
+wrong_answers:
+  - Requérir M signatures parmi N participants pour autoriser la sortie transactionnelle à être dépensée
+  - Faire dépendre la dépense de bitcoins de la fourniture d'une signature liée à une clé publique unique
+  - Écrire des données arbitraires sur la chaine de blocs en rendant l'UTXO non dépensable
+explanation: |
+ Il s'agit de payer une empreinte de script et de fournir ledit script lors du déverrouillage des fonds. Ce qui le différencie de la proposition OP_EVAL, c'est qu'il est reconnu automatiquement par la machine virtuelle, de façon à être exécuté sans qu'aucune instruction explicite ne soit présente.
+reviewed: false

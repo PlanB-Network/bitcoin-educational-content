@@ -1,0 +1,9 @@
+question: Que permet de restaurer la seed LND seule ?
+answer: Le portefeuille onchain
+wrong_answers:
+  - Les canaux ouverts
+  - Les états des canaux
+  - Rien
+explanation: |
+  La seed permet de récupérer le portefeuille Bitcoin onchain, mais pas les canaux Lightning actifs.
+reviewed: false

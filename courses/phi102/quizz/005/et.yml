@@ -1,0 +1,8 @@
+question: Milline on prantsuse liberaalse traditsiooni kohaselt peamine probleem teoreetikute ja praktikute kunstliku vastandamise puhul avalikus arutelus?
+answer: Nii teoreetikud kui ka praktikud tuginevad teoreetilistele raamistikele, seega on tegelik küsimus heade teooriate eristamine halbadest teooriatest
+wrong_answers:
+  - Teoreetikud on tõepoolest tegelikkusest lahutatud, samas kui praktikutel on paremad konkreetsed teadmised
+  - Vastuolu on põhjendatud, sest praktikud ei kasuta oma töös kunagi teoreetilisi raamistikke
+  - Teoreetikud peaksid keskenduma ainult abstraktsetele mõistetele, samas kui praktikud peaksid vältima igasugust teoreetilist mõtlemist
+explanation: |
+  Peatükis selgitatakse, et teooria ja praktika vastandamine on kunstlik, sest kõik inimtegevused, isegi lihtsad, näiteks trepist ronimine, põhinevad kaudsetel teooriatel, näiteks gravitatsioonil. Praktikud rakendavad pidevalt teoreetilisi raamistikke, sageli alateadlikult. Tegelik väljakutse ei ole mitte valida teooria ja praktika vahel, vaid pigem eristada häid teooriaid, mis põhinevad vaadeldavatel faktidel, halbadest teooriatest, mis on üles ehitatud ekslikele tõekspidamistele. See näitab, et dihhotoomia on vale, sest mõlemad rühmad kasutavad paratamatult teoreetilisi aluseid.

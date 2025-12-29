@@ -6,4 +6,4 @@ wrong_answers:
   - Requieren un hashing más largo para mayor seguridad
 explanation: |
   Las contraseñas débiles pueden ser fácilmente recuperadas de su hash utilizando ataques de diccionario, lo que hace que su selección sea importante para asegurar la seguridad.
-reviewed: false
+reviewed: true

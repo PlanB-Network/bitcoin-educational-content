@@ -25,3 +25,118 @@ proofreading:
     contributor_names:
       - SatoSats
     reward: 1.9
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.74
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.5
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27

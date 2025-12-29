@@ -155,6 +155,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 25.26
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.55
 tags:
   - sidechains
   - development

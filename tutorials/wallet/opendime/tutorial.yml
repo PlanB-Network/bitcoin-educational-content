@@ -25,3 +25,13 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.52
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.87

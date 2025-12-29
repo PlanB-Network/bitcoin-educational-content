@@ -1,0 +1,8 @@
+question: Która cecha reprezentuje zamknięcia, które mogą być wywoływane wielokrotnie bez mutowania ich przechwyconego środowiska?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn jest najbardziej restrykcyjną cechą domknięcia, która reprezentuje domknięcia wywoływane wielokrotnie bez mutowania ich przechwyconego środowiska. Zamknięcia te przechwytują tylko przez niezmienne odniesienie i mogą być bezpiecznie wywoływane współbieżnie. FnOnce reprezentuje zamknięcia, które mogą być wywołane tylko raz, podczas gdy FnMut reprezentuje zamknięcia, które mogą być wywoływane wiele razy, ale mogą mutować swoje przechwycone środowisko. FnCapture nie jest prawdziwą cechą Rust.

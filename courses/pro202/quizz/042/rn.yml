@@ -1,0 +1,8 @@
+question: Iyo uburyo bwo guhindura ingorane bwa Bitcoin buhura n’ikintu aho amabuye y’umwaka wa 2016 aheze yatwaye amayinga 6 nyayo kugira ngo acukurwe aho gufata amayinga 2 yari yitezwe, ni igiki co guhindura cokoreshwa?
+answer: Ingorane yogabanywa n’incuro 4 (ugugabanya gusumba kure kwemerewe)
+wrong_answers:
+  - Ingorane yogabanywa n’incuro 3 (indwi 6 ÷ indwi 2) .
+  - Ingorane yogabanywa n’incuro 2,5 kugira ngo ntihagire uwukosora birenze urugero .
+  - Ingorane yogabanywa n'incuro 6 bishingiye ku kigereranyo c'igihe .
+explanation: |
+  Ihinduka ry’ingorane rya Bitcoin rifise imipaka yubatswemwo ibuza amahinduka gushika mu rugero rwa kane mu nzira iyo ari yo yose. Naho amayinga 6 ÷ amayinga 2 = 3, bikaba vyerekana ko vyogabanywa incuro 3, iyo porotokole ihagarika guhindura incuro 4 kugira ngo ntihagire uguhinduka gukomeye. Ubu buryo bwo gukingira buratuma urubuga ruguma rudahungabana mu gihe c’amahinduka akomeye y’igipimo ca hash, nk’uguhagarika kwa mining canke ukunanirwa kw’ibikoresho, mu kubuza gukosora birenze urugero bishobora gutuma igihe co guhagarika kidahungabana.

@@ -1,5 +1,5 @@
 ---
-name: 灰原
+name: Ashigaru
 description: 来自 Samourai Wallet 的 fork 用于保护、管理和混合您的比特币
 ---
 

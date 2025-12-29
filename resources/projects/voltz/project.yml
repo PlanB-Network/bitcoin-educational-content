@@ -1,0 +1,25 @@
+id: 51500805-f100-4623-b8b2-ad7bd11b9dbb
+name: Voltz
+links:
+  website: https://voltz.xyz/
+
+category: infrastructure
+
+tags:
+  - software
+  - lightning
+  - wallets
+
+contributor_names:
+  - heyolaniran
+
+
+# proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-16
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

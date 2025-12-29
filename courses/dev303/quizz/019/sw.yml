@@ -1,0 +1,8 @@
+question: Ni utaratibu gani wa majina ambao Rust inatekeleza kwa majina ya muundo na majina ya sehemu mtawalia?
+answer: CamelCase kwa majina ya muundo na snake_case kwa majina ya uwanja
+wrong_answers:
+  - snake_case kwa majina ya muundo na CamelCase kwa majina ya sehemu
+  - Kebab-case kwa majina ya muundo na CameralCase kwa majina ya uwanja
+  - UPPER_CASE kwa majina ya muundo na herufi ndogo kwa majina ya sehemu
+explanation: |
+  Rust hufuata kanuni maalum za majina ambazo mkusanyaji hutekeleza kupitia maonyo. Majina ya miundo yanapaswa kutumia CamelCase (pia inajulikana kama PascalCase), ambapo kila neno huanza na herufi kubwa kama 'MyStruct'. Majina ya sehemu ndani ya miundo yanapaswa kutumia snake_case yenye mistari ya chini inayotenganisha maneno kama 'my_field'. Kanuni hii inadumisha uthabiti katika besi za msimbo za Rust na inaboresha usomaji kwa watengenezaji.

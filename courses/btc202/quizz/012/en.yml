@@ -1,4 +1,4 @@
-question: Which stage is part of a minor's role?
+question: Which stage is part of a miner's role?
 answer: Building a candidate block from Mempool
 wrong_answers:
   - Validate the entire Blockchain from Mempool

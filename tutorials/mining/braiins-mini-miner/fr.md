@@ -6,7 +6,7 @@ description: Rendre le minage facile depuis chez soi.
 
 ## Introduction
 
-Le Mini Miner braiins BMM 100 est un produit créé par le pool de minage Braiins. Cet appareil possède un design attrayant et est extrêmement silencieux. Il produit 1,1 Th/s de puissance de calcul et consomme environ 40 watts. Contrairement à d’autres appareils, il n’est pas open source, mais son installation est vraiment simple, elle ne nécessite que quelques clics ! Le Mini Miner BMM 100 est la première version sortie. Actuellement, la version 2 est en production, appelée BMM 101, qui se distingue de la première par un écran plus grand et la présence du Wi-Fi, mais les procédures d’installation restent les mêmes.
+Le Mini Miner braiins BMM 100 est un produit créé par le pool de minage Braiins. Cet appareil possède un design attrayant et est extrêmement silencieux. Il produit 1,1 Th/s de puissance de calcul et consomme environ 40 watts. Contrairement à d’autres appareils, il n’est pas open source, et son installation est vraiment simple, elle ne nécessite que quelques clics ! Le Mini Miner BMM 100 est la première version sortie. La version 2, appelée BMM 101, est maintenant en production, qui se distingue de la première par un écran plus grand et une connectivité Wi-Fi, mais les procédures d’installation restent les mêmes que la première version.
 
 Vous pouvez également trouver beaucoup plus d’informations importantes en consultant le guide complet directement sur le [site du fabricant](https://braiins.com/hardware/mini-Miner-bmm-100).
 
@@ -16,7 +16,7 @@ L’appareil ressemble à un parallélépipède avec un écran en façade.
 
 ![image](assets/en/01.webp)
 
-Un ventilateur se trouve sur la face supérieure.
+Un ventilateur se trouve sur la face avant supérieure.
 
 ![image](assets/en/02.webp)
 
@@ -30,7 +30,7 @@ Vous devrez connecter l’appareil à Internet via un câble Ethernet, notez que
 
 ## Configuration
 
-Nous devons ouvrir un navigateur et entrer l’adresse IP affichée par le Mini Miner dans la barre de recherche. Je vous rappelle que, pour trouver l’appareil sur le réseau, il faut être en local, c’est-à-dire que l’ordinateur utilisé doit être connecté au même réseau que le Mini Miner. Une fois l’adresse IP saisie et validée par Entrée, la page de connexion au système d’exploitation du Mini Miner, Braiins OS, apparaît à l’écran.
+Nous devons ouvrir un navigateur et entrer l’adresse IP affichée par le Mini Miner dans la barre de recherche. Je vous rappelle que, pour trouver l’appareil sur le réseau, vous devrez être à proximité, c'est-à-dire que l'ordinateur que vous utilisez devra être connecté au même réseau que le mini Miner. Une fois l’adresse IP saisie et validée par Entrée, la page de connexion au système d’exploitation du Mini Miner, Braiins OS, apparaît à l’écran.
 
 ![image](assets/en/06.webp)
 
@@ -128,15 +128,14 @@ Avec ce pool, on peut tenter sa chance et miner en solo, en s’appuyant sur un 
 
 ![image](assets/en/18.webp)
 
-Une page s’ouvre avec toutes les informations nécessaires. Nous copions ensuite l’adresse stratum.
-
+On trouve ensuite une page contenant toutes les informations nécessaires. On y copie ensuite l’adresse stratum.
 ![image](assets/en/19.webp)
 
-Nous retournons sur le tableau de bord de notre Mini Miner, allons dans configuration → pools, cliquons sur "add new pool" (même processus que vu précédemment) et collons l’adresse stratum dans le champ Pool URL.
+Ensuite, nous retournons sur le tableau de bord de notre Mini Miner, allons dans configuration → pools, cliquons sur "add new pool" (même processus que vu précédemment) et collons l’adresse stratum dans le champ Pool URL.
 
 ![image](assets/en/20.webp)
 
-Revenons maintenant à la page du pool et voyons que, comme nom d’utilisateur, nous devons entrer une adresse Bitcoin, qui sera celle sur laquelle nous recevrons la récompense au cas où nous parvenons à miner un bloc, puis un point et ensuite le nom de notre appareil, comme nous l’avons fait précédemment avec le pool Braiins. Le mot de passe peut être choisi librement.
+Revenons maintenant à la page du pool et remarquons que, comme nom d’utilisateur, nous devons entrer une adresse Bitcoin, qui sera celle sur laquelle nous recevrons la récompense au cas où nous parvenons à miner un bloc, puis un point et ensuite le nom de notre appareil, comme nous l’avons fait précédemment avec le pool Braiins. Le mot de passe peut être choisi librement.
 
 ![image](assets/en/21.webp)
 

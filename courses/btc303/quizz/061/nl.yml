@@ -6,3 +6,4 @@ wrong_answers:
   - Gebruikers moeten vertrouwen op cryptografische handtekeningen van vertrouwde ontwikkelaars om het softwaregedrag te valideren
 explanation: |
   Het hoofdstuk stelt expliciet dat gebruikers, om te controleren of Bitcoin software 'werkt zoals geadverteerd', onbeperkte toegang moeten hebben tot de broncode. Dit sluit direct aan bij het 'Don't Trust, Verify' principe en de eis van de open source definitie dat de broncode beschikbaar moet zijn. De verkeerde antwoorden zijn in tegenspraak met de kernprincipes van open source: het vereisen van toestemming is in strijd met het principe van vrije toegang, het betalen van vergoedingen is in tegenspraak met de eis van gratis distributie, en alleen vertrouwen op handtekeningen ondermijnt de mogelijkheid van verificatie door inspectie die open source biedt.
+reviewed: false

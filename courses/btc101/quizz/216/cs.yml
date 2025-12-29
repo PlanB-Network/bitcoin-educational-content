@@ -1,9 +1,9 @@
-question: Co je blockchainové trilema?
-answer: Protokol založený na blockchainu může splnit pouze dvě z kritérií decentralizace, bezpečnosti a škálovatelnosti.
+question: Jaké riziko podstupuje Lightning uzel, který zveřejní starý stav kanálu?
+answer: Penále
 wrong_answers:
-  - Protokol založený na blockchainu může splnit pouze jedno z kritérií decentralizace, bezpečnosti a škálovatelnosti.
-  - Protokol založený na blockchainu může splnit všechna kritéria decentralizace, bezpečnosti a škálovatelnosti.
-  - Protokol založený na blockchainu nemůže splnit žádné z kritérií decentralizace, bezpečnosti a škálovatelnosti.
+  - Varování
+  - Dodatečné těžební poplatky
+  - Dočasné zmrazení
 explanation: |
-  Blockchainové trilema odkazuje na výzvu, že protokol založený na blockchainu může splnit pouze dvě kritéria z decentralizace, bezpečnosti a škálovatelnosti.
-reviewed: true
+  Protokol stanoví odrazující sankci, která umožňuje druhé straně získat zpět veškeré prostředky.
+reviewed: false

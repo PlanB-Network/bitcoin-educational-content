@@ -6,3 +6,4 @@ wrong_answers:
   - Het snelheidsprobleem bij online betalingen
 explanation: |
   De doorbraak van Bitcoin was het oplossen van het double-spending probleem zonder een centrale autoriteit nodig te hebben. Het double-spending probleem is de uitdaging om te voorkomen dat iemand dezelfde digitale munt twee keer uitgeeft. Eerdere digitale munten faalden omdat ze afhankelijk waren van centrale servers of vertrouwde autoriteiten, wat ze kwetsbaar maakte voor censuur en single points of failure. Bitcoin loste dit op door zijn peer-to-peer gedistribueerde tijdstempelserver die proof-of-work gebruikt, waardoor het netwerk overeenstemming kan bereiken over het ordenen van transacties zonder centrale controle.
+reviewed: false

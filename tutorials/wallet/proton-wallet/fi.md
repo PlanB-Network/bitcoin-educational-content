@@ -18,7 +18,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Yhdistä Proton-lompakkoon
 
-Mene [Proton Wallet -sivustolle] (https://proton.me/wallet) ja napsauta "*Get Proton Wallet*" -painiketta.
+Mene [Proton Wallet -sivustolle](https://proton.me/wallet) ja napsauta "*Get Proton Wallet*" -painiketta.
 
 ![Image](assets/fr/01.webp)
 

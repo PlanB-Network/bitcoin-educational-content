@@ -6,3 +6,4 @@ wrong_answers:
   - Criar nós de validação aprovados pelo governo que possam processar transacções de forma mais eficiente
 explanation: |
   O livro define o escalonamento do Bitcoin como "aumentar a capacidade de utilização do Bitcoin sem comprometer a sua resistência à censura" A verificação de assinaturas com eficiência espacial encaixa-se diretamente nesta definição, fazendo com que as transacções utilizem menos bytes, mantendo a descentralização. Todas as respostas erradas comprometem a resistência à censura: as trocas centralizadas introduzem terceiros de confiança, a filtragem de transacções cria mecanismos de censura e os nós aprovados pelo governo centralizam a autoridade de validação. O verdadeiro escalonamento preserva as principais propriedades do Bitcoin enquanto melhora a eficiência.
+reviewed: false

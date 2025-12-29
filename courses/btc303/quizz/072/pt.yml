@@ -6,3 +6,4 @@ wrong_answers:
   - A competição entre as soluções de camada dois e as abordagens de escala on-chain por recursos de desenvolvimento e apoio comunitário limitados
 explanation: |
   Maxwell identificou um problema de dupla face em que o Bitcoin perde as suas vantagens em ambas as direcções: se a utilização de recursos for demasiado elevada em relação à tecnologia disponível, a validação torna-se demasiado dispendiosa e os preços dos utilizadores são reduzidos, que passam a depender de terceiros de confiança em vez de validarem de forma independente. Por outro lado, se a capacidade for demasiado baixa e os métodos de transação forem ineficientes, o acesso à cadeia de blocos para resolução de litígios torna-se proibitivamente dispendioso, empurrando novamente os utilizadores para serviços de confiança. Isto cria um equilíbrio delicado que as soluções de escalonamento devem navegar.
+reviewed: false

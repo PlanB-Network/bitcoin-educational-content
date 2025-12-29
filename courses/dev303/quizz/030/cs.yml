@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel operátoru otazníku (?) v Rust při použití s typy Result?
+answer: Automatické rozbalování úspěšných hodnot a okamžité vracení chyb z aktuální funkce
+wrong_answers:
+  - Převod všech typů výsledků na typy Option pro snadnější manipulaci s nulovými hodnotami
+  - Automatická panika s vlastní zprávou při výskytu chyby
+  - Zabalení úspěšných hodnot do další vrstvy Result pro větší bezpečnost
+explanation: |
+  Operátor otazníku (?) je určen speciálně pro šíření chyb v Rust. Pokud je aplikován na výsledek, získá hodnotu úspěchu, pokud operace proběhla úspěšně, a umožní kódu pokračovat s touto hodnotou. Pokud však došlo k chybě, operátor ? okamžitě vrátí tuto chybu z aktuální funkce, čímž ji efektivně propaguje nahoru na zásobník volání. Tím se eliminuje potřeba slovních výrazů shody při zachování explicitní sémantiky ošetření chyb. Operátor lze použít pouze ve funkcích, které vracejí typy Result, což zajišťuje správné vzory šíření chyb.

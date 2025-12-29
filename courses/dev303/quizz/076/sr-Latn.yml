@@ -1,0 +1,8 @@
+question: Zašto je korišćenje expect() na hard-kodiranim vrednostima koje izgledaju kao da su verifikovane od strane kompajlera potencijalno problematično u produkcijskom kodu?
+answer: Hard-kodirane vrednosti mogu evoluirati tokom vremena kroz refaktorisanje, pretvarajući prethodno validne vrednosti u greške pri izvršavanju
+wrong_answers:
+  - Kompajler ne može da verifikuje validnost hardkodiranih vrednosti u vreme kompajliranja, što čini expect() nepouzdanim.
+  - Hard-kodirane vrednosti troše više memorije nego dinamičke vrednosti, što uzrokuje probleme sa performansama kod expect()
+  - Metoda expect() dodaje nepotrebno opterećenje u poređenju sa unwrap() kada se radi sa poznatim važećim vrednostima
+explanation: |
+  Tačan odgovor ističe ključni uvid iz poglavlja: čak i naizgled bezbedne hard-kodirane vrednosti mogu postati opasne tokom vremena. Primer pokazuje kako validna IP adresa može biti refaktorisana u konstantu i kasnije promenjena u 'localhost', narušavajući originalnu pretpostavku. Pogrešni odgovori su netačni jer: kompajler može verifikovati hard-kodirane vrednosti u vreme kompajliranja, potrošnja memorije nije problem sa expect(), i expect() nema značajan performansni trošak u poređenju sa unwrap().

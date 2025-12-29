@@ -1,0 +1,8 @@
+question: Điều gì sẽ xảy ra với các phép toán số học khi các đường cong elliptic được định nghĩa trên các trường hữu hạn thay vì tập số thực?
+answer: Tất cả các phép toán đều sử dụng số học modulo trong khi vẫn duy trì các quy tắc đại số giống nhau.
+wrong_answers:
+  - Các công thức cộng điểm phải được viết lại hoàn toàn cho toán học rời rạc.
+  - Việc tính toán độ dốc trở nên không xác định do tính chất rời rạc của các điểm.
+  - Tất cả các quy tắc đại số đều thay đổi về cơ bản để phù hợp với cấu trúc trường hữu hạn.
+explanation: |
+  Khi các đường cong elliptic được chuyển từ tập số thực sang trường hữu hạn, cấu trúc và quy tắc đại số cơ bản vẫn giữ nguyên - chỉ có phép toán thay đổi thành phép toán modulo. Tất cả các công thức cộng điểm, tính toán độ dốc và các mối quan hệ hình học đều hoạt động chính xác như nhau, nhưng mọi phép tính đều được thực hiện theo modulo p. Việc bảo toàn các quy tắc đại số trong khi chỉ thay đổi nền tảng số học chính là điều làm cho các đường cong elliptic trường hữu hạn trở nên mạnh mẽ đối với mật mã học, duy trì tất cả các thuộc tính toán học cần thiết đồng thời tạo ra hành vi rời rạc, khó dự đoán, vốn rất cần thiết cho bảo mật.

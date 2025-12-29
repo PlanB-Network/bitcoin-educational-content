@@ -6,4 +6,4 @@ wrong_answers:
   - IIP
 explanation: |
   RFC-ovi (Request For Comments) su referentni dokumenti koji definišu specifikacije TCP/IP protokola.
-reviewed: false
+reviewed: true

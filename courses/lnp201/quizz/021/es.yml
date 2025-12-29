@@ -6,3 +6,4 @@ wrong_answers:
   - Bloquea el uso de la llave de revocación
 explanation: |
   El timelock impone un retraso durante el cual el tramposo no puede recuperar sus fondos, dando así a la otra parte la oportunidad de responder.
+reviewed: true

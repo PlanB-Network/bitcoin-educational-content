@@ -1,0 +1,8 @@
+question: Prinsip desain fundamental apa yang memungkinkan LDK untuk membuat HSM Lightning-aware yang dapat secara cerdas mengevaluasi apakah suatu transaksi mewakili perutean pembayaran yang sah versus upaya yang berpotensi berbahaya?
+answer: Arsitektur modular LDK memungkinkan ekstraksi komponen penandatanganan dan verifikasi transaksi tertentu dengan tetap mempertahankan kesadaran konteks protokol Lightning
+wrong_answers:
+  - "Sistem berbasis peristiwa LDK secara otomatis menandai transaksi yang mencurigakan melalui algoritme pembelajaran mesin yang diintegrasikan ke dalam proses penandatanganan inti"
+  - "Lapisan abstraksi blockchain LDK menyediakan deteksi penipuan waktu nyata dengan merujuk silang semua transaksi terhadap data gosip jaringan"
+  - "Sistem manajemen peer LDK mengimplementasikan tanda tangan kriptografi canggih yang secara inheren membedakan antara pola transaksi yang sah dan berbahaya"
+explanation: |
+  Desain modular LDK memungkinkan pengembang untuk mengekstrak komponen penandatanganan dan verifikasi saja dengan tetap mempertahankan kecerdasan protokol Lightning yang diperlukan untuk memahami konteks transaksi. Hal ini memungkinkan HSM untuk membuat keputusan yang tepat mengenai penerusan pembayaran, operasi saluran, dan ancaman keamanan daripada menandatangani transaksi secara membabi buta. Jawaban yang salah mengaitkan kemampuan ini dengan deteksi penipuan otomatis, pemantauan blockchain, atau tanda tangan kriptografi, padahal sebenarnya kemampuan arsitektur modular untuk mempertahankan kesadaran protokol dalam komponen yang terisolasi yang memungkinkan evaluasi transaksi yang cerdas.

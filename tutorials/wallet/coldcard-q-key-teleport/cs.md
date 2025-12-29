@@ -32,7 +32,7 @@ To lze použít k přenosu:
 
 
 - **gW-0 fráze** (Master seed karty ColdCard Q nebo tajemství uložená v trezoru [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **důvěrné poznámky a hesla**: může to být libovolné tajemství nebo celý adresář [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na kartě ColdCardQ.
+- **důvěrné poznámky a hesla**: může to být libovolné tajemství nebo celý adresář [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) na kartě ColdCardQ.
 - zálohu celé karty **ColdCardQ**: aby tato záloha fungovala, nesmí mít karta ColdCardQ, která ji přijímá, Master seed.
 - gW-3 (**částečně podepsané transakce Bitcoin**) jako součást schématu s více podpisy.
 

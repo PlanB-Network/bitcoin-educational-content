@@ -1,0 +1,8 @@
+question: Koja je primarna svrha kombinovanja RC sa RefCell u Rust programiranju?
+answer: Da bi se omogućilo više vlasnika da dele i menjaju iste podatke uz proveru pozajmljivanja tokom izvršavanja programa
+wrong_answers:
+  - Da se sprovođenje pravila zaduživanja premesti sa vremena izvršavanja nazad na vreme kompajliranja radi bolje performanse
+  - Da biste kreirali nepromenljive deljene podatke koji mogu biti bezbedno pristupani kroz više niti
+  - Da bi se sprečili ciklusi referenci i curenje memorije prilikom deljenja podataka između više vlasnika
+explanation: |
+  RC<RefCell<T>> kombinuje brojanje referenci za deljeno vlasništvo sa unutrašnjom promenljivošću za mutacije koje se proveravaju tokom izvršavanja. RC omogućava da više delova koda poseduje iste podatke, dok RefCell omogućava mutaciju kroz nepromenljive reference proveravajući pravila pozajmljivanja tokom izvršavanja. Ostale opcije su netačne: ovaj obrazac zapravo pomera provere na vreme izvršavanja (ne vreme kompajliranja), stvara promenljive (ne nepromenljive) deljene podatke, i zapravo može izazvati cikluse referenci umesto da ih spreči.

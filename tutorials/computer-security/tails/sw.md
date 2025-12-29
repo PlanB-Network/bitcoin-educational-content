@@ -1,7 +1,7 @@
 ---
 name: Tails
 
-description: Sakinisha Mikia kwenye ufunguo wa USB
+description: Sakinisha Tails kwenye ufunguo wa USB (USB security key)
 ---
 
 ![image](assets/cover.webp)
@@ -10,25 +10,25 @@ description: Sakinisha Mikia kwenye ufunguo wa USB
 Mfumo wa uendeshaji unaobebeka na wa amnesiki unaokulinda dhidi ya ufuatiliaji na udhibiti.
 
 
-## Kwa nini ufunguo wa USB ulio na Mikia umewekwa?
+## Kwa nini ufunguo wa USB ulio na Tails umewekwa?
 
 
-Mikia ( https://tails.boum.org/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
+Tails ( https://tails.boum.org/ ) ndiyo njia rahisi zaidi ya kuwa na kompyuta salama unayoweza kutumia wakati wote, ambayo haitaacha alama yoyote kwenye kompyuta unayoitumia nayo.
 
 
-Ili kutumia Mikia, zima kompyuta ambayo unaweza kufikia (kwa wazazi wako, kwa marafiki zako, kwenye mkahawa wa Intaneti...) na uanze kwa kutumia ufunguo wako wa USB wa Tails badala ya Windows, macOS, au Linux.
+Ili kutumia Tails, zima kompyuta ambayo unaweza kufikia (kwa wazazi wako, kwa marafiki zako, kwenye mkahawa wa Intaneti...) na uanze kwa kutumia ufunguo wako wa USB wa Tails badala ya Windows, macOS, au Linux.
 
 
-Baada ya hapo, utakuwa na eneo la kazi na mazingira ya mawasiliano ambayo ni huru ya mfumo wa uendeshaji wa kawaida na kamwe haitumii gari la Hard.
+Baada ya hapo, utakuwa na eneo la kazi na mazingira ya mawasiliano ambayo ni huru ya mfumo wa uendeshaji wa kawaida na kamwe haitumii Hard drive.
 
 
-Mikia haiandiki kwa kiendeshi cha Hard na hutumia tu RAM ya kompyuta kufanya kazi. Kumbukumbu hii inafutwa kabisa wakati Mikia imefungwa, na hivyo kuondoa athari zote zinazowezekana.
+Tails haiandiki kwa Hard drive na hutumia tu RAM ya kompyuta kufanya kazi. Kumbukumbu hii inafutwa kabisa wakati Tails imefungwa, na hivyo kuondoa athari zote zinazowezekana.
 
 
 ## Baadhi ya kesi za matumizi halisi
 
 
-Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Mikia kila wakati, hapa kuna orodha ndogo isiyo kamili iliyokusanywa na timu ya Agora256:
+Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Tails kila wakati, hapa kuna orodha ndogo isiyo kamili iliyokusanywa na timu ya Agora256:
 
 
 
@@ -39,10 +39,10 @@ Ili kukupa mawazo madhubuti ya manufaa ya kuwa na ufunguo wa USB na Mikia kila w
 - Chukua hatua zako za kwanza katika mazingira ya Linux ili ujifunze jinsi ya kuondoka kwenye ulimwengu wa Microsoft na Apple.
 
 
-## Jinsi ya kuamini Mikia?
+## Jinsi ya kuamini Tails?
 
 
-Daima kuna kipengele cha uaminifu katika kutumia programu, lakini si lazima kuwa kipofu. Chombo kama Mikia lazima kijitahidi kuwapa watumiaji wake mbinu za kuaminika. Kwa Mikia, hii inamaanisha:
+Daima kuna kipengele cha uaminifu katika kutumia programu, lakini si lazima kuwa kipofu. Chombo kama Tails lazima kijitahidi kuwapa watumiaji wake mbinu za kuaminika. Kwa Tails, hii inamaanisha:
 
 
 
@@ -69,18 +69,18 @@ Masharti:
 
 
 
-- Kitufe 1 cha USB, kwa Mikia pekee, yenye uwezo wa angalau GB 8
+- Kitufe 1 cha USB, kwa Tails pekee, yenye uwezo wa angalau GB 8
 - Kompyuta iliyounganishwa kwenye Mtandao na Linux, macOS, (au Windows)
 - Takriban saa moja ya muda wa bila malipo, kulingana na kasi ya muunganisho wako wa Mtandao, ikijumuisha saa ½ ya usakinishaji (faili ya GB 1.3 ya kupakua)
 
 
-## Hatua ya 1: Pakua Mikia kutoka kwa kompyuta yako
+## Hatua ya 1: Pakua Tails kutoka kwa kompyuta yako
 
 
 ![image](assets/1.webp)
 
 
-🔗 **Sehemu Rasmi ya Mikia:** https://tails.boum.org/install/linux/index.fr.html#download
+🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.fr.html#download
 
 
 Kupakua faili ya usakinishaji kwa kutumia kiendelezi cha .img kunaweza kuchukua muda kulingana na kasi yako ya upakuaji wa Mtandao, kwa hivyo panga mapema. Kwa muunganisho wa kisasa na mzuri, itachukua chini ya dakika 5.
@@ -95,7 +95,7 @@ Hifadhi faili katika folda inayojulikana, kama vile Vipakuliwa, kwani hii itakuw
 ![image](assets/2.webp)
 
 
-🔗 **Sehemu Rasmi ya Mikia:** https://tails.boum.org/install/linux/index.fr.html#verify
+🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.fr.html#verify
 
 
 Kuthibitisha kipakuliwa huhakikisha kuwa kimetolewa na wasanidi wa Tails na hakijaharibiwa au kuingiliwa wakati wa upakuaji.
@@ -107,13 +107,13 @@ Inawezekana kuthibitisha mwenyewe kwamba faili uliyopakua hivi punde ndiyo inayo
 Ili kuthibitisha faili, tumia kitufe cha "Chagua kupakua ..." iliyotolewa katika sehemu rasmi!
 
 
-## Hatua ya 3: Sakinisha Mikia kwenye ufunguo wako wa USB
+## Hatua ya 3: Sakinisha Tails kwenye ufunguo wako wa USB
 
 
 ![image](assets/3.webp)
 
 
-🔗 **Sehemu Rasmi ya Mikia:**
+🔗 **Sehemu Rasmi ya Tails:**
 
 
 
@@ -121,7 +121,7 @@ Ili kuthibitisha faili, tumia kitufe cha "Chagua kupakua ..." iliyotolewa katika
 - **macOS:** https://tails.boum.org/install/mac/index.fr.html#etcher na https://tails.boum.org/install/mac/index.fr.html#install
 
 
-Hatua hii ya kusakinisha Mikia kwenye ufunguo wako wa USB ndiyo ngumu zaidi katika mwongozo mzima, hasa ikiwa hujawahi kuifanya hapo awali. Jambo muhimu zaidi ni kuchagua utaratibu sahihi katika sehemu rasmi ya mfumo wako wa uendeshaji: Linux au macOS.
+Hatua hii ya kusakinisha Tails kwenye ufunguo wako wa USB ndiyo ngumu zaidi katika mwongozo mzima, hasa ikiwa hujawahi kuifanya hapo awali. Jambo muhimu zaidi ni kuchagua utaratibu sahihi katika sehemu rasmi ya mfumo wako wa uendeshaji: Linux au macOS.
 
 
 Baada ya zana kusakinishwa na kutayarishwa inavyopendekezwa, faili iliyo na kiendelezi cha .img inaweza kunakiliwa kwa ufunguo wako (kufuta data yote iliyopo) ili kuifanya "bootable" kwa kujitegemea.
@@ -130,22 +130,22 @@ Baada ya zana kusakinishwa na kutayarishwa inavyopendekezwa, faili iliyo na kien
 Bahati nzuri! na tuonane katika hatua ya 4.
 
 
-## Hatua ya 4: Anzisha upya kwenye ufunguo wako wa USB wa Mikia
+## Hatua ya 4: Anzisha upya kwenye ufunguo wako wa USB wa Tails
 
 
 ![image](assets/4.webp)
 
 
-🔗 **Sehemu Rasmi ya Mikia:** https://tails.boum.org/install/linux/index.en.html#restart
+🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.en.html#restart
 
 
-Ni wakati wa kuanzisha mojawapo ya kompyuta zako kwa kutumia kifimbo chako kipya cha USB. Ingiza kwenye mojawapo ya bandari zake za USB na uanze upya!
+Ni wakati wa kuanzisha mojawapo ya kompyuta zako kwa kutumia USB stick yako mpya. Ingiza kwenye mojawapo ya bandari zake za USB na uanze upya!
 
 
-**Kumbuka💡: Kompyuta nyingi hazijiwashi kiotomatiki kutoka kwa fimbo ya USB ya Mikia, lakini unaweza kubofya kitufe cha menyu ya kuwasha ili kuonyesha orodha ya vifaa vinavyowezekana kuwasha kutoka.**
+**Kumbuka💡: Kompyuta nyingi hazijiwashi kiotomatiki kutoka kwa USB stick ya Tails, lakini unaweza kubofya kitufe cha menyu ya kuwasha ili kuonyesha orodha ya vifaa vinavyowezekana kuwasha kutoka.**
 
 
-Ili kubainisha ni ufunguo gani unapaswa kubofya ili kuhakikisha kuwa una menyu ya kuwasha inayokuruhusu kuchagua kifimbo cha USB badala ya kiendeshi chako cha kawaida cha Hard, hii hapa kuna orodha isiyo kamili ya mtengenezaji:
+Ili kubainisha ni ufunguo gani unapaswa kubofya ili kuhakikisha kuwa una menyu ya kuwasha inayokuruhusu kuchagua USB stick badala ya Hard drive yako ya kawaida, hii hapa kuna orodha isiyo kamili ya mtengenezaji:
 
 
 | Manufacturer | Key              |
@@ -166,19 +166,19 @@ Ili kubainisha ni ufunguo gani unapaswa kubofya ili kuhakikisha kuwa una menyu y
 | Toshiba      | F12              |
 | others...    | F12, Esc         |
 
-Mara tu fimbo ya USB imechaguliwa, unapaswa kuona skrini hii mpya ya boot, ambayo ni ishara nzuri sana, kwa hivyo acha kompyuta iendelee kuwasha...
+Mara tu USB stick imechaguliwa, unapaswa kuona skrini hii mpya ya boot, ambayo ni ishara nzuri sana, kwa hivyo acha kompyuta iendelee kuwasha...
 
 
 ![image](assets/5.webp)
 
 
-## Hatua ya 5: Karibu kwenye Mikia!
+## Hatua ya 5: Karibu kwenye Tails!
 
 
 ![image](assets/6.webp)
 
 
-🔗 **Sehemu Rasmi ya Mikia:** https://tails.boum.org/install/linux/index.en.html#tails
+🔗 **Sehemu Rasmi ya Tails:** https://tails.boum.org/install/linux/index.en.html#tails
 
 
 Dakika moja au mbili baada ya kipakiaji cha kuwasha na kupakia skrini, Skrini ya Karibu inaonekana.
@@ -187,34 +187,34 @@ Dakika moja au mbili baada ya kipakiaji cha kuwasha na kupakia skrini, Skrini ya
 ![image](assets/7.webp)
 
 
-Katika Skrini ya Karibu, chagua mpangilio wa lugha na kibodi yako katika sehemu ya Lugha na Eneo. Bofya kwenye Mikia ya Anza.
+Katika Skrini ya Karibu, chagua mpangilio wa lugha na kibodi yako katika sehemu ya Lugha na Eneo. Bofya kwenye Tails ya Anza.
 
 
 ![image](assets/8.webp)
 
 
-Ikiwa kompyuta yako haijaunganishwa kwenye mtandao wako, tafadhali rejelea maagizo rasmi ya Mikia ili kukusaidia kuunganisha kwenye mtandao wako bila Wi-Fi (sehemu ya "Jaribu Wi-Fi yako").
+Ikiwa kompyuta yako haijaunganishwa kwenye mtandao wako, tafadhali rejelea maagizo rasmi ya Tails ili kukusaidia kuunganisha kwenye mtandao wako bila Wi-Fi (sehemu ya "Jaribu Wi-Fi yako").
 
 
-Mara baada ya kuunganishwa kwenye mtandao wa ndani, mchawi wa Tor Connection inaonekana kukusaidia kuunganisha kwenye mtandao wa Tor.
+Mara baada ya kuunganishwa kwenye mtandao wa ndani, wizard ya Tor Connection inaonekana kukusaidia kuunganisha kwenye mtandao wa Tor.
 
 
 ![image](assets/9.webp)
 
 
-Unaweza kuanza kuvinjari bila kujulikana, chunguza chaguo na programu iliyojumuishwa kwenye Mikia. Furahia, una nafasi nyingi za makosa, kwani hakuna kitu kinachorekebishwa kwenye kifimbo cha USB... Kuanzisha upya kwako kutakuwa kumesahau matumizi yako yote!
+Unaweza kuanza kuvinjari bila kujulikana, chunguza chaguo na programu iliyojumuishwa kwenye Tails. Furahia, una nafasi nyingi za makosa, kwani hakuna kitu kinachorekebishwa kwenye USB stick... Kuanzisha upya kwako kutakuwa kumesahau matumizi yako yote!
 
 
 ## Katika mwongozo wa siku zijazo ...
 
 
-Baada ya kufanya majaribio zaidi na fimbo yako ya USB ya Mikia, tutachunguza mada nyingine za kina zaidi katika makala nyingine, kama vile:
+Baada ya kufanya majaribio zaidi na fUSB stick ya Tails, tutachunguza mada nyingine za kina zaidi katika makala nyingine, kama vile:
 
 
 
-- Sasisha ufunguo kwa **toleo la hivi punde la Mikia**;
+- Sasisha ufunguo kwa **toleo la hivi punde la Tails**;
 - Sanidi na utumie **hifadhi endelevu**;
 - Sakinisha **programu ya ziada**.
 
 
-Hadi wakati huo, kama kawaida, ikiwa una maswali yoyote, jisikie huru kuyashiriki na jumuiya ya Agora256. Tunajifunza pamoja kuwa bora kesho kuliko tulivyo leo!
+Hadi wakati huo, kama kawaida, ikiwa una maswali yoyote, jisikie huru kuyashiriki na jumuiya ya Agora256. Tunajifunza pamoja kuwa bora kesho kuliko tulivyo leo!Hadi wakati huo, kama kawaida, ikiwa una maswali yoyote, jisikie huru kuyashiriki na jumuiya ya Agora256. Tunajifunza pamoja kuwa bora kesho kuliko tulivyo leo!

@@ -6,3 +6,4 @@ wrong_answers:
   - 20 500 000,0000 BTC omtrent
 explanation: |
   Pieter Wuille har beregnet at det teoretiske maksimumstilbudet er 20 999 999,9769 BTC, noe som er litt mindre enn de 21 millioner som ofte oppgis. Dette skyldes den spesifikke halveringsplanen og avrundingen i Bitcoins kode. Tallet 21 millioner er en avrundet tilnærming. Tallet 20 999 817,3131 representerer den faktiske sirkulasjonsforsyningen etter å ha tatt høyde for tapte mynter og mining-feil opp til en bestemt blokk, ikke det teoretiske maksimumet.
+reviewed: false

@@ -471,7 +471,7 @@ På fliken Miner Status kan du se olika information om hur ASIC fungerar i realt
 ### Braiins OS+
 
 
-Nu ska vi studera programvaran för ASICs Braiins OS+ (https://braiins.com/os/plus). Programvaran är utvecklad av företaget [Braiins] (https://braiins.com/), som är moderbolag till Mining pool Braiins Pool (https://braiins.com/pool). Denna Mining pool har för närvarande 4,39% av den globala Hashrate när dessa rader skrivs. Det Prag-baserade företaget var tidigare känt som Slushpool och är den första Mining pool som startade i november 2010. [Här](https://Mempool.space/Mining/pool/braiinspool) hittar du uppdaterad statistik för Hashrate och pooldominans.
+Nu ska vi studera programvaran för ASICs Braiins OS+ (https://braiins.com/os/plus). Programvaran är utvecklad av företaget [Braiins](https://braiins.com/), som är moderbolag till Mining pool Braiins Pool (https://braiins.com/pool). Denna Mining pool har för närvarande 4,39% av den globala Hashrate när dessa rader skrivs. Det Prag-baserade företaget var tidigare känt som Slushpool och är den första Mining pool som startade i november 2010. [Här](https://Mempool.space/Mining/pool/braiinspool) hittar du uppdaterad statistik för Hashrate och pooldominans.
 
 
 Idag erbjuder företaget, med sina olika verksamheter, verktyg för lönsamhetsstudier för Mining (https://insights.braiins.com/en), lösningar för hantering av Mining-gårdar parallellt med poolverksamheten samt optimeringsprogramvara för ASICs. Företaget erbjuder också Mining med det nya Stratum V2-protokollet (https://braiins.com/Bitcoin-Mining-stack-upgrade).

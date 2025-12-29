@@ -6,3 +6,4 @@ wrong_answers:
   - Um sistema de assinatura cega com uma parte central de confiança para prevenção de gastos duplos
 explanation: |
   Satoshi Nakamoto propôs especificamente a utilização de um "servidor de carimbo de data/hora distribuído peer-to-peer para a prova computacional da ordem cronológica das transacções", tal como referido no documento Bitcoin. A palavra-chave é "distribuído", o que significa que não existe um ponto central de controlo. As respostas erradas representam tentativas anteriores falhadas de dinheiro digital que se baseavam em abordagens centralizadas ou semi-centralizadas, o que as tornava vulneráveis à censura e ao fracasso - exatamente os problemas que o Bitcoin foi concebido para resolver através de uma verdadeira descentralização.
+reviewed: false

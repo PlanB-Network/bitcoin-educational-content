@@ -64,7 +64,7 @@ Was viele überrascht: Die Einrichtung ist schneller als ein Social-Media-Accoun
 
 - Blink Wallet herunterladen
  - Suche nach "Blink Wallet" im [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) oder [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), je nach Ihrem Gerät.
- - Du kannst es auch direkt von der [Blink Wallet Website] (https://blink.sv) herunterladen.
+ - Du kannst es auch direkt von der [Blink Wallet Website](https://blink.sv) herunterladen.
 - Eine Wallet erstellen
  - Tippe auf "Neue Wallet erstellen"
  - Akzeptiere die Bedingungen und Konditionen
@@ -81,7 +81,7 @@ Was viele überrascht: Die Einrichtung ist schneller als ein Social-Media-Accoun
 ![image](assets/fr/02.webp)
 
 
-Wenn du die [Blink Wallet] (https://blink.sv/) zum ersten Mal öffnest, wirst du eine übersichtliche Oberfläche sehen. Keine Diagramme, keine blinkenden Zahlen – nur dein Kontostand und einfache Buttons.
+Wenn du die [Blink Wallet](https://blink.sv/) zum ersten Mal öffnest, wirst du eine übersichtliche Oberfläche sehen. Keine Diagramme, keine blinkenden Zahlen – nur dein Kontostand und einfache Buttons.
 
 
 ### Überblick über den Hauptbildschirm

@@ -6,4 +6,4 @@ wrong_answers:
   - Otworzenie nowego kanału Lightning
 explanation: |
   Faktura Lightning jest żądaniem płatności, przesyłanym przez węzeł odbierający do węzła wysyłającego w celu zainicjowania płatności w sieci Lightning.
-reviewed: false
+reviewed: true

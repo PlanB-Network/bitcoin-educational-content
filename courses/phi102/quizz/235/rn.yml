@@ -1,0 +1,8 @@
+question: Dushingiye ku ciyumviro c’ubwigenge, ni itandukaniro irihe ry’ishimikiro rigena ibikorwa vya Leta bikwiye kugumaho canke bikwiye gukurwaho?
+answer: Ibikorwa bikenewe mu gushinga ubutegetsi bw’amategeko, kurinda uburenganzira bw’umuntu ku giti ciwe, no gushitsa amasezerano n’ibikorwa bishobora gukorwa n’abantu ku giti cabo be n’uburyo bwo gucuruza .
+wrong_answers:
+  - Ibikorwa bifasha abatunzi b'abanyacubahiro n'ibikorwa bifasha abakozi n'abanyagihugu bacitse kw'icumu
+  - Ibikorwa bikorwa ku rwego rw'igihugu n'ibikorwa bikwiye kwegerezwa inzego z'ubutegetsi bw'akarere n'iz'intara .
+  - Imirimo ituma generate inyungu za Leta igereranijwe n'imirimo isaba amafaranga Leta ikoresha n'imisoro
+explanation: |
+  Ivyiyumviro vy’ubwigenge biratandukanya cane ibikorwa vya Leta bikenewe (ubutegetsi bw’amategeko, ubutungane, ugushitsa amasezerano, ukurinda uburenganzira bw’umuntu ku giti ciwe) n’ibikorwa vy’inyongera bishobora gukorwa biciye mu bikorwa vy’abikorera ku giti cabo, amashirahamwe y’ubushake, n’uguhuza isoko. Ayandi mahitamwo agaragaza nabi ivy’imbere mu gihugu: si ivy’agateka k’umugwi ahubwo ni ivy’ubushobozi bw’inzego; si ivy’ugushira ubutegetsi hagati n’ugusenyura ubutegetsi ahubwo ni ivy’ibikorwa vya Leta n’ivy’abikorera ku giti cabo; kandi si ku bijanye no kuronka amafaranga ahubwo ni ku bijanye n’uruhara rwa Leta rwemewe n’urutemewe.

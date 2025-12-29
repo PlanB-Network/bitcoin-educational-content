@@ -1,5 +1,5 @@
 ---
-name: Học viện Plan ₿ - Ứng dụng Pears
+name: Plan ₿ Academy - Pears App
 description: Làm thế nào để cài đặt và sử dụng ứng dụng Plan ₿ Academy trên Pears?
 ---
 

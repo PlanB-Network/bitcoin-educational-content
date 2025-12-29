@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het gebruik van afgeleide macro's zoals #[derive(Debug)] in vergelijking met het handmatig implementeren van eigenschappen voor aangepaste typen?
+answer: Ze generate automatisch complete trait-implementaties tijdens het compileren, waardoor boilerplate-code wordt verminderd
+wrong_answers:
+  - Ze bieden betere runtime-prestaties door de aanroepen van traitmethoden tijdens de uitvoering te optimaliseren
+  - Hierdoor kunnen eigenschappen meerdere keren worden geïmplementeerd voor hetzelfde type met verschillende gedragingen
+  - Ze maken een dynamische eigenschapimplementatie mogelijk die tijdens het uitvoeren kan worden aangepast op basis van de toestand van het programma
+explanation: |
+  Derive macro's generate implementaties van eigenschappen automatisch tijdens het compileren, waardoor het niet meer nodig is om herhalende boilerplate code handmatig te schrijven. Wanneer je #[derive(Debug)] gebruikt, genereert de compiler alle benodigde opmaaklogica voor die eigenschap. De foute antwoorden zijn onjuist omdat: derive macro's de runtime prestaties niet verbeteren (ze generate dezelfde code die je handmatig zou schrijven), traits maar één keer per type geïmplementeerd kunnen worden, ongeacht hoe ze geïmplementeerd zijn, en derive macro's generate statische code tijdens het compileren genereren in plaats van runtime aanpassingen mogelijk te maken.

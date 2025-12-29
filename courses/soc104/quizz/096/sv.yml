@@ -1,0 +1,9 @@
+question: Enligt Eric Hughes Cypherpunk Manifesto, vilken är den primära metoden som cypherpunks bör använda för att uppnå sina mål om integritet och frihet?
+answer: Skriva kod för att bygga kryptografiska system som gör politiska skiljelinjer irrelevanta
+wrong_answers:
+  - Lobbyverksamhet för att få regeringar att anta starkare lagar och förordningar om integritetsskydd
+  - Organisera massprotester och civila olydnadskampanjer mot övervakning
+  - Skapa utbildningsprogram för att öka allmänhetens medvetenhet om rätten till digital integritet
+explanation: |
+  Eric Hughes angav uttryckligen "Cypherpunks write code" som sin grundläggande strategi. I manifestet betonas att cypherpunks inte finner tröst i förhoppningar och önskningar, utan aktivt ingriper genom att bygga anonyma system med hjälp av kryptografi.
+  Detta omvandlar abstrakta idéer om frihet till konkret ekonomisk och samhällelig verklighet, vilket gör politiska uppdelningar godtyckliga och onödiga. De andra alternativen representerar traditionell politisk aktivism, vilket strider mot cypherpunkfilosofin om tekniska lösningar framför institutionella reformer.

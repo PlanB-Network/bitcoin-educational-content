@@ -1,0 +1,30 @@
+id: 00cfb59f-0b30-4a37-ab08-f5cb65893f64
+
+name: Arkade
+
+links:
+  website: https://arkadeos.com/
+  twitter: https://x.com/arkade_os
+  github: https://github.com/arkade-os
+
+category: infrastructure
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - offchain
+  - wallets
+  - scalability
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-24
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,0 +1,8 @@
+question: Quando una macro utilizza lo schema `$($x:expr),*` nella sua definizione, cosa comporta questo schema?
+answer: Corrisponde a zero o più espressioni separate da virgole, consentendo elenchi di argomenti di lunghezza variabile
+wrong_answers:
+  - Corrisponde esattamente a un'espressione e ripete l'espansione della macro più volte
+  - Corrisponde a un numero qualsiasi di definizioni di tipi separati da punto e virgola per la generazione del codice
+  - Crea un ciclo che esegue la macro in fase di esecuzione con diversi valori di espressione
+explanation: |
+  Lo schema `$($x:expr),*` usa la sintassi di ripetizione delle macro di Rust, dove il quantificatore `*` significa "zero o più", `$x:expr` cattura ogni espressione e la virgola specifica il separatore tra le espressioni. Questo permette a macro come `vec!` di accettare qualsiasi numero di argomenti: `vec![1, 2, 3]` o `vec![]`. Le altre opzioni non sono corrette perché: lo schema gestisce espressioni multiple e non una sola, corrisponde specificamente a espressioni e non a definizioni di tipi e usa le virgole e non i punti e virgola, e le macro vengono eseguite a tempo di compilazione durante la generazione del codice e non a tempo di esecuzione.

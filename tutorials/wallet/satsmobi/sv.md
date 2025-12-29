@@ -7,12 +7,12 @@ description: Ett Telegram-åtkomligt förvaringsutrymme Wallet
 ![cover](assets/cover.webp)
 
 
-_Den här handledningen skrevs av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Den här handledningen skrevs av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
 
-SatsMobi är en Wallet som fungerar på Telegram, med alla funktioner hos en Lightning Network (custodial) Wallet, plus en rad mycket underhållande funktioner. Den härstammar från en Fork av den numera nedlagda LightningTipBot, och ärvde alla dess funktioner samtidigt som den lade till mer aktuella funktioner, vilket gjorde den mer modern. Liksom LNTipBot omfattar Sats.Mobi också open source-filosofin. Wallet kan konfigureras och hanteras oberoende genom att klona den från detta [arkiv] (https://github.com/massmux/SatsMobiBot).
+SatsMobi är en Wallet som fungerar på Telegram, med alla funktioner hos en Lightning Network (custodial) Wallet, plus en rad mycket underhållande funktioner. Den härstammar från en Fork av den numera nedlagda LightningTipBot, och ärvde alla dess funktioner samtidigt som den lade till mer aktuella funktioner, vilket gjorde den mer modern. Liksom LNTipBot omfattar Sats.Mobi också open source-filosofin. Wallet kan konfigureras och hanteras oberoende genom att klona den från detta [arkiv](https://github.com/massmux/SatsMobiBot).
 
 
 Om du föredrar att använda det helt enkelt kommer att starta en chatt på Telegram att avslöja att det är en bot.
@@ -20,7 +20,7 @@ Om du föredrar att använda det helt enkelt kommer att starta en chatt på Tele
 
 ## Inställningar
 
-I Telegram-sökfältet letar du efter "satsmobi" och länken till [bot] (@SatsMobiBot) visas.
+I Telegram-sökfältet letar du efter "satsmobi" och länken till [bot](@SatsMobiBot) visas.
 
 
 ** Uppmärksamhet**: Om du inte är säker på att du vill söka via Telegram kan du komma åt boten på ett säkert sätt genom att använda följande [länk](https://t.me/SatsMobiBot)
@@ -232,5 +232,5 @@ Om du letar efter Lightning Network-plånböcker som inte är frihetsberövande 
 ### Dokumentation
 
 
-- [Github] (https://github.com/massmux/SatsMobiBot)
+- [Github](https://github.com/massmux/SatsMobiBot)
 - Spellista med [videor](https://www.youtube.com/results?search_query=Sats.mobi) demo

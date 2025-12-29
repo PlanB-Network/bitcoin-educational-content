@@ -146,6 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 55.85
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 37.27
 tags:
   - historical
   - self-sovereignty
@@ -158,6 +163,7 @@ videos:
       - en: kPkKECdZidExA2eKh9KTvm
       - es: np9Lx2wGEKkMLhXa3xK9mj
       - fr: vLFH1aiYZ7UM5iPLhHgJGR
+      - ja: o363iMpQbxaGF7uQ3YMqKy
   - id: d21788a4-3b99-48b7-ac1a-24d5913af893
     youtube:
       - fr: nydRju4JGFU
@@ -165,6 +171,7 @@ videos:
       - en: uyj2kaRZQT8Tr8knMt7qkd
       - es: 374izoSaQCUwPDUsqitqj4
       - fr: t8SJD7qEdqYhYdQF4SiuB6
+      - ja: k3minihQZkvUjuCvNJwEvF
   - id: a18fd72d-34fd-41e5-a7db-770abdde79fa
     youtube:
       - fr: noGDIX0YIgg
@@ -172,6 +179,7 @@ videos:
       - en: wtexS1a5iZjCPJpq537FwG
       - es: 6vp6Jw1mDJ7QDoVD17XdKD
       - fr: v4gFt58hugfXStqbv912wg
+      - ja: iwutFmDfUkRcobpadkSd4z
   - id: 72ae49f1-30b8-4d9c-ba2c-32f157954c88
     youtube:
       - fr: ofyxtspdf_Q
@@ -179,6 +187,7 @@ videos:
       - en: u65ja2BpuUfAWSM9BvLn85
       - es: fgCBxypLfvz6Tg3vjeBNyP
       - fr: hT5S6uQrbPjhRGcPLDSLKc
+      - ja: 2kHdDV8J328RFEpRY4N856
   - id: 01b9125f-6693-49ae-b7c9-07bc10a10c3d
     youtube:
       - fr: NOomo9809vQ
@@ -186,6 +195,7 @@ videos:
       - en: 9MDeDNB5bpnY54PnV75pC9
       - es: eoK5FQSNyMmVg6GnBpvag5
       - fr: iYgbQKNMuczMEVn9gmvuzJ
+      - ja: wAHfbHVH6t9CWqspn6f938
   - id: 5ea889a5-8fc7-43a6-88a4-2404442bf52e
     youtube:
       - fr: RsDov3Dgg9M
@@ -193,6 +203,7 @@ videos:
       - en: hcTFLL3amMpYvhQWesiqK9
       - es: x2xVVpUwVDVCkbQh6RQRm7
       - fr: hs8PnErpjfgmETRPHcBjYR
+      - ja: 2VGSTAL8fYrnTUUqccsKnw
   - id: 08751358-5a23-48ef-9c30-6a810d165c75
     youtube:
       - fr: -ciCkhlkguw
@@ -200,6 +211,7 @@ videos:
       - en: vzRRkyCJxv2tTmGFMXCSXv
       - es: smaFzULwZ2Q8UMN7Rn7vsg
       - fr: aNgM1418MCQCPtR5mL9Kn2
+      - ja: xqtEZm78pXV9pzCjpZSKbg
   - id: ad8c92c1-5960-4607-b277-ce5e61e80b36
     youtube:
       - fr: oP1NwOYsvio
@@ -207,6 +219,7 @@ videos:
       - en: 3syYnhdf3kbRJjnxgMbTbx
       - es: 1inJLHqpx95ZSDo2aMRV2K
       - fr: 31vcXheiPNd4LQW53UxcoB
+      - ja: nkwYSia9RY7seFquggTyRK
   - id: 65ae0d54-7319-4913-b69a-5f5c842e40fa
     youtube:
       - fr: ZmcuMuoZF-o
@@ -214,6 +227,7 @@ videos:
       - en: oFyq4wJPDpawJ2zE5hv49o
       - es: hypJ74xY4fV9NvnwLLXE1T
       - fr: fjuQ26oqsU7wqjJ6JMxC3q
+      - ja: jrKgKG7ejbRdNQvppaaA3x
   - id: c0dd7eb3-cacb-4614-9650-088436a352a8
     youtube:
       - fr: ZKk5ecEjLSE
@@ -221,6 +235,7 @@ videos:
       - en: c1hRgXCqFN3tsNyiTHLpyN
       - es: fFrhciD8f23kix6dkKUpBk
       - fr: rwUTFy4fNVYGH8FCS3769T
+      - ja: sz597ZnZnrLEbUujx34Anw
   - id: 49baeb92-3504-45a0-8e51-fab8ddceb1f2
     youtube:
       - fr: AyQRJB-Zm3c
@@ -228,6 +243,7 @@ videos:
       - en: 4Hqo3hTtyGbnfPMu1B7bVX
       - es: 99Mesbk8YK93CQgnmsDeuV
       - fr: 4k46ZvcR7KvTNpdXnuJqbJ
+      - ja: gMAK8iYmmbtSE7ma5ud4eC
   - id: a0027b3b-a40e-479e-94c8-420d20404966
     youtube:
       - fr: jyYl780a_ew
@@ -235,6 +251,7 @@ videos:
       - en: xbx4YrfaW7DgN7XMSg5q9N
       - es: 16bQbUUW4z8L6ZGzMihTE5
       - fr: s4cG9AQkf3H6Cz6WUapZDX
+      - ja: cr8cfxgJE5xp52qeAWUJz8
   - id: 3d55d74e-195e-48f7-86ef-b4ceeb4ba77e
     youtube:
       - fr: kxdiLoA86eE
@@ -242,6 +259,7 @@ videos:
       - en: s7uPkNehgVaGXnckqfkrkE
       - es: rcSarHNiG94e7sGmeKj1x3
       - fr: jja7H8bqzaqonrbC6oRQWr
+      - ja: ssBidsHEa1VCrebw8W9G3L
   - id: ad63fa9b-569b-460d-b221-5391a4e576d2
     youtube:
       - fr: 2dJ5BkCyfcE
@@ -249,6 +267,7 @@ videos:
       - en: 6ZRn9xEUn3ngenXKjp7Mg6
       - es: sYNuGLhdz5qa4DJc5U3WxN
       - fr: 6D9dT1QrERB9px5EnRagPJ
+      - ja: wsQ1FrRFjnRNauxnYPjMK6
   - id: e6a4005f-e732-48df-961a-d701ef4a777f
     youtube:
       - fr: blWzoEP6bbs
@@ -256,6 +275,7 @@ videos:
       - en: 5gqWM1RGgbjXP3qjGbH84d
       - es: dCcyJNdUy5TNRtjQNCesNH
       - fr: 3y8tRkXiGVkKccGmkPNf7P
+      - ja: jdv3WsvKgP6u3Y2MBJbMDh
   - id: bede59ca-934d-4120-b023-1b7d1d112ad7
     youtube:
       - fr: CDy3iRO8x40
@@ -263,6 +283,7 @@ videos:
       - en: 9jJ7MD1dQy6fUVGweJfP1K
       - es: icTbZ7hTZNWbciXqeX6hGT
       - fr: fB6rT5wi7qoF5VdNzZHaZU
+      - ja: 9fWJFPEUPrPpK1rBjaL4Gc
   - id: 433b758e-648f-4e13-8aba-3ac7d302f8b4
     youtube:
       - fr: 9nkYq0yGd_M
@@ -270,6 +291,7 @@ videos:
       - en: 3TLSu7yG5WbEWYcbhuZf5b
       - es: tHHB4VnuvHzpoK5SKCVSqx
       - fr: 1gXdLUZcTQF4nQj2L25f71
+      - ja: 655kmu2mALX3ZyAoRVJNXX
   - id: acf98b8e-b8df-45d5-86d7-f48a05c19995
     youtube:
       - fr: 1pJnrJ7ycj0
@@ -277,6 +299,7 @@ videos:
       - en: sARSUpTmrwUXay158TzMMu
       - es: 13imMhPSbJmrGDeqU4Gfk4
       - fr: 7cS4Qoah7VRz27G2uh5qRh
+      - ja: q86HTue1wXaY9ZnSdDroaq
   - id: 1356c0eb-806d-4914-8885-0eada01d9580
     youtube:
       - fr: vY2wRCpu2rI
@@ -284,6 +307,7 @@ videos:
       - en: 8qMo5RkC168HJi7b91QAfA
       - es: 23me91zAzfP3ZYcKfrENCn
       - fr: bL7Fu9cfp6vNq2Ra5sdUbD
+      - ja: dQsLqMBf6p6rbJ68dovKZD
   - id: 81dba30f-446b-4baa-9dc6-39aa297f741c
     youtube:
       - fr: we_f0ZQK22Y
@@ -291,6 +315,7 @@ videos:
       - en: 42K8J8j1ETr3qJfYhjZPRa
       - es: s853DatDkLr4LMVBLGYu8R
       - fr: taUcGMV53gxs4vgHXay2Ld
+      - ja: jYrb6hcodtM8oZBeMsJ9YR
   - id: 4c62c361-923f-47f0-be3f-3798bbc37e57
     youtube:
       - fr: fU3sKQIxdhk
@@ -298,6 +323,7 @@ videos:
       - en: 1NECKf4bz5Xhdi6mN8KFzb
       - es: cEaVieAfw3RAcV9BKxgquo
       - fr: azXDnJzLJPMq9kj2hhiNrc
+      - ja: jvnmRbKmz35UZgRofMZMRo
   - id: 0c740114-faff-400a-9359-d4b81766f246
     youtube:
       - fr: jLXzVwx86dc
@@ -305,6 +331,7 @@ videos:
       - en: kDZFdMXMHZc6vEUnbkqkRY
       - es: hvT2ZNTARN6HrzLjfc5mgw
       - fr: eCQPKtKMHSirWta5wvb3qw
+      - ja: 42FYs6u3xYRohCR2Eejd5e
   - id: 4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770
     youtube:
       - fr: gzytblpbVik
@@ -312,6 +339,7 @@ videos:
       - en: 7nc9fk9XhYfJn8DLaFFvnf
       - es: oHUKw91EppwE5wWtoHfV45
       - fr: 1ca9PNYiywrbR6VgGdQRWZ
+      - ja: hA2zXD313UyXCYRP5TjMBs
   - id: 563102d8-ee0c-4c8d-b592-dabb8a395403
     youtube:
       - fr: 7N2p5caOUIM
@@ -319,6 +347,7 @@ videos:
       - en: 9kvFjugZv5GH5CpntKnqTo
       - es: eN26HHXzV5QDDKrDXpkWeU
       - fr: dTJ7h8wHUEujTvAJKs1xbD
+      - ja: sYSFoVfcmbZDDn9WzTDF1f
   - id: 99ab9658-dbc6-4f7e-87b6-a43debfd1969
     youtube:
       - fr: blQKaksJNzY
@@ -326,3 +355,4 @@ videos:
       - en: s52YavFXz5bm5jcBnjqDDe
       - es: cW1hzxSWPfYd6o4LuxaBWe
       - fr: 75aSJxytZvJqhsRRwXjZyW
+      - ja: 1Bzwp3b4obZ5DnZoP5Q7wz

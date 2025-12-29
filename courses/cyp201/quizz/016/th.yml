@@ -1,0 +1,9 @@
+question: อัลกอริธึมลายเซ็นใดที่ถูกนำมาใช้ใน Bitcoin กับ Taproot?
+answer: โครงร่างลายเซ็นชอร์
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  โครงการลายเซ็น Schnorr ได้รับการแนะนำในเดือนพฤศจิกายน 2021 พร้อมกับการอัปเดต Taproot
+reviewed: false

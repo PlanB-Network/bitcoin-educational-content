@@ -1,4 +1,4 @@
-question: Itifaki ya IP hufanya nini ikiwa datagramu inazidi MTU ya mtandao unaopitia?
+question: Protocol ya IP hufanya nini ikiwa datagramu inazidi MTU ya mtandao unaopitia?
 answer: Anaigawanya katika vipande kadhaa
 wrong_answers:
   - Inasimba datagramu nzima kabla ya kutuma
@@ -6,4 +6,4 @@ wrong_answers:
   - Anaibana kabla ya kusambaza
 explanation: |
   Ikiwa saizi ya datagramu inazidi MTU, kipanga njia huigawanya katika pakiti kadhaa ndogo zinazolingana na mtandao unaolengwa.
-reviewed: false
+reviewed: true

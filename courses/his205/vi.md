@@ -405,7 +405,7 @@ Dưới đây, bạn có thể chiêm ngưỡng bản sao của tôi về một 
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/vi/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Tôi cũng có một thứ mà tôi tin là một tấm bia Sumer chính hiệu 
 Những dấu hiệu có hình nhỏ đóng vai trò là chữ ký vào thời điểm mà hầu hết mọi người đều không biết viết, vì chỉ những người chép chữ lành nghề mới có khả năng đó.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/vi/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Bên dưới, bạn có thể thấy hình trụ được đề cập ở trên:
 Do đó, những người chép kinh thời đó đã sử dụng bút stylus hình nêm để in các ký hiệu trên những tấm bảng ướt.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/vi/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Vì vậy, ở đây, thay vì nói rằng đồng tiền vàng sẽ có một s
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/vi/004.webp)
 
 
 Hình trên là một đồng xu Trung Quốc thời Trung Cổ. Đây là một đồng xu đúc có một lỗ vuông ở giữa. Lỗ này được dùng để luồn dây thừng, cho phép xâu các đồng xu lại với nhau thành vòng tay hoặc vòng cổ. Tuy nhiên, chúng không chủ yếu để đeo; chúng chủ yếu được sử dụng cho mục đích kế toán. Chúng có thể được xâu lại với nhau để tạo thành các đơn vị tính toán dưới dạng những sợi dây lớn, với các mảnh được móc vào nhau. Không nhất thiết phải có dấu hiệu cụ thể nào, đôi khi chúng chỉ đơn giản là những vòng tròn bằng đồng.
@@ -1221,7 +1221,7 @@ Tôi thấy thú vị khi đề cập ở đây rằng ở Ai Cập, người ta
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/vi/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Vì chúng ta không thể tách biệt hình dáng của tiền xu với Lydia 
 Bên dưới, bạn có thể thấy một trong những đồng tiền Lydian đầu tiên, với hình ảnh một con sư tử đang săn mồi ở phía trước. Bạn có thể thấy một con dấu hoặc lỗ ở mặt sau, mà một số người tin rằng được dùng để kiểm tra độ tinh khiết của kim loại và đảm bảo nó không chỉ là một lớp bề mặt. Mặc dù đây là một trong những ví dụ sớm nhất, nhưng điều quan trọng cần lưu ý là đồng tiền này là bản sao. Tất cả các đồng tiền vàng và đồng electrum của tôi đều là bản sao hoặc bản tái tạo hiện đại, được thiết kế để tôi không phải tiêu hết tiền tiết kiệm vào bộ sưu tập này.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/vi/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Khi chinh phục Lydia vào năm 546 TCN, người Ba Tư thuộc triều đại
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/vi/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Sau phần về sự ra đời của tiền xu, tôi muốn giới thiệu một
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/vi/008.webp)
 
 
 Sau này, như chúng ta sẽ tìm hiểu trong phần tiếp theo, người Hy Lạp đã cải tiến công nghệ này bằng cách tạo ra những đồng xu tròn được đóng búa ở cả hai mặt. Họ lấy một miếng kim loại quý nhẵn, phẳng, khắc họa tiết mong muốn lên một mặt, rồi dùng búa đóng thủ công để tạo ra đồng xu hoàn chỉnh.
@@ -1413,7 +1413,7 @@ Sau này, như chúng ta sẽ tìm hiểu trong phần tiếp theo, người Hy 
 Công nghệ đúc tiền thủ công từng đồng xu có lẽ đã đóng một vai trò trong việc kiểm soát lạm phát vào thời điểm đó, mặc dù tiền xu thường được pha loãng để tăng sản lượng. Điều này đặc biệt rõ ràng trong thời kỳ La Mã và, ở mức độ thấp hơn, trong một số cuộc chiến tranh thời Hy Lạp. Mặc dù việc đúc tiền xu từng đồng một đã hạn chế năng lực sản xuất hàng loạt của chính quyền, nhưng nó đã góp phần hiệu quả vào việc kiểm soát lạm phát, bất chấp những đợt phá giá đáng kể đã xảy ra. Do đó, sự tiến hóa đã tiến triển từ một cục kim loại được đục lỗ thành một đồng xu tròn được đóng búa.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/vi/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Dưới đây, bạn có thể chiêm ngưỡng một ví dụ nổi bật về 
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/vi/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Khoản tiền thưởng này chỉ đơn giản dựa trên sự tin tưởng r
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/vi/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Dưới đây, bạn có thể thấy một dòng tweet của Stephanie Kelton, 
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/vi/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Và tôi thật may mắn khi có được một bản sao của đồng drachma
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/vi/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Cuộc chạm trán quyết định với người Hy Lạp ở miền Nam nư�
 Trên thực tế, nhiều đồng tiền La Mã từ thời Cộng hòa đều khắc họa những huyền thoại về sự thành lập. Bạn có thể xem đồng tiền của tôi bên dưới: đó là một đồng tiền thật tuyệt đẹp của Vua Tatius. Nó minh họa cho huyền thoại về vụ bắt cóc phụ nữ từ người Sabine. Tatius là vua của vùng này, và huyền thoại về sự thành lập kể về việc người La Mã đã bắt cóc phụ nữ từ người Sabine, một dân tộc sống gần đó. Sau đó, Vua Tatius trở thành đồng vua với Romulus, một trong những người sáng lập Rome.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/vi/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Xung đột quân sự đã ảnh hưởng đáng kể đến sự phát triển
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/vi/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Sau khi Caesar bị ám sát vào năm 44 TCN, Octavian (Augustus) nắm quyền
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/vi/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/vi/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/vi/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/vi/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Phần này cho phép tôi giới thiệu phần cuối cùng trong mục này: 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/vi/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/vi/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Chính Aurelian đã phát minh ra hình thức phá giá này, nhanh hơn nhi�
 Để minh họa trực quan cho sự mất giá cực độ này, tôi đã tìm thấy một số thống kê thú vị về giá ngũ cốc ở Ai Cập từ năm 40 TCN đến thế kỷ thứ 3, kéo dài hơn 300 năm. Dưới đây, bạn có thể thấy một đồng tetradrachma của Hy Lạp trong bộ sưu tập của tôi. Vào thời điểm đó, ở Ai Cập dưới sự chiếm đóng của La Mã vào thế kỷ thứ 3, đồng tiền tương đương là một đồng tetradrachma của Ai Cập. Mệnh giá drachma vẫn còn được sử dụng, và nó tương đương với một denarius.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/vi/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/vi/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Là hiện vật đầu tiên liên quan đến thời kỳ này, tôi xin giớ
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/vi/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Trong khi đó, các cuộc Thập tự chinh đã thúc đẩy thương mại �
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/vi/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Dưới đây bạn có thể thấy bản sao của đồng Florin: một đồ
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/vi/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Sự trở lại của tiền vàng xuất phát từ một bối cảnh cụ th
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/vi/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/vi/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Cũng trong giai đoạn này, châu Âu mới biết đến sự tồn tại c�
 Chúng ta đang nói đến kỹ thuật đúc đồng hồ quả lắc đã được đề cập trước đó trong khóa học. Phương pháp này cho phép sản xuất những đồng xu đồng đều hơn so với đúc bằng búa, và quan trọng là cho phép khắc chữ xung quanh mép đồng xu, như tôi đã trình bày trước đó. Đồng xu dưới đây là một đồng thaler châu Âu từ năm 1793, cho thấy rõ nét chữ viết trên mép đồng xu.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/vi/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Qua nhiều thế kỷ, nhiều đế chế đã kế thừa nhau trở thành t
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/vi/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Với việc chinh phục Tân Thế giới, **Tây Ban Nha** đã trở thành 
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/vi/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Với việc chinh phục Tân Thế giới, **Tây Ban Nha** đã trở thành 
 Điều đặc biệt thú vị là đồng đô la Tây Ban Nha từng là đồng tiền dự trữ quốc tế vào thời điểm đó. Chính quyền Tây Ban Nha cũng phát hành đồng tiền địa phương của riêng mình, đồng maravedi, và thường xuyên điều chỉnh cung tiền thông qua việc thu hồi. Ví dụ, một đồng xu bằng đồng hoặc đồng thau ban đầu có giá trị một maravedi có thể bị thu hồi và đóng dấu "2", sau đó là "4", v.v., có khả năng đạt đến "8". Trong bức ảnh độ phân giải cao, bạn có thể thấy rõ số "8" được đóng dấu trên đồng xu. Phương pháp này thực sự đã làm tăng cung tiền... và tất yếu dẫn đến lạm phát.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/vi/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Sau thời kỳ đỉnh cao của Iberia, **Hà Lan** nổi lên như một cư�
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/vi/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/vi/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Những luật lệ khắt khe hơn đã tìm cách áp đặt luật assignat, 
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/vi/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Khi loại tiền giấy này thay thế tất cả các loại tiền kim loạ
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/vi/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Và như một hiện vật, bạn có thể thấy một số tác phẩm đẹ
 Tiền thân của đồng tiền nổi tiếng này là đồng guinea, hoạt động theo cùng nguyên lý. Đồng guinea được đặt tên theo các kim loại quý chứa trong nó, có nguồn gốc từ vùng Guinea.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/vi/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/vi/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerp là nơi tổ chức các hội chợ thương mại, nơi các thương
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/vi/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Rồi đến cơn hoảng loạn năm 1776. Mọi người đổ xô lên kim t�
 Chúng ta đã chuyển từ đồng florin sang việc thành lập Ngân hàng Anh. Dĩ nhiên, trong giai đoạn chuyển tiếp này đã có Chiến tranh Thế giới thứ nhất và thứ hai, nhưng trước đó, vào năm 1796, những diễn biến cũng đã diễn ra ở bên kia Đại Tây Dương. Năm 1776, Mỹ vẫn là thuộc địa của Anh, và các thuộc địa sử dụng loại tiền giấy này. Dưới đây là tờ hai shilling của Connecticut từ năm 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/vi/040.webp)
 
 
 Trước khi tuyên chiến với Anh và cuối cùng phát hành tiền tệ riêng, các thuộc địa đã sử dụng loại tiền giấy này, cùng với đồng đô la Tây Ban Nha trong các giao dịch tiền mặt. Trên thực tế, thuật ngữ "đô la" vẫn được sử dụng để chỉ đồng đô la Mỹ.
@@ -3767,7 +3767,7 @@ Trước khi tuyên chiến với Anh và cuối cùng phát hành tiền tệ r
 Nếu tôi không nhầm thì vào năm 1792, họ đã thông qua một đạo luật cho phép đúc tiền. Ví dụ, hình bên dưới là đồng đô la Mỹ thời hiện đại.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/vi/041.webp)
 
 
 Vâng, rõ ràng là nó không chỉ có mệnh giá một đô la; nó có giá trị khoảng 30 hoặc 40 đô la, vì nó đại diện cho một ounce bạc. Giá trị của nó dao động dựa trên giá bạc, thường dao động ít nhất là 30 hoặc 40 đô la Mỹ. Ngày nay, tất nhiên, một tờ đô la giấy chỉ giữ nguyên mệnh giá một đô la, nhưng vào thời điểm đó, đồng đô la Mỹ bắt nguồn từ giá trị bạc này.
@@ -3777,7 +3777,7 @@ Bây giờ, hãy nói về Nội chiến Hoa Kỳ. Liên minh miền Nam đã in
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/vi/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Phe đối lập ở phía bắc cũng có đô la. Ngay phía trên, bạn có 
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/vi/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Sau Thế chiến thứ nhất, loạt tiền giấy in cuối cùng luôn có d
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/vi/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Bên dưới bạn có thể thấy chứng chỉ vàng từ năm 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/vi/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Sau khi Sắc lệnh Hành pháp 6102 được ban hành, họ đã tịch thu t
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/vi/046.webp)
 
 
 Khái niệm tiền tệ hợp pháp xuất hiện ở đây, thay thế cho cụm từ "có thể quy đổi thành vàng". Hai tờ tiền có thể trông giống hệt nhau, chỉ khác một vài từ, nhưng sự lừa đảo nằm ở chỗ đồng đô la đã bị phá giá trong giai đoạn này; giá trị của một ounce vàng đã giảm từ 20,67 đô la xuống còn 35 đô la một ounce vào năm 1934. Con số này thể hiện mức phá giá khoảng 40%!
@@ -3869,10 +3869,10 @@ Họ chỉ cần đảm bảo rằng họ có thể thực hiện những khoả
 
 
 
-Để hiểu mối liên hệ giữa tiền tệ và lạm phát, tôi xin giới thiệu một khóa học tôi đang theo học về Plan ₿ Network chuyên sâu về chủ đề này. Bạn sẽ học được sự khác biệt giữa tăng giá, điều chúng ta thường thấy trong cuộc sống, và lạm phát. Chúng không phải là một. Thực tế, khi nói đến lạm phát, chúng ta thường nói đến tăng giá, chứ không phải bản thân lạm phát. Lạm phát là một khái niệm khá chính xác, được giải thích bằng sự gia tăng cung tiền.
+Để hiểu mối liên hệ giữa tiền tệ và lạm phát, tôi xin giới thiệu một khóa học tôi đang theo học về Plan ₿ Academy chuyên sâu về chủ đề này. Bạn sẽ học được sự khác biệt giữa tăng giá, điều chúng ta thường thấy trong cuộc sống, và lạm phát. Chúng không phải là một. Thực tế, khi nói đến lạm phát, chúng ta thường nói đến tăng giá, chứ không phải bản thân lạm phát. Lạm phát là một khái niệm khá chính xác, được giải thích bằng sự gia tăng cung tiền.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Để kết thúc phần này về thế giới tiền tệ, tôi muốn chỉ ra một nguồn tài liệu giúp bạn hiểu rõ hơn về hiện tượng tôi vừa giải thích, chẳng hạn như lạm phát.
 
@@ -3903,7 +3903,7 @@ Với hệ thống này, Law đã liên kết tiền giấy với cổ phiếu c
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/vi/047.webp)
 
 
 

@@ -1,0 +1,8 @@
+question: W kontekście kompaktowych filtrów blokowych (BIP158) dla klientów światła chroniących prywatność, jaki jest krytyczny kompromis, który czyni je skutecznymi dla prywatności wallet?
+answer: Mogą one dawać wyniki fałszywie dodatnie, ale nigdy fałszywie ujemne, umożliwiając klientom pobieranie potencjalnie nieistotnych bloków bez ujawniania konkretnych adresów
+wrong_answers:
+  - Mogą one generować fałszywe negatywy, ale nigdy fałszywe pozytywy, zapewniając klientom pobieranie tylko bloków zawierających ich transakcje
+  - Eliminują one zarówno wyniki fałszywie dodatnie, jak i fałszywie ujemne, wykorzystując deterministyczne filtrowanie oparte na adresach wallet
+  - "Wytwarzają one zarówno fałszywe alarmy, jak i fałszywe alarmy negatywne w równych proporcjach, aby zaciemnić rzeczywiste wzorce transakcji klienta"
+explanation: |
+  Kompaktowe filtry blokowe są zaprojektowane z asymetrycznym modelem błędu: mogą wskazywać, że blok zawiera istotne transakcje, gdy tak nie jest (fałszywie dodatnie), ale nigdy nie przegapią bloku, który faktycznie zawiera istotne transakcje (brak fałszywych negatywów). Ten projekt jest kluczowy, ponieważ fałszywe negatywy oznaczałyby brak rzeczywistych płatności, podczas gdy fałszywe pozytywne wyniki powodują jedynie pobieranie niepotrzebnych bloków. Fałszywie dodatni wskaźnik zapewnia prywatność, zmuszając klientów do pobierania nieistotnych bloków, uniemożliwiając obserwatorom ustalenie, które bloki faktycznie zawierają transakcje klienta.

@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’umubare w’urutonde mu bimenyetso vy’ibikorwa vya Bitcoin?
+answer: Kugira ngo ushoboze gufunga umwanya no gusubirira-n'amahera (RBF)
+wrong_answers:
+  - Kugaragaza urutonde rw'ibintu vyinjijwe bitegerezwa gutunganirizwa n'abacukuzi
+  - Kugira ngo ukingire double-spending mu kurema ikimenyetso kidasanzwe ku vyo winjije vyose
+  - Kugaragaza urugero rw'imbere rw'ibikorwa vyo kubara amafaranga
+explanation: |
+  Umubare w’urutonde mu bimenyetso vy’ibikorwa vya Bitcoin ukora intumbero zibiri nyamukuru: gushirwa mu ngiro igihe c’ibikorwa (bicerezwa igihe ibikorwa bishobora kwemezwa) no gutuma habaho uburyo bwo gusubirira-n’amahera (RBF) (bituma abakoresha bongera amahera ku bikorwa bitaremejwe). Ayandi mahitamwo ntabwo ari meza kuko: ivyinjizwa ntibikeneye gutunganirizwa mu buryo ubwo ari bwo bwose bwihariye n’abacukuzi, uburinzi bwa double-spending bufatwa n’akarorero ka UTXO n’ugusezerana kwa blockchain aho gufatwa n’imibare y’urutonde, kandi ivy’ugucuruza imbere bigenwa n’ibiciro vy’amahera aho gufatwa n’imibare y’urutonde.

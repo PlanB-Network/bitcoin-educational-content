@@ -6,3 +6,4 @@ wrong_answers:
   - mining-hårdvaran tillverkas av olika företag för att förhindra monopolisering av utrustning
 explanation: |
   Miner-decentralisering innebär specifikt att transaktionsbeställning inte kontrolleras av någon enskild enhet eller fast grupp, utan snarare av ett kollektiv av miners som fritt kan ansluta sig eller lämna. Detta skiljer sig från blockvalidering (som relaterar till full node-decentralisering), belöningsdistribution eller hårdvarutillverkning. mining-kollektivets dynamiska natur - där vem som helst kan delta utan tillstånd - är det som gör Bitcoin censurresistent och förhindrar att någon enskild part kontrollerar vilka transaktioner som inkluderas i block.
+reviewed: false

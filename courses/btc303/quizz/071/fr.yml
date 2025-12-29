@@ -6,3 +6,4 @@ wrong_answers:
   - Le mécanisme de consensus consommerait trop d'énergie de calcul pour être pratique
 explanation: |
   La toute première phrase du premier courriel de réponse à l'annonce du livre blanc Bitcoin de Satoshi indiquait spécifiquement "il ne semble pas s'adapter à la taille requise" Cela montre que les problèmes de mise à l'échelle existaient dès les premières discussions publiques sur Bitcoin, avant même le lancement du réseau. Les autres options, bien que potentiellement valables pour un système de crypto-monnaie, n'étaient pas au centre de cette première réponse, qui identifiait immédiatement l'évolutivité comme le principal problème de la proposition de Satoshi.
+reviewed: false

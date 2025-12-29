@@ -6,3 +6,4 @@ wrong_answers:
   - Possono essere richiesti diritti amministrativi, ma solo per le ridistribuzioni commerciali
 explanation: |
   La definizione di open source afferma esplicitamente, alla voce "Libera ridistribuzione", che "La licenza non richiede royalty o altri compensi per tale vendita" Ciò significa che il software open source deve essere liberamente ridistribuibile senza dover pagare diritti o royalties. Le altre opzioni suggeriscono erroneamente che sono consentiti vari tipi di compensi, il che violerebbe il principio fondamentale della libera ridistribuzione che definisce il software open source.
+reviewed: false

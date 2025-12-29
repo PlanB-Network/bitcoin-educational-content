@@ -1,0 +1,8 @@
+question: Hvilken grunnleggende innsikt om Lightning-bruken fikk Breez til å gå fra å bygge en enkelt mobilapp til å utvikle en SDK-arkitektur?
+answer: Økosystemet for mobilapper legger ikke til rette for enkel kommunikasjon mellom applikasjoner, noe som hindrer spesialiserte apper i å utnytte felles Lightning-infrastruktur
+wrong_answers:
+  - Mobile enheter har ikke tilstrekkelig datakraft til å drive Lightning-noder på en pålitelig måte, og krever skybasert infrastruktur for å fungere skikkelig
+  - Overholdelse av regelverk krever at Lightning-funksjonalitet sentraliseres i SDK-er i stedet for å distribueres i individuelle mobilapplikasjoner
+  - Undersøkelser av brukererfaringer viser at forbrukere foretrekker at lynbetalinger administreres av tredjepartstjenester fremfor individuelle apper
+explanation: |
+  Det riktige svaret identifiserer den viktigste arkitektoniske begrensningen som ble oppdaget gjennom den opprinnelige Breez-appen: mobile økosystemer tillater ikke enkel kommunikasjon mellom apper, noe som tvinger utviklere til å bygge alle Lightning-funksjoner inn i enkeltapper i stedet for å lage spesialiserte applikasjoner som deler Lightning-infrastruktur. Denne innsikten førte til SDK-tilnærmingen som gjør det mulig for flere apper å koble seg til samme Lightning-node. De gale svarene fokuserer på tekniske begrensninger, regulatoriske spørsmål eller brukerpreferanser, men dette var ikke den grunnleggende arkitektoniske innsikten som drev det strategiske skiftet til en SDK-modell.

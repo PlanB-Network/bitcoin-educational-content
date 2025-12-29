@@ -1,0 +1,8 @@
+question: Hvorfor endrer moderne ASIC-utvinnere data i Coinbase-transaksjonen i stedet for å stole utelukkende på blokkoverskriftens nonce-felt?
+answer: Nonce-feltet på 4 byte gir ikke nok søkeplass for moderne ASIC-er, så utvinnere modifiserer Coinbase-data for å endre Merkle-roten og skape ekstra søkeplass
+wrong_answers:
+  - Ved å endre Coinbase-transaksjonen kan utvinnere kreve høyere blokkbelønninger enn det standard tilskuddsbeløpet tillater
+  - "Coinbase-transaksjonen må endres for å inkludere utvinnerens digitale signatur for blokkvalideringsformål"
+  - Endring av Coinbase-data reduserer beregningsvanskeligheten ved å la utvinnere omgå standard proof-of-work-kravene
+explanation: |
+  Moderne ASIC-er kan bruke opp nonce-rommet på 4 byte (2^32 muligheter) ekstremt raskt, noe som krever ekstra søkeplass. Ved å endre data i Coinbase-transaksjonen endrer utvinnerne transaksjonens hash, noe som endrer Merkle-roten i blokkoverskriften og effektivt skaper milliarder av ekstra nonce-lignende verdier som skal prøves. Denne teknikken, kalt "extra-nonce", er avgjørende for moderne mining-operasjoner der maskinvaren langt overskrider det opprinnelige nonce-feltets kapasitet.

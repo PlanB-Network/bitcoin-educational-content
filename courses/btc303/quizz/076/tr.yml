@@ -6,3 +6,4 @@ wrong_answers:
   - Bilgilerin geliştiricilere ifşa edilmesini kabul etmeden önce güvenlik açığı keşfi için uygun mali tazminatın belirlenmesi
 explanation: |
   Sorumlu ifşanın temel etik zorluğu şeffaflık ve güvenlik arasındaki hassas dengedir. Araştırmacılar, kötü niyetli istismar için yanlışlıkla bir yol haritası sağlamadan güvenlik açıklarının ele alınmasını sağlamalıdır. Bu, geliştiricilerle dikkatli bir şekilde koordinasyon kurmayı, açıklamaları uygun bir şekilde zamanlamayı ve daha geniş ekosistem etkisini göz önünde bulundurmayı içerir. Diğer seçenekler, potansiyel olarak ilgili olsalar da sorumlu ifşa uygulamalarında ana hatlarıyla belirtilen birincil etik ikilem olmayan finansal veya düzenleyici kaygılara odaklanmaktadır.
+reviewed: false

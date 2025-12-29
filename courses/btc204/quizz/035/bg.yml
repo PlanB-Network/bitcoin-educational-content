@@ -1,0 +1,9 @@
+question: Кой е открил евристиката за повторно използване на адреси?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Виталик Бутерин
+  - Hal Finney
+  - Гавин Андресен
+explanation: |
+  Първият човек, който обсъжда тази концепция, е Satoshi Nakamoto в част 10 на Бялата книга на Bitcoin.
+reviewed: true

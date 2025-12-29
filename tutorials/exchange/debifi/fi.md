@@ -24,11 +24,11 @@ Tuloksena on **Debifi**, joka on nykyaikainen vaihtoehto pankeille. Tavoite on s
 
 
 
-Debifi on Bitcoin:n tukema luotonantoalusta, joka ei ole omaisuudenhoitojärjestelmä, mikä tarkoittaa, että säilytät yksityisten avaimesi hallinnan. Sen avulla käyttäjät voivat vapauttaa Exchange-likviditeetin lukituille bitcoineilleen vakuudeksi. Toisin kuin perinteiset pankkilainat, Debifi käyttää usean allekirjoituksen (3:n 4:stä) omaisuudenhoitojärjestelmää eikä hyväksy vakuuksien kiinnittämistä, mikä takaa suuremman turvallisuuden ja läpinäkyvyyden.
+Debifi on Bitcoin:n tukema luotonantoalusta, joka ei ole omaisuudenhoitojärjestelmä, mikä tarkoittaa, että pidät yksityiset avaimesi hallussa. Sen avulla käyttäjät voivat vapauttaa likviditeettiä vastineeksi lukituista bitcoineistaan, jotka ovat vakuutena. Toisin kuin perinteiset pankkilainat, Debifi käyttää usean allekirjoituksen (3 neljästä) omaisuudenhoitojärjestelmää eikä hyväksy vakuuksien uudelleen panttausta, mikä takaa suuremman turvallisuuden ja läpinäkyvyyden.
 
 
 
-Käytännössä tämä tarkoittaa sitä, että Debifi tai yksittäinen lainanantaja ei voi käyttää BTC:täsi ilman kolmen osapuolen (sinun, lainanantajan ja luotettavan kolmannen osapuolen) suostumusta. Tämä tekee järjestelmästä turvallisemman: jos otat lainaa Debifistä, pidät Ownership:n Bitcoin:sta, kunnes laina on maksettu kokonaan takaisin.
+Käytännössä tämä tarkoittaa sitä, että Debifi tai yksittäinen lainanantaja ei voi käyttää BTC:täsi ilman kolmen osapuolen (sinun, lainanantajan ja luotettavan kolmannen osapuolen) suostumusta. Tämä tekee järjestelmästä turvallisemman: jos otat lainaa Debifistä, pidät Bitcoin:n omistuksessasi, kunnes laina on maksettu kokonaan takaisin.
 
 
 
@@ -36,22 +36,21 @@ Käytännössä tämä tarkoittaa sitä, että Debifi tai yksittäinen lainanant
 
 
 
-Debifi tarjoaa vakuudellisia lainoja, Blockchain-turvaa (moni allekirjoitus, 2FA), valinnanvaraa vakaiden kolikoiden/nesteiden välillä, luottamuksellisuutta ja täydellistä Bitcoin-valvontaa. Debifi "antaa sinun pitää rahasi" (avaimesi, kolikkosi) ja tarjoaa samalla kilpailukykyiset korot ja maailmanlaajuisen pääsyn BTC-vakuudellisiin lainoihin.
+Debifin avulla saat Bitcoin-vakuudellisia lainoja, jotka ovat ylivakuudellisia ja on-chain-vakuudellisia. Varasi pysyvät turvassa monisignatuuristen lompakoiden, 2FA:n ja Bitcoin:n täydellisen hallinnan ansiosta - sinulla on avaimesi, sinä pidät kolikkosi. Lainaa useilla stablecoineilla tai fiat-vaihtoehdoilla kilpailukykyisillä koroilla ja maailmanlaajuisella likviditeetillä.
 
 
 
 Tässä on nopea vertailu Debifi-lainan ja perinteisen pankkilainan välillä:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Ennen kuin näytän sinulle vaiheittain, miten lainaaminen Debifillä onnistuu, on muutama asia, jotka sinun on mielestäni hyvä tietää.
 
@@ -76,19 +75,19 @@ Ennen kuin näytän sinulle vaiheittain, miten lainaaminen Debifillä onnistuu, 
 
 
 
-- Multisig escrow (3/4)** -järjestelmä on suojattu talletusmekanismi, jossa lainanottajan bitcoinit sijoitetaan usean allekirjoituksen Address-järjestelmään. Neljällä (4) osapuolella on kullakin oma avain (lainanottaja, lainanantaja, Debifi, riippumaton kolmas osapuoli). Varojen siirtämiseen tarvitaan vähintään 3 allekirjoitusta neljästä.
+- Multisig escrow (3/4)** -järjestelmä on suojattu talletusmekanismi, jossa lainanottajan bitcoinit sijoitetaan usean allekirjoituksen osoitteeseen. Neljällä (4) osapuolella on kullakin oma avain (lainanottaja, lainanantaja, Debifi, riippumaton kolmas osapuoli). Varojen siirtämiseen tarvitaan vähintään 3 allekirjoitusta neljästä.
 
 
 
 
 
-- Stabiili kolikko** on kryptovaluutta, jonka arvo on sidottu vakaaseen omaisuuserään (esim. Yhdysvaltain dollariin), jolloin vältytään Bitcoin:n aiheuttamalta volatiliteetilta. Esimerkiksi 1 USDC on aina ~1 dollarin arvoinen, koska sen takana on fiat-varantoja.
+- Stabiili kolikko** on kryptovaluutta, jonka arvo on sidottu vakaaseen omaisuuserään (esim. Yhdysvaltain dollariin), jolloin vältetään Bitcoin:n aiheuttama volatiliteetti. Esimerkiksi 1 USDC on aina ~1 dollarin arvoinen, koska sen takana on fiat-varantoja.
 
 
 
 
 
-- Lainan LTV-suhde (Loan-to-Value)** määrittää, kuinka paljon käteistä voit lainata Bitcoin:n vakuudeksi. LTV-suhde = lainan määrä / vakuuden määrä * 100. Esimerkiksi LTV-suhde 50 % tarkoittaa, että lainan arvo on 50 % talletetun Bitcoin:n arvosta.
+- Lainan LTV-suhde (Loan-to-Value)** määrittää, kuinka paljon käteistä voit lainata Bitcoin:n vakuudeksi. LTV-suhde = Lainan määrä / vakuuden määrä * 100. Esimerkiksi LTV-suhde 50 % tarkoittaa, että lainan arvo on 50 % talletetun Bitcoin:n arvosta.
 
 
 
@@ -118,17 +117,11 @@ Ennen kuin voit lainata Debifistä, varmista, että sinulla on seuraavat tavarat
 
 
 
-- Bitcoin Wallet: missä säilytät BTC:täsi (mieluiten muussa kuin säilytyspaikassa, esim. Hardware Wallet tai luotetussa matkapuhelimessa Wallet). Tästä Wallet:stä lähetät Bitcoin-vakuuden Debifiin ja vastaanotat varat.
+- Bitcoin wallet: missä säilytät BTC:täsi (mieluiten muussa kuin säilytyspaikassa, esim. Hardware Wallet tai luotetussa matkapuhelimessa wallet). Tästä wallet:stä lähetät Bitcoin-vakuuden Debifiin ja saat vakuuden takaisin.
 
 
 
-
-
-- Stablecoins tai fiat: Debifi lainaa stablecoineilla ja joillakin fiat-valuutoilla. Tärkeimmät käytetyt stablecoins ovat USDT ja USDC.
-
-
-
-Voit käyttää Aqua, Bitcoin ja Liquid Wallet, joka tukee myös USDT stablecoin hallintaa eri verkoissa. Tai COLDCARD (Mk4 tai Q), joka on tällä hetkellä ainoa Debifin tukema laitteisto.
+Voit käyttää Aqua, Bitcoin ja Liquid wallet, joka tukee myös USDT stablecoinin hallintaa eri verkoissa. Tai COLDCARD (Mk4 tai Q), joka on tällä hetkellä ainoa Debifin tukema laitteisto.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Kahden tekijän todennussovellus: Debifi vaatii Authenticator-koodin jokaista tärkeää toimenpidettä varten. Se on ylimääräinen Layer -turvatekijä. Tässä opetusohjelmassa käytämme Google Authenticatoria. Vaihtoehtoisesti voit käyttää muitakin sopivaksi katsomallasi tavalla.
+- Kahden tekijän todennussovellus: Debifi vaatii Authenticator-koodin jokaista tärkeää toimenpidettä varten. Se on ylimääräinen turvakerros. Tässä ohjeessa käytämme Google Authenticatoria. Vaihtoehtoisesti voit käyttää muitakin sopivaksi katsomallasi tavalla.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi-sivusto ja mobiilisovellus: Debifi on sekä verkkosivusto että mobiilisovellus, ja ne toimivat yhdessä. Mobiilisovelluksesta tulee Wallet, joka tallentaa yksityisen avaimesi ja hallinnoi sopimusten allekirjoittamista. Lisäksi sinun on käytettävä verkkosivustoa sopimusten sitomiseen (suuri Interface antaa sinulle yleiskuvan lainasopimuksista ja niiden yksityiskohdista).
+- Debifi-sivusto ja mobiilisovellus: Debifi on sekä verkkosivusto että mobiilisovellus, ja ne toimivat yhdessä. Mobiilisovelluksesta tulee wallet, joka tallentaa yksityisen avaimesi ja hallinnoi sopimusten allekirjoittamista. Lisäksi sinun on käytettävä verkkosivustoa sopimusten sitomiseen (suuri Interface antaa sinulle yleiskuvan lainasopimuksista ja niiden yksityiskohdista).
 
 
 
@@ -200,7 +193,7 @@ Kun olet sovelluksessa, napsauta **Asetukset**-valikkoa.
 
 
 
-Klikkaa sitten **Login or create account** luodaksesi tilin sähköpostiosoitteellasi Address.
+Klikkaa sitten **Login or create account** luodaksesi tilin sähköpostiosoitteellasi.
 
 
 
@@ -360,7 +353,7 @@ Bitcoin-lainaeriä on yleensä kolme (3):
 
 
 
-- Konservatiivinen (20-40 % LTV), joka vastaa matalariskistä lainaa, on ihanteellinen, kun halutaan maksimoida varmuus Bitcoin-hintojen heilahteluja vastaan;
+- Konservatiivinen (30-40 % LTV), joka vastaa matalariskistä lainaa, on ihanteellinen, kun halutaan maksimoida varmuus Bitcoin-hintojen heilahteluja vastaan;
 
 
 
@@ -372,7 +365,7 @@ Bitcoin-lainaeriä on yleensä kolme (3):
 
 
 
-- Aggressiivinen (70 - 85 % LTV), joka tarjoaa enemmän likviditeettiä, mutta johon liittyy erittäin suuri likviditeettiriski markkinoiden laskusuhdanteissa. Bitcoin-markkinaolosuhteiden aktiivinen seuranta on välttämätöntä, kun valitaan tämä etuoikeusluokka.
+- Aggressiivinen (70 % LTV), joka tarjoaa enemmän likviditeettiä, mutta johon liittyy erittäin suuri likvidaatioriski markkinoiden laskusuhdanteiden aikana. Bitcoin:n markkinaolosuhteiden aktiivinen seuranta on välttämätöntä, kun valitaan tämä etuoikeusluokka.
 
 
 
@@ -388,7 +381,7 @@ Korkojen määrittäminen riippuu yleensä valitsemastasi LTV:stä, laina-ajan p
 
 
 
-Lainojen takaisinmaksuaikataulut ovat usein joustavia ja räätälöityjä käyttäjän tarpeiden mukaan. Maksut voidaan suorittaa milloin tahansa, kunhan vakuusvaatimukset täyttyvät. Lainan maksut ovat yleensä korkoja lainan keston ajalta, ja pääoma erääntyy eräpäivänä.
+Takaisinmaksuaikataulut ovat joustavia ja suunniteltu lainanottajan tarpeiden mukaan. Lainat voidaan maksaa takaisin kokonaan tai osittain milloin tahansa ilman lisämaksuja, jos vakuusvaatimukset täyttyvät. Laina-aikana korot maksetaan yleensä määräajoin, ja pääoma maksetaan eräpäivänä.
 
 
 
@@ -396,7 +389,16 @@ Lainojen takaisinmaksuaikataulut ovat usein joustavia ja räätälöityjä käyt
 
 
 
-Koska Bitcoin:n hinta on epävakaa, vastuullinen laina sisältää sopimuksessa erityisiä marginaalipyyntöjä koskevia sääntöjä. Tämän politiikan ansiosta lainanottajalle voidaan ilmoittaa, että hänen on joko annettava lisävakuuksia tai maksettava osa lainasta takaisin.
+Bitcoin:n volatiliteetin vuoksi lainoihin sisältyy selkeästi määritelty marginaalipyyntöpolitiikka. Marginaalipakko syntyy, kun LTV nousee vakuuden arvon laskun vuoksi. Debifi ilmoittaa asiasta lainanottajalle sähköpostitse ja sovelluksen kautta, jolloin tämä voi lisätä vakuuksia tai maksaa osan lainasta takaisin.
+
+
+75 % LTV - Ensimmäinen hälytys
+
+80% LTV - Toinen hälytys
+
+85% LTV - Lopullinen varoitus
+
+90 % LTV - Vakuus realisoidaan
 
 
 
@@ -433,7 +435,7 @@ Näet :
 6. Tarvitsemasi määrä on ilmoitettava tarkasti (määrän on oltava vaihteluvälin sisällä, ks. kohta 2);
 
 
-7. Ethereum USDC Address, jota käytetään varojen vastaanottamiseen, on annettava.
+7. Ethereum USDC -osoite, jota käytetään varojen vastaanottamiseen, on annettava.
 
 
 
@@ -453,7 +455,7 @@ Palaa mobiilisovelluksen kohtaan ''**Provide public key**''.
 
 
 
-Paina '' **Provide public key** '' ja valitse sitten julkisen avaimen lähde. Lainanantajan on myös annettava julkinen avain Supply.
+Paina '' **Provide public key** '' ja valitse sitten julkisen avaimen lähde. Myös lainanantajan on toimitettava julkinen avain.
 
 
 
@@ -473,7 +475,7 @@ Paina '' **Provide public key** '' ja valitse sitten julkisen avaimen lähde. La
 
 
 
-Seuraava vaihe on Contract:n allekirjoittaminen. Paina edelleen mobiilisovelluksessa '' **Sign Contract** ''
+Seuraava vaihe on sopimuksen allekirjoittaminen. Paina edelleen mobiilisovelluksessa '' **Sign Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Seuraava vaihe on Contract:n allekirjoittaminen. Paina edelleen mobiilisovelluks
 
 
 
-Kun olet allekirjoittanut Contract:n, Debifi luo automaattisesti Contract:stä ainutlaatuisen Bitcoin Address:n (escrow 3-sur-4) monisignaattorin. Niin kauan kuin bitcoinisi ovat escrow-talletuksessa, niitä ei voi käyttää muualla.
+Kun olet allekirjoittanut sopimuksen, Debifi luo sopimuksellesi automaattisesti yksilöllisen Bitcoin-osoitteen (escrow 3-sur-4), jossa on useita allekirjoituksia. Niin kauan kuin bitcoinisi ovat escrow-sopimuksessa, niitä ei voi käyttää muualla.
 
 
 
@@ -493,7 +495,7 @@ Kun olet allekirjoittanut Contract:n, Debifi luo automaattisesti Contract:stä a
 
 
 
-Viimeinen vaihe on Bitcoin-vakuuden tallettaminen monen allekirjoituksen omaisuudenhoitojärjestelmään. Debifi näyttää sitten sinulle Address:n (B) ja BTC:n (A) määrän, joka lähetetään (vakuus + provisio).
+Viimeinen vaihe on Bitcoin-vakuuden tallettaminen monen allekirjoituksen omaisuudenhoitojärjestelmään. Debifi näyttää sinulle escrow-osoitteen (B) ja lähetettävän BTC:n määrän (A) (vakuus + provisio).
 
 
 
@@ -509,7 +511,7 @@ Saat tämän ilmoituksen myös mobiilisovellukseesi.
 
 
 
-Heti kun talletuksesi on vahvistettu, lainanantaja maksaa lainasumman ilmoittamallesi vastaanottavalle Address:lle, jolloin transaktio on valmis ja saat tarvitsemasi varat käyttöösi.
+Heti kun talletuksesi on vahvistettu, lainanantaja maksaa lainasumman ilmoittamaasi vastaanotto-osoitteeseen, jolloin tapahtuma on valmis ja saat tarvitsemasi varat käyttöösi.
 
 
 
@@ -517,7 +519,7 @@ Tämän jälkeen saat Debifiltä ilmoituksen, jossa sinua pyydetään maksamaan 
 
 
 
-Kun Contract on luotu, lainamaksut vähennetään automaattisesti lainanottajan usean allekirjoituksen Address:een tallettamasta vakuudesta.
+Todellisuudessa, kun sopimus on luotu, lainamaksut vähennetään automaattisesti vakuuksista, jotka lainanottaja on tallettanut usean allekirjoituksen omaisuudenhoito-osoitteeseen.
 
 
 
@@ -529,7 +531,7 @@ Sinun tarvitsee vain allekirjoittaa maksutapahtuma, jonka perusteella Debifi voi
 
 
 
-Sovellettavat lainapalkkiot ovat 1,5-2 prosenttia Contract:n voimassaoloajasta riippuen. Alusta veloittaa palkkioita vain Bitcoin:ssä.
+Sovellettavat lainauspalkkiot ovat 1,5-2 prosenttia sopimuskaudesta riippuen. Alusta veloittaa palkkiot vain Bitcoin:nä.
 
 
 
@@ -537,25 +539,23 @@ Sovellettavat lainapalkkiot ovat 1,5-2 prosenttia Contract:n voimassaoloajasta r
 
 
 
-Kun laina on käynnissä, Debifi antaa sinun seurata Contract:ta reaaliajassa. Interface:ssä näet :
-
-
+Kun laina on aktiivinen, Debifi antaa sinulle mahdollisuuden seurata sopimustasi reaaliajassa. Käyttöliittymästä löydät:
 
 
 
 - Lainattu määrä ja jäljellä oleva laina-aika.
-- Nykyinen LTV-suhde (laina-arvo): LTV: LTV nousee, jos BTC:n hinta laskee (koska vakuutesi arvo laskee). Varoituskynnys (yleensä 90 %) on asetettu. Jos LTV-arvosi ylittää tämän kynnysarvon, vaarana on pakkoselvitys. Debifi antaa sinulle 24 tuntia aikaa reagoida.
-
-
-
-Lainanottajille ilmoitetaan hinnanalennuksesta. Tämä tieto on saatavilla myös Contract:n yhteenvetosivulla. Palauttaakseen lainan alkuperäisen laina-arvosuhteen lainanottajan on :
+- Nykyinen LTV-suhde (Loan-to-Value), joka nousee, kun BTC:n hinta laskee ja vakuuden arvo laskee.
 
 
 
 
+Lainanottajille ilmoitetaan, kun vakuuden arvo laskee, ja tämä tieto näkyy myös sopimuksen yhteenvetosivulla. Palauttaakseen alkuperäisen lainan ja arvon välisen suhteen lainanottajan on joko:
 
-- tai tallettaa lisätakuun ;
+
+
+- tallettaa lisävakuuksia;
 - maksaa velka kokonaan tai osittain takaisin.
+
 
 
 
@@ -577,21 +577,21 @@ Debifissä :
 
 
 
-- Siirry Contract:ään ja napsauta **Tehdä takaisinmaksu**. Kirjoita erääntyvä kokonaismäärä (pääoma + korko).
+- Siirry sopimukseesi ja napsauta **Tehdä takaisinmaksu**. Kirjoita erääntyvä kokonaismäärä (pääoma + korko).
 
 
 
 
 
-- Lähetä vakiokolikot Wallet:stä lainanantajan Address:een ja palaa vahvistamaan takaisinmaksu alustalla kopioimalla takaisinmaksutapahtuman **ID** sille varattuun välilehteen. Tämä helpottaa Debifin tarkastuksia.
+- Lähetä vakiokolikot wallet:sta lainanantajan ilmoittamaan osoitteeseen ja palaa vahvistamaan takaisinmaksu alustalla kopioimalla takaisinmaksutapahtuman **ID** sille varattuun välilehteen. Tämä helpottaa Debifin tarkastuksia.
 
 
 
-Kun lainanantaja (ja sinä) on vahvistanut maksun, Debifi pyytää sinua **palauttamaan**. Bitcoin-vakuus vapautetaan ja voit palauttaa sen escrow-tililtä omaan salkkuusi.  Älä unohda kerätä kaikkia Bitcoinejasi.
+Kun lainanantaja (ja sinä) on vahvistanut maksun, Debifi pyytää sinua **palauttamaan**. Bitcoin-vakuus vapautuu ja voit palauttaa sen escrow-tililtä omaan wallet:ään.  Älä unohda kerätä kaikkia Bitcoinejasi.
 
 
 
-Heti kun saat bitcoinit, laina Contract muuttuu muotoon **Contract valmis**.
+Heti kun saat bitcoinit, lainasopimus muuttuu muotoon **Contract valmis**.
 
 
 
@@ -604,15 +604,15 @@ Onnittelut! Olet saattanut prosessin päätökseen.
 
 
 
-Olivatpa tavoitteesi tai motiivisi mitkä tahansa - hankkeen rahoittaminen, kiinteistön hankkiminen, bitcoinien ostaminen jne. - ole äärimmäisen varovainen ennen kuin otat lainaa, jonka vakuutena on Bitcoin. - ole erittäin varovainen ennen kuin otat lainaa, jonka takana on Bitcoin. Harkitse päätöstäsi huolellisesti, sillä Bitcoin on edelleen epävakaa omaisuuserä. **Hinnan jyrkkä lasku voi johtaa bitcoinien pakkomyyntiin**.
+Olivatpa tavoitteesi tai motiivisi mikä tahansa - hankkeen rahoittaminen, kiinteistön hankkiminen, bitcoinien ostaminen jne. - ole hyvin varovainen ennen kuin otat lainaa, jonka vakuutena on Bitcoin. Käytä aikaa päätöksesi huolelliseen arviointiin, sillä Bitcoin on edelleen epävakaa omaisuuserä. **Hinnan jyrkkä lasku voi johtaa bitcoinien pakkomyyntiin.** **
 
 
 
-Seuraa lainan ja vakuuksien (LTV) suhdetta. Aseta hälytyksiä (BTC-hinta, LTV), jos mahdollista. Älä anna suhdelukusi lähestyä 90 prosenttia. Jos olet epävarma, lisää vakuuksia tai maksa ennenaikaisesti takaisin.
+Seuraa lainan ja vakuuksien välistä suhdetta (LTV). Aseta hälytyksiä (BTC-hinta, LTV), jos mahdollista. Älä anna suhdelukusi lähestyä 90 prosenttia. Jos olet epävarma, lisää vakuuksia tai maksa ennenaikaisesti takaisin.
 
 
 
-Hallitse avaimia. Säilytä BTC:si turvallisessa Wallet:ssa (mieluiten laitteistossa tai hyvämaineisessa Wallet:ssa). Älä aseta PIN-koodia, joka liittyy tärkeään päivämäärään elämässäsi, äläkä koskaan jaa palautuslausetta. Debifissä generate yksityinen avaimesi on sovelluksessa - Debifi ei tiedä sitä.
+Hallitse avaimia. Säilytä BTC:si turvallisessa wallet:ssa (mieluiten laitteistossa tai hyvämaineisessa wallet:ssa). Älä aseta PIN-koodia, joka liittyy tärkeään päivämäärään elämässäsi, äläkä koskaan jaa palautuslausetta. Debifissä generate yksityinen avaimesi on sovelluksessa - Debifi ei tiedä sitä.
 
 
 
@@ -636,7 +636,7 @@ Tiedät nyt, miten Debifi-alustaa käytetään lainan hankkimiseen.
 
 
 
-Suosittelen osallistumaan tälle kurssille, jossa tarkastellaan syvällisesti Bitcoin:aa, Stablecoineja ja niiden vaikutusta suvereniteettiin.
+Suosittelen, että osallistut tälle kurssille, jossa tarkastellaan perusteellisesti Bitcoin:tä, Stablecoineja ja niiden vaikutusta suvereniteettiin.
 
 
 

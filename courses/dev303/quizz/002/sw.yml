@@ -1,0 +1,8 @@
+question: Ni nini hutokea unapotangaza kigezo katika Rust kwa kutumia 'let x = 5' bila maneno muhimu ya ziada?
+answer: Kigezo huwa hakibadiliki na hakiwezi kubadilishwa baada ya mgawo
+wrong_answers:
+  - Kigezo kinaweza kubadilika na kinaweza kubadilishwa wakati wowote
+  - Kigezo hiki huboreshwa kiotomatiki kwa ajili ya miundo ya kutolewa pekee
+  - Kigezo kinahitaji maelezo ya aina dhahiri ili kukusanya kwa ufanisi
+explanation: |
+  Katika Rust, vigezo havibadiliki kwa chaguo-msingi vinapotangazwa na 'let'. Hii ina maana kwamba ukishaweka thamani kwenye kigezo kama 'let x = 5', huwezi kubadilisha thamani hiyo baadaye katika programu. Ukijaribu kuibadilisha, mkusanyaji atazalisha hitilafu. Kutobadilika huku kwa chaguo-msingi ni kipengele muhimu cha usalama kinachozuia hitilafu nyingi za kawaida za programu zinazosababishwa na mabadiliko yasiyotarajiwa ya hali. Ili kufanya kigezo kibadilike, lazima utumie neno muhimu la 'mut' kama 'let mut x = 5'.

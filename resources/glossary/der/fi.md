@@ -2,7 +2,7 @@
 term: DER
 ---
 
-Lyhenne sanoista *Distinguished Encoding Rules*. Se on tiukka osajoukko ASN.1-koodaussäännöistä, jotka on määritelty eritelmässä [ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) ja joita käytetään minkä tahansa tietotyypin koodaamiseen binäärisekvenssiksi. DER:ää käytetään pääasiassa tietyillä aloilla, kuten salauksessa, jossa tiedot on koodattava standardoidulla, ennustettavalla tavalla.
+Lyhenne sanoista *Distinguished Encoding Rules*. Se on tiukka osajoukko ASN.1-koodaussäännöistä, jotka on määritelty eritelmässä [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) ja joita käytetään minkä tahansa tietotyypin koodaamiseen binäärisekvenssiksi. DER:ää käytetään pääasiassa tietyillä aloilla, kuten salauksessa, jossa tiedot on koodattava standardoidulla, ennustettavalla tavalla.
 
 
 Bitcoin:ssä ECDSA-allekirjoitukset on koodattu DER-muodossa. Ne koostuvat kahdesta 32 tavun koodatusta numerosta (`r`, `s`). Allekirjoitusmuoto koostuu seuraavista Elements (71 tavua):

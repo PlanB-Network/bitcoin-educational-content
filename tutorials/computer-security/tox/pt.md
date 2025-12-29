@@ -50,7 +50,7 @@ A tecnologia que o protocolo Tox utiliza é semelhante à das redes peer-to-peer
 
 
 
-Pode utilizar o protocolo Tox através de um cliente de mensagens instantâneas que pode ser descarregado a partir do [sítio Tox Chat] (https://tox.chat).
+Pode utilizar o protocolo Tox através de um cliente de mensagens instantâneas que pode ser descarregado a partir do [sítio Tox Chat](https://tox.chat).
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Formalne dowody bezpieczeństwa ujawniłyby luki w zabezpieczeniach przeciwnikom, więc są one utrzymywane w tajemnicy przez deweloperów rdzenia
 explanation: |
   Jak wyjaśnia Jameson Lopp, Bitcoin został zbudowany bez formalnie zdefiniowanej specyfikacji lub modelu bezpieczeństwa ze względu na jego nieodłączną złożoność i mglistą naturę. W przeciwieństwie do prostszych systemów, takich jak protokoły podpisywania, które mają jasne założenia dotyczące bezpieczeństwa, Bitcoin obejmuje wiele współdziałających ze sobą komponentów, w tym kryptografię, ekonomię, teorię gier i ludzkie zachowanie. Ta złożoność uniemożliwia stworzenie formalnych matematycznych dowodów bezpieczeństwa, mimo że system demonstruje praktyczne bezpieczeństwo poprzez działanie w świecie rzeczywistym.
+reviewed: false

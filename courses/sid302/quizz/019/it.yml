@@ -1,0 +1,8 @@
+question: Cosa distingue gli asset regolamentati da quelli non regolamentati nel sistema di asset nativi di Liquid?
+answer: Le attività regolamentate richiedono una seconda firma da parte di un server di autorizzazione prima di poter essere spostate, consentendo la conformità KYC/AML
+wrong_answers:
+  - Gli asset regolamentati utilizzano contratti intelligenti, mentre gli asset non regolamentati utilizzano semplici chiamate RPC per l'emissione
+  - Gli asset regolamentati sono sostenuti da riserve Bitcoin, mentre gli asset non regolamentati esistono solo sulla sidechain
+  - Gli asset regolamentati richiedono l'approvazione di un funzionario per essere creati, mentre gli asset non regolamentati possono essere emessi senza autorizzazione
+explanation: |
+  Nell'architettura di Liquid, sia gli asset regolamentati che quelli non regolamentati possono essere emessi senza autorizzazione utilizzando semplici chiamate RPC senza smart contract. La differenza fondamentale sta nel loro movimento: gli asset regolamentati utilizzano la piattaforma di gestione degli asset (AMP) di Blockstream per imporre la conformità, richiedendo una firma di autorizzazione aggiuntiva prima dei trasferimenti, mentre gli asset non regolamentati possono muoversi liberamente senza tali restrizioni.

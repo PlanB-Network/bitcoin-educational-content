@@ -45,7 +45,7 @@ Som standard stöder KeePass inte användningen av webbläsartillägg som Bitwar
 KeePass är utformat för att vara både lättviktigt och enkelt att använda, samtidigt som det följer höga säkerhetsstandarder. Programvaran krypterar din databas lokalt för optimalt skydd av dina inloggningsuppgifter. KeePass är också den enda lösenordshanteraren som validerats av ANSSI (den franska cybersäkerhetsmyndigheten).
 
 
-En av de största fördelarna med KeePass är dess flexibilitet. Det kan användas på många olika sätt, t.ex. på ett USB-minne utan att behöva installeras på en dator. Tack vare sin [plugin-miljö] (https://keepass.info/plugins.html) kan KeePass dessutom anpassas för att uppfylla mer specifika behov.
+En av de största fördelarna med KeePass är dess flexibilitet. Det kan användas på många olika sätt, t.ex. på ett USB-minne utan att behöva installeras på en dator. Tack vare sin [plugin-miljö](https://keepass.info/plugins.html) kan KeePass dessutom anpassas för att uppfylla mer specifika behov.
 
 ![KEEPASS](assets/notext/01.webp)
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Säkerhetskostnaderna övergår från att betalas av utvecklare genom kodunderhåll till att betalas av användare genom nätverksdeltagande
 explanation: |
   Kapitlet förklarar tydligt att innehavarna idag betalar för Bitcoin:s säkerhet genom monetär inflation (nya mynt skapas via blocksubvention), men i framtiden när blocksubventionen närmar sig noll kommer spenderarna att betala för säkerheten genom transaktionsavgifter. Detta innebär ett grundläggande ekonomiskt skifte i vem som bär kostnaden för att upprätthålla nätverkssäkerheten, från en modell där skapandet av nya mynt finansierar mining till en modell där transaktionsavgifterna måste ge tillräckligt incitament för miners att säkra nätverket.
+reviewed: false

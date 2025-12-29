@@ -1,5 +1,5 @@
 ---
-name: 도장
+name: Dojo
 description: 프라이버시 및 자율성을 위한 오픈소스 Bitcoin 노드
 ---
 

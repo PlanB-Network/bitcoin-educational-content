@@ -1,0 +1,9 @@
+question: ซอฟต์แวร์โอเพนซอร์สใดที่ปรับให้เข้ากับระบบการชำระเงิน Professional Bitcoin?
+answer: BTC Pay Server
+wrong_answers:
+  - Swiss Bitcoin Pay
+  - Open Node
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server ถูกเน้นในหลักสูตรว่าเป็นโซลูชันโอเพ่นซอร์สหลักสำหรับการตั้งค่ามืออาชีพเนื่องจากตัวเลือกการผสานรวมที่หลากหลายและการควบคุมที่มีอยู่
+reviewed: true

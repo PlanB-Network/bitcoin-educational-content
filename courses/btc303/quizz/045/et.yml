@@ -6,3 +6,4 @@ wrong_answers:
   - Kõva fork aktiveerimine kohe, andmata kasutajatele piisavalt aega oma sõlme tarkvara uuendamiseks
 explanation: |
   Eric Lombrozo analüüsi kohaselt oli Satoshi problemaatiline lähenemine konsensust rikkuva muudatuse varjamine commit'is eksitava kirjeldusega, milles mainiti ainult "reverted makefile.unix wx-config version 0.3.6" ilma igasuguse viita muutustele. Sellist tava, et kriitilisi konsensuslikke muudatusi peidetakse süütu välimusega kommitites, peetakse tänapäevaste standardite kohaselt vastuvõetamatuks, kus läbipaistvus ja selge kommunikatsioon konsensuslikest muudatustest on Bitcoin arenduse põhiprintsiibideks.
+reviewed: false

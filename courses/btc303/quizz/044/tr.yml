@@ -6,3 +6,4 @@ wrong_answers:
   - Madenciler ve kullanıcılar uygulama detayları konusunda anlaşmazlığa düştüğü için yükseltme kalıcı bir zincir bölünmesine neden oldu
 explanation: |
   BIP66 olayı, madenciler tarafından etkinleştirilen soft fork'lardaki kritik bir kusuru ortaya çıkardı: hazır olunduğuna dair sinyal vermek, gerçek doğrulamayı garanti etmiyor. Madencilerin %95'i yükseltmeye hazır olduklarını belirtmelerine rağmen, yaklaşık yarısı yeni kuralları düzgün bir şekilde doğrulamadı ve yanlışlıkla geçersiz bir blokta madencilik yaptı. Bu durum, hash gücü sinyalinin yanıltıcı olabileceğini ve doğru uygulamayı garanti etmediğini göstermiştir ki bu da Shaolinfry'nin Kullanıcı Aktif Soft Çatallarını daha güvenilir bir yükseltme mekanizması olarak önermek için kullandığı temel argümanlardan biriydi.
+reviewed: false

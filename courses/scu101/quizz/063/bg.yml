@@ -1,0 +1,9 @@
+question: Кой сертификат е признат в цял свят в областта на киберсигурността?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  Сертификатът CISSP е един от международно признатите в областта на киберсигурността.
+reviewed: false

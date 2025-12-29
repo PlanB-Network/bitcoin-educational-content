@@ -1,0 +1,8 @@
+question: När en Bitcoin wallet skannar block efter inkommande betalningar, varför föredras nedladdning av hela block framför att begära enskilda transaktioner från nätverkskollegor?
+answer: Nedladdning av hela block ger bättre integritetsskydd genom att inte avslöja vilka specifika transaktioner eller adresser wallet är intresserad av att övervaka
+wrong_answers:
+  - Nedladdning av hela block är mer beräkningseffektivt eftersom det krävs färre kryptografiska hashoperationer för att verifiera transaktionens äkthet
+  - Nedladdning av hela block ger snabbare synkronisering eftersom peers kan skicka komprimerad blockdata i stället för enskilda transaktionssvar
+  - Nedladdning av hela block ger bättre säkerhet eftersom det gör det möjligt för wallet att verifiera hela proof-of-work för varje transaktion
+explanation: |
+  Sekretess är den viktigaste fördelen med blockbaserad hämtning. När en wallet begär specifika transaktioner läcker den starka signaler om användaraktivitet och avslöjar vilka adresser som tillhör den wallet. Nedladdning av hela block maskerar wallet:s faktiska intressen bland alla blocktransaktioner. De felaktiga svaren fokuserar på effektivitet, hastighet eller säkerhetsfördelar som inte är den primära motivationen - enskilda transaktionsförfrågningar kan teoretiskt sett vara lika säkra eller effektiva, men de äventyrar i grunden integriteten genom att avslöja wallet:s övervakningsmönster för nätverkskamrater.

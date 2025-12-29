@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Aspekt       | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Art           | Einzigartiger Dienst | Multi-Provider-Aggregator             |
+| Anbieter      | Nur Boltz            | Boltz, ZEUS, Eldamar, Middle Way     |
+| Wettbewerb    | Feste Gebühren       | Freier Wettbewerb                    |
+| Schnittstelle | boltz.exchange       | swapmarket.github.io (selbst hostbar) |
+| Sicherheit    | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **SwapMarket-Vorteile**: Preiswettbewerb, Diversifizierung der Backend-Instanzen, Echtzeitvergleich.
 
@@ -639,7 +639,7 @@ Der Wettbewerb zwischen den Anbietern verbessert die Kurse und vervielfacht die 
 
 - [SwapMarket - Webanwendung](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technische Dokumentation] (https://docs.boltz.exchange/)
+- [Technische Dokumentation](https://docs.boltz.exchange/)
 - [Leitfaden zur Selbstverwaltung](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - 「社會工程攻擊；這種攻擊無效，因為 Bitcoin 開發人員使用正式的驗證方法來防止操縱」。
 explanation: |
   Sybil 攻擊是指一個實體控制多個節點，偽裝成許多獨立的實體。但是，這種攻擊對 Bitcoin 無效，因為該網路並不依賴計算節點或網路參與者之間的民主投票。相反地，Bitcoin 使用 proof-of-work 共識，由運算能力 (hashpower) 來決定網路決策，而不是節點數量。這使得攻擊者無法僅藉由運行許多沒有相對應計算資源的節點來獲得影響力。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Administrativne naknade mogu biti potrebne, ali samo za komercijalne redistribucije.
 explanation: |
   Definicija otvorenog koda eksplicitno navodi pod 'Slobodna redistribucija' da 'Licenca ne sme zahtevati tantijeme ili druge naknade za takvu prodaju.' To znači da softver otvorenog koda mora biti slobodno redistribuiran bez obaveznih naknada ili tantijema. Druge opcije pogrešno sugerišu da su različite vrste naknada dozvoljene, što bi kršilo osnovni princip slobodne redistribucije koji definiše softver otvorenog koda.
+reviewed: false

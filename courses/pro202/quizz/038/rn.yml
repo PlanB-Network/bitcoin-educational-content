@@ -1,0 +1,8 @@
+question: Ni igiki kigena amahera y’ugucuruza mu gucuruza Bitcoin mu gihe c’ubwubatsi?
+answer: Itandukaniro hagati y'agaciro k'ibintu vyose vyinjijwe n'agaciro k'ibintu vyose bisohoka
+wrong_answers:
+  - Ijanisha ridahinduka ry'agaciro k'ibikorwa vyose biharuwe n'amasezerano y'urubuga
+  - Ubwinshi bw'ugucuruza muri bytes kugwizwa n'igipimo gisanzwe cashizweho n'abacukuzi
+  - Umubare w'imikono isabwa mu vyinjijwe vyose hamwe n'amahera y'urubuga rw'ishimikiro
+explanation: |
+  Amafaranga y’ugucuruza Bitcoin agenwa n’itandukaniro hagati y’ivyo vyose bikoreshwa n’ivyo vyose bisohoka. Igihe wubaka igikorwa, uhitamwo UTXOs nk’ivyo winjiza maze ukarema ivyo usohoka ku bavyakira n’ihinduka. Amahera yose asigaye aba amahera atera intege abacukuzi kugira ngo bashiremwo ivyo ugurisha. Amafaranga ntaharurwa n'ijanisha, ibiciro bihoraho, canke igiharuro c'imikono - ni ivyo gusa bisigaye bitagabanijwe mu giciro c'isoko.

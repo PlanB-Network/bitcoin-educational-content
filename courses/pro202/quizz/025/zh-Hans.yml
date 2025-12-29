@@ -1,0 +1,8 @@
+question: 在 P2PKH 交易验证中，ScriptPubKey 要执行哪些特定的操作序列来验证消费条件？
+answer: 复制公钥，对其进行散列，与已提交的散列进行比较，然后验证签名
+wrong_answers:
+  - 对签名进行散列，与公钥散列进行比较，然后根据承诺值进行验证
+  - 首先验证签名，然后对公钥进行散列，并与提交的散列进行比较
+  - 组合签名和公钥，对结果进行散列，然后与提交的散列进行比较
+explanation: |
+  P2PKH 的 ScriptPubKey 遵循特定序列：OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG。这将复制提供的公钥，应用 SHA256 然后是 RIPEMD160 散列，验证结果是否与承诺的散列相匹配，最后检查签名。其他选项对操作顺序的描述不正确，或建议散列签名而不是公钥，这将破坏验证逻辑。

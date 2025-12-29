@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin se rozdělí do více paralelních řetězců, aby se rozložila výpočetní zátěž při zachování stejných bezpečnostních záruk pro všechny uživatele
 explanation: |
   Maxwell identifikoval zásadní kompromis, kdy nadměrné požadavky na zdroje tlačí uživatele k důvěryhodným třetím stranám namísto nezávislého ověřování. Když se náklady na validaci stanou neúnosnými, uživatelé si nemohou dovolit provozovat plné uzly a musí se spoléhat na jiné, což podkopává nedůvěryhodnou povahu Bitcoin. Špatné odpovědi nesprávně naznačují příznivé výsledky (zvýšená bezpečnost, automatické úpravy nebo zachované záruky), když vysoké využití zdrojů ve skutečnosti nutí k centralizaci a závislosti na důvěře.
+reviewed: false

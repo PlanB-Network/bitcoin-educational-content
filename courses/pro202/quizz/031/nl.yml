@@ -1,0 +1,8 @@
+question: Wat gebeurt er met de ScriptSig velden van alle ingangen tijdens het sighash constructieproces voor verificatie van oudere ECDSA handtekeningen?
+answer: Alle ScriptSig-velden worden leeggemaakt en de ScriptSig van de huidige invoer wordt vervangen door de bijbehorende ScriptPubKey
+wrong_answers:
+  - Alle ScriptSig-velden blijven ongewijzigd en worden in hun oorspronkelijke vorm opgenomen in de sighash-berekening
+  - "Alleen de ScriptSig van de huidige invoer wordt bewaard, terwijl de ScriptSig-velden van alle andere ingangen uit de transactie worden verwijderd"
+  - Alle ScriptSig-velden worden vervangen door de overeenkomstige ScriptPubKey-waarden van de uitvoer waarnaar wordt verwezen
+explanation: |
+  Tijdens het bouwen van sighash voor legacy transacties, leegt het proces specifiek eerst alle ScriptSig velden en vervangt dan alleen de huidige invoer die wordt gevalideerd door de overeenkomstige ScriptPubKey van de uitvoer die het uitgeeft. Dit zorgt ervoor dat de handtekening zich committeert aan de bestedingsvoorwaarden zonder circulaire afhankelijkheden te creëren waarbij handtekeningen zichzelf zouden moeten ondertekenen. De andere opties zijn onjuist omdat ze ofwel handtekeningen op hun plaats laten (wat logische onmogelijkheden creëert) of alle invoer uniform wijzigen (wat de validatiecontext van de huidige invoer niet goed zou isoleren).

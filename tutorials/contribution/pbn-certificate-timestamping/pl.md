@@ -43,7 +43,7 @@ Podpis GPG jest generowany przy użyciu oprogramowania open-source o nazwie GNU 
 Z drugiej strony, jeśli ktoś chce zweryfikować autentyczność podpisanego pliku, może użyć GPG do zaimportowania klucza publicznego wystawcy i zweryfikowania go.
 
 
-Ci, którzy są ciekawi i chcą dowiedzieć się więcej o tym fantastycznym oprogramowaniu, mogą zapoznać się z ["The GNU Privacy Handbook"] (https://www.gnupg.org/gph/en/manual/x135.html)
+Ci, którzy są ciekawi i chcą dowiedzieć się więcej o tym fantastycznym oprogramowaniu, mogą zapoznać się z ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 
 ## Jak działa znacznik czasu?
@@ -176,7 +176,7 @@ Jeśli wyświetlony zostanie następujący komunikat, oznacza to, że Timestamp 
 UWAGA: ta procedura **będzie wymagać uruchomionego lokalnego węzła Bitcoin**
 
 
-1. Zainstaluj klienta OpenTimestamps z oficjalnego [repozytorium] (https://github.com/opentimestamps/opentimestamps-client), uruchamiając następujące polecenie:
+1. Zainstaluj klienta OpenTimestamps z oficjalnego [repozytorium](https://github.com/opentimestamps/opentimestamps-client), uruchamiając następujące polecenie:
 
 
 ```

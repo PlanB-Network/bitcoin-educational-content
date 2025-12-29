@@ -12,11 +12,11 @@ description: Dobijte nekustodijalni zajam garantovan od strane Bitcoin.
 
 
 
-Već vekovima, tradicionalno kreditiranje omogućava finansiranje mnogih projekata. Međutim, ono ostaje sporo, skupo i nije baš inkluzivno, posebno za one koji nemaju pristup solidnoj bankarskoj infrastrukturi.
+Već vekovima, tradicionalno kreditiranje omogućava finansiranje mnogih projekata. Međutim, ono ostaje sporo, skupo i nedovoljno inkluzivno, posebno za one koji nemaju pristup solidnoj bankarskoj infrastrukturi.
 
 
 
-Uspon Bitcoin protokola označio je početak nove finansijske ere, donoseći sa sobom niz izazova. Jedan od tih izazova bio je kako obezbediti likvidnost bez potrebe za prodajom Bitcoin, čime bi se izgubila izloženost njegovom potencijalu rasta.
+Uspon protokola Bitcoin označio je početak nove finansijske ere, donoseći sa sobom niz izazova. Jedan od tih izazova bio je kako obezbediti likvidnost bez potrebe za prodajom Bitcoin, čime bi se izgubila izloženost njegovom potencijalu rasta.
 
 
 
@@ -24,11 +24,11 @@ Rezultat je **Debifi**, platforma koja se pozicionira kao moderna alternativa ba
 
 
 
-Debifi je platforma za pozajmljivanje podržana Bitcoin bez starateljstva, što znači da zadržavate kontrolu nad svojim privatnim ključevima. Omogućava korisnicima da otključaju likvidnost u Exchange za svoje zaključane bitkoine kao zalog. Za razliku od tradicionalnih bankarskih kredita, Debifi koristi sistem eskrouta sa više potpisa (3 od 4) i ne prihvata zalaganje kolaterala, garantujući veću sigurnost i transparentnost.
+Debifi je nekustodijalna platforma za pozajmljivanje podržana Bitcoin, što znači da zadržavate kontrolu nad svojim privatnim ključevima. Omogućava korisnicima da otključaju likvidnost u zamenu za svoje zaključane bitkoine kao kolateral. Za razliku od tradicionalnih bankarskih kredita, Debifi koristi sistem eskrouta sa više potpisa (3 od 4) i ne prihvata rehypotekaciju kolaterala, garantujući veću sigurnost i transparentnost.
 
 
 
-U praksi, to znači da ni Debifi ni pojedinačni zajmodavac ne mogu potrošiti vaš BTC bez saglasnosti tri strane (vas, zajmodavca i pouzdane treće strane). Ovo čini sistem sigurnijim: ako pozajmite na Debifi, zadržavate Ownership svog Bitcoin dok zajam ne bude u potpunosti otplaćen.
+U praksi, ovo znači da ni Debifi ni pojedinačni zajmodavac ne mogu potrošiti vaš BTC bez saglasnosti tri strane (vas, zajmodavca i pouzdane treće strane). Ovo čini sistem sigurnijim: ako pozajmljujete na Debifi, zadržavate vlasništvo nad vašim Bitcoin sve dok zajam ne bude u potpunosti otplaćen.
 
 
 
@@ -36,22 +36,21 @@ U praksi, to znači da ni Debifi ni pojedinačni zajmodavac ne mogu potrošiti v
 
 
 
-Sa Debifi, to su zajmovi sa kolateralom, Blockchain sigurnost (multisignature, 2FA), izbor stabilnih valuta/likvidnosti, poverljivost i totalna Bitcoin kontrola. Debifi "vam omogućava da zadržite svoj novac" (vaši ključevi, vaši novčići), dok nudi konkurentne stope i globalni pristup zajmovima podržanim BTC-om.
+Sa Debifi, dobijate Bitcoin podržane zajmove koji su prekomerno obezbeđeni i osigurani on-chain. Vaša sredstva ostaju sigurna uz multisignature novčanike, 2FA i potpunu kontrolu nad vašim Bitcoin — vi držite svoje ključeve, vi čuvate svoje novčiće. Pozajmljujte u nizu stabilnih kovanica ili fiat opcija, po konkurentnim stopama i globalnoj likvidnosti.
 
 
 
 Evo brze uporedbe između Debifi kredita i tradicionalnog bankarskog kredita:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Pre nego što vam pokažem korak po korak kako da pozajmite na Debifi, postoji nekoliko stvari koje mislim da treba da znate.
 
@@ -64,7 +63,7 @@ Pre nego što vam pokažem korak po korak kako da pozajmite na Debifi, postoji n
 
 
 
-- Naknade za odobravanje** su jednokratne naknade koje se naplaćuju prilikom odobravanja zajma i izračunavaju se kao procenat iznosa pozajmice. Ove naknade pokrivaju administrativne, operativne i troškove upravljanja.
+- Naknade za odobravanje kredita** su jednokratne naknade koje se naplaćuju prilikom odobravanja kredita i izračunavaju se kao procenat iznosa pozajmice. Ove naknade pokrivaju administrativne, operativne i troškove upravljanja.
 
 
 
@@ -76,7 +75,7 @@ Pre nego što vam pokažem korak po korak kako da pozajmite na Debifi, postoji n
 
 
 
-- Sistem Multisig escrow (3/4)** je siguran mehanizam depozita gde se bitkoini zajmoprimca smeštaju u multi-potpis Address. Konkretno, četiri (4) strane poseduju ključ (zajmoprimac, zajmodavac, Debifi, nezavisna treća strana). Za premeštanje sredstava, potrebna su najmanje 3 od 4 potpisa.
+- Multisig escrow (3/4)** sistem je siguran mehanizam depozita gde se bitkoini zajmoprimca smeštaju na adresu sa više potpisa. Konkretno, četiri (4) strane poseduju ključ (zajmoprimac, zajmodavac, Debifi, nezavisna treća strana). Za premeštanje sredstava, potrebna su najmanje 3 od 4 potpisa.
 
 
 
@@ -112,23 +111,17 @@ Da biste započeli sa Debifi, biće vam potrebno nekoliko preduslova.
 
 
 
-Pre nego što možete pozajmiti od Debifi, molimo vas da se uverite da imate sledeće stavke:
+Pre nego što možete da pozajmite od Debifi, molimo vas da se uverite da imate sledeće stavke:
 
 
 
 
 
-- Bitcoin Wallet: gde držite svoj BTC (idealno ne-kustodijalni, npr. Hardware Wallet ili pouzdani mobilni Wallet). Iz ovog Wallet ćete poslati Bitcoin kolateral na Debifi i primiti sredstva.
+- Bitcoin wallet: gde držite svoj BTC (idealno ne-kustodijalni, npr. Hardware Wallet ili pouzdani mobilni wallet). Iz ovog wallet ćete poslati Bitcoin kolateral na Debifi i primiti kolateral nazad.
 
 
 
-
-
-- Stablecoins ili fiat: Debifi pozajmljuje u stablecoinima i nekim fiat valutama. Glavni korišćeni stablecoini su USDT i USDC.
-
-
-
-Možete koristiti Aqua, Bitcoin i Liquid Wallet koji takođe podržava upravljanje USDT stablecoin-om na različitim mrežama. Ili COLDCARD (Mk4 ili Q), trenutno jedini hardver koji podržava Debifi.
+Možete koristiti Aqua, Bitcoin i Liquid wallet koji takođe podržavaju upravljanje USDT stablecoin-om na različitim mrežama. Ili COLDCARD (Mk4 ili Q), trenutno jedini hardver koji podržava Debifi.
 
 
 
@@ -138,7 +131,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- KYC (*Know Your Customer*): u zavisnosti od izabrane ponude zajma, može biti potreban proces verifikacije identiteta. Na Debifi, svaka ponuda označava da li je KYC potreban ili ne. Stoga se pripremite u skladu s tim. KYC sprovode pouzdani pružaoci usluga trećih strana kao što je Sumsub.
+- KYC (*Know Your Customer*): u zavisnosti od izabrane ponude zajma, može biti potreban proces verifikacije identiteta. Na Debifi, svaka ponuda pokazuje da li je KYC potreban ili ne. Stoga se pripremite u skladu s tim. KYC sprovode pouzdani pružaoci usluga trećih strana kao što je Sumsub.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Aplikacija za dvofaktorsku autentifikaciju: Debifi zahteva Authenticator kod za svaku važnu radnju. To je dodatni Layer nivo sigurnosti. U ovom vodiču koristićemo Google Authenticator. Alternativno, možete koristiti druge po želji.
+- Aplikacija za dvofaktorsku autentifikaciju: Debifi zahteva Authenticator kod za svaku važnu radnju. To je dodatni sloj sigurnosti. U ovom uputstvu koristićemo Google Authenticator. Alternativno, možete koristiti druge po želji.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi vebsajt i mobilna aplikacija: Debifi je i vebsajt i mobilna aplikacija, i oba rade u tandemu. Mobilna aplikacija postaje Wallet, koja čuva vaš privatni ključ i upravlja potpisivanjem ugovora. Pored toga, potrebno je koristiti vebsajt za sklapanje ugovora (veliki Interface vam daje opšti pregled ugovora o zajmu i njihove specifičnosti).
+- Debifi vebsajt i mobilna aplikacija: Debifi je i vebsajt i mobilna aplikacija, i oba rade u tandemu. Mobilna aplikacija postaje wallet, koji čuva vaš privatni ključ i upravlja potpisivanjem ugovora. Pored toga, potrebno je koristiti vebsajt za sklapanje ugovora (veliki Interface vam daje opšti pregled ugovora o zajmu i njihove specifičnosti).
 
 
 
@@ -200,7 +193,7 @@ Jednom u aplikaciji, kliknite na meni **Settings**.
 
 
 
-Zatim kliknite na **Prijavi se ili kreiraj nalog** da biste kreirali nalog sa vašim e-mailom Address.
+Zatim kliknite na **Prijavi se ili kreiraj nalog** da biste kreirali nalog sa svojom e-mail adresom.
 
 
 
@@ -282,7 +275,7 @@ Imajte na umu da će samo vaš registrovani pametni telefon moći da otvori vaš
 
 
 
-Kada završite ove korake, kliknite na meni **Ponude** da biste videli dostupne ponude za zajam. Kada kliknete na ponudu, ona vas preusmerava na veb-sajt Debifi.
+Kada završite ove korake, kliknite na meni **Ponude** da biste videli dostupne ponude za zajam. Kada kliknete na ponudu, bićete preusmereni na veb-sajt Debifi.
 
 
 
@@ -290,7 +283,7 @@ Kada završite ove korake, kliknite na meni **Ponude** da biste videli dostupne 
 
 
 
-### Pristupite veb-sajtu i istražite ponude za zajam
+### Pristupite vebsajtu i istražite ponude za kredite
 
 
 
@@ -315,7 +308,7 @@ Kada je vaš uređaj povezan, idite na [Debifi website](https://debifi.com/). Pr
 
 
 
-Video tutorijal o tome kako se prijaviti sa svojim nalogom na platformi :
+Video tutorijal o tome kako se prijaviti sa svojim nalogom na platformu :
 
 
 
@@ -327,7 +320,7 @@ Video tutorijal o tome kako se prijaviti sa svojim nalogom na platformi :
 
 
 
-Platforma vas povezuje sa likvidnošću institucionalnog kvaliteta i nudi niz opcija koje odgovaraju vašim potrebama. Pregledajte kako biste saznali šta je dostupno. Takođe imate fleksibilnost da prilagodite parametre zajma prema vašoj individualnoj toleranciji rizika i finansijskoj situaciji.
+Platforma vas povezuje sa likvidnošću institucionalnog kvaliteta i nudi niz opcija koje odgovaraju vašim potrebama. Pregledajte da biste saznali šta je dostupno. Takođe imate fleksibilnost da prilagodite parametre zajma prema vašoj individualnoj toleranciji rizika i finansijskoj situaciji.
 
 
 
@@ -351,7 +344,7 @@ Debifi se oslanja na transparentne i fleksibilne uslove zajma kako bi zadovoljio
 
 
 
-#### Odnos kredita i vrednosti (LTV)
+#### Odnos kredita prema vrednosti (LTV)
 
 
 Bitcoin tranše zajma su generalno tri (3) po broju:
@@ -360,19 +353,19 @@ Bitcoin tranše zajma su generalno tri (3) po broju:
 
 
 
-- Konzervativno (20% - 40% LTV), što odgovara zajmu niskog rizika, idealno je za maksimiziranje sigurnosti protiv volatilnosti cena Bitcoin;
+- Konzervativno (30% - 40% LTV), što odgovara zajmu niskog rizika, idealno je za maksimiziranje sigurnosti protiv volatilnosti cena Bitcoin;
 
 
 
 
 
-- Izbalansirano (50% LTV) ;
+- Balanced (50% LTV) ;
 
 
 
 
 
-- Agresivno (70% - 85% LTV), što nudi veću likvidnost, ali nosi vrlo visok rizik od likvidacije tokom pada tržišta. Aktivno praćenje uslova na tržištu Bitcoin je neophodno prilikom odabira ove tranše.
+- Agresivno (70% LTV), koje nudi veću likvidnost, ali nosi vrlo visok rizik od likvidacije tokom tržišnih padova. Aktivno praćenje uslova Bitcoin tržišta je obavezno prilikom odabira ove tranše.
 
 
 
@@ -388,7 +381,7 @@ Postavljanje kamatnih stopa generalno zavisi od izabranog LTV-a, dužine trajanj
 
 
 
-Rasporedi otplate za zajmove su često fleksibilni i prilagođeni potrebama korisnika. Uplate se mogu izvršiti u bilo koje vreme sve dok su ispunjeni zahtevi za kolateral. Uplate za zajam su uglavnom kamate tokom trajanja zajma, dok je glavnica dospela na naplatu po dospeću.
+Rasporedi otplate su fleksibilni i dizajnirani da odgovaraju potrebama zajmoprimca. Zajmovi se mogu u potpunosti ili delimično otplatiti u bilo kom trenutku bez dodatnih naknada, pod uslovom da su zahtevi za kolateralom ispunjeni. Tokom trajanja zajma, kamata se obično plaća periodično, dok se glavnica izmiruje na dospeću.
 
 
 
@@ -396,7 +389,16 @@ Rasporedi otplate za zajmove su često fleksibilni i prilagođeni potrebama kori
 
 
 
-Kako je cena Bitcoin nestabilna, odgovoran zajam uključuje specifične politike margin poziva u sporazumu. Ova politika omogućava zajmoprimcu da bude obavešten da ili obezbedi dodatni kolateral, ili otplati deo zajma.
+S obzirom na volatilnost Bitcoin, zajmovi uključuju jasno definisanu politiku margin poziva. Margin poziv se dešava kada LTV poraste zbog pada vrednosti kolaterala. Debifi obaveštava zajmoprimca putem e-pošte i kroz aplikaciju, omogućavajući im da dodaju kolateral ili otplate deo zajma.
+
+
+75% LTV — Prvo upozorenje
+
+80% LTV — Drugo upozorenje
+
+85% LTV — Konačno upozorenje
+
+90% LTV — Kolateral je likvidiran
 
 
 
@@ -415,7 +417,7 @@ Da biste odabrali ponudu kredita koja odgovara vašim potrebama, kliknite na nju
 Možete videti :
 
 
-1. Naziv institucije za pozajmljivanje ;
+1. Naziv kreditne institucije ;
 
 
 2. Raspon iznosa zajma;
@@ -424,7 +426,7 @@ Možete videti :
 3. Da ćete primiti sredstva u USDC Ethereum ;
 
 
-4. Period otplate kredita, kamatna stopa i LTV odnos;
+4. Period otplate, kamatna stopa i LTV odnos;
 
 
 5. KYC je potreban za ovu ponudu;
@@ -433,7 +435,7 @@ Možete videti :
 6. Tačan iznos koji vam je potreban mora biti unet (ovaj iznos mora biti unutar opsega, vidi 2);
 
 
-7. Ethereum USDC Address koji će se koristiti za primanje sredstava mora biti unet.
+7. Ethereum USDC adresa koja će se koristiti za primanje sredstava mora biti uneta.
 
 
 
@@ -453,7 +455,7 @@ Vratite se na mobilnu aplikaciju za ''**Provide public key**''.
 
 
 
-Pritisnite '' **Provide public key** '', zatim izaberite izvor javnog ključa. Zajmodavac će takođe morati da Supply javni ključ.
+Pritisnite '' **Provide public key** '', zatim izaberite izvor javnog ključa. Zajmodavac će takođe morati da obezbedi javni ključ.
 
 
 
@@ -473,7 +475,7 @@ Pritisnite '' **Provide public key** '', zatim izaberite izvor javnog ključa. Z
 
 
 
-Sledeći korak je potpisivanje Contract. Još uvek u mobilnoj aplikaciji, pritisnite '' **Sign Contract** ''
+Sledeći korak je potpisivanje ugovora. Još uvek u mobilnoj aplikaciji, pritisnite '' **Sign Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Sledeći korak je potpisivanje Contract. Još uvek u mobilnoj aplikaciji, pritis
 
 
 
-Kada završite sa potpisivanjem Contract, Debifi automatski kreira jedinstveni multi-potpis Bitcoin Address (escrow 3-sur-4) za vaš Contract. Dokle god su vaši bitkoini u escrow-u, ne mogu se koristiti na drugom mestu.
+Kada završite sa potpisivanjem ugovora, Debifi automatski kreira jedinstvenu multi-potpisnu Bitcoin adresu (escrow 3-sur-4) za vaš ugovor. Dokle god su vaši bitkoini u escrow-u, ne mogu se koristiti na drugom mestu.
 
 
 
@@ -493,7 +495,7 @@ Kada završite sa potpisivanjem Contract, Debifi automatski kreira jedinstveni m
 
 
 
-Poslednji korak je da položite svoj Bitcoin kolateral u sistem skrbništva sa više potpisa. Debifi vam zatim prikazuje skrbništvo Address (B) i količinu BTC (A) koja treba biti poslata kao (kolateral + provizija).
+Poslednji korak je da položite svoj Bitcoin kolateral u sistem skrbništva sa više potpisa. Debifi vam prikazuje adresu skrbništva (B) i količinu BTC (A) koja treba biti poslata kao (kolateral + provizija).
 
 
 
@@ -501,7 +503,7 @@ Poslednji korak je da položite svoj Bitcoin kolateral u sistem skrbništva sa v
 
 
 
-Takođe ćete primiti ovo obaveštenje u vašoj mobilnoj aplikaciji.
+Takođe ćete primiti ovu obaveštenje u vašoj mobilnoj aplikaciji.
 
 
 
@@ -509,15 +511,15 @@ Takođe ćete primiti ovo obaveštenje u vašoj mobilnoj aplikaciji.
 
 
 
-Čim vaš depozit bude potvrđen, zajmodavac će isplatiti iznos zajma na navedeni Address, čime će se transakcija finalizirati i omogućiti vam pristup potrebnim sredstvima.
+Čim vaš depozit bude potvrđen, zajmodavac će isplatiti iznos zajma na adresu primatelja koju ste naveli, čime će se transakcija finalizirati i omogućiti vam pristup potrebnim sredstvima.
 
 
 
-Zatim ćete primiti obaveštenje od Debifi, tražeći od vas da platite naknade za zajam ili provizije kako biste unapredili status vašeg zajma.
+Zatim ćete primiti obaveštenje od Debifi, koje će vas tražiti da platite naknade za zajam ili provizije kako biste unapredili status vašeg zajma.
 
 
 
-U stvarnosti, kada je Contract kreiran, naknade za zajam se automatski odbijaju iz kolaterala koji je deponentirao zajmoprimac u multi-potpisnom escrow-u Address.
+U stvarnosti, kada je ugovor kreiran, naknade za zajam se automatski odbijaju od kolaterala koji je deponentirao zajmoprimac na adresi depozita sa više potpisa.
 
 
 
@@ -529,7 +531,7 @@ Sve što treba da uradite je da potpišete transakciju koja će omogućiti Debif
 
 
 
-Primjenjive naknade za pozajmljivanje su 1.5-2%, u zavisnosti od trajanja Contract. Platforma naplaćuje provizije samo u Bitcoin.
+Primjenjive naknade za pozajmljivanje su 1.5-2%, u zavisnosti od trajanja ugovora. Platforma naplaćuje provizije samo u Bitcoin.
 
 
 
@@ -537,25 +539,23 @@ Primjenjive naknade za pozajmljivanje su 1.5-2%, u zavisnosti od trajanja Contra
 
 
 
-Jednom kada je zajam u toku, Debifi vam omogućava da pratite vaš Contract u realnom vremenu. U Interface, videćete :
-
-
+Jednom kada je zajam aktivan, Debifi vam omogućava praćenje vašeg ugovora u realnom vremenu. U interfejsu ćete pronaći:
 
 
 
 - Iznos pozajmljenog novca i preostali rok.
-- Trenutni LTV (Loan-to-Value) odnos: LTV se povećava ako cena BTC padne (pošto vaša kolaterala vredi manje). Postavljen je prag upozorenja (obično 90%). Ako vaš LTV pređe ovaj prag, postoji rizik od prinudne likvidacije. Debifi će vam tada dati 24 sata da reagujete.
-
-
-
-Zajmoprimci će biti obavešteni o smanjenju cene. Ove informacije će takođe biti dostupne na Contract stranici sažetka. Da bi se vratio originalni odnos zajma prema vrednosti, zajmoprimac mora:
+- Trenutni LTV (Loan-to-Value) odnos, koji raste kada cena BTC opada i vrednost vašeg kolaterala pada.
 
 
 
 
+Zajmoprimci su obavešteni kada se vrednost kolaterala smanji, a ove informacije su takođe prikazane na stranici sažetka ugovora. Da bi se povratio originalni odnos zajma prema vrednosti, zajmoprimac mora ili:
 
-- ili položiti dodatnu garanciju ;
+
+
+- deponovati dodatni kolateral;
 - otplatiti ceo ili deo duga.
+
 
 
 
@@ -577,21 +577,21 @@ U Debifiju :
 
 
 
-- Idite na svoj Contract i kliknite na **Make a repayment**. Unesite ukupan iznos duga (glavnica + kamata).
+- Idite na svoj ugovor i kliknite na **Izvrši uplatu**. Unesite ukupan iznos duga (glavnica + kamata).
 
 
 
 
 
-- Pošaljite stablecoine sa vašeg Wallet na Address zajmodavca koji je naveden, i vratite se da potvrdite otplatu na platformi kopiranjem **ID**-a transakcije otplate u posvećenu karticu. Ovo olakšava Debifi-ju da izvrši svoje provere.
+- Pošaljite stablecoine sa vašeg wallet na navedenu adresu zajmodavca, i vratite se da potvrdite otplatu na platformi kopiranjem **ID**-a transakcije otplate u posvećenu karticu. Ovo olakšava Debifi-ju da izvrši svoje provere.
 
 
 
-Kada uplata bude potvrđena od strane zajmodavca (i od vas), Debifi će vas zatim zamoliti da **refundirate**. Vaš Bitcoin kolateral će biti oslobođen i možete ga vratiti iz escrow-a u svoj portfelj. Ne zaboravite da prikupite sve svoje Bitcoine.
+Kada uplata bude potvrđena od strane zajmodavca (i od vas), Debifi će vas zatim zamoliti da **refundirate**. Vaš Bitcoin kolateral će biti oslobođen i možete ga vratiti iz escrow-a na vaš sopstveni wallet. Ne zaboravite da pokupite sve vaše Bitcoine.
 
 
 
-Čim primite svoje bitkoine, zajam Contract se menja u **Contract završeno**.
+Čim primite svoje bitkoine, ugovor o zajmu se menja u **Contract completed**.
 
 
 
@@ -604,23 +604,23 @@ Kada uplata bude potvrđena od strane zajmodavca (i od vas), Debifi će vas zati
 
 
 
-Koji god da su vaši ciljevi ili motivacije - finansiranje projekta, kupovina nekretnine, kupovina bitkoina, itd. - budite izuzetno oprezni pre nego što uzmete zajam podržan Bitcoin. - budite izuzetno oprezni pre nego što uzmete zajam podržan Bitcoin. Odvojite vreme da pažljivo razmotrite svoju odluku, jer Bitcoin ostaje nestabilna imovina. **Oštar pad njegove cene mogao bi rezultirati prinudnom likvidacijom vaših bitkoina**.
+Bez obzira na vaše ciljeve ili motive—finansiranje projekta, sticanje nekretnine, kupovina bitkoina, itd.—budite veoma oprezni pre nego što uzmete zajam podržan Bitcoin. Odvojite vreme da pažljivo procenite svoju odluku, jer Bitcoin ostaje nestabilna imovina. **Oštar pad njegove cene mogao bi rezultirati prinudnom likvidacijom vaših bitkoina.**
 
 
 
-Pratite svoj odnos zajma i kolaterala (LTV). Postavite upozorenja (cena BTC, LTV) ako je moguće. Ne dozvolite da vaš odnos priđe 90%. Ako ste u nedoumici, povećajte kolateral ili vratite ranije.
+Pratite svoj odnos zajma i kolaterala (LTV). Postavite upozorenja (cena BTC, LTV) ako je moguće. Ne dozvolite da vaš odnos priđe 90%. Ako ste u nedoumici, povećajte kolateral ili vratite zajam ranije.
 
 
 
-Kontrolišite svoje ključeve. Čuvajte svoj BTC u sigurnom Wallet (idealno hardverskom ili renomiranom Wallet). Nemojte postavljati PIN kod povezan sa važnim datumom u vašem životu i nikada ne delite svoju frazu za oporavak. Na Debifi, vi generate svoj privatni ključ u aplikaciji - Debifi ga ne zna.
+Kontrolišite svoje ključeve. Držite svoj BTC u sigurnom wallet (idealno hardverskom ili renomiranom wallet). Nemojte postavljati PIN kod povezan sa važnim datumom u vašem životu i nikada ne delite svoju frazu za oporavak. Na Debifi, vi generate svoj privatni ključ u aplikaciji - Debifi ga ne zna.
 
 
 
-Počnite sa malim iznosom ako je moguće. Za vaš prvi kredit, testirajte skroman iznos kako biste se upoznali sa procesom.
+Počnite sa malim iznosom ako je moguće. Za vaš prvi zajam, testirajte skroman iznos kako biste se upoznali sa procesom.
 
 
 
-Koristite samo zvaničnu Debifi veb stranicu da biste bili u toku sa vestima o Debifi-ju, i izbegavajte nepoznate ili phishing linkove. Ažurirajte aplikaciju, zaštitite svoj pametni telefon PIN kodom, i izaberite kompatibilan Hardware Wallet.
+Koristite samo zvaničnu Debifi veb stranicu da biste bili u toku sa vestima o Debifi, i izbegavajte nepoznate ili phishing linkove. Ažurirajte aplikaciju, zaštitite svoj pametni telefon PIN kodom, i izaberite kompatibilan Hardware Wallet.
 
 
 

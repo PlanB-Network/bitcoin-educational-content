@@ -74,9 +74,9 @@ Puis lancez le logiciel avec la commande :
 python3 main.py
 ```
 
-Une fois sur l'accueil, indiquez le chemin local vers votre clone du dépôt, la langue dans laquelle vous rédigez et votre identifiant GitHub. Si vous créez ce profil pour une autre personne et possédez déjà un profil de professeur, inscrivez votre identifiant dans le champ "*Plan ₿ Academy Professor's ID*". Si vous créez votre propre profil, vous n'aurez pas encore d'identifiant de professeur puisque vous êtes en cours de création; laissez donc ce champ vide.
+Une fois sur l'accueil, indiquez le chemin local vers votre clone du dépôt, la langue dans laquelle vous rédigez et votre identifiant GitHub. Si vous créez ce profil pour une autre personne et possédez déjà un profil de professeur, inscrivez votre identifiant dans le champ `Plan ₿ Academy Professor's ID`. Si vous créez votre propre profil, vous n'aurez pas encore d'identifiant de professeur puisque vous êtes en cours de création ; laissez donc ce champ vide.
 
-Ensuite, cliquez sur le bouton "*New Professor*".
+Ensuite, cliquez sur le bouton `New Professor`.
 
 ![Image](assets/fr/01.webp)
 
@@ -86,10 +86,10 @@ Complétez les informations requises (attention, toutes ces informations seront 
 - Votre site web et votre profil X (optionnels) ;
 - Une adresse Lightning pour recevoir des dons des lecteurs (optionnel) ;
 - Sélectionnez 2 ou 3 tags parmi ceux proposés ;
-- Cliquez sur "*Select Image*" pour choisir une image de profil depuis vos dossiers locaux (n'importe quel nom et format peut être utilisé pour l'image, le logiciel l'adaptera automatiquement. Assurez-vous simplement que l'image soit carrée) ;
+- Cliquez sur `Select Image` pour choisir une image de profil depuis vos dossiers locaux (n'importe quel nom et format peut être utilisé pour l'image, le logiciel l'adaptera automatiquement. Assurez-vous simplement que l'image soit carrée) ;
 - Rédigez une courte description de votre profil.
 
-Finalisez la création en cliquant sur "*Create Professor*". Cela va générer automatiquement tous les fichiers nécessaires pour votre profil.
+Finalisez la création en cliquant sur `Create Professor`. Cela va générer automatiquement tous les fichiers nécessaires pour votre profil.
 
 ![Image](assets/fr/02.webp)
 
@@ -131,11 +131,11 @@ Rendez-vous [sur le dépôt GitHub de Plan ₿ Academy dédié aux données](htt
 
 ![Image](assets/fr/03.webp)
 
-Cliquez sur le dossier "*professors*", puis allez dans votre dossier personnel.
+Cliquez sur le dossier `professors`, puis allez dans votre dossier personnel.
 
 ![Image](assets/fr/04.webp)
 
-Pour modifier les métadonnées de votre profil telles que l'adresse Lightning, votre nom, ou vos liens, sélectionnez le fichier "*professor.yml*". Pour changer votre description, cliquez sur le fichier YAML de votre langue (par exemple "*en.yml*" ou "*fr.yml*").
+Pour modifier les métadonnées de votre profil telles que l'adresse Lightning, votre nom, ou vos liens, sélectionnez le fichier `professor.yml`. Pour changer votre description, cliquez sur le fichier YAML de votre langue (par exemple `en.yml` ou `fr.yml`).
 
 Si vous modifiez votre description, pensez à supprimer toutes les traductions obsolètes. Ensuite, vous pouvez soit vous charger de la traduction de votre description dans les autres langues à l'aide d'un LLM, soit laisser uniquement la description dans votre langue natale et mentionner dans votre Pull Request que votre description nécessite une traduction par notre équipe.
 
@@ -145,31 +145,31 @@ Une fois sur le fichier que vous souhaitez modifier, cliquez sur l'icône du cra
 
 ![Image](assets/fr/06.webp)
 
-Si vous n'avez pas encore de fork du dépôt de Plan ₿ Academy, GitHub vous proposera d'en créer un. Cliquez sur "*Fork this repository*".
+Si vous n'avez pas encore de fork du dépôt de Plan ₿ Academy, GitHub vous proposera d'en créer un. Cliquez sur `Fork this repository`.
 
 ![Image](assets/fr/07.webp)
 
-Apportez les modifications souhaitées au fichier. Une fois terminé, cliquez sur "*Commit changes*".
+Apportez les modifications souhaitées au fichier. Une fois terminé, cliquez sur `Commit changes...`.
 
 ![Image](assets/fr/08.webp)
 
-Indiquez un message décrivant votre modification, puis sélectionnez "*Propose changes*".
+Indiquez un message décrivant votre modification, puis sélectionnez `Propose changes`.
 
 ![Image](assets/fr/09.webp)
 
-Un récapitulatif de vos modifications s'affichera. Si vous désirez apporter d'autres modifications à votre profil, vous pouvez revenir sur les dossiers et réaliser d'autres commits. Lorsque vous avez terminé, cliquez sur "*Create pull request*".
+Un récapitulatif de vos modifications s'affichera. Si vous désirez apporter d'autres modifications à votre profil, vous pouvez revenir sur les dossiers et réaliser d'autres commits. Lorsque vous avez terminé, cliquez sur `Create pull request`.
 
-Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche de principale du dépôt de Plan ₿ Academy, qui permet la revue et la discussion des changements avant leur fusion.
+Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche principale du dépôt de Plan ₿ Academy, qui permet la revue et la discussion des changements avant leur fusion.
 
 ![Image](assets/fr/10.webp)
 
 Assurez-vous, en haut de l'interface, que votre branche de travail soit bien fusionnée sur la branche `dev` du dépôt Plan ₿ Academy (qui est la branche principale).
 
-Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements, puis cliquez sur le bouton vert "*Create pull request*" pour confirmer la demande de fusion :
+Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements, puis cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion.
 
 ![Image](assets/fr/11.webp)
 
-Votre PR sera alors visible dans l'onglet "*Pull Request*" du dépôt principal de Plan ₿ Academy. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur fusionne votre modification.
+Votre PR sera alors visible dans l'onglet `Pull Request` du dépôt principal de Plan ₿ Academy. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur fusionne votre modification.
 
 ![Image](assets/fr/12.webp)
 

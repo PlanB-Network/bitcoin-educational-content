@@ -1,0 +1,8 @@
+question: Která vlastnost reprezentuje uzávěry, které lze volat vícekrát, aniž by došlo k mutaci jejich zachyceného prostředí?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn je nejrestriktivnější uzávěrový rys, který představuje uzávěry volatelné vícekrát, aniž by došlo k mutaci jejich zachyceného prostředí. Tyto uzávěry zachycují pouze neměnnou referencí a lze je bezpečně volat současně. FnOnce reprezentuje uzávěry, které lze volat pouze jednou, zatímco FnMut reprezentuje uzávěry, které lze volat vícekrát, ale mohou mutovat své zachycené prostředí. FnCapture není skutečným rysem Rust.

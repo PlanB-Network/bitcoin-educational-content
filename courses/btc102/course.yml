@@ -19,148 +19,156 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: de
     last_contribution_date: 2025-11-05
     urgency: 1
     contributor_names:
       - ghub-user-180
       - ndalliard
-    reward: 7.55
+    reward: 6.54
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - ckriptoco
-    reward: 15.1
+    reward: 13.08
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 15.1
+    reward: 13.08
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: fr
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - ProfScofield21
-    reward: 7.55
+    reward: 6.54
   - language: it
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - TinF0ilHat
       - 'f205sats '
-    reward: 7.55
+    reward: 6.54
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 60.3
+    reward: 52.23
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.2
+    reward: 26.16
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 20.12
+    reward: 17.43
   - language: vi
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Henry-Da0
       - Ahn-La
-    reward: 15.07
+    reward: 13.06
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: id
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - bitcoinindo21
-    reward: 25.13
+    reward: 21.77
   - language: zh-Hans
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 25.13
+    reward: 21.77
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.26
+    reward: 43.54
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 70.33
+    reward: 60.91
   - language: sw
-    last_contribution_date: 2025-08-18
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 20.12
+      - Arianebtc
+    reward: 8.71
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.23
+    reward: 34.85
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.2
+    reward: 26.16
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 20.12
+    reward: 17.43
   - language: tr
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - H5RV
-    reward: 25.13
+    reward: 21.77
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.26
+    reward: 43.54
   - language: rn
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 60.3
+      - barakana
+    reward: 26.11
+  - language: bg
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 17.43
 tags:
   - wallets
   - user-friendly
@@ -176,6 +184,7 @@ videos:
       - it: offLhT7qLMPtitV3j2Q9Z1
       - de: 1M5cELRLpZZ26QeEQpH3wP
       - zh-Hant: 8tQXo8e47ptTC2mW3VvSfC
+      - ja: st6Ht2P4TB5gs2M3n4PZC3
   - id: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     peertube:
       - en: umPJcVjypV2tDYccNzTGFc
@@ -183,6 +192,7 @@ videos:
       - it: qfqpANNgZSx3fvFohnBB4c
       - de: 7mJdWVR2ZDxdCtWNjXUQcr
       - zh-Hant: tT6jh3JBJtetWL4auX3j7d
+      - ja: 8YuHw1B47kFigwfZX4Z6Rm
   - id: 7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b
     peertube:
       - en: pixGY7XJmHrszC7oQYJmuw
@@ -190,6 +200,7 @@ videos:
       - it: t17LUN45wVNqff4WYPWyn9
       - de: aVTwrYFsfoH4pJ5sNUkSeW
       - zh-Hant: iE8GppHN1gEkFKKA1Too7g
+      - ja: tUQcFbGkEPUiMLagbpaKbV
   - id: 3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
     peertube:
       - en: xiNG962Ht4hrTvxUZHheUr
@@ -197,6 +208,7 @@ videos:
       - it: 83PricGGCTBnxwR8NHrbWX
       - de: vyzb5J1QagtTYaJk986i1k
       - zh-Hant: dKkUv9EfacVVKqPKKeU44t
+      - ja: 2cD5abZjNHfZxuzLf33xUs
   - id: 5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f
     peertube:
       - en: ddV2KpH317BEfFNwjYpb29
@@ -204,6 +216,7 @@ videos:
       - it: mAczmbsWpGWG3Ed1pDen9U
       - de: 3Snf8N3SUYhk4NsdWasyCc
       - zh-Hant: sp4NSctRY1CsrUp97TyVTv
+      - ja: 4USSbUi2hfRVFX2azdmNyv
   - id: 8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d
     peertube:
       - en: geyZvu7xuFCJhSutnDddFz
@@ -211,6 +224,7 @@ videos:
       - it: wT4oZJZCSkikYi26i3U8eC
       - de: sScPvNNBJHTh4HmtW2Uxwn
       - zh-Hant: nWKF3CWEZYDSLGizqUYhuN
+      - ja: qW3yF3UNZkcWHkrnr732F5
   - id: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
     peertube:
       - en: 9zd1F7XfLZSU5HM7S8s3u8
@@ -218,6 +232,7 @@ videos:
       - it: 3q6v5wUmC17BQ6cTmCVfmT
       - de: im7zZZug6pDhjd4arQwdNS
       - zh-Hant: btRm64fShN6vfH1oxU25pL
+      - ja: 37zwLXjtdo6k5WUzPRGeQR
   - id: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     peertube:
       - en: xqQvcardN2DRDnVdAav4AC
@@ -232,6 +247,7 @@ videos:
       - it: uYBcS9ML2NB8vA9n3SkftP
       - de: 2KoRKqptumwWYczdVA1j2T
       - zh-Hant: cCtF11FkozMBQTHNUFEg7B
+      - ja: e6XG9r8vCfnDURZWQEVq9S
   - id: 4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b
     peertube:
       - en: prZkQLAaFEC9JtzbHFn64P
@@ -239,6 +255,7 @@ videos:
       - it: 2eW9KRmU9vq4BZyAY7o3aB
       - de: rZd272yw7k78YMaQnuEqMZ
       - zh-Hant: dpFHinvpTM5GeJTPQWoaU6
+      - ja: b8xA2AfZH88V2wdHbHuNA4
   - id: 5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c
     peertube:
       - en: oNnoDtATrZtEThmHumkriD
@@ -246,6 +263,7 @@ videos:
       - it: tygkgYH6iSvLmeKVAKGTny
       - de: aeKMJG8AoS7NjouxBJMVjP
       - zh-Hant: j37YLnynuup1pZXPpJED8Z
+      - ja: cMwu7ZJG5bmyfbTXf1F2CU
   - id: 6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d
     peertube:
       - en: od9RFRuWDE2z86qM9tGovJ
@@ -253,6 +271,7 @@ videos:
       - it: dwoYdmM14cU8oCpmUPvQ6H
       - de: uVpMKMbHi5TiNE5TV33d8B
       - zh-Hant: 6zvgzowvgaQqFVKM5VVWn6
+      - ja: 6G6vUUsHHgdfDkj5pZ4j6H
   - id: 7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e
     peertube:
       - en: oSDhkaGXLLBT3yEt31BmXX
@@ -263,6 +282,7 @@ videos:
       - it: rrYx4aNpLXbdxsVRPFpMm3
       - de: i63K5KLxwkxuafYWX7wBFw
       - zh-Hant: jBH9Y47kqzmHa9vcugAgGD
+      - ja: fxiSMcNNsJYNVSTxhGknug
   - id: 58e578ef-bb3c-423d-8431-0c16db8e5f29
     peertube:
       - es: aee8BTojUSaDFnEPnoUUzC
@@ -270,3 +290,4 @@ videos:
       - de: sZoYqXBWfPW4ogKRX8p18i
       - en: iNpp837YB47E9KCjJgXWoa
       - zh-Hant: 6Dwg46mYPMHamjBVsXd3zd
+      - ja: rKiPqVmpJz8drUj7KPdwVb

@@ -1,0 +1,9 @@
+question: Proč se podle Hayekovy teorie rozptýlených znalostí nedaří centrálně plánovaným ekonomikám efektivně alokovat zdroje ve srovnání se systémy volného trhu?
+answer: Centrální plánovači nemají přístup k roztříštěným a lokalizovaným znalostem jednotlivců o jejich specifických potřebách, preferencích a okolnostech, což znemožňuje efektivní alokaci zdrojů.
+wrong_answers:
+  - Centrální plánovači nemají dostatečný výpočetní výkon a pokročilé algoritmy potřebné ke zpracování všech ekonomických dat a k přijímání optimálních rozhodnutí o alokaci pro společnost.
+  - Centrální plánovači jsou ze své podstaty zkorumpovaní a sobecky zainteresovaní a upřednostňují vlastní blahobyt před efektivním rozdělováním zdrojů pro širší populaci.
+  - Centrální plánovači se příliš soustředí na krátkodobé politické zisky než na dlouhodobou ekonomickou efektivnost, což vede k neoptimálním rozhodnutím o přidělování zdrojů.
+explanation: |
+  Hayekova koncepce rozptýlených znalostí zdůrazňuje, že klíčové ekonomické informace existují pouze jako rozptýlené fragmenty mezi jednotlivci, kteří znají své místní podmínky, subjektivní preference a náklady obětované příležitosti.
+  Tyto znalosti nelze centrálně shromažďovat ani agregovat, protože jsou kontextuální a neustále se mění. Volné trhy koordinují tyto rozptýlené znalosti prostřednictvím cenového systému, kde dobrovolné směny odhalují preference a relativní nedostatek. Centrální plánovači, bez ohledu na své záměry a schopnosti, nemohou tento spontánní koordinační proces zopakovat, protože potřebné znalosti neexistují v koncentrované podobě.

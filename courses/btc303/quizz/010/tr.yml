@@ -6,3 +6,4 @@ wrong_answers:
   - Dijital imzalı resmi kaynaklardan doğrulanmış wallet yazılımının yüklenmesi
 explanation: |
   Bitcoin'ü güvenle kullanmak için, tüm blokların mutabakat kurallarına uyduğunu bağımsız olarak doğrulayan, coin çıkarma programını kontrol eden ve çift harcamaları önleyen tam doğrulamalı bir Bitcoin düğümü çalıştırmalısınız. Bu, doğrulamayı başkalarına yaptırmamanızı sağlayarak güvenilmezlik özelliğini korur. Borsaları veya üçüncü taraf hizmetlerini kullanmak, blok zinciri durumu hakkında size doğruyu söylemeleri için başkalarına güvenmek anlamına gelir. Doğrulanmış yazılım güvenlik için önemli olsa da, Bitcoin sisteminde gerçek bir güvenilirlik elde etmek için kendi doğrulama düğümünüze olan ihtiyacı ortadan kaldırmaz.
+reviewed: false

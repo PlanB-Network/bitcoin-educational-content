@@ -1,5 +1,5 @@
 ---
-name: 交换市场
+name: SwapMarket
 description: Bitcoin 和 Lightning 交换服务聚合器
 ---
 
@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| 方面         | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| 性质          | 独特服务             | 多供应商聚合器                        |
+| 提供商        | 仅 Boltz             | Boltz、ZEUS、Eldamar、Middle Way     |
+| 竞争          | 固定费用             | 自由竞争                             |
+| 界面          | boltz.exchange       | swapmarket.github.io（可自托管）      |
+| 安全          | 非托管 (HTLC)        | 非托管 (HTLC)                        |
 
 **SwapMarket 的优势**：价格竞争、后端实例多样化、实时比较。
 

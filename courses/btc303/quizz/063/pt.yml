@@ -6,3 +6,4 @@ wrong_answers:
   - O repositório GitHub mantém uma chave mestra que valida todas as outras cópias do repositório em todo o mundo
 explanation: |
   De acordo com a análise de Jameson Lopp citada no capítulo, o repositório GitHub do Bitcoin Core é tecnicamente idêntico a todas as outras cópias. O seu significado é puramente social - tornou-se o ponto focal para a coordenação do desenvolvimento. O repositório serve como uma questão de conveniência e não de autoridade técnica e, se desaparecesse, surgiria naturalmente um novo ponto focal. Isto demonstra a natureza descentralizada do Bitcoin, onde nenhum repositório tem supremacia técnica sobre os outros.
+reviewed: false

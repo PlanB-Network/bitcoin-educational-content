@@ -1,0 +1,8 @@
+question: LDK'nın geleneksel daemon tabanlı Lightning düğümlerine kıyasla kesintili bağlantıya sahip mobil cüzdanlarda Lightning işlevselliğini sürdürmesini sağlayan kritik özellik nedir?
+answer: LDK'nın gözetim altında olmayan özel anahtar kontrolünü sürdürürken çevrimiçi olduğunda Yıldırım Hizmet Sağlayıcıları (LSP'ler) ile senkronize olma yeteneği
+wrong_answers:
+  - "LDK'nın ağ bağlantısı yeniden sağlanana kadar işlemleri sıraya koyan yerleşik çevrimdışı ödeme işleme sistemi"
+  - "LDK'nın birden fazla bulut sağlayıcısı arasında verileri otomatik olarak çoğaltan dağıtılmış kanal durumu yedekleme sistemi"
+  - "LDK'nın internet olmadan doğrudan cihazdan cihaza Lightning ödemelerine olanak tanıyan eşler arası örgü ağ protokolü"
+explanation: |
+  LDK'nın modüler mimarisi, mobil uygulamaların çevrimiçi olduktan sonra LSP'lerle senkronize olarak aralıklı bağlantı modellerini uygulamasına olanak tanıyarak, kullanıcıların mobil cihaz çevrimdışıyken bile ödeme almasına ve kanalları yönetmesine olanak tanır. Bu, sürekli çalışma gerektiren geleneksel Lightning daemon'larından temelde farklıdır. Yanlış cevaplar var olmayan özellikleri tanımlamaktadır - LDK'nın yerleşik çevrimdışı ödeme işleme, dağıtılmış yedekleme veya örgü ağ özellikleri yoktur.

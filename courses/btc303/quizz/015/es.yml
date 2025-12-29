@@ -6,3 +6,4 @@ wrong_answers:
   - Los servicios de terceros adquieren la capacidad de crear nuevos bitcoins más allá del calendario normal de emisión
 explanation: |
   Cuando los usuarios no gestionan sus propios nodos completos, delegan en otros el poder de hacer cumplir las normas de Bitcoin. Esto debilita la descentralización de Bitcoin porque hay menos partes independientes que validen las transacciones y los bloques. Esto debilita la descentralización de Bitcoin porque menos partes independientes validan las transacciones y los bloques. Como explica David Harding, esto crea una situación en la que un pequeño número de mineros y proveedores de servicios podrían cambiar las reglas de Bitcoin para los usuarios no verificadores, mientras que esos usuarios no podrían realizar transacciones con personas que ejecuten nodos de validación completa que rechacen esos cambios en las reglas.
+reviewed: false

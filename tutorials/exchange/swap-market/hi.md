@@ -1,5 +1,5 @@
 ---
-name: स्वैपमार्केट
+name: SwapMarket
 description: Bitcoin और लाइटनिंग स्वैप सेवा एग्रीगेटर
 ---
 
@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| पहलू         | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| प्रकृति        | एक विशिष्ट सेवा       | बहु-प्रदाता एकत्रक                   |
+| प्रदाता        | केवल Boltz            | Boltz, ZEUS, Eldamar, Middle Way     |
+| प्रतिस्पर्धा    | निश्चित शुल्क          | मुक्त प्रतिस्पर्धा                   |
+| इंटरफ़ेस       | boltz.exchange       | swapmarket.github.io (स्व-होस्ट करने योग्य) |
+| सुरक्षा        | नॉन-कस्टोडियल (HTLC)  | नॉन-कस्टोडियल (HTLC)                |
 
 **स्वैपमार्केट लाभ**: मूल्य प्रतिस्पर्धा, बैकएंड इंस्टैंस का विविधीकरण, वास्तविक समय तुलना।
 

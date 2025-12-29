@@ -20,7 +20,7 @@ Au même titre que [Mempool Space](https://mempool.space) qui recense les inform
 - L'évolution du Lightning Network au fil du temps
 - Les statistiques sur les frais à payer aux nœuds relayeurs de vos paiements.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Dans ce tutoriel, nous vous amenons à la découverte de cette plateforme qui constitue une ressource essentielle pour vous qui êtes utilisateur du Lightning Network, vous qui souhaitez connecter votre nœud pour agrandir le réseau, etc.
 
@@ -154,4 +154,4 @@ Prenez connaissance du prix actuel du bitcoin dans votre devise locale (EUR / US
 
 Vous avez désormais fait un tour complet des fonctionnalités et outils d'analyses de la plateforme. Nous vous proposons de retrouver, ci-dessous, notre article sur l'explorateur Bitcoin **Mempool.space**.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

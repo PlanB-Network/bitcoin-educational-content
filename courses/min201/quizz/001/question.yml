@@ -104,10 +104,11 @@ proofreading:
     contributor_names:
     reward: 0.24
   - language: zh-Hant
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.27
+      - maxi945
+    reward: 0.13
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -138,3 +139,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.3
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24

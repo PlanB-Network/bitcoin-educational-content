@@ -1,0 +1,8 @@
+question: Jika mekanisme penyesuaian tingkat kesulitan Bitcoin menghadapi skenario di mana blok-blok tahun 2016 sebelumnya membutuhkan waktu 6 minggu untuk ditambang, bukannya 2 minggu seperti yang diharapkan, faktor penyesuaian apa yang akan diterapkan?
+answer: Tingkat kesulitan akan dikurangi dengan faktor 4 (pengurangan maksimum yang diizinkan)
+wrong_answers:
+  - Kesulitan akan dikurangi dengan faktor 3 (6 minggu ÷ 2 minggu)
+  - Tingkat kesulitan akan dikurangi dengan faktor 2,5 untuk mencegah koreksi berlebihan
+  - Kesulitan akan dikurangi dengan faktor 6 berdasarkan rasio waktu
+explanation: |
+  Penyesuaian tingkat kesulitan Bitcoin memiliki batas bawaan yang membatasi perubahan dalam faktor empat di kedua arah. Meskipun 6 minggu ÷ 2 minggu = 3, menunjukkan pengurangan 3x, protokol membatasi penyesuaian pada 4x untuk mencegah volatilitas yang ekstrem. Mekanisme keamanan ini memastikan stabilitas jaringan selama perubahan tingkat hash yang besar, seperti pelarangan mining atau kegagalan peralatan, dengan mencegah koreksi berlebihan yang dapat mengganggu kestabilan waktu blok.

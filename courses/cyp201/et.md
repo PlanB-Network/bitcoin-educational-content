@@ -35,7 +35,7 @@ Tere tulemast CYP201 kursusele, kus me uurime põhjalikult HD Bitcoin rahakottid
 Selle koolituse eesmärk on anda sulle võtmed igapäevaselt kasutatavate tööriistade meisterlikuks kasutamiseks. HD Bitcoin rahakotid, mis on sinu kasutajakogemuse südames, põhinevad mõnikord keerulistel kontseptsioonidel, mida me püüame muuta ligipääsetavaks. Koos demüstifitseerime need!
 
 Enne kui sukeldume Bitcoin rahakottide ehituse ja toimimise detailidesse, alustame mõne peatükiga krüptograafilistest primitiividest, mida on vaja järgneva jaoks teada.
-Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: SHA256.
+Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Järgnevalt arutame digitaalallkirja algoritmide toimimist, mida sa iga päev oma UTXOde turvamiseks kasutad. Bitcoin kasutab kahte: ECDSA ja Schnorri protokolli. Sa õpid, millised matemaatilised primitiivid nende algoritmide aluseks on ja kuidas need tagavad tehingute turvalisuse.
@@ -45,7 +45,7 @@ Järgnevalt arutame digitaalallkirja algoritmide toimimist, mida sa iga päev om
 Kui meil on hea arusaam nendest krüptograafia elementidest, liigume lõpuks koolituse südamesse: deterministlikud ja hierarhilised rahakotid! Esiteks on jaotis pühendatud mnemoonilistele fraasidele, neile 12 või 24 sõna jadadele, mis võimaldavad sul luua ja taastada oma rahakotte. Sa avastad, kuidas neid sõnu genereeritakse entroopia allikast ja kuidas need lihtsustavad Bitcoin'i kasutamist.
 
 ![CYP201](assets/en/003.webp)
-Koolitus jätkub BIP39 paroolifraasi, seemne (mitte segi ajada mnemoonilise fraasiga), peamise ahelakoodi ja peamise võtme uurimisega. Vaatame üksikasjalikult, mis need elemendid on, nende vastavad rollid ja kuidas neid arvutatakse.
+Koolitus jätkub [BIP39](https://planb.academy/resources/glossary/bip0039) paroolifraasi, seemne (mitte segi ajada mnemoonilise fraasiga), peamise ahelakoodi ja peamise võtme uurimisega. Vaatame üksikasjalikult, mis need elemendid on, nende vastavad rollid ja kuidas neid arvutatakse.
 ![CYP201](assets/en/004.webp)
 
 Lõpuks, alates peamisest võtmest, avastame, kuidas krüptograafilised võtmepaarid tuletatakse deterministlikul ja hierarhilisel viisil kuni vastuvõtvate aadressideni.
@@ -656,7 +656,7 @@ See on Bitcoin'i põhitoimimine, kuid aja jooksul on see toiming muutunud keeruk
 Kasutaja, kes soovib teha Bitcoin'i tehingu, peab looma digitaalse allkirja kasutades oma privaatvõtit küsimuses oleva tehingu jaoks. Allkirja saavad kontrollida teised võrgu osalejad. Kui see on kehtiv, tähendab see, et tehingut alustav kasutaja on tõepoolest privaatvõtme omanik ja seega ka bitcoinide omanik, mida ta soovib kulutada. Teised kasutajad saavad seejärel tehingu aktsepteerida ja edasi levitada.
 Selle tulemusena peab kasutaja, kes omab bitcoine, mis on lukustatud avaliku võtmega, leidma viisi, kuidas turvaliselt hoida seda, mis võimaldab nende vahendite lukust avada: privaatvõti. Bitcoin'i rahakott on täpselt seade, mis võimaldab teil kõiki oma võtmeid hõlpsalt hoida ilma, et teised inimesed neile juurde pääseksid. Seega on see pigem võtmehoidja kui rahakott.
 
-Matemaatiline seos avaliku võtme ja privaatvõtme vahel, samuti võime teostada allkirja, et tõestada privaatvõtme omamist ilma seda paljastamata, on võimalik digitaalse allkirja algoritmi abil. Bitcoin'i protokollis kasutatakse 2 allkirja algoritmi: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) ja **Schnorri allkirja skeem**. ECDSA on digitaalse allkirja protokoll, mida on Bitcoin'is kasutatud selle algusest peale. Schnorr on Bitcoin'is uuem, kuna see tutvustati novembris 2021 Taprooti uuendusega.
+Matemaatiline seos avaliku võtme ja privaatvõtme vahel, samuti võime teostada allkirja, et tõestada privaatvõtme omamist ilma seda paljastamata, on võimalik digitaalse allkirja algoritmi abil. Bitcoin'i protokollis kasutatakse 2 allkirja algoritmi: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) ja **Schnorri allkirja skeem**. ECDSA on digitaalse allkirja protokoll, mida on Bitcoin'is kasutatud selle algusest peale. Schnorr on Bitcoin'is uuem, kuna see tutvustati novembris 2021 Taprooti uuendusega.
 Need kaks algoritmi on oma mehhanismides üsna sarnased. Mõlemad põhinevad elliptilise kõvera krüptograafial. Peamine erinevus nende kahe protokolli vahel seisneb allkirja struktuuris ja mõnedes spetsiifilistes matemaatilistes omadustes. Seega uurime nende algoritmide toimimist, alustades vanimast: ECDSA.
 
 ### Elliptilise Kõvera Krüptograafia
@@ -1903,19 +1903,21 @@ Kui kasutaja saab bitcoine, loob saatja väljundi UTXO ja lukustab selle _script
 
 Täpselt _scriptPubKey_-s leitakse vastuvõtvad aadressid. Siiski, nende kasutamine varieerub sõltuvalt kasutatavast skripti standardist. Siin on kokkuvõttev tabel teabest, mis sisaldub _scriptPubKey_-s vastavalt kasutatud standardile, samuti teabest, mida oodatakse _scriptSig_-s, et avada _scriptPubKey_.
 
-| Standard           | _scriptPubKey_                                              | _scriptSig_                     | _redeem script_  | _witness_                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ---------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                  |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                  |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Suvalised andmed |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                  | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                  | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>` | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>` | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                  | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                  | `<data pushes> <script> <control block>` |
 
-_Allikas: Bitcoin Core PR review club, 7. juuli 2021 - Gloria Zhao_
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Suvalised andmed | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Allikas: Bitcoin Core PR review klubi 7. juuli 2021 – Gloria Zhao_
 
 Skriptis kasutatavad operaatorid on mõeldud teabe manipuleerimiseks ja vajadusel selle võrdlemiseks või testimiseks. Võtame näiteks P2PKH skripti, mis on järgmine:
 

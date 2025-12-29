@@ -1,10 +1,9 @@
-question: Jak vysoké jsou poplatky za transakce v síti Lightning Network, často jsou nižší než...?
-answer: 0,5 %.
+question: Jakou výhodu nabízí Ark oproti Lightningu při přijímání plateb?
+answer: Není potřeba příchozí likvidita
 wrong_answers:
-  - 1 %.
-  - 2 %.
-  - 3 %.
-explanation: >-
-  Poplatky za transakce v síti Lightning Network jsou extrémně nízké, často
-  jsou nižší než 0,5 %.
-reviewed: true
+  - Okamžitá finalita platby
+  - Absence transakčních poplatků
+  - Není potřeba mít peněženku
+explanation: |
+  Ark umožňuje přijímat platby bez předchozí dostupnosti příchozí likvidity.
+reviewed: false

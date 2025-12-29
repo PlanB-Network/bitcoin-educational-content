@@ -1,0 +1,8 @@
+question: Ni sintaksia gani inayotumika kufikia sehemu ya kwanza ya muundo wa tuple katika Rust?
+answer: Nukuu ya nukta yenye faharasa 0 (k.m., instance.0)
+wrong_answers:
+  - Mabano ya mraba yenye faharasa 0 (k.m., instance[0])
+  - Nukuu ya mshale yenye faharasa 0 (k.m., mfano->0)
+  - Tumbo la ndani maradufu lenye faharasa 0 (k.m., mfano::0)
+explanation: |
+  Miundo ya tuple katika Rust hutumia nukuu ya nukta ikifuatiwa na faharasa ya sehemu ili kufikia sehemu zao zisizo na majina. Sehemu ya kwanza inafikiwa na .0, ya pili na .1, na kadhalika. Hii ni tofauti na safu au vekta zinazotumia mabano ya mraba, na tofauti na C++ ambayo hutumia nukuu ya mshale kwa viashiria. Sintaksia ya koloni mbili imehifadhiwa kwa ajili ya kazi zinazohusiana na nafasi ya majina, si ufikiaji wa sehemu.

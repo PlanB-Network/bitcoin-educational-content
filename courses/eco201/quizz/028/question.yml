@@ -32,11 +32,12 @@ proofreading:
     contributor_names:
     reward: 0.34
   - language: fr
-    last_contribution_date: '2025-11-05'
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - nrak10
-    reward: 0.14
+      - user28238
+    reward: 0.07
   - language: it
     last_contribution_date:
     urgency: 1
@@ -137,3 +138,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.46
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.34

@@ -6,4 +6,4 @@ wrong_answers:
   - ICMPv4
 explanation: |
   DHCPv6 gestiona explícitamente los tiempos de vida a través del lease, mientras que NDP los anuncia en sus mensajes de configuración del router.
-reviewed: false
+reviewed: true

@@ -405,7 +405,7 @@ Aha musi, urashobora gushima kopi yanje y’ikibumbano canditsweko amajambo y’
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/rn/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Ndafise kandi ico nemera ko ari igisate c’ukuri c’ikisumeri cari gifise akaj
 Ivyo bimenyetso vyari bifise utubazo dutoduto vyakoreshwa nk’imikono mu gihe abantu benshi batashobora kwandika, kuko abanditsi b’abahinga bonyene ari bo bari bafise ubwo bushobozi.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/rn/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Hasi, urashobora kubona igipimo c’umubiri twavuze haruguru: ibuye ryanditsweko
 Abanditsi bo muri ico gihe rero barakoresha ng’aho urupapuro rufise ishusho y’urusenga kugira ngo bacape ibimenyetso ku bipande vy’amazi.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/rn/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Mu Bushinwa, ibiceri ntivyari bikenewe ko bishirwako ikimenyetso ku mugaragaro c
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/rn/004.webp)
 
 
 Ico kiri hejuru ni igiceri c’Abashinwa co mu kinjana ca mbere. Ni igice c’ifeza gicuzwe gifise umwobo w’inzira hagati. Ico kinogo cakoreshwa mu gucamwo umugozi, ivyo bikaba vyatuma ivyo biceri bishobora gufatanya kugira ngo haboneke imiringa canke amajosi. Ariko rero, ivyo ntivyari ivyo kwambara ahanini; ahanini vyakoreshwa mu bijanye n’ivy’ibarabara. Vyashobora gufatanya kugira ngo bibe ibice vy’ibara mu buryo bw’imirongo minini, ivyo bipande bikaba bifatanye. Nta bimenyetso vyihariye vyariho, rimwe na rimwe vyari inziga z’umuringa gusa.
@@ -1221,7 +1221,7 @@ Nsanga bishimishije kuvuga aha ko muri Misiri, babandanije gupima ibiceri haciye
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/rn/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Ko tutashobora gutandukanya ukuntu ibiceri bisa n’ivyo Lidiya n’Abaperesi, r
 Hasi, urashobora kubona kimwe mu biceri vya kera cane vyo muri Lidiya, kikaba kirimwo intare ifise umuhigo wayo imbere. Ushobora kubona ikidodo canke umwobo inyuma, bamwebamwe bemera ko vyakoreshejwe kugira ngo bagerageze ubusuku bw’ico cuma no kugira ngo bamenye neza ko atari ikintu co hejuru gusa. Naho iyi ari imwe mu ngero za mbere, birahambaye kumenya ko iki gice ari kopi. Ibice vyanje vyose vy’inzahabu n’ivy’amashanyarazi ni ibishushanyo canke ivy’ukwinezereza vyo muri iki gihe, vyagenewe kunkingira gukoresha amahera yose nazigamye muri iri koraniro.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/rn/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Igihe bigarurira Lidiya mu mwaka w’546 imbere ya Kristu, Abaperesi b’Abakeme
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/rn/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Inyuma y’igice kivuga ku guseruka kw’ibiceri, nashaka gutanga igice kigufi c
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/rn/008.webp)
 
 
 Mu nyuma, nk’uko tuzobibona mu kigabane gikurikira, Abagiriki baranonosoye ubwo buhinga mu guhingura ibiceri vy’ibiceri vy’ikibumbano vyari bikubitwa n’inyondo ku mpande zompi. Baca bafata igice c’icuma c’agaciro kiryoshe kandi gisongoye, bagacapa ku ruhande rumwe igishushanyo bipfuza, hanyuma bakagitera inyundo n’ukuboko kugira ngo bareme ico giceri giheza.
@@ -1413,7 +1413,7 @@ Mu nyuma, nk’uko tuzobibona mu kigabane gikurikira, Abagiriki baranonosoye ubw
 Ubuhinga bwo gucapura ibiceri n’amaboko umuntu ku giti ciwe birashoboka ko bwagize uruhara mu kugenzura ugutera imbere kw’ibiciro muri ico kiringo, naho nyene akenshi ivyo biceri vyari bifise amazi menshi kugira ngo bibe vyinshi. Ivyo vyagaragaye canecane mu kiringo c’Abaroma, no ku rugero rutoyi, mu gihe c’intambara zimwezimwe zo mu kiringo c’Abagiriki. Naho gucapura ibiceri bimwe bimwe vyagabanya ubushobozi bw’ubutegetsi bwo gukora ibiceri vyinshi, vyarafashije cane mu kugenzura ugutera imbere kw’ibiciro, naho nyene hariho ugucika intege gukomeye kw’agaciro. Gutyo, ubwihindurize bwarateye imbere buva ku gipande c’icuma cariko kirakubitwa gushika ku gice c’ifeza c’ikibumbano kandi gicubitwa n’inyondo.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/rn/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Aha musi, urashobora gushima akarorero gatangaje k’amabuye y’agaciro yo mw�
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/rn/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Ico kiguzi c’amahera gishingiye gusa ku cizigiro c’uko hari uwuzohindura ayo
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/rn/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Aha musi, urashobora kubona tweet ya Stephanie Kelton, akaba ari ubwoko bw’umu
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/rn/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Kandi ndafise amahirwe yo kuronka kopi y’idarakima y’ikigiriki yo muri ico g
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/rn/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Iryo guhura ry’agaciro n’Abagiriki bo mu bumanuko bw’Ubutaliyano ryatumye 
 Nkako, ibiceri vyinshi vy’Abaroma vyo mu gihe ca Repubulika vyerekana imigani y’abashinze igihugu. Ushobora kubona ivyanje hano musi: ni igiceri ciza cane, c’ukuri kivuye ku Mwami Tatiyusi. Irerekana inkuru y’imigani y’ugushimutwa kw’abagore mu Basabine. Tatius yari umwami w’ako karere, kandi inkuru y’imigani yashinze iyo karere ivuga ingene Abaroma bashimusa abagore mu Basabine, abantu baba hafi y’aho. Mu nyuma, Umwami Tatius yarabaye umwami kumwe na Romulus, umwe mu bashinze Uburoma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/rn/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Aha, turashobora gusubira ku ciyumviro twamaze kuvuga ku bijanye n’uko Abagiri
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/rn/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Inyuma y’aho Kayisari yiciwe mu mwaka w’44 imbere ya Kristu, Octavien (Augus
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/rn/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/rn/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/rn/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/rn/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Iki gice kiramfasha gutanga igice ca nyuma muri iki gice: antoninianus. Izina ry
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/rn/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/rn/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Mu vy’ukuri, Aurelien ni we yahinguye ubwo buryo bwo gucapura agaciro k’ibin
 Kugira ngo nshire ahabona mu buryo bw’amaso iyo nzira y’ugucika intege cane, narabonye imibare iryoshe cane yerekeye igiciro c’intete muri Misiri kuva mu 40 imbere ya Kristu gushika mu kinjana ca 3, ikaba ifata imyaka irenga 300. Hasi, urashobora kubona tetradrachma y’ikigiriki yo mu vyo nakoranije. Iciyo gihe, mu Misiri mu gihe c’ubutegetsi bw’Abaroma mu kinjana ca 3, amahera angana na yo yari tetradrakema y’Abanyamisiri. Igitigiri c’idarakima cari kigikoreshwa, kandi cari gihuye n’idenariyo.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/rn/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/rn/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Nk’ikintu ca mbere gifitaniye isano n’ico gihe, reka ndabereke igishushanyo 
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/rn/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Kugira ngo ukore ihuriro n’Abatempuliye, aha musi urashobora kwihweza igiceri 
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/rn/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Aha musi urashobora kubona igishushanyo c’i Florin: Florin y’inzahabu ikozwe
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/rn/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Ukwo gusubira mu biceri vy’inzahabu kwatumwe n’ikintu kidasanzwe: ugusenyuka
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/rn/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/rn/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Muri ico gihe niho kandi Uburayi bwamenye ko hariho amahera y’impapuro mu Bush
 Turavuga ubuhinga bwo gutera pendule twavuze imbere y’aho mu nyigisho. Ubwo buryo bwatumye hakorwa ibiceri bihuye cane ugereranije n’ugutera inyundo kandi, ikiruta vyose, vyatuma habaho inyandiko zikikuje urubibi rw’ico giceri, nk’uko nabigaragaje mbere. Ico kiri musi ni thaler y’i Buraya yo mu 1793, yerekana neza ivyanditswe ku ruhande.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/rn/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Mu kwishura ku vyo Uburaya bwasaba ku bijanye n'inzahabu n'ifeza, "ikintu cama g
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/rn/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Igihe Isi Nshasha yigaruriye, **Espagne** ni yo yabaye umukinyi w’agaciro. Umw
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/rn/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Igikoresho c'ukuri c'Igisupanyoli, kizwi kandi kw'izina rya "igice c'umunani", c
 Ikintu gishimishije cane ni uko idolari ry’Ubusupanyoli ryari rikoreshwa nk’ifaranga ry’ububiko mpuzamakungu ico gihe. Abategetsi bo muri Esupanye na bo nyene barasohora amahera yabo yo mu karere, ari yo maravedi, kandi barama bahindura amahera biciye ku kwibutsa amahera. Nk'akarorero, igiceri c'umuringa canke c'umuringa mu ntango cari gifise agaciro ka maravedi imwe coshobora kwibukwa kigashirwako ikidodo ca "2," hanyuma kigashirwako ikidodo ca "4," n'ibindi, bikaba bishobora gushika kuri "8." Muri iyo foto y'agaciro kanini, urashobora kubona neza "8" iteye ikidodo ku gice c'ifeza. Ubwo buryo bwatumye amafaranga agenda aragwira neza... ivyo bikaba vyatumye ata kabuza haba ugutera imbere kw’ibiciro.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/rn/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Inyuma y’igihe c’ubutegetsi bwa Ibérie, **Ubuholandi** bwaje nk’igihugu g
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/rn/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/rn/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Amategeko arushirizaho kubuzanya abantu yararondeye gutegeka uwo muntu, ariko nt
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/rn/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Uko ayo mahera y’impapuro yasubirira ibiceri vyose vy’agaciro vy’agaciro, 
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/rn/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Umwami yari igiceri c’amahera - igiceri c’inzahabu mu ntango cari gifise aga
 Imbere y’uwo mwami rurangiranwa hari igiti citwa guinée, kikaba cari gikoresha iyo ngingo ngenderwako nyene. Gineya yitiriwe izina ry’ivyuma vy’agaciro vyari muri yo, bikaba vyava mu karere ka Gineya.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/rn/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/rn/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ I Anvers haraba amasoko y’abadandaza aho abadandaza bakunda gukoranira kugira 
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/rn/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Hanyuma haza ubwoba bwo mu 1776. Bose bariruka baduga ku piramide y’amahera. I
 Twaravuye ku giciro c’i florin tuja ku gushinga Banki y’Ubwongereza. Ego ni ko, muri ico gihe hariho Intambara ya mbere n’iya kabiri y’isi yose, mugabo imbere y’aho, mu 1796, hari ibintu vyariko biraba no ku rundi ruhande rw’ikiyaga Atalantika. Mu 1776, Amerika yari ikiri igikoloni c’Abongereza, kandi ivyo bihugu vyari vyarigaruriye vyakoresha ayo mafaranga y’impapuro. Hasi hariho amafaranga y’amashilingi abiri ya Connecticut yo mu 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/rn/040.webp)
 
 
 Imbere y’uko amakoloni atangaza intambara ku Bwongereza, amaherezo agasohora amahera yayo bwite, yakoresha ayo mafaranga y’impapuro, iruhande y’idolari ry’Esupanye mu gucuruza amahera. Nkako, ijambo "idolari" ryagumye ryerekana idolari ry'Amerika.
@@ -3767,7 +3767,7 @@ Imbere y’uko amakoloni atangaza intambara ku Bwongereza, amaherezo agasohora a
 Nimba ntabeshe, mu 1792 barashizeho itegeko ryabemerera gukora amahera y’ibiceri. Nk’akarorero, iri musi ni idolari ry’Amerika ry’iki gihe.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/rn/041.webp)
 
 
 Ego cane, biragaragara ko ata gaciro k’imbere k’idolari rimwe gusa; rifise agaciro k’amadolari nka 30 canke 40, kuko rigereranya onze y’ifeza. Agaciro kayo karahinduka bivanye n’igiciro c’ifeza, mu bisanzwe umuntu akayishira ku madolari 30 canke 40 y’Amerika. Birumvikana ko muri iki gihe idolari ry’impapuro riguma rifise agaciro k’idolari rimwe gusa, ariko ico gihe, idolari ry’Amerika ryari rishingiye kuri ako gaciro k’ifeza.
@@ -3777,7 +3777,7 @@ Reka tuvuge ku ntambara y’abanyagihugu muri Amerika ubu. Aba Confederates bari
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/rn/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Ababarwanya bo mu buraruko na bo nyene bari bafise amadolari. Hejuru gusa, wosho
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/rn/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Inyuma y'intambara ya mbere y'isi yose, urutonde rwa nyuma rw'amafaranga y'amahe
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/rn/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Aha musi urashobora kubona icete c'inzahabu co mu 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/rn/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Inyuma y’aho itegeko ry’ubutegetsi 6102 risohokeye, bafata inzahabu zose, ba
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/rn/046.webp)
 
 
 Iciyumviro c'amahera yemewe n'amategeko kiraseruka aha, gisubirira ijambo "rishobora gucungurwa mu nzahabu." Izo mpapuro zibiri zishobora gusa n’izisa, amajambo makeyi gusa agahinduka, ariko ubuhendanyi buri mu kuba idolari ryagabanutse agaciro muri ico kiringo; ryagabanutse kuva ku ounce y’inzahabu yari ifise agaciro k’amadolari 20,67 gushika ku madolari 35 ku ounce mu 1934. Ryagereranya ko agaciro k’inzahabu kagabanutse hafi 40%!
@@ -3869,10 +3869,10 @@ Bakeneye gusa kumenya neza ko bashobora gukora ivyo bihembo, ariko nta 3%, 1%, 1
 
 
 
-Kugira ngo utahure isano riri hagati y’amahera n’ugutera imbere kw’ibiciro, ndabagira inama yo gukora inyigisho mfise kuri Plan ₿ Network yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ivyo ni vyo tubona mu buzima, n’ugutera imbere kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
+Kugira ngo utahure isano riri hagati y’amahera n’ugutera imbere kw’ibiciro, ndabagira inama yo gukora inyigisho mfise kuri Plan ₿ Academy yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ivyo ni vyo tubona mu buzima, n’ugutera imbere kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Kugira ngo nsozere iki gice ku isi ya fiat, ndashaka kwerekana uburyo bwo kubafasha gutahura neza ibintu nsanzwe ndasigura, nk’ugutera imbere kw’ibiciro.
 
@@ -3903,7 +3903,7 @@ Law akoresheje iyo nzira, yarahuje amahera y’impapuro n’imigabane y’ishira
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/rn/047.webp)
 
 
 

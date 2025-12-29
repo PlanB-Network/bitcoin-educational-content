@@ -38,7 +38,7 @@ O primeiro passo é, obviamente, descarregar a aplicação Aqua. Aceda à sua lo
 - [Para a Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
-Para os utilizadores de Android, existe também a opção de instalar a aplicação através do ficheiro `.apk` [disponível no GitHub] (https://github.com/AquaWallet/aqua-wallet/releases).
+Para os utilizadores de Android, existe também a opção de instalar a aplicação através do ficheiro `.apk` [disponível no GitHub](https://github.com/AquaWallet/aqua-wallet/releases).
 
 ![AQUA](assets/fr/05.webp)
 

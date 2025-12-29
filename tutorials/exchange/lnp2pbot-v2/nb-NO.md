@@ -91,7 +91,7 @@ https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 ### 2. Kom i gang med Lnp2pbot
 
-1. Klikk på denne lenken for å få tilgang til boten: [@lnp2pBot] (https://t.me/lnp2pbot)
+1. Klikk på denne lenken for å få tilgang til boten: [@lnp2pBot](https://t.me/lnp2pbot)
 
 2. Telegram åpnes automatisk
 
@@ -105,7 +105,7 @@ https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 - Bli med på hovedkanalen: [@p2plightning](https://t.me/p2plightning)
-- Support: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Support: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)
 
 ## Kjøp og salg av Bitcoins
 
@@ -266,4 +266,4 @@ Til sammenligning tilbyr løsninger som Bisq større likviditet og et skrivebord
 - Offisiell nettside: https://lnp2pbot.com/
 - Dokumentasjon: https://lnp2pbot.com/learn/
 - GitHub: https://github.com/lnp2pBot/bot
-- Støtte: [@lnp2pbotHelp] (https://t.me/lnp2pbotHelp)
+- Støtte: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)

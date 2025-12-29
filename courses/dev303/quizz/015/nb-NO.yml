@@ -1,0 +1,8 @@
+question: Hva er den primære mekanismen Rust bruker for å forhindre minnerelaterte feil som use-after-free og bufferoverløp?
+answer: Statisk analyse utføres utelukkende på kompileringstidspunktet
+wrong_answers:
+  - Søppeloppsamling ved kjøretid med automatisk minneopprydding
+  - Dynamisk minnekontroll under programutførelse
+  - Manuell minnehåndtering med eksplisitte allokeringskall
+explanation: |
+  Rust forhindrer minnerelaterte feil ved hjelp av statisk analyse som utføres helt og holdent på kompileringstidspunktet, der kompilatoren undersøker kildekoden og avgjør med sikkerhet om minneoperasjoner er sikre. Dette skiller seg fra garbage collection (som brukes av Java/Go), som medfører overhead under kjøring, dynamisk kontroll, som krever verifisering under kjøring, og manuell minnehåndtering (som brukes av C/C++), som er avhengig av programmererdisiplin. Rusts kompileringstilnærming sikrer minnesikkerhet uten kjøretidskostnader eller uforutsigbare pauser.

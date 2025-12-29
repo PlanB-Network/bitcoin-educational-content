@@ -137,7 +137,7 @@ Trên trang này, dán URL của rơle Umbrel mà bạn đã sao chép trước 
 
 
 
-**Kết nối:** noStrudel cung cấp cho bạn một số tùy chọn kết nối. Trong trường hợp của chúng tôi, chúng tôi sẽ chọn "Private Key" và dán vào khóa riêng Nostr đã tạo trước đó của bạn. Nếu bạn chưa có khóa, bạn có thể cài đặt tiện ích mở rộng [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) để tạo và/hoặc lưu khóa Nostr của bạn và do đó giao tiếp an toàn hơn với các ứng dụng Nostr khác nhau.
+**Kết nối:** noStrudel cung cấp cho bạn một số tùy chọn kết nối. Trong trường hợp của chúng tôi, chúng tôi sẽ chọn "Private Key" và dán vào khóa riêng Nostr đã tạo trước đó của bạn. Nếu bạn chưa có khóa, bạn có thể cài đặt tiện ích mở rộng [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) để tạo và/hoặc lưu khóa Nostr của bạn và do đó giao tiếp an toàn hơn với các ứng dụng Nostr khác nhau.
 
 
 

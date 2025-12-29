@@ -1,0 +1,8 @@
+question: Jaký je hlavní mechanismus, kterým funkce nulových kanálových rezerv sady Breez SDK vytváří dodatečné riziko, které musí poskytovatelé služeb Lightning absorbovat?
+answer: Poskytovatelé místních služeb musí přijmout riziko, že uživatelé utratí celý zůstatek kanálu, čímž se eliminuje bezpečnostní rezerva, která tradičně chrání před nuceným uzavřením kanálu
+wrong_answers:
+  - LSP se stávají zodpovědnými za udržování nepřetržité synchronizace síťového grafu napříč více uživatelskými zařízeními bez tradiční kompenzace poplatků na základě rezerv
+  - LSP musí zaručit okamžité směrování plateb bez likvidního polštáře, který poskytují rezervy kanálů pro řešení scénářů přetížení sítě
+  - LSP přebírají odpovědnost za selhání výměny on-chain, když se uživatelé pokoušejí převést celý zůstatek blesku na Bitcoin během období vysokých poplatků
+explanation: |
+  Nulové rezervy kanálů umožňují uživatelům utratit celý zobrazený zůstatek, ale tím se eliminuje tradiční bezpečnostní rezerva, která chrání poskytovatele služeb Lightning při nuceném uzavření kanálu. Rezervy kanálů obvykle zajišťují, že některé prostředky zůstanou zablokovány na pokrytí nákladů na uzavření a poskytují zabezpečení proti škodlivému chování. Odstraněním těchto rezerv za účelem zlepšení uživatelského komfortu musí poskytovatelé služeb LSP absorbovat dodatečná provozní a finanční rizika, která měly tyto rezervy zmírnit, což představuje jasný kompromis, kdy se technická složitost a riziko přesouvají z uživatelů na poskytovatele služeb.

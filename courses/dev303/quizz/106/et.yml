@@ -1,0 +1,8 @@
+question: Milline põhiline disainiprintsiip võimaldab LDK-l luua Lightning-teadlikud HSMid, mis suudavad arukalt hinnata, kas tehing kujutab endast seaduslikku makseviimistlust või potentsiaalselt pahatahtlikke katseid?
+answer: LDK modulaarne ülesehitus võimaldab eraldada spetsiifilisi tehingu allkirjastamise ja kontrollimise komponente, säilitades samal ajal Lightning-protokolli konteksti teadlikkuse
+wrong_answers:
+  - "LDK sündmusepõhine süsteem märgistab automaatselt kahtlased tehingud masinõppe algoritmide abil, mis on integreeritud põhiosas allkirjastamisprotsessi"
+  - "LDK plokiahela abstraktsioonikiht pakub reaalajas pettuste tuvastamist, ristkordades kõiki tehinguid võrgu klatšiandmetega"
+  - "LDK peer-haldussüsteem rakendab täiustatud krüptograafilisi allkirju, mis eristavad olemuslikult seaduslikke ja pahatahtlikke tehingumustreid"
+explanation: |
+  LDK modulaarne ülesehitus võimaldab arendajatel eraldada ainult allkirjastamise ja kontrollimise komponendid, säilitades samal ajal Lightning-protokolli intelligentsuse, mis on vajalik tehingu konteksti mõistmiseks. See võimaldab HSM-idel teha teadlikke otsuseid maksete edastamise, kanalioperatsioonide ja turvaohtude kohta, mitte pimesi allkirjastada tehinguid. Väärad vastused omistavad selle võime ebaõigesti automaatsele pettuste tuvastamisele, plokiahela jälgimisele või krüptograafilistele allkirjadele, kuigi tegelikult on see modulaarse arhitektuuri võime säilitada protokolli teadlikkust isoleeritud komponentides, mis võimaldab tehingu intelligentset hindamist.

@@ -1,0 +1,8 @@
+question: Quale meccanismo crittografico permette a Liquid Network di verificare che gli input delle transazioni siano uguali agli output più le commissioni senza rivelare gli importi reali al pubblico?
+answer: Impegni di Pedersen e prove di intervallo
+wrong_answers:
+  - Alberi Merkle e firme digitali
+  - Hash Contratti a tempo e multi-firma
+  - Firme Schnorr e script Taproot
+explanation: |
+  I Pedersen Commitments e le Range Proofs sono le primitive crittografiche specifiche che permettono a Liquid di nascondere gli importi pur consentendo la verifica matematica. I Pedersen Commitments si legano crittograficamente ai valori senza rivelarli, mentre le Range Proofs assicurano che tutti gli importi siano numeri interi positivi, impedendo agli utenti di creare denaro attraverso valori negativi. Le altre opzioni sono strumenti crittografici Bitcoin legittimi, ma non forniscono le capacità di accecamento necessarie per le transazioni riservate in cui gli importi rimangono nascosti ma verificabili.

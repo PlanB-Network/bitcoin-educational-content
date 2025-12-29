@@ -6,3 +6,4 @@ wrong_answers:
   - Online sistemi obrađuju transakcije brže, što olakšava protivnicima da pokrenu koordinisane napade.
 explanation: |
   Ključna razlika koju ističe Andrew Poelstra je da fizički sistemi mogu da se oslanjaju na sprovođenje zakona i vidljivost protivnika kako bi odvratili napade, čak i prihvatajući neke rizike poput spaljivanja zgrada. Međutim, onlajn sistemi poput Bitcoin funkcionišu u okruženju gde protivnici mogu delovati pod pseudonimom ili anonimno, povezivati se sa bilo kog mesta i iskorišćavati slabosti bez identifikacije ili hvatanja. Ova fundamentalna razlika znači da sve poznate slabosti u Bitcoin moraju biti rešene, jer će ih neizbežno iskoristiti nevidljivi protivnici koji se ne suočavaju sa posledicama u stvarnom svetu.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Fastställande av lämplig ekonomisk ersättning för upptäckt av sårbarheter innan man går med på att lämna ut informationen till utvecklare
 explanation: |
   Den viktigaste etiska utmaningen när det gäller ansvarsfullt avslöjande är den känsliga balansen mellan öppenhet och säkerhet. Forskare måste se till att sårbarheter åtgärdas utan att oavsiktligt tillhandahålla en färdplan för skadlig exploatering. Detta innebär noggrann samordning med utvecklare, lämplig tidpunkt för offentliggöranden och beaktande av den bredare påverkan på ekosystemet. De andra alternativen fokuserar på ekonomiska eller regleringsmässiga problem som, även om de kan vara relevanta, inte är det primära etiska dilemma som beskrivs i ansvarsfull informationspraxis.
+reviewed: false

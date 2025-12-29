@@ -1,0 +1,8 @@
+question: Katika mchakato wa kushikana mikono wa mtandao wa P2P wa Bitcoin, ni sharti gani mahususi linalopaswa kutimizwa kabla ya nodi mbili kuanza kusambaza orodha za bidhaa na data ya miamala kikamilifu?
+answer: Nodi zote mbili lazima zibadilishane ujumbe wa toleo na verack
+wrong_answers:
+  - Nodi inayounganisha lazima ipokee uthibitisho wa DNS seed kutoka kwa watengenezaji msingi
+  - "Nodi zote mbili lazima zithibitishe urefu wa block ya kila moja na hash ya ncha ya mnyororo"
+  - "Nodi inayopokea lazima ithibitishe cheti cha rika cha nodi inayounganisha"
+explanation: |
+  Kusalimiana kwa mkono kwa Bitcoin P2P kunahitaji ubadilishanaji wa pande mbili ambapo nodi inayounganisha hutuma ujumbe wa toleo, mpokeaji hujibu kwa verack na ujumbe wake wa toleo, na mtumaji wa asili hujibu kwa verack yake. Ni baada tu ya ubadilishanaji huu kamili wa ujumbe nne (toleo→verack+toleo→verack) ndipo nodi zinaweza kuanza mawasiliano amilifu. Mbegu za DNS hutumika tu kwa ugunduzi wa awali wa rika, sio kupeana mikono. Bitcoin haitumii vyeti, na uthibitishaji wa mnyororo hutokea baada ya muunganisho kuanzishwa.

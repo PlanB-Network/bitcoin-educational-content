@@ -1,0 +1,8 @@
+question: Ni kizuizi gani cha msingi cha malipo ya Lightning Network kinacholeta changamoto ya kipekee kwa wasanidi programu wa wallet ambayo haipo na miamala ya on-chain Bitcoin?
+answer: Malipo ya umeme yanapatikana tu kama hali za muda ndani ya njia za malipo na hayarekodiwi kabisa kwenye blockchain, ikihitaji mifumo maalum ya kufuatilia historia ya malipo.
+wrong_answers:
+  - Malipo ya umeme yanahitaji rasilimali nyingi zaidi za kompyuta ili kusindika kuliko miamala ya on-chain, na kufanya utekelezaji wa simu kuwa wa rasilimali nyingi.
+  - Malipo ya umeme hayawezi kuthibitishwa kwa njia ya siri kwa njia sawa na miamala ya on-chain, na hivyo kusababisha udhaifu wa usalama kwa utekelezaji wa wallet.
+  - Malipo ya umeme lazima yashughulikiwe kupitia nodi za uelekezaji za kati, na kufanya iwe vigumu kudumisha usanifu wa wallet usio wa ulinzi.
+explanation: |
+  Jibu sahihi linabainisha tofauti kuu ya usanifu kati ya malipo ya Lightning na on-chain. Miamala ya Bitcoin kwenye mnyororo hurekodiwa kabisa kwenye blockchain, na kufanya urejeshaji wa historia ya malipo kuwa rahisi kupitia maswali ya blockchain. Hata hivyo, malipo ya umeme yapo kama hali ya muda tu na hayaachi rekodi ya kudumu ya blockchain, na kulazimisha watengenezaji kutekeleza mifumo maalum ya ufuatiliaji na uhifadhi. Majibu yasiyo sahihi si sahihi kwa sababu: Malipo ya umeme yana ufanisi wa kompyuta (hayatumii rasilimali nyingi), yanadumisha usalama sawa wa kriptografia kama Bitcoin, na uelekezaji wa data umegawanywa (sio wa kati).

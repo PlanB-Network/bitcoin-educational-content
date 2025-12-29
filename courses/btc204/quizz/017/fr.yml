@@ -6,4 +6,4 @@ wrong_answers:
   - Un marqueur d'analyse.
 explanation: |
   Les comportements et informations qui risquent de lier une identité réelle à une activité on-chain sont appelés des “points d'entrée”.
-reviewed: false
+reviewed: true 

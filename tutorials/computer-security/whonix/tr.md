@@ -66,7 +66,7 @@ Whonix'i sanal modda kurmadan önce, makinenizin minimum teknik gereksinimleri k
 
 
 
-Whonix, kullanmak istediğiniz ortamın türüne bağlı olarak çeşitli sürümlerde mevcuttur. Çoğu kullanıcı için (Windows, Linux veya MacOs), VirtualBox sürümü kurulumu en kolay olanıdır. Görüntüyü doğrudan [resmi web sitesinden] (https://www.whonix.org/wiki/VirtualBox) indirebilirsiniz.
+Whonix, kullanmak istediğiniz ortamın türüne bağlı olarak çeşitli sürümlerde mevcuttur. Çoğu kullanıcı için (Windows, Linux veya MacOs), VirtualBox sürümü kurulumu en kolay olanıdır. Görüntüyü doğrudan [resmi web sitesinden](https://www.whonix.org/wiki/VirtualBox) indirebilirsiniz.
 
 
 

@@ -1,0 +1,8 @@
+question: Hva er den viktigste fordelen med å bruke komprimert SEC-format fremfor ukomprimert SEC-format for offentlige nøkler i Bitcoin?
+answer: Den reduserer lagringsstørrelsen fra 65 byte til 33 byte, samtidig som den opprettholder den samme kryptografiske sikkerheten
+wrong_answers:
+  - Den gir sterkere kryptografisk sikkerhet ved å bruke flere krypteringslag
+  - Det muliggjør raskere punktmultiplikasjonsoperasjoner under signaturverifiseringsprosesser
+  - Det gjør det mulig å avlede flere offentlige nøkler fra ett enkelt komprimert format
+explanation: |
+  Komprimert SEC-format reduserer størrelsen på den offentlige nøkkelen fra 65 byte (ukomprimert) til 33 byte ved å lagre bare x-koordinaten og en paritetsbit (0x02- eller 0x03-prefiks) i stedet for begge de fullstendige koordinatene. Y-koordinaten kan rekonstrueres matematisk fra x-koordinaten og paritetsinformasjonen, siden elliptiske kurver har maksimalt to y-verdier for en gitt x. Denne komprimeringen gir betydelige lagringsbesparelser uten tap av sikkerhet, og det er grunnen til at Bitcoin nå foretrekker komprimerte nøkler av effektivitetshensyn.

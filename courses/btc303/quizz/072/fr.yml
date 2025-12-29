@@ -6,3 +6,4 @@ wrong_answers:
   - La concurrence entre les solutions à deux niveaux et les approches à échelle on-chain pour des ressources de développement et un soutien communautaire limités
 explanation: |
   Maxwell a identifié un problème à double face où le Bitcoin perd ses avantages dans les deux sens : si l'utilisation des ressources est trop élevée par rapport à la technologie disponible, la validation devient trop coûteuse et exclut les utilisateurs qui doivent alors s'en remettre à des tiers de confiance au lieu de valider de manière indépendante. Inversement, si la capacité est trop faible et que les méthodes de transaction sont inefficaces, l'accès à la blockchain pour la résolution des litiges devient prohibitif, ce qui pousse à nouveau les utilisateurs vers des services de confiance. Il s'agit là d'un équilibre délicat que les solutions de mise à l'échelle doivent respecter.
+reviewed: false

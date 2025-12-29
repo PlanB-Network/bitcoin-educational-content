@@ -1,0 +1,8 @@
+question: ¿En qué mecanismo económico se basa principalmente la libertad contractual para garantizar que ambas partes se beneficien de los intercambios voluntarios?
+answer: La valoración subjetiva de cada parte que hace que el intercambio sea preferible a abstenerse de él
+wrong_answers:
+  - Normativa gubernamental que garantiza una distribución equitativa de los beneficios entre las partes contratantes
+  - Controles de los precios de mercado que garanticen una compensación justa para todos los participantes en el intercambio
+  - Medición objetiva del valor que crea ganancias matemáticamente equivalentes para ambas partes
+explanation: |
+  Los contratos voluntarios crean un enriquecimiento mutuo porque cada individuo elige participar sólo cuando valora subjetivamente más lo que recibe que lo que cede. Esta preferencia subjetiva, más que cualquier regulación externa o medición objetiva del valor, impulsa la naturaleza de suma positiva del intercambio voluntario. La regulación gubernamental o los controles de precios socavarían este mecanismo voluntario, mientras que la medición objetiva del valor ignora las preferencias personales que motivan a los individuos a contratar en primer lugar.

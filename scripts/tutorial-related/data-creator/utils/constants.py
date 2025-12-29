@@ -8,7 +8,7 @@ SECTIONS = {
     "mining": ["hardware", "pool"],
     "exchange": ["centralized", "peer-to-peer"],
     "business": ["point-of-sale", "others"],
-    "privacy": ["on-chain", "analysis"],
+    "privacy": ["on-chain", "explorer"],
     "computer-security": ["authentication", "communication", "data", "operating system"],
     "contribution": ["content", "resource", "others"]
 }

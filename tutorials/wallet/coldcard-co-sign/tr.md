@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Ortak İmza
+name: COLDCARD - Co-Sign
 description: Co-Sign özelliğini keşfedin ve COLDCARD'ınızda kullanın
 ---
 

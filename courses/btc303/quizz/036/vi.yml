@@ -6,3 +6,4 @@ wrong_answers:
   - Chi phí trợ cấp khối được các sàn giao dịch chi trả thông qua phí giao dịch, trong khi phí giao dịch được thanh toán bởi các nhà cung cấp wallet
 explanation: |
   Như Paul Sztorc đã lưu ý, trợ cấp khối và phí giao dịch về cơ bản khác nhau về bản chất. Trợ cấp khối đại diện cho việc tạo ra bitcoin mới, làm loãng nguồn cung hiện có và trên thực tế gây thiệt hại cho tất cả người nắm giữ bitcoin thông qua lạm phát tiền tệ. Ngược lại, phí giao dịch là khoản thanh toán trực tiếp do người dùng muốn giao dịch thực hiện, nghĩa là người chi trả phải chịu chi phí này trực tiếp. Chương này minh họa sự chuyển đổi này, cho thấy chi phí bảo mật sẽ chuyển từ người nắm giữ sang người chi trả như thế nào khi trợ cấp khối giảm dần theo thời gian.
+reviewed: false

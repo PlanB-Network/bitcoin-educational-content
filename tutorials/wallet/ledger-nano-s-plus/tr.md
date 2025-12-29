@@ -52,7 +52,7 @@ Bence Ledger Nano S Plus, Bitcoin Wallet'nizi güvence altına almak için iyi b
 ## Ledger Nano S Plus nasıl satın alınır?
 
 
-Ledger Nano S Plus [resmi web sitesinde] (https://shop.Ledger.com/products/Ledger-nano-s-plus) satışa sunulmuştur. Fiziksel bir mağazadan satın almak için, Ledger web sitesinde [sertifikalı satıcıların listesini] (https://www.Ledger.com/reseller) de bulabilirsiniz.
+Ledger Nano S Plus [resmi web sitesinde](https://shop.Ledger.com/products/Ledger-nano-s-plus) satışa sunulmuştur. Fiziksel bir mağazadan satın almak için, Ledger web sitesinde [sertifikalı satıcıların listesini](https://www.Ledger.com/reseller) de bulabilirsiniz.
 
 
 ## Ön Koşullar

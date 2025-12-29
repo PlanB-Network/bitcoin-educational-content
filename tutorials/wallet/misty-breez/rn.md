@@ -121,7 +121,7 @@ Ku rutonde rwa Interface **Imibare**, fyonda ku **Kwakira** kugira ngo ukore ama
 
 
 
-Na Misty Breeze, ushobora :
+Na Misty Breez, ushobora :
 
 
 

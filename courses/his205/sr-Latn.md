@@ -405,7 +405,7 @@ Ovde dole, možete se diviti mojoj kopiji tablete sa klinastim pismom. Verujem d
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Takođe imam ono što verujem da je autentična sumerska ploča sa malim klinast
 Oznake sa malim figurama služile su kao potpisi u vreme kada većina ljudi nije znala da piše, jer su samo vešti pisari imali tu sposobnost.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Ispod možete videti gore pomenuti cilindar: kamen urezan sa specifičnim oblici
 Pisari tog vremena su stoga koristili svoj klinasti pisalj da utiskuju znakove na mokre pločice.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ U Kini, novčići nisu nužno morali biti službeno označeni ili garantovani. N
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 Onaj iznad je kineski novčić iz srednjeg veka. To je liveni novčić sa kvadratnom rupom u centru. Ova rupa je korišćena da se kroz nju provuče konopac, omogućavajući da se novčići nanižu zajedno kako bi se napravile narukvice ili ogrlice. Međutim, oni nisu bili prvenstveno za nošenje; uglavnom su korišćeni za računovodstvene svrhe. Mogli su se nizati zajedno da formiraju obračunske jedinice u obliku velikih nizova, sa međusobno povezanim komadima. Nije nužno bilo specifičnih oznaka, ponekad su to jednostavno bili bronzani krugovi.
@@ -1221,7 +1221,7 @@ Smatram da je zanimljivo napomenuti da su u Egiptu nastavili da mere novčiće d
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Pošto ne možemo odvojiti izgled novčića iz Lidije i Persije, pređimo na taj
 Ispod možete videti jedan od najranijih lidijskih novčića, sa lavom i njegovim plenom ispred. Možda ćete primetiti pečat ili rupu na poleđini, za koje neki veruju da su korišćeni za testiranje čistoće metala i osiguranje da nije samo površinski sloj. Iako je ovo jedan od najranijih primera, važno je napomenuti da je ovaj komad kopija. Svi moji zlatni i elektrumski komadi su replike ili moderne rekreacije, dizajnirane da me spreče da potrošim sve svoje uštede na ovu kolekciju.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Kada su osvojili Lidiju 546. godine pre nove ere, Ahemenidski Persijanci su odma
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Nakon odeljka o pojavi novčića, želeo sam da uvedem veoma kratak odeljak o ev
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 Kasnije, kako ćemo istražiti u narednom delu, Grci su usavršili ovu tehnologiju stvaranjem okruglih novčića koji su bili kucani s obe strane. Uzeli bi glatki, ravni komad plemenitog metala, ugravirali željeni dizajn na jednoj strani, a zatim ga ručno kucali kako bi stvorili gotov novčić.
@@ -1413,7 +1413,7 @@ Kasnije, kako ćemo istražiti u narednom delu, Grci su usavršili ovu tehnologi
 Tehnologija ručne izrade kovanica pojedinačno verovatno je igrala ulogu u kontroli inflacije tokom tog vremena, iako su kovanice često bile razblažene kako bi se povećala proizvodnja. Ovo je bilo posebno evidentno tokom rimskog perioda i, u manjoj meri, tokom određenih ratova u grčkom periodu. Dok je kovanje kovanica jednu po jednu ograničavalo sposobnost vlasti za masovnu proizvodnju, ono je efikasno doprinosilo kontroli inflacije, uprkos značajnim devalvacijama koje su se dešavale. Tako je evolucija napredovala od komada metala koji se udarao do okrugle, kucane kovanice.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Ovde dole, možete se diviti upečatljivom primeru monumentalnih kamenova na ost
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Monetarna premija jednostavno se zasniva na poverenju da će neko kasnije zameni
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Ispod možete videti tvit od Stephanie Kelton, koja je neka vrsta poster žene z
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ I imam tu sreću da imam kopiju grčke drahme iz tog perioda sa čuvenom sovom i
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Odlučujući susret sa Grcima južne Italije zaista je upoznao Rimljane sa kovan
 Zapravo, mnogi rimski novčići iz perioda Republike prikazuju osnivačke mitove. Možete videti moj ovde ispod: to je izvanredan, pravi novčić od kralja Tatija. Ilustruje mit o otmici žena od Sabinjana. Tacije je bio kralj ovog regiona, a osnivački mit govori o tome kako su Rimljani oteli žene od Sabinjana, populacije koja je živela u blizini. Nakon toga, kralj Tacije je postao su-kralj sa Romulom, jednim od osnivača Rima.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Ovde možemo ponovo razmotriti koncept o kojem smo ranije diskutovali u vezi sa 
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Nakon Cezarovog ubistva 44. godine pre nove ere, Oktavijan (Avgust) je preuzeo k
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/sr-Latn/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Ovaj deo mi omogućava da predstavim poslednji komad u ovom odeljku: antoninijan
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Zaista je Aurelijan bio taj koji je izmislio ovaj oblik devalvacije, koji je mno
 Da bih vizuelno ilustrovao ovu ekstremnu devalvaciju, pronašao sam fascinantne statistike o ceni žita u Egiptu od 40. godine pre nove ere do 3. veka, u periodu dužem od 300 godina. Ispod možete videti grčku tetradrahmu iz moje kolekcije. U to vreme, u Egiptu pod rimskom okupacijom u 3. veku, ekvivalent je bila egipatska tetradrahma. Denominacija drahmi je i dalje bila u upotrebi i odgovarala je denariju.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Kao prvi artefakt vezan za ovaj period, dozvolite mi da vam pokažem reprodukcij
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/sr-Latn/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Da bi se uspostavila veza sa Templarima, ovde dole možete posmatrati francuski 
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Ispod možete videti reprodukciju Florina: zlatni Florin napravljen od kalaja i 
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Ovaj povratak zlatnom novcu bio je vođen specifičnim kontekstom: kolaps Vizant
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/sr-Latn/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Takođe, tokom ovog perioda, Evropa je postala svesna postojanja papirnog novca 
 Pozivamo se na tehniku udarca klatnom koja je ranije pomenuta u kursu. Ova metoda je omogućila proizvodnju ujednačenijih novčića u poređenju sa udarcem čekićem i, što je važno, omogućila je natpise oko ivice novčića, kao što sam ranije pokazao. Onaj ispod je evropski talir iz 1793. godine, koji jasno pokazuje natpis na ivici.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Kao odgovor na evropsku potražnju za zlatom i srebrom, "stalna motivacija za ve
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Sa osvajanjem Novog sveta, **Španija** je postala dominantni igrač. Njen monar
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Sa osvajanjem Novog sveta, **Španija** je postala dominantni igrač. Njen monar
 Ono što je posebno zanimljivo jeste da je španski dolar služio kao međunarodna rezervna valuta u to vreme. Španske vlasti su takođe izdavale svoju lokalnu valutu, maravedi, i redovno prilagođavale količinu novca kroz povlačenja. Na primer, bakarni ili bronzani novčić koji je u početku vredeo jedan maravedi mogao je biti povučen i označen sa "2," zatim kasnije sa "4," i tako dalje, potencijalno dostižući "8." Na fotografiji visoke rezolucije jasno možete videti "8" utisnut na novčiću. Ova metoda je efikasno proširila količinu novca... što je neizbežno dovelo do inflacije.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Nakon iberijskog vrhunca, **Holandija** se pojavila kao nova trgovačka sila u 1
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/sr-Latn/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Strožiji zakoni su pokušali nametnuti asignat, ali bez uspeha. Vlada je pokuš
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Kako je ovaj papirni novac zamenio sav kvalitetan kovani novac od plemenitih met
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/sr-Latn/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Suveren je bio monetarni novčić - zlatni novčić koji je prvobitno vredeo jed
 Prethodila je čuvenom suverenu gvineja, koja je funkcionisala na istom principu. Gvineja je dobila ime po plemenitim metalima koje je sadržala, a koji su poticali iz regiona Gvineje.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/sr-Latn/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerp je bio domaćin trgovačkih sajmova gde su se trgovci često okupljali d
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Zatim je došla panika iz 1776. Svi su pohrlili ka vrhu novčane piramide. To zn
 Prešli smo sa florina na osnivanje Banke Engleske. Naravno, između su bili Prvi i Drugi svetski rat, ali ranije, 1796. godine, dešavanja su se odvijala i na drugoj strani Atlantika. Godine 1776, Amerika je još uvek bila britanska kolonija, a kolonije su koristile ovu papirnu valutu. Ispod je prikazana dvodelna novčanica iz Konektikata iz 1776. godine.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 Pre nego što su objavile rat Engleskoj i na kraju izdale sopstvenu valutu, kolonije su koristile ovu papirnu valutu, zajedno sa španskim dolarom za gotovinske transakcije. U stvari, termin "dolar" je ostao da označava američki dolar.
@@ -3767,7 +3767,7 @@ Pre nego što su objavile rat Engleskoj i na kraju izdale sopstvenu valutu, kolo
 Ako se ne varam, 1792. godine doneli su zakon koji im je omogućio da kuju novac. Kao primer, onaj ispod je američki dolar modernog doba.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/sr-Latn/041.webp)
 
 
 Pa, očigledno, nema nominalnu vrednost od samo jednog dolara; vredi oko 30 ili 40 dolara, jer predstavlja uncu srebra. Njegova vrednost varira u zavisnosti od cene srebra, obično ga postavljajući na najmanje 30 ili 40 američkih dolara. Danas, naravno, papirni dolar zadržava samo svoju nominalnu vrednost od jednog dolara, ali u to vreme, američki dolar je bio zasnovan na ovoj vrednosti srebra.
@@ -3777,7 +3777,7 @@ Hajde da sada razgovaramo o Građanskom ratu u Americi. Konfederati su štampali
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/sr-Latn/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Njihovi protivnici sa severa takođe su imali dolare. Iznad, mogli ste videti ko
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/sr-Latn/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Nakon Prvog svetskog rata, poslednja serija štampanih novčanica uvek je uklju�
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/sr-Latn/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Ovde ispod možete videti zlatni sertifikat iz 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/sr-Latn/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Nakon izdavanja Izvršne naredbe 6102, zaplenili su svo zlato i zamenili $20.67 
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/sr-Latn/046.webp)
 
 
 Koncept zakonskog sredstva plaćanja pojavljuje se ovde, zamenjujući frazu "otkupljivo u zlatu." Dve novčanice mogu izgledati identično, sa samo nekoliko reči koje se menjaju, ali prevara leži u činjenici da je dolar bio devalviran tokom ovog perioda; smanjena je vrednost unce zlata sa $20.67 na $35 po unci 1934. godine. To je predstavljalo devalvaciju od približno 40%!
@@ -3869,10 +3869,10 @@ Oni samo treba da se pobrinu da mogu da izvrše ove transfere, ali nema obavezne
 
 
 
-Da biste razumeli vezu između novca i inflacije, preporučujem kurs koji imam na Plan ₿ Network posvećen ovoj temi. Naučićete razliku između povećanja cena, što je ono što vidimo u životu, i inflacije. Oni nisu ista stvar. Zapravo, kada govorimo o inflaciji, često mislimo na povećanje cena, a ne na samu inflaciju. Inflacija je prilično precizan koncept, objašnjen povećanjem količine novca u opticaju.
+Da biste razumeli vezu između novca i inflacije, preporučujem kurs koji imam na Plan ₿ Academy posvećen ovoj temi. Naučićete razliku između povećanja cena, što je ono što vidimo u životu, i inflacije. Oni nisu ista stvar. Zapravo, kada govorimo o inflaciji, često mislimo na povećanje cena, a ne na samu inflaciju. Inflacija je prilično precizan koncept, objašnjen povećanjem količine novca u opticaju.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Da zaključim ovaj deo o fiat svetu, želeo bih da istaknem resurs koji će vam pomoći da bolje razumete fenomene koje sam upravo objasnio, kao što je inflacija.
 
@@ -3903,7 +3903,7 @@ Sa ovim sistemom, Lo je povezao papirni novac sa akcijama svoje kompanije. Što 
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/sr-Latn/047.webp)
 
 
 

@@ -1,0 +1,8 @@
+question: Quando l'operatore punto interrogativo (?) dovrebbe essere preferito ai metodi unwrap() o expect() nella gestione degli errori di Rust?
+answer: Quando è necessario propagare gli errori nello stack delle chiamate, affinché la funzione chiamante possa gestirli
+wrong_answers:
+  - Quando si desidera fornire messaggi di errore personalizzati per il debug delle operazioni fallite
+  - Quando si è certi che l'operazione avrà successo e si vuole evitare la gestione degli errori
+  - Quando è necessario convertire gli errori in un valore predefinito e continuare l'esecuzione del programma
+explanation: |
+  L'operatore punto interrogativo (?) è progettato per la propagazione degli errori: estrae i valori di successo ma restituisce immediatamente gli errori dalla funzione corrente, consentendo ai chiamanti di gestirli. A differenza di unwrap()/expect(), che vanno nel panico in caso di errore, o di unwrap_or(), che fornisce dei valori predefiniti, l'operatore ? mantiene il contesto dell'errore e passa la responsabilità al codice di livello superiore, che può prendere le decisioni di gestione appropriate.

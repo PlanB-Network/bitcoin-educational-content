@@ -1,9 +1,9 @@
-question: Ni ikihe kintu kigaragaza neza ikoreshwa ry’urutonde rw’ivy’ingenzi ku bijanye n’ugutanga amahera ya Bitcoin?
-answer: Resitora yemera amahera makeyi y'ama Bitcoin ku kwezi
+question: Ni ikihe kintu kigaragaza neza ikoreshwa rya karanga ngirakamaro ku bijanye nukuri hakoreshejwe Bitcoin?
+answer: Uburiro bwijiza amahera makeyi y'ama Bitcoin ku kwezi
 wrong_answers:
-  - Ishirahamwe ry'ibihugu vyinshi rikora amafaranga ibihumbi ku musi
-  - Umuntu yigenga yigenga yemera kwishurwa amafagitire yabo mu bitcoins
-  - Ibiro vy'ubudandaji vy'incuro nyinshi Bitcoin
+  - Ishirahamwe rikorera mubihugu vyinshi rikora amarungika yamafaranga agera kubihumbi ku musi
+  - Umuntu yigenga  yemera kwishurwa amafagitire yiwe muma bitcoins
+  - Ibiro vy'ubudandaji bwa bitcoin vyo kurwego rwohejuru
 explanation: |
-  Igishushanyo c’ingenzi kigenewe ubucuruzi buto buto n’ubuciriritse bufise amafaranga make ya Bitcoin, nk’iresitora.
-reviewed: false
+  Akaranga ngirakamaro(Le profil "Essential") kagenewe inganda zito zito n’izigereranye zifise amafaranga make ya Bitcoin, nk’uburiro.
+reviewed: true

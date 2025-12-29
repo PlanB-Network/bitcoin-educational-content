@@ -1,11 +1,17 @@
 ---
-name: Mond
+name: Moon
 description: Bezahlen Sie mit Bitcoins überall dort, wo Visa-Bankkarten akzeptiert werden.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Update Dezember 2025: Achtung, **seit Anfang Dezember 2025 ist ein Teil der Moon-Dienste nicht mehr verfügbar**, insbesondere die wiederaufladbaren Visa-Karten. Derzeit wissen wir noch nicht, ob diese Nichtverfügbarkeit vorübergehend oder dauerhaft ist. Dieses Tutorial wird aktualisiert, sobald wir über weitere Informationen verfügen.*
+
+---
 
 Mit Moon können Sie Kryptowährungen wie Bitcoin verwenden, um KYC-freie virtuelle Visa-Karten und Geschenkkarten zu erwerben, die bei Millionen von Online-Händlern wie eine herkömmliche Bankkarte verwendet werden können. Es bietet somit eine einfache Möglichkeit, Ihre sats überall dort auszugeben, wo Visa akzeptiert wird, ohne über eine Austauschplattform zu gehen.
 
@@ -177,7 +183,7 @@ Mit dieser virtuellen Karte können Sie Produkte und Dienstleistungen online gen
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

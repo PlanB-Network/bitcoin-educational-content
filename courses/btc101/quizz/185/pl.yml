@@ -1,8 +1,8 @@
 question: Czym jest OpenNode?
-answer: Proste rozwiązanie online dla firm do akceptowania Bitcoin.
+answer: Proste rozwiązanie online dla firm do akceptowania bitcoina.
 wrong_answers:
   - Typ węzła Bitcoin, który jest używany jednocześnie przez wielu użytkowników.
-  - Oprogramowanie Bitcoin Mining o otwartym kodzie źródłowym.
-  - Platforma Bitcoin Exchange.
+  - Oprogramowanie do wydobywania bitcoina o otwartym kodzie źródłowym.
+  - Platforma wymiany bitcoina.
 explanation: >-
 reviewed: true

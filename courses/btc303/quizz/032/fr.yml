@@ -6,3 +6,4 @@ wrong_answers:
   - Les validateurs de réseau qui votent sur la validité des transactions par le biais d'un processus démocratique
 explanation: |
   La limite d'approvisionnement de Bitcoin est appliquée par des nœuds complets qui exécutent un code de vérification pour contrôler la transaction coinbase de chaque bloc par rapport aux règles du consensus. Même si certains nœuds deviennent malveillants et acceptent des blocs invalides avec des récompenses excessives, les nœuds honnêtes les ignoreront simplement et continueront avec la chaîne valide. Cela crée un système sans confiance où il n'est pas nécessaire de faire confiance à un individu ou à une autorité - il suffit d'exécuter un code qui vérifie que les règles sont respectées, ce qui rend le réseau collectivement sûr contre les tentatives d'inflation de l'offre.
+reviewed: false

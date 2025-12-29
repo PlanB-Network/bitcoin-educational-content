@@ -1,0 +1,8 @@
+question: Apa peran utama asersi dalam pengembangan aplikasi Bitcoin menurut praktik terbaik Rust?
+answer: Untuk menangkap bug selama pengujian, menyebabkan kegagalan program lebih awal ketika masalah terjadi, dan berfungsi sebagai dokumentasi yang dapat dieksekusi dari asumsi programmer
+wrong_answers:
+  - Untuk menangani kesalahan sumber daya runtime seperti kegagalan akses file dan masalah konektivitas jaringan dengan cara yang anggun
+  - Untuk menerjemahkan kesalahan pustaka tingkat rendah menjadi kesalahan aplikasi tingkat tinggi yang dapat dipahami dan ditindaklanjuti oleh pengguna
+  - Untuk mencegah kesalahan input yang tidak valid dengan membatasi parameter fungsi untuk hanya menerima nilai dalam rentang yang valid
+explanation: |
+  Assertions memiliki tiga fungsi penting dalam pengembangan perangkat lunak Bitcoin yang kuat: mereka menangkap bug selama fase pengujian, memastikan program gagal lebih awal ketika asumsi dasar dilanggar (membuat debugging lebih mudah), dan bertindak sebagai dokumentasi yang dapat dieksekusi yang menggambarkan ekspektasi programmer tentang status program. Pilihan lainnya menjelaskan strategi penanganan kesalahan yang berbeda - penanganan kegagalan sumber daya eksternal, penerjemahan kesalahan antara lapisan abstraksi, dan validasi input - yang penting tetapi berbeda dari peran spesifik pernyataan dalam memverifikasi asumsi program internal.

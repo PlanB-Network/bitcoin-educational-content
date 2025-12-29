@@ -1,0 +1,8 @@
+question: 對於複雜的支出條件，裸多位元（multisig）交易基本上被 P2SH 取代的主要原因是什麼？
+answer: 裸 multiisig 會暴露所有公開金鑰 on-chain，使交易變得龐大、昂貴，且難以編碼為位址
+wrong_answers:
+  - 裸 multiisig 需要比 P2SH 更多的簽章，才能為多方交易達到相同的安全層級
+  - 赤裸的多重簽證無法處理時間鎖定的交易或有條件的支出要求，例如 P2SH 可以
+  - 裸 multiisig 簽署與現代的 wallet 軟體不相容，且無法廣播至目前的節點
+explanation: |
+  P2SH 是專為解決 bare multisig 的低效率而推出的。bare multisig 需要在 scriptPubKey 中顯示所有公開金鑰，這會造成交易規模過大，花費更多費用，而且難以表示為使用者友善的位址。P2SH 藉由將複雜的腳本隱藏在 20 位元組的哈希值後來解決這個問題，只有在輸出花費時才會揭露實際的花費條件。這可減少 on-chain 的佔用空間，提高隱私性，並在維持相同安全保證的同時，實現標準的地址格式。

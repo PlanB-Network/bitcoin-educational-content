@@ -6,3 +6,4 @@ wrong_answers:
   - Systém slepého podpisu s centrální důvěryhodnou stranou pro prevenci dvojího utrácení
 explanation: |
   Satoshi Nakamoto konkrétně navrhl použití "peer-to-peer distribuovaného serveru časových razítek pro generate výpočetní důkaz chronologického pořadí transakcí", jak je uvedeno v Bitcoin whitepaper. Klíčovým slovem je "distribuovaný", což znamená bez centrálního řídicího bodu. Špatné odpovědi představují dřívější neúspěšné pokusy o digitální peníze, které se spoléhaly na centralizované nebo částečně centralizované přístupy, což je činilo zranitelnými vůči cenzuře a selhání - přesně ty problémy, které měl Bitcoin vyřešit prostřednictvím skutečné decentralizace.
+reviewed: false

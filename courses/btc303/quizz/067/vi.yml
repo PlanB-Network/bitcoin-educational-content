@@ -6,3 +6,4 @@ wrong_answers:
   - Cải thiện hiệu suất xác minh chữ ký để xử lý khối nhanh hơn
 explanation: |
   Chương này định nghĩa rõ ràng việc mở rộng quy mô Bitcoin là "tăng khả năng sử dụng của Bitcoin mà không ảnh hưởng đến khả năng chống kiểm duyệt". Câu trả lời đúng vi phạm định nghĩa này vì việc yêu cầu người dùng tin tưởng trực tiếp vào bộ xử lý thanh toán tập trung sẽ làm giảm khả năng chống kiểm duyệt của Bitcoin - một giá trị cốt lõi. Tất cả các câu trả lời sai đều thể hiện các phương pháp mở rộng quy mô hợp lệ được đề cập trong chương: mã hóa hiệu quả giúp giảm mức sử dụng tài nguyên, các giải pháp phân lớp cho phép tăng thêm dung lượng trong khi vẫn bảo toàn các đặc tính của lớp cơ sở, và việc xác minh chữ ký được cải thiện giúp nâng cao hiệu suất mà không phải đánh đổi tập trung hóa.
+reviewed: false

@@ -1,12 +1,12 @@
 ---
-name: Tårta Wallet
+name: Cake Wallet
 description: Handledning om Cake Wallet och Silent Payments
 ---
 
 ![cover](assets/cover.webp)
 
 
-Denna guide utforskar [**Cake Wallet**] (https://cakewallet.com/): en öppen källkod, icke-frihetsberövande, integritetsfokuserad wallet med flera valutor tillgänglig för Android, iOS, macOS, Linux och Windows. Vi kommer att dyka in i dess Bitcoin-specifika sekretessfunktioner, gå igenom att skicka / ta emot Bitcoin via **Silent Payments** (ett förbättrat on-chain sekretessprotokoll) och titta på implementeringen av PayJoin v2 för asynkrona transaktioner.
+Denna guide utforskar [**Cake Wallet**](https://cakewallet.com/): en öppen källkod, icke-frihetsberövande, integritetsfokuserad wallet med flera valutor tillgänglig för Android, iOS, macOS, Linux och Windows. Vi kommer att dyka in i dess Bitcoin-specifika sekretessfunktioner, gå igenom att skicka / ta emot Bitcoin via **Silent Payments** (ett förbättrat on-chain sekretessprotokoll) och titta på implementeringen av PayJoin v2 för asynkrona transaktioner.
 
 
 ## 🎉 Viktiga funktioner
@@ -148,7 +148,7 @@ För att säkra vår wallet kan vi skapa en säkerhetskopia genom att följa anv
 ![image](assets/en/08.webp)
 
 
-**Notera**: Från och med september 2025 måste biometrisk autentisering med fingeravtryck på Android-enheter fungera med minst en biometrisk implementering av klass 2. För mer information se [här] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Detta krav kan dock komma att ändras i framtiden.
+**Notera**: Från och med september 2025 måste biometrisk autentisering med fingeravtryck på Android-enheter fungera med minst en biometrisk implementering av klass 2. För mer information se [här](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Detta krav kan dock komma att ändras i framtiden.
 
 
 ### D - Sekretessinställningar 🔒
@@ -227,7 +227,7 @@ När du har skickat transaktionen kommer du att få frågan om du vill lägga ti
 ## 5️⃣ PayJoin
 
 
-Låt oss granska vad PayJoin är [om] (https://docs.cakewallet.com/cryptos/bitcoin/#payjoin):
+Låt oss granska vad PayJoin är [om](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin):
 
 
 _Payjoin v2 är en integritetsbevarande och avgiftsbesparande funktion i Bitcoin som gör det möjligt för avsändaren och mottagaren av en transaktion att arbeta tillsammans för att skapa en enda transaktion. Denna transaktion har ingångar från *både* avsändaren och mottagaren, vilket bryter de vanligaste övervakningsteknikerna mot Bitcoin och möjliggör bättre skalning och avgiftsbesparingar under vissa omständigheter också._

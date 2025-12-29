@@ -6,3 +6,4 @@ wrong_answers:
   - Um zu bestätigen, dass der Patch ausreichende Leistungsverbesserungen bringt
 explanation: |
   Gemäß den Praktiken der verantwortungsvollen Offenlegung testen die Entwickler, ob ein Patch gut genug getarnt wurde, indem sie ihn erfahrenen Entwicklern zur Verfügung stellen, die nicht über die Schwachstelle informiert wurden, und sie bitten, zu ermitteln, was er behebt. Wenn diese Experten die Schwachstelle nicht erkennen können, obwohl sie wissen, dass ein Patch eine Schwachstelle behebt, ist sie wahrscheinlich gut vor potenziellen Angreifern verborgen. Dies ist von entscheidender Bedeutung, da Patches selbst Schwachstellen aufdecken können, die möglicherweise böswillig ausgenutzt werden können. Die anderen Optionen sind zwar wichtige Aspekte der Codeüberprüfung, aber nicht der Hauptzweck dieser speziellen Praxis im Schwachstellenmanagement.
+reviewed: false

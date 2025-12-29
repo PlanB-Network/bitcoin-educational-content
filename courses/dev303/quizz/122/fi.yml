@@ -1,0 +1,8 @@
+question: Mikä on kriittisin palautushaaste, jonka käyttäjät kohtaavat, kun heidän varojaan hallinnoidaan Greenlightin pilvipohjaisen Lightning-solmuarkkitehtuurin kautta?
+answer: Käyttäjät tarvitsisivat teknistä asiantuntemusta itsenäisten Core Lightning -solmujen käynnistämiseen ja kanavatilojen palauttamiseen ilman Greenlight-infrastruktuuria
+wrong_answers:
+  - "Käyttäjät menettävät pääsyn yksityisiin avaimiinsa, jotka on tallennettu yksinomaan Blockstreamin palvelimille"
+  - "Kanavatilat salataan Greenlightin omilla avaimilla, mikä tekee rahastojen takaisinperinnän matemaattisesti mahdottomaksi"
+  - "Lightning-kanavat vanhenevat automaattisesti 30 päivän kuluttua ilman Greenlightin jatkuvia ylläpitopalveluja"
+explanation: |
+  Oikea vastaus korostaa rahastojen takaisinperinnän todellista teknistä monimutkaisuutta Greenlightin arkkitehtuurissa. Vaikka käyttäjät säilyttävät yksityiset avaimensa, varojen käyttäminen ilman Greenlightia edellyttää Core Lightning -solmujen käyttämistä ja kanavien tilojen manuaalista palauttamista - prosessi, joka ylittää useimpien käyttäjien kyvyt. Väärät vastaukset ovat virheellisiä, koska: käyttäjät hallitsevat yksityisiä avaimiaan (niitä ei säilytetä palvelimilla), kanavatilat käyttävät Lightningin vakioprotokollia (ei omaa salausta) ja Lightning-kanavilla ei ole palveluntarjoajiin sidottuja automaattisia päättymisajastimia.

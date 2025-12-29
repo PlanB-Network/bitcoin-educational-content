@@ -6,3 +6,4 @@ wrong_answers:
   - 立即激活硬 fork，不给用户足够的时间升级节点软件
 explanation: |
   根据 Eric Lombrozo 的分析，Satoshi 的问题在于将破坏共识的改动隐藏在提交中，并使用误导性的描述，只提到 "revoted makefile.unix wx-config version 0.3.6"，而没有说明破坏性改动。这种将关键的共识修改隐藏在看似无害的提交中的做法，按照今天的标准是不可接受的，因为在 Bitcoin 开发中，共识修改的透明度和清晰交流是基本原则。
+reviewed: false

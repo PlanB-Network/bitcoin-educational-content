@@ -35,7 +35,7 @@ Bem-vindo ao curso CYP201, onde exploraremos em profundidade o funcionamento das
 O objetivo deste treinamento é dar-lhe as chaves para dominar as ferramentas que você usa diariamente. As carteiras HD de Bitcoin, que estão no coração da sua experiência de usuário, são baseadas em conceitos às vezes complexos, que tentaremos tornar acessíveis. Juntos, vamos desmistificá-los!
 
 Antes de mergulharmos nos detalhes da construção e operação das carteiras de Bitcoin, começaremos com alguns capítulos sobre as primitivas criptográficas a saber para o que segue.
-Começaremos com funções de hash criptográficas, fundamentais tanto para as carteiras quanto para o próprio protocolo Bitcoin. Você descobrirá suas principais características, as funções específicas usadas no Bitcoin e, em um capítulo mais técnico, aprenderá em detalhes sobre o funcionamento da rainha das funções de hash: SHA256.
+Começaremos com funções de hash criptográficas, fundamentais tanto para as carteiras quanto para o próprio protocolo Bitcoin. Você descobrirá suas principais características, as funções específicas usadas no Bitcoin e, em um capítulo mais técnico, aprenderá em detalhes sobre o funcionamento da rainha das funções de hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Em seguida, discutiremos o funcionamento dos algoritmos de assinatura digital que você usa todos os dias para proteger seus UTXOs. O Bitcoin usa dois: ECDSA e o protocolo Schnorr. Você aprenderá quais primitivas matemáticas subjazem a esses algoritmos e como eles garantem a segurança das transações.
@@ -45,7 +45,7 @@ Em seguida, discutiremos o funcionamento dos algoritmos de assinatura digital qu
 Uma vez que tenhamos uma boa compreensão desses elementos de criptografia, finalmente passaremos para o coração do treinamento: carteiras determinísticas e hierárquicas! Primeiro, há uma seção dedicada a frases mnemônicas, essas sequências de 12 ou 24 palavras que permitem criar e restaurar suas carteiras. Você descobrirá como essas palavras são geradas a partir de uma fonte de entropia e como facilitam o uso do Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-O treinamento continuará com o estudo da frase-senha BIP39, a semente (não confundir com a frase mnemônica), o código da cadeia mestre e a chave mestra. Veremos em detalhes o que são esses elementos, seus respectivos papéis e como são calculados.
+O treinamento continuará com o estudo da frase-senha [BIP39](https://planb.academy/resources/glossary/bip0039), a semente (não confundir com a frase mnemônica), o código da cadeia mestre e a chave mestra. Veremos em detalhes o que são esses elementos, seus respectivos papéis e como são calculados.
 ![CYP201](assets/en/004.webp)
 
 Finalmente, a partir da chave mestra, descobriremos como pares de chaves criptográficas são derivados de maneira determinística e hierárquica até os endereços de recebimento.
@@ -686,7 +686,7 @@ Esta é a operação básica do Bitcoin, mas com o tempo, essa operação se tor
 Um usuário que deseja realizar uma transação com Bitcoin deve, portanto, criar uma assinatura digital usando sua chave privada na transação em questão. A assinatura pode ser verificada por outros participantes da rede. Se for válida, isso significa que o usuário que iniciou a transação é de fato o proprietário da chave privada e, portanto, o proprietário dos bitcoins que deseja gastar. Outros usuários podem então aceitar e propagar a transação.
 Como resultado, um usuário que possui bitcoins protegidos com uma chave pública deve encontrar uma maneira de armazenar de forma segura o que permite desbloquear seus fundos: a chave privada. Uma carteira de Bitcoin é precisamente um dispositivo que permitirá que você mantenha todas as suas chaves sem que outras pessoas tenham acesso a elas. Portanto, é mais como um chaveiro do que uma carteira.
 
-A ligação matemática entre uma chave pública e uma chave privada, bem como a capacidade de realizar uma assinatura para provar a posse de uma chave privada sem revelá-la, são possibilitadas por um algoritmo de assinatura digital. No protocolo Bitcoin, são usados 2 algoritmos de assinatura: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) e o **esquema de assinatura Schnorr**. ECDSA é o protocolo de assinatura digital usado no Bitcoin desde seus inícios. Schnorr é mais recente no Bitcoin, pois foi introduzido em novembro de 2021 com a atualização Taproot.
+A ligação matemática entre uma chave pública e uma chave privada, bem como a capacidade de realizar uma assinatura para provar a posse de uma chave privada sem revelá-la, são possibilitadas por um algoritmo de assinatura digital. No protocolo Bitcoin, são usados 2 algoritmos de assinatura: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) e o **esquema de assinatura Schnorr**. ECDSA é o protocolo de assinatura digital usado no Bitcoin desde seus inícios. Schnorr é mais recente no Bitcoin, pois foi introduzido em novembro de 2021 com a atualização Taproot.
 Esses dois algoritmos são bastante semelhantes em seus mecanismos. Ambos são baseados na criptografia de curva elíptica. A principal diferença entre esses dois protocolos reside na estrutura da assinatura e em algumas propriedades matemáticas específicas. Portanto, estudaremos o funcionamento desses algoritmos, começando com o mais antigo: ECDSA.
 ### Criptografia de Curva Elíptica
 
@@ -1953,19 +1953,21 @@ Quando um usuário recebe bitcoins, o remetente cria uma saída UTXO e a bloquei
 
 É precisamente no _scriptPubKey_ que os endereços de recebimento são encontrados. No entanto, o uso deles varia dependendo do padrão de script adotado. Aqui está uma tabela resumida das informações contidas no _scriptPubKey_ de acordo com o padrão usado, bem como as informações esperadas no _scriptSig_ para desbloquear o _scriptPubKey_.
 
-| Padrão                   | _scriptPubKey_                                              | _scriptSig_                                | _script de resgate_ | _testemunha_                                        |
-| ------------------------ | ----------------------------------------------------------- | ------------------------------------------ | ------------------- | --------------------------------------------------- |
-| P2PK                     | `<pubkey> OP_CHECKSIG`                                      | `<assinatura>`                             |                     |                                                     |
-| P2PKH                    | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<assinatura> <chave pública>`             |                     |                                                     |
-| P2SH                     | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<empurrões de dados> <script de resgate>` | Dados arbitrários   |                                                     |
-| P2WPKH                   | `0 <pubKeyHash>`                                            |                                            |                     | `<assinatura> <chave pública>`                      |
-| P2WSH                    | `0 <witnessScriptHash>`                                     |                                            |                     | `<empurrões de dados> <script de testemunha>`       |
-| P2SH-P2WPKH              | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de resgate>`                      | `0 <pubKeyHash>`    | `<assinatura> <chave pública>`                      |
-| P2SH-P2WSH               | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de resgate>`                      | `0 <scriptHash>`    | `<empurrões de dados> <script de testemunha>`       |
-| P2TR (caminho da chave)  | `1 <chave pública>`                                         |                                            |                     | `<assinatura>`                                      |
-| P2TR (caminho do script) | `1 <chave pública>`                                         |                                            |                     | `<empurrões de dados> <script> <bloco de controle>` |
 
-_Fonte: Bitcoin Core PR review club, 7 de julho de 2021 - Gloria Zhao_
+
+| Padrão             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dados arbitrários | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Fonte: Bitcoin Core PR review club de 7 de julho de 2021 – Gloria Zhao_
 
 Os opcodes usados em um script são projetados para manipular informações e, se necessário, para comparar ou testá-las. Vamos tomar o exemplo de um script P2PKH, que é o seguinte:
 

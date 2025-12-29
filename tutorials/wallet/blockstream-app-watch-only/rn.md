@@ -173,7 +173,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
     - Gukuraho [Iporogarama yo guhagarika](https://ugukina.google.com/ububiko/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
     - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
 - Ku **iOS**:
-    - Gukuraho [Iporogarama y’Igikorwa co Guhagarika] (Iporogarama y’Iporogarama.
+    - Gukuraho [Iporogarama y’Igikorwa co Guhagarika](Iporogarama y’Iporogarama.
 - Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y’ubuhendanyi.
 
 

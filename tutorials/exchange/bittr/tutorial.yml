@@ -26,17 +26,19 @@ proofreading:
       - PaoloFoti
     reward: 0.25
   - language: es
-    last_contribution_date: 2025-07-25
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 0.25
+      - Salgraphics
+    reward: 0.12
   - language: fr
-    last_contribution_date: 2025-07-25
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 0.25
+      - marshal-opsource
+    reward: 0.12
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -152,3 +154,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.9
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.63

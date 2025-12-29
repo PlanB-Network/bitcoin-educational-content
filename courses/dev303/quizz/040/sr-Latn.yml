@@ -1,0 +1,8 @@
+question: Šta se dešava sa zaključivanjem tipa zatvaranja kada se zatvaranje pozove sa specifičnim tipovima?
+answer: Te vrste postaju fiksne za tu instancu zatvaranja
+wrong_answers:
+  - Zatvaranje i dalje može prihvatiti različite tipove u budućim pozivima.
+  - Kompajler resetuje tipove za sledeći poziv funkcije
+  - Tipovi ostaju fleksibilni i mogu se menjati u zavisnosti od konteksta.
+explanation: |
+  U Rust, zatvaranja imaju koristi od automatskog zaključivanja tipova, ali ova fleksibilnost ima ograničenja. Kada se zatvaranje pozove sa specifičnim tipovima parametara, kompajler zaključava te tipove za tu konkretnu instancu zatvaranja. To znači da se isto zatvaranje kasnije ne može pozvati sa različitim tipovima - postaje monomorfizovano prema prvim tipovima koje susretne. Ovo je drugačije od generičkih funkcija koje se mogu pozivati sa različitim tipovima jer svaki poziv stvara zasebnu instancu. Ostale opcije su netačne jer sugerišu stalnu fleksibilnost koja ne postoji kada se tipovi zatvaranja odrede.

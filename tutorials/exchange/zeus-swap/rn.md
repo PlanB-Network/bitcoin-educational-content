@@ -1,5 +1,5 @@
 ---
-name: Zewu yahinduye
+name: Zeus Swap
 description: Ibikorwa bitagira ububiko bwa Exchange hagati ya On-Chain na Lightning Network bitcoins
 ---
 
@@ -443,5 +443,5 @@ Iterambere ry’imbere rya Zeus Swap, rishigikiwe n’umugwi wa Zeus LSP ufise u
 
 
 - [Zewu yo kuri Twitter (@zeusln)]
-- [Itelegaramu ya Zewu] (ZewuLN)
+- [Itelegaramu ya Zewu](ZewuLN)
 - [GitHub Zewu]

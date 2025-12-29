@@ -1,0 +1,9 @@
+question: ใครเป็นผู้สร้างบล็อกเอ็กซ์พลอเรอร์ตัวแรกในเดือนพฤศจิกายน 2010?
+answer: ไมเคิล มาร์ควาร์ด (Theymos)
+wrong_answers:
+  - เจฟฟ์ การ์ซิก (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  Bitcoin Block Explorer นี้ช่วยให้ผู้ใช้สามารถดูข้อมูลรายละเอียดเกี่ยวกับบล็อก ที่อยู่ และธุรกรรมผ่านเว็บเบราว์เซอร์ได้
+reviewed: true

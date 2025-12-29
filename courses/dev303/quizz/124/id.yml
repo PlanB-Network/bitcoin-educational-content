@@ -1,0 +1,8 @@
+question: Apa mekanisme teknis utama yang memungkinkan Breez SDK menghadirkan keseimbangan terpadu kepada pengguna sekaligus mempertahankan fungsionalitas Lightning dan on-chain Bitcoin?
+answer: Layanan swap otomatis yang mengkonversi antara Lightning dan on-chain Bitcoin di belakang layar sesuai kebutuhan
+wrong_answers:
+  - Agregasi saldo real-time yang menampilkan jumlah dana Lightning dan on-chain tanpa konversi aktual
+  - Penyatuan cadangan saluran yang memungkinkan dana bergerak bebas antara status Lightning dan on-chain dalam UTXO yang sama
+  - Pembuatan alamat dua lapis yang menciptakan alamat hibrida yang mampu menerima pembayaran Lightning dan on-chain
+explanation: |
+  Jawaban yang tepat adalah layanan swap otomatis karena Breez SDK secara khusus mengimplementasikan fungsionalitas swap on-chain untuk mengkonversi antara Lightning dan on-chain Bitcoin dengan mulus ketika pengguna perlu melakukan berbagai jenis pembayaran. Hal ini memungkinkan pengguna untuk melihat satu saldo sementara sistem menangani kerumitan teknis dalam memindahkan dana antar lapisan. Jawaban yang salah menggambarkan mekanisme yang tidak ada atau tidak mungkin secara teknis - agregasi saldo hanya akan menampilkan jumlah gabungan tanpa memungkinkan fungsionalitas lintas lapisan, cadangan saluran tidak dapat memindahkan dana ke negara bagian on-chain, dan alamat hibrida tidak ada dalam protokol Bitcoin.

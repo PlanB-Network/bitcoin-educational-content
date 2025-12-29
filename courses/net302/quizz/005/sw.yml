@@ -1,9 +1,9 @@
 question: Ni hati gani hutumika kama marejeleo ya kiufundi kwa vipimo vya itifaki ya TCP/IP?
 answer: RFC
 wrong_answers:
-  - Karatasi Nyeupe
+  - White paper
   - ISO
   - IIP
 explanation: |
-  RFCs (Ombi la Maoni) ni hati za marejeleo zinazofafanua vipimo vya itifaki za TCP/IP.
-reviewed: false
+  RFCs (Ombi la Maoni) ni hati za marejeleo zinazofafanua vipimo vya protocol za TCP/IP.
+reviewed: true

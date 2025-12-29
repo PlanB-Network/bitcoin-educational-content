@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless i pouzdani sistemi moraju raditi nezavisno i ne mogu biti slojeviti jedan na drugi.
 explanation: |
   Ključni uvid Matta Coralla je da Bitcoin-ov sloj bez poverenja omogućava fleksibilnost u dizajnu sistema. Osnovni sloj bez poverenja, kao što je Bitcoin-ov protokol, omogućava programerima da kreiraju pouzdane usluge (kao što su skrbnički novčanici) na višim slojevima, dok zadržavaju osnovne sigurnosne garancije. Međutim, obrnuto je nemoguće - ne možete kreirati sisteme bez poverenja ako sama osnova zahteva poverenje, jer bi bilo koja svojstva bez poverenja bila narušena ranjivostima pouzdanog osnovnog sloja.
+reviewed: false

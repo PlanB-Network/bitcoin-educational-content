@@ -405,7 +405,7 @@ Aquí abajo, puedes admirar mi copia de una tablilla con escritura cuneiforme. P
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/es/001.webp)
 
 
 
@@ -416,7 +416,7 @@ También tengo lo que creo que es una tablilla sumeria auténtica con una peque�
 Las marcas con figuras pequeñas servían de firma en una época en la que la mayoría de la gente no sabía escribir, ya que sólo los escribas expertos tenían esa habilidad.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/es/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Abajo se puede ver el cilindro antes mencionado: una piedra grabada con formas e
 Por ello, los escribas de la época utilizaban allí estiletes en forma de cuña para imprimir signos en tablillas húmedas.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/es/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ En China, las monedas no tenían por qué estar marcadas o garantizadas oficialm
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/es/004.webp)
 
 
 La de arriba es una moneda china de la Edad Media. Es una moneda de molde con un agujero cuadrado en el centro. Este orificio se utilizaba para enhebrar una cuerda, lo que permitía ensartar las monedas para crear pulseras o collares. Sin embargo, estas monedas no se usaban principalmente para llevarlas puestas, sino con fines contables. Podían ensartarse para formar unidades de cuenta en forma de grandes cuerdas, con las piezas entrelazadas. No tenían necesariamente marcas específicas, a veces eran simplemente círculos de bronce.
@@ -1221,7 +1221,7 @@ Me parece interesante mencionar aquí que en Egipto siguieron pesando monedas mu
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/es/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Puesto que no podemos separar la aparición de monedas de Lidia y los persas, pa
 Abajo puede ver una de las primeras monedas lidias, en la que aparece un león con su presa delante. En el reverso se aprecia un sello u orificio que, según algunos, se utilizaba para comprobar la pureza del metal y asegurarse de que no se trataba de una capa superficial. Aunque se trata de uno de los primeros ejemplos, es importante señalar que esta pieza es una copia. Todas mis piezas de oro y electrum son réplicas o recreaciones modernas, diseñadas para evitar que me gaste todos mis ahorros en esta colección.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/es/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Cuando conquistaron Lidia en 546 a.C., los persas aqueménidas adoptaron inmedia
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/es/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Tras una sección sobre la aparición de las monedas, quería introducir un apar
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/es/008.webp)
 
 
 Más tarde, como veremos en un apartado posterior, los griegos perfeccionaron esta tecnología creando monedas redondas martilladas por ambas caras. Tomaban una pieza lisa y plana de metal precioso, grababan el diseño deseado en una cara y luego la martilleaban a mano para crear la moneda acabada.
@@ -1413,7 +1413,7 @@ Más tarde, como veremos en un apartado posterior, los griegos perfeccionaron es
 La tecnología de acuñar monedas a mano de forma individual probablemente desempeñó un papel en el control de la inflación durante esa época, aunque a menudo las monedas se diluían para aumentar la producción. Esto fue especialmente evidente durante el periodo romano y, en menor medida, durante ciertas guerras del periodo griego. Aunque la acuñación de monedas de una en una limitaba la capacidad de la autoridad para la producción masiva, contribuía eficazmente al control de la inflación, a pesar de las importantes devaluaciones que se producían. Así, se pasó de una masa de metal punzonado a una moneda redonda y martillada.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/es/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Aquí abajo puede admirar un ejemplo sorprendente de las piedras monumentales de
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/es/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ La prima monetaria se basa simplemente en la confianza de que alguien cambiará 
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/es/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Aquí abajo, puedes ver un tweet de Stephanie Kelton, que es una especie de muje
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/es/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Y tengo la suerte de poseer una copia de una dracma griega de esa época con ese
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/es/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ El decisivo encuentro con los griegos del sur de Italia introdujo realmente a lo
 De hecho, muchas monedas romanas de la época de la República representan mitos fundacionales. Puedes ver la mía aquí abajo: es una soberbia moneda real del rey Tacio. Ilustra el mito del rapto de las mujeres de los sabinos. Tacio era el rey de esta región, y el mito fundacional cuenta cómo los romanos raptaron a las mujeres de los sabinos, una población que vivía cerca. Posteriormente, el rey Tacio se convirtió en co-rey con Rómulo, uno de los fundadores de Roma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/es/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Aquí podemos retomar un concepto que ya hemos tratado anteriormente sobre los g
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/es/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Tras el asesinato de César en el 44 a.C., Octavio (Augusto) tomó el control de
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/es/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/es/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/es/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/es/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Esta parte me permite presentar la última pieza de esta sección: el antoninian
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/es/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/es/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Fue realmente Aureliano quien inventó esta forma de devaluación, mucho más r�
 Para ilustrar visualmente esta devaluación extrema, he encontrado algunas estadísticas fascinantes sobre el precio del grano en Egipto desde el año 40 a.C. hasta el siglo III, abarcando más de 300 años. Abajo, puedes ver un tetradracma griego de mi colección. En aquella época, en el Egipto bajo ocupación romana del siglo III, el equivalente era una tetradracma egipcia. Aún se utilizaba la denominación de dracmas, que correspondía a un denario.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/es/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/es/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Como primer artefacto relacionado con este periodo, permítanme mostrarles una r
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/es/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Para hacer el enlace con los Templarios, aquí abajo se puede observar una moned
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/es/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Aquí abajo puede ver una reproducción de un Florín: un Florín de oro fabrica
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/es/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Este retorno a la acuñación de monedas de oro estuvo impulsado por un contexto
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/es/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/es/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Fue también durante este periodo cuando Europa tuvo conocimiento de la existenc
 Nos referimos a la técnica de acuñado con péndulo mencionada anteriormente en el curso. Este método permitía producir monedas más uniformes en comparación con el acuñado a martillo y, lo que es más importante, permitía inscripciones alrededor del borde de la moneda, como he demostrado anteriormente. La que se muestra a continuación es un tálero europeo de 1793, que muestra claramente una inscripción en el borde.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/es/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ En respuesta a la demanda europea de oro y plata, "la motivación constante de l
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/es/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Con la conquista del Nuevo Mundo, **España** se convirtió en el actor dominant
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/es/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ El real español, también conocido como "pedazo de ocho", obtuvo su apodo porqu
 Lo más interesante es que el dólar español era la moneda de reserva internacional de la época. Las autoridades españolas también emitían su propia moneda local, el maravedí, y ajustaban periódicamente la oferta monetaria mediante retiradas. Por ejemplo, una moneda de cobre o bronce que inicialmente valía un maravedí podía ser retirada y estampada con "2", más tarde con "4", y así sucesivamente, hasta llegar a "8" En la foto de alta resolución puede verse claramente el "8" estampado en la moneda. Este método ampliaba efectivamente la oferta monetaria... lo que inevitablemente conducía a la inflación.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/es/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Tras el apogeo ibérico, **los Países Bajos** emergieron como una nueva potenci
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/es/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/es/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Leyes más restrictivas intentaron imponer el assignat, pero sin éxito. El gobi
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/es/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Como este papel moneda sustituyó a toda la acuñación de metales preciosos de 
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/es/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ El soberano era una moneda de oro que originalmente valía una libra.
 Antes del famoso soberano estaba la guinea, que funcionaba según el mismo principio. La guinea se llamaba así por los metales preciosos que contenía, procedentes de la región de Guinea.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/es/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/es/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Amberes acogía ferias mercantiles en las que los comerciantes se reunían con f
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/es/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Entonces llegó el pánico de 1776. Todo el mundo se apresuró a subir por la pi
 Pasamos del florín a la creación del Banco de Inglaterra. Por supuesto, en el ínterin se produjeron la Primera y la Segunda Guerras Mundiales, pero antes, en 1796, también se produjeron acontecimientos al otro lado del Atlántico. En 1776, América era todavía una colonia británica, y las colonias utilizaban este papel moneda. A continuación se muestra un billete de dos chelines de Connecticut de 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/es/040.webp)
 
 
 Antes de declarar la guerra a Inglaterra y emitir finalmente su propia moneda, las colonias utilizaron este papel moneda, junto con el dólar español para las transacciones en efectivo. De hecho, el término "dólar" se mantuvo para indicar el dólar estadounidense.
@@ -3767,7 +3767,7 @@ Antes de declarar la guerra a Inglaterra y emitir finalmente su propia moneda, l
 Si no me equivoco, en 1792 aprobaron una ley que les permitía acuñar moneda. Como ejemplo, el de abajo es un dólar americano de la era moderna.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/es/041.webp)
 
 
 Evidentemente, su valor nominal no es de un dólar, sino de unos 30 o 40 dólares, ya que representa una onza de plata. Su valor fluctúa en función del precio de la plata, que suele situarse como mínimo en 30 o 40 dólares. Hoy en día, por supuesto, un dólar de papel sólo conserva su valor nominal de un dólar, pero en aquella época, el dólar estadounidense se basaba en este valor de la plata.
@@ -3777,7 +3777,7 @@ Hablemos ahora de la Guerra Civil en Estados Unidos. Los confederados imprimían
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/es/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Sus oponentes del norte también tenían dólares. Justo arriba, se podían ver 
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/es/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Tras la Primera Guerra Mundial, las últimas series de billetes impresos incluí
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/es/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Aquí abajo puede ver un certificado de oro de 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/es/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Tras la promulgación de la Orden Ejecutiva 6102, se incautaron de todo el oro y
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/es/046.webp)
 
 
 Aquí surge el concepto de moneda de curso legal, que sustituye a la frase "canjeable en oro" Los dos billetes pueden parecer idénticos, ya que sólo cambian algunas palabras, pero la estafa reside en el hecho de que el dólar se devaluó durante este periodo; pasó de valer una onza de oro 20,67 $ a 35 $ por onza en 1934. ¡Representó una devaluación de aproximadamente el 40%!
@@ -3869,10 +3869,10 @@ Sólo tienen que asegurarse de que pueden hacer estas transferencias, pero no ha
 
 
 
-Para entender la relación entre dinero e inflación, recomiendo un curso que tengo en Plan ₿ Network dedicado a este tema. Aprenderás la diferencia entre el aumento de los precios, que es lo que vemos en la vida, y la inflación. No son lo mismo. De hecho, cuando nos referimos a la inflación, a menudo estamos hablando del aumento de los precios, no de la inflación en sí. La inflación es un concepto bastante preciso, que se explica por el aumento de la oferta monetaria.
+Para entender la relación entre dinero e inflación, recomiendo un curso que tengo en Plan ₿ Academy dedicado a este tema. Aprenderás la diferencia entre el aumento de los precios, que es lo que vemos en la vida, y la inflación. No son lo mismo. De hecho, cuando nos referimos a la inflación, a menudo estamos hablando del aumento de los precios, no de la inflación en sí. La inflación es un concepto bastante preciso, que se explica por el aumento de la oferta monetaria.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Para concluir esta sección sobre el mundo fiduciario, me gustaría señalar un recurso que le ayudará a comprender mejor los fenómenos que acabo de explicar, como la inflación.
 
@@ -3903,7 +3903,7 @@ Con este sistema, Law vinculaba el papel moneda a las acciones de su empresa. Cu
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/es/047.webp)
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Meningkatkan kinerja verifikasi tanda tangan untuk memproses blok lebih cepat
 explanation: |
   Bab ini secara eksplisit mendefinisikan penskalaan Bitcoin sebagai 'meningkatkan kapasitas penggunaan Bitcoin tanpa mengorbankan ketahanan sensornya' Jawaban yang benar melanggar definisi ini karena mengharuskan pengguna untuk mempercayai prosesor pembayaran terpusat secara langsung mengorbankan ketahanan penyensoran Bitcoin - sebuah proposisi nilai inti. Jawaban yang salah semuanya mewakili pendekatan penskalaan yang sah yang disebutkan dalam bab ini: penyandian yang efisien mengurangi penggunaan sumber daya, solusi berlapis memungkinkan kapasitas tambahan sambil mempertahankan properti lapisan dasar, dan verifikasi tanda tangan yang lebih baik meningkatkan kinerja tanpa pertukaran sentralisasi.
+reviewed: false

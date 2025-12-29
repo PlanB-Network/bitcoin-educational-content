@@ -1,0 +1,8 @@
+question: Mikä on elliptisen käyrän salakirjoituksen skalaarikertolaskennassa käytettävän double-and-add-algoritmin ensisijainen etu?
+answer: Se vähentää laskennan monimutkaisuutta O(n)-operaatiosta O(log n)-operaatioon
+wrong_answers:
+  - Se poistaa modulaarisen aritmetiikan tarpeen äärellisissä kentissä
+  - Se muuntaa diskreetin logaritmin ongelman polynomiaikaiseksi ratkaisuksi
+  - Se mahdollistaa yksityisten avainten laskemisen suoraan julkisista avaimista
+explanation: |
+  Kaksois- ja lisäysalgoritmi parantaa tehokkuutta merkittävästi vähentämällä laskennallista monimutkaisuutta O(n) lineaarisesta lisäyksestä O(log n)-operaatioon. Tämä toimii skannaamalla skalaarin binääriesitys, kaksinkertaistamalla pisteen jokaisella askeleella ja lisäämällä generaattoripisteen vain silloin, kun bitti on 1. Muut vaihtoehdot ovat virheellisiä: modulaarista aritmeettista laskentaa tarvitaan edelleen äärellisissä kentissä, diskreetin logaritmin ongelma on edelleen laskennallisesti mahdoton toteuttaa (mikä on olennaisen tärkeää tietoturvan kannalta), eikä julkisista avaimista voida laskea yksityisiä avaimia käytetystä kertolaskualgoritmista riippumatta.

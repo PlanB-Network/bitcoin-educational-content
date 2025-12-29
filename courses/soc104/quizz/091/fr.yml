@@ -1,0 +1,8 @@
+question: According to Satoshi Nakamoto's fundamental critique, what is the core problem with conventional fiat currencies that Bitcoin was designed to solve?
+answer: The excessive trust required in centralized institutions that historically have repeatedly violated that trust by debasing currencies
+wrong_answers:
+  - The lack of digital infrastructure and slow transaction processing times compared to modern payment systems
+  - The inability to conduct international transactions without expensive intermediaries and currency conversion fees
+  - The vulnerability to counterfeiting and physical theft due to reliance on paper money and physical storage
+explanation: |
+  Satoshi Nakamoto explicitly stated that 'the root problem with conventional currency is all the trust that's required to make it work' and that 'the history of fiat currencies is full of breaches of that trust.' This philosophical foundation drove Bitcoin's design as a trustless system that doesn't require faith in central banks or governments to maintain monetary stability, directly addressing the historical pattern of currency debasement through excessive money printing.

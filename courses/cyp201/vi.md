@@ -35,7 +35,7 @@ Chào mừng bạn đến với khóa học CYP201, nơi chúng ta sẽ khám ph
 Mục tiêu của khóa học này là cung cấp cho bạn chìa khóa để nắm vững các công cụ bạn hàng ngày sử dụng. Ví Bitcoin HD, nằm ở trung tâm trải nghiệm người dùng của bạn, dựa trên một số khái niệm phức tạp, mà chúng tôi sẽ cố gắng làm cho dễ tiếp cận. Cùng nhau, chúng ta sẽ làm sáng tỏ chúng!
 
 Trước khi đi sâu vào chi tiết cấu trúc và hoạt động của ví Bitcoin, chúng ta sẽ bắt đầu với một số chương về các nguyên tắc mã hóa cần biết cho phần sau.
-Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: SHA256.
+Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: ECDSA và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
@@ -45,7 +45,7 @@ Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của
 Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn entropy và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
 
 ![CYP201](assets/en/003.webp)
-Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ BIP39, hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
+Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ [BIP39](https://planb.academy/resources/glossary/bip0039), hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
 
 ![CYP201](assets/en/004.webp)
 
@@ -667,7 +667,7 @@ Người dùng muốn thực hiện giao dịch Bitcoin do đó cần tạo mộ
 
 Kết quả là, người dùng sở hữu bitcoin được khóa bằng khóa công khai phải tìm cách lưu trữ an toàn cái cho phép mở khóa quỹ của họ: khóa riêng. Một ví Bitcoin chính xác là một thiết bị sẽ cho phép bạn dễ dàng giữ tất cả các khóa của mình mà không cho người khác truy cập vào chúng. Do đó, nó giống như một móc khóa hơn là một ví.
 
-Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) và **Schnorr signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
+Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) và **Schnorr signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
 Hai thuật toán này khá giống nhau về cơ chế của chúng. Cả hai đều dựa trên mật mã học đường cong elliptic. Sự khác biệt lớn giữa hai giao thức này nằm ở cấu trúc của chữ ký và một số tính chất toán học cụ thể. Chúng ta sẽ do đó nghiên cứu cách hoạt động của các thuật toán này, bắt đầu với cái cũ nhất: ECDSA.
 ### Mật mã học đường cong Elliptic
 
@@ -1207,7 +1207,7 @@ Trong các chương tiếp theo, chúng ta sẽ khám phá cơ chế hoạt đ�
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "entropy" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
+Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "[entropy](https://planb.academy/resources/glossary/entropy)" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
 
 ### Định Nghĩa của Entropy
 
@@ -1917,19 +1917,21 @@ Khi một người dùng nhận được bitcoin, người gửi tạo ra một 
 
 Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nhận. Tuy nhiên, việc sử dụng của chúng thay đổi tùy thuộc vào tiêu chuẩn script được áp dụng. Dưới đây là bảng tóm tắt thông tin chứa trong *scriptPubKey* theo tiêu chuẩn được sử dụng, cũng như thông tin được mong đợi trong *scriptSig* để mở khóa *scriptPubKey*.
 
-| Tiêu Chuẩn         | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Dữ liệu tùy ý       |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Nguồn: Bitcoin Core PR review club, Ngày 7 tháng 7 năm 2021 - Gloria Zhao*
+
+| Tiêu chuẩn             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dữ liệu tùy ý | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Nguồn: Câu lạc bộ đánh giá Bitcoin Core PR ngày 7 tháng 7 năm 2021 – Gloria Zhao_
 
 Các opcode được sử dụng trong một script được thiết kế để thao tác thông tin, và nếu cần, để so sánh hoặc kiểm tra nó. Hãy lấy ví dụ về một script P2PKH, được viết như sau:
 

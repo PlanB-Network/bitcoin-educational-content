@@ -6,3 +6,4 @@ wrong_answers:
   - Os criadores do núcleo Bitcoin solicitaram uma alternativa para reduzir a sua responsabilidade nas actualizações
 explanation: |
   De acordo com o capítulo, quando o código de ativação do Segwit foi lançado em outubro de 2016, houve um apoio esmagador entre os utilizadores do Bitcoin, mas os mineiros não sinalizaram o apoio à atualização, o que paralisou a ativação sem qualquer resolução à vista. Isto criou a necessidade de um mecanismo alternativo que não dependesse da sinalização dos mineiros, levando Shaolinfry a propor a UASF como uma solução que utilizaria a aplicação da maioria económica em vez da ativação do poder de hash.
+reviewed: false

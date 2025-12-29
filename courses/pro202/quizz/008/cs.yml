@@ -1,0 +1,8 @@
+question: Jaký je matematický základ, který činí problém diskrétního logaritmu v kryptografii eliptických křivek výpočetně neproveditelným?
+answer: Nepředvídatelné rozložení bodů při generování cyklické skupiny opakovaným sčítáním bodů
+wrong_answers:
+  - Vlastnost symetrie eliptických křivek, která odráží body napříč osou x
+  - Modulární aritmetické operace prováděné v konečných polích namísto reálných čísel
+  - Velké prvočíslo použité jako charakteristika pole v rovnici křivky
+explanation: |
+  Obtížnost problému diskrétního logaritmu vyplývá z nepředvídatelného, nelineárního rozložení bodů při generování cyklické grupy (G, 2G, 3G, ..., nG). Přestože jsou body generovány postupně, jeví se jako rozptýlené a náhodné, takže určení skaláru s z bodu P = sG je výpočetně neproveditelné. Symetrie, modulární aritmetika a velká prvočísla jsou sice důležité vlastnosti eliptických křivek, ale nevytvářejí přímo jednosměrnou funkci, která umožňuje bezpečnou kryptografii s veřejným klíčem.

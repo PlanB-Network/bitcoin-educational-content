@@ -6,3 +6,4 @@ wrong_answers:
   - Decentralizacija korisnika i decentralizacija programera
 explanation: |
   Decentralizacija Bitcoin ima dve ključne komponente: decentralizaciju rudara i decentralizaciju full node. Decentralizacija Miner znači da obrada i redosled transakcija nisu pod kontrolom nijednog pojedinačnog entiteta, već dinamičnog kolektiva rudara koji mogu slobodno da se pridruže ili napuste mrežu. Decentralizacija Full node odnosi se na validaciju blokova koja se obavlja na ivici mreže od strane samih korisnika, umesto od strane pouzdanih autoriteta. Ova dva aspekta zajedno rade na postizanju otpornosti na cenzuru - rudari sprečavaju centralizovano određivanje redosleda transakcija, dok puni čvorovi obezbeđuju validaciju blokčejna bez poverenja.
+reviewed: false

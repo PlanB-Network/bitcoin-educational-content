@@ -1,9 +1,9 @@
-question: SLAAC
+question: Koji protokol dinamički dodeljuje trajanja (rokove važenja) automatski distribuiranim IPv6 adresama?
 answer: DHCPv6
 wrong_answers:
   - OSPFv3
   - RIPng
   - ICMPv4
 explanation: |
-  DHCPv6 eksplicitno upravlja životnim ciklusima putem zakupa, dok ih NDP objavljuje u svojim porukama konfiguracije rutera.
-reviewed: false
+  DHCPv6 izričito upravlja trajanjem putem zakupa, dok ih NDP objavljuje u svojim porukama konfiguracije rutera.
+reviewed: true

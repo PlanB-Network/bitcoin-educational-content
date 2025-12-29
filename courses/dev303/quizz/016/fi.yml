@@ -1,0 +1,8 @@
+question: Minkälaisen operaation Rust suorittaa oletusarvoisesti, kun se määrittää yhden String-muuttujan toiselle?
+answer: Siirto-operaatio, joka siirtää omistusoikeuden ja mitätöi lähdemuuttujan
+wrong_answers:
+  - Syväkopiointi, joka kopioi kaiken kasan datan luodakseen itsenäisiä merkkijonoja
+  - Pinnallinen kopiointi, joka luo kaksi osoitinta samaan kasaan
+  - Viittauksen luominen, jonka avulla molemmat muuttujat voivat käyttää vain lukuoikeuksia
+explanation: |
+  Rust suorittaa oletusarvoisesti siirto-operaation, kun sille osoitetaan monimutkaisia tyyppejä, kuten String. Tämä siirtää omistusoikeuden lähdemuuttujasta kohdemuuttujaan ja mitätöi samalla lähteen, mikä estää vaaralliset skenaariot, joissa useat muuttujat voisivat muokata samaa kasan muistia. Syvä kopiointi olisi tehotonta suurille merkkijonoille, matala kopiointi aiheuttaisi muistiturvallisuusongelmia, kun samaan dataan osoitetaan useilla osoittimilla, ja viittausten luominen vaatii eksplisiittistä syntaksia ampersand-operaattorin avulla.

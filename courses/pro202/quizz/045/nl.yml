@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden dat Bitcoin's moeilijkheidsaanpassingsmechanisme veranderingen beperkt tot een factor vier tijdens elke 2016-blok aanpassingsperiode?
+answer: Om extreme schommelingen te voorkomen die het netwerk zouden kunnen destabiliseren wanneer de hashsnelheid drastisch verandert
+wrong_answers:
+  - Om ervoor te zorgen dat miners voldoende tijd hebben om hun hardware te upgraden voordat de moeilijkheidsgraad aanzienlijk toeneemt
+  - Om compatibiliteit te behouden met het 32-bits tijdstempelveld dat onbetrouwbaar wordt bij grotere aanpassingen
+  - Om te voorkomen dat het schema voor de halvering van de bloksubsidie wordt verstoord door snelle veranderingen in moeilijkheden
+explanation: |
+  De viervoudige limiet voorkomt gevaarlijke feedback loops waarbij extreme moeilijkheidsveranderingen wilde schommelingen in bloktijden kunnen veroorzaken. Zonder deze beperking zou een plotselinge daling van de hash rate kunnen leiden tot enorme moeilijkheidsverminderingen, waardoor blokken te makkelijk worden en de consensus mogelijk wordt gedestabiliseerd. Omgekeerd zouden enorme verhogingen blokken bijna onmogelijk kunnen maken om te delven. De limiet zorgt voor geleidelijke, beheersbare aanpassingen die de stabiliteit van het netwerk in stand houden, zelfs tijdens grote verstoringen zoals mining verboden, waardoor het systeem zichzelf voorspelbaar corrigeert over meerdere aanpassingsperioden in plaats van chaotische schommelingen te creëren.

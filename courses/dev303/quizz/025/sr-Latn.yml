@@ -1,0 +1,8 @@
+question: Koja se ključna reč koristi za definisanje blokova implementacije koji sadrže metode i pridružene funkcije za strukture u Rust?
+answer: impl
+wrong_answers:
+  - metod
+  - strukt
+  - fn
+explanation: |
+  Ključna reč `impl` se specifično koristi za kreiranje blokova implementacije gde definišete metode i pridružene funkcije za strukture. Dok `struct` definiše samu strukturu, `fn` definiše pojedinačne funkcije, a `method` uopšte nije Rust ključna reč, samo `impl` kreira blok koji sadrži ponašanje pridruženo tipu. Blokovi implementacije koristeći `impl` omogućavaju vam da dodate funkcionalnost vašim strukturama, čineći ih više od samo kontejnera podataka.

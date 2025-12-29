@@ -1,5 +1,5 @@
 ---
-name: SwapMarkt
+name: SwapMarket
 description: Bitcoin en Lightning ruil diensten aggregator
 ---
 
@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Aspect       | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Aard          | Unieke dienst        | Multi-provider-aggregator            |
+| Aanbieders    | Alleen Boltz         | Boltz, ZEUS, Eldamar, Middle Way     |
+| Concurrentie  | Vaste tarieven       | Vrije concurrentie                   |
+| Interface     | boltz.exchange       | swapmarket.github.io (zelf hostbaar)  |
+| Beveiliging   | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 *voordelen van *SwapMarket**: Prijsconcurrentie, diversificatie van backend-instanties, real-time vergelijking.
 

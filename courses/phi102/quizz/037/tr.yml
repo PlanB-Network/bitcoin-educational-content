@@ -1,0 +1,8 @@
+question: Bastiat'nın analizine göre, Proudhon'un 'mülkiyet hırsızlıktır' ifadesindeki mantıksal sorun nedir?
+answer: Mülkiyet hırsızlıksa, hırsızlık da mülk haline gelir ve mantıksal bir çelişki yaratır
+wrong_answers:
+  - Mülkiyet, hükümet düzenlemeleri ve yasal çerçeveler olmadan var olamaz
+  - Hırsızlık ahlaken yanlış, mülkiyet ise her koşulda ahlaken doğrudur
+  - Mülkiyet fiziksel olarak sahip olmayı gerektirirken, hırsızlık geçici olarak elde etmeyi içerir
+explanation: |
+  Bastiat, Proudhon'un ünlü cümlesindeki iç mantıksal çelişkiyi, mülkiyetin hırsızlığa eşit olduğunu kabul edersek, mantıksal olarak hırsızlığın da mülkiyete eşit olması gerektiğini göstererek ortaya koymuştur. Bu, meşru bir şeyin aynı zamanda gayrimeşru olduğu imkansız bir döngüsel akıl yürütme yaratır. Bastiat bunun yerine mülkiyetin doğal olarak çalışmadan, öz sahiplikten ve insani yetilerden kaynaklandığını, dolayısıyla bir hırsızlık biçimi olmaktan ziyade temel ve mantıksal bir kavram olduğunu savunmuştur.

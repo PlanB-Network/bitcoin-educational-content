@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’ingenzi ko gukoresha uburyo bwa SEC bushizwemwo ibintu vyinshi ku buryo bwa SEC butashizwemwo ibintu vyinshi ku mfunguruzo za bose za Bitcoin?
+answer: Igabanya ubunini bw'ububiko kuva kuri 65 bytes gushika kuri 33 bytes mu gihe iguma ifise umutekano umwe w'ibanga .
+wrong_answers:
+  - Itanga umutekano ukomeye cane w'ububiko bw'ibanga hakoreshejwe izindi nzira z'ububiko bw'ibanga
+  - Bishoboza ibikorwa vy'ugukubita vyihuta mu gihe c'imigenderanire yo kugenzura umukono
+  - Bituma imfunguruzo nyinshi za bose ziva mu buryo bumwe bushizwemwo .
+explanation: |
+  Uburyo bwa SEC bufise ubunini bugabanya ubunini bw'urufunguzo rwa bose kuva kuri bytes 65 (butakozweko) gushika kuri bytes 33 mu kubika gusa x-coordinate n'igice c'uburinganire (0x02 canke 0x03 prefix) aho kubika ama coordinate yose yuzuye. Igiharuro y gishobora gusubirwamwo mu mibare bivuye ku makuru y’igiharuro ca x n’ivy’uburinganire kuko imirongo y’uruzitiro ifise n’agaciro ka y kabiri ku x iyo ari yo yose. Ukwo gufatanya bitanga ububiko buhambaye ata gutakaza umutekano, ni co gituma Bitcoin ubu ikunda imfunguruzo zipfutse kugira ngo zikore neza.

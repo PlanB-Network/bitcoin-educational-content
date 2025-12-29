@@ -98,7 +98,7 @@ Se proprio non potete permettervi di gestire un vostro Dojo, potete trovare pers
 
 
 
-Sul telefono, aprire Tor Browser e andare su [il sito ufficiale di Ashigaru] (https://ashigaru.rs/download/), nella sezione `Download`. Quindi fare clic sul pulsante `Download for Android` per scaricare il file di installazione.
+Sul telefono, aprire Tor Browser e andare su [il sito ufficiale di Ashigaru](https://ashigaru.rs/download/), nella sezione `Download`. Quindi fare clic sul pulsante `Download for Android` per scaricare il file di installazione.
 
 
 
@@ -114,7 +114,7 @@ Prima di installare l'applicazione sul dispositivo, ne verificheremo l'autentici
 
 
 
-Tornare al [sito ufficiale di Ashigaru] (https://ashigaru.rs/download/) nella sezione `Download`, quindi copiare il messaggio visualizzato sotto il titolo `SHA-256 Hash del file APK`. Copiare l'intero blocco, da `BEGIN PGP SIGNED MESSAGE` a `END PGP SIGNATURE`.
+Tornare al [sito ufficiale di Ashigaru](https://ashigaru.rs/download/) nella sezione `Download`, quindi copiare il messaggio visualizzato sotto il titolo `SHA-256 Hash del file APK`. Copiare l'intero blocco, da `BEGIN PGP SIGNED MESSAGE` a `END PGP SIGNATURE`.
 
 
 

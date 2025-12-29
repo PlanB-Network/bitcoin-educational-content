@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen arkkitehtuurinen etu, jonka ansiosta Breez SDK poistaa perinteisen Lightning Network-esteen, joka liittyy kanavan avaamiseen manuaalisesti uusille käyttäjille?
+answer: Integroitu Lightning Service Provider (LSP) -toiminto, joka tarjoaa automaattisesti saapuvan likviditeetin wallet:n asennuksen yhteydessä
+wrong_answers:
+  - Sisäänrakennetut merenalaiset vaihtopalvelut, jotka muuttavat on-chain Bitcoin-kanavat Lightning-kanaviksi ilman käyttäjän toimenpiteitä
+  - Greenlightin hallinnoimat ennakkorahoitetut kanavapoolit, jotka jaetaan dynaamisesti käyttäjille kysynnän mukaan
+  - Automaattiset vertaisverkkojen löytämismekanismit, jotka yhdistävät uudet lompakot korkean likviditeetin solmuihin kanavan välitöntä luomista varten
+explanation: |
+  Breez SDK:n integroitu LSP-toiminto on suunniteltu erityisesti poistamaan manuaalisen kanavan avaamisen esteet tarjoamalla automaattisesti saapuvaa likviditeettiä, kun käyttäjät asentavat wallet:n. Tämä mahdollistaa välittömän maksujen vastaanoton ilman teknistä asennusta. Submarine swap -palvelut hoitavat kerrosten muuntamisen, mutta eivät käsittele kanavan alustavaa käyttöönottoa. Breez ei käytä ennakkorahoituspooleja eikä vertaisverkon löytämistä - sen sijaan LSP-integraatio tarjoaa suoraan tarvittavaa saapuvaa kapasiteettia, jotta uudet käyttäjät voivat vastaanottaa maksuja välittömästi.

@@ -1,0 +1,8 @@
+question: Millised on Rust Result enum'i kaks varianti, mida kasutatakse taastatavate vigade käsitlemiseks?
+answer: Ok(T) edukate operatsioonide puhul ja Err(E) ebaõnnestumiste puhul
+wrong_answers:
+  - Success(T) edukate operatsioonide puhul ja Failure(E) ebaõnnestumiste puhul
+  - Mõned(T) edukate operatsioonide puhul ja puuduvad ebaõnnestumiste puhul
+  - Pass(T) edukate operatsioonide puhul ja Panic(E) ebaõnnestumiste puhul
+explanation: |
+  Rust tulemuse enumil on täpselt kaks varianti: See disain sunnib arendajaid selgesõnaliselt tegelema nii õnnestumise kui ka ebaõnnestumise juhtumitega. Teised valikud on valed - Success/Failure ei ole Result-variandid, Some/None kuuluvad Option-ümbrisse nullväärtuste käsitlemiseks ja Pass/Panic ei ole standardsed Rust-ümbrise variandid vigade käsitlemiseks.

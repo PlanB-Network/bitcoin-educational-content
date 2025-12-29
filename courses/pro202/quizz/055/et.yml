@@ -1,0 +1,8 @@
+question: Kui Bitcoin-sõlm küsib käsuga getheaders plokkide päiseid, siis kui palju päiseid võib maksimaalselt ühes vastuses tagasi saada ja mis järgneb igale 80baidisele päisele?
+answer: Tagastada võib kuni 2000 päistekirja, millele järgneb igaühe puhul tehingu fiktiivne arv null
+wrong_answers:
+  - Tagastada võib kuni 1000 päistepunkti, millele järgneb tegelik tehingu arv varintina
+  - Tagastada võib kuni 2000 päistekirjet, millele järgneb igaühele 4 baidi suurune päiseandmete kontrollsumma
+  - Tagastada võib kuni 500 päistepunkti, millele järgneb Merkle'i juurhash kontrollimiseks
+explanation: |
+  Bitcoin P2P protokoll piirab getheadersi vastuseid maksimaalselt 2000 päisega, et vältida sõlmede ülekoormamist massiliste vastustega. Iga päis on täpselt 80 baiti ja sellele järgneb nulliks seatud tehinguarvu väli, kuna ainult päiseid sisaldavad sõnumid ei sisalda tegelikke tehinguid. Selline ülesehitus võimaldab tõhusat ahela sünkroniseerimist, kus sõlmed saavad kiiresti alla laadida ja kontrollida proof-of-work ahela struktuuri enne täieliku plokiandmete nõudmist.

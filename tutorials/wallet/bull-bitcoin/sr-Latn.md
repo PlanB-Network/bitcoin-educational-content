@@ -6,1285 +6,635 @@ description: Saznajte kako koristiti Wallet Bull Bitcoin
 ![cover](assets/cover.webp)
 
 
+![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
-Ovaj vodič vas vodi kroz instalaciju, konfiguraciju i korišćenje Bull Bitcoin Mobile. Naučićete kako da primate i šaljete sredstva na tri mreže: onchain, Liquid i Lightning, i kako da prenesete vaš Bitcoin sa jedne mreže na drugu. Dodaci pružaju resurse i kontakte, osnovne informacije i kratka objašnjenja tehničkih pojmova.
 
+*Ovaj video tutorijal od BTC Sessions vodi vas kroz proces postavljanja i korišćenja Bull Bitcoin Wallet!*
+
+
+Ovaj vodič vas vodi kroz instalaciju, konfiguraciju i korišćenje Bull Bitcoin Wallet. Naučićete kako da šaljete i primate sredstva na Bitcoin On-Chain, Liquid i Lightning mrežama, kao i kako da premestite Bitcoin između njih. Opsežne funkcije wallet čine ga moćnim, sve-u-jednom alatom za upravljanje vašim Bitcoin. Hajde da počnemo.
 
 
 ## Uvod
 
 
-
-**Bull Bitcoin Mobile**, developed by **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel)), je **self-custodial** Bitcoin Wallet, što znači da imate potpunu kontrolu nad svojim privatnim ključevima i stoga nad svojim sredstvima, bez oslanjanja na treću stranu. Otvorenog koda i ukorenjen u Cypherpunk filozofiji, ovaj Wallet kombinuje jednostavnost, poverljivost i napredne funkcije kao što su zamene između mreža i podrška za PayJoin. Omogućava vam upravljanje vašim bitcoinima na tri mreže: **Bitcoin onchain**, **Liquid** i **Lightning**, svaka prilagođena specifičnim upotrebama.
-
+Bull Bitcoin Wallet, developed by [Bull Bitcoin](https://www.bullbitcoin.com/), je **self-custodial** Bitcoin wallet, što znači da imate potpunu kontrolu nad svojim privatnim ključevima i stoga svojim sredstvima, bez oslanjanja na treću stranu. Otvorenog koda i ukorenjen u Cypherpunk filozofiji, ovaj Wallet kombinuje jednostavnost, poverljivost i napredne funkcije kao što su zamene između mreža i podrška za PayJoin. Omogućava vam upravljanje vašim bitcoinima na tri mreže: **Bitcoin onchain**, **Liquid** i **Lightning**, svaka prilagođena specifičnim upotrebama. Na [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), možete pogledati trenutne teme i nadolazeće razvojne projekte. Kako je projekat 100% otvorenog koda i "izgrađen javno", možete takođe poslati svoje predloge i sve greške na koje naiđete. Dok neki novčanici sada podržavaju više mreža, Bull Bitcoin Wallet se ističe dubokom integracijom funkcija privatnosti na svim njima, čineći ga moćnim alatom za upravljanje vašim Bitcoin na svim glavnim mrežama.
 
 
-### Kontekst razvoja
+## 1️⃣ Preduslovi
 
 
-
-Wallet odgovara na veliki izazov: Bitcoin mrežne naknade nisu pogodne za male uplate ili za otvaranje malih samostalno hostovanih Lightning kanala. Wallet Bull Bitcoin Mobile nudi rešenje sa samostalnim čuvanjem dok se oslanja na 3 glavne Bitcoin mreže:
+Pre nego što počnete koristiti **Bull Bitcoin Wallet**, uverite se da imate sledeće stavke:
 
 
 
-
-
-- **Bitcoin network (onchain)**: Idealno za srednjoročno do dugoročno skladištenje UTXO-a i transakcije velike vrednosti, gde su naknade proporcionalno zanemarljive.
-- **Liquid Network**: Dizajniran za brze (~2 minuta), poverljivije (skrivene sume), niskotarifne transakcije, savršen za akumulaciju malih iznosa ili zaštitu vaše privatnosti.
-- **Lightning network**: Optimizovan za trenutna, niskotarifna plaćanja, pogodan za dnevne transakcije male do srednje vrednosti.
-
-
-
-Sa Bull Bitcoin Mobile, na primer, možete akumulirati male iznose u portfolijima **Liquid** ili **Lightning** i zatim, kada dostignete značajan iznos, možete:
-
-
-
-
-
-- Prenos na onchain mrežu za sigurno srednjoročno ili dugoročno skladištenje, uz poboljšanu poverljivost sa Liquid i/ili Lightning upstream, i sa onchain naknadama za jednu transakciju.
-
-
-
-### Kontinuirana evolucija
-
-
-
-Wallet se stalno razvija, tako da nemojte biti iznenađeni ako pronađete neslaganja između ovog vodiča i vaše ažurirane aplikacije.
-
-
-
-
-- Na primer, od 19.07.2025., dugmad **"Kupi / Prodaj / Plati "** su vidljiva, ali zasivljena u aplikaciji, jer će ove opcije, dostupne na Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), uskoro biti integrisane za jedinstveno iskustvo. Njihova upotreba će ostati potpuno opcionalna. Mnogi drugi razvojni projekti su u toku ili planirani: upravljanje sa više Wallet, passphrase, kompatibilnost sa hardverskim novčanicima...
-- Na [BullBitcoin GitHub-u](https://github.com/orgs/SatoshiPortal/projects/49), možete pogledati trenutne teme i nadolazeće razvojne projekte. Pošto je projekat 100% open-source i "izgrađen u javnosti", možete nam poslati vaše predloge i sve greške na koje naiđete.
-
-
-
-
-## 1. Preduslovi
-
-
-
-Pre nego što počnete koristiti **Bull Bitcoin Mobile**, uverite se da imate sledeće stavke:
-
-
-
-
-
-- **Kompatibilan pametni telefon**: **iOS** (iPhone ili iPad) ili **Android** uređaj
+- Compatible Smartphone**: A **iOS** (iPhone ili iPad) ili **Android** uređaj
 - Internet konekcija
-- **Sigurnosni medij za bekap**: Zapišite svoju **frazu za oporavak** (12 reči) na papir ili metal i čuvajte je na sigurnom mestu.
-- **Osnovno znanje**: Minimalno razumevanje Bitcoin koncepta (adrese, transakcije, naknade) je korisno, iako ovaj vodič objašnjava svaki korak za početnike.
+- Sigurnosna kopija medija**: Zapišite svoju **frazu za oporavak** (12 reči) na papir ili metal i čuvajte je na sigurnom mestu.
+- Osnovno znanje**: Minimalno razumevanje Bitcoin koncepta (adrese, transakcije, naknade) je korisno, iako ovaj vodič objašnjava svaki korak za početnike.
+
+
+## 2️⃣ Instalacija
+
+
+Aplikaciju možete instalirati putem:
 
 
 
-## 2. Instalacija
+- [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(for iOS devices)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (za Android uređaje)
+
+
+Korisnici Androida takođe imaju alternativne opcije:
 
 
 
+- Preuzmite APK direktno sa stranice [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) ili
+- Instalirajte putem Nostr-kompatibilnog [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
-- **Preuzmite aplikaciju**:
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Preuzmite iz prodavnice aplikacija za Android uređaje**
-- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Preuzmite APK za Android uređaje direktno**
-- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Preuzmite putem TestFlight-a za Apple uređaje**
- - Proverite ime programera (Bull Bitcoin) kako biste izbegli lažne aplikacije.
- - Uverite se da preuzeta verzija odgovara najnovijoj stabilnoj verziji navedenoj na GitHub-u.
- - Bull Bitcoin Mobile je **open-source**. Da biste pogledali kod: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
+Nakon instalacije aplikacije, pratite uputstva na ekranu dobrodošlice kako biste konfigurisali svoj nalog.
 
 
+## 3️⃣ Inicijalna konfiguracija
 
 
-
-- Instaliraj aplikaciju
+Pri otvaranju, prikazuju vam se sledeće opcije:
 
 
 
-
-## 3. Inicijalna konfiguracija
-
-
-
-### 3.1 Pokreni aplikaciju :
+- `Kreiraj Novi Wallet`
+- `Oporavi Wallet` and
+- `Napredne opcije`
 
 
-
-Aplikacija koristi jedinstvenu frazu za oporavak od 12 reči za oba portfolija:
-
+Hajde da počnemo tako što ćemo dodirnuti `Advanced Options`.
 
 
-
-- osigurati **Bitcoin Wallet**: Za transakcije na Bitcoin mreži (onchain)
-- **Instant Payments' Wallet**: Za trenutne transakcije na Liquid i Lightning mrežama
+Ovde možemo konfigurisati napredna podešavanja pre kreiranja ili oporavka wallet:
 
 
+1. Omogući `Tor proxy` za usmeravanje saobraćaja preko Tor mreže.
 
-Prilikom otvaranja, od vas se traži da uvezete postojeću frazu za oporavak ili da kreirate novu Wallet :
+1. [Orbot app](https://orbot.app/en/) treba biti instalirana i pokrenuta pre nego što omogućite
 
+2. Tor Proxy se primenjuje samo na Bitcoin (ne na Liquid) i može rezultirati sporijom vezom.
 
+2. Postavite `Custom Electrum Server`, ili
 
-![image](assets/fr/02.webp)
-
-
-
-### 3.2 Fraza za oporavak :
-
+3. Podesite postavke `Recover Bull`. Više ćemo naučiti o [Recover Bull](https://recoverbull.com/) kasnije.
 
 
-Ako želite ponovo koristiti postojeći Wallet, kliknite na "**Recover Wallet**" i unesite 12 reči vaše fraze za oporavak.
+Nakon što izvršite sve opcionalne prilagodbe, dodirnite `Done`. Ako želite ponovo koristiti postojeći Wallet, kliknite na `Recover Wallet` i unesite 12 reči vaše fraze za oporavak.
 
 
+Inače, kliknite na `Create a New Wallet`.
 
-Inače, kliknite na "**Create New Wallet**" :
 
+![image](assets/en/01.webp)
+
+
+## 4️⃣ Početni ekran
+
+
+Pre nego što zaronimo dublje, hajde da pogledamo `Početni ekran` kako bismo se orijentisali:
 
 
 
-- Zapišite svoju frazu za oporavak s najvećom pažnjom. Zapišite je na papir ili metal i čuvajte na sigurnom mestu (sef, vanmrežna lokacija). Ova fraza je vaš jedini način pristupa vašim bitcoinima u slučaju gubitka uređaja ili brisanja aplikacije.
-- Takođe je važno napomenuti da bilo ko sa ovom frazom može ukrasti sve vaše bitkoine. Nikada je ne čuvajte digitalno:
- - Nema snimka ekrana
- - Nema rezervnih kopija oblaka, e-pošte ili poruka
- - Bez kopiranja/lepljenja (rizik od čuvanja u međumemoriji)
+- `transaction overview` i `settings menu` se nalaze na vrhu.
+- `Dostupno stanje` ima opciju privatnosti koja može biti `uključena ili isključena`.
+- Pristupite `Bitcoin Bull Exchange` da biste `Kupili, Prodali ili Platili` (ovo zavisi od jurisdikcije i može zahtevati KYC).
+- `Transfer` sredstava između novčanika
+- `Secure Bitcoin` jednako Onchain Bitcoin Wallet
+- `Instant payments` putem Lightning- / Liquid Network *(Napomena: Bull Bitcoin Wallet omogućava plaćanja putem Lightning-a. Sredstva primljena putem Lightning-a se čuvaju na [*Liquid mreži](https://liquid.net/) (u Wallet Instant Payments) zahvaljujući automatskoj zameni putem [*Boltz razmene](https://boltz.exchange/). Ovo vam omogućava interakciju sa Lightning-om bez potrebe za upravljanjem kanalima likvidnosti, dok ostajete u samostalnom staranju.)*
+- `Slanje` i `Primanje` sredstava
+
+
+![image](assets/en/02.webp)
+
+
+Prvo, hajde da napravimo neke važne konfiguracije i počnemo sa `Backup`.
+
+
+## 5️⃣ Bekap
+
+
+Da biste započeli proces bekapa, dodirnite `ikonu zupčanika (⚙)` u gornjem desnom uglu aplikacije i izaberite `Wallet Backup`. Biće vam predstavljene dve metode za osiguranje vašeg wallet: `Šifrovani Trezor` i `Fizički Bekap`. Hajde da istražimo svaku od njih.
+
+
+![image](assets/en/03.webp)
+
+
+### Fizička rezervna kopija
+
+
+Dodirnite `Physical Backup` da biste videli listu od 12 reči koje predstavljaju vašu frazu za oporavak ili seed. Molimo vas da razmotrite sledeće:
 
 
 
-**! Ova tačka je kritična**. Za dalju pomoć :
+- Zapišite svoju `frazu za oporavak` sa najvećom pažnjom. Zapišite je na papir ili metal i čuvajte na sigurnom mestu (sef, vanmrežna lokacija). Ova fraza je vaš jedini način pristupa vašim bitcoinima u slučaju gubitka uređaja ili brisanja aplikacije.
+- Takođe je važno napomenuti da svako ko ima ovu frazu može ukrasti sve vaše bitkoine. Nikada je ne čuvajte digitalno:
+- Nema snimka ekrana
+- Nema rezervnih kopija oblaka, e-pošte ili poruka
+- Bez kopiranja/lepljenja (rizik od čuvanja u međumemoriji)
 
+
+![image](assets/en/25.webp)
+
+
+Sledeći ekran će vas navesti da stavite reč u pravilan redosled kako biste se uverili da ste ispravno dobili seed frazu. Dobićete potvrdu kada je test završen i uspešan.
+
+
+! **Ova tačka je kritična**. Za dalju pomoć :
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 3.3 Obezbeđivanje pristupa :
+### Šifrovani trezor
 
 
+Postoji i opcija šifrovane, anonimne rezervne kopije u oblaku. Ali zar nismo pomenuli u poslednjem pasusu da su rezervne kopije u oblaku rizične i da ih treba izbegavati? Međutim, tim Bull Bitcoin je razvio pametan način da proces učini bezbednim. Evo kako to funkcioniše:
 
 
+`Recoverbull` je protokol za pravljenje rezervnih kopija koji pojednostavljuje osiguranje vašeg Bitcoin wallet tako što deli rezervnu kopiju na dva dela. Prvo, rezervna kopija vašeg wallet se šifrira na vašem uređaju koristeći jak ključ za šifrovanje. Ovu šifrovanu datoteku možete sačuvati gde god želite, kao što su Google Drive ili vaš uređaj. Drugo, ključ za šifrovanje potreban za otključavanje datoteke čuva Recoverbull Key Server. Da biste povratili vaš wallet, potrebni su vam i šifrovana rezervna kopija i ključ, kojem pristupate pomoću vašeg PIN-a ili lozinke. Ovaj dizajn osigurava da vaša rezervna kopija u oblaku sama po sebi nije korisna i da server ključeva sam po sebi nije koristan bez vaše specifične rezervne kopije. Ovo čuva vaša sredstva sigurnim čak i ako je jedan deo kompromitovan.
 
-- Idite na podešavanja, a zatim kliknite na **PIN kod**.
-- Postavite robustan **PIN kod** za zaštitu pristupa aplikaciji.
-- Ovaj korak je opcionalan, ali se snažno preporučuje kako bi se sprečilo da bilo ko ko ima pristup vašem telefonu dobije pristup vašem Wallet.
 
+Zamislite to kao sef. Šifrovana rezervna datoteka je *kutija*, koju možete čuvati bilo gde (kao što je Google Drive). Vaš PIN za oporavak je *ključ*, koji je odvojeno uskladišten od strane Recoverbull Key Server-a. Lopov bi morao da dobije i vašu specifičnu kutiju i vaš specifični ključ da bi je otvorio. Ovaj dizajn osigurava da čak i ako neko dobije vašu rezervnu datoteku, ona je beskorisna bez ključa sa servera, a ključ sa servera je beskoristan bez vaše jedinstvene rezervne datoteke.
 
 
-![image](assets/fr/03.webp)
+Saznajte više o `Recoverbull` wallet protokolu za bekap [ovde](https://recoverbull.com/).
 
 
+Dodirnite `Encrypted vault`, a zatim `Continue` da potvrdite korišćenje Podrazumevanog Servera. Veza će biti usmerena kroz `Tor` Mrežu kako bi se osigurala privatnost i anonimnost.
 
-### 3.4 Povezivanje na lični čvor (opciono):
 
+**Razumevanje Vaših PIN-ova**
 
 
-Wallet BullBitcoin se po podrazumevanoj vrednosti povezuje na Electrum servere: prvi kojim upravlja Bull Bitcoin i sekundarni server od Blockstream-a, za koje se smatra da ne čuvaju logove, smanjujući rizik od praćenja.
 
+- `PIN za otključavanje aplikacije`**:** Opcioni PIN postavljen u `Podešavanja > Sigurnosni PIN` za zaključavanje aplikacije na vašem telefonu.
+- `Recovery PIN`**:** Obavezni PIN kreiran tokom procesa bekapa `Encrypted Vault`, koristi se za dešifrovanje vaše bekap datoteke tokom oporavka.
 
 
-Za veću poverljivost, možete povezati aplikaciju sa sopstvenim Bitcoin čvorom putem Electrum servera (uputstva su dostupna na [BullBitcoin's GitHub](https://github.com/orgs/SatoshiPortal/projects/49) ).
+Ovo su dva odvojena PIN-a. Ne zaboravite svoj PIN za oporavak, jer je neophodan za vraćanje vašeg wallet."
 
 
+**Podešavanje PIN-a za oporavak:**
 
 
-## 4. Primanje sredstava
 
+- Morate kreirati PIN ili lozinku za povratak pristupa vašem wallet.
+- PIN / Lozinka mora imati najmanje 6 cifara (npr., izbegavajte jednostavne sekvence poput 123456, koje nisu prihvaćene).
+- Bez ovog PIN-a, oporavak wallet je nemoguć.
 
 
-Primanje sredstava sa **Bull Bitcoin Mobile** je jednostavno i prilagođeno vašim potrebama, bilo da koristite :
+Zatim, izaberite provajdera trezora:
 
 
 
+- `Google Drive` ili
+- a `custom location` (npr. vaš uređaj)
 
-  - mreža **Bitcoin (onchain)** za dugoročnu zaštitu,
-  - mreža **Liquid** za brzo, više Confidential Transactions,
-  - **Lightning** mreža za trenutna, niskovredna plaćanja.
 
+![image](assets/en/04.webp)
 
 
-Aplikacija automatski generiše Lightning prijemne ili Invoice adrese, u zavisnosti od izabrane mreže. Evo kako da nastavite za svaku mrežu.
+Sada, sačuvaj `backup file`. Zatim, dodirni `Test Recovery`, izaberi svoj sačuvani backup fajl ili trezor, a potom dodirni `Decrypt Vault`. Unesi svoj `PIN` ili `Password`. Ako je sve uspelo, pojaviće se ekran `Test completed successfully`.
 
 
+### Uvoz / Izvoz Oznaka
 
-### 4.1. onchain (Bitcoin mreža)
 
+Sada kada smo kreirali našu rezervnu kopiju, pogledajmo `Labels`. Bull Bitcoin wallet poboljšava privatnost i organizaciju omogućavajući korisnicima da kreiraju prilagođene oznake za svoje adrese za primanje i transakcije. Ove oznake pomažu vam da kategorizujete svoja sredstva, jer će transakcije poslate na adresu sa oznakom naslediti tu oznaku, a možete takođe označiti odlazne transakcije kako biste pratili njihovu promenu. wallet u potpunosti podržava standard [BIP-329](https://bip329.org/), što znači da možete izvesti sve svoje oznake u datoteku i uvesti ih u drugi wallet. Ova funkcija osigurava da možete besprekorno napraviti rezervnu kopiju svoje istorije transakcija i kategorizacija, ili ih migrirati između različitih instanci wallet, bez gubitka vaše personalizovane organizacije.
 
 
-Na početnom ekranu, možete:
+![image](assets/en/05.webp)
 
 
+## 6️⃣ Postavke
 
 
-- ili odaberite **Secure Bitcoin Wallet** zatim kliknite na "**Receive "** :
+Sa vašom primarnom rezervnom kopijom osiguranom, hajde da istražimo ostale funkcije dostupne u podešavanjima.
 
 
+### A - Obezbeđivanje pristupa
 
-![image](assets/fr/04.webp)
 
+Da biste osigurali aplikaciju, idite na `Settings` i izaberite `Security PIN` da biste odabrali PIN kod. Kreirajte jak PIN da zaključate pristup vašem wallet. Iako je ovaj korak opcionalan, toplo se preporučuje da sprečite neovlašćen pristup ako neko drugi koristi vaš telefon.
 
 
+![image](assets/en/06.webp)
 
 
-- ili kliknite na "**Receive**", a zatim izaberite mrežu **Bitcoin**:
+### B - Povezivanje sa ličnim čvorom (opciono)
 
 
+Wallet BullBitcoin se po podrazumevanoj vrednosti povezuje sa Electrum serverima: prvi kojim upravlja Bull Bitcoin i sekundarni server od Blockstream-a, za koje se smatra da ne vode evidenciju, čime se smanjuje rizik od praćenja.
 
-![image](assets/fr/05.webp)
 
+Za veću poverljivost, možete povezati aplikaciju sa sopstvenim Bitcoin čvorom preko Electrum servera. Da biste to uradili, dodirnite `Settings` > `Bitcoin Settings` > `Electrum Server Settings`, zatim dodirnite `+ Add Custom Server` da unesete adresu i akreditive vašeg servera.
 
 
-#### 4.1.1. Opcija "Kopiraj ili skeniraj samo Address" onemogućena (podrazumevano)
+![image](assets/en/07.webp)
 
 
+### C - Valuta
 
-![image](assets/fr/06.webp)
 
+Dostupno stanje je prikazano na glavnom ekranu u oba oblika `sats` i `USD`. Da biste to promenili, idite na `Settings` > `Currency`. Tamo možete menjati između `sats/BTC` i odabrati vašu `podrazumevanu fiat valutu`.
 
 
+![image](assets/en/08.webp)
 
 
-- Ovo omogućava pristup opcionalnim naprednim parametrima. Možete navesti:
- - Iznos u BTC, Sats ili fiat.
- - **lična beleška** koja će biti uključena u kopiju URI / QR koda.
- - Aktivacija **PayJoin** (pogledajte Dodatak 3 za detalje), koja poboljšava poverljivost kombinovanjem unosa pošiljaoca i primaoca.
+### D - Bitcoin Postavke
 
 
+Meni `Bitcoin Settings` nudi dubok pristup osnovnim konfiguracijama i podacima vašeg wallet. Ovde možete pregledati osnovne detalje vašeg `Secure Bitcoin` i `Instant payments wallets`, pružajući vam potpunu transparentnost i kontrolu. Ključne funkcije unutar ovog menija uključuju:
 
 
 
-- **Primer automatski generisanog URI-ja**:
+- Wallet Detalji:** Navigirajte do vašeg Secure Bitcoin ili Instant payments wallet da biste videli specifične informacije.
+- Wallet Fingerprint:** Jedinstveni identifikator za vaš wallet.
+- Javni ključ (Pubkey):** Ključ koji se koristi za generate vaše Bitcoin adrese za primanje.
+- Descriptor:** Tehnički rezime strukture vašeg wallet.
+- Putanja derivacije:** Specifična putanja korišćena za generate sve adrese iz vašeg glavnog privatnog ključa.
+- Address Pregled:** Pristupite listi vaših neiskorišćenih adresa za primanje i promena adresa (uskoro)
 
+
+Štaviše, imate opciju da:
+
+
+
+- Postavke `Enable Auto Transfer` za postavljanje maksimalnog trenutnog wallet salda, koji će zatim biti automatski prebačen na sigurni bitcoin wallet.
+- Uvezi Generic novčanike putem `Mnemonic` Fraze ili uvezi `samo za gledanje`
+- Poveži `Hardware wallets`: trenutno podržani uređaji su ColdcardQ, SeedSigner, Specter, Krux, Blockstream Jade i Foundation Passport
+
+
+## 7️⃣ Bull Bitcoin Exchange
+
+
+Direktno sa wallet, imate pristup [Bull Bitcoin berzi](https://www.bullbitcoin.com/), što vam omogućava da kupujete, prodajete i plaćate Bitcoin bez napuštanja aplikacije. Ova integracija pruža praktično rešenje za upravljanje vašim Bitcoin potrebama. Imajte na umu da pristup berzi i njenim uslugama može biti ograničen u zavisnosti od vaše jurisdikcije, a završetak verifikacije "Upoznaj svog kupca" (KYC) može biti potreban kako bi se ispunili regulatorni standardi i koristile sve funkcije platforme.
+
+
+Da biste započeli, dodirnite `Exchange` u donjem desnom uglu, zatim `Sign up` ili `Login` na vaš nalog.
+
+
+Razmena nudi sledeće [karakteristike](https://www.bullbitcoin.com/):
+
+
+
+- Kupite Bitcoin sa samostalnim čuvanjem sa vašeg bankovnog računa
+- Nekustodijalni
+- Pojedinci ili korporacije
+- Trenutno povlačenje
+- Nema skrivenih naknada
+- Lightning Network dostupno
+- Bez ograničenja transakcija
+- Opcije ponovljene kupovine
+
+
+![image](assets/en/09.webp)
+
+
+Da biste saznali više, posetite ovaj vodič:
+
+
+https://planb.academy/en/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+
+## 8️⃣ Primanje sredstava
+
+
+Primanje sredstava putem **Bull Bitcoin Wallet** je jednostavno i fleksibilno, podržavajući tri različite mreže prilagođene za različite slučajeve upotrebe:
+
+
+
+- Mreža `Bitcoin (onchain)` za sigurno, dugoročno skladištenje.
+- Mreža `Liquid` za brze, poverljivije transakcije.
+- Mreža `Lightning` za trenutna plaćanja niske cene.
+
+
+Aplikacija automatski generiše odgovarajuću adresu ili fakturu na osnovu odabrane mreže. Evo kako da nastavite za svaku mrežu.
+
+
+### Primanje putem Onchain (Bitcoin mreža)
+
+
+Da biste primili on-chain sredstva, možete ili odabrati `Secure Bitcoin Wallet` sa početnog ekrana i dodirnuti `Receive`, ili dodirnuti glavni `Receive` dugme i zatim izabrati `Bitcoin network`.
+
+
+Imate dva osnovna načina za generisanje adrese za primanje:
+
+
+**Podrazumevani režim (URI sa dodatnim ulaznim parametrima)
+
+
+Podrazumevano, wallet generiše [BIP21 URI](https://bips.dev/21/). Ovo je standardizovani format koji sadrži više informacija od jednostavne adrese, uključujući iznos, ličnu belešku i PayJoin parametre za poboljšanje privatnosti. Ovaj sveobuhvatni URI je kodiran u QR kod i dostupan za kopiranje. Format izgleda ovako: `bitcoin:<address>?<parameter1>=<value1>&<parameter2>=<value2>`.
+
+
+
+- Dodatni ulazni parametri:**
+    - Iznos:** Navedite traženi iznos u BTC, sats ili fiat valuti.
+    - Poruka:** Dodajte ličnu belešku koja će biti vidljiva pošiljaocu.
+    - PayJoin:** Omogućite ovu opciju da poboljšate privatnost kombinovanjem ulaza od oba učesnika u transakciji.
+
+
+Primer URI:
 
 
 ```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+bitcoin:bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54xxxxx?amount=0.0005&message=Tip+for+tutorial&pj=HTTPS%3A%2F%2FPAYJO.IN%2F78UH9WZUP8KKJ%23RK1Q2H30FASCU9WW09DQY2LK0K8P2DPRJ99V72CA78ACQAEL675QYTMQ+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1L0LYV6G
 ```
 
 
+*Važna napomena: Molimo vas da ne šaljete sredstva na adrese u ovom uputstvu, wallet će biti obrisan.*
 
 
+![image](assets/en/10.webp)
 
-- **Usage**: Kopiraj URI da podeliš sa pošiljaocem, ili mu dozvoli da skenira QR kod.
 
+**Kopiraj ili skeniraj Address samo opcija omogućena
 
 
-#### 4.1.2. Omogućena opcija "Kopiraj ili skeniraj samo Address"
-
-
-
-![image](assets/fr/07.webp)
-
-
-
-
-
-- Sa omogućenim podešavanjem **"Kopiraj ili skeniraj samo Address"**, aplikacija generiše jednostavan Bitcoin Address u SegWit (bech32) formatu.
-
-
-
-
-
-- Primer:
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-Čak i ako unesete iznos ili belešku, oni neće biti uključeni u QR kod ili u kopiju Address
-
-
-
-
-
-- **Upotreba**: Kopirajte Address da ga podelite sa pošiljaocem ili mu dozvolite da skenira QR kod.
-
-
-
-#### 4.1.3. Generisanje novog Address
-
-
-
-
-
-- Zašto koristiti novi Address za svaku transakciju? Ovo **štiti vašu privatnost** sprečavanjem povezivanja više uplata sa istim Address, i ograničava mogućnosti praćenja na Blockchain.
-- Podrazumevano, Bull Bitcoin automatski generiše neiskorišćeni **Address**.
- - Možete forsirati kreiranje novog Address klikom na **"New Address"** na dnu ekrana.
- - Sve vaše adrese su povezane sa vašom seed frazom: bez obzira na to koliko adresa koristite, vaš portfolio će prikazivati jedinstveni saldo i može automatski konsolidovati sredstva kada se izvrši isporuka.
-
-
-
-
-
-- Savet: Uvek koristite novi **Address** koji obezbeđuje Bull Bitcoin, osim ako nemate specifičnu potrebu (npr. javni Address za primanje donacija).
-
-
-
-### 4.2. Liquid
-
-
-
-Na početnom ekranu, možete:
-
-
-
-
-- ili odaberite **Instant payments Wallet** zatim kliknite na **"Receive "** pa **"Liquid"** :
-
-
-
-![image](assets/fr/08.webp)
-
-
-
-
-
-- ili kliknite na "**Receive**", a zatim izaberite mrežu **Liquid**:
-
-
-
-![image](assets/fr/09.webp)
-
-
-
-Kada ste na ekranu **"Receive "**, kopirajte Liquid Address:
-
-
-
-
-
-- Nema iznosa ili beleške. Primer:
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-
-
-- Ili tako što navedete **iznos** (u BTC, Sats ili fiat) i/ili **ličnu belešku** koja će biti uključena u kopiju URI / QR koda. Primer:
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-**Koristi**: Kopiraj Address/URI da podeliš sa pošiljaocem, ili mu dozvoli da skenira QR kod.
-
-
-
-### 4.3. Munja
-
-
-
-Na početnom ekranu, možete:
-
-
-
-
-- ili odaberite **Instant payments Wallet** zatim kliknite na "**Receive "** :
-
-
-
-![image](assets/fr/10.webp)
-
-
-
-
-
-- ili kliknite na "**Receive**", a zatim izaberite **Lightning** mrežu:
-
-
-
-![image](assets/fr/11.webp)
-
-
-
-#### 4.3.1. Operacija, ograničenja i koristi
-
-
-
-
-
-- **Mehanizam**: Bull Bitcoin Wallet je Wallet koji omogućava plaćanja putem Lightning-a. Sredstva primljena putem Lightning-a se čuvaju na mreži **Liquid** (u Wallet Instant Payments) zahvaljujući automatskoj zameni putem **Boltz**. Ovo vam omogućava interakciju sa Lightning-om bez potrebe za upravljanjem kanalima likvidnosti, dok ostajete u samostalnom staranju o sredstvima.
-
-
-
-
-
-- **Ograničenja:**
-- **Minimalni iznos** od 100 satoshija (od 19.07.2025) kada generate Invoice.
-- Vi plaćate troškove, koji će biti oduzeti od iznosa koji šalje pošiljalac, za razliku od primanja sa **Wallet Lightning native**, gde samo pošiljalac plaća troškove transfera pored poslatog iznosa. Od 19/07/2025, 47 Sats se oduzima od poslatog iznosa.
-
-
-
-
-
-- **Prednosti**:
-- **Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, uskladištena na Liquid Network.
-- **Nema visokih onchain naknada**: Skladištenje na Liquid izbegava skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu izvršiti kasnije, kada iznos akumuliran na Liquid opravda naknade.
-
-
-
-
-
-- **Savjet:** Ako pošiljalac ima Wallet Bull Bitcoin, koristite direktno Liquid Network da izbegnete naknade za zamenu.
-
-
-
-#### 4.3.2. generate Invoice
-
-
-
-
-
-- Unesite **iznos** (u BTC, Sats ili fiat)
-
-
-
-
-
-- Dodajte **ličnu belešku** koja će biti integrisana u Invoice. Ako pošiljalac plati Invoice, vaš Wallet će je takođe uključiti u detalje transakcije.
-
-
-
-
-
-- **Invoice validity:** The Lightning Invoice is valid for **12 hours**. After this time, it expires and can no longer be paid. A new Invoice must be generated.
-
-
-
-
-
-- **Upotreba**: Kopirajte Invoice da ga podelite sa pošiljaocem, ili mu dozvolite da skenira QR kod.
-
-
-
-
-## 5. Slanje sredstava
-
-
-
-### 5.1. Osnovni princip
-
-
-
-Ili sa početne stranice, ili iz novčanika :
-
-
-
-![image](assets/fr/12.webp)
-
-
-
-da pristupite ekranu za slanje:
-
-
-
-![image](assets/fr/13.webp)
-
-
-
-**Bull Bitcoin Mobile** olakšava slanje novca automatskim prepoznavanjem mreže (Bitcoin, Liquid ili Lightning) na osnovu unetog (kopiranog ili skeniranog putem QR koda) Address ili Invoice.
-
-
-
-### 5.2. onchain transmission (Bitcoin mreža)
-
-
-
-#### 5.2.1. Pošalji ekran
-
-
-
-**Akcija**: Unesite ili skenirajte Bitcoin na lancu Address
-
-
-
-
-
-- Ako iznos nije definisan, na primer:
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-
-
-- Zatim možete izabrati na ekranu za slanje :
- - Iznos u BTC, sat ili fiat. Minimalni iznos: 546 satoshija dana 22/07/2025.
- - Opciona napomena za identifikaciju transakcije. Vidljivo samo vama, u detaljima transakcije.
-
-
-
-![image](assets/fr/14.webp)
-
-
-
-
-
-- Ako je iznos već definisan, na primer :
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-Bićete direktno prebačeni na ekran za potvrdu ispod.
-
-
-
-#### 5.2.2 Ekran za potvrdu
-
-
-
-Odvojite vreme da proverite sve parametre, posebno iznos, odredište Address i naknade.
-
-
-Zatim možete prilagoditi parametre:
-
-
-
-![image](assets/fr/15.webp)
-
-
-
-
-- **Naknade**: Možete izabrati :
-- Ili brzina izvršenja **vaše transakcije**, a povezane naknade će biti procenjene
-- Ili **naknade**, u režimu apsolutnih naknada (ukupne naknade u satoshijima) ili relativnih naknada (naknade po bajtu), i brzina vaše transakcije će biti procenjena
-
-
-
-
-
-- **Napredna podešavanja**:
-
-
-
-
-
-- **Replace-by-fee (RBF)**: Aktivirana po defaultu, ova funkcija ubrzava transakciju plaćanjem veće naknade (pogledajte Dodatak 4 za detalje).
-
-
-
-
-
-- **Ručno odabiranje UTXO**: Ako su vaša sredstva pohranjena na nekoliko različitih Wallet adresa, možete odabrati adrese s kojih ćete poslati sredstva. Zašto biste to učinili? Sa sve većim prihvatanjem Bitcoin, troškovi transfera rastu. Slanje s nekoliko adresa s malim iznosima je skuplje nego slanje s jedne Address, ali to učiniti sada izbegava potrebu da se to uradi kasnije, kada će naknade biti još veće. Ovo se zove **konsolidacija UTXO**.
-
-
-
-![image](assets/fr/16.webp)
-
-
-
-
-
-- **Slanje sa PayJoin**: Ako je funkcija aktivirana od strane primaoca koji je dostavio URI, npr. :
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-Zatim će Bull Bitcoin Mobile konfigurisati slanje kombinovanjem vaših UTXO-a sa UTXO-ima primaoca kao ulaz, poboljšavajući poverljivost (pogledajte Dodatak 3 za detalje).
-
-
-
-### 5.3. Pošalji na Liquid
-
-
-
-#### 5.3.1 Pošalji ekran
-
-
-
-Mreža **Liquid** omogućava brze transakcije (~2 minuta zahvaljujući jednom bloku po minutu), više poverljive (maskirani iznosi) nego na onchain mreži, i sa veoma niskim naknadama. Sredstva se povlače sa **Instant Payments Wallet**.
-
-
-
-**Akcija**: Unesite ili skenirajte Liquid Address
-
-
-
-
-
-- Ako iznos nije definisan, na primer :
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-Zatim možete izabrati na ekranu za slanje :
-
-
-
-
-- Iznos u BTC, sat ili fiat. Nema minimuma, 1 Satoshi moguće;
-- Opciona napomena za identifikaciju transakcije. Vidljivo samo vama, u detaljima transakcije.
-
-
-
-![image](assets/fr/17.webp)
-
-
-
-
-
-- Ako je iznos već definisan, na primer :
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-Bićete direktno preusmereni na ekran za potvrdu ispod.
-
-
-
-#### 5.3.2 Ekran za potvrdu
-
-
-
-Odvojite vreme da proverite sve parametre, posebno količinu i odredište Address.
-
-
-
-![image](assets/fr/18.webp)
-
-
-
-
-
-- **Naknade**: Proporcionalne složenosti transakcije, generalno na osnovu 0.1 sat/vB, tj. 20-40 satoshija za jednostavnu transakciju (33 Sats na 07/22/2025).
-
-
-
-### 5.4. Pošalji na Lightning
-
-
-
-#### 5.4.1 Pošalji ekran
-
-
-
-**Lightning** mreža omogućava trenutna, niskotarifna plaćanja za male iznose, idealna za male dnevne transakcije.
-
-
-
-**Akcija**: Unesite ili skenirajte Lightning Invoice
-
-
-
-
-
-- Ako skeniraš LN-URL Address koji ti omogućava da postaviš iznos
-
-
-Primer: `orangepeel@walletofsatoshi.com`.
-
-
-onda možete izabrati na ekranu za slanje :
-
-
-
-
- - Iznos u BTC, sat ili fiat. Minimalni iznos od 1000 satoshija dana 23/07/2025.
- - Opciona napomena za identifikaciju transakcije. Biće poslata primaocu.
-
-
-
-![image](assets/fr/19.webp)
-
-
-
-
-
-- Ako skeniraš Lightning Invoice koji sadrži definisanu količinu
+Sa omogućenim `Copy or scan Address only option`, aplikacija generiše jednostavnu Bitcoin adresu u SegWit (bech32) formatu.
 
 
 Primer:
 
 
-
-```
-lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
-```
-
-
-
-Bićete direktno prebačeni na ekran za potvrdu ispod.
-
-
-
-Napomena: iznos mora biti veći od 21 Sats dana 23.07.2025.
-
-
-
-#### 5.4.2 Operacija, ograničenja i koristi
-
-
-
-
-
-- **Mehanizam**: Sredstva se povlače iz **Instant Payments Wallet** (Liquid) i konvertuju putem **Liquid → Lightning** zamene sa **Boltz**.
-
-
-
-
-
-- **Ograničenja:**
-- **Minimalni iznos** veći od Wallet Lightning native (vidi gore)
-- **Troškovi** plus Liquid → Lightning zamena putem Boltz
-
-
-
-
-
-- **Prednosti**:
-- **Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, smeštena na Liquid Network, i prenosiva putem Lightning-a ako je potrebno
-- **Nema visokih onchain naknada**: Čuvanje na Liquid vam je uštedelo skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu obaviti kasnije, kada iznos akumuliran na Liquid opravda naknade.
-
-
-
-
-
-- **Savjet:** Ako primalac ima Wallet Bull Bitcoin, koristite Liquid Network direktno da izbegnete troškove zamene.
-
-
-
-#### 5.3.3 Ekran za potvrdu
-
-
-
-Odvojite vreme da proverite sve parametre, posebno količinu i odredište Address.
-
-
-
-![image](assets/fr/20.webp)
-
-
-
-
-## 6. Prikaži istoriju
-
-
-
-**Bull Bitcoin Mobile** olakšava praćenje vaših transakcija na mrežama **Bitcoin (onchain)**, **Liquid** i **Lightning**. Istorija se može pristupiti na dva načina i prikazuje detaljne informacije za svaku vrstu transakcije. Takođe možete proveriti vaše transakcije koristeći spoljne blok pretraživače.
-
-
-
-### 6.1. Istorija pristupa
-
-
-
-
-
-- **Putem početnog ekrana**:
- - Kliknite na **Secure Bitcoin Wallet** da biste pogledali **onchain** transakcije, ili na **Instant Payments Wallet** za **Liquid** i **Lightning** transakcije.
- - Istorija je prikazana direktno ispod ukupnog portfolija, filtrirana prema tipu Wallet koji je izabran.
-
-
-
-![image](assets/fr/21.webp)
-
-
-
-
-
-- Putem **posvećene stranice**:
- - Na početnom ekranu kliknite na **simbol istorije** (ikona sata ili slična).
- - Pristupite stranici sa spiskom svih transakcija, sa filterima po tipu akcije: **Pošalji**, **Primi**, **Zameni**, **PayJoin**, **Prodaj**, **Kupi** (napomena: Prodaja i Kupovina su u razvoju i nisu dostupne u ovom trenutku, 20. jul 2025).
-
-
-
-![image](assets/fr/22.webp)
-
-
-
-### 6.2. Detalji transakcije
-
-
-
-Svaka transakcija prikazuje specifične informacije u zavisnosti od mreže i tipa akcije (slanje ili primanje). Ovde su dostupni detalji za **transakciju na lancu** :
-
-
-
-![image](assets/fr/23.webp)
-
-
-
-### 6.3. Provera putem Block explorer
-
-
-
-Lista istraživača za **Bitcoin onchain**, **Liquid** i **Lightning** mreže nalazi se u Dodatku 4.
-
-
-
-Za **Lightning**, transakcije nisu vidljive na javnim pretraživačima. Proverite detalje (uključujući Swap ID za Boltz) u aplikaciji.
-
-
-
-
-## 7. Postavke
-
-
-
-Stranica "Settings" može se direktno pristupiti sa početne stranice aplikacije Bull Bitcoin i koristi se za konfigurisanje i upravljanje različitim aspektima portfolija i korisničkog iskustva.
-
-
-
-![image](assets/fr/24.webp)
-
-
-
-
-
-- **Wallet Backup**: Prikazuje frazu za oporavak portfolija za sigurno bekapovanje. Pogledajte odeljak 3. o kreiranju portfolija za najbolje prakse u upravljanju i čuvanju fraze za oporavak.
-
-
-
-
-
-- **Wallet Detalji**:
-- **Pubkey**: Javni ključ povezan sa Wallet, koristi se za generate Bitcoin adrese prijema.
-- **Derivation Path**: Derivation path used to generate Wallet addresses from the private key.
-
-
-
-
-
-- **Electrum Server (Bitcoin Node)**: Postavite vezu sa prilagođenim Bitcoin čvorom za onchain transakcije.
-
-
-
-
-
-- **PIN Kod**: Aktivirajte i/ili izmenite sigurnosni kod za zaštitu pristupa aplikaciji i funkcijama Wallet.
-
-
-
-
-
-- **Valuta**: Izaberite da li želite prikazivanje iznosa u BTC ili Sats, i podrazumevanu fiat valutu (dolar, evro, itd.).
-
-
-
-
-
-- **Auto Swap Settings**: Funkcija _Auto Swap_ omogućava vam da automatizujete prenos vašeg BTC sa **Instant Payments Wallet (Liquid)** na vaš **Bitcoin On-Chain** Wallet, čim iznos dostigne prag koji smatrate dovoljno visokim da opravda trošak transakcije.
-
-
-
-
-
-- **Logovi**: Pregledni dnevnici aktivnosti, koji se mogu deliti sa tehničkom podrškom radi olakšavanja rešavanja problema.
-
-
-
-
-
-- **Pristup Telegramu za podršku**: Direktan link ka zvaničnom Telegram kanalu za korisničku podršku.
-
-
-
-
-
-- **Github pristup**: Link ka [Bull Bitcoin Github repozitorijumu](https://github.com/SatoshiPortal) za pregled otvorenog koda ili prijavu problema.
-
-
-
-
-## DODACI
-
-
-
-### A1. Objašnjenje PayJoin (P2EP)
-
-
-
-![image](assets/fr/25.webp)
-
-
-
-**Definicija** :
-
-
-
-
-- PayJoin, ili **Pay-to-EndPoint (P2EP)**, je Bitcoin transakcijska tehnika koja poboljšava poverljivost na **onchain** mreži. Kombinuje unose pošiljaoca i primaoca u jednoj transakciji, čineći iznose i adrese težim za praćenje.
-
-
-
-**Operacija:**
-
-
-
-
-- U PayJoin transakciji, pošiljalac i primalac rade zajedno putem kompatibilnog PayJoin servera kako bi generate zajedničku transakciju.
-- Umesto da samo pošiljalac obezbeđuje unose (UTXO), primalac takođe doprinosi jednim od svojih UTXO-a. Ovo zamagljuje informacije vidljive na Blockchain: umesto jednog unosa koji odgovara stvarnom iznosu, sada postoje dva unosa, a izlazi ne odražavaju direktno razmenjeni iznos.
-- Konačna transakcija podseća na standardnu Bitcoin transakciju (više ulaza/više izlaza), ali skriva stvarni iznos poslat i veze između adresa zahvaljujući steganografskoj strukturi.
-
-
-
-**Za upotrebu u Bull Bitcoin Mobilni**
-
-
-
-
-- **Primi** (Address Supply): PayJoin je podrazumevano omogućen.
-- **Pošalji**: Wallet automatski detektuje PayJoin URI i konfiguriše transakciju u skladu s tim, na primer:
-
-
-
-```
-bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```javascript
+bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
+Čak i ako unesete iznos ili belešku, oni neće biti uključeni u QR kod ili kopiranu adresu.
 
 
-**Prednosti**
+![image](assets/en/11.webp)
 
 
+### Prijem putem Liquid Network
 
 
-- **Poboljšana poverljivost**: PayJoin poništava pretpostavku da svi unosi u transakciji pripadaju jednom entitetu. Sa PayJoin, ulazi dolaze i od pošiljaoca i od primaoca, razbijajući ovu pretpostavku.
-- **Količinsko maskiranje**: Stvarna količina razmenjena ne pojavljuje se direktno u izlazima. Izračunava se kao razlika između dolaznog i odlaznog UTXO primaoca, što analizu čini obmanjujućom.
+Možete primiti uplatu na Liquid Network. Kada ste na ekranu `Receive`, imate iste dve opcije za generisanje zahteva za uplatu:
 
 
+**1. Simple Address:** Kopirajte standardnu `Liquid adresu`. Ovo je jedinstveni identifikator za vaš wallet na Liquid mreži i ne uključuje bilo koji specifičan iznos ili poruku.
 
-**Ograničenja**
 
+Primer Address:
 
 
+```javascript
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7xxxxxxx
+```
 
-- PayJoin zahteva da pošiljalac i primalac koriste kompatibilne novčanike, u suprotnom se koristi standardna onchain transakcija.
-- Transakcija je nešto složenija (više ulaza i izlaza), što rezultira nešto višim troškovima.
-- Iako je dizajniran da podseća na standardnu transakciju, napredne heuristike (npr. dvosmisleni izlazi, poznati PayJoin serveri) mogu navesti nekoga da posumnja na njenu upotrebu, iako bez apsolutne sigurnosti.
 
+**2. Detaljan zahtev za plaćanje (URI):** Za strukturiraniji zahtev, možete navesti iznos i ličnu belešku. Ove informacije se automatski kodiraju u deljivi URI i odgovarajući QR kod.
 
 
-**Više informacija:**
 
+- Amount:** Možete postaviti iznos u Bitcoin (BTC), Satoshis (Sats), ili u fiat valuti.
+- Napomena:** Dodajte ličnu poruku da identifikujete transakciju.
 
 
+**Primer URI:**
 
-- [Rečnik](https://planb.academy/fr/resources/glossary/payjoin)
-- Poglavlje [Transakcije PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
+```javascript
+liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdgkgzmfycrud0zsygqgyjclycckpasxxxxxx?amount=0.00001&message=Test&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 
+Da biste završili transakciju, pošaljite `adresu` ili `URI` pošiljaocu. To možete učiniti kopiranjem u vaš clipboard ili tako što će oni skenirati QR kod direktno sa vašeg ekrana.
 
-### A2. Objašnjenje Replace-by-fee (RBF)
 
+![image](assets/en/12.webp)
 
 
-**Definicija**: Replace-by-fee (RBF) je funkcija Bitcoin mreže koja omogućava pošiljaocu da ubrza potvrdu **onchain** transakcije pristajući da plati višu naknadu.
+### Primanje putem Lightninga
 
 
 
-**Ograničenja** :
+Bull Bitcoin Wallet takođe vam omogućava slanje i primanje uplata putem Lightning Network. Ključna karakteristika je da se sredstva primljena putem Lightning-a automatski menjaju i čuvaju na `Liquid Network` unutar vašeg `Instant Payments Wallet`. Ovu uslugu pokreće `Boltz`. Ovaj dizajn vam omogućava da uživate u brzini i niskim troškovima Lightning-a bez složenosti upravljanja kanalima likvidnosti, a sve to uz potpuno samostalno čuvanje vaših sredstava. Iako je ovaj hibridni pristup samostalno čuvanje i izbegava složenost upravljanja kanalima, uvodi uslugu treće strane (Boltz), malu naknadu za zamenu i oslanjanje na federaciju funkcionera Liquid Network kao ključnih čuvara, što je drugačije od tradicionalnog, nekustodijalnog Lightning wallet gde sami upravljate svojim kanalima. Više o Liquid i njihovom modelu upravljanja možete saznati ovde:
 
 
+https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
 
 
-- RBF nije dostupan za Liquid ili Lightning transakcije.
-- Početna transakcija mora biti označena kao kompatibilna sa RBF kada se kreira, što Bull Bitcoin Mobile radi automatski osim ako nije onemogućeno.
+- Ograničenja:**
+    - Minimalni iznos:** Potreban je minimalni iznos fakture. Molimo proverite aplikaciju za trenutni limit.
+    - Naknade:** Vi, primalac, odgovorni ste za malu naknadu za zamenu. Ova naknada se oduzima od iznosa koji pošiljalac prenosi i podložna je promenama.
+- Prednosti:**
+    - Self-Custodial:** Vaša sredstva su uvek pod vašom kontrolom, osigurana na Liquid mreži.
+    - Izbegnite visoke On-Chain naknade:** Korišćenjem Lightning-a i skladištenjem na Liquid, zaobilazite on-chain naknade povezane sa otvaranjem tradicionalnog Lightning kanala. Možete odlučiti da prebacite sredstva na on-chain kanal kasnije, kada akumulirani iznos opravdava trošak.
+    - Savjet:** Za najisplativiju transakciju između dva Bull Bitcoin korisnika, koristite **Liquid mrežu direktno** kako biste u potpunosti izbjegli Lightning naknade za zamjenu.
 
 
+Da biste primili uplatu, morate generate `Lightning fakturu`:
 
-**Više informacija:**
 
+1. `Unesite iznos`**:** Navedite iznos koji želite da primite u Bitcoin (BTC), Satošijima (Sats) ili fiat valuti.
 
+2. `Dodaj belešku` **(Opcionalno):** Uključite belešku ili napomenu. Ovo će biti ugrađeno u fakturu i prikazano u vašoj istoriji transakcija kada uplata bude završena, što će olakšati identifikaciju.
 
+3. `Invoice Validity`**:** Lightning faktura je vremenski osetljiva i ističe nakon **12 sati**. Ako nije plaćena u tom periodu, postaje nevažeća i biće potrebno da generate novu.
 
-- [Rečnik](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
+Pošaljite pošiljaocu fakturu kopiranjem u vaš clipboard ili im dozvolite da skeniraju QR kod prikazan na vašem ekranu.
 
 
+![image](assets/en/13.webp)
 
-### A3. Najbolje prakse
 
+## 9️⃣ Slanje sredstava
 
 
-Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove preporuke. One će vam pomoći da zaštitite svoja sredstva, optimizujete svoje transakcije i sačuvate svoju poverljivost na mrežama **Bitcoin (onchain)**, **Liquid** i **Lightning**.
+Možete pristupiti ekranu za slanje direktno sa početne stranice ili iz bilo kog od vaših novčanika. Bull Bitcoin Wallet pojednostavljuje proces automatskim detektovanjem odredišne mreže—`Bitcoin`, `Liquid` ili `Lightning`—na osnovu adrese ili fakture koju unesete, bilo da je nalepite ili skenirate putem QR koda.
 
 
+### On-Chain Prenos putem Bitcoin Mreže
 
 
+Slanje sredstava on-chain znači da je vaša transakcija direktno zabeležena na Bitcoin blockchain-u. Ova metoda je najbolja za veće transfere ili transfere koji nisu vremenski osetljivi. Da biste započeli, možete dodirnuti `Send Button` dole desno, i skenirati ili uneti `standard Bitcoin address`.
 
-- **Osigurajte svoju frazu za oporavak**:
- - Uputstvo: [Sačuvajte svoju Mnemonic frazu](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Kurs [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
+Ako adresa koju navedete ne uključuje određeni iznos, bićete upitani da popunite detalje na ekranu za slanje. Možete navesti iznos u svojoj preferiranoj jedinici, kao što su BTC, satoshi ili fiat ekvivalent. Takođe imate opciju da dodate ličnu belešku, koja je privatna napomena za vašu sopstvenu referencu kako biste kasnije lakše identifikovali transakciju. Ova beleška se ne deli sa primaocem.
 
 
+Suprotno tome, ako zahtev za plaćanje koji skenirate ili nalepite već sadrži sve potrebne detalje, kao što je BIP21 URI sa unapred definisanim iznosom, wallet će zaobići ekran za unos podataka i odvesti vas direktno na ekran za potvrdu kako biste autorizovali plaćanje.
 
 
-- **Koristite sigurnu autentifikaciju**:
- - Aktivirajte **jak PIN** ili **biometrijsku autentifikaciju** (otiska prsta ili prepoznavanje lica) kako biste zaštitili pristup aplikaciji.
- - Nikada ne delite svoj PIN ili biometrijske podatke.
+![image](assets/en/14.webp)
 
 
+Pre nego što vaša transakcija bude emitovana, biće vam prikazan ekran za potvrdu. Ključno je da odvojite trenutak i pažljivo pregledate svaki parametar, obraćajući posebnu pažnju na adresu primaoca, iznos koji se šalje i mrežne naknade. Ovaj ekran takođe pruža moćne alate za prilagođavanje vaše transakcije.
 
 
+Naknade možete kontrolisati na dva osnovna načina. Prvi metod je da izaberete željenu brzinu transakcije, kao što su niska, srednja ili visoka, i wallet će automatski izračunati odgovarajuću naknadu za vas. Drugi metod omogućava precizniju kontrolu tako što vam dozvoljava da postavite specifičnu naknadu, bilo kao apsolutni iznos u satoshijima ili kao relativnu stopu po bajtu, što zatim pruža procenjeno vreme potvrde.
 
-- **Zaštitite svoju privatnost**:
- - generate novi Address za svaki onchain ili Liquid prijem kako bi se ograničilo praćenje na Blockchain.
- - Koristite PayJoin kada je dostupan da povećate poverljivost u vezi sa iznosom poslatim na lancu
- - Za maksimalnu poverljivost, povežite svoj Wallet sa sopstvenim Bitcoin čvorom putem Electrum servera umesto korišćenja javnog čvora.
 
+Za napredne korisnike, wallet nudi nekoliko podešavanja za fino podešavanje transakcije. `Replace-by-Fee` (RBF) je podrazumevano omogućen, što je vredna funkcija koja vam omogućava da ubrzate transakciju ako se zaglavi u mempool-u tako što ćete je ponovo emitovati sa većom naknadom. Takođe možete ručno odabrati koje `Unspent Transaction Outputs` (UTXO-e) želite da potrošite. Ovo je moćan alat za konsolidaciju UTXO, strategiju gde kombinujete više malih ulaza u jedan veći. Iako ovo može koštati više u naknadama za trenutnu transakciju, može značajno smanjiti naknade za buduće transakcije, posebno ako se očekuje rast mrežnih naknada.
 
 
+![image](assets/en/15.webp)
 
 
-- **Izaberite mrežu koja najbolje odgovara vašim potrebama**:
-- **Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
-- **Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
-- **Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose. Ako ste dva Wallet Bull Bitcoin korisnika, izaberite Liquid da izbegnete Lightning <> Liquid naknade za zamenu putem Boltz.
+PayJoin se automatski pokušava kada skenirate zahtev za plaćanje primaoca (BIP21 URI) koji uključuje parametar `pj=`. Ako jednostavno nalepite običnu adresu bez dodatnih parametara, ova funkcija neće biti aktivirana. Ova kolaborativna metoda poboljšava privatnost kombinovanjem ulaza od strane pošiljaoca i primaoca, razbijajući heuristiku zajedničkog vlasništva ulaza i omogućavajući bolje skaliranje i uštedu na naknadama u nekim okolnostima.
 
 
+### Slanje na Liquid Network
 
 
+`Liquid Network` je dizajniran za brze, poverljive transakcije sa minimalnim naknadama. Kada šaljete sredstva putem Liquid, ona se povlače sa vašeg `Instant Payments Wallet`. Proces je jednostavan: jednostavno unesete ili skenirate primaočevu `Liquid adresu`.
 
-- **Uvek proverite adrese za dostavu**:
- - Pre nego što pošaljete sredstva, pažljivo proverite Address. Sredstva poslana na pogrešan Address su zauvek izgubljena. Koristite kopiranje/lepljenje ili skeniranje QR koda, nikada ne kopirajte/modifikujte Address ručno.
 
+Ako adresa ne navodi iznos, bićete zamoljeni da ga unesete na ekranu za slanje. Možete uneti iznos u BTC, satoshijima ili fiat valuti. Ključna prednost Liquid je njegov nizak minimalni prag. Kao i kod on-chain transakcija, možete dodati opcionalnu ličnu belešku za sopstvene evidencije. Ako zahtev za plaćanje već uključuje iznos, wallet će direktno preći na ekran za potvrdu.
 
 
+Na ekranu za potvrdu transakcije Liquid, pregledaćete detalje. Naknade su primetno niske i izračunavaju se na osnovu složenosti transakcije. Obično su oko 0.1 sat/vB, što za jednostavnu transakciju iznosi samo 20-40 satoshija (na primer, 26 satoshija od 21. decembra 2025).
 
 
-- **Optimizujte troškove**:
- - Za transakcije na lancu, izaberite odgovarajuće naknade (sporo, srednje, brzo) u skladu sa hitnošću i zagušenošću mreže.
- - Koristite Liquid, ili Lightning za male količine.
- - Aktivirajte Replace-by-fee (RBF) (pogledajte Dodatak 4) za onchain isporuke ako predviđate potrebu za ubrzanjem potvrde.
+![image](assets/en/16.webp)
 
 
+### Slanje na Lightning Network
 
 
+Možete ili skenirati Lightning Address (npr. `runningbitcoin@rizful.com`) što vam omogućava da postavite iznos i opcionalnu belešku za primaoca, ili skenirati fakturu sa unapred definisanim iznosom, što vas vodi direktno na ekran za potvrdu.
 
-- Ažurirajte aplikaciju redovno
 
+*Imajte na umu da se primenjuju minimalni iznosi i naknade.*
 
 
+Bull Bitcoin Wallet šalje Lightning uplate povlačenjem sredstava sa vašeg `Instant Payments Wallet` (na Liquid) i zamenom putem `Boltz`. Ovaj hibridni pristup je potpuno samostalno skrbnički i izbegava visoke on-chain naknade za upravljanje posvećenim Lightning kanalom, ali zahteva plaćanje `swap fee`. Za najniže troškove, šaljite direktno na Liquid adresu primaoca ako i oni koriste Bull Bitcoin wallet.
 
-### A4. Dodatni resursi
 
+## 🔟 Prenos sredstava između vaših novčanika
 
 
+Bull Bitcoin vam omogućava da premestite svoj Bitcoin između vašeg `Secure Bitcoin` wallet i vašeg `Instant Payments Wallet` na Liquid Network ili na `external Wallet`. Da biste izvršili transfer, jednostavno idite na odeljak `Transfer`, izaberite izvorni i odredišni novčanik, unesite iznos koji želite da premestite i potvrdite transakciju.
 
 
-- **Zvanični linkovi i podrška:**
-- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : support email
-- [Službena veb stranica Bull Bitcoin](https://bullbitcoin.com/): **Informacije o uslugama Bull Bitcoin, kreiranju naloga, pristupu aplikaciji**
-- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Pogledajte kod, evoluciju i plan puta, doprinesite razvoju...**
-- [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
-- **Telegram** grupa za Wallet mobilni: grupni čet sa podrškom, pogledajte stranicu "Postavke".
+![image](assets/en/17.webp)
 
 
+## 1️⃣1️⃣ Oporavak vašeg Bull Bitcoin Wallet
 
 
+Ovaj odeljak objašnjava kako da povratite pristup svojim Bull Bitcoin Wallet sredstvima ako izgubite uređaj, deinstalirate aplikaciju ili jednostavno treba da pređete na novi uređaj. Kao što je već objašnjeno, postoje dva osnovna metoda za oporavak: korišćenjem jedinstvenog `Recoverbull` metoda i korišćenjem standardne `BIP39 seed fraze`.
 
-- Blok istraživači:
- - on chain : **[Mempool.space](https://Mempool.space/)**
- - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
- - Lightning: **[1ML (Lightning Network)](https://1ml.com/)**
 
+### Metod 1: Recoverbull
 
 
+Sažetak: Wallet rezervne kopije su šifrovane lokalno. Šifrovana datoteka može biti sačuvana u cloud skladištu ili na drugom uređaju. Ključ za šifrovanje čuva Recoverbull Key Server. Obe komponente su odvojene i moraju biti kombinovane da bi se povratio wallet.
 
 
-- **Učenje i tutorijali:** **[Plan ₿ Academy](https://planb.academy/)**
- - Osiguravanje vaše fraze za oporavak
+Da počnem, izbrisaću Wallet sa svim sredstvima na njemu i ponovo instalirati wallet. Ponovo ćemo se naći na `Welcome screen`. Ovog puta, izaberite opciju `Recover Wallet`. Zatim, idite na metod `Encrypted Vault`, potvrdite korišćenjem `Default Key server`, i izaberite lokaciju ili `Vault provider` gde ste sačuvali rezervnu kopiju.
 
 
+![image](assets/en/18.webp)
 
-https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
+Navodi se da je trezor uspešno uvezen. Dodirnite dugme `Decrypt Vault` i unesite `PIN`. Sledeći ekran će prikazati vaše `stanje` i `broj transakcija` koje su oporavljene.
 
 
-https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+![image](assets/en/19.webp)
 
 
+### Metod 2: Seed Phrase
 
 
-- **Liquid Network** :
-- [Rečnik](https://planb.academy/resources/glossary/liquid-network)
+Ova metoda koristi glavnu frazu za oporavak vašeg wallet, standardnu listu od 12 reči koja služi kao krajnja sigurnosna kopija za vaša sredstva. To je najuniverzalniji način za oporavak Bitcoin wallet, jer nije vezan ni za jednu specifičnu uslugu ili server. Sve dok imate ovu frazu, možete obnoviti vaš wallet na bilo kom kompatibilnom uređaju, čak i bez pristupa Bull Bitcoin Key Server-u.
 
 
+Sa ekrana dobrodošlice, izaberite `Recover Wallet`. Ovog puta, izaberite metod `Physical backup`. Aplikacija će prikazati mrežu reči. Pažljivo izaberite svaku reč vaše 12-reči seed fraze u tačnom redosledu. Budite precizni, jer jedna greška će rezultirati netačnim wallet.
 
 
-https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+## 1️⃣2️⃣ Povezivanje Hardware Wallet
 
 
+Za najviši nivo sigurnosti, mnogi korisnici Bitcoin odlučuju da čuvaju svoja sredstva u `cold storage`. To znači da `privatni ključevi` koji kontrolišu vaš Bitcoin budu na uređaju koji nikada nije povezan na internet. `Hardware wallet` (ili uređaj za potpisivanje) je specijalizovani fizički uređaj dizajniran upravo za ovu svrhu. On funkcioniše kao digitalni sef za vaše ključeve, osiguravajući da nikada nisu izloženi potencijalnim pretnjama online računara ili pametnog telefona.
 
 
+Povezivanjem hardvera wallet sa aplikacijom Bull Bitcoin, dobijate najbolje iz oba sveta: beskompromisnu sigurnost hladnog skladišta za vaše privatne ključeve, u kombinaciji sa moćnim funkcijama i korisnički prijatnim interfejsom Bull Bitcoin wallet za pregled stanja i upravljanje transakcijama. U ovom poslednjem poglavlju, pokazaćemo vam kako da povežete hardver wallet, kao što je [Coldcard Q](https://coldcard.com/q), sa vašim Bull Bitcoin wallet. Ovaj vodič neće pokrivati detaljno postavljanje Coldcard Q; o tome možete saznati ovde:
 
-- **Lightning Network**:
-- [Rečnik](https://planb.academy/resources/glossary/lightning-network)
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
+### Uvoz Wallet
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+![image](assets/en/26.webp)
 
-### A5. Bull Bitcoin
 
+Prvo, iz glavnog menija na vašem Coldcard Q, izaberite `Export Wallet`, zatim odaberite `Bull Wallet`. Vaš Coldcard će generate QR kod.
 
 
-#### Pregled kompanije
+![image](assets/en/20.webp)
 
 
+Otvorite Bull Bitcoin Wallet i idite na `Settings` > `Bitcoin Settings` > `Import wallet` i izaberite `Coldcard Q` na vašem telefonu i dodirnite `Open the camera` da skenirate ovaj QR kod za uvoz javnih ključeva vašeg hardverskog wallet.
 
-**[Bull Bitcoin](https://www.bullbitcoin.com/fr)**, je najstarija ne-depozitna Exchange platforma posvećena isključivo Bitcoin, osnovana 2013. godine u Bitcoin Ambasadi u Montrealu, Kanada. Na čelu sa Francisom Pouliotom, priznatim pionirem u Bitcoin ekosistemu, kompanija se pozicionira kao ključni igrač u promovisanju finansijskog suvereniteta i autonomije korisnika. Njena misija je omogućiti pojedincima da povrate kontrolu nad svojim novcem koristeći Bitcoin kao alat za slobodu i plaćanje, dok odbacuju fiat valute i kriptovalute osim Bitcoin.
 
+![image](assets/en/21.webp)
 
 
-![image](assets/fr/26.webp)
+### Primanje sa Coldcard Q
 
 
+Da biste primili Bitcoin koristeći povezani Coldcard Q, nije potrebno da uređaj bude fizički povezan sa vašim telefonom. Bull Bitcoin Wallet je već uvezao potrebne javne ključeve, omogućavajući mu da samostalno generate adrese.
 
-[Kreiraj svoj nalog](https://app.bullbitcoin.com/registration/orangepeel) sa 0.25% popusta na Bitcoin kupovine i prodaje.
 
+1. Dodirnite vaš uvezeni Coldcard Q uređaj za potpisivanje i izaberite `Receive`.
 
+2. Aplikacija će automatski prikazati novu Bitcoin adresu sa vašeg Coldcard-ovog wallet.
 
-#### Vrednosti i filozofija
+3. Koristite ovu adresu za primanje sredstava. Bitcoin će biti direktno osiguran na ključeve hardvera wallet, iako je uređaj bio van mreže tokom procesa.
 
 
+![image](assets/en/22.webp)
 
-Bik Bitcoin se ističe po svojim Commitment do Cypherpunk principima i Bitcoin etici:
 
+### Slanje sa Coldcard Q
 
 
+Slanje Bitcoin sa vašim Coldcard Q zahteva vašu fizičku potvrdu za autorizaciju bilo koje transakcije. Dok se Bull Wallet aplikacija koristi za kreiranje transakcije, konačni potpis može biti kreiran samo na samom hardveru wallet.
 
 
-- **Ekskluzivni fokus na Bitcoin**: Platforma je verna viziji decentralizovane valute otporne na cenzuru.
+Da biste započeli, otvorite svoj `Coldcard Q` wallet i dodirnite `Pošalji`. Zatim, `otvorite kameru` da skenirate QR kod za adresu primaoca. Nakon skeniranja, unesite `iznos` koji želite poslati i prilagodite `prioritet naknade` po potrebi.
 
 
+Za više opcija, možete pogledati pod Napredna Podešavanja. Ovde ćete pronaći opciju `Replace by Fee` (RBF), koja je podrazumevano aktivirana i omogućava vam da kasnije ubrzate zaglavljenu transakciju. Takođe imate opciju `Coin Control`, koja vam omogućava da ručno izaberete specifične UTXO-e koje želite da potrošite.
 
 
+Kada pregledate sve detalje, dodirnite `Show PSBT` da pripremite transakciju.
 
-- **Nekustodijan**: Korisnici zadržavaju potpunu kontrolu nad svojim Bitcoinima slanjem sredstava u svoje portfelje.
 
+![image](assets/en/23.webp)
 
 
+Dodirnite dugme `Scan` na vašem Coldcard Q i koristite njegovu kameru da skenirate QR kod prikazan na vašem telefonu. Ekran Coldcard-a će vam zatim prikazati sve detalje transakcije. Pažljivo proverite iznos, adresu primaoca i vašu adresu za kusur. Ako je sve tačno, pritisnite dugme `Enter` na Coldcard Q da potpišete transakciju. Zatim će se na ekranu pojaviti QR kod potpisane transakcije.
 
 
-- **Poverljivost**: Minimizovano prikupljanje ličnih podataka, sa opcijama kupovine bez KYC za transakcije ispod 999 USD. Podaci su zaštićeni u skladu sa propisima (FINTRAC u Kanadi, AMF u Francuskoj).
+![image](assets/en/24.webp)
 
 
+Na Bull wallet, dodirnite `I'm done`, zatim dodirnite dugme `Camera` da skenirate QR kod `signed transaction` sa vašeg Coldcard Q. Bull Wallet će sada prikazati ekran sažetka potpisane transakcije. Pregledajte ga još jednom, zatim dodirnite `Broadcast` Transaction. Ovo finalizuje proces slanjem transakcije na Bitcoin mrežu, i vaša sredstva će biti na putu.
 
 
+## 🎯 Zaključak
 
-- **Transparentnost**: Nema skrivenih naknada, troškovi su uključeni u spread (razlika između kupovne i prodajne cene).
 
+Sada ste završili svoje putovanje kroz Bull Bitcoin Wallet. Aplikacija stavlja moćne alate za privatnost i sigurnost na dohvat ruke, čineći napredne funkcije jednostavnim za korišćenje. Pomaže vam da ostanete privatni sa funkcijama kao što su `PayJoin`, koji skriva vaše transakcije na blockchain-u, i `Tor integracija`, koja maskira vašu mrežnu aktivnost od znatiželjnih očiju. Za one koji žele ultimativnu kontrolu, možete se povezati na svoj `lični Bitcoin čvor` kako biste prestali da se oslanjate na servere trećih strana, i koristiti `Hardware wallet` da biste svoje privatne ključeve držali potpuno van mreže i bezbednim. Sa pametnim opcijama za backup i besprekornom podrškom za Bitcoin, Liquid i Lightning, Bull Bitcoin Wallet je snažan, sve-u-jednom izbor za svakoga ko ozbiljno želi da zadrži svoja sredstva privatnim, sigurnim i potpuno pod svojom kontrolom.
 
 
+## 📚 Bull Wallet Resursi
 
 
-- **Finansijski suverenitet**: Bull Bitcoin promoviše nezavisnost od tradicionalnih bankarskih sistema i centralizovanih institucija.
-
-
-
-#### Glavne usluge
-
-
-
-
-
-- **Fiat deposit**: Korisnici mogu finansirati svoj Bull Bitcoin račun fiat valutom (CAD, EUR, itd.) putem bankovnog transfera ili gotovinom/debitnom karticom u odabranim kanadskim poštama.
-
-
-
-
-
-- **Kupovina Bitcoin**: Korisnici mogu kupiti Bitcoin koji se šalje direktno u njihov ne-depozitni portfolio, garantujući potpunu kontrolu nad njihovim sredstvima.
-
-
-
-
-
-- **Zakazana kupovina Bitcoin**: Bull Bitcoin nudi automatizovanu uslugu ponovljene kupovine (DCA - Dollar Cost Averaging) u redovnim intervalima, koristeći vaš raspoloživi saldo, sa direktnim prenosom Bitcoina na Wallet koji kontroliše korisnik, smanjujući uticaj cenovne volatilnosti.
-
-
-
-Imajte na umu da opcija pod nazivom "AutoBuy" omogućava konverziju vaših fiat valuta čim dodirnu vaš Bull Bitcoin saldo, i slanje vaših Bitcoina na vaš sopstveni Wallet. Ova opcija se takođe može kombinovati sa ponavljajućim bankovnim transferom zakazanim sa vašom bankom kako biste napravili DCA. Ova opcija automatizuje vaše Bitcoin akumulacije bez potrebe da ikada otvorite aplikaciju.
-
-
-
-
-
-
-- Kupite Bitcoin po fiksnoj ceni **'Limit Order'**: Omogućava vam da kupite Bitcoin po ceni unapred određenoj od strane korisnika, koja se automatski izvršava kada cena indeksa Bull Bitcoin dostigne ili padne ispod postavljenog limita.
-
-
-
-
-
-- **Prodaja Bitcoin**: Korisnici mogu prodati svoje Bitcoine i primiti sredstva u fiat valuti direktno na svoj bankovni račun putem bankovnog ili SEPA transfera.
-
-
-
-
-
-- **Plaćanja trećih strana**: Bull Bitcoin omogućava korisnicima da šalju fiat novac na bankovne račune iz svojih Bitcoina, potpuno transparentno za primaoca.
-
-
-
-
-
-- **Bull Bitcoin Prime**: Bull Bitcoin Prime je premijum usluga za klijente sa visokim neto vrednostima i preduzeća, koja nudi prilagođena rešenja i premijum podršku. Ovo uključuje pristup smanjenim naknadama, posvećenog menadžera naloga i prilagođene korporativne usluge. Ova usluga je namenjena institucijama, profesionalnim trgovcima i korporativnim klijentima koji traže dubinsku ekspertizu i prioritetni tretman.
-
-
-
-
-
-- **Mobilni Wallet**: Bull Bitcoin nudi open-source, samostalni mobilni Wallet, dostupan na Android i iOS, koji podržava onchain, Liquid i Lightning Network transakcije.
-
-
-
-
-
-- **Obrazovna podrška**: Besplatni vodiči i personalizovano mentorstvo kako bi se korisnicima pomoglo da kreiraju, osiguraju i upravljaju svojim Bitcoin portfolijima, jačajući finansijsku autonomiju.
-
-
-
-#### Usklađenost i bezbednost
-
-
-
-
-
-- **Regulatory**: Registrovan kod FINTRAC (Kanada) i AMF (Francuska), Bull Bitcoin ispunjava KYC/AML zahteve.
-
-
-
-
-
-- **Sigurnost**: Korišćenje sigurnih portfolija i preporuke za offline skladištenje. Lični podaci su hostovani na Bull-ovoj Bitcoin infrastrukturi, koja je 100% samostalno hostovana i ne oslanja se na treće strane.
+[Github](https://github.com/SatoshiPortal/bullbitcoin-mobile) | [Website ](https://www.bullbitcoin.com/)| [Recoverbull](https://recoverbull.com/)

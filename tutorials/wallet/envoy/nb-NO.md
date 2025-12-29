@@ -62,13 +62,13 @@ På enheten finner du :
 Gå til appbutikken din for å laste ned Envoy :
 
 
-- På [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- På [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- På [F-Cold] (https://foundation.xyz/fdroid/).
+- På [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- På [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- På [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Du kan også laste ned APK-filen direkte [fra Foundations GitHub-depot] (https://github.com/Foundation-Devices/envoy/releases).
+Du kan også laste ned APK-filen direkte [fra Foundations GitHub-depot](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,7 +164,7 @@ Passet ditt er klart til å motta den nye fastvaren via et MicroSD-kort.
 
 ### Uten Envoy-applikasjon
 
-For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site] (https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository] (https://github.com/Foundation-Devices/passport2/releases).
+For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site](https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 

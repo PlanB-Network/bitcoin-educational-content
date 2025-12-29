@@ -1,0 +1,9 @@
+question: Кой браузър с отворен код, разработен от организация с нестопанска цел, е водещ представител на енджина Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Brave
+  - Сафари
+  - Chrome
+explanation: |
+  Mozilla Firefox, разработен от фондация Mozilla, е водещият браузър, базиран на геко, известен с ангажимента си за защита на личните данни.
+reviewed: false

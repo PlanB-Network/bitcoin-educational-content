@@ -1,0 +1,8 @@
+question: Mülkiyet ilkelerine göre herhangi bir malın tüketiminden önce ne gerçekleşmelidir?
+answer: Sahiplenme tüketimden önce gelmelidir
+wrong_answers:
+  - Üretim tüketimden önce gelmelidir
+  - Exchange tüketimden önce gelmelidir
+  - Dağıtım tüketimden önce gelmelidir
+explanation: |
+  Metin, bir elmayı tüketmek için önce onu sahiplenmek gerektiği örneğini kullanarak, sahiplenmenin zorunlu olarak tüketimden önce geldiğini açıkça belirtmektedir. Bu sahiplenme bireysel bir karaktere sahiptir ve tam da malları bireysel olarak sahiplendiğimiz için etkilerini kişisel olarak tecrübe ederiz. Üretim, mübadele ve dağıtım önemli ekonomik süreçler olsa da, ortaya konan temel ilke, herhangi bir tüketimin gerçekleşebilmesi için önce sahiplenmenin - mülk edinmenin - gerçekleşmesi gerektiğidir.

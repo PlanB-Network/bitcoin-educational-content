@@ -106,10 +106,11 @@ proofreading:
       - Sanja22B
     reward: 0.62
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 1.25
+      - Tinnah924
+    reward: 0.62
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -145,6 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.82
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.25
 tags:
   - guides
   - software

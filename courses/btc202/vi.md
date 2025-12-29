@@ -1521,7 +1521,7 @@ Một trong những lợi thế chính của Umbrel so với các đối thủ c
 
 
 
-Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
+Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
 
 
 
@@ -2472,7 +2472,7 @@ Sau khi cài đặt ứng dụng, bạn chỉ cần mở ứng dụng để truy
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nút sét
 

@@ -1,9 +1,9 @@
-question: Ni kuki kuzigama umutungo ari ngombwa ku bijanye n’ishirahamwe rifise amagara meza muri kazoza katazwi?
-answer: Kubungabunga amafaranga y’itunga bituma iyo sosiyete ishobora kwimenyereza, igashiramwo amahera mu gukura, no guhangana n’uguhungabana kw’ubutunzi.
+question: Ni kuki kuzigama umutungo ari ngombwa ku bijanye n’uruganda rumeze neza  muri kazoza katazwi?
+answer: Kubungabunga amafaranga y’itunga bituma uruganda rushobora kumenyera, rugashiramwo amahera mumugambi uguma utera imbere, no guhangana nukugenda bukebuke kubutunzi.
 wrong_answers:
   - Kuzigama umutungo bituma ata muntu n’umwe ashobora kwinjira mw’isoko.
   - Kuzigama umutungo bituma umuntu agira uburinzi buhoraho ku mahinduka yose agenga amategeko.
   - Kuzigama umutungo ni ikintu gihambaye gusa iyo ishirahamwe ritegura kutazokwigera rikura.
 explanation: |
   Ivyo muri kazoza ntibishobora kumenyekana. Mu kugumiza amahera amwamwe mu bubiko, ubudandaji burashobora gukoresha uturyo tushasha, gutorera umuti ingorane zitari zitezwe, no gushiramwo amahera mu migambi y’igihe kirekire ata kwizigira gusa amahera yo hanze.
-reviewed: false
+reviewed: true

@@ -54,7 +54,7 @@ Muri ubwo buryo, uguma ufise uburenganzira bwo kwizigama ubudasiba ku ma bitcoin
 
 
 
-Exchange y’atome ikorana n’amasezerano y’ubwenge [HTLC] (*Contract*). Muri ubwo bwoko bwa Contract, amafaranga "arakingirwa" mu murongo w'inzira zibiri kandi hakaba hariho igihe co guhagarika, ku buryo iyo igikorwa kitarangiye mu kiringo kinaka, amafaranga asigaye asubira ku wubitse. Ubwo ni bwo buryo bukoreshwa n’urubuga rwa Boltz.
+Exchange y’atome ikorana n’amasezerano y’ubwenge [HTLC](*Contract*). Muri ubwo bwoko bwa Contract, amafaranga "arakingirwa" mu murongo w'inzira zibiri kandi hakaba hariho igihe co guhagarika, ku buryo iyo igikorwa kitarangiye mu kiringo kinaka, amafaranga asigaye asubira ku wubitse. Ubwo ni bwo buryo bukoreshwa n’urubuga rwa Boltz.
 
 
 

@@ -1,0 +1,9 @@
+question: Какъв е протоколът, използван от Electrs и Fulcrum за свързване на портфейли?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Lightning gRPC
+explanation: |
+  Тези софтуерни пакети разкриват сървър Electrum - стандартът, използван от много портфейли като Sparrow или Electrum Wallet.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Breez SDK'nın Lightning düğüm yönetimine yaklaşımının geleneksel kendi kendine barındırılan Lightning uygulamalarına kıyasla temel mimari avantajı nedir?
+answer: Kullanıcılar Greenlight altyapısı üzerinde kendi Lightning düğümlerini tutarken, cihazlarından asla ayrılmayan özel anahtarların özel kontrolünü ellerinde tutarlar
+wrong_answers:
+  - Kullanıcılar, Breez tarafından yönetilen havuzlanmış Yıldırım kanallarını paylaşırken, çoklu imza düzenlemeleri yoluyla fonların bireysel olarak saklanmasını sürdürürler
+  - "Kullanıcılar, gelişmiş güvenilirlik ve azaltılmış bant genişliği gereksinimleri için Breez'nin ana düğümleriyle senkronize olan hafif Lightning düğümlerini yerel olarak çalıştırıyor"
+  - Kullanıcılar, mobil cihazlara entegre edilen donanım güvenlik modülleri aracılığıyla gözetimi sürdürürken kanal yönetimini Yıldırım Hizmet Sağlayıcılarına devrediyor
+explanation: |
+  Breez SDK'nın mimarisi, her kullanıcıya Greenlight'ın bulut altyapısı üzerinde çalışan kendi özel Lightning düğümünü verir, ancak en önemlisi, özel anahtarlar kullanıcının cihazını asla terk etmez. Bu, Greenlight'ın kullanıcının uygulaması işlemleri aktif olarak imzalamadan herhangi bir Lightning işlemi gerçekleştiremeyeceği anlamına gelir. Bu, paylaşılan kanal havuzlarından, yerel hafif düğümlerden veya donanım güvenlik modüllerinden farklıdır - gerçek öz saklama ilkelerini korurken operasyonel karmaşıklığı ortadan kaldıran benzersiz bir hibrit yaklaşımdır.

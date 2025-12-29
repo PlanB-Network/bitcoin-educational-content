@@ -1,0 +1,9 @@
+question: วิธีการเข้ารหัสบล็อกใดที่ใช้เวกเตอร์เริ่มต้นและสร้างการเข้ารหัสแบบสุ่ม?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Electronic Code Book)
+  - AES-128
+  - SHA-256
+explanation: |
+  วิธี CBC ใช้เวกเตอร์เริ่มต้นและใช้การ XOR ระหว่างแต่ละบล็อกของข้อความธรรมดากับบล็อกที่เข้ารหัสก่อนหน้า ทำให้การเข้ารหัสเป็นแบบสุ่มและปลอดภัยกว่า ECB
+reviewed: false

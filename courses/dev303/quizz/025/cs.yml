@@ -1,0 +1,8 @@
+question: Jaké klíčové slovo se používá k definici implementačních bloků, které obsahují metody a přidružené funkce pro struktury v Rust?
+answer: impl
+wrong_answers:
+  - metoda
+  - struct
+  - fn
+explanation: |
+  Klíčové slovo `impl` se používá zejména k vytváření implementačních bloků, ve kterých definujete metody a přidružené funkce pro struktury. Zatímco `struct` definuje samotnou strukturu, `fn` definuje jednotlivé funkce a `method` není vůbec klíčovým slovem Rust, pouze `impl` vytváří blok, který obsahuje chování spojené s typem. Implementační bloky využívající `impl` umožňují přidávat ke strukturám funkčnost, takže se stávají něčím víc než jen datovými kontejnery.

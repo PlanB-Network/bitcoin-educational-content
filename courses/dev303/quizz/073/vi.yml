@@ -1,0 +1,8 @@
+question: Trong trường hợp nào nên ưu tiên sử dụng toán tử dấu hỏi (?) thay vì phương thức unwrap() hoặc expect() trong việc xử lý lỗi Rust?
+answer: Khi bạn cần truyền lỗi lên ngăn xếp cuộc gọi để hàm gọi xử lý.
+wrong_answers:
+  - Khi bạn muốn cung cấp các thông báo lỗi tùy chỉnh để gỡ lỗi các thao tác không thành công
+  - Khi bạn chắc chắn rằng thao tác sẽ thành công và muốn tránh xử lý lỗi.
+  - Khi bạn cần chuyển đổi các lỗi thành giá trị mặc định và tiếp tục thực thi chương trình.
+explanation: |
+  Toán tử dấu hỏi (?) được thiết kế để truyền lỗi - nó trích xuất các giá trị thành công nhưng ngay lập tức trả về lỗi từ hàm hiện tại, cho phép người gọi xử lý chúng. Không giống như unwrap()/expect() gây ra lỗi nghiêm trọng (panic) khi xảy ra lỗi, hoặc unwrap_or() cung cấp các giá trị mặc định, toán tử ? duy trì ngữ cảnh lỗi và chuyển trách nhiệm cho mã cấp cao hơn có thể đưa ra các quyết định xử lý thích hợp.

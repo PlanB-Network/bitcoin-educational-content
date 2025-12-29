@@ -1,0 +1,8 @@
+question: Koji je primarni tehnički mehanizam u Liquid-ovoj Platformi za upravljanje imovinom (AMP) koji sprečava akcije usklađenosti sa jednim mestom kvara, a istovremeno održava regulatornu kontrolu nad tokenizovanom imovinom?
+answer: Autorizacija sa više potpisa koja zahteva od više strana da odobre radnje usklađenosti kao što su zamrzavanje sredstava ili ponovna izdavanja tokena
+wrong_answers:
+  - Smart contract tokeni upravljanja koji omogućavaju glasanje zajednice o svim odlukama o usklađenosti i sprovođenju propisa
+  - Računi skrbništva zaključani vremenom koji automatski izvršavaju akcije usklađenosti nakon isteka unapred određenih perioda čekanja
+  - Kriptografski konsenzus proof-of-stake gde validatori moraju postići većinski dogovor pre nego što izvrše bilo koju akciju usklađenosti
+explanation: |
+  AMP koristi kontrolu sa više potpisa kako bi osigurao da akcije usklađenosti zahtevaju autorizaciju od strane više strana, sprečavajući bilo kog pojedinačnog zaposlenog da deluje samostalno. Ovo stvara sistem provere i ravnoteže za osetljive operacije, dok održava regulatorni nadzor potreban za institucionalnu imovinu. Pogrešni odgovori opisuju mehanizme koji ili ne postoje u AMP-u ili bi bili neprikladni za regulisanu finansijsku usklađenost.

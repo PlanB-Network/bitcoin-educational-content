@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   Công thức đúng là (x/(1-x))^2 vì fee sniping yêu cầu thợ đào phải khai thác thành công hai khối liên tiếp để thay thế khối trước đó và mở rộng chuỗi. Xác suất mining khai thác được một khối so với thợ đào trung thực là x/(1-x), và vì hai khối phải được khai thác liên tiếp, nên xác suất này được bình phương. Các công thức khác có vẻ hợp lý về mặt toán học nhưng lại thể hiện các kịch bản xác suất khác nhau, không phù hợp với yêu cầu cụ thể của fee sniping, trong đó thợ đào không trung thực phải vượt qua mạng lưới trung thực hai lần liên tiếp.
+reviewed: false

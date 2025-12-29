@@ -860,7 +860,7 @@ Muri ico gihe nyene, Ian Murdock yatanguje ugukwiragiza Debian, mu mpwemu itandu
 
 
 
-*Ian Murdoki. Inkomoko: [Ilya Schurov CC BY-SA 2.0] (amafoto/ivoyager/2398462112/).*
+*Ian Murdoki. Inkomoko: [Ilya Schurov CC BY-SA 2.0](amafoto/ivoyager/2398462112/).*
 
 
 
@@ -6368,7 +6368,7 @@ Intumbero ni yoroshe: gukingira ikintu gifitaniye isano n’igikorwa kinaka (nk�
 
 
 
-- Koresha ibikoresho vyubatswemwo: Firefox itanga [Ibikoresho vy'amakonti menshi] (https://addons.mozilla.org/ru-US/firefox/addon/ibikoresho vy'amakonti menshi/), bigufasha gufungura amabara atandukanye, imwe yose ifise inzira yayo yo kwinjiramwo n'amakuru yayo. Ushobora kandi gushiramwo imbuga zimwe zimwe mu kintu kinaka, kugira ngo zigume zitandukanye igihe cose zifunguwe.
+- Koresha ibikoresho vyubatswemwo: Firefox itanga [Ibikoresho vy'amakonti menshi](https://addons.mozilla.org/ru-US/firefox/addon/ibikoresho vy'amakonti menshi/), bigufasha gufungura amabara atandukanye, imwe yose ifise inzira yayo yo kwinjiramwo n'amakuru yayo. Ushobora kandi gushiramwo imbuga zimwe zimwe mu kintu kinaka, kugira ngo zigume zitandukanye igihe cose zifunguwe.
 
 
 
@@ -6472,7 +6472,7 @@ Ivyo ukoresha mu gushakisha biragira ico bikoze ata guca ku ruhande ku buzima bw
 
 
 
-Rero moteri nka Google itanga ibisubizo vyihuta kandi bibereye (naho [inyigisho zimwe zimwe zivuga] (https://consumerwatchdog.org/mu-makuru/Wallet-ibibazo-vy’uburyo-bw’ingamba-z’intumbero/) ko Google iriko iragabanya kandi igabanya ubushobozi bwo kugenzura ubuhinga bwawe), ariko. Bing (Microsoft) na Yahoo zikurikirana uburyo nk’ubwo bwo gukoranya ibikorwa vyawe vyo kuri internet kugira ngo zigaburire imihora yabo yo kwamamaza.
+Rero moteri nka Google itanga ibisubizo vyihuta kandi bibereye (naho [inyigisho zimwe zimwe zivuga](https://consumerwatchdog.org/mu-makuru/Wallet-ibibazo-vy’uburyo-bw’ingamba-z’intumbero/) ko Google iriko iragabanya kandi igabanya ubushobozi bwo kugenzura ubuhinga bwawe), ariko. Bing (Microsoft) na Yahoo zikurikirana uburyo nk’ubwo bwo gukoranya ibikorwa vyawe vyo kuri internet kugira ngo zigaburire imihora yabo yo kwamamaza.
 
 
 
@@ -6703,7 +6703,7 @@ CalyxOS kandi itanga porogaramu zashizweho mbere (Ikimenyetso, F-Droid, Iduka ry
 #### UruvyaroOS
 
 
-[UmurongoOS] (https://umurongo w’uruzitiro.org/), uwukurikira CyanogenMod, ni ROM y’ubundi buryo ihuye cane. Ishigikira amajana menshi y’ibigereranyo, bishimira umuryango munini w’abatanga. Ishingiye kuri AOSP, ishimika ku guhindura ibintu nk’uko umuntu abishaka, ku kworosha no ku kwidegemvya mu gukoresha.
+[UmurongoOS](https://umurongo w’uruzitiro.org/), uwukurikira CyanogenMod, ni ROM y’ubundi buryo ihuye cane. Ishigikira amajana menshi y’ibigereranyo, bishimira umuryango munini w’abatanga. Ishingiye kuri AOSP, ishimika ku guhindura ibintu nk’uko umuntu abishaka, ku kworosha no ku kwidegemvya mu gukoresha.
 
 
 LineageOS iguha ubuhinga bwa Android ataco bushizeko, ata bloatware, uburongozi bw’uburenganzira bwose, guhindura vyoroshe na Interface itunganye. Ushobora kwongerako serivisi za Google canke ugahitamwo gukoresha 100% ku buntu.
@@ -7687,7 +7687,7 @@ Ibikoresho vya kera vy’ikirere nka AccuWeather canke Météo France akenshi bi
 
 
 
-- [Ikirere c'Igihugu] (Ikirere c'Igihugu)
+- [Ikirere c'Igihugu](Ikirere c'Igihugu)
 
 
 Geometric Weather itanga ubuhanuzi burambuye n’ibikoresho bishobora guhindurwa, vyose ata kwamamaza canke gukusanya amakuru. Kode yayo ni iyo gufungura. Iryo koraniro rishigikira abatanga ibihe vyinshi.
@@ -7928,7 +7928,7 @@ MuPDF Viewer ni igikoresho co gusoma PDF gifise umuco mwinshi cane, gica vuba ka
 
 
 
-- [Umusomyi wa PDF wa MJ] (umusomyi wa Pdf wa MJ)
+- [Umusomyi wa PDF wa MJ](umusomyi wa Pdf wa MJ)
 
 
 MJ PDF Reader ni porogaramu yoroshe, ifunguye, ishobora kugufasha gusoma amadosiye ya PDF ata kwamamaza canke gufatanya na konti yo kuri Internet.
@@ -8013,7 +8013,7 @@ Gusangira vyihuse ubu ni co gisanzwe kuri Android. Iyi porogaramu, yashizweho ub
 Snapdrop ni uburyo bwo gukoresha ku buntu, bufunguye, butasaba ko umuntu ashiramwo. Bigufasha gusangira amadosiye hagati y’ibikoresho bihuye n’urubuga rumwe, biciye ku mucukumbuzi w’urubuga. Ukwimurira ni direct (peer-to-peer) kandi amakuru ntashobora guca kuri server iri kure.
 
 
-Iyindi nzira iryoshe cane ni [PairDrop] (Fork ya Snapdrop), itanga ibintu bikeyi vy’inyongera.
+Iyindi nzira iryoshe cane ni [PairDrop](Fork ya Snapdrop), itanga ibintu bikeyi vy’inyongera.
 
 
 

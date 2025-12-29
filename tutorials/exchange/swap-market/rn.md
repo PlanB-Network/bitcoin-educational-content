@@ -1,5 +1,5 @@
 ---
-name: Isoko ryo guhinduranya
+name: SwapMarket
 description: Bitcoin n'umuravyo guhindura ibikorwa
 ---
 
@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Igice        | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Kamere        | Serivisi idasanzwe   | Uhuza ba-provider benshi             |
+| Abatanga      | Boltz gusa           | Boltz, ZEUS, Eldamar, Middle Way     |
+| Amahiganwa    | Amafaranga ahamye    | Amahiganwa adafashe                  |
+| Imigaragarire | boltz.exchange       | swapmarket.github.io (ishobora kwihangira) |
+| Umutekano      | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **Ivyiza vya SwapMarket**: Guhiganwa mu biciro, guhindura instances z’inyuma, kugereranya igihe nyaco.
 
@@ -638,7 +638,7 @@ Guhiganwa hagati y’abatanga ubuvuzi biratuma ibiciro bitera imbere kandi bikag
 
 
 - [Isoko ry'Impinduka - Ubukoresho bw'Urubuga](https://isoko ry'Impinduro.github.io)
-- [Isoko ry'Ibihindurwa rya GitHub] (Isoko ry'Ibihindurwa/Isoko ry'Ibihindurwa.github.io)
+- [Isoko ry'Ibihindurwa rya GitHub](Isoko ry'Ibihindurwa/Isoko ry'Ibihindurwa.github.io)
 - [Inyandiko z'ubuhinga](https://inyandiko.boltz.guhanahana/)
 - [Iyobora ry'ukwiyakira](https://github.com/Isoko ry'Impinduka/Isoko ry'Impinduka.github.io/blob/ikuru/README.md)
 
@@ -649,5 +649,5 @@ Guhiganwa hagati y’abatanga ubuvuzi biratuma ibiciro bitera imbere kandi bikag
 
 
 
-- [Boltz Exchange] (uburyo bwo guhindura) - Ubuhinga bwo guhindura atome y'umwimerere
+- [Boltz Exchange](uburyo bwo guhindura) - Ubuhinga bwo guhindura atome y'umwimerere
 - [Impinduro za ZEUS](https://zeusln.com) - Uwutanga impinduka z'umuravyo

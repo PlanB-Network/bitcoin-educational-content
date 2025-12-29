@@ -1,0 +1,8 @@
+question: Hvilke spesifikke data i Bitcoins P2P-nettverksmeldingsstruktur utgjør det 4-bytes sjekksumfeltet i hver meldingskonvolutt?
+answer: De første 4 byte av hash256 av meldingens nyttelast
+wrong_answers:
+  - De første 4 byte av SHA256-hashingen av hele meldingskonvolutten
+  - De første 4 byte av hash256 av kommandofeltet sammenkoblet med nyttelasten
+  - De første 4 byte av RIPEMD160-hashingen av meldingens nyttelast
+explanation: |
+  Bitcoins P2P-meldingskonvolutt bruker en spesifikk kontrollsummemekanisme der kontrollsumfeltet på 4 byte inneholder de første 4 byte av hash256 som kun brukes på meldingens nyttelast. Dette gir integritetsverifisering for nyttelastdataene under nettverksoverføring. De andre alternativene er feil fordi de refererer til andre hashfunksjoner (enkelt SHA256, RIPEMD160) eller andre inndata (hele konvolutten, kommando + nyttelast) enn det Bitcoin faktisk implementerer i sin nettverksprotokoll.

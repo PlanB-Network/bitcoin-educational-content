@@ -43,7 +43,7 @@ GPG imzası, GNU Privacy Guard adlı açık kaynaklı bir yazılım kullanılara
 Öte yandan, birisi imzalı bir dosyanın gerçekliğini doğrulamak isterse, dosyayı veren kişinin açık anahtarını almak ve doğrulamak için GPG'yi kullanabilir.
 
 
-Merak edenler ve bu harika yazılım hakkında daha fazla bilgi edinmek isteyenler için ["The GNU Privacy Handbook"] (https://www.gnupg.org/gph/en/manual/x135.html) adresine başvurabilirsiniz
+Merak edenler ve bu harika yazılım hakkında daha fazla bilgi edinmek isteyenler için ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) adresine başvurabilirsiniz
 
 
 ## Zaman damgası nasıl çalışır?

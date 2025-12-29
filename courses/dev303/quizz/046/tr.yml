@@ -1,0 +1,8 @@
+question: Büyük bir veri yapısı içeren bir RC<T> örneğini klonladığınızda ne olur?
+answer: Yalnızca referans kopyalanır ve referans sayacı artırılır, orijinal veri değişmeden bırakılır
+wrong_answers:
+  - Tüm veri yapısı bellekte çoğaltılır ve her iki kopya da ayrı referans sayaçları tutar
+  - İlkel alanların kopyalandığı ancak karmaşık alanların paylaşılan referanslar olarak kaldığı yüzeysel bir kopya oluşturulur
+  - Veriler yeni bir bellek konumuna taşınır ve orijinal RC yeniden başlatılana kadar geçersiz hale gelir
+explanation: |
+  Bir RC klonlanırken, Rust yalnızca referans işaretçisini kopyalar ve dahili referans sayacını artırır, bu da veri boyutundan bağımsız olarak işlemi son derece verimli hale getirir. Temel veriler aynı bellek konumunda kalır ve tüm RC örnekleri arasında paylaşılır. Bu, paylaşılan sahipliğin amacını ortadan kaldıracak ve belleği boşa harcayacak olan gerçek verileri klonlamaktan temelde farklıdır.

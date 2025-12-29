@@ -6,4 +6,4 @@ wrong_answers:
   - Aby podzielić fundusze po równo
 explanation: |
   Wymiana sekretów dotyczących poprzednich transakcji pozwala każdemu uczestnikowi ukarać drugiego w przypadku próby oszustwa poprzez opublikowanie starej transakcji.
-reviewed: false
+reviewed: true

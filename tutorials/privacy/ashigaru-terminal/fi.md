@@ -1,5 +1,5 @@
 ---
-name: Ashigarun terminaali
+name: Ashigaru Terminal
 description: Käytä Ashigaru työpöydällä tehdä coinjoins
 ---
 

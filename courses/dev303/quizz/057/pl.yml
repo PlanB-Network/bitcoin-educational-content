@@ -1,0 +1,8 @@
+question: Jaki jest główny cel wykrzyknika (!) występującego po nazwie makra w Rust?
+answer: Służy jako wizualny wskaźnik, że generowany jest kod w czasie kompilacji, a nie wywołanie funkcji runtime
+wrong_answers:
+  - Wskazuje, że makro wpadnie w panikę, jeśli podczas wykonywania otrzyma nieprawidłowe parametry wejściowe
+  - Oznacza makro jako niebezpieczne i wymaga wyraźnego potwierdzenia potencjalnych problemów z bezpieczeństwem pamięci
+  - Określa, że makro zwraca typ Result, który musi być obsługiwany ze sprawdzaniem błędów
+explanation: |
+  Wykrzyknik w składni makr Rust jest celowym wyborem, który wizualnie odróżnia makra od funkcji. Kiedy widzisz `println!()` lub `vec![]`, `!` natychmiast sygnalizuje, że nastąpi rozwinięcie kodu w czasie kompilacji, a nie wywołanie funkcji w czasie wykonywania. To rozróżnienie jest kluczowe, ponieważ makra działają zasadniczo inaczej niż funkcje - generate kod podczas kompilacji poprzez dopasowywanie wzorców i rozszerzanie. Błędne odpowiedzi mylą to z zachowaniami runtime, takimi jak panika, niebezpieczne operacje lub obsługa błędów, ale wykrzyknik wyraźnie wskazuje na metaprogramistyczną naturę makr w czasie kompilacji.

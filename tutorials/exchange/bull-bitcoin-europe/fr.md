@@ -4,9 +4,9 @@ description: Acheter et vendre des bitcoins sur Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
-Bull Bitcoin est une plateforme d’échange Bitcoin-only fondée en 2013 au Canada par Francis Pouliot, une figure emblématique de l’écosystème Bitcoin. La philosophie de Bull Bitcoin est d'offrir aux utilisateurs des outils de souveraineté et d’émancipation financière. La plateforme d'échange est non-dépositaire, ce qui signifie que vous restez toujours souverain sur vos bitcoins.
+Bull Bitcoin est une plateforme spécialement conçue pour l'échange de Bitcoin, créée en 2013 au Canada par Francis Pouliot, une figure emblématique de l’écosystème Bitcoin. La philosophie de Bull Bitcoin est d'offrir aux utilisateurs des outils de souveraineté et d’émancipation financière. La plateforme d'échange est non-dépositaire, ce qui signifie que vous restez toujours souverain sur vos bitcoins.
 
-Initialement disponible uniquement au Canada, la plateforme est maintenant disponible en Europe et dans de nombreux autres pays, avec une toute nouvelle interface optimisée. Cette nouvelle version de Bull Bitcoin vous permet d'acheter et de vendre des bitcoins de manière simple et rapide grâce à l'utilisation de Lightning et des virements SEPA instantanés. Elle intègre également le paiement de factures en bitcoins. À termes, la plateforme va également intégrer des options de DCA, d'achats automatiques ou encore d'ordres limites.
+Initialement accesible uniquement au Canada, la plateforme est maintenant disponible en Europe et dans de nombreux autres pays, avec une toute nouvelle interface optimisée. Cette nouvelle version de Bull Bitcoin vous permet d'acheter et de vendre des bitcoins de manière simple et rapide grâce à l'utilisation de Lightning et des virements SEPA instantanés. Elle intègre également le paiement de factures en bitcoins. À termes, la plateforme va également intégrer des options de DCA, d'achats automatiques ou encore d'ordres limites.
 
 Bull Bitcoin met un point d’honneur à fournir un service transparent et sans frais cachés. Notons que comme la plupart des plateformes d'échange, l'utilisation de Bull Bitcoin requiert de réaliser un KYC (procédure d'identification des clients).
 

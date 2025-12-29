@@ -1,0 +1,8 @@
+question: Hva skjer når en tjenesteleverandør betaler en Lightning-faktura for å fullføre et Liquid-til-Lightning-bytte ved hjelp av HTLC-er?
+answer: Leverandøren mottar forhåndsbildet fra Lightning-betalingen, som de deretter kan bruke til å låse opp og kreve L-BTC fra HTLC
+wrong_answers:
+  - Tilbyderen må vente på at tidslåsen utløper før de kan få tilgang til L-BTC som er låst i HTLC-kontrakten
+  - "Klienten mottar automatisk forhåndsbildet og bruker det til å frigjøre L-BTC direkte til leverandørens Liquid wallet"
+  - HTLC-kontrakten utføres automatisk og overfører L-BTC til leverandøren uten å kreve ytterligere kryptografisk bevis
+explanation: |
+  HTLCs oppretter atomiske bytter gjennom kryptografisk binding ved hjelp av den samme hashlåsen på begge nettverkene. Når leverandøren betaler Lightning-fakturaen, får de et preimage (hemmelighet) som samsvarer med hashlåsen. Dette forhåndsbildet er den kryptografiske nøkkelen som gjør det mulig for dem å låse opp L-BTC som tidligere var låst i HTLC. De andre alternativene er feil fordi de ikke gjenspeiler HTLC-enes atomiske natur - tidslåsen er bare en reservemekanisme, klientene håndterer ikke preimage-distribusjon, og HTLC-er krever aktivt kryptografisk bevis i stedet for automatisk kjøring.

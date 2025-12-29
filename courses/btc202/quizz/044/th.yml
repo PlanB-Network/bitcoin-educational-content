@@ -1,0 +1,9 @@
+question: Umbrel ใช้เทคโนโลยีใดในการแยกและจัดการแอปพลิเคชันของมัน?
+answer: Docker คอนเทนเนอร์
+wrong_answers:
+  - VirtualBox virtual machines
+  - สคริปต์ Bash
+  - คลัสเตอร์ Kubernetes
+explanation: |
+  แต่ละแอปพลิเคชันใน Umbrel ทำงานใน Docker container ช่วยให้การจัดการและการแยกเป็นอิสระ
+reviewed: true

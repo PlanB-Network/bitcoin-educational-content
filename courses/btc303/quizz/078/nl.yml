@@ -6,3 +6,4 @@ wrong_answers:
   - Om achterwaartse compatibiliteit te behouden met oudere node-versies die geen noodpatches kunnen verwerken
 explanation: |
   Het juiste antwoord benadrukt een cruciale paradox in beveiligingspatches: de fix zelf kan de kwetsbaarheid blootleggen. Het hoofdstuk benadrukt dat ontwikkelaars patches zorgvuldig moeten verbergen omdat het onmiddellijk publiceren ervan de kwetsbaarheid kan onthullen aan aanvallers voordat de meeste knooppunten beschermd zijn. De foute antwoorden zijn plausibel, maar geven een verkeerd beeld van de prioriteiten: kennisgeving van altcoins gebeurt na Bitcoin netwerkimplementatie, mining pooltests zijn niet de primaire zorg voor niet-kritieke problemen en achterwaartse compatibiliteit bepaalt niet de timing van beveiligingspatches.
+reviewed: false

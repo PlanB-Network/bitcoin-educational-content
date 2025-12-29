@@ -7,10 +7,10 @@ description: Mbadala bila malipo kwa Play Store kwa kupakua programu za Android
 
 
 
-Maduka ya programu huchukua jukumu kuu katika matumizi ya rasilimali za kifaa chako, na mara kwa mara hutegemea kuwekwa kati na udhibiti kulingana na eneo lako la kijiografia. Kwenye simu za Android, ukiritimba unaomilikiwa na Google Play Store sasa haujapita, na tunashuhudia ushirikiano wa maduka kadhaa ya programu ambayo hukuwezesha kulinda data yako na maisha yako ya kidijitali - na yote bila malipo.
+Maduka ya programu huchukua jukumu kuu katika matumizi ya rasilimali za kifaa chako, na mara kwa mara hutegemea uwekaji kati na udhibiti kulingana na eneo lako la kijiografia. Kwenye simu za Android, ukiritimba unaomilikiwa na Google Play Store sasa haupo tena, na tunashuhudia ushirikiano wa maduka kadhaa ya programu ambayo hukuwezesha kulinda data yako na maisha yako ya kidijitali, na yote bila malipo.
 
 
-Katika somo hili, tunagundua Aurora Store, njia rahisi, huria na salama ya Duka la Google Play.
+Katika somo hili, tunagundua Aurora Store, njia rahisi, huria na salama ya Google Playstore.
 
 
 
@@ -21,14 +21,14 @@ Katika somo hili, tunagundua Aurora Store, njia rahisi, huria na salama ya Duka 
 Aurora Store ni bidhaa ya *Aurora Open Source Software*, mkusanyiko wa wasanidi programu na wapenda faragha wanaolenga kujenga zana huria na huria zinazoheshimu maisha na uhuru wako wa kidijitali.
 
 
-Duka la Aurora ni moja wapo ya duka la programu mbadala maarufu kwenye Duka la Google Play kwenye jukwaa la Android kwa sababu zifuatazo:
+Duka la Aurora ni moja wapo ya duka la programu mbadala maarufu kwenye Google playstore kwenye jukwaa la Android kwa sababu zifuatazo:
 
 
 
 
-- Interface** iliyoratibiwa: Interface haikuwekei hatua hata kidogo, kwa hivyo ni rahisi kupata fani zako.
-- Ufikiaji wa mamilioni ya programu**: Duka la Aurora hufanya kazi kama lango la anuwai ya programu za rununu. Ikiwa programu unayotafuta iko kwenye Google Play Store, utaipata kwenye Aurora Store.
-- Hakuna huduma ya Google Play inayohitajika**: Shukrani kwa teknolojia ya MicroG, programu za Android zinaweza kufanya kazi kwenye simu yako bila huduma za Google Play.
+- **Interface** iliyoratibiwa: Interface haikuwekei hatua hata kidogo, kwa hivyo ni rahisi kupata fani zako.
+- **Ufikiaji wa mamilioni ya programu**: Duka la Aurora hufanya kazi kama lango la anuwai ya programu za rununu. Ikiwa programu unayotafuta iko kwenye Google Play Store, utaipata kwenye Aurora Store.
+- **Hakuna huduma ya Google Play inayohitajika**: Shukrani kwa teknolojia ya MicroG, programu za Android zinaweza kufanya kazi kwenye simu yako bila huduma za Google Play.
 
 
 
@@ -98,11 +98,11 @@ Aurora Store haiashirii tu Google Play Store, pia inajumuisha vipengele vinavyok
 
 
 
-- Kujitegemea kutoka kwa Google:**
+- **Kujitegemea kutoka kwa Google:**
 
 
 
-Katika muktadha unapoamua kuzima huduma za Google Play ili kulinda data yako, au unatumia simu ambayo haitumii tena huduma za Google, Aurora Store, shukrani kwa MicroG, mradi huria, hukuruhusu kusakinisha na kutumia programu za simu zinazopatikana kwenye Duka la Google Play. Kipengele hiki ni muhimu sana ikiwa uko katika nchi iliyo chini ya vikwazo vya Marekani.
+Katika muktadha unapoamua kuzima huduma za Google Play ili kulinda data yako, au unatumia simu ambayo haitumii tena huduma za Google, Aurora Store, shukrani kwa MicroG, mradi huria, hukuruhusu kusakinisha na kutumia programu za simu zinazopatikana kwenye Google playstore. Kipengele hiki ni muhimu sana ikiwa uko katika nchi iliyo chini ya vikwazo vya Marekani.
 
 
 
@@ -112,7 +112,7 @@ Katika muktadha unapoamua kuzima huduma za Google Play ili kulinda data yako, au
 
 
 
-- Udhibiti wa upakuaji:**
+- **Udhibiti wa upakuaji:**
 
 
 
@@ -126,7 +126,7 @@ Aurora Store hukuwezesha kupakua mwenyewe programu za simu kwa kubainisha msimbo
 
 
 
-- Uidhinishaji:**
+- **Uidhinishaji:**
 
 
 Katika maelezo ya programu unayotaka kusakinisha, pata orodha kamili ya idhini utakazotoa kwa programu hii baada ya usakinishaji.
@@ -139,11 +139,11 @@ Katika maelezo ya programu unayotaka kusakinisha, pata orodha kamili ya idhini u
 
 
 
-- Uchambuzi wa ulinzi wa data:**
+- **Uchambuzi wa ulinzi wa data:**
 
 
 
-Duka la Aurora linajumuisha Exodus, suluhisho ambalo huchanganua na kugundua vifuatiliaji vinavyotumiwa na programu zako za Android. Kifuatiliaji ni programu ndogo inayokusanya data kukuhusu au kile unachofanya. Kwa kuonyesha data ya uchanganuzi wa Kutoka, Aurora Store hukuruhusu kujua ni aina gani ya data inayokusanywa na programu unayotaka kusakinisha.
+Duka la Aurora linajumuisha Exodus, suluhisho ambalo huchanganua na kugundua vifuatiliaji vinavyotumiwa na programu zako za Android. Kifuatiliaji ni programu ndogo inayokusanya data kukuhusu au kuhusu kile unachofanya. Kwa kuonyesha data ya uchanganuzi ya Exodus, Aurora Store hukuruhusu kujua ni aina gani ya data inayokusanywa na programu unayotaka kusakinisha.
 
 
 

@@ -26,24 +26,24 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 ## Outils suggérés
 
 Pour l’édition de fichiers Markdown :
-- **Obsidian** (Gratuit, non open-source)
-- **Mark Text** (Gratuit, open-source)
-- **Zettlr** (Gratuit, open-source)
-- **Typora** (Payant, ~15 €, non open-source)
+- **Obsidian** (Gratuit, non open source)
+- **Mark Text** (Gratuit, open source)
+- **Zettlr** (Gratuit, open source)
+- **Typora** (Payant, ~15 €, non open source)
 
 Pour Git :
-- **Git** (Gratuit, open-source)
-- **GitHub Desktop** (Gratuit, open-source)
-- **Sourcetree** (Gratuit, non open-source)
+- **Git** (Gratuit, open source)
+- **GitHub Desktop** (Gratuit, open source)
+- **Sourcetree** (Gratuit, non open source)
 
 Pour l’édition de fichiers YAML :
-- **Visual Studio Code** (Gratuit, open-source)
-- **Sublime Text** (Gratuit avec limitations, non open-source)
+- **Visual Studio Code** (Gratuit, open source)
+- **Sublime Text** (Gratuit avec limitations, non open source)
 
 Pour la création de schémas et visuels :
-- **Canva** (Gratuit avec options payantes, non open-source)
-- **Inkscape** (Gratuit, open-source)
-- **Penpot** (Gratuit, open-source)
+- **Canva** (Gratuit avec options payantes, non open source)
+- **Inkscape** (Gratuit, open source)
+- **Penpot** (Gratuit, open source)
 
 ## Flux de travail
 

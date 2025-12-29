@@ -1,5 +1,5 @@
 ---
-name: Seva ya BTPay
+name: BTCPay Server
 description: Kukubali malipo ya BTC bila waamuzi
 ---
 

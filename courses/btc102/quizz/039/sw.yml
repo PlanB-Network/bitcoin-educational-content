@@ -1,4 +1,4 @@
-question: Ni wasifu gani wa mtumiaji hukusanya bitcoins mara kwa mara kupitia Wastani wa Gharama ya Dollar?
+question: Ni wasifu gani wa mtumiaji hukusanya bitcoin mara kwa mara kupitia Wastani wa Gharama ya Dollar?
 answer: Stacker
 wrong_answers:
   - Mshikaji
@@ -6,4 +6,4 @@ wrong_answers:
   - Mbishi
 explanation: |
   Mpangaji mara kwa mara hununua kiasi kidogo ili wastani wa bei ya ununuzi kwa muda mrefu.
-reviewed: false
+reviewed: true

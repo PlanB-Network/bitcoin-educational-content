@@ -1,0 +1,10 @@
+question: Кога е изчезнал Satoshi Nakamoto?
+answer: През 2010 г
+wrong_answers:
+  - През 2008 г
+  - През 2009 г
+  - През 2023 г
+explanation: |
+  Satoshi Nakamoto изчезна през 2010 г., оставяйки своето творение
+  в ръцете на общността.
+reviewed: true

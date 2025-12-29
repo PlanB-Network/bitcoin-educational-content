@@ -405,7 +405,7 @@ Aşağıda, çivi yazılı bir tabletin benim kopyamı görebilirsiniz. Bu table
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/tr/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Ayrıca, ortasında küçük bir çivi yazısı olan gerçek bir Sümer tableti 
 Küçük figürlü işaretler, çoğu insanın yazı yazamadığı, sadece yetenekli kâtiplerin bu yeteneğe sahip olduğu bir dönemde imza görevi görüyordu.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/tr/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Aşağıda, yukarıda bahsedilen silindiri görebilirsiniz: belirli şekillerle 
 Zamanın kâtipleri bu nedenle ıslak tabletlere işaretleri basmak için kama şeklindeki kalemi kullandılar.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/tr/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Dolayısıyla burada, altın paranın kullanım değeri veya içsel değer gibi 
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/tr/004.webp)
 
 
 Yukarıdaki Orta Çağ'dan kalma bir Çin sikkesidir. Ortasında kare bir delik bulunan döküm bir sikkedir. Bu delikten ip geçirilerek sikkeler birbirine geçirilip bilezik ya da kolye yapılabiliyordu. Ancak, bunlar öncelikle giymek için değil; esas olarak muhasebe amacıyla kullanılıyordu. Parçalar birbirine kenetlenerek büyük ipler şeklinde hesap birimleri oluşturmak için bir araya getirilebilirlerdi. Üzerlerinde belirli işaretler olması gerekmezdi, bazen sadece bronz dairelerden oluşurlardı.
@@ -1221,7 +1221,7 @@ Burada, Mısır'da sikke basma teknolojisinin ortaya çıkmasından çok sonra d
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/tr/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Sikkelerin ortaya çıkışını Lidya ve Perslerden ayıramayacağımıza göre
 Aşağıda, önünde avıyla birlikte bir aslan bulunan en eski Lidya sikkelerinden birini görebilirsiniz. Arka tarafta, metalin saflığını test etmek ve sadece bir yüzey tabakası olmadığından emin olmak için kullanıldığına inanılan bir damga veya delik fark edebilirsiniz. Bu en eski örneklerden biri olsa da, bu parçanın bir kopya olduğunu belirtmek önemlidir. Tüm altın ve elektrum parçalarım, tüm birikimimi bu koleksiyona harcamamı önlemek için tasarlanmış kopyalar veya modern rekreasyonlardır.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/tr/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ MÖ 546'da Lidya'yı fethettiklerinde Ahameniş Persleri bu yeniliği hemen beni
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/tr/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Sikkelerin ortaya çıkışıyla ilgili bir bölümden sonra, sikke üretiminin 
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/tr/008.webp)
 
 
 Daha sonraki bir bölümde inceleyeceğimiz gibi, Yunanlılar bu teknolojiyi geliştirerek her iki tarafı da dövülmüş yuvarlak sikkeler yarattılar. Pürüzsüz, düz bir değerli metal parçası alırlar, bir yüzüne istenen tasarımı kazırlar ve ardından elle çekiçleyerek bitmiş sikkeyi oluştururlardı.
@@ -1413,7 +1413,7 @@ Daha sonraki bir bölümde inceleyeceğimiz gibi, Yunanlılar bu teknolojiyi gel
 Sikkeleri tek tek elle basma teknolojisi, üretimi arttırmak için sikkeler sık sık seyreltilmiş olsa da, muhtemelen o dönemde enflasyonu kontrol etmede rol oynamıştır. Bu durum özellikle Roma döneminde ve daha az ölçüde de Yunan dönemindeki bazı savaşlar sırasında belirgindi. Sikkelerin teker teker basılması otoritenin seri üretim kapasitesini sınırlasa da, meydana gelen önemli devalüasyonlara rağmen enflasyon kontrolüne etkili bir şekilde katkıda bulunmuştur. Böylece evrim, delinmiş bir metal bloğundan yuvarlak, dövülmüş bir sikkeye doğru ilerledi.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/tr/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Aşağıda, Yap adasındaki anıtsal taşların çarpıcı bir örneğini göreb
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/tr/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Parasal prim, birisinin bu parayı daha sonra benzer bir fiyatla takas edeceğin
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/tr/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Aşağıda, bu hareketin bir tür poster kadını olan Stephanie Kelton'un bir t
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/tr/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Ve o döneme ait, arkasında o meşhur baykuş ve figür bulunan bir Yunan drahm
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/tr/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Güney İtalya'da Yunanlılarla yaşanan belirleyici karşılaşma Romalıları 
 Aslında, Cumhuriyet dönemine ait pek çok Roma sikkesinde kuruluş mitleri tasvir edilmiştir. Aşağıda benimkini görebilirsiniz: Kral Tatius'a ait mükemmel, gerçek bir sikke. Sabinlerden kadın kaçırma efsanesini tasvir ediyor. Tatius bu bölgenin kralıydı ve kuruluş efsanesi Romalıların yakınlarda yaşayan Sabinlerden nasıl kadın kaçırdıklarını anlatır. Daha sonra Kral Tatius, Roma'nın kurucularından Romulus ile ortak kral olmuştur.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/tr/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Burada, Yunanlıların ekonomik krizleri hafifletmeye yardımcı olmak için tap
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/tr/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Sezar'ın MÖ 44 yılında öldürülmesinin ardından Octavian (Augustus) Roma'
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/tr/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/tr/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/tr/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/tr/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Bu bölüm, bu bölümdeki son parçayı tanıtmama izin veriyor: antoninianus. 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/tr/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/tr/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Metalin kademeli olarak devalüe edilmesinden çok daha hızlı olan bu devalüa
 Bu aşırı devalüasyonu görsel olarak açıklamak için, M.Ö. 40'tan 3. yüzyıla kadar 300 yılı aşkın bir süreyi kapsayan Mısır'daki tahıl fiyatlarına ilişkin bazı büyüleyici istatistikler buldum. Aşağıda, koleksiyonumdan bir Yunan tetradrahmasını görebilirsiniz. O dönemde, 3. yüzyılda Roma işgali altındaki Mısır'da bunun karşılığı Mısır tetradrahmasıydı. Drahmi mezhebi hala kullanımdaydı ve bir denariusa karşılık geliyordu.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/tr/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/tr/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Bu döneme ait ilk eser olarak size o dönemden kalma bir İngiliz penisinin rep
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/tr/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Tapınakçılar ile bağlantı kurmak için, aşağıda, ortasında güzel bir h
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/tr/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Aşağıda bir Florin reprodüksiyonunu görebilirsiniz: kalaydan yapılmış ve
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/tr/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Altın sikkeye dönüş belirli bir bağlamdan kaynaklanıyordu: Bizans solidusu
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/tr/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/tr/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Avrupa, Marco Polo'nun 13. yüzyıldaki seyahati sayesinde Çin'de kağıt paran
 Kursta daha önce bahsedilen sarkaçlı vuruş tekniğinden bahsediyoruz. Bu yöntem, çekiçle vurmaya kıyasla daha düzgün sikkeler üretilmesini sağlamış ve daha önce gösterdiğim gibi sikkenin kenarına yazı yazılmasına olanak tanımıştır. Aşağıdaki 1793 yılına ait bir Avrupa thaleridir ve kenarındaki yazılar açıkça görülmektedir.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/tr/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Avrupa'nın altın ve gümüş talebine karşılık olarak, "büyük keşiflerin
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/tr/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Yeni Dünya'nın fethiyle birlikte **İspanya** baskın oyuncu haline geldi. Dev
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/tr/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Yeni Dünya'nın fethiyle birlikte **İspanya** baskın oyuncu haline geldi. Dev
 Özellikle ilginç olan, İspanyol dolarının o dönemde uluslararası rezerv para birimi olarak hizmet vermesidir. İspanyol yetkililer ayrıca kendi yerel para birimleri olan maravedi'yi de çıkarmış ve para arzını düzenli olarak geri çağırma yoluyla ayarlamışlardır. Örneğin, başlangıçta bir maravedi değerinde olan bakır veya bronz bir madeni para geri çağrılabilir ve üzerine "2", daha sonra "4" ve bu şekilde devam ederek potansiyel olarak "8 "e ulaşabilir Yüksek çözünürlüklü fotoğrafta madeni paranın üzerindeki "8" damgasını açıkça görebilirsiniz. Bu yöntem para arzını etkin bir şekilde genişletti... bu da kaçınılmaz olarak enflasyona yol açtı.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/tr/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Daha sonra İspanya çok sayıda askeri çatışmayla (Flandre, Hollanda, Otuz Y
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/tr/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/tr/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Daha kısıtlayıcı yasalar assignat'ı dayatmaya çalıştı, ancak başarıl�
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/tr/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Bu kağıt para, ünlü Gresham Yasası'na uygun olarak tüm kaliteli değerli m
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/tr/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Hükümdarlık bir para birimiydi - başlangıçta bir pound değerinde bir alt�
 Ünlü hükümdardan önce aynı prensiple çalışan gine vardı. Gine, adını Gine bölgesinden elde edilen değerli metallerden alıyordu.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/tr/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/tr/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerp, tüccarların borçlarını ödemek için sık sık bir araya geldiği 
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/tr/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Sonra 1776 paniği geldi. Herkes para piramidine hücum etti. Bunun anlamı şud
 Florin'den İngiltere Merkez Bankası'nın kuruluşuna geçtik. Elbette arada Birinci ve İkinci Dünya Savaşları vardı, ancak daha önce, 1796'da Atlantik'in diğer yakasında da gelişmeler yaşanıyordu. 1776'da Amerika hala bir İngiliz kolonisiydi ve koloniler bu kağıt para birimini kullanıyordu. Aşağıda 1776'dan kalma Connecticut iki şilinlik banknotu görülüyor.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/tr/040.webp)
 
 
 İngiltere'ye savaş ilan etmeden ve nihayetinde kendi para birimlerini çıkarmadan önce, koloniler nakit işlemlerinde İspanyol dolarının yanı sıra bu kağıt para birimini kullandılar. Aslında, "dolar" terimi Amerikan dolarını belirtmek için kullanılmaya devam etti.
@@ -3767,7 +3767,7 @@ Florin'den İngiltere Merkez Bankası'nın kuruluşuna geçtik. Elbette arada Bi
 Yanılmıyorsam 1792'de para basmalarına izin veren bir yasa çıkardılar. Örnek olarak, aşağıdaki modern döneme ait bir Amerikan dolarıdır.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/tr/041.webp)
 
 
 Açıkçası, nominal değeri sadece bir dolar değildir; bir ons gümüşü temsil ettiği için yaklaşık 30 veya 40 dolar değerindedir. Değeri gümüş fiyatına bağlı olarak dalgalanır, genellikle en az 30 ya da 40 ABD dolarıdır. Elbette bugün kağıt bir doların sadece bir dolarlık nominal değeri vardır, ancak o dönemde ABD doları bu gümüş değerine dayanıyordu.
@@ -3777,7 +3777,7 @@ Açıkçası, nominal değeri sadece bir dolar değildir; bir ons gümüşü tem
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/tr/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Kuzeydeki rakiplerinin de dolarları vardı. Hemen yukarıda Konfederasyon dolar
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/tr/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Birinci Dünya Savaşı'nın ardından basılan banknotların son serisinde her 
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/tr/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Aşağıda 1928 yılına ait bir altın sertifikayı görebilirsiniz.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/tr/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Dediğimiz gibi, 1928'de bir doların üzerinde hala "altınla paraya çevrilebi
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/tr/046.webp)
 
 
 Yasal ihale kavramı burada ortaya çıkmakta ve "altın olarak itfa edilebilir" ifadesinin yerini almaktadır İki banknot sadece birkaç kelime değişikliğiyle aynı görünebilir, ancak aldatmaca doların bu dönemde devalüe edilmiş olmasında yatmaktadır; bir ons altının değeri 20.67 dolardan 1934'te ons başına 35 dolara düşmüştür. Bu yaklaşık %40'lık bir devalüasyonu temsil ediyordu!
@@ -3869,10 +3869,10 @@ Sadece bu transferleri yapabileceklerinden emin olmaları gerekiyor, ancak %3, %
 
 
 
-Para ve enflasyon arasındaki bağlantıyı anlamak için Plan ₿ Network'de bu konuya adanmış bir kursu tavsiye ederim. Hayatta gördüğümüz fiyat artışları ile enflasyon arasındaki farkı öğreneceksiniz. İkisi aynı şey değildir. Aslında, enflasyondan söz ettiğimizde, genellikle enflasyonun kendisinden değil, fiyat artışlarından söz ederiz. Enflasyon, para arzındaki artışla açıklanan oldukça kesin bir kavramdır.
+Para ve enflasyon arasındaki bağlantıyı anlamak için Plan ₿ Academy'de bu konuya adanmış bir kursu tavsiye ederim. Hayatta gördüğümüz fiyat artışları ile enflasyon arasındaki farkı öğreneceksiniz. İkisi aynı şey değildir. Aslında, enflasyondan söz ettiğimizde, genellikle enflasyonun kendisinden değil, fiyat artışlarından söz ederiz. Enflasyon, para arzındaki artışla açıklanan oldukça kesin bir kavramdır.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Fiat dünyasına ilişkin bu bölümü sonlandırırken, enflasyon gibi az önce açıkladığım olguları daha iyi anlamanıza yardımcı olacak bir kaynağa işaret etmek istiyorum.
 
@@ -3903,7 +3903,7 @@ Law bu sistemle kağıt parayı şirket hisselerine bağlıyordu. Ne kadar çok 
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/tr/047.webp)
 
 
 

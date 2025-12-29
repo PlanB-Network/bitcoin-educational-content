@@ -6,3 +6,4 @@ wrong_answers:
   - Kroz objave na društvenim mrežama i javne najave transakcija
 explanation: |
   Prema sadržaju poglavlja, privatni podaci mogu procuriti na dva osnovna načina: on-chain i off-chain. Curenje na lancu dešava se kroz analizu javnog blockchaina, gde obrasci transakcija, ponovna upotreba adresa i klasterizacija mogu otkriti finansijske informacije. Curenje van lanca dešava se kada zlonamerni akteri presreću internet komunikacije ili kroz druge metode koje nisu povezane sa blockchainom. Iako pogrešni odgovori pominju stvarne bezbednosne zabrinutosti u Bitcoin ekosistemu, oni ne predstavljaju osnovnu kategorizaciju kako dolazi do curenja privatnosti kako je navedeno u materijalu.
+reviewed: false

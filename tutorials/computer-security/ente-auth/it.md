@@ -350,7 +350,7 @@ Ente Auth offre diverse caratteristiche pratiche:
 
 
 
-**Icone automatiche**: Ogni voce può essere illustrata con il logo del servizio, grazie all'integrazione del pacchetto di icone [Simple Icons] (https://simpleicons.org/).
+**Icone automatiche**: Ogni voce può essere illustrata con il logo del servizio, grazie all'integrazione del pacchetto di icone [Simple Icons](https://simpleicons.org/).
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Pehmeä fork voidaan toteuttaa salassa kommitoinneissa, kun taas kova fork vaatii julkisen ilmoituksen
 explanation: |
   Luvussa määritellään selkeästi yhteensopivuustyypit: eteenpäin yhteensopivuus mahdollistaa sen, että vanha ohjelmisto voi käsitellä uutta tietoa jättämällä tuntemattomat osat huomiotta, kun taas taaksepäin yhteensopivuus mahdollistaa sen, että uusi ohjelmisto voi käsitellä vanhaa tietoa. Pehmeä fork säilyttää molemmat yhteensopivuustyypit, joten se on täysin yhteensopiva. Kova fork säilyttää vain taaksepäin yhteensopivuuden, mikä tarkoittaa, että uusi ohjelmisto voi käsitellä vanhoja tietoja, mutta vanha ohjelmisto ei voi käsitellä päivitetyn järjestelmän uusia tietoja. Tämä ero on ratkaisevan tärkeä Bitcoin:n päivitysmekanismien ymmärtämiseksi ja sen ymmärtämiseksi, miksi pehmeät haarautumat ovat suositeltavampia verkon harmonian säilyttämiseksi.
+reviewed: false

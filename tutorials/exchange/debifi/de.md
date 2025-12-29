@@ -24,11 +24,11 @@ Das Ergebnis ist **Debifi**, eine Plattform, die sich als moderne Alternative zu
 
 
 
-Debifi ist eine Bitcoin-gesicherte Kreditplattform ohne Verwahrungsrecht, was bedeutet, dass Sie die Kontrolle über Ihre privaten Schlüssel behalten. Sie ermöglicht es Nutzern, Liquidität in Exchange für ihre gesperrten Bitcoins als Sicherheiten freizuschalten. Im Gegensatz zu herkömmlichen Bankkrediten verwendet Debifi ein Treuhandsystem mit mehreren Unterschriften (3 von 4) und akzeptiert keine Verpfändung von Sicherheiten, was eine größere Sicherheit und Transparenz garantiert.
+Debifi ist eine Bitcoin-gestützte Kreditvergabeplattform ohne Verwahrstelle, was bedeutet, dass Sie die Kontrolle über Ihre privaten Schlüssel behalten. Sie ermöglicht es Nutzern, Liquidität im Austausch für ihre gesperrten Bitcoins als Sicherheiten freizugeben. Im Gegensatz zu herkömmlichen Bankkrediten verwendet Debifi ein Treuhandsystem mit mehreren Unterschriften (3 von 4) und akzeptiert keine Weiterverpfändung von Sicherheiten, was eine größere Sicherheit und Transparenz garantiert.
 
 
 
-In der Praxis bedeutet dies, dass weder Debifi noch ein einzelner Kreditgeber Ihre BTC ohne die Zustimmung von drei Parteien (Sie, der Kreditgeber und eine vertrauenswürdige dritte Partei) ausgeben kann. Das macht das System sicherer: Wenn Sie bei Debifi einen Kredit aufnehmen, behalten Sie Ownership von Ihren Bitcoin, bis der Kredit vollständig zurückgezahlt ist.
+In der Praxis bedeutet dies, dass weder Debifi noch ein einzelner Kreditgeber Ihre BTC ohne die Zustimmung von drei Parteien (Sie, der Kreditgeber und eine vertrauenswürdige dritte Partei) ausgeben kann. Das macht das System sicherer: Wenn Sie bei Debifi einen Kredit aufnehmen, bleiben Sie Eigentümer Ihres Bitcoin, bis der Kredit vollständig zurückgezahlt ist.
 
 
 
@@ -36,22 +36,21 @@ In der Praxis bedeutet dies, dass weder Debifi noch ein einzelner Kreditgeber Ih
 
 
 
-Bei Debifi geht es um besicherte Kredite, Blockchain-Sicherheit (Multisignatur, 2FA), eine Auswahl an Stablecoins/Liquids, Vertraulichkeit und totale Bitcoin-Kontrolle. Debifi "lässt Sie Ihr Geld behalten" (Ihre Schlüssel, Ihre Coins) und bietet gleichzeitig wettbewerbsfähige Zinssätze und globalen Zugang zu BTC-besicherten Krediten.
+Mit Debifi erhalten Sie Bitcoin-unterstützte Kredite, die mit on-chain überbesichert und gesichert sind. Ihre Gelder bleiben sicher mit Multisignatur-Wallets, 2FA und vollständiger Kontrolle über Ihre Bitcoin - Sie halten Ihre Schlüssel, Sie halten Ihre Münzen. Leihen Sie sich eine Reihe von Stablecoins oder Fiat-Optionen zu wettbewerbsfähigen Zinssätzen und mit globaler Liquidität.
 
 
 
 Hier ist ein kurzer Vergleich zwischen einem Debifi-Darlehen und einem herkömmlichen Bankkredit:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Bevor ich Ihnen Schritt für Schritt zeige, wie Sie bei Debifi einen Kredit aufnehmen können, sollten Sie ein paar Dinge wissen.
 
@@ -76,7 +75,7 @@ Bevor ich Ihnen Schritt für Schritt zeige, wie Sie bei Debifi einen Kredit aufn
 
 
 
-- Das Multisig-Treuhandsystem (3/4)** ist ein sicherer Hinterlegungsmechanismus, bei dem die Bitcoins eines Kreditnehmers in einem Address mit mehreren Signaturen hinterlegt werden. Konkret halten vier (4) Parteien jeweils einen Schlüssel (Kreditnehmer, Kreditgeber, Debifi, unabhängige dritte Partei). Um Geldmittel zu bewegen, sind mindestens 3 von 4 Unterschriften erforderlich.
+- Das Multisig-Treuhandsystem (3/4)** ist ein sicherer Hinterlegungsmechanismus, bei dem die Bitcoins eines Kreditnehmers in einer Adresse mit mehreren Unterschriften hinterlegt werden. Konkret halten vier (4) Parteien jeweils einen Schlüssel (Kreditnehmer, Kreditgeber, Debifi, unabhängige dritte Partei). Um Geldmittel zu bewegen, sind mindestens 3 von 4 Unterschriften erforderlich.
 
 
 
@@ -118,17 +117,11 @@ Bevor Sie Debifi ausleihen können, vergewissern Sie sich bitte, dass Sie die fo
 
 
 
-- Bitcoin Wallet: wo Sie Ihre BTC aufbewahren (idealerweise nicht verwahrend, z. B. Hardware Wallet oder ein vertrauenswürdiges mobiles Wallet). Von diesem Wallet aus senden Sie die Bitcoin-Sicherheiten an Debifi und erhalten das Geld.
+- Bitcoin wallet: wo Sie Ihre BTC aufbewahren (idealerweise nicht verwahrend, z. B. Hardware Wallet oder ein vertrauenswürdiges mobiles wallet). Von diesem wallet aus senden Sie die Bitcoin-Sicherheiten an Debifi und erhalten die Sicherheiten zurück.
 
 
 
-
-
-- Stablecoins oder Fiat-Währungen: Debifi vergibt Kredite in Stablecoins und einigen Fiat-Währungen. Die wichtigsten verwendeten Stablecoins sind USDT und USDC.
-
-
-
-Sie können Aqua, Bitcoin und Liquid Wallet verwenden, die auch die Verwaltung von USDT-Stablecoins in verschiedenen Netzwerken unterstützen. Oder COLDCARD (Mk4 oder Q), derzeit die einzige Hardware, die von Debifi unterstützt wird.
+Sie können Aqua, Bitcoin und Liquid wallet verwenden, die auch die Verwaltung von USDT-Stablecoins in verschiedenen Netzwerken unterstützen. Oder COLDCARD (Mk4 oder Q), derzeit die einzige Hardware, die von Debifi unterstützt wird.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Anwendung zur Zwei-Faktor-Authentifizierung: Debifi verlangt für jede wichtige Aktion einen Authenticator-Code. Das ist ein zusätzliches Layer an Sicherheit. In diesem Tutorial werden wir Google Authenticator verwenden. Sie können aber auch andere verwenden, wie Sie es für richtig halten.
+- Anwendung zur Zwei-Faktor-Authentifizierung: Debifi verlangt für jede wichtige Aktion einen Authenticator-Code. Das ist eine zusätzliche Sicherheitsebene. In diesem Tutorial werden wir Google Authenticator verwenden. Sie können aber auch andere verwenden, wie Sie es für richtig halten.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi-Website und mobile Anwendung: Debifi ist sowohl eine Website als auch eine mobile Anwendung, und beide arbeiten zusammen. Die mobile Anwendung wird zu einer Wallet, die Ihren privaten Schlüssel speichert und die Unterzeichnung von Verträgen verwaltet. Darüber hinaus müssen Sie die Website nutzen, um Verträge abzuschließen (eine große Interface gibt Ihnen einen Überblick über die Darlehensverträge und ihre Besonderheiten).
+- Debifi-Website und mobile Anwendung: Debifi ist sowohl eine Website als auch eine mobile Anwendung, und beide arbeiten zusammen. Die mobile Anwendung wird zu einer wallet, die Ihren privaten Schlüssel speichert und die Unterzeichnung von Verträgen verwaltet. Darüber hinaus müssen Sie die Website nutzen, um Verträge abzuschließen (eine große Interface gibt Ihnen einen Überblick über die Darlehensverträge und ihre Besonderheiten).
 
 
 
@@ -200,7 +193,7 @@ Wenn Sie in der Anwendung sind, klicken Sie auf das Menü **Einstellungen**.
 
 
 
-Klicken Sie dann auf **Anmelden oder Konto erstellen**, um ein Konto mit Ihrer E-Mail Address zu erstellen.
+Klicken Sie dann auf **Anmelden oder Konto erstellen**, um ein Konto mit Ihrer E-Mail-Adresse zu erstellen.
 
 
 
@@ -268,7 +261,7 @@ Zur Sicherheit bittet Debifi Sie, drei Schritte zu befolgen.
 
 
 
-- Für zusätzliche Sicherheit können Sie sogar ein passphrase hinzufügen.
+- Für zusätzliche Sicherheit können Sie sogar einen passphrase hinzufügen.
 
 
 
@@ -290,7 +283,7 @@ Sobald Sie diese Schritte abgeschlossen haben, klicken Sie auf das Menü **Angeb
 
 
 
-### Besuchen Sie die Website und erkunden Sie die Kreditangebote
+### Website aufrufen und Kreditangebote prüfen
 
 
 
@@ -354,13 +347,13 @@ Debifi setzt auf transparente und flexible Kreditbedingungen, die den Bedürfnis
 #### Beleihungsauslauf (LTV)
 
 
-Die Bitcoin-Darlehenstranchen sind in der Regel drei (3) an der Zahl:
+Bitcoin-Darlehen werden in der Regel in drei (3) Tranchen vergeben:
 
 
 
 
 
-- Ein konservatives Darlehen (20% - 40% LTV), das einem Darlehen mit geringem Risiko entspricht, ist ideal, um die Sicherheit gegen Bitcoin Preisschwankungen zu maximieren;
+- Ein konservatives Darlehen (30-40 % Beleihungsauslauf), das einem Darlehen mit geringem Risiko entspricht, ist ideal, um die Sicherheit gegen Bitcoin-Preisschwankungen zu maximieren;
 
 
 
@@ -372,7 +365,7 @@ Die Bitcoin-Darlehenstranchen sind in der Regel drei (3) an der Zahl:
 
 
 
-- Aggressive (70% - 85% LTV), die eine höhere Liquidität bietet, aber ein sehr hohes Liquidationsrisiko bei Marktabschwüngen birgt. Bei der Wahl dieser Tranche ist eine aktive Überwachung der Bitcoin-Marktbedingungen unerlässlich.
+- Aggressive (70% LTV), die eine höhere Liquidität bietet, aber ein sehr hohes Liquidationsrisiko bei Marktabschwüngen birgt. Bei der Wahl dieser Tranche ist eine aktive Überwachung der Bitcoin-Marktbedingungen unerlässlich.
 
 
 
@@ -388,7 +381,7 @@ Die Zinsfestsetzung hängt im Allgemeinen von dem von Ihnen gewählten Beleihung
 
 
 
-Die Rückzahlungspläne für Darlehen sind oft flexibel und auf die Bedürfnisse des Nutzers zugeschnitten. Die Zahlungen können jederzeit erfolgen, solange die Anforderungen an die Sicherheiten erfüllt sind. Bei den Darlehenszahlungen handelt es sich in der Regel um Zinsen für die Laufzeit des Darlehens, während das Kapital bei Fälligkeit fällig wird.
+Die Rückzahlungspläne sind flexibel und auf die Bedürfnisse des Kreditnehmers abgestimmt. Die Darlehen können jederzeit ohne zusätzliche Gebühren ganz oder teilweise zurückgezahlt werden, sofern die Anforderungen an die Sicherheiten erfüllt bleiben. Während der Laufzeit des Darlehens werden die Zinsen in der Regel regelmäßig gezahlt, während das Kapital bei Fälligkeit zurückgezahlt wird.
 
 
 
@@ -396,7 +389,16 @@ Die Rückzahlungspläne für Darlehen sind oft flexibel und auf die Bedürfnisse
 
 
 
-Da der Preis von Bitcoin volatil ist, enthält ein verantwortungsbewusster Kredit spezifische Nachschusspflichten in der Vereinbarung. Auf diese Weise kann der Kreditnehmer aufgefordert werden, entweder zusätzliche Sicherheiten zu stellen oder einen Teil des Kredits zurückzuzahlen.
+Angesichts der Volatilität der Bitcoin beinhalten die Darlehen eine klar definierte Nachschusspflicht. Ein Margenausgleich erfolgt, wenn der LTV aufgrund eines Rückgangs des Sicherheitenwerts steigt. Debifi benachrichtigt den Kreditnehmer per E-Mail und über die App und gibt ihm die Möglichkeit, Sicherheiten hinzuzufügen oder einen Teil des Kredits zurückzuzahlen.
+
+
+75% LTV - Erste Meldung
+
+80% LTV - Zweiter Alarm
+
+85% LTV - Letzte Meldung
+
+90% LTV - Sicherheiten werden verwertet
 
 
 
@@ -433,11 +435,11 @@ Sie können sehen:
 6. Der genaue Betrag, den Sie benötigen, muss eingegeben werden (dieser Betrag muss innerhalb der Bandbreite liegen, siehe 2);
 
 
-7. Der Ethereum USDC Address, der für den Erhalt der Gelder verwendet werden soll, muss eingegeben werden.
+7. Die Ethereum-USDC-Adresse, die für den Erhalt des Geldes verwendet werden soll, muss eingegeben werden.
 
 
 
-Wenn Sie mit dem Angebot zufrieden sind und die erforderlichen Angaben gemacht haben, klicken Sie auf "Contract-Anfrage".
+Wenn Sie mit dem Angebot zufrieden sind und die erforderlichen Angaben gemacht haben, klicken Sie auf "Contract Anfrage".
 
 
 
@@ -453,7 +455,7 @@ Kehren Sie zur mobilen Anwendung für ''**Öffentlichen Schlüssel bereitstellen
 
 
 
-Drücken Sie '' **Öffentlichen Schlüssel bereitstellen** '', und wählen Sie dann die Quelle des öffentlichen Schlüssels. Der Kreditgeber muss ebenfalls einen öffentlichen Schlüssel von Supply bereitstellen.
+Drücken Sie '' **Öffentlichen Schlüssel bereitstellen** '', und wählen Sie dann die Quelle des öffentlichen Schlüssels. Der Kreditgeber muss ebenfalls einen öffentlichen Schlüssel bereitstellen.
 
 
 
@@ -473,7 +475,7 @@ Drücken Sie '' **Öffentlichen Schlüssel bereitstellen** '', und wählen Sie d
 
 
 
-Der nächste Schritt ist die Unterzeichnung des Contract. Drücken Sie in der mobilen Anwendung auf '' **Contract unterschreiben** ''
+Der nächste Schritt ist die Unterzeichnung des Vertrags. Drücken Sie noch in der mobilen Anwendung auf "**Contract unterschreiben**"
 
 
 
@@ -485,7 +487,7 @@ Der nächste Schritt ist die Unterzeichnung des Contract. Drücken Sie in der mo
 
 
 
-Wenn Sie den Contract fertig signiert haben, erstellt Debifi automatisch einen einzigartigen Multi-Signatur Bitcoin Address (Escrow 3-sur-4) für Ihren Contract. Solange sich Ihre Bitcoins in dem Treuhandkonto befinden, können sie nicht anderweitig verwendet werden.
+Wenn Sie den Vertrag abgeschlossen haben, erstellt Debifi automatisch eine eindeutige Bitcoin-Adresse mit mehreren Unterschriften (Escrow 3-sur-4) für Ihren Vertrag. Solange sich Ihre Bitcoins im Treuhandkonto befinden, können sie nicht anderweitig verwendet werden.
 
 
 
@@ -493,7 +495,7 @@ Wenn Sie den Contract fertig signiert haben, erstellt Debifi automatisch einen e
 
 
 
-Der letzte Schritt besteht darin, Ihre Bitcoin-Sicherheiten im Multi-Signatur-Treuhandsystem zu hinterlegen. Debifi zeigt Ihnen dann den Treuhand-Address (B) und die Menge an BTC (A), die als (Sicherheit + Provision) zu senden ist.
+Der letzte Schritt besteht darin, Ihre Bitcoin-Sicherheiten im Multi-Signatur-Treuhandsystem zu hinterlegen. Debifi zeigt Ihnen die Treuhandadresse (B) und die Menge an BTC (A), die als (Sicherheit + Provision) zu senden ist.
 
 
 
@@ -509,7 +511,7 @@ Sie erhalten diese Benachrichtigung auch in Ihrer mobilen Anwendung.
 
 
 
-Sobald Ihre Einzahlung bestätigt ist, überweist der Kreditgeber den Kreditbetrag an die von Ihnen angegebene Empfangs-Address, womit die Transaktion abgeschlossen ist und Sie über die benötigten Mittel verfügen können.
+Sobald Ihre Einzahlung bestätigt ist, überweist der Kreditgeber den Kreditbetrag an die von Ihnen angegebene Empfangsadresse, womit die Transaktion abgeschlossen ist und Sie über die benötigten Mittel verfügen können.
 
 
 
@@ -517,7 +519,7 @@ Sie erhalten dann eine Benachrichtigung von Debifi, in der Sie aufgefordert werd
 
 
 
-Sobald die Contract erstellt wurde, werden die Darlehensgebühren automatisch von den Sicherheiten abgezogen, die der Darlehensnehmer in der Mehrfachunterschriftstreuhand Address hinterlegt hat.
+In Wirklichkeit werden die Darlehensgebühren nach der Vertragserstellung automatisch von den Sicherheiten abgezogen, die der Darlehensnehmer bei der Treuhandadresse mit mehreren Unterschriften hinterlegt hat.
 
 
 
@@ -529,7 +531,7 @@ Sie müssen lediglich eine Transaktion unterzeichnen, die es Debifi ermöglicht,
 
 
 
-Die Kreditgebühren betragen je nach Laufzeit des Contract 1,5-2%. Die Plattform erhebt nur in Bitcoin Provisionen.
+Die Leihgebühren betragen 1,5-2 %, je nach Laufzeit des Vertrags. Die Plattform berechnet nur Provisionen in Bitcoin.
 
 
 
@@ -537,29 +539,27 @@ Die Kreditgebühren betragen je nach Laufzeit des Contract 1,5-2%. Die Plattform
 
 
 
-Sobald die Ausleihe begonnen hat, können Sie mit Debifi Ihren Contract in Echtzeit überwachen. In Interface werden Sie sehen:
-
-
+Sobald der Kredit aktiv ist, können Sie mit Debifi Ihren Vertrag in Echtzeit verfolgen. In der Schnittstelle finden Sie:
 
 
 
 - Der geliehene Betrag und die Restlaufzeit.
-- Aktuelles LTV-Verhältnis (Loan-to-Value): Das Beleihungsverhältnis steigt, wenn der BTC-Preis fällt (da Ihre Sicherheiten weniger wert sind). Es wird eine Warnschwelle (in der Regel 90 %) festgelegt. Wenn Ihr LTV diesen Schwellenwert überschreitet, besteht das Risiko einer Zwangsliquidation. Debifi gibt Ihnen dann 24 Stunden Zeit, um zu reagieren.
-
-
-
-Die Darlehensnehmer werden über die Preissenkung informiert. Diese Information wird auch auf der Übersichtsseite Contract zu finden sein. Um den ursprünglichen Beleihungsauslauf eines Darlehens wiederherzustellen, muss der Darlehensnehmer :
+- Das aktuelle LTV (Loan-to-Value)-Verhältnis, das sich erhöht, wenn der BTC-Preis sinkt und der Wert Ihrer Sicherheiten fällt.
 
 
 
 
+Die Kreditnehmer werden benachrichtigt, wenn der Beleihungswert sinkt, und diese Information wird auch auf der Seite mit der Vertragsübersicht angezeigt. Um den ursprünglichen Beleihungsauslauf wiederherzustellen, muss der Kreditnehmer entweder:
 
-- oder eine zusätzliche Sicherheit hinterlegen;
+
+
+- zusätzliche Sicherheiten hinterlegen;
 - die Schulden ganz oder teilweise zurückzuzahlen.
 
 
 
-Im Falle eines Preisanstiegs der Sicherheiten behält der Kreditnehmer etwaige Wertsteigerungen der Sicherheiten. Er schuldet nur den Darlehensbetrag, der im Voraus festgelegt und vom Bitcoin-Preis unabhängig ist.
+
+Im Falle eines Preisanstiegs der Sicherheiten behält der Darlehensnehmer etwaige Wertzuwächse der Sicherheiten. Er schuldet nur den Darlehensbetrag, der im Voraus festgelegt und vom Bitcoin-Preis unabhängig ist.
 
 
 
@@ -577,21 +577,21 @@ In Debifi :
 
 
 
-- Gehen Sie zu Ihrem Contract und klicken Sie auf **Rückzahlung vornehmen**. Geben Sie den fälligen Gesamtbetrag (Kapital + Zinsen) ein.
+- Gehen Sie zu Ihrem Vertrag und klicken Sie auf **Rückzahlung vornehmen**. Geben Sie den fälligen Gesamtbetrag (Kapital + Zinsen) ein.
 
 
 
 
 
-- Senden Sie die Stablecoins von Ihrem Wallet an den angegebenen Address des Kreditgebers und kehren Sie zurück, um die Rückzahlung auf der Plattform zu bestätigen, indem Sie die **ID** der Rückzahlungstransaktion in die entsprechende Registerkarte kopieren. Dies erleichtert Debifi die Durchführung seiner Kontrollen.
+- Senden Sie die Stablecoins von Ihrer wallet an die angegebene Adresse des Kreditgebers und kehren Sie zurück, um die Rückzahlung auf der Plattform zu bestätigen, indem Sie die **ID** der Rückzahlungstransaktion in die entsprechende Registerkarte kopieren. Dies erleichtert Debifi die Durchführung seiner Kontrollen.
 
 
 
-Sobald die Zahlung vom Kreditgeber (und von Ihnen) bestätigt wurde, bittet Debifi Sie um eine **Rückzahlung**. Ihre Bitcoin-Sicherheiten werden freigegeben und Sie können sie aus dem Treuhandkonto in Ihr eigenes Portfolio zurückführen.  Vergessen Sie nicht, alle Ihre Bitcoins einzusammeln.
+Sobald die Zahlung vom Kreditgeber (und von Ihnen) bestätigt wurde, bittet Debifi Sie um eine **Rückzahlung**. Ihr Bitcoin als Sicherheit wird freigegeben und Sie können es aus dem Treuhandkonto in Ihr eigenes wallet zurückgeben.  Vergessen Sie nicht, alle Ihre Bitcoins einzusammeln.
 
 
 
-Sobald Sie Ihre Bitcoins erhalten, ändert sich der Kredit Contract in **Contract abgeschlossen**.
+Sobald Sie Ihre Bitcoins erhalten, ändert sich der Darlehensvertrag in **Contract abgeschlossen**.
 
 
 
@@ -604,15 +604,15 @@ Herzlichen Glückwunsch! Sie haben den Prozess abgeschlossen.
 
 
 
-Was auch immer Ihre Ziele oder Beweggründe sind - Finanzierung eines Projekts, Erwerb einer Immobilie, Kauf von Bitcoins usw. - seien Sie äußerst vorsichtig, bevor Sie einen Kredit aufnehmen, der durch Bitcoin gesichert ist. - seien Sie äußerst vorsichtig, bevor Sie einen Kredit aufnehmen, der mit Bitcoin unterlegt ist. Nehmen Sie sich Zeit, Ihre Entscheidung sorgfältig zu überdenken, da Bitcoin ein unbeständiger Vermögenswert bleibt. **Ein starker Preisverfall könnte zur Zwangsliquidierung Ihrer Bitcoins führen**.
+Was auch immer Ihre Ziele oder Beweggründe sind - die Finanzierung eines Projekts, der Erwerb einer Immobilie, der Kauf von Bitcoins usw. - lassen Sie große Vorsicht walten, bevor Sie ein mit Bitcoin unterlegtes Darlehen aufnehmen. Nehmen Sie sich die Zeit, Ihre Entscheidung sorgfältig abzuwägen, denn Bitcoin bleibt ein unbeständiger Vermögenswert. **Ein starker Preisverfall könnte zur Zwangsliquidierung Ihrer Bitcoins führen
 
 
 
-Überwachen Sie Ihr Verhältnis von Kredit zu Sicherheiten (LTV). Richten Sie wenn möglich Warnmeldungen ein (BTC-Preis, LTV). Achten Sie darauf, dass Ihr Verhältnis nicht 90 % erreicht. Erhöhen Sie im Zweifelsfall die Sicherheiten oder zahlen Sie vorzeitig zurück.
+Überwachen Sie Ihr Verhältnis von Kredit zu Sicherheiten (LTV). Richten Sie nach Möglichkeit Warnmeldungen ein (BTC-Preis, LTV). Achten Sie darauf, dass Ihr Verhältnis nicht 90 % erreicht. Erhöhen Sie im Zweifelsfall die Sicherheiten oder zahlen Sie vorzeitig zurück.
 
 
 
-Kontrollieren Sie Ihre Schlüssel. Bewahren Sie Ihr BTC in einem sicheren Wallet auf (idealerweise Hardware oder ein seriöses Wallet). Legen Sie keinen PIN-Code fest, der mit einem wichtigen Datum in Ihrem Leben zusammenhängt, und teilen Sie niemals Ihre Wiederherstellungsphrase. Bei Debifi geben Sie generate Ihren privaten Schlüssel in der Anwendung an - Debifi kennt ihn nicht.
+Kontrollieren Sie Ihre Schlüssel. Bewahren Sie Ihr BTC in einem sicheren wallet auf (idealerweise Hardware oder ein seriöses wallet). Legen Sie keinen PIN-Code fest, der mit einem wichtigen Datum in Ihrem Leben zusammenhängt, und teilen Sie niemals Ihre Wiederherstellungsphrase. Bei Debifi haben Sie generate Ihren privaten Schlüssel in der Anwendung - Debifi kennt ihn nicht.
 
 
 

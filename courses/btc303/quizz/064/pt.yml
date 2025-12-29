@@ -6,3 +6,4 @@ wrong_answers:
   - O Bitcoin divide-se em várias cadeias paralelas para distribuir a carga computacional, mantendo as mesmas garantias de segurança para todos os utilizadores
 explanation: |
   Maxwell identificou um compromisso fundamental em que os requisitos de recursos excessivos empurram os utilizadores para terceiros de confiança em vez de validação independente. Quando os custos de validação se tornam proibitivos, os utilizadores não podem ter recursos para executar nós completos e têm de confiar em terceiros, minando a natureza sem confiança do Bitcoin. As respostas erradas sugerem incorretamente resultados benéficos (maior segurança, ajustes automáticos ou garantias mantidas) quando a utilização de recursos elevados força a centralização e as dependências de confiança.
+reviewed: false

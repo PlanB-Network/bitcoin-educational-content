@@ -1,0 +1,10 @@
+question: Jaké dvě osy se podle Nolanova grafu používají pro znázornění politických ideologií?
+answer: Hospodářská a osobní svoboda
+wrong_answers:
+  - Levicová a pravicová politika
+  - Socialismus a kapitalismus
+  - Demokracie a autoritářství
+explanation: |
+  Nolanův graf využívá dvě dimenze: ekonomickou a osobní svobodu, čímž vytváří diferencovanější politické spektrum než tradiční osa levice-pravice.
+  Tento dvourozměrný přístup umožňuje lépe zařadit různé ideologie, jako je libertariánství (vysoká ekonomická a osobní svoboda), socialismus a další
+  (nízká ekonomická, vysoká osobní svoboda) a konzervatismus (vysoká ekonomická, nízká osobní svoboda). Tradiční osu levice-pravice považuje Nolan za nedostatečnou, protože nedokáže zachytit komplexnost politických postojů, zejména to, kam v politickém prostředí zapadá klasický liberalismus.

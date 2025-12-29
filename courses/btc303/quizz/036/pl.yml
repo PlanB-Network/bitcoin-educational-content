@@ -6,3 +6,4 @@ wrong_answers:
   - Koszty subsydiów blokowych są ponoszone przez giełdy poprzez opłaty transakcyjne, podczas gdy opłaty transakcyjne są uiszczane przez dostawców wallet
 explanation: |
   Jak zauważył Paul Sztorc, dotacja blokowa i opłaty transakcyjne mają zasadniczo różny charakter. Dotacja blokowa reprezentuje tworzenie nowych bitcoinów, co osłabia istniejącą podaż i skutecznie kosztuje wszystkich posiadaczy bitcoinów poprzez inflację monetarną. W przeciwieństwie do tego, opłaty transakcyjne są bezpośrednimi płatnościami dokonywanymi przez użytkowników, którzy chcą dokonać transakcji, co oznacza, że wydający ponoszą ten koszt bezpośrednio. Rozdział ten ilustruje to przejście, pokazując, w jaki sposób koszty bezpieczeństwa będą przenoszone z posiadaczy na wydających, gdy dotacja blokowa będzie z czasem maleć.
+reviewed: false

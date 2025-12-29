@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van de namespace declaratie in een UniFFI UDL bestand?
+answer: Een container bieden voor functies die direct kunnen worden aangeroepen zonder dat objectinstantie nodig is
+wrong_answers:
+  - Om de pakketstructuur en importafhankelijkheden voor de gegenereerde taalkoppelingen te definiëren
+  - Om de doelprogrammeertalen te specificeren die de Rust bibliotheek zullen gebruiken via UniFFI
+  - De geheugenbeheerstrategie voor cross-language data marshaling operaties vaststellen
+explanation: |
+  De naamruimte in UniFFI's UDL dient als een container voor op zichzelf staande functies die direct kunnen worden aangeroepen zonder eerst objecten te maken. Deze namespace-functies handelen meestal eenvoudige bewerkingen af die waarden als parameters aannemen en resultaten teruggeven. De andere opties zijn onjuist omdat: pakketstructuur en imports automatisch worden afgehandeld door het genereren van bindingen, doeltalen worden gespecificeerd tijdens het bouwproces in plaats van in het UDL-bestand, en geheugenbeheer transparant wordt afgehandeld door de runtimelaag van UniFFI in plaats van expliciet te worden gedeclareerd in namespaces.

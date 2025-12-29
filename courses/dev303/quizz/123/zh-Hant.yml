@@ -1,0 +1,8 @@
+question: Breez SDK 能消除傳統 Lightning Network 對新使用者手動開啟通道的障礙，其主要的架構優勢是什麼？
+answer: 整合式 Lightning Service Provider (LSP) 功能可在安裝 wallet 後自動提供入站流動性
+wrong_answers:
+  - 內建海底交換服務，無需使用者介入即可將 on-chain Bitcoin 轉換為 Lightning 頻道
+  - 由 Greenlight 管理的預先注資頻道池，可根據需求動態分配給使用者
+  - 自動對等人發現機制可將新錢包連接到高流通量節點，以便即時建立通道
+explanation: |
+  Breez SDK 的整合式 LSP 功能專為消除手動開啟通道的障礙而設計，當使用者安裝 wallet 時會自動提供入站流動資金。這可立即接收付款，無需進行技術設定。海底交換處理層轉換，但不處理初始通道供應。Breez 使用的機制不是預先資金池和對等發現 - 相反，LSP 整合直接為新使用者提供必要的入站容量，以便立即接收付款。

@@ -1,9 +1,9 @@
-question: Šta je Blockchain trilema?
-answer: Protokol zasnovan na Blockchain-u može zadovoljiti samo dva od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+question: Koji rizik preuzima Lightning čvor koji objavi staro stanje kanala?
+answer: Kaznu
 wrong_answers:
-  - Protokol zasnovan na Blockchain-u može zadovoljiti samo jedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
-  - Protokol zasnovan na Blockchain-u može zadovoljiti sve kriterijume decentralizacije, sigurnosti i skalabilnosti.
-  - Protokol zasnovan na Blockchain-u ne može zadovoljiti nijedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+  - Upozorenje
+  - Dodatne rudarske naknade
+  - Privremeno zamrzavanje
 explanation: |
-  Blockchain trilema odnosi se na izazov da protokol zasnovan na Blockchain-u može zadovoljiti samo dva kriterijuma od decentralizacije, sigurnosti i skalabilnosti.
-reviewed: true
+  Protokol predviđa odvraćajuću kaznu koja omogućava drugoj strani da povrati sva sredstva.
+reviewed: false

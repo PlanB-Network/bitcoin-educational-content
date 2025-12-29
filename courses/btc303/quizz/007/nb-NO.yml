@@ -6,3 +6,4 @@ wrong_answers:
   - Private nøkler lagres på flere enheter i stedet for på én enkelt wallet
 explanation: |
   Full node-desentralisering betyr at valideringen av blokker (dataene som utvinnerne produserer) skjer i utkanten av nettverket av individuelle brukere som driver sine egne noder, i stedet for å stole på at noen få betrodde autoriteter verifiserer transaksjoner. Dette skiller seg fra desentralisering av utvinnere, som omhandler bestilling og behandling av transaksjoner. De andre alternativene forveksler full node-desentralisering med mining-distribusjon, styringsstrukturer eller sikkerhetspraksis, men ingen av dem fanger opp kjernekonseptet med distribuert blokkvalidering utført av nettverksdeltakere.
+reviewed: false

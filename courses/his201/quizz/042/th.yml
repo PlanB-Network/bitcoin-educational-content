@@ -1,0 +1,9 @@
+question: ประเทศอะไรที่ Gavin Andresen ซึ่งสร้าง Bitcoin Faucet ครั้งแรกในเดือนมิถุนายน 2010 และช่วย Satoshi ในการพัฒนาซอฟต์แวร์ มาจากเดิม?
+answer: ออสเตรเลีย
+wrong_answers:
+  - สหรัฐอเมริกา
+  - ฝรั่งเศส
+  - เนเธอร์แลนด์
+explanation: |
+  เขา[เกิด](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html)ในออสเตรเลียแต่ได้รับสัญชาติอเมริกันในปี 2004
+reviewed: true

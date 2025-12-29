@@ -6,3 +6,4 @@ wrong_answers:
   - Pravno je zaštićen MIT licencom kao jedini autoritativni izvor Bitcoin koda.
 explanation: |
   Kao što Jameson Lopp objašnjava, GitHub repozitorijum Bitcoin Core je tehnički identičan hiljadama drugih kopija širom sveta, ali je postao društveno prihvaćena žarišna tačka za koordinaciju razvoja. Nema posebne tehničke karakteristike, mehanizme kriptografske autentifikacije ili pravne zaštite koje ga čine superiornijim. MIT Licenca zapravo osigurava da svako može slobodno kopirati i redistribuirati kod. Ako bi ovaj repozitorijum nestao, zajednica bi jednostavno uspostavila novu žarišnu tačku negde drugde, pokazujući da je njegova važnost isključivo društvena konvencija, a ne tehnička nužnost.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Stała podaż Bitcoin sprawia, że absorbowanie strat z udanych ataków jest ekonomicznie niewykonalne, w przeciwieństwie do tradycyjnych systemów finansowych"
 explanation: |
   Prawidłowa odpowiedź odzwierciedla kluczowe spostrzeżenie Andrew Poelstry dotyczące systemów online w porównaniu z systemami fizycznymi. W przeciwieństwie do budynków, w których akceptujemy pewne ryzyko i polegamy na organach ścigania, Bitcoin działa w pseudonimowym środowisku, w którym atakujący mogą działać bez widoczności i konsekwencji. Ta fundamentalna różnica oznacza, że każda znana słabość zostanie nieuchronnie wykorzystana, co sprawia, że kompleksowe zabezpieczenia są niezbędne, a nie opcjonalne zarządzanie ryzykiem.
+reviewed: false

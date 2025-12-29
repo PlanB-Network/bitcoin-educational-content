@@ -6,3 +6,4 @@ wrong_answers:
   - Statlige reguleringer hindrer finansinstitusjoner i å operere på tvers av landegrensene
 explanation: |
   Satoshi identifiserer spesifikt at finansinstitusjoner som fungerer som betrodde tredjeparter, ikke kan unngå å mekle i tvister, noe som forhindrer fullstendig ikke-reversible transaksjoner. Dette skaper iboende svakheter i den tillitsbaserte modellen, øker kostnadene ved mekling og tvinger selgerne til å være på vakt overfor kundene. De andre alternativene beskriver ulike problemer som ikke nevnes i Satoshis analyse av tradisjonelle betalingssystemer.
+reviewed: false

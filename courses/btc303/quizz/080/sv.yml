@@ -6,3 +6,4 @@ wrong_answers:
   - Den öppna källkoden innebär att alla sårbarheter måste offentliggöras innan patchar utvecklas
 explanation: |
   I texten betonas särskilt att utvecklare måste vara extremt försiktiga när de publicerar korrigeringsfiler eftersom "själva korrigeringsfilen kan avslöja sårbarheten" Detta skapar en unik utmaning där lösningen oavsiktligt kan avslöja problemet. Den fjärde punkten beskriver hur Bitcoin-utvecklare testar om en patch har "döljts tillräckligt väl" genom att låta erfarna utvecklare granska den utan att känna till den specifika sårbarheten. Om dessa experter inte kan identifiera sårbarheten från patchen anses den vara säker att distribuera. De andra alternativen är felaktiga: det finns samordning genom Bitcoin Core-underhållare, konsensus krävs inte för korrigeringar och sårbarheter hålls privata under ansvarsfullt avslöjande.
+reviewed: false

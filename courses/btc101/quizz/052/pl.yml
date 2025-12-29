@@ -1,7 +1,7 @@
-question: Które z poniższych nie jest cechą Bitcoin?
-answer: Łatwo ją ocenzurować.
+question: Które z poniższych nie jest cechą Bitcoina?
+answer: Łatwo go ocenzurować.
 wrong_answers:
-  - Można go natychmiast przetransportować.
+  - Można go łatwo transportować.
   - Ma znikome koszty weryfikacji.
   - Prowadzi stałą politykę pieniężną.
 explanation: |

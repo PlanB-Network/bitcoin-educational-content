@@ -31,7 +31,7 @@ Tất cả những gì bạn cần để hoàn tất quá trình cài đặt là
 
 
 - Thiết bị thông thường cần có cho SeedSigner cổ điển: Raspberry Pi Zero, màn hình Waveshare 1,3", máy ảnh tương thích và thẻ nhớ microSD (bạn sẽ tìm thấy thêm thông tin chi tiết trong hướng dẫn SeedSigner bên dưới);
-- Bộ mở rộng SeedSigner, có sẵn [trên cửa hàng Satochip chính thức] (https://satochip.io/product/seedsigner-extension-kit/), cho phép bạn đọc và ghi vào thẻ thông minh trực tiếp từ SeedSigner. Một lựa chọn khác là sử dụng đầu đọc thẻ thông minh ngoài, có thể kết nối bằng cáp với cổng Micro-USB trên Raspberry Pi. Tuy nhiên, tôi chưa tự mình thử nghiệm giải pháp này;
+- Bộ mở rộng SeedSigner, có sẵn [trên cửa hàng Satochip chính thức](https://satochip.io/product/seedsigner-extension-kit/), cho phép bạn đọc và ghi vào thẻ thông minh trực tiếp từ SeedSigner. Một lựa chọn khác là sử dụng đầu đọc thẻ thông minh ngoài, có thể kết nối bằng cáp với cổng Micro-USB trên Raspberry Pi. Tuy nhiên, tôi chưa tự mình thử nghiệm giải pháp này;
 - Seedkeeper hoặc một thẻ thông minh trống để cài đặt ứng dụng Seedkeeper (bộ mở rộng do Satochip bán đã bao gồm một thẻ thông minh trống).
 
 
@@ -64,7 +64,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher] (https://etcher.balena.io/), sau đó thực hiện như sau:
+Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher](https://etcher.balena.io/), sau đó thực hiện như sau:
 
 
 

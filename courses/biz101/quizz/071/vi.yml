@@ -1,9 +1,9 @@
-question: What role does an LSP serve in Enterprise Bitcoin payments?
-answer: Manage high-volume transactions on Lightning
+question: LSP đóng vai trò gì trong thanh toán Enterprise Bitcoin?
+answer: Quản lý các giao dịch khối lượng lớn trên Lightning
 wrong_answers:
-  - Store private keys of the Lightning wallet
-  - Print Lightning invoices
-  - Process refunds manually on Lightning
+  - Lưu trữ khóa riêng của Lightning wallet
+  - In hóa đơn Lightning
+  - Xử lý hoàn tiền thủ công trên Lightning
 explanation: |
-  LSPs handle complex and high-volume operations on Lightning.
-reviewed: false
+  LSP xử lý các hoạt động phức tạp và khối lượng lớn trên mạng Lightning.
+reviewed: true

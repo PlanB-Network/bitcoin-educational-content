@@ -1,0 +1,8 @@
+question: According to Eric Hughes' Cypherpunk Manifesto, what fundamental approach distinguishes cypherpunks from those who merely hope for privacy protection?
+answer: They actively write code to build cryptographic systems rather than waiting for institutions to provide privacy
+wrong_answers:
+  - They focus on political lobbying and legal reforms to establish constitutional privacy rights
+  - They prioritize educating the public about surveillance risks through academic research and publications
+  - They work within existing financial institutions to gradually implement privacy-preserving technologies
+explanation: |
+  Eric Hughes explicitly stated 'Cypherpunks write code' as their defining methodology. The manifesto emphasizes that cypherpunks don't wait for governments, corporations, or other organizations to provide privacy protection. Instead, they take direct action by creating cryptographic tools and decentralized systems. This active construction approach, rather than passive hope or institutional reform, became the foundation for innovations like Bitcoin, which embodied their philosophy of building alternative systems outside traditional power structures.

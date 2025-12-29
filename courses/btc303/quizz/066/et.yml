@@ -6,3 +6,4 @@ wrong_answers:
   - Nad riskivad topeltkulutuste tekitamisega, sest nad ei saa kontrollida, kas sissetulevad tehingud on seaduslikud
 explanation: |
   Kui kaevurid praktiseerivad valideerimiseta mining, kontrollivad nad ainult proof-of-work ploki päises ja alustavad kohe mining selle peal, laadides samal ajal alla ja valideerides kogu ploki paralleelselt. Kriitiline risk on see, et nad võivad ehitada kehtetu ploki peale, mis tähendab, et nende arvutuslikud jõupingutused raisatakse plokiahela harule, mis lükatakse tagasi, kui kehtetu plokk avastatakse. See õõnestab võrgu turvalisust, sest osa mining võimsusest ei aita kaasa tugevaimale kehtivale ahelale, mis on Bitcoin põhiline turvamehhanism.
+reviewed: false

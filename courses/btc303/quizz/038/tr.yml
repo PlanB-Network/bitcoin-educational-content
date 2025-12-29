@@ -6,3 +6,4 @@ wrong_answers:
   - Yumuşak bir fork, taahhütlerde gizlice uygulanabilirken, sert bir fork için kamuoyuna duyuru yapılması gerekir
 explanation: |
   Bu bölüm uyumluluk türlerini açıkça tanımlamaktadır: ileriye dönük uyumluluk eski yazılımın bilinmeyen kısımları göz ardı ederek yeni verileri işlemesini sağlarken, geriye dönük uyumluluk yeni yazılımın eski verileri işlemesini sağlar. Yumuşak bir fork her iki uyumluluk türünü de koruyarak tam uyumlu hale gelir. Sert bir fork yalnızca geriye dönük uyumluluğu korur, yani yeni yazılım eski verileri işleyebilir ancak eski yazılım yükseltilmiş sistemden gelen yeni verileri işleyemez. Bu ayrım, Bitcoin yükseltme mekanizmalarını ve ağ uyumunu korumak için neden yumuşak çatalların tercih edildiğini anlamak için çok önemlidir.
+reviewed: false

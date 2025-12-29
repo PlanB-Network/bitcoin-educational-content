@@ -1,0 +1,8 @@
+question: Rust programlarında ne tür bir hata paniği tetiklemelidir?
+answer: Programlama mantığı hatalarını veya güvenli olmayan durumları gösteren düzeltilemeyen hatalar
+wrong_answers:
+  - Harici hizmetlerden kaynaklanan ağ bağlantısı arızaları veya zaman aşımı hataları
+  - Geçersiz kullanıcı girişi veya eksik yapılandırma dosyaları
+  - Dosya bulunamadı hataları veya izin reddedildi istisnaları
+explanation: |
+  Panikler, programlama hatalarını temsil eden kurtarılamaz hatalar veya dizi sınırları ihlalleri veya bellek güvenliği sorunları gibi programın güvenli olmayan bir duruma girdiği durumlar için ayrılmalıdır. Yanlış cevapların hepsi kurtarılabilir hataları tanımlamaktadır - ağ arızaları, kullanıcı girdi sorunları ve dosya sistemi sorunları, programların çökmek yerine Sonuç türlerini kullanarak zarif bir şekilde ele alması beklenen durumlardır. Bu kurtarılabilir hatalar, uygun hata işleme stratejileri uygulayarak programların çalışmaya devam etmesini sağlar.

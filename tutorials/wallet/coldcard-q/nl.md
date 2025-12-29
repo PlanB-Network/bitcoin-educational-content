@@ -74,7 +74,7 @@ Aan de softwarekant is de COLDCARD Q net zo goed uitgerust als de andere apparat
 Kortom, de COLDCARD Q biedt een verbeterde gebruikerservaring ten opzichte van de MK4 en kan ideaal zijn voor gemiddelde tot gevorderde gebruikers die op zoek zijn naar meer gebruiksgemak.
 
 
-De COLDCARD Q is te koop [op de officiële website van Coinkite] (https://store.coinkite.com/store/coldcard). Hij kan ook worden gekocht bij een detailhandelaar.
+De COLDCARD Q is te koop [op de officiële website van Coinkite](https://store.coinkite.com/store/coldcard). Hij kan ook worden gekocht bij een detailhandelaar.
 
 
 ## De zelfstudie voorbereiden
@@ -220,7 +220,7 @@ Je kunt de huidige firmwareversie van je COLDCARD controleren. In mijn geval is 
 ![CCQ](assets/fr/019.webp)
 
 
-Kijk [op de officiële COLDCARD website] (https://coldcard.com/downloads) om te zien of er een nieuwere versie beschikbaar is. Klik op "*Download*" om de nieuwe firmware te downloaden.
+Kijk [op de officiële COLDCARD website](https://coldcard.com/downloads) om te zien of er een nieuwere versie beschikbaar is. Klik op "*Download*" om de nieuwe firmware te downloaden.
 
 
 ![CCQ](assets/fr/020.webp)

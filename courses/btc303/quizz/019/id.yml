@@ -6,3 +6,4 @@ wrong_answers:
   - "Sistem pseudonim menyembunyikan jumlah transaksi, sedangkan sistem anonim hanya menyembunyikan identitas pengirim"
 explanation: |
   Bitcoin bersifat pseudonim, bukan anonim, karena semua transaksi antar alamat (nama samaran) dapat dilacak pada blockchain. Dalam sebuah sistem yang benar-benar anonim, tidak akan ada jejak dari mana uang berasal atau ke mana perginya, yang secara teoritis dapat dicapai melalui pembuktian tanpa pengetahuan. Akan tetapi, transparansi Bitcoin memungkinkan siapa saja untuk mengikuti aliran bitcoin di antara alamat-alamat yang berbeda, menjadikannya pseudonim dan bukan anonim. Nama samaran dalam Bitcoin adalah alamat yang berasal dari kunci publik, bukan nama pengguna atau identitas asli.
+reviewed: false

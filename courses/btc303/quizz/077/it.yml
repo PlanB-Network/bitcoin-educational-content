@@ -6,3 +6,4 @@ wrong_answers:
   - La divulgazione richiede un'azione immediata e l'applicazione di patch, mentre la pubblicazione consente di apportare correzioni graduali attraverso il normale flusso di sviluppo
 explanation: |
   Gregory Maxwell ha sottolineato questa distinzione cruciale nella discussione della mailing list. La divulgazione si riferisce all'atto responsabile di informare privatamente i manutentori del software (il fornitore) di una vulnerabilità in modo che possano lavorare a una correzione. Pubblicare, invece, significa rendere pubbliche le informazioni sulla vulnerabilità, informando così i potenziali aggressori dell'exploit. Questa distinzione è fondamentale perché mentre la divulgazione aiuta a proteggere il sistema, la pubblicazione prematura può causare danni consentendo ad attori malintenzionati di sfruttare la vulnerabilità prima che siano state predisposte difese adeguate.
+reviewed: false

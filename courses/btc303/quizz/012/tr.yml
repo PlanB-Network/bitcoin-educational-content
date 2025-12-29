@@ -6,3 +6,4 @@ wrong_answers:
   - Protokolü ihlal eden hatalı madeni para basım çizelgeleri
 explanation: |
   Bir full node blokların mutabakat kurallarına uyduğunu doğrulayabilir, geçersiz coin çıkarılmasını önleyebilir ve protokol ihlallerini tespit edebilirken, madencilerin işlemleri iki kez harcamak için blok zincirini yeniden düzenledikleri zincir yeniden yazmalarını önleyemez. Bu bölümde, yazılımınız ne kadar gelişmiş olursa olsun, coin'lerinizi içeren blokların yeniden yazılmayacağına güvenmeniz gerektiği özellikle belirtilmektedir. Bu nedenle Bitcoin'ün savunma mekanizması, zincirin yeniden yazılma olasılığını kabul edilebilir bir düzeye indirmek için birden fazla onay beklemeye dayanır.
+reviewed: false

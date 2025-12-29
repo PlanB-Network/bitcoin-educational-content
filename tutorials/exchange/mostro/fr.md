@@ -7,7 +7,7 @@ description: Plateforme d'échange Bitcoin P2P sans KYC via Lightning et Nostr
 
 Comment acquérir ou vendre des bitcoins sans compromettre sa souveraineté financière ? Les plateformes centralisées imposent des procédures KYC invasives exposant vos données personnelles, avec possibilités de gel arbitraire de comptes ou de surveillance étatique.
 
-**Mostro P2P** propose une alternative décentralisée combinant Lightning Network, protocole Nostr et hold invoices. Son innovation majeure : un système d'escrow automatisé où vos bitcoins restent sous votre contrôle durant tout l'échange, éliminant les risques de vol, faillite d'exchange ou confiscation arbitraire.
+**Mostro P2P** propose une alternative décentralisée combinant Lightning Network, protocole Nostr et hold invoices. Son innovation majeure : un système d'escrow automatisé où vos bitcoins restent sous votre contrôle durant tout l'échange, éliminant les risques de vol, faillite d'échangeur ou confiscation arbitraire.
 
 ## Qu'est-ce que Mostro P2P ?
 
@@ -22,7 +22,7 @@ Mostro fonctionne via trois composants :
 - **Nœud Lightning** : crée les hold invoices (escrow cryptographique ~24h)
 - **Clients Mostro** : interfaces utilisateur (CLI, Mobile, Web)
 
-Les ordres sont publiés sur Nostr comme événements publics (type 38383), tandis que les négociations privées transitent par messages chiffrés de bout en bout (NIP-59, NIP-44). Chaque instance Mostro définit ses propres frais (généralement entre 0,3% et 1%) et limites de transaction (variant de quelques milliers à plusieurs centaines de milliers de sats selon l'instance).
+Les ordres sont publiés sur Nostr comme événements publics (type 38383), tandis que les négociations privées transitent par messages chiffrés de bout en bout (NIP-59, NIP-44). Chaque instance Mostro définit ses propres frais (généralement entre 0,3% et 1%) et ses limites de transaction (variant de quelques milliers à plusieurs centaines de milliers de sats selon l'instance).
 
 ### Avantages décisifs
 
@@ -69,7 +69,7 @@ Disponible pour **Android** (via APK sur GitHub), elle constitue le choix optima
 
 ### Mostro-web - Interface web (en développement)
 
-Interface web JavaScript avancée en cours de développement actif. Conçue pour offrir une expérience utilisateur complète avec fonctionnalités étendues de trading et gestion de portefeuille. Accès via navigateur sans installation requise.
+Interface web JavaScript avancée en cours de développement actif. Conçue pour offrir une expérience utilisateur complète avec des fonctionnalités étendues de trading et de gestion de portefeuille. Accès via navigateur sans installation requise.
 
 ## Installation et configuration
 
@@ -79,8 +79,8 @@ Ce tutoriel vous guidera à travers l'installation et l'utilisation des deux cli
 
 Avant de commencer, vous devez disposer de :
 
-- **Un portefeuille Lightning Network** fonctionnel avec liquidité suffisante (ou compatible avec Lightning)
-	- Recommandés : Phoenix, Breez, Wallet of Satoshi...
+- **Un portefeuille Lightning Network** fonctionnel avec une liquidité suffisante (ou compatible avec Lightning)
+	- Recommandés : Phoenix, Breez, Wallet of Satoshi…
 	- Minimum 1000 satoshis de liquidité pour tester
 
 https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
@@ -90,7 +90,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 	- **Important** : N'utilisez jamais votre clé Nostr personnelle principale
 	- Conservez votre clé privée en lieu sûr (gestionnaire de mots de passe)
 
-- **Optionnel mais recommandé** : VPN ou connexion Tor pour masquer votre adresse IP
+- **Optionnel, mais recommandé** : VPN ou connexion Tor pour masquer votre adresse IP
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -148,7 +148,7 @@ RELAYS='wss://nos.lol,wss://relay.damus.io,wss://nostr-pub.wellorder.net,wss://n
 POW='0'
 ```
 
-**Important pour la synchronisation CLI/Mobile** : Pour avoir accès aux mêmes ordres sur le CLI et l'application mobile, vous devez utiliser la **même Mostro Pubkey** et les **mêmes relais Nostr** dans les deux clients. Vérifiez ces paramètres dans Settings de l'app mobile.
+**Important pour la synchronisation CLI/Mobile** : Pour avoir accès aux mêmes ordres sur le CLI et l'application mobile, vous devez utiliser la **même Mostro Pubkey** et les **mêmes relais Nostr** dans les deux clients. Vérifiez ces paramètres dans Settings de l'application mobile.
 
 ![Configuration .env](assets/fr/02.webp)
 
@@ -230,7 +230,7 @@ Configuration identique : copiez `.env-sample` vers `.env` et renseignez vos par
 
 ![Suite onboarding](assets/fr/13.webp)
 
-**Étape 5** : Une fois l'onboarding terminé, l'app génère automatiquement une paire de clés Nostr. Accédez au menu (☰) puis **Account** pour sauvegarder vos **Secret Words** (phrase de récupération). C'est également sur cet écran que vous avez la possibilité de changer de mode de confidentialité précédent évoqué. 
+**Étape 5** : Une fois l'onboarding terminé, l'application génère automatiquement une paire de clés Nostr. Accédez au menu (☰) puis **Account** pour sauvegarder vos **Secret Words** (phrase de récupération). C'est également sur cet écran que vous avez la possibilité de changer le mode de confidentialité précédemment mentionné. 
 
 ![Menu et sauvegarde des clés](assets/fr/15.webp)
 
@@ -244,11 +244,11 @@ Quelle que soit la plateforme utilisée :
 - **Petits montants** : Commencez avec moins de 10 000 sats pour vous familiariser
 - **Relais multiples** : Configurez 3-5 relais géographiquement diversifiés
 - **Protection réseau** : Activez VPN ou Tor pour masquer votre adresse IP
-- **Wallet sécurisé** : Activez le verrouillage automatique de votre wallet Lightning
+- **Portefeuille sécurisé** : Activez le verrouillage automatique de votre portefeuille Lightning
 
 ## Utilisation avec le CLI
 
-Cette section démontre l'achat de bitcoins via Mostro CLI en suivant un cas d'usage réel.
+Cette section démontre l'achat de bitcoins via Mostro CLI à partir d'un cas d'utilisation réel.
 
 ### Étape 1 : Lister les ordres disponibles
 
@@ -278,7 +278,7 @@ Mostro vous demandera de fournir une **Lightning invoice** pour recevoir les BTC
 
 ### Étape 3 : Fournir votre facture Lightning
 
-Générez une facture Lightning depuis votre wallet (Phoenix, Breez, etc.) pour le montant exact, puis envoyez-la :
+Générez une facture Lightning depuis votre portefeuille (Phoenix, Breez, etc.) pour le montant exact, puis envoyez-la :
 
 ```bash
 mostro-cli takesell -o 305a59d0-dbee-4880-9b9a-44a60486ba4a --invoice lnbc47150n1p...
@@ -326,7 +326,7 @@ mostro-cli fiatsent -o 305a59d0-dbee-4880-9b9a-44a60486ba4a
 
 ### Étape 8 : Réception des bitcoins
 
-Dès que le vendeur confirme réception du fiat et libère l'escrow avec la commande `release`, vous recevez instantanément vos bitcoins sur la Lightning invoice que vous aviez fournie.
+Dès que le vendeur confirme la réception du fiat et libère l'escrow avec la commande `release`, vous recevez instantanément vos bitcoins sur la Lightning invoice que vous aviez fournie.
 
 ### Étape 9 : Évaluation
 
@@ -362,8 +362,8 @@ Cette section démontre la vente de bitcoins via Mostro Mobile en suivant un cas
 L'application comporte 3 onglets principaux :
 
 - **Order Book** : Parcourez les ordres d'achat (BUY BTC) et de vente (SELL BTC) disponibles
-- **My Trades** : Consultez vos ordres actifs et historique
-- **Chat** : Communiquez avec vos contreparties de manière chiffrée
+- **My Trades** : Consultez vos ordres actifs et l'historique
+- **Chat** : Communiquez avec vos cocontractants de manière chiffrée
 
 ![Interface principale](assets/fr/14.webp)
 
@@ -391,7 +391,7 @@ Remplissez le formulaire de création :
 2. **Amount** : Entrez le montant en fiat (ex: 1 à 3 EUR)
 3. **Payment methods** : Choisissez la méthode (ex: "Revolut")
 4. **Price type** : Sélectionnez "Market Price" (prix du marché)
-5. **Premium** : Ajustez la prime (slider de -10% à +10%, recommandé : 0% pour vendre rapidement)
+5. **Premium** :  Ajustez la prime (curseur de -10 % à +10 %, recommandé : 0 % pour vendre rapidement)
 
 Appuyez sur **Submit** pour publier votre ordre.
 
@@ -409,9 +409,9 @@ Lorsqu'un acheteur prend votre ordre, vous recevez une notification. Consultez l
 
 ![Ordre pris par un acheteur](assets/fr/19.webp)
 
-**Instruction importante** : Vous devez maintenant **payer la hold invoice** affichée pour verrouiller vos bitcoins (ici 4674 sats pour 1-5 EUR) dans l'escrow. Vous avez **15 minutes maximum** sinon l'échange sera annulé.
+**Instruction importante** : Vous devez maintenant **payer la hold invoice** affichée pour verrouiller vos bitcoins (ici, 4674 sats pour 1-5 EUR) dans l'escrow. Vous avez **15 minutes maximum** sinon l'échange sera annulé.
 
-Copiez la hold invoice et payez-la depuis votre wallet Lightning (Phoenix, Breez, etc.).
+Copiez la hold invoice et payez-la depuis votre portefeuille Lightning (Phoenix, Breez, etc.).
 
 ### Étape 4 : Communiquer avec l'acheteur
 
@@ -434,7 +434,7 @@ L'acheteur vous informera via le chat qu'il a envoyé le paiement. Mostro affich
 
 ### Étape 6 : Libérer l'escrow
 
-Une fois que vous avez **confirmé la réception** du paiement fiat sur votre compte, appuyez sur le bouton vert **RELEASE** puis confirmer pour envoyer les sats à l'acheteur.
+Une fois que vous avez **confirmé la réception** du paiement fiat sur votre compte, appuyez sur le bouton vert **RELEASE** puis confirmez pour envoyer les sats à l'acheteur.
 
 ![Libération de l'escrow](assets/fr/20.webp)
 
@@ -448,14 +448,14 @@ Après la libération, appuyez sur **RATE** pour évaluer l'acheteur. Sélection
 
 L'échange est terminé !
 
-### Acheter des bitcoins avec l'app mobile
+### Acheter des bitcoins avec l'application mobile
 
-Le processus pour **acheter** des bitcoins est similaire mais inversé :
+Le processus pour **acheter** des bitcoins est similaire, mais inversé :
 
 1. Parcourez l'onglet **Order Book** > **BUY BTC** pour voir les ordres de vente
 2. Appuyez sur un ordre intéressant et consultez les détails
 3. Appuyez sur **Take Order**
-4. Fournissez votre Lightning invoice (générée depuis votre wallet)
+4. Fournissez votre Lightning invoice (générée depuis votre portefeuille)
 5. Attendez que le vendeur active l'escrow
 6. Contactez le vendeur via **CONTACT** pour obtenir ses coordonnées de paiement
 7. Envoyez le paiement fiat (conservez les preuves)
@@ -465,7 +465,7 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ### Gestion des problèmes
 
-**Annuler un ordre** : Dans **My Trades**, appuyez sur votre ordre puis sur le bouton **CANCEL** (disponible uniquement avant qu'il soit pris).
+**Annuler un ordre** : Dans **My Trades**, appuyez sur votre ordre puis sur le bouton **CANCEL** (disponible uniquement avant qu'il ne soit déclenché).
 
 **Ouvrir un litige** : Si un désaccord survient, appuyez sur **DISPUTE** dans les détails de l'ordre. Joignez toutes les preuves (captures d'écran du chat, références de transaction bancaire).
 
@@ -473,11 +473,11 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ### Avantages
 
-**Souveraineté financière** : Vos bitcoins ne quittent jamais votre contrôle direct grâce au mécanisme de hold invoice, éliminant les risques de faillite d'exchange ou piratage.
+**Souveraineté financière** : Vos bitcoins ne quittent jamais votre contrôle direct grâce au mécanisme de hold invoice, éliminant les risques de faillite d'échangeur ou de piratage.
 
 **Résistance à la censure** : Aucune autorité ne peut fermer le réseau ou censurer vos ordres. Le système fonctionne tant qu'il existe des relais Nostr opérationnels.
 
-**Anonymat par défaut** : Seule une clé Nostr pseudonyme vous identifie, sans KYC ni données personnelles. Communications chiffrées bout-à-bout.
+**Anonymat par défaut** : Seule une clé Nostr pseudonyme vous identifie sans KYC ni données personnelles. Communications chiffrées bout à bout.
 
 **Flexibilité des paiements** : Tout mode de paiement mutuellement accepté est possible (virements, applications mobiles, espèces, troc).
 
@@ -493,9 +493,9 @@ Le processus pour **acheter** des bitcoins est similaire mais inversé :
 
 ## Conclusion
 
-Mostro P2P représente une alternative prometteuse aux exchanges centralisés, combinant Lightning Network, Nostr et escrow automatisé pour des échanges véritablement décentralisés. Malgré son développement précoce et sa liquidité limitée, la plateforme offre déjà souveraineté financière, résistance à la censure et anonymat par défaut.
+Mostro P2P représente une alternative prometteuse aux échangeurs centralisés, combinant Lightning Network, Nostr et escrow automatisé pour des échanges véritablement décentralisés. Malgré son développement précoce et sa liquidité limitée, la plateforme offre déjà souveraineté financière, résistance à la censure et anonymat par défaut.
 
-Pour les bitcoiners privilégiant autonomie et confidentialité, Mostro constitue une option viable méritant exploration progressive. Son architecture décentralisée garantit une évolution communautaire plutôt que commerciale, ouvrant la voie à un futur d'échanges Bitcoin véritablement libres.
+Pour les bitcoiners privilégiant autonomie et confidentialité, Mostro constitue une option viable méritant une exploration progressive. Son architecture décentralisée garantit une évolution communautaire plutôt que commerciale, ouvrant la voie à un futur d'échanges Bitcoin véritablement libres.
 
 ## Ressources
 

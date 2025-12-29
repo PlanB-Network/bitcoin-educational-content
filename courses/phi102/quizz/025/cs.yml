@@ -1,0 +1,8 @@
+question: Co je v textu uvedeno jako důvod, proč je svoboda práce nezbytná a oprávněná?
+answer: Protože potřeby jsou osobní a individuální, každý člověk musí mít možnost reagovat na ně svým vlastním způsobem
+wrong_answers:
+  - Protože stát nemůže efektivně organizovat všechny ekonomické aktivity pro maximální produktivitu
+  - Protože konkurence mezi pracovníky vede k vyšší kvalitě výrobků a nižším cenám pro spotřebitele
+  - Protože historická zkušenost ukazuje, že regulované ekonomiky vždy nedokážou uspokojit základní lidské potřeby
+explanation: |
+  Text stanoví, že svoboda práce vychází z osobní a individuální povahy lidských potřeb. Protože každý člověk prožívá svůj vlastní hlad a utrpení jedinečným způsobem, musí mít svobodu tyto potřeby řešit podle svého uvážení. Text zdůrazňuje, že tento individualistický základ ospravedlňuje svobodu práce spíše než argumenty o ekonomické efektivitě, výhodách konkurenčního trhu nebo historické precedenty o regulovaných ekonomikách.

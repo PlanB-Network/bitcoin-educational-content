@@ -1,0 +1,8 @@
+question: Hva er hovedforskjellen mellom hvordan panic og Result håndterer feilretting i Rust-applikasjoner?
+answer: Panic stopper kjøringen umiddelbart og kan ikke gjenopprettes, mens Result gjør det mulig å håndtere feil på en elegant måte
+wrong_answers:
+  - Panic gir detaljert feilinformasjon, mens Result bare angir suksess eller fiasko uten kontekst
+  - Panic er trådsikkert og kan håndteres på tvers av tråder, mens Result-feil er begrenset til enkelttråder
+  - Panic logger feil automatisk i systemet, mens Result krever manuell feillogging og rapportering
+explanation: |
+  Panic representerer uopprettelige feil som umiddelbart avslutter kjøringen ved at den spoles tilbake eller avbrytes, noe som gjør det umulig for den kalende koden å håndtere feilen og fortsette. Result, som en enum som inneholder Ok(value) eller Err(error), tvinger eksplisitt anroperne til å erkjenne potensielle feil og velge hvordan de skal reagere - enten ved å håndtere feilen, tilby standardverdier eller forplante den oppover i anropsstakken. Denne grunnleggende forskjellen gjør Result til det foretrukne valget for gjenopprettelige feil i produksjonskode, mens panic bør reserveres for virkelig uopprettelige situasjoner eller utviklingsscenarioer.

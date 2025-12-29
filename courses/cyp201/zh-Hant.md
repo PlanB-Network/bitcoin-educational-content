@@ -34,7 +34,7 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 在深入探討 Bitcoin 錢包的構造和運作細節之前，我們先從幾個章節開始介紹接下來要知道的加密原語。
 
-我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：SHA256.
+我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：[SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -46,7 +46,7 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 ![CYP201](assets/en/003.webp)
 
-訓練會繼續研究 BIP39 passphrase、seed（不要與 Mnemonic 語句混淆）、主鏈代碼和主鑰匙。我們將詳細瞭解這些 Elements 的內容、各自的作用以及計算方式。
+訓練會繼續研究 [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase、seed（不要與 Mnemonic 語句混淆）、主鏈代碼和主鑰匙。我們將詳細瞭解這些 Elements 的內容、各自的作用以及計算方式。
 
 ![CYP201](assets/en/004.webp)
 
@@ -726,7 +726,7 @@ Bitcoin 與 P2PK 腳本的初始操作包括使用公開金鑰來鎖定資金，
 
 因此，擁有以公開金鑰鎖定的比特幣的使用者，必須想辦法安全地儲存可以解鎖其資金的東西：私人金鑰。Bitcoin Wallet 正是一個可以讓您輕鬆保存所有鑰匙而不被其他人取得的裝置。因此，與 Wallet 相比，它更像是鑰匙鏈。
 
-數位簽章演算法可讓公開金鑰與私人金鑰之間的數學連結，以及在不洩露私人金鑰的情況下執行簽章以證明擁有私人金鑰的能力成為可能。在 Bitcoin 通訊協定中，使用了兩種簽章演算法： **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) 和 **Schnorr 簽署方案**。ECDSA 是 Bitcoin 從一開始就使用的數位簽章通訊協定。Schnorr 在 Bitcoin 中較為近期，因為它是在 2021 年 11 月 Taproot 更新時引入的。
+數位簽章演算法可讓公開金鑰與私人金鑰之間的數學連結，以及在不洩露私人金鑰的情況下執行簽章以證明擁有私人金鑰的能力成為可能。在 Bitcoin 通訊協定中，使用了兩種簽章演算法： **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) 和 **Schnorr 簽署方案**。ECDSA 是 Bitcoin 從一開始就使用的數位簽章通訊協定。Schnorr 在 Bitcoin 中較為近期，因為它是在 2021 年 11 月 Taproot 更新時引入的。
 
 這兩種演算法的機制相當類似。它們都是以橢圓曲線加密法為基礎。這兩種通訊協定的主要差異在於簽章的結構和一些特定的數學特性。因此，我們將從最古老的 ECDSA 開始，研究這些演算法的運作。
 
@@ -2038,29 +2038,31 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 接收位址正是在 *scriptPubKey* 中找到的。然而，它們的使用依所採用的腳本標準而有所不同。以下是 *scriptPubKey* 中包含的資訊摘要表，依據所使用的標準，以及 *scriptSig* 中預期用來解鎖 *scriptPubKey* 的資訊。
 
-| Standard | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness* | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness*
 
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 
-| P2PK | `<pubkey> OP_CHECKSIG` | `<signature>` | | | | | | | | | P2PK
 
-P2PKH | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>` | | | | | |
 
-| P2SH | `OP_HASH160 <scriptHash> OP_EQUAL` | `<data pushes> <Redeem script>` | 任意數據 | | P2SH
 
-| P2WPKH | `0 <pubKeyHash>` | | | `<signature> <public key>` |
 
-| P2WSH | `0 <witnessScriptHash>` | | | `<data pushes> <witness script>` |
 
-| P2SH-P2WPKH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <pubKeyHash>` | `<signature> <public key>` | P2SH-P2WPKH
 
-| P2SH-P2WSH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <scriptHash>` | `<data pushes> <witness script>` |
 
-| P2TR (金鑰路徑) | `1 <公開金鑰>` | | `<簽章>` |
 
-| P2TR (腳本路徑) | `1 <公開金鑰> ` | | `<資料推送> <指令碼> <控制區塊> ` |
 
-*來源：Bitcoin 核心公關審查俱樂部，2021 年 7 月 7 日 - Gloria Zhao*
+
+| 標準             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意資料 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_來源：2021年7月7日 Bitcoin Core PR 審查俱樂部 – Gloria Zhao_
 
 腳本中使用的操作碼是用來操作資訊的，必要時還可對資訊進行比較或測試。讓我們以 P2PKH 腳本為例，其內容如下：
 

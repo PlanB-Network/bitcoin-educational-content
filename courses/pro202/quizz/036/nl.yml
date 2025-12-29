@@ -1,0 +1,8 @@
+question: Wat gebeurt er na verloop van tijd met de privacy van de bestedingsvoorwaarden van een P2SH-transactie?
+answer: De bestedingsvoorwaarden blijven verborgen tot de eerste besteding en worden daarna permanent zichtbaar on-chain
+wrong_answers:
+  - De bestedingsvoorwaarden blijven permanent privé, zelfs nadat er meerdere transacties zijn gedaan
+  - De bestedingsvoorwaarden zijn onmiddellijk zichtbaar wanneer het P2SH adres voor het eerst wordt aangemaakt
+  - De bestedingsvoorwaarden worden tijdelijk zichtbaar tijdens het uitgeven, maar worden daarna weer verborgen
+explanation: |
+  P2SH biedt privacy door de werkelijke bestedingsvoorwaarden (redeem script) te verbergen achter een hash in de scriptPubKey. Alleen de hash van 20 bytes is aanvankelijk zichtbaar, zodat niet zichtbaar is of het om multisig, timelock of andere complexe voorwaarden gaat. Echter, wanneer de P2SH uitvoer voor het eerst wordt uitgegeven, moet het volledige inwisselscript on-chain worden onthuld voor validatie, waardoor de bestedingsvoorwaarden permanent zichtbaar zijn voor alle netwerkdeelnemers. Deze eenmalige onthulling is de afweging die P2SH maakt tussen privacy en functionaliteit.

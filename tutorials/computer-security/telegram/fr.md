@@ -356,7 +356,7 @@ Vous pouvez voir sur la photo suivante où se trouve ce paramètre.
 Telegram peut être utilisé à partir de votre ordinateur, de sorte qu'il est synchronisé avec le compte affiché sur votre téléphone. Vous pouvez choisir de ne pas télécharger l'application et de l'utiliser uniquement via le web. Cependant, cette version présente des limitations par rapport à celle exécutée sur l'ordinateur, c'est pourquoi je recommande de la télécharger et de l'installer pour tirer le meilleur parti de cet outil puissant.
 
 
-Toutes les options vues jusqu'à présent avec le modèle mobile, peuvent être exploitées exactement de la même manière depuis votre ordinateur. Pour cette installation également, rendez-vous sur le site officiel [telegram.org] (https://telegram.org). Sur la page d'accueil, choisissez _Telegram pour PC/Linux_.
+Toutes les options vues jusqu'à présent avec le modèle mobile, peuvent être exploitées exactement de la même manière depuis votre ordinateur. Pour cette installation également, rendez-vous sur le site officiel [telegram.org](https://telegram.org). Sur la page d'accueil, choisissez _Telegram pour PC/Linux_.
 
 Dans l'écran qui s'ouvre, cliquez sur pour télécharger l'exécutable adapté à votre système d'exploitation.
 

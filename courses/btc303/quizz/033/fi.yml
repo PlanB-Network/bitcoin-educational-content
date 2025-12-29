@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Luvun mukaan BIP42:ssa korjattiin hyvin pitkäaikainen inflaatiovika ja varmistetaan, että lohkotuki on nolla noin vuonna 2140. Silloin Bitcoin siirtyy tukeen perustuvasta palkitsemisjärjestelmästä puhtaasti maksuperusteiseen järjestelmään, mikä muuttaa perusteellisesti tapaa, jolla verkon turvallisuuskustannukset katetaan, kun haltijat maksavat inflaation kautta ja tuhlaajat maksavat transaktiomaksujen kautta.
+reviewed: false

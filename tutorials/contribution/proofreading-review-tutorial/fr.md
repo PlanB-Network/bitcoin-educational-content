@@ -14,7 +14,7 @@ Si vous n'avez pas compris la partie ci-dessus, ne vous inquiétez pas, ce tutor
 
 ## Qu'est-ce que Plan ₿ Academy ?
 
-Plan ₿ Academy est une plateforme pour apprendre sur Bitcoin via de nombreux cours et tutoriels pour tous. Actuellement, tout notre contenu est open-source, hébergé sur un repo GitHub, et ouvert aux contributions pour la révision et la création de contenu.
+Plan ₿ Academy est une plateforme d'apprentissage dédiée à Bitcoin, proposant de nombreux cours et tutoriels accessibles à tous. Actuellement, tout notre contenu est open source, hébergé sur un dépôt GitHub, et ouvert aux contributions pour la révision et la création de contenu.
 
 Plan ₿ Academy vise à devenir la place publique du cyberespace Bitcoin, en reliant et en encourageant les communautés Bitcoin à travers le monde.
 
@@ -64,9 +64,8 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/03.webp)
 
-*Vous pouvez maintenant voir l'interface GitHub du fichier à réviser.*
-* Le panneau de gauche vous permet de naviguer à travers votre branche (cf. \**A\**) et les fichiers (cf. \**B\**).
-*Cliquez sur l'icône du stylo pour commencer la révision (cf. **C**).*
+Vous pouvez maintenant voir l'interface GitHub du fichier à réviser.
+Le panneau de gauche vous permet de naviguer à travers votre branche (cf. \**A\**) et les fichiers (cf. \**B\**).*Cliquez sur l'icône du stylo pour commencer la révision (cf. \**C\**).
 
 ![REVIEW](assets/fr/04.webp)
 
@@ -78,23 +77,23 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec le contenu original affiché dans une fenêtre séparée à côté. Vous pouvez, par exemple, consulter le texte sur le site de Plan ₿ Academy ou dans l’aperçu GitHub sur une page de votre navigateur. Effectuez ensuite les modifications dans la vue de code au fur et à mesure, en utilisant la commande `ctrl + F` pour localiser rapidement les erreurs à corriger.
+**NB.** Il est recommandé d’effectuer la révision dans la fenêtre de code, avec le contenu original affiché dans une fenêtre séparée à côté. Vous pouvez, par exemple, consulter le texte sur le site de Plan ₿ Academy ou dans l’aperçu GitHub sur une page de votre navigateur. Effectuez ensuite les modifications dans la vue de code au fur et à mesure, en utilisant la commande `ctrl + F` pour localiser rapidement les erreurs à corriger.
 
 ## 4. Commit les modifications
 
 * Vous pouvez commencer à relire le contenu et le corriger si besoin.
-*Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.*
-* Cliquez sur le bouton "Commit Changes...".
+* Lorsque vous souhaitez arrêter votre session de révision, vous pouvez commit vos modifications, même si la révision n'est pas terminée. C'est un peu comme si vous sauvegardiez vos modifications sur GitHub.
+* Cliquez sur le bouton `Commit Changes...`.
 
 ![REVIEW](assets/fr/07.webp)
 
 * Ajoutez un message descriptif sur votre changement (cf. \**A\**).
-*Ajoutez plus le contexte dans la description si nécessaire (cf. **B**).*
-* Cliquez sur le bouton "Propose changes" (cf. \**C\**).
-
+* Ajoutez plus de contexte dans la description si nécessaire (cf. \**B\**).
+* Cliquez sur le bouton `Propose changes` (cf. \**C\**).
+  
 ![REVIEW](assets/fr/08.webp)
 
-- Si ce n'est pas la première fois que vous contribuez, GitHub vous proposera de créer une nouvelle branche. Il ne faut jamais effectuer de commits directement sur la branche principale `dev`. Si vous avez déjà effectué des commits sur une branche de travail existante, sélectionnez cette branche. Sinon, choisissez l’option "Create a new branch" pour en créer une nouvelle.
+- Si ce n'est pas la première fois que vous contribuez, GitHub vous proposera de créer une nouvelle branche. Il ne faut jamais effectuer de commits directement sur la branche principale `dev`. Si vous avez déjà effectué des commits sur une branche de travail existante, sélectionnez cette branche. Sinon, choisissez l’option `Create a new branch` pour en créer une nouvelle.
 
 ![REVIEW](assets/fr/13.webp)
 
@@ -113,27 +112,28 @@ NB. Il est recommandé d’effectuer la révision dans la fenêtre de code, avec
 
 ## 5. Créer une PR avec la branche dédiée
 
-- Si tout vous convient et que vous avez terminé vos modifications, vous pouvez cliquer sur le bouton vert "Create Pull Request".
+- Si tout vous convient et que vous avez terminé vos modifications, vous pouvez cliquer sur le bouton vert `Create Pull Request`.
+
 ![REVIEW](assets/fr/10.webp)
 
 - Vous arriverez ensuite sur la page de la PR. Une Pull Request est une demande permettant à un contributeur de soumettre des modifications effectuées sur une branche d’un dépôt distant pour qu’elles soient examinées et éventuellement fusionnées dans la branche principale du dépôt.
 - Ajoutez un titre et une courte description à votre PR. Le titre doit correspondre à celui de l’issue sur laquelle vous travaillez. Par exemple, si le titre de l’issue est `[TRANSLATION] Course CYP201 - FR`, utilisez ce même titre pour votre PR (cf. \**A\**). Dans la description, mentionnez l’issue associée en utilisant son numéro, précédé de la mention `"Closes"`. Cela permettra de fermer automatiquement l’issue une fois la PR fusionnée (cf. \**B\**).  
-- Si tout vous semble correct, cliquez sur le bouton vert "Create Pull Request" (cf. \**C\**).
+- Si tout vous semble correct, cliquez sur le bouton vert `Create Pull Request` (cf. \**C\**).
 
 ![REVIEW](assets/fr/11.webp)
 
 ## 6. Règles à suivre lors de la relecture de contenu
 
-Pour en savoir plus sur les directives à suivre lors de la relecture sur le Plan ₿ Academy en ce qui concerne les règles de langue ou de format, veuillez vous référer au tutoriel "contribution-proofreading-guidelines" dans cette même section !
+Pour en savoir plus sur les directives à suivre lors de la relecture sur Plan ₿ Academy en ce qui concerne les règles de langue ou de format, veuillez vous référer au tutoriel "contribution-proofreading-guidelines" dans cette même section !
 
 ## 7. Attendre la révision
 
-- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet "Pull requests" sur [le dépôt GitHub de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :
+- Félicitations, votre PR a été envoyée ! Vous pouvez suivre son avancement dans l'onglet `Pull requests` sur [le dépôt GitHub de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) :
 
 ![REVIEW](assets/fr/12.webp)
 
-- Merci beaucoup pour votre contribution ! Après approbation, un membre de l'équipe de Plan ₿ Academy vous contactera pour vous envoyer votre récompense. \**Les paiements se font uniquement sur le Lightning Network\**.
-* Si vous souhaitez recommencer, retournez à l'étape 2 et envoyez un nouveau message sur le groupe Telegram pour continuer à contribuer sur d'autres contenus. Pensez à synchroniser votre fork avant de créer une nouvelle branche de travail. Pour cela, rendez-vous sur la page d’accueil de votre fork, sélectionnez la branche principale nommée `dev` (cf. \**A\**), puis cliquez sur le bouton "Sync fork" (cf. \**B\**). Si des mises à jour sont disponibles pour votre fork, un bouton "Update branch" apparaîtra. Cliquez simplement dessus pour effectuer la mise à jour.
+- Merci beaucoup pour votre contribution ! Après approbation, un membre de l'équipe de Plan ₿ Academy vous contactera pour vous envoyer votre récompense. ***Les paiements se font uniquement sur le Lightning Network***.
+* Si vous souhaitez recommencer, retournez à l'étape 2 et envoyez un nouveau message sur le groupe Telegram pour continuer à contribuer sur d'autres contenus. Pensez à synchroniser votre fork avant de créer une nouvelle branche de travail. Pour cela, rendez-vous sur la page d’accueil de votre fork, sélectionnez la branche principale nommée `dev` (cf. \**A\**), puis cliquez sur le bouton `Sync fork` (cf. \**B\**). Si des mises à jour sont disponibles pour votre fork, un bouton `Update branch` apparaîtra. Cliquez simplement dessus pour effectuer la mise à jour.
 
 ![REVIEW](assets/fr/16.webp)
 

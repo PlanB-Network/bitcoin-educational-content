@@ -35,7 +35,7 @@ Selamat datang di kursus CYP201, di mana kita akan menjelajahi secara mendalam c
 Tujuan dari pelatihan ini adalah untuk memberi Anda kunci untuk menguasai alat yang Anda gunakan setiap hari. Dompet HD Bitcoin, yang berada di jantung pengalaman pengguna Anda, didasarkan pada konsep-konsep yang terkadang kompleks, yang akan kami coba buat dapat diakses. Bersama-sama, kita akan membongkar misterinya!
 
 Sebelum menyelami detail konstruksi dan operasi dompet Bitcoin, kita akan memulai dengan beberapa bab tentang primitif kriptografi yang perlu diketahui untuk apa yang akan diikuti.
-Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: SHA256.
+Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda gunakan setiap hari untuk mengamankan UTXO Anda. Bitcoin menggunakan dua: ECDSA dan protokol Schnorr. Anda akan belajar primitif matematika apa yang mendasari algoritma ini dan bagaimana mereka memastikan keamanan transaksi.
@@ -45,7 +45,7 @@ Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda
 Setelah kita memiliki pemahaman yang baik tentang elemen-elemen kriptografi ini, kita akhirnya akan beralih ke inti dari pelatihan: dompet yang deterministik dan hierarkis! Pertama, ada bagian yang didedikasikan untuk frasa mnemonik, urutan 12 atau 24 kata ini yang memungkinkan Anda untuk membuat dan memulihkan dompet Anda. Anda akan menemukan bagaimana kata-kata ini dihasilkan dari sumber entropi dan bagaimana mereka memfasilitasi penggunaan Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-Pelatihan akan dilanjutkan dengan mempelajari passphrase BIP39, seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
+Pelatihan akan dilanjutkan dengan mempelajari passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
 ![CYP201](assets/en/004.webp)
 
 Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptografi diturunkan secara deterministik dan hierarkis hingga ke alamat penerima.
@@ -659,7 +659,7 @@ Seorang pengguna yang ingin melakukan transaksi Bitcoin harus menciptakan tanda 
 
 Sebagai hasilnya, seorang pengguna yang memiliki bitcoin yang dikunci dengan kunci publik harus menemukan cara untuk menyimpan secara aman apa yang memungkinkan membuka kunci dana mereka: kunci privat. Dompet Bitcoin adalah tepatnya sebuah perangkat yang akan memungkinkan Anda untuk dengan mudah menyimpan semua kunci Anda tanpa orang lain memiliki akses kepadanya. Oleh karena itu, ini lebih mirip sebuah gantungan kunci daripada dompet.
 
-Hubungan matematis antara kunci publik dan kunci privat, serta kemampuan untuk melakukan tanda tangan untuk membuktikan kepemilikan kunci privat tanpa mengungkapkannya, dimungkinkan oleh algoritma tanda tangan digital. Dalam protokol Bitcoin, 2 algoritma tanda tangan digunakan: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) dan **skema tanda tangan Schnorr**. ECDSA adalah protokol tanda tangan digital yang digunakan dalam Bitcoin sejak awal. Schnorr lebih baru dalam Bitcoin, karena diperkenalkan pada November 2021 dengan pembaruan Taproot.
+Hubungan matematis antara kunci publik dan kunci privat, serta kemampuan untuk melakukan tanda tangan untuk membuktikan kepemilikan kunci privat tanpa mengungkapkannya, dimungkinkan oleh algoritma tanda tangan digital. Dalam protokol Bitcoin, 2 algoritma tanda tangan digunakan: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) dan **skema tanda tangan Schnorr**. ECDSA adalah protokol tanda tangan digital yang digunakan dalam Bitcoin sejak awal. Schnorr lebih baru dalam Bitcoin, karena diperkenalkan pada November 2021 dengan pembaruan Taproot.
 Kedua algoritma ini cukup serupa dalam mekanisme mereka. Keduanya berbasis pada kriptografi kurva eliptik. Perbedaan utama antara kedua protokol ini terletak pada struktur tanda tangan dan beberapa properti matematis spesifik. Oleh karena itu, kita akan mempelajari fungsi dari algoritma-algoritma ini, dimulai dengan yang tertua: ECDSA.
 
 ### Kriptografi Kurva Eliptik
@@ -1883,19 +1883,21 @@ Ketika seorang pengguna menerima bitcoin, pengirim membuat sebuah output UTXO da
 
 Tepatnya dalam *scriptPubKey* tempat alamat penerima ditemukan. Namun, penggunaannya bervariasi tergantung pada standar skrip yang diadopsi. Berikut adalah tabel ringkasan informasi yang terkandung dalam *scriptPubKey* menurut standar yang digunakan, serta informasi yang diharapkan dalam *scriptSig* untuk membuka *scriptPubKey*.
 
-| Standar            | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Data sembarang      |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (jalur kunci) | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (jalur skrip) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <blok kontrol>`  |
 
-*Sumber: Bitcoin Core PR review club, 7 Juli 2021 - Gloria Zhao*
+
+| Standar             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data sewenang-wenang | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Sumber: Bitcoin Core PR review club tanggal 7 Juli 2021 – Gloria Zhao_
 
 Opcodes yang digunakan dalam skrip dirancang untuk memanipulasi informasi, dan, jika perlu, untuk membandingkan atau mengujinya. Mari kita ambil contoh skrip P2PKH, yang adalah sebagai berikut:
 

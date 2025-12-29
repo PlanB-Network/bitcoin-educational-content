@@ -6,3 +6,4 @@ wrong_answers:
   - Determinar la compensación económica adecuada por el descubrimiento de vulnerabilidades antes de aceptar revelar la información a los desarrolladores
 explanation: |
   El principal reto ético de la divulgación responsable es el delicado equilibrio entre transparencia y seguridad. Los investigadores deben garantizar que se abordan las vulnerabilidades sin proporcionar inadvertidamente una hoja de ruta para la explotación maliciosa. Esto implica coordinarse cuidadosamente con los desarrolladores, programar adecuadamente las divulgaciones y considerar el impacto más amplio en el ecosistema. Las otras opciones se centran en cuestiones financieras o reglamentarias que, aunque potencialmente pertinentes, no constituyen el principal dilema ético esbozado en las prácticas de divulgación responsable.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bitcoin'da imza kontrolleri olmadan yalnızca genel verilere dayanan komut dosyası bulmacalarının savunmasız olmasının temel nedeni nedir?
+answer: Madenciler çözümü mempool'dan kopyalayabilir ve ödemeyi kendilerine yönlendirebilir
+wrong_answers:
+  - Komut dosyası yürütmesi farklı ağ düğümleri arasında deterministik olmaz
+  - İşlem doğrulama süresi bulmaca karmaşıklığı ile birlikte dört kat artar
+  - Yığın tabanlı yürütme modeli karmaşık matematiksel işlemleri güvenli bir şekilde gerçekleştiremez
+explanation: |
+  İmza kontrolleri olmadan yalnızca herkese açık verilere (matematik problemleri veya hash ön görüntüleri gibi) dayanan komut dosyası bulmacaları, madencilerin önden çalıştırmasına karşı savunmasızdır. Mempool'da geçerli bir çözüm belirdiğinde, herhangi bir madenci bunu gözlemleyebilir, çözümü kopyalayabilir ve ödemeyi kendi adresine yönlendiren kendi işlemini oluşturabilir. Bu nedenle gerçek dünyadaki Bitcoin sözleşmeleri neredeyse her zaman imza kontrolleri içerir - imzalar çözümü belirli bir tarafa bağlar ve diğerlerinin ödemeyi çalmasını önleyerek bulmaca çözücüler için uygun teşvikleri korur.

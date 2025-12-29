@@ -1,5 +1,5 @@
 ---
-name: Byttemarkedet
+name: SwapMarket
 description: Bitcoin og Lightning swap-tjenester aggregator
 ---
 
@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Aspekt       | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Natur         | Unik tjeneste        | Multi-leverandør-aggregator          |
+| Leverandører  | Kun Boltz            | Boltz, ZEUS, Eldamar, Middle Way     |
+| Konkurranse   | Faste priser         | Fri konkurranse                      |
+| Grensesnitt   | boltz.exchange       | swapmarket.github.io (selv-hostbar)   |
+| Sikkerhet     | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **Fordeler med SwapMarket**: Priskonkurranse, diversifisering av backend-instanser, sammenligning i sanntid.
 
@@ -638,9 +638,9 @@ Konkurransen mellom leverandørene forbedrer prisene og mangedobler kildene til 
 
 
 - [SwapMarket - Webapplikasjon](https://swapmarket.github.io)
-- [GitHub SwapMarket] (https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknisk dokumentasjon] (https://docs.boltz.exchange/)
-- [Guide til selvhosting] (https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
+- [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
+- [Teknisk dokumentasjon](https://docs.boltz.exchange/)
+- [Guide til selvhosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 
 

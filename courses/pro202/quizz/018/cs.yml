@@ -1,0 +1,8 @@
+question: Jaký je typický nárůst velikosti od surových podpisových dat ke konečnému zakódovanému podpisu ve formátu kódování DER pro podpisy ECDSA?
+answer: Z 64 bajtů na přibližně 71-72 bajtů kvůli režii formátování DER
+wrong_answers:
+  - Z 32 bajtů na přibližně 64 bajtů kvůli kódování složek R a S
+  - Z 64 bajtů na přesně 128 bajtů kvůli dvojímu kódování složek podpisu
+  - Ze 71 bajtů na přibližně 64 bajtů kvůli kompresi sekvenčních značek
+explanation: |
+  Kódování DER přidává k podpisům ECDSA strukturální režii prostřednictvím značek sekvence (0x30), bajtů délky a prefixů komponent (0x02). Surový podpis ECDSA se skládá ze dvou 32bajtových hodnot (R a S) o celkové délce 64 bajtů, ale formátování DER jej rozšiřuje na přibližně 71-72 bajtů. Tato neefektivita byla jedním z důvodů, proč Bitcoin později převzal v Taproot Schnorrovy podpisy, které používají pevné 64bajtové podpisy bez režie kódování.

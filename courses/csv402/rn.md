@@ -930,28 +930,28 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 -  Ama byte 29 `OP_RESERVED`, Akwirikirwa na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango_ c'ibice 31;
-- Hakurikiraho _ukwiyemeza_ kw’amabayiti 32 (kenshi Merkle Root iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (ivyo vyose hamwe ni amabayiti 33 y’iki gice ca kabiri).
+- Hanyuma haca haza _ukwiyemeza_ kw’byte 32 (kenshi Merkle Root iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (vyose hamwe ni byte 33 y’iki gice ca kabiri).
 
 
-Rero uburyo bwa `Tapret` bw'amabayiti 64 busa n'ubwa `Opret` twashizeko amabayiti 29 ya `OP_RESERVED` maze twongerako amabayiti y'inyongera nka Nonce.
+Rero uburyo bwa `Tapret` bw'byte 64 busa n'ubwa `Opret` twashizeko imbere y'igihe byte29 ya `OP_RESERVED` maze twongerako byte y'inyongera nka Nonce.
 
 
-Kugira ngo umugambi wa Tapret ugume uhinduka mu bijanye n’ugushirwa mu ngiro, ibanga n’ugushira mu ngiro, urazirikana ibikorwa bitandukanye, bivanye n’ibisabwa:
+Kugira ngo umugambi wa Tapret ugumane ubushbozi bw'uguhinduka mu bijanye n’ugushirwa mu ngiro, ibanga n’ugushira mu ngiro, igicapo ca Tapret kiriyumvirwako mubikorwa bitandukanye, bivanye n’ibisabwa:
 
 
 
 
-- Ukwinjiza mu buryo budasanzwe Tapret Commitment mu gucuruza Taproot ata n’imiterere y’Inzira y’Inyandiko yariho mbere;
+- Ukwinjiza vyihariwe k'ukwiyemeza kwa Tapret mw'ihanahanwa rya Taproot ata n’imiterere y’Inzira y’Inyandiko yarisanzwe ihari;
 - Ukwinjiza Tapret Commitment mu gikorwa ca Taproot gisanzwe gifise Inzira y’Inyandiko.
 
 
-Reka twihweze neza kimwekimwe cose muri ivyo bintu bibiri.
+Reka turabire hagufi buri kimwekimwe muri ivyo bintu bibiri.
 
 
-#### Injiza ya Tapret ata nzira y'inyandiko iriho
+#### Iyinjizwa rya Tapret ata nzira y'inyandiko iriho
 
 
-Muri iki gihe ca mbere, dutangura n'urufunguzo rw'isohoka rwa Taproot (*Urufunguzo rw'Isohoka rwa Taproot*) `Q` rurimwo gusa urufunguzo rwa bose rw'imbere `P` *(Urufunguzo rw'Imbere*), ata nzira y'inyandiko ijana (*Inzira y'Inyandiko*):
+Muri iki gihe ca mbere, dutangura n'urufunguzo rw'isohoka rwa Taproot (*Urufunguzo rw'Isohoka rwa Taproot*) `Q` rurimwo gusa urufunguzo rwo kukarubanda rw'imbere `P` *(Urufunguzo rw'Imbere*), ata nzira y'inyandiko bishizwe hamwe (*Inzira y'Inyandiko*):
 
 
 ![RGB-Bitcoin](assets/en/047.webp)
@@ -965,7 +965,7 @@ Muri iki gihe ca mbere, dutangura n'urufunguzo rw'isohoka rwa Taproot (*Urufungu
 -`t = tH_TWEAK(P)` ni umubare w'ihindura, ubariwe biciye ku _hash_ (nk'akarorero `SHA-256(SHA-256(Ihindura) || P)`), bihuye n' [BIP86](Igihugu c'Igihugu c'Igihugu). Ivyo vyerekana ko ata nyandiko yihishije iriho.
 
 
-Kugira ngo ushiremwo **Tapret** Commitment, wongereko **Inzira y'Inyandiko Gukoresha** n'**Inyandiko yihariye**, nk'uko bikurikira:
+Kugira ngo ushiremwo ukwiyemeza kwa **Tapret**, wongereko **Inzira y'Inyandiko Gukoresha** n'**Inyandiko yihariye**, nk'uko bikurikira:
 
 
 ![RGB-Bitcoin](assets/en/048.webp)
@@ -973,11 +973,11 @@ Kugira ngo ushiremwo **Tapret** Commitment, wongereko **Inzira y'Inyandiko Gukor
 
 
 
-- `t = tH_TWEAK(P || Umuzi_w'inyandiko)` hanyuma ihinduka ikintu gishasha co guhindura, harimwo **Umuzi_w'inyandiko**.
+- `t = tH_TWEAK(P || Umuzi_w'inyandiko)` hanyuma ihinduka ikintu gishasha co guhindura, harimwo **Script_root(Umuzi_w'inyandiko)**.
 - `Imizi_inyandiko = tH_ishami(64-byte_Isezerano_ry'Inyandiko)`, ikaba ari Hash y'ubwoko `SHA-256(SHA-256(Ishami_Iry'Inyandiko) || 64-byte_Isezerano_ry'Inyandiko)`
 
 
-Ikimenyamenya c'uko hariho n'uko ari ikintu kidasanzwe mu giti ca Taproot hano kigarukira ku rufunguzo rumwe rwa bose rw'imbere `P`.
+Ikimenyamenya c'uko bijamwo vyose, hamwe n'ukwisa kw'igiti ca taproot hano kigarukira ku rufunguzo rumwe rwa bose rw'imbere `P`.
 
 
 #### Ukwinjiza Tapret mu nzira y'inyandiko yariho kera
@@ -995,7 +995,7 @@ Igishushanyo ca kabiri kijanye n'igisohoka `Q` **Taproot** gikomeye cane, gisanz
 - `A, B, C` zigereranya inyandiko zisanzwe ziri mu ntumbero ya Taproot.
 
 
-Kugira ngo twongereko Tapret Commitment, dukeneye kwinjiza *inyandiko idakoreshwa* ku rugero rwa mbere rw'igiti, tugahindura inyandiko zisanzwe zihari urugero rumwe hasi. Mu mashusho, igiti gica kiba:
+Kugira ngo twongereko ukwiyemeza kwa Tapret, dukeneye kwinjiza *inyandiko zidakoreshwa* ku rugero rwa mbere rw'igiti, tugahindura inyandiko zisanzwe zihari urugero rumwe hasi. Mu mashusho, igiti gica kiba:
 
 
 ![RGB-Bitcoin](assets/en/050.webp)

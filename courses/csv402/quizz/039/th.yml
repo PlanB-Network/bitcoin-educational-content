@@ -1,0 +1,9 @@
+question: คำสั่งใดที่ใช้ส่งออกสัญญาจาก stash ไปยังไฟล์ภายนอก?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - ดาวน์โหลด rgb '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - ปัญหา rgb '<ContractId>' myContractPBN.rgb
+explanation: |
+  คำสั่ง "rgb export" ใช้เพื่อดึงสัญญาจากคลังและบันทึกเป็นไฟล์เพื่อการแชร์ที่ง่ายขึ้น
+reviewed: false

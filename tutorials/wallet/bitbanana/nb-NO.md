@@ -338,8 +338,8 @@ BitBanana er helt suverent, og samler ikke inn data og kompromitterer verken kon
 
 
 - [BitBananas nettsted](https://bitbanana.app)
-- [Fullstendig dokumentasjon] (https://docs.bitbanana.app)
-- [GitHub-kildekode] (https://github.com/michaelWuensch/BitBanana)
+- [Fullstendig dokumentasjon](https://docs.bitbanana.app)
+- [GitHub-kildekode](https://github.com/michaelWuensch/BitBanana)
 
 
 
@@ -348,5 +348,5 @@ BitBanana er helt suverent, og samler ikke inn data og kompromitterer verken kon
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
+- [Google Play Store](https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
 - [F-Cold](https://f-droid.org/packages/app.michaelwuensch.bitbanana)

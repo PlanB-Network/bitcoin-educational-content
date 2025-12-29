@@ -1,0 +1,8 @@
+question: Miksi tekstissä väitetään, että sortojärjestelmä on parempi kuin ennaltaehkäisevä järjestelmä, kun työvapautta toteutetaan?
+answer: Tukahduttava järjestelmä rankaisee todellisista väärinkäytöksistä ja toisten oikeuksien todellisista loukkauksista sen sijaan, että se rajoittaisi kaikkien toimintaa etukäteen
+wrong_answers:
+  - Tukahduttava järjestelmä luo voimakkaampia pelotevaikutuksia ankarampien rangaistusten avulla, jotka estävät mahdolliset rikkomukset ennen niiden tapahtumista
+  - Sortojärjestelmä mahdollistaa paremman koordinoinnin eri ammattialojen välillä keskitettyjen valvonta- ja tarkastusmekanismien avulla
+  - Sortojärjestelmä tuottaa enemmän verotuloja julkisiin palveluihin määräämällä sakkoja ja rangaistuksia niille, jotka rikkovat säännöksiä
+explanation: |
+  Tekstissä todetaan nimenomaisesti, että työvapauden tunnustaminen merkitsee sitä, että tunnustetaan, että sortojärjestelmä, joka rankaisee todellisista väärinkäytöksistä ja toisten oikeuksien tosiasiallisista loukkauksista, on parempi kuin ennaltaehkäisevä järjestelmä, joka a priori estää kaikkien toiminnan. Ennaltaehkäisevä järjestelmä valvoo kaikkia ammatissa toimivia henkilöitä sillä verukkeella, että jotkut saattavat syyllistyä väärinkäytöksiin, kun taas sortojärjestelmä toimii vasta, kun todellista vahinkoa tapahtuu. Tämä lähestymistapa kunnioittaa yksilönvapautta, koska se ei rajoita kaikkia hypoteettisten tulevien rikkomusten perusteella, vaan puuttuu vain konkreettisiin rikkomuksiin, kun niitä todella tapahtuu.

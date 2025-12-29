@@ -1,0 +1,9 @@
+question: RFC 6724
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 กำหนดอัลกอริทึมที่ใช้ในการตัดสินใจว่าจะใช้ที่อยู่ IPv4 หรือ IPv6 เมื่อมีทั้งสองอย่างสำหรับชื่อโฮสต์เดียวกัน
+reviewed: false

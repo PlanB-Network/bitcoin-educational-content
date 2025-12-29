@@ -1,0 +1,8 @@
+question: Liberaalin ajattelun mukaan mikä perustavanlaatuinen ero määrittää sen, mitkä valtion toiminnot olisi säilytettävä ja mitkä poistettava?
+answer: Oikeusvaltioperiaatteen luomiseen, yksilön oikeuksien suojeluun ja sopimusten täytäntöönpanoon tarvittavat toiminnot verrattuna toimintoihin, jotka voidaan hoitaa yksityisellä aloitteella ja markkinamekanismeilla
+wrong_answers:
+  - Rikkaan eliitin hyödyttävät toiminnot verrattuna toimintoihin, jotka palvelevat työväenluokkaa ja muita heikommassa asemassa olevia väestöryhmiä
+  - Kansallisella tasolla suoritettavat tehtävät verrattuna tehtäviin, jotka olisi hajautettava alue- ja paikallishallinnolle
+  - Toiminnot, joista valtio saa generate-tuloja, ja toiminnot, jotka edellyttävät julkisia menoja ja verotusta
+explanation: |
+  Liberalistisessa teoriassa erotetaan toisistaan välttämättömät valtion tehtävät (oikeusvaltio, oikeus, sopimusten täytäntöönpano, yksilön oikeuksien suojelu) ja ylimääräiset tehtävät, jotka voidaan hoitaa yksityisyrittäjyyden, vapaaehtoisen yhdistymisen ja markkinoiden koordinoinnin avulla. Muut vaihtoehdot vääristelevät liberaalien prioriteetteja: kyse ei ole luokkien etuoikeuksista vaan institutionaalisesta tehokkuudesta; kyse ei ole keskittämisestä tai hajauttamisesta vaan valtion tai yksityisen toiminnasta; kyse ei ole tulojen tuottamisesta vaan laillisista tai laittomista valtion tehtävistä.

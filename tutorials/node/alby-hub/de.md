@@ -47,7 +47,7 @@ Dieses Tutorial konzentriert sich hauptsächlich auf die Schnittstelle, die unab
 
 ![ALBY HUB](assets/fr/02.webp)
 
-Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend Ihrem Betriebssystem herunter und installieren Sie sie] (https://github.com/getAlby/hub/releases), und folgen Sie dann den Anweisungen auf der Benutzeroberfläche.
+Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend Ihrem Betriebssystem herunter und installieren Sie sie](https://github.com/getAlby/hub/releases), und folgen Sie dann den Anweisungen auf der Benutzeroberfläche.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ Für eine lokale Installation auf Ihrem PC, [laden Sie die Software entsprechend
 
 Der erste Schritt besteht darin, ein Alby-Konto zu erstellen. Dies ist zwar für die Nutzung von Alby Hub nicht unbedingt erforderlich, aber es ermöglicht Ihnen, alle verfügbaren Optionen zu nutzen, einschließlich der Möglichkeit, eine Lightning-Adresse zu erhalten.
 
-Gehen Sie auf [die offizielle Alby-Website] (https://getalby.com/) und klicken Sie auf die Schaltfläche "*Konto erstellen*".
+Gehen Sie auf [die offizielle Alby-Website](https://getalby.com/) und klicken Sie auf die Schaltfläche "*Konto erstellen*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -272,12 +272,12 @@ In diesem Tutorial empfehle ich Ihnen, sich für Alby Go zu entscheiden, das seh
 Um Alby Go zu installieren, rufen Sie den Anwendungsspeicher Ihres Geräts auf:
 
 
-- [Für Android] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [Für Apple] (https://apps.apple.com/us/app/alby-go/id6471335774).
+- [Für Android](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Für Apple](https://apps.apple.com/us/app/alby-go/id6471335774).
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Android-Benutzer können die App auch über die `.apk`-Datei [verfügbar auf Alby's GitHub] (https://github.com/getAlby/go/releases) installieren.
+Android-Benutzer können die App auch über die `.apk`-Datei [verfügbar auf Alby's GitHub](https://github.com/getAlby/go/releases) installieren.
 
 ![ALBY HUB](assets/fr/45.webp)
 

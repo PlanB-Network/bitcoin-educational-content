@@ -165,6 +165,11 @@ proofreading:
     contributor_names:
       - dnabg
     reward: 11.75
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.35
 tags:
   - business
   - adoption

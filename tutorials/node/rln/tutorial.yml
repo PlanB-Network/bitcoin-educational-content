@@ -83,13 +83,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.1
+    reward: 12.05
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 5.05
+    reward: 5.03
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -116,7 +116,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.1
+    reward: 10.06
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -136,7 +136,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.1
+    reward: 10.06
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -152,6 +152,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.1
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.06
 tags:
   - lightning
   - node

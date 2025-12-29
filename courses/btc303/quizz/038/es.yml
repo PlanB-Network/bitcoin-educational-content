@@ -6,4 +6,3 @@ wrong_answers:
   - Una soft fork puede aplicarse en secreto en los commits, mientras que una hard fork requiere un anuncio público
 explanation: |
   El capítulo define claramente los tipos de compatibilidad: la compatibilidad hacia delante permite al software antiguo procesar datos nuevos ignorando las partes desconocidas, mientras que la compatibilidad hacia atrás permite al software nuevo procesar datos antiguos. Una fork blanda mantiene ambos tipos de compatibilidad, por lo que es totalmente compatible. Una hard fork sólo mantiene la compatibilidad hacia atrás, lo que significa que el software nuevo puede procesar datos antiguos, pero el antiguo no puede procesar datos nuevos del sistema actualizado. Esta distinción es crucial para entender los mecanismos de actualización de Bitcoin y por qué se prefieren las bifurcaciones suaves para mantener la armonía de la red.
-reviewed: false

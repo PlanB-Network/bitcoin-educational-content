@@ -230,7 +230,7 @@ objectives:
 
 
 
-Пиер Льо Пезан дьо Боагилбер е роден в Руан през 1646 г. Получава образование в Порт Роаял в Париж и започва неуспешна литературна кариера, след което заема различни длъжности, включително генерал-лейтенант на Руан. По това време той написва няколко книги, в които защитава идеите си, сред които "Détail de la France" през 1695 г., която преиздава през следващата година с много по-ясно заглавие: [Франция, разрушена при управлението на Луи XIV, от кого и как, със средствата за нейното възстановяване](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up).
+(Пиер Льо Пезан дьо) Боагилбер е роден в Руан през 1646 г. Получава образование в Порт Роаял в Париж и започва неуспешна литературна кариера, след което заема различни длъжности, включително генерал-лейтенант на Руан. По това време той написва няколко книги, в които защитава идеите си, сред които "Détail de la France" през 1695 г., която преиздава през следващата година с много по-ясно заглавие: [*Франция, разрушена при управлението на Луи XIV, от кого и как, със средствата за нейното възстановяване](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
 ![image](assets/en/013.webp)
@@ -568,7 +568,7 @@ objectives:
 
 
 
-- Есето на Ербер [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 издания за 4 години)
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 издания за 4 години)
 
 
 ![image](assets/en/033.webp)
@@ -582,12 +582,12 @@ objectives:
 
 
 - Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 издания през първата година)
-- [Мемоари за търговията на Клико Блерваш и Гурнe](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 издания през 1758 г.)
+- Мемоари за търговията на Клико Блерваш и Гурнай (https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 издания през 1758 г.)
 
 Групата играе ключова роля и в публикуването на
 
 
-- [Есе за естеството на търговията като цяло](https://archive.org/details/essayonnatureofc0000cant) от Ришар Кантийон.
+- [Есе за естеството на търговията като цяло](https://archive.org/details/essayonnatureofc0000cant) by Richard Cantillon.
 
 
 ![image](assets/en/034.webp)
@@ -1459,7 +1459,7 @@ objectives:
 Между 1774 и 1776 г., по време на управлението на Турго, Кондорсе прави многобройни интервенции, всички белязани от неговата привързаност към Лесе-фер принципа. Сред произведенията му са: "Letters from a Farmer of Picardy to Mr. Necker", в които защитава свободната търговия; "Monopolies and Monopolists", в които се застъпва за свободната конкуренция; "Reflections on Corvées", в които призовава за тяхното премахване, и "Reflections on the Grain Trade", в които отново се възхвалява свободната търговия и се критикува книгата на Некер по същата тема.
 
 
-В своите [*Reflections on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) Кондорсе изтъква няколко основни положения.
+В своите [*Писма за търговията със зърно*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) Кондорсе изтъква няколко основни положения.
 
 
 ![image](assets/en/089.webp)

@@ -6,4 +6,4 @@ wrong_answers:
   - ip route show
 explanation: |
   Komanda "ip addr show" prikazuje sve mrežne interfejse, zajedno sa njihovim statusom, adresama i povezanim parametrima.
-reviewed: false
+reviewed: true

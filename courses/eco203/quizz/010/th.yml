@@ -1,0 +1,9 @@
+question: ผู้เขียนคนใดที่มีความรับผิดชอบหลักต่อการศึกษาด้านเศรษฐศาสตร์ของ Frédéric Bastiat?
+answer: พูด
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat ถือว่า Jean-Baptiste Say เป็นอิทธิพลสำคัญ โดยเฉพาะในด้านแนวคิดเกี่ยวกับมูลค่าและการค้าเสรี
+reviewed: false

@@ -77,7 +77,7 @@ Chaguo la picha ya Debian inategemea usanifu wa processor yako:
 
 
 
-- **AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
 - **ARM64**: pata picha ya DVD kutoka kwa tovuti rasmi ya [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
 - **Usanifu mwingine**: pata ISO inayolingana na usanifu wako [hapa](https://debian.obspm.fr/debian-cd/12.11.0/).
 

@@ -1,0 +1,8 @@
+question: Según el análisis de Paul Leroy-Beaulieu de 1883, ¿cómo adquieren normalmente los sistemas colectivistas las innovaciones tecnológicas y de procedimiento?
+answer: Copian las innovaciones desarrolladas externamente por las sociedades de libre mercado, ya que no pueden generate innovación interna
+wrong_answers:
+  - Desarrollan innovaciones a través de comités de investigación centralizados que coordinan el avance científico
+  - Crean innovaciones poniendo en común los conocimientos colectivos y eliminando las barreras competitivas a la colaboración
+  - generate innovaciones a través de instituciones financiadas por el Estado que centran sus recursos en la mejora sistemática
+explanation: |
+  Paul Leroy-Beaulieu predijo que los sistemas colectivistas serían estructuralmente incapaces de innovación interna debido a su naturaleza burocrática y a la falta de incentivos individuales. Anticipó correctamente que las sociedades comunistas se basarían en copiar las innovaciones de las sociedades libres en lugar de generar las suyas propias, ya que la ausencia de mecanismos de recompensa personal y la rigidez de los marcos reguladores impiden la asunción de riesgos y la iniciativa creativa necesarias para una auténtica innovación.

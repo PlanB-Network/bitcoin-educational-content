@@ -26,7 +26,7 @@ Start9 on vuonna 2020 perustettu yritys, joka tunnetaan parhaiten [**StartOS**,]
 ### Mitä vaihtoehtoja on tarjolla?
 
 
-Start9 tarjoaa sekä valmiiksi rakennettuja että DIY-käyttöönottovaihtoehtoja. [**Server One**] (https://store.start9.com/collections/servers/products/server-one) ja [**Server Pure** ](https://store.start9.com/collections/servers/products/server-pure) ovat virallisia laitteistoja, joissa on suorituskykyisiä komponentteja: Server One käyttää **AMD Ryzen 7 5825U** -suoritinta, jossa on konfiguroitavissa olevaa RAM-muistia (16GB-64GB) ja tallennustilaa (2TB-4TB NVMe SSD), kun taas Server Pure on varustettu **Intel i7-10710U** -prosessorilla, jossa on niin ikään konfiguroitavissa olevaa RAM-muistia ja tallennustilaa. Molempiin sisältyy **elinikäinen tekninen tuki**, kun ne ostetaan suoraan Start9:ltä. Käyttäjät, jotka haluavat joustavuutta, voivat asentaa StartOS:n ilmaiseksi monenlaiseen olemassa olevaan laitteistoon, kuten kannettaviin tietokoneisiin, pöytätietokoneisiin, mini-PC:hen ja yhden piirilevyn tietokoneisiin, tai VM-tietokoneisiin.
+Start9 tarjoaa sekä valmiiksi rakennettuja että DIY-käyttöönottovaihtoehtoja. [**Server One**](https://store.start9.com/collections/servers/products/server-one) ja [**Server Pure** ](https://store.start9.com/collections/servers/products/server-pure) ovat virallisia laitteistoja, joissa on suorituskykyisiä komponentteja: Server One käyttää **AMD Ryzen 7 5825U** -suoritinta, jossa on konfiguroitavissa olevaa RAM-muistia (16GB-64GB) ja tallennustilaa (2TB-4TB NVMe SSD), kun taas Server Pure on varustettu **Intel i7-10710U** -prosessorilla, jossa on niin ikään konfiguroitavissa olevaa RAM-muistia ja tallennustilaa. Molempiin sisältyy **elinikäinen tekninen tuki**, kun ne ostetaan suoraan Start9:ltä. Käyttäjät, jotka haluavat joustavuutta, voivat asentaa StartOS:n ilmaiseksi monenlaiseen olemassa olevaan laitteistoon, kuten kannettaviin tietokoneisiin, pöytätietokoneisiin, mini-PC:hen ja yhden piirilevyn tietokoneisiin, tai VM-tietokoneisiin.
 
 
 ![image](assets/en/01.webp)
@@ -49,7 +49,7 @@ Peruskäyttöön, jossa on vain vähän palveluja, **minimiarvot** ovat seuraava
 ## 3️⃣ Lataa ja flashaa laiteohjelmisto
 
 
-Aloita asennus erillisellä tietokoneella [Start9-sivustolla] (https://start9.com/) ja siirry dokumentaatio-osioon napsauttamalla `DOCS`. Sieltä löydät sopivan StartOS-version kohdasta `Flashing Guides`. Käytettävissä on kaksi vaihtoehtoa:
+Aloita asennus erillisellä tietokoneella [Start9-sivustolla](https://start9.com/) ja siirry dokumentaatio-osioon napsauttamalla `DOCS`. Sieltä löydät sopivan StartOS-version kohdasta `Flashing Guides`. Käytettävissä on kaksi vaihtoehtoa:
 
 
 
@@ -75,7 +75,7 @@ StartOS-kuvan lataamisen ja tarkistamisen jälkeen se on siirrettävä USB-asema
 ## 4️⃣ Alkuasetukset
 
 
-Katso alkuasetukset Start9 [documentation] (https://docs.start9.com/0.3.5.x/) -sivulta kohdasta `USER MANUAL` ja sen jälkeen kohdasta `Getting Started - Initial Setup`.  Tässä virallisessa oppaassa on oltava uusimmat tiedot.
+Katso alkuasetukset Start9 [documentation](https://docs.start9.com/0.3.5.x/) -sivulta kohdasta `USER MANUAL` ja sen jälkeen kohdasta `Getting Started - Initial Setup`.  Tässä virallisessa oppaassa on oltava uusimmat tiedot.
 
 
 Esitetään kaksi vaihtoehtoa:

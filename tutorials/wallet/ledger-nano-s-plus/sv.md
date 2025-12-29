@@ -70,7 +70,7 @@ Vid öppnandet bör du hitta följande föremål i lådan:
 - Kort för att skriva ner din Mnemonic-fras.
 
 
-För denna handledning behöver du 2 programvaruapplikationer: Ledger Live för att initiera Ledger, och Sparrow wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live] (https://www.Ledger.com/Ledger-live) och [Sparrow wallet] (https://sparrowwallet.com/download/) från deras officiella webbplatser.
+För denna handledning behöver du 2 programvaruapplikationer: Ledger Live för att initiera Ledger, och Sparrow wallet för att hantera din Bitcoin Wallet. Ladda ner [Ledger Live](https://www.Ledger.com/Ledger-live) och [Sparrow wallet](https://sparrowwallet.com/download/) från deras officiella webbplatser.
 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)

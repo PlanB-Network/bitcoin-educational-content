@@ -499,8 +499,8 @@ Specter Desktop demokratiserar avancerade Bitcoin-konfigurationer och gör multi
 
 
 - [Specter Desktop officiella webbplats](https://specter.solutions/desktop/)
-- [GitHub-källkod] (https://github.com/cryptoadvance/specter-desktop)
-- [Komplett dokumentation] (https://docs.specter.solutions/)
+- [GitHub-källkod](https://github.com/cryptoadvance/specter-desktop)
+- [Komplett dokumentation](https://docs.specter.solutions/)
 
 
 
@@ -509,6 +509,6 @@ Specter Desktop demokratiserar avancerade Bitcoin-konfigurationer och gör multi
 
 
 
-- [Telegram Specter Community Group] (https://t.me/spectersupport)
+- [Telegram Specter Community Group](https://t.me/spectersupport)
 - [Reddit diskussionsforum](https://reddit.com/r/specterdesktop/)
-- [GitHub buggrapporter] (https://github.com/cryptoadvance/specter-desktop/issues)
+- [GitHub buggrapporter](https://github.com/cryptoadvance/specter-desktop/issues)

@@ -681,7 +681,7 @@ No Graylog, clique em "**Sistema**" no menu e, em seguida, em "**Índices**". Na
 
 
 
-Dê um nome a este índice, por exemplo "**Linux Index**", adicione uma descrição e um prefixo, antes de confirmar. Aqui, vamos **armazenar todos os registos do Linux neste índice**. Também é possível criar índices específicos para armazenar apenas determinados registos (apenas registos [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), registos de serviços Web, etc.).
+Dê um nome a este índice, por exemplo "**Linux Index**", adicione uma descrição e um prefixo, antes de confirmar. Aqui, vamos **armazenar todos os registos do Linux neste índice**. Também é possível criar índices específicos para armazenar apenas determinados registos (apenas registos [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), registos de serviços Web, etc.).
 
 
 

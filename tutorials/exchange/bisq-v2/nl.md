@@ -122,7 +122,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 ### 2. Installatie volgens uw systeem
 
 
-Volg de installatiestappen die geschikt zijn voor uw besturingssysteem. Als u problemen ondervindt tijdens de installatie, kunt u de gedetailleerde handleiding raadplegen op de [officiële Bisq wiki] (https://bisq.wiki/Downloading_and_installing).
+Volg de installatiestappen die geschikt zijn voor uw besturingssysteem. Als u problemen ondervindt tijdens de installatie, kunt u de gedetailleerde handleiding raadplegen op de [officiële Bisq wiki](https://bisq.wiki/Downloading_and_installing).
 
 
 ### 3. Eerste opstart
@@ -180,7 +180,7 @@ Het vooraf configureren van betaalmethoden is optioneel, maar wordt aanbevolen o
 **Data back-up:**
 
 
-In tegenstelling tot Bisq 1 is er in Bisq 2 momenteel geen Bitcoin Wallet geïntegreerd: transacties worden dus uitgevoerd via uw eigen externe portemonnees. Desondanks raden we u aan regelmatig een back-up te maken van uw Bisq 2-gegevensmap. Raadpleeg de [officiële Bisq wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) om uw gegevensmap te vinden.
+In tegenstelling tot Bisq 1 is er in Bisq 2 momenteel geen Bitcoin Wallet geïntegreerd: transacties worden dus uitgevoerd via uw eigen externe portemonnees. Desondanks raden we u aan regelmatig een back-up te maken van uw Bisq 2-gegevensmap. Raadpleeg de [officiële Bisq wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) om uw gegevensmap te vinden.
 
 
 **Identiteitsbeheer:**

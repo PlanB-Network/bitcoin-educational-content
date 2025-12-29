@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.27
+    reward: 5.21
   - language: et
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.36
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -114,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.36
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -134,7 +134,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 4.36
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -150,6 +150,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.55
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
 tags:
   - protocols
   - user-friendly

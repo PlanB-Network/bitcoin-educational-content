@@ -7,7 +7,7 @@ description: Um nó Bitcoin de código aberto para privacidade e autonomia
 
 
 
-*Este tutorial é baseado na [documentação oficial do Ashigaru] (https://ashigaru.rs/docs/), que eu assumi e expandi. Reescrevi todas as secções para melhorar a clareza, acrescentei explicações mais detalhadas, bem como ilustrações para principiantes, para tornar a instalação e a utilização mais fáceis de compreender.*
+*Este tutorial é baseado na [documentação oficial do Ashigaru](https://ashigaru.rs/docs/), que eu assumi e expandi. Reescrevi todas as secções para melhorar a clareza, acrescentei explicações mais detalhadas, bem como ilustrações para principiantes, para tornar a instalação e a utilização mais fáceis de compreender.*
 
 
 
@@ -140,7 +140,7 @@ A partir de um computador já em funcionamento (a sua máquina habitual), descar
 
 
 
-Insira uma chave USB de pelo menos 8 GB neste computador e, em seguida, crie uma chave de arranque utilizando software como o [Balena Etcher] (https://etcher.balena.io/). Selecione a imagem ISO do Ubuntu que acabou de descarregar, escolha a chave USB como dispositivo de destino e, em seguida, inicie o processo de criação (seja paciente, pode demorar alguns minutos).
+Insira uma chave USB de pelo menos 8 GB neste computador e, em seguida, crie uma chave de arranque utilizando software como o [Balena Etcher](https://etcher.balena.io/). Selecione a imagem ISO do Ubuntu que acabou de descarregar, escolha a chave USB como dispositivo de destino e, em seguida, inicie o processo de criação (seja paciente, pode demorar alguns minutos).
 
 
 
@@ -1103,7 +1103,7 @@ A Ferramenta de Manutenção Dojo é um Interface seguro, baseado na web, que pe
 
 
 
-Para aceder a ele, é necessário conhecer o URL do seu DMT e ligar-se a ele [através do navegador Tor] (https://www.torproject.org/download/). Para fazer isso, abra um terminal e vá para o diretório `/my-dojo`:
+Para aceder a ele, é necessário conhecer o URL do seu DMT e ligar-se a ele [através do navegador Tor](https://www.torproject.org/download/). Para fazer isso, abra um terminal e vá para o diretório `/my-dojo`:
 
 
 
@@ -1422,7 +1422,7 @@ Se já estiver ligado ao seu DMT, pode também encontrar este Address no menu "*
 
 
 
-Para aceder ao seu navegador a partir de qualquer máquina em qualquer rede (mesmo remotamente), abra o [Navegador Tor] (https://www.torproject.org/download/) e introduza o URL que acabou de obter.
+Para aceder ao seu navegador a partir de qualquer máquina em qualquer rede (mesmo remotamente), abra o [Navegador Tor](https://www.torproject.org/download/) e introduza o URL que acabou de obter.
 
 
 
@@ -1501,7 +1501,7 @@ cd ~/dojo-app/docker/my-dojo
 
 
 
-O Dojo evolui regularmente e são lançadas novas versões para corrigir erros, melhorar a estabilidade e adicionar funcionalidades. Por conseguinte, é importante [verificar regularmente se existem actualizações] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) e atualizar o seu Dojo. O processo é semelhante ao da instalação inicial, mas requer a substituição de determinados ficheiros pela versão mais recente disponível, mantendo a sua configuração. Aqui estão os passos detalhados a seguir para uma atualização limpa e segura:
+O Dojo evolui regularmente e são lançadas novas versões para corrigir erros, melhorar a estabilidade e adicionar funcionalidades. Por conseguinte, é importante [verificar regularmente se existem actualizações](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) e atualizar o seu Dojo. O processo é semelhante ao da instalação inicial, mas requer a substituição de determinados ficheiros pela versão mais recente disponível, mantendo a sua configuração. Aqui estão os passos detalhados a seguir para uma atualização limpa e segura:
 
 
 
@@ -1567,7 +1567,7 @@ cd ~/
 
 
 
-Baixe a última versão do Dojo do GitHub via Tor. Neste exemplo, é a versão `1.28.0` (que ainda não existe no momento da escrita: isto é apenas para dar um exemplo). Lembre-se de substituir o arquivo e o link [com a versão que deseja instalar] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
+Baixe a última versão do Dojo do GitHub via Tor. Neste exemplo, é a versão `1.28.0` (que ainda não existe no momento da escrita: isto é apenas para dar um exemplo). Lembre-se de substituir o arquivo e o link [com a versão que deseja instalar](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

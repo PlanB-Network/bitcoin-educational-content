@@ -14,9 +14,9 @@ description: Mwongozo wa kusanidi kwa Specter DIY
 *Manifesto ya Cypherpunk - Eric Hughes - 9 Machi 1993*
 
 
-Wazo la mradi ni kujenga vifaa vya wallet kutoka kwa vipengele vya nje ya rafu.
+Wazo la project hii ni kujenga hardware wallets kutoka kwa vipengele vya nje ya rafu.
 
-Ijapokuwa tuna ubao wa upanuzi ambao huweka kila kitu katika hali nzuri na kukusaidia kuzuia kutengenezea, tutaendelea kusaidia na kudumisha upatanifu na vipengee vya kawaida.
+Ijapokuwa tuna ubao wa upanuzi ambao huweka kila kitu katika mpangilio mzuri na kukusaidia kuzuia uchomeleaji, tutaendelea kusaidia na kudumisha upatanifu na vipengee vya kawaida.
 
 
 ![image](assets/fr/01.webp)
@@ -28,10 +28,9 @@ Pia tunataka kuweka mradi kuwa rahisi ili uweze kufanya kazi kwenye seti nyingin
 Misimbo ya QR ni njia chaguomsingi ya Specter kuwasiliana na mwenyeji. Misimbo ya QR ni rahisi sana na huruhusu mtumiaji kudhibiti utumaji data - kila msimbo wa QR una uwezo mdogo sana na mawasiliano hufanyika moja kwa moja. Na ni airgapped - huna haja ya kuunganisha wallet kwa kompyuta wakati wowote.
 
 
-Kwa hifadhi ya siri tunaauni hali ya agnostic (wallet husahau siri zote inapozimwa), hali ya kutojali (huhifadhi siri katika flash ya kidhibiti kidogo cha programu) na ushirikiano wa secure element unakuja hivi karibuni.
+Kwa hifadhi ya siri, tunaauni hali ya agnostic (wallet husahau siri zote inapozimwa), hali isiyohifadhi (huhifadhi siri katika flash ya kidhibiti kidogo cha programu) na ushirikiano wa secure element unakuja hivi karibuni.
 
-
-Lengo letu kuu ni kuweka saini nyingi na pochi zingine za maunzi, lakini wallet pia inaweza kufanya kazi kama mtu aliyetia sahihi moja. Tunajaribu kuifanya ilingane na Bitcoin Core ambapo tunaweza - PSBT kwa miamala ambayo haijasainiwa, vielezi vya wallet vya kuagiza/kusafirisha pochi nyingi. Ili kuwasiliana na Bitcoin Core kwa urahisi zaidi pia tunashughulikia [programu ya Eneo-kazi la Specter](https://github.com/cryptoadvance/specter-desktop) - seva ndogo ya chupa ya chatu inayozungumza na nodi yako ya Bitcoin Core.
+Lengo letu kuu ni kuweka saini nyingi na hardware wallets zingine, lakini wallet pia inaweza kufanya kazi kama mtu aliyetia sahihi moja. Tunajaribu kuifanya ilingane na Bitcoin Core ambapo tunaweza - PSBT kwa miamala ambayo haijasainiwa, vielezi vya wallet vya kuagiza/kusafirisha wallets nyingi. Ili kuwasiliana na Bitcoin Core kwa urahisi zaidi pia tunashughulikia [programu ya Eneo-kazi la Specter](https://github.com/cryptoadvance/specter-desktop) - seva ndogo ya chupa ya chatu inayozungumza na node yako ya Bitcoin Core.
 
 
 Firmware nyingi zimeandikwa katika MicroPython ambayo inafanya msimbo kuwa rahisi kukagua na kubadilisha. Tunatumia maktaba ya [secp256k1](https://github.com/bitcoin-core/secp256k1) kutoka Bitcoin Core kwa hesabu za curve duaradufu na [LittlevGL](https://lvgl.io/) maktaba ya GUI.
@@ -40,8 +39,7 @@ Firmware nyingi zimeandikwa katika MicroPython ambayo inafanya msimbo kuwa rahis
 ## Kanusho
 
 
-Mradi umekomaa kwa kiasi kikubwa, kwa kiwango ambacho kiwango cha usalama cha Specter-DIY sasa kinalinganishwa na pochi za vifaa vya kibiashara kwenye soko. Tulitekeleza programu salama ya bootloader ambayo inathibitisha uboreshaji wa programu dhibiti, kwa hivyo unaweza kuwa na uhakika kwamba programu dhibiti iliyotiwa sahihi pekee ndiyo inaweza kupakiwa kwenye kifaa baada ya usanidi wa awali. Hata hivyo, tofauti na vifaa vya kutia sahihi vya kibiashara, kipakiaji kisimamizi lazima kisakinishwe na mtumiaji na hakijawekwa katika kiwanda cha mchuuzi wa kifaa. Kwa hivyo, zingatia zaidi wakati wa usakinishaji wa programu dhibiti wa awali na uhakikishe kuwa umethibitisha saini za PGP na uwashe programu dhibiti kutoka kwa kompyuta salama.
-
+Project imekomaa kwa kiasi kikubwa, kwa kiwango ambacho kiwango cha security cha Specter-DIY sasa kinalinganishwa na hardware wallets za kibiashara kwenye soko. Tulitekeleza secure bootloader ambayo inathibitisha firmware upgrade, kwa hivyo unaweza kuwa na uhakika kwamba firmware iliyotiwa saini pekee ndiyo inaweza kupakiwa kwenye kifaa baada ya usanidi wa awali. Hata hivyo, tofauti na vifaa vya signing vya kibiashara, bootloader lazima isakinishwe na mtumiaji na haijawekwa katika kiwanda cha mchuuzi wa kifaa. Kwa hivyo, zingatia zaidi wakati wa usakinishaji wa firmware ya awali na uhakikishe kuwa umethibitisha saini za PGP na uwashe firmware kutoka kwa kompyuta salama.
 
 Ikiwa kitu hakitafanikiwa fungua tatizo hapa au uulize swali katika [kundi letu la Telegramu](https://t.me/+VEinVSYkW5TUl5Ai).
 
@@ -60,17 +58,17 @@ Sehemu kuu ya kifaa ni bodi ya wasanidi programu:
 
 
 - Bodi ya wasanidi wa STM32F469I-DISCO (yaani kutoka kwa [Mouser](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) au [Digikey](https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F469I-DISCO/497-15990-ND/5428811))
-- Kebo ndogo ** USB
+- Kebo ndogo USB
 - Kebo ya kawaida ya MicroUSB ili kuwasiliana kupitia USB
 
 
 Hiari lakini inapendekezwa:
 
 
-- [Waveshare kichanganuzi cha msimbo wa QR](https://www.waveshare.com/barcode-scanner-module.htm) chenye vichwa virefu vya pini kama vile [hizi](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) au [hizi](https://www.amazon.com/gp/product/B015KA0RRU/) ili kuunganisha kichanganuzi kwenye ubao (vichwa 4 vya pini vinahitajika).
+- [Waveshare kichanganuzi cha msimbo wa QR](https://www.waveshare.com/barcode-scanner-module.htm) chenye vichwa virefu vya pin kama vile [hizi](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) au [hizi](https://www.amazon.com/gp/product/B015KA0RRU/) ili kuunganisha kichanganuzi kwenye ubao (vichwa 4 vya pini vinahitajika).
 
 
-Kwa sasa tunafanyia kazi ubao wa kiendelezi unaojumuisha nafasi ya smartcard, kichanganuzi cha msimbo wa QR, betri na kipochi cha 3d, lakini haijumuishi sehemu kuu - ubao wa uvumbuzi ambao unahitaji kuagiza kando. Kwa njia hii shambulio la mnyororo wa usambazaji bado sio suala kwani vipengee muhimu vya usalama hununuliwa kutoka kwa duka la kielektroniki la nasibu.
+Kwa sasa tunafanyia kazi expansion board inayojumuisha nafasi ya smartcard, QR code scanner, betri na 3D case, lakini haijumuishi sehemu kuu - discovery board ambayo unahitaji kuagiza kando. Kwa njia hii, supply chain attack bado si suala kwani vipengee muhimu vya security hununuliwa kutoka kwa duka la kielektroniki la nasibu.
 
 
 Unaweza kuanza kutumia Specter hata bila vijenzi vyovyote vya ziada, lakini utaweza kuwasiliana nayo kupitia USB au sehemu ya kadi ya SD iliyojengewa ndani. Kutumia Specter juu ya USB inamaanisha kuwa haijawekwa hewani kwa hivyo unapoteza mali muhimu ya usalama.
@@ -144,7 +142,7 @@ Kwa urahisi unaweza kununua ngao ya Protype ya Arduino na solder na kuweka kila 
 ### Usimamizi wa nguvu
 
 
-Kwenye upande wa juu wa ubao kuna jumper ambayo inafafanua ambapo itachukua nguvu. Unaweza kubadilisha nafasi ya kirukaji na uchague chanzo cha nishati kuwa mojawapo ya milango ya USB au pini ya VIN na uunganishe betri ya nje hapo (inapaswa kuwa 5V).
+Kwenye upande wa juu wa ubao kuna jumper ambayo inafafanua ambapo itachukua nguvu. Unaweza kubadilisha nafasi ya kirukaji na uchague chanzo cha nishati kuwa mojawapo ya milango ya USB au pin ya VIN na uunganishe betri ya nje hapo (inapaswa kuwa 5V).
 
 
 ### Sehemu ya ndani ya DIY
@@ -167,7 +165,7 @@ Angalia [Nyumba ya sanaa](https://github.com/cryptoadvance/specter-diy/blob/mast
 ## Inasakinisha msimbo uliokusanywa
 
 
-Pamoja na salama bootloader ufungaji wa awali wa firmware ni tofauti kidogo. Uboreshaji ni rahisi na hauhitaji kuunganisha maunzi wallet kwenye kompyuta.
+Pamoja na salama bootloader ufungaji wa awali wa firmware ni tofauti kidogo. Uboreshaji ni rahisi na hauhitaji kuunganisha hardware wallet kwenye kompyuta.
 
 
 ![video](https://youtu.be/eF4cgK_L6T4)
@@ -182,7 +180,7 @@ Pamoja na salama bootloader ufungaji wa awali wa firmware ni tofauti kidogo. Ubo
 
 - Ikiwa unasasisha kutoka matoleo yaliyo chini ya `1.4.0` au unapakia programu dhibiti kwa mara ya kwanza, tumia `initial_firmware_<version>.bin` kutoka kwa ukurasa wa [releases](https://github.com/cryptoadvance/specter-diy/releases).
  - Thibitisha saini ya faili ya `sha256.signed.txt` dhidi ya [ufunguo wa PGP wa Stepan](https://stepansnigirev.com/ss-specter-release.asc)
- - Thibitisha heshi ya `initial_firmware_<version>.bin` dhidi ya heshi iliyohifadhiwa katika `sha256.signed.txt`
+ - Thibitisha hash ya `initial_firmware_<version>.bin` dhidi ya hash iliyohifadhiwa katika `sha256.signed.txt`
 - Ikiwa unasasisha kutoka kwa bootloader tupu au unaona ujumbe wa hitilafu ya bootloader kwamba programu dhibiti si halali, angalia sehemu inayofuata - Firmware ya Specter iliyosainiwa ya Flashing.
 - Hakikisha kuwa kiruka nguvu cha ubao wako wa uvumbuzi kiko katika nafasi ya STLK
 - Unganisha ubao wa ugunduzi kwenye kompyuta yako kupitia kebo ya **USB mini** iliyo juu ya ubao.
@@ -192,7 +190,7 @@ Pamoja na salama bootloader ufungaji wa awali wa firmware ni tofauti kidogo. Ubo
 - Sasa unaweza kubadili kiruka nguvu mahali unapoipenda na uwashe ubao kutoka kwa powerbank au betri.
 
 
-Kumulika programu dhibiti ya awali kupitia kunakili-bandika faili ya `.bin` wakati mwingine hushindwa - mara nyingi kwa sababu ya kebo, au ukiunganisha kifaa kupitia kitovu cha USB. Katika kesi hii unaweza kujaribu mara chache zaidi (kawaida hufanya kazi katika majaribio 2-3).
+Kumulika programu dhibiti ya awali kupitia kunakili-bandika faili ya `bin` wakati mwingine hushindwa - mara nyingi kwa sababu ya kebo, au ukiunganisha kifaa kupitia kitovu cha USB. Katika kesi hii unaweza kujaribu mara chache zaidi (kawaida hufanya kazi katika majaribio 2-3).
 
 
 Ikishindikana kila wakati unaweza kutumia [stlink](https://github.com/stlink-org/stlink/releases/latest) zana ya chanzo-wazi. Isakinishe na uandike kwenye terminal yako: `st-flash andika <path/to/initial_firmare.bin> 0x8000000`. Kawaida hufanya kazi ya kuaminika zaidi.
@@ -204,7 +202,7 @@ Ikishindikana kila wakati unaweza kutumia [stlink](https://github.com/stlink-org
 
 - Pakua `specter_upgrade_<version>.bin` kutoka kwa [toleo](https://github.com/cryptoadvance/specter-diy/releases).
 - Nakili binary hii kwenye mzizi wa kadi ya SD (iliyoumbizwa FAT, 32 GB max)
- - Hakikisha faili moja tu ya `specter_upgrade***.bin` iko kwenye saraka ya mizizi
+ - Hakikisha faili moja tu ya `specter_upgrade***.bin` iko kwenye saraka ya roots
 - Ingiza kadi ya SD kwenye nafasi ya SD ya ubao wa uvumbuzi na uwashe nguvu ubaoni
 - Bootloader itawasha firmware na itakujulisha itakapokamilika.
 - Washa upya ubao - utaona kiolesura cha Specter-DIY sasa, itakupendekeza uchague PIN yako
@@ -244,8 +242,7 @@ Nenda kwenye menyu ya `Mipangilio ya Kifaa` - itaonyesha nambari ya toleo chini 
 Onyesho linadhibitiwa na programu ya MCU.
 
 
-Ushirikiano wa kipengele salama bado haupo - kwa sasa siri pia zimehifadhiwa kwenye MCU kuu. Lakini unaweza kutumia wallet bila kuhifadhi siri - unahitaji kuingiza maneno yako ya kurejesha kila wakati. Kwa nini kukumbuka muda mrefu wa passphrase ikiwa unaweza kukumbuka mnemonic nzima?
-
+Ushirikiano wa secure element bado haupo - kwa sasa siri pia zimehifadhiwa kwenye main MCU. Lakini unaweza kutumia wallet bila kuhifadhi siri - unahitaji kuingiza Mnemonic zako za kurejesha (recovery) kila wakati. Kwa nini ukumbuke passphrase ndefu ikiwa unaweza kukumbuka Mnemonic nzima?
 
 Kifaa hutumia mweko wa nje kuhifadhi baadhi ya faili (QSPI), lakini faili zote za watumiaji hutiwa saini na wallet na kuangaliwa zinapopakiwa.
 
@@ -274,16 +271,15 @@ Hii ni moja ya sehemu muhimu zaidi za wallet - hadi generate ufunguo salama. Ili
 
 - TRNG ya microcontroller. Inamilikiwa, imeidhinishwa na pengine nzuri lakini hatuiamini
 - Skrini ya kugusa. Kila wakati unapogusa skrini tunapima mahali na wakati ambapo mguso huu ulifanyika (katika tiki za microcontroller saa 180MHz).
-- Maikrofoni zilizojengwa ndani - bado. Ubao una maikrofoni mbili, kwa hivyo maunzi ya wallet yanaweza kukusikiliza na kuchanganya data hii kwenye bwawa la entropy.
+- Maikrofoni zilizojengwa ndani - bado. Ubao una maikrofoni mbili, kwa hivyo hardware wallet zinaweza kukusikiliza na kuchanganya data hii kwenye entropy pool.
 
 
-Entropy hii yote inaharakishwa pamoja na kubadilishwa kuwa kifungu chako cha urejeshi. Entropy inayosababishwa daima ni bora kuliko vyanzo vyovyote vya mtu binafsi.
+Entropy hii yote inaharakishwa pamoja na kubadilishwa kuwa seed phrase yako. Entropy inayotokana kwa pamoja daima ni bora kuliko vyanzo vyovyote vya mtu binafsi.
+
+### Kiwango cha juu mantiki - wallet
 
 
-### Kiwango cha juu mantiki - pochi
-
-
-Specter hufanya kazi kama hifadhi kuu. Ina funguo za faragha za HD ambazo zinaweza kuhusika katika pochi. Pochi hufafanuliwa na maelezo yao. Tunaunga mkono maandishi madogo pia.
+Specter hufanya kazi kama hifadhi kuu. Ina funguo za faragha za HD ambazo zinaweza kuhusika katika wallet. wallet hufafanuliwa na maelezo yao. Tunaunga mkono maandishi madogo pia.
 
 
 Kila wallet ni ya mtandao fulani. Hii ina maana kwamba ikiwa ulileta wallet kwenye `testnet` haitapatikana kwenye `mainnet` au `regtest` - unahitaji kubadili hadi mtandao huu na kuleta wallet tofauti.
@@ -296,7 +292,7 @@ Sheria zifuatazo zinatumika kwa miamala ambayo wallet itatia saini:
 
 
 
-- ikiwa pembejeo mchanganyiko kutoka kwa pochi tofauti zitapatikana mtumiaji huonywa ([attack](https://blog.trezor.io/details-of-the-multisig-change-address-issue-and-its-mitigation-6370ad73ed2a))
+- ikiwa pembejeo mchanganyiko kutoka kwa wallet tofauti zitapatikana mtumiaji huonywa ([attack](https://blog.trezor.io/details-of-the-multisig-change-address-issue-and-its-mitigation-6370ad73ed2a))
 - matokeo ya mabadiliko yanaonyesha jina la wallet wanayotumwa
 - ili kutumia maandishi mengi au maandishi madogo kwanza unahitaji kuleta wallet kwa kuongeza kifafanuzi cha wallet (zaidi ya QR, USB au kadi ya SD)
 
@@ -310,7 +306,7 @@ Vifafanuzi vyote vya kawaida vya Bitcoin hufanya kazi. Kando na hayo tunayo vien
 ### Matawi mengi katika maelezo
 
 
-Ili kuhifadhi nafasi katika misimbo ya QR tunaruhusu kuongeza vifafanuzi vyenye matawi mengi kwa mkupuo mmoja. Iwapo ungependa kutumia `wpkh(xpub/0/*)` kwa ajili ya kupokea anwani na `wpkh(xpub/1/*)` kwa anwani za kubadilisha unaweza kuzichanganya katika kifafanuzi kimoja: `wpkh(xpub/{0,1}/*)` - wallet itachukulia faharasa ya kwanza ya `{}` seti ya sehemu kama anwani ya pili ya kupokea anwani.
+Ili kuhifadhi nafasi katika misimbo ya QR tunaruhusu kuongeza vifafanuzi vyenye matawi mengi kwa mkupuo mmoja. Iwapo ungependa kutumia `wpkh(xpub/0/*)` kwa ajili ya kupokea address na `wpkh(xpub/1/*)` kwa address za kubadilisha unaweza kuzichanganya katika kifafanuzi kimoja: `wpkh(xpub/{0,1}/*)` - wallet itachukulia faharasa ya kwanza ya `{}` seti ya sehemu kama address ya pili ya kupokea address.
 
 
 Unaweza pia kutaja zaidi ya matawi mawili, na faharisi za matawi zinaweza kuwa tofauti kwa watia saini tofauti, kwa hivyo maelezo haya ni ya kushangaza sana lakini ni halali kabisa:
@@ -321,7 +317,7 @@ wsh(sortedmulti(2,xpubA/{22,33,44}/*,xpubB/34/*/{1,8,6},pubkey3))
 ```
 
 
-Hapa kwa kupokea nambari ya anwani 17 wallet itatumia hati kutoka `wsh(sortedmulti(2,xpubA/22/17,xpubB/34/17/1,pubkey3))`.
+Hapa kwa kupokea nambari ya address 17 wallet itatumia hati kutoka `wsh(sortedmulti(2,xpubA/22/17,xpubB/34/17/1,pubkey3))`.
 
 
 Sharti pekee ni kwamba idadi ya faharisi katika seti zote ni sawa (3 katika kesi hapo juu).

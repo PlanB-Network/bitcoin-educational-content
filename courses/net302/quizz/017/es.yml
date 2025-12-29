@@ -6,4 +6,4 @@ wrong_answers:
   - Longitud mínima del encabezado IP sin fragmentación
 explanation: |
   La MTU (unidad de transmisión máxima) define el tamaño máximo de una trama que puede transmitirse en un segmento sin necesidad de fragmentación.
-reviewed: false
+reviewed: true

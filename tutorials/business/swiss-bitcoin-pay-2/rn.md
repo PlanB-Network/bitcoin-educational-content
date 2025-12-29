@@ -152,7 +152,7 @@ Hanyuma rero, ushireko gusa kode ya QR iri kuri Interface yawe ukoresheje igikor
 
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
 
-Niba ushaka kugira PoS mu buryo bw’ikoreshwa, genda ku iduka ryawe ry’iporogarama [Iduka rya Google Play] (id=ch.swissbitcoinpay.checkout) canke [Iporogarama Iduka](iyi Swiss Bitcoin-pay/id6444370155) hanyuma ushiremwo Swiss Bitcoin Pay. Iryo koraniro riraboneka kandi mu buryo bwa `.apk` ku rubuga rwabo, canke kuri [iduka rya F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
+Niba ushaka kugira PoS mu buryo bw’ikoreshwa, genda ku iduka ryawe ry’iporogarama [Iduka rya Google Play](id=ch.swissbitcoinpay.checkout) canke [Iporogarama Iduka](iyi Swiss Bitcoin-pay/id6444370155) hanyuma ushiremwo Swiss Bitcoin Pay. Iryo koraniro riraboneka kandi mu buryo bwa `.apk` ku rubuga rwabo, canke kuri [iduka rya F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
 
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
 

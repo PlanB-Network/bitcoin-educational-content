@@ -33,7 +33,7 @@ W tym poradniku przyjrzymy się 3 sposobom korzystania z **Watchtower** :
 
 
 
-*Ten samouczek pochodzi z [oficjalnej dokumentacji LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Niektóre zmiany mogły zostać wprowadzone do oryginalnej wersji
+*Ten samouczek pochodzi z [oficjalnej dokumentacji LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Niektóre zmiany mogły zostać wprowadzone do oryginalnej wersji
 
 
 

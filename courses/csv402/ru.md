@@ -819,7 +819,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 где :
 
 
-- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 байт) указывает глубину *MPC-дерева* ;
 - cofactor` (16 бит, в Little Endian) - параметр, используемый для повышения уникальности позиций, присвоенных каждому контракту в дереве;
 - `mpc::Root` - это корень *MPC Tree*, вычисляемый в соответствии с процессом, описанным в следующем разделе.
@@ -3170,7 +3170,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 Для переноса из этого счета :
 
 
-- У Боба (который хранит токены в своем тайнике) есть кошелек Bitcoin. Ему необходимо подготовить транзакцию Bitcoin (в форме PSBT, например `tx.psbt`), которая расходует UTXO, где находятся необходимые токены RGB, плюс один UTXO для валюты (обмена);
+- Боб (который хранит токены в своём stash) располагает биткоин-кошельком. Он должен подготовить биткоин-транзакцию (в форме PSBT, например `tx.psbt`), которая тратит UTXO, где находятся необходимые токены RGB, а также один UTXO для сдачи (change);
 - Боб выполняет следующую команду:
 
 ```bash

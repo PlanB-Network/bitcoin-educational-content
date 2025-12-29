@@ -394,7 +394,7 @@ Olete kohas _Kodu_, kus teile kuvatakse äsja loodud Wallet, mis teatab ühendus
 
 
 - Paremas ülanurgas olev objektiivi ikoon võimaldab teil teha tehinguotsingu;
-- `View Wallet config` annab ligipääsu konfiguratsioonimenüüle, kus saab muuta Wallet nime ja lubada täiustatud valikuid, üleval paremal (millest ei saa ekraanipilte). Siin saate eksportida Wallet konfiguratsiooni, sildid, asendada klahve, muuta [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) ja muud.
+- `View Wallet config` annab ligipääsu konfiguratsioonimenüüle, kus saab muuta Wallet nime ja lubada täiustatud valikuid, üleval paremal (millest ei saa ekraanipilte). Siin saate eksportida Wallet konfiguratsiooni, sildid, asendada klahve, muuta [gap limit](https://planb.academy/en/resources/glossary/gap-limit) ja muud.
 
 
 

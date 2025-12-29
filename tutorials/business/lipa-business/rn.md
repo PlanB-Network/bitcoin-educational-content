@@ -271,5 +271,5 @@ Kubera ko idashobora kubikwa, ikaba ishobora gukingira ubuzima bwite, ifatanijwe
 - [Urubuga rw'ibikoresho](https://urubuga.lipa.suwisi)
 - [Lipa Ifasha Ubucuruzi](https://imfashanyo.lipa.Swiss/ubucuruzi)
 - [Infashanyo rusangi ya Lipa](ubufasha.lipa.Ubusuwisi/Wallet)
-- [Ihuye n'i Lipa] (urubuga rwo guhuza.com/isosiyete/getlipa)
+- [Ihuye n'i Lipa](urubuga rwo guhuza.com/isosiyete/getlipa)
 - [Twitter @lipa_btc](ku rubuga rwa Twitter)

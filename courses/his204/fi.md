@@ -228,7 +228,7 @@ Tämä uudelleen löytäminen osoittaa kuitenkin, että olemme ajautumassa erä�
 
 
 
-(Pierre Le Pesant de) Boisguilbert syntyi Rouenissa vuonna 1646. Boisguilbert opiskeli Pariisin Port-Royalissa ja aloitti epäonnistuneen kirjallisen uran ennen kuin hän ryhtyi eri tehtäviin, muun muassa Rouenin kenraaliluutnantiksi. Tänä aikana hän kirjoitti useita kirjoja puolustaakseen ajatuksiaan, muun muassa vuonna 1695 ilmestyneen "Détail de la France" -kirjan, jonka hän julkaisi uudelleen seuraavana vuonna paljon selkeämmällä nimellä: [*Ranskan tuhoaminen Ludvig XIV:n aikana, kenen toimesta ja miten, sekä keinot sen palauttamiseksi] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
+(Pierre Le Pesant de) Boisguilbert syntyi Rouenissa vuonna 1646. Boisguilbert opiskeli Pariisin Port-Royalissa ja aloitti epäonnistuneen kirjallisen uran ennen kuin hän ryhtyi eri tehtäviin, muun muassa Rouenin kenraaliluutnantiksi. Tänä aikana hän kirjoitti useita kirjoja puolustaakseen ajatuksiaan, muun muassa vuonna 1695 ilmestyneen "Détail de la France" -kirjan, jonka hän julkaisi uudelleen seuraavana vuonna paljon selkeämmällä nimellä: [*Ranskan tuhoaminen Ludvig XIV:n aikana, kenen toimesta ja miten, sekä keinot sen palauttamiseksi](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
 ![image](assets/fi/013.webp)
@@ -392,7 +392,7 @@ Saint-Pierren apotti väitti, että Ludvig XIV:n valtakausi ylellisine hoveineen
 Taloudellisessa ajattelussa hän sovelsi johdonmukaisesti hyötyperiaatetta, aivan kuten Jeremy Bentham myöhemmin, ja tarjosi usein hyviä oivalluksia. Rehellisyyden nimissä on todettava, että häneen vaikuttivat edelleen merkantilistiset ajatukset, joita kukaan ei ollut tuohon aikaan täysin hylännyt.
 
 
-Saint-Pierren apotti teki kuitenkin joitakin tarkkoja havaintoja taloudesta. Jo ennen *Condillacia*, jolle ajatus usein uskotaan, hän totesi selvästi, että missä tahansa Exchange:ssa molemmat osapuolet hyötyvät. Tämä käy ilmi hänen vuonna 1733 laatimastaan ["Project for Improving France's Trade"] (https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), jossa hän kirjoitti:
+Saint-Pierren apotti teki kuitenkin joitakin tarkkoja havaintoja taloudesta. Jo ennen *Condillacia*, jolle ajatus usein uskotaan, hän totesi selvästi, että missä tahansa Exchange:ssa molemmat osapuolet hyötyvät. Tämä käy ilmi hänen vuonna 1733 laatimastaan ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), jossa hän kirjoitti:
 
 
 > "Kun kauppiaat tekevät kauppaa keskenään, myyjä hyötyy, ja niin hyötyy myös ostaja; sillä ellei molemmin puolin olisi jotain todellista tai koettua hyötyä, myyjä ei myisi tällaiseen ja tällaiseen hintaan eikä ostaja puolestaan ostaisi tällaiseen hintaan".
@@ -497,7 +497,7 @@ Vaikka Gournay oli hyvin sijoitettu aikansa johtavien taloustieteilijöiden jouk
 Meillä on muun muassa:
 
 
-1. [Huomautuksia] (https://archive.org/details/traitessurlecomm0000chil) englantilaisen taloustieteilijän Josiah Childin kirjan käännöksestä;
+1. [Huomautuksia](https://archive.org/details/traitessurlecomm0000chil) englantilaisen taloustieteilijän Josiah Childin kirjan käännöksestä;
 
 
 ![image](assets/fi/029.webp)
@@ -573,7 +573,7 @@ Useiden Gournayn piirin jäsenten yhteistyön ansiosta monet kirjailijat pystyiv
 
 
 
-- Herbert's Essay on the [General Police of Grain] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 painosta 4 vuoden aikana)
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 painosta 4 vuoden aikana)
 
 
 ![image](assets/fi/033.webp)
@@ -587,7 +587,7 @@ Useiden Gournayn piirin jäsenten yhteistyön ansiosta monet kirjailijat pystyiv
 
 
 
-- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 painosta ensimmäisenä vuonna)
+- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 painosta ensimmäisenä vuonna)
 - Cliquot-Blervachen ja Gournayn [Muistelmat kaupoista](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 painosta vuonna 1758)
 
 Ryhmällä oli keskeinen rooli myös seuraavassa julkaisussa
@@ -608,7 +608,7 @@ Gournayn piirin henkisellä tuotannolla oli suuri vaikutus aatehistoriaan. Täss
 ![image](assets/fi/035.webp)
 
 
-Gournay ja hänen ystävänsä pyrkivät levittämään talouskeskusteluja ranskalaisten keskuudessa, jotta ne olisivat olleet helposti saatavilla romaanien avulla. Kiltoja arvostelleen *Memoir on the Trades* -teoksen jälkeen Gournay ja Cliquot-Blervache auttoivat Gabriel-François Coyeria kirjoittamaan lyhyen satiirisen romaanin nimeltä Chinki: [A Cochinchinese Tale Applicable to Other Nations] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Gournay ja hänen ystävänsä pyrkivät levittämään talouskeskusteluja ranskalaisten keskuudessa, jotta ne olisivat olleet helposti saatavilla romaanien avulla. Kiltoja arvostelleen *Memoir on the Trades* -teoksen jälkeen Gournay ja Cliquot-Blervache auttoivat Gabriel-François Coyeria kirjoittamaan lyhyen satiirisen romaanin nimeltä Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/fi/036.webp)
@@ -694,7 +694,7 @@ Suurimman menestyksensä jälkeen Mirabeauta kosiskeltiin. François Quesnay, jo
 He väittelivät raivokkaasti, ja lopulta tapahtui jotain, mitä väittelyissä ei yleensä tapahdu: Mirabeau myönsi suoraan olleensa väärässä. Hän yhtyi Quesnayn ajatuksiin ja sanoi olevansa valmis levittämään niitä.
 
 
-Yhdessä he muodostivat fysiokraattisen koulukunnan tulevan ytimen, jota vahvistivat heidän mukanaan tulleet säännölliset värvätyt. Pian Mirabeaun kääntymyksen jälkeen Quesnay pyysi häntä puolustamaan verotusta koskevia ajatuksiaan. Tämä johti ["Verotuksen teoriaan"] (https://archive.org/details/thoriedelimpot00mira), jonka vuoksi Mirabeau lähetettiin muutamaksi päiväksi Vincennesin vankilaan ja sitten karkotettiin Bignoniin.
+Yhdessä he muodostivat fysiokraattisen koulukunnan tulevan ytimen, jota vahvistivat heidän mukanaan tulleet säännölliset värvätyt. Pian Mirabeaun kääntymyksen jälkeen Quesnay pyysi häntä puolustamaan verotusta koskevia ajatuksiaan. Tämä johti ["Verotuksen teoriaan"](https://archive.org/details/thoriedelimpot00mira), jonka vuoksi Mirabeau lähetettiin muutamaksi päiväksi Vincennesin vankilaan ja sitten karkotettiin Bignoniin.
 
 
 ![image](assets/fi/042.webp)
@@ -809,7 +809,7 @@ Tähän kirjaan on koottu Quesnayn tärkeimmät teokset. Siinä esiteltiin fysio
 Fysiokratia tuli muotiin Ranskassa ja jopa koko Euroopassa vain vajaan vuosikymmenen ajan. Pitkän kehitysvaiheen jälkeen se tuli tunnetuksi 1760-luvun puolivälissä. Turgot'n tullessa valtaan vuonna 1776 liike oli jo menettänyt suosiotaan, ja ministeri piti tukensa Quesnayn koulukunnalle enimmäkseen salassa.
 
 
-Sen juuret ovat 1750-luvulla kehittyneissä taloudellisissa ajatuksissa. Useat kirjoittajat auttoivat kuromaan umpeen kuilua Boisguilbertin ja sen välillä, mikä myöhemmin tuli tunnetuksi fysiokratiana. Kuten aiemmin todettiin, Vincent de Gournay ja hänen taloustieteilijäpiirinsä olivat monien sellaisten julkaisujen takana, jotka tutustuttivat ranskalaiset lukijat ulkomaiseen talousajatteluun ja auttoivat sytyttämään heidän intohimonsa taloustiedettä kohtaan. Fysiokratian perusta oli jo olemassa sellaisissa kirjoissa kuin Boisguilbertin "Détail de la France" ja Cantillonin ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant).
+Sen juuret ovat 1750-luvulla kehittyneissä taloudellisissa ajatuksissa. Useat kirjoittajat auttoivat kuromaan umpeen kuilua Boisguilbertin ja sen välillä, mikä myöhemmin tuli tunnetuksi fysiokratiana. Kuten aiemmin todettiin, Vincent de Gournay ja hänen taloustieteilijäpiirinsä olivat monien sellaisten julkaisujen takana, jotka tutustuttivat ranskalaiset lukijat ulkomaiseen talousajatteluun ja auttoivat sytyttämään heidän intohimonsa taloustiedettä kohtaan. Fysiokratian perusta oli jo olemassa sellaisissa kirjoissa kuin Boisguilbertin "Détail de la France" ja Cantillonin ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant).
 
 
 ![image](assets/fi/047.webp)
@@ -962,7 +962,7 @@ Quesnay toteaa aiemmin siteeratussa *Maximissaan*:
 Fysiokraatit olivat nähneet, millaista vahinkoa valtion puuttuminen oli aiheuttanut erityisesti viljakaupassa. Heidän mukaansa on myönnettävä, että viranomainen ei koskaan pysty hallitsemaan kauppaa yhtä hyvin kuin yksityishenkilöt, koska sen olisi vastattava jokaiseen tarpeeseen ja reagoitava jokaiseen kysynnän tai Supply:n muutokseen. Kaikki tämä ylittää kauas viisaankin hallituksen kyvyt, joita voidaan kuvitella. Siksi on tarpeen antaa asioiden olla ja antaa niiden virrata.
 
 
-Kaupan on oltava luonteeltaan hyödyllistä, ja sen on oltava täysin ja täydellisen vapaata. Yksi heidän jäsenistään, Le Trosne, kirjoitti jopa pamfletin otsikolla [*Viljakaupan vapaus: aina hyödyllistä, ei koskaan haitallista*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Kaupan on oltava luonteeltaan hyödyllistä, ja sen on oltava täysin ja täydellisen vapaata. Yksi heidän jäsenistään, Le Trosne, kirjoitti jopa pamfletin otsikolla [*Viljakaupan vapaus: aina hyödyllistä, ei koskaan haitallista*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Viides periaate: Kaikki ihmiset ovat veljiä
@@ -1002,7 +1002,7 @@ Venäjällä Katariina II valmisteli lainsäädäntöuudistusta ja pyysi Diderot
 ![image](assets/fi/059.webp)
 
 
-Vuonna 1767 julkaistun teoksen [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft) lukemisesta vaikuttuneena hän lähetti sen kirjoittajan, fysiokraatti Mercier de la Rivièren hänelle.
+Vuonna 1767 julkaistun teoksen [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft) lukemisesta vaikuttuneena hän lähetti sen kirjoittajan, fysiokraatti Mercier de la Rivièren hänelle.
 
 
 
@@ -1409,7 +1409,7 @@ Condillacin abbedilla oli merkittävä rooli tämän väärän ajatuksen lopulli
 "Ehdottomasti" on ehkä liioiteltua, sillä julkisessa keskustelussa tämä sofismi toistuu usein. Ehkä juuri siksi Condillac on edelleen vähän tunnettu taloustieteilijä. Itävaltalaisia taloustieteilijöitä lukuun ottamatta vain harvat ovat ymmärtäneet hänen Exchange-teoriansa merkityksen, kukaan ei enää ole kiinnostunut hänestä.
 
 
-Useimmille talousajattelun historioitsijoille vuosi 1776 on merkitty julkaisemalla *Kansojen varallisuus*, joka perusti taloustieteen. Juuri päättyneet viisitoista oppituntia, joilla olemme tutkineet ranskalaista taloustiedettä ennen Adam Smithiä, riittävät osoittamaan tämän käsityksen virheellisyyden. Samana vuonna 1776 ilmestyi lisäksi toinenkin kirja, joka ansaitsee historioitsijoilta ehkä enemmän kiitosta kuin Adam Smithin kirja: sen on kirjoittanut Condillac, ja sen nimi on yksinkertaisesti [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+Useimmille talousajattelun historioitsijoille vuosi 1776 on merkitty julkaisemalla *Kansojen varallisuus*, joka perusti taloustieteen. Juuri päättyneet viisitoista oppituntia, joilla olemme tutkineet ranskalaista taloustiedettä ennen Adam Smithiä, riittävät osoittamaan tämän käsityksen virheellisyyden. Samana vuonna 1776 ilmestyi lisäksi toinenkin kirja, joka ansaitsee historioitsijoilta ehkä enemmän kiitosta kuin Adam Smithin kirja: sen on kirjoittanut Condillac, ja sen nimi on yksinkertaisesti [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/fi/085.webp)
@@ -1498,7 +1498,7 @@ Tästä lähtien Condorcet'n ura sai uuden käänteen, kun hän osallistui talou
 Vuosien 1774 ja 1776 välisenä aikana, Turgot'n ministeriön aikana, Condorcet teki lukuisia interventioita, joille kaikille oli ominaista hänen laissez-faire-periaatteensa Commitment. Hänen teoksiaan ovat muun muassa vapaakauppaa puolustava *Picardyn maanviljelijän kirjeet Neckerille*, vapaata kilpailua puolustava *Monopolit ja monopolit*, Corvées-verkkoja käsittelevä *Reflections on Corvées*, jossa hän vaatii niiden poistamista, ja *Reflections on the Grain Trade*, jossa hän taas ylistää vapaakauppaa ja arvostelee Neckerin samaa aihetta käsittelevää kirjaa.
 
 
-Kirjeessään [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet esittää useita keskeisiä huomioita.
+Kirjeessään [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) Condorcet esittää useita keskeisiä huomioita.
 
 
 ![image](assets/fi/089.webp)
@@ -1565,7 +1565,7 @@ Tämä ehdotus hylättiin.
 
 Samana vuonna 1790 alettiin keskustella uuden paperivaluutan liikkeeseenlaskusta hallituksen menojen kattamiseksi.
 
-Dupont de Nemours vastusti tätä jyrkästi ja julkaisi pamfletin nimeltä [*Asiignattien vaikutus leivän hintaan*] (https://archive.org/details/effetdesassignat00dupo). Otsikko oli osuva, sillä hän selitti, että assignattien liikkeeseenlasku johtaisi väistämättä inflaatioon eli hyödykkeiden, myös leivän, hintojen nousuun.
+Dupont de Nemours vastusti tätä jyrkästi ja julkaisi pamfletin nimeltä [*Asiignattien vaikutus leivän hintaan*](https://archive.org/details/effetdesassignat00dupo). Otsikko oli osuva, sillä hän selitti, että assignattien liikkeeseenlasku johtaisi väistämättä inflaatioon eli hyödykkeiden, myös leivän, hintojen nousuun.
 
 
 

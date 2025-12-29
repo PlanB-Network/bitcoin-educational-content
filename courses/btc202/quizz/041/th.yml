@@ -1,0 +1,9 @@
+question: แอปพลิเคชันที่สามารถติดตั้งผ่าน Umbrel ได้แก่:
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel มี App Store ที่มีบริการโฮสต์เอง เช่น Nextcloud สำหรับการจัดเก็บและซิงโครไนซ์ไฟล์ด้วยตัวคุณเอง
+reviewed: true

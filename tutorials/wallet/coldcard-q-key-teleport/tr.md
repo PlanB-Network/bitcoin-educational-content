@@ -38,7 +38,7 @@ Bu aktarım için kullanılabilir:
 
 
 
-Bu, [cihaz donanım yazılımınızı v1.3.2Q] (https://coldcard.com/docs/upgrade/) veya daha yüksek bir sürüme yükseltmiş olmanızı gerektirir.
+Bu, [cihaz donanım yazılımınızı v1.3.2Q](https://coldcard.com/docs/upgrade/) veya daha yüksek bir sürüme yükseltmiş olmanızı gerektirir.
 
 
 
@@ -214,7 +214,7 @@ Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşıl
 
 
 
-Bu, Wallet Multisig'inizin zaten oluşturulmuş olduğunu ve ColdCardQ cihazınızın çoklu imza işlemlerini gerçekleştirebilmek için önceden ayarlanmış olduğunu varsayar. Eğer durum böyle değilse, Coinkite web sitesinde [burada] (https://coldcard.com/docs/Multisig/) açıklamalar mevcuttur.
+Bu, Wallet Multisig'inizin zaten oluşturulmuş olduğunu ve ColdCardQ cihazınızın çoklu imza işlemlerini gerçekleştirebilmek için önceden ayarlanmış olduğunu varsayar. Eğer durum böyle değilse, Coinkite web sitesinde [burada](https://coldcard.com/docs/Multisig/) açıklamalar mevcuttur.
 
 
 

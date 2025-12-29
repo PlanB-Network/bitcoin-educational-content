@@ -1,0 +1,8 @@
+question: Sopimusvapauden periaatteiden mukaan mikä perustavanlaatuinen piirre erottaa vapaaehtoiset sopimukset muista sosiaalisen järjestäytymisen muodoista?
+answer: Ne edustavat positiivisen summan pelejä, joissa kumpikin osapuoli saa molemminpuolista etua vapaasti neuvoteltujen suhteiden kautta
+wrong_answers:
+  - Ne luovat hierarkkisia valtarakenteita, jotka takaavat sosiaalisen järjestyksen keskitetyn päätöksenteon avulla
+  - "Ne luovat nollasummakilpailuja, joissa yhden osapuolen voitto johtaa väistämättä toisen osapuolen vastaavaan tappioon."
+  - Ne toimivat ennaltaehkäisevinä sääntelymekanismeina, jotka suojaavat yhteiskuntaa yksittäisiltä väärinkäytöksiltä ennen kuin niitä tapahtuu
+explanation: |
+  Luvussa korostetaan, että vapaaehtoiset sopimukset ovat positiivisen summan pelejä, joissa molemminpuolinen rikastuminen johtuu siitä, että kukin yksilö kokee tyydytystä osallistumisesta sen sijaan, että jättäytyisi pois. Tämä on ristiriidassa hierarkkisten rakenteiden, nollasummakäsityksen tai ennaltaehkäisevien järjestelmien kanssa, joita tekstissä nimenomaisesti kritisoidaan vapauden esteenä.

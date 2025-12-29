@@ -1,0 +1,8 @@
+question: Enligt en liberal analys, varför leder undertryckandet av den ekonomiska friheten i ett kollektivistiskt system oundvikligen till förlust av friheten att bosätta sig och ha sin hemvist?
+answer: Eftersom människor utan frihet att välja arbete måste bo i närheten av sin tilldelade arbetsplats och inte kan välja sin bostad
+wrong_answers:
+  - Eftersom staten måste övervaka medborgarna noga och måste koncentrera dem till utsedda bostadsområden
+  - Eftersom kollektivt ägande av egendom innebär att individer inte kan äga bostäder och måste acceptera statligt tilldelade bostäder
+  - Eftersom ekonomisk planering kräver att befolkningsfördelningen anpassas till resurstillgången i olika regioner
+explanation: |
+  Den liberala analysen visar på en direkt orsakskedja: i ett kollektivistiskt system anvisar staten individer till specifika arbeten och produktionsgrenar utan deras val. Eftersom människor av praktiska skäl vanligtvis bor nära sin arbetsplats och inte kan välja sitt arbete, kan de följaktligen inte heller välja var de ska bo. Detta visar hur ekonomisk ofrihet skapar en dominoeffekt som systematiskt eliminerar andra personliga friheter som kan tyckas sakna samband med ekonomi.

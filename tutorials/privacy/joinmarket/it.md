@@ -1,7 +1,6 @@
 ---
-nome: JoinMarket
-
-descrizione: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
+name: JoinMarket
+description: Guida e tutorial su come usare JoinMarket per fare coinjoin su bitcoin tramite linea di comando
 ---
 
 ![cover](assets/cover.webp)

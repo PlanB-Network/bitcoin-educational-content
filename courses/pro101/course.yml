@@ -150,6 +150,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 24.72
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.87
 tags:
   - development
   - protocols

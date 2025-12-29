@@ -1,0 +1,9 @@
+question: โซลูชัน node-in-a-box ใดเป็นผู้นำตลาดในปัจจุบัน?
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel เป็นโซลูชัน node-in-a-box ที่ได้รับความนิยมมากที่สุด เนื่องจากติดตั้งง่ายและมี App Store ที่หลากหลาย
+reviewed: true

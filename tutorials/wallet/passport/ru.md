@@ -135,7 +135,7 @@ https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf
 
 ![Image](assets/fr/20.webp)
 
-Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation](https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 

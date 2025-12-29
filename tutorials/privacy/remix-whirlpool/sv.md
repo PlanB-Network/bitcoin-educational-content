@@ -47,7 +47,7 @@ Namnet på denna indikator är "backward anonset" eller "backward-looking metric
 
 ![backward anonset](assets/en/6.webp)
 
-För att lära dig mer om beräkningsmetoden för dessa indikatorer rekommenderar jag att du läser [min Twitter-tråd] (https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) om detta ämne. Vi förbereder också en mer omfattande artikel om Plan ₿ Academy.
+För att lära dig mer om beräkningsmetoden för dessa indikatorer rekommenderar jag att du läser [min Twitter-tråd](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) om detta ämne. Vi förbereder också en mer omfattande artikel om Plan ₿ Academy.
 
 
 Jag är medveten om att det givna svaret kan verka otillfredsställande eftersom du hoppades på ett specifikt antal remixer, och jag hänvisar dig till dokumentation. Anledningen till detta är att antalet remixer är en opålitlig indikator för att utvärdera den anonymitet som uppnåtts i CoinJoin-cykler. Därför är det inte möjligt att definiera ett fast antal remixer som en absolut och universell säkerhetströskel.

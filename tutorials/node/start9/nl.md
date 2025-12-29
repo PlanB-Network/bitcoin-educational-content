@@ -43,7 +43,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 ## 2️⃣ doe-het-zelf-vereisten: Minimale en aanbevolen specificaties
 
 
-Voor basisgebruik met minimale services zijn de **minimale specificaties**: **1 vCPU core (2.0GHz+ boost), 4GB RAM, 64GB opslag** en een Ethernetpoort. Dat gezegd hebbende, zou ik aanraden om veel verder te gaan, vooral als je een Bitcoin Node draait. Persoonlijk begon ik met 1TB en kwam al snel ruimte tekort. Je kunt beter streven naar **minimaal 2TB opslag**, samen met een **quad-core CPU (2.5GHz+)** en **8GB+ RAM**. Dit maakt een enorm verschil in prestaties en levensduur. Als je diep wilt duiken, is hier een actuele community thread over [Hardware die StartOS kan draaien] (https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
+Voor basisgebruik met minimale services zijn de **minimale specificaties**: **1 vCPU core (2.0GHz+ boost), 4GB RAM, 64GB opslag** en een Ethernetpoort. Dat gezegd hebbende, zou ik aanraden om veel verder te gaan, vooral als je een Bitcoin Node draait. Persoonlijk begon ik met 1TB en kwam al snel ruimte tekort. Je kunt beter streven naar **minimaal 2TB opslag**, samen met een **quad-core CPU (2.5GHz+)** en **8GB+ RAM**. Dit maakt een enorm verschil in prestaties en levensduur. Als je diep wilt duiken, is hier een actuele community thread over [Hardware die StartOS kan draaien](https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
 
 
 ## 3️⃣ De firmware downloaden en flashen

@@ -1,0 +1,9 @@
+question: การดำเนินงานหลักของสัญญา RGB คืออะไร?
+answer: State Transition, Genesis, และ State Extension
+wrong_answers:
+  - Seal Definition, Commitment, และการตรวจสอบความถูกต้อง
+  - การสร้าง Anchor, การอัปเดต DAG, และการลงนามธุรกรรม
+  - Genesis Block, UTXO Allocation, and Script Validation
+explanation: |
+  การดำเนินการเหล่านี้แก้ไขหรือทำให้สถานะของสัญญาสมบูรณ์ตาม Schema ของสัญญา
+reviewed: false

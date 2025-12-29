@@ -1,0 +1,9 @@
+question: Quelle est la priorité principale d’un commerçant sur Lightning ?
+answer: L'acquisition de liquidités entrantes
+wrong_answers:
+  - L'acquisition de liquidités sortantes
+  - Le gain via les frais de routage
+  - L'acquisition de bons avis sur LN+
+explanation: |
+  Un commerçant doit pouvoir encaisser sans échec, ce qui nécessite suffisamment de liquidité entrante.
+reviewed: false

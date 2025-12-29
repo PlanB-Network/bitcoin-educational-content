@@ -50,7 +50,7 @@ Die Technologie, die das Tox-Protokoll verwendet, ähnelt Peer-to-Peer-Netzwerke
 
 
 
-Sie können das Tox-Protokoll über einen Instant-Messaging-Client verwenden, den Sie von der [Tox-Chat-Website] (https://tox.chat) herunterladen können.
+Sie können das Tox-Protokoll über einen Instant-Messaging-Client verwenden, den Sie von der [Tox-Chat-Website](https://tox.chat) herunterladen können.
 
 
 

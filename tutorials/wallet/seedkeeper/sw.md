@@ -7,21 +7,21 @@ description: Je, ninawezaje kuhifadhi nakala ya wallet Bitcoin yangu kwa kadi ma
 
 
 
-The Seedkeeper ni kadi mahiri iliyotengenezwa na Satochip, kampuni ya Ubelgiji inayobobea katika suluhu za maunzi kwa ajili ya kusimamia na kulinda siri za kidijitali. Satochip, ambayo ni maarufu kwa anuwai ya kadi mahiri za mfumo ikolojia wa Bitcoin, ilibuni Mlinzi wa Mbegu kama njia mbadala ya mbinu za jadi za kuhifadhi misemo ya kumbukumbu.
+The Seedkeeper ni kadi mahiri iliyotengenezwa na Satochip, kampuni ya Belgium inayobobea katika suluhu za hardware kwa ajili ya kusimamia na kulinda siri za kidijitali. Satochip, ambayo ni maarufu kwa anuwai ya kadi mahiri za mfumo ikolojia wa Bitcoin, ilibuni Seedkeeper kama njia mbadala ya mbinu za jadi za kuhifadhi misemo ya kumbukumbu.
 
 
 
-Kwa maneno madhubuti, Mlinzi wa Mbegu huchukua umbo la kadi mahiri iliyoidhinishwa na multifunctional, iliyoidhinishwa na EAL6 na kichakataji salama na kumbukumbu isiyoweza kuharibu (kinachojulikana kama "Kipengele Salama"). Kama jina lake linavyopendekeza, jukumu lake ni kuhifadhi kumbukumbu na manenosiri ya Bitcoin wallet kwa njia iliyosimbwa na kulindwa. Ukiwa na Mlinzi wa mbegu, unaweza generate, kuagiza, kupanga na kuhifadhi siri zako moja kwa moja katika sehemu salama ya kadi.
+Kwa maneno madhubuti,Seedkeeper huchukua umbo la kadi mahiri iliyoidhinishwa na multifunctional, iliyoidhinishwa na EAL6 na kichakataji salama na kumbukumbu isiyoweza kuharibu (kinachojulikana kama "Kipengele Salama"). Kama jina lake linavyopendekeza, jukumu lake ni kuhifadhi kumbukumbu na manenosiri ya Bitcoin wallet kwa njia iliyosimbwa na kulindwa. Ukiwa na Mlinzi wa mbegu, unaweza generate, kuagiza, kupanga na kuhifadhi siri zako moja kwa moja katika sehemu salama ya kadi.
 
 
 
-Kwa maoni yangu, Mtunza mbegu ana matumizi mawili makuu, ambayo tutachunguza katika mafunzo 2 tofauti:
+Kwa maoni yangu, Seedkeeper ina matumizi mawili makuu, ambayo tutachunguza katika mafunzo 2 tofauti:
 
 
 
 
-- Bitcoin** hifadhi ya maneno ya mnemonic: badala ya kuandika maneno yako 12 au 24 kwenye karatasi, unaweza kuyaingiza kwenye smartcard na kuyalinda kwa PIN code.
-- Udhibiti wa nenosiri**: unaweza generate manenosiri thabiti kupitia programu ya Seedkeeper na kuyahifadhi moja kwa moja kwenye smartcard, kukupa kidhibiti cha nenosiri ambacho ni rahisi na rahisi kutumia nje ya mtandao.
+- **Bitcoin** hifadhi ya maneno ya mnemonic: badala ya kuandika maneno yako 12 au 24 kwenye karatasi, unaweza kuyaingiza kwenye smartcard na kuyalinda kwa PIN code.
+- **Udhibiti wa nenosiri**: unaweza generate manenosiri thabiti kupitia programu ya Seedkeeper na kuyahifadhi moja kwa moja kwenye smartcard, kukupa kidhibiti cha nenosiri ambacho ni rahisi na rahisi kutumia nje ya mtandao.
 
 
 
@@ -37,13 +37,13 @@ Kipengele cha kuvutia hasa ni uwezo wa kunakili maudhui ya Mkulima mmoja hadi mw
 
 
 
-Mtunza mbegu pia anavutia sana inapojumuishwa na maunzi yasiyo na utaifa ya wallet kama vile SeedSigner au Specter DIY. Katika kesi hii, hakuna haja ya kutumia mteja wa Satochip kwenye kompyuta au simu ya mkononi. Mlinzi wa Mbegu huweka seed katika secure element yake na inaweza kutumika moja kwa moja na kifaa cha kutia sahihi, hivyo basi kuondoa hitaji la msimbo wa QR wa karatasi. Sitakuza kesi hii ya utumiaji katika mafunzo haya, kwani ndio mada ya mafunzo mengine yaliyojitolea:
+Seedkeeper pia anavutia sana inapojumuishwa na hardware yasiyo na utaifa ya wallet kama vile SeedSigner au Specter DIY. Katika kesi hii, hakuna haja ya kutumia mteja wa Satochip kwenye kompyuta au simu ya mkononi. Seedkeeper huweka seed katika secure element yake na inaweza kutumika moja kwa moja na kifaa cha kutia sahihi, hivyo basi kuondoa hitaji la msimbo wa QR wa karatasi. Sitakuza kesi hii ya utumiaji katika mafunzo haya, kwani ndio mada ya mafunzo mengine yaliyojitolea:
 
 
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-## 1. Ni kesi gani ya matumizi kwa Mtunza Mbegu?
+## 1. Ni kesi gani ya matumizi kwa Seedkeeper?
 
 
 
@@ -51,31 +51,31 @@ Katika somo hili, nitashughulikia kesi za utumiaji zinazohusiana na Bitcoin peke
 
 
 
-Ikilinganishwa na nakala rahisi ya karatasi ya maneno ya kumbukumbu, kutumia Mtunza mbegu kuna faida kadhaa:
+Ikilinganishwa na nakala rahisi ya karatasi ya maneno ya kumbukumbu, kutumia Seedkeeper kuna faida kadhaa:
 
 
 
 
 
-- Inastahimili wizi:** seed katika wallet yako haipatikani kwa maandishi wazi. Ili kuitoa, unahitaji kujua PIN ya Mtunza mbegu. Mwizi atakayekikamata kifaa hataweza kufanya chochote nacho bila msimbo huu.
+- **Inastahimili wizi:** seed katika wallet yako haipatikani kwa maandishi wazi. Ili kuitoa, unahitaji kujua PIN ya Seedkeeper. Mwizi atakayekikamata kifaa hataweza kufanya chochote nacho bila msimbo huu.
 
 
 
 
 
-- Kueneza hatari kwa sababu mbili:** unaweza kugawanya usalama kati ya kipengele cha kidijitali na kimwili. Kwa mfano, ukihifadhi PIN ya Mlinzi wa mbegu kwenye kidhibiti chako cha nenosiri, utahitaji ufikiaji wa kidhibiti hiki na umiliki halisi wa kadi mahiri ili kupata seed (uwezekano uliopunguzwa sana wa shambulio).
+- **Kueneza hatari kwa sababu mbili:** unaweza kugawanya usalama kati ya kipengele cha kidijitali na kimwili. Kwa mfano, ukihifadhi PIN ya Seedkeeper kwenye kidhibiti chako cha nenosiri, utahitaji ufikiaji wa kidhibiti hiki na umiliki halisi wa kadi mahiri ili kupata seed (uwezekano uliopunguzwa sana wa shambulio).
 
 
 
 
 
-- Usimamizi wa Serikali kuu:** Mtunza mbegu hurahisisha usimamizi wa mbegu nyingi kutoka sehemu mbalimbali.
+- **Usimamizi wa Serikali kuu:** Mtunza mbegu hurahisisha usimamizi wa seed nyingi kutoka sehemu mbalimbali.
 
 
 
 
 
-- Hifadhi rudufu rahisi:** rudufu nakala rudufu zilizosimbwa kwa Walindaji mbegu wengine.
+- **Hifadhi rudufu rahisi:** rudufu nakala rudufu zilizosimbwa kwa Walindaji mbegu wengine.
 
 
 
@@ -85,23 +85,23 @@ Hata hivyo, kuna idadi ya hasara ikilinganishwa na nakala rahisi ya karatasi ya 
 
 
 
-- Bei:** ingawa ni ya kawaida (karibu €25), bado ni ya juu kuliko ile ya karatasi.
+- **Bei:** ingawa ni ya kawaida (karibu €25), bado ni ya juu kuliko ile ya karatasi.
 
 
 
 
 
-- Utegemezi wa kifaa cha kompyuta cha madhumuni ya jumla:** kuingia na kudhibiti seed kunahitaji kompyuta au simu mahiri, ambayo ina maana kwamba mnemonic yako hupitia mashine iliyo na sehemu ya mashambulizi pana zaidi kuliko maunzi ya wallet. Hii inaweza kuwakilisha hatari ikiwa mashine itaathiriwa. Hii ndiyo sababu sipendekezi kutumia Seedkeeper kuhifadhi seed ya maunzi ya wallet (isipokuwa kwa matumizi yasiyo ya kawaida bila kompyuta, kama ilivyo kwa SeedSigner). Jukumu la maunzi ya wallet ni kwa usahihi kuhifadhi seed katika hali ndogo, iliyo salama sana. Kwa kujiwekea seed yako kwenye kompyuta yako ya kawaida, haifungiwi tena kwenye maunzi ya wallet: pia inaishia kwenye mashine ya kusudi la jumla, iliyofichuliwa na vekta nyingi za mashambulizi. Kwa hivyo ni bora kutumia Seedkeeper kwa moto wa wallet badala ya baridi (isipokuwa SeedSigner / vifaa visivyo na utaifa vya wallet).
+- **Utegemezi wa kifaa cha kompyuta cha madhumuni ya jumla:** kuingia na kudhibiti seed kunahitaji kompyuta au simu mahiri, ambayo ina maana kwamba mnemonic yako hupitia mashine iliyo na sehemu ya mashambulizi pana zaidi kuliko maunzi ya wallet. Hii inaweza kuwakilisha hatari ikiwa mashine itaathiriwa. Hii ndiyo sababu sipendekezi kutumia Seedkeeper kuhifadhi seed ya hardware wallet (isipokuwa kwa matumizi yasiyo ya kawaida bila kompyuta, kama ilivyo kwa SeedSigner). Jukumu la hardware wallet ni kwa usahihi kuhifadhi seed katika hali ndogo, iliyo salama sana. Kwa kujiwekea seed yako kwenye kompyuta yako ya kawaida, haifungiwi tena kwenye hardware wallet: pia inaishia kwenye mashine ya kusudi la jumla, iliyofichuliwa na vekta nyingi za mashambulizi. Kwa hivyo ni bora kutumia Seedkeeper kwa moto wa wallet badala ya baridi (isipokuwa SeedSigner / vifaa visivyo na utaifa vya wallet).
 
 
 
 
 
-- Hatari ya hasara inayohusishwa na PIN:** kutoweza kufikiwa moja kwa moja kwa seed, tofauti na nakala rudufu ya karatasi, kwa hakika hutoa ulinzi dhidi ya wizi wa kimwili. Lakini kama kawaida, usalama ni kitendo cha kusawazisha kati ya hatari ya wizi na hatari ya hasara. Ikiwa chelezo chako kinahitaji PIN, kupotea kwa msimbo huu kutafanya isiwezekane kurejesha maneno yako ya kumbukumbu, na hivyo kufikia bitcoins zako.
+- **Hatari ya hasara inayohusishwa na PIN:** kutoweza kufikiwa moja kwa moja kwa seed, tofauti na nakala rudufu ya karatasi, kwa hakika hutoa ulinzi dhidi ya wizi wa kimwili. Lakini kama kawaida, usalama ni kitendo cha kusawazisha kati ya hatari ya wizi na hatari ya hasara. Ikiwa chelezo chako kinahitaji PIN, kupotea kwa msimbo huu kutafanya isiwezekane kurejesha maneno yako ya kumbukumbu, na hivyo kufikia bitcoin zako.
 
 
 
-Kwa kuzingatia faida na hasara hizi, ninaona kuwa matumizi bora ya Mtunza mbegu (mbali na kitendaji chake cha kidhibiti nenosiri) ni, kwa upande mmoja, kuhifadhi mbegu kutoka kwa **kwingineko za programu** zako, kwa kuwa tayari ziko kwenye simu au kompyuta yako, au kutoka kwa vifaa vyako vya wallet visivyo na skrini kama vile Satochip, na kwa upande mwingine, bila kutumia, kwa kutumia vifaa vya wallet vilivyojumuishwa na Seed9ign. yake mwenyewe.
+Kwa kuzingatia faida na hasara hizi, ninaona kuwa matumizi bora ya Seedkeeper (mbali na kitendaji chake cha kidhibiti nenosiri) ni, kwa upande mmoja, kuhifadhi seed kutoka kwa **kwingineko za programu** zako, kwa kuwa tayari ziko kwenye simu au kompyuta yako, au kutoka kwa vifaa vyako vya wallet visivyo na skrini kama vile Satochip, na kwa upande mwingine, bila kutumia, kwa kutumia vifaa vya wallet vilivyojumuishwa na Seedsign. yake mwenyewe.
 
 
 
@@ -109,11 +109,11 @@ Kesi nyingine ya utumiaji ya kuvutia sana kwa Mtunza mbegu ni uwezekano wa kuhif
 
 
 
-## 2. Je, nitapataje Mtunza Mbegu?
+## 2. Je, nitapataje Seedkeeper?
 
 
 
-Kuna njia kuu mbili za kupata Mkulima wako. Unaweza [kuinunua moja kwa moja kutoka kwa duka rasmi la Satochip](https://satochip.io/product/seedkeeper/) au kutoka kwa muuzaji aliyeidhinishwa. Lakini kwa kuwa [applet ya Mtunza mbegu ni chanzo huria](https://github.com/Toporin/Seedkeeper-Applet), pia una chaguo la kuisakinisha mwenyewe kwenye [kadi mahiri tupu](https://satochip.io/product/blank-javacard-for-diy-project/).
+Kuna njia kuu mbili za kupata Seedkeeper yako. Unaweza [kuinunua moja kwa moja kutoka kwa duka rasmi la Satochip](https://satochip.io/product/seedkeeper/) au kutoka kwa muuzaji aliyeidhinishwa. Lakini kwa kuwa [applet ya Mtunza mbegu ni chanzo huria](https://github.com/Toporin/Seedkeeper-Applet), pia una chaguo la kuisakinisha mwenyewe kwenye [kadi mahiri tupu](https://satochip.io/product/blank-javacard-for-diy-project/).
 
 
 
@@ -121,11 +121,11 @@ Ikiwa ungependa kutumia utendakazi wa chelezo wa Seedkeeper, bila shaka utahitaj
 
 
 
-## 3. Kuweka mteja wa Mtunza mbegu
+## 3. Kuweka mteja wa Seedkeeper
 
 
 
-Katika somo hili, tutahifadhi nakala yetu ya seed kwenye Mkulima wetu. Hatua ya kwanza ni kusakinisha programu kwenye kompyuta au smartphone yako. Kwenye Kompyuta, utahitaji [kupakua toleo jipya zaidi la Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Kwenye simu ya mkononi, programu ya Seedkeeper inapatikana kwenye [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) na pia kwenye [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
+Katika somo hili, tutahifadhi nakala yetu ya seed kwenye Seedkeeper yetu. Hatua ya kwanza ni kusakinisha programu kwenye kompyuta au smartphone yako. Kwenye Kompyuta, utahitaji [kupakua toleo jipya zaidi la Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Kwenye simu ya mkononi, programu ya Seedkeeper inapatikana kwenye [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) na pia kwenye [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 
@@ -133,7 +133,7 @@ Katika somo hili, tutahifadhi nakala yetu ya seed kwenye Mkulima wetu. Hatua ya 
 
 
 
-## 4. Uanzishaji wa mkulima
+## 4. Uanzishaji wa Seedkeeper
 
 
 
@@ -145,7 +145,7 @@ Zindua programu na ubofye kitufe cha "*Bofya & Changanua*".
 
 
 
-Utaombwa PIN code kwa ajili ya Mkulima wako. Kwa vile hii ni kadi mpya, hakuna PIN bado iliyofafanuliwa. Weka msimbo wowote ili kuruka hatua hii, kisha ubofye "*Inayofuata*".
+Utaombwa PIN code kwa ajili ya Seedkeeper yako. Kwa vile hii ni kadi mpya, hakuna PIN bado iliyofafanuliwa. Weka msimbo wowote ili kuruka hatua hii, kisha ubofye "*Inayofuata*".
 
 
 
@@ -153,7 +153,7 @@ Utaombwa PIN code kwa ajili ya Mkulima wako. Kwa vile hii ni kadi mpya, hakuna P
 
 
 
-Kisha weka kadi nyuma ya smartphone yako. Programu itatambua kuwa Mlinzi wa mbegu bado hajaanzishwa, na itakuhimiza kuweka PIN ya kadi yako mahiri, kati ya vibambo 4 na 16 kwa urefu. Kwa usalama wa juu zaidi, chagua nenosiri thabiti ambalo ni refu iwezekanavyo, nasibu na linaloundwa na aina mbalimbali za wahusika. Msimbo huu wa PIN ndio kikwazo pekee dhidi ya ufikiaji wa kimwili kwa maneno yako ya kurejesha akaunti.
+Kisha weka kadi nyuma ya smartphone yako. Programu itatambua kuwa Seedkeeper bado hajaanzishwa, na itakuhimiza kuweka PIN ya kadi yako mahiri, kati ya vibambo 4 na 16 kwa urefu. Kwa usalama wa juu zaidi, chagua nenosiri thabiti ambalo ni refu iwezekanavyo, nasibu na linaloundwa na aina mbalimbali za wahusika. Msimbo huu wa PIN ndio kikwazo pekee dhidi ya ufikiaji wa kimwili kwa maneno yako ya kurejesha akaunti.
 
 
 
@@ -173,7 +173,7 @@ Thibitisha msimbo wako wa PIN kwa mara ya pili.
 
 
 
-Mtunza mbegu wako sasa ameanzishwa. Unaweza kuifungua kwa kuweka msimbo wa PIN ambao umeweka hivi punde.
+Seedkeeper yako sasa imeanzishwa. Unaweza kuifungua kwa kuweka msimbo wa PIN ambao umeweka hivi punde.
 
 
 
@@ -189,11 +189,11 @@ Sasa utapelekwa kwenye ukurasa wako wa usimamizi wa kadi mahiri.
 
 
 
-## 5. Sajili seed kwa Mtunza Mbegu
+## 5. Sajili seed kwa Seedkeeper
 
 
 
-Mara Mtunza mbegu wako anapofunguliwa, bofya kitufe cha "+*".
+Mara Seedkeeper wako anapofunguliwa, bofya kitufe cha "+*".
 
 
 
@@ -201,7 +201,7 @@ Mara Mtunza mbegu wako anapofunguliwa, bofya kitufe cha "+*".
 
 
 
-Chagua "Ingiza siri *". Chaguo la "*Tengeneza siri*" hukuruhusu kuunda kifungu kipya cha maneno moja kwa moja kutoka ndani ya programu.
+Chagua "Ingiza siri*". Chaguo la "*Tengeneza siri*" hukuruhusu kuunda kifungu kipya cha maneno moja kwa moja kutoka ndani ya programu.
 
 
 
@@ -233,7 +233,7 @@ Kisha ingiza kifungu chako cha maneno cha urejeshi katika sehemu uliyopewa. Ukip
 
 
 
-*Mnemonic inayoonyeshwa katika picha hii ni ya kubuni na si ya mtu yeyote. Ni mfano tu. Kamwe usifunue mnemonic yako mwenyewe kwa mtu yeyote, au bitcoins zako zitaibiwa
+*Mnemonic inayoonyeshwa katika picha hii ni ya kubuni na si ya mtu yeyote. Ni mfano tu. Kamwe usifunue mnemonic yako mwenyewe kwa mtu yeyote, au bitcoin zako zitaibiwa
 
 
 
@@ -313,11 +313,11 @@ Kishazi chako cha mnemonic kilichorekodiwa awali sasa kinaonyeshwa kwenye skrini
 
 
 
-## 7. Kuhifadhi nakala ya Mtunza Mbegu
+## 7. Kuhifadhi nakala ya Seedkeeper
 
 
 
-Sasa tutafanya nakala rudufu ya Mtunza mbegu wangu kwa Mtunza Mbegu wa pili ili kuwa na nakala mbili. Upungufu huu unaweza kuwa sehemu ya mkakati wa kulinda bitcoins zako: kwa mfano, kuhifadhi maneno yako katika maeneo mawili tofauti ili kupunguza hatari za kimwili, au kukabidhi nakala kwa jamaa unayemwamini kama sehemu ya mpango wa urithi.
+Sasa tutafanya nakala rudufu ya Mtunza mbegu wangu kwa Mtunza Mbegu wa pili ili kuwa na nakala mbili. Upungufu huu unaweza kuwa sehemu ya mkakati wa kulinda bitcoin zako: kwa mfano, kuhifadhi maneno yako katika maeneo mawili tofauti ili kupunguza hatari za kimwili, au kukabidhi nakala kwa jamaa unayemwamini kama sehemu ya mpango wa urithi.
 
 
 
@@ -345,7 +345,7 @@ Hii inakupeleka kwenye ukurasa wa nyumbani, na orodha ya siri zako. Bofya kwenye
 
 
 
-Chagua "* Fanya chelezo *", kisha bonyeza "* Anza*".
+Chagua "*Fanya chelezo*", kisha bonyeza "*Anza*".
 
 
 
@@ -393,7 +393,7 @@ Unaweza kuchanganua Seedkeeper n°2 yako ili kuangalia kama siri zimenakiliwa.
 
 
 
-Hayo ndiyo yote yaliyopo kwake! Sasa unajua jinsi ya kutumia Mtunza mbegu ili kuhifadhi maneno ya mnemonic ya Bitcoin wallet. Katika mafunzo yajayo, tutaangalia jinsi ya kutumia Seedkeeper kuhifadhi manenosiri yako. Pia ninakualika ugundue matumizi yake kwa pamoja na SeedSigner :
+Hayo ndiyo yote yaliyopo kwake! Sasa unajua jinsi ya kutumia Seedkeeper ili kuhifadhi maneno ya mnemonic ya Bitcoin wallet. Katika mafunzo yajayo, tutaangalia jinsi ya kutumia Seedkeeper kuhifadhi manenosiri yako. Pia ninakualika ugundue matumizi yake kwa pamoja na SeedSigner :
 
 
 

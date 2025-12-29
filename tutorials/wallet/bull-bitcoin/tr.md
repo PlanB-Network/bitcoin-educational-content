@@ -1,1290 +1,640 @@
 ---
 name: Bull Bitcoin Wallet
-description: Wallet Bull Bitcoin'nin nasıl kullanılacağını öğrenin
+description: Wallet Bull Bitcoin'in nasıl kullanılacağını öğrenin
 ---
 
 ![cover](assets/cover.webp)
 
 
+![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
-Bu kılavuz sizi Bull Bitcoin Mobile'ın kurulumu, yapılandırılması ve kullanımına götürür. Üç ağda nasıl para alacağınızı ve göndereceğinizi öğreneceksiniz: onchain, Liquid ve Lightning ve Bitcoin'ünüzü bir ağdan diğerine nasıl aktaracağınızı. Eklerde kaynaklar ve iletişim bilgileri, arka plan bilgileri ve teknik kavramların kısa açıklamaları yer almaktadır.
 
+*BTC Sessions'ın bu eğitim videosu, Bull Bitcoin Wallet'ü kurma ve kullanma sürecinde size yol gösteriyor!
+
+
+Bu kılavuz sizi Bull Bitcoin Wallet'ün kurulumu, yapılandırılması ve kullanımına götürür. Bitcoin On-Chain, Liquid ve Lightning ağlarında para gönderip almayı ve Bitcoin'yı bunlar arasında nasıl taşıyacağınızı öğreneceksiniz. wallet'in kapsamlı özellikleri, onu Bitcoin'nızı yönetmek için güçlü, hepsi bir arada bir araç haline getirir. Hadi başlayalım.
 
 
 ## Giriş
 
 
-
-**Bull Bitcoin** ([hesap oluştur](https://app.bullbitcoin.com/registration/orangepeel)) tarafından geliştirilen **Bull Bitcoin Mobile**, bir **kendi kendine emanet** Bitcoin Wallet'dur, yani üçüncü bir tarafa bağlı olmadan özel anahtarlarınız ve dolayısıyla fonlarınız üzerinde tam kontrole sahipsiniz. Açık kaynaklı ve Cypherpunk felsefesine dayanan bu Wallet, basitlik, gizlilik ve ağlar arası takas ve PayJoin desteği gibi gelişmiş özellikleri bir araya getirir. Bitcoinlerinizi üç ağ üzerinde yönetmenizi sağlar: **Bitcoin onchain**, **Liquid** ve **Lightning**, her biri belirli kullanımlara göre uyarlanmıştır.
-
+Bull Bitcoin](https://www.bullbitcoin.com/) tarafından geliştirilen Bull Bitcoin Wallet, **kendini emanet eden** bir Bitcoin wallet'tir; bu da üçüncü bir tarafa bağlı olmadan özel anahtarlarınız ve dolayısıyla fonlarınız üzerinde tam kontrole sahip olduğunuz anlamına gelir. Açık kaynaklı ve Cypherpunk felsefesine dayanan bu Wallet, basitlik, gizlilik ve ağlar arası takas ve PayJoin desteği gibi gelişmiş özellikleri bir araya getirir. Bitcoinlerinizi üç ağ üzerinde yönetmenizi sağlar: **Bitcoin onchain**, **Liquid** ve **Lightning**, her biri belirli kullanımlara göre uyarlanmıştır. BullBitcoin GitHub]'da (https://github.com/orgs/SatoshiPortal/projects/49) güncel konulara ve gelecek gelişmelere göz atabilirsiniz. Proje %100 açık kaynaklı ve "halka açık" olduğundan, önerilerinizi ve karşılaştığınız hataları da gönderebilirsiniz. Bazı cüzdanlar artık birden fazla ağı desteklerken, Bull Bitcoin Wallet gizlilik özelliklerini hepsine derinlemesine entegre ederek öne çıkıyor ve Bitcoin'nizi tüm büyük ağlarda yönetmek için güçlü bir araç haline getiriyor
 
 
-### Kalkınma bağlamı
+## 1️⃣ Ön Koşullar
 
 
-
-Wallet büyük bir zorluğa yanıt vermektedir: Bitcoin ağ ücretleri küçük ödemeler için veya kendi kendine barındırılan küçük Lightning kanalları açmak için uygun değildir. Wallet Bull Bitcoin Mobile, 3 büyük Bitcoin ağına güvenirken kendi kendine emanet bir çözüm sunar:
+Bull Bitcoin Wallet**'yı kullanmaya başlamadan önce, aşağıdaki öğelere sahip olduğunuzdan emin olun:
 
 
 
-
-
-- **Bitcoin ağı (onchain)**: Ücretlerin oransal olarak ihmal edilebilir olduğu UTXO'ların ve büyük değerli işlemlerin orta ila uzun vadeli depolanması için idealdir.
-- **Liquid Network**: Hızlı (~2 dakika), daha gizli (gizli miktarlar), düşük maliyetli işlemler için tasarlanmıştır, küçük miktarlar biriktirmek veya gizliliğinizi korumak için mükemmeldir.
-- **Lightning** ağı: Anında, düşük maliyetli ödemeler için optimize edilmiş, küçük ve orta değerli günlük işlemler için uygundur.
-
-
-
-Örneğin Bull Bitcoin Mobile ile **Liquid** veya **Lightning** portföylerinde küçük miktarlarda birikim yapabilir ve ardından önemli bir miktara ulaştığınızda :
-
-
-
-
-
-- Liquid ve/veya Lightning upstream ile geliştirilmiş gizlilik ve tek bir işlem için onchain ücretleri ile güvenli orta veya uzun vadeli depolama için onchain ağına aktarım
-
-
-
-### Sürekli evrim
-
-
-
-Wallet sürekli olarak gelişmektedir, bu nedenle bu eğitim ile güncel uygulamanız arasında tutarsızlıklar bulursanız şaşırmayın.
-
-
-
-
-- Örneğin, 19/07/2025 tarihinden itibaren, Exchange'de [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel) mevcut olan bu seçenekler yakında birleşik bir deneyim için entegre edileceğinden, **"Al / Sat / Öde "** düğmeleri uygulamada görünür ancak gri renktedir. Kullanımları tamamen isteğe bağlı kalacaktır. Diğer birçok gelişme devam etmekte veya planlanmaktadır: çoklu Wallet yönetimi, passphrase, donanım cüzdanlarıyla uyumluluk ...
-- BullBitcoin GitHub]'da (https://github.com/orgs/SatoshiPortal/projects/49) güncel konulara ve gelecek gelişmelere göz atabilirsiniz. Proje %100 açık kaynaklı ve "halka açık" olduğundan, önerilerinizi ve karşılaştığınız hataları da bize gönderebilirsiniz.
-
-
-
-
-## 1. Ön Koşullar
-
-
-
-**Bull Bitcoin Mobile** cihazını kullanmaya başlamadan önce, aşağıdaki öğelere sahip olduğunuzdan emin olun:
-
-
-
-
-
-- **Uyumlu Akıllı Telefon**: Bir **iOS** (iPhone veya iPad) veya **Android** cihazı
+- Uyumlu Akıllı Telefon**: Bir **iOS** (iPhone veya iPad) veya **Android** cihazı
 - İnternet bağlantısı
 - Güvenli yedekleme medyası**: Kurtarma cümlenizi** (12 kelime) kağıt veya metal üzerine yazın ve güvenli bir yerde saklayın.
-- **Temel bilgi**: Bitcoin kavramlarının (adresler, işlemler, ücretler) asgari düzeyde anlaşılması yararlıdır, ancak bu eğitim yeni başlayanlar için her adımı açıklamaktadır.
+- Temel bilgi**: Bitcoin kavramlarının (adresler, işlemler, ücretler) asgari düzeyde anlaşılması yararlıdır, ancak bu eğitim yeni başlayanlar için her adımı açıklamaktadır.
+
+
+## 2️⃣ Kurulum
+
+
+Uygulamayı şu yolla yükleyebilirsiniz:
 
 
 
-## 2. Kurulum
+- [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(iOS cihazları için)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (Android cihazlar için)
+
+
+Android kullanıcılarının da alternatif seçenekleri var:
 
 
 
+- APK'yı doğrudan [GitHub Releases] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) sayfasından indirin veya
+- Nostr uyumlu [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap) aracılığıyla yükleyin
 
 
-- **Başvuruyu indirin** :
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Android cihazlar için uygulama mağazasından indirin**
-- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Android cihazlar için APK'yı doğrudan indirin**
-- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Apple cihazları için TestFlight aracılığıyla indirin**
- - Sahte uygulamalardan kaçınmak için geliştiricinin adını (Bull Bitcoin) kontrol edin.
- - İndirilen sürümün GitHub'da belirtilen en son kararlı sürüme karşılık geldiğinden emin olun.
- - Bull Bitcoin Mobile **açık kaynaklıdır**. Kodu görüntülemek için: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
+Uygulamayı yükledikten sonra, hesabınızı yapılandırmak için karşılama ekranını takip edin.
 
 
+## 3️⃣ İlk yapılandırma
 
 
-
-- Uygulamayı yükleyin
+Açılışta, aşağıdaki seçenekler sorulur:
 
 
 
-
-## 3. İlk yapılandırma
-
-
-
-### 3.1 Uygulamayı başlatın :
+- `Yeni Wallet Oluştur`
+- `Recover Wallet` ve
+- `Gelişmiş Seçenekler`
 
 
-
-Uygulama, her iki portföy için de 12 kelimelik benzersiz bir kurtarma ifadesi kullanır:
-
+Gelişmiş Seçenekler'e dokunarak başlayalım.
 
 
-
-- **güvenli Bitcoin Wallet**: Bitcoin ağındaki işlemler için (onchain)
-- **Anında Ödemeler Wallet**: Liquid ve Lightning ağlarında anlık işlemler için
+Burada, bir wallet oluşturmadan veya kurtarmadan önce gelişmiş ayarları yapılandırabiliriz:
 
 
+1. Trafiği Tor ağı üzerinden yönlendirmek için `Tor proxy`yi etkinleştirin.
 
-Açılışta, mevcut bir kurtarma ifadesini içe aktarmanız veya yeni bir Wallet oluşturmanız istenir:
+1. etkinleştirmeden önce [Orbot uygulaması](https://orbot.app/en/) kurulmalı ve çalıştırılmalıdır
 
+2. Tor Proxy yalnızca Bitcoin (Liquid değil) için geçerlidir ve daha yavaş bir bağlantıya neden olabilir.
 
+2. Bir `Özel Electrum Server` kurun veya
 
-![image](assets/fr/02.webp)
-
-
-
-### 3.2 Kurtarma ifadesi :
-
+3. Boğayı Kurtar` ayarlarını yapın. Daha sonra [Boğayı Kurtar] (https://recoverbull.com/) hakkında daha fazla bilgi edineceğiz.
 
 
-Mevcut bir Wallet'i yeniden kullanmak istiyorsanız, "**Wallet'i Kurtar**" seçeneğine tıklayın ve kurtarma ifadenizin 12 kelimesini doldurun.
+Tüm isteğe bağlı ayarlamaları yaptıktan sonra `Bitti` seçeneğine dokunun. Mevcut bir Wallet'i yeniden kullanmak isterseniz, `Wallet'i Kurtar` seçeneğine tıklayın ve kurtarma ifadenizin 12 kelimesini doldurun.
 
 
+Aksi takdirde, `Yeni Bir Wallet Oluştur` seçeneğine tıklayın.
 
-Aksi takdirde, "**Yeni Wallet** Oluştur" üzerine tıklayın:
 
+![image](assets/en/01.webp)
+
+
+## 4️⃣ Ana Ekran
+
+
+Daha derine inmeden önce, yönümüzü bulmak için `Ana Ekran`a bir göz atalım:
 
 
 
-- Kurtarma ifadenizi son derece dikkatli bir şekilde yazın. Kağıt veya metal üzerine yazın ve güvenli bir yerde saklayın (kiralık kasa, çevrimdışı konum). Bu ifade, cihazınızın kaybolması veya uygulamanın silinmesi durumunda bitcoinlerinize erişmek için tek yolunuzdur.
+- işlemlere genel bakış` ve `ayarlar menüsü` en üstte yer almaktadır.
+- Mevcut Bakiye`de `açılabilen veya kapatılabilen` bir gizlilik seçeneği vardır.
+- "Satın Almak, Satmak veya Ödemek" için "Bitcoin Bull Exchange "ye erişin (bu, yargı yetkisine bağlıdır ve KYC gerektirebilir).
+- cüzdanlar arasında fonların `Transferi`
+- `Secure Bitcoin` eşittir Onchain Bitcoin Wallet
+- lightning- / Liquid Network üzerinden `Anında ödemeler` *(Not: Bull Bitcoin Wallet, ödemelerin Lightning üzerinden yapılmasını ve alınmasını sağlar. Lightning aracılığıyla alınan fonlar, [*Boltz exchange](https://boltz.exchange/) üzerinden otomatik takas sayesinde [*Liquid network](https://liquid.net/) (Wallet Anında Ödemeler'de) saklanır. Bu, size likidite kanallarını yönetmek zorunda kalmadan Lightning ile etkileşim kurma olanağı sağlarken, kendi kendini saklama özelliğini de korur.)
+- fonların `Gönderilmesi` ve `Alınması`
+
+
+![image](assets/en/02.webp)
+
+
+İlk olarak, bazı önemli yapılandırmaları yapalım ve `Yedekleme` ile başlayalım.
+
+
+## 5️⃣ Yedekleme
+
+
+Yedekleme işlemine başlamak için uygulamanın sağ üst köşesindeki `dişli simgesine (⚙)` dokunun ve `Wallet Yedekleme`yi seçin. wallet'nizi güvence altına almak için size iki yöntem sunulacaktır: `Şifreli Kasa` ve `Fiziksel Yedekleme`. Şimdi her birini inceleyelim.
+
+
+![image](assets/en/03.webp)
+
+
+### Fiziksel Yedekleme
+
+
+Kurtarma veya seed ifadenizi temsil eden 12 kelimelik bir liste görmek için `Fiziksel Yedekleme` üzerine dokunun. Lütfen aşağıdakileri göz önünde bulundurun:
+
+
+
+- Kurtarma cümlenizi büyük bir dikkatle yazın. Kağıda veya metal üzerine yazın ve güvenli bir yerde (kiralık kasa, çevrimdışı konum) saklayın. Bu ifade, cihazınızın kaybolması veya uygulamanın silinmesi durumunda bitcoinlerinize erişmenin tek yoludur.
 - Bu ifadeye sahip herhangi birinin tüm bitcoinlerinizi çalabileceğini de unutmamak gerekir. Asla dijital olarak saklamayın:
- - Ekran görüntüsü yok
- - Bulut, e-posta veya mesajlaşma yedeklemesi yok
- - Kopyala/yapıştır yok (panoya kaydetme riski)
+- Ekran görüntüsü yok
+- Bulut, e-posta veya mesajlaşma yedeklemesi yok
+- Kopyala/yapıştır yok (panoya kaydetme riski)
 
 
+![image](assets/en/25.webp)
 
-**! Bu nokta kritiktir**. Daha fazla yardım için :
 
+Bir sonraki ekranda seed ifadesini doğru yaptığınızdan emin olmak için kelimeleri doğru sıraya koymanız istenecektir. Test tamamlandığında ve başarılı olduğunda bir onay alacaksınız.
+
+
+! **Bu nokta kritiktir**. Daha fazla yardım için :
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 3.3 Erişimin güvence altına alınması :
+### Şifreli kasa
+
+
+Ayrıca bulutta şifrelenmiş, anonim bir yedekleme seçeneği de vardır. Ancak son paragrafta bulut yedeklemelerinin riskli olduğundan ve kaçınılması gerektiğinden bahsetmemiş miydik? Bununla birlikte, Bull Bitcoin ekibi süreci güvenli hale getirmek için akıllıca bir yol geliştirdi. İşte nasıl çalıştığı:
+
+
+"Recoverbull", yedeklemeyi iki parçaya bölerek Bitcoin wallet'nizin güvenliğini basitleştiren bir yedekleme protokolüdür. İlk olarak, wallet'nizin yedekleme dosyası güçlü bir şifreleme anahtarı kullanılarak cihazınızda şifrelenir. Bu şifrelenmiş dosyayı Google Drive veya cihazınız gibi istediğiniz yere kaydedebilirsiniz. İkinci olarak, dosyanın kilidini açmak için gereken şifreleme anahtarı Recoverbull Anahtar Sunucusu tarafından saklanır. wallet'nizi kurtarmak için hem şifrelenmiş yedekleme dosyasına hem de PIN veya şifrenizle eriştiğiniz anahtara ihtiyacınız vardır. Bu tasarım, bulut yedeklemenizin tek başına işe yaramamasını ve anahtar sunucusunun da sizin özel yedekleme dosyanız olmadan işe yaramamasını sağlar. Bu, bir parça tehlikeye girse bile fonlarınızı güvende tutar.
+
+
+Bunu bir kiralık kasa gibi düşünün. Şifrelenmiş yedekleme dosyası, herhangi bir yerde (Google Drive gibi) saklayabileceğiniz *kutudur*. Kurtarma PIN'iniz ise Recoverbull Anahtar Sunucusu tarafından ayrı olarak saklanan *anahtar*. Bir hırsızın kutuyu açmak için hem sizin özel kutunuzu hem de sizin özel anahtarınızı ele geçirmesi gerekir. Bu tasarım, birisi yedekleme dosyanızı ele geçirse bile, sunucudan gelen anahtar olmadan işe yaramamasını ve sunucunun anahtarının benzersiz yedekleme dosyanız olmadan işe yaramamasını sağlar.
+
+
+Recoverbull` wallet yedekleme protokolü hakkında daha fazla bilgi edinin [burada](https://recoverbull.com/).
+
+
+Varsayılan Sunucuyu kullanmayı onaylamak için `Şifreli kasa` ve ardından `Devam et` üzerine dokunun. Bağlantı, gizlilik ve anonimlik sağlamak için `Tor` Ağı üzerinden yönlendirilecektir.
+
+
+**Şifrelerinizi Anlamak**
 
 
 
+- uygulama Kilidi Açma PIN`i**:** Telefonunuzdaki uygulamayı kilitlemek için `Ayarlar > Güvenlik PIN`inde ayarlanan isteğe bağlı PIN.
+- kurtarma PIN`i**:** `Şifreli Kasa` yedekleme işlemi sırasında oluşturulan ve kurtarma sırasında yedekleme dosyanızın şifresini çözmek için kullanılan zorunlu PIN.
 
 
-- Ayarlara gidin ve ardından **PIN Kodu** üzerine tıklayın.
-- Uygulamaya erişimi korumak için sağlam bir **PIN kodu** oluşturun.
-- Bu adım isteğe bağlıdır, ancak telefonunuza erişimi olan herhangi birinin Wallet'ünüze erişmesini önlemek için şiddetle tavsiye edilir.
+Bunlar iki ayrı PIN kodudur. wallet'ünüzü geri yüklemek için gerekli olduğundan Kurtarma PIN kodunuzu unutmayın."
+
+
+**Kurtarma PIN Kurulumu:**
 
 
 
-![image](assets/fr/03.webp)
+- wallet'inize erişimi kurtarmak için bir PIN veya Parola oluşturmanız gerekir.
+- PIN / Parola en az 6 basamak uzunluğunda olmalıdır (örneğin, kabul edilmeyen 123456 gibi basit dizilerden kaçının).
+- Bu PIN olmadan wallet'nın kurtarılması mümkün değildir.
+
+
+Ardından, bir kasa sağlayıcısı seçin:
 
 
 
-### 3.4 Kişisel bir düğüme bağlantı (isteğe bağlı):
+- `Google Drive` veya
+- bir `özel konum` (örneğin cihazınız)
 
+
+![image](assets/en/04.webp)
+
+
+Şimdi, `yedekleme dosyasını` kaydedin. Ardından, `Kurtarmayı Test Et` seçeneğine dokunun, kayıtlı yedekleme dosyanızı veya kasanızı seçin ve ardından `Kasanın Şifresini Çöz` seçeneğine dokunun. PIN veya Parola`nızı girin. Her şey çalıştıysa, `Test başarıyla tamamlandı` ekranı görünecektir.
+
+
+### İthalat / İhracat Etiketleri
+
+
+Şimdi Yedeklememizi oluşturduğumuza göre `Etiketlere' bir göz atalım.  Bull Bitcoin wallet, kullanıcıların alıcı adresleri ve işlemleri için özel etiketler oluşturmalarına olanak tanıyarak gizliliği ve organizasyonu geliştirir. Bu etiketler, etiketli bir adrese gönderilen işlemler bu etiketi devralacağı için fonlarınızı kategorize etmenize yardımcı olur ve değişimlerini izlemek için giden işlemleri de etiketleyebilirsiniz. wallet [BIP-329] (https://bip329.org/) standardını tam olarak destekler, yani tüm etiketlerinizi bir dosyaya aktarabilir ve başka bir wallet'e aktarabilirsiniz. Bu özellik, kişiselleştirilmiş organizasyonunuzu kaybetmeden işlem geçmişinizi ve kategorizasyonlarınızı sorunsuz bir şekilde yedekleyebilmenizi veya bunları farklı wallet örnekleri arasında taşıyabilmenizi sağlar.
+
+
+![image](assets/en/05.webp)
+
+
+## 6️⃣ Ayarlar
+
+
+Birincil yedeklemeniz güvence altına alındıktan sonra, ayarlarda bulunan diğer özellikleri keşfedelim.
+
+
+### A - Erişimin güvence altına alınması
+
+
+Uygulamayı güvenli hale getirmek için `Ayarlar` bölümüne gidin ve PIN Kodunu seçmek için `Güvenlik PIN`ini seçin. wallet'nize erişimi kilitlemek için güçlü bir PIN oluşturun. Bu adım isteğe bağlı olmakla birlikte, telefonunuzu başka birinin kullanması durumunda yetkisiz erişimi önlemek için şiddetle tavsiye edilir.
+
+
+![image](assets/en/06.webp)
+
+
+### B - Kişisel bir düğüme bağlantı (isteğe bağlı)
 
 
 Wallet BullBitcoin varsayılan olarak Electrum sunucularına bağlanır: Bull Bitcoin tarafından yönetilen ilk sunucu ve Blockstream'den ikincil bir sunucu, her ikisinin de günlük tutmadığı ve izleme riskini azalttığı düşünülmektedir.
 
 
-
-Daha fazla gizlilik için, uygulamayı bir Electrum sunucusu aracılığıyla kendi Bitcoin düğümünüze bağlayabilirsiniz ([BullBitcoin'in GitHub](https://github.com/orgs/SatoshiPortal/projects/49) adresinde talimatlar mevcuttur).
-
+Daha fazla gizlilik için, uygulamayı bir Electrum sunucusu aracılığıyla kendi Bitcoin düğümünüze bağlayabilirsiniz. Bunu yapmak için, `Ayarlar` > `Bitcoin Ayarları` > `Electrum Server Ayarları` üzerine dokunun, ardından sunucunuzun adresini ve kimlik bilgilerini girmek için `+ Özel Sunucu Ekle` üzerine dokunun.
 
 
-
-## 4. Fonların alınması
-
+![image](assets/en/07.webp)
 
 
-İster **Bull Bitcoin Mobile** kullanın, **Bull Bitcoin Mobile** ile para almak basittir ve ihtiyaçlarınıza göre uyarlanmıştır:
+### C - Para Birimi
 
 
+Mevcut bakiye ana ekranda hem `sats` hem de `USD` cinsinden görüntülenir. Bunu değiştirmek için `Ayarlar` > `Para Birimi` bölümüne gidin. Burada, `sats/BTC` arasında geçiş yapabilir ve `varsayılan fiat para biriminizi` seçebilirsiniz.
 
 
-  - uzun vadeli koruma için **Bitcoin (onchain)** ağı,
-  - hızlı, daha fazla Confidential Transactions için **Liquid** ağı,
-  - anında, düşük değerli ödemeler için **Lightning** ağı.
+![image](assets/en/08.webp)
 
 
+### D - Bitcoin Ayarları
 
-Uygulama, seçilen ağa bağlı olarak otomatik olarak Lightning alımı veya Invoice adreslerini oluşturur. Her ağ için nasıl ilerleyeceğiniz aşağıda açıklanmıştır.
+
+Bitcoin Ayarları menüsü, wallet'ınızın temel yapılandırmalarına ve verilerine derinlemesine erişim sunar. Burada, `Secure Bitcoin` ve `Anında ödemeler cüzdanlarınızın` temel ayrıntılarını inceleyebilir, size tam şeffaflık ve kontrol sağlayabilirsiniz. Bu menüdeki temel özellikler şunlardır:
 
 
 
-### 4.1. onchain (Bitcoin ağı)
+- Wallet Detayları:** Belirli bilgileri görüntülemek için Güvenli Bitcoin veya Anında ödemeler wallet'ünüze gidin.
+- Wallet Parmak İzi:** wallet'iniz için benzersiz bir tanımlayıcı.
+- Açık Anahtar (Pubkey):** generate alıcı adreslerinizi Bitcoin yapmak için kullanılan anahtar.
+- Descriptor:** wallet'unuzun yapısının teknik bir özeti.
+- Türetme Yolu:** Ana özel anahtarınızdan tüm adresleri generate yapmak için kullanılan belirli yol.
+- Address Görünümü:** Kullanılmayan alıcı adreslerinizin listesine erişin ve adresleri değiştirin (yakında)
+
+
+Ayrıca, şu seçeneklere de sahipsiniz:
 
 
 
-Ana ekranda şunları yapabilirsiniz:
+- maksimum anlık wallet bakiyesini ayarlamak için `Otomatik Transferi Etkinleştir` ayarları, daha sonra otomatik olarak güvenli bitcoin wallet'ye aktarılacaktır.
+- Genel cüzdanları `Mnemonic` İfadesi aracılığıyla içe aktarın veya `sadece izle`yi içe aktarın
+- Donanım cüzdanlarını bağlayın: şu anda desteklenen cihazlar ColdcardQ, SeedSigner, Spectre, Krux, Blockstream Jade ve Foundation Passport'tur
+
+
+## 7️⃣ Bull Bitcoin Exchange
+
+
+Doğrudan wallet'den [Bull Bitcoin borsasına] (https://www.bullbitcoin.com/) erişerek uygulamadan çıkmadan Bitcoin satın alabilir, satabilir ve ödeme yapabilirsiniz. Bu entegrasyon, Bitcoin ihtiyaçlarınızı yönetmek için uygun bir çözüm sağlar. Lütfen borsaya ve hizmetlerine erişimin yetki alanınıza bağlı olarak kısıtlanabileceğini ve düzenleyici standartlara uymak ve platformun tüm özelliklerini kullanmak için Müşterinizi Tanıyın (KYC) doğrulamasının tamamlanması gerekebileceğini unutmayın.
+
+
+Başlamak için, sağ alt köşedeki `Exchange` üzerine dokunun, ardından `Kayıt ol` veya hesabınıza `Giriş yap`.
+
+
+Borsa aşağıdaki [özellikleri] sunmaktadır (https://www.bullbitcoin.com/):
 
 
 
-
-- veya **Secure Bitcoin Wallet** öğesini seçin ve ardından "**Al "** öğesine tıklayın:
-
-
-
-![image](assets/fr/04.webp)
-
-
-
-
-
-- veya "**Alıcı "** üzerine tıklayın ve ardından **Bitcoin** ağını seçin:
+- Banka hesabınızdan kendi gözetiminizle Bitcoin satın alın
+- Gözetim altında olmayan
+- Bireyler veya şirketler
+- Anında para çekme
+- Gizli ücret yok
+- Lightning Network mevcut
+- İşlem limiti yok
+- Yinelenen satın alma seçenekleri
 
 
-
-![image](assets/fr/05.webp)
-
+![image](assets/en/09.webp)
 
 
-#### 4.1.1. Yalnızca Address'yı kopyala veya tara" seçeneği devre dışı (varsayılan)
+Daha fazla bilgi edinmek için lütfen bu eğitimi ziyaret edin:
 
 
+https://planb.academy/en/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![image](assets/fr/06.webp)
+## 8️⃣ Fonların alınması
+
+
+Bull Bitcoin Wallet** ile fon almak basit ve esnektir, farklı kullanım durumları için uyarlanmış üç farklı ağı destekler:
 
 
 
+- Güvenli, uzun süreli depolama için `Bitcoin (onchain)` ağı.
+- Hızlı ve daha gizli işlemler için `Liquid` ağı.
+- Anında, düşük maliyetli ödemeler için `Lightning` ağı.
 
 
-- Bu, isteğe bağlı gelişmiş parametrelere erişim sağlar. Belirtebilirsiniz :
- - BTC, Sats veya fiat cinsinden bir **miktar**.
- - URI / QR Kodunun kopyasına dahil edilecek bir **kişisel not**.
- - Gönderici ve alıcı girişlerini birleştirerek gizliliği artıran **PayJoin**'in etkinleştirilmesi (ayrıntılar için Ek 3'e bakın).
+Uygulama, seçtiğiniz ağa göre uygun adresi veya faturayı otomatik olarak oluşturur. Her bir ağ için nasıl ilerleyeceğiniz aşağıda açıklanmıştır.
+
+
+### Onchain (Bitcoin ağı) üzerinden alma
+
+
+on-chain fonlarını almak için Ana ekrandan `Güvenli Bitcoin Wallet`i seçip `Al`a dokunabilir veya ana `Al` düğmesine dokunup ardından `Bitcoin ağı`nı seçebilirsiniz.
+
+
+Bir alma adresi oluşturmak için iki temel modunuz vardır:
+
+
+**Varsayılan Mod (ek giriş parametreleri ile URI)
+
+
+Varsayılan olarak, wallet bir [BIP21 URI] (https://bips.dev/21/) oluşturur. Bu, gizliliği artırmak için bir miktar, kişisel bir not ve PayJoin parametreleri dahil olmak üzere basit bir adresten daha fazla bilgiyi paketleyen standartlaştırılmış bir formattır. Bu kapsamlı URI bir QR koduna kodlanır ve kopyalanabilir hale getirilir. Format şu şekildedir: `bitcoin:<adres>?<parametre1>=<değer1>&<parametre2>=<değer2>`.
 
 
 
+- Ek Girdi Parametreleri:**
+    - Tutar:** BTC, sats veya fiat para birimi cinsinden istenen tutarı belirtin.
+    - Mesaj:** Gönderen tarafından görülebilecek kişisel bir not ekleyin.
+    - PayJoin:** İşlemde hem göndericiden hem de alıcıdan gelen girdileri birleştirerek gizliliği artırmak için bu seçeneği etkinleştirin.
 
 
-- **Otomatik olarak oluşturulan bir URI örneği**:
-
+Örnek URI:
 
 
 ```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+bitcoin:bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54xxxxx?amount=0.0005&message=Tip+for+tutorial&pj=HTTPS%3A%2F%2FPAYJO.IN%2F78UH9WZUP8KKJ%23RK1Q2H30FASCU9WW09DQY2LK0K8P2DPRJ99V72CA78ACQAEL675QYTMQ+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1L0LYV6G
 ```
 
 
+*Önemli Not: Lütfen bu eğitimdeki adreslere herhangi bir para göndermeyin, wallet silinecektir.*
 
 
+![image](assets/en/10.webp)
 
-- **Kullanım**: Gönderenle paylaşmak için URI'yi kopyalayın veya QR kodunu taramasına izin verin.
 
+**Sadece Address'i kopyala veya tara seçeneği etkin
 
 
-#### 4.1.2. Yalnızca Address'u kopyala veya tara" seçeneği etkin
-
-
-
-![image](assets/fr/07.webp)
-
-
-
-
-
-- "Yalnızca Address'yi kopyala veya tara" **seçeneği etkinleştirildiğinde, uygulama SegWit (bech32) formatında basit bir Bitcoin Address oluşturur.**
-
-
-
-
-
-- Örnek:
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-Bir tutar veya not girseniz bile, bunlar QR koduna veya Address kopyasına dahil edilmeyecektir
-
-
-
-
-
-- **Kullanım**: Gönderenle paylaşmak için Address'ü kopyalayın veya QR kodunu taramasına izin verin.
-
-
-
-#### 4.1.3. Yeni bir Address oluşturma
-
-
-
-
-
-- Neden her işlem için yeni bir Address kullanıyorsunuz? Bu, birden fazla ödemenin aynı Address'ye bağlanmasını önleyerek **gizliliğinizi korur** ve Blockchain'da izleme olasılıklarını sınırlar.
-- Varsayılan olarak, Bull Bitcoin otomatik olarak kullanılmayan bir **Address** oluşturur.
- - Ekranın altındaki **"Yeni Address"** seçeneğine tıklayarak yeni bir Address oluşturulmasını zorlayabilirsiniz.
- - Tüm adresleriniz seed ifadenize bağlıdır: kaç adres kullanırsanız kullanın, portföyünüz tek bir bakiye gösterecek ve bir gönderi yapıldığında fonları otomatik olarak birleştirebilecektir.
-
-
-
-
-
-- İpucu: Özel bir ihtiyacınız olmadıkça (örneğin bağış almak için halka açık bir Address) her zaman Bull Bitcoin tarafından sağlanan yeni **Address**'yi kullanın.
-
-
-
-### 4.2. Liquid
-
-
-
-Ana ekranda şunları yapabilirsiniz:
-
-
-
-
-- veya **Anında ödemeler Wallet** öğesini seçin, ardından **"Al "** öğesine ve ardından **"Liquid"** öğesine tıklayın:
-
-
-
-![image](assets/fr/08.webp)
-
-
-
-
-
-- veya "**Alıcı "** üzerine tıklayın ve ardından **Liquid** ağını seçin:
-
-
-
-![image](assets/fr/09.webp)
-
-
-
-"Al "** ekranına geldiğinizde, bir Liquid Address kopyalayın:
-
-
-
-
-
-- Miktar veya not yok. Örnek:
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-
-
-- Veya URI / QR Kodunun kopyasına dahil edilecek bir **miktar** (BTC, Sats veya fiat cinsinden) ve/veya bir **kişisel not** belirterek. Örnek:
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-**Kullanın**: Gönderenle paylaşmak için Address/URI'yi kopyalayın veya QR kodunu taramasına izin verin.
-
-
-
-### 4.3. Yıldırım
-
-
-
-Ana ekranda şunları yapabilirsiniz:
-
-
-
-
-- veya **Anında ödemeler Wallet**'yi seçin ve ardından **Al** düğmesine tıklayın:
-
-
-
-![image](assets/fr/10.webp)
-
-
-
-
-
-- veya "**Alıcı "** üzerine tıklayın ve ardından **Yıldırım** ağını seçin:
-
-
-
-![image](assets/fr/11.webp)
-
-
-
-#### 4.3.1. Çalışma, sınırlar ve faydalar
-
-
-
-
-
-- **Mekanizma**: Bull Bitcoin Wallet, ödemelerin Lightning aracılığıyla yapılmasını ve alınmasını sağlayan bir Wallet'tir. Lightning aracılığıyla alınan fonlar, **Boltz** aracılığıyla otomatik bir takas sayesinde **Liquid** ağında (Wallet Anında Ödemelerde) saklanır. Bu, size likidite kanallarını yönetmek zorunda kalmadan Lightning ile etkileşim kurma olanağı sağlarken, kendi kendini saklama özelliğini de korur.
-
-
-
-
-
-- **Sınırlar:**
-- generate'yı Invoice yaptığınızda minimum 100 satoshi tutarında (19/07/2025 itibariyle).
-- Wallet Lightning native ile almanın aksine, yalnızca gönderenin gönderilen tutara ek olarak transfer masraflarını ödediği durumlarda, gönderen tarafından gönderilen tutardan düşülecek olan masrafları **siz** ödersiniz. 19/07/2025 tarihi itibarıyla 47 Sats gönderilen tutardan düşülmektedir.
-
-
-
-
-
-- **Avantajlar**:
-- **Kendi kendine emanet**: Fonlarınız sizin kontrolünüz altında kalır ve Liquid Network'de saklanır.
-- **Yüksek zincir içi ücretler yok**: Liquid üzerinde depolama, Lightning kanalınızı açmak veya likidite eklemek için maliyetli zincir içi para yatırma işlemlerini önler. Bu işlemler, Liquid'de biriken miktar ücretleri haklı çıkardığında daha sonra gerçekleştirilebilir.
-
-
-
-
-
-- **İpucu:** Göndericide Wallet Bull Bitcoin varsa, takas ücretlerinden kaçınmak için doğrudan Liquid Network kullanın
-
-
-
-#### 4.3.2. generate Invoice
-
-
-
-
-
-- Bir **miktar** girin (BTC, Sats veya fiat olarak)
-
-
-
-
-
-- Invoice'e entegre edilecek bir **kişisel not** ekleyin. Gönderen Invoice'i öderse, Wallet'unuz da bunu işlem ayrıntılarına dahil edecektir.
-
-
-
-
-
-- **Invoice geçerliliği:** Yıldırım Invoice **12 saat** için geçerlidir. Bu sürenin sonunda geçerliliğini yitirir ve artık ödeme yapılamaz. Yeni bir Invoice oluşturulmalıdır.
-
-
-
-
-
-- **Kullanım**: Gönderenle paylaşmak için Invoice'i kopyalayın veya QR kodunu taramasına izin verin.
-
-
-
-
-## 5. Fon gönderme
-
-
-
-### 5.1. Temel prensip
-
-
-
-Ya ana sayfadan ya da cüzdanlardan :
-
-
-
-![image](assets/fr/12.webp)
-
-
-
-gönderme ekranına erişmek için:
-
-
-
-![image](assets/fr/13.webp)
-
-
-
-**Bull Bitcoin Mobile**, girilen Address veya Invoice'e (kopyalanan veya QR kodu ile taranan) göre ağı (Bitcoin, Liquid veya Lightning) otomatik olarak algılayarak para göndermeyi kolaylaştırır.
-
-
-
-### 5.2. zincirleme iletim (Bitcoin ağı)
-
-
-
-#### 5.2.1. Gönderme ekranı
-
-
-
-**Eylem**: Address zincirine bir Bitcoin girin veya tarayın
-
-
-
-
-
-- Miktar tanımlanmamışsa, örneğin :
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-
-
-- Ardından gönderme ekranında seçim yapabilirsiniz:
- - BTC, sat veya fiat cinsinden tutar. Minimum miktar: 22/07/2025 tarihinde 546 satoshis.
- - İşlemi tanımlamak için isteğe bağlı bir not. İşlem ayrıntılarında yalnızca sizin tarafınızdan görülebilir.
-
-
-
-![image](assets/fr/14.webp)
-
-
-
-
-
-- Miktar zaten tanımlanmışsa, örneğin :
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-Daha sonra doğrudan aşağıdaki onay ekranına yönlendirileceksiniz.
-
-
-
-#### 5.2.2 Onay ekranı
-
-
-
-Özellikle miktar, varış noktası Address ve ücretler olmak üzere tüm parametreleri kontrol etmek için zaman ayırın.
-
-
-Ardından parametreleri ayarlayabilirsiniz:
-
-
-
-![image](assets/fr/15.webp)
-
-
-
-
-- **Ücretler**: Seçebilirsiniz :
-- İşleminizin gerçekleştirilme **hızı** ve ilgili ücretler tahmin edilecektir
-- Mutlak ücretler (satoshi cinsinden toplam ücretler) veya Göreceli ücretler (bayt başına ücretler) modunda **ücretler** ve işleminizin hızı tahmin edilecektir
-
-
-
-
-
-- **Gelişmiş ayarlar**:
-
-
-
-
-
-- **Replace-by-fee (RBF)**: Varsayılan olarak etkinleştirilen bu işlev, daha yüksek bir ücret ödeyerek işlemi hızlandırır (ayrıntılar için Ek 4'e bakın).
-
-
-
-
-
-- **UTXO'in manuel seçimi**: Fonlarınız birkaç farklı Wallet adresinde saklanıyorsa, fonların gönderileceği adresleri seçebilirsiniz. Bunu neden yapmalısınız? Bitcoin'ün giderek daha fazla benimsenmesiyle birlikte transfer ücretleri artmaktadır. Küçük miktarlarda birkaç adresten göndermek, tek bir Address'den göndermekten daha pahalıdır, ancak bunu şimdi yapmak, ücretlerin daha da yüksek olacağı daha sonra yapmak zorunda kalmayı önler. Buna **UTXO'in konsolidasyonu** denir
-
-
-
-![image](assets/fr/16.webp)
-
-
-
-
-
-- **PayJoin** ile gönderme: İşlev, URI'yi sağlayan alıcı tarafından etkinleştirildiyse, örn:
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-Ardından Bull Bitcoin Mobile, UTXO'larınızı alıcının UTXO'ları ile girdi olarak birleştirerek gönderimi yapılandıracak ve gizliliği artıracaktır (ayrıntılar için Ek 3'e bakın).
-
-
-
-### 5.3. Liquid'e gönder
-
-
-
-#### 5.3.1 Gönderme ekranı
-
-
-
-**Liquid** ağı, hızlı işlemlere (dakikada bir blok sayesinde ~ 2 dakika), onchain ağından daha gizli (maskelenmiş tutarlar) ve çok düşük ücretlerle olanak tanır. Fonlar **Instant Payments Wallet**'dan çekilir.
-
-
-
-**Eylem**: Bir Liquid Address girin veya tarayın
-
-
-
-
-
-- Miktar tanımlanmamışsa, örneğin :
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-Ardından gönderme ekranında seçim yapabilirsiniz:
-
-
-
-
-- BTC, sat veya fiat cinsinden miktar. Minimum yok, 1 Satoshi mümkün;
-- İşlemi tanımlamak için isteğe bağlı bir not. İşlem ayrıntılarında yalnızca sizin tarafınızdan görülebilir.
-
-
-
-![image](assets/fr/17.webp)
-
-
-
-
-
-- Miktar zaten tanımlanmışsa, örneğin :
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-Daha sonra doğrudan aşağıdaki onay ekranına yönlendirileceksiniz.
-
-
-
-#### 5.3.2 Onay ekranı
-
-
-
-Tüm parametreleri, özellikle de Address miktarını ve hedefini kontrol etmek için zaman ayırın.
-
-
-
-![image](assets/fr/18.webp)
-
-
-
-
-
-- **Ücretler**: İşlemin karmaşıklığıyla orantılı olarak, genellikle 0,1 sat/vB bazında, yani basit bir işlem için 20-40 satoshis (22/07/2025 tarihinde 33 Sats).
-
-
-
-### 5.4. Yıldırım'a gönder
-
-
-
-#### 5.4.1 Gönderme ekranı
-
-
-
-**Lightning** ağı, küçük tutarlar için anında, düşük maliyetli ödemeler sağlar ve küçük günlük işlemler için idealdir.
-
-
-
-**Eylem**: Bir Lightning Invoice girin veya tarayın
-
-
-
-
-
-- Miktarı ayarlamanıza izin veren bir LN-URL Address tararsanız
-
-
-Örnek: `orangepeel@walletofsatoshi.com`.
-
-
-ardından gönderme ekranında seçim yapabilirsiniz:
-
-
-
-
- - BTC, sat veya fiat cinsinden tutar. 23/07/2025 tarihinde minimum 1000 satoshis tutarı
- - İşlemi tanımlamak için isteğe bağlı bir not. Alıcıya gönderilecektir.
-
-
-
-![image](assets/fr/19.webp)
-
-
-
-
-
-- Belirli bir miktar içeren bir Lightning Invoice tararsanız
+Yalnızca Address'yı kopyala veya tara seçeneği etkinleştirildiğinde, uygulama SegWit (bech32) formatında basit bir Bitcoin adresi oluşturur.
 
 
 Örnek:
 
 
-
-```
-lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
-```
-
-
-
-Daha sonra doğrudan aşağıdaki onay ekranına yönlendirileceksiniz.
-
-
-
-Not: miktar 23/07/2025 tarihinde 21 Sats'den büyük olmalıdır
-
-
-
-#### 5.4.2 Operasyon, sınırlar ve faydalar
-
-
-
-
-
-- **Mekanizma**: Fonlar **Anlık Ödemeler Wallet** (Liquid)'den çekilir ve **Boltz** ile bir **Liquid → Lightning** takası yoluyla dönüştürülür.
-
-
-
-
-
-- **Sınırlar:**
-- Wallet Lightning native'den daha yüksek bir **minimum miktar** (yukarıya bakın)
-- **Giderler** artı Liquid → Boltz aracılığıyla Yıldırım takası
-
-
-
-
-
-- **Avantajlar**:
-- **Kendi kendine emanet**: Fonlarınız kontrolünüz altında kalır, Liquid Network'te saklanır ve gerektiğinde Lightning aracılığıyla transfer edilebilir
-- **Yüksek zincir içi ücretler yok**: Liquid'da depolamak, Lightning kanalınızı açmak veya likidite eklemek için maliyetli zincir içi para yatırma işlemlerinden sizi kurtardı. Bu işlemler, Liquid'da biriken miktar ücretleri haklı çıkardığında daha sonra gerçekleştirilebilir.
-
-
-
-
-
-- **İpucu:** Alıcıda Wallet Bull Bitcoin varsa, takas maliyetlerinden kaçınmak için doğrudan Liquid Network kullanın
-
-
-
-#### 5.3.3 Onay ekranı
-
-
-
-Özellikle miktar ve hedef Address olmak üzere tüm parametreleri kontrol etmek için zaman ayırın.
-
-
-
-![image](assets/fr/20.webp)
-
-
-
-
-## 6. Geçmişi görüntüle
-
-
-
-**Bull Bitcoin Mobile**, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarındaki işlemlerinizi takip etmenizi kolaylaştırır. Geçmişe iki şekilde erişilebilir ve her işlem türü için ayrıntılı bilgi görüntülenir. İşlemlerinizi harici blok tarayıcıları kullanarak da kontrol edebilirsiniz.
-
-
-
-### 6.1. Erişim geçmişi
-
-
-
-
-
-- Ana ekran üzerinden:
-- Zincir içi işlemleri görüntülemek için **Secure Bitcoin Wallet** üzerine veya **Liquid** ve **Lightning** işlemleri için **Instant Payments Wallet** üzerine tıklayın.
- - Geçmiş, seçilen Wallet türüne göre filtrelenmiş olarak portföy toplamının hemen altında görüntülenir.
-
-
-
-![image](assets/fr/21.webp)
-
-
-
-
-
-- **Özel sayfa aracılığıyla** :
- - Ana ekranda **tarih simgesine** (saat simgesi veya benzeri) tıklayın.
- - İşlem türüne göre filtrelerle tüm işlemlerin listelendiği bir sayfaya erişin: **Gönder**, **Al**, **Takas**, **PayJoin**, **Sat**, **Al** (not: Sat ve Al geliştirme aşamasındadır ve şu anda mevcut değildir, 20 Temmuz 2025).
-
-
-
-![image](assets/fr/22.webp)
-
-
-
-### 6.2. İşlem detayları
-
-
-
-Her işlem, ağa ve eylem türüne (gönderme veya alma) bağlı olarak belirli bilgileri görüntüler. İşte bir **transaction onchain** için mevcut ayrıntılar:
-
-
-
-![image](assets/fr/23.webp)
-
-
-
-### 6.3. Block explorer üzerinden kontrol
-
-
-
-Bitcoin onchain, **Liquid** ve **Lightning** ağları için kaşiflerin listesi Ek 4'te yer almaktadır.
-
-
-
-**Lightning** için işlemler genel tarayıcılarda görünmez. Uygulamadaki ayrıntıları (Boltz için Swap ID dahil) kontrol edin.
-
-
-
-
-## 7. Ayarlar
-
-
-
-"Ayarlar" sayfasına doğrudan Bull Bitcoin uygulamasının ana sayfasından erişilebilir ve portföyün ve kullanıcı deneyiminin çeşitli yönlerini yapılandırmak ve yönetmek için kullanılır.
-
-
-
-![image](assets/fr/24.webp)
-
-
-
-
-
-- **Wallet Yedekleme**: Güvenli yedekleme için portföyün kurtarma ifadesini görüntüler. Kurtarma ifadesinin yönetilmesi ve saklanmasına ilişkin en iyi uygulamalar için portföy oluşturma hakkındaki 3. bölüme bakın.
-
-
-
-
-
-- **Wallet Detayları**:
-- **Pubkey**: generate Bitcoin alım adresleri için kullanılan, Wallet ile ilişkili genel anahtar.
-- **Türetme Yolu**: generate Wallet adreslerini özel anahtardan türetmek için kullanılan türetme yolu.
-
-
-
-
-
-- **Electrum Sunucusu (Bitcoin Düğümü)**: Zincir üzerindeki işlemler için özelleştirilmiş bir Bitcoin düğümüne bağlantı kurun.
-
-
-
-
-
-- **PIN Kodu**: Uygulamaya ve Wallet işlevlerine erişimi korumak için güvenlik kodunu etkinleştirin ve/veya değiştirin.
-
-
-
-
-
-- **Para Birimi**: Tutarların BTC veya Sats cinsinden görüntülenip görüntülenmeyeceğini ve varsayılan fiat para birimini (dolar, euro, vb.) seçin.
-
-
-
-
-
-- **Otomatik Takas Ayarları**: Otomatik Takas işlevi, BTC'nizin **Anında Ödemeler Wallet'ten (Liquid)** **Bitcoin On-Chain** Wallet'inize aktarımını, miktar işlem ücretini haklı çıkarmak için yeterince yüksek olduğunu düşündüğünüz bir eşiğe ulaşır ulaşmaz otomatikleştirmenize olanak tanır.
-
-
-
-
-
-- **Günlükler**: Sorun gidermeyi kolaylaştırmak için teknik destekle paylaşılabilen görüntülenebilir etkinlik günlükleri.
-
-
-
-
-
-- **Destek için Telegram erişimi**: Kullanıcı yardımı için resmi Telegram kanalına doğrudan bağlantı.
-
-
-
-
-
-- **Github erişimi**: Açık kaynak kodunu görüntülemek veya sorunları bildirmek için [Bull Bitcoin Github deposu](https://github.com/SatoshiPortal) bağlantısı.
-
-
-
-
-## EKLER
-
-
-
-### A1. PayJoin (P2EP) Açıklaması
-
-
-
-![image](assets/fr/25.webp)
-
-
-
-**Tanım** :
-
-
-
-
-- PayJoin veya **Pay-to-EndPoint (P2EP)**, **onchain** ağında gizliliği artıran bir Bitcoin işlem tekniğidir. Gönderici ve alıcı girişlerini tek bir işlemde birleştirerek tutarların ve adreslerin izlenmesini daha zor hale getirir.
-
-
-
-**Operasyon:**
-
-
-
-
-- Bir PayJoin işleminde, gönderici ve alıcı uyumlu bir PayJoin sunucusu aracılığıyla generate ortak bir işlem için birlikte çalışır.
-- Sadece göndericinin girdi sağlaması yerine (UTXO), alıcı da kendi UTXO'larından biriyle katkıda bulunur. Bu, Blockchain'de görünen bilgileri bulanıklaştırır: gerçek miktara karşılık gelen tek bir giriş yerine artık iki giriş vardır ve çıkışlar doğrudan değiş tokuş edilen miktarı yansıtmaz.
-- Nihai işlem standart bir Bitcoin işlemine (çoklu giriş/çoklu çıkış) benzer, ancak steganografik bir yapı sayesinde gönderilen gerçek miktarı ve adresler arasındaki bağlantıları gizler.
-
-
-
-**Bull Bitcoin Mobile'da kullanım için**
-
-
-
-
-- **Alma** (Address Supply): PayJoin varsayılan olarak etkindir.
-- **Gönder**: Wallet otomatik olarak bir PayJoin URI algılar ve işlemi buna göre yapılandırır, örneğin:
-
-
-
-```
-bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```javascript
+bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
+Bir tutar veya not girseniz bile, bunlar QR koduna veya kopyalanan adrese dahil edilmeyecektir.
 
 
-**Faydalar**
+![image](assets/en/11.webp)
 
 
+### Liquid Network üzerinden alım
 
 
-- **Geliştirilmiş gizlilik**: PayJoin, bir işlemdeki tüm girdilerin tek bir varlığa ait olduğu varsayımını geçersiz kılar. PayJoin ile girdiler hem göndericiden hem de alıcıdan gelir ve bu varsayımı bozar.
-- **Miktar maskeleme**: Değiş tokuş edilen gerçek miktar doğrudan çıktılarda görünmez. Alıcının UTXO gelen ve giden miktarı arasındaki fark olarak hesaplanır ve bu da analizi yanıltıcı hale getirir.
+Liquid Network üzerinden bir ödeme alabilirsiniz. Al ekranına geldiğinizde, bir ödeme talebi oluşturmak için aynı iki seçeneğe sahip olursunuz:
 
 
+**1. Basit Address:** Standart `Liquid adresini` kopyalayın. Bu, wallet ağındaki Liquid'ünüz için benzersiz bir tanımlayıcıdır ve herhangi bir özel miktar veya mesaj içermez.
 
-**Limits**
 
+Örnek Address:
 
 
+```javascript
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7xxxxxxx
+```
 
-- PayJoin, gönderici ve alıcının uyumlu cüzdanlar kullanmasını gerektirir, aksi takdirde standart bir zincir içi işlem kullanılır.
-- İşlem biraz daha karmaşıktır (daha fazla girdi ve çıktı), bu da biraz daha yüksek maliyetlere neden olur.
-- Standart bir işleme benzeyecek şekilde tasarlanmış olsa da, gelişmiş sezgisel yöntemler (örneğin belirsiz çıktılar, bilinen PayJoin sunucuları), kesin olmamakla birlikte, kullanımından şüphelenilmesine neden olabilir.
 
+**2. Detaylı Ödeme Talebi (URI):** Daha yapılandırılmış bir talep için bir miktar ve kişisel bir not belirtebilirsiniz. Bu bilgiler otomatik olarak paylaşılabilir bir URI'ye ve ilgili QR koduna kodlanır.
 
 
-**Daha fazla bilgi:**
 
+- Tutar:** Tutarı Bitcoin (BTC), Satoshis (Sats) veya fiat para birimi olarak ayarlayabilirsiniz.
+- Not:** İşlemi tanımlamak için kişisel bir mesaj ekleyin.
 
 
+**Örnek URI:**
 
-- [Sözlük](https://planb.academy/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
+```javascript
+liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdgkgzmfycrud0zsygqgyjclycckpasxxxxxx?amount=0.00001&message=Test&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 
+İşlemi tamamlamak için göndericiye `adres` veya `URI` verin. Bunu panonuza kopyalayarak veya QR kodunu doğrudan ekranınızdan taratarak yapabilirsiniz.
 
-### A2. Replace-by-fee'nin Açıklaması (RBF)
 
+![image](assets/en/12.webp)
 
 
-**Tanım**: Replace-by-fee (RBF), göndericinin daha yüksek bir ücret ödemeyi kabul ederek bir **zincir üzerinde** işlemin onaylanmasını hızlandırmasına olanak tanıyan Bitcoin ağının bir özelliğidir.
+### Lightning aracılığıyla alma
 
 
 
-**Limits** :
+Bull Bitcoin Wallet ayrıca Lightning Network aracılığıyla ödeme göndermenize ve almanıza olanak tanır. Önemli bir özellik, Lightning aracılığıyla alınan fonların otomatik olarak takas edilmesi ve `Anında Ödemeler Wallet` içinde `Liquid Network` üzerinde saklanmasıdır. Bu hizmet `Boltz` tarafından desteklenmektedir. Bu tasarım, likidite kanallarını yönetmenin karmaşıklığı olmadan Lightning'in hızından ve düşük maliyetinden yararlanmanızı sağlarken, fonlarınızın tam öz muhafazasını da korur. Bu hibrit yaklaşım kendi kendini saklar ve kanalları yönetmenin karmaşıklığından kaçınırken, üçüncü taraf bir hizmet (Boltz), küçük bir takas ücreti ve anahtar sahipleri olarak Liquid Network'un görevli federasyonuna güvenir; bu da kendi kanallarınızı yönettiğiniz geleneksel, saklama gerektirmeyen Lightning wallet'den farklıdır. Liquid ve yönetim modeli hakkında daha fazla bilgiyi buradan edinebilirsiniz:
 
 
+https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
 
 
-- RBF, Liquid veya Lightning işlemleri için kullanılamaz.
-- İlk işlem oluşturulduğunda RBF uyumlu olarak işaretlenmelidir, Bull Bitcoin Mobile bunu devre dışı bırakılmadığı sürece otomatik olarak yapar.
+- Sınırlar:**
+    - Minimum Tutar:** Minimum fatura tutarı gereklidir. Geçerli limit için lütfen uygulamayı kontrol edin
+    - Ücretler:** Alıcı olarak siz, küçük bir takas ücretinden sorumlusunuz. Bu ücret, göndericinin transfer ettiği miktardan düşülür ve değişikliğe tabidir
+- Avantajlar:**
+    - Kendi Kendine Emanet:** Paranız her zaman kontrolünüz altında, Liquid ağında güvence altındadır.
+    - Yüksek On-Chain Ücretlerinden Kaçının:** Lightning'i kullanarak ve Liquid'de depolayarak, geleneksel bir Lightning kanalı açmayla ilişkili on-chain ücretlerini atlarsınız. Biriken miktar masrafı haklı çıkardığında, fonları daha sonra bir on-chain kanalına taşımayı seçebilirsiniz.
+    - İpucu:** İki Bull Bitcoin kullanıcısı arasında en uygun maliyetli işlem için, Lightning takas ücretlerinden tamamen kaçınmak üzere doğrudan **Liquid ağını** kullanın.
 
 
+Ödeme alabilmek için generate `Lightning faturası` almanız gerekmektedir:
 
-**Daha fazla bilgi:**
 
+1. `Tutar Girin`**:** Almak istediğiniz tutarı Bitcoin (BTC), Satoshis (Sats) veya fiat para birimi cinsinden belirtin.
 
+2. `Not Ekle` **(İsteğe bağlı):** Bir not veya not ekleyin. Bu, faturaya gömülecek ve ödeme tamamlandığında işlem geçmişinizde görüntülenerek tanımlanmasını kolaylaştıracaktır.
 
+3. `Invoice Geçerlilik`**:** Lightning faturası zamana duyarlıdır ve **12 saat** sonra sona erer. Bu süre içinde ödenmezse, geçersiz hale gelir ve generate yeni bir tane almanız gerekir.
 
-- [Sözlük](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
+Faturayı panonuza kopyalayarak veya ekranınızda görüntülenen QR kodunu taramalarını sağlayarak gönderene verin.
 
 
+![image](assets/en/13.webp)
 
-### A3. En iyi uygulamalar
 
+## 9️⃣ Fon gönderme
 
 
-**Bull Bitcoin Mobile'ı** güvenli ve verimli bir şekilde kullanmak için bu tavsiyelere uyun. Bunlar, **Bitcoin (onchain)**, **Liquid** ve **Lightning** ağlarında paranızı korumanıza, işlemlerinizi optimize etmenize ve gizliliğinizi korumanıza yardımcı olacaktır.
+Gönderme ekranına doğrudan ana sayfadan veya cüzdanlarınızdan herhangi birinden erişebilirsiniz. Bull Bitcoin Wallet, ister yapıştırılmış ister QR kodu ile taranmış olsun, girdiğiniz adres veya faturaya göre hedef ağı (Bitcoin, Liquid veya Lightning) otomatik olarak tespit ederek süreci basitleştirir.
 
 
+### On-Chain Bitcoin Ağı üzerinden İletim
 
 
+on-chain ile para göndermek, işleminizin doğrudan Bitcoin blok zincirine kaydedilmesi anlamına gelir. Bu yöntem, daha büyük transferler veya zamana duyarlı olmayan transferler için en iyisidir. Başlamak için sağ alttaki "Gönder Düğmesi "ne dokunabilir ve bir "standart Bitcoin adresi" tarayabilir veya girebilirsiniz.
 
-- **Kurtarma cümlenizi güvence altına alın** :
- - Öğretici: [Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
+Sağladığınız adres belirli bir tutar içermiyorsa, gönderme ekranında ayrıntıları doldurmanız istenecektir. Tutarı BTC, satoshis veya fiat eşdeğeri gibi tercih ettiğiniz birimde belirtebilirsiniz. Ayrıca, işlemi daha sonra tanımlamanıza yardımcı olmak için kendi referansınız için özel bir not olan kişisel bir not ekleme seçeneğiniz de vardır. Bu not alıcı ile paylaşılmaz.
 
 
+Tersine, taradığınız veya yapıştırdığınız ödeme talebi, önceden tanımlanmış bir tutara sahip bir BIP21 URI gibi gerekli tüm ayrıntıları zaten içeriyorsa, wallet veri giriş ekranını atlayacak ve ödemeyi yetkilendirmek için sizi doğrudan onay ekranına götürecektir.
 
 
-- **Güvenli kimlik doğrulama kullanın**:
- - Uygulamaya erişimi korumak için bir **güçlü PIN** veya **biyometrik kimlik doğrulama** (parmak izi veya yüz tanıma) etkinleştirin.
- - PIN kodunuzu veya biyometrik verilerinizi asla paylaşmayın.
+![image](assets/en/14.webp)
 
 
+İşleminiz yayınlanmadan önce, size bir onay ekranı sunulacaktır. Alıcı adresi, gönderilen miktar ve ağ ücretlerine çok dikkat ederek her parametreyi dikkatlice gözden geçirmeniz çok önemlidir. Bu ekran aynı zamanda işleminizi özelleştirmek için güçlü araçlar sunar.
 
 
+Ücretleri iki temel yolla kontrol edebilirsiniz. İlk yöntem, düşük, orta veya yüksek gibi istediğiniz bir işlem hızını seçmektir ve wallet sizin için uygun ücreti otomatik olarak hesaplayacaktır. İkinci yöntem, satoshi cinsinden mutlak bir toplam veya bayt başına göreceli bir oran olarak belirli bir ücret belirlemenize izin vererek daha hassas bir kontrol sağlar ve ardından tahmini bir onay süresi sağlar.
 
-- **Gizliliğinizi koruyun**:
- - generate Blockchain üzerindeki izlemeyi sınırlandırmak için her zincir üstü veya Liquid alımı için yeni bir Address.
- - Zincir üzerinde gönderilen miktarla ilgili gizliliği artırmak için mevcut olduğunda PayJoin kullanın
- - Maksimum gizlilik için, Wallet'nizi genel düğümü kullanmak yerine bir Electrum sunucusu aracılığıyla kendi Bitcoin düğümünüze bağlayın
 
+İleri düzey kullanıcılar için wallet, işleme ince ayar yapmak için çeşitli ayarlar sunar. `Ücrete Göre Değiştir` (RBF) varsayılan olarak etkindir; bu, bir işlemin mempool'da sıkışması durumunda daha yüksek bir ücretle yeniden yayınlayarak hızlandırmanıza olanak tanıyan değerli bir özelliktir. Ayrıca hangi `Harcama Yapılmayan İşlem Çıkışları`ndan (UTXOs) harcama yapılacağını manuel olarak seçebilirsiniz. Bu, birden fazla küçük girdiyi tek bir büyük girdide birleştirdiğiniz bir strateji olan UTXO konsolidasyonu için güçlü bir araçtır. Bu, mevcut işlem için daha fazla ücrete mal olsa da, özellikle ağ ücretlerinin artması bekleniyorsa, gelecekteki işlemlerin ücretlerini önemli ölçüde azaltabilir.
 
 
+![image](assets/en/15.webp)
 
 
-- **İhtiyaçlarınıza en uygun ağı seçin**:
-- **Onchain**: Uzun vadeli saklama veya büyük değerli işlemler için tercih edilir (ücretler tutara göre ihmal edilebilir).
-- **Liquid**: Gelişmiş gizlilik ile hızlı, düşük maliyetli transferler için kullanın.
-- **Lightning**: Küçük miktarlar için anında, düşük maliyetli transferleri tercih edin. İki Wallet Bull Bitcoin kullanıcısıysanız, Boltz aracılığıyla Lightning <> Liquid takas ücretlerinden kaçınmak için Liquid'ü seçin.
+Bir alıcının `pj=` parametresi içeren ödeme talebini (bir BIP21 URI) taradığınızda PayJoin otomatik olarak denenir. Ekstra parametre içermeyen düz bir adres yapıştırırsanız, bu özellik etkinleştirilmez. Bu işbirlikçi yöntem, hem göndericiden hem de alıcıdan gelen girdileri birleştirerek gizliliği artırır, ortak girdi sahipliği sezgiselliğini kırar ve bazı durumlarda daha iyi ölçeklendirme ve ücret tasarrufu sağlar.
 
 
+### Liquid Network'ye gönderme
 
 
+Liquid Network`, minimum ücretle hızlı, gizli işlemler için tasarlanmıştır. Liquid aracılığıyla para gönderdiğinizde, bu para `Anında Ödemeler Wallet` hesabınızdan çekilir. İşlem basittir: alıcının `Liquid adresini girmeniz veya taramanız yeterlidir.
 
-- Her zaman gönderim adreslerini kontrol edin:
- - Para göndermeden önce Address'yi dikkatlice kontrol edin. Yanlış Address'ye gönderilen fonlar sonsuza kadar kaybolur. Kopyala/yapıştır veya QR kod taraması kullanın, asla bir Address'yi elle kopyalamayın/değiştirmeyin.
 
+Adreste bir miktar belirtilmemişse, gönderme ekranında bir miktar belirtmeniz istenecektir. Tutarı BTC, satoshis veya fiat olarak girebilirsiniz. Liquid'nin önemli bir avantajı düşük minimum eşiğidir. on-chain işlemlerinde olduğu gibi, kendi kayıtlarınız için isteğe bağlı bir kişisel not ekleyebilirsiniz. Ödeme talebi zaten bir tutar içeriyorsa, wallet doğrudan onay ekranına ilerleyecektir.
 
 
+Bir Liquid işlemi için onay ekranında ayrıntıları gözden geçireceksiniz. Ücretler oldukça düşüktür ve işlemin karmaşıklığına göre hesaplanır. Genellikle 0,1 sat/vB civarındadır ve basit bir işlem için sadece 20-40 satoshis tutarındadır (örneğin, 21 Aralık 2025 itibariyle 26 satoshis).
 
 
-- **Maliyetleri optimize edin**:
- - Zincir üzerindeki işlemler için, aciliyet ve ağ tıkanıklığına göre uygun ücretleri (yavaş, orta, hızlı) seçin.
- - Küçük miktarlar için Liquid veya Lightning kullanın.
- - Onayı hızlandırmanız gerektiğini düşünüyorsanız zincirleme gönderiler için Replace-by-fee'ü (RBF) etkinleştirin (bkz. Ek 4).
+![image](assets/en/16.webp)
 
 
+### Lightning Network'e gönderme
 
 
+Alıcı için tutarı ve isteğe bağlı bir notu ayarlamanıza olanak tanıyan bir Yıldırım Address (örneğin `runningbitcoin@rizful.com`) tarayabilir veya sizi doğrudan onay ekranına götüren önceden tanımlanmış bir tutara sahip bir fatura tarayabilirsiniz.
 
-- Uygulamayı güncel tutun
 
+*Minimum tutarların ve ücretlerin geçerli olduğunu unutmayın.*
 
 
+Bull Bitcoin Wallet, Lightning ödemelerini `Anında Ödemeler Wallet` (Liquid üzerinde) kanalınızdan para çekerek ve bunları `Boltz` üzerinden takas ederek gönderir. Bu hibrit yaklaşım tamamen kendi kendini yönetir ve özel bir Lightning kanalını yönetmenin yüksek on-chain ücretlerinden kaçınır, ancak bir `takas ücreti` ödemeyi gerektirir. En düşük maliyet için, Bull Bitcoin wallet de kullanıyorlarsa doğrudan alıcının Liquid adresine gönderin.
 
-### A4. Ek kaynaklar
 
+## 🔟 Cüzdanlarınız Arasında Para Aktarma
 
 
+Bull Bitcoin, Bitcoin`nızı `Secure Bitcoin` wallet ve `Instant Payments Wallet` arasında Liquid Network üzerinde veya `harici bir Wallet`ye taşımanıza olanak tanır. Bir transfer gerçekleştirmek için, `Transfer` bölümüne gitmeniz, kaynak ve hedef cüzdanları seçmeniz, taşımak istediğiniz tutarı girmeniz ve işlemi onaylamanız yeterlidir.
 
 
-- **Resmi bağlantılar ve destek:**
-- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : destek e-postası
-- [Bull Bitcoin resmi web sitesi](https://bullbitcoin.com/): **Bull Bitcoin hizmetleri hakkında bilgi, hesap oluşturma, uygulamaya erişim**
-- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Kodu, evrimi ve yol haritasını görüntüleyin, geliştirmeye katkıda bulunun...**
-- [X Hesabı - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
-- Wallet mobil için **Telegram** grubu: destek ile grup sohbeti, "Ayarlar" sayfasına bakın.
+![image](assets/en/17.webp)
 
 
+## 1️⃣1️⃣ Bull Bitcoin Wallet'unuzu Kurtarma
 
 
+Bu bölümde, cihazınızı kaybetmeniz, uygulamayı kaldırmanız ya da yeni bir cihaza geçmeniz durumunda Bull Bitcoin Wallet fonlarınıza yeniden nasıl erişim sağlayacağınız açıklanmaktadır. Daha önce açıklandığı gibi, kurtarma için iki temel yöntem vardır: benzersiz `Recoverbull` yöntemini kullanmak ve standart bir `BIP39 seed cümlesi` kullanmak.
 
-- Blok Kaşifleri :**
- - on chain : **[Mempool.space](https://Mempool.space/)**
- - Liquid : **[Blok Akış Bilgisi](https://blockstream.info/Liquid)**
- - Yıldırım: **[1ML (Lightning Network)](https://1ml.com/)**
 
+### Yöntem 1: Recoverbull
 
 
+Özet: Wallet yedekleri yerel olarak şifrelenir. Şifrelenmiş dosya bulut depolama alanında veya başka bir cihazda depolanabilir. Şifreleme anahtarı Recoverbull Anahtar Sunucusu tarafından saklanır. Her ikisi de ayrı tutulur ve bir wallet'ü kurtarmak için birleştirilmelidir.
 
 
-- Öğrenme ve dersler:** [Plan ₿ Academy](https://planb.academy/)** :
- - Kurtarma ifadenizi güvence altına alma
+Başlamak için Wallet'ü üzerindeki tüm fonlarla birlikte sileceğim ve wallet'i yeniden yükleyeceğim. Tekrar `Hoş geldiniz ekranına' geleceğiz. Bu kez, `Wallet`ü Kurtar` seçeneğini seçin. Ardından, `Şifreli Kasa` yöntemine gidin, `Varsayılan Anahtar sunucusunu` kullanmayı onaylayın ve yedekleme dosyasını sakladığınız konumu veya `Kasa sağlayıcısını` seçin.
 
 
+![image](assets/en/18.webp)
 
-https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
+Kasanın başarıyla içe aktarıldığını belirtir. Kasanın Şifresini Çöz` düğmesine dokunun ve `PIN`i girin. Bir sonraki ekran `bakiyelerinizi` ve kurtarılan `işlem sayısını` gösterecektir.
 
 
-https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+![image](assets/en/19.webp)
 
 
+### Yöntem 2: Tohum İfadesi
 
 
-- **Liquid Network** :
-- [Sözlük](https://planb.academy/resources/glossary/liquid-network)
+Bu yöntem, wallet'inizin ana kurtarma ifadesini kullanır; bu, fonlarınız için nihai yedekleme görevi gören standart 12 kelimelik bir listedir. Belirli bir hizmete veya sunucuya bağlı olmadığı için Bitcoin wallet'i kurtarmanın en evrensel yoludur. Bu ifadeye sahip olduğunuz sürece, Bull Bitcoin Anahtar Sunucusuna erişiminiz olmasa bile wallet'inizi uyumlu herhangi bir cihazda geri yükleyebilirsiniz.
 
 
+Hoş Geldiniz ekranından `Wallet`u Kurtar`ı seçin. Bu kez, `Fiziksel yedekleme` yöntemini seçin. Uygulama bir kelime tablosu sunacaktır. Dikkatlice 12 kelimelik seed cümlenizin her bir kelimesini doğru sırada seçin. Tek bir hata yanlış bir wallet ile sonuçlanacağından titiz olun.
 
 
-https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+## 1️⃣2️⃣ Bir Hardware Wallet'nin Bağlanması
 
 
+En üst düzeyde güvenlik için, birçok Bitcoin kullanıcısı fonlarını `soğuk depoda` saklamayı tercih etmektedir. Bu, Bitcoin'ünüzü kontrol eden `özel anahtarları` asla internete bağlı olmayan bir cihazda tutmak anlamına gelir. Donanımsal wallet (veya İmzalama cihazı) tam da bu amaç için tasarlanmış özel bir fiziksel cihazdır. Anahtarlarınız için dijital bir kasa görevi görür ve hiçbir zaman çevrimiçi bir bilgisayarın veya akıllı telefonun potansiyel tehditlerine maruz kalmamalarını sağlar.
 
 
+Bir donanım wallet'yı Bull Bitcoin uygulamasına bağlayarak, her iki dünyanın en iyisini elde edersiniz: özel anahtarlarınız için soğuk depolamanın ödün vermeyen güvenliği, bakiyeleri görüntülemek ve işlemleri yönetmek için Bull Bitcoin wallet'nın güçlü özellikleri ve kullanıcı dostu arayüzü ile birlikte. Bu son bölümde, [Coldcard Q] (https://coldcard.com/q) gibi bir donanım wallet'yı Bull Bitcoin wallet'nıza nasıl bağlayacağınızı göstereceğiz. Bu eğitimde Coldcard Q kurulumu derinlemesine ele alınmayacaktır; bu konuda buradan bilgi edinebilirsiniz:
 
-- **Lightning Network**:
-- [Sözlük](https://planb.academy/resources/glossary/lightning-network)
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
+### Bir Wallet'nin içe aktarılması
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+![image](assets/en/26.webp)
 
-### A5. Boğa Bitcoin
 
+İlk olarak, Coldcard Q'nuzun ana menüsünden `Export Wallet` öğesini seçin, ardından `Bull Wallet` öğesini seçin. Coldcard'ınız generate bir QR kodu oluşturacaktır.
 
 
-#### Şirkete genel bakış
+![image](assets/en/20.webp)
 
 
+Bull Bitcoin Wallet'i açın ve `Ayarlar` > `Bitcoin Ayarları` > `wallet'yi içe aktar` seçeneğine gidin ve telefonunuzda `Kart Q` seçeneğini seçin ve donanımınız wallet'nin genel anahtarlarını içe aktarmak üzere bu QR kodunu taramak için `Kamerayı aç` seçeneğine dokunun.
 
-**[Bull Bitcoin](https://www.bullbitcoin.com/fr)**, 2013 yılında Montreal, Kanada'daki Bitcoin Büyükelçiliğinde kurulan, yalnızca Bitcoin'ye adanmış en eski depo dışı Exchange platformudur. Bitcoin ekosisteminde tanınmış bir öncü olan Francis Pouliot tarafından yönetilen şirket, kendisini finansal egemenliği ve kullanıcı özerkliğini teşvik etmede kilit bir oyuncu olarak konumlandırmaktadır. Misyonu, Bitcoin dışındaki fiat para birimlerini ve kripto para birimlerini reddederken, Bitcoin'yi bir özgürlük ve ödeme aracı olarak kullanarak bireylerin paralarının kontrolünü yeniden kazanmalarını sağlamaktır.
 
+![image](assets/en/21.webp)
 
 
-![image](assets/fr/26.webp)
+### Coldcard Q ile Alma
 
 
+Bağlı Coldcard Q cihazınızı kullanarak Bitcoin almak için cihazın fiziksel olarak telefonunuza bağlı olmasına gerek yoktur. Bull Bitcoin Wallet, gerekli genel anahtarları zaten içe aktarmıştır ve generate adreslerini kendi başına almasına izin verir.
 
-gW-221 alım ve satımlarında %0,25 indirim ile [Hesabınızı oluşturun] (https://app.bullbitcoin.com/registration/orangepeel).
 
+1. İçe aktarılan Coldcard Q imzalama cihazınızın üzerine dokunun ve `Al` seçeneğini seçin.
 
+2. Uygulama, Coldcard'ınızın wallet'sinden otomatik olarak yeni bir Bitcoin adresi görüntüleyecektir.
 
-#### Değerler ve felsefe
+3. Para almak için bu adresi kullanın. Bitcoin, işlem sırasında cihaz çevrimdışı olsa bile doğrudan donanım wallet'un anahtarlarına sabitlenecektir.
 
 
+![image](assets/en/22.webp)
 
-Bull Bitcoin, Commitment ila Cypherpunk ilkeleri ve Bitcoin etiği ile öne çıkmaktadır:
 
+### Coldcard Q ile Gönderme
 
 
+Coldcard Q ile Bitcoin göndermek, herhangi bir işlemi yetkilendirmek için fiziksel onayınızı gerektirir. Bull Wallet uygulaması işlemi oluşturmak için kullanılsa da, nihai imza yalnızca wallet donanımının kendisinde oluşturulabilir.
 
 
-- **Bitcoin'e özel odaklanma**: Platform, merkezi olmayan, sansüre dirençli bir para birimi vizyonuna sadıktır.
+Başlamak için, `Coldcard Q` wallet'ünüzü açın ve `Gönder` üzerine dokunun. Ardından, alıcı adresin QR kodunu taramak için `kamerayı açın`. Taradıktan sonra, göndermek istediğiniz "tutarı" girin ve "ücret önceliğini" gerektiği gibi ayarlayın.
 
 
+Daha fazla seçenek için Gelişmiş Ayarlar bölümüne bakabilirsiniz. Burada, varsayılan olarak etkinleştirilen ve takılan bir işlemi daha sonra hızlandırmanıza olanak tanıyan `Ücretle Değiştir` (RBF) seçeneğini bulacaksınız. Ayrıca, harcamak istediğiniz belirli UTXO'ları manuel olarak seçmenize olanak tanıyan `Coin Control` seçeneğine de sahipsiniz.
 
 
+Tüm ayrıntıları inceledikten sonra, işlemi hazırlamak için `PSBT`yı Göster`e dokunun.
 
-- **Saklama kuruluşu olmayan**: Kullanıcılar kendi portföylerine fon göndererek Bitcoin'lerinin tam kontrolünü ellerinde tutarlar.
 
+![image](assets/en/23.webp)
 
 
+Coldcard Q'nuzdaki `Tara` düğmesine dokunun ve telefonunuzda görüntülenen QR kodunu taramak için kamerasını kullanın. Coldcard ekranı daha sonra size tüm işlem ayrıntılarını gösterecektir. Tutarı, alıcı adresini ve değişiklik adresinizi dikkatlice doğrulayın. Her şey doğruysa, işlemi imzalamak için Coldcard Q üzerindeki `Enter` düğmesine basın. Ardından, imzalanan işlemin QR kodu ekranda görünecektir.
 
 
-- **Gizlilik**: Kişisel verilerin toplanması en aza indirilmiş, 999 USD altındaki işlemler için KYC'siz satın alma seçenekleri. Veriler yönetmeliklere uygun olarak korunmaktadır (Kanada'da FINTRAC, Fransa'da AMF).
+![image](assets/en/24.webp)
 
 
+Bull wallet'da `Bitirdim` seçeneğine dokunun, ardından `Kamera` düğmesine dokunarak Coldcard Q'nuzdan `imzalı işlem`in QR kodunu tarayın. Bull Wallet şimdi imzalı işlemin bir özet ekranını görüntüleyecektir. Son bir kez gözden geçirin, ardından `İşlemi Yayınla` düğmesine dokunun. Bu, işlemi Bitcoin ağına göndererek işlemi tamamlar ve paranız yola çıkar.
 
 
+## 🎯 Sonuç
 
-- **Şeffaflık**: Gizli ücret yoktur, maliyetler spread'e (alış ve satış fiyatları arasındaki fark) dahildir.
 
+Artık Bull Bitcoin Wallet'deki yolculuğunuzu tamamladınız. Uygulama, güçlü gizlilik ve güvenlik araçlarını parmaklarınızın ucuna getirerek gelişmiş özelliklerin kullanımını kolaylaştırır. Blok zincirindeki işlemlerinizi gizleyen `PayJoin` ve ağ etkinliğinizi meraklı gözlerden gizleyen `Tor entegrasyonu` gibi özelliklerle gizli kalmanıza yardımcı olur. Nihai kontrol isteyenler için, üçüncü taraf sunuculara güvenmeyi bırakmak için `kendi kişisel Bitcoin düğümünüze` bağlanabilir ve özel anahtarlarınızı tamamen çevrimdışı ve güvende tutmak için bir `Donanım wallet` kullanabilirsiniz. Akıllı yedekleme seçenekleri ve Bitcoin, Liquid ve Lightning için kesintisiz destek ile Bull Bitcoin Wallet, fonlarını gizli, güvenli ve tamamen kendi kontrolleri altında tutma konusunda ciddi olan herkes için güçlü, hepsi bir arada bir seçimdir.
 
 
+## 📚 Bull Wallet Kaynaklar
 
 
-- **Finansal egemenlik**: Bull Bitcoin geleneksel bankacılık sistemlerinden ve merkezi kurumlardan bağımsızlığı teşvik eder.
-
-
-
-#### Ana hizmetler
-
-
-
-
-
-- **Fiat para yatırma**: Kullanıcılar Bull Bitcoin hesaplarına fiat para birimi (CAD, EUR, vb.) ile banka havalesi veya belirli Kanada postanelerinde nakit/banka kartı yoluyla para yatırabilirler.
-
-
-
-
-
-- **Bitcoin Satın Alma**: Kullanıcılar, fonlarının tam kontrolünü garanti ederek doğrudan depozitosuz portföylerine gönderilen Bitcoin'i satın alabilirler.
-
-
-
-
-
-- **Planlanmış Bitcoin satın alma**: Bull Bitcoin, Bitcoin'lerin kullanıcı kontrolündeki Wallet'a doğrudan aktarılmasıyla, mevcut bakiyenizden yararlanarak düzenli aralıklarla otomatik olarak yinelenen bir satın alma hizmeti (DCA - Dolar Maliyet Ortalaması) sunar ve fiyat dalgalanmalarının etkisini azaltır.
-
-
-
-"AutoBuy" adı verilen bir seçeneğin, fiatlarınızı Bull Bitcoin bakiyenize dokunur dokunmaz dönüştürmenize ve Bitcoinlerinizi kendi Wallet'nize göndermenize olanak tanıdığını unutmayın. Bu seçenek, DCA yapmak için bankanızla planlanan yinelenen bir banka havalesi ile de birleştirilebilir. Bu seçenek, uygulamayı hiç açmak zorunda kalmadan Bitcoin birikiminizi otomatikleştirir.
-
-
-
-
-
-
-- Bitcoin'ü sabit bir fiyattan **'Limit Emri'** ile satın alın: Kullanıcı tarafından önceden belirlenen bir fiyattan Bitcoin satın almanıza olanak tanır ve Bull Bitcoin endeks fiyatı belirlenen limite ulaştığında veya altına düştüğünde otomatik olarak gerçekleştirilir.
-
-
-
-
-
-- **Bitcoin satışı**: Kullanıcılar Bitcoin'lerini satabilir ve fiat para birimi cinsinden parayı banka veya SEPA havalesi yoluyla doğrudan banka hesaplarına alabilirler.
-
-
-
-
-
-- **Üçüncü taraf ödemeleri**: Bull Bitcoin, kullanıcıların Bitcoin'lerinden banka hesaplarına alıcıya tamamen şeffaf bir şekilde fiat para göndermelerini sağlar.
-
-
-
-
-
-- **Bull Bitcoin Prime**: Bull Bitcoin Prime, yüksek gelirli ve kurumsal müşteriler için özelleştirilmiş çözümler ve premium destek sunan premium bir hizmettir. Buna indirimli ücretlere erişim, özel bir hesap yöneticisi ve özel kurumsal hizmetler dahildir. Bu hizmet, derinlemesine uzmanlık ve öncelikli muamele isteyen kurumlar, profesyonel tüccarlar ve kurumsal müşterilere yöneliktir.
-
-
-
-
-
-- **Mobil Wallet**: Bull Bitcoin, onchain, Liquid ve Lightning Network işlemlerini destekleyen, Android ve iOS'ta kullanılabilen, açık kaynaklı, kendi kendine emanet edilebilen bir mobil Wallet sunmaktadır.
-
-
-
-
-
-- **Eğitim desteği**: Kullanıcıların Bitcoin portföylerini oluşturmalarına, güvence altına almalarına ve yönetmelerine yardımcı olmak için ücretsiz kılavuzlar ve kişiselleştirilmiş koçluk, finansal özerkliği güçlendirir.
-
-
-
-#### Uyum ve güvenlik
-
-
-
-
-
-- **Düzenleyici**: FINTRAC (Kanada) ve AMF'ye (Fransa) kayıtlı Bull Bitcoin, KYC/AML gerekliliklerine uygundur.
-
-
-
-
-
-- **Güvenlik**: Güvenli portföylerin kullanımı ve çevrimdışı depolama önerileri. Kişisel veriler, Bull'un %100 kendi kendine barındırılan ve herhangi bir üçüncü tarafa güvenmeyen Bitcoin altyapısında barındırılır.
+[Github](https://github.com/SatoshiPortal/bullbitcoin-mobile) | [Web Sitesi ](https://www.bullbitcoin.com/)| [Recoverbull](https://recoverbull.com/)

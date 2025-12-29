@@ -1,0 +1,9 @@
+question: เอนจินการเรนเดอร์ใดที่ถูกสร้างขึ้นจาก Fork ของ KHTML เพื่อใช้กับ Safari?
+answer: WebKit
+wrong_answers:
+  - ไทรเดนท์
+  - ตุ๊กแก
+  - Blink
+explanation: |
+  WebKit เป็น Fork ของ KHTML ซึ่งถูกเลือกโดย Apple สำหรับ Safari ตั้งแต่ปี 2003 เป็นต้นมา และต่อมาได้รับการนำไปใช้โดยเบราว์เซอร์หลายตัว
+reviewed: false

@@ -1470,7 +1470,7 @@ Kompleksitas Mining dalam konteks Bitcoin terutama melibatkan Elements teknis da
 
 5. **Kesulitan jaringan**: Tingkat kesulitan jaringan menunjukkan jumlah rata-rata Hashrate yang dibutuhkan untuk menambang satu blok dalam 10 menit.
 
-6. **Alat-alat strategis**: Alat-alat seperti [braiins.com] (https://insights.braiins.com) sangat berharga untuk menghitung profitabilitas dan membantu para penambang untuk membuat keputusan berdasarkan data.
+6. **Alat-alat strategis**: Alat-alat seperti [braiins.com](https://insights.braiins.com) sangat berharga untuk menghitung profitabilitas dan membantu para penambang untuk membuat keputusan berdasarkan data.
 
 
 #### Aplikasi praktis
@@ -2084,7 +2084,7 @@ Penggunaan blok yang ringkas saat ini digunakan untuk meningkatkan efisiensi tra
 #### Penggunaan pustaka yang ada
 
 
-Untuk aplikasi yang bersifat konsensus-kritis, disarankan untuk menggunakan pustaka yang sudah ada untuk menghindari bug dan memastikan keamanan seperti [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) atau [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Menerapkan pengurai Anda sendiri dapat menjadi hal yang mendidik tetapi juga berisiko dalam lingkungan produksi.
+Untuk aplikasi yang bersifat konsensus-kritis, disarankan untuk menggunakan pustaka yang sudah ada untuk menghindari bug dan memastikan keamanan seperti [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) atau [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Menerapkan pengurai Anda sendiri dapat menjadi hal yang mendidik tetapi juga berisiko dalam lingkungan produksi.
 
 
 ![libraries](assets/en/035.webp)
@@ -2226,7 +2226,7 @@ test/functional/test_runner.py
 
 
 
-- Membuat dan menjalankan tes dalam Python untuk memvalidasi fungsionalitas tertentu. File [example.py] (https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) adalah contoh kasus uji coba dengan banyak komentar yang menggunakan antarmuka RPC dan P2P.
+- Membuat dan menjalankan tes dalam Python untuk memvalidasi fungsionalitas tertentu. File [example.py](https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) adalah contoh kasus uji coba dengan banyak komentar yang menggunakan antarmuka RPC dan P2P.
 
 
 #### Implementasi simpul alternatif

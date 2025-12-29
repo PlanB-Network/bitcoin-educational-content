@@ -685,13 +685,13 @@ Urutonde rw'ibikoresho n'amahuza
 
 
 
-- [Ibipande vy'umuyaga 2X 140 mm] (imbuga ngurukanabumenyi)
+- [Ibipande vy'umuyaga 2X 140 mm](imbuga ngurukanabumenyi)
 - [Igikoresho co gupfuka umwuka-Marron/dp/B00VXTANZ4)
 
 
 
 - [Isukari y'umuyagankuba 2,5 mm2]
-- [Vonets vap11g-300] (ikiraro-gihindura-Ethernet/dp/B014SK2H6W)
+- [Vonets vap11g-300](ikiraro-gihindura-Ethernet/dp/B014SK2H6W)
 - [Igikoresho c'ubwenge ca ANTELA co guhitamwo](imbuga ngurukanabumenyi)
 
 

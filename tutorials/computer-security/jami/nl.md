@@ -82,7 +82,7 @@ De applicatie is direct beschikbaar in de App Store of Play Store. Zoek ernaar i
 
 
 
-Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina] (https://jami.net/download-jami-windows/).
+Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website 
 
 
 
-Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina] (https://jami.net/download-jami-macos/).
+Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +118,7 @@ Om Jami op Linux te installeren, kun je het beste de opdrachtregel gebruiken. He
 
 
 
-Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina] (https://jami.net/download-jami-linux/).
+Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina](https://jami.net/download-jami-linux/).
 
 
 
@@ -312,7 +312,7 @@ Zodra het wachtwoord is ingevoerd, zal het apparaat automatisch verbinding maken
 
 
 
-Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier] (https://jami.net/extensions/).
+Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier](https://jami.net/extensions/).
 
 
 

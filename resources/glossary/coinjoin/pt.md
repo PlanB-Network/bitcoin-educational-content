@@ -16,7 +16,7 @@ Este mecanismo aumenta a confidencialidade das transacções sem exigir modifica
 323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
 ```
 
-É difícil determinar com certeza quem foi o primeiro a introduzir a ideia de coinjoin no Bitcoin e quem teve a ideia de usar as assinaturas cegas de David Chaum neste contexto. Pensa-se frequentemente que Gregory Maxwell foi o primeiro a discuti-la em [uma mensagem no BitcoinTalk em 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+É difícil determinar com certeza quem foi o primeiro a introduzir a ideia de coinjoin no Bitcoin e quem teve a ideia de usar as assinaturas cegas de David Chaum neste contexto. Pensa-se frequentemente que Gregory Maxwell foi o primeiro a discuti-la em [uma mensagem no BitcoinTalk em 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 Usando assinaturas cegas Chaum: Os utilizadores ligam-se e fornecem entradas (e mudam de endereço), bem como uma versão criptograficamente oculta do endereço para o qual desejam enviar as suas moedas privadas; o servidor assina os tokens e devolve-os. Os utilizadores voltam a ligar-se anonimamente, desmascaram os seus endereços de saída e enviam-nos novamente para o servidor. O servidor pode ver que todas as saídas foram assinadas por ele e que, consequentemente, todas as saídas provêm de participantes válidos. Mais tarde, as pessoas voltam a ligar-se e a assinar.
 

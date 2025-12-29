@@ -1,6 +1,6 @@
 ---
-Name: [Valet Bitcoin]
-Description: [This is a full tutorial steep-by-step guide on how to use Valet Bitcoin wallet. This tutorial is original and is fully written in English Language]
+Name: Valet Bitcoin
+Description: This is a full tutorial steep-by-step guide on how to use Valet Bitcoin wallet. This tutorial is original.
 ---
 
 

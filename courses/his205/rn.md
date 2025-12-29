@@ -409,7 +409,7 @@ Aha musi, urashobora kubona ikigura gisubiwemwo canditseko inyandiko ya cunéifo
 
 
 
-Ndafise kandi ico nibaza ko ari igisate(ikigura) c’ukuri c’ikisumeri caba sumérienne cari gifise akajambo gatoyi k’inyuguti ca cuneiforme hagati. Kuri iki gipande(ikigura), hariho amasinyatire yakozwe mukuzinga umuzingo, nzokwereka inyuma.
+Ndafise kandi ico nibaza ko ari igisate(ikigura) c’ukuri c’ikisumeri caba sumérienne cari gifise akajambo gatoyi k’inyandiko za cuneiforme hagati. Kuri iki gipande(ikigura), hariho amasinyatire yakozwe mukuzinga umuzingo, nzokwereka inyuma.
 
 
 
@@ -430,7 +430,7 @@ Abanditsi bo muri ico gihe rero barakoresha ng’aho urupapuro rufise ishusho y�
 
 
 
-Inyuguti za cunéiforme ntiyari ururimi, ahubwo zari zigereranya uburyo bwo kwandika indimi zivugwa. Mu congereza, twovuga ngo "kwandika ni ururimi rwanditswe", hanyuma tukavuga ngo "cuneiforme ni inyandiko, si ururimi". Rero, mu gifaransa, twovuga ko cuneiforme atari ururimi, ahubwo ni uburyo bwo gukora kode y’ururimi.
+Inyandiko za cunéiforme ntiyari ururimi, ahubwo zari zigereranya uburyo bwo kwandika indimi zivugwa. Mu congereza, twovuga ngo "kwandika ni ururimi rwanditswe", hanyuma tukavuga ngo "cuneiforme ni inyandiko, si ururimi". Rero, mu gifaransa, twovuga ko cuneiforme atari ururimi, ahubwo ni uburyo bwo gukora kode y’ururimi.
 
 
 ### Ugutera imbere n'ingene inyandiko ikoreshwa .
@@ -441,19 +441,19 @@ Mu binjana vya mbere vy’ukubaho kwayo, iyo nyandiko yagumye ifise imbibe itare
 
 
 
-Mu ntango, amazina ntiyashobora guserurwa mu nyandiko z’inyuguti i kubera ko ahanini zagereranya ibintu n’ibintu vy’ukuri, nk’inka canke ingano, vyerekanywe nk’ibishushanyo bitobito. Uko igihe cagenda kirarenga, ayo mashusho yarahindutse uburyo bwo kwandika buteye imbere cane, bituma umuntu ashobora guserura amazina n’ivyiyumviro bikomeye.
+Mu ntango, amazina ntiyashobora guserurwa mu nyandiko z’inyandiko za cunéiforme i kubera ko ahanini zagereranya ibintu n’ibintu vy’ukuri, nk’inka canke ingano, vyerekanywe nk’ibishushanyo bitobito. Uko igihe cagenda kirarenga, ayo mashusho yarahindutse uburyo bwo kwandika buteye imbere cane, bituma umuntu ashobora guserura amazina n’ivyiyumviro bikomeye.
 
 
-Iyo uwo muntu yitwa Laura, nk'akarorero, twari gushobora gufata ijambo, ijambo ry'inyongera ryumvikana nk'aho ari "amazi" n'irindi rimeze nk'aho ari "ras", tukagira izina Laura. Uko ni ko uburyo bwa mbere bw’ururimi rwanditswe bwateye imbere.
+Kumazina , iyo uwo muntu yitwa Laura, nk'akarorero, twari gushobora gufata ijambo, ijambo ry'inyongera ryumvikana nk'aho ari "l'eau (amazi)" n'irindi rimeze nk'aho ari "ras", tukagira izina Laura. Uko ni ko uburyo bwambere bwo kwandika ururimi bwavutse.
 
 
-Kugira ngo bimenyekane, kugira ngo bigereranye amajambo y’inyongera mu ntango, iyo ushaka gushushanya umutwe w’inka, woshobora kubona ukuntu umutwe w’inka umeze. Buhorobuhoro, ivyo bishushanyo vyaroroshejwe kugira ngo ntibigereranye ikindi kintu atari ubwoko bumwe bw’umurongo. Intiti zivuga yuko ivyo vyabaye kubera ko abantu bafata igipande c’ibumba gitose mu kuboko kumwe, ku buryo vyari vyoroshe gusubira gucapura inyuguti z’intango mu kuzihindukiza. Bivugwa kandi ko biterwa n’ingene abanditsi bafata ivyo bisate.
+Kuriyo nkuru ntoya, inyandiko hakoreshejwe ibishushanyo niyo yabanje,tuvuge iyo ushaka gushushanya umutwe w’inka, woshobora kubona ukuntu umutwe w’inka umeze. Buhorobuhoro, ivyo bishushanyo vyarorohejwe batangura gukoresha imirongo iyo bariko baragereranya. Intiti zivuga yuko ivyo vyabaye kubera ko abantu bafata igipande c’ibumba gitose mu kuboko kumwe, ku buryo vyari vyoroshe gusubira gucapura inyandiko z’intango mu kuzihindukiza. Bivugwa kandi ko biterwa n’ingene abanditsi bafata ivyo bisate(ibigura vyo mwibumba).
 
 
-Urashobora kubona isano riri hagati y’ingano canke umutwe w’inka mu majambo y’inyongera, kandi yama yihetse ku ruhande rumwe.
+Urashobora kubona isano riri hagati y’ingano canke umutwe w’inka mu majambo ya cunéiformes, kandi yama yihetse ku ruhande rumwe.
 
 
-Mu myaka ibihumbi bitatu yose, inyandiko z’inyuguti z’ibicuni zakoreshejwe, ahanini zakoreshwa mu kubungabunga amakuru y’ubutunzi n’ay’ubutegetsi. Ariko rero, ababa i Mezopotamiya ntibatevye gutsimbataza icipfuzo gikomeye co kuzigama ikintu cose cari gikwiye guhangana n’ikigeragezo c’igihe mu buryo bwanditswe. Gutyo, inkuru, inkuru z’imigani n’indirimbo, gushika ubu zari zishikirizwa mu majambo n’abaririmvyi b’ingenzi, zarahindurwa zidapfa mu kwandika, akenshi zigakopororwa n’abanditsi bariko baramenyerezwa. Bakopa ivyanditswe vyari vyaramaze kubaho, ahanini inkuru z’imigani canke ivyanditswe vyari bifise agaciro kanaka k’umuco.
+Mu myaka ibihumbi bitatu yose, inyandiko za cunéiforme zakoreshejwe, ahanini zakoreshwa mu kubungabunga amakuru y’ubutunzi n’ay’ubutegetsi. Ariko rero, ababa i Mezopotamiya ntibatevye gutsimbataza icipfuzo gikomeye co kuzigama ikintu cose cari gikwiye guhangana n’ikigeragezo c’igihe mu buryo bwanditswe. Gutyo, inkuru, inkuru z’imigani n’indirimbo, gushika ubu zari zishikirizwa mu majambo n’abaririmvyi b’ingenzi, zarahindurwa zidapfa mu kwandika, akenshi zigakopororwa n’abanditsi bariko baramenyerezwa. Bakopa ivyanditswe vyari vyaramaze kubaho, ahanini inkuru z’imigani canke ivyanditswe vyari bifise agaciro kanaka k’umuco.
 
 
 Akarorero gahambaye ni **Igitabu ca Gilgamesh**, bishoboka ko ari **umwami w’akahise w’igisagara-gihugu c’Abasumeri citwa Uruk** nko mu myaka ya 2900-2350 imbere ya Kristu.
@@ -463,7 +463,7 @@ Ubwo buryo bwo kwandika, bwari igikoresho co gucunga ubutunzi, n’uburyo bwo gu
 
 
 
-## Uruhara rw'ibipande vy'Abasumeri
+## Uruhara rw'ibipande(ibigura) vy'Aba sumériennes
 
 
 <chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
@@ -471,24 +471,24 @@ Ubwo buryo bwo kwandika, bwari igikoresho co gucunga ubutunzi, n’uburyo bwo gu
 
 :::video id=a0729a35-01ec-4aa4-828f-d4ccc2eb168e:::
 
-### Uburyo bwo gutanga inguzanyo imbere y'amahera
+### Uburyo bwo gutanga inguzanyo imbere y'ivuka ryamahera
 
 
-Muri Mezopotamiya ya kera, ugutunganya ubutunzi kwari gushingiye ku buryo buteye imbere cane bwariho kera cane imbere y’uko havumburwa ibiceri vy’ivyuma. Kuva mu ntango, uburyo bwo gutanga inguzanyo busanzwe n’ubudasanzwe bwari busanzwe ari uburyo bw’ingenzi bwo gutanga amahera, ivyo bikaba vyatuma abanyabubasha bo mu karere bashobora gukora ibikorwa vyinshi vy’ubutunzi bigoranye.
+Muri Mezopotamiya ya kera, ugutunganya ubutunzi kwari gushingiye ku buryo buteye imbere cane bwariho kera cane imbere y’uko havuka ibingorongoro vy’ivyuma. Kuva mu ntango, uburyo bwo gutanga inguzanyo busanzwe n’ubudasanzwe bwari busanzwe ari uburyo bw’ingenzi bwo gutanga amahera, ivyo bikaba vyatuma abantu bo mu karere bashobora gukora ibikorwa vyinshi vy’ubutunzi bitoroshe.
 
 
-Kugira ngo nyene abantu bashobore gushitsa ivyo bakeneye mu vy’ubutegetsi no mu vy’ubutunzi ni ho havumbuwe inyandiko y’inyuguti. Ivyo bipande vy’ibumba vyari bizwi cane vyo muri Mezopotamiya vyakoreshwa canecane mu kwandika ubwoko butandukanye bw’amasezerano: inguzanyo z’abantu ku giti cabo, ugurisha, ugukodesha, ingwati, eka mbere n’amasezerano y’ubugeni. Kwandika ivyo bipande vyasaba ubuhinga bw’abanditsi b’abahinga, igikorwa cari gitwara umwanya n’inkomezi, **ariko kikaba cari gifise imvo n’imvano iyo inyungu z’amahera zari ziri mu kaga.** Ico gihe abantu ntibandikirana amakete y’urukundo, ntibakoresha umwanditsi kugira ngo bandike ivyerekeye amaganya yabo. Baca bafata umwanditsi kugira ngo yandike inyandiko, haba hariho isano canke imvo y’ubutunzi.
-
-
-
-Ni vyiza kandi kuvuga ko bimwe muri ivyo bipande vyagendagenda nk’ibipande vy’ababitwara, bihinduranya amaboko ataco bibangamiye.
+Kugira ngo nyene abantu bashobore gushitsa ivyo bakeneye mu vy’ubutegetsi no mu vy’ubutunzi ni ho havumbuwe inyandiko ya cunéiforme. Ivyo bipande(ibigura) vy’ibumba vyari bizwi cane vyo muri Mezopotamiya vyakoreshwa canecane mu kwandika ubwoko butandukanye bw’amasezerano: inguzanyo z’abantu ku giti cabo, igurisha, ugukoesha, ingwati, eka mbere n’amasezerano y’ubugeni. Kwandika ivyo bipande vyasaba ubuhinga bw’abanditsi b’abahinga, igikorwa cari gitwara umwanya n’inguvu, **ariko kikaba cari gifise insiguro nakamaro iyo inyungu z’amahera zari ziri mu kaga.** Ico gihe abantu ntibandikirana amakete y’urukundo, ntibakoresha umwanditsi kugira ngo bandike ivyerekeye amaganya yabo. Baca bafata umwanditsi kugira ngo yandike ivyegeranyo(documents), zifitaniye isano canke imvo y’ubutunzi.
 
 
 
-Nk’akarorero, hariho ubwoko bw’umupira w’ibumba wari ufise utubuye dutoduto imbere.
+ Turashobora kandi kuvuga ko bimwe muri ivyo bipande(ibigura) vyazunguruka nk’ibipande vyicabona kubabiwa, barashobora kubihanahana nkuburyo bwumutungo(amahera).
 
 
-Inyuma y’uwo mupira w’ibumba, hariho umubare wanditswe kandi ugashirwako umukono, ukaba ugereranya umubare w’ibice. Imbere, hariho ivyo bitandara n’umuntu yashaka gusuzuma, kugira ngo yemeze vy’ukuri ko ico gikoresho vy’ukuri giserukira umubare X w’ibice.
+
+Nk’akarorero, hariho ubwoko bw’umupira w’ibumba wari ufise utubuye dutoduto indani.
+
+
+Inyuma y’uwo mupira w’ibumba, hariho ibiharuro vyanditsweko kandi ugashirwako umukono, ukaba ugereranya umubare w’ibice. Imbere, hariho ivyo bitandara n’umuntu yashaka gusuzuma, kugira ngo yemeze vy’ukuri ko ico gikoresho vy’ukuri kigaragaza ibiharuro X vy’ibice.
 
 
 

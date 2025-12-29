@@ -1,9 +1,9 @@
-question: ¿Cuál es la función principal de un Address IPv4 en una red informática?
-answer: Identificar de forma única una red Interface
+question: ¿Cuál es la función principal de una dirección IPv4 en una red informática?
+answer: Identificar de forma única una interfaz de red
 wrong_answers:
   - Identificar todo el dispositivo en una red
   - Asignación dinámica de direcciones MAC en una red
-  - generate Nombres DNS
+  - generar Nombres DNS
 explanation: |
-  Se asigna un Address IPv4 a cada Interface de red de un dispositivo, lo que permite localizarlo y llegar a él en la red.
-reviewed: false
+  Se asigna una dirección IPv4 a cada interfaz de red de un dispositivo, lo que permite localizarlo y llegar a él en la red.
+reviewed: true

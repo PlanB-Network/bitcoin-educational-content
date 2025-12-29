@@ -301,135 +301,69 @@ Es handelt sich also nicht um einen direkten persönlichen Vorteil: Als Betreibe
 
 ### Vertiefe dein Verständnis für das System
 
-Die Installation eines Full node ist kein trivialer Vorgang. du umfasst die Installation der Software, das Verständnis der grundlegenden Funktionsweise, die Überwachung der Synchronisation, die Untersuchung der Protokolle bei Problemen und sogar die Verwendung des Terminals. Dies führt zwangsläufig dazu, dass du dein Verständnis des Protokolls vertiefen. Dies ist ein indirekter, aber nicht unbedeutender Vorteil.
+Die Installation einer Full-Node ist kein trivialer Vorgang. Sie umfasst die Installation der Software, das Verständnis der grundlegenden Funktionsweise, die Überwachung der Synchronisation, die Untersuchung der Protokolle bei Problemen und sogar die Verwendung des Terminals. Dies führt zwangsläufig dazu, dass du dein Verständnis des Protokolls vertiefst. Dies ist ein indirekter, aber nicht unbedeutender Vorteil.
 
-
-
-Das Erwerben dieses Wissens stärkt dein Vertrauen in das Werkzeug und kann das Risiko von Fehlern oder Betrug verringern. Einen eigenen Node zu betreiben bedeutet auch, zu lernen.
-
-
+Das Erwerben dieses Wissens stärkt dein Vertrauen in das Tool und kann das Risiko von Fehlern oder Betrug verringern. Eine eigene Node zu betreiben bedeutet auch, zu lernen.
 
 ### Auswahl der anzuwendenden Regeln
 
+Ein wichtiger Aspekt, der oft missverstanden wird, ist die Tatsache, dass der Betrieb einer Node es dir ermöglicht, die Regeln zu wählen, die du lokal anwendest. Es gibt zwei Haupttypen von Regeln:
 
-
-Ein wichtiger Aspekt, der oft missverstanden wird, ist die Tatsache, dass der Betrieb eines Node es dir ermöglicht, die Regeln zu wählen, die du lokal anwenden. Es gibt zwei Haupttypen von Regeln:
-
-
-
-
-
-- Konsensregeln**:
-
-
+- **Konsensregeln**:
 
 Dies sind die Grundregeln des Bitcoin-Protokolls, die die Integrität des Systems gewährleisten und die Kriterien für die Validierung von Transaktionen und Blöcken festlegen. Jede Transaktion, die diesen Konsensregeln nicht entspricht, kann niemals in einen gültigen Block aufgenommen werden. So wird zum Beispiel eine Transaktion mit einer ungültigen Signatur auf einem ihrer Einträge systematisch ausgeschlossen.
 
+Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protokolls und damit der Währung (Hard Fork). Aber auch ohne den Versuch, sie zu ändern, verleiht die einfache Tatsache der strikten Anwendung der bestehenden Regeln eine gewisse Macht: Wenn ein Block gegen die Regeln verstößt, lehnt die Node ihn sofort ab.
 
+- **Weiterleitungsregeln**:
 
-Eine Änderung dieser Regeln ist gleichbedeutend mit einer Änderung des Protokolls und damit der Währung (Hard Fork). Aber auch ohne den Versuch, sie zu ändern, verleiht die einfache Tatsache der strikten Anwendung der bestehenden Regeln eine gewisse Macht: Wenn ein Block gegen die Regeln verstößt, lehnt der Node ihn sofort ab.
+Dabei handelt es sich um Regeln, die für jede Bitcoin-Node spezifisch sind und zu den Konsensregeln hinzugefügt werden, um die Struktur der unbestätigten Transaktionen zu definieren, die im Mempool akzeptiert und an die Peers weitergegeben werden. Jede Node konfiguriert und wendet diese Regeln lokal an, weshalb sie sich von einer Node zur anderen unterscheiden können. Sie gelten nur für unbestätigte Transaktionen: Eine Transaktion, die von einer Node als "nicht standardmäßig" eingestuft wird, wird nur akzeptiert, wenn sie bereits in einem gültigen Block enthalten ist. Eine Änderung dieser Regeln führt nicht zum Ausschluss der Node aus dem Bitcoin-System.
 
+Zum Beispiel ist eine Transaktion ohne Gebühren nach den Konsensregeln vollkommen gültig, wird aber nach der Bitcoin-Core-Relay-Policy standardmäßig abgelehnt, da der Parameter "minRelayTxFee" auf "0,00001" (in BTC/kB) gesetzt ist. Es ist jedoch möglich, diesen Schwellenwert auf deiner eigenen Node zu senken, um Transaktionen mit niedrigeren Gebühren weiterzuleiten, oder umgekehrt den Grenzwert z. B. auf 2 Sats/vB zu erhöhen, um die Weiterleitung von Transaktionen mit niedrigen Gebühren zu vermeiden.
 
+Seine eigener Node lauf zu lassen bedeutet zu behaupten: *"Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe "*. Auf diese Weise wirst du zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die dir inakzeptabel erscheint, oder eine Aktualisierung nach deinen eigenen Kriterien zu genehmigen.
 
+Wir können also schnell versuchen zu verstehen, wie viel Macht du dank deiner Node über die Regeln hast. Und das Ausmaß dieser Macht hängt von der Art der Regel ab.
 
+#### Für Weiterleitungsregeln
 
-- Staffelregeln**:
+Was die Weiterleitungsregeln betrifft, so ist der Besitz einer Node, unabhängig von seiner wirtschaftlichen Tätigkeit, das Wesentliche. Hier geht es darum, ob du zustimmst, bestimmte Arten von Transaktionen weiterzuleiten oder nicht.
 
+Wenn du beispielsweise der Meinung bist, dass Transaktionen mit Gebühren von weniger als 1 sat/vB auf Bitcoin akzeptiert werden sollten, könnest du diese Regel auf deiner Node so anpassen, dass sie diese Transaktionen sendet und so ihre Verbreitung im Netzwerk erleichtert, bis ein Miner sie schließlich in einen gültigen Block aufnimmt. Im Wesentlichen geht es also um die Macht über die Verbreitung von Transaktionen: Jede Node hat die Entscheidungsgewalt, da die Zustimmung zur Weiterleitung einer Transaktionsart gleichbedeutend ist mit der Förderung ihrer Akzeptanz im Bitcoin-Netzwerk. Wenn du mehrere Nodes betreibst, hast du folglich einen größeren Einfluss auf die Weiterleitungspolitik, da jede Node seine eigenen Verbindungen und Einflussbereiche im Netzwerk hat.
 
-
-Dabei handelt es sich um Regeln, die für jeden Bitcoin-Node spezifisch sind und zu den Konsensregeln hinzugefügt werden, um die Struktur der unbestätigten Transaktionen zu definieren, die im Mempool akzeptiert und an die Peers weitergegeben werden. Jeder Node konfiguriert und wendet diese Regeln lokal an, weshalb sie sich von einem Node zum anderen unterscheiden können. du gelten nur für unbestätigte Transaktionen: Eine Transaktion, die von einem Node als "nicht standardmäßig" eingestuft wird, wird nur akzeptiert, wenn sie bereits in einem gültigen Block enthalten ist. Eine Änderung dieser Regeln führt nicht zum Ausschluss des Node aus dem Bitcoin-System.
-
-
-
-Zum Beispiel ist eine Transaktion ohne Gebühren nach den Konsensregeln vollkommen gültig, wird aber nach der Bitcoin core-Relay-Policy standardmäßig abgelehnt, da der Parameter "minRelayTxFee" auf "0,00001" (in BTC/kB) gesetzt ist. Es ist jedoch möglich, diesen Schwellenwert auf Ihrem eigenen Node zu senken, um Transaktionen mit niedrigeren Gebühren weiterzuleiten, oder umgekehrt den Grenzwert z. B. auf 2 Sats/vB zu erhöhen, um die Weiterleitung von Transaktionen mit niedrigen Gebühren zu vermeiden.
-
-
-
-Seinen eigenen Node zu spinnen bedeutet zu behaupten: "Ich validiere, was ich für gültig halte, nach den Regeln, die ich selbst festgelegt habe "*. Auf diese Weise werden du zu einem Akteur in der Steuerung des Systems, der in der Lage ist, eine Entwicklung abzulehnen, die dir inakzeptabel erscheint, oder eine Aktualisierung nach Ihren eigenen Kriterien zu genehmigen.
-
-
-
-Wir können also schnell versuchen zu verstehen, wie viel Macht du dank Ihres Node über die Regeln haben. Und das Ausmaß dieser Macht hängt von der Art der Regel ab.
-
-
-
-#### Für Relaisregeln
-
-
-
-Was die Weiterleitungsregeln betrifft, so ist der Besitz eines Node, unabhängig von seiner wirtschaftlichen Tätigkeit, das Wesentliche. Hier geht es darum, ob du zustimmen, bestimmte Arten von Transaktionen weiterzuleiten oder nicht.
-
-
-
-Wenn du beispielsweise der Meinung sind, dass Transaktionen mit Gebühren von weniger als 1 sat/vB auf Bitcoin akzeptiert werden sollten, können du diese Regel auf Ihrem Node so anpassen, dass er diese Transaktionen sendet und so ihre Verbreitung im Netz erleichtert, bis ein Miner sie schließlich in einen gültigen Block aufnimmt. Im Wesentlichen geht es also um die Macht über die Verbreitung von Transaktionen: Jeder Node hat die Entscheidungsgewalt, da die Zustimmung zur Weiterleitung einer Transaktionsart gleichbedeutend ist mit der Förderung ihrer Akzeptanz im Bitcoin-Netzwerk. Wenn du mehrere Knotenpunkte betreiben, haben du folglich einen größeren Einfluss auf die Weiterleitungspolitik, da jeder Knotenpunkt seine eigenen Verbindungen und Einflussbereiche im Netz hat.
-
-
-
-Wenn ein oder mehrere Node mit spezifischen Weiterleitungsregeln konfiguriert sind, bedeutet dies, dass festgelegt wird, welcher Teil des Netzes die Weiterleitung einer bestimmten Art von Transaktion akzeptiert. Die Verbreitung einer Nachricht in einem Peer-to-Peer-Graphen, wie es bei Bitcoin-Transaktionen der Fall ist, folgt der Logik der Perkolationstheorie. Stellen du sich jeden Node als einen Standort vor, der aktiv (`p` = er leitet weiter) oder inaktiv (`1-p`) sein kann. Sobald der Anteil `p` einen kritischen Schwellenwert (`p_c`) überschreitet, entsteht eine riesige Komponente: Die Transaktion schafft es, das Netzwerk zu durchqueren und hat alle Chancen, einen Miner zu erreichen. In einem Netz wie Bitcoin, in dem jeder Node durchschnittlich 8 ausgehende Verbindungen unterhält, wird der `p_c`-Schwellenwert im Allgemeinen auf wenige Prozent festgelegt, sogar noch niedriger, wenn einige Node eine sehr große Anzahl von Verbindungen haben.
-
-
+Wenn eine oder mehrere Nodes mit spezifischen Weiterleitungsregeln konfiguriert sind, bedeutet dies, dass festgelegt wird, welcher Teil des Netzwerkes die Weiterleitung einer bestimmten Art von Transaktion akzeptiert. Die Verbreitung einer Nachricht in einem Peer-to-Peer-Graphen, wie es bei Bitcoin-Transaktionen der Fall ist, folgt der Logik der Perkolationstheorie. Stell dir jede Node als einen Standort vor, der aktiv (`p` = er leitet weiter) oder inaktiv (`1-p`) sein kann. Sobald der Anteil `p` einen kritischen Schwellenwert (`p_c`) überschreitet, entsteht eine riesige Komponente: Die Transaktion schafft es, das Netzwerk zu durchqueren und hat alle Chancen, einen Miner zu erreichen. In einem Netzwerk wie Bitcoin, in dem jede Node durchschnittlich 8 ausgehende Verbindungen unterhält, wird der `p_c`-Schwellenwert im Allgemeinen auf wenige Prozent festgelegt, sogar noch niedriger, wenn einige Nodes eine sehr große Anzahl von Verbindungen haben.
 
 ![Image](assets/fr/061.webp)
 
+Solange `p` unter `p_c` bleibt, bleibt eine Transaktion in einem lokalen Netzwerkteil beschränkt und erreicht kein Miner. Sobald dieser Schwellenwert überschritten wird, breitet sie sich fast augenblicklich über das gesamte Netzwerk aus.
 
+Letztendlich sind es immer die Miner, die entscheiden, ob eine Transaktion in einen Block aufgenommen wird oder nicht. Die Nodes greifen jedoch im Vorfeld ein, indem sie die Verteilung der Transaktionen beeinflussen: Sie bestimmen, ob die Miner von einer bestimmten Transaktion Kenntnis erhalten oder nicht. Wenn eine Transaktion nicht an die Miner weitergeleitet wird, ist es für diese natürlich unmöglich, sie in einen Block aufzunehmen.
 
-Solange `p` unter `p_c` bleibt, bleibt eine Transaktion auf isolierte Taschen beschränkt und erreicht kein Miner. Sobald dieser Schwellenwert überschritten wird, breitet sie sich fast augenblicklich über das gesamte Netz aus.
-
-
-
-Letztendlich sind es immer die Miner, die entscheiden, ob eine Transaktion in einen Block aufgenommen wird oder nicht. Die Knotenpunkte greifen jedoch im Vorfeld ein, indem sie die Verteilung der Transaktionen beeinflussen: du bestimmen, ob die Miner von einer bestimmten Transaktion Kenntnis erhalten oder nicht. Wenn eine Transaktion nicht an die Miner weitergeleitet wird, ist es für diese natürlich unmöglich, sie in einen Block aufzunehmen.
-
-
-
-Das Hinzufügen einiger weiterer Node hat daher nur eine marginale Auswirkung, wenn sich das Netzwerk bereits in der Perkolationsphase für eine bestimmte Art von Transaktion befindet, kann sich aber als entscheidend erweisen, wenn sich die Perkolationsschwelle nähert. Der Besitz oder die Beeinflussung mehrerer Node, insbesondere wenn sie gut vernetzt sind, kann den Wert von "p" erhöhen oder verringern und damit indirekt die Weiterleitungsregeln steuern, die bestimmen, welche Transaktionen von den Minern gesehen und schließlich akzeptiert werden.
-
-
+Das Hinzufügen einiger weiterer Nodes hat daher nur eine marginale Auswirkung, wenn sich das Netzwerk bereits in der Perkolationsphase für eine bestimmte Art von Transaktion befindet, kann sich aber als entscheidend erweisen, wenn es es sich der Perkolationsschwelle annähert. Der Besitz oder die Beeinflussung mehrerer Nodes, insbesondere wenn sie gut vernetzt sind, kann den Wert von `p` erhöhen oder verringern und damit indirekt die Weiterleitungsregeln steuern, die bestimmen, welche Transaktionen von den Minern gesehen und schließlich akzeptiert werden.
 
 #### Für Konsensregeln
 
+Wenn es um den Einfluss deiner Node auf die Konsensregeln geht, ist vor allem ihr wirtschaftliches Gewicht entscheidend. Dies ist ein entscheidendes Konzept: Der Wert einer Währung steht in direktem Zusammenhang mit ihrer Fähigkeit, Austausch zu erleichtern. Wenn ein Gegenstand von niemandem in Austausch für Waren oder Dienstleistungen akzeptiert wird, hat er theoretisch keinen monetären Nutzen. Wenn zum Beispiel kein Händler Kieselsteine als Zahlungsmittel akzeptiert, haben sie keinen Nutzen als Geld. Natürlich bleibt der Nutzen auf individueller Ebene ein subjektiver Begriff, aber in einem bestimmten Gebiet ist es umso wahrscheinlicher, dass dieses Objekt für die in diesem Gebiet lebenden Menschen einen monetären Nutzen hat, je mehr Händler ein Objekt als Zahlungsmittel im Austausch akzeptieren.
 
+Nehmen wir das Beispiel eines Dorfes, in dem viele Händler Gold im Austausch für Waren akzeptieren: Die Chancen stehen gut, dass Gold einen monetären Nutzen für die Dorfbewohner hat. Dies zeigt, dass der Nutzen einer Währung direkt von der Entscheidung der Händler abhängt, sie zu akzeptieren oder abzulehnen.
 
-Wenn es um den Einfluss Ihres Node auf die Konsensregeln geht, ist vor allem sein wirtschaftliches Gewicht entscheidend. Dies ist ein entscheidendes Konzept: Der Wert einer Währung steht in direktem Zusammenhang mit ihrer Fähigkeit, Exchange zu erleichtern. Wenn ein Gegenstand von niemandem in Exchange für Waren oder Dienstleistungen akzeptiert wird, hat er theoretisch keinen monetären Nutzen. Wenn zum Beispiel kein Händler Kieselsteine als Zahlungsmittel akzeptiert, haben sie keinen Nutzen als Geld. Natürlich bleibt der Nutzen auf individueller Ebene ein subjektiver Begriff, aber in einem bestimmten Gebiet ist es umso wahrscheinlicher, dass dieses Objekt für die in diesem Gebiet lebenden Menschen einen monetären Nutzen hat, je mehr Händler ein Objekt als Zahlungsmittel in Exchange akzeptieren.
-
-
-
-Nehmen wir das Beispiel eines Dorfes, in dem viele Händler Gold in Exchange für Waren akzeptieren: Die Chancen stehen gut, dass Gold einen monetären Nutzen für die Dorfbewohner hat. Dies zeigt, dass der Nutzen einer Währung direkt von der Entscheidung der Händler abhängt, sie zu akzeptieren oder abzulehnen.
-
-
-
-Dieses Konzept ist entscheidend für das Verständnis der Machtdynamik, die im Bitcoin-System im Spiel ist. Satoshi macht es deutlich: Bitcoin ist ein elektronisches Bargeldsystem; mit anderen Worten, es bietet einen Dienst an, der eine Form von Währung, Bitcoin (oder BTC), anbietet. Wenn die Protokollregeln in einer Weise geändert werden, die nicht rückwärtskompatibel ist (Hard Fork), kommt dies der Schaffung eines neuen Systems und damit einer neuen Währung gleich. Der Erfolg oder Misserfolg dieses Fork hängt dann von der Größe seiner Wirtschaft ab, die wiederum von der Anzahl der Händler bestimmt wird, die diese neue Form der Währung akzeptieren.
-
-
+Dieses Konzept ist entscheidend für das Verständnis der Machtdynamik, die im Bitcoin-System im Spiel ist. Satoshi macht es deutlich: Bitcoin ist ein elektronisches Bargeldsystem; mit anderen Worten, es bietet einen Dienst an, der eine Form von Währung, Bitcoin (oder BTC), anbietet. Wenn die Protokollregeln in einer Weise geändert werden, die nicht rückwärtskompatibel ist (Hard Fork), kommt dies der Schaffung eines neuen Systems und damit einer neuen Währung gleich. Der Erfolg oder Misserfolg dieser Fork hängt dann von der Größe seiner Wirtschaft ab, die wiederum von der Anzahl der Händler bestimmt wird, die diese neue Form der Währung akzeptieren.
 
 ![Image](assets/fr/062.webp)
 
+Nehmen wir ein Beispiel: Nehmen wir an, Bitcoin erleidet eine Hard Fork. Dann gäbe es 2 verschiedene Arten von Währungen: BTC-1 (die ursprüngliche, unveränderte Version) und BTC-2 (die neue Währung mit anderen Konsensregeln). Wenn alle Händler, die BTC-1 akzeptiert haben, dies auch weiterhin tun, aber BTC-2 ablehnen, dann wird letztere theoretisch nur einen sehr begrenzten monetären Nutzen haben. Als Nutzer hätte ich kein Interesse daran, BTC-2 zu behalten und zu verwenden, da ich weiß, dass kein Händler es im Austausch für Waren oder Dienstleistungen haben möchte. Wenn sich umgekehrt 50 % der Händler dafür entscheiden, ausschließlich BTC-2 zu akzeptieren, und die restlichen 50 % nur BTC-1 annehmen, dann hat sich der Nutzen von BTC-1 theoretisch halbiert. Ich verwende den Begriff "theoretisch", weil der Nutzen auf individueller Ebene subjektiv bleibt und von einer Vielzahl von Faktoren abhängt (z. B. Gebiet und Konsumgewohnheiten), die im Einzelfall schwer zu erfassen sind.
 
+Auf Bitcoin umfasst die Rolle des "Händlers", verstanden als jede Einheit mit einem gewissen wirtschaftlichen Gewicht, natürlich Unternehmen (physische Geschäfte, Online-Verkaufsseiten, Dienstleister usw.), aber auch Tauschbörsen, da sie Bitcoin im Austausch für andere Währungen akzeptieren, und Miner, da sie Bitcoin über Gebühren im Austausch für die Dienstleistung der Aufnahme einer Transaktion in einen Block akzeptieren.
 
-Nehmen wir ein Beispiel: Nehmen wir an, Bitcoin erleidet einen Hard Fork. Dann gäbe es 2 verschiedene Arten von Währungen: BTC-1 (die ursprüngliche, unveränderte Version) und BTC-2 (die neue Währung mit anderen Konsensregeln). Wenn alle Händler, die BTC-1 akzeptiert haben, dies auch weiterhin tun, aber BTC-2 ablehnen, dann wird letztere theoretisch nur einen sehr begrenzten monetären Nutzen haben. Als Nutzer hätte ich kein Interesse daran, BTC-2 zu behalten und zu verwenden, da ich weiß, dass kein Händler es in Exchange für Waren oder Dienstleistungen haben möchte. Wenn sich umgekehrt 50 % der Händler dafür entscheiden, ausschließlich BTC-2 zu akzeptieren, und die restlichen 50 % nur BTC-1 annehmen, dann hat sich der Nutzen von BTC-1 theoretisch halbiert. Ich verwende den Begriff "theoretisch", weil der Nutzen auf individueller Ebene subjektiv bleibt und von einer Vielzahl von Faktoren abhängt (z. B. Gebiet und Konsumgewohnheiten), die im Einzelfall schwer zu erfassen sind.
+Was die Konsensregeln anbelangt, so könntest du mit deiner Node deine Wirtschaftstätigkeit auf die eine oder andere Währung ausrichten. Wenn du beispielsweise 10 Full-Node zu Hause hast, aber keine nennenswerten wirtschaftlichen Aktivitäten entfaltest, wird dein Einfluss während einer Fork fast gleich Null sein. Umgekehrt verleiht eine einzige Node, die zur Verwaltung einer Kette von 200 Geschäften verwendet wird, die Bitcoin akzeptieren, ein erhebliches wirtschaftliches Gewicht.
 
+Es kommt also nicht auf die Anzahl der Nodes an, sondern auf die Bedeutung der von ihnen unterstützten Wirtschaftstätigkeit. Mehr noch: Wenn deine wirtschaftliche Aktivität von einer Node abhängt, die du nicht kontrollierst, entscheidet dessen Eigentümer, welche Währung du verwendest, solange du mit dieser Node verbunden bleibst. Aus diesem Grund ist der Betrieb und die Nutzung eines eigenen Node im Rahmen der Systemsteuerung besonders wichtig:
 
+> Nicht deine Node, nicht deine Regeln.
 
-Auf Bitcoin umfasst die Rolle des "Händlers", verstanden als jede Einheit mit einem gewissen wirtschaftlichen Gewicht, natürlich Unternehmen (physische Geschäfte, Online-Verkaufsseiten, Dienstleister usw.), aber auch Exchange-Plattformen, da sie Bitcoin in Exchange für andere Währungen akzeptieren, und Miner, da sie Bitcoin über Gebühren in Exchange für die Dienstleistung der Aufnahme einer Transaktion in einen Block akzeptieren.
-
-
-
-Was die Konsensregeln anbelangt, so können du mit Ihrem Knotenpunkt Ihre Wirtschaftstätigkeit auf die eine oder andere Währung ausrichten. Wenn du beispielsweise 10 volle Node zu Hause haben, aber keine nennenswerten wirtschaftlichen Aktivitäten entfalten, wird dein Einfluss während eines Fork fast gleich Null sein. Umgekehrt verleiht ein einziger Node, der zur Verwaltung einer Kette von 200 Geschäften verwendet wird, die Bitcoin akzeptieren, ein erhebliches wirtschaftliches Gewicht.
-
-
-
-Es kommt also nicht auf die Anzahl der Knotenpunkte an, sondern auf die Bedeutung der von ihnen unterstützten Wirtschaftstätigkeit. Mehr noch: Wenn Ihre wirtschaftliche Aktivität von einem Node abhängt, den du nicht kontrollieren, entscheidet dessen Eigentümer, welche Währung du verwenden, solange du mit diesem Node verbunden bleiben. Aus diesem Grund ist der Betrieb und die Nutzung eines eigenen Node im Rahmen der Systemsteuerung besonders wichtig:
-
-
-
-> Nicht dein Node, nicht deine Regeln.
-
-
-## Die verschiedenen Typen von Bitcoin-Node
-
+## Die verschiedenen Typen von Bitcoin-Nodes
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
-
-
 
 Ein Bitcoin-Node ist also ein Rechner, auf dem eine Implementierung des Bitcoin-Protokolls läuft. Hinter dieser allgemeinen Definition von Node verbergen sich mehrere mögliche Konfigurationen, die nicht alle das gleiche Maß an Autonomie, Ressourcenverbrauch und Nutzen für das Netzwerk bieten. In diesem Kapitel werden wir versuchen, diese Unterschiede zu verstehen, um dir zu helfen, eine Knotenarchitektur zu wählen, die Ihren Anforderungen und Hardwarebeschränkungen entspricht.
 

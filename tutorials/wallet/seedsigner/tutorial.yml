@@ -132,7 +132,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -142,14 +142,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 14.2
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.72

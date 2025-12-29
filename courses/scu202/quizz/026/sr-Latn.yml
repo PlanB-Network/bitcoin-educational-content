@@ -1,9 +1,9 @@
-question: Koja komanda prikazuje detaljan sadržaj fascikle, uključujući skrivene fajlove?
+question: Koja komanda prikazuje detaljan sadržaj datateke, uključujući skrivene fajlove?
 answer: ls -lah
 wrong_answers:
-  - prikaži-foldu
+  - show-folder
   - list-files -detailed
   - viewdir -a
 explanation: |
-  "ls -lah" prikazuje datoteke i fascikle u detalje, uključujući skrivene datoteke (koje počinju tačkom).
-reviewed: false
+  "ls -lah" prikazuje fajlove i foldere u detalje, uključujući skrivene fajlove (koje počinju tačkom).
+reviewed: true

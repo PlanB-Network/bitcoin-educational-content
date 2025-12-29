@@ -140,22 +140,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.87
+    reward: 22.85
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.42
+    reward: 27.4
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.87
+    reward: 22.85
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.87
+    reward: 22.85
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.85
 tags:
   - self-sovereignty
   - deep-dive

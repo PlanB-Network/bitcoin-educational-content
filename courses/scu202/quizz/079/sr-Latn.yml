@@ -2,8 +2,8 @@ question: Koji je glavni rizik ne ažuriranog pametnog telefona?
 answer: Postaje ranjiv na poznate ranjivosti
 wrong_answers:
   - Koristi više baterije
-  - On gubi Wi-Fi vezu
+  - Gubitak Wi-Fi veze
   - Postaje podložniji phishingu
 explanation: |
   Neažurirani pametni telefon izložen je javno ispravljenim ranjivostima koje napadači lako mogu iskoristiti.
-reviewed: false
+reviewed: true

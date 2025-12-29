@@ -806,92 +806,92 @@ Uko uburyo bwoba buri kwose (PkO, TxO2, n'ibindi), _ukwiyemeza_ gushobora kwinji
 
 
 - Mu **Inyinjizo** biciye kuri:
-- **Sigtweak** (ihindura igice ca `r` c'umukono wa ECDSA, gisa n'ingingo ngenderwako y'"Ikimenyetso-ku-Contract");
-- **Witweak** (amakuru y'ivyabona *vyatandukanye* vy'ugucuruza arahindurwa).
+- **Sigtweak** (ihindura akadomo `r` ku mukono wa ECDSA, bisa n'ingingo ngenderwako y'"Gutera umukono-ku-masezerano");
+- **Witweak** (amakuru y'icabona *c'ugutandukanya* hamwe n'ubutumwa).
 - Mu **Igisohoka** biciye kuri:
-- **Keytweak** (urufunguzo rwa bose rw'uwuronka "rurahindurwa" n'ubutumwa);
+- **Keytweak** (urufunguzo rw'uwakira ruri kukarubanda "rurahindurwa" n'ubutumwa);
 - **Opret** (ubutumwa bushirwa mu gisohoka kitashobora gukoreshwa `OP_RETURN`);
-- **Tapret** (canke _Taptweak_), yizigira Taproot kugira ngo yinjize Commitment mu gice c'inyandiko c'urufunguzo rwa Taproot, gutyo igahindura urufunguzo rwa bose mu buryo butegekanijwe.
+- **Tapret** (canke _Taptweak_), yubakiye kuri Taproot kugira ngo ishiremwo ukwiyemeza mugace k'inyandiko k'urupfunguruzo rwa Taproot, gutyo igahindura urufunguzo rwa bose mu buryo butegekanijwe.
 
 
 ![RGB-Bitcoin](assets/en/035.webp)
 
 
-Aha niho hari ido n’ido ry’uburyo bumwe bumwe:
+Hano niho hari insiguro yose yaburu buryo:
 
 
 ![RGB-Bitcoin](assets/en/038.webp)
 
 
-***Ikimenyetso co guhindura (ikimenyetso-ku-Contract):***
+***Ikimenyetso co guhindura (gutera umukono-ku-masezerano):***
 
 
-Umugambi wa kera wari ukoresha igice c'umukono (ECDSA canke Schnorr) kugira ngo ushiremwo _ukwiyemeza_: ubu ni ubuhinga buzwi nka "**Sign-to-Contract**". Usubiriza Nonce yavutse mu buryo butari bwo n’iyindi Hash irimwo amakuru. Muri ubwo buryo, iyo sinya irahishura ata gufyina Commitment yawe, ata kibanza na kimwe congereweko mu gucuruza. Ubwo buryo burafise ivyiza bitari bike:
-
-
-
-
-- Nta On-Chain irenze urugero (ukoresha ahantu hamwe na Nonce y’ishimikiro);
-- Mu vyiyumviro, ivyo bishobora kuba bitandukanye cane, kuko Nonce mu ntango ari urugero rw’ibintu bitari vyo.
-
-
-Ariko rero, hariho ingorane 2 zikomeye zabonetse:
+Igishoshanyo cakare cashiramwo igice c'umukono (ECDSA canke Schnorr) kugira ngo ushiremwo _ukwiyemeza_: Ibi mubuhinga bizwi nka  "**Sign-to-Contract**"(Gutera Umukono kumasezerano). Usubiriza Nonce yashizweho mu buryo butari bwo n’iyindi Hash irimwo amakuru. Muri buno buryo, uno mukono urahishura ukwiyemeza kwawe, atakandi gace kongeweko kw'ihanahanwa. Ubwo buryo burafise ivyiza bitari bike:
 
 
 
 
-- Multisig imbere ya Taproot: iyo ufise abasinye benshi, ukeneye guhitamwo umukono uzotwara _ukwiyemeza_. Imikono ishobora gutegekwa mu buryo butandukanye, kandi iyo uwushizeko umukono yanse, uratakaza ububasha ku vyo _ukwiyemeza_ bizovamwo;
-- MuSig na Nonce basangira: na Schnorr Multisig (*MuSig*), uruvyaro rwa Nonce ni ubuhinga bw’imigwi myinshi, kandi bica biba nk’ibidashoboka guhindura Nonce ku giti cabo.
+- Nta On-Chain irenze urugero (ukoresha ikibanza kimwe kuri Nonce y’ishimikiro);
+- Mumajambo, ibi bishobora kuba vyihishije cane, kuko Nonce mu ntango ari urugero rw’ibintu bitari vyo.
 
 
-Mu bikorwa, **sig tweak** na yo nyene ntihuye cane n’ibikoresho biriho (ibikoresho vy’amasakoshi) n’imiterere (Lightning, n’ibindi). Rero iki ciyumviro gikomeye ni Hard co gushira mu ngiro.
+Nubwo biruko, hariho ingorane 2 zikomeye zabonetse:
 
 
-***Urufunguzo rwo guhindura (kwishura-ku-Contract):***
 
 
-**Key tweak** ifata iciyumviro c'amateka c'_kwishura-ku-masezerano_. Dufata urufunguzo rwa bose `X` tukaruhindura mu kwongerako agaciro `H(ubutumwa)`. Mu buryo bwihariye, iyo `X = x * G` na `h = H(ubutumwa)`, rero urufunguzo rushasha ruzoba `X' = X + h * G`. Urufunguzo rwahinduwe runyegeza Commitment ku `ubutumwa`. Uwufise urufunguzo rw'ibanga rw'umwimerere arashobora, mu kwongerako `h` ku rufunguzo rwiwe rw'ibanga `x`, kwemeza ko afise urufunguzo rwo gukoresha igisohoka. Mu vyiyumviro, ivyo ni vyiza cane, kuko:
+- Multisig imbere ya Taproot: iyo ufise abatera umkono benshi, uzokenera guhitamwo n'uwuhe mukono uzotwara _ukwiyemeza_. Imikono ishobora gushirwaho mu buryo butandukanye, Hanyuma iyo uwutera umukono yanse, uratakaza ubushobozi ku vyo _ukwiyemeza_ bizovamwo;
+- MuSig hamwe Nonce isabikanijwe: na Schnorr Multisig (*MuSig*), urunganwe rwa Nonce ni algorithm bw’imigwi myinshi, hanyuma biba nk'ibidashoboka kurubuga guhindura Nonce kuri burimuntu.
+
+
+Mu bikorwa, **sig tweak** nayi nyene ntuhuye neza na neza n'ubuhinga bwa none buhari (Ingodo z'ubuhinga bwa none) n’imiterere (Lightning, n’ibindi). Rero kino ciyumviro ciza cane kiragoye gushira mungiro.
+
+
+***Urufunguzo rwa tweak [pay-to-contract (kwishura-ku-masezerano)]:***
+
+
+**Urufunguruzo rwa tweak** rufata iciyumviro ca kahise c'_kwishura-ku-masezerano_. Dufata urufunguzo ruri kukarubanda `X` tukaruhindura mu kwongerako agaciro `H(ubutumwa)`. Mu buryo bwihariye, iyo `X = x * G` na `h = H(ubutumwa)`, rero urufunguzo rushasha ruzoba `X' = X + h * G`. Urufunguzo rwahinduwe runyegeza ukwiyemeza ku `ubutumwa`. Uwufise urufunguzo rw'ibanga rw'ukuri arashobora, mu kwongerako `h` ku rufunguzo rwiwe rw'ibanga `x`, yemeza yuko afise urupfunguruzo rwo gukoresha igisohoka. Mumajambo, ivyo ni vyiza cane, kuko:
 
 
 
 
 - _Ukwiyemeza_ kwinjira ata bindi bibanza vyongeweko;
-- Nta makuru y’inyongera ya On-Chain ubika.
+- Nta makuru y’inyongera ya On-Chain ushingura.
 
 
-Ariko mu bikorwa, turahura n’ingorane zikurikira:
+Mubikorwa, nubwo biruko, turahura n'ingorane zikwirikira:
 
 
 
 
-- Ama wallets ntagishobora kwemera urufunguzo rwa bose rusanzwe, kuko rwa "tweaked", rero ntizishobora gufatanya UTXO n'urufunguzo rwawe rusanzwe;
-- Ivyuma vy’amasakoshi ntivyagenewe gusinya n’urufunguzo rudakomoka ku vyo bikomokamwo;
-- Ukeneye guhindura inyandiko zawe, ibisobanuro, n'ibindi.
+- Ingodo zitakimenya urufunguruzo ruri kukarubanda rwemerwa na bose, kuva aho "ruhinduriwe", rero ntizishobora gufatanya UTXO n'urufunguzo rwawe rusanzwe;
+- Ingodo z'ubuhinga bwa none ntizakozwe kugira ziterweko umukono kuzitavuye muzemerwa na bose;
+- Urakeneye guhindura inyandiko zawe, ibisobanuro, n'ibindi.
 
 
 Mu bijanye na RGB, iyo nzira yari itegekanijwe gushika mu 2021, ariko vyagaragaye ko igoye cane ku buryo itashobora gukorana n’ingingo mfatirwako n’ibikorwa remezo biriho ubu.
 
 
-***Ivyabona tweak:***
+***Tweak y'icabona:***
 
 
-Ikindi ciyumviro, amategeko amwe amwe nka _inscriptions Ordinals_ yashize mu ngiro, ni ugushira amakuru ataco akora mu gice ca `umushingantahe` c'ugucuruza (ni co gituma imvugo "uguhindura umushingantahe"). Ariko rero, ubu buryo:
+Ikindi ciyumviro, amategeko amwe amwe nka _inscriptions Ordinals_ yashize mu ngiro, n'ugushira amakuru ataho yiriwe araca mugace k'`icabona` c'ihanahanwa (niho havuye ijambo ati " tweak y'icabona"). N'ubwo birko, buno buryo:
 
 
 
 
-- Bituma ubugeni buboneka ubwo nyene (ushiramwo amakuru atagiramwo ivyiza mu cabona);
+- Bituma ukwiyemeza biboneka aho nyene (Ucukora n'uguteruriramwo umuronngo mu cabona);
 - Bishobora gucengera (abacukuzi canke ama node bashobora kwanka gutanga iyo ari nini cane canke ikindi kintu cose kiranga ububisha);
-- Ifata umwanya mu mabuye, bitandukanye n’intumbero ya RGB yo gukoresha ubukerebutsi no gutuma umuntu agira umuco.
+- Ifata umwanya mu mabuye, aho bitandukaniye n’intumbero ya RGB yo gukoresha ubukerebutsi no gutuma umuntu agira umuco.
 
 
-Vyongeye, igishingantahe gigenewe gufatwa mu bihe bimwebimwe, ivyo bikaba bishobora gutuma kugira ibimenyamenya bikomeye bigorana cane.
+Ivyiyongerako, Icabona cakozwe kugira gigenewe gufatwa mu bihe bimwebimwe, ivyo bikaba bishobora gutuma habaho ibimenyamenya bikomeye biyobeye cane.
 
 
-***Gufungura-kugaruka (opret):***
+***kwugurura-kugaruka (opret):***
 
 
-Biroroshe cane mu mikorere yavyo, `OP_RETURN` iragufasha kubika Hash canke ubutumwa mu kibanza kidasanzwe c'ugucuruza. Ariko biraca bimenyekana: umuntu wese abona ko hariho _ukwiyemeza_ mu gucuruza, kandi birashobora gucengera canke gutabwa, hamwe no kwongerako umusaruro w'inyongera. Kubera ko ivyo birongereza uguseruka n'ubunini, bifatwa nk'ibidashimisha cane ku bijanye n'umuti wa Client-side Validation.
+Biroroshe cane mu mikorere yavyo, `OP_RETURN` iragufasha kubika Hash canke ubutumwa mu kibanza kidasanzwe mw'ihanahanwa. Ariko bica bimenyekana ubwonyene: umuntu wese abona ko hariho _ukwiyemeza_ mwihanahanwa, kandi birashobora guhanwa canke gutabwa, hamwe no kwongerako umusaruro w'inyongera. Kubera ko ivyo birongereza ubwizerwe n'ubunini, bifatwa nk'ibidashimisha cane ku bijanye n'inyishu y'ukwemeza kuruhande rw'umuguzi (Client-side Validation).
 
 
 ```txt
@@ -906,13 +906,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’umugambi wa *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bwa Commitment, buzana iterambere mu bijanye n’ikirenge kuri Blockchain n’ibanga ry’ibikorwa vya Contract. Iciyumviro nyamukuru ni uguhisha Commitment mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot] (Taproot).
+Ihitamwo rya nyuma ni ugukoresha **Taproot** (yashizweho na BIP341) n’igicapo ca *Tapret*. *Tapret* ni uburyo bugoranye cane bw’ubuhinga bw'ukwiyemeza, buzana iterambere mu bijanye n’amakanda ya Blockchain n’ibanga ry’ibikorwa vy'amasezerano. Iciyumviro nyamukuru ni uguhisha ukiyemeza mu gice ca `Inzira y'Inyandiko` y'[Ibikorwa vya Taproot] (Taproot).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Imbere yo gusobanura ingene Commitment yinjizwa mu gikorwa ca Taproot, reka turabe **uburyo nyabwo** bwa Commitment, butegerezwa **guhuye n'urudodo rw'amabayiti 64** . [yubatswe] (BP-WG/bp-core/blob/umukuru/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
+Imbere y'ugusigura ingene ukwiyemeza gushirwa mw'ihanahanwa rya Taproot, reka turabe **uburyo nyabwo** bw'ukiyemeza, butegerezwa **guhuye n'urudodo rw'byte 64** . [yubatswe] (BP-WG/bp-core/blob/umukuru/dbc/src/tapret/mod.rs#L179-L196) nk'uko bikurikira:
 
 
 ```txt
@@ -929,7 +929,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 
-- Ivyo bice 29 `OP_RESERVED`, bikurikiwe na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango_ c'ibice 31;
+-  Ama byte 29 `OP_RESERVED`, Akwirikirwa na `OP_RETURN`, hanyuma `OP_PUSHBYTE_33`, bikora igice c'intango_ c'ibice 31;
 - Hakurikiraho _ukwiyemeza_ kw’amabayiti 32 (kenshi Merkle Root iva kuri **MPC**), aho twongerako byte 1 ya **Nonce** (ivyo vyose hamwe ni amabayiti 33 y’iki gice ca kabiri).
 
 

@@ -596,7 +596,7 @@ Dans des contextes économiques instables, les valeurs traditionnelles de travai
 
 #### 8. Les "banques du monde"
 
-Dans des situations d'hyperinflation ou de crise monétaire, les marchés parallèles et non réglementés de devises étrangères tendent à proliférer. Ces << banques >> informelles, souvent appelées de manière humoristique “banques du monde ” ou par d'autres noms locaux, offrent un refuge pour ceux qui cherchent à protéger leurs actifs de la dévaluation. Bien que ces marchés puissent fournir une bouée de sauvetage économique nécessaire, ils soulignent souvent la méfiance généralisée envers les institutions financières officielles et les politiques gouvernementales.
+Dans des situations d'hyperinflation ou de crise monétaire, les marchés parallèles et non réglementés de devises étrangères tendent à proliférer. Ces "banques" informelles, souvent appelées de manière humoristique "banques du monde" ou par d'autres noms locaux, offrent un refuge pour ceux qui cherchent à protéger leurs actifs de la dévaluation. Bien que ces marchés puissent fournir une bouée de sauvetage économique nécessaire, ils soulignent souvent la méfiance généralisée envers les institutions financières officielles et les politiques gouvernementales.
 
 > Weimar : “Leurs transactions se faisaient principalement par l'intermédiaire des soi-disant Winkelbankiers, les opérateurs de ruelles qui avaient émergé avec l'inflation et qui, prospérant dans une économie malade, vivaient entièrement en profitant de la différence entre les prix d'achat et de vente des devises étrangères.”
 

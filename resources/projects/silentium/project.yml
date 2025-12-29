@@ -1,0 +1,29 @@
+id: fa23209f-d2d8-48d5-9fd9-ecf9a3183a0e
+
+name: Silentium
+
+links:
+  website: https://app.silentium.dev/
+  github: https://github.com/louisinger/silentium
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - software
+  - privacy
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-26
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

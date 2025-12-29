@@ -1,0 +1,9 @@
+question: อะไรเป็นสาเหตุให้ Satoshi Nakamoto จากไปอย่างกะทันหันในเดือนธันวาคม 2010?
+answer: การตีพิมพ์บทความที่เชื่อมโยง Bitcoin และ WikiLeaks
+wrong_answers:
+  - การยอมรับบิตคอยน์โดย WikiLeaks
+  - Gavin Andresen เข้าควบคุมโค้ด
+  - การเพิ่มขึ้นของราคาต่อหน่วยของบิตคอยน์
+explanation: |
+  บทความที่มีชื่อว่า "Could the Wikileaks Scandal Lead to New Virtual Currency?" นี้ถูกเผยแพร่บนเว็บไซต์ PC World ซึ่งเป็นหนึ่งในเว็บไซต์ที่ใหญ่ที่สุดของอเมริกาที่อุทิศให้กับการคอมพิวติ้ง
+reviewed: true

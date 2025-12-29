@@ -1,0 +1,8 @@
+question: Kuidas mõjutab majandusvabaduse kadumine kollektivistlikus süsteemis liberaalse analüüsi kohaselt teisi individuaalseid vabadusi?
+answer: See tekitab kaskaadiefekti, kus kõik teised vabadused kaotatakse süstemaatiliselt tänu riigi kontrollile tootmise ja jaotamise üle
+wrong_answers:
+  - See mõjutab eelkõige majanduslikke valikuid, kuid võimaldab muude vabaduste, nagu sõnavabaduse ja liikumisvabaduse säilitamist
+  - See tugevdab poliitilisi vabadusi, andes kodanikele rohkem kollektiivset otsustusõigust majandusküsimustes
+  - See piirab ainult töökohavabadusi, säilitades samas isiklikud vabadused, nagu elukoha valik ja peresuhted
+explanation: |
+  Liberaalne analüüs näitab, et majanduslik vabadus on kõigi teiste vabaduste alus. Kui riik kontrollib tootmist ja jaotamist, kontrollib ta paratamatult ka seda, kus inimesed töötavad ja seega ka seda, kus nad elavad. Riigi omandis olevad trükipressid kaotavad ajakirjandusvabaduse, samas kui reguleeritud kaubavahetus piirab isegi isiklikke suhteid. See vastastikune seotus näitab, et majanduslikku vabadust ei saa eraldada teistest individuaalsetest vabadustest - ühe kaotamine toob süstemaatilise kaskaadiefekti kaudu kaasa kõigi teiste kaotamise.

@@ -1,0 +1,9 @@
+question: คีย์ส่วนตัวมักจะแสดงด้วยอะไรใน Bitcoin wallet?
+answer: รายการคำ 12 หรือ 24 คำ
+wrong_answers:
+  - รายการคำ 12 หรือ 48 คำ
+  - รายการคำศัพท์ 32 คำ
+  - รายการคำ 64 คำ
+explanation: |
+  ใน Bitcoin wallet คีย์ส่วนตัวมักจะแสดงโดยรายการของคำ 12 หรือ 24 คำ ซึ่งรู้จักกันในชื่อว่า seed phrase หรือ mnemonic phrase
+reviewed: true

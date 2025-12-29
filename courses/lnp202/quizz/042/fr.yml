@@ -1,0 +1,9 @@
+question: Quel inconvénient majeur a une fermeture forcée ?
+answer: Fonds bloqués par le timelock
+wrong_answers:
+  - Perte partielle des fonds
+  - Obsolescence du nœud Lightning
+  - Désynchronisation du nœud Lightning
+explanation: |
+  Les fonds sont bloqués par un timelock et les frais sont souvent élevés.
+reviewed: false

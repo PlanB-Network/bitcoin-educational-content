@@ -1,0 +1,8 @@
+question: Milline paradoksaalne olukord tekib liberaalse teooria kohaselt siis, kui riik monopoliseerib sektorid, mida ta peab oluliseks?
+answer: Riik devalveerib ja ohverdab just need spetsialistid, kes neid olulisi teenuseid osutavad, takistades neil saavutada oma õigustatud sotsiaalset staatust
+wrong_answers:
+  - Riik tekitab liigset konkurentsi, mis vähendab oluliste teenuste kvaliteeti, säilitades samal ajal kunstliku nappuse
+  - Riik tekitab tarbijatele suuremaid kulusid, vähendades samal ajal elanikkonna juurdepääsu nendele teenustele
+  - Riik tekitab regulatiivse hõivamise, kui erahuvid manipuleerivad avaliku poliitika abil, et kõrvaldada tõeline turukonkurents
+explanation: |
+  Liberaalne teooria tuvastab riigimonopoliseerimise põhilise paradoksi: just seetõttu, et riik peab teatud sektoreid nii oluliseks, et neid tuleb kontrollida, õõnestab ta lõpuks nende inimeste väärtust, kes neis sektorites töötavad. Tekst illustreerib seda hariduse ja tervishoiu puhul, kus spetsialistid, kes peaksid olema ühiskonnas kõrgelt hinnatud, "ohverdatakse" selle asemel avaliku teenuse süsteemi poolt, mis nende tööd devalveerib. See on vastuolus liberaalse ennustusega, et vabas süsteemis oleksid need, kes kaitsevad ja rikastavad elu, korralikult väärtustatud.

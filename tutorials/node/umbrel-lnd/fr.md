@@ -7,37 +7,37 @@ description: Tutoriel avancé sur l'installation et la configuration de Lightnin
 
 ## Introduction
 
-Ce tutoriel avancé vous guidera pas à pas dans l'installation, la configuration et l'utilisation de l'application Lightning Node (LND) sur votre nœud Umbrel. Vous apprendrez à ouvrir des canaux, à gérer votre liquidité et à synchroniser votre nœud avec une application mobile.
+Ce tutoriel avancé vous accompagne pour installer, configurer et utiliser l'application Lightning Node (LND) sur votre nœud Umbrel. Vous y apprendrez comment ouvrir des canaux, gérer votre liquidité et synchroniser votre nœud avec une application mobile.
 
 ## 1. Prérequis : nœud Bitcoin Umbrel fonctionnel
 
-Avant de déployer Lightning, vous devez disposer d'un nœud Bitcoin complet opérationnel sur Umbrel. Cela implique d'installer Umbrel (sur Raspberry Pi, NAS ou autre machine) et de synchroniser entièrement la blockchain Bitcoin.
+Avant de déployer Lightning, vous devez disposer d'un nœud Bitcoin pleinement fonctionnel sur Umbrel. Cela implique d'installer Umbrel (sur Raspberry Pi, NAS ou autre machine) puis de synchroniser entièrement la blockchain Bitcoin.
 
-Pour installer Umbrel et configurer votre nœud Bitcoin, nous vous recommandons de suivre notre tutoriel dédié : 
+Pour installer Umbrel et mettre en place votre nœud Bitcoin, nous vous recommandons de suivre notre tutoriel dédié : 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Assurez-vous que votre nœud Bitcoin est à jour et fonctionne correctement, car le Lightning Network s'appuie sur lui pour toutes les transactions hors chaîne.
+Assurez-vous que votre nœud Bitcoin est à jour et fonctionne correctement, car le Lightning Network dépend de lui pour toutes les transactions hors chaîne.
 
 ## 2. Introduction au Lightning Network
 
-Le Lightning Network est un protocole de seconde couche conçu pour accélérer et réduire le coût des transactions Bitcoin en les réalisant hors de la blockchain principale.
+Le Lightning Network est une solution de seconde couche conçu pour accélérer et réduire le coût des transactions Bitcoin en les réalisant hors de la blockchain principale.
 
-Concrètement, Lightning utilise un réseau de canaux de paiement entre nœuds : deux utilisateurs ouvrent un canal en bloquant des BTC on-chain (transaction initiale), puis peuvent échanger instantanément des paiements à l'intérieur de ce canal. Ces transactions off-chain ne sont pas enregistrées sur la blockchain, d'où leur rapidité et leurs frais quasi nuls.
+Concrètement, Lightning fonctionne grâce à des canaux de paiement entre nœuds : deux utilisateurs ouvrent un canal en bloquant des BTC on-chain (transaction initiale), puis peuvent échanger instantanément des paiements à l'intérieur de ce canal. Ces transactions off-chain ne sont pas enregistrées sur la blockchain, d'où leur rapidité et leurs frais quasi nuls.
 
-Les paiements peuvent être routés à travers plusieurs canaux (grâce aux nœuds intermédiaires) pour atteindre n'importe quel destinataire sur le réseau, ce qui permet une échelle quasi illimitée de transactions instantanées. Lightning offre ainsi des transactions très rapides et peu coûteuses, idéales pour les paiements du quotidien ou les micro-transactions, tout en allégeant la charge sur la blockchain Bitcoin.
+Les paiements peuvent circuler à travers plusieurs canaux (grâce aux nœuds intermédiaires) pour atteindre n'importe quel destinataire sur le réseau, ce qui permet une échelle quasi illimitée de transactions instantanées. Lightning offre ainsi des transactions très rapides et peu coûteuses, idéales pour les paiements du quotidien ou les micro-transactions, tout en allégeant la charge sur la blockchain Bitcoin.
 
-Pour fonctionner, un nœud Lightning doit être connecté en permanence au réseau et interagir avec d'autres nœuds Lightning. Des implémentations logicielles variées existent (LND, Core Lightning, Eclair, etc.), toutes compatibles entre elles. Umbrel utilise LND (Lightning Network Daemon) au sein de son application Lightning Node officielle. Ce tutoriel se concentre sur LND.
+Pour fonctionner, un nœud Lightning doit rester en permanence connecté au réseau et communiquer avec d'autres nœuds Lightning. Des implémentations logicielles variées existent (LND, Core Lightning, Eclair, etc.), toutes compatibles entre elles. Umbrel utilise LND (Lightning Network Daemon) au sein de son application Lightning Node officielle. Ce tutoriel porte donc sur LND.
 
-Pour une introduction théorique complète au Lightning Network, nous vous recommandons de suivre notre cours dédié :
+Pour une introduction complète aux bases théoriques du Lightning Network, nous vous recommandons de suivre notre cours dédié :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Ce cours vous permettra d'approfondir les concepts fondamentaux du Lightning Network avant de passer à la pratique avec votre nœud LND.
+Ce cours vous aidera à maîtriser les concepts essentiels du Lightning Network avant de passer à la pratique avec votre nœud LND.
 
 ## 3. Pourquoi utiliser LND en auto-hébergement ?
 
-Exploiter son propre nœud Lightning (LND) sur Umbrel procure une souveraineté totale sur vos fonds et vos canaux, comparé aux solutions custodiales ou semi-custodiales.
+Utiliser votre propre nœud Lightning (LND) sur Umbrel vous donne un contrôle total sur vos fonds et vos canaux, contrairement aux solutions custodiales ou semi-custodiales.
 
 ### Comparaison des solutions Lightning :
 
@@ -62,13 +62,13 @@ Exploiter son propre nœud Lightning (LND) sur Umbrel procure une souveraineté 
 - Possibilité de router des transactions pour d'autres (rémunération en micro-frais)
 - Responsabilités techniques accrues (maintenance, gestion de la liquidité, sauvegardes)
 
-En résumé, opérer LND en auto-hébergement vous donne le maximum de contrôle mais exige plus de compétences techniques. Il s'agit d'un arbitrage entre commodité et souveraineté.
+En résumé, utiliser LND en auto-hébergement vous offre le maximum de contrôle mais exige plus de compétences techniques. Il s'agit d'un arbitrage entre commodité et souveraineté.
 
 ## 4. Tutoriel pas à pas
 
 ### 4.1 Installation et configuration de l'application Lightning Node sur Umbrel
 
-Une fois votre nœud Umbrel (Bitcoin) synchronisé, suivez ces étapes :
+Une fois votre nœud Umbrel (Bitcoin) synchronisé, procédez comme suit :
 
 ![Installation de Lightning Node depuis l'App Store Umbrel](assets/fr/01.webp)
 
@@ -76,17 +76,17 @@ Installez l'application Lightning Node depuis la section "App Store" de l'interf
 
 ![Avertissement sur la nature expérimentale de Lightning](assets/fr/02.webp)
 
-LND (Lightning Network Daemon) sera déployé sur votre Umbrel en tant qu'application. À la première ouverture, vous verrez un message d'avertissement vous informant que Lightning est une technologie expérimentale.
+LND (Lightning Network Daemon) sera installé sur votre Umbrel sous forme d'application. À la première ouverture, vous verrez un message d'avertissement vous informant que Lightning est une technologie expérimentale.
 
 ![Création ou restauration d'un nœud LND](assets/fr/03.webp)
 
-Vous aurez le choix entre créer un nouveau nœud ou en restaurer un depuis une sauvegarde/seed. Pour une première installation, choisissez de créer un nouveau nœud. L'app Lightning Node va générer une phrase mnémonique de 24 mots (votre seed Lightning) : notez-la très précieusement (idéalement hors-ligne, sur papier) car elle servira à restaurer vos fonds Lightning en cas de besoin.
+Vous pouvez soit créer un nouveau nœud ou soit en restaurer un depuis une sauvegarde/seed. Pour une première installation, choisissez de créer un nouveau nœud. L'application Lightning Node va générer une phrase mnémonique de 24 mots (votre seed Lightning) : notez-la très précieusement (idéalement hors-ligne, sur papier) car elle vous permettra de récupérer vos fonds Lightning en cas de besoin.
 
 **Remarque** : Sur les versions récentes d'Umbrel, c'est l'installation de l'app Lightning qui fournit cette seed de 24 mots (le nœud Bitcoin Umbrel en lui-même n'en donne pas).
 
 ![Interface principale de Lightning Node](assets/fr/04.webp)
 
-Après l'initialisation, vous accéderez à l'interface principale de Lightning Node.
+Une fois l’initialisation terminée, vous serez redirigé vers l’interface principale de l’application Lightning Node.
 
 ![Paramètres de l'application](assets/fr/05.webp)
 
@@ -100,7 +100,7 @@ Dans les paramètres de l'application, vous trouverez différentes options impor
    - Activer les sauvegardes automatiques (Automatic backups)
    - Configurer la sauvegarde via Tor (Backup over Tor)
 
-Ces options sont essentielles pour la sécurité et la gestion de votre nœud Lightning. Assurez-vous particulièrement d'activer les sauvegardes automatiques et de conserver précieusement vos mots secrets.
+Ces paramètres sont essentielles pour la sécurité et la gestion de votre nœud Lightning. Assurez-vous particulièrement d'activer les sauvegardes automatiques et de conserver soigneusement vos mots secrets.
 
 **Ressources utiles :**
 - [Umbrel Community](https://community.umbrel.com) – Forum de discussion permettant aux utilisateurs de partager leurs problèmes et solutions concernant Umbrel et son écosystème
@@ -138,8 +138,7 @@ Dans la page de configuration du canal :
 
 ![Canal en cours d'ouverture](assets/fr/11.webp)
 
-Une fois la transaction envoyée, le canal apparaîtra comme "en cours d'ouverture" sur la page d'accueil. Il faut attendre la confirmation de la transaction on-chain.
-
+Une fois la transaction envoyée, le canal apparaîtra comme "en cours d'ouverture" sur la page d'accueil. Il faudra ensuite patienter jusqu’à ce que la transaction on-chain soit confirmée.
 ![Détails du canal](assets/fr/12.webp)
 
 En cliquant sur le canal, vous pouvez voir ses détails :
@@ -164,11 +163,11 @@ L'interface principale propose trois options importantes :
 
 ![Message d'erreur LN+](assets/fr/15.webp)
 
-Note : Si vous n'avez pas encore de canal ouvert, vous verrez ce message d'erreur en cliquant sur "Open For Me".
+Remarque : Si vous n'avez pas encore de canal ouvert, vous obtiendrez ce message d'erreur en cliquant sur "Open For Me".
 
 ![Liste des swaps disponibles](assets/fr/16.webp)
 
-La page "Liquidity Swaps" montre toutes les offres de swap disponibles sur le réseau.
+La page "Liquidity Swaps" affiche toutes les offres de swap disponibles sur le réseau.
 
 ![Swaps éligibles](assets/fr/17.webp)
 
@@ -191,11 +190,11 @@ Pour piloter votre nœud Lightning à distance (smartphone), vous pouvez utilise
 ![Bouton "Connect Wallet" dans l'interface LND](assets/fr/19.webp)
 
 Assurez-vous que votre nœud Umbrel est accessible (par défaut via Tor).
-Dans l'interface Umbrel, ouvrez l'app Lightning Node, puis cliquez sur le bouton "Connect Wallet" comme indiqué par la flèche.
+Dans l'interface Umbrel, ouvrez l'application Lightning Node, puis cliquez sur le bouton "Connect Wallet" comme indiqué par la flèche.
 
 ![Page de connexion avec QR code](assets/fr/20.webp)
 
-Un QR code s'affiche, contenant vos identifiants d'accès LND en format lndconnect. Ce QR code est particulièrement dense en informations, n'hésitez pas à l'agrandir pour faciliter sa lecture.
+Un QR code s'affiche, contenant vos identifiants d'accès LND en format lndconnect. Ce QR code est particulièrement dense en informations, n'hésitez pas à l'agrandir pour faciliter la lecture.
 
 ![Configuration initiale de Zeus](assets/fr/21.webp)
 
@@ -212,7 +211,7 @@ Dans Zeus :
    - Important : activez l'option "Use Tor" si votre Umbrel n'est accessible que via Tor (cas par défaut)
    - Enregistrez la configuration
 
-Votre Zeus est maintenant connecté à votre nœud Umbrel et vous permet d'effectuer des paiements Lightning, de voir vos canaux, soldes, etc., tout en restant en autogestion complète.
+Votre Zeus est maintenant connecté à votre nœud Umbrel et vous permet d'effectuer des paiements Lightning, de voir vos canaux, soldes, etc., tout en restant totalement souverain sur votre nœud.
 
 **Options avancées de connexion :**
 
@@ -229,7 +228,7 @@ Par défaut, la connexion Zeus ↔ Umbrel s'effectue via Tor. Pour une connexion
    - Installez Tailscale sur Umbrel (App Store) et sur votre mobile
    - Connectez Zeus via l'IP privée Tailscale au lieu de l'adresse Tor
 
-Ces options ne sont pas obligatoires, la solution Tor + Zeus fonctionne bien dans la plupart des cas.
+Ces paramètres ne sont pas obligatoires, la solution Tor + Zeus fonctionne bien dans la plupart des cas.
 
 > **Ressources utiles :**
 > - [Zeus Documentation – Umbrel Connection](https://community.umbrel.com/t/zeus-ln-mobile/7619) – Guide officiel pour connecter Zeus à Umbrel
@@ -238,7 +237,7 @@ Ces options ne sont pas obligatoires, la solution Tor + Zeus fonctionne bien dan
 
 ## 5. Sécurité et bonnes pratiques
 
-La gestion d'un nœud Lightning auto-hébergé requiert une attention particulière à la sécurité.
+La gestion d'un nœud Lightning auto-hébergé demande une vigilance accrue en matière de sécurité.
 
 ### Sauvegarde et sécurité de votre nœud
 
@@ -307,7 +306,7 @@ Idéalement, laissez votre nœud en ligne le plus souvent possible. En cas d'abs
 - Vous pouvez utiliser un service public ou installer votre propre watchtower
 
 
-Pour approfondir la configuration et l'utilisation des watchtowers, nous vous recommandons de consulter notre tutoriel dédié :
+Pour en savoir plus sur la configuration et l'utilisation des watchtowers, nous vous recommandons de consulter notre tutoriel dédié :
 
 https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Autres bonnes pratiques
@@ -319,7 +318,7 @@ https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 ## 6. Outils complémentaires
 
-L'app Lightning Node d'Umbrel fournit l'essentiel pour gérer vos canaux, mais des outils tiers offrent des fonctionnalités avancées.
+L'app Lightning Node d'Umbrel fournit l'essentiel pour gérer vos canaux, mais des outils tiers proposent des fonctionnalités avancées.
 
 ### ThunderHub
 
@@ -364,9 +363,8 @@ L'installation de ces outils se fait en quelques clics via l'App Store d'Umbrel,
 
 ## Conclusion
 
-Faire fonctionner votre propre nœud LND sur Umbrel est une étape importante vers la souveraineté financière. Bien que cela demande plus d'implication technique qu'une solution custodiale, les bénéfices en termes de contrôle, de confidentialité et de participation active au réseau Lightning sont considérables.
+Faire fonctionner votre propre nœud LND sur Umbrel est une étape majeure vers la souveraineté financière. Même si cela demande davantage d'implication technique qu'une solution custodiale, les bénéfices en termes de contrôle, de confidentialité et de participation active au réseau Lightning sont considérables.
 
 En suivant ce guide, vous devriez maintenant pouvoir installer LND, ouvrir des canaux, gérer votre liquidité et accéder à votre nœud à distance. N'hésitez pas à explorer progressivement les fonctionnalités avancées et les outils complémentaires à mesure que vous vous familiarisez avec l'écosystème.
 
-Rappelez-vous que la sécurité de vos fonds dépend de vos sauvegardes et de vos pratiques. Prenez le temps de comprendre chaque aspect avant d'engager des montants importants.
-
+Gardez en tête que la sécurité de vos fonds dépend de vos sauvegardes et de vos pratiques. Prenez le temps de comprendre chaque étape avant d'engager des montants importants.

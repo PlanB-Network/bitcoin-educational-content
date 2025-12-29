@@ -1,0 +1,8 @@
+question: Miksi esitetyn liberaalin kritiikin mukaan Montesquieun määritelmää vapaudesta "oikeutena tehdä kaikkea, minkä lait sallivat" pidetään pohjimmiltaan vaarallisena?
+answer: Se sallii kaikki viattomien yksilöiden vapauksien loukkaukset niin kauan kuin laki sallii tällaiset loukkaukset
+wrong_answers:
+  - Siinä ei tehdä eroa erityyppisten lakien ja niiden eriasteisen legitiimiyden välillä
+  - Se luo liian rajoittavat puitteet, jotka estävät välttämättömän julkisen vallan puuttumisen markkinoihin
+  - Se antaa liian laajan liikkumavaran yksilölliselle toiminnalle, mikä heikentää sosiaalista yhteenkuuluvuutta ja kollektiivista hyvinvointia
+explanation: |
+  Montesquieun määritelmää kritisoidaan, koska sen mukaan vapaus on täysin riippuvainen oikeudellisesta luvasta, mikä tarkoittaa, että mikä tahansa laki - olipa se kuinka ahdistava tahansa - voi oikeutetusti rajoittaa yksilön vapautta. Tämä käsitys ei tunnusta sitä, että pitäisi olla olemassa viattoman yksilön toiminnan alue, joka pysyy vapaana riippumatta siitä, mitä lait sanovat. Destutt de Tracyn ja Benjamin Constantin kaltaiset liberaalit ajattelijat väittivät, että todellinen vapaus edellyttää, että erotetaan toisistaan laillinen valtiovalta ja yksilön oikeuksien loukkaamaton sfääri sen sijaan, että vapaudesta tehtäisiin riippuvainen laillisesta luvasta.

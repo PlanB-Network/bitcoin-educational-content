@@ -6,4 +6,4 @@ wrong_answers:
   - Traducir direcciones MAC en direcciones IP
 explanation: |
   El protocolo IP gestiona el direccionamiento lógico de los dispositivos y garantiza el encaminamiento de los paquetes a través de las redes interconectadas.
-reviewed: false
+reviewed: true

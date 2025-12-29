@@ -1,0 +1,8 @@
+question: Swiss Bitcoin Pay คืออะไร?
+answer: โซลูชันสำหรับพ่อค้าแม่ค้ามือสมัครเล่นในการรับ Bitcoin
+wrong_answers:
+  - ธนาคารสวิสที่รับ Bitcoin.
+  - การแลกเปลี่ยน Bitcoin จากสวิตเซอร์แลนด์
+  - บริษัท mining ที่ทำงานในสวิตเซอร์แลนด์
+explanation: >-
+reviewed: true

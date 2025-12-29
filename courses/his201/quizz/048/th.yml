@@ -1,0 +1,9 @@
+question: บริการใดที่รับ Bitcoin ซึ่งถูกจัดการโดย Teppy บุคคลที่แนะนำ Bitcoin บน Slashdot เมื่อวันที่ 11 กรกฎาคม 2010?
+answer: MMORPG A Tale in the Desert
+wrong_answers:
+  - VPN Mullvad
+  - บริการ VoIP Link2VoIP
+  - บริการโฮสติ้งเว็บไซต์ Vekja.net
+explanation: |
+  อันนี้ [เริ่ม](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) รับ Bitcoin เมื่อวันที่ 19 พฤษภาคม
+reviewed: true

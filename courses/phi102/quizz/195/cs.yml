@@ -1,0 +1,8 @@
+question: V čem je pro jednotlivé občany obzvláště obtížné posoudit důsledky politických rozhodnutí ve srovnání s osobními ekonomickými rozhodnutími?
+answer: Politické důsledky jsou kolektivní a časově rozptýlené, což jednotlivcům znemožňuje přímo sledovat jejich úplný dopad na neviditelné dotčené strany
+wrong_answers:
+  - Politická rozhodnutí vyžadují specializované znalosti, které mohou adekvátně pochopit a vyhodnotit pouze vyškolení ekonomové a političtí experti
+  - Politická rozhodnutí zahrnují morální hlediska, která přesahují racionální kalkulaci, na rozdíl od ekonomických rozhodnutí, která jsou čistě utilitární
+  - Politické systémy záměrně zastírají informace, aby si udržely moc, zatímco trhy poskytují transparentní cenové signály pro všechny účastníky
+explanation: |
+  V textu se konkrétně vysvětluje, že politická rozhodnutí mají kolektivní důsledky, které jsou "pro každého jednotlivce obtížně zkoumatelné", a že "politické opatření může dokonale poškodit lidi, které občan přímo nevidí" Toto časové a prostorové oddělení od důsledků v kombinaci s jejich kolektivní povahou činí politická rozhodnutí ze své podstaty obtížněji hodnotitelná než bezprostřední, osobní ekonomická rozhodnutí, jejichž výsledky jsou přímo pozorovatelné a nastavitelné.

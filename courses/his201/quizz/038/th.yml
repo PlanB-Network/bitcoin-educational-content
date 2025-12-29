@@ -1,0 +1,9 @@
+question: ชื่อของแอปพลิเคชันดูแลรักษาแรกที่อนุญาตให้ใช้ Bitcoin บนมือถือได้อย่างง่ายดายในเดือนเมษายน 2010 คืออะไร?
+answer: มายบิตคอยน์
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - ความเป็นส่วนตัวของฉลาม
+explanation: |
+  มันถูก[โปรโมต](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035)ในฟอรัมโดยคนที่ชื่อว่า Komodo เมื่อวันที่ 30 เมษายน 2010
+reviewed: true

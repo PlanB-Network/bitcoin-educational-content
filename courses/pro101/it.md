@@ -27,7 +27,7 @@ Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce 
 
 :::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
-Filippo e Mario forniscono un discorso introduttivo su CUBO+ 2023, ponendo le basi per il percorso di apprendimento completo che ci attende. Discutono la struttura dei corsi, i risultati previsti, e come questi consentiranno agli studenti di operare nello sviluppo Bitcoin.
+Filippo e Mario introducono CUBO+ 2023, ponendo le basi per il percorso di apprendimento completo che ci attende. Discutono la struttura dei corsi, i risultati previsti, e come questi consentiranno agli studenti di operare nello sviluppo Bitcoin.
 
 
 ### Obiettivi
@@ -59,7 +59,7 @@ Durante il corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno l
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo di Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
+Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo di Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione di Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -111,7 +111,7 @@ Nonostante il suo potenziale, Bitcoin deve affrontare sfide significative. In ar
 ### Il caso di El Salvador
 
 
-La decisione di El Salvador di adottare Bitcoin come moneta legale dimostra il suo potenziale trasformativo. Utilizzando Bitcoin, il Paese cerca di attrarre investimenti esteri e di promuovere la stabilità finanziaria. Progetti come **Bitcoin Beach** dimostrano come le economie locali possano crescere adottando Bitcoin come mezzo di pagamento del Exchange.
+La decisione di El Salvador di adottare Bitcoin come moneta legale dimostra il suo potenziale trasformativo. Utilizzando Bitcoin, il Paese cerca di attrarre investimenti esteri e di promuovere la stabilità finanziaria. Progetti come **Bitcoin Beach** dimostrano come le economie locali possano crescere adottando Bitcoin come mezzo di scambio.
 
 
 Tuttavia, l'adozione globale di Bitcoin incontra ostacoli quali l'ignoranza, la resistenza alle nuove tecnologie e le sfide infrastrutturali. Il percorso verso un sistema finanziario più inclusivo - dove Bitcoin può contribuire a elevare le nazioni in via di sviluppo - è lungo ma promettente. La natura decentralizzata e open-source di Bitcoin offre la speranza di un futuro in cui l'equità finanziaria sia disponibile per tutti.
@@ -120,7 +120,7 @@ Tuttavia, l'adozione globale di Bitcoin incontra ostacoli quali l'ignoranza, la 
 #### Conclusione
 
 
-In sintesi, Bitcoin promette molto bene per l'empowerment e l'inclusione finanziaria, ma ci attendono sfide significative. Rimanere impegnati con la comunità Bitcoin, imparare e porre domande sarà fondamentale per realizzare un futuro finanziario decentralizzato. Attraverso la collaborazione e il patrocinio, la visione di un sistema finanziario più equo per tutti può diventare realtà.
+In sintesi, Bitcoin promette molto bene per l'empowerment e l'inclusione finanziaria, ma ci attendono sfide significative. Rimanere impegnati con la community Bitcoin, imparare e porre domande sarà fondamentale per realizzare un futuro finanziario decentralizzato. Attraverso la collaborazione e il patrocinio, la visione di un sistema finanziario più equo per tutti può diventare realtà.
 
 
 ### Movimento Cypherpunk ed economia austriaca
@@ -166,9 +166,9 @@ Allo stesso tempo, l' **economia austriaca** ha fornito le basi per i principi m
 
 
 
-- Scarsità:** la quantità fissa di Bitcoin ne garantisce il valore nel tempo.
-- Preferenza per il tempo:** Incoraggia il risparmio per il futuro piuttosto che la spesa immediata.
-- Risparmiare:** Immagazzinare valore per le esigenze future, il che porta a investimenti e innovazione.
+- **Scarsità:** la quantità fissa di Bitcoin ne garantisce il valore nel tempo.
+- **Preferenza per il tempo:** Incoraggia il risparmio per il futuro piuttosto che la spesa immediata.
+- **Risparmiare:** Immagazzinare valore per le esigenze future, il che porta a investimenti e innovazione.
 
 
 **Definizioni**
@@ -180,22 +180,22 @@ Allo stesso tempo, l' **economia austriaca** ha fornito le basi per i principi m
 ### Bitcoin in El Salvador
 
 
-L'adozione di Bitcoin da parte di El Salvador riflette il suo potenziale come strumento di libertà finanziaria, allineandosi con l'economia austriaca** e promuovendo l'adozione volontaria e la decentralizzazione. Questa iniziativa sfida i sistemi finanziari tradizionali affrontando questioni chiave: concorrenza, monopolio e confisca.
+L'adozione di Bitcoin da parte di El Salvador riflette il suo potenziale come strumento di libertà finanziaria, allineandosi con **l'economia austriaca** e promuovendo l'adozione volontaria e la decentralizzazione. Questa iniziativa sfida i sistemi finanziari tradizionali affrontando questioni chiave: concorrenza, monopolio e confisca.
 
 
 ![Image](assets/en/003.webp)
 
 
 
-- Concorrenza**: Bitcoin introduce la concorrenza nel panorama finanziario offrendo un'alternativa alle banche tradizionali, consentendo ai salvadoregni di aggirare i gatekeeper finanziari e di scegliere i servizi che meglio rispondono alle loro esigenze.
+- **Concorrenza**: Bitcoin introduce la concorrenza nel panorama finanziario offrendo un'alternativa alle banche tradizionali, consentendo ai salvadoregni di aggirare i gatekeeper finanziari e di scegliere i servizi che meglio rispondono alle loro esigenze.
 
 
 
-- Monopolio**: Decentralizzando l'accesso finanziario, Bitcoin rompe il monopolio delle banche e delle valute emesse dai governi, riducendo la dipendenza dalle istituzioni centralizzate e favorendo l'inclusione finanziaria.
+- **Monopolio**: Decentralizzando l'accesso finanziario, Bitcoin rompe il monopolio delle banche e delle valute emesse dai governi, riducendo la dipendenza dalle istituzioni centralizzate e favorendo l'inclusione finanziaria.
 
 
 
-- Confisca**: La resistenza di Bitcoin alla confisca fornisce ai salvadoregni il controllo sui loro beni, proteggendo la loro ricchezza dal sequestro esterno e rafforzando la sovranità finanziaria.
+- **Confisca**: La resistenza di Bitcoin alla confisca fornisce ai salvadoregni il controllo sui loro beni, proteggendo la loro ricchezza dal sequestro esterno e rafforzando la sovranità finanziaria.
 
 
 L'adozione di Bitcoin da parte di El Salvador promuove un sistema finanziario più inclusivo, competitivo e sicuro, sfidando i limiti della finanza tradizionale.
@@ -221,7 +221,7 @@ Grazie per aver dedicato attenzione a questo materiale!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Nella prima lezione del corso "Come funziona Bitcoin", abbiamo iniziato a esplorare lo stack tecnologico che sta alla base della rete Bitcoin. Abbiamo trattato argomenti quali **Hashcash**, **transazioni**, il **Blockchain**, il **Lightning Network** e altri componenti fondamentali del protocollo Bitcoin.
+Nella prima lezione del corso "Come funziona Bitcoin", abbiamo iniziato a esplorare lo stack tecnologico che sta alla base della rete Bitcoin. Abbiamo trattato argomenti quali **Hashcash**, **transazioni**, la **Blockchain**, il **Lightning Network** e altri componenti fondamentali del protocollo Bitcoin.
 
 
 ### Lo stack tecnologico di Bitcoin parte 2
@@ -234,7 +234,7 @@ Durante la seconda lezione di 'Come Bitcoin', abbiamo condotto un esame più app
 ### Struttura Bitcoin
 
 
-Le origini di Bitcoin si basano su diverse innovazioni chiave, a partire da Hashcash** di **Adam Back, un sistema Proof-of-Work (PoW) progettato per prevenire lo spam via e-mail e gli attacchi denial-of-service richiedendo ai mittenti di completare attività di calcolo. Questo concetto di PoW è diventato una pietra miliare della sicurezza di Bitcoin.
+Le origini di Bitcoin si basano su diverse innovazioni chiave, a partire da **Hashcash** di **Adam Back**, un sistema Proof-of-Work (PoW) progettato per prevenire lo spam via e-mail e gli attacchi denial-of-service richiedendo ai mittenti di completare attività di calcolo. Questo concetto di PoW è diventato una pietra miliare della sicurezza di Bitcoin.
 
 
 Bitcoin si basa su **firme digitali** che utilizzano la **crittografia a curva ellittica** per proteggere e verificare le transazioni. L'algoritmo **Elliptic Curve Digital Signature Algorithm (ECDSA)** garantisce che solo il legittimo proprietario dei bitcoin possa autorizzare le transazioni senza rivelare le proprie chiavi private.
@@ -252,32 +252,32 @@ Bitcoin si basa su **firme digitali** che utilizzano la **crittografia a curva e
 ### Meccanica Blockchain e convalida delle transazioni
 
 
-Le transazioni Bitcoin sono convalidate e aggiunte ai blocchi dai **miner**, che competono per risolvere un puzzle crittografico utilizzando l'algoritmo Proof-of-Work. Si tratta di trovare un Hash con un numero specifico di zeri iniziali regolando un valore **Nonce** fino a scoprire l'Hash corretto.
+Le transazioni Bitcoin sono convalidate e aggiunte ai blocchi dai **miner**, che competono per risolvere un puzzle crittografico utilizzando l'algoritmo Proof-of-Work. Si tratta di trovare un hash con un numero specifico di zeri iniziali regolando un valore **nonce** fino a scoprire l'hash corretto.
 
 
-Ogni **blocco** della Blockchain consiste in una **intestazione** (con dati simili all' Hash del blocco precedente) e in un elenco di transazioni. Il primo blocco, noto come **Blocco Genesis**, è unico perché non ha predecessori.
+Ogni **blocco** della blockchain consiste in una **intestazione** (con dati simili all'hash del blocco precedente) e in un elenco di transazioni. Il primo blocco, noto come **Blocco Genesis**, è unico perché non ha predecessori.
 
 
 ![Image](assets/en/004.webp)
 
 
-Prima di essere incluse in un blocco, le transazioni risiedono nella **Mempool**, dove attendono la convalida. Una volta convalidate, le transazioni vengono aggiunte al nuovo blocco estratto e quindi alla Blockchain.
+Prima di essere incluse in un blocco, le transazioni risiedono nella **Mempool**, dove attendono la convalida. Una volta convalidate, le transazioni vengono aggiunte al nuovo blocco estratto e quindi alla blockchain.
 
 
 **Definizioni**
 
 
-- _Mining:_- il processo di risoluzione di enigmi crittografici per aggiungere nuovi blocchi alla Blockchain.
-- _Nonce:_- un valore utilizzato per trovare l'Hash corretto durante il Mining.
+- _Mining:_- il processo di risoluzione di enigmi crittografici per aggiungere nuovi blocchi alla blockchain.
+- _Nonce:_- un valore utilizzato per trovare l'Hash corretto durante il mining.
 - _Mempool:_- un'area di attesa per le transazioni non confermate prima che vengano aggiunte a un blocco.
 
 ### Scalabilità, privacy e sviluppo in Bitcoin
 
 
-Bitcoin deve affrontare sfide legate alla scalabilità e alla privacy. La limitata capacità di transazione della Blockchain rende difficile la gestione di elevati volumi di transazioni. Soluzioni come il **Lightning Network** affrontano queste sfide consentendo le transazioni off-chain attraverso i canali di pagamento, che aumentano la velocità e la privacy.
+Bitcoin deve affrontare sfide legate alla scalabilità e alla privacy. La limitata capacità di transazioni della blockchain rende la gestione di elevati volumi di transazioni difficile. Soluzioni come il **Lightning Network** affrontano queste sfide consentendo le transazioni off-chain attraverso i canali di pagamento, che aumentano la velocità e la privacy.
 
 
-L'esecuzione di un **Full node** è essenziale per garantire la decentralizzazione e la sicurezza, ma i nodi **Simplified Payment Verification (SPV)** consentono una partecipazione più leggera, a scapito però di una parte della sicurezza.
+L'esecuzione di un **full node** è essenziale per garantire la decentralizzazione e la sicurezza, ma i nodi **Simplified Payment Verification (SPV)** consentono una partecipazione più leggera, a scapito però di una parte della sicurezza.
 
 
 Lo sviluppo di Bitcoin si è evoluto per migliorare le prestazioni e la sicurezza. I principali aggiornamenti includono **Segregated Witness (SegWit)**, che affronta la malleabilità delle transazioni e aumenta la dimensione effettiva dei blocchi, e **Taproot**, che migliora la privacy e consente contratti più complessi utilizzando **Merkleized Abstract Syntax Trees (MAST)**.
@@ -296,24 +296,24 @@ Lo sviluppo di Bitcoin si è evoluto per migliorare le prestazioni e la sicurezz
 La struttura e la continua evoluzione di Bitcoin dimostrano l'innovazione e l'adattabilità della sua tecnologia. Da **Hashcash** ad una Blockchain decentralizzata, e da **SegWit** a **Taproot**, Bitcoin continua ad affrontare sfide legate alla scalabilità, alla privacy e alla sicurezza. I continui sforzi della comumunity assicurano che Bitcoin rimanga resiliente e decentralizzato, evolvendo al contempo per soddisfare le esigenze del futuro.
 
 
-## Sfatare Bitcoin
+## Sfatare i miti su Bitcoin
 
 
 <chapterId>171ec71d-3028-5820-9b4f-36682113fc81</chapterId>
 
 
-### Sfatare Bitcoin
+### Sfatare i miti su Bitcoin
 
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-In questa conferenza sfatiamo i miti comuni che circondano **Bitcoin**, le **blockchain** e le **criptovalute**. Sfatiamo le idee sbagliate sul consumo energetico di Bitcoin, sull'uso criminale e sul più ampio "FUD" (paura, incertezza, dubbio) diffuso riguardo questa tecnologia.
+In questa conferenza sfatiamo i miti comuni che circondano **Bitcoin**, le **blockchain** e le **criptovalute**. Smentiamo le idee sbagliate sul consumo energetico di Bitcoin, sull'uso criminale e sul più ampio "FUD" (paura, incertezza, dubbio) diffuso riguardo questa tecnologia.
 
 
 ### Bitcoin vs. Blockchain
 
 
-Un'idea sbagliata frequente è che **Bitcoin** e **Blockchain** siano la stessa cosa. Mentre Bitcoin è una valuta digitale, la **Blockchain** è la tecnologia che lo alimenta. Le blockchain forniscono una registrazione verificata delle transazioni, ma comportano dei compromessi, come velocità più basse e costi più elevati, che soluzioni come **Lightning Network** risolvono.
+Un'idea sbagliata frequente è che **Bitcoin** e **blockchain** siano la stessa cosa. Mentre Bitcoin è una valuta digitale, la **blockchain** è la tecnologia che lo alimenta. Le blockchain forniscono una registrazione verificata delle transazioni, ma comportano dei compromessi, come velocità più basse e costi più elevati, che soluzioni come **Lightning Network** risolvono.
 
 
 **Definizioni**
@@ -373,7 +373,7 @@ Il FUD che circonda Bitcoin spesso esagera le preoccupazioni sull'impatto ambien
 #### Conclusione
 
 
-Comprendere la realtà del consumo energetico del Bitcoin, delle sue caratteristiche di privacy e del suo ruolo nella prevenzione del crimine aiuta a sfatare i miti che lo circondano. Sfatando il FUD, possiamo apprezzare il potenziale di Bitcoin come forma rivoluzionaria di denaro sano che promuove la privacy, la sicurezza e la decentralizzazione.
+Comprendere la realtà del consumo energetico di Bitcoin, delle sue caratteristiche di privacy e del suo ruolo nella prevenzione del crimine aiuta a sfatare i miti che lo circondano. Sfatando il FUD, possiamo apprezzare il potenziale di Bitcoin come forma rivoluzionaria di denaro sano che promuove la privacy, la sicurezza e la decentralizzazione.
 
 
 ## Esecuzione di Bitcoin
@@ -408,7 +408,7 @@ In questa sessione, Alekos ci guiderà attraverso il processo di configurazione 
 La gestione di un nodo Bitcoin comporta la convalida di transazioni e blocchi, l'applicazione delle regole di consenso e il supporto della decentralizzazione della rete. La creazione di un nodo garantisce una connessione diretta alla rete Bitcoin, consentendo di contribuire alla sua sicurezza e integrità.
 
 
-In questa lezione troverete una guida per installare e far funzionare il vostro Bitcoin core, imparare a "potare"(prune) la Blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos vi guiderà passo dopo passo in questo entusiasmante processo.
+In questa lezione troverete una guida per installare e far funzionare il vostro Bitcoin Core, imparare a prune"potoare" la blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos vi guiderà passo dopo passo in questo entusiasmante processo.
 
 
 ### Cosa si può fare con Bitcoin Core e i suoi benefici
@@ -418,15 +418,15 @@ Eseguendo Bitcoin Core, si ottiene la capacità di:
 
 
 
-- Convalidare le proprie transazioni e i propri blocchi**: Garantire il rispetto delle regole della rete Bitcoin senza affidarsi a terzi.
-- Rafforzare la rete**: Partecipando alla rete, si contribuisce a mantenerla decentralizzata, rendendo Bitcoin più resistente agli attacchi.
-- Potare la Blockchain**: Riduce i requisiti di memoria conservando solo le transazioni più recenti, il che è ideale se lo spazio su disco è limitato.
-- Utilizzare le funzioni avanzate del Wallet**: Gestite i vostri bitcoin con privacy e sicurezza, le chiavi private generate offline e firmare le transazioni in modo sicuro.
-- Interagire direttamente con la rete Bitcoin**: Utilizzando Bitcoin Core, è possibile connettersi direttamente alla rete senza intermediari, garantendo la massima precisione dei dati.
-- Beneficiare di una maggiore privacy**: In qualità di operatori del Full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle vostre transazioni dalla sorveglianza esterna.
+- **Convalidare le proprie transazioni e i propri blocchi**: Garantire il rispetto delle regole della rete Bitcoin senza affidarsi a terzi.
+- **Rafforzare la rete**: Partecipando alla rete, si contribuisce a mantenerla decentralizzata, rendendo Bitcoin più resistente agli attacchi.
+- **usare una versione pruned della Blockchain**: Riduce i requisiti di memoria conservando solo le transazioni più recenti, il che è ideale se lo spazio su disco è limitato.
+- **Utilizzare le funzioni avanzate del wallet**: Gestite i vostri bitcoin con privacy e sicurezza, le chiavi private generate offline e firmare le transazioni in modo sicuro.
+- **Interagire direttamente con il network Bitcoin**: Utilizzando Bitcoin Core, è possibile connettersi direttamente al network senza intermediari, garantendo la massima precisione dei dati.
+- **Beneficiare di una maggiore privacy**: In qualità di operatori del full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle vostre transazioni dalla sorveglianza esterna.
 
 
-I vantaggi di gestire un nodo Bitcoin sono sostanziali per qualsiasi Bitcoiner dedito. Non solo si contribuisce a proteggere la rete e a rafforzarne la decentralizzazione, ma si migliora anche la propria privacy, si garantisce l'integrità delle proprie transazioni e si assume un ruolo proattivo nell'ecosistema di Bitcoin. La gestione di un nodo è un passo fondamentale per raggiungere la sovranità finanziaria e abbracciare pienamente la natura decentralizzata di Bitcoin.
+I vantaggi di gestire un nodo Bitcoin sono sostanziali per qualsiasi bitcoiner dedito. Non solo si contribuisce a proteggere la rete e a rafforzarne la decentralizzazione, ma si migliora anche la propria privacy, si garantisce l'integrità delle proprie transazioni e si assume un ruolo proattivo nell'ecosistema di Bitcoin. La gestione di un nodo è un passo fondamentale per raggiungere la sovranità finanziaria e abbracciare pienamente la natura decentralizzata di Bitcoin.
 
 
 ### Comandi fondamentali
@@ -436,7 +436,7 @@ Questi sono alcuni dei comandi di base per la configurazione del nodo:
 
 
 
-- Controllare lo stato del Bitcoin daemon**:
+- **Controllare lo stato del Bitcoin daemon**:
 
 
 ```bash
@@ -445,7 +445,7 @@ sudo systemctl status bitcoind
 
 
 
-- Avviare il Bitcoin daemon:**:
+- **Avviare il Bitcoin daemon:**:
 
 
 ```bash
@@ -454,7 +454,7 @@ systemctl start bitcoind
 
 
 
-- Fermare il Bitcoin daemon:**:
+- **Fermare il Bitcoin daemon:**:
 
 
 ```bash
@@ -463,7 +463,7 @@ sudo systemctl stop bitcoind
 
 
 
-  - Ottenere informazioni dettagliate**:
+  - **Ottenere informazioni dettagliate**:
 
 
 ```bash
@@ -472,7 +472,7 @@ bitcoin-cli getblockchaininfo
 
 
 
-- Potare la Blockchain per risparmiare spazio su disco mantenendo solo i blocchi più recenti:**:
+- **usare la versione pruned della Blockchain per risparmiare spazio su disco mantenendo solo i blocchi più recenti:**:
 
 
 ```bash
@@ -481,7 +481,7 @@ prune=550
 
 
 
-- Abilitare il server Bitcoin Core e configurare le impostazioni del RPC:**:
+- **Abilitare il server Bitcoin Core e configurare le impostazioni del RPC:**:
 
 
 ```bash
@@ -492,7 +492,7 @@ rpcpassword=yourpassword
 
 
 
-- Controllare lo stato del Bitcoin daemon**:
+- **Controllare lo stato del Bitcoin daemon**:
 
 
 ```bash
@@ -501,7 +501,7 @@ sudo systemctl status bitcoind
 
 
 
-- Controllare il saldo del Bitcoin Wallet:**:
+- **Controllare il saldo del Bitcoin Wallet:**:
 
 ```bash
 sudo systemctl status bitcoind
@@ -513,13 +513,13 @@ sudo systemctl status bitcoind
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
-#### 1. **Riepilogo Bitcoin core**
+#### 1. **Riepilogo Bitcoin Core**
 
 
 Iniziamo con un breve riepilogo dei passaggi necessari per l'installazione di Bitcoin core su una cloud virtual machine, in quanto sarà fondamentale per la successiva configurazione di C-Lightning.
 
 
-**Reinstallazione di Bitcoin core su una cloud virtual machine**
+**Reinstallazione di Bitcoin Core su una cloud virtual machine**
 
 Per iniziare, è necessario reinstallare Bitcoin Core sulla macchina virtuale. Per questa sessione, salteremo la verifica dei binari per risparmiare tempo, ma ricordate che in un ambiente di produzione, la verifica dei binari è un passo fondamentale per garantire la sicurezza.
 
@@ -576,7 +576,7 @@ WantedBy=multi-user.target
 ```
 
 
-**Creare e configurare l'utente e le directory di Bitcoin
+**Creare e configurare l'utente e le directory di Bitcoin**
 
 Creare un utente dedicato e impostare le directory per Bitcoin Core.
 
@@ -615,7 +615,7 @@ Con questi passaggi, Bitcoin Core dovrebbe essere attivo e funzionante con un ut
 **Panoramica su C-Lightning**
 
 
-C-Lightning, noto anche come Core-Lightning, è un protocollo Layer 2 che facilita le transazioni più veloci e più economiche utilizzando i canali off-chain. Si distingue per la sua architettura modulare e facile da sviluppare, che consente un'ampia personalizzazione tramite plugin.
+C-Lightning, noto anche come Core-Lightning, è un protocollo layer 2 che facilita le transazioni più veloci e più economiche utilizzando i canali off-chain. Si distingue per la sua architettura modulare e facile da sviluppare, che consente un'ampia personalizzazione tramite plugin.
 
 
 **Importanza della modularità e dell'estensibilità con i plugin**
@@ -624,9 +624,9 @@ Il design modulare di C-Lightning consente di aggiungere o rimuovere funzioni a 
 
 
 
-- Elaborazione dei pagamenti**: I plugin personalizzati possono gestire condizioni di pagamento specifiche.
-- Tariffe di routing**: Regolazione dinamica delle tariffe di routing in base alle condizioni della rete.
-- Automazione**: Automatizzare attività come la gestione dei canali e la fornitura di liquidità.
+- **Elaborazione dei pagamenti**: I plugin personalizzati possono gestire condizioni di pagamento specifiche.
+- **Tariffe di routing**: Regolazione dinamica delle tariffe di routing in base alle condizioni della rete.
+- **Automazione**: Automatizzare attività come la gestione dei canali e la fornitura di liquidità.
 
 
 ### Installazione di C-Lightning
@@ -708,7 +708,7 @@ WantedBy=multi-user.target
 #### 3. **Configurazione e impostazione**
 
 
-**Creare le directory e i file di configurazione necessari
+**Creare le directory e i file di configurazione necessari**
 
 Crea le directory e i file di configurazione necessari per C-Lightning.
 
@@ -732,7 +732,7 @@ plugin=/usr/local/libexec/c-lightning/plugins
 
 **Configurare C-Lightning per collegarsi con Bitcoin core su Testnet**
 
-Assicuratevi che C-Lightning possa connettersi con Bitcoin core aggiungendo le seguenti linee:
+Assicuratevi che C-Lightning possa connettersi con Bitcoin Core aggiungendo le seguenti linee:
 
 
 ```ini
@@ -800,7 +800,7 @@ Seguendo questi passaggi, si otterrà una configurazione C-Lightning perfettamen
 #### Conclusioni e domande
 
 
-In conclusione, oggi abbiamo affrontato i passaggi essenziali per reinstallare Bitcoin core, seguiti da un'analisi dettagliata dell'installazione e della configurazione di C-Lightning. Se avete domande, non esitate a farle ora o a prepararle per ulteriori chiarimenti nella prossima sessione. Ricordate che l'esperienza pratica è fondamentale, quindi utilizzate la configurazione di Testnet che abbiamo discusso per ottenere maggiori informazioni.
+In conclusione, oggi abbiamo affrontato i passaggi essenziali per reinstallare Bitcoin Core, seguiti da un'analisi dettagliata dell'installazione e della configurazione di C-Lightning. Se avete domande, non esitate a farle ora o a prepararle per ulteriori chiarimenti nella prossima sessione. Ricordate che l'esperienza pratica è fondamentale, quindi utilizzate la configurazione di Testnet che abbiamo discusso per ottenere maggiori informazioni.
 
 
 ### Dispositivi di sicurezza e hardware
@@ -820,16 +820,16 @@ Benvenuti alla nostra lezione sulla sicurezza e sulla configurazione dei disposi
 **Strumenti: Specter desktop Wallet e emulatore Ledger**
 
 
-Specter è un desktop Wallet progettato per facilitare la creazione e la gestione di portafogli Bitcoin, in particolare quelli che utilizzano dispositivi hardware. Per la nostra dimostrazione, utilizzeremo un emulatore Ledger, che imita le funzionalità di un Ledger Hardware Wallet .
+Specter è un desktop wallet progettato per facilitare la creazione e la gestione di portafogli Bitcoin, in particolare quelli che utilizzano dispositivi hardware. Per la nostra dimostrazione, utilizzeremo un emulatore Ledger, che imita le funzionalità di un Ledger Hardware Wallet .
 
 
 **Differenza tra il dispositivo Ledger e la controversia aziendale**
 
 
-Il dispositivo Ledger, un popolare Hardware Wallet, è famoso per la sua robusta sicurezza. Tuttavia, l'azienda che sta dietro al Ledger è stata messa sotto esame a causa di varie controversie riguardanti la privacy dei dati degli utenti. Comprendere la distinzione tra la sicurezza del dispositivo fisico e le pratiche dell'azienda è fondamentale per un utilizzo consapevole.
+Il dispositivo Ledger, un popolare hardware wallet, è famoso per la sua robusta sicurezza. Tuttavia, l'azienda che sta dietro al Ledger è stata messa sotto esame a causa di varie controversie riguardanti la privacy dei dati degli utenti. Comprendere la distinzione tra la sicurezza del dispositivo fisico e le pratiche dell'azienda è fondamentale per un utilizzo consapevole.
 
 
-**Modelli di sicurezza: importanza dei portafogli multi-sig e di veri hardware**
+**Modelli di sicurezza: importanza dei portafogli multi-sig e diversi hardware**
 
 
 Un aspetto fondamentale della sicurezza di Bitcoin è lo sfruttamento dei portafogli multi-firma (multi-sig). I portafogli multi-sig richiedono più chiavi private per autorizzare una transazione, migliorando notevolmente la sicurezza. Inoltre, l'utilizzo di diversi tipi di portafogli hardware diversifica il rischio e rafforza il modello di sicurezza.
@@ -847,37 +847,37 @@ Il primo passo del nostro processo di installazione prevede il download di Spect
 **Configurazione di Specter per la connessione con i server Bitcoin Core o Electrum**
 
 
-Per configurare Specter, è necessario collegarlo a un server Bitcoin Core o Electrum. Questi server forniscono i dati della Blockchain necessari per le operazioni del Wallet. La configurazione comporta l'impostazione del server Address nelle impostazioni di Specter e la garanzia di una connessione stabile.
+Per configurare Specter, è necessario collegarlo a un server Bitcoin Core o Electrum. Questi server forniscono i dati della Blockchain necessari per le operazioni del wallet. La configurazione comporta l'impostazione dell'indirizzo del server nelle impostazioni di Specter e la garanzia di una connessione stabile.
 
 
 **Spiegazione dei percorsi di derivazione e del reperimento delle chiavi pubbliche**
 
 
-La comprensione dei percorsi di derivazione è essenziale per la gestione del Wallet. I percorsi di derivazione definiscono il modo in cui le chiavi vengono generate da una chiave master. In Specter, è possibile recuperare le chiavi pubbliche collegando il proprio Hardware Wallet (o emulatore) e navigando attraverso la Wallet Interface. Assicuratevi di documentare questi percorsi per riferimenti futuri.
+La comprensione dei percorsi di derivazione è essenziale per la gestione del wallet. I percorsi di derivazione definiscono il modo in cui le chiavi vengono generate da una chiave master. In Specter, è possibile recuperare le chiavi pubbliche collegando il proprio Hardware Wallet (o emulatore) e navigando attraverso la Wallet Interface. Assicuratevi di documentare questi percorsi per riferimenti futuri.
 
 
 **Dimostrazione pratica: Utilizzo dell'emulatore Ledger**
 
 
-Ora utilizzeremo un emulatore Ledger per recuperare le chiavi. Ciò comporta la connessione dell'emulatore a Specter, la navigazione nella sezione di gestione delle chiavi e la selezione delle chiavi appropriate per la creazione del Wallet.
+Ora utilizzeremo un emulatore Ledger per recuperare le chiavi. Ciò comporta la connessione dell'emulatore a Specter, la navigazione nella sezione di gestione delle chiavi e la selezione delle chiavi appropriate per la creazione del wallet.
 
 
 **Creazione e gestione di portafogli in Specter**
 
 
-La creazione di un Wallet in Specter è semplice. Accedete alla creazione della Wallet Interface, inserite i dettagli necessari e includete le chiavi pubbliche recuperate. Una volta creato, è possibile gestire il Wallet, monitorare le transazioni e garantire solide pratiche di sicurezza.
+La creazione di un wallet in Specter è semplice. Accedete alla creazione della Wallet Interface, inserite i dettagli necessari e includete le chiavi pubbliche recuperate. Una volta creato, è possibile gestire il wallet, monitorare le transazioni e garantire solide pratiche di sicurezza.
 
 
 **Ricezione e monitoraggio delle transazioni**
 
 
-Dopo la configurazione del Wallet, ricevere transazioni è semplice come condividere il Wallet Address. Specter consente di monitorare in tempo reale le transazioni in arrivo, assicurandovi di essere sempre aggiornati sullo stato del vostro Wallet.
+Dopo la configurazione del wallet, ricevere transazioni è semplice come condividere il Wallet Address(l'indirizzo del portafolgi). Specter consente di monitorare in tempo reale le transazioni in arrivo, assicurandovi di essere sempre aggiornati sullo stato del vostro wallet.
 
 
 ### Configurazioni avanzate
 
 
-**Impostazione dello Specter daemon** remoto
+**Impostazione dello Specter daemon remoto**
 
 
 Per gli utenti avanzati, l'impostazione di uno Specter daemon remoto può migliorare l'accessibilità e la sicurezza. Si tratta di configurare un server remoto per eseguire il backend di Specter, consentendo un accesso sicuro da diversi dispositivi.
@@ -886,7 +886,7 @@ Per gli utenti avanzati, l'impostazione di uno Specter daemon remoto può miglio
 **Abilitazione di Tor per la privacy**
 
 
-Per rafforzare la privacy, si consiglia di configurare Specter per utilizzare Tor. Tor rende anonimo il traffico di rete, proteggendo il vostro IP Address dalla potenziale sorveglianza. Questo è particolarmente importante per gli utenti che si preoccupano della privacy e della sicurezza.
+Per rafforzare la privacy, si consiglia di configurare Specter per utilizzare Tor. Tor rende anonimo il traffico di rete, proteggendo il vostro indirizzo IP dalla potenziale sorveglianza. Questo è particolarmente importante per gli utenti che si preoccupano della privacy e della sicurezza.
 
 
 **Connettersi ai nodi remoti in modo sicuro**
@@ -898,13 +898,13 @@ Quando ci si connette a nodi remoti, assicurarsi che la connessione sia sicura. 
 **Problemi di debug: tecniche pratiche**
 
 
-Incontrare problemi è inevitabile. Il debugging pratico prevede il controllo dei permessi degli utenti, la verifica dell'accesso alla directory dei dati e la consultazione dei registri per individuare eventuali errori. Ad esempio, assicuratevi che Specter abbia i permessi necessari per accedere alla directory dei dati del Bitcoin core per evitare interruzioni operative.
+Incontrare problemi è inevitabile. Il debugging pratico prevede il controllo dei permessi degli utenti, la verifica dell'accesso alla directory dei dati e la consultazione dei registri per individuare eventuali errori. Ad esempio, assicuratevi che Specter abbia i permessi necessari per accedere alla directory dei dati di Bitcoin Core per evitare interruzioni operative.
 
 
 **Esempio di problema: accesso alla directory dei dati**
 
 
-Un problema comune è l'accesso errato alla directory dei dati. Verificate che il percorso della directory dei dati Bitcoin core sia impostato correttamente nella configurazione di Specter. Questo assicura che Specter abbia accesso ai dati della Blockchain necessari per le operazioni del Wallet.
+Un problema comune è l'accesso errato alla directory dei dati. Verificate che il percorso della directory dei dati di Bitcoin Core sia impostato correttamente nella configurazione di Specter. Questo assicura che Specter abbia accesso ai dati della blockchain necessari per le operazioni del wallet.
 
 
 **Passi successivi e integrazione**
@@ -916,7 +916,7 @@ Per concludere, i prossimi passi prevedono l'integrazione di Specter con il Ligh
 **Variabilità dei tempi di blocco**
 
 
-La comprensione della variabilità dei tempi dei blocchi è fondamentale. I blocchi Bitcoin possono essere estratti a intervalli variabili, influenzando i tempi di conferma delle transazioni. Questa variabilità deve essere tenuta in considerazione in tutte le configurazioni e operazioni del Wallet.
+La comprensione della variabilità dei tempi dei blocchi è fondamentale. I blocchi possono essere estratti a intervalli variabili, influenzando i tempi di conferma delle transazioni. Questa variabilità deve essere tenuta in considerazione in tutte le configurazioni e operazioni del Wallet.
 
 
 **Risorse didattiche**
@@ -957,7 +957,7 @@ Questo conclude la nostra lezione sulla sicurezza e sulla configurazione dei dis
 
 :::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 
-In oltre un decennio, il Bitcoin ha dimostrato di essere un'innovazione trasformativa nel mondo finanziario, operando con successo su scala globale e aprendo nuove possibilità nell'economia digitale. Tuttavia, deve ancora affrontare sfide che richiedono soluzioni creative e collaborative. La continua evoluzione del Bitcoin rappresenta un'opportunità unica per chi è interessato a plasmare il futuro della finanza decentralizzata.
+In oltre un decennio, Bitcoin ha dimostrato di essere un'innovazione trasformativa nel mondo finanziario, operando con successo su scala globale e aprendo nuove possibilità nell'economia digitale. Tuttavia, deve ancora affrontare sfide che richiedono soluzioni creative e collaborative. La continua evoluzione di Bitcoin rappresenta un'opportunità unica per chi è interessato a plasmare il futuro della finanza decentralizzata.
 
 
 ![Image](assets/en/006.webp)
@@ -966,7 +966,7 @@ In oltre un decennio, il Bitcoin ha dimostrato di essere un'innovazione trasform
 #### Problemi aperti nell'usabilità di Bitcoin
 
 
-Bitcoin, nonostante la sua esistenza ultradecennale, è ancora alle prese con significative sfide di usabilità. Gli strumenti e le interfacce a disposizione degli utenti spesso non hanno la maturità e la facilità d'uso dei sistemi finanziari più tradizionali. Ciò è particolarmente evidente in regioni come El Salvador, dove l'adozione di Bitcoin è stata approvata dal governo. Il problema principale è la necessità di migliori astrazioni che possano semplificare l'esperienza dell'utente, rendendo Bitcoin accessibile anche a persone con conoscenze tecniche minime.
+Nonostante la sua esistenza ultradecennale, Bitcoin è ancora alle prese con significative sfide di usabilità. Gli strumenti e le interfacce a disposizione degli utenti spesso non hanno la maturità e la facilità d'uso dei sistemi finanziari più tradizionali. Ciò è particolarmente evidente in regioni come El Salvador, dove l'adozione di Bitcoin è stata approvata dal governo. Il problema principale è la necessità di migliori astrazioni che possano semplificare l'esperienza dell'utente, rendendo Bitcoin accessibile anche a persone con conoscenze tecniche minime.
 
 
 #### Problemi aperti di scalabilità
@@ -1002,13 +1002,13 @@ La flessibilità del protocollo Bitcoin è necessaria per migliorare la privacy,
 ![Image](assets/en/007.webp)
 
 
-Gli sforzi per migliorare l'usabilità di Bitcoin spesso vanno a scapito della sicurezza e della privacy. Ad esempio, i portafogli di custodia di facile utilizzo, come Wallet of Satoshi, forniscono un interfaccia accessibile ma compromettono in modo significativo la sicurezza e la privacy. I sistemi semplificati possono aumentare l'usabilità, ma possono portare a problemi come il riutilizzo dell'Address, che mina la privacy. Pertanto, qualsiasi miglioramento dell'usabilità deve essere attentamente valutato rispetto ai potenziali compromessi in termini di sicurezza e privacy.
+Gli sforzi per migliorare l'usabilità di Bitcoin spesso vanno a scapito della sicurezza e della privacy. Ad esempio, i portafogli di custodia di facile utilizzo, come Wallet of Satoshi, forniscono un interfaccia accessibile ma compromettono in modo significativo la sicurezza e la privacy. I sistemi semplificati possono aumentare l'usabilità, ma possono portare a problemi come il riutilizzo dell'address, che mina la privacy. Pertanto, qualsiasi miglioramento dell'usabilità deve essere attentamente valutato rispetto ai potenziali compromessi in termini di sicurezza e privacy.
 
 
 #### Compromessi di informazioni su scalabilità e privacy
 
 
-La scalabilità e la privacy sono spesso in contrasto nella rete Bitcoin. I miglioramenti che migliorano la scalabilità, come UTXO più grandi o una riduzione dell'offuscamento crittografico, in genere riducono la privacy. Al contrario, le tecniche incentrate sulla privacy, come le firme ad anello di Monero, migliorano l'anonimato degli utenti ma hanno un impatto negativo sulla scalabilità. Inoltre, l'introduzione di contratti stateful, come quelli visti in Ethereum, offre una maggiore flessibilità al costo di una riduzione della sicurezza e della scalabilità. Bilanciare questi compromessi è una sfida complessa che richiede una considerazione meticolosa.
+La scalabilità e la privacy sono spesso in contrasto nel network di Bitcoin. I miglioramenti che migliorano la scalabilità, come UTXO più grandi o una riduzione dell'offuscamento crittografico, in genere riducono la privacy. Al contrario, le tecniche incentrate sulla privacy, come le firme ad anello di Monero, migliorano l'anonimato degli utenti ma hanno un impatto negativo sulla scalabilità. Inoltre, l'introduzione di contratti stateful, come quelli visti in Ethereum, offre una maggiore flessibilità al costo di una riduzione della sicurezza e della scalabilità. Bilanciare questi compromessi è una sfida complessa che richiede una considerazione meticolosa.
 
 
 ### Tecniche di privacy
@@ -1026,7 +1026,7 @@ Modificare il meccanismo di consenso di Bitcoin è un'impresa rara e impegnativa
 ### Innovazioni e standard nello sviluppo di Bitcoin
 
 
-Aderire a pratiche standardizzate nello sviluppo di Bitcoin Wallet è fondamentale per garantire facilità d'uso e sicurezza. Attualmente molti portafogli non seguono standard consolidati, con conseguente frammentazione e potenziali vulnerabilità. La standardizzazione può migliorare significativamente l'esperienza dell'utente e la sicurezza complessiva delle transazioni Bitcoin.
+Aderire a pratiche standardizzate nello sviluppo di un Bitcoin wallet è fondamentale per garantire facilità d'uso e sicurezza. Attualmente molti portafogli non seguono standard consolidati, con conseguente frammentazione e potenziali vulnerabilità. La standardizzazione può migliorare significativamente l'esperienza dell'utente e la sicurezza complessiva delle transazioni Bitcoin.
 
 
 Le frasi di backup tradizionali di 12 parole, pur essendo efficaci per l'uso di base di Bitcoin, non sono adeguate a protocolli off-chain come il Lightning Network. I futuri standard di backup devono evolversi per fornire una migliore sicurezza e usabilità per queste funzioni avanzate, assicurando che gli utenti possano gestire in modo sicuro le loro risorse attraverso diversi livelli dell'ecosistema Bitcoin.
@@ -1059,7 +1059,7 @@ Le innovazioni alla base del Layer (Layer 1) sono impegnative ma fondamentali pe
 **Coordinamento del consenso**
 
 
-Le modifiche al protocollo del Bitcoin richiedono un coordinamento significativo e il consenso della comunità. La natura decentralizzata di Bitcoin rende questo processo intrinsecamente difficile. Un coordinamento efficace e una comunicazione chiara sono essenziali per superare le complessità delle modifiche al protocollo e garantire il successo dell'adozione dei miglioramenti.
+Le modifiche al protocollo di Bitcoin richiedono un coordinamento significativo e il consenso della comunità. La natura decentralizzata di Bitcoin rende questo processo intrinsecamente difficile. Un coordinamento efficace e una comunicazione chiara sono essenziali per superare le complessità delle modifiche al protocollo e garantire il successo dell'adozione dei miglioramenti.
 
 
 **Sfide di scalabilità**
@@ -1150,13 +1150,13 @@ La verifica della fiducia può essere illustrata con la verifica PGP (Pretty Goo
 #### Stabilire percorsi di fiducia
 
 
-La costruzione della fiducia non è immediata; richiede il collegamento di più percorsi di fiducia e la garanzia di ridondanza. L'utilizzo di HTTPS e della trasparenza dei certificati supportata da Blockchain, ad esempio, garantisce l'autenticità delle fonti web, rendendo difficile per gli aggressori violare la fiducia.
+La costruzione della fiducia non è immediata; richiede il collegamento di più percorsi di fiducia e la garanzia di ridondanza. L'utilizzo di HTTPS e della trasparenza dei certificati supportata da blockchain, ad esempio, garantisce l'autenticità delle fonti web, rendendo difficile per gli aggressori violare la fiducia.
 
 
 #### Incentivi per la sicurezza
 
 
-La comprensione del ruolo degli incentivi è fondamentale per mantenere la sicurezza. Ad esempio, il modello di sicurezza di Bitcoin si basa sugli incentivi dei minatori e sulla convalida dei partecipanti alla rete, evidenziando l'importanza degli incentivi economici nella salvaguardia degli ecosistemi digitali.
+La comprensione del ruolo degli incentivi è fondamentale per mantenere la sicurezza. Ad esempio, il modello di sicurezza di Bitcoin si basa sugli incentivi dei minatori e sulla convalida dei partecipanti al network, evidenziando l'importanza degli incentivi economici nella salvaguardia degli ecosistemi digitali.
 
 
 #### Protezione dei portafogli Bitcoin
@@ -1184,7 +1184,7 @@ In conclusione, la comprensione e l'integrazione dei principi di sicurezza e aff
 
 :::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
-L'uso di software libero e open source (FLOSS) è fondamentale nell'ecosistema di Bitcoin. Peter Todd esplora l'importanza del FLOSS per Bitcoin, esplorando la storia del FLOSS ed esaminando come Github ci permetta di costruire in modo collaborativo software open-source come Bitcoin.
+L'uso di software libero e open source (FLOSS) è fondamentale nell'ecosistema di Bitcoin. Peter Todd esplora l'importanza di FLOSS per Bitcoin, esplorando la storia di FLOSS ed esaminando come Github ci permetta di costruire in modo collaborativo software open-source come Bitcoin.
 
 
 ### Natura e importanza del software
@@ -1272,10 +1272,10 @@ In questa sezione approfondiremo i concetti crittografici chiave essenziali per 
 ![Image](assets/en/015.webp)
 
 
-**Proprietà di sicurezza**: Le funzioni crittografiche hash devono rispettare diverse proprietà di sicurezza. La resistenza alla preimmagine garantisce che non sia computazionalmente fattibile il reverse-engineering dell'input originale dall'output hash. La seconda resistenza alla preimmagine significa che dovrebbe essere difficile trovare un input diverso che produca lo stesso output hash. La resistenza alla collisione garantisce che è improbabile trovare due input diversi che producano lo stesso output Hash.
+**Proprietà di sicurezza**: Le funzioni crittografiche hash devono rispettare diverse proprietà di sicurezza. La resistenza alla preimmagine garantisce che non sia computazionalmente fattibile il reverse-engineering dell'input originale dall'output hash. La seconda resistenza alla preimmagine significa che dovrebbe essere difficile trovare un input diverso che produca lo stesso output hash. La resistenza alla collisione garantisce che è improbabile trovare due input diversi che producano lo stesso output hash.
 
 
-**Alberi di Merkle**: Un Merkle Tree è una struttura di dati che consente una verifica efficiente e sicura di grandi insiemi di dati. Gli elementi di dati vengono sottoposti a hash a coppie e gli hash risultanti vengono combinati iterativamente per formare un'unica radice hash. In Bitcoin, gli alberi di Merkle sono fondamentali per la creazione di blocchi e la verifica delle transazioni, in particolare per i clienti della verifica semplificata dei pagamenti (SPV) e nel Taproot (Mast).
+**Merkle Tree**: Un Merkle Tree è una struttura di dati che consente una verifica efficiente e sicura di grandi insiemi di dati. Gli elementi di dati vengono sottoposti a hash a coppie e gli hash risultanti vengono combinati iterativamente per formare un'unica radice hash. In Bitcoin, gli alberi di Merkle sono fondamentali per la creazione di blocchi e la verifica delle transazioni, in particolare per i clienti della verifica semplificata dei pagamenti (SPV) e nel Taproot (Mast).
 
 
 ![Image](assets/en/016.webp)
@@ -1302,16 +1302,16 @@ In questa sezione esploreremo l'applicazione di questi concetti nello sviluppo r
 ![Image](assets/en/018.webp)
 
 
-**Applicazioni Merkle Tree**: Comprendere la dimensione logaritmica della prova e garantire un'attenta progettazione dell'albero è essenziale per evitare difetti, come la duplicazione dell'hash nella verifica delle transazioni. Gli alberi di Merkle sono utilizzati nella creazione di blocchi, nella verifica delle transazioni e in miglioramenti come Taproot.
+**Applicazioni Merkle Tree**: Comprendere la dimensione logaritmica della prova e garantire un'attenta progettazione dell'albero è essenziale per evitare difetti, come la duplicazione dell'hash nella verifica delle transazioni. I Merkle Tree sono utilizzati nella creazione di blocchi, nella verifica delle transazioni e in miglioramenti come Taproot.
 
 
-**Crittografia a chiave pubblica**: I logaritmi discreti e i campi finiti sono fondamentali nei calcoli crittografici del Bitcoin. I protocolli di sfida-risposta sono utilizzati per verificare la conoscenza di una chiave privata senza rivelarla.
+**Crittografia a chiave pubblica**: I logaritmi discreti e i campi finiti sono fondamentali nei calcoli crittografici di Bitcoin. I protocolli di sfida-risposta sono utilizzati per verificare la conoscenza di una chiave privata senza rivelarla.
 
 
 ![Image](assets/en/019.webp)
 
 
-**Implicazioni per la sicurezza**: Esempi storici mostrano perdite finanziarie significative dovute al riutilizzo di Nonce. Comprendere l'importanza della generazione di nonces univoci è fondamentale. L'uso di librerie affidabili come LibSecP256k1 garantisce operazioni crittografiche robuste e sicure.
+**Implicazioni per la sicurezza**: Esempi storici mostrano perdite finanziarie significative dovute al riutilizzo di nonce. Comprendere l'importanza della generazione di nonces univoci è fondamentale. L'uso di librerie affidabili come LibSecP256k1 garantisce operazioni crittografiche robuste e sicure.
 
 
 **Crittografia a curva ellittica (ECC)**: Gli schemi di firma si sono evoluti dai protocolli di identità a schemi come la firma Schnorr, attualmente utilizzata nel Bitcoin (BIP 340). La conoscenza delle curve ellittiche e dell'aritmetica dei campi finiti garantisce implementazioni crittografiche sicure.

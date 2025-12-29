@@ -1,7 +1,7 @@
 question: Quel est le fondement mathématique qui rend le problème du logarithme discret infaisable en cryptographie à courbe elliptique ?
 answer: La distribution imprévisible des points lors de la génération d'un groupe cyclique par addition répétée de points
 wrong_answers:
-  - Propriété de symétrie des courbes elliptiques qui reflètent les points sur l'axe des x
+  - Propriété de symétrie des courbes elliptiques qui reflète les points sur l'axe des x
   - Les opérations arithmétiques modulaires effectuées dans des champs finis au lieu de nombres réels
   - Le grand nombre premier utilisé comme caractéristique du champ dans l'équation de la courbe
 explanation: |

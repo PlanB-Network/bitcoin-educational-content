@@ -18,11 +18,12 @@ professor_id: bb9c6872-75a6-4987-ab72-0fd6e03b5e8d
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-05
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - man-orangepeel
-    reward: 0.65
+      - nrak10
+    reward: 0.32
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +78,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.48
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +108,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.49
+    reward: 2.48
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -124,10 +125,11 @@ proofreading:
     contributor_names:
     reward: 1.29
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 1.69
+      - Tinnah924
+    reward: 0.84
   - language: tr
     last_contribution_date:
     urgency: 1

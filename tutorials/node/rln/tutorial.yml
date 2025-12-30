@@ -13,72 +13,74 @@ project_id: 3ad86f15-94ef-401c-b708-b28c7767b9be
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-01-17
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 3.05
+      - JosephQuaye
+    reward: 1.52
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.1
+    reward: 6.08
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.1
+    reward: 6.08
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 3.05
+    reward: 3.04
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 10.1
+      - 62maximalist
+    reward: 5.03
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.1
+    reward: 6.08
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.1
+    reward: 12.05
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.1
+    reward: 6.08
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -94,24 +96,24 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.1
+    reward: 14.04
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: sr-Latn
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 4.05
+    reward: 4.03
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 4.05
+    reward: 4.03
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -121,17 +123,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.1
+    reward: 6.08
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -141,17 +143,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.1
+    reward: 10.06
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.1
+    reward: 12.05
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.1
+    reward: 8.07
   - language: th
     last_contribution_date:
     urgency: 1

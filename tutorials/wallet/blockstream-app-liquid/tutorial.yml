@@ -18,11 +18,12 @@ professor_id: bb9c6872-75a6-4987-ab72-0fd6e03b5e8d
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-08-04
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - man-orangepeel
-    reward: 1.26
+      - nrak10
+    reward: 0.63
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.76
+    reward: 5.75
   - language: id
     last_contribution_date:
     urgency: 1

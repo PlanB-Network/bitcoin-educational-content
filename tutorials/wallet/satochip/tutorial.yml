@@ -11,11 +11,12 @@ project_id: 50b37aab-a064-4d56-8ae6-3678bda2efeb
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-09-24
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.69
+      - nrak10
+    reward: 0.84
   - language: cs
     last_contribution_date:
     urgency: 1

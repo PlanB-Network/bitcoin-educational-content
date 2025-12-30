@@ -1,6 +1,6 @@
 ---
 name: Public Pool
-description: Pengenalan Kolam Umum
+description: Pengenalan Public Pool
 ---
 
 ![signup](assets/cover.webp)

@@ -506,7 +506,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 - **Conservateurs :** Non. L'État a le droit souverain de contrôler ses frontières et de choisir qui entre sur son territoire. Des restrictions peuvent être nécessaires pour protéger la sécurité nationale, l'identité culturelle ou la capacité d'intégration de la société. Ils craignent qu’en permettant l’immigration on détruise l’identité des nations et qu’on fragilise un peu plus le travail des citoyens les plus modestes. Le fait d’avoir des frontières et une population bien définie fait partie des valeurs civilisées.
 
-- **Libertariens :** Oui et non. Oui à l’immigration de marché et non à l'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure 8d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
+- **Libertariens :** Oui et non. Oui à l’immigration de marché et non à l'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure politique d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
 
 - **Centristes :** Le gouvernement doit gérer l'immigration de manière équilibrée. Si les restrictions basées sur la religion sont généralement inacceptables, celles basées sur la nationalité ou les compétences peuvent être nécessaires pour répondre aux besoins économiques et garantir une intégration réussie, tout en respectant les conventions internationales et les droits humains.
 
@@ -528,7 +528,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 - **Socialistes : Oui.** La pénalisation est inefficace. La légalisation permet de contrôler et générer des revenus.
 - **Conservateurs : Non.** La consommation est nuisible à la santé et à l'ordre social.
-- **Libertariens : Oui** à condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
+- **Libertariens : Oui.** À condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
 - **Centristes :** Débat complexe. Décriminalisation possible mais régulation stricte impérative.
 
 
@@ -552,7 +552,7 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 
 ![video](https://www.youtube.com/watch?v=8MM2cFzPtRg)
 
-Les questions économiques concernent l'argent, telles que l'emploi, l'achat et la vente, les investissements ou les transactions commerciales. J’ai retenu cinq questions pour exposer les réponses de chaque famille politique. Évidemment, ces réponses rapides n'offrent qu'un aperçu de chaque point de vue.
+Les questions économiques concernent l'argent, l'emploi, l'achat et la vente, les investissements ou les transactions commerciales. J’ai retenu cinq questions pour exposer les réponses de chaque famille politique. Évidemment, ces réponses rapides n'offrent qu'un aperçu de chaque point de vue.
 
 ### Les impôts
 
@@ -595,7 +595,7 @@ Les questions économiques concernent l'argent, telles que l'emploi, l'achat et 
 
 - **Socialistes :** Non. L'État doit imposer des réglementations strictes pour protéger l'environnement et lutter contre le changement climatique. Le marché seul n'est pas capable de résoudre ces problèmes qui nécessitent une action collective et une planification. Les subventions sont considérées comme nécessaires pour assurer la transition écologique. De plus, le libre-échange international doit être régulé pour protéger l'environnement.
 
-- **Conservateurs :.** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
+- **Conservateurs :** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
 
 - **Libertariens :** Oui. Les réglementations environnementales sont des entraves à la liberté économique et à la propriété. Ils estiment que la meilleure façon de protéger l'environnement est de le faire via la propriété privée et non par l'intermédiaire d'organisations bureaucratiques. Ils ajoutent que les propriétaires sont plus susceptibles de prendre soin de leurs biens, car ils ont un intérêt direct à en préserver la valeur. Les problèmes environnementaux peuvent être résolus par le marché, la responsabilité individuelle et les droits de propriété. Ainsi les pollueurs doivent être tenus responsables des dommages qu'ils causent à l'environnement. 
 
@@ -623,7 +623,7 @@ Les questions économiques concernent l'argent, telles que l'emploi, l'achat et 
 
 ![video](https://www.youtube.com/watch?v=Qznu_mAOji8)
 
-Si on compare entre elles les familles politiques, nous voyons apparaitre des rapprochements possibles mais aussi des points d’incompatibilité. C’est particulièrement le cas quand on compare les libertariens aux autres profils idéologiques.  Nous allons analyser ces divergences à partir de quelques concepts philosophiques.
+Si on compare entre elles les familles politiques, nous voyons apparaître des rapprochements possibles mais aussi des points d’incompatibilité. C’est particulièrement le cas quand on compare les libertariens aux autres profils idéologiques. Nous allons analyser ces divergences à partir de quelques concepts philosophiques.
 
 ### La liberté : principe ou opportunité ?
 
@@ -670,9 +670,9 @@ Les langues, par exemple ou les coutumes, sont des choses créées par l'homme. 
 >
 >F. Hayek, L’utilisation de la connaissance dans la société, 1945
 
-Le marché est un outil de coopération car il permet de s’informer sur l’état réel des besoins et des compétences. C’est est une procédure de découverte d'informations et de mobilisation de connaissances dispersées sur la valeur et les besoins. En effet le marché est la rencontre des préférences individuelles conduisant à la formation des prix. Le système des prix est donc un mécanisme qui émerge spontanément des contrats pour coordonner les échanges. Ainsi les prix, quand ils sont librement débattus, sont le miroir la diversité des avis et des préférences des consommateurs.
+Le marché est un outil de coopération car il permet de s’informer sur l’état réel des besoins et des compétences. C’est est une procédure de découverte d'informations et de mobilisation de connaissances dispersées sur la valeur et les besoins. En effet le marché est la rencontre des préférences individuelles conduisant à la formation des prix. Le système des prix est donc un mécanisme qui émerge spontanément des contrats pour coordonner les échanges. Ainsi les prix, quand ils sont librement débattus, sont le miroir de la diversité des avis et des préférences des consommateurs.
 
-Seuls les individus sont capables de savoir les coûts et bénéfices d'un bien car ils sont subjectifs. Au contraire, dans un système centralisé et planifié, l’État fixe les prix mais comme il ne connaît qu'une partie des préférences des consommateurs et des spécificités locales, il fausse le marché. Seul un système d’échanges décentralisé, avec des prix librement négociés peut fait surgir cette connaissance dispersée.
+Seuls les individus sont capables de savoir les coûts et bénéfices d'un bien car ils sont subjectifs. Au contraire, dans un système centralisé et planifié, l’État fixe les prix mais comme il ne connaît qu'une partie des préférences des consommateurs et des spécificités locales, il fausse le marché. Seul un système d’échanges décentralisé, avec des prix librement négociés peut faire surgir cette connaissance dispersée.
 
 Les libertariens s’opposent donc à la fois aux socialistes et aux conservateurs, c’est-à-dire à deux catégories de constructivistes : les socialistes veulent réformer la société, les conservateurs veulent la maintenir dans l’état où elle se trouve. Il y a donc des constructivistes de gauche et des constructivistes de droite.
 
@@ -680,7 +680,7 @@ Les libertariens s’opposent donc à la fois aux socialistes et aux conservateu
 **La politique ou le marché ?**
 Les constructivistes, centristes, conservateurs et socialistes se rejoignent donc sur un point clé : ils jugent le processus politique plus efficace que le processus de marché. 
 
-- Par processus politique j’entends ici la capacité d’un gouvernement central à créer par la force de la loi un ordre social à la fois juste et stable pour le plus grand nombre. 
+- Par processus politique, j’entends ici la capacité d’un gouvernement central à créer par la force de la loi un ordre social à la fois juste et stable pour le plus grand nombre. 
 
 - Et par processus de marché, j’entends l’échange libre et volontaire comme mode d’interaction et mécanisme de coopération. 
 
@@ -701,11 +701,11 @@ Pour les libertariens la vraie régulation de la société n’est pas la démoc
 ![video](https://www.youtube.com/watch?v=PsEfNf5xHdk)
 
 L'individualisme et le collectivisme représentent deux visions fondamentalement opposées de la relation entre l'individu et la société. 
-L’économiste autrichien Ludwig von Mises avait l’habitude de dire : Seul l’individu pense, seul il raisonne, seul il agit.
+L’économiste autrichien Ludwig Von Mises avait l’habitude de dire : Seul l’individu pense, seul il raisonne, seul il agit.
 
 Il en résulte qu’une collectivité n'a pas d'existence ni de réalité, autre que les actions des individus qui en sont membres. La société n’a pas de volonté ni de pensée. Toutes les actions collectives doivent être expliquées à partir de leurs composants individuels. On ne saurait parler de *l’action de l’Etat, d’un pays ou d’une entreprise, d’un syndicat* : ce sont toujours des individus qui agissent.
 
-Tout corps social n'existe donc que par l'intermédiaire de ceux qui s'en réclament dans leurs actions. Si nul individu ne s'en réclamait il cesserait d'exister. De même une langue n'existe qu'à partir des individus qui la parlent. S’ils cessent de la parler, elle cesse d'exister.
+Tout corps social n'existe donc que par l'intermédiaire de ceux qui s'en réclament dans leurs actions. Si nul individu ne s'en réclamait, il cesserait d'exister. De même une langue n'existe qu'à partir des individus qui la parlent. S’ils cessent de la parler, elle cesse d'exister.
 
 D’un point de vue éthique et juridique, l’individu est le seul agent moral. Il n’y a pas d'autre référence que celui-ci pour définir le bien et le mal. Les notions de bien et de mal, de droits et de devoirs, n’ont de sens que pour des personnes singulières, non pour des collectivités, des pays et encore moins pour des animaux.
 
@@ -713,7 +713,7 @@ Le principe anthropologique fondamental à la base de cet individualisme bien co
 
 Cette injonction, initialement issue d'une épître de Horace publiée vingt ans avant notre ère, a été reprise et popularisée par Emmanuel Kant dans son essai *Qu'est-ce que les* Lumières ? publié en 1784. Pour Kant, cette phrase constitue la devise des Lumières, symbolisant la sortie de l'homme de sa minorité, un état d'incapacité à utiliser son entendement sans la direction d'autrui, dont il est lui-même responsable, par paresse et lâcheté.
 
-L'être humain n'est pas ni un simple animal, ni un esclave. Il s’appartient à lui-même et il est doué de volonté libre, d’une capacité de choix éclairé par sa raison. En bref, l'être humain est une fin en soi et non un moyen pour les autres. C’est ce qui fait sa dignité morale. 
+L'être humain n'est pas ni un simple animal, ni un esclave. Il s’appartient à lui-même et il est doué de volonté libre, d’une capacité de choix éclairée par sa raison. En bref, l'être humain est une fin en soi et non un moyen pour les autres. C’est ce qui fait sa dignité morale. 
 
 Mais en autonomisant ainsi les êtres humains, l’individualisme peut toutefois sembler à beaucoup une expérience angoissante. Sommes-nous prêts à prendre la responsabilité de notre vie ?
 
@@ -721,13 +721,13 @@ Le collectivisme, économique ou politique, est une philosophie qui compte sur u
 
 Le collectivisme place ainsi la collectivité, qu'elle soit nationale, culturelle ou religieuse, au premier plan, considérant les individus comme des moyens pour renforcer et assurer la perpétuité de cette entité suprême. Les objectifs de la collectivité, que ce soit la nation, l’Etat ou l’Eglise, sont supérieurs aux buts de l’individu. Dans cette perspective, les institutions ont une fonction prioritaire de servir la société, même au détriment des individus.
 
-Pour Karl Max : *ce n'est pas la conscience des hommes qui détermine leur existence, c'est au contraire leur existence sociale qui détermine leur conscience*. Marx souligne par-là que l'individu est profondément ancré dans la réalité sociale et que sa conscience est déterminée par cette réalité. Autrement dit, l'individu n'a de réalité qu'en tant qu'il est membre de la société et son existence individuelle n'a de sens que dans le cadre de la lutte des classes pour le bien commun.
+Pour Karl Marx : *ce n'est pas la conscience des hommes qui détermine leur existence, c'est au contraire leur existence sociale qui détermine leur conscience*. Marx souligne par là que l'individu est profondément ancré dans la réalité sociale et que sa conscience est déterminée par cette réalité. Autrement dit, l'individu n'a de réalité qu'en tant qu'il est membre de la société et son existence individuelle n'a de sens que dans le cadre de la lutte des classes pour le bien commun.
 
 Selon Mises : *Il n’existe pas une idéologie collectiviste uniforme, mais de nombreuses doctrines collectivistes. Chacune exalte une entité collective différente et exige que tous les gens honnêtes s’y soumettent. Chaque secte vénère sa propre idole et est intolérante envers les idoles rivales.*(Théorie et Histoire).
 
-Il y a ainsi pour Mises des collectivismes de droite et de gauche. Le national-socialisme, avec le fascisme de Mussolini, sont des collectivismes de droite. Le communisme et le socialisme sont des collectivismes de gauche. Pour lui il n’y a pas de grande différence entre le nazisme d’Hitler et le communisme de Staline. Même si les motivations sont différentes, dans les deux cas on retrouve une haine de la liberté individuelle et une justification de la violence. 
+Il y a ainsi pour Mises des collectivismes de droite et de gauche. Le national-socialisme, avec le fascisme de Mussolini, sont des collectivismes de droite. Le communisme et le socialisme sont des collectivismes de gauche. Pour lui, il n’y a pas de grande différence entre le nazisme d’Hitler et le communisme de Staline. Même si les motivations sont différentes, dans les deux cas on retrouve une haine de la liberté individuelle et une justification de la violence. 
 
-A partir de cette distinction, on peut analyser les familles politiques de la manière suivante : 
+À partir de cette distinction, on peut analyser les familles politiques de la manière suivante : 
 *Deux conceptions opposées de la société resteront toujours inconciliables : la conception individualiste - pour laquelle l'homme est un être de raison et de liberté, capable d'organiser lui-même ses rapports avec les autres hommes - et la conception collectiviste, d'après laquelle la **société** existe indépendamment des hommes qui la composent, de leurs désirs, de leurs volontés. La conception collectiviste a connu certaines de ses concrétisations les plus monstrueuses dans le totalitarisme marxiste, mais, malgré les apparences, c'est aussi à elle que se rattache la social-démocratie.* Pascal Salin, Libéralisme.
 
 De façon similaire, dans son ouvrage La Société ouverte et ses ennemis (1945), le philosophe Karl Popper écrivait : *J'appelle société close la société magique ou tribale, et société ouverte, celle où les individus sont confrontés à des décisions personnelles.* (Tome I, p.199). 
@@ -735,7 +735,7 @@ Selon Karl Popper, la société ouverte et la société close sont des concepts 
   -	La société close est une société qui refuse par principe la liberté critique des individus, les échanges avec l'extérieur, les progrès et la diversité qui en résultent. C’est un modèle sociétal ancré dans une mentalité collective qui craint le changement, rejette la critique et la responsabilité individuelle, et idéalise un ordre statique et harmonieux, souvent tribal.
   -	La société ouverte est caractérisée par l'aptitude de l'homme à exercer un jugement critique, à pratiquer une responsabilité individuelle. Avec elle s'impose donc un nouveau principe d'organisation sociale fondé sur le primat de la responsabilité, du libre choix de ses valeurs, de ses croyances, de ses échanges et de ses relations, dans le cadre de règles abstraites de juste conduite.
 
-Le totalitarisme est la forme politique que prend cette société close lorsqu'elle est mise en œuvre de manière radicale et moderne, en s'appuyant sur une idéologie de certitude et en utilisant des mécanismes de contrôle étatique (censure, propagande, culte du leader) pour imposer une stabilité forcée, au détriment des libertés individuelles et de la pensée critique. Son obsession c’est la perpétuation de son ordre hiérarchisé, et la soumission à ses traditions immuables, à ses croyances collectives. Dans ces sociétés, le contrôle social prend la forme d'une constante et étroite surveillance mutuelle tandis que l'individu n’existe pas en tant que tel, la communauté le surplombe et l'englobe tout entière.
+Le totalitarisme est la forme politique que prend cette société close lorsqu'elle est mise en œuvre de manière radicale et moderne, en s'appuyant sur une idéologie de certitude et en utilisant des mécanismes de contrôle étatique (censure, propagande, culte du leader) pour imposer une stabilité forcée, au détriment des libertés individuelles et de la pensée critique. Son obsession, c’est la perpétuation de son ordre hiérarchisé et la soumission à ses traditions immuables, à ses croyances collectives. Dans ces sociétés, le contrôle social prend la forme d'une constante et étroite surveillance mutuelle tandis que l'individu n’existe pas en tant que tel, la communauté le surplombe et l'englobe tout entière.
 La différence principale entre les deux modèles de société réside dans l'attitude face à la connaissance, au changement et à l'organisation politique : 
 
 - La société ouverte est dynamique, critique et axée sur la liberté individuelle et la possibilité de réformer des normes.
@@ -758,7 +758,7 @@ Au terme de ce cours, il nous parait essentiel d’aborder la question du positi
 
 ### Bitcoin est-il un projet politique ?
 
-Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers de confiance, de pair à pair. 
+Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers, de confiance, de pair à pair. 
 Bitcoin est contrôlé par un protocole logiciel open source, sans CEO, sans siège social, sans budget marketing, sans autorité désignée. Ce qui signifie qu'aucune entité politique ou gouvernement n'en a le contrôle.
 
 Cette neutralité est déconcertante pour certains et peut laisser penser qu’il s’agit d’une technologie apolitique, comme l’Internet au XXe siècle ou l’imprimerie au XIVe siècle.
@@ -767,7 +767,7 @@ Si Bitcoin en lui-même n’est ni de droite, ni de gauche, ni d’aucune religi
 
 ![Bitcoin Whitepaper Abstract](./assets/fr/020.webp)
 
-A la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
+À la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
 
 1. Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
 
@@ -793,7 +793,7 @@ Quand l'État impose un contrôle strict sur toutes les transactions (notamment 
 
 Or Bitcoin a été conçu pour fonctionner sans l'intervention des banques centrales ni d'autres intermédiaires financiers contrôlés par l’Etat. Par sa nature décentralisée, pseudonyme et sa résistance à la manipulation, il pourrait affaiblir les fondements de l'État-providence en réduisant son contrôle sur la monnaie, l'impôt, et le système financier.
 
-Ainsi l’une des propriétés essentielles de Bitcoin c’est la capacité à posséder soi-même. Dans le monde de la finance traditionnelle, on ne peut pas posséder soi-même. Ce sont toujours des créances chez des intermédiaires financiers, qui veulent bien nous laisser accès à un compte.
+Ainsi l’une des propriétés essentielles de Bitcoin, c’est la capacité à posséder soi-même. Dans le monde de la finance traditionnelle, on ne peut pas posséder soi-même. Ce sont toujours des créances chez des intermédiaires financiers, qui veulent bien nous laisser accès à un compte.
 
 Bitcoin a été conçu pour limiter le pouvoir des gouvernements sur la monnaie.
 Il empêche d'utiliser la monnaie à des fins politiques comme : la dépense publique, les guerres, le formatage idéologique, le contrôle des opinions. 
@@ -842,7 +842,7 @@ Ils prônent un modèle où la confiance est placée dans des systèmes cryptogr
 
 #### La méthode des cypherpunks
 
-> Les Cypherpunks écrivent du code
+> Les Cypherpunks écrivent du code,
 
 proclame Éric Hughes en conclusion de son manifeste.
 
@@ -867,7 +867,7 @@ De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitco
 
 Dans ce cours, j’ai essayé de montrer que le véritable clivage n'est pas entre la gauche, la droite ou le centre, qui ont tous assumé un postulat étatiste. Finalement, on trouve dans toutes les familles politiques classiques une défiance commune envers le marché libre et un penchant pour l'interventionnisme étatique.
 
-Mais qu’en est-il alors de ceux qui veulent moins d’Etat et moins de centralisation. Les utilisateurs de Bitcoin par exemple, qui veulent mettre fin au monopole de la création monétaire. Comment les placer dans ce spectre politique ?
+Mais, qu’en est-il alors de ceux qui veulent moins d’Etat et moins de centralisation ? Les utilisateurs de Bitcoin par exemple, qui veulent mettre fin au monopole de la création monétaire. Comment les placer dans ce spectre politique ?
 En fait, le vrai clivage politique est à chercher du côté des principes philosophiques fondamentaux : la liberté ou la coercition, le consentement volontaire ou la contrainte, l’individu responsable ou la collectivité. 
 
 La bonne façon de penser la politique est de partir des principes éthiques plutôt que des étiquettes.
@@ -899,7 +899,7 @@ La monnaie d'État, ou monnaie fiat, est un système coercitif et centralisé, f
 
 Ainsi Bitcoin, grâce à son offre fixe et sa nature décentralisée, représente la forme de monnaie la plus saine jamais inventée, offrant une alternative potentielle à l'expansion du pouvoir étatique et au financement illimité des guerres.
 
-Finalement Bitcoin n'est pas un projet politique classique, au sens d'une initiative étatique ou coercitive. C'est une technologie qui permet aux individus de décider par eux-mêmes, ce qui a, paradoxalement, des conséquences politiques profondes en limitant les pouvoirs centralisés et dominateurs.
+Finalement, Bitcoin n'est pas un projet politique classique, au sens d'une initiative étatique ou coercitive. C'est une technologie qui permet aux individus de décider par eux-mêmes, ce qui a, paradoxalement, des conséquences politiques profondes en limitant les pouvoirs centralisés et dominateurs.
 
 ![Leonard Read Quote](./assets/fr/025.webp)
 

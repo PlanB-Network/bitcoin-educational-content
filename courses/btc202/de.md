@@ -365,168 +365,84 @@ Es kommt also nicht auf die Anzahl der Nodes an, sondern auf die Bedeutung der v
 
 <chapterId>be8f0baa-41f2-4b54-b011-092f4ccc93aa</chapterId>
 
-Ein Bitcoin-Node ist also ein Rechner, auf dem eine Implementierung des Bitcoin-Protokolls läuft. Hinter dieser allgemeinen Definition von Node verbergen sich mehrere mögliche Konfigurationen, die nicht alle das gleiche Maß an Autonomie, Ressourcenverbrauch und Nutzen für das Netzwerk bieten. In diesem Kapitel werden wir versuchen, diese Unterschiede zu verstehen, um dir zu helfen, eine Knotenarchitektur zu wählen, die Ihren Anforderungen und Hardwarebeschränkungen entspricht.
+Eine Bitcoin-Node ist also ein Rechner, auf dem eine Implementierung des Bitcoin-Protokolls läuft. Hinter dieser allgemeinen Definition einer Node verbergen sich mehrere mögliche Konfigurationen, die nicht alle das gleiche Maß an Autonomie, Ressourcenverbrauch und Nutzen für das Netzwerk bieten. In diesem Kapitel werden wir versuchen, diese Unterschiede zu verstehen, um dir zu helfen, eine Node-Architektur zu wählen, die deinen Anforderungen und Hardwarebeschränkungen entspricht.
 
+### Die Full Node
 
-
-### Der vollständige Node
-
-
-
-Ein Full node ist einfach ein Bitcoin-Node, der das gesamte Blockchain aus dem Genesis-Block herunterlädt, jeden Block unabhängig validiert und die Historie des gesamten Blockchain lokal speichert. Dies ist die "normale" Form eines Bitcoin-Node, wie sie sich Satoshi Nakamoto vorgestellt hat.
-
-
+Eine Full Node ist einfach eine Bitcoin-Node, welche die gesamte Blockchain aus dem Genesis-Block herunterlädt, jeden Block unabhängig validiert und die Historie des gesamten Blockchain lokal speichert. Dies ist die "normale" Form einer Bitcoin-Node, wie sie sich Satoshi Nakamoto vorgestellt hat.
 
 ![Image](assets/fr/063.webp)
 
+Die Full Node braucht niemandem zu vertrauen, da sie alle Informationen im System validiert und kennt. Sie ist die Art von Node, die dir die meisten Garantien bietet: du weißt, ohne dich auf einen Dritten zu verlassen, ob eine Zahlung gültig ist, ob ein Block gültig ist, ob eine Umstrukturierung rechtmäßig ist und so weiter.
 
+In der Praxis benötigt eine Full Node nicht unerhebliche Ressourcen, darunter mehrere hundert Gigabyte für Blockdateien, einen Prozessor, der in der Lage ist, Skripte zu validieren, Arbeitsspeicher für den Mempool und Caches sowie eine stabile Bandbreite. Bei der ersten Synchronisierung (*IBD*) wird die gesamte Historie gelesen und überprüft: Das ist intensiv, geschieht aber nur einmal. Eine Full Node nimmt aktiv am Netz teil, leitet Blöcke und Transaktionen weiter und kann eingehende Verbindungen annehmen, um andere Peers zu unterstützen.
 
-Der Full node braucht niemandem zu vertrauen, da er alle Informationen im System validiert und kennt. Er ist die Art von Knotenpunkt, die dir die meisten Garantien bietet: du wissen, ohne sich auf einen Dritten zu verlassen, ob eine Zahlung gültig ist, ob ein Block gültig ist, ob eine Umstrukturierung rechtmäßig ist und so weiter.
+Je nach Bedarf könntest du einen Indexer zu deiner Full Node hinzufügen. Bitcoin Core bietet die Indexierung von Transaktionen als optionale Funktion (standardmäßig deaktiviert), die für bestimmte Zwecke nützlich sein kann. Allerdings ist kein Address-Indexer enthalten, der von einzelnen Benutzern oft am meisten nachgefragt wird. Um hier Abhilfe zu schaffen, könntest du eine spezielle Software auf deine Node installieren, z. B. Electrs oder Fulcrum, um Abfragen zur Überprüfung des Address-Saldos von verbundenen UTXOs zu beschleunigen. Auf die Rolle des Indexers werden wir in einem separaten Kapitel noch einmal genauer eingehen.
 
+### Der Pruned Node
 
-
-In der Praxis benötigt ein Full node nicht unerhebliche Ressourcen, darunter mehrere hundert Gigabyte für Blockdateien, einen Prozessor, der in der Lage ist, Skripte zu validieren, Arbeitsspeicher für den Mempool und Caches sowie eine stabile Bandbreite. Bei der ersten Synchronisierung (*IBD*) wird die gesamte Historie gelesen und überprüft: Das ist intensiv, geschieht aber nur einmal. Ein Full node nimmt aktiv am Netz teil, leitet Blöcke und Transaktionen weiter und kann eingehende Verbindungen annehmen, um andere Peers zu unterstützen.
-
-
-
-Je nach Bedarf können du einen Indexer zu Ihrem Full node hinzufügen. Der Bitcoin core bietet die Indexierung von Transaktionen als optionale Funktion (standardmäßig deaktiviert), die für bestimmte Zwecke nützlich sein kann. Allerdings ist kein Address-Indexer enthalten, der von einzelnen Benutzern oft am meisten nachgefragt wird. Um hier Abhilfe zu schaffen, können du eine spezielle Software auf Ihrem Node installieren, z. B. Electrs oder Fulcrum, um Abfragen zur Überprüfung des Address-Saldos von verbundenen UTXOs zu beschleunigen. Auf die Rolle des Indexers werden wir in einem separaten Kapitel noch einmal genauer eingehen.
-
-
-
-### Der beschnittene Node
-
-
-
-Der pruned-Node validiert alles wie ein Full node, vom Genesis-Block bis zum Kopf der Kette mit der meisten Arbeit, behält aber **nur den jüngsten Teil der Blockdateien**. Sobald die alten Blöcke überprüft worden sind, werden sie nach und nach gelöscht, um unter einer von dir festgelegten Speicherplatzgrenze zu bleiben. Diese Konfiguration ist ideal, wenn du nur begrenzten Speicherplatz zur Verfügung haben: du behalten die Unabhängigkeit der Blocküberprüfung, ohne das komplette Blockchain-Archiv zu speichern. Diese Option ist besonders nützlich, wenn du Bitcoin core einfach auf Ihrem PC installieren möchten, ohne einen speziellen Rechner zu verwenden.
-
-
+Die Pruned Node validiert alles wie eine Full node, vom Genesis-Block bis zum Kopf der Blockchain mit der meisten Arbeit, behält aber **nur den jüngsten Teil der Blockdateien**. Sobald die alten Blöcke überprüft worden sind, werden sie nach und nach gelöscht, um unter einer von dir festgelegten Speicherplatzgrenze zu bleiben. Diese Konfiguration ist ideal, wenn du nur begrenzten Speicherplatz zur Verfügung hast: du behälst die Unabhängigkeit der Blocküberprüfung, ohne das komplette Blockchain-Archiv zu speichern. Diese Option ist besonders nützlich, wenn du Bitcoin Core einfach auf deinem PC installieren möchtest, ohne einen speziellen Rechner zu verwenden.
 
 ![Image](assets/fr/064.webp)
 
+Die technischen Implikationen dieser Option sind recht einfach: Die Pruned Node ist durchaus in der Lage, deine Transaktionen zu übertragen, am Relay teilzunehmen, Blöcke und Transaktionen zu verifizieren und die Kette zu verfolgen. Andererseits kann sie nicht als Quelle historischer Daten über ihre Grenzen hinaus für andere Anwendungen (z. B. Full Explorers, Indexers, Wallets) dienen. Funktionen, die das Archiv (oder einen globalen Index) benötigen, werden daher nicht verfügbar sein.
 
+In der Praxis könntest du eine Pruned-Node verwenden, um Wallet-Verwaltungssoftware wie Sparrow wallet anzuschließen. Du wirst jedoch nicht in der Lage sein, Transaktionen auf deiner Wallet zu scannen, die vor der abgeschnittenen Grenze liegen. Wenn du beispielsweise eine Transaktion im Block 901 458 registriert hast, deine Node aber nur Blöcke ab 905 402 aufwärts speichert (weil die ältesten Blöcke gelöscht wurden), könntest du diese Transaktion nicht scannen. Hättest du sie hingegen bereits gescannt, als deine Node noch diese Blockhöhe hatte, dann würde deine Wallet-Verwaltungssoftware die Informationen speichern und den Saldo der entsprechenden UTXOs korrekt anzeigen.
 
-Die technischen Implikationen dieser Option sind recht einfach: Der pruned-Node ist durchaus in der Lage, Ihre Transaktionen zu übertragen, am Relay teilzunehmen, Blöcke und Transaktionen zu verifizieren und die Kette zu verfolgen. Andererseits kann er nicht als Quelle historischer Daten über seine Grenzen hinaus für andere Anwendungen (z. B. Full Explorers, Indexers, Wallets) dienen. Funktionen, die das Archiv (oder einen globalen Index) benötigen, werden daher nicht verfügbar sein.
+Kurz gesagt, die Wallet-Verfolgung funktioniert problemlos auf einer Pruned-Node, wenn du eine neue Wallet erstellst, während deine Software bereits mit dieser Node verbunden ist. Andererseits könntest du auf Schwierigkeiten stoßen, wenn du eine alte Wallet wiederherstellst, da vergangene Transaktionen, die nicht mehr von der Node gespeichert werden, offensichtlich nicht abrufbar sind.
 
+### Die Light Node / SPV
 
-
-In der Praxis können du einen pruned-Node verwenden, um Wallet-Verwaltungssoftware wie Sparrow wallet anzuschließen. du werden jedoch nicht in der Lage sein, Transaktionen auf Ihrem Wallet zu scannen, die vor der Bereinigungsgrenze liegen. Wenn du beispielsweise eine Transaktion im Block 901 458 registriert haben, dein Node aber nur Blöcke ab 905 402 aufwärts speichert (weil die ältesten Blöcke pruned waren), können du diese Transaktion nicht scannen. Hätten du sie hingegen bereits gescannt, als dein Node noch diese Blockhöhe hatte, dann würde Ihre Wallet-Verwaltungssoftware die Informationen speichern und den Saldo der entsprechenden UTXOs korrekt anzeigen.
-
-
-
-Kurz gesagt, die Wallet-Verfolgung funktioniert problemlos auf einem pruned-Node, wenn du einen neuen Wallet erstellen, während Ihre Software bereits mit diesem Node verbunden ist. Andererseits können du auf Schwierigkeiten stoßen, wenn du einen alten Wallet wiederherstellen, da vergangene Transaktionen, die nicht mehr vom Node aufbewahrt werden, offensichtlich nicht abrufbar sind.
-
-
-
-### Der leichte Node / SPV
-
-
-
-Ein SPV-Node (*Simplified Payment Verification*) oder leichtgewichtiger Node speichert nur Block-Header, keine Transaktionsdetails, und verlässt sich auf andere vollständige Node, um den Beweis zu erhalten, dass eine Transaktion in einem Block ist (Merkle-Beweise über Bäume), für den er den Header hat. Das Konzept der vereinfachten Zahlungsüberprüfung ist nicht neu und wurde von Satoshi Nakamoto selbst in Teil 8 des Weißbuchs vorgeschlagen.
-
-
+Eine SPV Node (*Simplified Payment Verification*) oder Light Node speichert nur Block-Header, keine Transaktionsdetails, und verlässt sich auf andere vollständige Nodes, um den Beweis zu erhalten, dass eine Transaktion in einem Block ist (Merkle-Beweise über Bäume), für den er den Header hat. Das Konzept der vereinfachten Zahlungsüberprüfung ist nicht neu und wurde von Satoshi Nakamoto selbst in Teil 8 des Whitepapers vorgeschlagen.
 
 ![Image](assets/fr/066.webp)
 
-
-
 Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
+Diese Art von Node ist in Bezug auf Speicherplatz und CPU-Nutzung natürlich viel leichter als eine Full Node oder sogar ein Pruned Node. Die SPV Node ist daher gut für kleinere Geräte und intermittierende Verbindungen geeignet. In der Tat wird sie oft direkt in die Wallets integriert, insbesondere in mobile Software wie die Blockstream App.
 
-
-Diese Art von Node ist in Bezug auf Speicherplatz und CPU-Nutzung natürlich viel leichter als ein Full node- oder sogar ein pruned-Node. Der SPV-Node ist daher gut für kleinere Geräte und intermittierende Verbindungen geeignet. In der Tat wird er oft direkt in den Wallet integriert, insbesondere in mobile Software wie die Blockstream App.
-
-
-
-Der Nachteil ist das Vertrauen und die Vertraulichkeit: Ein SPV-Client prüft nicht selbst Skripte oder Validierungsrichtlinien; er geht davon aus, dass die Kette mit der meisten Arbeit gültig ist, und ist für Antworten auf einen oder mehrere vollständige Node angewiesen. Die Verwendung eines solchen Node ist daher eine bessere Option als die Verbindung mit einem Node eines Drittanbieters; sie ist jedoch immer noch weniger vorteilhaft als ein Full node- oder sogar ein pruned-Node.
-
-
+Der Nachteil besteht aus Vertrauen und Vertraulichkeit: Ein SPV-Client prüft nicht selbst Skripte oder Validierungsrichtlinien; er geht davon aus, dass die Kette mit der meisten Arbeit gültig ist, und ist für Antworten auf einer oder mehreren vollständigen Nodes angewiesen. Die Verwendung einer solchen Node ist daher eine bessere Option als die Verbindung mit einer Node eines Drittanbieters; sie ist jedoch immer noch weniger vorteilhaft als ein Full Node oder sogar ein Pruned Node.
 
 ![Image](assets/fr/065.webp)
 
+### Welche Node für welchen Bedarf?
 
+- Mobile / Anfänger
 
-### Welcher Knotenpunkt für welchen Bedarf?
+Für einen unerfahrenen Benutzer, der nur eine Wallet auf einer mobilen App hat, ist die Verwendung einer SPV Node sicherlich der beste Weg, um loszulegen. Die Installation ist schnell, erfordert nur wenige Ressourcen, und die Erfahrung ist einfach und flüssig. Das bedeutet, dass du bestimmte Informationen selbst verifizieren kannst und daher weniger auf Nodes von Drittanbietern angewiesen bist, während du gleichzeitig unabhängiger bist, wenn es um die Übertragung von Transaktionen geht.
 
+- PC / leicht fortgeschrittener Benutzer
 
+Ein Benutzer mit etwas Erfahrung und einem PC kann eine Pruned Node installieren, um von fast allen Vorteilen einer Full Node zu profitieren, ohne seinen Rechner täglich zu überlasten: vollständige Validierung, moderate Festplattennutzung und einfache Wartung. Es ist eine ideale Lösung, um deine Desktop-Wallets zu verbinden und bei der Verteilung deiner Transaktionen unabhängig zu bleiben, ohne in eine entsprechende Maschine zu investieren oder deinen Speicherplatz zu überlasten.
 
+- Souveräner Bitcoiner / fortgeschrittener Benutzer
 
-
-- Mobile / Einsteiger Benutzer
-
-
-
-Für einen unerfahrenen Benutzer, der nur einen Wallet auf einer mobilen App hat, ist die Verwendung eines SPV-Node sicherlich der beste Weg, um loszulegen. Die Installation ist schnell, erfordert nur wenige Ressourcen, und die Erfahrung ist einfach und flüssig. Das bedeutet, dass du bestimmte Informationen selbst verifizieren können und daher weniger auf Knotenpunkte von Drittanbietern angewiesen sind, während du gleichzeitig unabhängiger sind, wenn es um die Übertragung von Transaktionen geht.
-
-
-
-
-
-- PC / fortgeschrittener Benutzer
-
-
-
-Ein mittlerer Benutzer mit einem PC kann einen pruned-Node installieren, um von fast allen Vorteilen eines Full node zu profitieren, ohne seinen Rechner täglich zu überlasten: vollständige Validierung, moderate Festplattennutzung und einfache Wartung. Es ist eine ideale Lösung, um Ihre Desktop-Wallets zu verbinden und bei der Verteilung Ihrer Transaktionen unabhängig zu bleiben, ohne in eine dedizierte Maschine zu investieren oder Ihren Speicherplatz zu überlasten.
-
-
-
-
-
-- Souveräner Bitcoiner / Fortgeschrittener
-
-
-
-Ein Full node ist nach wie vor die beste Lösung, wenn du bei der Nutzung des Bitcoin völlig unabhängig sein und sich später nicht auf fortgeschrittene Anwendungen wie einen Indexer, einen Lightning-Node oder sogar einen Block explorer beschränken wollen. Das ist genau das, was wir in diesem Kurs erforschen werden!
-
-
+Eine Full Node ist nach wie vor die beste Lösung, wenn du bei der Nutzung von Bitcoin völlig unabhängig sein und dich später nicht auf fortgeschrittene Anwendungen wie einen Indexer, eine Lightning Node oder sogar einen Block Explorer beschränken willst. Das ist genau das, was wir in diesem Kurs erforschen werden!
 
 ## Überblick über die Softwarelösungen
 
-
 <chapterId>0d48b89a-e8b5-441e-a707-537a035fc15e</chapterId>
 
+Auf der Softwareseite gibt es 2 Hauptmöglichkeiten, eine Bitcoin Node zu betreiben:
 
+- direktes installieren einer Protokollimplementierung wie Bitcoin Core (empfohlen) oder Bitcoin Knots,
+- oder verwenden einer vorkonfigurierten Distribution (oft "_node-in-a-box_" genannt), die eine Bitcoin-Implementierung auf die gleiche Weise integriert, aber auch ein Interface-Verwaltungssystem, einen Anwendungsspeicher und gebrauchsfertige Tools enthält (Lightning, Browser, Indexserver, sogar selbst gehostete Anwendungen außerhalb von Bitcoin...).
 
-Auf der Softwareseite gibt es 2 Hauptmöglichkeiten, einen Bitcoin-Node zu betreiben:
+Beide Ansätze führen zum gleichen Ziel: eine eigene Node zu haben, aber sie unterscheiden sich in Bezug auf die Interface-Installation und -Nutzung, die Wartung, die Erweiterbarkeit und die Kosten. Das werden wir in diesem Kapitel untersuchen.
 
+### Rohe Bitcoin Node Implementierungen
 
+Die Installation einer Rohimplementierung bedeutet die direkte Verwendung der Software einer Bitcoin-Protokollimplementierung (wie Core), ohne zusätzliche Software Layer. Du verwaltest die Konfiguration, die Aktualisierungen und die zugehörigen Dienste (Indizierung, API, Lightning, Backups usw.) selbst, je nach Ihren Bedürfnissen.
 
-
-- direkt eine Protokollimplementierung wie Bitcoin core (empfohlen) oder Bitcoin Knots installieren,
-- oder verwenden du eine schlüsselfertige Distribution (oft "_node-in-a-box_" genannt), die eine Bitcoin-Implementierung auf die gleiche Weise integriert, aber auch ein Interface-Verwaltungssystem, einen Anwendungsspeicher und gebrauchsfertige Tools enthält (Lightning, Browser, Indexserver, sogar selbst gehostete Anwendungen außerhalb von Bitcoin...).
-
-
-
-Beide Ansätze führen zum gleichen Ziel: einen eigenen Node zu haben, aber sie unterscheiden sich in Bezug auf die Interface-Installation und -Nutzung, die Wartung, die Erweiterbarkeit und die Kosten. Das werden wir in diesem Kapitel untersuchen.
-
-
-
-### Rohe Bitcoin-Node-Implementierungen
-
-
-
-Die Installation einer Rohimplementierung bedeutet die direkte Verwendung der Software einer Bitcoin-Protokollimplementierung (wie Core), ohne zusätzliche Software Layer. du verwalten die Konfiguration, die Aktualisierungen und die zugehörigen Dienste (Indizierung, API, Lightning, Backups usw.) selbst, je nach Ihren Bedürfnissen.
-
-
-
-Das ist der souveränste und flexibelste Ansatz: du wissen genau, was läuft, wo die Daten sind und wie alles funktioniert. Auf der anderen Seite wird es komplexer, sobald man über den einfachen Betrieb eines Bitcoin-Node hinausgehen will. Wenn es nur darum geht, einen Node zu haben, ist die Komplexität vergleichbar mit der eines Node-in-a-Box, oder sogar geringer, da es nur darum geht, Software zu installieren.
-
-
+Das ist der souveränste und flexibelste Ansatz: du weißt genau, was läuft, wo die Daten sind und wie alles funktioniert. Auf der anderen Seite wird es komplexer, sobald man über den einfachen Betrieb einer Bitcoin Node hinausgehen will. Wenn es nur darum geht, eine Node zu haben, ist die Komplexität vergleichbar mit der eines Node-in-a-Box, oder sogar geringer, da es nur darum geht, Software zu installieren.
 
 #### Bitcoin Core (überwiegender Client)
 
+[Bitcoin Core](https://bitcoincore.org/) ist der Client des Netzwerks, der die größte Mehrheit hat. Er lädt die Blockchain herunter, validiert und pflegt sie, bietet RPC/REST-APIs und kann eine Wallet integrieren. Wenn du Standardtools bevorzugst und dich damit wohl fühlst, selbst Dienste hinzuzufügen (wie Electrum-Server, Explorer und LND), bist du mit Core besser bedient.
 
+**Vorteile:** Maximale Stabilität, vorhersehbares Verhalten, unmittelbare Erfahrung, einfache Installation und Konfiguration.
 
-[Bitcoin core ist der Client des Netzes, der die größte Mehrheit hat (https://bitcoincore.org/). Er lädt den Blockchain herunter, validiert und pflegt ihn, bietet RPC/REST-APIs und kann einen Wallet integrieren. Wenn du Standardtools bevorzugen und sich damit wohl fühlen, selbst Dienste hinzuzufügen (wie Electrum-Server, Explorer und LND), sind du mit Core besser bedient.
-
-
-
-**Vorteile:** Maximale Stabilität, vorhersehbares Verhalten, einfache Erfahrung, einfache Installation und Konfiguration.
-
-
-
-**Nachteile:** du müssen den Rest des Stacks manuell erstellen, um eine vollständige Anwendungsumgebung zu schaffen, und nicht nur einen Bitcoin-Node.
-
-
+**Nachteile:** Du musst den Rest des Stacks manuell erstellen, um eine vollständige Anwendungsumgebung zu schaffen, und nicht nur eine Bitcoin Node.
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
@@ -534,190 +450,103 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 #### Bitcoin Knots (wichtigster alternativer Client)
 
+[Bitcoin Knots](https://bitcoinknots.org/) ist ein Fork von Bitcoin Core, gepflegt von Luke Dashjr. Es ist der wichtigste alternative Client zu Core für die Implementierung des Bitcoin-Protokolls. Er ist vollständig kompatibel mit dem Rest des Netzwerks (er ist keineswegs ein Hard Fork wie Bitcoin Cash), bietet jedoch zusätzliche Funktionen, einschließlich Optionen für die Weiterleitungspolitik, die in Core fehlen oder standardmäßig strenger angewendet werden, um das zu begrenzen, was manche als Spam ansehen.
 
+Es gibt 2 mögliche Gründe für die Wahl von Knots statt Core:
 
-[Bitcoin Knots ist ein Fork von Bitcoin core](https://bitcoinknots.org/), gepflegt von Luke Dashjr. Es ist der wichtigste alternative Client zu Core für die Implementierung des Bitcoin-Protokolls. Er ist vollständig kompatibel mit dem Rest des Netzes (er ist keineswegs ein Hard Fork wie Bitcoin Cash), bietet jedoch zusätzliche Funktionen, einschließlich Optionen für die Weiterleitungspolitik, die in Core fehlen oder standardmäßig strenger angewendet werden, um das zu begrenzen, was manche als Spam ansehen.
-
-
-
-Es gibt 2 mögliche Gründe für die Wahl von Node statt Kern:
-
-
-
-
-- Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Relaisverwaltung, indem festgelegt wird, welche Transaktionen von Ihrem Node akzeptiert und verbreitet werden.
-- Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und so dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie effektiv einsetzt. Andere nutzen Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Mehrheit des Client-Managements nicht einverstanden sind.
-
+- **Techniken**: Unterschiedliche Optionen gegenüber Core, insbesondere in Bezug auf die Weiterleitungsverwaltung, indem festgelegt wird, welche Transaktionen von deiner Node akzeptiert und verbreitet werden.
+- **Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und so dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie effektiv einsetzt. Andere nutzen Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Mehrheit des Client-Managements nicht einverstanden sind.
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Ich persönlich empfehle dir, sich für Core zu entscheiden, vor allem um schneller von Sicherheits-Patches zu profitieren. In der Tat werden einige in Knots entdeckte Schwachstellen mit Verzögerung behoben. Ganz allgemein ist der Entwicklungsprozess von Core solide strukturiert und wird von einer großen Zahl von Mitwirkenden unterstützt, während Knots von einer einzigen Person gepflegt wird und eine viel kleinere Gemeinschaft hat. Andererseits verlieren Relay-Regeln heute tendenziell ihre Nützlichkeit, insbesondere wenn sie nur von einem winzigen Teil des Netzwerks angewendet werden (wie bei der Perkolationstheorie).
+Wir persönlich empfehlen dir, dich für Core zu entscheiden, vor allem um schneller von Sicherheits-Patches zu profitieren. In der Tat werden einige in Knots entdeckte Schwachstellen mit Verzögerung behoben. Ganz allgemein ist der Entwicklungsprozess von Core solide strukturiert und wird von einer großen Zahl von Mitwirkenden unterstützt, während Knots von einer einzigen Person gepflegt wird und eine viel kleinere Gemeinschaft hat. Andererseits verlieren Relay-Regeln heute tendenziell ihre Nützlichkeit, insbesondere wenn sie nur von einem winzigen Teil des Netzwerks angewendet werden (wie bei der Perkolationstheorie).
 
+### Node-in-a-box-Lösungen
 
-
-### Node-in-a-box-Verteilungen
-
-
-
-Die _node-in-a-box_ kombiniert Bitcoin core (oder Knots) mit einem vorkonfigurierten Betriebssystem, einem Interface Web und einem App-Store für selbst gehostete Dienste (Lightning, explorers, Electrum Server, Mempool, BTCPay Server, Nextcloud usw.). Mit nur einem Klick können du diese verschiedenen Module installieren, aktualisieren und miteinander verbinden.
-
-
+Die _node-in-a-box_ kombiniert Bitcoin Core (oder Knots) mit einem vorkonfigurierten Betriebssystem, einem Interface Web und einem App-Store für selbst gehostete Dienste (Lightning, explorers, Electrum Server, Mempool, BTCPay Server, Nextcloud usw.). Mit nur einem Klick kannst du diese verschiedenen Module installieren, aktualisieren und miteinander verbinden.
 
 Es ist eine viel einfachere Lösung für das Starten und Verwalten zahlreicher zusätzlicher Anwendungen im Alltag. Der Nachteil ist, dass im Falle eines Problems (z. B. Docker-Image-Konflikt, fehlerhaftes Update, beschädigte Datenbank) die Fehlersuche sehr komplex werden kann, da man von der Integration der Distribution selbst abhängig ist. Außerdem ist der Community- oder offizielle Support oft kompliziert.
 
-
-
-Ein Node-in-a-Box ist also extrem einfach zu bedienen, solange alles richtig funktioniert, aber im Falle eines Fehlers muss man bereit sein, lange zu suchen, auf Hilfe zu warten und sich die Hände schmutzig zu machen.
-
-
+Eine Node-in-a-Box ist also extrem einfach zu bedienen, solange alles richtig funktioniert, aber im Falle eines Fehlers muss man bereit sein, lange zu suchen, auf Hilfe zu warten und sich die Hände schmutzig zu machen.
 
 Die meisten dieser Lösungen sind in zwei Formaten erhältlich:
 
-
-
-
 - Vormontierter Rechner: ein kompletter Computer mit bereits installiertem Betriebssystem. Diese Pay-as-you-go-Rechner müssen lediglich an das Stromnetz angeschlossen und mit dem Internet verbunden werden, um betriebsbereit zu sein. Wenn dein Budget es zulässt, hat diese Option den Vorteil, dass sie sehr einfach einzurichten ist, oft vorrangigen Support bietet und zur Finanzierung der Entwicklung beiträgt, da das Geschäftsmodell dieser Unternehmen im Allgemeinen auf dem Verkauf von Hardware basiert.
-- DIY: Installieren du das Distributions-Betriebssystem auf Ihrem eigenen Rechner (alter PC, NUC, Raspberry Pi, Heimserver...). Dies ist die wirtschaftlichste Lösung, da du einen alten Rechner recyceln oder eine Hardware wählen können, die genau Ihren Bedürfnissen und Ihrem Budget entspricht. Es ist auch die flexibelste und am einfachsten zu konfigurierende Option. Diesen Ansatz werden wir im praktischen Teil des Kurses erkunden.
-
-
+- DIY: Installieren des Distributions-Betriebssystem auf deinem eigenen Rechner (alter PC, NUC, Raspberry Pi, Heimserver...). Dies ist die wirtschaftlichste Lösung, da du einen alten Rechner recyceln oder eine Hardware wählen kannst, die genau deinen Bedürfnissen und deinem Budget entspricht. Es ist auch die flexibelste und am einfachsten zu konfigurierende Option. Diesen Ansatz werden wir im praktischen Teil des Kurses erkunden.
 
 Hier ist ein Überblick über die wichtigsten verfügbaren Node-in-a-Box-Lösungen (im Jahr 2025):
 
-
-
 ### Umbrel (umbrelOS & Umbrel Home)
 
-
-
-[Heute ist Umbrel der Marktführer für Node-in-a-Box-Lösungen (https://umbrel.com/). Sein Erfolg ist größtenteils auf die Einfachheit seiner Installation (als es auf einem einfachen Raspberry Pi gestartet wurde), sein elegantes und intuitives Interface und ein Ökosystem von Anwendungen zurückzuführen, das schnell gewachsen ist und jetzt extrem umfangreich ist.
-
-
+Heute ist [Umbrel](https://umbrel.com/) der Marktführer für Node-in-a-Box-Lösungen. Sein Erfolg ist größtenteils auf die Einfachheit seiner Installation (als es auf einem einfachen Raspberry Pi gestartet wurde), sein elegantes und intuitives Interface und ein Ökosystem von Anwendungen zurückzuführen, das schnell gewachsen ist und jetzt extrem umfangreich ist.
 
 ![Image](assets/fr/067.webp)
 
+Im Jahr 2020 als einfache  Bitcoin Node mit einigen Zusatzanwendungen gestartet, hat sich Umbrel allmählich zu einer vollwertigen, modernen Heim-Cloud entwickelt.
 
-
-Im Jahr 2020 als einfacher Bitcoin-Node mit einigen Zusatzanwendungen gestartet, hat sich Umbrel allmählich zu einer vollwertigen, modernen Heim-Cloud entwickelt.
-
-
-
-Ich werde hier nicht näher darauf eingehen, wie es funktioniert und welche besonderen Eigenschaften es hat, da wir diese im ersten Kapitel des nächsten Teils genauer untersuchen werden. Für die Zwecke dieses BTC 202-Kurses habe ich mich für UmbrelOS entschieden, das meiner Meinung nach die beste aktuelle Node-in-a-Box-Lösung für Anfänger und Fortgeschrittene ist.
-
-
+Wir werden hier nicht näher darauf eingehen, wie es funktioniert und welche besonderen Eigenschaften es hat, da wir diese im ersten Kapitel des nächsten Teils genauer untersuchen werden. Für die Zwecke dieses BTC 202-Kurses haben wir uns für UmbrelOS entschieden, das unserer Meinung nach die beste aktuelle Node-in-a-Box-Lösung für Anfänger und Fortgeschrittene ist.
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
+[Start9](https://start9.com/) bietet StartOS  an, ein System für "souveränes Computing": Ziel ist es, dass jeder seinen eigenen privaten Server besitzt und verwaltet, der durch einen Marktplatz für selbst gehostete Anwendungen erweitert wird. Du kannst einen Start9-Server kaufen (Server One für $619, Server Pure für $899) oder deinen eigenen im DIY-Modus auf deinem eigenen Rechner zusammenstellen.
 
-
-[Start9 bietet StartOS (https://start9.com/) an, ein System für "souveränes Computing": Ziel ist es, dass jeder seinen eigenen privaten Server besitzt und verwaltet, der durch einen Marktplatz für selbst gehostete Anwendungen erweitert wird. du können einen Start9-Server kaufen (Server One für $619, Server Pure für $899) oder Ihren eigenen im DIY-Modus auf Ihrem eigenen Rechner zusammenstellen.
-
-
-
-Auf der Bitcoin-Seite können du mit StartOS einen Full node, einen Lightning-Node, BTCPay-Server, Electrs und viele andere Dienste installieren. Die Anziehungskraft von Start9 geht jedoch darüber hinaus: Es bietet die Möglichkeit, verschiedene Software (File Cloud, Messaging, Monitoring) auf einheitliche Weise und mit vollständiger Kontrolle zu entdecken, zu konfigurieren und freizugeben. Das Projekt richtet sich daher an Benutzer, die eine robuste Plattform zum Selbsthosten wünschen, nicht nur einen einfachen Bitcoin-Node. Es ist wahrscheinlich das vollständigste Ökosystem nach Umbrel.
-
-
+Auf der Bitcoin-Seite könntest du mit StartOS einen Full Node, eine Lightning Node, BTCPay-Server, Electrs und viele andere Dienste installieren. Die Anziehungskraft von Start9 geht jedoch darüber hinaus: Es bietet die Möglichkeit, verschiedene Software (File Cloud, Messaging, Monitoring) auf einheitliche Weise und mit vollständiger Kontrolle zu entdecken, zu konfigurieren und freizugeben. Das Projekt richtet sich daher an Benutzer, die eine robuste Plattform zum Selbsthosten wünschen, nicht nur eine einfache Bitcoin Node. Es ist wahrscheinlich das vollständigste Ökosystem nach Umbrel.
 
 ![Image](assets/fr/068.webp)
 
+Der Hauptunterschied zu Umbrel liegt im Interface. Umbrel setzt auf eine ausgefeilte Benutzeroberfläche, während Start9 ein einfacheres, funktionelleres Interface bietet. Das Anwendungsökosystem von Start9 ist weniger reichhaltig als das von Umbrel, aber es gleicht dies durch mehrere technische Vorteile aus: Der Zugang zu erweiterten Anwendungseinstellungen ist vereinfacht, während Umbrel schnell restriktiv wird, wenn die gewünschte Option nicht vom Interface bereitgestellt wird. Start9 zeichnet sich auch durch die Verwaltung der Backups aus: Abgesehen von der effizienten Lösung von Umbrel für LND gibt es im Gegensatz zu Start9 keinen vereinheitlichten Mechanismus. Darüber hinaus bietet es leichter zugängliche Überwachungswerkzeuge und eine verschlüsselte Fernverbindung (`https`), während der lokale Zugang zu Umbrel über `http` erfolgt.
 
-
-Der Hauptunterschied zu Umbrel liegt im Interface. Umbrel setzt auf eine ausgefeilte Benutzeroberfläche, während Start9 ein einfacheres, funktionelleres Interface bietet. Das Anwendungsökosystem von Start9 ist weniger reichhaltig als das von Umbrel, aber es gleicht dies durch mehrere technische Vorteile aus: Der Zugang zu erweiterten Anwendungseinstellungen ist vereinfacht, während Umbrel schnell restriktiv wird, wenn die gewünschte Option nicht vom Interface bereitgestellt wird. Start9 zeichnet sich auch durch die Verwaltung der Backups aus: Abgesehen von der effizienten Lösung von Umbrel für den LND gibt es im Gegensatz zu Start9 keinen vereinheitlichten Mechanismus. Darüber hinaus bietet es leichter zugängliche Überwachungswerkzeuge und eine verschlüsselte Fernverbindung (`https`), während der lokale Zugang zu Umbrel über `http` erfolgt.
-
-
-
-Kurz gesagt, wenn du nur die wesentlichen Anwendungen für Bitcoin benötigen, kein besonderes Interesse an Umbrels sehr reichhaltigem Ökosystem haben und der Interface-Benutzer keine Priorität hat, dann ist Start9 die bessere Wahl. Ansonsten ist Umbrel die bessere Wahl.
-
-
+Kurz gesagt, wenn du nur die wesentlichen Anwendungen für Bitcoin benötigst, kein besonderes Interesse an Umbrels sehr reichhaltigem Ökosystem hast und das Benutzer-Interface keine Priorität hat, dann ist Start9 die bessere Wahl. Ansonsten ist Umbrel die bessere Wahl.
 
 https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
-
-
-[MyNode ist eine Distribution, die sich ausschließlich auf Bitcoin und Lightning konzentriert (https://mynodebtc.com/) und ein Web-Interface, einen Anwendungsmarktplatz und Ein-Klick-Upgrades bietet. du können entweder gebrauchsfertige Hardware kaufen (*Modell Zwei* für 549 $ erhältlich) oder MyNode kostenlos auf Ihrem eigenen Rechner installieren. Das Projekt bietet auch eine *Premium*-Version der Software ($94) an, die vorrangigen Support und erweiterte Funktionen umfasst.
-
-
+[MyNode](https://mynodebtc.com/) ist eine Distribution, die sich ausschließlich auf Bitcoin und Lightning konzentriert und ein Web-Interface, einen Anwendungsmarktplatz und One-Click-Upgrades bietet. Du kannst entweder gebrauchsfertige Hardware kaufen (*Model Two* für 549 $ erhältlich) oder MyNode kostenlos auf deinem eigenen Rechner installieren. Das Projekt bietet auch eine *Premium*-Version der Software ($94) an, die vorrangigen Support und erweiterte Funktionen umfasst.
 
 ![Image](assets/fr/069.webp)
 
-
-
-In der Praxis vereint MyNode alle grundlegenden Bausteine, die für den Betrieb eines Full node erforderlich sind, sowie die für Bitcoin-Nutzer wichtigen Anwendungen. Daher ist es eine geeignete Lösung, wenn du keine Anwendungen außerhalb des Bitcoin-Ökosystems benötigen, wie z. B. selbst gehostete Anwendungen, die in Start9- und Umbrel-Systemen zu finden sind.
-
-
+In der Praxis vereint MyNode alle grundlegenden Bausteine, die für den Betrieb einer Full Node erforderlich sind, sowie die für Bitcoin-Nutzer wichtigen Anwendungen. Daher ist es eine geeignete Lösung, wenn du keine Anwendungen außerhalb des Bitcoin-Ökosystems benötigst, wie z. B. selbst gehostete Anwendungen, die in Start9- und Umbrel-Systemen zu finden sind.
 
 https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
-
-
-[RaspiBlitz ist ein 100% quelloffenes Projekt](https://docs.raspiblitz.org/) (MIT-Lizenz) für die Montage eines Bitcoin-Node und eines Lightning-Node auf einem Raspberry Pi. Laden du einfach das Image herunter, starten du es und folgen du dann dem Assistenten, um einen funktionierenden Node-in-a-Box auf Ihrem Raspberry Pi zu haben. Vormontierte Kits sind auch von Drittanbietern erhältlich und kosten in der Regel zwischen $300 und $400, je nach Hardware. RaspiBlitz bietet auch eine Reihe zusätzlicher, einfach zu installierender Anwendungen an.
-
-
+[RaspiBlitz](https://docs.raspiblitz.org/) ist ein 100%  Open-Source-Projekt (MIT-Lizenz) für die Einrichtung einer Bitcoin Node und einer Lightning Node auf einem Raspberry Pi. Lade einfach das Betriebssystem herunter, starte es und folge dann den Anweisungen, um eine funktionierenden Node-in-a-Box auf deinem Raspberry Pi zu haben. Vormontierte Kits sind auch von Drittanbietern erhältlich und kosten in der Regel zwischen $300 und $400, je nach Hardware. RaspiBlitz bietet auch eine Reihe zusätzlicher, einfach zu installierender Anwendungen an.
 
 ![Image](assets/fr/070.webp)
 
-
-
-Wenn du einen Raspberry Pi besitzen, ist dies eine ausgezeichnete Option, da komplette Systeme wie Umbrel für diese Art von Mini-PC immer schwerer werden.
-
-
+Wenn du einen Raspberry Pi besitzt, ist dies eine ausgezeichnete Option, da komplette Systeme wie Umbrel für diese Art von Mini-PC immer schwerer werden.
 
 https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
+[RoninDojo](https://wiki.ronindojo.io/en/home) ist ein datenschutzorientiertes Node-in-a-Box-System , das die Bereitstellung von Samurai Dojo und Whirlpool automatisiert, mit einem dedizierten Interface und Plugins, die speziell für das Samurai-Ökosystem entwickelt wurden.
 
-
-[RoninDojo ist ein datenschutzorientiertes Node-in-a-Box-System (https://wiki.ronindojo.io/en/home), das die Bereitstellung von Samurai Dojo und Whirlpool automatisiert, mit einem dedizierten Interface und Plugins, die speziell für das Samurai-Ökosystem entwickelt wurden.
-
-
-
-Das Prinzip ist einfach: Wenn du Ashigaru Wallet (der Fork-Nachfolger von Samurai Wallet, nachdem seine Entwickler verhaftet wurden) verwenden oder wenn du von fortgeschrittenen Datenschutz-Tools profitieren möchten, ist RoninDojo für du.
-
-
+Das Prinzip ist einfach: Wenn du Ashigaru Wallet (der Fork-Nachfolger von Samurai Wallet, nachdem seine Entwickler verhaftet wurden) verwendest oder wenn du von fortgeschrittenen Datenschutz-Tools profitieren möchten, ist RoninDojo für dich.
 
 ![Image](assets/fr/071.webp)
 
-
-
-Das Projekt bot früher eine vorkonfigurierte Maschine namens Tanto an, die aber derzeit nicht verfügbar ist. Möglicherweise wird er zu einem späteren Zeitpunkt wieder angeboten. In der Zwischenzeit ist es möglich, RoninDojo einfach auf einem Rock5B+ oder Rockpro64 zu installieren, oder sogar indirekt auf einem Raspberry Pi.
-
-
+Das Projekt bot früher eine vorkonfigurierte Option namens Tanto an, die aber derzeit nicht verfügbar ist. Möglicherweise wird sie zu einem späteren Zeitpunkt wieder angeboten. In der Zwischenzeit ist es möglich, RoninDojo einfach auf einem Rock5B+ oder Rockpro64 zu installieren, oder sogar indirekt auf einem Raspberry Pi.
 
 https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
+Eine weitere Node-in-a-box-Lösung ist [Nodl](https://www.nodl.eu/). Wie bei den vorherigen Projekten kannst du entweder die vorkonfigurierte Hardware kaufen (je nach Modell zwischen 599 und 799 €) oder sie selbst im DIY-Modus installieren.
 
-
-Eine weitere [Node-in-a-box-Lösung ist Nodl](https://www.nodl.eu/). Wie bei den vorherigen Projekten können du entweder die vorkonfigurierte Hardware kaufen (je nach Modell zwischen 599 und 799 €) oder sie selbst im DIY-Modus installieren.
-
-
-
-Auf der Softwareseite integriert Nodl Bitcoin core, LND, BTCPay Server, Electrs, Dojo, Whirlpool, Lightning Terminal, RTL, sowie BTC RPC Explorer, alle mit einer integrierten Update-Kette und Open-Source-Code unter der MIT-Lizenz.
-
-
+Auf der Softwareseite integriert Nodl Bitcoin Core, LND, BTCPay Server, Electrs, Dojo, Whirlpool, Lightning Terminal, RTL, sowie BTC RPC Explorer, alle mit einer integrierten Update-Kette und Open-Source-Code unter der MIT-Lizenz.
 
 ![Image](assets/fr/072.webp)
 
-
-
-Nachdem du die verschiedenen Softwarelösungen untersucht haben, ist es nun an der Zeit, den Rechner auszuwählen, auf dem dein Node gehostet werden soll!
-
-
-
+Nachdem du die verschiedenen Softwarelösungen untersucht hast, ist es nun an der Zeit, den Rechner auszuwählen, auf dem deine Node gehostet werden soll!
 
 ## Übersicht der Hardware-Lösungen
 
-
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
-
-
 
 Nachdem wir nun alle Möglichkeiten der Software erkundet haben, wollen wir uns auf die für Ihren Node erforderliche Hardware konzentrieren. Ich werde dir einige konkrete Ratschläge für die Auswahl Ihrer Komponenten geben, zusammen mit Konfigurationen, die auf verschiedene Budgets zugeschnitten sind. Natürlich handelt es sich hierbei um meine persönliche Meinung und mein Feedback: Es gibt sicherlich noch andere relevante Alternativen als die hier vorgestellten. Außerdem werde ich nicht auf die vormontierten Maschinen eingehen, die von Node-in-a-Box-Projekten angeboten werden und die wir bereits im vorherigen Kapitel behandelt haben. Hier werden wir uns ausschließlich auf DIY-Lösungen konzentrieren.
 

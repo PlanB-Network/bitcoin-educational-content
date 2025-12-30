@@ -1,64 +1,69 @@
 ---
 name: RoninDojo v2
-description: Memasang node Bitcoin RoninDojo v2 Anda pada Raspberry Pi
+description: Memasang node Bitcoin RoninDojo v2 pada Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-**PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo, seperti Whirlpool, tidak lagi beroperasi. Namun, ada kemungkinan bahwa alat-alat ini dapat dipulihkan atau diluncurkan kembali dengan cara yang berbeda dalam beberapa minggu mendatang. Selain itu, karena kode RoninDojo di-host di GitLab Samourai, yang juga disita, saat ini tidak mungkin untuk mengunduh kode secara remote. Tim RoninDojo kemungkinan sedang bekerja untuk menerbitkan ulang kode tersebut.*
+**PERINGATAN:** *Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fitur RoninDojo seperti Whirlpool sudah nggak berfungsi lagi. Tapi ada kemungkinan alat-alat ini bisa dipulihkan atau dirilis ulang dengan cara berbeda dalam beberapa minggu ke depan. Selain itu, karena kode RoninDojo di-host di GitLab Samourai yang ikut disita, saat ini kamu nggak bisa mengunduh kode tersebut secara remote. Tim RoninDojo kemungkinan sedang menyiapkan rilis ulang kodenya.*
 
-_Kami sedang mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang terkait. Yakinlah bahwa kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
+*Kami terus mengikuti perkembangan kasus ini dan semua update terkait alat-alat tersebut. Tenang aja, kami bakal memperbarui tutorial ini begitu ada info baru yang tersedia.*
 
-_Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna untuk mematuhi hukum di yurisdiksi mereka._
+*Tutorial ini hanya untuk tujuan edukasi dan informasi. Kami nggak mendukung atau mendorong penggunaan alat-alat ini untuk aktivitas kriminal. Setiap pengguna bertanggung jawab untuk mematuhi hukum di yurisdiksi masing-masing.*
 
 ---
 
 > Gunakan Bitcoin dengan privasi.
 
-Dalam [tutorial sebelumnya](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0), kami telah menjelaskan prosedur untuk memasang dan menggunakan RoninDojo v1. Namun, selama setahun terakhir, tim RoninDojo telah meluncurkan versi 2 dari implementasi mereka, yang menandai titik balik penting dalam arsitektur perangkat lunak. Memang, mereka beralih dari distribusi Linux Manjaro ke Debian. Akibatnya, mereka tidak lagi menawarkan gambar yang telah dikonfigurasi sebelumnya untuk instalasi otomatis pada Raspberry Pi. Namun, masih ada metode untuk melanjutkan dengan instalasi manual. Inilah yang saya gunakan untuk node saya sendiri, dan sejak itu, RoninDojo v2 telah bekerja dengan luar biasa di Raspberry Pi 4 saya. Oleh karena itu, saya menawarkan tutorial baru tentang cara memasang RoninDojo v2 secara manual pada Raspberry Pi.
+Dalam [tutorial sebelumnya](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0), kami sudah menjelaskan cara memasang dan memakai RoninDojo v1. Tapi selama setahun terakhir, tim RoninDojo udah merilis versi 2 dari implementasi mereka, yang jadi titik balik penting dalam arsitektur software mereka. Mereka pindah dari distro Linux Manjaro ke Debian. Akibatnya, mereka nggak lagi menyediakan image yang sudah dikonfigurasi untuk instalasi otomatis di Raspberry Pi. Tapi tenang, masih ada cara untuk instalasi manual. Ini juga metode yang aku pakai untuk node aku sendiri, dan sejak itu RoninDojo v2 jalan mulus banget di Raspberry Pi 4 aku. Jadi aku bikin tutorial baru tentang cara memasang RoninDojo v2 secara manual di Raspberry Pi.
 
 ## Daftar Isi:
 - Apa itu RoninDojo?
 - Perangkat keras apa yang harus dipilih untuk memasang RoninDojo v2?
 - Bagaimana cara merakit Raspberry Pi 4?
 - Bagaimana cara memasang RoninDojo v2 pada Raspberry Pi 4?
-- Bagaimana cara menggunakan node RoninDojo v2 Anda?
+- Bagaimana cara menggunakan node RoninDojo v2 kamu?
 
 ## Apa itu RoninDojo?
-Dojo pada awalnya adalah implementasi node Bitcoin penuh, berbasis Bitcoin Core, dan dikembangkan oleh tim Samourai Wallet. Solusi ini dapat dipasang pada perangkat apa pun. Tidak seperti implementasi Core lainnya, Dojo telah dioptimalkan khusus untuk berintegrasi dengan lingkungan aplikasi Android dari Samourai Wallet. Sedangkan untuk RoninDojo, ini adalah utilitas yang dirancang untuk memfasilitasi pemasangan dan pengelolaan Dojo, serta berbagai alat pelengkap lainnya. Singkatnya, RoninDojo memperkaya implementasi dasar Dojo dengan mengintegrasikan banyak alat tambahan, sambil menyederhanakan pemasangan dan pengelolaannya.
+Dojo awalnya adalah implementasi node Bitcoin penuh berbasis Bitcoin Core yang dikembangkan oleh tim Samourai Wallet. Solusi ini bisa dipasang di perangkat apa pun. Berbeda dengan implementasi Core lainnya, Dojo dioptimalkan khusus supaya bisa terintegrasi dengan ekosistem aplikasi Android milik Samourai Wallet. Sementara itu, RoninDojo adalah utilitas yang dibuat untuk mempermudah pemasangan dan pengelolaan Dojo, plus berbagai alat pendukung lainnya. Singkatnya, RoninDojo memperkaya implementasi dasar Dojo dengan menggabungkan banyak alat tambahan sambil tetap menyederhanakan proses pemasangan dan pengelolaannya.
 
-Ronin juga menawarkan [solusi node-dalam-kotak, yang disebut "*Tanto*"](https://ronindojo.io/en/products), sebuah perangkat dengan RoninDojo yang sudah dipasang pada sistem yang dirakit oleh tim mereka. Tanto adalah opsi berbayar, yang mungkin menarik bagi mereka yang ingin menghindari komplikasi teknis. Namun, karena kode sumber RoninDojo terbuka, juga mungkin untuk menerapkannya pada perangkat keras Anda sendiri. Alternatif ini, yang lebih ekonomis, tetap memerlukan beberapa manipulasi tambahan, yang akan kami bahas dalam tutorial ini.
-RoninDojo adalah sebuah Dojo, sehingga memungkinkan integrasi mudah dari Whirlpool CLI ke dalam node Bitcoin Anda untuk memberikan pengalaman coinjoin terbaik yang mungkin. Dengan Whirlpool CLI, menjadi mungkin untuk terus menerus remix bitcoin Anda, 24 jam sehari, 7 hari seminggu, tanpa memerlukan komputer pribadi Anda untuk tetap menyala.
+Ronin juga menawarkan [solusi node-dalam-kotak, yang disebut "*Tanto*"](https://ronindojo.io/en/products), sebuah perangkat dengan RoninDojo yang sudah dipasang pada sistem yang dirakit oleh tim mereka. Tanto adalah opsi berbayar yang mungkin menarik buat kamu yang pengin menghindari keribetan teknis. Tapi karena kode sumber RoninDojo itu open-source, kamu juga bisa memasangnya di perangkat keras kamu sendiri. Alternatif yang lebih murah ini tetap butuh beberapa langkah tambahan, dan itu yang bakal kita bahas di tutorial ini.
 
-Lebih dari Whirlpool CLI, RoninDojo mencakup berbagai alat untuk meningkatkan fungsionalitas Dojo Anda. Di antaranya, kalkulator Boltzmann menganalisis tingkat privasi transaksi Anda, server Electrum memungkinkan untuk menghubungkan dompet Bitcoin Anda ke node Anda, dan server Mempool memungkinkan Anda untuk melihat transaksi Anda secara lokal, tanpa membocorkan informasi.
+RoninDojo adalah sebuah Dojo, jadi dia memungkinkan integrasi mudah Whirlpool CLI ke dalam node Bitcoin kamu untuk ngasih pengalaman coinjoin terbaik. Dengan Whirlpool CLI, kamu bisa terus remix bitcoin kamu 24 jam sehari, 7 hari seminggu, tanpa harus bikin komputer pribadi kamu tetap nyala.
 
-Dibandingkan dengan solusi node lain seperti Umbrel, RoninDojo jelas fokus pada solusi on-chain dan alat privasi. Tidak seperti Umbrel, RoninDojo tidak mendukung pengaturan node Lightning maupun integrasi aplikasi server yang lebih umum. Meskipun RoninDojo menawarkan alat yang lebih sedikit serbaguna daripada Umbrel, ia memiliki semua fungsionalitas esensial untuk mengelola aktivitas on-chain Anda.
+Selain Whirlpool CLI, RoninDojo juga nyediain berbagai alat buat ningkatin fungsionalitas Dojo kamu. Misalnya, kalkulator Boltzmann buat menganalisis tingkat privasi transaksi kamu, server Electrum buat nyambungin dompet Bitcoin kamu ke node kamu, dan server Mempool buat lihat transaksi kamu secara lokal tanpa bocorin info apa pun.
 
-Jika Anda tidak memerlukan fungsionalitas umum atau yang terkait dengan Jaringan Lightning seperti yang ditawarkan oleh Umbrel, dan Anda mencari node sederhana, stabil dengan alat esensial seperti Whirlpool atau Mempool, RoninDojo bisa menjadi solusi ideal. Sementara Umbrel cenderung menjadi server multitasking mini yang berorientasi pada Jaringan Lightning dan serbaguna, RoninDojo, sejalan dengan filosofi Samourai Wallet, fokus pada alat fundamental untuk privasi pengguna.
+Kalau dibandingkan dengan solusi node lain seperti Umbrel, RoninDojo jelas fokus ke solusi on-chain dan alat privasi. Nggak seperti Umbrel, RoninDojo nggak mendukung pengaturan node Lightning atau integrasi aplikasi server yang lebih umum. Walaupun RoninDojo lebih sedikit fitur serbaguna dibanding Umbrel, semua fungsionalitas penting buat ngatur aktivitas on-chain kamu itu sudah ada.
+
+Kalau kamu nggak butuh fitur umum atau terkait Lightning Network seperti yang disediain Umbrel, dan kamu cuma pengin node yang simpel, stabil, dengan alat esensial kayak Whirlpool atau Mempool, RoninDojo bisa jadi pilihan ideal. Sementara Umbrel lebih cocok jadi server multitasking mini yang berorientasi Lightning Network dan serbaguna, RoninDojo, sesuai filosofi Samourai Wallet, fokus pada alat-alat fundamental buat privasi pengguna.
 
 Sekarang setelah kami telah menguraikan RoninDojo, mari kita lihat bersama bagaimana cara mengatur node ini.
 
 ## Perangkat keras apa yang harus dipilih untuk menginstal RoninDojo v2?
-RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/en/download). Namun, tutorial kami berfokus pada prosedur instalasi manual pada Raspberry Pi 4. Meskipun Raspberry Pi 5 telah diluncurkan baru-baru ini, dan tutorial ini secara teoritis harus kompatibel dengan model baru ini, saya belum memiliki kesempatan untuk mengujinya secara pribadi, dan saya belum menemukan umpan balik dari komunitas. Secepatnya saya mendapatkan Pi 5 dan komponen yang kompatibel, saya akan memperbarui tutorial ini untuk menjaga Anda tetap terinformasi. Sementara itu, saya merekomendasikan untuk memprioritaskan Pi 4, karena bekerja dengan sempurna untuk node saya.
-Dari pihak saya, saya menjalankan RoninDojo pada Raspberry Pi yang dilengkapi dengan 8 GB RAM. Meskipun beberapa anggota komunitas telah berhasil membuatnya bekerja pada perangkat dengan hanya 4 GB RAM, saya belum menguji konfigurasi ini sendiri. Mengingat perbedaan harga yang kecil, tampaknya bijaksana untuk memilih versi RAM 8 GB. Ini juga bisa berguna jika Anda berencana untuk menggunakan kembali Raspberry Pi Anda untuk kegunaan lain di masa depan.
-Penting untuk dicatat bahwa tim RoninDojo telah melaporkan masalah yang sering terkait dengan casing dan adaptor SSD. Saya telah menghadapi masalah ini sendiri. **Oleh karena itu, sangat disarankan untuk menghindari casing yang dilengkapi dengan kabel USB untuk SSD node Anda.** Sebagai gantinya, pilihlah kartu ekspansi penyimpanan yang dirancang khusus untuk Raspberry Pi Anda:
+RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/en/download). Namun, tutorial ini fokus ke prosedur instalasi manual di Raspberry Pi 4. Walaupun Raspberry Pi 5 baru dirilis dan secara teori tutorial ini harusnya kompatibel juga dengan model baru itu, aku belum sempat nyoba langsung, dan belum nemu feedback dari komunitas. Begitu aku punya Pi 5 dan komponen yang cocok, tutorial ini bakal aku update supaya kamu tetap dapat info terbaru. Untuk sekarang, aku sarankan tetap pakai Pi 4, karena dia bekerja sempurna untuk node aku.
+
+Dari sisi aku sendiri, aku jalanin RoninDojo di Raspberry Pi dengan 8 GB RAM. Walaupun beberapa anggota komunitas berhasil menjalankannya di perangkat dengan 4 GB RAM, aku belum uji konfigurasi itu sendiri. Mengingat selisih harganya kecil, lebih bijak pilih versi 8 GB RAM. Ini juga berguna kalau di masa depan kamu mau pakai ulang Raspberry Pi kamu buat kebutuhan lain.
+
+Penting dicatat kalau tim RoninDojo sudah melaporkan banyak masalah yang sering muncul terkait casing dan adaptor SSD. Aku sendiri juga pernah ngalamin masalah itu. **Jadi sangat disarankan buat menghindari casing yang pakai kabel USB untuk SSD node kamu.** Sebagai gantinya, pilih kartu ekspansi penyimpanan yang memang dirancang khusus untuk Raspberry Pi kamu:
 
 ![kartu ekspansi penyimpanan RPI4](assets/notext/1.webp)
-Untuk menyimpan blockchain Bitcoin, Anda akan memerlukan SSD yang kompatibel dengan kartu ekspansi penyimpanan yang telah Anda pilih. Saat ini (Februari 2024), kita berada dalam fase transisi. Diperkirakan, dalam beberapa bulan, disk 1 TB tidak akan lagi cukup untuk menampung ukuran blockchain yang terus bertambah, terutama mengingat berbagai aplikasi yang Anda rencanakan untuk diintegrasikan ke dalam node Anda. Beberapa orang oleh karena itu merekomendasikan untuk berinvestasi pada SSD 2 TB demi ketenangan pikiran dalam jangka panjang. Namun, dengan tren penurunan harga SSD dari tahun ke tahun, yang lain menyarankan untuk memilih disk 1 TB, yang seharusnya cukup untuk satu atau dua tahun, dengan argumen bahwa pada saat itu menjadi usang, biaya model 2 TB kemungkinan akan telah menurun. Pilihan ini tergantung pada preferensi pribadi Anda. Jika Anda berencana untuk menjaga RoninDojo Anda untuk durasi yang signifikan dan ingin menghindari penanganan teknis dalam beberapa tahun mendatang, opsi SSD 2 TB tampaknya menjadi pilihan yang paling bijaksana, karena menawarkan Anda margin yang nyaman untuk masa depan.
-Selain itu, Anda akan memerlukan berbagai komponen kecil:
-- Sebuah casing yang dilengkapi dengan kipas untuk menampung Raspberry Pi Anda dan kartu ekspansi penyimpanan Anda. Kit yang mencakup baik kartu ekspansi SSD dan casing yang kompatibel tersedia secara online;
-- Sebuah kabel daya untuk Raspberry Pi Anda;
-- Sebuah kartu micro SD setidaknya 16 GB (meskipun 8 GB secara teknis bisa cukup, perbedaan harga antara kartu 8 dan 16 GB sering kali tidak signifikan);
+Untuk menyimpan blockchain Bitcoin, kamu akan butuh SSD yang kompatibel dengan kartu ekspansi penyimpanan yang sudah kamu pilih. Saat ini (Februari 2024), kita lagi ada di fase transisi. Diperkirakan dalam beberapa bulan ke depan, SSD 1 TB nggak akan cukup lagi buat menampung ukuran blockchain yang terus tumbuh, apalagi kalau kamu berencana mengintegrasikan berbagai aplikasi ke dalam node kamu. Karena itu, beberapa orang merekomendasikan investasi di SSD 2 TB demi ketenangan jangka panjang. Tapi, dengan tren harga SSD yang terus turun setiap tahun, ada juga yang menyarankan cukup pakai SSD 1 TB, yang harusnya masih aman untuk satu atau dua tahun. Mereka berargumen kalau saat kapasitas itu mulai nggak cukup, harga SSD 2 TB kemungkinan sudah jauh lebih murah. Pilihan ini sepenuhnya tergantung preferensi kamu. Kalau kamu berencana mempertahankan RoninDojo kamu dalam jangka waktu lama dan pengin menghindari repot-repot upgrade beberapa tahun ke depan, SSD 2 TB terlihat sebagai opsi paling bijak, karena ngasih kamu ruang yang lebih lega untuk masa depan.
+
+Selain itu, kamu akan memerlukan berbagai komponen kecil:
+
+- Sebuah casing dengan kipas untuk menampung Raspberry Pi kamu dan kartu ekspansi penyimpanannya. Ada juga kit yang sudah mencakup kartu ekspansi SSD sekaligus casing yang kompatibel, dan itu bisa kamu temukan dengan mudah online.
+- Sebuah kabel daya untuk Raspberry Pi kamu.
+- Sebuah kartu micro SD minimal 16 GB (walaupun 8 GB sebenarnya cukup, selisih harga antara 8 dan 16 GB biasanya nggak signifikan).
 - Sebuah kabel Ethernet RJ45 untuk koneksi jaringan.
 
 ![node material](assets/notext/2.webp)
 
 ## Bagaimana cara merakit Raspberry Pi 4?
-Perakitan node Anda akan bervariasi tergantung pada perangkat keras yang dipilih, terutama jenis casing. Namun, garis besar umum langkah-langkah yang harus diikuti umumnya serupa dalam perakitan.
-Mulailah dengan memasang SSD Anda pada kartu ekspansi penyimpanan, dengan berhati-hati mengamankan dua sekrup pengunci di bagian belakang.
+Perakitan node kamu bakal sedikit berbeda tergantung perangkat keras yang kamu pilih, terutama jenis casing. Tapi secara umum, langkah-langkah dasarnya tetap mirip untuk semua jenis perakitan.
+Mulailah dengan memasang SSD kamu ke kartu ekspansi penyimpanan, lalu pastikan dua sekrup penguncinya di bagian belakang terpasang dengan aman.
 
 ![assembly1](assets/notext/3.webp)
 
-Kemudian pasang Raspberry Pi Anda ke kartu ekspansi.
+Kemudian pasang Raspberry Pi kamu ke kartu ekspansi.
 
 ![assembly2](assets/notext/4.webp)
 
@@ -66,35 +71,36 @@ Juga, pasang kipas ke Raspberry Pi.
 
 ![assembly3](assets/notext/5.webp)
 
-Sambungkan berbagai komponen, dengan memperhatikan untuk menggunakan pin yang benar, merujuk pada manual casing Anda. Produsen casing sering menawarkan tutorial video untuk membantu Anda dalam perakitan. Dalam kasus saya, saya memiliki kartu ekspansi tambahan yang dilengkapi dengan tombol on/off. Ini bukan hal yang esensial untuk membuat node Bitcoin. Saya terutama menggunakannya untuk memiliki tombol daya.
+Sambungkan semua komponen, pastikan kamu pakai pin yang benar dengan merujuk ke manual casing kamu. Biasanya produsen casing juga menyediakan tutorial video untuk bantu proses perakitan. Di kasus aku, aku pakai kartu ekspansi tambahan yang punya tombol on/off. Ini bukan hal yang wajib untuk bikin node Bitcoin, aku cuma pakai karena pengin ada tombol daya aja.
 
-Jika, seperti saya, Anda memiliki kartu ekspansi yang dilengkapi dengan tombol on/off, jangan lupa untuk memasang jumper "Auto Power On" kecil. Ini akan memungkinkan node Anda untuk mulai secara otomatis segera setelah dinyalakan. Fitur ini sangat berguna dalam hal terjadi pemadaman listrik, karena memungkinkan node Anda untuk memulai ulang sendiri, tanpa intervensi manual dari Anda.
+Kalau kamu juga pakai kartu ekspansi yang punya tombol on/off, jangan lupa pasang jumper kecil "Auto Power On". Ini bakal bikin node kamu otomatis nyala lagi begitu dapat aliran listrik. Fitur ini berguna banget kalau sewaktu-waktu terjadi pemadaman, karena node kamu bisa restart sendiri tanpa perlu kamu sentuh sama sekali.
 
 ![assembly4](assets/notext/6.webp)
 
-Sebelum memasukkan semua perangkat keras ke dalam casing, penting untuk memeriksa fungsi yang benar dari Raspberry Pi Anda, kartu ekspansi penyimpanan, dan kipas dengan menghidupkannya.
+Sebelum kamu memasukkan semua perangkat keras ke dalam casing, penting buat ngecek dulu apakah Raspberry Pi kamu, kartu ekspansi penyimpanan, dan kipasnya berfungsi dengan benar dengan cara menyalakannya sebentar.
 
 ![assembly5](assets/notext/7.webp)
-Akhirnya, pasang Raspberry Pi Anda ke dalam casingnya. Perlu diingat, langkah selanjutnya akan memerlukan penambahan kartu micro SD ke dalam port yang sesuai pada Raspberry Pi. Jika casing Anda dilengkapi dengan bukaan yang memungkinkan Anda memasukkan kartu SD tanpa harus membukanya (seperti pada kasus saya yang diilustrasikan dalam foto), Anda dapat melanjutkan untuk menutup casing sekarang. Namun, jika casing Anda tidak memiliki akses langsung ke port micro SD, Anda perlu menunggu sampai Anda telah mempersiapkan kartu micro SD untuk memasukkannya sebelum menyelesaikan perakitan.
+Akhirnya, pasang Raspberry Pi kamu ke dalam casingnya. Ingat, langkah berikutnya bakal butuh kamu memasukkan kartu micro SD ke port yang sesuai di Raspberry Pi. Kalau casing kamu punya bukaan khusus yang memungkinkan kamu masukin kartu SD tanpa harus buka casing lagi (kayak casing yang aku pakai di foto), kamu bisa langsung nutup casing sekarang. Tapi kalau casing kamu nggak punya akses langsung ke port micro SD, kamu perlu menunggu sampai kartu micro SD sudah selesai kamu siapkan sebelum menutup casing sepenuhnya.
 
 ## Bagaimana cara menginstal RoninDojo v2 di Raspberry Pi 4?
 
 ### Langkah 1: Persiapkan kartu micro SD yang dapat boot
-Setelah merakit perangkat keras Anda, langkah selanjutnya adalah menginstal RoninDojo. Untuk ini, kita akan menyiapkan kartu micro SD yang dapat boot dari komputer Anda, dengan membakar gambar disk yang sesuai ke dalamnya.
-Anda perlu menggunakan perangkat lunak _**Raspberry Pi Imager**_, yang dirancang untuk memudahkan pengunduhan, konfigurasi, dan penulisan sistem operasi pada kartu micro SD untuk digunakan dengan Raspberry Pi. Mulailah dengan menginstal perangkat lunak ini di PC pribadi Anda:
+Setelah perangkat keras kamu selesai dirakit, langkah berikutnya adalah menginstal RoninDojo. Untuk itu, kita perlu menyiapkan kartu micro SD yang bisa boot dari komputer kamu, dengan cara membakar image disk yang sesuai ke dalam kartu tersebut.
+Kamu perlu menggunakan perangkat lunak _**Raspberry Pi Imager**_, yang dirancang untuk memudahkan pengunduhan, konfigurasi, dan penulisan sistem operasi pada kartu micro SD untuk digunakan dengan Raspberry Pi. Mulailah dengan menginstal perangkat lunak ini di PC pribadi kamu:
+
 - Untuk Ubuntu/Debian: https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
 - Untuk Windows: https://downloads.raspberrypi.org/imager/imager_latest.exe
 - Untuk Mac: https://downloads.raspberrypi.org/imager/imager_latest.dmg
 
-Setelah perangkat lunak terinstal, bukalah, dan masukkan kartu micro SD Anda ke dalam komputer pribadi Anda. Dari antarmuka Raspberry Pi Imager, pilih `CHOOSE OS`:
+Setelah perangkat lunak terinstal, bukalah, dan masukkan kartu micro SD ke dalam komputer pribadi kamu. Dari antarmuka Raspberry Pi Imager, pilih `CHOOSE OS`:
 
 Selanjutnya, pergi ke menu `Raspberry Pi OS (other)`:
 
 Pilih sistem operasi yang bernama `Raspberry Pi OS (Legacy, 64-bit) Lite`, yang berukuran `0.3 GB`:
 
-Setelah memilih sistem operasi, Anda akan diarahkan kembali ke menu utama Raspberry Pi Imager. Klik pada `CHOOSE STORAGE`:
+Setelah memilih sistem operasi, kamu akan diarahkan kembali ke menu utama Raspberry Pi Imager. Klik pada `CHOOSE STORAGE`:
 
-Pilih kartu micro SD Anda:
+Pilih kartu micro SD kamu:
 
 Setelah memilih sistem operasi dan kartu micro SD, klik pada `NEXT`:
 
@@ -115,39 +121,41 @@ Konfirmasi dengan mengklik `YES` untuk mulai membuat kartu micro SD yang dapat b
 
 ![settings yes](assets/notext/20.webp)
 
-Sebuah pesan akan memberitahu Anda bahwa semua data pada kartu micro SD akan dihapus. Konfirmasi dengan mengklik `YES` untuk memulai proses:
+Sebuah pesan akan memberitahu kamu bahwa semua data pada kartu micro SD akan dihapus. Konfirmasi dengan mengklik `YES` untuk memulai proses:
 
 ![overwrite micro SD](assets/notext/21.webp)
 
-Tunggu sampai perangkat lunak selesai menyiapkan kartu micro SD Anda:
+Tunggu sampai perangkat lunak selesai menyiapkan kartu micro SD kamu:
 
 ![writing micro SD](assets/notext/22.webp)
 
-Ketika pesan yang menunjukkan akhir proses muncul, Anda dapat melepas kartu micro SD dari komputer Anda:
+Ketika pesan yang menunjukkan akhir proses muncul, kamu dapat melepas kartu micro SD dari komputer milikmu:
 
 ![writing micro SD completed](assets/notext/23.webp)
 
 ### Langkah 2: Lengkapi Perakitan Node
-Anda sekarang dapat memasukkan kartu micro SD ke dalam port yang sesuai pada Raspberry Pi Anda.
+Sekarang kamu dapat memasukkan kartu micro SD ke dalam port yang sesuai pada Raspberry Pi Anda.
 
 ![micro SD](assets/notext/24.webp)
 
-Kemudian, hubungkan Raspberry Pi Anda ke router menggunakan kabel Ethernet. Akhirnya, nyalakan node Anda dengan menghubungkan kabel daya dan menekan tombol daya (jika setup Anda menyertakannya).
+Kemudian, hubungkan Raspberry Pi ke router menggunakan kabel Ethernet. Akhirnya, nyalakan node dengan menghubungkan kabel daya dan menekan tombol daya (jika setup kamu menyertakannya).
 
 ### Langkah 3: Membangun Koneksi SSH dengan Node
-Pertama, perlu untuk menemukan alamat IP dari node Anda. Anda memiliki opsi untuk menggunakan alat seperti _[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ atau _[Angry IP Scanner](https://angryip.org/)_, atau memeriksa antarmuka administrasi router Anda. Alamat IP harus dalam bentuk `192.168.1.??`. **Untuk semua perintah berikut, ganti `[IP]` dengan alamat IP sebenarnya dari node Anda**, (menghilangkan tanda kurung).
+Pertama, perlu untuk menemukan alamat IP dari node kamu. Kamu memiliki opsi untuk menggunakan alat seperti _[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)_ atau _[Angry IP Scanner](https://angryip.org/)_, atau memeriksa antarmuka administrasi router Anda. Alamat IP harus dalam bentuk `192.168.1.??`. **Untuk semua perintah berikut, ganti `[IP]` dengan alamat IP sebenarnya dari node Anda**, (menghilangkan tanda kurung).
 
 Luncurkan terminal.
 
-Untuk menghapus kunci yang mungkin sudah terasosiasi dengan alamat IP dari node Anda, jalankan perintah: 
+Untuk menghapus kunci yang mungkin sudah terasosiasi dengan alamat IP dari node kamu, jalankan perintah: 
 `ssh-keygen -R [IP]`. 
 
-Kesalahan setelah perintah ini tidak serius; itu hanya berarti bahwa kunci tidak ada dalam daftar host yang dikenal Anda (yang cukup mungkin). Misalnya, jika IP dari node Anda adalah `192.168.1.40`, perintahnya menjadi: `ssh-keygen -R 192.168.1.40`.
+Kesalahan setelah perintah ini tidak serius; itu hanya berarti bahwa kunci tidak ada dalam daftar host yang dikenal kamu (yang cukup mungkin). Misalnya, jika IP dari node Anda adalah `192.168.1.40`, perintahnya menjadi: `ssh-keygen -R 192.168.1.40`.
 
 Selanjutnya, bangun koneksi SSH dengan node Anda dengan menjalankan perintah: 
 `ssh pi@[IP]`.
-Sebuah pesan akan muncul mengenai keaslian host: `The authenticity of host '[IP]' can't be established.` Ini menunjukkan bahwa keaslian perangkat yang Anda coba hubungkan tidak dapat diverifikasi karena kurangnya kunci publik yang dikenal. Ketika menghubungkan via SSH ke host baru untuk pertama kalinya, pesan ini akan selalu muncul. Anda harus merespon `yes` untuk menambahkan kunci publiknya ke direktori lokal Anda, yang akan mencegah pesan peringatan ini muncul selama koneksi SSH masa depan ke node ini. Oleh karena itu, ketik `yes` dan tekan `enter` untuk memvalidasi.
-Anda kemudian akan diminta untuk memasukkan kata sandi Anda, yang sebelumnya ditetapkan sebagai sementara di langkah 1. Validasi dengan `enter`. Anda kemudian akan terhubung ke node Anda via SSH.
+
+Sebuah pesan akan muncul mengenai keaslian host: `The authenticity of host '[IP]' can't be established.` Ini menunjukkan kalau keaslian perangkat yang kamu coba hubungkan belum bisa diverifikasi karena belum ada kunci publik yang dikenal. Saat pertama kali terhubung lewat SSH ke host baru, pesan seperti ini memang selalu muncul. Kamu cukup jawab `yes` untuk menambahkan kunci publiknya ke direktori lokal kamu, supaya peringatan ini nggak muncul lagi di koneksi SSH berikutnya ke node yang sama. Jadi, ketik `yes` dan tekan `enter` untuk lanjut.
+
+Kamu kemudian akan diminta memasukkan password kamu, yang sebelumnya sudah kamu set sebagai password sementara di langkah 1. Tekan `enter` untuk validasi. Setelah itu, kamu bakal langsung terhubung ke node kamu via SSH.
 
 Ringkasnya, berikut adalah perintah untuk dijalankan:
 - `ssh-keygen -R [IP]`
@@ -156,7 +164,7 @@ Ringkasnya, berikut adalah perintah untuk dijalankan:
 - Masukkan kata sandi sementara dan validasi.
 
 ### Langkah 4: Pembaruan dan Persiapan
-Anda sekarang terhubung ke node Anda via sesi SSH. Di terminal Anda, prompt perintah harusnya: `pi@RoninDojo:~ $`. Untuk memulai, perbarui daftar paket yang tersedia dan instal pembaruan untuk paket yang sudah ada dengan perintah berikut:
+Sekarang kamu terhubung ke node kamu via sesi SSH. Di terminal Anda, prompt perintah harusnya: `pi@RoninDojo:~ $`. Untuk memulai, perbarui daftar paket yang tersedia dan instal pembaruan untuk paket yang sudah ada dengan perintah berikut:
 `sudo apt update && sudo apt upgrade -y`
 Setelah pembaruan selesai, lanjutkan untuk menginstal *Git* dan *Dialog* menggunakan perintah: `sudo apt install git dialog -y`
 
@@ -166,7 +174,7 @@ Selanjutnya, kloning cabang `master` dari repositori Git _RoninOS_ dengan menjal
 Jalankan skrip `customize-image.sh` dengan perintah:
 `cd /opt/RoninOS/ && sudo ./customize-image.sh`
 
-**Penting untuk membiarkan skrip berjalan tanpa gangguan dan menunggu dengan sabar hingga prosesnya selesai**, yang memakan waktu sekitar 10 menit. Ketika pesan `Setup is complete` muncul, Anda dapat melanjutkan ke langkah selanjutnya.
+**Penting untuk membiarkan skrip berjalan tanpa gangguan dan menunggu dengan sabar hingga prosesnya selesai**, yang memakan waktu sekitar 10 menit. Ketika pesan `Setup is complete` muncul, kamu dapat melanjutkan ke langkah selanjutnya.
 
 ### Langkah 5: Menjalankan RoninOS
 Jalankan RoninOS dengan perintah:
@@ -175,18 +183,21 @@ Jalankan RoninOS dengan perintah:
 Tampilkan baris-baris file log dengan perintah:
 `tail -f /home/ronindojo/.logs/setup.logs`
 
-Pada tahap ini, **penting untuk membiarkan RoninOS berjalan dan menunggu hingga selesai**. Ini memakan waktu sekitar 40 menit. Ketika `All RoninDojo feature installations complete!` muncul, Anda dapat melanjutkan ke langkah 6.
+Pada tahap ini, **penting untuk membiarkan RoninOS berjalan dan menunggu hingga selesai**. Ini memakan waktu sekitar 40 menit. Ketika `All RoninDojo feature installations complete!` muncul, kamu bisa melanjutkan ke langkah 6.
 
 ### Langkah 6: Mengakses RoninUI dan Mengubah Kredensial
-Setelah menyelesaikan instalasi, untuk terhubung ke node Anda melalui browser, pastikan komputer pribadi Anda terhubung ke jaringan lokal yang sama dengan node Anda. Jika Anda menggunakan VPN pada mesin Anda, nonaktifkan sementara. Untuk mengakses antarmuka node di browser Anda, masukkan di bilah URL:
+Setelah instalasi selesai, untuk terhubung ke node kamu lewat browser, pastikan komputer kamu ada di jaringan lokal yang sama dengan node kamu. Kalau kamu lagi pakai VPN di komputer, matikan dulu sementara.
+
+Untuk membuka antarmuka node di browser kamu, masukkan alamat berikut di bilah URL:
+
 - Langsung alamat IP node Anda, misalnya, `192.168.1.??`;
 - Atau, ketik `ronindojo.local`.
 
-Setelah berada di halaman utama RoninUI, Anda akan diminta untuk memulai pengaturan. Untuk melakukan ini, klik tombol `Let's start`.
+Setelah berada di halaman utama RoninUI, kamu akan diminta untuk memulai pengaturan. Untuk melakukan ini, klik tombol `Let's start`.
 
 ![lets start](assets/notext/25.webp)
 
-Pada tahap ini, RoninUI menampilkan kata sandi `root` Anda. Sangat penting untuk menjaganya dengan aman. Anda dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Pada tahap ini, RoninUI menampilkan kata sandi `root` kamu. Sangat penting untuk menjaganya dengan aman. Kamu dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -194,125 +205,145 @@ Setelah menyimpan kata sandi `root`, centang kotak `I have backed up Root user c
 
 ![confirm root password](assets/notext/27.webp)
 
-Langkah selanjutnya melibatkan pembuatan kata sandi pengguna, yang akan digunakan baik untuk mengakses antarmuka web RoninUI maupun untuk menjalin sesi SSH dengan node Anda. Pilih kata sandi yang kuat dan pastikan untuk menyimpannya dengan aman. Anda perlu memasukkan kata sandi ini dua kali sebelum mengklik `Finish` untuk memvalidasi. Untuk nama pengguna, disarankan untuk mempertahankan pilihan default, `ronindojo`. Jika Anda memutuskan untuk mengubahnya, ingat untuk menyesuaikan perintah pada langkah-langkah berikutnya sesuai kebutuhan.
+Langkah berikutnya adalah membuat password pengguna, yang bakal kamu pakai baik untuk akses antarmuka web RoninUI maupun untuk sesi SSH ke node kamu. Pilih password yang kuat dan simpan dengan aman. Kamu perlu memasukkan password ini dua kali sebelum klik `Finish` untuk validasi. Untuk username, disarankan tetap pakai pilihan default, `ronindojo`. Kalau kamu memilih menggantinya, pastikan kamu menyesuaikan perintah di langkah-langkah berikutnya sesuai perubahan tersebut.
 
 ![user credentials](assets/notext/28.webp)
 
-Setelah tindakan ini selesai, tunggu node Anda untuk diinisialisasi. Anda kemudian akan mengakses antarmuka web RoninUI. Anda hampir di akhir proses, hanya beberapa langkah kecil lagi!
+Setelah langkah ini selesai, tunggu node kamu selesai inisialisasi. Setelah itu kamu bakal masuk ke antarmuka web RoninUI. Kamu hampir sampai di akhir proses, tinggal beberapa langkah kecil lagi!
+
 ![Ronin UI](assets/notext/29.webp)
 
 ### Langkah 7: Menghapus Kredensial Sementara
-Buka terminal baru di komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
+Buka terminal baru di komputer pribadi kamu dan buat koneksi SSH dengan node kamu menggunakan perintah berikut:
 `SSH ronindojo@[IP]`
-Jika, misalnya, alamat IP dari node Anda adalah `192.168.1.40`, perintah yang tepat akan menjadi: `SSH ronindojo@192.168.1.40`
+Jika, misalnya, alamat IP dari node kamu adalah `192.168.1.40`, perintah yang tepat akan menjadi: `SSH ronindojo@192.168.1.40`
 
-Jika Anda mengganti nama pengguna Anda pada langkah sebelumnya, menggantikan nama pengguna default (`ronindojo`) dengan yang lain, pastikan untuk menggunakan nama baru ini dalam perintah. Sebagai contoh, jika Anda memilih `planb` sebagai nama pengguna dan alamat IP adalah `192.168.1.40`, perintah yang harus dimasukkan adalah:
+Jika kamu mengganti nama pengguna kamu pada langkah sebelumnya, menggantikan nama pengguna default (`ronindojo`) dengan yang lain, pastikan untuk menggunakan nama baru ini dalam perintah. Sebagai contoh, jika kamu memilih `planb` sebagai nama pengguna dan alamat IP adalah `192.168.1.40`, perintah yang harus dimasukkan adalah:
 `SSH planb@192.168.1.40`
-Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan kemudian tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan tombol panah pada keyboard Anda untuk menavigasi ke opsi `Exit RoninDojo` dan tekan `enter` untuk memilihnya.
+Kamu akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan kemudian tekan `enter` untuk memvalidasi. Kemudian kamu akan mengakses antarmuka RoninCLI. Gunakan tombol panah pada keyboard kamu untuk menavigasi ke opsi `Exit RoninDojo` dan tekan `enter` untuk memilihnya.
 ![RoninCLI](assets/notext/30.webp)
 
-Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah mirip dengan: `ronindojo@RoninDojo:~ $`. Untuk menghapus pengguna sementara yang dibuat selama konfigurasi kartu micro SD yang dapat di-boot, masukkan perintah berikut dan tekan `enter`:
+Pada titik ini, kamu sudah berada di terminal node kamu, dengan prompt perintah seperti:
+`ronindojo@RoninDojo:~ $`
+
+Untuk menghapus user sementara yang dibuat saat menyiapkan kartu micro SD yang bisa boot, masukkan perintah berikut lalu tekan `enter`:
 `sudo deluser --remove-home pi`
 
-Anda akan diminta untuk mengonfirmasi kata sandi pengguna Anda. Masukkan dan validasi dengan menekan `enter`. Tunggu hingga operasi selesai, kemudian gunakan perintah `exit` untuk meninggalkan terminal.
+Kamu akan diminta memasukkan password user kamu. Masukkan, lalu tekan `enter`. Tunggu sampai proses selesai, lalu gunakan perintah exit untuk keluar dari terminal.
 
-Selamat! Node RoninDojo v2 Anda sekarang dikonfigurasi dan siap digunakan. Ini akan memulai IBD (*Initial Block Download*), melanjutkan untuk mengunduh dan memverifikasi blockchain Bitcoin dari blok Genesis. Langkah ini melibatkan pengambilan semua transaksi Bitcoin yang dilakukan sejak 3 Januari 2009, dan membutuhkan waktu. Setelah blockchain sepenuhnya diunduh, pengindeks akan melanjutkan untuk mengompresi database. Durasi IBD dapat bervariasi secara signifikan. Node RoninDojo Anda akan sepenuhnya operasional setelah proses ini selesai.
+Selamat! Node RoninDojo v2 kamu sekarang sudah dikonfigurasi dan siap dipakai. Node kamu akan mulai melakukan IBD (*Initial Block Download*), yaitu proses mengunduh dan memverifikasi blockchain Bitcoin mulai dari blok Genesis. Langkah ini mengambil semua transaksi Bitcoin sejak 3 Januari 2009 dan butuh waktu. Setelah blockchain selesai diunduh, indexer akan lanjut mengompresi database. Durasi IBD bisa sangat bervariasi. Node RoninDojo kamu akan sepenuhnya operasional setelah proses ini selesai.
 
-**Jika Anda bermigrasi dari node RoninDojo v1 lama** ke versi baru ini dengan tutorial ini sambil mempertahankan SSD yang sama, node Anda seharusnya secara otomatis mendeteksi dan menggunakan kembali data yang ada di disk, menghemat Anda dari keharusan melakukan IBD lagi. Dalam kasus ini, Anda hanya perlu menunggu node Anda untuk resinkronisasi dengan blok terbaru.
+**Kalau kamu migrasi dari node RoninDojo v1 lama** ke versi baru ini sambil mempertahankan SSD yang sama, node kamu harusnya otomatis mendeteksi dan memakai ulang data yang sudah ada di disk, sehingga kamu nggak perlu melakukan IBD ulang. Kamu cuma perlu menunggu sampai node selesai resinkronisasi dengan blok terbaru.
 
 ### Langkah 8: "veth fix"
-Jika Anda menemui bug dengan RoninDojo v2 Anda di Raspberry Pi, di mana setelah instalasi tanpa masalah, node Anda tiba-tiba menjadi tidak dapat dijangkau melalui SSH tetapi pulih setelah restart sederhana, maka Anda perlu mengikuti langkah 8 ini. Bug umum ini dapat dengan mudah diperbaiki dengan solusi yang dikembangkan oleh komunitas: "_veth fix_". Koreksi kecil ini secara permanen mengatasi pemutusan mendadak. Berikut cara menerapkannya.
 
-Buka terminal baru di komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
+Kalau kamu nemuin bug di RoninDojo v2 di Raspberry Pi, di mana setelah instalasi berjalan lancar tiba-tiba node kamu nggak bisa diakses lewat SSH tapi kembali normal setelah direstart, berarti kamu perlu lakukan langkah 8 ini. Bug umum ini bisa diperbaiki dengan solusi dari komunitas yang disebut *"veth fix".* Perbaikan kecil ini mencegah putus koneksi mendadak. Berikut cara menerapkannya.
+
+Buka terminal baru di komputer kamu dan lakukan koneksi SSH ke node dengan perintah:
 `SSH ronindojo@[IP]`
 
-Jika, misalnya, alamat IP node Anda adalah `192.168.1.40`, perintah yang tepat akan menjadi:
+Kalau misalnya IP node kamu adalah 192.168.1.40, maka perintahnya:
 `SSH ronindojo@192.168.1.40`
 
-Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan panah keyboard Anda untuk menavigasi ke opsi `Exit RoninDojo` dan tekan `enter` untuk memilihnya.
-Pada titik ini, Anda berada di terminal node Anda, dengan prompt perintah serupa dengan: `ronindojo@RoninDojo:~ $`. Untuk menerapkan perbaikan **veth**, ketik perintah berikut dan tekan `enter`: `sudo nano /etc/dhcpcd.conf`
+Kamu akan diminta memasukkan password user. Masukkan dan tekan `enter`. Setelah itu kamu bakal masuk ke antarmuka RoninCLI. Gunakan tombol panah untuk navigasi ke opsi Exit RoninDojo lalu tekan `enter`.
 
-Konfirmasi password Anda lagi dan tekan `enter`.
+Sekarang kamu sudah kembali ke terminal node dengan prompt perintah seperti:
+`ronindojo@RoninDojo:~ $`
 
-Anda akan tiba di file `dhcpcd.conf`. Anda perlu menyalin teks berikut, pastikan untuk menyertakan asterisk, dan tambahkan ke bagian bawah file:
+Untuk menerapkan perbaikan **veth,** jalankan:
+`sudo nano /etc/dhcpcd.conf`
+
+Masukkan password lagi, lalu tekan `enter`.
+
+Kamu akan masuk ke file dhcpcd.conf. Salin teks berikut (pastikan asterisk ikut):
 `denyinterfaces veth*`
 
-Untuk melakukan ini, pindah ke bagian bawah file menggunakan panah bawah pada keyboard Anda, kemudian gunakan klik kanan mouse Anda untuk menempelkan teks pada baris independen.
+Pindah ke bagian paling bawah file dengan panah bawah, lalu tempel teks tersebut di baris baru.
 
-Setelah menambahkan teks, tekan `ctrl X` untuk mulai keluar, diikuti dengan `ctrl Y` untuk mengonfirmasi menyimpan perubahan, dan tekan `enter` untuk menyelesaikan dan kembali ke prompt perintah. Untuk memastikan bahwa modifikasi telah diterapkan dengan benar, buka kembali file `dhcpcd.conf` menggunakan perintah yang sesuai.
+Setelah selesai, tekan `ctrl X` untuk keluar, `ctrl Y` untuk konfirmasi penyimpanan, lalu tekan `enter` untuk kembali ke prompt. Untuk memastikan perubahan tersimpan, buka lagi file `dhcpcd.conf` dengan perintah yang sama dan cek apakah baris tadi sudah ada.
 
-Untuk menyelesaikan penerapan perbaikan, restart node Anda dengan menjalankan:
+Untuk menyelesaikan perbaikan, restart node dengan perintah:
 `sudo reboot now`
 
-Pada titik ini, Anda dapat menutup terminal Anda. Berikan waktu yang diperlukan untuk RoninDojo Anda untuk restart, setelah itu Anda seharusnya dapat terhubung kembali melalui antarmuka grafis browser Anda. Proses ini seharusnya memperbaiki bug yang ditemui.
+Sekarang kamu bisa menutup terminal. Beri waktu untuk RoninDojo restart, lalu kamu harusnya bisa terhubung lagi lewat antarmuka grafis di browser kamu. Perbaikan ini seharusnya mengatasi bug yang kamu temui.
 
-## Bagaimana cara menggunakan node RoninDojo v2 Anda?
+## Bagaimana cara menggunakan node RoninDojo v2 kamu?
 
-### Menghubungkan perangkat lunak dompet Anda ke Electrs
-Penggunaan pertama dari node yang baru saja Anda instal dan sinkronkan akan untuk menyiarkan transaksi Anda ke jaringan Bitcoin. Anda mungkin ingin menghubungkan berbagai dompet Anda ke node Anda untuk menyiarkan transaksi Anda secara rahasia. Anda dapat melakukan ini melalui Electrum Rust Server (electrs). Aplikasi ini biasanya sudah terpasang di node RoninDojo Anda. Jika tidak, Anda bisa menginstalnya secara manual melalui antarmuka RoninCLI di `Applications > Manage Applications > Install Electrum Server`.
+### Menghubungkan perangkat lunak dompet kamu ke Electrs
+Penggunaan pertama dari node yang baru saja Anda instal dan sinkronkan adalah untuk menyiarkan transaksi Anda ke jaringan Bitcoin. Anda mungkin ingin menghubungkan berbagai dompet Anda ke node tersebut agar dapat menyiarkan transaksi secara privat. Untuk itu, Anda dapat memanfaatkan Electrum Rust Server (electrs). Aplikasi ini biasanya sudah terpasang di node RoninDojo Anda. Jika belum, Anda dapat menginstalnya secara manual melalui antarmuka RoninCLI di menu `Applications` > `Manage Applications` > `Install Electrum Server`.
 
-Untuk mendapatkan alamat Tor dari Electrum Server Anda, dari antarmuka web RoninUI, pergi ke:
+Untuk mendapatkan alamat Tor dari Electrum Server kamu, dari antarmuka web RoninUI, pergi ke:
 `Pairing > Electrum server > Pair now`
 ![Pairing](assets/notext/31.webp)
 ![Electrs](assets/notext/32.webp)
-Anda kemudian perlu memasukkan alamat `Hostname` yang berakhir dengan `.onion` di perangkat lunak dompet Anda, disertai dengan port `50001`. ![hostname](assets/notext/33.webp)
+Kamu kemudian perlu memasukkan alamat `Hostname` yang berakhir dengan `.onion` di perangkat lunak dompet kamu, disertai dengan port `50001`. ![hostname](assets/notext/33.webp)
 Sebagai contoh, di Sparrow Wallet, cukup pergi ke tab:
 `File > Preferences > Server > Private Electrum`
 
 ![Sparrow](assets/notext/34.webp)
 
 ### Menghubungkan perangkat lunak dompet Anda ke Samourai Dojo
-Sebagai alternatif untuk menggunakan Electrs, Dojo memungkinkan Anda untuk menghubungkan perangkat lunak dompet yang kompatibel langsung ke node RoninDojo Anda. Dompet seperti Samourai Wallet dan Sentinel menawarkan fungsionalitas ini.
+Sebagai alternatif untuk menggunakan Electrs, Dojo memungkinkan kamu untuk menghubungkan perangkat lunak dompet yang kompatibel langsung ke node RoninDojo kamu. Dompet seperti Samourai Wallet dan Sentinel menawarkan fungsionalitas ini.
 
-Untuk membangun koneksi, Anda hanya perlu memindai kode QR dari Dojo Anda. Untuk mengakses kode QR ini melalui RoninUI, navigasikan ke:
+Untuk membangun koneksi, Anda hanya perlu memindai kode QR dari Dojo kamu. Untuk mengakses kode QR ini melalui RoninUI, navigasikan ke:
 `Pairing > Samourai Dojo > Pair now`
 ![Samourai Dojo](assets/notext/35.webp)
-Untuk menghubungkan Samourai Wallet Anda ke Dojo, cukup pindai kode QR ini selama instalasi aplikasi:
+Untuk menghubungkan Samourai Wallet kamu ke Dojo, cukup pindai kode QR ini selama instalasi aplikasi:
 
 ![Samourai Wallet connection](assets/notext/36.webp)
-Jika Anda sudah memiliki Samourai Wallet sebelum mengatur Ronin Dojo Anda, perlu untuk membackup dompet Anda, menghapus instalasi dan kemudian menginstal ulang aplikasi Samourai Wallet, sebelum mengembalikan dompet Anda. Saat meluncurkan aplikasi yang telah diinstal ulang, Anda akan memiliki opsi untuk terhubung ke Dojo baru. **Hati-hati, proses ini membawa risiko kehilangan bitcoin Anda jika tidak dilakukan dengan benar!** Pastikan Anda memiliki backup dari Samourai wallet Anda dalam file Anda dan verifikasi validitas passphrase Anda melalui `Settings > Troubleshoot > Passphrase`. Juga penting untuk memiliki backup yang dapat dibaca dari frase pemulihan dan passphrase Anda. Untuk lebih presisi dalam operasi ini, disarankan untuk mengikuti tutorial terperinci ini: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Kalau kamu sudah punya Samourai Wallet sebelum menyiapkan Ronin Dojo, kamu perlu membackup dompetmu, menghapus instalasi, lalu menginstal ulang aplikasi Samourai Wallet sebelum mengembalikan dompetmu. Saat kamu meluncurkan aplikasi yang sudah diinstal ulang, kamu akan mendapat opsi untuk terhubung ke Dojo baru. **Hati-hati, proses ini membawa risiko kehilangan bitcoin kamu jika tidak dilakukan dengan benar!** Pastikan kamu punya backup Samourai wallet dalam file kamu dan verifikasi validitas passphrase melalui `Settings > Troubleshoot > Passphrase.` Juga penting untuk punya backup yang dapat dibaca dari frase pemulihan dan passphrase kamu. Untuk ketelitian lebih lanjut dalam operasi ini, disarankan mengikuti tutorial terperinci ini:
+
+[https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 ### Menggunakan block explorer Mempool.space milik Anda sendiri
 Sebuah block explorer mengubah informasi mentah dari blockchain Bitcoin menjadi format yang terstruktur dan mudah dibaca. Dengan alat seperti *Mempool.space*, dimungkinkan untuk menganalisis transaksi, mencari alamat tertentu, atau bahkan konsultasi tarif rata-rata jaringan mempool secara real-time.
 
-Namun, menggunakan block explorer online menimbulkan risiko terhadap privasi Anda dan melibatkan kepercayaan pada data yang disediakan oleh pihak ketiga. Memang, dengan menggunakan layanan ini tanpa melalui node Anda sendiri, Anda dapat tanpa sengaja mengungkapkan informasi tentang transaksi Anda dan harus mengandalkan akurasi informasi yang disajikan oleh pemilik situs.
-Untuk mengurangi risiko ini, disarankan untuk menggunakan instance *Mempool.space* Anda sendiri melalui jaringan Tor, langsung dihosting pada node Anda. Solusi ini memastikan pelestarian privasi Anda dan otonomi data Anda.
+Namun, menggunakan block explorer online membawa risiko terhadap privasi Anda dan mengharuskan Anda mempercayai data yang disajikan oleh pihak ketiga. Saat menggunakan layanan seperti ini tanpa melalui node Anda sendiri, Anda bisa tanpa sengaja mengungkapkan informasi tentang transaksi Anda, dan Anda juga harus bergantung pada akurasi informasi yang diberikan oleh pemilik situs.
+
+Untuk meminimalkan risiko ini, disarankan menggunakan instance Mempool.space Anda sendiri melalui jaringan Tor, yang di-hosting langsung pada node Anda. Pendekatan ini memastikan privasi tetap terjaga dan memberi Anda kendali penuh atas data Anda.
+
 Untuk melakukan ini, mulailah dengan menginstal *Mempool Space Visualizer* dari RoninUI. Di antarmuka web, pergi ke tab `Dashboard` dan klik pada `Manage` di bawah `Mempool Space`:
+
 `Dashboard > Mempool Space > Manage`
 ![Manage mempool](assets/notext/37.webp)
 Kemudian klik pada tombol `Install Mempool visualizer`:
 ![install mempool](assets/notext/38.webp)
-Konfirmasi password pengguna Anda:
+Konfirmasi password kamu:
 ![password mempool](assets/notext/39.webp)
 Tunggu hingga instalasi selesai, kemudian klik lagi pada tombol `Manage`:
 ![Mempool Manage](assets/notext/40.webp)
-Anda akan mendapatkan link `.onion` untuk mengakses instance *Mempool.space* Anda sendiri melalui jaringan Tor.
+Kamu akan mendapatkan link `.onion` untuk mengakses instance *Mempool.space* kamu sendiri melalui jaringan Tor.
 ![Mempool link](assets/notext/41.webp)
-Saya menyarankan Anda untuk menyimpan link ini di favorit Anda pada browser Tor atau menambahkannya ke aplikasi Browser Tor di smartphone Anda untuk akses yang mudah dan aman dari mana saja. Jika Anda belum memiliki browser Tor, Anda dapat mengunduhnya di sini: [https://www.torproject.org/download/](https://www.torproject.org/download/)
+Saya menyarankan Anda untuk menyimpan tautan ini ke dalam bookmark di browser Tor Anda, atau menambahkannya ke aplikasi Tor Browser di smartphone Anda, agar Anda dapat mengaksesnya dengan mudah dan aman dari mana saja.
+
+Jika Anda belum memiliki Tor Browser, Anda dapat mengunduhnya di sini: [https://www.torproject.org/download/](https://www.torproject.org/download/)
 ![Mempool Tor](assets/notext/42.webp)
 
 ### Menggunakan Whirlpool untuk mencampur bitcoin Anda
-Node RoninDojo Anda juga mengintegrasikan _WhirlpoolCLI_, antarmuka baris perintah yang memungkinkan otomatisasi Whirlpool coinjoins, dan _WhirlpoolGUI_, antarmuka grafis yang dirancang untuk berinteraksi dengan _WhirlpoolCLI_.
-Melakukan coinjoin melalui Whirlpool memerlukan aplikasi yang digunakan untuk tetap aktif dalam melakukan remix. Kondisi ini bisa menjadi pembatas bagi mereka yang ingin mencapai tingkat anonim yang tinggi. Memang, perangkat yang menghosting aplikasi yang mengintegrasikan Whirlpool harus tetap menyala secara terus-menerus. Ini berarti untuk berpartisipasi dalam remix 24 jam sehari, komputer atau smartphone Anda harus tetap menyala dengan Samourai atau Sparrow terbuka terus-menerus. Solusi untuk kendala ini adalah menggunakan _WhirlpoolCLI_ pada mesin yang selalu aktif, seperti node Bitcoin, memungkinkan koin Anda untuk remix tanpa gangguan, dan tanpa perlu menjaga perangkat lain tetap menyala.
-Tutorial terperinci sedang disiapkan untuk memandu Anda langkah demi langkah melalui proses coinjoining dengan Samourai Wallet dan RoninDojo v2, dari A sampai Z.
+Node RoninDojo kamu juga mengintegrasikan _WhirlpoolCLI,_ antarmuka baris perintah yang memungkinkan otomatisasi coinjoin Whirlpool, serta _WhirlpoolGUI,_ antarmuka grafis yang digunakan untuk berinteraksi dengan _WhirlpoolCLI._
+Melakukan coinjoin lewat Whirlpool membutuhkan aplikasi yang tetap aktif agar proses remix bisa berjalan terus-menerus. Ini bisa menjadi batasan bagi siapa pun yang ingin mencapai tingkat anonimitas tinggi. Perangkat yang menjalankan aplikasi Whirlpool harus tetap menyala tanpa henti. Artinya, jika kamu ingin tetap berpartisipasi dalam remix 24 jam sehari, komputer atau smartphone kamu harus terus menyala dengan Samourai atau Sparrow terbuka sepanjang waktu.
 
-Untuk pemahaman yang lebih mendalam tentang coinjoin dan penggunaannya pada Bitcoin, saya juga mengundang Anda untuk membaca artikel lain ini: Memahami dan menggunakan coinjoin pada Bitcoin, di mana saya menjelaskan segala hal yang perlu Anda ketahui tentang teknik ini.
+Solusi untuk batasan ini adalah menjalankan _WhirlpoolCLI_ di mesin yang selalu aktif, seperti node Bitcoin kamu. Dengan begitu, koin kamu bisa melakukan remix tanpa terputus, tanpa perlu menjaga perangkat lain tetap menyala.
+Aku sedang menyiapkan tutorial lengkap yang akan memandu kamu langkah demi langkah dalam proses coinjoin menggunakan Samourai Wallet dan RoninDojo v2, dari awal sampai akhir.
+
+Untuk memahami coinjoin lebih dalam—baik konsep, logika privasi, maupun cara kerjanya dalam ekosistem Bitcoin—kamu juga bisa membaca artikelku lainnya: Memahami dan menggunakan coinjoin pada Bitcoin, di mana aku menjelaskan semua hal yang perlu kamu tahu tentang teknik ini.
+
 ### Menggunakan Whirlpool Stat Tool (WST)
 
-Setelah melakukan coinjoins dengan Whirlpool, berguna untuk mengevaluasi secara tepat tingkat privasi yang dicapai untuk UTXO campuran Anda. Untuk melakukan ini, Anda dapat menggunakan alat Python *Whirlpool Stat Tool*. Alat ini memungkinkan Anda untuk mengukur baik skor prospektif maupun retrospektif dari UTXO Anda, sambil menganalisis tingkat difusi mereka di kolam.
+Setelah kamu melakukan coinjoin dengan Whirlpool, penting untuk mengevaluasi secara akurat tingkat privasi yang dicapai oleh UTXO hasil mix kamu. Untuk tujuan ini, kamu bisa menggunakan alat Python Whirlpool Stat Tool. Alat ini memungkinkan kamu mengukur baik skor prospektif maupun retrospektif dari UTXO kamu, sekaligus menganalisis tingkat difusi mereka di dalam pool.
 
-Untuk memperdalam pemahaman Anda tentang mekanisme perhitungan anonset ini, saya merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
+Untuk memperdalam pemahaman kamu tentang mekanisme perhitungan anonset ini, kamu merekomendasikan membaca artikel: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), yang menjelaskan fungsi dari indeks-indeks ini.
 
-Untuk mengakses alat WST, buka RoninCLI. Untuk melakukan ini, buka terminal pada komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut:
+Untuk mengakses alat WST, buka RoninCLI. Untuk melakukan ini, buka terminal pada komputer pribadi kamu dan buat koneksi SSH dengan node kamu menggunakan perintah berikut:
 `SSH ronindojo@[IP]`
 
 Jika, misalnya, alamat IP node Anda adalah `192.168.1.40`, perintah yang tepat adalah:
 `SSH ronindojo@192.168.1.40`
 
-Jika Anda mengubah nama pengguna Anda selama langkah 6, menggantikan nama pengguna default (`ronindojo`) dengan yang lain, pastikan untuk menggunakan nama baru ini dalam perintah. Misalnya, jika Anda memilih `planb` sebagai nama pengguna Anda dan alamat IP adalah `192.168.1.40`, perintah yang harus dimasukkan adalah:
+Jika kamu mengubah nama pengguna saat langkah 6 dengan menggantikan nama default (ronindojo) dengan nama lain, pastikan kamu memakai nama baru itu di dalam perintah. Misalnya, jika kamu memilih `planb` sebagai nama pengguna dan alamat IP-nya adalah `192.168.1.40`, maka perintah yang harus kamu masukkan adalah:
 `SSH planb@192.168.1.40`
 
-Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan tombol panah pada keyboard Anda untuk menavigasi ke menu `Samourai Toolkit` dan tekan `enter` untuk memilihnya:
+Kamu akan diminta untuk memasukkan kata sandi pengguna. Masukkan lalu tekan enter untuk memvalidasi. Kamu kemudian akan masuk ke antarmuka RoninCLI. Gunakan tombol panah pada keyboard untuk menavigasi ke menu Samourai Toolkit dan tekan `enter` untuk memilihnya.
 
 ![Samourai Toolkit](assets/notext/43.webp)
 
@@ -327,12 +358,12 @@ Setelah menginisialisasi WST, alat akan melanjutkan dengan instalasi otomatisnya
 Prompt perintah berikut akan ditampilkan:
 `wst#/tmp>`
 
-Jika Anda ingin keluar dari antarmuka ini dan kembali ke menu RoninCLI, cukup masukkan:
+Jika kamu ingin keluar dari antarmuka ini dan kembali ke menu RoninCLI, cukup masukkan:
 `quit`
 
 Pertama, perlu mengkonfigurasi proxy untuk menggunakan Tor, untuk memastikan kerahasiaan saat mengekstrak data dari OXT. Masukkan perintah:
 `socks5 127.0.0.1:9050`
-Selanjutnya, lanjutkan untuk mengunduh informasi pool yang berisi transaksi Anda:
+Selanjutnya, lanjutkan untuk mengunduh informasi pool yang berisi transaksi kamu:
 `download 0001`
 Ganti `0001` dengan kode denominasi pool yang Anda minati. Kode denominasi tersebut adalah sebagai berikut di WST:
 - Pool 0.5 bitcoin: `05`
@@ -340,25 +371,25 @@ Ganti `0001` dengan kode denominasi pool yang Anda minati. Kode denominasi terse
 - Pool 0.01 bitcoin: `001`
 - Pool 0.001 bitcoin: `0001`
 
-Setelah mengunduh, muat data dengan mengganti `0001` dengan kode pool Anda dalam perintah ini: `load 0001`
+Setelah mengunduh, muat data dengan mengganti `0001` dengan kode pool kamu dalam perintah ini: `load 0001`
 
 ![WST loading](assets/notext/46.webp)
 
-Tunggu hingga proses pemuatan selesai, yang mungkin memakan waktu beberapa menit. Setelah data dimuat, untuk mengetahui skor anonset koin Anda, eksekusi perintah `score` diikuti oleh TXID Anda (tanpa tanda kurung):
+Tunggu sampai proses pemuatan selesai, yang bisa memakan waktu beberapa menit. Setelah datanya siap, untuk mengetahui skor anonset koin kamu, jalankan perintah `score` diikuti oleh TXID kamu (tanpa tanda kurung).
 `score [TXID]`
 
 ![WST score](assets/notext/47.webp)
 
-WST kemudian akan menampilkan skor retrospektif (_Backward-looking metrics_), diikuti oleh skor prospektif (_Forward-looking metrics_). Selain skor anonset, WST juga akan menunjukkan tingkat difusi transaksi Anda dalam pool, relatif terhadap anonsetnya.
+WST kemudian akan menampilkan skor retrospektif (_Backward-looking metrics_), diikuti oleh skor prospektif (_Forward-looking metrics_). Selain skor anonset, WST juga akan menunjukkan tingkat difusi transaksimu dalam pool, relatif terhadap anonsetnya.
 
-**Penting untuk dicatat bahwa skor prospektif koin Anda harus dihitung dari TXID mix awal Anda, dan bukan dari mix terbaru Anda. Sebaliknya, skor retrospektif dari UTXO dihitung dari TXID siklus terakhir.**
+**Penting untuk dicatat bahwa skor prospektif koin harus dihitung dari TXID mix awal, dan bukan dari mix terbaru. Sebaliknya, skor retrospektif dari UTXO dihitung dari TXID siklus terakhir.**
 
 ### Menggunakan Kalkulator Boltzmann
-Kalkulator Boltzmann adalah alat untuk menganalisis transaksi Bitcoin, menawarkan kemampuan untuk mengukur tingkat entropinya di antara metrik canggih lainnya. Data ini memberikan penilaian kuantitatif tentang privasi transaksi dan membantu mengidentifikasi potensi kelemahan. Alat ini sudah terintegrasi ke dalam node RoninDojo Anda, membuatnya mudah diakses dan digunakan.
+Kalkulator Boltzmann adalah alat untuk menganalisis transaksi Bitcoin, yang memungkinkan kamu mengukur tingkat entropinya dan berbagai metrik canggih lainnya. Data ini memberikan penilaian kuantitatif tentang privasi sebuah transaksi dan membantu mengidentifikasi potensi kelemahannya. Alat ini sudah terintegrasi ke dalam node RoninDojo kamu, sehingga mudah diakses dan digunakan.
 
-Sebelum menjelaskan prosedur penggunaan Kalkulator Boltzmann, penting untuk memahami makna indikator-indikator ini, metode perhitungannya, dan kegunaannya. Meskipun berlaku untuk transaksi Bitcoin apa pun, indikator-indikator ini khususnya berguna untuk menilai kualitas transaksi coinjoin.
+Sebelum aku menjelaskan cara menggunakan Kalkulator Boltzmann, penting untuk memahami dulu makna indikator-indikator ini, bagaimana perhitungannya, dan apa kegunaannya. Walaupun indikator-indikator ini bisa diterapkan pada transaksi Bitcoin apa pun, mereka sangat berguna untuk menilai kualitas transaksi coinjoin.
 
-**Indikator pertama** yang dihitung oleh perangkat lunak adalah jumlah total kombinasi yang mungkin, ditunjukkan di bawah `nb combinations` dalam alat tersebut. Berdasarkan nilai UTXO yang terlibat, indikator ini mengkuantifikasi jumlah cara di mana input dapat dikaitkan dengan output. Dengan kata lain, ini menentukan jumlah interpretasi yang masuk akal yang dapat dihasilkan oleh transaksi. Sebagai contoh, coinjoin yang terstruktur menurut model Whirlpool 5x5 menyajikan `1496` kombinasi yang mungkin:
+**Indikator pertama** yang dihitung oleh perangkat lunak adalah jumlah total kombinasi yang mungkin, ditunjukkan di bawah `nb combinations` dalam alat tersebut. Berdasarkan nilai UTXO yang terlibat, indikator ini mengkuantifikasi jumlah cara input dapat dikaitkan dengan output. Dengan kata lain, indikator ini menentukan berapa banyak interpretasi yang masuk akal yang bisa dihasilkan dari sebuah transaksi.Sebagai contoh, coinjoin yang terstruktur menurut model Whirlpool 5x5 menyajikan `1496` kombinasi yang mungkin:
 ![combinations](assets/notext/50.webp)
 Kredit: KYCP
 
@@ -370,7 +401,7 @@ Dalam matematika, logaritma biner (logaritma basis 2) sesuai dengan operasi inve
 $$ E = \log_2(1496) $$
 $$ E \approx 10.5469 \text{ bit}$$
 
-Dengan demikian, transaksi coinjoin ini menampilkan entropi sebesar 10.5469 bit, yang dianggap sangat memuaskan. Semakin tinggi nilai ini, semakin banyak interpretasi berbeda yang diakui transaksi, sehingga meningkatkan tingkat privasinya.
+Dengan demikian, transaksi coinjoin ini menampilkan entropi sebesar 10.5469 bit, yang dianggap sangat memuaskan. Semakin tinggi nilai ini, semakin banyak interpretasi berbeda yang diakui oleh transaksi, sehingga meningkatkan tingkat privasinya.
 
 Mari kita ambil contoh tambahan dengan transaksi yang lebih konvensional, yang memiliki satu input dan dua output: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/en/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 Dalam kasus transaksi ini, satu-satunya interpretasi yang mungkin adalah: `(inp 0) > (Outp 0 ; Outp 1)`. Akibatnya, entropinya ditetapkan pada `0`:
@@ -421,16 +452,18 @@ Di sini, kita melihat bahwa probabilitas untuk setiap output berasal dari input 
 
 **Informasi keenam** yang disediakan adalah jumlah tautan deterministik, dilengkapi dengan rasio tautan ini. Indikator ini mengungkapkan berapa banyak koneksi antara input dan output dalam transaksi yang dianalisis adalah tidak dapat disangkal, dengan probabilitas 100%. Rasio, pada gilirannya, menawarkan perspektif tentang bobot tautan deterministik ini dalam total tautan transaksi.
 
-Sebagai contoh, transaksi coinjoin tipe Whirlpool tidak menampilkan tautan deterministik, dan oleh karena itu menampilkan indikator dan rasio 0%. Di sisi lain, dalam transaksi kedua yang kami periksa (dengan satu input dan dua output), indikatornya ditetapkan pada 2 dan rasionya mencapai 100%. Dengan demikian, indikator nol menandakan kerahasiaan yang sangat baik berkat ketiadaan tautan langsung dan tidak dapat disangkal antara input dan output.
-**Cara Mengakses Kalkulator Boltzmann di RoninDojo?**Untuk mengakses alat *Boltzmann Calculator*, buka RoninCLI. Untuk melakukan ini, buka terminal pada komputer pribadi Anda dan buat koneksi SSH dengan node Anda menggunakan perintah berikut: `SSH ronindojo@[IP]`
+Sebagai contoh, transaksi coinjoin tipe Whirlpool tidak menampilkan tautan deterministik, sehingga indikator dan rasionya bernilai 0%. Di sisi lain, pada transaksi kedua yang kita periksa (dengan satu input dan dua output), indikatornya bernilai 2 dan rasionya mencapai 100%. Dengan demikian, indikator nol menunjukkan kerahasiaan yang sangat baik berkat tidak adanya tautan langsung dan tidak dapat disangkal antara input dan output.
+
+**Cara Mengakses Kalkulator Boltzmann di RoninDojo?**
+Untuk mengakses alat Boltzmann Calculator, buka RoninCLI. Untuk melakukannya, buka terminal di komputer kamu dan lakukan koneksi SSH ke node kamu menggunakan perintah berikut: `SSH ronindojo@[IP]`
 
 Jika, misalnya, alamat IP node Anda adalah `192.168.1.40`, perintah yang tepat adalah:
 `SSH ronindojo@192.168.1.40`
 
-Jika Anda mengubah nama pengguna Anda selama langkah 6, menggantikan nama pengguna default (`ronindojo`) dengan yang lain, pastikan untuk menggunakan nama baru ini dalam perintah. Misalnya, jika Anda memilih `planb` sebagai nama pengguna Anda dan alamat IP adalah `192.168.1.40`, perintah yang harus dimasukkan adalah:
+Kalau kamu mengubah nama pengguna selama langkah 6, menggantikan nama pengguna default (`ronindojo`) dengan yang lain, pastikan untuk menggunakan nama baru ini dalam perintah. Misalnya, jika kamu memilih `planb` sebagai nama pengguna dan alamat IP adalah `192.168.1.40`, perintah yang harus dimasukkan adalah:
 `SSH planb@192.168.1.40`
 
-Anda akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan kemudian tekan `enter` untuk memvalidasi. Anda kemudian akan mengakses antarmuka RoninCLI. Gunakan panah pada keyboard Anda untuk menavigasi ke menu `Samourai Toolkit` dan tekan `enter` untuk memilihnya:
+Kamu akan diminta untuk memasukkan kata sandi pengguna. Masukkan dan kemudian tekan `enter` untuk memvalidasi. Kamu kemudian akan mengakses antarmuka RoninCLI. Gunakan panah pada keyboard kamu untuk menavigasi ke menu `Samourai Toolkit` dan tekan `enter` untuk memilihnya:
 
 ![Samourai Toolkit](assets/notext/43.webp)
 
@@ -438,38 +471,41 @@ Kemudian pilih `Boltzmann Calculator`:
 
 ![boltzmann](assets/notext/49.webp)
 
-Anda akan tiba di halaman utama perangkat lunak:
+Kamu akan tiba di halaman utama perangkat lunak:
 
 ![boltzmann home](assets/notext/51.webp)
 
-Masukkan TXID dari transaksi yang ingin Anda pelajari dan tekan tombol `enter`:
+Masukkan TXID dari transaksi yang ingin kamu pelajari dan tekan tombol `enter`:
 
 ![boltzmann txid](assets/notext/52.webp)
 
-Kalkulator kemudian menyediakan Anda dengan semua indikator yang telah kami bahas sebelumnya:
+Kalkulator kemudian menyediakan kamu dengan semua indikator yang telah kami bahas sebelumnya:
 
 ![boltzmann result](assets/notext/53.webp)
 
 ### Fitur Lain dari RoninDojo v2 Anda
-Node RoninDojo Anda mengintegrasikan berbagai fitur lain. Khususnya, Anda memiliki kemampuan untuk memindai informasi spesifik untuk memperhitungkannya. Misalnya, terkadang dompet Samourai Anda, yang terhubung ke RoninDojo, mungkin tidak menampilkan bitcoin yang sebenarnya Anda miliki. Jika saldo menunjukkan 0 sementara Anda yakin memiliki bitcoin di dompet ini, beberapa alasan dapat menjelaskan situasi ini, seperti kesalahan dalam jalur derivasi. Tapi salah satu penyebabnya juga bisa karena node Anda tidak memantau alamat Anda dengan benar. Untuk menyelesaikan masalah ini, Anda dapat memastikan bahwa node Anda memang mengikuti `xpub` Anda menggunakan _xpub tool_. Untuk mengakses alat ini melalui RoninUI, ikuti jalur:
+Node RoninDojo kamu mengintegrasikan berbagai fitur lain. Khususnya, kamu bisa memindai informasi tertentu agar ikut diperhitungkan. Misalnya, kadang dompet Samourai kamu yang terhubung ke RoninDojo tidak menampilkan bitcoin yang sebenarnya kamu miliki. Jika saldo menunjukkan 0 padahal kamu yakin ada bitcoin di dompet itu, ada beberapa kemungkinan penyebabnya, seperti kesalahan jalur derivasi. Tapi salah satu penyebab lainnya bisa jadi node kamu tidak memantau alamat kamu dengan benar.
+
+Untuk menyelesaikan masalah ini, kamu bisa memastikan bahwa node kamu memang mengikuti `xpub` kamu menggunakan _xpub tool._ Untuk mengakses alat ini lewat RoninUI, ikuti jalur:
+
 `Maintenance > XPUB Tool`
 
 Masukkan `xpub` yang menyebabkan masalah dan klik tombol `Check` untuk memverifikasi informasi ini:
 ![xpub tool](assets/notext/54.webp)
-Pastikan semua transaksi terdaftar dengan benar. Juga penting untuk memverifikasi bahwa jenis derivasi yang digunakan cocok dengan dompet Anda. Jika ini bukan kasusnya, klik pada `Retype`, kemudian pilih dari `BIP44`, `BIP49`, atau `BIP84` sesuai dengan kebutuhan Anda.
+Pastikan semua transaksi terdaftar dengan benar. Juga penting untuk memverifikasi bahwa jenis derivasi yang digunakan cocok dengan dompet milikmu. Jika ini bukan kasusnya, klik pada `Retype`, kemudian pilih dari `BIP44`, `BIP49`, atau `BIP84` sesuai dengan kebutuhan kamu.
 Di luar alat ini, tab `Maintenance` dari RoninUI penuh dengan fitur berguna lainnya:
 - *Transaction Tool*: Memungkinkan pemeriksaan detail dari transaksi tertentu;
-- *Address Tool*: Memungkinkan konfirmasi pelacakan alamat tertentu oleh Dojo Anda;
-- *Rescan Blocks*: Memaksa node Anda untuk melakukan pemindaian ulang rentang blok tertentu.
+- *Address Tool*: Memungkinkan konfirmasi pelacakan alamat tertentu oleh Dojo kamu;
+- *Rescan Blocks*: Memaksa node kamu untuk melakukan pemindaian ulang rentang blok tertentu.
 
 Tab `Push Tx` adalah fitur menarik lainnya dari RoninUI, yang memungkinkan penayangan transaksi yang telah ditandatangani di jaringan Bitcoin. Transaksi harus dimasukkan dalam bentuk heksadesimal.
-Mengenai tab lain yang tersedia di dashboard RoninUI Anda:
+Mengenai tab lain yang tersedia di dashboard RoninUI kamu:
 - `Apps`: Menampung aplikasi Whirlpool, dan pasti akan digunakan untuk mengintegrasikan aplikasi baru di masa depan;
-- `Logs`: Menawarkan akses real-time ke log event dari perangkat lunak Anda;
-- `System Info`: Memberikan informasi umum tentang node Anda, seperti suhu CPU, penggunaan ruang penyimpanan, atau data RAM. Anda juga akan menemukan opsi `Reboot` dan `Shut down` untuk memulai ulang atau mematikan node Anda;
-- `Settings`: Memungkinkan Anda untuk mengubah password pengguna Anda.
+- `Logs`: Menawarkan akses real-time ke log event dari perangkat lunak kamu;
+- `System Info`: Memberikan informasi umum tentang node kamu, seperti suhu CPU, penggunaan ruang penyimpanan, atau data RAM. kamu juga akan menemukan opsi `Reboot` dan `Shut down` untuk memulai ulang atau mematikan node;
+- `Settings`: Memungkinkan kamu untuk mengubah password pengguna kamu.
 
-Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika Anda menikmatinya, saya mendorong Anda untuk membagikannya di media sosial. Selain itu, jika Anda memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Untuk memperdalam pengetahuan Anda tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
+Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika kamu menikmatinya, saya mendorong kamu untuk membagikannya di media sosial. Selain itu, jika kamu memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Untuk memperdalam pengetahuan kamu tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
 
 **Sumber daya eksternal:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)

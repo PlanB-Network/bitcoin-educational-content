@@ -6,4 +6,4 @@ wrong_answers:
   - Alta disponibilidad
 explanation: |
   El bus se basa en un único medio físico, lo que reduce los costes de instalación pero también introduce un único punto de fallo.
-reviewed: false
+reviewed: true

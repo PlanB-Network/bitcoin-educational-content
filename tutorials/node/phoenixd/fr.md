@@ -7,44 +7,44 @@ description: Déployez votre propre nœud Lightning minimaliste avec Phoenixd
 
 L'autonomie financière passe aussi par la maîtrise de son infrastructure Lightning. Pour les développeurs et entreprises souhaitant intégrer Bitcoin Lightning dans leurs applications, **Phoenixd** représente la solution idéale : un nœud Lightning minimaliste et spécialisé avec gestion automatique de la liquidité.
 
-Phoenixd est un serveur Lightning développé par ACINQ, conçu spécifiquement pour l'envoi et la réception de paiements Lightning via une API HTTP. Contrairement aux implémentations complètes comme LND ou Core Lightning, Phoenixd abstrait toute la complexité de gestion des canaux tout en préservant l'auto-garde de vos fonds.
+Phoenixd est un serveur Lightning créé par ACINQ, conçu pour permettre l'envoi et la réception de paiements Lightning grâce à une simple API HTTP. Contrairement aux implémentations complètes comme LND ou Core Lightning, Phoenixd simplifie totalement la gestion des canaux tout en vous laissant la pleine propriété de vos fonds.
 
-Dans ce tutoriel, nous verrons comment installer, configurer et utiliser Phoenixd pour développer des applications Lightning avec une infrastructure auto-hébergée et une API simple d'utilisation.
+Dans ce tutoriel, nous allons installer, configurer et utiliser Phoenixd afin de développer des applications Lightning sur une infrastructure auto-hébergée tout en bénéficiant d'une API simple à exploiter.
 
 ## Qu'est-ce que Phoenixd ?
 
-Phoenixd est un nœud Lightning minimal et spécialisé développé par ACINQ. Il s'agit d'une solution conçue pour les développeurs et entreprises qui souhaitent intégrer Lightning dans leurs applications sans la complexité de gestion d'un nœud complet.
+Phoenixd est un nœud Lightning minimaliste développé par ACINQ. Il s'agit d'une solution conçue pour les développeurs et entreprises qui souhaitent intégrer Lightning dans leurs applications sans la complexité de gestion d'un nœud complet.
 
 ### Principe de fonctionnement
 
-**Architecture spécialisée :** Phoenixd est un nœud Lightning minimal qui utilise ACINQ comme LSP (Lightning Service Provider) pour la liquidité automatique. Lorsque vous recevez des paiements Lightning, il ouvre automatiquement des canaux avec les nœuds d'ACINQ pour vous allouer la capacité entrante nécessaire. Cette liquidité "à la volée" est instantanée mais facturée exactement **1% + frais de minage** du montant reçu.
+**Architecture spécialisée :** Phoenixd est un nœud Lightning minimal qui s'appuie sur ACINQ en tant que LSP (Lightning Service Provider) pour fournir automatiquement la liquidité nécessaire. Lorsqu'un paiement Lightning arrive, Phoenixd ouvre automatiquement des canaux avec les nœuds d'ACINQ afin de vous donner la capacité entrante nécessaire. Cette liquidité "à la volée" est instantanée mais facturée exactement **1% + frais de minage** du montant reçu.
 
-**Gestion automatisée :** Le système gère trois éléments clés :
-- **Canaux Lightning** : Ouverture, fermeture et gestion automatique selon les besoins
+**Gestion automatisée :** Le système prend en compte trois éléments essentiels :
+- **Canaux Lightning** : Ouverture, fermeture et ajustement automatique selon les besoins
 - **Liquidité entrante/sortante** : Provisionnement automatique via splicing et ouverture de canaux
-- **Crédit de frais** : Les petits paiements insuffisants pour justifier un canal sont stockés comme provision pour les frais futurs
+- **Crédit de frais** : Les petits montants reçus pour justifier un canal, sont stockés comme provision pour les frais futurs
 
 ### Avantages de Phoenixd
 
-**Auto-garde complète :** Vous contrôlez vos clés privées (seed de 12 mots) et vos fonds. Phoenixd génère votre portefeuille localement sans jamais partager vos clés.
+**Auto-garde complète :** Vous conservez la maîtrise de vos clés privées (seed de 12 mots) et vos fonds. Phoenixd génère votre portefeuille localement et ne communique jamais vos clés à un tiers.
 
-**Infrastructure personnelle :** Phoenixd tourne sur votre serveur, vous donnant accès aux logs détaillés, à la configuration et au contrôle de l'API. Vous n'êtes plus dépendant d'un service tiers pour l'accès à vos fonds.
+**Infrastructure personnelle :** Phoenixd tourne sur votre serveur, vous donnant accès aux logs détaillés, à la configuration et au contrôle de l'API. Vous gardez ainsi un accès direct à vos fonds sans dépendre d’un service externe.
 
-**API intégrée :** Phoenixd expose une API HTTP permettant l'intégration avec d'autres services, le support LNURL natif et le développement d'applications personnalisées.
+**API intégrée :** Phoenixd propose une API HTTP qui facilite l'intégration avec d'autres services, le support natif de LNURL et le développement d'applications personnalisées.
 
-**Facilité d'intégration :** Grâce à son API REST simple, Phoenixd peut être intégré dans n'importe quelle application ou service nécessitant des paiements Lightning.
+**Facilité d'intégration :** Grâce à son API REST simple à utiliser, Phoenixd peut être intégré dans n'importe quelle application ou service nécessitant la prise en charge des paiements Lightning.
 
-**Note importante :** La liquidité automatique provient toujours d'ACINQ comme LSP (Lightning Service Provider). Phoenixd utilise le même mécanisme que Phoenix mobile pour la gestion automatique des canaux.
+**Note importante :** La liquidité automatique provient toujours d'ACINQ comme LSP (Lightning Service Provider). Phoenixd utilise le même système que l'application mobile Phoenix pour gérer automatiquement des canaux.
 
 ## Installation de Phoenixd
 
 ### Prérequis
 
-Phoenixd nécessite un environnement Linux (Ubuntu/Debian recommandé), avec quelques compétences de base en ligne de commande. Pour un fonctionnement optimal, prévoyez :
+Phoenixd nécessite un environnement Linux (Ubuntu/Debian recommandé), avec quelques notions de base en ligne de commande. Pour garantir un fonctionnement optimal, prévoyez :
 
-- **Serveur Linux** : VPS ou machine locale avec connexion stable
+- **Serveur Linux** : VPS ou machine locale avec connexion fiable
 - **OpenJDK 21** : Environnement d'exécution Java
-- **Connexion internet stable** : Pour la synchronisation avec le réseau Lightning
+- **Connexion internet stable** : indispensable pour rester synchronisé avec le système Lightning
 - **Nom de domaine** (optionnel) : Pour l'accès HTTPS sécurisé à l'API
 
 ### Téléchargement et installation
@@ -69,7 +69,7 @@ Lancez Phoenixd pour l'initialisation :
 ./phoenixd
 ```
 
-Au premier lancement, vous devrez confirmer deux étapes importantes en tapant "I understand" :
+ Lors du premier lancement, Phoenixd vous demandera de valider deux étapes importantes en tapant "I understand" :
 
 **Message 1 - Sauvegarde :**
 ```
@@ -78,7 +78,7 @@ Your 12-words seed is located in /home/<user>/.phoenix, make sure to do a backup
 Do not share the same seed with other phoenix instances (mobile or server), it will cause issues and channel force closes.
 ```
 
-**Sauvegardez impérativement ces 12 mots** - c'est votre seule garantie de récupération.
+**Sauvegardez impérativement ces 12 mots** - c'est votre seule garantie pour récupérer vos fonds.
 
 **Message 2 - Liquidité automatique :**
 ```
@@ -99,7 +99,7 @@ Tapez `I understand` pour chaque confirmation.
 
 **3. Configuration en service**
 
-Pour un fonctionnement en continu, créez un service systemd :
+Pour garantir un fonctionnement en continu, créez un service systemd :
 
 ```bash
 sudo nano /etc/systemd/system/phoenixd.service
@@ -165,20 +165,20 @@ Par défaut, l'API Phoenixd n'est accessible qu'en HTTP local (`http://127.0.0.1
 Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 ```
 
-**Nginx** agit comme un **proxy inverse** : il écoute les requêtes HTTPS depuis Internet sur le port 443, les redirige vers Phoenixd en local (port 9740), puis renvoie les réponses chiffrées au client.
+**Nginx** fonctionne comme un **proxy inverse** : il reçoit les requêtes HTTPS provenant d'Internet sur le port 443, les transfère vers Phoenixd en local (port 9740), puis renvoie les réponses chiffrées au client.
 
 **Le certificat SSL/TLS** est un fichier numérique qui :
 - **Prouve l'identité** de votre serveur (évite les attaques man-in-the-middle)
-- **Active le chiffrement HTTPS** : toutes les données, y compris vos mots de passe API, sont chiffrées pendant le transport
+- **Active le chiffrement HTTPS** : ce qui sécurise toutes les données, y compris vos mots de passe API, sont chiffrées pendant leur transfert
 - **Délivré gratuitement** par Let's Encrypt via l'outil certbot
 
 Cette configuration permet de :
 - **Accéder à l'API depuis Internet** de manière sécurisée
-- **Chiffrer vos mots de passe API** pendant le transport (éviter qu'ils transitent en clair)
-- **Intégrer Phoenixd** dans des applications externes nécessitant HTTPS
+- **Chiffrer vos mots de passe API** pendant les échanges (éviter qu'ils transitent en clair)
+- **Intégrer Phoenixd** dans des applications externes exigeant HTTPS
 - **Respecter les standards de sécurité** pour les APIs financières
 
-Configurez ce proxy inverse HTTPS avec nginx :
+Configurez maintenant le proxy inverse HTTPS à l'aide de nginx :
 
 **1. Configuration nginx**
 
@@ -220,7 +220,7 @@ Vérifiez que Phoenixd fonctionne correctement :
 ./phoenix-cli getbalance
 ```
 
-Ces commandes devraient retourner des informations JSON sur l'état du nœud et le solde (vide initialement).
+Ces commandes doivent renvoyer des informations JSON sur l'état du nœud ainsi que le solde (vide initialement).
 
 ![Commandes CLI](assets/fr/03.webp)
 
@@ -232,7 +232,7 @@ Ces commandes devraient retourner des informations JSON sur l'état du nœud et 
 
 **1. Créer une facture Lightning**
 
-Utilisez l'API pour créer votre première facture :
+Utilisez l'API pour générer votre première facture :
 
 ```bash
 curl -X POST http://localhost:9740/createinvoice \
@@ -243,7 +243,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 ### Comprendre le mécanisme de liquidité automatique
 
-**Principe fondamental :** Lorsque vous recevez un paiement Lightning, Phoenixd doit parfois ouvrir un nouveau canal pour avoir la capacité de le recevoir. Cette ouverture de canal coûte des frais qui sont **automatiquement déduits** du montant reçu.
+**Principe fondamental :** Lorsqu'un paiement Lightning arrive, Phoenixd peut avoir besoins d'ouvrir automatiquement un canal pour avoir la capacité de le recevoir. Cette ouverture de canal entraîne des frais qui sont **automatiquement déduits** du montant reçu.
 
 **Exemple concret avec 100 000 sats :**
 
@@ -276,9 +276,9 @@ curl -X POST http://localhost:9740/createinvoice \
 
 ![Nouveau solde après paiement](assets/fr/05.webp)
 
-*Solde final après paiement envoyé : 257 sats restants après avoir effectué un envoi Lightning*
+*Solde final après envoi : 257 sats restants après avoir effectué un envoi Lightning*
 
-**Fee credit pour petits paiements :** Si vous recevez des paiements trop petits pour justifier l'ouverture d'un canal (< 25k sats environ), ils sont stockés dans un "crédit de frais" non remboursable. Ce crédit servira à payer les frais d'un canal futur quand vous recevrez un montant suffisant.
+**Fee credit pour petits paiements :** Si vous recevez des montants trop faibles pour justifier l'ouverture d'un canal (< 25k sats environ), ils sont placés dans un "crédit de frais" non remboursable. Ce crédit sera utilisé pour payer les frais d'un canal futur lorsque vous recevrez un montant suffisant.
 
 **2. Suivre l'ouverture de canal**
 
@@ -288,7 +288,7 @@ Surveillez les logs de Phoenixd :
 journalctl -u phoenixd -f
 ```
 
-Vous verrez l'ouverture du canal et la déduction automatique des frais de liquidité. Les frais varient selon les conditions du mempool Bitcoin mais incluent toujours 1% de frais de service plus les frais de minage actuels.
+Vous verrez l'ouverture du canal et la déduction automatique des frais de liquidité. Les frais varient en fonction des conditions du mempool Bitcoin mais incluent toujours 1% de frais de service plus les frais de minage du moment.
 
 **3. Vérifier le canal**
 
@@ -296,7 +296,7 @@ Vous verrez l'ouverture du canal et la déduction automatique des frais de liqui
 ./phoenix-cli listchannels
 ```
 
-Cette commande affiche vos canaux actifs avec leur état et leur solde.
+Cette commande affiche la liste de vos canaux actifs avec leur état et leur solde .
 
 ### Opérations API complètes
 
@@ -327,12 +327,12 @@ curl http://localhost:9740/getbalance \
 ```
 
 **Important sur les frais :** 
-- **Réception** : 1% + frais de minage pour la liquidité automatique
+- **Réception** : 1% + frais de minage pour bénéficier de la liquidité automatique
 - **Envoi** : 0.4% de frais de routage sur le réseau Lightning
 
-**Webhooks :** Les webhooks permettent à Phoenixd de **notifier automatiquement** vos applications quand un événement se produit (paiement reçu, facture payée, canal ouvert, etc.). Au lieu de demander constamment à Phoenixd s'il y a du nouveau, votre application reçoit une notification HTTP instantanée.
+**Webhooks :** Les webhooks permettent à Phoenixd de **notifier automatiquement** vos applications lorsqu'un événement se produit (paiement reçu, facture payée, canal ouvert, etc.). Au lieu d'intéroger régulièrement Phoenixd s'il y a du nouveau, votre application reçoit immédiatement une notification HTTP lorsqu'un évènement survient.
 
-**Exemple d'usage :** Votre boutique en ligne reçoit automatiquement une notification quand un client paie sa commande, permettant de valider instantanément la transaction.
+**Exemple d'usage :** Votre boutique en ligne reçoit automatiquement une notification dès q'un client règle sa commande, permettant de valider la transaction immédiatement.
 
 Configuration dans `phoenix.conf` :
 ```conf
@@ -344,7 +344,7 @@ webhook-secret=votre_secret_de_verification
 
 ### Intégrations LNURL
 
-Phoenixd supporte nativement les protocoles LNURL pour des intégrations avancées :
+Phoenixd prend en charge nativement les protocoles LNURL pour des intégrations avancées :
 
 **LNURL-Pay :** Payer des services compatibles LNURL
 ```bash
@@ -379,7 +379,7 @@ PHOENIXD_API_ENDPOINT=http://localhost:9740/
 PHOENIXD_API_PASSWORD=your_password_phoenixd
 ```
 
-Cette intégration permet de créer des sous-comptes LNbits alimentés par votre nœud Phoenixd, offrant une interface web pour gérer multiple wallets Lightning.
+Cette intégration permet de créer des sous-comptes LNbits directement alimentés par votre nœud Phoenixd, offrant une interface web pour gérer plusieurs portefeuilles Lightning.
 
 ### Applications personnalisées
 
@@ -394,17 +394,15 @@ Grâce à son API REST complète, vous pouvez développer :
 
 ### Protection des accès
 
-**Mots de passe API :** Les mots de passe générés automatiquement sont les clés de votre trésorerie Lightning. Ne les partagez jamais et changez-les en cas de doute.
+**Mots de passe API :** Les mots de passe générés automatiquement sont les clés de votre trésorerie Lightning. Ne les partagez jamais et remplacez-les immédiatement en cas de doute.
 
-**Pare-feu :** Ne laissez jamais le port 9740 ouvert directement sur Internet. Utilisez toujours nginx avec HTTPS.
-
-**Authentification renforcée :** Envisagez un VPN ou Tailscale pour limiter l'accès à votre serveur aux seuls appareils autorisés.
+**Pare-feu :** Ne laissez jamais le port 9740 exposé directement sur Internet. Utilisez toujours nginx avec HTTPS.
 
 ### Sauvegardes essentielles
 
-**Seed de récupération :** Sauvegardez vos 12 mots dans un endroit sûr, hors du serveur. C'est votre seule garantie de récupération des fonds.
+**Seed de récupération :** Sauvegardez vos 12 mots dans un endroit sûr, séparé du serveur. C'est votre unique garantie pour rcupérer vos fonds.
 
-**Répertoire ~/.phoenix :** Sauvegardez régulièrement ce dossier (après arrêt de Phoenixd) pour préserver l'état des canaux et accélérer une éventuelle restauration.
+**Répertoire ~/.phoenix :** Sauvegardez régulièrement ce dossier (après arrêt de Phoenixd) afin de conserver l'état des canaux et faciliter une éventuelle restauration.
 
 **Codes de récupération des services :** Conservez également les codes de secours de tous les services où vous activez la 2FA avec votre Phoenix.
 
@@ -470,24 +468,24 @@ journalctl -u phoenixd -f  # Real-time logs
 ### Problèmes de liquidité
 
 **Paiements qui n'arrivent pas :**
-1. Vérifiez que le montant dépasse le seuil minimal (~30k sats)
-2. Consultez les logs pour identifier les erreurs de canal
+1. Assurez-vous que le montant dépasse le seuil minimal (~30k sats)
+2. Consultez les logs pour répérer d'éventuelles erreurs liées aux canaux
 3. Redémarrez Phoenixd si nécessaire
 
 **Solde en "crédit de frais" :**
-Les petits paiements sont stockés comme provision. Recevez un montant plus important pour déclencher l'ouverture de canal et débloquer ces fonds.
+Les petits paiements sont placés en réserve. Recevez un montant plus élevé pour déclencher l'ouverture de canal et débloquer ces fonds.
 
 ## Conclusion
 
-Phoenixd représente un excellent compromis entre simplicité d'usage et souveraineté technique pour les développeurs. Il offre une API Lightning simple et puissante avec gestion automatique de la liquidité, éliminant la complexité des nœuds Lightning traditionnels.
+Phoenixd constitue un excellent compromis entre simplicité d'usage et souveraineté technique pour les développeurs. Il fournit une API Lightning à la foid simple et robuste avec gestion automatique de la liquidité, éliminant la complexité des nœuds Lightning traditionnels.
 
-Cette solution convient particulièrement aux développeurs et entreprises souhaitant :
+Cette solution est particulière adaptée aux développeurs et entreprises souhaitant :
 - Intégrer Bitcoin Lightning dans leurs applications
-- Éviter la complexité de gestion des canaux Lightning
+- Se passer de la gestion complexe des canaux Lightning
 - Bénéficier d'une infrastructure auto-hébergée
 - Disposer d'une API simple et fiable
 
-Avec Phoenixd, vous construisez votre propre infrastructure Lightning privée avec une API REST moderne et une gestion automatique des aspects techniques. C'est la solution idéale pour démocratiser l'intégration de Lightning dans vos projets.
+Avec Phoenixd, vous déployez votre propre infrastructure Lightning privée avec une API REST moderne et une gestion automatisée des aspects techniques. C'est la solution idéale pour simplifier et démocratiser l'intégration de Lightning dans vos projets.
 
 ## Ressources utiles
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Debian
   - Fedora
 explanation: |
-  Cimet je razvijen od strane Linux Mint tima kako bi ponudio moderan, klasičan Interface, blizak Windowsu.
-reviewed: false
+  Cinnamon je razvijen od strane Linux Mint tima kako bi ponudio moderan, klasičan interfejs, blizak Windowsu.
+reviewed: true

@@ -258,7 +258,7 @@ Si le problème persiste, voici quelques solutions possibles :
 ![samourai](assets/30.webp)
 
 - Si le problème de connexion persiste, cela pourrait être dû à une synchronisation incomplète de votre nœud. Assurez-vous que votre nœud et votre indexeur sont synchronisés à 100 %. Si nécessaire en dernier recours, déconnectez votre nœud de Sparrow et connectez-vous à un nœud public ;
-- Si vous étiez déjà connecté à un nœud public et que la connexion échoue, tentez de changer de nœud en en sélectionnant un autre dans la liste déroulante.
+- Si vous étiez déjà connecté à un nœud public et que la connexion échoue, tentez de changer de nœud en sélectionnant un autre dans la liste déroulante.
 
 ![samourai](assets/31.webp)
 

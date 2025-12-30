@@ -5,13 +5,13 @@ description: Explorez et analysez le Lightning Network
 
 ![cover](assets/cover.webp)
 
-Le Lightning Network est une couche du protocole Bitcoin qui a été principalement développé pour favoriser l'adoption des paiements Bitcoin au quotidien en augmentant la vitesse de traitement de chaque transaction. En se basant sur le principe de la décentralisation, le Lightning Network se constitue de nœuds (ordinateurs tournant une implémentation Lightning) communiquant pair-à-pair en se relayant des données (paiements et vérification de paiement).
+Le Lightning Network est une couche ajoutée au protocole Bitcoin, principalement conçue pour favoriser l'adoption des paiements quotidiens en Bitcoin. Il permet d'augmenter considérablement la vitesse de traitement de chaque transaction. Fondé sur le principe de la décentralisation, le Lightning Network fonctionne grâce à un réseau de nœuds (des ordinateurs exécutant une implémentation Lightning) communiquant pair-à-pair en se relayant des données (paiements et vérification de paiement).
 
 https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
-Tout comme sur la chaîne principale, permettre aux utilisateurs de connaitre les informations et l'état du réseau est devenu primordial afin de faciliter les connexions entre les nœuds et de réduire au maximum le problème de liquidités qui se pose généralement dans le réseau. En effet, sur le Lightning Network, nous préconisons les micro-paiements d'un montant relativement moins conséquent que celles des transactions sur la chaîne principale de Bitcoin.
+Tout comme sur la chaîne principale, il est essentiel de permettre aux utilisateurs d’accéder aux informations et à l'état du réseau. Cela facilite les connexions entre les nœuds et de réduire au maximum les problèmes de liquidités qui se pose fréquents sur le réseau. En effet, sur le Lightning Network, nous privilégions les micro-paiements, dont les montants sont relativement moins conséquent que ceux des transactions sur la chaîne principale de Bitcoin.
 
-Il est important de noter que tous les nœuds du Lightning ne sont pas disponibles sur la plateforme Amboss.
+Il est important de noter que tous les nœuds du Lightning ne sont pas répertoriés sur la plateforme Amboss.
 
 Au même titre que [Mempool Space](https://mempool.space) qui recense les informations utiles sur la chaîne principale du protocole Bitcoin, depuis 2022, [Amboss](https://amboss.space) vous permet d'avoir des informations sur :
 
@@ -22,12 +22,12 @@ Au même titre que [Mempool Space](https://mempool.space) qui recense les inform
 
 https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-Dans ce tutoriel, nous vous amenons à la découverte de cette plateforme qui constitue une ressource essentielle pour vous qui êtes utilisateur du Lightning Network, vous qui souhaitez connecter votre nœud pour agrandir le réseau, etc.
+Dans ce tutoriel, nous vous présentons cette plateforme, une ressource essentielle pour tous les utilisateurs du Lightning Network, vous qui souhaitez explorer ses fonctionnalités, et connecter votre nœud pour agrandir le réseau, etc.
 
 
 ## Trouver des paires
 
-L'un des objectifs de la plateforme Amboss est de pouvoir permettre aux différents nœuds du réseau de pouvoir se connecter et de pouvoir communiquer des informations entre eux. Sur la page d'accueil de la plateforme, vous pouvez directement rechercher le nom d'un nœud que vous connaissez déjà ou retrouver des nœuds des portefeuilles Lightning les plus populaires que vous utilisez.
+L'un des objectifs de la plateforme Amboss est de permettre aux différents nœuds du réseau de se connecter et d'échanger des informations entre eux. Depuis la page d'accueil de la plateforme, vous pouvez directement rechercher le nom d'un nœud que vous connaissez déjà ou retrouver des nœuds des portefeuilles Lightning les plus populaires que vous utilisez.
 
 ![home](assets/fr/01.webp)
 
@@ -35,9 +35,9 @@ L'un des objectifs de la plateforme Amboss est de pouvoir permettre aux différe
 
 https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-Sur la page d'accueil, vous retrouverez également les nœuds classés en fonction de :
+Sur la page d'accueil, vous trouverez également les nœuds classés en selon :
 - L'évolution de la capacité : la quantité de bitcoin associée à la clé publique du nœud et le total disponible dans l'ensemble de ses canaux.
-- L'évolution du nombre de canal : Le nombre de nouvelles connexions avec les autres nœuds du réseau.
+- L'évolution du nombre de canaux : Le nombre de nouvelles connexions établies avec d'autres nœuds du réseau.
 - La popularité du nœud : la fréquence d'utilisation de ce nœud.
 
 ![nodes](assets/fr/03.webp)
@@ -50,9 +50,9 @@ Choisir un bon nœud auquel se connecter revient donc à vérifier les critères
 
 - S'assurer que le nœud est actif et encore apprécié par ses paires en vérifiant le nombre de nouveaux canaux ; plus  ce nœud a de nouveaux canaux ouverts, plus il  est apprécié par les autres nœuds du réseau.
 
-Une fois votre bon nœud trouvé, vous pouvez cliquer sur son nom pour être redirigé sur la page d'informations du nœud.
+Une fois le nœud idéal identifié, Cliquez sur son nom pour accéder à sa page d'informations.
 
-Sur cette interface, en vérifiant l'horodatage du canal récemment créé, vous avez un indice sur l'activité de ce nœud. Vous retrouverez également les informations sur la capacité des canaux de ce nœud : cette information est capitale pour vous qui souhaitez utiliser activement ce nœud pour faire vos paiements.
+Sur cette interface, vous pouvez vérifier l'horodatage du dernier canal ouvert, vous avez un indice sur l'activité du nœud. Vous y verrez aussi les détails concernant la capacité ses canaux : cette information est capitale pour vous qui souhaitez utiliser activement ce nœud pour faire vos paiements.
 
 
 ![node_info](assets/fr/04.webp)
@@ -71,21 +71,21 @@ Cette interface vous indique l'adresse de connexion à ce nœud : elle se prése
 
 ![geoinfo](assets/fr/06.webp)
 
-Dans la section **Canaux**, vous verrez la liste des canaux ouverts et les connexions du nœud avec les autres nœuds du réseau. Sur cette interface, plusieurs informations nous sont capitales pour confirmer que ce nœud correspond à nos besoins ou est fiable :
+Dans la section **Canaux**, vous verrez la liste des canaux ouverts ainsi que les connexions du nœud avec les autres nœuds du réseau. Sur cette interface, plusieurs informations essentielles permettent de vérifier si ce nœud correspond à vos besoins et s’il est fiable :
 
-- **Le ratio entrant** : Le montant que vous prélèvera le nœud pour chaque million de satoshi qu'il recevra en fonction du canal choisi. 
-- **Le ratio (parts par million)** : qui représente le nombre de satoshi par million d'unités que vous prélèvera le nœud lorsque vous déciderez de transiter un paiement via un de ses canaux. Supposons que vous décidez de faire un paiement de `10_000 sats` en passant par un canal dont le ratio ppm est de `500 sats` , vous devrez payer au nœud `10_000 * 500 / 1_000_000` satoshis soit l'équivalent de `5 sats`.
--  **Le [HTLC](https://planb.academy/resources/glossary/htlc) maximum** : Le montant maximum que ce nœud vous permet de transiter via l'un de ces canaux.
+- **Le ratio entrant** : Le montant que le nœud vous facturera pour chaque million de satoshi qu'il recevra, selon le canal utilisé. 
+- **Le ratio (parts par million)** : il indique le nombre de satoshi par million d'unités que le nœud prélève lorsque vous faites transiter un paiement via un de ses canaux. Par exemple, si vous envoyez `10_000 sats` via un canal dont le ratio est de `500 ppm` , vous devrez payer au nœud `10_000 * 500 / 1_000_000` satoshis soit l'équivalent de `5 sats`.
+-  **Le [HTLC](https://planb.academy/resources/glossary/htlc) maximum** : Le montant maximum que le nœud autorise à faire transiter par l'un de ces canaux.
 
-En consultant le tableau de cette interface, vous pouvez également retrouver toutes ces informations sur le nœud il est apparié.
+En consultant le tableau de cette interface, vous pouvez également retrouver toutes ces informations pour chaque nœud auquel vous êtes connecté.
 
 ![channels_info](assets/fr/07.webp)
 
-Dans la section **Cartes des canaux**, vous pouvez avoir un visuel des répartitions et de la capacité des différents canaux de ce nœud. Vous pouvez changer le critère de répartition affiché en sélectionnant l'une des options de la liste déroulante à droite.
+Dans la section **Cartes des canaux**, vous avez une vue d’ensemble des répartitions et de la capacité des différents canaux de ce nœud. Vous pouvez modifier le critère de répartition affiché en sélectionnant l'une des options de la liste déroulante à droite.
 
 ![cha_maps](assets/fr/08.webp)
 
-La section des **Canaux fermés** regroupe l'ensemble des anciens canaux du nœud en fonction du type de fermeture :
+La section des **Canaux fermés** recense tous les anciens canaux du nœud, classés en fonction du type de fermeture :
 - Une **fermeture mutuelle** : représente l'accord des deux parties qui signent avec leur clé privée la transaction marquant la fermeture du canal et la répartition des soldes dans ce canal
 - Une **fermeture forcée** : représente la fermeture brusque et unilatérale d'une des parties du canal. Ce type de fermeture n'est pas recommandé, car le Lightning Network est un protocole basé sur la punition : lorsque vous essayez de frauder avec le solde d'un canal, vous risquez de perdre tout votre solde disponible dans ce canal.
 
@@ -141,7 +141,7 @@ Sur la page d'accueil, dans la section **Outils**, soumettez votre adresse Light
 
 ### Magma IA
 
-Découvrez le tout dernier outil dévoilé par Amboss pour gérer efficacement vos connexions aux nœuds du Lightning Network. Magma AI utilise une intelligence artificielle dédiée pour se focaliser sur un problème important : faire une bonne sélection de nœuds auxquels se connecter.
+Découvrez le tout dernier outil présenté par Amboss pour gérer efficacement vos connexions aux nœuds du Lightning Network. Magma AI s’appuie sur une intelligence artificielle spécialement conçue pour se focaliser sur un problème important : faire une bonne sélection de nœuds auxquels se connecter.
 
 ![magma](assets/fr/16.webp)
 

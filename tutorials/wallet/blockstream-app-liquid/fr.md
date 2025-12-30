@@ -248,7 +248,7 @@ Alternativement, échangez vos bitcoins onchain ou via le réseau Lightning cont
 
 ![image](assets/fr/25.webp)
 
-- Le temps entre 2 blocks est de 1 minute sur Liquid, la transaction est donc être rapidement confirmée puis complétée.
+- Le temps entre 2 blocks est de 1 minute sur Liquid, la transaction est donc rapidement confirmée puis complétée.
 
 
 ## Annexes

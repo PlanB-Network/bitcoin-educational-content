@@ -18,12 +18,13 @@ published_at: 2025-08-01
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-12-04
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - Asi0Flammeus
       - nrak10
-    reward: 7.14
+      - therancedognon-max
+    reward: 0
   - language: en
     last_contribution_date: 2025-10-31
     urgency: 1
@@ -34,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: de
     last_contribution_date:
     urgency: 1
@@ -49,27 +50,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 66.52
+    reward: 66.53
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.54
+    reward: 47.55
   - language: it
     last_contribution_date:
     urgency: 1
@@ -79,27 +80,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 57.03
+    reward: 57.04
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.54
+    reward: 47.55
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -109,17 +110,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 57.03
+    reward: 57.04
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -135,27 +136,32 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.54
+    reward: 47.55
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 57.03
+    reward: 57.04
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.54
+    reward: 47.55
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.54
+    reward: 47.55
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.05
+    reward: 38.06
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 47.55
 videos:
   - id: 1def60bc-1d39-4e49-9b08-fd05b7a0d49b
     youtube:

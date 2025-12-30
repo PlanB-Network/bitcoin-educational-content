@@ -321,7 +321,7 @@ Choisissez ensuite la longueur de votre phrase mnémonique. 12 mots offrent déj
 
 ![Image](assets/fr/031.webp)
 
-Lancez vos dés et saisissez les chiffres obtenus à l’aide du curseur. Appuyez au centre pour valider chaque entrée. En cas d’erreur, vous pouvez revenir en arrière. Utilisez plusieurs dés différents pour réduire l'influence d’un éventuel dé déséquilibré. Veillez également à ne pas être observé pendant cette opération.
+Lancez vos dés et saisissez les chiffres obtenus à l’aide du curseur. Appuyez au centre pour valider chaque entrée. En cas d’erreur, vous pouvez revenir en arrière. Utilisez plusieurs dés différents pour réduire l'influence d’un éventuel déséquilibre. Veillez également à ne pas être observé pendant cette opération.
 
 ![Image](assets/fr/032.webp)
 
@@ -355,7 +355,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ### 5.6 Comprendre la notion de "*stateless device*"
 
-Le SeedSigner est un appareil sans mémoire permanente. Cela signifie que votre seed n’est jamais enregistrée à l’intérieur de l’appareil (contrairement à une Ledger, une Trezor ou une Coldcard, par exemple). Dès que vous coupez son alimentation, la seed disparaît totalement de sa mémoire vive. Au redémarrage, le SeedSigner revient à un état vierge : vous devrez alors lui redonner votre seed pour qu’il puisse signer vos transactions.
+Le SeedSigner est un appareil sans mémoire permanente. Cela signifie que votre seed n’est jamais enregistrée à l’intérieur de l’appareil (contrairement à un Ledger, un Trezor ou un Coldcard, par exemple). Dès que vous coupez son alimentation, la seed disparaît totalement de sa mémoire vive. Au redémarrage, le SeedSigner revient à un état vierge : vous devrez alors lui redonner votre seed pour qu’il puisse signer vos transactions.
 
 Ce fonctionnement constitue une protection essentielle. Contrairement à d’autres portefeuilles matériels, le SeedSigner repose sur un Raspberry Pi Zero dépourvu de toute protection physique, notamment de *Secure Element*. Mais puisqu’aucune donnée sensible n’est conservée, même un appareil compromis physiquement ne permettrait pas à un attaquant d’extraire vos clés privées ni de dépenser vos bitcoins.
 

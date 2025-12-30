@@ -1,6 +1,6 @@
 ---
 name: Tiankii
-description: Vifaa vya umeme vya zana kwa wauzaji na watumiaji
+description: Vifaa vya Lightning vya zana kwa wauzaji na watumiaji
 ---
 
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ Katika mfumo ikolojia wa Bitcoin, kukubali malipo kwa wakati halisi bado ni chan
 
 
 
-Tiankii, kampuni ya Salvadoria iliyozaliwa mwaka wa 2021, inajibu tatizo hili kwa kutoa miundombinu inayofikika, ya kawaida ya Bitcoin. Badala ya kulazimisha kupitishwa kwa mfumo ikolojia uliofungwa, Tiankii inatoa safu ya zana zilizounganishwa kuwezesha mtu yeyote kuunganisha Umeme wa Bitcoin katika biashara zao bila kughairi udhibiti wa pesa zao.
+Tiankii, kampuni ya Salvadoria iliyozaliwa mwaka wa 2021, inajibu tatizo hili kwa kutoa miundombinu inayofikika, ya kawaida ya Bitcoin. Badala ya kulazimisha kupitishwa kwa mfumo ikolojia uliofungwa, Tiankii inatoa safu ya zana zilizounganishwa kuwezesha mtu yeyote kuunganisha Bitcoin lightning katika biashara zao bila kughairi udhibiti wa pesa zao.
 
 
 
@@ -39,7 +39,7 @@ Usanifu unategemea nguzo tatu:
 
 
 
-**Umeme-kwanza**: Inapendelea mtandao wa Umeme kwa utaratibu kwa kasi yake na gharama zake za chini, huku ukihifadhi usaidizi wa muamala wa on-chain kwa kiasi kikubwa.
+**Umeme-kwanza**: Inapendelea mtandao wa Lightning kwa utaratibu kwa kasi yake na gharama zake za chini, huku ukihifadhi usaidizi wa muamala wa on-chain kwa kiasi kikubwa.
 
 
 
@@ -47,7 +47,7 @@ Usanifu unategemea nguzo tatu:
 
 
 
-**wallet-agnostic modularity**: Uwezekano wa kuunganisha portfolios tofauti za Radi (LNbits, Blink, BlueWallet) au nodi yako mwenyewe, inayotoa unyumbufu wa juu zaidi kulingana na kiwango cha utaalamu na uhuru unaohitajika.
+**wallet-agnostic modularity**: Uwezekano wa kuunganisha portfolios tofauti za Radi (LNbits, Blink, BlueWallet) au node yako mwenyewe, inayotoa unyumbufu wa juu zaidi kulingana na kiwango cha utaalamu na uhuru unaohitajika.
 
 
 
@@ -59,7 +59,7 @@ Usanifu unategemea nguzo tatu:
 
 
 
-Programu inabadilisha simu mahiri au kompyuta kibao kuwa terminal ya Umeme. Mfanyabiashara huweka kiasi hicho katika sarafu ya nchi husika, na programu hutengeneza msimbo wa QR wa Lightning au inakubali Kadi ya Bolt. Miamala huangaziwa papo hapo bila malipo, na ubadilishaji wa kiotomatiki katika zaidi ya sarafu 150, usimamizi wa vidokezo na historia ya mauzo.
+Programu inabadilisha simu mahiri au kompyuta kibao kuwa terminal ya Lightning. Mfanyabiashara huweka kiasi hicho katika sarafu ya nchi husika, na programu hutengeneza msimbo wa QR wa Lightning au inakubali Kadi ya Bolt. Miamala huangaziwa papo hapo bila malipo, na ubadilishaji wa kiotomatiki katika zaidi ya sarafu 150, usimamizi wa vidokezo na historia ya mauzo.
 
 
 
@@ -67,7 +67,7 @@ Programu inabadilisha simu mahiri au kompyuta kibao kuwa terminal ya Umeme. Mfan
 
 
 
-Mtandao wa Interface umewekwa kati kuunganisha Umeme wake wa wallet, kufuatilia miamala katika muda halisi, kutoa ankara na ripoti za uhasibu za generate. Mfumo huu unajumlisha chaneli zote: malipo ya dukani (POS), mauzo ya mtandaoni (programu-jalizi za e-commerce), au miunganisho ya API. Malipo huungana kwenye wallet iliyochaguliwa.
+Mtandao wa Interface umewekwa kati kuunganisha Lightning wallet yake, kufuatilia miamala katika muda halisi, kutoa ankara na ripoti za uhasibu za generate. Mfumo huu unajumlisha chaneli zote: malipo ya dukani (POS), mauzo ya mtandaoni (programu-jalizi za e-commerce), au miunganisho ya API. Malipo huungana kwenye wallet iliyochaguliwa.
 
 
 
@@ -91,11 +91,11 @@ Suluhisho hili linajumuisha hasa kwa watu wasiojua simu mahiri, zinazotoa lango 
 
 
 
-Programu ya IBI (Mtu Binafsi Bitcoin Interface) imeundwa kwa ajili ya watu binafsi wanaotaka kutumia Umeme wa Bitcoin kila siku. Faida yake kuu iko katika utengenezaji wa Umeme maalum wa Address, kitambulisho cha malipo kinachoweza kusomeka katika umbizo la barua pepe (mfano: alice@ibi.me).
+Programu ya IBI (Mtu Binafsi Bitcoin Interface) imeundwa kwa ajili ya watu binafsi wanaotaka kutumia Bitcoin lightning kila siku. Faida yake kuu iko katika utengenezaji wa Lightning Address maalum, kitambulisho cha malipo kinachoweza kusomeka katika umbizo la barua pepe (mfano: alice@ibi.me).
 
 
 
-Kitambulisho hiki hurahisisha sana upokeaji malipo: hakuna haja ya generate ankara mpya kwa kila muamala, mtumaji anaweza tu kuingiza anwani ya Umeme. Kiolesura pia hukuruhusu kudhibiti Kadi yako ya Bolt (kuwezesha, kuzima, vikomo vya matumizi), kuunganisha pochi mbalimbali za Radi, na kufanya malipo kwa kuchanganua misimbo ya QR.
+Kitambulisho hiki hurahisisha sana upokeaji malipo: hakuna haja ya generate ankara mpya kwa kila muamala, mtumaji anaweza tu kuingiza  Lightning Address. Kiolesura pia hukuruhusu kudhibiti Kadi yako ya Bolt (kuwezesha, kuzima, vikomo vya matumizi), kuunganisha wallet mbalimbali za Lightning, na kufanya malipo kwa kuchanganua misimbo ya QR.
 
 
 
@@ -103,7 +103,7 @@ Kitambulisho hiki hurahisisha sana upokeaji malipo: hakuna haja ya generate anka
 
 
 
-Viunganishi vilivyo tayari kutumia kwa WooCommerce, Shopify na Cloudbeds. Imesakinishwa kwa dakika chache ili kuongeza umeme wa Bitcoin ili kulipa. Manufaa: tume ya sifuri (dhidi ya 2-3% ya kadi za mkopo), malipo ya papo hapo, ufikiaji wa ulimwenguni pote, kuondoa urejeshaji malipo. Malipo hufika moja kwa moja kwenye wallet ya mfanyabiashara iliyounganishwa.
+Viunganishi vilivyo tayari kutumia kwa WooCommerce, Shopify na Cloudbeds. Imesakinishwa kwa dakika chache ili kuongeza Lightning Bitcoin ili kulipa. Manufaa: tume ya sifuri (dhidi ya 2-3% ya kadi za mkopo), malipo ya papo hapo, ufikiaji wa ulimwenguni pote, kuondoa urejeshaji malipo. Malipo hufika moja kwa moja kwenye wallet ya mfanyabiashara iliyounganishwa.
 
 
 
@@ -111,7 +111,7 @@ Viunganishi vilivyo tayari kutumia kwa WooCommerce, Shopify na Cloudbeds. Imesak
 
 
 
-SDK ya Tiankii inafanya uwezekano wa kuunganisha Umeme wa Bitcoin kwenye programu zilizopo bila kudumisha nodi yake yenyewe. API hushughulikia uundaji wa ankara, uthibitishaji wa malipo na utumaji barua nyingi kupitia miundombinu thabiti iliyopangishwa kwenye Google Cloud. Kituo cha Amri hukamilisha kutoa kwa mashirika yenye Address Lightning kwenye vikoa maalum, malipo mengi, na usimamizi wa kati wa vituo na kadi za NFC.
+SDK ya Tiankii inafanya uwezekano wa kuunganisha Bitcoin Lightning kwenye programu zilizopo bila kudumisha node yake yenyewe. API hushughulikia uundaji wa ankara, uthibitishaji wa malipo na utumaji barua nyingi kupitia miundombinu thabiti iliyopangishwa kwenye Google Cloud. Kituo cha Amri hukamilisha kutoa kwa mashirika yenye Address Lightning kwenye vikoa maalum, malipo mengi, na usimamizi wa kati wa vituo na kadi za NFC.
 
 
 
@@ -127,11 +127,11 @@ Kutumia Tiankii hakuhitaji mahitaji changamano ya kiufundi. Programu zinafanya k
 
 
 
-**Kwa watumiaji wa kibinafsi (Programu ya IBI)**: Hakuna Umeme wa awali wa wallet unaohitajika. Unapofungua akaunti yako, Tiankii husanidi kiotomatiki Umeme wa Address unaofanya kazi kupitia [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), utekelezaji usio na shaka unaotumia mtandao wa Liquid chinichini. Unaweza kupokea na kutuma malipo mara moja bila usanidi wowote wa kiufundi. Suluhisho hili hurahisisha ufikiaji kwa wanaoanza, huku likiendelea kujidhibiti.
+**Kwa watumiaji wa kibinafsi (Programu ya IBI)**: Hakuna Lightning wallet ya awali inayohitajika. Unapofungua akaunti yako, Tiankii husanidi kiotomatiki Lightning  Address unaofanya kazi kupitia [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), utekelezaji usio na shaka unaotumia mtandao wa Liquid chinichini. Unaweza kupokea na kutuma malipo mara moja bila usanidi wowote wa kiufundi. Suluhisho hili hurahisisha ufikiaji kwa wanaoanza, huku likiendelea kujidhibiti.
 
 
 
-**Kwa wauzaji (Dashibodi ya Wafanyabiashara)** : Muunganisho wa Umeme uliopo wa wallet ni wa lazima ili kutumia vituo vya Uuzaji na kupokea malipo. Tiankii inasaidia masuluhisho mengi: pochi za rununu (Blink, Strike), suluhu zinazojisimamia mwenyewe (LNbits, LND/CLN nodi), au pochi za wavuti (Alby). Miongozo ya kina ya uunganisho inapatikana katika sehemu ya Rasilimali ya mafunzo haya.
+**Kwa wauzaji (Dashibodi ya Wafanyabiashara)** : Muunganisho wa Lightning wallet uliopo ni wa lazima ili kutumia vituo vya Uuzaji na kupokea malipo. Tiankii inasaidia masuluhisho mengi: wallet za rununu (Blink, Strike), suluhu zinazojisimamia mwenyewe (LNbits, LND/CLN node), au wallet za wavuti (Alby). Miongozo ya kina ya uunganisho inapatikana katika sehemu ya Rasilimali ya mafunzo haya.
 
 
 
@@ -151,7 +151,7 @@ Nenda kwa accounts.ibi.me ili ufungue akaunti yako. Katika ukurasa huu unaweza k
 
 
 
-Baada ya kuchagua "Matumizi ya Kibinafsi", utaelekezwa kiotomatiki kwenda go.ibi.me ili kukamilisha usajili wako. Hii inaweza kufanywa kupitia barua pepe, nambari ya simu, au kwa kutumia akaunti yako ya Google, Microsoft au Twitter. Baada ya kuundwa, unaweza kufikia kiolesura chako cha IBI mara moja, huku umeme wako wa Address ukiwa tayari kufanya kazi.
+Baada ya kuchagua "Matumizi ya Kibinafsi", utaelekezwa kiotomatiki kwenda go.ibi.me ili kukamilisha usajili wako. Hii inaweza kufanywa kupitia barua pepe, nambari ya simu, au kwa kutumia akaunti yako ya Google, Microsoft au Twitter. Baada ya kuundwa, unaweza kufikia kiolesura chako cha IBI mara moja, huku Lightning Address ikiwa tayari kufanya kazi.
 
 
 
@@ -175,7 +175,7 @@ Kiolesura cha IBI kinaonyesha salio lako katika satoshis na sarafu ya ndani (USD
 
 
 
-Ili kupokea satoshi, bonyeza "Pokea". Programu hutengeneza kiotomatiki msimbo wa QR na kuonyesha Umeme uliobinafsishwa wa Address (umbizo la nom@ibi.me). Shiriki anwani hii au msimbo wa QR na mtumaji: pesa hufika papo hapo katika akaunti yako ya IBI.
+Ili kupokea satoshi, bonyeza "Pokea". Programu hutengeneza kiotomatiki msimbo wa QR na kuonyesha Lightning Address iliyobinafsishwa (umbizo la nom@ibi.me). Shiriki Address hii au msimbo wa QR na mtumaji: pesa hufika papo hapo katika akaunti yako ya IBI.
 
 
 
@@ -191,7 +191,7 @@ Baada ya salio lako kuwekwa kwenye akaunti, unaweza kutumia satoshi hizi kufanya
 
 
 
-Ili kutuma satoshi, bonyeza "Tuma". Unaweza kuchanganua msimbo wa QR wa Umeme, au uweke moja kwa moja eneo la Umeme Address.
+Ili kutuma satoshi, bonyeza "Tuma". Unaweza kuchanganua msimbo wa QR wa Umeme, au uweke moja kwa moja eneo la Lightning Address.
 
 
 
@@ -247,7 +247,7 @@ Nenda kwa accounts.ibi.me ili ufungue akaunti yako. Chagua "Matumizi ya Biashara
 
 
 
-Baada ya kuchagua "Matumizi ya Biashara", utaelekezwa upya kiotomatiki kwenye Dashibodi ya Wafanyabiashara (pay.tiankii.com). Hii inakupeleka kwenye kiolesura cha usimamizi wa biashara na ufuatiliaji wa mapato, miamala na zana za malipo. Ili kuanza kukubali malipo, lazima kwanza uunganishe Umeme wako wa wallet kwa kubofya kiungo kilicho juu ya ukurasa (angalia kishale kwenye picha).
+Baada ya kuchagua "Matumizi ya Biashara", utaelekezwa upya kiotomatiki kwenye Dashibodi ya Wafanyabiashara (pay.tiankii.com). Hii inakupeleka kwenye kiolesura cha usimamizi wa biashara na ufuatiliaji wa mapato, miamala na zana za malipo. Ili kuanza kukubali malipo, lazima kwanza uunganishe Lightning  wallet kwa kubofya kiungo kilicho juu ya ukurasa (angalia kishale kwenye picha).
 
 
 
@@ -259,7 +259,7 @@ Baada ya kuchagua "Matumizi ya Biashara", utaelekezwa upya kiotomatiki kwenye Da
 
 
 
-Hatua muhimu katika kuwezesha eneo lako la mauzo: unganisha umeme wako wa wallet ili kupokea malipo. Kiolesura hutoa chaguzi kadhaa za uunganisho. Tafadhali kumbuka kuwa baadhi ya chaguo (Bitcoin Onchain na Lightning Network) bado zinatengenezwa na zinaonekana kuwa na mvi kwenye kiolesura.
+Hatua muhimu katika kuwezesha eneo lako la mauzo: unganisha Lightning  wallet ili kupokea malipo. Kiolesura hutoa chaguzi kadhaa za uunganisho. Tafadhali kumbuka kuwa baadhi ya chaguo (Bitcoin Onchain na Lightning Network) bado zinatengenezwa na zinaonekana kuwa na mvi kwenye kiolesura.
 
 
 
@@ -320,7 +320,7 @@ Terminal ya POS inaonyesha vitufe vya nambari za kuingiza kiasi cha mauzo. Weka 
 
 
 
-Programu hutoa msimbo wa QR wa Umeme na Umeme Address kwa malipo. Wateja wanaweza kuchanganua msimbo wa QR na wallet yao au kutumia Kadi yao ya Bolt kwenye terminal ya NFC.
+Programu hutoa msimbo wa QR ya Lightning na Lightning Address kwa malipo. Wateja wanaweza kuchanganua msimbo wa QR na wallet yao au kutumia Kadi yao ya Bolt kwenye terminal ya NFC.
 
 
 
@@ -376,7 +376,7 @@ Tiankii inatoa vifurushi viwili vya Dashibodi ya Wafanyabiashara. Mpango wa **Fr
 
 
 
-**Urahisi**: Lightning Address kama anwani ya barua pepe, malipo ya NFC kwa bomba rahisi, kiolesura angavu bila utaalam wa kiufundi unaohitajika.
+**Urahisi**: Lightning Address kama Address ya barua pepe, malipo ya NFC kwa bomba rahisi, kiolesura angavu bila utaalam wa kiufundi unaohitajika.
 
 
 
@@ -412,7 +412,7 @@ Tiankii inaonyesha jinsi miundombinu iliyobuniwa vyema inaweza kuondoa vizuizi v
 
 
 
-Kwa wafanyabiashara, Tiankii inawakilisha fursa ya kupunguza kwa kiasi kikubwa gharama za muamala wakati wa kufikia msingi mpya wa wateja. Kwa watumiaji, kadi za Umeme Address na NFC hubadilisha Bitcoin kuwa sarafu ya vitendo, bila ugumu wa kiufundi.
+Kwa wafanyabiashara, Tiankii inawakilisha fursa ya kupunguza kwa kiasi kikubwa gharama za muamala wakati wa kufikia msingi mpya wa wateja. Kwa watumiaji, kadi za Lightning Address na NFC hubadilisha Bitcoin kuwa sarafu ya vitendo, bila ugumu wa kiufundi.
 
 
 
@@ -464,6 +464,6 @@ Ingawa kupitishwa kwa Bitcoin kunasalia kuwa changamoto inayohitaji elimu na wak
 
 
 
-- [Blink Wallet](https://blink.sv) - Umeme wa Wallet unapendekezwa
+- [Blink Wallet](https://blink.sv) - Lightning  Wallet inayopendekezwa
 - [LNbits](https://lnbits.com) - Suluhisho la wallet linalojitegemea
 - [Kadi ya Kawaida ya Bolt](https://github.com/boltcard) - Maelezo ya kiufundi ya kadi za NFC

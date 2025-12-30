@@ -18,11 +18,12 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-09-30
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 5.34
+      - nrak10
+    reward: 2.67
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,12 +63,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.78
+    reward: 24.77
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: it
     last_contribution_date:
     urgency: 1
@@ -82,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -132,7 +133,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -142,14 +143,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.73
+    reward: 17.72
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 14.2
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.72

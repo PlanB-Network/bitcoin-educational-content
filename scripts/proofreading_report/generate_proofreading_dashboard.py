@@ -50,7 +50,7 @@ LANGUAGE_NAMES = {
     'zh-Hans': 'Chinese (Simplified)', 'zh-Hant': 'Chinese (Traditional)',
     'ko': 'Korean', 'vi': 'Vietnamese', 'hi': 'Hindi', 'id': 'Indonesian',
     'fa': 'Persian', 'tr': 'Turkish', 'sw': 'Swahili', 'rn': 'Kirundi',
-    'bg': 'Bulgarian'
+    'bg': 'Bulgarian', 'th': 'Thai'
 }
 
 # Excluded contributors from leaderboards

@@ -1120,7 +1120,7 @@ def generate_html(data):
         .section h2 {{
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
-            color: var(--color-primary);
+            color: #000000;
             border-bottom: 2px solid var(--color-border);
             padding-bottom: 0.5rem;
         }}
@@ -1287,8 +1287,8 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-purple);
-            color: white;
+            background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
@@ -1443,6 +1443,7 @@ def generate_html(data):
 
         .lang-stats-table th {{
             background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
@@ -1649,7 +1650,7 @@ def generate_html(data):
         .toc-section h2 {{
             font-size: 1.3rem;
             margin-bottom: 1rem;
-            color: var(--color-primary);
+            color: #000000;
         }}
 
         .toc-nav {{
@@ -1868,6 +1869,7 @@ def generate_html(data):
 
         .monthly-lang-table th {{
             background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;

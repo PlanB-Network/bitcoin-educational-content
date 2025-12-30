@@ -11,7 +11,7 @@ objectives:
 
 What does it take to build on Bitcoin? This 20-hour course takes you beneath the surface of Bitcoin and the Lightning Network, exploring the protocols that power the world's most resilient financial infrastructure. Whether you're looking to contribute to open-source projects or build the next generation of Bitcoin applications, you'll gain the technical depth needed to start working confidently in this ecosystem.
 
-Recorded during the CUBO+ 2023 bootcamp in El Salvador, this course brings together perspectives from leading Bitcoin developers and educators who've shaped the technology. The best part? It's completely free, made possible by Fulgure Venture, the Bitcoin Office and DecouvreBitcoin. If you've been curious about how Bitcoin really works at the protocol level, this is your chance to find out.
+Recorded during the CUBO+ 2023 bootcamp in El Salvador, this course brings together perspectives from leading Bitcoin developers and educators who've shaped the technology. The best part? It's completely free, made possible by Fulgure Ventures, the Bitcoin Office and DecouvreBitcoin. If you've been curious about how Bitcoin really works at the protocol level, this is your chance to find out.
 +++
 # Introduction and Preparatory Courses
 
@@ -45,7 +45,7 @@ Throughout the course, participants will leverage key tools that will aid their 
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Welcome to the first lecture of the **Cubo Plus** educational program. Today, we are diving into the world of Bitcoin, led by Ricky, the founder of the **Bitcoin Italia Podcast**. Ricky is a passionate human rights activist who uses Bitcoin as a tool to protect and promote human rights. With over six years of experience, Ricky has traveled extensively, documenting Bitcoin adoption in emerging markets like El Salvador and Guatemala. His work goes beyond podcasting; he’s also active on YouTube (**Bitcoin Explorers**) and Twitter (**BTC Explorer**, **Ricky6**). Ricky's commitment to Bitcoin stems from his belief that it offers financial freedom and privacy, challenging traditional, centralized banking systems.
+Welcome to the first lecture of the **Cubo Plus** educational program. Today, we are diving into the world of Bitcoin, led by Rikki, the founder of the **Bitcoin Italia Podcast**. Rikki is a passionate human rights activist who uses Bitcoin as a tool to protect and promote human rights. With over six years of experience, Rikki has traveled extensively, documenting Bitcoin adoption in emerging markets like El Salvador and Guatemala. His work goes beyond podcasting; he’s also active on YouTube (**Bitcoin Explorers**) and Twitter (**BTC Explorer**, **Rikki6**). Rikki's commitment to Bitcoin stems from his belief that it offers financial freedom and privacy, challenging traditional, centralized banking systems.
 
 ![Unbanked Population](assets/en/001.webp)
 _The Global Unbanked Population_
@@ -61,9 +61,9 @@ This lecture, **"Why El Salvador Needs Bitcoin,"** provides an overview of the *
 - _Financial inclusion:_ Providing access to financial services for people who have been excluded from traditional banking systems, often referred to as the "unbanked."
 - _Uncensored money:_ Money that cannot be controlled or restricted by governments or financial institutions.
 
-#### Ricky's background and Bitcoin advocacy
+#### Rikki's background and Bitcoin advocacy
 
-Ricky’s journey into Bitcoin is rooted in his work as a human rights advocate. He believes that Bitcoin can provide individuals with control over their finances, allowing them to protect their privacy and avoid the limitations of centralized banks. His exploration of Bitcoin's adoption in places like El Salvador highlights how this technology can empower people in emerging markets to gain financial independence.
+Rikki’s journey into Bitcoin is rooted in his work as a human rights advocate. He believes that Bitcoin can provide individuals with control over their finances, allowing them to protect their privacy and avoid the limitations of centralized banks. His exploration of Bitcoin's adoption in places like El Salvador highlights how this technology can empower people in emerging markets to gain financial independence.
 
 ### The global significance and challenges of Bitcoin
 

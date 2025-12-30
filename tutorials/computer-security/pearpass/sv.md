@@ -429,7 +429,7 @@ Dina valv på din dator och din mobil är nu synkroniserade. Varje ID som läggs
 
 
 
-På mobiltelefoner kan du också aktivera automatisk fältfyllning. Detta gör du genom att gå till `Inställningar > Avancerat` och sedan klicka på knappen `Set as Default` i avsnittet `Autofyll`.
+På mobil kan du även, om du vill, aktivera automatisk ifyllning av fält. För att göra detta, gå till `Settings > Advanced` och klicka sedan på knappen `Set as Default` i avsnittet `Autofill`.
 
 
 

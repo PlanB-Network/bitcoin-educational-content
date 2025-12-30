@@ -323,7 +323,7 @@ Your vaults on your computer and your mobile are now synchronized. Every ID adde
 ![Image](assets/fr/29.webp)
 
 
-On cell phones, you can also activate automatic field filling. To do this, go to `Settings > Advanced`, then click on the `Set as Default` button in the `Autofill` section.
+On mobile, you can also enable, if you wish, automatic field filling. To do so, go to `Settings > Advanced`, then click the `Set as Default` button in the `Autofill` section.
 
 
 ![Image](assets/fr/30.webp)

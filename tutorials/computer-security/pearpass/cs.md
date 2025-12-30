@@ -429,7 +429,7 @@ Vaše trezory v počítači a mobilu jsou nyní synchronizovány. Každé ID př
 
 
 
-V mobilních telefonech můžete také aktivovat automatické vyplňování polí. To provedete tak, že přejdete do `Nastavení > Rozšířené` a v části `Automatické vyplňování` kliknete na tlačítko `Nastavit jako výchozí`.
+Na mobilním zařízení můžete také, pokud si přejete, aktivovat automatické vyplňování polí. Za tímto účelem přejděte do `Settings > Advanced` a poté klikněte na tlačítko `Set as Default` v sekci `Autofill`.
 
 
 

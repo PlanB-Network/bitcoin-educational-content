@@ -429,7 +429,7 @@ Teie arvutis ja mobiilis olevad võlvid on nüüd sünkroonitud. Iga ühes seadm
 
 
 
-Mobiiltelefonide puhul saate aktiveerida ka automaatse väljade täitmise. Selleks valige "Seaded > Täiendatud", seejärel klõpsake jaotises "Automaatne täitmine" nupule "Seadistada vaikimisi".
+Mobiilseadmes saate soovi korral samuti aktiveerida väljade automaatse täitmise. Selleks minge jaotisse `Settings > Advanced` ning seejärel klõpsake jaotises `Autofill` nupul `Set as Default`.
 
 
 

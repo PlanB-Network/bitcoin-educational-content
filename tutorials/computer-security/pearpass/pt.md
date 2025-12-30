@@ -429,7 +429,7 @@ Os cofres do seu computador e do seu telemóvel estão agora sincronizados. Cada
 
 
 
-Nos telemóveis, também é possível ativar o preenchimento automático de campos. Para o fazer, vá a `Definições > Avançadas` e, em seguida, clique no botão `Definir como predefinição` na secção `Preenchimento automático`.
+No telemóvel, pode também ativar, se assim o desejar, o preenchimento automático dos campos. Para tal, vá a `Settings > Advanced` e, em seguida, clique no botão `Set as Default` na secção `Autofill`.
 
 
 

@@ -429,7 +429,7 @@ Brankas Anda di komputer dan ponsel Anda sekarang tersinkronisasi. Setiap ID yan
 
 
 
-Pada ponsel, Anda juga dapat mengaktifkan pengisian bidang otomatis. Untuk melakukannya, buka `Pengaturan > Tingkat Lanjut`, lalu klik tombol `Tetapkan sebagai Default` di bagian `Isi Otomatis`.
+Di perangkat seluler, Anda juga dapat mengaktifkan, jika diinginkan, pengisian otomatis kolom. Untuk melakukannya, buka `Settings > Advanced`, lalu klik tombol `Set as Default` di bagian `Autofill`.
 
 
 

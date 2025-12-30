@@ -429,7 +429,7 @@ I vostri caveau sul computer e sul cellulare sono ora sincronizzati. Ogni ID agg
 
 
 
-Sui telefoni cellulari, è possibile attivare il riempimento automatico dei campi. A tale scopo, accedere a `Impostazioni > Avanzate`, quindi fare clic sul pulsante `Imposta come predefinita` nella sezione `Compilazione automatica`.
+Su mobile, è inoltre possibile attivare, se lo si desidera, il riempimento automatico dei campi. Per farlo, accedere a `Settings > Advanced`, quindi fare clic sul pulsante `Set as Default` nella sezione `Autofill`.
 
 
 

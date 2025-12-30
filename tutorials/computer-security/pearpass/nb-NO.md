@@ -429,7 +429,7 @@ Hvelvene dine på datamaskinen og mobilen er nå synkronisert. Alle ID-er som le
 
 
 
-På mobiltelefoner kan du også aktivere automatisk utfylling av felter. Dette gjør du ved å gå til `Innstillinger > Avansert` og deretter klikke på knappen `Sett som standard` i `Autofyll`-delen.
+På mobil kan du også, om du ønsker, aktivere automatisk utfylling av felt. For å gjøre dette, gå til `Settings > Advanced`, og klikk deretter på knappen `Set as Default` i seksjonen `Autofill`.
 
 
 

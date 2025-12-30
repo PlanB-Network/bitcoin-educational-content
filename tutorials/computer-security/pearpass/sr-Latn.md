@@ -429,7 +429,7 @@ Vaši trezori na računaru i mobilnom uređaju su sada sinhronizovani. Svaki ID 
 
 
 
-Na mobilnim telefonima, možete takođe aktivirati automatsko popunjavanje polja. Da biste to uradili, idite na `Podešavanja > Napredno`, zatim kliknite na dugme `Postavi kao podrazumevano` u odeljku `Automatsko popunjavanje`.
+Na mobilnom uređaju možete takođe, ukoliko to želite, aktivirati automatsko popunjavanje polja. Da biste to uradili, idite na `Settings > Advanced`, a zatim kliknite na dugme `Set as Default` u odeljku `Autofill`.
 
 
 

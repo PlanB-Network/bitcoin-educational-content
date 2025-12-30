@@ -429,7 +429,7 @@ Tietokoneen ja matkapuhelimen holvit on nyt synkronoitu. Jokainen toisessa laitt
 
 
 
-Matkapuhelimissa voit myös aktivoida automaattisen kenttätäytön. Tee tämä valitsemalla `Asetukset > Lisäasetukset` ja napsauttamalla sitten `Automaattitäyttö`-osiossa olevaa `Set as Default`-painiketta.
+Mobiililaitteella voit halutessasi myös ottaa käyttöön kenttien automaattisen täytön. Tätä varten siirry kohtaan `Settings > Advanced` ja napsauta sitten `Autofill`-osiossa painiketta `Set as Default`.
 
 
 

@@ -429,7 +429,7 @@ Los bóvedas de tu ordenador y tu móvil están ahora sincronizados. Cada ID añ
 
 
 
-En los teléfonos móviles, también puedes activar el rellenado automático de campos. Para ello, vaya a `Configuración > Avanzado` y, a continuación, haga clic en el botón `Configurar como predeterminado` de la sección `Relleno automático`.
+En el móvil, también puede activar, si lo desea, el autocompletado de campos. Para ello, vaya a `Settings > Advanced` y, a continuación, haga clic en el botón `Set as Default` en la sección `Autofill`.
 
 
 

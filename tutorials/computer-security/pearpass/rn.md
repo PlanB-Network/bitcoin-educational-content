@@ -429,7 +429,7 @@ Ivyumba vyawe vyo kuri mudasobwa yawe no kuri telefone yawe ngendanwa ubu birahu
 
 
 
-Ku matelefone ngendanwa, urashobora kandi gukoresha ubuhinga bwo kwuzuza ivyatsi. Kugira ngo ubikore, genda kuri `Ivyagezwe > Ivyateguwe`, hanyuma ukande kuri buto `Gushinga nk'Ivyagezwe` mu gice ca `Ukwizuza`.
+Ku gikoresho kigendagenda, urashobora kandi, niwabishaka, gukoresha ukwuzura kwikora kw’ivyicaro. Kubigira, genda muri `Settings > Advanced`, hanyuma ukande kuri buto `Set as Default` mu gice ca `Autofill`.
 
 
 

@@ -429,7 +429,7 @@ Je kluizen op je computer en je mobiel zijn nu gesynchroniseerd. Elke ID die op 
 
 
 
-Op mobiele telefoons kun je het automatisch vullen van velden ook activeren. Ga hiervoor naar `Instellingen > Geavanceerd` en klik vervolgens op de knop `Instellen als standaard` in het gedeelte `Autovullen`.
+Op mobiel kunt u desgewenst ook het automatisch invullen van velden inschakelen. Ga hiervoor naar `Settings > Advanced` en klik vervolgens in de sectie `Autofill` op de knop `Set as Default`.
 
 
 

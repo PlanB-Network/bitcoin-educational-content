@@ -429,7 +429,7 @@ PearPassは、Pearsを利用することで、複数のマシン上のパスワ�
 
 
 
-携帯電話では、フィールドの自動入力を有効にすることもできます。これを行うには、`Settings > Advanced`に進み、`Autofill`セクションの`Set as Default`ボタンをクリックします。
+モバイルでは、必要に応じてフィールドの自動入力を有効にすることもできます。そのためには、`Settings > Advanced` に移動し、`Autofill` セクションで `Set as Default` ボタンをクリックしてください。
 
 
 

@@ -429,7 +429,7 @@ Vizuizi vyako kwenye kompyuta yako na simu yako sasa vimesawazishwa. Kila kitamb
 
 
 
-Kwenye simu za mkononi, unaweza pia kuwezesha kujaza sehemu kiotomatiki. Ili kufanya hivyo, nenda kwenye `Mipangilio > Advanced`, kisha bofya kitufe cha `Weka kama Chaguo-msingi` katika sehemu ya `Otomatiki`.
+Kwenye simu ya mkononi, unaweza pia, ukipenda, kuwasha ujazaji wa kiotomatiki wa sehemu. Ili kufanya hivyo, nenda kwenye `Settings > Advanced`, kisha bofya kitufe cha `Set as Default` katika sehemu ya `Autofill`.
 
 
 

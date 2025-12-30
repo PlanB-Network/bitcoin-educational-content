@@ -429,7 +429,7 @@ Ihre Tresore auf Ihrem Computer und Ihrem Mobiltelefon sind jetzt synchronisiert
 
 
 
-Auf Mobiltelefonen können Sie auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu "Einstellungen > Erweitert" und klicken Sie auf die Schaltfläche "Als Standard festlegen" im Abschnitt "Automatisches Ausfüllen".
+Auf dem Smartphone können Sie bei Bedarf auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu `Settings > Advanced` und klicken Sie anschließend in der Sektion `Autofill` auf die Schaltfläche `Set as Default`.
 
 
 

@@ -429,7 +429,7 @@ Twoje sejfy na komputerze i telefonie komórkowym są teraz zsynchronizowane. Ka
 
 
 
-W telefonach komórkowych można również aktywować automatyczne wypełnianie pól. Aby to zrobić, przejdź do `Ustawienia > Zaawansowane`, a następnie kliknij przycisk `Ustaw jako domyślne` w sekcji `Autouzupełnianie`.
+Na urządzeniu mobilnym możesz również, jeśli chcesz, włączyć automatyczne wypełnianie pól. W tym celu przejdź do `Settings > Advanced`, a następnie kliknij przycisk `Set as Default` w sekcji `Autofill`.
 
 
 

@@ -429,7 +429,7 @@ Bilgisayarınızdaki ve cep telefonunuzdaki kasalarınız artık senkronize. Bir
 
 
 
-Cep telefonlarında otomatik alan doldurmayı da etkinleştirebilirsiniz. Bunu yapmak için, `Ayarlar > Gelişmiş` bölümüne gidin ve ardından `Otomatik Doldurma` bölümündeki `Varsayılan Olarak Ayarla` düğmesine tıklayın.
+Mobilde, dilerseniz alanların otomatik doldurulmasını da etkinleştirebilirsiniz. Bunun için `Settings > Advanced` bölümüne gidin, ardından `Autofill` kısmındaki `Set as Default` düğmesine tıklayın.
 
 
 

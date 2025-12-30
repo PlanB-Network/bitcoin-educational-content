@@ -429,7 +429,7 @@ Kho dữ liệu của bạn trên máy tính và điện thoại di động hi�
 
 
 
-Trên điện thoại di động, bạn cũng có thể kích hoạt tính năng tự động điền thông tin. Để làm điều này, hãy vào `Cài đặt > Nâng cao`, sau đó nhấp vào nút `Đặt làm mặc định` trong phần `Tự động điền`.
+Trên thiết bị di động, bạn cũng có thể, nếu muốn, kích hoạt tính năng tự động điền các trường. Để thực hiện việc này, hãy vào `Settings > Advanced`, sau đó nhấp vào nút `Set as Default` trong mục `Autofill`.
 
 
 

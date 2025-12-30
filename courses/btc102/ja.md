@@ -774,16 +774,16 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ビットコインを安全に保管し、ただ待つ。彼らはビットコインを安全に保管し、ビットコインの長期的なポテンシャルに対する強い確信に突き動かされて、ただ待っている。日々の価格変動や弱気相場にも動じない。彼らの考え方はシンプルである：蓄積し、確保し、じっと待つ。
 
 
-|          | Trading | Investment | Holding |
-| ---------------------- | ----------- | -------------- | --------------- |
-| Leverage | Yes  | No | No |
-| Timeframe | Short-term | Medium-term | Very long-term |
-| Asset Type | Contracts | Actual BTC | Actual BTC |
-| Risk Level | Very high | High | High |
-| 難易度 | Very Hard | Hard | Hard |
-| learning curve | Long learning curve | Long learning curve | Long learning curve |
-| Potential Loss | UnLimited | Limited | Limited |
-| Best For | A few experienced users | Most People | Long-term Believers |
+|         | トレーディング     | 投資          | 保有          |
+| ------- | ----------- | ----------- | ----------- |
+| レバレッジ   | あり          | なし          | なし          |
+| 期間      | 短期          | 中期          | 超長期         |
+| 資産タイプ   | コントラクト（契約）  | 実際のBTC      | 実際のBTC      |
+| リスクレベル  | 非常に高い       | 高い          | 高い          |
+| 難易度     | 非常に難しい      | 難しい         | 難しい         |
+| 学習曲線    | 学習に長い時間がかかる | 学習に長い時間がかかる | 学習に長い時間がかかる |
+| 想定される損失 | 無制限         | 限定的         | 限定的         |
+| 向いている人  | 一部の熟練者のみ    | ほとんどの人      | 長期的な信念を持つ人  |
 
 ### 学び続ける
 
@@ -1321,16 +1321,16 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.R. Parker & R. Whaples 
 これまでのところ、ひとつの真実が際立っている：ビットコインは、グローバルなネットワークに支えられ、普及が拡大している、唯一の真に分散化された、検閲に強いデジタルマネーである。アルトコインとは異なり、ビットコインは中央集権的な企業によって支えられているわけでも、一握りの開発者や初期の投資家によって管理されているわけでもない。ビットコインは、何千時間にも及ぶ研究、開発、そして絶え間ない改良を重ねた唯一のプロジェクトなのです。
 
 
-| Feature               | ビットコイン                  | Altcoins (99.9% of them)       |
-| ---------------------|--------------------------|--------------------------------|
-| **Liquidity**         | High                     | Low                            |
-| **Adoption (Real-World)** | Global and growing       | Very limited                   |
-| **Team**              | Decentralized and robust | Centralized and opaque         |
-| **Reputation**        | Strong and globally recognized        | Varies, often questionable     |
-| **Infrastructure**    | Stable and secure        | Unstable and vulnerable        |
-| **Decentralization**  | Yes                      | Rarely                         |
-| **Scam Risk**             | No                       | Very likely                    |
-| **Real utility?**     | Yes                      | Debatable                      |
+| 特徴            | ビットコイン          | アルトコイン（その99.9%） |
+| ------------- | --------------- | --------------- |
+| **流動性**       | 高い              | 低い              |
+| **普及状況（実社会）** | グローバルに普及し、成長中   | 非常に限定的          |
+| **運営主体**      | 分散化され、堅牢        | 中央集権的で不透明       |
+| **評判**        | 強固で、世界的に認知されている | さまざま（疑わしいものが多い） |
+| **インフラ**      | 安定しており、安全       | 不安定で脆弱          |
+| **分散性**       | あり              | ほとんどない          |
+| **詐欺リスク**     | なし              | 非常に高い           |
+| **実際の実用性**    | あり              | 議論の余地あり         |
 
 
 **のような誤解を招く主張には注意すること**。
@@ -1358,13 +1358,13 @@ Altcoinに時間やリソースを投資する前に、自分で調べてくだ�
 テック大手もこの競争に加わっている。フェイスブック（現在はメタ）は、不換紙幣のバスケットに裏打ちされたデジタル通貨を作ろうと、ステーブルコイン構想「Libra」を立ち上げた。しかし、このプロジェクトは規制当局の抵抗に遭い、最終的には頓挫した。
 
 
-| Feature                    | ビットコイン | Altcoins | Facebook-Coin | FedCoin |
-|---------------------------|---------|----------|---------------|---------|
-| **Public**                | Yes     | Varies   | No            | No      |
-| **Open**                  | Yes     | Varies   | No            | No      |
-| **Borderless**            | Yes     | Varies   | No            | No      |
-| **Neutral**               | Yes     | Varies   | No            | No      |
-| **Censorship-resistant**  | Yes     | Varies   | No            | No      |
+| 特徴           | ビットコイン | アルトコイン | Facebookコイン | Fedコイン |
+| ------------ | ------ | ------ | ----------- | ------ |
+| **公開性**      | あり     | さまざま   | なし          | なし     |
+| **オープン性**    | あり     | さまざま   | なし          | なし     |
+| **国境を越えた利用** | あり     | さまざま   | なし          | なし     |
+| **中立性**      | あり     | さまざま   | なし          | なし     |
+| **検閲耐性**     | あり     | さまざま   | なし          | なし     |
 
 大胆なマーケティングにもかかわらず、これらの構想はビットコインに対抗するものではなく、その中核となる原則を否定しながら、その言葉を模倣している。ビットコインの言葉を真似る一方で、ビットコインの基本原則を否定しているのだ。プライバシーを守るためではなく、監視を拡大するために設計されている。支配を分散させるのではなく、支配を定着させるのだ。
 
@@ -3282,12 +3282,12 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ビットコインの相続対策となる紙に、候補者の比較表を作成し、信頼度、ビットコインに関する知識、連絡方法などを評価する。例えば
 
 
-| Person               | Trust Level     | ビットコイン Knowledge   | Contact Methods         | Notes                                                                                                                   |
-|----------------------|-----------------|----------------------|--------------------------|--------------------------------------------------------------------------|
-| My brother Bob       | Very high       | Low                  | Phone & email            | Bob doesn't know ビットコイン well, but he's 100% reliable. He can ensure the process goes smoothly.                        |
-| My cousin Nathan     | High            | Medium               | Phone & Instagram        | Has some ビットコイン knowledge and can guide my heirs. Aware of the plan. #1 to talk to in case of need.                   |
-| Ricco (ビットコイナー friend) | Medium      | Very high            | Twitter, email & photo   | Very technically skilled, but should never have access to the funds. To be contacted for technical support.            |
-| ビットコイン YouTuber     | Low             | High                 | YouTube channel          | Good information source for learning, but cannot intervene directly.                                                   |
+| 人物              | 信頼レベル | ビットコインの知識 | 連絡手段           | 備考                                                          |
+| --------------- | ----- | --------- | -------------- | ----------------------------------------------------------- |
+| 兄のボブ            | 非常に高い | 低い        | 電話・メール         | ボブはビットコインについて詳しくはないが、100％信頼できる人物。手続きが円滑に進むよう確実に対応してくれる。     |
+| いとこのネイサン        | 高い    | 中程度       | 電話・Instagram   | ある程度のビットコイン知識があり、相続人を導くことができる。この計画について把握済み。必要時に最優先で相談すべき人物。 |
+| リッコ（ビットコイナーの友人） | 中程度   | 非常に高い     | Twitter・メール・対面 | 技術的には非常に優秀だが、資金へのアクセスは絶対に与えるべきではない。技術サポート目的で連絡する。           |
+| ビットコイン系YouTuber | 低い    | 高い        | YouTubeチャンネル   | 学習のための情報源としては有用だが、直接介入することはできない。                            |
 
 信頼できる有能な家族がいない場合は、ビットコインの相続を専門とする弁護士や、専門の遺産分割協議サービスなどの専門家に依頼することも検討できます。重要なのは、資金の安全性と機密性を保ちながら、相続人が信頼できる技術的な助けを利用できることです。
 
@@ -3314,11 +3314,11 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 この目録は、表を使って構成する。この書類はオンラインに保存するのではなく、安全な場所に保管するのが理想的です。例えば
 
 
-| General | Storage type | Assets held | Localization | ニーモニック backup | Password (PIN, passphrase...) | Notes |
-| --------------------- | ---------------- | -------------- | --------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------- |
-| Bitfinex | BTC & Euros | Accessible online | None (custodial platform) | | Bitwarden & 2FA password manager with Authy app on my phone | I bought my BTC here. Funds must be withdrawn after purchase |
-| Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
-| Green Wallet | BTC | On my Iphone 15 | Copy of the シード in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
+| 一般           | 保管タイプ     | 保有資産         | 保管場所                 | ニーモニックのバックアップ                   | パスワード（PIN、パスフレーズなど）                                                             | 備考                                             |
+| ------------ | --------- | ------------ | -------------------- | ------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Bitfinex     | BTC & ユーロ | オンラインでアクセス可能 | なし（カストディアル型プラットフォーム） |                                 | Bitwardenと、スマートフォン上のAuthyアプリによる2FA                                              | BTCはここで購入。購入後は必ず資金を出金する必要がある                   |
+| フィジカルウォレット   | Jade Plus | BTC          | 自宅の金庫                | 叔父ボブ宅とBNPパリバの銀行金庫にコピーを保管        | パスフレーズは母のもとに保管。PINコードはBitwardenのパスワードマネージャーに保存。PINコードはBitwardenのパスワードマネージャーに保存。 | 2つの別々のウォレットを使用：ニーモニックのみの通常ウォレットと、パスフレーズ付きウォレット |
+| Green Wallet | BTC       | iPhone 15上   | 自宅の金庫にシードのコピー        | PINコードはBitwardenのパスワードマネージャーに保存 | アプリは隠しモードで使用                                                                    | アプリは隠しモードで使用                                   |
 
 この段階になると、すぐにでも資金配分を調整したり、セキュリティを強化したり、あるいはビットコインをもっと買ったり売ったりしたいという衝動に駆られるかもしれません。まだ行動してはいけません！ここでの目標は行動を起こすことではなく、現在の状況のスナップショットを確立することです。後で計画を改善することはいつでもできますが、今はできるだけ徹底的に目録を完成させることに集中してください。
 

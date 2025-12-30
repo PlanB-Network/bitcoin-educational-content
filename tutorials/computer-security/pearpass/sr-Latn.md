@@ -182,7 +182,7 @@ Sledeći važan korak je odabir vaše glavne lozinke. Kao što smo videli u uvod
 
 
 
-Glavna lozinka nosi dva glavna rizika: gubitak i kompromitovanje. Ako izgubite pristup ovoj lozinci, više nećete moći da pristupite svojim podacima za prijavu. PearPass nikada ne čuva vašu glavnu lozinku: **Ako je izgubljena, vaši podaci za prijavu su trajno izgubljeni**. Ne postoji mehanizam za oporavak. S druge strane, ako je ova lozinka kompromitovana i napadač dobije pristup jednom od vaših uređaja, on ili ona će moći da pristupi svim vašim nalozima.
+Glavna lozinka nosi dva glavna rizika: gubitak i kompromitaciju. Ako izgubite pristup ovoj lozinci, više nećete moći da pristupite svojim akreditivima. Naime, PearPass nikada ne čuva vašu glavnu lozinku: **ako se izgubi, vaši akreditivi su trajno izgubljeni**. Ne postoji nikakav mehanizam oporavka. Suprotno tome, ako je ova lozinka kompromitovana i napadač dobije pristup jednom od vaših uređaja, moći će da pristupi svim vašim nalozima.
 
 
 

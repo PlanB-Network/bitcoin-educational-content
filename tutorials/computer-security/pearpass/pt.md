@@ -182,7 +182,7 @@ Em seguida, vem o passo importante de escolher a sua palavra-passe mestra. Como 
 
 
 
-A palavra-passe mestra comporta dois riscos principais: perda e comprometimento. Se perder o acesso a esta palavra-passe, deixará de poder aceder aos seus dados de início de sessão. O PearPass nunca guarda a sua palavra-passe mestra: **Se ela for perdida, seus detalhes de login serão perdidos permanentemente**. Não existe nenhum mecanismo de recuperação. Por outro lado, se esta palavra-passe for comprometida e um atacante obtiver acesso a um dos seus dispositivos, poderá aceder a todas as suas contas.
+A palavra-passe mestra comporta dois riscos principais: a perda e a compromissão. Se perder o acesso a esta palavra-passe, deixará de poder aceder às suas credenciais. Com efeito, a PearPass nunca conserva a sua palavra-passe mestra: **se for perdida, as suas credenciais perdem-se definitivamente**. Não existe qualquer mecanismo de recuperação. Em contrapartida, se esta palavra-passe for comprometida e um atacante obtiver acesso a um dos seus dispositivos, poderá aceder à totalidade das suas contas.
 
 
 

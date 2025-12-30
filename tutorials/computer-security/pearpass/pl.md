@@ -182,7 +182,7 @@ Następnym ważnym krokiem jest wybór hasła głównego. Jak widzieliśmy we ws
 
 
 
-Hasło główne wiąże się z dwoma głównymi zagrożeniami: utratą i złamaniem. Jeśli utracisz dostęp do tego hasła, nie będziesz już w stanie uzyskać dostępu do swoich danych logowania. PearPass nigdy nie przechowuje hasła głównego: **Jeśli zostanie utracone, dane logowania zostaną trwale utracone**. Nie ma mechanizmu odzyskiwania. I odwrotnie, jeśli to hasło zostanie złamane, a atakujący uzyska dostęp do jednego z twoich urządzeń, będzie mógł uzyskać dostęp do wszystkich twoich kont.
+Hasło główne wiąże się z dwoma głównymi zagrożeniami: utratą i kompromitacją. Jeśli utracisz dostęp do tego hasła, nie będziesz już mógł uzyskać dostępu do swoich danych uwierzytelniających. W rzeczywistości PearPass nigdy nie przechowuje hasła głównego: **jeśli zostanie ono utracone, dane uwierzytelniające przepadają bezpowrotnie**. Nie istnieje żaden mechanizm odzyskiwania. Z kolei, jeśli to hasło zostanie skompromitowane i atakujący uzyska dostęp do jednego z twoich urządzeń, będzie mógł uzyskać dostęp do wszystkich twoich kont.
 
 
 

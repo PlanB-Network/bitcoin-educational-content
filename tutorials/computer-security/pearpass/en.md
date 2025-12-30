@@ -137,7 +137,7 @@ When the application is first started up on the desktop, click on the `Skip` but
 Next comes the important step of choosing your master password. As we saw in the introduction, this password is very important, as it gives you access to all your other passwords saved on the manager. Technically, it is used to derive the cryptographic keys used to encrypt your data.
 
 
-The master password carries two main risks: loss and compromise. If you lose access to this password, you will no longer be able to access your login details. PearPass never keeps your master password: **If it's lost, your login details are permanently lost**. There is no recovery mechanism. Conversely, if this password is compromised and an attacker gains access to one of your devices, he or she will be able to access all your accounts.
+The master password involves two main risks: loss and compromise. If you lose access to this password, you will no longer be able to access your credentials. Indeed, PearPass never stores your master password: **if it is lost, your credentials are lost permanently**. There is no recovery mechanism. Conversely, if this password is compromised and an attacker gains access to one of your devices, they will be able to access all of your accounts.
 
 
 To limit the risk of loss, you can make a physical backup of your master password, for example on paper, and keep it in a secure place. Ideally, seal this backup in an envelope so that you can periodically check that it has not been accessed. On the other hand, never make a digital backup of this password.

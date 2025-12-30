@@ -182,7 +182,7 @@ Segue l'importante fase della scelta della password principale. Come abbiamo vis
 
 
 
-La master password comporta due rischi principali: la perdita e la compromissione. Se si perde l'accesso a questa password, non sarà più possibile accedere ai propri dati di accesso. PearPass non conserva mai la password principale: **Se viene persa, i vostri dati di accesso sono definitivamente persi**. Non esiste un meccanismo di recupero. Al contrario, se questa password viene compromessa e un malintenzionato ottiene l'accesso a uno dei vostri dispositivi, sarà in grado di accedere a tutti i vostri account.
+La password principale comporta due rischi principali: la perdita e la compromissione. Se si perde l’accesso a questa password, non sarà più possibile accedere alle proprie credenziali. Infatti, PearPass non conserva mai la password principale: **se viene persa, le credenziali sono perse definitivamente**. Non esiste alcun meccanismo di recupero. Al contrario, se questa password viene compromessa e un attaccante ottiene l’accesso a uno dei dispositivi, potrà accedere all’insieme dei conti.
 
 
 

@@ -182,7 +182,7 @@ Berikutnya adalah langkah penting untuk memilih kata sandi utama Anda. Seperti y
 
 
 
-Kata sandi utama memiliki dua risiko utama: kehilangan dan penyalahgunaan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses detail login Anda. PearPass tidak pernah menyimpan kata sandi utama Anda: **Jika hilang, detail login Anda akan hilang secara permanen**. Tidak ada mekanisme pemulihan. Sebaliknya, jika kata sandi ini dibobol dan penyerang mendapatkan akses ke salah satu perangkat Anda, dia akan dapat mengakses semua akun Anda.
+Kata sandi utama memiliki dua risiko utama: kehilangan dan kompromi. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses kredensial Anda. Faktanya, PearPass tidak pernah menyimpan kata sandi utama Anda: **jika hilang, kredensial Anda hilang secara permanen**. Tidak ada mekanisme pemulihan. Sebaliknya, jika kata sandi ini dikompromikan dan penyerang memperoleh akses ke salah satu perangkat Anda, mereka akan dapat mengakses seluruh akun Anda.
 
 
 

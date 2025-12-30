@@ -182,7 +182,7 @@ Sırada ana parolanızı seçmek gibi önemli bir adım var. Giriş bölümünde
 
 
 
-Ana parola iki ana risk taşır: kayıp ve ele geçirme. Bu parolaya erişiminizi kaybederseniz, artık giriş bilgilerinize erişemezsiniz. PearPass ana parolanızı asla saklamaz: **Eğer kaybolursa, giriş bilgileriniz kalıcı olarak kaybolur**. Hiçbir kurtarma mekanizması yoktur. Tersine, bu parola ele geçirilirse ve bir saldırgan cihazlarınızdan birine erişim sağlarsa, tüm hesaplarınıza erişebilir.
+Ana parola iki temel risk içerir: kayıp ve ele geçirilme. Bu parolaya erişimi kaybederseniz, kimlik bilgilerinize artık erişemezsiniz. Nitekim PearPass ana parolanızı asla saklamaz: **kaybolursa, kimlik bilgileriniz kalıcı olarak kaybolur**. Herhangi bir kurtarma mekanizması yoktur. Buna karşılık, bu parola ele geçirilir ve bir saldırgan cihazlarınızdan birine erişim sağlarsa, tüm hesaplarınıza erişebilir.
 
 
 

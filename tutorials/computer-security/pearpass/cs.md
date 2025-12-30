@@ -182,7 +182,7 @@ Dalším důležitým krokem je výběr hlavního hesla. Jak jsme viděli v úvo
 
 
 
-Hlavní heslo s sebou nese dvě hlavní rizika: ztrátu a kompromitaci. Pokud ztratíte přístup k tomuto heslu, nebudete již mít přístup ke svým přihlašovacím údajům. PearPass nikdy neuchovává vaše hlavní heslo: **Pokud ho ztratíte, vaše přihlašovací údaje budou trvale ztraceny**. Neexistuje žádný mechanismus obnovy. Naopak, pokud je toto heslo prozrazeno a útočník získá přístup k jednomu z vašich zařízení, bude mít přístup ke všem vašim účtům.
+Hlavní heslo s sebou nese dvě hlavní rizika: ztrátu a kompromitaci. Pokud ztratíte přístup k tomuto heslu, nebudete již moci přistupovat ke svým přihlašovacím údajům. PearPass totiž vaše hlavní heslo nikdy neukládá: **pokud je ztraceno, jsou vaše přihlašovací údaje ztraceny natrvalo**. Neexistuje žádný mechanismus obnovení. Naopak, pokud je toto heslo kompromitováno a útočník získá přístup k jednomu z vašich zařízení, bude moci přistupovat ke všem vašim účtům.
 
 
 

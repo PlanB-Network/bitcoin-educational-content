@@ -182,7 +182,7 @@ Inyuma y’aho haza intambwe ihambaye yo guhitamwo ijambobanga ryawe ry’ingenz
 
 
 
-Ijambobanga ry’umukuru rifise ingorane zibiri nyamukuru: gutakaza no gusenyura. Iyo utakaje uburenganzira bwo gukoresha iri jambobanga, ntuzosubira kuronka amakuru yawe yo kwinjira. PearPass ntiyigera ibika ijambobanga ryawe ry'ingenzi: **Iyo ryazimiye, amakuru yawe yo kwinjira arazimangana ubuziraherezo**. Nta buryo bwo gukira buhari. Ku rundi ruhande, iyo iryo jambobanga ryinjijwe maze uwugutera akaronka uburenganzira bwo kwinjira muri kimwe mu bikoresho vyawe, azoshobora kwinjira muri konti zawe zose.
+Ijambobanga nyamukuru rifise ingorane zibiri nyamukuru: kuritakaza no kurihungabanya. Niwatakaza ukuryinjiramwo, ntuzoshobora gusubira kwinjira mu bimenyetso vyawe. Mu vy’ukuri, PearPass ntizigera ibika ijambobanga ryawe nyamukuru: **niritakara, n’ibimenyetso vyawe biratakara burundu**. Nta buryo bwo kubisubirana buhari. Ku rundi ruhande, niyoba rihungabanyijwe maze umuterabwoba akaronka ukwinjira kuri kimwe mu bikoresho vyawe, azoshobora kwinjira mu makonti yawe yose.
 
 
 

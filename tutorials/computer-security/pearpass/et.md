@@ -182,7 +182,7 @@ Järgmisena tuleb oluline samm, milleks on põhiparooli valimine. Nagu nägime s
 
 
 
-Peaparooliga kaasneb kaks peamist ohtu: kaotus ja kompromiss. Kui kaotate juurdepääsu sellele paroolile, ei pääse te enam oma sisselogimisandmetele ligi. PearPass ei säilita kunagi teie põhiparooli: **Kui see kaotatakse, on teie sisselogimisandmed jäädavalt kadunud**. Taastamismehhanismi ei ole. Seevastu, kui see parool on ohus ja ründaja saab juurdepääsu ühele teie seadmetele, saab ta ligipääsu kõikidele teie kontodele.
+Peaparooliga kaasnevad kaks peamist riski: kaotus ja kompromiteerimine. Kui kaotate juurdepääsu sellele paroolile, ei saa te enam oma kasutajatunnustele ligi. Tegelikult ei talleta PearPass kunagi teie peaparooli: **kui see kaob, on teie kasutajatunnused jäädavalt kadunud**. Taastamismehhanismi ei ole. Vastupidi, kui see parool kompromiteeritakse ja ründaja saab juurdepääsu ühele teie seadmetest, pääseb ta ligi kõigile teie kontodele.
 
 
 

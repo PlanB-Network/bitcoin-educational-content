@@ -182,7 +182,7 @@ Als Nächstes folgt der wichtige Schritt der Wahl Ihres Hauptkennworts. Wie wir 
 
 
 
-Das Master-Kennwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugang zu diesem Passwort verlieren, können Sie nicht mehr auf Ihre Anmeldedaten zugreifen. PearPass speichert niemals Ihr Master-Passwort: **Wenn es verloren geht, sind Ihre Anmeldedaten dauerhaft verloren**. Es gibt keinen Wiederherstellungsmechanismus. Umgekehrt, wenn dieses Passwort kompromittiert wird und ein Angreifer Zugang zu einem Ihrer Geräte erhält, kann er oder sie auf alle Ihre Konten zugreifen.
+Das Master-Passwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugriff auf dieses Passwort verlieren, können Sie nicht mehr auf Ihre Zugangsdaten zugreifen. Tatsächlich speichert PearPass Ihr Master-Passwort niemals: **geht es verloren, sind Ihre Zugangsdaten endgültig verloren**. Es existiert kein Wiederherstellungsmechanismus. Umgekehrt kann ein Angreifer, wenn dieses Passwort kompromittiert wird und er Zugriff auf eines Ihrer Geräte erhält, auf sämtliche Ihrer Konten zugreifen.
 
 
 

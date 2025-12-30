@@ -182,7 +182,7 @@ Seuraavaksi on tärkeää valita pääsalasana. Kuten johdannossa todettiin, tä
 
 
 
-Pääsalasanaan liittyy kaksi pääasiallista riskiä: katoaminen ja vaarantaminen. Jos menetät salasanan, et voi enää käyttää kirjautumistietojasi. PearPass ei koskaan säilytä pääsalasanaasi: **Jos se katoaa, kirjautumistietosi menetetään pysyvästi**. Palautusmekanismia ei ole. Jos taas tämä salasana vaarantuu ja hyökkääjä pääsee käsiksi johonkin laitteeseesi, hän pääsee käsiksi kaikkiin tileihisi.
+Pääsalasanalla on kaksi pääasiallista riskiä: katoaminen ja vaarantuminen. Jos menetät pääsyn tähän salasanaan, et voi enää käyttää tunnistetietojasi. PearPass ei nimittäin koskaan tallenna pääsalasanaasi: **jos se katoaa, tunnistetietosi katoavat pysyvästi**. Palautusmekanismia ei ole. Toisaalta, jos tämä salasana vaarantuu ja hyökkääjä saa pääsyn yhteen laitteistasi, hän voi käyttää kaikkia tilejäsi.
 
 
 

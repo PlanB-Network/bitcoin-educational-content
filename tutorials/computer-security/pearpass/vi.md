@@ -182,7 +182,7 @@ Bước tiếp theo rất quan trọng: chọn mật khẩu chính. Như đã th
 
 
 
-Mật khẩu chính tiềm ẩn hai rủi ro chính: mất mát và bị xâm phạm. Nếu bạn mất quyền truy cập vào mật khẩu này, bạn sẽ không thể truy cập vào thông tin đăng nhập của mình nữa. PearPass không bao giờ lưu giữ mật khẩu chính của bạn: **Nếu bị mất, thông tin đăng nhập của bạn sẽ bị mất vĩnh viễn**. Không có cơ chế khôi phục nào. Ngược lại, nếu mật khẩu này bị xâm phạm và kẻ tấn công truy cập được vào một trong các thiết bị của bạn, chúng sẽ có thể truy cập vào tất cả các tài khoản của bạn.
+Mật khẩu chính tiềm ẩn hai rủi ro chính: mất mát và bị xâm phạm. Nếu bạn mất quyền truy cập vào mật khẩu này, bạn sẽ không còn có thể truy cập vào thông tin đăng nhập của mình. Thực tế, PearPass không bao giờ lưu trữ mật khẩu chính của bạn: **nếu bị mất, thông tin đăng nhập của bạn sẽ mất vĩnh viễn**. Không tồn tại cơ chế khôi phục nào. Ngược lại, nếu mật khẩu này bị xâm phạm và kẻ tấn công có được quyền truy cập vào một trong các thiết bị của bạn, họ sẽ có thể truy cập vào toàn bộ tài khoản của bạn.
 
 
 

@@ -182,7 +182,7 @@ Det neste viktige steget er å velge hovedpassordet ditt. Som vi så i innlednin
 
 
 
-Hovedpassordet innebærer to hovedrisikoer: tap og kompromittering. Hvis du mister tilgangen til dette passordet, vil du ikke lenger ha tilgang til innloggingsopplysningene dine. PearPass beholder aldri hovedpassordet ditt: **Hvis du mister det, er innloggingsdetaljene dine tapt for alltid**. Det finnes ingen gjenopprettingsmekanisme. Hvis dette passordet derimot blir kompromittert og en angriper får tilgang til en av enhetene dine, vil han eller hun kunne få tilgang til alle kontoene dine.
+Hovedpassordet innebærer to hovedrisikoer: tap og kompromittering. Hvis du mister tilgangen til dette passordet, vil du ikke lenger kunne få tilgang til legitimasjonen din. PearPass lagrer nemlig aldri hovedpassordet ditt: **hvis det går tapt, går legitimasjonen din tapt for godt**. Det finnes ingen gjenopprettingsmekanisme. Omvendt, dersom dette passordet kompromitteres og en angriper får tilgang til en av enhetene dine, vil vedkommende kunne få tilgang til alle kontoene dine.
 
 
 

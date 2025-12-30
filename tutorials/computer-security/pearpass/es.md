@@ -182,7 +182,7 @@ A continuación viene el importante paso de elegir tu contraseña maestra. Como 
 
 
 
-La contraseña maestra conlleva dos riesgos principales: pérdida y compromiso. Si pierdes el acceso a esta contraseña, ya no podrás acceder a tus datos de inicio de sesión. PearPass nunca guarda su contraseña maestra: **Si se pierde, sus datos de acceso se pierden permanentemente**. No existe ningún mecanismo de recuperación. Por el contrario, si esta contraseña se ve comprometida y un atacante consigue acceder a uno de tus dispositivos, podrá acceder a todas tus cuentas.
+La contraseña maestra conlleva dos riesgos principales: la pérdida y la compromisión. Si pierde el acceso a esta contraseña, ya no podrá acceder a sus credenciales. De hecho, PearPass nunca conserva su contraseña maestra: **si se pierde, sus credenciales se pierden de forma definitiva**. No existe ningún mecanismo de recuperación. Por el contrario, si esta contraseña se ve comprometida y un atacante obtiene acceso a uno de sus dispositivos, podrá acceder a la totalidad de sus cuentas.
 
 
 

@@ -182,7 +182,7 @@ Därefter kommer det viktiga steget att välja ditt huvudlösenord. Som vi såg 
 
 
 
-Huvudlösenordet medför två huvudsakliga risker: förlust och kompromettering. Om du förlorar tillgången till detta lösenord kommer du inte längre att kunna komma åt dina inloggningsuppgifter. PearPass behåller aldrig ditt huvudlösenord: **Om det går förlorat, går dina inloggningsuppgifter förlorade permanent**. Det finns ingen återställningsmekanism. Omvänt, om detta lösenord äventyras och en angripare får tillgång till en av dina enheter, kommer han eller hon att kunna komma åt alla dina konton.
+Huvudlösenordet medför två huvudsakliga risker: förlust och kompromettering. Om du förlorar åtkomsten till detta lösenord kommer du inte längre att kunna komma åt dina inloggningsuppgifter. PearPass lagrar nämligen aldrig ditt huvudlösenord: **om det går förlorat, är dina inloggningsuppgifter förlorade för alltid**. Det finns ingen återställningsmekanism. Omvänt, om detta lösenord komprometteras och en angripare får tillgång till en av dina enheter, kommer denne att kunna få tillgång till samtliga dina konton.
 
 
 

@@ -182,7 +182,7 @@ Vervolgens komt de belangrijke stap van het kiezen van je hoofdwachtwoord. Zoals
 
 
 
-Het hoofdwachtwoord brengt twee risico's met zich mee: verlies en compromittering. Als u de toegang tot dit wachtwoord verliest, heeft u geen toegang meer tot uw inloggegevens. PearPass bewaart uw hoofdwachtwoord nooit: **Als het verloren gaat, zijn uw inloggegevens permanent verloren**. Er is geen herstelmechanisme. Omgekeerd, als dit wachtwoord gecompromitteerd is en een aanvaller toegang krijgt tot een van uw apparaten, zal hij of zij toegang hebben tot al uw accounts.
+Het hoofdwachtwoord brengt twee belangrijke risico’s met zich mee: verlies en compromittering. Als u de toegang tot dit wachtwoord verliest, kunt u niet langer bij uw inloggegevens. PearPass slaat uw hoofdwachtwoord namelijk nooit op: **als het verloren gaat, gaan uw inloggegevens definitief verloren**. Er bestaat geen herstelmechanisme. Omgekeerd, als dit wachtwoord wordt gecompromitteerd en een aanvaller toegang krijgt tot een van uw apparaten, kan hij toegang krijgen tot al uw accounts.
 
 
 

@@ -173,7 +173,7 @@ Le diagramme représente les libertés économiques  (niveau des impôts, march�
 Ce schéma repose sur l’idée que la majorité des questions politiques peuvent être divisées en deux grandes catégories : économiques et personnelles (ou sociétales).
 
 ### Les libertés économiques
-La catégorie Libertés économiques comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
+La catégorie des libertés économiques comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
 
 Exemples d’activité économique : créer une entreprise ; acheter une maison ; construire un bâtiment ; faire ses courses ; travailler dans un bureau.
 
@@ -189,7 +189,7 @@ Exemples d’activité économique : créer une entreprise ; acheter une maison 
 
 ### Les libertés personnelles et sociétales
 
-La catégorie Libertés personnelles comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
+La catégorie des libertés personnelles comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
 
 *Exemples d’activités personnelles :* le mariage ; choisir les livres que vous lisez et les films que vous regardez ; les aliments, les médicaments et les drogues que vous choisissez de consommer ; le sport ; vos choix religieux ; les organisations auxquelles vous adhérez ; les personnes avec lesquelles vous choisissez de vous associer.
 
@@ -205,7 +205,7 @@ La catégorie Libertés personnelles comprend ce que vous faites dans vos relati
 
 ![Libertes Graphique](./assets/fr/012.webp)
 
-## Etes-vous étatiste de droite ou de gauche ?
+## Êtes-vous étatiste de droite ou de gauche ?
 
 <chapterId>06d903fc-9453-47d4-b0b1-38b6b82ccf99</chapterId>
 
@@ -235,7 +235,7 @@ Ainsi, les gens de droite pensent que la moralité personnelle est la chose la p
 
 De son côté, la gauche n’accorde pas beaucoup d’importance aux exigences morales et religieuses traditionnelles. Moins préoccupée par la justice divine, elle se préoccupe surtout de la justice sociale, ou peut-être de l’idée que la justice divine *serait* la justice sociale. Pour elle, la distribution appropriée des récompenses dans la société est considérée comme une question de décision judiciaire ou politique. En conséquence, la gauche politique est hostile à la liberté économique et au marché libre, qui ne semblent pas distribuer les richesses et les récompenses en fonction des besoins  de chacun.
 
-## Etes-vous conservateur culturel ou conservateur politique?
+## Êtes-vous conservateur culturel ou conservateur politique?
 <chapterId>bef3d6f1-390a-472d-8f18-a559d38aea54</chapterId>
 
 ![video](https://www.youtube.com/watch?v=4DDAZGjQk2Q)
@@ -246,7 +246,7 @@ Si on est un conservateur culturel, on est favorable à la famille traditionnell
 
 En revanche le **conservatisme politique** est une manière d’organiser la société selon un ordre fixe. C’est pourquoi les conservateurs sont opposés au progrès. Ils veulent figer la société dans l'état qu'elle a atteint au moment où ils parlent et pensent que tout changement serait pire.
 
-Politiquement les conservateurs culturels rejoignent souvent les rangs du conservatisme politique. Mais c’est n’est pas toujours le cas. Les deux conservatismes ne sont pas nécessairement indissociables. **On peut être conservateur culturel et libertarien.**
+Politiquement, les conservateurs culturels rejoignent souvent les rangs du conservatisme politique. Mais c’est n’est pas toujours le cas. Les deux conservatismes ne sont pas nécessairement indissociables. **On peut être conservateur culturel et libertarien.**
 
 Par exemple, un individu peut défendre des traditions culturelles (comme la famille, la religion ou les coutumes locales) dans sa vie personnelle ou communautaire tout en prônant un gouvernement limité qui n'impose pas ces valeurs par la loi. Ce type de personne pourrait encourager des normes conservatrices par le biais de la persuasion, de l'éducation ou de l'exemple, tout en respectant le droit des autres à vivre différemment, conformément aux principes libertariens.
 
@@ -256,7 +256,7 @@ En pratique, des figures comme Ron Paul ou des penseurs comme Rothbard et Hoppe 
 
 ![Libertes Graphique](./assets/fr/014.webp)
 
-## Etes-vous libéral ou libertarien ?
+## Êtes-vous libéral ou libertarien ?
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
 
 ![video](https://www.youtube.com/watch?v=pPA2uyoaBrE)
@@ -273,9 +273,9 @@ C’est pourquoi, le terme *liberals* est trompeur pour un européen. La politiq
 
 Historiquement, le *liberalism* américain a soutenu un interventionnisme étatique important (le *New Deal* de Franklin Delano Roosevelt et la *Great Society* de Lyndon B. Johnson), y compris la redistribution des richesses et les programmes sociaux. Aux États-Unis, le terme *liberal* est donc associé aux politiques de gauche ou sociales-démocrates, telles que l'assurance maladie publique et les plans publics de lutte contre la pauvreté.
 
-Ainsi les partisans du libéralisme classiques se sont appelés *libertarians* aux Etats-Unis à partir des années soixante pour bien se démarquer des libéraux américains. Ils sont les héritiers du libéralisme classique européen du XIXe siècle.
+Ainsi les partisans du libéralisme classique se sont-ils appelés *libertarians* aux Etats-Unis à partir des années soixante pour bien se démarquer des libéraux américains. Ils sont les héritiers du libéralisme classique européen du XIXe siècle.
 
-## Etes-vous libertarien ou libertaire ?
+## Êtes-vous libertarien ou libertaire ?
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
 
 ![video](https://www.youtube.com/watch?v=qi6HPBmrJkg)
@@ -292,9 +292,9 @@ Les anarchistes socialistes comme Mikhaïl Bakounine et Pierre Kropotkine consid
 
 Un libertaire pourrait militer pour des communes autogérées, des coopératives ou des mouvements anti-hiérarchiques, tout en rejetant l'autorité étatique et les structures capitalistes.
 
-Ils sont pour l’abolition de l’Etat mais ils ont renoncé aux actions violentes contre l’Etat faute d’efficacité. En revanche ils n’ont pas renoncé à l’usage de cette violence contre les entreprises privées. Ils soutiennent les monopoles publics, ils acceptent la théorie de la valeur travail, condamnent le système salarial, et considèrent le profit et les taux d’intérêt comme de l'exploitation. Rares sont les anarchistes de gauche, comme Pierre-Joseph Proudhon, qui militent de manière active contre l'impôt.
+Ils sont pour l’abolition de l’Etat mais ils ont renoncé aux actions violentes contre l’Etat faute d’efficacité. En revanche ils n’ont pas renoncé à l’usage de cette violence contre les entreprises privées. Ils soutiennent les monopoles publics, ils acceptent la théorie de la valeur du travail, condamnent le système salarial, et considèrent le profit et les taux d’intérêts comme de l'exploitation. Rares sont les anarchistes de gauche, comme Pierre-Joseph Proudhon, qui militent de manière active contre l'impôt.
 
-Au contraire pour les libertariens la seule façon d’assurer la liberté individuelle est de garantir la propriété privée. La divergence essentielle entre les libertariens et les libertaires concerne donc la notion de propriété individuelle et de liberté contractuelle. De plus la doctrine des libertariens concernant la violence est défensive : légitime défense et la résistance à l’oppression.
+Au contraire pour les libertariens, la seule façon d’assurer la liberté individuelle est de garantir la propriété privée. La divergence essentielle entre les libertariens et les libertaires concerne donc la notion de propriété individuelle et de liberté contractuelle. De plus, la doctrine des libertariens concernant la violence est défensive : légitime défense et la résistance à l’oppression.
 
 Les libertins quant à eux sont des militants de la liberté sexuelle. Il s’agit moins d’une philosophie politique que d’un mode de vie personnel, fondé sur une morale sans tabou, opposée à la morale bourgeoise. Politiquement ils rejoignent souvent les rangs des anarchistes de gauche, c’est-à-dire des libertaires.
 
@@ -333,7 +333,7 @@ Les chapitres suivants expliquent comment définir les familles politiques de ma
 - **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
 - **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
 - **Philosophie et principes :** Primat de l’organisation collective. Le socialisme est une pratique qui se fonde sur la société considérée comme un tout (holisme) et s'exprime à travers l'État. L'État socialiste veut prendre en charge et diriger au maximum l'activité humaine. Il y a chez les socialistes une foi presque illimitée dans la possibilité de construire un nouvel ordre social fondé sur la raison.
-- **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané ). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
+- **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
 - **Économie :** Le socialisme implique un contrôle fort de l'État sur l’économie, au profit de l’équité (permettre à chacun de subvenir à ses besoins). Les socialistes se méfient des marchés libres, qu'ils voient comme un système permettant aux forts de s'attaquer aux vulnérables. Ils sont favorables à une redistribution des richesses et à des programmes sociaux centralisés financés par des impôts et des recettes élevés.
 
 **Types de socialistes :**

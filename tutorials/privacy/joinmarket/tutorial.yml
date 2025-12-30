@@ -17,11 +17,12 @@ tags:
 original_language: it
 proofreading:
   - language: it
-    last_contribution_date: 2025-05-18
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 5.11
+      - overbomb
+    reward: 2.56
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -68,10 +69,11 @@ proofreading:
     contributor_names:
     reward: 13.6
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 16.97
+      - 62maximalist
+    reward: 8.49
   - language: ja
     last_contribution_date:
     urgency: 1

@@ -136,15 +136,17 @@ proofreading:
     contributor_names:
     reward: 0.17
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.19
+      - Dahl23
+    reward: 0.09
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - dnabg
+    reward: 0.08
   - language: th
     last_contribution_date:
     urgency: 1

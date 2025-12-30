@@ -33,10 +33,11 @@ proofreading:
     contributor_names:
     reward: 0.25
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - CarlAdm12
+    reward: 0.1
   - language: it
     last_contribution_date:
     urgency: 1

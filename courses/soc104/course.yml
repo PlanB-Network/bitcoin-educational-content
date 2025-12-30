@@ -30,112 +30,113 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.98
+    reward: 31.95
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.87
+    reward: 22.85
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.42
+    reward: 27.4
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.87
+    reward: 22.85
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.42
+    reward: 27.4
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 18.31
+      - Sanja22B
+    reward: 9.15
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.76
+    reward: 13.75
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.31
+    reward: 18.3
   - language: tr
     last_contribution_date:
     urgency: 1

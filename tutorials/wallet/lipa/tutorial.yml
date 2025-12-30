@@ -13,11 +13,12 @@ professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-02-11
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 0.58
+      - nrak10
+    reward: 0.29
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.23
+    reward: 2.22
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -143,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.23
+    reward: 2.22
   - language: bg
     last_contribution_date:
     urgency: 1

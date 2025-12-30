@@ -48,7 +48,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: it
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -134,17 +134,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.2
+      - Dahl23
+    reward: 0.1
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.17
+      - dnabg
+    reward: 0.08
   - language: th
     last_contribution_date:
     urgency: 1

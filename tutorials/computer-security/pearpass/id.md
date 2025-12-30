@@ -11,7 +11,7 @@ Pada saat setiap individu mengelola puluhan, bahkan ratusan akun online, keamana
 
 
 
-Namun, meskipun jumlah serangan terus bertambah, praktik-praktik buruk tetap tersebar luas di kalangan masyarakat: kata sandi yang lemah, kata sandi yang digunakan ulang, kata sandi yang disimpan dalam teks yang jelas, atau kata sandi yang mudah diingat. Untuk mengatasi masalah ini tanpa membuat hidup Anda menjadi lebih rumit setiap hari, solusinya adalah dengan menggunakan pengelola kata sandi.
+Namun demikian, meskipun serangan semakin meningkat, praktik yang buruk masih sangat umum di kalangan masyarakat: kata sandi yang lemah, digunakan kembali, disimpan dalam teks biasa, atau diingat secara kira-kira. Untuk mengatasi masalah ini tanpa mempersulit kehidupan sehari-hari, solusinya adalah menggunakan pengelola kata sandi.
 
 
 
@@ -19,7 +19,7 @@ Lusinan pengelola kata sandi sudah ada, dan Plan ₿ Academy menawarkan tutorial
 
 
 
-**PearPass adalah sebuah pengelola kata sandi peer-to-peer bersumber terbuka, lokal, dan dirancang untuk memberikan kontrol penuh pada pengguna atas data mereka
+**PearPass adalah pengelola kata sandi peer-to-peer, local-first, dan open-source, yang dirancang untuk mengembalikan kendali penuh atas data kepada pengguna.**
 
 
 
@@ -182,7 +182,7 @@ Berikutnya adalah langkah penting untuk memilih kata sandi utama Anda. Seperti y
 
 
 
-Kata sandi utama memiliki dua risiko utama: kehilangan dan penyalahgunaan. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses detail login Anda. PearPass tidak pernah menyimpan kata sandi utama Anda: **Jika hilang, detail login Anda akan hilang secara permanen**. Tidak ada mekanisme pemulihan. Sebaliknya, jika kata sandi ini dibobol dan penyerang mendapatkan akses ke salah satu perangkat Anda, dia akan dapat mengakses semua akun Anda.
+Kata sandi utama memiliki dua risiko utama: kehilangan dan kompromi. Jika Anda kehilangan akses ke kata sandi ini, Anda tidak akan lagi dapat mengakses kredensial Anda. Faktanya, PearPass tidak pernah menyimpan kata sandi utama Anda: **jika hilang, kredensial Anda hilang secara permanen**. Tidak ada mekanisme pemulihan. Sebaliknya, jika kata sandi ini dikompromikan dan penyerang memperoleh akses ke salah satu perangkat Anda, mereka akan dapat mengakses seluruh akun Anda.
 
 
 
@@ -429,7 +429,7 @@ Brankas Anda di komputer dan ponsel Anda sekarang tersinkronisasi. Setiap ID yan
 
 
 
-Pada ponsel, Anda juga dapat mengaktifkan pengisian bidang otomatis. Untuk melakukannya, buka `Pengaturan > Tingkat Lanjut`, lalu klik tombol `Tetapkan sebagai Default` di bagian `Isi Otomatis`.
+Di perangkat seluler, Anda juga dapat mengaktifkan, jika diinginkan, pengisian otomatis kolom. Untuk melakukannya, buka `Settings > Advanced`, lalu klik tombol `Set as Default` di bagian `Autofill`.
 
 
 

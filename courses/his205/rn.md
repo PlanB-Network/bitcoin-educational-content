@@ -521,7 +521,7 @@ Gutyo, inyandiko zo muri Mezopotamiya zaje gushika aho turi ahanini zirerekana u
 
 
 
-## Ubugenzuzi bw'abanyacubahiro ku bisate vy'Abasumeri
+## Ubugenzuzi bw'abanyacubahiro ku bisate(ikigura) vy'Aba sumériennes
 
 
 <chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
@@ -529,19 +529,19 @@ Gutyo, inyandiko zo muri Mezopotamiya zaje gushika aho turi ahanini zirerekana u
 
 :::video id=04a95fb8-a701-4a48-9ce8-0e9b6ba256fd:::
 
-### Kwandika, ubuhinga buri hejuru y'ubutunzi
+### Kwandika, ikoranabuhanga yubutunzi imbere ya vyose
 
 
 
-Mu buryo butandukanye n’ivyo abantu benshi bemera, igihe haciye nk’imyaka 4.000 muri Mezopotamiya havumbuwe ubuhinga bwo kwandika, mu ntango ntivyari bikenewe mu guhanahana amakuru n’abantu canke mu bijanye n’ibitabu. **Inyandiko y’icuneiforme yari mbere na mbere ubuhinga bwo mu vy’ubutunzi**, ikaba yari ibereye gusa igihe inyungu zihambaye z’amahera zari ziri mu kaga. Abasumeri ntibakoresha inyandiko kugira ngo bandikire canke ngo baserure inyiyumvo zabo, ahubwo bakoresha gusa inyandiko z’ubudandaji n’ivy’amahera.
+Mu buryo butandukanye n’ivyo abantu benshi bemera, igihe haciye nk’imyaka 4.000 muri Mezopotamiya havumbuwe ubuhinga bwo kwandika, mu ntango ntivyari bikenewe mu guhanahana amakuru n’abantu canke mu bijanye n’ibitabu. **Inyandiko ya cunéiforme yari mbere na mbere ubuhinga bwo mu vy’ubutunzi**, ikaba yari ibereye gusa igihe inyungu zihambaye z’amahera zari ziri mu kaga. Abasumeri ntibakoresha inyandiko kugira ngo bandikire canke ngo baserure amaranga mutima, ahubwo bakoresha gusa inyandiko kumvo z’ubudandaji n’ivy’amahera.
 
 
 
-Ukwo kwimenyereza gushobora gusigurwa n’igiciro kinini co kwandika ku bipande. Gucapura mw’ibumba vyasaba ubuhinga bwihariye, umwanya munini be n’ibikoresho vyihariye. Amafaranga y’agaciro gahagije ni yo yonyene yatumye iyo nzira y’ishoramari igira ico ikoze mu vy’ubutunzi, bikaba vyatumye habaho uruzitiro rw’akameremere rwo kuronka iyo tekinoloji y’ihinduka.
+Ubwo buzobere busigurwa n’igiciro cabwo kinini co kwandika ku bipande(ibigura). Gucapura mw’ibumba vyasaba ubuhinga bwihariye, umwanya munini be n’ibikoresho vyihariye. ibikorwa vy'amafaranga y’agaciro ahagije ni yo  yatumye iyo nzira y’ishoramari ivuka muvyo gutunganya ubutunzi, bikaba vyatumye hirema uruzitiro rwo kutaronka iyo tekinoloji yiterambere vyoroshe.
 
 
 
-Ivyo bisate vy’inyuguti z’inyuguti vyerekana urutonde rw’ivy’ubutunzi rwari rugoye cane ku bijanye n’igihe caco. Abanyamezopotamiya bari barateguye ibirwanisho vyuzuye vy’ibikoresho vy’ivy’ubutunzi vyo muri iki gihe: **inguzanyo z’abantu ku giti cabo zifise inyungu, ivyemezo vy’ugurisha, amasezerano yo gukodesha, ingwati, eka mbere n’amasezerano y’ubugeni afise ingingo z’ivy’ubutunzi**. Ukwo gutera imbere gushingira intahe ubutunzi bw’isoko buteye imbere, buri kure cane y’ishusho yoroshe y’uguhinduranya ibintu mu gihe ca kera akenshi ifatanye n’ivyo bihugu vya kera.
+Ivyo bisate(ibigura) vy’inyandiko za cunéiformes vyerekana urutonde rw’ivy’ubutunzi rwari rugoye cane ku bijanye n’igihe caco. Abanyamezopotamiya bari barateguye igikoresho cikwije c’ivy’ubutunzi vyo mugihe ca none: **inguzanyo z’abantu ku giti cabo ziriko n'inyungu, ivyemezo vy’igurisha, amasezerano yo gukodesha, ingwati, eka mbere n’amasezerano y’ubugeni afise ingingo z’ivy’ubutunzi**. Ukwo gutera imbere gushingira intahe ubutunzi bw’isoko buteye imbere, buri kure cane y’ishusho yoroshe y’uguhinduranya ibintu mu gihe ca kera akenshi ifatanye n’ivyo bihugu vya kera.
 
 
 

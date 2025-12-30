@@ -568,7 +568,7 @@ objectives:
 
 
 
-- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 издания за 4 години)
+- Есето на Ербер [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 издания за 4 години)
 
 
 ![image](assets/en/033.webp)
@@ -587,7 +587,7 @@ objectives:
 Групата играе ключова роля и в публикуването на
 
 
-- [Есе за естеството на търговията като цяло](https://archive.org/details/essayonnatureofc0000cant) by Richard Cantillon.
+- [Есе за естеството на търговията като цяло](https://archive.org/details/essayonnatureofc0000cant) от Ришар Кантийон.
 
 
 ![image](assets/en/034.webp)

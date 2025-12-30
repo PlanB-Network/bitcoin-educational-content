@@ -5,5 +5,5 @@ wrong_answers:
   - Kompozitor X11
   - Upravljač paketima
 explanation: |
-  Upravljač datotekama (kao što su Nautilus, Dolphin, Thunar) omogućava korisniku upravljanje datotekama i fasciklama putem grafičkog Interface.
-reviewed: false
+  Upravljač datotekama (kao što su Nautilus, Dolphin, Thunar) omogućava korisniku upravljanje datotekama i fasciklama putem grafičkog interfejsa.
+reviewed: true

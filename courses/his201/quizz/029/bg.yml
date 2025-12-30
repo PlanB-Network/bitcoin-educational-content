@@ -1,8 +1,8 @@
-question: Каква критика отправя основателят на шифропанелите Джон Гилмор към изобретението на Satoshi Nakamoto през януари 2009 г.?
+question: Каква критика отправя шифърпънкът Джон Гилмор към изобретението на Satoshi Nakamoto през януари 2009 г.?
 answer: Bitcoin замърсява планетата
 wrong_answers:
   - Bitcoin улеснява укриването на данъци
-  - Bitcoin е уязвим към атаки на Sybil
+  - Bitcoin е уязвим към атаки на Сибил
   - Bitcoin е дефлационен
 explanation: |
   Той [критикува](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin за това, че консумира електроенергия и генерира въглероден диоксид (парников газ).

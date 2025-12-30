@@ -6,4 +6,4 @@ wrong_answers:
   - relincho ip
 explanation: |
   nmap detecta puertos abiertos, servicios expuestos y, a veces, el tipo de sistema operativo remoto.
-reviewed: false
+reviewed: true

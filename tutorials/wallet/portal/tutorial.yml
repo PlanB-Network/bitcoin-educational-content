@@ -149,6 +149,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.13
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.14
 tags:
   - hardware
   - wallets

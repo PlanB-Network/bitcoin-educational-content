@@ -1,44 +1,44 @@
 ---
 name: My Node
-description: Menyiapkan MyNode Bitcoin Anda
+description: Menyiapkan MyNode Bitcoin Milikmu
 ---
 
 ![image](assets/0.webp)
 
 https://mynodebtc.com/
 
-Cara termudah dan paling kuat untuk menjalankan Node Bitcoin dan Lightning! Kami menggabungkan perangkat lunak sumber terbuka terbaik dengan antarmuka, manajemen, dan dukungan kami sehingga Anda dapat dengan mudah, secara pribadi, dan aman menggunakan Bitcoin dan Lightning.
+Cara paling sederhana dan paling kuat untuk menjalankan Node Bitcoin dan Lightning! Kami menggabungkan perangkat lunak open source terbaik dengan antarmuka, manajemen, dan dukungan kami supaya kamu bisa menggunakan Bitcoin dan Lightning dengan mudah, privat, dan aman.
 
 ## Jenis-jenis Penyediaan Node
 
-Ada berbagai penyediaan Node. MyNode sangat luar biasa. Ada banyak aplikasi yang disertakan dengannya, dan bahkan lebih banyak lagi jika Anda membayar untuk versi premium. Jika tidak, mengunduh semua aplikasi tersebut sendiri sangat merepotkan. MyNode membuatnya cukup mudah seperti yang akan Anda lihat.
+Ada berbagai cara untuk menyiapkan node. MyNode benar-benar keren. Ada banyak aplikasi yang langsung disertakan, dan bakal lebih banyak lagi kalau kamu pakai versi premium. Kalau nggak, mengunduh semua aplikasi itu satu per satu bakal sangat merepotkan. MyNode bikin semuanya jadi jauh lebih gampang seperti yang bakal kamu lihat nanti.
 
-Sebuah alternatif dan opsi serupa adalah RaspiBlitz. GUI tidak sebagus itu, dan aplikasi-aplikasinya banyak yang tumpang tindih dengan aplikasi yang disertakan dengan MyNode, tetapi Raspiblitz adalah perangkat lunak sumber terbuka gratis (FOSS) dan MyNode tidak sepenuhnya demikian. Perbedaan lain adalah MyNode dijalankan dalam kontainer Docker. Saya menemukan Docker menakutkan dan sulit untuk di-troubleshoot. Ini hanya menjadi masalah jika Anda menemui kesalahan atau bug. Pengembang menawarkan bantuan untuk pengguna premium dan ada juga grup chat Telegram.
+Alternatif lain yang mirip adalah RaspiBlitz. GUI-nya nggak sebagus itu, dan banyak aplikasinya tumpang tindih dengan yang ada di MyNode, tapi Raspiblitz adalah perangkat lunak FOSS gratis dan MyNode nggak sepenuhnya demikian. Perbedaan lainnya adalah MyNode berjalan dalam kontainer Docker. Buat aku, Docker itu agak menakutkan dan sulit di-troubleshoot. Ini cuma jadi masalah kalau kamu ketemu error atau bug. Pengembang menyediakan bantuan untuk pengguna premium, dan ada juga grup chat Telegram.
 
-RaspiBlitz hanyalah beberapa program yang diinstal di Linux, tanpa Docker. Hard drive eksternal dapat dengan mudah dipasang ke mesin Linux lain dengan Bitcoin Core, dan Anda dapat langsung menggunakan, jika perlu.
+RaspiBlitz cuma sekumpulan program yang diinstal di Linux tanpa Docker. Hard drive eksternal bisa dengan mudah dipasang ke mesin Linux lain yang punya Bitcoin Core, dan kamu bisa langsung pakai kalau memang perlu.
 
-Opsi lain adalah hanya menginstal Bitcoin Core dan berbagai Server Electrum (ada beberapa) pada sistem operasi. Saya memiliki panduan untuk Linux (Raspberry Pi), Mac, dan Windows.
+Opsi lain adalah cukup menginstal Bitcoin Core dan berbagai server Electrum (ada beberapa jenis) di sistem operasi kamu. Aku punya panduan untuk Linux (Raspberry Pi), Mac, dan Windows.
 
 ## Daftar Belanja
 
-- Raspberry Pi 4, memori 4Gb atau 8Gb (4Gb sudah cukup)
+- Raspberry Pi 4, memori 4 Gb atau 8 Gb (4 Gb sudah cukup)
 
-- Power Resmi Raspberry Pi (Sangat Penting! Jangan membeli yang generik, serius)
+- Power resmi Raspberry Pi (sangat penting, jangan beli yang generik, serius)
 
-- Sebuah casing untuk Pi. Casing FLIRC sangat keren. Seluruh casing adalah heat sink dan Anda tidak memerlukan kipas, yang bisa berisik
+- Casing untuk Pi. Casing FLIRC keren banget. Seluruh casing berfungsi sebagai heat sink dan kamu nggak butuh kipas yang biasanya berisik
 
-- Kartu microSD 16 Gb (Anda memerlukan satu, tetapi beberapa akan berguna)
+- Kartu microSD 16 Gb (kamu butuh satu, tapi punya beberapa bakal berguna)
 
-- Pembaca kartu memori (kebanyakan komputer tidak memiliki slot untuk kartu microSD).
+- Pembaca kartu memori (kebanyakan komputer nggak punya slot microSD)
 
-- Hard drive eksternal SSD 1Tb.  
-  Catatan: SSD sangat penting. jangan gunakan hard drive eksternal portabel meskipun harganya lebih murah
+- Hard drive eksternal SSD 1 Tb
+Catatan: SSD itu penting. jangan pakai hard drive eksternal portabel walaupun lebih murah
 
-- Kabel ethernet (untuk menghubungkan ke router rumah Anda)
+- Kabel ethernet (buat menghubungkan ke router rumah kamu)
 
-- Anda tidak memerlukan monitor
+- Kamu nggak butuh monitor
 
-## Unduh Gambar MyNode
+## Unduh .img MyNode
 
 Navigasikan ke situs web MyNode Link
 
@@ -65,18 +65,20 @@ shasum -a 256 NAMABERKASUNDUHAN # <--- Mac/Linux
 certUtil -hashfile NAMABERKASUNDUHAN SHA256 # <--- Windows
 ```
 
-Komputer berpikir selama 20 detik atau lebih. Kemudian, periksa bahwa output hashfile cocok dengan yang diunduh dari situs web pada langkah sebelumnya. Jika identik, Anda dapat melanjutkan.
+Komputer akan memproses selama sekitar 20 detik atau lebih. Setelah itu, cek apakah hash file output cocok dengan hash yang kamu unduh dari situs web pada langkah sebelumnya. Kalau identik, kamu bisa lanjut.
+
 Flash kartu SD
 
 ## Unduh dan instal Balena Etcher. Link
 
-Saya tidak dapat menemukan tanda tangan digital untuk ini. Jika Anda tahu caranya, tolong beritahu saya dan saya akan memperbarui artikel ini.
+Aku belum menemukan tanda tangan digital untuk bagian ini. Kalau kamu tahu caranya, tolong kasih tahu aku dan nanti artikel ini bakal aku perbarui.
 
-Etcher mudah digunakan. Masukkan kartu micro SD Anda dan flash perangkat lunak Raspberry Pi (.img file) ke kartu SD.
+Etcher gampang banget dipakai. Masukkan kartu microSD kamu lalu flash perangkat lunak Raspberry Pi (file .img) ke kartu SD.
 
 ![image](assets/5.webp)
 ![image](assets/6.webp)
-Setelah selesai, drive tersebut tidak lagi dapat dibaca. Anda mungkin akan mendapatkan pesan error dari sistem operasi, dan drive tersebut akan menghilang dari desktop. Cabut kartunya.
+
+Setelah selesai, drive itu nggak akan bisa dibaca lagi. Kamu mungkin bakal dapat pesan error dari sistem operasi, dan drive itu akan hilang dari desktop. Cabut kartunya.
 
 ## Siapkan Pi dan masukkan kartu SD
 
@@ -85,7 +87,7 @@ Bagian-bagiannya (case tidak ditampilkan):
 ![image](assets/12.webp)
 ![image](assets/13.webp)
 
-Sambungkan kabel ethernet, dan konektor USB hard drive (belum termasuk daya). Hindari menyambungkan ke port USB berwarna biru di tengah. Itu adalah USB 3. MyNode menyarankan Anda menggunakan port USB 2, meskipun drive tersebut mungkin mendukung USB 3.
+Sambungkan kabel ethernet dan konektor USB untuk hard drive (belum termasuk daya). Hindari mencolokkannya ke port USB berwarna biru di tengah. Itu adalah USB 3. MyNode menyarankan kamu memakai port USB 2 walaupun hard drive kamu mungkin mendukung USB 3.
 
 ![image](assets/14.webp)
 
@@ -99,19 +101,19 @@ Akhirnya, sambungkan daya:
 
 ## Temukan alamat IP dari Pi
 
-Anda tidak perlu monitor dengan MyNode. Namun, Anda memerlukan komputer lain di jaringan rumah. Jika Pi Anda tidak terhubung melalui ethernet, dan Anda ingin mengandalkan WiFi, menemukan IP memerlukan keterampilan komputer tingkat tinggi. Maaf, tidak bisa membantu. Anda memerlukan koneksi ethernet. (Masalahnya berasal dari perlu mengakses monitor dan sistem operasi untuk terhubung ke WiFi dan memasukkan kata sandi).
+Kamu nggak perlu monitor untuk MyNode. Tapi kamu butuh komputer lain di jaringan rumah. Kalau Pi kamu nggak terhubung lewat ethernet dan kamu ingin mengandalkan WiFi, mencari IP itu butuh skill komputer tingkat lanjut. Maaf, aku nggak bisa bantu soal itu. Kamu memang harus pakai koneksi ethernet. (Masalahnya muncul karena kamu perlu akses monitor dan sistem operasi untuk menyambungkan ke WiFi dan masukin kata sandi).
 
-Periksa router Anda, untuk daftar semua IP dari semua perangkat yang terhubung.
+Cek router kamu untuk melihat daftar semua IP dari perangkat yang terhubung.
 
-Saya mengetik 192.168.0.1 di Browser (instruksi yang datang dengan router saya), login, dan dapat melihat perangkat "MyNode" dengan IP 192.168.0.18. Catat bahwa alamat IP ini tidak terlihat secara publik ke internet (mereka melewati router terlebih dahulu), mereka hanya pengenal untuk perangkat di jaringan rumah Anda.
+Aku cukup mengetik 192.168.0.1 di browser (sesuai instruksi dari router aku), login, lalu bisa melihat perangkat bernama "MyNode" dengan IP 192.168.0.18. Perlu dicatat kalau alamat IP ini nggak terlihat publik di internet karena semuanya lewat router dulu. IP ini cuma jadi pengenal perangkat di jaringan rumah kamu.
 
-Menemukan IP sangat penting.
+Menemukan IP itu penting.
 
-> UPDATE: Anda dapat menggunakan terminal pada komputer Mac atau Linux untuk menemukan alamat IP dari semua perangkat yang terhubung Ethernet di jaringan rumah menggunakan perintah “arp -a”. Outputnya tidak sebagus yang akan ditampilkan router, tetapi semua informasi yang Anda butuhkan ada di sana. Jika tidak jelas mana yang adalah Pi, lakukan trial and error.
+> UPDATE: Kamu bisa pakai terminal di komputer Mac atau Linux untuk menemukan alamat IP dari semua perangkat yang terhubung via ethernet di jaringan rumah dengan perintah “arp -a”. Outputnya memang nggak sebagus tampilan di router, tapi semua info yang kamu butuhin ada di situ. Kalau nggak jelas mana yang Pi, pakai cara trial and error.
 
 ## SSH ke dalam Pi
 
-Anda memiliki opsi untuk login ke perangkat dari jarak jauh melalui perintah SSH, tetapi ini tidak diperlukan (diperlukan jika RaspiBlitz Node). Saya akan menunjukkan caranya bagaimanapun, karena ini sangat berguna.
+Kamu punya opsi untuk login ke perangkat dari jarak jauh lewat perintah SSH, tapi ini nggak wajib (beda dengan RaspiBlitz yang memang perlu). Aku tetap bakal tunjukin caranya karena ini sangat berguna.
 
 Buka komputer Mac atau Linux (untuk Windows, unduh putty, sebuah alat SSH) dan ketik:
 
@@ -119,53 +121,53 @@ Buka komputer Mac atau Linux (untuk Windows, unduh putty, sebuah alat SSH) dan k
 ssh admin@192.168.0.18
 ```
 
-Gunakan alamat IP Anda sendiri. Nama pengguna untuk perangkat MyNode adalah “admin” secara default. Kata sandinya adalah “bolt” secara default.
+Gunakan alamat IP milik kamu sendiri. Nama pengguna default untuk perangkat MyNode adalah “admin”. Kata sandinya juga default, yaitu “bolt”.
 
-Jika Anda telah menggunakan Pi Anda sebelumnya dan mengganti kartu micro SD, Anda akan mendapatkan error ini:
-
+Kalau kamu pernah memakai Pi itu sebelumnya dan mengganti kartu microSD, kamu bakal dapet error seperti ini:
 ![image](assets/17.webp)
 
-Yang perlu Anda lakukan adalah menavigasi ke tempat file “known_hosts” berada dan menghapusnya. Aman untuk dilakukan. Pesan error menunjukkan Anda jalurnya. Untuk saya itu adalah /Users/NamaPenggunaSaya/.ssh/
+Yang perlu kamu lakukan cuma pergi ke lokasi file “known_hosts” dan hapus file itu. Ini aman untuk dilakukan. Pesan error bakal nunjukin jalurnya. Di aku lokasinya adalah /Users/NamaPenggunaSaya/.ssh/
 
-Jangan lupa “.” sebelum ssh, ini menunjukkan itu adalah direktori tersembunyi.
+Jangan lupa ada “.” sebelum ssh karena itu menandakan direktori tersembunyi.
 
-Kemudian coba perintah ssh lagi.
+Setelah itu coba perintah ssh lagi.
 
-Kali ini Anda akan melihat output ini:
+Kali ini kamu bakal melihat output seperti ini:
 
 ![image](assets/18.webp)
 
-File yang Anda hapus telah dihapus dan Anda menambahkan sidik jari baru. Ketik yes dan <enter>.
+File yang tadi kamu hapus sudah benar-benar hilang dan kamu baru saja menambahkan fingerprint yang baru. Ketik yes lalu tekan <enter>.
 
-Anda akan diminta untuk memasukkan kata sandi. Kata sandinya adalah “bolt”
-Anda sekarang memiliki akses terminal ke MyNode Pi, tanpa monitor, dan dapat memastikan semuanya berjalan lancar.
+Setelah itu kamu akan diminta memasukkan kata sandi. Kata sandinya adalah “bolt”.
+
+Sekarang kamu sudah punya akses terminal ke MyNode Pi tanpa perlu monitor, dan kamu bisa memastikan semuanya berjalan lancar.
 
 ## Akses melalui Web Browser
 
-Buka browser. Ini harus dilakukan dari komputer di jaringan rumah Anda, Anda tidak bisa melakukan ini dari luar. Ada caranya, tapi sulit. Saya belum mencobanya.
+Buka browser. Ini harus dilakukan dari komputer yang ada di jaringan rumah kamu, kamu nggak bisa melakukannya dari luar. Ada caranya, tapi rumit. Aku sendiri belum pernah coba.
 
-Ketik alamat IP di jendela alamat browser. Ini yang akan terjadi:
+Ketik alamat IP ke kolom alamat browser. Ini yang bakal muncul:
 
-Masukkan kata sandi "bolt" – ubah nanti.
+Masukkan kata sandi "bolt" – nanti kamu ganti.
 
-Kemudian ini yang akan terjadi:
+Lalu ini yang bakal muncul:
 
 Pilih Format Drive
 
-Sekarang kita tunggu.
+Sekarang tinggal tunggu.
 
-Pada suatu titik Anda akan ditanya apakah Anda ingin memasukkan kunci produk Anda, atau menggunakan edisi "komunitas" gratis — Saya akan menunjukkan edisi Premium. Saya merekomendasikan untuk membayar versi premium jika Anda mampu, sangat berharga.
+Di satu titik kamu akan ditanya apakah kamu mau memasukkan product key atau memakai edisi komunitas yang gratis. Aku bakal nunjukin edisi Premium. Aku rekomendasikan bayar versi premium kalau kamu mampu, sangat worth it.
 
-Anda kemudian akan melihat progres dari blok yang diunduh. Ini memakan waktu berhari-hari:
+Setelah itu kamu bakal melihat progres pengunduhan blok. Proses ini makan waktu beberapa hari:
 
-Aman untuk mematikan mesin selama pengunduhan jika Anda perlu. Pergi ke pengaturan dan temukan tombol untuk mematikan mesin. Jangan sekadar mencabut kabel, Anda bisa merusak instalasi atau hard drive.
+Mesin aman untuk dimatikan selama proses pengunduhan kalau memang perlu. Masuk ke pengaturan dan cari tombol untuk mematikan mesin. Jangan langsung mencabut kabel karena kamu bisa merusak instalasi atau hard drive.
 
-Pastikan, sejak awal, pergi ke "Pengaturan" dan nonaktifkan quicksync. Ini akan memulai pengunduhan blok awal dari awal.
+Pastikan sejak awal kamu masuk ke “Pengaturan” dan nonaktifkan quicksync. Ini bakal membuat proses initial block download dimulai dari awal.
 
-Saya ingin melanjutkan dengan membuat panduan, jadi inilah MyNode lain yang saya siapkan sebelumnya. Ini tampilan halaman ketika blockchain telah disinkronkan, dan beberapa "aplikasi" telah diaktifkan dan disinkronkan:
+Karena aku ingin lanjut bikin panduan, berikut tampilan MyNode lain yang sudah aku siapkan sebelumnya. Ini adalah tampilan halaman ketika blockchain sudah tersinkronisasi dan beberapa aplikasi sudah diaktifkan dan disinkronkan:
 
-Perhatikan bahwa Electrum Server juga perlu disinkronkan, jadi segera setelah Bitcoin Blockchain disinkronkan, klik tombol untuk memulai proses itu – memakan waktu satu atau dua hari. Semuanya lainnya diaktifkan dalam beberapa menit setelah Anda memilih untuk mengaktifkannya. Anda dapat mengklik hal-hal dan menjelajah. Anda tidak akan merusak apa pun. Jika sesuatu rusak (ini terjadi pada saya, tapi saya pikir karena saya memiliki bagian yang murah) Anda harus melakukan flash ulang dan mulai mengunduh lagi. Masalah yang saya miliki dengan MyNode adalah jika Anda perlu "melakukan flash ulang" Anda akhirnya perlu memulai sinkronisasi blockchain lagi dari awal. Ada cara teknis untuk mengatasi ini, tapi tidak mudah.
+Perhatikan bahwa Electrum Server juga harus disinkronkan. Jadi segera setelah Bitcoin Blockchain selesai sinkron, klik tombol untuk memulai proses itu. Ini makan waktu satu sampai dua hari. Semua hal lain aktif dalam beberapa menit setelah kamu memilih untuk mengaktifkannya. Kamu bisa klik apa saja dan menjelajah. Kamu nggak akan merusakkan apa pun. Kalau sesuatu crash (ini pernah terjadi ke aku, tapi sepertinya karena aku pakai komponen yang murah) kamu harus flash ulang dan mulai unduh dari awal. Masalah dengan MyNode adalah kalau kamu harus flash ulang, kamu akhirnya harus memulai sinkronisasi blockchain dari nol lagi. Ada cara teknis untuk menghindari ini, tapi nggak mudah.
 
-Jika Anda ingin mencoba node lain juga, misalnya RaspiBlitz, Anda memerlukan hard drive eksternal SSD tambahan, dan kartu micro SD lain untuk di-flash. Selain itu, peralatannya sama, Anda hanya tidak bisa menjalankan MyNode dan RaspiBlitz secara bersamaan, jelas. Jika Anda ingin melakukan itu, saatnya untuk berbelanja Raspberry Pi lain.
+Kalau kamu ingin mencoba node lain juga, misalnya RaspiBlitz, kamu butuh SSD eksternal tambahan dan satu kartu microSD lagi untuk di-flash. Selain itu, peralatannya sama. Kamu cuma nggak bisa menjalankan MyNode dan RaspiBlitz secara bersamaan. Kalau mau begitu, saatnya beli Raspberry Pi tambahan.
 
-Sekarang Anda memiliki node yang berjalan, gunakan, jangan biarkan itu hanya duduk di sana tidak melakukan apa-apa untuk Anda. Ikuti artikel (dan video) saya tentang cara menghubungkan Electrum Desktop Wallet Anda ke Electrum Server dan Bitcoin Core di sini.
+Sekarang node kamu sudah berjalan, gunakan. Jangan cuma dibiarkan nganggur. Ikuti artikel dan video aku tentang cara menghubungkan Electrum Desktop Wallet ke Electrum Server dan Bitcoin Core di sini.

@@ -2543,11 +2543,11 @@ For example, you could structure your sessions as follows:
 
 - An account dedicated to your professional activity, where you install only the software you strictly need (office suites, collaboration tools, professional messaging...). This session must not be used for free web browsing or software testing;
 - An account for personal use, used for everyday web browsing, social networking, streaming, or installing consumer applications. This is typically the session most exposed to browser attacks or suspicious downloads;
-- An account reserved for sensitive activities, such as consulting bank accounts, managing your Bitcoin portfolios, or any other use requiring a high level of security. This account should be used exclusively for these tasks, with software installed limited to what is strictly necessary, and with a stricter network configuration;
+- An account reserved for sensitive activities, such as consulting bank accounts, managing your Bitcoin wallets, or any other use requiring a high level of security. This account should be used exclusively for these tasks, with software installed limited to what is strictly necessary, and with a stricter network configuration;
 - A guest or highly restricted account, intended exclusively for occasional use by family members, for example. This account must obviously have no administrator rights and limited access.
 
 
-There are several advantages to adopting this approach. Firstly, applications installed in a session cannot interfere with those of others (except in the case of privilege elevation). Secondly, if a session is compromised, for example via downloaded malware, the impact is generally contained within the limits of that account. This means that your business documents or Bitcoin portfolios will remain inaccessible to malware if they are kept in another, properly isolated session.
+There are several advantages to adopting this approach. Firstly, applications installed in a session cannot interfere with those of others (except in the case of privilege elevation). Secondly, if a session is compromised, for example via downloaded malware, the impact is generally contained within the limits of that account. This means that your business documents or Bitcoin wallets will remain inaccessible to malware if they are kept in another, properly isolated session.
 
 
 On Linux, this separation can be reinforced by mechanisms such as AppArmor or SELinux, which can be used to further restrict access rights for each session.
@@ -3108,7 +3108,7 @@ For Windows, if you don't have GPG, you can install [Gpg4win](https://www.gpg4wi
 #### Download documents
 
 
-To get started, you'll need several documents relating to the software you wish to install. In this example, we'll be checking out *Sparrow wallet*, a Bitcoin portfolio manager. The process will be similar for any other software: all you need to do is find the right files for verification.
+To get started, you'll need several documents relating to the software you wish to install. In this example, we'll be checking out *Sparrow wallet*, a Bitcoin wallet manager. The process will be similar for any other software: all you need to do is find the right files for verification.
 
 
 Visit the official website of [Sparrow wallet in the "_Download_" section](https://sparrowwallet.com/download/). If you'd like to check out another program, please visit the site for that program.
@@ -3227,7 +3227,7 @@ Replace `[file_path]` with the installer location.
 ![Image](assets/fr/229.webp)
 
 
-The terminal returns the Hash with the downloaded software.
+The terminal returns the Hash of the downloaded software.
 
 
 ![Image](assets/fr/230.webp)
@@ -3739,7 +3739,7 @@ This package installs `exiftool`, which you can then use directly from the comma
 
 
 
-- Step 2: **Viewing file metadata** (in French)
+- Step 2: **Viewing file metadata**
 
 
 To view all the metadata contained in a file, use the following command:
@@ -3901,7 +3901,7 @@ We've come to the end of this section on securing your computer. In the next sec
 <partId>125c3d99-6aba-4050-bc7c-8543ef8587e4</partId>
 
 
-## A brief history of navigators
+## A brief history of browsers
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
@@ -3918,7 +3918,7 @@ Yet it has not always held this central role. The history of browsers is marked 
 → The browser is often mistakenly confused with the search engine. Yet the two are very different. The web browser is used to display websites, while the search engine (which can be accessed from the we browser) is used to find information online by indexing and classifying web pages.
 
 
-### The birth and first navigators
+### The birth and first browsers
 
 
 The history of web browsers begins with the birth of the *World Wide Web*, invented by Tim Berners-Lee in 1989-1990. It's a system for accessing pages containing text, images, videos or links via the Internet, using a web browser. To make this new system accessible, in autumn 1990 he developed the very first browser, called "WorldWideWeb", which laid the foundations for browsing as we know it today. It allows both viewing and creating web pages, including an integrated HTML editor. To avoid any confusion between the browser and the Web itself, its name was later changed to "Nexus".
@@ -3942,19 +3942,19 @@ But it was in 1993 that the Web really entered a phase of rapid growth with the 
 ![Image](assets/fr/095.webp)
 
 
-In 1994, Marc Andreessen left NCSA and founded Netscape Communications with Jim Clark. A large part of the team who had worked on Mosaic joined him. Shortly afterwards, the company launches Netscape Navigator, a browser based on Mosaic's foundations, but with better performance and technical improvements. In 1995, Netscape innovated by introducing the JavaScript language, developed by Brendan Eich, which enabled web pages to become dynamic, i.e. capable of reacting to user actions without reloading the page.
+In 1994, Marc Andreessen left NCSA and founded Netscape Communications with Jim Clark. A large part of the team who had worked on Mosaic joined him. Shortly afterwards, the company launches Netscape browser, a browser based on Mosaic's foundations, but with better performance and technical improvements. In 1995, Netscape innovated by introducing the JavaScript language, developed by Brendan Eich, which enabled web pages to become dynamic, i.e. capable of reacting to user actions without reloading the page.
 
 
 ![Image](assets/fr/096.webp)
 
 
-Thanks to its ease of use, cross-platform compatibility and speed, Netscape Navigator quickly established itself as the standard for the emerging Web. By 1995, it held up to 90% of market share, marking the beginning of the first era of web browsers. This massive success soon triggered Microsoft to react, leading to the browser war.
+Thanks to its ease of use, cross-platform compatibility and speed, Netscape browser quickly established itself as the standard for the emerging Web. By 1995, it held up to 90% of market share, marking the beginning of the first era of web browsers. This massive success soon triggered Microsoft to react, leading to the browser war.
 
 
 ### From browser wars to the age of monopoly
 
 
-The meteoric success of Netscape Navigator in the mid-1990s was not lost on Microsoft, which quickly realized the strategic importance of the web browser in the future of computing. In August 1995, a few days after the release of Windows 95, Microsoft launched the first version of Internet Explorer, initially based on a commercial license of the Spyglass Mosaic source code (a different commercial version of Mosaic from the one developed at NCSA).
+The meteoric success of Netscape browser in the mid-1990s was not lost on Microsoft, which quickly realized the strategic importance of the web browser in the future of computing. In August 1995, a few days after the release of Windows 95, Microsoft launched the first version of Internet Explorer, initially based on a commercial license of the Spyglass Mosaic source code (a different commercial version of Mosaic from the one developed at NCSA).
 
 
 The first version of Internet Explorer was still rudimentary, but Microsoft began an aggressive development policy. In 1996, with Internet Explorer 3.0, Microsoft began integrating its browser directly into the Windows operating system, eliminating the need for users to download a third-party browser. This integration was strengthened with Internet Explorer 4.0 in 1997, which introduced a new proprietary rendering engine called Trident. This engine considerably improves page display speed and integrates deeply with Windows interface.
@@ -5467,7 +5467,7 @@ An email system is based on 2 distinct components: The email provider (such as G
 
 It is therefore possible to use a privacy-friendly open-source client while initially maintaining an account with a more traditional provider. Some applications, such as Gmail, Proton Mail or Tuta, offer email clients that also act as a messaging provider, and thus offer a complete solution integrating both the interface reading and sending/receiving email service.
 
-Here are a few suggestions, where you're choosing your email provider:
+Here are a few suggestions, when you're choosing your email provider:
 
 - [Proton Mail](https://proton.me/mail)
 - [Tuta](https://tuta.com/)

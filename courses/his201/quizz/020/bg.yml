@@ -1,9 +1,9 @@
-question: Какво е било основното вдъхновение на Satoshi Накамото при първоначалното проектиране на Bitcoin?
+question: Какво е било основното вдъхновение на Satoshi при първоначалното проектиране на Bitcoin?
 answer: eCash (Дейвид Чаум)
 wrong_answers:
-  - b-money (Wei Dai)
-  - малко злато (Nick Szabo)
-  - RPOW (Hal Finney)
+  - b-money (Уей Дай)
+  - bit gold (Ник Сабо)
+  - RPOW (Хал Фини)
 explanation: |
   Въпреки голямата им прилика, основното вдъхновение на Satoshi не са моделите на b-money, bit gold и RPOW, защото той просто не ги е познавал преди август 2008 г.
 reviewed: true

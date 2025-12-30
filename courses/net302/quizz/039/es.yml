@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal diferencia entre una IPv4 Address pública y una IPv4 Address privada?
-answer: Una Address pública es única y enrutable en Internet
+question: ¿Cuál es la principal diferencia entre una dirección IPv4 pública y una dirección IPv4 privada?
+answer: Una dirección pública es única y enrutable en internet
 wrong_answers:
-  - Una Address privada es única y enrutable en Internet
-  - Una Address pública siempre se asigna mediante DHCP
-  - Un Address privado siempre se asigna mediante DHCP
+  - Una dirección privada es única y enrutable en internet
+  - Una dirección pública siempre se asigna mediante DHCP
+  - Una dirección privada siempre se asigna mediante DHCP
 explanation: |
-  Una Address IPv4 pública es única a nivel mundial y enrutable en Internet, mientras que una Address privada sólo es válida dentro de una red local.
-reviewed: false
+  Una dirección IPv4 pública es única a nivel mundial y enrutable en internet, mientras que una dirección privada sólo es válida dentro de una red local.
+reviewed: true

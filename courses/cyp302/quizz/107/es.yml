@@ -6,4 +6,4 @@ wrong_answers:
   - El atacante usa un mensaje antiguo para crear uno nuevo
 explanation: |
   En un ataque de reflexión, el atacante intercepta un mensaje de Alice a Bob y envía el mismo mensaje de vuelta a Alice, causando confusión en la sesión.
-reviewed: false
+reviewed: true

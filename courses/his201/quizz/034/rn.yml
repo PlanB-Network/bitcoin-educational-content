@@ -1,9 +1,9 @@
-question: Ni nde yashinze igikorwa ca mbere ca Exchange hagati ya Bitcoin n’idolari mu kwezi kwa Gitugutu 2009?
-answer: Ukwidegemvya gushasha
+question: Ni nde yashinze igikorwa ca mbere co kuvunja Bitcoin n’idolari mu kwezi kwa Gitugutu 2009?
+answer: NewLibertyStandard
 wrong_answers:
-  - siriyo-m
-  - idolari
-  - Umwotsi mwinshi cane
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
 explanation: |
-  Iryo koraniro ryari ry’intango: uguhanahana amakuru kwari gushikirizwa biciye kuri email, kandi ukwishurwa kwari gukorwa biciye kuri PayPal. Igitigiri ca Exchange cari gishingiye ku giciro ca Mining ca Newlibertystandard ubwaco.
+  Iryo koraniro ryari ry’intango: uguhanahana amakuru kwari gushikirizwa biciye kuri email, kandi ukuriha kwari gukorwa biciye kuri PayPal. Igitigiri co guhanaha cari gishingiye ku giciro ca Mining ca Newlibertystandard ubwaco.
 reviewed: true

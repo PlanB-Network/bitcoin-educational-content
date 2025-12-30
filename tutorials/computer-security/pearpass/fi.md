@@ -11,7 +11,7 @@ Nykyään, kun jokainen henkilö hallinnoi kymmeniä, jopa satoja verkkotilejä,
 
 
 
-Hyökkäysten kasvavasta määrästä huolimatta huonot käytännöt ovat edelleen laajalle levinneet väestön keskuudessa: heikot salasanat, uudelleen käytetyt salasanat, selkeänä tekstinä tallennetut salasanat tai suunnilleen ulkoa opitut salasanat. Näiden ongelmien ratkaisemiseksi ilman, että elämästä tulee päivittäin monimutkaisempaa, ratkaisu on käyttää salasanahallintaohjelmaa.
+Siitä huolimatta, hyökkäysten lisääntymisestä huolimatta huonot käytännöt ovat edelleen laajalle levinneitä väestön keskuudessa: heikot salasanat, uudelleenkäytetyt salasanat, selväkielisinä tallennetut tai epätarkasti muistetut salasanat. Näiden ongelmien ratkaisemiseksi ilman arjen tarpeetonta monimutkaistamista ratkaisu on salasananhallintaohjelman käyttö.
 
 
 

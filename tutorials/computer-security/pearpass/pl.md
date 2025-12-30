@@ -11,7 +11,7 @@ W czasach, gdy każda osoba zarządza dziesiątkami, a nawet setkami kont online
 
 
 
-A jednak, pomimo rosnącej liczby ataków, złe praktyki pozostają powszechne wśród populacji: słabe hasła, ponownie używane hasła, hasła przechowywane w postaci zwykłego tekstu lub hasła w przybliżeniu zapamiętane. Aby rozwiązać te problemy bez komplikowania sobie codziennego życia, rozwiązaniem jest korzystanie z menedżera haseł.
+Jednak mimo wzrostu liczby ataków złe praktyki pozostają powszechne wśród społeczeństwa: słabe hasła, hasła wielokrotnie używane, przechowywane w postaci jawnej lub zapamiętywane w przybliżeniu. Aby rozwiązać te problemy bez komplikowania codziennego życia, rozwiązaniem jest korzystanie z menedżera haseł.
 
 
 

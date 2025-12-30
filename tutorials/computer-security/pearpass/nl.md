@@ -11,7 +11,7 @@ In een tijd waarin elk individu tientallen, zelfs honderden online accounts behe
 
 
 
-En toch, ondanks het groeiende aantal aanvallen, blijven slechte praktijken wijdverspreid onder de bevolking: zwakke wachtwoorden, hergebruikte wachtwoorden, wachtwoorden opgeslagen in duidelijke tekst of ongeveer gememoriseerde wachtwoorden. Om deze problemen op te lossen zonder het dagelijks leven ingewikkelder te maken, is de oplossing het gebruik van een wachtwoordmanager.
+Toch blijven, ondanks de toename van aanvallen, slechte praktijken wijdverbreid onder de bevolking: zwakke wachtwoorden, hergebruikte wachtwoorden, wachtwoorden die in platte tekst worden opgeslagen of slechts bij benadering worden onthouden. Om deze problemen op te lossen zonder het dagelijks leven te compliceren, bestaat de oplossing uit het gebruik van een wachtwoordbeheerder.
 
 
 

@@ -11,7 +11,7 @@ Wakati ambapo kila mtu anasimamia akaunti nyingi, hata mamia ya mtandaoni, usala
 
 
 
-Na bado, licha ya idadi inayoongezeka ya mashambulizi, mazoea mabaya yanabaki kuenea miongoni mwa watu: nywila dhaifu, nywila zinazotumika tena, nywila zilizohifadhiwa katika maandishi wazi au nywila zilizokaririwa kwa takriban. Ili kutatua matatizo haya bila kufanya maisha kuwa magumu zaidi kila siku, suluhisho ni kutumia kidhibiti cha nywila.
+Hata hivyo, licha ya kuongezeka kwa mashambulizi, mazoea mabaya bado yameenea sana miongoni mwa watu: nenosiri dhaifu, yanayotumiwa tena, yaliyohifadhiwa kama maandishi wazi au yanayokumbukwa kwa takriban. Ili kutatua matatizo haya bila kufanya maisha ya kila siku kuwa magumu, suluhisho ni kutumia msimamizi wa nenosiri.
 
 
 

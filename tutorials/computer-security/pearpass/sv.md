@@ -11,7 +11,7 @@ I en tid när varje individ hanterar dussintals, till och med hundratals onlinek
 
 
 
-Trots det ökande antalet attacker är dåliga metoder fortfarande utbredda bland befolkningen: svaga lösenord, återanvända lösenord, lösenord som lagras i klartext eller ungefär memorerade lösenord. För att lösa dessa problem utan att göra livet mer komplicerat på daglig basis är lösningen att använda en lösenordshanterare.
+Trots detta, och trots ökningen av attacker, är dåliga rutiner fortfarande mycket utbredda bland befolkningen: svaga lösenord, återanvända lösenord, lösenord som lagras i klartext eller som bara memoreras ungefärligt. För att lösa dessa problem utan att komplicera vardagen är lösningen att använda en lösenordshanterare.
 
 
 

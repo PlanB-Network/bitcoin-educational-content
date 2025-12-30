@@ -11,7 +11,7 @@ Trong thời đại mà mỗi cá nhân quản lý hàng chục, thậm chí hà
 
 
 
-Tuy nhiên, bất chấp số lượng các cuộc tấn công ngày càng tăng, những thói quen xấu vẫn còn phổ biến trong cộng đồng: mật khẩu yếu, mật khẩu được sử dụng lại, mật khẩu được lưu trữ dưới dạng văn bản thuần hoặc mật khẩu được nhớ sơ lược. Để giải quyết những vấn đề này mà không làm cho cuộc sống hàng ngày trở nên phức tạp hơn, giải pháp là sử dụng trình quản lý mật khẩu.
+Tuy nhiên, mặc dù các cuộc tấn công ngày càng gia tăng, những thói quen kém vẫn còn phổ biến trong cộng đồng: mật khẩu yếu, mật khẩu được tái sử dụng, được lưu trữ dưới dạng văn bản thuần hoặc chỉ được ghi nhớ một cách ước chừng. Để giải quyết những vấn đề này mà không làm phức tạp cuộc sống hằng ngày, giải pháp là sử dụng trình quản lý mật khẩu.
 
 
 

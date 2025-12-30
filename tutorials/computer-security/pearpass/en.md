@@ -9,7 +9,7 @@ description: Regain control of your passwords with a local, peer-to-peer, cloud-
 At a time when every individual manages dozens, even hundreds of online accounts, the security of logins has become a central issue in IT security. Social networks, messaging systems, professional services, financial platforms: each of these accesses relies on a secret, the compromise of which can have serious consequences for your life.
 
 
-And yet, despite the growing number of attacks, bad practices remain widespread among the population: weak passwords, reused passwords, passwords stored in clear text or approximately memorized passwords. To solve these problems without making life more complicated on a daily basis, the solution is to use a password manager.
+Yet, despite the increase in attacks, poor practices remain widespread among the population: weak passwords, reused passwords, passwords stored in plain text or remembered approximately. To address these issues without complicating daily life, the solution is to use a password manager.
 
 
 Dozens of password managers already exist, and Plan ₿ Academy offers a tutorial for most of them. But in this tutorial, I'd like to introduce you to one that clearly stands out from the rest in terms of how it works: **PearPass**.

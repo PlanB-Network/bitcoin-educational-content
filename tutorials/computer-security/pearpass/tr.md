@@ -11,7 +11,7 @@ Her bireyin düzinelerce, hatta yüzlerce çevrimiçi hesabı yönettiği bir za
 
 
 
-Yine de, artan saldırı sayısına rağmen, kötü uygulamalar halk arasında yaygın olmaya devam ediyor: zayıf parolalar, tekrar kullanılan parolalar, açık metin olarak saklanan parolalar veya yaklaşık olarak ezberlenmiş parolalar. Bu sorunları hayatı günlük olarak daha karmaşık hale getirmeden çözmek için çözüm bir parola yöneticisi kullanmaktır.
+Buna rağmen, saldırıların artmasına karşın kötü uygulamalar toplum genelinde hâlâ yaygındır: zayıf parolalar, yeniden kullanılan parolalar, düz metin olarak saklanan veya yaklaşık şekilde hatırlanan parolalar. Günlük yaşamı karmaşıklaştırmadan bu sorunları çözmek için çözüm, bir parola yöneticisi kullanmaktır.
 
 
 

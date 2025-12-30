@@ -11,7 +11,7 @@ Numa altura em que cada indivíduo gere dezenas, ou mesmo centenas, de contas em
 
 
 
-E, no entanto, apesar do número crescente de ataques, as más práticas continuam generalizadas entre a população: palavras-passe fracas, palavras-passe reutilizadas, palavras-passe armazenadas em texto claro ou palavras-passe aproximadamente memorizadas. Para resolver estes problemas sem tornar a vida mais complicada no dia a dia, a solução é utilizar um gestor de palavras-passe.
+No entanto, apesar do aumento dos ataques, as más práticas continuam amplamente disseminadas na população: palavras-passe fracas, reutilizadas, armazenadas em texto simples ou memorizadas de forma aproximada. Para resolver estes problemas sem complicar o dia a dia, a solução passa por utilizar um gestor de palavras-passe.
 
 
 

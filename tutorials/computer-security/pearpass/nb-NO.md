@@ -11,7 +11,7 @@ I en tid der hver enkelt person administrerer dusinvis, til og med hundrevis av 
 
 
 
-Til tross for det økende antallet angrep er dårlig praksis fortsatt utbredt blant befolkningen: svake passord, gjenbruk av passord, passord lagret i klartekst eller passord som er lagret utenat. For å løse disse problemene uten å gjøre hverdagen mer komplisert, er løsningen å bruke en passordbehandler.
+Likevel, til tross for økningen i angrep, er dårlige praksiser fortsatt utbredt i befolkningen: svake passord, gjenbrukte passord, passord lagret i klartekst eller omtrent husket. For å løse disse problemene uten å komplisere hverdagen, er løsningen å bruke en passordbehandler.
 
 
 

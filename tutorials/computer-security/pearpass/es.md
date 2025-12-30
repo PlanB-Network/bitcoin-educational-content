@@ -11,7 +11,7 @@ En una época en la que cada individuo gestiona decenas, incluso centenares de c
 
 
 
-Y sin embargo, a pesar del creciente número de ataques, las malas prácticas siguen estando muy extendidas entre la población: contraseñas débiles, contraseñas reutilizadas, contraseñas almacenadas en texto claro o contraseñas aproximadamente memorizadas. Para resolver estos problemas sin complicarse la vida a diario, la solución es utilizar un gestor de contraseñas.
+Sin embargo, a pesar de la multiplicación de los ataques, las malas prácticas siguen estando ampliamente extendidas entre la población: contraseñas débiles, reutilizadas, almacenadas en texto plano o memorizadas de forma aproximada. Para resolver estos problemas sin complicar la vida cotidiana, la solución consiste en utilizar un gestor de contraseñas.
 
 
 

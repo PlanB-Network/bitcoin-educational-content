@@ -11,7 +11,7 @@ Pada saat setiap individu mengelola puluhan, bahkan ratusan akun online, keamana
 
 
 
-Namun, meskipun jumlah serangan terus bertambah, praktik-praktik buruk tetap tersebar luas di kalangan masyarakat: kata sandi yang lemah, kata sandi yang digunakan ulang, kata sandi yang disimpan dalam teks yang jelas, atau kata sandi yang mudah diingat. Untuk mengatasi masalah ini tanpa membuat hidup Anda menjadi lebih rumit setiap hari, solusinya adalah dengan menggunakan pengelola kata sandi.
+Namun demikian, meskipun serangan semakin meningkat, praktik yang buruk masih sangat umum di kalangan masyarakat: kata sandi yang lemah, digunakan kembali, disimpan dalam teks biasa, atau diingat secara kira-kira. Untuk mengatasi masalah ini tanpa mempersulit kehidupan sehari-hari, solusinya adalah menggunakan pengelola kata sandi.
 
 
 

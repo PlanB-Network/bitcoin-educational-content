@@ -11,7 +11,7 @@ V době, kdy každý člověk spravuje desítky, dokonce stovky online účtů, 
 
 
 
-Navzdory rostoucímu počtu útoků jsou mezi lidmi stále rozšířené špatné postupy: slabá hesla, opakovaně používaná hesla, hesla uložená v čistém textu nebo hesla, která se přibližně pamatují. Řešením, jak tyto problémy vyřešit, aniž by si člověk každodenně komplikoval život, je používání správce hesel.
+Přesto navzdory nárůstu útoků zůstávají špatné praktiky mezi obyvatelstvem velmi rozšířené: slabá hesla, opakovaně používaná, ukládaná v otevřené podobě nebo zapamatovaná přibližně. K vyřešení těchto problémů bez zbytečného komplikování každodenního života spočívá řešení v používání správce hesel.
 
 
 

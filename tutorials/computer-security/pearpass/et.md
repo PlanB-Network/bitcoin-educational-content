@@ -11,7 +11,7 @@ Ajal, mil iga inimene haldab kümneid, isegi sadu veebikontosid, on sisselogimis
 
 
 
-Vaatamata rünnakute arvu suurenemisele on halvad tavad elanikkonna seas endiselt laialt levinud: nõrgad paroolid, korduvkasutatavad paroolid, selge tekstina salvestatud paroolid või ligikaudu meeldejäetud paroolid. Nende probleemide lahendamiseks, ilma et elu igapäevaselt keerulisemaks muutuks, on lahenduseks paroolihalduri kasutamine.
+Siiski, hoolimata rünnakute sagenemisest, on halvad tavad elanikkonna seas endiselt laialt levinud: nõrgad paroolid, korduvkasutatavad paroolid, selges tekstis salvestatud või umbkaudselt meelde jäetud paroolid. Nende probleemide lahendamiseks ilma igapäevaelu keerulisemaks muutmata seisneb lahendus paroolihalduri kasutamises.
 
 
 

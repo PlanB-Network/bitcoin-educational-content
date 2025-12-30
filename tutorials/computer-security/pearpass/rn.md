@@ -11,7 +11,7 @@ Mu gihe umuntu wese arongoye amakonti menshi, mbere n’amajana yo kuri Internet
 
 
 
-Kandi naho nyene igitigiri c’ibitero kiriko kiragwira, ingeso mbi ziguma zikwiragiye mu bantu: amajambo y’ibanga agoyagoya, amajambo y’ibanga asubirwamwo, amajambo y’ibanga abitswe mu nyandiko zitomoye canke amajambo y’ibanga ashobora gufatwa mu mutwe hafi. Kugira ngo ivyo bibazo bitorerwe umuti ataco bituma ubuzima bugorana ku musi ku musi, umuti ni ugukoresha umucungerezi w’ijambobanga.
+Ariko naho ibitero bigenda vyiyongera, ingeso mbi ziracari zikwiragiye cane mu bantu: amajambo y’ibanga adakomeye, asubirwamwo gukoreshwa, abitswe atarakingirwa canke yibukwa mu buryo budatomoye. Kugira ngo ivyo bibazo bikemurwe ata kugora ubuzima bwa misi yose, umuti ni ugukoresha umucungezi w’amajambo y’ibanga.
 
 
 

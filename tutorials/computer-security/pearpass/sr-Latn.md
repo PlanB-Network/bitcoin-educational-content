@@ -11,7 +11,7 @@ U vreme kada svaki pojedinac upravlja desetinama, čak i stotinama online naloga
 
 
 
-Ipak, uprkos sve većem broju napada, loše prakse su i dalje rasprostranjene među populacijom: slabe lozinke, ponovo korišćene lozinke, lozinke sačuvane u čistom tekstu ili približno zapamćene lozinke. Da bi se ovi problemi rešili bez dodatnog komplikovanja svakodnevnog života, rešenje je korišćenje menadžera lozinki.
+Ipak, uprkos porastu broja napada, loše prakse i dalje su široko rasprostranjene među stanovništvom: slabe lozinke, ponovo korišćene lozinke, lozinke sačuvane u čistom tekstu ili zapamćene približno. Da bi se ovi problemi rešili bez komplikovanja svakodnevnog života, rešenje je korišćenje menadžera lozinki.
 
 
 

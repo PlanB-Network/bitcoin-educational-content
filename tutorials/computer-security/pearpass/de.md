@@ -11,7 +11,7 @@ In einer Zeit, in der jeder Einzelne Dutzende, ja Hunderte von Online-Konten ver
 
 
 
-Doch trotz der wachsenden Zahl von Angriffen sind schlechte Praktiken in der Bevölkerung nach wie vor weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte Passwörter oder etwa auswendig gelernte Passwörter. Um diese Probleme zu lösen, ohne das tägliche Leben komplizierter zu machen, besteht die Lösung in der Verwendung eines Passwortmanagers.
+Dennoch bleiben trotz der Zunahme von Angriffen schlechte Praktiken in der Bevölkerung weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte oder nur ungenau gemerkte Passwörter. Um diese Probleme zu lösen, ohne den Alltag unnötig zu verkomplizieren, besteht die Lösung in der Nutzung eines Passwortmanagers.
 
 
 

@@ -11,7 +11,7 @@ In un'epoca in cui ogni individuo gestisce decine o addirittura centinaia di acc
 
 
 
-Eppure, nonostante il numero crescente di attacchi, le cattive pratiche rimangono diffuse tra la popolazione: password deboli, password riutilizzate, password memorizzate in chiaro o approssimativamente memorizzate. Per risolvere questi problemi senza complicarsi la vita quotidiana, la soluzione è utilizzare un password manager.
+Tuttavia, nonostante la moltiplicazione degli attacchi, le cattive pratiche restano ampiamente diffuse tra la popolazione: password deboli, riutilizzate, memorizzate in chiaro o ricordate in modo approssimativo. Per risolvere questi problemi senza complicare la vita quotidiana, la soluzione consiste nell’utilizzare un gestore di password.
 
 
 

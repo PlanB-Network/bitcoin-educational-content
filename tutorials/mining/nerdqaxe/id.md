@@ -8,7 +8,7 @@ description: Bagaimana cara menambang dengan NerdQaxe?
 
 
 
-## Panduan lengkap untuk menyiapkan NerdQaxe
+## Tutorial lengkap untuk menyiapkan NerdQaxe
 
 
 

@@ -19,7 +19,7 @@ Existují již desítky správců hesel a pro většinu z nich nabízí Plan ₿
 
 
 
-**PearPass je správce hesel s otevřeným zdrojovým kódem, který je založen na principu peer-to-peer a je navržen tak, aby uživatelům poskytoval úplnou kontrolu nad jejich daty
+**PearPass je peer-to-peer správce hesel, založený na principu local-first a open-source, navržený tak, aby uživateli vrátil plnou kontrolu nad jeho daty.**
 
 
 

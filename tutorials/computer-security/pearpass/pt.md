@@ -19,7 +19,7 @@ Já existem dezenas de gestores de palavras-passe, e o Plan ₿ Academy oferece 
 
 
 
-**O PearPass é um gestor de senhas de código aberto, local e ponto a ponto, concebido para dar aos utilizadores controlo total sobre os seus dados
+**PearPass é um gestor de palavras-passe peer-to-peer, local-first e open-source, concebido para devolver ao utilizador o controlo total sobre os seus dados.**
 
 
 

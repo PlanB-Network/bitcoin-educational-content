@@ -19,7 +19,7 @@ Det finnes allerede dusinvis av passordbehandlere, og Plan ₿ Academy tilbyr en
 
 
 
-**PearPass er en åpen kildekode, lokal først, peer-to-peer passordadministrator som er utviklet for å gi brukerne full kontroll over dataene sine
+**PearPass er en peer-to-peer passordbehandler, lokal-først og åpen kildekode, utviklet for å gi brukeren full kontroll over sine data.**
 
 
 

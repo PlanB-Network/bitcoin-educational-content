@@ -19,7 +19,7 @@ Er bestaan al tientallen wachtwoordmanagers en Plan ₿ Academy biedt voor de me
 
 
 
-**PearPass is een open-source, local-first, peer-to-peer wachtwoordmanager ontworpen om gebruikers totale controle over hun gegevens te geven
+**PearPass is een peer-to-peer, local-first en open-source wachtwoordbeheerder, ontworpen om de gebruiker volledige controle over zijn gegevens terug te geven.**
 
 
 

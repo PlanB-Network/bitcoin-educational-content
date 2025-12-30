@@ -19,7 +19,7 @@ Düzinelerce parola yöneticisi zaten mevcut ve Plan ₿ Academy bunların çoğ
 
 
 
-**PearPass, kullanıcılara verileri üzerinde tam kontrol sağlamak için tasarlanmış açık kaynaklı, yerel öncelikli, eşler arası bir parola yöneticisidir
+**PearPass, kullanıcıya verileri üzerinde tam kontrolü yeniden kazandırmak için tasarlanmış, eşler arası, local-first ve açık kaynaklı bir parola yöneticisidir.**
 
 
 

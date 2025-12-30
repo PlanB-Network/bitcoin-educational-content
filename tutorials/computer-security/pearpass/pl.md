@@ -19,7 +19,7 @@ Istnieją już dziesiątki menedżerów haseł, a Plan ₿ Academy oferuje samou
 
 
 
-**PearPass to open-source'owy, lokalny menedżer haseł typu peer-to-peer, zaprojektowany w celu zapewnienia użytkownikom całkowitej kontroli nad ich danymi
+**PearPass to menedżer haseł typu peer-to-peer, local-first i open-source, zaprojektowany w celu przywrócenia użytkownikowi pełnej kontroli nad jego danymi.**
 
 
 

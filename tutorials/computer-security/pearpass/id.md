@@ -19,7 +19,7 @@ Lusinan pengelola kata sandi sudah ada, dan Plan ₿ Academy menawarkan tutorial
 
 
 
-**PearPass adalah sebuah pengelola kata sandi peer-to-peer bersumber terbuka, lokal, dan dirancang untuk memberikan kontrol penuh pada pengguna atas data mereka
+**PearPass adalah pengelola kata sandi peer-to-peer, local-first, dan open-source, yang dirancang untuk mengembalikan kendali penuh atas data kepada pengguna.**
 
 
 

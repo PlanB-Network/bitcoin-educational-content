@@ -19,7 +19,7 @@ Amacumi n’amajana y’abacungera amajambo y’ibanga arasanzwe ariho, kandi Pl
 
 
 
-**PearPass ni umucungerezi w'ijambobanga ry'inkomoko yuguruye, ry'imbere mu gihugu, ry'urunganwe-ku-rundi ryagenewe guha abakoresha ububasha bwose ku makuru yabo
+**PearPass ni umucungezi w’amajambo y’ibanga wa peer-to-peer, local-first kandi ufunguye, watekerejwe kugira ngo usubize umukoresha ububasha bwose ku makuru yiwe.**
 
 
 

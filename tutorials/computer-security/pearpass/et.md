@@ -19,7 +19,7 @@ Paroolihaldureid on juba olemas kümneid ja Plan ₿ Academy pakub enamiku neist
 
 
 
-**PearPass on avatud lähtekoodiga, kohalik-pealt, peer-to-peer paroolihaldur, mis on loodud selleks, et anda kasutajatele täielik kontroll oma andmete üle
+**PearPass on võrdõiguslik, local-first ja avatud lähtekoodiga paroolihaldur, mis on loodud andma kasutajale täieliku kontrolli oma andmete üle.**
 
 
 

@@ -19,7 +19,7 @@ Već postoji na desetine menadžera lozinki, a Plan ₿ Academy nudi tutorijal z
 
 
 
-**PearPass je menadžer lozinki otvorenog koda, lokalno-prvi, peer-to-peer dizajniran da korisnicima pruži potpunu kontrolu nad njihovim podacima
+**PearPass je peer-to-peer menadžer lozinki, local-first i otvorenog koda, osmišljen da korisniku vrati potpunu kontrolu nad njegovim podacima.**
 
 
 

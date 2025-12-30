@@ -19,7 +19,7 @@ Kuna vidhibiti vingi vya nenosiri tayari, na Plan ₿ Academy inatoa mafunzo kwa
 
 
 
-**PearPass ni kidhibiti cha nenosiri cha chanzo huria, cha ndani, kilichoundwa ili kuwapa watumiaji udhibiti kamili wa data zao
+**PearPass ni msimamizi wa nenosiri wa rika-kwa-rika, local-first na wa chanzo huria, uliobuniwa ili kumrudishia mtumiaji udhibiti kamili wa data zake.**
 
 
 

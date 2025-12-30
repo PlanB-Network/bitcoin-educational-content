@@ -19,7 +19,7 @@ Hiện đã có hàng tá trình quản lý mật khẩu, và Plan ₿ Academy c
 
 
 
-PearPass là trình quản lý mật khẩu mã nguồn mở, ưu tiên cục bộ, ngang hàng (peer-to-peer) được thiết kế để cung cấp cho người dùng quyền kiểm soát hoàn toàn đối với dữ liệu của họ.
+**PearPass là một trình quản lý mật khẩu ngang hàng, ưu tiên local-first và mã nguồn mở, được thiết kế để trao lại cho người dùng toàn quyền kiểm soát dữ liệu của họ.**
 
 
 

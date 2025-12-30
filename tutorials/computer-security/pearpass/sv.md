@@ -19,7 +19,7 @@ Dussintals lösenordshanterare finns redan, och Plan ₿ Academy erbjuder en han
 
 
 
-**PearPass är en lösenordshanterare med öppen källkod, lokal förstahandsval och peer-to-peer som är utformad för att ge användarna total kontroll över sina data
+**PearPass är en peer-to-peer-lösenordshanterare, local-first och öppen källkod, utformad för att ge användaren full kontroll över sina data.**
 
 
 

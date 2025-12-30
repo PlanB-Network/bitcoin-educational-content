@@ -19,7 +19,7 @@ Esistono già decine di gestori di password e Plan ₿ Academy offre un tutorial
 
 
 
-**PearPass è un gestore di password open-source, local-first e peer-to-peer, progettato per dare agli utenti un controllo totale sui propri dati
+**PearPass è un gestore di password peer-to-peer, local-first e open-source, progettato per restituire all’utente il pieno controllo sui propri dati.**
 
 
 

@@ -19,7 +19,7 @@ Salasanahallintaohjelmia on jo olemassa kymmeniä, ja Plan ₿ Academy tarjoaa o
 
 
 
-**PearPass on avoimen lähdekoodin, local-first, peer-to-peer-salasanahallintaohjelma, joka on suunniteltu antamaan käyttäjille täydellisen hallinnan tietoihinsa
+**PearPass on vertaisverkkoon perustuva, local-first ja avoimen lähdekoodin salasananhallintaohjelma, joka on suunniteltu palauttamaan käyttäjälle täysi hallinta omista tiedoistaan.**
 
 
 

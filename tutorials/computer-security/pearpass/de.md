@@ -19,7 +19,7 @@ Es gibt bereits Dutzende von Passwortmanagern, und Plan ₿ Academy bietet für 
 
 
 
-**PearPass ist ein quelloffener, lokaler Peer-to-Peer-Passwortmanager, der den Benutzern die vollständige Kontrolle über ihre Daten gibt
+**PearPass ist ein Peer-to-Peer-Passwortmanager, lokal zuerst und Open Source, der entwickelt wurde, um dem Nutzer die volle Kontrolle über seine Daten zurückzugeben.**
 
 
 

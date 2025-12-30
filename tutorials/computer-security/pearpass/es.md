@@ -19,7 +19,7 @@ Ya existen decenas de gestores de contraseñas, y Plan ₿ Academy ofrece un tut
 
 
 
-**PearPass es un gestor de contraseñas peer-to-peer de código abierto, diseñado para ofrecer a los usuarios un control total sobre sus datos
+**PearPass es un gestor de contraseñas peer-to-peer, local-first y de código abierto, diseñado para devolver al usuario un control total sobre sus datos.**
 
 
 

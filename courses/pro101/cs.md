@@ -11,7 +11,7 @@ objectives:
 
 Co je potřeba k tomu, abyste mohli stavět na Bitcoinu? Tento 20hodinový kurz vás zavede pod povrch Bitcoinu a Lightning Network a prozkoumá protokoly, které pohánějí nejodolnější finanční infrastrukturu světa. Ať už chcete přispívat do open-source projektů nebo budovat další generaci bitcoinových aplikací, získáte technickou hloubku potřebnou k tomu, abyste mohli v tomto ekosystému pracovat s jistotou.
 
-Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Venture, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
+Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Ventures, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
 +++
 # Úvod a přípravné kurzy
 
@@ -59,7 +59,7 @@ V průběhu kurzu budou účastníci využívat klíčové nástroje, které jim
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rickyho, zakladatele **Bitcoin Italia Podcast**. Ricky je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Ricky hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Ricky6**). Rickyho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
+Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rikkiho, zakladatele **Bitcoin Italia Podcast**. Rikki je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Rikki hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Rikki6**). Rikkiho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Tato přednáška **"Proč Salvador potřebuje Bitcoin"** poskytuje přehled o p
 - _Finanční začleňování:_ Zajištění přístupu k finančním službám lidem, kteří jsou vyloučeni z tradičních bankovních systémů, často označovaným jako "nebankovní"
 - _Necenzurované peníze:_ Peníze, které nemohou být kontrolovány nebo omezovány vládami nebo finančními institucemi.
 
-#### Rickyho minulost a obhajoba Bitcoin
+#### Rikkiho minulost a obhajoba Bitcoin
 
 
-Rickyho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
+Rikkiho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
 
 
 ### Globální význam a výzvy Bitcoin

@@ -355,7 +355,7 @@ Protokół Bitcoin nie jest oprogramowaniem: jest to zestaw milczących reguł w
 
 
 
-Implementacja jest zatem oprogramowaniem węzła: programem zdolnym do łączenia się z innymi maszynami w sieci Bitcoin, pobierania, weryfikowania, przechowywania i propagowania bloków i transakcji oraz lokalnego egzekwowania zasad konsensusu i przekazywania. Każda implementacja jest konkretną interpretacją protokołu, napisaną w danym języku programowania, z własną architekturą, wydajnością i ergonomią. Każda implementacja będzie miała również własną organizację rozwoju, z własnym podziałem obowiązków.
+Implementacja jest zatem oprogramowaniem węzła: programem zdolnym do łączenia się z innymi maszynami w sieci Bitcoin, pobierania, weryfikowania, przechowywania i propagowania bloków i transakcji oraz lokalnego egzekwowania zasad konsensusu i przekazywania. Każda implementacja jest konkretną interpretacją protokołu, napisaną w danym języku programowania, z własną architekturą, wydajnością i ergonomią. Każda implementacja będzie miała również własną organizację rozwoju, z własnym podziałem onodeiązków.
 
 
 
@@ -488,7 +488,7 @@ Jak omówimy w dalszej części tego kursu, to węzły, zgodnie z ich wagą ekon
 
 
 
-Istnieje powszechne przekonanie, że obsługa węzła Bitcoin jest działaniem czysto altruistycznym, bez osobistych korzyści, wyłącznie w służbie decentralizacji sieci. Niektórzy uważają, że jest to forma obowiązku dla bitcoinerów, aby wspierać system i okazywać wdzięczność Bitcoin.
+Istnieje powszechne przekonanie, że obsługa węzła Bitcoin jest działaniem czysto altruistycznym, bez osobistych korzyści, wyłącznie w służbie decentralizacji sieci. Niektórzy uważają, że jest to forma onodeiązku dla bitcoinerów, aby wspierać system i okazywać wdzięczność Bitcoin.
 
 
 
@@ -620,7 +620,7 @@ Kręcenie własnym węzłem oznacza stwierdzenie: "Zatwierdzam to, co zdecyduję
 
 
 
-Możemy więc szybko spróbować zrozumieć, jak dużą władzę masz nad regułami dzięki swojemu węzłowi. Zakres tej władzy zależy od rodzaju reguły.
+Możemy więc szybko sprónodeać zrozumieć, jak dużą władzę masz nad regułami dzięki swojemu węzłowi. Zakres tej władzy zależy od rodzaju reguły.
 
 
 
@@ -1218,7 +1218,7 @@ W przeszłości wielką zaletą komputerów SBC, takich jak Raspberry Pi, była 
 
 
 
-#### Pamięć dyskowa: Dysk SSD obowiązkowy, minimum 2 TB
+#### Pamięć dyskowa: Dysk SSD onodeiązkowy, minimum 2 TB
 
 
 
@@ -1226,7 +1226,7 @@ Technicznie możliwe jest uruchomienie węzła Bitcoin na dysku HDD. Problem pol
 
 
 
-Dyski SSD radykalnie zmieniają wrażenia użytkownika: wszystko staje się szybsze i płynniejsze, przy znacznie większej niezawodności. Korzystanie z dysków SSD jest zatem (prawie) obowiązkowe dla węzła i nie będziesz tego żałować, zwłaszcza że modele o dużej pojemności są teraz stosunkowo przystępne cenowo.
+Dyski SSD radykalnie zmieniają wrażenia użytkownika: wszystko staje się szybsze i płynniejsze, przy znacznie większej niezawodności. Korzystanie z dysków SSD jest zatem (prawie) onodeiązkowe dla węzła i nie będziesz tego żałować, zwłaszcza że modele o dużej pojemności są teraz stosunkowo przystępne cenowo.
 
 
 
@@ -1270,7 +1270,7 @@ W przypadku węzła Umbrel minimalnym wymaganiem jest dwurdzeniowy 64-bitowy pro
 
 
 
-Poniżej proponuję trzy konkretne konfiguracje, dostosowane do różnych budżetów i potrzeb, wraz z dokładnymi modelami do ich obsługi. Wybory te zostały przedstawione jako przykłady w celu zilustrowania informacji zawartych w tym rozdziale; nie masz obowiązku wybierania dokładnie tych modeli. Ponieważ uważam Mini-PC za najlepszą opcję w dłuższej perspektywie, będę polegał na tym formacie dla trzech proponowanych konfiguracji.
+Poniżej proponuję trzy konkretne konfiguracje, dostosowane do różnych budżetów i potrzeb, wraz z dokładnymi modelami do ich obsługi. Wybory te zostały przedstawione jako przykłady w celu zilustrowania informacji zawartych w tym rozdziale; nie masz onodeiązku wybierania dokładnie tych modeli. Ponieważ uważam Mini-PC za najlepszą opcję w dłuższej perspektywie, będę polegał na tym formacie dla trzech proponowanych konfiguracji.
 
 
 
@@ -1579,7 +1579,7 @@ Szczególnie lubię serię ThinkCentre Tiny od Lenovo, ponieważ są to kompakto
 
 
 
-Jeśli, tak jak ja, wybrałeś komputer bez monitora, **będziesz musiał podłączyć monitor i klawiaturę** tylko na czas instalacji. Później będziesz mógł uzyskać do niego zdalny dostęp z innego komputera w tej samej sieci (lub za pomocą innych metod, które omówimy w późniejszych rozdziałach). Będziesz także potrzebował kabla Ethernet RJ45 do podłączenia komputera do sieci lokalnej oraz klucza USB o pojemności co najmniej 4 GB do przechowywania obrazu instalacyjnego.
+Jeśli, tak jak ja, wybrałeś komputer bez monitora, **będziesz musiał podłączyć monitor i klawiaturę** tylko na czas instalacji. Później będziesz mógł uzyskać do niego zdalny dostęp z innego komputera w tej samej sieci (lub za pomocą innych metod, które omówimy w późniejszych rozdziałach). Będziesz także potrzenodeał kabla Ethernet RJ45 do podłączenia komputera do sieci lokalnej oraz klucza USB o pojemności co najmniej 4 GB do przechowywania obrazu instalacyjnego.
 
 
 
@@ -1970,7 +1970,7 @@ Jeśli chodzi o zdalny dostęp przez Tor, jeśli nie jest on potrzebny, zalecam 
 
 
 
-Po włączeniu tej funkcji teoretycznie każda maszyna na świecie może próbować nawiązać połączenie z węzłem, pod warunkiem, że zna Tor Address. Jednak hasło i 2FA nadal będą cię chronić.
+Po włączeniu tej funkcji teoretycznie każda maszyna na świecie może prónodeać nawiązać połączenie z węzłem, pod warunkiem, że zna Tor Address. Jednak hasło i 2FA nadal będą cię chronić.
 
 
 
@@ -2160,7 +2160,7 @@ Bitcoin core posiada opcjonalny indeksator transakcji (`txindex`), będący pozo
 
 
 
-Dodanie indeksatora Address, takiego jak Electrs lub Fulcrum, nie jest obowiązkowe; zależy to od konkretnych potrzeb.
+Dodanie indeksatora Address, takiego jak Electrs lub Fulcrum, nie jest onodeiązkowe; zależy to od konkretnych potrzeb.
 
 
 
@@ -2192,11 +2192,11 @@ Mówiąc prościej, Electrs jest dość kompaktowy: indeksuje Blockchain szybcie
 
 
 
-Do użytku indywidualnego polecam Electrs: zajmuje mniej miejsca, jest dobrze utrzymany i chociaż jest nieco wolniejszy w niektórych żądaniach niż Fulcrum, nadal jest więcej niż wystarczający do codziennego użytku. Jeśli masz czas i miejsce na dysku, możesz również wypróbować Fulcrum, który będzie działał znacznie lepiej, szczególnie w przypadku portfeli z wieloma adresami do weryfikacji.
+Do użytku indywidualnego polecam Electrs: zajmuje mniej miejsca, jest dobrze utrzymany i chociaż jest nieco wolniejszy w niektórych żądaniach niż Fulcrum, nadal jest więcej niż wystarczający do codziennego użytku. Jeśli masz czas i miejsce na dysku, możesz również wyprónodeać Fulcrum, który będzie działał znacznie lepiej, szczególnie w przypadku portfeli z wieloma adresami do weryfikacji.
 
 
 
-Mówiąc konkretnie, w sierpniu 2025 r. Electrs będzie potrzebował około 56 GB pamięci masowej, w porównaniu do około 178 GB w przypadku Fulcrum. Wybór indeksatora zależy zatem również od pojemności pamięci masowej:
+Mówiąc konkretnie, w sierpniu 2025 r. Electrs będzie potrzenodeał około 56 GB pamięci masowej, w porównaniu do około 178 GB w przypadku Fulcrum. Wybór indeksatora zależy zatem również od pojemności pamięci masowej:
 
 
 
@@ -3057,7 +3057,7 @@ Zestaw UTXO jest przechowywany w folderze `chainstate/` jako kompaktowa baza dan
 
 
 
-Węzeł utrzymuje pamięć podręczną powyżej LevelDB, aby absorbować częste operacje odczytu i zapisu. Parametr `dbcache` może być użyty do modyfikacji rozmiaru tej pamięci podręcznej: im jest ona większa, tym więcej dostępu do pamięci korzysta IBD i bieżąca walidacja, kosztem wyższego zużycia pamięci RAM. Gdy nowy blok zostanie znaleziony przez Miner, węzeł usuwa z zestawu UTXO wyjścia wydane (lub zużyte) przez transakcje zawarte w bloku i dodaje nowo utworzone wyjścia.
+Węzeł utrzymuje pamięć podręczną powyżej LevelDB, aby absornodeać częste operacje odczytu i zapisu. Parametr `dbcache` może być użyty do modyfikacji rozmiaru tej pamięci podręcznej: im jest ona większa, tym więcej dostępu do pamięci korzysta IBD i bieżąca walidacja, kosztem wyższego zużycia pamięci RAM. Gdy nowy blok zostanie znaleziony przez Miner, węzeł usuwa z zestawu UTXO wyjścia wydane (lub zużyte) przez transakcje zawarte w bloku i dodaje nowo utworzone wyjścia.
 
 
 
@@ -3065,7 +3065,7 @@ Teoretycznie moglibyśmy zweryfikować transakcję, ponownie skanując historię
 
 
 
-Należy zauważyć, że zestaw UTXO jest często w centrum obaw o decentralizację Bitcoin, ponieważ jego rozmiar naturalnie szybko rośnie. Wynika to częściowo z rosnącej ceny Bitcoin, która zachęca do fragmentacji części, a częściowo z rosnącej popularności systemu: im więcej użytkowników, tym większe zapotrzebowanie na UTXO.
+Należy zauważyć, że zestaw UTXO jest często w centrum obaw o decentralizację Bitcoin, ponieważ jego rozmiar naturalnie szybko rośnie. Wynika to częściowo z rosnącej ceny Bitcoin, która zachęca do fragmentacji części, a częściowo z rosnącej popularności systemu: im więcej użytkowników, tym większe zapotrzenodeanie na UTXO.
 
 
 
@@ -3098,7 +3098,7 @@ Mempool to lokalny zestaw ważnych transakcji, które zostały odebrane, ale nie
 
 
 
-Należy zauważyć, że mempoole węzłów nie mają wartości konsensusu. Bitcoin działa doskonale, nawet jeśli każdy węzeł ma inny Mempool. Ostatecznie autorytatywne bloki to zawsze te dodane do Blockchain. Na przykład, nawet jeśli węzeł początkowo odrzuci daną transakcję w swoim Mempool (ważnym zgodnie z zasadami konsensusu), będzie zobowiązany do jej zaakceptowania, jeśli zostanie ostatecznie uwzględniona w bloku z ważnym Proof of Work. Gdyby tego nie zrobił i odrzucił ten blok, mimo że był zgodny z zasadami konsensusu, uruchomiłby Hard Fork, tj. utworzenie nowego, oddzielnego Bitcoin, na którym byłby sam.
+Należy zauważyć, że mempoole węzłów nie mają wartości konsensusu. Bitcoin działa doskonale, nawet jeśli każdy węzeł ma inny Mempool. Ostatecznie autorytatywne bloki to zawsze te dodane do Blockchain. Na przykład, nawet jeśli węzeł początkowo odrzuci daną transakcję w swoim Mempool (ważnym zgodnie z zasadami konsensusu), będzie zonodeiązany do jej zaakceptowania, jeśli zostanie ostatecznie uwzględniona w bloku z ważnym Proof of Work. Gdyby tego nie zrobił i odrzucił ten blok, mimo że był zgodny z zasadami konsensusu, uruchomiłby Hard Fork, tj. utworzenie nowego, oddzielnego Bitcoin, na którym byłby sam.
 
 
 
@@ -3132,7 +3132,7 @@ Kilka innych plików na tym samym poziomie co `blocks/`, `chainstate/` i `indexe
 
 
 - `peers.dat` przechowuje księgę IP Address potencjalnych peerów, zasilaną przez początkowe wykrywanie DNS, wymianę sieci i ręczne dodawanie. Kiedy węzeł się uruchamia, może korzystać z tego pliku w celu ustanowienia połączeń wychodzących.
-- Gdy węzeł jest wyłączony, `anchors.dat` zapisuje adresy wychodzących peerów, dzięki czemu można szybko spróbować skontaktować się z nimi ponownie przy następnym uruchomieniu.
+- Gdy węzeł jest wyłączony, `anchors.dat` zapisuje adresy wychodzących peerów, dzięki czemu można szybko sprónodeać skontaktować się z nimi ponownie przy następnym uruchomieniu.
 - `banlist.json` zawiera lokalne bany ustalone przez operatora lub przez węzeł (powtarzające się nieprawidłowe zachowanie), aby uniemożliwić węzłowi ponowne łączenie się lub akceptowanie połączeń od tych konkretnych peerów.
 - `fee_estimates.dat` przechowuje statystyki horyzontu czasowego obserwowanych potwierdzeń, wykorzystywane przez estymator opłat do proponowania stawek opłat zgodnych z celami opóźnień wybranymi podczas tworzenia transakcji.
 - `bitcoin.conf` zawiera parametry konfiguracyjne twojego węzła. To właśnie w tym pliku można dostosować zasady przekazywania. Omówię to bardziej szczegółowo w następnym rozdziale;

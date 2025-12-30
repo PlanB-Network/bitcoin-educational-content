@@ -359,7 +359,7 @@ En implementering er derfor nodeprogramvare: et program som kan samhandle med an
 
 
 
-Blant disse implementeringene er det én som dominerer stort: **Bitcoin core**.
+Blant disse implementeringene er det én som dominerr stort: **Bitcoin core**.
 
 
 
@@ -849,7 +849,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-#### Bitcoin Core (dominerende klient)
+#### Bitcoin Core (dominernde klient)
 
 
 
@@ -2082,7 +2082,7 @@ Hvis du allerede har utforsket Bitcoin-noder før du tok dette kurset, har du ka
 
 
 
-Generelt sett er en indekser et program som skanner et sett med rådata, trekker ut relevante nøkler (for eksempel ord, identifikatorer og adresser) og bygger en hjelpefil, kalt en "indeks", der hver nøkkel refererer til den nøyaktige plasseringen av dataene i korpuset. Denne forbehandlingsfasen bruker CPU-tid og krever noe diskplass, men den eliminerer behovet for å behandle hele korpuset hver gang databasen blir forespurt.
+Generelt sett er en indekser et program som skanner et sett med rådata, trekker ut relevante nøkler (for eksempel ord, identifikatorer og adresser) og bygger en hjelpefil, kalt en "indeks", der hver nøkkel refererer til den nøyaktige plasseringen av dataene i korpuset. Denne forbehandlingsfasen bruker CPU-tid og krever noe diskplass, men den eliminerr behovet for å behandle hele korpuset hver gang databasen blir forespurt.
 
 
 
@@ -3690,7 +3690,7 @@ Konfigurasjonsfilen gir deg også mulighet til å justere parametrene for maskin
 
 
 
-- `coinstatsindex=1`: Opprettholder en UTXO-settstatistikkindeks som drives av `gettxoutsetinfo`-kallet. Nyttig for revisjoner og beregninger, og eliminerer behovet for kostbar omberegning. Deaktivert som standard.
+- `coinstatsindex=1`: Opprettholder en UTXO-settstatistikkindeks som drives av `gettxoutsetinfo`-kallet. Nyttig for revisjoner og beregninger, og eliminerr behovet for kostbar omberegning. Deaktivert som standard.
 
 
 

@@ -11,7 +11,7 @@ objectives:
 
 Nini kinachohitajika kujenga kwenye Bitcoin? Kozi hii ya masaa 20 inakupeleka chini ya uso wa Bitcoin na Mtandao wa Lightning, ikichunguza protocol zinazoendesha miundombinu ya kifedha yenye nguvu zaidi duniani. Iwe unataka kuchangia miradi ya chanzo wazi au kujenga kizazi kijacho cha programu za Bitcoin, utapata kina cha kiufundi kinachohitajika kuanza kufanya kazi kwa ujasiri katika mfumo huu ikolojia.
 
-Iliyorekodiwa wakati wa bootcamp ya CUBO+ 2023 nchini El Salvador, kozi hii inakusanya mitazamo kutoka kwa wasanidi programu wakuu wa Bitcoin na waelimishaji ambao wameunda teknolojia hiyo. Sehemu bora zaidi? Ni bure kabisa, imewezeshwa na Fulgure Venture, Bitcoin Office na DecouvreBitcoin. Ikiwa umekuwa na udadisi kuhusu jinsi Bitcoin inavyofanya kazi kweli katika kiwango cha itifaki, hii ni fursa yako ya kujua.
+Iliyorekodiwa wakati wa bootcamp ya CUBO+ 2023 nchini El Salvador, kozi hii inakusanya mitazamo kutoka kwa wasanidi programu wakuu wa Bitcoin na waelimishaji ambao wameunda teknolojia hiyo. Sehemu bora zaidi? Ni bure kabisa, imewezeshwa na Fulgure Ventures, Bitcoin Office na DecouvreBitcoin. Ikiwa umekuwa na udadisi kuhusu jinsi Bitcoin inavyofanya kazi kweli katika kiwango cha itifaki, hii ni fursa yako ya kujua.
 +++
 # Kozi za utangulizi na maandalizi
 
@@ -45,7 +45,7 @@ Katika kipindi chote cha kozi, washiriki watatumia zana muhimu ambazo zitasaidia
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Karibu kwenye hotuba ya kwanza ya mpango wa elimu wa **Cubo Plus**. Leo, tunaingia kwenye ulimwengu wa Bitcoin, tukiongozwa na Ricky, mwanzilishi wa **Bitcoin Italia Podcast**. Ricky ni mwanaharakati wa haki za binadamu ambaye anatumia Bitcoin kama chombo cha kulinda na kukuza haki za binadamu. Akiwa na uzoefu wa zaidi ya miaka sita, Ricky amesafiri sana, akiandika kupitishwa kwa Bitcoin katika masoko yanayoibukia kama El Salvador na Guatemala. Kazi yake inakwenda zaidi ya podcasting; pia anatumika kwenye YouTube (**Bitcoin Explorers**) na Twitter (**BTC Explorer**, **Ricky6**). kujitolea kwa Ricky kwenye Bitcoin kunatokana na imani yake kwamba inatoa uhuru wa kifedha na faragha, changamoto ya mifumo ya jadi ya benki kuu.
+Karibu kwenye hotuba ya kwanza ya mpango wa elimu wa **Cubo Plus**. Leo, tunaingia kwenye ulimwengu wa Bitcoin, tukiongozwa na Rikki, mwanzilishi wa **Bitcoin Italia Podcast**. Rikki ni mwanaharakati wa haki za binadamu ambaye anatumia Bitcoin kama chombo cha kulinda na kukuza haki za binadamu. Akiwa na uzoefu wa zaidi ya miaka sita, Rikki amesafiri sana, akiandika kupitishwa kwa Bitcoin katika masoko yanayoibukia kama El Salvador na Guatemala. Kazi yake inakwenda zaidi ya podcasting; pia anatumika kwenye YouTube (**Bitcoin Explorers**) na Twitter (**BTC Explorer**, **Rikki6**). kujitolea kwa Rikki kwenye Bitcoin kunatokana na imani yake kwamba inatoa uhuru wa kifedha na faragha, changamoto ya mifumo ya jadi ya benki kuu.
 
 ![Unbanked Population](assets/en/1/1.webp)
 
@@ -62,9 +62,9 @@ Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa 
 - _Cypherpunk movement:_ Kundi linalotetea matumizi fiche ili kuhakikisha faragha na uhuru katika nafasi za kidijitali.
 - _Ujumuisho wa kifedha:_ Kutoa ufikiaji wa huduma za kifedha kwa watu ambao wametengwa kutoka kwa mifumo ya kawaida ya benki, ambayo mara nyingi hujulikana kama "isiyo na benki."
 - _Pesa zisizopimwa:_ Pesa ambazo haziwezi kudhibitiwa au kuwekewa vikwazo na serikali au taasisi za fedha.
-#### Asili ya Ricky na Utetezi wa Bitcoin
+#### Asili ya Rikki na Utetezi wa Bitcoin
 
-Safari ya Ricky katika Bitcoin inatokana na kazi yake kama mtetezi wa haki za binadamu. Anaamini kuwa Bitcoin inaweza kuwapa watu binafsi udhibiti wa fedha zao, kuwaruhusu kulinda faragha yao na kuepuka vikwazo vinavyowekwa na benki kuu. Ugunduzi wake kuhusu kupitishwa kwa Bitcoin katika maeneo kama El Salvador unaonyesha jinsi teknolojia hii inaweza kuwawezesha watu katika masoko yanayoibukia kupata uhuru wa kifedha.
+Safari ya Rikki katika Bitcoin inatokana na kazi yake kama mtetezi wa haki za binadamu. Anaamini kuwa Bitcoin inaweza kuwapa watu binafsi udhibiti wa fedha zao, kuwaruhusu kulinda faragha yao na kuepuka vikwazo vinavyowekwa na benki kuu. Ugunduzi wake kuhusu kupitishwa kwa Bitcoin katika maeneo kama El Salvador unaonyesha jinsi teknolojia hii inaweza kuwawezesha watu katika masoko yanayoibukia kupata uhuru wa kifedha.
 
 ### Umuhimu wa Kimataifa na Changamoto za Bitcoin
 

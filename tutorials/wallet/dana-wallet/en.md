@@ -283,13 +283,14 @@ Silent Payments fund recovery requires a wallet compatible with the BIP-352 prot
 ## Comparison with BIP-47 and PayJoin
 
 
-| Critère | Silent Payments (BIP-352) | BIP-47 PayNyms | PayJoin (BIP-78) |
-|---------|---------------------------|----------------|------------------|
-| Adresse statique | Oui (`sp1...`) | Oui (code de paiement) | Non |
-| Interaction requise | Aucune | Transaction de notification initiale | À chaque paiement |
-| Empreinte on-chain | Aucune (transactions normales) | OP_RETURN visible | Transaction modifiée |
-| Scan côté receveur | Intensif (chaque bloc) | Léger (après notification) | Aucun |
-| Confidentialité expéditeur | Excellente | Limitée (lien après notification) | Bonne (brouillage) |
+| Criterion              | Silent Payments (BIP-352) | BIP-47 PayNyms      | PayJoin (BIP-78)     |
+|-----------------------|---------------------------|---------------------|----------------------|
+| Static Address        | Yes (`sp1...`)            | Yes (payment code)  | No                   |
+| Required Interaction   | None                      | Initial notification transaction | At each payment     |
+| On-chain Footprint    | None (normal transactions) | OP_RETURN visible    | Modified transaction  |
+| Receiver Side Scan    | Intensive (every block)   | Light (after notification) | None                 |
+| Sender Privacy        | Excellent                 | Limited (link after notification) | Good (mixing)        |
+
 
 Silent Payments eliminate the BIP-47 notification transaction at the cost of a more expensive scan. PayJoin solves a different problem (input correlation) and can be combined with Silent Payments.
 

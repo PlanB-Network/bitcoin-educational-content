@@ -27,9 +27,10 @@ proofreading:
     contributor_names:
     reward: 14.74
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-30'
     urgency: 1
     contributor_names:
+      - Salgraphics
     reward: 14.74
   - language: fi
     last_contribution_date:

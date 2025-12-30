@@ -1,11 +1,11 @@
 question: Wat is de rol van software in Bitcoin Mining en hoe draagt het bij aan efficiëntie?
-answer: Software in Bitcoin Mining, zoals BrainsOS Plus, vervangt het oorspronkelijke besturingssysteem van de Mining machine, waardoor dezelfde bewerkingen efficiënter uitgevoerd kunnen worden. Het kan de efficiëntie van een machine met 25% verhogen, wat betekent dat de machine voor een gelijkwaardige hoeveelheid elektriciteit 25% meer Hashrate kan produceren, waardoor de beloningen voor Miner toenemen.
+answer: Software in Bitcoin Mining, zoals BraiinsOS Plus, vervangt het oorspronkelijke besturingssysteem van de Mining machine, waardoor dezelfde bewerkingen efficiënter uitgevoerd kunnen worden. Het kan de efficiëntie van een machine met 25% verhogen, wat betekent dat de machine voor een gelijkwaardige hoeveelheid elektriciteit 25% meer Hashrate kan produceren, waardoor de beloningen voor Miner toenemen.
 wrong_answers:
   - Software in Bitcoin Mining wordt gebruikt om de hoeveelheid gedolven Bitcoin bij te houden en draagt niet bij aan de efficiëntie.
   - Software in Bitcoin Mining zorgt alleen voor een betere internetverbinding voor de Mining machine, het kan de efficiëntie van zo'n machine met 14% verhogen, als een van de nieuwste protocollen wordt gebruikt.
   - Software in Bitcoin Mining wordt gebruikt om de Mining machine te koelen en draagt niet bij aan de efficiëntie.
 explanation: |
-  Het hoofdstuk legt uit dat software zoals BrainsOS Plus
+  Het hoofdstuk legt uit dat software zoals BraiinsOS Plus
   het oorspronkelijke besturingssysteem van een Mining machine kan vervangen,
   waardoor dezelfde handelingen
   efficiënter kunnen worden uitgevoerd. Deze softwareoptimalisatie is een essentieel

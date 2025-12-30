@@ -479,7 +479,7 @@ Le réduire à cela, c’est un peu dommage, car Quesnay a aussi été le premie
 
 Nous parlerons plus en détail de la Physiocratie dans les trois prochains chapitres. Voyons d’abord François Quesnay lui-même.
 
-Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Nantes. 
+Il est né en 1694 à Méré, dans une famille de paysans où il n’apprit même pas à lire. Formé auprès d’un homme de son village, il fit tout de même des études : il entre au collège de chirurgie puis part à la faculté de médecine. À 24 ans, il devient chirurgien à Mantes (Mantes-la-Jolie).
 
 Il devient célèbre en 1730, à 36 ans, en s’opposant à la saignée, pratique qui selon lui est le résultat de théories fausses et de préjugés. Il ose également défier le système des corporations, dans lequel les chirurgiens peuvent seuls faire les opérations et les médecins donner les médicaments ; dans de nombreux cas, le bas peuple devait payer deux fois, et faire venir deux personnes, ce qui révoltait Quesnay. 
 

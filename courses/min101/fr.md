@@ -1,5 +1,5 @@
 ---
-name: Introduction au minage sur Bitcoin
+name: Introduction au minage de Bitcoin
 goal: Tout comprendre du minage de Bitcoin et de la preuve de travail, en partant de zéro
 objectives:
   - Comprendre la preuve de travail et son rôle dans le fonctionnement de Bitcoin.
@@ -25,7 +25,11 @@ Pensé pour partir de zéro, ce cours s’adresse aux débutants tout en conserv
 
 ## Aperçu du cours
 
+Bienvenue dans le cours MIN 101, dans lequel vous allez découvrir les concepts théoriques fondamentaux du minage et de la Proof-of-Work au sein du système Bitcoin. Ce cours constitue la première étape de votre parcours de bitcoiner pour comprendre le fonctionnement du mining. À l’issue de celui-ci, vous pourrez poursuivre vers des cours théoriques plus avancés ou bien passer à la pratique et devenir vous-même mineur de bitcoins !
 
+Dans ce cours MIN 101, nous ne reviendrons pas sur les concepts de base de Bitcoin, car nous allons entrer directement au cœur du sujet : le minage. Si vous n’avez jamais entendu parler de Bitcoin, ou si ses fondements vous semblent encore flous, je vous recommande vivement de commencer par notre cours d’introduction BTC 101. Une fois ces bases acquises, vous pourrez aborder sereinement MIN 101 :
+
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 
 
@@ -33,16 +37,139 @@ Pensé pour partir de zéro, ce cours s’adresse aux débutants tout en conserv
 
 ## La construction d'un bloc Bitcoin
 
-- mempool, transactions, construction : chemin d'une tx
-- l'entête de bloc
+Avant de comprendre ce qu'est le minage de Bitcoin, il faut d’abord suivre le trajet d’une transaction typique sur Bitcoin. Cela permet de voir où intervient exactement le bloc, et pourquoi il est au cœur du système. C'est ce que je vous propose de découvrir dans ce premier chapitre.
 
+### Le parcours de la transaction Bitcoin
 
+Sur Bitcoin, une transaction est une structure de données qui transfère la propriété de bitcoins d'un utilisateur à un autre. Concrètement, elle consomme des `outputs` de transactions passées (ce qu'on appelle des UTXO) en les référant comme `inputs`, puis elle crée de nouveaux `outputs` qui définissent à qui appartiennent désormais ces bitcoins et sous quelles conditions ils pourront être dépensés plus tard.
+
+001
+
+Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un comptes, comme le pourraient être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un portefeuille veut utiliser un UTXO comme `inputs`, il doit fournir une preuve cryptographique qui prouve qu'il a bien le droit de le déverrouiller. Dans la pratique, cette preuve prend souvent la forme d’une signature numérique produite à partir d’une clé privée. C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
+
+002
+
+La signature numérique dans Bitcoin joue ainsi deux rôles importants :
+- Autoriser la dépense : elle prouve que l’utilisateur possède la clé privée attendue par la condition de dépense de l’UTXO ;
+- Protéger l’intégrité : elle lie l’autorisation aux détails précis de la transaction (destinataires, montants, frais...). Si quelqu’un modifie la transaction après coup, la signature ne correspond plus.
+
+Une fois la transaction correctement construite et signée par le portefeuille Bitcoin de l'utilisateur, elle doit être diffusée sur le réseau Bitcoin.
+
+### Le rôle du nœud Bitcoin dans la diffusion
+
+Bitcoin est un réseau pair-à-pair : il n’existe pas de serveur central qui reçoit et traite toutes les transactions. Ce rôle est joué collectivement par les nœuds. Un nœud Bitcoin est un logiciel (par exemple Bitcoin Core) connecté à d’autres nœuds du réseau Bitcoin, dont la mission principale est de vérifier, stocker et relayer les transactions et les blocs.
+
+Quand vous envoyez une transaction depuis un portefeuille, celui-ci la transmet à un nœud (votre propre nœud, ou celui d’un service). Ce nœud va d’abord vérifier que la transaction respecte différentes règles, par exemple :
+* les signatures sont valides ;
+* les inputs référencent bien des UTXO existants (c'est-à-dire des bitcoins qui existent) ;
+* ces UTXO n’ont pas déjà été dépensés ailleurs ;
+* le montant des outputs est inférieur ou égal à celui des inputs (on ne crée pas de bitcoins à partir de rien) ;
+* etc.
+
+Si la transaction passe tous ces contrôles, le nœud la propage aux autres nœuds du réseau avec lesquels il est connecté. Eux-mêmes la vérifient à leur tour et la relaient, et ainsi de suite. En quelques secondes, la transaction est propagée et devient connue de l’ensemble, ou du moins d’une large partie, du réseau Bitcoin.
+
+003
+
+### La mempool : la salle d’attente des transactions
+
+Entre le moment où une transaction est diffusée et le moment où elle est confirmée dans un bloc, elle doit attendre. Cette zone d’attente s’appelle **la mempool** (contraction de `memory` et `pool`). Une mempool est donc un espace de stockage temporaire de transactions valides, mais encore non confirmées.
+
+Point important : il n’existe pas une mempool unique, mais des mempools. En effet, chaque nœud maintient la sienne, avec ses propres contraintes locales. Cela implique qu’à un instant donné, deux nœuds peuvent avoir des contenus de mempool légèrement différents (selon ce qu’ils ont reçu, ce qu’ils ont rejeté, ou ce qu’ils ont purgé).
+
+004
+
+À ce stade, on a donc un réseau qui connaît la transaction, l’a vérifiée, et la garde en mémoire en attendant qu’elle soit confirmée. Mais la confirmation de cette transaction n'arrivera que lorsqu'un mineur l’insère dans un bloc, et que ce bloc est accepté par le réseau.
+
+### La blockchain : un registre public d’horodatage
+
+Le bitcoin étant une monnaie immatérielle, elle doit répondre à un problème : empêcher la double dépense sans autorité centrale. Si deux transactions tentent de dépenser le même UTXO, il faut que tout le monde puisse converger vers un seul état cohérent. Satoshi Nakamoto résume cet enjeu avec cette phrase célèbre :
+
+> Le seul moyen pour confirmer l’absence d’une transaction est d’être au courant de toutes les transactions.
+
+Autrement dit, pour savoir qu’un bitcoin n’a pas déjà été dépensé, il faut disposer d’un registre commun des dépenses passées.
+
+C’est le rôle de la blockchain : un registre public qui contient l’historique des transactions. Mais plutôt que d’écrire chaque transaction au fil de l’eau, Bitcoin les regroupe dans des blocs. Chaque bloc agit comme une page d’historique, et le système fonctionne ainsi comme un serveur d’horodatage : il ordonne les transactions dans le temps, de manière vérifiable.
+
+Ce registre ne peut pas être réécrit grâce à un principe simple : chaque bloc inclut l’empreinte cryptographique (le hash) du bloc précédent. Ainsi, les blocs s’enchaînent : si vous modifiez un bloc du passé, son empreinte change, ce qui casse le lien avec le bloc suivant, ce qui casse le lien avec le bloc d’après, etc. C’est cette chaîne de dépendances qui donne son nom à la "blockchain".
+
+005
+
+Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "preuve de travail" que l'on étudiera dans le chapitre suivant). Ici, on se concentre sur la construction du bloc candidat.
+
+### Le bloc candidat
+
+Les mineurs ne trouvent pas des blocs qui existeraient déjà quelque part : il doivent le fabriquer avant d'essayer de le miner. Chaque mineur, de son côté, construit ce que l'on appelle un bloc candidat à partir des transactions en attente dans sa mempool. Construire un bloc candidat consiste donc à :
+- choisir quelles transactions inclure ;
+- organiser ces transactions de manière compatible avec les règles de Bitcoin ;
+- produire les métadonnées du bloc, contenues dans son entête.
+
+Le choix des transactions répond à une logique économique simple : un bloc a une capacité limitée par le protocole Bitcoin, donc le mineur cherche à maximiser ce qu’il gagne pour cet espace. Il sélectionne en priorité les transactions offrant les frais les plus élevés relativement à la place qu’elles occupent dans le bloc (on parle ainsi de "taux de frais", par exemple en `sats/vB`). Les détails des frais seront traités plus tard ; retenez ici l’idée de tri par rentabilité de l’espace.
+
+Un bloc Bitcoin se compose donc de deux grandes parties :
+* une liste de transactions ;
+* une entête de bloc, qui sert, en quelque sorte, de carte d’identité du bloc.
+
+006
+
+L’entête est essentielle, car c’est elle qui est utilisée comme base pour la preuve de travail : dans Bitcoin, on ne mine pas directement un bloc entier ; on mine uniquement l’entête d'un bloc, qui résume les informations nécessaires pour lier le bloc à la chaîne et engager son contenu. Pour que l’entête puisse représenter l’ensemble des transactions, Bitcoin utilise un outil cryptographique : l’arbre de Merkle.
+
+### L’arbre de Merkle : résumer un grand ensemble de transactions
+
+Lister toutes les transactions dans l’entête serait impossible : un bloc peut contenir des milliers de transactions, alors que l’entête a une taille fixe (80 octets). La solution consiste donc à calculer un hash unique qui dépend de toutes les transactions du bloc : c'est la racine de Merkle.
+
+Le principe est le suivant :
+* on calcule l’empreinte cryptographique de chaque transaction ;
+* on regroupe ces empreintes deux par deux, on les met bout-à-bout, puis on les hache de nouveau pour obtenir une nouvelle couche d’empreintes ;
+* on répète cette opération jusqu’à obtenir une seule empreinte finale : la racine de Merkle.
+
+007
+
+Ainsi, si une seule transaction change, même d’un seul bit, cela entraîne une modification de son empreinte, laquelle se propage jusqu'à la racine de Merkle. Or cette racine est incluse dans l’entête du bloc. Donc modifier une transaction passée revient à modifier l’entête du bloc dans lequel elle est incluse, et donc l’empreinte du bloc, puis le lien avec les blocs suivants.
+
+Depuis SegWit, on sépare ce qui relève des signatures (témoins) du reste. Il y a donc en réalité 2 arbres de Merkle imbriqués dans chaque bloc. Cette séparation a des conséquences sur la manière de compter la taille d’un bloc et sur certains engagements cryptographiques, mais l’idée de base reste la même : l’entête doit engager, de manière compacte, tout le contenu du bloc.
+
+### L’entête de bloc : ce que le mineur prépare réellement
+
+L’entête de bloc fait 80 octets et contient exactement 6 champs. Ce sont ces six éléments qui seront hachés lors de la recherche d'une preuve de travail (voir chapitre suivant) :
+
+- La version (`version`) : Elle indique quelles règles ou quels signaux de mise à jour le bloc utilise. C’est un mécanisme de compatibilité et d’évolution du protocole.
+
+- L’empreinte du bloc précédent (`previousblockhash`) : C’est le hash de l’entête du bloc précédent. C’est lui qui enchaîne les blocs entre eux. Sans ce champ, on aurait des blocs indépendants. En incluant le hash de l'entête du bloc précédent, on obtient une chaîne, où chaque nouveau bloc s’appuie sur le précédent.
+
+- La racine de Merkle (`merkleroot`) : C’est l'empreinte de toutes les transactions du bloc (via l’arbre de Merkle). Elle lie l’entête au contenu : si le mineur modifie la sélection ou l’ordre des transactions, la racine change.
+
+- L’horodatage (`time`) : C’est un timestamp (temps Unix) choisi par le mineur (avec des contraintes de validité), qui doit indiquer quand le bloc a été miné. Il n’a pas besoin d’être parfaitement exact à la seconde près, mais il doit respecter certaines conditions pour rester acceptable par le réseau.
+
+- La cible de difficulté encodée (`bits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie intégrante de l’entête.
+
+- Le nonce (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu précisément pour permettre des essais successifs.
+
+Pour rendre cela plus facile à visualiser, voici un exemple d’entête de bloc au format hexadécimal (80 octets) :
+
+```text
+00e0ff3f5ffe3b0d9247dc437e18edc19252e4517cee941752d501000000000000000000206b
+de3a10826e2acb2f28fba70463601c789293d0c9c4348d7a0d06711e97c0bcb13a64b2e00517
+43f09a40
+```
+
+Et voici sa décomposition champ par champ :
+
+```text
+version: 00e0ff3f
+previousblockhash: 5ffe3b0d9247dc437e18edc19252e4517cee941752d501000000000000000000
+merkleroot: 206bde3a10826e2acb2f28fba70463601c789293d0c9c4348d7a0d06711e97c0
+time: bcb13a64
+bits: b2e00517
+nonce: 43f09a40
+```
+
+Cette entête du bloc candidat construit par le mineur constitut sa base de travail. Lors de la recherche d'une preuve de travail valide, ce n’est pas la liste entière des transactions qui est directement hachée en boucle, mais bien ce bloc de 80 octets, qui contient tout ce qu’il faut pour lier le bloc au passé et engager son contenu, tout en embarquant les paramètres nécessaires au mécanisme de minage, que nous allons justement découvrir dans le chapitre suivant.
 
 ## Le hachage, la cible et le nonce
 
 
-- blockchain et enchainement des blocs entre eux
-- recherche preuve de travail
+- fonctionnement rapide d'une fonction de hachage + laquelle on utilise + lien CYP 201
+- recherche preuve de travail + c'est quoi la cible (sans détailler ajustement) ?
 - modification du nonce (plus expliquer rapidement extra nonce)
 - histoire de la preuve de travail : HashCash + BitGold + RPOW
 

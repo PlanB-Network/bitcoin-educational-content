@@ -1,5 +1,5 @@
 ---
-name: پناهگاه
+name: Shelter
 description: از همان تلفن برای کار و زندگی خصوصی با Shelter استفاده کنید
 ---
 

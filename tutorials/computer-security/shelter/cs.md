@@ -1,5 +1,5 @@
 ---
-name: Úkryt
+name: Shelter
 description: Používání stejného telefonu pro práci i soukromý život se službou Shelter
 ---
 

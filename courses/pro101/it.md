@@ -11,7 +11,7 @@ objectives:
 
 Cosa serve per sviluppare su Bitcoin? Questo corso di 20 ore approfondisce Bitcoin e Lightning Network, esplorando i protocolli che alimentano l'infrastruttura finanziaria più resiliente al mondo. Che tu stia cercando di contribuire a progetti open-source o di costruire la prossima generazione di applicazioni Bitcoin, acquisirai il livello di approfondimento tecnico necessario per iniziare a lavorare con fiducia in questo ecosistema.
 
-Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce le prospettive di sviluppatori ed educatori Bitcoin di primo piano che hanno plasmato questa tecnologia. La parte migliore? È completamente gratuito, reso possibile da Fulgure Venture, il Bitcoin Office e DecouvreBitcoin. Se sei curioso di sapere come Bitcoin funziona davvero a livello di protocollo, questa è la tua occasione per scoprirlo.
+Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce le prospettive di sviluppatori ed educatori Bitcoin di primo piano che hanno plasmato la tecnologia. La parte migliore? È completamente gratuito, reso possibile da Fulgure Ventures, il Bitcoin Office e DecouvreBitcoin. Se sei stato curioso di sapere come Bitcoin funziona davvero a livello di protocollo, questa è la tua occasione per scoprirlo.
 +++
 # Introduzione e corsi preparatori
 
@@ -59,7 +59,7 @@ Durante il corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno l
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo di Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione di Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
+Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato molto, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e Twitter (**BTC Explorer**, **Rikki6**). La passione di Rikki per il Commitment deriva dalla sua convinzione che il Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Questa conferenza, **"Perché El Salvador ha bisogno di Bitcoin"**, fornisce una
 - inclusione finanziaria: fornire l'accesso ai servizi finanziari alle persone escluse dai sistemi bancari tradizionali, spesso definite "unbanked"
 - denaro non censurato: denaro che non può essere controllato o limitato da governi o istituzioni finanziarie.
 
-#### Il background di Rikki e la difesa di Bitcoin
+#### Il background di Rikki e la difesa del Bitcoin
 
 
-Il viaggio di Rikki in Bitcoin ha le sue radici nel suo lavoro di sostenitore dei diritti umani. Crede che Bitcoin possa fornire agli individui il controllo sulle proprie finanze, permettendo loro di proteggere la propria privacy e di evitare le limitazioni delle banche centralizzate. La sua esplorazione dell'adozione di Bitcoin in luoghi come El Salvador evidenzia come questa tecnologia possa consentire alle persone nei mercati emergenti di ottenere l'indipendenza finanziaria.
+Il viaggio di Rikki nel Bitcoin ha le sue radici nel suo lavoro di sostenitore dei diritti umani. Crede che il Bitcoin possa fornire agli individui il controllo sulle proprie finanze, permettendo loro di proteggere la propria privacy e di evitare le limitazioni delle banche centralizzate. La sua esplorazione dell'adozione del Bitcoin in luoghi come El Salvador evidenzia come questa tecnologia possa consentire alle persone nei mercati emergenti di ottenere l'indipendenza finanziaria.
 
 
 ### Il significato globale e le sfide di Bitcoin

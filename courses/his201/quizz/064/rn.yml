@@ -1,9 +1,9 @@
-question: Ni nde yanditse ingingo ya mbere itangaza Bitcoin yasohowe mu gifaransa?
-answer: Lucien Grondin (umunyaruyeri)
+question: Ni nde yanditse inkuru ya mbere ivuga Bitcoin yasohowe mu gifaransa?
+answer: Lucien Grondin (Grondilu)
 wrong_answers:
-  - Liyoneli Dricot (Imbuto)
-  - Amauri Sechet (ipfuye)
-  - Dawidi Fransowa (umunyaruyeri)
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
 explanation: |
   Yari [igisomwa](https://linuxfr.org/amakuru/ubumenyi-ku-bitcoins) casohowe ku wa 30 Nzero 2010, kuri LinuxFr.org citwa Woba uzi ivyerekeye bitcoins?.
 reviewed: true

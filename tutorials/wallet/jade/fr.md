@@ -100,7 +100,7 @@ Ce n'est pas nécessaire, mais après l'avoir enregistré sur le disque, j'ai re
 
 Le texte qui nous intéresse se trouve en haut. Selon le fichier que nous avons téléchargé, il y a une sortie de hachage correspondante que nous comparerons plus tard.
 
-La partie inférieure du document contient la signature faite sur le message ci-dessus - c'est un fichier deux en un.
+La partie inférieure du document contient la signature faite sur le message ci-dessus, c'est un fichier deux en un.
 
 L'ordre n'a pas d'importance, mais avant de vérifier le hachage, nous allons vérifier que le message de hachage est authentique (c'est-à-dire qu'il n'a pas été altéré).
 
@@ -118,7 +118,7 @@ Pour Windows et Mac, vous devez déjà avoir téléchargé GPG4Win et GPG Suite,
 gpg --verify SHA256SUMS.asc
 ```
 
-L'orthographe exacte du nom de fichier (en rouge) peut être différente le jour où vous récupérez le fichier, alors assurez-vous que la commande correspond au nom de fichier tel que téléchargé. Vous devriez obtenir cette sortie et ignorer l'avertissement concernant la signature de confiance - cela signifie simplement que vous n'avez pas indiqué manuellement à l'ordinateur que vous faites confiance à la clé publique que nous avons importée précédemment.
+L'orthographe exacte du nom de fichier (en rouge) peut être différente le jour où vous récupérez le fichier, alors assurez-vous que la commande correspond au nom de fichier tel que téléchargé. Vous devriez obtenir cette sortie et ignorer l'avertissement concernant la signature de confiance, cela signifie simplement que vous n'avez pas indiqué manuellement à l'ordinateur que vous faites confiance à la clé publique que nous avons importée précédemment.
 
 ![image](assets/13.webp)
 
@@ -188,7 +188,7 @@ Une fois la clé souhaitée importée, cliquez sur Appliquer.
 
 Vous avez maintenant configuré votre portefeuille avec succès et vous pouvez commencer à recevoir, stocker et dépenser vos bitcoins en utilisant Sparrow et Blockstream Jade.
 
-> Note : Si vous utilisiez précédemment Jade avec Blockstream Green en tant que portefeuille Multisig Shield, ne vous attendez pas à ce que votre nouveau portefeuille Sparrow affiche le même solde - ce sont des portefeuilles différents. Pour accéder à nouveau à votre portefeuille Multisig Shield, il vous suffit de reconnecter votre Jade à Blockstream Green.
+> Note : Si vous utilisiez précédemment Jade avec Blockstream Green en tant que portefeuille Multisig Shield, ne vous attendez pas à ce que votre nouveau portefeuille Sparrow affiche le même solde, ce sont des portefeuilles différents. Pour accéder à nouveau à votre portefeuille Multisig Shield, il vous suffit de reconnecter votre Jade à Blockstream Green.
 
 ![image](assets/22.webp)
 'source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-

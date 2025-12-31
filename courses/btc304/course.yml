@@ -148,10 +148,16 @@ proofreading:
     contributor_names:
     reward: 118.78
   - language: bg
+    last_contribution_date: 2025-12-29
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 39.61
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.22
+    reward: 99.0
 tags:
   - guides
   - case-studies

@@ -4,13 +4,13 @@ description: Comment ajouter une passphrase sur son portefeuille Ledger ?
 ---
 ![cover](assets/cover.webp)
 
-Une passphrase BIP39 est un mot de passe optionnel qui, combiné à la phrase mnémonique, offre une couche de sécurité supplémentaire pour les portefeuilles Bitcoin déterministes et hiérarchiques. Dans ce tutoriel, nous allons revoir ensemble comment mettre en place une passphrase sur votre portefeuille Bitcoin sécurisé sur une Ledger (peu importe le modèle).
+Une passphrase BIP39 est un mot de passe optionnel qui, combiné à la phrase mnémonique, offre une couche de sécurité supplémentaire pour les portefeuilles Bitcoin déterministes et hiérarchiques. Dans ce tutoriel, nous allons revoir ensemble comment mettre en place une passphrase sur votre portefeuille Bitcoin sécurisé sur un Ledger (peu importe le modèle).
 
 Avant de commencer ce tutoriel, si vous n'êtes pas familier avec le concept de passphrase, son fonctionnement et ses implications pour votre portefeuille Bitcoin, je vous recommande fortement de consulter cet autre article théorique où je vous explique tout :
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-## Comment fonctionne la passphrase sur une Ledger ?
+## Comment fonctionne la passphrase sur un Ledger ?
 
 Dans le cas des Ledger, vous avez deux options différentes pour configurer une passphrase sur votre portefeuille : l'option "*liée au code PIN*" et l'option "*temporaire*".
 
@@ -24,9 +24,9 @@ Cette option du second code PIN est particulièrement intéressante pour faire f
 
 De plus, cette option vous offre tous les avantages de sécurité de la passphrase BIP39 sans la contrainte de devoir la saisir manuellement chaque fois que vous utilisez votre périphérique de signature. Cela vous permet d'utiliser une passphrase longue et aléatoire, afin de renforcer la protection contre les attaques par brute force, tout en évitant la difficulté de devoir la taper manuellement à chaque utilisation sur les petits boutons de l'appareil.
 
-L'option de la "*passphrase temporaire*", quant à elle, ne stocke pas la passphrase sur l'appareil. Chaque fois que vous souhaitez accéder à votre portefeuille protégé, vous devrez saisir manuellement la passphrase sur la Ledger. Cela rend l’utilisation plus contraignante, mais augmente aussi légèrement la sécurité en ne laissant aucune trace de la passphrase sur le dispositif. Dès que vous éteignez l'appareil, il revient à son état par défaut, et nécessite une nouvelle saisie de la passphrase complète pour accéder aux comptes cachés. Cette option "*passphrase temporaire*" est donc similaire au fonctionnement des autres hardware wallets.
+L'option de la "*passphrase temporaire*", quant à elle, ne stocke pas la passphrase sur l'appareil. Chaque fois que vous souhaitez accéder à votre portefeuille protégé, vous devrez saisir manuellement la passphrase sur le Ledger. Cela rend l’utilisation plus contraignante, mais augmente aussi légèrement la sécurité en ne laissant aucune trace de la passphrase sur le dispositif. Dès que vous éteignez l'appareil, il revient à son état par défaut, et nécessite une nouvelle saisie de la passphrase complète pour accéder aux comptes cachés. Cette option "*passphrase temporaire*" est donc similaire au fonctionnement des autres hardware wallets.
 
-Dans ce tutoriel, je vais utiliser pour exemple la Ledger Flex. Cependant, si vous utilisez un autre modèle de Ledger, le processus reste identique. Pour les Ledger Stax, l'interface est la même que celle du Ledger Flex. Quant aux modèles Nano S, Nano S Plus, et Nano X, bien que l'interface soit différente, le processus et les noms des menus restent les mêmes.
+Dans ce tutoriel, je vais utiliser pour exemple le Ledger Flex. Cependant, si vous utilisez un autre modèle de Ledger, le processus reste identique. Pour les Ledger Stax, l'interface est la même que celle du Ledger Flex. Quant aux modèles Nano S, Nano S Plus, et Nano X, bien que l'interface soit différente, le processus et les noms des menus restent les mêmes.
 
 **Attention :** Si vous avez déjà reçu des bitcoins sur votre Ledger avant d'activer la passphrase, vous devrez les transférer via une transaction Bitcoin. La passphrase génère un ensemble de nouvelles clés, ce qui crée ainsi un portefeuille totalement indépendant de votre portefeuille initial. Lors de l'ajout de la passphrase, vous aurez un nouveau portefeuille qui sera vide. Toutefois, cela ne supprime pas votre premier portefeuille sans passphrase. Vous pourrez toujours y accéder, soit directement via votre Ledger sans saisir la passphrase, soit via un autre logiciel en utilisant votre phrase de 24 mots.
 
@@ -38,7 +38,7 @@ https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e
 
 https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-## Comment mettre en place une passphrase temporaire avec une Ledger ?
+## Comment mettre en place une passphrase temporaire avec un Ledger ?
 
 Sur la page d'accueil de votre Ledger, cliquez sur la roue crantée des paramètres.
 
@@ -60,7 +60,7 @@ Vérifiez que votre passphrase correspond à ce que vous avez noté sur votre sa
 
 ![PASSPHRASE BIP39](assets/notext/08.webp)
 
-Pour finaliser la création de votre passphrase, entrez le code PIN de votre Ledger. Désormais, chaque fois que vous voudrez accéder à votre portefeuille avec passphrase sur la Ledger, vous devrez suivre exactement les mêmes étapes que celles décrites ici.
+Pour finaliser la création de votre passphrase, entrez le code PIN de votre Ledger. Désormais, chaque fois que vous voudrez accéder à votre portefeuille avec passphrase sur le Ledger, vous devrez suivre exactement les mêmes étapes que celles décrites ici.
 
 ![PASSPHRASE BIP39](assets/notext/09.webp)
 
@@ -106,9 +106,9 @@ Et voilà, votre portefeuille est désormais créé ! Dans le menu "*Settings*",
 
 Rappelez-vous ce que nous avons mentionné dans les parties précédentes : une erreur, même minime, dans la saisie de votre passphrase générera un portefeuille entièrement nouveau avec des clés différentes. Chaque fois que vous devez vous assurer d'accéder au bon portefeuille avec la bonne passphrase, vérifiez que l'empreinte de votre clé maîtresse correspond à celle que vous aviez notée. Cette information, à elle seule, ne présente aucun risque pour la sécurité de vos fonds ni pour votre confidentialité.
 
-Avant d'utiliser votre portefeuille avec passphrase, je vous conseille fortement de réaliser un test de récupération à vide. Notez une information de référence comme votre xpub ou bien l'empreinte de votre clé maîtresse, puis réinitialisez votre Ledger tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur la Ledger en utilisant vos sauvegardes papier de la phrase de 24 mots et de la passphrase. Vérifiez que l'information générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
+Avant d'utiliser votre portefeuille avec passphrase, je vous conseille fortement de réaliser un test de récupération à vide. Notez une information de référence comme votre xpub ou bien l'empreinte de votre clé maîtresse, puis réinitialisez votre Ledger tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur le Ledger en utilisant vos sauvegardes papier de la phrase de 24 mots et de la passphrase. Vérifiez que l'information générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
 
-## Comment mettre en place une passphrase liée au code PIN avec une Ledger ?
+## Comment mettre en place une passphrase liée au code PIN avec un Ledger ?
 
 Sur la page d'accueil de votre Ledger, cliquez sur la roue crantée des paramètres.
 
@@ -140,7 +140,7 @@ Pour finaliser la création de votre passphrase, entrez le code PIN principal de
 
 ![PASSPHRASE BIP39](assets/notext/25.webp)
 
-Désormais, chaque fois que vous voudrez accéder à votre portefeuille avec passphrase sur la Ledger, vous devrez renseigner non pas le code PIN principal, mais bien le code PIN secondaire :
+Désormais, chaque fois que vous voudrez accéder à votre portefeuille avec passphrase sur le Ledger, vous devrez renseigner non pas le code PIN principal, mais bien le code PIN secondaire :
 - Code PIN principal (`58293647`) > portefeuille sans passphrase.
 - Code PIN secondaire (`71425839`) > portefeuille avec passphrase.
 
@@ -186,7 +186,7 @@ Et voilà, votre portefeuille est désormais créé ! Dans le menu "*Settings*",
 
 Rappelez-vous ce que nous avons mentionné dans les parties précédentes : une erreur, même minime, dans la saisie de votre passphrase générera un portefeuille entièrement nouveau avec des clés différentes. Chaque fois que vous devez vous assurer d'accéder au bon portefeuille avec la bonne passphrase, vérifiez que l'empreinte de votre clé maîtresse correspond à celle que vous aviez notée. Cette information, à elle seule, ne présente aucun risque pour la sécurité de vos fonds ni pour votre confidentialité.
 
-Avant d'utiliser votre portefeuille avec passphrase, je vous conseille fortement de réaliser un test de récupération à vide. Notez une information de référence comme votre xpub ou bien l'empreinte de votre clé maîtresse, puis réinitialisez votre Ledger tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur la Ledger en utilisant vos sauvegardes papier de la phrase de 24 mots et de la passphrase. Vérifiez que l'information générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
+Avant d'utiliser votre portefeuille avec passphrase, je vous conseille fortement de réaliser un test de récupération à vide. Notez une information de référence comme votre xpub ou bien l'empreinte de votre clé maîtresse, puis réinitialisez votre Ledger tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur le Ledger en utilisant vos sauvegardes papier de la phrase de 24 mots et de la passphrase. Vérifiez que l'information générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
 
 Félicitations, votre portefeuille Bitcoin est désormais sécurisé par une passphrase ! Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
 

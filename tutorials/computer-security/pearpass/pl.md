@@ -11,7 +11,7 @@ W czasach, gdy każda osoba zarządza dziesiątkami, a nawet setkami kont online
 
 
 
-A jednak, pomimo rosnącej liczby ataków, złe praktyki pozostają powszechne wśród populacji: słabe hasła, ponownie używane hasła, hasła przechowywane w postaci zwykłego tekstu lub hasła w przybliżeniu zapamiętane. Aby rozwiązać te problemy bez komplikowania sobie codziennego życia, rozwiązaniem jest korzystanie z menedżera haseł.
+Jednak mimo wzrostu liczby ataków złe praktyki pozostają powszechne wśród społeczeństwa: słabe hasła, hasła wielokrotnie używane, przechowywane w postaci jawnej lub zapamiętywane w przybliżeniu. Aby rozwiązać te problemy bez komplikowania codziennego życia, rozwiązaniem jest korzystanie z menedżera haseł.
 
 
 
@@ -19,7 +19,7 @@ Istnieją już dziesiątki menedżerów haseł, a Plan ₿ Academy oferuje samou
 
 
 
-**PearPass to open-source'owy, lokalny menedżer haseł typu peer-to-peer, zaprojektowany w celu zapewnienia użytkownikom całkowitej kontroli nad ich danymi
+**PearPass to menedżer haseł typu peer-to-peer, local-first i open-source, zaprojektowany w celu przywrócenia użytkownikowi pełnej kontroli nad jego danymi.**
 
 
 
@@ -182,7 +182,7 @@ Następnym ważnym krokiem jest wybór hasła głównego. Jak widzieliśmy we ws
 
 
 
-Hasło główne wiąże się z dwoma głównymi zagrożeniami: utratą i złamaniem. Jeśli utracisz dostęp do tego hasła, nie będziesz już w stanie uzyskać dostępu do swoich danych logowania. PearPass nigdy nie przechowuje hasła głównego: **Jeśli zostanie utracone, dane logowania zostaną trwale utracone**. Nie ma mechanizmu odzyskiwania. I odwrotnie, jeśli to hasło zostanie złamane, a atakujący uzyska dostęp do jednego z twoich urządzeń, będzie mógł uzyskać dostęp do wszystkich twoich kont.
+Hasło główne wiąże się z dwoma głównymi zagrożeniami: utratą i kompromitacją. Jeśli utracisz dostęp do tego hasła, nie będziesz już mógł uzyskać dostępu do swoich danych uwierzytelniających. W rzeczywistości PearPass nigdy nie przechowuje hasła głównego: **jeśli zostanie ono utracone, dane uwierzytelniające przepadają bezpowrotnie**. Nie istnieje żaden mechanizm odzyskiwania. Z kolei, jeśli to hasło zostanie skompromitowane i atakujący uzyska dostęp do jednego z twoich urządzeń, będzie mógł uzyskać dostęp do wszystkich twoich kont.
 
 
 
@@ -429,7 +429,7 @@ Twoje sejfy na komputerze i telefonie komórkowym są teraz zsynchronizowane. Ka
 
 
 
-W telefonach komórkowych można również aktywować automatyczne wypełnianie pól. Aby to zrobić, przejdź do `Ustawienia > Zaawansowane`, a następnie kliknij przycisk `Ustaw jako domyślne` w sekcji `Autouzupełnianie`.
+Na urządzeniu mobilnym możesz również, jeśli chcesz, włączyć automatyczne wypełnianie pól. W tym celu przejdź do `Settings > Advanced`, a następnie kliknij przycisk `Set as Default` w sekcji `Autofill`.
 
 
 

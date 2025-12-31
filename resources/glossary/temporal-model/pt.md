@@ -8,4 +8,4 @@ Em primeiro lugar, uma análise temporal pode, por vezes, identificar a natureza
 
 Para além da natureza da entidade observada, o padrão temporal também pode indicar aproximadamente a localização do utilizador através dos fusos horários. Isto permite-nos correlacionar outras transacções e utilizar o carimbo de data/hora destas como uma heurística adicional que pode ser incluída numa análise em cadeia.
 
-Num registo diferente, foi também este tipo de análise temporal que levou à hipótese de que Satoshi Nakamoto não operava a partir do Japão, mas sim dos Estados Unidos: [_The Time Zones of Satoshi Nakamoto_] (https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).
+Num registo diferente, foi também este tipo de análise temporal que levou à hipótese de que Satoshi Nakamoto não operava a partir do Japão, mas sim dos Estados Unidos: [_The Time Zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).

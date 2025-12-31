@@ -48,7 +48,7 @@ Når du åpner esken, bør du finne følgende elementer i den:
 - En USB-C til USB-A-kabel;
 - En brukerhåndbok;
 - Kort til å skrive ned minnefrasen din.
-For denne opplæringen trenger du to programmer: Ledger Live for å initialisere Ledger, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live] (https://www.ledger.com/ledger-live) og [Sparrow Wallet] (https://sparrowwallet.com/download/) fra deres offisielle nettsider.
+For denne opplæringen trenger du to programmer: Ledger Live for å initialisere Ledger, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live](https://www.ledger.com/ledger-live) og [Sparrow Wallet](https://sparrowwallet.com/download/) fra deres offisielle nettsider.
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 

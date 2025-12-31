@@ -90,7 +90,6 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
 
-**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 ## Lịch sử của Bitcoin
 
@@ -225,7 +224,7 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 
 Tiền tệ vẫn đang phát triển cho đến ngày nay, điều chỉnh hình thức của chúng để đáp ứng các trường hợp sử dụng khác nhau. Như đã nói, trong khi vàng là một kho lưu trữ giá trị tuyệt vời, nó không còn phù hợp với nền kinh tế toàn cầu hóa hiện tại. Tương tự như vậy, các loại tiền tệ ủy thác như đô la và euro rất thanh khoản và dễ vận chuyển vì hiện nay chúng chủ yếu là kỹ thuật số, nhưng giá trị của chúng liên tục giảm do lạm phát tiền tệ.
 
-Mặt khác, Bitcoin mang đến những khả năng mới. Các đặc tính của nó, chẳng hạn như nguồn cung hạn chế nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị tuyệt vời. Hơn nữa, với tư cách là một loại tiền tệ trung lập trên internet, nó đóng vai trò là một **phương tiện trao đổi** khả thi vượt qua biên giới. Tuy nhiên, nó vẫn chưa được chấp nhận rộng rãi trong thương mại ngày nay, mặc dù [được áp dụng liên tục](https://btcmap.org/map).
+Mặt khác, Bitcoin mở ra những triển vọng mới. Các đặc tính của nó, đặc biệt là nguồn cung bị giới hạn nghiêm ngặt, khiến nó trở thành một kho lưu trữ giá trị xuất sắc. Đồng thời, với tư cách là một đồng tiền internet trung lập, nó cấu thành một **phương tiện trao đổi** khả thi, có khả năng vượt qua biên giới. Tuy nhiên, mặc dù việc chấp nhận vẫn đang tiếp diễn (như được minh họa bởi [bản đồ BTCmap](https://btcmap.org/map)), hiện nay nó vẫn chưa được chấp nhận rộng rãi trong thương mại.
 
 ## tiền tệ ủy thác
 

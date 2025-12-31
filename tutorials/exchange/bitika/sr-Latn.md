@@ -36,7 +36,7 @@ Kenijci stoga mogu kupiti satoshije u tri jednostavna koraka, bez KYC-a ili slo�
 
 
 
-Da biste koristili rešenje, posetite platformu [Bitika] (https://bitika.xyz/). Bilo na računaru ili pametnom telefonu, interfejs ostaje isti.
+Da biste koristili rešenje, posetite platformu [Bitika](https://bitika.xyz/). Bilo na računaru ili pametnom telefonu, interfejs ostaje isti.
 
 
 

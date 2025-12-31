@@ -6,4 +6,4 @@ wrong_answers:
   - UVW
 explanation: |
   Con un desplazamiento de 17 en el alfabeto, D se convierte en U, O se convierte en F y G se convierte en X. Por lo tanto, la palabra cifrada es UFX.
-reviewed: false
+reviewed: true

@@ -12,7 +12,7 @@ description: Jak kopać za pomocą NerdQaxe?
 
 
 
-Wideo z [kanału YouTube *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
+Wideo z [kanału YouTube *BTC Sessions*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Wideo z [kanału YouTube *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
 
 
 
-Wideo z [kanału *Vortex Bitcoin* na YouTube] (https://www.youtube.com/@VortexBitcoin).
+Wideo z [kanału *Vortex Bitcoin* na YouTube](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Wideo z [kanału *Vortex Bitcoin* na YouTube] (https://www.youtube.com/@VortexBi
 
 
 
-Wideo z [kanału *Vortex Bitcoin* na YouTube] (https://www.youtube.com/@VortexBitcoin).
+Wideo z [kanału *Vortex Bitcoin* na YouTube](https://www.youtube.com/@VortexBitcoin).
 
 
 

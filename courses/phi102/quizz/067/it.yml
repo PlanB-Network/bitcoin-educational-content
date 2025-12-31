@@ -1,0 +1,8 @@
+question: Secondo il testo, quale paradosso esiste tra sicurezza e progresso economico?
+answer: La sicurezza è un prerequisito per lo sviluppo e una sua conseguenza
+wrong_answers:
+  - La sicurezza arriva sempre dopo il raggiungimento dello sviluppo economico
+  - Il progresso economico elimina naturalmente la necessità di misure di sicurezza
+  - Sicurezza e progresso economico sono completamente indipendenti l'uno dall'altro
+explanation: |
+  Il capitolo spiega che la sicurezza e il progresso economico creano una relazione paradossale: la sicurezza è necessaria prima che si verifichi lo sviluppo (senza di essa non si può innovare o investire a lungo termine), ma è anche necessario un surplus economico derivante dalla produzione per finanziare le istituzioni che garantiscono la sicurezza. Questo crea un ciclo difficile da avviare, ma una volta avviato, si auto-rinforza. Le altre risposte sono sbagliate perché suggeriscono una semplice relazione unidirezionale o l'indipendenza, invece di questa complessa interdipendenza.

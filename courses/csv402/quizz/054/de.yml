@@ -1,7 +1,7 @@
 question: Was ist RGBlib im RGB-Ökosystem?
 answer: Eine Bibliothek zur Erstellung von Anwendungen zur Verwaltung von RGB-Assets
 wrong_answers:
-  - Eine Android-Brieftasche für die Verwaltung von RGB-Anlagen
+  - Eine Android-Wallet für die Verwaltung von RGB-Anlagen
   - Ein alternativer Client für das RGB-Protokoll
   - Eine Website zur Anzeige von RGB-NFTs
 explanation: |

@@ -1,0 +1,8 @@
+question: Miten tekstissä selitetään raha- ja pankkivapauden ja laajemman työnvapauden periaatteen välinen suhde?
+answer: Rahan ja pankkien vapaus edustaa työn vapauden erityissovellusta, sillä raha on yksinkertaisesti palvelu ja tuote, jota vaihdetaan markkinoilla
+wrong_answers:
+  - Rahanvapaus eroaa olennaisesti työnvapaudesta, koska siihen liittyy pikemminkin valtion suvereniteetti kuin yksilön työvalinnat
+  - Pankkitoiminnan vapaus on riippumaton työn vapauden periaatteista, koska rahoituspalvelut edellyttävät erityisiä sääntelypuitteita kansalaisten suojelemiseksi
+  - Rahapolitiikka edustaa kollektiivista yhteiskuntasopimusta, joka ylittää yksilöllisen työvapauden ja edellyttää keskitettyjä koordinointimekanismeja
+explanation: |
+  Tekstissä todetaan nimenomaisesti, että pankki- ja rahanvapaus on "työnvapauden erityissovellus, koska raha edustaa yksinkertaisesti markkinoilla tarjottua palvelua ja vaihdettua tuotetta" Tämä osoittaa, miten liberaalit periaatteet ulottuvat johdonmukaisesti eri talouden aloille. Väärissä vastauksissa esitetään virheellisesti, että rahapolitiikkaan sovelletaan erilaisia periaatteita, vaikka tekstin mukaan rahaa olisi kohdeltava kuten mitä tahansa muuta markkinapalvelua, johon sovelletaan samoja vapauden periaatteita.

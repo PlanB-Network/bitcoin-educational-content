@@ -543,7 +543,7 @@ A cibersegurança pode parecer uma tarefa gigantesca, e é fácil para os princi
 Resumindo: não subestime a cibersegurança, dedique algum tempo a configurar o básico e lembre-se de que a consistência é fundamental. Sem uma boa higiene digital, mesmo as melhores ferramentas não farão muito por si.
 
 
-Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática] (https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
+Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática](https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
 
 
 ![image](assets/pt/020.webp)
@@ -2112,7 +2112,7 @@ Comprar o Bitcoin sem revelar a sua identidade é uma opção para aqueles que d
 - **Plataformas P2P**: Plataformas como a Bisq, RoboSats e Peach facilitam as trocas entre indivíduos privados sem necessidade de verificação de identidade, utilizando sistemas de caução para garantir as transacções. Estas plataformas continuam a comportar o risco de roubo se a outra parte não cooperar, mas o risco é minimizado pelos serviços de caução.
 - **Bitcoin nas caixas automáticas (ATMs)**: Algumas caixas automáticas (quiosques) permitem comprar Bitcoin com dinheiro, embora as taxas tendam a ser elevadas e algumas exijam a verificação da identidade para transacções maiores.
 - **Plataformas Exchange sem KYC**: Algumas plataformas, especialmente na Suíça, permitem-lhe comprar pequenas quantidades de Bitcoin sem exigir a verificação da sua identidade.
-- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining] (https://planb.academy/tutorials/mining).
+- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining](https://planb.academy/tutorials/mining).
 - **Pagamentos / Salário em bitcoins**: Se tens um negócio, podes aceitar Bitcoin como pagamento. Se estiveres empregado, dependendo da tua jurisdição, podes pedir para ser pago em Bitcoin. Estes métodos permitem-lhe adquirir Bitcoin sem KYC.
 
 
@@ -2808,7 +2808,7 @@ A escolha de gastar bitcoins é frequentemente objeto de críticas. Alguns utili
 Uma abordagem mais lógica é o método "Gastar e Substituir". Isto significa gastar Bitcoin por todas as razões mencionadas anteriormente e, em seguida, em vez de deixar as suas poupanças de Bitcoin diminuir, substitui os Sats gastos comprando novos Sats com moeda fiduciária.
 
 
-Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map] (https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
+Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map](https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
 
 
 Uma vez que ainda estamos numa fase de transição em que nem todos os comerciantes diários aceitam BTC, existem algumas soluções simples mas eficazes. Por exemplo, comprar cartões de oferta com Bitcoin é uma solução prática, e muitos fornecedores como Bitrefill, Coinsbee, ou The Bitcoin Company oferecem este serviço.
@@ -3175,7 +3175,7 @@ Gastar apenas 15 minutos a uma hora num plano de herança pode fazer toda a dife
 ### Os objectivos de um plano de sucessão Bitcoin
 
 
-Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
+Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
 
 
 
@@ -3590,7 +3590,7 @@ O Bitcoin é mais do que uma ferramenta financeira; é um movimento. Dependendo 
 - **Junte-se a uma comunidade local**: Participe em eventos, encontros e fóruns para conhecer outros utilizadores de bitcoin e para saber mais sobre os últimos desenvolvimentos.
 
 
-Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores] (https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
+Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores](https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
 
 
 ### Palavras finais

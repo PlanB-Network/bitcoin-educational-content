@@ -114,7 +114,7 @@ Umbrel tar hand om att förse ThunderHub med LND-anslutningsinformation (TLS-cer
 
 
 
-För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi med RaspiBlitz eller en *stand-alone* installation) kräver installationen av ThunderHub några extra steg. Nedan beskriver vi installationen från källan och konfigurationen, enligt den [officiella ThunderHub-dokumentationen] (https://docs.thunderhub.io).
+För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi med RaspiBlitz eller en *stand-alone* installation) kräver installationen av ThunderHub några extra steg. Nedan beskriver vi installationen från källan och konfigurationen, enligt den [officiella ThunderHub-dokumentationen](https://docs.thunderhub.io).
 
 
 
@@ -122,7 +122,7 @@ För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi 
 
 
 
-**Förutsättningar:** Se till att ditt system uppfyller minimikraven enligt [documentation setup] (https://docs.thunderhub.io/setup):
+**Förutsättningar:** Se till att ditt system uppfyller minimikraven enligt [documentation setup](https://docs.thunderhub.io/setup):
 
 
 
@@ -136,7 +136,7 @@ För användare utanför Umbrel (t.ex. på en personlig server, en Raspberry Pi 
 
 
 
-**1. Hämta ThunderHub-kod:** Klona projektets GitHub-repository enligt beskrivningen i [installationsdokumentationen] (https://docs.thunderhub.io/installation):
+**1. Hämta ThunderHub-kod:** Klona projektets GitHub-repository enligt beskrivningen i [installationsdokumentationen](https://docs.thunderhub.io/installation):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Huvudkonfigurationsfil:** Skapa en `.env.local`-fil i roten av ThunderHub-mappen för att anpassa konfigurationen (detta förhindrar att dina inställningar skrivs över under uppdateringar). Huvudvariabler enligt [setup documentation] (https://docs.thunderhub.io/setup):
+**1. Huvudkonfigurationsfil:** Skapa en `.env.local`-fil i roten av ThunderHub-mappen för att anpassa konfigurationen (detta förhindrar att dina inställningar skrivs över under uppdateringar). Huvudvariabler enligt [setup documentation](https://docs.thunderhub.io/setup):
 
 
 

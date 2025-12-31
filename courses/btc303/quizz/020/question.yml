@@ -128,17 +128,24 @@ proofreading:
     contributor_names:
     reward: 0.4
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.35
+      - MilankovicProtocol
+    reward: 0.17
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.35
   - language: bg
+    last_contribution_date: '2025-12-29'
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 0.15
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.3
+    reward: 0.35

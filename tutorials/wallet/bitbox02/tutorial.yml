@@ -38,10 +38,11 @@ proofreading:
     contributor_names:
     reward: 3.01
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 2.28
+      - nrak10
+    reward: 1.14
   - language: it
     last_contribution_date:
     urgency: 1
@@ -148,6 +149,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.01
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.74
 tags:
   - guides
   - wallets

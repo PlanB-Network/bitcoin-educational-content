@@ -873,7 +873,7 @@ Als je klaar bent om je handen vuil te maken en volledige controle over het proc
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Tot slot kun je overwegen om [een Bitcoinize PoS] (https://bitcoinize.com/) op te zetten als aanvulling op fysieke verkooppunten.
+Tot slot kun je overwegen om [een Bitcoinize PoS](https://bitcoinize.com/) op te zetten als aanvulling op fysieke verkooppunten.
 
 ## De Professional
 

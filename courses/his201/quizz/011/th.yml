@@ -1,0 +1,9 @@
+question: ระบบสกุลเงินส่วนตัวใดที่ Satoshi Nakamoto กล่าวถึงอย่างชัดเจนในงานเขียนของเขา?
+answer: Liberty Reserve
+wrong_answers:
+  - อี-โกลด์
+  - เดอะ ลิเบอร์ตี้ ดอลลาร์
+  - อี-บูลเลียน
+explanation: |
+  สิ่งนี้ยังคงใช้งานอยู่ในช่วงเวลาของ Bitcoin ซึ่งแตกต่างจาก e-gold และ Liberty Dollar Satoshi ยัง [กล่าวถึง](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix ซึ่งเป็นสกุลเงินดิจิทัลทองคำที่สร้างขึ้นในปี 2002
+reviewed: true

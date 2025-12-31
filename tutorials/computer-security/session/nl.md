@@ -65,7 +65,7 @@ Session is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks dow
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/session-foundation/session-android/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/session-foundation/session-android/releases).
 
 
 

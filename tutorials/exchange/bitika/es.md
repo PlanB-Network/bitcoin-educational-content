@@ -20,7 +20,7 @@ Así, los kenianos pueden comprar satoshis en tres sencillos pasos, sin CSC ni c
 
 ## Primeros pasos con Bitika
 
-Para utilizar la solución, visite la plataforma [Bitika] (https://bitika.xyz/). Tanto en el ordenador como en el smartphone, la interfaz sigue siendo la misma.
+Para utilizar la solución, visite la plataforma [Bitika](https://bitika.xyz/). Tanto en el ordenador como en el smartphone, la interfaz sigue siendo la misma.
 
 ![screen|500](assets/fr/03.webp)
 

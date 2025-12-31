@@ -898,7 +898,7 @@ Ce que Corallo propose est une combinaison d'un Soft Fork activé par mineur et 
 Lorsque Taproot a été prêt à être déployé en octobre 2020, c'est-à-dire lorsque tous les détails techniques relatifs aux règles de consensus ont été mis en œuvre et ont été largement approuvés par la communauté, les discussions sur la manière de le déployer ont commencé à s'intensifier. Jusqu'alors, ces discussions étaient restées assez discrètes.
 
 
-De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
+De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
 
 
 > Au moment de la rédaction du présent document, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) a été rédigé sur la base des enseignements tirés en 2017. Un changement notable suite aux BIP 9+148 est que l'activation forcée est désormais basée sur la hauteur du bloc plutôt que sur le temps médian passé ; un second changement notable est que l'activation forcée est un paramètre booléen choisi lorsque les paramètres d'activation d'un Soft Fork sont définis soit pour le déploiement initial, soit mis à jour lors d'un déploiement ultérieur.

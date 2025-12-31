@@ -1,0 +1,8 @@
+question: วิธีใดที่ช่วยให้คุณดึงค่าออกจาก Result พร้อมกับให้ข้อความ panic แบบกำหนดเองหากเกิดข้อผิดพลาด?
+answer: คาดหวัง
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  เมธอด expect ถูกออกแบบมาโดยเฉพาะเพื่อดึงค่าความสำเร็จจาก Result ในขณะที่ให้คุณสามารถระบุข้อความ panic ที่กำหนดเองซึ่งจะแสดงหากเกิดข้อผิดพลาด ซึ่งทำให้การดีบักง่ายขึ้นเมื่อเทียบกับ unwrap ที่ใช้ข้อความ panic ทั่วไป เมธอด unwrap_or_else จะไม่ panic แต่จะดำเนินการ closure เมื่อเกิดข้อผิดพลาด ตัวเลือกอื่น ๆ (unwrap_with_message และ panic_with) ไม่ใช่เมธอด Rust ที่แท้จริงสำหรับการจัดการประเภท Result

@@ -3,7 +3,7 @@ answer: Майкъл Маркуард (Theymos)
 wrong_answers:
   - Джеф Гарзик (jgarzik)
   - Нилс Шнайдер (tcatm)
-  - Pieter Wuille (sipa)
+  - Питър Вуилe (sipa)
 explanation: |
   Този Bitcoin Block Explorer позволява на потребителите да преглеждат подробна информация за блокове, адреси и транзакции чрез уеб браузър.
 reviewed: true

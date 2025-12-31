@@ -23,7 +23,7 @@ Dalam tutorial ini, kita akan melihat Flash, sebuah solusi dari Beninese yang me
 
 
 
-Flash adalah platform Exchange yang dikembangkan oleh [BlockSolut] (https://bitcoinflash.xyz) yang beroperasi di beberapa negara Afrika Barat. Misi utama Flash adalah memfasilitasi akuisisi, Exchange, dan penggunaan Bitcoin dalam kehidupan sehari-hari.
+Flash adalah platform Exchange yang dikembangkan oleh [BlockSolut](https://bitcoinflash.xyz) yang beroperasi di beberapa negara Afrika Barat. Misi utama Flash adalah memfasilitasi akuisisi, Exchange, dan penggunaan Bitcoin dalam kehidupan sehari-hari.
 
 
 Flash mengandalkan Lightning Network, sebuah overlay Bitcoin, untuk melakukan transaksi Bitcoin dengan aman dan lancar, menunjukkan kepada komunitasnya kekuatan Bitcoin dalam kehidupan sehari-hari.

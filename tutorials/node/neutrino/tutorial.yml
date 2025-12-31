@@ -57,20 +57,22 @@ proofreading:
     contributor_names:
     reward: 4.26
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 3.22
+      - JosephQuaye
+    reward: 1.61
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 7.38
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 5.3
+      - 62maximalist
+    reward: 2.65
   - language: it
     last_contribution_date:
     urgency: 1
@@ -157,3 +159,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.26
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.3

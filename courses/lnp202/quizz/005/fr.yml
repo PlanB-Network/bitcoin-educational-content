@@ -1,0 +1,9 @@
+question: Quelles données un opérateur custodial de wallet Lightning peut-il observer sur ses utilisateurs ?
+answer: Tous leurs flux
+wrong_answers:
+  - Leurs identités
+  - Les métadonnées de leurs paiements, mais sans les montants
+  - Les frais de leurs paiements, mais sans les montants
+explanation: |
+  L’opérateur a accès aux montants, fréquences, destinataires et habitudes de paiement de l’utilisateur, en bref, il peut tout observer, même si ces services sont souvent sans KYC.
+reviewed: false

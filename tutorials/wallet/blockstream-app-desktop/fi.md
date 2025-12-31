@@ -76,7 +76,7 @@ description: Kuinka käyttää Hardware Wallet:ta Blockstream-sovelluksella tiet
 
 
 
-- Siirry [viralliselle verkkosivustolle] (https://blockstream.com/app/) ja napsauta "_Download Now_". Lataa käyttöjärjestelmääsi (Windows, macOS, Linux) vastaava versio.
+- Siirry [viralliselle verkkosivustolle](https://blockstream.com/app/) ja napsauta "_Download Now_". Lataa käyttöjärjestelmääsi (Windows, macOS, Linux) vastaava versio.
 - **Huomautus**: Varmista, että lataat virallisen lähteen, jotta vältät vilpilliset ohjelmistot.
 
 

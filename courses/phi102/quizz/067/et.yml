@@ -1,0 +1,8 @@
+question: Milline paradoks eksisteerib teksti kohaselt julgeoleku ja majandusliku arengu vahel?
+answer: Turvalisus on nii arengu eeltingimus kui ka selle tagajärg
+wrong_answers:
+  - Turvalisus tuleb alati pärast majandusarengu saavutamist
+  - Majanduslik areng kaotab loomulikult vajaduse julgeolekumeetmete järele
+  - Turvalisus ja majanduslik areng on teineteisest täiesti sõltumatud
+explanation: |
+  Peatükis selgitatakse, et turvalisus ja majanduslik areng loovad paradoksaalse suhte: turvalisus on vajalik enne arengut (ilma selleta ei saa teha uuendusi ega investeerida pikaajaliselt), kuid turvalisust tagavate institutsioonide rahastamiseks on vaja ka tootmisest tulenevat majanduslikku ülejääki. See tekitab keerulise tsükli, mida on raske alustada, kuid kui see on kord alanud, muutub see iseenesest tugevdavaks. Teised vastused on valed, sest need viitavad pigem lihtsale ühesuunalisele suhtele või sõltumatusele kui sellele keerulisele vastastikusele sõltuvusele.

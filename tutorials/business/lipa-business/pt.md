@@ -269,7 +269,7 @@ A sua natureza não custodial e favorável à privacidade, combinada com ferrame
 
 - [Sítio Web oficial da Lipa for Business](https://lipa.swiss/en/for-business)
 - [Painel de controlo web](https://dashboard.lipa.swiss)
-- [Lipa Support for Business] (https://help.lipa.swiss/business)
+- [Lipa Support for Business](https://help.lipa.swiss/business)
 - [Lipa General Support](https://help.lipa.swiss/Wallet)
 - [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
 - [Twitter @lipa_btc](https://twitter.com/lipa_btc)

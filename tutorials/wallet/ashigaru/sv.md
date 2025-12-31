@@ -60,7 +60,7 @@ Applikationen kräver några förutsättningar för att fungera korrekt. Först 
 
 
 
-För att ladda ner filen `.apk` via Tor behöver du en webbläsare som kan komma åt `.onion`-webbplatser. Det enklaste sättet är att installera Tor Browser-applikationen på din telefon, tillgänglig från [Google Play Store] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser) eller direkt [via dess `.apk`] (https://www.torproject.org/download/#android).
+För att ladda ner filen `.apk` via Tor behöver du en webbläsare som kan komma åt `.onion`-webbplatser. Det enklaste sättet är att installera Tor Browser-applikationen på din telefon, tillgänglig från [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) eller direkt [via dess `.apk`](https://www.torproject.org/download/#android).
 
 
 
@@ -86,7 +86,7 @@ Om du vill veta mer om Dojo och lära dig hur du installerar det, uppmanar jag d
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Om du verkligen inte har råd att driva en egen Dojo kan du hitta personer som är villiga att dela med sig av sin instans gratis på [dojobay.pw] (https://www.dojobay.pw/mainnet/). Detta kan vara en tillfällig lösning, men på lång sikt rekommenderar jag att du använder din egen Dojo för att garantera din suveränitet och sekretess.
+Om du verkligen inte har råd att driva en egen Dojo kan du hitta personer som är villiga att dela med sig av sin instans gratis på [dojobay.pw](https://www.dojobay.pw/mainnet/). Detta kan vara en tillfällig lösning, men på lång sikt rekommenderar jag att du använder din egen Dojo för att garantera din suveränitet och sekretess.
 
 
 
@@ -98,7 +98,7 @@ Om du verkligen inte har råd att driva en egen Dojo kan du hitta personer som �
 
 
 
-På din telefon öppnar du Tor Browser och går till [den officiella Ashigaru-webbplatsen] (https://ashigaru.rs/download/), i avsnittet `Download`. Klicka sedan på knappen `Download for Android` för att ladda ner installationsfilen.
+På din telefon öppnar du Tor Browser och går till [den officiella Ashigaru-webbplatsen](https://ashigaru.rs/download/), i avsnittet `Download`. Klicka sedan på knappen `Download for Android` för att ladda ner installationsfilen.
 
 
 
@@ -122,7 +122,7 @@ Gå tillbaka till [den officiella Ashigaru-webbplatsen](https://ashigaru.rs/down
 
 
 
-Fortfarande på din telefon, öppna en ny flik i Tor Browser och gå till [Keybase-verifieringsverktyget] (https://keybase.io/verify). Klistra in meddelandet som du just kopierat i det angivna fältet och klicka sedan på knappen "Verifiera".
+Fortfarande på din telefon, öppna en ny flik i Tor Browser och gå till [Keybase-verifieringsverktyget](https://keybase.io/verify). Klistra in meddelandet som du just kopierat i det angivna fältet och klicka sedan på knappen "Verifiera".
 
 
 
@@ -142,7 +142,7 @@ Om ett felmeddelande visas i det här skedet betyder det dock att signaturen är
 
 
 
-Keybase har försett dig med applikationens hash. Vi ska nu kontrollera att hashen för filen `.apk` som du har laddat ner matchar den som verifierats på Keybase. För att göra detta, gå till [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase har försett dig med applikationens hash. Vi ska nu kontrollera att hashen för filen `.apk` som du har laddat ner matchar den som verifierats på Keybase. För att göra detta, gå till [HASH FILE ONLINE](https://hash-file.online/).
 
 
 
@@ -355,7 +355,7 @@ Varje falsk applikation som erbjuds har en specifik metod för att låsa upp det
 
 
 
-Den andra parametern som är viktig att aktivera är [**RBF** (*Replace-by-Fee*)] (https://planb.academy/resources/glossary/rbf-replacebyfee). Med det här alternativet kan du öka kostnaden för en transaktion om den fastnar i mempoolerna på grund av att kostnaden är för låg. Du kan aktivera det via menyn `Transaktioner > Använd RBF`.
+Den andra parametern som är viktig att aktivera är [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Med det här alternativet kan du öka kostnaden för en transaktion om den fastnar i mempoolerna på grund av att kostnaden är för låg. Du kan aktivera det via menyn `Transaktioner > Använd RBF`.
 
 
 

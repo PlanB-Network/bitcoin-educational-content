@@ -3936,7 +3936,7 @@ U zavisnosti od toga kako planirate da koristite svoj deo nakon CoinJoin ciklusa
 ![BTC204](assets/sr-Latn/190.webp)
 
 
-Ono što nam je potrebno da bismo to izbegli jeste alat sposoban da zamagli tragove prošlosti Bitcoin novčića, kako bismo povratili neki oblik zamenljivosti ([eng. fungibility] (https://planb.academy/resources/glossary/fungibility)). Upravo je to svrha rikošeta.
+Ono što nam je potrebno da bismo to izbegli jeste alat sposoban da zamagli tragove prošlosti Bitcoin novčića, kako bismo povratili neki oblik zamenljivosti ([eng. fungibility](https://planb.academy/resources/glossary/fungibility)). Upravo je to svrha rikošeta.
 
 
 ![BTC204](assets/sr-Latn/191.webp)
@@ -4449,7 +4449,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ### [Ponovno upotrebljivi kod za plaćanje]
 
 
-Kao što je ranije pomenuto, višekratni kod za plaćanje ([eng. reusable payment code] (https://planb.academy/resources/glossary/reusable-payment-code) se nalazi na dubini 3 HD novčanika, što ga čini uporedivim sa `xpub`, kako u smislu njegove pozicije u strukturi novčanika, tako i u smislu njegove uloge.
+Kao što je ranije pomenuto, višekratni kod za plaćanje ([eng. reusable payment code](https://planb.academy/resources/glossary/reusable-payment-code) se nalazi na dubini 3 HD novčanika, što ga čini uporedivim sa `xpub`, kako u smislu njegove pozicije u strukturi novčanika, tako i u smislu njegove uloge.
 
 Kod za plaćanje od 80 bajtova se može razlažiti na sledeći način:
 

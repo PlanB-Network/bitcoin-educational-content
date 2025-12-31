@@ -11,7 +11,7 @@ objectives:
 
 Co jest potrzebne, aby budować na Bitcoinie? Ten 20-godzinny kurs zabiera cię pod powierzchnię Bitcoina i Lightning Network, eksplorując protokoły, które napędzają najbardziej odporną infrastrukturę finansową na świecie. Niezależnie od tego, czy chcesz przyczynić się do projektów open-source, czy zbudować następną generację aplikacji Bitcoin, zdobędziesz głębię techniczną potrzebną do pewnego rozpoczęcia pracy w tym ekosystemie.
 
-Nagrany podczas bootcampu CUBO+ 2023 w Salwadorze, ten kurs łączy perspektywy wiodących programistów Bitcoin i edukatorów, którzy ukształtowali tę technologię. Najlepsza część? Jest całkowicie darmowy, umożliwiony przez Fulgure Venture, Bitcoin Office i DecouvreBitcoin. Jeśli byłeś ciekaw, jak Bitcoin naprawdę działa na poziomie protokołu, to jest twoja szansa, aby się dowiedzieć.
+Nagrany podczas bootcampu CUBO+ 2023 w Salwadorze, ten kurs łączy perspektywy wiodących programistów Bitcoin i edukatorów, którzy ukształtowali tę technologię. Najlepsza część? Jest całkowicie darmowy, umożliwiony przez Fulgure Ventures, Bitcoin Office i DecouvreBitcoin. Jeśli byłeś ciekaw, jak Bitcoin naprawdę działa na poziomie protokołu, to jest twoja szansa, aby się dowiedzieć.
 +++
 # Wprowadzenie i kursy przygotowawcze
 
@@ -59,7 +59,7 @@ Podczas całego kursu uczestnicy będą korzystać z kluczowych narzędzi, któr
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Witamy na pierwszym wykładzie w ramach programu edukacyjnego **Cubo Plus**. Dziś zagłębiamy się w świat Bitcoin, prowadzony przez Ricky'ego, założyciela **Bitcoin Italia Podcast**. Ricky jest zapalonym działaczem na rzecz praw człowieka, który wykorzystuje Bitcoin jako narzędzie do ochrony i promowania praw człowieka. Dzięki ponad sześcioletniemu doświadczeniu Ricky odbył wiele podróży, dokumentując adopcję Bitcoin na rynkach wschodzących, takich jak Salwador i Gwatemala. Jego praca wykracza poza podcasty; jest również aktywny na YouTube (**Bitcoin Explorers**) i Twitterze (**BTC Explorer**, **Ricky6**). Zaangażowanie Ricky'ego w Commitment do Bitcoin wynika z jego przekonania, że oferuje on wolność finansową i prywatność, stanowiąc wyzwanie dla tradycyjnych, scentralizowanych systemów bankowych.
+Witamy na pierwszym wykładzie w ramach programu edukacyjnego **Cubo Plus**. Dziś zagłębiamy się w świat Bitcoin, prowadzony przez Rikki'ego, założyciela **Bitcoin Italia Podcast**. Rikki jest zapalonym działaczem na rzecz praw człowieka, który wykorzystuje Bitcoin jako narzędzie do ochrony i promowania praw człowieka. Dzięki ponad sześcioletniemu doświadczeniu Rikki odbył wiele podróży, dokumentując adopcję Bitcoin na rynkach wschodzących, takich jak Salwador i Gwatemala. Jego praca wykracza poza podcasty; jest również aktywny na YouTube (**Bitcoin Explorers**) i Twitterze (**BTC Explorer**, **Rikki6**). Zaangażowanie Rikki'ego w Commitment do Bitcoin wynika z jego przekonania, że oferuje on wolność finansową i prywatność, stanowiąc wyzwanie dla tradycyjnych, scentralizowanych systemów bankowych.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Ten wykład, **"Dlaczego Salwador potrzebuje Bitcoin"**, zawiera przegląd **pro
 - integracja finansowa: Zapewnienie dostępu do usług finansowych osobom, które zostały wykluczone z tradycyjnych systemów bankowych, często określanych jako "nieubankowione"
 - pieniądze nieocenzurowane:_ Pieniądze, które nie mogą być kontrolowane lub ograniczane przez rządy lub instytucje finansowe.
 
-#### Tło Ricky'ego i rzecznictwo Bitcoin
+#### Tło Rikki'ego i rzecznictwo Bitcoin
 
 
-Podróż Ricky'ego do Bitcoin jest zakorzeniona w jego pracy jako obrońcy praw człowieka. Uważa on, że Bitcoin może zapewnić jednostkom kontrolę nad ich finansami, pozwalając im chronić swoją prywatność i uniknąć ograniczeń scentralizowanych banków. Jego badania nad przyjęciem Bitcoin w miejscach takich jak Salwador podkreślają, w jaki sposób technologia ta może umożliwić ludziom na rynkach wschodzących uzyskanie niezależności finansowej.
+Podróż Rikki'ego do Bitcoin jest zakorzeniona w jego pracy jako obrońcy praw człowieka. Uważa on, że Bitcoin może zapewnić jednostkom kontrolę nad ich finansami, pozwalając im chronić swoją prywatność i uniknąć ograniczeń scentralizowanych banków. Jego badania nad przyjęciem Bitcoin w miejscach takich jak Salwador podkreślają, w jaki sposób technologia ta może umożliwić ludziom na rynkach wschodzących uzyskanie niezależności finansowej.
 
 
 ### Globalne znaczenie i wyzwania związane z Bitcoin

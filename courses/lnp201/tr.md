@@ -1447,7 +1447,7 @@ Alıcının satıcıya 30.000 Sats göndermek istediğini ve ödemenin yönlendi
 
 
 
-- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+] (https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
+- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+](https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
 
 
 ![LNP201](assets/en/073.webp)
@@ -1471,7 +1471,7 @@ Son olarak, hedefleri işlenen ödeme sayısını ve toplanan ücretleri en üst
 ### Loop Out Hizmeti
 
 
-Lightning Labs tarafından sunulan [Loop Out] (https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
+Lightning Labs tarafından sunulan [Loop Out](https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
 
 
 ![LNP201](assets/en/075.webp)

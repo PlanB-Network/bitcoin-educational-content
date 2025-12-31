@@ -652,5 +652,5 @@ Kwiyakira bisigura inshingano: gusubiza inyuma imbuto, kurinda ukuronka, gutangu
 
 - [Imitunganyirize y'intango y'umurongo wa Ubuntu](intambwe-ku-intambwe-y'uburongozi/) na Daniel P. Costas (umutekano wa VPS intambwe ku yindi)
 - [Gushiramwo LNbits + Phoenixd kuri Ubuntu VPS](gushiramwo-lnbits-phoenixd-vps-ubuntu/) na Daniel P. Costas (uburongozi bushitse)
-- [Serveri ya LNbits kuri Clearnet] (https/Igikoresho c'ibice/ru/) na Axel
-- [Ibice vya LN kuri VPS] (Ibice vya LN) na Hannes
+- [Serveri ya LNbits kuri Clearnet](https/Igikoresho c'ibice/ru/) na Axel
+- [Ibice vya LN kuri VPS](Ibice vya LN) na Hannes

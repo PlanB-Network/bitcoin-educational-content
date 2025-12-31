@@ -32,10 +32,11 @@ proofreading:
     contributor_names:
     reward: 0.15
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.15
+      - arejula27
+    reward: 0.07
   - language: et
     last_contribution_date:
     urgency: 1
@@ -97,10 +98,11 @@ proofreading:
     contributor_names:
     reward: 0.16
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - Sanja22B
+    reward: 0.08
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -147,3 +149,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.16
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18

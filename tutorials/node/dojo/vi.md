@@ -1567,7 +1567,7 @@ cd ~/
 
 
 
-Tải xuống phiên bản Dojo mới nhất từ GitHub qua Tor. Trong ví dụ này, phiên bản `1.28.0` (hiện chưa có tại thời điểm viết bài: đây chỉ là ví dụ). Nhớ thay thế tệp và liên kết [bằng phiên bản bạn muốn cài đặt] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
+Tải xuống phiên bản Dojo mới nhất từ GitHub qua Tor. Trong ví dụ này, phiên bản `1.28.0` (hiện chưa có tại thời điểm viết bài: đây chỉ là ví dụ). Nhớ thay thế tệp và liên kết [bằng phiên bản bạn muốn cài đặt](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

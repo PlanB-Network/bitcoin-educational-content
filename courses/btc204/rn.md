@@ -1064,7 +1064,7 @@ Turavyiyumvira bike, ariko inyifato zimwe zimwe z’abantu ziramenyekana onchain
 Mbere na mbere, isesengura ry’igihe rimwe na rimwe rirashobora kugaragaza kamere y’ikintu gikurikiranywe. Nitwabona ko amafaranga atangazwa ata guhinduka mu masaha 24, ivyo rero bizogaragaza igikorwa c’ubutunzi kiri ku rugero rwo hejuru. Ikigo kiri inyuma y’ivyo bikorwa gishobora kuba ari ishirahamwe, rishobora kuba ari iryo kw’isi yose kandi kumbure rifise uburyo bwo gukora mu nzu.
 
 
-Nk’akarorero, [Namenye iyo nzira mu mezi makeyi aheze] (https://witter.com/Loic_Pandul/status/1701127409712452072) igihe nariko ndasesangura [isoko ryari ryatanze mu makosa ama bitcoins 19 mu 2012). amafaranga](Mempool.ikibanza/tx/d5392d474b4c436e1c9d1f4ff4be5f9bb0eb2e26b61d2781751474b7e870fd). Isesengura ryoroshe ry’igihe ryatumye nshobora kwiyumvira ko twariko turakorana n’igikorwa c’ubuhinga, kandi rero kumbure n’ikintu kinini nk’urubuga rwa Exchange.
+Nk’akarorero, [Namenye iyo nzira mu mezi makeyi aheze](https://witter.com/Loic_Pandul/status/1701127409712452072) igihe nariko ndasesangura [isoko ryari ryatanze mu makosa ama bitcoins 19 mu 2012). amafaranga](Mempool.ikibanza/tx/d5392d474b4c436e1c9d1f4ff4be5f9bb0eb2e26b61d2781751474b7e870fd). Isesengura ryoroshe ry’igihe ryatumye nshobora kwiyumvira ko twariko turakorana n’igikorwa c’ubuhinga, kandi rero kumbure n’ikintu kinini nk’urubuga rwa Exchange.
 
 
 Nkako, haciye imisi mikeyi, vyavumbuwe ko ayo mahera ari aya PayPal, biciye ku rubuga rwa Paxos Exchange.
@@ -1482,7 +1482,7 @@ ___
 - Urutonde rw'ingingo zine zifise umutwe uvuga ngo: [Gutahura ubuzima bwite bwa Bitcoin na OXT](https://medium.com/oxt-research/gutahura-ubuzima bwite-na-oxt igice-ca-1-4-8177a40a5923), zasohowe na Samou27;
 - Raporo zitandukanye zivuye muri **ubushakashatsi bwa OXT**, hamwe n'igikoresho cabo co gusesangura Blockchain ku buntu (ntikigihari muri iki gihe gikurikira ugufatwa kw'abashinze Samourai Wallet);
 - Mu buryo bwagutse, ubumenyi bwanje buva ku ma tweets atandukanye n'ibirimwo bivuye kuri [@LaurentMT](https://twitter.com/LaurentMT) na [@ErgoBTC](https://twitter.com/ErgoBTC);
-- Ivyo [Space Kek #19] (abamenyeshamakuru b'ibiganiro. [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).
+- Ivyo [Space Kek #19](abamenyeshamakuru b'ibiganiro. [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Ndashima abanditsi bavyo, ababiteguye n'ababikora. Ndashimira kandi abakosora bakosoye neza ingingo iki gice ca 3 gishingiyeko, bakampa impanuro zabo z’abahinga:*
@@ -2664,7 +2664,7 @@ Maxwell, G. (2013, 22 Myandagaro). *CoinJoin: Bitcoin ubuzima bwite bw'isi nyaku
 Ariko rero, hariho n’ibindi vyavuzwe imbere y’aho, vyose ku mikono ya Chaum nka UTXO y’uguvanga, ariko kandi ku bijanye n’ama coinjoins. [Muri Ruheshi 2011, Duncan Townsend yashize ahabona ku rubuga rwa BitcoinTalk) igikoresho co guvanga gikoresha imikono ya Chaum mu buryo busa cane n’ubw’amafaranga y’iki Chaum yo muri iki gihe.
 
 
-Muri iyo nkuru nyene, turashobora gusanga [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend] (https. Inzira idondora muri ubu butumwa ni co nyene coinjoins zivuga. Kuvuga uburyo busa n’ubwo birashobora no kuboneka muri [ubutumwa bwa Alex Mizrahi mu 2012](https://github.com/killerstorm/6f843e1d38191aebca67d483bd88#file-laundry) nk’uko mu nyuma ararema Litecoin. Mbere n'ijambo "CoinJoin" ubwaryo bavuga ko ritavuzwe na Greg Maxwell, ahubwo ko ryavuye mu ciyumviro ca Peter Todd.
+Muri iyo nkuru nyene, turashobora gusanga [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend](https. Inzira idondora muri ubu butumwa ni co nyene coinjoins zivuga. Kuvuga uburyo busa n’ubwo birashobora no kuboneka muri [ubutumwa bwa Alex Mizrahi mu 2012](https://github.com/killerstorm/6f843e1d38191aebca67d483bd88#file-laundry) nk’uko mu nyuma ararema Litecoin. Mbere n'ijambo "CoinJoin" ubwaryo bavuga ko ritavuzwe na Greg Maxwell, ahubwo ko ryavuye mu ciyumviro ca Peter Todd.
 
 
 ![BTC204](assets/rn/131.webp)
@@ -3632,7 +3632,7 @@ Ariko rero, vyoba vyiza hagizwe imiterere y’ugucuruza ituma amahera ashobora k
 PayJoin ni uburyo bwihariye bwo gukoresha Bitcoin butera imbere ubuzima bwite bw’abakoresha igihe bakoresha amahera mu gukorana n’uwuronka amahera.
 
 
-Mu mwaka w'2015 niho LaurentMT yavuga ubwa mbere kuri ubwo buryo mw'izina rya "*ibikorwa vy'ubudandaji*", nk'uko bigaragara mu nyandiko iriho . [hano] (aha] (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje gukoreshwa n’indege yitwa Samourai Wallet, mu mwaka w’2018 ni yo yabaye umukiriya wa mbere yabushize mu ngiro akoresheje igikoresho ca Stowaway. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79], [BIP78](Ubg.Bitcoin/BIPs/blob/master/BIP-0078.mediawiki), na [BIP77](Ubg-979.org/docs/ingene-bikora/PayJoin-v27W-G). Amajambo menshi rero arakoreshwa mu kwerekeza kuri PayJoin:
+Mu mwaka w'2015 niho LaurentMT yavuga ubwa mbere kuri ubwo buryo mw'izina rya "*ibikorwa vy'ubudandaji*", nk'uko bigaragara mu nyandiko iriho . [hano](aha] (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje gukoreshwa n’indege yitwa Samourai Wallet, mu mwaka w’2018 ni yo yabaye umukiriya wa mbere yabushize mu ngiro akoresheje igikoresho ca Stowaway. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79], [BIP78](Ubg.Bitcoin/BIPs/blob/master/BIP-0078.mediawiki), na [BIP77](Ubg-979.org/docs/ingene-bikora/PayJoin-v27W-G). Amajambo menshi rero arakoreshwa mu kwerekeza kuri PayJoin:
 
 
 
@@ -5634,7 +5634,7 @@ $$ P = B + \umwandiko {Hash}(a \cakadomo B) \cakadomo G $$
 Muri iyi nkuru, Alice yaharuye gusa igiharuro c'urufunguzo rwiwe rw'ibanga $a$ n'urufunguzo rwa bose rwa Bob $B$. Yaciye atanga ico ciyumviro mu gikorwa ca Hash kizwi na bose. Agaciro kavuyemwo rero kagwizwa n'intangamarara $G$ y'umurongo w'uruzitiro `secp256k1`. Ubwa nyuma, Alice yongerako ikintu kiva ku rufunguzo rwa bose rwa Bob $B$. Igihe Alice ifise iyo Address $P$, ayikoresha nk’igisubizo mu gucuruza, ni ukuvuga ko ayirungikira ama bitcoins.
 
 
-> *Mu bijanye n'Ivyishyurwa Bicereje, igikorwa ca "Hash" gihuye n'igikorwa ca SHA256 Hash gifise ikimenyetso c'uko `BIP0352/SharedSecret`, kigaragaza ko ama hashes yashizweho ari ay'umwihariko muri iyi porotokole kandi adashobora gusubira gukoreshwa mu bindi bice vy'uburinzi bw'ikimenyetso c'amatangazo. Iryo tegeko rihuye n’iryo [ryerekanwa muri BIP340 ku mikono ya Schnorr] (ku rubuga rwa `secp256k1`.*
+> *Mu bijanye n'Ivyishyurwa Bicereje, igikorwa ca "Hash" gihuye n'igikorwa ca SHA256 Hash gifise ikimenyetso c'uko `BIP0352/SharedSecret`, kigaragaza ko ama hashes yashizweho ari ay'umwihariko muri iyi porotokole kandi adashobora gusubira gukoreshwa mu bindi bice vy'uburinzi bw'ikimenyetso c'amatangazo. Iryo tegeko rihuye n’iryo [ryerekanwa muri BIP340 ku mikono ya Schnorr](ku rubuga rwa `secp256k1`.*
 Kubera imiterere y’umurongo w’uruzitiro ECDH ishingiyeko, turazi ko:
 
 
@@ -6082,7 +6082,7 @@ Iciyumviro co kwishura mu gacerere ni ikintu gishasha kandi cashizwe mu ngiro gu
 
 - [Igikapu c'agakate](https://igikapu c'agakate.com/)
 - [Uguceceka](https://app.uguceceka.dev/)
-- [Igikapu c'Impano] (Igikapu c'Impano)
+- [Igikapu c'Impano](Igikapu c'Impano)
 
 
 Tuzoba turiko turaguha inyigisho ido n'ido y'ingene woshiraho amahera yawe bwite y'ugutanga amahera y'agacerere Address.

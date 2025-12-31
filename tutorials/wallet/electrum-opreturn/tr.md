@@ -22,7 +22,7 @@ Bu adım adım öğretici, Wallet Electrum kullanarak Blockchain Bitcoin üzerin
 - Bir bilgisayar (Windows, macOS veya Linux).
 - İnternet bağlantısı.
 - İşlem tutarını ve ücretlerini karşılamak için Wallet'nizde birkaç satoshi (Sats) veya bitcoin (BTC).
-- Bir metinden hex'e dönüştürücü (örneğin çevrimiçi bir site) veya [bu OP_RETURN komut dosyası oluşturucu] (https://resources.davidcoen.it/opreturnelectrum/) gibi özel bir araç.
+- Bir metinden hex'e dönüştürücü (örneğin çevrimiçi bir site) veya [bu OP_RETURN komut dosyası oluşturucu](https://resources.davidcoen.it/opreturnelectrum/) gibi özel bir araç.
 
 
 
@@ -164,7 +164,7 @@ Mesajınızı onaltılık sayıya dönüştürün :
 
 
 
-- Bir [çevrimiçi araç] (https://www.rapidtables.com/convert/number/ascii-to-hex.html) kullanabilirsiniz, ancak hassas verileri burada işlememeye dikkat edin (ilke olarak, Blockchain Bitcoin'te bir OP_RETURN aracılığıyla yayınlanması amaçlanan bilgiler herhangi bir gizlilik sorunu oluşturmaz);
+- Bir [çevrimiçi araç](https://www.rapidtables.com/convert/number/ascii-to-hex.html) kullanabilirsiniz, ancak hassas verileri burada işlememeye dikkat edin (ilke olarak, Blockchain Bitcoin'te bir OP_RETURN aracılığıyla yayınlanması amaçlanan bilgiler herhangi bir gizlilik sorunu oluşturmaz);
 - Daha fazla gizlilik için, dönüşümü küçük bir Python kullanarak yerel olarak gerçekleştirin:
 
 

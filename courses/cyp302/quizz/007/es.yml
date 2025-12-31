@@ -6,4 +6,4 @@ wrong_answers:
   - La anonimización de los mensajes
 explanation: |
   La criptografía moderna incluye esquemas que van más allá de la confidencialidad para asegurar la integridad y autenticidad, así como la no repudiación, a diferencia de los simples esquemas de cifrado.
-reviewed: false
+reviewed: true

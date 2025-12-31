@@ -116,7 +116,7 @@ No entanto, as carteiras de hardware apresentam as suas próprias ameaças. É n
 ## O que estamos a construir?
 
 
-Nós estamos pegando um hardware genérico, o LilyGo T-Display, e colocando o firmware Jade SDK nele. O [Jade Plus] (https://blockstream.com/jade/jade-plus/) é um wallet de código aberto, que custa normalmente 150 dólares:
+Nós estamos pegando um hardware genérico, o LilyGo T-Display, e colocando o firmware Jade SDK nele. O [Jade Plus](https://blockstream.com/jade/jade-plus/) é um wallet de código aberto, que custa normalmente 150 dólares:
 
 
 ![image](assets/fr/02.webp)
@@ -153,7 +153,7 @@ Hoje, em vez disso, vamos fazer o flash do seu firmware para um hardware de 15 d
 ### Preparar o seu caso
 
 
-Tem duas opções para alojar a sua placa LilyGO T-Display: uma caixa impressa em 3D ou a caixa oficial LilyGO. A caixa impressa pode ser encontrada e impressa a partir de [este modelo] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Oferece um invólucro leve e personalizável para o seu dispositivo.
+Tem duas opções para alojar a sua placa LilyGO T-Display: uma caixa impressa em 3D ou a caixa oficial LilyGO. A caixa impressa pode ser encontrada e impressa a partir de [este modelo](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Oferece um invólucro leve e personalizável para o seu dispositivo.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ O Blockstream Green é o software para terminar a configuração da JadeDIY e de
 
 
 
-- Obtenha a aplicação oficial da Blockstream - esta é a ligação para a mesma a partir do seu sítio Web. Quando estiveres lá, clica em [Descarregar agora] (https://blockstream.com/app/).
+- Obtenha a aplicação oficial da Blockstream - esta é a ligação para a mesma a partir do seu sítio Web. Quando estiveres lá, clica em [Descarregar agora](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

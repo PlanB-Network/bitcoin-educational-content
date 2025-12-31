@@ -1,0 +1,9 @@
+question: ช่องโหว่ของลายเซ็น ECDSA ที่ได้รับการแก้ไขโดย SegWit คืออะไร?
+answer: ความยืดหยุ่น
+wrong_answers:
+  - การตรวจสอบแบบกลุ่ม
+  - ขาดการรวมตัว
+  - ขนาดลายเซ็นที่ใหญ่เกินไป
+explanation: |
+  SegWit ได้แก้ไขความยืดหยุ่นของลายเซ็น ECDSA ทำให้สามารถใช้งานเช่น Lightning Network ได้
+reviewed: false

@@ -315,7 +315,7 @@ No Bitcoin Core, generate um novo endereço de receção (separador "Receive"), 
 
 
 
-Aceda a [gitlab.com/invincible-privacy/joinstr-kmp/-/releases] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) para transferir a versão mais recente do APK. No browser do Android, transfira o ficheiro e, em seguida, abra-o para iniciar a instalação. Terá de permitir a instalação a partir de fontes desconhecidas nas definições de segurança do seu telemóvel, se necessário.
+Aceda a [gitlab.com/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) para transferir a versão mais recente do APK. No browser do Android, transfira o ficheiro e, em seguida, abra-o para iniciar a instalação. Terá de permitir a instalação a partir de fontes desconhecidas nas definições de segurança do seu telemóvel, se necessário.
 
 
 
@@ -671,7 +671,7 @@ Num contexto de crescente escrutínio financeiro, as ferramentas descentralizada
 
 
 
-- [Telegram Joinstr Group] (https://t.me/joinstr) - Apoio comunitário e cantos de favoritos
+- [Telegram Joinstr Group](https://t.me/joinstr) - Apoio comunitário e cantos de favoritos
 - [Discussão técnica sobre DelvingBitcoin](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
 
 

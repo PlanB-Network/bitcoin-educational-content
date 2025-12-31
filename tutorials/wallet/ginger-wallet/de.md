@@ -10,7 +10,7 @@ Ginger Wallet ist ein quelloffenes, nicht-verwahrendes Bitcoin-Portfolio, das si
 
 
 
-Ginger Wallet behält die technische Architektur von Wasabi bei, fügt aber ein paar spezifische Funktionen hinzu. Laut der [Ginger Wallet-Dokumentation] (https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) legt Wasabi den Schwerpunkt auf **Autonomie und Kontrolle**, während Ginger den Schwerpunkt auf **Benutzerfreundlichkeit, Sicherheit und ein vereinfachtes Erlebnis** legt, wodurch es auch für diejenigen zugänglich wird, die mit technischen Aspekten weniger vertraut sind.
+Ginger Wallet behält die technische Architektur von Wasabi bei, fügt aber ein paar spezifische Funktionen hinzu. Laut der [Ginger Wallet-Dokumentation](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) legt Wasabi den Schwerpunkt auf **Autonomie und Kontrolle**, während Ginger den Schwerpunkt auf **Benutzerfreundlichkeit, Sicherheit und ein vereinfachtes Erlebnis** legt, wodurch es auch für diejenigen zugänglich wird, die mit technischen Aspekten weniger vertraut sind.
 
 
 
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Um Ginger Wallet zu installieren, besuchen Sie die Website [Ginger Wallet] (https://gingerwallet.io).
+Um Ginger Wallet zu installieren, besuchen Sie die Website [Ginger Wallet](https://gingerwallet.io).
 
 
 
@@ -56,7 +56,7 @@ Drücken Sie **Download**, um die richtige Version für Ihren Computer (Windows 
 
 
 
-Eine andere Möglichkeit ist, das Projekt auf [GitHub] (https://github.com/GingerPrivacy/GingerWallet/releases) herunterzuladen.
+Eine andere Möglichkeit ist, das Projekt auf [GitHub](https://github.com/GingerPrivacy/GingerWallet/releases) herunterzuladen.
 
 
 

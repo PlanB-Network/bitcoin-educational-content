@@ -31,7 +31,7 @@ Die wichtigsten Merkmale sind:
 Der erste Schritt besteht darin, die Lipa-App herunterzuladen. Im Moment ist sie nur auf iOS verfügbar:
 
 
-- [Für Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [Für Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Die Android-Version befindet sich derzeit in der Entwicklung und wird bald verfügbar sein.
 

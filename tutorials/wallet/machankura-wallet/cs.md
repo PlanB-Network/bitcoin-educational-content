@@ -370,7 +370,7 @@ Druhé řešení, které je logickým pokračováním prvního, má být inkluzi
 
 
 
-Chcete-li začít, musíte napsat zprávu botovi Machankura ve službě WhatsApp (stačí jednoduché "Ahoj"). Jeho číslo v aplikaci WhatsApp je [+27 73 762 5720] (https://wa.me/+27737625720).
+Chcete-li začít, musíte napsat zprávu botovi Machankura ve službě WhatsApp (stačí jednoduché "Ahoj"). Jeho číslo v aplikaci WhatsApp je [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

@@ -83,7 +83,6 @@ The important point here is to understand this new technology in a general way, 
 
 Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 ## The Prehistory of Bitcoin
 
@@ -203,7 +202,7 @@ In order to meet these criteria, currency has historically evolved by taking dif
 
 Currencies are still evolving to this day, adapting their forms to meet different use cases. As we said, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-On the other hand, Bitcoin presents new possibilities. Its properties, such as the strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable **medium of exchange** that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
+On the other hand, Bitcoin opens up new perspectives. Its properties, notably a strictly limited supply, make it an excellent store of value. Likewise, as a neutral internet currency, it constitutes a viable **medium of exchange**, capable of transcending borders. However, despite ongoing adoption (as illustrated by [the BTCmap map](https://btcmap.org/map)), it is not yet widely accepted in commerce today.
 
 ## Fiduciary currencies
 

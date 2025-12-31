@@ -20,7 +20,7 @@ Jos haluat käyttää sitä yksinkertaisesti, keskustelun aloittaminen Telegrami
 
 ## Asetukset
 
-Etsi Telegramin hakupalkista "satsmobi" ja linkki [bottiin] (@SatsMobiBot) ilmestyy näkyviin.
+Etsi Telegramin hakupalkista "satsmobi" ja linkki [bottiin](@SatsMobiBot) ilmestyy näkyviin.
 
 
 **Huomio**: Jos et ole varma hakemisesta Telegramin kautta, pääset bottiin turvallisesti seuraavan [linkin](https://t.me/SatsMobiBot) kautta

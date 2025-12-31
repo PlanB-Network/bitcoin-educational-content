@@ -1,0 +1,9 @@
+question: การก่อสร้างที่ใช้โดย SHA256 ในการประมวลผลข้อความที่มีความยาวตามอำเภอใจคืออะไร?
+answer: โครงสร้าง Merkle-Damgård
+wrong_answers:
+  - การสร้างแบบยุคลิด
+  - การสร้าง Rivest-Shamir-Adleman
+  - การสร้างแบบ Knuth-Morris-Pratt
+explanation: |
+  การสร้าง Merkle-Damgård ช่วยให้สามารถแปลงฟังก์ชันการบีบอัดเป็นฟังก์ชันแฮชสำหรับข้อความที่มีความยาวแปรผันได้
+reviewed: false

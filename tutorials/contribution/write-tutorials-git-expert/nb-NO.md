@@ -12,7 +12,7 @@ Du har allerede:
 
 
 - Velg et tema for opplæringen din;
-- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppe] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
+- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppe](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Velg dine bidragsverktøy.
 
 I denne veiledningen for erfarne Git-brukere vil vi kort oppsummere de viktigste trinnene og de viktigste retningslinjene for å tilby en ny Plan ₿ Nettverksveiledning. Hvis du ikke er kjent med Git og GitHub, anbefaler jeg at du i stedet følger en av disse to andre mer detaljerte veiledningene som tar deg steg for steg:
@@ -61,7 +61,7 @@ For å lage diagrammer og visualiseringer:
 ### 1 - Konfigurer ditt lokale miljø
 
 
-- Du må ha din egen gaffel av [Plan ₿ Academy repository på GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content).
+- Du må ha din egen gaffel av [Plan ₿ Academy repository på GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synkroniser hovedgrenen (`dev`) i gaffelen din med kildelageret.
 - Oppdater din lokale klone.
 
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Legg til opplæringsdokumentene
 
-***Merk: *** Du kan automatisere trinn 3 og 4 ved hjelp av [mitt Python GUI-skript] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kjør det direkte fra mappen i din lokale klone, og fyll deretter ut de nødvendige feltene i GUI-en. For mer informasjon om hvordan du installerer og bruker det, se [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Merk: *** Du kan automatisere trinn 3 og 4 ved hjelp av [mitt Python GUI-skript](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Kjør det direkte fra mappen i din lokale klone, og fyll deretter ut de nødvendige feltene i GUI-en. For mer informasjon om hvordan du installerer og bruker det, se [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Hvis du foretrekker å gjøre det manuelt, følger du disse trinnene:
 
@@ -293,16 +293,16 @@ print("Hello, Bitcoin!")
 
 
 - **Illustrasjoner og diagrammer**:
-    - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter] (https://github.com/LoicPandul/ImagesConverter).
+    - Alle bilder må være i WebP-format. Bruk dette gratisverktøyet for å konvertere dem om nødvendig: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Navngi bilder med 2 eller 3 siffer (f.eks. `001.webp`, `002.webp`).
     - Bruk mock-ups for opplæring i mobil- eller maskinvarelommebøker.
     - Bruk kun egenproduserte eller royaltyfrie bilder.
     - Sørg for at de er relevante og av høy kvalitet.
 - **Grafisk charter**:
-    - Skrifttype: [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans).
+    - Skrifttype: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Farger Plan ₿ Nettverk:
         - Oransje: `#FF5C00`
         - Svart: `#000000`
         - Hvit: `#FFFFFFFF`
 
-Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!
+Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!

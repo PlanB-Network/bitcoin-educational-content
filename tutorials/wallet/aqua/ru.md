@@ -35,7 +35,7 @@ Liquid - это федеративный сайдчейн-оверлей для 
 Первым шагом, конечно же, является загрузка приложения Aqua. Перейдите в магазин приложений:
 
 - [Для Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
-- [Для Apple] (https://apps.apple.com/us/app/aqua-wallet/id6468594241).
+- [Для Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
 Для пользователей Android у вас также есть возможность установить приложение через файл `.apk` [доступен на их GitHub](https://github.com/AquaWallet/aqua-wallet/releases).

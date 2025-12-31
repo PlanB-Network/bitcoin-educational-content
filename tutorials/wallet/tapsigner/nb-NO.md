@@ -40,7 +40,7 @@ Når du har mottatt Tapsigner, er det første trinnet å undersøke emballasjen 
 
 ![TAPSIGNER NUNCHUK](assets/notext/02.webp)
 
-For å administrere lommeboken bruker vi mobilappen **Nunchuk Wallet**. Sørg for at smarttelefonen din er NFC-kompatibel, og last deretter ned Nunchuk fra [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [`.apk`-filen] (https://github.com/nunchuk-io/nunchuk-android/releases).
+For å administrere lommeboken bruker vi mobilappen **Nunchuk Wallet**. Sørg for at smarttelefonen din er NFC-kompatibel, og last deretter ned Nunchuk fra [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [`.apk`-filen](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 ![TAPSIGNER NUNCHUK](assets/notext/03.webp)
 

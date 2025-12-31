@@ -1855,7 +1855,7 @@ Na przykład, dla 256-bitowej entropii, wynik $\text{ENT} \Vert \text{CS}$ wynos
 ### Konwersja sekwencji binarnej na frazę Mnemonic
 
 
-Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

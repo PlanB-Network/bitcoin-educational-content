@@ -1,0 +1,9 @@
+question: ใครเป็นผู้เผยแพร่เอกสารไวท์เปเปอร์ Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - เดวิด เชาม์
+  - ทิม เมย์
+  - เอริค ฮิวจ์ส
+explanation: |
+  เอกสารไวท์เปเปอร์ถูกตีพิมพ์ในช่วงปลายปี 2008 โดย Satoshi Nakamoto (นามแฝง)
+reviewed: false

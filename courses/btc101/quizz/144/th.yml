@@ -1,0 +1,8 @@
+question: Proof of Work (POW) คืออะไร?
+answer: มันคือฉันทามติด้านความปลอดภัยของโปรโตคอล Bitcoin
+wrong_answers:
+  - มันคือกระบวนการสร้างบิตคอยน์ใหม่
+  - มันคือวิธีการตรวจสอบธุรกรรม Bitcoin
+  - มันคืออัลกอริทึมที่ใช้ในการขุดบิตคอยน์
+explanation: >-
+reviewed: true

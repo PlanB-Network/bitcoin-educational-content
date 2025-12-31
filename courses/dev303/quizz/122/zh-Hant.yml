@@ -1,8 +1,8 @@
-question: 當用戶的資金通過 Greenlight 基於雲的 Lightning 節點架構進行管理時，他們面臨的最關鍵的復原挑戰是什麼？
-answer: 用戶需要專業技術知識，才能在沒有 Greenlight 基礎設施的情況下啟動獨立的 Core Lightning 節點和恢復通道狀態。
+question: "當用戶的資金通過 Greenlight 基於雲的 Lightning 節點架構進行管理時，他們面臨的最關鍵的復原挑戰是什麼？"
+answer: "用戶需要專業技術知識，才能在沒有 Greenlight 基礎設施的情況下啟動獨立的 Core Lightning 節點和恢復通道狀態。"
 wrong_answers:
-  - "使用者無法存取專門儲存在 Blockstream 伺服器上的私人密碼匙
-  - 「通道狀態使用 Greenlight 專有的金鑰進行加密，從數學上講不可能恢復資金」
-  - 「如果沒有 Greenlight 的持續維護服務，Lightning 通道會在 30 天後自動過期」
+  - "使用者無法存取專門儲存在 Blockstream 伺服器上的私人密碼匙"
+  - "通道狀態使用 Greenlight 專有的金鑰進行加密，從數學上講不可能恢復資金"
+  - "如果沒有 Greenlight 的持續維護服務，Lightning 通道會在 30 天後自動過期"
 explanation: |
   正確答案突顯了 Greenlight 架構中資金恢復的真正技術複雜性。雖然用戶保留了他們的私人金鑰，但在沒有 Greenlight 的情況下存取資金需要運行 Core Lightning 節點，並手動恢復通道狀態 - 這個過程超出了大多數用戶的能力範圍。錯誤答案的原因是：用戶確實可以控制他們的私密金鑰（不儲存在伺服器上），通道狀態使用標準的 Lightning 協議（而非專有加密），Lightning 通道沒有與服務提供商相綁定的自動到期計時器。

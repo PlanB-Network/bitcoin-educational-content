@@ -1,5 +1,5 @@
 ---
-name: Наследие
+name: Heritage
 description: Портфель Bitcoin с интегрированным механизмом наследования через скрипты Taproot
 ---
 

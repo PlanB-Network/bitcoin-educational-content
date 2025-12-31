@@ -1,5 +1,5 @@
 ---
-name: Warisan
+name: Heritage
 description: Portofolio Bitcoin dengan mekanisme pewarisan terintegrasi melalui skrip Taproot
 ---
 

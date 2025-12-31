@@ -1,5 +1,5 @@
 ---
-name: Kulturarv
+name: Heritage
 description: En Bitcoin-portfölj med integrerad arvsmekanism via Taproot-skript
 ---
 

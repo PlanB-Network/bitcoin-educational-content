@@ -1,5 +1,5 @@
 ---
-name: Erbe
+name: Heritage
 description: Ein Bitcoin-Portfolio mit integriertem Vererbungsmechanismus über Taproot-Skripte
 ---
 

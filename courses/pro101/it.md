@@ -339,7 +339,7 @@ Un'altra distinzione fondamentale è che **Bitcoin** è stata creata con l'unico
 ### Consumo di energia e impatto ambientale
 
 
-Una delle critiche più comuni a Bitcoin è il suo **consumo di energia**. Sebbene il Bitcoin Mining utilizzi energia, rappresenta meno dell'1% del consumo globale di elettricità e meno del 3% dell'energia sprecata. Inoltre, il **Bitcoin Mining** spesso attinge a fonti di energia inutilizzate o rinnovabili, il che lo rende più verde di quanto spesso venga rappresentato.
+Una delle critiche più comuni a Bitcoin è il suo **consumo di energia**. Sebbene il Bitcoin mining utilizzi energia, rappresenta meno dell'1% del consumo globale di elettricità e meno del 3% dell'energia sprecata. Inoltre, il **Bitcoin Mining** spesso attinge a fonti di energia inutilizzate o rinnovabili, il che lo rende più verde di quanto spesso venga rappresentato.
 
 
 **Definizioni**
@@ -1442,16 +1442,16 @@ In conclusione, il futuro e i cambiamenti di Bitcoin sono determinati dalla volo
 #### Introduzione
 
 
-Ajelex si concentra sull'aspetto commerciale del Bitcoin Mining, esaminando le strategie per mantenere la redditività in un mercato competitivo. La discussione comprende un'analisi dei costi operativi, delle misure di efficienza e dei fattori economici che guidano l'industria del Mining.
+Ajelex si concentra sull'aspetto commerciale del Bitcoin mining, esaminando le strategie per mantenere la redditività in un mercato competitivo. La discussione comprende un'analisi dei costi operativi, delle misure di efficienza e dei fattori economici che guidano l'industria del mining.
 
 
-### 1. fattori di complessità e redditività del Mining
+### 1. fattori di complessità e redditività del mining
 
 
 #### Fattori tecnici e strategici
 
 
-La complessità del Mining nel contesto di Bitcoin coinvolge principalmente gli aspetti tecnici e strategici che determinano la redditività delle operazioni di Mining. È fondamentale capire che il Mining non è solo un gioco d'azzardo, ma un processo sofisticato che richiede un'attenta pianificazione e una continua ottimizzazione.
+La complessità del mining nel contesto di Bitcoin coinvolge principalmente gli aspetti tecnici e strategici che determinano la redditività delle operazioni di mining. È fondamentale capire che il mining non è solo un gioco d'azzardo, ma un processo sofisticato che richiede un'attenta pianificazione e una continua ottimizzazione.
 
 
 #### Fattori chiave di redditività
@@ -1460,13 +1460,13 @@ La complessità del Mining nel contesto di Bitcoin coinvolge principalmente gli 
 ![energy cost](assets/en/056.webp)
 
 
-1. **Costi dell'elettricità**: Uno dei fattori più significativi che incidono sulla redditività del Mining è il costo dell'elettricità. In regioni come la Francia, l'elettricità può essere relativamente costosa rispetto a Paesi come El Salvador, dove i costi più bassi rappresentano un vantaggio competitivo per i minatori.
+1. **Costi dell'elettricità**: Uno dei fattori più significativi che incidono sulla redditività del mining è il costo dell'elettricità. In regioni come la Francia, l'elettricità può essere relativamente costosa rispetto a Paesi come El Salvador, dove i costi più bassi rappresentano un vantaggio competitivo per i minatori.
 
-2. **Efficienza dell'hardware**: L'efficienza dell'hardware di Mining, misurata in base al tasso Hash e al consumo energetico, svolge un ruolo fondamentale. I minatori ASIC avanzati, come l'S19J Pro, sono molto più efficienti dei modelli più vecchi, come l'Antminer S9.
+2. **Efficienza dell'hardware**: L'efficienza dell'hardware di mining, misurata in base al tasso Hash e al consumo energetico, svolge un ruolo fondamentale. I minatori ASIC avanzati, come l'S19J Pro, sono molto più efficienti dei modelli più vecchi, come l'Antminer S9.
 
-3. **Periodo di tempo**: Il Bitcoin Mining incoraggia la pianificazione a lungo termine.
+3. **Periodo di tempo**: Il Bitcoin mining incoraggia la pianificazione a lungo termine.
 
-4. **Prezzo BTC**: Il prezzo BTC è essenziale per determinare la redditività di Mining.
+4. **Prezzo BTC**: Il prezzo BTC è essenziale per determinare la redditività di mining.
 
 5. **Difficoltà della rete**: La difficoltà della rete rappresenta la quantità di Hashrate in media necessaria per estrarre un blocco in 10 minuti.
 
@@ -1476,19 +1476,19 @@ La complessità del Mining nel contesto di Bitcoin coinvolge principalmente gli 
 #### Applicazione pratica
 
 
-Per esperienza personale, ho persino utilizzato il Mining per riscaldare il mio appartamento in Francia, compensando in modo creativo i costi dell'elettricità mentre il Mining Bitcoin. Questo esempio sottolinea la praticità di integrare le operazioni del Mining nella vita quotidiana per ottenere ulteriori benefici.
+Per esperienza personale, ho persino utilizzato il mining per riscaldare il mio appartamento in Francia, compensando in modo creativo i costi dell'elettricità mentre mivano Bitcoin. Questo esempio sottolinea la praticità di integrare le operazioni del mining nella vita quotidiana per ottenere ulteriori benefici.
 
 
-#### Colli di bottiglia nel Mining
+#### Colli di bottiglia nel mining
 
 
-I minatori devono affrontare tre colli di bottiglia principali: la disponibilità di hardware, l'accesso all'energia e il capitale necessario per sostenere le operazioni. La scarsità di ASIC dovuta all'elevata domanda spesso porta a lunghi tempi di attesa e a prezzi gonfiati, complicando ulteriormente il panorama del Mining.
+I minatori devono affrontare tre colli di bottiglia principali: la disponibilità di hardware, l'accesso all'energia e il capitale necessario per sostenere le operazioni. La scarsità di ASIC dovuta all'elevata domanda spesso porta a lunghi tempi di attesa e a prezzi gonfiati, complicando ulteriormente il panorama del mining.
 
 
 
 - Esempio di **collo di bottiglia energetico**.
 
-Nel 2021, il governo cinese ha vietato il Mining all'interno del proprio territorio, causando la perdita dell'accesso all'energia da parte delle aziende cinesi. Ciò ha provocato un calo del **50%** dell'Hashrate in due settimane.
+Nel 2021, il governo cinese ha vietato il mining all'interno del proprio territorio, causando la perdita dell'accesso all'energia da parte delle aziende cinesi. Ciò ha provocato un calo del **50%** dell'Hashrate in due settimane.
 
 
 ![hashrate drop](assets/en/057.webp)
@@ -1496,25 +1496,25 @@ Nel 2021, il governo cinese ha vietato il Mining all'interno del proprio territo
 
 ---
 
-### 2. Evoluzione ed efficienza dell'hardware di Mining
+### 2. Evoluzione ed efficienza dell'hardware di mining
 
 
 #### Evoluzione storica
 
 
-Il percorso dell'hardware di Mining è stato monumentale, a partire dalle semplici CPU Mining fino ai minatori ASIC altamente specializzati che utilizziamo oggi.
+Il percorso dell'hardware di mining è stato monumentale, a partire dalle semplici CPU mining fino ai minatori ASIC altamente specializzati che utilizziamo oggi.
 
 
 ![evolution hardware](assets/en/058.webp)
 
 
-1. **CPU Mining**: Nei primi tempi, il Mining veniva eseguito utilizzando i normali processori dei computer (CPU). Questo metodo è stato rapidamente superato con la crescita della rete.
+1. **CPU Mining**: Nei primi tempi, il mining veniva eseguito utilizzando i normali processori dei computer (CPU). Questo metodo è stato rapidamente superato con la crescita della rete.
 
-2. **GPU Mining**: Le unità di elaborazione grafica (GPU) hanno fornito un notevole incremento dell'efficienza del Mining, rendendo le CPU obsolete ai fini del Mining.
+2. **GPU Mining**: Le unità di elaborazione grafica (GPU) hanno fornito un notevole incremento dell'efficienza del mining, rendendo le CPU obsolete ai fini del mining.
 
 3. **FPGA Mining**: Gli FPGA (Field-Programmable Gate Array) offrono prestazioni ed efficienza energetica ancora migliori rispetto alle GPU.
 
-4. **ASIC Mining**: I circuiti integrati specifici per le applicazioni (ASIC) rappresentano l'apice dell'efficienza hardware Mining, progettati specificamente per le operazioni di Mining con prestazioni senza precedenti.
+4. **ASIC Mining**: I circuiti integrati specifici per le applicazioni (ASIC) rappresentano l'apice dell'efficienza hardware mining, progettati specificamente per le operazioni di mining con prestazioni senza precedenti.
 
 
 #### Confronto dettagliato: S19J Pro vs. Antminer S9
@@ -1528,33 +1528,33 @@ Il percorso dell'hardware di Mining è stato monumentale, a partire dalle sempli
 ![s19j pro vs antminer s9](assets/en/059.webp)
 
 
-#### Efficienza e apprendimento Mining
+#### Efficienza e apprendimento mining
 
 
-Il Mining non offre solo ricompense finanziarie, ma anche una preziosa esperienza pratica. L'acquisizione di bitcoin senza KYC attraverso Mining può essere una proposta interessante per coloro che si preoccupano della privacy.
+Il mining non offre solo ricompense finanziarie, ma anche una preziosa esperienza pratica. L'acquisizione di bitcoin senza KYC attraverso mining può essere una proposta interessante per coloro che si preoccupano della privacy.
 
 
 #### Strumenti e tecniche avanzate
 
 
-I software aftermarket possono migliorare l'efficienza e la funzionalità dell'hardware Mining . Gli strumenti che offrono funzionalità di ottimizzazione e di autotuning assicurano che ogni chip operi alla massima efficienza, bilanciando efficacemente la velocità e l'utilizzo di energia dell'hash.
+I software aftermarket possono migliorare l'efficienza e la funzionalità dell'hardware mining . Gli strumenti che offrono funzionalità di ottimizzazione e di autotuning assicurano che ogni chip operi alla massima efficienza, bilanciando efficacemente l'utilizzo di energia e l'hash rate.
 
 
 ---
 
-### 3. Dinamiche normative e di mercato nelle operazioni con il Mining
+### 3. Dinamiche normative e di mercato nelle operazioni con il mining
 
 
 #### Impatto normativo
 
 
-La regolamentazione svolge un ruolo significativo nel plasmare il panorama del Mining. Ad esempio, il divieto cinese del Mining ha avuto effetti profondi sulle operazioni globali di Mining, causando un calo significativo del tasso di rete Hash e portando a una ridistribuzione del potere del Mining tra le diverse regioni.
+La regolamentazione svolge un ruolo significativo nel plasmare il panorama del mining. Ad esempio, il divieto del mining in CIna ha avuto effetti profondi sulle operazioni globali di mining, causando un calo significativo del tasso di hash rate e portando a una ridistribuzione del potere di mining tra le diverse regioni.
 
 
 #### Dinamiche di mercato
 
 
-1. **Disponibilità e costo dell'hardware**: Il prezzo e la disponibilità dei minatori ASIC sono influenzati dal prezzo di mercato del Bitcoin. L'elevata domanda durante i mercati toro si traduce in scarsità e prezzi gonfiati.
+1. **Disponibilità e costo dell'hardware**: Il prezzo e la disponibilità dei minatori ASIC sono influenzati dal prezzo di mercato di Bitcoin. L'elevata domanda durante i "bull market" si traduce in scarsità e prezzi gonfiati.
 
 2. **Valore Hash e prezzo Hash**: È essenziale comprendere la distinzione tra il valore dell'hash (satoshi guadagnati per terahash al giorno) e il prezzo dell'hash (valore monetario della tariffa dell'hash). Entrambi sono influenzati dalla difficoltà della rete e dal prezzo di mercato di Bitcoin.
 
@@ -1562,26 +1562,26 @@ La regolamentazione svolge un ruolo significativo nel plasmare il panorama del M
 #### Mining pool e meccanismi di ricompensa
 
 
-1. **Mining Pools**: Combinando le risorse, le mining pool offrono ricompense più stabili, riducendo la varianza e il rischio associati al Mining in solitaria.
+1. **Mining Pools**: Combinando le risorse, le mining pool offrono ricompense più stabili, riducendo la varianza e il rischio associati al mining in solitaria.
 
 2. **Schemi di ricompensa**: Diversi meccanismi di ricompensa, come il Pay-Per-Share (PPS) e le ricompense proporzionali, offrono diversi profili di rischio e di ricompensa per i minatori.
 
 
 
-   - Pay-Per-Share**: Pay-Per-Share ricompensa i minatori per ogni quota valida che inviano, indipendentemente dal fatto che il pool trovi un blocco. *le *shares** sono unità di prova che i minatori hanno completato il lavoro richiesto e la pool verifica queste shares.
+   - **Pay-Per-Share**: Pay-Per-Share ricompensa i minatori per ogni quota valida che inviano, indipendentemente dal fatto che il pool trovi un blocco. *le *shares** sono unità di prova che i minatori hanno completato il lavoro richiesto e la pool verifica queste shares.
 
 
 ![pps](assets/en/060.webp)
 
 
 
-   - Proporzionale**: Dipende dalla mining pool di un blocco per distribuire la ricompensa in modo uguale al contributo del miner all'hashrate totale della pool.
+   - **Proporzionale**: Dipende dalla mining pool di un blocco per distribuire la ricompensa in modo uguale al contributo del miner all'hash rate totale della pool.
 
 
 ![prop](assets/en/061.webp)
 
 
-#### Il futuro del Mining
+#### Il futuro del mining
 
 
 Con la diminuzione delle ricompense dei blocchi, i minatori faranno sempre più affidamento sulle commissioni di transazione. Questo cambiamento solleva dubbi sul fatto che le commissioni di transazione da sole possano fornire incentivi sufficienti ai minatori per continuare a proteggere la rete.
@@ -1599,7 +1599,7 @@ I servizi di Hosted Mining(mining ospitato) possono offrire costi operativi infe
 I protocolli di sicurezza avanzati e l'uso di energia rinnovabile non solo aumentano la redditività, ma contribuiscono anche alla crescita sostenibile dell'ecosistema del mining.
 
 
-In conclusione, il mondo del Bitcoin Mining è un settore complesso e sfaccettato che richiede una profonda comprensione delle dinamiche tecniche, strategiche, normative e di mercato. Sia che siate esperti miner o che abbiate appena iniziato, rimanere informati e adattarsi è la chiave per prosperare in questo campo in continua evoluzione. Vi ringrazio per l'attenzione e resto in attesa delle vostre domande e discussioni.
+In conclusione, il mondo del Bitcoin mining è un settore complesso e sfaccettato che richiede una profonda comprensione delle dinamiche tecniche, strategiche, normative e di mercato. Sia che siate esperti miner o che abbiate appena iniziato, rimanere informati e adattarsi è la chiave per prosperare in questo campo in continua evoluzione. Vi ringrazio per l'attenzione e resto in attesa delle vostre domande e discussioni.
 
 
 
@@ -1677,7 +1677,7 @@ La gestione di un nodo Bitcoin è essenziale per diversi motivi:
 
 
 
-- **Miner**: La maggior parte dei nodi Bitcoin non partecipa al Mining a causa dell'elevata potenza di calcolo richiesta.
+- **Miner**: La maggior parte dei nodi Bitcoin non partecipa al mining a causa dell'elevata potenza di calcolo richiesta.
 - **RPC (Server)**: Bitcoin Core implementa un JSON-RPC Interface a cui si può accedere utilizzando l'helper a riga di comando bitcoin-cli.
 - **Wallet (disablewallet)**: Se si preferisce utilizzare un wallet esterno, è possibile disattivare la funzionalità Wallet in Bitcoin Core. Ciò consente di gestire le chiavi private separatamente.
 - **Mempool (solo blocchi)**: Per gli utenti che desiderano ridurre al minimo l'uso della larghezza di banda, l'esecuzione di un nodo "blocksonly" può essere una soluzione in cui il nodo elabora solo i blocchi, ignorando le transazioni.
@@ -2104,7 +2104,7 @@ Minare blocchi vuoti possono essere più efficienti per i minatori:
 - I blocchi vuoti possono essere estratti rapidamente prima di passare a un blocco completo una volta confermato il blocco precedente.
 
 
-#### Motivi dei blocchi vuoti Mining
+#### Motivi dei blocchi vuoti mining
 
 
 I blocchi vuoti vengono talvolta estratti a causa di problemi di tempistica. I minatori potrebbero non aver ricevuto l'elenco completo delle transazioni nel momento in cui iniziano il mining del blocco successivo, quindi scelgono di minare un blocco vuoto.
@@ -2122,7 +2122,7 @@ La presenza di blocchi vuoti nel mining è possibile, ma non è stata osservata.
 #### Implicazioni dei blocchi vuoti
 
 
-La presenza di blocchi vuoti è un aspetto normale del processo Mining ed è dovuta principalmente a problemi di tempistica. Pur non contenendo transazioni, essi estendono comunque la blockchain e contribuiscono alla sicurezza della rete.
+La presenza di blocchi vuoti è un aspetto normale del processo mining ed è dovuta principalmente a problemi di tempistica. Pur non contenendo transazioni, essi estendono comunque la blockchain e contribuiscono alla sicurezza della rete.
 
 
 #### Importanza della sicurezza

@@ -86,7 +86,11 @@ To create a new wallet, simply do the following steps.
 
 ### Creating a new wallet with dice roll
 
-Alternatively, you can also choose to generate the new seedphrase with entropy. This is done if you do not trust Mk4's freshly generated seedphrase. The procedure is as follows:
+Alternatively, you can also choose to generate the new seedphrase with entropy. Do it if you do not trust Mk4's freshly generated seedphrase. If you need help on how to do it, you can look at the Plan ₿ Network tutorial on the same topic:
+
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
+The procedure on the Coldcard Mk4 is the following:
 
 1. Select `New Wallet` (or `New Seed Words`) > Select `12 Word Dice Roll` or `24 Word Dice Roll` depending on your preference.
 2. You will be asked to enter the results of your dice rolls. Each dice roll adds randomness to the wallet creation process, ensuring that your seedphrase is generated in a fully secure and unpredictable way. The minimum number of rolls are 50 for 12-word seedphrase and 99 for 24-word seedphrase. Press `✓` after you have input at least 99 dice roll values.

@@ -24,16 +24,16 @@ Imaginez que vous puissiez disposer d'espèces numériques fonctionnant exacteme
 Pensez à l'ecash comme à des instruments numériques au porteur stockés sur votre appareil - si vous les détenez, vous les possédez, tout comme de l'argent physique. Ces jetons sont émis par des services de confiance appelés " Mints " qui détiennent les réserves Bitcoin sous-jacentes. Lorsque vous utilisez ecash, vous ne diffusez pas vos transactions à l'ensemble du réseau. Au lieu de cela, vous échangez des jetons privés directement avec d'autres personnes, créant ainsi une expérience de paiement qui ressemble plus à la remise d'argent liquide qu'à un paiement numérique traditionnel.
 
 
-Cashu est un protocole Chaumian ecash libre et open-source conçu pour Bitcoin. La technologie s'appuie sur les recherches cryptographiques pionnières de David Chaum dans les années 1980, en utilisant des "signatures aveugles" pour garantir la confidentialité. Lorsque vous recevez des jetons ecash, la Monnaie les signe sans savoir où ils seront dépensés ensuite - une caractéristique cruciale qui empêche le suivi des transactions. Il est important de noter qu'ecash ne remplace pas Bitcoin ; il le complète en répondant à certains problèmes critiques liés aux exigences de l'architecture Bitcoin. Il offre la confidentialité des espèces physiques (qui fait défaut à la Ledger transparente de la Bitcoin) et permet des microtransactions instantanées sans les frais de la Blockchain ni les délais de confirmation.
+Cashu est un protocole Chaumian ecash libre et open-source conçu pour Bitcoin. La technologie s'appuie sur les recherches cryptographiques pionnières de David Chaum dans les années 1980, en utilisant des "signatures aveugles" pour garantir la confidentialité. Lorsque vous recevez des jetons ecash, la Monnaie les signe sans savoir où ils seront dépensés ensuite, une caractéristique cruciale qui empêche le suivi des transactions. Il est important de noter qu'ecash ne remplace pas Bitcoin ; il le complète en répondant à certains problèmes critiques liés aux exigences de l'architecture Bitcoin. Il offre la confidentialité des espèces physiques (qui fait défaut au Ledger transparent de Bitcoin) et permet des microtransactions instantanées sans les frais de la Blockchain ni les délais de confirmation.
 
 
-Ecash s'intègre parfaitement au Lightning Network. Vous utilisez Lightning pour déposer des Bitcoin dans une Monnaie (convertissant votre valeur en Bitcoin en jetons Ecash) et pour les retirer plus tard (convertissant à nouveau les jetons en solde Lightning dépensable). Ensemble, ils forment une combinaison puissante : Bitcoin fournit le règlement sécurisé Layer, Lightning permet des transactions rapides et l'interopérabilité du réseau, et ecash ajoute la confidentialité Layer qui rend les paiements numériques à nouveau vraiment privés.
+Ecash s'intègre parfaitement au Lightning Network. Vous utilisez Lightning pour déposer des Bitcoin dans une Monnaie (convertissant votre valeur Bitcoin en jetons Ecash) et pour les retirer plus tard (convertissant à nouveau les jetons en solde Lightning dépensable). Ensemble, ils forment une combinaison puissante : Bitcoin fournit le règlement sécurisé Layer, Lightning permet des transactions rapides et l'interopérabilité du réseau, et ecash ajoute la confidentialité Layer qui rend les paiements numériques à nouveau vraiment privés.
 
 
 ## Cashu.me
 
 
-Cashu.me est une "Application Web Progressive (PWA)" qui implémente le protocole Cashu - une implémentation spécifique de la monnaie Chaumienne conçue pour Bitcoin. En tant que PWA, il fonctionne directement dans votre navigateur sans nécessiter d'installation à partir des magasins d'applications, bien que vous puissiez l'`installer` sur votre appareil pour un accès plus facile. Cette approche basée sur le web assure une large compatibilité entre les systèmes d'exploitation tout en maintenant la sécurité grâce à des protocoles cryptographiques plutôt qu'à des restrictions de plateforme.
+Cashu.me est une "Application Web Progressive (PWA)" qui implémente le protocole Cashu, une implémentation spécifique de la monnaie Chaumienne conçue pour Bitcoin. En tant que PWA, il fonctionne directement dans votre navigateur sans nécessiter d'installation à partir des magasins d'applications, bien que vous puissiez l'`installer` sur votre appareil pour un accès plus facile. Cette approche basée sur le web assure une large compatibilité entre les systèmes d'exploitation tout en maintenant la sécurité grâce à des protocoles cryptographiques plutôt qu'à des restrictions de plateforme.
 
 
 ## 🎉 Caractéristiques principales
@@ -46,7 +46,7 @@ Nous allons nous plonger dans les fonctionnalités et explorer ce que Cashu.me a
 - La monnaie électronique chaumienne sur Lightning** : Utilise des signatures aveugles afin que les monnaies ne puissent pas suivre les soldes des utilisateurs ou l'historique des transactions
 - Autocontrôle des jetons** : Vous contrôlez les jetons ecash localement avec votre phrase seed
 - Sauvegarde de la phrase seed** : phrase de récupération de 12 mots pour la restauration Wallet
-- Indépendance de la monnaie** : Fonctionne avec plusieurs monnaies indépendantes - vous n'êtes pas lié à un seul fournisseur
+- Indépendance de la monnaie** : Fonctionne avec plusieurs monnaies indépendantes, vous n'êtes pas lié à un seul fournisseur
 - Des transactions instantanées et gratuites** : Les paiements sont finalisés en quelques secondes, sans frais, au sein de la même Monnaie
 - Architecture préservant la vie privée** : Les monnaies ne peuvent pas voir qui effectue des transactions avec qui
 - Ecash hors ligne** : Envoyer/recevoir des jetons par le biais d'un protocole de transmission local, tel que NFC, QR code, Bluetooth, etc. sans connexion Internet
@@ -113,7 +113,7 @@ Cashu.me propose deux méthodes distinctes pour financer votre Wallet. Lorsque v
 ### Financement via LIGHTNING
 
 
-La première option est de financer la Wallet via la Invoice Lightning. sélectionnez un hôtel des monnaies si vous avez ajouté plusieurs hôtels des monnaies et définissez le "montant (Sats)" que vous souhaitez recevoir. Vous obtenez alors un QR-Code que vous pouvez scanner avec une autre Wallet lightning ou vous pouvez simplement "copier" la Invoice et la coller dans une autre Wallet pour payer et financer votre cashu.me Wallet.
+La première option est de financer la Wallet via la Invoice Lightning. sélectionnez un hôtel des monnaies si vous avez ajouté plusieurs hôtels des monnaies et définissez le "montant (Sats)" que vous souhaitez recevoir. Vous obtenez alors un QR-Code que vous pouvez scanner avec un autre Wallet lightning ou vous pouvez simplement "copier" l'Invoice et la coller dans un autre Wallet pour payer et financer votre cashu.me Wallet.
 
 
 ![image](assets/en/05.webp)
@@ -122,7 +122,7 @@ La première option est de financer la Wallet via la Invoice Lightning. sélecti
 ### Recevoir de l'argent liquide
 
 
-La méthode ecash vous permet de recevoir des tokens directement d'un autre Wallet ecash. Commencez par appuyer sur le bouton `Receive`, et sélectionnez l'option `ECASH`. Vous pourrez alors choisir entre `Coller`, `Scanner` ou utiliser `NFC` pour envoyer un Cashu token depuis une autre Wallet. Si vous choisissez de coller, entrez la chaîne token que vous avez copiée d'une autre Wallet, le "Montant" et la "Monnaie" s'afficheront automatiquement. Tapez sur "RECEVOIR" pour terminer la transaction, et la Sats apparaîtra dans votre Wallet. Remarquez que votre solde est maintenant réparti entre plusieurs monnaies. Par exemple, vous pouvez avoir 1 000 Sats dans votre "Monnaie" Minibits et 1 000 Sats supplémentaires dans une "Monnaie" Coinos. Cette séparation entre les différentes monnaies est un aspect important de l'architecture de Cashu.
+La méthode ecash vous permet de recevoir des tokens directement d'un autre Wallet ecash. Commencez par appuyer sur le bouton `Receive`, et sélectionnez l'option `ECASH`. Vous pourrez alors choisir entre `Coller`, `Scanner` ou utiliser `NFC` pour envoyer un Cashu token depuis un autre Wallet. Si vous choisissez de coller, entrez la chaîne token que vous avez copiée d'un autre Wallet, le "Montant" et la "Monnaie" s'afficheront automatiquement. Tapez sur "RECEVOIR" pour terminer la transaction, et les Sats apparaîtront dans votre Wallet. Remarquez que votre solde est maintenant réparti entre plusieurs monnaies. Par exemple, vous pouvez avoir 1 000 Sats dans votre "Monnaie" Minibits et 1 000 Sats supplémentaires dans une "Monnaie" Coinos. Cette séparation entre les différentes monnaies est un aspect important de l'architecture de Cashu.
 
 
 ![image](assets/en/06.webp)
@@ -140,7 +140,7 @@ Si vous ne faites plus confiance à une Monnaie que vous avez ajoutée, cashu.me
 ## 3️⃣ Envoi de fonds
 
 
-Pour envoyer Sats, Cashu.me propose deux options. Envoyer via `ecash` ou via `lightning`. Jetons un coup d'œil aux deux options.
+Pour envoyer des Sats, Cashu.me propose deux options. Envoyer via `ecash` ou via `lightning`. Jetons un coup d'œil aux deux options.
 
 
 ### Envoi via Lightning
@@ -151,7 +151,7 @@ Pour envoyer un message via Lightning, procédez comme suit :
 
 1. Tapez sur "ENVOYER" sur l'écran d'accueil et sélectionnez "Éclair"
 
-2. L'application vous demandera d'entrer un `Lightning Invoice` ou un `Address`. Vous pouvez coller le Invoice/Address directement, ou utiliser l'option de scan du code QR pour le capturer visuellement, puis confirmer avec `ENTER`
+2. L'application vous demandera d'entrer un `Lightning Invoice` ou un `Address`. Vous pouvez coller l'Invoice/Address directement, ou utiliser l'option de scan du code QR pour le capturer visuellement, puis confirmer avec `ENTER`
 
 3. Sélectionnez l'hôtel des monnaies à partir duquel vous voulez payer en utilisant le champ déroulant et appuyez sur `PAY` pour confirmer. **Note** : il y a aussi une option pour utiliser `Multinut` sous `Settings` -> `Experimental` qui vous permet de payer des factures de plusieurs Monnaies en même temps.
 
@@ -171,9 +171,9 @@ L'envoi d'argent liquide est tout aussi simple.
 
 2. sélectionnez une monnaie et entrez le montant que vous voulez envoyer en Sats et appuyez sur "ENVOYER" pour confirmer
 
-3. Cela crée un "QR Code animé" que vous pouvez personnaliser en ajustant les paramètres de vitesse et de taille. N'importe qui peut scanner ce code QR pour Redeem le Sats immédiatement, ou vous pouvez appuyer sur COPIER pour envoyer la chaîne token à quelqu'un d'autre par d'autres canaux tels que Bluetooth, NFC, ou la messagerie standard.
+3. Cela crée un "QR Code animé" que vous pouvez personnaliser en ajustant les paramètres de vitesse et de taille. N'importe qui peut scanner ce code QR pour Redeem les Sats immédiatement, ou vous pouvez appuyer sur COPIER pour envoyer la chaîne token à quelqu'un d'autre par d'autres canaux tels que Bluetooth, NFC, ou la messagerie standard.
 
-4. J'ouvre une autre Wallet. Collez le contenu du presse-papiers et sélectionnez `Receive ecash` dans l'autre Wallet.
+4. J'ouvre un autre Wallet. Collez le contenu du presse-papiers et sélectionnez `Receive ecash` dans l'autre Wallet.
 
 
 ![image](assets/en/09.webp)
@@ -209,13 +209,13 @@ Pour configurer `NWC` dans Cashu.me :
 ### Lightning Address via npub.cash
 
 
-Cashu.me s'intègre à [npub.cash](https://npub.cash/) pour vous fournir un Lightning Address qui fonctionne parfaitement avec le protocole Nostr. Ici, vous pouvez vous inscrire et réclamer votre nom d'utilisateur en fournissant votre Nostr `nsec`, qui coûte 5,000 Sats et soutient le projet npub.cash, ou vous pouvez utiliser n'importe quelle clé publique Nostr (`npub`) sans enregistrement.
+Cashu.me s'intègre à [npub.cash](https://npub.cash/) pour vous fournir une Lightning Address qui fonctionne parfaitement avec le protocole Nostr. Ici, vous pouvez vous inscrire et réclamer votre nom d'utilisateur en fournissant votre Nostr `nsec`, qui coûte 5,000 Sats et soutient le projet npub.cash, ou vous pouvez utiliser n'importe quelle clé publique Nostr (`npub`) sans enregistrement.
 
 
-Tout d'abord, allez dans `Settings` et appuyez sur `Enable` Lightning Address with npub.cash. Cela va generate créer un npub.cash Address en utilisant une chaîne `npub` dérivée de votre phrase Wallet seed par défaut.
+Tout d'abord, allez dans `Settings` et appuyez sur `Enable` Lightning Address with npub.cash. Cela va créer un npub.cash Address en utilisant une chaîne `npub` dérivée de votre phrase seed par défaut.
 
 
-Vous pouvez également visiter [cette page web](https://npub.cash/username) pour demander un nom d'utilisateur personnalisé en utilisant votre propre Nostr `nsec`, ce qui vous donnera un Lightning Address personnalisé comme username@npub.cash.
+Vous pouvez également visiter [cette page web](https://npub.cash/username) pour demander un nom d'utilisateur personnalisé en utilisant votre propre Nostr `nsec`, ce qui vous donnera une Lightning Address personnalisé comme username@npub.cash.
 
 
 ![image](assets/en/11.webp)
@@ -224,7 +224,7 @@ Vous pouvez également visiter [cette page web](https://npub.cash/username) pour
 ## 🎯 Conclusion
 
 
-Cashu.me propose des paiements privés Bitcoin qui fonctionnent comme de l'argent liquide - instantanément et de pair à pair sans exposer l'historique de vos transactions. J'apprécie personnellement son architecture PWA, qui permet de s'affranchir des restrictions imposées par les magasins d'applications. En combinant la sécurité du Bitcoin, la vitesse de Lightning et la confidentialité d'ecash, le Wallet offre des cas d'utilisation qui pourraient améliorer l'adoption quotidienne du Bitcoin.
+Cashu.me propose des paiements privés Bitcoin qui fonctionnent comme de l'argent liquide, instantanément et de pair à pair sans exposer l'historique de vos transactions. J'apprécie personnellement son architecture PWA, qui permet de s'affranchir des restrictions imposées par les magasins d'applications. En combinant la sécurité du Bitcoin, la vitesse de Lightning et la confidentialité d'ecash, le Wallet offre des cas d'utilisation qui pourraient améliorer l'adoption quotidienne du Bitcoin.
 
 
 Bien que vous ayez un contrôle total sur vos jetons ecash grâce à l'autoconservation, n'oubliez pas que les monnayeurs sont des tiers de confiance qui détiennent les réserves Bitcoin sous-jacentes. La possibilité d'utiliser plusieurs monnaies et d'échanger entre elles offre une certaine flexibilité tout en préservant la confidentialité.

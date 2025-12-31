@@ -13,11 +13,12 @@ project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-12-07
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 5.39
+      - nrak10
+    reward: 2.7
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -149,6 +150,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 14.35
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.92
 tags:
   - guides
   - wallets

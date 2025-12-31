@@ -165,6 +165,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 32.72
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.87
 tags:
   - lightning
   - layers

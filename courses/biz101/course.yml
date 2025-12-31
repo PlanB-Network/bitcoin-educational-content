@@ -155,16 +155,22 @@ proofreading:
     contributor_names:
     reward: 29.35
   - language: rn
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 35.19
+      - tonybarakana-cmyk
+    reward: 17.6
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - dnabg
     reward: 11.75
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.35
 tags:
   - business
   - adoption

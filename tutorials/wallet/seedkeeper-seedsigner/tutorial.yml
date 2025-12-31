@@ -20,11 +20,12 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-23
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 2.36
+      - nrak10
+    reward: 1.18
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -155,3 +156,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.25
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.79

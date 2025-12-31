@@ -1,5 +1,5 @@
 question: Коя услуга за обмен, създадена през март 2010 г., беше най-популярна преди появата на Mt. Gox през юли?
-answer: Пазар Bitcoin
+answer: Bitcoin Market
 wrong_answers:
   - BitcoinFX
   - BitcoinExchange

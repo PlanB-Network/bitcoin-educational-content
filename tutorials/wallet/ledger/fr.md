@@ -123,11 +123,11 @@ Assurez-vous de choisir Bitcoin, et non Bitcoin Cash ou toute autre shitcoin. Il
 
 Super. Maintenant, vous avez un gestionnaire de portefeuille shitcoin contenant un portefeuille Bitcoin sur votre ordinateur. En réalité, vous n'en avez plus besoin et pouvez vous en débarrasser. Le but réel était d'obtenir l'application Bitcoin sur l'appareil lui-même, et c'était la seule façon, à moins d'effectuer certaines techniques d'ingénierie logicielle extrêmes.
 
-Rappelez-vous qu'auparavant, sur l'appareil, nous avions un bouton de paramètres et un bouton plus. Maintenant, nous avons un bouton supplémentaire - le bouton de l'application Bitcoin.
+Rappelez-vous qu'auparavant, sur l'appareil, nous avions un bouton de paramètres et un bouton plus. Maintenant, nous avons un bouton supplémentaire, le bouton de l'application Bitcoin.
 
 Vous pouvez maintenant fermer Ledger Live.
 
-## Ajouter une phrase de passe'
+## Ajouter une phrase de passe
 
 Maintenant que nous avons l'application Bitcoin, nous pouvons ajouter une phrase de passe à notre phrase de récupération. Nous ne pouvions pas le faire auparavant lorsque la phrase de récupération a été créée pour la première fois car, au début, nous n'avions pas l'application Bitcoin et nous devions nous connecter à Ledger Live pour l'obtenir.
 
@@ -199,9 +199,9 @@ Une fois que vous avez fait cela, vous devez sauvegarder les mots que vous avez 
 
 ![image](assets/22.webp)
 
-Lorsque vous effectuez un paiement, vous devez coller l'adresse à laquelle vous payez dans le champ "Pay to". Vous ne pouvez pas laisser le champ "Label" vide, c'est juste pour vos propres enregistrements de portefeuille, mais Sparrow ne le permet pas - entrez simplement quelque chose (vous seul le verrez). Entrez le montant et vous pouvez également ajuster manuellement les frais que vous souhaitez.
+Lorsque vous effectuez un paiement, vous devez coller l'adresse à laquelle vous payez dans le champ "Pay to". Vous ne pouvez pas laisser le champ "Label" vide, c'est juste pour vos propres enregistrements de portefeuille, mais Sparrow ne le permet pas, entrez simplement quelque chose (vous seul le verrez). Entrez le montant et vous pouvez également ajuster manuellement les frais que vous souhaitez.
 
-Le portefeuille ne peut pas signer la transaction à moins que le HWW ne soit connecté. C'est le travail du HWW - recevoir la transaction, la signer et la renvoyer, signée. Assurez-vous que lorsque vous signez sur l'appareil, vous inspectez visuellement l'adresse à laquelle vous payez, qui doit être identique sur l'appareil et sur l'écran de l'ordinateur, ainsi que sur la facture que vous recevez (par exemple, vous avez peut-être reçu un e-mail pour payer une certaine adresse).
+Le portefeuille ne peut pas signer la transaction à moins que le HWW ne soit connecté. C'est le travail du HWW, recevoir la transaction, la signer et la renvoyer, signée. Assurez-vous que lorsque vous signez sur l'appareil, vous inspectez visuellement l'adresse à laquelle vous payez, qui doit être identique sur l'appareil et sur l'écran de l'ordinateur, ainsi que sur la facture que vous recevez (par exemple, vous avez peut-être reçu un e-mail pour payer une certaine adresse).
 
 Faites également attention que si vous choisissez d'utiliser une pièce qui est plus grande que le montant du paiement, le reste sera renvoyé à l'une des adresses de changement de vos portefeuilles. Certaines personnes ne le savent pas et consultent leur transaction sur une blockchain publique, pensant qu'une certaine quantité de bitcoins a été envoyée à une adresse d'attaquant, alors qu'en réalité, il s'agissait de leur propre adresse de changement.
 
@@ -211,13 +211,13 @@ Pour mettre à jour le firmware, vous devez vous connecter à Ledger Live. Si vo
 
 ## Conclusion
 
-Cet article vous a montré comment utiliser un HWW Ledger de manière plus sûre et plus privée que ce qui est annoncé - mais cet article seul ne suffit pas. Comme je l'ai dit au début, vous devriez le combiner avec les informations fournies dans "Utilisation des portefeuilles matériels Bitcoin".
+Cet article vous a montré comment utiliser un HWW Ledger de manière plus sûre et plus privée que ce qui est annoncé, mais cet article seul ne suffit pas. Comme je l'ai dit au début, vous devriez le combiner avec les informations fournies dans "Utilisation des portefeuilles matériels Bitcoin".
 Conseils :
 
 Adresse Lightning statique : dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/'
 
-Pour approfondir ce sujet et renforcer la sécurité de votre portefeuille sur une Ledger Nano avec une passphrase BIP39, je vous invite à consulter ce tutoriel complet :
+Pour approfondir ce sujet et renforcer la sécurité de votre portefeuille sur un Ledger Nano avec une passphrase BIP39, je vous invite à consulter ce tutoriel complet :
 
 https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

@@ -18,7 +18,7 @@ Hapo ndipo Coinos inapokuja, jukwaa lililoundwa na Adam Soltys, msanidi wa wavut
 
 
 
-Coinos ni jukwaa rahisi na angavu lililoundwa kuwa rahisi kutumia. Inakuruhusu kutuma, kupokea na kukubali malipo katika Bitcoin, Liquid au Umeme, moja kwa moja kutoka kwa kivinjari chako, bila usakinishaji wowote wa kiufundi. Inaweza kufikiwa na wote, Coinos inachanganya manufaa ya Bitcoin na usahili wa programu ya wavuti (*Programu Inayoendelea ya Wavuti*, au PWA), bora kwa watu binafsi, wafanyabiashara na wadadisi.
+Coinos ni jukwaa rahisi na angavu lililoundwa kuwa rahisi kutumia. Inakuruhusu kutuma, kupokea na kukubali malipo katika Bitcoin, Liquid au Lightning, moja kwa moja kutoka kwa kivinjari chako, bila usakinishaji wowote wa kiufundi. Inaweza kufikiwa na wote, Coinos inachanganya manufaa ya Bitcoin na usahili wa programu ya wavuti (*Programu Inayoendelea ya Wavuti*, au PWA), bora kwa watu binafsi, wafanyabiashara na wadadisi.
 
 
 
@@ -34,7 +34,7 @@ Coinos ni jukwaa rahisi na angavu lililoundwa kuwa rahisi kutumia. Inakuruhusu k
 
 
 
-Huhitaji ujuzi wowote wa kiufundi au wa kina kabla ya kuchukua **Coinos** mkononi. Walakini, uelewa wa kimsingi wa shughuli za Bitcoin, on chain, Umeme na Liquid ni nyongeza.
+Huhitaji ujuzi wowote wa kiufundi au wa kina kabla ya kuchukua **Coinos** mkononi. Walakini, uelewa wa kimsingi wa shughuli za Bitcoin, on chain, Lightning na Liquid ni nyongeza.
 
 
 
@@ -85,7 +85,7 @@ Hapo juu, juu ya avatar yako, utapata ikoni ya kiolesura:
 
 
 
-- ya risiti**
+- **ya risiti**
 
 
 
@@ -95,7 +95,7 @@ Hapo juu, juu ya avatar yako, utapata ikoni ya kiolesura:
 
 
 
-- historia ya muamala**
+- **historia ya muamala**
 
 
 
@@ -105,7 +105,7 @@ Hapo juu, juu ya avatar yako, utapata ikoni ya kiolesura:
 
 
 
-- ya usafirishaji**
+- **ya usafirishaji**
 
 
 
@@ -115,7 +115,7 @@ Hapo juu, juu ya avatar yako, utapata ikoni ya kiolesura:
 
 
 
-- menyu kunjuzi**
+-** menyu kunjuzi**
 
 
 
@@ -128,9 +128,9 @@ Kisha una
 
 
 
-- ** avatar** yako;
+- **avatar** yako;
 - **jina lako la mtumiaji** ;
-- **menyu ndogo ya kunjuzi** iliyo na anwani yako ya Sarafu ya Umeme, URL ya umma na msimbo wa malipo (anwani ya LNURL);
+- **Menyu ndogo ya kunjuzi** iliyo na Lightning Address yako, URL ya umma, na msimbo wa malipo (LNURL);
 - na aikoni ya **penseli** inayokuelekeza kwenye menyu ndogo ya **Akaunti**.
 
 
@@ -187,7 +187,7 @@ Bingo! Sasa utaweza kuiona ikionyeshwa kwenye menyu ya programu za simu yako.
 
 
 
-Bonyeza kitufe cha kiolesura cha menyu ya chini ** na kisha kwenye **Mapendeleo**.
+Bonyeza kitufe cha kiolesura cha menyu ya chini  na kisha kwenye **Mapendeleo**.
 
 
 
@@ -201,7 +201,7 @@ Katika **Mapendeleo**, kuna menyu ndogo 4 zinazokuruhusu kusanidi kwingineko yak
 
 
 
-- Akaunti**
+- **Akaunti**
 
 
 
@@ -219,11 +219,11 @@ Katika menyu hii ndogo, unaweza kubadilisha jina lako la mtumiaji, kuweka nenosi
 
 
 
-- Sehemu ya Uuzaji** (POS)
+- **Proof of Stake** (POS)
 
 
 
-Hapa, unaweza kuchagua lugha yako na sarafu ya eneo lako, weka anwani yako ya barua pepe, uwashe arifa kulingana na mapendeleo yako, na, ikiwa wewe ni mfanyabiashara, unganisha wallet yako kwenye Square ili kuwezesha malipo yako.
+Hapa, unaweza kuchagua lugha yako na sarafu ya eneo lako, weka address yako ya barua pepe, uwashe arifa kulingana na mapendeleo yako, na, ikiwa wewe ni mfanyabiashara, unganisha wallet yako kwenye Square ili kuwezesha malipo yako.
 
 
 
@@ -237,7 +237,7 @@ Hapa, unaweza kuchagua lugha yako na sarafu ya eneo lako, weka anwani yako ya ba
 
 
 
-- Nostr**
+- **Nostr**
 
 
 
@@ -251,7 +251,7 @@ Ikiwa una akaunti na Nostr, unaweza kuiunganisha kwa akaunti yako ya Coinos.
 
 
 
-- Vipengele vya usalama**
+- **Vipengele vya usalama**
 
 
 
@@ -285,8 +285,8 @@ Coinos inasaidia:
 
 
 
-- Bitcoin kwenye msururu mkuu (on chain)** yenye miundo ya anwani kama vile SegWit, Taproot na Legacy ;
-- Umeme** LNURL, Bolt 11 na Bolt 12;
+- **Bitcoin kwenye msururu mkuu (on chain)** yenye miundo ya address kama vile SegWit, Taproot na Legacy ;
+- **Lightning** LNURL, Bolt 11 na Bolt 12;
 - na wengine, hasa kupitia mtandao wa **Liquid** na itifaki ya **Ecash**.
 
 
@@ -295,11 +295,11 @@ Coinos inasaidia:
 
 
 
-## Pokea bitcoins
+## Pokea bitcoin
 
 
 
-Ili kupokea bitcoins kwenye Coinos, bofya ama kwenye **Pokea**, au kwenye ikoni ya **kupokea kiolesura**. Mara tu kwenye kiolesura cha kupokea, muulize mtumaji wako **ni mtandao gani wa kutuma bitcoins kwa **, ili kubainisha **ni anwani gani ya kuzituma kwa**.
+Ili kupokea bitcoin kwenye Coinos, bofya ama kwenye **Pokea**, au kwenye ikoni ya **kupokea kiolesura**. Mara tu kwenye kiolesura cha kupokea, muulize mtumaji wako **ni mtandao gani wa kutuma bitcoin kwa **, ili kubainisha **ni address gani ya kuzituma kwa**.
 
 
 
@@ -315,7 +315,7 @@ Bofya kwenye **Bitcoin**.
 
 
 
-Msimbo wa QR na anwani ya kuwasilisha hutolewa kiotomatiki.
+Msimbo wa QR na address ya kuwasilisha hutolewa kiotomatiki.
 
 
 
@@ -335,7 +335,7 @@ Unaweza kubinafsisha kwa kufafanua kiasi maalum na memo (lebo).
 
 
 
-**Msimbo wako wa QR** na **anwani yako ya Bitcoin** uliyobinafsisha sasa ziko tayari; unachotakiwa kufanya ni kuzisambaza kwa mtumaji wako ili kupokea bitcoins zako.
+**Msimbo wako wa QR** na **address yako ya Bitcoin** uliyobinafsisha sasa ziko tayari; unachotakiwa kufanya ni kuzisambaza kwa mtumaji wako ili kupokea bitcoin zako.
 
 
 
@@ -359,7 +359,7 @@ Bofya **Chaguzi zaidi**, kisha kwenye **Liquid**.
 
 
 
-Msimbo wa QR na anwani ya mapokezi ya Liquid pia huzalishwa.
+Msimbo wa QR na address ya mapokezi ya Liquid pia huzalishwa.
 
 
 
@@ -367,7 +367,7 @@ Msimbo wa QR na anwani ya mapokezi ya Liquid pia huzalishwa.
 
 
 
-Coinos inakukumbusha kwamba ni lazima utume bitcoins za Liquid** (**L-BTC**) pekee kwa anwani hii au kupitia msimbo huu wa QR.
+Coinos inakukumbusha kwamba ni lazima utume bitcoin za Liquid** (**L-BTC**) pekee kwa address hii au kupitia msimbo huu wa QR.
 
 
 
@@ -391,7 +391,7 @@ Ipitishe kwa mtumaji wako na upokee **L-BTC** yako.
 
 
 
-Kwa chaguo-msingi, kiolesura cha mapokezi kinafungua na chaguo la Umeme. Kisha una msimbo wako wa QR na anwani yako ya Umeme, ambayo unaweza kubinafsisha kwa kiasi mahususi na memo.
+Kwa chaguo-msingi, kiolesura cha mapokezi kinafungua na chaguo la Lightning. Kisha una msimbo wako wa QR na address yako ya Lightning, ambayo unaweza kubinafsisha kwa kiasi mahususi na memo.
 
 
 
@@ -403,7 +403,7 @@ Kwa chaguo-msingi, kiolesura cha mapokezi kinafungua na chaguo la Umeme. Kisha u
 
 
 
-**Msimbo wako wa QR** na **Anwani ya umeme** uliyobinafsisha sasa ziko tayari. Zitume kwa mtumaji wako na upokee satoshi zako mara moja.
+**Msimbo wako wa QR** na **Lightning address** uliyobinafsisha sasa ziko tayari. Zitume kwa mtumaji wako na upokee satoshi zako mara moja.
 
 
 
@@ -411,7 +411,7 @@ Kwa chaguo-msingi, kiolesura cha mapokezi kinafungua na chaguo la Umeme. Kisha u
 
 
 
-Ili kupokea malipo kupitia **Umeme**, unaweza kutumia menyu kunjuzi ndogo kwenye kiolesura kikuu cha wallet. Hii hukuruhusu kuonyesha anwani yako ya Umeme: kisha unaweza kuinakili au kubadili hadi msimbo wake wa QR kwa kushiriki kwa urahisi.
+Ili kupokea malipo kupitia **Lightning**, unaweza kutumia menyu kunjuzi ndogo kwenye kiolesura kikuu cha wallet. Hii hukuruhusu kuonyesha Lightning address yako: kisha unaweza kuinakili au kubadili hadi msimbo wake wa QR kwa kushiriki kwa urahisi.
 
 
 
@@ -423,19 +423,19 @@ Kila wakati unapoingiza kiasi, bila kujali mtandao unaotumika, Coinos huonyesha 
 
 
 
-## Tuma bitcoins
+## Tuma bitcoin
 
 
 
-Ikiwa ungependa kutuma bitcoins kutoka kwa Coinos wallet yako, bofya kwenye **ikoni ya kutuma**. Mara tu kwenye kiolesura kinacholingana, unayo chaguzi kadhaa:
+Ikiwa ungependa kutuma bitcoin kutoka kwa Coinos wallet yako, bofya kwenye **ikoni ya kutuma**. Mara tu kwenye kiolesura kinacholingana, unayo chaguzi kadhaa:
 
 
 
 
 - Changanua msimbo wa QR uliotolewa na mpokeaji;
-- Bandika anwani iliyonakiliwa kwenye ubao wako wa kunakili;
-- Katika sehemu ya **Anwani**, chagua moja kwa moja jina la mtumiaji la mtu ambaye tayari umefanya naye miamala;
-- Weka anwani ya Bitcoin (on-chain, Liquid au Bolt LN), ankara ya Umeme, au jina la mtumiaji la Coinos la mpokeaji katika sehemu iliyotolewa.
+- Bandika address iliyonakiliwa kwenye ubao wako wa kunakili;
+- Katika sehemu ya **address**, chagua moja kwa moja jina la mtumiaji la mtu ambaye tayari umefanya naye miamala;
+- Weka address ya Bitcoin (on-chain, Liquid au Bolt LN), Lightning invoice, au jina la mtumiaji la Coinos la mpokeaji katika sehemu iliyotolewa.
 
 
 
@@ -443,7 +443,7 @@ Ikiwa ungependa kutuma bitcoins kutoka kwa Coinos wallet yako, bofya kwenye **ik
 
 
 
-Baada ya kuandika au kubandika anwani, bonyeza **Inayofuata**, weka kiasi cha muamala, kisha ubonyeze **Inayofuata** tena.
+Baada ya kuandika au kubandika address, bonyeza **Inayofuata**, weka kiasi cha muamala, kisha ubonyeze **Inayofuata** tena.
 
 
 
@@ -479,7 +479,7 @@ Hongera! Usafirishaji wako umefika.
 
 
 
-Wacha tujaribu kutuma kati ya watumiaji wa Coinos. Hebu tutume satoshi 21 kwa Adam Soltys, ambaye ana anwani ya kipekee ya Coinos: *adam*.
+Wacha tujaribu kutuma kati ya watumiaji wa Coinos. Hebu tutume satoshi 21 kwa Adam Soltys, ambaye ana address ya kipekee ya Coinos: *adam*.
 
 
 
@@ -496,7 +496,7 @@ Wacha tujaribu kutuma kati ya watumiaji wa Coinos. Hebu tutume satoshi 21 kwa Ad
 
 
 
-Unaweza pia kujaribu kunitumia satoshis kupitia anwani yangu ya Umeme: Raimi@coinos.io.
+Unaweza pia kujaribu kunitumia satoshis kupitia lightning address: Raimi@coinos.io.
 
 
 
@@ -565,7 +565,7 @@ Unapobofya kwenye biashara, utaona lebo yake, na kubofya lebo hukupeleka kwenye 
 
 
 
-- Dawati la usaidizi**
+- **Dawati la usaidizi**
 
 
 
@@ -595,7 +595,7 @@ Ili kufikia menyu hii, bofya aikoni ya menyu kunjuzi kisha kwenye **Msaada**.
 
 
 
-Usalama ni suala muhimu wakati wa kutumia bitcoins. Ingawa Coinos hurahisisha utumiaji na usiwe na mshono, ni muhimu kulinda bitcoins zako.
+Usalama ni suala muhimu wakati wa kutumia bitcoin. Ingawa Coinos hurahisisha utumiaji na usiwe na mshono, ni muhimu kulinda bitcoin zako.
 
 
 
@@ -612,7 +612,7 @@ Asante kwa kusoma makala hii hadi mwisho. Iwapo umepata mafunzo haya kuwa ya man
 
 
 
-Ninapendekeza uangalie mafunzo haya kwenye Aqua. Pia ni wallet, kama Coinos, ambayo inasaidia Bitcoin, Liquid na Umeme.
+Ninapendekeza uangalie mafunzo haya kwenye Aqua. Pia ni wallet, kama Coinos, ambayo inasaidia Bitcoin, Liquid na Lightning.
 
 
 

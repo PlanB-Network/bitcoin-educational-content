@@ -14,8 +14,139 @@ licence: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-12-15
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0
+      - nrak10
+    reward: 0.44
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.39
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.39
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.29
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.39
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.84

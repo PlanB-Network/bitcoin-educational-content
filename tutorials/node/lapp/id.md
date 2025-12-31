@@ -1,22 +1,22 @@
 ---
 name: Lightning App
-description: Tutorial untuk mengembangkan Aplikasi Lightning (LAPP) pertama Anda
+description: Tutorial untuk mengembangkan Aplikasi Lightning (LAPP) pertama kamu
 ---
 
 ![cover](assets/cover.webp)
 
-## Pelajari cara membuat kode aplikasi lightning pertama Anda
+## Pelajari cara membuat kode aplikasi lightning pertama kamu
 
 Persyaratan:
 
 - NodeJs >= 8
 - LND >= 9
 
-NodeJs dapat diunduh dari situs web resminya
+NodeJs bisa kamu unduh dari situs web resminya.
 
-Alih-alih mengunduh dan menyiapkan node LND, kita akan menggunakan alat polar, yang akan melakukan tugas ini untuk kita.
+Alih-alih mengunduh dan menyiapkan node LND secara manual, kita akan pakai alat Polar yang bakal ngelakuin semua itu buat kamu.
 
-Untuk membangun aplikasi Lightning kita, kita akan menggunakan teknologi berikut:
+Untuk membangun aplikasi Lightning kita, kita akan pakai teknologi berikut:
 
 - Express untuk webserver kita
 - Template Pug + bootstrap untuk frontend kita
@@ -25,7 +25,8 @@ https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Sistem Operasi
 
-Disarankan untuk menggunakan Linux, jika Anda menggunakan Windows 10, Anda dapat memiliki konsol Linux dengan mengikuti beberapa langkah ini.
+Disarankan untuk menggunakan Linux, kalau kamu pakai Windows 10, kamu bisa punya konsol Linux dengan mengikuti beberapa langkah ini.
+
 Menyiapkan dasar
 
 Gunakan alat generator aplikasi, express, untuk dengan cepat membuat kerangka aplikasi.
@@ -34,7 +35,7 @@ Gunakan alat generator aplikasi, express, untuk dengan cepat membuat kerangka ap
 $ sudo npm install express-generator -g
 ```
 
-Dengan instruksi berikut, kita membuat aplikasi Express yang disebut lnapp. Aplikasi akan dibuat dalam direktori yang disebut lnapp di direktori kerja saat ini, dan mesin tampilan akan ditetapkan ke Pug.
+Dengan instruksi berikut, kita bakal membuat aplikasi Express yang namanya lnapp. Aplikasi ini akan dibuat di dalam direktori bernama lnapp di direktori kerja kamu saat ini, dan view engine akan diset ke Pug.
 
 ```
 $ express --view=pug lnapp
@@ -79,9 +80,9 @@ Aplikasi yang dihasilkan memiliki struktur direktori sebagai berikut:
 
 ## Polar
 
-Unduh Polar, instal, dan buat jaringan dengan 2 node LND (Alice dan Bob) dan 1 bitcoind. Setelah kita melihat grafik di aplikasi yang menunjukkan node kita, klik tombol Start dan tunggu beberapa detik sampai indikator setiap node berubah warna menjadi hijau.
+Unduh Polar, instal, dan buat jaringan dengan 2 node LND (Alice dan Bob) dan 1 bitcoind. Setelah kamu lihat grafik di aplikasi yang nunjukin node kita, klik tombol Start dan tunggu beberapa detik sampai indikator tiap node berubah warna jadi hijau.
 
-Untuk mengirim pembayaran di Lightning, diperlukan agar node terhubung melalui saluran. Membuat saluran dengan Polar sangat sederhana, kita hanya perlu mengklik dengan mouse pada salah satu telinga node Alice dan menyeretnya ke salah satu telinga node Bob. Segera, jendela modal bertajuk Open new channel harus muncul, kita biarkan nilai default dan tekan tombol buka saluran. Sekarang kita ulangi aksi tetapi kali ini dari Bob ke Alice, dengan cara ini kedua node dapat mengirim dan menerima uang.
+Untuk mengirim pembayaran di Lightning, node harus terhubung lewat channel. Bikin channel dengan Polar itu gampang banget, kamu cuma perlu klik salah satu telinga node Alice lalu seret ke salah satu telinga node Bob. Setelah itu, jendela modal berjudul Open new channel bakal muncul, kita biarin aja nilai default lalu tekan tombol buka channel. Sekarang ulangi aksi yang sama tapi kali ini dari Bob ke Alice, biar kedua node bisa mengirim dan menerima uang.
 
 ## Nodemon
 
@@ -120,15 +121,15 @@ LND_CERT_BASE64=''
 LND_MACAROON_BASE64=''
 ```
 
-Kembali ke Polar, pilih Bob, node yang ingin kita sambungkan, pergi ke tab "Connect", salin isi dari GRPC Host dan tempatkan pada variabel LND_GRPC_HOST, di bagian bawah tab connect pilih base64 dan salin isi dari TLS Cert dan tempatkan pada variabel LND_CERT_BASE64, dan lakukan hal yang sama dengan admin macaroon pada LND_MACAROON_BASE64.
+Kembali ke Polar, pilih Bob sebagai node yang mau kita sambungkan, masuk ke tab Connect, salin isi dari GRPC Host dan tempel ke variabel LND_GRPC_HOST. Di bagian bawah tab Connect pilih base64 lalu salin isi dari TLS Cert dan tempel ke variabel LND_CERT_BASE64, dan lakukan hal yang sama untuk admin macaroon ke variabel LND_MACAROON_BASE64.
 
-Sekarang tambahkan baris ini ke file app.js yang terletak di root direktori kerja, kita harus menyalinnya pada baris pertama file tersebut.
+Sekarang tambahkan baris ini ke file app.js yang ada di root direktori kerja, kita harus menyalinnya di baris pertama file itu.
 
 ```
 require('dotenv').config();
 ```
 
-Untuk memverifikasi bahwa nodejs dapat terhubung ke node kita, buka file routes/index.js, file routes ini dibuat oleh generator express, pertama kita memerlukan library ln-service, jadi kita tambahkan di baris pertama
+Untuk verifikasi kalau nodejs bisa terhubung ke node kita, buka file routes/index.js. File routes ini dibuat oleh generator Express. Pertama kita butuh library ln-service, jadi tambahkan ini di baris pertama.
 
 ```
 const lnservice = require('ln-service');
@@ -163,10 +164,11 @@ console.log(e);
 
 Sekarang pergi ke alamat ini http://localhost:3000/info
 
-Jika Anda melihat json dengan informasi dari node LND, selamat!!! aplikasi Anda sekarang dapat berinteraksi dengan Lightning Network.
+Kalau kamu lihat json dengan informasi dari node LND, selamat!!! aplikasi kamu sekarang bisa berinteraksi dengan Lightning Network.
+
 Membuat model palsu
 
-Untuk mensimulasikan database, kita perlu membuat model palsu, ini akan memungkinkan kita untuk menggunakan aplikasi tanpa perlu menginstal dan mengonfigurasi database.
+Untuk nyimulasikan database, kita perlu bikin model palsu, ini bakal memungkinkan kita pakai aplikasi tanpa harus instal dan konfigurasi database.
 
 Pertama, instal paket uuid
 
@@ -239,7 +241,7 @@ module.exports = posts;
 
 ## Persiapkan tampilan
 
-Kita memerlukan bootstrap untuk membuat tampilan html kita lebih baik, jadi kita modifikasi file layout.pug yang berada di direktori views agar terlihat seperti ini:
+Kita perlu Bootstrap supaya tampilan html kita lebih bagus, jadi kita modifikasi file layout.pug yang ada di direktori views biar tampilannya jadi seperti ini:
 
 ```
 doctype html
@@ -275,7 +277,7 @@ Untuk membuat sebuah post, kita memerlukan sebuah form. Di dalam direktori views
 
 ## Javascript di frontend
 
-Cara paling langsung yang kita miliki untuk berinteraksi dengan pengguna adalah dengan menggunakan javascript di web browser. Untuk ini, buatlah sebuah file bernama main.js di direktori javascript, yang sudah kita panggil dari layout.pug. Di dalam file ini, inisialisasilah proyek. Konten awal dari main.js adalah sebagai berikut:
+Cara paling langsung buat kita berinteraksi dengan user adalah pakai javascript di web browser. Untuk itu, buat file bernama main.js di direktori javascript, yang sudah kita panggil dari layout.pug. Di dalam file ini, inisialisasi proyeknya. Konten awal main.js adalah seperti berikut:
 
 ```
 const App = {
@@ -368,7 +370,7 @@ Mari kita tekan tombol kirim lagi dan seharusnya akan merespons dengan data yang
 
 ## Membuat invoice
 
-Metode yang dieksekusi ketika pengguna membuat post harus menghasilkan invoice, kemudian membuat catatan dalam database yang menghubungkannya dengan invoice, dan mengembalikan invoice kepada pengguna agar mereka dapat membayarnya.
+Metode yang dieksekusi saat pengguna membuat post harus menghasilkan invoice, lalu bikin catatan di database yang mengaitkan post itu dengan invoice, dan mengembalikan invoice ke pengguna supaya mereka bisa bayar.
 
 ```markdown
 router.post('/post', async (req, res) => {
@@ -405,7 +407,7 @@ console.log(e);
 });
 ```
 
-Jika kita menerima objek post sebagai respons setelah menekan kirim, seperti ini, semuanya telah berjalan dengan benar. Sekarang kita perlu menampilkan teks agar pengguna dapat membayarnya.
+Kalau kita menerima objek post sebagai respons setelah menekan kirim kayak gini, berarti semuanya udah berjalan dengan benar. Sekarang kita perlu nampilin teks supaya pengguna bisa bayarin.
 
 ```markdown
 {
@@ -470,7 +472,7 @@ $('#invoice').val(response.data.request);
 ```
 
 ## Menerima pembayaran
-Kita perlu mengetahui kapan kita menerima pembayaran, untuk ini kita akan menggunakan metode `subscribeToInvoices()` dari `lnservice`, metode ini memungkinkan kita untuk menjalankan kode ketika status sebuah invoice telah diperbarui, untuk menggunakannya kita tambahkan baris-baris ini di `app.js`.
+Kita perlu tahu kapan kita menerima pembayaran, dan untuk itu kita bakal pakai metode subscribeToInvoices() dari lnservice. Metode ini memungkinkan kita ngejalanin kode setiap kali status sebuah invoice diperbarui. Untuk nggunainnya, tambahkan baris-baris ini di app.js.
 
 ```
 // memerlukan lnservice dan tabel post kita
@@ -593,4 +595,4 @@ block content
   include success.pug
 ```
 
-Jika setelah membayar faktur Anda dapat melihat pesan "Pembayaran berhasil" dan bukti pembayaran, selamat!!! Anda berhasil, Anda telah menyelesaikan LApp pertama Anda.
+Kalau setelah kamu bayar invoice kamu bisa lihat pesan Pembayaran berhasil dan bukti pembayarannya, selamat!!! kamu berhasil, kamu udah nyelesaiin LApp pertamamu.

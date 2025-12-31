@@ -6,4 +6,4 @@ wrong_answers:
   - Google
 explanation: |
   La Autoridad de Asignación de Números de Internet (IANA) gestiona el Assignment de los números de versión del protocolo IP y la asignación de rangos de protocolos.
-reviewed: false
+reviewed: true

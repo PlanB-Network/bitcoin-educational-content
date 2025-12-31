@@ -1670,7 +1670,7 @@ La gestione di un nodo Bitcoin è essenziale per diversi motivi:
 - **Peer discovery**: L'individuazione dei peer è il processo con cui un nodo trova altri nodi a cui connettersi.
 - **Validation engine**: Il motore di convalida è responsabile della verifica della validità delle transazioni e dei blocchi in base alle regole del network.
 - **RPC (Remote Procedure Call)**: Bitcoin Core include un RPC Interface che consente alle applicazioni esterne, come i wallet, di interagire con il nodo.
-- **Memorizzazione dei blocchi e dello stato della catena**: Bitcoin Core può memorizzare l'intera blockchain o meno, sia che si tratti di un nodo di archiviazione che di un pruned. Inoltre, memorizza su disco lo stato attuale della rete (il set UTXO).
+- **Memorizzazione dei blocchi e dello stato della catena**: Bitcoin Core può memorizzare l'intera blockchain o meno, sia che si tratti di un nodo di archiviazione che di un pruned. Inoltre, memorizza su disco lo stato attuale del network (il set UTXO).
 
 
 #### Cosa possiamo rimuovere?
@@ -1700,7 +1700,7 @@ bitcoin-cli gettxoutsetinfo
 ![utxoset info command](assets/en/025.webp)
 
 
-Possiamo verificare che il numero di Bitcoin è corretto.
+Possiamo verificare che il numero di bitcoin è corretto.
 
 
 #### Per ogni UTXO, la catena ha:
@@ -1758,7 +1758,7 @@ L'insieme UTXO rappresenta lo stato attuale di Bitcoin, elencando tutti gli outp
 #### Conclusione
 
 
-La gestione di un nodo Bitcoin è un modo efficace per partecipare alla rete Bitcoin, in quanto consente di verificare le transazioni, mantenere la privacy e contribuire alla sicurezza e alla decentralizzazione della blockchain. Sia che decidiate di gestire un full node o di personalizzare la vostra configurazione riducendo la blockchain o disabilitando alcuni componenti, la comprensione delle funzioni principali e delle considerazioni sulla sicurezza di un nodo Bitcoin vi consentirà di prendere decisioni informate e di contribuire alla continua evoluzione di Bitcoin.
+La gestione di un nodo Bitcoin è un modo efficace per partecipare al network Bitcoin, in quanto consente di verificare le transazioni, mantenere la privacy e contribuire alla sicurezza e alla decentralizzazione della blockchain. Sia che decidiate di gestire un full node o di personalizzare la vostra configurazione riducendo la blockchain o disabilitando alcuni componenti, la comprensione delle funzioni principali e delle considerazioni sulla sicurezza di un nodo Bitcoin vi consentirà di prendere decisioni informate e di contribuire alla continua evoluzione di Bitcoin.
 
 
 ## Strutture dati di Bitcoin
@@ -1771,7 +1771,7 @@ La gestione di un nodo Bitcoin è un modo efficace per partecipare alla rete Bit
 
 :::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
-L'obiettivo principale di questa lezione è quello di guidare l'utente attraverso il processo di analisi di un blocco Bitcoin attraverso la codifica di un parser in Rust. Ciò comporta la comprensione della struttura dei blocchi e delle transazioni Bitcoin e l'implementazione della logica necessaria per estrarre e interpretare questi dati.
+L'obiettivo principale di questa lezione è quello di guidare l'utente attraverso il processo di analisi di un blocco Bitcoin, attraverso la codifica di un parser in Rust. Ciò comporta la comprensione della struttura dei blocchi e delle transazioni Bitcoin e l'implementazione della logica necessaria per estrarre e interpretare questi dati.
 
 
 ### Analisi dei blocchi Bitcoin e delle transazioni in Rust
@@ -1834,7 +1834,7 @@ Ogni transazione in un blocco Bitcoin contiene quanto segue:
 - **Number of inputs**: Conteggio degli ingressi della transazione.
 - **Inputs**: L'elenco degli ingressi.
   - **Previous outpoint (outpoint)**: Il riferimento dell'uscita precedente.
-    - **Hash**: Il Hash della transazione di riferimento.
+    - **Hash**: L'hash della transazione di riferimento.
     - **Index**: L'indice dell'output specifico nella transazione, chiamato "vout".
   - **Script length**: La lunghezza dello script della firma.
   - **Signature Script**: Script per la conferma dell'autorizzazione della transazione.
@@ -1979,7 +1979,7 @@ Aggiungere asserzioni per verificare che nessun byte venga lasciato non analizza
 #### Casi speciali come le transazioni coinbase
 
 
-Le transazioni Coinbase, che sono la prima transazione in un blocco utilizzato per richiedere il Block reward, hanno caratteristiche uniche. Dobbiamo gestire questi casi speciali in modo appropriato.
+Le transazioni coinbase, che sono la prima transazione in un blocco utilizzato per richiedere il Block Reward, hanno caratteristiche uniche. Dobbiamo gestire questi casi speciali in modo appropriato.
 
 
 ```Rust
@@ -2116,7 +2116,7 @@ I blocchi vuoti vengono talvolta estratti a causa di problemi di tempistica. I m
 #### Mining malevolo di blocchi vuoti
 
 
-La presenza di blocchi vuoti nel mining è possibile, ma non è stata osservata. La ragione principale dei blocchi vuoti è il vincolo di temporizzazione piuttosto che l'intento malevolo.
+Sebbene il mining malevolo di blocchi vuoti sia possibile, questo comportamento non è stato osservato. La ragione principale dei blocchi vuoti è il vincolo di temporizzazione piuttosto che l'intento malevolo.
 
 
 #### Implicazioni dei blocchi vuoti
@@ -2150,7 +2150,7 @@ Daniela Brozzoni offre una panoramica completa dello stack software Bitcoin Laye
 ### Panoramica del software Bitcoin
 
 
-Lo stack software di Bitcoin è fondamentale per il suo funzionamento ed è composto da vari Elements, tra cui nodi e portafogli. Una parte fondamentale di questo ecosistema è il Kit di sviluppo Bitcoin (BDK), che esploreremo in dettaglio più avanti. Per prima cosa, concentriamoci sul ruolo dei nodi all'interno del network Bitcoin.
+Lo stack software di Bitcoin è fondamentale per il suo funzionamento ed è composto da vari elementi, tra cui nodi e wallet. Una parte fondamentale di questo ecosistema è il Kit di sviluppo Bitcoin (BDK), che esploreremo in dettaglio più avanti. Per prima cosa, concentriamoci sul ruolo dei nodi all'interno del network Bitcoin.
 
 
 #### Nodi Bitcoin
@@ -2160,18 +2160,18 @@ I nodi Bitcoin sono la spina dorsale della rete Bitcoin. Si connettono tra loro,
 
 
 
-- Nodi completi**: Questi nodi memorizzano l'intera blockchain e convalidano tutte le transazioni e i blocchi. Forniscono un elevato livello di sicurezza e sono essenziali per la decentralizzazione della rete.
+- **Full Node**: Questi nodi memorizzano l'intera blockchain e convalidano tutte le transazioni e i blocchi. Forniscono un elevato livello di sicurezza e sono essenziali per la decentralizzazione della rete.
 
 
 
-  - Nodi di archivio**: Sottoinsieme dei nodi completi, i nodi di archiviazione conservano tutti i dati della blockchain, rendendoli preziosi per l'analisi storica e il debug.
+  - **Archival Node**: Sottoinsieme dei nodi completi, i nodi di archiviazione conservano tutti i dati della blockchain, rendendoli preziosi per l'analisi storica e il debug.
 
 
 ![archival node](assets/en/037.webp)
 
 
 
-  - Nodi pruned**: I nodi pruned consentono di risparmiare spazio su disco conservando solo una parte della blockchain, eliminando i dati più vecchi non più necessari per la convalida.
+  - **Nodi pruned**: I nodi pruned consentono di risparmiare spazio su disco conservando solo una parte della blockchain, eliminando i dati più vecchi non più necessari per la convalida.
 
 
 ![pruned node](assets/en/038.webp)
@@ -2180,7 +2180,7 @@ I nodi Bitcoin sono la spina dorsale della rete Bitcoin. Si connettono tra loro,
 #### Bitcoin Core
 
 
-Bitcoin core è l'implementazione di full node più diffusa. Svolge la doppia funzione di full node e wallet. Gli aspetti chiave di Bitcoin Core includono:
+Bitcoin Core è l'implementazione di full node più diffusa. Svolge la doppia funzione di full node e wallet. Gli aspetti chiave di Bitcoin Core includono:
 
 
 
@@ -2192,7 +2192,7 @@ Bitcoin core è l'implementazione di full node più diffusa. Svolge la doppia fu
 ![cli-gui](assets/en/039.webp)
 
 
-##### Esplorare il Bitcoin core
+##### Esplorare Bitcoin Core
 
 
 Per fare esperienza pratica con Bitcoin Core, è possibile compilare ed eseguire i test utilizzando Git. Questo processo prevede:
@@ -2236,9 +2236,9 @@ Oltre a Bitcoin Core, esistono diverse implementazioni alternative dei nodi:
 
 
 
-- Bitcoin Knots**: Offre funzioni più avanzate rispetto a Bitcoin Core, ma richiede più spazio e memoria.
-- LibBitcoin**: Un'implementazione flessibile e modulare.
-- btcd**: Scritto in Go, offre diverse filosofie di progettazione.
+- **Bitcoin Knots**: Offre funzioni più avanzate rispetto a Bitcoin Core, ma richiede più spazio e memoria.
+- **LibBitcoin**: Un'implementazione flessibile e modulare.
+- **btcd**: Scritto in Go, offre diverse filosofie di progettazione.
 
 
 L'implementazione di queste alternative comporta dei rischi, in particolare per quanto riguarda le regole di consenso. La deviazione dalle regole di convalida stabilite può portare a biforcazioni o incoerenze. Il progetto Bitcoin Kernel cerca di mitigare questi rischi centralizzando il codice di consenso, garantendo l'uniformità tra le varie implementazioni.
@@ -2339,13 +2339,13 @@ Indipendentemente dal tipo, ogni Bitcoin wallet svolge tre funzioni fondamentali
 #### Logica della Riutilizzabilità del Wallet
 
 
-Dato che tutti i portafogli Bitcoin condividono funzioni simili, riscrivere ripetutamente la logica del wallet è inefficiente. È qui che entra in gioco il kit di sviluppo Bitcoin (BDK).
+Dato che tutti i wallet Bitcoin condividono funzioni simili, riscrivere ripetutamente la logica del wallet è inefficiente. È qui che entra in gioco il kit di sviluppo Bitcoin (BDK).
 
 
 ### Kit di sviluppo Bitcoin (BDK) e concetti tecnici
 
 
-Il Bitcoin Development Kit (BDK) è una libreria progettata per semplificare la creazione e la gestione dei portafogli Bitcoin.
+Il Bitcoin Development Kit (BDK) è una libreria progettata per semplificare la creazione e la gestione dei wallet Bitcoin.
 
 
 #### Panoramica del BDK
@@ -2491,7 +2491,7 @@ L'assegnazione e la stampa del transaction ID (txid) consentono il monitoraggio 
 #### Considerazioni sull'utilità e sulla privacy di BDK
 
 
-Il BDK è prezioso per semplificare lo sviluppo dei wallet Bitcoin. Per una maggiore privacy, si consigliano strumenti come Electrum, Explora e nodi Bitcoin core personali.
+Il BDK è prezioso per semplificare lo sviluppo dei wallet Bitcoin. Per una maggiore privacy, si consigliano strumenti come Electrum, Explora e nodi Bitcoin Core personali.
 
 
 #### Linguaggi di programmazione
@@ -2506,7 +2506,7 @@ Nello sviluppo di progetti Bitcoin, Rust è spesso preferito per la sua sicurezz
 BDK si basa su diverse dipendenze chiave, tra cui Rust-Bitcoin e Rust-Miniscipt. Possono essere impiegate librerie aggiuntive per la gestione dei database e la crittografia.
 
 
-La comprensione di questi componenti, dai nodi e dai portafogli Bitcoin al kit di sviluppo Bitcoin (BDK), consente di navigare nell'ecosistema Bitcoin con maggiore sicurezza e competenza. Questa conoscenza consente di sviluppare applicazioni Bitcoin robuste e sicure, contribuendo alla continua evoluzione di questa tecnologia rivoluzionaria.
+La comprensione di questi componenti, dai nodi portaiafogli Bitcoin, al BDK, consente di navigare nell'ecosistema Bitcoin con maggiore sicurezza e competenza. Questa conoscenza consente di sviluppare applicazioni Bitcoin robuste e sicure, contribuendo alla continua evoluzione di questa tecnologia rivoluzionaria.
 
 
 # Lightning Network
@@ -2543,10 +2543,10 @@ Le chiusure multi-hop (MHL) e il Lightning Network sono concetti avanzati della 
 L'introduzione degli MHL e del Lightning Network rappresenta un cambiamento di paradigma dalle transazioni blockchain tradizionali e lineari a sistemi più sofisticati e a più livelli. Compartimentando le transazioni in argomenti o segmenti specifici, queste innovazioni consentono un'infrastruttura di pagamento più scalabile e sicura che risolve molti dei problemi intrinseci alle prime implementazioni della blockchain.
 
 
-### Problemi con il Bitcoin
+### Problemi con Bitcoin
 
 
-Bitcoin, il pioniere della tecnologia Blockchain, ha introdotto un sistema decentralizzato in cui le transazioni vengono trasmesse all'intero network. Pur essendo rivoluzionario, questo metodo è intrinsecamente inefficiente. Ogni nodo della rete deve convalidare ogni transazione, con conseguenti ritardi e colli di bottiglia, soprattutto in caso di elevati volumi di transazioni.
+Bitcoin, il pioniere della tecnologia blockchain, ha introdotto un sistema decentralizzato in cui le transazioni vengono trasmesse all'intero network. Pur essendo rivoluzionario, questo metodo è intrinsecamente inefficiente. Ogni nodo della rete deve convalidare ogni transazione, con conseguenti ritardi e colli di bottiglia, soprattutto in caso di elevati volumi di transazioni.
 
 
 Il processo di validazione decentralizzato di Bitcoin richiede notevoli risorse computazionali. Ogni transazione deve essere verificata e registrata da più nodi, consumando enormi quantità di energia e potenza di elaborazione. Questo non solo fa lievitare i costi operativi, ma mette anche a dura prova la larghezza di banda della rete, con conseguente aumento delle commissioni sulle transazioni e rallentamento dei tempi di elaborazione.
@@ -2570,7 +2570,7 @@ Il principio fondamentale che sta alla base dei canali di pagamento è il concet
 Nonostante la natura off-chain dei canali di pagamento, rimane la possibilità di far rispettare le transazioni On-Chain . In caso di controversie o di tentativi di truffa da parte di una delle parti, lo stato più recente del canale può essere trasmesso alla blockchain, assicurando che le transazioni concordate siano onorate e che i fondi siano assegnati correttamente.
 
 
-I canali di pagamento rappresentano un significativo balzo in avanti nella tecnologia della blockchain, in quanto forniscono un metodo scalabile e sicuro per condurre transazioni, risolvendo al contempo molti dei problemi fondamentali associati al Bitcoin. Continuando a innovare e a costruire su queste basi, il futuro della blockchain appare sempre più promettente.
+I canali di pagamento rappresentano un significativo balzo in avanti nella tecnologia della blockchain, in quanto forniscono un metodo scalabile e sicuro per condurre transazioni, risolvendo al contempo molti dei problemi fondamentali associati a Bitcoin. Continuando a innovare e a costruire su queste basi, il futuro della blockchain appare sempre più promettente.
 
 
 In conclusione, la comprensione del contesto storico e delle sfide di Bitcoin, nonché delle soluzioni innovative proposte attraverso i canali MHL, Lightning Network e di pagamento, fornisce una visione completa del panorama attuale e del potenziale futuro della tecnologia blockchain.
@@ -2598,7 +2598,7 @@ Per ovviare a queste limitazioni, nel 2012 Manny Rosenfeld ha proposto il concet
 ### Blocco temporale hashed Contract (HTLC) e implementazione
 
 
-I limiti e gli svantaggi degli hops centralizzati hanno richiesto una soluzione più sicura e decentralizzata. Questa esigenza ha portato allo sviluppo dell'Hashed Time Lock Contract (HTLC), proposto nel 2015 da Joseph Poon e Thaddeus Dreijer come parte del Lightning Network. Gli HTLC combinano i principi dei time lock e dei hash lock per garantire l'atomicità e l'affidabilità delle transazioni. Ciò significa che una transazione o si completa o non si verifica affatto, attenuando i rischi associati ai pagamenti incompleti.
+I limiti e gli svantaggi degli hops centralizzati hanno richiesto una soluzione più sicura e decentralizzata. Questa esigenza ha portato allo sviluppo dell'Hashed Time Lock Contract (HTLC), proposto nel 2015 da Joseph Poon e Thaddeus Dreijer come parte del Lightning Network. Gli HTLC combinano i principi dei time lock e degli hash lock per garantire l'atomicità e l'affidabilità delle transazioni. Ciò significa che una transazione o si completa o non si verifica affatto, attenuando i rischi associati ai pagamenti incompleti.
 
 
 Il flusso di lavoro di HTLC prevede un processo in più fasi che garantisce un instradamento sicuro attraverso più intermediari. Supponiamo che Alice voglia pagare Eric attraverso gli intermediari Bob, Carol e Diana. Ogni fase del processo comporta la creazione di transazioni con tempi e importi decrescenti. Se necessario, la fase finale può essere trasmessa alla rete Bitcoin per finalizzare la transazione.
@@ -2675,7 +2675,7 @@ In sintesi, il corretto funzionamento dei nodi garantisce pagamenti atomici e il
 La rete Bitcoin opera come un sistema di scambio di valore trustless, servendo principalmente come layer di regolamento in cui le transazioni sono registrate su un registro pubblico. Questo garantisce sicurezza e immutabilità, ma comporta delle limitazioni, soprattutto in termini di velocità delle transazioni e di commissioni. Di conseguenza, Bitcoin può essere inefficiente per le piccole transazioni quotidiane.
 
 
-Il Lightning Network, che funziona come un secondo layer in aggiunta alla blockchain di Bitcoin. Questa rete di pagamento è progettata per facilitare le transazioni rapide e a basso costo. Aprendo un canale di pagamento tra due parti, queste possono effettuare transazioni off-chain, registrando solo i saldi iniziali e finali sulla blockchain. Questo riduce significativamente il carico sulla rete principale, migliorando la scalabilità e rendendo possibili le microtransazioni.
+Il Lightning Network, che funziona come un secondo layer in aggiunta alla blockchain di Bitcoin. Questo network di pagamento è progettato per facilitare le transazioni rapide e a basso costo. Aprendo un canale di pagamento tra due parti, queste possono effettuare transazioni off-chain, registrando solo i saldi iniziali e finali sulla blockchain. Questo riduce significativamente il carico sulla rete principale, migliorando la scalabilità e rendendo possibili le microtransazioni.
 
 
 Per comprendere meglio il concetto, si consideri l'analogia con il conto di un bar. Quando si apre un conto al bar, si possono ordinare continuamente bevande senza pagare dopo ciascuna di esse. Infine, si salda l'importo totale alla fine della serata. Allo stesso modo, un canale Lightning consente transazioni multiple off-chain, che vengono regolate on-chain solo quando il canale viene chiuso. Un'altra analogia è quella di un aeroporto, dove l'instradamento di un pagamento attraverso più nodi è simile al prendere un volo di collegamento per raggiungere la destinazione. Ogni nodo (o "volo") aiuta a indirizzare il pagamento verso la destinazione, garantendo un percorso efficiente.
@@ -2687,7 +2687,7 @@ Per comprendere meglio il concetto, si consideri l'analogia con il conto di un b
 In sostanza, il Lightning Network integra la rete Bitcoin risolvendo i suoi limiti, trasformandola da un semplice layer di regolamento in un sistema versatile in grado di gestire in modo efficiente le transazioni quotidiane.
 
 
-### **Specifiche Lightning Network**
+### **Specifiche del Lightning Network**
 
 
 Il protocollo Lightning Network è definito meticolosamente attraverso 10 BOLT (Basis of Lightning Technology). Questi BOLT sono stati concordati durante una conferenza a Milano e servono come base per le varie implementazioni del Lightning Network.
@@ -2810,7 +2810,7 @@ Il processo inizia con lo scambio di identità e dettagli del canale tra i peer 
 #### Bootstrap DNS
 
 
-La scoperta dei peer Lightning è facilitata dalle query DNS e Bitcoin DNS seed , che forniscono informazioni su IP e nodi. Questo meccanismo di scoperta iniziale aiuta i nodi a connettersi rapidamente alla rete.
+La scoperta dei peer Lightning è facilitata dalle query DNS e Bitcoin DNS seed , che forniscono informazioni su IP e nodi. Questo meccanismo di scoperta iniziale aiuta i nodi a connettersi rapidamente al network.
 
 
 #### Annunci di funzionalità
@@ -2840,7 +2840,7 @@ Lo scopo del Lightning Network è oggetto di un dibattito continuo. Sebbene sia 
 #### Discussioni della community
 
 
-La community del Lightning Network è vivace, impegnata in continui dibattiti e discussioni su casi d'uso, applicazioni del protocollo e potenziali miglioramenti. Questo ambiente collaborativo favorisce l'innovazione e garantisce che la rete si evolva per soddisfare le esigenze degli utenti.
+La community del Lightning Network è vivace, impegnata in continui dibattiti e discussioni su casi d'uso, applicazioni del protocollo e potenziali miglioramenti. Questo ambiente collaborativo favorisce l'innovazione e garantisce che il network si evolva per soddisfare le esigenze degli utenti.
 
 
 In conclusione, la comprensione dell'importanza del Layer 2, delle Specifiche Lightning Network e dei meccanismi di Network Discovery è fondamentale per chiunque voglia addentrarsi nelle complessità del Lightning Network. Si tratta di un campo complesso ma altamente gratificante che promette di trasformare il futuro delle transazioni digitali.
@@ -3028,7 +3028,7 @@ I guadagni attraverso le tariffe di instradamento sono in genere minimi, il che 
 
 
 
-- **Blink Wallet**: Con sede a El Salvador, custodia, richiede un numero di telefono, caratteristiche stabili del Sats, ma manca delle funzioni avanzate del Lightning Network.
+- **Blink Wallet**: Con sede a El Salvador, custodia, richiede un numero di telefono, offre "stable sats", ma mancano delle funzioni avanzate del Lightning Network.
 - **Blitz Wallet**: Open-source, autocustodia, richiede liquidità gestita dall'utente, offre ampie informazioni per i utenti avanzati.
 - **SwissBitcoinPay**: Progettato per i commercianti, custodia fino a 24 ore, commissioni minime per gli utenti con alti volumi.
 
@@ -3115,7 +3115,7 @@ L'interazione tra **Layer 1 (L1)** (Bitcoin di base) e **Layer 2 (L2)** (il Ligh
 
 
 - **Problema pratico**: Gli utenti spesso si scontrano con la complessità di capire quando stanno interagendo con Bitcoin di base rispetto al Layer Lightning. Ciò può generare confusione per quanto riguarda le tariffe, i tempi delle transazioni e la sicurezza.
-- **Possibili soluzioni**: Migliori progetti Wallet che astraggono le interazioni L1/L2 e gestiscono le aperture/chiusure dei canali in background. Alcuni portafogli consentono già agli utenti di passare senza problemi dalle transazioni On-Chain a quelle Lightning, a seconda delle circostanze.
+- **Possibili soluzioni**: Migliori progetti di wallet che astraggono le interazioni L1/L2 e gestiscono le aperture/chiusure dei canali in background. Alcuni wallet consentono già agli utenti di passare senza problemi dalle transazioni On-Chain a quelle Lightning, a seconda delle circostanze.
 
 
 #### **Dal punto di vista dello sviluppatore:**
@@ -3133,7 +3133,7 @@ Gli sviluppatori hanno il compito di astrarre le complessità di L1 e L2 per gli
 
 
 - **L1 (Layer 1)**: Layer principale della blockchain di Bitcoin.
-- **L2 (Layer 2)**: Il Lightning Network, che opera sopra il Bitcoin per consentire transazioni più veloci ed economiche.
+- **L2 (Layer 2)**: Il Lightning Network, che opera sopra Bitcoin per consentire transazioni più veloci ed economiche.
 - **Splicing**: Tecnica che consente di modificare il bilanciamento di un canale Lightning senza doverlo chiudere.
 
 ---
@@ -3160,7 +3160,7 @@ Gli sviluppatori stanno studiando un modo per consentire agli utenti di ricevere
 
 
 - **Problema pratico**: Lo sviluppo di un protocollo o di un sistema che consenta agli utenti di ricevere pagamenti offline senza compromettere la sicurezza o la decentralizzazione è una sfida tecnica significativa.
-- **Possibili soluzioni**: Sono in corso ricerche sui **voucher di pagamento offline**, che consentirebbero ai beneficiari di richiedere i pagamenti una volta ricollegati alla rete.
+- **Possibili soluzioni**: Sono in corso ricerche sui **voucher di pagamento offline**, che consentirebbero ai beneficiari di richiedere i pagamenti una volta ricollegati al network.
 
 
  **Definizioni**:
@@ -3181,8 +3181,8 @@ Il backup dei canali Lightning è fondamentale per gli utenti per recuperare i f
 
 
 
-- **Problema pratico**: Gli utenti devono assicurarsi che i backup dei loro canali siano aggiornati, poiché l'utilizzo di un backup non aggiornato può comportare la perdita di fondi o una penalizzazione da parte della rete.
-- **Possibili soluzioni**: Portafogli come Phoenix e altri hanno implementato il backup automatico dei canali, ma queste funzioni non sono ancora diffuse in tutti i portafogli Lightning.
+- **Problema pratico**: Gli utenti devono assicurarsi che i backup dei loro canali siano aggiornati, poiché l'utilizzo di un backup non aggiornato può comportare la perdita di fondi o una penalizzazione da parte del network.
+- **Possibili soluzioni**: Walleti come Phoenix e altri hanno implementato il backup automatico dei canali, ma queste funzioni non sono ancora diffuse in tutti i wallet Lightning.
 
 
 #### **Dal punto di vista dello sviluppatore:**
@@ -3278,12 +3278,12 @@ I contratti Point Time Locked Contracts (PTLC) sono un miglioramento rispetto ag
 
 **Channel factories**
 
-Le fabbriche di canali(channel factories) consentono la creazione di canali multi-party (ad esempio, 4 su 4 Multisig), che possono generare nuovi canali di pagamento 2 su 2 off-chain. Questo sistema consente la creazione e la chiusura rapida e gratuita dei canali, anche se richiede la collaborazione di tutti i partecipanti. Le fabbriche di canali aumentano la scalabilità e la flessibilità complessiva del Lightning Network.
+Le fabbriche di canali(channel factories) consentono la creazione di canali multi-party (ad esempio, 4 su 4 Multisig), che possono generare nuovi canali di pagamento 2 su 2 off-chain. Questo sistema consente la creazione e la chiusura rapida e gratuita dei canali, anche se richiede la collaborazione di tutti i partecipanti. Le channel factories aumentano la scalabilità e la flessibilità complessiva del Lightning Network.
 
 
 **Watchtowers**
 
-Le torri di guardia(watchtowers) sono entità di terze parti che monitorano la blockchain per verificare la presenza di vecchi stati del canale. Se viene rilevata una violazione, pubblicano le transazioni di penalizzazione per garantire la sicurezza del network. Se da un lato le torri di controllo aumentano la sicurezza scoraggiando comportamenti scorretti, dall'altro introducono problemi di privacy per quanto riguarda il monitoraggio delle transazioni.
+Le torri di guardia(watchtowers) sono entità di terze parti che monitorano la blockchain per verificare la presenza di vecchi stati del canale. Se viene rilevata una violazione, pubblicano le transazioni di penalizzazione per garantire la sicurezza del network. Se da un lato le watch towers aumentano la sicurezza scoraggiando comportamenti scorretti, dall'altro introducono problemi di privacy per quanto riguarda il monitoraggio delle transazioni.
 
 
 **Blinded Paths**
@@ -3393,7 +3393,7 @@ I progressi dei pagamenti Lightning hanno aperto la strada a nuovi modelli di bu
 Un esempio di modello commerciale facilitato da Lightning è il **modello dell'asta**. In questo caso, un server trattiene l'offerta più alta e rifiuta le offerte inferiori, mantenendo i pagamenti in sospeso fino alla conclusione dell'asta. In questo modo si evita la necessità di rimborsi e si snellisce il processo d'asta.
 
 
-Un altro esempio pratico è quello dei giochi di poker**, dove il server gestisce i pagamenti trattenendo le puntate fino al termine del gioco, garantendo un processo di scommessa senza intoppi.
+Un altro esempio pratico è quello dei **giochi di poker**, dove il server gestisce i pagamenti trattenendo le puntate fino al termine del gioco, garantendo un processo di scommessa senza intoppi.
 
 
 I pagamenti Lightning vengono integrati anche in piattaforme come **Nostr** e servizi di podcasting, a dimostrazione della versatilità di questi protocolli. Inoltre, le **pre-immagini** dei pagamenti possono essere utilizzate come **chiavi di accesso** per sbloccare contenuti o servizi, aggiungendo ulteriore utilità al Lightning Network.

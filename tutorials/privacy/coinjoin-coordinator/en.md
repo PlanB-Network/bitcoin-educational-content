@@ -162,6 +162,31 @@ See this example Config.yaml:
   "OnionServicePrivateKey": your_onion_service_private_key
 }
 ```
+### Tor configuration 🧅
+To fill in your OnionServicePrivateKey you likely need to generate one first.
+This can be generated with setting in ```/etc/tor/torrc``` :
+```
+############### This section is just for location-hidden services ###
+
+## Once you have configured a hidden service, you can look at the
+## contents of the file ".../hidden_service/hostname" for the address
+## to tell people.
+##
+## HiddenServicePort x y:z says to redirect requests on port x to the
+## address y:z.
+
+HiddenServiceDir /var/lib/tor/hidden_service/
+HiddenServicePort 80 127.0.0.1:80
+```
+Then running ```tor``` once, now the OnionServicePrivateKey can be found with:
+```
+sudo cat /var/lib/tor/hidden_service/*secred_key
+```
+With hidden service (.onion link) found here:
+```
+sudo cat /var/lib/tor/hidden_service/hostname
+```
+
 
 ## Running ⚡
 
@@ -184,7 +209,7 @@ rpcuser=your_bitcoin_rpcuser
 rpcpassword=your_bitcoin_rpcpassword
 ```
 
-Or filling in your Tor hidden service private key. Which you in /etc/tor/torrc
+
 
 ### Optional: Running the backend server
 
@@ -195,6 +220,17 @@ Start this service with command:
 ```
 wbackend
 ```
+
+## Inviting Wasabi users to your coordinator 🫂
+
+For other users to find your service you can rely on the nostr announcer, or share a magic link with your domain (clearnet) or hidden service (.onion link) and round parameters like this:
+
+```
+name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.yourdomain&coordinationFeeRate=0&readMore=https://coinjoin.yourdomain/&absoluteMinInputCount=21
+```
+When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
+
+![cover](assets/coordinator_detected.png)
 
 ---
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️

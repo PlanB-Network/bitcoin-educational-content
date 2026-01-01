@@ -230,7 +230,7 @@ name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.your
 ```
 When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
 
-![cover](assets/coordinator_detected.png)
+![detected](assets/coordinator_detected.png)
 
 ---
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️

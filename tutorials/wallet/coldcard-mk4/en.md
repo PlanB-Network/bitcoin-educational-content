@@ -186,13 +186,19 @@ In this tutorial, we will use Sparrow Wallet as the interface. The procedure to 
 
 5. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
 6. Open Sparrow Wallet.
-7. Click `File` > `New Wallet` > Input the name for the wallet > Click `Create Wallet`
+7. Click on `File`
 
 ![22](assets/en/22.webp)
 
+Next, click on `New Wallet`
+
 ![23](assets/en/23.webp)
 
+Then, input the name for the wallet
+
 ![24](assets/en/24.webp)
+
+After that, click on `Create Wallet`
 
 ![25](assets/en/25.webp)
 
@@ -318,9 +324,11 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 Coldcard Mk4's firmware can always be upgraded to a newer version. To check whether your Mk4 has been upgraded to the latest version or not, perform the following steps:
 1. Turn on your Mk4 by connecting it to a power source.
 2. Input your PIN.
-3. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `Show Version`. Check the version displayed on Mk4's screen against the one on [Coinkite's website](https://coldcard.com/downloads). If the version is different, you are able to upgrade the firmware into the newer version.
+3. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `Show Version`. 
 
 ![49](assets/en/49.webp)
+
+Check the version displayed on Mk4's screen against the one on [Coinkite's website](https://coldcard.com/downloads). If the version is different, you are able to upgrade the firmware into the newer version.
 
 ![50](assets/en/50.webp)
 
@@ -329,9 +337,11 @@ Coldcard Mk4's firmware can always be upgraded to a newer version. To check whet
 If you want to upgrade the firmware to the latest version, do the following steps:
 
 1. Insert the MicroSD card into your laptop/PC.
-2. Go to [Coinkite's website](https://coldcard.com/downloads) and download the latest firmware to your MicroSD card (The red button right of the Mk4 image with the version number on it). You can also download other versions by clicking on `All Files on Mk4` and exploring the version you want to download. The downloaded file will be in `.dfu` format.
+2. Go to [Coinkite's website](https://coldcard.com/downloads) and download the latest firmware to your MicroSD card (The red button right of the Mk4 image with the version number on it).
 
 ![51](assets/en/51.webp)
+
+You can also download other versions by clicking on `All Files on Mk4` and exploring the version you want to download. The downloaded file will be in `.dfu` format.
 
 ![52](assets/en/52.webp)
 

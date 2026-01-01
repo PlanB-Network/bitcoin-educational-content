@@ -3,7 +3,7 @@ name: Coinjoin Coordinator
 description: How to setup and run a coinjoin coordinator following the WabiSabi protocol (used in Wasabi Wallet 2.0)
 ---
 
-![cover](assets/cover.webp)
+![cover](assets/en/01.webp)
 
 ---
 
@@ -180,7 +180,7 @@ HiddenServicePort 80 127.0.0.1:80
 ```
 Then running ```tor``` once, now the OnionServicePrivateKey can be found with:
 ```
-sudo cat /var/lib/tor/hidden_service/*secred_key
+sudo cat /var/lib/tor/hidden_service/*secret_key
 ```
 With hidden service (.onion link) found here:
 ```
@@ -230,7 +230,7 @@ name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.your
 ```
 When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
 
-![detected](assets/coordinator_detected.png)
+![detected](assets/en/02.png)
 
 ---
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️

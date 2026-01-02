@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - 스톤월
+name: Sparrow Wallet - Stonewall
 description: Sparrow에서 스톤월 트랜잭션의 이해와 사용
 ---
 

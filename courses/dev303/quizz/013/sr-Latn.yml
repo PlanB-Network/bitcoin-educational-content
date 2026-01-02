@@ -1,0 +1,8 @@
+question: Šta se dešava kada promenljiva izađe iz opsega u Rust sistemu vlasništva?
+answer: Vrednost se automatski odbacuje i njena memorija se oslobađa
+wrong_answers:
+  - Vrednost je premještena u globalni opseg radi ponovne upotrebe.
+  - Vrednost postaje nepromenljiva i ostaje u memoriji
+  - Vrednost se kopira na rezervnu lokaciju radi sigurnosti.
+explanation: |
+  U vlasničkom sistemu Rust, kada promenljiva izađe iz opsega (obično kada izvršenje napusti blok definisan vitičastim zagradama), vrednost se automatski odbacuje i njena memorija se oslobađa. Ovo automatsko čišćenje se implementira kroz Rust mehanizam odbacivanja, gde jezik implicitno poziva funkciju odbacivanja na promenljivama koje izlaze iz opsega. Ovo osigurava pravilno upravljanje resursima bez potrebe za eksplicitnim kodom za čišćenje od strane programera, prateći RAII obrazac preuzet iz C++.

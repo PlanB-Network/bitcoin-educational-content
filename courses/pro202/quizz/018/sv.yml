@@ -1,0 +1,8 @@
+question: Vad är den typiska storleksökningen i DER-kodningsformatet för ECDSA-signaturer från de råa signaturdata till den slutliga kodade signaturen?
+answer: Från 64 byte till cirka 71-72 byte på grund av DER-formateringens overhead
+wrong_answers:
+  - Från 32 bytes till cirka 64 bytes på grund av kodning av R- och S-komponenter
+  - Från 64 byte till exakt 128 byte på grund av dubbelkodning av signaturkomponenter
+  - Från 71 byte till cirka 64 byte på grund av komprimering av sekvensmarkörerna
+explanation: |
+  DER-kodning lägger till strukturell overhead till ECDSA-signaturer genom sekvensmarkörer (0x30), längdbyte och komponentprefix (0x02). Den råa ECDSA-signaturen består av två 32-byte-värden (R och S) på totalt 64 byte, men DER-formatering expanderar detta till cirka 71-72 byte. Denna ineffektivitet var en anledning till att Bitcoin senare antog Schnorr-signaturer i Taproot, som använder fasta 64-byte-signaturer utan kodningsoverhead.

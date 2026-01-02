@@ -1,0 +1,9 @@
+question: ชื่อแรกของวิศวกรโทรคมนาคมจาก Temple City ที่นักข่าวของ Newsweek ระบุผิดว่าเป็น Satoshi Nakamoto ในเดือนมีนาคม 2014 คืออะไร?
+answer: ดอเรียน
+wrong_answers:
+  - เพรนทิส
+  - Satoshi
+  - Patoshi
+explanation: |
+  ชื่อเต็มของเขาคือ Dorian Prentice Satoshi Nakamoto เขามีเชื้อสายญี่ปุ่น ดู [บทความของ Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html)
+reviewed: true

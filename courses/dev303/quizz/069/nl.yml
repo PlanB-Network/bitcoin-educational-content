@@ -1,0 +1,8 @@
+question: Wat is de primaire rol van asserties in Bitcoin applicatieontwikkeling volgens Rust best practices?
+answer: Om bugs op te vangen tijdens het testen, om programma's vroegtijdig te laten mislukken als er problemen optreden en om te dienen als uitvoerbare documentatie van aannames van programmeurs
+wrong_answers:
+  - Om runtime resource fouten zoals bestandstoegangsfouten en netwerkconnectiviteitsproblemen op een sierlijke manier af te handelen
+  - Bibliotheekfouten op laag niveau vertalen naar toepassingsfouten op hoog niveau die gebruikers kunnen begrijpen en waarop ze kunnen reageren
+  - Ongeldige invoerfouten voorkomen door functieparameters te beperken zodat ze alleen waarden binnen een geldig bereik accepteren
+explanation: |
+  Asserties dienen drie kritieke functies in robuuste Bitcoin softwareontwikkeling: ze vangen bugs tijdens de testfase, zorgen ervoor dat programma's vroegtijdig falen wanneer fundamentele aannames geschonden worden (wat debuggen makkelijker maakt), en fungeren als uitvoerbare documentatie die de verwachtingen van de programmeur over de programmatoestand beschrijft. De andere opties beschrijven verschillende foutafhandelingsstrategieën - gracieuze afhandeling van fouten in externe bronnen, foutvertaling tussen abstractielagen en invoervalidatie - die belangrijk zijn, maar verschillen van de specifieke rol van asserties in het verifiëren van interne programma-aannames.

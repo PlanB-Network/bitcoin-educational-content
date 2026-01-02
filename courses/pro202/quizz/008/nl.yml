@@ -1,0 +1,8 @@
+question: Wat is de wiskundige basis die het discrete logaritmeprobleem computationeel onuitvoerbaar maakt in cryptografie met elliptische krommen?
+answer: De onvoorspelbare verdeling van punten bij het genereren van een cyclische groep door herhaalde puntentelling
+wrong_answers:
+  - De symmetrie-eigenschap van elliptische krommen die punten over de x-as weerspiegelt
+  - De modulaire rekenkundige bewerkingen uitgevoerd in eindige velden in plaats van reële getallen
+  - Het grote priemgetal gebruikt als veldkenmerk in de krommevergelijking
+explanation: |
+  De moeilijkheid van het discrete logaritmeprobleem komt voort uit de onvoorspelbare, niet-lineaire verdeling van punten bij het genereren van een cyclische groep (G, 2G, 3G, ..., nG). Hoewel de punten opeenvolgend worden gegenereerd, lijken ze verspreid en willekeurig, waardoor het rekenkundig niet haalbaar is om de scalair s te bepalen vanuit het punt P = sG. Hoewel symmetrie, modulair rekenen en grote priemgetallen belangrijke eigenschappen zijn van elliptische krommen, creëren ze niet direct de eenrichtingsfunctie die veilige cryptografie met openbare sleutels mogelijk maakt.

@@ -107,10 +107,11 @@ proofreading:
     contributor_names:
     reward: 144.75
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 120.64
+      - MilankovicProtocol
+    reward: 60.32
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -147,7 +148,13 @@ proofreading:
     contributor_names:
     reward: 144.75
   - language: bg
+    last_contribution_date: 2025-12-29
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 48.27
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 96.53
+    reward: 120.64

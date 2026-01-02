@@ -1,0 +1,9 @@
+question: เทคโนโลยีที่ใช้ในการใช้จ่ายเงินอย่างปลอดภัยด้วย Bitcoin Wallet คืออะไร?
+answer: การเข้ารหัสลับแบบเส้นโค้งวงรี
+wrong_answers:
+  - การเข้ารหัสแบบสมมาตร
+  - การเข้ารหัสควอนตัม
+  - การเข้ารหัส RSA
+explanation: |
+  การใช้จ่าย Bitcoins ต้องการให้เจ้าของใช้ Elliptic Curve Digital Signature Algorithm (ECDSA) เพื่อสร้างลายเซ็นสำหรับการแพร่กระจายของธุรกรรม Bitcoin
+reviewed: true

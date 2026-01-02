@@ -1,0 +1,9 @@
+question: Según la crítica fundamental de Satoshi Nakamoto, ¿cuál es el problema central de las monedas fiduciarias convencionales que Bitcoin pretendía resolver?
+answer: La excesiva confianza requerida en instituciones centralizadas que históricamente han violado repetidamente esa confianza envileciendo las monedas
+wrong_answers:
+  - La falta de infraestructura digital y la lentitud del procesamiento de las transacciones en comparación con los sistemas de pago modernos
+  - Imposibilidad de realizar transacciones internacionales sin intermediarios caros ni comisiones por cambio de divisas
+  - La vulnerabilidad a la falsificación y el robo físico debido a la dependencia del papel moneda y el almacenamiento físico
+explanation: |
+  Satoshi Nakamoto declaró explícitamente que "el problema de fondo de la moneda convencional es toda la confianza que se requiere para que funcione" y que "la historia de las monedas fiduciarias está llena de violaciones de esa confianza"
+  Esta base filosófica impulsó el diseño de Bitcoin como un sistema sin confianza que no requiere la fe en los bancos centrales o gobiernos para mantener la estabilidad monetaria, abordando directamente el patrón histórico de la degradación de la moneda a través de la impresión excesiva de dinero.

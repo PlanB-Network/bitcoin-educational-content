@@ -1,0 +1,8 @@
+question: 개발자가 외부 종속성이나 블록 확인을 기다리지 않고 Elements에서 자산 발행을 테스트하려는 경우, 어떤 구성을 사용해야 할까요?
+answer: 즉각적인 블록 생성을 통해 로컬 테스트 환경을 만들려면 chain=elementsregtest를 설정하세요
+wrong_answers:
+  - 즉시 테스트할 수 있도록 chain=liquidv1을 설정하여 기본 Liquid 네트워크에 연결합니다
+  - 격리된 개발을 위해 --testmode 플래그와 함께 issueasset RPC 명령을 사용합니다
+  - "Bitcoin의 테스트 환경에서 Elements 기능에 액세스하려면 체인=비트코인-레그테스트 구성"
+explanation: |
+  Elementsregtest 구성은 개발자가 생성블록과 같은 명령을 사용하여 즉시 generate 블록을 생성할 수 있는 로컬 회귀 테스트 환경을 생성하여 네트워크 확인을 기다리거나 외부 노드에 의존하지 않고도 자산 발행 및 기타 기능을 테스트할 수 있도록 합니다. Chain=liquidv1을 설정하면 1분 블록 시간과 외부 종속성이 있는 프로덕션 Liquid 네트워크에 연결됩니다. issueasset 명령에는 --testmode 플래그가 없으며, bitcoin-regtest는 Elements 기능이 아닌 Bitcoin 코어용입니다.

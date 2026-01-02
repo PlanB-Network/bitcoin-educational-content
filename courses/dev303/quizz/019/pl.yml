@@ -1,0 +1,8 @@
+question: Jaką konwencję nazewnictwa wymusza Rust odpowiednio dla nazw struktur i nazw pól?
+answer: CamelCase dla nazw struktur i snake_case dla nazw pól
+wrong_answers:
+  - snake_case dla nazw struktur i CamelCase dla nazw pól
+  - kebab-case dla nazw struktur i camelCase dla nazw pól
+  - UPPER_CASE dla nazw struktur i małymi literami dla nazw pól
+explanation: |
+  Rust przestrzega określonych konwencji nazewnictwa, które kompilator wymusza poprzez ostrzeżenia. Nazwy struktur powinny używać CamelCase (znanego również jako PascalCase), gdzie każde słowo zaczyna się wielką literą, jak "MyStruct". Nazwy pól w strukturach powinny używać snake_case z podkreśleniami oddzielającymi słowa, takie jak "my_field". Konwencja ta utrzymuje spójność między bazami kodu Rust i poprawia czytelność dla programistów.

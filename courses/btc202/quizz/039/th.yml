@@ -1,0 +1,9 @@
+question: ความจุ SSD ขั้นต่ำที่แนะนำในปี 2025 สำหรับโหนด Bitcoin คือเท่าใด?
+answer: 2 TB
+wrong_answers:
+  - 512 GB
+  - 10 TB
+  - 256 GB
+explanation: |
+  ด้วย Blockchain ที่เกิน 700 GB และแอปพลิเคชันเพิ่มเติม 2 TB ได้กลายเป็นขั้นต่ำที่สมเหตุสมผล
+reviewed: true

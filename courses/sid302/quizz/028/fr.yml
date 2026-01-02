@@ -1,0 +1,8 @@
+question: Quelle est la vulnérabilité opérationnelle critique qui émerge du modèle d'autorisation de cosignature du PGA pour les transferts d'actifs réglementés ?
+answer: La liquidité des actifs s'interrompt complètement si le serveur AMP devient indisponible, car chaque transfert nécessite la cosignature du serveur
+wrong_answers:
+  - Les frais de transaction augmentent de façon exponentielle lorsque plusieurs cosignataires tentent d'autoriser des virements simultanément
+  - Confidentiel La confidentialité des transactions est rompue car la cosignature expose des facteurs aveuglants aux observateurs du réseau
+  - Les détenteurs d'actifs perdent le contrôle de la garde car le mécanisme de cosignature transfère les clés privées au serveur AMP
+explanation: |
+  Le modèle d'autorisation d'AMP exige que le serveur AMP cosigne chaque transfert d'actifs, ce qui crée un point de défaillance unique. Si le serveur est hors ligne, aucune transaction ne peut être effectuée, ce qui a pour effet de geler la liquidité des actifs. Les autres options sont incorrectes : les frais n'augmentent pas de manière exponentielle avec la cosignature, la confidentialité des transactions reste intacte (seul l'émetteur est visible) et les utilisateurs conservent leurs clés privées alors que le serveur ne fournit que des signatures d'autorisation.

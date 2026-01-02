@@ -1,5 +1,5 @@
 ---
-name: Inkivääri Wallet
+name: Ginger Wallet
 description: Avoimen lähdekoodin, omavalvonnan Bitcoin wallet-ohjelmisto, fork Wasabi Wallet:sta, Coinjoins-ohjelmiston integrointi
 ---
 ![cover](assets/cover.webp)
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Voit asentaa Ginger Wallet:n verkkosivustolla [Ginger Wallet] (https://gingerwallet.io).
+Voit asentaa Ginger Wallet:n verkkosivustolla [Ginger Wallet](https://gingerwallet.io).
 
 
 

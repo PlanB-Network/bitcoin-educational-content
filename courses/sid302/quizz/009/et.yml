@@ -1,0 +1,8 @@
+question: Mis on Pederseni kohustuste peamine eesmärk Elements' Confidential Transactions-s?
+answer: Asendada nähtavad tehingusummad krüptograafiliste kohustustega, mida saab kinnitada tegelikke väärtusi paljastamata
+wrong_answers:
+  - generate-le unikaalsed 64-kohalised heksadetsimaalsed identifikaatorid äsja väljastatud varade jaoks Elements plokiahelas
+  - double-spending vältimiseks tuleb luua matemaatilised tõendid selle kohta, et varjatud väärtused on positiivsed täisarvud kehtivate vahemike piires
+  - Võimaldamaks Bitcoin ülekandmist põhiahelast Elements kõrvalahelatesse krüptograafiliste kinnitusmehhanismide abil
+explanation: |
+  Pederseni kohustused on peamine krüptograafiline mehhanism, mis võimaldab Confidential Transactions-s privaatsust, asendades nähtavad summad matemaatiliste kohustustega. Tänu homomorfsetele omadustele saavad valideerijad kontrollida, et sisendid on võrdsed väljunditega pluss tasud, ilma et nad näeksid tegelikke väärtusi. Range Proofs takistab negatiivseid summasid, varade ID-d identifitseerivad märgid ja pegging-mehhanismid tegelevad ahelaüleste ülekannetega, kuid ükski neist ei ole Pedersen Commitments'i konkreetne funktsioon.

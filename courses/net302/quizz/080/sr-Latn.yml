@@ -3,7 +3,7 @@ answer: Wireshark
 wrong_answers:
   - Ifconfig
   - Traceroute
-  - Ruta
+  - Route
 explanation: |
   Wireshark je grafički analizator paketa za detaljno ispitivanje uhvaćenog mrežnog saobraćaja.
-reviewed: false
+reviewed: true

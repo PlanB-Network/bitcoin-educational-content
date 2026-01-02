@@ -1,0 +1,30 @@
+id: f0016480-25eb-4e05-9103-0fafaa6c222b
+name: Coin Wallet
+category: wallet
+
+links:
+  website: https://coin.space/
+  twitter: https://x.com/CoinAppWallet
+  Github: https://github.com/CoinSpace/
+
+
+tags:
+  - software
+  - user-friendly
+  - onchain
+
+contributor_names:
+  - Dolorozo
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - Dolorozo
+    reward: 0
+
+

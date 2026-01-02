@@ -840,7 +840,7 @@ Ponieważ Bitcoin funkcjonuje jako nośnik Exchange, można wyobrazić sobie gos
 Wiąże się to z otrzymywaniem nagród za obsługę maszyn Mining. Dla niewyspecjalizowanych firm pozostaje to stosunkowo marginalne. Można w nim uczestniczyć za pośrednictwem pośredników, którzy sprzedają lub wynajmują komputery, sieć i obsługę techniczną. Jeśli jesteś właścicielem maszyn, możesz je zaksięgować jako aktywa podlegające amortyzacji. Na dużą skalę należy dokładnie obliczyć zwrot z inwestycji, ponieważ rynek jest wysoce konkurencyjny i wymaga dobrego przewidywania kosztów, zwłaszcza energii elektrycznej.
 
 
-Aby dowiedzieć się więcej o metodach Mining, możesz [zapoznać się z sekcją "Mining" w naszych samouczkach] (https://planb.academy/tutorials/mining).
+Aby dowiedzieć się więcej o metodach Mining, możesz [zapoznać się z sekcją "Mining" w naszych samouczkach](https://planb.academy/tutorials/mining).
 
 
 

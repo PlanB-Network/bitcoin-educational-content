@@ -1,0 +1,8 @@
+question: Hvilken navnekonvensjon håndhever Rust for henholdsvis strukturnavn og feltnavn?
+answer: CamelCase for strukturnavn og snake_case for feltnavn
+wrong_answers:
+  - snake_case for strukturnavn og CamelCase for feltnavn
+  - kebab-case for strukturnavn og camelCase for feltnavn
+  - STORE BOKSTAVER for strukturnavn og små bokstaver for feltnavn
+explanation: |
+  Rust følger bestemte navnekonvensjoner som kompilatoren håndhever gjennom advarsler. Strukturnavn skal bruke CamelCase (også kjent som PascalCase), der hvert ord starter med stor forbokstav, for eksempel "MyStruct". Feltnavn i strukturer skal bruke snake_case med understrek mellom ordene, for eksempel "my_field". Denne konvensjonen opprettholder konsistens på tvers av Rust-kodebaser og forbedrer lesbarheten for utviklere.

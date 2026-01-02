@@ -1,0 +1,8 @@
+question: Ni uwezo gani muhimu unaoruhusu LDK kudumisha utendakazi wa Umeme kwenye pochi za simu zenye muunganisho wa vipindi ikilinganishwa na nodi za Umeme za kawaida zenye msingi wa daemon?
+answer: Uwezo wa LDK kusawazisha na Watoa Huduma za Umeme (LSPs) wanapoingia mtandaoni huku wakidumisha udhibiti wa funguo za kibinafsi usio wa ulinzi.
+wrong_answers:
+  - "Mfumo wa usindikaji wa malipo nje ya mtandao wa LDK uliojengewa ndani ambao huweka miamala kwenye foleni hadi muunganisho wa mtandao utakaporejeshwa"
+  - "Mfumo wa chelezo wa hali ya chaneli iliyosambazwa wa LDK ambao huiga data kiotomatiki katika watoa huduma wengi wa wingu"
+  - "Itifaki ya mtandao wa matundu ya rika-kwa-rika ya LDK ambayo inaruhusu malipo ya moja kwa moja ya umeme kutoka kifaa hadi kifaa bila intaneti"
+explanation: |
+  Usanifu wa moduli wa LDK huwezesha programu za simu kutekeleza mifumo ya muunganisho wa vipindi kwa kusawazisha na LSP zinapoingia mtandaoni, hivyo kuruhusu watumiaji kupokea malipo na kudhibiti njia hata wakati kifaa cha simu kilikuwa nje ya mtandao. Hii kimsingi inatofautiana na daemons za kawaida za Umeme zinazohitaji operesheni endelevu. Majibu yasiyo sahihi yanaelezea vipengele visivyopo - LDK haina usindikaji wa malipo nje ya mtandao uliojengewa ndani, chelezo zilizosambazwa, au uwezo wa mitandao ya matundu.

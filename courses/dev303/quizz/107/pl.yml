@@ -1,0 +1,8 @@
+question: Jakie krytyczne możliwości pozwalają LDK utrzymać funkcjonalność Lightning w portfelach mobilnych z przerywaną łącznością w porównaniu do tradycyjnych węzłów Lightning opartych na daemon?
+answer: Zdolność LDK do synchronizacji z dostawcami usług Lightning Service Providers (LSP) podczas wchodzenia w tryb online, przy jednoczesnym zachowaniu kontroli klucza prywatnego bez powiernictwa
+wrong_answers:
+  - "Wbudowany w LDK system przetwarzania płatności offline, który kolejkuje transakcje do czasu przywrócenia łączności z siecią"
+  - "Rozproszony system tworzenia kopii zapasowych stanu kanału LDK, który automatycznie replikuje dane między wieloma dostawcami usług w chmurze"
+  - "Protokół sieciowy peer-to-peer LDK, który umożliwia bezpośrednie płatności Lightning między urządzeniami bez dostępu do Internetu"
+explanation: |
+  Modułowa architektura LDK umożliwia aplikacjom mobilnym wdrażanie przerywanych wzorców łączności poprzez synchronizację z LSP po przejściu do trybu online, umożliwiając użytkownikom otrzymywanie płatności i zarządzanie kanałami, nawet gdy urządzenie mobilne było offline. Różni się to zasadniczo od tradycyjnych demonów Lightning, które wymagają ciągłej pracy. Błędne odpowiedzi opisują nieistniejące funkcje - LDK nie ma wbudowanego przetwarzania płatności offline, rozproszonych kopii zapasowych ani możliwości sieci mesh.

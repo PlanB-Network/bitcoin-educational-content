@@ -221,7 +221,7 @@ Antminer S9 се състои от следните части:
 
 
 - 2X 3D адаптер 140mm към 120mm
-- 2X NF-A14 iPPC-2000 PWM [връзка] (https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- 2X NF-A14 iPPC-2000 PWM [връзка](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
 - 2X решетки за 140 мм вентилатори [връзка](https://www.amazon.fr/dp/B06XD4FTSQ)
 - Noctua NF-A6x25 PWM [линк](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 - Електрическа захар 2,5 мм2 [линк](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
@@ -475,7 +475,7 @@ Antminer S9 се състои от следните части:
 ### Braiins OS+
 
 
-Сега ще разгледаме софтуера за ASIC Braiins OS+ (https://braiins.com/os/plus). Софтуерът е разработен от компанията [Braiins](https://braiins.com/), която е компанията-майка на басейна mining Braiins Pool (https://braiins.com/pool). Към момента на писане на тези редове този пул mining притежава 4,39 % от световния hashrate. Базираната в Прага компания преди това беше известна като Slushpool и е първият пул mining, който стартира през ноември 2010 г. [Тук] (https://mempool.space/mining/pool/braiinspool) ще намерите актуализирани статистики за hashrate и доминирането на пула.
+Сега ще разгледаме софтуера за ASIC Braiins OS+ (https://braiins.com/os/plus). Софтуерът е разработен от компанията [Braiins](https://braiins.com/), която е компанията-майка на басейна mining Braiins Pool (https://braiins.com/pool). Към момента на писане на тези редове този пул mining притежава 4,39 % от световния hashrate. Базираната в Прага компания преди това беше известна като Slushpool и е първият пул mining, който стартира през ноември 2010 г. [Тук](https://mempool.space/mining/pool/braiinspool) ще намерите актуализирани статистики за hashrate и доминирането на пула.
 
 
 Днес компанията, с различните си дейности, предлага инструменти за изследване на рентабилността на mining (https://insights.braiins.com/en), решения за управление на стопанства mining успоредно с дейността си в областта на пуловете, както и софтуер за оптимизация на ASIC. Тя предлага също така mining, използващ новия протокол Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade).

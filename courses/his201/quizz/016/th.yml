@@ -1,0 +1,9 @@
+question: แนวคิดเงินอิเล็กทรอนิกส์ใดที่ถูกกล่าวถึงโดยตรงโดย Satoshi Nakamoto ในเอกสารสีขาว Bitcoin?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - บิทโกลด์ (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  นี่คือการอ้างอิงครั้งแรก Satoshi เพิ่มเข้ามาในเดือนสิงหาคม 2008 หลังจากการแลกเปลี่ยนกับ Wei Dai
+reviewed: true

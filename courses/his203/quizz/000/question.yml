@@ -1,0 +1,16 @@
+id: afb24ba1-4a8a-46fa-800b-9e158c41e809
+chapterId: 23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4
+difficulty: hard
+duration: 15
+author: 81e18c30-579e-46c1-a197-98cd32cb37ae
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-17
+    urgency: 1
+    contributor_names:
+      - lugaxker
+    reward: 0.11

@@ -1,5 +1,5 @@
 ---
-name: BIP-39 lösenfras SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: Hur lägger jag till en passphrase i min SeedSigner-portfölj?
 ---
 

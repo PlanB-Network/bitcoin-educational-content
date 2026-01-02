@@ -1,10 +1,9 @@
-question: Come viene garantita la sicurezza dei pagamenti Lightning Network?
-answer: Attraverso la crittografia e indirettamente attraverso l'energia consumata dai miner Bitcoin.
+question: Qual è il principio centrale di RGB?
+answer: La validazione lato client
 wrong_answers:
-  - Solo attraverso l'uso di chiavi private.
-  - Solo attraverso l'uso di chiavi pubbliche.
-  - Solo attraverso l'uso sia di chiavi private che pubbliche.
-explanation: >-
-  I pagamenti Lightning Network sono garantiti attraverso la crittografia
-  e indirettamente attraverso l'energia consumata dai miner Bitcoin.
-reviewed: vero
+  - L’esecuzione globale sulla blockchain
+  - Il consenso federato
+  - Proof-of-Work
+explanation: |
+  RGB si basa su una validazione locale degli stati, con la blockchain che funge solo da ancoraggio crittografico e da protezione contro la doppia spesa.
+reviewed: false

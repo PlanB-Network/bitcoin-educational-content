@@ -1,0 +1,8 @@
+question: Apa yang mencegah pengguna menciptakan uang begitu saja dalam sistem Elements 'Confidential Transactions?
+answer: Range Proofs yang secara matematis membuktikan bahwa nilai tersembunyi adalah bilangan bulat positif dalam rentang yang valid
+wrong_answers:
+  - Komitmen Pedersen yang secara kriptografis mengikat jumlah transaksi ke kunci publik
+  - Validasi Asset Registry yang memeriksa semua jumlah transaksi terhadap batas aset yang terdaftar
+  - Simpul konsensus federasi yang mendekripsi dan memverifikasi semua jumlah transaksi rahasia
+explanation: |
+  Range Proofs adalah mekanisme kriptografi khusus yang mencegah pengguna mengeksploitasi sistem transaksi rahasia dengan menggunakan angka negatif atau jumlah yang tidak valid untuk menciptakan uang dari ketiadaan. Sementara Pedersen Commitment menyembunyikan jumlah yang sebenarnya, Range Proofs memastikan integritas matematis dengan membuktikan bahwa nilai yang disembunyikan berada dalam rentang yang sah. Asset Registry hanya memetakan ID aset ke nama yang dapat dibaca manusia dan tidak memvalidasi jumlah, dan federated node tidak mendekripsi transaksi rahasia - mereka memverifikasinya tanpa melihat nilai sebenarnya.

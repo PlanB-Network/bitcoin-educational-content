@@ -1,0 +1,8 @@
+question: Jaki problem matematyczny stanowi podstawę bezpieczeństwa podpisów ECDSA w Bitcoin?
+answer: Problem logarytmu dyskretnego dla krzywych eliptycznych
+wrong_answers:
+  - Problem faktoryzacji liczb całkowitych
+  - Problem reszt kwadratowych
+  - Problem kolizji skrótów
+explanation: |
+  Bezpieczeństwo ECDSA opiera się na problemie logarytmu dyskretnego krzywej eliptycznej: biorąc pod uwagę P = eG, obliczenie P z e i G jest łatwe, ale wyprowadzenie klucza prywatnego e z klucza publicznego P jest obliczeniowo niewykonalne. Ta jednokierunkowa zależność matematyczna umożliwia bezpieczną kryptografię klucza publicznego przy mniejszych rozmiarach klucza niż RSA, który zależy od faktoryzacji liczb całkowitych.

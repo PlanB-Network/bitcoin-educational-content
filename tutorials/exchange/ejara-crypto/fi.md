@@ -644,7 +644,7 @@ Koska tavoitteena on digitalisoida säästöt ja helpottaa digitaalisiin varoihi
 
 
 
-Voit lähettää kyselyn suoraan sovelluksessa tai ottaa yhteyttä erittäin ahkeraan [asiakastukeen] (https://t.me/EjaraCSbot) Telegramin kautta.
+Voit lähettää kyselyn suoraan sovelluksessa tai ottaa yhteyttä erittäin ahkeraan [asiakastukeen](https://t.me/EjaraCSbot) Telegramin kautta.
 
 
 

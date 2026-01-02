@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo uwutanga serivisi arishe invoice ya Lightning kugira ngo arangize guhindura Liquid-ku-Lightning akoresheje HTLCs?
+answer: Uwutanga iyo nkuru aronka ishusho y’imbere y’igihe ivuye mu kwishura kwa Lightning, iyo bashobora gukoresha kugira ngo bafungure no gusaba L-BTC ivuye kuri HTLC.
+wrong_answers:
+  - Uwutanga ategerezwa kurindira ko igihe co gufunga kirangira imbere y’uko bashobora gushika ku L-BTC ipfungiwe mu masezerano ya HTLC .
+  - "Umukiriya aca ahita aronka ishusho y'imbere maze akayikoresha kugira ngo arekure L-BTC ataco akoresheje Liquid wallet y'umutanga"
+  - Amasezerano ya HTLC ahita akora kandi akarungika L-BTC ku wutanga ata kindi kimenyamenya c’ubuhinga bwo gukingira amakuru .
+explanation: |
+  HTLCs zikora atomic swaps biciye mu gufatanya kw’ibanga hakoreshejwe hash lock imwe ku nzira zompi. Iyo uwutanga amakuru ashoboye kwishura neza invoice ya Lightning, baronka ishusho y’imbere (ibanga) ihuye n’ifunguro rya hash. Iryo shusho ry’imbere ni urufunguzo rw’ibanga rubafasha gufungura L-BTC yari yarafunzwe mbere muri HTLC. Ibindi bihitamwo ntibibereye kuko ntivyerekana kamere y’atome ya HTLCs - igihe co gufunga ni uburyo bwo gusubira inyuma gusa, abaguzi ntibakorana n’ugukwiragiza amashusho y’imbere, kandi HTLCs zisaba ikimenyamenya c’ubuhinga bw’ibanga aho gukora ubwaco.

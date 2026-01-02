@@ -177,7 +177,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempoolen är den virtuella plats där Bitcoin-transaktioner som väntar på att inkluderas i ett block grupperas tillsammans. Bitfeed tillåter konsultation av [mempool] (https://planb.academy/resources/glossary/mempool) hos flera Bitcoin-miners, vilket erbjuder ett brett utbud av transaktionsspårning.
+Mempoolen är den virtuella plats där Bitcoin-transaktioner som väntar på att inkluderas i ett block grupperas tillsammans. Bitfeed tillåter konsultation av [mempool](https://planb.academy/resources/glossary/mempool) hos flera Bitcoin-miners, vilket erbjuder ett brett utbud av transaktionsspårning.
 
 
 

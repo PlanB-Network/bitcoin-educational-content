@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-bir hata görünmesi durumunda, büyük olasılıkla yukarıda belirtilen 4 RPC alanını yanlış ayarlamışızdır. Bu durumda, orijinal JoinMarket belgelerinde bulunan [bu kılavuzu] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) takip etmek yardımcı olabilir.
+bir hata görünmesi durumunda, büyük olasılıkla yukarıda belirtilen 4 RPC alanını yanlış ayarlamışızdır. Bu durumda, orijinal JoinMarket belgelerinde bulunan [bu kılavuzu](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) takip etmek yardımcı olabilir.
 
 
 

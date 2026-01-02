@@ -1,0 +1,8 @@
+question: In een Taproot-enabled HTLC, welke informatie wordt onthuld aan het Bitcoin netwerk wanneer de swap mislukt en één partij zijn geld moet terugvorderen via het contradictoire pad?
+answer: Alleen de specifieke Merkle tree tak die de hash/tijd slot voorwaarden bevat die nodig zijn voor fondsherstel
+wrong_answers:
+  - "De volledige scriptlogica inclusief alle mogelijke uitvoeringspaden en de individuele openbare sleutels van beide partijen"
+  - Het afbeeldingsgeheim en alle geaggregeerde openbare sleutels gebruikt in het MuSig2-sleutelcombinatieproces
+  - De volledige HTLC contractvoorwaarden, inclusief swapbedragen, termijnen en zowel Lightning- als Liquid-adressen
+explanation: |
+  Taproot organiseert de voorwaarden van HTLC in een Merkle-boomstructuur, waardoor selectieve openbaarmaking mogelijk wordt. Als de samenwerking mislukt, wordt alleen de specifieke tak onthuld die nodig is om het recht op terugvordering te bewijzen, terwijl andere contractdetails verborgen blijven. Dit in tegenstelling tot legacy HTLC's die volledige scripts onthulden, en verschilt van coöperatieve gevallen waarbij helemaal geen scriptdetails worden onthuld.

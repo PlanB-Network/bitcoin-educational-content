@@ -1,0 +1,8 @@
+question: Welke macro-patroon syntaxis zou correct overeenkomen met nul of meer expressies gescheiden door komma's in een aangepaste functie-achtige macro?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  De correcte syntaxis $($x:expr),* gebruikt Rust's herhalingspatroon waarbij het dollarteken een herhalingsgroep introduceert, $x:expr overeenkomt met elke expressie met de expr fragment specifier, de komma fungeert als scheidingsteken tussen expressies en het sterretje (*) geeft nul of meer herhalingen aan. De foute antwoorden bevatten syntaxisfouten: $($x:expr)*, plaatst de komma buiten de herhalingsgroep, $[x:expr],* gebruikt vierkante haakjes in plaats van haakjes en laat het dollarteken voor x weg, en ${$x:expr},* gebruikt accolades in plaats van haakjes voor de herhalingsgroep.

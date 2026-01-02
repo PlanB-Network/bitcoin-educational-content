@@ -79,7 +79,7 @@ Der nächste Schritt ist die Überprüfung Ihres Geräts. Damit wird die Echthei
 
 ![Image](assets/fr/08.webp)
 
-Gehen Sie auf [die offizielle Verifizierungsseite] (https://validate.foundationdevices.com/) und wählen Sie "*Passport*".
+Gehen Sie auf [die offizielle Verifizierungsseite](https://validate.foundationdevices.com/) und wählen Sie "*Passport*".
 
 ![Image](assets/fr/09.webp)
 
@@ -135,7 +135,7 @@ Ihr Passport ist nun bereit, die neue Firmware über eine MicroSD-Karte zu empfa
 
 ![Image](assets/fr/20.webp)
 
-Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (oder eine andere), und legen Sie sie in Ihren Computer ein. Laden Sie die neueste Firmware-Version von [der Dokumentations-Website der Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) oder [ihrem GitHub-Repository] (https://github.com/Foundation-Devices/passport2/releases) herunter.
+Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (oder eine andere), und legen Sie sie in Ihren Computer ein. Laden Sie die neueste Firmware-Version von [der Dokumentations-Website der Foundation](https://docs.foundation.xyz/firmware-updates/passport/) oder [ihrem GitHub-Repository](https://github.com/Foundation-Devices/passport2/releases) herunter.
 
 ![Image](assets/fr/21.webp)
 
@@ -324,7 +324,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 In diesem Tutorial zeige ich Ihnen eine fortgeschrittene Verwendung von Passport mit Sparrow Wallet. Diese Hardware-Geldbörse ist jedoch auch mit Envoy (der Foundation-Anwendung), Keeper, BlueWallet, Nunchuk, Specter und vielen anderen kompatibel...
 
-Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website] (https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
+Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website](https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
 
 ![Image](assets/fr/54.webp)
 

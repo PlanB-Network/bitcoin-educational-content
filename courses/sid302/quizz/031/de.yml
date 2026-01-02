@@ -1,0 +1,8 @@
+question: Welches spezifische kryptografische Element ermöglicht es dem Swap-Anbieter bei einem Lightning-Send-Swap, die gesperrten Liquid-Gelder nach Bezahlung der Lightning-Rechnung einzufordern?
+answer: Das Zahlungsvorabbild der Blitzzahlung dient als kryptografischer Schlüssel zum Entsperren der hinterlegten Liquid-Gelder
+wrong_answers:
+  - Die Hash-Zeitschloss-Vertragssignatur, die während der anfänglichen Liquid-Sperrungstransaktion erzeugt wird, ermöglicht den Zugang
+  - Die Metadaten der WebSocket-Verbindung enthalten den Freigabeschlüssel, der die Freigabe des Fonds an den Anbieter autorisiert
+  - "Der private Schlüssel des Swap-Anbieters schaltet das Geld automatisch frei, sobald die Lightning-Zahlungsbestätigung eingegangen ist"
+explanation: |
+  Das Zahlungs-Preimage ist die kryptografische Quittung, die beweist, dass eine Lightning-Zahlung erfolgreich abgeschlossen wurde. Bei U-Boot-Swaps fungiert dieses Vorabbild als Entsperrschlüssel für die hinterlegten Liquid-Gelder und gewährleistet so die Atomarität - der Swap-Anbieter kann die Liquid-Gelder nur beanspruchen, wenn er die Lightning-Rechnung tatsächlich bezahlt hat. Die anderen Optionen beschreiben entweder generische kryptografische Elemente, die nicht den erforderlichen spezifischen Zahlungsnachweis erbringen, oder falsche Mechanismen, die den vertrauenslosen Charakter des atomaren Swaps beeinträchtigen würden.

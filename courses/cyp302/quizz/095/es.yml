@@ -6,4 +6,4 @@ wrong_answers:
   - Verificando la dirección IP del remitente
 explanation: |
   Alice usa la clave secreta compartida para generar una etiqueta a partir del mensaje recibido. Si esta etiqueta coincide con la enviada por Bob, ella sabe que el mensaje es auténtico e intacto.
-reviewed: false
+reviewed: true

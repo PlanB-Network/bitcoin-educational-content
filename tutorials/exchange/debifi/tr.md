@@ -287,7 +287,7 @@ Bu adımları tamamladıktan sonra, mevcut kredi tekliflerini görmek için **Te
 
 
 
-Cihazınız bağlandıktan sonra [Debifi web sitesine] (https://debifi.com/) gidin. Debifi mobil uygulaması ile web platformu arasında güvenli bir bağlantı kurmak için oturum açın. Bu, mevcut kredi teklifleriyle etkileşim kurmanızı (her teklifin ayrıntılarının net bir görünümü) ve hesabınızı yönetmenizi kolaylaştırır.
+Cihazınız bağlandıktan sonra [Debifi web sitesine](https://debifi.com/) gidin. Debifi mobil uygulaması ile web platformu arasında güvenli bir bağlantı kurmak için oturum açın. Bu, mevcut kredi teklifleriyle etkileşim kurmanızı (her teklifin ayrıntılarının net bir görünümü) ve hesabınızı yönetmenizi kolaylaştırır.
 
 
 

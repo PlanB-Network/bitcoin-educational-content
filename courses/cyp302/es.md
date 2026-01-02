@@ -31,7 +31,7 @@ Este contenido educativo está adaptado del libro y repo [JWBurgers](https://git
 
 Es difícil encontrar muchos materiales que ofrezcan un buen término medio en la enseñanza de la criptografía.
 
-Por un lado, hay tratados largos y formales, sólo accesibles para quienes tengan una sólida formación en matemáticas, lógica u otra disciplina formal. Por otro lado, hay introducciones de muy alto nivel que ocultan demasiados detalles para cualquiera que tenga al menos un poco de curiosidad.
+Por un lado, hay tratados largos y formales, solo accesibles para quienes tengan una sólida formación en matemáticas, lógica u otra disciplina formal. Por otro lado, hay introducciones de muy alto nivel que ocultan demasiados detalles para cualquiera que tenga al menos un poco de curiosidad.
 
 Esta introducción a la criptografía pretende situarse en un término medio. Aunque debería ser relativamente desafiante y detallada para cualquier persona nueva en criptografía, no es la madriguera de conejo de un típico tratado fundacional.
 
@@ -49,11 +49,11 @@ Si realmente tiene dificultades con los detalles formales de estas partes del li
 
 **Agradecimientos**
 
-El libro que más ha influido en la configuración de esta ha sido _Introduction to Modern Cryptography_, de Jonathan Katz y Yehuda Lindell, CRC Press (Boca Ratón, FL), 2015. Hay un curso complementario disponible en Coursera llamado "Cryptography"
+El libro que más ha influido en la configuración de esta ha sido _Introduction to Modern Cryptography_, de Jonathan Katz y Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Hay un curso complementario disponible en Coursera llamado "Cryptography"
 
 Las principales fuentes adicionales que han sido útiles para crear la visión general de este libro son Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999); Christof Paar y Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) y [un curso basado en el libro de Paar llamado "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); y Bruce Schneier, Applied Cryptography, 2ª edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
-Sólo citaré información y resultados muy concretos que extraigo de estas fuentes, pero quiero reconocer aquí mi deuda general con ellas.
+Solo citaré información y resultados muy concretos que extraigo de estas fuentes, pero quiero reconocer aquí mi deuda general con ellas.
 
 Para aquellos lectores que deseen buscar conocimientos más avanzados sobre criptografía después de esta introducción, recomiendo encarecidamente el libro de Katz y Lindell. El curso de Katz en Coursera es algo más accesible que el libro.
 
@@ -100,7 +100,7 @@ La historia de las claves Beale tiene, en mi opinión, más visos de ficción qu
 
 Tanto en el invierno de 1820 como en el de 1822, un hombre llamado Thomas J. Beale se alojó en una posada propiedad de Robert Morriss en Lynchburg (Virginia). Al final de su segunda estancia, Beale entregó a Morriss una caja de hierro con documentos valiosos para su custodia.
 
-Unos meses más tarde, Morriss recibió una carta de Beale fechada el 9 de mayo de 1822. En ella se destacaba el gran valor del contenido de la caja de hierro y se daban algunas instrucciones a Morriss: si ni Beale ni ninguno de sus socios venían nunca a reclamar la caja, debería abrirla precisamente diez años después de la fecha de la carta (es decir, el 9 de mayo de 1832). Algunos de los papeles del interior estarían escritos en texto normal. Otros, sin embargo, serían "ininteligibles sin la ayuda de una llave" Esta "llave" sería, pues, entregada a Morriss por un amigo anónimo de Beale en junio de 1832.
+Unos meses más tarde, Morriss recibió una carta de Beale fechada el 9 de mayo de 1822. En ella se destacaba el gran valor del contenido de la caja de hierro y se daban algunas instrucciones a Morriss: si ni Beale ni ninguno de sus socios venían nunca a reclamar la caja, debería abrirla precisamente diez años después de la fecha de la carta (es decir, el 9 de mayo de 1832). Algunos de los papeles del interior estarían escritos en texto normal. Otros, sin embargo, serían "ininteligibles sin la ayuda de una llave". Esta "llave" sería, pues, entregada a Morriss por un amigo anónimo de Beale en junio de 1832.
 
 A pesar de las claras instrucciones, Morriss no abrió la caja en mayo de 1832 y el misterioso amigo de Beale nunca apareció en junio de ese año. No fue hasta 1845 cuando el posadero se decidió por fin a abrir la caja. En ella, Morriss encontró una nota en la que se explicaba cómo Beale y sus socios habían descubierto oro y plata en el Oeste y los habían enterrado, junto con algunas joyas, para ponerlos a buen recaudo. Además, la caja contenía tres **textos cifrados**, es decir, textos escritos en código que requieren una **clave criptográfica**, o un secreto, y un algoritmo para descifrarlos. Este proceso de desbloqueo de un texto cifrado se conoce como **descifrado**, mientras que el proceso de bloqueo se conoce como **cifrado**. (Como se explica en el capítulo 3, el término cifrado puede tener varios significados. En el nombre "cifrados Beale", es la abreviatura de ciphertexts)
 
@@ -108,13 +108,13 @@ Los tres textos cifrados que Morriss encontró en la caja de hierro consisten ca
 
 Morris intentó descifrar los tres textos cifrados durante veinte años. Esto habría sido fácil con la clave. Pero Morriss no tenía la clave y fracasó en sus intentos de recuperar los textos originales, o **textos planos**, como se les suele llamar en criptografía.
 
-Al final de su vida, Morriss cedió la caja a un amigo en 1862. Este amigo publicó posteriormente un panfleto en 1885, bajo el seudónimo de J.B. Ward. Incluía una descripción de la (supuesta) historia de la caja, los tres textos cifrados y una solución que había encontrado para el segundo texto cifrado. (Aparentemente, hay una clave para cada texto cifrado, y no una clave que funcione con los tres textos cifrados, como Beale parece haber sugerido originalmente en su carta a Morriss)
+Al final de su vida, Morriss cedió la caja a un amigo en 1862. Este amigo publicó posteriormente un panfleto en 1885, bajo el seudónimo de J.B. Ward. Incluía una descripción de la (supuesta) historia de la caja, los tres textos cifrados y una solución que había encontrado para el segundo texto cifrado. (Aparentemente, hay una clave para cada texto cifrado, y no una clave que funcione con los tres textos cifrados, como Beale parece haber sugerido originalmente en su carta a Morriss).
 
 Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. La clave de este texto cifrado es la Declaración de Independencia de los Estados Unidos. El procedimiento de descifrado se reduce a la aplicación de las dos reglas siguientes:
 
 
-- Para cualquier número n en el texto cifrado, localice la enésima palabra en la Declaración de Independencia de los Estados Unidos
-- Sustituye el número n por la primera letra de la palabra encontrada
+- Para cualquier número n en el texto cifrado, localice la enésima palabra en la Declaración de Independencia de los Estados Unidos.
+- Sustituye el número n por la primera letra de la palabra encontrada.
 
 *Figura 1: Cifrado Beale no. 2*
 
@@ -136,15 +136,15 @@ Una vez descifrado, el segundo mensaje proporciona el contenido detallado del te
 
 Historias pintorescas como la de los cifradores Beale son las que la mayoría de nosotros asociamos con la criptografía. Sin embargo, la criptografía moderna difiere al menos en cuatro aspectos importantes de este tipo de ejemplos históricos.
 
-En primer lugar, históricamente la criptografía sólo se ha ocupado del **secreto** (o confidencialidad). Los textos cifrados se creaban para garantizar que sólo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un sistema de cifrado cumpla bien este propósito, sólo se puede descifrar el texto cifrado si se tiene la clave.
+En primer lugar, históricamente la criptografía solo se ha ocupado del **secreto** (o confidencialidad). [3] Los textos cifrados se creaban para garantizar que solo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un esquema de cifrado cumpla bien este propósito, descifrar el texto cifrado solo debería ser factible si se tiene la clave.
 
 La criptografía moderna se ocupa de una gama de temas más amplia que el secreto. Estos temas incluyen principalmente (1) **la integridad del mensaje**, es decir, garantizar que un mensaje no ha sido modificado; (2) **la autenticidad del mensaje**, es decir, garantizar que un mensaje procede realmente de un remitente concreto; y (3) **el no repudio**, es decir, garantizar que un remitente no puede negar falsamente más tarde que ha enviado un mensaje. [4]
 
-Por tanto, es importante distinguir entre un **esquema de cifrado** y un **esquema criptográfico**. Un esquema de cifrado sólo se ocupa del secreto. Mientras que un esquema de cifrado es un esquema criptográfico, lo contrario no es cierto. Un esquema criptográfico también puede servir para los otros temas principales de la criptografía, como la integridad, la autenticidad y el no repudio.
+Por tanto, es importante distinguir entre un **esquema de cifrado** y un **esquema criptográfico**. Un esquema de cifrado solo se ocupa del secreto. Mientras que un esquema de cifrado es un esquema criptográfico, lo contrario no es cierto. Un esquema criptográfico también puede servir para los otros temas principales de la criptografía, como la integridad, la autenticidad y el no repudio.
 
 Los temas de la integridad y la autenticidad son tan importantes como el secreto. Nuestros modernos sistemas de comunicación no podrían funcionar sin garantías de integridad y autenticidad de las comunicaciones. El no repudio también es una preocupación importante, como en el caso de los contratos digitales, pero es menos necesario en las aplicaciones criptográficas que el secreto, la integridad y la autenticidad.
 
-En segundo lugar, los esquemas de cifrado clásicos, como los cifrados Beale, siempre implican una clave que se comparte entre todas las partes implicadas. Sin embargo, muchos esquemas criptográficos modernos implican no sólo una, sino dos claves: una **privada** y una **pública**. Mientras que la primera debe permanecer privada en cualquier aplicación, la segunda suele ser de dominio público (de ahí sus respectivos nombres). En el ámbito del cifrado, la clave pública puede utilizarse para cifrar el mensaje, mientras que la privada puede utilizarse para descifrarlo.
+En segundo lugar, los esquemas de cifrado clásicos, como los cifrados Beale, siempre implican una clave que se comparte entre todas las partes implicadas. Sin embargo, muchos esquemas criptográficos modernos implican no solo una, sino dos claves: una **privada** y una **pública**. Mientras que la primera debe permanecer privada en cualquier aplicación, la segunda suele ser de dominio público (de ahí sus respectivos nombres). En el ámbito del cifrado, la clave pública puede utilizarse para cifrar el mensaje, mientras que la privada puede utilizarse para descifrarlo.
 
 La rama de la criptografía que se ocupa de los esquemas en los que todas las partes comparten una clave se conoce como **criptografía simétrica**. La clave única en un esquema de este tipo suele denominarse **clave privada** (o clave secreta). La rama de la criptografía que se ocupa de los esquemas que requieren un par de claves privada-pública se conoce como **criptografía asimétrica**. A veces también se hace referencia a estas ramas como **criptografía de clave privada** y **criptografía de clave pública**, respectivamente (aunque esto puede crear confusión, ya que los esquemas criptográficos de clave pública también tienen claves privadas).
 
@@ -162,7 +162,7 @@ En concreto, la criptografía moderna se centra en **pruebas formales de segurid
 
 3.	La exposición de una **prueba matemática de seguridad** del esquema sobre la base de la noción formal de seguridad y de cualquier supuesto matemático.
 
-En cuarto lugar, mientras que históricamente la criptografía se utilizaba sobre todo en entornos militares, en la era digital ha llegado a impregnar nuestras actividades cotidianas. La criptografía es la condición sine qua non de nuestra era digital, ya sea para realizar operaciones bancarias en línea, publicar en las redes sociales, comprar un producto en Amazon con tarjeta de crédito o dar una propina en bitcoin a un amigo.
+En cuarto lugar, mientras que históricamente la criptografía se utilizaba sobre todo en entornos militares, ha llegado a impregnar nuestras actividades cotidianas en la era digital. Ya sea que usted esté realizando operaciones bancarias en línea, publicando en las redes sociales, comprando un producto en Amazon con su tarjeta de crédito o dando una propina en bitcoin a un amigo, la criptografía es la condición sine qua non de nuestra era digital.
 
 Teniendo en cuenta estos cuatro aspectos de la criptografía moderna, podríamos caracterizar la **criptografía** moderna como la ciencia que se ocupa del desarrollo formal y el análisis de esquemas criptográficos para asegurar la información digital contra ataques adversarios[6]. La seguridad debe entenderse en sentido amplio como la prevención de ataques que dañan el secreto, la integridad, la autenticación y/o el no repudio en las comunicaciones.
 
@@ -188,7 +188,7 @@ Para ser exactos, las aplicaciones importantes de los esquemas criptográficos h
 
 La criptografía moderna está diseñada para ofrecer garantías de seguridad en un entorno de **comunicaciones abiertas**. Si nuestro canal de comunicación está tan bien protegido que los fisgones no tienen ninguna posibilidad de manipular o simplemente observar nuestros mensajes, entonces la criptografía es superflua. Sin embargo, la mayoría de nuestros canales de comunicación no están tan bien protegidos.
 
-La columna vertebral de las comunicaciones en el mundo moderno es una enorme red de cables de fibra óptica. Hacer llamadas telefónicas, ver la televisión y navegar por Internet en un hogar moderno depende generalmente de esta red de cables de fibra óptica (un pequeño porcentaje puede depender exclusivamente de los satélites). Es cierto que puedes tener diferentes conexiones de datos en tu casa, como cable coaxial, línea de abonado digital (asimétrica) y cable de fibra óptica. Pero, al menos en el mundo desarrollado, estos diferentes medios de datos se unen rápidamente fuera de tu casa a un nodo de una red masiva de cables de fibra óptica que conecta todo el globo. Las excepciones son algunas zonas remotas del mundo desarrollado, como Estados Unidos y Australia, donde el tráfico de datos todavía puede recorrer distancias considerables a través de los tradicionales cables telefónicos de cobre.
+La columna vertebral de las comunicaciones en el mundo moderno es una enorme red de cables de fibra óptica. Hacer llamadas telefónicas, ver la televisión y navegar por Internet en un hogar moderno depende generalmente de esta red de cables de fibra óptica (un pequeño porcentaje puede depender exclusivamente de los satélites). Es cierto que usted puede tener diferentes conexiones de datos en su casa, como cable coaxial, línea de abonado digital (asimétrica) y cable de fibra óptica. Pero, al menos en el mundo desarrollado, estos diferentes medios de datos se unen rápidamente fuera de su casa a un nodo en una red masiva de cables de fibra óptica que conecta todo el globo. Las excepciones son algunas zonas remotas del mundo desarrollado, como en los Estados Unidos y Australia, donde el tráfico de datos todavía puede recorrer distancias considerables a través de los tradicionales cables telefónicos de cobre.
 
 Sería imposible impedir que los posibles atacantes accedieran físicamente a esta red de cables y a su infraestructura de apoyo. De hecho, ya sabemos que la mayoría de nuestros datos son interceptados por diversas agencias nacionales de inteligencia en intersecciones cruciales de Internet[7], lo que incluye desde los mensajes de Facebook hasta las direcciones de los sitios web que visitas.
 
@@ -202,7 +202,7 @@ De ahí que la idea de mantener en secreto las comunicaciones protegiendo el can
 
 [7] Véase, por ejemplo, Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16 de julio de 2013 (disponible en [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
-# Fundamentos matemáticos de la criptografía 1
+# Fundamentos Matemáticos de la Criptografía 1
 
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
@@ -247,7 +247,7 @@ Alternativamente, también se puede pensar en el muestreo $X$, como lanzar un da
 
 Realmente, cualquier experimento natural que permita definir las probabilidades de los posibles valores de $X$ anteriores se puede imaginar con respecto al dibujo.
 
-Con frecuencia, sin embargo, las variables aleatorias no se introducen simplemente de forma abstracta. Por el contrario, el conjunto de posibles valores de resultado tiene un significado explícito en el mundo real (en lugar de ser sólo números). Además, estos valores de resultado pueden definirse con respecto a algún tipo específico de experimento (en lugar de como cualquier experimento natural con esos valores).
+Con frecuencia, sin embargo, las variables aleatorias no se introducen simplemente de forma abstracta. Por el contrario, el conjunto de posibles valores de resultado tiene un significado explícito en el mundo real (en lugar de ser solo números). Además, estos valores de resultado pueden definirse con respecto a algún tipo específico de experimento (en lugar de como cualquier experimento natural con esos valores).
 
 Consideremos ahora un ejemplo de variable $X$ que no está definida de forma abstracta. X se define de la siguiente manera para determinar cuál de los dos equipos empieza un partido de fútbol:
 
@@ -273,7 +273,7 @@ Las variables aleatorias pueden tener distribuciones de probabilidad discretas o
 
 **En cambio, las variables aleatorias continuas** pueden tomar valores en uno o más intervalos. Se podría decir, por ejemplo, que una variable aleatoria, en el muestreo, tomará cualquier valor real entre 0 y 1, y que cada número real en este intervalo es igualmente probable. Dentro de este intervalo, hay infinitos valores posibles.
 
-Para las discusiones criptográficas, sólo necesitarás entender las variables aleatorias discretas. Cualquier discusión sobre variables aleatorias de aquí en adelante debe, por lo tanto, entenderse como referida a variables aleatorias discretas, a menos que se especifique lo contrario.
+Para las discusiones criptográficas, solo necesitarás entender las variables aleatorias discretas. Cualquier discusión sobre variables aleatorias de aquí en adelante debe, por lo tanto, entenderse como referida a variables aleatorias discretas, a menos que se especifique lo contrario.
 
 ### Graficación de variables aleatorias
 
@@ -287,7 +287,7 @@ Las barras anchas de la *Figura 1* obviamente no pretenden sugerir que la variab
 
 ### Variables uniformes
 
-En la expresión "variable aleatoria", el término "aleatorio" sólo significa "probabilístico". En otras palabras, sólo significa que dos o más resultados posibles de la variable ocurren con ciertas probabilidades. Sin embargo, estos resultados no tienen por qué ser igual de probables (aunque el término "aleatorio" puede tener ese significado en otros contextos).
+En la expresión "variable aleatoria", el término "aleatorio" solo significa "probabilístico". En otras palabras, solo significa que dos o más resultados posibles de la variable ocurren con ciertas probabilidades. Sin embargo, estos resultados no tienen por qué ser igual de probables (aunque el término "aleatorio" puede tener ese significado en otros contextos).
 
 Una **variable uniforme** es un caso especial de variable aleatoria. Puede tomar dos o más valores, todos con la misma probabilidad. La variable aleatoria $X$ representada en la *Figura 1* es claramente una variable uniforme, ya que ambos resultados posibles se producen con una probabilidad de $0,5$. Sin embargo, hay muchas variables aleatorias que no son casos de variables uniformes.
 
@@ -355,7 +355,7 @@ Supongamos que Bob pretende seleccionar uniformemente un día del último año n
 
 Siempre que pensemos que el proceso de Bob será realmente uniforme, deberíamos concluir que existe 1/4 de probabilidad de que Bob seleccione un día en Verano. Esta es la **probabilidad incondicional** de que el día elegido al azar esté en Verano.
 
-Supongamos ahora que, en lugar de extraer uniformemente un día del calendario, Bob sólo selecciona uniformemente entre aquellos días en los que la temperatura al mediodía en Crystal Lake (Nueva Jersey) fue de 21 grados Celsius o superior. Dada esta información adicional, ¿qué podemos concluir sobre la probabilidad de que Bob seleccione un día de verano?
+Supongamos ahora que, en lugar de extraer uniformemente un día del calendario, Bob solo selecciona uniformemente entre aquellos días en los que la temperatura al mediodía en Crystal Lake (Nueva Jersey) fue de 21 grados Celsius o superior. Dada esta información adicional, ¿qué podemos concluir sobre la probabilidad de que Bob seleccione un día de verano?
 
 En realidad, deberíamos sacar una conclusión diferente a la anterior, incluso sin disponer de más información específica (por ejemplo, la temperatura al mediodía de cada día del último año natural).
 
@@ -374,7 +374,7 @@ $$
 Así, cuando dos eventos, $A$ y $B$, son independientes, entonces:
 
 $$
-Pr[A|B] = Pr[A] \text{ and } Pr[B|A] = Pr[B]
+Pr[A|B] = Pr[A] \text{ y } Pr[B|A] = Pr[B]
 $$
 
 La condición de independencia puede simplificarse del siguiente modo:
@@ -401,13 +401,13 @@ Seamos un poco más explícitos sobre lo que significa esta afirmación.
 
 Supongamos que los conjuntos de resultados para $X$ y $Y$ se definen como sigue: **X** = $\{x_1, x_2, \ldots, x_i, \ldots, x_n\}$ y **Y** = $\{y_1, y_2, \ldots, y_i, \ldots, y_m\}$. (Es típico indicar conjuntos de valores mediante letras mayúsculas en negrita)
 
-Supongamos ahora que se muestrea $Y$ y se observa $y_1$. La afirmación anterior nos dice que la probabilidad de obtener ahora $x_1$ a partir del muestreo $X$ es exactamente la misma que si nunca hubiéramos observado $y_1$. Esto es cierto para cualquier $y_i$ que pudiéramos haber obtenido de nuestro muestreo inicial de $Y$. Por último, esto es cierto no sólo para $x_1$. Para cualquier $x_i$, la probabilidad de que ocurra no está influida por el resultado de un muestreo de $Y$. Todo esto también se aplica al caso en el que $X$ se muestrea primero.
+Supongamos ahora que se muestrea $Y$ y se observa $y_1$. La afirmación anterior nos dice que la probabilidad de obtener ahora $x_1$ a partir del muestreo $X$ es exactamente la misma que si nunca hubiéramos observado $y_1$. Esto es cierto para cualquier $y_i$ que pudiéramos haber obtenido de nuestro muestreo inicial de $Y$. Por último, esto es cierto no solo para $x_1$. Para cualquier $x_i$, la probabilidad de que ocurra no está influida por el resultado de un muestreo de $Y$. Todo esto también se aplica al caso en el que $X$ se muestrea primero.
 
 Terminemos nuestra discusión con un punto un poco más filosófico. En cualquier situación del mundo real, la probabilidad de un acontecimiento siempre se evalúa en función de un conjunto concreto de información. No existe una "probabilidad incondicional" en el sentido estricto de la palabra.
 
 Por ejemplo, supongamos que le pregunto por la probabilidad de que los cerdos vuelen en 2030. Aunque no le doy más información, es evidente que usted sabe muchas cosas sobre el mundo que pueden influir en su juicio. Nunca ha visto volar cerdos. Sabe que la mayoría de la gente no espera que vuelen. Sabe que no están hechos para volar. Y así sucesivamente.
 
-Por lo tanto, cuando hablamos de "probabilidad incondicional" de un acontecimiento en un contexto real, ese término sólo puede tener sentido si lo entendemos como "la probabilidad sin ninguna información explícita adicional". Por tanto, cualquier concepto de "probabilidad condicional" debe entenderse siempre en relación con algún dato concreto.
+Por lo tanto, cuando hablamos de "probabilidad incondicional" de un acontecimiento en un contexto real, ese término solo puede tener sentido si lo entendemos como "la probabilidad sin ninguna información explícita adicional". Por tanto, cualquier concepto de "probabilidad condicional" debe entenderse siempre en relación con algún dato concreto.
 
 Yo podría, por ejemplo, preguntarle la probabilidad de que los cerdos vuelen en 2030, después de darle pruebas de que algunas cabras de Nueva Zelanda han aprendido a volar tras unos años de entrenamiento. En este caso, probablemente ajustará su juicio sobre la probabilidad de que los cerdos vuelen en 2030. Así pues, la probabilidad de que los cerdos vuelen en 2030 está condicionada a esta prueba sobre las cabras de Nueva Zelanda.
 
@@ -444,7 +444,7 @@ Por ejemplo, supongamos que el dividendo es $-20$ y el divisor 3. El valor más 
 - $-19 \mod 16 = 13$
 - $-14 \mod 6 = 4$
 
-En cuanto a la notación, normalmente verás los siguientes tipos de expresiones: $x = [y \mod z]$. Debido a los paréntesis, la operación módulo en este caso sólo se aplica al lado derecho de la expresión. Si $y$ es igual a 25 y $z$ es igual a 4, por ejemplo, entonces $x$ se evalúa como 1.
+En cuanto a la notación, normalmente verás los siguientes tipos de expresiones: $x = [y \mod z]$. Debido a los paréntesis, la operación módulo en este caso solo se aplica al lado derecho de la expresión. Si $y$ es igual a 25 y $z$ es igual a 4, por ejemplo, entonces $x$ se evalúa como 1.
 
 Sin paréntesis, la operación módulo actúa sobre *ambos lados* de una expresión. Supongamos, por ejemplo, la siguiente expresión: $x = y \mod z$. Si $y$ es igual a 25 y $z$ es igual a 4, entonces todo lo que sabemos es que $x \mod 4$ se evalúa a 1. Esto es consistente con cualquier valor de $x$ del conjunto $\{\ldots, -7, -3, 1, 5, 9, \ldots\}.$
 
@@ -454,7 +454,7 @@ La rama de las matemáticas que incluye operaciones modulares con números y exp
 
 La operación módulo es frecuente en criptografía. Para ilustrarlo, consideremos uno de los esquemas de cifrado históricos más famosos: el cifrado por turnos.
 
-Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números $\{0, 1, 2, \ldots, 25\}$. Supongamos un espacio de mensajes **M**. El **cifrado por desplazamiento** es, entonces, un esquema de cifrado definido como sigue:
+Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números $\{0, 1, 2, \ldots, 25\}$. Supongamos un espacio de mensajes **M**. El **cifrado por turnos** es, entonces, un esquema de cifrado definido como sigue:
 
 
 - Seleccionar uniformemente una clave $k$ del espacio de claves **K**, donde **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
@@ -472,16 +472,16 @@ Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letra
 
 El operador módulo del cifrado por turnos garantiza que las letras se envuelvan, de modo que todas las letras del texto cifrado queden definidas. Para ilustrarlo, consideremos la aplicación del cifrado por turnos a la palabra "DOG".
 
-Supongamos que ha seleccionado uniformemente una tecla para que tenga el valor 17. La letra "O" equivale a 15. Sin la operación de módulo, la suma de este número de texto plano con la clave daría como resultado un número de texto cifrado de 32. Sin embargo, ese número de texto cifrado no puede convertirse en una letra de texto cifrado, ya que el alfabeto inglés sólo tiene 26 letras. La operación de módulo garantiza que el número del texto cifrado sea en realidad 6 (el resultado de $32 \mod 26$), lo que equivale a la letra "G" del texto cifrado.
+Supongamos que seleccionó uniformemente una clave con valor $17$. La letra “O” equivale a $14$. Sin la operación módulo, la suma de este número del texto plano con la clave daría un número de texto cifrado de $31$. Sin embargo, ese número no puede convertirse en una letra cifrada, ya que el alfabeto inglés solo tiene $26$ letras. La operación módulo garantiza que el número de texto cifrado sea en realidad $5$ (el resultado de $31 \mod 26$), lo cual equivale a la letra cifrada “F”.
 
 El cifrado completo de la palabra "DOG" con un valor de clave de 17 es el siguiente:
 
 
-- Mensaje = DOG = D,O,G = 3,15,6
+**Mensaje = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Todo el mundo puede entender intuitivamente cómo funciona el cifrado por turnos y probablemente utilizarlo por sí mismo. Sin embargo, para avanzar en el conocimiento de la criptografía, es importante empezar a sentirse más cómodo con la formalización, ya que los esquemas se volverán mucho más difíciles. De ahí que se hayan formalizado los pasos del cifrado por turnos.
 
@@ -511,7 +511,7 @@ Una operación matemática clave que hay que entender para la criptografía mode
 
 
 - $0 \oplus 0 = 0$
-- 0$ \oplus 1 = 1$
+- $0 \oplus 1 = 1$
 - $1 \oplus 0 = 1$
 - $1 \oplus 1 = 0$
 
@@ -555,13 +555,13 @@ Definiendo una variable uniforme $S$ sobre todas las cadenas binarias de longitu
 
 También podemos hablar de cadenas aleatorias sin referirnos específicamente a cadenas binarias. Por ejemplo, podríamos hablar de una cadena hexadecimal aleatoria $AF\ 02\ 82$. En este caso, la cadena se habría seleccionado al azar del conjunto de todas las cadenas hexadecimales de longitud 6. Esto equivale a seleccionar al azar una cadena binaria de longitud 24, ya que cada dígito hexadecimal representa 4 bits.
 
-Normalmente, la expresión "una cadena aleatoria", sin calificarla, se refiere a una cadena seleccionada al azar del conjunto de todas las cadenas con la misma longitud. Así es como lo he descrito anteriormente. Por supuesto, una cadena de longitud $n$ también puede seleccionarse al azar de un conjunto diferente. Uno, por ejemplo, que sólo constituya un subconjunto de todas las cadenas de longitud $n$, o quizás un conjunto que incluya cadenas de longitud variable. En esos casos, sin embargo, no nos referiríamos a ella como una "cadena aleatoria", sino como "una cadena seleccionada aleatoriamente de un conjunto **S**".
+Normalmente, la expresión "una cadena aleatoria", sin calificarla, se refiere a una cadena seleccionada al azar del conjunto de todas las cadenas con la misma longitud. Así es como lo he descrito anteriormente. Por supuesto, una cadena de longitud $n$ también puede seleccionarse al azar de un conjunto diferente. Uno, por ejemplo, que solo constituya un subconjunto de todas las cadenas de longitud $n$, o quizás un conjunto que incluya cadenas de longitud variable. En esos casos, sin embargo, no nos referiríamos a ella como una "cadena aleatoria", sino como "una cadena seleccionada aleatoriamente de un conjunto **S**".
 
-Un concepto clave en criptografía es el de pseudoaleatoriedad. Una **cadena pseudoaleatoria** de longitud $n$ aparece *como si* fuera el resultado del muestreo de una variable uniforme $S$ que da a cada cadena en **$S_n$** una probabilidad igual de selección. De hecho, sin embargo, la cadena es el resultado del muestreo de una variable uniforme $S'$ que sólo define una distribución de probabilidad -no necesariamente una con probabilidades iguales para todos los resultados posibles- en un subconjunto de **$S_n$**. El punto crucial aquí es que nadie puede distinguir realmente entre muestras de $S$ y $S'$, aunque se tomen muchas.
+Un concepto clave en criptografía es el de pseudoaleatoriedad. Una **cadena pseudoaleatoria** de longitud $n$ aparece *como si* fuera el resultado del muestreo de una variable uniforme $S$ que da a cada cadena en **$S_n$** una probabilidad igual de selección. De hecho, sin embargo, la cadena es el resultado del muestreo de una variable uniforme $S'$ que solo define una distribución de probabilidad -no necesariamente una con probabilidades iguales para todos los resultados posibles- en un subconjunto de **$S_n$**. El punto crucial aquí es que nadie puede distinguir realmente entre muestras de $S$ y $S'$, aunque se tomen muchas.
 
 Supongamos, por ejemplo, una variable aleatoria $S$. Su conjunto de resultados es **$S_{256}$**, es decir, el conjunto de todas las cadenas binarias de longitud 256. Este conjunto tiene $2^{256}$ elementos. Este conjunto tiene $2^{256}$ elementos. Cada elemento tiene la misma probabilidad de selección, $1/2^{256}$, en el muestreo.
 
-Además, supongamos una variable aleatoria $S'$. Su conjunto de resultados sólo incluye $2^{128}$ cadenas binarias de longitud 256. Tiene alguna distribución de probabilidad sobre esas cadenas, pero esta distribución no es necesariamente uniforme.
+Además, supongamos una variable aleatoria $S'$. Su conjunto de resultados solo incluye $2^{128}$ cadenas binarias de longitud 256. Tiene alguna distribución de probabilidad sobre esas cadenas, pero esta distribución no es necesariamente uniforme.
 
 Supongamos que ahora tomo 1000 muestras de $S$ y 1000 muestras de $S'$ y te doy los dos conjuntos de resultados. Te digo qué conjunto de resultados está asociado a qué variable aleatoria. A continuación, tomo una muestra de una de las dos variables aleatorias. Pero esta vez no te digo de qué variable aleatoria tomo la muestra. Si $S'$ fuera pseudoaleatoria, entonces la idea es que tu probabilidad de acertar qué variable aleatoria he muestreado no es prácticamente mejor que $1/2$.
 
@@ -599,24 +599,24 @@ Consideremos, por ejemplo, que dos números cualesquiera $a$ y $N$ son **coprimo
 
 La teoría moderna de números se basa en las herramientas del álgebra abstracta. El campo del **álgebra abstracta** es una subdisciplina de las matemáticas en la que los principales objetos de análisis son objetos abstractos conocidos como estructuras algebraicas. Una **estructura algebraica** es un conjunto de elementos unido a una o más operaciones, que cumple ciertos axiomas. A través de las estructuras algebraicas, los matemáticos pueden comprender problemas matemáticos concretos abstrayéndose de sus detalles.
 
-El campo del álgebra abstracta a veces también se denomina álgebra moderna. También se puede encontrar el concepto de **matemáticas abstractas** (o **matemáticas puras**). Este último término no se refiere al álgebra abstracta, sino al estudio de las matemáticas por sí mismas, y no sólo con vistas a sus posibles aplicaciones.
+El campo del álgebra abstracta a veces también se denomina álgebra moderna. También se puede encontrar el concepto de **matemáticas abstractas** (o **matemáticas puras**). Este último término no se refiere al álgebra abstracta, sino al estudio de las matemáticas por sí mismas, y no solo con vistas a sus posibles aplicaciones.
 
-Los conjuntos del álgebra abstracta pueden tratar muchos tipos de objetos, desde las transformaciones que preservan la forma de un triángulo equilátero hasta los patrones del papel pintado. Para la teoría de números, sólo consideramos conjuntos de elementos que contienen números enteros o funciones que trabajan con números enteros.
+Los conjuntos del álgebra abstracta pueden tratar muchos tipos de objetos, desde las transformaciones que preservan la forma de un triángulo equilátero hasta los patrones del papel pintado. Para la teoría de números, solo consideramos conjuntos de elementos que contienen números enteros o funciones que trabajan con números enteros.
 
 ## Grupos
 
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
-Un concepto básico en matemáticas es el de conjunto de elementos. Un conjunto suele denotarse mediante signos de acolación con los elementos separados por comas.
+Un concepto básico en matemáticas es el de conjunto de elementos. Un conjunto suele denotarse mediante llaves con los elementos separados por comas.
 
 Por ejemplo, el conjunto de todos los números enteros es $\{..., -2, -1, 0, 1, 2, ...\}$. Las elipses aquí significa que un cierto patrón continúa en una dirección particular. Así que el conjunto de todos los números enteros también incluye $3, 4, 5, 6$ y así sucesivamente, así como $-3, -4, -5, -6$ y así sucesivamente. Este conjunto de todos los números enteros se suele denotar por $\mathbb{Z}$.
 
-Otro ejemplo de conjunto es $\mathbb{Z} \mod 11$, o el conjunto de todos los números enteros módulo 11. A diferencia del conjunto entero $\mathbb{Z}$, este conjunto sólo contiene un número finito de elementos, a saber $\{0, 1, \ldots, 9, 10\}$.
+Otro ejemplo de conjunto es $\mathbb{Z} \mod 11$, o el conjunto de todos los números enteros módulo 11. A diferencia del conjunto entero $\mathbb{Z}$, este conjunto solo contiene un número finito de elementos, a saber $\{0, 1, \ldots, 9, 10\}$.
 
 Un error común es pensar que el conjunto $\mathbb{Z} \mod 11$ es en realidad $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Pero este no es el caso, dada la forma en que definimos la operación módulo antes. Cualquier entero negativo reducido por el módulo 11 se envuelve en 
 $\{0, 1, \ldots, 9, 10\}$. Por ejemplo, la expresión $-2 \mod 11$ envuelve a $9$, mientras que la expresión $-27 \mod 11$ envuelve a $5$.
 
-Otro concepto básico en matemáticas es el de operación binaria. Se trata de cualquier operación que toma dos elementos para producir un tercero. Por ejemplo, a partir de la aritmética y el álgebra básicas, estarás familiarizado con cuatro operaciones binarias fundamentales: suma, resta, multiplicación y división.
+Otro concepto básico en matemáticas es el de operación binaria. Se trata de cualquier operación que toma dos elementos para producir un tercero. Por ejemplo, a partir de la aritmética y el álgebra básica, estarás familiarizado con cuatro operaciones binarias fundamentales: suma, resta, multiplicación y división.
 
 Estos dos conceptos matemáticos básicos, conjuntos y operaciones binarias, se utilizan para definir la noción de grupo, la estructura más esencial del álgebra abstracta.
 
@@ -628,7 +628,7 @@ La combinación $\langle \mathbf{S}, \circ \rangle$ es, entonces, un **grupo** s
 
 2. Para cualesquiera $a$, $b$ y $c$ que sean elementos de $\mathbf{S}$, se da el caso de que $(a \circ b) \circ c = a \circ (b \circ c)$. Esto se conoce como **condición de asociatividad**.
 
-3. Existe un único elemento $e$ en $\mathbf{S}$, tal que para cada elemento $a$ en $\mathbf{S}$, se cumple la siguiente ecuación: $e \circ a = a \circ e = a$. Como sólo hay un elemento $e$, se llama **elemento de identidad**. Esta condición se conoce como **condición de identidad**.
+3. Existe un único elemento $e$ en $\mathbf{S}$, tal que para cada elemento $a$ en $\mathbf{S}$, se cumple la siguiente ecuación: $e \circ a = a \circ e = a$. Como solo hay un elemento $e$, se llama **elemento de identidad**. Esta condición se conoce como **condición de identidad**.
 
 4. Para cada elemento $a$ en $\mathbf{S}$, existe un elemento $b$ en $\mathbf{S}$, tal que se cumple la siguiente ecuación: $a \circ b = b \circ a = e$, donde $e$ es el elemento identidad. El elemento $b$ aquí se conoce como el **elemento inverso**, y se denota comúnmente como $a^{-1}$. Esta condición se conoce como **condición inversa** o **condición de invertibilidad**.
 
@@ -644,7 +644,7 @@ Exploremos un poco más los grupos. Denotemos el conjunto de todos los números 
 
 Es importante destacar que el hecho de que el conjunto de enteros con adición constituya un grupo no significa que constituya un grupo con multiplicación. Se puede verificar esto probando $\langle \mathbb{Z}, \cdot \rangle$ contra los cuatro axiomas de grupo (donde $\cdot$ significa multiplicación estándar).
 
-Es evidente que los dos primeros axiomas se cumplen. Además, bajo multiplicación el elemento 1 puede servir como elemento identidad. Cualquier entero $x$ multiplicado por 1, a saber, da $x$. Sin embargo, $\langle \mathbb{Z}, \cdot \rangle$ no cumple la condición inversa. Es decir, no hay un único elemento $y$ en $\mathbb{Z}$ para cada $x$ en $\mathbb{Z}$, de modo que $x \cdot y = 1$.
+Es evidente que los dos primeros axiomas se cumplen. Además, bajo multiplicación el elemento 1 puede servir como elemento identidad. Cualquier entero $x$ multiplicado por 1, da $x$. Sin embargo, $\langle \mathbb{Z}, \cdot \rangle$ no cumple la condición inversa. Es decir, no hay un único elemento $y$ en $\mathbb{Z}$ para cada $x$ en $\mathbb{Z}$, de modo que $x \cdot y = 1$.
 
 Por ejemplo, supongamos que $x = 22$. ¿Qué valor $y$ del conjunto $\mathbb{Z}$ multiplicado por $x$ daría el elemento identidad 1? El valor de $1/22$ funcionaría, pero no está en el conjunto $\mathbb{Z}$. De hecho, te encuentras con este problema para cualquier entero $x$, distintos de los valores de 1 y -1 (donde $y$ tendría que ser 1 y -1, respectivamente).
 
@@ -657,13 +657,13 @@ Algunos grupos cumplen una quinta condición general, conocida como **condición
 
 Cualquier grupo que cumpla la condición de conmutatividad se conoce como **grupo conmutativo**, o **grupo abeliano** (en honor a Niels Henrik Abel). Es fácil comprobar que tanto el conjunto de los números reales sobre la suma como el conjunto de los números enteros sobre la suma son grupos abelianos. El conjunto de los números enteros sobre la multiplicación no es un grupo en absoluto, por lo que ipso facto no puede ser un grupo abeliano. En cambio, el conjunto de los números reales distintos de cero sobre la multiplicación también es un grupo abeliano.
 
-Debe tener en cuenta dos convenciones importantes sobre notación. En primer lugar, los signos "+" o "×" se emplearán con frecuencia para simbolizar operaciones de grupo, incluso cuando los elementos no sean, de hecho, números. En estos casos, no debe interpretar estos signos como sumas o multiplicaciones aritméticas estándar. En su lugar, son operaciones que sólo tienen una similitud abstracta con estas operaciones aritméticas.
+Debe tener en cuenta dos convenciones importantes sobre notación. En primer lugar, los signos "+" o "×" se emplearán con frecuencia para simbolizar operaciones de grupo, incluso cuando los elementos no sean, de hecho, números. En estos casos, no debe interpretar estos signos como sumas o multiplicaciones aritméticas estándar. En su lugar, son operaciones que solo tienen una similitud abstracta con estas operaciones aritméticas.
 
 A menos que nos refiramos específicamente a sumas o multiplicaciones aritméticas, es más fácil utilizar símbolos como $\circ$ y $\diamond$ para las operaciones de grupo, ya que no tienen connotaciones muy arraigadas culturalmente.
 
 En segundo lugar, por la misma razón que "+" y "×" se utilizan a menudo para indicar operaciones no aritméticas, los elementos de identidad de los grupos se simbolizan frecuentemente con "0" y "1", incluso cuando los elementos de estos grupos no son números. A menos que se refiera al elemento de identidad de un grupo con números, es más fácil utilizar un símbolo más neutro como "$e$" para indicar el elemento de identidad.
 
-Muchos conjuntos de valores diferentes y muy importantes en matemáticas dotados de ciertas operaciones binarias son grupos. Sin embargo, las aplicaciones criptográficas sólo trabajan con conjuntos de números enteros o, al menos, con elementos que se describen mediante números enteros, es decir, dentro del dominio de la teoría de números. Por lo tanto, los conjuntos con números reales distintos de los enteros no se emplean en aplicaciones criptográficas.
+Muchos conjuntos de valores diferentes y muy importantes en matemáticas dotados de ciertas operaciones binarias son grupos. Sin embargo, las aplicaciones criptográficas solo trabajan con conjuntos de números enteros o, al menos, con elementos que se describen mediante números enteros, es decir, dentro del dominio de la teoría de números. Por lo tanto, los conjuntos con números reales distintos de los enteros no se emplean en aplicaciones criptográficas.
 
 Terminemos con un ejemplo de elementos que pueden "describirse mediante enteros", aunque no sean enteros. Un buen ejemplo son los puntos de las curvas elípticas. Aunque cualquier punto de una curva elíptica no es claramente un número entero, dicho punto está descrito por dos números enteros.
 
@@ -698,22 +698,22 @@ Consideremos, por ejemplo, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Es
 Vamos a explorar exponenciando el elemento 2 de este grupo. Los cálculos hasta $2^{12}$ se muestran a continuación. Nótese que en el lado izquierdo de la ecuación, el exponente se refiere a la exponenciación del elemento del grupo. En nuestro ejemplo particular, esto implica de hecho la exponenciación aritmética en el lado derecho de la ecuación (pero también podría haber implicado, por ejemplo, la adición). Para aclarar, he escrito la operación repetida, en lugar de la forma del exponente en el lado derecho.
 
 
-- $2^1 = 2 \mod 11$
-- $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
-- $2^3 = 2 \cdot 2 \cdot 2 \cdot 11 = 8 \cdot 11$
-- $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
-- $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \cdot 11 = 10 \cdot 11$
-- $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \cdot 11 = 9 \cdot 11$
-- $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 128 \cdot 11 = 7 \cdot 11$
-- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 256 \cdot 11 = 3 \cdot 11$
-- $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 512 \cdot 11 = 6 \mod 11$
-- $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 1024 \cdot 11 = 1 \cdot 11$
-- $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \cdot 11 = 2 \cdot 11$
-- $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 4096 \cdot 11 = 4 \cdot 11$
+* $2^1 = 2 \mod 11$
+* $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
+* $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
+* $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
+* $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
+* $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
+* $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
+* $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
+* $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
+* $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
+* $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
+* $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
 Si nos fijamos bien, podemos ver que la exponenciación del elemento 2 recorre todos los elementos de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ en el siguiente orden: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Después de $2^{10}$, la exponenciación continuada del elemento 2 recorre todos los elementos de nuevo y en el mismo orden. Por lo tanto, el elemento 2 es un generador en $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
-Aunque $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ tiene múltiples generadores, no todos los elementos de este grupo son generadores. Consideremos, por ejemplo, el elemento 3. Corriendo a través de los primeros 10 exponentiations, sin mostrar los cálculos engorrosos, produce los siguientes resultados:
+Aunque $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ tiene múltiples generadores, no todos los elementos de este grupo son generadores. Consideremos, por ejemplo, el elemento 3. Corriendo a través de los primeros 10 exponentes, sin mostrar los cálculos engorrosos, produce los siguientes resultados:
 
 
 - $3^1 = 3 \mod 11$
@@ -727,7 +727,7 @@ Aunque $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ tiene múltiples generadore
 - $3^9 = 4 \mod 11$
 - $3^{10} = 1 \mod 11$
 
-En lugar de recorrer todos los valores en $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, la exponenciación del elemento 3 sólo conduce a un subconjunto de esos valores: 3, 9, 5, 4, y 1. Después de la quinta exponenciación, estos valores comienzan a repetirse.
+En lugar de recorrer todos los valores en $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, la exponenciación del elemento 3 solo conduce a un subconjunto de esos valores: 3, 9, 5, 4, y 1. Después de la quinta exponenciación, estos valores comienzan a repetirse.
 
 Ahora podemos definir un **grupo cíclico** como cualquier grupo con al menos un generador. Es decir, hay al menos un elemento del grupo a partir del cual se pueden producir todos los demás elementos del grupo mediante exponenciación.
 
@@ -735,13 +735,13 @@ Habrás observado en nuestro ejemplo anterior que tanto $2^{10}$ como $3^{10}$ s
 
 Es una pregunta importante, pero hay que trabajar un poco para responderla.
 
-Para empezar, supongamos dos enteros positivos $a$ y $N$. Un teorema importante en la teoría de números afirma que $a$ tiene un inverso multiplicativo módulo $N$ (es decir, un entero $b$ de modo que $a \cdot b = 1 \mod N$) si y sólo si el máximo común divisor entre $a$ y $N$ es igual a 1. Es decir, si $a$ y $N$ son coprimos. Es decir, si $a$ y $N$ son coprimos.
+Para empezar, supongamos dos enteros positivos $a$ y $N$. Un teorema importante en la teoría de números afirma que $a$ tiene un inverso multiplicativo módulo $N$ (es decir, un entero $b$ de modo que $a \cdot b = 1 \mod N$) si y solo si el máximo común divisor entre $a$ y $N$ es igual a 1. Es decir, si $a$ y $N$ son coprimos. 
 
-Así, para cualquier grupo de enteros dotado de multiplicación módulo $N$, sólo los coprimas más pequeños con $N$ están incluidos en el conjunto. Podemos denotar este conjunto por $\mathbb{Z}^c \mod N$.
+Así, para cualquier grupo de enteros dotado de multiplicación módulo $N$, solo los coprimos más pequeños con $N$ están incluidos en el conjunto. Podemos denotar este conjunto por $\mathbb{Z}^c \mod N$.
 
-Por ejemplo, supongamos que $N$ es 10. Sólo los números enteros 1, 3, 7 y 9 son coprimas con 10$. Así que el conjunto $\mathbb{Z}^c \mod 10$ sólo incluye $\{1, 3, 7, 9\}$. No se puede crear un grupo con multiplicación entera módulo 10 utilizando cualquier otro número entero entre 1 y 10. Para este grupo en particular, los inversos son los pares 1 y 9, y 3 y 7.
+Por ejemplo, supongamos que $N$ es 10. solo los números enteros 1, 3, 7 y 9 son coprimos con 10$. Así que el conjunto $\mathbb{Z}^c \mod 10$ solo incluye $\{1, 3, 7, 9\}$. No se puede crear un grupo con multiplicación entera módulo 10 utilizando cualquier otro número entero entre 1 y 10. Para este grupo en particular, los inversos son los pares 1 y 9, y 3 y 7.
 
-En el caso de que $N$ sea primo, todos los números enteros de 1 a $N - 1$ son coprimas de $N$. Tal grupo, por lo tanto, tiene un orden de $N - 1$. Utilizando nuestra notación anterior, $\mathbb{Z}^c \mod N$ es igual a $\mathbb{Z}^* \mod N$ cuando $N$ es primo. El grupo que seleccionamos para nuestro ejemplo anterior, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, es un caso particular de esta clase de grupos.
+En el caso de que $N$ sea primo, todos los números enteros de 1 a $N - 1$ son coprimos de $N$. Tal grupo, por lo tanto, tiene un orden de $N - 1$. Utilizando nuestra notación anterior, $\mathbb{Z}^c \mod N$ es igual a $\mathbb{Z}^* \mod N$ cuando $N$ es primo. El grupo que seleccionamos para nuestro ejemplo anterior, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, es un caso particular de esta clase de grupos.
 
 A continuación, la función $\phi(N)$ calcula el número de coprimos hasta un número $N$, y se conoce como **función Phi de Euler**. [1] Según el **teorema de Euler**, siempre que dos números enteros $a$ y $N$ sean coprimos, se cumple lo siguiente:
 
@@ -750,7 +750,7 @@ A continuación, la función $\phi(N)$ calcula el número de coprimos hasta un n
 
 Esto tiene una implicación importante para la clase de grupos $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ donde $N$ es primo. Para estos grupos, la exponenciación de elementos de grupo representa la exponenciación aritmética. Es decir, $a^{\phi(N)} \mod N$ representa la operación aritmética $a^{\phi(N)} \mod N$. Como cualquier elemento $a$ en estos grupos multiplicativos es coprimo con $N$, significa que $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
 
-El teorema de Euler es un resultado realmente importante. Para empezar, implica que todos los elementos en $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ sólo puede ciclo a través de un número de valores por exponenciación que se divide en $N - 1$. En el caso de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, esto significa que cada elemento sólo puede ciclo a través de 2, 5, o 10 elementos. Los valores del grupo que los ciclos de cualquier elemento a través de la exponenciación se conoce como el **orden del elemento**. Un elemento con un orden equivalente al orden de un grupo es un generador.
+El teorema de Euler es un resultado realmente importante. Para empezar, implica que todos los elementos en $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ solo puede ciclar a través de un número de valores por exponenciación que se divide en $N - 1$. En el caso de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, esto significa que cada elemento solo puede ciclar a través de 2, 5, o 10 elementos. Los valores del grupo que los ciclos de cualquier elemento a través de la exponenciación se conoce como el **orden del elemento**. Un elemento con un orden equivalente al orden de un grupo es un generador.
 
 Además, el teorema de Euler implica que siempre podemos conocer el resultado de $a^{N - 1} \mod N$ para cualquier grupo $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ donde $N$ es primo. Esto es así independientemente de lo complicados que puedan ser los cálculos reales.
 
@@ -780,11 +780,11 @@ Un campo se deriva de la noción de grupo. En concreto, un **campo** es un conju
 
 3. El conjunto **S** dotado de los dos operadores cumple lo que se conoce como condición distributiva: Supongamos que $a$, $b$ y $c$ son elementos de **S**. Entonces **S** equipado con los dos operadores cumple la propiedad distributiva cuando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Obsérvese que, como en el caso de los grupos, la definición de campo es muy abstracta. No hace ninguna afirmación sobre los tipos de elementos de **S**, ni sobre las operaciones $\circ$ y $\diamond$. Sólo afirma que un campo es cualquier conjunto de elementos con dos operaciones para las que se cumplen las tres condiciones anteriores. (El elemento "cero" en el segundo grupo abeliano puede interpretarse de forma abstracta)
+Obsérvese que, como en el caso de los grupos, la definición de campo es muy abstracta. No hace ninguna afirmación sobre los tipos de elementos de **S**, ni sobre las operaciones $\circ$ y $\diamond$. solo afirma que un campo es cualquier conjunto de elementos con dos operaciones para las que se cumplen las tres condiciones anteriores. (El elemento "cero" en el segundo grupo abeliano puede interpretarse de forma abstracta)
 
 Entonces, ¿cuál podría ser un ejemplo de un campo? Un buen ejemplo es el conjunto $\mathbb{Z} \mod 7$, o $\{0, 1, \ldots, 7\}$ definido sobre la suma estándar (en lugar de $\circ$ más arriba) y la multiplicación estándar (en lugar de $\diamond$ más arriba).
 
-En primer lugar, $\mathbb{Z} \mod 7$ cumple la condición de ser un grupo abeliano sobre la suma, y cumple la condición de ser un grupo abeliano sobre la multiplicación si sólo se consideran los elementos distintos de cero. En segundo lugar, la combinación del conjunto con los dos operadores cumple la condición distributiva.
+En primer lugar, $\mathbb{Z} \mod 7$ cumple la condición de ser un grupo abeliano sobre la suma, y cumple la condición de ser un grupo abeliano sobre la multiplicación si solo se consideran los elementos distintos de cero. En segundo lugar, la combinación del conjunto con los dos operadores cumple la condición distributiva.
 
 Desde el punto de vista didáctico, merece la pena explorar estas afirmaciones utilizando algunos valores concretos. Tomemos los valores experimentales 5, 2 y 3, algunos elementos elegidos al azar del conjunto $\mathbb{Z} \mod 7$, para inspeccionar el campo $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Utilizaremos estos tres valores en orden, según sea necesario para explorar condiciones particulares.
 
@@ -816,25 +816,25 @@ El conjunto $\mathbb{Z} \mod 7$ parece cumplir claramente las reglas para ser un
 
 Por último, este conjunto combinado con ambos operadores parece cumplir la condición distributiva. Tomemos 5, 2 y 3 como valores. Podemos ver que $[5 \cdot (2 + 3)] \cdot 7 = [5 \cdot 2 + 5 \cdot 3] \cdot 7 = 25 \cdot 7 = 4$.
 
-Ahora hemos visto que $\mathbb{Z} \mod 7$ equipado con adición y multiplicación cumple los axiomas para un campo finito cuando se prueba con valores particulares. Por supuesto, también podemos demostrar que en general, pero no lo hará aquí.
+Ahora hemos visto que $\mathbb{Z} \mod 7$ equipado con adición y multiplicación cumple los axiomas para un campo finito cuando se prueba con valores particulares. Por supuesto, también podemos demostrarlo en general, pero no lo haremos aquí.
 
 Hay que distinguir entre dos tipos de campos: finitos e infinitos.
 
 Un **campo infinito** implica un campo donde el conjunto **S** es infinitamente grande. El conjunto de números reales $\mathbb{R}$ dotado de suma y multiplicación es un ejemplo de campo infinito. Un **campo finito**, también conocido como **campo de Galois**, es un campo donde el conjunto **S** es finito. Nuestro ejemplo anterior de $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ es un campo finito.
 
-En criptografía, nos interesan principalmente los campos finitos. En general, se puede demostrar que existe un campo finito para un conjunto de elementos **S** si y sólo si tiene $p^m$ elementos, donde $p$ es un número primo y $m$ un número entero positivo mayor o igual que uno. En otras palabras, si el orden de algún conjunto **S** es un número primo ($p^m$ donde $m = 1$) o alguna potencia prima ($p^m$ donde $m > 1$), entonces se pueden encontrar dos operadores $\circ$ y $\diamond$ tales que se cumplan las condiciones para un campo.
+En criptografía, nos interesan principalmente los campos finitos. En general, se puede demostrar que existe un campo finito para un conjunto de elementos **S** si y solo si tiene $p^m$ elementos, donde $p$ es un número primo y $m$ un número entero positivo mayor o igual que uno. En otras palabras, si el orden de algún conjunto **S** es un número primo ($p^m$ donde $m = 1$) o alguna potencia prima ($p^m$ donde $m > 1$), entonces se pueden encontrar dos operadores $\circ$ y $\diamond$ tales que se cumplan las condiciones para un campo.
 
 Si un campo finito tiene un número primo de elementos, se denomina **campo primo**. Si el número de elementos del campo finito es una potencia prima, el campo se denomina **campo de extensión**. En criptografía, nos interesan tanto los campos primos como los campos de extensión. [2]
 
 Los principales campos primos de interés en criptografía son aquellos en los que el conjunto de todos los números enteros está modulado por algún número primo, y los operadores son la suma y la multiplicación estándar. Esta clase de campos finitos incluiría $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, y así sucesivamente. Para cualquier campo primo $\mathbb{Z} \mod p$, el conjunto de enteros del campo es el siguiente: $\{0, 1, \ldots, p - 2, p - 1\}$.
 
-En criptografía, también nos interesan los campos de extensión, en particular cualquier campo con $2^m$ elementos donde $m > 1$. Estos campos finitos se utilizan, por ejemplo, en el cifrado Rijndael, que constituye la base del estándar de cifrado avanzado. Mientras que los campos primos son relativamente intuitivos, estos campos de extensión de base 2 probablemente no sean para nadie que no esté familiarizado con el álgebra abstracta.
+En criptografía, también nos interesan los campos de extensión, en particular cualquier campo con $2^m$ elementos donde $m > 1$. Tales campos finitos se utilizan, por ejemplo, en el cifrado Rijndael, que constituye la base del estándar de cifrado avanzado (AES). Mientras que los campos primos son relativamente intuitivos, estos campos de extensión de base 2 probablemente no sean para nadie que no esté familiarizado con el álgebra abstracta.
 
 Para empezar, es cierto que a cualquier conjunto de enteros con $2^m$ elementos se le pueden asignar dos operadores que harían de su combinación un campo (siempre que $m$ sea un entero positivo). Sin embargo, que exista un campo no significa necesariamente que sea fácil de descubrir o especialmente práctico para determinadas aplicaciones.
 
 Resulta que los campos de extensión de $2^m$ particularmente aplicables en criptografía son los definidos sobre conjuntos particulares de expresiones polinómicas, en lugar de algún conjunto de números enteros.
 
-Por ejemplo, supongamos que queremos un campo de extensión con $2^3$ (es decir, 8) elementos en el conjunto. Aunque podría haber muchos conjuntos diferentes que se pueden utilizar para campos de ese tamaño, uno de esos conjuntos incluye todos los polinomios únicos de la forma $a_2x^2 + a_1x + a_0$, donde cada coeficiente $a_i$ es 0 ó 1. Por lo tanto, este conjunto **S** incluye los siguientes elementos: a_2x^2 + a_1x + a_0$. Por lo tanto, este conjunto **S** incluye los siguientes elementos:
+Por ejemplo, supongamos que queremos un campo de extensión con $2^3$ (es decir, 8) elementos en el conjunto. Aunque podría haber muchos conjuntos diferentes que se pueden utilizar para campos de ese tamaño, uno de esos conjuntos incluye todos los polinomios únicos de la forma $a_2x^2 + a_1x + a_0$, donde cada coeficiente $a_i$ es 0 ó 1. Por lo tanto, este conjunto **S** incluye los siguientes elementos: 
 
 1. $0$: El caso en que $a_2 = 0$, $a_1 = 0$, y $a_0 = 0$.
 
@@ -865,7 +865,7 @@ La segunda operación sobre el conjunto **S** ($\diamond$) que se necesita para 
 
 Veamos primero la idea de polinomio irreducible. Un **polinomio irreducible** es aquel que no se puede factorizar (igual que un número primo no se puede factorizar en componentes distintos de 1 y el propio número primo). Para nuestros propósitos, estamos interesados en polinomios que son irreducibles con respecto al conjunto de todos los números enteros. (Tenga en cuenta que puede ser capaz de factorizar ciertos polinomios mediante, por ejemplo, los números reales o complejos, aunque no pueda factorizarlos utilizando números enteros)
 
-Por ejemplo, consideremos el polinomio $x^2 - 3x + 2$. Esto puede ser reescrito como $(x - 1)(x - 2)$. Por lo tanto, esto no es irreducible. Consideremos ahora el polinomio $x^2 + 1$. Utilizando sólo números enteros, no hay manera de factorizar aún más esta expresión. Por lo tanto, este es un polinomio irreducible con respecto a los números enteros.
+Por ejemplo, consideremos el polinomio $x^2 - 3x + 2$. Esto puede ser reescrito como $(x - 1)(x - 2)$. Por lo tanto, esto no es irreducible. Consideremos ahora el polinomio $x^2 + 1$. Utilizando solo números enteros, no hay manera de factorizar aún más esta expresión. Por lo tanto, este es un polinomio irreducible con respecto a los números enteros.
 
 A continuación, pasemos al concepto de multiplicación vectorial. No exploraremos este tema en profundidad, pero basta con que entiendas una regla básica: Cualquier división vectorial puede tener lugar siempre que el dividendo tenga un grado mayor o igual que el del divisor. Si el dividendo tiene un grado menor que el divisor, entonces el dividendo ya no puede ser dividido por el divisor.
 
@@ -896,8 +896,7 @@ Para empezar, puedes ver que la expresión $x^3 + x + 1$ entra en $x^4 + x^3 + x
 
 
 - $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^3] \mod x^3 + x + 1 =$
-- $x^3$
+- $[x^3] \mod x^3 + x + 1 =$ $x^3$
 
 Así que después de dividir $x^4 + x^3 + x^2 + x$ entre $x^3 + x + 1$ un total de $x$ veces, tenemos un resto de $x^3$. ¿Se puede volver a dividir entre $x^3 + x + 1$?
 
@@ -921,7 +920,7 @@ Para resumir la multiplicación de $x^2 + 1$ y $x^2 + x$: Al multiplicar esos do
 
 <chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
-A pesar del lenguaje formal y lo abstracto de la discusión, el concepto de grupo no debería ser demasiado difícil de entender. No es más que un conjunto de elementos junto con una operación binaria, donde la realización de esa operación binaria sobre esos elementos cumple cuatro condiciones generales. Un grupo abeliano sólo tiene una condición adicional conocida como conmutatividad. Un grupo cíclico, a su vez, es un tipo especial de grupo abeliano, es decir, uno que tiene un generador. Un campo no es más que una construcción más compleja a partir de la noción básica de grupo.
+A pesar del lenguaje formal y lo abstracto de la discusión, el concepto de grupo no debería ser demasiado difícil de entender. No es más que un conjunto de elementos junto con una operación binaria, donde la realización de esa operación binaria sobre esos elementos cumple cuatro condiciones generales. Un grupo abeliano solo tiene una condición adicional conocida como conmutatividad. Un grupo cíclico, a su vez, es un tipo especial de grupo abeliano, es decir, uno que tiene un generador. Un campo no es más que una construcción más compleja a partir de la noción básica de grupo.
 
 Pero si eres una persona con inclinaciones prácticas, puede que en este punto te preguntes: ¿A quién le importa? ¿Saber que un conjunto de elementos con un operador es un grupo, o incluso un grupo abeliano o cíclico, tiene alguna relevancia en el mundo real? ¿Saber que algo es un campo?
 
@@ -929,7 +928,7 @@ Sin entrar en demasiados detalles, la respuesta es "sí". Los grupos fueron crea
 
 Desde entonces, el concepto de grupo ha contribuido a arrojar luz sobre numerosos problemas matemáticos y de otros ámbitos. Basándose en ellos, por ejemplo, el físico Murray-Gellman pudo predecir la existencia de una partícula antes de que se observara realmente en experimentos[3]. Otro ejemplo: los químicos utilizan la teoría de grupos para clasificar las formas de las moléculas. Los matemáticos incluso han utilizado el concepto de grupo para sacar conclusiones sobre algo tan concreto como el papel pintado
 
-Esencialmente, demostrar que un conjunto de elementos con algún operador es un grupo, significa que lo que estás describiendo tiene una simetría particular. No una simetría en el sentido común de la palabra, sino en una forma más abstracta. Y esto puede aportar información sustancial sobre sistemas y problemas concretos. Las nociones más complejas del álgebra abstracta sólo nos dan información adicional.
+Esencialmente, demostrar que un conjunto de elementos con algún operador es un grupo, significa que lo que estás describiendo tiene una simetría particular. No una simetría en el sentido común de la palabra, sino en una forma más abstracta. Y esto puede aportar información sustancial sobre sistemas y problemas concretos. Las nociones más complejas del álgebra abstracta solo nos dan información adicional.
 
 Y lo que es más importante, verás la importancia de los grupos y campos de la teoría de números en la práctica a través de su aplicación en criptografía, en particular en la criptografía de clave pública. Ya hemos visto en nuestra discusión de campos, por ejemplo, cómo se emplean los campos de extensión en el Cifrado Rijndael. Resolveremos ese ejemplo en el *Capítulo 5*.
 
@@ -959,13 +958,13 @@ El debate principal comienza con el examen de los esquemas de cifrado simétrico
 
 En este capítulo se examinan de pasada varios esquemas criptográficos simétricos de la práctica. El capítulo siguiente ofrece una exposición detallada del cifrado con un cifrado de flujo y un cifrado de bloque a partir de la práctica, a saber, RC4 y AES respectivamente.
 
-Antes de comenzar nuestra discusión sobre la criptografía simétrica, quiero hacer brevemente algunas observaciones sobre las ilustraciones de Alicia y Bob en este capítulo y en los siguientes.
+Antes de comenzar nuestra discusión sobre la criptografía simétrica, quiero hacer brevemente algunas observaciones sobre las ilustraciones de Alice y Bob en este capítulo y en los siguientes.
 
 ___
 
-Para ilustrar los principios de la criptografía, a menudo se recurre a ejemplos en los que intervienen Alicia y Bob. Yo también lo haré.
+Para ilustrar los principios de la criptografía, a menudo se recurre a ejemplos en los que intervienen Alice y Bob. Yo también lo haré.
 
-Especialmente si eres nuevo en criptografía, es importante que te des cuenta de que estos ejemplos de Alice y Bob sólo pretenden servir como ilustración de los principios y construcciones criptográficas en un entorno simplificado. Sin embargo, los principios y las construcciones son aplicables a una gama mucho más amplia de contextos de la vida real.
+Especialmente si eres nuevo en criptografía, es importante que te des cuenta de que estos ejemplos de Alice y Bob solo pretenden servir como ilustración de los principios y construcciones criptográficas en un entorno simplificado. Sin embargo, los principios y las construcciones son aplicables a una gama mucho más amplia de contextos de la vida real.
 
 A continuación se presentan cinco puntos clave a tener en cuenta sobre los ejemplos que implican a Alice y Bob en criptografía:
 
@@ -995,7 +994,7 @@ Normalmente, un esquema de cifrado -ya sea simétrico o asimétrico- ofrece una 
 
 Por ejemplo, consideremos Salsa20, un esquema de cifrado simétrico. Puede utilizarse con claves de 128 y 256 bits. La elección de la longitud de la clave afecta a algunos detalles menores del algoritmo (el número de rondas del algoritmo, para ser exactos).
 
-Pero no se puede decir que utilizar Salsa20 con una clave de 128 bits sea un esquema de cifrado diferente de Salsa20 con una clave de 256 bits. El algoritmo central sigue siendo el mismo. Sólo cuando cambia el algoritmo central se puede hablar realmente de dos esquemas de cifrado diferentes.
+Pero no se puede decir que utilizar Salsa20 con una clave de 128 bits sea un esquema de cifrado diferente de Salsa20 con una clave de 256 bits. El algoritmo central sigue siendo el mismo. solo cuando cambia el algoritmo central se puede hablar realmente de dos esquemas de cifrado diferentes.
 
 Los esquemas de cifrado simétrico suelen ser útiles en dos tipos de casos: (1) Aquellos en los que dos o más agentes se comunican a distancia y quieren mantener en secreto el contenido de sus comunicaciones; y (2) aquellos en los que un agente quiere mantener en secreto el contenido de un mensaje a lo largo del tiempo.
 
@@ -1011,7 +1010,7 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 ![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
-*Figura 2: Secretismo a lo largo del tiempo*
+*Figura 2: Secreto a través del tiempo*
 
 ![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
@@ -1039,15 +1038,15 @@ Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés
 
 Lo que hace que el cifrado por turnos sea un esquema de cifrado simétrico es que se utiliza la misma clave tanto para el proceso de cifrado como para el de descifrado. Por ejemplo, supongamos que queremos cifrar el mensaje "DOG" utilizando el cifrado por turnos y que hemos elegido aleatoriamente "24" como clave. Al cifrar el mensaje con esta clave se obtendría "BME". La única forma de recuperar el mensaje original es utilizar la misma clave, "24", para el proceso de descifrado.
 
-Este cifrado por turnos es un ejemplo de **cifrado de sustitución monoalfabético**: un esquema de cifrado en el que el alfabeto del texto cifrado es fijo (es decir, sólo se utiliza un alfabeto). Suponiendo que el algoritmo de descifrado sea determinista, cada símbolo del texto cifrado por sustitución puede corresponder como máximo a un símbolo del texto sin cifrar.
+Este cifrado por turnos es un ejemplo de **cifrado de sustitución monoalfabético**: un esquema de cifrado en el que el alfabeto del texto cifrado es fijo (es decir, solo se utiliza un alfabeto). Suponiendo que el algoritmo de descifrado sea determinista, cada símbolo del texto cifrado por sustitución puede corresponder como máximo a un símbolo del texto sin cifrar.
 
-Hasta el siglo XVIII, muchas aplicaciones del cifrado se basaban en cifrados de sustitución monoalfabéticos, aunque a menudo eran mucho más complejos que el cifrado Shift. Se podía, por ejemplo, seleccionar aleatoriamente una letra del alfabeto para cada letra del texto original con la restricción de que cada letra sólo apareciera una vez en el alfabeto del texto cifrado. Eso significa que tendrías un factorial de 26 posibles claves privadas, lo que era enorme en la era preinformática.
+Hasta el siglo XVIII, muchas aplicaciones del cifrado se basaban en cifrados de sustitución monoalfabéticos, aunque a menudo eran mucho más complejos que el cifrado por turnos. Se podía, por ejemplo, seleccionar aleatoriamente una letra del alfabeto para cada letra del texto original con la restricción de que cada letra solo apareciera una vez en el alfabeto del texto cifrado. Eso significa que tendrías un factorial de 26 posibles claves privadas, lo que era enorme en la era preinformática.
 
 Ten en cuenta que te encontrarás con el término **cifrar** muchas veces en criptografía. Ten en cuenta que este término tiene varios significados. De hecho, conozco al menos cinco significados distintos del término dentro de la criptografía.
 
 En algunos casos, se refiere a un esquema de cifrado, como ocurre con el cifrado por turnos y el cifrado por sustitución monoalfabética. Sin embargo, el término también puede referirse específicamente al algoritmo de cifrado, a la clave privada o simplemente al texto cifrado de cualquier esquema de cifrado de este tipo.
 
-Por último, el término cifra también puede referirse a un algoritmo central a partir del cual se pueden construir esquemas criptográficos. Estos pueden incluir varios algoritmos de cifrado, pero también otros tipos de esquemas criptográficos. Este sentido del término cobra relevancia en el contexto de los cifradores de bloques (véase la sección "Cifradores de bloques" más adelante).
+Por último, el término cifrado también puede referirse a un algoritmo central a partir del cual se pueden construir esquemas criptográficos. Estos pueden incluir varios algoritmos de cifrado, pero también otros tipos de esquemas criptográficos. Este sentido del término cobra relevancia en el contexto de los cifradores de bloques (véase la sección "Cifradores de bloques" más adelante).
 
 Puede que también te encuentres con los términos **encriptar** o **descifrar**. Estos términos no son más que sinónimos de cifrar y descifrar.
 
@@ -1065,13 +1064,13 @@ Supongamos que un atacante puede probar $10^{16}$ claves por segundo (es decir, 
 
 ¿Es el cifrado por turnos más seguro si el atacante no conoce el algoritmo de cifrado? Tal vez, pero no mucho.
 
-En cualquier caso, la criptografía moderna siempre asume que la seguridad de cualquier esquema de cifrado simétrico sólo se basa en mantener en secreto la clave privada. Siempre se supone que el atacante conoce todos los demás detalles, incluido el espacio de mensajes, el espacio de claves, el espacio de textos cifrados, el algoritmo de selección de claves, el algoritmo de cifrado y el algoritmo de descifrado.
+En cualquier caso, la criptografía moderna siempre asume que la seguridad de cualquier esquema de cifrado simétrico solo se basa en mantener en secreto la clave privada. Siempre se supone que el atacante conoce todos los demás detalles, incluido el espacio de mensajes, el espacio de claves, el espacio de textos cifrados, el algoritmo de selección de claves, el algoritmo de cifrado y el algoritmo de descifrado.
 
-La idea de que la seguridad de un esquema de cifrado simétrico sólo puede basarse en el secreto de la clave privada se conoce como **principio de Kerckhoffs**.
+La idea de que la seguridad de un esquema de cifrado simétrico solo puede basarse en el secreto de la clave privada se conoce como **principio de Kerckhoffs**.
 
-Tal como lo concibió Kerckhoffs, este principio sólo se aplica a los sistemas de cifrado simétricos. Sin embargo, una versión más general del principio se aplica también a todos los demás tipos de esquemas criptográficos actuales: No se debe exigir que el diseño de cualquier esquema criptográfico sea secreto para que sea seguro; el secreto sólo puede extenderse a algunas cadenas de información, normalmente una clave privada.
+Tal como lo concibió Kerckhoffs, este principio solo se aplica a los sistemas de cifrado simétricos. Sin embargo, una versión más general del principio se aplica también a todos los demás tipos de esquemas criptográficos actuales: No se debe exigir que el diseño de cualquier esquema criptográfico sea secreto para que sea seguro; el secreto solo puede extenderse a algunas cadenas de información, normalmente una clave privada.
 
-El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. En primer lugar, sólo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
+El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. En primer lugar, solo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
 
 En segundo lugar, es más fácil sustituir una cadena de información que todo un esquema criptográfico. Supongamos que todos los empleados de una empresa disponen del mismo software de cifrado y que cada dos empleados tienen una clave privada para comunicarse confidencialmente. En este escenario, las claves comprometidas son una molestia, pero al menos la empresa podría conservar el software con tales fallos de seguridad. Si la empresa confiara en el secreto del esquema, cualquier violación de ese secreto exigiría sustituir todo el software.
 
@@ -1103,7 +1102,7 @@ Aunque no profundizaremos en todos los detalles de las distintas nociones de seg
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Los sistemas de cifrado simétrico se dividen normalmente en dos tipos: **cifradores de flujo** y **cifradores de bloque**. Sin embargo, esta distinción es algo problemática, ya que la gente utiliza estos términos de forma incoherente. En las próximas secciones expondré la distinción de la forma que considero más adecuada. Sin embargo, debes tener en cuenta que mucha gente utilizará estos términos de forma algo diferente a la que yo expongo.
+Los sistemas de cifrado simétrico se dividen normalmente en dos tipos: **cifrados de flujo** y **cifrados de bloque**. Sin embargo, esta distinción es algo problemática, ya que la gente utiliza estos términos de forma incoherente. En las próximas secciones expondré la distinción de la forma que considero más adecuada. Sin embargo, debes tener en cuenta que mucha gente utilizará estos términos de forma algo diferente a la que yo expongo.
 
 Hablemos primero de los cifradores de flujo. Un **cifrador de flujo** es un esquema de cifrado simétrico en el que el cifrado consta de dos pasos.
 
@@ -1135,7 +1134,7 @@ De manera informal, el esquema de cifrado funciona como sigue:
 
 4. Continúa este proceso hasta que todo el mensaje haya sido cifrado.
 
-Para ilustrarlo, supongamos que su clave privada es "ORO" y desea cifrar el mensaje "CRYPTOGRAPHY". En ese caso, procedería del siguiente modo según el cifrado de Vigenère:
+Para ilustrarlo, supongamos que su clave privada es "GOLD" y desea cifrar el mensaje "CRYPTOGRAPHY". En ese caso, procedería del siguiente modo según el cifrado de Vigenère:
 
 
 - $c_0 = [(2 + 6) \mod 26] = 8 = I$
@@ -1181,7 +1180,7 @@ Nuestra definición de un cifrado de flujo tiene dos aspectos: (1) un flujo de c
 
 A veces se define la condición (1) de forma más estricta, afirmando que el flujo de claves debe ser específicamente pseudoaleatorio. Esto significa que ni el cifrado por turnos ni la almohadilla de un solo uso se considerarían cifrados de flujo.
 
-En mi opinión, una definición más amplia de la condición (1) facilita la organización de los esquemas de cifrado. Además, significa que no tenemos que dejar de llamar cifrado de flujo a un esquema de cifrado concreto sólo porque nos enteremos de que en realidad no se basa en flujos de claves pseudoaleatorios.
+En mi opinión, una definición más amplia de la condición (1) facilita la organización de los esquemas de cifrado. Además, significa que no tenemos que dejar de llamar cifrado de flujo a un esquema de cifrado concreto solo porque nos enteremos de que en realidad no se basa en flujos de claves pseudoaleatorios.
 
 **Notas:**
 
@@ -1233,7 +1232,7 @@ Cuando haya terminado, envía el mensaje cifrado junto con el vector de iniciali
 
 Esta construcción es mucho más segura que el modo de libro de códigos electrónico cuando se utiliza correctamente. En primer lugar, debes asegurarte de que el vector de inicialización es una cadena aleatoria o pseudoaleatoria. Además, debes utilizar un vector de inicialización diferente cada vez que utilices este esquema de cifrado.
 
-En otras palabras, tu vector de inicialización debería ser un nonce aleatorio o pseudoaleatorio, donde un **nonce** significa "un número que sólo se usa una vez" Si mantienes esta práctica, entonces el modo CBC con un cifrado por bloques asegura que dos bloques de texto plano idénticos serán generalmente cifrados de forma diferente cada vez.
+En otras palabras, tu vector de inicialización debería ser un nonce aleatorio o pseudoaleatorio, donde un **nonce** significa "un número que solo se usa una vez" Si mantienes esta práctica, entonces el modo CBC con un cifrado por bloques asegura que dos bloques de texto plano idénticos serán generalmente cifrados de forma diferente cada vez.
 
 Por último, vamos a centrarnos en el **modo de realimentación de salida** (**modo OFB**). Puedes ver una representación de este modo en la *Figura 7*.
 
@@ -1245,11 +1244,11 @@ Con el modo OFB también se selecciona un vector de inicialización. Pero aquí,
 
 Si te fijas bien, lo que en realidad se ha creado aquí a partir del cifrado por bloques con el modo OFB es un cifrado de flujo. Generas porciones de flujo de claves de 128 bits hasta que tienes la longitud del texto plano (descartando los bits que no necesitas de la última porción de flujo de claves de 128 bits). A continuación, XOR el flujo de claves con su mensaje de texto sin formato para obtener el texto cifrado.
 
-En la sección anterior sobre cifrados de flujo, he dicho que se produce un flujo de claves con la ayuda de una clave privada. Para ser exactos, no sólo tiene que crearse con una clave privada. Como puedes ver en el modo OFB, el flujo de claves se produce con la ayuda tanto de una clave privada como de un vector de inicialización.
+En la sección anterior sobre cifrados de flujo, he dicho que se produce un flujo de claves con la ayuda de una clave privada. Para ser exactos, no solo tiene que crearse con una clave privada. Como puedes ver en el modo OFB, el flujo de claves se produce con la ayuda tanto de una clave privada como de un vector de inicialización.
 
 Tenga en cuenta que, al igual que con el modo CBC, es importante seleccionar un nonce pseudoaleatorio o aleatorio para el vector de inicialización cada vez que utilice un cifrado por bloques en modo OFB. De lo contrario, la misma cadena de mensajes de 128 bits enviada en diferentes comunicaciones se cifrará de la misma manera. Esta es una forma de crear cifrado probabilístico con un cifrado de flujo.
 
-Algunos cifradores de flujo sólo utilizan una clave privada para crear un flujo de claves. Para estos cifradores de flujo, es importante que utilices un nonce aleatorio para seleccionar la clave privada para cada instancia de comunicación. De lo contrario, los resultados del cifrado con esos cifradores de flujo también serán deterministas, lo que provocará problemas de seguridad.
+Algunos cifradores de flujo solo utilizan una clave privada para crear un flujo de claves. Para estos cifradores de flujo, es importante que utilices un nonce aleatorio para seleccionar la clave privada para cada instancia de comunicación. De lo contrario, los resultados del cifrado con esos cifradores de flujo también serán deterministas, lo que provocará problemas de seguridad.
 
 El cifrado por bloques moderno más popular es el **cifrado Rijndael**. Fue el ganador de un concurso convocado por el Instituto Nacional de Estándares y Tecnología (NIST) entre 1997 y 2000 para sustituir a un estándar de cifrado más antiguo, el **estándar de cifrado de datos** (**DES**).
 
@@ -1269,7 +1268,7 @@ El cifrado por bloques AES se explicará en detalle en el *Capítulo 5*.
 
 La confusión sobre la distinción entre cifrado por bloques y cifrado por flujos se debe a que a veces la gente entiende que el término cifrado por bloques se refiere específicamente a un *cifrado por bloques con un modo de cifrado por bloques*.
 
-Considera los modos ECB y CBC de la sección anterior. Estos requieren específicamente que los datos para el cifrado sean divisibles por el tamaño del bloque (lo que significa que podrías tener que usar relleno para el mensaje original). Además, en estos modos los datos también son operados directamente por el cifrado por bloques (y no sólo combinados con el resultado de una operación de cifrado por bloques como en el modo OFB).
+Considera los modos ECB y CBC de la sección anterior. Estos requieren específicamente que los datos para el cifrado sean divisibles por el tamaño del bloque (lo que significa que podrías tener que usar relleno para el mensaje original). Además, en estos modos los datos también son operados directamente por el cifrado por bloques (y no solo combinados con el resultado de una operación de cifrado por bloques como en el modo OFB).
 
 Por lo tanto, se puede definir un **cifrado por bloques** como cualquier esquema de cifrado que funcione con bloques de longitud fija del mensaje cada vez (donde cualquier bloque debe ser mayor que un byte, de lo contrario se convierte en un cifrado de flujo). Tanto los datos para cifrar como el texto cifrado deben dividirse uniformemente en este tamaño de bloque. Normalmente, el tamaño del bloque es de 64, 128, 192 o 256 bits de longitud. En cambio, un cifrado de flujo puede cifrar cualquier mensaje en trozos de un bit o byte cada vez.
 
@@ -1303,7 +1302,7 @@ En ambos casos, el atacante podría no tener ninguna idea del contenido de los t
 
 Los códigos de autenticación de mensajes se definen vagamente como esquemas criptográficos simétricos con tres algoritmos: un algoritmo de generación de claves, un algoritmo de generación de etiquetas y un algoritmo de verificación. Un MAC seguro garantiza que las etiquetas sean **inexistentemente infalsificables** para cualquier atacante, es decir, que no puedan crear con éxito una etiqueta en el mensaje que verifica, a menos que tengan la clave privada.
 
-Bob y Alice pueden combatir la manipulación de un mensaje concreto utilizando una MAC. Supongamos por el momento que no les importa el secreto. Sólo quieren asegurarse de que el mensaje recibido por Alice procede realmente de Bob y no ha sido modificado en modo alguno.
+Bob y Alice pueden combatir la manipulación de un mensaje concreto utilizando una MAC. Supongamos por el momento que no les importa el secreto. solo quieren asegurarse de que el mensaje recibido por Alice procede realmente de Bob y no ha sido modificado en modo alguno.
 
 El proceso se muestra en la *Figura 9*. Para utilizar un **MAC** (Código de Autenticación de Mensaje), primero generarían una clave privada $K$ que se comparte entre los dos. Bob crea una etiqueta $T$ para el mensaje utilizando la clave privada $K$. A continuación, envía el mensaje y la etiqueta a Alice. Ésta puede verificar que Bob ha creado la etiqueta, pasando la clave privada, el mensaje y la etiqueta por un algoritmo de verificación.
 
@@ -1337,7 +1336,7 @@ El principio antes mencionado se aplica de forma más general: *siempre debes us
 
 En la *Figura 10* se muestra un esquema de cifrado autenticado. Bob crea primero un texto cifrado $C$ a partir del mensaje $M$ utilizando una clave seleccionada aleatoriamente $K_C$. A continuación, crea una etiqueta de mensaje $T$ ejecutando el texto cifrado y una clave diferente seleccionada aleatoriamente $K_T$ a través del algoritmo de generación de etiquetas. Tanto el texto cifrado como la etiqueta del mensaje se envían a Alice.
 
-Alice comprueba primero si la etiqueta es válida dado el texto cifrado $C$ y la clave $K_T$. Si es válida, puede descifrar el mensaje utilizando la clave $K_C$. No sólo se asegura una noción muy fuerte de secreto en sus comunicaciones, sino que también sabe que el mensaje fue creado por Bob.
+Alice comprueba primero si la etiqueta es válida dado el texto cifrado $C$ y la clave $K_T$. Si es válida, puede descifrar el mensaje utilizando la clave $K_C$. No solo se asegura una noción muy fuerte de secreto en sus comunicaciones, sino que también sabe que el mensaje fue creado por Bob.
 
 *Figura 10: Esquema de encriptación autenticada*
 
@@ -1500,9 +1499,9 @@ Para empezar, utilizando una tabla ASCII, podemos ver que "SOUP" codificado por 
 | 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
 | 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-El ejemplo que acabamos de discutir es sólo una versión diluida del **cifrado de flujo RC4**. El cifrado de flujo RC4 real tiene una matriz **S** de 256 bytes de longitud, no 8 bytes, y una clave que puede estar entre 1 y 256 bytes, no entre 1 y 8 bytes. La matriz de claves y los flujos de claves se producen teniendo en cuenta la longitud de 256 bytes de la matriz **S**. Los cálculos se vuelven inmensamente más complejos, pero los principios siguen siendo los mismos. Utilizando la misma clave, 14,48,9, con el cifrado estándar RC4, el mensaje en texto plano "SOUP" se cifra como 67 02 ed df en formato hexadecimal.
+El ejemplo que acabamos de discutir es solo una versión diluida del **cifrado de flujo RC4**. El cifrado de flujo RC4 real tiene una matriz **S** de 256 bytes de longitud, no 8 bytes, y una clave que puede estar entre 1 y 256 bytes, no entre 1 y 8 bytes. La matriz de claves y los flujos de claves se producen teniendo en cuenta la longitud de 256 bytes de la matriz **S**. Los cálculos se vuelven inmensamente más complejos, pero los principios siguen siendo los mismos. Utilizando la misma clave, 14,48,9, con el cifrado estándar RC4, el mensaje en texto plano "SOUP" se cifra como 67 02 ed df en formato hexadecimal.
 
-Un cifrado de flujo en el que el flujo de claves se actualiza independientemente del mensaje en claro o del texto cifrado es un **cifrado de flujo síncrono**. El flujo de claves sólo depende de la clave. Claramente, RC4 es un ejemplo de cifrado de flujo síncrono, ya que el flujo de claves no tiene relación con el texto plano o el texto cifrado. Todos nuestros cifradores de flujo primitivos mencionados en el capítulo anterior, incluidos el cifrado por desplazamiento, el cifrado de Vigenère y la almohadilla de un solo uso, también eran de la variedad síncrona.
+Un cifrado de flujo en el que el flujo de claves se actualiza independientemente del mensaje en claro o del texto cifrado es un **cifrado de flujo síncrono**. El flujo de claves solo depende de la clave. Claramente, RC4 es un ejemplo de cifrado de flujo síncrono, ya que el flujo de claves no tiene relación con el texto plano o el texto cifrado. Todos nuestros cifradores de flujo primitivos mencionados en el capítulo anterior, incluidos el cifrado por desplazamiento, el cifrado de Vigenère y la almohadilla de un solo uso, también eran de la variedad síncrona.
 
 Por el contrario, un **cifrado de flujo asíncrono** tiene un flujo clave que es producido tanto por la clave como por los elementos previos del texto cifrado. Este tipo de cifrado también se denomina **cifrado autosincrónico**.
 
@@ -1696,19 +1695,19 @@ Bob y Jim's Sporting Goods querrán asegurarse de que sus comunicaciones son seg
 
 Un esquema avanzado de encriptación autenticada como el discutido en el capítulo anterior podría ciertamente hacer seguras las comunicaciones entre Bob y Jim's Sporting Goods. Pero es evidente que existen obstáculos prácticos a la hora de aplicar un esquema de este tipo.
 
-Para ilustrar estos obstáculos prácticos, supongamos que viviéramos en un mundo en el que sólo existieran las herramientas de la criptografía simétrica. ¿Qué podrían hacer entonces Jim's Sporting Goods y Bob para garantizar una comunicación segura?
+Para ilustrar estos obstáculos prácticos, supongamos que viviéramos en un mundo en el que solo existieran las herramientas de la criptografía simétrica. ¿Qué podrían hacer entonces Jim's Sporting Goods y Bob para garantizar una comunicación segura?
 
 En esas circunstancias, se enfrentarían a costes sustanciales para comunicarse de forma segura. Como Internet es un sistema de comunicaciones abierto, no pueden intercambiar un juego de claves a través de él. Por lo tanto, Bob y un representante de Jim's Sporting Goods tendrán que realizar un intercambio de claves en persona.
 
 Una posibilidad es que Jim's Sporting Goods cree lugares especiales de intercambio de claves, donde Bob y otros nuevos clientes puedan recuperar un juego de claves para una comunicación segura. Obviamente, esto supondría un coste organizativo considerable y reduciría en gran medida la eficacia con la que los nuevos clientes pueden realizar sus compras.
 
-Como alternativa, Jim's Sporting Goods puede enviar a Bob un par de llaves con un mensajero de confianza. Esto es probablemente más eficaz que organizar lugares de intercambio de llaves. Pero esto seguiría teniendo un coste considerable, sobre todo si muchos clientes sólo hacen una o pocas compras.
+Como alternativa, Jim's Sporting Goods puede enviar a Bob un par de llaves con un mensajero de confianza. Esto es probablemente más eficaz que organizar lugares de intercambio de llaves. Pero esto seguiría teniendo un coste considerable, sobre todo si muchos clientes solo hacen una o pocas compras.
 
 Además, un esquema simétrico para el cifrado autenticado también obliga a Jim's Sporting Goods a almacenar conjuntos separados de claves para todos sus clientes. Esto supondría un reto práctico importante para miles de clientes, por no hablar de millones.
 
 Para entender este último punto, supongamos que Jim's Sporting Goods proporciona a cada cliente el mismo par de claves. Esto permitiría a cada cliente -o a cualquier otra persona que pudiera obtener este par de claves- leer e incluso manipular todas las comunicaciones entre Jim's Sporting Goods y sus clientes. Por tanto, sería mejor que no utilizara criptografía en sus comunicaciones.
 
-Incluso repetir un conjunto de claves sólo para algunos clientes es una práctica de seguridad terrible. Cualquier atacante potencial podría intentar explotar esa característica del esquema (recuerde que se supone que los atacantes lo saben todo sobre un esquema excepto las claves, de acuerdo con el principio de Kerckhoffs)
+Incluso repetir un conjunto de claves solo para algunos clientes es una práctica de seguridad terrible. Cualquier atacante potencial podría intentar explotar esa característica del esquema (recuerde que se supone que los atacantes lo saben todo sobre un esquema excepto las claves, de acuerdo con el principio de Kerckhoffs)
 
 Así, Jim's Sporting Goods tendría que almacenar un par de claves para cada cliente, independientemente de cómo se distribuyan estos pares de claves. Esto plantea claramente varios problemas prácticos.
 
@@ -1741,19 +1740,19 @@ La primera solución que ofrecieron fue un *protocolo de intercambio de claves* 
 
 Con el intercambio de claves Diffie-Helmann, dos partes intercambian primero cierta información públicamente en un canal inseguro como Internet. A partir de esa información, crean independientemente una clave simétrica (o un par de claves simétricas) para una comunicación segura. Aunque ambas partes crean sus claves de forma independiente, la información que comparten públicamente garantiza que este proceso de creación de claves produce el mismo resultado para ambas.
 
-Es importante destacar que, aunque todo el mundo puede observar la información que intercambian públicamente las partes a través del canal inseguro, sólo las dos partes que participan en el intercambio de información pueden crear claves simétricas a partir de ella.
+Es importante destacar que, aunque todo el mundo puede observar la información que intercambian públicamente las partes a través del canal inseguro, solo las dos partes que participan en el intercambio de información pueden crear claves simétricas a partir de ella.
 
-Esto, por supuesto, suena completamente contraintuitivo. ¿Cómo podrían dos partes intercambiar públicamente una información que sólo les permitiera crear claves simétricas a partir de ella? ¿Por qué nadie más que observe el intercambio de información podría crear las mismas claves?
+Esto, por supuesto, suena completamente contraintuitivo. ¿Cómo podrían dos partes intercambiar públicamente una información que solo les permitiera crear claves simétricas a partir de ella? ¿Por qué nadie más que observe el intercambio de información podría crear las mismas claves?
 
 Por supuesto, se basa en unas bellas matemáticas. El intercambio de claves Diffie-Helmann funciona mediante una función unidireccional con una trampilla. Veamos el significado de estos dos términos.
 
-Supongamos que nos dan una función $f(x)$ y el resultado $f(a) = y$, donde $a$ es un valor particular de $x$. Decimos que $f(x)$ es una **función unidireccional** si es fácil calcular el valor $y$ cuando se dan $a$ y $f(x)$, pero es computacionalmente inviable calcular el valor $a$ cuando se dan $y$ y $f(x)$. El nombre **función unidireccional**, por supuesto, proviene del hecho de que tal función sólo es práctica para calcular en una dirección.
+Supongamos que nos dan una función $f(x)$ y el resultado $f(a) = y$, donde $a$ es un valor particular de $x$. Decimos que $f(x)$ es una **función unidireccional** si es fácil calcular el valor $y$ cuando se dan $a$ y $f(x)$, pero es computacionalmente inviable calcular el valor $a$ cuando se dan $y$ y $f(x)$. El nombre **función unidireccional**, por supuesto, proviene del hecho de que tal función solo es práctica para calcular en una dirección.
 
 Algunas funciones unidireccionales tienen lo que se conoce como **puerta trampa**. Mientras que es prácticamente imposible calcular $a$ a partir de $y$ y $f(x)$, existe una cierta información $Z$ que hace que calcular $a$ a partir de $y$ sea computacionalmente factible. Este dato $Z$ se conoce como **puerta trampa**. Las funciones unidireccionales que tienen una trampilla se conocen como **funciones de trampilla**.
 
 No vamos a entrar aquí en los detalles del intercambio de claves Diffie-Helmann. Pero, en esencia, cada participante crea cierta información, de la que una parte se comparte públicamente y otra permanece secreta. Cada parte, entonces, toma su parte secreta de información y la información pública compartida por la otra parte para crear una clave privada. Y, milagrosamente, ambas partes acabarán teniendo la misma clave privada.
 
-Cualquiera que observe sólo la información compartida públicamente entre las dos partes en un intercambio de claves Diffie Helmann es incapaz de replicar estos cálculos. Para ello necesitaría la información privada de una de las dos partes.
+Cualquiera que observe solo la información compartida públicamente entre las dos partes en un intercambio de claves Diffie Helmann es incapaz de replicar estos cálculos. Para ello necesitaría la información privada de una de las dos partes.
 
 Aunque la versión básica del intercambio de claves Diffie-Helmann presentada en el artículo de 1976 no es muy segura, hoy en día se siguen utilizando versiones sofisticadas del protocolo básico. Y lo que es más importante, cada protocolo de intercambio de claves de la última versión del protocolo de seguridad de la capa de transporte (versión 1.3) es esencialmente una versión enriquecida del protocolo presentado por Diffie y Hellman en 1976. El protocolo de seguridad de la capa de transporte es el protocolo predominante para el intercambio seguro de información formateada según el protocolo de transferencia de hipertexto (http), el estándar para el intercambio de contenidos Web.
 
@@ -1761,7 +1760,7 @@ Es importante destacar que el intercambio de claves Diffie-Helmann no es un esqu
 
 La segunda forma que Diffie y Helmann ofrecieron para abordar el problema de la distribución y gestión de claves en su artículo de 1976 fue, por supuesto, la criptografía asimétrica.
 
-En contraste con su presentación del intercambio de claves Diffie-Hellman, sólo proporcionaron los contornos generales de cómo podrían construirse esquemas criptográficos asimétricos. No ofrecían ninguna función unidireccional que pudiera cumplir específicamente las condiciones necesarias para una seguridad razonable en dichos esquemas.
+En contraste con su presentación del intercambio de claves Diffie-Hellman, solo proporcionaron los contornos generales de cómo podrían construirse esquemas criptográficos asimétricos. No ofrecían ninguna función unidireccional que pudiera cumplir específicamente las condiciones necesarias para una seguridad razonable en dichos esquemas.
 
 Sin embargo, un año más tarde, tres criptógrafos y matemáticos académicos encontraron una aplicación práctica de un esquema asimétrico: Ronald Rivest, Adi Shamir y Leonard Adleman [3]. El criptosistema que introdujeron se conoció como el **criptosistema RSA** (por sus apellidos).
 
@@ -1811,9 +1810,9 @@ Esto contrasta fuertemente con un esquema de cifrado asimétrico, en el que todo
 
 Para entender mejor lo que ocurre, imagina que en lugar de enviar un mensaje electrónicamente, Bob quisiera enviar una carta física en secreto. Una forma de garantizar el secreto sería que Alice enviara un candado seguro a Bob, pero se quedara con la llave para abrirlo. Después de escribir su carta, Bob podría meterla en una caja y cerrarla con el candado de Alice. A continuación, podría enviar la caja cerrada con el mensaje a Alice, que tiene la llave para abrirla.
 
-Aunque Bob es capaz de cerrar el candado, ni él ni ninguna otra persona que intercepte la caja puede deshacer el candado si es que es seguro. Sólo Alice puede abrirlo y ver el contenido de la carta de Bob porque tiene la llave.
+Aunque Bob es capaz de cerrar el candado, ni él ni ninguna otra persona que intercepte la caja puede deshacer el candado si es que es seguro. solo Alice puede abrirlo y ver el contenido de la carta de Bob porque tiene la llave.
 
-Un esquema de cifrado asimétrico es, a grandes rasgos, una versión digital de este proceso. El candado es similar a la clave pública y la clave del candado es similar a la clave privada. Sin embargo, como el candado es digital, es mucho más fácil y no tan costoso para Alicia distribuirlo a cualquiera que quiera enviarle mensajes secretos.
+Un esquema de cifrado asimétrico es, a grandes rasgos, una versión digital de este proceso. El candado es similar a la clave pública y la clave del candado es similar a la clave privada. Sin embargo, como el candado es digital, es mucho más fácil y no tan costoso para Alice distribuirlo a cualquiera que quiera enviarle mensajes secretos.
 
 Para la autenticación en el entorno asimétrico, utilizamos **firmas digitales**. Éstas tienen la misma función que los códigos de autenticación de mensajes en el entorno simétrico. En la *Figura 2* se ofrece una visión general de las firmas digitales.
 
@@ -1827,7 +1826,7 @@ Una firma digital es, como su nombre indica claramente, el equivalente digital d
 
 ![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
-Al igual que ocurre con el cifrado asimétrico, observamos un interesante contraste entre las firmas digitales y los códigos de autenticación de mensajes. En el caso de estos últimos, el algoritmo de verificación sólo puede ser empleado por una de las partes conocedoras de la comunicación segura. Esto se debe a que requiere una clave privada. Sin embargo, en la configuración asimétrica, cualquiera puede verificar una firma digital $S$ realizada por Bob.
+Al igual que ocurre con el cifrado asimétrico, observamos un interesante contraste entre las firmas digitales y los códigos de autenticación de mensajes. En el caso de estos últimos, el algoritmo de verificación solo puede ser empleado por una de las partes conocedoras de la comunicación segura. Esto se debe a que requiere una clave privada. Sin embargo, en la configuración asimétrica, cualquiera puede verificar una firma digital $S$ realizada por Bob.
 
 Todo esto convierte a la firma digital en una herramienta extremadamente poderosa. Constituye la base, por ejemplo, de la creación de firmas en contratos que pueden verificarse con fines legales. Si Bob ha firmado un contrato en el intercambio anterior, Alice puede mostrar el mensaje $M$, el contrato y la firma $S$ a un tribunal. El tribunal puede, entonces, verificar la firma utilizando la clave pública de Bob. [5]
 
@@ -1841,11 +1840,11 @@ La prueba de propiedad sobre los resultados de transacciones no gastadas se mues
 
 Actualmente, las transacciones de Bitcoin incluyen de forma transparente toda la información que debe ser verificada por los participantes en la red, como el origen de los productos de transacción no gastados utilizados en la transacción. Aunque es posible ocultar parte de esa información y seguir permitiendo la verificación (como hacen algunas criptodivisas alternativas como Monero), esto también genera riesgos de seguridad particulares.
 
-A veces se produce confusión entre las firmas digitales y las firmas escritas capturadas digitalmente. En este último caso, usted captura una imagen de su firma escrita y la pega en un documento electrónico como un contrato de trabajo. Sin embargo, esto no es una firma digital en el sentido criptográfico. Esta última es sólo un número largo que sólo puede producirse estando en posesión de una clave privada.
+A veces se produce confusión entre las firmas digitales y las firmas escritas capturadas digitalmente. En este último caso, usted captura una imagen de su firma escrita y la pega en un documento electrónico como un contrato de trabajo. Sin embargo, esto no es una firma digital en el sentido criptográfico. Esta última es solo un número largo que solo puede producirse estando en posesión de una clave privada.
 
 Al igual que en la configuración de clave simétrica, también puedes utilizar conjuntamente esquemas de cifrado y autenticación asimétricos. Se aplican principios similares. En primer lugar, debes utilizar diferentes pares de claves públicas y privadas para el cifrado y la firma digital. Además, primero debes cifrar un mensaje y luego autenticarlo.
 
-Es importante destacar que, en muchas aplicaciones, la criptografía asimétrica no se utiliza durante todo el proceso de comunicación. En su lugar, normalmente sólo se utilizará para *intercambiar claves simétricas* entre las partes por las que realmente se comunicarán.
+Es importante destacar que, en muchas aplicaciones, la criptografía asimétrica no se utiliza durante todo el proceso de comunicación. En su lugar, normalmente solo se utilizará para *intercambiar claves simétricas* entre las partes por las que realmente se comunicarán.
 
 Es el caso, por ejemplo, de las compras en línea. Conociendo la clave pública del vendedor, éste puede enviarle mensajes firmados digitalmente cuya autenticidad usted puede verificar. Sobre esta base, puede seguir uno de los múltiples protocolos de intercambio de claves simétricas para comunicarse de forma segura.
 
@@ -1861,7 +1860,7 @@ La clave para entender este proceso con los certificados TLS/SSL es que, aunque 
 
 Por lo tanto, cuando Jim's Sporting Goods le proporcione su certificado TLS/SSL, puede verificar la firma digital de la autoridad de certificación mediante un certificado raíz en su navegador o sistema operativo. Si la firma es válida, puede estar relativamente seguro de que la clave pública del certificado pertenece realmente a Jim's Sporting Goods. Sobre esta base, es fácil establecer un protocolo de comunicación segura con Jim's Sporting Goods.
 
-La distribución de llaves se ha simplificado enormemente para Jim's Sporting Goods. No es difícil ver que la gestión de claves también se ha simplificado enormemente. En lugar de tener que almacenar miles de claves, Jim's Sporting Goods sólo necesita almacenar una clave privada que le permita firmar la clave pública de su certificado SSL. Cada vez que un cliente entra en el sitio de Jim's Sporting Goods, puede establecer una sesión de comunicación segura a partir de esta clave pública. Los clientes tampoco necesitan almacenar ninguna información (aparte de las claves públicas de las autoridades de certificación reconocidas en su sistema operativo y navegador).
+La distribución de llaves se ha simplificado enormemente para Jim's Sporting Goods. No es difícil ver que la gestión de claves también se ha simplificado enormemente. En lugar de tener que almacenar miles de claves, Jim's Sporting Goods solo necesita almacenar una clave privada que le permita firmar la clave pública de su certificado SSL. Cada vez que un cliente entra en el sitio de Jim's Sporting Goods, puede establecer una sesión de comunicación segura a partir de esta clave pública. Los clientes tampoco necesitan almacenar ninguna información (aparte de las claves públicas de las autoridades de certificación reconocidas en su sistema operativo y navegador).
 
 **Notas:**
 
@@ -1917,11 +1916,11 @@ Este proceso de verificación del software tiene dos beneficios principales. En 
 
 ¿Cómo protege exactamente de estos problemas el proceso de verificación de software descrito anteriormente?
 
-Si verificaste diligentemente las claves públicas que importaste, entonces puedes estar bastante seguro de que estas claves son realmente suyas y no han sido comprometidas. Dado que las firmas digitales tienen infalsificabilidad existencial, usted sabe que sólo estos contribuyentes podrían haber hecho una firma digital sobre los hashes del paquete oficial en el archivo de lanzamiento.
+Si verificaste diligentemente las claves públicas que importaste, entonces puedes estar bastante seguro de que estas claves son realmente suyas y no han sido comprometidas. Dado que las firmas digitales tienen infalsificabilidad existencial, usted sabe que solo estos contribuyentes podrían haber hecho una firma digital sobre los hashes del paquete oficial en el archivo de lanzamiento.
 
 Supongamos que las firmas del archivo de lanzamiento que ha descargado son correctas. Ahora puede comparar el valor hash que calculó localmente para el ejecutable de Windows que descargó con el incluido en el archivo de lanzamiento correctamente firmado. Como sabes, la función hash SHA-256 es resistente a la colisión, una coincidencia significa que tu ejecutable es exactamente igual al ejecutable oficial.
 
-Pasemos ahora a la segunda propiedad común de las funciones hash: **ocultamiento**. Se dice que cualquier función hash $H$ tiene la propiedad de ocultación si, para cualquier $x$ seleccionada aleatoriamente de un rango muy grande, es inviable encontrar $x$ cuando sólo se da $H(x)$.
+Pasemos ahora a la segunda propiedad común de las funciones hash: **ocultamiento**. Se dice que cualquier función hash $H$ tiene la propiedad de ocultación si, para cualquier $x$ seleccionada aleatoriamente de un rango muy grande, es inviable encontrar $x$ cuando solo se da $H(x)$.
 
 A continuación, puedes ver la salida SHA-256 de un mensaje que escribí. Para garantizar una aleatoriedad suficiente, el mensaje incluía al final una cadena de caracteres generada aleatoriamente. Dado que SHA-256 tiene la propiedad de ocultación, nadie sería capaz de descifrar este mensaje.
 
@@ -1933,11 +1932,11 @@ Pero no te dejaré en suspenso hasta que SHA-256 se debilite. El mensaje origina
 
 - "Este es un mensaje muy aleatorio, o bueno, algo aleatorio. Esta parte inicial no lo es, pero terminaré con algunos caracteres relativamente aleatorios para asegurar un mensaje muy impredecible. XLWz4dVG3BxUWm7zQ9qS".
 
-Una forma habitual de utilizar funciones hash con la propiedad de ocultación es en la gestión de contraseñas (la resistencia a las colisiones también es importante para esta aplicación). Cualquier servicio online decente basado en cuentas, como Facebook o Google, no almacenará tus contraseñas directamente para gestionar el acceso a tu cuenta. En su lugar, sólo almacenarán un hash de esa contraseña. Cada vez que introduces tu contraseña en un navegador, primero se calcula un hash. Sólo ese hash se envía al servidor del proveedor de servicios y se compara con el hash almacenado en la base de datos back-end. La propiedad de ocultación puede ayudar a garantizar que los atacantes no puedan recuperarla a partir del valor hash.
+Una forma habitual de utilizar funciones hash con la propiedad de ocultación es en la gestión de contraseñas (la resistencia a las colisiones también es importante para esta aplicación). Cualquier servicio online decente basado en cuentas, como Facebook o Google, no almacenará tus contraseñas directamente para gestionar el acceso a tu cuenta. En su lugar, solo almacenarán un hash de esa contraseña. Cada vez que introduces tu contraseña en un navegador, primero se calcula un hash. solo ese hash se envía al servidor del proveedor de servicios y se compara con el hash almacenado en la base de datos back-end. La propiedad de ocultación puede ayudar a garantizar que los atacantes no puedan recuperarla a partir del valor hash.
 
-La gestión de contraseñas mediante hashes, por supuesto, sólo funciona si los usuarios eligen realmente contraseñas difíciles. La propiedad de ocultar supone que x se elige aleatoriamente entre un rango muy amplio. Elegir contraseñas como "1234", "mypassword" o la fecha de tu cumpleaños no proporcionará ninguna seguridad real. Existen largas listas de contraseñas comunes y sus hashes que los atacantes pueden aprovechar si alguna vez obtienen el hash de tu contraseña. Este tipo de ataques se conocen como **ataques de diccionario**. Si los atacantes conocen algunos de tus datos personales, también pueden intentar adivinarlos con conocimiento de causa. Por lo tanto, siempre necesitas contraseñas largas y seguras (preferiblemente cadenas largas y aleatorias de un gestor de contraseñas).
+La gestión de contraseñas mediante hashes, por supuesto, solo funciona si los usuarios eligen realmente contraseñas difíciles. La propiedad de ocultar supone que x se elige aleatoriamente entre un rango muy amplio. Elegir contraseñas como "1234", "mypassword" o la fecha de tu cumpleaños no proporcionará ninguna seguridad real. Existen largas listas de contraseñas comunes y sus hashes que los atacantes pueden aprovechar si alguna vez obtienen el hash de tu contraseña. Este tipo de ataques se conocen como **ataques de diccionario**. Si los atacantes conocen algunos de tus datos personales, también pueden intentar adivinarlos con conocimiento de causa. Por lo tanto, siempre necesitas contraseñas largas y seguras (preferiblemente cadenas largas y aleatorias de un gestor de contraseñas).
 
-A veces una aplicación puede necesitar una función hash que tenga tanto resistencia a las colisiones como ocultación. Pero no siempre. El proceso de verificación de software del que hablamos, por ejemplo, sólo requiere que la función hash muestre resistencia a las colisiones, la ocultación no es importante.
+A veces una aplicación puede necesitar una función hash que tenga tanto resistencia a las colisiones como ocultación. Pero no siempre. El proceso de verificación de software del que hablamos, por ejemplo, solo requiere que la función hash muestre resistencia a las colisiones, la ocultación no es importante.
 
 Aunque la resistencia a las colisiones y la ocultación son las principales propiedades que se buscan de las funciones hash en criptografía, en determinadas aplicaciones también pueden ser deseables otro tipo de propiedades.
 
@@ -1976,7 +1975,7 @@ Todo lo que la última parte de esta afirmación significa es que se puede tomar
 - $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 - $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
-Para los tres números enteros anteriores, calcular sus factores primos es relativamente fácil, incluso si sólo se dan $N$. Se empieza con el número primo más pequeño, el 2, y se comprueba cuántas veces el entero $N$ es divisible por él. A continuación, se comprueba la divisibilidad de $N$ por 3, 5, 7, etc. Se continúa este proceso hasta que el número entero $N$ es divisible por $N$. Se continúa este proceso hasta que el entero $N$ se escribe como el producto de sólo números primos.
+Para los tres números enteros anteriores, calcular sus factores primos es relativamente fácil, incluso si solo se dan $N$. Se empieza con el número primo más pequeño, el 2, y se comprueba cuántas veces el entero $N$ es divisible por él. A continuación, se comprueba la divisibilidad de $N$ por 3, 5, 7, etc. Se continúa este proceso hasta que el número entero $N$ es divisible por $N$. Se continúa este proceso hasta que el entero $N$ se escribe como el producto de solo números primos.
 
 Tomemos, por ejemplo, el número entero 84. A continuación puedes ver el proceso para determinar sus factores primos. En cada paso, sacamos el factor primo más pequeño que queda (a la izquierda) y determinamos el término restante que hay que factorizar. Continuamos hasta que el término restante es también un número primo. En cada paso, la factorización actual de 84 se muestra en el extremo derecho.
 
@@ -2018,7 +2017,7 @@ Es importante apreciar lo grandes que son $p$ y $q$ si se seleccionan en las con
 
 Supongamos ahora que tras seleccionar aleatoriamente los números primos $p$ y $q$, los multiplicamos para obtener un número entero $N$. Este último entero, por tanto, es un número de 2048 bits que requiere al menos 2048 bits para su representación. Es muchísimo mayor que $p$ o $q$.
 
-Supongamos que sólo le damos a un ordenador $N$, y le pedimos que encuentre los dos factores primos de 1024 bits de $N$. La probabilidad de que el ordenador descubra $p$ y $q$ es extremadamente pequeña. Se puede decir que es imposible a efectos prácticos. Esto es así, incluso si se empleara un superordenador o incluso una red de superordenadores.
+Supongamos que solo le damos a un ordenador $N$, y le pedimos que encuentre los dos factores primos de 1024 bits de $N$. La probabilidad de que el ordenador descubra $p$ y $q$ es extremadamente pequeña. Se puede decir que es imposible a efectos prácticos. Esto es así, incluso si se empleara un superordenador o incluso una red de superordenadores.
 
 Para empezar, supongamos que el ordenador intenta resolver el problema recorriendo 1024 números de bits, probando en cada caso si son primos y si son factores de $N$. El conjunto de números primos a probar es entonces aproximadamente $1.265 \cdot 10^{305}$. [2]
 
@@ -2028,11 +2027,11 @@ Ahora bien, en la práctica, un ordenador puede hacerlo mejor que el procedimien
 
 Es importante destacar que la dificultad de la factorización en las condiciones que acabamos de describir se basa en la suposición de que no existen algoritmos computacionalmente eficientes para calcular los factores primos. En realidad, no podemos demostrar que no exista un algoritmo eficiente. Sin embargo, esta suposición es muy plausible: a pesar de los grandes esfuerzos realizados durante cientos de años, todavía no hemos encontrado un algoritmo computacionalmente eficiente.
 
-Por lo tanto, el problema de factorización, bajo ciertas circunstancias, puede suponerse plausiblemente que es un problema difícil. En concreto, cuando $p$ y $q$ son números primos muy grandes, su producto $N$ no es difícil de calcular; pero la factorización sólo dado $N$ es prácticamente imposible.
+Por lo tanto, el problema de factorización, bajo ciertas circunstancias, puede suponerse plausiblemente que es un problema difícil. En concreto, cuando $p$ y $q$ son números primos muy grandes, su producto $N$ no es difícil de calcular; pero la factorización solo dado $N$ es prácticamente imposible.
 
 **Notas:**
 
-[1] La factorización también puede ser importante para trabajar con otros tipos de objetos matemáticos distintos de los números. Por ejemplo, puede ser útil para factorizar expresiones polinómicas como $x^2 - 2x + 1$. En nuestra discusión, sólo nos centraremos en la factorización de números, específicamente enteros.
+[1] La factorización también puede ser importante para trabajar con otros tipos de objetos matemáticos distintos de los números. Por ejemplo, puede ser útil para factorizar expresiones polinómicas como $x^2 - 2x + 1$. En nuestra discusión, solo nos centraremos en la factorización de números, específicamente enteros.
 
 [2] Según el **teorema del número primo**, el número de primos menores o iguales que $N$ es aproximadamente $N/\ln(N)$. Esto significa que se puede aproximar el número de primos de longitud 1024 bits por:
 
@@ -2086,13 +2085,13 @@ Este es un resultado clave para el problema RSA en particular, y se establece en
 
 **Proposición 2**. Si $N$ es el producto de dos primos, $p$ y $q$, el orden de $N$ es el producto $(p - 1) \cdot (q - 1)$.
 
-Para ilustrarlo, supongamos que $N = 119$. Este número entero se puede descomponer en dos primos, a saber, 7 y 17. Por lo tanto, la función Phi de Euler sugiere que el orden de 119 es el siguiente:
+Para ilustrarlo, supongamos que $N = 119$. Este número entero se puede descomponer en dos primos, de hecho, 7 y 17. Por lo tanto, la función Phi de Euler sugiere que el orden de 119 es el siguiente:
 
 $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 En otras palabras, el número entero 119 tiene 96 coprimos en el intervalo de 1 a 119. De hecho, este conjunto incluye todos los números enteros de 1 a 119 que no son múltiplos ni de 7 ni de 17. De hecho, este conjunto incluye todos los números enteros de 1 a 119 que no son múltiplos de 7 ni de 17.
 
-De aquí en adelante, vamos a denotar el conjunto de coprimas que determina el orden de $N$ como $C_N$. Para nuestro ejemplo en el que $N = 119$, el conjunto $C_{119}$ es demasiado grande para enumerarlo completamente. Pero algunos de los elementos son los siguientes:
+De aquí en adelante, vamos a denotar el conjunto de coprimos que determina el orden de $N$ como $C_N$. Para nuestro ejemplo en el que $N = 119$, el conjunto $C_{119}$ es demasiado grande para enumerarlo completamente. Pero algunos de los elementos son los siguientes:
 
 $$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
 
@@ -2107,7 +2106,7 @@ Supongamos, por ejemplo, que $a = 5$ y $N = 11$. Hay muchos enteros por los que 
 - $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
 - $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
-Mientras que 5 tiene muchos inversos de reducción módulo 11, se puede demostrar que sólo existe un único inverso positivo de 5 que es menor que 11. De hecho, esto no es exclusivo de nuestro ejemplo particular, sino un resultado general.
+Mientras que 5 tiene muchos inversos de reducción módulo 11, se puede demostrar que solo existe un único inverso positivo de 5 que es menor que 11. De hecho, esto no es exclusivo de nuestro ejemplo particular, sino un resultado general.
 
 **Proposición 3**. Si el entero $a$ es invertible módulo $N$, debe darse el caso de que exactamente un inverso positivo de $a$ sea menor que $N$. (Así, este único inverso de $a$ debe proceder del conjunto $\{1, \dots, N - 1\}$).
 
@@ -2119,7 +2118,7 @@ No es necesariamente el caso de que exista una reducción inversa de $a$ módulo
 
 ¿Cómo sabemos exactamente si un número entero $a$ tiene inverso para un $N$ dado? Como habrás observado en el ejemplo anterior, el máximo común divisor entre 2 y 8 es mayor que 1, es decir, 2. Y esto es en realidad ilustrativo del siguiente resultado general:
 
-**Proposición 4**. Existe un inverso de un entero $a$ dada la reducción módulo $N$, y en concreto un único inverso positivo menor que $N$, si y sólo si el máximo común divisor entre $a$ y $N$ es 1 (es decir, si son coprimos).
+**Proposición 4**. Existe un inverso de un entero $a$ dada la reducción módulo $N$, y en concreto un único inverso positivo menor que $N$, si y solo si el máximo común divisor entre $a$ y $N$ es 1 (es decir, si son coprimos).
 
 Para el caso en que $a = 5$ y $N = 11$, concluimos que $a^{-1} = 9$, dado que $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. Es importante señalar que lo contrario también es cierto. Es decir, cuando $a = 9$ y $N = 11$, se da el caso de que $a^{-1} = 5$.
 
@@ -2127,11 +2126,11 @@ Para el caso en que $a = 5$ y $N = 11$, concluimos que $a^{-1} = 9$, dado que $5
 
 Antes de pasar al problema RSA, necesitamos entender otro teorema crucial, el **teorema de Euler**. Establece lo siguiente:
 
-**Teorema 3**. Supongamos que dos enteros $a$ y $N$ son coprimas. Entonces, $a^{\phi(N)} \mod N = 1 \mod N$.
+**Teorema 3**. Supongamos que dos enteros $a$ y $N$ son coprimos. Entonces, $a^{\phi(N)} \mod N = 1 \mod N$.
 
 Es un resultado notable, pero un poco confuso al principio. Recurramos a un ejemplo para entenderlo.
 
-Supongamos que $a = 5$ y $N = 7$. Efectivamente, son coprimas, como exige el teorema de Euler. Sabemos que el orden de 7 es igual a 6, dado que 7 es un número primo (ver **Proposición 1**).
+Supongamos que $a = 5$ y $N = 7$. Efectivamente, son coprimos, como exige el teorema de Euler. Sabemos que el orden de 7 es igual a 6, dado que 7 es un número primo (ver **Proposición 1**).
 
 Lo que el teorema de Euler afirma ahora es que $5^6 \mod 7$ debe ser igual a $1 \mod 7$. A continuación se presentan los cálculos para demostrar que esto es cierto.
 
@@ -2146,7 +2145,7 @@ A continuación, utilizando la función Phi de Euler, **Teorema 2**, se puede de
 
 No vamos a demostrar por qué es así. Pero simplemente tenga en cuenta que ya ha visto la evidencia de esta proposición por el hecho de que $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ cuando $p$ y $q$ son primos, como se indica en **Proposición 2**.
 
-El teorema de Euler junto con la **Proposición 5** tiene implicaciones importantes. Véase lo que ocurre, por ejemplo, en las expresiones siguientes, donde $a$ y $N$ son coprimas.
+El teorema de Euler junto con la **Proposición 5** tiene implicaciones importantes. Véase lo que ocurre, por ejemplo, en las expresiones siguientes, donde $a$ y $N$ son coprimos.
 
 
 - $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
@@ -2159,9 +2158,9 @@ Por tanto, la combinación del teorema de Euler y la **Proposición 5** nos perm
 
 Ahora tenemos que unirlo todo en un último paso complicado.
 
-Igual que $N$ tiene un orden $\phi(N)$ que incluye los elementos del conjunto $C_N$, sabemos que el entero $\phi(N)$ debe tener a su vez también un orden y un conjunto de coprimas. Pongamos que $\phi(N) = R$. Entonces sabemos que también hay un valor para $\phi(R)$ y un conjunto de coprimas $C_R$.
+Igual que $N$ tiene un orden $\phi(N)$ que incluye los elementos del conjunto $C_N$, sabemos que el entero $\phi(N)$ debe tener a su vez también un orden y un conjunto de coprimos. Pongamos que $\phi(N) = R$. Entonces sabemos que también hay un valor para $\phi(R)$ y un conjunto de coprimos $C_R$.
 
-Supongamos que ahora seleccionamos un entero $e$ del conjunto $C_R$. Sabemos por la **Proposición 3** que este entero $e$ sólo tiene un único inverso positivo menor que $R$. Es decir, $e$ tiene un único inverso del conjunto $C_R$. Llamemos a este inverso $d$. Dada la definición de inverso, esto significa que $e \cdot d = 1 \mod R$.
+Supongamos que ahora seleccionamos un entero $e$ del conjunto $C_R$. Sabemos por la **Proposición 3** que este entero $e$ solo tiene un único inverso positivo menor que $R$. Es decir, $e$ tiene un único inverso del conjunto $C_R$. Llamemos a este inverso $d$. Dada la definición de inverso, esto significa que $e \cdot d = 1 \mod R$.
 
 Podemos usar este resultado para hacer una afirmación sobre nuestro entero original $N$. Esto se resume en la **Proposición 7**.
 
@@ -2179,13 +2178,13 @@ Ahora estamos listos para plantear el problema RSA. Supongamos que creamos un co
 
 2. Calcular el orden de $N$, $\phi(N)$, mediante el siguiente producto: $(p - 1) \cdot (q - 1)$.
 
-3. Seleccionar una $e > 2$ tal que sea menor y coprima a $\phi(N)$.
+3. Seleccionar una $e > 2$ tal que sea menor y coprimo a $\phi(N)$.
 
 4. Calcular $d$ estableciendo $e \cdot d \mod \phi(N) = 1$.
 
 5. Selecciona un valor aleatorio $y$ que sea menor y coprimo a $N$.
 
-El problema RSA consiste en encontrar una $x$ tal que $x^e = y$, con sólo un subconjunto de información sobre $\Pi$, a saber, las variables $N$, $e$ e $y$. Cuando $p$ y $q$ son muy grandes, normalmente se recomienda que tengan un tamaño de 1024 bits, se considera que el problema RSA es difícil. Ahora puede ver por qué es así, dada la discusión anterior.
+El problema RSA consiste en encontrar una $x$ tal que $x^e = y$, con solo un subconjunto de información sobre $\Pi$, a saber, las variables $N$, $e$ e $y$. Cuando $p$ y $q$ son muy grandes, normalmente se recomienda que tengan un tamaño de 1024 bits, se considera que el problema RSA es difícil. Ahora puede ver por qué es así, dada la discusión anterior.
 
 Una forma fácil de calcular $x$ cuando $x^e \mod N = y \mod N$ es simplemente calculando $y^d \mod N$. Sabemos $y^d \mod N = x \mod N$ por los siguientes cálculos:
 
@@ -2199,9 +2198,9 @@ Por último, el orden podría calcularse indirectamente con los factores primos 
 
 En sentido estricto, aunque el problema de factorización dentro de un problema RSA sea difícil, no podemos demostrar que el problema RSA también lo sea. Es posible que haya otras formas de resolver el problema RSA que no sean la factorización. Sin embargo, en general se acepta y se asume que si el problema de factorización dentro del problema RSA es difícil, el problema RSA en sí también lo es.
 
-Si el problema RSA es realmente difícil, entonces produce una función unidireccional con una puerta trampa. La función aquí es $f(g) = g^e \mod N$. Conociendo $f(g)$, cualquiera podría calcular fácilmente un valor $y$ para un $g = x$ concreto. Sin embargo, es prácticamente imposible calcular un valor concreto $x$ sólo conociendo el valor $y$ y la función $f(g)$. La excepción es cuando te dan un dato $d$, la trampilla. En ese caso, basta con calcular $y^d$ para obtener $x$.
+Si el problema RSA es realmente difícil, entonces produce una función unidireccional con una puerta trampa. La función aquí es $f(g) = g^e \mod N$. Conociendo $f(g)$, cualquiera podría calcular fácilmente un valor $y$ para un $g = x$ concreto. Sin embargo, es prácticamente imposible calcular un valor concreto $x$ solo conociendo el valor $y$ y la función $f(g)$. La excepción es cuando te dan un dato $d$, la trampilla. En ese caso, basta con calcular $y^d$ para obtener $x$.
 
-Veamos un ejemplo concreto para ilustrar el problema RSA. No puedo seleccionar un problema RSA que se consideraría difícil en las condiciones anteriores, ya que los números serían difíciles de manejar. En su lugar, este ejemplo es sólo para ilustrar cómo funciona en general el problema RSA.
+Veamos un ejemplo concreto para ilustrar el problema RSA. No puedo seleccionar un problema RSA que se consideraría difícil en las condiciones anteriores, ya que los números serían difíciles de manejar. En su lugar, este ejemplo es solo para ilustrar cómo funciona en general el problema RSA.
 
 Para empezar, supongamos que seleccionamos dos números primos aleatorios 13 y 31$. Entonces $p = 13$ y $q = 31$. El producto $N$ de estos dos primos es igual a 403. Podemos calcular fácilmente el orden de 403. Equivale a $(13 - 1) \cdot (31 - 1) = 360$.
 
@@ -2236,11 +2235,11 @@ Ya hemos presentado el problema RSA, un conjunto de condiciones bajo las cuales 
 
 Un enfoque consiste en tomar el problema RSA y construir esquemas de forma directa. Por ejemplo, supongamos que hemos generado un conjunto de variables $\Pi$ como se describe en el problema RSA, y nos aseguramos de que $p$ y $q$ son suficientemente grandes. Establece su clave pública igual a $(N, e)$ y comparte esta información con el mundo. Como se ha descrito anteriormente, se mantienen en secreto los valores de $p$, $q$, $\phi(n)$ y $d$. De hecho, $d$ es tu clave privada.
 
-Cualquiera que quiera enviarte un mensaje $m$ que sea un elemento de $C_N$ podría simplemente cifrarlo de la siguiente manera: $c = m^e \mod N$. (El texto cifrado $c$ aquí es equivalente al valor $y$ en el problema RSA.) Se puede descifrar fácilmente este mensaje con sólo calcular $c^d \mod N$.
+Cualquiera que quiera enviarte un mensaje $m$ que sea un elemento de $C_N$ podría simplemente cifrarlo de la siguiente manera: $c = m^e \mod N$. (El texto cifrado $c$ aquí es equivalente al valor $y$ en el problema RSA.) Se puede descifrar fácilmente este mensaje con solo calcular $c^d \mod N$.
 
 Puedes intentar crear un esquema de firma digital de la misma manera. Supongamos que queremos enviar a alguien un mensaje $m$ con una firma digital $S$. Podría simplemente establecer $S = m^d \mod N$ y enviar el par $(m,S)$ al destinatario. Cualquiera puede verificar la firma digital simplemente comprobando si $S^e \mod N = m \mod N$. Cualquier atacante, sin embargo, lo tendría realmente difícil para crear una $S$ válida para un mensaje, dado que no posee $d$.
 
-Desgraciadamente, convertir lo que de por sí es un problema difícil, el problema RSA, en un esquema criptográfico no es tan sencillo. Para el esquema de cifrado directo, sólo se pueden seleccionar coprimos de $N$ como mensajes. Eso no nos deja con muchos mensajes posibles, desde luego no los suficientes para una comunicación estándar. Además, estos mensajes tienen que seleccionarse aleatoriamente. Parece poco práctico. Por último, cualquier mensaje que se seleccione dos veces producirá exactamente el mismo texto cifrado. Esto es extremadamente indeseable en cualquier esquema de cifrado y no cumple ninguna noción estándar moderna rigurosa de seguridad en el cifrado.
+Desgraciadamente, convertir lo que de por sí es un problema difícil, el problema RSA, en un esquema criptográfico no es tan sencillo. Para el esquema de cifrado directo, solo se pueden seleccionar coprimos de $N$ como mensajes. Eso no nos deja con muchos mensajes posibles, desde luego no los suficientes para una comunicación estándar. Además, estos mensajes tienen que seleccionarse aleatoriamente. Parece poco práctico. Por último, cualquier mensaje que se seleccione dos veces producirá exactamente el mismo texto cifrado. Esto es extremadamente indeseable en cualquier esquema de cifrado y no cumple ninguna noción estándar moderna rigurosa de seguridad en el cifrado.
 
 Los problemas se agravan aún más para nuestro sencillo esquema de firma digital. Tal y como está, cualquier atacante puede falsificar fácilmente firmas digitales simplemente seleccionando primero un coprimo de $N$ como firma y calculando después el mensaje original correspondiente. Esto incumple claramente el requisito de infalsificabilidad existencial.
 

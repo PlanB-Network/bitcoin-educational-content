@@ -1,0 +1,9 @@
+question: ชื่อบัญชีที่ใช้สำหรับ UTXOs ที่ไม่สามารถเข้าสู่ Whirlpool coinjoin pool ได้คืออะไร?
+answer: Doxxic เปลี่ยนบัญชี
+wrong_answers:
+  - บัญชี Postmix.
+  - บัญชีพรีมิกซ์
+  - บัญชีเงินฝาก
+explanation: |
+  การเปลี่ยนแปลงที่ไม่สามารถเข้าร่วมพูลได้ถูกแยกออกใน "บัญชีเปลี่ยนแปลง doxxic" เพื่อให้แน่ใจว่ามีการแยกอย่างเข้มงวดจาก UTXOs อื่น ๆ ใน wallet
+reviewed: true

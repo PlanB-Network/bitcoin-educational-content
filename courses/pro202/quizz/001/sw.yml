@@ -1,0 +1,8 @@
+question: Sehemu yenye kikomo F(p) katika mfumo wa usimbaji wa Bitcoin ni nini?
+answer: Mfumo wa hesabu unaofafanuliwa na nambari kuu p, yenye vipengele 0 hadi p-1
+wrong_answers:
+  - Seti isiyo na kikomo ya nambari zinazotumika kutengeneza anwani na funguo za Bitcoin
+  - Sehemu ya hisabati yenye nambari zote halisi kati ya 0 na p-1 ikijumuisha
+  - Kitendakazi cha hashi cha kriptografia kinachotoa matokeo ya biti p haswa kwa urefu
+explanation: |
+  Sehemu yenye kikomo F(p) ni mfumo wa hesabu uliojengwa karibu na nambari kuu p ambayo ina vipengele vya p haswa: nambari kamili kutoka 0 hadi p-1. Kipengele cha 'kikomo' ni muhimu - sio kisicho na kikomo, na sio kuhusu nambari halisi au vitendakazi vya hashi. Sehemu kuu huhakikisha kila kipengele kisicho na sifuri kina kinyume cha kuzidisha, na shughuli zote za hesabu (kuongeza, kutoa, kuzidisha) huzunguka kwa kutumia modulo p, na kuweka matokeo ndani ya sehemu. Muundo huu ulio na mipaka na unaotabirika ni muhimu kwa usalama wa kriptografia wa Bitcoin.

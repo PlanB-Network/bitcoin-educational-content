@@ -1,5 +1,5 @@
 ---
-name: Сървър на BTCPay
+name: BTCPay Server
 description: Приемане на плащания с BTC без посредници
 ---
 
@@ -113,7 +113,7 @@ https://planb.academy/tutorials/business/point-of-sale/btcpay-server-umbrel-68e1
 
 
 
-Посетете [официалния уебсайт на Voltage] (https://voltage.cloud).
+Посетете [официалния уебсайт на Voltage](https://voltage.cloud).
 
 
 

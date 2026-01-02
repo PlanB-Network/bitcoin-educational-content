@@ -44,7 +44,7 @@ Bu anlamda, Plan ₿ Akademi'ye katkıda bulunan herkes eğitimcidir!
 ## Plan ₿ Academy'de redaksiyon öncesi ilk adımlar
 
 
-Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda] (https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [sorun] (https://github.com/orgs/PlanB-Network/projects/3) açacak olan Plan ₿ Academy koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, bu içeriğin düzeltme görevine başladığınızı **yorumlamanız yeterlidir.
+Yeni bir redaksiyon görevine başlamadan önce, bunu [Telegram grubunda](https://t.me/PlanBNetwork_ContentBuilder) duyurun veya özel bir [sorun](https://github.com/orgs/PlanB-Network/projects/3) açacak olan Plan ₿ Academy koordinatörünüzü bilgilendirin. Sorun bağlantısını aldığınızda, bu içeriğin düzeltme görevine başladığınızı **yorumlamanız yeterlidir.
 
 
 Bu sistem, koordinatörün repo içindeki ilerlemeyi takip etmesine yardımcı olur ve içeriğin düzeltmen tarafından "talep edilmesine" olanak tanıyarak başka biri tarafından yinelenen çabaları önler.

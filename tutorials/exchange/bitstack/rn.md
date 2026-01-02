@@ -40,7 +40,7 @@ Kugira ngo ubone porogaramu ya Bitstack, genda mu bubiko bwawe bw'iporogarama:
 
 
 - [Kuvana kuri Google Play](https://ugukina.google.com/iduka/porogaramu/ibisobanuro?id=com.ibice.porogarama&hl=fr)
-- [Ushobora gukuraho ku iduka rya porogarama] (iduka ry'iporogarama.
+- [Ushobora gukuraho ku iduka rya porogarama](iduka ry'iporogarama.
 
 
 ![Image](assets/fr/02.webp)

@@ -1,9 +1,9 @@
-question: Kapan Lightning Network divalidasi dan diimplementasikan?
-answer: 2017
+question: Mengapa saluran Lightning bisa tidak dapat digunakan dalam satu arah?
+answer: Likuiditas tidak mencukupi
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: >-
-  Lightning Network divalidasi dan diimplementasikan pada tahun 2017.
+  - Blok terlalu baru
+  - HTLC kedaluwarsa
+  - Node tidak tersinkronisasi
+explanation: |
+  Bahkan dengan kapasitas besar, saluran hanya memungkinkan pembayaran jika likuiditas yang cukup berada di sisi yang benar.
 reviewed: false

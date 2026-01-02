@@ -1,0 +1,9 @@
+question: Sur quel concept se fondait le fonctionnement de la coopérative distribuée P2Pool, créée par Forrest Voight en 2011 ?
+answer: La chaine de parts
+wrong_answers:
+  - Le long polling
+  - La signature de la coinbase
+  - Le FPGA
+explanation: |
+ La « chaine de parts », ou sharechain, était constituée des preuves de travail partielles apportées par les participants. Elle était maintenue par ces derniers qui étaient connectés en pair à pair. Chaque part contenait l'empreinte de la part précédente, ce qui lie assurait l'intégrité de l'ensemble.
+reviewed: false

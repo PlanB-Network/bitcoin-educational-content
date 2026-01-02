@@ -1,0 +1,8 @@
+question: Breez Liquid SDK'nın işlem yeteneklerini tam bir Lightning Network düğümünden ayıran temel sınırlama nedir?
+answer: Ana üs olarak yalnızca Liquid ile çalıştığı için doğrudan Lightning-to-Lightning veya Bitcoin-to-Bitcoin işlemlerini gerçekleştiremez
+wrong_answers:
+  - Zincirler arası akıllı sözleşme desteğinin olmaması nedeniyle farklı blok zinciri ağları arasındaki atomik takasları işleyemez
+  - "Liquid Network'in yerleşik işlem boyutu sınırlamaları nedeniyle 0,1 BTC'den büyük işlemleri işleyemez"
+  - İnternet bağlantısı olmadan çalışamaz çünkü merkezi Breez sunucuları ile sürekli senkronizasyon gerektirir
+explanation: |
+  SDK açıkça 'ana üs' olarak Liquid ile çalışan 'kesinlikle Liquid merkezli bir araç' olarak tanımlanmaktadır Yalnızca üç özel işlemi desteklemektedir: Liquid'den Liquid'e, Liquid'den Lightning'e ve Liquid'den Bitcoin'ye. Lightning kanalları arasında ödemeleri yönlendirebilen tam bir Lightning düğümünün aksine, Breez SDK doğrudan Lightning'den Lightning'e işlemler gerçekleştiremez, bu da onu geleneksel Lightning altyapısından temelde farklı kılar.

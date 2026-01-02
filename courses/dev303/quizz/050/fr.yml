@@ -1,0 +1,8 @@
+question: Quel est le risque le plus important lors de l'utilisation de RC<RefCell<T>> pour un état mutable partagé, et quel mécanisme permet de l'éviter ?
+answer: Cycles de référence provoquant des fuites de mémoire, évités par l'utilisation de références faibles
+wrong_answers:
+  - Courses de données entre les threads, évitées en utilisant Mutex au lieu de RefCell
+  - Le runtime panique à cause des violations d'emprunts, évitées par la vérification à la compilation
+  - Débordement de pile dû à une récursion profonde, évité en limitant la profondeur des références
+explanation: |
+  Lors de l'utilisation de RC<RefCell<T>>, le principal danger est de créer des cycles de référence dans lesquels les structures de données se référencent elles-mêmes directement ou par l'intermédiaire de chaînes. Ces cycles empêchent le nombre de références d'atteindre zéro, ce qui provoque des fuites de mémoire puisque les données semblent toujours avoir des références actives. Les références faibles résolvent ce problème en ne contribuant pas au nombre de références utilisé pour la gestion de la mémoire, brisant ainsi les cycles tout en préservant les connexions. Les autres options sont incorrectes : RC<RefCell<T>> n'est pas sûr pour les threads et les courses de données ne sont donc pas le principal problème, RefCell déplace spécifiquement les vérifications au moment de l'exécution plutôt que de les empêcher au moment de la compilation, et le débordement de pile n'est pas lié au mécanisme de comptage de références.

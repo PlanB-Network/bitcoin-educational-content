@@ -1,0 +1,8 @@
+question: Pourquoi les mineurs ASIC modernes modifient-ils les données dans la transaction Coinbase au lieu de se fier uniquement au champ nonce de l'en-tête du bloc ?
+answer: Le champ nonce de 4 octets n'offre pas suffisamment d'espace de recherche pour les ASIC modernes. Les mineurs modifient donc les données de Coinbase pour changer la racine de Merkle et créer un espace de recherche supplémentaire
+wrong_answers:
+  - La modification de la transaction Coinbase permet aux mineurs de réclamer des récompenses de bloc plus élevées que le montant de la subvention standard ne le permet
+  - "La transaction Coinbase doit être modifiée pour inclure la signature numérique du mineur à des fins de validation du bloc"
+  - La modification des données de Coinbase réduit la difficulté de calcul en permettant aux mineurs de contourner les exigences proof-of-work standard
+explanation: |
+  Les ASIC modernes peuvent épuiser très rapidement l'espace de nonce de 4 octets (2^32 possibilités), ce qui nécessite un espace de recherche supplémentaire. En modifiant les données de la transaction Coinbase, les mineurs changent le hachage de la transaction, ce qui modifie la racine Merkle dans l'en-tête du bloc, créant ainsi des milliards de valeurs nonce supplémentaires à essayer. Cette technique, appelée "extra-nonce", est essentielle pour les opérations mining modernes où le matériel dépasse de loin la capacité du champ nonce d'origine.

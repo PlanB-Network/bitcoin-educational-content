@@ -12,7 +12,7 @@ description: Hvordan utvinne med NerdQaxe?
 
 
 
-Video fra [YouTube-kanalen *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
+Video fra [YouTube-kanalen *BTC Sessions*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Video fra [YouTube-kanalen *BTC Sessions*] (https://www.youtube.com/@BTCSessions
 
 
 
-Video fra [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video fra [YouTube-kanalen *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Video fra [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexBit
 
 
 
-Video fra [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video fra [YouTube-kanalen *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 

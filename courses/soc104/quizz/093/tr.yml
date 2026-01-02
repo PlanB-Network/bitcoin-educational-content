@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun felsefesine göre, Bitcoin geleneksel para birimlerindeki hangi temel sorunu çözmeyi amaçlamaktadır?
+answer: Para biriminin değerinin düşürülmesi yoluyla tarihsel olarak bu güveni ihlal eden merkezi kurumlara duyulan aşırı güven
+wrong_answers:
+  - İşlemleri küresel ticaret için çok yavaş işleyen geleneksel ödeme sistemlerinin teknik yetersizliği
+  - Fiziksel para üretiminin çevresel etkisi ve bankacılık altyapısının karbon ayak izi
+  - Ulusal para birimlerinin kesintisiz uluslararası ticareti engelleyen coğrafi sınırlamaları
+explanation: |
+  Satoshi açıkça 'geleneksel para biriminin temel sorununun, işlemesi için gereken güven olduğunu' belirtmiş ve 'itibari para birimlerinin tarihinin bu güvenin ihlal edilmesiyle dolu olduğunu' kaydetmiştir
+  Bitcoin, tarihsel olarak para birimlerinin değerini düşüren merkez bankalarına olan güveni ortadan kaldırmak için güvensiz bir sistem olarak tasarlanmıştır. Diğer seçenekler, potansiyel olarak geçerli kaygılar olsa da, yaratıcısı tarafından ifade edildiği üzere Bitcoin'nin oluşturulmasının ardındaki temel felsefi motivasyon değildi.

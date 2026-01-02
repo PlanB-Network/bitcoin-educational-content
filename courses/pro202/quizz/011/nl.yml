@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het gebruik van het gecomprimeerde SEC-formaat boven het ongecomprimeerde SEC-formaat voor Bitcoin openbare sleutels?
+answer: Het vermindert de opslaggrootte van 65 bytes naar 33 bytes met behoud van dezelfde cryptografische beveiliging
+wrong_answers:
+  - Het biedt sterkere cryptografische beveiliging door het gebruik van extra encryptielagen
+  - Het maakt snellere puntvermenigvuldigingsbewerkingen mogelijk tijdens verificatieprocessen van handtekeningen
+  - Hiermee kunnen meerdere openbare sleutels worden afgeleid van één gecomprimeerd formaat
+explanation: |
+  Het gecomprimeerde SEC-formaat verkleint de grootte van de openbare sleutel van 65 bytes (ongecomprimeerd) naar 33 bytes door alleen de x-coördinaat en een pariteitsbit (0x02 of 0x03 prefix) op te slaan in plaats van beide volledige coördinaten. De y-coördinaat kan wiskundig gereconstrueerd worden uit de x-coördinaat en pariteitsinformatie, aangezien elliptische krommen maximaal twee y-waarden hebben voor elke gegeven x. Deze compressie levert een aanzienlijke opslagbesparing op zonder verlies van veiligheid, wat de reden is waarom Bitcoin nu de voorkeur geeft aan gecomprimeerde sleutels voor efficiëntie.

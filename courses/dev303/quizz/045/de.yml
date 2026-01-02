@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil der funktionalen Programmierungsfunktionen von Rust, die die Abstraktionen zum Nulltarif beibehalten?
+answer: Sie erzeugen effizienten Maschinencode, der mit traditionellen schleifenbasierten Ansätzen vergleichbar ist, ohne dass die Leistung darunter leidet
+wrong_answers:
+  - Sie handhaben automatisch die Speicherzuweisung und -freigabe, um Laufzeit-Overhead vollständig zu vermeiden
+  - Sie machen eine Typüberprüfung zur Kompilierzeit überflüssig und bieten gleichzeitig Sicherheitsgarantien
+  - Sie bieten Garbage-Collection-Funktionen, die sich nicht auf die Geschwindigkeit der Programmausführung auswirken
+explanation: |
+  Abstraktionen zum Nulltarif in den funktionalen Programmierfunktionen von Rust bedeuten, dass bei der Verwendung von Closures und Iteratoren die Leistung nicht der Ausdruckskraft geopfert wird. Der Rust-Compiler optimiert diese High-Level-Konstrukte, um Maschinencode zu erzeugen, der genauso gut funktioniert wie handgeschriebene traditionelle Schleifen. Dies ermöglicht es Entwicklern, aussagekräftigeren und besser lesbaren Code zu schreiben, ohne dass die Laufzeitleistung darunter leidet, was ein Kernprinzip der Designphilosophie von Rust ist.

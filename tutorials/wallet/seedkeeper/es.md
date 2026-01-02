@@ -1,5 +1,5 @@
 ---
-name: Semillero
+name: Seedkeeper
 description: ¿Cómo hago una copia de seguridad de mi wallet Bitcoin con la tarjeta inteligente Seedkeeper?
 ---
 

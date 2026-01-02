@@ -1,0 +1,8 @@
+question: Jaký je hlavní bezpečnostní problém při používání RefCell ve vícevláknovém prostředí?
+answer: RefCell není thread-safe a způsobí nedefinované chování, pokud je k němu přistupováno z více vláken
+wrong_answers:
+  - RefCell automaticky synchronizuje přístup mezi vlákny, ale se značnou výkonnostní zátěží
+  - RefCell za běhu zpanikaří, když se k němu pokusí přistupovat více vláken současně
+  - RefCell se zasekne, když se více vláken současně pokusí vypůjčit si stejná data
+explanation: |
+  RefCell je navržen výhradně pro jednovláknové scénáře a neobsahuje žádné mechanismy synchronizace vláken. Na rozdíl od alternativ bezpečných pro vlákna, jako je Mutex, RefCell neprovádí žádné atomické operace ani zamykání, takže souběžný přístup z více vláken vede k nedefinovanému chování a potenciálním datovým závodům. Kontroly výpůjček za běhu, které RefCell provádí, nejsou bezpečné pro vlákna a mohou být poškozeny souběžným přístupem, což vede k porušení bezpečnosti paměti, kterému Rust obvykle zabraňuje.

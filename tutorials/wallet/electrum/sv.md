@@ -533,7 +533,7 @@ Ibland, trots att du gör allt rätt, vägrar den till synes att ansluta. Här �
 - Uppgradera till en nyare version av Electrum och din nodprogramvara;
 - Försök att ta bort cachemappen i katalogen ".electrum";
 - Prova att ändra porten från 50002 till 50001 i nätverksinställningarna;
-- Använd [den här guiden] (https://armantheparman.com/tor/) för att ansluta med Tor som ett alternativ;
+- Använd [den här guiden](https://armantheparman.com/tor/) för att ansluta med Tor som ett alternativ;
 - Installera om Electrum Server på noden.
 
 

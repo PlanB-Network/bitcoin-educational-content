@@ -1,0 +1,8 @@
+question: Jaki jest główny cel trzyetapowego procesu Connect, Prepare i Execute w interfejsie deweloperskim Breez SDK?
+answer: Standaryzacja złożonych przepływów finansowych poprzez synchronizację portfeli, obliczanie wszystkich opłat z góry, a następnie konstruowanie transakcji
+wrong_answers:
+  - Aby ustanowić nadmiarowe połączenia zapasowe między wieloma dostawcami swapów przed zainicjowaniem jakichkolwiek operacji atomowych
+  - Aby utworzyć oddzielne podpisy kryptograficzne dla każdej sieci zaangażowanej w transakcje cross-chain submarine swap
+  - Aby zweryfikować wstępne obrazy płatności w odniesieniu do umów z blokadą czasową przed zwolnieniem środków z mechanizmów depozytowych
+explanation: |
+  Wzorzec Connect, Prepare, Execute upraszcza programowanie, dzieląc złożone operacje na łatwe do zarządzania kroki: Connect inicjuje portfele i ustanawia połączenia monitorujące, Prepare oblicza i wyświetla wszystkie koszty w sposób przejrzysty dla użytkowników, a Execute obsługuje faktyczną konstrukcję transakcji i transmisję. Ta standaryzacja abstrahuje od podstawowej złożoności podwodnych swapów i operacji międzyłańcuchowych, ułatwiając programistom integrację funkcjonalności Bitcoin bez zarządzania szczegółami niskiego poziomu.

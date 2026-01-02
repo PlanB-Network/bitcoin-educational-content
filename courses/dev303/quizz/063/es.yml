@@ -1,0 +1,8 @@
+question: Cuando una macro utiliza el patrón `$($x:expr),*` en su definición, ¿qué consigue este patrón?
+answer: Coincide con cero o más expresiones separadas por comas, lo que permite listas de argumentos de longitud variable
+wrong_answers:
+  - Coincide exactamente con una expresión y repite la expansión de la macro varias veces
+  - Coincide con cualquier número de definiciones de tipo separadas por punto y coma para la generación de código
+  - Crea un bucle que ejecuta la macro en tiempo de ejecución con diferentes valores de expresión
+explanation: |
+  El patrón `$($x:expr),*` utiliza la sintaxis de repetición de macros de Rust, donde el cuantificador `*` significa 'cero o más', `$x:expr` captura cada expresión, y la coma especifica el separador entre expresiones. Esto permite que macros como `vec!` acepten cualquier número de argumentos: `vec![1, 2, 3]` o `vec![]`. Las otras opciones son incorrectas porque: el patrón maneja múltiples expresiones no sólo una, coincide específicamente con expresiones no con definiciones de tipos y usa comas no punto y coma, y las macros se ejecutan en tiempo de compilación durante la generación de código no en tiempo de ejecución.

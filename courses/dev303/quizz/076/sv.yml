@@ -1,0 +1,8 @@
+question: Varför är det potentiellt problematiskt att använda expect() på hårdkodade värden som verkar kompilatorverifierade i produktionskod?
+answer: Hårdkodade värden kan utvecklas över tid genom refaktorisering, vilket gör att tidigare giltiga värden blir felaktiga under körning
+wrong_answers:
+  - Kompilatorn kan inte verifiera giltigheten av hårdkodade värden vid kompileringstillfället, vilket gör expect() opålitlig
+  - Hårt kodade värden förbrukar mer minne än dynamiska värden, vilket orsakar prestandaproblem med expect()
+  - Metoden expect() lägger till onödig overhead jämfört med unwrap() när man hanterar kända giltiga värden
+explanation: |
+  Det korrekta svaret belyser en kritisk insikt från kapitlet: även till synes säkra hårdkodade värden kan bli farliga med tiden. Exemplet visar hur en giltig IP-adress kan omarbetas till en konstant och senare ändras till "localhost", vilket bryter mot det ursprungliga antagandet. De felaktiga svaren är felaktiga eftersom: kompilatorn kan verifiera hårdkodade värden vid kompileringstillfället, minnesförbrukning inte är problemet med expect() och expect() inte har någon betydande prestandakostnad jämfört med unwrap().

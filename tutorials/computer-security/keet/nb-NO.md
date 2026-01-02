@@ -18,7 +18,7 @@ Keet krypterer all kommunikasjon fra ende til ende og ber ikke om personopplysni
 
 
 
-For øyeblikket (april 2025) er Keet ikke helt åpen kildekode. Noe av kildekoden er tilgjengelig på [Holepunchs GitHub-repository] (https://github.com/holepunchto), særlig kryptografi- og nettverkskomponentene, men klienten Interface er ikke det ennå. Holepunch har imidlertid kunngjort at de har til hensikt å gjøre hele applikasjonen åpen kildekode etter hvert. Avhengig av når du oppdager denne veiledningen, kan dette allerede ha blitt gjort.
+For øyeblikket (april 2025) er Keet ikke helt åpen kildekode. Noe av kildekoden er tilgjengelig på [Holepunchs GitHub-repository](https://github.com/holepunchto), særlig kryptografi- og nettverkskomponentene, men klienten Interface er ikke det ennå. Holepunch har imidlertid kunngjort at de har til hensikt å gjøre hele applikasjonen åpen kildekode etter hvert. Avhengig av når du oppdager denne veiledningen, kan dette allerede ha blitt gjort.
 
 
 
@@ -56,12 +56,12 @@ Keet er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen direkt
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=io.keet.app&pli=1);
-- [App Store] (https://apps.apple.com/us/app/keet-by-holepunch/id6443880549);
+- [Google Play](https://play.google.com/store/apps/details?id=io.keet.app&pli=1);
+- [App Store](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549);
 
 
 
-På Android er det også mulig å [installere via APK] (https://github.com/holepunchto/keet-mobile-releases/releases).
+På Android er det også mulig å [installere via APK](https://github.com/holepunchto/keet-mobile-releases/releases).
 
 
 

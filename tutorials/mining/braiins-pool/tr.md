@@ -54,7 +54,7 @@ Para çekme işlemleri zaman aralığına veya miktara göre tetiklenebilir.
 ## Hesap Oluşturma
 
 
-Braiins Pool'u kullanmaya başlamak için [web sitelerine gidin] (https://braiins.com/pool) ve sağ üstteki "KAYIT OL" seçeneğine tıklayın
+Braiins Pool'u kullanmaya başlamak için [web sitelerine gidin](https://braiins.com/pool) ve sağ üstteki "KAYIT OL" seçeneğine tıklayın
 
 
 

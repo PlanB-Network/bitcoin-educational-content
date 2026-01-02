@@ -1,0 +1,8 @@
+question: Miks võimaldab majanduslik vabadus tootmise ajastamist, mis on vaba turuteooria kohaselt parem kui poliitiline sekkumine?
+answer: Tulusignaalid suunavad ettevõtjaid tootma siis, kui tarbijate nõudlus on tegelikult olemas, luues loomuliku ajastuse koordineerimise
+wrong_answers:
+  - Valitsuse planeerimine võimaldab paremini prognoosida ühiskonna vajadusi pikemas perspektiivis kui üksikud turuosalised
+  - Poliitiliste otsuste tegemine hõlmab laiemaid sotsiaalseid kaalutlusi, mida individuaalne kasumihuvi ei saa arvesse võtta
+  - Riigi sekkumine saab tulevasi vajadusi tõhusamalt ette näha, analüüsides süstemaatiliselt demograafilisi ja majandussuundumusi
+explanation: |
+  Peatükis selgitatakse, et majandusvabadus loob parema ajastamise kasumimärguannete kaudu, mis viitavad tegelikule tarbijanõudlusele. Kui kasumid on olemas, reageerivad ettevõtjad kiiresti; kui need puuduvad, heidutatakse enneaegset tootmist. See loob kooskõlastamise, mis põhineb pigem tegelikel tarbijate eelistustel kui poliitilistel eeldustel. Poliitiline sekkumine toimib valimistsüklite ja idealiseeritud rahulduste alusel, mis ei pruugi kajastada tegelikke turuvajadusi, mis viib valesti ajastatud tootmisotsusteni.

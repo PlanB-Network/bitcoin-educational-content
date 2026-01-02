@@ -154,7 +154,7 @@ Kundene kjøper et produkt fra butikken med Bitcoin.
 
 
 - Gjør deg klar:
-  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Få tre frivillige elever til å spille rollene som kunde (Alice), kjøpmann (Bob) og bank.
 - Spill ut hendelsesforløpet:
   - Kunde - surfer i butikken på nettet og finner en vare til $25, som de vil ha, og informerer kjøpmannen om at de ønsker å kjøpe den
@@ -176,7 +176,7 @@ Kundene kjøper et produkt fra butikken med Bitcoin.
 
 
 - Gjør deg klar:
-  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Erstatt banken med ni studenter som skal spille rollen som en datamaskin (Bitcoin Nodes/Miners) i et nettverk som skal erstatte banken.
 - Hver av de ni datamaskinene har en komplett historisk oversikt over alle tidligere transaksjoner som noensinne er foretatt (og dermed nøyaktige saldoer uten forfalskninger), samt et sett med regler:
   - Kontroller at transaksjonen er riktig signert (thekeyfitsthelock)
@@ -436,9 +436,9 @@ Basert på mobiltelefonens operativsystem (Android eller iOS) kan brukerne velge
 1. Last ned en tofaktorautentisering.
 
 
-   - Authy for [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator for [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator for [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy for [Android](https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator for [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator for [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Etter at du har lastet ned og installert Authenticator-appen.
 
@@ -838,7 +838,7 @@ Rescan-funksjonen er avhengig av Bitcoin core 0.17.0s "Scantxoutset" for å skan
 
 1. Gap-grenseproblem - De fleste tredjeparts lommebøker er lette lommebøker som deler en node mellom mange brukere. Lette og Full node-avhengige lommebøker begrenser antallet (vanligvis 20) adresser uten saldo de sporer på Blockchain for å forhindre ytelsesproblemer. BTCPay Server genererer en ny Address for hver Invoice. Med det ovennevnte i bakhodet, etter at BTCPay Server har generert 20 ubetalte fakturaer på rad, slutter den eksterne Wallet å hente transaksjonene, forutsatt at ingen nye transaksjoner har skjedd. Din eksterne Wallet vil ikke vise dem når fakturaene er betalt den 21., 22. osv. På den annen side sporer BTCPay Server Wallet internt alle Address den genererer, sammen med en betydelig høyere gap-grense. Den er ikke avhengig av en tredjepart og kan alltid vise en korrekt saldo.
 
-2. Gap-limit-løsningen - Hvis din [eksterne/eksisterende Wallet] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) tillater konfigurasjon av gap-limit, er den enkle løsningen å øke den. De fleste lommebøker tillater imidlertid ikke dette. De eneste lommebøkene som for øyeblikket støtter gap-limit-konfigurasjon som vi kjenner til, er Electrum, Wasabi og Sparrow wallet. Dessverre vil du sannsynligvis støte på problemer med mange andre lommebøker. For best mulig brukeropplevelse og personvern bør du vurdere å bruke BTCPay-serverens interne Wallet i stedet for eksterne lommebøker.
+2. Gap-limit-løsningen - Hvis din [eksterne/eksisterende Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) tillater konfigurasjon av gap-limit, er den enkle løsningen å øke den. De fleste lommebøker tillater imidlertid ikke dette. De eneste lommebøkene som for øyeblikket støtter gap-limit-konfigurasjon som vi kjenner til, er Electrum, Wasabi og Sparrow wallet. Dessverre vil du sannsynligvis støte på problemer med mange andre lommebøker. For best mulig brukeropplevelse og personvern bør du vurdere å bruke BTCPay-serverens interne Wallet i stedet for eksterne lommebøker.
 
 
 #### BTCPay Server bruker "mempoolfullrbf=1"
@@ -2222,7 +2222,7 @@ Først og fremst må du prøve å finne ut når problemet oppstår. Prøv å gje
 ##### Oppdatering av serveren
 
 
-Sjekk din versjon av BTCPay Server hvis den er mye eldre enn [nyeste versjon] (https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Oppdatering av serveren din kan løse problemet.
+Sjekk din versjon av BTCPay Server hvis den er mye eldre enn [nyeste versjon](https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Oppdatering av serveren din kan løse problemet.
 
 
 ##### Starter serveren på nytt
@@ -2621,7 +2621,7 @@ Betalingsmottaker og rekvirent kan se status for betalingsanmodningen etter at b
 Beskrivelsesinnholdet kan redigeres ved hjelp av tekstredigeringsprogrammet for betalingsforespørselen. Begge alternativene er tilgjengelige hvis du vil bruke flere fargetemaer eller tilpasset CSS-styling.
 
 
-Ikke-tekniske brukere kan bruke et [bootstrap-tema] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligere tilpasning kan gjøres ved å tilføre ytterligere CSS-kode, som vist nedenfor.
+Ikke-tekniske brukere kan bruke et [bootstrap-tema](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligere tilpasning kan gjøres ved å tilføre ytterligere CSS-kode, som vist nedenfor.
 
 
 ```css
@@ -2670,13 +2670,13 @@ Hva om avsenderen i stedet for å pushe betalingen, lar mottakeren trekke betali
 ### Utbetalinger
 
 
-Utbetalingsfunksjonaliteten er knyttet til funksjonen [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Denne funksjonen lar deg opprette utbetalinger i BTCPay. Med denne funksjonen kan du behandle pull-betalinger (refusjoner, lønnsutbetalinger eller uttak).
+Utbetalingsfunksjonaliteten er knyttet til funksjonen [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Denne funksjonen lar deg opprette utbetalinger i BTCPay. Med denne funksjonen kan du behandle pull-betalinger (refusjoner, lønnsutbetalinger eller uttak).
 
 
 #### Eksempel 1: Refusjon
 
 
-La oss begynne med eksemplet med refusjon. Kunden har kjøpt en vare i butikken din, men dessverre må de returnere den. De ønsker en refusjon. I BTCPay kan du opprette en [Refusjon] (https://docs.btcpayserver.org/Refund/) og gi kunden en lenke til å kreve pengene sine. Når kunden har oppgitt Address og gjort krav på pengene, vil det vises i utbetalingsdelen.
+La oss begynne med eksemplet med refusjon. Kunden har kjøpt en vare i butikken din, men dessverre må de returnere den. De ønsker en refusjon. I BTCPay kan du opprette en [Refusjon](https://docs.btcpayserver.org/Refund/) og gi kunden en lenke til å kreve pengene sine. Når kunden har oppgitt Address og gjort krav på pengene, vil det vises i utbetalingsdelen.
 
 
 Den første statusen den har, er Venter på godkjenning. Butikkmedarbeiderne kan sjekke om det er flere som venter, og når du har gjort valget, bruker du knappen Handlinger.
@@ -2700,7 +2700,7 @@ Kunden blir nå oppdatert på Claiming-siden. Han kan følge transaksjonen ved a
 #### Eksempel 2: Lønn
 
 
-La oss nå se nærmere på lønnsutbetaling, siden dette styres fra butikken og ikke i henhold til kundens forespørsel. Det underliggende konseptet er det samme; det bruker pull-betalinger. Men i stedet for å opprette en refusjon, lager vi en [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+La oss nå se nærmere på lønnsutbetaling, siden dette styres fra butikken og ikke i henhold til kundens forespørsel. Det underliggende konseptet er det samme; det bruker pull-betalinger. Men i stedet for å opprette en refusjon, lager vi en [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Gå til Pull Payments-fanen på BTCPay-serveren din. Klikk på knappen Opprett pull-betaling øverst til høyre.
@@ -2744,7 +2744,7 @@ Deretter kan avsenderen dele pull-betalingen med mottakeren ved hjelp av en lenk
 Når en utbetaling er opprettet, vil den telle med i pull-betalingsgrensen for den aktuelle perioden. Avsenderen godkjenner deretter utbetalingen ved å angi hvilken sats utbetalingen skal sendes til, og fortsetter med betalingen.
 
 
-For avsenderen tilbyr vi en brukervennlig metode for å samle flere utbetalinger fra [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+For avsenderen tilbyr vi en brukervennlig metode for å samle flere utbetalinger fra [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

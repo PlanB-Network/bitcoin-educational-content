@@ -1,5 +1,5 @@
 ---
-name: Gahunda ₿ Ishure - Porogaramu y'amapera
+name: Plan ₿ Academy - Pears App
 description: Ni gute woshiramwo no gukoresha porogarama ya Plan ₿ Academy kuri Pears?
 ---
 

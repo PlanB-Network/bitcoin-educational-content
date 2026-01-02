@@ -1,0 +1,8 @@
+question: Kulingana na maandishi, faida kuu ya mageuzi ya kimaendeleo ni ipi ikilinganishwa na mapinduzi ya vurugu katika kupanua uhuru?
+answer: Wanaruhusu jamii kupitisha uhuru wakati hali zinaruhusu bila kusababisha vurugu nyingi
+wrong_answers:
+  - Zinaondoa hitaji la mabadiliko yoyote kwa miundo ya kisiasa na kiuchumi iliyopo
+  - Wanahakikisha kwamba matabaka yote ya kijamii yatakubali mawazo mapya mara moja kuhusu uhuru
+  - Wanazuia makundi yoyote ya upinzani kuunda wakati wa mabadiliko ya kijamii
+explanation: |
+  Maandishi yanaelezea kwamba mageuzi ya kimaendeleo yanafaa zaidi kwa sababu yanaruhusu jamii kupitisha uhuru zaidi kwa wakati unaofaa wakati hali zinaruhusu, zikiongozwa na maoni ya umma yenye taarifa. Tofauti na mapinduzi ya vurugu, mageuzi huepuka vurugu nyingi na huzuia kuanzishwa kwa mabadiliko zaidi ya yale ambayo umma uko tayari kuyafanya. Mapinduzi huwa na vurugu kubwa ya generate na mara nyingi husababisha vikwazo kwa sababu yanasukuma zaidi ya kile ambacho jamii inaweza kunyonya, huku mageuzi ya kimaendeleo yakiunda mabadiliko endelevu yanayoendana na hali halisi.

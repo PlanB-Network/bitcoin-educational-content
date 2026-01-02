@@ -1,0 +1,8 @@
+question: Milline fragmendi täpsustaja ja kordusmustri kombinatsioon oleks sobivaim, kui luua kohandatud funktsioonilaadne makro, mis peab töötlema erinevat arvu sisendargumente?
+answer: Kasuta $($x:expr),*, et leida null või rohkem komadega eraldatud väljendeid
+wrong_answers:
+  - Kasuta $($x:ident)+, et leida üks või mitu identifikaatorit ilma eraldajateta
+  - Kasutage $($x:ty);*, et leida null või rohkem semikooloniga eraldatud tüüpi
+  - Kasuta $($x:expr)?, et sobitada valikulist üksikväljendit ilma korduseta
+explanation: |
+  Muster $($x:expr),* on mõeldud spetsiaalselt muutuja argumendi makrode jaoks, kus expr vastab mis tahes väljenditele ja ,* süntaks käsitleb nulli või rohkem komadega eraldatud kordusi. See on täpselt see, mida on vaja selliste makrode jaoks nagu vec!, mis võivad vastu võtta erineva arvu argumente. Teised valikud on valed, sest ident sobib ainult identifikaatoritega (mitte täisväljenditega), ty sobib tüüpidega (mitte väärtustega) ja ? sobib pigem valikuliste üksikute elementidega kui muutujate kordustega.

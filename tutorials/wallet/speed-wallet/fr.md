@@ -89,7 +89,7 @@ Speed Wallet détectera, en fonction du format de votre adresse, le réseau sur 
 
 L'une des premières particularités de Speed Wallet est qu'il vous permet d'acheter et d'échanger des devises sans sortir de l'application. Ainsi, vous pouvez obtenir des bitcoins à partir du solde d'une autre devise de votre portefeuille. Par exemple vous pouvez acheter du bitcoin avec les USDT que vous possédez déjà dans le portefeuille, et cela, avec de moindres frais d'échanges.
 
-Les options **Buy** et **Swap**, vous permet d'échanger des bitcoins pour les autres devises disponibles dans Speed.
+Les options **Buy** et **Swap**, vous permettent d'échanger des bitcoins pour les autres devises disponibles dans Speed.
 
 - **Acheter du Bitcoin avec sa carte de crédit** : Speed Wallet facilite l'acquisition de bitcoin à partir des monnaies fiduciaires que vous utilisez quotidiennement. Il intègre un agrégateur de paiement qui vous permet de payer des bitcoins avec votre carte de crédit.
 

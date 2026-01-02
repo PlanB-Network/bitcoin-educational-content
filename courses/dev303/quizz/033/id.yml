@@ -1,0 +1,8 @@
+question: Variabel lingkungan apa yang dapat diatur untuk menampilkan jejak tumpukan panggilan lengkap saat terjadi kepanikan di Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - JEJAK_KARAT_PANIK
+explanation: |
+  RUST_BACKTRACE adalah variabel lingkungan yang benar yang menyediakan informasi debug tambahan dengan menunjukkan tumpukan panggilan lengkap yang menyebabkan kepanikan. Hal ini membantu pengembang melacak dengan tepat urutan pemanggilan fungsi yang mengakibatkan kesalahan. Opsi lainnya (RUST_STACKTRACE, RUST_DEBUG_TRACE, dan RUST_PANIC_TRACE) bukanlah variabel lingkungan Rust yang valid dan tidak akan menghasilkan output debugging ketika terjadi kepanikan.

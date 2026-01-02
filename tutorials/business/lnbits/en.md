@@ -42,7 +42,7 @@ LNbits for builders: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-
 
 # Some Basics
 
-LNbits works based on the LNURL protocol which means that requests are valid in two forms: either as https:// clearnet link (no self-signed certificates allowed) or as http:// v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits up to clearnet (https).
+LNbits works based on the LNURL protocol which means that requests are valid in two forms: either as https://clearnet link (no self-signed certificates allowed) or as http://v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits up to clearnet (https).
 
 Before you install LNbits make sure to have read and understood the following general guides about what LNbits is and which possibilities it unleashes for you.
 
@@ -421,7 +421,7 @@ LNbits has all sorts of [open APIs](https://legend.lnbits.com/docs) and tools to
 When you are new to building start with this [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) from Ben Arc about building gadgets based on LNbits.
 
 ### IMPORTANT:
-- LNbits works based on the LNURL protocol which requests are valid in two forms: either as https:// clearnet link (no self-signed certificates allowed) or as http:// v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits to clearnet (https).
+- LNbits works based on the LNURL protocol which requests are valid in two forms: either as https://clearnet link (no self-signed certificates allowed) or as http://v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits to clearnet (https).
 - Only use DATA-Cables to power your esp32. Not all cables support data in addition to powering the esp. You wouldnt be the first if the cable that came with the esp is a power-only one
 - Make sure to not use a USB-Hub with other devices attached. This can lead to weird effects that are hard to debug (e.g. not starting or stopping).
 - To realize esp projects with a MacOS you will need an UART Bridge Driver. If you have problems with the driver on Mac or Linux systems, you can find those here or, if a TTGO Display is involved this one. If you are on windows and have problems connecting make sure to download the OLD version 11.1.0 because the newer one is not working! You can also find a serial terminal here to check your connection - set to baudrate 115200.

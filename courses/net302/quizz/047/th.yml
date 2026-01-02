@@ -1,0 +1,9 @@
+question: คำว่าใดที่หมายถึงสามไบต์แรกของที่อยู่ MAC?
+answer: OUI (Organisationally Unique Identifier)
+wrong_answers:
+  - SID (Session Identifier)
+  - LUI (Local Unique Identifier)
+  - PAN (หมายเลข Address ทางกายภาพ)
+explanation: |
+  OUI ได้รับการกำหนดโดย IEEE และระบุผู้ผลิตการ์ดเครือข่ายในที่อยู่ MAC
+reviewed: false

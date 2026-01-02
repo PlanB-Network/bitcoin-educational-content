@@ -5,5 +5,5 @@ wrong_answers:
   - 512 bajtova
   - 255 bajtova
 explanation: |
-  Maksimalna veličina IP datagrama je 65.536 bajtova određena ograničenjem polja ukupne dužine u IP zaglavlju.
-reviewed: false
+  Maksimalna veličina IP datagrama je 65.536 bajtova određena ograničenjem polja "Ukupna Dužina" (eng. total length) u IP zaglavlju.
+reviewed: true

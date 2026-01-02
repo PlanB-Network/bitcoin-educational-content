@@ -1,5 +1,5 @@
 ---
-name: 幽灵 DIY
+name: Specter DIY
 description: Specter DIY 安装指南
 ---
 

@@ -60,13 +60,13 @@ På din maskin kommer **Cryptomator att skapa en mapp inom vilken den kommer att
 
 
 
-För att komma igång behöver du **ladda ner** och **installera** **Cryptomator**. När nedladdningen är klar är några klick allt som krävs för att slutföra installationen. Liksom [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/) kommer Cryptomator att förlita sig på WinFsp för att ** montera en virtuell enhet på din Windows-maskin **.
+För att komma igång behöver du **ladda ner** och **installera** **Cryptomator**. När nedladdningen är klar är några klick allt som krävs för att slutföra installationen. Liksom [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/) kommer Cryptomator att förlita sig på WinFsp för att ** montera en virtuell enhet på din Windows-maskin **.
 
 
 
 
 
-- [Ladda ner Cryptomator från den officiella webbplatsen] (https://cryptomator.org/downloads/)
+- [Ladda ner Cryptomator från den officiella webbplatsen](https://cryptomator.org/downloads/)
 
 
 

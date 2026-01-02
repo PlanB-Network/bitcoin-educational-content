@@ -32,8 +32,8 @@ Gå til applikasjonsbutikken din og last ned **Ejara Crypto** :
 
 
 
-- [For Android] (https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
-- [For Apple] (https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
+- [For Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
+- [For Apple](https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
 
 
 
@@ -537,7 +537,7 @@ Når du har kjøpt dine første on-chain bitcoins eller en betydelig mengde sato
 
 
 
-Hvis du ennå ikke vet hvordan du bruker en Bitcoin-portefølje, inviterer jeg deg til å utforske [delen "Wallet" på Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
+Hvis du ennå ikke vet hvordan du bruker en Bitcoin-portefølje, inviterer jeg deg til å utforske [delen "Wallet" på Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 
@@ -644,7 +644,7 @@ Siden målet er å digitalisere sparing og gjøre det enklere å investere i dig
 
 
 
-Du kan sende et spørsmål direkte i appen eller kontakte deres meget flittige [kundesupport] (https://t.me/EjaraCSbot) via Telegram.
+Du kan sende et spørsmål direkte i appen eller kontakte deres meget flittige [kundesupport](https://t.me/EjaraCSbot) via Telegram.
 
 
 
@@ -656,7 +656,7 @@ Du kan nå bruke Ejara Crypto-applikasjonen til å motta, sende, kjøpe eller se
 
 
 
-Sjekk også ut vår veiledning om Flash, en utvekslingsplattform utviklet av [BlockSolut] (https://bitcoinflash.xyz/) for å kjøpe bitcoins fra 100 CFA-franc takket være kraften til Lightning i flere vestafrikanske land.
+Sjekk også ut vår veiledning om Flash, en utvekslingsplattform utviklet av [BlockSolut](https://bitcoinflash.xyz/) for å kjøpe bitcoins fra 100 CFA-franc takket være kraften til Lightning i flere vestafrikanske land.
 
 
 

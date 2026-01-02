@@ -141,7 +141,7 @@ Penerima Anda harus memindai kode QR yang dihasilkan untuk mengklaim satoshi.
 
 
 
-Pembayaran offline umumnya dilakukan dengan menggunakan [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). Transaksi disimpan di ponsel Anda, dan segera setelah Anda mengakses Internet, konfirmasi transaksi menjadi otomatis. Anda juga dapat mengonfirmasi pembayaran secara manual dengan mengklik **Konfirmasi transaksi**.
+Pembayaran offline umumnya dilakukan dengan menggunakan [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transaksi disimpan di ponsel Anda, dan segera setelah Anda mengakses Internet, konfirmasi transaksi menjadi otomatis. Anda juga dapat mengonfirmasi pembayaran secara manual dengan mengklik **Konfirmasi transaksi**.
 
 
 

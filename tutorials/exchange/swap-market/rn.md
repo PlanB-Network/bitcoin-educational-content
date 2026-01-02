@@ -1,5 +1,5 @@
 ---
-name: Isoko ryo guhinduranya
+name: SwapMarket
 description: Bitcoin n'umuravyo guhindura ibikorwa
 ---
 
@@ -638,7 +638,7 @@ Guhiganwa hagati y’abatanga ubuvuzi biratuma ibiciro bitera imbere kandi bikag
 
 
 - [Isoko ry'Impinduka - Ubukoresho bw'Urubuga](https://isoko ry'Impinduro.github.io)
-- [Isoko ry'Ibihindurwa rya GitHub] (Isoko ry'Ibihindurwa/Isoko ry'Ibihindurwa.github.io)
+- [Isoko ry'Ibihindurwa rya GitHub](Isoko ry'Ibihindurwa/Isoko ry'Ibihindurwa.github.io)
 - [Inyandiko z'ubuhinga](https://inyandiko.boltz.guhanahana/)
 - [Iyobora ry'ukwiyakira](https://github.com/Isoko ry'Impinduka/Isoko ry'Impinduka.github.io/blob/ikuru/README.md)
 
@@ -649,5 +649,5 @@ Guhiganwa hagati y’abatanga ubuvuzi biratuma ibiciro bitera imbere kandi bikag
 
 
 
-- [Boltz Exchange] (uburyo bwo guhindura) - Ubuhinga bwo guhindura atome y'umwimerere
+- [Boltz Exchange](uburyo bwo guhindura) - Ubuhinga bwo guhindura atome y'umwimerere
 - [Impinduro za ZEUS](https://zeusln.com) - Uwutanga impinduka z'umuravyo

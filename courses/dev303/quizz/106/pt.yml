@@ -1,0 +1,8 @@
+question: Que princípio fundamental de design permite que a LDK crie HSMs com reconhecimento de Lightning que podem avaliar de forma inteligente se uma transação representa um roteamento de pagamento legítimo versus tentativas potencialmente maliciosas?
+answer: A arquitetura modular do LDK permite a extração de componentes específicos de assinatura e verificação de transacções, mantendo o conhecimento do contexto do protocolo Lightning
+wrong_answers:
+  - "O sistema LDK orientado para eventos assinala automaticamente transacções suspeitas através de algoritmos de aprendizagem automática integrados no processo de assinatura principal"
+  - "A camada de abstração de blockchain da LDK fornece deteção de fraude em tempo real, cruzando todas as transações com os dados de fofocas da rede"
+  - "O sistema de gestão de pares da LDK implementa assinaturas criptográficas avançadas que distinguem inerentemente entre padrões de transação legítimos e maliciosos"
+explanation: |
+  O design modular do LDK permite que os desenvolvedores extraiam apenas os componentes de assinatura e verificação, preservando a inteligência do protocolo Lightning necessária para entender o contexto da transação. Isso permite que os HSMs tomem decisões informadas sobre encaminhamento de pagamento, operações de canal e ameaças à segurança, em vez de assinar transações cegamente. As respostas erradas atribuem incorretamente esse recurso à deteção automatizada de fraudes, monitoramento de blockchain ou assinaturas criptográficas, quando na verdade é a capacidade da arquitetura modular de manter o reconhecimento do protocolo em componentes isolados que permite a avaliação inteligente da transação.

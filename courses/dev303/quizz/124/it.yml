@@ -1,0 +1,8 @@
+question: Qual è il meccanismo tecnico principale che consente all'SDK Breez di presentare agli utenti un equilibrio unificato mantenendo le funzionalità di Lightning e on-chain Bitcoin?
+answer: Servizi di swap automatico che convertono tra Lightning e on-chain Bitcoin dietro le quinte, se necessario
+wrong_answers:
+  - Aggregazione del saldo in tempo reale che visualizza la somma dei fondi Lightning e on-chain senza conversione effettiva
+  - Channel reserve pooling che consente ai fondi di muoversi liberamente tra gli stati Lightning e on-chain all'interno dello stesso UTXO
+  - Generazione di indirizzi a doppio strato che crea indirizzi ibridi in grado di ricevere pagamenti sia Lightning che on-chain
+explanation: |
+  La risposta corretta è servizi di swap automatico perché l'SDK Breez implementa specificamente la funzionalità di swap on-chain per convertire senza problemi tra Lightning e on-chain Bitcoin quando gli utenti devono effettuare diversi tipi di pagamento. Questo permette agli utenti di vedere un unico saldo mentre il sistema gestisce la complessità tecnica dello spostamento dei fondi tra i vari livelli. Le risposte sbagliate descrivono meccanismi inesistenti o tecnicamente impossibili: l'aggregazione dei saldi visualizzerebbe solo gli importi combinati senza abilitare la funzionalità cross-layer, le riserve di canale non possono spostare fondi verso gli stati on-chain e gli indirizzi ibridi non esistono nel protocollo Bitcoin.

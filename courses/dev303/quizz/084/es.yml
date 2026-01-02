@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja arquitectónica del enfoque por capas de UniFFI a la hora de integrar las bibliotecas Rust con lenguajes de destino como Swift o Kotlin?
+answer: La capa de vinculación se encarga de la traducción de tipos y la gestión de memoria, al tiempo que presenta una interfaz completamente nativa para el idioma de destino
+wrong_answers:
+  - El archivo UDL compila automáticamente el código Rust en bytecode que puede ejecutarse de forma nativa en plataformas móviles sin necesidad de traducción
+  - El código de la biblioteca Rust se reescribe automáticamente en la sintaxis del idioma de destino para eliminar cualquier llamada a interfaces de funciones ajenas
+  - Las aplicaciones del lenguaje de destino acceden directamente a las estructuras de memoria de Rust a través de punteros compartidos para evitar la sobrecarga de los datos
+explanation: |
+  La arquitectura de UniFFI crea una separación en la que el código de vinculación generado actúa como una capa de traducción entre el idioma de destino y Rust. Esta capa se encarga de los complejos procesos de "marshaling" y "unmarshaling" de los tipos de datos, gestiona la memoria de forma segura a través de los límites del lenguaje y proporciona gestión de errores siguiendo las convenciones del lenguaje de destino. Las otras opciones son incorrectas porque UniFFI no compila a bytecode (genera bindings), no reescribe código Rust en otros lenguajes (mantiene la implementación original de Rust), y no utiliza acceso a memoria compartida (gestiona los datos de forma segura a través de las fronteras).

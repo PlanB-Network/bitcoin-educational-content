@@ -32,7 +32,7 @@ Der Aurora Store ist einer der beliebtesten alternativen App-Stores zum Google P
 
 
 
-Sie können Aurora Store von der [offiziellen Website] (https://auroraoss.com/aurora-store) herunterladen, indem Sie auf die Schaltfläche "Release" in den Build-Typen klicken. Wählen Sie die Option "Vanilla", wenn Sie eine andere Telefonmarke als Huawei verwenden. Neuere Huawei-Telefonmodelle haben ihre eigene Version von Aurora Store, da sie aufgrund der US-Sanktionen nur eingeschränkt auf Google-Dienste zugreifen können.
+Sie können Aurora Store von der [offiziellen Website](https://auroraoss.com/aurora-store) herunterladen, indem Sie auf die Schaltfläche "Release" in den Build-Typen klicken. Wählen Sie die Option "Vanilla", wenn Sie eine andere Telefonmarke als Huawei verwenden. Neuere Huawei-Telefonmodelle haben ihre eigene Version von Aurora Store, da sie aufgrund der US-Sanktionen nur eingeschränkt auf Google-Dienste zugreifen können.
 
 
 

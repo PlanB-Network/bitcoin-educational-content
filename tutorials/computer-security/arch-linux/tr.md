@@ -20,7 +20,7 @@ Arch Linux, özellikle geliştirme amaçları için sağlamlığı, performansı
 - **Ücretsiz ve açık kaynak**: Çoğu Linux dağıtımı gibi Arch Linux da tamamen ücretsizdir. Lisans ücreti yoktur, bu da onu öğrenciler, serbest çalışanlar veya meraklılar için mükemmel bir seçim haline getirir.
 - **KISS** felsefesi: Arch basit, hafif ve verimli olacak şekilde tasarlanmıştır. Yalnızca temel unsurları sağlayarak ortamınızı alakart olarak oluşturmanıza olanak tanır.
 - **Pacman** paket yöneticisi: Pacman hızlı, güvenilir ve iyi tasarlanmış bir paket yöneticisidir. Yazılımın verimli bir şekilde kurulmasını ve güncellenmesini sağlar ve bağımlılıkları hassas bir şekilde yönetir.
-- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki] (https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
+- **Kapsamlı dokümantasyon ve aktif bir topluluk**: [Arch Wiki](https://wiki.archlinux.org) muhtemelen Linux dünyasındaki en iyi teknik dokümantasyonlardan biridir. Ne yaptığınızı anlamak için bir altın madeni. Çoğunlukla deneyimli profillerden oluşan topluluk çok aktiftir ve önceden biraz araştırma yapmış olmanız koşuluyla takıldığınızda size yardımcı olabilir.
 
 
 
@@ -58,7 +58,7 @@ Gerekli malzemeler:
 
 
 
-- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini] (https://mir.archlinux.fr/iso/latest/) ziyaret edin.
+- ISO görüntüsünün en son resmi sürümünü indirmek için [resmi web sitesini](https://mir.archlinux.fr/iso/latest/) ziyaret edin.
 
 
 
@@ -72,7 +72,7 @@ Gerekli malzemeler:
 
 
 
-- Balena Etcher'ı [resmi web sitesinden] (https://etcher.balena.io) indirin.
+- Balena Etcher'ı [resmi web sitesinden](https://etcher.balena.io) indirin.
 - Yazılımı başlatın, Arch Linux ISO görüntüsünü seçin.
 - Hedef cihaz olarak USB anahtarınızı seçin.
 - Önyüklenebilir anahtarı oluşturmaya başlamak için **Flash** üzerine tıklayın.

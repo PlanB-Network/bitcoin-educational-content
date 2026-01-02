@@ -1,10 +1,9 @@
-question: Lightning Network ilk olarak ne zaman onaylandı ve uygulandı?
-answer: 2017
+question: Bir Lightning kanalı neden tek yönde kullanılamaz olabilir?
+answer: Yeterli likidite olmaması
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Çok yeni blok
+  - Süresi dolmuş HTLC
+  - Senkronize olmayan düğüm
 explanation: |
-  Lightning Network ilk olarak doğrulanmış ve uygulanmıştır
-  2017'de.
-reviewed: true
+  Büyük bir kapasiteye sahip olsa bile, bir kanal yalnızca doğru tarafta yeterli likidite varsa ödeme yapılmasına izin verir.
+reviewed: false

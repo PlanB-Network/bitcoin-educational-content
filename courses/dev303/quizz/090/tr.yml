@@ -1,0 +1,8 @@
+question: Duyarlı kullanıcı arayüzleri gerektiren mobil uygulama geliştirme için UniFFI kullanırken geliştiricilerin üzerinde çalışması gereken birincil sınırlama nedir?
+answer: UniFFI yalnızca senkron arayüzleri destekler, bu da geliştiricilerin asenkron işlemleri ayrı iş parçacığı mekanizmaları aracılığıyla ele almasını gerektirir
+wrong_answers:
+  - UniFFI, enum ve struct gibi karmaşık veri türlerini işleyemez, bu da mobil API arayüzlerinin zenginliğini sınırlar
+  - UniFFI, dil sınırları arasında bellek açısından güvenli olmayan ve manuel bellek yönetimi gerektiren bağlar oluşturur
+  - UniFFI hata işleme çevirisini desteklemez, bu da geliştiricileri her hedef dilde özel istisna işleme uygulamaya zorlar
+explanation: |
+  UniFFI'nin en önemli sınırlaması, eşzamansız arayüzler için destek eksikliğidir - oluşturulan tüm bağlar eşzamanlıdır. Bu, duyarlı kullanıcı arayüzlerinin kritik olduğu mobil geliştirme için zorluklar yaratır, çünkü geliştiricilerin ana iş parçacığını engellemekten kaçınmak için kendi iş parçacığı çözümlerini uygulamaları gerekir. Yanlış cevaplar yanlıştır çünkü UniFFI aslında enumlar ve structlar gibi karmaşık tipleri ele almada mükemmeldir, dil sınırları arasında otomatik bellek güvenli marshaling sağlar ve Rust Sonuç tiplerini hedef diller için yerel istisna modellerine dönüştüren sofistike hata işleme çevirisine sahiptir.

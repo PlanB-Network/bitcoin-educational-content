@@ -324,7 +324,7 @@ Her er flere mulige strategier for å administrere UTXO-er i utenlandsk valuta f
 
 
 
-- Kjøp forhåndsbetalte gavekort eller Visa-kort:** Plattformer som [Bitrefill] (https://www.bitrefill.com/) lar deg veksle inn bitcoins i gavekort eller oppladbare Visa-kort som kan brukes i butikker. Dette kan være en enkel og diskret måte å bruke giftige UTXO-er på.
+- Kjøp forhåndsbetalte gavekort eller Visa-kort:** Plattformer som [Bitrefill](https://www.bitrefill.com/) lar deg veksle inn bitcoins i gavekort eller oppladbare Visa-kort som kan brukes i butikker. Dette kan være en enkel og diskret måte å bruke giftige UTXO-er på.
 
 
 

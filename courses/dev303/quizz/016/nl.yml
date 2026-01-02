@@ -1,0 +1,8 @@
+question: Welk type bewerking voert Rust standaard uit bij het toewijzen van een String-variabele aan een andere?
+answer: Een verplaatsing die eigendom overdraagt en de bronvariabele ongeldig maakt
+wrong_answers:
+  - Een diepe kopie die alle heapgegevens dupliceert om onafhankelijke strings te maken
+  - Een ondiepe kopie die twee verwijzingen naar hetzelfde heapgeheugen maakt
+  - Een referentiecreatie waarmee beide variabelen alleen-lezen toegang delen
+explanation: |
+  Rust voert standaard een move operatie uit bij het toewijzen van complexe types zoals String. Hierdoor wordt het eigendom overgedragen van de bron- naar de bestemmingsvariabele, terwijl de bron ongeldig wordt gemaakt. Dit voorkomt gevaarlijke scenario's waarbij meerdere variabelen hetzelfde heap-geheugen kunnen wijzigen. Een diepe kopie zou inefficiënt zijn voor grote strings, een ondiepe kopie zou geheugenveiligheidsproblemen veroorzaken met meerdere verwijzingen naar dezelfde gegevens, en het aanmaken van verwijzingen vereist expliciete syntaxis met de ampersand operator.

@@ -1565,7 +1565,7 @@ Esta propuesta fue rechazada.
 
 Ese mismo año, 1790, comenzaron los debates sobre la emisión de nuevo papel moneda para cubrir los gastos del gobierno.
 
-Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
+Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
 
 
 

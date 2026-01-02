@@ -1,5 +1,5 @@
 ---
-name: Pastel Wallet
+name: Cake Wallet
 description: Tutorial sobre Cake Wallet y pagos silenciosos
 ---
 

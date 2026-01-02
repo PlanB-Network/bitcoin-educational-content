@@ -1,0 +1,9 @@
+question: Quelle coopérative de minage a brièvement dépassé les 50 % de taux de hachage du réseau au cours de l'été 2011 ?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ D'après OrganOfCorti, le taux de hachage mesuré de Deepbit était de 52,86 % le 5 août.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni iyihe mpamvu nyamukuru ituma UniFFI isaba abahinguzi gukora dosiye ya UDL itandukanye aho guhingura amabohero ataco akoresheje kode ya Rust?
+answer: UDL ikora nk'amasezerano asobanutse yerekana ibice vy'ububiko bw'ibitabu bwa Rust bikwiye gukoreshwa mu zindi ndimi .
+wrong_answers:
+  - "UDL irakenewe kuko uburyo bwo kwandika bwa Rust ntibujanye n'izindi ndimi zo gukora porogarama ata mpinduro"
+  - Dosiye za UDL ni nkenerwa kugira ngo zikore neza mu guhamagara ibikorwa vy'indimi zitandukanye mu gihe co gukora
+  - "UDL itanga uburyo bwo guhindura ubwavyo uburyo bw'ubutunzi bwa Rust mu gukusanya imyanda ku ndimi zigenewe"
+explanation: |
+  UniFFI ikoresha UDL nk’uguhitamwo kw’imiterere kugira ngo igumye itandukanya ivyiyumviro hagati y’ugushirwa mu ngiro n’ugukoresha. Dosiye ya UDL ikora nk’amasezerano asobanutse yemerera abahinguzi guhitamwo gushikiriza ibice vy’ububiko bwabo bwa Rust mu gihe bagumana amakuru y’ishyirwa mu ngiro ry’imbere mu bwiherero. Ubwo buryo burabuza gushirwa ahabona kw’ibintu vyose vya bose vya Rust, bikaba biha abahinguzi ububasha bwo kugenzura neza ubuso bwabo bwa API. Ayandi mahitamwo ntabwo ari meza kuko ubwoko bwa Rust bushobora gushushanirizwa ata UDL (naho butari bwiza cane), gutuma ibikorwa bigenda neza si yo ntumbero nyamukuru ya UDL, kandi UDL ntihindura ivyitegererezo vy’ubutunzi.

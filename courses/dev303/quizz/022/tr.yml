@@ -1,0 +1,8 @@
+question: Rust'ın Option<T> enum türünün birincil amacı nedir?
+answer: Null pointer hatalarını önleyerek, mevcut olabilecek veya olmayabilecek değerleri güvenli bir şekilde temsil etmek için
+wrong_answers:
+  - Birden fazla farklı veri türünü tür denetimi yapmadan tek bir değişkende saklamak için
+  - İşlev tanımlarında, çağrılar sırasında atlanabilecek isteğe bağlı parametreler oluşturmak için
+  - Tek bir fonksiyondan birden fazla olası hata türünü döndürmek için bir yol sağlamak
+explanation: |
+  Option<T> enum, eksik değerlerin açık bir şekilde ele alınmasını zorlayarak Rust'in null pointer sorunlarına çözümü olarak hizmet eder. İki çeşidi vardır: Mevcut değerler için Some(T) ve mevcut olmayan değerler için None. Derleyici, değeri kullanmadan önce hangi değişkene sahip olduğunuzu kontrol etmenizi gerektirir ve çalışma zamanı hatalarını önler. Yanlış cevaplar Option'ı diğer kavramlarla karıştırır: unions/variants (birinci), varsayılan parametreler (ikinci) ve hata işleme için Result türleri (üçüncü).

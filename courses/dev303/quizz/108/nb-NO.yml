@@ -1,0 +1,8 @@
+question: Hvilken grunnleggende egenskap ved LDKs komponentdesignfilosofi skiller den fra monolittiske Lightning node-implementeringer som CLightning eller LND?
+answer: Hver komponent inneholder standardimplementeringer som kan erstattes med tilpassede løsninger, samtidig som protokollsamsvaret opprettholdes
+wrong_answers:
+  - Alle komponenter må implementeres fra bunnen av av utviklere, og biblioteket tilbyr ingen standardimplementeringer
+  - Komponenter er permanent låst sammen og kan ikke endres når de først er integrert i en applikasjonsarkitektur
+  - Biblioteket krever at alle komponentene bruker identiske programmeringsspråk og kan ikke støtte språkbindinger på tvers av plattformer
+explanation: |
+  LDKs kjernefilosofi går ut på å tilby modulære komponenter med fungerende standardimplementeringer som utviklere kan bytte ut ved behov. Dette gjør det mulig å tilpasse spesifikk funksjonalitet (som blokkjedeovervåking eller transaksjonssignering) samtidig som andre komponenter forblir uendret. De gale svarene gir en feilaktig fremstilling av LDKs tilnærming: LDK tilbyr standardinnstillinger i stedet for å kreve alt fra bunnen av, gjør det mulig å bytte ut komponenter i stedet for å låse dem sammen, og støtter flere programmeringsspråk gjennom bindingssystemet.

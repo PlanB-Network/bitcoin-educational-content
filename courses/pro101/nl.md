@@ -11,7 +11,7 @@ objectives:
 
 Wat is er nodig om op Bitcoin te bouwen? Deze cursus van 20 uur neemt je mee onder het oppervlak van Bitcoin en het Lightning Network, en verkent de protocollen die 's werelds meest veerkrachtige financiële infrastructuur aandrijven. Of je nu wilt bijdragen aan open-sourceprojecten of de volgende generatie Bitcoin-applicaties wilt bouwen, je krijgt de technische diepgang die nodig is om met vertrouwen in dit ecosysteem te gaan werken.
 
-Opgenomen tijdens het CUBO+ 2023 bootcamp in El Salvador, brengt deze cursus perspectieven samen van toonaangevende Bitcoin-ontwikkelaars en docenten die de technologie hebben gevormd. Het beste deel? Het is volledig gratis, mogelijk gemaakt door Fulgure Venture, het Bitcoin Office en DecouvreBitcoin. Als je nieuwsgierig bent geweest naar hoe Bitcoin echt werkt op protocolniveau, is dit je kans om erachter te komen.
+Opgenomen tijdens het CUBO+ 2023 bootcamp in El Salvador, brengt deze cursus perspectieven samen van toonaangevende Bitcoin-ontwikkelaars en docenten die de technologie hebben gevormd. Het beste deel? Het is volledig gratis, mogelijk gemaakt door Fulgure Ventures, het Bitcoin Office en DecouvreBitcoin. Als je nieuwsgierig bent geweest naar hoe Bitcoin echt werkt op protocolniveau, is dit je kans om erachter te komen.
 +++
 # Introductie en voorbereidende cursussen
 
@@ -59,7 +59,7 @@ Tijdens de cursus zullen deelnemers gebruik maken van belangrijke hulpmiddelen d
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Welkom bij de eerste lezing van het **Cubo Plus** onderwijsprogramma. Vandaag duiken we in de wereld van Bitcoin, onder leiding van Ricky, de oprichter van de **Bitcoin Italia Podcast**. Ricky is een gepassioneerde mensenrechtenactivist die Bitcoin gebruikt als een middel om mensenrechten te beschermen en te promoten. Met meer dan zes jaar ervaring heeft Ricky veel gereisd en de adoptie van Bitcoin gedocumenteerd in opkomende markten zoals El Salvador en Guatemala. Zijn werk gaat verder dan podcasts; hij is ook actief op YouTube (**Bitcoin Explorers**) en Twitter (**BTC Explorer**, **Ricky6**). Ricky's Commitment voor Bitcoin komt voort uit zijn overtuiging dat het financiële vrijheid en privacy biedt en een uitdaging vormt voor traditionele, gecentraliseerde banksystemen.
+Welkom bij de eerste lezing van het **Cubo Plus** onderwijsprogramma. Vandaag duiken we in de wereld van Bitcoin, onder leiding van Rikki, de oprichter van de **Bitcoin Italia Podcast**. Rikki is een gepassioneerde mensenrechtenactivist die Bitcoin gebruikt als een middel om mensenrechten te beschermen en te promoten. Met meer dan zes jaar ervaring heeft Rikki veel gereisd en de adoptie van Bitcoin gedocumenteerd in opkomende markten zoals El Salvador en Guatemala. Zijn werk gaat verder dan podcasts; hij is ook actief op YouTube (**Bitcoin Explorers**) en Twitter (**BTC Explorer**, **Rikki6**). Rikki's Commitment voor Bitcoin komt voort uit zijn overtuiging dat het financiële vrijheid en privacy biedt en een uitdaging vormt voor traditionele, gecentraliseerde banksystemen.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Deze lezing, **"Waarom El Salvador Bitcoin nodig heeft,"** geeft een overzicht v
 - financiële inclusie: toegang bieden tot financiële diensten aan mensen die zijn uitgesloten van traditionele banksystemen, vaak aangeduid als de "unbanked"
 - ongecensureerd geld:_ Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
 
-#### Ricky's achtergrond en verdediging voor Bitcoin
+#### Rikki's achtergrond en verdediging voor Bitcoin
 
 
-Ricky's reis naar Bitcoin is geworteld in zijn werk als voorvechter van mensenrechten. Hij gelooft dat Bitcoin mensen controle kan geven over hun financiën, waardoor ze hun privacy kunnen beschermen en de beperkingen van gecentraliseerde banken kunnen omzeilen. Zijn onderzoek naar de toepassing van Bitcoin in landen als El Salvador laat zien hoe deze technologie mensen in opkomende markten in staat kan stellen financiële onafhankelijkheid te verwerven.
+Rikki's reis naar Bitcoin is geworteld in zijn werk als voorvechter van mensenrechten. Hij gelooft dat Bitcoin mensen controle kan geven over hun financiën, waardoor ze hun privacy kunnen beschermen en de beperkingen van gecentraliseerde banken kunnen omzeilen. Zijn onderzoek naar de toepassing van Bitcoin in landen als El Salvador laat zien hoe deze technologie mensen in opkomende markten in staat kan stellen financiële onafhankelijkheid te verwerven.
 
 
 ### De wereldwijde betekenis en uitdagingen van Bitcoin

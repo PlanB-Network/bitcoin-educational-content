@@ -1,0 +1,8 @@
+question: De acordo com o texto, que paradoxo existe entre segurança e progresso económico?
+answer: A segurança é simultaneamente um pré-requisito para o desenvolvimento e uma consequência do mesmo
+wrong_answers:
+  - A segurança surge sempre após o desenvolvimento económico ter sido alcançado
+  - O progresso económico elimina naturalmente a necessidade de medidas de segurança
+  - A segurança e o progresso económico são completamente independentes um do outro
+explanation: |
+  O capítulo explica que a segurança e o progresso económico criam uma relação paradoxal: a segurança é necessária para que o desenvolvimento possa ocorrer (não é possível inovar ou investir a longo prazo sem ela), mas também é necessário o excedente económico da produção para financiar as instituições que garantem a segurança. Isto cria um ciclo difícil de iniciar, mas, uma vez iniciado, torna-se auto-reforçador. As outras respostas estão erradas porque sugerem uma relação unidirecional simples ou uma independência, em vez desta interdependência complexa.

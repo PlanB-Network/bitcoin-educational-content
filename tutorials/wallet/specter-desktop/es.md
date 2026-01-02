@@ -1,5 +1,5 @@
 ---
-name: Escritorio Specter
+name: Specter Desktop
 description: Gestione sus carteras Bitcoin multifirma en total soberanía con su propio nodo
 ---
 

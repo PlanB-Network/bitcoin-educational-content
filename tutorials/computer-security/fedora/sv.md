@@ -126,7 +126,7 @@ Du kan hämta [Fedora Workstation]-utgåvan (https://fedoraproject.org/fr/workst
 
 
 
-För att installera Fedora måste du skapa ett startbart USB-minne med hjälp av programvara som [Balena Etcher] (https://etcher.balena.io/).
+För att installera Fedora måste du skapa ett startbart USB-minne med hjälp av programvara som [Balena Etcher](https://etcher.balena.io/).
 
 
 

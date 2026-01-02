@@ -1,0 +1,9 @@
+question: Quelle fonctionnalité commune partagent Aqua et Bull Bitcoin Wallet ?
+answer: Swaps atomiques Lightning
+wrong_answers:
+  - Canaux Lightning natifs
+  - Custody centralisée
+  - Nœud Lightning intégré
+explanation: |
+  Ces portefeuilles utilisent des swaps atomiques pour payer des invoices Lightning sans exploiter de nœud Lightning directement sur votre téléphone et tout en restant en self-custody.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Quel problème critique le mécanisme de canal juste à temps du SDK Breez résout-il par rapport aux implémentations traditionnelles de Lightning ?
+answer: Il crée automatiquement de nouveaux canaux avec suffisamment de liquidités entrantes lorsque les paiements arrivent, ce qui évite aux utilisateurs de devoir gérer manuellement la capacité des canaux
+wrong_answers:
+  - Il empêche les fermetures forcées de canaux en rééquilibrant automatiquement les fonds entre plusieurs canaux lorsque l'un d'entre eux ne répond plus ou est hors ligne
+  - Il réduit les frais de transaction en regroupant plusieurs petits paiements en opérations plus importantes qui sont traitées pendant les heures creuses du réseau
+  - Il élimine le besoin de services de surveillance en créant des canaux temporaires qui expirent automatiquement une fois le paiement effectué
+explanation: |
+  Le mécanisme de canal "juste à temps" répond spécifiquement au défi de gestion des liquidités de Lightning, où les fonds ne peuvent circuler que dans les directions où la capacité existe. Lorsqu'un utilisateur doit recevoir un paiement mais qu'il ne dispose pas de liquidités suffisantes, le FSL ouvre automatiquement un nouveau canal au moment où le paiement arrive, sans que l'utilisateur n'ait à intervenir. Les mauvaises réponses décrivent d'autres défis liés à la foudre, mais pas le problème de liquidité spécifique que les canaux de flux tendus permettent de résoudre.

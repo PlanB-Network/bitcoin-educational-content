@@ -1,0 +1,8 @@
+question: Kuna tofauti gani ya msingi kati ya mbinu ya ujumuishaji wa blockchain ya LDK na nodi za jadi za Umeme kuhusu mazingira yenye vikwazo vya rasilimali?
+answer: LDK hutoa ufupisho unaotegemea kuchuja unaoruhusu programu kutekeleza ufuatiliaji kupitia vyanzo vyepesi vya data kama vile seva za Electrum
+wrong_answers:
+  - LDK inahitaji usawazishaji kamili wa blockchain lakini huboresha hifadhi kupitia vichwa vya vitalu vilivyobanwa na mifumo ya kupogoa miamala
+  - LDK hutekeleza itifaki maalum ya blockchain ambayo hupunguza kipimo data kwa kudumisha miamala inayohusiana na chaneli pekee kwenye kumbukumbu.
+  - LDK hutumia utaratibu mseto wa makubaliano unaothibitisha miamala inayohusiana na Umeme pekee huku ikipuuza shughuli za kawaida za Bitcoin
+explanation: |
+  Muunganisho wa blockchain wa LDK umeundwa kwa njia mbili: hali kamili ya kuzuia kwa mazingira yenye rasilimali nyingi na hali inayotegemea kuchuja kwa mazingira yenye vikwazo. Mbinu ya kuchuja inaruhusu LDK kuwasiliana na mahitaji yake ya ufuatiliaji kupitia violesura vya dhahania, ikiomba ufuatiliaji wa miamala maalum, UTXO, au mifumo ya hati. Programu zinaweza kutekeleza ufuatiliaji huu kwa kutumia vyanzo vyepesi kama seva za Electrum au wachunguzi wa kuzuia, na hivyo kupunguza kwa kiasi kikubwa mahitaji ya kipimo data na hifadhi ikilinganishwa na usawazishaji kamili wa blockchain. Uchanganuzi huu huwezesha pochi za simu na programu za wavuti kudumisha utendakazi wa Umeme bila gharama ya rasilimali ambayo nodi za jadi za Umeme zinahitaji.

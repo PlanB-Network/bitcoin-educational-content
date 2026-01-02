@@ -17,9 +17,9 @@ Voordat we de verschillende stappen doorlopen, zetten we eerst de benodigdheden 
 
 
 
-- a [Lilygo T-display S3] (https://lilygo.cc/products/t-display-s3)
-- a [USB-C voeding Supply] (https://amzn.eu/d/gIOot90)
-- een 3D-koffer: als je een 3D-printer hebt, kun je het [3D-bestand] downloaden (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) en anders kun je er een kopen in de [Silexperience online winkel] (https://silexperience.company.site/NerdMiner_V2-p544379757).
+- a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
+- a [USB-C voeding Supply](https://amzn.eu/d/gIOot90)
+- een 3D-koffer: als je een 3D-printer hebt, kun je het [3D-bestand] downloaden (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons) en anders kun je er een kopen in de [Silexperience online winkel](https://silexperience.company.site/NerdMiner_V2-p544379757).
 - een pc met geïnstalleerde Chrome-browser
 - een internetverbinding
 - a Bitcoin Address
@@ -42,7 +42,7 @@ De **Installatie van NerdMiner_v2 Software** is sterk vereenvoudigd dankzij het 
 ## Stap 1: Voorbereiding van de Webflasher
 
 
-Eerst moet je naar de [online NM2 flasher] (https://bitmaker-hub.github.io/diyflasher/) gaan.
+Eerst moet je naar de [online NM2 flasher](https://bitmaker-hub.github.io/diyflasher/) gaan.
 
 
 Selecteer vervolgens de firmware die overeenkomt met je ESP-32. Meestal is dit de standaard firmware: T-Display S3. Klik dan op "Flash".

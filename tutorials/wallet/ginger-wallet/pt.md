@@ -1,5 +1,5 @@
 ---
-name: Gengibre Wallet
+name: Ginger Wallet
 description: Software Bitcoin wallet de fonte aberta e auto-custódia, fork de Wasabi Wallet, integrando Coinjoins
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Ginger Wallet é um portfólio Bitcoin de código aberto, sem custódia, focado 
 
 
 
-O Ginger Wallet mantém a arquitetura técnica do Wasabi, acrescentando algumas caraterísticas específicas. De acordo com a [documentação do Ginger Wallet] (https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet), o Wasabi dá ênfase à **autonomia e ao controlo**, enquanto o Ginger se concentra na **facilidade de utilização, segurança e experiência simplificada**, tornando-o acessível aos menos familiarizados com aspectos técnicos.
+O Ginger Wallet mantém a arquitetura técnica do Wasabi, acrescentando algumas caraterísticas específicas. De acordo com a [documentação do Ginger Wallet](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet), o Wasabi dá ênfase à **autonomia e ao controlo**, enquanto o Ginger se concentra na **facilidade de utilização, segurança e experiência simplificada**, tornando-o acessível aos menos familiarizados com aspectos técnicos.
 
 
 
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Para instalar o Ginger Wallet, visitar o sítio Web [Ginger Wallet] (https://gingerwallet.io).
+Para instalar o Ginger Wallet, visitar o sítio Web [Ginger Wallet](https://gingerwallet.io).
 
 
 

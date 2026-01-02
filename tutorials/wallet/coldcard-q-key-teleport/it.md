@@ -214,7 +214,7 @@ I dati vengono quindi decifrati e resi intelligibili al dispositivo ricevente. I
 
 
 
-Ciò presuppone che il vostro Wallet Multisig sia già stato creato e che il vostro dispositivo ColdCardQ sia già stato preimpostato per poter eseguire transazioni multi-firma. In caso contrario, le spiegazioni sono disponibili [qui] (https://coldcard.com/docs/Multisig/) sul sito web di Coinkite.
+Ciò presuppone che il vostro Wallet Multisig sia già stato creato e che il vostro dispositivo ColdCardQ sia già stato preimpostato per poter eseguire transazioni multi-firma. In caso contrario, le spiegazioni sono disponibili [qui](https://coldcard.com/docs/Multisig/) sul sito web di Coinkite.
 
 
 

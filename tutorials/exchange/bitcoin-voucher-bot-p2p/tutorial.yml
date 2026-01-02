@@ -1,0 +1,142 @@
+id: 2b3f73ed-0dab-4c3b-b561-667f3ebf4050
+project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
+
+category: peer-to-peer
+
+level: intermediate
+
+licence: CC-BY-SA-V4
+
+professor_id: 61afe93a-6e69-4846-a71f-c96e69f7a805
+
+tags:
+  - lightning
+  - personal-security
+  - cypherpunk
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-12-11
+    urgency: 1
+    contributor_names:
+      - SatoSats
+    reward: 1.9
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.74
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.8
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.03
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.5
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.27

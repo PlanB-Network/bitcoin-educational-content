@@ -1,0 +1,9 @@
+question: เอนจินการเรนเดอร์ใดที่ถูกใช้โดย Internet Explorer ตั้งแต่เวอร์ชัน 4 เป็นต้นไปและครองตลาดในช่วงต้นปี 2000?
+answer: ตรีศูล
+wrong_answers:
+  - ตุ๊กแก
+  - WebKit
+  - Blink
+explanation: |
+  Trident ซึ่งพัฒนาโดย Microsoft ถูกเปิดตัวพร้อมกับ Internet Explorer 4.0 ในปี 1997 และครองเว็บในช่วงที่ Internet Explorer มีการผูกขาดเสมือนจริง
+reviewed: false

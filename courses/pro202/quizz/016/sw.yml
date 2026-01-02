@@ -1,0 +1,8 @@
+question: Nini hutokea kwa tofauti kati ya kiasi cha pembejeo na kiasi cha matokeo katika muamala wa Bitcoin?
+answer: Tofauti hiyo inakuwa ada ya muamala inayolipwa kwa wachimbaji madini kiotomatiki
+wrong_answers:
+  - "Tofauti hiyo inarudishwa kwenye anwani ya awali ya mtumaji kama mabadiliko"
+  - Tofauti huchomwa na kuondolewa kabisa kutoka kwa mzunguko wa damu
+  - Tofauti hiyo inashikiliwa katika escrow hadi muamala utakapothibitishwa
+explanation: |
+  Katika mfumo wa ada wa Bitcoin, ada huhesabiwa bila kutaja kama tofauti kati ya jumla ya kiasi cha pembejeo na jumla ya kiasi cha matokeo (ada = jumla (pembejeo) - jumla (matokeo)). Thamani yoyote ambayo haijapewa waziwazi kwa matokeo inakuwa ada ya mchimbaji kiotomatiki. Hii ndiyo sababu kuunda matokeo sahihi ya mabadiliko ni muhimu - ukisahau kujumuisha matokeo ya mabadiliko unapotumia UTXO kubwa, yote yaliyobaki yanakuwa ada ya gharama kubwa kwa mchimbaji. Chaguzi zingine si sahihi kwa sababu Bitcoin haitoi matokeo ya mabadiliko kiotomatiki, haitoi thamani isiyopewa, na haitumii mifumo ya escrow kwa tofauti za miamala.

@@ -1,0 +1,8 @@
+question: Que caraterística criptográfica permite ao Liquid ocultar os montantes das transacções e os tipos de activos da vista do público?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Módulos de segurança de hardware (HSMs)
+  - Protocolo de Federação Dinâmica (Dynafed)
+  - Chaves de Autorização de Peg-out (PAKs)
+explanation: |
+  O Confidential Transactions (CT) é a caraterística criptográfica que permite ao Liquid ocultar os tipos de activos e os montantes das transacções do livro-razão público, permitindo simultaneamente que a rede verifique a validade das transacções. Isto proporciona uma privacidade comercial essencial para as instituições. Os módulos de segurança de hardware são dispositivos físicos que protegem as chaves privadas, o protocolo Dynafed gere as alterações da federação e os PAKs controlam o processo de peg-out - nenhum destes esconde os detalhes da transação da vista do público.

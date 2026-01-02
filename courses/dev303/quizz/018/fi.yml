@@ -1,0 +1,8 @@
+question: Mitä mekanismia Rust käyttää siivoamaan muuttujat ja niiden resurssit automaattisesti, kun ne menevät soveltamisalan ulkopuolelle?
+answer: Pudotusmekanismi, joka kutsuu muuttujien pudotusfunktioita
+wrong_answers:
+  - Roskienkerääjä, joka etsii ajoittain käyttämätöntä muistia
+  - Manuaalinen muistin poistaminen nimenomaisilla free()-funktiokutsuilla
+  - Viitteiden laskenta, joka seuraa, kuinka moni osoitin viittaa kuhunkin arvoon
+explanation: |
+  Rust käyttää pudotusmekanismia resurssien automaattiseen siivoamiseen, kun muuttujat menevät soveltamisalan ulkopuolelle. Järjestelmä kutsuu epäsuorasti drop-funktiota jokaiselle muuttujalle, kun se poistuu soveltamisalaltaan, jolloin muisti merkitään uudelleen käytettäväksi ja suoritetaan tarvittavat siivousoperaatiot, kuten tiedostokahvojen sulkeminen. Tämä lähestymistapa, joka on lainattu C++:n RAII-mallista, varmistaa automaattisen resurssienhallinnan ilman, että tarvitaan roskienkeräystä, manuaalista muistinhallintaa tai muiden kielten käyttämiä viitteiden laskentajärjestelmiä.

@@ -1,0 +1,8 @@
+question: Jaký je matematický vztah mezi hodnotou obtížnosti Bitcoin a aktuálním cílem použitým pro ověření bloku?
+answer: Obtížnost se rovná nejnižšímu možnému cíli dělenému aktuálním cílem
+wrong_answers:
+  - Obtížnost se rovná aktuálnímu cíli dělenému nejnižším možným cílem
+  - Obtížnost se rovná aktuálnímu cíli vynásobenému nejnižším možným cílem
+  - Obtížnost se rovná koeficientu krát 256 zvýšenému na exponent minus 3
+explanation: |
+  Obtížnost Bitcoin je konkrétně definována jako nejnižší_cíl / aktuální_cíl, což vyjadřuje, kolikrát je mining těžší ve srovnání s nejlehčí možnou obtížností. Tento inverzní vztah znamená, že se zmenšujícím se cílem (čímž je obtížnější najít platné hashe) se úměrně zvyšuje i obtížnost. Vzorec zajišťuje, že obtížnost 1 představuje nejjednodušší podmínky mining, zatímco vyšší hodnoty znamenají úměrně větší výpočetní práci potřebnou k nalezení platných bloků.

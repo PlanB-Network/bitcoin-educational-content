@@ -6,29 +6,29 @@ description: Temukan dan mulai menggunakan Nostr
 
 ![Seorang penantang baru telah tiba](assets/1.webp)
 
-*Di akhir panduan ini, Anda akan memahami apa itu Nostr, Anda akan membuat akun, dan Anda akan dapat menggunakannya.*
+*Di akhir panduan ini, kamu akan paham apa itu Nostr, kamu akan bikin akun, dan kamu bakal bisa langsung pakai Nostr.*
 
 ## Apa itu Nostr?
 
-Nostr adalah sebuah protokol yang memiliki kekuatan untuk menggantikan Twitter, Telegram, dan platform media sosial lainnya. Ini adalah protokol terbuka sederhana yang mampu menciptakan jaringan sosial yang tahan global sekali dan untuk semua.
+Nostr adalah protokol yang punya potensi menggantikan Twitter, Telegram, dan platform media sosial lainnya. Ini protokol terbuka yang sederhana tapi mampu membangun jaringan sosial yang tahan dan berskala global sekali untuk selamanya.
 
 ## Bagaimana cara kerjanya?
 
-Nostr didasarkan pada tiga komponen: pasangan kunci, klien, dan relay.
+Nostr dibangun di atas tiga komponen: keypair, klien, dan relay.
 
-Setiap pengguna memiliki satu atau lebih identitas, dan setiap identitas ditentukan oleh pasangan kunci kriptografi.
+Setiap pengguna punya satu atau lebih identitas, dan setiap identitas ditentukan oleh pasangan kunci kriptografi.
 
-Untuk mengakses jaringan, Anda perlu menggunakan perangkat lunak klien dan terhubung ke relay untuk menerima dan mengirimkan konten.
+Untuk mengakses jaringan, kamu perlu pakai software klien dan terhubung ke relay untuk menerima dan mengirim konten.
 
 ![Sistem kunci](assets/2.webp)
 
 ## 1. Kunci Kriptografi
 
-Tidak seperti Facebook atau Twitter, di mana pengguna harus memberikan alamat email dan banyak informasi kepada perusahaan swasta, Nostr beroperasi tanpa otoritas pusat. Pengguna menghasilkan pasangan kunci kriptografi, sebuah kunci rahasia (juga dikenal sebagai kunci privat), dan kunci publik.
+Berbeda dengan Facebook atau Twitter, di mana pengguna harus ngasih alamat email dan banyak info pribadi ke perusahaan, Nostr berjalan tanpa otoritas pusat. Pengguna cukup menghasilkan pasangan kunci kriptografi: satu kunci rahasia (kunci privat) dan satu kunci publik.
 
-Kunci rahasia, nsec, hanya diketahui oleh pengguna, digunakan untuk otentikasi dan penerbitan konten.
+Kunci rahasia, nsec, cuma boleh diketahui pengguna. Ini dipakai buat autentikasi dan buat nerbitin konten.
 
-Kunci publik, npub, adalah pengenal unik di mana semua konten yang diterbitkan oleh pengguna terlampir. Kunci publik Anda seperti nama pengguna yang memungkinkan pengguna lain menemukan Anda dan berlangganan ke umpan Nostr Anda.
+Kunci publik, npub, jadi pengenal unik tempat semua konten yang kamu terbitkan menempel. Kunci publik kamu ini mirip nama pengguna yang bikin orang lain bisa nemuin kamu dan subscribe ke feed Nostr kamu.
 
 ## 2. Klien
 
@@ -42,23 +42,23 @@ Klien memungkinkan pengguna untuk menghasilkan pasangan kunci baru (setara denga
 
 ## 3. Relay
 
-Relay adalah server sederhana yang dapat Anda tinggalkan kapan saja jika Anda tidak menyukai konten yang mereka sampaikan kepada Anda. Anda juga dapat menjalankan relay Anda sendiri jika Anda mau.
+Relay adalah server sederhana yang bisa kamu tinggalkan kapan saja kalau kamu nggak suka dengan konten yang mereka kirimkan ke kamu. Kamu juga bisa menjalankan relay sendiri kalau mau.
 
 > 💡 Tips Pro: Relay berbayar umumnya lebih efektif dalam menyaring spam dan konten yang tidak diinginkan.
 
 ## Panduan
 
-Sekarang Anda sudah cukup tahu tentang Nostr untuk memulai dan membuat identitas pertama Anda pada protokol ini.
+Sekarang kamu sudah cukup ngerti tentang Nostr buat mulai dan bikin identitas pertamamu di protokol ini.
 
-Untuk keperluan panduan ini, kami akan menggunakan iris.to (https://iris.to/) karena klien web ini bekerja di platform apa pun.
+Untuk keperluan panduan ini, kita akan pakai iris.to (https://iris.to/) karena klien web ini bekerja di platform apa pun.
 
 ## Langkah 1: Menghasilkan kunci
 
-Iris akan membuatkan Anda satu set kunci tanpa Anda harus melakukan apa pun selain memasukkan nama (nyata atau fiktif) untuk profil Anda. Kemudian klik pada GO dan Anda selesai!
+Iris bakal buatkan kamu satu set kunci tanpa kamu harus ngapa-ngapain selain masukin nama (asli atau fiktif) buat profil kamu. Habis itu klik GO dan selesai!
 
 ![Menu utama](assets/3.webp)
 
-> ⚠️ Perhatian! Anda perlu melacak kunci Anda jika Anda ingin dapat mengakses profil Anda lagi setelah sesi Anda ditutup. Saya akan menunjukkan kepada Anda cara melakukan ini di akhir panduan ini.
+> ⚠️ Perhatian! Kamu harus nyimpen kunci kamu kalau mau bisa akses profil kamu lagi setelah sesi ditutup. Aku bakal tunjukin caranya di akhir panduan ini.
 
 ## Langkah 2: Menerbitkan konten
 
@@ -66,45 +66,45 @@ Untuk menerbitkan konten, sama sederhana dan intuitifnya dengan menulis beberapa
 
 ![Publikasi](assets/4.webp)
 
-Sudah! Anda telah menerbitkan catatan pertama Anda di Nostr.
+Sudah! Kamu baru aja nerbitin catatan pertamamu di Nostr.
 
 ![Post](assets/5.webp)
 
 ## Langkah 3: Temukan teman
 
-Temukan saya di Nostr dan tidak pernah sendirian lagi. Saya akan berlangganan kembali kepada siapa pun yang berlangganan ke umpan saya. Untuk melakukan ini, cukup masukkan kunci publik saya
+Temuin aku di Nostr dan kamu nggak akan sendirian lagi. Aku bakal subscribe balik siapa pun yang subscribe ke feed aku. Buat itu, cukup masukin kunci publik aku.
 
 npub1hartx53w6t3q5wv9xdqdwrk7h6r5866t8u775q0304zedpn5zgssasp7d3 di bilah pencarian.
 ![Profil Saya](assets/6.webp)
-Klik pada "ikuti" dan dalam beberapa hari paling lama, saya juga akan berlangganan feed Anda. Kita akan menjadi teman. Saya juga akan senang membaca pesan Anda jika Anda ingin menulis satu untuk saya.
+Klik “ikuti” dan dalam beberapa hari paling lama, aku juga bakal subscribe ke feed kamu. Kita bakal jadi teman. Aku juga senang baca pesan kamu kalau kamu mau nulis satu buat aku..
 
 Akhirnya, pastikan untuk juga berlangganan feed Agora256 untuk menerima catatan setiap kali kami mempublikasikan sesuatu yang baru: npub1ag0rawstycy7nanuc6sz4v287rneen2yapcq3fd06972f8ncrhzqx
 
 ## Langkah 4: Sesuaikan Profil Anda
 
-Anda masih memiliki beberapa pekerjaan untuk menyesuaikan profil Anda. Untuk melakukan ini, klik pada avatar yang secara otomatis dihasilkan oleh iris untuk Anda di sudut kanan atas layar dan kemudian klik pada "edit profil".
+Kamu masih punya sedikit pekerjaan buat nyesuaiin profil kamu. Buat itu, klik avatar yang otomatis dibuat Iris buat kamu di pojok kanan atas layar, lalu klik “edit profil”.
 
 ![Profil](assets/7.webp)
 
-Yang harus Anda lakukan sekarang adalah memberitahu iris di mana menemukan gambar dan banner profil Anda di internet. Saya merekomendasikan untuk hosting konten Anda sendiri: lindungi apa yang menjadi milik Anda.
+Sekarang kamu cuma perlu ngasih tahu Iris di mana dia bisa nemuin foto profil dan banner kamu di internet. Aku saranin kamu hosting kontenmu sendiri supaya apa yang jadi milik kamu tetap aman.
 
 ![Opsi Lain](assets/8.webp)
 
-Jika Anda mau, Anda juga dapat mengunggah gambar, gambar tersebut akan disimpan untuk Anda oleh iris di nostr.build, sebuah layanan hosting konten visual gratis untuk Nostr.
+Kalau mau, kamu juga bisa upload gambar. Gambar itu nanti disimpan Iris buat kamu di nostr.build, layanan hosting konten visual gratis buat Nostr.
 
-Seperti yang Anda lihat, Anda juga dapat mengonfigurasi klien Anda untuk dapat menerima dan mengirim sats. Dengan cara ini, Anda dapat memberi penghargaan kepada penulis konten yang Anda suka atau, lebih baik lagi, mengumpulkan sats untuk konten hebat yang akan Anda publikasikan.
+Seperti yang bisa kamu lihat, kamu juga bisa nyetel klien kamu supaya bisa nerima dan ngirim sats. Dengan cara ini, kamu bisa ngasih apresiasi ke penulis konten yang kamu suka atau, lebih bagus lagi, ngumpulin sats dari konten keren yang bakal kamu publikasikan.
 
 ## Langkah 5: Cadangkan Pasangan Kunci
 
-Langkah ini sangat penting jika Anda ingin tetap memiliki akses ke profil Anda setelah Anda keluar dari klien atau sesi Anda telah berakhir.
-Pertama, klik pada ikon "pengaturan" yang diwakili oleh sebuah roda gigi
+Langkah ini penting banget kalau kamu mau tetap bisa akses profil kamu setelah keluar dari klien atau sesi kamu berakhir.
+Pertama, klik ikon “pengaturan” yang digambarkan dengan roda gigi.
 ![Pengaturan](assets/9.webp)
 
-Kemudian, salin dan tempel satu per satu npub Anda, npub hex, nsec, dan nsec hex ke dalam file teks yang akan Anda simpan dengan aman. Saya merekomendasikan mengenkripsi file ini jika Anda tahu cara melakukannya.
+Lalu, salin dan tempel satu per satu npub kamu, npub hex, nsec, dan nsec hex ke dalam file teks yang bakal kamu simpan dengan aman. Aku saranin kamu enkripsi file ini kalau kamu tahu cara ngelakukannya.
 
 ![Kunci](assets/10.webp)
 
-> ⚠️ Perhatikan peringatan yang diberikan oleh iris. Meskipun Anda dapat berbagi kunci publik Anda tanpa takut, ceritanya berbeda untuk kunci pribadi Anda. Siapa pun yang memiliki yang terakhir akan dapat mengakses akun Anda.
+> ⚠️ Perhatiin juga peringatan dari Iris. Walaupun kamu bisa bebas berbagi kunci publik kamu, ceritanya beda untuk kunci privat. Siapa pun yang punya kunci itu bisa akses akun kamu.
 
 ## Kesimpulan
 

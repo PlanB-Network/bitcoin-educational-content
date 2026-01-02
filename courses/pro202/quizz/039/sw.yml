@@ -1,0 +1,8 @@
+question: Ni hatari gani kuu ya usalama inayofanya P2SH kuwa tofauti kimsingi na miamala ya kawaida ya Bitcoin katika suala la urejeshaji wa fedha?
+answer: Kupoteza hati ya kukomboa hufunga pesa kabisa hata kama una funguo za kibinafsi
+wrong_answers:
+  - Hashi ya baiti 20 inaweza kulazimishwa kwa nguvu ikiwa hati ya kukomboa ni rahisi sana
+  - Anwani za P2SH huisha muda wake baada ya urefu fulani wa block kufanya fedha zisiweze kurejeshwa
+  - Mchakato wa uthibitishaji wa hatua mbili unaweza kushindwa bila mpangilio na kusababisha upotevu wa kudumu wa fedha
+explanation: |
+  P2SH inaleta sharti la kipekee la usalama: funguo za kibinafsi NA hati ya kukomboa ni muhimu ili kutumia pesa. Tofauti na miamala ya kawaida ambapo funguo za kibinafsi pekee ndizo zinahitajika, P2SH inahitaji hati halisi ya kukomboa itolewe wakati wa matumizi. Ikiwa hati ya kukomboa itapotea, pesa haziwezi kufikiwa kabisa bila kujali kuwa na funguo sahihi za kibinafsi, kwa sababu masharti ya matumizi hayawezi kujengwa upya au kuthibitishwa.

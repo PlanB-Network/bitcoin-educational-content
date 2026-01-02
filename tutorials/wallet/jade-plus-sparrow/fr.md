@@ -8,7 +8,7 @@ Le Jade Plus est un hardware wallet Bitcoin-only conçu par Blockstream. C'est l
 
 Le Jade Plus peut être utilisé de plusieurs manières : via une connexion filaire USB-C, en mode "*Air-Gap*" avec une carte micro SD (adaptateur nécessaire), en Bluetooth ou encore par échange de QR codes grâce à la caméra intégrée. Ce hardware wallet fonctionne sur batterie.
 
-Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter de jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
+Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
 
 ![JADE-PLUS-SPARROW](assets/fr/01.webp)
 
@@ -40,7 +40,7 @@ L’avantage majeur de cette approche est l’absence de point de défaillance u
 
 L'inconvénient de ce système est que l'utilisation du Jade Plus dépend de l'oracle maintenu par Blockstream. Si cet oracle devient inaccessible, il n'est plus possible d'utiliser directement le hardware wallet avec le PIN. Cependant, cela ne signifie pas que vos bitcoins sont perdus, car ils peuvent toujours être récupérés grâce à votre phrase de récupération, que vous pouvez d'ailleurs entrer dans le Jade Plus en mode "*stateless*". Pour contourner cette dépendance, il est aussi possible de configurer et de gérer son propre serveur d'oracle.
 
-Une autre option pour la gestion de votre seed est tout simplement de ne pas l'enregistrer sur le Jade Plus. Dans ce cas, le Jade devient uniquement un périphérique de signature. Lors de l'initialisation, en plus de la sauvegarde habituelle de la phrase de récupération sous forme de mots, vous allez également l'enregistrer sous forme de QR code généré à la main. Ainsi, lors de chaque utilisation de votre portefeuille, vous pourrez importer la seed à l'aide de la caméra de votre Jade. Cela peut être une option intéressante pour els utilisateurs avancés en fonction de votre stratégie de sécurisation, mais attention, il faut veiller à la fois à bien sauvegarder votre seed, et également à la protéger, car même sous forme de QR code, elle permettrait à n'importe qui de vous voler vos fonds. Nous allons étudier cette option dans ce tutoriel, mais elle n'est pas obligatoire.
+Une autre option pour la gestion de votre seed est tout simplement de ne pas l'enregistrer sur le Jade Plus. Dans ce cas, le Jade devient uniquement un périphérique de signature. Lors de l'initialisation, en plus de la sauvegarde habituelle de la phrase de récupération sous forme de mots, vous allez également l'enregistrer sous forme de QR code généré à la main. Ainsi, lors de chaque utilisation de votre portefeuille, vous pourrez importer la seed à l'aide de la caméra de votre Jade. Cela peut être une option intéressante pour les utilisateurs avancés en fonction de votre stratégie de sécurisation, mais attention, il faut veiller à la fois à bien sauvegarder votre seed, et également à la protéger, car même sous forme de QR code, elle permettrait à n'importe qui de vous voler vos fonds. Nous allons étudier cette option dans ce tutoriel, mais elle n'est pas obligatoire.
 
 ## Unboxing du Jade Plus
 
@@ -134,7 +134,7 @@ Confirmez votre PIN une seconde fois.
 
 ![Image](assets/fr/30.webp)
 
-Comme expliqué dans l'introduction, votre seed est stockée chiffrée sur le Jade Plus. Pour la déchiffrer, il faut obligatoirement fournir :
+Comme expliqué dans l'introduction, votre seed est stockée sur le Jade Plus. Pour la déchiffrer, il faut obligatoirement fournir :
 - Le code PIN valide (que nous venons de mettre en place) ;
 - Le secret de l'oracle maintenu par Blockstream.
 

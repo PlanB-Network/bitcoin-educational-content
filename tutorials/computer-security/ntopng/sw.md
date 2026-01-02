@@ -300,7 +300,7 @@ Kwa hivyo nitaongeza tu neno **changia** kwenye mistari kama hii.
 
 
 
-Hatua zingine zimeorodheshwa kwenye tovuti ya [NtopNG] (https://packages.ntop.org/apt/) ambapo, kwa Debian 11, unahitaji kuongeza vyanzo vya Ntop kwa usakinishaji wa siku zijazo. Nyongeza hii inajiendesha kwa kutumia:
+Hatua zingine zimeorodheshwa kwenye tovuti ya [NtopNG](https://packages.ntop.org/apt/) ambapo, kwa Debian 11, unahitaji kuongeza vyanzo vya Ntop kwa usakinishaji wa siku zijazo. Nyongeza hii inajiendesha kwa kutumia:
 
 
 

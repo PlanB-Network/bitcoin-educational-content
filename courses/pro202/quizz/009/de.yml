@@ -1,0 +1,8 @@
+question: Wie lautet die spezifische Gleichung der elliptischen Kurve, die von Bitcoin's secp256k1 verwendet wird?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin verwendet die secp256k1-Kurve, die durch die Gleichung y² = x³ + 7 über einem endlichen Feld definiert ist. Diese spezielle Gleichung wurde gewählt, weil sie die Symmetrie und das nichtlineare Verhalten bewahrt, die für die kryptografische Sicherheit wesentlich sind. Der Koeffizient 7 ist Teil der standardisierten secp256k1-Spezifikation und unterscheidet sie von anderen elliptischen Kurven, die möglicherweise andere Konstanten wie 1, 3 oder 5 verwenden.

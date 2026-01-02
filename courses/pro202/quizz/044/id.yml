@@ -1,0 +1,8 @@
+question: Mengapa BIP34 memerlukan penyematan tinggi blok di bidang scriptSig transaksi Coinbase?
+answer: Untuk memastikan setiap Coinbase transaction ID unik di semua blok
+wrong_answers:
+  - Untuk memberikan entropi tambahan bagi para penambang ketika ruang nonce habis
+  - Untuk memungkinkan klien ringan memverifikasi pemesanan blok tanpa mengunduh blok penuh
+  - Untuk mencegah penambang mengklaim subsidi blok yang lebih tinggi dari jumlah yang diizinkan
+explanation: |
+  BIP34 mengamanatkan penyertaan ketinggian blok dalam Coinbase scriptSig secara khusus untuk menjamin keunikan setiap Coinbase transaction ID. Tanpa persyaratan ini, dua blok pada ketinggian yang berbeda secara teoritis dapat memiliki transaksi Coinbase yang identik, menciptakan txid duplikat yang akan melanggar asumsi keunikan transaksi Bitcoin dan berpotensi menyebabkan konflik basis data dalam implementasi yang diindeks oleh txid.

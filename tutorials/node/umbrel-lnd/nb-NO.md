@@ -213,7 +213,7 @@ Når LND er oppe og går, kan du åpne din første Lightning-kanal. Slik finner 
 
 
 
-[Amboss.space] (https://amboss.space/) er en utforsker for å finne pålitelige noder for å åpne kanaler.
+[Amboss.space](https://amboss.space/) er en utforsker for å finne pålitelige noder for å åpne kanaler.
 
 
 
@@ -221,7 +221,7 @@ Når LND er oppe og går, kan du åpne din første Lightning-kanal. Slik finner 
 
 
 
-For eksempel er [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en anerkjent node med utmerket tilgjengelighet og likviditetsstatistikk.
+For eksempel er [ACINQ-noden](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en anerkjent node med utmerket tilgjengelighet og likviditetsstatistikk.
 
 
 
@@ -229,7 +229,7 @@ For eksempel er [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989
 
 
 
-For denne opplæringen åpner vi en kanal med [Swiss Bitcoin Pay] (https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informasjonen som kreves for tilkobling (pubkey@ip:port) er gitt på deres Amboss-side.
+For denne opplæringen åpner vi en kanal med [Swiss Bitcoin Pay](https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informasjonen som kreves for tilkobling (pubkey@ip:port) er gitt på deres Amboss-side.
 
 
 
@@ -454,9 +454,9 @@ Disse alternativene er ikke obligatoriske, og Tor + Zeus-løsningen fungerer bra
 
 
 > **Nyttige ressurser:**
-> - [Zeus Documentation - Umbrel Connection] (https://community.umbrel.com/t/zeus-LN-mobile/7619) - Offisiell guide til hvordan du kobler Zeus til Umbrel
+> - [Zeus Documentation - Umbrel Connection](https://community.umbrel.com/t/zeus-LN-mobile/7619) - Offisiell guide til hvordan du kobler Zeus til Umbrel
 > - [Zeus GitHub](https://github.com/ZeusLN/zeus) - Zeus-prosjektet med åpen kildekode
-> - [Umbrel Community - Tilkobling av Zeus via Tailscale] (https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Guide til hvordan du kobler Zeus til Umbrel ved hjelp av Tailscale
+> - [Umbrel Community - Tilkobling av Zeus via Tailscale](https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Guide til hvordan du kobler Zeus til Umbrel ved hjelp av Tailscale
 
 ## 5. Sikkerhet og beste praksis
 
@@ -709,7 +709,7 @@ Disse verktøyene kan installeres med bare noen få klikk via Umbrel App Store, 
 
 - [ThunderHub.io - Funksjoner](https://thunderhub.io) - Oversikt over ThunderHub-funksjoner
 - [Ride The Lightning (RTL) info](https://www.ridethelightning.info/) - RTL-dokumentasjon
-- [David Kaspar - Rebalance via ThunderHub] (https://blog.davidkaspar.com) - En praktisk guide til rebalansering
+- [David Kaspar - Rebalance via ThunderHub](https://blog.davidkaspar.com) - En praktisk guide til rebalansering
 - [Guide "Managing Lightning Nodes"](https://github.com/openoms/lightning-node-management) - Avansert dokumentasjon for strømbrukere
 
 

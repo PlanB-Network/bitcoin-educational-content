@@ -1,0 +1,8 @@
+question: Jaka jest kluczowa różnica między sposobem, w jaki Panic i Result obsługują odzyskiwanie błędów w aplikacjach Rust?
+answer: Panic zatrzymuje wykonanie natychmiast i nie można go odzyskać, podczas gdy Result pozwala dzwoniącym na obsługę błędów z wdziękiem
+wrong_answers:
+  - Panic zapewnia szczegółowe informacje o błędach, podczas gdy Result wskazuje tylko sukces lub porażkę bez kontekstu
+  - Panic jest bezpieczny dla wątków i może być obsługiwany między wątkami, podczas gdy błędy Result są ograniczone do pojedynczych wątków
+  - Panic automatycznie rejestruje błędy w systemie, podczas gdy Result wymaga ręcznego rejestrowania i raportowania błędów
+explanation: |
+  Panic reprezentuje nienaprawialne błędy, które natychmiast kończą wykonywanie poprzez rozwijanie lub przerwanie, uniemożliwiając kodowi wywołującemu obsłużenie błędu i kontynuowanie. Result, jako wyliczenie zawierające Ok(wartość) lub Err(błąd), wyraźnie zmusza wywołujących do uznania potencjalnych awarii i wybrania sposobu reakcji - czy to poprzez obsługę błędu, zapewnienie wartości domyślnych, czy propagację w górę stosu wywołań. Ta fundamentalna różnica sprawia, że Result jest preferowanym wyborem dla możliwych do odzyskania błędów w kodzie produkcyjnym, podczas gdy panic powinien być zarezerwowany dla naprawdę niemożliwych do odzyskania sytuacji lub scenariuszy programistycznych.

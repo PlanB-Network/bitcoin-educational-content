@@ -1,0 +1,9 @@
+question: Was ist laut dem Cypherpunk-Manifest von Eric Hughes die Hauptverantwortung für den Schutz der Privatsphäre in einer offenen elektronischen Gesellschaft?
+answer: Der Einzelne muss seine Privatsphäre aktiv verteidigen, anstatt sich darauf zu verlassen, dass Regierungen oder Unternehmen sie gewährleisten
+wrong_answers:
+  - Die Regierungen sollten umfassende Datenschutzbestimmungen erlassen, um die Bürger vor der Überwachung durch Unternehmen zu schützen
+  - Unternehmen müssen freiwillige Datenschutzstandards einführen und ihre Datenerfassungspraktiken selbst regulieren
+  - Internationale Organisationen sollten verbindliche Verträge abschließen, die den Schutz der Privatsphäre in allen Ländern vorschreiben
+explanation: |
+  Eric Hughes erklärte im Cypherpunk Manifest ausdrücklich, dass "wir nicht erwarten können, dass Regierungen, Unternehmen oder andere große anonyme Organisationen uns Vertraulichkeit garantieren... Mein Hauptziel für Cypherpunks ist es, die Menschen dazu zu bringen, ihre Vertraulichkeit zu verteidigen, anstatt sich darauf zu verlassen, dass jemand anderes sie gewährleistet
+  Diese Philosophie betont die Verantwortung des Einzelnen und die Selbstverantwortung durch kryptografische Werkzeuge und lehnt die Abhängigkeit von externen Institutionen zum Schutz der Privatsphäre ab, weshalb die Cypherpunks dezentralisierte kryptografische Systeme entwickelt haben.

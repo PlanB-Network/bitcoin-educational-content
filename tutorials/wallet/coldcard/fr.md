@@ -9,11 +9,11 @@ Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil
 
 ## Guide complet pour générer une clé privée à l'aide d'une Coldcard et son utilisation via l'interface de votre noeud Bitcoin Core !
 
-À la base de l'utilisation du réseau Bitcoin se trouve le concept de cryptographie asymétrique : un couple de clés – l'une privée et l'autre publique – ayant comme fonction de chiffrer et déchiffrer des données, un concept permettant d'assurer la confidentialité d'une communication.
+À la base de l'utilisation du réseau Bitcoin se trouve le concept de cryptographie asymétrique : un couple de clés, l'une privée et l'autre publique, ayant comme fonction de chiffrer et déchiffrer des données, un concept permettant d'assurer la confidentialité d'une communication.
 
 Dans le cas de Bitcoin, c'est en générant un tel couple de clé privée & publique que nous sommes en mesure de stocker des bitcoins (UTXO ou Unspent Transaction Output) et de signer des transactions afin de dépenser ces derniers.
 
-Aujourd'hui, de multiples outils existent pour faciliter la génération aléatoire d'une clé privée et de sa sauvegarde sous forme textuelle à l'aide du BIP 39 – un standard déterminant comment les portefeuilles associent une phrase mnémonique (seed phrase) aux clés de chiffrement. Plus souvent qu'autrement, la phrase mnémonique se trouve sous forme de 12 ou 24 mots, lesquels il faut absolument sauvegarder de façon sécuritaire afin de se permettre de récupérer un portefeuille et ses bitcoins.
+Aujourd'hui, de multiples outils existent pour faciliter la génération aléatoire d'une clé privée et de sa sauvegarde sous forme textuelle à l'aide du BIP 39, un standard déterminant comment les portefeuilles associent une phrase mnémonique (seed phrase) aux clés de chiffrement. Plus souvent qu'autrement, la phrase mnémonique se trouve sous forme de 12 ou 24 mots, lesquels il faut absolument sauvegarder de façon sécuritaire afin de se permettre de récupérer un portefeuille et ses bitcoins.
 
 Dans cet article, nous allons apprendre à générer une clé privée à l'aide d'une Coldcard Mk4, l'un des appareils les plus répandus et sécuritaires dans le monde du Bitcoin, en se servant de la méthode du lancement de dés (Dice roll) pour garantir un maximum d'entropie, et à l'utiliser avec Bitcoin Core de façon étanche (air-gapped) !
 
@@ -103,7 +103,7 @@ Recevoir et envoyer des transactions en mode 'air-gapped'
 
 Recevoir une transaction est excessivement simple ; il suffit d'appuyer sur Recevoir, étiquetter la transaction (optionnel mais recommandé), et Créer une nouvelle adresse de réception. Puis il ne reste plus qu'à partager l'adresse à l'émetteur.
 
-Maintenant, l'élément clé de cette configuration Coldcard + Bitcoin Core est l'envoi de transactions sans que la Coldcard et sa clé privée ne soit connectée à l'Internet, une méthode appelée air-gapped faisant appel à la fonction TBSP (PSBT - Partially Signed Bitcoin Transactions) de Bitcoin.
+Maintenant, l'élément clé de cette configuration Coldcard + Bitcoin Core est l'envoi de transactions sans que la Coldcard et sa clé privée ne soit connectée à Internet, une méthode appelée air-gapped faisant appel à la fonction TBSP (PSBT - Partially Signed Bitcoin Transactions) de Bitcoin.
 
 Essentiellement, nous utilisons l'interface Bitcoin Core pour construire une transaction, que nous allons par la suite exporter via la carte micro SD sur la Coldcard pour la signer, pour ensuite retourner le fichier de transaction signé sur Bitcoin Core et diffuser la transaction au réseau. Nous devons procéder ainsi puisque de toute façon, le portefeuille importé sur Bitcoin Core ne comporte pas de clé privée, seulement la clé publique (laquelle nous permet de générer nos adresses de réception), et il nous est donc impossible de signer une transaction à même le logiciel pour dépenser nos bitcoins.
 

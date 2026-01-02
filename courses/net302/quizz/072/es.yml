@@ -6,4 +6,4 @@ wrong_answers:
   - IP (Proveedor Intercambiable)
 explanation: |
   Un bloque PI (independiente del proveedor) es asignado directamente a una organización por un RIR, independientemente del proveedor de servicios de Internet.
-reviewed: false
+reviewed: true

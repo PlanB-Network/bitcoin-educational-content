@@ -194,7 +194,7 @@ The third role of the node involves managing mined blocks. When a miner discover
 ![Image](assets/fr/051.webp)
 
 
-## What's the difference between a bow and a wallet?
+## What's the difference between a node and a wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 

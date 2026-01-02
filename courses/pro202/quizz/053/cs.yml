@@ -1,0 +1,8 @@
+question: Jaký specifický problém s konverzí endianity musí uzly Bitcoin zvládnout při konstrukci a ověřování Merklových stromů z transakčních dat?
+answer: Transakční hashe musí být pro interní výpočet stromu obráceny z malého endiánského serializovaného formátu do velkého endiánského a poté obráceny zpět pro uložení
+wrong_answers:
+  - Hlavičky bloků musí být před výpočtem Merkleho kořene převedeny z big-endian na little-endian, aby odpovídaly formátu síťového přenosu
+  - Konečný Merkleho kořen musí být převeden z big-endian na little-endian pouze při přenosu do jiných uzlů prostřednictvím zpráv P2P
+  - ID transakcí jsou uložena ve formátu big-endian, ale před zaškatulkováním párů do Merkleho stromu musí být převedena na little-endian
+explanation: |
+  Konstrukce Merklova stromu v Bitcoin zahrnuje kritický krok převodu endianity. Zatímco serializovaná bloková data používají little-endian formát, interní výpočet Merklova stromu vyžaduje big-endian hashe. Uzly musí před konstrukcí stromu převést transakční hashe ze serializovaného formátu little-endian do formátu big-endian a poté převést konečný kořen zpět do formátu little-endian pro uložení v záhlaví bloku. Tato konverze je nezbytná pro správné ověření.

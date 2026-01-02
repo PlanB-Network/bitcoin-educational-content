@@ -30,7 +30,7 @@ To write bold text, follow the two examples below (adding `**` or `_` before and
 
 ## Chapter Title 3 - Quotations
 
-Text to be written here. If you write a paragraph and then press space, the two paragraphs will remain attached on the platform. Instead, you **have to insert an empty line** between the two paragraphs, meaning you need to press the space bar twice.
+If you write a paragraph and then press `Enter`, the two paragraphs will remain attached on the platform, like if you only put a space, instead of a new line, even if see a new line on your text editor. To avoid that, you **have to insert an empty line** between the two paragraphs, meaning you need to press the `Enter` button twice to start a new text paragraph.
 
 Let's see an example (below) regarding how to quote other texts, and insert the name of people who spoke such things, together with other details.
 

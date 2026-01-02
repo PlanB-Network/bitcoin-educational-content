@@ -1,0 +1,8 @@
+question: Mitä tapahtuu panosmäärien ja tuotosmäärien erotukselle Bitcoin-tapahtumassa?
+answer: Erotuksesta tulee automaattisesti louhijoille maksettava transaktiomaksu
+wrong_answers:
+  - "Erotus palautetaan lähettäjän alkuperäiseen osoitteeseen muutoksena"
+  - Ero poltetaan ja poistetaan pysyvästi verenkierrosta
+  - Erotus pidetään escrow-talletuksena, kunnes kauppa on vahvistettu
+explanation: |
+  Bitcoin:n maksujärjestelmässä maksut lasketaan implisiittisesti panosten kokonaismäärän ja tuotosten kokonaismäärän erotuksena (maksu = summa(panokset) - summa(tuotokset)). Kaikista arvoista, joita ei ole nimenomaisesti määritetty tuotokselle, tulee automaattisesti kaivostyöntekijän maksu. Tämän vuoksi asianmukaisten muutosulostulojen luominen on ratkaisevan tärkeää - jos unohdat sisällyttää muutosulostulon, kun käytät suuren UTXO:n, koko loppuosa muuttuu kalliiksi maksuksi louhijalle. Muut vaihtoehdot ovat virheellisiä, koska Bitcoin ei luo automaattisesti muutostuloksia, ei polta määrittelemätöntä arvoa eikä käytä escrow-mekanismeja transaktioerojen käsittelyyn.

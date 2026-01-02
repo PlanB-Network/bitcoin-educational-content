@@ -2,8 +2,8 @@ question: Koji element domena predstavlja domen najvišeg nivoa (TLD)?
 answer: Najdesniji element
 wrong_answers:
   - Levi element
-  - Drugi nivo posle domaćina
+  - Drugi nivo posle hosta
   - Glavni naziv hosta
 explanation: |
   TLD je uvek krajnji desni element FQDN, kao što su .com, .org ili .fr.
-reviewed: false
+reviewed: true

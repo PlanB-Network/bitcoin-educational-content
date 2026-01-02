@@ -34,6 +34,7 @@ non_translatable:
   - BDK
   - BIP
   - BIPs
+  - Bitchat
   - Bitcoin
   - Bitcoin core
   - Bitcoin Dev Kit
@@ -47,6 +48,8 @@ non_translatable:
   - BITCOIN-DEV
   - bitcoin.conf
   - BITCOIN.CONF
+  - "BitcoinVoucherBot P2P"
+  - BitcoinVN
   - Bit gold
   - BIT GOLD
   - Biz School
@@ -55,7 +58,7 @@ non_translatable:
   - Blinded ranges
   - BLK*.DAT
   - BLKINDEX.DAT
-  - BLKTREE/
+  - "BLKTREE/"
   - BLOCK
   - Block explorer
   - Block reward
@@ -71,6 +74,7 @@ non_translatable:
   - B-MONEY
   - CGMINER
   - chain code
+  - "CHAINSTATE/"
   - CLI
   - CPFP
   - Child pay for parent
@@ -80,9 +84,11 @@ non_translatable:
   - Coinjoin
   - Coin
   - Coinbase Transaction
-  - COINS/
+  - "COINS/"
   - Cold
-  - COOKIE (.COOKIE)
+  - Cold Wallet
+  - COLD WALLET
+  - "COOKIE (.COOKIE)"
   - Commitment
   - Commitment Transaction
   - Confidential Transactions
@@ -95,6 +101,7 @@ non_translatable:
   - Contract Rights
   - Contract State
   - Cypherpunk
+  - "DATABASE/"
   - DB.LOG
   - DEBUG.LOG
   - Debugger
@@ -102,9 +109,12 @@ non_translatable:
   - Descriptor
   - Descriptor Wallets
   - Deterministic Bitcoin Commitment
+  - "DIGEST (HASH)"
   - Directed Acyclic Graph
   - Double-spending
   - Dust
+  - DUST LIMIT
+  - DUSTING ATTACK
   - Découvre Bitcoin
   - ECASH
   - ECLAIR
@@ -133,12 +143,12 @@ non_translatable:
   - Green
   - Hal Finney
   - Halving
-  - Hard
   - Hard Fork
   - Hardware Wallet
   - Hash
   - HASHCASH
   - HashCash
+  - Hasher
   - Hashrate
   - HODL
   - Hot
@@ -149,7 +159,9 @@ non_translatable:
   - Invoice
   - IP_ASN.MAP
   - Issued Assets
+  - JoinMarket
   - JOINMARKET
+  - Joinstr
   - Keysend
   - LEVELDB
   - LIBSECP256K1
@@ -175,6 +187,7 @@ non_translatable:
   - Merkle Root
   - Merkle Tree
   - Miner
+  - MINER
   - Mining
   - mining
   - Mining Farm
@@ -276,6 +289,7 @@ non_translatable:
   - PAYNYM
   - PEERS.DAT
   - Phoenix
+  - Phoenixd
   - PHOENIXD
   - POOL
   - PSBT
@@ -283,7 +297,7 @@ non_translatable:
   - Pay-to-Script-Hash
   - Pay-to-Taproot
   - Pay-to-Witness-Public-Key-Hash
-  - PayJoin
+  - Payjoin
   - Pedersen commitment
   - Plan ₿
   - Plan ₿ Hangouts
@@ -323,6 +337,7 @@ non_translatable:
   - SIGHASH_SINGLE
   - SIGHASH_SINGLE/SIGHASH_ACP
   - SIGNET
+  - Silentium
   - SILK ROAD
   - Single-Use Seal
   - SLIP
@@ -492,6 +507,7 @@ non_translatable:
   - Olvid
   - OPNsense
   - "Orion Browser"
+  - PearPass
   - Pears
   - pfSense
   - "Pi-Hole"
@@ -528,6 +544,7 @@ non_translatable:
   - Banxaas
   - Bisq
   - "Bisq 2"
+  - Bitfeed
   - Bitfinex
   - Bitika
   - Bitrefill
@@ -573,6 +590,7 @@ non_translatable:
   - Dojo
   - "Lightning App"
   - "Lightning Network Daemon (Linux)"
+  - Lightning Smoke Machine
   - "My Node"
   - Nakamochi
   - Neutrino
@@ -675,8 +693,15 @@ non_translatable:
   - "Wallet of Satoshi"
   - "Wasabi Wallet"
   - "Zeus Embedded"
+  - KaleidoSwap
   - Kali
   - "Kali Linux"
   - "Pop!_OS"
   - "LN Markets"
   - Windows 11
+  - Giacomo Zucco
+  - Voltz
+  - SMS4Sats
+  - "White Noise"
+  - 1ML
+  - Macadamia

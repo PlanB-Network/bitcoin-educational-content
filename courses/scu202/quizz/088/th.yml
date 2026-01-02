@@ -1,0 +1,9 @@
+question: โปรแกรมจัดการรหัสผ่านแบบโอเพ่นซอร์สใดที่ให้คุณจัดเก็บข้อมูลรับรองของคุณในเครื่องโดยไม่จำเป็นต้องใช้คลาวด์?
+answer: KeePassDX
+wrong_answers:
+  - LastPass
+  - NordPass
+  - Google Password Manager
+explanation: |
+  KeePassDX ทำงานบนพื้นฐานของไฟล์ท้องถิ่นที่เข้ารหัส โดยไม่จำเป็นต้องใช้คลาวด์หรือสมัครสมาชิกบริการแบบรวมศูนย์
+reviewed: false

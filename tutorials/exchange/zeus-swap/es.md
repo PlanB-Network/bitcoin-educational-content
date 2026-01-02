@@ -1,5 +1,5 @@
 ---
-name: Intercambio Zeus
+name: Zeus Swap
 description: Servicio de intercambio de Bitcoin sin custodia entre On-Chain y Lightning Network
 ---
 

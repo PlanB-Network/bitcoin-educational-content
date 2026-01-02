@@ -1,0 +1,8 @@
+question: Cosa distingue gli errori di runtime delle risorse dagli errori di input non validi e dagli errori logici nello sviluppo di applicazioni Bitcoin?
+answer: Gli errori delle risorse di runtime si verificano quando le dipendenze esterne, come i file o le connessioni di rete, non sono disponibili, richiedendo correzioni ambientali piuttosto che modifiche al codice
+wrong_answers:
+  - "Gli errori delle risorse di runtime si verificano quando i parametri della funzione non soddisfano i requisiti, indicando violazioni del contratto tra chiamante e funzione"
+  - Gli errori delle risorse di runtime rappresentano bug nell'implementazione del programma che richiedono il debug e la modifica del codice per essere risolti correttamente
+  - Gli errori delle risorse di runtime si verificano quando il sistema dei tipi non riesce a individuare le corrispondenze, consentendo ai tipi di dati errati di propagarsi nel sistema
+explanation: |
+  Gli errori delle risorse di runtime sono esterni alla logica del programma e si verificano quando dipendenze come file, connessioni di rete o dispositivi di memorizzazione non sono disponibili. A differenza degli errori di input non validi (che comportano violazioni dei contratti dei parametri) o degli errori logici (che sono bug di implementazione), gli errori di risorse di runtime richiedono in genere correzioni ambientali piuttosto che modifiche al codice. L'applicazione deve gestirli con grazia, poiché spesso sono temporanei e fuori dal controllo diretto del programma.

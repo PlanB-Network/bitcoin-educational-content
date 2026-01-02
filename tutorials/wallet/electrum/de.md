@@ -358,7 +358,7 @@ Für MyNode können Sie Folgendes in einem Browserfenster eingeben:
 mynode.local
 ```
 
-Manchmal funktioniert "mynode.local" nicht (stellen Sie sicher, dass Sie es nicht in einer Google-Suchleiste eingeben). Um die Navigationsleiste dazu zu zwingen, Ihren Text als Adresse und nicht als Suche zu erkennen, fügen Sie dem Text http:// voran, wie hier:
+Manchmal funktioniert "mynode.local" nicht (stellen Sie sicher, dass Sie es nicht in einer Google-Suchleiste eingeben). Um die Navigationsleiste dazu zu zwingen, Ihren Text als Adresse und nicht als Suche zu erkennen, fügen Sie dem Text http://voran, wie hier:
 
 ```
 http://mynode.local

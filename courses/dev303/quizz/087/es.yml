@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con los structs Rust con métodos asociados cuando se mapean a través de la UDL de UniFFI a lenguajes de destino como Kotlin o Swift?
+answer: Se exponen como interfaces en UDL y generate como clases con métodos en lenguajes de destino orientados a objetos
+wrong_answers:
+  - Se convierten en simples diccionarios sin ninguna funcionalidad de método en las lenguas de destino
+  - Requieren la implementación manual de cada método en el idioma de destino mediante interfaces de devolución de llamada
+  - Se transforman automáticamente en funciones de espacio de nombres que toman la estructura como primer parámetro
+explanation: |
+  UniFFI preserva los patrones de diseño orientados a objetos mediante la asignación de structs Rust con métodos asociados a interfaces en UDL, que luego generate como clases nativas con métodos en lenguajes de destino. Esto mantiene la integridad estructural y el comportamiento de la implementación original de Rust a la vez que presenta interfaces orientadas a objetos familiares para desarrolladores en lenguajes como Kotlin y Swift. Las otras opciones son incorrectas porque UniFFI mantiene específicamente la funcionalidad del método en lugar de aplanar a diccionarios, no requiere implementación manual ya que los enlaces se generan automáticamente, y no convierte métodos struct en funciones de espacio de nombres.

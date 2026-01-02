@@ -1,0 +1,8 @@
+question: ¿Cuál es la ventaja más significativa de utilizar los tipos Result y Option sobre panic para el manejo de errores en el código Rust de producción?
+answer: Obligan a reconocer explícitamente posibles fallos y permiten recuperarse de ellos sin problemas
+wrong_answers:
+  - Proporcionan un mejor rendimiento al evitar que se desenrolle la pila en caso de error
+  - Convierten automáticamente todos los tipos de error en mensajes de cadena para facilitar la depuración
+  - Eliminan la necesidad de propagación de errores al tratarlos en el punto de fallo
+explanation: |
+  Los tipos Result y Option hacen que el manejo de errores sea explícito y recuperable, obligando a los desarrolladores a reconocer que las operaciones pueden fallar y proporcionando mecanismos para manejar esos fallos con elegancia. A diferencia del pánico, que termina inmediatamente la ejecución, estos tipos permiten que los programas sigan ejecutándose y respondan adecuadamente a las condiciones de error. Las respuestas erróneas tergiversan sus capacidades: el rendimiento no es su principal ventaja, no convierten automáticamente los errores en cadenas (ésa es una característica de anyhow) y, de hecho, facilitan la propagación de errores en lugar de eliminarla mediante operadores como ?

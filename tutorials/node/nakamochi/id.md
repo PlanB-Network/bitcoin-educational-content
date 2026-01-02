@@ -4,9 +4,9 @@ description: Menjalankan Node Jadi Mudah - Cara mengonfigurasi dan menggunakan n
 ---
 ![image](assets/cover.webp)
 
-Menjalankan node penuh Bitcoin dan Lightning Anda sendiri tidak perlu lagi menjadi tugas yang rumit dan hanya dapat dilakukan oleh para ahli teknis. Secara tradisional, menyiapkan dan mengelola node membutuhkan pengetahuan yang mendalam mengenai kriptografi, jaringan, dan pengembangan perangkat lunak. Nakamochi mengubah hal tersebut dengan membuat node dapat diakses oleh semua orang, terlepas dari latar belakang teknisnya.
+Menjalankan node penuh Bitcoin dan Lightning kamu sendiri sekarang nggak lagi jadi tugas rumit yang cuma bisa dilakukan para ahli teknis. Secara tradisional, menyiapkan dan mengelola node butuh pengetahuan yang dalam soal kriptografi, jaringan, dan pengembangan perangkat lunak. Nakamochi mengubah itu dengan membuat node jadi bisa diakses semua orang, tanpa peduli latar belakang teknisnya.
 
-Dengan Nakamochi, siapa pun dapat mengatur dan mengoperasikan sebuah node dari rumah, sehingga memungkinkan privasi penuh dan kemandirian finansial. Menjalankan sebuah node penuh tidak hanya mengamankan transaksi Anda sendiri, tetapi juga berkontribusi pada kekuatan jaringan Bitcoin. Jaringan Bitcoin yang terdesentralisasi dan tangguh bergantung pada distribusi node yang luas untuk memastikan keamanan dan kemandiriannya.
+Dengan Nakamochi, siapa pun bisa mengatur dan mengoperasikan sebuah node dari rumah, yang bikin kamu punya privasi penuh dan kemandirian finansial. Menjalankan node penuh bukan cuma mengamankan transaksi kamu sendiri, tapi juga ikut memperkuat jaringan Bitcoin. Jaringan Bitcoin yang terdesentralisasi dan tangguh bergantung pada distribusi node yang luas untuk menjaga keamanan dan kemandiriannya.
 
 ### Daftar Isi
 
@@ -18,27 +18,27 @@ Dengan Nakamochi, siapa pun dapat mengatur dan mengoperasikan sebuah node dari r
 
 ## Apa itu Nakamochi dan Bagaimana Cara Kerjanya?
 
-Nakamochi adalah sebuah node penuh khusus Bitcoin yang mendukung jaringan Bitcoin dan Lightning. Ini termasuk dompet Bitcoin dan Lightning yang terintegrasi, memungkinkan pengguna untuk menjalankan simpul Bitcoin yang aman dan berdaulat sendiri sambil mendapatkan keuntungan dari kecepatan Jaringan Lightning dan biaya transaksi yang rendah.
+Nakamochi adalah node penuh khusus Bitcoin yang mendukung jaringan Bitcoin dan Lightning. Perangkat ini sudah termasuk dompet Bitcoin dan Lightning yang terintegrasi, yang memungkinkan kamu menjalankan node Bitcoin kamu sendiri dengan aman dan berdaulat sambil tetap menikmati kecepatan Lightning Network dan biaya transaksi yang rendah.
 
-Node Nakamochi Anda dikelola melalui aplikasi seluler, [BitBanana (Android)](https://bitbanana.app) dan [Zeus (iOS)](https://bitbanana.app), yang memungkinkan Anda untuk mengontrolnya dengan nyaman dari mana saja. Aplikasi-aplikasi ini bertindak sebagai kendali jarak jauh untuk node Anda, memungkinkan Anda untuk membayar secara langsung dengan Bitcoin atau Lightning, mengelola transaksi, membuka atau menutup saluran, memeriksa saldo, dan memantau kinerja node Anda, semuanya dengan mudah.
+Node Nakamochi kamu dikelola melalui aplikasi seluler, [BitBanana (Android)](https://bitbanana.app) dan [Zeus (iOS)](https://bitbanana.app), yang memungkinkan Anda untuk mengontrolnya dengan nyaman dari mana saja. Aplikasi-aplikasi ini bertindak sebagai kendali jarak jauh untuk node Anda, memungkinkan Anda untuk membayar secara langsung dengan Bitcoin atau Lightning, mengelola transaksi, membuka atau menutup saluran, memeriksa saldo, dan memantau kinerja node Anda, semuanya dengan mudah.
 
 ## Menyiapkan Nakamochi hanya membutuhkan waktu 5 menit
 
 ### Langkah 1: Hubungkan dan Mulai
 
-1. Hubungkan Nakamochi ke daya dan Wi-Fi.
+1. Hubungkan Nakamochi ke listrik dan Wi-Fi.
 
 2. Klik **"Siapkan Dompet Baru "** dan simpan frasa pemulihan 24 kata Anda dengan aman.
 
-3. Gunakan aplikasi manajemen node (Zeus atau BitBanana) untuk menyambungkan ke Nakamochi Anda:
+3. Gunakan aplikasi manajemen node (Zeus atau BitBanana) untuk menyambungkan ke Nakamochi:
 
-4. Buka aplikasi dan pindai kode QR yang ditampilkan pada Nakamochi Anda.
+4. Buka aplikasi dan pindai kode QR yang ditampilkan pada Nakamochi.
 
-5. Untuk keamanan tambahan, tetapkan kode PIN pada perangkat Anda.
+5. Untuk keamanan tambahan, tetapkan kode PIN pada perangkat kamu.
 
 ![image](assets/en/01.webp)
 
-_Hubungkan ke listrik dan tulis frasa benih 24 kata Anda_
+_Hubungkan ke listrik dan tulis seedphrase 24 kata Anda_
 
 ![image](assets/en/02.webp)
 
@@ -56,27 +56,27 @@ _Pindai Kode QR dengan Aplikasi Manajemen Node_
 
 _Untuk keamanan tambahan, atur kode PIN_
 
-**Catatan:** _Izinkan node Nakamochi Anda untuk sinkron dengan blockchain. Proses ini mungkin memerlukan waktu tergantung pada koneksi internet Anda._
+**Catatan:** _Izinkan node Nakamochi kamu untuk sinkron dengan blockchain. Proses ini mungkin memerlukan waktu tergantung pada koneksi internet Anda._
 
 ## Tentang Jaringan Lightning
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Bitcoin Lightning Network merevolusi transaksi Bitcoin dengan membuatnya lebih cepat, lebih murah, dan lebih efisien. Ini sempurna untuk penggunaan sehari-hari, memungkinkan pembayaran hampir instan dengan biaya minimal, ideal untuk transaksi mikro seperti membeli kopi atau menangani pembelian kecil yang sering dilakukan.
+Bitcoin Lightning Network merevolusi transaksi Bitcoin dengan bikin semuanya lebih cepat, lebih murah, dan lebih efisien. Jaringan ini cocok untuk penggunaan sehari-hari karena memungkinkan pembayaran hampir instan dengan biaya yang sangat rendah, ideal untuk transaksi mikro seperti beli kopi atau pembelian kecil yang sering kamu lakukan.
 
-Dengan beroperasi secara off-chain, Lightning didesain untuk meningkatkan skala, mendukung ribuan transaksi per detik tanpa membebani blockchain utama Bitcoin. Hal ini menjadikannya pemain kunci dalam evolusi Bitcoin menjadi sistem pembayaran global yang praktis.
+Dengan beroperasi secara off-chain, Lightning didesain untuk bisa diskalakan, mendukung ribuan transaksi per detik tanpa membebani blockchain utama Bitcoin. Ini menjadikannya pemain penting dalam perkembangan Bitcoin sebagai sistem pembayaran global yang praktis.
 
-Privasi adalah keuntungan lainnya, karena transaksi di Lightning disalurkan melalui saluran pembayaran pribadi dan bukannya dicatat secara langsung di blockchain. Hal ini memastikan cara yang lebih rahasia untuk bertransaksi dengan tetap menjaga keamanan Bitcoin yang kuat.
+Privasi juga jadi keuntungan besar, karena transaksi di Lightning lewat channel pembayaran pribadi, bukan dicatat langsung di blockchain. Cara ini bikin transaksi lebih tertutup sambil tetap mempertahankan keamanan kuat dari Bitcoin.
 
 #### Penjelasan Saluran Pembayaran
 
-Lightning Network beroperasi melalui saluran pembayaran, yang merupakan koneksi antara dua pihak yang memungkinkan banyak transaksi tanpa berinteraksi langsung dengan blockchain. Ketika sebuah saluran terbuka, saldo antara kedua belah pihak diperbarui pada solusi Lightning lapisan kedua ini untuk setiap transaksi, memastikan pembayaran yang cepat dan berbiaya rendah. Hanya pembukaan dan penutupan saluran yang dicatat secara on-chain, sehingga mengurangi kemacetan pada blockchain Bitcoin, desain ini memastikan skalabilitas dan privasi, karena transaksi individu tetap tidak tercatat pada buku besar publik.
+Lightning Network beroperasi lewat channel pembayaran, yaitu koneksi antara dua pihak yang memungkinkan banyak transaksi tanpa harus berinteraksi langsung dengan blockchain. Saat sebuah channel dibuka, saldo antara kedua pihak diperbarui di solusi Lightning layer dua ini untuk setiap transaksi, memastikan pembayaran yang cepat dan berbiaya rendah. Hanya pembukaan dan penutupan channel yang dicatat on-chain, sehingga mengurangi kemacetan di blockchain Bitcoin. Desain ini memastikan skalabilitas dan privasi karena transaksi individual tetap tidak tercatat di buku besar publik.
 
-**Contoh:** Alice dan Bob membuka sebuah saluran dengan mengirimkan Bitcoin ke saluran tersebut. Alice mengirimkan Bitcoin ke Bob, dan saldo off-chain mereka langsung diperbarui tanpa catatan on-chain. Jika Alice kemudian membayar Charlie, dan Alice tidak memiliki saluran langsung ke Charlie, pembayaran dapat dialihkan melalui saluran Bob untuk mencapai Charlie. Perutean melalui node perantara memastikan pembayaran bahkan tanpa koneksi langsung, membuat jaringan menjadi sangat efisien.
+**Contoh:** Alice dan Bob membuka sebuah channel dengan mengirimkan Bitcoin ke channel tersebut. Alice mengirim Bitcoin ke Bob, dan saldo off-chain mereka langsung diperbarui tanpa catatan on-chain. Kalau Alice kemudian membayar Charlie dan Alice tidak punya channel langsung ke Charlie, pembayaran bisa dialihkan lewat channel Bob untuk mencapai Charlie. Perutean lewat node perantara memastikan pembayaran tetap bisa dilakukan tanpa koneksi langsung, yang bikin jaringan jadi sangat efisien.
 
 ## Membuka Saluran dan Melakukan Transaksi di Jaringan Lightning
 
-Setelah Nakamochi Anda diatur dan terhubung ke aplikasi manajemen node, Anda dapat mulai menggunakan Lightning Network dengan membuka saluran dan melakukan transaksi.
+Setelah Nakamochi kamu selesai diatur dan terhubung ke aplikasi manajemen node, kamu bisa mulai memakai Lightning Network dengan membuka channel dan melakukan transaksi.
 
 ### Membuka Saluran di Zeus (iOS):
 
@@ -84,9 +84,9 @@ Setelah Nakamochi Anda diatur dan terhubung ke aplikasi manajemen node, Anda dap
 
 2. Klik tanda **"+"** untuk membuka saluran baru.
 
-3. Pindai atau masukkan pubkey node yang ingin Anda sambungkan.
+3. Pindai atau masukkan pubkey node yang ingin kamu sambungkan.
 
-4. Masukkan jumlah yang dikunci (pilih dengan rekan Anda atau gunakan jumlah tetap minimum untuk node yang terkenal).
+4. Masukkan jumlah yang dikunci (pilih dengan rekan kamu atau gunakan jumlah tetap minimum untuk node yang terkenal).
 
 5. Klik **"Buka Saluran "**.
 
@@ -114,11 +114,11 @@ tangkapan Layar Bitbanana
 
 Untuk informasi lebih lanjut: [BitBanana](https://bitbanana.com)
 
-Setelah saluran Anda terbuka, pembayaran dapat disalurkan melalui saluran tersebut ke peserta lain dalam jaringan. Saldo menyesuaikan secara off-chain, memastikan transaksi hampir instan dan dikenakan biaya minimal.
+Setelah channel kamu terbuka, pembayaran bisa disalurkan lewat channel itu ke peserta lain di jaringan. Saldo akan menyesuaikan secara off-chain, jadi transaksi hampir instan dan biayanya sangat kecil.
 
-Jika Anda tidak lagi membutuhkan sebuah channel, Anda dapat menutupnya. Tindakan ini akan menyelesaikan saldo akhir antara Anda dan peer Anda dan mencatatnya secara on-chain. Idealnya, kedua belah pihak setuju dan online untuk "penutupan kooperatif" (lebih cepat dan lebih sedikit biaya vs "penutupan paksa" dengan peer yang tidak responsif/offline).
+Kalau kamu sudah nggak butuh sebuah channel, kamu bisa menutupnya. Tindakan ini akan menyelesaikan saldo akhir antara kamu dan peer kamu lalu mencatatnya on-chain. Idealnya, kedua pihak setuju dan sama-sama online untuk melakukan cooperative close yang lebih cepat dan lebih murah dibanding force close dengan peer yang nggak responsif atau offline.
 
-Secara umum, kami menyarankan untuk membiarkan saluran tetap terbuka untuk mengurangi biaya dan meningkatkan keandalan dan efisiensi jaringan. Dengan membiarkan saluran tetap terbuka, Anda dapat meminimalkan biaya transaksi on-chain, menghindari waktu henti untuk penyambungan kembali saluran, dan mempertahankan kapasitas perutean yang stabil untuk pemrosesan pembayaran yang lancar. Pendekatan ini mendorong jaringan yang kuat dan tangguh sekaligus meningkatkan pengalaman pengguna secara keseluruhan dan mengurangi biaya operasional.
+Secara umum, kami menyarankan untuk membiarkan channel tetap terbuka supaya biaya lebih rendah dan keandalan serta efisiensi jaringan tetap tinggi. Dengan membiarkan channel tetap terbuka, kamu bisa meminimalkan biaya transaksi on-chain, menghindari downtime untuk membuka ulang channel, dan mempertahankan kapasitas routing yang stabil untuk pemrosesan pembayaran yang lancar. Pendekatan ini bikin jaringan lebih kuat dan tangguh sekaligus meningkatkan pengalaman pengguna dan menurunkan biaya operasional.
 
 ### Tautan Berguna
 

@@ -6,4 +6,4 @@ wrong_answers:
   - No tienen divisores comunes aparte de 1 y ellos mismos
 explanation: |
   Dos números son coprimos si su máximo común divisor es 1, lo que significa que no comparten ningún factor primo, una propiedad importante en criptografía.
-reviewed: false
+reviewed: true

@@ -20,11 +20,12 @@ project_id: 54bf3f83-79c5-49dc-86c9-5223351212e9
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-17
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 1.86
+      - nrak10
+    reward: 0.93
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -155,3 +156,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.92
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.12

@@ -11,7 +11,7 @@ description: Tutoriel sur la mise en place d'un serveur privé Start9
 ![video](https://www.youtube.com/watch?v=DzikmY4S42Y)
 
 
-*Voici un tutoriel vidéo de Southern Bitcoiner, un guide vidéo qui vous montre comment configurer et utiliser un serveur personnel Start9 / StartOS, et comment faire fonctionner un nœud bitcoin
+*Voici un tutoriel vidéo réalisé par Southern Bitcoiner, un guide vidéo qui vous montre comment configurer et utiliser un serveur personnel Start9 / StartOS, et comment faire fonctionner un nœud bitcoin
 
 
 ## 1️⃣ Introduction
@@ -26,7 +26,7 @@ Start9 est une société fondée en 2020, surtout connue pour avoir développé 
 ### Quelles sont les options disponibles ?
 
 
-Start9 propose à la fois des options de déploiement préconstruites et DIY. Le [**Server One**](https://store.start9.com/collections/servers/products/server-one) et le [**Server Pure** ](https://store.start9.com/collections/servers/products/server-pure) sont des dispositifs matériels officiels dotés de composants performants : le Server One utilise un **processeur AMD Ryzen 7 5825U** avec de la RAM configurable (16GB-64GB) et du stockage (2TB-4TB NVMe SSD), tandis que le Server Pure est équipé d'un **Intel i7-10710U**, offrant également des options de RAM et de stockage configurables. Les deux comprennent **un support technique à vie** lorsqu'ils sont achetés directement auprès de Start9. Pour les utilisateurs qui préfèrent la flexibilité, StartOS peut être installé gratuitement sur une large gamme de matériel existant, y compris les ordinateurs portables, les ordinateurs de bureau, les mini-PC et les ordinateurs monocartes, ou dans des VM.
+Start9 propose aussi bien que des solutions matérielles prêtes à l'emploi que des options DIY. Le [**Server One**](https://store.start9.com/collections/servers/products/server-one) et le [**Server Pure** ](https://store.start9.com/collections/servers/products/server-pure) sont des dispositifs matériels officiels dotés de composants performants : le Server One utilise un **processeur AMD Ryzen 7 5825U** avec de la RAM configurable (16GB-64GB) et du stockage (2TB-4TB NVMe SSD), tandis que le Server Pure est équipé d'un **Intel i7-10710U**, propose également différentes capacités de RAM et de stockage configurables. Les deux comprennent **un support technique à vie** lorsqu'ils sont achetés directement auprès de Start9. Pour ceux qui préfèrent une approche flexiblle, StartOS peut être installé gratuitement sur une large gamme de matériel existant, y compris les ordinateurs portables, les ordinateurs de bureau, les mini-PC et les ordinateurs monocartes, ou dans des VM.
 
 
 ![image](assets/en/01.webp)
@@ -86,34 +86,34 @@ Deux options sont présentées :
 - Options de récupération
 
 
-Pour une nouvelle installation de serveur, sélectionnez "Start Fresh". Commencez par brancher le serveur à l'alimentation électrique et à un câble Ethernet. Assurez-vous que l'ordinateur utilisé pour l'installation se trouve sur le même réseau local. Retirez la clé USB récemment mise à jour de l'ordinateur et insérez-la dans le serveur.
+Pour une nouvelle installation de serveur, sélectionnez "Start Fresh". Commencez par brancher le serveur à l'alimentation électrique et à un câble Ethernet. Assurez-vous également que votre ordinateur utilisé pour l'installation est connecté au même réseau local. Retirez ensuite la clé USB fraîchement mise à jour de l'ordinateur et insérez-la dans le serveur.
 
 
-Vous pouvez contrôler le serveur à distance à partir de n'importe quel ordinateur du même réseau. Ouvrez un navigateur web et accédez à `http://start.local`.
+Vous pouvez contrôler le serveur à distance à partir de n'importe quel ordinateur connecté au même réseau local. Ouvrez un navigateur web et accédez à `http://start.local`.
 
 
 **Note** : Si des problèmes de connexion surviennent avec cette adresse, cela est souvent dû au fait que les réseaux domestiques ne résolvent pas les noms de domaine `.local`. Le problème peut être résolu en accédant directement au serveur via son adresse IP. L'adresse IP peut être trouvée en se connectant à l'interface d'administration du routeur (généralement à l'adresse `192.168.1.1` ou à une adresse similaire), et en localisant l'appareil dans la liste des clients DHCP ou des cartes de réseau. Ensuite, entrez l'adresse IP complète (par exemple `http://192.168.1.105`) dans le navigateur. Cela permet de contourner la résolution DNS. Si le problème persiste, consultez la [page des problèmes courants](https://docs.start9.com/0.3.5.x/support/common-issues.html#setup-troubleshoot) ou [contactez le service d'assistance](https://start9.com/contact/)
 
 
-L'écran de configuration de StartOS devrait apparaître. Cliquez sur `Start Fresh` pour commencer l'installation du nouveau serveur.
+L'écran de configuration de StartOS devrait s'afficher. Cliquez sur `Start Fresh` pour lancer l'installation d'un nouveau serveur.
 
 
 ![image](assets/en/03.webp)
 
 
-L'étape suivante consiste à sélectionner le lecteur de stockage où les données StartOS seront stockées.
+L’étape suivante consiste à choisir le support de stockage sur lequel les données de StartOS seront enregistrées.
 
 
 ![image](assets/en/04.webp)
 
 
-Définissez un `Password` fort pour le serveur. Enregistrez-le comme le conseille Start9, puis cliquez sur `FINISH`.
+Définissez un `Password` robuste pour sécuriser votre serveur. Enregistrez-le comme le conseille Start9, puis cliquez sur `FINISH`.
 
 
 ![image](assets/en/05.webp)
 
 
-Un écran montrera que StartOS est en train d'initialiser et de configurer le serveur. L'étape suivante est de `Télécharger l'adresse` car l'adresse `start.local` n'est utilisée que pour l'installation et ne fonctionnera plus par la suite.
+Un écran vous indiquera que StartOS est en train d'initialiser et de configurer le serveur. L'étape suivante est de `Télécharger l'adresse` car l'adresse `start.local` n'est utilisée que pour l'installation et ne fonctionnera plus par la suite.
 
 
 ![image](assets/en/06.webp)
@@ -153,34 +153,34 @@ Une installation réussie sera indiquée par une sortie indiquant `1 added`. La 
 ## 6️⃣ Démarrer avec StartOS
 
 
-Il devrait maintenant être possible de se connecter en utilisant une connexion HTTPS sécurisée. Saisissez le "mot de passe" pour accéder à l'"écran d'accueil".
+Il devrait maintenant être possible de se connecter en utilisant une connexion HTTPS sécurisée. Entrez le "mot de passe" pour accéder à l'"écran d'accueil".
 
 
 ![image](assets/en/09.webp)
 
 
-Cet écran propose des raccourcis utiles pour commencer. La barre latérale gauche contient les principaux éléments du menu de navigation.
+Cet écran présente des raccourcis utiles pour commencer. La barre latérale gauche contient les principaux éléments du menu de navigation.
 
 
 ## 7️⃣ Système
 
 
-L'onglet Systèmes de StartOS permet d'accéder aux fonctions principales du système pour gérer le serveur personnel. Il offre des outils de maintenance, de sécurité, de diagnostic et de configuration du système sans nécessiter d'expertise en ligne de commande.
+L'onglet Systèmes de StartOS permet d'accéder aux fonctions principales du système pour gérer le serveur personnel. Il met à disposition des outils de maintenance, de sécurité, de diagnostic et de configuration du système sans récourir à ligne de commande.
 
 
-La section `Sauvegardes` permet de créer des sauvegardes complètes du système, y compris les services, les configurations et les données, qui peuvent être restaurées ultérieurement. Cette fonction est essentielle pour la reprise après sinistre ou la migration vers un nouveau matériel. Les sauvegardes peuvent être stockées sur des disques externes et sont cryptées à l'aide du mot de passe principal.
+La section `Sauvegardes` permet de générer des sauvegardes complètes du système, incluant les services, les configurations et les données, qui peuvent être restaurées ultérieurement. Cette fonctionnalité est essentielle pour la reprise après sinistre ou la migration vers un nouveau matériel. Les sauvegardes peuvent être stockées sur des disques externes et sont chiffrées à l'aide du mot de passe principal.
 
 
-La section "Gestion" de l'onglet Systèmes permet de contrôler les fonctions clés du système. Les utilisateurs peuvent vérifier et appliquer manuellement les mises à jour de StartOS, en gardant le contrôle sur le processus de mise à jour du système. Il est possible de charger des services personnalisés ou tiers non disponibles sur le marché officiel. Si le serveur n'est pas connecté via Ethernet, les paramètres Wi-Fi peuvent être configurés à partir de cette section. Les utilisateurs avancés peuvent activer l'accès SSH pour la gestion du système au niveau du terminal.
+La section "Gestion" de l'onglet Systèmes permet de piloter les fonctions essentielles du serveur. Les utilisateurs peuvent vérifier et appliquer manuellement les mises à jour de StartOS, en gardant le contrôle sur le processus de mise à jour du système. Il est possible de charger des services personnalisés ou tiers qui ne sont pas disponibles sur le marché officiel. Si le serveur n'est pas relié via Ethernet, les paramètres Wi-Fi peuvent être configurés à partir de cette section. Les utilisateurs avancés peuvent activer l'accès SSH facilitant la gestion du système au niveau du terminal.
 
 
 ![image](assets/en/10.webp)
 
 
-La section `Insights` permet de surveiller en temps réel les performances et la santé du serveur, en affichant l'utilisation du CPU, de la RAM et du disque sous forme de graphiques. Elle indique également la température du système, ce qui est utile pour les appareils comme le Raspberry Pi qui n'ont pas de système de refroidissement actif. Les mesures de temps de disponibilité et de charge moyenne aident à évaluer la stabilité du système, et des journaux en direct sont disponibles pour dépanner les problèmes de service ou de système.
+La section `Insights` permet de suivre en temps réel les performances et l'état du serveur, en affichant l'utilisation du CPU, de la RAM et du disque sous forme de graphiques. Elle indique également la température du système, ce qui est utile pour les appareils comme le Raspberry Pi qui n'ont pas de système de refroidissement actif. Les mesures de temps de disponibilité et de charge moyenne aident à évaluer la stabilité du système, et des journaux en direct sont disponibles pour dépanner les problèmes de service ou de système.
 
 
-La section `Support` offre un accès aux FAQs intégrées, à la documentation officielle, et aux canaux de support de la communauté. Les logs de débogage peuvent être téléchargés depuis cette section pour être partagés avec le support de Start9 pour une résolution plus rapide des problèmes.
+La section `Support` facilite l'accès aux FAQs intégrées, à la documentation officielle, ainsi qu'aux canaux de support de la communauté. Les logs de débogage peuvent être téléchargés depuis cette section pour être partagés avec le support de Start9 pour une résolution plus rapide des problèmes.
 
 
 ![image](assets/en/11.webp)
@@ -189,7 +189,7 @@ La section `Support` offre un accès aux FAQs intégrées, à la documentation o
 ## 8️⃣ Place de marché
 
 
-Le `Marketplace` est utilisé pour découvrir, installer et gérer des services sur le serveur personnel. Elle donne accès à des logiciels tels que Bitcoin Core, BTCPay Server, et electrs. StartOS supporte plusieurs places de marché, y compris le registre officiel de Start9 et les registres gérés par la communauté. Ces derniers peuvent être ajoutés en cliquant sur `CHANGE` et en passant au `Community Registry`, qui donne accès à une plus large gamme de services.
+Le `Marketplace` permet de découvrir découvrir, installer et gérer des services sur le serveur personnel. Il donne accès à des logiciels tels que Bitcoin Core, BTCPay Server, et electrs. StartOS peut utiliser plusieurs places de marché, y compris le registre officiel de Start9 et les registres gérés par la communauté. Ces derniers peuvent être ajoutés en cliquant sur `CHANGE` et en passant au `Community Registry`, qui donne accès à une plus large gamme de services.
 
 
 ![image](assets/en/12.webp)
@@ -198,19 +198,19 @@ Le `Marketplace` est utilisé pour découvrir, installer et gérer des services 
 ## 9️⃣ Installation d'un nœud Bitcoin complet
 
 
-L'installation d'un Bitcoin full node sur StartOS offre une souveraineté totale sur l'expérience Bitcoin. Il permet la validation des transactions et renforce la confidentialité et la sécurité en supprimant la dépendance à l'égard de services externes susceptibles d'enregistrer l'activité. Le contrôle total des transactions est acquis, ce qui permet de les diffuser directement sur le réseau. L'option par défaut est `Bitcoin Core`, qui s'intègre nativement avec StartOS et permet la connexion avec des portefeuilles comme Specter, Sparrow, ou Electrum pour une configuration d'auto-détention. Une alternative, `Bitcoin Knots`, est également disponible via le Community Registry.
+L'installation d'un Bitcoin full node sur StartOS offre une souveraineté totale sur l'usage du Bitcoin. Il permet la validation des transactions et renforce la confidentialité et la sécurité en supprimant la dépendance à l'égard de services externes susceptibles d'enregistrer l'activité. Le contrôle total des transactions est acquis, ce qui permet de les diffuser directement sur le réseau. L'option recommandée est `Bitcoin Core`, qui s'intègre nativement avec StartOS et permet la connexion avec des portefeuilles comme Specter, Sparrow, ou Electrum pour une configuration d'auto-détention. Une alternative, `Bitcoin Knots`, est également disponible via le Community Registry.
 
 
-Pour installer Bitcoin Core, accédez au Marché. Dans le registre par défaut, recherchez et installez le service Bitcoin Core. Après l'installation, une invite "Needs Config" apparaîtra, exigeant que les paramètres soient complétés avant que le service puisse fonctionner. Cela se produit généralement après des mises à jour ou de nouvelles installations et invite à revoir les "paramètres RPC". Procédez à la configuration par défaut et cliquez sur "Save".
+Pour installer Bitcoin Core, rendez-vous dans le Marketplace. Dans le registre par défaut, recherchez et installez le service Bitcoin Core. Après l'installation, une invite "Needs Config" apparaîtra, exigeant que les paramètres soient complétés avant que le service puisse fonctionner. Cela se produit généralement après des mises à jour ou de nouvelles installations et invite à revoir les "paramètres RPC". Acceptez la configuration par défaut et cliquez sur "Save".
 
 
 ![image](assets/en/13.webp)
 
 
-Une fois entièrement synchronisé, votre nœud peut servir de backend privé pour des portefeuilles tels que Sparrow, ce qui permet d'améliorer la confidentialité et la validation des transactions. Cependant, pour les utilisateurs qui stockent des montants importants, il est essentiel de comprendre les compromis de sécurité de cette connexion directe. Lorsqu'un wallet se connecte directement au Bitcoin Core, il peut exposer des données sensibles, car le Bitcoin Core stocke les clés publiques (xpubs) et les soldes wallet en clair sur la machine hôte. Un système compromis pourrait permettre à un attaquant de découvrir vos avoirs et de vous cibler.
+Une fois la synchronisation terminée, votre nœud peut servir de backend privé pour des portefeuilles tels que Sparrow, ce qui permet d'améliorer la confidentialité et la validation des transactions. Cependant, pour ceux qui gèrent des montants importants, il est essentiel de comprendre les compromis de sécurité de cette connexion directe. Lorsqu'un wallet se connecte directement au Bitcoin Core, il peut exposer des données sensibles, car le Bitcoin Core stocke les clés publiques (xpubs) et les soldes wallet en clair sur la machine hôte. Un système compromis pourrait permettre à un attaquant de découvrir vos avoirs et de vous cibler.
 
 
-Pour atténuer ce risque et obtenir un modèle de sécurité plus robuste, vous pouvez mettre en place un Electrum Server privé. Ce serveur agit comme un intermédiaire, indexant la blockchain sans stocker d'informations spécifiques à la wallet. En connectant votre wallet à votre propre serveur Electrum au lieu de le connecter directement au Bitcoin Core, vous empêchez le wallet d'accéder aux données sensibles du nœud.
+Pour atténuer ce risque et renforcer le modèle de sécurité plus robuste, vous pouvez installer un Electrum Server privé. Ce serveur agit comme une couche intermédiaire, indexant la blockchain sans stocker d'informations spécifiques à la wallet. En connectant votre portefeuille à votre propre serveur Electrum au lieu de le connecter directement au Bitcoin Core, vous empêchez le wallet d'accéder aux données sensibles du nœud.
 
 
 ![image](assets/en/14.webp)
@@ -222,25 +222,25 @@ Pour atténuer ce risque et obtenir un modèle de sécurité plus robuste, vous 
 `electrs` (Electrum Rust Server) est un indexeur rapide et efficace qui se connecte à votre nœud Bitcoin Core et permet aux portefeuilles compatibles Electrum d'interroger l'historique des transactions et les soldes en temps réel. En exécutant electrs sur StartOS, vous ne dépendez plus de serveurs Electrum tiers, ce qui améliore considérablement la confidentialité et la sécurité - vos requêtes wallet vont directement à votre nœud auto-hébergé.
 
 
-Pour le mettre en place, installez d'abord le service electrs depuis le StartOS Marketplace. Le système aura besoin que Bitcoin Core soit complètement synchronisé avant de procéder. Après l'installation, confirmez les paramètres `Needs Config` avec les valeurs par défaut recommandées et electrs commence à indexer la blockchain, ce qui peut prendre jusqu'à un jour en fonction de votre matériel.
+Pour le mettre en place, commencez par installer le service electrs depuis le StartOS Marketplace. Le système aura besoin que Bitcoin Core soit complètement synchronisé avant de procéder. Une fois l'installation terminée, validez les paramètres `Needs Config` avec les valeurs par défaut recommandées et electrs commence à indexer la blockchain, ce qui peut prendre jusqu'à un jour en fonction de votre matériel.
 
 
 ![image](assets/en/15.webp)
 
 
-Une fois terminé, vous pouvez connecter des portefeuilles comme Sparrow ou Specter. Une connexion réussie permet à votre wallet de se synchroniser directement avec votre nœud, offrant une expérience Bitcoin sécurisée, privée et auto-hébergée.
+Une fois terminé, vous pouvez connecter des portefeuilles comme Sparrow ou Specter. Une connexion réussie permet à votre wallet de se synchroniser directement avec votre nœud, garantissant une expérience Bitcoin sécurisée, privée et auto-hébergée.
 
 
 ## 1️⃣1️⃣ Connect Sparrow Wallet
 
 
-Pour connecter `Sparrow Wallet` à votre nœud StartOS en utilisant l'implémentation electrs, assurez-vous d'abord que Bitcoin Core est complètement synchronisé et qu'electrs est installé et fonctionne. Ouvrez Sparrow Wallet sur votre appareil et naviguez vers `File` -> `Settings` -> `Server`. Choisissez ensuite `Privé Electrum Server`. Dans le champ URL, entrez le `Tor hostname` et le `Port` pour electrs, que vous pouvez trouver dans StartOS sous `Services` -> `electrs` -> `Properties` (se terminant typiquement par `.onion:50001`).
+Pour connecter `Sparrow Wallet` à votre nœud StartOS en utilisant l'implémentation electrs, commencez par vérifier que Bitcoin Core est complètement synchronisé et qu'electrs est installé et opérationnel.. Ouvrez Sparrow Wallet sur votre appareil et naviguez vers `File` -> `Settings` -> `Server`. Choisissez ensuite `Privé Electrum Server`. Dans le champ URL, entrez le `Tor hostname` et le `Port` pour electrs, que vous pouvez trouver dans StartOS sous `Services` -> `electrs` -> `Properties` (se terminant typiquement par `.onion:50001`).
 
 
 ![image](assets/en/16.webp)
 
 
-Ensuite, activez Tor en cochant `Use Proxy`, en réglant l'adresse du proxy sur `127.0.0.1` et le port sur `9050`. Cliquez sur `Test Connection` et attendez quelques instants. Une connexion réussie affichera un message de confirmation tel que "Connecté à electrs". Une fois la vérification effectuée, fermez les paramètres et procédez à la création ou à la restauration de votre wallet. Cette configuration garantit que votre wallet interroge votre propre nœud par l'intermédiaire d'electrs, ce qui assure une confidentialité totale et un fonctionnement sans confiance.
+Ensuite, activez Tor en cochant `Use Proxy`, en réglant l'adresse du proxy sur `127.0.0.1` et le port sur `9050`. Cliquez sur `Test Connection` et patientez quelques secondes. Une connexion réussie affichera un message de confirmation tel que "Connecté à electrs". Une fois la vérification effectuée, fermez les paramètres et procédez à la création ou à la restauration de votre wallet. Cette configuration garantit que votre portefeuille interroge votre propre nœud par l'intermédiaire d'electrs, ce qui assure une confidentialité totale et un fonctionnement sans confiance.
 
 
 ![image](assets/en/17.webp)
@@ -249,4 +249,4 @@ Ensuite, activez Tor en cochant `Use Proxy`, en réglant l'adresse du proxy sur 
 ## 🎯 Conclusion
 
 
-StartOS de Start9 est une plateforme conviviale, axée sur la protection de la vie privée, conçue pour l'auto-hébergement de services essentiels tels que les nœuds Bitcoin et Lightning, les portefeuilles et les applications personnelles. Elle élimine le besoin de compétences en ligne de commande en offrant une interface graphique propre, des sauvegardes automatisées, une surveillance de la santé et un accès Tor sécurisé, ce qui la rend idéale pour les utilisateurs non techniques. Son architecture modulaire permet une intégration transparente avec des outils comme electrs ou Sparrow, ce qui vous donne un contrôle total sur votre souveraineté financière et numérique. En mettant l'accent sur la transparence, le contrôle local et l'extensibilité, StartOS permet aux utilisateurs de se réapproprier les plateformes centralisées et de gérer leur propre infrastructure privée et résiliente.
+StartOS de Start9 est une plateforme simple et sécurisée, dédiée à la protection de la vie privée, conçue pour l'auto-hébergement de services essentiels tels que les nœuds Bitcoin et Lightning, les portefeuilles et les applications personnelles. Elle élimine le besoin de compétences en ligne de commande en offrant une interface graphique propre, des sauvegardes automatisées, une surveillance de la santé et un accès Tor sécurisé, ce qui la rend idéale pour les utilisateurs non techniques. Son architecture modulaire facilite une intégration transparente avec des outils comme electrs ou Sparrow, ce qui vous donne un contrôle total sur votre souveraineté financière et numérique. En mettant l'accent sur la transparence, le contrôle local et l'extensibilité, StartOS permet aux utilisateurs de se réapproprier les plateformes centralisées et de gérer leur propre infrastructure privée et résiliente.

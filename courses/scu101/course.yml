@@ -167,6 +167,11 @@ proofreading:
     contributor_names:
       - dnabg
     reward: 4.72
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.78
 tags:
   - personal-security
   - privacy

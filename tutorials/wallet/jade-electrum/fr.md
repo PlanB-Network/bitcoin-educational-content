@@ -257,4 +257,4 @@ wallet, ainsi testé, peut être utilisé pour recevoir UTXO destiné à être s
 
 
 
-Ce guide est un exemple d'utilisation de votre Jade, connecté via USB, à une montre wallet. La Electrum est un exemple classique, mais vous pouvez préférer d'autres logiciels wallet. Jade exporte la clé publique vers de nombreux autres portefeuilles : retrouvez les fonctions similaires que vous avez lues dans ce tutoriel, pour vous guider et trouver comment l'employer dans votre application companio préférée.
+Ce guide est un exemple d'utilisation de votre Jade, connecté via USB, à une montre wallet. Electrum est un exemple classique, mais vous pouvez préférer d'autres logiciels wallet. Jade exporte la clé publique vers de nombreux autres portefeuilles : retrouvez les fonctions similaires que vous avez lues dans ce tutoriel, pour vous guider et trouver comment l'employer dans votre application companio préférée.

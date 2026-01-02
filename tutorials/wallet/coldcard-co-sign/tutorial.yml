@@ -18,11 +18,12 @@ professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-09-25
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Skyman21m
-    reward: 2.46
+      - nrak10
+    reward: 1.23
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -154,3 +155,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.53
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.14

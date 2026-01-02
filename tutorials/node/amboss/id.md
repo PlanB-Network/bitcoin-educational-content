@@ -7,51 +7,34 @@ description: Jelajahi dan analisis Lightning Network
 
 
 
-Lightning Network adalah Layer dari protokol Bitcoin, yang terutama dikembangkan untuk mempromosikan adopsi pembayaran Bitcoin setiap hari dengan meningkatkan kecepatan pemrosesan setiap transaksi. Berdasarkan prinsip desentralisasi, Lightning Network terdiri dari node (komputer yang menjalankan implementasi Lightning) yang berkomunikasi secara peer-to-peer, menyampaikan data (pembayaran dan verifikasi pembayaran) satu sama lain.
+Lightning Network adalah sebuah Layer di atas protokol Bitcoin yang dikembangkan untuk mendorong penggunaan Bitcoin sebagai alat pembayaran sehari-hari dengan meningkatkan kecepatan pemrosesan transaksi. Dengan tetap berpegang pada prinsip desentralisasi, Lightning Network terdiri dari node, yaitu komputer yang menjalankan implementasi Lightning, yang saling terhubung secara peer-to-peer untuk mengirimkan data pembayaran dan memverifikasi transaksi satu sama lain.
 
 
 
 https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
-Sama seperti pada rantai utama, sangat penting untuk memungkinkan pengguna mengetahui informasi dan status jaringan, untuk memfasilitasi koneksi antar node dan meminimalkan masalah likuiditas yang umumnya muncul dalam jaringan. Memang, pada Lightning Network, kami merekomendasikan pembayaran mikro dengan jumlah yang relatif lebih kecil dibandingkan dengan transaksi pada rantai utama Bitcoin.
+Sama seperti di rantai utama, penting bagi pengguna untuk bisa mengetahui informasi dan status jaringan, supaya koneksi antar node bisa berjalan lancar dan masalah likuiditas yang sering muncul di jaringan bisa diminimalkan. Di Lightning Network, biasanya kami menyarankan penggunaan untuk pembayaran mikro dengan jumlah yang relatif lebih kecil dibandingkan transaksi di rantai utama Bitcoin.
 
-
-
-Penting untuk dicatat bahwa tidak semua node Lightning tersedia di platform Amboss.
+Perlu kamu catat bahwa tidak semua node Lightning tersedia di platform Amboss.
 
 
 
 Seperti [Mempool Space](https://Mempool.space), yang menyediakan informasi berguna tentang rantai utama protokol Bitcoin, sejak tahun 2022 [Amboss](https://amboss.space) menyediakan informasi tentang :
 
-
-
-
-
 - Node pada Lightning Network
 - Saluran pembayaran dan kapasitas pembayarannya
 - Evolusi Lightning Network dari waktu ke waktu
-- Statistik tentang biaya ke node relai untuk pembayaran Anda.
+- Statistik tentang biaya ke node relai untuk pembayaran.
 
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-
-https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
-
-Dalam tutorial ini, kami akan mengajak Anda berkeliling platform ini, yang merupakan sumber daya penting bagi pengguna Lightning Network, mereka yang ingin menghubungkan node mereka untuk memperluas jaringan, dll.
-
-
-
+Dalam tutorial ini, aku akan mengajak kamu menjelajahi platform ini sebagai sumber daya penting bagi pengguna Lightning Network, termasuk buat kamu yang ingin menghubungkan node sendiri untuk memperluas jaringan dan seterusnya.
 
 ## Temukan pasangan
 
-
-
-Salah satu tujuan dari platform Amboss adalah untuk memungkinkan berbagai node dalam jaringan untuk terhubung dan mengkomunikasikan informasi satu sama lain. Pada halaman beranda platform, Anda dapat langsung mencari nama node yang sudah Anda ketahui, atau menemukan node dari portofolio Lightning terpopuler yang Anda gunakan.
-
-
+Salah satu tujuan dari platform Amboss adalah memudahkan berbagai node dalam jaringan untuk saling terhubung dan bertukar informasi. Di halaman beranda platform, kamu bisa langsung mencari nama node yang sudah kamu kenal, atau menemukan node dari dompet Lightning populer yang kamu gunakan.
 
 ![home](assets/fr/01.webp)
-
-
 
 ![wallet](assets/fr/02.webp)
 
@@ -59,10 +42,7 @@ Salah satu tujuan dari platform Amboss adalah untuk memungkinkan berbagai node d
 
 https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-Di halaman beranda, Anda juga akan menemukan node yang diklasifikasikan menurut :
-
-
-
+Di halaman beranda, kamu juga akan menemukan node yang diklasifikasikan menurut :
 
 - Evolusi kapasitas: jumlah Bitcoin yang terkait dengan kunci publik node dan total yang tersedia di semua salurannya.
 - Evolusi saluran: jumlah koneksi baru ke node lain dalam jaringan.
@@ -74,45 +54,21 @@ Di halaman beranda, Anda juga akan menemukan node yang diklasifikasikan menurut 
 
 
 
-Oleh karena itu, memilih simpul yang tepat untuk disambungkan adalah dengan memeriksa kriteria berikut ini:
+Oleh karena itu, memilih node yang tepat untuk disambungkan adalah dengan memeriksa kriteria berikut ini:
 
+- Pastikan node memiliki jumlah bitcoin yang cukup. Semakin besar kapasitas node, semakin besar pula jumlah bitcoin yang bisa kamu bayarkan melaluinya.
+- Pastikan node memiliki banyak koneksi dan saluran yang terbuka dengan node lain di jaringan.
+- Pastikan node aktif dan masih dihargai oleh rekan-rekannya dengan memeriksa jumlah saluran baru. Semakin banyak saluran baru yang dibuka oleh node ini, semakin tinggi reputasinya di jaringan.
 
+Setelah kamu menemukan node yang tepat, klik namanya untuk masuk ke halaman informasinya.
 
-
-
-- Pastikan bahwa node memiliki jumlah bitcoin yang cukup; semakin besar kapasitas node, semakin besar pula jumlah bitcoin yang dapat Anda bayarkan.
-
-
-
-
-
-- Pastikan bahwa node memiliki banyak koneksi dan saluran terbuka dengan node lain dalam jaringan.
-
-
-
-
-
-- Pastikan node aktif dan masih dihargai oleh rekan-rekannya dengan memeriksa jumlah saluran baru; semakin banyak saluran baru yang dibuka oleh node ini, semakin dihargai oleh node lain dalam jaringan.
-
-
-
-Setelah Anda menemukan simpul yang tepat, klik namanya untuk diarahkan ke halaman informasi simpul.
-
-
-
-Pada Interface ini, dengan memeriksa Timestamp dari saluran yang baru dibuat, Anda akan mendapatkan petunjuk tentang aktivitas node ini. Anda juga akan menemukan informasi mengenai kapasitas saluran node ini: informasi ini sangat penting jika Anda ingin secara aktif menggunakan node ini untuk melakukan pembayaran.
-
-
-
+Di tampilan ini, dengan melihat timestamp dari saluran yang baru dibuka, kamu bisa mendapatkan gambaran tentang aktivitas node tersebut. Kamu juga akan menemukan informasi mengenai kapasitas salurannya, dan ini sangat penting kalau kamu berniat menggunakan node itu secara aktif untuk melakukan pembayaran.
 
 ![node_info](assets/fr/04.webp)
 
 
 
-Di bagian kiri, Anda akan menemukan rincian lebih lanjut tentang lokasi node ini. Sebagai contoh, Anda dapat melihat :
-
-
-
+Di bagian kiri, kamu akan menemukan rincian lebih lanjut tentang lokasi node ini. Sebagai contoh, kamu dapat melihat :
 
 - Kunci publik: pengenal tepat di bawah nama simpul.
 - Posisi geografis simpul ini.
@@ -124,10 +80,7 @@ Di bagian kiri, Anda akan menemukan rincian lebih lanjut tentang lokasi node ini
 
 
 
-Interface ini memberi tahu Anda koneksi Address untuk node ini: berbentuk `pubkey@ip:port`. Dalam contoh kita, kita ingin menyambung ke simpul yang memiliki berkas :
-
-
-
+Interface ini menampilkan alamat koneksi node dalam format `pubkey@ip:port`. Dalam contoh ini, kita ingin terhubung ke node yang punya berkas berikut:
 
 - kunci publik `pubkey` adalah: `035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226`
 - iP Address: `170.75.163.209`
@@ -136,7 +89,6 @@ Interface ini memberi tahu Anda koneksi Address untuk node ini: berbentuk `pubke
 
 
 ![geoinfo](assets/fr/06.webp)
-
 
 
 Pada bagian **Channels**, Anda akan melihat daftar saluran yang terbuka dan koneksi node ke node lain dalam jaringan. Pada Interface ini, beberapa informasi sangat penting untuk mengonfirmasi bahwa node ini sesuai dengan kebutuhan kita atau dapat diandalkan:
@@ -149,9 +101,7 @@ Pada bagian **Channels**, Anda akan melihat daftar saluran yang terbuka dan kone
 - Rasio (bagian per juta)**: yang mewakili jumlah Satoshi per juta unit yang akan ditagih oleh node kepada Anda ketika Anda memutuskan untuk melakukan pembayaran melalui salah satu salurannya. Katakanlah Anda memutuskan untuk melakukan pembayaran sebesar `10_000 Sats` melalui saluran yang rasio ppm-nya adalah `500 Sats`, Anda harus membayar satoshi `10_000 * 500 / 1_000_000` kepada node tersebut, yang setara dengan `5 Sats`.
 - Maksimum [HTLC](https://planb.academy/resources/glossary/htlc) **: Jumlah maksimum yang dapat ditransmisikan oleh node ini melalui salah satu saluran ini.
 
-
-
-Dengan melihat tabel pada Interface ini, Anda juga dapat menemukan semua informasi ini pada node yang dicocokkan.
+Dengan melihat tabel pada Interface ini, kamu juga dapat menemukan semua informasi ini pada node yang dicocokkan.
 
 
 
@@ -159,7 +109,7 @@ Dengan melihat tabel pada Interface ini, Anda juga dapat menemukan semua informa
 
 
 
-Pada bagian **Peta saluran**, Anda dapat melihat distribusi dan kapasitas berbagai saluran pada node ini. Anda dapat mengubah kriteria distribusi yang ditampilkan dengan memilih salah satu opsi pada daftar drop-down di sebelah kanan.
+Pada bagian **Peta saluran**, Kamu dapat melihat distribusi dan kapasitas berbagai saluran pada node ini. Kamu bisa mengubah cara distribusi ditampilkan dengan memilih salah satu opsi pada menu drop-down di bagian kanan.
 
 
 
@@ -173,7 +123,7 @@ Bagian **Saluran yang ditutup** mengelompokkan semua saluran yang pernah ditutup
 
 
 - Penutupan bersama**: mewakili kesepakatan kedua belah pihak, yang menggunakan kunci pribadi mereka untuk menandatangani transaksi yang menandai penutupan saluran dan distribusi saldo di dalamnya
-- Penutupan paksa: mewakili penutupan satu bagian saluran secara tiba-tiba dan sepihak. Jenis penutupan ini tidak disarankan, karena Lightning Network adalah protokol berbasis hukuman: ketika Anda mencoba menipu saldo saluran, Anda berisiko kehilangan semua saldo yang tersedia di saluran tersebut.
+- Penutupan paksa: mewakili penutupan satu bagian saluran secara tiba-tiba dan sepihak. Jenis penutupan ini tidak disarankan, karena Lightning Network adalah protokol berbasis hukuman: ketika kamu mencoba menipu saldo saluran, kamu berisiko kehilangan semua saldo yang tersedia di saluran tersebut.
 
 
 
@@ -181,7 +131,7 @@ Bagian **Saluran yang ditutup** mengelompokkan semua saluran yang pernah ditutup
 
 
 
-Dapatkan informasi tentang biaya transit untuk merutekan pembayaran Anda melalui saluran pada node yang Anda gunakan
+Dapatkan informasi tentang biaya transit untuk merutekan pembayaran melalui saluran pada node yang kamu gunakan
 
 
 
@@ -197,11 +147,11 @@ Amboss tidak hanya berfokus pada informasi anggota jaringan, tetapi juga pada ko
 
 
 
-Di bagian **Statistik**, di bawah menu "Simulasi" sebelah kiri, Anda akan menemukan grafik yang menunjukkan probabilitas keberhasilan pembayaran sebagai fungsi dari jumlah pembayaran.
+Di bagian **Statistik**, di bawah menu "Simulasi" sebelah kiri, kamu akan menemukan grafik yang menunjukkan probabilitas keberhasilan pembayaran sebagai fungsi dari jumlah pembayaran.
 
 
 
-Faktanya, Anda akan melihat bahwa kurva menurun karena, ketika jumlah pembayaran Anda meningkat, Anda memiliki lebih sedikit kesempatan untuk melihat pembayaran itu dilunasi. Hal ini mencerminkan masalah likuiditas yang sebenarnya pada Lightning Network. Sebagai contoh, pembayaran Anda sebesar `10_000` satoshi memiliki peluang sebesar `79%` untuk dilakukan. Di sisi lain, untuk pembayaran sebesar `3_000_000` satoshi, Anda memiliki peluang kurang dari `13%` untuk berhasil.
+Kamu akan melihat bahwa kurvanya menurun karena semakin besar jumlah pembayaran, semakin kecil kemungkinan pembayaran tersebut bisa tersalurkan. Ini menggambarkan masalah likuiditas yang sebenarnya terjadi di Lightning Network. Misalnya, pembayaran sebesar `10_000` satoshi memiliki peluang sekitar 79% untuk berhasil. Namun untuk pembayaran sebesar `3_000_000` satoshi, peluang keberhasilannya turun menjadi kurang dari 13%.
 
 
 
@@ -209,13 +159,13 @@ Faktanya, Anda akan melihat bahwa kurva menurun karena, ketika jumlah pembayaran
 
 
 
-Menu **Statistik jaringan** memungkinkan Anda untuk menampilkan statistik secara grafis untuk file :
+Menu **Statistik jaringan** memungkinkanMU untuk menampilkan statistik secara grafis untuk file :
 
 
 
 
 - Saluran pembayaran
-- Simpul
+- Node
 - Kapasitas
 - Biaya
 - Evolusi saluran.
@@ -226,7 +176,7 @@ Menu **Statistik jaringan** memungkinkan Anda untuk menampilkan statistik secara
 
 
 
-Pada menu **Statistik pasar**, opsi **Rincian pesanan** memungkinkan Anda untuk melihat permintaan likuiditas pada Lightning Network. Grafik ini juga dapat menunjukkan saluran mana yang paling banyak diminati dan/atau yang memiliki kapasitas besar.
+Pada menu **Statistik pasar**, opsi **Rincian pesanan** memungkinkan kamu untuk melihat permintaan likuiditas pada Lightning Network. Grafik ini juga dapat menunjukkan saluran mana yang paling banyak diminati dan/atau yang memiliki kapasitas besar.
 
 
 
@@ -239,19 +189,18 @@ Pada menu **Statistik pasar**, opsi **Rincian pesanan** memungkinkan Anda untuk 
 
 
 
-Amboss menawarkan sejumlah alat untuk membantu Anda mengoptimalkan pencarian dan tindakan Anda.
-
+Amboss menyediakan berbagai alat yang bisa membantu kamu mengoptimalkan pencarian serta tindakan kamu di jaringan.
 
 
 ### Dekoder Lightning Network
 
 
 
-Alat ini terutama bertanggung jawab untuk memberi Anda rincian struktur Lightning Invoice, Lightning Address atau URL Lightning.
+Alat ini terutama bertanggung jawab untuk memberi kamu rincian struktur Lightning Invoice, Lightning Address atau URL Lightning.
 
 
 
-Pada halaman beranda, di bagian **Tools**, kirimkan Lightning Address Anda, misalnya.
+Pada halaman beranda, di bagian **Tools**, kirimkan Lightning Address kamu, misalnya.
 
 
 
@@ -259,13 +208,13 @@ Pada halaman beranda, di bagian **Tools**, kirimkan Lightning Address Anda, misa
 
 
 
-Dari dekoder ini, Anda dapat memperoleh informasi seperti :
+Dari dekoder ini, kamu dapat memperoleh informasi seperti :
 
 
 
 
-- kunci publik node yang terkait dengan Lightning Address Anda;
-- Waktu kedaluwarsa Invoice dari Address Anda;
+- kunci publik node yang terkait dengan Lightning Address kamu;
+- Waktu kedaluwarsa Invoice dari Address kamu;
 - Minimum dan maksimum yang dapat Anda kirim;
 - Node Nostr yang terkait dengan Address Anda, jika Nostr diaktifkan pada node ini.
 
@@ -278,9 +227,7 @@ Dari dekoder ini, Anda dapat memperoleh informasi seperti :
 ### Magma IA
 
 
-
-Temukan alat terbaru yang diluncurkan oleh Amboss untuk mengelola koneksi Anda ke node Lightning Network secara efisien. Magma AI menggunakan kecerdasan buatan khusus untuk fokus pada masalah penting: membuat pilihan node yang baik untuk dihubungkan.
-
+Temukan alat terbaru yang diluncurkan oleh Amboss untuk mengelola koneksi kamu ke node Lightning Network secara efisien. Magma AI menggunakan kecerdasan buatan khusus untuk fokus pada hal yang paling penting: memilih node yang tepat untuk dihubungkan.
 
 
 ![magma](assets/fr/16.webp)
@@ -300,8 +247,8 @@ Untuk mengetahui harga Bitcoin saat ini dalam mata uang lokal anda (EUR/USD). Di
 
 
 
-Anda sekarang telah mengikuti tur lengkap fitur dan alat analisis platform. Silakan baca artikel kami di bawah ini mengenai penjelajah Bitcoin **Mempool.space**.
+Sekarang kamu telah mengikuti tur lengkap fitur dan alat analisis platform. Silakan baca artikel kami di bawah ini mengenai penjelajah Bitcoin **Mempool.space**.
 
 
 
-https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

@@ -135,13 +135,19 @@ proofreading:
     contributor_names:
     reward: 0.27
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.3
+      - tonybarakana-cmyk
+    reward: 0.15
   - language: bg
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - dnabg
     reward: 0.12
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27

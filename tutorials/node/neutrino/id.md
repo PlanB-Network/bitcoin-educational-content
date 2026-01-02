@@ -20,13 +20,13 @@ Petunjuk untuk mengunduh dan menginstal gambar pada kartu micro SD pada Windows,
 Gunakan Raspberry Pi Imager atau balenaEtcher.
 
 
-**Catatan:** Simbol `$` digunakan sebagai prompt dan memungkinkan pengguna untuk memasukkan perintah ke dalam komputer, perintah tersebut akan diinterpretasikan oleh bash di Linux. Simbol `#` pada awal baris menunjukkan bahwa teks berikut adalah sebuah komentar.
+**Catatan:** Simbol '$' dipakai sebagai prompt yang memungkinkan kamu memasukkan perintah ke komputer, dan perintah itu akan diinterpretasikan oleh bash di Linux. Simbol '#' di awal baris menunjukkan kalau teks setelahnya adalah komentar.
 
 
 ### 3. Mengaktifkan SSH
 
 
-Sebelum memulai Raspberry Pi dengan memori yang telah diformat, kita harus memasukkannya ke dalam komputer dan membuat dua file yang memungkinkan kita untuk terhubung dari jarak jauh. Dengan menggunakan perintah `touch`, kami membuat file kosong di partisi /boot, memungkinkan koneksi SSH pada boot pertama dari kartu SD yang baru saja diformat.
+Sebelum memulai Raspberry Pi dengan memori yang sudah diformat, kita harus memasukkannya ke komputer dan membuat dua file yang memungkinkan kita terhubung dari jarak jauh. Dengan perintah touch, kita membuat file kosong di partisi '/boot', yang memungkinkan koneksi SSH saat boot pertama dari kartu SD yang baru diformat.
 
 
 ```
@@ -39,8 +39,7 @@ $ touch /boot/ssh
 ### 4. Membuat file untuk koneksi Wi-Fi
 
 
-Dengan menggunakan perintah nano kita membuat berkas `wpa_supplicant.conf` dan langsung mulai mengeditnya. Dalam file ini, kita perlu menyalin konfigurasi wifi, menyalin teks antara START dan END, dan memodifikasi SSID dan kata sandi wifi yang ingin Anda sambungkan.
-
+Dengan perintah nano kita membuat file 'wpa_supplicant.conf' dan langsung mulai mengeditnya. Di file ini, kita perlu menyalin konfigurasi wifi, menyalin teks antara START dan END, lalu memodifikasi SSID dan kata sandi wifi yang mau kamu sambungkan.
 
 ```
 $ nano /boot/wpa_supplicant.conf
@@ -61,7 +60,7 @@ psk="password"
 ### 5. Koneksi
 
 
-Kemudian, kami memasukkan kartu SD ke dalam Raspberry Pi dan menghubungkan Pi ke sumber listrik untuk memulai sistem operasi. Kita perlu mengidentifikasinya di jaringan, dan protokol mDNS kemungkinan akan memberikan nama raspberrypi.local padanya. Mari kita coba terhubung melalui SSH.
+Kemudian, kita memasukkan kartu SD ke dalam Raspberry Pi dan menghubungkan Pi ke sumber listrik untuk memulai sistem operasi. Kita perlu mengidentifikasinya di jaringan, dan protokol mDNS biasanya akan memberi nama raspberrypi.local. Sekarang kita coba terhubung lewat SSH.
 
 
 ```
@@ -147,7 +146,7 @@ $ sudo apt install fail2ban
 ### 10. Instal Go
 
 
-Jika Anda tidak menggunakan raspberry pi, unduh go untuk arsitektur Anda [di sini](https://golang.org/dl/).
+Jika kamu tidak menggunakan raspberry pi, unduh go untuk arsitektur kamu [di sini](https://golang.org/dl/).
 
 
 ```
@@ -217,7 +216,7 @@ neutrino.connect=bb2.breez.technology
 ### 13. Mulai otomatis layanan LND
 
 
-Untuk membuat LND memulai setelah boot rpi, kita harus membuat file .service di systemd. Jika kita masuk sebagai pengguna Bitcoin dan ingin kembali ke pengguna pi, kita cukup mengetikkan 'exit'
+Untuk membuat LND memulai setelah boot rpi, kita harus membuat file .service di systemd. Kalau kita masuk sebagai pengguna Bitcoin dan ingin kembali ke pengguna pi, kita cukup mengetikkan 'exit'
 
 
 ```
@@ -315,10 +314,10 @@ $ lncli create
 $ lncli newaddress p2wkh
 ```
 
-Anda sekarang dapat mengirim BTC ke Address yang dikembalikan oleh LND.
+Sekarang kamu dapat mengirim BTC ke Address yang dikembalikan oleh LND.
 
 
-dengan perintah ini, Anda dapat memeriksa saldo:
+dengan perintah ini, kamu dapat memeriksa saldo:
 
 
 ```
@@ -331,8 +330,7 @@ $ lncli walletbalance
 ```
 
 
-Setelah transaksi dikonfirmasi, kita dapat membuka channel. Jika Anda tidak tahu node mana yang akan digunakan untuk membuka saluran, Anda dapat mengunjungi 1ml.com dan memilih node.
-
+Setelah transaksi dikonfirmasi, kita bisa membuka channel. Kalau kamu belum tahu node mana yang mau dipakai untuk membuka channel, kamu bisa buka 1ml.com dan pilih node di sana.
 
 Buka koneksi ke sebuah node:
 
@@ -409,4 +407,4 @@ $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localho
 ```
 
 
-AKHIR panduan!
+Panduan SELESAI!

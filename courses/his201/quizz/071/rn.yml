@@ -1,9 +1,9 @@
 question: Ni igiki catumye Satoshi Nakamoto agenda bukwi na bukwi mu kwezi kwa kigarama 2010?
-answer: Gusohora ingingo ihuza Bitcoin na WikiLeaks
+answer: Gusohoka kw'ingingo izanye ihuriro hagati ya Bitcoin na WikiLeaks
 wrong_answers:
   - Ukwemera kwa Bitcoin na WikiLeaks
   - Gavin Andresen ariko aragenzura kode
-  - Ukwo kwongerekana kw’igiciro c’ikintu kimwe ca Bitcoin.
+  - Ukwo kwongerekana kw’igiciro ca Bitcoin imwe.
 explanation: |
   Iyi [ngingo](https://www.pcworld.com/article/499375/ikibazo_ca_wikileaks_cotuma habaho_amafaranga mashasha_y'ivy'ubuhinga bwa none?", yari ifise umutwe uvuga ngo "Mbega ikibazo ca Wikileaks coshobora gutuma haba amafaranga mashasha y'ubuhinga bwa none?" guharura.
 reviewed: true

@@ -1,9 +1,9 @@
-question: ほぼ即時の決済を可能にするセカンドLayerプロトコルは？
-answer: Lightning Network
+question: ほぼ即時の決済を可能にするセカンドレイヤープロトコルは？
+answer: ライトニング・ネットワーク
 wrong_answers:
   - サイドチェーン
   - RGB
-  - Bitcoin コア
+  - ビットコインコア
 explanation: |
-  Lightning Networkは、Bitcoin Blockchainの外でoff-chainのオペレーションを通じて、高速かつ低コストの取引を可能にする。
+  ライトニング・ネットワークは、ビットコイン・ブロックチェーンの外でオフチェーン・オペレーションを通じて、高速かつ低コストの取引を可能にする。
 reviewed: false

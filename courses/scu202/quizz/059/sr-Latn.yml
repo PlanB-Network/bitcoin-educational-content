@@ -5,5 +5,5 @@ wrong_answers:
   - Jim Clark
   - Brendan Eich
 explanation: |
-  Tim Berners-Lee je izumitelj Svetske mreže i razvio je prvi pregledač, WorldWideWeb (sada Nexus), 1990. godine.
-reviewed: false
+  Tim Berners-Lee je izumitelj svetske mreže (eng. world web) i razvio je prvi pregledač, WorldWideWeb (sada Nexus), 1990. godine.
+reviewed: true

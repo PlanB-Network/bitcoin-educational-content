@@ -5,14 +5,14 @@ description: Installer et faire tourner Lightning Network Daemon sur Linux
 
 ![cover-lightning-network-daemon](assets/cover.webp)
 
-Le réseau Lightning est une deuxième couche de Bitcoin qui permet à ce dernier de prendre des dimensions fulgurantes notamment grâce à la rapidité et aux faibles coûts de transactions proposées.
+Le réseau Lightning est une seconde couche de Bitcoin qui permet à ce dernier de gagner en rapidité et réduire considérablement les frais de transactions, lui offrant ainsi une portée beaucoup plus large.
 
-Dans ce tutoriel nous allons installer l'implémentation Lightning Network Daemon sur notre machine Linux (Distribution Ubuntu 24.04).  
+Dans ce tutoriel, nous allons installer l'implémentation Lightning Network Daemon sur une machine Linux (Distribution Ubuntu 24.04).  
 
 ## Qu'est-ce que c'est Lightning Network Daemon ?  
 
-Lightning Network Daemon est une implémentation complète en Go du réseau Lightning. Il a été créé par la société Lightning Labs et vous permet de faire tourner une instance complète d'un nœud Lightning sur votre machine. 
-Autrement dit, avec cette implémentation, vous pouvez : 
+Lightning Network Daemon (LND) est une implémentation complète du réseau Lightning, écrite en langage Go. Développée par la société Lightning Labs, elle vous permet de faire tourner une instance complète d'un nœud Lightning sur votre machine. 
+Concrètement, cette implémentation vous permet de : 
 
 - **Interagir avec le réseau Lightning** : Grâce aux lignes de commandes, vous pouvez effectuer des processus de création d'un portefeuille Lightning, la gestion des canaux et des routes de paiements, vous avez une multitude de possibilités directement depuis le terminal de votre machine.  
 - **Relier un nœud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme backend pour votre utilisation, pour utiliser cette implémentation, vous n'aurez pas besoin de faire tourner obligatoirement une instance de Bitcoin Core sur votre machine.
@@ -21,9 +21,9 @@ Autrement dit, avec cette implémentation, vous pouvez :
 https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Pourquoi avoir son propre nœud Lightning ?  
-Lightning est une surcouche de Bitcoin qui vient optimiser le processus de transfert et réduire les frais de transaction. 
+Lightning est une surcouche du Bitcoin qui optimise le processus de transfert et qui réduire les frais de transaction. 
 
-En faisant tourner votre nœud Lightning, vous gagnez en souveraineté et en autonomie. Vous êtes maître de vos fonds, gardez à l'esprit : 
+Faire tourner votre propre nœud Lightning, vous apporte souveraineté et autonomie. Vous êtes restez maître de vos fonds, gardez à l'esprit : 
 
 "*Pas vos clés, pas vos bitcoins.*"
 
@@ -31,7 +31,7 @@ En ce sens, faire tourner un nœud Lightning augmente la sécurité et l'intégr
 
 - **Contrôle total** : Gérez vos propres canaux de paiement, devenez votre propre banque et soyez maître de vos avoirs.
 - **Confidentialité**: Effectuez des transactions sans dépendre de tiers afin de préserver votre confidentialité.
-- **Apprentissage et autonomie** : Grâce aux commandes `lncli` vous pouvez comprendre mieux les processus sous-jacents de Lightning en vous appliquant depuis votre terminal.
+- **Apprentissage et autonomie** : Grâce aux commandes `lncli` comprenez les processus sous-jacents de Lightning en vous appliquant depuis votre terminal.
 - **Décentralisation** : Participez activement au renforcement et à la décentralisation du réseau Bitcoin / Lightning.  
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -146,10 +146,10 @@ cd lnd
 git pull
 make clean && make && make install
 ```
-⚠️ **IMPORTANT** : Il se pourrait que les mises à jour de LND requièrent des versions plus récentes de Go, assurez-vous de mettre votre système à jour afin de ne pas rencontrer de problèmes de dépendances lors de votre installation. 
+⚠️ **IMPORTANT** : Certaines mises à jour de LND peuvent nécessiter des versions plus récentes de Go, assurez-vous de mettre votre système à jour afin d’éviter tout problèmes de dépendances lors de votre installation. 
 ### Configurer Lightning Network Daemon 
 
-La configuration d'un nœud Lightning LND est similaire à celle de Bitcoin, elle se fait dans un fichier de configuration contenant tous les paramètres de votre nœud. Pour cela, à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf` dans ce dossier.  
+La configuration d'un nœud Lightning (LND) est similaire à celle de Bitcoin. Elle passe par un fichier de configuration regroupant tous les paramètres nécessaires de votre nœud. Pour cela, à la racine de votre machine vous pouvez créer un dossier caché `.lnd` puis créer votre fichier de configuration `lnd.conf` dans ce dossier.  
 
 ```bash
 # Création du ficher 
@@ -253,16 +253,16 @@ lncli listpeers
 
 ### Gestion des canaux 
 
-Un canal Lightning vous permet d'avoir une **connexion directe et paire-à-paire avec un autre nœud sur le réseau Lightning**. Dans ce canal, vous pouvez librement échanger des Satoshi à la hauteur de la capacité de ce canal. 
+Un canal Lightning vous permet d'avoir une **connexion directe, en pair-à-pair, avec un autre nœud sur le réseau Lightning**. Dans ce canal, vous pouvez librement échanger des Satoshis à la hauteur de la capacité de ce canal. 
 
 ### Se connecter à un nœud 
 
-La connexion à d'autres nœuds Lightning est une action fondamentale si vous voulez participer activement et profiter de la puissance de Lightning.  
+La connexion à d'autres nœuds Lightning est une étape essentielle. Pour participer activement au réseau et tirer pleinement profit de la puissance du protocole Lightning.  
 
 Pour vous connecter à un pair (nœud Lightning), vous aurez besoin de trois informations: 
 - **La clé publique du nœud** : Elle représente l'identifiant unique de ce nœud dans le réseau Bitcoin ;
-- **IP** : L'IP de la machine sur laquelle le nœud est installé ;
-- **PORT** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 
+- **l’adresse IP** : L'IP de la machine sur laquelle le nœud est installé ;
+- **Port** :  Le port ouvert sur la machine qui permet la communication avec ce nœud. 
 
 Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://amboss.space/), une plateforme qui recense les informations sur les nœuds Lightning.
 
@@ -275,24 +275,24 @@ Vous pouvez trouver des nœuds auxquels vous connecter sur [amboss](https://ambo
 ```
 
 
-Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'intégrité de votre propre système. Voici quelques recommandations pour une bon choix de vos connexions. 
+Assurez-vous de vous connecter à des **nœuds fiables** afin de préserver l'intégrité de votre système. Voici quelques recommandations pour bien choisir vos connexions. 
 
-- **Diversification géographique** : Connectez-vous à des nœuds dans différentes régions.
+- **Diversification géographique** : Connectez-vous à des nœuds situés dans différentes régions.
 
-- **Réputation** : Privilégiez les nœuds avec une bonne disponibilité.
+- **Réputation** : Privilégiez les nœuds ayant une bonne disponibilité.
 
-- **Capacité** : Choisissez des nœuds avec une bonne liquidité.
+- **Capacité** : Choisissez des nœuds offrant une bonne liquidité.
 
-- **Frais** : Vérifiez les frais de routage pratiqués.
+- **Frais** : Vérifiez les frais de routage appliqués.
 ### Ouvrir un canal de paiement 
-Pour ouvrir un canal de paiement assurez vous de la **connexion avec le nœud** pair puis définir la **capacité** (le montant de satoshis) que vous souhaitez bloquer dans ce canal.  
+Pour ouvrir un canal de paiement, assurez-vous d'être **connecté au nœud** pair, puis définissez la **capacité** (le montant de satoshis) que vous souhaitez bloquer dans ce canal.  
 
 ```bash 
 lncli openchannel --node_key=<ID_PUBKEY> --local_amt=<AMOUNT_SATOSHIS>
 ```
 ### Créer une facture Lightning  
 
-Une facture Lightning représente une chaine de caractères exprimant votre désir de recevoir des satoshis dans votre portefeuille Lightning. 
+Une facture Lightning est une chaîne de caractères qui exprime votre demande de recevoir des satoshis dans votre portefeuille Lightning. 
 Créer des factures Lightning avec votre propre nœud vous permet de protéger vos données (géographiques et personnelles) et vous donne la possibilité d'être 100% autonome sur la gestion de vos fonds. 
 
 ```bash 
@@ -308,9 +308,9 @@ lncli payinvoice <FACTURE>
 ```
 ### Fermer un canal 
 
-Vous avez deux possibilités pour fermer un canal actif sur votre nœud actuellement.  
+Vous avez deux possibilités pour fermer un canal actif sur votre nœud.  
 
-- **La fermeture coopérative** : Elle signale le souhait de votre nœud de se retirer du canal de paiement et permet de s'assurer de la finition des tâches en cours et de procéder à une sauvegarde des données afin d'éviter des pertes de fonds. 
+- **La fermeture coopérative** : Elle indique que votre nœud souhaite de votre nœud de se retirer du canal de paiement. Elle permet de finaliser correctement les opérations en cours et d’effectuer une sauvegarde des données afin d'éviter toute perte de fonds. 
 ```
 lncli closechannel <ID_CANAL>
 ```
@@ -323,7 +323,7 @@ La sécurité est primordiale lors de l'utilisation d'un nœud Bitcoin/ Lightnin
 
 - Conservez votre `seed phrase` dans un endroit sécurisé et hors ligne.  
 
-- Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup` : Ce fichier sauvegarde les états de vos canaux chaque fois qu'un nouveau canal est ouvert (ou un ancien canal est fermé) sur votre nœud.
+- Faites des sauvegardes régulières du fichier `~/.lnd/channel.backup` : Ce fichier Contient les états de vos canaux chaque fois qu'un nouveau canal est ouvert (ou un ancien canal est fermé) sur votre nœud.
    ⚠️ Il vous permet restaurer les canaux et de récupérer les fonds que vous avez bloqués dans les canaux de paiement en cas de perte de données ou de défaillance de votre nœud  
    
 Vous pouvez procéder à la restauration de vos fonds avec la commande ci dessous en spécifiant le chemin de sauvegarde de ce fichier :  

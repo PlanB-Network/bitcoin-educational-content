@@ -6,4 +6,4 @@ wrong_answers:
   - Limitan el rango de posibilidades al disminuir el número de elementos.
 explanation: |
   Los campos de extensión con base 2 son convenientes porque sus elementos pueden ser vistos como cadenas binarias, facilitando la realización de operaciones sobre datos digitales a nivel binario en sistemas.
-reviewed: false
+reviewed: true

@@ -33,7 +33,7 @@ Chapisho la asili ni lifuatalo:
 ## Kwa nini Electrum?
 
 
-Huu ni mwongozo wa kina wa jinsi ya kutumia Electrum Bitcoin Wallet, ikiwa na suluhu kwa mitego yake yote na mambo ya ajabu -jambo ambalo nimeunda baada ya miaka kadhaa ya matumizi, na kufundisha wanafunzi kuhusu usalama/faragha ya Bitcoin. Electrum sio Bitcoin Wallet bora zaidi kwa mtu ambaye anataka kuweka kila kitu rahisi iwezekanavyo, na akipendelea kubaki katika kiwango cha kwanza. Badala yake, ni kwa mtu ambaye ni, au anatamani kuwa, mtumiaji wa "nguvu".
+Huu ni mwongozo huu wa kina wa jinsi ya kutumia Electrum Bitcoin Wallet, ikiwa na suluhu kwa mitego yake yote na mambo ya ajabu -jambo ambalo nimeunda baada ya miaka kadhaa ya matumizi, na kufundisha wanafunzi kuhusu usalama/faragha ya Bitcoin. Electrum sio Bitcoin Wallet bora zaidi kwa mtu ambaye anataka kuweka kila kitu rahisi iwezekanavyo, na akipendelea kubaki katika kiwango cha kwanza. Badala yake, ni kwa mtu ambaye ni, au anatamani kuwa, mtumiaji wa "nguvu".
 
 
 Kwa Bitcoiner mpya, ni bora ikiwa tu chini ya usimamizi wa mtumiaji mwenye uzoefu kuwaonyesha njia. Iwapo watajifunza kuitumia peke yao, itakuwa salama mradi watachukua muda wao na kuitumia katika mazingira ya majaribio yenye idadi ndogo tu ya Sats mwanzoni. Mwongozo huu unaunga mkono jitihada hiyo, lakini pia ni marejeleo mazuri kwa mtu mwingine yeyote.
@@ -54,7 +54,7 @@ Pata Electrum kutoka https://electrum.org/.
 Bofya kichupo cha Pakua hapo juu.
 
 
-Bofya kiungo cha kupakua kinacholingana na kompyuta yako. Kompyuta yoyote ya Linux au Mac inaweza kutumia kiungo cha Python (mduara nyekundu). Kompyuta ya Linux iliyo na chip ya Intel au AMD inaweza kutumia AppImage (mduara wa kijani; hii ni sawa na faili inayoweza kutekelezwa ya Windows). Kifaa cha Raspberry Pi kina kichakataji cha ARM na kinaweza kutumia tu toleo la Python (mduara nyekundu), si AppImage, ingawa Raspberry Pi inaendesha Linux. Mduara wa bluu ni wa Windows, na mduara wa nyeusi ni wa Mac.
+Bofya kiungo cha kupakua kinacholingana na kompyuta yako. Kompyuta yoyote ya Linux au Mac inaweza kutumia kiungo cha Python (mduara nyekundu). Kompyuta ya Linux iliyo na chip ya Intel au AMD inaweza kutumia AppImage (mduara wa kijani; hii ni sawa na faili inayoweza kutekelezwa ya Windows).Kifaa cha Raspberry Pi kina ARM processor na kinaweza kutumia tu toleo la Python (lililo kwenye mduara mwekundu), si AppImage, hata kama Raspberry Pi inaendesha Linux. Mduara wa bluu unaonyesha toleo la Windows, na mduara mweusi unaonyesha toleo la Mac.
 
 
 ![image](assets/1.webp)
@@ -63,13 +63,13 @@ Bofya kiungo cha kupakua kinacholingana na kompyuta yako. Kompyuta yoyote ya Lin
 ## Inathibitisha Electrum
 
 
-Madhumuni ya "kuthibitisha" upakuaji ni kuhakikisha kuwa hakuna hata sehemu ya data iliyoharibiwa au kuingiliwa. Hii inakuzuia kutumia toleo hasidi au “lililodukuliwa” la programu. Unaweza kuruka hatua hii mradi tu unatumia nakala iliyopakuliwa kwa mafunzo, yaani, usitumie wallet zinazohifadhi kiasi kikubwa cha pesa. Baadaye, ukiwa tayari kutumia Electrum kwa pesa zako halisi, unapaswa kufuta nakala uliyonayo na kuanza upya, safari hii ukithibitisha upakuaji wako.
+Madhumuni ya "kuthibitisha" upakuaji ni kuhakikisha kuwa hakuna sehemu ya data iliyoharibika au kuingiliwa. Hatua hii inazuia kutumia toleo hasidi au "lililodukuliwa" la programu. Unaweza kuiruka hatua hii mradi tu unatumia nakala iliyopakuliwa kwa mafunzo, yaani, usitumie wallet inayohifadhi kiasi kikubwa cha pesa. Baadaye, ukiwa tayari kutumia Electrum kwa pesa zako halisi, unapaswa kufuta nakala uliyonayo na kuanza upya, safari hii ukithibitisha upakuaji wako.
 
 
 Ili kufanya hivyo, tunatumia zana za ufunguo wa siri za umma/faragha - gpg, ambazo zimeandika mwongozo kuhusu hapa (https://armantheparman.com/gpg/). Zana ya gpg inakuja na mifumo yote ya uendeshaji ya Linux. Kwa Mac na Windows, angalia kiungo cha gpg kwa maagizo ya kupakua.
 
 
-Mbali na kupakua programu ya Electrum, kwa usalama, unahitaji pia SIGNATURE ya dijiti ya programu. Huu ni mfuatano wa maandishi (kwa hakika ni nambari iliyosimbwa kwa kutumia maandishi) ambayo msanidi aliizalisha kwa ufunguo wake wa PRIVATE gpg. Kwa kutumia programu ya gpg, basi tunaweza "kujaribu" SAINI dhidi ya ufunguo wake wa UMMA (ulioundwa kutoka kwa ufunguo wa faragha wa msanidi programu) ambao kila mtu anaweza kufikia, dhidi ya upakuaji wa FILE.
+Mbali na kupakua programu ya Electrum, kwa usalama, unahitaji pia DIGITAL SIGNATURE ya programu. Huu ni mfuatano wa maandishi (kwa hakika ni nambari iliyosimbwa kwa kutumia maandishi) ambayo msanidi aliizalisha kwa ufunguo wake wa PRIVATE gpg. Kwa kutumia programu ya gpg, basi tunaweza "kujaribu" SAINI dhidi ya ufunguo wake wa UMMA (ulioundwa kutoka kwa ufunguo wa faragha wa msanidi programu) ambao kila mtu anaweza kufikia, dhidi ya upakuaji wa FILE.
 
 
 Kwa maneno mengine, kwa pembejeo tatu (saini, ufunguo wa umma, na faili ya data), tunapata matokeo ya kweli au ya uwongo ili kuthibitisha kuwa faili haijaingiliwa.
@@ -263,7 +263,7 @@ Unapopakia Electrum kwanza, windows itafungua kama hii:
 ![image](assets/6.webp)
 
 
-Baadaye tutachagua seva yako mwenyewe, lakini kwa sasa, acha chaguomsingi na uunganishe kiotomatiki.
+Baadaye tutachagua server yako mwenyewe, lakini kwa sasa, acha chaguomsingi na uunganishe kiotomatiki.
 
 
 Ifuatayo, unda dummy Wallet - usiwahi kuweka pesa kwenye Wallet hii. Madhumuni ya dummy  Wallet ni kuendeleza kupitia programu na kuhakikisha kila kitu kinafanya kazi vizuri kabla ya wewe kupakia Wallet yako halisi. Tunajaribu kuepuka kuacha faragha kwa bahati mbaya kwa kutumia Wallet halisi. Ikiwa unafanya mazoezi tu, Wallet unayounda inaweza kuchukuliwa kuwa dummy Wallet hata hivyo.
@@ -308,7 +308,7 @@ Electrum itatafuta maneno yanayolingana na protocol yake yenyewe. Tunapaswa kukw
 seed basi inakuwa halali. (Kabla ya kufanya hivi, Electrum ilikuwa ikitarajia Electrum seed kwa hivyo seed hii ilionekana kuwa batili). Kabla ya kubofya inayofuata, angalia maandishi yanayosema "Checksum OK". Ni muhimu (kwa Wallet halisi unaweza kutumia baadaye) kwamba unaona hili kabla ya kuendelea, kwani inathibitisha uhalali wa seed unayoweka. Onyo karibu na chini linaweza kupuuzwa, ni msukumo wa msanidi wa Electrum kuhusu BIP39 na "FUD'ey" yao inadai kwamba toleo lao (ambalo haliendani na mkoba mwingine).
 
 
-**Mchepuko wa haraka wa onyo muhimu:** madhumuni ya hundi ni kuhakikisha kuwa umeingiza seed yako bila makosa ya kuandika. Cheki ni sehemu ya mwisho ya seed (neno la 12 linaishia kuwa neno la hundi) ambalo kimahesabu huamuliwa na sehemu ya kwanza ya seed (maneno 11). Ikiwa ungeandika kitu kibaya mwanzoni, neno la hundi halitalingana kihisabati, na programu ya Wallet itakuarifu kwa onyo. Hii haimaanishi kuwa seed haiwezi kutumika kuunda kazi ya Bitcoin Wallet. Hebu fikiria kuunda Wallet na hitilafu ya kuandika, kupakia Wallet na Bitcoin, basi siku moja unaweza kuhitaji kurejesha Wallet, lakini unapofanya hivyo, hutaunda tena kosa la kuandika - utarejesha Wallet isiyo sahihi! Ni hatari sana kwamba Electrum itakuruhusu kuendelea kutengeneza Wallet ikiwa hundi yako ni batili, kwa hivyo tahadhari, ni jukumu lako kuhakikisha. Pochi zingine hazitakuruhusu kuendelea, ambayo ni salama zaidi. Hii ni moja ya mambo ninayomaanisha ninaposema Electrum ni sawa kutumia, mara tu unapojifunza kuitumia vizuri (Electrum devs inapaswa kurekebisha hii).
+**Mchepuko wa haraka wa onyo muhimu:** madhumuni ya hundi ni kuhakikisha kuwa umeingiza seed yako bila makosa ya kuandika. Cheki ni sehemu ya mwisho ya seed (neno la 12 linaishia kuwa neno la hundi) ambalo kimahesabu huamuliwa na sehemu ya kwanza ya seed (maneno 11). Ikiwa ungeandika kitu kibaya mwanzoni, neno la hundi halitalingana kihisabati, na programu ya Wallet itakuarifu kwa onyo. Hii haimaanishi kuwa seed haiwezi kutumika kuunda kazi ya Bitcoin Wallet. Hebu fikiria kuunda Wallet na hitilafu ya kuandika, kupakia Wallet na Bitcoin, basi siku moja unaweza kuhitaji kurejesha Wallet, lakini unapofanya hivyo, hutaunda tena kosa la kuandika - utarejesha Wallet isiyo sahihi! Ni hatari sana kwamba Electrum itakuruhusu kuendelea kutengeneza Wallet ikiwa hundi yako ni batili, kwa hivyo tahadhari, ni jukumu lako kuhakikisha. Wallets zingine hazitakuruhusu kuendelea, ambayo ni salama zaidi. Hii ni moja ya mambo ninayomaanisha ninaposema Electrum ni sawa kutumia, mara tu unapojifunza kuitumia vizuri (Electrum devs wwanafaa kurekebisha hii).
 
 
 Tambua kwamba ikiwa ungetaka kuongeza passphrase, nafasi ya kuchagua iko kwenye kidirisha hiki cha chaguo, hapo juu.
@@ -327,9 +327,9 @@ Iwapo hukutuma ombi la passphrase, utaona skrini hii inayofuata - chaguo zaidi z
 
 
 
-- urithi (address zinazoanza na "1")
-- Pay-to-Script-Hash (anwani zinazoanza na “3”),
-- bech32/native SegWit (anwani zinazoanza na “bc1q”).
+- legacy (address zinazoanza na "1")
+- Pay-to-Script-Hash (address zinazoanza na “3”),
+- bech32/native SegWit (address zinazoanza na “bc1q”).
 
 
 Wakati wa kuandika, Electrum bado haitumii Taproot (address zinazoanza na "bc1p"). Chaguo la pili katika dirisha hili inakuwezesha kurekebisha njia ya derivation. Ninapendekeza usiwahi kurekebisha hii, haswa kabla ya kuelewa inamaanisha nini. Watu watasisitiza umuhimu wa kuandika njia ya utokaji ili uweze kurejesha Wallet yako ikihitajika, lakini ukiiacha kama chaguo-msingi, pengine utakuwa sawa, kwa hivyo usiogope - lakini bado ni mazoezi mazuri kuandika njia ya utokaji chini.
@@ -341,7 +341,7 @@ Kisha, utapewa chaguo la kuongeza NENOSIRI. Hii haipaswi kuchanganyikiwa na "pas
 ![image](assets/14.webp)
 
 
-Utapata windows ibukizi kuhusu arifa za toleo jipya (Ninapendekeza uchague hapana). Wallet basi itakuwa generate yenyewe na kuwa tayari kutumia (lakini kumbuka, hii Wallet imekusudiwa kufutwa, ni dummy Wallet).
+Utapata windows ibukizi kuhusu arifa za toleo jipya (Ninapendekeza uchague hapana). Wallet basi itajitengeneza yenyewe na kuwa tayari kutumia (lakini kumbuka, wallet hii imekusudiwa kufutwa, ni dummy wallet).
 
 
 ![image](assets/15.webp)
@@ -353,9 +353,9 @@ Kuna mambo kadhaa ninapendekeza ufanye ili kusanidi mazingira ya programu (inahi
 ### Badilisha vitengo kuwa BTC
 
 
-Nenda kwenye menyu ya juu, zana -> mapendeleo ya elektroni, na hapo chini ya kichupo cha jumla, utapata chaguo la kubadilisha "kitengo cha msingi" hadi BTC.
+Nenda kwenye menyu ya juu, zana -> mapendeleo ya elektroniki, na hapo chini ya kichupo cha jumla, utapata chaguo la kubadilisha "kitengo cha msingi" hadi BTC.
 
-Washa kichupo cha Anwani na Sarafu
+Washa kichupo cha address na Sarafu
 
 
 Nenda kwenye menyu ya juu, angalia, na uchague "onyesha address". Kisha rudi kutazama na uchague "onyesha sarafu".
@@ -367,10 +367,9 @@ Nenda kwenye menyu ya juu, angalia, na uchague "onyesha address". Kisha rudi kut
 Kwa chaguo-msingi, Electrum huunganisha kwa random node. Pia huunganisha na secondary nodes nyingi. Sina uhakika ni data gani inabadilishwana na hizi secondary nodes, lakini kwa faragha hatutaki jambo hilo lifanyike. Hata ukitaja node, kama vile node yako mwenyewe, bado kuna uwezekano wa kuunganishwa na hizi multiple nodes, na sina uhakika ni taarifa gani zinashirikiwa. Hata hivyo, ni rahisi kuzuia hili. Kabla sijakuonyesha jinsi ya kutaja node yako mwenyewe, tutalazimisha Electrum kuunganishwa na single server pekee kwa wakati mmoja.l.
 
 
-**Kumbuka:** kuna njia ya kufanya hivyo kwa kutaja "oneserver" kutoka kwa mstari wa amri, lakini siipendekeza kwa njia hii. Nitaonyesha njia mbadala ambayo nadhani ni rahisi kwa muda mrefu, na uwezekano mkubwa wa kutokuruhusu kuunganishwa kwa bahati mbaya na nodi zingine.
+**Kumbuka:** Kuna njia ya kufanya hivyo kwa kutumia chaguo la "oneserver" kwenye mstari wa amri, lakini sipendekezi kutumia njia hii. Nitaonyesha njia mbadala ambayo nadhani ni rahisi zaidi kwa matumizi ya muda mrefu, na ina uwezekano mkubwa wa kuzuia kuunganishwa bila kukusudia na node zingine
 
-
-Sababu tunayotumia dummy Wallet ni kwamba ikiwa tungekuwa tumepakia Wallet yetu halisi, na Bitcoin yetu halisi, tungekuwa tumeunganisha bila kukusudia kwa node isiyo ya kawaida kwa sasa (hata ikiwa tulichagua "kuweka seva kwa mikono" mwanzoni, bado inaunganishwa na node hizi nyingine za sekondari kwa sababu fulani (hey Electrum devs, unapaswa kurekebisha hii GW-3).
+Sababu tunayotumia dummy Wallet ni kwamba ikiwa tungekuwa tumepakia Wallet yetu halisi, na Bitcoin yetu halisi, tungekuwa tumeunganisha bila kukusudia kwa node isiyo ya kawaida kwa sasa (hata ikiwa tulichagua "kuweka server kwa mikono" mwanzoni, bado inaunganishwa na node hizi nyingine za sekondari kwa sababu fulani (hey Electrum devs, mnapaswa kurekebisha hii GW-3).
 
 
 Pia hatuwezi kufanya hatua nitakuonyesha hapa chini bila kwanza kupakia aina fulani ya Wallet. (Tutahariri faili ya usanidi ambayo hujazwa na kuwa tayari kuhaririwa mara tu Wallet inapopakiwa).
@@ -385,7 +384,7 @@ Sasa zima Electrum **(MUHIMU: usipofanya hivi, mabadiliko yafuatayo utakayofanya
 Fungua terminal katika Linux au Mac (maelekezo ya Windows baadaye):
 
 
-Unapaswa kuwa moja kwa moja kwenye folda ya nyumbani. Kutoka hapo, nenda kwenye folda ya mipangilio ya elektroni iliyofichwa (hii ni tofauti na ambapo programu iko).
+Unapaswa kuwa moja kwa moja kwenye folda ya home. Kutoka hapo, nenda kwenye folda ya mipangilio ya elektroni iliyofichwa (hii ni tofauti na ambapo programu iko).
 
 
 ```bash
@@ -410,7 +409,7 @@ ambapo "~" inawakilisha njia ya saraka yako ya nyumbani. Unaweza kuona njia kami
 Ukishaingia kwenye saraka ya ".electrum", chapa "nano config" na ubofye <enter>.
 
 
-Kihariri cha maandishi kitafungua (kinachoitwa nano) na faili ya usanidi imefunguliwa. Panya haifanyi kazi sana hapa. Tumia vitufe vya vishale kufika kwenye mstari unaosema:
+Kihariri cha maandishi kitafungua (kinachoitwa nano) na faili ya usanidi imefunguliwa. Mouse haifanyi kazi sana hapa. Tumia vitufe vya vishale kufika kwenye mstari unaosema:
 
 
 ```json
@@ -427,7 +426,7 @@ Gonga <ctrl> x, ili kuondoka, kisha “y” ili kuhifadhi, kisha <enter> ambayo 
 Sasa endesha Electrum tena. Kisha bonyeza mduara chini kulia, ambayo inafungua mipangilio ya mtandao. Kisha, karibu na juu katika kichupo cha muhtasari, utaona "imeunganishwa kwenye node 1" - hii inaonyesha mafanikio.
 
 
-Chini ya hapo, utaona uga wa maandishi na Address ya seva iko hapo. Kwa sasa umeunganishwa kwenye node hiyo nasibu. Zaidi juu ya kuunganisha kwa nodi katika sehemu inayofuata.
+Chini ya hapo, utaona uga wa maandishi na Address ya server iko hapo. Kwa sasa umeunganishwa kwenye node hiyo nasibu. Zaidi juu ya kuunganisha kwa node katika sehemu inayofuata.
 
 
 ### Faili ya Usanidi wa Windows
@@ -453,17 +452,17 @@ Badilisha "uongo" hadi "kweli"; usisumbue sintaksia (usifute koma au semicolon).
 Kisha uhifadhi faili na uondoke.
 
 
-## Unganisha Electrum kwenye nodi
+## Unganisha Electrum kwenye node
 
 
-Ifuatayo, tunataka kuunganisha dummy yetu Wallet kwenye nodi ya chaguo letu. Ikiwa hauko tayari kuendesha nodi, unaweza kufanya moja ya yafuatayo:
+Ifuatayo, tunataka kuunganisha dummy yetu Wallet kwenye node ya chaguo letu. Ikiwa hauko tayari kuendesha node, unaweza kufanya moja ya yafuatayo:
 
 
 1. Unganisha kwa node ya kibinafsi ya rafiki (inahitaji Tor)
 
 2. Unganisha kwenye node ya kampuni inayoaminika
 
-3. Unganisha kwenye node ya random (haipendekezi).
+3. Unganisha kwenye random node (haipendekezi).
 
 
 Kwa njia, hapa kuna maagizo ya kuendesha node yako mwenyewe, na hizi ndizo sababu unapaswa. (angalia mafunzo kwenye sehemu ya Node au katika kozi zetu za bure)
@@ -478,7 +477,7 @@ Kwa njia, hapa kuna maagizo ya kuendesha node yako mwenyewe, na hizi ndizo sabab
 Sababu pekee ya kufanya hivyo itakuwa ikiwa lazima ufikie Blockchain na huna node yako mwenyewe inapatikana (au ya rafiki).
 
 
-Hebu tuunganishe kwenye node ya Bitaroo – tumeambiwa kwamba hawakusanyi data. Ni Bitcoin-only Exchange, inayoendeshwa na Bitcoiner mwenye shauku. Kuunganisha kwao kunahusisha kiwango kidogo cha uaminifu, lakini bado ni bora kuliko kuunganisha kwenye random node, ambayo huenda ikamilikiwa na kampuni ya ufuatiliaji.
+Hebu tuunganishe kwenye node ya Bitaroo – tumeambiwa kwamba hawakusanyi data. Ni Bitcoin-only Exchange, inayoendeshwa na Bitcoiner mwenye shauku. Kuunganisha nao kunahitaji kiwango kidogo cha uaminifu, lakini bado ni bora kuliko kuunganishwa na node yoyote isiyojulikana, ambayo huenda inamilikiwa na kampuni ya ufuatiliaji.
 
 
 Nenda kwenye Network Settings kwa kubofya mduara ulioko chini kulia mwa window ya Wallet (nyekundu inaonyesha haijaunganishwa, green inaonyesha imeunganishwa, na blue inaonyesha imeunganishwa kupitia Tor).
@@ -490,51 +489,51 @@ Nenda kwenye Network Settings kwa kubofya mduara ulioko chini kulia mwa window y
 Mara tu unapobofya ikoni ya mduara, dirisha ibukizi litaonekana: Wallet yako itaonyesha "imeunganishwa kwa node 1" kwa kuwa tulilazimisha hilo hapo awali.
 
 
-Ondoa tiki kwenye kisanduku cha "chagua seva kiotomatiki", na kisha kwenye Sehemu ya Seva, chapa maelezo ya Bitaroo kama inavyoonyeshwa:
+Ondoa tiki kwenye kisanduku cha "chagua server kiotomatiki", na kisha kwenye Sehemu ya server, chapa maelezo ya Bitaroo kama inavyoonyeshwa:
 
 
 ![image](assets/17.webp)
 
 
-Funga dirisha, na sasa tunapaswa kushikamana na node ya Bitaroo. Ili kuthibitisha, mduara unapaswa kuwa Green. Bofya tena na uangalie kuwa maelezo ya seva hayajabadilika kurudi kwenye node ya nasibu.
+Funga dirisha, na sasa tunapaswa kushikamana na node ya Bitaroo. Ili kuthibitisha, mduara unapaswa kuwa Green. Bofya tena na uangalie kuwa maelezo ya server hayajabadilika kurudi kwenye node ya nasibu.
 
 
 ### Unganisha kwenye node yako mwenyewe
 
 
-Ikiwa unayo node yako mwenyewe hiyo ni nzuri. Ikiwa una Bitcoin Core pekee, na si Electrum SERVER pia, bado hutaweza kuunganisha Electrum Wallet kwenye nodi yako.
+Ikiwa unayo node yako mwenyewe hiyo ni nzuri. Ikiwa una Bitcoin Core pekee, na si Electrum SERVER pia, bado hutaweza kuunganisha Electrum Wallet kwenye node yako.
 
 
-**Kumbuka kwamba Seva ya Electrum na Electrum Wallet ni vitu tofauti:** seva ni programu inayohitajika ili Electrum Wallet iweze kuwasiliana na Bitcoin Blockchain - sijui kwa nini iliundwa kwa njia hii - labda kwa kasi lakini ninaweza kuwa na makosa.
+**Kumbuka kwamba server ya Electrum na Electrum Wallet ni vitu tofauti:** server ni programu inayohitajika ili Electrum Wallet iweze kuwasiliana na Bitcoin Blockchain - sijui kwa nini iliundwa kwa njia hii - labda kwa kasi lakini ninaweza kuwa na makosa.
 
 
-Ukiendesha kifurushi cha programu ya node kama MyNode (ile ninayopendekeza watu waanze nayo), Raspiblitz (inapendekezwa kadiri unavyoendelea zaidi), au Umbrel (mimi binafsi bado siipendekezi kwa vile nimepata masuala mengi), basi utaweza kuunganisha Wallet yako kwa kuingiza IP Address ya kompyuta (Raspberry Pi) inayoonyesha sehemu ya ndani ya koloni, 5 pamoja na koloni ya 0, na 50 iliyoonyeshwa. sehemu iliyopita. (Zaidi chini nitakuonyesha jinsi ya kupata IP Address ya nodi yako).
+Ukiendesha kifurushi cha programu ya node kama MyNode (ile ninayopendekeza watu waanze nayo), Raspiblitz (inapendekezwa kadiri unavyoendelea zaidi), au Umbrel (mimi binafsi bado siipendekezi kwa vile nimepata masuala mengi), basi utaweza kuunganisha Wallet yako kwa kuingiza IP Address ya kompyuta (Raspberry Pi) inayoonyesha sehemu ya ndani ya koloni, 5 pamoja na koloni ya 0, na 50 iliyoonyeshwa. sehemu iliyopita. (Zaidi chini nitakuonyesha jinsi ya kupata IP Address ya node yako).
 
 
-Fungua mipangilio ya Mtandao (bofya Green au duara nyekundu chini kulia). Ondoa kisanduku cha "chagua seva kiatomati", kisha ingiza IP yako Address kama nilivyofanya yako itakuwa tofauti, lakini koloni na "50002" zinapaswa kuwa sawa.
+Fungua mipangilio ya Mtandao (bofya Green au duara nyekundu chini kulia). Ondoa kisanduku cha "chagua server kiatomati", kisha ingiza IP yako Address kama nilivyofanya yako itakuwa tofauti, lakini koloni na "50002" zinapaswa kuwa sawa.
 
 
 ![image](assets/18.webp)
 
 
-Funga window, na sasa tunapaswa kushikamana na node yako. Ili kuthibitisha, bofya mduara tena na uangalie kuwa maelezo ya seva hayajabadilika kuwa nodi nasibu.
+Funga window, na sasa tunapaswa kushikamana na node yako. Ili kuthibitisha, bofya mduara tena na uangalie kuwa maelezo ya server hayajabadilika kuwa node nasibu.
 
 
 Wakati mwingine, licha ya kufanya kila kitu sawa, inaonekana, inakataa kuunganisha. Hapa kuna mambo ya kujaribu…
 
 
 
-- Boresha hadi toleo jipya zaidi la Electrum, na programu yako ya nodi;
+- Boresha hadi toleo jipya zaidi la Electrum, na programu yako ya node;
 - Jaribu kufuta folda ya cache kwenye saraka ya ".electrum";
 - Jaribu kubadilisha bandari kutoka 50002 hadi 50001 katika mipangilio ya mtandao;
 - Tumia [mwongozo huu](https://armantheparman.com/tor/) kuunganisha kwa kutumia Tor kama njia mbadala;
-- Sakinisha tena Seva ya Electrum kwenye node.
+- Sakinisha tena server ya Electrum kwenye node.
 
 
-## Kupata IP ya Nodi yako Address
+## Kupata IP Address ya Node yako
 
 
-IP Address si kitu ambacho mtumiaji wa kawaida hujua jinsi ya kutafuta na kutumia. Nimesaidia watu wengi kuendesha nodi, na kisha kuunganisha wallet zao kwenye node - kikwazo mara nyingi kinaonekana kupata IP Address yake.
+IP Address si kitu ambacho mtumiaji wa kawaida hujua jinsi ya kutafuta na kutumia. Nimesaidia watu wengi kuendesha node, na kisha kuunganisha wallet zao kwenye node - kikwazo mara nyingi kinaonekana kupata IP Address yake.
 
 
 Kwa MyNode, unaweza kuandika kwenye dirisha la kivinjari: `mynode.local`
@@ -616,7 +615,7 @@ Hiyo ndiyo ilikuwa rahisi. Sehemu ngumu sasa ni kutafuta IP Address ya node yako
 Nambari ndogo zaidi inayowezekana ni 2 (0 inamaanisha kifaa chochote, na 1 ni ya kipanga njia) na ya juu zaidi, naamini ni 255 (hii hutokea kuwa 11111111 kwa binary, nambari kubwa zaidi iliyoshikiliwa na 1 byte).
 
 
-Moja baada ya nyingine, fanya njia yako kuelekea 255. Hatimaye, utasimama kwenye nambari sahihi inayopakia ukurasa wako wa MyNode (au ukurasa wa RaspiBlitz). Kisha utajua ni nambari gani ya kuingiza katika mipangilio yako ya mtandao wa Electrum ili kuunganisha kwenye nodi yako.
+Moja baada ya nyingine, fanya njia yako kuelekea 255. Hatimaye, utasimama kwenye nambari sahihi inayopakia ukurasa wako wa MyNode (au ukurasa wa RaspiBlitz). Kisha utajua ni nambari gani ya kuingiza katika mipangilio yako ya mtandao wa Electrum ili kuunganisha kwenye node yako.
 
 
 Itaonekana kitu kama hiki (hakikisha unajumuisha koloni na nambari baadaye):
@@ -625,7 +624,7 @@ Itaonekana kitu kama hiki (hakikisha unajumuisha koloni na nambari baadaye):
 ![image](assets/22.webp)
 
 
-**Kumbuka** ni muhimu kujua kwamba anwani hizi za IP ni za NDANI kwa mtandao wako wa nyumbani. Hakuna mtu nje anayeweza kuwaona na sio nyeti. Ni kama viendelezi vya simu katika shirika kubwa linalokuelekeza kwa simu tofauti.
+**Kumbuka** ni muhimu kujua kwamba IP address ni za NDANI kwa mtandao wako wa nyumbani. Hakuna mtu nje anayeweza kuwaona na sio nyeti. Ni kama viendelezi vya simu katika shirika kubwa linalokuelekeza kwa simu tofauti.
 
 
 ## Futa dummy Wallet
@@ -652,7 +651,7 @@ Katika Wallet mpya uliyounda, utaona orodha ya address. Green ndio huitwa "addre
 - Njia ya utokaji
 
 
-Wallet yako mpya ina seti ya anwani za kupokea ambazo zinaweza kuundwa kihisabati na kuzalishwa tena na Software Wallet yoyote ambayo ina seed, passphrase na njia ya utokaji. Kuna bilioni 4.3 kati yao! Zaidi ya utahitaji. Electrum hukuonyesha 20 za kwanza pekee, na kisha zaidi unapotumia zile za kwanza.
+Wallet yako mpya ina seti ya address za kupokea ambazo zinaweza kuundwa kihisabati na kuzalishwa tena na Software Wallet yoyote ambayo ina seed, passphrase na njia ya utokaji. Kuna bilioni 4.3 kati yao! Zaidi ya utahitaji. Electrum hukuonyesha 20 za kwanza pekee, na kisha zaidi unapotumia zile za kwanza.
 
 
 Maelezo zaidi kuhusu funguo za faragha za Bitcoin zinaweza kupatikana katika mwongozo huu.
@@ -661,13 +660,13 @@ Maelezo zaidi kuhusu funguo za faragha za Bitcoin zinaweza kupatikana katika mwo
 ![image](assets/23.webp)
 
 
-Hii ni tofauti sana na pochi zingine ambazo zinawasilisha 1 Address tu kwa wakati mmoja.
+Hii ni tofauti sana na wallets zingine ambazo zinawasilisha 1 Address tu kwa wakati mmoja.
 
 
-Kwa sababu uliingiza maneno ya seed katika kuunda Wallet hii, Electrum ina ufunguo wa faragha kwa kila mojawapo ya address, na matumizi kutoka kwa anwani hizi yanawezekana.
+Kwa sababu uliingiza maneno ya seed katika kuunda Wallet hii, Electrum ina ufunguo wa faragha kwa kila mojawapo ya address, na matumizi kutoka kwa address hizi yanawezekana.
 
 
-Pia kumbuka kuwa kuna anwani za njano, zinazoitwa "address za Exchange" - Hizi ni seti nyingine tu ya address kutoka kwa tawi tofauti la hisabati (nyingine bilioni 4.3 kati ya hizi zipo). Zinatumiwa na Wallet kutuma pesa za ziada kiotomatiki kwenye Wallet kama mabadiliko. Kwa mfano, ikiwa unachukua 1.5 Bitcoin na kutumia 0.5 kwa mfanyabiashara, salio 1.0 inahitaji kwenda mahali fulani. Wallet yako itaitumia kwa mabadiliko yanayofuata ya manjano tupu Address - vinginevyo, inakwenda kwa Miner! Kwa maelezo zaidi kuhusu hii (UTXOs) tazama ![mwongozo huu](https://armantheparman.com/UTXO/).
+Pia kumbuka kuwa kuna address za njano, zinazoitwa "address za Exchange" - Hizi ni seti nyingine tu ya address kutoka kwa tawi tofauti la hisabati (nyingine bilioni 4.3 kati ya hizi zipo). Zinatumiwa na Wallet kutuma pesa za ziada kiotomatiki kwenye Wallet kama mabadiliko. Kwa mfano, ikiwa unachukua 1.5 Bitcoin na kutumia 0.5 kwa mfanyabiashara, salio 1.0 inahitaji kwenda mahali fulani. Wallet yako itaitumia kwa mabadiliko yanayofuata ya manjano tupu Address - vinginevyo, inakwenda kwa Miner! Kwa maelezo zaidi kuhusu hii (UTXOs) tazama ![mwongozo huu](https://armantheparman.com/UTXO/).
 
 
 Kisha, rudi kwenye tovuti ya ufunguo wa kibinafsi wa Ian Colman na uingize seed (badala ya kuzalisha moja). Utaona hapa chini mabadiliko ya ufunguo wa kibinafsi na wa umma; kila kitu hapa chini kinategemea vitu vilivyo hapo juu kwenye ukurasa.
@@ -709,7 +708,7 @@ Ifuatayo, linganisha address. Rudi kwenye tovuti ya Ian Coleman na usogeze hadi 
 ![image](assets/28.webp)
 
 
-Ona kwamba zinalingana na anwani kwenye Electrum.
+Ona kwamba zinalingana na address kwenye Electrum.
 
 
 Sasa tutaangalia address za mabadiliko. Sogeza juu kidogo hadi kwenye njia ya utokaji na ubadilishe 0 ya mwisho kuwa 1:
@@ -718,13 +717,13 @@ Sasa tutaangalia address za mabadiliko. Sogeza juu kidogo hadi kwenye njia ya ut
 ![image](assets/29.webp)
 
 
-Sasa telezesha chini na ulinganishe anwani zinazolingana na address za manjano kwenye Electrum
+Sasa telezesha chini na ulinganishe address zinazolingana na address za manjano kwenye Electrum
 
 
 Kwa nini tulifanya haya yote?
 
 
-Tulichukua maneno ya seed na kuyaweka kupitia programu mbili tofauti huru za programu ili kuhakikisha kuwa yalikuwa yanatupa taarifa sawa. Hii inapunguza kwa kiasi kikubwa hatari kwamba msimbo chafu unanyemelea ndani na kutupa funguo za uwongo za faragha au za umma, au anwani.
+Tulichukua maneno ya seed na kuyaingiza kwenye programu mbili tofauti huru ili kuhakikisha kwamba zinatupa taarifa sawa. Hii inapunguza kwa kiasi kikubwa hatari kwamba msimbo chafu umejificha ndani na kutupatia funguo za uwongo za faragha, za umma, au address zisizo sahihi.
 
 
 Kitu kinachofuata cha kufanya ni kupokea mtihani mdogo na kuutumia ndani ya Wallet kutoka Address hadi nyingine.
@@ -733,7 +732,7 @@ Kitu kinachofuata cha kufanya ni kupokea mtihani mdogo na kuutumia ndani ya Wall
 ## Kujaribu Wallet (Jifunze kuitumia)
 
 
-Hapa nitakuonyesha jinsi ya kupokea UTXO kwa Wallet yako na kisha kuisogeza (kuitumia) hadi Address nyingine ndani ya Wallet. Hii ni kiasi kidogo sana ambacho hatutajali kuhatarisha kupoteza.
+Hapa nitakuonyesha jinsi ya kupokea UTXO kwenye wallet yako na kisha kuisogeza (kuitumia) hadi address nyingine ndani ya wallet hiyo. Kiasi hiki ni kidogo sana, hivyo hatutajali hatari ya kupoteza.
 
 
 Hii ina malengo kadhaa.
@@ -742,10 +741,10 @@ Hii ina malengo kadhaa.
 
 - Itathibitisha kuwa una uwezo wa kutumia sarafu katika Wallet mpya.
 - Itaonyesha jinsi ya kutumia programu ya Electrum kupata matumizi (na baadhi ya vipengele), kabla hatujaongeza utata zaidi kwa usalama (kwa kutumia Hardware Wallet au kompyuta iliyo na nafasi hewa)
-- Itaimarisha wazo kwamba una anwani nyingi za kuchagua kupokea na kutumia, ndani ya Wallet sawa.
+- Itaimarisha wazo kwamba una address nyingi za kuchagua kupokea na kutumia, ndani ya Wallet sawa.
 
 
-Fungua jaribio lako la Electrum Wallet na ubofye kichupo cha Anwani, kisha ubofye-kulia Address ya kwanza na uchague Copy -> Address:
+Fungua jaribio lako la Electrum Wallet na ubofye kichupo cha address, kisha ubofye-kulia Address ya kwanza na uchague Copy -> Address:
 
 
 ![image](assets/30.webp)
@@ -754,7 +753,7 @@ Fungua jaribio lako la Electrum Wallet na ubofye kichupo cha Anwani, kisha ubofy
 Address sasa iko kwenye kumbukumbu ya kompyuta yako.
 
 
-Sasa nenda kwa Exchange ambapo unayo Bitcoin, na hebu tutoe kiasi kidogo kwa Address hii, sema 50,000 Sats. Nitatumia Coinbase kama mfano kwa sababu ndiyo Exchange inayotumiwa sana, ingawa ni adui wa Bitcoin, na ninachukizwa kuingia katika akaunti ya zamani iliyoachwa kwa kusudi hili.
+Sasa nenda kwenye Exchange ambako unayo Bitcoin, kisha tuma kiasi kidogo kwenye Address hii, tuseme 50,000 Sats. Nitatumia Coinbase kama mfano kwa sababu ndiyo Exchange inayotumiwa sana, ingawa ni adui wa Bitcoin, na ninachukizwa kuingia kwenye akaunti yangu ya zamani niliyoiacha kwa kusudi hili.
 
 
 Ingia, na ubofye kitufe cha Tuma/Pokea, ambacho hadi leo kiko kwenye kona ya juu kulia ya ukurasa wa tovuti.
@@ -775,7 +774,7 @@ Kulingana na Exchange, unaweza kuona Sats kwenye Wallet yako mara moja, au manun
 Kumbuka kwamba Electrum itakuonyesha sarafu ulizopokea hata kama hazijathibitishwa kwenye Blockchain. Sarafu ulizo nazo zinasomwa kutoka kwa orodha ya wanaongoja ya Bitcoin Node, au "Mempool". Ikifika kwenye block, utaona pesa kama zimethibitishwa.
 
 
-Sasa kwa kuwa tuna UTXO katika Wallet yetu, tunapaswa kuiweka lebo. Ni sisi tu tunaweza kuona lebo hii, haina uhusiano wowote na Ledger ya umma. Lebo zetu zote za Electrum zinaonekana tu kwenye kompyuta tunayotumia. Kwa kweli tunaweza kuhifadhi faili na kuitumia kurejesha lebo zetu zote kwenye kompyuta tofauti inayotumia Wallet sawa.
+Sasa, kwa kuwa tuna UTXO ndani ya wallet yetu, tunapaswa kuiweka lebo. Ni sisi tu tunaoweza kuona lebo hii, na haina uhusiano wowote na ledger ya umma. Lebo zetu zote za Electrum zinaonekana tu kwenye kompyuta tunayotumia. Kwa kweli, tunaweza kuhifadhi faili na kuitumia kurejesha lebo zetu zote kwenye kompyuta nyingine inayotumia wallet sawa.
 
 
 ### Tengeneza lebo ya UTXO
@@ -814,7 +813,7 @@ Ifuatayo, hebu tutumie sarafu kutoka address ya kwanza hadi address ya pili. Bof
 Ukishafanya hivyo, kutakuwa na upau wa green chini ya window ya Wallet unaoonyesha idadi ya sarafu ulizochagua na jumla inayopatikana kwa matumizi.
 
 
-Unaweza pia kutumia sarafu za kibinafsi ndani ya address na kuacha zingine kwenye address hiyo hiyo, lakini hili halishauriwi kwa sababu unaacha sarafu kwenye address ambayo tayari imeathirika kwa siri kutokana na matumizi ya moja ya sarafu hizo (sababu nyingine ya kutoweka sarafu nyingi kwenye address moja, kando na masuala ya faragha, ni kwamba ukiitumia, inakuwa na gharama zisizo za lazima). Hivi ndivyo jinsi ya kuchagua sarafu moja kutoka kwenye address iliyoshirikiwa, lakini usifanye hivyo:
+Unaweza pia kutumia sarafu za kibinafsi ndani ya address na kuacha zingine kwenye address hiyo hiyo, lakini hili halipendekezwi kwa sababu unaacha sarafu ndani ya address ambayo tayari imeathiriwa kwa siri kutokana na matumizi ya moja ya sarafu hizo. Sababu nyingine ya kutoweka sarafu nyingi kwenye address moja, mbali na masuala ya faragha, ni kwamba ukiitumia, inasababisha gharama zisizo za lazima. Hivi ndivyo unavyoweza kuchagua sarafu moja kutoka kwenye address iliyoshirikiwa, lakini usifanye hivyo:
 
 
 ![image](assets/37.webp)
@@ -838,7 +837,7 @@ Bofya "Advanced" kila wakati katika hatua hii ili tuweze kupata udhibiti mzuri n
 ![image](assets/40.webp)
 
 
-Tunaona sanduku mbili za ndani nyeupe / madirisha. Ya juu ni dirisha la pembejeo (ambalo sarafu zinatumika), na ya chini ni matokeo (ambapo sarafu zinakwenda).
+Tunaona sanduku mbili za ndani nyeupe / windows . Ya juu ni dirisha la pembejeo (ambalo sarafu zinatumika), na ya chini ni matokeo (ambapo sarafu zinakwenda).
 
 
 Kumbuka, hali (juu kushoto) "haijatiwa saini" kwa sasa. "Kiasi kilichotumwa" ni 0 kwa sababu sarafu zinahamishwa ndani ya Wallet. Ada ni 481 Sats. Kumbuka kwamba ikiwa ilikuwa 480 Sats, zero ya mwisho ingeshushwa, kama hii, 0.0000048 na kwa jicho la uchovu, hii inaweza kuonekana kama 48 Sats - kuwa makini (kitu cha Electrum devs kinapaswa kurekebisha).
@@ -847,7 +846,7 @@ Kumbuka, hali (juu kushoto) "haijatiwa saini" kwa sasa. "Kiasi kilichotumwa" ni 
 Ukubwa wa muamala unarejelea saizi ya data katika baiti, si kiasi cha Bitcoin. "Replace by fee" imewashwa kwa chaguo-msingi, na hukuruhusu kutuma tena muamala kwa ada ya juu ikiwa inahitajika. LockTime hukuruhusu kurekebisha wakati muamala ni halali - bado sijacheza nayo, lakini nakushauri dhidi ya kuitumia isipokuwa unaelewa kikamilifu unachofanya na umefanya mazoezi kwa kiasi kidogo.
 
 
-Chini, tuna zana za kurekebisha ada za Mining. Unachohitaji kufanya kwa uhamishaji wa ndani ni kuweka kwa ada ya chini ya 1 sat/byte. Charaza tu nambari hiyo mwenyewe katika sehemu ya ada inayolengwa. Ili kuangalia ada inayofaa kwa malipo ya nje, unaweza kushauriana na https://Mempool.space ili kuona jinsi Mempool ilivyo na shughuli nyingi, na baadhi ya ada zinazopendekezwa huonyeshwa.
+Chini, tuna zana za kurekebisha ada za Mining. Unachohitaji kufanya kwa uhamishaji wa ndani ni kuweka kwa ada ya chini ya 1 sat/byte. Charaza tu nambari hiyo mwenyewe katika sehemu ya ada inayolengwa. Ili kuangalia ada inayofaa kwa malipo ya nje, unaweza kushauriana na https://Mempool.space ili kuona jinsi Mempool ilivyo na miamala mingi, na baadhi ya ada zinazopendekezwa huonyeshwa.
 
 
 ![image](assets/41.webp)
@@ -859,19 +858,19 @@ Nimechagua 1 sat/byte.
 Katika dirisha la pembejeo, tunaona entries mbili. Ya kwanza ni mchango wa 5000. Upande wa kushoto tunaona transaction hash yake (ambayo tunaweza kuangalia kwenye blockchain). Karibu nayo, kuna "21" – hii inaonyesha kwamba ni output ya 21 katika transaction hiyo (kwa kweli ni output ya 22 kwa sababu ile ya kwanza inahesabiwa kama sifuri).
 
 
-Jambo la kuzingatia hapa: UTXOs zipo ndani ya shughuli pekee. Ili kutumia UTXO inabidi tuirejelee, na kuweka rejeleo hilo katika ingizo la muamala mpya. Matokeo basi huwa UTXO mpya na ya zamani ya UTXO inakuwa STXO (Imetumika pato la muamala).
+Jambo la kuzingatia hapa: UTXOs zipo ndani ya miamala pekee. Ili kutumia UTXO inabidi tuirejelee, na kuweka rejeleo hilo katika ingizo la muamala mpya. Matokeo basi huwa UTXO mpya na ya zamani ya UTXO inakuwa STXO (Imetumika pato la muamala).
 
 
 Mstari wa pili ni mchango wa sat 10,000. Ina "0" karibu na muamala wa Hash ambayo ilitoka kwa sababu ndiyo pato la kwanza (na ikiwezekana pekee) kwa muamala huo.
 
 
-Katika dirisha la chini, tunaona Address yetu. Angalia jumla ya Bitcoin ya pembejeo hailingani kabisa na jumla ya matokeo. Tofauti huenda kwa Miner. Miner inaangalia utofauti katika shughuli zote kwenye block inayojaribu kuchimba, na kuongeza nambari hiyo kwa malipo yake. (Ada za Mining kwa njia hii haziunganishwa kabisa kutoka kwa mlolongo wa miamala na kuanza maisha mapya).
+Katika dirisha la chini, tunaona Address yetu. Angalia jumla ya Bitcoin ya pembejeo hailingani kabisa na jumla ya matokeo. Tofauti huenda kwa Miner. Miner inaangalia utofauti katika miamala yote kwenye block inayojaribu mining, na kuongeza nambari hiyo kwa malipo yake. (Ada za Mining kwa njia hii haziunganishwa kabisa kutoka kwa mlolongo wa miamala na kuanza maisha mapya).
 
 
 Ikiwa tutarekebisha ada ya Mining, thamani ya pato itabadilika kiotomatiki.
 
 
-**Inafaa kuashiria hapa:** kumbuka rangi ya anwani kwenye dirisha la muamala. Kumbuka kwamba anwani za Green zimeorodheshwa kwenye kichupo chako cha Address. Ikiwa Address imeangaziwa Green (au njano) katika dirisha la shughuli, basi Electrum imetambua Address kama mojawapo yake. Ikiwa Address haina mwangaza, basi ni Address ya nje (ya nje kwa Wallet iliyofunguliwa sasa), na unapaswa kukiangalia kwa uangalifu zaidi.
+**Inafaa kuashiria hapa:** kumbuka rangi ya address kwenye dirisha la muamala. Kumbuka kwamba address za Green zimeorodheshwa kwenye kichupo chako cha Address. Ikiwa Address imeangaziwa Green (au njano) katika dirisha la muamala, basi Electrum imetambua Address kama mojawapo yake. Ikiwa Address haina mwangaza, basi ni Address ya nje (ya nje kwa Wallet iliyofunguliwa sasa), na unapaswa kukiangalia kwa uangalifu zaidi.
 
 
 Mara tu unapoangalia kila kitu katika muamala na una uhakika kuwa umefurahishwa na sarafu unazotumia, na sarafu zinakwenda wapi, unaweza kubofya "kamilisha."
@@ -889,7 +888,7 @@ Mara baada ya kubofya ishara, ikiwa una nenosiri la Wallet utaulizwa kwa hilo, n
 Baada ya kutangaza, unaweza kufunga windows ya muamala. Ikiwa unakwenda kwenye kichupo cha Address, sasa utaona Address ya kwanza ni tupu, na Address ya pili ina 1 UTXO.
 
 
-Kumbuka: Utaona mabadiliko haya yote hata kabla muamala haujawekwa kizuizi, au "kuthibitishwa". Hii ni kwa sababu Electrum husasisha mizani/shughuli kulingana na si data ya Blockchain tu, bali data ya Mempool pia. Sio pochi zote hufanya hivi.
+Kumbuka: Utaona mabadiliko haya yote hata kabla muamala haujawekwa kizuizi, au "kuthibitishwa". Hii ni kwa sababu Electrum husasisha mizani/muamala kulingana na si data ya Blockchain tu, bali data ya Mempool pia. Sio wallets zote hufanya hivi.
 
 
 Jambo la kuashiria ni kwamba badala ya kutangaza, tunaweza kuhifadhi muamala kwa ajili ya baadaye. Inaweza kuhifadhiwa katika majimbo ambayo hayajatiwa saini au yaliyotiwa saini.
@@ -919,7 +918,7 @@ Hii itapakia kamera ya kompyuta yako. Kisha utaonyesha kamera picha ya msimbo wa
 Sio angavu jinsi ya kupakia miamala iliyohifadhiwa, kwa hivyo zingatia maalum. Kupakia muamala sio "zana" lakini chaguo limefichwa kwenye menyu ya zana (jambo lingine ambalo Electrum devs inapaswa kurekebisha).
 
 
-Mchakato kama huo unawezekana kwa muamala iliohifadhiwa kama faili. Jaribu kufanya mazoezi kwa kutumia mbinu yoyote ile, ndani ya Wallet sawa. Sitaipitia hapa lakini unaweza kutumia kipengele hiki kupitisha shughuli kati ya Wallet sawa kwenye kompyuta tofauti, kati ya pochi zenye saini nyingi, na kwenda na kutoka kwa pochi za maunzi. Hapa kuna baadhi ya maagizo.
+Mchakato kama huo unawezekana kwa muamala iliohifadhiwa kama faili. Jaribu kufanya mazoezi kwa kutumia mbinu yoyote ile, ndani ya Wallet sawa. Sitaipitia hapa lakini unaweza kutumia kipengele hiki kupitisha muamala kati ya Wallet sawa kwenye kompyuta tofauti, kati ya wallets zenye saini nyingi, na kwenda na kutoka kwa hardware wallet. Hapa kuna baadhi ya maagizo.
 
 
 Sasa, kurudi kwenye kitufe cha "save" – hii si njia ya kuhifadhi maandishi ya transaction. Kile hasa kinachofanyika ni kuwaambia Electrum Wallet kutambua transaction hii kwenye kompyuta ya ndani kama malipo yaliyopokelewa. Ukifanya hivyo kwa bahati mbaya, utaona transaction hiyo ikiwa na ikoni ndogo ya kompyuta. Unaweza kubofya-kulia na kuifuta transaction – usijali, huwezi kufuta Bitcoin kwa njia hii. Electrum kisha itasahau kwamba transaction hii iliwahi kutokea, na “itarejesha” Sats na kuonyesha kiasi cha Sats kwenye sehemu sahihi kilipo.
@@ -928,16 +927,16 @@ Sasa, kurudi kwenye kitufe cha "save" – hii si njia ya kuhifadhi maandishi ya 
 ### Badilisha address 
 
 
-Badilisha anwani inavutia. Unahitaji kuelewa UTXO ili kuelewa maelezo haya. Ikiwa unatumia Address kiasi ambacho ni kidogo kuliko UTXO, basi Bitcoin iliyobaki itaenda kwa Miner isipokuwa pato la mabadiliko limebainishwa.
+Badilisha address inavutia. Unahitaji kuelewa UTXO ili kuelewa maelezo haya. Ikiwa unatumia Address kiasi ambacho ni kidogo kuliko UTXO, basi Bitcoin iliyobaki itaenda kwa Miner isipokuwa pato la mabadiliko limebainishwa.
 
 
-Unaweza kuwa na 6.15 Bitcoin UTXO na unataka kutumia 0.15 Bitcoin kuchangia baadhi ya waandamanaji wanaokandamizwa na serikali dhalimu ya "kidemokrasia" mahali fulani ulimwenguni. Kisha utachukua 6.15 Bitcoin (kwa kutumia chaguo la "kutumia kutoka" katika Electrum), na kuiweka katika shughuli.
+Unaweza kuwa na 6.15 Bitcoin UTXO na unataka kutumia 0.15 Bitcoin kuchangia baadhi ya waandamanaji wanaokandamizwa na serikali dhalimu ya "kidemokrasia" mahali fulani ulimwenguni. Kisha utachukua 6.15 Bitcoin (kwa kutumia chaguo la "kutumia kutoka" katika Electrum), na kuiweka katika muamala.
 
 
 Ungebandika Address ya waandamanaji kwenye sehemu ya "lipia", labda ungeweka "EndTheFed & WEF" katika sehemu ya "maelezo", na kwa kiasi hicho, utaweka 0.15 Bitcoin na ubofye "lipa", kisha "advanced".
 
 
-Katika skrini ya transaction, kwenye dirisha la pembejeo, utaona 6.15 Bitcoin UTXO. Kwenye dirisha la matokeo (outputs), utaona address isiyo na alama yoyote (hii ni address ya mpokeaji) ikiwa na 0.15 Bitcoin kando yake. Pia utaona address ya manjano yenye kiasi kidogo chini ya 6.0 Bitcoin. Hii ni change address iliyochaguliwa kiotomatiki na wallet kutoka kwa mojawapo ya anwani zake za mabadiliko ya manjano.Madhumuni ya change address ni kuruhusu wallet kuhifadhi sarafu za mabadiliko ndani yake bila kuharibu matumizi ya receiving addresses ambazo unaweza kuwa na mipango ya kuzitumia, au kutuma invoices zake. Ikiwa receiving addresses hizi zitatumiwa baadaye na wateja, hutaki wallet yako izitumie kiotomatiki na kuzijaza. Hilo ni fujo na pia ni baya kwa faragha.
+Katika skrini ya transaction, kwenye dirisha la pembejeo, utaona 6.15 Bitcoin UTXO. Kwenye dirisha la matokeo (outputs), utaona address isiyo na alama yoyote (hii ni address ya mpokeaji) ikiwa na 0.15 Bitcoin kando yake. Pia utaona address ya manjano yenye kiasi kidogo chini ya 6.0 Bitcoin. Hii ni change address iliyochaguliwa kiotomatiki na wallet kutoka kwa mojawapo ya address zake za mabadiliko ya manjano.Madhumuni ya change address ni kuruhusu wallet kuhifadhi sarafu za mabadiliko ndani yake bila kuharibu matumizi ya receiving addresses ambazo unaweza kuwa na mipango ya kuzitumia, au kutuma invoices zake. Ikiwa receiving addresses hizi zitatumiwa baadaye na wateja, hutaki wallet yako izitumie kiotomatiki na kuzijaza. Hilo ni fujo na pia ni baya kwa faragha.
 
 
 Kumbuka kwamba unaporekebisha ada ya Mining, kiasi cha pato la mabadiliko kitarekebishwa kiotomatiki, si kiasi cha malipo.
@@ -958,7 +957,7 @@ Kisha unaweza kuingiza maeneo mengi kwa salio la UTXO unalotumia, kama hii:
 ![image](assets/47.webp)
 
 
-Bandika Address, andika kwa koma, kisha nafasi, kisha kiasi, kisha <enter>, kisha uifanye tena. USIWEKE KIASI KATIKA MADIRISHA YA “KIASI” – Electrum itajaza jumla hapa unapoandika kiasi mahususi kwenye dirisha la “Lipa”.
+Bandika Address, andika kwa koma, kisha nafasi, kisha kiasi, kisha <enter>, kisha uifanye tena. USIWEKE KIASI KATIKA WINDOWS  YA “KIASI” – Electrum itajaza jumla hapa unapoandika kiasi mahususi kwenye dirisha la “Lipa”.
 
 
 Hii hukuruhusu kuamua mwenyewe mahali mabadiliko yanaenda (km Address mahususi katika Wallet yako, au Wallet nyingine), au unaweza kulipa watu wengi mara moja. Ikiwa jumla yako haitoshi kulingana na ukubwa wa UTXO, Electrum bado itakuundia mabadiliko ya ziada.
@@ -974,11 +973,11 @@ Ninataka kuonyesha Wallet ya Kutazama Pekee kwa kutumia Electrum. Ili kufanya hi
 
 
 
-- Aina A, "Wallet" - inarejelea programu inayokuonyesha anwani na salio lako, kwa mfano Electrum, Blue Wallet, Sparrow Wallet n.k.
+- Aina A, "Wallet" - inarejelea programu inayokuonyesha address na salio lako, kwa mfano Electrum, Blue Wallet, Sparrow Wallet n.k.
 
 
 
-- Aina B, "Wallet" - inarejelea mkusanyiko wa kipekee wa anwani unaohusishwa na mchanganyiko wa seed_phrase/passphrase/derivation_path. Kuna Wallet bilioni 8.6 katika Wallet yoyote (anwani bilioni 4.3 zinazopokea, na anwani bilioni 4.3 za mabadiliko). Ukibadilisha chochote katika maneno ya seed, passphrase, au njia ya utokaji, utapata Wallet ambayo haijatumiwa na anwani mpya, na zote za kipekee, bilioni 8.6 tupu.
+- Aina B, "Wallet" - inarejelea mkusanyiko wa kipekee wa address unaohusishwa na mchanganyiko wa seed_phrase/passphrase/derivation_path. Kuna Wallet bilioni 8.6 katika Wallet yoyote (address bilioni 4.3 zinazopokea, na address bilioni 4.3 za mabadiliko). Ukibadilisha chochote katika maneno ya seed, passphrase, au njia ya utokaji, utapata Wallet ambayo haijatumiwa na address mpya, na zote za kipekee, bilioni 8.6 tupu.
 
 
 Ni aina gani ambayo mtu yeyote anarejelea anapotumia neno "Wallet" ni dhahiri katika muktadha.
@@ -1039,7 +1038,7 @@ Vifunguo vilivyopanuliwa vya faragha na vya umma viko hapa chini, na hubadilika 
 Pia utaona funguo za "BIP32 zilizopanuliwa za faragha/umma" - hizi zinapaswa kupuuzwa kwa sasa.
 
 
-Ufunguo wa faragha uliopanuliwa wa Akaunti unaweza kutumika kutengeneza upya Wallet yako kikamilifu. Akaunti iliyopanuliwa ya ufunguo wa umma, hata hivyo, inaweza tu kuzalisha toleo ndogo la Wallet sawa (kuangalia Wallet) - Ikiwa utaweka ufunguo huu kwenye Electrum, bado itazalisha anwani zote za bilioni 8.6 ambazo seed au ufunguo wa kibinafsi uliopanuliwa ungekuwa, lakini hakutakuwa na funguo za kibinafsi zinazopatikana kwa Electrum, kwa hiyo hakuna matumizi iwezekanavyo. Wacha tuifanye sasa ili kuonyesha hoja:
+Ufunguo wa faragha uliopanuliwa wa Akaunti unaweza kutumika kutengeneza upya Wallet yako kikamilifu. Akaunti iliyopanuliwa ya ufunguo wa umma, hata hivyo, inaweza tu kuzalisha toleo ndogo la Wallet sawa (kuangalia Wallet) - Ikiwa utaweka ufunguo huu kwenye Electrum, bado itazalisha address zote za bilioni 8.6 ambazo seed au ufunguo wa kibinafsi uliopanuliwa ungekuwa, lakini hakutakuwa na funguo za kibinafsi zinazopatikana kwa Electrum, kwa hiyo hakuna matumizi iwezekanavyo. Wacha tuifanye sasa ili kuonyesha hoja:
 
 
 Nakili "ufunguo wa umma uliopanuliwa wa akaunti" kwenye ubao wa kunakili.
@@ -1057,7 +1056,7 @@ Kisha nenda kwa Electrum, acha Wallet ya sasa tuliyoifungua, na uende kwenye fai
 - Hakuna haja ya kuongeza nenosiri (kufuli Wallet)
 
 
-Wakati Wallet inapakia, unapaswa kutambua kwamba anwani sawa zimepakiwa kama hapo awali wakati seed iliingizwa. Unapaswa pia kuona juu kabisa kwenye upau wa kichwa, inasema "kutazama Wallet". Wallet hii inaweza kukuonyesha anwani zako, na salio (kwa kuangalia salio kupitia nodi), lakini huwezi KUSAINI miamala (kwa sababu Wallet ya kutazama haina funguo za faragha).
+Wakati Wallet inapakia, unapaswa kutambua kwamba address sawa zimepakiwa kama hapo awali wakati seed iliingizwa. Unapaswa pia kuona juu kabisa kwenye upau wa kichwa, inasema "kutazama Wallet". Wallet hii inaweza kukuonyesha address zako, na salio (kwa kuangalia salio kupitia node), lakini huwezi KUSAINI miamala (kwa sababu Wallet ya kutazama haina funguo za faragha).
 
 
 Kisha ni nini maana yake?
@@ -1069,31 +1068,31 @@ Sababu moja, na sio kuu, ni kwamba unaweza kutazama Wallet yako na salio lake kw
 Nyingine ni kwamba INAHITAJIKA ili kufanya malipo ikiwa utachagua kuweka funguo zako za faragha mbali na kompyuta; Nitaelezea:
 
 
-**Pochi za maunzi (HWW)** ziliundwa ili kifaa kiweze kushikilia funguo zako za faragha kwa usalama (zilizofungwa kwa PIN), kamwe zisionyeshe funguo za kompyuta (hata zinapounganishwa kwenye kompyuta kupitia kebo), na zenyewe haziwezi kuunganishwa kwenye intaneti. Kifaa kama hicho hakiwezi kufanya shughuli peke yake kwa sababu miamala yote ya Bitcoin huanza kwa kurejelea UTXO(s) kwenye Blockchain (ambayo iko kwenye nodi). Wallet lazima ibainishe transaction ID UTXO iko ndani, na ni pato gani la muamala ndilo litakalotumika. Ni baada tu ya kubainisha ingizo ndipo muamala mpya unaweza kuundwa kwanza, achilia mbali kusainiwa. Pochi za vifaa haziwezi kuunda shughuli kwa sababu hazina ufikiaji wa UTXO yoyote - hazijaunganishwa na chochote!
+**Hardware wallet (HWW)** ziliundwa ili kifaa kiweze kushikilia funguo zako za faragha kwa usalama (zilizofungwa kwa PIN), kamwe zisionyeshe funguo za kompyuta (hata zinapounganishwa kwenye kompyuta kupitia kebo), na zenyewe haziwezi kuunganishwa kwenye intaneti. Kifaa kama hicho hakiwezi kufanya muamala peke yake kwa sababu miamala yote ya Bitcoin huanza kwa kurejelea UTXO(s) kwenye Blockchain (ambayo iko kwenye node). Wallet lazima ibainishe transaction ID UTXO iko ndani, na ni pato gani la muamala ndilo litakalotumika. Ni baada tu ya kubainisha ingizo ndipo muamala mpya unaweza kuundwa kwanza, achilia mbali kusainiwa. Hardware wallets haziwezi kuunda miamala kwa sababu hazina ufikiaji wa UTXO yoyote - hazijaunganishwa na chochote!
 
 
-Ufunguo uliopanuliwa wa umma kwa kawaida hutolewa kutoka kwa HWW, na anwani huonyeshwa kwenye kompyuta - watu wengi watafahamu programu ya Ledger au Trezor Suite inayoonyesha anwani na salio kwenye kompyuta zao - hii ni Wallet ya kutazama. Programu hizi zinaweza kuunda miamala, lakini haziwezi kutia saini. Wanaweza tu kuwa na miamala iliyotiwa saini na HWWs ambayo imeunganishwa kwao. HWW inachukua muamala mpya kutoka kwa Wallet ya kutazama, kuitia saini, na kisha kuirejesha kwenye kompyuta kwa ajili ya kutangaza kwenye nodi. **HWW haiwezi kujitangaza yenyewe**, utazamaji wake unaohusishwa na Wallet hufanya hivyo. Kwa njia hii, pochi hizo mbili (ufunguo wa umma wa Wallet kwenye kompyuta, na ufunguo wa kibinafsi wa Wallet katika HWW) hushirikiana na generate, kusaini na kutangaza, wakati wote huo huo kuhakikisha funguo za faragha zimetengwa na mbali na kifaa kilichounganishwa kwenye mtandao.
+Ufunguo uliopanuliwa wa umma kwa kawaida hutolewa kutoka kwa HWW, na address huonyeshwa kwenye kompyuta - watu wengi watafahamu programu ya Ledger au Trezor Suite inayoonyesha address na salio kwenye kompyuta zao - hii ni Wallet ya kutazama. Programu hizi zinaweza kuunda miamala, lakini haziwezi kutia saini. Wanaweza tu kuwa na miamala iliyotiwa saini na HWWs ambayo imeunganishwa kwao. HWW inachukua muamala mpya kutoka kwa Wallet ya kutazama, kuitia saini, na kisha kuirejesha kwenye kompyuta kwa ajili ya kutangaza kwenye node. **HWW haiwezi kujitangaza yenyewe**, utazamaji wake unaohusishwa na Wallet hufanya hivyo. Kwa njia hii, wallets hizo mbili (ufunguo wa umma wa Wallet kwenye kompyuta, na ufunguo wa kibinafsi wa Wallet katika HWW) hushirikiana na generate, kusaini na kutangaza, wakati wote huo huo kuhakikisha funguo za faragha zimetengwa na mbali na kifaa kilichounganishwa kwenye mtandao.
 
 
-## Shughuli za Bitcoin (PSBTs) Zilizosainiwa Kiasi
+## Partially Signed Bitcoin Transactions (PSBTs) Zilizosainiwa Kiasi
 
 
-Inawezekana kwa shughuli kuundwa na kuhifadhiwa kwa faili, baadaye kupakiwa, kusainiwa, kuhifadhiwa, baadaye kupakiwa, na hatimaye kutangazwa - sisemi mtu yeyote atahitaji kufanya hivi; ni kitu tu kinachowezekana.
+Inawezekana kwa muamala kuundwa na kuhifadhiwa kwa faili, baadaye kupakiwa, kusainiwa, kuhifadhiwa, baadaye kupakiwa, na hatimaye kutangazwa - sisemi mtu yeyote atahitaji kufanya hivi; ni kitu tu kinachowezekana.
 
 
 Sasa zingatia 3 kati ya 5 za saini nyingi za Wallet - funguo 5 za faragha kuunda Wallet, na 3 zinahitajika ili kutia sahihi kabisa muamala (Tazama hapa ili kupata maelezo zaidi kuhusu funguo nyingi za Wallet). Inawezekana kuwa na kompyuta 5 tofauti kila moja ikiwa na funguo tano za kibinafsi.
 
 
-Kompyuta moja inaweza generate muamala na kutia sahihi. Kisha inaweza kuihifadhi kwenye faili, na kuituma kwa barua pepe kwa Kompyuta 2. Kompyuta 2 inaweza kisha kutia sahihi, na inaweza kuhifadhi faili kwenye msimbo wa QR, na kusambaza QR kupitia simu ya Zoom hadi Kompyuta 3 katika upande mwingine wa dunia. Kompyuta 3 inaweza kunasa QR, kupakia muamala kwenye elektroni, na kutia sahihi muamala. Baada ya saini 2 za kwanza, shughuli hiyo ilikuwa PSBT (Partially Signed Bitcoin Transaction). Baada ya saini ya 3, shughuli hiyo ilitiwa saini kikamilifu na halali, tayari kwa utangazaji.
+Kompyuta moja inaweza generate muamala na kutia sahihi. Kisha inaweza kuihifadhi kwenye faili, na kuituma kwa barua pepe kwa Kompyuta 2. Kompyuta 2 inaweza kisha kutia sahihi, na inaweza kuhifadhi faili kwenye msimbo wa QR, na kusambaza QR kupitia simu ya Zoom hadi Kompyuta 3 katika upande mwingine wa dunia. Kompyuta 3 inaweza kunasa QR, kupakia muamala kwenye elektroni, na kutia sahihi muamala. Baada ya saini 2 za kwanza, muamala hiyo ilikuwa PSBT (Partially Signed Bitcoin Transaction). Baada ya saini ya 3, muamala huo ulitiwa saini kikamilifu na halali, tayari kwa utangazaji.
 
 
 Ili kujifunza zaidi kuhusu PSBTS, angalia mwongozo huu. (https://armantheparman.com/PSBT/)
 
 
-## Kutumia Pochi za Vifaa na Electrum
+## Kutumia Hardware wallets na Electrum
 
 
-Nina mwongozo wa kutumia pochi za vifaa kwa ujumla, ambayo nadhani itakuwa muhimu kwa watu ambao ni wapya kwa HWWs, kusoma. ( https://armantheparman.com/using-hwws/ )
+Nina mwongozo wa kutumia hardware wallets kwa ujumla, ambayo nadhani itakuwa muhimu kwa watu ambao ni wapya kwa HWWs, kusoma. ( https://armantheparman.com/using-hwws/ )
 
 
 Pia kuna miongozo ya chapa mbalimbali za HWW zinazounganishwa na Sparrow Bitcoin Wallet zinazopatikana hapa. (https://armantheparman.com/hwws/)
@@ -1204,7 +1203,7 @@ Ifuatayo, unda Wallet mpya:
 
 
 - Kiwango cha Wallet
-- Tumia kifaa cha maunzi
+- Tumia hardware device
 - Itachanganua na kugundua ColdCard yako. Endelea.
 - Chagua semantiki ya hati na njia ya unyambulishaji
 - Amua ikiwa faili ya Wallet inapaswa kusimbwa (inapendekezwa)
@@ -1219,10 +1218,10 @@ Kwa cable kushikamana, shughuli ni rahisi. Shughuli za kutia saini hazitafumwa.
 Ikiwa unatumia kifaa kwa njia isiyo na hewa, lazima upitishe muamala uliohifadhiwa kati ya vifaa kwa kutumia kadi ya microSD. Kuna baadhi ya mbinu.
 
 
-Baada ya kuunda shughuli na kuikamilisha, unahitaji kubofya kitufe cha kuuza nje kwenye kona ya chini kushoto. Utaona "hifadhi kwenye faili" ambayo kinyume chake, sio tunayotaka. Kwa kweli lazima kwanza uende kwenye chaguo la mwisho kabisa la menyu ambalo linasema "kwa pochi za vifaa", na kisha, kutoka ndani ya uteuzi huo, pata nyingine "hifadhi kwenye faili" na uchague hiyo. Kisha uhifadhi faili kwenye microSD, toa kadi na kuiweka kwenye ColdCard. Kumbuka kwamba unaweza kuhitaji kutumia passphrase ili kuchagua Wallet sahihi. Skrini itasema tayari kusaini. Bofya alama ya kuangalia, kagua muamala, na uendelee kwa kuthibitisha kwa alama ya kuangalia. Baada ya kumaliza, toa kadi na uirudishe kwenye kompyuta.
+Baada ya kuunda muamala na kuukamilisha, unahitaji kubofya kitufe cha kuuza nje kilicho kona ya chini kushoto. Utaona chaguo la "hifadhi kwenye faili," ambalo kwa kawaida si tunalotaka. Kwanza, lazima uende kwenye chaguo la mwisho kabisa kwenye menyu ambalo linasema "kwa hardware wallets," kisha kutoka hapo chagua "hifadhi kwenye faili." Hifadhi faili hilo kwenye microSD, toa kadi na uiweke kwenye ColdCard. Kumbuka unaweza kuhitaji kutumia passphrase kuchagua wallet sahihi. Skrini itakuambia uko tayari kusaini. Bofya alama ya kuangalia, kagua muamala, na uendelee kwa kuthibitisha kwa kubofya tena alama ya kuangalia. Baada ya kumaliza, toa kadi na uirudishe kwenye kompyuta.
 
 
-Kisha tunahitaji kufungua shughuli kwa kutumia electrum. Kazi imefichwa kwenye zana za menyu -> shughuli ya kupakia. Nenda kwenye mfumo wa faili na upate faili. Kutakuwa na faili tatu kila wakati unaposaini. Faili ya awali iliyohifadhiwa ambayo Kuangalia Wallet ilifanya, na mbili zilizofanywa na ColdCard (sijui kwa nini hufanya hivyo). Mmoja atasema "aliyesainiwa" na mwingine atasema "mwisho". Sio angavu lakini ile "iliyosainiwa" haifai, tunahitaji kufungua shughuli ya "mwisho".
+Kisha tunahitaji kufungua muamala kwa kutumia electrum. Kazi imefichwa kwenye zana za menyu -> muamala ya kupakia. Nenda kwenye mfumo wa faili na upate faili. Kutakuwa na faili tatu kila wakati unaposaini. Faili ya awali iliyohifadhiwa ambayo Kuangalia Wallet ilifanya, na mbili zilizofanywa na ColdCard (sijui kwa nini hufanya hivyo). Mmoja atasema "aliyesainiwa" na mwingine atasema "mwisho". Sio angavu lakini ile "iliyosainiwa" haifai, tunahitaji kufungua muamala ya "mwisho".
 
 
 Mara tu unapopakia hiyo, unaweza kubofya "matangazo" na malipo yatafanywa.
@@ -1258,13 +1257,13 @@ Linux:
 ```
 
 
-Kumbuka kuwa `.` kabla ya `electrum` katika Linux na Mac - hiyo inaonyesha kuwa mkurugenzi amefichwa. Pia, kumbuka kuwa saraka hii imeundwa tu (otomatiki) mara tu unapoendesha Electrum kwa mara ya kwanza. Saraka ina faili ya usanidi wa elektroni na pia saraka ambayo inashikilia pochi zozote ambazo umehifadhi.
+Kumbuka kuwa `.` kabla ya `electrum` katika Linux na Mac - hiyo inaonyesha kuwa mkurugenzi amefichwa. Pia, kumbuka kuwa saraka hii imeundwa tu (otomatiki) mara tu unapoendesha Electrum kwa mara ya kwanza. Saraka ina faili ya usanidi wa elektroni na pia saraka ambayo inashikilia wallets zozote ambazo umehifadhi.
 
 
 Ukifuta programu ya Electrum kutoka kwa kompyuta yako, saraka iliyofichwa itasalia, isipokuwa ukiifuta kikamilifu pia.
 
 
-Ili kuboresha electrum, unapitia utaratibu ule ule kama nilivyoeleza mwanzoni kupakua na kuthibitisha. Kisha utakuwa na nakala mbili za programu kwenye kompyuta yako, na unaweza kukimbia ama - kila programu itafikia folda ya elektroni iliyofichwa kwa usanidi wake na upatikanaji wa Wallet. Vitu vyote tulivyohifadhi, kama vile kitengo cha msingi, nodi chaguo-msingi ya kuunganisha, mapendeleo mengine, na ufikiaji wa pochi, vitasalia kwa sababu yote hayo yamehifadhiwa kwenye folda hiyo.
+Ili kuboresha electrum, unapitia utaratibu ule ule kama nilivyoeleza mwanzoni kupakua na kuthibitisha. Kisha utakuwa na nakala mbili za programu kwenye kompyuta yako, na unaweza kukimbia ama - kila programu itafikia folda ya elektroni iliyofichwa kwa usanidi wake na upatikanaji wa Wallet. Vitu vyote tulivyohifadhi, kama vile kitengo cha msingi, node chaguo-msingi ya kuunganisha, mapendeleo mengine, na ufikiaji wa wallets, vitasalia kwa sababu yote hayo yamehifadhiwa kwenye folda hiyo.
 
 
 ### Kuhamisha Electrum na Wallet zako kwenye kompyuta nyingine

@@ -6,4 +6,4 @@ wrong_answers:
   - tcpdump
 explanation: |
   traceroute muestra cada router intermedio entre el remitente y el destino, utilizando el TTL.
-reviewed: false
+reviewed: true

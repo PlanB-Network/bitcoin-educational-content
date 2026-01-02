@@ -6,16 +6,14 @@ description: Memahami dan menggunakan Watchtower pada simpul Lightning Anda
 
 
 
-## Bagaimana cara kerja Menara Pengawal?
+## Bagaimana cara kerja Watch Tower?
 
 
 
-Bagian penting dari ekosistem Lightning Network, _Watchtowers_ memberikan tingkat perlindungan ekstra untuk saluran Lightning pengguna. Peran utama mereka adalah memantau status saluran dan mengintervensi jika salah satu sisi saluran mencoba menipu sisi lainnya.
+Bagian penting dari ekosistem Lightning Network, _Watchtower_ memberi tingkat perlindungan ekstra buat saluran Lightning kamu. Peran utamanya adalah memantau status saluran dan ikut turun tangan jika salah satu sisi saluran mencoba menipu sisi lainnya.
 
 
-
-Bagaimana Watchtower dapat menentukan apakah suatu saluran telah disusupi? Watchtower menerima dari pelanggan (salah satu pihak dalam saluran) informasi yang diperlukan untuk mengidentifikasi dan menangani pelanggaran dengan benar. Informasi ini termasuk rincian transaksi terakhir, status saluran saat ini, dan Elements yang diperlukan untuk membuat transaksi penalti. Sebelum mengirimkan data ini ke Watchtower, pelanggan dapat mengenkripsinya untuk menjaga kerahasiaan. Jadi, meskipun Watchtower menerima data tersebut, Watchtower tidak akan dapat mendekripsinya sampai pelanggaran benar-benar terjadi. Mekanisme enkripsi ini melindungi privasi pelanggan dan mencegah Watchtower mendapatkan akses yang tidak sah ke informasi sensitif.
-
+Bagaimana watchtower bisa tahu kalau sebuah saluran sudah disusupi? Watchtower menerima dari kliennya (salah satu pihak dalam saluran) info yang dibutuhkan untuk mengenali dan menangani pelanggaran dengan benar. Info ini mencakup rincian transaksi terakhir, status saluran saat ini, dan elements yang diperlukan untuk membuat transaksi penalti. Sebelum ngirim data ini ke watchtower, klien bisa mengenkripsinya untuk menjaga kerahasiaan. Jadi meskipun watchtower menerima data tersebut, watchtower nggak bisa mendekripsinya sampai pelanggaran benar terjadi. Mekanisme enkripsi ini melindungi privasi klien dan mencegah watchtower mendapatkan akses yang nggak sah ke informasi sensitif.
 
 
 Dalam tutorial ini, kita akan mencermati 3 cara menggunakan **Watchtower**:
@@ -37,40 +35,25 @@ Dalam tutorial ini, kita akan mencermati 3 cara menggunakan **Watchtower**:
 
 
 
-Sejak v0.7.0, `LND` mendukung eksekusi Watchtower altruistik pribadi sebagai subsistem yang terintegrasi penuh dari `LND`. Menara Pengawal menyediakan garis pertahanan kedua terhadap skenario pelanggaran yang berbahaya atau tidak disengaja ketika node pelanggan offline atau tidak dapat merespons pada saat terjadi pelanggaran, sehingga menawarkan tingkat keamanan yang lebih tinggi untuk dana saluran.
+Sejak v0.7.0, `LND` mendukung eksekusi altruistic watchtower pribadi sebagai subsistem yang terintegrasi penuh di dalam LND. Watchtower memberi garis pertahanan kedua terhadap skenario pelanggaran yang berbahaya atau tidak sengaja ketika node klien sedang offline atau nggak bisa merespons saat pelanggaran terjadi, sehingga memberi tingkat keamanan yang lebih tinggi buat dana saluran.
 
+Nggak seperti reward watchtower yang meminta sebagian dana saluran sebagai imbalan atas jasanya, altruist watchtower mengembalikan semua dana korban dengan hanya memotong biaya on chain tanpa mengambil komisi. Reward watchtower akan diaktifkan di versi berikutnya; fitur ini masih dalam tahap pengujian dan penyempurnaan.
 
+Selain itu, `LND` sekarang bisa dikonfigurasikan untuk berfungsi sebagai watchtower client, yang menyimpan transaksi remediasi pelanggaran terenkripsi yang dikenal sebagai transaksi keadilan dari altruist watchtower lainnya. Watchtower menyimpan gumpalan terenkripsi berukuran tetap dan hanya bisa mendekripsi serta mempublikasikan transaksi keadilan setelah pihak yang melanggar menyiarkan status commitment yang sudah dicabut. Komunikasi klien ↔ watchtower terenkripsi dan diautentikasi menggunakan pasangan kunci sementara, yang membatasi kemampuan watchtower untuk melacak klien lewat kredensial jangka panjang.
 
-Tidak seperti _reward watchtower_, yang meminta bagian dari dana saluran sebagai imbalan atas layanannya, _altruist watchtower_ mengembalikan semua dana korban (dikurangi biaya On-Chain) tanpa mengenakan komisi. Menara pengawas hadiah akan diaktifkan di versi selanjutnya; mereka masih dalam tahap pengujian dan perbaikan.
+Perlu kamu tahu kalau kita memilih untuk memakai rangkaian fitur terbatas dalam rilis ini yang sudah memberi peningkatan keamanan signifikan bagi pengguna `LND`. Banyak fitur watchtower lainnya sudah hampir selesai atau sudah sangat matang; kita akan terus merilisnya setelah pengujian dan begitu dianggap aman.
 
-
-
-Selain itu, `LND` sekarang dapat dikonfigurasikan untuk berfungsi sebagai _watchtower client_, menyimpan transaksi remediasi pelanggaran yang terenkripsi (yang disebut "transaksi keadilan") dari menara pengawas altruistik lainnya. Watchtower menyimpan gumpalan terenkripsi dengan ukuran tetap dan hanya dapat mendekripsi dan mempublikasikan transaksi keadilan setelah pihak yang melanggar menyiarkan status Commitment yang dicabut. Pelanggan ↔ Komunikasi Watchtower dienkripsi dan diautentikasi menggunakan pasangan kunci yang bersifat sementara, yang membatasi kemampuan Watchtower untuk melacak pelanggannya melalui kredensial jangka panjang.
-
-
-
-Perlu diketahui bahwa kami telah memilih untuk menggunakan serangkaian fitur terbatas dalam rilis ini yang telah memberikan keamanan yang signifikan bagi pengguna `LND`. Banyak fitur terkait Watchtower lainnya yang hampir selesai atau sudah sangat maju; kami akan terus memberikannya saat kami mengujinya, dan segera setelah dianggap aman.
-
-
-
-catatan: untuk saat ini, menara pengawas hanya menyimpan keluaran `ke_lokal` dan `ke_remote` dari komitmen yang dicabut; menyimpan keluaran HTLC akan digunakan di versi mendatang, karena protokol dapat diperluas untuk menyertakan data tanda tangan tambahan dalam gumpalan terenkripsi
+Catatan: untuk saat ini, watchtower hanya menyimpan output `to_local` dan `to_remote` dari commitment yang dicabut. Penyimpanan output HTLC akan digunakan di versi mendatang karena protokolnya bisa diperluas untuk menyertakan data tanda tangan tambahan di dalam gumpalan terenkripsi.
 
 
 
 ### Mengkonfigurasi Watchtower
 
+Untuk menyiapkan watchtower, pengguna baris perintah perlu mengompilasi sub server opsional `watchtowerrpc`, yang memungkinkan interaksi dengan watchtower lewat gRPC atau `lncli`. Binari yang dipublikasikan sudah menyertakan sub server `watchtowerrpc` secara default.
 
+Konfigurasi minimum untuk mengaktifkan watchtower adalah `Watchtower.active=1`.
 
-Untuk menyiapkan Watchtower, pengguna baris perintah perlu mengkompilasi sub-server `watchtowerrpc` opsional, yang memungkinkan interaksi dengan Watchtower melalui gRPC atau `lncli`. Binari yang dipublikasikan menyertakan sub-server `watchtowerrpc` secara default.
-
-
-
-Konfigurasi minimum untuk mengaktifkan Watchtower adalah `Watchtower.active=1`.
-
-
-
-Anda dapat mengambil informasi konfigurasi Watchtower Anda dengan `lncli tower info`:
-
+Kamu bisa mengambil info konfigurasi watchtower kamu dengan `lncli tower info`:
 
 
 ```shell
@@ -110,7 +93,7 @@ watchtower:
 
 
 
-Secara default, Watchtower mendengarkan pada `:9911`, yang sesuai dengan port `9911` pada semua antarmuka yang tersedia. Pengguna dapat menentukan antarmuka pendengar mereka sendiri melalui opsi `--Watchtower.listen=`. Anda dapat memeriksa konfigurasi Anda di bidang `"listeners"` pada `lncli tower info`. Jika Anda mengalami masalah dalam menyambung ke Watchtower Anda, pastikan bahwa `<port>` terbuka atau proxy Anda dikonfigurasikan dengan benar ke Interface yang aktif.
+Secara default, watchtower mendengarkan pada `:9911`, yang sesuai dengan port `9911` di semua antarmuka yang tersedia. Pengguna bisa menentukan antarmuka pendengar mereka sendiri lewat opsi --Watchtower.listen=. Kamu bisa mengecek konfigurasi kamu di bidang "listeners" pada `lncli tower info`. Kalau kamu mengalami masalah saat nyambung ke watchtower kamu, pastikan `<port>` sudah terbuka atau proxy kamu sudah dikonfigurasi dengan benar ke interface yang aktif.
 
 
 
@@ -132,7 +115,7 @@ $  lncli tower info
 
 
 
-URI Watchtower dapat dikomunikasikan kepada pelanggan untuk disambungkan dan digunakan dengan perintah berikut:
+URI Watchtower dapat dikomunikasikan ke pelanggan untuk disambungkan dan digunakan dengan perintah ini:
 
 
 
@@ -141,8 +124,7 @@ $  lncli wtclient add 03281d603b2c5e19b8893a484eb938d7377179a9ef1a6bca4c0bcbbfc2
 ```
 
 
-
-Jika pelanggan Watchtower perlu mengaksesnya dari jarak jauh, pastikan untuk :
+Kalau pelanggan Watchtower perlu mengaksesnya dari jarak jauh, pastikan untuk :
 
 
 
@@ -180,7 +162,7 @@ $  lncli tower info
 
 
 
-catatan: kunci publik Watchtower berbeda dengan kunci publik node `LND`. Untuk saat ini, ini bertindak sebagai "daftar putih Soft", karena pelanggan perlu mengetahui kunci publik Watchtower untuk menggunakannya sebagai cadangan, sambil menunggu mekanisme daftar putih yang lebih canggih. Kami menyarankan untuk TIDAK mengungkapkan kunci publik ini secara terbuka, kecuali jika Anda siap untuk mengekspos Watchtower Anda ke seluruh Internet._
+Catatan: kunci publik watchtower berbeda dari kunci publik node LND. Untuk saat ini, ini berfungsi sebagai soft whitelist, karena klien perlu mengetahui kunci publik watchtower untuk bisa memakainya sebagai cadangan sambil menunggu mekanisme whitelist yang lebih canggih. Aku menyarankan untuk tidak mengungkapkan kunci publik ini secara terbuka kecuali kalau kamu memang siap membuat watchtower kamu terekspos ke seluruh internet.
 
 
 
@@ -203,7 +185,7 @@ Di bawah Linux, misalnya, basis data default Watchtower terletak di :
 
 
 
-Untuk mengonfigurasi klien Watchtower, Anda memerlukan dua item:
+Untuk mengonfigurasi klien Watchtower, kamu memerlukan dua item:
 
 
 
@@ -231,15 +213,14 @@ $  lncli wtclient add 03281d603b2c5e19b8893a484eb938d7377179a9ef1a6bca4c0bcbbfc2
 
 
 
-Anda dapat mengonfigurasi beberapa menara pengawas dengan cara ini.
+Kamu dapat mengonfigurasi beberapa menara pengawas dengan cara ini.
 
 
 
 #### Tarif biaya untuk transaksi legal
 
 
-
-Pengguna dapat secara opsional mengatur tarif biaya untuk transaksi keadilan melalui opsi `wtclient.sweep-fee-rate`, yang menerima nilai dalam sat/byte. Nilai defaultnya adalah 10 sat/byte, tetapi dimungkinkan untuk menetapkan tarif yang lebih tinggi untuk mencapai prioritas yang lebih tinggi selama biaya puncak. Mengubah `sweep-fee-rate` berlaku untuk semua pembaruan baru setelah daemon dimulai ulang.
+Pengguna bisa secara opsional mengatur tarif biaya untuk transaksi keadilan lewat opsi `wtclient.sweep-fee-rate`, yang menerima nilai dalam sat per byte. Nilai defaultnya 10 sat per byte, tapi kamu bisa menetapkan tarif yang lebih tinggi supaya dapet prioritas lebih besar saat biaya jaringan sedang tinggi. Perubahan pada `sweep-fee-rate` akan berlaku untuk semua pembaruan baru setelah daemon dimulai ulang.
 
 
 
@@ -247,11 +228,10 @@ Pengguna dapat secara opsional mengatur tarif biaya untuk transaksi keadilan mel
 
 
 
-Dengan perintah `lncli wtclient`, pengguna sekarang dapat berinteraksi langsung dengan klien Watchtower untuk mendapatkan atau memodifikasi informasi tentang semua menara pengawas yang terdaftar.
+Dengan perintah `lncli wtclient`, pengguna sekarang dapat berinteraksi langsung dengan klien Watchtower untuk mendapatkan atau memodifikasi informasi tentang semua watchtowers yang terdaftar.
 
 
-
-Sebagai contoh, dengan `lncli wtclient tower`, Anda dapat mengetahui jumlah sesi yang saat ini dinegosiasikan dengan Watchtower yang ditambahkan di atas dan menentukan apakah sedang digunakan untuk cadangan berkat bidang `active_session_candidate`.
+Sebagai contoh, dengan `lncli wtclient tower`, kamu bisa melihat jumlah sesi yang saat ini dinegosiasikan dengan watchtower yang tadi kamu tambahkan dan mengetahui apakah dia sedang dipakai sebagai cadangan lewat bidang `active_session_candidate`.
 
 
 
@@ -323,7 +303,7 @@ OPTIONS:
 
 
 
-## 2 - Memasang Eye of Satoshi Anda sendiri
+## 2 - Memasang Eye of Satoshi kamu sendiri
 
 
 
@@ -347,7 +327,7 @@ Eye of Satoshi ([Rust-TEOS](https://github.com/talaia-labs/Rust-teos)) adalah Wa
 
 
 
-Untuk menjalankan Watchtower dengan benar, Anda perlu menjalankan **bitcoind** sebelum meluncurkan Watchtower dengan perintah **teosd**. Sebelum menjalankan kedua perintah ini, Anda perlu mengonfigurasi file **Bitcoin.conf**. Berikut ini cara melakukannya:
+Untuk menjalankan Watchtower dengan benar, kamu perlu menjalankan **bitcoind** sebelum meluncurkan Watchtower dengan perintah **teosd**. Sebelum menjalankan kedua perintah ini, kamu perlu mengonfigurasi file **Bitcoin.conf**. Berikut ini cara melakukannya:
 
 
 
@@ -389,11 +369,11 @@ regtest=1
 
 
 
-- regtest**: tidak diperlukan, tetapi berguna jika Anda merencanakan pengembangan.
+- regtest**: tidak diperlukan, tetapi berguna kalau kamu merencanakan pengembangan.
 
 
 
-Nilai untuk **rpcuser** dan **rpcpassword** harus dipilih oleh Anda. Nilai-nilai tersebut harus ditulis tanpa tanda petik. Sebagai contoh:
+Nilai untuk **rpcuser** dan **rpcpassword** harus dipilih oleh kamu. Nilai-nilai tersebut harus ditulis tanpa tanda petik. Sebagai contoh:
 
 
 
@@ -404,7 +384,7 @@ rpcpassword=strongpassword
 
 
 
-Sekarang, jika Anda menjalankan **bitcoind**, node akan mulai.
+Sekarang, kalau kamu menjalankan **bitcoind**, node akan mulai.
 
 
 
@@ -416,7 +396,7 @@ Sekarang, jika Anda menjalankan **bitcoind**, node akan mulai.
 
 
 
-- Setelah Anda berhasil menginstal **teos** pada sistem Anda dan menjalankan tes, Anda dapat melanjutkan ke langkah terakhir: menyiapkan berkas **teos.toml** pada direktori pengguna teos. File ini harus ditempatkan pada sebuah folder bernama **.teos** (perhatikan tanda titik) di bawah direktori home Anda. Sebagai contoh, **/home//.teos** pada Linux. Setelah lokasi ditemukan, buatlah sebuah berkas **teos.toml** dan aturlah pilihan-pilihan ini sesuai dengan perubahan yang dibuat pada **bitcoind**:
+- Setelah kamu berhasil menginstal **teos** di sistem kamu dan menjalankan tesnya, kamu bisa lanjut ke langkah terakhir yaitu menyiapkan berkas **teos.toml** di direktori pengguna teos. File ini harus ditempatkan dalam folder bernama **.teos** (ingat ada tanda titik) di dalam direktori home kamu. Misalnya, **/home/ /** **.teos** di Linux. Setelah lokasinya ditemukan, buat berkas **teos.toml** dan atur opsi opsinya sesuai perubahan yang sudah kamu lakukan di bitcoind.
 
 
 
@@ -440,7 +420,7 @@ btc_rpc_password = "strongpassword"
 
 
 
-Setelah ini selesai, Anda seharusnya siap untuk meluncurkan Watchtower. Karena kita berjalan pada **regtest**, kemungkinan tidak ada blok yang ditambang pada jaringan uji Bitcoin ketika Watchtower pertama kali tersambung (jika ada, berarti ada yang salah). Watchtower membangun cache internal dari 100 blok terakhir dari **bitcoind**; jadi, pada saat pertama kali dijalankan, Anda mungkin akan mendapatkan kesalahan berikut ini:
+Setelah ini selesai, kamu harusnya sudah siap untuk menjalankan watchtower. Karena kita berjalan di regtest, kemungkinan nggak ada blok yang ditambang di jaringan uji Bitcoin saat watchtower pertama kali tersambung. Kalau ada blok, berarti ada yang salah. Watchtower membangun cache internal dari 100 blok terakhir dari **bitcoind**, jadi saat pertama kali dijalankan kamu mungkin bakal melihat error seperti ini:
 
 
 
@@ -458,7 +438,7 @@ Karena kita menggunakan **regtest**, kita dapat memblokir Miner dengan mengeluar
 
 
 
-Itu saja: Anda telah berhasil menjalankan Watchtower. Selamat. 🎉
+Itu saja: kamu telah berhasil menjalankan Watchtower. Selamat. 🎉
 
 
 
@@ -467,7 +447,7 @@ Itu saja: Anda telah berhasil menjalankan Watchtower. Selamat. 🎉
 
 
 
-Pada Umbrel, menghubungkan ke Watchtower untuk melindungi node Lightning Anda sangatlah mudah, karena semuanya dilakukan melalui Interface grafis. Setelah menghubungkan dari jarak jauh ke node Anda, buka aplikasi "**Lightning Node**".
+Di Umbrel, menghubungkan ke watchtower untuk melindungi node Lightning kamu itu gampang banget karena semuanya dilakukan lewat antarmuka grafis. Setelah terhubung dari jarak jauh ke node kamu, buka aplikasi "**Lightning Node**".
 
 
 
@@ -489,17 +469,11 @@ Pada menu "**Watchtower**", tersedia dua opsi:
 
 
 
-- Layanan Watchtower**: opsi ini memungkinkan Anda mengoperasikan Watchtower, yaitu layanan yang memonitor saluran node lain untuk mendeteksi upaya penipuan. Jika terjadi pelanggaran, Watchtower Anda akan menerbitkan transaksi pada Blockchain, sehingga pengguna dapat memulihkan dana mereka yang terkunci. Setelah diaktifkan, URI Watchtower Anda akan muncul dan dapat dikomunikasikan ke node lain sehingga mereka dapat menambahkannya ke klien Watchtower mereka;
+- **Watchtower Service:** opsi ini memungkinkan kamu mengoperasikan watchtower, yaitu layanan yang memantau saluran node lain untuk mendeteksi upaya penipuan. Kalau terjadi pelanggaran, watchtower kamu akan menerbitkan transaksi ke blockchain supaya pengguna bisa memulihkan dana mereka yang terkunci. Setelah diaktifkan, URI watchtower kamu akan muncul dan bisa dibagikan ke node lain supaya mereka bisa menambahkannya ke klien watchtower mereka.
 
+- **Watchtower Client:** opsi ini memungkinkan kamu terhubung ke watchtower eksternal untuk melindungi saluran kamu sendiri. Setelah diaktifkan, kamu bisa menambahkan layanan watchtower tempat node kamu akan mengirim info yang diperlukan tentang salurannya. Watchtower tersebut lalu akan memantau statusnya dan bertindak kalau ada percobaan penipuan.
 
-
-
-
-- Watchtower Client**: opsi ini memungkinkan Anda terhubung ke menara pengawas eksternal untuk melindungi saluran Anda sendiri. Setelah diaktifkan, Anda dapat menambahkan layanan Watchtower ke mana node Anda akan mengirimkan informasi yang diperlukan tentang salurannya. Menara pengawas ini kemudian akan memantau status mereka dan melakukan intervensi jika terjadi percobaan penipuan.
-
-
-
-Prioritas bagi Anda tentu saja adalah mengaktifkan *Watchtower Client* untuk melindungi node Anda, tetapi saya juga menyarankan agar Anda mengaktifkan *Watchtower Service* untuk berkontribusi pada keamanan pengguna lain.
+- Prioritas buat kamu tentu mengaktifkan Watchtower Client untuk melindungi node kamu, tapi aku juga menyarankan supaya kamu mengaktifkan Watchtower Service untuk berkontribusi pada keamanan pengguna lain.
 
 
 
@@ -511,7 +485,7 @@ Kemudian klik pada tombol Green "**Save and Restart Node**". LND Anda akan dimul
 
 
 
-Pada menu yang sama, Anda juga akan menemukan URI layanan Watchtower Anda jika Anda telah mengaktifkannya. Anda juga dapat menambahkan URI Watchtower eksternal untuk melindungi saluran Anda. Klik "**TAMBAH**" untuk mengonfirmasi.
+Pada menu yang sama, kamu juga akan menemukan URI layanan Watchtower kamu jika Anda telah mengaktifkannya. kamu juga dapat menambahkan URI Watchtower eksternal untuk melindungi saluran Anda. Klik "**TAMBAH**" untuk mengonfirmasi.
 
 
 
@@ -533,12 +507,8 @@ Ada beberapa Menara Pengawal yang tersedia secara online. Sebagai contoh, [LN+ d
 
 
 
-Pilihan lainnya adalah dengan Exchange URI Watchtower Anda dengan sesama pengguna bitcoin, sehingga masing-masing melindungi node lainnya.
+Pilihan lainnya adalah saling bertukar URI watchtower dengan sesama pengguna Bitcoin supaya masing masing bisa saling melindungi node satu sama lain.
 
+Aku juga menyarankan kamu menyiapkan beberapa watchtower untuk mengurangi risiko kalau salah satu watchtower sedang nggak tersedia.
 
-
-Saya juga menyarankan agar Anda menyiapkan beberapa Menara Pengawal untuk mengurangi risiko jika salah satu dari Menara Pengawal tersebut tidak tersedia.
-
-
-
-Terakhir, Anda dapat menyesuaikan parameter "**Tingkat Biaya Sapuan Klien Watchtower**". Ini menentukan tingkat biaya maksimum yang bersedia Anda bayarkan untuk transaksi hukuman siaran Watchtower yang akan disertakan dalam blok. Pastikan Anda menetapkan nilai yang cukup tinggi, disesuaikan dengan jumlah yang dikunci di saluran Anda.
+Terakhir, kamu bisa menyesuaikan parameter **Tingkat Biaya Sweeping Klien Watchtower.** Ini menentukan tingkat biaya maksimum yang kamu bersedia bayar untuk transaksi penalti yang disiarkan watchtower supaya bisa masuk blok. Pastikan kamu menetapkan nilai yang cukup tinggi dan sesuai dengan jumlah dana yang terkunci di saluran kamu.

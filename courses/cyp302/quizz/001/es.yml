@@ -6,4 +6,4 @@ wrong_answers:
   - Una lista única de nombres
 explanation: |
   La caja contenía tres textos cifrados y una nota explicando el descubrimiento de un tesoro y proporcionando instrucciones sobre cómo recuperar su contenido.
-reviewed: false
+reviewed: true

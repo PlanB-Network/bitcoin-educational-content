@@ -6,4 +6,4 @@ wrong_answers:
   - El mensaje se volverá imposible de descifrar
 explanation: |
   En un RSA simplificado, cifrar un mensaje múltiples veces siempre producirá el mismo resultado, haciendo que el cifrado sea vulnerable a ataques.
-reviewed: false
+reviewed: true

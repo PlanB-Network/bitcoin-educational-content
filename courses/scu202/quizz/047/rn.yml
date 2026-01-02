@@ -1,9 +1,9 @@
-question: Ni porogarama iyihe y’ubuntu, ishobora gukoreshwa mu guhingura dosiye y’ibikoresho vy’ubuhinga bwa none ishobora gushirwako nk’idisiki y’ubuhinga bwa none?
-answer: VeraIbanga
+question: Ni porogarama iyihe y’ubuntu, ikoreshwa kuri sisiteme zose ishobora gukoreshwa mu gukora dosiye ya container inyegejwe ishobora gusomwa muri sisiteme nka disk mpimano?
+answer: VeraCrypt
 wrong_answers:
-  - Gukomeza guca XC
-  - Guhuza
-  - IntsinziRAR
+  - KeePassXC
+  - Syncthing
+  - WinRAR
 explanation: |
-  VeraCrypt ishobora kugufasha gukora ibikoresho vy'ibanga bishobora gushikwako nk'amadisike y'ukuri ku ma OS yose akomeye.
-reviewed: false
+  VeraCrypt ishobora kugufasha gukora ama containers anyegejwe ashobora gukoreshwa nk'ama disks mpimbano ku ma OS yose akomeye.
+reviewed: true

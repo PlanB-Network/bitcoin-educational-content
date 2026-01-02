@@ -7,49 +7,51 @@ description: Pengenalan dan pembuatan aset pada RGB
 
 ## Pengenalan
 
-Pada tanggal 3 Januari 2009, Satoshi Nakamoto meluncurkan node Bitcoin pertama, dari saat itu node baru bergabung dan Bitcoin mulai berperilaku seolah-olah itu adalah bentuk kehidupan baru, bentuk kehidupan yang tidak pernah berhenti berkembang, sedikit demi sedikit menjadi jaringan paling aman di dunia sebagai hasil dari desain uniknya, yang sangat dipikirkan dengan baik oleh Satoshi karena, melalui insentif ekonomi, itu menarik pengguna yang biasa disebut penambang untuk berinvestasi dalam energi dan kekuatan komputasi yang berkontribusi pada keamanan jaringan.
+Pada tanggal 3 Januari 2009, Satoshi Nakamoto meluncurkan node Bitcoin pertama. Sejak saat itu node baru terus bergabung dan Bitcoin mulai berperilaku seolah-olah itu adalah bentuk kehidupan baru, bentuk kehidupan yang tidak pernah berhenti berkembang, sedikit demi sedikit menjadi jaringan paling aman di dunia sebagai hasil dari desain uniknya. Desain ini benar-benar dipikirkan dengan matang oleh Satoshi karena melalui insentif ekonomi ia menarik pengguna yang biasa disebut penambang untuk berinvestasi dalam energi dan kekuatan komputasi yang berkontribusi pada keamanan jaringan.
 
-Seiring dengan pertumbuhan dan adopsi Bitcoin, ia menghadapi masalah skalabilitas, jaringan Bitcoin memungkinkan blok baru dengan transaksi untuk ditambang dalam waktu sekitar 10 menit, dengan asumsi kita memiliki 144 blok dalam sehari dengan nilai maksimum 2700 transaksi per blok, Bitcoin hanya akan memungkinkan 4,5 transaksi per detik, Satoshi menyadari keterbatasan ini, kita dapat melihatnya dalam email yang dikirim kepada Mike Hearn pada Maret 2011 di mana dia menjelaskan bagaimana apa yang kita kenal hari ini sebagai saluran pembayaran bekerja. mikropembayaran dengan cepat dan aman tanpa menunggu konfirmasi. Inilah di mana protokol off-chain masuk.
+Seiring pertumbuhan dan adopsi Bitcoin, ia menghadapi masalah skalabilitas. Jaringan Bitcoin memungkinkan blok baru dengan transaksi untuk ditambang dalam waktu sekitar 10 menit. Dengan asumsi kita punya 144 blok per hari dan nilai maksimum sekitar 2700 transaksi per blok, Bitcoin hanya memungkinkan 4,5 transaksi per detik. Satoshi menyadari keterbatasan ini. Kita bisa melihatnya dalam email yang ia kirim ke Mike Hearn pada Maret 2011 di mana ia menjelaskan bagaimana apa yang kita kenal sekarang sebagai saluran pembayaran bekerja, yaitu mikropembayaran yang bisa dilakukan dengan cepat dan aman tanpa menunggu konfirmasi. Di sinilah protokol off-chain masuk.
 
-Menurut Christian Decker, protokol off-chain biasanya adalah sistem di mana pengguna menggunakan data dari blockchain dan mengelolanya tanpa menyentuh blockchain itu sendiri sampai menit terakhir. Berdasarkan konsep ini, Lightning Network lahir, sebuah jaringan yang menggunakan protokol off-chain untuk memungkinkan pembayaran Bitcoin dilakukan hampir secara instan dan karena tidak semua operasi ini ditulis di blockchain, itu memungkinkan ribuan transaksi per detik dan skala Bitcoin.
+Menurut Christian Decker, protokol off-chain biasanya adalah sistem di mana pengguna memakai data dari blockchain lalu mengelolanya tanpa menyentuh blockchain itu sendiri sampai menit terakhir. Berdasarkan konsep ini, Lightning Network lahir, sebuah jaringan yang memakai protokol off-chain untuk memungkinkan pembayaran Bitcoin dilakukan hampir secara instan. Dan karena tidak semua operasi ini ditulis di blockchain, ini memungkinkan ribuan transaksi per detik dan membuat Bitcoin bisa berskala.
 
-Penelitian dan pengembangan di area protokol off-chain pada Bitcoin telah membuka kotak pandora, hari ini kita tahu bahwa kita dapat mencapai lebih banyak daripada transfer nilai secara terdesentralisasi, asosiasi nirlaba LNP/BP Standards Association fokus pada pengembangan protokol lapis 2 dan 3 pada Bitcoin dan Lightning Network, di antara proyek-proyek ini RGB menonjol.
+Penelitian dan pengembangan di area protokol off-chain pada Bitcoin telah membuka kotak pandora. Sekarang kita tahu bahwa kita bisa mencapai lebih banyak hal daripada sekadar transfer nilai secara terdesentralisasi. Asosiasi nirlaba LNP/BP Standards Association fokus pada pengembangan protokol lapis 2 dan 3 di atas Bitcoin dan Lightning Network. Di antara proyek-proyek ini RGB adalah salah satu yang paling menonjol.
 
 ## Apa itu RGB?
 
-RGB muncul dari penelitian oleh Peter Todd tentang single-use-seals dan client-side-validation, yang dicetuskan pada tahun 2016-2019 oleh Giacomo Zucco dan komunitas menjadi protokol aset yang lebih baik untuk Bitcoin dan Lightning network. Evolusi lebih lanjut dari ide-ide ini mengarah pada pengembangan RGB menjadi sistem kontrak pintar yang lengkap oleh Maxim Orlovsky, yang memimpin implementasinya sejak 2019 dengan partisipasi komunitas.
+RGB muncul dari penelitian Peter Todd tentang single-use-seals dan client-side-validation, yang kemudian dikembangkan pada 2016-2019 oleh Giacomo Zucco dan komunitas menjadi protokol aset yang lebih baik untuk Bitcoin dan Lightning network. Evolusi lanjut dari ide-ide ini mengarah pada pengembangan RGB menjadi sistem kontrak pintar yang lengkap oleh Maxim Orlovsky, yang memimpin implementasinya sejak 2019 dengan dukungan komunitas.
 
-Kita dapat mendefinisikan RGB sebagai seperangkat protokol sumber terbuka yang memungkinkan kita untuk menjalankan kontrak pintar yang kompleks secara skalabel dan rahasia. Ini bukan jaringan tertentu (seperti Bitcoin atau Lightning); setiap kontrak pintar hanyalah seperangkat peserta kontrak yang dapat berinteraksi menggunakan saluran komunikasi yang berbeda (default ke Lightning network). RGB menggunakan blockchain Bitcoin sebagai lapisan komitmen status dan mempertahankan kode kontrak pintar dan data off-chain, yang membuatnya skalabel, memanfaatkan transaksi Bitcoin (dan Script) sebagai sistem kontrol kepemilikan untuk kontrak pintar; sementara evolusi kontrak pintar didefinisikan oleh skema off-chain, akhirnya penting untuk dicatat bahwa semuanya divalidasi di sisi klien.
+Kita bisa mendefinisikan RGB sebagai seperangkat protokol sumber terbuka yang memungkinkan kita menjalankan kontrak pintar kompleks secara skalabel dan rahasia. Ini bukan jaringan tertentu seperti Bitcoin atau Lightning. Setiap kontrak pintar hanyalah seperangkat peserta yang bisa saling berinteraksi menggunakan berbagai saluran komunikasi, yang secara default memakai Lightning network. RGB memakai blockchain Bitcoin sebagai lapisan komitmen status dan menyimpan kode kontrak pintar serta data secara off-chain, yang membuatnya skalabel. Ia memanfaatkan transaksi Bitcoin dan Script sebagai sistem kontrol kepemilikan untuk kontrak pintar, sementara evolusi kontraknya didefinisikan oleh skema off-chain. Yang penting dicatat adalah semuanya divalidasi di sisi klien.
 
-Dengan kata sederhana, RGB adalah sistem yang memungkinkan pengguna untuk mengaudit kontrak pintar, menjalankannya, dan memverifikasinya secara individu kapan saja tanpa biaya tambahan karena untuk ini tidak menggunakan blockchain seperti sistem "tradisional" lakukan, sistem kontrak pintar yang kompleks dipelopori oleh Ethereum tetapi karena membutuhkan pengguna untuk menghabiskan jumlah gas yang signifikan untuk setiap operasi, mereka tidak pernah mencapai skalabilitas yang mereka janjikan akibatnya tidak pernah menjadi opsi untuk membankkan pengguna yang dikecualikan dari sistem keuangan saat ini.
-Saat ini, industri blockchain mendorong agar baik kode kontrak pintar maupun data harus disimpan dalam blockchain dan dieksekusi oleh setiap node dalam jaringan, terlepas dari peningkatan ukuran yang berlebihan atau penyalahgunaan sumber daya komputasi. Skema yang diusulkan oleh RGB jauh lebih cerdas dan efisien karena memotong paradigma blockchain dengan memiliki kontrak pintar dan data yang dipisahkan dari blockchain dan dengan demikian menghindari kejenuhan jaringan yang terlihat di platform lain, sekaligus tidak memaksa setiap node untuk mengeksekusi setiap kontrak tetapi lebih kepada pihak-pihak yang terlibat yang menambahkan tingkat kerahasiaan yang belum pernah terlihat sebelumnya.
+Dengan kata sederhana, RGB adalah sistem yang memungkinkan pengguna mengaudit kontrak pintar, menjalankannya, dan memverifikasinya secara individual kapan saja tanpa biaya tambahan karena tidak memakai blockchain seperti sistem tradisional. Sistem kontrak pintar kompleks dipelopori oleh Ethereum, tetapi karena membutuhkan pengguna untuk menghabiskan jumlah gas yang besar untuk setiap operasi, mereka tidak pernah mencapai skalabilitas yang dijanjikan. Akibatnya sistem seperti itu tidak pernah menjadi opsi untuk membankkan pengguna yang selama ini dikecualikan dari sistem keuangan saat ini.
+
+Saat ini industri blockchain masih mendorong agar kode kontrak pintar dan data disimpan dalam blockchain lalu dieksekusi oleh setiap node di jaringan, terlepas dari peningkatan ukuran berlebihan atau penyalahgunaan sumber daya komputasi. Skema yang ditawarkan RGB jauh lebih cerdas dan efisien karena memotong paradigma blockchain dengan memisahkan kontrak pintar dan data dari blockchain sehingga menghindari kejenuhan jaringan yang terlihat di platform lain. Selain itu ia tidak memaksa setiap node menjalankan setiap kontrak, tetapi hanya pihak-pihak yang terlibat, yang menambahkan tingkat kerahasiaan yang belum pernah terlihat sebelumnya.
 ![RGB vs Ethereum](assets/1.webp)
 
 ## Kontrak Pintar di RGB
 
-Dalam kontrak pintar RGB, pengembang mendefinisikan skema yang menentukan aturan bagaimana kontrak berkembang seiring waktu. Skema tersebut adalah standar untuk pembangunan kontrak pintar di RGB, dan baik penerbit saat mendefinisikan kontrak untuk penerbitan maupun dompet atau bursa harus mengikuti skema tertentu yang harus mereka validasi terhadap kontrak tersebut. Hanya jika validasi tersebut benar maka setiap pihak dapat menerima permintaan dan bekerja dengan aset tersebut.
+Dalam kontrak pintar RGB, pengembang mendefinisikan skema yang menentukan aturan tentang bagaimana kontrak berkembang seiring waktu. Skema ini adalah standar untuk pembangunan kontrak pintar di RGB, dan baik penerbit saat membuat kontrak untuk penerbitan maupun dompet atau bursa harus mengikuti skema tertentu yang harus mereka validasi terhadap kontrak tersebut. Hanya jika validasi itu benar maka setiap pihak bisa menerima permintaan dan bekerja dengan aset tersebut.
 
-Kontrak pintar di RGB adalah grafik acyclic terarah (DAG) dari perubahan status, di mana hanya sebagian dari grafik yang selalu diketahui dan tidak ada akses ke sisanya. Skema RGB adalah seperangkat aturan inti untuk evolusi grafik yang dimulai dengan kontrak pintar tersebut. Setiap peserta kontrak dapat menambahkan aturan tersebut (jika ini diizinkan oleh skema) dan grafik yang dihasilkan dibangun dari aplikasi iteratif dari aturan tersebut.
+Kontrak pintar di RGB adalah grafik acyclic terarah atau DAG dari perubahan status, di mana hanya sebagian dari grafik yang selalu diketahui dan tidak ada akses ke bagian lainnya. Skema RGB adalah seperangkat aturan inti untuk evolusi grafik yang dimulai dari kontrak pintar tersebut. Setiap peserta kontrak bisa menambahkan aturan itu jika diizinkan oleh skema, dan grafik yang dihasilkan dibangun dari penerapan aturan tersebut secara iteratif.
 
 ## Aset Fungible
 
-Aset fungible di RGB mengikuti spesifikasi LNPBP RGB-20, ketika RGB-20 didefinisikan, data aset yang dikenal sebagai "data genesis" didistribusikan melalui jaringan Lightning, yang berisi apa yang diperlukan untuk menggunakan aset tersebut. Bentuk aset paling dasar tidak mengizinkan penerbitan sekunder, pembakaran token, penamaan ulang, atau penggantian.
+Aset fungible di RGB mengikuti spesifikasi LNPBP RGB-20. Ketika RGB-20 didefinisikan, data aset yang dikenal sebagai data genesis didistribusikan melalui jaringan Lightning. Data ini berisi semua yang dibutuhkan untuk memakai aset tersebut. Bentuk aset paling dasar tidak mengizinkan penerbitan sekunder, pembakaran token, penamaan ulang, atau penggantian.
 
-Terkadang penerbit akan perlu menerbitkan lebih banyak token di masa depan, misalnya stablecoin seperti USDT, yang menjaga nilai setiap token terikat pada nilai mata uang inflasi seperti USD. Untuk mencapai ini skema RGB-20 yang lebih kompleks ada, dan selain data genesis mereka memerlukan penerbit untuk menghasilkan konsinyasi, yang juga akan beredar di jaringan lightning; dengan informasi ini kita dapat mengetahui total pasokan aset yang beredar. Hal yang sama berlaku untuk pembakaran aset, atau mengubah namanya.
+Kadang penerbit perlu menerbitkan lebih banyak token di masa depan, misalnya stablecoin seperti USDT yang menjaga nilai setiap token tetap terikat pada nilai mata uang inflasi seperti USD. Untuk mencapai ini ada skema RGB-20 yang lebih kompleks, dan selain data genesis mereka mengharuskan penerbit membuat konsinyasi yang juga beredar di jaringan Lightning. Dengan informasi ini kita bisa mengetahui total pasokan aset yang beredar. Hal yang sama berlaku untuk pembakaran aset atau mengubah namanya.
 
-Informasi terkait aset dapat bersifat publik atau pribadi: jika penerbit memerlukan kerahasiaan, ia dapat memilih untuk tidak berbagi informasi tentang token dan melakukan operasi dalam privasi mutlak, tetapi kita juga memiliki kasus sebaliknya di mana penerbit dan pemegang memerlukan seluruh proses untuk menjadi transparan. Ini dicapai dengan berbagi data token.
+Informasi terkait aset bisa bersifat publik atau privat. Jika penerbit membutuhkan kerahasiaan, ia bisa memilih untuk tidak membagikan informasi tentang token dan melakukan operasi dalam privasi penuh. Tetapi ada juga kasus sebaliknya, di mana penerbit dan pemegang membutuhkan seluruh proses agar transparan. Ini bisa dicapai dengan membagikan data token.
 
 ## Prosedur RGB-20
 
-Prosedur pembakaran menonaktifkan token, token yang dibakar tidak dapat digunakan lagi.
+Prosedur pembakaran menonaktifkan token, dan token yang dibakar tidak bisa digunakan lagi.
 
-Prosedur penggantian terjadi ketika token dibakar dan jumlah baru token yang sama diciptakan. Ini membantu mengurangi ukuran data historis aset, yang penting untuk menjaga kecepatan aset.
+Prosedur penggantian terjadi ketika token dibakar lalu jumlah token baru yang sama diciptakan. Ini membantu mengurangi ukuran data historis aset, yang penting untuk menjaga aset tetap cepat digunakan.
 
-Untuk mendukung kasus penggunaan di mana dimungkinkan untuk membakar aset tanpa harus menggantinya, sub-skema RGB-20 digunakan yang hanya memungkinkan pembakaran aset.
+Untuk mendukung kasus penggunaan di mana aset bisa dibakar tanpa harus diganti, sub-skema RGB-20 digunakan yang hanya mengizinkan pembakaran aset.
 
 ## Aset Non Fungible
-Aset non-fungible dalam RGB mengikuti spesifikasi LNPBP RGB-21, ketika kita bekerja dengan NFT, kita juga memiliki skema utama dan sub-skema. Skema ini memiliki prosedur pengukiran, yang memungkinkan kita untuk melampirkan data khusus oleh pemilik token, contoh paling umum yang kita lihat dalam NFT saat ini adalah seni digital yang terkait dengan token. Penerbit token dapat melarang pengukiran data ini dengan menggunakan sub-skema RGB-21. Tidak seperti sistem blockchain NFT lainnya, RGB memungkinkan distribusi data media token ukuran besar secara lengkap terdesentralisasi dan tahan sensor, menggunakan ekstensi ke jaringan P2P Lightning yang disebut Bifrost, yang juga digunakan untuk membangun banyak bentuk lain dari fungsi kontrak pintar spesifik RGB.
-Selain aset fungible dan NFT, RGB dan Bifrost dapat digunakan untuk menghasilkan bentuk kontrak pintar lainnya, termasuk DEX, kolam likuiditas, koin stabil algoritmik, dll, yang akan kita bahas dalam artikel mendatang.
+Aset non-fungible dalam RGB mengikuti spesifikasi LNPBP RGB-21. Ketika kita bekerja dengan NFT, kita juga punya skema utama dan sub-skema. Skema ini memiliki prosedur pengukiran yang memungkinkan kita melampirkan data khusus oleh pemilik token. Contoh paling umum yang kita lihat dalam NFT saat ini adalah seni digital yang terkait dengan token. Penerbit token bisa melarang pengukiran data ini dengan memakai sub-skema RGB-21. Berbeda dengan sistem NFT di blockchain lain, RGB memungkinkan distribusi data media token berukuran besar secara sepenuhnya terdesentralisasi dan tahan sensor, menggunakan ekstensi ke jaringan P2P Lightning yang disebut Bifrost, yang juga digunakan untuk membangun berbagai bentuk lain dari fungsi kontrak pintar spesifik RGB.
+
+Selain aset fungible dan NFT, RGB dan Bifrost bisa digunakan untuk menghasilkan bentuk kontrak pintar lainnya, termasuk DEX, kolam likuiditas, koin stabil algoritmik, dan lainnya, yang akan kita bahas di artikel mendatang.
 
 ## NFT dari RGB vs NFT dari platform lain
 
@@ -63,25 +65,26 @@ Selain aset fungible dan NFT, RGB dan Bifrost dapat digunakan untuk menghasilkan
 
 ## Kesimpulan
 
-Sejak peluncuran Bitcoin, hampir 13 tahun yang lalu telah banyak penelitian dan eksperimen di area ini, baik kesuksesan maupun kesalahan telah memungkinkan kita untuk memahami sedikit lebih banyak bagaimana sistem terdesentralisasi berperilaku dalam praktik, apa yang membuat mereka benar-benar terdesentralisasi dan tindakan apa yang cenderung membawa mereka ke sentralisasi, semua ini telah membawa kita untuk menyimpulkan bahwa desentralisasi sejati adalah fenomena yang langka dan sulit untuk dicapai, desentralisasi sejati hanya telah dicapai oleh Bitcoin dan itulah alasan kami fokus upaya kami untuk membangun di atasnya.
+Sejak peluncuran Bitcoin hampir 13 tahun lalu, sudah banyak penelitian dan eksperimen di area ini. Baik keberhasilan maupun kesalahan telah membantu kita memahami sedikit lebih banyak tentang bagaimana sistem terdesentralisasi berperilaku dalam praktik, apa yang membuat mereka benar-benar terdesentralisasi, dan tindakan apa yang cenderung menarik mereka ke sentralisasi. Semua ini membawa kita pada kesimpulan bahwa desentralisasi sejati adalah fenomena yang langka dan sulit dicapai. Desentralisasi sejati sejauh ini hanya berhasil dicapai oleh Bitcoin dan itulah alasan kita fokus membangun di atasnya.
 
-RGB memiliki lubang kelinci sendiri di dalam lubang kelinci Bitcoin, sementara saya terjatuh melalui mereka saya akan memposting apa yang telah saya pelajari, dalam artikel berikutnya kita akan memiliki pengenalan ke node LNP dan RGB dan bagaimana menggunakannya.
+RGB punya lubang kelinci sendiri di dalam lubang kelinci Bitcoin. Sambil aku terus jatuh ke dalamnya, aku akan memposting apa yang sudah aku pelajari. Di artikel berikutnya kita akan memiliki pengenalan ke node LNP dan RGB serta cara menggunakannya.
 
 # Tutorial RGB-node
 
 ## Pengantar
 
-Dalam tutorial ini kami menjelaskan cara menggunakan RGB-node untuk membuat token fungible dan cara mentransfernya, dokumen ini berdasarkan demo RGB-node dan berbeda karena tutorial ini menggunakan data testnet nyata dan untuk itu, kita harus membangun Partially Signed Bitcoin Transaction (psbt) kita sendiri.
+Dalam tutorial ini kita menjelaskan cara memakai RGB-node untuk membuat token fungible dan cara mentransfernya. Dokumen ini didasarkan pada demo RGB-node, tetapi berbeda karena tutorial ini memakai data testnet nyata dan untuk itu kita harus membangun Partially Signed Bitcoin Transaction atau psbt kita sendiri.
 
 ## Persyaratan
 
-Penggunaan distribusi Linux direkomendasikan, tutorial ini ditulis menggunakan Pop!OS, yang berbasis pada Ubuntu dan Anda akan memerlukan:
+Penggunaan distribusi Linux direkomendasikan, tutorial ini ditulis menggunakan Pop!OS, yang berbasis pada Ubuntu dan kamu akan memerlukan:
 
 - cargo
 - Bitcoin core
 - git
-Catatan: Tutorial ini menunjukkan eksekusi perintah dalam terminal Linux, untuk membedakan apa yang ditulis pengguna dan respons yang dia dapatkan di terminal, kami menyertakan simbol $ yang melambangkan prompt bash.
-Anda perlu menginstal beberapa dependensi:
+  
+Catatan: Tutorial ini menunjukkan eksekusi perintah di terminal Linux. Untuk membedakan apa yang ditulis pengguna dan respons yang muncul di terminal, kita menyertakan simbol $ yang melambangkan prompt bash.
+Kamu perlu menginstal beberapa dependensi berikut:
 
 ```
 $ sudo apt install -y build-essential pkg-config libzmq3-dev libssl-dev libpq-dev libsqlite3-dev cmake
@@ -113,19 +116,20 @@ $ cargo install --path . --all-features --locked
 
 ```
 
-Seperti yang dikatakan oleh kompiler rust kepada kita, binari telah disalin ke direktori $HOME/.cargo/bin, jika kompiler Anda menyalinnya ke tempat yang berbeda Anda harus memastikan direktori tersebut harus dimasukkan dalam $PATH.
+Seperti yang dikatakan kompiler rust ke kita, binari sudah disalin ke direktori $HOME/.cargo/bin. Jika kompiler kamu menyalinnya ke lokasi yang berbeda, kamu harus memastikan direktori itu sudah dimasukkan ke dalam $PATH.
 
-Di antara binari yang terpasang, kita dapat melihat tiga daemon atau layanan (file yang berakhir dengan d) dan sebuah cli (antarmuka baris perintah), cli memungkinkan kita untuk berinteraksi dengan daemon rgbd utama. Karena dalam tutorial ini kita akan menjalankan dua node, kita juga akan memerlukan dua klien, masing-masing harus terhubung ke node-nya sendiri, untuk itu kita membuat dua alias.
+Di antara binari yang terpasang, kita bisa melihat tiga daemon atau layanan (file yang berakhiran d) dan sebuah cli atau antarmuka baris perintah. Cli memungkinkan kita berinteraksi dengan daemon rgbd utama. Karena dalam tutorial ini kita akan menjalankan dua node, kita juga memerlukan dua klien, dan masing-masing harus terhubung ke node miliknya sendiri. Untuk itu kita membuat dua alias.
 
 ```
 alias rgb0-cli="$HOME/.cargo/bin/rgb-cli -d $HOME/rgbdata/data0 -n testnet"
 alias rgb1-cli="$HOME/.cargo/bin/rgb-cli -d $HOME/rgbdata/data1 -n testnet"
 ```
 
-Kita bisa saja menjalankan alias atau menambahkannya ke akhir file $HOME/.bashrc dan menjalankan source $HOME/.bashrc.
+Kita bisa saja menjalankan alias itu langsung atau menambahkannya ke akhir file $HOME/.bashrc lalu menjalankan perintah source $HOME/.bashrc.
+
 Premis
 
-RGB-node tidak menangani fungsionalitas terkait dompet apa pun, ia hanya melakukan tugas-tugas spesifik RGB pada data yang akan disediakan oleh dompet eksternal seperti bitcoin core. Khususnya, untuk menunjukkan alur kerja dasar dengan penerbitan dan transfer, kita akan memerlukan:
+RGB-node tidak menangani fungsionalitas terkait dompet apa pun, ia hanya menjalankan tugas-tugas spesifik RGB pada data yang akan disediakan oleh dompet eksternal seperti Bitcoin Core. Khususnya, untuk menunjukkan alur kerja dasar dengan penerbitan dan transfer, kita akan memerlukan:
 
 - Sebuah issuance_utxo di mana rgb-node-0 akan mengikat aset yang baru diterbitkan
 - Sebuah receive_utxo di mana rgb-node-1 menerima aset
@@ -177,7 +181,7 @@ receive_utxo adalah UTXO yang dikontrol oleh penerima, dalam kasus ini kita akan
 - issuance_utxo: 4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893:1- change_utxo: cd66d3b77dfc1c2ecf958847c16a8a1311bba84ee7bf9dd55592a7b97b13028f:1
 - receive_utxo: e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0
 
-Kita sekarang akan membuat transaksi yang ditandatangani sebagian (tx.psbt) yang output-nya akan dimodifikasi untuk menyertakan komitmen transfer, ingat untuk mengganti txid dan vout dengan milik Anda sendiri, alamat tujuan tidak terlalu penting, bisa jadi milik Anda atau orang lain, tidak masalah kemana sats tersebut pergi, yang penting adalah kita menggunakan issuance_utxo.
+Kita sekarang akan membuat transaksi yang ditandatangani sebagian (tx.psbt) yang output-nya akan dimodifikasi untuk menyertakan komitmen transfer, ingat untuk mengganti txid dan vout dengan milik Anda sendiri, alamat tujuan tidak terlalu penting, bisa jadi milikmu atau orang lain, tidak masalah kemana sats tersebut pergi, yang penting adalah kita menggunakan issuance_utxo.
 
 ```
 $ bcli walletcreatefundedpsbt "[{/"txid/":/"4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893/",/"vout/":1}]" "[{/"tb1q9crtjp0y6rt00c4fcrmuamrylzkcalcxls80j9/":/"0.00050000/"}]"
@@ -267,14 +271,16 @@ Untuk dapat menerima transfer yang terkait dengan UTXO ini, kita akan memerlukan
 ## Transfer
 
 Untuk mentransfer sejumlah aset ke rgb-node-1, kita perlu mengirimkannya ke UTXO yang disamarkan, rgb-node-0 perlu membuat sebuah consignment dan disclosure, dan mengkomitkannya ke dalam transaksi bitcoin. Kemudian kita akan memerlukan psbt yang akan kita modifikasi untuk menyertakan komitmen. Selain itu, opsi -i dan -a memungkinkan kita untuk menyediakan outpoint input yang akan menjadi asal dari aset dan alokasi di mana kita akan menerima kembalian, kita harus menunjukkannya dengan cara berikut @<change_utxo>.
+
 $ rgb0-cli fungible transfer utxob16az597vp5nkr66nfzsykf8ngdnvzep5050rm00l7vv8wm7vew4jqj7jhhf 100 rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6 tx.psbt consignment.rgb disclosure.rgb witness.psbt -i 4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893:1 -a 900@cd66d3b77dfc1c2ecf958847c16a8a1311bba84ee7bf9dd55592a7b97b13028f:1
 Transfer berhasil, konsinyasi dan pengungkapan ditulis ke "consignment.rgb" dan "disclosure.rgb", transaksi saksi yang ditandatangani sebagian ke "witness.psbt"
+
 Data Kiriman untuk Dibagikan: consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy7ytjf4gdh88x6upcdmjfy3mp4y0n669j5ar5y6e04zfr7255kynff6eymx9tdfc7jux5jk6tgn4xm6lttlh3lh08070ltuh60l07mamlns2qyy984mg4m5dz0x6s5sy5edls2zjlmnvw708sh7fy2vuph745jcpgp92qrw27s73vm4ghrx57vammyf8wautwu5euujd8w3dupdtgp4px36gz8z0ywnuty45uqdwk672qqzjp3j77yl7urft6gewqksqgppczezn5c7gyux6gzgpye0wgyjp85ufdqlzy5cd8zwfg3q9550xq2hyf24qqz92wqskpgq8qsr8kp5p9dt49evmqlze9ylrx2sqpwpvpqp45lpvgjkgk542pks9850w5jquq3qqsj4xsqn9nu6w30lgpmrhdqs6jj0ez3myhj74kp223f0wg2y7vupczdq5pa23mzhzc6l647nl6ftrru0mjrh739yhgztsdhl2cdmhf0qm7du9n20up4rnnsp0tlp8665xldkq9z9u85tgh6nxmkfg3pc6wzk2t90pekj2d6l0km09vyt4vut24vhzg9qhrdsgr7dws828p6ejk7ddy0zkz3a2fq5648664w3se2egwvh904lzmpnc7a7wy4fayznunt6j4ndmm68y24tjje4qxnxs70w4lr9vz9q9qca903edtjd6c5f37jagafsqnhnlsuwvnqwc7uly4dw2rnlyxp4zcfqrfpkpez54c0lc3tmvppmv06ge97heevgt0acrq0ezgjr6ck9waqpanypl8dzrqdzjd05h735tdgv2wjjjucheur40h4wjw4pcdpc8pqlh7ef95rj2al8v3eexkgty8j2ne7kk2zxpe0wypq8ra0x76rt6cu00cw4w05v0u3ng6zhfrttz2c3m5nx64s8w98wa26dx79jwhne44gp9lmg6vkhxq98meslyr4zqtxjsg27xzj80m0csd77lr047vwycvdw0z8mwudm3uvlry9p9da4su72k9q84pphw4n0fyeet0ujzrdgacm6p777jun0y0v397mp4drafr6q7994kdl96m388xp6ggf5arn4d4ed53rv9tlkerckqvkng92uhdvngwcl3m6yqhxdjjnkca62tckxfnrae4cx4e6wx6ww5649v4hvuwkkajanllc38wavqy83xhn555l708354nt2quscchexsxjgezdxfnmxgue0cn4ktghd6xd2le76k5cw3t0p0nurs4h5rjz0j7twj9ulwkp7cmhhgl23r7g677gk36r5jw8panh2sq5966m08sa5632egd5ms6h0e504dtwskct3x6a93uutaumtc8aam8yyt66lrmrhcssw9ga2yg0496s6sdmaexa49064g3syc888egnwa8racrwwwwemknqamarpqlmqa5mg8zgt0dts8ehuwmgz4j3cjltr8gv78e7p84zm8pylann7dmss5suf4htqc04qx5trnk59m305ah2qp4mvkxwy6ts84sa30d80jzk9s6n40e4j8dcvq79ncg5e3z5g4esxyawmxk7lvm5efc30vtw8qqhe9xx3773djez6hjjx0x962z2radnvdmazkrmlqw7guxz29qvahcx79h33ncqhzhvekwaqqnrz3wxnp2qy3u83zdgdcgq27n5n22h7jjedrh28m8c6mn42xhfjasm5njsxtufqjxefnhc2n5zr0um0xlqk62cu25cjwuwwrcv3e4vhh2tdzn8rnlaefj98fvslg7sun95wpt2a4vcg4ua62v97aeqstvjegmlem5crnsamrhm3a2pcma2s22atr43lgx9vh7kn9lzymfe83a4vhe9rc6xl5pmy5hjw4t88k0fwh6lzmjtjvqtczq47ny7hv8ytdqdy2c7ce3gegnufkzwphkwtz6xqzklyw7e7f76fwfewfuyqal7dl8r9476jerrl40mav38sun2u8jvftw33x3r20dmeka34znmkgaz29ppk5hz3ldttw8zyz4k6q0gts8utqh53tuc7vtajl26rq2fnxr0vxcwlx9rfvn6v8ar8c73qkc3zca4mlgl7qu36sk7e
 Ini akan menulis tiga file baru, consignment, disclosure, dan psbt termasuk tweak, psbt ini disebut transaksi saksi, consignment dikirim ke rgb-node-1.
 
 ## Saksi
 
-Transaksi saksi harus ditandatangani dan disiarkan, untuk ini kita perlu mengenkodkannya kembali ke base64.
+Transaksi saksi harus ditandatangani dan disiarkan. Untuk itu kita perlu mengenkodkannya kembali ke base64.
 
 ```
 $ base64 -w0 witness.psbt
@@ -430,6 +436,6 @@ Deskripsi: ~ knownCirculating: 1000
 
 ## Kesimpulan
 
-Kami telah berhasil menciptakan aset yang dapat ditukar dan memindahkannya dari satu transaksi ke transaksi lainnya secara privat. Jika kita memeriksa transaksi yang telah dikonfirmasi di block explorer, kita tidak akan menemukan perbedaan apa pun dari transaksi reguler. Hal ini berkat RGB yang menggunakan segel penggunaan tunggal untuk menyesuaikan transaksi. Dalam postingan ini, saya memperkenalkan cara kerja RGB.
+Kita sudah berhasil membuat aset yang bisa ditukar dan memindahkannya dari satu transaksi ke transaksi lain secara privat. Jika kita memeriksa transaksi yang sudah dikonfirmasi di block explorer, kita tidak akan menemukan perbedaan apa pun dari transaksi reguler. Ini berkat RGB yang memakai single-use-seals untuk menyesuaikan transaksi. Di postingan ini aku memperkenalkan cara kerja RGB.
 
-Postingan ini mungkin memiliki bug, jika Anda menemukan sesuatu, mohon beritahu saya untuk meningkatkan panduan ini. Saran dan kritik juga selalu diterima, selamat hacking! 🖖
+Postingan ini mungkin punya bug. Kalau kamu menemukan sesuatu, tolong beri tahu aku supaya panduan ini bisa ditingkatkan. Saran dan kritik juga selalu diterima, selamat hacking! 🖖

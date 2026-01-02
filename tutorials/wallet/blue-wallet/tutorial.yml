@@ -9,11 +9,12 @@ professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-06-03
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0.76
+      - nrak10
+    reward: 0.38
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -48,7 +49,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.4
+    reward: 3.41
   - language: id
     last_contribution_date:
     urgency: 1
@@ -145,6 +146,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.99
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.46
 tags:
   - wallets
   - user-friendly

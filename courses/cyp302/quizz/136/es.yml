@@ -6,4 +6,4 @@ wrong_answers:
   - Comparando la contraseña directamente con la de otros usuarios
 explanation: |
   El servicio genera un hash de la contraseña ingresada y lo compara con el almacenado, sin almacenar directamente la contraseña, asegurando así una mayor seguridad.
-reviewed: false
+reviewed: true

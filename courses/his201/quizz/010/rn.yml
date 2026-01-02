@@ -1,9 +1,9 @@
-question: Ni nde yari umuntu nyamukuru yatumye PayPal iremwa?
-answer: Petero Tiyeli
+question: Ni nde muntu nyamukuru mwiremwa rya PayPal?
+answer: Peter Thiel
 wrong_answers:
-  - Eloni Musk
-  - Mariko Andereseni
-  - Mariko Zukabergi
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerber
 explanation: |
   Ico gikoresho ca PayPal cakozwe mu mwaka w’1999 na Confinity Inc., kikaba cashinzwe mu kwezi kwa kigarama 1998 i San Francisco na Peter Thiel na Max Levchin.
 reviewed: true

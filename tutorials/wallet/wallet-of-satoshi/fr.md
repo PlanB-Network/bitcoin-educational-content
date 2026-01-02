@@ -1,6 +1,6 @@
 ---
 name: Wallet of Satoshi
-description: La Wallet la plus simple pour démarrer
+description: Le Wallet le plus simple pour démarrer
 ---
 ![cover](assets/cover.webp)
 
@@ -63,7 +63,7 @@ Toute la fenêtre de menu s'ouvre, dans laquelle vous devez exclusivement défin
 
 Le WoS étant un outil de conservation, nous ne pouvons pas sauvegarder le Wallet avec la phrase Mnemonic, mais nous pouvons permettre au WoS de récupérer nos fonds, en cas de perte ou de non-utilisation de l'appareil mobile, en cliquant sur _Login/Register_
 
-Une fenêtre apparaît nous demandant d'entrer un email Address. Il peut s'agir d'un **mail Proton** (recommandé), mais il doit être fonctionnel, car il nous permettra de récupérer les fonds dans la Wallet en cas de perte/vol ou d'endommagement du téléphone portable.
+Une fenêtre apparaît nous demandant d'entrer un email Address. Il peut s'agir d'un **mail Proton** (recommandé), mais il doit être fonctionnel, car il nous permettra de récupérer les fonds dans le Wallet en cas de perte/vol ou d'endommagement du téléphone portable.
 
 
 ![image](assets/it/08.webp)
@@ -133,7 +133,7 @@ Cliquez sur _Receive_ et choisissez la commande avec le symbole Lightning Networ
 ![image](assets/it/16.webp)
 
 
-Le menu de création de la Invoice apparaît, où l'on clique sur _Add Amount_ pour écrire le montant exact et ajouter une description, dans cet exemple, "My first Invoice".
+Le menu de création de l'Invoice apparaît, où l'on clique sur _Add Amount_ pour écrire le montant exact et ajouter une description, dans cet exemple, "My first Invoice".
 
 
 ![image](assets/it/17.webp)
@@ -145,7 +145,7 @@ Avec le clavier, nous fixons le montant.
 ![image](assets/it/18.webp)
 
 
-pour ensuite recevoir le paiement de la Invoice. Le paiement reçu se présente comme suit :
+pour ensuite recevoir le paiement de l'Invoice. Le paiement reçu se présente comme suit :
 
 
 ![image](assets/it/19.webp)
@@ -154,7 +154,7 @@ pour ensuite recevoir le paiement de la Invoice. Le paiement reçu se présente 
 ### Collecte auprès du TPV
 
 
-Wallet of la Satoshi possède une caractéristique par défaut qui la rend particulièrement adaptée aux commerçants : le point de vente. Voyons comment l'activer.
+Wallet of Satoshi possède une caractéristique par défaut qui la rend particulièrement adaptée aux commerçants : le point de vente. Voyons comment l'activer.
 
 
 Dans l'écran principal, sélectionnez le menu en haut à droite.
@@ -179,7 +179,7 @@ puis tapez le montant sur le clavier, dans l'exemple qui suit égal à 10 cents 
 ![image](assets/it/23.webp)
 
 
-pour generate le Invoice et le montrer, par exemple, à un client.
+pour générer l'Invoice et le montrer, par exemple, à un client.
 
 
 ![image](assets/it/24.webp)
@@ -212,7 +212,7 @@ Lors de la première utilisation, le WoS demande l'autorisation d'accéder à la
 ![image](assets/it/28.webp)
 
 
-En encadrant la Invoice, nous voyons qu'un paiement de 210 Sats a été demandé. Une description est également lue, si le demandeur en a défini une. Cet écran est à la fois un résumé et une demande de confirmation : Le WoS "demande l'autorisation" d'envoyer le paiement, ce qui lui est accordé en cliquant sur le bouton Green _Send_
+En encadrant l'Invoice, nous voyons qu'un paiement de 210 Sats a été demandé. Une description est également lue, si le demandeur en a défini une. Cet écran est à la fois un résumé et une demande de confirmation : Le WoS "demande l'autorisation" d'envoyer le paiement, ce qui lui est accordé en cliquant sur le bouton Green _Send_
 
 
 ![image](assets/it/29.webp)

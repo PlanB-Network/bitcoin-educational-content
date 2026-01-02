@@ -1,8 +1,8 @@
 question: Lorsque les hachages de blocs Bitcoin sont interprétés comme des entiers little-endian pour la comparaison des cibles, pourquoi les blocs valides affichent-ils généralement de nombreux zéros de fin dans leur représentation hexadécimale ?
-answer: L'interprétation little-endian signifie que les octets les plus à droite dans l'hexagone correspondent aux bits les plus significatifs de la valeur entière
+answer: L'interprétation little-endian signifie que les octets les plus à droite dans l'hexadécimal correspondent aux bits les plus significatifs de la valeur entière
 wrong_answers:
   - L'algorithme SHA-256 produit naturellement des zéros de fin lorsque l'entrée contient des données de transaction avec des motifs répétés
-  - En effet, les mineurs remplissent délibérément l'en-tête du bloc avec zéro octet afin de rendre le calcul du hachage plus efficace pour le matériel ASIC
-  - Comme le champ nonce est incrémenté de zéro à la hausse, la fonction de hachage utilise des motifs generate avec des zéros à la fin
+  - En effet, les mineurs remplissent délibérément l'en-tête du bloc avec des octets zéro afin de rendre le calcul du hachage plus efficace pour le matériel ASIC
+  - Comme le champ nonce est incrémenté de zéro à la hausse, la fonction de hachage utilise des motifs générés avec des zéros à la fin
 explanation: |
   Dans l'interprétation little-endian, les octets sont lus dans l'ordre inverse, de sorte que les octets les plus à droite en hexadécimal deviennent la partie la plus significative de l'entier. Pour qu'un hachage soit inférieur à la cible (un petit nombre), ses bits les plus significatifs doivent être des zéros, qui apparaissent comme des zéros de queue dans l'affichage hexadécimal. Il s'agit d'un artefact de représentation de la conversion de l'endianness, et non d'une propriété du matériel SHA-256 ou mining.

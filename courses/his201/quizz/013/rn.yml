@@ -1,9 +1,9 @@
-question: Ni abahe bashakashatsi bavuzwe na Satoshi Nakamoto mu gitabu cera ca Bitcoin kubera igikorwa cabo co gushiramwo ikidodo c’igihe cemewe?
-answer: Situwati Haberi na Sikoti Sitorneta
+question: Ni abahe bashakashatsi bavuzwe na Satoshi Nakamoto mu gitabu cera ca Bitcoin kubera igikorwa cabo co gushiramwo ikidodo c’igihe cemewe(timestamping)?
+answer: Stuart Haber na Scott Stornetta
 wrong_answers:
   - Leslie Lamport, Robert Shostak, na Marishali Pise
   - Sintiya Dwoki na Moni Nawori
   - Ronald Rivest na Adi Shamir
 explanation: |
-  Ico gitabu cera caravuze impapuro zitatu za Haber na Stornetta zo mu myaka ya 1990. Bazwi cane mu kurema [igitabu ca mbere ca Blockchain], icasohowe mu kinyamakuru New York Times guhera mu 1992.
+  Ico gitabu cera caravuze inkuru zitatu za Haber na Stornetta zo mu myaka ya 1990. Bazwi cane mu kurema [igitabu ca mbere ca Blockchain], icasohowe mu kinyamakuru New York Times guhera mu 1992.
 reviewed: true

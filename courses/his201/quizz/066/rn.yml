@@ -1,9 +1,9 @@
-question: Iryo rubuga ryari rirongowe na Jon Matonis ryari rivuga ku mafaranga y’ubuhinga bwa none (harimwo na Bitcoin kuva muri Ntwarante 2010) ryari irihe?
-answer: Kazoza k'amahera
+question: Ni irihe zina ry'urubuga rutunganywa na Jon Matonis rwari rutunganya mafaranga y’ubuhinga bwa none (harimwo na Bitcoin kuva muri Ntwarante 2010)?
+answer: The Monetary Future
 wrong_answers:
-  - Ivyigwa vy'ubutunzi vya kera
-  - Gusubira ku mafaranga
-  - Ikigo ca Nakamoto
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
 explanation: |
   Amaze guhanahana ama email na Satoshi, yasohoye [ingingo yiwe ya mbere kuri Bitcoin] ku wa 13 Ntwarante 2010.
 reviewed: true

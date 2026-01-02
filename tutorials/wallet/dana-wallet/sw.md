@@ -1,21 +1,21 @@
 ---
 name: Dana Wallet
-description: Jalada la chini kabisa la Malipo ya Kimya (BIP-352)
+description: Jalada la chini kabisa la Silent Payments (BIP-352)
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Matumizi tena ya anwani za Bitcoin ni mojawapo ya vitisho vya moja kwa moja kwa usiri wa mtumiaji. Mpokeaji anaposhiriki anwani moja ili kupokea malipo mengi, mwangalizi yeyote anaweza kufuatilia miamala yote husika na kuunda upya historia yao ya fedha. Tatizo hili linaathiri hasa waundaji wa maudhui, wafadhili au wanaharakati wanaotaka kuonyesha hadharani anwani ya michango bila kuathiri faragha yao au ya wafadhili wao.
+Matumizi tena ya address za Bitcoin ni mojawapo ya vitisho vya moja kwa moja kwa usiri wa mtumiaji. Mpokeaji anaposhiriki address moja ili kupokea malipo mengi, mwangalizi yeyote anaweza kufuatilia miamala yote husika na kuunda upya historia yao ya fedha. Tatizo hili linaathiri hasa waundaji wa maudhui, wafadhili au wanaharakati wanaotaka kuonyesha hadharani address ya michango bila kuathiri faragha yao au ya wafadhili wao.
 
 
 
-Dana Wallet hujibu tatizo hili kwa suluhisho la kifahari: Malipo ya Kimya. wallet hii isiyo na kiwango cha chini, ya chanzo huria, iliyozinduliwa mwaka wa 2024, inazalisha anwani tuli inayoweza kutumika tena huku ikihakikisha kwamba kila malipo yanayopokelewa yanaishia kwenye anwani tofauti kwenye blockchain. Mtumaji hahitaji mwingiliano wa awali na mpokeaji, na hakuna mwangalizi wa nje anayeweza kuunganisha shughuli za kibinafsi pamoja. Kwenye blockchain, malipo haya yanaonekana kama shughuli za kawaida kabisa za Taproot.
+Dana Wallet hujibu tatizo hili kwa suluhisho la kifahari: Silent Payments. wallet hii isiyo na kiwango cha chini, ya chanzo huria, iliyozinduliwa mwaka wa 2024, inazalisha address tuli inayoweza kutumika tena huku ikihakikisha kwamba kila malipo yanayopokelewa yanaishia kwenye address tofauti kwenye blockchain. Mtumaji hahitaji mwingiliano wa awali na mpokeaji, na hakuna mwangalizi wa nje anayeweza kuunganisha shughuli za kibinafsi pamoja. Kwenye blockchain, malipo haya yanaonekana kama shughuli za kawaida kabisa za Taproot.
 
 
 
-Dana Wallet inapatikana kwenye Mainnet na Signet, lakini wasanidi bado wanaiona kuwa ya majaribio na kupendekeza usiweke pesa ambazo hauko tayari kupoteza. Katika somo hili, tutatumia toleo la Saini kugundua Malipo ya Kimya bila kuhatarisha pesa zozote halisi.
+Dana Wallet inapatikana kwenye Mainnet na Signet, lakini wasanidi bado wanaiona kuwa ya majaribio na kupendekeza usiweke pesa ambazo hauko tayari kupoteza. Katika somo hili, tutatumia toleo la Saini kugundua Silent Payments bila kuhatarisha pesa zozote halisi.
 
 
 
@@ -27,23 +27,23 @@ Dana Wallet inapatikana kwenye Mainnet na Signet, lakini wasanidi bado wanaiona 
 
 
 
-Dana Wallet inatumia mbinu ya "SP-kwanza": wallet inazalisha anwani za Malipo ya Kimya pekee, na inakubali malipo ya aina hii pekee. Hutaweza kuunda anwani ya kawaida ya Bitcoin (zamani, SegWit au kiwango cha Taproot) ukitumia programu hii. Kizuizi hiki cha kimakusudi hukuruhusu kuzingatia kikamilifu kujifunza itifaki ya BIP-352 bila kukengeushwa na vipengele vingine. Kiolesura kisicho na vitu vingi kwa makusudi kinapendelea urahisi wa matumizi kuliko wingi wa chaguo, na kufanya zana kupatikana hata kwa watumiaji wapya kwa dhana za usiri za on-chain.
+Dana Wallet inatumia mbinu ya "SP-first": wallet inazalisha address za Silent Payments pekee, na inakubali malipo ya aina hii pekee. Hutaweza kuunda address ya kawaida ya Bitcoin (legacy address, SegWit au kiwango cha Taproot) ukitumia programu hii. Kizuizi hiki cha kimakusudi hukuruhusu kuzingatia kikamilifu kujifunza BIP-352 protocol bila kukengeushwa na vipengele vingine. Kiolesura kisicho na vitu vingi kwa makusudi kinapendelea urahisi wa matumizi kuliko wingi wa chaguo, na kufanya zana kupatikana hata kwa watumiaji wapya kwa dhana za usiri za on-chain.
 
 
 
-Mradi huu ni chanzo huria kabisa, umetengenezwa na Flutter kwa kiolesura cha simu na Rust kwa mantiki ya ndani ya kriptografia. Usanifu huu unachanganya hali ya utendakazi ya mtumiaji na utendakazi bora zaidi kwa shughuli za utambazaji wa kina.
+Mradi huu ni chanzo huria kabisa, umetengenezwa na Flutter kwa kiolesura cha simu na Rust kwa mantiki ya ndani ya cryptography. Usanifu huu unachanganya hali ya utendakazi ya mtumiaji na utendakazi bora zaidi kwa shughuli za utambazaji wa kina.
 
 
 
-### Malipo ya Kimya hufanyaje kazi?
+### Silent Payments hufanyaje kazi?
 
 
 
-Malipo ya Kimya (BIP-352) yanatokana na utaratibu wa kisasa wa kriptografia kwa kutumia Elliptic Curve Diffie-Hellman Key Exchange (ECDH). Mpokeaji hutengeneza anwani tuli (kuanzia `sp1...` kwenye mainnet au `tsp1...` kwenye Saini) inayojumuisha funguo mbili tofauti za umma: ufunguo wa kuchanganua ($B_{scan}$) ili kugundua malipo yanayoingia, na ufunguo wa kutumia ($B_{spend}$) ili kutumia pesa zilizopokelewa. Utenganisho huu unawezesha kuweka ufunguo wa kutumia kwenye maunzi ya wallet huku ukitumia kitufe cha kutambaza kwenye kifaa kilichounganishwa.
+Silent Payments (BIP-352) yanatokana na utaratibu wa kisasa wa cryptography kwa kutumia Elliptic Curve Diffie-Hellman Key Exchange (ECDH). Mpokeaji hutengeneza address tuli (kuanzia `sp1...` kwenye mainnet au `tsp1...` kwenye Saini) inayojumuisha funguo mbili tofauti za umma: ufunguo wa kuchanganua ($B_{scan}$) ili kugundua malipo yanayoingia, na ufunguo wa kutumia ($B_{spend}$) ili kutumia pesa zilizopokelewa. Utenganisho huu unawezesha kuweka ufunguo wa kutumia kwenye maunzi ya wallet huku ukitumia kitufe cha kutambaza kwenye kifaa kilichounganishwa.
 
 
 
-Mtumaji anapotaka kufanya malipo, wallet yake huchanganya jumla ya funguo za faragha za ingizo lake na ufunguo wa uchanganuzi wa umma wa mpokeaji ili kukokotoa siri ya ECDH iliyoshirikiwa. Siri hii hutoa "tweak" ya kriptografia ambayo, ikiongezwa kwa ufunguo wa matumizi wa mpokeaji, huunda anwani ya kipekee ya Taproot kwa shughuli hiyo.
+Mtumaji anapotaka kufanya malipo, wallet yake huchanganya jumla ya funguo za faragha za ingizo lake na ufunguo wa uchanganuzi wa umma wa mpokeaji ili kukokotoa siri ya ECDH iliyoshirikiwa. Siri hii hutoa "tweak" ya cryptography ambayo, ikiongezwa kwa ufunguo wa matumizi wa mpokeaji, huunda address ya kipekee ya Taproot kwa muamala huu.
 
 
 
@@ -56,18 +56,18 @@ Mbinu hii inatoa faida kadhaa:
 
 
 
-- Usiri wa mpokeaji**: kila malipo huishia katika anwani tofauti
-- Usiri wa mtumaji**: hakuna kitambulisho endelevu kinachounganisha malipo
-- Hakuna seva ya mtu wa tatu**: itifaki inafanya kazi kwa uhuru
-- Shughuli zisizoweza kutofautishwa**: Malipo ya Kimya yanaonekana kama miamala ya kawaida ya Taproot
+- **Usiri wa mpokeaji**: kila malipo huishia katika address tofauti
+- **Usiri wa mtumaji**: hakuna kitambulisho endelevu kinachounganisha malipo
+- **Hakuna server ya mtu wa tatu**: protocol inafanya kazi kwa uhuru
+- **Miamala isiyooweza kutofautishwa**: Silent Payments zinaonekana kama miamala ya kawaida ya Taproot
 
 
 
-Drawback kuu ni gharama ya skanning: mpokeaji anapaswa kuchambua kila shughuli mpya ya Taproot ili kugundua wale waliokusudiwa kwake.
+Drawback kuu ni gharama ya skanning: mpokeaji anapaswa kuchambua kila muamala mpya wa Taproot ili kugundua wale waliokusudiwa kwake.
 
 
 
-Iwapo ungependa kupata maelezo zaidi kuhusu utendakazi wa kiufundi wa Malipo ya Kimya, tunapendekeza kozi ya BTC204 kuhusu usiri katika Bitcoin, inayojumuisha sura inayohusu Malipo ya Kimya:
+Iwapo ungependa kupata maelezo zaidi kuhusu utendakazi wa kiufundi wa Silent Payments, tunapendekeza kozi ya BTC204 kuhusu usiri katika Bitcoin, inayojumuisha sura inayohusu Silent Payments:
 
 
 
@@ -134,9 +134,9 @@ Katika uzinduzi wa kwanza, Dana Wallet huonyesha skrini ya kukaribisha inayotamb
 
 
 
-- Michango isiyo na bidii**: anza kupokea michango kwa sekunde
-- Faragha kwa chaguomsingi**: hakuna haja ya seva au miundombinu changamano
-- Uzoefu kama wa barua pepe**: tuma na upokee bitcoins kwa urahisi kama barua pepe
+- **Michango isiyo na bidii**: anza kupokea michango kwa sekunde
+- **Faragha kwa chaguomsingi**: hakuna haja ya server au miundombinu changamano
+- **Uzoefu kama wa barua pepe**: tuma na upokee bitcoin kwa urahisi kama barua pepe
 
 
 
@@ -169,10 +169,10 @@ Kichupo cha **Mipangilio** hutoa chaguzi nne:
 
 
 
-- Onyesha kifungu cha maneno cha seed**: huonyesha maneno yako ya kurejesha akaunti kwa ajili ya uhifadhi
-- Badilisha sarafu ya fiat**: badilisha sarafu ya kuonyesha (USD kwa chaguo-msingi)
-- Weka url ya nyuma**: sanidi URL ya seva ya Blindbit (tazama sehemu inayofuata)
-- Futa wallet **: inafuta kabisa wallet kutoka kwa kifaa
+- **Onyesha kifungu cha maneno cha seed**: huonyesha maneno yako ya kurejesha akaunti kwa ajili ya uhifadhi
+- **Badilisha sarafu ya fiat**: badilisha sarafu ya kuonyesha (USD kwa chaguo-msingi)
+- **Weka url ya nyuma**: sanidi URL ya server ya Blindbit (tazama sehemu inayofuata)
+- **Futa wallet**: inafuta kabisa wallet kutoka kwa kifaa
 
 
 
@@ -180,23 +180,23 @@ Kichupo cha **Mipangilio** hutoa chaguzi nne:
 
 
 
-### Seva ya Blindbit
+### Server ya Blindbit
 
 
 
-Dana Wallet hutumia seva ya kuorodhesha inayoitwa **Blindbit** ili kugundua Malipo yako ya Kimya. Kuelewa jinsi inavyofanya kazi ni muhimu kwa kutathmini muundo wa uaminifu wa programu.
+Dana Wallet hutumia server ya kuorodhesha inayoitwa **Blindbit** ili kugundua Silent Payments. Kuelewa jinsi inavyofanya kazi ni muhimu kwa kutathmini muundo wa uaminifu wa programu.
 
 
 
-**Kwa nini tunahitaji seva?
+**Kwa nini tunahitaji server?**
 
 
 
-Ili kugundua Malipo ya Kimya, wallet yako lazima ichanganue kinadharia miamala yote ya Taproot katika kila block na kufanya hesabu ya kriptografia (ECDH) kwa kila moja. Kwenye simu ya rununu, operesheni hii itakuwa ya kimahesabu sana na ya kutumia kipimo data.
+Ili kugundua Silent Payments, wallet yako lazima ichanganue kinadharia miamala yote ya Taproot katika kila block na kufanya hesabu ya cryptography (ECDH) kwa kila moja. Kwenye simu ya rununu, operesheni hii itakuwa ya kimahesabu sana na ya kutumia kipimo data.
 
 
 
-Seva ya Blindbit hutatua tatizo hili kwa kuhesabu awali data ya kati (inayoitwa "tweaks") kwa shughuli zote za Taproot. wallet yako kisha inapakua marekebisho haya (baiti 33 kwa kila ununuzi) na kufanya hesabu ya mwisho **ndani** ili kuangalia kama malipo ni yako.
+Server ya Blindbit hutatua tatizo hili kwa kuhesabu awali data ya kati (inayoitwa "tweaks") kwa miamala yote ya Taproot. wallet yako kisha inapakua marekebisho haya (baiti 33 kwa kila ununuzi) na kufanya hesabu ya mwisho **ndani** ili kuangalia kama malipo ni yako.
 
 
 
@@ -204,35 +204,35 @@ Seva ya Blindbit hutatua tatizo hili kwa kuhesabu awali data ya kati (inayoitwa 
 
 
 
-Tofauti na seva ya kawaida ya Electrum ambapo unafichua anwani zako, seva ya Blindbit haijui ni malipo gani ni yako. Inatoa data sawa kwa watumiaji wote, na ni simu yako ambayo hufanya uthibitishaji wa mwisho. Kwa hivyo usiri wako unahifadhiwa kupitia seva.
+Tofauti na server ya kawaida ya Electrum ambapo unafichua address zako, server ya Blindbit haijui ni malipo gani ni yako. Inatoa data sawa kwa watumiaji wote, na ni simu yako ambayo hufanya uthibitishaji wa mwisho. Kwa hivyo usiri wako unahifadhiwa kupitia server.
 
 
 
-**Seva chaguo-msingi
+**Server chaguo-msingi**
 
 
 
-Dana Wallet hutumia seva ya umma `silentpayments.dev/blindbit/signet` (kwa Saini) au `silentpayments.dev/blindbit/mainnet` (kwa Mainnet). Unaweza kubadilisha URL hii katika mipangilio ikiwa unapangisha seva yako mwenyewe.
+Dana Wallet hutumia server ya umma `silentpayments.dev/blindbit/signet` (kwa Saini) au `silentpayments.dev/blindbit/mainnet` (kwa Mainnet). Unaweza kubadilisha URL hii katika mipangilio ikiwa unapangisha server yako mwenyewe.
 
 
 
-**Pandisha seva yako ya Blindbit**
+**Pandisha server yako ya Blindbit**
 
 
 
-Kwa watumiaji wanaotaka uhuru kamili, inawezekana kupangisha seva yao ya Blindbit Oracle. Hii inahitaji:
+Kwa watumiaji wanaotaka uhuru kamili, inawezekana kupangisha server yao ya Blindbit Oracle. Hii inahitaji:
 
 
 
 
-- Nodi kamili ya Bitcoin **isiyo na tai** (isiyo ya pruned)
+- Full node ya Bitcoin **isiyo na tai** (isiyo ya pruned)
 - Inasakinisha Blindbit Oracle (inapatikana kwenye GitHub: `setavenger/blindbit-oracle`)
-- Takriban. 10 GB ya nafasi ya ziada ya diski
-- Ujuzi wa kiufundi (Mkusanyiko wa Nenda, usanidi wa seva)
+- Takriban. 10 GB ya nafasi ya ziada ya disk
+- Ujuzi wa kiufundi (Mkusanyiko wa Nenda, usanidi wa server)
 
 
 
-Hakuna programu iliyopakiwa bado inapatikana kwa Umbrel au Start9. Ufungaji unabaki kuwa mwongozo kwa wakati huu. Huu ni uga katika mageuzi amilifu, na suluhu zinazoweza kufikiwa zaidi zinaweza kutokea katika siku zijazo.
+Hakuna programu iliyopakiwa bado inayopatikana kwa Umbrel au Start9. Ufungaji kwa sasa unabaki kuwa wa mwongozo. Huu ni uga ulio katika mageuzi ya kila wakati, na suluhu zinazoweza kufikiwa zaidi zinaweza kujitokeza katika siku zijazo.
 
 
 
@@ -244,18 +244,18 @@ Hakuna programu iliyopakiwa bado inapatikana kwa Umbrel au Start9. Ufungaji unab
 
 
 
-Ili kupokea bitcoins, bonyeza kitufe cha kupokea (ikoni ya kupakua) kutoka kwa skrini kuu. Dana Wallet kisha inaonyesha anwani yako kamili ya Malipo ya Kimya katika umbizo `tsp1q...` kwenye Alamisho. Interface inatoa chaguzi kadhaa:
+Ili kupokea bitcoin, bonyeza kitufe cha kupokea (ikoni ya kupakua) kutoka kwa skrini kuu. Dana Wallet kisha inaonyesha address yako kamili ya Silent Payments katika umbizo `tsp1q...` kwenye Alamisho. Interface inatoa chaguzi kadhaa:
 
 
 
 
-- Onyesha msimbo wa QR**: huonyesha msimbo wa QR wa anwani yako kwa uchanganuzi kwa urahisi
-- Shiriki**: shiriki anwani kupitia programu za simu yako
-- Nakili**: anwani ya nakala kwenye ubao wa kunakili
+- **Onyesha msimbo wa QR**: huonyesha msimbo wa QR wa address yako kwa uchanganuzi kwa urahisi
+- **Shiriki**: shiriki address kupitia programu za simu yako
+- **Nakili**: address ya nakala kwenye ubao wa kunakili
 
 
 
-Kama inavyoonyeshwa kwenye skrini, unaweza kushiriki anwani hii hadharani kwenye mitandao yako ya kijamii bila kuhatarisha faragha yako.
+Kama inavyoonyeshwa kwenye skrini, unaweza kushiriki address hii hadharani kwenye mitandao yako ya kijamii bila kuhatarisha faragha yako.
 
 
 
@@ -263,7 +263,7 @@ Kama inavyoonyeshwa kwenye skrini, unaweza kushiriki anwani hii hadharani kwenye
 
 
 
-Ili kupata pesa zako za majaribio kwa mara ya kwanza kwenye Saini, tumia bomba maalum la Malipo ya Kimya linalopatikana katika `silentpayments.dev/faucet/signet`. Nakili anwani yako `tsp1...`, ibandike katika sehemu iliyotolewa kwenye bomba, kisha uthibitishe ombi. Subiri kizuizi kichimbwe (kama dakika 10 kwenye Saini).
+Ili kupata pesa zako za majaribio kwa mara ya kwanza kwenye Saini, tumia bomba maalum la Silent Payments yanayopatikana katika `silentpayments.dev/faucet/signet`. Nakili address yako `tsp1...`, ibandike katika sehemu iliyotolewa kwenye bomba, kisha uthibitishe ombi. Subiri block  ikue mined (kama dakika 10 kwenye Saini).
 
 
 
@@ -277,12 +277,12 @@ Ili kutuma pesa, bonyeza kitufe cha "Lipa" kutoka skrini kuu. Skrini ya "Chagua 
 
 
 - Weka maelezo ya malipo wewe mwenyewe
-- Bandika kutoka ubao wa kunakili**: bandika anwani kutoka kwa ubao wa kunakili
-- Changanua Msimbo wa QR**: changanua msimbo wa QR ulio na anwani
+- **andika kutoka ubao wa kunakili**: bandika address kutoka kwa ubao wa kunakili
+- **Changanua Msimbo wa QR**: changanua msimbo wa QR ulio na address
 
 
 
-Mara tu anwani ya mpokeaji imethibitishwa, skrini ya "Ingiza kiasi" hukuwezesha kuingiza kiasi kitakachotumwa kwa satoshi. Salio lako linalopatikana linaonyeshwa kwa marejeleo. Bonyeza "Nenda kwenye uteuzi wa ada" ili kuendelea.
+Mara tu address ya mpokeaji imethibitishwa, skrini ya "Ingiza kiasi" hukuwezesha kuingiza kiasi kitakachotumwa kwa satoshi. Salio lako linalopatikana linaonyeshwa kwa marejeleo. Bonyeza "Nenda kwenye uteuzi wa ada" ili kuendelea.
 
 
 
@@ -295,13 +295,13 @@ Skrini inayofuata inaonyesha viwango vitatu vya malipo, kulingana na uharaka una
 
 
 
-- Haraka** (dakika 10-30): ada ya juu kwa uthibitisho wa haraka
-- Kawaida ** (dakika 30-60): gharama za wastani
-- Polepole** (saa 1+): ada ya chini zaidi kwa shughuli zisizo za dharura
+- **Haraka** (dakika 10-30): ada ya juu kwa uthibitisho wa haraka
+- **Kawaida** (dakika 30-60): gharama za wastani
+- **Polepole** (saa 1+): ada ya chini zaidi kwa miamala isiyo ya dharura
 
 
 
-Baada ya kuchagua kiwango cha ada, "Tayari kutuma?" skrini ya uthibitishaji ni muhtasari wa maelezo yote: anwani lengwa, kiasi, muda uliokadiriwa na ada ya muamala. Angalia maelezo haya kwa uangalifu, kisha ubonyeze "Tuma" ili kutuma muamala.
+Baada ya kuchagua kiwango cha ada, "Tayari kutuma?" skrini ya uthibitishaji ni muhtasari wa maelezo yote: address lengwa, kiasi, muda uliokadiriwa na ada ya muamala. Angalia maelezo haya kwa uangalifu, kisha ubonyeze "Tuma" ili kutuma muamala.
 
 
 
@@ -323,11 +323,11 @@ Mara baada ya kutumwa, muamala huonekana kwenye historia yako na hali ya "Haijat
 
 
 
-- Kialimu**: kiolesura kilichorahisishwa kinacholenga kujifunza Malipo ya Kimya
-- Bidirectional**: inasaidia kutuma na kupokea, tofauti na portfolios zingine
-- Chanzo-wazi**: nambari inayoweza kukaguliwa kikamilifu kwenye GitHub
-- Faucet** iliyowekwa wakfu: hurahisisha kupata ufadhili wa majaribio
-- Bila akaunti **: hakuna usajili au data ya kibinafsi inahitajika
+- **Kialimu**: kiolesura kilichorahisishwa kinacholenga kujifunza Silent Payments
+- **Bidirectional**: inasaidia kutuma na kupokea, tofauti na portfolios zingine
+- **Chanzo-wazi**: nambari inayoweza kukaguliwa kikamilifu kwenye GitHub
+- **Faucet** iliyowekwa wakfu: hurahisisha kupata ufadhili wa majaribio
+- **Bila akaunti**: hakuna usajili au data ya kibinafsi inahitajika
 
 
 
@@ -337,10 +337,10 @@ Mara baada ya kutumwa, muamala huonekana kwenye historia yako na hali ya "Haijat
 
 
 
-- Majaribio**: programu ambayo haijakaguliwa, tumia kwa tahadhari kwenye Mainnet
-- Mfumo mdogo**: hasa Android, hakuna toleo la iOS
-- Utendaji uliopunguzwa**: hakuna udhibiti wa sarafu, hakuna akaunti ndogo, hakuna Umeme
-- Uchanganuzi wa kina**: utambuzi wa malipo hutumia rasilimali muhimu
+- **Majaribio**: programu ambayo haijakaguliwa, tumia kwa tahadhari kwenye Mainnet
+- **Mfumo mdogo**: hasa Android, hakuna toleo la iOS
+- **Utendaji uliopunguzwa**: hakuna udhibiti wa sarafu, hakuna akaunti ndogo, hakuna Umeme
+- **Uchanganuzi wa kina**: utambuzi wa malipo hutumia rasilimali muhimu
 
 
 
@@ -352,7 +352,7 @@ Mara baada ya kutumwa, muamala huonekana kwenye historia yako na hali ya "Haijat
 
 
 
-Hata kwa majaribio ya Signet yenye asili zisizo na thamani, shughulikia maneno yako ya kurejesha akaunti kwa uzito. Tumia chaguo la "Onyesha maneno ya seed" katika mipangilio ili uandike kwa makini. Kama suala la mazoezi mazuri, dumisha pochi tofauti kabisa za Signet na Mainnet: usiwahi kutumia seed iliyoundwa kwa majaribio kwenye wallet inayokusudiwa kupokea pesa halisi.
+Hata kwa majaribio ya Signet yenye asili zisizo na thamani, shughulikia maneno yako ya kurejesha akaunti kwa uzito. Tumia chaguo la "Onyesha maneno ya seed" katika mipangilio ili uandike kwa makini. Kama suala la mazoezi mazuri, dumisha wallets tofauti kabisa za Signet na Mainnet: usiwahi kutumia seed iliyoundwa kwa majaribio kwenye wallet inayokusudiwa kupokea pesa halisi.
 
 
 
@@ -368,7 +368,7 @@ Dana Wallet bado inachukuliwa kuwa ya majaribio na watengenezaji wake. Kama wana
 
 
 
-Urejeshaji wa hazina ya Malipo ya Kimya unahitaji wallet inayooana na itifaki ya BIP-352. wallet ya kawaida haiwezi kuchanganua blockchain ili kupata Malipo yako ya Kimya ya UTXO. Weka Dana Wallet ikiwa imesakinishwa au tumia chaguo la "Rejesha" mwanzoni mwa uzinduzi ili kurejesha wallet iliyopo.
+Urejeshaji wa hazina ya Silent Payments unahitaji wallet inayooana na BIP-352 protocol. Wallet ya kawaida haiwezi kuchanganua blockchain ili kutambua UTXO zako za Silent Payments. Weka Dana Wallet ikiwa bado imesakinishwa au tumia chaguo la Rejesha mwanzoni mwa uzinduzi ili kurejesha wallet iliyopo
 
 
 
@@ -384,7 +384,7 @@ Urejeshaji wa hazina ya Malipo ya Kimya unahitaji wallet inayooana na itifaki ya
 | Scan côté receveur | Intensif (chaque bloc) | Léger (après notification) | Aucun |
 | Confidentialité expéditeur | Excellente | Limitée (lien après notification) | Bonne (brouillage) |
 
-Malipo ya Kimya huondoa shughuli ya arifa ya BIP-47 kwa gharama ya skanisho ghali zaidi. PayJoin hutatua tatizo tofauti (uwiano wa pembejeo) na inaweza kuunganishwa na Malipo ya Kimya.
+Silent Payments huondoa shughuli ya arifa ya BIP-47 kwa gharama ya skanisho ghali zaidi. PayJoin hutatua tatizo tofauti (uwiano wa pembejeo) na inaweza kuunganishwa na Silent Payments.
 
 
 
@@ -392,11 +392,10 @@ Malipo ya Kimya huondoa shughuli ya arifa ya BIP-47 kwa gharama ya skanisho ghal
 
 
 
-Dana Wallet ni zana muhimu ya kielimu ya kujifunza kuhusu Malipo ya Kimya katika mazingira yasiyo na hatari. Mbinu yake ndogo hukuruhusu kuelewa taratibu za kimsingi za itifaki ya BIP-352 bila kukengeushwa na vipengele vya pili. Kwa kufanya majaribio na Signet, utakuza uelewa wa vitendo wa teknolojia hii ya kuahidi kwa usiri wa shughuli ya Bitcoin.
+Dana Wallet ni zana muhimu ya kielimu kwa kujifunza kuhusu Silent Payments katika mazingira yasiyo na hatari. Mbinu yake nyepesi hukuruhusu kuelewa taratibu za msingi za BIP-352 protocol bila kukengeushwa na vipengele visivyo vya lazima. Kwa kufanya majaribio kwenye Signet, utaimarisha uelewa wako wa vitendo kuhusu teknolojia hii yenye matumaini kwa usiri wa muamala wa Bitcoin.
 
 
-
-Malipo ya Kimya yanawakilisha hatua muhimu ya kusonga mbele katika kupatanisha urahisi wa kutumia na kuheshimu faragha. Shauku ya jumuiya na miunganisho ya kwanza kwenye pochi mbalimbali (Keki Wallet, BitBox02, BlueWallet ya kutuma) inaelekeza kwenye siku zijazo ambapo kuchapisha anwani ya mchango hakutahatarisha tena faragha ya kifedha ya mmiliki wake.
+Silent Payments zinawakilisha hatua muhimu ya kusonga mbele katika kupatanisha urahisi wa kutumia na kuheshimu faragha. Shauku ya jumuiya na miunganisho ya kwanza kwenye wallets mbalimbali (Cake Wallet, BitBox02, BlueWallet ya kutuma) inaelekeza kwenye siku zijazo ambapo kuchapisha address ya mchango hakutahatarisha tena faragha ya kifedha ya mmiliki wake.
 
 
 
@@ -411,8 +410,8 @@ Malipo ya Kimya yanawakilisha hatua muhimu ya kusonga mbele katika kupatanisha u
 
 - Dana Wallet GitHub hazina: https://github.com/cygnet3/danawallet
 - Amana ya F-Cold: https://fdroid.silentpayments.dev
-- Tovuti ya jumuiya ya Malipo ya Kimya: https://silentpayments.xyz
-- Vipimo BIP-352: https://bips.dev/352
+- Tovuti ya jumuiya ya Silent Payments: https://silentpayments.xyz
+- Specification za BIP-352: https://bips.dev/352
 
 
 
@@ -421,12 +420,12 @@ Malipo ya Kimya yanawakilisha hatua muhimu ya kusonga mbele katika kupatanisha u
 
 
 
-- Malipo ya Kimya ya Faucet: https://silentpayments.dev/faucet/signet
+- Silent Payments za Faucet: https://silentpayments.dev/faucet/signet
 - Kichunguzi cha Saini ya Mempool: https://mempool.space/signet
 
 
 
-### Seva ya Blindbit (inayojipangisha yenyewe)
+### Server ya Blindbit (inayojipangisha yenyewe)
 
 
 

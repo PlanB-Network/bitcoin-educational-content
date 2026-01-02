@@ -18,11 +18,12 @@ professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-10-13
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - marshal-opsource
-    reward: 2.17
+      - nrak10
+    reward: 1.09
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -124,10 +125,11 @@ proofreading:
     contributor_names:
     reward: 4.35
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 5.76
+      - Tinnah924
+    reward: 2.88
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -153,3 +155,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.76
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.18

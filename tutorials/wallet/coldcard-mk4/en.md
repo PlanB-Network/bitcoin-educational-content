@@ -1,6 +1,6 @@
 ---
-name: Coldcard Mk4
-description: A guide to set up and use a Coldcard Mk4 with Sparrow Wallet
+name: COLDCARD Mk4
+description: A guide to set up and use a COLDCARD Mk4 with Sparrow Wallet
 ---
 
 ![cover-mk4](assets/cover.webp)

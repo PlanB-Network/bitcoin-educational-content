@@ -548,498 +548,242 @@ Nachdem du die verschiedenen Softwarelösungen untersucht hast, ist es nun an de
 
 <chapterId>245d6add-9cda-46b9-9343-31dcdd70456e</chapterId>
 
-Nachdem wir nun alle Möglichkeiten der Software erkundet haben, wollen wir uns auf die für Ihren Node erforderliche Hardware konzentrieren. Ich werde dir einige konkrete Ratschläge für die Auswahl Ihrer Komponenten geben, zusammen mit Konfigurationen, die auf verschiedene Budgets zugeschnitten sind. Natürlich handelt es sich hierbei um meine persönliche Meinung und mein Feedback: Es gibt sicherlich noch andere relevante Alternativen als die hier vorgestellten. Außerdem werde ich nicht auf die vormontierten Maschinen eingehen, die von Node-in-a-Box-Projekten angeboten werden und die wir bereits im vorherigen Kapitel behandelt haben. Hier werden wir uns ausschließlich auf DIY-Lösungen konzentrieren.
+Nachdem wir nun alle Möglichkeiten der Software erkundet haben, wollen wir uns auf die für deine Node erforderliche Hardware konzentrieren. Ich werde dir einige konkrete Ratschläge für die Auswahl deiner Komponenten geben, zusammen mit Konfigurationen, die auf verschiedene Budgets zugeschnitten sind. Natürlich handelt es sich hierbei um meine persönliche Meinung und mein Feedback: Es gibt sicherlich noch andere relevante Alternativen als die hier vorgestellten. Außerdem werde ich nicht auf die zusammengestellten Computer eingehen, die von Node-in-a-Box-Projekten angeboten werden und die wir bereits im vorherigen Kapitel behandelt haben. Hier werden wir uns ausschließlich auf DIY-Lösungen konzentrieren.
 
+### Brauchst du wirklich einn eigenen Computer?
 
-
-### Brauchen du wirklich eine eigene Maschine?
-
-
-
-In den letzten Jahren sind sich Bitcoiner zunehmend eines weit verbreiteten Missverständnisses bewusst geworden, insbesondere mit der Popularisierung von Node-in-a-Box in den frühen 2020er Jahren: Ein Bitcoin-Node muss zwangsläufig auf einem ausschließlich für diesen Zweck vorgesehenen Rechner laufen. Dies ist jedoch nicht der Fall. du brauchen nicht unbedingt einen speziellen Computer, um einen Bitcoin-Node zu betreiben: Bitcoin core kann durchaus auf Ihrem normalen PC laufen. Wenn du über genügend Speicherplatz für Blockchain verfügen oder das Pruning aktivieren, können du die Kette validieren, Ihren Wallet anschließen und das Programm sogar schließen, wenn du es nicht mehr benötigen. Der Vorteil dieses Ansatzes ist beträchtlich: keine Anfangsinvestition und minimale Komplexität.
-
-
+In den letzten Jahren sind sich Bitcoiner zunehmend eines weit verbreiteten Missverständnisses bewusst geworden, insbesondere mit der Popularisierung von Node-in-a-Box in den frühen 2020er Jahren: Eine Bitcoin Node muss zwangsläufig auf einem ausschließlich für diesen Zweck vorgesehenen Rechner laufen. Dies ist jedoch nicht der Fall. Du brauchst nicht unbedingt einen speziellen Computer, um eine Bitcoin Node zu betreiben: Bitcoin Core kann durchaus auf deinem normalen PC laufen. Wenn du über genügend Speicherplatz für Blockchain verfügst oder das Pruning aktivierst, kannst du die Blockchain validieren, deine Wallet anschließen und das Programm sogar schließen, wenn du es nicht mehr benötigst. Der Vorteil dieses Ansatzes ist beträchtlich: keine Anfangsinvestition und minimale Komplexität.
 
 ![Image](assets/fr/074.webp)
 
-
-
-Dennoch ist es oft bequemer, einen eigenen Rechner zu verwenden. Er kann kontinuierlich (rund um die Uhr) laufen, ist jederzeit aus der Ferne erreichbar, beansprucht nicht die Ressourcen Ihres Hauptrechners und isoliert vor allem die Anwendungen (eine gute Sicherheitspraxis: Wenn dein persönlicher PC ein Problem hat, funktioniert dein Node weiter und umgekehrt). Die Frage lautet also nicht: "Brauche ich einen eigenen Rechner?", sondern vielmehr: "Brauche ich einen Node, der ständig online ist, auf den andere Geräte zugreifen können und der entwicklungsfähig ist?" (Lightning, Indexer, zusätzliche Anwendungen...). Wenn die Antwort "Ja" lautet, wird die Entscheidung für einen separaten Rechner die Dinge viel einfacher machen.
-
-
+Dennoch ist es oft bequemer, einen eigenen Rechner zu verwenden. Er kann kontinuierlich (rund um die Uhr) laufen, ist jederzeit aus der Ferne erreichbar, beansprucht nicht die Ressourcen deines Hauptrechners und isoliert vor allem die Anwendungen (eine gute Sicherheitspraxis: Wenn dein persönlicher PC ein Problem hat, funktioniert deine Node weiter und umgekehrt). Die Frage lautet also nicht: "Brauche ich einen eigenen Rechner?", sondern vielmehr: "Brauche ich eine Node, die ständig online ist, auf den andere Geräte zugreifen können und die entwicklungsfähig ist?" (Lightning, Indexer, zusätzliche Anwendungen...). Wenn die Antwort "Ja" lautet, wird die Entscheidung für einen separaten Rechner die Dinge viel einfacher machen.
 
 ### 3 Beschaffungsmethoden: Recycling, Second-Hand und neu
 
-
-
 #### Recycling eines alten PCs
 
+Das ist die wirtschaftlichste Lösung. Die meisten von uns haben einen alten PC zu Hause oder bei Freunden und Familie der langsam verstaubt: dies ist die perfekte Gelegenheit, ihn wieder in Betrieb zu nehmen! Um ihn für die Verwendung als Bitcoin Node anzupassen, fügst du einfach eine 2-TB-SSD hinzu und ersetzt oder fügst je nach Bedarf RAM-Riegel hinzu, um den Arbeitsspeicher zu erhöhen. Rechne mit einem Preis zwischen 100 und 200 € für einen voll funktionsfähigen Rechner.
 
+Prüfe vor dem Kauf eines Geräts die Anzahl der verfügbaren Festplattensteckplätze, die Art des Anschlusses (M.2 oder SATA), das Format des Arbeitsspeichers (SODIMM oder DIMM) und seine Generation (DDR4 usw.). Du solltest auch die Gelegenheit nutzen, das Gerät zu reinigen, insbesondere den Lüfter, um eine optimale Leistung zu gewährleisten.
 
-Das ist die wirtschaftlichste Lösung. Die meisten von uns haben einen alten PC mit Dust zu Hause oder bei Freunden und Familie: dies ist die perfekte Gelegenheit, ihn wieder in Betrieb zu nehmen! Um ihn für die Verwendung als Bitcoin-Node anzupassen, fügen du einfach eine 2-TB-SSD hinzu und ersetzen oder fügen je nach Bedarf RAM-Riegel hinzu, um den Arbeitsspeicher zu erhöhen. Rechnen du mit einem Preis zwischen 100 und 200 € für eine voll funktionsfähige Maschine.
-
-
-
-Prüfen du vor dem Kauf eines Geräts die Anzahl der verfügbaren Festplattensteckplätze, die Art des Anschlusses (M.2 oder SATA), das Format des Arbeitsspeichers (SODIMM oder DIMM) und seine Generation (DDR4 usw.). du sollten auch die Gelegenheit nutzen, das Gerät zu reinigen, insbesondere den Lüfter, um eine optimale Leistung zu gewährleisten.
-
-
-
-Seien du jedoch vorsichtig, wenn du einen Laptop verwenden: Der Akku kann mit der Zeit zu einem Problem werden (mehr dazu später in diesem Kapitel).
-
-
+Sei jedoch vorsichtig, wenn du einen Laptop verwendest: Der Akku kann mit der Zeit zu einem Problem werden (mehr dazu später in diesem Kapitel).
 
 #### Überholt oder gebraucht
 
-
-
-Der Markt ist voll von generalüberholten Business-Mini-PCs wie dem *Lenovo ThinkCentre Tiny*, dem *HP EliteDesk Mini* oder dem *Dell OptiPlex Micro*. Diese Geräte sind solide, kompakt, leise und energieeffizient. dein Preis liegt weit unter dem Neupreis, und es ist leicht, Modelle mit i5/i7-Prozessoren der 6. bis 10. Generation und 8 bis 16 GB Arbeitsspeicher zu finden, und das alles zu sehr attraktiven Preisen, die im Allgemeinen zwischen 70 und 200 Euro liegen, je nach Konfiguration. Meiner Meinung nach ist dies wahrscheinlich die beste Option, wenn du einen dedizierten Rechner für Ihren Bitcoin-Node suchen.
-
-
+Der Markt ist voll von generalüberholten Business-Mini-PCs wie dem *Lenovo ThinkCentre Tiny*, dem *HP EliteDesk Mini* oder dem *Dell OptiPlex Micro*. Diese Geräte sind solide, kompakt, leise und energieeffizient. Ihr Preis liegt weit unter dem Neupreis, und es ist leicht, Modelle mit i5/i7-Prozessoren der 6. bis 10. Generation und 8 bis 16 GB Arbeitsspeicher zu finden, und das alles zu sehr attraktiven Preisen, die im Allgemeinen zwischen 70 und 200 Euro liegen, je nach Konfiguration. Meiner Meinung nach ist dies wahrscheinlich die beste Option, wenn du einen dedizierten Rechner für deine Bitcoin Node suchst.
 
 ![Image](assets/fr/075.webp)
 
-
-
 Es ist auch möglich, gebrauchte PCs und Laptops zu finden, die schon ein paar Jahre alt sind, mit interessanten Konfigurationen und einem hervorragenden Preis-Leistungs-Verhältnis.
 
-
-
-**Hinweis:** Geräte aus Firmenflotten, wie z. B. das *ThinkCentre Tiny*, sind oft nur mit einem *DisplayPort* (DP)-Anschluss für den Bildschirm ausgestattet und haben keinen HDMI-Ausgang. Vergessen du also nicht, einen Adapter oder ein DP-zu-HDMI-Kabel mitzubringen, falls du eines benötigen.
-
-
+**Hinweis:** Geräte aus Firmenflotten, wie z. B. das *ThinkCentre Tiny*, sind oft nur mit einem *DisplayPort* (DP)-Anschluss für den Bildschirm ausgestattet und haben keinen HDMI-Ausgang. Vergiss also nicht, einen Adapter oder ein DP-zu-HDMI-Kabel mitzubringen, falls du eines benötigst.
 
 #### Neu kaufen
 
+Wenn dein Budget es zulässt, könntest du dich auch für einen neuen Rechner entscheiden. Dies ist eine gute Option, wenn du aktuelle Hardware mit guter Leistung haben möchten, insbesondere wenn du Umbrel oder Start9 mit zusätzlichen Anwendungen außerhalb des Bitcoin-Ökosystems für das Self-Hosting verwenden möchtest.
 
-
-Wenn dein Budget es zulässt, können du sich auch für einen neuen Rechner entscheiden. Dies ist eine gute Option, wenn du aktuelle Hardware mit guter Leistung haben möchten, insbesondere wenn du Umbrel oder Start9 mit zusätzlichen Anwendungen außerhalb des Bitcoin-Ökosystems für das Self-Hosting verwenden möchten.
-
-
-
-### Welche Art von Maschine sollte ich wählen?
-
-
+### Welche Art von Rechner sollte ich wählen?
 
 #### Mini-PC "NUC" / Barebone
 
-
-
-Mini-PCs bieten meiner Meinung nach den besten Kompromiss für das Hosting eines Bitcoin-Node zu Hause. du sind platzsparend, passen leicht in ein Regal, verbrauchen nur wenig Strom und eignen sich für einfache Hardwareänderungen, wie das Hinzufügen von RAM oder den Austausch der SSD.
-
-
+Mini-PCs bieten meiner Meinung nach den besten Kompromiss für das Hosting einer Bitcoin Node zu Hause. Sie sind platzsparend, passen leicht in ein Regal, verbrauchen nur wenig Strom und eignen sich für einfache Hardwareänderungen, wie das Hinzufügen von RAM oder den Austausch der SSD.
 
 Ich persönlich bevorzuge den *Lenovo ThinkCentre Tiny*, der auf dem Gebrauchtmarkt (aus Firmenflotten) sehr verbreitet ist; er ist besonders robust und leicht zu modifizieren. Natürlich gibt es auch viele Äquivalente von anderen Herstellern: *Dell OptiPlex Micro*, *HP ProDesk / EliteDesk Mini / Micro*, *Intel NUC*, *Gigabyte BRIX*, *MSI Cubi*..
 
-
-
 ![Image](assets/fr/001.webp)
-
-
 
 **Highlights:** geringer Platzbedarf, mäßiger Stromverbrauch, geringe Geräuschentwicklung, Skalierbarkeit (je nach Modell) und Zuverlässigkeit.
 
-
-
 **Schwächen:** etwas teurer als ein SBC vom Typ Raspberry Pi, kein eingebauter Bildschirm (Fernzugriff oder über externen Monitor), keine Batterie (plötzliches Abschalten bei Stromausfall).
-
-
 
 #### Dedizierter Laptop
 
-
-
-Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage kann man gebrauchte oder sogar neue Laptops zu niedrigen Preisen finden, die mit guten Prozessoren, zahlreichen Anschlüssen sowie einem integrierten Bildschirm und einer Tastatur (sehr praktisch für die Erstinstallation) ausgestattet sind. Vor allem aber wirkt der Akku wie eine natürliche USV: Bei einem Stromausfall schaltet sich der Node nicht abrupt ab und kann sogar mehrere Stunden lang betriebsbereit bleiben.
-
-
+Er ist eine hervorragende, kostengünstige Alternative zum Mini-PC: Heutzutage kann man gebrauchte oder sogar neue Laptops zu niedrigen Preisen finden, die mit guten Prozessoren, zahlreichen Anschlüssen sowie einem integrierten Bildschirm und einer Tastatur (sehr praktisch für die Erstinstallation) ausgestattet sind. Vor allem aber wirkt der Akku wie ein natürlicher UPS (uninterruptible power supply): Bei einem Stromausfall schaltet sich die Node nicht abrupt ab und kann sogar mehrere Stunden lang betriebsbereit bleiben.
 
 ![Image](assets/fr/076.webp)
 
+**Highlights:** All-in-One-Lösung, der Akku fungiert als USV (keine Stromausfälle), vereinfachte Installation dank integriertem Display und Tastatur, integrierte Wi-Fi-Karte und eine große Auswahl an Gebraucht- und Neuwarenmärkten (was oft bedeutet, dass du Preise aushandeln kannst).
 
+**Schwächen:** etwas höherer Stromverbrauch als bei einem reinen Mini-PC, allmähliche Abnutzung des Akkus im 24/7-Betrieb mit Kapazitätsverlust, seltene, aber reale Gefahr des Aufblähens des Akkus oder des thermischen Überlastung mit dem Alter. Es ist vor allem dieser Aspekt, der mich den Mini-PC für die bessere Option als den Laptop halten lässt: die allmähliche Abnutzung des Akkus und die damit verbundenen Risiken.
 
-**Highlights:** All-in-One-Lösung, der Akku fungiert als USV (keine Stromausfälle), vereinfachte Installation dank integriertem Display und Tastatur, integrierte Wi-Fi-Karte und eine große Auswahl an Gebraucht- und Neuwarenmärkten (was oft bedeutet, dass du Preise aushandeln können).
+Wenn du dich für diese Lösung entscheidest, empfehle ich dir, den Zustand der Batterie genau im Auge zu behalten, um jegliche Gefahr zu vermeiden. Achte auf übermäßige Hitze, ungewöhnliche Gerüche, Instabilität oder eine verformte Hülle. Im Falle eines Alarms schalte den Computer sofort aus, ziehe den Netzstecker und entsorge die Batterie in einer speziellen Recyclinganlage.
 
-
-
-**Schwächen:** etwas höherer Stromverbrauch als bei einem reinen Mini-PC, allmähliche Abnutzung des Akkus im 24/7-Betrieb mit Kapazitätsverlust, seltene, aber reale Gefahr des Aufblähens des Akkus oder des thermischen Durchgehens mit dem Alter. Es ist vor allem dieser Aspekt, der mich den Mini-PC für die bessere Option als den Laptop halten lässt: die allmähliche Abnutzung des Akkus und die damit verbundenen Risiken.
-
-
-
-Wenn du sich für diese Lösung entscheiden, empfehle ich dir, den Zustand der Batterie genau im Auge zu behalten, um jegliche Gefahr zu vermeiden. Achten du auf übermäßige Hitze, ungewöhnliche Gerüche, Instabilität oder eine verformte Hülle. Im Falle eines Alarms schalten du den Computer sofort aus, ziehen du den Netzstecker und entsorgen du die Batterie in einer speziellen Recyclinganlage.
-
-
-
-**Tipp:** Wenn BIOS/UEFI oder das Tool des Herstellers dies zulassen, können du eine Lastgrenze (z. B. 60 % oder 80 %) festlegen, um die Lebensdauer der Batterie zu verlängern.
-
-
+**Tipp:** Wenn BIOS/UEFI oder das Tool des Herstellers dies zulassen, könntest du eine Lastgrenze (z. B. 60 % oder 80 %) festlegen, um die Lebensdauer der Batterie zu verlängern.
 
 #### Raspberry Pi und andere SBCs: die falsche Idee
 
-
-
 In den frühen 2020er Jahren, mit dem Aufkommen der Node-in-a-Box-Software, kam auch der Raspberry Pi-Wahn auf, um einen Bitcoin-Node zu betreiben. Die Idee schien attraktiv: preiswert, kompakt und zugänglich.
-
-
 
 ![Image](assets/fr/073.webp)
 
-
-
-In der Praxis kann ein Raspberry Pi ausreichend sein, wenn dein Ziel nur darin besteht, einen Bitcoin-Node ohne zusätzliche Anwendungen zu betreiben. Sobald du jedoch Umbrel, Start9 oder ein umfangreicheres Ökosystem (Block explorer, Address Indexer, Lightning-Node, selbst gehostete Anwendungen...) nutzen wollen, stößt der Rechner schnell an seine Grenzen.
-
-
+In der Praxis kann ein Raspberry Pi ausreichend sein, wenn dein Ziel nur darin besteht, eine Bitcoin Node ohne zusätzliche Anwendungen zu betreiben. Sobald du jedoch Umbrel, Start9 oder ein umfangreicheres Ökosystem (Block explorer, Address Indexer, Lightning Node, selbst gehostete Anwendungen...) nutzen willst, stößt der Rechner schnell an seine Grenzen.
 
 Der Raspberry Pi hat eine Reihe von Nachteilen:
 
-
-
-
 - zu schlanke Prozessoren mit einer ARM-Architektur, die manchmal mit bestimmter Software inkompatibel ist oder mehr Handhabung erfordert;
 - Gelöteter Arbeitsspeicher, der nicht aufgerüstet werden kann, mit begrenzten Konfigurationen (oft maximal 8 GB);
-- externe Boxen für SSDs, die per Kabel angeschlossen werden, häufige Fehlerquellen, die den Kauf einer speziellen Karte für eine stabile SSD erfordern;
+- externe Boxen für SSDs, die per Kabel angeschlossen werden, häufige Fehlerquellen, die den Kauf einer speziellen Karte für eine stabile SSD erfordert;
 - neigung zur schnellen Erwärmung und Schwierigkeiten bei der korrekten Abkühlung;
-- sie müssen zusätzliche Hardware kaufen (Gehäuse, Lüfter, SSD-Karte usw.);
+- du musst zusätzliche Hardware kaufen (Gehäuse, Lüfter, SSD-Karte usw.);
 - sehr begrenzte Konnektivität.
-
-
 
 In der Vergangenheit lag der große Vorteil von SBCs wie dem Raspberry Pi in ihrem Preis: Für ein paar Dutzend Euro konnte man einen dedizierten Rechner bekommen. Heute sind die Preise jedoch stark gestiegen, und wenn man all die notwendige zusätzliche Hardware hinzufügt, nähern sich die Kosten denen der ersten gebrauchten oder generalüberholten x86-Mini-PCs, die meiner Meinung nach viel mehr Vorteile bieten. Aus diesem Grund empfehle ich nicht, sich für einen SBC zu entscheiden.
 
-
-
 ### Auswahl der Komponenten
-
-
 
 #### Festplattenspeicher: SSD obligatorisch, mindestens 2 TB
 
+Technisch ist es möglich, eine Bitcoin Node auf einer Festplatte zu betreiben. Das Problem ist, dass sich alles beträchtlich verlangsamen wird, insbesondere der IBD (initial block download), der aufgrund der intensiven Nutzung der Festplatte als Cache durch Bitcoin Core extrem lang werden wird (insbesondere für das UTXO-Set). Aus diesem Grund rate ich dringend von der Verwendung einer Festplatte ab: Sie stellt einen echten Engpass dar, schränkt die künftige Entwicklung stark ein (z. B. für einen Lightning Node) und kann sogar zu einer Fehlanpassung der Synchronisation mit dem Blockchain-Head führen. Außerdem erhöht die ständige Beanspruchung der mechanischen Festplatte das Risiko einer vorzeitigen Abnutzung.
 
-
-Technisch ist es möglich, einen Bitcoin-Node auf einer Festplatte zu betreiben. Das Problem ist, dass sich alles beträchtlich verlangsamen wird, insbesondere die IBD, die aufgrund der intensiven Nutzung der Festplatte als Cache durch Bitcoin core extrem lang werden wird (insbesondere für das UTXO-Set). Aus diesem Grund rate ich dringend von der Verwendung einer Festplatte ab: du stellt einen echten Engpass dar, schränkt die künftige Entwicklung stark ein (z. B. für einen Lightning-Node) und kann sogar zu einer Fehlanpassung der Synchronisation mit dem Blockchain-Kopf führen. Außerdem erhöht die ständige Beanspruchung der mechanischen Festplatte das Risiko einer vorzeitigen Abnutzung.
-
-
-
-SSDs verändern dein Nutzererlebnis radikal: Alles wird schneller und reibungsloser, bei weitaus höherer Zuverlässigkeit. Die Verwendung einer SSD ist daher (fast) obligatorisch für Ihren Knotenpunkt, und du werden es nicht bereuen, zumal Modelle mit hoher Kapazität jetzt relativ erschwinglich sind.
-
-
+SSDs verändern dein Nutzererlebnis radikal: Alles wird schneller und reibungsloser, bei weitaus höherer Zuverlässigkeit. Die Verwendung einer SSD ist daher (fast) obligatorisch für deine Node, und du wirst es nicht bereuen, zumal Modelle mit hoher Kapazität jetzt relativ erschwinglich sind.
 
 ![Image](assets/fr/077.webp)
 
-
-
-Was die Kapazität angeht, so etablieren sich 2 TB allmählich als das neue vernünftige Minimum. Im Sommer 2025 nähert sich Blockchain bereits 700 GB, und wenn man Umbrel, einen Address-Indexer und einige Anwendungen hinzufügt, wird eine 1-TB-SSD schnell gesättigt sein. Mit 2 TB haben du einen komfortablen Spielraum für die kommenden Jahre (grob geschätzt zwischen 5 und 15 Jahren). du können sich auch für 4 TB entscheiden, wenn du planen, viele Anwendungen auf Umbrel zu nutzen, große Dateien im Self-Hosting zu speichern oder wenn du Ihren Speicherplatzbedarf weitgehend voraussehen wollen.
-
-
+Was die Kapazität angeht, so etablieren sich 2 TB allmählich als das neue vernünftige Minimum. Im Sommer 2025 nähert sich Blockchain bereits 700 GB, und wenn man Umbrel, einen Address-Indexer und einige Anwendungen hinzufügt, wird eine 1-TB-SSD schnell gesättigt sein. Mit 2 TB hast du einen komfortablen Spielraum für die kommenden Jahre (grob geschätzt zwischen 5 und 15 Jahren). Du kannst sich auch für 4 TB entscheiden, wenn du planst, viele Anwendungen auf Umbrel zu nutzen, große Dateien im Self-Hosting zu speichern oder wenn du deinen Speicherplatzbedarf weitgehend absichern willst.
 
 ![Image](assets/fr/078.webp)
 
-
-
-Was das Format betrifft, so hängt dies von den auf Ihrem Computer verfügbaren Anschlüssen ab; wenn möglich, empfehle ich jedoch die Verwendung einer NVMe M.2 SSD.
-
-
+Was das Format betrifft, so hängt dies von den auf deinem Computer verfügbaren Anschlüssen ab; wenn möglich, empfehle ich jedoch die Verwendung einer NVMe M.2 SSD.
 
 #### Speicher (RAM): 8 bis 16 GB
 
+Für Bitcoin Core allein (ohne Umbrel-Overlay) empfehlen die Entwickler mindestens 256 MB RAM bei niedrigsten Einstellungen, 512 MB bei Standardeinstellungen und 1 GB für den normalen Gebrauch.
 
-
-Für Bitcoin core allein (ohne Umbrel-Overlay) empfehlen die Entwickler mindestens 256 MB RAM bei niedrigsten Einstellungen, 512 MB bei Standardeinstellungen und 1 GB für den normalen Gebrauch.
-
-
-
-Wenn du hingegen ein Node-in-a-Box-System wie Umbrel oder Start9 verwenden, sind die Anforderungen an den Arbeitsspeicher deutlich höher. Die Umbrel-Entwickler empfehlen ein Minimum von 4 GB RAM. Das mag ausreichen, um nur Core laufen zu lassen, aber du werden bald an die Grenzen stoßen. du empfehlen daher 8 GB, was ich auch als Minimum für eine Grundkonfiguration um Bitcoin (Core, LND, Indexer und ein paar Anwendungen) betrachte. Meiner Erfahrung nach sind 8 GB mit Umbrel und ein paar zusätzlichen Diensten immer noch ein bisschen knapp. Um wirklich komfortabel zu sein und etwas Spielraum zu haben, würde ich 16 GB RAM empfehlen.
-
-
+Wenn du hingegen ein Node-in-a-Box-System wie Umbrel oder Start9 verwendest, sind die Anforderungen an den Arbeitsspeicher deutlich höher. Die Umbrel-Entwickler empfehlen ein Minimum von 4 GB RAM. Das mag ausreichen, um nur Core laufen zu lassen, aber du wirst bald an die Grenzen stoßen. Sie empfehlen daher 8 GB, was ich auch als Minimum für eine Grundkonfiguration um Bitcoin (Core, LND, Indexer und ein paar Anwendungen) betrachte. Meiner Erfahrung nach sind 8 GB mit Umbrel und ein paar zusätzlichen Diensten immer noch ein bisschen knapp. Um wirklich komfortabel zu sein und etwas Spielraum zu haben, würde ich 16 GB RAM empfehlen.
 
 #### Prozessor (CPU)
 
-
-
-Die Mindestanforderung für einen Umbrel-Node ist ein Dual-Core 64-Bit-Prozessor von Intel oder AMD. Wenn du zusätzlich zu Bitcoin core einige Anwendungen nutzen wollen, wird ein Quad-Core (oder höher) einen echten Unterschied in Bezug auf die Flüssigkeit machen. So sind beispielsweise i5/i7-Prozessoren der 6. bis 10. Generation auf dem Gebrauchtmarkt eine hervorragende Option.
-
-
+Die Mindestanforderung für einen Umbrel-Node ist ein Dual-Core 64-Bit-Prozessor von Intel oder AMD. Wenn du zusätzlich zu Bitcoin Core einige Anwendungen nutzen willst, wird ein Quad-Core (oder höher) einen echten Unterschied in Bezug auf die Flüssigkeit machen. So sind beispielsweise i5/i7-Prozessoren der 6. bis 10. Generation auf dem Gebrauchtmarkt eine hervorragende Option.
 
 ### Beispiele für konkrete Konfigurationen
 
-
-
-Im Folgenden schlage ich drei konkrete Konfigurationen vor, die an unterschiedliche Budgets und Bedürfnisse angepasst sind, mit genauen Modellen, die sie unterstützen. Diese Wahlmöglichkeiten dienen als Beispiele, um die Informationen in diesem Kapitel zu veranschaulichen; du sind nicht verpflichtet, genau diese Modelle zu wählen. Da ich den Mini-PC auf lange Sicht für die beste Option halte, werde ich mich bei den drei vorgeschlagenen Konfigurationen auf dieses Format stützen.
-
-
+Im Folgenden schlage ich drei konkrete Konfigurationen vor, die an unterschiedliche Budgets und Bedürfnisse angepasst sind, mit genauen Modellen, die sie unterstützen. Diese Wahlmöglichkeiten dienen als Beispiele, um die Informationen in diesem Kapitel zu veranschaulichen; Du bist nicht verpflichtet, genau diese Modelle zu wählen. Da ich den Mini-PC auf lange Sicht für die beste Option halte, werde ich mich bei den drei vorgeschlagenen Konfigurationen auf dieses Format stützen.
 
 *Die unten aufgeführten Preise sind nur Richtwerte und können je nach Region, Anbieter und Zeitraum variieren*
 
+In erster Linie benötigst du eine SSD, die groß genug ist, um die Blockchain unterzubringen, und die dennoch genügend Spielraum lässt. SSDs haben eine begrenzte Lebensdauer in Bezug auf die Schreibzyklen und das Gesamtvolumen der geschriebenen Daten. Ein Bitcoin Node belastet die Festplatte beim Schreiben jedoch erheblich. Deshalb empfehle ich nicht die Einsteigermodelle, sondern eine NVMe-SSD, die eine deutlich bessere Leistung bietet.
 
-
-In erster Linie benötigen du eine SSD, die groß genug ist, um den Blockchain unterzubringen, und die dennoch genügend Spielraum lässt. SSDs haben eine begrenzte Lebensdauer in Bezug auf die Schreibzyklen und das Gesamtvolumen der geschriebenen Daten. Ein Bitcoin-Node belastet die Festplatte beim Schreiben jedoch erheblich. Deshalb empfehle ich nicht die Einsteigermodelle, sondern eine NVMe-SSD, die eine deutlich bessere Leistung bietet.
-
-
-
-Als Beispiel habe ich für die Zwecke dieses Kurses das folgende Modell gewählt: *Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*, erhältlich für rund 120 € auf Amazon. du können sich auch für andere bekannte Marken wie Crucial, Western Digital oder Kingston entscheiden.
-
-
+Als Beispiel habe ich für die Zwecke dieses Kurses das folgende Modell gewählt: *Samsung 990 EVO Plus NVMe M.2 SSD 2Tb*, erhältlich für rund 120€ auf Amazon. Du könntest dich auch für andere bekannte Marken wie Crucial, Western Digital oder Kingston entscheiden.
 
 ![Image](assets/fr/046.webp)
 
-
-
 #### Low-Budget-Konfiguration
 
+Wenn dein Budget sehr begrenzt ist (unter 200€), würde ich dir natürlich raten, nicht in eine spezielle Maschine zu investieren, sondern Bitcoin Core direkt auf deinem normalen PC zu installieren (im Pruned-Modus, wenn du nicht genügend Speicherplatz hast).
 
-
-Wenn dein Budget sehr begrenzt ist (unter 200 €), würde ich dir natürlich raten, nicht in eine spezielle Maschine zu investieren, sondern Bitcoin core direkt auf Ihrem normalen PC zu installieren (im pruned-Modus, wenn du nicht genügend Speicherplatz haben).
-
-
-
-Ansonsten empfehle ich für ein Einstiegsbudget den *HP EliteDesk 800 G2 Mini*. Ich habe bei Amazon ein generalüberholtes Modell für 96 € gefunden, das mit einem Intel Core i5 Prozessor der 6. Generation und 8 GB RAM ausgestattet ist. Dies ist eine besonders interessante Option für Einsteiger: Dieser Prozessor und diese Menge an Arbeitsspeicher sind mehr als genug, um Core auf Umbrel sowie mehrere Anwendungen gleichzeitig laufen zu lassen, z. B. einen Electrs-Indexer, einen Lightning-Node und eine Mempool-Instanz, vorausgesetzt, man weist Core nicht zu viel Cache zu. Darüber hinaus ist es bei dieser Art von Mini-PC einfach, den Arbeitsspeicher auf 16 GB zu erweitern, falls dies erforderlich sein sollte (für einen oder zwei hochwertige Speichersticks müssen du ca. 30-40 € zusätzlich bezahlen).
-
-
+Ansonsten empfehle ich für ein Einstiegsbudget den *HP EliteDesk 800 G2 Mini*. Ich habe bei Amazon ein generalüberholtes Modell für 96€ gefunden, das mit einem Intel Core i5 Prozessor der 6. Generation und 8 GB RAM ausgestattet ist. Dies ist eine besonders interessante Option für Einsteiger: Dieser Prozessor und diese Menge an Arbeitsspeicher sind mehr als genug, um Core auf Umbrel sowie mehrere Anwendungen gleichzeitig laufen zu lassen, z. B. einen Electrs-Indexer, einen Lightning Node und eine Mempool-Instanz, vorausgesetzt, man weist Core nicht zu viel Cache zu. Darüber hinaus ist es bei dieser Art von Mini-PC einfach, den Arbeitsspeicher auf 16 GB zu erweitern, falls dies erforderlich sein sollte (für einen oder zwei hochwertige Speichersticks musst du ca. 30-40 € zusätzlich bezahlen).
 
 ![Image](assets/fr/045.webp)
 
-
-
-Fügen du dann einfach die SSD zum Budget hinzu. Ausgehend von der Samsung 2TB für 120 € ergeben sich Gesamtkosten von 216 € für ein komplettes, funktionsfähiges Gerät.
-
-
+Füge dann einfach die SSD zum Budget hinzu. Ausgehend von der Samsung 2TB für 120 € ergeben sich Gesamtkosten von 216 € für ein komplettes, funktionsfähiges Gerät.
 
 #### Medium-Budget-Konfiguration
 
-
-
-Wenn du über ein durchschnittliches Budget von etwa 300 Euro für den Rechner verfügen, der Ihren Node hosten soll, empfehle ich zum Beispiel einen *Lenovo ThinkCentre Tiny*, der mit einem leistungsstarken Prozessor und ausreichend Arbeitsspeicher ausgestattet ist. Ich habe bei Amazon ein generalüberholtes Modell für 180 € gefunden, das mit einem Intel Core i7-Prozessor der 6. Generation und 16 GB RAM ausgestattet ist. Zusammen mit der 2-TB-SSD für 120 Euro belaufen sich die Gesamtkosten auf 300 Euro.
-
-
+Wenn du über ein durchschnittliches Budget von etwa 300 Euro für den Rechner verfügst, der deine Node hosten soll, empfehle ich zum Beispiel einen *Lenovo ThinkCentre Tiny*, der mit einem leistungsstarken Prozessor und ausreichend Arbeitsspeicher ausgestattet ist. Ich habe bei Amazon ein generalüberholtes Modell für 180 € gefunden, das mit einem Intel Core i7-Prozessor der 6. Generation und 16 GB RAM ausgestattet ist. Zusammen mit der 2-TB-SSD für 120 Euro belaufen sich die Gesamtkosten auf 300 Euro.
 
 ![Image](assets/fr/044.webp)
 
-
-
-Mit dieser Maschine haben du eine komfortable Konfiguration: ein schnelles IBD und die Möglichkeit, zahlreiche Anwendungen auf Ihrem Umbrel oder Start9 ohne Schwierigkeiten auszuführen. Das ist genau die Konfiguration, die ich für diesen BTC 202 Kurs verwende.
-
-
+Mit dieser Maschine hast du eine komfortable Konfiguration: ein schnelles IBD und die Möglichkeit, zahlreiche Anwendungen auf deinem Umbrel oder Start9 ohne Schwierigkeiten auszuführen. Das ist genau die Konfiguration, die ich für diesen BTC 202 Kurs verwende.
 
 #### High-End-Konfiguration
 
+Mit einem größeren Budget werden die Möglichkeiten deutlich größer. Du kannst eine DIY-Konfiguration wählen oder sich sogar für einen vorkonfigurierten Rechner entscheiden, die direkt von einem node-in-a-box-Projekt angeboten wird.
 
+Der *ASUS NUC 14 Pro* ist zum Beispiel neu bei Amazon für 540 € erhältlich. Für diesen Preis erhälst du einen Intel Core Ultra 5-Prozessor (aktuell und besonders leistungsstark), begleitet von 16 GB DDR5-RAM. Mit einer solchen Konfiguration kannst du eine IBD in Rekordzeit durchführen und anspruchsvolle Anwendungen problemlos installieren.
 
-Mit einem größeren Budget werden die Möglichkeiten deutlich größer. du können eine DIY-Konfiguration wählen oder sich sogar für eine vormontierte Maschine entscheiden, die direkt von einem node-in-a-box-Projekt angeboten wird.
-
-
-
-Der *ASUS NUC 14 Pro* ist zum Beispiel neu bei Amazon für 540 € erhältlich. Für diesen Preis erhalten du einen Intel Core Ultra 5-Prozessor (aktuell und besonders leistungsstark), begleitet von 16 GB DDR5-RAM. Mit einer solchen Konfiguration können du eine IBD in Rekordzeit durchführen und anspruchsvolle Anwendungen problemlos installieren.
-
-
-
-Dies ist eine äußerst komfortable Konfiguration, sogar ein Overkill, wenn das ursprüngliche Ziel nur darin besteht, einen Bitcoin-Node zu betreiben. Wenn du hingegen alle Vorteile der auf Umbrel und Start9 verfügbaren selbst gehosteten Anwendungen nutzen wollen, ist diese Leistungsstufe genau richtig für du.
-
-
+Dies ist eine äußerst komfortable Konfiguration, sogar ein Overkill, wenn das ursprüngliche Ziel nur darin besteht, eine Bitcoin Node zu betreiben. Wenn du hingegen alle Vorteile der auf Umbrel und Start9 verfügbaren selbst gehosteten Anwendungen nutzen willst, ist diese Leistungsstufe genau richtig für dich.
 
 ![Image](assets/fr/043.webp)
 
-
-
-Je nach Verwendungszweck können du sich entweder für eine 2-TB-SSD entscheiden, wie bei den anderen Konfigurationen, oder direkt für eine 4-TB-SSD für 260 €, wenn du auch persönliche Dateien speichern und Ihre Self-Hosting-Nutzung erweitern möchten. Mit einer 2-TB-SSD betragen die Gesamtkosten der Konfiguration 660 €, während sie mit einer 4-TB-SSD 800 € erreichen.
-
-
+Je nach Verwendungszweck kannst du dich entweder für eine 2-TB-SSD entscheiden, wie bei den anderen Konfigurationen, oder direkt für eine 4-TB-SSD für 260 €, wenn du auch persönliche Dateien speichern und deine Self-Hosting-Nutzung erweitern möchtest. Mit einer 2-TB-SSD betragen die Gesamtkosten der Konfiguration 660 €, während sie mit einer 4-TB-SSD 800 € erreichen.
 
 ### Noch ein paar Tipps
 
+- Wenn du gebrauchte Geräte kaufst und mit Bitcoins bezahlen möchten, komm zu einem Treffen in deiner Nähe! Wenn du dich mit anderen Teilnehmern austauschst, findest du mit Sicherheit passende Geräte zu einem guten Preis und trägst gleichzeitig dazu bei, die Kreislaufwirtschaft rund um Bitcoin am Leben zu erhalten. Es ist auch eine Gelegenheit, von den guten Ratschlägen der Gemeinschaft zu profitieren.
+  
+- Für die Internetverbindung benötigst du natürlich ein RJ45-Ethernet-Kabel, zumindest für die Systeminstallation.
+  
+- Einige Umgebungen wie Umbrel erlauben die Verwendung von Wi-Fi, aber die Leistung ist in der Regel schlechter (vor allem, wenn du deine Lightning Node aus der Ferne verwenden möchtest, da dies Auswirkungen haben kann). Wenn du dich für Wi-Fi entscheidest, vergewissere dich, dass dein Rechner über eine integrierte Karte verfügt oder füge eine kompatiblen Dongle hinzu.
+  
+- Verwende immer das Original-Netzgerät Supply des Herstellers für dein Gerät. Dies ist wichtig, um Schäden an deinem Gerät zu vermeiden und die Gefahr eines Brandes zu verhindern.
+  
+- Wenn deine Maschine nicht über eine eingebaute Batterie verfügt, solltest du in einen Wechselrichter investieren, um plötzliche Abschaltungen zu vermeiden.
+  
+- Je nach Wert deiner Geräte und deiner geografischen Lage kann auch ein Blitzschutzsystem sinnvoll sein, entweder direkt an der Schalttafel oder an der verwendeten Steckdosenleiste.
+  
+- Denke schließlich daran, die Kühlung deines Rechners zu optimieren: Reinige ihn regelmäßig und stelle ihn an einem kühlen, gut belüfteten und übersichtlichen Ort auf, um eine Überhitzung zu vermeiden, die zu einer Drosselung (freiwillige Begrenzung der Geschwindigkeit Ihres Prozessors) führen könnte.
 
-
-
-
-- Wenn du gebrauchte Geräte kaufen und mit Bitcoins bezahlen möchten, kommen du zu einem Treffen in Ihrer Nähe! Wenn du sich mit anderen Teilnehmern austauschen, finden du mit Sicherheit passende Geräte zu einem guten Preis und tragen gleichzeitig dazu bei, die Kreislaufwirtschaft rund um Bitcoin am Leben zu erhalten. Es ist auch eine Gelegenheit, von den guten Ratschlägen der Gemeinschaft zu profitieren.
-
-
-
-
-
-- Für die Internetverbindung benötigen du natürlich ein RJ45-Ethernet-Kabel, zumindest für die Systeminstallation.
-
-
-
-
-
-- Einige Umgebungen wie Umbrel erlauben die Verwendung von Wi-Fi, aber die Leistung ist in der Regel schlechter (vor allem, wenn du Ihren Lightning-Node aus der Ferne verwenden möchten, da dies Auswirkungen haben kann). Wenn du sich für Wi-Fi entscheiden, vergewissern du sich, dass dein Rechner über eine integrierte Karte verfügt oder fügen du einen kompatiblen Dongle hinzu.
-
-
-
-
-
-- Verwenden du immer das Original-Netzgerät Supply des Herstellers für dein Gerät. Dies ist wichtig, um Schäden an Ihrem Gerät zu vermeiden und die Gefahr eines Brandes zu verhindern.
-
-
-
-
-
-- Wenn Ihre Maschine nicht über eine eingebaute Batterie verfügt, sollten du in einen Wechselrichter investieren, um plötzliche Abschaltungen zu vermeiden.
-
-
-
-
-
-- Je nach Wert Ihrer Geräte und Ihrer geografischen Lage kann auch ein Blitzschutzsystem sinnvoll sein, entweder direkt an der Schalttafel oder an der verwendeten Steckdosenleiste.
-
-
-
-
-
-- Denken du schließlich daran, die Kühlung Ihres Rechners zu optimieren: Reinigen du ihn regelmäßig und stellen du ihn an einem kühlen, gut belüfteten und übersichtlichen Ort auf, um eine Überhitzung zu vermeiden, die zu einer Drosselung (freiwillige Begrenzung der Geschwindigkeit Ihres Prozessors) führen könnte.
-
-
-
-# Einfache Installation eines Bitcoin-Node
-
+# Einfache Installation einer Bitcoin Node
 
 <partId>ca6cf2a5-0bcc-41d9-b556-0d38865bf98f</partId>
 
-
-
-
-## Umbrel: viel mehr als ein Bitcoin-Node
-
+## Umbrel: viel mehr als eine Bitcoin Node
 
 <chapterId>dd4c04f1-924a-43e1-94f3-ea9fbc83dd43</chapterId>
 
+Umbrel ist ein persönliches Server-Betriebssystem, das entwickelt wurde, um Self-Hosting zugänglich zu machen: Du installierst Umbrel, öffnest einen Browser auf `umbrel.local`, und verwaltest alles über ein einfaches Remote-Interface.
 
+Das Projekt machte zunächst die Idee einer Bitcoin und Lightning Node mit nur einem Klick populär und entwickelte sich dann zu einer echten "Home Cloud": Datei- und Fotospeicherung, Multimedia-Streaming, Netzwerk-Tools, Heimautomatisierung, lokale KI und Hunderte von Apps, die über einen integrierten App Store installiert werden können.
 
-Umbrel ist ein persönliches Server-Betriebssystem, das entwickelt wurde, um Self-Hosting zugänglich zu machen: du installieren Umbrel, öffnen einen Browser auf `umbrel.local`, und verwalten alles über einen einfachen Remote-Interface.
+In Umbrel läuft jede Anwendung in einem Docker-Container (Isolierung, atomare Updates, unabhängiger Start/Stop). Das Interface zentralisiert den Zugang zu all diesen Anwendungen und bietet Single Sign-On (mit optionaler 2FA), One-Click-Updates für Betriebssystem und Anwendungen, Live-Überwachung der Maschine (CPU, RAM, Temperatur, Speicher), Verwaltung von Berechtigungen zwischen den Anwendungen und einen Überblick über deren Verbrauch.
 
-
-
-Das Projekt machte zunächst die Idee eines Bitcoin- und Lightning-Node mit nur einem Klick populär und entwickelte sich dann zu einer echten "Home Cloud": Datei- und Fotospeicherung, Multimedia-Streaming, Netzwerk-Tools, Heimautomatisierung, lokale KI und Hunderte von Apps, die über einen integrierten App Store installiert werden können.
-
-
-
-In Umbrel läuft jede Anwendung in einem Docker-Container (Isolierung, atomare Updates, unabhängiger Start/Stop). Der Interface zentralisiert den Zugang zu all diesen Anwendungen und bietet Single Sign-On (mit optionaler 2FA), One-Click-Updates für Betriebssystem und Anwendungen, Live-Überwachung der Maschine (CPU, RAM, Temperatur, Speicher), Verwaltung von Berechtigungen zwischen den Anwendungen und einen Überblick über deren Verbrauch.
-
-
-
-Das Ziel von Umbrel ist es daher, dir die Kontrolle und die Vertraulichkeit Ihrer Daten zurückzugeben, ohne auf Cloud-Dienste angewiesen zu sein, und zwar über den einfachen Betrieb eines Bitcoin-Node hinaus.
-
-
+Das Ziel von Umbrel ist es daher, dir die Kontrolle und die Vertraulichkeit deienr Daten zurückzugeben, ohne auf Cloud-Dienste angewiesen zu sein, und zwar über den einfachen Betrieb einer Bitcoin Node hinaus.
 
 ### Umbrel Home vs. UmbrelOS
 
-
-
 Umbrel bietet zwei unterschiedliche Ansätze:
 
-
-
-
-
-- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. du bestellen es, schließen es an und gehen zu `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
-
-
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dies ist ein gebrauchsfertiger Mini-Server, der speziell für umbrelOS entwickelt und optimiert wurde. Er ist kompakt, leise, Ethernet-verbunden und mit einer NVMe-SSD (bis zu 4 TB optional), 16 GB RAM und einer Quad-Core-CPU ausgestattet. Du bestellst ihn, schließt ihn an und gehst auf `umbrel.local`. Innerhalb von Minuten ist Umbrel einsatzbereit und kann genutzt werden. Das ist die Plug-and-Play-Option.
 
 ![Image](assets/fr/081.webp)
 
-
-
-
-
-- [**umbrelOS**](https://umbrel.com/umbrelos): Dies ist das Betriebssystem, das du selbst auf Ihrer eigenen Hardware installieren können (Mini-PC, NUC, Tower, dedizierter Laptop...). du haben denselben Interface und denselben App Store wie bei Umbrel Home.
-
-
+- [**umbrelOS**](https://umbrel.com/umbrelos): Dies ist das Betriebssystem, das du selbst auf deiner eigenen Hardware installieren kannst (Mini-PC, NUC, Tower, dedizierter Laptop...). Du hast dasselbe Interface und denselben App Store wie bei Umbrel Home.
 
 ![Image](assets/fr/080.webp)
 
-
-
 In beiden Fällen ist die Benutzererfahrung auf der Softwareseite identisch: browserbasierte Verwaltung, One-Click-Updates, Installation von Anwendungen auf Abruf... Die Do-it-yourself-Lösung ist oft wirtschaftlicher als der Kauf eines Umbrel Home (abhängig von der verwendeten Maschine). Allerdings würde ich nicht unbedingt empfehlen, sich immer für die DIY-Option zu entscheiden, denn **der Kauf eines Umbrel Home trägt direkt zur Finanzierung der Entwicklung des Projekts bei**, da das Geschäftsmodell auf dem Verkauf von Hardware basiert. Und ehrlich gesagt, ist der Preis von 389 € für 2 TB Speicherplatz angesichts der Qualität des angebotenen Geräts sehr angemessen.
-
-
 
 ![Image](assets/fr/079.webp)
 
+Im nächsten Kapitel werden wir uns damit beschäftigen, wie du UmbrelOS DIY auf deinem eigenen Rechner installieren kannst. Du kannst diesen BTC 202 Kurs jedoch auf die gleiche Weise verfolgen, wenn du dich für ein Umbrel Home entschieden hast.
 
+### Anwendungsfall: von Bitcoin- Node zur Home Cloud
 
-Im nächsten Kapitel werden wir uns damit beschäftigen, wie du UmbrelOS DIY auf Ihrem eigenen Rechner installieren können. du können diesen BTC 202 Kurs jedoch auf die gleiche Weise verfolgen, wenn du sich für ein Umbrel Home entschieden haben.
+Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin konzentrieren, oder sich zu einem echten multifunktionalen persönlichen Server entwickeln, je nach deinen Bedürfnissen. Hier sind die Hauptanwendungen für Umbrel:
 
-
-
-### Anwendungsfall: vom Bitcoin-Node zur Home Cloud
-
-
-
-Umbrel kann sehr minimalistisch bleiben und sich ausschließlich auf Bitcoin konzentrieren, oder sich zu einem echten multifunktionalen persönlichen Server entwickeln, je nach Ihren Bedürfnissen. Hier sind die Hauptanwendungen für Umbrel:
-
-
-
-
-
-- Einfacher Bitcoin-Node**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin core (oder Knots) laufen lassen, deine Wallets direkt mit deinem Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um den Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
-
-
+- **Einfache Bitcoin Node**: Dies ist die grundlegende Nutzung, auf die sich Umbrel von Anfang an verlassen hat. Du kannst Bitcoin Core (oder Knots) laufen lassen, deine Wallets direkt mit deiner Node verbinden, einen Electrum-Server bereitstellen, deinen Mempool Block explorer hosten, um die Blockchain zu sehen, und Gebühren schätzen... Es sind diese Anwendungen, auf die wir uns in diesem Kurs konzentrieren werden.
 
 ![Image](assets/fr/082.webp)
 
-
-
-
-
-- Lightning Network**: Mit Umbrel können du auch LND oder Core Lightning, zwei Implementierungen des Lightning Network, einsetzen, um Ihren eigenen Lightning-Node zu verwalten. du können Kanäle öffnen, Ihre Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, einen entfernten Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
-
-
+- **Lightning Netzwerk**: Mit Umbrel kannst du auch LND oder Core Lightning, zwei Implementierungen des Lightning Netzwerks, einsetzen, um deine eigene Lightning Node zu verwalten. Du kannst Kanäle öffnen, deine Liquidität verwalten, Zahlungen tätigen, den Ausgleich automatisieren, Dienstleistungen anbieten, eine entfernte Wallet anschließen oder dank der vielen verfügbaren Anwendungen die Vorteile eines erweiterten Interface-Managements nutzen. Wir werden diesen speziellen Anwendungsfall in unserem nächsten LNP 202-Kurs behandeln.
 
 ![Image](assets/fr/083.webp)
 
+- **Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann dein persönlicher Server werden, der es dir ermöglicht, die Kontrolle über deine Daten zurückzugewinnen. Du hostest die Dienste, die du täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während du die volle Kontrolle über deine Daten und deine Privatsphäre behälst.
 
-
-
-
-- Allgemeines Self-Hosting**: mit Nextcloud, Immich, Jellyfin/Plex, DNS-weiten Werbeblockern (Pi-hole/AdGuard), VPNs (WireGuard, Tailscale), Heimautomatisierung (Home Assistant), Backups, Notizverwaltung, Office-Tools, lokale KI (Ollama + Open WebUI)... Umbrel kann dein persönlicher Server werden, der es dir ermöglicht, die Kontrolle über Ihre Daten zurückzugewinnen. du hosten die Dienste, die du täglich nutzen, selbst, mit einer ausgefeilten Benutzererfahrung, die externen Lösungen sehr ähnlich ist, während du die volle Kontrolle über Ihre Daten und Ihre Privatsphäre behalten.
-
-
-
-Durch die Bereitstellung von Anwendungen in Containern können du Umbrel so gestalten, wie du es wünschen: Beginnen du mit einem einfachen Bitcoin-Node und einigen Anwendungen, die mit seinem Ökosystem verbunden sind, installieren du dann einen Lightning-Node neben Ihrem Bitcoin-Node und erweitern du Ihre Instanz nach und nach mit den selbst gehosteten Anwendungen, die du benötigen.
-
-
+Durch die Bereitstellung von Anwendungen in Containern kannst du Umbrel so gestalten, wie du es wünschst: Beginne mit einer einfachen Bitcoin Node und einigen Anwendungen, die mit ihrem Ökosystem verbunden sind. Installiere dann eine Lightning Node neben deiner Bitcoin Node und erweitere deine Instanz nach und nach mit den selbst gehosteten Anwendungen, die du benötigst.
 
 ### Gemeinschaft und gegenseitige Hilfe
 
-
-
-Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord](https://discord.gg/efNtFzqtdx) und [ihr Online-Forum](https://community.umbrel.com/) erreichen. Hier finden du nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit du mit Ihrem Coin nicht allein gelassen werden.
-
-
+Einer der Hauptvorteile von Umbrel gegenüber seinen Konkurrenten ist seine große und sehr aktive Benutzergemeinschaft. Du kannst sie hauptsächlich über [ihren Discord](https://discord.gg/efNtFzqtdx) und [ihr Online-Forum](https://community.umbrel.com/) erreichen. Hier findest du nicht nur praktische Ratschläge, sondern vor allem auch Lösungen für Probleme und Fehlerbehebungen. Es ist ein großartiger Ort, um anzufangen, Fortschritte zu machen und schließlich anderen Nutzern zu helfen, damit du mit deiner Node nicht allein gelassen wirst.
 
 ![Image](assets/fr/084.webp)
 
-
-
 ### UmbrelOS-Lizenz
 
+Der Code von Umbrel ist öffentlich zugänglich (du kannst ihn ansehen, forken, und verändern), aber er steht nicht unter einer echten Open-Source-Lizenz. Tatsächlich wird umbrelOS unter der [*PolyForm Noncommercial 1.0 Lizenz*](https://polyformproject.org/licenses/noncommercial/1.0.0/) vertrieben, obwohl einige zugehörige Entwicklungswerkzeuge unter der MIT-Lizenz verfügbar sind.
 
+Praktisch gesehen kannt du mit umbrelOS so ziemlich alles machen, was du willst, solange es für den persönlichen, nicht-kommerziellen Gebrauch ist: Modifikation, Weitergabe für nicht-kommerzielle Zwecke, Erstellung von Derivaten für dich selbst oder für nicht-kommerzielle Organisationen, vorausgesetzt, du respektierst die rechtlichen Hinweise.
 
-Der Code von Umbrel ist öffentlich zugänglich (du können ihn ansehen, Fork, und verändern), aber er steht nicht unter einer echten Open-Source-Lizenz. Tatsächlich wird umbrelOS unter der [*PolyForm Noncommercial 1.0*] Lizenz (https://polyformproject.org/licenses/noncommercial/1.0.0/) vertrieben, obwohl einige zugehörige Entwicklungswerkzeuge unter der MIT-Lizenz verfügbar sind.
-
-
-
-Praktisch gesehen können du mit umbrelOS so ziemlich alles machen, was du wollen, solange es für den persönlichen, nicht-kommerziellen Gebrauch ist: Modifikation, Weitergabe für nicht-kommerzielle Zwecke, Erstellung von Derivaten für du selbst oder für nicht-kommerzielle Organisationen, vorausgesetzt, du respektieren die rechtlichen Hinweise.
-
-
-
-Es ist jedoch verboten, Umbrel oder seine Derivate zu verkaufen (z.B. eine vormontierte Maschine mit vorinstalliertem UmbrelOS), Umbrel-bezogene Dienstleistungen kommerziell anzubieten oder seinen Code in ein Produkt zu integrieren.
-
-
+Es ist jedoch verboten, Umbrel oder seine Derivate zu verkaufen (z.B. eine zusammengebauten Rechner mit vorinstalliertem UmbrelOS), Umbrel-bezogene Dienstleistungen kommerziell anzubieten oder seinen Code in ein Produkt zu integrieren.
 
 Technisch gesehen schränkt diese Lizenz die Installation, das Auditing oder die Anpassung von Umbrel für den persönlichen Gebrauch nicht ein. Rechtlich schützt sie das Projekt gegen unerlaubten Weiterverkauf oder kommerzielles Hosting, insbesondere durch Cloud-Anbieter. Umbrel ist daher nicht quelloffen, obwohl sein Code öffentlich zugänglich bleibt.
 
-
-
 Allerdings behält jede Anwendung im Store ihre eigene Lizenz, die häufig Open Source ist.
 
-
-
-
-## Installation eines Full node mit Umbrella
-
+## Installation einer Full Node mit Umbrel
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
-
-
 
 Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit den Details zu befassen. In diesem Tutorial zeigen wir dir, wie du einen kompletten Bitcoin Node mit UmbrelOS installieren.
 

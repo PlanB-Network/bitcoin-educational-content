@@ -228,7 +228,7 @@ Denne gjenoppdagelsen viser imidlertid at vi er på vei inn i en slags blindvei.
 
 
 
-(Pierre Le Pesant de) Boisguilbert ble født i Rouen i 1646. Han fikk sin utdannelse ved Port-Royal i Paris, og begynte en mislykket litterær karriere før han tok på seg ulike roller, blant annet som generalløytnant i Rouen. I denne perioden skrev han flere bøker for å argumentere for sine ideer, blant annet "Détail de la France" i 1695, som han utga på nytt året etter under en mye mer eksplisitt tittel: [*Frankrike ruinert under Ludvig XIV, av hvem og hvordan, med midlerne til å gjenopprette det] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
+(Pierre Le Pesant de) Boisguilbert ble født i Rouen i 1646. Han fikk sin utdannelse ved Port-Royal i Paris, og begynte en mislykket litterær karriere før han tok på seg ulike roller, blant annet som generalløytnant i Rouen. I denne perioden skrev han flere bøker for å argumentere for sine ideer, blant annet "Détail de la France" i 1695, som han utga på nytt året etter under en mye mer eksplisitt tittel: [*Frankrike ruinert under Ludvig XIV, av hvem og hvordan, med midlerne til å gjenopprette det](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
 ![image](assets/nb-NO/013.webp)
@@ -573,27 +573,27 @@ Takket være samarbeidet med flere medlemmer av Gournays krets kunne mange forfa
 
 
 
-- Herberts essay om [kornets generelle politi] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 utgaver på 4 år)
+- Herberts essay om [kornets generelle politi](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 utgaver på 4 år)
 
 
 ![image](assets/nb-NO/033.webp)
 
 
 
-- Coyers [Noblesse commerçante] (https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 utgaver på 2 år)
+- Coyers [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 utgaver på 2 år)
 
 
 
 
 
 
-- Plumard de Dangeuls [Remarks on the Advantages and Disadvantages of France and Great Britain] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 utgaver det første året)
-- Cliquot-Blervache og Gournays [Memoirer om handelsstanden] (https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 utgaver i 1758)
+- Plumard de Dangeuls [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 utgaver det første året)
+- Cliquot-Blervache og Gournays [Memoirer om handelsstanden](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 utgaver i 1758)
 
 Gruppen spilte også en sentral rolle i utgivelsen av
 
 
-- [Essay om handelens natur i sin alminnelighet] (https://archive.org/details/essayonnatureofc0000cant) av Richard Cantillon.
+- [Essay om handelens natur i sin alminnelighet](https://archive.org/details/essayonnatureofc0000cant) av Richard Cantillon.
 
 
 ![image](assets/nb-NO/034.webp)
@@ -608,7 +608,7 @@ Gournay-kretsens intellektuelle produksjon hadde stor innflytelse på idéhistor
 ![image](assets/nb-NO/035.webp)
 
 
-For å spre smaken for økonomiske diskusjoner i den franske befolkningen arbeidet Gournay og vennene hans for å gjøre dem tilgjengelige gjennom romaner. Etter *Memoir sur les Métiers*, som kritiserte laugene, hjalp Gournay og Cliquot-Blervache Gabriel-François Coyer med å skrive en kort satirisk roman kalt Chinki: [En cochinchinesisk fortelling som kan overføres til andre nasjoner] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+For å spre smaken for økonomiske diskusjoner i den franske befolkningen arbeidet Gournay og vennene hans for å gjøre dem tilgjengelige gjennom romaner. Etter *Memoir sur les Métiers*, som kritiserte laugene, hjalp Gournay og Cliquot-Blervache Gabriel-François Coyer med å skrive en kort satirisk roman kalt Chinki: [En cochinchinesisk fortelling som kan overføres til andre nasjoner](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/nb-NO/036.webp)
@@ -641,7 +641,7 @@ Gjennom sitt talent og sin plass i fransk historie overskygget han sin far, øko
 ![image](assets/nb-NO/038.webp)
 
 
-Marquis de Mirabeau hadde faktisk oppnådd enorm berømmelse allerede før han tok i bruk fysiokratiet, takket være en bok med tittelen "Menneskehetens venn. Avhandling om befolkningen [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Selv om førsteutgaven kom ut i 1756, ble den først kjent rundt 1757, et år før han møtte Quesnay.
+Marquis de Mirabeau hadde faktisk oppnådd enorm berømmelse allerede før han tok i bruk fysiokratiet, takket være en bok med tittelen "Menneskehetens venn. Avhandling om befolkningen [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Selv om førsteutgaven kom ut i 1756, ble den først kjent rundt 1757, et år før han møtte Quesnay.
 
 
 
@@ -694,7 +694,7 @@ Med sin største suksess bak seg ble Mirabeau kurtisert. François Quesnay, som 
 De debatterte heftig, og til slutt skjedde det som normalt aldri skjer i debatter: Mirabeau innrømmet blankt at han hadde tatt feil. Han sa seg enig i Quesnays ideer og sa seg klar til å spre dem.
 
 
-Sammen utgjorde de kjernen i det som skulle bli den fysiokratiske skolen, styrket av de faste rekruttene de hentet inn. Kort tid etter Mirabeaus omvendelse fikk Quesnay ham til å forsvare sine ideer om beskatning. Dette førte til ["Theory of Taxation"] (https://archive.org/details/thoriedelimpot00mira), som Mirabeau ble sendt til Vincennes-fengselet for noen dager og deretter forvist til Bignon.
+Sammen utgjorde de kjernen i det som skulle bli den fysiokratiske skolen, styrket av de faste rekruttene de hentet inn. Kort tid etter Mirabeaus omvendelse fikk Quesnay ham til å forsvare sine ideer om beskatning. Dette førte til ["Theory of Taxation"](https://archive.org/details/thoriedelimpot00mira), som Mirabeau ble sendt til Vincennes-fengselet for noen dager og deretter forvist til Bignon.
 
 
 ![image](assets/nb-NO/042.webp)
@@ -809,7 +809,7 @@ Denne boken samlet Quesnays viktigste bidrag. Den beskriver det økonomiske idea
 Fysiokratiet var på moten i Frankrike, og til og med i hele Europa, i et knapt tiår. Etter en lang utviklingsperiode ble den først kjent på midten av 1760-tallet. Da Turgot kom til makten i 1776, hadde bevegelsen allerede mistet sin popularitet, og ministeren holdt sin støtte til Quesnays skole for det meste skjult.
 
 
-Opprinnelsen ligger i utviklingen av økonomiske ideer på 1750-tallet. Flere forfattere bidro til å bygge bro mellom Boisguilbert og det som senere skulle bli kjent som fysiokratiet. Som tidligere omtalt sto Vincent de Gournay og hans krets av økonomer bak mange publikasjoner som introduserte franske lesere for utenlandsk økonomisk tenkning og bidro til å tenne deres lidenskap for økonomi. Grunnlaget for fysiokratiet var allerede til stede i bøker som "Détail de la France" av Boisguilbert og ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) av Cantillon.
+Opprinnelsen ligger i utviklingen av økonomiske ideer på 1750-tallet. Flere forfattere bidro til å bygge bro mellom Boisguilbert og det som senere skulle bli kjent som fysiokratiet. Som tidligere omtalt sto Vincent de Gournay og hans krets av økonomer bak mange publikasjoner som introduserte franske lesere for utenlandsk økonomisk tenkning og bidro til å tenne deres lidenskap for økonomi. Grunnlaget for fysiokratiet var allerede til stede i bøker som "Détail de la France" av Boisguilbert og ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) av Cantillon.
 
 
 ![image](assets/nb-NO/047.webp)
@@ -962,7 +962,7 @@ I sine tidligere siterte *Maxims* skriver Quesnay
 Fysiokratene hadde sett hvilken skade statlig innblanding hadde forårsaket, særlig i kornhandelen. Man må erkjenne, sier de, at myndighetene aldri vil være i stand til å styre handelen like godt som enkeltmennesker, fordi de ville måtte svare på alle behov og reagere på alle endringer i etterspørsel eller Supply. Alt dette ligger langt utenfor selv den klokeste regjering man kan tenke seg. Derfor er det nødvendig å la ting være og la dem flyte.
 
 
-Handel er nyttig av natur og må være helt og fullt fri. Et av medlemmene, Le Trosne, skrev til og med en pamflett med tittelen [*The Freedom of the Grain Trade: Always Useful, Never Harmful*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Handel er nyttig av natur og må være helt og fullt fri. Et av medlemmene, Le Trosne, skrev til og med en pamflett med tittelen [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Femte prinsipp: Alle mennesker er brødre
@@ -1002,7 +1002,7 @@ I Russland forberedte Katarina 2. en lovreform og ba Diderot om å sende henne e
 ![image](assets/nb-NO/059.webp)
 
 
-Han ble imponert av å lese [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft), utgitt i 1767, og sendte henne forfatteren, fysiokraten Mercier de la Rivière.
+Han ble imponert av å lese [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft), utgitt i 1767, og sendte henne forfatteren, fysiokraten Mercier de la Rivière.
 
 
 
@@ -1409,7 +1409,7 @@ Abbot av Condillac spilte en viktig rolle i å avlive denne falske forestillinge
 "Definitivt" er kanskje en overdrivelse, for i den offentlige debatten dukker denne sofismen ofte opp igjen. Dette er kanskje grunnen til at Condillac fortsatt er en lite kjent økonom. Bortsett fra østerrikske økonomer er det få som har forstått betydningen av hans teori om Exchange, og ingen interesserer seg lenger for ham.
 
 
-For de fleste historikere av økonomisk tenkning er året 1776 preget av utgivelsen av *The Wealth of Nations*, som grunnla den økonomiske vitenskapen. De femten leksjonene vi nettopp har fullført, der vi har studert fransk økonomisk vitenskap før Adam Smith, er nok til å bevise at denne oppfatningen er feil. Samme år, i 1776, kom det dessuten ut en annen bok som kanskje fortjener mer ros fra historikerne enn Adam Smiths bok: Den er skrevet av Condillac og har den enkle tittelen [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+For de fleste historikere av økonomisk tenkning er året 1776 preget av utgivelsen av *The Wealth of Nations*, som grunnla den økonomiske vitenskapen. De femten leksjonene vi nettopp har fullført, der vi har studert fransk økonomisk vitenskap før Adam Smith, er nok til å bevise at denne oppfatningen er feil. Samme år, i 1776, kom det dessuten ut en annen bok som kanskje fortjener mer ros fra historikerne enn Adam Smiths bok: Den er skrevet av Condillac og har den enkle tittelen [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/nb-NO/085.webp)
@@ -1498,7 +1498,7 @@ Condorcets karriere tok en ny vending da han gikk inn i den økonomiske debatten
 Mellom 1774 og 1776, under Turgots ministerium, holdt Condorcet en rekke innlegg, alle preget av hans Commitment til laissez-faire. Blant verkene hans finner vi *Brev fra en bonde i Picardie til Necker*, som forsvarer frihandel; *Monopoler og monopolister*, som tar til orde for fri konkurranse; *Refleksjoner over corvées*, som krever at de avskaffes; og *Refleksjoner over kornhandelen*, som igjen hyller frihandel og kritiserer Neckers bok om samme emne.
 
 
-I sine [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) gjør Condorcet flere viktige poeng gjeldende.
+I sine [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) gjør Condorcet flere viktige poeng gjeldende.
 
 
 ![image](assets/nb-NO/089.webp)
@@ -1565,7 +1565,7 @@ Dette forslaget ble avvist.
 
 Samme år, i 1790, begynte debattene om å utstede ny papirvaluta for å dekke statens utgifter.
 
-Dupont de Nemours var sterkt imot dette og ga ut en pamflett med tittelen [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). Tittelen var presis, for han forklarte at utstedelse av assignater uunngåelig ville føre til inflasjon, en økning i prisene på råvarer, inkludert brød.
+Dupont de Nemours var sterkt imot dette og ga ut en pamflett med tittelen [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). Tittelen var presis, for han forklarte at utstedelse av assignater uunngåelig ville føre til inflasjon, en økning i prisene på råvarer, inkludert brød.
 
 
 

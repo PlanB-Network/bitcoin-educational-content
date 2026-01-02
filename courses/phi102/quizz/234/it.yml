@@ -1,0 +1,8 @@
+question: Su quale meccanismo economico si basa principalmente la libertà contrattuale per garantire che entrambe le parti traggano vantaggio dagli scambi volontari?
+answer: La valutazione soggettiva di ciascuna parte che rende lo scambio preferibile all'assenza di esso
+wrong_answers:
+  - Regolamenti governativi che assicurano un'equa distribuzione dei benefici tra le parti contraenti
+  - Controllo dei prezzi di mercato che garantisca un'equa compensazione per tutti i partecipanti allo scambio
+  - Misurazione oggettiva del valore che crea guadagni matematicamente equivalenti per entrambe le parti
+explanation: |
+  I contratti volontari creano un arricchimento reciproco perché ogni individuo sceglie di partecipare solo quando valuta soggettivamente ciò che riceve più di ciò che cede. Questa preferenza soggettiva, piuttosto che una regolamentazione esterna o una misurazione oggettiva del valore, guida la natura a somma positiva dello scambio volontario. La regolamentazione governativa o il controllo dei prezzi minerebbero di fatto questo meccanismo volontario, mentre la misurazione oggettiva del valore ignora le preferenze personali che motivano gli individui a contrattare.

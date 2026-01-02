@@ -267,9 +267,9 @@ Lipa for Business се позиционира като цялостно реше
 
 
 
-- [Официален уебсайт на Lipa за бизнеса] (https://lipa.swiss/en/for-business)
+- [Официален уебсайт на Lipa за бизнеса](https://lipa.swiss/en/for-business)
 - [Уеб табло](https://dashboard.lipa.swiss)
 - [Поддръжка на Lipa за бизнеса](https://help.lipa.swiss/business)
 - [Lipa Обща подкрепа](https://help.lipa.swiss/Wallet)
-- [LinkedIn Lipa] (https://www.linkedin.com/company/getlipa)
-- [Twitter @lipa_btc] (https://twitter.com/lipa_btc)
+- [LinkedIn Lipa](https://www.linkedin.com/company/getlipa)
+- [Twitter @lipa_btc](https://twitter.com/lipa_btc)

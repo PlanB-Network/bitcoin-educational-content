@@ -1,9 +1,9 @@
-question: ¿Qué protocolo asigna dinámicamente una IP Address a un dispositivo?
+question: ¿Qué protocolo asigna dinámicamente una dirección IP a un dispositivo?
 answer: DHCP
 wrong_answers:
   - ARP
   - DNS
   - NAT
 explanation: |
-  El protocolo DHCP asigna automáticamente direcciones IP a los dispositivos de una red, lo que simplifica la gestión de Address.
-reviewed: false
+  El protocolo DHCP asigna automáticamente direcciones IP a los dispositivos de una red, lo que simplifica la gestión de direcciones.
+reviewed: true

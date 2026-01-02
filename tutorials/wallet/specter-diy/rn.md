@@ -34,7 +34,7 @@ Ku bijanye n’ububiko bw’amabanga dushigikira uburyo bw’ububiko bw’amaban
 Ico twibandako cane ni ugushiraho amasinya menshi n’ibindi bikoresho, ariko wallet irashobora kandi gukora nk’umusinya umwe. Turagerageza kubigira bihuye na Bitcoin Core aho dushobora - PSBT ku bikorwa bitagira umukono, wallet ibisobanuro ku kwinjiza/gusohora ama wallets multisig. Kugira ngo tuvugane na Bitcoin Core mu buryo bworoshe turiko turakora kandi kuri [app ya Specter Desktop] - umukozi mutoyi w’ibara ry’agahama avugana n’urudodo rwawe rwa Bitcoin Core.
 
 
-Ivyinshi muri firmware vyanditswe muri MicroPython bituma code yoroha gusuzuma no guhindura. Dukoresha ububiko bw’ibitabu buva kuri Bitcoin Core ku bijanye n’imibare y’imirongo y’uruzitiro n’ububiko bw’ibitabu [LittlevGL] (https://lvgl.io/) ku bijanye n’ubuhinga bwa GUI.
+Ivyinshi muri firmware vyanditswe muri MicroPython bituma code yoroha gusuzuma no guhindura. Dukoresha ububiko bw’ibitabu buva kuri Bitcoin Core ku bijanye n’imibare y’imirongo y’uruzitiro n’ububiko bw’ibitabu [LittlevGL](https://lvgl.io/) ku bijanye n’ubuhinga bwa GUI.
 
 
 ## Ukwiyamiriza
@@ -59,7 +59,7 @@ Igice nyamukuru c'igikoresho ni urubaho rw'abahinguzi:
 
 
 
-- Igikoresho co gutegura STM32F469I-DISCO (ni ukuvuga kuva kuri [Imbeba](Ibisobanuro vy'Ibicuruzwa/STMicroElectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) canke [Ikifunguzo c'Igikoresho] (Igikoresho-c'Igikoresho/Igikoresho c'Ivy'Ikoranabuhanga/STM32F469I-DISCO/497-15990-ND/5428811))
+- Igikoresho co gutegura STM32F469I-DISCO (ni ukuvuga kuva kuri [Imbeba](Ibisobanuro vy'Ibicuruzwa/STMicroElectronics/STM32F469I-DISCO?qs=kWQV1gtkNndotCjy2DKZ4w==) canke [Ikifunguzo c'Igikoresho](Igikoresho-c'Igikoresho/Igikoresho c'Ivy'Ikoranabuhanga/STM32F469I-DISCO/497-15990-ND/5428811))
 - Umugozi muto**USB
 - Umugozi wa MicroUSB usanzwe wo kuvugana kuri USB
 
@@ -67,7 +67,7 @@ Igice nyamukuru c'igikoresho ni urubaho rw'abahinguzi:
 Ni ubusabe ariko ni vyiza:
 
 
-- [Igikoresho co gupima kode ya QR ya Waveshare] (httm) gifise imitwe miremire y'ibipimo nk'ivyo [ivyo] (ivyo] canke [ivyo](ivyo] kugira ngo bihuze igikoresho co gupima n’urubaho (imitwe 4 y’amapin irakenewe).
+- [Igikoresho co gupima kode ya QR ya Waveshare](httm) gifise imitwe miremire y'ibipimo nk'ivyo [ivyo](ivyo] canke [ivyo](ivyo] kugira ngo bihuze igikoresho co gupima n’urubaho (imitwe 4 y’amapin irakenewe).
 
 
 Ubu turiko turakora ku rubaho rwo kwagura rurimwo ahantu ho gushiramwo ikarita y’ubwenge, igikoresho co gupima kode ya QR, bateri n’igikapu co gucapura 3d, ariko nta gice nyamukuru kirimwo — urubaho rwo kuvumbura ukeneye gusaba ukwaco. Ubwo buryo igitero c’uruhererekane rw’ibikoresho n’ubu ntikiri ikibazo kuko ibihimba bihambaye vy’umutekano bigurishwa mu maduka y’ubuhinga bwa none.
@@ -94,7 +94,7 @@ Nta gutera ivyatsi bisabwa, ariko iyo ufise ubuhinga bwo gutera ivyatsi urashobo
 **Ihitamwo rya 2.** Scanner nziza cane ya Mikroe ariko irazimvye cane (150$):
 
 
-[Fyonda kuri kode y'uruzitiro] (kanda kuri kode y'uruzitiro) + [Igikoresho co guhindura]
+[Fyonda kuri kode y'uruzitiro](kanda kuri kode y'uruzitiro) + [Igikoresho co guhindura]
 
 
 **Ihitamwo rya 3.** Iyindi scanner ya QR yose
@@ -138,7 +138,7 @@ Ehe ingene ufatanya scanner n'urubaho:
 ![image](assets/fr/02.webp)
 
 
-Kugira ngo bigufashe ushobora kugura ingabo ya Arduino Protype no kuyishirako vyose (i.e. [iyi] (i.e. [iyi])
+Kugira ngo bigufashe ushobora kugura ingabo ya Arduino Protype no kuyishirako vyose (i.e. [iyi](i.e. [iyi])
 
 
 ### Uburongozi bw'inguvu
@@ -159,7 +159,7 @@ Raba [ibiziga](https://github.com/iterambere ry'ubuhinga/igiti/umukuru/inyandiko
 Koranya Spectre-DIY yawe maze utwoherereze amafoto (ukore ubusabe bwo gukurura canke utwandikire).
 
 
-Raba [Igishushanyo] (https://github.com/cryptoadvance/specter-diy/blob/master/inyandiko/amafoto/inzu y'ibishushanyo/README.md) n'Ibishushanyo vyakoranijwe n'abanyagihugu!
+Raba [Igishushanyo](https://github.com/cryptoadvance/specter-diy/blob/master/inyandiko/amafoto/inzu y'ibishushanyo/README.md) n'Ibishushanyo vyakoranijwe n'abanyagihugu!
 
 
 
@@ -176,7 +176,7 @@ Na bootloader itekanye, gushiramwo mbere y’ivyo bikoresho biratandukanye gatoy
 ### Gukayangana porogaramu y'intango
 
 
-**Iciyumviro** Niba udashaka gukoresha ama binaries avuye mu bisohotse, reba [inyandiko z'ivyuma] (https://github.com/cryptoadvance/spectre-bootloader/blob/master/doc/selfsigned.md) zisigura ingene wozikoranya no kuzitunganya kugira ngo ukoreshe stead y'imfunguruzo zacu za bose mu.
+**Iciyumviro** Niba udashaka gukoresha ama binaries avuye mu bisohotse, reba [inyandiko z'ivyuma](https://github.com/cryptoadvance/spectre-bootloader/blob/master/doc/selfsigned.md) zisigura ingene wozikoranya no kuzitunganya kugira ngo ukoreshe stead y'imfunguruzo zacu za bose mu.
 
 
 

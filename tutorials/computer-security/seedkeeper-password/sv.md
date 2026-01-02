@@ -59,7 +59,7 @@ Om du vill använda Seedkeepers backupfunktion behöver du naturligtvis köpa tv
 
 
 
-Det första steget är att installera programvaran på din dator eller smartphone. På en PC behöver du [ladda ner den senaste versionen av Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). För mobiler finns Seedkeeper-programmet tillgängligt i [Google Play Store] (https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) och i [Apple App Store] (https://apps.apple.com/be/app/seedkeeper/id6502836060).
+Det första steget är att installera programvaran på din dator eller smartphone. På en PC behöver du [ladda ner den senaste versionen av Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). För mobiler finns Seedkeeper-programmet tillgängligt i [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) och i [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

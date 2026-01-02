@@ -1,0 +1,8 @@
+question: 與傳統的移動 Lightning 實施相比，Greenlight 驅動的錢包能實現更優越的支付路由可靠性的主要技術原因是什麼？
+answer: Greenlight 節點在雲端持續運行，保持即時網路圖形同步和即時完整圖形資料存取
+wrong_answers:
+  - Greenlight 使用先進的機器學習演算法，根據歷史交易模式預測最佳付款路徑
+  - Greenlight 實現了專有的多路徑付款分割，可將交易同時分配到多個渠道，以實現冗餘。
+  - Greenlight 與主要的 Lightning 樞紐保持專屬的高頻寬連接，確保優先路由最流通的通道
+explanation: |
+  正確答案指出 Greenlight 基於雲的方法的基本架構優勢。傳統的移動 Lightning 電子錢包必須在啟動時同步網路圖形資料，這會造成延遲，並可能使用陳舊的路由資訊。Greenlight 透過在雲端持續運行 Lightning 節點來解決這個問題，確保它們始終擁有最新的網路知識，並在用戶連線時立即提供完整的圖形資料。錯誤答案描述的功能似是而非 - Greenlight 並未使用 ML 路由演算法、標準 Lightning 協定以外的專屬付款分割，或優先路由的特殊集線器連線。

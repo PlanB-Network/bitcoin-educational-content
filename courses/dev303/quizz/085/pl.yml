@@ -1,0 +1,8 @@
+question: Podczas definiowania interfejsów wywołania zwrotnego w UniFFI, jakie dodatkowe ograniczenia cechy Rust są zazwyczaj wymagane dla cechy wywołania zwrotnego, aby zapewnić bezpieczne wywoływanie międzyjęzykowe?
+answer: Granice Send i Sync są wymagane, ponieważ wywołania zwrotne mogą przekraczać granice wątków między Rust a językami docelowymi
+wrong_answers:
+  - Ograniczenia Clone i Copy są wymagane, aby umożliwić powielanie danych wywołania zwrotnego ponad granicami języków
+  - Debugowanie i wyświetlanie granic są wymagane, aby umożliwić prawidłowe raportowanie błędów, gdy wywołania zwrotne nie powiodą się podczas wykonywania
+  - Granice Serialize i Deserialize są wymagane do marshalowania parametrów wywołań zwrotnych między różnymi językami uruchomieniowymi
+explanation: |
+  Interfejsy wywołania zwrotnego w UniFFI wymagają granic Send i Sync, ponieważ umożliwiają dwukierunkową komunikację, w której kod Rust wywołuje kod aplikacji napisany w językach docelowych. Ponieważ te wywołania zwrotne mogą przekraczać granice wątków podczas wykonywania, system typów Rust wymaga granic Send (bezpiecznych do przesyłania między wątkami) i Sync (bezpiecznych do współdzielenia odniesień między wątkami) w celu zapewnienia bezpieczeństwa pamięci. Pozostałe opcje są nieprawidłowe: Clone/Copy nie są potrzebne do wywołań międzyjęzykowych, Debug/Display służą do formatowania, a nie bezpieczeństwa, a Serialize/Deserialize są obsługiwane automatycznie przez system marshalingu UniFFI.

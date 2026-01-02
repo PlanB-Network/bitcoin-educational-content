@@ -70,7 +70,7 @@ Poniżej znajduje się wybór znaków dla USA jako przykład:
 
 
 
-Aby to zrobić, odwiedź [ich stronę internetową] (https://thebitcoincompany.com/).
+Aby to zrobić, odwiedź [ich stronę internetową](https://thebitcoincompany.com/).
 
 
 

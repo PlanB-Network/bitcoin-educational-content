@@ -50,7 +50,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Last ned applikasjonen fra [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Last ned applikasjonen fra [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Følg installasjonsinstruksjonene på enheten din.
 - Under installasjonen blir du bedt om å velge om du ønsker å dele visse data for å forbedre Peach-applikasjonen (bilde 1)
 - På det neste skjermbildet (bilde 2) har du to alternativer:
@@ -283,5 +283,5 @@ For optimal sikkerhet anbefaler vi at du utfører begge typer sikkerhetskopierin
 ## Nyttige ressurser
 
 
-- Fransk forklaringsvideo: [YouTube] (https://youtu.be/ziwhv9KqVkM)
-- Hurtigstartveiledning: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Fransk forklaringsvideo: [YouTube](https://youtu.be/ziwhv9KqVkM)
+- Hurtigstartveiledning: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

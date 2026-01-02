@@ -1,0 +1,8 @@
+question: Ni nini hutokea wakati wa mchakato wa kupumzika wakati hofu inapotokea katika Rust?
+answer: Rust inarudi nyuma kupitia rundo la simu ili kutoa ufuatiliaji wa kina wa rundo
+wrong_answers:
+  - Rust husitisha programu mara moja bila usafi wowote au taarifa yoyote
+  - Rust hubadilisha hofu kuwa aina ya Matokeo yanayoweza kurejeshwa kiotomatiki
+  - Rust huanzisha upya operesheni iliyoshindwa tangu mwanzo wa kitendakazi
+explanation: |
+  Wakati hofu inapotokea katika Rust, mchakato wa kufungua upya hupitia kwenye rundo la simu ili kutoa maelezo ya kina ya rundo yanayoonyesha mahali ambapo hofu ilitokea. Hii huwasaidia wasanidi programu kutambua chanzo cha matatizo wakati wa utatuzi wa matatizo. Chaguzi zingine si sahihi: Rust haimaliziki mara moja bila kusafisha (hiyo hutokea tu wakati kufungua upya kumezimwa), hofu haziwezi kubadilishwa kiotomatiki kuwa aina za Matokeo, na Rust haianzishi tena shughuli zilizoshindwa.

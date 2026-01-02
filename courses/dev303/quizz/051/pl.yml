@@ -1,0 +1,8 @@
+question: Jakie są główne obawy związane z bezpieczeństwem podczas korzystania z RefCell w środowisku wielowątkowym?
+answer: RefCell nie jest bezpieczny dla wątków i spowoduje niezdefiniowane zachowanie, jeśli będzie dostępny z wielu wątków
+wrong_answers:
+  - RefCell automatycznie synchronizuje dostęp między wątkami, ale ze znacznym narzutem na wydajność
+  - RefCell wpada w panikę w czasie wykonywania, gdy wiele wątków próbuje uzyskać do niego dostęp jednocześnie
+  - RefCell zablokuje się, gdy wiele wątków spróbuje jednocześnie pożyczyć te same dane
+explanation: |
+  RefCell został zaprojektowany wyłącznie dla scenariuszy jednowątkowych i nie posiada żadnych mechanizmów synchronizacji wątków. W przeciwieństwie do bezpiecznych dla wątków alternatyw, takich jak Mutex, RefCell nie wykonuje żadnych operacji atomowych ani blokowania, przez co jednoczesny dostęp z wielu wątków skutkuje niezdefiniowanym zachowaniem i potencjalnymi wyścigami danych. Wykonywane przez RefCell kontrole pożyczania w czasie wykonywania nie są bezpieczne dla wątków i mogą zostać uszkodzone przez współbieżny dostęp, prowadząc do naruszeń bezpieczeństwa pamięci, którym Rust normalnie zapobiega.

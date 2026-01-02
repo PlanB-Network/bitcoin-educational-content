@@ -234,7 +234,7 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 ### Medien
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) ist ein plattformübergreifender Spotify-Client, der kein Premium-Konto erfordert. Spotube ist über F-Droid verfügbar.
-- [Nextcloud] (https://f-droid.org/en/packages/com.nextcloud.client/) ist eine selbst gehostete Produktivitätsplattform, mit der Sie Ihre Dateien, Kalender, Kontakte und vieles mehr speichern, synchronisieren und gemeinsam nutzen können. Nextcloud ist über F-Droid verfügbar.
+- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) ist eine selbst gehostete Produktivitätsplattform, mit der Sie Ihre Dateien, Kalender, Kontakte und vieles mehr speichern, synchronisieren und gemeinsam nutzen können. Nextcloud ist über F-Droid verfügbar.
 - [Joplin](https://f-droid.org/en/packages/net.cozic.joplin/) ist eine App für Notizen und Aufgaben, die eine große Anzahl von Notizen in Notizbüchern verwalten kann. Joplin ist über F-Droid verfügbar.
 - Mit [LibreOffice Viewer](https://f-droid.org/en/packages/org.documentfoundation.libreoffice/) können Sie alle Arten von Dokumenten, einschließlich Word-, Excel- und PowerPoint-Dateien, anzeigen und bearbeiten. LibreOffice Viewer ist über F-Droid verfügbar.
 

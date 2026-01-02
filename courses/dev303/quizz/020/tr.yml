@@ -1,0 +1,8 @@
+question: Rust yapılarında yöntemler ve ilişkili işlevler arasındaki temel fark nedir?
+answer: Yöntemler ilk parametre olarak self alır, ilişkili işlevler ise almaz
+wrong_answers:
+  - Yöntemler varsayılan olarak herkese açıkken, ilişkili işlevler varsayılan olarak özeldir
+  - Yöntemler yalnızca verileri okuyabilirken, ilişkili işlevler yapı alanlarını değiştirebilir
+  - Yöntemler çağırmak için nokta gösterimini kullanırken, ilişkili işlevler ok gösterimini kullanır
+explanation: |
+  Rust'deki yöntemler, bir impl bloğunda tanımlanan ve ilk parametre olarak self'in bir biçimini (self, &self veya &mut self) alan ve yapının örnekleri üzerinde çalışmasına izin veren işlevlerdir. İlişkili fonksiyonlar da impl bloklarında tanımlanır, ancak self'i parametre olarak almazlar, bu da onları diğer dillerdeki statik yöntemlere benzer hale getirir. İlişkili fonksiyonlar çift iki nokta sözdizimi (Type::function_name()) kullanılarak çağrılır ve genellikle kurucu olarak kullanılırken, yöntemler nokta gösterimi kullanılarak örnekler üzerinde çağrılır. Diğer seçenekler yanlıştır çünkü hem yöntemler hem de ilişkili işlevler aynı görünürlük kurallarını izler, her ikisi de uygulamalarına bağlı olarak verileri değiştirmek veya okumak için tasarlanabilir ve ilişkili işlevler ok gösterimini değil çift iki nokta sözdizimini kullanır.

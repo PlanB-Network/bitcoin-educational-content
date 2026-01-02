@@ -498,7 +498,7 @@ Specter Desktop демократизира усъвършенстваните к
 
 
 
-- [Официален уебсайт на Specter Desktop] (https://specter.solutions/desktop/)
+- [Официален уебсайт на Specter Desktop](https://specter.solutions/desktop/)
 - [Изходен код на GitHub](https://github.com/cryptoadvance/specter-desktop)
 - [Пълна документация](https://docs.specter.solutions/)
 

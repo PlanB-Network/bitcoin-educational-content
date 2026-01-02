@@ -1,0 +1,8 @@
+question: Koja je ključna razlika između načina na koji se kršenja pozajmljivanja obrađuju sa regularnim Rust referencama naspram RefCell?
+answer: Redovne reference uzrokuju greške pri kompajliranju, dok RefCell izaziva panike u vreme izvršavanja.
+wrong_answers:
+  - Redovne reference uzrokuju panike u vreme izvođenja, dok RefCell izaziva greške u vreme kompajliranja
+  - Redovne reference omogućavaju više promenljivih pozajmica dok RefCell nameće jedinstven promenljiv pristup
+  - Redovne reference zahtevaju eksplicitne anotacije vremena života dok RefCell koristi automatsko čišćenje
+explanation: |
+  RefCell pomera pravilo pozajmljivanja Rust sa vremena kompilacije na vreme izvršavanja. Dok kompajler statički analizira regularne reference i sprečava kršenja pozajmljivanja pre nego što program počne da se izvršava, RefCell obavlja iste provere bezbednosti tokom izvršavanja programa. Ovo omogućava RefCell-u da zaobiđe konzervativna ograničenja kompajlera u slučajevima kada programer zna da je kod bezbedan, ali kršenja rezultiraju panikama u vreme izvršavanja umesto greškama pri kompilaciji.

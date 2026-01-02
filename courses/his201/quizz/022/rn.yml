@@ -1,9 +1,9 @@
 question: Ni nde muntu wa mbere Satoshi Nakamoto yavuganye na we muri Myandagaro 2008?
-answer: Adamu yagarutse
+answer: Adam Back
 wrong_answers:
   - Wei Dai
   - Hal Finney
-  - Yakobo A. Donald
+  - James A. Donal
 explanation: |
-  Yaramuhamagaye ku wa 20 Myandagaro, amumenyesha ko azovuga urupapuro rwiwe rwa Hashcash mu rupapuro rwera. Amaze kwishura, Adam Back yamurongoye kuri Wei Dai (kubera iciyumviro ciwe c’amahera ya b), uwo Satoshi yavuganye na we haciye imisi ibiri.
+  Yaramuhamagaye ku wa 20 Myandagaro, amumenyesha ko azovuga urupapuro rwiwe rwa Hashcash mu gitabo cera. Amaze kwishura, Adam Back yamurongoye kuri Wei Dai (kubera iciyumviro ciwe c’amahera ya b-money), uwo Satoshi yavuganye na we haciye imisi ibiri.
 reviewed: true

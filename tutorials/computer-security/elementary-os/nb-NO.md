@@ -70,7 +70,7 @@ Før du starter installasjonen, må du forsikre deg om at du har følgende utsty
 
 
 
-Gå til operativsystemets offisielle nettside [elementary] (https://elementary.io/) og velg et beløp til støtte for prosjektet. Dette trinnet er valgfritt.
+Gå til operativsystemets offisielle nettside [elementary](https://elementary.io/) og velg et beløp til støtte for prosjektet. Dette trinnet er valgfritt.
 
 
 Hvis du ønsker å laste ned ISO-bildet gratis, skriver du inn 0 i feltet **"Annet"** og starter nedlastingen av systemets ISO-bilde.
@@ -89,7 +89,7 @@ Når du har lastet ned ISO-bildet, må du gjøre det oppstartbart på en USB-nø
 
 
 
-Last ned programvare som [Balena Etcher] (https://etcher.balena.io/) eller et lignende verktøy, og start deretter programvaren.
+Last ned programvare som [Balena Etcher](https://etcher.balena.io/) eller et lignende verktøy, og start deretter programvaren.
 
 
 Velg det tidligere nedlastede **Elementary OS** ISO-bildet, og angi USB-nøkkelen som mål.

@@ -31,10 +31,10 @@ QR-koder är ett standardiserat sätt för Specter att kommunicera med värden. 
 För lagring av hemligheter stöder vi agnostiskt läge (wallet glömmer alla hemligheter när den stängs av), hänsynslöst läge (lagrar hemligheter i flash i applikationens mikrokontroller) och secure element-integrering kommer snart.
 
 
-Vårt huvudfokus är multisignaturinstallation med andra hårdvaruplånböcker, men wallet kan också fungera som en enda undertecknare. Vi försöker göra den kompatibel med Bitcoin Core där vi kan - PSBT för osignerade transaktioner, wallet-beskrivare för import/export av multisig-plånböcker. För att kommunicera med Bitcoin Core enklare arbetar vi också med [Specter Desktop app] (https://github.com/cryptoadvance/specter-desktop) - en liten python flask server som pratar med din Bitcoin Core nod.
+Vårt huvudfokus är multisignaturinstallation med andra hårdvaruplånböcker, men wallet kan också fungera som en enda undertecknare. Vi försöker göra den kompatibel med Bitcoin Core där vi kan - PSBT för osignerade transaktioner, wallet-beskrivare för import/export av multisig-plånböcker. För att kommunicera med Bitcoin Core enklare arbetar vi också med [Specter Desktop app](https://github.com/cryptoadvance/specter-desktop) - en liten python flask server som pratar med din Bitcoin Core nod.
 
 
-Det mesta av den inbyggda programvaran är skriven i MicroPython, vilket gör koden lätt att granska och ändra. Vi använder biblioteket [secp256k1] (https://github.com/bitcoin-core/secp256k1) från Bitcoin Core för beräkningar av elliptiska kurvor och biblioteket [LittlevGL] (https://lvgl.io/) för GUI.
+Det mesta av den inbyggda programvaran är skriven i MicroPython, vilket gör koden lätt att granska och ändra. Vi använder biblioteket [secp256k1](https://github.com/bitcoin-core/secp256k1) från Bitcoin Core för beräkningar av elliptiska kurvor och biblioteket [LittlevGL](https://lvgl.io/) för GUI.
 
 
 ## Ansvarsfriskrivning
@@ -43,7 +43,7 @@ Det mesta av den inbyggda programvaran är skriven i MicroPython, vilket gör ko
 Projektet har utvecklats så pass mycket att säkerhetsnivån för Specter-DIY nu är jämförbar med kommersiella hårdvaruplånböcker på marknaden. Vi har implementerat en säker bootloader som verifierar uppgraderingar av firmware, så att du kan vara säker på att endast signerad firmware kan laddas upp till enheten efter den första installationen. Till skillnad från kommersiella signeringsenheter måste dock bootloadern installeras manuellt av användaren och ställs inte in i fabriken av enhetsleverantören. Var därför extra uppmärksam under den första installationen av den fasta programvaran och se till att du verifierar PGP-signaturer och flashar den fasta programvaran från en säker dator.
 
 
-Om något inte fungerar kan du öppna ett ärende här eller ställa en fråga i vår [Telegramgrupp] (https://t.me/+VEinVSYkW5TUl5Ai).
+Om något inte fungerar kan du öppna ett ärende här eller ställa en fråga i vår [Telegramgrupp](https://t.me/+VEinVSYkW5TUl5Ai).
 
 
 ## Inköpslista för Specter-DIY
@@ -85,7 +85,7 @@ För QR-kodläsare har du flera alternativ.
 ** Alternativ 1. Rekommenderad ** Resonably bra skanner från Waveshare (40 $)
 
 
-[Waveshare scanner] (https://www.waveshare.com/barcode-scanner-module.htm) - du måste hitta ett sätt att montera det snyggt, kanske använda någon form av Arduino Prototype-sköld och lite ducktape.
+[Waveshare scanner](https://www.waveshare.com/barcode-scanner-module.htm) - du måste hitta ett sätt att montera det snyggt, kanske använda någon form av Arduino Prototype-sköld och lite ducktape.
 
 
 Ingen lödning krävs, men om du har lödningskunskaper kan du göra wallet mycket snyggare ;)
@@ -94,7 +94,7 @@ Ingen lödning krävs, men om du har lödningskunskaper kan du göra wallet myck
 ** Alternativ 2.** Mycket fin skanner från Mikroe men ganska dyr (150 $):
 
 
-[Streckkodsklick] (https://www.mikroe.com/barcode-click) + [Adapter] (https://www.mikroe.com/arduino-uno-click-shield)
+[Streckkodsklick](https://www.mikroe.com/barcode-click) + [Adapter](https://www.mikroe.com/arduino-uno-click-shield)
 
 
 **Alternativ 3: Alla andra QR-skannrar
@@ -195,14 +195,14 @@ Med den säkra bootloadern är den första installationen av den fasta programva
 Flashning av första firmware via copy-paste av filen `.bin` misslyckas ibland - ofta på grund av kabeln, eller om du ansluter enheten via en USB-hubb. I det här fallet kan du försöka några gånger till (fungerar normalt i 2-3 försök).
 
 
-Om det misslyckas hela tiden kan du använda [stlink] (https://github.com/stlink-org/stlink/releases/latest) öppen källkodsverktyg. Installera det och skriv in i din terminal: `st-flash write <path/to/initial_firmare.bin> 0x8000000`. Det fungerar vanligtvis mycket mer tillförlitligt.
+Om det misslyckas hela tiden kan du använda [stlink](https://github.com/stlink-org/stlink/releases/latest) öppen källkodsverktyg. Installera det och skriv in i din terminal: `st-flash write <path/to/initial_firmare.bin> 0x8000000`. Det fungerar vanligtvis mycket mer tillförlitligt.
 
 
 ### Uppgradering av firmware
 
 
 
-- Hämta `specter_upgrade_<version>.bin` från [releases] (https://github.com/cryptoadvance/specter-diy/releases).
+- Hämta `specter_upgrade_<version>.bin` från [releases](https://github.com/cryptoadvance/specter-diy/releases).
 - Kopiera denna binärfil till roten på SD-kortet (FAT-formaterat, max 32 GB)
  - Kontrollera att endast en fil `specter_upgrade***.bin` finns i rotkatalogen
 - Sätt i SD-kortet i SD-kortplatsen på discovery-kortet och slå på kortet

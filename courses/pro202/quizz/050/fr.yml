@@ -1,5 +1,5 @@
 question: Lorsqu'un nœud Bitcoin démarre et rejoint le réseau pour la première fois, quel est le mécanisme principal qu'il utilise pour découvrir les pairs actifs ?
-answer: Contacts avec les graines DNS codées en dur et gérées par les développeurs principaux pour recevoir les adresses IP des pairs actifs
+answer: Contact avec les graines DNS codées en dur et gérées par les développeurs principaux pour recevoir les adresses IP des pairs actifs
 wrong_answers:
   - Diffusion d'un message de découverte à toutes les adresses IP dans des plages de sous-réseaux prédéfinies
   - Se connecte à un serveur de registre central qui tient à jour une liste de tous les nœuds actifs

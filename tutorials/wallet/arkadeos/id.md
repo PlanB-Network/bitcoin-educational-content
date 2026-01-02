@@ -267,7 +267,7 @@ Periksa detail pada layar "Tanda tangani transaksi", lalu konfirmasikan dengan *
 
 
 
-*kerahasiaan keluaran *on-chain**: Contoh di bawah ini menunjukkan sebuah [transaksi keluaran Ark di mempool.space] (https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Kami mengamati sebuah input terdistribusi ke 4 output yang berbeda, seperti CoinJoin. Untuk pengamat eksternal, tidak mungkin untuk menentukan jumlah yang mana milik pengguna yang mana.
+*kerahasiaan keluaran *on-chain**: Contoh di bawah ini menunjukkan sebuah [transaksi keluaran Ark di mempool.space](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Kami mengamati sebuah input terdistribusi ke 4 output yang berbeda, seperti CoinJoin. Untuk pengamat eksternal, tidak mungkin untuk menentukan jumlah yang mana milik pengguna yang mana.
 
 
 

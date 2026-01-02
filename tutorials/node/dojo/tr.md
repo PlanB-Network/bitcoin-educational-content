@@ -7,7 +7,7 @@ description: Gizlilik ve özerklik için açık kaynaklı bir Bitcoin düğümü
 
 
 
-*Bu eğitim, devraldığım ve genişlettiğim [resmi Ashigaru belgelerine] (https://ashigaru.rs/docs/) dayanmaktadır. Anlaşılırlığı artırmak için tüm bölümleri yeniden yazdım, daha ayrıntılı açıklamalar ekledim ve yeni başlayanlar için kurulum ve kullanımı daha kolay anlaşılır hale getirmek için resimler ekledim.*
+*Bu eğitim, devraldığım ve genişlettiğim [resmi Ashigaru belgelerine](https://ashigaru.rs/docs/) dayanmaktadır. Anlaşılırlığı artırmak için tüm bölümleri yeniden yazdım, daha ayrıntılı açıklamalar ekledim ve yeni başlayanlar için kurulum ve kullanımı daha kolay anlaşılır hale getirmek için resimler ekledim.*
 
 
 
@@ -132,7 +132,7 @@ Seçilen donanımı hazırladıktan sonra sıra bir işletim sistemi kurmaya gel
 
 
 
-Halihazırda çalışan bir bilgisayardan (her zamanki makineniz), Ubuntu LTS ISO imajını [resmi siteden] (https://ubuntu.com/download/desktop) indirin (yazım sırasında `24.04`, ancak başka bir tane mevcutsa en yenisini alın).
+Halihazırda çalışan bir bilgisayardan (her zamanki makineniz), Ubuntu LTS ISO imajını [resmi siteden](https://ubuntu.com/download/desktop) indirin (yazım sırasında `24.04`, ancak başka bir tane mevcutsa en yenisini alın).
 
 
 
@@ -140,7 +140,7 @@ Halihazırda çalışan bir bilgisayardan (her zamanki makineniz), Ubuntu LTS IS
 
 
 
-Bu bilgisayara en az 8 GB'lık bir USB anahtarı takın, ardından [Balena Etcher] (https://etcher.balena.io/) gibi bir yazılım kullanarak önyüklenebilir bir anahtar oluşturun. İndirdiğiniz Ubuntu ISO imajını seçin, hedef aygıt olarak USB anahtarı seçin, ardından oluşturma işlemini başlatın (sabırlı olun, birkaç dakika sürebilir).
+Bu bilgisayara en az 8 GB'lık bir USB anahtarı takın, ardından [Balena Etcher](https://etcher.balena.io/) gibi bir yazılım kullanarak önyüklenebilir bir anahtar oluşturun. İndirdiğiniz Ubuntu ISO imajını seçin, hedef aygıt olarak USB anahtarı seçin, ardından oluşturma işlemini başlatın (sabırlı olun, birkaç dakika sürebilir).
 
 
 
@@ -1137,7 +1137,7 @@ Dojo API and Maintenance Tool =
 
 
 
-DMT'ye herhangi bir ağdaki herhangi bir makineden (uzaktan bile) erişmek için Tor Browser'ı açın ve bu URL'yi girin ve ardından `/admin` yazın. Örneğin, URL'niz `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion` ise, [Tor Browser] (https://www.torproject.org/download/) çubuğuna girmeniz gerekir:
+DMT'ye herhangi bir ağdaki herhangi bir makineden (uzaktan bile) erişmek için Tor Browser'ı açın ve bu URL'yi girin ve ardından `/admin` yazın. Örneğin, URL'niz `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion` ise, [Tor Browser](https://www.torproject.org/download/) çubuğuna girmeniz gerekir:
 
 
 
@@ -1386,7 +1386,7 @@ Ardından "*Devam*" düğmesine tıklayın.
 
 
 
-Dojo otomatik olarak bir Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer) yükler, bu da doğrudan kendi Bitcoin düğümünüzdeki verilerden yararlanır. Gezgin, anlaşılması kolay bir Interface ağı aracılığıyla Blockchain ve Mempool'inizden ham bilgilere erişmenizi sağlar. Böylece, örneğin, bekleyen bir işlemin durumunu kontrol edebilir, bir Address'un bakiyesini görüntüleyebilir veya bir bloğun bileşimini kolaylıkla inceleyebilirsiniz.
+Dojo otomatik olarak bir Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer) yükler, bu da doğrudan kendi Bitcoin düğümünüzdeki verilerden yararlanır. Gezgin, anlaşılması kolay bir Interface ağı aracılığıyla Blockchain ve Mempool'inizden ham bilgilere erişmenizi sağlar. Böylece, örneğin, bekleyen bir işlemin durumunu kontrol edebilir, bir Address'un bakiyesini görüntüleyebilir veya bir bloğun bileşimini kolaylıkla inceleyebilirsiniz.
 
 
 
@@ -1422,7 +1422,7 @@ DMT'nize zaten bağlıysanız, bu Address'ü bağlantı JSON'unun içindeki "*Pa
 
 
 
-Herhangi bir ağdaki herhangi bir makineden (uzaktan bile) tarayıcınıza erişmek için [Tor Browser] (https://www.torproject.org/download/) adresini açın ve az önce aldığınız URL'yi girin.
+Herhangi bir ağdaki herhangi bir makineden (uzaktan bile) tarayıcınıza erişmek için [Tor Browser](https://www.torproject.org/download/) adresini açın ve az önce aldığınız URL'yi girin.
 
 
 

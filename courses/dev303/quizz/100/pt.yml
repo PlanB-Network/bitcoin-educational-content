@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem arquitetónica que permite ao LDK funcionar em ambientes de browser WebAssembly onde os nós Lightning tradicionais não podem funcionar?
+answer: A filosofia de design sem chamadas de sistema do LDK permite que ele opere sem acesso direto a sistemas de arquivos, soquetes de rede ou fontes de entropia
+wrong_answers:
+  - "A estrutura modular da biblioteca Rust do LDK fornece automaticamente compatibilidade com o WebAssembly através de recursos nativos de compilação Rust para WASM"
+  - "A arquitetura orientada para eventos do LDK elimina a necessidade de ligações persistentes e pode funcionar inteiramente através de ciclos de pedido-resposta HTTP"
+  - "A integração leve de blockchain do LDK reduz o uso de memória o suficiente para atender às restrições e limitações estritas de recursos do WebAssembly"
+explanation: |
+  O design sem chamadas de sistema do LDK é especificamente o que permite a compatibilidade com o navegador. Os Lightning nodes tradicionais dependem de chamadas de sistema diretas para rede, E/S de arquivo e aleatoriedade, que os ambientes WebAssembly proíbem por motivos de segurança. O LDK abstrai essas dependências, permitindo que os desenvolvedores forneçam implementações compatíveis com o navegador usando WebSockets para rede e APIs de navegador para persistência e aleatoriedade, mantendo a conformidade total com o protocolo Lightning.

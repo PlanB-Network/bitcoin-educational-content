@@ -6,7 +6,7 @@ description: Mnemonic-fraser med en eller flera aktier på Trezor
 
 
 
-*Bildkredit: [Trezor.io] (https://trezor.io/)*
+*Bildkredit: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -285,6 +285,6 @@ Om du tyckte att den här handledningen var användbar skulle jag vara tacksam o
 
 
 
-- [SLIP-0039: Shamirs hemliga delning för Mnemonic-koder] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
-- [Multi-share Backup på Trezor] (https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamirs hemliga delning] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [SLIP-0039: Shamirs hemliga delning för Mnemonic-koder](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [Multi-share Backup på Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
+- [Wikipedia: Shamirs hemliga delning](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

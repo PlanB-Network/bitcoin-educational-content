@@ -1,0 +1,8 @@
+question: Jaka jest krytyczna różnica między projektem warstwy trwałości LDK a tradycyjnym zarządzaniem danymi węzła Lightning, która umożliwia elastyczność wdrażania między platformami?
+answer: LDK zapewnia abstrakcyjne binarne bloki danych do przechowywania, podczas gdy aplikacje implementują własne mechanizmy pamięci masowej
+wrong_answers:
+  - LDK wykorzystuje standardowe bazy danych SQL, podczas gdy tradycyjne węzły wymagają niestandardowych implementacji systemu plików
+  - LDK automatycznie synchronizuje dane na wielu platformach, podczas gdy tradycyjne węzły przechowują dane tylko lokalnie
+  - LDK domyślnie szyfruje wszystkie dane trwałości, podczas gdy tradycyjne węzły polegają na szyfrowaniu na poziomie aplikacji
+explanation: |
+  Warstwa trwałości LDK abstrahuje od pamięci masowej, dostarczając aplikacjom serializowane binarne bloki danych, które muszą być niezawodnie przechowywane i pobierane, jednocześnie obsługując całą złożoność serializacji stanów kanału Lightning i danych sieciowych wewnętrznie. Pozwala to aplikacjom na wybór dowolnego rozwiązania pamięci masowej (systemy plików, pamięć masowa w chmurze, bazy danych), które spełnia wymagania ich platformy. Tradycyjne węzły Lightning zazwyczaj implementują własne specyficzne systemy zarządzania danymi powiązane z określonymi mechanizmami pamięci masowej, co czyni je mniej elastycznymi w różnych środowiskach wdrożeniowych.

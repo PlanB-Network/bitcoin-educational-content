@@ -32,7 +32,7 @@ Aurora Store är en av de mest populära alternativa appbutikerna till Google Pl
 
 
 
-Du kan ladda ner Aurora Store från [officiell webbplats] (https://auroraoss.com/aurora-store) genom att klicka på "Release" -knappen i byggtyperna. Välj alternativet Vanilla om du använder ett annat telefonmärke än Huawei. Nya Huawei-telefonmodeller har sin egen version av Aurora Store på grund av deras begränsningar för Google-tjänster till följd av amerikanska sanktioner.
+Du kan ladda ner Aurora Store från [officiell webbplats](https://auroraoss.com/aurora-store) genom att klicka på "Release" -knappen i byggtyperna. Välj alternativet Vanilla om du använder ett annat telefonmärke än Huawei. Nya Huawei-telefonmodeller har sin egen version av Aurora Store på grund av deras begränsningar för Google-tjänster till följd av amerikanska sanktioner.
 
 
 

@@ -163,7 +163,7 @@ F-Droid is een Open Source project dat bijdragen aanmoedigt voor toepassingen di
 Je applicatie moet open source zijn, met de broncode openbaar beschikbaar op bijvoorbeeld GitHub of GitLab.
 
 
-Je moet dan een YAML-bestand (de metadata) maken dat je applicatie beschrijft, inclusief alle informatie en toestemmingen die nodig zijn voor het gebruik, volgens de [metadata template] (https://f-droid.org/docs/Build_Metadata_Reference/) voorgesteld door F-Droid.
+Je moet dan een YAML-bestand (de metadata) maken dat je applicatie beschrijft, inclusief alle informatie en toestemmingen die nodig zijn voor het gebruik, volgens de [metadata template](https://f-droid.org/docs/Build_Metadata_Reference/) voorgesteld door F-Droid.
 
 
 

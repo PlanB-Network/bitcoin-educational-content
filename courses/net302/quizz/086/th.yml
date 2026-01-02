@@ -1,0 +1,9 @@
+question: คำสั่งใดที่แนะนำสำหรับการวิเคราะห์การเชื่อมต่อ TCP และ UDP ที่ใช้งานอยู่บนระบบ Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ip link
+  - ifup
+explanation: |
+  คำสั่ง ss แทนที่ netstat เพื่อแสดงการเชื่อมต่อเครือข่ายที่ใช้งานอยู่ทั้งหมดอย่างรวดเร็ว
+reviewed: false

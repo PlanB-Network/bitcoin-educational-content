@@ -1,0 +1,9 @@
+question: เราจะเรียกชุดของเครื่องจักรที่รันการใช้งาน Bitcoin และเชื่อมต่อกันว่าอะไร?
+answer: เครือข่าย Bitcoin
+wrong_answers:
+  - โปรโตคอล Bitcoin
+  - Bitcoin สกุลเงิน
+  - The Blockchain Bitcoin
+explanation: |
+  เครือข่าย Bitcoin ประกอบด้วยโหนดที่เชื่อมต่อทั้งหมด โดยแต่ละโหนดจะรันการใช้งานโปรโตคอลที่แตกต่างกัน
+reviewed: true

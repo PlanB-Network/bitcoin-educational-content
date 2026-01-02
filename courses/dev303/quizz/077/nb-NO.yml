@@ -1,0 +1,8 @@
+question: Hva skjer når du kaller lock() på en mutex i Rust, og hvorfor mener mange utviklere at det er akseptabelt å unwrappe denne operasjonen?
+answer: Den returnerer et resultat som kan mislykkes hvis en annen tråd får panikk mens den holder mutexen, og unwrapping er akseptabelt fordi du ikke kan håndtere feil fra andre tråders panikk på en rimelig måte
+wrong_answers:
+  - Den returnerer en Option som kan være None hvis mutexen er opptatt, og unwrapping er akseptabelt fordi mutexer som er opptatt, bør føre til umiddelbar avslutning av programmet
+  - Den returnerer et resultat som kan feile på grunn av deteksjon av deadlocks, og det er akseptabelt å pakke det opp fordi deadlocks indikerer grunnleggende designfeil som bør føre til panikk
+  - Den lykkes alltid og returnerer låsebeskyttelsen direkte, noe som gjør det unødvendig å pakke den opp, siden mutex-operasjoner garantert er trådsikre i Rust
+explanation: |
+  Når du kaller lock() på en mutex, returnerer Rust et resultat fordi operasjonen kan mislykkes hvis en annen tråd får panikk mens den holder mutexen, og etterlater den i en forgiftet tilstand. Dette skaper en unik situasjon der den lokale koden din mottar en feil for noe som skjedde i en helt annen trådkontekst. Siden du ikke kan håndtere eller gjenopprette en feil som stammer fra en annen tråds panikk, anser mange utviklere det som akseptabelt å pakke opp mutex-låser, spesielt i panikkfrie kodebaser. De andre alternativene er feil fordi mutexer ikke returnerer alternativer for opptatt tilstander, ikke har innebygd deadlock-deteksjon som forårsaker resultatfeil, og operasjonen ikke alltid lykkes på grunn av poison-mekanismen.

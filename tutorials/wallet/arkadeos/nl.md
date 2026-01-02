@@ -473,6 +473,6 @@ Raadpleeg de officiële bronnen voor meer informatie:
 
 
 - Arkade** website: [arkadeos.com](https://arkadeos.com)
-- Documentatie**: [docs.arkadeos.com] (https://docs.arkadeos.com)
-- Ark** protocol: [ark-protocol.org] (https://ark-protocol.org)
+- Documentatie**: [docs.arkadeos.com](https://docs.arkadeos.com)
+- Ark** protocol: [ark-protocol.org](https://ark-protocol.org)
 - Broncode** : [GitHub Arkade](https://github.com/arkade-os)

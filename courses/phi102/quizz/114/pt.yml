@@ -1,0 +1,8 @@
+question: De acordo com a teoria económica do mercado livre, o que acontece quando os empresários antecipam prematuramente a procura dos consumidores por uma inovação que ainda não existe?
+answer: A ausência de lucros dissuade-os naturalmente de continuar e impede que outros sigam o seu exemplo
+wrong_answers:
+  - A intervenção do governo redirecciona os seus esforços para projectos socialmente mais benéficos através de subsídios
+  - Continuam a investir até que as preferências dos consumidores acabem por se alinhar com as suas previsões iniciais
+  - A regulamentação do mercado obriga-os a abandonar os seus projectos para evitar desperdícios económicos
+explanation: |
+  Num sistema de mercado livre, os lucros funcionam como sinais cruciais que indicam a procura real dos consumidores. Quando os empresários avaliam mal o momento do mercado e antecipam uma procura que não existe, não conseguem obter lucros, o que naturalmente desencoraja novos investimentos nessa direção. Este mecanismo de auto-correção evita o desperdício de recursos em inovações prematuras. As outras opções sugerem incorretamente uma intervenção externa ou um investimento persistente apesar dos sinais do mercado, o que contradiz a ênfase do capítulo na forma como os sinais de lucro orientam a tomada de decisões económicas racionais.

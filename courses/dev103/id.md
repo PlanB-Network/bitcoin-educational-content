@@ -6211,7 +6211,7 @@ res.end("Not Found")
 ```
 
 
-Ini adalah contoh yang sangat mendasar. Untuk membangun server yang lebih canggih, sebagian besar pengembang mungkin akan mengunduh pustaka backend yang sudah jadi seperti [express] (https://www.npmjs.com/package/express).
+Ini adalah contoh yang sangat mendasar. Untuk membangun server yang lebih canggih, sebagian besar pengembang mungkin akan mengunduh pustaka backend yang sudah jadi seperti [express](https://www.npmjs.com/package/express).
 
 
 ## Memproses data: buffer, peristiwa, aliran

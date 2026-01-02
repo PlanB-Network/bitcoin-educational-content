@@ -165,7 +165,7 @@ I det här avsnittet tar vi en titt på de viktigaste användningsområdena för
 
 
 
-Nmap kan användas för nätverksdiagnostik och, mer allmänt, för övervakning. På samma sätt som en ping kan användas för att avgöra om två värdar kommunicerar, kan Nmap användas för att snabbt avgöra om en värd är aktiv eller om en viss tjänst är i drift. Tack vare [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kan vi få exakta uppgifter om en värds svarstid, den väg som paketen tar, det svar som en viss tjänst ger osv.
+Nmap kan användas för nätverksdiagnostik och, mer allmänt, för övervakning. På samma sätt som en ping kan användas för att avgöra om två värdar kommunicerar, kan Nmap användas för att snabbt avgöra om en värd är aktiv eller om en viss tjänst är i drift. Tack vare [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kan vi få exakta uppgifter om en värds svarstid, den väg som paketen tar, det svar som en viss tjänst ger osv.
 
 
 
@@ -312,7 +312,7 @@ I det här avsnittet lär vi oss hur du installerar nätverksskanningsverktyget 
 
 
 
-Nmap utformades ursprungligen för att köras på GNU/Linux-operativsystem. Som ett resultat av detta, och tack vare dess långa livslängd och popularitet, hittar du det i alla officiella arkiv för de stora Unix-distributionerna. I den här handledningen kommer jag att använda ett Debian-baserat operativsystem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Men du kan använda det på exakt samma sätt från en klassisk Debian, CentOS, Red Hat eller vad som helst!
+Nmap utformades ursprungligen för att köras på GNU/Linux-operativsystem. Som ett resultat av detta, och tack vare dess långa livslängd och popularitet, hittar du det i alla officiella arkiv för de stora Unix-distributionerna. I den här handledningen kommer jag att använda ett Debian-baserat operativsystem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Men du kan använda det på exakt samma sätt från en klassisk Debian, CentOS, Red Hat eller vad som helst!
 
 
 
@@ -551,7 +551,7 @@ Från och med nu ska du komma ihåg att endast skanna värdar i en kontrollerad 
 
 
 
-- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -901,7 +901,7 @@ sändning av uDP-paket och mottagning av ICMP (port inte nåbar) under Nmap-sök
 
 
 
-På skärmdumpen ovan kan vi se att Nmap skickar ett stort antal UDP-paket och får ett ICMP-paket "Destination unreachable (Port unreachable)" som svar på de flesta av dem. Detta är normalt, eftersom det är det lämpliga svar som definieras av [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") när en UDP-port inte kan nås:
+På skärmdumpen ovan kan vi se att Nmap skickar ett stort antal UDP-paket och får ett ICMP-paket "Destination unreachable (Port unreachable)" som svar på de flesta av dem. Detta är normalt, eftersom det är det lämpliga svar som definieras av [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") när en UDP-port inte kan nås:
 
 
 
@@ -1636,7 +1636,7 @@ I det här avsnittet lär vi oss hur man använder Nmap för att upptäcka och e
 
 
 
-Som vi har sett i tidigare avsnitt av den här handledningen kommer Nmap som standard inte att se efter vilken tjänst som är exponerad på de portar som den skannar och anser vara öppna. Så om du lyssnar på en webbtjänst på port TCP/22 kommer Nmap att fortsätta att rapportera den som öppen, men som en `SSH`-tjänst. Detta beror på att den använder en [databas] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokalt i ditt system för att leta efter en relation mellan en port/ett protokoll och namnet på en tjänst (filen `/etc/services/`).
+Som vi har sett i tidigare avsnitt av den här handledningen kommer Nmap som standard inte att se efter vilken tjänst som är exponerad på de portar som den skannar och anser vara öppna. Så om du lyssnar på en webbtjänst på port TCP/22 kommer Nmap att fortsätta att rapportera den som öppen, men som en `SSH`-tjänst. Detta beror på att den använder en [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) lokalt i ditt system för att leta efter en relation mellan en port/ett protokoll och namnet på en tjänst (filen `/etc/services/`).
 
 
 
@@ -2936,7 +2936,7 @@ information som visas av Nmaps alternativ `--stats-every`
 
 
 
-I synnerhet kan vi få en procentandel av framstegen, samt en indikation på vilken fas den befinner sig i: host discovery-fas via [ping] (https://www.it-connect.fr/le-ping-pour-les-debutants/), discovery-fas av exponerade TCP-portar, etc. Denna information kan också erhållas i terminalutmatningen genom att trycka på "Enter" under en skanning.
+I synnerhet kan vi få en procentandel av framstegen, samt en indikation på vilken fas den befinner sig i: host discovery-fas via [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), discovery-fas av exponerade TCP-portar, etc. Denna information kan också erhållas i terminalutmatningen genom att trycka på "Enter" under en skanning.
 
 
 
@@ -2973,7 +2973,7 @@ Möjligheten att spara Nmap-scanningsresultat i XML gör att data blir kompatibl
 
 
 
-Jag kommer att nämna några offensiva verktyg utan att i detalj gå in på hur de används eller hur de fungerar. Jag förutsätter att läsaren känner till deras grundläggande användning och att de redan är i drift. Detta avsnitt kommer att vara av särskilt intresse för yrkesverksamma inom [cybersäkerhet] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), personer under utbildning eller de som har beslutat sig för att fördjupa sig i ämnet.
+Jag kommer att nämna några offensiva verktyg utan att i detalj gå in på hur de används eller hur de fungerar. Jag förutsätter att läsaren känner till deras grundläggande användning och att de redan är i drift. Detta avsnitt kommer att vara av särskilt intresse för yrkesverksamma inom [cybersäkerhet](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), personer under utbildning eller de som har beslutat sig för att fördjupa sig i ämnet.
 
 
 
@@ -2989,7 +2989,7 @@ Metasploit är ett ramverk för exploateringar och attacker. Det är en gratis l
 
 
 
-I synnerhet kan detta välkända och allmänt använda operativsystem arbeta med en postgreSQL [databas] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) där värdar, portar, tjänster, autentiseringsinformation och mer lagras.
+I synnerhet kan detta välkända och allmänt använda operativsystem arbeta med en postgreSQL [databas](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) där värdar, portar, tjänster, autentiseringsinformation och mer lagras.
 
 
 
@@ -3096,7 +3096,7 @@ Precis som med Metasploit kan Aquatone direkt bearbeta Nmaps XML-format och anv�
 
 
 
-- Verktygslänk: [Github - Michenriksen/aquatone] (https://github.com/michenriksen/aquatone)
+- Verktygslänk: [Github - Michenriksen/aquatone](https://github.com/michenriksen/aquatone)
 
 
 
@@ -3385,7 +3385,7 @@ Innan du skannar ett nätverk eller system måste du se till att du har erhålli
 
 
 
-- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Som en påminnelse: [Brottsbalken: Kapitel III: Angrepp på system för automatisk databehandling](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3398,7 +3398,7 @@ De resultat som Nmap producerar kan betraktas som känsliga, särskilt när de i
 
 
 
-Vi har också sett att, beroende på vilka NSE-skript som används, kan NSE-skanningsresultaten från [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) också innehålla identifierare.
+Vi har också sett att, beroende på vilka NSE-skript som används, kan NSE-skanningsresultaten från [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) också innehålla identifierare.
 
 
 
@@ -3437,7 +3437,7 @@ Som vi har sett i den här handledningen kan Nmap vara mycket utförlig på nät
 
 
 
-För att undvika incidenter måste du behärska Nmaps beteende och veta hur du anpassar det till det sammanhang där det används, med hjälp av de olika alternativ som diskuteras i den här handledningen. Vi kommer inte nödvändigtvis att använda Nmap på samma sätt i ett informationssystem som innehåller industriell [hårdvara] (https://www.it-connect.fr/actualites/actu-materiel/) som i ett användarnätverk som består av Windows-system som skyddas av en lokal brandvägg eller i en nätverkskärna.
+För att undvika incidenter måste du behärska Nmaps beteende och veta hur du anpassar det till det sammanhang där det används, med hjälp av de olika alternativ som diskuteras i den här handledningen. Vi kommer inte nödvändigtvis att använda Nmap på samma sätt i ett informationssystem som innehåller industriell [hårdvara](https://www.it-connect.fr/actualites/actu-materiel/) som i ett användarnätverk som består av Windows-system som skyddas av en lokal brandvägg eller i en nätverkskärna.
 
 
 
@@ -3521,7 +3521,7 @@ Tanken är att vi ska förklara några av dessa metoder och hjälpa dig att för
 
 
 
-Den första typen av TCP-skanning som vi ska titta på är `TCP SYN Scan`, även känd som `Half Open Scan`. Om du kommer ihåg de nätverksskanningar vi gjorde efter våra första portskanningar, är detta den typ av skanning som används som standard av [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) när den körs med root-rättigheter.
+Den första typen av TCP-skanning som vi ska titta på är `TCP SYN Scan`, även känd som `Half Open Scan`. Om du kommer ihåg de nätverksskanningar vi gjorde efter våra första portskanningar, är detta den typ av skanning som används som standard av [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) när den körs med root-rättigheter.
 
 
 

@@ -1,0 +1,8 @@
+question: Wat is het primaire mechanisme dat Rust gebruikt om geheugen-gerelateerde bugs zoals use-after-free en buffer overflows te voorkomen?
+answer: Statische analyse volledig uitgevoerd tijdens compileren
+wrong_answers:
+  - Runtime afvalverzameling met automatische geheugenopruiming
+  - Dynamische geheugencontrole tijdens programma-uitvoering
+  - Handmatig geheugenbeheer met expliciete toewijzingsoproepen
+explanation: |
+  Rust voorkomt geheugengerelateerde bugs door middel van statische analyse die volledig tijdens het compileren wordt uitgevoerd, waarbij de compiler de broncode onderzoekt en met zekerheid vaststelt of geheugenbewerkingen veilig zijn. Dit verschilt van garbage collection (gebruikt door Java/Go) dat runtime overhead introduceert, dynamic checking dat runtime verificatie vereist en handmatig geheugenbeheer (gebruikt door C/C++) dat afhankelijk is van de discipline van de programmeur. De compileertijdaanpak van Rust zorgt voor geheugenveiligheid zonder runtime kosten of onvoorspelbare pauzes.

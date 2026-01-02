@@ -1,0 +1,8 @@
+question: Panik oluştuğunda Rust çözülme sürecinde ne yapar?
+answer: Ayrıntılı bir yığın izi sağlamak için çağrı yığını boyunca geri yürür
+wrong_answers:
+  - Herhangi bir temizleme veya bilgi olmadan programı hemen sonlandırır
+  - Hata işleme için paniği kurtarılabilir bir Sonuç türüne dönüştürür
+  - Geçerli işlev yürütmesini baştan başlatır
+explanation: |
+  Rust'de bir panik meydana geldiğinde, çözme işlemi paniğin tam olarak nerede meydana geldiğini gösteren ayrıntılı bir yığın izi sağlamak için çağrı yığını boyunca geriye doğru yürür. Bu, geliştiricilerin hata ayıklama sırasında sorunun kaynağını belirlemelerine yardımcı olur. Diğer seçenekler yanlıştır: Rust temizleme olmadan hemen sonlandırılmaz (bu yalnızca çözme devre dışı bırakıldığında gerçekleşir), panikler kurtarılamaz hataları temsil ettikleri için Sonuç türlerine dönüştürülemez ve Rust panikler oluştuğunda işlev yürütmeyi yeniden başlatmaz.

@@ -100,7 +100,7 @@ For at Manjaro skal fungere optimalt, må datamaskinen din oppfylle noen minimum
 
 
 
-For å laste ned, gå til [det offisielle Manjaro-nettsiden] (https://manjaro.org/) og velg den utgaven som passer best til dine behov. Når du har lastet ned filen, må du opprette en oppstartbar USB-nøkkel med Manjaro ISO-bildet.
+For å laste ned, gå til [det offisielle Manjaro-nettsiden](https://manjaro.org/) og velg den utgaven som passer best til dine behov. Når du har lastet ned filen, må du opprette en oppstartbar USB-nøkkel med Manjaro ISO-bildet.
 
 
 

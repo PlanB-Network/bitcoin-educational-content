@@ -399,4 +399,4 @@ Voor optimale veiligheid raden we aan om beide soorten back-ups uit te voeren.
 
 
 - Franse video met uitleg: [YouTube](https://youtu.be/ziwhv9KqVkM)
-- Snelstartgids: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Snelstartgids: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

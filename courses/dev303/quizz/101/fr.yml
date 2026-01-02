@@ -1,0 +1,8 @@
+question: Quelle caractéristique spécifique de l'architecture événementielle de LDK permet aux applications de maintenir une séparation nette entre la logique du protocole Lightning et les réponses spécifiques à l'application ?
+answer: Des notifications asynchrones sont fournies pour toutes les opérations et tous les changements d'état importants, ce qui permet de mettre en œuvre des gestionnaires d'événements personnalisés de manière indépendante
+wrong_answers:
+  - Les rappels synchrones sont déclenchés directement dans le gestionnaire de canaux, ce qui nécessite des réponses immédiates pour maintenir la conformité au protocole
+  - Les gestionnaires d'événements sont générés automatiquement en fonction de la configuration de l'application, ce qui élimine la nécessité d'une logique de mise en œuvre personnalisée
+  - Tous les événements sont mis en file d'attente dans une mémoire tampon centrale et traités de manière séquentielle afin de garantir un comportement déterministe de l'application
+explanation: |
+  Le système d'événements de LDK fournit des notifications asynchrones pour toutes les opérations Lightning, y compris les connexions entre pairs, les paiements et les changements de canaux. Cela permet aux développeurs d'implémenter des gestionnaires d'événements personnalisés qui répondent de manière appropriée tout en maintenant une séparation nette entre la fonctionnalité principale de LDK et la logique de l'application. Les autres options sont incorrectes car LDK n'utilise pas de rappels synchrones qui bloquent les opérations de protocole, n'utilise pas de gestionnaires auto-generate et n'impose pas de traitement séquentiel des événements.

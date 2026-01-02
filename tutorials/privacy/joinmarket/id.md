@@ -10,7 +10,7 @@ description: Panduan dan tutorial tentang cara menggunakan JoinMarket untuk mela
 
 ---
 
-Jika Anda menemukan halaman ini dengan mencari "JoinTmarket" secara online, Anda patut mendapatkan apresiasi yang tulus. Namun, Anda telah menemukan panduan yang membahas topik yang sama sekali berbeda, tetapi sangat menarik! 🚬🍁
+Jika kamu menemukan halaman ini dengan mencari "JoinTmarket" secara online, kamu patut mendapatkan apresiasi yang tulus. Namun, kamu telah menemukan panduan yang membahas topik yang sama sekali berbeda, tetapi sangat menarik! 🚬🍁
 
 
 
@@ -26,11 +26,11 @@ Kita dapat mendefinisikan JoinMarket sebagai alat, atau Wallet, yang memungkinka
 
 
 
-Karena seluruh bagian teoretis dari alat ini sangat luas, saya memutuskan untuk menguraikannya dalam episode khusus podcast saya. Bagi mereka yang bisa memahami bahasa Italia, saya sangat menyarankan untuk melanjutkan membaca setelah mendengarkan episode ini, supaya dapat mengasimilasi konsep dasar untuk menggunakan program ini dengan baik.
+Karena seluruh bagian teoretis dari alat ini sangat luas, aku memutuskan untuk menguraikannya dalam episode khusus podcastku. Bagi mereka yang bisa memahami bahasa Italia, aku sangat menyarankan untuk melanjutkan membaca setelah mendengarkan episode ini, supaya dapat mengasimilasi konsep dasar untuk menggunakan program ini dengan baik.
 
 
 
-Anda dapat mengikuti episode ini di tautan langsung berikut ini:
+Kamu dapat mengikuti episode ini di tautan langsung berikut ini:
 
 
 
@@ -38,8 +38,8 @@ Anda dapat mengikuti episode ini di tautan langsung berikut ini:
 - [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
-- [Anchor] (https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (di sini Anda dapat mendengarkannya langsung dari browser).
-- [Antenna pod](https://antennapod.org/) adalah pengelola podcast gratis dan sumber terbuka yang tidak memerlukan registrasi. Untuk menemukan episode, unduh aplikasinya, tambahkan podcast saya secara manual dengan menempelkan [tautan ini] (https://Anchor.fm/s/bd5d5b20/podcast/rss) di bagian _feed rss_, lalu cari episode yang didedikasikan untuk JoinMarket.
+- [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (di sini Anda dapat mendengarkannya langsung dari browser).
+- [Antenna pod](https://antennapod.org/) adalah pengelola podcast gratis dan sumber terbuka yang tidak memerlukan registrasi. Untuk menemukan episode, unduh aplikasinya, tambahkan podcast saya secara manual dengan menempelkan [tautan ini](https://Anchor.fm/s/bd5d5b20/podcast/rss) di bagian _feed rss_, lalu cari episode yang didedikasikan untuk JoinMarket.
 
 
 
@@ -68,7 +68,7 @@ JoinMarket adalah perangkat lunak yang dapat disesuaikan dengan jumlah pengatura
 
 
 
-Pada bagian ini, kita akan membahas beberapa bidang yang mungkin menarik untuk Anda jelajahi dan/atau modifikasi, tergantung kebutuhan Anda. Saya ingin menekankan bahwa semua perubahan yang tercantum di bawah ini berguna untuk diketahui, untuk menyesuaikan pengoperasian perangkat lunak dengan kebutuhan pribadi, tetapi tidak bersifat wajib.
+Pada bagian ini, kita akan membahas beberapa bidang yang mungkin menarik untuk kamu jelajahi dan/atau modifikasi, tergantung kebutuhan kamu. Aku ingin menekankan bahwa semua perubahan yang tercantum di bawah ini berguna untuk diketahui, untuk menyesuaikan pengoperasian perangkat lunak dengan kebutuhan pribadi, tetapi tidak bersifat wajib.
 
 
 
@@ -108,18 +108,18 @@ setelah dibuka, kita akan melihat banyak baris dengan berbagai pengaturan dan pe
 
 
 - `merge_algorithm` jika kita sebagai pembuat, bidang ini menyesuaikan seberapa agresif perangkat lunak akan mengkonsolidasikan Output yang tidak terpakai. Jika kita memiliki banyak UTXO untuk dikonsolidasikan, mungkin masuk akal untuk beralih dari _gradual_ ke _greedy_
-- `tx_fees` menyesuaikan sebagai pengambil biaya untuk membayar transaksi, akan sangat berguna untuk mengubah pengaturan ini jika Anda sering menggunakan tumbler (kita akan membahasnya nanti) karena jika terjadi lonjakan biaya selama eksekusi transaksi, jika kita tidak mengatur bidang ini dengan benar, kita berisiko menghabiskan banyak Sats untuk CoinJoin. Dengan menetapkan nilai dalam ribuan (seperti 2000), ini akan setara dengan 2 Sats/vBytes, 3500 hingga 3,5 Sats/vBytes, dan seterusnya. Saya akan merekomendasikan angka yang berkisar antara 1500 hingga 6000, tergantung kebutuhan Anda.
-- `max_cj_fee_abs` digunakan untuk menentukan berapa banyak yang bersedia kita bayarkan secara absolut untuk pembuat yang kita pilih selama CoinJoin. Secara default, bidang ini untuk pembuat adalah 200 Sats, pilihan yang baik mungkin adalah angka yang berkisar antara 200 hingga 1000 Sats per mitra (ini didasarkan pada berapa banyak yang ingin Anda belanjakan dan berapa banyak anon-set yang Anda cari untuk CoinJoins Anda)
-- `max_cj_fee_rel` memiliki fungsi yang sama dengan bidang di atas, tetapi menentukan biaya relatif (persentase) yang bersedia kita bayarkan kepada setiap rekanan. Karena ini adalah nilai `persentase`, berhati-hatilah untuk tidak menetapkan nilai yang tinggi untuk menghindari biaya yang tinggi di CoinJoins dengan jumlah yang besar. Nilai default untuk pembuat adalah _0.00002_, saya merekomendasikan nilai yang sama atau sedikit lebih tinggi.
+- `tx_fees` menyesuaikan sebagai pengambil biaya untuk membayar transaksi, akan sangat berguna untuk mengubah pengaturan ini jika kamu sering menggunakan tumbler (kita akan membahasnya nanti) karena jika terjadi lonjakan biaya selama eksekusi transaksi, jika kita tidak mengatur bidang ini dengan benar, kita berisiko menghabiskan banyak Sats untuk CoinJoin. Dengan menetapkan nilai dalam ribuan (seperti 2000), ini akan setara dengan 2 Sats/vBytes, 3500 hingga 3,5 Sats/vBytes, dan seterusnya. Aku akan merekomendasikan angka yang berkisar antara 1500 hingga 6000, tergantung kebutuhan kamu.
+- `max_cj_fee_abs` digunakan untuk menentukan berapa banyak yang bersedia kita bayarkan secara absolut untuk pembuat yang kita pilih selama CoinJoin. Secara default, bidang ini untuk pembuat adalah 200 Sats, pilihan yang baik mungkin adalah angka yang berkisar antara 200 hingga 1000 Sats per mitra (ini didasarkan pada berapa banyak yang ingin kamu belanjakan dan berapa banyak anon-set yang kamu cari untuk CoinJoins kamu)
+- `max_cj_fee_rel` memiliki fungsi yang sama dengan bidang di atas, tetapi menentukan biaya relatif (persentase) yang bersedia kita bayarkan kepada setiap rekanan. Karena ini adalah nilai `persentase`, berhati-hatilah untuk tidak menetapkan nilai yang tinggi untuk menghindari biaya yang tinggi di CoinJoins dengan jumlah yang besar. Nilai default untuk pembuat adalah _0.00002_, aku merekomendasikan nilai yang sama atau sedikit lebih tinggi.
 - `minimum_makers` adalah bidang yang menentukan berapa banyak rekanan lain yang melakukan CoinJoin dengan kita, secara default joinMarket selalu memilih dari 4 hingga 9 rekanan, jika kita ingin, untuk privasi yang lebih baik, kita dapat meningkatkan nilai ini menjadi 5 atau 6 (ini akan membuat transaksi lebih mahal).
 - `cjfee_a` menentukan, jika kita bertindak sebagai pembuat, berapa banyak Sats secara absolut yang ingin kita kumpulkan untuk menyewa likuiditas kita. Kolom ini sangat subjektif, nilai defaultnya sudah sangat bagus (dengan demikian kita akan memiliki privasi yang lebih baik sebagai pembuat), kita dapat mempertimbangkan untuk mengubahnya menjadi 0 jika kita ingin menghasilkan lebih banyak CoinJoin dalam waktu yang lebih singkat.
-- `cjfee_r` sama seperti kolom di atas tetapi dalam bentuk persentase dan bukan absolut. Sekali lagi saya sarankan untuk membiarkan nilai default atau menurunkannya untuk menarik lebih banyak peminat.
+- `cjfee_r` sama seperti kolom di atas tetapi dalam bentuk persentase dan bukan absolut. Sekali lagi aku sarankan untuk membiarkan nilai default atau menurunkannya untuk menarik lebih banyak peminat.
 - `ordertype` dengan bidang ini kita memilih dari pembuat apakah akan menagih secara absolut (absoffer) atau persentase (reloffer). Biasanya pengambil lebih memilih penawaran absolut untuk masalah ekonomi.
 - 'minsize' jika sebagai pembuat kita tidak ingin memiliki UTXO yang terlalu kecil, kita dapat menentukan CoinJoin minimum untuk berpartisipasi. Bidang ini dinyatakan dalam Satoshi dan benar-benar subjektif. Kita dapat membiarkan bidang ini pada 0 atau meningkatkannya menjadi 500000 (Sats), 1000000 (Sats), dan seterusnya.
 
 
 
-Berhati-hatilah untuk tidak mengedit bidang yang salah, beberapa variabel dalam file joinmarket.cfg jika diatur dengan tidak benar dapat membahayakan fungsionalitas perangkat lunak atau benar-benar memusnahkan privasi Anda, buka mata dan waspadalah secara maksimal!
+Berhati-hatilah untuk tidak mengedit bidang yang salah, beberapa variabel dalam file joinmarket.cfg jika diatur dengan tidak benar dapat membahayakan fungsionalitas perangkat lunak atau benar-benar memusnahkan privasi kamu, buka mata dan waspadalah secara maksimal!
 
 
 
@@ -127,14 +127,14 @@ Berhati-hatilah untuk tidak mengedit bidang yang salah, beberapa variabel dalam 
 
 
 
-Beberapa node secara otomatis menetapkan nilai yang benar untuk bidang-bidang ini di dalam file joinmarket.cfg, saya sarankan untuk memeriksa ulang secara manual:
+Beberapa node secara otomatis menetapkan nilai yang benar untuk bidang-bidang ini di dalam file joinmarket.cfg, aku sarankan untuk memeriksa ulang secara manual:
 
 
 
 
 
-- `rpc_user = nama pengguna Anda-seperti-dalam-Bitcoin.conf`
-- `rpc_password = kata sandi Anda-seperti-dalam-Bitcoin.conf`
+- `rpc_user = nama pengguna kamu-seperti-dalam-Bitcoin.conf`
+- `rpc_password = kata sandi kamu-seperti-dalam-Bitcoin.conf`
 - `rpc_host = localhost #default biasanya benar`
 - `rpc_port = 8332 # default untuk Mainnet`
 
@@ -150,7 +150,7 @@ python wallet-tool.py generate
 
 
 
-Perintah ini akan meminta kita memasukkan kata sandi untuk mengenkripsi Wallet dan nama yang ingin kita berikan, ketika ditanya apakah Anda ingin mendukung fidelity bonds atau tidak, saya sarankan untuk menggunakan opsi _yes_, output yang dikembalikan akan terlihat seperti ini:
+Perintah ini akan meminta kita memasukkan kata sandi untuk mengenkripsi Wallet dan nama yang ingin kita berikan, ketika ditanya apakah kamu ingin mendukung fidelity bonds atau tidak, aku sarankan untuk menggunakan opsi _yes_, output yang dikembalikan akan terlihat seperti ini:
 
 
 
@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-jika terjadi kesalahan, kemungkinan besar kami telah salah mengatur 4 bidang RPC yang ditentukan di atas. Dalam hal ini, mungkin akan membantu jika Anda mengikuti [panduan ini] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) yang terdapat pada dokumentasi asli JoinMarket.
+jika terjadi kesalahan, kemungkinan besar kami telah salah mengatur 4 bidang RPC yang ditentukan di atas. Dalam hal ini, mungkin akan membantu jika Anda mengikuti [panduan ini](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) yang terdapat pada dokumentasi asli JoinMarket.
 
 
 
@@ -186,7 +186,7 @@ esempio: python wallet-tool.py wallet.jmdat
 
 
 
-perintah ini akan menunjukkan kepada Anda semua berbagai mixdepth Wallet dengan berbagai alamat yang dikategorikan:
+perintah ini akan menunjukkan kepada kamu semua berbagai mixdepth Wallet dengan berbagai alamat yang dikategorikan:
 
 
 
@@ -352,7 +352,7 @@ yg-privacyenhanced.py
 
 
 
-Program ini digunakan untuk bertindak sebagai pembuat di joinMarket. Perangkat lunak ini akan terhubung ke node Bitcoin kami dan ke pasar internal platform tempat pembuat menampilkan diri mereka sebagai penawar dan pengambil likuiditas untuk mencari rekanan. Jika Anda ingin menggunakan fidelity bond, Anda dapat membuatnya dengan format ini:
+Program ini digunakan untuk bertindak sebagai pembuat di joinMarket. Perangkat lunak ini akan terhubung ke node Bitcoin kami dan ke pasar internal platform tempat pembuat menampilkan diri mereka sebagai penawar dan pengambil likuiditas untuk mencari rekanan. Jika kamu ingin menggunakan fidelity bond, kamu dapat membuatnya dengan format ini:
 
 
 
@@ -372,22 +372,22 @@ python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 
 
 
-output yang akan dikembalikan kepada kami adalah Bitcoin Address (yaitu, yang Anda perlukan untuk menyetor dana yang ingin Anda alokasikan ke fidelity).
+output yang akan dikembalikan kepada kami adalah Bitcoin Address (yaitu, yang kamu perlukan untuk menyetor dana yang ingin kamu alokasikan ke fidelity).
 
 
 
-**Perhatian**: Ada dua hal yang perlu diperhatikan jika Anda akan membuat Fidelity Bond (alias FB);
+**Perhatian**: Ada dua hal yang perlu diperhatikan jika kamu akan membuat Fidelity Bond (alias FB);
 
 
 
 
 
-- setelah dana disetorkan, dana tersebut tidak dapat dipindahkan lagi hingga masa berlakunya habis. Perhatikan berapa banyak Satss yang Anda kirimkan ke Address dan bagaimana Anda memformat tanggalnya. Kesalahan tidak diperbolehkan!
-- Fidelity bond mudah dikenali di blockchain, jadi disarankan untuk menyetor dana melalui CoinJoin dan dengan asal yang tidak terkait dengan identitas Anda. Hal yang sama juga disarankan untuk dilakukan ketika Anda ingin memindahkan fidelity bond yang sudah kedaluwarsa dari JoinMarket.
+- setelah dana disetorkan, dana tersebut tidak dapat dipindahkan lagi hingga masa berlakunya habis. Perhatikan berapa banyak Satss yang kamu kirimkan ke Address dan bagaimana kamu memformat tanggalnya. Kesalahan tidak diperbolehkan!
+- Fidelity bond mudah dikenali di blockchain, jadi disarankan untuk menyetor dana melalui CoinJoin dan dengan asal yang tidak terkait dengan identitas kamu. Hal yang sama juga disarankan untuk dilakukan ketika kamu ingin memindahkan fidelity bond yang sudah kedaluwarsa dari JoinMarket.
 
 
 
-Penting untuk diingat bahwa Anda dapat mengisi ulang obligasi kesetiaan hanya dengan satu transaksi, dalam kasus kelipatan UTXO hanya kelipatan terbesar yang akan dianggap valid untuk FB.
+Penting untuk diingat bahwa kamu dapat mengisi ulang obligasi kesetiaan hanya dengan satu transaksi, dalam kasus kelipatan UTXO hanya kelipatan terbesar yang akan dianggap valid untuk FB.
 
 
 
@@ -401,11 +401,11 @@ python yg-privacyenhanced.py <wallet name>
 
 
 
-Mulai saat ini (setelah beberapa menit terhubung ke jaringan) dan sampai kita menghentikan skrip, klien JoinMarket kita akan muncul di daftar pembuat aktif di protokol dan menawarkan likuiditas kita ke berbagai rekanan untuk membuat CoinJoin. Jangan mengharapkan puluhan CoinJoins per hari (kecuali Anda memiliki fidlity yang sangat besar dan likuiditas yang besar yang disimpan di Wallet), juga ingat bahwa faktor-faktor seperti biaya yang diperlukan dan Satoshi yang disimpan mempengaruhi seberapa sering Anda akan menjadi pembuat.
+Mulai saat ini (setelah beberapa menit terhubung ke jaringan) dan sampai kita menghentikan skrip, klien JoinMarket kita akan muncul di daftar pembuat aktif di protokol dan menawarkan likuiditas kita ke berbagai rekanan untuk membuat CoinJoin. Jangan mengharapkan puluhan CoinJoins per hari (kecuali kamu memiliki fidlity yang sangat besar dan likuiditas yang besar yang disimpan di Wallet), juga ingat bahwa faktor-faktor seperti biaya yang diperlukan dan Satoshi yang disimpan mempengaruhi seberapa sering kamu akan menjadi pembuat.
 
 
 
-Dengan menjalankan perintah di bawah ini, Anda akan dapat melihat riwayat semua transaksi yang dilakukan pada Wallet dan setiap keuntungan (jika Anda adalah pembuat) atau pengeluaran biaya (jika Anda adalah pengambil) yang Anda miliki selama masa pakai Wallet.
+Dengan menjalankan perintah di bawah ini, kamu akan dapat melihat riwayat semua transaksi yang dilakukan pada Wallet dan setiap keuntungan (jika kamu adalah pembuat) atau pengeluaran biaya (jika kamu adalah pengambil) yang kamu miliki selama masa pakai Wallet.
 
 
 
@@ -415,7 +415,7 @@ python wallet-tool.py <wallet name> history
 
 
 
-Setelah Satoshi Anda melakukan CoinJoin, mereka akan berpindah dari satu mixdepth ke mixdepth lainnya hingga mencapai mixdepth terakhir. Setelah melewati yang keempat, mereka akan kembali ke mixdepth 0, terserah Anda berapa banyak privasi yang didapat sebelum memindahkannya ke Cold Wallet, disarankan untuk menyelesaikan satu siklus Wallet penuh.
+Setelah Satoshi  kamu melakukan CoinJoin, mereka akan berpindah dari satu mixdepth ke mixdepth lainnya hingga mencapai mixdepth terakhir. Setelah melewati yang keempat, mereka akan kembali ke mixdepth 0, terserah kamu berapa banyak privasi yang didapat sebelum memindahkannya ke Cold Wallet, disarankan untuk menyelesaikan satu siklus Wallet penuh.
 
 
 
@@ -423,11 +423,11 @@ Setelah Satoshi Anda melakukan CoinJoin, mereka akan berpindah dari satu mixdept
 
 
 
-Akhirnya kita sampai pada bagian paling menarik dari JoinMarket, yaitu tumbler! Jika Anda sudah mendengarkan podcastnya, Anda pasti sudah tahu tentang apa yang dimaksud. Satu rekomendasi sebelum kita mulai: **Waspadalah terhadap biaya!** Ingatlah untuk mengatur batasan dalam file joinmarket.cfg (seperti yang dijelaskan di awal) dan pertimbangkan untuk menjalankan program ini hanya jika biaya onchain relatif rendah (di bawah 10 Sats/vB).
+Akhirnya kita sampai pada bagian paling menarik dari JoinMarket, yaitu tumbler! Jika kamu sudah mendengarkan podcastnya, kamu pasti sudah tahu tentang apa yang dimaksud. Satu rekomendasi sebelum kita mulai: **Waspadalah terhadap biaya!** Ingatlah untuk mengatur batasan dalam file joinmarket.cfg (seperti yang dijelaskan di awal) dan pertimbangkan untuk menjalankan program ini hanya jika biaya onchain relatif rendah (di bawah 10 Sats/vB).
 
 
 
-Untuk meluncurkan tumbler, Anda harus menghentikan skrip dari pembuatnya (jika masih aktif), setelah itu kita dapat menjalankan perintah:
+Untuk meluncurkan tumbler, kamu harus menghentikan skrip dari pembuatnya (jika masih aktif), setelah itu kita dapat menjalankan perintah:
 
 
 
@@ -437,7 +437,7 @@ python tumbler.py <wallet name> <receiving address (1)> <receiving address (2)> 
 
 
 
-Sangat penting untuk memasukkan **setidaknya** 3 alamat keluaran untuk tumbler: ini untuk memastikan privasi yang baik dan tidak membuat hubungan yang jelas antara UTXO selama proses berlangsung. Seperti biasa, dengan menambahkan `--help` pada perintah, Anda dapat melihat semua detail tambahan. Mari kita lihat contoh yang lebih kompleks dengan aturan yang lebih lanjut:
+Sangat penting untuk memasukkan **setidaknya** 3 alamat keluaran untuk tumbler: ini untuk memastikan privasi yang baik dan tidak membuat hubungan yang jelas antara UTXO selama proses berlangsung. Seperti biasa, dengan menambahkan `--help` pada perintah, kamu dapat melihat semua detail tambahan. Mari kita lihat contoh yang lebih kompleks dengan aturan yang lebih lanjut:
 
 
 
@@ -451,7 +451,7 @@ Dalam hal ini kita telah meluncurkan skrip tumbling yang tidak akan menggunakan 
 
 
 
-Anda juga dapat menambahkan alamat keluaran sebanyak yang Anda inginkan (minimal 3, tidak ada maksimum selain akal sehat). Namun, karena masalah privasi, tidak mungkin untuk memutuskan bagaimana Satoshi akan didistribusikan di antara alamat-alamat yang ditentukan sebagai output.
+kamu juga dapat menambahkan alamat keluaran sebanyak yang kamu inginkan (minimal 3, tidak ada maksimum selain akal sehat). Namun, karena masalah privasi, tidak mungkin untuk memutuskan bagaimana Satoshi akan didistribusikan di antara alamat-alamat yang ditentukan sebagai output.
 
 
 
@@ -465,7 +465,7 @@ python tumbler.py --restart
 
 
 
-Atau cukup mulai ulang perintah tumbling yang baru. Ini tidak akan memulai penjadwalan tumbler sebelumnya tetapi akan memulai siklus pencampuran yang baru. Jika menutup terminal SSH ke node Anda juga menghentikan skrip, Anda dapat memanfaatkan program `TMUX` yang dapat diinstal dengan perintah tersebut:
+Atau cukup mulai ulang perintah tumbling yang baru. Ini tidak akan memulai penjadwalan tumbler sebelumnya tetapi akan memulai siklus pencampuran yang baru. Jika menutup terminal SSH ke node kamu juga menghentikan skrip, kamu dapat memanfaatkan program `TMUX` yang dapat diinstal dengan perintah tersebut:
 
 
 
@@ -475,7 +475,7 @@ sudo apt install tmux
 
 
 
-Meluncurkannya dari shell dengan mengetikkan `tmux` akan membuka terminal untuk Anda yang akan tetap aktif di latar belakang meskipun Anda menutup koneksi jarak jauh. Ketika Anda menyambungkan kembali ke node Anda dengan perintah: `tmux attach` Anda akan membuka kembali shell yang tetap aktif di latar belakang.
+Meluncurkannya dari shell dengan mengetikkan `tmux` akan membuka terminal untuk kamu yang akan tetap aktif di latar belakang meskipun kamu menutup koneksi jarak jauh. Ketika kamu menyambungkan kembali ke node kamu dengan perintah: `tmux attach` kamu akan membuka kembali shell yang tetap aktif di latar belakang.
 
 
 
@@ -483,7 +483,7 @@ Meluncurkannya dari shell dengan mengetikkan `tmux` akan membuka terminal untuk 
 
 
 
-JoinMarket adalah perangkat lunak yang tidak terbatas dan dapat disesuaikan. Dalam panduan ini kita telah menemukan fungsi-fungsi utama sehingga memungkinkan bagi siapa saja (atau setidaknya saya telah mencobanya, saya menyadari bahwa menggunakan perangkat lunak ini bukanlah hal yang mudah) untuk menggunakannya. Salah satu masalah terbesar dengan JoinMarket adalah: jumlah orang yang menggunakannya dan menjadi pembuatnya. Jika hanya sedikit pengguna yang memanfaatkan perangkat lunak ini, maka privasi secara keseluruhan (anon-set) akan berkurang. Itulah mengapa saya berharap panduan ini akan mendorong penggunaan dan meyakinkan Anda untuk mengunduh dan menginstal perangkat lunak favorit saya untuk membuat CoinJoin. Jika Anda ingin mendalami lebih dalam beberapa aspek, saya sarankan Anda untuk membaca berbagai dokumen mendalam di github, dokumen-dokumen tersebut dibuat dengan sangat baik dan Anda dapat menemukannya di sini.
+JoinMarket adalah perangkat lunak yang tidak terbatas dan dapat disesuaikan. Dalam panduan ini kita telah menemukan fungsi-fungsi utama sehingga memungkinkan bagi siapa saja (atau setidaknya aku telah mencobanya, aku menyadari bahwa menggunakan perangkat lunak ini bukanlah hal yang mudah) untuk menggunakannya. Salah satu masalah terbesar dengan JoinMarket adalah: jumlah orang yang menggunakannya dan menjadi pembuatnya. Jika hanya sedikit pengguna yang memanfaatkan perangkat lunak ini, maka privasi secara keseluruhan (anon-set) akan berkurang. Itulah mengapa aku berharap panduan ini akan mendorong penggunaan dan meyakinkan kamu untuk mengunduh dan menginstal perangkat lunak favorit aku untuk membuat CoinJoin. Jika kamu ingin mendalami lebih dalam beberapa aspek, aku sarankan kamu untuk membaca berbagai dokumen mendalam di github, dokumen-dokumen tersebut dibuat dengan sangat baik dan kamu dapat menemukannya di sini.
 
 
 
@@ -491,4 +491,4 @@ Selamat bercengkerama dengan kura-kura!🐢 💚
 
 
 
-[Di sini] (https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) Anda dapat mendukung Turtlecute
+[Di sini](https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) Anda dapat mendukung Turtlecute

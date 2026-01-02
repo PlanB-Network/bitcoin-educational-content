@@ -1,0 +1,8 @@
+question: ¿Cuándo debe preferirse el operador de signo de interrogación (?) a los métodos unwrap() o expect() en el tratamiento de errores de Rust?
+answer: Cuando necesite propagar errores por la pila de llamadas para que la función de llamada los maneje
+wrong_answers:
+  - Cuando desee proporcionar mensajes de error personalizados para depurar operaciones fallidas
+  - Cuando esté seguro de que la operación se realizará correctamente y desee evitar la gestión de errores
+  - Cuando necesite convertir errores a un valor por defecto y continuar la ejecución del programa
+explanation: |
+  El operador de signo de interrogación (?) está diseñado para la propagación de errores - extrae valores de éxito pero devuelve inmediatamente los errores de la función actual, permitiendo a los llamantes manejarlos. A diferencia de unwrap()/expect(), que entra en pánico en caso de error, o unwrap_or(), que proporciona valores predeterminados, el operador ? mantiene el contexto de error y pasa la responsabilidad a código de nivel superior que puede tomar las decisiones de gestión adecuadas.

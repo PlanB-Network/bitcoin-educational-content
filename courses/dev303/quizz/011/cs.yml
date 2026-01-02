@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda přístupu k bezpečnosti paměti Rust v době kompilace ve srovnání s garbage collection?
+answer: Eliminuje režii běhu a nepředvídatelné výkonnostní pauzy
+wrong_answers:
+  - Využívá více paměti, ale poskytuje lepší záruky zabezpečení
+  - Vyžaduje méně kódu, ale pracuje pomaleji než garbage collection
+  - Zabraňuje všem chybám při běhu, ale během provádění využívá více procesoru
+explanation: |
+  Přístup Rust k bezpečnosti paměti při kompilaci analyzuje kód během kompilace, aby zajistil bezpečnost paměti bez jakýchkoli nákladů za běhu. Na rozdíl od garbage collection používaného v jazycích jako Java a Go, který přináší výkonnostní režii a může způsobit nepředvídatelné pauzy během provádění programu, má systém Rust nulový runtime dopad. Ostatní možnosti jsou nesprávné, protože Rust ve skutečnosti využívá paměť efektivněji (ne více), neběží pomaleji (běží rychleji bez kontrol za běhu) a nevyužívá více procesoru během provádění (práce je vykonána v době kompilace).

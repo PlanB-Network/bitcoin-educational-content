@@ -1,0 +1,8 @@
+question: Mikä on merkittävin riski käytettäessä RC<RefCell<T>>:tä jaettuun muuttuvaan tilaan, ja mikä mekanismi auttaa estämään sen?
+answer: Viittaussyklit aiheuttavat muistivuodot, jotka estetään käyttämällä heikkoja viittauksia
+wrong_answers:
+  - Säikeiden väliset datakilpailut, jotka estetään käyttämällä Mutexia RefCellin sijasta
+  - Suoritusaikainen paniikki lainausrikkomuksista, estetty kääntämisaikaisella tarkistuksella
+  - Syvästä rekursiosta johtuva pinon ylivuoto, joka estetään rajoittamalla viittaussyvyyttä
+explanation: |
+  Kun käytetään RC<RefCell<T>>:tä, ensisijainen vaara on luoda viittaussyklejä, joissa tietorakenteet viittaavat itseensä suoraan tai ketjujen kautta. Nämä syklit estävät viitteiden lukumäärän pääsemästä nollaan, mikä aiheuttaa muistivuotoja, koska datalla näyttää olevan aina aktiivisia viittauksia. Heikot viittaukset ratkaisevat tämän ongelman siten, että ne eivät vaikuta muistinhallintaan käytettävään viittausmäärään, jolloin syklit katkeavat ja yhteydet säilyvät. Muut vaihtoehdot ovat virheellisiä: RC<RefCell<T>> ei ole säikeenkestävä, joten datakilpailut eivät ole suurin huolenaihe, RefCell siirtää tarkistukset nimenomaan ajonaikaan sen sijaan, että se estäisi ne kääntämisaikana, ja pinon ylivuoto ei liity viitteiden laskentamekanismiin.

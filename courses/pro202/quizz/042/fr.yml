@@ -1,4 +1,4 @@
-question: Si le mécanisme d'ajustement de la difficulté de Bitcoin rencontre un scénario dans lequel les blocs 2016 précédents ont pris exactement 6 semaines à extraire au lieu des 2 semaines prévues, quel facteur d'ajustement serait appliqué ?
+question: Si le mécanisme d'ajustement de la difficulté de Bitcoin rencontre un scénario dans lequel les 2016 blocs précédents ont pris exactement 6 semaines à extraire au lieu des 2 semaines prévues, quel facteur d'ajustement serait appliqué ?
 answer: La difficulté serait réduite d'un facteur 4 (réduction maximale autorisée)
 wrong_answers:
   - La difficulté serait réduite d'un facteur 3 (6 semaines ÷ 2 semaines)

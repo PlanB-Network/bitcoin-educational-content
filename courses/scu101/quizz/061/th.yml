@@ -1,0 +1,10 @@
+question: ภาษาโปรแกรมบางภาษาที่ใช้ในความปลอดภัยทางไซเบอร์คืออะไร?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  บทนี้ระบุว่า Python, C และ Java เป็นบางส่วนของ
+  ภาษาการเขียนโปรแกรมที่ใช้ในความปลอดภัยทางไซเบอร์
+reviewed: true

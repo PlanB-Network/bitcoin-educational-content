@@ -6,4 +6,4 @@ wrong_answers:
   - Enrutamiento estático
 explanation: |
   La "ventana deslizante" permite enviar varios segmentos seguidos y, a continuación, desplaza el alcance con cada acuse de recibo para optimizar el flujo.
-reviewed: false
+reviewed: true

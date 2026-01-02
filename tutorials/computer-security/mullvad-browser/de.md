@@ -557,8 +557,8 @@ Trotz gewisser Einschränkungen (keine mobile Version, nicht persistente Sitzung
 
 
 
-- [Warum Privatsphäre wichtig ist] (https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
-- [Tor ohne Tor: Mullvad-Browser-Konzept] (https://mullvad.net/en/browser/tor-without-tor)
+- [Warum Privatsphäre wichtig ist](https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
+- [Tor ohne Tor: Mullvad-Browser-Konzept](https://mullvad.net/en/browser/tor-without-tor)
 - [Wie man einen datenschutzfreundlichen Browser wählt](https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
 - [Browser-Fingerprinting verstehen](https://mullvad.net/en/browser/browser-fingerprinting)
 
@@ -570,7 +570,7 @@ Trotz gewisser Einschränkungen (keine mobile Version, nicht persistente Sitzung
 
 
 - [Mullvad Browser Help Center](https://mullvad.net/en/help/tag/mullvad-browser)
-- [Erste Schritte zum Online-Datenschutz] (https://mullvad.net/en/help/first-steps-towards-online-privacy)
+- [Erste Schritte zum Online-Datenschutz](https://mullvad.net/en/help/first-steps-towards-online-privacy)
 
 
 
@@ -580,4 +580,4 @@ Trotz gewisser Einschränkungen (keine mobile Version, nicht persistente Sitzung
 
 
 - [Mullvad Browser Guide - Leitfaden zum Datenschutz](https://www.privacyguides.org/en/desktop-browsers/)
-- [Gemeinschaftsdiskussionen] (https://discuss.privacyguides.net/t/about-changing-settings-in-mullvad-browser/18330)
+- [Gemeinschaftsdiskussionen](https://discuss.privacyguides.net/t/about-changing-settings-in-mullvad-browser/18330)

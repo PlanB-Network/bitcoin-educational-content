@@ -2,7 +2,7 @@ question: Welche spezifische Bedingung muss im P2P-Netzwerk-Handshake-Prozess vo
 answer: Beide Knoten müssen Versions- und Verack-Nachrichten miteinander austauschen
 wrong_answers:
   - Der verbindende Knoten muss eine DNS-seed-Bestätigung von den Kernentwicklern erhalten
-  - "Beide Knoten müssen die Blockhöhe und den Kettenspitzenhash des jeweils anderen überprüfen
+  - "Beide Knoten müssen die Blockhöhe und den Kettenspitzenhash des jeweils anderen überprüfen"
   - "Der empfangende Knoten muss das Peer-Zertifikat des verbindenden Knotens validieren"
 explanation: |
   Der Bitcoin-P2P-Handshake erfordert einen bidirektionalen Austausch, bei dem der verbindende Knoten eine Versionsnachricht sendet, der Empfänger mit verack und seiner eigenen Versionsnachricht antwortet und der ursprüngliche Absender mit seinem verack antwortet. Erst nach diesem vollständigen Austausch von vier Nachrichten (version→verack+version→verack) können die Knoten mit der aktiven Kommunikation beginnen. DNS-Seeds werden nur für die anfängliche Peer-Erkennung verwendet, nicht für das Handshaking. Bitcoin verwendet keine Zertifikate, und die Kettenvalidierung erfolgt nach dem Aufbau der Verbindung.

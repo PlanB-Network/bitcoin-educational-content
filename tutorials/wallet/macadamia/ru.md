@@ -347,4 +347,4 @@ Macadamia Wallet привносит в цифровой Bitcoin свойства
 
 
 
-- Группа Telegram Cashu: [t.me/cashu_ecash] (https://t.me/cashu_ecash)
+- Группа Telegram Cashu: [t.me/cashu_ecash](https://t.me/cashu_ecash)

@@ -1,0 +1,8 @@
+question: Quelle est la principale caractéristique qui rend les fermetures puissantes dans Rust ?
+answer: Leur capacité à capter les variables de leur environnement
+wrong_answers:
+  - Leur capacité à fonctionner plus rapidement que les fonctions normales
+  - Leur capacité à gérer automatiquement l'allocation de mémoire
+  - Leur capacité à exécuter du code dans des threads parallèles
+explanation: |
+  La caractéristique fondamentale qui rend les fermetures puissantes est leur capacité à "fermer" leur environnement, ce qui signifie qu'elles peuvent accéder et utiliser des variables qui existent dans la portée où la fermeture est définie. Cette capacité de capture permet aux fermetures de conserver l'état et le contexte de leur environnement de création, ce qui les rend beaucoup plus flexibles que les fonctions ordinaires. Bien que les fermetures puissent être optimisées en termes de performances et utilisées dans des contextes de threading, il s'agit là d'avantages secondaires - leur puissance principale provient de la capture de variables environnementales.

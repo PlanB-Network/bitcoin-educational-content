@@ -11,7 +11,7 @@ Dans ce second tutoriel consacré à Bitcoin Keeper, nous explorons les fonction
 
 Ce guide suppose que vous maîtrisez déjà les bases de Bitcoin Keeper (création de portefeuille, multisig classique, ajout de clés hardware) telles qu'expliquées dans notre premier tutoriel :
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-22cbfb8d-790f-4a6f-a92f-93a117e1e65c
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-22cbfb8d-790f-4a6f-a92f-93a117e1e65c
 
 ![video](https://youtu.be/tCld_-n2d30)
 
@@ -67,7 +67,7 @@ Dans notre configuration, nous importons :
 
 Pour ajouter une Coldcard, sélectionnez-la dans la liste et suivez les instructions à l'écran pour exporter la clé publique via QR code, fichier, USB ou encore NFC. Pour plus de détails sur l'utilisation d'un Coldcard ou bien d'un Tapsigner, référez-vous à nos tutoriels dédiés :
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 

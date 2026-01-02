@@ -1,0 +1,8 @@
+question: Mis on Rust tüübi Option<T> enum esmane eesmärk?
+answer: Turvaliselt esindada väärtusi, mis võivad olla või mitte olla, vältides nullnäidiku vigu
+wrong_answers:
+  - Mitme erineva andmetüübi salvestamine ühte muutujasse ilma tüübikontrollimiseta
+  - Et luua funktsioonide definitsioonides valikulisi parameetreid, mida saab kutsete ajal vahele jätta
+  - Et pakkuda võimalust tagastada mitu võimalikku veatüüpi ühest funktsioonist
+explanation: |
+  Option<T> enum on Rust lahendus nullnäidiku probleemidele, sundides puuduvate väärtuste selgesõnalist käsitlemist. Sellel on kaks varianti: Some(T) olemasolevate väärtuste jaoks ja None puuduvate väärtuste jaoks. Kompilaator nõuab, et enne väärtuse kasutamist kontrollitaks, milline variant on olemas, vältides sellega tööaegseid vigu. Valed vastused ajavad Optioni segi teiste mõistetega: unioonid/variandid (esimene), vaikimisi parameetrid (teine) ja veakäitluse tulemitüübid (kolmas).

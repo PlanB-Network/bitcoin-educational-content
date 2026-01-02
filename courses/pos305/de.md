@@ -154,7 +154,7 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Bitten Sie drei freiwillige Schüler, die Rollen des Kunden (Alice), des Händlers (Bob) und der Bank zu übernehmen.
 - Spielen Sie die Abfolge der Ereignisse nach:
   - Ein Kunde, der online im Laden stöbert und einen Artikel für 25 $ findet, den er haben möchte, informiert den Händler, dass er ihn kaufen möchte
@@ -176,7 +176,7 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersetzen Sie die Bank durch neun Schüler, die die Rolle eines Computers (Bitcoin-Knoten/Miners) in einem Netzwerk spielen, das die Bank ersetzen soll.
 - Jeder der 9 Computer verfügt über eine vollständige historische Aufzeichnung aller jemals getätigten Transaktionen (daher genaue Bilanzen ohne Fälschungen) sowie über ein Regelwerk:
   - Überprüfen Sie, ob die Transaktion ordnungsgemäß signiert ist (thekeyfitsthelock)
@@ -838,7 +838,7 @@ Die Rescan-Funktion stützt sich auf Bitcoin core 0.17.0's "Scantxoutset", um de
 
 1. Problem der Lückenbegrenzung - Die meisten Geldbörsen von Drittanbietern sind leichte Geldbörsen, die sich einen Knoten mit vielen Benutzern teilen. Leichte und Full node-abhängige Wallets begrenzen die Anzahl (normalerweise 20) der Adressen ohne Guthaben, die sie auf dem Blockchain verfolgen, um Leistungsprobleme zu vermeiden. BTCPay Server generiert einen neuen Address für jeden Invoice. Nachdem BTCPay Server 20 aufeinanderfolgende unbezahlte Rechnungen generiert hat, hört der externe Wallet auf, die Transaktionen abzurufen, vorausgesetzt, es sind keine neuen Transaktionen aufgetreten. Ihr externer Wallet wird sie nicht mehr anzeigen, wenn die Rechnungen am 21., 22. usw. bezahlt werden. Der interne Wallet des BTCPay-Servers hingegen verfolgt jeden Address, den er generiert, zusammen mit einem deutlich höheren Gap-Limit. Er ist nicht von einer dritten Partei abhängig und kann immer einen korrekten Saldo ausweisen.
 
-2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
+2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
 
 
 #### BTCPay Server verwendet "mempoolfullrbf=1"
@@ -2222,7 +2222,7 @@ Versuchen Sie zuallererst herauszufinden, wann das Problem auftritt. Versuchen S
 ##### Aktualisierung des Servers
 
 
-Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version] (https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
+Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version](https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
 
 
 ##### Neustart des Servers
@@ -2452,7 +2452,7 @@ In BTCPay Server stellt ein Invoice ein Dokument dar, das innerhalb eines bestim
 Das Herzstück von BTCPay Server ist die Fähigkeit, als Bitcoin Invoice-Verwaltungssystem zu fungieren. Ein Invoice ist ein unverzichtbares Werkzeug für die Verfolgung und Verwaltung eingegangener Zahlungen.
 
 
-Sofern Sie nicht ein integriertes [Wallet] (https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
+Sofern Sie nicht ein integriertes [Wallet](https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
 
 
 ![image](assets/en/093.webp)
@@ -2670,13 +2670,13 @@ Wie wäre es, wenn der Sender die Zahlung nicht schiebt, sondern dem Empfänger 
 ### Auszahlungen
 
 
-Die Auszahlungsfunktion ist an die Funktion [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
+Die Auszahlungsfunktion ist an die Funktion [Pull Payments](https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
 
 
 #### Beispiel 1: Erstattung
 
 
-Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung] (https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
+Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung](https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
 
 
 Der erste Status, den es hat, ist Warten auf Genehmigung. Die Mitarbeiter in der Filiale können prüfen, ob mehrere Anträge vorliegen, und nachdem sie eine Auswahl getroffen haben, verwenden sie die Schaltfläche "Aktionen".
@@ -2700,7 +2700,7 @@ Der Kunde wird nun auf der Claiming-Seite aktualisiert. Er kann die Transaktion 
 #### Beispiel 2: Gehalt
 
 
-Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung] (https://docs.btcpayserver.org/PullPayments/) vornehmen.
+Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung](https://docs.btcpayserver.org/PullPayments/) vornehmen.
 
 
 Gehen Sie auf die Registerkarte Pull-Zahlungen auf Ihrem BTCPay-Server. Klicken Sie oben rechts auf die Schaltfläche Pull-Zahlung erstellen.
@@ -2744,7 +2744,7 @@ Danach kann der Sender die Pull-Zahlung über einen Link mit dem Empfänger teil
 Sobald eine Auszahlung erstellt ist, wird sie auf das Limit der Abrufzahlung für den aktuellen Zeitraum angerechnet. Der Absender genehmigt dann die Auszahlung, indem er den Satz festlegt, zu dem die Auszahlung gesendet werden soll, und führt die Zahlung durch.
 
 
-Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

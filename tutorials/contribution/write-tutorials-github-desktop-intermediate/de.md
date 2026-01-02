@@ -11,7 +11,7 @@ Das haben Sie bereits:
 
 
 - Wählen Sie das Thema Ihres Tutorials;
-- Kontaktieren Sie das Plan ₿ Academy Team über [die Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
+- Kontaktieren Sie das Plan ₿ Academy Team über [die Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools aus.
 
 In diesem Tutorial werden wir sehen, wie Sie Ihr Tutorial zum Plan ₿ Academy hinzufügen, indem Sie Ihre lokale Umgebung mit GitHub Desktop einrichten. Wenn Sie bereits mit Git vertraut sind, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Ich würde eher empfehlen, dieses andere Tutorial zu konsultieren, in dem ich nur die wichtigsten Richtlinien vorstelle, ohne detaillierte Schritt-für-Schritt-Anleitung:
@@ -32,7 +32,7 @@ Erforderliche Software, um diesem Tutorial zu folgen:
 
 
 - [GitHub Desktop](https://desktop.github.com/);
-- Ein Markdown-Dateieditor wie [Obsidian] (https://obsidian.md/);
+- Ein Markdown-Dateieditor wie [Obsidian](https://obsidian.md/);
 - Ein Code-Editor ([VSC](https://code.visualstudio.com/) oder [Sublime Text](https://www.sublimetext.com/)).
 
 ![TUTO](assets/fr/01.webp)
@@ -40,9 +40,9 @@ Erforderliche Software, um diesem Tutorial zu folgen:
 Voraussetzungen vor Beginn des Tutorials:
 
 
-- Sie haben ein [GitHub-Konto] (https://github.com/signup);
-- Haben Sie einen Fork des [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Verfügen Sie über [ein Professorenprofil im Plan ₿ Academy] (https://planb.academy/professors) (nur wenn Sie ein vollständiges Tutorium vorschlagen).
+- Sie haben ein [GitHub-Konto](https://github.com/signup);
+- Haben Sie einen Fork des [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Verfügen Sie über [ein Professorenprofil im Plan ₿ Academy](https://planb.academy/professors) (nur wenn Sie ein vollständiges Tutorium vorschlagen).
 
 Wenn Sie Hilfe benötigen, um diese Voraussetzungen zu erfüllen, werden Ihnen meine anderen Tutorials helfen:
 
@@ -161,13 +161,13 @@ Wählen Sie einen Namen für das Verzeichnis, das speziell für Ihr Lernprogramm
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-Die `project_id` ist die UUID des Unternehmens oder der Organisation, die hinter dem im Tutorium behandelten Tool steht, verfügbar [in der Liste der Projekte] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Zum Beispiel, für ein Tutorial über Sparrow Wallet, können Sie die `project_id` in der Datei finden: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Diese Information wird der YAML-Datei Ihres Tutorials hinzugefügt, weil das Plan ₿ Academy eine Datenbank von Unternehmen und Organisationen unterhält, die in Bitcoin oder verwandten Projekten aktiv sind. Indem Sie die zugehörige `project_id` hinzufügen, verknüpfen Sie Ihren Inhalt mit der relevanten Entität.
+Die `project_id` ist die UUID des Unternehmens oder der Organisation, die hinter dem im Tutorium behandelten Tool steht, verfügbar [in der Liste der Projekte](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Zum Beispiel, für ein Tutorial über Sparrow Wallet, können Sie die `project_id` in der Datei finden: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Diese Information wird der YAML-Datei Ihres Tutorials hinzugefügt, weil das Plan ₿ Academy eine Datenbank von Unternehmen und Organisationen unterhält, die in Bitcoin oder verwandten Projekten aktiv sind. Indem Sie die zugehörige `project_id` hinzufügen, verknüpfen Sie Ihren Inhalt mit der relevanten Entität.
 
 ***Update:*** In der neuen Version des Skripts müssen Sie die "project_id" nicht mehr manuell eingeben. Es wurde eine Suchfunktion hinzugefügt, um das Projekt anhand des Namens zu finden und automatisch die entsprechende "project_id" abzurufen. Geben Sie den Anfang des Projektnamens in das Feld "Projektname" ein, um nach dem Projekt zu suchen, und wählen Sie dann das gewünschte Unternehmen aus dem Dropdown-Menü aus. Die "project_id" wird automatisch in das Feld darunter eingetragen. Sie können sie bei Bedarf auch manuell eingeben.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Wählen Sie für die Tags 2 oder 3 relevante Schlüsselwörter aus, die mit dem Inhalt Ihres Tutorials zusammenhängen, und wählen Sie ausschließlich aus [der Tag-Liste des Plan ₿ Academy] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Die Software bietet auch eine Schlagwort-Suchfunktion mit einer Dropdown-Liste.
+Wählen Sie für die Tags 2 oder 3 relevante Schlüsselwörter aus, die mit dem Inhalt Ihres Tutorials zusammenhängen, und wählen Sie ausschließlich aus [der Tag-Liste des Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Die Software bietet auch eine Schlagwort-Suchfunktion mit einer Dropdown-Liste.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -368,7 +368,7 @@ Der Unterordner "Sprache" im Ordner "Assets" dient zum Speichern von Diagrammen 
 
 Um Ihre Bilder zu benennen, verwenden Sie einfach Nummern, die der Reihenfolge ihres Erscheinens im Lernprogramm entsprechen, formatiert mit zwei Ziffern (oder drei Ziffern, wenn Ihr Lernprogramm mehr als 99 Bilder enthält). Nennen Sie zum Beispiel Ihr erstes Bild `01.webp`, Ihr zweites `02.webp`, und so weiter.
 
-Ihre Bilder müssen ausschließlich im `.webp`-Format vorliegen. Bei Bedarf können Sie [meine Bildkonvertierungssoftware] (https://github.com/LoicPandul/ImagesConverter) verwenden.
+Ihre Bilder müssen ausschließlich im `.webp`-Format vorliegen. Bei Bedarf können Sie [meine Bildkonvertierungssoftware](https://github.com/LoicPandul/ImagesConverter) verwenden.
 
 ![TUTO](assets/fr/26.webp)
 
@@ -391,7 +391,7 @@ Wenn Sie Ihre eigenen Diagramme erstellen möchten, sollten Sie sich an die graf
 
 **Es ist unbedingt erforderlich, dass alle in Ihre Tutorials integrierten Grafiken frei von Rechten sind oder die Lizenz der Quelldatei respektieren**. Außerdem werden alle Diagramme, die im Plan ₿ Academy veröffentlicht werden, unter der CC-BY-SA-Lizenz zur Verfügung gestellt, genau wie der Text.
 
-**-> Tipp:** Bei der öffentlichen Freigabe von Dateien, wie z. B. Bildern, ist es wichtig, alle unnötigen Metadaten zu entfernen. Diese können sensible Informationen wie Standortdaten, Erstellungsdaten oder Details über den Autor enthalten. Um Ihre Privatsphäre zu schützen, ist es ratsam, diese Metadaten zu löschen. Um diesen Vorgang zu vereinfachen, können Sie spezielle Tools wie [Exif Cleaner] (https://exifcleaner.com/) verwenden, mit denen Sie die Metadaten eines Dokuments durch einfaches Ziehen und Ablegen bereinigen können.
+**-> Tipp:** Bei der öffentlichen Freigabe von Dateien, wie z. B. Bildern, ist es wichtig, alle unnötigen Metadaten zu entfernen. Diese können sensible Informationen wie Standortdaten, Erstellungsdaten oder Details über den Autor enthalten. Um Ihre Privatsphäre zu schützen, ist es ratsam, diese Metadaten zu löschen. Um diesen Vorgang zu vereinfachen, können Sie spezielle Tools wie [Exif Cleaner](https://exifcleaner.com/) verwenden, mit denen Sie die Metadaten eines Dokuments durch einfaches Ziehen und Ablegen bereinigen können.
 
 ## 7 - Speichern und Absenden des Tutorials
 
@@ -447,5 +447,5 @@ Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR b
 - Wenn Ihr PR noch offen ist und noch nicht zusammengeführt wurde, nehmen Sie die Änderungen lokal vor, während Sie auf demselben Zweig bleiben. Sobald die Änderungen abgeschlossen sind, fügen Sie mit der Schaltfläche `Push origin` eine neue Übergabe zu Ihrem noch offenen PR hinzu;
 - Wenn Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess neu beginnen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr lokales Repository mit dem Plan ₿ Academy Source Repository synchronisiert ist, bevor Sie fortfahren.
 
-Wenn Sie beim Einreichen Ihres Tutorials auf technische Schwierigkeiten stoßen, zögern Sie nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Vielen Dank!
+Wenn Sie beim Einreichen Ihres Tutorials auf technische Schwierigkeiten stoßen, zögern Sie nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge](https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Vielen Dank!
 

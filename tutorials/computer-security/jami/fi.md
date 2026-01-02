@@ -82,7 +82,7 @@ Sovellus on saatavilla suoraan App Storesta tai Play Storesta. Etsi se yksinkert
 
 
 
-Jos haluat asentaa Jamin laitteeseesi, sinun on ensin käytävä Jamin virallisilla verkkosivuilla. Oletusarvoisesti sivusto näyttää laitteesi käyttöjärjestelmää vastaavan ohjelmiston, ja voit käynnistää sen suoraan latauspainiketta napsauttamalla. Voit kuitenkin myös ladata Windows-ohjelman suoraan [lataussivulta] (https://jami.net/download-jami-windows/).
+Jos haluat asentaa Jamin laitteeseesi, sinun on ensin käytävä Jamin virallisilla verkkosivuilla. Oletusarvoisesti sivusto näyttää laitteesi käyttöjärjestelmää vastaavan ohjelmiston, ja voit käynnistää sen suoraan latauspainiketta napsauttamalla. Voit kuitenkin myös ladata Windows-ohjelman suoraan [lataussivulta](https://jami.net/download-jami-windows/).
 
 
 

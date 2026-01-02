@@ -85,7 +85,6 @@ L'important ici est de comprendre cette nouvelle technologie de manière génér
 
 Prêt à plonger dans l'univers fascinant de Bitcoin et à en comprendre tous les rouages ? Allons-y !  
 
-**N.B.** : Si vous rencontrez des termes inconnus pendant le cours, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour les définitions.
 
 ## La préhistoire de Bitcoin
 
@@ -212,7 +211,7 @@ Pour répondre à ces critères, la monnaie a évolué historiquement en prenant
 
 Les monnaies évoluent encore aujourd'hui, adaptant leurs formes pour répondre à différents cas d'utilisation. Comme nous l'avons dit, si l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires telles que le dollar et l'euro sont très liquides et facilement transportables parce qu'elles sont désormais essentiellement numériques, mais leur valeur est constamment diminuée par l'inflation monétaire.
 
-D'autre part, le bitcoin offre de nouvelles possibilités. Ses propriétés, telles que l'offre strictement limitée, en font une excellente réserve de valeur. De plus, en tant que monnaie internet neutre, il sert de **moyen d'échange** viable qui transcende les frontières. Cependant, il n'est toujours pas largement accepté dans le commerce aujourd'hui, malgré son [adoption constante](https://btcmap.org/map).
+D’autre part, le bitcoin ouvre de nouvelles perspectives. Ses propriétés, notamment une offre strictement limitée, en font une excellente réserve de valeur. Aussi, en tant que monnaie d'internet neutre, il constitue un **moyen d’échange** viable, capable de transcender les frontières. Toutefois, malgré une adoption continue (comme l’illustre [la carte de BTCmap](https://btcmap.org/map)) il n’est pas encore largement accepté dans le commerce aujourd’hui.
 
 ## Monnaies fiduciaires
 

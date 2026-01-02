@@ -1,0 +1,11 @@
+question: คุณจะเสริมความปลอดภัยเริ่มต้นของ Bitcoin wallet ได้อย่างไร?
+answer: โดยการเพิ่ม passphrase ไปยัง Bitcoin wallet ของคุณ
+wrong_answers:
+  - โดยการเพิ่มกุญแจส่วนตัวที่สองให้กับ Bitcoin wallet ของคุณ
+  - โดยการเพิ่มกุญแจสาธารณะตัวที่สองไปยัง Bitcoin wallet ของคุณ
+  - โดยการเพิ่มวลีช่วยจำที่สองให้กับ Bitcoin wallet ของคุณ
+explanation: |
+  หากคุณไม่พอใจกับความปลอดภัยเริ่มต้นของ
+  Bitcoin wallet คุณสามารถเสริมความแข็งแกร่งได้เสมอโดยการเพิ่ม
+  passphrase ให้กับ Bitcoin wallet ของคุณ
+reviewed: true

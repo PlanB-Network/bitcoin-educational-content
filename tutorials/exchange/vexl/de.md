@@ -19,7 +19,7 @@ Vexl ist ein soziales Peer-to-Peer-Netzwerk, das Bitcoin-Käufer und -Verkäufer
 
 
 
-Die ersten Schritte mit Vexl sind ziemlich einfach: Besuchen Sie die [offizielle Website] (https://vexl.it) und laden Sie dann die mobile App auf Ihr iOS- oder Android-Telefon herunter.
+Die ersten Schritte mit Vexl sind ziemlich einfach: Besuchen Sie die [offizielle Website](https://vexl.it) und laden Sie dann die mobile App auf Ihr iOS- oder Android-Telefon herunter.
 
 
 

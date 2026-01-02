@@ -1,0 +1,9 @@
+question: Welk fundamenteel probleem met conventionele valuta wil Bitcoin volgens de filosofie van Satoshi Nakamoto oplossen?
+answer: Het buitensporige vertrouwen dat vereist is in gecentraliseerde instellingen die dat vertrouwen in het verleden hebben geschonden door devaluatie van de munteenheid
+wrong_answers:
+  - De technische inefficiëntie van traditionele betalingssystemen die transacties te traag verwerken voor wereldwijde handel
+  - De milieu-impact van de productie van fysieke valuta en de koolstofvoetafdruk van de bankinfrastructuur
+  - De geografische beperkingen van nationale munteenheden die naadloze internationale handel verhinderen
+explanation: |
+  Satoshi stelde expliciet dat 'het kernprobleem van conventionele valuta het vertrouwen is dat nodig is om het te laten werken' en merkte op dat 'de geschiedenis van fiatvaluta's vol zit met schendingen van dat vertrouwen'
+  Bitcoin is ontworpen als een vertrouwensloos systeem om de afhankelijkheid van centrale banken, die in het verleden valuta's hebben gedebiteerd, te elimineren. De andere opties, hoewel potentieel geldige zorgen, waren niet de fundamentele filosofische motivatie achter de creatie van Bitcoin zoals verwoord door de maker.

@@ -1,0 +1,8 @@
+question: Welche Syntax wird für den Zugriff auf das erste Feld einer Tupelstruktur in Rust verwendet?
+answer: Punktschreibweise mit Index 0 (z. B. Instanz.0)
+wrong_answers:
+  - Eckige Klammern mit Index 0 (z. B. instance[0])
+  - Pfeilschreibweise mit Index 0 (z. B. Instanz->0)
+  - Doppelter Doppelpunkt mit Index 0 (z. B. instance::0)
+explanation: |
+  Tupelstrukturen in Rust verwenden die Punktnotation, gefolgt vom Feldindex, um auf ihre unbenannten Felder zuzugreifen. Auf das erste Feld wird mit .0 zugegriffen, auf das zweite mit .1 und so weiter. Dies unterscheidet sich von Arrays oder Vektoren, die eckige Klammern verwenden, und von C++, das für Zeiger die Pfeilschreibweise verwendet. Die Doppelpunktsyntax ist für assoziierte Funktionen und Namespacing reserviert, nicht für Feldzugriffe.

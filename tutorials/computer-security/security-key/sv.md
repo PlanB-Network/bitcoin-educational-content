@@ -52,7 +52,7 @@ Du bör också välja nyckel utifrån vilken typ av portar som finns på din dat
 Du kan också jämföra enheter baserat på deras ytterligare funktioner som vatten- och Dust-motstånd samt tangentens form och storlek.
 
 
-När det gäller varumärken för säkerhetsnycklar är Yubico det mest kända med sina [YubiKey-enheter] (https://www.yubico.com/), som jag personligen använder och rekommenderar. Google erbjuder också en enhet med [Titan Security Key] (https://store.google.com/fr/product/titan_security_key). För alternativ med öppen källkod är [SoloKeys](https://solokeys.com/) (ej OTP) och [NitroKey](https://www.nitrokey.com/products/nitrokeys) intressanta alternativ, men jag har aldrig haft möjlighet att testa dem.
+När det gäller varumärken för säkerhetsnycklar är Yubico det mest kända med sina [YubiKey-enheter](https://www.yubico.com/), som jag personligen använder och rekommenderar. Google erbjuder också en enhet med [Titan Security Key](https://store.google.com/fr/product/titan_security_key). För alternativ med öppen källkod är [SoloKeys](https://solokeys.com/) (ej OTP) och [NitroKey](https://www.nitrokey.com/products/nitrokeys) intressanta alternativ, men jag har aldrig haft möjlighet att testa dem.
 
 
 ## Hur använder man en fysisk säkerhetsnyckel?

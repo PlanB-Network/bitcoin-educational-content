@@ -360,9 +360,9 @@ Enten du driver en bedrift, et nystartet prosjekt eller bare eksperimenterer, ti
 
 
 - [Offisielt nettsted for BTCPay Server](https://btcpayserver.org)
-- [Komplett BTCPay Server-dokumentasjon] (https://docs.btcpayserver.org)
-- [GitHub BTCPay Server] (https://github.com/btcpayserver/btcpayserver)
-- [Tailscale-dokumentasjon] (https://tailscale.com/kb)
+- [Komplett BTCPay Server-dokumentasjon](https://docs.btcpayserver.org)
+- [GitHub BTCPay Server](https://github.com/btcpayserver/btcpayserver)
+- [Tailscale-dokumentasjon](https://tailscale.com/kb)
 
 
 ### Fellesskap og støtte
@@ -370,6 +370,6 @@ Enten du driver en bedrift, et nystartet prosjekt eller bare eksperimenterer, ti
 
 
 
-- [Forum BTCPay Server] (https://chat.btcpayserver.org)
+- [Forum BTCPay Server](https://chat.btcpayserver.org)
 - [Forum Umbrel](https://community.getumbrel.com)
-- [Reddit r/BTCPayServer] (https://reddit.com/r/BTCPayServer)
+- [Reddit r/BTCPayServer](https://reddit.com/r/BTCPayServer)

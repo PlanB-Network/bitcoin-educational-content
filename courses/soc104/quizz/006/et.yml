@@ -1,0 +1,11 @@
+question: Millised on Nolani diagrammi poliitilisel diagrammil määratletud viis osa?
+answer: Statism (alt), sotsialism (vasakult), konservatism (paremalt), liberaalsus (ülevalt) ja tsentrism (keskelt)
+wrong_answers:
+  - Autoritaarsus (all), liberalism (vasakul), natsionalism (paremal), anarhism (üleval) ja populism (keskel)
+  - Totalitarism (alt), progressivism (vasakul), traditsionalism (paremal), kapitalism (üleval) ja mõõdukus (keskel)
+  - Fašism (all), kommunism (vasakul), vabariiklus (paremal), demokraatia (üleval) ja pragmatism (keskel)
+explanation: |
+  Nolani skeem jagab poliitilise spektri viide erinevasse ossa, mis põhineb majanduslikul ja isiklikul vabadusel. Statism esindab
+  maksimaalset valitsemiskontrolli, samal ajal kui libertarismi ülemine osa esindab maksimaalset vabadust mõlemas mõõtmes. Sotsialism (vasakul) toetab isiklikku
+  vabadust, kuid on vastu majanduslikule vabadusele, samas kui konservatiivsus (paremal) toetab majanduslikku vabadust, kuid piirab isiklikku vabadust. Tsentrism asub keskel,
+  segades mõlema vabaduse elemente koos mõningase reguleerimisega.

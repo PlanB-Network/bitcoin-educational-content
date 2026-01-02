@@ -1,0 +1,8 @@
+question: Kuna tofauti gani ya msingi kati ya jinsi makro na kazi zinavyosindikwa katika Rust?
+answer: Macro hupanuliwa na mkusanyaji wakati wa kukusanya kabla ya mkusanyiko kuanza, huku chaguo za utendaji zikiitwa wakati wa utekelezaji
+wrong_answers:
+  - Macro hutumia ulinganishaji wa ruwaza kwa ajili ya ukaguzi wa aina huku vitendakazi vikitumia uchanganuzi tuli kwa ajili ya uthibitishaji wakati wa utekelezaji
+  - Msimbo wa mkusanyiko ulioboreshwa wa Macro generate moja kwa moja huku vitendaji vikitafsiriwa na mashine pepe ya Rust
+  - Macro huhifadhiwa kwenye kumbukumbu wakati wa utekelezaji huku vitendakazi vikipakiwa kutoka kwenye diski vinapoitwa
+explanation: |
+  Jibu sahihi linabainisha tofauti muhimu ya muda: makro hufanya kazi wakati wa mkusanyiko kupitia upanuzi wa msimbo, huku vitendaji vikitekelezwa wakati wa utekelezaji wa programu. Majibu yasiyo sahihi huchanganya dhana mbalimbali za programu - Rust haitumii mashine pepe, makro na vitendaji vyote hupitia ukaguzi wa aina (lakini katika hatua tofauti), na hakuna vitendaji wala makro vinavyopakiwa kutoka kwenye diski wakati wa utekelezaji kwa njia iliyoelezwa.

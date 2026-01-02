@@ -2,7 +2,7 @@
 term: BYSANTINSKA GENERALER PROBLEM
 ---
 
-Problemet formulerades först av Leslie Lamport, Robert Shostak och Marshall Pease i facktidskriften *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"] (https://lamport.azurewebsites.net/pubs/byz.pdf) i juli 1982. Det används idag för att illustrera utmaningarna när det gäller beslutsfattande när ett distribuerat system inte kan lita på någon aktör.
+Problemet formulerades först av Leslie Lamport, Robert Shostak och Marshall Pease i facktidskriften *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) i juli 1982. Det används idag för att illustrera utmaningarna när det gäller beslutsfattande när ett distribuerat system inte kan lita på någon aktör.
 
 
 I den här metaforen har en grupp bysantinska generaler och deras respektive arméer slagit läger runt en stad som de vill anfalla eller belägra. Generalerna är geografiskt åtskilda från varandra och måste kommunicera via budbärare för att samordna sin strategi. Om de anfaller eller retirerar spelar ingen roll, så länge alla generaler når konsensus.

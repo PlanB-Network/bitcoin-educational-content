@@ -32,8 +32,8 @@ Prasyarat sebelum memulai tutorial:
 
 
 - Memiliki [akun GitHub](https://github.com/signup);
-- Memiliki fork dari [Plan ₿ Repositori sumber jaringan] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Memiliki [profil guru di Plan ₿ Academy] (https://planb.academy/professors) (hanya jika Anda menawarkan tutorial lengkap).
+- Memiliki fork dari [Plan ₿ Repositori sumber jaringan](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Memiliki [profil guru di Plan ₿ Academy](https://planb.academy/professors) (hanya jika Anda menawarkan tutorial lengkap).
 
 Jika Anda memerlukan bantuan untuk mendapatkan prasyarat ini, tutorial saya yang lain akan membantu:
 
@@ -322,7 +322,7 @@ Subfolder bahasa dalam folder `/assets` (dalam contoh saya: `/assets/en`) diguna
 
 Untuk menamai gambar Anda, cukup gunakan angka yang sesuai dengan urutan kemunculannya dalam tutorial, yang diformat sebagai dua digit (atau tiga digit jika tutorial Anda berisi lebih dari 99 gambar). Contohnya, beri nama gambar pertama Anda `01.webp`, gambar kedua `02.webp`, dan seterusnya.
 
-Gambar Anda harus dalam format `.webp` saja. Jika perlu, Anda dapat menggunakan [perangkat lunak konversi gambar saya] (https://github.com/LoicPandul/ImagesConverter).
+Gambar Anda harus dalam format `.webp` saja. Jika perlu, Anda dapat menggunakan [perangkat lunak konversi gambar saya](https://github.com/LoicPandul/ImagesConverter).
 
 ![GITHUB](assets/fr/32.webp)
 
@@ -355,7 +355,7 @@ Jika Anda ingin membuat skema Anda sendiri, pastikan untuk mengikuti panduan gra
 
 **Sangat penting bahwa semua visual yang diintegrasikan ke dalam tutorial Anda bebas dari hak cipta atau menghormati lisensi file sumber**. Oleh karena itu, semua diagram yang dipublikasikan di Plan ₿ Academy tersedia di bawah lisensi CC-BY-SA, dengan cara yang sama seperti teks.
 
-**-> Tips:** Ketika berbagi file di tempat umum, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, dan detail pembuat. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan operasi ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner] (https://exifcleaner.com/), yang memungkinkan Anda untuk membersihkan metadata dokumen dengan hanya menarik dan melepas.
+**-> Tips:** Ketika berbagi file di tempat umum, seperti gambar, penting untuk menghapus metadata yang tidak perlu. Metadata ini dapat berisi informasi sensitif, seperti data lokasi, tanggal pembuatan, dan detail pembuat. Untuk melindungi privasi Anda, sebaiknya hapus metadata ini. Untuk menyederhanakan operasi ini, Anda dapat menggunakan alat khusus seperti [Exif Cleaner](https://exifcleaner.com/), yang memungkinkan Anda untuk membersihkan metadata dokumen dengan hanya menarik dan melepas.
 
 ## 9 - Mengusulkan tutorial
 

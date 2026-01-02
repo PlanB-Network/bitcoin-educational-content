@@ -295,7 +295,7 @@ Dépensez la pièce présente dans le portefeuille en cochant la case correspond
 
 ![Récupération des pièces](assets/fr/42.webp)
 
-Signez la transaction en cliquant sur « *Sign* » et en valident l'opération sur votre portefeuille matériel.
+Signez la transaction en cliquant sur « *Sign* » et en validant l'opération sur votre portefeuille matériel.
 
 ![Signer transaction clé de récupération](assets/fr/43.webp)
 

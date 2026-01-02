@@ -65,7 +65,7 @@ Olvid is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks downl
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://www.olvid.io/download/).
+Op Android is het ook mogelijk om [te installeren via APK](https://www.olvid.io/download/).
 
 
 

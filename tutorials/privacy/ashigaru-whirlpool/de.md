@@ -324,7 +324,7 @@ Hier sind mehrere mögliche Strategien für die Verwaltung Ihrer Devisen UTXOs v
 
 
 
-- Kaufen Sie Prepaid-Geschenkkarten oder Visa-Karten:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Ihre Bitcoins in Geschenkkarten oder wiederaufladbare Visa-Karten einzutauschen, die in Geschäften verwendet werden können. Dies kann ein einfacher und diskreter Weg sein, um Ihre toxischen UTXOs auszugeben.
+- Kaufen Sie Prepaid-Geschenkkarten oder Visa-Karten:** Plattformen wie [Bitrefill](https://www.bitrefill.com/) ermöglichen es Ihnen, Ihre Bitcoins in Geschenkkarten oder wiederaufladbare Visa-Karten einzutauschen, die in Geschäften verwendet werden können. Dies kann ein einfacher und diskreter Weg sein, um Ihre toxischen UTXOs auszugeben.
 
 
 

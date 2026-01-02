@@ -1,9 +1,9 @@
-question: Koja komanda se može koristiti za instalaciju softvera iz zvaničnih Ubuntu repozitorijuma?
+question: Koja komanda se može koristiti za instalaciju softvera sa zvaničnih Ubuntu repozitorijuma?
 answer: sudo apt install
 wrong_answers:
   - sudo yum install
   - sudo snap create
-  - instaliraj-softver
+  - install-software
 explanation: |
   Komanda "sudo apt install" instalira softverski paket putem APT menadžera paketa, što je izvorna metoda na Ubuntu.
-reviewed: false
+reviewed: true

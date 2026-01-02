@@ -345,7 +345,7 @@ Die Seite zeigt das Ergebnis des Skripts an, sobald es abgeschlossen ist, was be
 
 
 
-Wie zu Beginn dieses Tutorials angekündigt, können Sie mit Pi-Hole auch **Domains blockieren, von denen bekannt ist, dass sie Malware verbreiten. Um diese Funktion zu verstärken, empfehle ich Ihnen, auch die von Abuse.ch** regelmäßig aktualisierte Domainliste hinzuzufügen, die die Sicherheit Ihres Netzwerks erheblich verbessern wird, verfügbar unter [diese Address] (https://urlhaus.abuse.ch/downloads/hostfile/).
+Wie zu Beginn dieses Tutorials angekündigt, können Sie mit Pi-Hole auch **Domains blockieren, von denen bekannt ist, dass sie Malware verbreiten. Um diese Funktion zu verstärken, empfehle ich Ihnen, auch die von Abuse.ch** regelmäßig aktualisierte Domainliste hinzuzufügen, die die Sicherheit Ihres Netzwerks erheblich verbessern wird, verfügbar unter [diese Address](https://urlhaus.abuse.ch/downloads/hostfile/).
 
 
 

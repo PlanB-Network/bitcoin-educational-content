@@ -1,0 +1,8 @@
+question: ¿Cuál es la función principal de las aserciones en el desarrollo de aplicaciones de Bitcoin según las mejores prácticas de Rust?
+answer: Para detectar errores durante las pruebas, provocar el fallo prematuro del programa cuando surjan problemas y servir como documentación ejecutable de las suposiciones del programador
+wrong_answers:
+  - Para gestionar los errores de recursos en tiempo de ejecución, como los fallos de acceso a archivos y los problemas de conectividad de red, de forma ágil
+  - Traducir los errores de biblioteca de bajo nivel en errores de aplicación de alto nivel que los usuarios puedan comprender y sobre los que puedan actuar
+  - Para evitar errores de entrada no válidos restringiendo los parámetros de función para que sólo acepten valores dentro de rangos válidos
+explanation: |
+  Las aserciones cumplen tres funciones críticas en el desarrollo robusto de software de Bitcoin: detectan errores durante la fase de pruebas, garantizan que los programas fallen pronto cuando se violan las suposiciones fundamentales (facilitando la depuración) y actúan como documentación ejecutable que describe las expectativas del programador sobre el estado del programa. Las otras opciones describen diferentes estrategias de gestión de errores -gracious handling of external resource failures, error translation between abstraction layers, and input validation- que son importantes pero distintas del papel específico de las aserciones en la verificación de las suposiciones internas del programa.

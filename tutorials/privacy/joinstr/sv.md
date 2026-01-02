@@ -294,7 +294,7 @@ Använd ett offentligt bokmärke som :
 
 
 - [signetfaucet.com](https://signetfaucet.com)
-- [alt.signetfaucet.com] (https://alt.signetfaucet.com)
+- [alt.signetfaucet.com](https://alt.signetfaucet.com)
 - [bokmärke257.bublina.eu.org](https://signet257.bublina.eu.org)
 
 
@@ -534,7 +534,7 @@ Joinstr genererar för närvarande pooler med **2 till 5 deltagare** i genomsnit
 
 
 
-💡 **För att förstå anonymitetsuppsättningar och deras beräkning i detalj**, se vår fullständiga kurs: [Anonymitetsuppsättningar] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **För att förstå anonymitetsuppsättningar och deras beräkning i detalj**, se vår fullständiga kurs: [Anonymitetsuppsättningar](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 
@@ -650,10 +650,10 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 - [Joinstr officiella webbplats](https://joinstr.xyz)
-- [Användardokumentation] (https://docs.joinstr.xyz/users/using-joinstr)
-- [Teknisk dokumentation] (https://docs.joinstr.xyz/overview/how-does-it-work)
+- [Användardokumentation](https://docs.joinstr.xyz/users/using-joinstr)
+- [Teknisk dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab källkod](https://gitlab.com/invincible-privacy/joinstr)
-- [Android-applikation] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
+- [Android-applikation](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 
@@ -662,7 +662,7 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Electrum plugin-handledning] (https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Komplett guide av Uncensored Tech
+- [Electrum plugin-handledning](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Komplett guide av Uncensored Tech
 
 
 
@@ -671,8 +671,8 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Telegram Joinstr Group] (https://t.me/joinstr) - Gemenskapsstöd och bokmärkeshörn
-- [Teknisk diskussion om DelvingBitcoin] (https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
+- [Telegram Joinstr Group](https://t.me/joinstr) - Gemenskapsstöd och bokmärkeshörn
+- [Teknisk diskussion om DelvingBitcoin](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
 
 
 

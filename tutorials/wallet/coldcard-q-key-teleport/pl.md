@@ -32,7 +32,7 @@ Może to być wykorzystane do transferu:
 
 
 - frazy **gW-0** (mistrz seed ColdCardQ lub sekrety przechowywane w [skarbcu seed] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) w ColdCardQ.
+- **poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) w ColdCardQ.
 - kopia zapasowa całego **ColdCardQ**: ColdCardQ odbierający tę kopię zapasową nie może mieć seed Master, aby to zadziałało.
 - gW-3 (**częściowo podpisane transakcje Bitcoin**) jako część schematu wielopodpisowego.
 

@@ -1,0 +1,9 @@
+question: การผสมผสานของฟังก์ชันแฮชใดที่ใช้เพื่อให้ได้ลายนิ้วมือที่สั้นกว่าใน Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 รวม SHA256 และ RIPEMD160 เพื่อสร้างลายนิ้วมือ 160 บิต generate โดยเฉพาะสำหรับที่อยู่ Bitcoin
+reviewed: false

@@ -101,7 +101,7 @@ Limite: 50 posições simultâneas. Ideal para começar a negociar com alavancag
 
 
 
-Aceda a [lnmarkets.com] (https://lnmarkets.com) e clique em "Open App" (Abrir aplicação).
+Aceda a [lnmarkets.com](https://lnmarkets.com) e clique em "Open App" (Abrir aplicação).
 
 
 
@@ -299,7 +299,7 @@ Saldos em Bitcoin e em USD sintético com histórico de depósitos, levantamento
 
 
 
-O LN Markets oferece um API REST completo (V2 e V3) para automatizar totalmente a sua negociação através de scripts ou bots. Pode criar chaves API com permissões personalizáveis (apenas leitura, negociação, levantamentos) diretamente a partir da interface. Os SDKs oficiais TypeScript e Python estão disponíveis para uma fácil integração. A documentação completa do API V3 está disponível em [api.lnmarkets.com/v3] (https://api.lnmarkets.com/v3).
+O LN Markets oferece um API REST completo (V2 e V3) para automatizar totalmente a sua negociação através de scripts ou bots. Pode criar chaves API com permissões personalizáveis (apenas leitura, negociação, levantamentos) diretamente a partir da interface. Os SDKs oficiais TypeScript e Python estão disponíveis para uma fácil integração. A documentação completa do API V3 está disponível em [api.lnmarkets.com/v3](https://api.lnmarkets.com/v3).
 
 
 

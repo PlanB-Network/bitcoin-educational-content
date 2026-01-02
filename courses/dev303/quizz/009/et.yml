@@ -1,0 +1,8 @@
+question: Mida loob käsk `cargo new project_name` automaatselt projekti struktuuri osana?
+answer: Git-hoidla, Cargo.toml fail ja põhiline main.rs fail koos Hello World programmiga
+wrong_answers:
+  - Ainult Cargo.toml konfiguratsioonifail ja tühi lähtekataloogi struktuur
+  - Täielik testikomplekt, dokumentatsioonifailid ja tootmisvalmis konfiguratsioon
+  - Binaarsed käivitatavad failid, sihtkataloog ja väljalaskekonfiguratsioon
+explanation: |
+  Käsk `cargo new` loob põhjaliku projekti aluse, mis sisaldab Git-repositooriumi versioonikontrolliks, Cargo.toml faili projekti konfiguratsiooni ja sõltuvuste jaoks ning põhifaili main.rs, mis sisaldab programmi "Hello, world!". See annab kõik vajaliku, et alustada kohe arendustegevust. Teised valikud on valed, sest cargo new ei loo testikomplekte, dokumentatsioonifaile, käivitatavaid binaarkoode ega build-artfakte - see loob ainult algse projekti struktuuri.

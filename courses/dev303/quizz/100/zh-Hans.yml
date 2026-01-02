@@ -1,0 +1,8 @@
+question: "LDK 在传统 Lightning 节点无法运行的 WebAssembly 浏览器环境中发挥作用的主要架构优势是什么？"
+answer: "LDK 的无系统调用设计理念使其能够在不直接访问文件系统、网络套接字或熵源的情况下运行"
+wrong_answers:
+  - "LDK 的模块化 Rust 库结构通过本地 Rust 到 WASM 的编译功能自动提供 WebAssembly 兼容性"
+  - "LDK的事件驱动架构无需持久连接，可完全通过HTTP请求-响应周期运行"
+  - "LDK的轻量级区块链集成充分减少了内存使用量，以满足WebAssembly严格的资源约束和限制"
+explanation: |
+  LDK的无系统调用设计是实现浏览器兼容性的关键。传统的 Lightning 节点依赖直接系统调用来实现联网、文件 I/O 和随机性，而 WebAssembly 环境出于安全原因禁止这样做。LDK抽象了这些依赖关系，允许开发人员使用WebSockets实现网络连接，使用浏览器API实现持久性和随机性，同时保持完全符合Lightning协议。

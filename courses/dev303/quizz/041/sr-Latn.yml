@@ -1,0 +1,8 @@
+question: Koja su tri načina na koja zatvaranja mogu da uhvate promenljive iz svoje okoline u Rust?
+answer: Po nepromenljivoj referenci, po promenljivoj referenci, ili preuzimanjem vlasništva
+wrong_answers:
+  - Kopiranjem po vrednosti, pozajmljivanjem po referenci, ili dereferenciranjem pokazivača
+  - Pohranjivanjem na steku, pohranjivanjem na gomili ili statičkim pohranjivanjem
+  - Deljenjem pristupa, ekskluzivnim pristupom ili istovremenim pristupom
+explanation: |
+  Zatvaranja u Rust hvataju promenljive okruženja na tačno tri načina: nepromenljivom referencom (kada im je potrebno samo čitanje), promenljivom referencom (kada im je potrebno menjanje), ili preuzimanjem vlasništva (kada im je potrebno premeštanje vrednosti, često zbog bezbednosti niti). Kompajler automatski bira najrestriktivniji metod koji zadovoljava potrebe zatvaranja, prateći princip najmanje privilegije.

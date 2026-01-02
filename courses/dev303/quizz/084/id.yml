@@ -1,0 +1,8 @@
+question: Apa manfaat arsitektural utama dari pendekatan berlapis UniFFI ketika mengintegrasikan pustaka Rust dengan bahasa target seperti Swift atau Kotlin?
+answer: Lapisan pengikatan menangani penerjemahan jenis dan manajemen memori sambil menyajikan antarmuka yang sepenuhnya asli ke bahasa target
+wrong_answers:
+  - File UDL secara otomatis mengkompilasi kode Rust menjadi kode bytecode yang dapat berjalan secara native di platform seluler tanpa terjemahan
+  - Kode pustaka Rust secara otomatis ditulis ulang dalam sintaks bahasa target untuk menghilangkan panggilan antarmuka fungsi asing
+  - Aplikasi bahasa target secara langsung mengakses struktur memori Rust melalui penunjuk bersama untuk menghindari overhead marshalling data
+explanation: |
+  Arsitektur UniFFI menciptakan pemisahan di mana kode pengikatan yang dihasilkan bertindak sebagai lapisan penerjemahan antara bahasa target dan Rust. Lapisan ini menangani marshaling/unmarshaling tipe data yang kompleks, mengelola memori dengan aman melintasi batas-batas bahasa, dan menyediakan penanganan kesalahan yang mengikuti konvensi bahasa target. Pilihan lain tidak benar karena UniFFI tidak melakukan kompilasi ke bytecode (menghasilkan binding), tidak menulis ulang kode Rust dalam bahasa lain (mempertahankan implementasi Rust yang asli), dan tidak menggunakan akses memori bersama (dengan aman mengumpulkan data melintasi batas-batas bahasa).

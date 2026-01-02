@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada instance struktur asli ketika Anda menggunakan sintaks pembaruan struct dengan tipe non-Copy?
+answer: Bidang yang disalin menjadi tidak dapat digunakan dalam contoh asli karena memindahkan semantik
+wrong_answers:
+  - Instance asli tetap sama sekali tidak berubah dan dapat diakses sepenuhnya
+  - Seluruh instance asli dikloning, sehingga kedua instance berfungsi penuh
+  - Hanya bidang yang Anda ubah secara eksplisit yang menjadi tidak dapat diakses di aslinya
+explanation: |
+  Ketika menggunakan sintaks update struct dengan tipe non-Copy, sistem kepemilikan Rust memindahkan field yang disalin dari instance asli ke instance baru. Ini berarti field-field tertentu menjadi tidak dapat digunakan pada instance asli, meskipun field yang tidak disalin tetap dapat diakses. Kompiler melacak pemindahan parsial ini dengan cerdas, mencegah akses ke field yang dipindahkan sambil tetap mengizinkan penggunaan field yang tidak dipindahkan. Perilaku ini memastikan keamanan memori dengan mencegah beberapa pemilik data yang sama.

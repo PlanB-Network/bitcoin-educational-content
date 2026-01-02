@@ -90,7 +90,7 @@ Klaar om in de wereld van computernetwerken te duiken? Laten we gaan!
 **OPMERKING**: De beschrijvingen zijn gebaseerd op een GNU/Linux CentOS 7 systeem. Netwerkconfiguraties zijn echter grotendeels hetzelfde als je een Debian en een CentOS systeem vergelijkt. We zullen dus geen onderscheid maken. Als er onderscheid wordt gemaakt, geven we dat aan met een specifiek logo.
 
 
-**N.B.**: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst] (https://planb.academy/resources/glossary) voor definities.
+**N.B.**: Als je tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 
 
@@ -1002,7 +1002,7 @@ In moderne netwerken wordt IP-adressering meestal gekoppeld aan andere identifie
 Om IPv4 Address tekorten op te vangen en Address beveiliging toe te voegen, gebruiken netwerken vaak Address vertaling (_NAT_). NAT maakt het mogelijk dat veel privé-apparaten een enkel openbaar IP Address delen bij toegang tot het Internet.
 
 
-**Noot**: Online en ingebouwde OS-hulpprogramma's, zoals de [Grenoble CRIC calculator] (http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), maken het berekenen van subnetten en maskers veel eenvoudiger.
+**Noot**: Online en ingebouwde OS-hulpprogramma's, zoals de [Grenoble CRIC calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), maken het berekenen van subnetten en maskers veel eenvoudiger.
 
 Deze hulpprogramma's helpen om het splitsen van netwerken efficiënt te plannen.
 

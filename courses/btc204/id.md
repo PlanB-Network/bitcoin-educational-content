@@ -317,7 +317,7 @@ Dalam istilah awam, ada tiga tahap utama dalam analisis rantai:
 
 ![BTC204](assets/id/026.webp)
 
-Analisis blockchain dapat dilakukan oleh siapa saja. Yang Anda perlukan hanyalah akses ke informasi publik blockchain melalui sebuah node yang lengkap untuk mengamati pergerakan transaksi dan membuat hipotesis. Ada juga alat gratis yang memfasilitasi analisis ini, seperti [OXT.me] (https://oxt.me/), yang akan kita bahas secara rinci dalam dua bab terakhir bagian ini. Akan tetapi, risiko utama terhadap kerahasiaan berasal dari perusahaan yang berspesialisasi dalam analisis string. Perusahaan-perusahaan ini telah membawa analisis blockchain ke dalam skala industri dan menjual jasa mereka kepada institusi keuangan dan pemerintah. Di antara perusahaan-perusahaan ini, Chainalysis adalah yang paling terkenal.
+Analisis blockchain dapat dilakukan oleh siapa saja. Yang Anda perlukan hanyalah akses ke informasi publik blockchain melalui sebuah node yang lengkap untuk mengamati pergerakan transaksi dan membuat hipotesis. Ada juga alat gratis yang memfasilitasi analisis ini, seperti [OXT.me](https://oxt.me/), yang akan kita bahas secara rinci dalam dua bab terakhir bagian ini. Akan tetapi, risiko utama terhadap kerahasiaan berasal dari perusahaan yang berspesialisasi dalam analisis string. Perusahaan-perusahaan ini telah membawa analisis blockchain ke dalam skala industri dan menjual jasa mereka kepada institusi keuangan dan pemerintah. Di antara perusahaan-perusahaan ini, Chainalysis adalah yang paling terkenal.
 
 ### Tujuan analisis rantai
 
@@ -674,7 +674,7 @@ Sebagai contoh, kita akan dapat mengidentifikasi bahwa pengguna yang dilacak sec
 
 ![BTC204](assets/id/057.webp)
 
-Seperti yang ditunjukkan oleh [@LaurentMT] (https://twitter.com/LaurentMT) dalam [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (podcast berbahasa Prancis), kegunaan sidik jari portofolio dalam analisis rantai meningkat secara signifikan dari waktu ke waktu. Memang, semakin banyaknya jenis skrip dan penyebaran fitur-fitur baru yang semakin progresif oleh perangkat lunak portofolio menonjolkan perbedaannya. Dalam beberapa kasus, bahkan dimungkinkan untuk mengidentifikasi perangkat lunak yang tepat yang digunakan oleh entitas yang dilacak. Oleh karena itu, penting untuk memahami bahwa studi tentang jejak portofolio sangat relevan untuk transaksi-transaksi terkini, daripada transaksi yang dimulai pada awal tahun 2010.
+Seperti yang ditunjukkan oleh [@LaurentMT](https://twitter.com/LaurentMT) dalam [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (podcast berbahasa Prancis), kegunaan sidik jari portofolio dalam analisis rantai meningkat secara signifikan dari waktu ke waktu. Memang, semakin banyaknya jenis skrip dan penyebaran fitur-fitur baru yang semakin progresif oleh perangkat lunak portofolio menonjolkan perbedaannya. Dalam beberapa kasus, bahkan dimungkinkan untuk mengidentifikasi perangkat lunak yang tepat yang digunakan oleh entitas yang dilacak. Oleh karena itu, penting untuk memahami bahwa studi tentang jejak portofolio sangat relevan untuk transaksi-transaksi terkini, daripada transaksi yang dimulai pada awal tahun 2010.
 
 Singkatnya, sebuah footprint dapat berupa praktik tertentu, yang dilakukan secara otomatis oleh wallet atau secara manual oleh pengguna, yang dapat kita temukan pada transaksi lain untuk membantu kita dalam analisis.
 
@@ -730,7 +730,7 @@ Kita tidak terlalu memikirkannya, tetapi perilaku manusia tertentu dapat dikenal
 
 Pertama-tama, analisis temporal terkadang dapat mengidentifikasi sifat entitas yang dilacak. Jika kita mengamati bahwa transaksi-transaksi tersebut disiarkan secara konsisten selama 24 jam, maka hal ini menunjukkan adanya tingkat aktivitas ekonomi yang tinggi. Entitas di balik transaksi ini kemungkinan besar adalah sebuah perusahaan, yang mungkin bersifat internasional dan mungkin memiliki prosedur internal yang terotomatisasi.
 
-Sebagai contoh, [saya mengenali pola ini beberapa bulan yang lalu] (https://twitter.com/Loic_Pandul/status/1701127409712452072) ketika menganalisis [transaksi yang secara keliru mengalokasikan biaya 19 bitcoin] (https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Analisis sementara yang sederhana memungkinkan saya untuk membuat hipotesis bahwa kami berurusan dengan layanan otomatis, dan oleh karena itu mungkin dengan entitas besar seperti platform bursa.
+Sebagai contoh, [saya mengenali pola ini beberapa bulan yang lalu](https://twitter.com/Loic_Pandul/status/1701127409712452072) ketika menganalisis [transaksi yang secara keliru mengalokasikan biaya 19 bitcoin](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Analisis sementara yang sederhana memungkinkan saya untuk membuat hipotesis bahwa kami berurusan dengan layanan otomatis, dan oleh karena itu mungkin dengan entitas besar seperti platform bursa.
 
 Memang, beberapa hari kemudian, ditemukan bahwa dana tersebut adalah milik PayPal, melalui platform pertukaran Paxos.
 
@@ -750,7 +750,7 @@ Sumber : OXT.me
 
 Kisaran ini mungkin sesuai dengan Eropa, Afrika atau Timur Tengah. Oleh karena itu, kami dapat mengasumsikan bahwa pengguna di balik transaksi ini tinggal di wilayah-wilayah tersebut.
 
-Dengan cara yang berbeda, analisis waktu jenis ini juga menghasilkan hipotesis bahwa Satoshi Nakamoto tidak beroperasi dari Jepang, tetapi dari Amerika Serikat: [*Zona Waktu Satoshi Nakamoto*] (https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
+Dengan cara yang berbeda, analisis waktu jenis ini juga menghasilkan hipotesis bahwa Satoshi Nakamoto tidak beroperasi dari Jepang, tetapi dari Amerika Serikat: [*Zona Waktu Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f)
 
 ## Mempraktikkannya dengan penjelajah blok
 
@@ -1031,10 +1031,10 @@ ___
 *Untuk menulis bagian 3 tentang analisis rantai ini, saya menggunakan sumber-sumber berikut:*
 
 
-- Rangkaian empat artikel berjudul: [Memahami Privasi Bitcoin dengan OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), diproduksi oleh Samourai Wallet pada tahun 2021;
+- Rangkaian empat artikel berjudul: [Memahami Privasi Bitcoin dengan OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), diproduksi oleh Samourai Wallet pada tahun 2021;
 - Berbagai laporan dari [OXT Research](https://medium.com/oxt-research), serta alat analisis blockchain gratis mereka (tidak lagi tersedia untuk saat ini setelah penangkapan para pendiri Samourai Wallet);
 - Secara lebih luas, pengetahuan saya berasal dari berbagai tweet dan konten dari [@LaurentMT](https://twitter.com/LaurentMT) dan [@ErgoBTC](https://twitter.com/ErgoBTC);
-- Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) di mana saya berpartisipasi bersama dengan [@louneskmt] (https://twitter.com/louneskmt), [@TheoPantamis] (https://twitter.com/TheoPantamis), [@Sosthene___] (https://twitter.com/Sosthene___) dan [@LaurentMT] (https://twitter.com/LaurentMT).
+- Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) di mana saya berpartisipasi bersama dengan [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) dan [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Saya ingin berterima kasih kepada para penulis, pengembang dan produsernya. Terima kasih juga kepada para korektor yang dengan cermat mengoreksi artikel yang menjadi dasar bagian 3 ini, dan memberi saya saran ahli mereka :*
 
@@ -1415,7 +1415,7 @@ Namun demikian, ada risiko terhadap keamanan pribadi. Bahaya utama terletak pada
 
 ![BTC204](assets/id/089.webp)
 
-Untuk membatasi risiko ini, saya menyarankan Anda untuk lebih memilih transaksi tunai dengan orang yang dipercaya, seperti anggota keluarga atau teman dekat. Sebagai alternatif, Anda juga dapat mempertimbangkan untuk bertransaksi di [pertemuan Bitcoin lokal] (https://btcmap.org/communities/map), setelah menghadiri beberapa kali. Hal ini akan membuat Anda lebih mengenal peserta lain dan tidak merasa sendirian saat melakukan pertukaran secara fisik. Namun, penting untuk diketahui bahwa pertukaran uang P2P secara inheren membawa risiko terhadap keamanan pribadi Anda yang tidak ada saat membeli melalui platform yang teregulasi dan rekening bank Anda.
+Untuk membatasi risiko ini, saya menyarankan Anda untuk lebih memilih transaksi tunai dengan orang yang dipercaya, seperti anggota keluarga atau teman dekat. Sebagai alternatif, Anda juga dapat mempertimbangkan untuk bertransaksi di [pertemuan Bitcoin lokal](https://btcmap.org/communities/map), setelah menghadiri beberapa kali. Hal ini akan membuat Anda lebih mengenal peserta lain dan tidak merasa sendirian saat melakukan pertukaran secara fisik. Namun, penting untuk diketahui bahwa pertukaran uang P2P secara inheren membawa risiko terhadap keamanan pribadi Anda yang tidak ada saat membeli melalui platform yang teregulasi dan rekening bank Anda.
 
 Terlebih lagi, tergantung di mana Anda tinggal, mengangkut dan menyimpan uang dalam jumlah besar bisa jadi berisiko, entah itu bitcoin atau uang tunai.
 
@@ -1449,25 +1449,25 @@ Sekali lagi, kelemahan lain dari pembelian P2P adalah harganya yang sering kali 
 
 ![BTC204](assets/id/095.webp)
 
-Sejauh menyangkut solusi, saya pribadi selalu menggunakan [Bisq] (https://bisq.network/) dan saya sangat senang dengannya. Sistem mereka telah dicoba dan diuji dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia pada PC dan antarmukanya mungkin terlalu rumit untuk pemula. Kekurangan lainnya adalah Bisq hanya beroperasi dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
+Sejauh menyangkut solusi, saya pribadi selalu menggunakan [Bisq](https://bisq.network/) dan saya sangat senang dengannya. Sistem mereka telah dicoba dan diuji dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia pada PC dan antarmukanya mungkin terlalu rumit untuk pemula. Kekurangan lainnya adalah Bisq hanya beroperasi dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
 
 -> Lihat tutorial Bisq kami.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Untuk opsi yang lebih sederhana, Anda bisa mencoba [Peach] (https://peachbitcoin.com/), sebuah aplikasi seluler yang menghubungkan pembeli dan penjual dengan sistem resolusi konflik bawaan. Prosesnya lebih intuitif daripada Bisq.
+Untuk opsi yang lebih sederhana, Anda bisa mencoba [Peach](https://peachbitcoin.com/), sebuah aplikasi seluler yang menghubungkan pembeli dan penjual dengan sistem resolusi konflik bawaan. Prosesnya lebih intuitif daripada Bisq.
 
 -> Lihat tutorial Peach kami.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-Pilihan online lainnya adalah [HodlHodl] (https://hodlhodl.com/), platform mapan yang menawarkan likuiditas yang baik, meskipun saya belum mengujinya secara pribadi.
+Pilihan online lainnya adalah [HodlHodl](https://hodlhodl.com/), platform mapan yang menawarkan likuiditas yang baik, meskipun saya belum mengujinya secara pribadi.
 
 -> Lihat tutorial HodlHodl kami.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-Untuk solusi berbasis Lightning Network, cobalah [RoboSats] (https://learn.robosats.com/) dan [LNP2PBot] (https://lnp2pbot.com/). RoboSats dapat diakses melalui situs web dan relatif mudah digunakan. LNP2PBot lebih tidak lazim, karena bekerja melalui sistem pertukaran pada aplikasi perpesanan Telegram.
+Untuk solusi berbasis Lightning Network, cobalah [RoboSats](https://learn.robosats.com/) dan [LNP2PBot](https://lnp2pbot.com/). RoboSats dapat diakses melalui situs web dan relatif mudah digunakan. LNP2PBot lebih tidak lazim, karena bekerja melalui sistem pertukaran pada aplikasi perpesanan Telegram.
 
 -> Lihat tutorial RoboSats kami.
 
@@ -1481,7 +1481,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 
 ### Platform teregulasi tanpa KYC
 
-Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platform teregulasi yang tidak memerlukan prosedur KYC untuk membeli atau menjual bitcoin. Di Swiss, misalnya, Anda bisa menggunakan platform seperti [Relai] (https://relai.app/) dan [MtPelerin] (https://www.mtpelerin.com/).
+Tergantung pada negara tempat Anda tinggal, Anda mungkin memiliki akses ke platform teregulasi yang tidak memerlukan prosedur KYC untuk membeli atau menjual bitcoin. Di Swiss, misalnya, Anda bisa menggunakan platform seperti [Relai](https://relai.app/) dan [MtPelerin](https://www.mtpelerin.com/).
 
 -> Lihat tutorial kami tentang Relai.
 
@@ -1507,7 +1507,7 @@ Terakhir, saya juga ingin memperkenalkan kepada Anda sebuah solusi yang bekerja 
 
 Cara terbaik untuk membelanjakan BTC tentu saja dengan menggunakan Bitcoin atau Lightning Network secara langsung untuk membeli barang atau jasa. Namun, di banyak negara, jumlah pedagang yang menerima Bitcoin masih terbatas. Alternatif praktisnya adalah dengan menggunakan kartu hadiah.
 
-Beberapa platform yang tidak memerlukan prosedur KYC menawarkan kemungkinan untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di toko-toko besar. Ini termasuk [CoinsBee] (https://www.coinsbee.com/), [The Bitcoin Company] (https://thebitcoincompany.com/) dan [Bitrefill] (https://www.bitrefill.com/). Platform-platform ini memudahkan Anda untuk menggunakan bitcoin setiap hari, memberikan Anda akses ke berbagai macam produk dan layanan tanpa harus menukarkannya dengan mata uang fiat.
+Beberapa platform yang tidak memerlukan prosedur KYC menawarkan kemungkinan untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di toko-toko besar. Ini termasuk [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) dan [Bitrefill](https://www.bitrefill.com/). Platform-platform ini memudahkan Anda untuk menggunakan bitcoin setiap hari, memberikan Anda akses ke berbagai macam produk dan layanan tanpa harus menukarkannya dengan mata uang fiat.
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
@@ -1847,7 +1847,7 @@ Kedua aspek publik dan privat ini, yang dimungkinkan oleh penggunaan tanda tanga
 
 ### Siapa yang menemukan konsep coinjoin?
 
-Sulit untuk mengatakan dengan pasti siapa yang pertama kali memperkenalkan ide coinjoin ke Bitcoin, dan siapa yang memunculkan ide untuk menggunakan tanda tangan buta David Chaum dalam konteks ini. Sering kali dianggap bahwa Gregory Maxwell yang pertama kali menyebutkannya dalam [pesan di BitcoinTalk pada tahun 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+Sulit untuk mengatakan dengan pasti siapa yang pertama kali memperkenalkan ide coinjoin ke Bitcoin, dan siapa yang memunculkan ide untuk menggunakan tanda tangan buta David Chaum dalam konteks ini. Sering kali dianggap bahwa Gregory Maxwell yang pertama kali menyebutkannya dalam [pesan di BitcoinTalk pada tahun 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 > *"Menggunakan tanda tangan buta Chaum: Pengguna masuk dan memberikan input (dan bertukar alamat) serta versi kriptografi yang dibutakan dari alamat yang ingin mereka kirimkan; server menandatangani token dan mengirimkannya kembali. Pengguna terhubung kembali secara anonim, membuka kedok alamat keluaran mereka dan mengirimkannya kembali ke server. Server dapat melihat bahwa semua output telah ditandatangani olehnya dan, akibatnya, semua output berasal dari peserta yang valid. Kemudian, orang-orang terhubung kembali dan masuk"*
 Maxwell, G. (2013, Agustus 22). *CoinJoin: Privasi Bitcoin untuk dunia nyata*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
@@ -1856,13 +1856,13 @@ Maxwell, G. (2013, Agustus 22). *CoinJoin: Privasi Bitcoin untuk dunia nyata*. F
 
 Akan tetapi, ada penyebutan lain yang lebih awal, baik untuk tanda tangan Chaum sebagai bagian dari pencampuran, tetapi juga untuk coinjoin. [Pada bulan Juni 2011, Duncan Townsend mempresentasikan di BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) sebuah mixer yang menggunakan tanda tangan Chaum dengan cara yang sangat mirip dengan coinjoin Chaumian modern.
 
-Dalam thread yang sama, kita dapat menemukan [pesan dari hashcoin sebagai tanggapan terhadap Duncan Townsend] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) untuk meningkatkan mixernya. Proses yang dijelaskan dalam pesan ini adalah persis seperti apa yang dimaksud dengan coinjoin. Penyebutan sistem yang serupa juga dapat ditemukan di [pesan dari Alex Mizrahi pada tahun 2012] (https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), ketika dia menasihati para pencipta Tenebrix, salah satu altcoin pertama yang menjadi dasar pembuatan Litecoin. Bahkan istilah "coinjoin" sendiri dikatakan tidak diciptakan oleh Greg Maxwell, tetapi berasal dari ide Peter Todd.
+Dalam thread yang sama, kita dapat menemukan [pesan dari hashcoin sebagai tanggapan terhadap Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) untuk meningkatkan mixernya. Proses yang dijelaskan dalam pesan ini adalah persis seperti apa yang dimaksud dengan coinjoin. Penyebutan sistem yang serupa juga dapat ditemukan di [pesan dari Alex Mizrahi pada tahun 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), ketika dia menasihati para pencipta Tenebrix, salah satu altcoin pertama yang menjadi dasar pembuatan Litecoin. Bahkan istilah "coinjoin" sendiri dikatakan tidak diciptakan oleh Greg Maxwell, tetapi berasal dari ide Peter Todd.
 
 ![BTC204](assets/id/131.webp)
 
 ### Zerolink
 
-Zerolink adalah sebuah protokol pencampuran yang komprehensif yang menggabungkan coinjoins Chaumian dan berbagai strategi untuk melindungi anonimitas pengguna dari beberapa bentuk analisis rantai, khususnya dengan meminimalisir kesalahan yang berhubungan dengan manajemen portofolio. Protokol ini [diperkenalkan oleh nopara73 dan TDevD pada tahun 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink adalah sebuah protokol pencampuran yang komprehensif yang menggabungkan coinjoins Chaumian dan berbagai strategi untuk melindungi anonimitas pengguna dari beberapa bentuk analisis rantai, khususnya dengan meminimalisir kesalahan yang berhubungan dengan manajemen portofolio. Protokol ini [diperkenalkan oleh nopara73 dan TDevD pada tahun 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/id/132.webp)
 
@@ -1915,7 +1915,7 @@ Salah satu kelemahan utama JoinMarket adalah kerumitan penggunaannya, yang membu
 
 ![BTC204](assets/id/137.webp)
 
-Sumber : [JAM] (https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Sumber : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 Namun, hambatan teknis tetap menjadi kendala utama. Dalam ekosistem coinjoin, di mana kerahasiaan diperkuat oleh jumlah partisipan, batasan apa pun yang mengurangi aksesibilitas secara langsung memengaruhi likuiditas yang tersedia, yang merupakan faktor penting dalam efisiensi campuran. Bitcoin, yang sudah menjadi ceruk dalam transaksi keuangan, melihat penggunaan coinjoin sebagai sub-ceruk, dan JoinMarket mewakili bagian yang lebih khusus lagi, yang oleh karena itu membatasi potensinya untuk meningkatkan anonset penggunanya.
 
@@ -2322,7 +2322,7 @@ Dari jumlah interpretasi sebuah transaksi Bitcoin, kita dapat menghitung entropi
 
 Dalam konteks umum kriptografi dan informasi, entropi adalah ukuran kuantitatif dari ketidakpastian atau ketidakpastian yang terkait dengan sumber data atau proses acak. Dengan kata lain, entropi adalah sebuah cara untuk mengukur seberapa sulitnya sebuah informasi untuk diprediksi atau ditebak.
 
-Dalam konteks khusus analisis blockchain, entropi juga merupakan nama sebuah indikator, yang berasal dari entropi Shannon dan [ditemukan oleh LaurentMT] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), yang dapat dihitung dalam sebuah transaksi Bitcoin.
+Dalam konteks khusus analisis blockchain, entropi juga merupakan nama sebuah indikator, yang berasal dari entropi Shannon dan [ditemukan oleh LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), yang dapat dihitung dalam sebuah transaksi Bitcoin.
 
 Ketika sebuah transaksi menyajikan sejumlah besar kemungkinan interpretasi, sering kali lebih relevan untuk merujuk pada entropinya. Indikator ini mengukur kurangnya pengetahuan para analis mengenai konfigurasi yang tepat dari transaksi. Dengan kata lain, semakin tinggi entropi, semakin sulit bagi para analis untuk mengidentifikasi aliran bitcoin antara input dan output.
 
@@ -2620,7 +2620,7 @@ Namun pada kenyataannya, analisis ini cacat. Jumlah pembayaran tidak sesuai deng
 
 Dalam hal ini, transaksi payjoin masuk ke dalam ranah steganografi. Hal ini memungkinkan jumlah transaksi yang sebenarnya untuk disembunyikan di dalam transaksi palsu yang bertindak sebagai umpan.
 
-Steganografi adalah sebuah teknik untuk menyembunyikan informasi di dalam data atau objek lain, sehingga keberadaan informasi yang disembunyikan tidak terlihat. Sebagai contoh, sebuah pesan rahasia dapat disembunyikan di dalam sebuah titik di dalam teks yang tidak berhubungan, sehingga tidak terdeteksi oleh mata telanjang (ini adalah teknik [microdot] (https://fr.wikipedia.org/wiki/Micropoint)).
+Steganografi adalah sebuah teknik untuk menyembunyikan informasi di dalam data atau objek lain, sehingga keberadaan informasi yang disembunyikan tidak terlihat. Sebagai contoh, sebuah pesan rahasia dapat disembunyikan di dalam sebuah titik di dalam teks yang tidak berhubungan, sehingga tidak terdeteksi oleh mata telanjang (ini adalah teknik [microdot](https://fr.wikipedia.org/wiki/Micropoint)).
 
 Tidak seperti enkripsi, yang membuat informasi tidak dapat dimengerti tanpa kunci dekripsi, steganografi tidak mengubah informasi. Informasi tetap ditampilkan dalam teks yang jelas. Sebaliknya, tujuannya adalah untuk menyembunyikan keberadaan pesan rahasia, sedangkan enkripsi dengan jelas mengungkapkan keberadaan informasi tersembunyi, meskipun tidak dapat diakses tanpa kunci. Inilah sebabnya mengapa nama asli dari payjoin adalah "transaksi steganografi".
 
@@ -3485,7 +3485,7 @@ Saya akan meringkas langkah-langkah yang baru saja kita lihat bersama untuk mela
 
 ### Pemberitahuan transaksi: studi praktis
 
-Untuk memahami cara kerjanya secara lebih detail, dan khususnya penggunaan `OP_RETURN`, mari kita lihat sebuah transaksi notifikasi yang nyata. Saya melakukan transaksi seperti itu di testnet, yang dapat Anda temukan [dengan mengklik di sini] (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Untuk memahami cara kerjanya secara lebih detail, dan khususnya penggunaan `OP_RETURN`, mari kita lihat sebuah transaksi notifikasi yang nyata. Saya melakukan transaksi seperti itu di testnet, yang dapat Anda temukan [dengan mengklik di sini](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 ![BTC204](assets/id/233.webp)
 
@@ -3890,7 +3890,7 @@ BIP47 telah dikritik secara luas karena ketidakefisienan onchain-nya. Seperti ya
 
 Namun, dalam situasi tertentu, transaksi notifikasi dapat menjadi kendala bagi pengguna. Mari kita ambil contoh donasi satu kali kepada penerima: dengan alamat Bitcoin klasik, satu transaksi sudah cukup untuk menyelesaikan donasi. Namun dengan BIP47, diperlukan dua transaksi: satu untuk notifikasi dan satu lagi untuk pembayaran yang sebenarnya. Ketika permintaan untuk ruang blok rendah dan biaya transaksi rendah, langkah ekstra ini biasanya tidak menjadi masalah. Namun, pada saat terjadi kemacetan, biaya transaksi bisa menjadi sangat tinggi untuk satu kali pembayaran, berpotensi menggandakan biaya yang harus dikeluarkan oleh pengguna dibandingkan dengan transaksi Bitcoin standar, yang mungkin tidak dapat diterima oleh pengguna.
 
-Untuk situasi di mana pengguna berencana untuk melakukan hanya beberapa pembayaran ke pengenal statis, solusi lain telah dikembangkan. Ini termasuk Pembayaran Senyap, yang dijelaskan dalam [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Protokol ini memungkinkan untuk menggunakan pengenal statis untuk menerima pembayaran tanpa menghasilkan penggunaan ulang alamat, dan tanpa memerlukan penggunaan transaksi notifikasi. Mari kita lihat bagaimana protokol ini bekerja.
+Untuk situasi di mana pengguna berencana untuk melakukan hanya beberapa pembayaran ke pengenal statis, solusi lain telah dikembangkan. Ini termasuk Pembayaran Senyap, yang dijelaskan dalam [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Protokol ini memungkinkan untuk menggunakan pengenal statis untuk menerima pembayaran tanpa menghasilkan penggunaan ulang alamat, dan tanpa memerlukan penggunaan transaksi notifikasi. Mari kita lihat bagaimana protokol ini bekerja.
 
 ---
 *Untuk memahami bab ini sepenuhnya, sangat penting untuk menguasai cara kerja ECDH (Elliptic Curve Diffie-Hellman) dan derivasi kunci kriptografi pada HD wallet. Konsep-konsep ini telah dibahas secara mendetail pada bab sebelumnya mengenai BIP47. Saya tidak akan mengulanginya di sini. Jika anda belum terbiasa dengan konsep-konsep ini, saya sarankan anda untuk membaca bab sebelumnya sebelum melanjutkan ke bab ini. Saya tidak akan membahas kembali risiko yang terkait dengan penggunaan ulang alamat penerima, atau pentingnya memiliki pengenal unik untuk menerima pembayaran.* Saya hanya akan menyebutkan beberapa poin yang ingin saya sampaikan di sini
@@ -3955,7 +3955,7 @@ $$ P = B + \text{hash}(a \cdot B) \cdot G $$
 
 Dalam persamaan ini, Alice hanya menghitung hasil skalar dari kunci privatnya $a$ dan kunci publik Bob $B$. Dia telah memasukkan hasil ini ke dalam sebuah fungsi hash yang diketahui oleh semua orang. Nilai yang dihasilkan kemudian dikalikan secara skalar dengan titik pembangkit $G$ dari kurva elips `secp256k1`. Terakhir, Alice menambahkan titik yang dihasilkan ke kunci publik $B$ milik Bob. Setelah Alice memiliki alamat $P$ ini, ia menggunakannya sebagai output dalam sebuah transaksi, yaitu mengirimkan bitcoin ke alamat tersebut.
 
-> *Dalam konteks Pembayaran Diam, fungsi "hash" sesuai dengan fungsi hash SHA256 yang secara khusus ditandai dengan `BIP0352/SharedSecret`, yang memastikan bahwa hash yang dihasilkan unik untuk protokol ini dan tidak dapat digunakan kembali dalam konteks lain, sambil menawarkan perlindungan tambahan terhadap penggunaan kembali nonce dalam tanda tangan. Standar ini sesuai dengan standar [yang ditentukan dalam BIP340 untuk tanda tangan Schnorr] (https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) pada `secp256k1`.*
+> *Dalam konteks Pembayaran Diam, fungsi "hash" sesuai dengan fungsi hash SHA256 yang secara khusus ditandai dengan `BIP0352/SharedSecret`, yang memastikan bahwa hash yang dihasilkan unik untuk protokol ini dan tidak dapat digunakan kembali dalam konteks lain, sambil menawarkan perlindungan tambahan terhadap penggunaan kembali nonce dalam tanda tangan. Standar ini sesuai dengan standar [yang ditentukan dalam BIP340 untuk tanda tangan Schnorr](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) pada `secp256k1`.*
 Berkat sifat kurva elips yang menjadi dasar ECDH, kita tahu bahwa :
 
 $$ a \cdot B = b \cdot A $$

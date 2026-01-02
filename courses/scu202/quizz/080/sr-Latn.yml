@@ -6,4 +6,4 @@ wrong_answers:
   - Jaka autentifikacija i decentralizovani serveri
 explanation: |
   Šifrovanje od kraja do kraja osigurava poverljivost razmene, a otvoreni kod omogućava proveru ispravne implementacije ove sigurnosti.
-reviewed: false
+reviewed: true

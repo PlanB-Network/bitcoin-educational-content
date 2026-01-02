@@ -6,7 +6,7 @@ description: Bli med skaperne som forsvarer ytringsfriheten gjennom økonomisk f
 ![cover](assets/cover.webp)
 
 
-Du kjenner sikkert til [Rumble] (https://rumble.com/), den nettbaserte videoplattformen som ble grunnlagt i 2013, og som gradvis har etablert seg som et uavhengig alternativ til Big Tech. Rumble er kjent for sitt engasjement for ytringsfrihet og sitt mål om å tilby skaperne et rom fritt for sensur og avhengighet av store sentraliserte infrastrukturer, og har bygget opp et komplett økosystem. I dag tar Rumble et nytt skritt inn i den finansielle sfæren med lanseringen av [**Rumble Wallet**] (https://wallet.rumble.com/), en wallet-applikasjon utviklet i samarbeid med Tether.
+Du kjenner sikkert til [Rumble](https://rumble.com/), den nettbaserte videoplattformen som ble grunnlagt i 2013, og som gradvis har etablert seg som et uavhengig alternativ til Big Tech. Rumble er kjent for sitt engasjement for ytringsfrihet og sitt mål om å tilby skaperne et rom fritt for sensur og avhengighet av store sentraliserte infrastrukturer, og har bygget opp et komplett økosystem. I dag tar Rumble et nytt skritt inn i den finansielle sfæren med lanseringen av [**Rumble Wallet**](https://wallet.rumble.com/), en wallet-applikasjon utviklet i samarbeid med Tether.
 
 
 Ambisjonen er klar: å kombinere ytringsfrihet med økonomisk frihet. Samtidig som Rumble fremmer usensurert innholdsdistribusjon på nettet, har Rumble Wallet som mål å gi skapere og brukere et raskt, suverent og ikke-frihetsberøvende betalingssystem. I praksis betyr dette at du beholder full kontroll over dine private nøkler - og dermed pengene dine - uten å være avhengig av en bank, betalingsbehandler eller tredjepartsplattform: færre risikoer, lavere gebyrer og ingen forsinkelser ved uttak.
@@ -27,7 +27,7 @@ Takket være et samarbeid med MoonPay er det også mulig å kjøpe og selge Bitc
 ## 2. Hvordan installere Rumble Wallet?
 
 
-Applikasjonen kan installeres på både [Android] (https://play.google.com/store/apps/details?id=com.wallet.rumble) og iOS gjennom deres respektive offisielle butikker.
+Applikasjonen kan installeres på både [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) og iOS gjennom deres respektive offisielle butikker.
 
 
 ![Image](assets/fr/01.webp)
@@ -285,7 +285,7 @@ På samme måte kan du selge bitcoinsene dine for euro, dollar eller en hvilken 
 ## 7. Tipper en skaper på Rumble
 
 
-Som nevnt i innledningen er Rumble Wallet perfekt integrert med [Rumble-videoplattformen] (https://rumble.com/). Dette gjør at du enkelt kan sende tips i Bitcoin eller USDT til favorittskaperne dine uten å gå gjennom noen mellomledd.
+Som nevnt i innledningen er Rumble Wallet perfekt integrert med [Rumble-videoplattformen](https://rumble.com/). Dette gjør at du enkelt kan sende tips i Bitcoin eller USDT til favorittskaperne dine uten å gå gjennom noen mellomledd.
 
 
 For å gjøre dette må du aktivere funksjonen ***Tip Jars***. Fra hjemmesiden til Rumble Wallet klikker du på knappen "*Activate Tip Jars*".

@@ -64,7 +64,7 @@ Threema on saatavilla kaikilla alustoilla. Voit ladata sovelluksen suoraan puhel
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
 - [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
 - [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 

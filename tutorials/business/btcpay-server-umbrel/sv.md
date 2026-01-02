@@ -359,10 +359,10 @@ Oavsett om du driver ett företag, ett nystartat projekt eller bara experimenter
 
 
 
-- [Officiell webbplats för BTCPay Server] (https://btcpayserver.org)
-- [Komplett dokumentation för BTCPay Server] (https://docs.btcpayserver.org)
-- [GitHub BTCPay Server] (https://github.com/btcpayserver/btcpayserver)
-- [Tailscale-dokumentation] (https://tailscale.com/kb)
+- [Officiell webbplats för BTCPay Server](https://btcpayserver.org)
+- [Komplett dokumentation för BTCPay Server](https://docs.btcpayserver.org)
+- [GitHub BTCPay Server](https://github.com/btcpayserver/btcpayserver)
+- [Tailscale-dokumentation](https://tailscale.com/kb)
 
 
 ### Gemenskap och stöd
@@ -372,4 +372,4 @@ Oavsett om du driver ett företag, ett nystartat projekt eller bara experimenter
 
 - [Forum BTCPay Server](https://chat.btcpayserver.org)
 - [Forum Umbrel](https://community.getumbrel.com)
-- [Reddit r/BTCPayServer] (https://reddit.com/r/BTCPayServer)
+- [Reddit r/BTCPayServer](https://reddit.com/r/BTCPayServer)

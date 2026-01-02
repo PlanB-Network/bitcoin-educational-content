@@ -42,15 +42,15 @@ Untuk menyimpan frasa pemulihan Anda, Anda harus menuliskannya pada media fisik,
 
 Meskipun menuliskan frasa Anda pada selembar kertas sederhana sudah merupakan praktik yang baik, namun memilih tempat penyimpanan dari logam, seperti baja tahan karat, menawarkan keamanan tambahan. Jenis tempat ini melindungi frasa mnemonik Anda dari risiko kebakaran, banjir atau keruntuhan yang dapat memengaruhi lokasi penyimpanan.
 
-Bagi mereka yang mencari opsi ekonomis untuk mencadangkan frasa mereka pada logam, [metode DIY "*SAFU Ninja*"] (https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) adalah solusi yang sangat baik. Yang perlu Anda lakukan hanyalah membeli mesin cuci logam, sekrup dan mur di toko-toko. Kemudian Anda mengukir kata-kata dari kalimat Anda pada setiap mesin cuci, pastikan untuk menomori mereka, dan memasangnya pada sekrup dengan mur. Metode berbiaya rendah ini sudah menawarkan ketahanan yang baik.
+Bagi mereka yang mencari opsi ekonomis untuk mencadangkan frasa mereka pada logam, [metode DIY "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) adalah solusi yang sangat baik. Yang perlu Anda lakukan hanyalah membeli mesin cuci logam, sekrup dan mur di toko-toko. Kemudian Anda mengukir kata-kata dari kalimat Anda pada setiap mesin cuci, pastikan untuk menomori mereka, dan memasangnya pada sekrup dengan mur. Metode berbiaya rendah ini sudah menawarkan ketahanan yang baik.
 
 ![SEED](assets/fr/01.webp)
 
 Kredit gambar: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-Jika Anda lebih suka berinvestasi dalam perangkat cadangan logam yang lengkap, saya sarankan Anda melihat [tes ketahanan Jameson Lopp] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), yang mengevaluasi sebagian besar solusi yang tersedia di pasar. Saya sarankan Anda untuk memilih braket satu bagian, seperti pelat logam untuk mengukir, mencap atau melubangi. Perangkat ini umumnya menawarkan ketahanan yang jauh lebih besar daripada sistem yang menggunakan huruf terpisah untuk dirakit.
+Jika Anda lebih suka berinvestasi dalam perangkat cadangan logam yang lengkap, saya sarankan Anda melihat [tes ketahanan Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), yang mengevaluasi sebagian besar solusi yang tersedia di pasar. Saya sarankan Anda untuk memilih braket satu bagian, seperti pelat logam untuk mengukir, mencap atau melubangi. Perangkat ini umumnya menawarkan ketahanan yang jauh lebih besar daripada sistem yang menggunakan huruf terpisah untuk dirakit.
 
-Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

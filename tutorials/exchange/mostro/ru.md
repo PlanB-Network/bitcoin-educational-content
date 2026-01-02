@@ -950,9 +950,9 @@ Mostro P2P представляет собой многообещающую ал
 
 
 
-- [Официальный сайт Мостро] (https://mostro.network)
+- [Официальный сайт Мостро](https://mostro.network)
 - [Техническая документация](https://mostro.network/docs-english/index.html)
-- [Фонд Мостро] (https://mostro.foundation)
+- [Фонд Мостро](https://mostro.foundation)
 
 
 
@@ -963,7 +963,7 @@ Mostro P2P представляет собой многообещающую ал
 
 - [Основной репозиторий GitHub](https://github.com/MostroP2P/mostro)
 - [Веб-клиент](https://github.com/MostroP2P/mostro-web)
-- [Клиент CLI] (https://github.com/MostroP2P/mostro-cli)
+- [Клиент CLI](https://github.com/MostroP2P/mostro-cli)
 
 
 

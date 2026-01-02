@@ -1,0 +1,8 @@
+question: Mikä on tärkein etu, kun käytät `cargo check`-komentoa kehityksen aikana?
+answer: Se suorittaa käännöksen tarkistukset nopeammin kuin täysi build ilman suoritettavien tiedostojen tuottamista
+wrong_answers:
+  - Se korjaa automaattisesti käännösvirheet ja koodityyliin liittyvät ongelmat projektissasi
+  - Se lataa ja päivittää kaikki projektin riippuvuudet uusimpiin versioihinsa
+  - Se suorittaa ohjelmasi virheenkorjaustietojen ja yksityiskohtaisen virheilmoituksen kera
+explanation: |
+  Komento `cargo check` on suunniteltu nopeaan kehitystyön iterointiin suorittamalla kaikki samat käännöksen tarkistukset kuin komento `cargo build`, mutta ohittamalla viimeisen suoritettavan tiedoston luomisvaiheen. Tämä tekee siitä huomattavasti nopeamman kuin täydellisestä buildista, kun sinun tarvitsee vain varmistaa, että koodisi kääntyy oikein. Väärät vastaukset kuvaavat muiden työkalujen toimintoja: Clippy ja muut linterit voivat ehdottaa korjauksia, mutta eivät sovella niitä automaattisesti, `cargo update` käsittelee riippuvuuspäivityksiä ja `cargo run` suorittaa ohjelmia, joilla on virheenkorjausominaisuudet.

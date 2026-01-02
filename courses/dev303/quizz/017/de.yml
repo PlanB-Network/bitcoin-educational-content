@@ -1,0 +1,8 @@
+question: Aus welchen drei Komponenten besteht die Struktur eines Strings im Speicherlayout von Rust?
+answer: Ein Zeiger auf Heap-Daten, die aktuelle Länge und die Gesamtkapazität
+wrong_answers:
+  - Ein Zeiger auf Stack-Daten, die aktuelle Größe und die maximale Länge
+  - Eine Speicheradresse, die Anzahl der Zeichen und die Zuweisungsart
+  - Eine Datenreferenz, die Bytegröße und der Eigentumsstatus
+explanation: |
+  Ein String in Rust besteht aus genau drei Komponenten, die auf dem Stack gespeichert werden: einem Zeiger auf die auf dem Heap zugewiesenen Zeichendaten, der aktuellen Länge des String-Inhalts und der Gesamtkapazität des zugewiesenen Puffers. Mit dieser Struktur können Zeichenketten effizient wachsen und schrumpfen, ohne dass ihre Grenzen bekannt sind. Die anderen Optionen sind nicht korrekt, da sie entweder auf falsche Speicherorte verweisen (Stack statt Heap), eine ungenaue Terminologie verwenden (Größe vs. Länge, Zeichenzahl vs. Bytelänge) oder nicht existierende Komponenten wie Zuweisungstyp oder Eigentümerstatus enthalten.

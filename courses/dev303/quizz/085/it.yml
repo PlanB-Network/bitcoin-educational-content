@@ -1,0 +1,8 @@
+question: Quando si definiscono interfacce di callback in UniFFI, quali limiti aggiuntivi del tratto Rust sono tipicamente richiesti sul tratto di callback per garantire un'invocazione sicura tra le lingue?
+answer: I limiti di Send e Sync sono necessari perché le callback possono attraversare i confini dei thread tra Rust e i linguaggi di destinazione
+wrong_answers:
+  - I limiti Clone e Copy sono necessari per consentire la duplicazione dei dati di callback attraverso i confini delil linguaggio
+  - I limiti di debug e di visualizzazione sono necessari per consentire una corretta segnalazione degli errori quando le callback falliscono durante l'esecuzione
+  - I limiti di Serialize e Deserialize sono necessari per il marshalling dei parametri di callback tra runtime di linguaggi diversi
+explanation: |
+  Le interfacce di callback in UniFFI richiedono i limiti Send e Sync perché consentono una comunicazione bidirezionale in cui il codice Rust richiama il codice dell'applicazione scritto nei linguaggi di destinazione. Poiché queste callback possono attraversare i confini dei thread durante l'esecuzione, il sistema di tipi di Rust richiede i limiti Send (sicuri per il trasferimento tra thread) e Sync (sicuri per la condivisione di riferimenti tra thread) per garantire la sicurezza della memoria. Le altre opzioni non sono corrette: Clone/Copy non sono necessari per le chiamate cross-lingua, Debug/Display servono per la formattazione e non per la sicurezza e Serialize/Deserialize sono gestiti automaticamente dal sistema di marshaling di UniFFI.

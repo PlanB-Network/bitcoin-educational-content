@@ -167,11 +167,87 @@ Cette entête du bloc candidat construit par le mineur constitut sa base de trav
 
 ## Le hachage, la cible et le nonce
 
+Dans le chapitre précédent, vous avez suivi le chemin d’une transaction Bitcoin : créée et signée par un portefeuille, relayée par les nœuds, stockée dans les mempools, puis confirmée lorsqu’un mineur l’inclut dans un bloc accepté par le réseau. Mais nous n'avons pas encore vu comment un mineur peut ajouter son bloc à la blockchain. Autrement dit, quel est le processus concret derrière le minage ?
 
-- fonctionnement rapide d'une fonction de hachage + laquelle on utilise + lien CYP 201
-- recherche preuve de travail + c'est quoi la cible (sans détailler ajustement) ?
-- modification du nonce (plus expliquer rapidement extra nonce)
-- histoire de la preuve de travail : HashCash + BitGold + RPOW
+Comprendre le processus du minage, c'est assez simple. Cela tient en 3 notions qui vont ensemble : une fonction de hachage, une valeur cible et une variable que le mineur peut modifier. Voyons ensemble comment tout cela fonctionne.
+
+### La fonction de hachage
+
+Une fonction de hachage est un outil qui prend un message en entrée et produit une sortie de taille fixe, qu'on appelle "empreinte" ou "hash". La fonction de hachage est intéressante dans des systèmes informatiques, car elle dispose de certaines propriétés :
+* Si vous changez un seul bit de l’entrée, l’empreinte obtenue en sortie change totalement et de manière imprévisible ;
+* Il est impossible de remonter de la sortie vers l’entrée : la fonction est irréversible ;
+* Il est impossible de trouver deux messages différents qui donnent exactement la même empreinte.
+
+La fonction de hachage utilisée dans Bitcoin pour le minage est `SHA256`, appliquée deux fois de suite. On parle de double SHA256, noté `SHA256d`. C’est cette double application qui produit l’empreinte du bloc.
+
+```text
+hash = SHA256(SHA256(message))
+```
+
+Dans notre cas, le `message` correspond en fait à l’entête du bloc, que vous avez vu au chapitre précédent. Pour rappel, l’entête est une petite structure qui résume tout ce qu'il y a dans le bloc.
+
+### La preuve de travail : trouver une empreinte inférieure à une cible
+
+La Proof-of-Work est souvent décrite comme le fait de "résoudre un problème complexe". En réalité, il ne s’agit pas vraiment d'un problème, mais plutôt d’une recherche par tâtonnement : le mineur doit trouver une version de l’entête dont l’empreinte (après passage dans la fonction `SHA256d`) respecte une condition simple : qu'elle soit inférieure à une certaines cible.
+
+Cette condition se formule ainsi :
+* on calcule l’empreinte de l’entête du bloc à l'aide de la fonction de hachage ;
+* on interprète cette empreinte comme un nombre ;
+* pour que le bloc soit valide, ce nombre doit être inférieur ou égal à une valeur appelée "cible de difficulté" ou "facteur de difficulté".
+
+Autrement dit, un bloc est valide si :
+
+```text
+SHA256d(block_header) <= target
+```
+
+La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitre comment cette cible est déterminée.
+
+Dans ce système, la fonction de hachage est intéressante. Rappelez-vous qu’il est facile de calculer la sortie à partir de l’entrée, mais qu’il est impossible de retrouver une entrée en ne connaissant que la sortie. Dans le cadre du minage, on ne demande pas aux mineurs de trouver une empreinte précise, mais plutôt de trouver une empreinte inférieure à une valeur cible. Le seul moyen d’y parvenir consiste à effectuer un très grand nombre de tentatives, jusqu’à ce qu’une entête particulière de leur bloc candidat, une fois hachée, produise une empreinte inférieure à cette cible.
+
+À partir du moment où la cible est suffisamment basse, ce processus devient coûteux. Le mineur calcule le hash de l’entête de son bloc candidat, vérifie le résultat, puis, si la condition n’est pas remplie, modifie l’entête et recommence le calcul. Cette boucle se répète jusqu’à ce qu’une entête valide soit trouvée. Lorsque le hash de l’entête satisfait enfin la condition, la preuve de travail est établie, le bloc est considéré comme valide et peut être diffusé sur le réseau Bitcoin afin que les nœuds l’ajoutent à leur blockchain. Le mineur gagnant reçoit alors la récompense associée (nous détaillerons sa composition plus tard), tandis que l’ensemble des mineurs repart immédiatement à la recherche d’une nouvelle entête valide pour le bloc suivant.
+
+L’intérêt fondamental de ce mécanisme réside dans son asymétrie. Produire une preuve de travail est coûteux pour les mineurs, car cela nécessite un grand nombre de calculs de hachage. En revanche, pour les vérificateurs, c’est-à-dire les nœuds du réseau, la vérification est extrêmement simple : il suffit de hacher l’entête du bloc et de vérifier que l’empreinte obtenue est bien inférieure à la cible. Trouver une preuve demande donc beaucoup de travail et de ressources, tandis que vérifier sa validité est rapide et peu coûteux. C’est précisément cette propriété qui définit un système de preuve de travail efficace.
+
+### Le nonce
+
+Reste une question pratique : si l'entête du bloc candidat construit par le mineur ne donne pas une empreinte valide, comment le mineur peut-il réessayer ? Il lui faut modifier quelque chose dans l’entête afin d’obtenir une empreinte différente. C’est précisément le rôle du nonce.
+
+Rappelez-vous la première propriété d’une fonction de hachage : modifier un seul bit de l’entrée suffit à produire une empreinte de sortie totalement différente et imprévisible. Chaque calcul de hash s’apparente donc à un tirage aléatoire. Pour tenter à nouveau sa chance, le mineur n’a pas besoin de modifier entièrement l’entête de son bloc candidat : il lui suffit d’en changer une infime partie, car le moindre bit différent entraînera une empreinte complètement nouvelle, et potentiellement valide si elle est inférieure à la cible.
+
+C’est précisément pour cette raison que l’entête de bloc contient un nonce. Le nonce est une valeur de 32 bits, utilisée une seule fois, puis remplacée. Concrètement, pour un même bloc candidat, un mineur peut ainsi tester environ 4,29 milliards de valeurs possibles (de `0` à `2^32 - 1`). Chaque variation du nonce modifie l’entête du bloc et, par conséquent, change intégralement l’empreinte produite après l’application de la fonction de hachage `SHA256d`.
+
+Le processus de minage est donc très simple :
+- le mineur construit un bloc candidat (transactions + entête) ;
+- il calcule l'empreinte `SHA256d(header)` ;
+- si le résultat est supérieur à la cible, il change le nonce ;
+- il recommence ;
+- etc.
+
+En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "extra-nonce", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
+
+### Quel est l'intérêt de cette preuve de travail ?
+
+On parle de "preuve" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son en-tête est bien inférieure à la cible exigée. On parle de "travail" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
+
+Dans le White Paper de Bitcoin, Satoshi Nakamoto met en avant deux intêrets à l'utilisation d'un système de preuve de travail dans Bitcoin :
+
+- **Sceller l’historique économique :**
+
+Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliquerait de refaire la preuve de travail de ce bloc. Et comme les blocs sont enchaînés les uns avec les autres, altérer un bloc ancien obligerait aussi à recalculer tous les blocs suivants, puis à rattraper et dépasser le travail continu de la chaîne honnête. Autrement dit, la preuve de travail sert d’armature à un horodatage cumulatif qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la Proof-of-Work.
+
+- **Définir la règle de majorité (consensus) et neutraliser les Sybil :**
+
+La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "un identifiant = une voix", facilement truqué par la création massive d’identités (IP, nœuds, clés...). Dans Bitcoin, la "majorité" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail** : comme l’écrit Satoshi, c’est un principe "une CPU = une voix", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
+
+Les principes liés à l’utilité et aux pouvoirs des mineurs constituent un sujet très complexe que je ne détaillerai pas davantage dans cette formation. Nous y reviendrons cependant de manière approfondie dans la formation MIN 201.
+
+
+
+
+
+
+
 
 
 ## L'ajustement de la cible de difficulté

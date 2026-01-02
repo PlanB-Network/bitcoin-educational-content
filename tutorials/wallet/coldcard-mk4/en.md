@@ -74,6 +74,9 @@ To create a new wallet, simply do the following steps.
 ![08](assets/en/08.webp)
 
 2. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
+
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 3. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 2 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
 
 ![09](assets/en/09.webp)
@@ -86,9 +89,7 @@ To create a new wallet, simply do the following steps.
 
 ### Creating a new wallet with dice roll
 
-Alternatively, you can also choose to generate the new seedphrase with entropy. Do it if you do not trust Mk4's freshly generated seedphrase. If you need help on how to do it, you can look at the Plan ₿ Network tutorial on the same topic:
-
-https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+Alternatively, you can also choose to generate the new seedphrase with entropy. Do it if you do not trust Mk4's freshly generated seedphrase.
 
 The procedure on the Coldcard Mk4 is the following:
 

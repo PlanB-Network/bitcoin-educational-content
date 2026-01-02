@@ -41,7 +41,7 @@ Le Moyen Âge est souvent perçu comme une période obscure, mais nous découvri
 Cette section portera sur l’émergence de la tolérance religieuse et de la liberté économique, qui prendront leur essor lors de la Renaissance et des Lumières. Nous analyserons aussi l’importance de l’année 1776, qui marque un tournant majeur avec des événements clés pour le monde libre, avant de plonger dans l’ère des révolutions qui redéfiniront la notion même de liberté.
 
 **Section 5 : Apogée et déclin : du XIXᵉ au XXᵉ siècle**  
-Nous poursuivrons par l’étude des bouleversements des XIXᵉ et XXᵉ siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La Route de la servitude".
+Nous poursuivrons par l’étude des bouleversements des XIXᵉ et XXᵉ siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La route de la servitude".
 
 **Section 6 : L’essor de l’État-providence au XXᵉ siècle**  
 Enfin, cette section examinera comment l’État-providence a progressivement pris le pas sur les idées de liberté économique, en analysant notamment le triomphe de Keynes et l’abandon de l’étalon-or. Nous conclurons sur l’importance des idées pour influer sur le cours de l’histoire et la place que la liberté occupe encore dans nos sociétés modernes.
@@ -140,7 +140,7 @@ Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir, c’est l
 >
 > ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
-C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle ». D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
+C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
 
 L’histoire est donc une lutte entre deux principes : la liberté et l’oppression :
 
@@ -343,7 +343,7 @@ En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
 
-Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’Anatomie de l’État_, aux éditions Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : *L’histoire, course entre pouvoir étatique et pouvoir social*. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
+Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’Anatomie de l’État_, aux éditions Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
 
 ![image](assets/fr/017.webp)
 
@@ -870,7 +870,7 @@ L'incarnation la plus connue de cette doctrine émergente est l'école de Salama
 
 La découverte des Amériques va constituer un véritable choc culturel, une première brèche dans l’unanimisme politico-religieux hérité de l’Antiquité. La fameuse querelle du droit des Indiens va en effet diviser les théologiens en deux camps opposés et irréconciliables.
 
-Dans un premier camp, il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 1° ils sont de grands pécheurs (cannibalisme) ; 2° ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
+Dans un premier camp, il y a les tenants du monolithisme culturel et du principe de coercition. Pour eux, les Indiens ont vécu en dehors du message biblique. Cela peut signifier que Dieu n’a pas voulu se révéler à eux. Pourquoi ? Deux hypothèses sont alors envisageables : 1° Ils sont de grands pécheurs (cannibalisme) ; 2° Ils sont arriérés et plus proches de la bête que de l’homme. C’est pourquoi on a le droit alors de les traiter comme des esclaves et de leur prendre leurs terres par la force, au motif qu’ils sont à la fois infidèles et barbares.
 
 Dans l’autre camp, il y a les tenants du pluralisme et des libertés civiles : ce sont les théologiens de l’école de Salamanque, disciples de S. Thomas. Selon Francisco de Vitoria et Bartolomeo de Las Casas, des droits doivent être reconnus aux Indiens en tant qu'êtres humains, et non du fait qu'ils ont adhéré ou non à la foi catholique. Non seulement on ne doit pas les convertir par la force, mais on ne doit pas non plus prendre leurs biens ou les soumettre à une quelconque forme d’esclavage. Leur argumentation s’appuie sur la conception thomiste de la loi naturelle, distincte de la loi divine.
 
@@ -1047,7 +1047,7 @@ Cette formule est apparue lorsque Jean-Baptiste Colbert, principal conseiller de
 
 ![image](assets/fr/054.webp)
 
-La formule fut reprise par les Physiocrates, François Quesnay, le marquis d’Argenson, puis par Vincent de Gournay : « Laissez-faire, laissez-passer ». C’est devenu leur devise.
+La formule fut reprise par les Physiocrates, François Quesnay, le marquis d’Argenson, puis par Vincent de Gournay : « Laissez-faire, laissez passer ». C’est devenu leur devise.
 
 En référence au droit naturel (le terme vient de _phusis_, la nature, et de _cratos_, le pouvoir ou la règle), les Physiocrates estiment qu’il existe des lois économiques, qui ne dépendent pas du pouvoir politique ou religieux mais de la nature même de l’homme et des sociétés. L’ordre économique est l’ordre naturel des sociétés. Le pouvoir politique doit s’y soumettre.
 
@@ -1168,7 +1168,7 @@ Au cours des années qui suivent, les Français La Fayette, Rochambeau, l'amiral
 
 ![image](assets/fr/061.webp)
 
-141 ans plus tard, le 4 juillet 1917, en pleine Première Guerre mondiale, une cérémonie est organisée pour les premiers soldats de l’AEF arrivés à Paris au cimetière de Picpus sur la tombe de La Fayette, le « héros des deux mondes ». À cette occasion, le capitaine Charles E. Stanton de l’état-major du général Pershing prononce un discours resté célèbre :
+141 ans plus tard, le 4 juillet 1917, en pleine Guerre mondiale, une cérémonie est organisée pour les premiers soldats de l’AEF arrivés à Paris au cimetière de Picpus sur la tombe de La Fayette, le « héros des deux mondes ». À cette occasion, le capitaine Charles E. Stanton de l’état-major du général Pershing prononce un discours resté célèbre :
 
 > Je regrette de ne pas pouvoir m’adresser à la population française dans la belle langue de son loyal pays. Le fait ne peut pas être oublié que votre nation était notre amie quand l’Amérique s’est battue pour son existence, quand une poignée d’hommes courageux et patriotes ont été déterminés à défendre les droits de leur Créateur leur avait donné -- que la France en la personne de Lafayette est venue à notre aide en paroles et en actes. Ce serait de l’ingratitude de ne pas se souvenir de cela et l'Amérique ne fera pas défaut à ses obligations...
 >
@@ -1176,7 +1176,7 @@ Au cours des années qui suivent, les Français La Fayette, Rochambeau, l'amiral
 >
 > Lafayette nous sommes là !
 
-En 1789, c’est encore La Fayette, avec Jefferson, qui vont jeter les premières bases de la Déclaration des Droits de l’homme de 1789.
+En 1789, c’est encore La Fayette, avec Jefferson, qui vont jeter les premières bases de la Déclaration des droits de l’homme de 1789.
 
 ### La Richesse des Nations
 

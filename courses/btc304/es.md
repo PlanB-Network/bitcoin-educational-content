@@ -1,236 +1,139 @@
 ---
 name: Crear una comunidad Bitcoin
-goal: Crea y organiza fácilmente una comunidad de Bitcoin en tu área local
+goal: Crea y organiza fácilmente una comunidad Bitcoin en tu área local
 objectives:
 - Crear una comunidad o un encuentro Bitcoin
-- Cree una identidad visual y digital para su comunidad
-- Establezca objetivos anuales para su comunidad
-- Ponga en marcha proyectos e iniciativas con su comunidad
+- Crea una identidad visual y digital para tu comunidad
+- Establece objetivos anuales para tu comunidad
+- Pon en marcha proyectos e iniciativas con tu comunidad
 - Comprender la importancia de anticipar la evolución futura de una comunidad
 ---
 # El primer paso hacia la adopción de Bitcoin
 
 Hoy en día, cualquiera puede aprender sobre Bitcoin en línea, pero lo que a menudo falta es la oportunidad de reunirse, intercambiar ideas y construir juntos. Para llenar este vacío, muchos bitcoiners forman comunidades locales, donde los encuentros generan talleres, presentaciones y discusiones significativas.
 
-En BTC304, veremos por qué es importante la construcción de comunidades, exploraremos herramientas para crear una identidad visual y digital sólida, y compartiremos proyectos simples de código abierto que puedes lanzar. También consideraremos cómo las iniciativas locales escalan hacia comunidades nacionales que pueden ayudar a impulsar un futuro hiperbitcoinizado.
+En BTC304, veremos por qué es importante la construcción de comunidades, exploraremos herramientas para crear una identidad visual y digital sólida, y compartiremos proyectos simples de código abierto que puedes utilizar. También consideraremos cómo las iniciativas locales escalan hacia comunidades nacionales que pueden ayudar a impulsar un futuro hiperbitcoinizado.
 +++
 # Introducción
 
-
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
-
-
 
 ## Resumen del curso
 
-
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
-
-
 
 ¡Bienvenido a BTC 304!
 
-
-
-Desde 2009, Bitcoin ha crecido sin descanso. Este crecimiento ha tomado forma a través de nuevas Propuestas de Mejora de Bitcoin (BIP), la creación de capas adicionales para hacer escalable la red (Lightning Network entre otras) y el desarrollo de múltiples empresas y start-ups.
-
-
+Desde 2009, Bitcoin ha crecido sin descanso. Este crecimiento ha tomado forma a través de nuevas propuestas de mejora de Bitcoin (BIP), la creación de capas adicionales para hacer escalable la red (Lightning Network entre otras) y el desarrollo de múltiples empresas y start-ups.
 
 Su desarrollo también es evidente en la On-Chain, con un número de transacciones en constante aumento.
 
-
-Por ejemplo, entre el 1 de enero de 2018 y el 1 de enero de 2024, se estima que el número de transacciones en Layer, la principal de Bitcoin, [aumentó un 66,2%](https://dune.com/queries/3375917/5663935). Mientras tanto, entre agosto de 2021 y agosto de 2023, el número de transacciones públicas en Lightning Network [aumentó un 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
-
-
+Por ejemplo, entre el 1 de enero de 2018 y el 1 de enero de 2024, se estima que el número de transacciones en la capa principal de Bitcoin, [aumentó un 66,2%](https://dune.com/queries/3375917/5663935). Mientras tanto, entre agosto de 2021 y agosto de 2023, el número de transacciones públicas en Lightning Network [aumentó un 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 Este importante crecimiento está, por supuesto, estrechamente relacionado:
 
-
-
-
-- el [creciente interés de la población de todo el mundo por utilizar la Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para liberarse del sistema bancario y/o utilizar una moneda menos volátil o menos devaluada, como es el caso de las poblaciones de Líbano, Siria, Egipto, Argentina y otros países;
-- la apreciación de su precio a lo largo del tiempo, estableciéndolo como depósito de valor e inversión a largo plazo, impulsado por su política monetaria fija;
-- el crecimiento sucesivo del mercado especulativo de criptodivisas, en particular durante 2017-2018 y 2020-2021;
-- La creciente presencia de la Bitcoin en los principales medios de comunicación.
-
-
+- El [creciente interés de la población de todo el mundo por utilizar la Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para liberarse del sistema bancario y/o utilizar una moneda menos volátil o menos devaluada, como es el caso de las poblaciones de Líbano, Siria, Egipto, Argentina y otros países;
+- La apreciación de su precio a lo largo del tiempo, estableciéndolo como depósito de valor e inversión a largo plazo, impulsado por su política monetaria fija;
+- El crecimiento sucesivo del mercado especulativo de criptodivisas, en particular durante 2017-2018 y 2020-2021;
+- La creciente presencia de Bitcoin en los principales medios de comunicación.
 
 ![image](assets/es/001.webp)
 
-
-
-
-Aunque la Bitcoin está aún en sus primeras fases, esta realidad, que probablemente ya conozca, nos lleva a plantearnos dos cuestiones clave:
-
-
-
+Aunque Bitcoin está aún en sus primeras fases, esta realidad, que probablemente ya conozcas, nos lleva a plantearnos dos cuestiones clave:
 
 - ¿Cómo podemos animar a los Bitcoiners a ir más allá en su aprendizaje y en sus proyectos para **aprovechar al máximo el potencial de Bitcoin**?
 
-
-
 - ¿Cómo podemos ayudar a los recién llegados, a menudo atraídos por la especulación a corto plazo, a evitar perder dinero en la última moda del memecoin y centrarse en cambio en **aprender los fundamentos del Bitcoin**?
 
+La mejor solución a ambos retos es sencilla: **Estar presente en el mundo real y educar**.
 
-
-La mejor solución a ambos retos es sencilla: **estar presente en el mundo real y educar**.
-
-
-
-El objetivo de este curso es proporcionarte todo lo que necesitas para crear y organizar eficazmente una comunidad o meet-up de Bitcoin. Tanto si quieres crear una iniciativa local como hacer crecer un grupo en línea, este curso te guiará paso a paso: desde la creación de tu identidad visual hasta la organización de eventos periódicos y la gestión de tus canales de comunicación.
-
-
+El objetivo de este curso es proporcionarte todo lo que necesitas para crear y organizar eficazmente una comunidad o un encuentro de Bitcoin. Tanto si quieres crear una iniciativa local como hacer crecer un grupo en línea, este curso te guiará paso a paso: desde la creación de tu identidad visual hasta la organización de eventos periódicos y la gestión de tus canales de comunicación.
 
 **Sección 1: Introducción**
 
+Empezaremos destacando la importancia de unir a la gente en torno a Bitcoin, ya sea a través de comunidades en línea o de encuentros locales. Descubrirás por qué y dónde crear tu propia comunidad, además de cómo establecer objetivos claros para fomentar su crecimiento y sostenibilidad a largo plazo.
 
-Empezaremos destacando la importancia de unir a la gente en torno a la Bitcoin, ya sea a través de comunidades en línea o de encuentros locales. Descubrirás por qué y dónde crear tu propia comunidad, además de cómo establecer objetivos claros para fomentar su crecimiento y sostenibilidad a largo plazo.
-
-
-
-**Sección 2: Diseñar una identidad única para su comunidad Bitcoin**
-
+**Sección 2: Diseñar una identidad única para tu comunidad Bitcoin**
 
 Para atraer a nuevos miembros y fomentar un sentimiento de pertenencia, es esencial construir una identidad única. En esta sección aprenderás a diseñar logotipos, carteles y pancartas que encarnen el espíritu de tu comunidad Bitcoin.
 
-
-
-**Sección 3: Creación de canales de comunicación para su comunidad Bitcoin**
-
+**Sección 3: Creación de canales de comunicación para tu comunidad Bitcoin**
 
 La comunicación es la columna vertebral de cualquier comunidad. En esta sección, exploraremos los mejores canales a utilizar y te guiaremos en la configuración eficiente de un grupo de Telegram o un servidor de Discord. También aprenderás a integrar bots multifuncionales para agilizar la gestión de la comunidad.
 
-
-
 **Sección 4: Puesta en marcha de sus redes sociales** (en francés)
-
 
 La visibilidad es clave para hacer crecer tu comunidad. En esta sección aprenderás a crear un perfil específico en Twitter, conectar con reuniones locales y aprovechar plataformas como btcmap.org para aumentar tu visibilidad y atraer a nuevos miembros.
 
-
-
 **Sección 5: Organización de un encuentro Bitcoin**
 
-
-En esta sección se explica cómo organizar encuentros: desde la elección del lugar adecuado hasta la organización del propio evento. También exploraremos estrategias para fidelizar a los participantes y garantizar la sostenibilidad de tu comunidad a largo plazo.
-
-
+En esta sección se explica cómo organizar encuentros: Desde la elección del lugar adecuado hasta la organización del propio evento. También exploraremos estrategias para fidelizar a los participantes y garantizar la sostenibilidad de tu comunidad a largo plazo.
 
 **Sección 6: Ejemplos de proyectos e iniciativas** (en francés)
 
-
 Para ir más allá de los simples encuentros, esta sección presenta proyectos concretos y originales: desde eventos y talleres temáticos hasta creación de contenidos educativos y colaboraciones locales. También aprenderás a diseñar materiales físicos y digitales para promocionar tu comunidad.
-
-
 
 **Sección 7: Anticipar el futuro**
 
-
-Aquí examinaremos la evolución natural de su comunidad: qué hacer si crece demasiado deprisa, cómo descentralizar su organización y cómo responder a un entorno normativo hostil. Esta sección le ayudará a anticipar y superar estos retos.
-
-
+Aquí examinaremos la evolución natural de tu comunidad: Qué hacer si crece demasiado deprisa, cómo descentralizar tu organización y cómo responder a un entorno normativo hostil. Esta sección te ayudará a anticipar y superar estos retos.
 
 **Sección 8: Unir a los bitcoiners**
 
-
-La última sección se centra en la esencia de su proyecto: unir a los entusiastas del Bitcoin en torno a una visión compartida. Aprenderás a estructurar tu enfoque para atraer y retener miembros, delegar tareas con eficacia y hacer crecer tu comunidad de forma sostenible.
-
-
+La última sección se centra en la esencia de tu proyecto: Unir a los entusiastas de Bitcoin en torno a una visión compartida. Aprenderás a estructurar tu enfoque para atraer y retener miembros, delegar tareas con eficacia y hacer crecer tu comunidad de forma sostenible.
 
 ¿Listo para aprender a construir una comunidad Bitcoin fuerte y dinámica? ¡Vamos a sumergirnos!
 
-
-
 ## ¿Por qué crear una comunidad o meetup Bitcoin?
-
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
 
-
-
 ### ¿Cuál es la diferencia entre una comunidad y un encuentro?
-
-
 
 Aunque no existe una definición estricta de estos términos en el ecosistema de Bitcoin, la mejor manera de entender una comunidad es como un grupo de personas que comparten una pasión común y se comunican con regularidad.
 
-
 Una reunión, por el contrario, es un acto organizado por y para esta comunidad, con un propósito específico. Los encuentros suelen celebrarse cuando la comunidad ya está establecida.
-
 
 Para este curso, partimos de la base de que, antes de lanzar un meetup Bitcoin, ya has conectado con algunas personas interesadas en celebrar un evento de este tipo, es decir, que la **comunidad ya existe**.
 
-
-
 ### ¿Por qué crear una comunidad Bitcoin?
-
-
 
 Hay varias razones para crear una comunidad Bitcoin:
 
-
-
-- Intercambio de conocimientos y colaboración: Las comunidades ofrecen a sus miembros un espacio para Exchange ideas y compartir conocimientos. El apoyo mutuo es un pilar clave para el crecimiento, que permite a todos acelerar su aprendizaje, especialmente relevante para Bitcoin, dado lo mucho que hay por descubrir.
-
-
+- Intercambio de conocimientos y colaboración: Las comunidades ofrecen a sus miembros un espacio para intercambiar ideas y compartir conocimientos. El apoyo mutuo es un pilar clave para el crecimiento, que permite a todos acelerar su aprendizaje, especialmente relevante para Bitcoin, dado lo mucho que hay por descubrir.
 
 - Construcción entre iguales: Muchas iniciativas y proyectos se conciben, construyen y desarrollan en el seno de estas comunidades.
 
-
-
 Las comunidades Bitcoin suelen perseguir objetivos más amplios, especialmente en materia de educación pública:
 
+1. Qué es Bitcoin
 
-1. Qué es Bitcoin;
+2. Cómo funciona
 
+3. Sus aportaciones a la sociedad
 
-2. Cómo funciona;
+4. Desacreditar las afirmaciones engañosas o infundadas de algunos personajes públicos y medios de comunicación
 
-
-3. Sus aportaciones a la sociedad;
-
-
-4. Desacreditar las afirmaciones engañosas o infundadas de algunos personajes públicos y medios de comunicación;
-
-
-5. Las diferencias fundamentales entre el Bitcoin y otras criptomonedas;
-
+5. Las diferencias fundamentales entre el Bitcoin y otras criptomonedas
 
 Al construir las primeras "ciudadelas" del mañana, **las comunidades Bitcoin de todo el mundo sirven de baluarte contra la desinformación y la censura, al tiempo que proporcionan un terreno fértil para aprender los fundamentos de Bitcoin**. Ofrecen a los recién llegados, incluso a los escépticos, los recursos y conexiones necesarios para explorar el verdadero potencial de Bitcoin.
 
-
-
 ![image](assets/es/002.webp)
-
-
 
 También cabe señalar que **una comunidad puede existir totalmente en línea**, ya sea un grupo de Telegram ("Bitcoin Londres"), un grupo de Facebook ("Bitcoin Berlín"), un servidor de Discord ("Bitcoin Madrid"), o incluso una lista de correo electrónico ("Bitcoin Francia").
 
-
 En otras palabras, **una comunidad no necesita reuniones físicas para prosperar o lanzar proyectos. Su objetivo principal sigue siendo el mismo: compartir, construir y educar**.
-
-
 
 ### ¿Por qué crear un encuentro?
 
-
-
 Como ya se ha dicho, **los encuentros suelen producirse una vez establecida la comunidad y sirven para complementarla**.
-
 
 A medida que evoluciona el viaje de un bitcoiner, a menudo surge el deseo, o incluso la necesidad, de **conocer e interactuar en persona con otras personas** del mismo ecosistema. Esto puede venir de sentirse aislado o simplemente de no tener a nadie con quien hablar sobre Bitcoin en la vida cotidiana.
 
-
-Los encuentros ofrecen una experiencia más personal y acogedora que las llamadas de audio o vídeo en línea. Ya sea **tomando una copa o comiendo**, crean espacios informales y acogedores donde la gente puede Exchange ideas de forma abierta y directa.
-
-
+Los encuentros ofrecen una experiencia más personal y acogedora que las llamadas de audio o vídeo en línea. Ya sea **tomando una copa o comiendo**, crean espacios informales y acogedores donde la gente puede intercambiar ideas de forma abierta y directa.
 
 ![image](assets/es/003.webp)
 
-
 Los encuentros Bitcoin pueden servir para muchas cosas:
-
-
 
 - Debatir temas técnicos o proyectos en curso
 - Ayudar a los nuevos bitcoiners a sumergirse poco a poco en el mundo Bitcoin
@@ -239,313 +142,185 @@ Los encuentros Bitcoin pueden servir para muchas cosas:
 - Proyección de documentales en preestreno
 - Organizar conferencias o talleres sobre temas específicos
 
-
-
 Trataremos en detalle muchas de estas posibilidades en la parte 6/8 de este curso, titulada "[Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)".
-
-
 
 Aunque cada comunidad es libre de formarse sus propias opiniones, lanzar proyectos y experimentar a su manera, los encuentros resultan cada vez más **esenciales para el desarrollo de Bitcoin y para el crecimiento de los bitcoiners**. **Organizarlos requiere tiempo y esfuerzo**, por lo que este curso comparte la experiencia combinada de [unas sesenta comunidades de Bitcoin en Francia y Bélgica](https://btcmap.org/communities/map#2/5.24949/0.20000) **para ayudarte a construir y hacer crecer tu propia comunidad y tus propios encuentros de la mejor manera posible**.
 
-
-
-## ¿Dónde debe crear su comunidad?
-
+## ¿Dónde deberías crear tu comunidad?
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
-
-
-La primera pregunta que hay que hacerse es: ¿dónde debe tener su comunidad su sede?
+La primera pregunta que hay que hacerse es: ¿Dónde debe tener tu comunidad su sede?
 
 Esta decisión es crucial si quieres conservar la opción de organizar encuentros más adelante.
 
-
 Si los miembros tienen que conducir dos horas para asistir a un evento, lo más probable es que la asistencia sea escasa. Por eso, elegir la **ubicación adecuada para tu comunidad y, por tanto, para tus futuras reuniones, tiene un gran impacto en su crecimiento**.
 
-
-
-Algunos consejos para orientar su decisión:
-
+Algunos consejos para orientar tu decisión:
 
 1/ **Crea y haz crecer tu comunidad en una ciudad mediana o grande**. Esto hará que sea más fácil:
 
+- Encontrar lugares agradables para reuniones y proyectos (presentaciones, talleres, promoción de la adopción de Bitcoin, etc.)
+- Aumentar el sentimiento de implicación y pertenencia entre un mayor número de personas
+- Mejora la accesibilidad al evento (transporte público, aparcamiento, etc.). Es muy recomendable elegir un lugar cercano al transporte público y al aparcamiento.
 
-
-    - Encontrar lugares agradables para reuniones y proyectos (presentaciones, talleres, promoción de la adopción de Bitcoin, etc.);
-    - Aumentar el sentimiento de implicación y pertenencia entre un mayor número de personas;
-    - Mejore la accesibilidad al evento (transporte público, aparcamiento, etc.). Es muy recomendable elegir un lugar cercano al transporte público y al aparcamiento.
-
-
-
-2/ **Elija un nombre relacionado con su ciudad**. Esto facilita que la gente se identifique con su comunidad. Ejemplos: Bitcoin París, Einundzwanzig Berlín, Satoshi Spritz Milán, etc.
-
+2/ **Elige un nombre relacionado con tu ciudad**. Esto facilita que la gente se identifique con tu comunidad. Ejemplos: Bitcoin París, Einundzwanzig Berlín, Satoshi Spritz Milán, etc.
 
 3/ **Comprueba si ya existe un encuentro cerca de ti**.
 
 Puedes consultar [btcmap.org](https://btcmap.org/communities/map#0/0/0/), que enumera la mayoría de comunidades y encuentros Bitcoin de todo el mundo.
 
-
-
 ![image](assets/es/004.webp)
-
 
 
 Después de investigar un poco, es posible que encuentres un grupo de encuentro o una comunidad en tu ciudad.
 
 Bitcoin está descentralizado, por lo que, naturalmente, cualquiera es libre de hacer lo que quiera.
 
-
 Sin embargo, **unir fuerzas suele tener más sentido que dividir comunidades cercanas y reducir el impacto de cada una**. Crear una nueva comunidad donde ya existe otra puede crear competencia sin querer.
 
-
-En este sentido, una simple "regla empírica" puede ayudar: si no hay ninguna comunidad activa de Bitcoin a 30-45 minutos de donde vives, puede valer la pena empezar una nueva. Dicho esto, siempre eres libre de hacer lo que quieras.
-
+En este sentido, una simple "regla empírica" puede ayudar: Si no hay ninguna comunidad activa de Bitcoin a 30-45 minutos de donde vives, puede valer la pena empezar una nueva. Dicho esto, siempre eres libre de hacer lo que quieras.
 
 Y, por supuesto, si una comunidad más antigua ha "evolucionado" en una dirección que ya no se ajusta a tus valores y no tienes tiempo ni motivación para "ponerles la píldora naranja", crear tu propia Fork siempre es una opción.
 
 
-
-## ¿Qué objetivos deben guiar a su comunidad?
-
+## ¿Qué objetivos deben guiar a tu comunidad?
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
-
-
-Una vez identificada la ciudad (o zona geográfica) de su comunidad, es hora de **definir lo que quiere conseguir**.
-
+Una vez identificada la ciudad (o zona geográfica) de tu comunidad, es hora de **definir lo que quieres conseguir**.
 
 Estos objetivos pueden fijarse en el momento del lanzamiento o perfeccionarse más adelante, una vez que se hayan unido varios miembros y el grupo participe activamente.
 
-
-
-He aquí algunos puntos para orientar su reflexión:
-
-
+He aquí algunos puntos para orientar tu reflexión:
 
 1/ **¿Por qué estoy creando esta comunidad como bitcoiner?** ¿Es para compartir conocimientos? ¿Educar a otros? ¿Aprender de compañeros con más experiencia? ¿Conocer gente con ideas afines? ¿Participar en el ecosistema Bitcoin? ¿Conectar con profesionales? ¿O simplemente tomar algo y hacer nuevos amigos?
 
+Tus respuestas determinarán tu posicionamiento y motivación.
 
-
-Sus respuestas determinarán su posicionamiento y motivación.
-
-
-Si su objetivo es **compartir conocimientos y educar a la gente sobre Bitcoin**, céntrese en **crear contenidos educativos** (artículos, podcasts, vídeos, presentaciones, folletos, etc.), ahorrando a otros incontables horas de investigación. Incluso puedes ir más allá **organizando talleres, presentaciones y conferencias**.
-
-
+Si tu objetivo es **compartir conocimientos y educar a la gente sobre Bitcoin**, céntrate en **crear contenidos educativos** (artículos, podcasts, vídeos, presentaciones, folletos, etc.), ahorrando a otros incontables horas de investigación. Incluso puedes ir más allá **organizando talleres, presentaciones y conferencias**.
 
 Si tu objetivo es simplemente conocer a otros bitcoiners y compartir experiencias, puedes adoptar un enfoque más relajado, como quedar para tomar algo.
 
 De este modo, crearás vínculos sociales más fácilmente. Sin embargo, recuerda siempre que **beber cerveza no es el camino adecuado para construir el mundo del mañana**.
 
-
 Por eso es esencial **establecer objetivos y proyectos concretos**.
 
+2/ ¿Debo dar a mi comunidad una **dimensión física**? En caso afirmativo, ¿Qué tipo de eventos debería organizar?
 
-
-
-2/ ¿Debo dar a mi comunidad una **dimensión física**? En caso afirmativo, ¿qué tipo de eventos debería organizar?
-
-
-
-Tu primer evento será probablemente un meet-up. Su principal objetivo: reunir a los bitcoiners de tu zona.
-
-
+Tu primer evento será probablemente un meet-up. Su principal objetivo: Rreunir a los bitcoiners de tu zona.
 
 Sin embargo, como veremos más adelante en [Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **un encuentro puede construirse de muchas maneras, con muchos objetivos:**
 
-
-
-- Combine el trabajo en red con una presentación educativa sobre un concepto de Bitcoin;
-- Organice una demostración profesional de las soluciones Bitcoin;
-- Estrategias de debate para los comerciantes locales de naranjas;
-
+- Combina el trabajo en red con una presentación educativa sobre un concepto de Bitcoin
+- Organiza una demostración profesional de las soluciones Bitcoin
+- Estrategias de debate para los comerciantes locales de naranjas
 etc.
 
-
-Dependiendo de los temas (charlas técnicas o talleres prácticos), puede incluso tener sentido **organizar eventos adicionales** fuera de su reunión habitual.
-
-
+Dependiendo de los temas (charlas técnicas o talleres prácticos), puede incluso tener sentido **organizar eventos adicionales** fuera de tu reunión habitual.
 
 ![image](assets/es/005.webp)
 
 
-
-
 3/ ¿Cómo quiero que mi comunidad contribuya al ecosistema Bitcoin?
-
-
 
 Esta es una pregunta más avanzada, pero merece la pena planteársela desde el principio.
 
-
 Si tu visión es **crear una comunidad unida y motivada** centrada en llenar de naranja al mayor número de personas posible, entonces:
 
-
-
-- Colabore con las comunidades existentes para acceder a información más amplia, recursos de código abierto y un valioso apoyo cuando sea necesario.
-- Organice y delegue tareas dentro de su grupo para ampliar y escalar sus esfuerzos con eficacia.
-
-
+- Colabora con las comunidades existentes para acceder a información más amplia, recursos de código abierto y un valioso apoyo cuando sea necesario.
+- Organiza y delega tareas dentro de su grupo para ampliar y escalar sus esfuerzos con eficacia.
 
 **Fijar objetivos a corto, medio y largo plazo**
 
 Una forma práctica de planificar es fijando objetivos para cada plazo:
 
-
-
-- A corto plazo: crear una presencia en los medios sociales y establecer canales de comunicación con la comunidad.
-- A medio plazo: crear recursos educativos (artículos, folletos, vídeos).
-- A largo plazo: organizar reuniones físicas periódicas.
-
+- A corto plazo: Crear una presencia en los medios sociales y establecer canales de comunicación con la comunidad.
+- A medio plazo: Crear recursos educativos (artículos, folletos, vídeos).
+- A largo plazo: Organizar reuniones físicas periódicas.
 
 Una vez establecidos los encuentros, podrías aspirar a:
 
-
-
-- A corto plazo: organizar talleres o presentaciones sobre temas específicos
-- A medio plazo: realizar campañas de sensibilización o educación sobre Bitcoin
-- A largo plazo: crear una asociación o colaboración formal con un bar que acepte Bitcoin como forma de pago.
-
+- A corto plazo: Organizar talleres o presentaciones sobre temas específicos
+- A medio plazo: Realizar campañas de sensibilización o educación sobre Bitcoin
+- A largo plazo: Crear una asociación o colaboración formal con un bar que acepte Bitcoin como forma de pago.
 
 Prepárate: **Construir una comunidad requiere esfuerzo**
-
 
 Crear una comunidad no se hace de la noche a la mañana. Requiere tiempo, motivación y organización.
 
 A veces, incluso puede resultar desalentador, sobre todo cuando no aparece nadie y te sientes el único que lleva esta misión sobre sus hombros.
 
-
 Por eso **este curso está diseñado para compartir valiosos recursos y consejos, ayudando a las comunidades a crecer de forma eficaz y, con el tiempo, a ser autosuficientes.**.
-
-
 
 # Diseñar una identidad comunitaria Bitcoin
 
-
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
-
-
-## ¿Por qué y cómo crear su propia identidad?
-
+## ¿Por qué y cómo crear tu propia identidad?
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
-
-
 En esta fase, suponemos que:
-
-
 
 - Ya sabes dónde se ubicará tu comunidad (o tu futura reunión periódica).
 - Has fijado objetivos para distintos horizontes temporales, aunque aún no sean definitivos.
 
-
 El siguiente paso en la construcción de su comunidad es **definir su identidad**, tanto su nombre como su estilo visual.
 
-
 Esta sección ofrece tutoriales y soluciones de software para principiantes que le ayudarán a diseñar la identidad visual de su comunidad, incluso con conocimientos básicos.
-
 
 **¿Por qué importa la identidad?**
 
 La gente se siente más implicada y comprometida cuando puede identificarse con un grupo. Una identidad fuerte ayuda a su comunidad a destacar y fomenta el sentimiento de pertenencia.
 
-
 Todo empieza por elegir un nombre, y cada país suele tener sus propias tendencias:
-
-
 
 - Francia: La mayoría de las más de 60 comunidades locales utilizan nombres como "Bitcoin [CIUDAD]" o "[CIUDAD] Bitcoin". Sus grupos de Telegram suelen seguir este patrón "Bitcoin [CIUDAD] meetup".
 - Alemania: La iniciativa Einundzwanzig (que significa "21") inspiró nombres como "Einundzwanzig [CIUDAD]".
 - Italia: La red Satoshi Spritz utiliza nombres como Satoshi "Spritz [CIUDAD]".
 
-
 **Cada comunidad tiene su propia identidad, vinculada a su ciudad natal, pero conectada a la identidad más amplia de su país**.
 
-
-
-Su identidad visual: logotipo, colores, pancartas, es lo que la gente recordará y asociará con su grupo.
-
+Tu identidad visual: logotipo, colores, pancartas, es lo que la gente recordará y asociará con tu grupo.
 
 A la hora de crear cuentas en redes sociales y canales de comunicación, contar con un logotipo y un banner es una gran ventaja. No te preocupes, no necesitas conocimientos profesionales de diseño; existen herramientas gratuitas y fáciles de usar.
 
-
 Un buen punto de partida es incorporar un punto de referencia o un símbolo de tu ciudad. En París, podría ser la Torre Eiffel. En Lille, el campanario o la ciudadela. En Nueva York, la Estatua de la Libertad. En Londres, el Big Ben, etc.
 
+A partir de ahí, puedes diseñar un logotipo sencillo o más detallado, según sus preferencias.
 
-A partir de ahí, puede diseñar un logotipo sencillo o más detallado, según sus preferencias.
-
-
-
-Para darle algunas ideas, he aquí algunos ejemplos de logotipos comunitarios franceses:
-
-
-
+Para darte algunas ideas, he aquí algunos ejemplos de logotipos comunitarios franceses:
 
 - En Marsella, el logotipo representa la basílica de Notre-Dame-de-la-Garde, que domina la ciudad:
 
-
-
 ![image](assets/es/006.webp)
-
-
-
-
 
 - En Mónaco, se refiere a la roca monegasca:
 
-
-
 ![image](assets/es/007.webp)
-
-
-
-
 
 - En Lille, el elegante logotipo representa la ciudadela de Vauban y su parque:
 
-
-
 ![image](assets/es/008.webp)
-
-
-
-
 
 - En Saint-Malo destaca el armiño, emblema de la ciudad:
 
-
-
 ![image](assets/es/009.webp)
 
-
-
-**Id más lejos si queréis**
+**Ve más lejos si quieres**
 
 Si te llega la inspiración, puedes ir más allá: crea un escudo, un lema o incluso una canción para tu comunidad. ¡Tu creatividad es el único límite!
 
-
-
 ## Crear un logotipo, un cartel y una pancarta
-
 
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
 
-
-
 ### Utilizar Canva
-
-
 
 Puedes utilizar [Canva](https://www.canva.com/) para crear los distintos elementos visuales de tu comunidad.
 
-
-
 Esta plataforma gratuita y fácil de usar es popular por su gran biblioteca de plantillas prediseñadas que puedes duplicar y personalizar en unos pocos clics.
-
 
 **Creación de su logotipo**
 

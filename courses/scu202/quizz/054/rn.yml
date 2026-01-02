@@ -1,9 +1,9 @@
-question: Ni amakuru ayahe ashobora kuboneka mu makuru y’ifoto y’i EXIF?
-answer: Itariki, isaha, ikibanza ca GPS, ikigereranyo c'igikoresho, umwanditsi
+question: Ni amakuru ayahe ashobora kuboneka muri metadata za EXIF y’ifoto?
+answer: Itariki, isaha, ikibanza ca GPS, ubwoko bw’igikoresho, nyeneyo
 wrong_answers:
-  - Kode y'inkomoko ya porogaramu y'amasanamu
-  - Ijambobanga rya Wi-Fi ry'umufotozi
-  - Ibisubizo biherutse gukingira virusi
+  - Kode y’inkomoko ya sisiteme ya kamera
+  - Ijambo ry’ibanga rya Wi-Fi y’umufotozi
+  - Inyishu nshasha za antivirus
 explanation: |
-  Amakuru y’ifoto EXIF ​​akenshi arimwo amakuru y’ido n’ido yerekeye ifoto n’ivyo ifashe.
-reviewed: false
+  Metadata za EXIF y’ifoto ​​akenshi zirimwo amakuru y’ido n’ido yerekeye ifoto na kamera.
+reviewed: true

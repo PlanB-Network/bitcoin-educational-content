@@ -1,9 +1,9 @@
-question: Ni akamenyero akahe umuntu akwiye gukora imbere y’uko asangira dosiye kuri Internet canke kuri e-mail?
-answer: Sukura amakuru yose
+question: Ni igikorwa ikihe umuntu akwiye gukora imbere y’uko asangiza dosiye kuri interineti canke kuri imeyiri?
+answer: Gufuta metadata zose
 wrong_answers:
-  - Bubisha amakuru yose
-  - Kwemeza amakuru yose
-  - Guhindura izina ry'amakuru yose
+  - kunyegeza metadata zose 
+  - Kwemeza metadata zose
+  - Guhindura izina ry’ama metadata yose
 explanation: |
-  Gusukura amakuru y’imbere mu gihugu birabuza gutangaza amakuru y’agaciro ataco yiyumviriye igihe umuntu asangira amadosiye.
-reviewed: false
+  Gusukura metadata bikurinda gutangaza amakuru y’agaciro utabigombereye igihe umuntu asangiza abandi amadosiye.
+reviewed: true

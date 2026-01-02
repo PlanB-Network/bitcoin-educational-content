@@ -1,5 +1,5 @@
 ---
-name: Sklonište
+name: Shelter
 description: Koristite isti telefon za posao i privatni život uz Shelter
 ---
 

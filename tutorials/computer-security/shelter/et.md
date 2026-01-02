@@ -1,5 +1,5 @@
 ---
-name: Varjupaik
+name: Shelter
 description: Kasutage sama telefoni töö- ja eraelu jaoks koos Shelteriga
 ---
 

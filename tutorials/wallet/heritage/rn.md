@@ -1,5 +1,5 @@
 ---
-name: Umurage
+name: Heritage
 description: Igitabo ca Bitcoin gifise uburyo bwo kuragwa biciye mu nyandiko za Taproot
 ---
 

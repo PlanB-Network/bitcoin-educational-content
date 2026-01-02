@@ -1,9 +1,9 @@
-question: Ni kuki amakuru y’idosiye ya digitale agereranya ingorane ku buzima bwite?
-answer: Bashobora guhishura amakuru y'agaciro .
+question: Ni kuki metadata ya dosiye y’ubuhinga bwa none obonwa ko ari imbogamizi ku buzima bw’ibanga?
+answer: metadata zirashobora kugaragaza amakuru y’agaciro.
 wrong_answers:
-  - Bigabanya ugufungura kwa antivirus kuri sisitemu zimwe zimwe
-  - Babuza gusangira dosiye kuri email
-  - Bashobora kwakira incungu
+  - zigendesha buhoro kw’uguruka kwa antivirus kuri sisiteme zimwe zimwe
+  - zibuza gusangira dosiye kuri imeyiri
+  - zishobora kuba zirimwo ransomware (ibitero vy’incungu)
 explanation: |
-  Metadata ishobora kuba irimwo amakuru y’ibanga ataboneka iyo dosiye ifunguwe, nk’amakuru ya GPS, izina ry’umwanditsi, ikimenyetso canke amateka y’ivyo yahinduye, bishobora gukoreshwa ataco uzi.
-reviewed: false
+  Metadata zishobora kubamwo amakuru y’ibanga ataboneka iyo dosiye yuguruwe, nk’amakuru ya GPS, izina ry’umwanditsi, akaranga canke amateka y’ivyo yahinduye, bishobora gukoreshwa ataco ubiziko.
+reviewed: true

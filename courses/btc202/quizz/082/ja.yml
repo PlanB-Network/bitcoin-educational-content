@@ -1,9 +1,9 @@
-question: Bitcoin coreのminrelaytxfeeのデフォルト値は？
+question: ビットコインコアのminrelaytxfeeのデフォルト値は？
 answer: 0.00001 BTC/kvB (1 sat/vB)
 wrong_answers:
   - 0.0001 BTC/kvB (10 sat/vB)
   - 0.000001 BTC/kvB (0.1 sat/vB)
-  - 0.00002 BTC/kvB（2サット/kvB）
+  - 0.00002 BTC/kvB（2 sat/kvB）
 explanation: |
-  minrelaytxfeeのデフォルトは0.00001BTC/kvB、または1sat/vBで、それ以下の取引は中継されない。
+  minrelaytxfeeのデフォルトは0.0000 1BTC/kvB、または1sat/vBで、それ以下のトランザクションは中継されない。
 reviewed: true

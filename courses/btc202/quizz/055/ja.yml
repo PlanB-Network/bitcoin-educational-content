@@ -1,9 +1,9 @@
-question: Sparrowで選べる3つのサーバーオプションとは？
-answer: パブリックサーバー, Bitcoin core, プライベートエレクトラム
+question: Sparrow Walletで選べる3つのサーバーオプションは？
+answer: パブリックサーバー, ビットコインコア, プライベートElectrum
 wrong_answers:
   - RPCダイレクト、VPN、Tor
-  - Full node、ライトノード、モバイルノード
-  - コアRPC、ライトニング、エレクトラムX
+  - フルノード、ライトノード、モバイルノード
+  - コアRPC、ライトニング、ElectrumX
 explanation: |
-  Sparrowでは3つのサーバーを選択できる：パブリックサーバー、Bitcoin core（RPC）、プライベートエレクトラムです。
+  Sparrow Walletでは3つのサーバーを選択できる：パブリックサーバー、ビットコインコア（RPC）、プライベートElectrumです。
 reviewed: true

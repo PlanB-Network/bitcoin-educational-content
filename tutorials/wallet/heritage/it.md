@@ -1,5 +1,5 @@
 ---
-name: Patrimonio
+name: Heritage
 description: Un portafoglio Bitcoin con meccanismo di ereditarietà integrato tramite script Taproot
 ---
 

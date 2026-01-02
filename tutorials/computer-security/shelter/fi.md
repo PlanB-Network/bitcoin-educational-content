@@ -1,5 +1,5 @@
 ---
-name: Suoja
+name: Shelter
 description: Käytä samaa puhelinta työssä ja yksityiselämässä Shelterin kanssa
 ---
 

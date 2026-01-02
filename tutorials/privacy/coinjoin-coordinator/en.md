@@ -3,7 +3,7 @@ name: Coinjoin Coordinator
 description: How to setup and run a coinjoin coordinator following the WabiSabi protocol (used in Wasabi Wallet 2.0)
 ---
 
-![cover](assets/en/01.webp)
+![cover](assets/cover.webp)
 
 ---
 
@@ -79,7 +79,7 @@ sudo apt install ./Wasabi-2.7.2.deb
 
 ## Configuration 🧾
 
-Before running the coordinator you need to edit the Config.yaml file with your:
+Before running the coordinator you need to edit the Config.json file with your:
 - Bitcoin RPC credentials
 - Preferred round parameters
 - Coordinator Extended Public Key (create a new SegWit wallet for receiving collected dust) 
@@ -99,7 +99,7 @@ Edit it with command:
 sudo nano ~/.walletwasabi/coordinator/Config.json
 ```
 
-See this example Config.yaml:
+See this example Config.json:
 ```
 {
   "Network": "Main",
@@ -230,7 +230,7 @@ name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.your
 ```
 When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
 
-![detected](assets/en/02.png)
+![detected](assets/en/01.webp)
 
 ---
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️

@@ -13,7 +13,7 @@ tags:
   - cypherpunk
   - software
 
-license: CC-BY-SA-V4
+licence: CC-BY-SA-V4
 
 original_language: it
 proofreading:
@@ -22,4 +22,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - SatoSats
-    reward: 1
+    reward: 0

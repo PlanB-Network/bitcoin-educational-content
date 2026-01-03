@@ -242,12 +242,31 @@ La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer
 
 Les principes liés à l’utilité et aux pouvoirs des mineurs constituent un sujet très complexe que je ne détaillerai pas davantage dans cette formation. Nous y reviendrons cependant de manière approfondie dans la formation MIN 201.
 
+### D’où vient l’idée de la preuve de travail ?
 
+La preuve de travail n’a pas été inventée pour Bitcoin. Satoshi Nakamoto a repris et assemblé plusieurs idées plus anciennes, déjà explorées dans des contextes différents.
 
+#### Hashcash
 
+À la fin des années 1990, le problème du spam des e-mails devient important. Une idée simple apparaît : si envoyer un e-mail coûte presque zéro, un spammeur peut en envoyer des millions. Mais si chaque message exige un petit effort de calcul, envoyer un message reste facile pour un utilisateur normal, tandis qu’envoyer des millions de messages devient très cher.
 
+C’est l’objectif de Hashcash, proposé par Adam Back en 1997, que l'on considère comme l'invention du principe de preuve de travail. Le principe de Hashcash ressemble fortement au minage : produire un hash qui respecte une condition (par exemple avoir un certain nombre de zéros en début d’empreinte). La preuve accompagne ensuite le message et peut être vérifiée très rapidement par le destinataire. En cas de réception d’un e-mail ne contenant pas cette preuve, celui-ci peut être immédiatement considéré comme du spam. Les spammeurs sont alors contraints de dépenser une quantité d’énergie considérable pour envoyer des millions de messages, ce qui réduit drastiquement (voire annule complètement) la rentabilité de ce type d’opérations, qu’elles soient marketing ou frauduleuses.
 
+Hashcash ne cherchait pas à créer de la monnaie. Il cherchait à imposer un coût marginal à une action numérique facilement automatisable.
 
+#### Bit Gold
+
+Nick Szabo, à la fin des années 1990 et au début des années 2000, explore l’idée d’une rareté numérique basée sur la preuve de travail. Son projet conceptuel, appelé Bit Gold, imagine la création d’unités de valeur en résolvant une preuve de travail coûteuse, puis en enregistrant ces preuves dans un registre afin d’établir une forme de propriété.
+
+Bit Gold n’a pas abouti à un système déployé comme Bitcoin, mais il contient plusieurs intuitions importantes : l’idée que du calcul peut produire une rareté, et l’idée d'horodater des éléments dans le temps pour créer un historique difficile à réécrire.
+
+#### RPOW
+
+Hal Finney propose en 2004 RPOW (*Reusable Proofs of Work*). L’idée est de produire des preuves de travail qui pourraient ensuite être échangées, plutôt que d’être simplement consommées. RPOW visait à créer des jetons numériques basés sur la preuve de travail, avec un système permettant de vérifier et de transférer ces jetons sans les dupliquer. RPOW, là encore, ne résout pas de façon satisfaisante le problème d’un registre totalement décentralisé comme Bitcoin le fera plus tard, mais il reste l'un des grands précurseurs de Bitcoin.
+
+Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût, créer de la rareté, ou construire des objets échangeables. Bitcoin reprend ce mécanisme, mais lui donne un rôle central et collectif : la preuve de travail ne sert pas seulement à créer quelque chose, elle sert à départager qui a le droit d’écrire la prochaine page du registre (le prochain bloc), et à rendre ce registre coûteux à falsifier.
+
+Pour l’instant, vous pouvez résumer le fonctionnement du minage ainsi : les mineurs construisent un bloc candidat avec les transactions en attente dans les mempools, puis cherchent une empreinte de son entête (via `SHA256d`) qui soit inférieure ou égale à une cible. Ils y parviennent en testant des nonces par tâtonnement. Dans le chapitre suivant, nous allons découvrir comment cette cible de difficulté est déterminée par le système.
 
 
 ## L'ajustement de la cible de difficulté

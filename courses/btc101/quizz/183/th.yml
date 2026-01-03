@@ -1,0 +1,9 @@
+question: AMF คืออะไร?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - กองทุนการเงินอเมริกัน
+  - สมาคมสิ่งอำนวยความสะดวก Mining
+  - การไหลของเงินอัตโนมัติ
+explanation: |
+  AMF หรือ Autorité des Marchés Financiers เป็นองค์กรของฝรั่งเศสที่ควบคุมแพลตฟอร์มที่สามารถซื้อบิตคอยน์ได้
+reviewed: true

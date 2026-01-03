@@ -8,7 +8,7 @@ description: Kuelewa jinsi passphrase inavyofanya kazi
 ## BIP39 passphrase ni nini?
 
 
-Pochi za HD kwa kawaida hutolewa kutoka kwa maneno ya Mnemonic yenye maneno 12 au 24. Maneno haya ni muhimu sana kwa sababu inaruhusu kurejeshwa kwa funguo zote za Wallet ikiwa kati yake ya kimwili (kama Hardware Wallet, kwa mfano) inapotea. Walakini, ni hatua moja ya kutofaulu kwa sababu ikiwa imeathiriwa, mshambuliaji anaweza kuiba bitcoins zote.
+Hardware wallets kwa kawaida hutolewa kutoka kwa maneno ya Mnemonic yenye maneno 12 au 24. Maneno haya ni muhimu sana kwa sababu inaruhusu kurejeshwa kwa funguo zote za Wallet ikiwa kati yake ya kimwili (kama Hardware Wallet, kwa mfano) inapotea. Walakini, ni hatua moja ya kutofaulu kwa sababu ikiwa imeathiriwa, mshambuliaji anaweza kuiba bitcoin zote.
 
 
 ![PASSPHRASE BIP39](assets/notext/01.webp)
@@ -20,15 +20,15 @@ Hapa ndipo passphrase inapoingia. Ni nenosiri la hiari ambalo unaweza kuchagua k
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
 
-Kuwa mwangalifu usichanganye passphrase na PIN yako ya Hardware Wallet au nenosiri linalotumiwa kufungua ufikiaji wa Wallet yako kwenye kompyuta yako. Tofauti na Elements hizi zote, passphrase ina jukumu katika kupatikana kwa funguo zako za Wallet. **Hii ina maana kwamba bila hiyo, hutaweza kurejesha bitcoins zako.**
+Kuwa mwangalifu usichanganye passphrase na PIN yako ya Hardware Wallet au nenosiri linalotumiwa kufungua ufikiaji wa Wallet yako kwenye kompyuta yako. Tofauti na Elements hizi zote, passphrase ina jukumu katika kupatikana kwa funguo zako za Wallet. **Hii ina maana kwamba bila hiyo, hutaweza kurejesha bitcoin zako.**
 
 passphrase inafanya kazi sanjari na maneno ya Mnemonic, kubadilisha seed ambayo funguo hutolewa. Kwa hivyo, hata kama mtu atapata kifungu chako cha maneno 12 au 24, bila passphrase, hawezi kufikia pesa zako. **Kutumia passphrase kimsingi huunda Wallet mpya yenye funguo tofauti. Kurekebisha (hata kidogo) passphrase itakuwa generate Wallet tofauti.**
 
 ## Kwa nini utumie passphrase?
 
-passphrase ni ya kiholela na inaweza kuwa mchanganyiko wowote wa wahusika waliochaguliwa na mtumiaji. Kutumia passphrase hivyo hutoa faida kadhaa. Kwanza, inapunguza hatari zote zinazohusiana na maelewano ya maneno ya Mnemonic kwa kuhitaji jambo la pili ili kupata fedha (wizi, upatikanaji wa nyumba yako, nk).
+Passphrase ni ya kiholela (arbitrary) na inaweza kuwa mchanganyiko wowote wa herufi/wahusika uliochaguliwa na mtumiaji. Kutumia passphrase hutoa faida kadhaa. Kwanza, inapunguza hatari zote zinazohusiana na kuathirika kwa Mnemonic words kwa kuhitaji factor ya pili ili kufikia fedha (wizi, upatikanaji wa nyumba yako, nk).
 
-Ifuatayo, inaweza kutumika kimkakati kuunda decoy Wallet, ili kukabiliana na vikwazo vya kimwili ili kuiba pesa zako kama vile "*$5 wrench attack*". Katika hali hii, wazo ni kuwa na Wallet bila passphrase iliyo na kiasi kidogo tu cha bitcoins, kutosha kukidhi mshambulizi anayeweza, huku akiwa na Wallet iliyofichwa. Mwisho huu hutumia maneno sawa ya Mnemonic lakini imelindwa na passphrase ya ziada.
+Ifuatayo, inaweza kutumika kimkakati kuunda decoy Wallet, ili kukabiliana na vikwazo vya kimwili ili kuiba pesa zako kama vile "*$5 wrench attack*". Katika hali hii, wazo ni kuwa na Wallet bila passphrase iliyo na kiasi kidogo tu cha bitcoin, kutosha kukidhi mshambulizi anayeweza, huku akiwa na Wallet iliyofichwa. Mwisho huu hutumia maneno sawa ya Mnemonic lakini imelindwa na passphrase ya ziada.
 
 Hatimaye, kutumia passphrase inavutia mtu anapotaka kudhibiti ubahatishaji wa kizazi cha HD Wallet cha seed.
 
@@ -36,11 +36,11 @@ Hatimaye, kutumia passphrase inavutia mtu anapotaka kudhibiti ubahatishaji wa ki
 
 Kulingana na [uchunguzi uliofanywa na Trezor mnamo 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), mshambuliaji mwenye ufikiaji wa seed yako na anayetumia GPU ya kiwango cha juu iliyokodishwa kutoka AWS (NVIDIA Tesla V100) angeweza kujaribu karibu misimbo milioni 620 kwa dola 1 tu. Kwa makadirio, kwa uwezo wa mwaka 2019, msimbo wa maneno wa herufi ndogo 12 za nasibu ungegharimu wastani wa **dola milioni 77** kuvunjwa.
 
-Hata hivyo, sikushauri ujikatishe kwa herufi 12 pekee. Lenga viwango vya sasa vya manenosiri salama: mwaka 2025, tumia angalau herufi 13 za nasibu zinazojumuisha tarakimu, herufi ndogo na kubwa, pamoja na alama; au herufi 14 ikiwa utatumia herufi ndogo na kubwa pekee. Bila shaka, nakushauri uende mbali zaidi kwa kuchagua, kwa mfano, neno la siri lenye herufi 20 na alama, ili kukabiliana na mabadiliko yajayo na kutathmini hatari za kibinadamu ambazo hazizingatiwi katika tafiti hizi.
+Hata hivyo, sikushauri ujikite kwa herufi 12 pekee. Lenga viwango vya sasa vya passwords salama: Mwaka 2025, tumia angalau herufi 13 za nasibu zinazojumuisha tarakimu, herufi ndogo na kubwa, pamoja na alama; au herufi 14 ikiwa utatumia herufi ndogo na kubwa pekee. Bila shaka, nakushauri uende mbali zaidi kwa kuchagua, kwa mfano, password yenye herufi 20 na alama, ili kukabiliana na mabadiliko yajayo na kutathmini hatari za kibinadamu ambazo hazizingatiwi katika tafiti hizi.
 
 Ili passphrase iwe na ufanisi, lazima iwe ndefu na isiyo ya kawaida vya kutosha. Kama tu na nenosiri dhabiti, ninapendekeza kuchagua passphrase ambayo ni ndefu na isiyo na mpangilio iwezekanavyo, yenye aina mbalimbali za herufi, nambari na alama ili kufanya shambulio lolote la kikatili lisiwezekane.
 
-Pia ni muhimu kuokoa vizuri passphrase hii, kwa njia sawa na maneno ya Mnemonic. **Kuipoteza kunamaanisha kupoteza ufikiaji wa bitcoins zako **. Ninashauri sana dhidi ya kukariri tu katika kichwa chako, kwani hii inaongeza hatari ya kupoteza bila sababu. Bora ni kuiandika kwenye nyenzo ya kimwili (karatasi au chuma) tofauti na maneno ya Mnemonic. Nakala hii lazima ihifadhiwe katika eneo tofauti na ambapo maneno yako ya Mnemonic yanawekwa ili kuzuia zote mbili zisiathiriwe kwa wakati mmoja.
+Pia ni muhimu kuokoa vizuri passphrase hii, kwa njia sawa na maneno ya Mnemonic. **Kuipoteza kunamaanisha kupoteza ufikiaji wa bitcoin zako**. Ninashauri sana dhidi ya kukariri tu katika kichwa chako, kwani hii inaongeza hatari ya kupoteza bila sababu. Bora ni kuiandika kwenye nyenzo ya kimwili (karatasi au chuma) tofauti na maneno ya Mnemonic. Nakala hii lazima ihifadhiwe katika eneo tofauti na ambapo maneno yako ya Mnemonic yanawekwa ili kuzuia zote mbili zisiathiriwe kwa wakati mmoja.
 
 ## Mafunzo
 
@@ -56,7 +56,7 @@ Kwenye Jade Plus:
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-Kwenye Pasipoti (batch-2):
+Kwenye passport (batch-2):
 
 https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 

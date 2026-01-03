@@ -1,0 +1,8 @@
+question: Dupont de Nemours et Cie ดำเนินธุรกิจในด้านใด?
+answer: เคมีและชีววิทยา
+wrong_answers:
+  - การธนาคารและการประกันภัย
+  - สิ่งทอ
+  - อุตสาหกรรมอาหาร
+explanation: |
+  Dupont de Nemours เป็นบริษัทเคมีและชีววิทยาที่ก่อตั้งโดยบุตรชายของนักเศรษฐศาสตร์ Pierre-Samuel Dupont de Nemours.

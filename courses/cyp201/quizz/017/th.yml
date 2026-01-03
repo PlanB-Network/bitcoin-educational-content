@@ -1,0 +1,9 @@
+question: ใช้เส้นโค้งวงรีใดในโปรโตคอล Bitcoin?
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin ใช้เส้นโค้ง secp256k1 ซึ่งกำหนดโดยสมการ y² = x³ + 7 สำหรับการดำเนินการเข้ารหัสลับของมัน
+reviewed: false

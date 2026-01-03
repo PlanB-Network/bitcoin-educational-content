@@ -6,4 +6,4 @@ wrong_answers:
   - Utiliza una secuencia de clave basada únicamente en el texto plano
 explanation: |
   RC4 es un cifrado de flujo síncrono porque su secuencia de clave depende únicamente de la clave inicial y no del texto plano ni del texto cifrado, asegurando la independencia de esta secuencia de los mensajes.
-reviewed: false
+reviewed: true

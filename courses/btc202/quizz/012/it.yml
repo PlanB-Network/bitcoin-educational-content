@@ -1,4 +1,4 @@
-question: Quale fase fa parte del ruolo di un minore?
+question: Quale fase fa parte del ruolo di un miner?
 answer: Costruire un blocco candidato da Mempool
 wrong_answers:
   - Convalidare l'intero Blockchain da Mempool

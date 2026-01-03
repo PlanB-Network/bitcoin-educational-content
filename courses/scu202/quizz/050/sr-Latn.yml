@@ -6,4 +6,4 @@ wrong_answers:
   - Oni mogu da hostuju ransomware
 explanation: |
   Metapodaci mogu sadržati poverljive informacije koje nisu vidljive kada se datoteka otvori, kao što su GPS koordinate, ime autora, identifikator ili istorija izmena, što može biti zloupotrebljeno bez vašeg znanja.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vilken underliggande ekonomisk verklighet gör övergången från förebyggande reglering till repressiva sanktioner särskilt utmanande för etablerade yrkesmonopol?
+answer: Reglerade yrken har skapat institutionella hinder som skyddar befintliga utövare från konkurrens samtidigt som de åberopar allmän säkerhet som motivering
+wrong_answers:
+  - Konsumenternas efterfrågan på professionella tjänster minskar naturligt när den regulatoriska tillsynen tas bort från specialiserade branscher
+  - Marknadsmekanismerna är till sin natur oförmögna att skilja mellan kompetenta och inkompetenta tjänsteleverantörer inom komplexa yrkesområden
+  - Yrkesorganisationer förlorar sin förmåga att upprätthålla kvalitetsstandarder utan statligt föreskrivna licensierings- och certifieringskrav
+explanation: |
+  I texten förklaras att yrkesregler ofta etableras under täckmantel av försiktighet och allmän säkerhet, vilket skapar ett "tutelle"-system (förmyndarskap) över hela branscher. Dessa hinder blir bestående eftersom de gynnar befintliga utövare genom att begränsa konkurrensen, samtidigt som den allmänna säkerheten används som motivering. De andra alternativen utgår felaktigt från marknadsmisslyckanden eller nödvändigheten av tillsyn, vilket strider mot den liberala principen att repressiva system (som bestraffar faktiska skador) är överlägsna preventiva system (som begränsar aktiviteter i förväg).

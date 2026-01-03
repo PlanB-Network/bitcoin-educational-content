@@ -1,9 +1,9 @@
 question: Ni ryari vy’ukuri urubuga rwa Bitcoin rwatangujwe mu 2009?
-answer: Mutarama 2009, isaha 02:54:25 UTC
+answer: Nzero 9, 2009, isaha 02:54:25 z'umuhingamo amasaha y'isi yose
 wrong_answers:
-  - Mutarama 2009, isaha 18:15:05 UTC
-  - Mukakaro 2009, isaha 19:27:40 UTC
-  - Mutarama 2009, isaha zitatu n'igice n'iminota 25
+  - Nzero 3, 2009, isaha 12:15:05 z'umugoroba amasaha y'isi yose
+  - Nzero 8, 2009, isaha 1:27:40 z'ijoro amasaha y'isi yose
+  - Nzero 12, 2009, isaha 9:30:25 z'ijoro amasaha y'isi yose
 explanation: |
-  Iyi ni Timestamp ya block 1 ya Blockchain, yacukuwe na Satoshi Nakamoto amaze gutangaza kode ya porogarama ku rutonde rw’abarungika ubutumwa amasaha makeyi imbere y’aho. Ico kibanza ca Genesis (0) cashinzwe hagati y’italiki 3 n’italiki 8 Mukakaro, ariko nta nzira nyayo yariho ubwayo.
+  Iyi ni Timestamp ya block 1 ya Blockchain, yacukuwe na Satoshi Nakamoto amaze gutangaza kode ya porogarama ku rutonde rw’abarungika ubutumwa amasaha makeyi imbere y’aho. Ico kibanza ca Genesis (0) cashinzwe hagati y’italiki 3 n’italiki 8 Nzero, ariko nta rubuga nyarwo rwariho ubwayo.
 reviewed: true

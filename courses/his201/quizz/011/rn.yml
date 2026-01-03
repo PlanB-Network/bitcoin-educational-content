@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bw’amahera y’abantu ku giti cabo Satoshi Nakamoto yavuze mu buryo butomoye mu vyanditswe vyiwe?
-answer: Umwidegemvyo
+question: Ni ubuhe buryo bw’amahera yigenga Satoshi Nakamoto yavuze muburyo burambuye munyandiko ziwe?
+answer: Liberty Reserve
 wrong_answers:
-  - inzahabu
-  - Idolari ry'Umwidegemvyo
-  - e-Ibuye
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
 explanation: |
-  Iyi rero yari ikiriko irakora mu gihe ca Bitcoin, itandukanye n’inzahabu y’ubuhinga bwa none n’idolari ry’Umwidegemvyo. Satoshi nayo [yavuzwe](https://ibice.
+  Iyi rero yari ikiriko irakora mu gihe ca Bitcoin, itandukanye na e-gold and the Liberty Dollar. Satoshi nayo [yavuzwe] (https://bitcointalk.org/index.php?topic=87.msg807#msg807) amafaranga y'ubuhinga bwa none yakozwe.
 reviewed: true

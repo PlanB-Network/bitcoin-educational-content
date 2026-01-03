@@ -1,0 +1,9 @@
+question: อะไรที่ทำให้การซิงค์ข้อมูลแบบเรียลไทม์ระหว่างระบบ Enterprise Bitcoin และซอฟต์แวร์ ERP เป็นไปได้?
+answer: API
+wrong_answers:
+  - ไฟล์ CSV
+  - อัปโหลดเป็นชุด
+  - รายงานอีเมล
+explanation: |
+  API ช่วยให้การผสานรวมแบบต่อเนื่องและเรียลไทม์
+reviewed: true

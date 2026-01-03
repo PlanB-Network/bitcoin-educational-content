@@ -13,11 +13,12 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-09-23
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0.45
+      - nrak10
+    reward: 0.22
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -149,3 +150,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.16
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.42

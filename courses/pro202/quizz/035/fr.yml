@@ -1,8 +1,8 @@
 question: Lors de la génération de signatures pour une entrée P2SH pendant la construction de la transaction, quel script doit être utilisé dans le processus de calcul du sighash ?
-answer: Le script de rachat doit être utilisé à la place de la clé scriptPubKey
+answer: Le script de rachat doit être utilisé à la place de la clé ScriptPubKey
 wrong_answers:
-  - La clé scriptPubKey originale contenant le hachage doit être utilisée directement
-  - Une combinaison du scriptPubKey et du script de rachat doit être utilisée
+  - La clé ScriptPubKey originale contenant le hachage doit être utilisée directement
+  - Une combinaison du ScriptPubKey et du script de rachat doit être utilisée
   - Le ScriptSig contenant les données de déverrouillage doit être utilisé à la place
 explanation: |
-  Lors de la génération de la signature P2SH, le processus sighash nécessite l'utilisation du script redeem à la place de la clé scriptPubKey. Ceci est crucial car la clé scriptPubKey ne contient que le hachage du script de rachat, et non les conditions de dépense réelles. Le script de remboursement contient la logique réelle (comme les exigences multisig) qui détermine comment les résultats peuvent être dépensés, de sorte que les signatures doivent être générées par rapport à ce script sous-jacent pour être valides. L'utilisation directe de la clé scriptPubKey échouerait car elle ne contient qu'une comparaison de hachage, et non les conditions de dépense réelles qui doivent être satisfaites.
+  Lors de la génération de la signature P2SH, le processus sighash nécessite l'utilisation du script rachat à la place de la clé ScriptPubKey. Ceci est crucial car la clé ScriptPubKey ne contient que le hachage du script de rachat, et non les conditions de dépense réelles. Le script de rachat contient la logique réelle (comme les exigences multisig) qui détermine comment les résultats peuvent être dépensés, de sorte que les signatures doivent être générées par rapport à ce script sous-jacent pour être valides. L'utilisation directe de la clé scriptPubKey échouerait car elle ne contient qu'une comparaison de hachage, et non les conditions de dépense réelles qui doivent être satisfaites.

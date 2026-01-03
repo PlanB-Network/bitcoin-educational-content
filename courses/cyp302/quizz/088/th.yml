@@ -1,0 +1,9 @@
+question: อัลกอริธึมการเข้ารหัสบล็อกที่ถูกนำมาใช้เป็นมาตรฐาน AES คืออะไร?
+answer: The Rijndael Cipher
+wrong_answers:
+  - DES
+  - อาร์เอสเอ
+  - Diffie-Hellman
+explanation: |
+  Rijndael Cipher ได้รับการยอมรับให้เป็นมาตรฐานการเข้ารหัสแบบสมมาตร (AES) โดย NIST เนื่องจากประสิทธิภาพสูงและความปลอดภัย
+reviewed: false

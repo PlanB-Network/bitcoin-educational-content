@@ -64,10 +64,11 @@ proofreading:
     contributor_names:
     reward: 14.84
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 10.63
+      - 62maximalist
+    reward: 5.31
   - language: it
     last_contribution_date:
     urgency: 1
@@ -153,3 +154,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.52
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.63

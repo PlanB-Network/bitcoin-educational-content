@@ -6,4 +6,4 @@ wrong_answers:
   - Sustitución de cada letra
 explanation: |
   En un cifrado de flujo, la operación XOR se utiliza generalmente para combinar el flujo de claves con el mensaje porque es simple y reversible.
-reviewed: false
+reviewed: true

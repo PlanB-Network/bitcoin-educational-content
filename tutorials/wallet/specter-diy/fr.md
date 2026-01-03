@@ -22,10 +22,10 @@ Bien que nous ayons une carte d'extension qui met tout dans un format agréable 
 ![image](assets/fr/01.webp)
 
 
-Nous voulons aussi que le projet reste flexible et qu'il puisse fonctionner avec n'importe quel autre ensemble de composants avec un minimum de changements. Peut-être voulez-vous créer un wallet matériel sur une architecture différente (RISC-V ?), avec un modem audio comme canal de communication - vous devriez pouvoir le faire. Il devrait être facile d'ajouter ou de modifier des fonctionnalités de Specter et nous essayons d'abstraire les modules logiques autant que possible.
+Nous voulons aussi que le projet reste flexible et qu'il puisse fonctionner avec n'importe quel autre ensemble de composants avec un minimum de changements. Peut-être voulez-vous créer un wallet matériel sur une architecture différente (RISC-V ?), avec un modem audio comme canal de communication, vous devriez pouvoir le faire. Il devrait être facile d'ajouter ou de modifier des fonctionnalités de Specter et nous essayons d'abstraire les modules logiques autant que possible.
 
 
-Les codes QR sont un moyen par défaut pour Specter de communiquer avec l'hôte. Les codes QR sont très pratiques et permettent à l'utilisateur de contrôler la transmission des données - chaque code QR a une capacité très limitée et la communication se fait de manière unidirectionnelle. De plus, il s'agit d'une communication aérienne - vous n'avez pas besoin de connecter le wallet à l'ordinateur à quelque moment que ce soit.
+Les codes QR sont un moyen par défaut pour Specter de communiquer avec l'hôte. Les codes QR sont très pratiques et permettent à l'utilisateur de contrôler la transmission des données, chaque code QR a une capacité très limitée et la communication se fait de manière unidirectionnelle. De plus, il s'agit d'une communication aérienne, vous n'avez pas besoin de connecter le wallet à l'ordinateur à quelque moment que ce soit.
 
 
 Pour le stockage des secrets, nous supportons le mode agnostique (wallet oublie tous les secrets lorsqu'il est éteint), le mode téméraire (stocke les secrets dans la mémoire flash du microcontrôleur de l'application) et l'intégration de secure element est à venir.
@@ -49,7 +49,7 @@ Si quelque chose ne fonctionne pas, ouvrez un problème ici ou posez une questio
 ## Liste d'achats pour Specter-DIY
 
 
-Nous décrivons ici ce qu'il faut acheter, et dans la partie suivante, nous expliquons comment l'assembler et nous donnons quelques informations sur la carte - cavaliers d'alimentation, ports USB, etc.
+Nous décrivons ici ce qu'il faut acheter, et dans la partie suivante, nous expliquons comment l'assembler et nous donnons quelques informations sur la carte, cavaliers d'alimentation, ports USB, etc.
 
 
 ### Planche de découverte
@@ -70,7 +70,7 @@ Facultatif mais recommandé :
 - [Waveshare QR code scanner](https://www.waveshare.com/barcode-scanner-module.htm) avec de longs connecteurs comme [ceux-ci](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) ou [ceux-ci](https://www.amazon.com/gp/product/B015KA0RRU/) pour connecter le scanner à la carte (4 connecteurs nécessaires).
 
 
-Nous travaillons actuellement sur une carte d'extension qui comprend une fente pour carte à puce, un scanner de code QR, une batterie et un boîtier imprimé en 3D, mais elle n'inclut pas la partie principale - la carte de découverte que vous devez commander séparément. De cette manière, l'attaque de la chaîne d'approvisionnement n'est pas un problème puisque les composants critiques pour la sécurité sont achetés dans des magasins d'électronique au hasard.
+Nous travaillons actuellement sur une carte d'extension qui comprend une fente pour carte à puce, un scanner de code QR, une batterie et un boîtier imprimé en 3D, mais elle n'inclut pas la partie principale, la carte de découverte que vous devez commander séparément. De cette manière, l'attaque de la chaîne d'approvisionnement n'est pas un problème puisque les composants critiques pour la sécurité sont achetés dans des magasins d'électronique au hasard.
 
 
 Vous pouvez commencer à utiliser Specter même sans aucun composant supplémentaire, mais vous pourrez communiquer avec lui par USB ou par l'intermédiaire de l'emplacement de carte SD intégré. L'utilisation de Specter via USB signifie qu'il n'est pas relié à un réseau aérien, ce qui vous fait perdre une propriété de sécurité importante.
@@ -109,7 +109,7 @@ Vous pouvez trouver des scanners bon marché en Chine. Leur qualité est souvent
 Dans ce cas, vous ne pouvez utiliser Specter qu'avec une carte USB / SD.
 
 
-A moins que vous ne construisiez votre propre module de communication qui utilise quelque chose d'autre au lieu des codes QR - audiomodem, bluetooth ou autre. Dès qu'il peut être déclenché et envoyer les données en série, vous pouvez faire ce que vous voulez.
+A moins que vous ne construisiez votre propre module de communication qui utilise quelque chose d'autre au lieu des codes QR, audiomodem, bluetooth ou autre. Dès qu'il peut être déclenché et envoyer les données en série, vous pouvez faire ce que vous voulez.
 
 
 ### Composants optionnels
@@ -192,7 +192,7 @@ Avec le chargeur de démarrage sécurisé, l'installation initiale du micrologic
 - Vous pouvez maintenant placer le cavalier d'alimentation là où vous le souhaitez et alimenter la carte à partir du powerbank ou de la batterie.
 
 
-Le flashage du firmware initial par copier-coller du fichier `.bin` échoue parfois - souvent à cause du câble, ou si vous connectez l'appareil à travers un hub USB. Dans ce cas, vous pouvez essayer plusieurs fois (cela fonctionne normalement en 2 ou 3 tentatives).
+Le flashage du firmware initial par copier-coller du fichier `.bin` échoue parfois, souvent à cause du câble, ou si vous connectez l'appareil à travers un hub USB. Dans ce cas, vous pouvez essayer plusieurs fois (cela fonctionne normalement en 2 ou 3 tentatives).
 
 
 Si cela échoue toujours, vous pouvez utiliser l'outil open-source [stlink](https://github.com/stlink-org/stlink/releases/latest). Installez-le et tapez dans votre terminal : `st-flash write <path/to/initial_firmare.bin> 0x8000000`. Cela fonctionne généralement de manière beaucoup plus fiable.
@@ -207,7 +207,7 @@ Si cela échoue toujours, vous pouvez utiliser l'outil open-source [stlink](http
  - Assurez-vous qu'un seul fichier `specter_upgrade***.bin` se trouve dans le répertoire racine
 - Insérez la carte SD dans l'emplacement SD de la carte Discovery et mettez la carte sous tension
 - Bootloader flashera le micrologiciel et vous informera lorsque ce sera fait.
-- Redémarrez la carte - vous verrez l'interface Specter-DIY, qui vous proposera de sélectionner votre code PIN
+- Redémarrez la carte, vous verrez l'interface Specter-DIY, qui vous proposera de sélectionner votre code PIN
 
 
 Chaque fois qu'une nouvelle version est disponible, il suffit de télécharger le fichier `specter_upgrade_<version>.bin` à partir des versions, de le déposer sur la carte SD et de mettre à jour l'appareil comme dans l'étape précédente. Le Bootloader s'assurera que seul le firmware signé peut être chargé sur la carte.
@@ -244,7 +244,7 @@ Allez dans le menu `Paramètres de l'appareil` - le numéro de version s'affiche
 L'affichage est contrôlé par l'application MCU.
 
 
-L'intégration des éléments sécurisés n'est pas encore achevée - pour l'instant, les secrets sont également stockés sur le MCU principal. Mais vous pouvez utiliser le wallet sans stocker le secret - vous devez entrer votre phrase de récupération à chaque fois. Pourquoi se souvenir d'un long passphrase si l'on peut se souvenir de l'ensemble de la mnémonique ?
+L'intégration des éléments sécurisés n'est pas encore achevée, pour l'instant, les secrets sont également stockés sur le MCU principal. Mais vous pouvez utiliser le wallet sans stocker le secret, vous devez entrer votre phrase de récupération à chaque fois. Pourquoi se souvenir d'un long passphrase si l'on peut se souvenir de l'ensemble de la mnémonique ?
 
 
 L'appareil utilise une mémoire flash externe pour stocker certains fichiers (QSPI), mais tous les fichiers utilisateur sont signés par le wallet et vérifiés lors du chargement.
@@ -256,25 +256,25 @@ La fonctionnalité de balayage QR se trouve sur un microcontrôleur séparé, de
 ### Protection par code PIN (authentification de l'utilisateur)
 
 
-Lors du premier démarrage, un secret unique est généré sur le MCU principal. Ce secret vous permet de vérifier que l'appareil n'a pas été remplacé par un appareil malveillant - lorsque vous entrez le code PIN, vous voyez une liste de mots qui restent inchangés tant que le secret est présent.
+Lors du premier démarrage, un secret unique est généré sur le MCU principal. Ce secret vous permet de vérifier que l'appareil n'a pas été remplacé par un appareil malveillant, lorsque vous entrez le code PIN, vous voyez une liste de mots qui restent inchangés tant que le secret est présent.
 
 
-Votre code PIN et ce secret unique sont utilisés pour generate une clé de décryptage pour vos clés Bitcoin (si vous les stockez). Ainsi, si l'attaquant est en mesure de contourner l'écran du code PIN, le décryptage échouera quand même.
+Votre code PIN et ce secret unique sont utilisés pour générer une clé de décryptage pour vos clés Bitcoin (si vous les stockez). Ainsi, si l'attaquant est en mesure de contourner l'écran du code PIN, le décryptage échouera quand même.
 
 
-Si vous avez verrouillé le firmware (TODO : ajouter le lien vers les instructions ici), le secret sera également verrouillé, de sorte que si l'attaquant introduit un firmware différent sur la carte, le secret sera effacé et vous pourrez le reconnaître lorsque vous commencerez à saisir le code PIN - la séquence des mots sera différente.
+Si vous avez verrouillé le firmware (TODO : ajouter le lien vers les instructions ici), le secret sera également verrouillé, de sorte que si l'attaquant introduit un firmware différent sur la carte, le secret sera effacé et vous pourrez le reconnaître lorsque vous commencerez à saisir le code PIN, la séquence des mots sera différente.
 
 
 ### Génération de la phrase de récupération
 
 
-C'est l'une des parties les plus importantes de la wallet - pour sécuriser la clé generate. Pour ce faire, nous utilisons plusieurs sources d'entropie :
+C'est l'une des parties les plus importantes du wallet, pour sécuriser la clé générée. Pour ce faire, nous utilisons plusieurs sources d'entropie :
 
 
 
 - TRNG du microcontrôleur. Propriétaire, certifié et probablement bon, mais nous ne lui faisons pas confiance
 - Écran tactile. Chaque fois que vous touchez l'écran, nous mesurons la position et le moment où ce contact s'est produit (en tics de microcontrôleur à 180 MHz).
-- Microphones intégrés - pas encore. La carte est équipée de deux microphones, de sorte que le matériel wallet peut vous écouter et mélanger ces données au pool d'entropie.
+- Microphones intégrés pas encore. La carte est équipée de deux microphones, de sorte que le matériel wallet peut vous écouter et mélanger ces données au pool d'entropie.
 
 
 Toute cette entropie est hachée ensemble et convertie en votre phrase de récupération. L'entropie résultante est toujours meilleure que n'importe laquelle des sources individuelles.
@@ -286,18 +286,18 @@ Toute cette entropie est hachée ensemble et convertie en votre phrase de récup
 Specter fonctionne comme un stockage de clés. Il contient des clés privées HD qui peuvent être impliquées dans des portefeuilles. Les portefeuilles sont définis par leurs descripteurs. Nous prenons également en charge les miniscripts.
 
 
-Chaque wallet appartient à un réseau particulier. Cela signifie que si vous avez importé une wallet sur `testnet`, elle ne sera pas disponible sur `mainnet` ou `regtest` - vous devez basculer sur ce réseau et importer la wallet séparément.
+Chaque wallet appartient à un réseau particulier. Cela signifie que si vous avez importé un wallet sur `testnet`, elle ne sera pas disponible sur `mainnet` ou `regtest`, vous devez basculer sur ce réseau et importer le wallet séparément.
 
 
 ### Vérification des transactions
 
 
-Les règles suivantes s'appliquent aux transactions que wallet signera :
+Les règles suivantes s'appliquent aux transactions que le wallet signera :
 
 
 
 - si des entrées mixtes provenant de différents portefeuilles sont trouvées, l'utilisateur est averti ([attack](https://blog.trezor.io/details-of-the-multisig-change-address-issue-and-its-mitigation-6370ad73ed2a))
-- change outputs show the name of the wallet they are sent to
+- Les sorties de changement affichent le nom du portefeuille vers lequel elles sont envoyées
 - pour utiliser un multisig ou un miniscript, vous devez d'abord importer le wallet en ajoutant le descripteur wallet (par QR, USB ou carte SD)
 
 
@@ -310,7 +310,7 @@ Tous les descripteurs Bitcoin normaux fonctionnent. A part cela, nous avons quel
 ### Branches multiples dans les descripteurs
 
 
-Pour économiser de l'espace dans les codes QR, nous autorisons l'ajout de descripteurs avec plusieurs branches en une seule fois. Si vous souhaitez utiliser `wpkh(xpub/0/*)` pour les adresses de réception et `wpkh(xpub/1/*)` pour les adresses de modification, vous pouvez les combiner en un seul descripteur : `wpkh(xpub/{0,1}/*)` - le wallet considérera le premier index de la partie `{}` comme la branche pour les adresses de réception et le second comme les adresses de modification.
+Pour économiser de l'espace dans les codes QR, nous autorisons l'ajout de descripteurs avec plusieurs branches en une seule fois. Si vous souhaitez utiliser `wpkh(xpub/0/*)` pour les adresses de réception et `wpkh(xpub/1/*)` pour les adresses de modification, vous pouvez les combiner en un seul descripteur : `wpkh(xpub/{0,1}/*)`, le wallet considérera le premier index de la partie `{}` comme la branche pour les adresses de réception et le second comme les adresses de modification.
 
 
 Vous pouvez également spécifier plus de deux branches, et les index des branches peuvent être différents pour différents cosignataires. Ce descripteur est donc très étrange mais totalement valide :
@@ -342,7 +342,7 @@ Le descripteur `wpkh(xpub)` sera converti en `wpkh(xpub/{0,1}/*)`.
 Specter supporte les miniscripts, mais ne supporte pas la compilation de politiques en miniscripts (parce que c'est beaucoup trop cher). Nous effectuons quelques vérifications sur le miniscript, ainsi seuls les scripts `B` sont autorisés au niveau supérieur et tous les arguments dans les sous-miniscripts doivent avoir des propriétés conformes à la [spec](http://bitcoin.sipa.be/miniscript/).
 
 
-Vous pouvez utiliser [bitcoin.sipa.be](http://bitcoin.sipa.be/miniscript/) pour generate un descripteur d'une politique et l'importer ensuite dans la wallet.
+Vous pouvez utiliser [bitcoin.sipa.be](http://bitcoin.sipa.be/miniscript/) pour générer un descripteur d'une politique et l'importer ensuite dans la wallet.
 
 
 Par exemple, une politique "Je peux dépenser maintenant, ou dans 100 jours ma femme peut dépenser" peut être convertie en wallet de la manière suivante :

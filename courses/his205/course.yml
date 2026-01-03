@@ -18,10 +18,11 @@ proofreading:
       - Asi0Flammeus
     reward: 41.76
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 83.52
+      - Trabolo
+    reward: 41.76
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -147,6 +148,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 111.32
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 139.13
 tags:
   - historical
   - case-studies

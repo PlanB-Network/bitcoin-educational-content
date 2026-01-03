@@ -13,7 +13,7 @@ description: Jinsi ya kutumia Satochip na SeedSigner yako?
 
 ---
 
-Satochip ni maunzi mahiri ya umbizo la kadi ya wallet yenye kipengele cha usalama kilichoidhinishwa na EAL6+, mojawapo ya viwango vya juu zaidi vya usalama. Imeundwa na kuzalishwa na kampuni ya Ubelgiji ya jina moja: Satochip.
+Satochip ni hardware mahiri ya umbizo la kadi ya wallet yenye kipengele cha usalama kilichoidhinishwa EAL6+, mojawapo ya viwango vya juu zaidi vya usalama. Imeundwa na kuzalishwa na kampuni ya Ubelgiji yenye jina hilo hilo: Satochip.
 
 
 
@@ -21,7 +21,7 @@ Bei ya takriban €25, Satochip inajitokeza kutoka kwa shindano kwa thamani yake
 
 
 
-Kwa upande mwingine, muundo wake unaweka vikwazo fulani vya kazi. Upungufu kuu wa Satochip ni kukosekana kwa skrini iliyojumuishwa: kwa hivyo watumiaji lazima wasaini shughuli bila upofu, wakitegemea skrini ya kompyuta zao pekee.
+Kwa upande mwingine, muundo wake unaweka vikwazo fulani vya kazi. Upungufu kuu wa Satochip ni kukosekana kwa skrini iliyojumuishwa: kwa hivyo watumiaji lazima wasaini muamala bila upofu, wakitegemea skrini ya kompyuta zao pekee.
 
 
 
@@ -33,15 +33,15 @@ Ikiwa tunatazama tatizo kwa njia nyingine, kutumia SeedSigner na Satochip inajaz
 
 
 
-Kwa maoni yangu, usanidi huu hutoa faida kadhaa juu ya pochi za kawaida za vifaa:
+Kwa maoni yangu, usanidi huu hutoa faida kadhaa juu ya wallet za kawaida za vifaa:
 
 
 
 
-- Satochip inagharimu takriban €25, na kwa kuwa applet ni chanzo huria, unaweza kuisakinisha mwenyewe kwenye smartcard tupu. Kisha unahitaji kuongeza gharama ya vipengele vya SeedSigner na kiendelezi cha kusoma smartcards: kulingana na mahali unaponunua maunzi haya, jumla inapaswa kuwa kati ya €70 na €100.
+- Satochip inagharimu takriban €25, na kwa kuwa applet ni chanzo huria, unaweza kuisakinisha mwenyewe kwenye smartcard tupu. Kisha unahitaji kuongeza gharama ya vipengele vya SeedSigner na kiendelezi cha kusoma smartcards: kulingana na mahali unaponunua hardware hii, jumla inapaswa kuwa kati ya €70 na €100.
 - Programu zote zinazohusika katika usanidi ni chanzo-wazi: programu dhibiti ya SeedSigner na applet ya Satochip.
 - Unafaidika na kipengele cha usalama kilichoidhinishwa.
-- Usanidi unaweza kufanywa kwa DIY kabisa, bila kutumia maunzi yaliyokusudiwa kwa uwazi kwa matumizi ya Bitcoin, ambayo inaweza kutoa aina ya kukanusha na kupinga vitisho fulani vya nje (pamoja na, kulingana na nchi, shinikizo la serikali). Hili pia ni suluhisho la kuvutia ikiwa ufikiaji wa pochi za vifaa vya kibiashara umezuiwa au hauwezekani katika eneo lako.
+- Usanidi unaweza kufanywa kwa DIY kabisa, bila kutumia hardware yaliyokusudiwa kwa uwazi kwa matumizi ya Bitcoin, ambayo inaweza kutoa aina ya kukanusha na kupinga vitisho fulani vya nje (pamoja na, kulingana na nchi, shinikizo la serikali). Hili pia ni suluhisho la kuvutia ikiwa ufikiaji wa hardware wallet za kibiashara umezuiwa au hauwezekani katika eneo lako.
 
 
 
@@ -127,7 +127,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Anza kwa kusakinisha kamera kwenye Raspberry Pi Zero, ukiiingiza kwa makini kwenye pini ya kamera na kuifunga kwa kichupo cheusi. Kisha weka Pi kwenye sehemu ya chini ya kipochi, hakikisha kwamba milango imelinganishwa na fursa zinazolingana.
+Anza kwa kusakinisha kamera kwenye Raspberry Pi Zero, ukiiingiza kwa makini kwenye pini ya kamera na kuifunga kwa kichupo cheusi. Kisha weka Pi kwenye sehemu ya chini ya wallet, hakikisha kwamba milango imelinganishwa na fursa zinazolingana.
 
 
 
@@ -159,7 +159,7 @@ Kisha ongeza skrini kwenye pini za GPIO za kiendelezi.
 
 
 
-Hatimaye, ingiza kadi ya microSD iliyo na firmware kwenye bandari ya upande kwenye Raspberry Pi Zero.
+Hatimaye, ingiza kadi ya microSD iliyo na firmware kwenye port ya upande kwenye Raspberry Pi Zero.
 
 
 
@@ -167,7 +167,7 @@ Hatimaye, ingiza kadi ya microSD iliyo na firmware kwenye bandari ya upande kwen
 
 
 
-Sasa unaweza kuunganisha SeedSigner yako kupitia bandari ndogo ya USB ya Raspberry Pi Zero, au kupitia mlango wa USB-C wa kiendelezi. Chaguzi zote mbili zinafanya kazi. Subiri sekunde chache kwa kuanza, kisha unapaswa kuona skrini ya kukaribisha ikionekana.
+Sasa unaweza kuunganisha SeedSigner yako kupitia port ndogo ya USB ya Raspberry Pi Zero, au kupitia mlango wa USB-C wa kiendelezi. Chaguzi zote mbili zinafanya kazi. Subiri sekunde chache kwa kuanza, kisha unapaswa kuona skrini ya kukaribisha ikionekana.
 
 
 
@@ -186,7 +186,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Ikiwa tayari unamiliki Satochip, unaweza kuruka hatua hii na kwenda moja kwa moja hadi hatua ya 4. Katika sehemu hii, tutaangalia jinsi ya kusakinisha applet ya Satochip kwenye smartcard tupu (njia ya DIY). Applet ni programu ndogo inayoendeshwa kwenye smartcard ambayo hutuwezesha kudhibiti vitendaji maalum.
+Ikiwa tayari unamiliki Satochip, unaweza kuruka hatua hii na kwenda moja kwa moja hadi hatua ya 4. Katika sehemu hii, tutaangalia jinsi ya kusakinisha applet ya Satochip kwenye smartcard tupu (njia ya DIY). Applet ni programu ndogo inayoendeshwa kwenye smartcard ambayo hukuwezesha kudhibiti vitendaji maalum.
 
 
 
@@ -198,7 +198,7 @@ Ili kuanza, fungua menyu ya `Zana > Zana za Smartcard` kwenye SeedSigner yako.
 
 
 
-Kisha chagua `Vyombo vya DIY > Sakinisha Applet`.
+Kisha chagua `DIY Tools > Sakinisha Applet`.
 
 
 
@@ -206,7 +206,7 @@ Kisha chagua `Vyombo vya DIY > Sakinisha Applet`.
 
 
 
-Ingiza kadi yako mahiri kwenye kisomaji cha SeedSigner, huku chipu ikitazama chini, na uchague applet ya `Satochip`.
+Ingiza kadi yako mahiri kwenye SeedSigner reader, huku chip ikitazama chini, na uchague applet ya `Satochip`.
 
 
 
@@ -239,7 +239,7 @@ Mara tu applet imesakinishwa kwa ufanisi, unaweza kuendelea hadi hatua ya 4.
 
 
 
-Kwa kuwa sasa maunzi na programu yako yote inafanya kazi vizuri, unaweza kuendelea kuunda kwingineko yako ya Bitcoin. Ili kufanya hivyo, chomeka SeedSigner yako, kisha generate seed yako kama ilivyo kwa SeedSigner ya kawaida, ama kwa kukunja kete au kwa kupiga picha:
+Kwa kuwa sasa hardware na programu yako yote inafanya kazi vizuri, unaweza kuendelea kuunda kwingineko yako ya Bitcoin. Ili kufanya hivyo, chomeka SeedSigner yako, kisha generate seed yako kama ilivyo kwa SeedSigner ya kawaida, ama kwa kukunja kete au kwa kupiga picha:
 
 
 
@@ -260,7 +260,7 @@ Ikiwa ungependa kuona maelezo ya utaratibu huu, tafadhali fuata sehemu ya 5 ya m
 
 https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-### 5.2. Kuokoa seed kwa Mtunza Mbegu
+### 5.2. Kuokoa seed kwa SeedSigner
 
 
 
@@ -268,13 +268,13 @@ Mara baada ya seed kuzalishwa, huu ndio wakati pekee inakaa kwenye RAM ya SeedSi
 
 
 
-Mbinu mbadala iliyochaguliwa hapa inategemea mapendeleo yako, lakini ni muhimu kuwa na angalau nakala moja ya maneno yako ya kumbukumbu, ama kwenye vyombo vya habari (karatasi au chuma) au, kama hapa, kwa Mtunza Mbegu. Unaweza pia kuzidisha idadi ya chelezo kama inavyohitajika. Kwa habari zaidi juu ya mikakati ya kuhifadhi kwingineko, ninapendekeza usome mafunzo haya:
+Mbinu mbadala iliyochaguliwa hapa inategemea mapendeleo yako, lakini ni muhimu kuwa na angalau nakala moja ya maneno yako ya kumbukumbu, ama kwenye vyombo vya habari (karatasi au chuma) au, kama hapa, kwa SeedSigner. Unaweza pia kuzidisha idadi ya chelezo kama inavyohitajika. Kwa habari zaidi juu ya mikakati ya kuhifadhi kwingineko, ninapendekeza usome mafunzo haya:
 
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ili kuhifadhi nakala ya seed yako kwenye Mtunza mbegu, nenda moja kwa moja kwenye menyu ya `Backup Seed`.
+Ili kuhifadhi nakala ya seed yako kwenye SeedSigner, nenda moja kwa moja kwenye menyu ya `Backup Seed`.
 
 
 
@@ -282,7 +282,7 @@ Ili kuhifadhi nakala ya seed yako kwenye Mtunza mbegu, nenda moja kwa moja kweny
 
 
 
-Kisha ingiza Mtunza mbegu wako kwenye kisoma kadi mahiri, na uchague `To SeedKeeper`.
+Kisha ingiza SeedSigner wako kwenye kisoma kadi mahiri, na uchague `To SeedKeeper`.
 
 
 
@@ -306,13 +306,13 @@ Chagua `Lebo` ili kutambua kwa urahisi siri zako tofauti zilizohifadhiwa kwenye 
 
 
 
-Iwapo mkakati wako wa kuhifadhi unategemea Mtunza mbegu huyu pekee, ninapendekeza ufanye jaribio tupu la urejeshaji sasa, kisha ulinganishe alama za vidole ili uhakikishe kuwa nakala rudufu inafanya kazi.
+Iwapo mkakati wako wa kuhifadhi unategemea SeedSigner huyu pekee, ninapendekeza ufanye jaribio tupu la urejeshaji sasa, kisha ulinganishe alama za vidole ili uhakikishe kuwa nakala rudufu inafanya kazi.
 
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-Nambari ya PIN ya Mlinzi wa mbegu inapaswa kuwa ndefu na bila mpangilio iwezekanavyo, ili kuzuia majaribio ya kinyama iwapo kadi itaathiriwa. Unapaswa pia kuweka nakala rudufu ya msimbo huu wa PIN, iliyohifadhiwa mahali tofauti na Mtunza mbegu. Bila PIN hii, hutaweza kufikia kumbukumbu zilizohifadhiwa katika Mtunza mbegu, na bitcoins zako zitapotea kabisa.
+Nambari ya PIN ya  inapaswa kuwa ndefu na bila mpangilio iwezekanavyo, ili kuzuia majaribio ya kinyama iwapo kadi itaathiriwa. Unapaswa pia kuweka nakala rudufu ya msimbo huu wa PIN, iliyohifadhiwa mahali tofauti na SeedSigner. Bila PIN hii, hutaweza kufikia kumbukumbu zilizohifadhiwa katika SeedSigner, na bitcoin zako zitapotea kabisa.
 
 
 
@@ -352,11 +352,11 @@ SeedSigner itagundua kuwa Satochip yako haijaanzishwa. Bofya `Naelewa` ili kuthi
 
 
 
-Kisha unaweza kuweka msimbo wa PIN wa Satochip, kutoka kwa vibambo 4 hadi 16. Ili kuimarisha usalama wa wallet yako, chagua msimbo mrefu na nasibu: ndio ulinzi pekee dhidi ya ufikiaji wa kimwili kwa maneno yako ya kumbukumbu.
+Kisha unaweza kuweka msimbo wa PIN wa Satochip, kutoka kwa vibambo 4 hadi 16. Ili kuimarisha usalama wa wallet yako, chagua msimbo mrefu na nasibu; ndio ulinzi pekee dhidi ya ufikiaji wa kimwili wa maneno yako ya kumbukumbu.
 
 
 
-Kumbuka kuhifadhi PIN hii mara tu inapoundwa, ama katika kidhibiti salama cha nenosiri au kwa njia ya kawaida, kulingana na mkakati wako wa kibinafsi. Katika kesi ya pili, hakikisha kuwa hauhifadhi kifaa kilicho na PIN katika sehemu sawa na Satochip yako, vinginevyo ulinzi hautakuwa na maana. Ni muhimu kuwa na nakala mbadala: **Bila PIN hii, hutaweza kufikia seed yako, na bitcoins zako zitapotea milele**.
+Kumbuka kuhifadhi PIN hii mara tu inapoundwa, ama katika kidhibiti salama cha nenosiri au kwa njia ya kawaida, kulingana na mkakati wako wa kibinafsi. Katika kesi ya pili, hakikisha kuwa hauhifadhi kifaa kilicho na PIN katika sehemu sawa na Satochip yako, vinginevyo ulinzi hautakuwa na maana. Ni muhimu kuwa na nakala mbadala: **Bila PIN hii, hutaweza kufikia seed yako, na bitcoin zako zitapotea milele**.
 
 
 
@@ -364,8 +364,7 @@ Kumbuka kuhifadhi PIN hii mara tu inapoundwa, ama katika kidhibiti salama cha ne
 
 
 
-SeedSigner kisha inakuuliza ni seed gani ya kuingiza kwenye Satochip. Chagua ile ambayo alama yake ya vidole inalingana na kwingineko ambayo umeunda hivi punde.
-
+SeedSigner kisha inakuuliza ni seed gani ya kuingiza kwenye Satochip. Chagua ile ambayo alama ya vidole inalingana na kwingineko uliyounda hivi punde.
 
 
 ![Image](assets/fr/26.webp)
@@ -402,8 +401,7 @@ Kwa kuwa sasa jalada lako limeanza kutumika, tutaleta taarifa zake za umma ("*du
 
 
 
-Ingiza kadi ya microSD iliyo na mfumo wa uendeshaji, kisha uwashe SeedSigner yako. Kwa sasa, haiwezi kufanya lolote, kwani bado haijui seed yako. Itabidi uanze kwa kuingiza Satochip kwenye kisoma kadi mahiri, kwa kuwa ndicho kinachoshikilia seed yako.
-
+Ingiza kadi ya microSD iliyo na mfumo wa uendeshaji, kisha washa SeedSigner yako. Kwa sasa, haiwezi kufanya lolote kwa sababu bado haijui seed yako. Itabidi uanze kwa kuingiza Satochip kwenye kisomaji cha kadi mahiri, kwa kuwa ndicho kinachoshikilia seed yako
 
 
 Kutoka kwa Skrini ya Nyumbani, fikia menyu ya `Zana > Zana za Smartcard > Kazi za Satochip`.
@@ -422,7 +420,7 @@ Kisha bonyeza `Hamisha Xpub`.
 
 
 
-Chagua aina ya kwingineko. Kwa upande wetu, ni kwingineko moja: chagua `Sig Moja`.
+Chagua aina ya kwingineko. Kwa upande wetu, ni kwingineko moja: chagua `Single-sig`.
 
 
 
@@ -438,7 +436,7 @@ Inayofuata inakuja uchaguzi wa kiwango cha uandishi. Chagua ya hivi punde: `Nati
 
 
 
-Hatimaye, chagua `Mratibu`, yaani, programu ya usimamizi wa kwingineko unayotaka kutumia. Hapa, tutakuwa tukitumia Sparrow Wallet.
+Hatimaye, chagua `Coordinator`, yaani, programu ya usimamizi wa kwingineko unayotaka kutumia. Hapa, tutakuwa tukitumia Sparrow Wallet.
 
 
 
@@ -446,7 +444,7 @@ Hatimaye, chagua `Mratibu`, yaani, programu ya usimamizi wa kwingineko unayotaka
 
 
 
-Ujumbe wa onyo unaonekana: hii ni kawaida kabisa. Ufunguo uliopanuliwa wa umma (`xpub`) hukuruhusu kutazama anwani zote zinazotokana na seed yako (kwenye akaunti ya kwanza). Hata hivyo, haitoi ufikiaji wa pesa zako: ufichuzi wake utahatarisha faragha yako, lakini sio usalama wa bitcoins zako. Kwa maneno mengine, inakuwezesha kuchunguza mizani yako, lakini si kuitumia.
+Ujumbe wa onyo unaonekana: hii ni kawaida kabisa. Ufunguo uliopanuliwa wa umma (`xpub`) hukuruhusu kutazama address zote zinazotokana na seed yako (kwenye akaunti ya kwanza). Hata hivyo, haitoi ufikiaji wa pesa zako: ufichuzi wake utahatarisha faragha yako, lakini sio usalama wa bitcoin zako. Kwa maneno mengine, inakuwezesha kuchunguza mizani yako, lakini si kuitumia.
 
 
 
@@ -504,7 +502,7 @@ Tembeza chini hadi `SeedSigner`, kisha uchague `Scan...`. Kamera yako ya wavuti 
 
 
 
-Weka jina kwa kwingineko yako, kisha ubofye kwenye `Unda Wallet`. Sparrow itakuuliza uweke nenosiri ili kufunga ufikiaji wa ndani kwa wallet hii. Chagua nenosiri thabiti: hulinda data yako katika Sparrow (funguo za umma, anwani, lebo na historia ya muamala). Hata hivyo, nenosiri hili halihitajiki kurejesha wallet katika siku zijazo: tu maneno yako ya mnemonic (na labda passphrase yako) itakuwa.
+Weka jina kwa kwingineko yako, kisha ubofye kwenye `Unda Wallet`. Sparrow itakuuliza uweke nenosiri ili kufunga ufikiaji wa ndani kwa wallet hii. Chagua nenosiri thabiti: hulinda data yako katika Sparrow (funguo za umma, address, lebo na historia ya muamala). Hata hivyo, nenosiri hili halihitajiki kurejesha wallet katika siku zijazo: tu maneno yako ya mnemonic (na labda passphrase yako) itakuwa.
 
 
 
@@ -528,7 +526,7 @@ Sasa hakikisha kwamba `alama ya vidole kuu` iliyoonyeshwa katika Sparrow Wallet 
 
 
 
-SeedSigner kisha itakuuliza uchanganue anwani ya kupokea bila mpangilio kutoka kwa Sparrow wallet yako ili kuthibitisha uhalali wa uagizaji.
+SeedSigner kisha itakuuliza uchanganue address ya kupokea bila mpangilio kutoka kwa Sparrow wallet yako ili kuthibitisha uhalali wa uagizaji.
 
 
 
@@ -536,7 +534,7 @@ SeedSigner kisha itakuuliza uchanganue anwani ya kupokea bila mpangilio kutoka k
 
 
 
-Satochip yako (kupitia SeedSigner) na Sparrow Wallet sasa zimeunganishwa kwa usalama. Sparrow hufanya kazi kama kiolesura kamili cha usimamizi, ilhali Satochip inasalia kuwa kifaa pekee chenye uwezo wa kusaini miamala yako. Sasa uko tayari kupokea na kutuma bitcoins katika usanidi usio na hewa kabisa.
+Satochip yako (kupitia SeedSigner) na Sparrow Wallet sasa zimeunganishwa kwa usalama. Sparrow hufanya kazi kama kiolesura kamili cha usimamizi, ilhali Satochip inasalia kuwa kifaa pekee chenye uwezo wa kusaini miamala yako. Sasa uko tayari kupokea na kutuma bitcoin katika usanidi usio na hewa kabisa.
 
 
 
@@ -544,19 +542,19 @@ Satochip yako (kupitia SeedSigner) na Sparrow Wallet sasa zimeunganishwa kwa usa
 
 
 
-## 7. Kupokea na kutuma bitcoins
+## 7. Kupokea na kutuma bitcoin
 
 
 
-Satochip yako na Sparrow Wallet sasa zimesanidiwa kufanya kazi pamoja. Katika sehemu hii, tutaelezea hatua kwa hatua jinsi ya kupokea na kutuma bitcoins katika hali hii.
+Satochip yako na Sparrow Wallet sasa zimesanidiwa kufanya kazi pamoja. Katika sehemu hii, tutaelezea hatua kwa hatua jinsi ya kupokea na kutuma bitcoin katika hali hii.
 
 
 
-### 7.1 Kupokea bitcoins
+### 7.1 Kupokea bitcoin
 
 
 
-#### 7.1.1 Kuzalisha anwani ya mapokezi
+#### 7.1.1 Kuzalisha address ya mapokezi
 
 
 
@@ -568,12 +566,12 @@ Kwenye kompyuta yako, fungua Sparrow Wallet na ufungue `Satochip-SeedSigner` wal
 
 
 
-Anwani mpya ya Bitcoin inaonekana. Utapata:
+address mpya ya Bitcoin inaonekana. Utapata:
 
 
 
 
-- Anwani katika umbizo la maandishi (kuanzia na `bc1q...` ikiwa unatumia P2WPKH, kama katika mfano huu);
+- Address katika umbizo la maandishi (kuanzia na `bc1q...` ikiwa unatumia P2WPKH, kama katika mfano huu);
 - Msimbo wa QR unaohusishwa;
 - Sehemu ya `Lebo`, ambayo ni muhimu kwa kufuatilia miamala yako.
 
@@ -599,7 +597,7 @@ Label : Sale of the Raspberry Pi Zero
 
 
 
-Anwani yako sasa inahusishwa na lebo hii katika sehemu zote za Sparrow.
+Address yako sasa inahusishwa na lebo hii katika sehemu zote za Sparrow.
 
 
 
@@ -611,11 +609,11 @@ Anwani yako sasa inahusishwa na lebo hii katika sehemu zote za Sparrow.
 
 
 
-Kabla ya kuwasilisha anwani yako ya kupokea kwa mlipaji, ni muhimu kuangalia kuwa ni ya seed yako. Hatua hii inahakikisha kwamba Satochip yako itaweza kutia saini miamala inayohusishwa na anwani hii. Pia huzuia mashambulizi yanayoweza kutokea ambapo Sparrow ingeonyesha anwani ya ulaghai. Kumbuka kwamba Sparrow inaendeshwa kwenye mazingira yasiyo salama (kompyuta yako), ambayo eneo lake la mashambulizi ni kubwa zaidi kuliko la Satochip yako, ambayo imetengwa kabisa. Hii ndiyo sababu hupaswi kamwe kuamini kwa upofu anwani zinazoonyeshwa kwenye Sparrow kabla ya kuziangalia kwenye maunzi yako ya wallet.
+Kabla ya kuwasilisha address yako ya kupokea kwa mlipaji, ni muhimu kuangalia kuwa ni ya seed yako. Hatua hii inahakikisha kwamba Satochip yako itaweza kutia saini miamala inayohusishwa na address hii. Pia huzuia mashambulizi yanayoweza kutokea ambapo Sparrow ingeonyesha address ya ulaghai. Kumbuka kwamba Sparrow inaendeshwa kwenye mazingira yasiyo salama (kompyuta yako), ambayo eneo lake la mashambulizi ni kubwa zaidi kuliko la Satochip yako, ambayo imetengwa kabisa. Hii ndiyo sababu hupaswi kamwe kuamini kwa upofu address zinazoonyeshwa kwenye Sparrow kabla ya kuziangalia kwenye hardware wallet yako.
 
 
 
-Katika Sparrow, bofya kwenye msimbo wa QR wa anwani ili kuikuza: kisha itaonyeshwa skrini nzima.
+Katika Sparrow, bofya kwenye msimbo wa QR wa address ili kuikuza: kisha itaonyeshwa skrini nzima.
 
 
 
@@ -639,7 +637,7 @@ Kisha thibitisha aina ya hati iliyotumiwa (katika kesi hii, `Native SegWit`), we
 
 
 
-Ikiwa anwani iliyochanganuliwa inalingana na ile inayotokana na seed yako, SeedSigner itaonyesha ujumbe: `Address Imethibitishwa`.
+Ikiwa address iliyochanganuliwa inalingana na ile inayotokana na seed yako, SeedSigner itaonyesha ujumbe: `Address Imethibitishwa`.
 
 
 
@@ -647,7 +645,7 @@ Ikiwa anwani iliyochanganuliwa inalingana na ile inayotokana na seed yako, SeedS
 
 
 
-Kisha unaweza kuwa na uhakika kwamba anwani ni ya kwingineko yako.
+Kisha unaweza kuwa na uhakika kwamba address ni ya kwingineko yako.
 
 
 
@@ -655,7 +653,7 @@ Kisha unaweza kuwa na uhakika kwamba anwani ni ya kwingineko yako.
 
 
 
-Sasa unaweza kutuma anwani hii kwa njia ya maandishi au kupitia msimbo wake wa QR kwa mtu au idara inayohitaji kukutumia satss. Muamala ukishatangazwa kwenye mtandao, utaonekana kwenye kichupo cha `Miamala` cha Sparrow Wallet.
+Sasa unaweza kutuma address hii kwa njia ya maandishi au kupitia msimbo wake wa QR kwa mtu au idara inayohitaji kukutumia satss. Muamala ukishatangazwa kwenye mtandao, utaonekana kwenye kichupo cha `Miamala` cha Sparrow Wallet.
 
 
 
@@ -663,18 +661,18 @@ Sasa unaweza kutuma anwani hii kwa njia ya maandishi au kupitia msimbo wake wa Q
 
 
 
-### 7.2 Tuma bitcoins
+### 7.2 Tuma bitcoin
 
 
 
-Kutuma bitcoins na usanidi wa Satochip-SeedSigner kunahusisha hatua 3:
+Kutuma bitcoin na usanidi wa Satochip-SeedSigner kunahusisha hatua 3:
 
 
 
 
-- Uumbaji wa shughuli katika Sparrow;
+- Uumbaji wa muamala katika Sparrow;
 - Kutia saini muamala huu kwenye Satochip, kupitia SeedSigner;
-- Hatimaye, shughuli hiyo inatangazwa kwenye mtandao kutoka Sparrow.
+- Hatimaye, muamala hiyo inatangazwa kwenye mtandao kutoka Sparrow.
 
 
 
@@ -682,11 +680,11 @@ Mabadilishano yote kati ya vifaa hivi viwili hufanyika kupitia misimbo ya QR pek
 
 
 
-#### 7.2.1 Kuunda shughuli katika Sparrow
+#### 7.2.1 Kuunda muamala katika Sparrow
 
 
 
-Katika Sparrow Wallet, unaweza kuunda muamala kwa kubofya kichupo cha `Tuma` kwenye upau wa upande wa kushoto. Hata hivyo, napendelea kutumia kichupo cha `UTXOs`, ambacho hukuruhusu kufanya mazoezi ya *Coin Control*. Mbinu hii inatoa udhibiti sahihi juu ya UTXO zilizotumiwa, ili kupunguza maelezo yaliyofichuliwa wakati wa shughuli zako za malipo.
+Katika Sparrow Wallet, unaweza kuunda muamala kwa kubofya kichupo cha `Tuma` kwenye upau wa upande wa kushoto. Hata hivyo, napendelea kutumia kichupo cha `UTXOs`, ambacho hukuruhusu kufanya mazoezi ya *Coin Control*. Mbinu hii inatoa udhibiti sahihi juu ya UTXO zilizotumiwa, ili kupunguza maelezo yaliyofichuliwa wakati wa muamala zako za malipo.
 
 
 
@@ -703,7 +701,7 @@ Kisha jaza sehemu za muamala:
 
 
 
-- Katika `Lipa kwa`, bandika anwani ya mpokeaji au changanua msimbo wake wa QR kwa kutumia aikoni ya kamera ;
+- Katika `Lipa kwa`, bandika address ya mpokeaji au changanua msimbo wake wa QR kwa kutumia aikoni ya kamera ;
 - Katika `Lebo`, ongeza lebo ili kufuatilia gharama hii;
 - Katika `Kiasi`, weka kiasi kitakachotumwa;
 - Hatimaye, chagua kiwango cha malipo kulingana na hali za sasa za mtandao (makadirio yanapatikana katika [mempool.space](https://mempool.space/)).
@@ -718,7 +716,7 @@ Mara baada ya kukamilisha sehemu zote, kagua maelezo kwa makini, kisha ubofye `U
 
 
 
-Angalia maelezo ya muamala mara ya mwisho kwa usahihi, kisha ubofye `Maliza Muamala kwa Kutia Saini`.
+Angalia maelezo ya muamala mara ya mwisho kwa usahihi, kisha ubofye `Malizia Muamala kwa Kutia Saini`.
 
 
 
@@ -762,18 +760,18 @@ Weka PIN yako ili kufungua smartcard.
 
 
 
-SeedSigner inagundua kuwa hii ni PSBT na inaonyesha muhtasari wa shughuli:
+SeedSigner inagundua kuwa hii ni PSBT na inaonyesha muhtasari wa muamala:
 
 
 
 
    - Kiasi kilichotumwa,
-   - Anwani za lengwa,
+   - Address lengwa,
    - Gharama zinazohusiana za manunuzi.
 
 
 
-Bofya kwenye `Maelezo ya Kagua` na uchunguze taarifa zote moja kwa moja kwenye skrini ya SeedSigner. Mambo muhimu zaidi ya kuangalia ni kiasi kilichotumwa, anwani lengwa na ada za miamala.
+Bofya kwenye `Maelezo ya Kagua` na uchunguze taarifa zote moja kwa moja kwenye skrini ya SeedSigner. Mambo muhimu zaidi ya kuangalia ni kiasi kilichotumwa, address lengwa na ada za miamala.
 
 
 
@@ -789,7 +787,7 @@ Ikiwa kila kitu kiko sawa, chagua `Idhinisha PSBT` ili kutia sahihi muamala kwa 
 
 
 
-Sahihi ikishakamilika, SeedSigner hutengeneza msimbo mpya wa QR ulio na shughuli iliyotiwa saini, tayari kuchanganuliwa na Sparrow.
+Sahihi ikishakamilika, SeedSigner hutengeneza msimbo mpya wa QR ulio na muamala uliotiwa saini, tayari kuchanganuliwa na Sparrow.
 
 
 
@@ -797,7 +795,7 @@ Sahihi ikishakamilika, SeedSigner hutengeneza msimbo mpya wa QR ulio na shughuli
 
 
 
-Sasa kwa kuwa shughuli hiyo imesainiwa na kuthibitishwa, kilichobaki ni kuitangaza kwenye mtandao wa Bitcoin ili mchimbaji aweze kuijumuisha kwenye kizuizi. Katika Sparrow, bofya `Scan QR`.
+Sasa kwa kuwa muamala hiyo imesainiwa na kuthibitishwa, kilichobaki ni kuitangaza kwenye mtandao wa Bitcoin ili miner aweze kuijumuisha kwenye block. Katika Sparrow, bofya `Scan QR`.
 
 
 
@@ -805,7 +803,7 @@ Sasa kwa kuwa shughuli hiyo imesainiwa na kuthibitishwa, kilichobaki ni kuitanga
 
 
 
-Wasilisha msimbo wa QR unaoonyeshwa kwenye SeedSigner yako (ile iliyo na shughuli iliyotiwa saini) kwenye kamera ya wavuti. Sparrow itaonyesha maelezo yote ya muamala. Hakikisha kuwa maelezo yote ni sahihi, kisha ubofye "Muamala wa Matangazo" ili kuyatangaza kwenye mtandao wa Bitcoin.
+Wasilisha msimbo wa QR unaoonyeshwa kwenye SeedSigner yako (ile iliyo na muamala uliotiwa saini) kwenye kamera ya wavuti. Sparrow itaonyesha maelezo yote ya muamala. Hakikisha kuwa maelezo yote ni sahihi, kisha ubofye "Muamala wa Matangazo" ili kuyatangaza kwenye mtandao wa Bitcoin.
 
 
 
@@ -813,7 +811,7 @@ Wasilisha msimbo wa QR unaoonyeshwa kwenye SeedSigner yako (ile iliyo na shughul
 
 
 
-Muamala wako sasa umetumwa kwa mtandao. Unaweza kufuata uthibitisho wake katika kichupo cha `Shughuli` cha Sparrow Wallet.
+Muamala wako sasa umetumwa kwa mtandao. Unaweza kufuata uthibitisho wake katika kichupo cha `muamala` cha Sparrow Wallet.
 
 
 
@@ -832,11 +830,11 @@ Kama tulivyoona katika sehemu zilizopita, kulingana na mkakati wako wa usalama, 
 
 - Kwa kutumia *SeedQR* ya kawaida na SeedSigner;
 - Kwa kurekodi maneno ya mnemonic kwenye njia ya kimwili;
-- Au kwa kuihifadhi kwa Mtunza Mbegu, kama ilivyoelezwa katika sehemu ya 5.2.
+- Au kwa kuihifadhi kwa SeedSigner, kama ilivyoelezwa katika sehemu ya 5.2.
 
 
 
-Kwa hali yoyote, kuna hali 2 kuu ambazo unahitaji kuingilia kati: kupoteza Satochip au kupoteza kwa SeedSigner. Hebu tuangalie jinsi ya kuitikia katika kila moja ya matukio haya.
+Kwa hali yoyote, kuna hali kuu mbili ambazo unahitaji kuingilia kati: kupoteza Satochip au kupoteza SeedSigner. Hebu tuangalie jinsi ya kuitikia katika kila moja ya matukio haya.
 
 
 
@@ -852,7 +850,7 @@ Chaguo bora ni kupendekeza vipengele muhimu na kujenga upya SeedSigner mpya kuto
 
 
 
-Ikiwa hutaki kuunda tena, unaweza pia kutumia Satochip yako kwa njia ya kawaida, yaani moja kwa moja kutoka kwa kompyuta yako, bila kupitia SeedSigner. Njia hii inafanya kazi kikamilifu, lakini inapunguza sana usalama wa Bitcoin wallet yako: unapoteza utengaji wa "*hewa-pengo*" na lazima sasa utie sahihi kwa upofu, kwa kuwa SeedSigner ilifanya kazi kama skrini inayoaminika. Hata hivyo, hili linaweza kuwa suluhu la muda katika dharura, au ikiwa huwezi kujenga upya SeedSigner.
+Ikiwa hutaki kuunda tena, unaweza pia kutumia Satochip yako kwa njia ya kawaida, yaani moja kwa moja kutoka kwa kompyuta yako, bila kupitia SeedSigner. Njia hii inafanya kazi kikamilifu, lakini inapunguza sana usalama wa Bitcoin wallet yako: unapoteza utengaji wa "*air-gap*" na lazima sasa utie sahihi kwa upofu, kwa kuwa SeedSigner ilifanya kazi kama skrini inayoaminika. Hata hivyo, hili linaweza kuwa suluhu la muda katika dharura, au ikiwa huwezi kujenga upya SeedSigner.
 
 
 
@@ -880,7 +878,7 @@ Hatimaye, weka PIN yako ya smartcard ili kuifungua. Kisha utaweza kufikia wallet
 
 
 
-Hali nyingine, nyeti zaidi ni wakati unapoteza ufikiaji wa Satochip yako iliyo na seed: iwe imevunjwa, imepotea, imeibiwa, au umesahau msimbo wake wa PIN. Ikiwa Satochip yako imeibiwa au kupotoshwa, tunapendekeza kwamba, mara tu ufikiaji wa pesa zako umerejeshwa, uhamishe bitcoins zako mara moja kwa wallet mpya kabisa, iliyotengenezwa kwa seed tofauti. Hii inahakikisha kwamba mshambulizi anayewezekana hawezi kamwe kufikia satss yako.
+Hali nyingine, nyeti zaidi ni wakati unapoteza ufikiaji wa Satochip yako iliyo na seed: iwe imevunjwa, imepotea, imeibiwa, au umesahau msimbo wake wa PIN. Ikiwa Satochip yako imeibiwa au kupotoshwa, tunapendekeza kwamba, mara tu ufikiaji wa pesa zako umerejeshwa, uhamishe bitcoin zako mara moja kwa wallet mpya kabisa, iliyotengenezwa kwa seed tofauti. Hii inahakikisha kwamba mshambulizi anayewezekana hawezi kamwe kufikia satss yako.
 
 
 
@@ -910,7 +908,7 @@ Ili kupata tena ufikiaji wa kwingineko yako na kuhamisha pesa zako, pakia seed y
 
 
 
-- Au pakia seed yako kutoka kwa Mtunza Mbegu, kupitia menyu ya `Seeds > From SeedKeeper` (hii ndiyo njia ninayotumia kwenye mafunzo haya). Utahitaji tu kuweka PIN ya Mtunza Mbegu na uchague siri itakayotumika kama seed kwenye SeedSigner.
+- Au pakia seed yako kutoka kwa SeedSigner, kupitia menyu ya `Seeds > From SeedKeeper` (hii ndiyo njia ninayotumia kwenye mafunzo haya). Utahitaji tu kuweka PIN ya SeedSigner na uchague siri itakayotumika kama seed kwenye SeedSigner.
 
 
 
@@ -918,7 +916,7 @@ Ili kupata tena ufikiaji wa kwingineko yako na kuhamisha pesa zako, pakia seed y
 
 
 
-Mara tu seed inapopakiwa kwenye SeedSigner, kwa njia yoyote utakayotumia, utaweza kutia sahihi katika shughuli moja au zaidi ya kuchanganua ili kuhamisha bitcoins zako hadi kwenye wallet mpya, isiyoathiriwa. Ili kujua jinsi ya kufanya hivyo, angalia sehemu ya 7.2 ya mafunzo yafuatayo:
+Mara tu seed inapopakiwa kwenye SeedSigner, kwa njia yoyote utakayotumia, utaweza kutia sahihi katika muamala moja au zaidi ya kuchanganua ili kuhamisha bitcoin zako hadi kwenye wallet mpya, isiyoathiriwa. Ili kujua jinsi ya kufanya hivyo, angalia sehemu ya 7.2 ya mafunzo yafuatayo:
 
 
 

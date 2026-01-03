@@ -1,0 +1,9 @@
+question: คำวิจารณ์ใดที่สมาชิกผู้ก่อตั้งกลุ่มไซเฟอร์พังค์ จอห์น กิลมอร์ มีต่อสิ่งประดิษฐ์ของ Satoshi นากาโมโตะในเดือนมกราคม 2009?
+answer: Bitcoin ก่อมลพิษต่อโลก
+wrong_answers:
+  - Bitcoin ช่วยในการหลีกเลี่ยงภาษี
+  - Bitcoin มีความเสี่ยงต่อการโจมตีแบบ Sybil
+  - Bitcoin เป็นภาวะเงินฝืด
+explanation: |
+  เขา[วิจารณ์](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin ว่าบริโภคไฟฟ้าและปล่อยก๊าซคาร์บอนไดออกไซด์ (ก๊าซเรือนกระจก)
+reviewed: true

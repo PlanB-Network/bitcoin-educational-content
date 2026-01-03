@@ -23,7 +23,7 @@ Les conditions de dépense peuvent être par exemple:
 **Comment cela fonctionne ?**
 
 En ajoutant une seconde seed à votre appareil ColdCard Mk4 ou Q, appelée "Spending Policy Key", que nous nommerons tout au long de ce tutoriel "Clé C".
-En plus de cette seed additionnelle, il vous sera demandé de fournir au moins une clé additionnelle (XPUB) que nous appellerons "Clé de Backup" ou "Backup Key", afin de créer au final un wallet multisig  2-sur-N.
+En plus de cette seed additionnelle, il vous sera demandé de fournir au moins une clé additionnelle (XPUB) que nous appellerons "Clé de Backup" ou "Backup Key", afin de créer au final un wallet multisig 2-sur-N.
 
 En synthèse nous allons créer un wallet multisig, et votre appareil ColdCard contiendra 2 des clés privées nécessaires pour dépenser les fonds, la master seed de l'appareil et la "Spending Policy Key".
 
@@ -150,7 +150,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 Il nous faut maintenant exporter notre wallet multisig vers Sparrow afin de pouvoir y déposer nos premiers satoshis.
 
 Pour cela depuis le menu principal de votre ColdCardQ choisissez **"Settings"**, puis **"Multisig Wallets"**. 
-L'ensemble des wallets multisigs connus par votre ColdCard est désormais affiché avec ne nombre de clé impliquées ici "2/3" (2-sur3). Choisissez donc le multisig **"ColdCard Co-Sign"** qu'on vient de créer puis cliquez sur **"ColdCard Export"**.
+L'ensemble des wallets multisigs connus par votre ColdCard est désormais affiché avec le nombre de clé impliquées ici "2/3" (2-sur3). Choisissez donc le multisig **"ColdCard Co-Sign"** qu'on vient de créer puis cliquez sur **"ColdCard Export"**.
 
 ![Co-Sign](assets/fr/10.webp)
 
@@ -262,7 +262,7 @@ https://planb.academy/tutorials/computer-security/authentication/proton-authenti
 
 https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
- Concrètement avant de signer une transaction vous devrez approcher votre appareil NFC et connecté à internet à votre Coldcard. Cela vous conduira automatiquement sur une page web coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
+Concrètement avant de signer une transaction vous devrez approcher votre appareil NFC et connecté à internet à votre Coldcard. Cela vous conduira automatiquement sur une page web coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
 
 
 

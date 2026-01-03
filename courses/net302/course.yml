@@ -52,10 +52,11 @@ proofreading:
     contributor_names:
     reward: 74.27
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 74.27
+      - arejula27
+    reward: 37.13
   - language: et
     last_contribution_date:
     urgency: 1
@@ -117,10 +118,11 @@ proofreading:
     contributor_names:
     reward: 98.99
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 98.99
+      - Sanja22B
+    reward: 49.5
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -167,3 +169,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 98.99
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 123.71

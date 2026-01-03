@@ -1,0 +1,9 @@
+question: Que désigne la capacité d’un canal Lightning ?
+answer: Le montant total verrouillé
+wrong_answers:
+  - La liquidité totale disponible dans un sens
+  - Les frais maximum
+  - Le nombre maximum de paiements possibles
+explanation: |
+  La capacité correspond à la somme totale des sats bloqués dans la sortie multisig du canal.
+reviewed: false

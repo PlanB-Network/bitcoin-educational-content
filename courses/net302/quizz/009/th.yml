@@ -1,0 +1,9 @@
+question: หน่วยงานใดของสหรัฐฯ ที่อยู่เบื้องหลังโครงการ ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) เริ่มต้น ARPANET ซึ่งวางรากฐานสำหรับการพัฒนาโปรโตคอล TCP/IP ในปี 1972 หน่วยงานนี้ถูกเปลี่ยนชื่อเป็น DARPA (Defense Advanced Research Projects Agency)
+reviewed: false

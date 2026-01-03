@@ -1,6 +1,6 @@
 ---
 name: Bitcoin Core (Linux)
-description: Menjalankan simpul Anda sendiri dengan Bitcoin core di Linux
+description: Menjalankan Node Anda sendiri dengan Bitcoin Core di Linux
 ---
 
 ![cover](assets/cover.webp)
@@ -9,26 +9,21 @@ description: Menjalankan simpul Anda sendiri dengan Bitcoin core di Linux
 ## Menjalankan node Anda sendiri dengan Bitcoin core
 
 
-Pengantar ke Bitcoin dan konsep simpul, dilengkapi dengan panduan instalasi yang komprehensif di Linux.
+Pengantar ke Bitcoin dan konsep node, dilengkapi dengan panduan instalasi yang komprehensif di Linux.
 
+Salah satu aspek yang paling menarik dari Bitcoin adalah kemampuan untuk menjalankan program sendiri, dan dengan demikian berpartisipasi pada tingkat paling dasar dalam jaringan dan verifikasi transaksi di public ledger.
 
-Salah satu aspek yang paling menarik dari Bitcoin adalah kemampuan untuk menjalankan program sendiri, dan dengan demikian berpartisipasi pada tingkat granular dalam jaringan dan verifikasi transaksi publik Ledger.
-
-
-Bitcoin, sebagai proyek sumber terbuka, telah tersedia secara bebas dan didistribusikan secara publik sejak 2009. Hampir 17 tahun setelah didirikan, Bitcoin sekarang menjadi jaringan moneter digital yang kuat dan tak terbendung, yang diuntungkan oleh efek jaringan organik yang kuat. Atas upaya dan visi mereka, Satoshi Nakamoto layak mendapatkan ucapan terima kasih. Omong-omong, kami menghosting whitepaper Bitcoin di sini di Agora 256 (catatan: juga di universitas).
+Bitcoin, sebagai proyek open source, telah tersedia secara bebas dan didistribusikan secara publik sejak 2009. Hampir 17 tahun setelah didirikan, Bitcoin sekarang menjadi jaringan moneter digital yang kuat dan tak terbendung, yang diuntungkan oleh efek jaringan organik yang kuat. Atas upaya dan visi mereka, Satoshi Nakamoto layak mendapatkan ucapan terima kasih. Omong-omong, kami menghosting whitepaper Bitcoin di sini di Agora 256 (catatan: juga di universitas).
 
 
 ### Menjadi bank Anda sendiri
 
 
-Menjalankan node Anda sendiri telah menjadi hal yang penting bagi para penganut etos Bitcoin. Tanpa meminta izin siapa pun, Anda dapat mengunduh Blockchain dari awal dan dengan demikian memverifikasi semua transaksi dari A hingga Z sesuai dengan protokol Bitcoin.
+Menjalankan node kamu sendiri telah menjadi hal yang penting bagi para penganut etos Bitcoin. Tanpa minta izin siapa pun, kamu bisa mengunduh blockchain dari awal dan dengan demikian memverifikasi semua transaksi dari A sampai Z sesuai protokol Bitcoin.
 
+Program ini juga menyertakan wallet bawaan. Dengan demikian, kita punya kendali penuh atas transaksi yang kita kirimkan ke seluruh jaringan, tanpa perantara atau pihak ketiga. Kamu adalah bank kamu sendiri.
 
-Program ini juga menyertakan Wallet sendiri. Dengan demikian, kami memiliki kendali atas transaksi yang kami kirimkan ke seluruh jaringan, tanpa perantara atau pihak ketiga. Anda adalah bank Anda sendiri.
-
-
-Oleh karena itu, sisa artikel ini adalah panduan untuk menginstal Bitcoin core - versi perangkat lunak Bitcoin yang paling banyak digunakan - secara khusus pada distribusi Linux yang kompatibel dengan Debian seperti Ubuntu dan Pop!OS. Ikuti panduan ini untuk selangkah lebih dekat dengan kedaulatan pribadi Anda.
-
+Oleh karena itu, sisa artikel ini adalah panduan untuk menginstal Bitcoin Core, versi perangkat lunak Bitcoin yang paling banyak digunakan, secara khusus pada distribusi Linux yang kompatibel dengan Debian seperti Ubuntu dan Pop!OS. Ikuti panduan ini untuk selangkah lebih dekat menuju kedaulatan pribadi kamu.
 
 ## Panduan Instalasi Bitcoin core untuk Debian/Ubuntu
 
@@ -79,10 +74,10 @@ Oleh karena itu, sisa artikel ini adalah panduan untuk menginstal Bitcoin core -
 Setiap tanda tangan yang valid akan menampilkan baris yang dimulai dengan: `gpg: Tanda tangan yang bagus` dan baris lain yang diakhiri dengan: `Sidik jari kunci utama: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320` (contoh sidik jari kunci PGP Pieter Wuille).
 
 
-**Catatan💡:** Tidak perlu semua tombol penanda tangan mengembalikan "OK". Bahkan, hanya satu saja yang diperlukan. Terserah kepada pengguna untuk menentukan ambang batas validasi mereka sendiri untuk verifikasi PGP.
+**Catatan💡:** Tidak perlu semua tombol penanda tangan mengembalikan "OK". Bahkan, hanya satu saja yang diperlukan. Terserah kepada pengguna untuk menentukan sendiri ambang batas validasi mereka untuk verifikasi PGP.
 
 
-Anda dapat mengabaikan peringatan tersebut:
+Kamu bisa mengabaikan peringatan tersebut:
 
 
 
@@ -122,10 +117,9 @@ Anda dapat mengabaikan peringatan tersebut:
 ### Kesimpulan Bagian 1: Panduan Instalasi
 
 
-Setelah Bitcoin core dipasang, disarankan untuk tetap menjalankannya sebanyak mungkin untuk berkontribusi pada jaringan Bitcoin dengan memverifikasi transaksi dan mengirimkan blok baru ke rekan-rekan lainnya.
+Setelah Bitcoin Core dipasang, disarankan untuk terus menjalankannya sebanyak mungkin untuk berkontribusi pada jaringan Bitcoin dengan memverifikasi transaksi dan mengirimkan blok baru ke rekan lain.
 
-
-Namun, menjalankan dan menyinkronkan node Anda sesekali, bahkan hanya untuk memvalidasi transaksi yang diterima dan dikirim, tetap merupakan praktik yang baik.
+Namun, menjalankan dan menyinkronkan node kamu sesekali, bahkan hanya untuk memvalidasi transaksi yang kamu terima dan kirim, tetap merupakan praktik yang baik.
 
 
 ![Creation wallet](assets/fr/03.webp)
@@ -140,10 +134,9 @@ Namun, menjalankan dan menyinkronkan node Anda sesekali, bahkan hanya untuk memv
 ### Menginstalasi dan mengkonfigurasi Tor untuk Bitcoin core
 
 
-Pertama, kita perlu menginstal layanan Tor (The Onion Router), sebuah jaringan yang digunakan untuk komunikasi anonim, yang memungkinkan kita untuk menganonimkan interaksi kita dengan jaringan Bitcoin. Untuk pengenalan pada perangkat perlindungan privasi online, termasuk Tor, lihat artikel kami tentang topik ini.
+Pertama, kita perlu menginstal layanan Tor (The Onion Router), sebuah jaringan yang digunakan untuk komunikasi anonim dan memungkinkan kita menganonimkan interaksi dengan jaringan Bitcoin. Untuk pengenalan tentang alat perlindungan privasi online, termasuk Tor, kamu bisa lihat artikel kami tentang topik ini.
 
-
-Untuk menginstal Tor, buka terminal dan masukkan `sudo apt -y install tor`. Setelah instalasi selesai, layanan ini biasanya akan diluncurkan secara otomatis di latar belakang. Periksa apakah Tor berjalan dengan benar dengan perintah `sudo systemctl status tor`. Respons yang muncul seharusnya adalah `Active: active (exited)`. Tekan `Ctrl+C` untuk keluar dari fungsi ini.
+Untuk menginstal Tor, buka terminal dan masukkan 'sudo apt -y install tor'. Setelah instalasi selesai, layanan ini biasanya akan berjalan otomatis di latar belakang. Periksa apakah Tor berjalan dengan benar dengan perintah 'sudo systemctl' status tor. Respons yang muncul seharusnya menunjukkan 'Active: active (exited)'. Tekan 'Ctrl+C' untuk keluar dari tampilan status ini.
 
 
 **Tip:** Dalam hal apa pun, Anda dapat menggunakan perintah berikut ini di terminal untuk memulai, menghentikan, atau memulai ulang Tor:
@@ -161,8 +154,7 @@ Selanjutnya, mari kita luncurkan Bitcoin core grafis Interface dengan perintah `
 
 ![option](assets/fr/04.webp)
 
-
-Bitcoin core secara otomatis mendeteksi jika Tor terinstal dan, jika iya, secara default akan membuat koneksi keluar ke node lain yang juga menggunakan Tor, di samping koneksi ke node yang menggunakan jaringan IPv4/IPv6 (clearnet).
+Bitcoin Core secara otomatis akan mendeteksi jika Tor sudah terinstal dan, jika iya, secara default akan membuat koneksi keluar ke node lain yang juga menggunakan Tor, selain koneksi ke node yang menggunakan jaringan IPv4/IPv6 (clearnet).
 
 
 **Catatan💡:** untuk mengubah bahasa tampilan ke bahasa Prancis, buka tab Display (Tampilan) dalam Pengaturan.
@@ -171,13 +163,13 @@ Bitcoin core secara otomatis mendeteksi jika Tor terinstal dan, jika iya, secara
 ### Konfigurasi Tor Lanjutan (opsional)
 
 
-Dimungkinkan untuk mengkonfigurasi Bitcoin core untuk hanya menggunakan jaringan Tor untuk terhubung dengan rekan-rekan, sehingga mengoptimalkan anonimitas kita melalui node kita. Karena tidak ada fungsionalitas bawaan untuk ini dalam Interface grafis, kita perlu membuat file konfigurasi secara manual. Masuk ke Pengaturan, lalu Opsi.
+Kamu bisa mengonfigurasi Bitcoin Core agar hanya menggunakan jaringan Tor untuk terhubung dengan rekan-rekan, sehingga anonimitas lewat node kamu bisa lebih optimal. Karena tidak ada fungsi bawaan untuk ini di antarmuka grafis, kita perlu membuat file konfigurasi secara manual. Masuk ke **Settings**, lalu pilih Options.
 
 
 ![option 2](assets/fr/05.webp)
 
 
-Di sini, klik _Buka file konfigurasi_. Setelah berada di file teks `Bitcoin.conf`, cukup tambahkan baris `onlynet=onion` dan simpan file tersebut. Anda perlu memulai ulang Bitcoin core agar perintah ini dapat diterapkan.
+Di sini, klik _Buka file konfigurasi_. Setelah berada di file teks `Bitcoin.conf`, cukup tambahkan baris `onlynet=onion` dan simpan file tersebut. Kamu perlu memulai ulang Bitcoin core agar perintah ini dapat diterapkan.
 
 
 Kita kemudian akan mengkonfigurasi layanan Tor sehingga Bitcoin core dapat menerima koneksi yang masuk melalui proxy, sehingga memungkinkan node lain dalam jaringan untuk menggunakan node kita untuk mengunduh data Blockchain tanpa mengorbankan keamanan mesin kita.
@@ -204,13 +196,11 @@ Dengan konfigurasi ini, Bitcoin core akan dapat membuat koneksi masuk dan keluar
 ### Sumber Daya Tambahan
 
 
-Pada akhirnya, hanya menggunakan jaringan Tor (`onlynet=onion`) bisa membuat Anda rentan terhadap Sybil Attack. Itulah mengapa beberapa orang merekomendasikan untuk mempertahankan konfigurasi multi-jaringan untuk mengurangi jenis risiko ini. Lebih jauh lagi, semua koneksi IPv4/IPv6 akan dirutekan melalui proksi Tor setelah dikonfigurasi, seperti yang ditunjukkan sebelumnya.
+Pada akhirnya, hanya menggunakan jaringan Tor (onlynet=onion) bisa membuat kamu rentan terhadap serangan Sybil. Karena itu, beberapa orang merekomendasikan untuk mempertahankan konfigurasi multi-jaringan guna mengurangi risiko semacam ini. Selain itu, semua koneksi IPv4/IPv6 akan tetap dirutekan melalui proxy Tor setelah dikonfigurasi, seperti yang dijelaskan sebelumnya.
 
+Sebagai alternatif, untuk tetap berada di jaringan Tor sekaligus mengurangi risiko serangan Sybil, kamu bisa menambahkan alamat dari node tepercaya lain ke file `bitcoin.conf` dengan menambahkan baris `addnode=trusted_address.onion`. Kamu bisa menambahkan baris ini beberapa kali jika ingin terhubung ke beberapa node tepercaya.
 
-Sebagai alternatif, untuk tetap berada di jaringan Tor dan mengurangi risiko Sybil Attack, Anda dapat menambahkan Address dari simpul tepercaya lainnya ke berkas `Bitcoin.conf` Anda dengan menambahkan baris `addnode=trusted_address.onion`. Anda dapat menambahkan baris ini beberapa kali jika Anda ingin menyambung ke beberapa simpul tepercaya.
-
-
-Untuk melihat log dari node Bitcoin Anda yang secara khusus berhubungan dengan interaksinya dengan Tor, tambahkan `debug=tor` pada berkas `Bitcoin.conf`. Anda sekarang akan memiliki informasi Tor yang relevan dalam log debug Anda, yang dapat Anda lihat di jendela _Information_ dengan tombol _Debug File_. Anda juga dapat melihat log ini secara langsung pada terminal dengan perintah `bitcoind -debug=tor`.
+Untuk melihat log dari node Bitcoin kamu yang berkaitan dengan interaksi Tor, tambahkan debug=tor ke file `bitcoin.conf`. Sekarang kamu akan memiliki informasi terkait Tor di log debug kamu, yang bisa dilihat di jendela Information lewat tombol `Debug File`. Kamu juga bisa melihat log ini langsung di terminal dengan perintah `bitcoind -debug=tor.`
 
 
 **Kiat💡:** Berikut ini ada beberapa tautan yang menarik:
@@ -221,4 +211,4 @@ Untuk melihat log dari node Bitcoin Anda yang secara khusus berhubungan dengan i
 - [Panduan konfigurasi Tor oleh Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 
-Seperti biasa, jika Anda memiliki pertanyaan, jangan ragu untuk berbagi dengan komunitas Agora256. Kita belajar bersama untuk menjadi lebih baik di hari esok daripada hari ini!
+Seperti biasa, kalau kamu punya pertanyaan, jangan ragu untuk berbagi dengan komunitas Agora256. Kita belajar bareng supaya bisa jadi lebih baik besok daripada hari ini!

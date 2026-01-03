@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/hosts.allow
 explanation: |
   El archivo /etc/resolv.conf especifica los servidores DNS y los dominios de búsqueda para la resolución de nombres.
-reviewed: false
+reviewed: true

@@ -1,35 +1,35 @@
 ---
-name: "Bitcoin Core (macOS & Windows)"
+name: Bitcoin Core (macOS & Windows)
 description: Memasang Bitcoin Core di Mac atau Windows
 ---
 
 ![cover](assets/cover.webp)
 
-Memasang Bitcoin Core di komputer biasa bisa dilakukan, namun tidak ideal. Jika Anda tidak keberatan meninggalkan komputer Anda menyala 24/7, maka ini akan berfungsi dengan baik. Jika Anda perlu mematikan komputer, akan terasa menjengkelkan menunggu perangkat lunak untuk sinkron setiap kali Anda menyalakannya kembali.
+Memasang Bitcoin Core di komputer biasa sebenarnya bisa dilakukan, tapi kurang ideal. Kalau kamu nggak keberatan membiarkan komputermu menyala 24/7, cara ini akan berjalan dengan baik. Tapi kalau kamu perlu mematikannya, kamu mungkin bakal merasa kesal karena harus menunggu proses sinkronisasi setiap kali menyalakan perangkat lagi.
 
-Instruksi ini untuk Pengguna Mac atau Windows. Pengguna Linux kemungkinan besar tidak memerlukan bantuan saya, namun instruksi untuk Linux sangat mirip dengan Mac.
+Panduan ini ditujukan untuk pengguna Mac atau Windows. Pengguna Linux kemungkinan besar sudah tahu cara melakukannya sendiri, tapi instruksinya kurang lebih mirip dengan yang ada di Mac.
 
 ## Mulai Bersih
 
-Idealnya, Anda ingin menggunakan komputer yang bersih, satu tanpa malware. Bahkan jika Anda menggunakan dompet perangkat keras, malware dapat menipu Anda keluar dari koin Anda.
+Idealnya, kamu perlu menggunakan komputer yang bersih, bebas dari malware. Bahkan kalau kamu pakai hardware wallet, malware tetap bisa menipu kamu dan membuatmu kehilangan bitcoin.
 
-Anda bisa menghapus bersih komputer lama, dan menggunakannya sebagai komputer Bitcoin yang didedikasikan, atau membeli komputer/laptop yang didedikasikan.
+Kamu bisa menghapus semua data di komputer lama dan menjadikannya komputer khusus untuk Bitcoin, atau beli komputer/laptop baru yang memang didedikasikan untuk itu.
 
 ## Hard Drive
 
-Bitcoin Core akan mengambil sekitar 400 gigabyte data di drive Anda, dan akan terus bertambah. Anda dapat menggunakan drive internal Anda, tetapi Anda juga dapat menambahkan hard drive eksternal. Saya akan menjelaskan kedua opsi tersebut. Idealnya, Anda harus menggunakan solid-state drive. Jika Anda memiliki komputer lama, kemungkinan besar tidak memiliki salah satu dari ini secara internal. Cukup beli SSD eksternal 1 atau 2 terabyte dan gunakan itu. Drive reguler mungkin akan bekerja, tetapi Anda mungkin akan mengalami masalah dan akan jauh lebih lambat.
+Bitcoin Core akan memakan sekitar 400 gigabyte ruang di drive kamu, dan ukurannya akan terus bertambah seiring waktu. Kamu bisa memakai drive internal, tapi bisa juga menambahkan hard drive eksternal. Aku akan jelaskan dua opsi itu.
+Idealnya, kamu pakai solid-state drive (SSD). Kalau komputermu tergolong lama, kemungkinan besar belum punya SSD internal. Cukup beli SSD eksternal berukuran 1 atau 2 terabyte dan gunakan itu. Drive biasa memang bisa dipakai, tapi kamu mungkin akan menghadapi berbagai masalah dan kecepatannya akan jauh lebih lambat.
 
 ![image](assets/fr/01.webp)
 
 ## Unduh Bitcoin Core
 
-Pergi ke bitcoin.org (pastikan Anda tidak pergi ke bitcoin.com, yang merupakan situs shitcoin milik Roger Ver, menipu orang untuk membeli Bitcoin Cash alih-alih Bitcoin)
-
-Setelah di sana, secara aneh tidak jelas di mana mendapatkan perangkat lunaknya. Pergi ke menu sumber daya dan klik "Bitcoin Core", seperti ditunjukkan di bawah ini:
+Kunjungi situs bitcoin.org (**pastikan kamu tidak pergi ke bitcoin.com**, itu situs shitcoin milik Roger Ver yang menipu orang supaya membeli Bitcoin Cash alih-alih Bitcoin).
+Setelah kamu sampai di sana, agak aneh karena letak unduhan perangkat lunaknya tidak langsung terlihat jelas. Buka menu Resources, lalu klik Bitcoin Core, seperti yang ditunjukkan pada gambar di bawah ini:
 
 ![image](assets/fr/02.webp)
 
-Ini akan membawa Anda ke halaman unduhan:
+Ini akan membawamu ke halaman unduhan:
 
 ![image](assets/fr/03.webp)
 
@@ -37,31 +37,31 @@ Klik tombol oranye Unduh Bitcoin Core:
 
 ![image](assets/fr/04.webp)
 
-Ada beberapa opsi untuk dipilih, tergantung pada komputer Anda. Dua pertama relevan dengan panduan ini; pilih Windows atau Mac di bilah kiri. Ini akan mulai mengunduh setelah Anda mengkliknya, kemungkinan besar ke direktori Unduhan Anda.
+Ada beberapa opsi yang bisa kamu pilih tergantung pada jenis komputermu. Dua opsi pertama yang relevan untuk panduan ini adalah Windows dan Mac. Pilih salah satu dari bilah sebelah kiri. Setelah kamu mengkliknya, proses unduhan akan dimulai secara otomatis, biasanya tersimpan di folder Downloads.
 
 ## Verifikasi unduhan (bagian 1)
 
-Anda memerlukan file yang berisi hash dari berbagai rilis. File ini dulu ada di halaman unduhan bitcoin.org, tetapi sekarang telah pindah ke bitcoincore.org/en/download:
+Kamu memerlukan file yang berisi hash dari berbagai rilis. File ini dulu tersedia di halaman unduhan bitcoin.org, tapi sekarang telah dipindahkan ke bitcoincore.org/en/download:
 
 ![image](assets/fr/05.webp)
 
-Anda memerlukan file hash biner SHA256. File ini berisi hash SHA256 dari berbagai paket unduhan Bitcoin Core.
+Kamu memerlukan file hash biner SHA256. File ini berisi hash SHA256 dari berbagai paket unduhan Bitcoin Core.
 
-Selanjutnya, kita perlu meng-hash unduhan Bitcoin Core dan membandingkannya dengan apa yang dikatakan file tersebut hash seharusnya. Kemudian kita tahu unduhan identik dengan apa yang diharapkan, menurut bitcoincore.org.
+Selanjutnya, kita perlu meng-hash unduhan Bitcoin Core dan membandingkannya dengan nilai yang ada di file tersebut. Dengan begitu, kita bisa memastikan unduhan identik dengan yang diharapkan menurut bitcoincore.org.
 
-Navigasikan ke direktori Unduhan lagi dan eksekusi perintah ini (ganti X dengan nama file unduhan node bitcoin penuh secara tepat):
+Kembali ke direktori Unduhan dan jalankan perintah ini (ganti X dengan nama file unduhan node Bitcoin penuh secara tepat):
 
 ```bash
 shasum -a 256 XXXXXXXXXXXX # <--- UNTUK MAC
 certutil -hashfile XXXXXXXXXXX SHA256 # <--- UNTUK WINDOWS
 ```
 
-Anda akan mendapatkan output hash. Catat itu, dan bandingkan dengan hash yang terkandung dalam file SHA256SUMS.
+Kamu akan mendapatkan output hash. Catat, lalu bandingkan dengan hash yang ada di file SHA256SUMS.
 
-Jika outputnya identik, maka Anda telah memverifikasi bahwa tidak ada bit data yang telah diubah... hampir. Kita masih perlu memastikan file SHA256SUMS tidak berbahaya.
+Jika outputnya identik, berarti kamu sudah memverifikasi bahwa tidak ada bit data yang berubah… hampir. Kita masih perlu memastikan file SHA256SUMS aman.
 
-Untuk melanjutkan ke langkah berikutnya, kita harus memiliki gpg terinstal di komputer kita.
-Untuk melakukan itu, lihat panduan SHA256/gpg saya, dan gulir sekitar setengah jalan ke bagian "Download gpg", dan cari subjudul sistem operasi Anda. Kemudian kembali ke sini.
+Untuk langkah berikutnya, kita harus memastikan gpg terinstal di komputer. Untuk itu, lihat panduan SHA256/gpg-ku, gulir sekitar setengah halaman ke bagian "Download gpg", dan cari subjudul sesuai sistem operasi kamu. Setelah itu, kembali ke sini.
+
 ## Dapatkan Kunci Publik
 
 Kembali ke halaman unduhan, dapatkan file tanda tangan hash SHA256
@@ -81,7 +81,7 @@ Salin teks tersebut ke dalam perintah berikut:
 gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 01EA5486DE18A882D4C2684590C8019E36C2E964
 ```
 
-Sebagai informasi, kapan saja, Anda dapat melihat kunci apa saja yang ada di gantungan kunci komputer dengan perintah ini:
+Sebagai informasi, kapan saja kamu bisa melihat kunci apa saja yang ada di keychain komputer kamu dengan perintah ini:
 
 ```bash
 gpg --list-keys
@@ -89,7 +89,7 @@ gpg --list-keys
 
 ## Verifikasi unduhan (bagian 2)
 
-Kami memiliki kunci publik, jadi sekarang kami dapat memverifikasi file SHA256SUMS yang berisi hash dari unduhan Bitcoin Core, dan tanda tangan untuk hash tersebut.
+Kita sudah punya kunci publik, jadi sekarang kita bisa memverifikasi file SHA256SUMS yang berisi hash unduhan Bitcoin Core, sekaligus tanda tangan untuk hash tersebut.
 
 Buka Terminal atau CMD lagi, dan pastikan Anda berada di direktori Downloads. Dari sana, jalankan perintah ini:
 
@@ -97,29 +97,29 @@ Buka Terminal atau CMD lagi, dan pastikan Anda berada di direktori Downloads. Da
 gpg –verify SHA256SUMS.asc SHA256SUMS
 ```
 
-File pertama yang terdaftar adalah ejaan tepat dari file tanda tangan. File kedua yang terdaftar harus menjadi ejaan tepat dari file teks yang berisi hash. Kedua file harus berada dalam direktori yang sama dan Anda perlu berada dalam direktori file tersebut, jika tidak, Anda harus mengetikkan jalur lengkap untuk setiap file.
+File pertama yang tercantum adalah ejaan tepat dari file tanda tangan. File kedua adalah ejaan tepat dari file teks yang berisi hash. Kedua file harus berada di direktori yang sama, dan kamu harus berada di direktori tersebut; jika tidak, kamu perlu mengetikkan jalur lengkap untuk masing-masing file.
 
-Ini adalah output yang harus Anda dapatkan
+Ini adalah output yang seharusnya kamu dapatkan:
 
 ![image](assets/fr/07.webp)
 
-Aman untuk mengabaikan pesan PERINGATAN – itu hanya mengingatkan Anda bahwa Anda belum bertemu Wladimir di bagian kunci dan secara pribadi bertanya kepadanya apa kunci publiknya, dan kemudian memberitahu komputer Anda untuk mempercayai kunci ini sepenuhnya.
+Aman untuk mengabaikan pesan PERINGATAN – itu cuma mengingatkan kamu bahwa kamu belum pernah bertemu Wladimir secara langsung untuk menanyakan kunci publiknya, lalu memberi tahu komputer agar mempercayai kunci ini sepenuhnya.
 
-Jika Anda mendapatkan pesan ini, Anda sekarang tahu bahwa file SHA256SUMS.asc tidak telah diubah setelah Wladimir menandatanganinya.
+Kalau kamu melihat pesan ini, berarti sekarang kamu tahu bahwa file SHA256SUMS.asc tidak diubah setelah ditandatangani oleh Wladimir.
 
 ## Instal Bitcoin Core
 
-Anda tidak seharusnya memerlukan instruksi rinci tentang cara menginstal programnya.
+Kamu tidak seharusnya memerlukan instruksi rinci tentang cara menginstal programnya.
 
 ![image](assets/fr/08.webp)
 
 ## Jalankan Bitcoin Core
 
-Di Mac, Anda mungkin mendapatkan peringatan (Apple masih anti-Bitcoin)
+Di Mac, kamu mungkin mendapatkan peringatan (Apple masih anti-Bitcoin)
 
 ![image](assets/fr/09.webp)
 
-Klik OK, lalu buka Preferensi Sistem Anda
+Klik OK, lalu buka Preferensi Sistem kamu.
 
 ![image](assets/fr/10.webp)
 
@@ -131,19 +131,19 @@ Kemudian klik "buka bagaimanapun juga":
 
 ![image](assets/fr/12.webp)
 
-Kesalahan akan muncul lagi, tetapi kali ini Anda akan memiliki tombol BUKA yang tersedia. Klik itu.
+Kesalahan akan muncul lagi, tetapi kali ini kamu akan memiliki tombol BUKA yang tersedia. Klik itu.
 
 ![image](assets/fr/13.webp)
 
-Bitcoin Core harus dimuat dan Anda akan disajikan dengan beberapa opsi:
+Bitcoin Core harus dijalankan, dan kamu akan disajikan beberapa opsi:
 
 ![image](assets/fr/14.webp)
 
-Di sini Anda dapat memilih untuk menggunakan jalur default untuk tempat blockchain akan diunduh, atau Anda dapat memilih drive eksternal Anda. Saya merekomendasikan tidak mengubah jalur default jika Anda akan menggunakan drive internal, itu membuat hal-hal lebih mudah untuk diatur saat Anda menginstal perangkat lunak lain untuk berkomunikasi dengan Bitcoin Core.
-Anda dapat memilih untuk menjalankan node yang dipangkas, ini menghemat ruang, tetapi membatasi apa yang dapat Anda lakukan dengan node Anda. Bagaimanapun, Anda akan mengunduh seluruh blockchain dan memverifikasinya, jadi jika Anda memiliki ruang, simpan apa yang telah Anda unduh, dan jangan pangkas jika Anda bisa menghindarinya.
-Setelah Anda konfirmasi, blockchain akan mulai diunduh. Ini akan memakan waktu berhari-hari.
+Di sini kamu bisa memilih untuk menggunakan jalur default tempat blockchain akan diunduh, atau memilih drive eksternal. Aku sarankan jangan mengubah jalur default jika kamu menggunakan drive internal, supaya lebih mudah saat menginstal perangkat lunak lain yang akan berkomunikasi dengan Bitcoin Core.
 
+Kamu juga bisa memilih untuk menjalankan node yang dipangkas, yang menghemat ruang, tapi membatasi apa yang bisa kamu lakukan dengan node. Bagaimanapun, kamu akan mengunduh seluruh blockchain dan memverifikasinya, jadi kalau punya cukup ruang, simpan semua yang sudah diunduh dan jangan pangkas kalau bisa dihindari.
+
+Setelah kamu konfirmasi, blockchain akan mulai diunduh. Proses ini bisa memakan waktu berhari-hari.
 ![image](assets/fr/15.webp)
 
-Anda dapat mematikan komputer dan kembali untuk mengunduh jika Anda mau, ini tidak akan menyebabkan kerusakan.
-
+Kamu bisa mematikan komputer dan kembali lagi untuk melanjutkan pengunduhan kapan saja, ini tidak akan merusak apa pun.

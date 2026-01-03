@@ -8,7 +8,7 @@ description: Sajili ujumbe kwenye Blockchain Bitcoin ukitumia Electrum
 
 
 
-Mafunzo haya ya hatua kwa hatua yanakuonyesha jinsi ya kuandika ujumbe kwenye Blockchain Bitcoin kwa kutumia Wallet Electrum. Operesheni hii hutumia maagizo ya OP_RETURN ili kuingiza maandishi kwenye shughuli, inayoonekana hadharani kwenye Blockchain. Fuata hatua hizi rahisi kwa usajili uliofanikiwa.
+Mafunzo haya ya hatua kwa hatua yanakuonyesha jinsi ya kuandika ujumbe kwenye Blockchain ya Bitcoin kwa kutumia wallet ya Electrum. Operesheni hii hutumia amri ya OP_RETURN kuingiza maandishi katika muamala, ambayo yanaonekana hadharani kwenye blockchain. Fuata hatua hizi rahisi kwa usajili uliofanikiwa.
 
 
 
@@ -99,7 +99,7 @@ Hakikisha Wallet yako ina bitcoins za kutosha (BTC) au satoshis (Sats) hadi:
 
 
 
-- Kiasi cha shughuli (kwa mfano, 0.00001 BTC au 1000 Sats).
+- Kiasi cha muamala (kwa mfano, 0.00001 BTC au 1000 Sats).
 - Ada za muamala, ambazo hutofautiana kulingana na saizi ya mtandao (kwa ujumla elfu chache za Sats).
 
 
@@ -209,12 +209,12 @@ ambayo inaundwa na:
 
 
 - **Lengwa Address**: Bitcoin Address halali. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Hii inaweza kuwa Address yako mwenyewe, ikiwa ungependa kurejesha fedha zilizohamishwa kwako mwenyewe;
-- **Kiasi kilichohamishwa**: kiasi cha muamala, hapa `0.00001` BTC. **Tafadhali kumbuka**: kwa kuwa kitengo kinachotumiwa katika Electrum ni BTC, kiasi kilichoonyeshwa katika hati ya shughuli lazima pia kionyeshwe katika BTC, na si katika Sats;
+- **Kiasi kilichohamishwa**: kiasi cha muamala, hapa `0.00001` BTC. **Tafadhali kumbuka**: kwa kuwa kitengo kinachotumiwa katika Electrum ni BTC, kiasi kilichoonyeshwa katika hati ya muamala lazima pia kionyeshwe katika BTC, na si katika Sats;
 - Hati **OP_RETURN**: Ujumbe uliogeuzwa kuwa heksadesimali ukitanguliwa na hati(`OP_RETURN <ujumbe>`), 0. Hapa, `5468616e6b73205361746f736869` kwa ujumbe katika hexadecimal.
 
 
 
-⚠️ **Tahadhari**: Ni muhimu sana kuashiria `0` baada ya OP_RETURN, kwa kuwa opcode hii inaashiria hati kuwa batili, na kufanya towe lisitumike kabisa. Nodi za mtandao zitafuta pato hili kutoka kwa seti yao ya UTXO. Ukiweka thamani nyingine zaidi ya `0`, itapotea kabisa: bitcoins zako zitachukuliwa kuwa zimeteketezwa. Kwa hivyo unapaswa kuingiza `0` kila wakati na OP_RETURN ili kurekodi data unayotaka, lakini bila kuhusisha pesa nayo, ambayo itapotea.
+⚠️ **Tahadhari**: Ni muhimu sana kuashiria `0` baada ya OP_RETURN, kwa kuwa opcode hii inaashiria hati kuwa batili, na kufanya towe lisitumike kabisa. Node za mtandao zitafuta pato hili kutoka kwa seti yao ya UTXO. Ukiweka thamani nyingine zaidi ya `0`, itapotea kabisa: bitcoins zako zitachukuliwa kuwa zimeteketezwa. Kwa hivyo unapaswa kuingiza `0` kila wakati na OP_RETURN ili kurekodi data unayotaka, lakini bila kuhusisha pesa nayo, ambayo itapotea.
 
 
 
@@ -265,7 +265,7 @@ Angalia kiasi na kitengo chake katika sehemu ya Kiasi.
 
 
 
-Bofya kwenye "Lipa..." na urekebishe ada zako za muamala kulingana na kiasi ambacho uko tayari kulipa na kasi ambayo ungependa shughuli yako ishughulikiwe na Miner na kuunganishwa kwenye kizuizi.
+Bofya kwenye "Lipa..." na urekebishe ada zako za muamala kulingana na kiasi ambacho uko tayari kulipa na kasi ambayo ungependa muamala yako ishughulikiwe na Miner na kuunganishwa kwenye kizuizi.
 
 
 
@@ -273,7 +273,7 @@ Bofya kwenye "Lipa..." na urekebishe ada zako za muamala kulingana na kiasi amba
 
 
 
-Bofya Sawa na uthibitishe muamala kwa nenosiri lako. Dirisha la uthibitisho litaonekana.
+Bofya Sawa na uthibitishe muamala kwa nenosiri lako. Window ya uthibitishaji itaonekana.
 
 
 
@@ -284,7 +284,7 @@ Bofya Sawa na uthibitishe muamala kwa nenosiri lako. Dirisha la uthibitisho lita
 
 
 
-Baada ya shughuli kuthibitishwa (hii inaweza kuchukua dakika chache), nenda kwenye kichupo cha "Historia".
+Baada ya muamala kuthibitishwa (hii inaweza kuchukua dakika chache), nenda kwenye kichupo cha "Historia".
 
 
 
@@ -292,7 +292,7 @@ Baada ya shughuli kuthibitishwa (hii inaweza kuchukua dakika chache), nenda kwen
 
 
 
-Bofya kulia kwenye shughuli na uchague "Tazama kwenye Explorer" ili kuona maelezo.
+Bofya kulia kwenye muamala na uchague "Tazama kwenye Explorer" ili kuona maelezo.
 
 
 

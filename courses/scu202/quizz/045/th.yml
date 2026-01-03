@@ -1,0 +1,9 @@
+question: เครื่องมือ macOS ใดที่ช่วยให้เข้ารหัสดิสก์ระบบทั้งหมดได้?
+answer: FileVault
+wrong_answers:
+  - ดิสก์ยูทิลิตี้
+  - iCloud Keychain
+  - BitLocker
+explanation: |
+  FileVault เป็นโซลูชันการเข้ารหัสดิสก์ที่มีอยู่ในตัวซึ่งรวมเข้ากับ macOS
+reviewed: false

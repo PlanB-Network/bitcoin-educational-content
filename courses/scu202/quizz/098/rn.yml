@@ -1,9 +1,9 @@
-question: Ni igiki gikoreshwa cane mu gucapura urubuga rushingiye kuri VLAN mu rubuga rwo muhira?
-answer: Gutandukanya ubwoko butandukanye bw'ibikoresho canke ikoreshwa
+question: Ni akamaro akahe nyamukuru k’umuhora ugabuwe hifashishijwe VLAN ku muhora wo muhira?
+answer: Gutandukanya ubwoko butandukanye bw’ibikoresho canke ikoreshwa
 wrong_answers:
-  - Kwongera urutonde rwa Wi-Fi ku bikoresho
-  - Gushiramwo amakuru y'urubuga ku giti cabo kuri buri gikoresho
-  - Gushoboza WPA3 ubwavyo
+  - Kwongera ubwaguke bwa Wi-Fi ku bikoresho
+  - Kunyegeza inzira z’umuhora ku giti cawe kuri buri gikoresho
+  - Kwemeza WPA3 ubwavyo
 explanation: |
-  VLANs zishobora gukoreshwa mu gucapura ibikoresho, bikagabanya ukwiragira kw’igitero hagati y’ibice.
-reviewed: false
+  VLANs zishobora gukoreshwa mu kugabura ibikoresho, bikagabanya amahirwe yo gukwiragira kw’igitero hagati y’ibice.
+reviewed: true

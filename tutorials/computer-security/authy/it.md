@@ -2,9 +2,11 @@
 name: Authy 2FA
 description: Come utilizzare un'applicazione 2FA?
 ---
+
 ![cover](assets/cover.webp)
 
 Oggi giorno, l'autenticazione a due fattori (2FA) è diventata essenziale per migliorare la sicurezza degli account online contro l'accesso non autorizzato. Con l'aumento degli attacchi informatici, affidarsi esclusivamente a una password per proteggere i propri account è a volte insufficiente. La 2FA introduce un ulteriore livello di sicurezza richiedendo una seconda forma di autenticazione in aggiunta alla password. Questa verifica può assumere diverse forme, come un codice inviato tramite SMS, un codice dinamico generato da un'app dedicata o l'uso di una chiave di sicurezza fisica. L'uso della 2FA riduce notevolmente il rischio che i tuoi account vengano compromessi, anche nel caso in cui la tua password venga rubata.
+
 
 ## 2FA tramite App di Autenticazione
 
@@ -16,7 +18,8 @@ Il rinnovo del codice ogni 30 secondi rende molto difficile per un attaccante ac
 
 La 2FA tramite app di autenticazione rappresenta quindi un metodo facile da usare e gratuito per migliorare notevolmente la sicurezza dei tuoi account online.
 
-Ci sono numerose applicazioni per impostare la 2FA, tra cui Google Authenticator e Microsoft Authenticator sono le più conosciute. Tuttavia, in questo tutorial, desidero presentarvi un'altra soluzione meno nota chiamata Authy. Tutte queste applicazioni operano utilizzando lo stesso protocollo TOTP (*Time based One Time Password*), rendendo il loro uso abbastanza simile. Authy offre diversi vantaggi rispetto ad altre soluzioni delle grandi aziende tecnologiche. Prima di tutto, permette di sincronizzare i tuoi token 2FA su più dispositivi, il che può essere utile in caso di perdita o cambio di telefono. Authy consente anche di generare un backup crittografato e di memorizzarlo online, assicurandoti di non perdere mai l'accesso ai tuoi token, anche se perdi il dispositivo principale. Da un punto di vista dell'interfaccia utente, personalmente trovo che Authy offra anche un'esperienza più piacevole e intuitiva rispetto alle sue alternative.
+Ci sono numerose applicazioni per impostare la 2FA, tra cui Google Authenticator e Microsoft Authenticator sono le più conosciute. Tuttavia, in questo tutorial, desidero presentarti un'altra soluzione meno nota chiamata Authy. Tutte queste applicazioni operano utilizzando lo stesso protocollo TOTP (*Time based One Time Password*), rendendo il loro uso abbastanza simile. Authy offre diversi vantaggi rispetto ad altre soluzioni delle grandi aziende tecnologiche. Prima di tutto, permette di sincronizzare i tuoi token 2FA su più dispositivi, il che può essere utile in caso di perdita o cambio di telefono. Authy consente anche di generare un backup crittografato e di memorizzarlo online, assicurandoti di non perdere mai l'accesso ai tuoi token, anche se perdi il dispositivo principale. Da un punto di vista dell'interfaccia utente, personalmente trovo che Authy offra anche un'esperienza più piacevole e intuitiva rispetto alle sue alternative.
+
 
 ## Come installare Authy?
 
@@ -47,6 +50,7 @@ Congratulazioni, il tuo account Authy è stato creato!
 
 ![AUTHY 2FA](assets/notext/07.webp)
 
+
 ## Come configurare Authy?
 
 Per iniziare, vai nelle impostazioni dell'app cliccando sui tre piccoli punti situati in alto a destra dello schermo.
@@ -61,7 +65,7 @@ Nella scheda "Il Mio Account", hai l'opzione di modificare il tuo account. Ti co
 
 ![AUTHY 2FA](assets/notext/10.webp)
 
-Nella scheda "Account", puoi impostare un backup per i tuoi token. Questo backup permette il recupero dei tuoi codici in caso di problemi. È criptato utilizzando una password che devi definire. È importante che questa password sia forte e va conservata in un luogo sicuro. Imposta questo backup non è necessariamente obbligatorio se hai altri metodi di recupero, come un secondo dispositivo con lo stesso account Authy, ad esempio.
+Nella scheda "Account", puoi impostare un backup per i tuoi token. Questo backup permette il recupero dei tuoi codici in caso di problemi. Inoltre è criptato utilizzando una password che devi definire. È importante che questa password sia forte e va conservata in un luogo sicuro. Imposta questo backup non è necessariamente obbligatorio se hai altri metodi di recupero, come un secondo dispositivo con lo stesso account Authy, ad esempio.
 
 ![AUTHY 2FA](assets/notext/11.webp)
 
@@ -72,6 +76,7 @@ Se preferisci permettere l'aggiunta di altri dispositivi, ti consiglio di attiva
 ![AUTHY 2FA](assets/notext/12.webp)
 
 Per aggiungere un nuovo dispositivo, basta ripetere il processo di installazione presentato nella parte precedente utilizzando le stesse credenziali. Ti verrà poi chiesto di confermare questo nuovo accesso dal tuo dispositivo principale.
+
 
 ## Come impostare la 2FA su un account?
 

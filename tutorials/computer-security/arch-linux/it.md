@@ -13,7 +13,7 @@ Arch Linux è una distribuzione rinomata per la sua robustezza, le sue prestazio
 - **Libero e open source**: come la maggior parte delle distribuzioni Linux, Arch Linux è totalmente gratuito. Non ci sono costi di licenza, il che la rende una scelta eccellente per studenti, freelance o appassionati.
 - **Filosofia KISS**: Arch è stato progettato per essere semplice, leggero ed efficiente. Fornisce solo l'essenziale, consentendo di costruire il proprio ambiente à la carte.
 - **Gestore di pacchetti Pacman**: Pacman è un gestore di pacchetti veloce, affidabile e ben progettato. Consente un'installazione e un aggiornamento efficienti del software e gestisce le dipendenze con precisione.
-- **Documentazione completa e una comunità attiva**: [l'Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarvi se vi bloccate, a patto che abbiate fatto un po' di ricerca in precedenza.
+- **Documentazione completa e una comunità attiva**: [l'Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarti se ti bloccherai, a patto che tu abbia fatto un po' di ricerca in precedenza.
 
 
 ## Installazione e configurazione
@@ -29,7 +29,6 @@ Materiali necessari:
 ### Download
 
 ![0_1](assets/fr/01.webp)
-
 
 Dal 2017, Arch Linux non supporta più le architetture a 32 bit. Sono disponibili solo versioni a 64 bit.
 
@@ -326,7 +325,7 @@ EOF
 
 ## Interfaccia Grafica (GNOME)
 
-Per impostazione predefinita, **Arch Linux** non contiene alcuna interfaccia grafica. Per aggiungerne uno:
+Per impostazione predefinita, **Arch Linux** non contiene alcuna interfaccia grafica. Per aggiungerne una:
 
 Aggiornare il sistema:
 
@@ -362,6 +361,7 @@ Il sistema si riavvia automaticamente e viene visualizzato il login nell'interfa
 
 ![0_21](assets/fr/21.webp)
 
+
 ## Creazione di un utente
 
 Una volta entrato nell'**Interfaccia di GNOME**, è necessario creare un nuovo utente per una maggiore sicurezza e un utilizzo più sicuro e privo di rischi. Entra nelle applicazioni e scegli l'opzione "console" per lanciare il terminale.
@@ -393,7 +393,7 @@ EDITOR=nano visudo
 %wheel ALL=(ALL:ALL) ALL
 ```
 
-- Riavvia il sistema e accedi con il proprio nome utente.
+- Riavvia il sistema e accedi con il tuo nome utente.
 
 ![0_23](assets/fr/23.webp)
 
@@ -432,9 +432,9 @@ Non dimenticate che potete installare più pacchetti con un solo comando, elenca
 pacman -S vim firefox net-tools
 ```
 
-Arch Linux si distingue per la sua notevole stabilità, la filosofia minimalista e la robustezza, che lo rendono una scelta ideale per gli ambienti di sviluppo. Fornendo solo l'essenziale, offre una base leggera e ad alte prestazioni, facile da personalizzare in base alle proprie esigenze specifiche. Questo approccio minimalista favorisce anche un maggiore controllo sul sistema, rafforzando la sicurezza e limitando la superficie di attacco. Grazie alla sua comunità attiva e alla documentazione esaustiva, Arch Linux può aiutarvi a creare un ambiente sicuro e flessibile ottimizzato per lo sviluppo professionale.
+Arch Linux si distingue per la sua notevole stabilità, la filosofia minimalista e la robustezza, che lo rendono una scelta ideale per gli ambienti di sviluppo. Fornendo solo l'essenziale, offre una base leggera e ad alte prestazioni, facile da personalizzare in base alle proprie esigenze specifiche. Questo approccio minimalista favorisce anche un maggiore controllo sul sistema, rafforzando la sicurezza e limitando la superficie di attacco. Grazie alla sua comunità attiva e alla documentazione esaustiva, Arch Linux può aiutarti a creare un ambiente sicuro e flessibile ottimizzato per lo sviluppo professionale.
 
-Se vi è piaciuto iniziare con Arch Linux, vi piacerà il nostro tutorial su **Fedora OS**, un sistema operativo modulare, sicuro e robusto che si adatta alle vostre esigenze e ai vostri usi.
+Se ti è piaciuto iniziare con Arch Linux, ti piacerà il nostro tutorial su **Fedora OS**, un sistema operativo modulare, sicuro e robusto che si adatta alle tue esigenze e ai tuoi usi.
 
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 

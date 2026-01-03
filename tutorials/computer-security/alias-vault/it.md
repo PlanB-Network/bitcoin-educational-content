@@ -5,13 +5,14 @@ description: Potente tool per gestire password, autenticazione a due fattori e a
 
 ![cover](assets/cover.webp)
 
-La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività,  dovrebbe tenere in grande considerazione.
+La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività, dovrebbe tenere in grande considerazione.
 
 Questi questioni sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano al tema, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
 
-È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'unica interfaccia.
+È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizzare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'unica interfaccia.
 
 **Ma Alias Vault non si ferma qui**.
+
 
 ## Caratteristiche principali
 
@@ -28,7 +29,7 @@ Fa parte del pacchetto un'ampia e accurata documentazione, che accompagnerà i n
 
 ## Niente dati personali!
 
-Si inizia, come sempre, dal sito web [aliasvault.net](aliasvault.net). Come detto, Alias Vault si può utilizzare sul proprio server, oppure dal cloud dello sviluppatore per iniziare a conoscerlo prima di passare alla soluzione self-hosted.
+Si inizia, come sempre, dal sito web [aliasvault.net](https://www.aliasvault.net/). Come detto, Alias Vault si può utilizzare sul proprio server, oppure dal cloud dello sviluppatore per iniziare a conoscerlo prima di passare alla soluzione self-hosted.
 
 Il sito ha una grafica realmente accattivante e ben curata, ma il bello arriva se inizi a mettere le mani in pasta: **crea il tuo account**.
 
@@ -100,6 +101,7 @@ Per cancellare un alias che hai creato a titolo di prova, non dovrai far altro c
 
 ![img](assets/en/16.webp)
 
+
 ## Estensione del browser
 
 A seconda di quelle che sono le tue necessità, puoi ricorrere all'estensione del browser, che puoi trovare sui browser più utilizzati.
@@ -113,6 +115,7 @@ L'estensione del browser è lì per facilitare le operazioni di login ai servizi
 ![img](assets/en/17.webp)
 
 L'unica attenzione è verificare che Alias Vault sia attivo. L'applicazione ha infatti un'impostazione di default, per cui si mette in pausa dopo un periodo di inattività. È una funzione molto utile, **quando ti devi ad esempio allontanare dal computer ed evitare che qualcun altro possa accedere ai tuoi account**. Una procedura snella ti permetterà di accedere nuovamente immettendo la `master password`, se la sessione precedente è ancora nella cache. Il tempo per la disconnessione è uno dei parametri che puoi personalizzare, accorciandolo o allungandolo a seconda delle tue preferenze.
+
 
 ## Mobile App
 
@@ -139,6 +142,7 @@ L'app per cellulare può essere instradata al collegamento verso il `vault` ospi
 ![img](assets/en/22.webp)
 
 Ed è appunto la versione self-hosted che affronteremo, brevemente, nel prossimo paragrafo.
+
 
 ## Self-Hosting: pieno controllo sui tuoi dati
 
@@ -215,6 +219,7 @@ Per fermare Alias Vault, torna al terminale e digita:
 
 ![img](assets/en/31.webp)
 
+
 ## Considerazioni su cifratura e sicurezza
 
 ![img](assets/en/32.webp)
@@ -235,12 +240,15 @@ Essendo Alias Vault in fase _Beta_ potresti avere difficoltà di accesso in caso
 
 Per una completa comprensione dell'architettura e della sicurezza adottate da Alias Vault, ti consiglio vivamente di consultare [questa pagina](https://docs.aliasvault.net/architecture/), che contiene i dettagli della crittografia alla base del suo funzionamento.
 
+
 ## Roadmap
+
 Le intenzioni degli sviluppatori sono di rendere Alias Vault maturo e stabile entro la fine del 2025, in modo da definirne le future caratteristiche d'uso.
 
 Alias Vault è, e rimarrà sempre open source e free, ma probabilmente non in maniera illimitata come in fase beta. Alcune feature a pagamento stanno per essere implementate, in quanto già annunciate.
 
 Sono previsti piani per team/famiglie e il supporto alle chiavi hardware, queste ultime per l'autenticazione con FIDO2 o WebAuth.
+
 
 ## A chi serve Alias Vault
 

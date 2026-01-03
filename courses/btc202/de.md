@@ -785,44 +785,25 @@ Allerdings behält jede Anwendung im Store ihre eigene Lizenz, die häufig Open 
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
-Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit den Details zu befassen. In diesem Tutorial zeigen wir dir, wie du einen kompletten Bitcoin Node mit UmbrelOS installieren.
-
-
+Nun, da wir alle notwendigen Informationen haben, ist es an der Zeit, sich mit den Details zu befassen. In diesem Tutorial zeigen wir dir, wie du eine komplette Bitcoin Node mit UmbrelOS installierst.
 
 ### Erforderliche Materialien
 
+Hier verwenden wir das UmbrelOS x86-Image (genauer gesagt, die x86_64-Version). Du kannst diese Anleitung auf jedem Rechner deiner Wahl durchführen, solange er nicht mit einem Prozessor der ARM-Architektur ausgestattet ist (kein Apple Silicon, Raspberry Pi, etc.). Das bedeutet, dass jeder Computer mit einem Intel- oder AMD-64-Bit-Prozessor ausreicht, solange er die Mindestanforderungen erfüllt, je nachdem, wie du deinen Umbrel verwenden willst (mindestens ein Dual-Core-Prozessor wird empfohlen).
 
-
-Hier verwenden wir das UmbrelOS x86-Image (genauer gesagt, die x86_64-Version). du können diese Anleitung auf jedem Rechner Ihrer Wahl durchführen, solange er nicht mit einem Prozessor der ARM-Architektur ausgestattet ist (kein Apple Silicon, Raspberry Pi, etc.). Das bedeutet, dass jeder Computer mit einem Intel- oder AMD-64-Bit-Prozessor ausreicht, solange er die Mindestanforderungen erfüllt, je nachdem, wie du Ihren Umbrel verwenden wollen (mindestens ein Dual-Core-Prozessor wird empfohlen).
-
-
-
-Wenn du sich für einen Raspberry Pi 5 entschieden haben (eine Option, die ich nicht empfehle, wie im vorherigen Abschnitt erwähnt), ist die Installation etwas anders. du können dann dieser speziellen Anleitung folgen und zu meinem Kurs zurückkehren, sobald du auf der Interface Webseite `http://umbrel.local` sind:
-
-
+Wenn du dich für einen Raspberry Pi 5 entschieden hast (eine Option, die ich nicht empfehle, wie im vorherigen Abschnitt erwähnt), ist die Installation etwas anders. Du kannst dann dieser speziellen Anleitung folgen und zu meinem Kurs zurückkehren, sobald du auf der Interface Webseite `http://umbrel.local` bist:
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Wie im vorherigen Abschnitt erwähnt, habe ich mich entschieden, dieses Tutorial auf einem kleinen renovierten PC auszuführen, den ich zu einem guten Preis gefunden habe: ein *Lenovo ThinkCentre M900 Tiny*, ausgestattet mit einem Intel Core i7 Prozessor und 16 GB RAM. Dies ist eine sehr komfortable Konfiguration für den Betrieb von Umbrel, insbesondere für einen Bitcoin Node. Ich habe mich jedoch für diese Konfiguration entschieden, weil ich später einen Lightning-Node und andere anspruchsvollere Anwendungen installieren möchte. Ich habe auch eine 2TB SSD zu meinem ThinkCentre hinzugefügt, um den vollen Blockchain zu behalten und immer noch eine komfortable Marge zu haben. Mit dieser Konfiguration belaufen sich die Gesamtkosten auf 270 €, einschließlich aller Ausgaben.
-
-
+Wie im vorherigen Abschnitt erwähnt, habe ich mich entschieden, dieses Tutorial auf einem kleinen generalüberholten PC durchzuführen, den ich zu einem guten Preis gefunden habe: ein *Lenovo ThinkCentre M900 Tiny*, ausgestattet mit einem Intel Core i7 Prozessor und 16 GB RAM. Dies ist eine sehr komfortable Konfiguration für den Betrieb von Umbrel, insbesondere für eine Bitcoin Node. Ich habe mich allerdings für diese Konfiguration entschieden, weil ich später eine Lightning Node und andere anspruchsvollere Anwendungen installieren möchte. Ich habe auch eine 2TB SSD zu meinem ThinkCentre hinzugefügt, um die volle Blockchain zu speichern und immer noch eine komfortable Marge zu haben. Mit dieser Konfiguration belaufen sich die Gesamtkosten auf 270 €, einschließlich aller Ausgaben.
 
 ![Image](assets/fr/001.webp)
 
-
-
 Die ThinkCentre Tiny-Reihe von Lenovo hat es mir besonders angetan, denn es sind kompakte, leise und sehr robuste Geräte. Diese Computer sind bei Unternehmen sehr beliebt und daher auf dem Gebrauchtmarkt reichlich vorhanden, wo man interessante Konfigurationen zwischen 70 und 200 Euro finden kann.
 
-
-
-Wenn du sich, wie ich, für einen PC ohne Monitor entschieden haben, müssen du **nur für die Dauer der Installation einen Monitor und eine Tastatur** anschließen. Danach können du von einem anderen Computer im selben Netzwerk (oder über andere Methoden, die wir in späteren Kapiteln behandeln werden) auf den PC zugreifen. du benötigen außerdem ein RJ45-Ethernet-Kabel, um Ihren Rechner mit dem lokalen Netzwerk zu verbinden, und einen USB-Stick mit mindestens 4 GB, um das Installations-Image zu speichern.
-
-
+Wenn du dich, wie ich, für einen PC ohne Monitor entschieden hast, musst du **nur für die Dauer der Installation einen Monitor und eine Tastatur** anschließen. Danach kannst du von einem anderen Computer im selben Netzwerk (oder über andere Methoden, die wir in späteren Kapiteln behandeln werden) auf den PC zugreifen. Du benötigst außerdem ein RJ45-Ethernet-Kabel, um deinen Rechner mit dem lokalen Netzwerk zu verbinden, und einen USB-Stick mit mindestens 4 GB, um das Installations-Image zu speichern.
 
 Hier noch einmal die Anforderungen an die Ausrüstung:
-
-
-
 
 - Computer mit x86_64-Prozessor (mindestens Dual-Core, empfohlen Quad-Core);
 - RAM-Speicher (mindestens 4 GB, 8 GB oder mehr bei längerer Nutzung empfohlen);
@@ -831,274 +812,136 @@ Hier noch einmal die Anforderungen an die Ausrüstung:
 - Monitor und Tastatur (nur bei der Erstinstallation sinnvoll, wenn der PC nicht damit ausgestattet ist);
 - RJ45-Ethernet-Kabel.
 
-
-
 ### Schritt 1 - Montage des Computers
 
-
-
-Je nach der von dir gewählten Hardware müssen du zunächst die verschiedenen Komponenten Ihres Computers zusammenbauen. In meinem Fall hatte die ursprüngliche SSD zum Beispiel nur eine Kapazität von 256 GB, also werde ich sie für eine andere Verwendung recyceln und durch eine 2-TB-SSD ersetzen. Wenn du auch die RAM-Module ersetzen möchten, ist jetzt der richtige Zeitpunkt dafür.
-
-
+Je nach der von dir gewählten Hardware musst du zunächst die verschiedenen Komponenten deines Computers zusammenbauen. In meinem Fall hatte die ursprüngliche SSD zum Beispiel nur eine Kapazität von 256 GB, also werde ich sie für eine andere Verwendung recyceln und durch eine 2-TB-SSD ersetzen. Wenn du auch die RAM-Module ersetzen möchtest, ist jetzt der richtige Zeitpunkt dafür.
 
 ### Schritt 2: Vorbereiten eines bootfähigen USB-Sticks
 
+Bevor du UmbrelOS auf deinem Rechner installierst, musst du einen bootfähigen USB-Stick erstellen, der das Betriebssystem enthält. Alle Schritte in Schritt 2 müssen auf deinem persönlichen Computer durchgeführt werden (und nicht direkt auf dem Computer, der deine Node werden soll).
 
-
-Bevor du UmbrelOS auf Ihrem Rechner installieren, müssen du einen bootfähigen USB-Stick erstellen, der das Betriebssystem enthält. Alle Schritte in Schritt 2 müssen auf Ihrem persönlichen Computer durchgeführt werden (und nicht direkt auf dem Computer, der dein Node werden soll).
-
-
-
-
-
-- Laden du zunächst die neueste Version von UmbrelOS im USB-Format herunter:
-
-
-
-Gehen du auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stellen du sicher, dass du die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
-
-
+- Lade zunächst die neueste Version von UmbrelOS im USB-Format herunter:
+  
+Gehe auf [die offizielle Umbrel-Website, um das ISO-Image herunterzuladen](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) für die Installation über einen USB-Stick. Stelle sicher, dass du die mit der x86_64-Architektur kompatible Version auswählen (Datei mit dem Namen `umbrelos-amd64-usb-installer.iso`). Das Herunterladen kann einige Zeit dauern, da das Image recht groß ist.
 
 ![Image](assets/fr/002.webp)
 
-
-
-
-
 - Balena Etcher installieren:
-
-
-
-Um den bootfähigen USB-Stick zu erstellen, verwenden du ein einfaches, plattformübergreifendes Tool namens [Balena Etcher](https://www.balena.io/etcher/). Laden du es herunter und installieren du es auf Ihrem Computer.
-
-
+  
+Um den bootfähigen USB-Stick zu erstellen, verwende ein einfaches, plattformübergreifendes Tool namens [Balena Etcher](https://www.balena.io/etcher/). Lade es herunter und installiere du es auf deinem Computer.
 
 ![Image](assets/fr/003.webp)
 
+- Stecke einen leeren USB-Stick mit mindestens 4 GB ein:
 
+Schließe einen USB-Stick an deinen Computer an (denjenigen, auf den du gerade das UmbrelOS und das Balena Etcher Image heruntergeladen haben). **Warnung: alle Daten auf dem Stick werden gelöscht**. Vergewissere dich, dass er keine wichtigen Dateien enthält.
 
+- Brenne das ISO-Image mit Balena Etcher auf den USB-Stick:
 
-
-- Stecken du einen leeren USB-Stick mit mindestens 4 GB ein:
-
-
-
-Schließen du einen USB-Stick an Ihren Computer an (denjenigen, auf den du gerade das UmbrelOS und das Balena Etcher Image heruntergeladen haben). **Warnung: alle Daten auf dem Stick werden gelöscht**. Vergewissere dich, dass er keine wichtigen Dateien enthält.
-
-
-
-
-
-- Brennen du das ISO-Image mit Balena Etcher auf den USB-Stick:
-
-
-
-Starten du den Balena Etcher und wählen du die soeben heruntergeladene ISO-Datei "umbrelos-amd64-usb-installer.iso", indem du auf die Schaltfläche "*Flash aus Datei*" klicken. Wählen du dann den USB-Stick als Zielgerät und klicken du auf "*Flash!*", um mit dem Schreiben zu beginnen.
-
-
+Starte Balena Etcher und wähle die soeben heruntergeladene ISO-Datei `umbrelos-amd64-usb-installer.iso`, indem du auf die Schaltfläche "*Flash from file*" klickst. Wähle dann den USB-Stick als Zielgerät und klicke auf "*Flash!*", um mit dem Schreiben zu beginnen.
 
 ![Image](assets/fr/004.webp)
 
-
-
 Sobald der Vorgang abgeschlossen ist, hast du einen bootfähigen USB-Stick, der UmbrelOS enthält und bereit ist, Umbrel auf deinem Rechner zu installieren.
-
-
 
 ![Image](assets/fr/005.webp)
 
-
-
 ### Schritt 3: Booten des Computers von einem USB-Stick
 
+Jetzt, wo dein bootfähiger USB-Stick mit UmbrelOS fertig ist, kannst du deinen Computer damit booten, um die Systeminstallation zu starten. Trenne den USB-Stick von deinem Hauptrechner und stecke ihn in das Gerät, auf dem du Umbrel und deine Bitcoin Node installieren möchtest.
 
+Wie zu Beginn dieses Kapitels erläutert, benötigst du zum Abschluss der Installation ein Anzeigegerät und ein Eingabegerät. Schließe einen Bildschirm über HDMI (oder einen anderen Anschluss, je nach deinem PC) und eine Tastatur über USB an deinen Rechner an. Diese Geräte werden nur für die Installation benötigt; danach brauchst du sie nicht mehr, da der Zugriff auf Umbrel von einem anderen Computer aus erfolgt. Schließe diese beiden Geräte an deinen PC an.
 
-Jetzt, wo dein bootfähiger USB-Stick mit UmbrelOS fertig ist, können du Ihren Computer damit booten, um die Systeminstallation zu starten. Trennen du den USB-Stick von Ihrem Hauptrechner und stecken du ihn in das Gerät, auf dem du Umbrel und Ihren Bitcoin Node installieren möchten.
+**Tipp:** Wenn du keinen peripheren Bildschirm zu Hause hast, kannst du deinen Fernseher verwenden. Mit seinem HDMI-Eingang (oder einem anderen) kann er als vorübergehender Bildschirm verwendet werden, während du das Betriebssystem installierst.
 
-
-
-Wie zu Beginn dieses Kapitels erläutert, benötigen du zum Abschluss der Installation ein Anzeigegerät und ein Eingabegerät. Schließen du einen Bildschirm über HDMI (oder einen anderen Anschluss, je nach Ihrem PC) und eine Tastatur über USB an Ihren Rechner an. Diese Geräte werden nur für die Installation benötigt; danach brauchen du sie nicht mehr, da der Zugriff auf Umbrel von einem anderen Computer aus erfolgt. Schließen du diese beiden Geräte an Ihren PC an.
-
-
-
-**Tipp:** Wenn du keinen peripheren Bildschirm zu Hause haben, können du Ihren Fernseher verwenden. Mit seinem HDMI-Eingang (oder einem anderen) kann er als vorübergehender Bildschirm verwendet werden, während du das Betriebssystem installieren.
-
-
-
-Umbrel benötigt natürlich eine Internetverbindung. Schließen du das RJ45-Ethernet-Kabel zwischen Ihrem Gerät und Ihrem Router an.
-
-
+Umbrel benötigt natürlich eine Internetverbindung. Schließe das RJ45-Ethernet-Kabel zwischen deinem Gerät und deinem Router an.
 
 ![Image](assets/fr/006.webp)
 
+Schalte deinen Rechner ein. In den meisten Fällen sollte er den USB-Stick automatisch erkennen und von ihm booten. Du siehst dann den UmbrelOS Interface Installationsbildschirm.
 
+Wenn das Gerät auf einem anderen System bootet oder eine Fehlermeldung anzeigt, bedeutet dies wahrscheinlich, dass es nicht automatisch vom USB-Stick bootet. Starte in diesem Fall neu und rufe die BIOS/UEFI-Einstellungen auf (je nach Computerhersteller in der Regel durch Drücken von `DEL`, `F2`, `F12` oder `ESC`). Ändere dann die Bootreihenfolge so, dass der USB-Stick Vorrang hat. Dann startest du das Gerät neu, um UmbrelOS zu starten.
 
-Schalten du Ihren Rechner ein. In den meisten Fällen sollte er den USB-Stick automatisch erkennen und von ihm booten. du sehen dann den UmbrelOS Interface Installationsbildschirm.
+### Schritt 4: Installiere UmbrelOS auf deinem Computer
 
-
-
-Wenn das Gerät auf einem anderen System bootet oder eine Fehlermeldung anzeigt, bedeutet dies wahrscheinlich, dass es nicht automatisch vom USB-Stick bootet. Starten du in diesem Fall neu und rufen du die BIOS/UEFI-Einstellungen auf (je nach Computerhersteller in der Regel durch Drücken von `DEL`, `F2`, `F12` oder `ESC`). Ändern du dann die Bootreihenfolge so, dass der USB-Stick Vorrang hat. Dann starten du das Gerät neu, um UmbrelOS zu starten.
-
-
-
-### Schritt 4: Installieren du UmbrelOS auf Ihrem Computer
-
-
-
-Sobald das Gerät vom USB-Stick gebootet hat, werden du von der Interface UmbrelOS-Installation begrüßt. In diesem Schritt wird das System direkt auf der internen Festplatte des Hard installiert.
-
-
+Sobald das Gerät vom USB-Stick gebootet hat, wirst von der Interface UmbrelOS-Installation begrüßt. In diesem Schritt wird das System direkt auf der internen Festplatte installiert.
 
 Auf dem nun erscheinenden Bildschirm werden alle vom Computer erkannten internen Speichergeräte aufgelistet. Jeder Datenträger ist mit einer Nummer, einem Namen und einer Speicherkapazität versehen. Suchen du den Datenträger, auf dem du Umbrel installieren möchten. **Warnung: Alle Dateien auf diesem Laufwerk werden dauerhaft gelöscht.**
 
-
-
 ![Image](assets/fr/007.webp)
 
-
-
-Wenn du die richtige Festplatte gefunden haben (in der Regel die mit der größten Kapazität, um den Blockchain aufzunehmen), notieren du die ihr zugewiesene Nummer. Wenn die von dir gewählte Platte beispielsweise unter der Nummer "2" erscheint, geben du einfach "2" ein und drücken dann die Eingabetaste auf der Tastatur.
-
-
+Wenn du die richtige Festplatte gefunden hast (in der Regel die mit der größten Kapazität, um die Blockchain aufzunehmen), notierst du die ihr zugewiesene Nummer. Wenn die von dir gewählte Platte beispielsweise unter der Nummer "2" erscheint, gibst einfach "2" ein und drückst dann die Eingabetaste auf der Tastatur.
 
 ![Image](assets/fr/008.webp)
 
-
-
-Das Programm formatiert die ausgewählte Festplatte, installiert UmbrelOS und konfiguriert das System automatisch. Dies kann ein paar Minuten dauern. Lassen du den Prozess ohne Unterbrechung laufen.
-
-
+Das Programm formatiert die ausgewählte Festplatte, installiert UmbrelOS und konfiguriert das System automatisch. Dies kann ein paar Minuten dauern. Lass den Prozess ohne Unterbrechung laufen.
 
 ![Image](assets/fr/009.webp)
 
-
-
-Wenn die Installation abgeschlossen ist, werden du aufgefordert, das Gerät auszuschalten. Drücken du eine beliebige Taste, um den Computer auszuschalten.
-
-
+Wenn die Installation abgeschlossen ist, wirst du aufgefordert, das Gerät auszuschalten. Drücke eine beliebige Taste, um den Computer auszuschalten.
 
 ![Image](assets/fr/010.webp)
 
-
-
-du können nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie für Ihren Umbrel nicht mehr benötigt werden. Alles, was von Ihrem Node übrig bleibt, ist der Strom Supply und das RJ45-Ethernet-Kabel.
-
-
+Du kannst nun den USB-Stick, die Tastatur und den Bildschirm entfernen, da sie für deinen Umbrel nicht mehr benötigt werden. Alles, was von deiner Node übrig bleibt, ist die Stromversorgung und das RJ45-Ethernet-Kabel.
 
 ![Image](assets/fr/011.webp)
 
+Überprüfe vor dem Neustart des Geräts die beiden folgenden Punkte:
 
+- **Der USB-Stick ist ausgesteckt**: Wenn er angeschlossen bleibt, kann es sein, dass das System auf ihm statt auf der internen Festplatte neu startet;
+- **Das Ethernet-Kabel ist eingesteckt**: Das Gerät muss mit deinem Router verbunden sein, um zu funktionieren.
 
-Überprüfen du vor dem Neustart des Geräts die beiden folgenden Punkte:
+Drücke den Einschaltknopf. Das System bootet automatisch von der internen Festplatte, auf der UmbrelOS installiert wurde. Der erste Startvorgang kann etwa **5 Minuten** dauern. Während dieser Zeit initialisiert Umbrel seine Dienste und das Interface.
 
-
-
-
-
-- Der USB-Stick ist ausgesteckt**: Wenn er angeschlossen bleibt, kann es sein, dass das System auf ihm statt auf der internen Festplatte neu startet;
-- Das Ethernet-Kabel ist eingesteckt**: Das Gerät muss mit Ihrem Router verbunden sein, um zu funktionieren.
-
-
-
-Drücken du den Einschaltknopf. Das System bootet automatisch von der internen Festplatte, auf der UmbrelOS installiert wurde. Der erste Startvorgang kann etwa **5 Minuten** dauern. Während dieser Zeit initialisiert Umbrel seine Dienste und das Interface.
-
-
-
-Öffnen du von einem anderen Computer (Ihrem normalen PC), der an das **gleiche lokale Netzwerk** angeschlossen ist, einen Webbrowser (Firefox, Chrome...) und gehen du zu:
-
-
+Öffne von einem anderen Computer (deinem normalen PC), der an das **gleiche lokale Netzwerk** angeschlossen ist, einen Webbrowser (Firefox, Chrome...) und gehe zu:
 
 ```
 http://umbrel.local
 ```
 
+Dieses Addresse wird verwendet, um aus der Ferne auf das grafische Benutzer-Interface von Umbrel zuzugreifen und die Konfiguration zu beginnen.
 
-
-Dieses Address wird verwendet, um aus der Ferne auf das grafische Benutzer-Interface von Umbrel zuzugreifen und die Konfiguration zu beginnen.
-
-
-
-Wenn der Address `http://umbrel.local` nach mindestens 5 Minuten Wartezeit in Ihrem Browser nicht funktioniert, versuchen du es einfach:
-
-
+Wenn die Addresse `http://umbrel.local` nach mindestens 5 Minuten Wartezeit in deinem Browser nicht funktioniert, versuche es einfach mit:
 
 ```
 http://umbrel
 ```
 
-
-
-Wenn das immer noch nicht funktioniert, gib die lokale IP Address deines Umbrel direkt in den Browser ein. Zum Beispiel (ersetzen du `42` mit der Nummer Ihres Rechners, auf dem Umbrel im lokalen Netzwerk läuft):
-
-
+Wenn das immer noch nicht funktioniert, gib die lokale IP Addresse deines Umbrel direkt in den Browser ein. Zum Beispiel (ersetze `42` mit der Nummer deines Rechners, auf dem Umbrel im lokalen Netzwerk läuft):
 
 ```
 http://192.168.1.42
 ```
 
-
-
-Um dein Umbrel's IP Address zu identifizieren, gibt es mehrere Methoden, von der einfachsten bis zur fortschrittlichsten:
-
-
-
-
+Um deine Umbrel IP Addresse zu identifizieren, gibt es mehrere Methoden, von der einfachsten bis zur fortschrittlichsten:
 
 - Greifen du auf die Verwaltung Ihres Routers Interface zu und suchen du die IP Address des Umbrel-Geräts im lokalen Netz.
 
-
-
-
-
 - Verwenden du eine Netzwerk-Scan-Software wie Angry IP Scanner, um angeschlossene Geräte zu erkennen und den IP Address von Umbrel zu lokalisieren.
-
-
 
 ![Image](assets/fr/012.webp)
 
-
-
 https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
-
-
 - Als letzten Ausweg schließen du einen Monitor und eine Tastatur wieder an das Gerät an, melden du sich an (Standardanmeldung: `umbrel`, Kennwort: `umbrel`) und geben du den folgenden Befehl ein:
-
-
 
 ```
 hostname -I
 ```
 
-
-
 Jetzt sind du bereit, Umbrel zu benutzen!
-
-
 
 ### Schritt 5: Erste Schritte mit Umbrel
 
-
-
 Um mit der Konfiguration Ihres Umbrel zu beginnen, klicken du auf die Schaltfläche "*Start*".
-
-
 
 ![Image](assets/fr/013.webp)
 
-
-
 #### Ein Konto erstellen
-
-
 
 Wählen du ein Pseudonym oder geben du Ihren Namen ein und legen du dann ein sicheres Passwort fest. Seien du vorsichtig: Dieses Passwort ist die einzige Barriere, die den Zugang zu Ihrem Umbrel von Ihrem Netzwerk aus schützt (und damit möglicherweise auch zu Ihren Bitcoins, wenn du einen Lightning-Node auf Umbrel betreiben). Es schützt auch den Fernzugriff über Tor oder VPN, wenn diese Dienste aktiviert sind.
 
-
-
 Wählen du ein sicheres Passwort und stellen du sicher, dass du mindestens eine Sicherungskopie aufbewahren (ein Passwortmanager wird empfohlen).
-
-
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -1106,59 +949,27 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 Sobald du dein Passwort eingegeben haben, klicken du auf die Schaltfläche "*Erstellen*".
 
-
-
 ![Image](assets/fr/014.webp)
-
-
 
 Ihre Umbrel-Konfiguration ist nun abgeschlossen.
 
-
-
 ![Image](assets/fr/015.webp)
-
-
 
 #### Entdeckung von Interface
 
-
-
 Der Interface von Umbrel ist ziemlich intuitiv:
-
-
-
-
 
 - Auf der Startseite können du Ihre installierten Anwendungen und Widgets anzeigen.
 
-
-
 ![Image](assets/fr/016.webp)
-
-
-
-
 
 - Im "*App Store*" können du neue Anwendungen installieren,
 
-
-
 ![Image](assets/fr/017.webp)
-
-
-
-
 
 - Das Menü "*Dateien*" zentralisiert alle auf Ihrem Umbrel gespeicherten Dokumente.
 
-
-
 ![Image](assets/fr/018.webp)
-
-
-
-
 
 - Über das Menü "*Einstellungen*" können du die Einstellungen Ihres Umbrel ändern und auf seine Informationen zugreifen:
     - Aktualisieren du dein Gerät, starten du es neu oder stoppen du es;
@@ -1166,135 +977,69 @@ Der Interface von Umbrel ist ziemlich intuitiv:
     - Hintergrundbild ändern;
     - Verwalten du den Fernzugriff über Tor, aktivieren du Wi-Fi oder 2FA.
 
-
-
 ![Image](assets/fr/019.webp)
-
-
 
 #### Sicherheits- und Verbindungseinstellungen
 
-
-
 Zuallererst empfehle ich dringend, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Dies fügt Ihrem Passwort ein zusätzliches Layer an Sicherheit hinzu. du ist fast unverzichtbar, wenn du Ihren Umbrel zum Speichern persönlicher Dateien, zum Betreiben eines Lightning Nodes oder für andere sensible Aktivitäten nutzen wollen.
-
-
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Klicken du dazu in den Einstellungen auf das entsprechende Feld.
 
-
-
 ![Image](assets/fr/020.webp)
-
-
 
 Scannen du dann den angezeigten QR-Code mit Ihrer Authentifizierungsanwendung. Geben du dann den 6-stelligen dynamischen Code in das dafür vorgesehene Feld auf Ihrem Umbrel ein.
 
-
-
 Von nun an erfordert jede neue Verbindung zu Ihrem Umbrel sowohl das Passwort als auch den 6-stelligen Code, der von Ihrer Anwendung für die Zwei-Faktor-Authentifizierung (2FA) generiert wird.
-
-
 
 ![Image](assets/fr/021.webp)
 
-
-
 Was den Fernzugriff über Tor angeht, empfehle ich dir, diese Option zu deaktivieren, wenn du sie nicht brauchst, um die Angriffsfläche deines Umbrel zu begrenzen. Standardmäßig kann auf deinen Node nur von einem Rechner aus zugegriffen werden, der mit demselben lokalen Netzwerk verbunden ist. Wenn du den Zugang über Tor aktivierst, kannst du dein Umbrel trotzdem von unterwegs aus verwalten.
-
-
 
 Wenn du diese Funktion aktivierst, ist es theoretisch möglich, dass jeder Rechner auf der Welt versucht, sich mit deinem Node zu verbinden, vorausgesetzt, er kennt den Tor Address. Dein Passwort und 2FA schützen dich aber immer noch.
 
-
-
 Wenn du diese Option aktivierst, stelle sicher, dass du die Zwei-Faktor-Authentifizierung (2FA) aktivierst, ein sicheres Passwort verwendest und niemals deine Tor-Verbindung Address offenlegst.
-
-
 
 Gib einfach diesen Tor Address in deinen Tor-Browser ein, um von jedem Netzwerk aus auf den Interface von Umbrel zuzugreifen.
 
-
-
 ![Image](assets/fr/026.webp)
-
-
 
 Schließlich können du auf dieser Einstellungsseite auch die Wi-Fi-Verbindung aktivieren. Wenn dein Rechner, der Umbrel hostet, über eine Wi-Fi-Netzwerkkarte oder einen Wi-Fi-Dongle verfügt, können du damit auf das Internet zugreifen, ohne das RJ45-Kabel zu benutzen. Je nach Ihrer Konfiguration kann diese Lösung jedoch die Verbindung verlangsamen, was sich auf die anfängliche Synchronisierung (IBD) und die zukünftige Nutzung des Node (z.B. für Lightning-Transaktionen) auswirken kann. Ich persönlich empfehle diese Option nicht, da ein Node nicht für den mobilen Einsatz gedacht ist: Auf ihn wird immer aus der Ferne zugegriffen, also können du ihn auch eingesteckt lassen.
 
-
-
 ### Schritt 6: Installation eines Bitcoin-Node auf Umbrel
-
-
 
 Nachdem UmbrelOS nun korrekt auf Ihrem Rechner installiert und konfiguriert ist, können du mit der Installation Ihres Bitcoin Node fortfahren. Nichts könnte einfacher sein: Gehen du in den App Store, öffnen du die Kategorie "*Bitcoin*" und wählen du dann die Anwendung "*Bitcoin Node*" (eigentlich Bitcoin core).
 
-
-
 ![Image](assets/fr/022.webp)
-
-
 
 Klicken du dann auf die Schaltfläche "*Installieren*".
 
-
-
 ![Image](assets/fr/023.webp)
-
-
 
 Sobald die Installation abgeschlossen ist, startet dein Bitcoin-Node seinen IBD (*Initial Block Download*): Er lädt alle Transaktionen und Blöcke seit der Gründung von Bitcoin im Jahr 2009 herunter und validiert sie.
 
-
-
 ![Image](assets/fr/024.webp)
-
-
 
 Diese Phase ist besonders zeitaufwendig, da ihre Dauer von mehreren Faktoren abhängt, u. a. von der Menge an RAM, die dem Cache des Node zugewiesen ist, der Festplattengeschwindigkeit, der Geschwindigkeit der Internetverbindung und der Prozessorleistung. Die Bandbreite der Dauer ist daher je nach Konfiguration sehr groß. Mit einem Hochleistungs-PC (NVMe-SSD, +32 GB RAM, leistungsstarker Prozessor und gute Internetverbindung) kann IBD in etwa zehn Stunden abgeschlossen werden. Mit einem alten Prozessor, wenig Arbeitsspeicher oder - noch schlimmer - einer mechanischen Hard-Festplatte (von der dringend abgeraten wird) kann sich dieser Vorgang hingegen auf mehrere Wochen ausdehnen.
 
-
-
 Mit einem normal ausgestatteten PC (ordentlicher Prozessor, 8 bis 16 GB Arbeitsspeicher und eine SSD) reicht das für etwa 2 bis 7 Tage.
-
-
 
 Um IBD etwas zu beschleunigen, können du den RAM-Speicher für den Node-Cache (der hauptsächlich für das UTXO-Set verwendet wird, auf das wir später im Kurs zurückkommen werden) über den Parameter "dbcache" erhöhen. Bei Umbrel wird diese Änderung in den Knotenparametern auf der Registerkarte "*Optimization*" vorgenommen.
 
-
-
 ![Image](assets/fr/025.webp)
-
-
 
 Standardmäßig ist der Wert des Parameters `dbcache` in Bitcoin core auf 450 MiB, also etwa 472 MB, eingestellt. Wenn du diesen Wert erhöhen, können du IBD etwas beschleunigen. Ich würde jedoch nicht unbedingt empfehlen, diesen Parameter zu hoch zu setzen: Selbst wenn man ihn auf 4 GiB setzt, wird die Synchronisierung nur um etwa 10 % schneller, und im Falle einer Unterbrechung während IBD kann es zu einem Zeitverlust kommen.
 
-
-
 Achten du darauf, dass du nicht einen zu großen Wert für Ihren Rechner zuweisen. Wenn der für UmbrelOS verfügbare Arbeitsspeicher erschöpft ist, kann dein Node abrupt anhalten, wodurch die IBD unterbrochen wird und du sie manuell neu starten müssen, was zu einem erheblichen Zeitverlust führt.
-
-
 
 Um mehr über die Auswirkungen des Parameters `dbcache` auf die anfängliche Synchronisierung zu erfahren, empfehle ich diese Analyse von Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
-
-
 Sobald die IBD Ihres Node abgeschlossen ist (100%ige Synchronisierung), haben du nun einen voll funktionsfähigen Bitcoin-Node. Herzlichen Glückwunsch, du sind nun ein integraler Bestandteil des Bitcoin-Netzwerks!
-
-
 
 ![Image](assets/fr/027.webp)
 
-
-
 Im nächsten Teil werden wir uns mit der praktischen Nutzung Ihres neuen Node befassen: wie du Ihren Wallet mit ihm verbinden und welche Anwendungen du installieren sollten, um ein souveräner Bitcoiner zu werden.
-
-
-
-
 
 # Anschließen Ihres Wallet an Ihren Node
 

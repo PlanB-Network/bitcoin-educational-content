@@ -38,9 +38,7 @@ If you intend to run a coordinator for large (300+ input) coinjoins, it is advic
 
 On the node we want to download and install the latest released version of Wasabi Wallet, which includes a backend and coordinator as standalone executables next to the wallet.
 
-Find the latest version: [Wasabi Wallet](https://github.com/WalletWasabi/WalletWasabi/releases)
-
-and verify the PGP signature of the release with the keys: [PGP.txt](https://raw.githubusercontent.com/WalletWasabi/WalletWasabi/refs/heads/master/PGP.txt)
+Find the latest version: [Wasabi Wallet](https://github.com/WalletWasabi/WalletWasabi/releases) and verify the PGP signature of the release with the keys: [PGP.txt](https://raw.githubusercontent.com/WalletWasabi/WalletWasabi/refs/heads/master/PGP.txt)
 
 The deployment details differ depending on hardware (CPU-architecture) and OS choice, below the different details are given for a Raspberry Pi (ARM-64) with Debian-based RaspiBlitz as starting point. Skip ahead for (X86-64) Ubuntu OS deployment using Nix.
 
@@ -83,7 +81,7 @@ Before running the coordinator you need to edit the Config.json file with your:
 - Bitcoin RPC credentials
 - Preferred round parameters
 - Coordinator Extended Public Key (create a new SegWit wallet for receiving collected dust) 
-<br>Warning: Taproot wallet will result in unspendable UTXO's! Use a Native Segwit wallet here.
+**Warning**: Taproot wallet will result in unspendable UTXO's! Use a Native Segwit wallet here.
 - Allowed input and output address types
 - Announcer configuration for publishing over nostr (name, description, Uri, minimum inputs, nostr relay, nostr private key)
 
@@ -163,8 +161,8 @@ See this example Config.json:
 }
 ```
 ### Tor configuration 🧅
-To fill in your OnionServicePrivateKey you likely need to generate one first.
-This can be generated with setting in ```/etc/tor/torrc``` :
+
+To fill in your OnionServicePrivateKey you likely need to generate one first. This can be generated with setting in ```/etc/tor/torrc``` :
 ```
 ############### This section is just for location-hidden services ###
 
@@ -178,7 +176,7 @@ This can be generated with setting in ```/etc/tor/torrc``` :
 HiddenServiceDir /var/lib/tor/hidden_service/
 HiddenServicePort 80 127.0.0.1:80
 ```
-Then running ```tor``` once, now the OnionServicePrivateKey can be found with:
+Then running `tor` once, now the OnionServicePrivateKey can be found with:
 ```
 sudo cat /var/lib/tor/hidden_service/*secret_key
 ```
@@ -190,7 +188,7 @@ sudo cat /var/lib/tor/hidden_service/hostname
 
 ## Running ⚡
 
-Once all the config parameters have been set you can run the coordinator service and start announcing your first round 🕶️
+Once all the config parameters have been set you can run the coordinator service and start announcing your first round 🕶️ 
 
 Simply start the coordinator with the command:
 ```
@@ -232,7 +230,6 @@ When a user copies the magic link and opens their Wasabi Wallet, the software wi
 
 ![detected](assets/en/01.webp)
 
----
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️
 
 Remember your training [wasabika](https://docs.wasabiwallet.io/FAQ/FAQ-Contribution.html#you-can-become-a-wasabika), Wasabi Wallet is for defence only 🛡️

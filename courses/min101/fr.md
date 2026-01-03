@@ -203,7 +203,7 @@ Dans notre cas, le `message` correspond en fait à l’entête du bloc, que vous
 
 ### La preuve de travail : trouver une empreinte inférieure à une cible
 
-La Proof-of-Work est souvent décrite comme le fait de "résoudre un problème complexe". En réalité, il ne s’agit pas vraiment d'un problème, mais plutôt d’une recherche par tâtonnement : le mineur doit trouver une version de l’entête dont l’empreinte (après passage dans la fonction `SHA256d`) respecte une condition simple : qu'elle soit inférieure à une certaines cible.
+La Proof-of-Work est souvent décrite comme le fait de résoudre un problème complexe. En réalité, il ne s’agit pas vraiment d'un problème, mais plutôt d’une recherche par tâtonnement : le mineur doit trouver une version de l’entête dont l’empreinte (après passage dans la fonction de hachage `SHA256d`) respecte une condition simple : qu'elle soit inférieure à une certaines cible.
 
 Cette condition se formule ainsi :
 * on calcule l’empreinte de l’entête du bloc à l'aide de la fonction de hachage ;
@@ -215,6 +215,8 @@ Autrement dit, un bloc est valide si :
 ```text
 SHA256d(block_header) <= target
 ```
+
+015
 
 La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitre comment cette cible est déterminée.
 
@@ -228,7 +230,11 @@ L’intérêt fondamental de ce mécanisme réside dans son asymétrie. Produire
 
 Reste une question pratique : si l'entête du bloc candidat construit par le mineur ne donne pas une empreinte valide, comment le mineur peut-il réessayer ? Il lui faut modifier quelque chose dans l’entête afin d’obtenir une empreinte différente. C’est précisément le rôle du nonce.
 
-Rappelez-vous la première propriété d’une fonction de hachage : modifier un seul bit de l’entrée suffit à produire une empreinte de sortie totalement différente et imprévisible. Chaque calcul de hash s’apparente donc à un tirage aléatoire. Pour tenter à nouveau sa chance, le mineur n’a pas besoin de modifier entièrement l’entête de son bloc candidat : il lui suffit d’en changer une infime partie, car le moindre bit différent entraînera une empreinte complètement nouvelle, et potentiellement valide si elle est inférieure à la cible.
+Rappelez-vous la première propriété d’une fonction de hachage : modifier un seul bit de l’entrée suffit à produire une empreinte de sortie totalement différente et imprévisible. Chaque calcul de hash s’apparente donc à un tirage aléatoire.
+
+016
+
+Pour tenter à nouveau sa chance, le mineur n’a pas besoin de modifier entièrement l’entête de son bloc candidat : il lui suffit d’en changer une infime partie, car le moindre bit différent entraînera une empreinte complètement nouvelle, et potentiellement valide si elle est inférieure à la cible.
 
 C’est précisément pour cette raison que l’entête de bloc contient un nonce. Le nonce est une valeur de 32 bits, utilisée une seule fois, puis remplacée. Concrètement, pour un même bloc candidat, un mineur peut ainsi tester environ 4,29 milliards de valeurs possibles (de `0` à `2^32 - 1`). Chaque variation du nonce modifie l’entête du bloc et, par conséquent, change intégralement l’empreinte produite après l’application de la fonction de hachage `SHA256d`.
 
@@ -238,6 +244,8 @@ Le processus de minage est donc très simple :
 - si le résultat est supérieur à la cible, il change le nonce ;
 - il recommence ;
 - etc.
+
+017
 
 En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "extra-nonce", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
 
@@ -254,6 +262,10 @@ Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliqu
 - **Définir la règle de majorité (consensus) et neutraliser les Sybil :**
 
 La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "un identifiant = une voix", facilement truqué par la création massive d’identités (IP, nœuds, clés...). Dans Bitcoin, la "majorité" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail** : comme l’écrit Satoshi, c’est un principe "une CPU = une voix", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
+
+018
+
+[Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*](https://bitcoin.org/bitcoin.pdf)
 
 Les principes liés à l’utilité et aux pouvoirs des mineurs constituent un sujet très complexe que je ne détaillerai pas davantage dans cette formation. Nous y reviendrons cependant de manière approfondie dans la formation MIN 201.
 

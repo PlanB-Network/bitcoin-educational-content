@@ -1,5 +1,5 @@
 ---
-name: Miras
+name: Heritage
 description: Taproot komut dosyaları aracılığıyla entegre miras mekanizmasına sahip bir Bitcoin portföyü
 ---
 

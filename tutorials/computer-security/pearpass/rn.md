@@ -11,7 +11,7 @@ Mu gihe umuntu wese arongoye amakonti menshi, mbere n’amajana yo kuri Internet
 
 
 
-Kandi naho nyene igitigiri c’ibitero kiriko kiragwira, ingeso mbi ziguma zikwiragiye mu bantu: amajambo y’ibanga agoyagoya, amajambo y’ibanga asubirwamwo, amajambo y’ibanga abitswe mu nyandiko zitomoye canke amajambo y’ibanga ashobora gufatwa mu mutwe hafi. Kugira ngo ivyo bibazo bitorerwe umuti ataco bituma ubuzima bugorana ku musi ku musi, umuti ni ugukoresha umucungerezi w’ijambobanga.
+Ariko naho ibitero bigenda vyiyongera, ingeso mbi ziracari zikwiragiye cane mu bantu: amajambo y’ibanga adakomeye, asubirwamwo gukoreshwa, abitswe atarakingirwa canke yibukwa mu buryo budatomoye. Kugira ngo ivyo bibazo bikemurwe ata kugora ubuzima bwa misi yose, umuti ni ugukoresha umucungezi w’amajambo y’ibanga.
 
 
 
@@ -19,7 +19,7 @@ Amacumi n’amajana y’abacungera amajambo y’ibanga arasanzwe ariho, kandi Pl
 
 
 
-**PearPass ni umucungerezi w'ijambobanga ry'inkomoko yuguruye, ry'imbere mu gihugu, ry'urunganwe-ku-rundi ryagenewe guha abakoresha ububasha bwose ku makuru yabo
+**PearPass ni umucungezi w’amajambo y’ibanga wa peer-to-peer, local-first kandi ufunguye, watekerejwe kugira ngo usubize umukoresha ububasha bwose ku makuru yiwe.**
 
 
 
@@ -182,7 +182,7 @@ Inyuma y’aho haza intambwe ihambaye yo guhitamwo ijambobanga ryawe ry’ingenz
 
 
 
-Ijambobanga ry’umukuru rifise ingorane zibiri nyamukuru: gutakaza no gusenyura. Iyo utakaje uburenganzira bwo gukoresha iri jambobanga, ntuzosubira kuronka amakuru yawe yo kwinjira. PearPass ntiyigera ibika ijambobanga ryawe ry'ingenzi: **Iyo ryazimiye, amakuru yawe yo kwinjira arazimangana ubuziraherezo**. Nta buryo bwo gukira buhari. Ku rundi ruhande, iyo iryo jambobanga ryinjijwe maze uwugutera akaronka uburenganzira bwo kwinjira muri kimwe mu bikoresho vyawe, azoshobora kwinjira muri konti zawe zose.
+Ijambobanga nyamukuru rifise ingorane zibiri nyamukuru: kuritakaza no kurihungabanya. Niwatakaza ukuryinjiramwo, ntuzoshobora gusubira kwinjira mu bimenyetso vyawe. Mu vy’ukuri, PearPass ntizigera ibika ijambobanga ryawe nyamukuru: **niritakara, n’ibimenyetso vyawe biratakara burundu**. Nta buryo bwo kubisubirana buhari. Ku rundi ruhande, niyoba rihungabanyijwe maze umuterabwoba akaronka ukwinjira kuri kimwe mu bikoresho vyawe, azoshobora kwinjira mu makonti yawe yose.
 
 
 
@@ -429,7 +429,7 @@ Ivyumba vyawe vyo kuri mudasobwa yawe no kuri telefone yawe ngendanwa ubu birahu
 
 
 
-Ku matelefone ngendanwa, urashobora kandi gukoresha ubuhinga bwo kwuzuza ivyatsi. Kugira ngo ubikore, genda kuri `Ivyagezwe > Ivyateguwe`, hanyuma ukande kuri buto `Gushinga nk'Ivyagezwe` mu gice ca `Ukwizuza`.
+Ku gikoresho kigendagenda, urashobora kandi, niwabishaka, gukoresha ukwuzura kwikora kw’ivyicaro. Kubigira, genda muri `Settings > Advanced`, hanyuma ukande kuri buto `Set as Default` mu gice ca `Autofill`.
 
 
 

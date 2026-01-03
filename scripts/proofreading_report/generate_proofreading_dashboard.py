@@ -70,6 +70,26 @@ def calculate_status(contributors):
         return 3
 
 
+def extract_english_title(content_dir):
+    """Extract the English title from en.md file."""
+    en_file = Path(content_dir) / 'en.md'
+    try:
+        if en_file.exists():
+            with open(en_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                # Extract YAML front matter
+                if content.startswith('---'):
+                    parts = content.split('---', 2)
+                    if len(parts) >= 3:
+                        yaml_content = parts[1]
+                        yaml_data = yaml.safe_load(yaml_content)
+                        return yaml_data.get('name', '')
+        return ''
+    except Exception as e:
+        print(f"Error extracting title from {en_file}: {e}")
+        return ''
+
+
 def parse_course_file(filepath, base_dir):
     """Parse a course.yml file and extract proofreading data."""
     try:
@@ -79,9 +99,14 @@ def parse_course_file(filepath, base_dir):
         # Extract course ID from path
         course_id = Path(filepath).parent.name
 
+        # Extract English title from en.md file
+        course_dir = Path(filepath).parent
+        english_title = extract_english_title(course_dir)
+
         course_data = {
             'id': course_id,
             'name': data.get('name', course_id.upper()),
+            'english_title': english_title,
             'type': 'course',
             'topic': data.get('topic', 'unknown'),
             'subtopic': data.get('subtopic', ''),
@@ -128,9 +153,14 @@ def parse_tutorial_file(filepath, base_dir):
         category = parts[-3]  # tutorials/category/name/tutorial.yml
         tutorial_name = parts[-2]
 
+        # Extract English title from en.md file
+        tutorial_dir = Path(filepath).parent
+        english_title = extract_english_title(tutorial_dir)
+
         tutorial_data = {
             'id': f"{category}/{tutorial_name}",
             'name': data.get('name', tutorial_name.replace('-', ' ').title()),
+            'english_title': english_title,
             'type': 'tutorial',
             'category': category,
             'level': data.get('level', 'unknown'),
@@ -1033,14 +1063,14 @@ def generate_html(data):
             --color-text: #2c3e50;
             --color-text-light: #7f8c8d;
             --color-border: #e1e8ed;
-            --color-primary: #3498db;
-            --color-primary-dark: #2980b9;
+            --color-primary: #ff6b00;
+            --color-primary-dark: #cc5500;
             --color-status-0: #e74c3c;
             --color-status-1: #e67e22;
             --color-status-2: #f39c12;
             --color-status-3: #27ae60;
             --color-hover: #ecf0f1;
-            --color-purple: #9b59b6;
+            --color-purple: #ff8c42;
         }}
 
         * {{
@@ -1090,7 +1120,7 @@ def generate_html(data):
         .section h2 {{
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
-            color: var(--color-primary);
+            color: #000000;
             border-bottom: 2px solid var(--color-border);
             padding-bottom: 0.5rem;
         }}
@@ -1257,8 +1287,8 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-purple);
-            color: white;
+            background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
@@ -1413,6 +1443,7 @@ def generate_html(data):
 
         .lang-stats-table th {{
             background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
@@ -1619,7 +1650,7 @@ def generate_html(data):
         .toc-section h2 {{
             font-size: 1.3rem;
             margin-bottom: 1rem;
-            color: var(--color-primary);
+            color: #000000;
         }}
 
         .toc-nav {{
@@ -1728,7 +1759,7 @@ def generate_html(data):
         }}
 
         .monthly-intro {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff6b00 0%, #cc5500 100%);
             color: white;
             padding: 1.5rem;
             border-radius: 8px;
@@ -1838,6 +1869,7 @@ def generate_html(data):
 
         .monthly-lang-table th {{
             background: var(--color-bg);
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
@@ -2395,7 +2427,7 @@ def generate_html(data):
 
             // Render header
             const header = document.getElementById('matrix-header');
-            header.innerHTML = '<th>Content</th>';
+            header.innerHTML = '<th>English Title</th><th>Code</th>';
             filteredLanguages.forEach(lang => {{
                 const th = document.createElement('th');
                 th.textContent = lang.code.toUpperCase();
@@ -2409,14 +2441,14 @@ def generate_html(data):
 
             if (data.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 1}}" class="empty-state">No content found</td>`;
+                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 2}}" class="empty-state">No content found</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
 
             if (filteredLanguages.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="1" class="empty-state">Please select at least one language</td>`;
+                tr.innerHTML = `<td colspan="2" class="empty-state">Please select at least one language</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
@@ -2424,11 +2456,17 @@ def generate_html(data):
             data.forEach(item => {{
                 const tr = document.createElement('tr');
 
-                // Content name cell
-                const nameTd = document.createElement('td');
-                nameTd.textContent = item.id;
-                nameTd.title = item.name;
-                tr.appendChild(nameTd);
+                // English title cell
+                const titleTd = document.createElement('td');
+                titleTd.textContent = item.english_title || '';
+                titleTd.title = item.english_title || '';
+                tr.appendChild(titleTd);
+
+                // Content code cell
+                const codeTd = document.createElement('td');
+                codeTd.textContent = item.id;
+                codeTd.title = item.name;
+                tr.appendChild(codeTd);
 
                 // Language cells (only for selected languages)
                 filteredLanguages.forEach(lang => {{

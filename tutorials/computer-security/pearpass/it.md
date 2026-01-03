@@ -11,7 +11,7 @@ In un'epoca in cui ogni individuo gestisce decine o addirittura centinaia di acc
 
 
 
-Eppure, nonostante il numero crescente di attacchi, le cattive pratiche rimangono diffuse tra la popolazione: password deboli, password riutilizzate, password memorizzate in chiaro o approssimativamente memorizzate. Per risolvere questi problemi senza complicarsi la vita quotidiana, la soluzione è utilizzare un password manager.
+Tuttavia, nonostante la moltiplicazione degli attacchi, le cattive pratiche restano ampiamente diffuse tra la popolazione: password deboli, riutilizzate, memorizzate in chiaro o ricordate in modo approssimativo. Per risolvere questi problemi senza complicare la vita quotidiana, la soluzione consiste nell’utilizzare un gestore di password.
 
 
 
@@ -19,7 +19,7 @@ Esistono già decine di gestori di password e Plan ₿ Academy offre un tutorial
 
 
 
-**PearPass è un gestore di password open-source, local-first e peer-to-peer, progettato per dare agli utenti un controllo totale sui propri dati
+**PearPass è un gestore di password peer-to-peer, local-first e open-source, progettato per restituire all’utente il pieno controllo sui propri dati.**
 
 
 
@@ -182,7 +182,7 @@ Segue l'importante fase della scelta della password principale. Come abbiamo vis
 
 
 
-La master password comporta due rischi principali: la perdita e la compromissione. Se si perde l'accesso a questa password, non sarà più possibile accedere ai propri dati di accesso. PearPass non conserva mai la password principale: **Se viene persa, i vostri dati di accesso sono definitivamente persi**. Non esiste un meccanismo di recupero. Al contrario, se questa password viene compromessa e un malintenzionato ottiene l'accesso a uno dei vostri dispositivi, sarà in grado di accedere a tutti i vostri account.
+La password principale comporta due rischi principali: la perdita e la compromissione. Se si perde l’accesso a questa password, non sarà più possibile accedere alle proprie credenziali. Infatti, PearPass non conserva mai la password principale: **se viene persa, le credenziali sono perse definitivamente**. Non esiste alcun meccanismo di recupero. Al contrario, se questa password viene compromessa e un attaccante ottiene l’accesso a uno dei dispositivi, potrà accedere all’insieme dei conti.
 
 
 
@@ -429,7 +429,7 @@ I vostri caveau sul computer e sul cellulare sono ora sincronizzati. Ogni ID agg
 
 
 
-Sui telefoni cellulari, è possibile attivare il riempimento automatico dei campi. A tale scopo, accedere a `Impostazioni > Avanzate`, quindi fare clic sul pulsante `Imposta come predefinita` nella sezione `Compilazione automatica`.
+Su mobile, è inoltre possibile attivare, se lo si desidera, il riempimento automatico dei campi. Per farlo, accedere a `Settings > Advanced`, quindi fare clic sul pulsante `Set as Default` nella sezione `Autofill`.
 
 
 

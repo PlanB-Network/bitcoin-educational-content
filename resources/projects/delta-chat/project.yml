@@ -1,0 +1,28 @@
+id: d9a7720c-2694-4a1f-a322-f4ea572fd27b
+
+name: Delta Chat
+
+links:
+  website: https://delta.chat
+  github: https://github.com/deltachat/
+
+category: privacy
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-01-02
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0
+
+tags:
+  - software
+  - cypherpunk
+  - network-security
+
+contributor_names:
+  - PaoloFoti
+
+licence: CC-BY-SA-V4

@@ -1,9 +1,9 @@
-question: Ni iyihe moteri yo guhindura amajambo yakoreshejwe na Internet Explorer kuva kuri verisiyo ya 4 gushika ubu, ikaba yari iganzwa n’isoko mu ntango z’imyaka ya 2000?
-answer: Igikoko
+question: Ni iyihe moteri yo guhindura yakoreshejwe na Internet Explorer kuva kuri verisiyo ya 4 gushika ubu, ikaba yari yarihariye isoko mu ntango z’imyaka ya 2000?
+answer: Trident
 wrong_answers:
-  - Inzoka
-  - Urubuga
-  - Gukubita amaso
+  - Gecko
+  - WebKit
+  - Blink
 explanation: |
-  Trident, yakozwe na Microsoft, yashizweho na Internet Explorer 4.0 mu 1997, kandi yari iganje ku rubuga mu kiringo ca Internet Explorer yariko irakoresha ubuhinga bwa none.
-reviewed: false
+  Trident, yakozwe na Microsoft, izana na Internet Explorer 4.0 mu 1997, kandi yari iganje ku rubuga mu kiringo ca Internet Explorer yariko irakoresha ahantu hose muburyo budasanzwe.
+reviewed: true

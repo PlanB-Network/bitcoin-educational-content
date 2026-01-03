@@ -1,5 +1,5 @@
 ---
-name: 庇護所
+name: Shelter
 description: 與 Shelter 使用同一部手機工作和私人生活
 ---
 

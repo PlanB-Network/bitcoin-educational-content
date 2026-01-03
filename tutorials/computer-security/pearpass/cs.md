@@ -11,7 +11,7 @@ V době, kdy každý člověk spravuje desítky, dokonce stovky online účtů, 
 
 
 
-Navzdory rostoucímu počtu útoků jsou mezi lidmi stále rozšířené špatné postupy: slabá hesla, opakovaně používaná hesla, hesla uložená v čistém textu nebo hesla, která se přibližně pamatují. Řešením, jak tyto problémy vyřešit, aniž by si člověk každodenně komplikoval život, je používání správce hesel.
+Přesto navzdory nárůstu útoků zůstávají špatné praktiky mezi obyvatelstvem velmi rozšířené: slabá hesla, opakovaně používaná, ukládaná v otevřené podobě nebo zapamatovaná přibližně. K vyřešení těchto problémů bez zbytečného komplikování každodenního života spočívá řešení v používání správce hesel.
 
 
 
@@ -19,7 +19,7 @@ Existují již desítky správců hesel a pro většinu z nich nabízí Plan ₿
 
 
 
-**PearPass je správce hesel s otevřeným zdrojovým kódem, který je založen na principu peer-to-peer a je navržen tak, aby uživatelům poskytoval úplnou kontrolu nad jejich daty
+**PearPass je peer-to-peer správce hesel, založený na principu local-first a open-source, navržený tak, aby uživateli vrátil plnou kontrolu nad jeho daty.**
 
 
 
@@ -182,7 +182,7 @@ Dalším důležitým krokem je výběr hlavního hesla. Jak jsme viděli v úvo
 
 
 
-Hlavní heslo s sebou nese dvě hlavní rizika: ztrátu a kompromitaci. Pokud ztratíte přístup k tomuto heslu, nebudete již mít přístup ke svým přihlašovacím údajům. PearPass nikdy neuchovává vaše hlavní heslo: **Pokud ho ztratíte, vaše přihlašovací údaje budou trvale ztraceny**. Neexistuje žádný mechanismus obnovy. Naopak, pokud je toto heslo prozrazeno a útočník získá přístup k jednomu z vašich zařízení, bude mít přístup ke všem vašim účtům.
+Hlavní heslo s sebou nese dvě hlavní rizika: ztrátu a kompromitaci. Pokud ztratíte přístup k tomuto heslu, nebudete již moci přistupovat ke svým přihlašovacím údajům. PearPass totiž vaše hlavní heslo nikdy neukládá: **pokud je ztraceno, jsou vaše přihlašovací údaje ztraceny natrvalo**. Neexistuje žádný mechanismus obnovení. Naopak, pokud je toto heslo kompromitováno a útočník získá přístup k jednomu z vašich zařízení, bude moci přistupovat ke všem vašim účtům.
 
 
 
@@ -429,7 +429,7 @@ Vaše trezory v počítači a mobilu jsou nyní synchronizovány. Každé ID př
 
 
 
-V mobilních telefonech můžete také aktivovat automatické vyplňování polí. To provedete tak, že přejdete do `Nastavení > Rozšířené` a v části `Automatické vyplňování` kliknete na tlačítko `Nastavit jako výchozí`.
+Na mobilním zařízení můžete také, pokud si přejete, aktivovat automatické vyplňování polí. Za tímto účelem přejděte do `Settings > Advanced` a poté klikněte na tlačítko `Set as Default` v sekci `Autofill`.
 
 
 

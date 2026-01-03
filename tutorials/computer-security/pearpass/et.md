@@ -11,7 +11,7 @@ Ajal, mil iga inimene haldab kümneid, isegi sadu veebikontosid, on sisselogimis
 
 
 
-Vaatamata rünnakute arvu suurenemisele on halvad tavad elanikkonna seas endiselt laialt levinud: nõrgad paroolid, korduvkasutatavad paroolid, selge tekstina salvestatud paroolid või ligikaudu meeldejäetud paroolid. Nende probleemide lahendamiseks, ilma et elu igapäevaselt keerulisemaks muutuks, on lahenduseks paroolihalduri kasutamine.
+Siiski, hoolimata rünnakute sagenemisest, on halvad tavad elanikkonna seas endiselt laialt levinud: nõrgad paroolid, korduvkasutatavad paroolid, selges tekstis salvestatud või umbkaudselt meelde jäetud paroolid. Nende probleemide lahendamiseks ilma igapäevaelu keerulisemaks muutmata seisneb lahendus paroolihalduri kasutamises.
 
 
 
@@ -19,7 +19,7 @@ Paroolihaldureid on juba olemas kümneid ja Plan ₿ Academy pakub enamiku neist
 
 
 
-**PearPass on avatud lähtekoodiga, kohalik-pealt, peer-to-peer paroolihaldur, mis on loodud selleks, et anda kasutajatele täielik kontroll oma andmete üle
+**PearPass on võrdõiguslik, local-first ja avatud lähtekoodiga paroolihaldur, mis on loodud andma kasutajale täieliku kontrolli oma andmete üle.**
 
 
 
@@ -182,7 +182,7 @@ Järgmisena tuleb oluline samm, milleks on põhiparooli valimine. Nagu nägime s
 
 
 
-Peaparooliga kaasneb kaks peamist ohtu: kaotus ja kompromiss. Kui kaotate juurdepääsu sellele paroolile, ei pääse te enam oma sisselogimisandmetele ligi. PearPass ei säilita kunagi teie põhiparooli: **Kui see kaotatakse, on teie sisselogimisandmed jäädavalt kadunud**. Taastamismehhanismi ei ole. Seevastu, kui see parool on ohus ja ründaja saab juurdepääsu ühele teie seadmetele, saab ta ligipääsu kõikidele teie kontodele.
+Peaparooliga kaasnevad kaks peamist riski: kaotus ja kompromiteerimine. Kui kaotate juurdepääsu sellele paroolile, ei saa te enam oma kasutajatunnustele ligi. Tegelikult ei talleta PearPass kunagi teie peaparooli: **kui see kaob, on teie kasutajatunnused jäädavalt kadunud**. Taastamismehhanismi ei ole. Vastupidi, kui see parool kompromiteeritakse ja ründaja saab juurdepääsu ühele teie seadmetest, pääseb ta ligi kõigile teie kontodele.
 
 
 
@@ -429,7 +429,7 @@ Teie arvutis ja mobiilis olevad võlvid on nüüd sünkroonitud. Iga ühes seadm
 
 
 
-Mobiiltelefonide puhul saate aktiveerida ka automaatse väljade täitmise. Selleks valige "Seaded > Täiendatud", seejärel klõpsake jaotises "Automaatne täitmine" nupule "Seadistada vaikimisi".
+Mobiilseadmes saate soovi korral samuti aktiveerida väljade automaatse täitmise. Selleks minge jaotisse `Settings > Advanced` ning seejärel klõpsake jaotises `Autofill` nupul `Set as Default`.
 
 
 

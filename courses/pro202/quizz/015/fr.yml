@@ -4,5 +4,5 @@ wrong_answers:
   - Les formules d'addition de points doivent être entièrement réécrites pour les mathématiques discrètes
   - Les calculs de pente deviennent indéfinis en raison de la nature discrète des points
   - Toutes les règles algébriques sont fondamentalement modifiées pour tenir compte de la structure des champs finis
-explanation: |
+explanation: | 
   Lorsque les courbes elliptiques passent des nombres réels aux corps finis, la structure et les règles algébriques sous-jacentes restent identiques - seule l'arithmétique se transforme en arithmétique modulaire. Toutes les formules d'addition de points, les calculs de pente et les relations géométriques fonctionnent exactement de la même manière, mais chaque calcul est effectué modulo p. Cette préservation des règles algébriques tout en ne changeant que la base arithmétique est ce qui rend les courbes elliptiques à corps fini si puissantes pour la cryptographie, car elles conservent toutes les propriétés mathématiques nécessaires tout en créant le comportement discret et imprévisible essentiel à la sécurité.

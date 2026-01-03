@@ -11,7 +11,7 @@ I en tid der hver enkelt person administrerer dusinvis, til og med hundrevis av 
 
 
 
-Til tross for det økende antallet angrep er dårlig praksis fortsatt utbredt blant befolkningen: svake passord, gjenbruk av passord, passord lagret i klartekst eller passord som er lagret utenat. For å løse disse problemene uten å gjøre hverdagen mer komplisert, er løsningen å bruke en passordbehandler.
+Likevel, til tross for økningen i angrep, er dårlige praksiser fortsatt utbredt i befolkningen: svake passord, gjenbrukte passord, passord lagret i klartekst eller omtrent husket. For å løse disse problemene uten å komplisere hverdagen, er løsningen å bruke en passordbehandler.
 
 
 
@@ -19,7 +19,7 @@ Det finnes allerede dusinvis av passordbehandlere, og Plan ₿ Academy tilbyr en
 
 
 
-**PearPass er en åpen kildekode, lokal først, peer-to-peer passordadministrator som er utviklet for å gi brukerne full kontroll over dataene sine
+**PearPass er en peer-to-peer passordbehandler, lokal-først og åpen kildekode, utviklet for å gi brukeren full kontroll over sine data.**
 
 
 
@@ -182,7 +182,7 @@ Det neste viktige steget er å velge hovedpassordet ditt. Som vi så i innlednin
 
 
 
-Hovedpassordet innebærer to hovedrisikoer: tap og kompromittering. Hvis du mister tilgangen til dette passordet, vil du ikke lenger ha tilgang til innloggingsopplysningene dine. PearPass beholder aldri hovedpassordet ditt: **Hvis du mister det, er innloggingsdetaljene dine tapt for alltid**. Det finnes ingen gjenopprettingsmekanisme. Hvis dette passordet derimot blir kompromittert og en angriper får tilgang til en av enhetene dine, vil han eller hun kunne få tilgang til alle kontoene dine.
+Hovedpassordet innebærer to hovedrisikoer: tap og kompromittering. Hvis du mister tilgangen til dette passordet, vil du ikke lenger kunne få tilgang til legitimasjonen din. PearPass lagrer nemlig aldri hovedpassordet ditt: **hvis det går tapt, går legitimasjonen din tapt for godt**. Det finnes ingen gjenopprettingsmekanisme. Omvendt, dersom dette passordet kompromitteres og en angriper får tilgang til en av enhetene dine, vil vedkommende kunne få tilgang til alle kontoene dine.
 
 
 
@@ -429,7 +429,7 @@ Hvelvene dine på datamaskinen og mobilen er nå synkronisert. Alle ID-er som le
 
 
 
-På mobiltelefoner kan du også aktivere automatisk utfylling av felter. Dette gjør du ved å gå til `Innstillinger > Avansert` og deretter klikke på knappen `Sett som standard` i `Autofyll`-delen.
+På mobil kan du også, om du ønsker, aktivere automatisk utfylling av felt. For å gjøre dette, gå til `Settings > Advanced`, og klikk deretter på knappen `Set as Default` i seksjonen `Autofill`.
 
 
 

@@ -11,7 +11,7 @@ Nykyään, kun jokainen henkilö hallinnoi kymmeniä, jopa satoja verkkotilejä,
 
 
 
-Hyökkäysten kasvavasta määrästä huolimatta huonot käytännöt ovat edelleen laajalle levinneet väestön keskuudessa: heikot salasanat, uudelleen käytetyt salasanat, selkeänä tekstinä tallennetut salasanat tai suunnilleen ulkoa opitut salasanat. Näiden ongelmien ratkaisemiseksi ilman, että elämästä tulee päivittäin monimutkaisempaa, ratkaisu on käyttää salasanahallintaohjelmaa.
+Siitä huolimatta, hyökkäysten lisääntymisestä huolimatta huonot käytännöt ovat edelleen laajalle levinneitä väestön keskuudessa: heikot salasanat, uudelleenkäytetyt salasanat, selväkielisinä tallennetut tai epätarkasti muistetut salasanat. Näiden ongelmien ratkaisemiseksi ilman arjen tarpeetonta monimutkaistamista ratkaisu on salasananhallintaohjelman käyttö.
 
 
 
@@ -19,7 +19,7 @@ Salasanahallintaohjelmia on jo olemassa kymmeniä, ja Plan ₿ Academy tarjoaa o
 
 
 
-**PearPass on avoimen lähdekoodin, local-first, peer-to-peer-salasanahallintaohjelma, joka on suunniteltu antamaan käyttäjille täydellisen hallinnan tietoihinsa
+**PearPass on vertaisverkkoon perustuva, local-first ja avoimen lähdekoodin salasananhallintaohjelma, joka on suunniteltu palauttamaan käyttäjälle täysi hallinta omista tiedoistaan.**
 
 
 
@@ -182,7 +182,7 @@ Seuraavaksi on tärkeää valita pääsalasana. Kuten johdannossa todettiin, tä
 
 
 
-Pääsalasanaan liittyy kaksi pääasiallista riskiä: katoaminen ja vaarantaminen. Jos menetät salasanan, et voi enää käyttää kirjautumistietojasi. PearPass ei koskaan säilytä pääsalasanaasi: **Jos se katoaa, kirjautumistietosi menetetään pysyvästi**. Palautusmekanismia ei ole. Jos taas tämä salasana vaarantuu ja hyökkääjä pääsee käsiksi johonkin laitteeseesi, hän pääsee käsiksi kaikkiin tileihisi.
+Pääsalasanalla on kaksi pääasiallista riskiä: katoaminen ja vaarantuminen. Jos menetät pääsyn tähän salasanaan, et voi enää käyttää tunnistetietojasi. PearPass ei nimittäin koskaan tallenna pääsalasanaasi: **jos se katoaa, tunnistetietosi katoavat pysyvästi**. Palautusmekanismia ei ole. Toisaalta, jos tämä salasana vaarantuu ja hyökkääjä saa pääsyn yhteen laitteistasi, hän voi käyttää kaikkia tilejäsi.
 
 
 
@@ -429,7 +429,7 @@ Tietokoneen ja matkapuhelimen holvit on nyt synkronoitu. Jokainen toisessa laitt
 
 
 
-Matkapuhelimissa voit myös aktivoida automaattisen kenttätäytön. Tee tämä valitsemalla `Asetukset > Lisäasetukset` ja napsauttamalla sitten `Automaattitäyttö`-osiossa olevaa `Set as Default`-painiketta.
+Mobiililaitteella voit halutessasi myös ottaa käyttöön kenttien automaattisen täytön. Tätä varten siirry kohtaan `Settings > Advanced` ja napsauta sitten `Autofill`-osiossa painiketta `Set as Default`.
 
 
 

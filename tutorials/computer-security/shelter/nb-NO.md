@@ -1,5 +1,5 @@
 ---
-name: Tilfluktsrom
+name: Shelter
 description: Bruk samme telefon til jobb og privatliv med Shelter
 ---
 

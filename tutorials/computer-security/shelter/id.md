@@ -1,5 +1,5 @@
 ---
-name: Penampungan
+name: Shelter
 description: Gunakan ponsel yang sama untuk pekerjaan dan kehidupan pribadi dengan Shelter
 ---
 

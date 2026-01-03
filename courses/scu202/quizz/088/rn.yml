@@ -1,9 +1,9 @@
-question: Ni uwuhe mucungerezi w’ijambobanga ry’inkomoko yuguruye akurekurira kubika amakuru yawe y’ibanga ataco ukeneye igicu?
-answer: Gukomeza guca DX
+question: Ni ubuhe butunganyirizo bw’ijambo ry’ibanga bw’isoko yuguruye bukurekurira kubika amakuru yawe yo kwinjira mukarere (ku nyabwonko) bitagombereye igicu(cloud)?
+answer: KeePassDX
 wrong_answers:
-  - Unyuma
-  - Urugendo rwa Nord
-  - Umuyobozi w'ijambobanga rya Google
+  - LastPass
+  - NordPass
+  - Google Password Manager
 explanation: |
-  KeePassDX ikora ishingiye ku madosiye yo mu karere yashizwemwo amakuru, ata nkenerwa y’igicu canke kwiyandikisha ku gikorwa gihuriweko.
-reviewed: false
+  KeePassDX ikora ishingiye ku madosiye yo mu karere yanyegejwe, ata nkenerwa y’igicu (cloud) canke kwiyandikisha ku ma serivisi ahuriweko.
+reviewed: true

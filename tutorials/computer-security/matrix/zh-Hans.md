@@ -1,5 +1,5 @@
 ---
-name: 矩阵
+name: Matrix
 description: 了解、配置和使用 Matrix 这一安全、开放和去中心化通信平台的指南。
 ---
 

@@ -915,73 +915,73 @@ http://192.168.1.42
 
 Um deine Umbrel IP Addresse zu identifizieren, gibt es mehrere Methoden, von der einfachsten bis zur fortschrittlichsten:
 
-- Greifen du auf die Verwaltung Ihres Routers Interface zu und suchen du die IP Address des Umbrel-Geräts im lokalen Netz.
+- Greife auf die Verwaltung deines Router Interfaces zu und suche die IP Addresse des Umbrel-Geräts im lokalen Netz.
 
-- Verwenden du eine Netzwerk-Scan-Software wie Angry IP Scanner, um angeschlossene Geräte zu erkennen und den IP Address von Umbrel zu lokalisieren.
+- Verwende eine Netzwerk-Scan-Software wie Angry IP Scanner, um angeschlossene Geräte zu erkennen und die IP Addresse von Umbrel zu lokalisieren.
 
 ![Image](assets/fr/012.webp)
 
 https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
-- Als letzten Ausweg schließen du einen Monitor und eine Tastatur wieder an das Gerät an, melden du sich an (Standardanmeldung: `umbrel`, Kennwort: `umbrel`) und geben du den folgenden Befehl ein:
+- Als letzten Ausweg schließe einen Monitor und eine Tastatur wieder an das Gerät an, melde dich an (Standardanmeldung: `umbrel`, Kennwort: `umbrel`) und gebe den folgenden Befehl ein:
 
 ```
 hostname -I
 ```
 
-Jetzt sind du bereit, Umbrel zu benutzen!
+Jetzt bist du bereit, Umbrel zu benutzen!
 
 ### Schritt 5: Erste Schritte mit Umbrel
 
-Um mit der Konfiguration Ihres Umbrel zu beginnen, klicken du auf die Schaltfläche "*Start*".
+Um mit der Konfiguration deines Umbrel zu beginnen, klicke auf die Schaltfläche "*Start*".
 
 ![Image](assets/fr/013.webp)
 
 #### Ein Konto erstellen
 
-Wählen du ein Pseudonym oder geben du Ihren Namen ein und legen du dann ein sicheres Passwort fest. Seien du vorsichtig: Dieses Passwort ist die einzige Barriere, die den Zugang zu Ihrem Umbrel von Ihrem Netzwerk aus schützt (und damit möglicherweise auch zu Ihren Bitcoins, wenn du einen Lightning-Node auf Umbrel betreiben). Es schützt auch den Fernzugriff über Tor oder VPN, wenn diese Dienste aktiviert sind.
+Wähle ein Pseudonym oder gib deinen Namen ein und lege dann ein sicheres Passwort fest. Seie vorsichtig: Dieses Passwort ist die einzige Barriere, die den Zugang zu deinem Umbrel von deinem Netzwerk aus schützt (und damit möglicherweise auch zu deinen Bitcoins, wenn du eine Lightning Node auf Umbrel betreibst). Es schützt auch den Fernzugriff über Tor oder VPN, wenn diese Dienste aktiviert sind.
 
-Wählen du ein sicheres Passwort und stellen du sicher, dass du mindestens eine Sicherungskopie aufbewahren (ein Passwortmanager wird empfohlen).
+Wähle ein sicheres Passwort und stelle sicher, dass du mindestens eine Sicherungskopie aufbewahrst (ein Passwortmanager wird empfohlen).
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Sobald du dein Passwort eingegeben haben, klicken du auf die Schaltfläche "*Erstellen*".
+Sobald du dein Passwort eingegeben hast, klicke du auf die Schaltfläche "*Erstellen*".
 
 ![Image](assets/fr/014.webp)
 
-Ihre Umbrel-Konfiguration ist nun abgeschlossen.
+Deine Umbrel-Konfiguration ist nun abgeschlossen.
 
 ![Image](assets/fr/015.webp)
 
-#### Entdeckung von Interface
+#### Erkunden des Interface
 
-Der Interface von Umbrel ist ziemlich intuitiv:
+Das Interface von Umbrel ist ziemlich intuitiv:
 
-- Auf der Startseite können du Ihre installierten Anwendungen und Widgets anzeigen.
+- Auf der Startseite kannst du deine installierten Anwendungen und Widgets ansehen.
 
 ![Image](assets/fr/016.webp)
 
-- Im "*App Store*" können du neue Anwendungen installieren,
+- Im "*App Store*" kannst du neue Anwendungen installieren,
 
 ![Image](assets/fr/017.webp)
 
-- Das Menü "*Dateien*" zentralisiert alle auf Ihrem Umbrel gespeicherten Dokumente.
+- Das Menü "*Dateien*" zentralisiert alle auf deinem Umbrel gespeicherten Dokumente.
 
 ![Image](assets/fr/018.webp)
 
-- Über das Menü "*Einstellungen*" können du die Einstellungen Ihres Umbrel ändern und auf seine Informationen zugreifen:
-    - Aktualisieren du dein Gerät, starten du es neu oder stoppen du es;
-    - Prüfen du den verfügbaren Speicherplatz, die RAM-Auslastung und die Prozessortemperatur;
-    - Hintergrundbild ändern;
-    - Verwalten du den Fernzugriff über Tor, aktivieren du Wi-Fi oder 2FA.
+- Über das Menü "*Einstellungen*" kannst du die Einstellungen deines Umbrel ändern und auf seine Informationen zugreifen:
+    - Aktualisiern dein Gerät, starte es neu oder stoppe es;
+    - Prüfe den verfügbaren Speicherplatz, die RAM-Auslastung und die Prozessortemperatur;
+    - Ändere das Hintergrundbild;
+    - Verwalte den Fernzugriff über Tor, aktiviere Wi-Fi oder 2FA.
 
 ![Image](assets/fr/019.webp)
 
 #### Sicherheits- und Verbindungseinstellungen
 
-Zuallererst empfehle ich dringend, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Dies fügt Ihrem Passwort ein zusätzliches Layer an Sicherheit hinzu. du ist fast unverzichtbar, wenn du Ihren Umbrel zum Speichern persönlicher Dateien, zum Betreiben eines Lightning Nodes oder für andere sensible Aktivitäten nutzen wollen.
+Zuallererst empfehle ich dringend, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Dies fügt deinem Passwort eine zusätzliche Schicht an Sicherheit hinzu. Sie ist fast unverzichtbar, wenn du deinen Umbrel zum Speichern persönlicher Dateien, zum Betreiben einer Lightning Node oder für andere sensible Aktivitäten nutzen willst.
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -989,235 +989,145 @@ Klicken du dazu in den Einstellungen auf das entsprechende Feld.
 
 ![Image](assets/fr/020.webp)
 
-Scannen du dann den angezeigten QR-Code mit Ihrer Authentifizierungsanwendung. Geben du dann den 6-stelligen dynamischen Code in das dafür vorgesehene Feld auf Ihrem Umbrel ein.
+Scanne dann den angezeigten QR-Code mit deiner Authentifizierungsanwendung. Gib dann den 6-stelligen dynamischen Code in das dafür vorgesehene Feld auf deinem Umbrel ein.
 
-Von nun an erfordert jede neue Verbindung zu Ihrem Umbrel sowohl das Passwort als auch den 6-stelligen Code, der von Ihrer Anwendung für die Zwei-Faktor-Authentifizierung (2FA) generiert wird.
+Von nun an erfordert jede neue Verbindung zu deinem Umbrel sowohl das Passwort als auch den 6-stelligen Code, der von deiner Anwendung für die Zwei-Faktor-Authentifizierung (2FA) generiert wird.
 
 ![Image](assets/fr/021.webp)
 
-Was den Fernzugriff über Tor angeht, empfehle ich dir, diese Option zu deaktivieren, wenn du sie nicht brauchst, um die Angriffsfläche deines Umbrel zu begrenzen. Standardmäßig kann auf deinen Node nur von einem Rechner aus zugegriffen werden, der mit demselben lokalen Netzwerk verbunden ist. Wenn du den Zugang über Tor aktivierst, kannst du dein Umbrel trotzdem von unterwegs aus verwalten.
+Was den Fernzugriff über Tor angeht, empfehle ich dir, diese Option zu deaktivieren, wenn du sie nicht brauchst, um die Angriffsfläche deines Umbrel zu begrenzen. Standardmäßig kann auf deine Node nur von einem Rechner aus zugegriffen werden, der mit demselben lokalen Netzwerk verbunden ist. Wenn du den Zugang über Tor aktivierst, kannst du dein Umbrel trotzdem von unterwegs aus verwalten.
 
-Wenn du diese Funktion aktivierst, ist es theoretisch möglich, dass jeder Rechner auf der Welt versucht, sich mit deinem Node zu verbinden, vorausgesetzt, er kennt den Tor Address. Dein Passwort und 2FA schützen dich aber immer noch.
+Wenn du diese Funktion aktivierst, ist es theoretisch möglich, dass jeder Rechner auf der Welt versucht, sich mit deiner Node zu verbinden, vorausgesetzt, er kennt die Tor Addresse. Dein Passwort und 2FA schützen dich aber immer noch.
 
-Wenn du diese Option aktivierst, stelle sicher, dass du die Zwei-Faktor-Authentifizierung (2FA) aktivierst, ein sicheres Passwort verwendest und niemals deine Tor-Verbindung Address offenlegst.
+Wenn du diese Option aktivierst, stelle sicher, dass du die Zwei-Faktor-Authentifizierung (2FA) aktivierst, ein sicheres Passwort verwendest und niemals deine Tor-Verbindung Addresse offenlegst.
 
-Gib einfach diesen Tor Address in deinen Tor-Browser ein, um von jedem Netzwerk aus auf den Interface von Umbrel zuzugreifen.
+Gib einfach diese Tor Addresse in deinen Tor-Browser ein, um von jedem Netzwerk aus auf das Interface von Umbrel zuzugreifen.
 
 ![Image](assets/fr/026.webp)
 
-Schließlich können du auf dieser Einstellungsseite auch die Wi-Fi-Verbindung aktivieren. Wenn dein Rechner, der Umbrel hostet, über eine Wi-Fi-Netzwerkkarte oder einen Wi-Fi-Dongle verfügt, können du damit auf das Internet zugreifen, ohne das RJ45-Kabel zu benutzen. Je nach Ihrer Konfiguration kann diese Lösung jedoch die Verbindung verlangsamen, was sich auf die anfängliche Synchronisierung (IBD) und die zukünftige Nutzung des Node (z.B. für Lightning-Transaktionen) auswirken kann. Ich persönlich empfehle diese Option nicht, da ein Node nicht für den mobilen Einsatz gedacht ist: Auf ihn wird immer aus der Ferne zugegriffen, also können du ihn auch eingesteckt lassen.
+Schließlich kannst du auf dieser Einstellungsseite auch die Wi-Fi-Verbindung aktivieren. Wenn dein Rechner, der Umbrel hostet, über eine Wi-Fi-Netzwerkkarte oder einen Wi-Fi-Dongle verfügt, kannst du damit auf das Internet zugreifen, ohne das RJ45-Kabel zu benutzen. Je nach deiner Konfiguration kann diese Lösung jedoch die Verbindung verlangsamen, was sich auf die anfängliche Synchronisierung (IBD) und die zukünftige Nutzung der Node (z.B. für Lightning-Transaktionen) auswirken kann. Ich persönlich empfehle diese Option nicht, da eine Node nicht für den mobilen Einsatz gedacht ist: Auf ihr wird immer aus der Ferne zugegriffen, also kannst du sie auch eingesteckt lassen.
 
-### Schritt 6: Installation eines Bitcoin-Node auf Umbrel
+### Schritt 6: Installation einer Bitcoin-Node auf Umbrel
 
-Nachdem UmbrelOS nun korrekt auf Ihrem Rechner installiert und konfiguriert ist, können du mit der Installation Ihres Bitcoin Node fortfahren. Nichts könnte einfacher sein: Gehen du in den App Store, öffnen du die Kategorie "*Bitcoin*" und wählen du dann die Anwendung "*Bitcoin Node*" (eigentlich Bitcoin core).
+Nachdem UmbrelOS nun korrekt auf deinem Rechner installiert und konfiguriert ist, kannst du mit der Installation deiner Bitcoin Node fortfahren. Nichts könnte einfacher sein: Gehe in den App Store, öffne die Kategorie "*Bitcoin*" und wählen du dann die Anwendung "*Bitcoin Node*" (eigentlich Bitcoin Core).
 
 ![Image](assets/fr/022.webp)
 
-Klicken du dann auf die Schaltfläche "*Installieren*".
+Klicke dann auf die Schaltfläche "*Installieren*".
 
 ![Image](assets/fr/023.webp)
 
-Sobald die Installation abgeschlossen ist, startet dein Bitcoin-Node seinen IBD (*Initial Block Download*): Er lädt alle Transaktionen und Blöcke seit der Gründung von Bitcoin im Jahr 2009 herunter und validiert sie.
+Sobald die Installation abgeschlossen ist, startet deine Bitcoin Node ihren IBD (*Initial Block Download*): Sie lädt alle Transaktionen und Blöcke seit der Gründung von Bitcoin im Jahr 2009 herunter und validiert sie.
 
 ![Image](assets/fr/024.webp)
 
 Diese Phase ist besonders zeitaufwendig, da ihre Dauer von mehreren Faktoren abhängt, u. a. von der Menge an RAM, die dem Cache des Node zugewiesen ist, der Festplattengeschwindigkeit, der Geschwindigkeit der Internetverbindung und der Prozessorleistung. Die Bandbreite der Dauer ist daher je nach Konfiguration sehr groß. Mit einem Hochleistungs-PC (NVMe-SSD, +32 GB RAM, leistungsstarker Prozessor und gute Internetverbindung) kann IBD in etwa zehn Stunden abgeschlossen werden. Mit einem alten Prozessor, wenig Arbeitsspeicher oder - noch schlimmer - einer mechanischen Hard-Festplatte (von der dringend abgeraten wird) kann sich dieser Vorgang hingegen auf mehrere Wochen ausdehnen.
 
-Mit einem normal ausgestatteten PC (ordentlicher Prozessor, 8 bis 16 GB Arbeitsspeicher und eine SSD) reicht das für etwa 2 bis 7 Tage.
+Mit einem normal ausgestatteten PC (ordentlicher Prozessor, 8 bis 16 GB Arbeitsspeicher und eine SSD) dauert das etwa 2 bis 7 Tage.
 
-Um IBD etwas zu beschleunigen, können du den RAM-Speicher für den Node-Cache (der hauptsächlich für das UTXO-Set verwendet wird, auf das wir später im Kurs zurückkommen werden) über den Parameter "dbcache" erhöhen. Bei Umbrel wird diese Änderung in den Knotenparametern auf der Registerkarte "*Optimization*" vorgenommen.
+Um IBD etwas zu beschleunigen, kannst du den RAM-Speicher für den Node-Cache (der hauptsächlich für das UTXO-Set verwendet wird, auf das wir später im Kurs zurückkommen werden) über den Parameter "dbcache" erhöhen. Bei Umbrel wird diese Änderung in den Node-Parametern auf der Registerkarte "*Optimierung*" vorgenommen.
 
 ![Image](assets/fr/025.webp)
 
-Standardmäßig ist der Wert des Parameters `dbcache` in Bitcoin core auf 450 MiB, also etwa 472 MB, eingestellt. Wenn du diesen Wert erhöhen, können du IBD etwas beschleunigen. Ich würde jedoch nicht unbedingt empfehlen, diesen Parameter zu hoch zu setzen: Selbst wenn man ihn auf 4 GiB setzt, wird die Synchronisierung nur um etwa 10 % schneller, und im Falle einer Unterbrechung während IBD kann es zu einem Zeitverlust kommen.
+Standardmäßig ist der Wert des Parameters `dbcache` in Bitcoin Core auf 450 MiB, also etwa 472 MB, eingestellt. Wenn du diesen Wert erhöhst, kannst du den IBD etwas beschleunigen. Ich würde jedoch nicht unbedingt empfehlen, diesen Parameter zu hoch zu setzen: Selbst wenn man ihn auf 4 GiB setzt, wird die Synchronisierung nur um etwa 10 % schneller, und im Falle einer Unterbrechung während IBD kann es zu einem Zeitverlust kommen.
 
-Achten du darauf, dass du nicht einen zu großen Wert für Ihren Rechner zuweisen. Wenn der für UmbrelOS verfügbare Arbeitsspeicher erschöpft ist, kann dein Node abrupt anhalten, wodurch die IBD unterbrochen wird und du sie manuell neu starten müssen, was zu einem erheblichen Zeitverlust führt.
+Achte darauf, dass du nicht einen zu großen Wert für deinen Rechner zuweisen. Wenn der für UmbrelOS verfügbare Arbeitsspeicher erschöpft ist, kann deine Node abrupt anhalten, wodurch der IBD unterbrochen wird und du sie manuell neu starten musst, was zu einem erheblichen Zeitverlust führt.
 
-Um mehr über die Auswirkungen des Parameters `dbcache` auf die anfängliche Synchronisierung zu erfahren, empfehle ich diese Analyse von Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+Um mehr über die Auswirkungen des Parameters `dbcache` auf die anfängliche Synchronisierung zu erfahren, empfehle ich diese Analyse von Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/).
 
-Sobald die IBD Ihres Node abgeschlossen ist (100%ige Synchronisierung), haben du nun einen voll funktionsfähigen Bitcoin-Node. Herzlichen Glückwunsch, du sind nun ein integraler Bestandteil des Bitcoin-Netzwerks!
+Sobald der IBD deiner Node abgeschlossen ist (100%ige Synchronisierung), hast du nun eine voll funktionsfähige Bitcoin Node. Herzlichen Glückwunsch, du bist nun ein integraler Bestandteil des Bitcoin-Netzwerks!
 
 ![Image](assets/fr/027.webp)
 
-Im nächsten Teil werden wir uns mit der praktischen Nutzung Ihres neuen Node befassen: wie du Ihren Wallet mit ihm verbinden und welche Anwendungen du installieren sollten, um ein souveräner Bitcoiner zu werden.
+Im nächsten Teil werden wir uns mit der praktischen Nutzung deiner neuen Node befassen: wie du deine Wallet mit ihr verbindest und welche Anwendungen du installieren solltest, um ein souveräner Bitcoiner zu werden.
 
-# Anschließen Ihres Wallet an Ihren Node
-
+# Anschließen deiner Wallet an deine Node
 
 <partId>418d0afd-3a61-4b5a-9db4-203c0335fd29</partId>
 
-
-
 ## Indexer: Rolle, Betrieb und Lösungen
-
 
 <chapterId>4f93c07a-f0cb-435f-8b68-162f316d7039</chapterId>
 
-
-
-Wenn du sich bereits vor diesem Kurs mit Bitcoin-Node beschäftigt haben, ist dir vielleicht der Begriff "Indexer" begegnet. Dabei handelt es sich um Werkzeuge wie Electrs oder Fulcrum, die zu einem Bitcoin core-Node hinzugefügt werden können. Aber was genau ist ihre Rolle? Wie funktionieren sie in der Praxis? Und sollten du einen auf Ihrem neuen Bitcoin-Node installieren? Das werden wir in diesem Kapitel untersuchen.
-
-
+Wenn du dich bereits vor diesem Kurs mit Bitcoin Nodes beschäftigt hast, ist dir vielleicht der Begriff "Indexer" begegnet. Dabei handelt es sich um Werkzeuge wie Electrs oder Fulcrum, die zu einer Bitcoin Core Node hinzugefügt werden können. Aber was genau ist ihre Rolle? Wie funktionieren sie in der Praxis? Und solltest du einen auf deiner neuen Bitcoin Node installieren? Das werden wir in diesem Kapitel untersuchen.
 
 ### Was ist ein Indexer?
 
-
-
 Im Allgemeinen ist ein Indexer ein Programm, das einen Satz von Rohdaten durchsucht, relevante Schlüssel (z. B. Wörter, Bezeichner und Adressen) extrahiert und eine Hilfsdatei, den so genannten "Index", erstellt, in dem sich jeder Schlüssel auf den genauen Ort der Daten im Korpus bezieht. Diese Vorverarbeitungsphase beansprucht CPU-Zeit und benötigt etwas Speicherplatz, aber es entfällt die Notwendigkeit, den gesamten Korpus bei jeder Abfrage der Datenbank zu verarbeiten; eine einfache Abfrage des Indexes führt zu einer fast sofortigen Antwort.
 
+Für den Laien ist es das gleiche Prinzip wie ein Index in einem Buch: Wenn du eine bestimmte Information suchst, musst du nicht das ganze Buch lesen, sondern kannst im Index direkt die Seite finden, auf der die gesuchte Information steht.
 
-
-Für den Laien ist es das gleiche Prinzip wie ein Index in einem Buch: Wenn du eine bestimmte Information suchen, müssen du nicht das ganze Buch lesen, sondern können im Index direkt die Seite finden, auf der die gesuchte Information steht.
-
-
-
-In einem Bitcoin-Node, wie Bitcoin core, werden Blockchain-Daten in ihrer rohen, chronologischen Form gespeichert. Jeder Block enthält Transaktionen, die wiederum Eingänge und Ausgänge enthalten, ohne eine besondere Klassifizierung nach Address, Kennung oder Wallet. Diese lineare Organisation ist optimal für die Blockvalidierung, aber ungeeignet für gezielte Suchen. Wenn du beispielsweise alle Transaktionen finden wollten, die mit einem bestimmten Address in einem nicht indizierten Node verknüpft sind, müssten du den gesamten Blockchain Block für Block und Transaktion für Transaktion manuell überprüfen. Genau hier kommt der Indexer auf Ihrem Bitcoin-Node ins Spiel.
-
-
+In einer Bitcoin Node, wie Bitcoin Core, werden Blockchain-Daten in ihrer rohen, chronologischen Form gespeichert. Jeder Block enthält Transaktionen, die wiederum Eingänge und Ausgänge enthalten, ohne eine besondere Klassifizierung nach Addresse, Bezeichner oder Wallet. Diese lineare Organisation ist optimal für die Blockvalidierung, aber ungeeignet für gezielte Suchen. Wenn du beispielsweise alle Transaktionen finden wolltest, die mit einer bestimmten Addresse einer nicht indizierten Node verknüpft sind, müsstest du die gesamte Blockchain Block für Block und Transaktion für Transaktion manuell überprüfen. Genau hier kommt der Indexer auf deiner Bitcoin Node ins Spiel.
 
 ![Image](assets/fr/085.webp)
 
-
-
-Ein Indexer ist ein spezialisiertes Softwareprogramm, das diese Masse von Rohdaten (Blockchain, Mempool, UTXO) analysiert und Schlüssel wie Transaktionskennungen, Adressen und Blockhöhen extrahiert. Aus diesen Schlüsseln baut es seinen Index auf, wobei es jeden Schlüssel mit dem genauen Speicherort der Informationen im Knotenpunkt verbindet.
-
-
+Ein Indexer ist ein spezialisiertes Softwareprogramm, das diese Masse von Rohdaten (Blockchain, Mempool, UTXO) analysiert und Schlüssel wie Transaktionskennungen, Adressen und Blockhöhen extrahiert. Aus diesen Schlüsseln baut er seinen Index auf, wobei es jeden Schlüssel mit dem genauen Speicherort der Informationen in der Node verbindet.
 
 ![Image](assets/fr/086.webp)
 
+Die Indizierung ermöglicht es dir, schnell, genau und effizient nach Informationen über deine Node zu suchen. Wenn du z. B. eine Wallet wie Sparrow an deine Node anschließst, kann dieser fast sofort den Saldo einer Addresse anzeigen. Konkret fragt er den Indexer mit einer Anfrage wie: "Welche UTXOs sind mit diesem Skript-Hash verbunden?" Der Indexer antwortet fast sofort, ohne die gesamte Blockchain neu lesen zu müssen, da diese Daten bereits in seiner Datenbank aufgeführt sind.
 
+### Hat Bitcoin Core einen Indexer?
 
-Die Indizierung ermöglicht es dir, schnell, genau und effizient nach Informationen über Ihren Node zu suchen. Wenn du z. B. einen Wallet wie Sparrow an Ihren Node anschließen, kann dieser fast sofort den Saldo eines Address anzeigen. Konkret fragt er den Indexer mit einer Anfrage wie: "_Welche UTXOs sind mit diesem Skript-Hash verbunden?_" Der Indexer antwortet fast sofort, ohne den gesamten Blockchain neu lesen zu müssen, da diese Daten bereits in seiner Datenbank aufgeführt sind.
+Ohne die Notwendigkeit zusätzlicher Software bietet Bitcoin Core streng genommen keinen vollständigen Address-Indexer, der mit Software wie Electrs oder Fulcrum vergleichbar ist. Dennoch enthält es mehrere interne Indizierungsmechanismen sowie optionale Optionen zur Erweiterung seiner Abfragemöglichkeiten. Um die Situation vollständig zu verstehen, müssen wir einen Abstecher in die Geschichte des Projekts machen.
 
+Bis Bitcoin Core Version 0.8.0 basierte die Transaktionsvalidierung auf einem globalen Transaktionsindex, der als `txindex` bekannt war. Dieser Index verwies auf alle Blockchain-Transaktionen und ihre Ausgaben. Wenn eine Node eine neue Transaktion erhielt, konsultierte er diesen Index, um zu überprüfen, ob die verbrauchten Ausgaben (in Eingaben) tatsächlich existierten und nicht bereits ausgegeben worden waren. daher war "txindex" seinerzeit für die Validierung von Transaktionen unerlässlich.
 
+Dieser Ansatz hatte jedoch seine Grenzen: Er war langsam, kostspielig in Bezug auf die Speicherung und redundant in Bezug auf die Informationen. Um hier Abhilfe zu schaffen, wurde in Version 0.8.0 eine Überarbeitung des Validierungsmodells namens ***Ultraprune*** eingeführt. Anstatt alles in Form von Transaktionsindizes zu speichern, unterhält Bitcoin Core eine einfache Datenbank, die ausschließlich UTXOs gewidmet ist, genannt `chainstate` (in der Alltagssprache als "UTXO Set" bekannt), und aktualisiert seine Liste, wenn Ausgaben verbraucht und erstellt werden.
 
-### Hat der Bitcoin core einen Indexer?
+Diese Methode ist viel schneller und speichert nur den aktuellen Zustand des Registers, was den Indexer "txindex" überflüssig macht. Anstatt jedoch den `txindex`-Code zu löschen, haben sich die Entwickler dafür entschieden, diese Funktionalität hinter einem einfachen Parameter (`txindex=1`) zu belassen. Wenn du diese Option auf deiner Node aktivierst, kannst du jede Transaktion von seinem `txid` abfragen.
 
+Entgegen der landläufigen Meinung bietet Bitcoin Core keine Address-basierte Indexierung wie Electrs oder Fulcrum. Für diese Entscheidung gibt es mehrere Gründe:
 
+- Die Rolle von Bitcoin Core besteht nicht darin, ein kompletter Block explorer zu werden oder eine auf die jeweilige Verwendung zugeschnittene API bereitzustellen. Die Integration eines Address-basierten Index würde eine langfristige Commitment-Wartung erfordern, die über den ursprünglichen Anwendungsbereich der Software hinausgeht.
 
-Ohne die Notwendigkeit zusätzlicher Software bietet Bitcoin core streng genommen keinen vollständigen Address Indexer, der mit Software wie Electrs oder Fulcrum vergleichbar ist. Dennoch enthält es mehrere interne Indizierungsmechanismen sowie optionale Optionen zur Erweiterung seiner Abfragemöglichkeiten. Um die Situation vollständig zu verstehen, müssen wir einen Abstecher in die Geschichte des Projekts machen.
+- Die meisten Anwendungsfälle können bereits auf andere Weise abgedeckt werden. Um beispielsweise den Saldo einer Addresse zu schätzen, kannst du den Befehl `scantxoutset` verwenden, der den UTXO-Satz direkt abfragt, ohne dass ein vollständiger Index erforderlich ist.
 
+- Jedes Softwareprogramm hat spezifische Anforderungen an das Format oder die Art der zu indizierenden Daten (Address, Hash-Skript, proprietäres Tag usw.). Es ist flexibler und logischer, diese Programme ihre eigenen angepassten Indizes erstellen zu lassen, als eine generische Lösung in Bitcoin Core festzulegen.
 
+Bitcoin Core verfügt zwar über einen optionalen Transaktionsindexer (`txindex`), ein Überbleibsel seines historischen Betriebs, aber er bietet weder einen Address-Index noch einen direktes Interface für komplexe Suchvorgänge. In einigen Fällen kann es daher sinnvoll sein, einen externen Indexer hinzuzufügen.
 
-Bis Bitcoin core Version 0.8.0 basierte die Transaktionsvalidierung auf einem globalen Transaktionsindex, der als "txindex" bekannt war. Dieser Index verwies auf alle Blockchain-Transaktionen und ihre Ausgaben. Wenn ein Node eine neue Transaktion erhielt, konsultierte er diesen Index, um zu überprüfen, ob die verbrauchten Ausgaben (in Eingaben) tatsächlich existierten und nicht bereits ausgegeben worden waren. daher war "txindex" seinerzeit für die Validierung von Transaktionen unerlässlich.
+### Solltest du einen Address-Indexer zu deiner Node hinzufügen?
 
+Das Hinzufügen eines Address-Indexers, z. B. von Electrs oder Fulcrum, ist nicht zwingend erforderlich; es hängt von deinen spezifischen Anforderungen ab.
 
-
-Dieser Ansatz hatte jedoch seine Grenzen: Er war langsam, kostspielig in Bezug auf die Speicherung und redundant in Bezug auf die Informationen. Um hier Abhilfe zu schaffen, wurde in Version 0.8.0 eine Überarbeitung des Validierungsmodells namens ***Ultraprune*** eingeführt. Anstatt alles in Form von Transaktionsindizes zu speichern, unterhält Bitcoin core eine einfache Datenbank, die ausschließlich UTXOs gewidmet ist, genannt `chainstate` (in der Alltagssprache als "UTXO set" bekannt), und aktualisiert ihre Liste, wenn Ausgaben verbraucht und erstellt werden.
-
-
-
-Diese Methode ist viel schneller und speichert nur den aktuellen Zustand des Registers, was den Indexer "txindex" überflüssig macht. Anstatt jedoch den `txindex`-Code zu löschen, haben sich die Entwickler dafür entschieden, diese Funktionalität hinter einem einfachen Parameter (`txindex=1`) zu belassen. Wenn du diese Option auf Ihrem Node aktivieren, können du jede Transaktion von seinem `txid` abfragen.
-
-
-
-Entgegen der landläufigen Meinung bietet Bitcoin core keine Address-basierte Indexierung wie Electrs oder Fulcrum. Für diese Entscheidung gibt es mehrere Gründe:
-
-
-
-
-
-- Die Rolle von Bitcoin core besteht nicht darin, ein komplettes Block explorer zu werden oder eine auf die jeweilige Verwendung zugeschnittene API bereitzustellen. Die Integration eines Address-basierten Index würde eine langfristige Commitment-Wartung erfordern, die über den ursprünglichen Anwendungsbereich der Software hinausgeht.
-
-
-
-
-
-- Die meisten Anwendungsfälle können bereits auf andere Weise abgedeckt werden. Um beispielsweise den Saldo eines Address zu schätzen, können du den Befehl `scantxoutset` verwenden, der den UTXO-Satz direkt abfragt, ohne dass ein vollständiger Index erforderlich ist.
-
-
-
-
-
-- Jedes Softwareprogramm hat spezifische Anforderungen an das Format oder die Art der zu indizierenden Daten (Address, Hash-Skript, proprietäres Tag usw.). Es ist flexibler und logischer, diese Programme ihre eigenen angepassten Indizes erstellen zu lassen, als eine generische Lösung in Bitcoin core festzulegen.
-
-
-
-Bitcoin core verfügt zwar über einen optionalen Transaktionsindexer (`txindex`), ein Überbleibsel seines historischen Betriebs, aber er bietet weder einen Address-Index noch einen direkten Interface für komplexe Suchvorgänge. In einigen Fällen kann es daher sinnvoll sein, einen externen Indexer hinzuzufügen.
-
-
-
-### Sollten du einen Address-Indexer zu Ihrem Node hinzufügen?
-
-
-
-Das Hinzufügen eines Address-Indexierers, z. B. von Electrs oder Fulcrum, ist nicht zwingend erforderlich; es hängt von Ihren spezifischen Anforderungen ab.
-
-
-
-Wenn du einfach nur einen Wallet, wie z. B. Sparrow, mit Ihrem Node verbinden möchten, um die Salden einzusehen und Transaktionen zu übertragen, ist dies direkt über den Interface RPC des Bitcoin core möglich, entweder lokal oder aus der Ferne über Tor.
-
-
+Wenn du einfach nur eine Wallet, wie z. B. Sparrow, mit deiner Node verbinden möchtest, um die Salden einzusehen und Transaktionen zu übertragen, ist dies direkt über das Interface RPC von Bitcoin Core möglich, entweder lokal oder aus der Ferne über Tor.
 
 Auf der anderen Seite, um mehr fortgeschrittene Software, wie z. B. mit einem Mempool.Locally, die Installation eines Address Indexer wird für den Raum Block explorer unerlässlich.
 
-
-
 Der Indexer benötigt eine gewisse Zeit für die Synchronisierung (weniger als die IBD) und belegt zusätzlichen Speicherplatz. Wenn Ihre SSD nach dem Herunterladen von Blockchain noch genügend freien Speicherplatz hat, können du problemlos einen Indexer hinzufügen.
-
-
 
 ### Welcher Indexer soll gewählt werden?
 
-
-
 Zwei Softwareprogramme werden üblicherweise verwendet, um diese Art von Address-Index zu erstellen und zugänglich zu machen: **Electrs** und **Fulcrum**. Diese Tools indizieren die Blockchain nach Script-Hash (Adressen) und schlagen dann ein standardisiertes Interface (das Electrum-Protokoll) vor, mit dem sich zahlreiche Wallets wie Electrum Wallet, Sparrow oder Phoenix verbinden.
-
-
 
 ![Image](assets/fr/087.webp)
 
-
-
 Einfach ausgedrückt ist Electrs recht kompakt: Es indiziert Blockchain schneller und nimmt weniger Speicherplatz in Anspruch, ist aber bei Abfragen etwas weniger leistungsfähig als Fulcrum. Im Gegensatz dazu verbraucht Fulcrum mehr Speicherplatz und braucht länger für die Indizierung, bietet aber eine bessere Abfrageleistung.
-
-
 
 Für den individuellen Gebrauch empfehle ich Electrs: Es verbraucht weniger Speicherplatz, wird gut gewartet und ist zwar bei bestimmten Anfragen etwas langsamer als Fulcrum, aber für den täglichen Gebrauch immer noch mehr als ausreichend. Wenn du die Zeit und den Speicherplatz haben, können du auch Fulcrum ausprobieren, das vor allem bei Geldbörsen mit vielen zu überprüfenden Adressen deutlich besser abschneidet.
 
-
-
 Konkret bedeutet dies, dass Electrs im August 2025 etwa 56 GB Speicherplatz benötigt, Fulcrum dagegen etwa 178 GB. Die Wahl Ihres Indexers hängt also auch von Ihrer Speicherkapazität ab:
-
-
-
 
 - Wenn dein Festplattenplatz sehr begrenzt ist, müssen du sich mit dem Bitcoin core ohne einen externen Address-Indexer begnügen.
 - Wenn du einen Indexer verwenden möchten, aber dennoch Kapazitätsengpässe haben, entscheiden du sich für Electrs.
 - Wenn du über ausreichend Speicherplatz verfügen, könnte Fulcrum genau das Richtige für du sein.
 
-
-
 Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber du können einfach mit Fulcrum weitermachen: Die Installationsprozedur ist identisch, ebenso wie die Verbindung des Interface mit dem Wallet, da beide einen Electrum-Server bereitstellen.
-
-
 
 ### Wie installiere ich einen Indexer auf Umbrel?
 
-
-
 Um Electrs (oder Fulcrum) auf Ihrem Umbrel zu installieren, ist das Verfahren einfach: Gehen du zum App Store, suchen du nach der entsprechenden Anwendung (auf der Registerkarte Bitcoin) und klicken du dann auf die Schaltfläche "*Installieren*".
-
-
 
 ![Image](assets/fr/028.webp)
 
-
-
 Sobald die Installation abgeschlossen ist, beginnt Electrs mit einer Synchronisierungsphase (Indizierung), die mehrere Stunden dauern kann.
-
-
 
 ![Image](assets/fr/029.webp)
 
-
-
 Sobald die Synchronisierung abgeschlossen ist, können du Ihre Wallet-Software mit Ihrem Electrum-Server verbinden, der auf Umbrel gehostet wird.
 
-
-
 ## Wie verbinde ich mein Wallet mit meinem Bitcoin-Node?
-
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 

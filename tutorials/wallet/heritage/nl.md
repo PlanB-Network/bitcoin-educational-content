@@ -1,5 +1,5 @@
 ---
-name: Erfgoed
+name: Heritage
 description: Een Bitcoin portfolio met geïntegreerd overervingsmechanisme via Taproot scripts
 ---
 

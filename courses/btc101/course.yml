@@ -43,28 +43,29 @@ published_at: 2023-04-29
 original_language: en
 proofreading:
   - language: cs
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 23.73
+      - commitzs
+    reward: 11.86
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 8.91
+    reward: 8.9
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Ncfab
-    reward: 8.91
+    reward: 8.9
   - language: es
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 8.91
+    reward: 8.9
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -91,12 +92,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 17.77
+    reward: 17.76
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.82
+    reward: 17.81
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -122,7 +123,7 @@ proofreading:
     contributor_names:
       - AraleB
       - bitcoinindo21
-    reward: 7.41
+    reward: 7.4
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
@@ -146,7 +147,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 20.72
+    reward: 20.71
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -177,7 +178,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 8.91
+    reward: 8.9
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
@@ -194,13 +195,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - my3rdstory
-    reward: 14.82
+    reward: 14.81
   - language: rn
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - barakana
-    reward: 17.77
+    reward: 17.76
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1

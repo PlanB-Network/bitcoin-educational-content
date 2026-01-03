@@ -148,10 +148,11 @@ proofreading:
     contributor_names:
     reward: 118.78
   - language: bg
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 79.22
+      - dnabg
+    reward: 39.61
   - language: th
     last_contribution_date:
     urgency: 1

@@ -20,11 +20,12 @@ licence: CC-BY-SA-V4
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-12-11
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 2.13
+      - nrak10
+    reward: 1.06
   - language: bg
     last_contribution_date:
     urgency: 1

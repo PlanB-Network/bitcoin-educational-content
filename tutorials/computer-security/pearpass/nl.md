@@ -11,7 +11,7 @@ In een tijd waarin elk individu tientallen, zelfs honderden online accounts behe
 
 
 
-En toch, ondanks het groeiende aantal aanvallen, blijven slechte praktijken wijdverspreid onder de bevolking: zwakke wachtwoorden, hergebruikte wachtwoorden, wachtwoorden opgeslagen in duidelijke tekst of ongeveer gememoriseerde wachtwoorden. Om deze problemen op te lossen zonder het dagelijks leven ingewikkelder te maken, is de oplossing het gebruik van een wachtwoordmanager.
+Toch blijven, ondanks de toename van aanvallen, slechte praktijken wijdverbreid onder de bevolking: zwakke wachtwoorden, hergebruikte wachtwoorden, wachtwoorden die in platte tekst worden opgeslagen of slechts bij benadering worden onthouden. Om deze problemen op te lossen zonder het dagelijks leven te compliceren, bestaat de oplossing uit het gebruik van een wachtwoordbeheerder.
 
 
 
@@ -19,7 +19,7 @@ Er bestaan al tientallen wachtwoordmanagers en Plan ₿ Academy biedt voor de me
 
 
 
-**PearPass is een open-source, local-first, peer-to-peer wachtwoordmanager ontworpen om gebruikers totale controle over hun gegevens te geven
+**PearPass is een peer-to-peer, local-first en open-source wachtwoordbeheerder, ontworpen om de gebruiker volledige controle over zijn gegevens terug te geven.**
 
 
 
@@ -182,7 +182,7 @@ Vervolgens komt de belangrijke stap van het kiezen van je hoofdwachtwoord. Zoals
 
 
 
-Het hoofdwachtwoord brengt twee risico's met zich mee: verlies en compromittering. Als u de toegang tot dit wachtwoord verliest, heeft u geen toegang meer tot uw inloggegevens. PearPass bewaart uw hoofdwachtwoord nooit: **Als het verloren gaat, zijn uw inloggegevens permanent verloren**. Er is geen herstelmechanisme. Omgekeerd, als dit wachtwoord gecompromitteerd is en een aanvaller toegang krijgt tot een van uw apparaten, zal hij of zij toegang hebben tot al uw accounts.
+Het hoofdwachtwoord brengt twee belangrijke risico’s met zich mee: verlies en compromittering. Als u de toegang tot dit wachtwoord verliest, kunt u niet langer bij uw inloggegevens. PearPass slaat uw hoofdwachtwoord namelijk nooit op: **als het verloren gaat, gaan uw inloggegevens definitief verloren**. Er bestaat geen herstelmechanisme. Omgekeerd, als dit wachtwoord wordt gecompromitteerd en een aanvaller toegang krijgt tot een van uw apparaten, kan hij toegang krijgen tot al uw accounts.
 
 
 
@@ -429,7 +429,7 @@ Je kluizen op je computer en je mobiel zijn nu gesynchroniseerd. Elke ID die op 
 
 
 
-Op mobiele telefoons kun je het automatisch vullen van velden ook activeren. Ga hiervoor naar `Instellingen > Geavanceerd` en klik vervolgens op de knop `Instellen als standaard` in het gedeelte `Autovullen`.
+Op mobiel kunt u desgewenst ook het automatisch invullen van velden inschakelen. Ga hiervoor naar `Settings > Advanced` en klik vervolgens in de sectie `Autofill` op de knop `Set as Default`.
 
 
 

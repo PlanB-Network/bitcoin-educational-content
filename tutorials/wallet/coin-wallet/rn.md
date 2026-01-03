@@ -1,5 +1,5 @@
 ---
-name: Coin Wallet.
+name: Coin Wallet
 description: Inyigisho yerekeye Coin Wallet n'uburyo bwo kwongereza ubuzima bwite n'umutekano
 ---
 

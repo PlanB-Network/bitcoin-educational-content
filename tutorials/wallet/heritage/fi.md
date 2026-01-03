@@ -1,5 +1,5 @@
 ---
-name: Perintö
+name: Heritage
 description: Bitcoin-salkku, jossa on integroitu periytymismekanismi Taproot-skriptien kautta
 ---
 

@@ -33,7 +33,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: et
     last_contribution_date:
     urgency: 1
@@ -69,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -119,7 +119,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -136,15 +136,17 @@ proofreading:
     contributor_names:
     reward: 0.19
   - language: rn
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Dahl23
+    reward: 0.1
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 0.17
+      - dnabg
+    reward: 0.09
   - language: th
     last_contribution_date:
     urgency: 1

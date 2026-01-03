@@ -1,5 +1,5 @@
 ---
-name: Ma trận
+name: Matrix
 description: Hướng dẫn tìm hiểu, cấu hình và sử dụng Matrix, nền tảng truyền thông an toàn, mở và phi tập trung.
 ---
 

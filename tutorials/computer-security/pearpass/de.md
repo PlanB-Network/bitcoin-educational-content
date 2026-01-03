@@ -11,7 +11,7 @@ In einer Zeit, in der jeder Einzelne Dutzende, ja Hunderte von Online-Konten ver
 
 
 
-Doch trotz der wachsenden Zahl von Angriffen sind schlechte Praktiken in der Bevölkerung nach wie vor weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte Passwörter oder etwa auswendig gelernte Passwörter. Um diese Probleme zu lösen, ohne das tägliche Leben komplizierter zu machen, besteht die Lösung in der Verwendung eines Passwortmanagers.
+Dennoch bleiben trotz der Zunahme von Angriffen schlechte Praktiken in der Bevölkerung weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte oder nur ungenau gemerkte Passwörter. Um diese Probleme zu lösen, ohne den Alltag unnötig zu verkomplizieren, besteht die Lösung in der Nutzung eines Passwortmanagers.
 
 
 
@@ -19,7 +19,7 @@ Es gibt bereits Dutzende von Passwortmanagern, und Plan ₿ Academy bietet für 
 
 
 
-**PearPass ist ein quelloffener, lokaler Peer-to-Peer-Passwortmanager, der den Benutzern die vollständige Kontrolle über ihre Daten gibt
+**PearPass ist ein Peer-to-Peer-Passwortmanager, lokal zuerst und Open Source, der entwickelt wurde, um dem Nutzer die volle Kontrolle über seine Daten zurückzugeben.**
 
 
 
@@ -182,7 +182,7 @@ Als Nächstes folgt der wichtige Schritt der Wahl Ihres Hauptkennworts. Wie wir 
 
 
 
-Das Master-Kennwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugang zu diesem Passwort verlieren, können Sie nicht mehr auf Ihre Anmeldedaten zugreifen. PearPass speichert niemals Ihr Master-Passwort: **Wenn es verloren geht, sind Ihre Anmeldedaten dauerhaft verloren**. Es gibt keinen Wiederherstellungsmechanismus. Umgekehrt, wenn dieses Passwort kompromittiert wird und ein Angreifer Zugang zu einem Ihrer Geräte erhält, kann er oder sie auf alle Ihre Konten zugreifen.
+Das Master-Passwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugriff auf dieses Passwort verlieren, können Sie nicht mehr auf Ihre Zugangsdaten zugreifen. Tatsächlich speichert PearPass Ihr Master-Passwort niemals: **geht es verloren, sind Ihre Zugangsdaten endgültig verloren**. Es existiert kein Wiederherstellungsmechanismus. Umgekehrt kann ein Angreifer, wenn dieses Passwort kompromittiert wird und er Zugriff auf eines Ihrer Geräte erhält, auf sämtliche Ihrer Konten zugreifen.
 
 
 
@@ -429,7 +429,7 @@ Ihre Tresore auf Ihrem Computer und Ihrem Mobiltelefon sind jetzt synchronisiert
 
 
 
-Auf Mobiltelefonen können Sie auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu "Einstellungen > Erweitert" und klicken Sie auf die Schaltfläche "Als Standard festlegen" im Abschnitt "Automatisches Ausfüllen".
+Auf dem Smartphone können Sie bei Bedarf auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu `Settings > Advanced` und klicken Sie anschließend in der Sektion `Autofill` auf die Schaltfläche `Set as Default`.
 
 
 

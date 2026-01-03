@@ -9,13 +9,13 @@ description: Regain control of your passwords with a local, peer-to-peer, cloud-
 At a time when every individual manages dozens, even hundreds of online accounts, the security of logins has become a central issue in IT security. Social networks, messaging systems, professional services, financial platforms: each of these accesses relies on a secret, the compromise of which can have serious consequences for your life.
 
 
-And yet, despite the growing number of attacks, bad practices remain widespread among the population: weak passwords, reused passwords, passwords stored in clear text or approximately memorized passwords. To solve these problems without making life more complicated on a daily basis, the solution is to use a password manager.
+Yet, despite the increase in attacks, poor practices remain widespread among the population: weak passwords, reused passwords, passwords stored in plain text or remembered approximately. To address these issues without complicating daily life, the solution is to use a password manager.
 
 
 Dozens of password managers already exist, and Plan ₿ Academy offers a tutorial for most of them. But in this tutorial, I'd like to introduce you to one that clearly stands out from the rest in terms of how it works: **PearPass**.
 
 
-**PearPass is an open-source, local-first, peer-to-peer password manager designed to give users total control over their data
+**PearPass is a peer-to-peer, local-first, open-source password manager, designed to give the user full control over their data.**
 
 
 ![Image](assets/fr/01.webp)
@@ -24,7 +24,7 @@ Dozens of password managers already exist, and Plan ₿ Academy offers a tutoria
 ## Why choose PearPass?
 
 
-A password manager is a software program that generates, stores and organizes all your passwords in a secure manner. Rather than memorizing or reusing passwords, you have just one secret to protect: the master password, which encrypts your entire safe. This approach makes it possible to use unique, long, random passwords for each service, reducing both the risk of forgetting and compromise, while limiting the impact of any possible leak. Today, it's a basic IT tool that everyone should be using.
+A password manager is a software program that generates, stores and organizes all your passwords in a secure manner. Rather than memorizing or reusing passwords, you have just one secret to protect: the master password, which encrypts your entire vault. This approach makes it possible to use unique, long, random passwords for each service, reducing both the risk of forgetting and compromise, while limiting the impact of any possible leak. Today, it's a basic IT tool that everyone should be using.
 
 
 There are two main categories of password manager. On the one hand, there's local-only software, which is very secure since data is never stored on a central server, but not very practical, since it doesn't allow you to easily synchronize your credentials between several devices (computer, smartphone, tablet...). On the other hand, cloud-based password managers store your credentials on their servers and synchronize them across all your devices. Their main advantage is convenience, but they involve a compromise on security, since your passwords are stored on infrastructures you have no control over.
@@ -86,7 +86,7 @@ Depending on your environment, you may need to make the file executable via file
 ### Browser extension installation
 
 
-PearPass offers a browser extension for automatic login and fast access to your safe while browsing the web. The extension is currently available for Google Chrome and compatible browsers. To install it, go to [the official download page](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+PearPass offers a browser extension for automatic login and fast access to your vault while browsing the web. The extension is currently available for Google Chrome and compatible browsers. To install it, go to [the official download page](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 ![Image](assets/fr/04.webp)
@@ -119,10 +119,10 @@ In addition to these classic installation methods, it is also possible to downlo
 Once PearPass has been installed on one or more platforms, you can move on to the initial configuration. In this tutorial, we'll start by configuring the software on the desktop, then synchronize it with the browser extension and the mobile application.
 
 
-## How do I create a PearPass safe?
+## How do I create a PearPass vault?
 
 
-When you first launch PearPass on your computer, the application guides you through two steps: setting your master password, and then creating your first safe.
+When you first launch PearPass on your computer, the application guides you through two steps: setting your master password, and then creating your first vault.
 
 
 ### Set master password
@@ -137,7 +137,7 @@ When the application is first started up on the desktop, click on the `Skip` but
 Next comes the important step of choosing your master password. As we saw in the introduction, this password is very important, as it gives you access to all your other passwords saved on the manager. Technically, it is used to derive the cryptographic keys used to encrypt your data.
 
 
-The master password carries two main risks: loss and compromise. If you lose access to this password, you will no longer be able to access your login details. PearPass never keeps your master password: **If it's lost, your login details are permanently lost**. There is no recovery mechanism. Conversely, if this password is compromised and an attacker gains access to one of your devices, he or she will be able to access all your accounts.
+The master password involves two main risks: loss and compromise. If you lose access to this password, you will no longer be able to access your credentials. Indeed, PearPass never stores your master password: **if it is lost, your credentials are lost permanently**. There is no recovery mechanism. Conversely, if this password is compromised and an attacker gains access to one of your devices, they will be able to access all of your accounts.
 
 
 To limit the risk of loss, you can make a physical backup of your master password, for example on paper, and keep it in a secure place. Ideally, seal this backup in an envelope so that you can periodically check that it has not been accessed. On the other hand, never make a digital backup of this password.
@@ -158,10 +158,10 @@ You will then be redirected to the login screen: enter your master password to c
 ![Image](assets/fr/08.webp)
 
 
-### Create your first safe
+### Create your first vault
 
 
-Once you've logged in, PearPass will prompt you to create your first safe. A safe is an encrypted container in which your passwords, IDs, secure notes and other information are stored. Each safe is isolated and can be identified by a distinct name, allowing you to organize your data according to your uses (personal, professional, specific projects...).
+Once you've logged in, PearPass will prompt you to create your first vault. A vault is an encrypted container in which your passwords, IDs, secure notes and other information are stored. Each vault is isolated and can be identified by a distinct name, allowing you to organize your data according to your uses (personal, professional, specific projects...).
 
 
 Click on the `Create a new vault` button.
@@ -176,7 +176,7 @@ Choose a name for this vault, then click `Create a new vault` again to finalize 
 ![Image](assets/fr/10.webp)
 
 
-Your safe is immediately ready for use. You can start adding passwords, logins or secure notes right away.
+Your vault is immediately ready for use. You can start adding passwords, logins or secure notes right away.
 
 
 ![Image](assets/fr/11.webp)
@@ -185,7 +185,7 @@ Your safe is immediately ready for use. You can start adding passwords, logins o
 ## How do I add a login to PearPass?
 
 
-Once you've created your safe, you can start saving your items in it. PearPass supports the registration of many types of items:
+Once you've created your vault, you can start saving your items in it. PearPass supports the registration of many types of items:
 
 
 - login to a site or service ;
@@ -203,7 +203,7 @@ Start by opening PearPass and logging in with your master password.
 ![Image](assets/fr/12.webp)
 
 
-Select the safe in which you wish to save this identifier.
+Select the vault in which you wish to save this identifier.
 
 
 ![Image](assets/fr/13.webp)
@@ -221,13 +221,13 @@ Once you've selected the type of item you wish to add, a form appears, allowing 
 PearPass also features a password generator, allowing you to create a strong password directly from the form. To use it, click on the icon representing three small dots in the `Password` field, choose the desired length, then click on `Insert password`.
 
 
-Once all the fields have been filled in, click on the `Save` button to save the identifier in the safe.
+Once all the fields have been filled in, click on the `Save` button to save the identifier in the vault.
 
 
 ![Image](assets/fr/15.webp)
 
 
-The identifier is now saved. It appears in the list of items in the selected safe, and can be viewed by clicking on it.
+The identifier is now saved. It appears in the list of items in the selected vault, and can be viewed by clicking on it.
 
 
 ![Image](assets/fr/16.webp)
@@ -239,7 +239,7 @@ You can easily modify an element by clicking on it, then on the `Edit` button. Y
 ![Image](assets/fr/22.webp)
 
 
-On mobile, the logic remains the same, although the interface has been adapted. After logging in, select the desired safe, tap on the `+` button, choose the type of item to be created, then fill in the necessary information.
+On mobile, the logic remains the same, although the interface has been adapted. After logging in, select the desired vault, tap on the `+` button, choose the type of item to be created, then fill in the necessary information.
 
 
 ![Image](assets/fr/17.webp)
@@ -323,7 +323,7 @@ Your vaults on your computer and your mobile are now synchronized. Every ID adde
 ![Image](assets/fr/29.webp)
 
 
-On cell phones, you can also activate automatic field filling. To do this, go to `Settings > Advanced`, then click on the `Set as Default` button in the `Autofill` section.
+On mobile, you can also enable, if you wish, automatic field filling. To do so, go to `Settings > Advanced`, then click the `Set as Default` button in the `Autofill` section.
 
 
 ![Image](assets/fr/30.webp)

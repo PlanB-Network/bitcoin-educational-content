@@ -1,5 +1,5 @@
 ---
-name: Barınak
+name: Shelter
 description: Shelter ile iş ve özel hayat için aynı telefonu kullanın
 ---
 

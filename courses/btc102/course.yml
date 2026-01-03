@@ -153,10 +153,11 @@ proofreading:
       - H5RV
     reward: 21.77
   - language: ko
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 43.54
+      - 4xvgal
+    reward: 21.77
   - language: rn
     last_contribution_date: 2025-12-04
     urgency: 1

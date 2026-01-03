@@ -11,7 +11,7 @@ U vreme kada svaki pojedinac upravlja desetinama, čak i stotinama online naloga
 
 
 
-Ipak, uprkos sve većem broju napada, loše prakse su i dalje rasprostranjene među populacijom: slabe lozinke, ponovo korišćene lozinke, lozinke sačuvane u čistom tekstu ili približno zapamćene lozinke. Da bi se ovi problemi rešili bez dodatnog komplikovanja svakodnevnog života, rešenje je korišćenje menadžera lozinki.
+Ipak, uprkos porastu broja napada, loše prakse i dalje su široko rasprostranjene među stanovništvom: slabe lozinke, ponovo korišćene lozinke, lozinke sačuvane u čistom tekstu ili zapamćene približno. Da bi se ovi problemi rešili bez komplikovanja svakodnevnog života, rešenje je korišćenje menadžera lozinki.
 
 
 
@@ -19,7 +19,7 @@ Već postoji na desetine menadžera lozinki, a Plan ₿ Academy nudi tutorijal z
 
 
 
-**PearPass je menadžer lozinki otvorenog koda, lokalno-prvi, peer-to-peer dizajniran da korisnicima pruži potpunu kontrolu nad njihovim podacima
+**PearPass je peer-to-peer menadžer lozinki, local-first i otvorenog koda, osmišljen da korisniku vrati potpunu kontrolu nad njegovim podacima.**
 
 
 
@@ -182,7 +182,7 @@ Sledeći važan korak je odabir vaše glavne lozinke. Kao što smo videli u uvod
 
 
 
-Glavna lozinka nosi dva glavna rizika: gubitak i kompromitovanje. Ako izgubite pristup ovoj lozinci, više nećete moći da pristupite svojim podacima za prijavu. PearPass nikada ne čuva vašu glavnu lozinku: **Ako je izgubljena, vaši podaci za prijavu su trajno izgubljeni**. Ne postoji mehanizam za oporavak. S druge strane, ako je ova lozinka kompromitovana i napadač dobije pristup jednom od vaših uređaja, on ili ona će moći da pristupi svim vašim nalozima.
+Glavna lozinka nosi dva glavna rizika: gubitak i kompromitaciju. Ako izgubite pristup ovoj lozinci, više nećete moći da pristupite svojim akreditivima. Naime, PearPass nikada ne čuva vašu glavnu lozinku: **ako se izgubi, vaši akreditivi su trajno izgubljeni**. Ne postoji nikakav mehanizam oporavka. Suprotno tome, ako je ova lozinka kompromitovana i napadač dobije pristup jednom od vaših uređaja, moći će da pristupi svim vašim nalozima.
 
 
 
@@ -429,7 +429,7 @@ Vaši trezori na računaru i mobilnom uređaju su sada sinhronizovani. Svaki ID 
 
 
 
-Na mobilnim telefonima, možete takođe aktivirati automatsko popunjavanje polja. Da biste to uradili, idite na `Podešavanja > Napredno`, zatim kliknite na dugme `Postavi kao podrazumevano` u odeljku `Automatsko popunjavanje`.
+Na mobilnom uređaju možete takođe, ukoliko to želite, aktivirati automatsko popunjavanje polja. Da biste to uradili, idite na `Settings > Advanced`, a zatim kliknite na dugme `Set as Default` u odeljku `Autofill`.
 
 
 

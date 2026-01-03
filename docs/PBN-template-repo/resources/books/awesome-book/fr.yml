@@ -20,6 +20,4 @@ original: false
 # Rédigez une description du livre
 # multiligne autorisée
 description: |
-  Voici une description de ce faux livre génial. La description peut être aussi longue que vous le souhaitez.
-  Elle peut également être sur plusieurs lignes, comme je le fais en ce moment.
-  Génial, n'est-ce pas ?
+  Voici la description de ce faux livre génial. La description peut être aussi longue que vous le souhaitez. Elle doit tenir sur une seule ligne, avec deux espaces vides au début de chaque ligne.

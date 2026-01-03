@@ -1,5 +1,5 @@
 ---
-name: 遗产
+name: Heritage
 description: 通过 Taproot 脚本集成继承机制的 Bitcoin 组合
 ---
 

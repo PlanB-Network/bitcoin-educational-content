@@ -1,5 +1,5 @@
 ---
-name: Rifugio
+name: Shelter
 description: Usare lo stesso telefono per il lavoro e la vita privata con Shelter
 ---
 

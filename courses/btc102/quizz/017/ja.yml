@@ -1,9 +1,9 @@
-question: Mining補助金のプログラム分割を指す言葉は？
-answer: Halving
+question: マイニング報酬のプログラム分割を指す言葉は？
+answer: 半減期
 wrong_answers:
-  - Fork
-  - 二等分
-  - コインベース
+  - フォーク
+  - バイセクション
+  - Coinbase
 explanation: |
-  Halvingとは、21万ブロックごとのMining補助金のHalvingを指す。
+  半減期とは、21万ブロックごとのマイニング報酬の半減を指す。
 reviewed: false

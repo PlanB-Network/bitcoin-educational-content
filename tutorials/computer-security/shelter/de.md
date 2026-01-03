@@ -1,5 +1,5 @@
 ---
-name: Unterbringung
+name: Shelter
 description: Nutzung desselben Telefons für Arbeit und Privatleben mit Shelter
 ---
 

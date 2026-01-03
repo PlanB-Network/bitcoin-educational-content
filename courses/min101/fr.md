@@ -307,6 +307,7 @@ Pour l’instant, vous pouvez résumer le fonctionnement du minage ainsi : les m
 
 
 
+
 # La distribution des récompenses de minage
 
 ## La récompense de minage

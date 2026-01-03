@@ -4,6 +4,12 @@ description: Der einfachste Einstieg in die Wallet-Verwahrung
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Achtung: Seit Beginn des Jahres 2026 ist Wallet of Satoshi im Custodial-Modus (wie in diesem Tutorial dargestellt) innerhalb der Europäischen Union nicht mehr zugänglich. Wenn Sie in dieser Region ansässig sind und dieses Tool weiterhin nutzen möchten, müssen Sie ein VPN außerhalb der EU verwenden. Eine weitere Option besteht darin, Wallet of Satoshi im Self-Custodial-Modus zu nutzen. Ein entsprechendes Tutorial wird in Kürze auf Plan ₿ Academy veröffentlicht.*
+
+---
+
 dieses Tutorium wurde geschrieben von_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

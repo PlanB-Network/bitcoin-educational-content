@@ -11,6 +11,7 @@ ___
 
 ___
 
+
 ## I. Presentazione
 
 Come si fa a scansionare una rete Windows alla ricerca di macchine connesse in modo semplice e veloce? La risposta è Angry IP Scanner. Questo progetto open source consente di scansionare una rete in modo semplice, utilizzando una interfaccia grafica facile da usare.
@@ -24,6 +25,7 @@ Meno completo di Nmap, **Angry IP Scanner** è comunque interessante per una rap
 Se volete approfondire, consultate il tutorial su Nmap:
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 
 ## II. Come iniziare con Angry IP Scanner
 
@@ -83,6 +85,7 @@ L'esempio seguente mostra le funzioni "**NetBIOS info**" e "**Rilevamento web**"
 ![Image](assets/fr/011.webp)
 
 Infine, dalle preferenze è possibile modificare il metodo utilizzato per il "**ping**", ossia per valutare se un host è attivo o meno. Poiché alcuni host non rispondono ai ping, è possibile provare altri metodi (pacchetto UDP, sondaggio della porta TCP, ARP, combinazione UDP + TCP, ecc.)
+
 
 ## III. Conclusione
 

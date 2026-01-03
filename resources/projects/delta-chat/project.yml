@@ -4,7 +4,7 @@ name: Delta Chat
 
 links:
   website: https://delta.chat
-  Github: https://github.com/deltachat/
+  github: https://github.com/deltachat/
 
 category: privacy
 
@@ -25,4 +25,4 @@ tags:
 contributor_names:
   - PaoloFoti
 
-license: CC-BY-SA-V4
+licence: CC-BY-SA-V4

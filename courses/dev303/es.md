@@ -1,6 +1,6 @@
 ---
 name: Aprendizaje de Rust con Bitcoin
-goal: Mejore sus conocimientos de desarrollo de Rust mediante la codificación de Bitcoin
+goal: Mejore sus conocimientos de desarrollo en Rust mediante la codificación de Bitcoin
 objectives: 
 
   - Acostúmbrese al lenguaje Rust
@@ -9,18 +9,13 @@ objectives:
 
 ---
 
-# Una expedición Rust para constructores Bitcoin
-
-
+# Una expedición a Rust para constructores Bitcoin
 
 En este curso práctico, que se filmó durante un seminario organizado por Fulgur' Ventures en octubre de 2023, desarrollarás tus habilidades de Rust construyendo componentes y miniproyectos reales centrados en Bitcoin. Cubriremos los fundamentos de Rust, por qué se utiliza Rust para el desarrollo de Bitcoin (seguridad de memoria, rendimiento y concurrencia segura) y cómo empezar con el SDK de Lightning para crear funciones de pago.
 
-
 A lo largo de los capítulos, practicarás los patrones básicos de Rust (propiedad, tiempos de vida, rasgos, async), trabajarás con primitivas de Bitcoin (claves, transacciones, secuencias de comandos) e integrarás progresivamente conceptos de Lightning (nodos, canales, facturas).
 
-
 No es estrictamente necesario tener conocimientos previos de Rust o Bitcoin, aunque es útil estar familiarizado con la programación básica. El curso está pensado para principiantes, pero es lo bastante práctico para ingenieros que se pasen a Bitcoin.
-
 
 +++
 
@@ -28,47 +23,37 @@ No es estrictamente necesario tener conocimientos previos de Rust o Bitcoin, aun
 
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-
 ## Resumen del curso
 
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-
 **Introducción**
-
 
 Bienvenido a este curso de programación para principiantes sobre SDKs. En esta formación, aprenderá los conceptos básicos de Rust, luego se centrará en Rust aplicado a la programación Bitcoin, y terminará con algunos casos de uso utilizando SDKs.
 
-
-Los vídeos de la formación estarán disponibles por ahora sólo en inglés y formaron parte de un seminario en directo organizado el pasado mes de octubre en la Toscana por Fulgure Venture. Esta formación se centrará únicamente en la primera semana. La segunda mitad estaba dirigida a RGB y puede encontrarse en el curso RGB.
-
+Los vídeos de la formación estarán disponibles por ahora solo en inglés y formaron parte de un seminario en directo organizado el pasado mes de octubre en la Toscana por Fulgure Venture. Esta formación se centrará únicamente en la primera semana. La segunda mitad estaba dirigida a RGB y puede encontrarse en el curso RGB.
 
 https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Esta formación te da la oportunidad de desarrollar tus habilidades de programación en Lightning Network utilizando Rust y varios SDKs. Está diseñado para desarrolladores con una sólida formación en programación que deseen sumergirse en el desarrollo específico de Lightning Network. Aprenderá los conceptos básicos de Rust, por qué es adecuado para el desarrollo de Bitcoin y, a continuación, pasará a la implementación práctica utilizando SDK especializados.
 
-
 **Sección 2: Aprende a codificar con Rust**
 
-En esta sección, descubrirás los fundamentos de Rust a través de una serie de capítulos progresivos. Aprenderás a escribir código Rust, a entender sus especificidades y a dominar sus características esenciales a lo largo de siete partes detalladas. Este módulo es esencial para entender por qué Rust es el lenguaje favorito para el desarrollo de Bitcoin.
+En esta sección, descubrirás los fundamentos de Rust a través de una serie de capítulos progresivos. Aprenderás a escribir código en Rust, a entender sus especificidades y a dominar sus características esenciales a lo largo de siete partes detalladas. Este módulo es esencial para entender por qué Rust es el lenguaje favorito para el desarrollo de Bitcoin.
 
-
-**Sección 3: Rust & Bitcoin**
+**Sección 3: Rust y Bitcoin**
 
 Aquí exploraremos en profundidad por qué Rust es una opción relevante para el desarrollo de Bitcoin. Aprenderás sobre su modelo de error, la herramienta UniFFI y los rasgos asíncronos, todos ellos elementos clave para construir software robusto y seguro.
-
 
 **Sección 4: Desarrollo de LNP/BP con SDKs**
 
 Aprenderás a desarrollar nodos LN utilizando varios SDKs como Breez SDK y Greenlight para Lipa. Verás cómo implementar aplicaciones Lightning Network utilizando librerías diseñadas para simplificar el desarrollo de Bitcoin y Lightning.
 
-
 ¿Listo para aumentar tus habilidades en Lightning Network con Rust? Vamos allá
 
-# Aprenda a programar con el libro del óxido
+# Aprenda a programar con el libro de Rust
 
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
-
 
 ## Introducción a Rust
 
@@ -76,138 +61,103 @@ Aprenderás a desarrollar nodos LN utilizando varios SDKs como Breez SDK y Green
 
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-
 :::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::
 
 ### Instalación y gestión de Rust con Rustup
 
-
 Al comenzar su viaje con Rust, el primer paso consiste en configurar un entorno de desarrollo adecuado. El método más recomendado para instalar Rust es Rustup, un sistema de gestión de cadenas de herramientas que gestiona la instalación y las actualizaciones en diferentes proyectos y plataformas.
-
 
 Rustup sirve como algo más que un instalador, funciona como una herramienta de gestión integral para su entorno de desarrollo Rust. Con Rustup, puede instalar fácilmente objetivos de compilación adicionales para diferentes plataformas, como ARM64 para el desarrollo de Android u otras arquitecturas que pueda necesitar. La herramienta también gestiona las actualizaciones de Rust sin problemas, lo que es particularmente valioso dado que Rust lanza una nueva versión estable aproximadamente cada seis semanas. Cuando necesites actualizar a la última versión, un simple comando `rustup update` se encarga de todo automáticamente.
 
+A la hora de instalar Rustup, conviene entender el modelo de seguridad implicado. El proceso de instalación descarga y se ejecuta un script desde el sitio web oficial de Rust a través de HTTPS, que proporciona seguridad criptográfica en la capa de transporte. Los paquetes descargados por Rustup y Cargo provienen de fuentes de confianza (crates.io y la infraestructura oficial de Rust) y se benefician del cifrado HTTPS. Aunque este enfoque es seguro para la mayoría de los escenarios de desarrollo, algunas organizaciones con políticas de seguridad estrictas pueden preferir instalar Rust a través del gestor de paquetes de su distribución de Linux, que proporciona una capa adicional de confianza a través de la propia infraestructura de firma de paquetes de la distribución. Para propósitos de aprendizaje y desarrollo general, Rustup es una herramienta bien establecida y de amplia confianza en el ecosistema Rust.
 
-A la hora de instalar Rustup, conviene entender el modelo de seguridad implicado. El proceso de instalación descarga y ejecuta un script desde el sitio web oficial de Rust a través de HTTPS, que proporciona seguridad criptográfica en la capa de transporte. Los paquetes descargados por Rustup y Cargo provienen de fuentes de confianza (crates.io y la infraestructura oficial de Rust) y se benefician del cifrado HTTPS. Aunque este enfoque es seguro para la mayoría de los escenarios de desarrollo, algunas organizaciones con políticas de seguridad estrictas pueden preferir instalar Rust a través del gestor de paquetes de su distribución de Linux, que proporciona una capa adicional de confianza a través de la propia infraestructura de firma de paquetes de la distribución. Para propósitos de aprendizaje y desarrollo general, Rustup es una herramienta bien establecida y de amplia confianza en el ecosistema Rust.
+Para la mayoría de los escenarios de desarrollo, puedes instalar Rustup ejecutando el script de instalación proporcionado en el sitio web oficial de Rust. El instalador te pedirá que elijas entre diferentes opciones de toolchain (cadenas de herramientas), siendo el toolchain estable la opción recomendada para la mayoría de los usuarios. La instalación ocurre en tu directorio personal, no requiere privilegios de administrador, y configura todas las variables de entorno necesarias para su uso inmediato.
 
-
-Para la mayoría de los escenarios de desarrollo, puedes instalar Rustup ejecutando el script de instalación proporcionado en el sitio web oficial de Rust. El instalador te pedirá que elijas entre diferentes opciones de toolchain, siendo el toolchain estable la opción recomendada para la mayoría de los usuarios. La instalación ocurre en tu directorio personal, no requiere privilegios de administrador, y configura todas las variables de entorno necesarias para su uso inmediato.
-
-
-### Comprender las cadenas de herramientas y los componentes de Rust
-
+### Comprender las cadenas de herramientas (toolchains) y los componentes de Rust
 
 El ecosistema de desarrollo de Rust consta de varios componentes clave que trabajan juntos para proporcionar un entorno de programación completo. Comprender estos componentes le ayudará a navegar por el proceso de desarrollo de Rust con mayor eficacia y a solucionar los problemas que puedan surgir.
 
-
 El compilador de Rust, conocido como `rustc`, forma el núcleo de la cadena de herramientas de Rust. Aunque teóricamente podrías usar `rustc` directamente para compilar programas Rust, la mayor parte del trabajo de desarrollo se basa en Cargo, el gestor de paquetes y sistema de compilación de Rust. Cargo funciona de forma similar a npm en el ecosistema JavaScript, gestionando dependencias, coordinando compilaciones y proporcionando comandos convenientes para tareas de desarrollo comunes. Cuando ejecutas comandos como `cargo build` o `cargo run`, Cargo orquesta el proceso de compilación, maneja la resolución de dependencias y gestiona la estructura general del proyecto.
-
 
 Clippy es un linter que analiza tu código y proporciona sugerencias para mejorarlo. A diferencia de los comprobadores básicos de sintaxis, Clippy entiende los modismos de Rust y puede recomendar formas más idiomáticas de realizar tareas específicas. Esta herramienta ayuda a aprender las mejores prácticas de Rust y a escribir código más fácil de mantener.
 
+La cadena de herramientas de Rust también incluye completas herramientas de documentación y la documentación de la librería estándar, accesible a través de la página web oficial de documentación de Rust. Esta documentación sirve como referencia indispensable durante el desarrollo, proporcionando información detallada sobre las funciones, tipos y módulos de la librería estándar. La documentación incluye extensos ejemplos y explicaciones que le ayudarán a entender no solo lo que hacen las funciones, sino cómo utilizarlas eficazmente en sus programas.
 
-La cadena de herramientas de Rust también incluye completas herramientas de documentación y la documentación de la librería estándar, accesible a través de la página web oficial de documentación de Rust. Esta documentación sirve como referencia indispensable durante el desarrollo, proporcionando información detallada sobre las funciones, tipos y módulos de la librería estándar. La documentación incluye extensos ejemplos y explicaciones que le ayudarán a entender no sólo lo que hacen las funciones, sino cómo utilizarlas eficazmente en sus programas.
-
-
-Rust admite varios canales de publicación: estable, beta y nocturno. El canal estable proporciona versiones probadas a fondo adecuadas para su uso en producción. El canal beta ofrece una vista previa de la próxima versión estable, utilizada principalmente para las pruebas finales antes del lanzamiento oficial. El canal nocturno incluye características experimentales en desarrollo activo, que pueden ser útiles para probar nuevas capacidades de Rust, aunque estas características pueden cambiar o ser eliminadas en futuras versiones.
-
+Rust admite varios canales de publicación: estable, beta y nightly. El canal estable proporciona versiones probadas a fondo adecuadas para su uso en producción. El canal beta ofrece una vista previa de la próxima versión estable, utilizada principalmente para las pruebas finales antes del lanzamiento oficial. El canal nightly incluye características experimentales en desarrollo activo, que pueden ser útiles para probar nuevas capacidades de Rust, aunque estas características pueden cambiar o ser eliminadas en futuras versiones.
 
 ### Creación y gestión de proyectos Rust con Cargo
 
+El desarrollo moderno de Rust se centra en Cargo, que agiliza la creación de proyectos, la gestión de dependencias y el proceso de compilación. En lugar de crear manualmente directorios y archivos, Cargo proporciona el comando `cargo new` para generar una estructura del proyecto completa con valores predeterminados sensibles.
 
-El desarrollo moderno de Rust se centra en Cargo, que agiliza la creación de proyectos, la gestión de dependencias y el proceso de compilación. En lugar de crear manualmente directorios y archivos, Cargo proporciona el comando `cargo new` para generate una estructura de proyecto completa con valores predeterminados sensibles.
-
-
-Cuando creas un nuevo proyecto con `cargo new project_name`, Cargo establece una estructura de directorios estándar, crea un archivo `main.rs` básico con un programa "¡Hola, mundo!", inicializa un repositorio Git y genera un archivo `Cargo.toml` para la configuración del proyecto. El archivo `Cargo.toml` sirve como punto central de configuración para tu proyecto, conteniendo metadatos sobre tu proyecto y listando todas las dependencias que requiere tu código.
-
+Cuando creas un nuevo proyecto con `cargo new nombre_proyecto`, Cargo establece una estructura de directorios estándar, crea un archivo `main.rs` básico con un programa "¡Hola, mundo!", inicializa un repositorio Git y genera un archivo `Cargo.toml` para la configuración del proyecto. El archivo `Cargo.toml` sirve como punto central de configuración para tu proyecto, conteniendo metadatos sobre tu proyecto y listando todas las dependencias que requiere tu código.
 
 Cargo proporciona varios comandos esenciales para el trabajo diario de desarrollo. El comando `cargo build` compila el proyecto y sus dependencias, creando archivos ejecutables en el directorio `target`. Para una rápida iteración durante el desarrollo, `cargo run` combina la compilación y la ejecución en un único paso. El comando `cargo check` realiza todas las comprobaciones de compilación sin generar el ejecutable final, lo que lo hace significativamente más rápido que una compilación completa cuando simplemente quieres verificar que tu código compila correctamente.
 
+Al preparar el código para su despliegue en producción, la opción `--release` activa las optimizaciones y elimina las aserciones de depuración. Las compilaciones de lanzamiento se ejecutan más rápido y producen ejecutables más pequeños, pero tardan más en compilarse y eliminan información de depuración útil. El compilador aplica varias optimizaciones durante las compilaciones de lanzamiento y desactiva las comprobaciones en tiempo de ejecución, como la detección del desbordamiento de enteros, lo que mejora el rendimiento pero elimina algunas garantías de seguridad presentes en las compilaciones de depuración.
 
-Al preparar el código para su despliegue en producción, la opción `--release` activa las optimizaciones y elimina las aserciones de depuración. Las compilaciones de lanzamiento se ejecutan más rápido y producen ejecutables más pequeños, pero tardan más en compilarse y eliminan información de depuración útil. El compilador aplica varias optimizaciones durante las compilaciones de lanzamiento y desactiva las comprobaciones en tiempo de ejecución, como la detección de desbordamiento de enteros, lo que mejora el rendimiento pero elimina algunas garantías de seguridad presentes en las compilaciones de depuración.
-
-
-### Variables, mutabilidad y filosofía de seguridad de Rust
-
+### Variables, mutabilidad y filosofía de seguridad en Rust
 
 Rust adopta una aproximación diferente a la gestión de variables que la mayoría de los lenguajes. Por defecto, todas las variables en Rust son inmutables, lo que significa que sus valores no pueden ser cambiados después de la asignación inicial. Esta decisión de diseño tiene como objetivo evitar errores de programación comunes que surgen de cambios de estado inesperados.
 
-
 Cuando declaras una variable usando `let x = 5`, esa variable se vuelve inmutable por defecto. Cualquier intento posterior de modificar su valor provocará un error de compilación. Este requisito de inmutabilidad obliga a los desarrolladores a pensar cuidadosamente cuándo son realmente necesarios los cambios de estado y hace que el comportamiento del código sea más predecible. Muchos errores de programación provienen de variables que cambian inesperadamente, y la inmutabilidad por defecto de Rust ayuda a prevenir estos problemas.
-
 
 Cuando realmente necesites modificar el valor de una variable, Rust requiere una declaración explícita de mutabilidad usando la palabra clave `mut`: `let mut x = 5`. Esta declaración explícita sirve como una señal clara tanto para el compilador como para otros desarrolladores de que el valor de esta variable puede cambiar durante la ejecución del programa. El requisito de declarar explícitamente la mutabilidad anima a considerar detenidamente si la mutabilidad es realmente necesaria para cada variable.
 
+Rust también soporta shadowing, que permite declarar una nueva variable con el mismo nombre que una variable anterior. A diferencia de la mutación, la sombra crea una variable completamente nueva que tiene el mismo nombre, ocultando así la variable anterior. Esta técnica resulta especialmente útil cuando se transforman datos a través de múltiples pasos, como el análisis sintáctico de una cadena en un número y su posterior procesamiento. Con el shadowing, puede mantener un nombre de variable consistente a lo largo del proceso de transformación mientras cambia el tipo de la variable en cada paso.
 
-Rust también soporta shadowing, que permite declarar una nueva variable con el mismo nombre que una variable anterior. A diferencia de la mutación, la sombra crea una variable completamente nueva que tiene el mismo nombre, ocultando así la variable anterior. Esta técnica resulta especialmente útil cuando se transforman datos a través de múltiples pasos, como el análisis sintáctico de una cadena en un número y su posterior procesamiento. Con el sombreado, puede mantener un nombre de variable consistente a lo largo del proceso de transformación mientras cambia el tipo de la variable en cada paso.
-
-
-La distinción entre shadowing y mutación es importante cuando se consideran los cambios de tipo. Con shadowing, puedes cambiar tanto el valor como el tipo de una variable porque estás creando una nueva variable. Con la mutación, sólo puedes cambiar el valor manteniendo el mismo tipo, ya que estás modificando una variable existente en lugar de crear una nueva.
-
+La distinción entre shadowing y mutación es importante cuando se consideran los cambios de tipo. Con shadowing, puedes cambiar tanto el valor como el tipo de una variable porque estás creando una nueva variable. Con la mutación, solo puedes cambiar el valor manteniendo el mismo tipo, ya que estás modificando una variable existente en lugar de crear una nueva.
 
 ```rust
-// Shadowing: creating new variables with the same name
-let amount = "100000";           // amount is a &str (string slice)
-let amount = amount.parse::<u64>().unwrap();  // amount is now u64
-let amount = amount * 100;       // amount is still u64, new value
-
-// Mutation: modifying the same variable
+// Shadowing: Creando nuevas variables con el mismo nombre
+let amount = "100000";           // la cantidad es de tipo &str (cadena)
+let amount = amount.parse::<u64>().unwrap();  // La canditad ahora es u64 (entero positivo)
+let amount = amount * 100;       // La cantidad sigue siendo de tipo u64, pero con nuevo valor
+// Mutación: Modificando la misma variable
 let mut balance = 50000_u64;
-balance = balance + amount;      // OK: same type, different value
-// balance = "empty";            // ERROR: cannot change type with mutation
+balance = balance + amount;      // OK: Mismo tipo, Diferente valor
+// balance = "vacío";            // ERROR: No se puede cambiar el tipo con mutación
 
-// Practical example: processing a Bitcoin amount input
-let user_input = "  0.001 ";                    // &str with whitespace
-let user_input = user_input.trim();            // &str, whitespace removed
+// Ejemplo práctico: Procesando una entrada de cantidad de Bitcoin
+let user_input = "  0.001 ";                    // &str con espacios en blanco
+let user_input = user_input.trim();            // &str, espacios removidos
 let satoshis: u64 = (user_input.parse::<f64>().unwrap() * 100_000_000.0) as u64;
-println!("Amount in satoshis: {}", satoshis);  // 100000
+println!("Cantidad en satoshis: {}", satoshis);  // 100000
 ```
-
 
 ### Tipos de datos y fundamentos del sistema de tipos
 
-
 Rust implementa un sistema de tipos fuerte y estático donde cada valor debe tener un tipo bien definido y conocido en tiempo de compilación. Aunque esto puede parecer restrictivo comparado con lenguajes de tipado dinámico, las capacidades de inferencia de tipos de Rust significan que raramente necesitas especificar tipos explícitamente. El compilador normalmente puede determinar el tipo apropiado basándose en cómo se utiliza el valor.
 
+Sin embargo, ciertas situaciones requieren anotaciones explícitas de tipo. Cuando se utilizan funciones genéricas como `parse()`, que pueden convertir cadenas en varios tipos numéricos, el compilador necesita saber qué tipo específico desea. En estos casos, se proporcionan anotaciones de tipo utilizando la sintaxis de dos puntos: `let adivinar: u32 = "42".parse().expect("¡No es un número!")`.
 
-Sin embargo, ciertas situaciones requieren anotaciones explícitas de tipo. Cuando se utilizan funciones genéricas como `parse()`, que pueden convertir cadenas en varios tipos numéricos, el compilador necesita saber qué tipo específico desea. En estos casos, se proporcionan anotaciones de tipo utilizando la sintaxis de dos puntos: `adivina: u32 = "42".parse().expect("¡No es un número!")`.
+Los tipos escalares de Rust incluyen enteros, números en coma flotante, booleanos y caracteres. El sistema de tipos enteros proporciona un control preciso sobre el uso de memoria y las características de rendimiento. Los tipos enteros se nombran sistemáticamente: `i8`, `i16`, `i32`, `i64` y `i128` para los enteros con signo, y `u8`, `u16`, `u32`, `u64` y `u128` para los enteros positivos. Los números indican el ancho de bit, lo que aclara el uso de memoria y los rangos de valores.
 
-
-Los tipos escalares de Rust incluyen enteros, números en coma flotante, booleanos y caracteres. El sistema de tipos enteros proporciona un control preciso sobre el uso de memoria y las características de rendimiento. Los tipos enteros se nombran sistemáticamente: `i8`, `i16`, `i32`, `i64` y `i128` para los enteros con signo, y `u8`, `u16`, `u32`, `u64` y `u128` para los enteros sin signo. Los números indican el ancho de bit, lo que aclara el uso de memoria y los rangos de valores.
-
-
-Los tipos `isize` y `usize` merecen especial atención, ya que se adaptan a la arquitectura de destino. En sistemas de 64 bits, estos tipos tienen un ancho de 64 bits, mientras que en sistemas de 32 bits, tienen un ancho de 32 bits. Estos tipos se utilizan habitualmente para la indexación de arrays y los desplazamientos de memoria, ya que coinciden con el tamaño natural de palabra de la arquitectura de destino, lo que permite una aritmética de punteros y operaciones de memoria eficientes.
-
+Los tipos `isize` y `usize` merecen especial atención, ya que se adaptan a la arquitectura de destino. En sistemas de 64 bits, estos tipos tienen un ancho de 64 bits, mientras que en sistemas de 32 bits, tienen un ancho de 32 bits. Estos tipos se utilizan habitualmente para la indexación de matrices (arrays) y los desplazamientos de memoria, ya que coinciden con el tamaño natural de palabra de la arquitectura de destino, lo que permite una aritmética de punteros y operaciones de memoria eficientes.
 
 Rust proporciona múltiples formas de escribir literales enteros, incluyendo los formatos decimal, hexadecimal (`0x`), octal (`0o`) y binario (`0b`). También puedes utilizar guiones bajos en cualquier lugar dentro de los literales numéricos para mejorar la legibilidad, como escribir `1_000_000` en lugar de `1000000`. Los guiones bajos no afectan al valor, pero pueden hacer más legibles los números grandes.
 
-
 Los tipos de coma flotante en Rust son sencillos: `f32` para números de precisión simple y `f64` para números de coma flotante de doble precisión. El tipo `f64` se prefiere generalmente debido a su mayor precisión y al hecho de que los procesadores modernos a menudo pueden manejar operaciones de coma flotante de 64 bits tan eficientemente como las operaciones de 32 bits.
-
 
 ### Tipos compuestos y organización de datos
 
-
-Además de los tipos escalares, Rust proporciona tipos compuestos que agrupan múltiples valores. Las tuplas permiten combinar valores de diferentes tipos en un único valor compuesto. Las tuplas se crean utilizando paréntesis y se puede especificar el tipo de cada elemento: `let tup: (i32, f64, u8) = (500, 6.4, 1)`.
-
+Además de los tipos escalares, Rust proporciona tipos compuestos que agrupan múltiples valores. Las tuplas permiten combinar valores de diferentes tipos en un único valor compuesto. Las tuplas se crean utilizando paréntesis y se puede especificar el tipo de cada elemento: `let tupla: (i32, f64, u8) = (500, 6.4, 1)`.
 
 Las tuplas admiten la desestructuración, que permite extraer valores individuales: `let (x, y, z) = tup`. Esta sintaxis crea tres variables independientes a partir de los componentes de la tupla. También se puede acceder directamente a los elementos de la tupla utilizando la notación de puntos con el índice del elemento: `tup.0`, `tup.1`, `tup.2`.
 
-
 ```rust
-// Creating a tuple with different types
+// Creando una tupla con diferentes tipos
 let transaction: (&str, u64, bool) = ("abc123", 50000, true);
 
-// Destructuring: extract all values at once
+// Desestructuración: extraer todos los valores a la vez
 let (txid, amount, confirmed) = transaction;
-println!("Transaction {} for {} sats", txid, amount);
+println!("Transacción {} para {} sats", txid, amount);
 
-// Dot notation: access individual elements by index
-println!("Confirmed: {}", transaction.2);  // true
+// Notación de puntos: acceder a elementos individuales por índice
+println!("Confirmed: {}", transaction.2);  // verdadero
 
-// Practical example: function returning multiple values
+// Ejemplo práctico: función que devuelve múltiples valores
 fn parse_utxo(data: &str) -> (String, u32, u64) {
-// Returns (txid, output_index, value_in_sats)
+// Retorna (txid, output_index, value_in_sats)
 ("a]1b2c3".to_string(), 0, 100000)
 }
 
@@ -215,245 +165,193 @@ let (txid, vout, value) = parse_utxo("raw_data");
 println!("UTXO {}:{} = {} sats", txid, vout, value);
 ```
 
+Las matrices en Rust difieren significativamente de las matrices o listas en muchos otros lenguajes porque tienen un tamaño fijo que se convierte en parte de su tipo. Una matriz de cinco enteros tiene el tipo `[i32; 5]`, donde el punto y coma separa el tipo de elemento de la longitud de la matriz. Esta información de tamaño a nivel de tipo permite al compilador realizar una comprobación de límites y garantiza que las funciones que reciben matrices sepan exactamente cuántos elementos esperar.
 
-Las matrices en Rust difieren significativamente de las matrices o listas en muchos otros lenguajes porque tienen un tamaño fijo que se convierte en parte de su tipo. Un array de cinco enteros tiene el tipo `[i32; 5]`, donde el punto y coma separa el tipo de elemento de la longitud del array. Esta información de tamaño a nivel de tipo permite al compilador realizar una comprobación de límites y garantiza que las funciones que reciben arrays sepan exactamente cuántos elementos esperar.
+Puede inicializar matrices enumerando todos los elementos explícitamente: `[1, 2, 3, 4, 5]`, o utilizando una sintaxis abreviada para matrices con valores repetidos: `[3; 5]` crea una matriz de cinco elementos, todos con el valor de 3. Esta abreviatura es útil para inicializar buffers o crear matrices con valores por defecto.
 
-
-Puede inicializar matrices enumerando todos los elementos explícitamente: `[1, 2, 3, 4, 5]`, o utilizando una sintaxis abreviada para matrices con valores repetidos: `[3; 5]` crea un array de cinco elementos, todos con el valor 3. Esta abreviatura es útil para inicializar buffers o crear arrays con valores por defecto.
-
-
-El acceso a matrices utiliza la notación de corchetes como la mayoría de los lenguajes, pero Rust proporciona comprobación de límites tanto en tiempo de compilación como en tiempo de ejecución. Cuando accedes a un array con un índice constante que el compilador puede verificar, detectará accesos fuera de límites en tiempo de compilación. Para índices dinámicos determinados en tiempo de ejecución, Rust inserta comprobaciones de límites que causarán que el programa entre en pánico si intentas acceder a un índice inválido, previniendo violaciones de seguridad de memoria.
-
-
+El acceso a matrices utiliza la notación de corchetes como la mayoría de los lenguajes, pero Rust proporciona comprobación de límites tanto en tiempo de compilación como en tiempo de ejecución. Cuando accedes a una matriz con un índice constante que el compilador puede verificar, detectará accesos fuera de límites en tiempo de compilación. Para índices dinámicos determinados en tiempo de ejecución, Rust inserta comprobaciones de límites que causarán que el programa entre en pánico si intentas acceder a un índice inválido, previniendo violaciones de seguridad de memoria.
 
 ## Ownership y seguridad de la memoria en Rust
 
 <chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>
 
-
 :::video id=8ed76bae-7c30-4aac-9f28-bb4cbb9180e4:::
-
 
 ### Entendiendo el enfoque único de Rust para la gestión de memoria
 
+Este capítulo cubre uno de los conceptos más importantes de Rust. Mientras que los conceptos anteriores pueden haber parecido familiares a los programadores que vienen de otros lenguajes, esta propiedad es el enfoque de Rust para resolver la seguridad de memoria sin recolección de basura (garbage collector).
 
-Este capítulo cubre uno de los conceptos más importantes de Rust. Mientras que los conceptos anteriores pueden haber parecido familiares a los programadores que vienen de otros lenguajes, la propiedad es el enfoque de Rust para resolver la seguridad de memoria sin recolección de basura.
-
-
-Rust se diseñó con el objetivo fundamental de evitar los errores relacionados con la memoria que afectan a lenguajes de bajo nivel como C y C++. Entre estos problemas se incluyen los errores de uso después de la liberación, por los que se accede a la memoria después de haberla liberado, y los desbordamientos de búfer, por los que los programas escriben fuera de los límites de la memoria asignada. Las soluciones tradicionales a estos problemas han implicado compromisos que Rust pretende eliminar. Los lenguajes de alto nivel como Java y Go resuelven la seguridad de la memoria mediante la recolección de basura, en la que un proceso automático identifica y libera periódicamente la memoria no utilizada. Sin embargo, los recolectores de basura introducen una sobrecarga de rendimiento y pueden causar pausas impredecibles durante la ejecución del programa, lo que los hace inadecuados para la programación de sistemas en los que un rendimiento constante es fundamental.
-
+Rust se diseñó con el objetivo fundamental de evitar los errores relacionados con la memoria que afectan a lenguajes de bajo nivel como C y C++. Entre estos problemas se incluyen los errores de uso después de la liberación, por los que se accede a la memoria después de haberla liberado, y los desbordamientos de búfer, por los que los programas escriben fuera de los límites de la memoria asignada. Las soluciones tradicionales a estos problemas han implicado compromisos que Rust pretende eliminar. Los lenguajes de alto nivel como Java y Go resuelven la seguridad de la memoria mediante el garbage collector, en la que un proceso automático identifica y libera periódicamente la memoria no utilizada. Sin embargo, los garbage collector introducen una sobrecarga de rendimiento y pueden causar pausas impredecibles durante la ejecución del programa, lo que los hace inadecuados para la programación de sistemas en los que un rendimiento constante es fundamental.
 
 Rust consigue la seguridad de memoria principalmente mediante el análisis estático realizado en tiempo de compilación. El compilador examina el código fuente y puede determinar si la mayoría de las operaciones de memoria son seguras sin necesidad de recurrir a la recolección de basura. Para los casos que no pueden verificarse estáticamente, como el acceso a matrices con índices calculados en tiempo de ejecución, Rust inserta comprobaciones de límites que provocan el pánico en lugar de permitir comportamientos indefinidos. Este enfoque difiere fundamentalmente de los analizadores estáticos disponibles para C y C++, que se adaptaron a lenguajes no diseñados originalmente para un análisis estático exhaustivo. La sintaxis y las reglas del lenguaje de Rust se diseñaron desde cero para permitir una amplia verificación en tiempo de compilación, garantizando que una vez que un programa se compila correctamente, se ejecute de forma segura o entre en pánico de forma predecible en lugar de mostrar un comportamiento indefinido.
 
-
 ### El sistema Ownership: Reglas y principios
-
 
 La piedra angular de las garantías de seguridad de memoria de Rust es el sistema de propiedad, que gobierna cómo se gestiona la memoria a lo largo de la ejecución de un programa. Ownership se basa en tres reglas fundamentales que el compilador aplica en todo momento:
 
-
 1. Cada valor en Rust tiene un propietario (una variable que contiene el valor)
 
-2. Sólo puede haber un propietario a la vez
+2. solo puede haber un propietario a la vez
 
 3. Cuando el propietario sale del ámbito de aplicación, se elimina el valor
 
 
 Los ámbitos en Rust se definen normalmente mediante llaves, ya sea en cuerpos de funciones, bloques condicionales o bloques de ámbito creados explícitamente. Cuando se declara una variable dentro de un ámbito, ese ámbito se convierte en el propietario del valor de la variable. La variable permanece accesible y válida durante todo el tiempo de vida del ámbito, pero tan pronto como la ejecución abandona el ámbito, todas las variables de propiedad se limpian automáticamente a través de un proceso llamado dropping.
 
-
 Esta limpieza automática se implementa a través del mecanismo drop de Rust, donde el lenguaje implícitamente llama a una función drop en variables que salen de ámbito. Para los tipos básicos, esto significa simplemente que la memoria se marca como disponible para su reutilización. Para tipos más complejos que gestionan recursos, las implementaciones de drop personalizadas pueden realizar operaciones de limpieza adicionales, como cerrar gestores de archivos o liberar conexiones de red. Este patrón, tomado de RAII (Resource Acquisition Is Initialization) de C++, garantiza que los recursos siempre se liberen correctamente sin necesidad de que el programador introduzca código de limpieza explícito.
-
 
 ### Traslado de Ownership y disposición de la memoria
 
-
 Para entender cómo se transfiere la propiedad entre variables es necesario examinar la diferencia entre tipos simples y tipos complejos en términos de disposición de memoria y comportamiento de copia. Los tipos simples como enteros, booleanos y números de punto flotante tienen un tamaño fijo y conocido en tiempo de compilación y pueden ser copiados eficientemente. Cuando asignas una variable entera a otra, Rust crea una copia completa e independiente del valor, permitiendo que ambas variables existan simultáneamente sin problemas de propiedad.
 
+Los tipos complejos como las cadenas presentan un reto diferente porque gestionan memoria asignada dinámicamente. Una cadena en Rust consta de tres componentes almacenados en la pila: un puntero a los datos de caracteres asignados al montón, la longitud actual de la cadena y la capacidad total del búfer asignado. Esta estructura permite que las cadenas crezcan y se encojan eficientemente manteniendo el conocimiento de sus límites. Cuando se asigna una variable "String" a otra, Rust se enfrenta a una elección: podría copiar solo la estructura basada en la pila (creando dos punteros a los mismos datos de la pila) o realizar una copia profunda de todos los datos de la pila.
 
-Los tipos complejos como las cadenas presentan un reto diferente porque gestionan memoria asignada dinámicamente. Una cadena en Rust consta de tres componentes almacenados en la pila: un puntero a los datos de caracteres asignados al montón, la longitud actual de la cadena y la capacidad total del búfer asignado. Esta estructura permite que las cadenas crezcan y se encojan eficientemente manteniendo el conocimiento de sus límites. Cuando se asigna una variable String a otra, Rust se enfrenta a una elección: podría copiar sólo la estructura basada en la pila (creando dos punteros a los mismos datos de la pila) o realizar una copia profunda de todos los datos de la pila.
+El comportamiento por defecto de Rust es mover la propiedad en lugar de copiar, transfiriendo los datos del montón de la variable origen a la variable destino e invalidando la fuente. Este enfoque evita el peligroso escenario en el que múltiples variables podrían modificar la misma memoria del montón o en el que la misma memoria podría ser liberada múltiples veces cuando las variables salen del ámbito. La operación de movimiento es eficiente porque solo copia la pequeña estructura basada en la pila, no los datos de la pila potencialmente grandes, al tiempo que mantiene la seguridad de la memoria garantizando la propiedad única.
 
+### Referencias y préstamos
 
-El comportamiento por defecto de Rust es mover la propiedad en lugar de copiar, transfiriendo los datos del montón de la variable origen a la variable destino e invalidando la fuente. Este enfoque evita el peligroso escenario en el que múltiples variables podrían modificar la misma memoria del montón o en el que la misma memoria podría ser liberada múltiples veces cuando las variables salen del ámbito. La operación de movimiento es eficiente porque sólo copia la pequeña estructura basada en la pila, no los datos de la pila potencialmente grandes, al tiempo que mantiene la seguridad de la memoria garantizando la propiedad única.
-
-
-### Referencias y empréstitos
-
-
-Aunque los movimientos de propiedad proporcionan seguridad, pueden ser restrictivos cuando se necesita utilizar un valor en varios lugares sin transferir la propiedad. Rust soluciona esto mediante el préstamo, que permite a las funciones y variables acceder temporalmente a los datos sin tomar la propiedad. Una referencia, creada usando el operador ampersand, proporciona acceso de sólo lectura a un valor mientras deja la propiedad con la variable original.
-
+Aunque los movimientos de propiedad proporcionan seguridad, pueden ser restrictivos cuando se necesita utilizar un valor en varios lugares sin transferir la propiedad. Rust soluciona esto mediante el préstamo, que permite a las funciones y variables acceder temporalmente a los datos sin tomar la propiedad. Una referencia, creada usando el operador ampersand, proporciona acceso de solo lectura a un valor mientras deja la propiedad con la variable original.
 
 Las referencias permiten a las funciones operar con datos sin consumirlos, lo que hace posible utilizar el mismo valor varias veces a lo largo de un programa. Cuando pasas una referencia a una función, estás prestando los datos temporalmente, y la función debe devolver la referencia antes de que el propietario original pueda recuperar el control total. Esta metáfora del préstamo refleja la naturaleza temporal del acceso: del mismo modo que prestas un libro a un amigo sin perder la propiedad, las referencias permiten un acceso temporal sin perder la relación de propiedad original.
 
-
-Las referencias mutables amplían este concepto para permitir la modificación de datos prestados, pero con restricciones estrictas para mantener la seguridad. Rust sólo permite una referencia mutable a un dato en un momento dado, lo que evita las carreras de datos en las que varias partes de un programa pueden modificar simultáneamente la misma memoria. Además, no se pueden tener simultáneamente referencias mutables e inmutables a los mismos datos, ya que esto podría llevar a situaciones en las que el código asume que los datos son estables mientras otro código los está modificando activamente. Estas reglas se aplican en tiempo de compilación, lo que elimina clases enteras de errores de concurrencia que afectan a otros lenguajes de programación de sistemas.
-
+Las referencias mutables amplían este concepto para permitir la modificación de datos prestados, pero con restricciones estrictas para mantener la seguridad. Rust solo permite una referencia mutable a un dato en un momento dado, lo que evita las carreras de datos en las que varias partes de un programa pueden modificar simultáneamente la misma memoria. Además, no se pueden tener simultáneamente referencias mutables e inmutables a los mismos datos, ya que esto podría llevar a situaciones en las que el código asume que los datos son estables mientras otro código los está modificando activamente. Estas reglas se aplican en tiempo de compilación, lo que elimina clases enteras de errores de concurrencia que afectan a otros lenguajes de programación de sistemas.
 
 ```rust
 fn main() {
 let mut wallet_balance: u64 = 100_000; // 100,000 satoshis
 
-// Immutable borrow: read the balance
+// Préstamo inmutable: leer el balance
 let balance_ref = &wallet_balance;
-println!("Current balance: {} sats", balance_ref);
-// balance_ref goes out of scope here
+println!("Balance actual: {} sats", balance_ref);
+// balance_ref queda fuera del alcance aquí
 
-// Mutable borrow: update the balance
+// Préstamo mutable: actualizar el balance
 let balance_mut = &mut wallet_balance;
-*balance_mut += 50_000; // Receive payment
-println!("After deposit: {} sats", balance_mut);
-// balance_mut goes out of scope here
+*balance_mut += 50_000; // Pago recibido
+println!("Después del depósito: {} sats", balance_mut);
+// balance_mut queda fuera del alcance aquí
 
-// Function that borrows immutably
+// Función que toma prestado de forma inmutable
 fn display_balance(balance: &u64) {
 println!("Balance check: {} sats", balance);
 }
 
-// Function that borrows mutably
+// Función que toma prestado de forma mutable
 fn deduct_fee(balance: &mut u64, fee: u64) {
 *balance -= fee;
 }
 
 display_balance(&wallet_balance);
 deduct_fee(&mut wallet_balance, 1_000);
-println!("After fee: {} sats", wallet_balance); // 149,000
+println!("Después de la tarifa: {} sats", wallet_balance); // 149,000
 }
 ```
 
-
-### Tipos de cadenas y rebanadas
-
+### Tipos de cadenas y segmentos (slices)
 
 Rust distingue entre literales de cadena y el tipo String, reflejando diferentes estrategias de gestión de memoria y casos de uso. Los literales de cadena se incrustan directamente en el binario compilado y tienen el tipo &str (string slice), que representa una vista en datos de cadena inmutables. Estos literales son eficientes porque no requieren asignación en tiempo de ejecución, pero no pueden modificarse ya que forman parte del código del programa.
 
-
 El tipo String, por el contrario, gestiona la memoria asignada dinámicamente y puede crecer, decrecer y modificarse en tiempo de ejecución. Puede crear una cadena a partir de un literal utilizando String::from() o métodos similares, que asignan memoria al montón y copian el contenido del literal. Esta distinción permite a Rust optimizar tanto el rendimiento (usando literales cuando es posible) como la flexibilidad (usando String cuando se necesita modificar).
 
+Los segmentos de cadena (&str) proporcionan una potente abstracción para trabajar con porciones de cadenas sin copiar datos. Una segmento (slice) contiene un puntero al inicio de los datos de la cadena y una longitud, lo que permite hacer referencia a subcadenas de forma eficaz. La sintaxis de los segmentos utiliza rangos (por ejemplo, &s[0..5]) para especificar a qué parte de la cadena se va a hacer referencia. Dado que los segmentos son referencias, están sujetos a reglas de préstamo que impiden que la cadena subyacente se modifique mientras existan segmentos. Esta aplicación en tiempo de compilación evita errores comunes como el acceso a memoria no válida después de que la cadena original haya sido liberada o modificada.
 
-Los segmentos de cadena (&str) proporcionan una potente abstracción para trabajar con porciones de cadenas sin copiar datos. Una rebanada contiene un puntero al inicio de los datos de la cadena y una longitud, lo que permite hacer referencia a subcadenas de forma eficaz. La sintaxis de los segmentos utiliza rangos (por ejemplo, &s[0..5]) para especificar a qué parte de la cadena se va a hacer referencia. Dado que las rebanadas son referencias, están sujetas a reglas de préstamo que impiden que la cadena subyacente se modifique mientras existan rebanadas. Esta aplicación en tiempo de compilación evita errores comunes como el acceso a memoria no válida después de que la cadena original haya sido liberada o modificada.
+### Matrices, vectores y segmentos genéricos
 
+El concepto de segmento se extiende más allá de las cadenas a cualquier secuencia de elementos, proporcionando una forma unificada de trabajar tanto con matrices de tamaño fijo como con vectores dinámicos. Las matrices en Rust tienen su longitud codificada en su tipo (por ejemplo, [i32; 5] para una matriz de cinco enteros de 32 bits), lo que las hace adecuadas para situaciones que requieren garantías de tamaño en tiempo de compilación. Las funciones que aceptan matrices pueden imponer requisitos de longitud exacta, útiles para operaciones como las funciones criptográficas que necesitan entradas de tamaño preciso.
 
-### Matrices, vectores y rebanadas genéricas
+Los segmentos (&[T]) ofrecen una alternativa más flexible, ya que representan una vista de cualquier secuencia contigua de elementos, independientemente del almacenamiento subyacente. Se pueden crear segmentos a partir de matrices, vectores u otras segmentos, y el mismo segmento puede hacer referencia a diferentes porciones de datos a lo largo de su vida. Esta flexibilidad hace que los segmentos sean ideales para funciones que necesitan procesar secuencias sin preocuparse por el mecanismo de almacenamiento específico o el tamaño exacto.
 
-
-El concepto de rebanada se extiende más allá de las cadenas a cualquier secuencia de elementos, proporcionando una forma unificada de trabajar tanto con matrices de tamaño fijo como con vectores dinámicos. Las matrices en Rust tienen su longitud codificada en su tipo (por ejemplo, [i32; 5] para una matriz de cinco enteros de 32 bits), lo que las hace adecuadas para situaciones que requieren garantías de tamaño en tiempo de compilación. Las funciones que aceptan matrices pueden imponer requisitos de longitud exacta, útiles para operaciones como las funciones criptográficas que necesitan entradas de tamaño preciso.
-
-
-Las rebanadas (&[T]) ofrecen una alternativa más flexible, ya que representan una vista de cualquier secuencia contigua de elementos, independientemente del almacenamiento subyacente. Se pueden crear rebanadas a partir de matrices, vectores u otras rebanadas, y la misma rebanada puede hacer referencia a diferentes porciones de datos a lo largo de su vida. Esta flexibilidad hace que los slices sean ideales para funciones que necesitan procesar secuencias sin preocuparse por el mecanismo de almacenamiento específico o el tamaño exacto.
-
-
-La relación entre los tipos propios (String, Vec<T>) y sus homólogos prestados (&str, &[T]) sigue un patrón consistente en Rust. Los tipos propios gestionan su memoria y pueden modificarse, mientras que las rebanadas proporcionan un acceso de lectura eficiente a porciones de esos datos. Los tipos propios gestionan su memoria y pueden ser modificados, mientras que las rebanadas proporcionan un acceso eficiente de sólo lectura a porciones de esos datos. Este diseño permite APIs que son a la vez flexibles (aceptando varios tipos de entrada a través de slices) y eficientes (evitando copias innecesarias), mientras se mantienen las garantías de seguridad de Rust a través del sistema de préstamo.
-
-
+La relación entre los tipos propios (String, Vec<T>) y sus homólogos prestados (&str, &[T]) sigue un patrón consistente en Rust. Los tipos propios gestionan su memoria y pueden modificarse, mientras que los segmentos proporcionan un acceso de lectura eficiente a porciones de esos datos. Los tipos propios gestionan su memoria y pueden ser modificados, mientras que los segmentos proporcionan un acceso eficiente de solo lectura a porciones de esos datos. Este diseño permite APIs que son a la vez flexibles (aceptando varios tipos de entrada a través de segmentos) y eficientes (evitando copias innecesarias), mientras se mantienen las garantías de seguridad de Rust a través del sistema de préstamo.
 
 ## Estructuras, construcción de tipos de datos complejos
 
 <chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>
 
-
 :::video id=c78a543f-1462-43a1-9845-889d310d31a4:::
 
 Las estructuras en Rust sirven como base para la creación de tipos de datos complejos, similares a las clases en otros lenguajes de programación. Permiten agrupar datos relacionados en una única unidad cohesiva que puede contener múltiples campos de diferentes tipos. La sintaxis para definir una estructura sigue un patrón sencillo: se utiliza la palabra clave `struct` seguida del nombre de la estructura, luego se definen los campos entre llaves utilizando una sintaxis de dos puntos para especificar el tipo de cada campo.
 
-
 Rust sigue unas convenciones de nomenclatura específicas para las estructuras que el compilador aplicará mediante advertencias. Los nombres de las estructuras deben usar CamelCase (también conocido como PascalCase), mientras que los nombres de los campos dentro de la estructura deben usar snake_case con guiones bajos. Esta convención ayuda a mantener la consistencia entre las bases de código de Rust y hace que el código sea más legible para otros desarrolladores.
-
 
 Para crear instancias de estructuras es necesario especificar los valores de todos los campos utilizando el nombre de la estructura seguido de llaves que contengan las asignaciones de los campos. Una vez que tienes una instancia de estructura, puedes acceder y modificar campos individuales usando la notación de puntos, siempre que la instancia esté declarada como mutable. Esta notación de puntos funciona de forma consistente en Rust, a diferencia de lenguajes como C++ donde se pueden utilizar diferentes operadores para punteros y objetos directos.
 
-
 ### Funciones del constructor y atajos de campo
-
 
 Rust no tiene constructores incorporados como algunos lenguajes orientados a objetos, pero puedes crear funciones que devuelvan instancias de estructuras para servir al mismo propósito. Estas funciones constructoras típicamente toman parámetros para algunos o todos los campos y pueden establecer valores por defecto para otros. Cuando se escriben estas funciones, Rust proporciona una abreviatura conveniente: si un parámetro tiene el mismo nombre que un campo de estructura, puede simplemente escribir el nombre del campo una vez en lugar de repetirlo en el formato `field: value`.
 
-
-Las instancias de estructura también pueden crearse copiando valores de instancias existentes mediante la sintaxis de actualización de estructura. Esta característica le permite crear una nueva instancia especificando sólo los campos que desea cambiar, con todos los demás campos copiados de una instancia existente. Sin embargo, esta operación sigue las reglas de propiedad de Rust, lo que significa que los tipos no copiados se moverán de la instancia fuente, haciendo potencialmente inutilizables partes de la instancia original después. El compilador rastrea estos movimientos parciales de forma inteligente, permitiéndote continuar usando los campos que no fueron movidos mientras previene el acceso a los campos movidos.
-
+Las instancias de estructura también pueden crearse copiando valores de instancias existentes mediante la sintaxis de actualización de estructura. Esta característica le permite crear una nueva instancia especificando solo los campos que desea cambiar, con todos los demás campos copiados de una instancia existente. Sin embargo, esta operación sigue las reglas de propiedad de Rust, lo que significa que los tipos no copiados se moverán de la instancia fuente, haciendo potencialmente inutilizables partes de la instancia original después. El compilador rastrea estos movimientos parciales de forma inteligente, permitiéndote continuar usando los campos que no fueron movidos mientras previene el acceso a los campos movidos.
 
 ### Estructuras de tupla y estructuras unitarias
 
-
 Rust soporta estructuras de tupla, que son estructuras con campos sin nombre a los que se accede por índice en lugar de por nombre. Son útiles para tipos envolventes simples o cuando necesitas una estructura pero no necesitas campos con nombre. Para acceder a los campos de una estructura de tupla se utiliza la notación con puntos seguida del índice del campo, por ejemplo `.0` para el primer campo, `.1` para el segundo, etcétera. Este método es adecuado para estructuras que contienen un único valor o unos pocos valores estrechamente relacionados, en las que los nombres pueden ser redundantes.
-
 
 Las estructuras unitarias representan la forma más simple de estructuras: no contienen ningún dato. Aunque esto puede parecer inútil inicialmente, las estructuras unitarias se vuelven valiosas cuando se trabaja con el sistema de rasgos de Rust, ya que pueden implementar comportamientos sin almacenar ningún dato. Estas estructuras vacías sirven como marcadores o marcadores de posición en patrones más avanzados de Rust.
 
-
 ### Métodos y funciones asociadas
-
 
 Las estructuras adquieren funcionalidad adicional cuando se añade comportamiento a través de bloques de implementación. Utilizando la palabra clave `impl` seguida del nombre de la estructura, puedes definir métodos que operen sobre instancias de tu estructura. Los métodos son funciones que toman `self` como primer parámetro, que puede ser un valor propio (`self`), una referencia inmutable (`&self`), o una referencia mutable (`&mut self`), dependiendo de lo que el método necesite hacer con la instancia.
 
-
 La elección del tipo de parámetro `self` determina el comportamiento del método con respecto a la propiedad. Los métodos que toman `&self` pueden leer de la instancia sin tomar la propiedad, lo que los hace adecuados para operaciones que no modifican la estructura. Los métodos que toman `&mut self` pueden modificar la instancia mientras que permiten que la persona que llama conserve la propiedad. Los métodos que toman `self` por valor consumen la instancia, lo que es apropiado para operaciones que transforman la estructura en otra cosa o cuando el método representa la operación final sobre esa instancia.
-
 
 Las funciones asociadas son funciones definidas dentro de un bloque de implementación que no toman `self` como parámetro. Son similares a los métodos estáticos de otros lenguajes y se suelen utilizar como constructores o funciones de utilidad relacionadas con el tipo. Las funciones asociadas se llaman utilizando la sintaxis de dos puntos dobles (`Tipo::nombre_funcion()`), que las distingue claramente de los métodos llamados sobre instancias.
 
-
 ```rust
-// Define a struct for a Lightning invoice
+// Definir una estructura para una factura lightning
 struct Invoice {
 payment_hash: String,
 amount_msat: u64,
 description: String,
 expiry_secs: u32,
 }
-
 impl Invoice {
-// Associated function (constructor) - no self parameter
+// Asociar la función (constructor) - sin el parámetro self
 fn new(payment_hash: String, amount_msat: u64, description: String) -> Self {
 Invoice {
 payment_hash,
 amount_msat,
 description,
-expiry_secs: 3600, // default 1 hour
+expiry_secs: 3600, // por defecto 1 hora
 }
 }
 
-// Method with &self - read-only access
+// Método con &self - acceso de solo lectura
 fn amount_sats(&self) -> u64 {
 self.amount_msat / 1000
 }
 
-// Method with &mut self - can modify the instance
+// Método con &mut self - Puede modificar la instancia
 fn extend_expiry(&mut self, additional_secs: u32) {
 self.expiry_secs += additional_secs;
 }
 
-// Method with self - consumes the instance
+// Método con self - consume la instancia
 fn into_payment_request(self) -> String {
 format!("lnbc{}n1p{}", self.amount_msat, self.payment_hash)
 }
 }
 
 fn main() {
-// Use associated function to create instance
+// Utilice la función asociada para crear una instancia
 let mut invoice = Invoice::new(
 "abc123".to_string(),
-100_000_000, // 100,000 sats in millisats
-"Coffee payment".to_string(),
+100_000_000, // 100,000 sats en milisats
+"Pago de café".to_string(),
 );
 
 println!("Amount: {} sats", invoice.amount_sats());
-invoice.extend_expiry(1800); // Add 30 minutes
+invoice.extend_expiry(1800); // agregar 30 minutos
 
 let request = invoice.into_payment_request();
-// invoice is now consumed, cannot be used anymore
+// La factura ya está consumida y ya no se puede utilizar.
 println!("Payment request: {}", request);
 }
 ```
 
-
 #### Enumeraciones: Modelado de opciones y variantes
-
 
 Las enumeraciones en Rust tienen más capacidades que las enumeraciones en muchos otros lenguajes. Aunque pueden representar simples conjuntos de constantes con nombre, las enumeraciones de Rust también pueden contener datos dentro de cada variante, lo que las hace adecuadas para modelar situaciones en las que un valor puede ser uno de varios tipos o estados diferentes. Cada variante de enum puede contener diferentes tipos y cantidades de datos, desde ningún dato hasta estructuras complejas con campos con nombre.
 
-
 La posibilidad de adjuntar datos a las variantes enum elimina muchos errores de programación habituales en otros lenguajes. En lugar de mantener variables separadas para un indicador de tipo y los datos asociados, que pueden ser fácilmente incoherentes, las enumeraciones de Rust agrupan la información de tipo con los propios datos. Este diseño garantiza que los datos siempre coincidan con la variante, evitando desajustes que podrían provocar errores en tiempo de ejecución.
-
 
 Las variantes de los enum pueden contener datos de varias formas: sin datos para indicadores simples, datos tipo tupla para campos sin nombre o datos tipo estructura con campos con nombre. Incluso se pueden mezclar estos estilos dentro de un mismo enum, eligiendo la forma más adecuada para cada variante. Esta flexibilidad hace que los enums sean adecuados para modelar conceptos de dominio complejos en los que distintos casos requieren información diferente.
 
@@ -479,7 +377,7 @@ La concordancia de patrones mediante expresiones `match` proporciona una forma d
 Las expresiones de coincidencia deben ser exhaustivas, lo que significa que deben tratar todos los casos posibles para el tipo de coincidencia. Este requisito evita errores que podrían producirse si algunos casos quedaran accidentalmente sin tratar. Si no desea tratar todos los casos explícitamente, puede utilizar el patrón comodín (`_`) para capturar todos los casos restantes, o vincular los casos no tratados a una variable si necesita acceder al valor.
 
 
-La construcción `if let` proporciona una alternativa más concisa a match cuando sólo le interesa un patrón específico. Esta sintaxis es particularmente útil cuando se trabaja con tipos Option o cuando se desea ejecutar código sólo si un valor coincide con una variante particular de un enum. La construcción `if let` puede incluir una cláusula `else` para los casos en los que el patrón no coincida, lo que la convierte en una forma simplificada de manejar escenarios de coincidencia de patrones simples.
+La construcción `if let` proporciona una alternativa más concisa a match cuando solo le interesa un patrón específico. Esta sintaxis es particularmente útil cuando se trabaja con tipos Option o cuando se desea ejecutar código solo si un valor coincide con una variante particular de un enum. La construcción `if let` puede incluir una cláusula `else` para los casos en los que el patrón no coincida, lo que la convierte en una forma simplificada de manejar escenarios de coincidencia de patrones simples.
 
 
 #### Colecciones: Gestión de grupos de datos
@@ -506,7 +404,7 @@ Las reglas de préstamo de Rust se aplican a los vectores, evitando problemas co
 Los mapas Hash proporcionan un almacenamiento clave-valor eficiente que permite buscar rápidamente valores en función de sus claves asociadas. Tanto las claves como los valores pueden ser de cualquier tipo, aunque las claves deben implementar los rasgos necesarios para hash y comparación de igualdad. Los mapas Hash se apropian de los valores insertados a menos que éstos implementen el rasgo Copy.
 
 
-Los mapas Hash ofrecen varios métodos para insertar y actualizar valores. El método básico `insert()` sobrescribirá los valores existentes, mientras que `entry()` proporciona una lógica de inserción más flexible. La entrada API permite insertar valores sólo si no existen ya, o actualizar valores existentes basándose en su estado actual. Este API es útil para patrones como el recuento de ocurrencias o el mantenimiento de totales en ejecución.
+Los mapas Hash ofrecen varios métodos para insertar y actualizar valores. El método básico `insert()` sobrescribirá los valores existentes, mientras que `entry()` proporciona una lógica de inserción más flexible. La entrada API permite insertar valores solo si no existen ya, o actualizar valores existentes basándose en su estado actual. Este API es útil para patrones como el recuento de ocurrencias o el mantenimiento de totales en ejecución.
 
 
 Cuando se recuperan valores de mapas hash, el método `get()` devuelve una `Option` ya que la clave solicitada podría no existir. Puedes utilizar métodos como `copied()` para convertir de `Option<&T>` a `Option<T>` para los tipos Copy, y `unwrap_or()` para proporcionar valores por defecto cuando faltan claves.
@@ -544,7 +442,7 @@ Los errores irrecuperables representan situaciones en las que el programa ha ent
 En Rust, los errores irrecuperables desencadenan un pánico, que hace que el programa se bloquee de forma controlada. Antes de terminar, Rust realiza un proceso llamado desenrollado, en el que recorre la pila de llamadas para proporcionar un seguimiento detallado de la pila que muestra exactamente dónde se produjo el pánico. Este proceso de desenrollado ayuda a los desarrolladores a identificar el origen del problema durante la depuración. Para aplicaciones de rendimiento crítico o sistemas embebidos, puede desactivar el desenrollado y configurar Rust para abortar inmediatamente cuando se produce un pánico, aunque esto sacrifica la información de depuración para una terminación más rápida.
 
 
-Puede provocar un pánico explícitamente utilizando la macro `panic!` con un mensaje personalizado. Cuando ocurre un pánico, verás una salida indicando qué hebra entró en pánico y el mensaje asociado. Establecer la variable de entorno `RUST_BACKTRACE` proporciona información de depuración adicional, mostrando la pila de llamadas completa que condujo al pánico. Por ejemplo, si se intenta acceder al elemento 99 de un vector que contiene sólo tres elementos, generate provocará un pánico con el mensaje "index out of bounds", junto con un backtrace que muestra la secuencia exacta de llamadas a funciones que provocaron el error.
+Puede provocar un pánico explícitamente utilizando la macro `panic!` con un mensaje personalizado. Cuando ocurre un pánico, verás una salida indicando qué hebra entró en pánico y el mensaje asociado. Establecer la variable de entorno `RUST_BACKTRACE` proporciona información de depuración adicional, mostrando la pila de llamadas completa que condujo al pánico. Por ejemplo, si se intenta acceder al elemento 99 de un vector que contiene solo tres elementos, generate provocará un pánico con el mensaje "index out of bounds", junto con un backtrace que muestra la secuencia exacta de llamadas a funciones que provocaron el error.
 
 
 ### Errores recuperables con resultado
@@ -568,7 +466,7 @@ Mientras que la concordancia explícita de patrones proporciona un control compl
 Para una gestión de errores más flexible, métodos como `unwrap_or_else` permiten proporcionar un cierre que se ejecuta cuando se produce un error, permitiendo una lógica de recuperación personalizada. Puedes encadenar estas operaciones para manejar escenarios complejos, como intentar abrir un archivo y crearlo si no existe, con diferentes estrategias de gestión de errores para cada paso.
 
 
-El operador de signo de interrogación (`?`) proporciona una sintaxis concisa para la propagación de errores, que es común en los programas Rust. Cuando se añade `?` a un `Resultado`, automáticamente desenvuelve los valores correctos y devuelve los errores inmediatamente desde la función actual. Este operador sólo puede usarse en funciones que devuelvan tipos `Result`, asegurando que los errores puedan propagarse adecuadamente por la pila de llamadas. El operador `?` hace que el código de gestión de errores sea mucho más legible, ya que elimina las expresiones de coincidencia prolijas y mantiene la semántica explícita de propagación de errores.
+El operador de signo de interrogación (`?`) proporciona una sintaxis concisa para la propagación de errores, que es común en los programas Rust. Cuando se añade `?` a un `Resultado`, automáticamente desenvuelve los valores correctos y devuelve los errores inmediatamente desde la función actual. Este operador solo puede usarse en funciones que devuelvan tipos `Result`, asegurando que los errores puedan propagarse adecuadamente por la pila de llamadas. El operador `?` hace que el código de gestión de errores sea mucho más legible, ya que elimina las expresiones de coincidencia prolijas y mantiene la semántica explícita de propagación de errores.
 
 
 ```rust
@@ -667,7 +565,7 @@ Los cierres en Rust son funciones anónimas que pueden capturar variables de su 
 La sintaxis de los cierres utiliza caracteres de tubo (`|`) en lugar de paréntesis para definir los parámetros. Para un cierre sin parámetros, se escribe `||`, y para cierres con parámetros, se enumeran entre los tubos como `|x, y|`. Si el cuerpo del cierre consiste en una única expresión, puedes omitir las llaves, haciendo la sintaxis muy concisa.
 
 
-Consideremos este ejemplo práctico de una empresa de camisetas que regala camisetas exclusivas en función de las preferencias de los clientes. Si un cliente ha especificado un color favorito, recibe ese color; de lo contrario, recibe el color más surtido por defecto. Usando cierres, esta lógica se convierte en: `user_preference.unwrap_or_else(|| self.most_stocked())`. El cierre `|| self.most_stocked()` proporciona el valor por defecto sólo cuando es necesario, y puede acceder a `self` desde su entorno.
+Consideremos este ejemplo práctico de una empresa de camisetas que regala camisetas exclusivas en función de las preferencias de los clientes. Si un cliente ha especificado un color favorito, recibe ese color; de lo contrario, recibe el color más surtido por defecto. Usando cierres, esta lógica se convierte en: `user_preference.unwrap_or_else(|| self.most_stocked())`. El cierre `|| self.most_stocked()` proporciona el valor por defecto solo cuando es necesario, y puede acceder a `self` desde su entorno.
 
 
 ### Inferencia y flexibilidad del tipo de cierre
@@ -688,7 +586,7 @@ Si el compilador no puede deducir los tipos o si desea ser explícito, puede ano
 Los cierres pueden capturar variables de su entorno de tres formas diferentes: por referencia inmutable, por referencia mutable, o tomando propiedad. El compilador Rust determina automáticamente el método de captura más restrictivo que satisfaga las necesidades de tu closure, siguiendo el principio de mínimo privilegio.
 
 
-Cuando un cierre sólo necesita leer un valor, lo captura por referencia inmutable. Esto permite que la variable original siga siendo accesible después de que se defina y llame al cierre. Por ejemplo, un cierre que imprime una lista tomará prestada la lista de forma inmutable, permitiéndole continuar utilizando la lista después de que el cierre se ejecute.
+Cuando un cierre solo necesita leer un valor, lo captura por referencia inmutable. Esto permite que la variable original siga siendo accesible después de que se defina y llame al cierre. Por ejemplo, un cierre que imprime una lista tomará prestada la lista de forma inmutable, permitiéndole continuar utilizando la lista después de que el cierre se ejecute.
 
 
 Si un cierre necesita modificar una variable capturada, debe capturar por referencia mutable. En este caso, tanto la variable capturada como el propio cierre deben ser declarados como mutables. El cierre puede entonces modificar la variable capturada, pero las reglas de préstamo se siguen aplicando - no se pueden tener otras referencias a esa variable mientras exista el cierre mutable.
@@ -703,13 +601,13 @@ El método de captura más restrictivo es la toma de propiedad, que mueve las va
 Rust representa los cierres mediante un sistema de rasgos con tres rasgos clave: `FnOnce`, `FnMut` y `Fn`. Estos rasgos forman una jerarquía que describe cómo se puede llamar a los cierres y lo que pueden hacer con las variables capturadas.
 
 
-`FnOnce` es el rasgo más básico que implementan todos los cierres. Representa cierres que pueden ser llamados al menos una vez. Algunos cierres, particularmente aquellos que mueven valores capturados o los consumen de alguna manera, sólo pueden ser llamados una vez porque destruyen o mueven sus datos capturados durante la ejecución.
+`FnOnce` es el rasgo más básico que implementan todos los cierres. Representa cierres que pueden ser llamados al menos una vez. Algunos cierres, particularmente aquellos que mueven valores capturados o los consumen de alguna manera, solo pueden ser llamados una vez porque destruyen o mueven sus datos capturados durante la ejecución.
 
 
 `FnMut` representa cierres que pueden ser llamados múltiples veces y pueden mutar su entorno capturado. Estos cierres capturan variables por referencia mutable y pueden modificarlas a través de múltiples llamadas. Las reglas de préstamo aseguran que cuando un cierre `FnMut` está activo, tiene acceso mutable exclusivo a sus variables capturadas.
 
 
-`Fn` es el rasgo más restrictivo, representando cierres que pueden ser llamados múltiples veces sin mutar su entorno capturado. Estos cierres sólo capturan por referencia inmutable y pueden ser llamados concurrentemente sin violar las garantías de seguridad de Rust. Si un cierre implementa `Fn`, automáticamente implementa también `FnMut` y `FnOnce`, ya que ser invocable múltiples veces sin mutación implica ser invocable con mutación y ser invocable una vez.
+`Fn` es el rasgo más restrictivo, representando cierres que pueden ser llamados múltiples veces sin mutar su entorno capturado. Estos cierres solo capturan por referencia inmutable y pueden ser llamados concurrentemente sin violar las garantías de seguridad de Rust. Si un cierre implementa `Fn`, automáticamente implementa también `FnMut` y `FnOnce`, ya que ser invocable múltiples veces sin mutación implica ser invocable con mutación y ser invocable una vez.
 
 
 ### Trabajar con iteradores
@@ -730,7 +628,7 @@ Puede crear iteradores a partir de colecciones utilizando métodos como `iter()`
 Los adaptadores de iteradores son métodos que transforman un iterador en otro, permitiendo encadenar operaciones. Los adaptadores más comunes son `map` para transformar cada elemento, `filter` para seleccionar elementos basándose en un predicado, y `enumerate` para añadir índices. Estos adaptadores son perezosos - no hacen ningún trabajo hasta que se consumen.
 
 
-El método `map` aplica un cierre a cada elemento, transformándolo en otra cosa. Por ejemplo, `numbers.iter().map(|x| x * 2)` crea un iterador que duplica cada número. El método `filter` mantiene sólo los elementos para los que el cierre del predicado devuelve verdadero: `numbers.iter().filter(|&x| x > 10)` mantiene sólo los números mayores que diez.
+El método `map` aplica un cierre a cada elemento, transformándolo en otra cosa. Por ejemplo, `numbers.iter().map(|x| x * 2)` crea un iterador que duplica cada número. El método `filter` mantiene solo los elementos para los que el cierre del predicado devuelve verdadero: `numbers.iter().filter(|&x| x > 10)` mantiene solo los números mayores que diez.
 
 
 Los métodos consumidores realmente iteran a través de los datos y producen un resultado final. El método `collect` consume un iterador y crea una colección a partir de él. A menudo es necesario especificar el tipo de colección: `let vec: Vec<_> = iterator.collect()`. Otros consumidores son `sum` para sumar elementos numéricos, `fold` para acumular valores con una operación personalizada, y `for_each` para ejecutar efectos secundarios en cada elemento.
@@ -808,7 +706,7 @@ println!("Display: {:?}", display_strings);
 Los punteros inteligentes son estructuras de datos que actúan como los punteros tradicionales, pero proporcionan capacidades adicionales y gestión automática de la memoria. A diferencia de las referencias simples, los punteros inteligentes son propietarios de los datos a los que apuntan y pueden implementar comportamientos personalizados para la asignación, desasignación y patrones de acceso a la memoria. Son herramientas esenciales para gestionar los datos asignados al montón e implementar patrones de propiedad complejos que van más allá del sistema de propiedad básico de Rust.
 
 
-El aspecto "inteligente" proviene de su capacidad para gestionar automáticamente tareas de gestión de memoria que, de otro modo, requerirían intervención manual. Cuando un puntero inteligente sale de su ámbito, puede liberar automáticamente la memoria asociada, disminuir el número de referencias o realizar otras operaciones de limpieza. Esta automatización ayuda a evitar las fugas de memoria y los errores de uso después de la liberación, a la vez que proporciona más flexibilidad que la asignación sólo en pila.
+El aspecto "inteligente" proviene de su capacidad para gestionar automáticamente tareas de gestión de memoria que, de otro modo, requerirían intervención manual. Cuando un puntero inteligente sale de su ámbito, puede liberar automáticamente la memoria asociada, disminuir el número de referencias o realizar otras operaciones de limpieza. Esta automatización ayuda a evitar las fugas de memoria y los errores de uso después de la liberación, a la vez que proporciona más flexibilidad que la asignación solo en pila.
 
 
 Los punteros inteligentes suelen implementar dos rasgos clave: `Deref` y `Drop`. El rasgo `Deref` permite utilizar el puntero inteligente como si fuera una referencia a los datos contenidos. El rasgo `Drop` permite una lógica de limpieza personalizada cuando se destruye el puntero inteligente. Juntos, estos rasgos permiten a los punteros inteligentes gestionar la memoria automáticamente.
@@ -817,7 +715,7 @@ Los punteros inteligentes suelen implementar dos rasgos clave: `Deref` y `Drop`.
 ### El puntero inteligente de Box
 
 
-`Box<T>` es el puntero inteligente más simple, que proporciona asignación al montón para cualquier tipo `T`. Cuando se crea una `Caja`, el valor contenido se almacena en el montón en lugar de en la pila, y la propia `Caja` (que es sólo un puntero) se almacena en la pila. Esta indirección es útil cuando necesitas almacenar grandes cantidades de datos sin moverlos, cuando necesitas un tipo con un tamaño desconocido en tiempo de compilación, o cuando quieres transferir la propiedad de los datos del montón eficientemente.
+`Box<T>` es el puntero inteligente más simple, que proporciona asignación al montón para cualquier tipo `T`. Cuando se crea una `Caja`, el valor contenido se almacena en el montón en lugar de en la pila, y la propia `Caja` (que es solo un puntero) se almacena en la pila. Esta indirección es útil cuando necesitas almacenar grandes cantidades de datos sin moverlos, cuando necesitas un tipo con un tamaño desconocido en tiempo de compilación, o cuando quieres transferir la propiedad de los datos del montón eficientemente.
 
 
 Crear una `Caja` es sencillo: `let valor_caja = Caja::nueva(42);` asigna un entero en el heap. El `Box` gestiona automáticamente esta memoria - cuando el `Box` sale del ámbito, automáticamente desasigna la memoria del heap. Esta limpieza automática evita fugas de memoria sin necesidad de gestión manual.
@@ -847,7 +745,7 @@ El rasgo `Drop` te permite especificar código de limpieza personalizado que se 
 La mayoría de los tipos no necesitan implementaciones personalizadas de `Drop` porque Rust gestiona automáticamente la eliminación de sus campos. Sin embargo, los punteros inteligentes a menudo necesitan una lógica personalizada para limpiar adecuadamente los recursos que gestionan. Por ejemplo, un puntero inteligente con contador de referencias necesita decrementar el contador de referencias y potencialmente desasignar datos compartidos cuando la última referencia es eliminada.
 
 
-También puedes soltar explícitamente un valor antes de que salga del ámbito usando `std::mem::drop()`. Esta función toma posesión de un valor y lo suelta inmediatamente, lo que puede ser útil para liberar recursos antes de tiempo o asegurar que la limpieza se realiza en un punto específico del programa. La función drop explícita es sólo una función de identidad que toma la propiedad - el trabajo real ocurre cuando el valor se suelta al final de la función.
+También puedes soltar explícitamente un valor antes de que salga del ámbito usando `std::mem::drop()`. Esta función toma posesión de un valor y lo suelta inmediatamente, lo que puede ser útil para liberar recursos antes de tiempo o asegurar que la limpieza se realiza en un punto específico del programa. La función drop explícita es solo una función de identidad que toma la propiedad - el trabajo real ocurre cuando el valor se suelta al final de la función.
 
 
 Esta base de cierres, iteradores y punteros inteligentes proporciona a los desarrolladores de Rust herramientas para escribir código expresivo, seguro y eficiente. Estas características trabajan juntas para permitir patrones de programación comunes, manteniendo las garantías básicas de Rust de seguridad de memoria y rendimiento.
@@ -867,19 +765,19 @@ Esta base de cierres, iteradores y punteros inteligentes proporciona a los desar
 El contador de referencia representa otro tipo fundamental de puntero inteligente en Rust, diseñado específicamente para permitir escenarios de propiedad múltiple. A diferencia de Box, que sigue las reglas tradicionales de propiedad única en las que una entidad es propietaria de los datos, RC (Reference Counter) permite que varias partes de su código compartan la propiedad de los mismos datos simultáneamente. Este modelo de propiedad compartida funciona mediante un mecanismo de recuento que rastrea cuántas referencias existen a un dato concreto.
 
 
-El sistema de recuento de referencias funciona manteniendo un contador interno que aumenta cada vez que se clona una RC y disminuye cuando se abandona una RC. La memoria sólo se libera cuando este contador llega a cero, asegurando que los datos siguen siendo válidos mientras exista alguna referencia. Este enfoque evita la desasignación prematura a la vez que permite patrones flexibles de compartición de datos que serían imposibles con la simple propiedad de Box.
+El sistema de recuento de referencias funciona manteniendo un contador interno que aumenta cada vez que se clona una RC y disminuye cuando se abandona una RC. La memoria solo se libera cuando este contador llega a cero, asegurando que los datos siguen siendo válidos mientras exista alguna referencia. Este enfoque evita la desasignación prematura a la vez que permite patrones flexibles de compartición de datos que serían imposibles con la simple propiedad de Box.
 
 
 Un ejemplo práctico de la utilidad de RC es la creación de estructuras de datos compartidas, como las listas enlazadas, en las que varias listas pueden hacer referencia a la misma porción de cola. Considere la posibilidad de crear dos listas separadas que hagan referencia a una subsecuencia común. Con la propiedad Box, esto es imposible porque al mover la porción compartida a la primera lista se transfiere la propiedad, impidiendo su uso en la segunda lista. RC resuelve esto permitiéndole clonar la referencia en lugar de los datos subyacentes, haciendo posible la estructura compartida mientras se mantiene la seguridad de la memoria.
 
 
-Cuando clonas un RC, no estás duplicando los datos internos, independientemente de su tamaño o complejidad. En su lugar, se crea otra referencia a la misma posición de memoria y se incrementa el contador de referencias. Esto hace que la clonación de instancias RC sea eficiente incluso para grandes estructuras de datos, ya que sólo se copia la referencia en sí, mientras que los datos subyacentes permanecen en su lugar.
+Cuando clonas un RC, no estás duplicando los datos internos, independientemente de su tamaño o complejidad. En su lugar, se crea otra referencia a la misma posición de memoria y se incrementa el contador de referencias. Esto hace que la clonación de instancias RC sea eficiente incluso para grandes estructuras de datos, ya que solo se copia la referencia en sí, mientras que los datos subyacentes permanecen en su lugar.
 
 
 ### Mutabilidad interior con RefCell
 
 
-RefCell introduce la mutabilidad interior, que permite mutar datos aunque sólo se tenga una referencia inmutable a ellos. Esta capacidad cambia fundamentalmente el modo en que se aplican las normas de préstamo de Rust, ya que traslada las comprobaciones del tiempo de compilación al tiempo de ejecución. Mientras que las referencias normales dependen del compilador para verificar la seguridad del préstamo, RefCell realiza estas comprobaciones durante la ejecución del programa, proporcionando una mayor flexibilidad a costa de posibles pánicos en tiempo de ejecución.
+RefCell introduce la mutabilidad interior, que permite mutar datos aunque solo se tenga una referencia inmutable a ellos. Esta capacidad cambia fundamentalmente el modo en que se aplican las normas de préstamo de Rust, ya que traslada las comprobaciones del tiempo de compilación al tiempo de ejecución. Mientras que las referencias normales dependen del compilador para verificar la seguridad del préstamo, RefCell realiza estas comprobaciones durante la ejecución del programa, proporcionando una mayor flexibilidad a costa de posibles pánicos en tiempo de ejecución.
 
 
 El principio básico de RefCell consiste en mantener las mismas reglas de préstamo que Rust aplica normalmente en tiempo de compilación, pero comprobándolas dinámicamente. En cualquier momento, puede tener una referencia mutable o cualquier número de referencias inmutables a los datos dentro de una RefCell. Si su código intenta violar estas reglas creando simultáneamente referencias en conflicto, el programa entrará en pánico en lugar de producir un comportamiento indefinido.
@@ -888,7 +786,7 @@ El principio básico de RefCell consiste en mantener las mismas reglas de prést
 Esta comprobación en tiempo de ejecución permite ciertos patrones de programación que el compilador podría rechazar incluso cuando son realmente seguros. El análisis estático del compilador no siempre puede demostrar que los patrones de préstamo complejos son correctos, lo que le lleva a pecar de precavido. RefCell le permite anular estas restricciones conservadoras cuando confía en la corrección de su código, pero esta confianza conlleva la responsabilidad de garantizar un uso adecuado para evitar bloqueos en tiempo de ejecución.
 
 
-Un caso de uso común para RefCell implica objetos simulados en escenarios de pruebas. Cuando se implementa un rasgo que sólo proporciona acceso inmutable a sí mismo, pero la implementación simulada necesita realizar un seguimiento interno de los cambios de estado, RefCell permite este patrón. Puede envolver el estado interno en una RefCell, permitiendo que el simulacro mute sus datos de seguimiento incluso a través de una interfaz inmutable.
+Un caso de uso común para RefCell implica objetos simulados en escenarios de pruebas. Cuando se implementa un rasgo que solo proporciona acceso inmutable a sí mismo, pero la implementación simulada necesita realizar un seguimiento interno de los cambios de estado, RefCell permite este patrón. Puede envolver el estado interno en una RefCell, permitiendo que el simulacro mute sus datos de seguimiento incluso a través de una interfaz inmutable.
 
 
 ### Combinación de RC y RefCell para un estado mutable compartido
@@ -963,7 +861,7 @@ println!("New local balance: {} msats", state.local_balance_msat);
 ### Fundamentos de seguridad de subprocesos y concurrencia
 
 
-La aproximación de Rust a la concurrencia se centra en prevenir las carreras de datos y los problemas de seguridad de memoria en tiempo de compilación. El sistema de tipos refuerza la seguridad de los hilos a través de rasgos como `Send` y `Sync`, que marcan los tipos como seguros para la transferencia entre hilos o seguros para el acceso concurrente respectivamente. Esta verificación en tiempo de compilación detecta muchos errores de concurrencia que sólo aparecerían en tiempo de ejecución en otros lenguajes de programación de sistemas.
+La aproximación de Rust a la concurrencia se centra en prevenir las carreras de datos y los problemas de seguridad de memoria en tiempo de compilación. El sistema de tipos refuerza la seguridad de los hilos a través de rasgos como `Send` y `Sync`, que marcan los tipos como seguros para la transferencia entre hilos o seguros para el acceso concurrente respectivamente. Esta verificación en tiempo de compilación detecta muchos errores de concurrencia que solo aparecerían en tiempo de ejecución en otros lenguajes de programación de sistemas.
 
 
 La creación de hilos en Rust sigue un patrón sencillo utilizando thread::spawn, que toma un closure para ejecutar en el nuevo hilo y devuelve un handle para gestionar el ciclo de vida del hilo. El hilo generado se ejecuta simultáneamente con el hilo principal, y se puede utilizar el método join en el manejador para esperar la finalización. Sin una unión explícita, los subprocesos generados pueden terminar cuando el subproceso principal salga, cortando potencialmente el trabajo incompleto.
@@ -978,7 +876,7 @@ El paso de mensajes proporciona una alternativa a la concurrencia de estados com
 ### Concurrencia de estados compartidos con Mutex y Arc
 
 
-Cuando el paso de mensajes no es adecuado, Rust proporciona concurrencia de estado compartido tradicional a través de Mutex (exclusión mutua) combinado con Arc (contador de referencia atómica). Mutex asegura que sólo un hilo puede acceder a los datos protegidos a la vez requiriendo que los hilos adquieran un bloqueo antes de acceder a los datos. El bloqueo se libera automáticamente cuando el objeto guardián devuelto por la operación de bloqueo sale del ámbito, lo que evita los habituales escenarios de punto muerto causados por desbloqueos olvidados.
+Cuando el paso de mensajes no es adecuado, Rust proporciona concurrencia de estado compartido tradicional a través de Mutex (exclusión mutua) combinado con Arc (contador de referencia atómica). Mutex asegura que solo un hilo puede acceder a los datos protegidos a la vez requiriendo que los hilos adquieran un bloqueo antes de acceder a los datos. El bloqueo se libera automáticamente cuando el objeto guardián devuelto por la operación de bloqueo sale del ámbito, lo que evita los habituales escenarios de punto muerto causados por desbloqueos olvidados.
 
 
 Arc es el equivalente seguro de RC, ya que utiliza operaciones atómicas para gestionar el recuento de referencias de forma segura en varios subprocesos. Mientras que RC funciona perfectamente para escenarios de un solo hilo, su recuento de referencias no atómico crea condiciones de carrera cuando se accede desde múltiples hilos. Los contadores atómicos de Arc garantizan que las modificaciones en el recuento de referencias se produzcan de forma segura incluso bajo acceso concurrente, por lo que es adecuado para compartir datos a través de los límites de los subprocesos.
@@ -1110,7 +1008,7 @@ El sistema de concordancia de patrones de las macros admite varios especificador
 La depuración de macros presenta retos únicos debido a su naturaleza en tiempo de compilación. El comando `cargo expand` es útil para el desarrollo de macros, ya que muestra el código completamente expandido generado por las invocaciones de macros. Esta herramienta permite a los desarrolladores verificar que sus macros generate el código previsto e identificar problemas en la lógica de expansión. Cuando el código generado por la macro contiene errores, la salida expandida ayuda a determinar si el problema reside en la definición de la macro o en la estructura del código generado.
 
 
-Las macros complejas pueden implementar patrones recursivos, en los que una macro se llama a sí misma con argumentos modificados para gestionar la generación de código anidado o iterativo. Sin embargo, las macros recursivas requieren un diseño cuidadoso para evitar la expansión infinita y los problemas de rendimiento de la compilación. La naturaleza de la expansión de macros en tiempo de compilación significa que incluso las implementaciones de macros ineficientes sólo afectan a la velocidad de compilación, no al rendimiento en tiempo de ejecución, pero las macros excesivamente complejas pueden ralentizar considerablemente el proceso de compilación.
+Las macros complejas pueden implementar patrones recursivos, en los que una macro se llama a sí misma con argumentos modificados para gestionar la generación de código anidado o iterativo. Sin embargo, las macros recursivas requieren un diseño cuidadoso para evitar la expansión infinita y los problemas de rendimiento de la compilación. La naturaleza de la expansión de macros en tiempo de compilación significa que incluso las implementaciones de macros ineficientes solo afectan a la velocidad de compilación, no al rendimiento en tiempo de ejecución, pero las macros excesivamente complejas pueden ralentizar considerablemente el proceso de compilación.
 
 
 
@@ -1139,10 +1037,10 @@ Rust ofrece tres propiedades esenciales que lo hacen especialmente adecuado para
 ### Sistema estático de tipo fuerte de Rust
 
 
-El sistema de tipos de Rust proporciona características de tipado estático y fuerte que trabajan conjuntamente para detectar errores antes de que puedan afectar a los usuarios. La naturaleza estática significa que la comprobación de tipos se produce en tiempo de compilación, lo que obliga a los desarrolladores a resolver los desajustes de tipos incluso antes de que el programa pueda construirse. Esto contrasta con los lenguajes de tipado dinámico, en los que los errores de tipado sólo aparecen durante el tiempo de ejecución, potencialmente después de que el software se haya desplegado y esté gestionando fondos de usuarios reales.
+El sistema de tipos de Rust proporciona características de tipado estático y fuerte que trabajan conjuntamente para detectar errores antes de que puedan afectar a los usuarios. La naturaleza estática significa que la comprobación de tipos se produce en tiempo de compilación, lo que obliga a los desarrolladores a resolver los desajustes de tipos incluso antes de que el programa pueda construirse. Esto contrasta con los lenguajes de tipado dinámico, en los que los errores de tipado solo aparecen durante el tiempo de ejecución, potencialmente después de que el software se haya desplegado y esté gestionando fondos de usuarios reales.
 
 
-La fuerza del sistema de tipos de Rust se refiere a su expresividad y rigor a la hora de modelar problemas. A diferencia de lenguajes con sistemas de tipos más débiles como C, donde los desarrolladores están limitados a tipos básicos como números y structs, Rust permite un modelado de tipos rico que puede representar conceptos de dominio complejos con precisión. Por ejemplo, se pueden crear tipos que distingan entre diferentes tipos de listas o que obliguen a que ciertas operaciones sólo se realicen sobre tipos de objetos específicos.
+La fuerza del sistema de tipos de Rust se refiere a su expresividad y rigor a la hora de modelar problemas. A diferencia de lenguajes con sistemas de tipos más débiles como C, donde los desarrolladores están limitados a tipos básicos como números y structs, Rust permite un modelado de tipos rico que puede representar conceptos de dominio complejos con precisión. Por ejemplo, se pueden crear tipos que distingan entre diferentes tipos de listas o que obliguen a que ciertas operaciones solo se realicen sobre tipos de objetos específicos.
 
 
 Lo que hace que el sistema de tipos de Rust sea relevante para el desarrollo de Bitcoin es su enfoque de la seguridad de la memoria. El mismo sistema de tipos que modela la lógica de negocio también gestiona la propiedad de la memoria y el control de acceso compartido. Esta doble responsabilidad significa que las clases comunes de vulnerabilidades, como las fugas de memoria, los errores doble-libre y las condiciones de carrera, son eliminadas completamente por el compilador. El sistema de tipos aplica estas garantías de seguridad mediante conceptos como propiedad, préstamo y recuento de referencias, lo que hace extremadamente difícil introducir errores relacionados con la memoria que puedan comprometer la seguridad o la estabilidad.
@@ -1191,13 +1089,13 @@ println!("Fee: {:?}", fee);
 ### Herramientas modernas y compatibilidad multiplataforma
 
 
-El ecosistema de herramientas de Rust proporciona a los desarrolladores herramientas que ayudan a la productividad y a la calidad del código. El propio compilador de Rust está diseñado no sólo para traducir código a formato binario, sino también para servir como herramienta educativa que ayude a los desarrolladores a aprender y mejorar. Cuando se producen errores de compilación, el compilador ofrece explicaciones detalladas de lo que ha fallado y a menudo sugiere soluciones específicas. Este enfoque es especialmente valioso para los desarrolladores que se inician en Rust, ya que el compilador enseña buenas prácticas y ayuda a evitar errores comunes.
+El ecosistema de herramientas de Rust proporciona a los desarrolladores herramientas que ayudan a la productividad y a la calidad del código. El propio compilador de Rust está diseñado no solo para traducir código a formato binario, sino también para servir como herramienta educativa que ayude a los desarrolladores a aprender y mejorar. Cuando se producen errores de compilación, el compilador ofrece explicaciones detalladas de lo que ha fallado y a menudo sugiere soluciones específicas. Este enfoque es especialmente valioso para los desarrolladores que se inician en Rust, ya que el compilador enseña buenas prácticas y ayuda a evitar errores comunes.
 
 
 El lenguaje incluye Cargo, un gestor de paquetes unificado que se ocupa de la gestión de dependencias, la construcción, las pruebas y la generación de documentación. Esta estandarización elimina la fragmentación observada en lenguajes más antiguos, como C++, donde múltiples herramientas competidoras crean incoherencias entre proyectos. Cargo también es compatible con extensiones como rustfmt para el formateo del código y Clippy para el análisis estático, lo que garantiza que el código siga unas pautas de estilo coherentes y detecte posibles problemas antes de que se conviertan en tales.
 
 
-Las capacidades multiplataforma de Rust van más allá de los sistemas operativos tradicionales e incluyen plataformas móviles como Android e iOS, así como WebAssembly para aplicaciones basadas en navegador. Esta compatibilidad multiplataforma es útil para aplicaciones Bitcoin que deben ejecutarse en distintos entornos. Por ejemplo, proyectos como Mutiny Wallet aprovechan la compilación WebAssembly de Rust para crear carteras Lightning que se ejecutan directamente en navegadores web, algo que sería poco práctico sólo con las tecnologías web tradicionales.
+Las capacidades multiplataforma de Rust van más allá de los sistemas operativos tradicionales e incluyen plataformas móviles como Android e iOS, así como WebAssembly para aplicaciones basadas en navegador. Esta compatibilidad multiplataforma es útil para aplicaciones Bitcoin que deben ejecutarse en distintos entornos. Por ejemplo, proyectos como Mutiny Wallet aprovechan la compilación WebAssembly de Rust para crear carteras Lightning que se ejecutan directamente en navegadores web, algo que sería poco práctico solo con las tecnologías web tradicionales.
 
 
 ### Tipos de error y sus consecuencias
@@ -1206,7 +1104,7 @@ Las capacidades multiplataforma de Rust van más allá de los sistemas operativo
 Un tratamiento eficaz de los errores empieza por comprender las distintas categorías de errores que pueden producirse durante la ejecución de un programa. Consideremos una sencilla aplicación de enrutamiento que calcula rutas entre puntos geográficos. Este ejemplo ilustra tres tipos fundamentales de errores que los desarrolladores deben abordar: errores de entrada no válidos, errores de recursos en tiempo de ejecución y errores lógicos.
 
 
-Los errores de entrada no válida se producen cuando una función recibe parámetros que no cumplen sus requisitos. Por ejemplo, si un sistema de coordenadas geográficas utiliza enteros con signo para la longitud, pero recibe un valor negativo cuando sólo son válidos los valores positivos, la función no puede proceder de forma significativa. Estos errores representan una violación del contrato entre quien llama y la función, y la respuesta apropiada suele ser rechazar la entrada y devolver una indicación de error.
+Los errores de entrada no válida se producen cuando una función recibe parámetros que no cumplen sus requisitos. Por ejemplo, si un sistema de coordenadas geográficas utiliza enteros con signo para la longitud, pero recibe un valor negativo cuando solo son válidos los valores positivos, la función no puede proceder de forma significativa. Estos errores representan una violación del contrato entre quien llama y la función, y la respuesta apropiada suele ser rechazar la entrada y devolver una indicación de error.
 
 
 Los errores de recursos en tiempo de ejecución se producen cuando las dependencias externas no están disponibles o son inaccesibles. La lectura de un archivo de mapa puede fallar porque el archivo no existe, la aplicación carece de los permisos adecuados o el dispositivo de almacenamiento no está disponible. Estos errores son externos a la lógica del programa y a menudo requieren correcciones del entorno en lugar de cambios en el código. Sin embargo, las aplicaciones robustas deben anticipar y manejar estos escenarios con elegancia.
@@ -1218,7 +1116,7 @@ Los errores lógicos representan fallos en la implementación del programa o mal
 ### Estrategias para una gestión sólida de los errores
 
 
-Construir software fiable requiere estrategias proactivas que minimicen las oportunidades de error y gestionen con elegancia los errores inevitables. La primera estrategia consiste en limitar los posibles errores mediante un cuidadoso diseño de tipos. Eligiendo tipos que sólo puedan representar valores válidos, los desarrolladores pueden eliminar clases enteras de errores de entrada no válidos. Por ejemplo, el uso de enteros sin signo para valores que no pueden ser negativos evita errores de valor negativo en tiempo de compilación.
+Construir software fiable requiere estrategias proactivas que minimicen las oportunidades de error y gestionen con elegancia los errores inevitables. La primera estrategia consiste en limitar los posibles errores mediante un cuidadoso diseño de tipos. Eligiendo tipos que solo puedan representar valores válidos, los desarrolladores pueden eliminar clases enteras de errores de entrada no válidos. Por ejemplo, el uso de enteros sin signo para valores que no pueden ser negativos evita errores de valor negativo en tiempo de compilación.
 
 
 Las aserciones proporcionan otra capa de protección al comprobar explícitamente que las condiciones esperadas se cumplen durante la ejecución del programa. Estas comprobaciones tienen múltiples propósitos: detectan errores durante las pruebas, hacen que los programas fallen antes de tiempo cuando surgen problemas (lo que facilita la depuración) y sirven como documentación ejecutable que describe las suposiciones del programador. Cuando una aserción falla, indica que se ha violado una suposición fundamental sobre el estado del programa, lo que suele apuntar a un error lógico que hay que investigar.
@@ -1247,7 +1145,7 @@ Rust ofrece un enfoque integral de la gestión de errores que equilibra la segur
 El mecanismo de pánico de Rust representa la forma más directa de manejar errores irrecuperables. Cuando se llama a la macro `¡pánico!`, el programa detiene inmediatamente la ejecución, abortando o desenrollando dependiendo de su configuración. La macro panic acepta un mensaje de cadena que describe lo que ha ido mal, proporcionando contexto para la depuración. Además, métodos como `unwrap()` y `expect()` en los tipos Result y Option sirven como atajos para entrar en pánico cuando estos tipos contienen valores de error o None respectivamente. El método `expect()` permite proporcionar un mensaje personalizado, haciéndolo ligeramente más informativo que `unwrap()` cuando se depuran fallos.
 
 
-A pesar de su simplicidad, el pánico debe utilizarse con criterio en el código de producción. Hay varios escenarios en los que panic no sólo es aceptable, sino recomendable. Cuando se escriben ejemplos o prototipos, panic proporciona una forma limpia de centrarse en la funcionalidad principal sin saturar el código con un manejo exhaustivo de errores. En entornos de pruebas, panic es a menudo el comportamiento deseado cuando las aserciones fallan, ya que indica claramente que ha ocurrido algo inesperado. La comunidad Rust también reconoce situaciones en las que los desarrolladores tienen más conocimientos que el compilador, como cuando se analizan direcciones IP codificadas que se sabe que son válidas.
+A pesar de su simplicidad, el pánico debe utilizarse con criterio en el código de producción. Hay varios escenarios en los que panic no solo es aceptable, sino recomendable. Cuando se escriben ejemplos o prototipos, panic proporciona una forma limpia de centrarse en la funcionalidad principal sin saturar el código con un manejo exhaustivo de errores. En entornos de pruebas, panic es a menudo el comportamiento deseado cuando las aserciones fallan, ya que indica claramente que ha ocurrido algo inesperado. La comunidad Rust también reconoce situaciones en las que los desarrolladores tienen más conocimientos que el compilador, como cuando se analizan direcciones IP codificadas que se sabe que son válidas.
 
 
 Sin embargo, la aparente seguridad de los pánicos "verificados por el compilador" puede ser engañosa. Considera un escenario donde codificas una dirección IP y usas `expect()` porque sabes que es válida. Con el tiempo, a medida que el código evoluciona, ese valor codificado puede ser refactorizado en una constante, y más tarde esa constante puede ser cambiada a algo como "localhost" para una mejor experiencia de usuario. De repente, tu pánico "seguro" se convierte en un fallo en tiempo de ejecución. Esta evolución demuestra por qué generalmente es mejor evitar los pánicos en el código de producción y en su lugar devolver tipos de error apropiados que puedan ser manejados con gracia.
@@ -1537,7 +1435,7 @@ La integración de datos Blockchain representa una de las capas de abstracción 
 Para entornos con recursos limitados, LDK ofrece un enfoque basado en filtrado que reduce los requisitos de ancho de banda y almacenamiento. En este modo, LDK comunica sus intereses de supervisión a través de interfaces abstractas, solicitando la vigilancia de ID de transacciones específicas, UTXO o patrones de secuencias de comandos. La capa de aplicación puede entonces implementar esta vigilancia utilizando servidores Electrum, exploradores de bloques u otras fuentes de datos ligeras de blockchain. Este enfoque permite que los monederos móviles y las aplicaciones web mantengan la funcionalidad Lightning sin requerir una sincronización completa de la blockchain.
 
 
-La capa de persistencia en LDK sigue los mismos principios de abstracción, proporcionando a las aplicaciones blobs de datos binarios que deben ser almacenados y recuperados de forma fiable. LDK maneja toda la complejidad de serializar y deserializar estados de canales de rayos, datos de chismes de red y otra información crítica. Las aplicaciones sólo tienen que implementar mecanismos de almacenamiento fiables, ya sea mediante sistemas de archivos locales, servicios de almacenamiento en la nube o sistemas de bases de datos especializados. Este diseño garantiza que la gestión de estados de Lightning siga siendo sólida, al tiempo que permite a las aplicaciones elegir soluciones de almacenamiento que se ajusten a sus requisitos operativos y modelos de seguridad.
+La capa de persistencia en LDK sigue los mismos principios de abstracción, proporcionando a las aplicaciones blobs de datos binarios que deben ser almacenados y recuperados de forma fiable. LDK maneja toda la complejidad de serializar y deserializar estados de canales de rayos, datos de chismes de red y otra información crítica. Las aplicaciones solo tienen que implementar mecanismos de almacenamiento fiables, ya sea mediante sistemas de archivos locales, servicios de almacenamiento en la nube o sistemas de bases de datos especializados. Este diseño garantiza que la gestión de estados de Lightning siga siendo sólida, al tiempo que permite a las aplicaciones elegir soluciones de almacenamiento que se ajusten a sus requisitos operativos y modelos de seguridad.
 
 
 ### Funciones avanzadas y modelos de integración
@@ -1595,7 +1493,7 @@ El SDK también admite la interoperabilidad. Múltiples aplicaciones pueden cone
 ### Proveedores de servicios relámpago y liquidez justo a tiempo
 
 
-Un componente fundamental del SDK Breez es su integración con los proveedores de servicios Lightning (LSP), que funcionan de forma análoga a los proveedores de servicios de Internet pero para la red Lightning. Los LSP resuelven uno de los retos más complejos de Lightning: la gestión de la liquidez. En los canales Lightning, los fondos sólo pueden fluir en las direcciones donde existe liquidez, de forma similar a las cuentas de un ábaco que sólo pueden moverse donde hay espacio.
+Un componente fundamental del SDK Breez es su integración con los proveedores de servicios Lightning (LSP), que funcionan de forma análoga a los proveedores de servicios de Internet pero para la red Lightning. Los LSP resuelven uno de los retos más complejos de Lightning: la gestión de la liquidez. En los canales Lightning, los fondos solo pueden fluir en las direcciones donde existe liquidez, de forma similar a las cuentas de un ábaco que solo pueden moverse donde hay espacio.
 
 
 El SDK implementa canales "justo a tiempo" a través de los PSL, gestionando automáticamente la liquidez sin intervención del usuario. Cuando un usuario necesita recibir un pago pero carece de suficiente liquidez entrante, el PSL abre automáticamente un nuevo canal Lightning en el momento en que llega el pago. Este proceso se produce sin problemas en segundo plano, garantizando que los usuarios siempre puedan recibir pagos sin entender la mecánica subyacente del canal.

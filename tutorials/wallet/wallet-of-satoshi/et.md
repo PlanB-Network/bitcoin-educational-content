@@ -4,6 +4,12 @@ description: Lihtsaim hooldusvahendi Wallet alustamiseks
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Tähelepanu: alates 2026. aasta algusest ei ole Wallet of Satoshi hooldusrežiimis (nagu selles juhendis kirjeldatud) enam Euroopa Liidus kättesaadav. Kui elate selles piirkonnas ja soovite seda tööriista edasi kasutada, peate kasutama VPN-i, mis asub väljaspool EL-i. Teine võimalus on kasutada Wallet of Satoshi isehooldusrežiimis. Spetsiaalne juhend avaldatakse peagi Plan ₿ Academy lehel.*
+
+---
+
 _Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

@@ -32,14 +32,14 @@ BTC302へようこそ！
 
 
 
-2009年以来、ビットコインは絶え間ない成長を遂げてきた。この成長は、新たなビットコイン改善提案（BIP）、ネットワークの拡張性を高めるための追加レイヤーの創設（Lightning Networkなど）、複数の企業や新興企業の発展によって具体化されてきた。
+2009年以来、ビットコインは絶え間ない成長を遂げてきた。この成長は、新たなビットコイン改善提案（BIP）、ネットワークの拡張性を高めるための追加レイヤーの創設（ライトニング・ネットワークなど）、複数の企業や新興企業の発展によって具体化されてきた。
 
 
 
 その発展はオンチェーンでも顕著で、取引件数は着実に増加している。
 
 
-例えば、2018年1月1日から2024年1月1日の間に、ビットコインのメインであるレイヤーの取引件数は【66.2％増加】したと推定される(https://dune.com/queries/3375917/5663935)。一方、2021年8月から2023年8月にかけて、Lightning Networkの公開取引件数は【1,212%増加】している(https://river.com/learn/files/river-lightning-report-2023.pdf)。
+例えば、2018年1月1日から2024年1月1日の間に、ビットコインのメインであるレイヤーの取引件数は[66.2％増加](https://dune.com/queries/3375917/5663935)したと推定される。一方、2021年8月から2023年8月にかけて、ライトニング・ネットワークの公開取引件数は[1,212%増加](https://river.com/learn/files/river-lightning-report-2023.pdf)している。
 
 
 
@@ -48,7 +48,7 @@ BTC302へようこそ！
 
 
 
-- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、【ビットコインを使うことへの世界中の人々の関心の高まり】(https://profedustream.substack.com/p/21-raisons-dutiliser-ビットコイン)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
+- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、[ビットコインを使うことへの世界中の人々の関心の高まり](https://profedustream.substack.com/p/21-raisons-dutiliser-ビットコイン)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
 - 金融政策の固定化によって、長期的に価格が上昇し、価値の保存と長期投資としての地位を確立している；
 - 特に2017年から2018年、2020年から2021年にかけて、投機的な暗号通貨市場が連続的に成長する；
 - 主流メディアで存在感を増すビットコイン。
@@ -241,7 +241,7 @@ BTC302へようこそ！
 
 
 
-これらの可能性の多くについては、本コースのパート6/8「【プロジェクトとイニシアチブの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」で詳しく取り上げる。
+これらの可能性の多くについては、本コースのパート6/8「[プロジェクトとイニシアチブの例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」で詳しく取り上げる。
 
 
 
@@ -353,7 +353,7 @@ BTC302へようこそ！
 
 
 
-しかし、後の【プロジェクトや取り組みの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)で紹介するように、**ミートアップは様々な方法で、様々な目的を持って構築することができる**。
+しかし、後の[プロジェクトや取り組みの例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)で紹介するように、**ミートアップは様々な方法で、様々な目的を持って構築することができる**。
 
 
 
@@ -1617,7 +1617,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
     - 日時と場所をソーシャルネットワークやその他のコミュニケーションチャンネルで共有する。必要であれば、登録リンクも掲載しましょう。
-    - 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「【ビットコインコミュニティのアイデンティティをデザインする】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」を参照）。
+    - 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「[ビットコインコミュニティのアイデンティティをデザインする](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」を参照）。
     - TelegramとTwitterで告知をピン留めし、Discordで"@everyone "を使って言及することで、知名度を最大化する。
     - イベントの7～10日前に告知を行い、参加者が前もって計画を立てられるようにする。
 
@@ -1824,11 +1824,11 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 | Month | Theme | Video | Editable Resource |
 | -------- | -------- | -------- | --- |
-| September     | Chapter 1: What is ビットコイン?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| October & November| Chapter 2: Understanding ビットコイン Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
 | December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
 | January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| February     | 	Chapter 5: Running a ビットコイン and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
 | March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
 | April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
 | June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
@@ -1994,14 +1994,14 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 - 加盟店の皆様、ビットコインを決済手段として導入される場合は、以下の点にご注意ください；
-- ビットコイン/Lightningの利用方法と支払い方法を説明するチラシを手にするイベント参加者；
+- ビットコイン/ライトニングの利用方法と支払い方法を説明するチラシを手にするイベント参加者；
 - ビットコインの主な利点を強調したチラシを手に、街で、職場で、あるいは家族の集まりで出会った初心者たち。
 
 
 また、あなたのコミュニティやミートアップに特化したチラシをデザインし、活動内容、目標、ソーシャルメディアへのリンク、コミュニケーション・チャンネル、今後のイベントなどを紹介することもできる。
 
 
-いくつかのチラシは、planB.networkの[ビットコイン Teaching Toolbox](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
+いくつかのチラシは、planB.networkの[Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
 
 
 一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
@@ -2048,7 +2048,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 - フランス語に翻訳されたビットコインホワイトペーパー。
 
 
-こちらは【フランスのビットコイナーたちの間で共有されている小冊子】(https://profedustream.substack.com/p/ビットコイン-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
+こちらは[フランスのビットコイナーたちの間で共有されている小冊子](https://profedustream.substack.com/p/ビットコイン-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
 
 
 

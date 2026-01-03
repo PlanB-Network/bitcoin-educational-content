@@ -173,10 +173,23 @@ Comprendre le processus du minage, c'est assez simple. Cela tient en 3 notions q
 
 ### La fonction de hachage
 
-Une fonction de hachage est un outil qui prend un message en entrée et produit une sortie de taille fixe, qu'on appelle "empreinte" ou "hash". La fonction de hachage est intéressante dans des systèmes informatiques, car elle dispose de certaines propriétés :
+Une fonction de hachage est un outil qui prend un message en entrée et produit une sortie de taille fixe, qu'on appelle "empreinte" ou "hash".
+
+010
+
+La fonction de hachage est intéressante dans des systèmes informatiques, car elle dispose de certaines propriétés :
+
 * Si vous changez un seul bit de l’entrée, l’empreinte obtenue en sortie change totalement et de manière imprévisible ;
+
+011
+
 * Il est impossible de remonter de la sortie vers l’entrée : la fonction est irréversible ;
+
+012
+
 * Il est impossible de trouver deux messages différents qui donnent exactement la même empreinte.
+
+013
 
 La fonction de hachage utilisée dans Bitcoin pour le minage est `SHA256`, appliquée deux fois de suite. On parle de double SHA256, noté `SHA256d`. C’est cette double application qui produit l’empreinte du bloc.
 
@@ -185,6 +198,8 @@ hash = SHA256(SHA256(message))
 ```
 
 Dans notre cas, le `message` correspond en fait à l’entête du bloc, que vous avez vu au chapitre précédent. Pour rappel, l’entête est une petite structure qui résume tout ce qu'il y a dans le bloc.
+
+014
 
 ### La preuve de travail : trouver une empreinte inférieure à une cible
 
@@ -254,6 +269,8 @@ C’est l’objectif de Hashcash, proposé par Adam Back en 1997, que l'on consi
 
 Hashcash ne cherchait pas à créer de la monnaie. Il cherchait à imposer un coût marginal à une action numérique facilement automatisable.
 
+008
+
 #### Bit Gold
 
 Nick Szabo, à la fin des années 1990 et au début des années 2000, explore l’idée d’une rareté numérique basée sur la preuve de travail. Son projet conceptuel, appelé Bit Gold, imagine la création d’unités de valeur en résolvant une preuve de travail coûteuse, puis en enregistrant ces preuves dans un registre afin d’établir une forme de propriété.
@@ -263,6 +280,8 @@ Bit Gold n’a pas abouti à un système déployé comme Bitcoin, mais il contie
 #### RPOW
 
 Hal Finney propose en 2004 RPOW (*Reusable Proofs of Work*). L’idée est de produire des preuves de travail qui pourraient ensuite être échangées, plutôt que d’être simplement consommées. RPOW visait à créer des jetons numériques basés sur la preuve de travail, avec un système permettant de vérifier et de transférer ces jetons sans les dupliquer. RPOW, là encore, ne résout pas de façon satisfaisante le problème d’un registre totalement décentralisé comme Bitcoin le fera plus tard, mais il reste l'un des grands précurseurs de Bitcoin.
+
+009
 
 Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût, créer de la rareté, ou construire des objets échangeables. Bitcoin reprend ce mécanisme, mais lui donne un rôle central et collectif : la preuve de travail ne sert pas seulement à créer quelque chose, elle sert à départager qui a le droit d’écrire la prochaine page du registre (le prochain bloc), et à rendre ce registre coûteux à falsifier.
 

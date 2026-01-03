@@ -585,7 +585,7 @@ YouTubeのサムネイルやバナーについては、それらのテンプレ�
 
 
 
-- ミートアップ告知ポスター**（ソーシャルメディアおよびA4/A3印刷用）**：[リンク](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **ミートアップ告知ポスター** （ソーシャルメディアおよびA4/A3印刷用）：[リンク](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/ja/010.webp)
@@ -594,19 +594,19 @@ YouTubeのサムネイルやバナーについては、それらのテンプレ�
 
 
 
-- イベントポスター（ソーシャルメディアおよびA4/A3印刷用）：[リンク](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **イベントポスター**（ソーシャルメディアおよびA4/A3印刷用）：[リンク](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- ソーシャルメディアバナー[リンク](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **ソーシャルメディアバナー**：[リンク](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- コンテストのお知らせ[リンク](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **コンテストのお知らせ**：[リンク](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -616,19 +616,19 @@ YouTubeのサムネイルやバナーについては、それらのテンプレ�
 
 
 
-- 私たちのライブラリーのブランド・ガイドライン：[リンク](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- 私たちライブラリーの**ブランド・ガイドライン**：[リンク](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- **パワーポイント・プレゼンテーション** "Chapter 2 - Understanding ビットコイン transactions", by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **パワーポイント・プレゼンテーション** "第2章：ビットコインのトランザクションを理解する", by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- **チラシ** "21 reasons to use ビットコイン", written by @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **チラシ** "21 reasons to use bitcoin", written by @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -650,7 +650,7 @@ YouTubeのサムネイルやバナーについては、それらのテンプレ�
 
 
 
-| Platform | Logo | Banner | Poster / Image
+| プラットフォーム | ロゴ | バナー | ポスター / 画像
 | -------- | -------- | -------- | -------- |
 | Telegram     | 512 x 512     | N/A     | N/A     |
 | Signal     | N/A     | N/A     | N/A     |
@@ -1342,7 +1342,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 
-ツイッターでは、[@ビットコイン](https://twitter.com/Bitcoin)や[@planb_network](https://twitter.com/planb_network)、[@FBCEglobal](https://twitter.com/FBCEglobal)など、ビットコインをグローバルに推進する主要アカウントをフォローすることから始めよう。また、2009年1月11日の[@halfin](https://twitter.com/halfin)の有名な「ビットコインを走る」というツイートをリツイートすることもできる。さらに重要なのは、**自分の国のビットコインコミュニティやミートアップのアカウントをフォローすることです**。
+ツイッターでは、[@Bitcoin](https://twitter.com/Bitcoin)や[@planb_network](https://twitter.com/planb_network)、[@FBCEglobal](https://twitter.com/FBCEglobal)など、ビットコインをグローバルに推進する主要アカウントをフォローすることから始めよう。また、2009年1月11日の[@halfin](https://twitter.com/halfin)の有名な「ビットコインを走る」というツイートをリツイートすることもできる。さらに重要なのは、**自分の国のビットコインコミュニティやミートアップのアカウントをフォローすることです**。
 
 
 これにより、**互いにフォローし合い、タグ付けし合い、集団的な知名度を高める**機会が生まれる。フランスのビットコインコミュニティ、イタリアの「Satoshi Spritz」イニシアティブ、ドイツの「Einundzwanzig」グループの間では、すでに一般的に行われている。
@@ -1607,19 +1607,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 数週間以内にミートアップを企画する予定ですか？
 
-準備に役立つチェックリストはこちら：
-
-1/ **会場の確認**
-
-イベントを開催する場所に連絡し、出席予定者数分の場所を予約する。
-
-2/ **イベントの告知**：
-
-
-    - 日時と場所をソーシャルネットワークやその他のコミュニケーションチャンネルで共有する。必要であれば、登録リンクも掲載しましょう。
-    - 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「[ビットコインコミュニティのアイデンティティをデザインする](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」を参照）。
-    - TelegramとTwitterで告知をピン留めし、Discordで"@everyone "を使って言及することで、知名度を最大化する。
-    - イベントの7～10日前に告知を行い、参加者が前もって計画を立てられるようにする。
+準備に役立つチェックリストはこちら：1/ **会場の確認**：イベントを開催する場所に連絡し、出席予定者数分の場所を予約する。2/ **イベントの告知**：- 日時と場所をソーシャルネットワークやその他のコミュニケーションチャンネルで共有する。必要であれば、登録リンクも掲載しましょう。- 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「[ビットコインコミュニティのアイデンティティをデザインする](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」を参照）。- TelegramとTwitterで告知をピン留めし、Discordで"@everyone "を使って言及することで、知名度を最大化する。- イベントの7～10日前に告知を行い、参加者が前もって計画を立てられるようにする。
 
 
 
@@ -1818,22 +1806,22 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 以下は、2023-2024年のフランスのミートアップの進行状況です。それぞれのテーマについて、オープンソースのプレゼンテーションとビデオが用意されているので、自分のイベントで取り上げられるトピックのアイデアを得ることができるかもしれない。
 
 
-[ビットコインティーチング・ツールボックス](https://planb.academy/fr/resources/bet)にも編集可能な教材があります！
+[教育用ツールキット](https://planb.academy/fr/resources/bet)にも編集可能な教材があります！
 
 
 
-| Month | Theme | Video | Editable Resource |
-| -------- | -------- | -------- | --- |
-| September     | Chapter 1: What is Bitcoin?     | [	YouTube link](https://www.youtube.com/watch?v=CSjuBqrl4t8)     | [Editable PowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
-| October & November| Chapter 2: Understanding Bitcoin Transactions     | [YouTube link](https://www.youtube.com/watch?v=inFnR-3NsdM)     | [Editable PowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
-| December     | Chapter 3: Understanding the Lightning Network     | [YouTube link](https://www.youtube.com/watch?v=hHz-ALx8D9w)     | [Editable PowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
-| January     | Chapter 4: What is Mining?     | [YouTube link](https://www.youtube.com/watch?v=QyHZ3CVI_OI)     | [Editable PowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
-| February     | 	Chapter 5: Running a Bitcoin and Lightning Node    | [YouTube link](https://www.youtube.com/watch?v=RRYK-usg-OY)     | [Editable PowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
-| March     | 	Chapter 6: Using the Lightning Network in Daily Life    | [YouTube link](https://www.youtube.com/watch?v=o2BS4xjei8M)    | [Editable PowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
-| April & May    | Chapter 7: Securing Your Bitcoins      | [YouTube link](https://www.youtube.com/watch?v=fHExPbhM0Hg)    | [Editable PowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
-| June     | 	Chapter 8: What is Multi-Sig?     | [YouTube link](https://www.youtube.com/watch?v=Me5489mpoxA)     | [Editable PowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
-| July     | 	Chapter 9: Understanding the Bull Run and How to Prepare    | [YouTube link](https://www.youtube.com/watch?v=7RA-gnCJWyM)     | [Editable PowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
-| August     | Chapter 10: The Taxman is Never Far Away   | [YouTube link](https://www.youtube.com/watch?v=oY4NwonGDm0)     | [Editable PowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
+| 月   | テーマ                     | ビデオ                                                     | 編集可能なリソース                                                                       |
+| ------- | ------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 9月      | 第1章：ビットコインとは何か？           | [YouTubeリンク](https://www.youtube.com/watch?v=CSjuBqrl4t8) | [編集可能なPowerPoint](https://www.canva.com/design/DAFu0d5Jd7M/9gAWDAOSS6LDkWENuZjYgw/edit) |
+| 10月・11月 | 第2章：ビットコインのトランザクションを理解する  | [YouTubeリンク](https://www.youtube.com/watch?v=inFnR-3NsdM) | [編集可能なPowerPoint](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit) |
+| 12月     | 第3章：ライトニングネットワークを理解する     | [YouTubeリンク](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [編集可能なPowerPoint](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
+| 1月      | 第4章：マイニングとは何か？            | [YouTubeリンク](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [編集可能なPowerPoint](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| 2月      | 第5章：ビットコインおよびライトニングノードの運用 | [YouTubeリンク](https://www.youtube.com/watch?v=RRYK-usg-OY) | [編集可能なPowerPoint](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| 3月      | 第6章：日常生活でライトニングネットワークを使う  | [YouTubeリンク](https://www.youtube.com/watch?v=o2BS4xjei8M) | [編集可能なPowerPoint](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
+| 4月・5月   | 第7章：ビットコインを安全に保管する        | [YouTubeリンク](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [編集可能なPowerPoint](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
+| 6月      | 第8章：マルチシグとは何か？            | [YouTubeリンク](https://www.youtube.com/watch?v=Me5489mpoxA) | [編集可能なPowerPoint](https://www.canva.com/design/DAGLMtQT6sg/rYIxr4ldUJ0jTelNf-Pj8Q/edit) |
+| 7月      | 第9章：強気相場を理解し、どのように備えるか    | [YouTubeリンク](https://www.youtube.com/watch?v=7RA-gnCJWyM) | [編集可能なPowerPoint](https://www.canva.com/design/DAGJQkiZ_YA/9lUluP9RZ0eeA_e61mk9Hw/edit) |
+| 8月      | 第10章：税務署は決して遠くにいない        | [YouTubeリンク](https://www.youtube.com/watch?v=oY4NwonGDm0) | [編集可能なPowerPoint](https://www.canva.com/design/DAGQhx7Yc_c/7mRhb_vlgnhSgxd1FtjK8w/edit) |
 
 第2章と第7章は、参加者に負担をかけないように、2つの短いプレゼンテーションに分けることができる。しかし、これらを1つのセッションで行うことで、近隣のグループとの合同ミートアップ、クイズ、ワークショップなどの特別な活動のためのスペースをカレンダーに空けることができる。
 
@@ -2001,7 +1989,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 また、あなたのコミュニティやミートアップに特化したチラシをデザインし、活動内容、目標、ソーシャルメディアへのリンク、コミュニケーション・チャンネル、今後のイベントなどを紹介することもできる。
 
 
-いくつかのチラシは、planB.networkの[Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
+いくつかのチラシは、planB.networkの[教育用ツールキット](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
 
 
 一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
@@ -2066,13 +2054,13 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 
-ほぼすべてのビットコイナーは、おそらく[Rémi Forte](https://twitter.com/forteremi)の魅力的なシリーズ中編「Le mystère Satoshi, aux origines du ビットコイン」（Satoshiの謎：ビットコインの起源）を見たことがあるだろう。
+ほぼすべてのビットコイナーは、おそらく[Rémi Forte](https://twitter.com/forteremi)の魅力的なシリーズ中編「Le mystère Satoshi, aux origines du Bitcoin」（サトシの謎：ビットコインの起源）を見たことがあるだろう。
 
 
 2021年にリリースされ、[YouTubeで数百万回再生されている](https://www.youtube.com/watch?v=0ETcLj5jBy4)。
 
 
-ひとつのアイデアとして、地域のために『Satoshiミステリー』の上映会を企画し、おそらく毎月の臨時イベントとして開催することもできるだろう。
+ひとつのアイデアとして、地域のために『サトシの謎』の上映会を企画し、おそらく毎月の臨時イベントとして開催することもできるだろう。
 
 
 注意：アルテ・フランスは一般上映が許可されていることを確認しているが、合法的に上映を行うには映写権を支払う必要がある。2023年、この費用は上映1回につき約250ユーロ、1年間に少なくとも5つのミートアップが上映した場合は1回につき120ユーロだった。
@@ -2084,7 +2072,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 もちろん、他の予想も可能だ。
 
 
-例えばフランスでは、**監督である[アラナ・メディアヴィラ](https://twitter.com/AlanaMediavilla)が、2024年に公開予定の映画[映画『汚れたCoin』](https://www.dirtycointhemovie.com/)の映像を含む彼女のドキュメンタリー『Stranded』**を試写する権利を地元のミートアップに与えた。
+例えばフランスでは、**監督である[アラナ・メディアヴィラ](https://twitter.com/AlanaMediavilla)が、2024年に公開予定の映画[映画『Dirty Coin』](https://www.dirtycointhemovie.com/)の映像を含む彼女のドキュメンタリー『Stranded』**を試写する権利を地元のミートアップに与えた。
 
 
 何人かのビットコイナーは、率先して『Stranded』をフランス語に完全翻訳し、字幕をつけ、全国のミートアップで共有した。2024年3月4日の週には、全国で開催された12のミートアップで同時に上映された。
@@ -2215,9 +2203,9 @@ WordPressはまた、コーディングのスキルを必要とせずにサイ�
 人気のあるプラットフォームは以下の通り：
 
 
-- [**YouTube**](https://www.youtube.com/)。広く使われているが、検閲には強くない。
-- [**Odyssee**](https://odysee.com/)はあまり人気がないが、ピアツーピア技術によって分散化されている。
-- [**peertube**](https://joinpeertube.org/fr_FR)では、独自のビデオプラットフォームをホストすることができるが、セットアップはより複雑だ。
+- [**YouTube**](https://www.youtube.com/)：広く使われているが、検閲には強くない。
+- [**Odyssee**](https://odysee.com/)：はあまり人気がないが、ピアツーピア技術によって分散化されている。
+- [**peertube**](https://joinpeertube.org/fr_FR)：では、独自のビデオプラットフォームをホストすることができるが、セットアップはより複雑だ。
 
 
 どちらを選ぶにしても、あなたのチャンネルを魅力的にするために、プラットフォーム特有のビジュアルをデザインしましょう。[パート2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef)で紹介したCanvaは、カスタマイズ可能な既成のデザインを備えた "YouTube Thumbnail "カテゴリを提供しています。
@@ -2253,11 +2241,11 @@ WordPressはまた、コーディングのスキルを必要とせずにサイ�
 人気のポッドキャスト・プラットフォームは以下の通り：
 
 
-- [**泉**](https://www.fountain.fm/)、ライトニングの寄付に対応。
-- [**サウンドクラウド**](https://soundcloud.com/)；
-- [**ディーザー**](https://www.deezer.com/fr/)；
+- [**Fountain**](https://www.fountain.fm/)、ライトニングの寄付に対応。
+- [**Soundcloud**](https://soundcloud.com/)；
+- [**Deezer**](https://www.deezer.com/fr/)；
 - [**Spotify**](https://open.spotify.com/)；
-- [Google podcast](https://podcasts.google.com/)。
+- [**Google podcast**](https://podcasts.google.com/)。
 
 
 各プラットフォームにはそれぞれのオーディエンスがいるので、複数のプラットフォームで存在感を示すことは、あなたのリーチを広げることになる。 **[ポッドキャスターのためのSpotify](https://podcasters.spotify.com/)を使えば、一度ポッドキャストをアップロードすれば、generateでRSSフィードを他のプラットフォーム**に送ることができるので、これは簡単です。
@@ -2306,7 +2294,7 @@ Association Bitcoin Lilleが使用しているバッジのテンプレートは�
 
 
 
-## 死亡時の引継ぎ計画
+## 万が一の際の引き継ぎ計画（死亡時）
 
 
 <chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
@@ -2428,46 +2416,16 @@ Addressのデリケートな話題、ビットコインのコミュニティの�
 地元企業をオンボーディングすることは、あなたの街のビットコインエコシステムを成長させる最良の方法のひとつです。重要なのは、ステップ・バイ・ステップで進めることだ：
 
 
-1/ **買い物のたびにビットコインで支払うよう頼む**。
-
-たいていの場合は「ノー」と言われ、戸惑ったり、少し批判的な目で見られたりするかもしれないが、ビットコインが「普通の人」が使えるものであり、支払い方法として普及しているという考えを植え付けることができる。何人かの友人とチームを組んで、同じ店に違う日に立ち寄り、その都度ビットコインでの支払いをお願いすることもできる。そのうち、店主の好奇心に火がつくだろう。
+1/ **買い物のたびにビットコインで支払うよう頼む**。たいていの場合は「ノー」と言われ、戸惑ったり、少し批判的な目で見られたりするかもしれないが、ビットコインが「普通の人」が使えるものであり、支払い方法として普及しているという考えを植え付けることができる。何人かの友人とチームを組んで、同じ店に違う日に立ち寄り、その都度ビットコインでの支払いをお願いすることもできる。そのうち、店主の好奇心に火がつくだろう。
 
 
-2/ **シンプルで明確な説明をする**。
-
-ビットコインとは何かと聞かれたら、専門用語を使わずに簡潔に答えよう。例えば
-
-*「ビットコインは、銀行によって管理されず、仲介者なしで機能し、検閲されず、インフレの影響を受けず、従来の銀行よりも手数料が低いお金である」*。
-
-そして、「ビットコインを使う21の理由」や「あなたのビジネスでビットコインを受け入れる10の理由」のようなチラシに、あなたの連絡先やミーティングの詳細を添えて渡します。こうすることで、デモの準備ができたときに、あなたの居場所を知ってもらうことができます。
+2/ **シンプルで明確な説明をする**。ビットコインとは何かと聞かれたら、専門用語を使わずに簡潔に答えよう。例えば「ビットコインは、銀行によって管理されず、仲介者なしで機能し、検閲されず、インフレの影響を受けず、従来の銀行よりも手数料が低いお金である」。そして、「ビットコインを使う21の理由」や「あなたのビジネスでビットコインを受け入れる10の理由」のようなチラシに、あなたの連絡先やミーティングの詳細を添えて渡します。こうすることで、デモの準備ができたときに、あなたの居場所を知ってもらうことができます。
 
 
-3/ **デモンストレーションの手配**
-
-彼らが興味を示したら、支払いソリューションを紹介する時間を設定する。
-
-お勧めは**[Swiss ビットコイン Pay](https://swiss-Bitcoin-pay.ch/)**です：
+3/ **デモンストレーションの手配**彼らが興味を示したら、支払いソリューションを紹介する時間を設定する。お勧めは**[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**です：- マーチャントが毎日BTCをフィアットに自動的に変換し、サプライヤーに支払えるようにする。- 希望すれば、BTCでパーセンテージを維持することもできる。- 会計士用にエクスポート可能な会計レポートを作成。- 管理者用のシンプルなダッシュボードがある。- Interfaceは、従業員がレジに触れることなく、直感的に支払いを受け付けられる。- 従来の決済ネットワークが課す2～3％の手数料よりも安い。
 
 
-    - マーチャントが毎日BTCをフィアットに自動的に変換し、サプライヤーに支払えるようにする。
-    - 希望すれば、BTCでパーセンテージを維持することもできる。
-    - 会計士用にエクスポート可能な会計レポートを作成。
-    - 管理者用のシンプルなダッシュボードがある。
-    - Interfaceは、従業員がレジに触れることなく、直感的に支払いを受け付けられる。
-    - 従来の決済ネットワークが課す2～3％の手数料よりも安い。
-
-
-4/ **ビットコイン**の受け入れを開始したら、彼らをサポートすること。
-
-乗船後だ：
-
-
-    - 定期的に訪れて購入する。
-    - すべてが順調に進んでいるかどうかを確認する。
-    - 必要であれば、連絡先を再共有する。
-    - 彼らをミーティングに招待しよう。
-    - [btcmap.orgマップ](https://btcmap.org/)に追加し、[Swiss ビットコイン Pay](https://x.com/swissbitcoinpay)にTwitterで知らせて知名度を上げましょう。
-    - その場所でワークショップやミートアップを開催することを検討する。
+4/ **ビットコイン**の受け入れを開始したら、彼らをサポートすること。乗船後だ：- 定期的に訪れて購入する。- すべてが順調に進んでいるかどうかを確認する。- 必要であれば、連絡先を再共有する。- 彼らをミーティングに招待しよう。- [btcmap.org](https://btcmap.org/)マップに追加し、[Swiss Bitcoin Pay](https://x.com/swissbitcoinpay)にTwitterで知らせて知名度を上げましょう。- その場所でワークショップやミートアップを開催することを検討する。
 
 
 
@@ -2475,9 +2433,7 @@ Addressのデリケートな話題、ビットコインのコミュニティの�
 
 
 
-5/ **地元商店を結ぶ**。
-
-ビットコインにふさわしい企業がいくつか決まったら、加盟店専用のTelegramグループを作ることを提案しよう。これならできる：
+5/ **地元商店を結ぶ**。ビットコインにふさわしい企業がいくつか決まったら、加盟店専用のTelegramグループを作ることを提案しよう。これならできる：
 
 
 - 彼らに経験を共有させ、新しいビジネスに乗り込ませる。
@@ -2485,7 +2441,7 @@ Addressのデリケートな話題、ビットコインのコミュニティの�
 - 地元のビットコインネットワークを強化する。
 
 
-聞き込み調査は長期戦である。忍耐と粘り強さ、そして戦略が必要だ。しかし、もしあなたのコミュニティが準備できていれば、オランダの[オランダのアーネム](https://www.arnhembitcoinstad.nl/)のように、真のビットコイン循環型経済の基礎を築き始めることができるだろう。
+聞き込み調査は長期戦である。忍耐と粘り強さ、そして戦略が必要だ。しかし、もしあなたのコミュニティが準備できていれば、オランダの[Arnhem](https://www.arnhembitcoinstad.nl/)のように、真のビットコイン循環型経済の基礎を築き始めることができるだろう。
 
 
 
@@ -2580,7 +2536,7 @@ Addressのデリケートな話題、ビットコインのコミュニティの�
 
 第二に、チャンネルに参加する人が増えるということは、ボットや詐欺の数が増えるということであり、その分モデレーションも増えるということです。メッセージをモデレートする際に参照できる明確なルールセットを作成し、それに備えましょう。私たちの経験では、特にチャンネル内でルールに簡単にアクセスできるようにすれば、紛争を避けるのに大いに役立ちます。
 
-その良い例が、**ビットコイン Lilleのオープンソースルールブック**(https://bitcoinlille.fr/reglement/)で、数年前にTelegramグループとDiscordサーバーのために書かれました。これはシンプルで普遍的な原則に基づいており、[カスタマイズ可能なバージョンのデザインはこちら](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)を手に入れることもできます。
+その良い例が、[**Bitcoin Lilleのオープンソースルールブック**](https://bitcoinlille.fr/reglement/)で、数年前にTelegramグループとDiscordサーバーのために書かれました。これはシンプルで普遍的な原則に基づいており、[カスタマイズ可能なバージョンのデザインはこちら](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)を手に入れることもできます。
 
 
 
@@ -2588,18 +2544,7 @@ Addressのデリケートな話題、ビットコインのコミュニティの�
 
 
 
-2/ **あなたのミートアップやイベントには大勢の人が集まり始め、つながりを求めて新しい顔ぶれがたくさん現れるでしょう**。
-
-この観客動員数の急増によって：
-
-
-    - 特に過去に20人程度しか受け入れられなかったのであれば、**ミートアップやイベントのためにもっと大きな会場を見つける**価値があるかもしれない。
-    - 参加者の数が圧倒的に多くなった場合、今後のミートアップでは、**参加者に登録**（ミートアップのアプリや簡単なフォームから）してもらうか、**毎月複数のミートアップを開催**（例：初級ミートアップ、中級ミートアップ、上級ミートアップ）することができます。
-    - 同時に、エコシステムへの多くの新参者が、しばしば金儲けを主目的にすることも予想されます。このような急成長しているミートアップで**ビットコイン**に焦点を当てた会話を続けるには、以下のことをするのが良いだろう：
-
-a)このようなイベントでは、**ビットコインをテーマにしたプレゼンテーション**を行う；
-
-b) **ビットコイン仲間**とだけ固まるのは避ける。その代わりに、**新参者**に近づくことをポイントにしましょう。たとえそれが、挨拶するために部屋の後ろにたむろすることを意味するとしても。そこから、彼らがなぜ来たのか、何を求めているのか、あなたのコミュニティの目標（あるいは基本理念）などについて話すことができます。
+2/ **あなたのミートアップやイベントには大勢の人が集まり始め、つながりを求めて新しい顔ぶれがたくさん現れるでしょう**。この観客動員数の急増によって：- 特に過去に20人程度しか受け入れられなかったのであれば、**ミートアップやイベントのためにもっと大きな会場を見つける**価値があるかもしれない。- 参加者の数が圧倒的に多くなった場合、今後のミートアップでは、**参加者に登録**（ミートアップのアプリや簡単なフォームから）してもらうか、**毎月複数のミートアップを開催**（例：初級ミートアップ、中級ミートアップ、上級ミートアップ）することができます。- 同時に、エコシステムへの多くの新参者が、しばしば金儲けを主目的にすることも予想されます。このような急成長しているミートアップで**ビットコイン**に焦点を当てた会話を続けるには、以下のことをするのが良いだろう：a)このようなイベントでは、**ビットコインをテーマにしたプレゼンテーション**を行う：b) **ビットコイン仲間**とだけ固まるのは避ける。その代わりに、**新参者**に近づくことをポイントにしましょう。たとえそれが、挨拶するために部屋の後ろにたむろすることを意味するとしても。そこから、彼らがなぜ来たのか、何を求めているのか、あなたのコミュニティの目標（あるいは基本理念）などについて話すことができます。
 
 
 最後に、残念なことだが、詐欺師がミートアップに現れることがある。彼らの目的は、ネズミ講やMLM、あるいは "AIによるブロックチェーン革命 "について延々と話すことかもしれない。また、ある日、悪意のある人が資金洗浄のために特別に参加したり、偽札でBTCを買おうとしたりすることも十分にあり得る。
@@ -2747,33 +2692,33 @@ Satoshiナカモトは、すでに我々の世界を変えつつある革命的�
 
 6) 十分な関心が高まったと感じたら、最初のミートアップを提案するためのアンケートを開始する。
 
-7)この対面イベントで達成したい目的を明確にする。
+7) この対面イベントで達成したい目的を明確にする。
 
 8) 立地がよく、居心地のよい、目標に沿った会場を選び、テーブルか部屋を予約する。
 
-9)イベントの1週間前にチャンネルで宣伝し、2～3日前にもう一度宣伝する。
+9) イベントの1週間前にチャンネルで宣伝し、2～3日前にもう一度宣伝する。
 
 10) 関連するウェブサイトやプラットフォームにイベントを掲載する。
 
-11)当日は、自然な流れで参加者と関わり、必要であれば議論の舵をそっと切る。
+11) 当日は、自然な流れで参加者と関わり、必要であれば議論の舵をそっと切る。
 
 
 その後だ：
 
-12)参加者が再び戻ってくるように、参加者の維持と参加に重点を置く。
+12) 参加者が再び戻ってくるように、参加者の維持と参加に重点を置く。
 
-13)簡単なプロジェクトやイニシアチブを提案し、個人的に関心のあるものを始める。他の誰かが別のプロジェクトを主導したい場合は、できる限りサポートする。
+13) 簡単なプロジェクトやイニシアチブを提案し、個人的に関心のあるものを始める。他の誰かが別のプロジェクトを主導したい場合は、できる限りサポートする。
 
 
 最後に
 
-14)ミートアップのための大きな会場、コミュニケーション・チャネルのルール、ウェブサイトなどについて考え、将来を予測する；
+14) ミートアップのための大きな会場、コミュニケーション・チャネルのルール、ウェブサイトなどについて考え、将来を予測する；
 
 15) 地元の企業にビットコインを受け入れるよう働きかける。
 
-16)信頼できるメンバーにタスクやチャンネル/ネットワークの管理者権限を委譲する。
+16) 信頼できるメンバーにタスクやチャンネル/ネットワークの管理者権限を委譲する。
 
-17)より多くの人が参加できるように、コミュニティを広く宣伝し、興味を示した人を巻き込む。
+17) より多くの人が参加できるように、コミュニティを広く宣伝し、興味を示した人を巻き込む。
 
 18) 自分が楽しみ、自分にとって重要なプロジェクトをさらに進める。
 
@@ -2829,14 +2774,14 @@ Satoshiナカモトは、すでに我々の世界を変えつつある革命的�
 
 
 
-## BTC 304, 次の記事
+## BTC 304、次の記事
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-このBTC302コースでは、コミュニティやミートアップの立ち上げ方や、様々なプロジェクトの立ち上げ方について詳しく解説しています。
+このBTC304コースでは、コミュニティやミートアップの立ち上げ方や、様々なプロジェクトの立ち上げ方について詳しく解説しています。
 
 
 コミュニティが次のステップに進む準備ができたら、**正式な協会**を設立することができます。
@@ -2851,7 +2796,7 @@ Satoshiナカモトは、すでに我々の世界を変えつつある革命的�
 - 構造化された組織：明確な役割を定義できるので、コミュニティの運営やプロジェクトの実施が容易になります。
 
 
-皆様のコミュニティがさらに発展するように、**今後数か月のうちに本研修の続編が [Plan ₿ Academy](https://planb.academy/) に公開される可能性も排除できません**。
+皆様のコミュニティがさらに発展するように、**今後数か月のうちに本研修の続編が [Plan ₿ Academy](https://planb.academy/) に公開される可能性も十分にあります**。
 
 
 

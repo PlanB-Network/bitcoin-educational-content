@@ -448,7 +448,14 @@ class SchemaValidator:
         heading_rules = rules.get("headings", {})
         h1_rule = heading_rules.get("h1", {})
         if h1_rule.get("allowed") is False:
-            h1_matches = re.findall(r'^# [^#]', content, re.MULTILINE)
+            # Remove code blocks before checking for H1 headings
+            # Remove fenced code blocks (``` or ~~~)
+            content_no_code = re.sub(r'```[\s\S]*?```', '', content)
+            content_no_code = re.sub(r'~~~[\s\S]*?~~~', '', content_no_code)
+            # Remove indented code blocks (4 spaces or 1 tab at line start)
+            content_no_code = re.sub(r'^(?:    |\t).*$', '', content_no_code, flags=re.MULTILINE)
+
+            h1_matches = re.findall(r'^# [^#]', content_no_code, re.MULTILINE)
             if h1_matches:
                 result.add_error("H1 headings (# Title) are not allowed - title comes from YAML 'name' field")
 

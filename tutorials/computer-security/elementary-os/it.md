@@ -5,7 +5,7 @@ description: Il sostituto ideale per Windows e MacOS
 
 ![cover](assets/cover.webp)
 
-Elementary OS è un sistema operativo basato su Ubuntu, progettato per essere semplice, veloce e stabile per molti usi quotidiani. Rappresenta un'alternativa Linux equilibrata a MacOS e Windows. La sua grafica fluida, intuitiva e priva di fronzoli lo rende facile da imparare, anche per i principianti. Inoltre, si concentra sull'ergonomia, la sicurezza e le prestazioni.
+Elementary OS è un sistema operativo basato su Ubuntu, progettato per essere semplice, veloce e stabile per molti usi quotidiani. Rappresenta un'equilibrata alternativa Linux a MacOS e Windows. La sua grafica fluida, intuitiva e priva di fronzoli lo rende facile da imparare, anche per i principianti. Inoltre, si concentra sull'ergonomia, la sicurezza e le prestazioni.
 
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
@@ -183,9 +183,9 @@ Per i primi aggiornamenti, il sistema operativo richiede la password utente e la
 
 ## Configurazione dell'ambiente di lavoro
 
-Elementary OS include solo gli strumenti essenziali. Per adattare l'ambiente alle vostre esigenze, soprattutto se siete sviluppatori, vi consigliamo di installare strumenti aggiuntivi.
+Elementary OS include solo gli strumenti essenziali. Per adattare l'ambiente alle tue esigenze, soprattutto se sei uno sviluppatore, ti consigliamo di installare strumenti aggiuntivi.
 
-- È possibile aggiungere le dipendenze utili con il seguente comando (da adattare alle proprie esigenze):
+- È possibile aggiungere le dipendenze utili con il seguente comando (da adattare alle tue esigenze):
 
 ```shell
 sudo apt update && sudo apt install -y git python3 python3-pip build-essential wget curl zsh make snapd && sudo snap install code --classic
@@ -193,6 +193,6 @@ sudo apt update && sudo apt install -y git python3 python3-pip build-essential w
 
 Questo comando installa **Git**, **Python 3**, **pip**, **strumenti del compilatore**, **wget**, **curl**, **zsh**, **make**, **snapd** e **vscode** per preparare un ambiente di sviluppo di base.
 
-Elementary OS è ora attivo e funzionante sul vostro computer. La sua filosofia di semplicità, leggerezza ed eleganza lo rende una scelta eccellente per l'uso personale e professionale. Avrete un sistema stabile, fluido e ordinato, pronto per essere personalizzato secondo le vostre preferenze. Che si tratti di sviluppo, uso in ufficio o navigazione quotidiana, tutto è al suo posto per costruire un ambiente di lavoro efficiente, intuitivo e piacevole. Date un'occhiata anche al nostro tutorial su Fedora, una distribuzione Linux altrettanto semplice, robusta e modulare.
+Elementary OS è ora attivo e funzionante sul tuo computer. La sua filosofia di semplicità, leggerezza ed eleganza lo rende una scelta eccellente per l'uso personale e professionale. Avrete un sistema stabile, fluido e ordinato, pronto per essere personalizzato secondo le tue preferenze. Che si tratti di sviluppo, uso in ufficio o navigazione quotidiana, tutto è al suo posto per costruire un ambiente di lavoro efficiente, intuitivo e piacevole. Date un'occhiata anche al nostro tutorial su Fedora, una distribuzione Linux altrettanto semplice, robusta e modulare.
 
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

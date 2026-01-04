@@ -3,7 +3,7 @@ name: Shelter
 description: Používání stejného telefonu pro práci i soukromý život se službou Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

@@ -3,7 +3,7 @@ name: White Noise
 description: Ubutumwa bwigenga, bushizwe ahantu hamwe bushingiye ku mategeko ya Nostr na MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

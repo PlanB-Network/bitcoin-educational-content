@@ -3,7 +3,7 @@ name: White Noise
 description: 基于 Nostr 和 MLS 协议的私有去中心化信息传输应用程序
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

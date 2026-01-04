@@ -3,7 +3,7 @@ name: White Noise
 description: Yksityinen, hajautettu viestisovellus, joka perustuu Nostr- ja MLS-protokolliin
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

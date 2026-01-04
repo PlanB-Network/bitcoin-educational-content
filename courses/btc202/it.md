@@ -3505,39 +3505,39 @@ Ecco le impostazioni avanzate per la Mempool e la politica dei relay. Se si è a
 
 
 
-Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla validità delle transazioni incluse in un blocco valido. Servono a regolare il vostro contributo al relè, a proteggere le vostre risorse e a rendere il vostro nodo prevedibile in ambienti limitati, ma non vi permettono mai di rifiutare i blocchi che rispettano le regole del consenso.
+Come promemoria, tutte queste regole di relay non hanno alcun impatto sulla validità delle transazioni incluse in un blocco valido. Servono a regolare il vostro contributo al relay, a proteggere le vostre risorse e a rendere il vostro nodo prevedibile in ambienti limitati, ma non vi permettono mai di rifiutare i blocchi che rispettano le regole del consenso.
 
 
 
-### Portafogli
+### Wallets
 
 
 
-È inoltre possibile regolare il modo in cui vengono gestiti i portafogli nel file `Bitcoin.conf`. Se non si utilizza Wallet direttamente in Core, ma piuttosto un software di gestione esterno come Sparrow o Liana, questi parametri saranno di scarsa importanza:
-
-
-
-
-
-- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definisce il formato degli indirizzi generati dal portafoglio per la ricezione.
+È inoltre possibile regolare il modo in cui vengono gestiti i wallet nel file `Bitcoin.conf`. Se non si utilizza wallet direttamente in Core, ma piuttosto un software di gestione esterno come Sparrow o Liana, questi parametri saranno di scarsa importanza:
 
 
 
 
 
-- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Forza il formato Exchange Address (resto di un input su un singolo pagamento).
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definisce il formato degli indirizzi generati dal wallet per la ricezione.
 
 
 
 
 
-- `Wallet=<percorso>`: Carica un Wallet esistente all'avvio (può essere ripetuto per caricare più portafogli).
+- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Forza il formato dell'indirizzo di resto (resto di un input su un singolo pagamento).
 
 
 
 
 
-- `walletdir=<dir>`: Directory contenente i portafogli (predefinita: `<datadir>/wallets` se esiste, altrimenti `<datadir>`). Questo può essere utile se si desidera memorizzare i portafogli su un volume dedicato o criptato.
+- `Wallet=<percorso>`: Carica un wallet esistente all'avvio (può essere ripetuto per caricare più portafogli).
+
+
+
+
+
+- `walletdir=<dir>`: Directory contenente i wallet (predefinita: `<datadir>/wallets` se esiste, altrimenti `<datadir>`). Questo può essere utile se si desidera memorizzare i portafogli su un volume dedicato o criptato.
 
 
 
@@ -3549,19 +3549,19 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- `walletrbf=1`: Abilita il RBF opt-in per segnalare il RBF su tutte le transazioni (default: `1`). Consente di aumentare le tariffe in un secondo momento in caso di transazione bloccata.
+- `walletrbf=1`: Abilita l'RBF opt-in per segnalare l'RBF su tutte le transazioni (default: `1`). Consente di aumentare le tariffe in un secondo momento in caso di transazione bloccata.
 
 
 
 
 
-- `txconfirmtarget=<n>`: Obiettivo di conferma per la transazione (in numero di blocchi, default: `6`). Il Wallet imposterà automaticamente la tariffa per la transazione da confermare entro questo numero di blocchi.
+- `txconfirmtarget=<n>`: Obiettivo di conferma per la transazione (in numero di blocchi, default: `6`). Il wallet imposterà automaticamente la tariffa per la transazione da confermare entro questo numero di blocchi.
 
 
 
 
 
-- `paytxfee=<amt>`: Tariffa fissa (BTC/kvB) applicata alle transazioni Wallet. Evitare in generale: utilizzare la stima adattiva tramite `txconfirmtarget`.
+- `paytxfee=<amt>`: Tariffa fissa (BTC/kvB) applicata alle transazioni wallet. Generalmente sconsigliato:è preferibile utilizzare la stima adattiva tramite `txconfirmtarget`.
 
 
 
@@ -3573,55 +3573,55 @@ Come promemoria, tutte queste regole di relè non hanno alcun impatto sulla vali
 
 
 
-- `mintxfee=<amt>`: Soglia minima (BTC/kvB) per la creazione di transazioni da parte di Wallet (valore predefinito: `0,00001`). Wallet rifiuterà di creare una transazione al di sotto di questa soglia.
+- `mintxfee=<amt>`: Soglia minima (BTC/kvB) per la creazione di transazioni da parte di wallet (valore predefinito: `0,00001`). Il wallet rifiuterà di creare una transazione al di sotto di questa soglia.
 
 
 
 
 
-- `maxtxfee=<amt>`: Limite assoluto alle commissioni totali per una transazione Wallet (default: `0,10` BTC). Protegge da commissioni anormalmente alte che distruggerebbero inutilmente i bitcoin.
+- `maxtxfee=<amt>`: Limite assoluto alle commissioni totali per una transazione wallet (default: `0,10` BTC). Protegge da commissioni anomalmente alte che distruggerebbero inutilmente i bitcoin.
 
 
 
 
 
-- `avoidpartialspends=1`: Seleziona gli UTXO per cluster Address per evitare spese parziali.
+- `avoidpartialspends=1`: Seleziona le UTXO per cluster(gruppo o insieme) di indirizzi per evitare spese parziali.
 
 
 
 
 
-- `spendzeroconfchange=1`: Consente di riutilizzare un UTXO Exchange non confermato come voce in una nuova transazione (default: `1`).
+- `spendzeroconfchange=1`: Consente di riutilizzare una UTXO di resto non confermato come voce in una nuova transazione (default: `1`).
 
 
 
 
 
-- `consolidatefeerate=<amt>`: Tasso massimo (BTC/kvB) oltre il quale Wallet evita di aggiungere più input del necessario per consolidare. Ciò consente consolidamenti opportunistici a prezzi bassi e riduce i costi quando i costi sono elevati.
+- `consolidatefeerate=<amt>`: Tasso massimo (BTC/kvB) oltre il quale il wallet evita di aggiungere più input del necessario per consolidare. Ciò consente consolidamenti opportunistici a prezzi bassi riducendo i costi, quando elevati.
 
 
 
 
 
-- `maxapsfee=<n>`: Budget per le spese aggiuntive (BTC, valore assoluto) che il Wallet accetta di pagare per attivare l'opzione "*evita spese parziali*".
+- `maxapsfee=<n>`: Budget per le spese aggiuntive (BTC, valore assoluto) che il wallet accetta di pagare per attivare l'opzione "*evita spese parziali*".
 
 
 
 
 
-- `discardfee=<amt>`: Tasso (BTC/kvB) che indica la tolleranza a buttare via il Exchange aggiungendolo alla tariffa. Le uscite che costerebbero più di un terzo del loro valore a questo tasso vengono eliminate.
+- `discardfee=<amt>`: Tasso (BTC/kvB) che indica la tolleranza a buttare via il resto aggiungendolo alla tariffa. Le uscite che costerebbero più di un terzo del loro valore a questo tasso vengono eliminate.
 
 
 
 
 
-- `keypool=<n>`: Dimensione del pool Address pre-generato (predefinito: `1000`). Valori troppo piccoli aumentano il rischio di ripristini incompleti.
+- `keypool=<n>`: Dimensione della pool di indirizzi pre-generata (predefinito: `1000`). Valori troppo piccoli aumentano il rischio di ripristini incompleti.
 
 
 
 
 
-- `disablewallet=1`: Avvia Bitcoin core senza il sottosistema Wallet e disabilita le RPC associate. Riduce la superficie di attacco e l'impronta se il nodo viene usato solo per la convalida/rilascio.
+- `disablewallet=1`: Avvia Bitcoin Core senza il sottosistema wallet e disabilita le RPC associate. Riduce la superficie di attacco e l'impronta se il nodo viene usato solo per la convalida/rilascio.
 
 
 
@@ -3635,19 +3635,19 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-- `datadir=<dir>`: Imposta la directory principale dei dati di Bitcoin core.
+- `datadir=<dir>`: Imposta la directory principale dei dati di Bitcoin Core.
 
 
 
 
 
-- `blocksdir=<dir>`: Disaccoppia la posizione dei file dei blocchi (`blocks/blk*.dat` e `blocks/rev*.dat`) dalla `datadir`. Questo può essere utile per collocare l'archivio dei blocchi su un volume diverso, mantenendo la base di stato (`chainstate/`) su un supporto più veloce, ad esempio.
+- `blocksdir=<dir>`: Disaccoppia la posizione dei file dei blocchi (`blocks/blk*.dat` e `blocks/rev*.dat`) dalla `datadir`. Questo può essere utile per collocare l'archivio dei blocchi su un volume diverso, mantenendo la "state base" (`chainstate/`) su un supporto più veloce, ad esempio.
 
 
 
 
 
-- `dbcache=<n>`: Alloca `<n>` MiB alla cache del database (*LevelDB*) utilizzata dall'indice dei blocchi e dal `chainstate` (valore predefinito: `450`). Più alto è il valore, più veloce è l'IBD e la validazione corrente, al costo di un maggiore consumo di RAM.
+- `dbcache=<n>`: Imposta `<n>` in MiB alla cache del database (*LevelDB*) utilizzata dall'indice dei blocchi e dal `chainstate` (valore predefinito: `450`). Più alto è il valore, più veloce è l'IBD e la validazione corrente, al costo di un maggiore consumo di RAM.
 
 
 
@@ -3727,7 +3727,7 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al nodo. Siate cauti con queste impostazioni, soprattutto se siete agli inizi: evitate di modificarle senza averne compreso a fondo le implicazioni, perché potrebbero introdurre delle vulnerabilità.
+Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al nodo. Sii cauto con queste impostazioni, soprattutto se sei agli inizi: evita di modificarle senza averne compreso a fondo le implicazioni, perché potrebbero introdurre delle vulnerabilità.
 
 
 
@@ -3739,7 +3739,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-- `rpcbind=<addr>[:port]`: Server RPC in ascolto Address/port. Per impostazione predefinita, l'ascolto avviene solo localmente (`127.0.0.1` e `::1`). Questo parametro viene ignorato se non viene definito anche `rpcallowip`. Usarlo per limitare esplicitamente Interface.
+- `rpcbind=<addr>[:port]`: Server RPC in ascolto address/port. Per impostazione predefinita, l'ascolto avviene solo localmente (`127.0.0.1` e `::1`). Questo parametro viene ignorato se non viene definito anche `rpcallowip`. Usalo per limitare esplicitamente Interface.
 
 
 
@@ -3763,7 +3763,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-- `rpccookiefile=<path>`: Percorso del cookie di autenticazione (predefinito: file `.cookie` sotto `datadir/`). Viene utilizzato per l'accesso locale da parte dello stesso utente senza gestire password persistenti. Ad esempio, si può usare per collegare il Liana Wallet al Bitcoin core sulla stessa macchina.
+- `rpccookiefile=<path>`: Percorso del cookie di autenticazione (predefinito: file `.cookie` sotto `datadir/`). Viene utilizzato per l'accesso locale da parte dello stesso utente senza gestire password persistenti. Ad esempio, si può usare per collegare il wallet Liana a Bitcoin Core sullo stesso dispostivo.
 
 
 
@@ -3775,7 +3775,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-- `rpcthreads=<n>`: Numero di thread per servire le chiamate RPC (valore predefinito: `4`). Aumentarlo se si hanno picchi di chiamate elevati sul lato del monitoraggio/strumento esterno.
+- `rpcthreads=<n>`: Numero di thread per servire le chiamate RPC (valore predefinito: `4`). Aumentalo se si hanno picchi di chiamate elevati sul lato del monitoraggio o strumenti esterni.
 
 
 
@@ -3811,7 +3811,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-- `daemon=1` / `daemonwait=1`: Avvia `bitcoind` in background e, con `daemonwait`, attende che l'inizializzazione finisca prima di consegnarlo. Questo facilita l'integrazione con i supervisori (systemd, runit).
+- `daemon=1` / `daemonwait=1`: Avvia `bitcoind` in background e, con `daemonwait`, attendi che l'inizializzazione finisca prima di consegnarla. Questo facilita l'integrazione con i supervisori (systemd, runit).
 
 
 
@@ -3881,7 +3881,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-Abbiamo finito di elencare la maggior parte dei parametri di configurazione. Questo file `Bitcoin.conf' costituisce quindi il vero cruscotto del nodo: definisce la configurazione della rete, la gestione del Mempool , l'uso del disco e della memoria, l'indicizzazione e l'amministrazione generale. Se volete saperne di più su questo file e crearne uno su misura per le vostre esigenze, vi consiglio di usare [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Abbiamo finito di elencare la maggior parte dei parametri di configurazione. Questo file `Bitcoin.conf' costituisce quindi la vera dashboard del nodo: definisce la configurazione della rete, la gestione del Mempool , l'uso del disco e della memoria, l'indicizzazione e l'amministrazione generale. Se volete saperne di più su questo file e crearne uno su misura per le vostre esigenze, vi consiglio di usare [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 

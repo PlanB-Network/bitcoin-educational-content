@@ -2,7 +2,7 @@
 name: LNbits
 description: 商户会计平台
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## 会计系统
 

@@ -2,7 +2,7 @@
 name: LNbits
 description: Платформа для учета торговых операций
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Система бухгалтерского учета
 

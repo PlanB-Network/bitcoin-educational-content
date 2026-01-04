@@ -4,7 +4,7 @@ name: LNbits
 description: Boekhoudplatform voor verkopers
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Boekhoudsysteem
 

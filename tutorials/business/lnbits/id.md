@@ -2,7 +2,7 @@
 name: LNbits
 description: Platform Akuntansi Pedagang
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Sistem akuntansi
 

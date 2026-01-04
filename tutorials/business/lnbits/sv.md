@@ -4,7 +4,7 @@ name: LNbits
 description: Plattform för redovisning för handlare
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Redovisningssystem
 

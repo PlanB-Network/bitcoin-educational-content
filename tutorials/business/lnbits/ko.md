@@ -4,7 +4,7 @@ name: LNbits
 description: 판매자 계정 플랫폼
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## 회계 시스템
 

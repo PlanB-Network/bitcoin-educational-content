@@ -4,7 +4,7 @@ name: LNbits
 description: Nền tảng kế toán thương mại
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Hệ thống kế toán
 

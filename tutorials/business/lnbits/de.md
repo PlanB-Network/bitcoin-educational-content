@@ -2,7 +2,7 @@
 name: LNbits
 description: Buchhaltungsplattform für Händler
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Buchführungssystem
 

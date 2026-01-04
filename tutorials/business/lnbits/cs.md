@@ -2,7 +2,7 @@
 name: LNbits
 description: Účetní platforma pro obchodníky
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Účetní systém
 

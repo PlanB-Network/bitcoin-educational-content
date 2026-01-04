@@ -4,7 +4,7 @@ name: LNbits
 description: Platforma za računovodstvo trgovaca
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Računovodstveni sistem
 

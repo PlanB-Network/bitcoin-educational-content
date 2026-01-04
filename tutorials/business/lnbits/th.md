@@ -4,7 +4,7 @@ name: LNbits
 description: แพลตฟอร์มการบัญชีสำหรับพ่อค้า
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## ระบบบัญชี
 

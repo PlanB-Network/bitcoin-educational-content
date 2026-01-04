@@ -2,7 +2,7 @@
 name: LNbits
 description: マーチャント会計プラットフォーム
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## 会計システム
 

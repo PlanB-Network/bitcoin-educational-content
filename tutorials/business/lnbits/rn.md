@@ -4,7 +4,7 @@ name: LNbits
 description: Urubuga rw'abacuruzi
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Uburyo bwo kubara amafaranga
 

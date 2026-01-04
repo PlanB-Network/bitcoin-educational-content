@@ -4,7 +4,7 @@ name: LNbits
 description: Tüccar Muhasebe Platformu
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Muhasebe sistemi
 

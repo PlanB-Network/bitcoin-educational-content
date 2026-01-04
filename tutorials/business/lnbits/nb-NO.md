@@ -2,7 +2,7 @@
 name: LNbits
 description: Plattform for handelsregnskap
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Regnskapssystem
 

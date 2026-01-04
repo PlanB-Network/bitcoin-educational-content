@@ -2,7 +2,7 @@
 name: LNbits
 description: Plataforma de contabilidade para comerciantes
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Sistema de contabilidade
 

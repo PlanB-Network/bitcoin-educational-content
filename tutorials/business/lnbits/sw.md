@@ -4,7 +4,7 @@ name: LNbits
 description: Jukwaa la Uhasibu la Wafanyabiashara
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Mfumo wa hesabu
 

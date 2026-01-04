@@ -4,7 +4,7 @@ name: LNbits
 description: व्यापारी लेखा मंच
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## लेखांकन प्रणाली
 

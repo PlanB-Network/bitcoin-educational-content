@@ -4,7 +4,7 @@ name: LNbits
 description: Merchant Accounting Platform
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 ## Accounting system
 
 LNbits is packed with lots of tools to control and channel your incoming and outgoing funds, connect your webstore or even devices like a hardware wallet or an ATM that you have built yourself. User types include:

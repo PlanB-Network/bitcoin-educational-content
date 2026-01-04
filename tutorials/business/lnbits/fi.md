@@ -2,7 +2,7 @@
 name: LNbits
 description: Kauppias kirjanpitoalusta
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## Kirjanpitojärjestelmä
 

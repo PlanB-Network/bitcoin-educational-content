@@ -4,7 +4,7 @@ name: LNbits
 description: 商家會計平台
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## 會計系統
 

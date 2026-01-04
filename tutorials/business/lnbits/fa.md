@@ -4,7 +4,7 @@ name: LNbits
 description: پلتفرم حسابداری بازرگان
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
 ## سیستم حسابداری
 

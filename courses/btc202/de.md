@@ -1069,7 +1069,7 @@ Die Indizierung ermöglicht es dir, schnell, genau und effizient nach Informatio
 
 ### Hat Bitcoin Core einen Indexer?
 
-Ohne die Notwendigkeit zusätzlicher Software bietet Bitcoin Core streng genommen keinen vollständigen Address-Indexer, der mit Software wie Electrs oder Fulcrum vergleichbar ist. Dennoch enthält es mehrere interne Indizierungsmechanismen sowie optionale Optionen zur Erweiterung seiner Abfragemöglichkeiten. Um die Situation vollständig zu verstehen, müssen wir einen Abstecher in die Geschichte des Projekts machen.
+Ohne die Notwendigkeit zusätzlicher Software bietet Bitcoin Core streng genommen keinen vollständigen Addressindexer, der mit Software wie Electrs oder Fulcrum vergleichbar ist. Dennoch enthält es mehrere interne Indizierungsmechanismen sowie optionale Optionen zur Erweiterung seiner Abfragemöglichkeiten. Um die Situation vollständig zu verstehen, müssen wir einen Abstecher in die Geschichte des Projekts machen.
 
 Bis Bitcoin Core Version 0.8.0 basierte die Transaktionsvalidierung auf einem globalen Transaktionsindex, der als `txindex` bekannt war. Dieser Index verwies auf alle Blockchain-Transaktionen und ihre Ausgaben. Wenn eine Node eine neue Transaktion erhielt, konsultierte er diesen Index, um zu überprüfen, ob die verbrauchten Ausgaben (in Eingaben) tatsächlich existierten und nicht bereits ausgegeben worden waren. daher war "txindex" seinerzeit für die Validierung von Transaktionen unerlässlich.
 
@@ -1087,37 +1087,37 @@ Entgegen der landläufigen Meinung bietet Bitcoin Core keine Address-basierte In
 
 Bitcoin Core verfügt zwar über einen optionalen Transaktionsindexer (`txindex`), ein Überbleibsel seines historischen Betriebs, aber er bietet weder einen Address-Index noch einen direktes Interface für komplexe Suchvorgänge. In einigen Fällen kann es daher sinnvoll sein, einen externen Indexer hinzuzufügen.
 
-### Solltest du einen Address-Indexer zu deiner Node hinzufügen?
+### Solltest du einen Addressindexer zu deiner Node hinzufügen?
 
 Das Hinzufügen eines Address-Indexers, z. B. von Electrs oder Fulcrum, ist nicht zwingend erforderlich; es hängt von deinen spezifischen Anforderungen ab.
 
 Wenn du einfach nur eine Wallet, wie z. B. Sparrow, mit deiner Node verbinden möchtest, um die Salden einzusehen und Transaktionen zu übertragen, ist dies direkt über das Interface RPC von Bitcoin Core möglich, entweder lokal oder aus der Ferne über Tor.
 
-Auf der anderen Seite, um mehr fortgeschrittene Software, wie z. B. mit einem Mempool.Locally, die Installation eines Address Indexer wird für den Raum Block explorer unerlässlich.
+Auf der anderen Seite, um mehr fortgeschrittene Software, wie z. B. mit einen Mempool lokal laufen zu lassen, wird die Installation eines Addressindexers für den Block-Explorer unerlässlich.
 
-Der Indexer benötigt eine gewisse Zeit für die Synchronisierung (weniger als die IBD) und belegt zusätzlichen Speicherplatz. Wenn Ihre SSD nach dem Herunterladen von Blockchain noch genügend freien Speicherplatz hat, können du problemlos einen Indexer hinzufügen.
+Der Indexer benötigt eine gewisse Zeit für die Synchronisierung (weniger als die IBD) und belegt zusätzlichen Speicherplatz. Wenn deine SSD nach dem Herunterladen von Blockchain noch genügend freien Speicherplatz hat, kannst du problemlos einen Indexer hinzufügen.
 
 ### Welcher Indexer soll gewählt werden?
 
-Zwei Softwareprogramme werden üblicherweise verwendet, um diese Art von Address-Index zu erstellen und zugänglich zu machen: **Electrs** und **Fulcrum**. Diese Tools indizieren die Blockchain nach Script-Hash (Adressen) und schlagen dann ein standardisiertes Interface (das Electrum-Protokoll) vor, mit dem sich zahlreiche Wallets wie Electrum Wallet, Sparrow oder Phoenix verbinden.
+Zwei Softwareprogramme werden üblicherweise verwendet, um diese Art von Addressindex zu erstellen und zugänglich zu machen: **Electrs** und **Fulcrum**. Diese Tools indizieren die Blockchain nach Script-Hash (Adressen) und schlagen dann ein standardisiertes Interface (das Electrum-Protokoll) vor, mit dem sich zahlreiche Wallets wie Electrum Wallet, Sparrow oder Phoenix verbinden.
 
 ![Image](assets/fr/087.webp)
 
-Einfach ausgedrückt ist Electrs recht kompakt: Es indiziert Blockchain schneller und nimmt weniger Speicherplatz in Anspruch, ist aber bei Abfragen etwas weniger leistungsfähig als Fulcrum. Im Gegensatz dazu verbraucht Fulcrum mehr Speicherplatz und braucht länger für die Indizierung, bietet aber eine bessere Abfrageleistung.
+Einfach ausgedrückt ist Electrs recht kompakt: Es indiziert die Blockchain schneller und nimmt weniger Speicherplatz in Anspruch, ist aber bei Abfragen etwas weniger leistungsfähig als Fulcrum. Im Gegensatz dazu verbraucht Fulcrum mehr Speicherplatz und braucht länger für die Indizierung, bietet aber eine bessere Abfrageleistung.
 
-Für den individuellen Gebrauch empfehle ich Electrs: Es verbraucht weniger Speicherplatz, wird gut gewartet und ist zwar bei bestimmten Anfragen etwas langsamer als Fulcrum, aber für den täglichen Gebrauch immer noch mehr als ausreichend. Wenn du die Zeit und den Speicherplatz haben, können du auch Fulcrum ausprobieren, das vor allem bei Geldbörsen mit vielen zu überprüfenden Adressen deutlich besser abschneidet.
+Für den individuellen Gebrauch empfehle ich Electrs: Es verbraucht weniger Speicherplatz, wird gut gewartet und ist zwar bei bestimmten Anfragen etwas langsamer als Fulcrum, aber für den täglichen Gebrauch immer noch mehr als ausreichend. Wenn du die Zeit und den Speicherplatz hast, kannst du auch Fulcrum ausprobieren, das vor allem bei Wallets mit vielen zu überprüfenden Adressen deutlich besser abschneidet.
 
-Konkret bedeutet dies, dass Electrs im August 2025 etwa 56 GB Speicherplatz benötigt, Fulcrum dagegen etwa 178 GB. Die Wahl Ihres Indexers hängt also auch von Ihrer Speicherkapazität ab:
+Konkret bedeutet dies, dass Electrs im August 2025 etwa 56 GB Speicherplatz benötigt, Fulcrum dagegen etwa 178 GB. Die Wahl deines Indexers hängt also auch von deiner Speicherkapazität ab:
 
-- Wenn dein Festplattenplatz sehr begrenzt ist, müssen du sich mit dem Bitcoin core ohne einen externen Address-Indexer begnügen.
-- Wenn du einen Indexer verwenden möchten, aber dennoch Kapazitätsengpässe haben, entscheiden du sich für Electrs.
-- Wenn du über ausreichend Speicherplatz verfügen, könnte Fulcrum genau das Richtige für du sein.
+- Wenn dein Festplattenspeicherplatz sehr begrenzt ist, musst du dich mit Bitcoin Core ohne einen externen Addressindexer begnügen.
+- Wenn du einen Indexer verwenden möchtest, aber dennoch Kapazitätsengpässe hast, entscheidest du dich für Electrs.
+- Wenn du über ausreichend Speicherplatz verfügst, könnte Fulcrum genau das Richtige für dich sein.
 
-Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber du können einfach mit Fulcrum weitermachen: Die Installationsprozedur ist identisch, ebenso wie die Verbindung des Interface mit dem Wallet, da beide einen Electrum-Server bereitstellen.
+Für den Rest dieses BTC 202-Kurses werde ich Electrs verwenden, aber du kannst einfach mit Fulcrum weitermachen: Die Installationsprozedur ist identisch, ebenso wie die Verbindung des Interface mit der Wallet, da beide einen Electrum-Server bereitstellen.
 
 ### Wie installiere ich einen Indexer auf Umbrel?
 
-Um Electrs (oder Fulcrum) auf Ihrem Umbrel zu installieren, ist das Verfahren einfach: Gehen du zum App Store, suchen du nach der entsprechenden Anwendung (auf der Registerkarte Bitcoin) und klicken du dann auf die Schaltfläche "*Installieren*".
+Um Electrs (oder Fulcrum) auf deinem Umbrel zu installieren, ist das Verfahren einfach: Gehe zum App Store, suche nach der entsprechenden Anwendung (auf der Registerkarte Bitcoin) und klicke dann auf die Schaltfläche "*Installieren*".
 
 ![Image](assets/fr/028.webp)
 
@@ -1125,269 +1125,143 @@ Sobald die Installation abgeschlossen ist, beginnt Electrs mit einer Synchronisi
 
 ![Image](assets/fr/029.webp)
 
-Sobald die Synchronisierung abgeschlossen ist, können du Ihre Wallet-Software mit Ihrem Electrum-Server verbinden, der auf Umbrel gehostet wird.
+Sobald die Synchronisierung abgeschlossen ist, kannst du deine Wallet-Software mit deinem Electrum-Server verbinden, der auf Umbrel gehostet wird.
 
-## Wie verbinde ich mein Wallet mit meinem Bitcoin-Node?
+## Wie verbinde ich meine Wallet mit meiner Bitcoin Node?
 
 <chapterId>35519b1a-f681-4a69-a652-9fbe510cd17f</chapterId>
 
+Nun, da du eine vollständige Bitcoin Node hast, ist es an der Zeit, sie sinnvoll zu nutzen! Im nächsten Kapitel werden wir weitere Anwendungsmöglichkeiten für deinen Umbrel-Server untersuchen. Lass uns jedoch mit den Grundlagen beginnen: die Anbindung deiner Wallet Software, um Informationen von deiner eigenen Blockchain zu nutzen und Transaktionen über deine eigene Node weiterzuleiten.
 
+Wie bereits erwähnt, gibt es zwei Haupt-Verbindungs-Interfaces:
 
-Nun, da du einen vollständigen Bitcoin-Node haben, ist es an der Zeit, ihn sinnvoll zu nutzen! Im nächsten Kapitel werden wir weitere Verwendungsmöglichkeiten für Ihre Umbrel-Instanz untersuchen. Lassen du uns jedoch mit den Grundlagen beginnen: die Anbindung Ihrer Wallet Software, um Informationen von Ihrem eigenen Blockchain zu nutzen und Transaktionen über Ihren eigenen Node zu verteilen.
+- Direkte Verbindung zu Bitcoin Core über RPC;
+- Oder du verbindest dich mit einem Electrum-Server (Electrs oder Fulcrum).
 
+In diesem Tutorial konzentrieren wir uns auf die Verbindung zu deiner Node über Tor, da dies eine einfache und sichere Lösung für Anfänger ist. Ich rate dringend davon ab, den RPC-Port deiner Node offen zu legen, da eine Fehlkonfiguration ein erhebliches Risiko für die Sicherheit und Vertraulichkeit deiner Daten darstellt. Der größte Nachteil der Kommunikation über Tor ist seine Langsamkeit. Im nächsten Kapitel werden wir eine schnelle und sichere Alternative zu Tor für den Fernzugriff auf deine Node erkunden: VPN.
 
+Wir verwenden in diesem Kapitel Sparrow als Beispiel, aber das Verfahren ist für jede andere Wallet-Verwaltungssoftware, die Verbindungen zu Electrum-Servern akzeptiert, gleich. Suche einfach die entsprechende Einstellung in den Parametern deiner Anwendung (normalerweise unter "*Server*", "*Netzwerk*", "*Node*"...).
 
-Wie bereits erwähnt, gibt es zwei Hauptverbindungsschnittstellen:
-
-
-
-
-- Direkte Verbindung zum Bitcoin core über RPC;
-- Oder verbinden du sich mit einem Electrum-Server (Electrs oder Fulcrum).
-
-
-
-In diesem Tutorial konzentrieren wir uns auf die Verbindung zu deinem Node über Tor, da dies eine einfache und sichere Lösung für Anfänger ist. Ich rate dringend davon ab, den RPC-Port deines Node offen zu legen, da eine Fehlkonfiguration ein erhebliches Risiko für die Sicherheit und Vertraulichkeit deiner Daten darstellt. Der größte Nachteil der Kommunikation über Tor ist seine Langsamkeit. Im nächsten Kapitel werden wir eine schnelle und sichere Alternative zu Tor für den Fernzugriff auf Ihren Node erkunden: VPN.
-
-
-
-Wir verwenden in diesem Kapitel Sparrow als Beispiel, aber das Verfahren ist für alle anderen Wallet-Verwaltungssoftware, die Verbindungen zu Electrum-Servern akzeptiert, gleich. Suchen du einfach die entsprechende Einstellung in den Parametern Ihrer Anwendung (normalerweise unter "*Server*", "*Netzwerk*", "*Node*"...).
-
-
-
-Öffnen du auf dem Sparrow die Registerkarte "*Datei*" und gehen du in das Menü "Einstellungen".
-
-
+Öffne auf Sparrow die Registerkarte "*Datei*" und gehe in das Menü "Einstellungen".
 
 ![Image](assets/fr/030.webp)
 
-
-
-Klicken du dann auf "*Server*", um die Verbindungsparameter aufzurufen.
-
-
+Klicke dann auf "*Server*", um die Verbindungsparameter aufzurufen.
 
 ![Image](assets/fr/031.webp)
 
+Du wirst dann drei Optionen für die Verknüpfung deiner Software mit eine Bitcoin Node sehen:
 
+- **Öffentlicher Server** (gelb): Wenn du keine Bitcoin Node besitzt, verbindet dich diese Option standardmäßig mit einer öffentlichen Node, die dir nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da du deine eigene Node auf Umbrel hast.
+- **Bitcoin Core** (Green): Diese Option entspricht der Verbindung über Interface RPC, d. h. direkt mit Bitcoin Core.
+- **Private Electrum** (blau): Mit dieser Option kannst du eine Verbindung über das Interface Electrum Server (Electrs oder Fulcrum) deines Indexers herstellen.
 
-du werden dann drei Optionen für die Verknüpfung Ihrer Software mit einem Bitcoin-Node entdecken:
+### Anschluss an Bitcoin Core RPC
 
-
-
-
-- Öffentlicher Server* (gelb): Wenn du keinen Bitcoin-Node besitzen, verbindet du diese Option standardmäßig mit einem öffentlichen Node, der dir nicht gehört (normalerweise der eines Unternehmens). Diese Option ist hier nicht relevant, da du Ihren eigenen Node auf Umbrel haben.
-- Bitcoin core* (Green): Diese Option entspricht der Verbindung über Interface RPC, d. h. direkt mit Bitcoin core.
-- Private Electrum* (blau): Mit dieser Option können du eine Verbindung über den Interface Electrum Server (Electrs oder Fulcrum) Ihres Indexers herstellen.
-
-
-
-### Anschluss an Bitcoin core RPC
-
-
-
-Wenn dein Umbrel-Node keinen Indexer hat, müssen du diese Option wählen. Auf Sparrow klicken du auf "*Bitcoin core*".
-
-
+Wenn deine Umbrel Node keinen Indexer hat, musst du diese Option wählen. Auf Sparrow klickst auf "*Bitcoin Core*".
 
 ![Image](assets/fr/032.webp)
 
-
-
-du müssen dann mehrere Informationen eingeben, um die Verbindung zu Ihrem Node herzustellen. Alle diese Daten können über die Anwendung "*Bitcoin Node*" auf Umbrel abgerufen werden, indem du auf die Schaltfläche "*Verbinden*" in der oberen rechten Ecke des Interface klicken.
-
-
+Du musst dann mehrere Informationen eingeben, um die Verbindung zu deiner Node herzustellen. Alle diese Daten können über die Anwendung "*Bitcoin Node*" auf Umbrel abgerufen werden, indem du auf die Schaltfläche "*Verbinden*" in der oberen rechten Ecke des Interfaces klickst.
 
 ![Image](assets/fr/033.webp)
 
-
-
-Die Registerkarte "*RPC Details*" zeigt alle notwendigen Informationen für die Verbindung an. Wählen du eine Verbindung über Tor Address (in `.onion`).
-
-
+Die Registerkarte "*RPC Details*" zeigt alle notwendigen Informationen für die Verbindung an. Wähle eine Verbindung über eine Tor Addresse (in `.onion`).
 
 ![Image](assets/fr/034.webp)
 
-
-
-Geben du diese Daten in die entsprechenden Felder des Sparrow wallet ein und klicken du dann auf die Schaltfläche "*Test Connection*".
-
-
+Gebe diese Daten in die entsprechenden Felder der Sparrow Wallet ein und klicke dann auf die Schaltfläche "*Test Connection*".
 
 ![Image](assets/fr/035.webp)
 
-
-
-Wenn die Verbindung erfolgreich ist, erscheinen ein Green-Häkchen und eine Bestätigungsmeldung.
-
-
+Wenn die Verbindung erfolgreich ist, erscheint ein grünes Häkchen und eine Bestätigungsmeldung.
 
 ![Image](assets/fr/036.webp)
 
+Das Häkchen unten rechts auf dem Interface von Sparrow Wallet wird nun grun (was eine direkte Verbindung zu Bitcoin Core anzeigt).
 
-
-Das Häkchen unten rechts auf dem Interface Sparrow wallet wird nun zu Green (was eine direkte Verbindung zu Bitcoin core anzeigt).
-
-
-
-**Hinweis:** Damit die Verbindung erfolgreich hergestellt werden kann, muss dein Node zu 100% synchronisiert sein. Wenn dies nicht der Fall ist, warten du bitte bis zum Ende des IBD.
-
-
+**Hinweis:** Damit die Verbindung erfolgreich hergestellt werden kann, muss deine Node zu 100% synchronisiert sein. Wenn dies nicht der Fall ist, warte bitte bis zum Ende des IBD.
 
 ### Verbindung zu Electrs
 
+Wenn deine Node über einen Indexer verfügt, ist es besser, sich mit diesem zu verbinden, als Bitcoin Core direkt zu verwenden, da deine Abfragen dann schneller verarbeitet werden.
 
-
-Wenn dein Node über einen Indexer verfügt, ist es besser, sich mit diesem zu verbinden, als Bitcoin core direkt zu verwenden, da Ihre Abfragen dann schneller verarbeitet werden.
-
-
-
-Gehen du im Sparrow auf die Registerkarte "*Private Electrum*".
-
-
+Gehe in Sparrow auf die Registerkarte "*Private Electrum*".
 
 ![Image](assets/fr/037.webp)
 
+Du musst dann einige Informationen eingeben, um die Verbindung mit deinem Indexer herzustellen. Du findest diese Daten in der Anwendung "*Electrs*" (oder ggf. "*Fulcrum*") auf Umbrel.
 
-
-du müssen dann einige Informationen eingeben, um die Verbindung mit Ihrem Indexer herzustellen. du finden diese Daten in der Anwendung "*Electrs*" (oder ggf. "*Fulcrum*") auf Umbrel.
-
-
-
-Wählen du die Registerkarte "*Tor*", um die `.onion`-Verbindung Address zu erhalten. Wenn du eine mobile Wallet-Software anschließen möchten, können du auch den QR-Code direkt scannen.
-
-
+Wähle die Registerkarte "*Tor*", um die `.onion`-Verbindung Addresse zu erhalten. Wenn du eine mobile Walletsoftware anschließen möchtest, kannst du auch den QR-Code direkt scannen.
 
 ![Image](assets/fr/038.webp)
 
-
-
-Gib einfach den Tor Address deines Electrum-Servers in das Feld "*URL*" ein und klicke dann auf die Schaltfläche "*Verbindung testen*".
-
-
+Gib einfach die Tor Addresse deines Electrum-Servers in das Feld "*URL*" ein und klicke dann auf die Schaltfläche "*Verbindung testen*".
 
 ![Image](assets/fr/039.webp)
 
-
-
-Wenn die Verbindung erfolgreich ist, werden ein Häkchen und eine Bestätigungsmeldung angezeigt.
-
-
+Wenn die Verbindung erfolgreich ist, wird ein Häkchen und eine Bestätigungsmeldung angezeigt.
 
 ![Image](assets/fr/040.webp)
 
+Das Häkchen in der unteren rechten Ecke von Sparrow Wallet wird blau (die Farbe, die mit der Verbindung zu einem Electrum-Server verbunden ist).
 
+**Hinweis:** Damit die Verbindung funktioniert, muss dein Indexer zu 100 % synchronisiert sein. Wenn dies nicht der Fall ist, warte, bis der Indizierungsprozess abgeschlossen ist.
 
-Das Häkchen in der unteren rechten Ecke des Interface Sparrow wallet wird blau (die Farbe, die mit der Verbindung zu einem Electrum-Server verbunden ist).
-
-
-
-**Hinweis:** Damit die Verbindung funktioniert, muss dein Indexer zu 100 % synchronisiert sein. Wenn dies nicht der Fall ist, warten du, bis der Indizierungsprozess abgeschlossen ist.
-
-
-
-Jetzt wissen du, wie du Ihren Wallet an Ihren Bitcoin-Node anschließen können! Im nächsten Kapitel werde ich dir einige zusätzliche Anwendungen vorstellen, die auf Umbrel verfügbar sind, die ich besonders schätze und die es dir ermöglichen, Ihre tägliche Nutzung des Bitcoin über Ihren Node zu verbessern.
-
-
-
+Jetzt weißt du, wie du deine Wallet an deine Bitcoin Node anschließen kannst! Im nächsten Kapitel werde ich dir einige zusätzliche Anwendungen vorstellen, die auf Umbrel verfügbar sind, die ich besonders schätze und die es dir ermöglichen, deine tägliche Nutzung von Bitcoin über deine Node zu verbessern.
 
 ## Übersicht der verfügbaren Anwendungen
 
-
 <chapterId>2a5ccfbe-0b17-44c9-863c-b7e8cb4b4594</chapterId>
 
+Umbrel bietet einen umfangreichen App Store. Wie du sehen wirst, gibt es viele Tools im Zusammenhang mit Bitcoin, aber auch eine Vielzahl von Anwendungen in sehr unterschiedlichen Bereichen: Self-Hosting-Lösungen für Dienste und Dateien, Produktivitätsanwendungen, allgemeinere Finanztools, Medienmanagement, Netzwerksicherheit und -verwaltung, Entwicklung, künstliche Intelligenz, soziale Netzwerke und sogar Heimautomatisierung.
 
+In diesem BTC 202-Kurs werden wir uns ausschließlich auf Bitcoinbezogene Anwendungen konzentrieren. Du kannst jedoch auch den Rest des Katalogs nach Tools durchsuchen, die für dich von Nutzen sein können.
 
-Umbrel bietet einen umfangreichen Anwendungsspeicher. Wie du sehen werden, gibt es viele Tools im Zusammenhang mit Bitcoin, aber auch eine Vielzahl von Anwendungen in sehr unterschiedlichen Bereichen: Self-Hosting-Lösungen für Dienste und Dateien, Produktivitätsanwendungen, allgemeinere Finanztools, Medienmanagement, Netzwerksicherheit und -verwaltung, Entwicklung, künstliche Intelligenz, soziale Netzwerke und sogar Heimautomatisierung.
-
-
-
-In diesem BTC 202-Kurs werden wir uns ausschließlich auf Bitcoin-bezogene Anwendungen konzentrieren. du können jedoch auch den Rest des Katalogs nach Tools durchsuchen, die für du von Nutzen sein könnten.
-
-
-
-Es wäre natürlich unmöglich, hier alle Bitcoin-Anwendungen aufzulisten. In diesem Kapitel möchte ich dir die wichtigsten Werkzeuge vorstellen, die Ihre tägliche Arbeit mit Bitcoin erleichtern und bereichern werden.
-
-
+Es wäre natürlich unmöglich, hier alle Bitcoin-Anwendungen aufzulisten. In diesem Kapitel möchte ich dir die wichtigsten Werkzeuge vorstellen, die deine tägliche Arbeit mit Bitcoin erleichtern und bereichern werden.
 
 ### Mempool.space
 
+Wenn es bei der täglichen Arbeit mit Bitcoin ein Werkzeug gibt, das wirklich unverzichtbar ist, dann ist es der Block-Explorer. Ob online zugänglich oder lokal installiert, es wandelt die Rohdaten der Blockchain in ein strukturiertes, klares und leicht zu lesendes Format um. Er verfügt auch über eine Suchmaschine, mit der Benutzer schnell einen bestimmten Block, eine Transaktion oder Addresse finden können.
 
+Konkret kannst du mit dem Explorer die Gebühren abschätzen, die für die Aufnahme deiner Transaktion in einen Block erforderlich sind und dann ihren Fortschritt verfolgen: du kannst herausfinden, ob sie je nach Gebührenmarkt wahrscheinlich in naher Zukunft aufgenommen wird, und schließlich bestätigen, dass sie tatsächlich in einem Block aufgenommen wurde. Es bietet auch die Möglichkeit, deine vergangenen Transaktionen zu analysieren und deren Historie einzusehen. Kurz gesagt, es ist das Schweizer Taschenmesser des Bitcoiners.
 
-Wenn es bei der täglichen Arbeit mit Bitcoin ein Werkzeug gibt, das wirklich unverzichtbar ist, dann ist es Block explorer. Ob online zugänglich oder lokal installiert, es wandelt die Rohdaten des Blockchain in ein strukturiertes, klares und leicht zu lesendes Format um. Es verfügt auch über eine Suchmaschine, mit der Benutzer schnell einen bestimmten Block, eine Transaktion oder Address finden können.
-
-
-
-Konkret können du mit dem Explorer die Gebühren abschätzen, die für die Aufnahme Ihrer Transaktion in einen Block erforderlich sind, dann ihren Fortschritt verfolgen: du können herausfinden, ob sie je nach Gebührenmarkt wahrscheinlich in naher Zukunft aufgenommen wird, und schließlich bestätigen, dass sie tatsächlich in einen Block aufgenommen wurde. Es bietet auch die Möglichkeit, Ihre vergangenen Transaktionen zu analysieren und deren Historie einzusehen. Kurz gesagt, es ist das Schweizer Taschenmesser des Bitcoiners.
-
-
-
-Wie bereits erwähnt, kann ein Explorer online auf einer Website gehostet oder lokal auf Ihrem Rechner ausgeführt werden. Ein großer Nachteil von Online-Diensten ist, dass sie Ihre Privatsphäre gefährden können. Ohne VPN oder Tor kann der Server, auf dem der Explorer gehostet wird, Ihre IP-Adresse Address mit den von dir angezeigten Transaktionen verknüpfen, was einen idealen Einstiegspunkt für Kettenanalysen darstellen kann.
-
-
+Wie bereits erwähnt, kann ein Explorer online auf einer Website gehostet oder lokal auf deinem Rechner ausgeführt werden. Ein großer Nachteil von Online-Diensten ist, dass sie deine Privatsphäre gefährden können. Ohne VPN oder Tor kann der Server, auf dem der Explorer gehostet wird, deine IP-Adresse mit den von dir angezeigten Transaktionen verknüpfen, was einen idealen Einstiegspunkt für Kettenanalysen darstellen kann.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Darüber hinaus kann dein Internetdienstanbieter (ISP) wissen, dass du eine bestimmte Transaktion über die Block explorer-Website abrufen. Dies wirft auch eine Vertrauensfrage auf: du müssen sich darauf verlassen, dass der Online-Dienst dir genaue Informationen über Ihre Transaktionen liefert, ohne dass du deren Wahrheitsgehalt selbst überprüfen können.
+Darüber hinaus kann dein Internetdienstanbieter (ISP) wissen, dass du eine bestimmte Transaktion über die Block explorer-Website abrufst. Dies wirft auch eine Vertrauensfrage auf: du musst dich darauf verlassen, dass der Onlinedienst dir genaue Informationen über deine Transaktionen liefert, ohne dass du deren Wahrheitsgehalt selbst überprüfen kannst.
 
+Deshalb ist es immer am besten, deinen eigenen lokalen Block-Explorer zu verwenden. Auf diese Weise können keine Daten über deine Suchaktivitäten nach außen dringen, da alle Abfragen direkt auf einem von dir kontrollierten Rechner verarbeitet werden, ohne das Internet zu durchlaufen. Darüber hinaus stützt sich ein lokaler Explorer auf die Daten deiner eigenen Bitcoin Node, die du selbst nach deinen eigenen Regeln validiert hast und der du vertrauen kannst.
 
-
-Deshalb ist es immer am besten, Ihren eigenen lokalen Block explorer zu verwenden. Auf diese Weise können keine Daten über Ihre Suchaktivitäten nach außen dringen, da alle Abfragen direkt auf einem von dir kontrollierten Rechner verarbeitet werden, ohne das Internet zu durchlaufen. Darüber hinaus stützt sich ein lokaler Explorer auf die Daten Ihres eigenen Bitcoin-Node, den du selbst nach Ihren eigenen Regeln validiert haben und dem du vertrauen können.
-
-
-
-Umbrel bietet mehrere Blockexplorer an:
-
-
-
+Umbrel bietet mehrere Block-Explorer an:
 
 - Mempool.Space
 - Bitfeed
-- BTC RPC Entdecker
+- BTC RPC Explorer
 
+Besonders angetan bin ich von Mempool.Space, das ich auf meiner Node installiert habe. Bitte beachte: um die meisten Block-Explorer auf Umbrel zu benutzen, ist ein Addressindexer erforderlich. Du benötigen also die Anwendung Bitcoin Core (oder Bitcoin Knots), die eine 100% synchronisierte Blockchain hat, sowie einen Indexer wie Electrs oder Fulcrum, der ebenfalls 100% synchronisiert ist.
 
-
-Besonders angetan bin ich von Mempool.Space, das ich auf meinem Node installiert habe. Bitte beachten du: um die meisten Block-Explorer auf Umbrel zu benutzen, ist ein Address Indexer erforderlich. du benötigen also die Anwendung Bitcoin Node (oder Bitcoin Knots), die einen 100% synchronisierten Blockchain hat, sowie einen Indexer wie Electrs oder Fulcrum, der ebenfalls 100% synchronisiert ist.
-
-
-
-Sobald die Anwendung installiert ist, öffnen du sie einfach, um auf Ihren eigenen Explorer zuzugreifen.
-
-
+Sobald die Anwendung installiert ist, öffne sie einfach, um auf deinen eigenen Explorer zuzugreifen.
 
 ![Image](assets/fr/041.webp)
 
-
-
 Um mehr über die Verwendung des Mempool.Space Explorers zu erfahren, empfehle ich dieses umfassende Tutorial:
-
-
 
 https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-### Blitzknoten
+### Lightning Node
 
+Jetzt, da du deine eigene Bitcoin Node hast, kannst du auch deine eigene Lightning Node einrichten, um Off-Chain-Transaktionen durchzuführen, ohne auf die Infrastruktur eines Dritten angewiesen zu sein.
 
-
-Jetzt, da du Ihren eigenen Bitcoin-Node haben, können du auch Ihren eigenen Lightning-Node einrichten, um off-chain-Transaktionen durchzuführen, ohne auf die Infrastruktur eines Dritten angewiesen zu sein.
-
-
-
-Umbrel bietet eine Reihe von Anwendungen, die dir helfen, Ihren Lightning-Node zum Laufen zu bringen. du können bereits zwischen zwei Hauptimplementierungen wählen:
-
-
-
+Umbrel bietet eine Reihe von Anwendungen, die dir helfen, deine Lightning Node zum Laufen zu bringen. Du kannst bereits zwischen zwei Hauptimplementierungen wählen:
 
 - LND, über die Anwendung *Lightning Node*;
 - Core Lightning.
 
-
-
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-du können Ihren Node dann vom Haupt-Interface aus verwalten, oder, für noch mehr Funktionalität und erweiterte Optionen, *Ride The Lightning* oder *ThunderHub* installieren. Diese Tools bieten dir ein viel umfassenderes webbasiertes Interface-Verwaltungssystem für Ihren Node.
-
-
+Du kannst deine Node dann vom Haupt-Interface aus verwalten, oder, für noch mehr Funktionalität und erweiterte Optionen, *Ride The Lightning* oder *ThunderHub* installieren. Diese Tools bieten dir ein viel umfassenderes webbasiertes Interface-Verwaltungssystem für deine Node.
 
 https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
@@ -1395,146 +1269,73 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 ![Image](assets/fr/088.webp)
 
-
-
-Schließlich empfehle ich die Anwendung *Lightning Network+*, mit der du Gleichgesinnte finden können, mit denen du Kanäle öffnen können, die sowohl ausgehende als auch eingehende Bargeldtransaktionen ermöglichen.
-
-
+Schließlich empfehle ich die Anwendung *Lightning Network+*, mit der du Gleichgesinnte finden kannst, mit denen du Kanäle öffnen kannst, die sowohl ausgehende als auch eingehende Bargeldtransaktionen ermöglichen.
 
 ![Image](assets/fr/089.webp)
 
+Dank Umbrel ist die Verwaltung einer persönlichen Lightning Node stark vereinfacht worden, aber sie ist immer noch relativ komplex. Aus diesem Grund werden wir dieses Thema in einem zukünftigen Kurs, der sich ausschließlich mit dieser Anwendung befasst, näher beleuchten.
 
+### Tailscale
 
-Dank Umbrel ist die Verwaltung eines persönlichen Lightning-Node stark vereinfacht worden, aber sie ist immer noch relativ komplex. Aus diesem Grund werden wir dieses Thema in einem zukünftigen Kurs, der sich ausschließlich mit dieser Anwendung befasst, näher beleuchten.
+Eine weitere Anwendung, die ich bei Umbrel besonders mag, ist Tailscale. Dabei handelt es sich um eine VPN-Anwendung, die die Einrichtung sicherer Netzwerke zwischen mehreren Geräten vereinfacht, egal wo auf der Welt du dich befindest. Im Gegensatz zu herkömmlichen VPNs, die sich auf zentrale Server stützen, nutzt Tailscale das WireGuard-Protokoll, um verschlüsselte End-to-End-Verbindungen zwischen deinen verschiedenen Geräten herzustellen. Das bedeutet, dass du eine funktionierende VPN in nur wenigen Minuten einrichten kannst, ohne komplizierte Netzwerkkonfigurationen vornehmen zu müssen.
 
-
-
-### Heckwaage
-
-
-
-Eine weitere Anwendung, die ich bei Umbrel besonders mag, ist Tailscale. Dabei handelt es sich um eine VPN-Anwendung, die die Einrichtung sicherer Netzwerke zwischen mehreren Geräten vereinfacht, egal wo auf der Welt sie sich befinden. Im Gegensatz zu herkömmlichen VPNs, die sich auf zentrale Server stützen, nutzt Tailscale das WireGuard-Protokoll, um verschlüsselte End-to-End-Verbindungen zwischen Ihren verschiedenen Geräten herzustellen. Das bedeutet, dass du ein funktionierendes VPN in nur wenigen Minuten einrichten können, ohne komplizierte Netzwerkkonfigurationen vornehmen zu müssen.
-
-
-
-Bei Umbrel verbindet die Tailscale-Installation Ihren Bitcoin-Node mit Ihrem eigenen virtuellen privaten Netzwerk. Einmal konfiguriert, erhält dein Node eine private Tailscale-IP Address, auf die nur andere Geräte zugreifen können, die mit demselben Tailscale-Netzwerk verbunden sind (wie Computer, Smartphones und Tablets). Diese Verbindung ist Ende-zu-Ende verschlüsselt und läuft nicht durch ein ungeschütztes öffentliches Netzwerk, was die Sicherheit im Vergleich zu einer unverschlüsselten Verbindung deutlich erhöht.
-
-
+Bei Umbrel verbindet die Tailscale-Installation deine Bitcoin Node mit deinem eigenen virtuellen privaten Netzwerk. Einmal konfiguriert, erhält deine Node eine private Tailscale-IP Addresse, auf die nur andere Geräte zugreifen können, die mit demselben Tailscale-Netzwerk verbunden sind (wie Computer, Smartphones und Tablets). Diese Verbindung ist Ende-zu-Ende verschlüsselt und läuft nicht durch ein ungeschütztes öffentliches Netzwerk, was die Sicherheit im Vergleich zu einer unverschlüsselten Verbindung deutlich erhöht.
 
 ![Image](assets/fr/090.webp)
 
+Konkret bietet dir Tailscale bei der Nutzung deines Umbrel mehrere Vorteile:
 
+- Du kannst das Interface auf Umbrel verwalten oder auf die mit deiner Node verbundenen Anwendungen (wie Mempool, Ride The Lightning, ThunderHub...) von überall aus zugreifen, als wärst du im selben lokalen Netzwerk, ohne Ports im Internet freizugeben und ohne über Tor zu gehen, was sehr langsam ist;
 
-Konkret bietet dir Tailscale bei der Nutzung Ihres Umbrel mehrere Vorteile:
+- Du kannst dich mit deinem Electrum-Server (Electrs oder Fulcrum) oder direkt mit Bitcoin Core über dein VPN verbinden und dabei Tor umgehen. Dies bietet eine sichere Verbindung, vergleichbar mit der Verwendung von Tor, aber mit viel höherer Geschwindigkeit und geringerer Latenz. Kurz gesagt, du behälst die Datenschutz- und Sicherheitsvorteile von Tor, während du die Geschwindigkeit einer Clearnet-Verbindung genießt. Für eine On-Chain Wallet mag dieser Gewinn marginal erscheinen, aber wenn du planst, später eine eigene Lightning Node einzurichten, ist der Unterschied beträchtlich. In der Tat ist die Durchführung von Zahlungen über deine Node unterwegs auf Tor aufgrund der zahlreichen erforderlichen Austauschvorgänge extrem langsam, während es mit Tailscale perfekt funktioniert.
 
+- Du musst keine NAT-Regeln konfigurieren, keine Ports öffnen oder einen herkömmlichen VPN-Server einrichten. Sobald die Anwendung auf Umbrel und deinen Geräten installiert ist, wird das Netzwerk automatisch aufgebaut.
 
+Tailscale auf Umbrel ist daher eine sehr interessante Lösung, wenn du von überall auf der Welt auf deine Node zugreifen willst, und zwar auf eine sichere, leistungsstarke und einfach zu konfigurierende Art und Weise, ohne dabei deine Privatsphäre oder deine Sicherheit zu opfern.
 
-
-
-- Du kannst den Interface Umbrel verwalten oder auf die mit deinem Node verbundenen Anwendungen (wie Mempool, Ride The Lightning, ThunderHub...) von überall aus zugreifen, als wärst du im selben lokalen Netzwerk, ohne Ports im Internet freizugeben und ohne durch Tor zu gehen, was sehr langsam ist;
-
-
-
-
-
-- du können sich mit Ihrem Electrum-Server (Electrs oder Fulcrum) oder direkt mit Bitcoin core über dein VPN verbinden und dabei Tor umgehen. Dies bietet eine sichere Verbindung, vergleichbar mit der Verwendung von Tor, aber mit viel höherer Geschwindigkeit und geringerer Latenz. Kurz gesagt, du behalten die Datenschutz- und Sicherheitsvorteile von Tor, während du die Geschwindigkeit einer Clearnet-Verbindung genießen. Für einen On-Chain Wallet mag dieser Gewinn marginal erscheinen, aber wenn du planen, später einen eigenen Lightning-Node einzurichten, ist der Unterschied beträchtlich. In der Tat ist die Durchführung von Zahlungen über Ihren Node unterwegs auf Tor aufgrund der zahlreichen erforderlichen Austauschvorgänge extrem langsam, während es mit Tailscale perfekt funktioniert.
-
-
-
-
-
-- du müssen keine NAT-Regeln konfigurieren, keine Ports öffnen oder einen herkömmlichen VPN-Server einrichten. Sobald die Anwendung auf Umbrel und Ihren Geräten installiert ist, wird das Netzwerk automatisch aufgebaut.
-
-
-
-Tailscale on Umbrel ist daher eine sehr interessante Lösung, wenn du von überall auf der Welt auf Ihren Node zugreifen wollen, und zwar auf eine sichere, leistungsstarke und einfach zu konfigurierende Art und Weise, ohne dabei die Privatsphäre oder die Sicherheit zu opfern.
-
-
-
-Um Tailscale auf Ihrem Umbrel zu installieren und zu konfigurieren, lesen du dieses Tutorial, Abschnitt 4: "*Tailscale auf Umbrel verwenden*":
-
-
+Um Tailscale auf deinem Umbrel zu installieren und zu konfigurieren, lies dieses Tutorial, Abschnitt 4: "*Tailscale auf Umbrel verwenden*":
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
-
-
 Nostr, ein Akronym für "*Notes and Other Stuff Transmitted by Relays*", ist ein offenes, dezentralisiertes Protokoll, mit dem Nachrichten im Internet veröffentlicht und ausgetauscht werden können, ohne von einer zentralen Plattform abhängig zu sein. Jeder Benutzer verfügt über ein Paar kryptografischer Schlüssel: den öffentlichen Schlüssel (`npub`), der als Identifikator dient, und den privaten Schlüssel (`nsec`), der zum Signieren von Nachrichten und zur Gewährleistung ihrer Authentizität verwendet wird.
-
-
 
 Die Nachrichten werden über ein Netz unabhängiger Relays übertragen. Diese verteilte Architektur macht Nostr resistent gegen Zensur: kein einzelner Server kontrolliert den Zugang oder die Verteilung, und ein Benutzer kann sich mit so vielen Relais verbinden, wie er möchte.
 
-
-
 Dieses Protokoll ist in der Bitcoin-Gemeinschaft sehr beliebt, da Nostr wie Bitcoin Fragen der digitalen Souveränität und Datenkontrolle behandelt. Sein Schöpfer, Fiatjaf, ist ein Entwickler, der im Ökosystem bereits für seine zahlreichen Beiträge bekannt ist.
-
-
 
 Mit deinem Umbrel kannst du deine Nutzung von Nostr optimieren. Durch die Installation der ***Nostr Relay***-Anwendung kannst du dein eigenes privates Relay direkt auf deinem Rechner hosten und so sicherstellen, dass alle deine Beiträge und Interaktionen auf Nostr lokal gespeichert werden und nicht durch das Löschen durch öffentliche Relays verloren gehen können.
 
-
-
 Die Nostr-Clients ***noStrudel*** oder ***Snort*** sind ebenfalls auf Umbrel verfügbar. Dank dieser Anwendungen können du Profile veröffentlichen, lesen, suchen und mit dem Nostr-Ökosystem direkt vom Interface Web auf Ihrem Umbrel interagieren.
-
-
 
 Schließlich gibt es die Anwendung ***Nostr Wallet Connect*** auf Umbrel, die native Lightning-Zahlungen innerhalb von Nostr ermöglicht. Konkret können du Ihren zukünftigen Lightning-Node mit Ihren Nostr-Clients verbinden, um Mikrozahlungen, sogenannte „*Zaps*“, zu senden, um Inhalte zu belohnen oder auf monetarisierte Weise zu interagieren, ohne einen Drittanbieterdienst zu nutzen. Diese Zahlungen werden direkt von Ihrem persönlichen Node über Ihre Kanäle gesendet.
 
-
-
 Um herauszufinden, wie du all diese Anwendungen nutzen können, empfehle ich dir, einen Blick auf diese vollständige Anleitung zu werfen:
-
-
 
 https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay-Server
 
-
-
 BTCPay Server ist ein kostenloser Open-Source-Zahlungsprozessor, der es dir ermöglicht, Zahlungen über Bitcoin und Lightning Network ohne Zwischenhändler zu akzeptieren, während du die Gelder selbst verwahren können.
-
-
 
 Die Architektur von BTCPay Server basiert auf einem Bitcoin-Node und für Lightning auf einer kompatiblen Implementierung (LND, Core Lightning...), was es zu einer der einzigen PoS-Lösungen macht, die vollständig ohne Verwahrung auskommt. Es ist auch die umfassendste Software für Tracking und Buchhaltung.
 
-
-
 ![Image](assets/fr/091.webp)
-
-
 
 Wenn du ein Unternehmen besitzen und Bitcoin-Zahlungen direkt über Ihren Umbrel-Node akzeptieren möchten, ist die BTCPay Server-Anwendung ideal für du. Um mehr über dieses Thema zu erfahren, empfehle ich dir, die folgenden Ressourcen zu konsultieren:
 
-
-
-
-
 - Der BIZ 101-Kurs zum Einsatz von Bitcoin in Ihrem Unternehmen:
-
-
 
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-
-
 - Der POS 305 Kurs zur Nutzung des BTCPay Servers:
-
-
 
 https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
-
-
 - Das BTCPay Server-Tutorial:
 
-
-
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
-
 
 # Fortgeschrittene Konzepte und bewährte Verfahren
 

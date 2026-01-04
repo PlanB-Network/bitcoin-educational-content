@@ -5,7 +5,6 @@ description: Il catalogo delle applicazioni libere e open-source.
 
 ![cover](assets/cover.webp)
 
-
 Nell'era digitale, le grandi aziende e le istituzioni stanno lavorando per rendere Internet più centralizzato, portando il controllo nelle proprie mani e ostacolando così la privacy e la libertà di tutti gli utenti. Non è un'utopia, sta già accadendo. Come bitcoiner, la decentralizzazione, il rispetto della privacy e delle libertà individuali sono principi che ti stanno a cuore, soprattutto negli strumenti che utilizzi quotidianamente. Android, a differenza di iOS, ha permesso per anni la coesistenza di diversi app store all'interno del suo ecosistema, dandoti la libertà di trovare e installare applicazioni dalle tue fonti preferite.
 
 In questa guida daremo un'occhiata a F-droid, una directory di applicazioni che rappresenta un'alternativa ai negozi di applicazioni come Google Play Store e Microsoft Store.
@@ -52,7 +51,7 @@ Cliccando sull'applicazione, troverai, tra le altre cose:
 
 ![permissions](assets/fr/06.webp)
 
-Per saperne di più, consultate il nostro tutorial su Thunderbird:
+Per saperne di più, consulta il nostro tutorial su Thunderbird:
 
 https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
@@ -65,7 +64,7 @@ Concedi i diritti di installazione di F-Droid abilitando l'opzione nelle imposta
 
 ## Exchange delle tue applicazioni
 
-F-Droid incoraggia la pratica dell'open source e il contributo della comunità, in particolare attraverso l'opzione **Near By** Exchange. Collegatevi agli utenti intorno a voi tramite:
+F-Droid incoraggia la pratica dell'open source e il contributo della comunità, in particolare attraverso l'opzione **Near By** Exchange. Collegati agli utenti intorno a te tramite:
 
 - Rilevamento Bluetooth;
 - La stessa rete Wi-Fi;
@@ -97,7 +96,7 @@ Nella sezione **Sviluppatori** della [documentazione](https://f-droid.org/en/doc
 
 ### Integrità e sicurezza
 
-Inserire un'applicazione  open source è spesso sinonimo di maggiore sicurezza, ma anche di notevoli rischi. Come si può garantire che non vi siano alterazioni dannose nel codice sorgente di un'applicazione disponibile su F-Droid?
+Inserire un'applicazione open source è spesso sinonimo di maggiore sicurezza, ma anche di notevoli rischi. Come si può garantire che non vi siano alterazioni dannose nel codice sorgente di un'applicazione disponibile su F-Droid?
 
 F-Droid compila le applicazioni sui propri server, sulla base del codice sorgente e delle istruzioni di compilazione ufficiali. Ogni applicazione pubblicata viene ricostruita e verificata per garantire che non sia stata compromessa. Ciò garantisce che l'APK offerto sia fedele al codice sorgente pubblicato dagli sviluppatori. Inoltre, ogni applicazione installata tramite F-Droid viene firmata digitalmente e l'impronta digitale della firma viene confrontata con quella annunciata dagli sviluppatori dell'applicazione sul sito web ufficiale o sul repository Git.
 

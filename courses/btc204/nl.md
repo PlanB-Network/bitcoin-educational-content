@@ -300,7 +300,7 @@ Ten tweede, zoals vermeld in de vorige paragrafen, zijn bitcoin-munten in wezen 
 ### Geld: authenticiteit, integriteit en dubbele uitgaven
 
 
-Een van de functies van geld is het oplossen van het probleem van het dubbel samenvallen van behoeften. In een systeem dat gebaseerd is op ruilhandel, vereist de voltooiing van een Exchange niet alleen het vinden van een individu dat een goed weggeeft dat overeenkomt met mijn behoefte, maar ook hem voorzien van een goed van gelijke waarde dat zijn eigen behoefte bevredigt. Het vinden van dit evenwicht is een complexe zaak.
+Een van de functies van geld is het oplossen van het 'dubbele coincidence of wants'-probleem. In een systeem dat gebaseerd is op ruilhandel, vereist de voltooiing van een ruil niet alleen het vinden van een individu dat een goed weggeeft dat overeenkomt met mijn behoefte, maar ook hem voorzien van een goed van gelijke waarde dat zijn eigen behoefte bevredigt. Het vinden van dit evenwicht is een complexe zaak.
 
 
 ![BTC204](assets/nl/017.webp)
@@ -317,28 +317,28 @@ Om dit probleem met munten op te lossen, is het essentieel dat de partij die een
 - **en mag niet dubbel worden uitgegeven.**
 
 
-Als je fysieke valuta gebruikt, is het eerste kenmerk het meest complex om te bevestigen. In verschillende perioden in de geschiedenis werd de integriteit van metalen munten vaak aangetast door praktijken zoals bijsnijden of doorboren. In het oude Rome was het bijvoorbeeld gebruikelijk dat burgers de randen van gouden munten afschraapten om een beetje edelmetaal te verzamelen en ze te bewaren voor toekomstige transacties. De intrinsieke waarde van de munt werd zo verminderd, maar de nominale waarde bleef hetzelfde. Dit is een van de redenen waarom de rand van de munt later geribbeld werd.
+Als je fysieke valuta gebruikt, is het eerste kenmerk het meest complex om te bevestigen. In verschillende perioden in de geschiedenis werd de integriteit van metalen munten vaak aangetast door praktijken zoals bijsnijden of doorboren. In het oude Rome was het bijvoorbeeld gebruikelijk dat burgers de randen van gouden munten afschraapten om een beetje edelmetaal te verzamelen en het te bewaren voor toekomstige transacties. De intrinsieke waarde van de munt werd zo verminderd, maar de nominale waarde bleef hetzelfde. Dit is een van de redenen waarom de rand van de munt later geribbeld werd.
 
 
 Authenticiteit is ook een moeilijk kenmerk om te verifiëren op een fysieke gelddrager. De huidige technieken om vals geld te bestrijden worden steeds complexer, waardoor retailers genoodzaakt zijn om te investeren in kostbare verificatiesystemen.
 
 
-Aan de andere kant is dubbele besteding vanwege hun aard geen probleem voor fysieke valuta. Als ik je een biljet van €10 geef, verlaat het onherroepelijk mijn bezit en komt het in jouw bezit, wat natuurlijk elke mogelijkheid uitsluit om de monetaire eenheden die het belichaamt meerdere keren uit te geven. Kortom, ik zal dit biljet van €10 niet opnieuw kunnen uitgeven.
+Aan de andere kant is dubbele besteding voor fysieke valuta vanwege hun aard geen probleem. Als ik je een biljet van €10 geef, verlaat het onherroepelijk mijn bezit en komt het in jouw bezit. Dit sluit vanzelfsprekend uit dat ik deze monetaire eenheid nogmaals kan uitgeven. Kortom, ik zal dit biljet van €10 niet opnieuw kunnen uitgeven.
 
 
 ![BTC204](assets/nl/019.webp)
 
 
-Voor digitale valuta is de moeilijkheid anders. Het is vaak eenvoudiger om de authenticiteit en integriteit van een munt te garanderen. Zoals we in de vorige paragraaf zagen, maakt het UTXO model van Bitcoin het mogelijk om een munt terug te voeren naar zijn oorsprong, en dus te verifiëren dat hij inderdaad is gecreëerd door een miner in overeenstemming met de consensusregels.
+Voor digitale valuta is de moeilijkheid anders. Het is vaak eenvoudiger om de authenticiteit en integriteit van een munt te garanderen. Zoals we in de vorige paragraaf zagen, maakt het Bitcoin UTXO-model het mogelijk om een munt terug te voeren naar haar oorsprong, en dus te verifiëren dat ze inderdaad is gecreëerd door een miner in overeenstemming met de consensusregels.
 
 
-Aan de andere kant is het complexer om ervoor te zorgen dat er geen Double-spending is, omdat alle digitale goederen in essentie informatie zijn. In tegenstelling tot fysieke goederen wordt informatie niet opgedeeld wanneer het wordt uitgewisseld, maar verspreidt het zich door vermenigvuldiging. Als ik je bijvoorbeeld een document per e-mail stuur, wordt het gedupliceerd. Je kunt er niet zeker van zijn dat ik het originele document heb verwijderd.
+Aan de andere kant is het complexer om ervoor te zorgen dat er geen double-spending plaatsvindt, omdat alle digitale goederen in essentie informatie zijn. In tegenstelling tot fysieke goederen wordt informatie niet opgedeeld wanneer het wordt uitgewisseld, maar verspreidt het zich door vermenigvuldiging. Als ik je bijvoorbeeld een document per e-mail stuur, wordt het gedupliceerd. Je kunt er niet zeker van zijn dat ik het originele document heb verwijderd.
 
 
 ![BTC204](assets/nl/020.webp)
 
 
-### Dubbele uitgaven aan Bitcoin voorkomen
+### Dubbele uitgaven op Bitcoin voorkomen
 
 
 De enige manier om deze duplicatie van een digitaal actief te vermijden, is om op de hoogte te zijn van alle uitwisselingen op het systeem. Op die manier kunnen we weten wie wat bezit en ieders bezit bijwerken op basis van de uitgevoerde transacties. Dit gebeurt bijvoorbeeld met giraal geld in het banksysteem. Wanneer je €10 betaalt aan een handelaar met een creditcard, registreert de bank de Exchange en werkt het rekeningboek bij.

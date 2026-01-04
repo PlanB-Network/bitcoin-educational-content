@@ -13,7 +13,6 @@
     "description": {
       "type": "string",
       "description": "Brief description of what the tutorial covers, used for SEO and previews",
-      "minLength": 10,
       "maxLength": 500
     }
   },

@@ -229,6 +229,31 @@ def generate_html_report(results: list[dict], output_path: str):
             display: block;
         }}
 
+        .hidden-occurrences {{
+            display: none;
+        }}
+
+        .hidden-occurrences.show {{
+            display: block;
+        }}
+
+        .show-more-btn {{
+            padding: 0.75rem;
+            background: rgba(88, 166, 255, 0.1);
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.85rem;
+            color: var(--link-color);
+            cursor: pointer;
+            text-align: center;
+            border: 1px dashed var(--link-color);
+        }}
+
+        .show-more-btn:hover {{
+            background: rgba(88, 166, 255, 0.2);
+        }}
+
         .error-item {{
             padding: 0.75rem;
             background: rgba(0, 0, 0, 0.2);
@@ -392,7 +417,9 @@ def generate_html_report(results: list[dict], output_path: str):
                 </div>
                 <div class="error-details" id="error-{error_id}">
 '''
-            for occ in occurrences[:10]:  # Limit to 10 occurrences per type
+            # Show first 4 occurrences
+            visible_count = 4
+            for occ in occurrences[:visible_count]:
                 file_path = occ['file'].replace('/home/asi0/asi0-repos/bitcoin-educational-content/', '')
                 html += f'''
                     <div class="error-item">
@@ -400,8 +427,26 @@ def generate_html_report(results: list[dict], output_path: str):
                         <div class="error-message">{occ['full_error']}</div>
                     </div>
 '''
-            if len(occurrences) > 10:
-                html += f'<div class="error-item">... and {len(occurrences) - 10} more</div>'
+            # If more than visible_count, add expandable section
+            if len(occurrences) > visible_count:
+                remaining = len(occurrences) - visible_count
+                html += f'''
+                    <div class="show-more-btn" onclick="toggleMore('more-{error_id}', this)">
+                        ... and {remaining} more occurrence(s) - click to expand
+                    </div>
+                    <div class="hidden-occurrences" id="more-{error_id}">
+'''
+                for occ in occurrences[visible_count:]:
+                    file_path = occ['file'].replace('/home/asi0/asi0-repos/bitcoin-educational-content/', '')
+                    html += f'''
+                        <div class="error-item">
+                            <div class="error-file">{file_path}</div>
+                            <div class="error-message">{occ['full_error']}</div>
+                        </div>
+'''
+                html += '''
+                    </div>
+'''
             html += '''
                 </div>
             </div>
@@ -465,6 +510,19 @@ def generate_html_report(results: list[dict], output_path: str):
         function toggleDetails(id) {
             const element = document.getElementById(id);
             element.classList.toggle('active');
+        }
+
+        function toggleMore(id, btn) {
+            const element = document.getElementById(id);
+            element.classList.toggle('show');
+            if (element.classList.contains('show')) {
+                btn.textContent = '▲ Click to collapse';
+                btn.style.background = 'rgba(88, 166, 255, 0.2)';
+            } else {
+                const count = element.querySelectorAll('.error-item').length;
+                btn.textContent = '... and ' + count + ' more occurrence(s) - click to expand';
+                btn.style.background = 'rgba(88, 166, 255, 0.1)';
+            }
         }
     </script>
 </body>

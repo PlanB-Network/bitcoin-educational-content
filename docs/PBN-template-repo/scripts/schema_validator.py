@@ -438,11 +438,11 @@ class SchemaValidator:
         cover_rule = rules.get("cover_image", {})
         if cover_rule.get("required", False):
             # Cover must appear within the first 10 lines after frontmatter
-            # Pattern: ![any-alt-text](assets/cover.webp)
-            cover_pattern = re.compile(r'!\[.*?\]\(assets/cover\.webp\)')
+            # Pattern: ![any-alt-text](cover.webp) or ![any-alt-text](assets/cover.webp)
+            cover_pattern = re.compile(r'!\[.*?\]\((?:assets/)?cover\.webp\)')
             first_10_lines = '\n'.join(lines[:10])
             if not cover_pattern.search(first_10_lines):
-                result.add_error("Cover image ![...](assets/cover.webp) must appear within the first 10 lines after YAML front-matter")
+                result.add_error("Cover image ![...](cover.webp) or ![...](assets/cover.webp) must appear within the first 10 lines after YAML front-matter")
 
         # Check headings
         heading_rules = rules.get("headings", {})

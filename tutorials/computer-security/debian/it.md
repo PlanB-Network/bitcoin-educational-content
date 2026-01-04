@@ -12,14 +12,14 @@ Debian è una distribuzione GNU/Linux gratuita, rinomata per la sua robustezza e
 
 - **Gratuita e aperta**: Debian è interamente open source, garantendo trasparenza e assenza di costi di licenza.
 - **Stabilità e sicurezza**: ogni release viene sottoposta a un accurato processo di test, che rende Debian una delle distribuzioni più affidabili e sicure sul mercato.
-- **Comunità attiva**: una vasta comunità e un'ampia documentazione sono disponibili per supportarvi ogni volta che ne avete bisogno.
+- **Comunità attiva**: una vasta comunità e un'ampia documentazione sono disponibili per supportarti ogni volta che ne hai bisogno.
 - **Leggero e scalabile**: è possibile installare Debian su macchine con risorse modeste mantenendo buone prestazioni.
 - **Ampio catalogo software**: oltre 50.000 pacchetti ufficiali sono disponibili nei repository.
 
 
 ## Scegliere un'interfaccia grafica
 
-Debian offre diversi ambienti desktop per soddisfare le vostre esigenze:
+Debian offre diversi ambienti desktop per soddisfare le tue esigenze:
 
 - **GNOME**: interfaccia moderna e intuitiva, ideale per i principianti. Offre un menu grafico fluido e facile da usare per accedere alle applicazioni.
 - **XFCE**: leggero e veloce, perfetto per le macchine meno potenti.
@@ -28,7 +28,7 @@ Debian offre diversi ambienti desktop per soddisfare le vostre esigenze:
 - **LXDE / LXQt**: ultraleggero, adatto ai computer più vecchi.
 - **MATE**: semplice e classico, vicino al vecchio GNOME.
 
-💡 Per un'esperienza confortevole e facile da impugnare, si consiglia di utilizzare **GNOME**.
+💡 Per un'esperienza confortevole e facile da usare, si consiglia di utilizzare **GNOME**.
 
 
 ## Installazione e configurazione di Debian
@@ -45,9 +45,9 @@ Prima di iniziare l'installazione, accertati di disporre delle seguenti apparecc
 
 La scelta dell'immagine Debian dipende dall'architettura del processore:
 
-- **AMD64**: scarica l'edizione "*live hybrid*" dall'elenco [download](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: ottieni l'immagine del DVD dal sito ufficiale [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Altre architetture**: trovare l'ISO corrispondente alla propria architettura [qui](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: scarica l'edizione "*live hybrid*" dall'elenco [download](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.2.0-amd64-DVD-1.iso).
+- **ARM64**: ottieni l'immagine del DVD dal sito ufficiale [Debian]([https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/](https://cdimage.debian.org/debian-cd/current/arm64/iso-dvd/debian-13.2.0-arm64-DVD-1.iso)).
+- **Altre architetture**: trovare l'ISO corrispondente alla propria architettura [qui](https://www.debian.org/CD/http-ftp/#stable).
 
 ![download](assets/fr/01.webp)
 
@@ -61,7 +61,7 @@ Una volta scaricata l'immagine ISO appropriata, procedere alla creazione del sup
 
 - **Avvia Etcher**: apri il software e seleziona l'immagine ISO di Debian scaricata in precedenza.
 - **Scegli la chiave USB**: specifica la tua chiave (8 GB+) come destinazione.
-- Avvia flash: fai clic su **Flash!** e attendi il completamento del processo.
+- **Avvia flash**: fai clic su **Flash!** e attendi il completamento del processo.
 
 ![flash](assets/fr/03.webp)
 
@@ -144,7 +144,7 @@ Una volta completata l'installazione, riavvia il computer per applicare tutte le
 
 ![restart](assets/fr/13.webp)
 
-All'avvio, inserire il nome utente e la password per accedere al sistema.
+All'avvio, inserisci il nome utente e la password per accedere al sistema.
 
 ![login](assets/fr/14.webp)
 
@@ -168,7 +168,7 @@ Questo metodo offre un controllo più completo. Permette di aggiornare i reposit
 sudo apt update
 ```
 
-Quando viene richiesto, inserire la password (si noti che durante la digitazione non viene visualizzato alcun carattere: è normale).
+Quando viene richiesto, inserisci la password (nota che durante la digitazione non viene visualizzato alcun carattere: è normale).
 
 - Per installare gli aggiornamenti disponibili:
 

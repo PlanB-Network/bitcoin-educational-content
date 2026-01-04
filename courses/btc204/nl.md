@@ -407,7 +407,7 @@ Maar omdat Bitcoin-transacties openbaar worden gemaakt, is het nog steeds mogeli
 ### Definitie en werking
 
 
-Blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de  blockchain. Ketenanalyse observeert over het algemeen kenmerken in steekproeven van eerdere transacties. Vervolgens identificeert het dezelfde kenmerken in de transactie die we willen analyseren, om daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, die een praktische oplossing zoekt die 'goed genoeg' is, noemen we een "heuristiek".
+Blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de blockchain. Ketenanalyse observeert over het algemeen kenmerken in steekproeven van eerdere transacties. Vervolgens identificeert het dezelfde kenmerken in de transactie die we willen analyseren, om daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, die een praktische oplossing zoekt die 'goed genoeg' is, noemen we een "heuristiek".
 
 
 In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
@@ -520,10 +520,10 @@ We zullen in de volgende hoofdstukken zien welke dat zijn, maar het is nu al int
 
 
 
-Een transactiepatroon is eenvoudigweg een algemeen model of structuur van een typische transactie, die gevonden kan worden op de  blockchain, en waarvan de waarschijnlijke interpretatie bekend is. Bij het bestuderen van patronen richten we ons op een enkele transactie en analyseren die op een hoog niveau.
+Een transactiepatroon is eenvoudigweg een algemeen model of structuur van een typische transactie, die gevonden kan worden op de blockchain, en waarvan de waarschijnlijke interpretatie bekend is. Bij het bestuderen van patronen richten we ons op een enkele transactie en analyseren die op een hoog niveau.
 
 
-Met andere woorden, we gaan alleen kijken naar het aantal UTXO in de inputs en het aantal UTXO in de outputs, zonder in te gaan op de meer specifieke details of omgeving van de transactie. Op basis van het waargenomen patroon kunnen we de aard van de transactie interpreteren. We gaan dan op zoek naar kenmerken van de structuur en leiden daaruit een interpretatie af.
+Met andere woorden, we gaan alleen kijken naar het aantal UTXO's in de inputs en het aantal UTXO's in de outputs, zonder in te gaan op de meer specifieke details of de omgeving van de transactie. Op basis van het waargenomen patroon kunnen we de aard van de transactie interpreteren. We gaan dan op zoek naar kenmerken van de structuur en leiden daaruit een interpretatie af.
 
 
 ![BTC204](assets/nl/032.webp)
@@ -535,19 +535,19 @@ In dit gedeelte zullen we samen kijken naar de belangrijkste transactiemodellen 
 ### Enkele zending (of enkele betaling)
 
 
-Laten we beginnen met een veel voorkomend patroon, omdat dit het patroon is dat bij de meeste Bitcoin betalingen naar voren komt. Het eenvoudige betalingsmodel wordt gekenmerkt door het verbruik van één of meer UTXO's als input en de productie van 2 UTXO's als output. Dit model ziet er dus als volgt uit:
+Laten we beginnen met een veel voorkomend patroon, omdat dit het patroon is dat bij de meeste Bitcoin-betalingen naar voren komt. Het eenvoudige betalingsmodel wordt gekenmerkt door het verbruik van één of meer UTXO's als input en de productie van twee UTXO's als output. Dit model ziet er dus als volgt uit:
 
 
 ![BTC204](assets/nl/033.webp)
 
 
-Wanneer we deze transactiestructuur op de  blockchain zien, kunnen we al een interpretatie trekken. Zoals de naam al aangeeft, geeft dit model aan dat we in de aanwezigheid zijn van een verzend- of betalingstransactie. De gebruiker heeft zijn eigen UTXO verbruikt in inputs om in outputs te voldoen aan een UTXO betaling en een Exchange UTXO (geld teruggegeven aan dezelfde gebruiker).
+Wanneer we deze transactiestructuur op de blockchain zien, kunnen we al een interpretatie trekken. Zoals de naam al aangeeft, geeft dit model aan dat we te maken hebben met een verzend- of betalingstransactie. De gebruiker heeft zijn eigen UTXO's verbruikt in inputs om in outputs te voldoen aan een betaal-UTXO en een exchange-UTXO (wisselgeld teruggegeven aan dezelfde gebruiker).
 
 
-We weten dus dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee output UTXO's (de betaling UTXO), maar nog wel in het bezit is van de andere UTXO (de Exchange UTXO).
+We weten dus dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee output-UTXO's (de betaal-UTXO), maar nog wel in het bezit is van de andere UTXO (de exchange-UTXO).
 
 
-Op dit moment kunnen we niet specificeren welke uitvoer welke UTXO voorstelt, omdat dit niet het doel is van de patroonstudie. We komen er wel door te vertrouwen op de heuristieken die we in de volgende secties zullen bestuderen. In dit stadium is ons doel beperkt tot het identificeren van de aard van de transactie in kwestie, die in dit geval een eenvoudige verzending is.
+Op dit moment kunnen we niet specificeren welke output welke UTXO voorstelt, omdat dit niet het doel is van de patroonstudie. We komen er wel door te vertrouwen op de heuristieken die we in de volgende secties zullen bestuderen. In dit stadium is ons doel beperkt tot het identificeren van de aard van de transactie in kwestie, die in dit geval een eenvoudige verzending is.
 
 
 Hier is bijvoorbeeld een Bitcoin-transactie die het eenvoudige verzendpatroon gebruikt:
@@ -570,7 +570,7 @@ Na dit eerste voorbeeld zou je beter moeten begrijpen wat het betekent om een "t
 Nu je begrijpt wat een patroon is, gaan we verder met de andere bestaande modellen.
 
 
-### Vegen
+### Vegen (sweeping)
 
 
 Dit tweede model wordt gekenmerkt door het verbruik van één UTXO als input en de productie van één UTXO als output.
@@ -579,7 +579,7 @@ Dit tweede model wordt gekenmerkt door het verbruik van één UTXO als input en 
 ![BTC204](assets/nl/035.webp)
 
 
-De interpretatie van dit model is dat we te maken hebben met een zelfoverdracht. De gebruiker heeft zijn bitcoins naar zichzelf overgedragen, naar een andere Address die van hem is. Aangezien er geen Exchange op de transactie staat, is het hoogst onwaarschijnlijk dat we hier te maken hebben met een betaling. Bij een betaling is het namelijk bijna onmogelijk dat de betaler een UTXO heeft die precies overeenkomt met het bedrag dat de verkoper nodig heeft, plus de transactiekosten. In het algemeen is de betaler daarom verplicht om een Exchange output te produceren.
+De interpretatie van dit model is dat we te maken hebben met een zelfoverdracht. De gebruiker heeft zijn bitcoins naar zichzelf overgedragen, naar een ander adres dat van hem is. Aangezien er geen wisselgeld (exchange) op de transactie staat, is het hoogst onwaarschijnlijk dat we hier te maken hebben met een betaling. Bij een betaling is het namelijk bijna onmogelijk dat de betaler een UTXO heeft die precies overeenkomt met het bedrag dat de verkoper nodig heeft, plus de transactiekosten. In het algemeen is de betaler daarom verplicht om een exchange-output te produceren.
 
 
 We weten dan dat de waargenomen gebruiker waarschijnlijk nog steeds in het bezit is van deze UTXO. In de context van een ketenanalyse, als we weten dat de UTXO gebruikt als input voor de transactie, toebehoort aan Alice, kunnen we aannemen dat de UTXO gebruikt als output, ook aan haar toebehoort. Wat later interessant wordt, is het vinden van transactie-interne heuristieken die deze aanname kunnen versterken (we bekijken deze heuristieken in hoofdstuk 3.3).
@@ -599,10 +599,10 @@ Hier is bijvoorbeeld een Bitcoin-transactie die het veegpatroon gebruikt:
 Source : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 
-Pas echter op dat dit type patroon ook een zelfoverboeking naar de rekening van een cryptocurrency Exchange platform kan onthullen. Het zal de studie van bekende adressen en de context van de transactie zijn die ons zal vertellen of het een veeg is naar een zelfbewaarde wallet of een opname naar een platform. De adressen van Exchange-platforms zijn namelijk vaak gemakkelijk te identificeren.
+Pas echter op dat dit type patroon ook een zelfoverboeking naar de rekening van een cryptocurrency exchange-platform kan onthullen. Het zal de studie van bekende adressen en de context van de transactie zijn die ons zal vertellen of het een veeg is naar een zelfbewaarde (self-custody) wallet of een opname naar een platform. De adressen van exchange-platforms zijn namelijk vaak gemakkelijk te identificeren.
 
 
-Laten we het voorbeeld van Alice nog eens nemen: als de scan leidt naar een Address die bekend is bij een platform (zoals Binance bijvoorbeeld), kan dit betekenen dat de bitcoins zijn overgedragen uit het directe bezit van Alice, waarschijnlijk met de bedoeling om ze te verkopen of op te slaan op dit platform. Aan de andere kant, als de bestemming Address onbekend is, is het redelijk om aan te nemen dat het gewoon een andere wallet is die nog steeds bij Alice hoort. Maar dit soort onderzoek valt meer in de categorie heuristieken dan patronen.
+Laten we het voorbeeld van Alice nog eens nemen: als de scan leidt naar een adres dat bekend is bij een platform (zoals Binance bijvoorbeeld), kan dit betekenen dat de bitcoins zijn overgedragen uit het directe bezit van Alice, waarschijnlijk met de bedoeling om ze te verkopen of op te slaan op dit platform. Aan de andere kant, als het bestemmingsadres onbekend is, is het redelijk om aan te nemen dat het gewoon een andere wallet is die nog steeds bij Alice hoort. Maar dit soort onderzoek valt meer in de categorie heuristieken dan patronen.
 
 
 ### Consolidatie
@@ -617,7 +617,7 @@ Dit model wordt gekenmerkt door het verbruik van meerdere UTXO's aan de ingang e
 De interpretatie van dit patroon is dat we te maken hebben met consolidatie. Dit is een gebruikelijke praktijk onder Bitcoin-gebruikers, gericht op het samenvoegen van verschillende UTXO's in afwachting van een mogelijke verhoging van de transactiekosten. Door deze operatie uit te voeren in een periode waarin de vergoedingen laag zijn, is het mogelijk om te besparen op toekomstige vergoedingen. We zullen meer over deze praktijk vertellen in hoofdstuk 4.3.
 
 
-We kunnen afleiden dat de gebruiker achter dit transactiemodel waarschijnlijk in het bezit was van alle UTXO's in de invoer en nog steeds in het bezit is van de UTXO in de uitvoer. Het is dus waarschijnlijk een auto-transfer.
+We kunnen afleiden dat de gebruiker achter dit transactiemodel waarschijnlijk in het bezit was van alle UTXO's in de invoer en nog steeds in het bezit is van de UTXO in de output. Het is dus waarschijnlijk een auto-transfer.
 
 
 Net als de sweep kan dit type patroon ook een zelfoverboeking naar de rekening van een Exchange platform onthullen. De studie van bekende adressen en de context van de transactie zullen ons vertellen of het een consolidatie is naar een self-custody portefeuille of een opname naar een platform.
@@ -722,7 +722,7 @@ Een interne heuristiek is een specifiek kenmerk dat we identificeren binnen een 
 - Alles wat met scripts te maken heeft: ontvangstadressen, versiebeheer, locktijden...
 
 
-Over het algemeen stelt dit type heuristiek ons in staat om de Exchange in een specifieke transactie te identificeren. Door dit te doen, kunnen we de tracering van een entiteit voortzetten over verschillende transacties. Als we namelijk een UTXO identificeren, die toebehoort aan een gebruiker die we willen traceren, is het cruciaal om te bepalen, wanneer hij een transactie uitvoert, welke uitvoer is overgedragen aan een andere gebruiker en welke uitvoer de Exchange vertegenwoordigt, die dus in zijn bezit blijft.
+Over het algemeen stelt dit type heuristiek ons in staat om de Exchange in een specifieke transactie te identificeren. Door dit te doen, kunnen we de tracering van een entiteit voortzetten over verschillende transacties. Als we namelijk een UTXO identificeren, die toebehoort aan een gebruiker die we willen traceren, is het cruciaal om te bepalen, wanneer hij een transactie uitvoert, welke output is overgedragen aan een andere gebruiker en welke uitvoer de Exchange vertegenwoordigt, die dus in zijn bezit blijft.
 
 
 ![BTC204](assets/nl/044.webp)
@@ -743,7 +743,7 @@ De meest voor de hand liggende eigenschap is het hergebruik van een ontvangst-ad
 ![BTC204](assets/nl/045.webp)
 
 
-Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn private sleutel gehackt is, onthult dezelfde ontvangen Address noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de transactie Exchange de uitvoer is met dezelfde Address als de invoer. We kunnen het individu dan verder traceren vanaf deze Exchange.
+Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn private sleutel gehackt is, onthult dezelfde ontvangen Address noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de transactie Exchange de output is met dezelfdeadres als de invoer. We kunnen het individu dan verder traceren vanaf deze Exchange.
 
 
 Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -760,13 +760,13 @@ Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan wo
 Source : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 
-Deze overeenkomsten tussen inputs en outputs stoppen niet bij Address hergebruik. Elke overeenkomst in het gebruik van scripts kan worden gebruikt om een heuristiek toe te passen. We kunnen bijvoorbeeld soms dezelfde versionering waarnemen tussen de invoer en een van de uitvoer van de transactie.
+Deze overeenkomsten tussen inputs en outputs stoppen niet bijadres hergebruik. Elke overeenkomst in het gebruik van scripts kan worden gebruikt om een heuristiek toe te passen. We kunnen bijvoorbeeld soms dezelfde versionering waarnemen tussen de invoer en een van de output van de transactie.
 
 
 ![BTC204](assets/nl/047.webp)
 
 
-Op dit diagram kunnen we zien dat input n° 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output n° 0 gebruikt hetzelfde type script. Uitvoer nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de invoer de Exchange Address is. Het zou dus altijd van dezelfde gebruiker zijn.
+Op dit diagram kunnen we zien dat input n° 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output n° 0 gebruikt hetzelfde type script. Uitvoer nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de invoer de Exchangeadres is. Het zou dus altijd van dezelfde gebruiker zijn.
 
 
 Hier is een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -792,7 +792,7 @@ In het begin van 2010 was deze heuristiek op basis van scriptversie relatief nut
 ### Betalingen afronden
 
 
-Een andere interne heuristiek die ons kan helpen de Exchange te identificeren is de ronde getallen heuristiek. In het algemeen geldt dat wanneer we worden geconfronteerd met een eenvoudig betalingspatroon (1 invoer en 2 uitgangen), als een van de uitgangen een rond bedrag uitgeeft, dit de betaling is.
+Een andere interne heuristiek die ons kan helpen de Exchange te identificeren is de ronde getallen heuristiek. In het algemeen geldt dat wanneer we worden geconfronteerd met een eenvoudig betalingspatroon (1 invoer en 2 outputs), als een van de outputs een rond bedrag uitgeeft, dit de betaling is.
 
 
 ![BTC204](assets/nl/049.webp)
@@ -837,7 +837,7 @@ Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan wo
 Source : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
 
-### De grootste uitvoer
+### De grootste uitvoer (output)
 
 
 Wanneer we een voldoende grote kloof tussen 2 transactieoutputs identificeren op een eenvoudig betalingsmodel, kunnen we schatten dat de grootste output waarschijnlijk buitenlands Exchange is.
@@ -846,7 +846,7 @@ Wanneer we een voldoende grote kloof tussen 2 transactieoutputs identificeren op
 ![BTC204](assets/nl/052.webp)
 
 
-Deze grootste uitvoerheuristiek is zeker de meest onnauwkeurige van allemaal. Op zichzelf is hij behoorlijk zwak. Deze eigenschap kan echter worden gecombineerd met andere heuristieken om de onzekerheid van onze interpretatie te verminderen.
+Deze grootste outputheuristiek is zeker de meest onnauwkeurige van allemaal. Op zichzelf is hij behoorlijk zwak. Deze eigenschap kan echter worden gecombineerd met andere heuristieken om de onzekerheid van onze interpretatie te verminderen.
 
 
 Als we bijvoorbeeld kijken naar een transactie met een ronde betaling en een grotere betaling, dan verminderen de toepassing van de heuristiek voor ronde betalingen en de heuristiek voor grotere betalingen samen onze mate van onzekerheid.
@@ -878,22 +878,22 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 Het bestuderen van externe heuristieken betekent het analyseren van de overeenkomsten, patronen en kenmerken van bepaalde elementen die niet specifiek zijn voor de transactie zelf. Met andere woorden, terwijl we ons eerder beperkten tot het benutten van elementen die intrinsiek zijn aan de transactie met interne heuristieken, verbreden we nu ons analysegebied naar de omgeving van de transactie, dankzij externe heuristieken.
 
 
-### Address hergebruik
+###adres hergebruik
 
 
-Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik van Address maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin dat adres ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
+Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik vanadres maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin dat adres ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
 
 
-Het is dus mogelijk om Address hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de Exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maar Address hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
+Het is dus mogelijk omadres hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de Exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maaradres hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
 
 
-De interpretatie van het hergebruik van een Address is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
+De interpretatie van het hergebruik van eenadres is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
 
 
 ![BTC204](assets/nl/054.webp)
 
 
-Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Satoshi Nakamoto zelf. In het witboek noemt hij een oplossing om gebruikers te helpen voorkomen dat ze deze heuristiek genereren, namelijk gewoon een lege Address gebruiken voor elke nieuwe transactie:
+Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Satoshi Nakamoto zelf. In het witboek noemt hij een oplossing om gebruikers te helpen voorkomen dat ze deze heuristiek genereren, namelijk gewoon een legeadres gebruiken voor elke nieuwe transactie:
 
 
 "_Als extra firewall zou voor elke transactie een nieuw sleutelpaar gebruikt kunnen worden om ze niet te koppelen aan een gemeenschappelijke eigenaar._"
@@ -905,7 +905,7 @@ Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Sa
 Bron: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
 
-Hier is bijvoorbeeld een Address die in meerdere transacties wordt hergebruikt:
+Hier is bijvoorbeeld eenadres die in meerdere transacties wordt hergebruikt:
 
 
 ```plaintext
@@ -922,7 +922,7 @@ Bron : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhr
 ### Gelijksoortige scripts en wallet afdrukken
 
 
-Naast het hergebruik van Address zijn er veel andere heuristieken waarmee je acties aan dezelfde portfolio of Address cluster kunt koppelen.
+Naast het hergebruik vanadres zijn er veel andere heuristieken waarmee je acties aan dezelfde portfolio ofadres cluster kunt koppelen.
 
 
 Ten eerste kan een analist zoeken naar overeenkomsten in scriptgebruik. Bepaalde minderheidsscripts zoals Multisig zijn bijvoorbeeld makkelijker te herkennen dan SegWit V0-scripts. Hoe groter de groep waarin we ons verbergen, hoe moeilijker het is om ons te herkennen. Dit is een van de redenen waarom bij goede CoinJoin protocollen alle deelnemers precies hetzelfde type script gebruiken.
@@ -931,7 +931,7 @@ Ten eerste kan een analist zoeken naar overeenkomsten in scriptgebruik. Bepaalde
 Meer in het algemeen kan een analist zich ook richten op de karakteristieke vingerafdrukken van een portefeuille. Dit zijn gebruiksspecifieke processen die kunnen worden geïdentificeerd om ze te gebruiken als opsporingsheuristiek. Met andere woorden, als we een opeenstapeling van dezelfde interne kenmerken waarnemen bij transacties die worden toegeschreven aan de getraceerde entiteit, kunnen we proberen deze zelfde kenmerken te identificeren bij andere transacties.
 
 
-We kunnen bijvoorbeeld vaststellen dat de getraceerde gebruiker zijn wijzigingen systematisch naar P2TR adressen stuurt (`bc1p...`). Als dit proces zich herhaalt, kunnen we het gebruiken als een heuristiek voor de rest van onze analyse. We kunnen ook andere vingerafdrukken gebruiken, zoals de volgorde van UTXO's, de plaats van de wijziging in de uitvoer, RBF (Replace-by-fee) signalering, of het versienummer, het `nSequence` veld en het `nLockTime` veld.
+We kunnen bijvoorbeeld vaststellen dat de getraceerde gebruiker zijn wijzigingen systematisch naar P2TR adressen stuurt (`bc1p...`). Als dit proces zich herhaalt, kunnen we het gebruiken als een heuristiek voor de rest van onze analyse. We kunnen ook andere vingerafdrukken gebruiken, zoals de volgorde van UTXO's, de plaats van de wijziging in de output, RBF (Replace-by-fee) signalering, of het versienummer, het `nSequence` veld en het `nLockTime` veld.
 
 
 ![BTC204](assets/nl/057.webp)
@@ -952,7 +952,7 @@ De Common Input Ownership Heuristic (CIOH) is een heuristiek die stelt dat wanne
 ![BTC204](assets/nl/058.webp)
 
 
-Om het CIOH toe te passen, observeren we eerst een transactie met meerdere ingangen. Dit kunnen 2 ingangen zijn, of 30 ingangen. Zodra dit kenmerk is geïdentificeerd, controleren we of de transactie past in een bekend transactiemodel. Als er bijvoorbeeld 5 ingangen zijn met ongeveer hetzelfde bedrag en 5 uitgangen met precies hetzelfde bedrag, dan weten we dat dit de structuur van een CoinJoin is. We kunnen de CIOH dan niet toepassen.
+Om het CIOH toe te passen, observeren we eerst een transactie met meerdere ingangen. Dit kunnen 2 ingangen zijn, of 30 ingangen. Zodra dit kenmerk is geïdentificeerd, controleren we of de transactie past in een bekend transactiemodel. Als er bijvoorbeeld 5 ingangen zijn met ongeveer hetzelfde bedrag en 5 outputs met precies hetzelfde bedrag, dan weten we dat dit de structuur van een CoinJoin is. We kunnen de CIOH dan niet toepassen.
 
 
 ![BTC204](assets/nl/059.webp)
@@ -973,7 +973,7 @@ CIOH werd ontdekt door Satoshi Nakamoto. Hij vertelt erover in deel 10 van het w
 ![BTC204](assets/nl/061.webp)
 
 
-Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH en Address hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij blockchainanalyse.
+Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH enadres hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij blockchainanalyse.
 
 
 Om een voorbeeld te geven: hier is een transactie waarop we CIOH waarschijnlijk kunnen toepassen:
@@ -996,13 +996,13 @@ Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8
 Natuurlijk is ketenanalyse niet uitsluitend beperkt tot gegevens over de keten. Alle gegevens uit een eerdere analyse of beschikbaar op internet kunnen ook worden gebruikt om een analyse te verfijnen.
 
 
-Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IP Address identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
+Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IPadres identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
 
 
-De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een uitvoer vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op uitvoer die wijst naar een Exchange platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
+De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een output vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op output die wijst naar een Exchange platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
 
 
-Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee uitgangen, één daarvan betrekking heeft op een Address cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere uitgang waarschijnlijk Exchange voorstelt.
+Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee outputs, één daarvan betrekking heeft op eenadres cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere output waarschijnlijk Exchange voorstelt.
 
 
 Kanaalanalyse omvat ook een iets algemenere OSINT-component (*Open Source Intelligence*), waarbij gezocht wordt op internet. Daarom raden we af om adressen rechtstreeks te publiceren op sociale netwerken of op een website, al dan niet onder een pseudoniem.
@@ -1032,7 +1032,7 @@ Als we daarentegen kunnen zien dat het temporele patroon eerder verspreid is ove
 Naast de aard van de waargenomen entiteit kan het temporele patroon ons ook vertellen waar de gebruiker zich ongeveer bevindt, dankzij tijdzones. Op deze manier kunnen we andere transacties matchen en hun tijdstempels gebruiken als een extra heuristiek die kan worden toegevoegd aan onze analyse.
 
 
-Op de meervoudig gebruikte Address die ik eerder noemde, kunnen we bijvoorbeeld zien dat transacties, zowel inkomend als uitgaand, geconcentreerd zijn op een interval van 13 uur.
+Op de meervoudig gebruikteadres die ik eerder noemde, kunnen we bijvoorbeeld zien dat transacties, zowel inkomend als uitgaand, geconcentreerd zijn op een interval van 13 uur.
 
 
 ```plaintext
@@ -1112,7 +1112,7 @@ Identificatiecode van de te analyseren transactie :
 Wat is het model voor deze transactie?
 
 
-Welke uitvoer zal de Exchange waarschijnlijk voorstellen, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
+Welke output zal de Exchange waarschijnlijk voorstellen, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
 
 
 ### Oefening 4
@@ -1129,7 +1129,7 @@ Identificatiecode van de te analyseren transactie :
 Wat is het model voor deze transactie?
 
 
-Welke uitvoer zal de Exchange waarschijnlijk weergeven, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
+Welke output zal de Exchange waarschijnlijk weergeven, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
 
 
 ### Oefening 5
@@ -1149,7 +1149,7 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 Gebaseerd op deze informatie en gebruikmakend van **alleen het adres hergebruik heuristiek**, welke Bitcoin-transacties kunnen gelinkt worden aan Loïc's identiteit?
 
 
-*Uiteraard ben ik niet de echte eigenaar van deze receptie Address en heb ik hem niet op sociale netwerken geplaatst. Het is een Address die ik willekeurig uit de  blockchain* heb gehaald
+*Uiteraard ben ik niet de echte eigenaar van deze receptieadres en heb ik hem niet op sociale netwerken geplaatst. Het is eenadres die ik willekeurig uit de blockchain* heb gehaald
 
 
 ### Oefening 6
@@ -1163,7 +1163,7 @@ Na oefening 5 was je, dankzij het adres hergebruik heuristiek, in staat om versc
 ```
 
 
-Deze transactie is de allereerste die geld stuurt naar Loïc's Address. Waar denk je dat de bitcoins vandaan komen die Loïc via deze transactie heeft ontvangen?
+Deze transactie is de allereerste die geld stuurt naar Loïc'sadres. Waar denk je dat de bitcoins vandaan komen die Loïc via deze transactie heeft ontvangen?
 
 
 ### Oefening 7
@@ -1195,7 +1195,7 @@ Welke informatie kunnen we interpreteren als we alleen naar deze transactie kijk
 ***Uitoefening 1:***
 
 
-Het model voor deze transactie is het eenvoudige betalingsmodel. Als we alleen de structuur bestuderen, kunnen we interpreteren dat één uitgang het Exchange voorstelt en de andere uitgang een daadwerkelijke betaling. We weten daarom dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee UTXO's in de output (die van de betaling), maar nog wel in het bezit is van de andere UTXO (die van Exchange).
+Het model voor deze transactie is het eenvoudige betalingsmodel. Als we alleen de structuur bestuderen, kunnen we interpreteren dat één output het Exchange voorstelt en de andere output een daadwerkelijke betaling. We weten daarom dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee UTXO's in de output (die van de betaling), maar nog wel in het bezit is van de andere UTXO (die van Exchange).
 
 
 ***Uitoefening 2:***
@@ -1216,10 +1216,10 @@ Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hyp
 
 
 - Het hergebruik van hetzelfde type script ;
-- De grootste uitvoer.
+- De grootste output.
 
 
-De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzelfde type script. Inderdaad, uitvoer `0` is een `P2SH`, herkenbaar aan zijn ontvangst Address beginnend met `3` :
+De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzelfde type script. Inderdaad, output `0` is een `P2SH`, herkenbaar aan zijn ontvangstadres beginnend met `3` :
 
 
 ```plaintext
@@ -1227,7 +1227,7 @@ De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzel
 ```
 
 
-Terwijl uitgang `1` een `P2WPKH` is, herkenbaar aan zijn Address beginnend met `bc1q` :
+Terwijl output `1` een `P2WPKH` is, herkenbaar aan zijnadres beginnend met `bc1q` :
 
 
 ```plaintext
@@ -1243,16 +1243,16 @@ bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
 
-We kunnen dus aannemen dat uitgang `0` overeenkomt met een betaling en uitgang `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van uitgang `1`.
+We kunnen dus aannemen dat output `0` overeenkomt met een betaling en output `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
 
 
 Om deze hypothese te ondersteunen of te weerleggen, kunnen we op zoek gaan naar andere heuristieken die onze denkwijze bevestigen of de waarschijnlijkheid dat onze hypothese juist is, verkleinen.
 
 
-Ik heb minstens één andere heuristiek geïdentificeerd. Het is de grootste uitvoerheuristiek. Uitgang `0` meet `123.689 Sats`, terwijl uitgang `1` `505.839 Sats` meet. Er is dus een significant verschil tussen deze twee uitgangen. De grootste output heuristiek suggereert dat de grootste output waarschijnlijk buitenlands Exchange is. Deze heuristiek versterkt onze aanvankelijke hypothese nog verder.
+Ik heb minstens één andere heuristiek geïdentificeerd. Het is de grootste outputheuristiek. Uitgang `0` meet `123.689 Sats`, terwijl output `1` `505.839 Sats` meet. Er is dus een significant verschil tussen deze twee outputs. De grootste output heuristiek suggereert dat de grootste output waarschijnlijk buitenlands Exchange is. Deze heuristiek versterkt onze aanvankelijke hypothese nog verder.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` uitvoer heeft, die de Exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de Exchange van de transactie lijkt te belichamen.
 
 
 ***Uitoefening 4:***
@@ -1270,7 +1270,7 @@ Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hyp
 - De output van de ronde paal.
 
 
-De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzelfde type script. Inderdaad, uitvoer `0` is een `P2SH`, herkenbaar aan zijn ontvangst Address beginnend met `3` :
+De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzelfde type script. Inderdaad, output `0` is een `P2SH`, herkenbaar aan zijn ontvangstadres beginnend met `3` :
 
 
 ```plaintext
@@ -1278,7 +1278,7 @@ De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzel
 ```
 
 
-Terwijl uitgang `1` een `P2WPKH` is, identificeerbaar door zijn Address beginnend met `bc1q` :
+Terwijl output `1` een `P2WPKH` is, identificeerbaar door zijnadres beginnend met `bc1q` :
 
 
 ```plaintext
@@ -1294,19 +1294,19 @@ bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
 
-Zo kunnen we aannemen dat uitgang `0` overeenkomt met een betaling en uitgang `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van uitgang `1`.
+Zo kunnen we aannemen dat output `0` overeenkomt met een betaling en output `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
 
 
 Om deze hypothese te ondersteunen of te weerleggen, kunnen we op zoek gaan naar andere heuristieken die onze denkwijze bevestigen of de waarschijnlijkheid dat onze hypothese juist is, verkleinen.
 
 
-Ik heb ten minste één andere heuristiek geïdentificeerd. Het is de ronde hoeveelheid uitvoer. Uitgang `0` meet `70.000 Sats`, terwijl uitgang `1` `22.962 Sats` meet. We hebben dus een perfect ronde uitvoer in de BTC rekeneenheid. De ronde output heuristiek suggereert dat de UTXO met een rond bedrag hoogstwaarschijnlijk die van betaling is, en dat door eliminatie, de andere Exchange voorstelt. Deze heuristiek versterkt verder onze initiële hypothese.
+Ik heb ten minste één andere heuristiek geïdentificeerd. Het is de ronde hoeveelheid output. Uitgang `0` meet `70.000 Sats`, terwijl output `1` `22.962 Sats` meet. We hebben dus een perfect ronde output in de BTC rekeneenheid. De ronde output heuristiek suggereert dat de UTXO met een rond bedrag hoogstwaarschijnlijk die van betaling is, en dat door eliminatie, de andere Exchange voorstelt. Deze heuristiek versterkt verder onze initiële hypothese.
 
 
 Maar in dit voorbeeld kan een andere heuristiek onze aanvankelijke hypothese in twijfel trekken. Output `0` is namelijk groter dan output `1`. Gebaseerd op de heuristiek dat de grootste output over het algemeen buitenlands Exchange is, zouden we kunnen afleiden dat output `0` buitenlands Exchange is. Deze tegenhypothese lijkt echter ongeloofwaardig, aangezien de andere twee heuristieken aanzienlijk overtuigender lijken dan de grootste output heuristiek. Bijgevolg lijkt het redelijk om onze aanvankelijke hypothese te handhaven ondanks deze schijnbare tegenspraak.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` uitvoer heeft, die de Exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de Exchange van de transactie lijkt te belichamen.
 
 
 ***Oefening 5:***
@@ -1356,10 +1356,10 @@ OP_CHECKMULTISIG
 Bovendien wordt het adres bestudeerde `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor Exchange platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
 
 
-De temporele heuristiek toegepast op deze Address toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een Exchange platform suggereert.
+De temporele heuristiek toegepast op dezeadres toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een Exchange platform suggereert.
 
 
-Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. De Address ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een Exchange platform.
+Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. Deadres ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een Exchange platform.
 
 
 ***Uitoefening 7:***
@@ -1424,7 +1424,7 @@ Deze informatie suggereert dat Loïc waarschijnlijk aan de westkust van de Veren
 ***Uitoefening 8:***
 
 
-Analyse van deze transactie laat 5 inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle invoer UTXO's eigendom zijn van een enkele entiteit en dat de uitvoer UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één UTXO in uitvoer, met als doel zijn onderdelen te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
+Analyse van deze transactie laat 5 inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle invoer UTXO's eigendom zijn van een enkele entiteit en dat de output UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één UTXO in output, met als doel zijn onderdelen te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
 
 
 ___
@@ -1456,7 +1456,7 @@ ___
 <partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
 
-## Address hergebruik
+##adres hergebruik
 
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
@@ -1468,7 +1468,7 @@ ___
 Na het bestuderen van de technieken die je vertrouwelijkheid op Bitcoin kunnen doorbreken, zullen we in dit derde deel kijken naar de beste manieren om jezelf te beschermen. Het doel van dit deel is niet om methoden te onderzoeken om de vertrouwelijkheid te verbeteren, een onderwerp dat later behandeld zal worden, maar om te begrijpen hoe je op de juiste manier met Bitcoin omgaat om de vertrouwelijkheid die het van nature biedt te behouden, zonder toevlucht te nemen tot extra technieken.
 
 
-Om dit derde deel te beginnen, gaan we het natuurlijk hebben over Address hergebruik. Dit fenomeen is de belangrijkste bedreiging voor de vertrouwelijkheid van gebruikers. Dit hoofdstuk is zeker het belangrijkste van de hele cursus.
+Om dit derde deel te beginnen, gaan we het natuurlijk hebben overadres hergebruik. Dit fenomeen is de belangrijkste bedreiging voor de vertrouwelijkheid van gebruikers. Dit hoofdstuk is zeker het belangrijkste van de hele cursus.
 
 
 ### Wat is een Address ontvangen?
@@ -1477,7 +1477,7 @@ Om dit derde deel te beginnen, gaan we het natuurlijk hebben over Address hergeb
 Een Bitcoin ontvangst-adres is een string of identifier die gebruikt wordt om bitcoins te ontvangen op een wallet.
 
 
-Technisch gezien "ontvangt" een Bitcoin ontvangst-adres geen bitcoins in letterlijke zin, maar dient het om de voorwaarden te definiëren waaronder bitcoins kunnen worden uitgegeven. Concreet: wanneer een betaling naar jou wordt gestuurd, creëert de transactie van de verzender een nieuwe UTXO voor jou als uitvoer van de UTXO's die het als invoer heeft verbruikt. Op deze output wordt een script geplakt dat definieert hoe deze UTXO op een later tijdstip kan worden uitgegeven. Dit script staat bekend als "*ScriptPubKey*" of "*Locking Script*". Jouw ontvangen Address, of beter gezegd de payload ervan, is geïntegreerd in dit script. In lekentaal zegt dit script eigenlijk:
+Technisch gezien "ontvangt" een Bitcoin ontvangst-adres geen bitcoins in letterlijke zin, maar dient het om de voorwaarden te definiëren waaronder bitcoins kunnen worden uitgegeven. Concreet: wanneer een betaling naar jou wordt gestuurd, creëert de transactie van de verzender een nieuwe UTXO voor jou als output van de UTXO's die het als invoer heeft verbruikt. Op deze output wordt een script geplakt dat definieert hoe deze UTXO op een later tijdstip kan worden uitgegeven. Dit script staat bekend als "*ScriptPubKey*" of "*Locking Script*". Jouw ontvangen Address, of beter gezegd de payload ervan, is geïntegreerd in dit script. In lekentaal zegt dit script eigenlijk:
 
 
 > "*Om deze nieuwe UTXO uit te geven, moet u een digitale handtekening zetten met de privésleutel die bij deze ontvangst-adres hoort.*"
@@ -1562,7 +1562,7 @@ Wanneer verschillende ScriptPubKeys dezelfde ontvangst-adres bevatten, wordt dit
 ### Waarom is Address hergebruik een probleem?
 
 
-Omdat de  blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als dezelfde Address voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan dat adres gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de  blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin Witboek:
+Omdat de blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als dezelfde Address voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan dat adres gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin Witboek:
 
 
 > *Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar*
@@ -1596,7 +1596,7 @@ In de stringanalyse zijn er 2 types van Address hergebruik:
 De eerste is wanneer een Address wordt hergebruikt in verschillende Bitcoin-transacties. Dit is waar we het eerder over hadden: deze heuristiek leidt af dat alle UTXO's die door deze Address gaan, tot een enkele entiteit behoren.
 
 
-Intern Address hergebruik vindt niet plaats wanneer hergebruik plaatsvindt over meerdere transacties, maar wanneer het plaatsvindt binnen een enkele transactie. Immers, als dezelfde Address die wordt gebruikt om een invoer te vergrendelen, wordt gebruikt als de uitvoer van een transactie, dan kunnen we afleiden dat deze uitvoer nog steeds toebehoort aan dezelfde gebruiker (Exchange), en dat de tweede uitvoer de werkelijke betaling voorstelt. Deze andere heuristiek maakt het mogelijk om een geldspoor over meerdere transacties te behouden.
+Intern Address hergebruik vindt niet plaats wanneer hergebruik plaatsvindt over meerdere transacties, maar wanneer het plaatsvindt binnen een enkele transactie. Immers, als dezelfde Address die wordt gebruikt om een invoer te vergrendelen, wordt gebruikt als de output van een transactie, dan kunnen we afleiden dat deze output nog steeds toebehoort aan dezelfde gebruiker (Exchange), en dat de tweede output de werkelijke betaling voorstelt. Deze andere heuristiek maakt het mogelijk om een geldspoor over meerdere transacties te behouden.
 
 
 ![BTC204](assets/nl/072.webp)
@@ -1742,7 +1742,7 @@ Als bijvoorbeeld één van je UTXO's afkomstig is van een Exchange platform en j
 De keuze welke UTXO's je gebruikt voor dit eerste punt is daarom een persoonlijke beslissing, beïnvloed door wat je wel of niet bereid bent te onthullen. De labels die je aan je UTXO's toekent wanneer je ze ontvangt, helpen je bij het selecteren van UTXO's die, wanneer ze eenmaal zijn uitgegeven, alleen informatie onthullen waarvan jij het prettig vindt om ze aan de ontvanger te onthullen.
 
 
-Naast de informatie die mogelijk onthuld wordt aan de ontvanger, beïnvloedt de keuze van invoer ook wat je onthult aan alle waarnemers van  blockchain. Door meerdere UTXO's te gebruiken als invoer voor je transactie, onthul je namelijk dat ze eigendom zijn van dezelfde entiteit, volgens de CIOH heuristiek (_Common Input Ownership Heuristic_).
+Naast de informatie die mogelijk onthuld wordt aan de ontvanger, beïnvloedt de keuze van invoer ook wat je onthult aan alle waarnemers van blockchain. Door meerdere UTXO's te gebruiken als invoer voor je transactie, onthul je namelijk dat ze eigendom zijn van dezelfde entiteit, volgens de CIOH heuristiek (_Common Input Ownership Heuristic_).
 
 
 ![BTC204](assets/nl/079.webp)
@@ -1775,7 +1775,7 @@ UTXO selectiemethoden zoals FIFO (*First In First Out*) en LIFO (*Last In First 
 Een meer geavanceerde methode is de *Knapsack Solver*. Deze werd gebruikt op de Bitcoin Kern wallet tot versie 0.17. Het bestaat uit het iteratief en willekeurig selecteren van UTXO's uit de wallet, ze bij elkaar optellen in deelverzamelingen en de oplossing kiezen die het transactiegewicht zoveel mogelijk vermindert, om de kosten voor de gebruiker te verlagen.
 
 
-De *Branch-and-Bound* (BNB), vaak het "Murch algoritme" genoemd naar de uitvinder, heeft de *Knapsack Solver* vervangen in Bitcoin Core vanaf versie 0.17. Deze meer geavanceerde methode heeft als doel een set UTXO's te vinden die precies overeenkomt met het bedrag dat nodig is om aan de uitvoer van een transactie te voldoen. Het doel van BNB is om zowel het Exchange bedrag als de kosten te minimaliseren, door het zogenaamde afvalcriterium te verlagen, dat rekening houdt met zowel de directe kosten als de verwachte toekomstige kosten van de Exchange. Deze methode is afgeleid van het oorspronkelijke concept van *Branch-and-Bound*, bedacht in 1960 door Ailsa Land en Alison Harcourt, en biedt een nauwkeurigere optimalisatie van vergoedingen dan de *Knapsack Solver*.
+De *Branch-and-Bound* (BNB), vaak het "Murch algoritme" genoemd naar de uitvinder, heeft de *Knapsack Solver* vervangen in Bitcoin Core vanaf versie 0.17. Deze meer geavanceerde methode heeft als doel een set UTXO's te vinden die precies overeenkomt met het bedrag dat nodig is om aan de output van een transactie te voldoen. Het doel van BNB is om zowel het Exchange bedrag als de kosten te minimaliseren, door het zogenaamde afvalcriterium te verlagen, dat rekening houdt met zowel de directe kosten als de verwachte toekomstige kosten van de Exchange. Deze methode is afgeleid van het oorspronkelijke concept van *Branch-and-Bound*, bedacht in 1960 door Ailsa Land en Alison Harcourt, en biedt een nauwkeurigere optimalisatie van vergoedingen dan de *Knapsack Solver*.
 
 
 Al deze automatische UTXO selectiemethoden kunnen effectief zijn in het verminderen van transactiekosten, maar ze zijn vaak niet effectief in het behouden van de vertrouwelijkheid van de gebruiker. Deze algoritmen kunnen namelijk meerdere UTXO's samenvoegen tot inputs, waardoor een gemeenschappelijke eigenschap van deze UTXO's door CIOH aan het licht komt. Uiteraard kunnen deze methoden geen rekening houden met de labels die zijn aangebracht op de UTXO's, die desalniettemin cruciaal zijn voor het bewust kiezen welke delen worden onthuld aan de ontvanger van de transactie. Op dit moment is de enige manier om de vertrouwelijkheid bij het selecteren van munten te optimaliseren, dit handmatig te doen.
@@ -1813,7 +1813,7 @@ Deze procedure is niet zonder risico's voor de privacy en veiligheid van gebruik
 ### Onchain tracering vergemakkelijken
 
 
-Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor blockchainanalyse. Zoals we in de vorige sectie zagen, kunnen analisten activiteit op de  blockchain clusteren en volgen met behulp van transactiepatronen en heuristieken. Als ze er eenmaal in geslaagd zijn om de onchain activiteit van een gebruiker te clusteren, hoeven ze alleen maar een enkel toegangspunt te vinden tussen al zijn transacties en sleutels om zijn vertrouwelijkheid volledig te compromitteren.
+Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor blockchainanalyse. Zoals we in de vorige sectie zagen, kunnen analisten activiteit op de blockchain clusteren en volgen met behulp van transactiepatronen en heuristieken. Als ze er eenmaal in geslaagd zijn om de onchain activiteit van een gebruiker te clusteren, hoeven ze alleen maar een enkel toegangspunt te vinden tussen al zijn transacties en sleutels om zijn vertrouwelijkheid volledig te compromitteren.
 
 
 ![BTC204](assets/nl/082.webp)
@@ -1822,7 +1822,7 @@ Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor blockcha
 Als je een KYC uitvoert, lever je een hoogwaardig toegangspunt voor blockchainanalyse, omdat je de ontvangst-adressen die je gebruikt bij het opnemen van je bitcoins van een Exchange platform koppelt aan je volledige, geverifieerde identiteit. In theorie is deze informatie alleen bekend bij het bedrijf waaraan je het hebt verstrekt, maar zoals we hieronder zullen zien, is het risico van gegevenslekken reëel. Bovendien kan alleen al het feit dat een bedrijf over deze informatie beschikt problematisch zijn, zelfs als ze het niet delen.
 
 
-Dus als je geen andere stappen neemt om de samenvoeging van je activiteiten op  blockchain te beperken, kan iedereen met kennis van dit KYC-ingangspunt potentieel al je activiteiten op Bitcoin aan je identiteit koppelen. Vanuit het oogpunt van dat bedrijf verliest jouw gebruik van Bitcoin alle vertrouwelijkheid.
+Dus als je geen andere stappen neemt om de samenvoeging van je activiteiten op blockchain te beperken, kan iedereen met kennis van dit KYC-ingangspunt potentieel al je activiteiten op Bitcoin aan je identiteit koppelen. Vanuit het oogpunt van dat bedrijf verliest jouw gebruik van Bitcoin alle vertrouwelijkheid.
 
 
 ![BTC204](assets/nl/083.webp)
@@ -2142,13 +2142,13 @@ Bitcoin werkt als een veilingmarkt, waarbij miners de voorkeur geven aan transac
 Mijnbouwers, wier activiteiten generate aanzienlijke kosten met zich meebrengen in termen van elektriciteit, vaste activa en onderhoud, proberen natuurlijk hun winstgevendheid te maximaliseren. Daarom geven ze de voorkeur aan transacties met de hoogste generate vergoedingen in verhouding tot hun gewicht.
 
 
-Niet alle Bitcoin-transacties wegen even zwaar. De transacties met meer invoer en uitvoer wegen zwaarder. Stel je bijvoorbeeld 2 transacties voor:
+Niet alle Bitcoin-transacties wegen even zwaar. De transacties met meer invoer en output wegen zwaarder. Stel je bijvoorbeeld 2 transacties voor:
 
 
 
 
-- Transactie A bestaat uit 1 ingang en 1 uitgang. Ze wijst 1.994 Sats aan vergoedingen toe en heeft een gewicht van 141 vB ;
-- Transactie B, een complexere transactie met 2 ingangen en 2 uitgangen, wijst 2.640 Sats aan vergoedingen toe voor een gewicht van 220 vB.
+- Transactie A bestaat uit 1 ingang en 1 output. Ze wijst 1.994 Sats aan vergoedingen toe en heeft een gewicht van 141 vB ;
+- Transactie B, een complexere transactie met 2 ingangen en 2 outputs, wijst 2.640 Sats aan vergoedingen toe voor een gewicht van 220 vB.
 
 
 ![BTC204](assets/nl/099.webp)
@@ -2217,13 +2217,13 @@ In dit voorbeeld zou het daarom verstandig zijn om een minimale waarde van 940.0
 ### Consolidatie en CIOH
 
 
-Een van de meest gebruikte heuristieken in blockchainanalyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle ingangen van een Bitcoin-transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als invoer te gebruiken en één UTXO als uitvoer te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
+Een van de meest gebruikte heuristieken in blockchainanalyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle ingangen van een Bitcoin-transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als invoer te gebruiken en één UTXO als output te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
 
 
 ![BTC204](assets/nl/102.webp)
 
 
-In de praktijk betekent dit dat een buitenstaander kan afleiden dat alle geconsolideerde UTXO's waarschijnlijk aan dezelfde persoon toebehoren en dat de gegenereerde unieke uitvoer ook aan hem of haar toebehoort. Deze situatie kan je vertrouwelijkheid in gevaar brengen door verschillende transactiegeschiedenissen met elkaar te associëren. Stel bijvoorbeeld dat ik 3 UTXO's, verkregen via P2P, consolideer met één UTXO, verkregen via een platform dat KYC vereist:
+In de praktijk betekent dit dat een buitenstaander kan afleiden dat alle geconsolideerde UTXO's waarschijnlijk aan dezelfde persoon toebehoren en dat de gegenereerde unieke output ook aan hem of haar toebehoort. Deze situatie kan je vertrouwelijkheid in gevaar brengen door verschillende transactiegeschiedenissen met elkaar te associëren. Stel bijvoorbeeld dat ik 3 UTXO's, verkregen via P2P, consolideer met één UTXO, verkregen via een platform dat KYC vereist:
 
 
 ![BTC204](assets/nl/103.webp)
@@ -2265,7 +2265,7 @@ Je bitcoins in eigen beheer hebben is geweldig, maar je eigen complete node gebr
 
 
 - **Weerstand tegen censuur**: Je transacties kunnen door niemand worden geblokkeerd;
-- **Onafhankelijkheid van derden**: U bent niet langer afhankelijk van een externe service om  blockchain gegevens te verifiëren;
+- **Onafhankelijkheid van derden**: U bent niet langer afhankelijk van een externe service om blockchain gegevens te verifiëren;
 - **Actieve deelname**: Je kunt je eigen validatieregels definiëren en direct deelnemen aan de consensus;
 - **Netwerkbijdrage**: Door een node te runnen, help je het Bitcoin netwerk te versterken en te verspreiden;
 - **Technisch onderwijs**: Het beheren van een compleet knooppunt is een geweldige manier om je technische kennis van Bitcoin te verdiepen.
@@ -2283,10 +2283,10 @@ Als je geen eigen Bitcoin knooppunt hebt, ben je gedwongen een knooppunt van een
 ![BTC204](assets/nl/105.webp)
 
 
-Het grootste risico wanneer je niet je eigen Bitcoin node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de  blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet software te gebruiken die je verbindingen maskeert via Tor. Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
+Het grootste risico wanneer je niet je eigen Bitcoin node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet software te gebruiken die je verbindingen maskeert via Tor. Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
 
 
-Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben van je eigen complete node je ook van de waarheidsgetrouwheid van gegevens op  blockchain, beschermt het je tegen censuur en stelt het je in staat om actief deel te nemen aan het bestuur van Bitcoin. Door je eigen node te gebruiken, draag je je economische gewicht bij aan de keten van jouw keuze, wat belangrijk is tijdens conflicten binnen de gemeenschap, zoals bijvoorbeeld tijdens de Blocksize War van 2015 tot 2017. In het geval van een Fork kan het gebruik van een node van een derde partij ertoe leiden dat je een keten steunt die je niet wilt steunen, omdat de nodeoperator de keuze voor jou maakt.
+Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben van je eigen complete node je ook van de waarheidsgetrouwheid van gegevens op blockchain, beschermt het je tegen censuur en stelt het je in staat om actief deel te nemen aan het bestuur van Bitcoin. Door je eigen node te gebruiken, draag je je economische gewicht bij aan de keten van jouw keuze, wat belangrijk is tijdens conflicten binnen de gemeenschap, zoals bijvoorbeeld tijdens de Blocksize War van 2015 tot 2017. In het geval van een Fork kan het gebruik van een node van een derde partij ertoe leiden dat je een keten steunt die je niet wilt steunen, omdat de nodeoperator de keuze voor jou maakt.
 
 
 Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele soevereiniteit essentieel om je eigen complete knooppunt te gebruiken!
@@ -2310,7 +2310,7 @@ Over het algemeen is het verstandiger om te kiezen voor de meest recente scripti
 Bron : [txstats.com](https://txstats.com/d/000000054/UTXO-set-repartition-by-output-type)
 
 
-Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een uitgang creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere uitgang buitenlands Exchange vertegenwoordigt. Als je 100 k Sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen uitvoer met buitenlands Exchange te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke uitvoer buitenlands Exchange vertegenwoordigt.
+Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een output creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere output buitenlands Exchange vertegenwoordigt. Als je 100 k Sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen output met buitenlands Exchange te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke output buitenlands Exchange vertegenwoordigt.
 
 
 ![BTC204](assets/nl/107.webp)
@@ -2346,7 +2346,7 @@ CoinJoin wordt vaak beschouwd als de meest effectieve methode om de privacy van 
 ### De basisprincipes van CoinJoin
 
 
-CoinJoin is een techniek om Bitcoin tracking op de  blockchain te doorbreken. Het is gebaseerd op een collaboratieve transactie met een specifieke structuur met dezelfde naam: de CoinJoin transactie.
+CoinJoin is een techniek om Bitcoin tracking op de blockchain te doorbreken. Het is gebaseerd op een collaboratieve transactie met een specifieke structuur met dezelfde naam: de CoinJoin transactie.
 
 
 Zoals we in de eerste delen van deze cursus zagen, zijn Bitcoin-transacties bekend bij alle gebruikers via hun node. Het is daarom eenvoudig om de elektronische handtekeningketen van elke munt te controleren en zijn geschiedenis te observeren. Dit betekent dat alle gebruikers kunnen proberen de transacties van andere gebruikers te analyseren. Hierdoor is anonimiteit op transactieniveau onmogelijk. De anonimiteit blijft echter behouden op het niveau van de individuele identificatie. In tegenstelling tot het conventionele banksysteem, waar elke rekening gekoppeld is aan een persoonlijke identiteit, worden op Bitcoin fondsen geassocieerd met cryptografische sleutelparen (of scripts), wat gebruikers een vorm van pseudonimiteit biedt achter cryptografische identifiers.
@@ -2358,7 +2358,7 @@ Zoals we in de eerste delen van deze cursus zagen, zijn Bitcoin-transacties beke
 De vertrouwelijkheid van Bitcoin wordt ondermijnd wanneer externe waarnemers in staat zijn om specifieke UTXO's te associëren met geïdentificeerde gebruikers. Zodra deze associatie is vastgesteld, wordt het mogelijk om hun transacties te traceren en hun Bitcoin geschiedenis te analyseren. CoinJoin is juist een techniek die ontwikkeld is om de traceerbaarheid van UTXO's te doorbreken, om Bitcoin-gebruikers een zekere Layer vertrouwelijkheid op transactieniveau te bieden.
 
 
-Coinjoins versterken de vertrouwelijkheid van Bitcoin-gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen invoer- en uitvoeradressen te bepalen.
+Coinjoins versterken de vertrouwelijkheid van Bitcoin-gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen invoer- en outputadressen te bepalen.
 
 
 Het is belangrijk om te begrijpen dat het doel van een CoinJoin transactie is om de geschiedenis van een munt te breken. Deze techniek verleent geen permanente anonimiteit of blokkeert definitief het volgen van Bitcoin, in tegenstelling tot wat je zou kunnen denken. CoinJoin heeft alleen tot doel de geschiedenis te breken op het moment dat de CoinJoin transactie wordt uitgevoerd. Voor en na deze operatie blijft de munt echter onderworpen aan dezelfde risico's in termen van vertrouwelijkheid.
@@ -2395,7 +2395,7 @@ Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar z
 
 
 
-- In ruil voor het verbruiken van deze inputs, genereert elk een lege Address om vijf identieke outputs van elk 100.000 Sats te maken. Elk haalt één uitgang op:
+- In ruil voor het verbruiken van deze inputs, genereert elk een lege Address om vijf identieke outputs van elk 100.000 Sats te maken. Elk haalt één output op:
 
 
 ![BTC204](assets/nl/113.webp)
@@ -2433,7 +2433,7 @@ CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken 
 
 
 
-- In ruil voor het verbruik van deze inputs levert elke gebruiker een lege Address die gebruikt kan worden om 5 outputs van 97.500 perfect gelijke Sats te maken. Elke gebruiker krijgt één uitgang:
+- In ruil voor het verbruik van deze inputs levert elke gebruiker een lege Address die gebruikt kan worden om 5 outputs van 97.500 perfect gelijke Sats te maken. Elke gebruiker krijgt één output:
 
 
 ![BTC204](assets/nl/117.webp)
@@ -2522,7 +2522,7 @@ Chaum's blinde handtekeningen kunnen daarom de authenticiteit van een document c
 ### Chaumian sluit zich aan bij
 
 
-Zogenaamde "Chaumian" coinjoins combineren het gebruik van Tor en David Chaum's blinde handtekeningen om ervoor te zorgen dat de coördinator niet kan weten welke uitvoer bij welke gebruiker hoort.
+Zogenaamde "Chaumian" coinjoins combineren het gebruik van Tor en David Chaum's blinde handtekeningen om ervoor te zorgen dat de coördinator niet kan weten welke output bij welke gebruiker hoort.
 
 
 Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistratie, uitvoerregistratie en transactieondertekening. Laten we dit proces bekijken aan de hand van het voorbeeld van Alice, één van de CoinJoin deelnemers. Alle andere deelnemers volgen dezelfde stappen als Alice, ieder voor zich.
@@ -2533,7 +2533,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice stuurt de coördinator de UTXO die ze wil gebruiken als invoer voor de transactie, evenals de gemaskeerde ontvangst Address die ze wil gebruiken als uitvoer om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de Address van Alice weten. Hij ziet alleen haar gemaskerde versie:
+- Alice stuurt de coördinator de UTXO die ze wil gebruiken als invoer voor de transactie, evenals de gemaskeerde ontvangst Address die ze wil gebruiken als output om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de Address van Alice weten. Hij ziet alleen haar gemaskerde versie:
 
 
 ![BTC204](assets/nl/124.webp)
@@ -2571,7 +2571,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Op dezelfde manier haalt de coördinator de ongemaskerde uitvoer van alle deelnemers op. Dankzij de bijbehorende handtekeningen kan hij controleren of elke anoniem ingediende uitvoer vooraf is ondertekend door zijn privésleutel, waardoor hun legitimiteit is gegarandeerd. Hij is dan klaar om de CoinJoin transactie op te bouwen en deze ter ondertekening naar de deelnemers te sturen:
+- Op dezelfde manier haalt de coördinator de ongemaskerde output van alle deelnemers op. Dankzij de bijbehorende handtekeningen kan hij controleren of elke anoniem ingediende output vooraf is ondertekend door zijn privésleutel, waardoor hun legitimiteit is gegarandeerd. Hij is dan klaar om de CoinJoin transactie op te bouwen en deze ter ondertekening naar de deelnemers te sturen:
 
 
 ![BTC204](assets/nl/128.webp)
@@ -2579,7 +2579,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice controleert, net als de andere deelnemers, of haar invoer en uitvoer correct zijn opgenomen in de transactie die door de coördinator is geconstrueerd. Als alles naar wens is, stuurt ze de handtekening die haar invoerscript ontsluit naar de coördinator:
+- Alice controleert, net als de andere deelnemers, of haar invoer en output correct zijn opgenomen in de transactie die door de coördinator is geconstrueerd. Als alles naar wens is, stuurt ze de handtekening die haar invoerscript ontsluit naar de coördinator:
 
 
 ![BTC204](assets/nl/129.webp)
@@ -2590,13 +2590,13 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 - Na het verzamelen van handtekeningen van alle CoinJoin deelnemers, kan de coördinator de transactie uitzenden op het Bitcoin netwerk, zodat deze kan worden toegevoegd aan een blok.
 
 
-In dit systeem kan de coördinator geen input koppelen aan een specifieke output. Bovendien kan hij zich de fondsen van de deelnemers niet toe-eigenen, omdat hij nooit toegang heeft tot de privésleutels die nodig zijn om hun UTXO's te ontgrendelen. Gedurende het hele proces, tot het einde van stap 3, heeft hij ook geen toegang tot de handtekeningen. Wanneer Alice en de andere deelnemers de globale transactie ondertekenen, nadat ze hebben gecontroleerd of alles correct is, kan de coördinator de transactie niet meer wijzigen, inclusief de uitvoer, zonder deze ongeldig te maken. Dit voorkomt dat de coördinator bitcoins kan stelen.
+In dit systeem kan de coördinator geen input koppelen aan een specifieke output. Bovendien kan hij zich de fondsen van de deelnemers niet toe-eigenen, omdat hij nooit toegang heeft tot de privésleutels die nodig zijn om hun UTXO's te ontgrendelen. Gedurende het hele proces, tot het einde van stap 3, heeft hij ook geen toegang tot de handtekeningen. Wanneer Alice en de andere deelnemers de globale transactie ondertekenen, nadat ze hebben gecontroleerd of alles correct is, kan de coördinator de transactie niet meer wijzigen, inclusief de output, zonder deze ongeldig te maken. Dit voorkomt dat de coördinator bitcoins kan stelen.
 
 
 Tenslotte wil de gebruiker van CoinJoin bij het registreren van zijn output in de transactie garanties hebben die vergelijkbaar zijn met die van een burger die stemt bij een verkiezing. Er is een dualiteit tussen de publieke en private aspecten van deze acties. Aan de ene kant is er wat je privé wilt houden: voor de kiezer wil hij niet dat zijn stembiljet gekoppeld wordt aan zijn identiteit; voor de CoinJoin gebruiker wil hij niet dat zijn output geassocieerd wordt met zijn input. Sterker nog, als de coördinator, of een andere partij, erin slaagt een link te leggen tussen een input en een output, verliest de CoinJoin alle interesse. Zoals hierboven uitgelegd, moet de CoinJoin functioneren als een onderbreking in de geschiedenis van een munt. Deze onderbreking ontstaat juist door de onmogelijkheid om een specifieke input te associëren met een specifieke output in de CoinJoin transactie (prospectieve anonset) en vice versa (retrospectieve anonset).
 
 
-Aan de andere kant is er het publieke aspect: de kiezer wil er zeker van zijn dat zijn stembiljet in de stembus zit; net zo wil de CoinJoin gebruiker er zeker van zijn dat zijn uitvoer in de CoinJoin transactie zit. Inderdaad, CoinJoin deelnemers moeten absoluut in staat zijn om de aanwezigheid van hun uitvoer te verifiëren voordat ze de transactie ondertekenen, anders zou de coördinator het geld kunnen stelen.
+Aan de andere kant is er het publieke aspect: de kiezer wil er zeker van zijn dat zijn stembiljet in de stembus zit; net zo wil de CoinJoin gebruiker er zeker van zijn dat zijn output in de CoinJoin transactie zit. Inderdaad, CoinJoin deelnemers moeten absoluut in staat zijn om de aanwezigheid van hun output te verifiëren voordat ze de transactie ondertekenen, anders zou de coördinator het geld kunnen stelen.
 
 
 Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het gebruik van David Chaum's blinde handtekeningen, die deelnemers aan Chaumian coinjoins garanderen dat hun bitcoins niet gestolen zullen worden, en dat hun fondsen niet getraceerd kunnen worden.
@@ -2608,7 +2608,7 @@ Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het 
 Het is Hard om met zekerheid te zeggen wie het CoinJoin idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de Address waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun uitvoeradressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
+> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de Address waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
 Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2729,7 +2729,7 @@ Wabisabi is een andere CoinJoin implementatie, met een aanpak die transactiecoö
 Tegen het einde van de jaren 2010 paste Wasabi een radicaal andere CoinJoin transactiestructuur toe dan Whirlpool. Wasabi gebruikte zeer grote CoinJoin transacties, waarbij tientallen deelnemers betrokken waren, om de anonsets van haar deelnemers te vergroten. Whirlpool koos daarentegen voor meerdere kleine transacties, waardoor de anonimiteit bij elke cyclus exponentieel kon groeien.
 
 
-Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd buitenlands Exchange uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde buitenlands Exchange één van de uitgangen van de CoinJoin transactie, waarbij deterministische links tussen bepaalde ingangen en uitgangen werden onderhouden.
+Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd buitenlands Exchange uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde buitenlands Exchange één van de outputs van de CoinJoin transactie, waarbij deterministische links tussen bepaalde ingangen en outputs werden onderhouden.
 
 
 ![BTC204](assets/nl/139.webp)
@@ -2812,12 +2812,12 @@ Deze restrictieve benadering van inputs geeft Whirlpool's CoinJoin-transacties e
 Aanvankelijk was het aantal deelnemers in elke Whirlpool CoinJoin beperkt tot 5, met 2 nieuwkomers en 3 remixers (we leggen deze concepten later uit). De stijging van de transactiekosten voor On-Chain die in 2023 werd waargenomen, zette de teams van Samourai er echter toe aan hun model te heroverwegen om de vertrouwelijkheid te verbeteren en tegelijkertijd de kosten te verlagen. Dus, rekening houdend met de situatie op de fee-markt en het aantal deelnemers, kan de coördinator nu coinjoins organiseren met 6, 7 of 8 deelnemers. Deze verbeterde sessies staan bekend als "Surge Cycles". Het is belangrijk op te merken dat, ongeacht de configuratie, er altijd slechts 2 nieuwe deelnemers zijn bij coinjoins van Whirlpool.
 
 
-Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en uitgangen, die :
+Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outputs, die :
 
 
 
 
-- 5 ingangen en 5 uitgangen ;
+- 5 ingangen en 5 outputs ;
 
 
 ![BTC204](assets/nl/143.webp)
@@ -2825,7 +2825,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en uitga
 
 
 
-- 6 ingangen en 6 uitgangen ;
+- 6 ingangen en 6 outputs ;
 
 
 ![BTC204](assets/nl/144.webp)
@@ -2833,7 +2833,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en uitga
 
 
 
-- 7 ingangen en 7 uitgangen ;
+- 7 ingangen en 7 outputs ;
 
 
 ![BTC204](assets/nl/145.webp)
@@ -2841,7 +2841,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en uitga
 
 
 
-- 8 ingangen en 8 uitgangen.
+- 8 ingangen en 8 outputs.
 
 
 ![BTC204](assets/nl/146.webp)
@@ -2929,7 +2929,7 @@ Alvorens verder te gaan met Whirlpool coinjoins, kan de gebruiker kiezen uit 2 s
 - Of je kiest voor een grotere pool en bent bereid om hogere vergoedingen te betalen, om uiteindelijk te eindigen met een kleiner aantal UTXO's met een hogere waarde.
 
 
-Het is over het algemeen niet aan te raden om meerdere gemengde UTXO's samen te voegen na CoinJoin cycli, omdat dit de verkregen vertrouwelijkheid in gevaar kan brengen, met name door de gemeenschappelijke invoer Ownership heuristiek (CIOH: *Common-Input-Ownership-Heuristic*). Daarom kan het zinvol zijn om een grotere pool te kiezen, zelfs als dit betekent dat er meer betaald moet worden, om te voorkomen dat er te veel UTXO's met een kleine waarde in de uitvoer zitten. De gebruiker moet deze afwegingen evalueren om de pool te kiezen waaraan hij de voorkeur geeft.
+Het is over het algemeen niet aan te raden om meerdere gemengde UTXO's samen te voegen na CoinJoin cycli, omdat dit de verkregen vertrouwelijkheid in gevaar kan brengen, met name door de gemeenschappelijke invoer Ownership heuristiek (CIOH: *Common-Input-Ownership-Heuristic*). Daarom kan het zinvol zijn om een grotere pool te kiezen, zelfs als dit betekent dat er meer betaald moet worden, om te voorkomen dat er te veel UTXO's met een kleine waarde in de output zitten. De gebruiker moet deze afwegingen evalueren om de pool te kiezen waaraan hij de voorkeur geeft.
 
 
 Naast de servicekosten moet ook rekening worden gehouden met de Mining kosten die specifiek zijn voor Bitcoin-transacties. Als Whirlpool gebruiker moet je de Mining vergoeding betalen voor de voorbereidingstransactie (`Tx0`) en voor de eerste CoinJoin. Alle volgende remixen zijn gratis, dankzij het model van Whirlpool dat gebaseerd is op het betalen van nieuwe gebruikers. Alle volgende remixen zijn gratis, dankzij het model van Whirlpool dat gebaseerd is op het betalen van nieuwe toetreders.
@@ -3023,7 +3023,7 @@ Deze UTXO is gevaarlijk voor de vertrouwelijkheid van de gebruiker, omdat het ni
 ![BTC204](assets/nl/152.webp)
 
 
-Als deze UTXO wordt samengevoegd met gemengde uitvoer, verliest deze alle vertrouwelijkheid die is verkregen tijdens CoinJoin cycli, met name door CIOH (*Common-Input-Ownership-Heuristic*). Als het wordt samengevoegd met andere doxische veranderingen, loopt de gebruiker het risico vertrouwelijkheid te verliezen, omdat het de verschillende CoinJoin cyclus ingangen zal koppelen. Het moet daarom met voorzichtigheid behandeld worden. In de laatste paragraaf van dit hoofdstuk gaan we dieper in op het beheer van deze UTXO's doxxic.
+Als deze UTXO wordt samengevoegd met gemengde output, verliest deze alle vertrouwelijkheid die is verkregen tijdens CoinJoin cycli, met name door CIOH (*Common-Input-Ownership-Heuristic*). Als het wordt samengevoegd met andere doxische veranderingen, loopt de gebruiker het risico vertrouwelijkheid te verliezen, omdat het de verschillende CoinJoin cyclus ingangen zal koppelen. Het moet daarom met voorzichtigheid behandeld worden. In de laatste paragraaf van dit hoofdstuk gaan we dieper in op het beheer van deze UTXO's doxxic.
 
 
 ### De initiële mix
@@ -3225,7 +3225,7 @@ Laten we ons bijvoorbeeld voorstellen dat ons CoinJoin onderdeel een retrospecti
 ### Hoe bereken je anonsets?
 
 
-Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor kleine ensembles. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de  blockchain te halen.
+Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor kleine ensembles. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de blockchain te halen.
 
 
 ![BTC204](assets/nl/164.webp)
@@ -3257,7 +3257,7 @@ In tegenstelling tot anonsets, die berekend worden op een reeks transacties, ric
 De eerste indicator die kan worden waargenomen bij een Bitcoin-transactie is het totale aantal mogelijke interpretaties bij een analyse van een buitenstaander. Rekening houdend met de waarden van de UTXO's die betrokken zijn bij de transactie, toont deze indicator het aantal manieren waarop inputs geassocieerd kunnen worden met outputs. Met andere woorden, de indicator bepaalt het aantal mogelijke interpretaties van een transactie in Bitcoin stromen vanuit het gezichtspunt van een externe waarnemer die de transactie analyseert.
 
 
-Bijvoorbeeld, een eenvoudige betalingstransactie met 1 ingang en 2 uitgangen heeft maar één interpretatie, namelijk dat ingang #0 uitgang #0 en uitgang #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
+Bijvoorbeeld, een eenvoudige betalingstransactie met 1 ingang en 2 outputs heeft maar één interpretatie, namelijk dat ingang #0 uitgang #0 en uitgang #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
 
 
 ![BTC204](assets/nl/165.webp)
@@ -3331,7 +3331,7 @@ E &= 23.244 \text{ bits}
 $$
 
 
-Laten we nog een voorbeeld nemen met een klassieke betalingstransactie, met 1 invoer en 2 uitgangen: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://Mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
+Laten we nog een voorbeeld nemen met een klassieke betalingstransactie, met 1 invoer en 2 outputs: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://Mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
 
 ![BTC204](assets/nl/168.webp)
@@ -3412,17 +3412,17 @@ Een efficiëntie van $100$ geeft aan dat de transactie het vertrouwelijkheidspot
 ### Entropiedichtheid
 
 
-Entropie is een goede indicator voor het meten van de vertrouwelijkheid van een transactie, maar is deels afhankelijk van het aantal in- en uitgangen in de transactie. Om de entropie van 2 verschillende transacties met verschillende aantallen in- en uitgangen te vergelijken, kunnen we de entropiedichtheid berekenen. Deze indicator geeft een beeld van de entropie ten opzichte van elke invoer of uitvoer van de transactie. Dichtheid is nuttig voor het evalueren en vergelijken van de efficiëntie van transacties van verschillende grootte.
+Entropie is een goede indicator voor het meten van de vertrouwelijkheid van een transactie, maar is deels afhankelijk van het aantal in- en outputs in de transactie. Om de entropie van 2 verschillende transacties met verschillende aantallen in- en outputs te vergelijken, kunnen we de entropiedichtheid berekenen. Deze indicator geeft een beeld van de entropie ten opzichte van elke invoer of output van de transactie. Dichtheid is nuttig voor het evalueren en vergelijken van de efficiëntie van transacties van verschillende grootte.
 
 
-Om deze te berekenen delen we simpelweg de totale entropie van de transactie door het totale aantal in- en uitgangen dat betrokken is bij de transactie:
+Om deze te berekenen delen we simpelweg de totale entropie van de transactie door het totale aantal in- en outputs dat betrokken is bij de transactie:
 
 
 
 
 - e_D$: entropiedichtheid uitgedrukt in bits;
 - e$: de entropie van de transactie uitgedrukt in bits;
-- t$: totaal aantal in- en uitgangen in de transactie:
+- t$: totaal aantal in- en outputs in de transactie:
 
 
 $$
@@ -3508,7 +3508,7 @@ Als we het voorbeeld nemen van een Whirlpool 8x8 Surge Cycle CoinJoin, dan zou d
 | IN.6 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 | IN.7 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
 
-In het geval van een eenvoudige transactie met een enkele invoer en 2 uitgangen is de situatie echter anders:
+In het geval van een eenvoudige transactie met een enkele invoer en 2 outputs is de situatie echter anders:
 
 
 | Output 0 | Output 1 |
@@ -3524,7 +3524,7 @@ Hier zien we dat de waarschijnlijkheid dat elke output afkomstig is van input #0
 We kunnen ook het aantal deterministische koppelingen in een transactie berekenen. Deze indicator laat zien hoeveel van de verbindingen tussen inputs en outputs in de geanalyseerde transactie onbetwistbaar zijn, met een waarschijnlijkheid van 100%. Deze indicator kan vervolgens worden aangevuld door de verhouding van deterministische links te berekenen. De ratio geeft een beeld van het gewicht van deze deterministische links binnen de totale links van de transactie.
 
 
-Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één ingang en twee uitgangen) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
+Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één ingang en twee outputs) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
 
 
 ### Hoe bereken je deze indicatoren?
@@ -3611,7 +3611,7 @@ In dit voorbeeld voert bakker Bob 15.000 Sats in en komt eruit met 19.000 Sats, 
 De PayJoin-transactie vervult twee doelen, waardoor gebruikers de vertrouwelijkheid van hun betaling kunnen verbeteren.
 
 
-Ten eerste probeert PayJoin een buitenstaander te misleiden door een lokmiddel te creëren in de ketenanalyse. Dit wordt mogelijk gemaakt door de CIOH heuristiek (*Common Input Ownership Heuristiek*). Zoals we in deel 3 zagen, wordt gewoonlijk, wanneer een transactie op de  blockchain meerdere ingangen heeft, aangenomen dat al deze ingangen toebehoren aan dezelfde entiteit of gebruiker.
+Ten eerste probeert PayJoin een buitenstaander te misleiden door een lokmiddel te creëren in de ketenanalyse. Dit wordt mogelijk gemaakt door de CIOH heuristiek (*Common Input Ownership Heuristiek*). Zoals we in deel 3 zagen, wordt gewoonlijk, wanneer een transactie op de blockchain meerdere ingangen heeft, aangenomen dat al deze ingangen toebehoren aan dezelfde entiteit of gebruiker.
 
 
 Dus wanneer een analist een PayJoin transactie onderzoekt, wordt hij of zij wijsgemaakt dat alle inputs van dezelfde persoon afkomstig zijn. Deze perceptie is echter verkeerd, omdat de begunstigde ook bijdraagt aan de inputs naast de eigenlijke betaler. De ketenanalyse wordt dus afgeleid naar een interpretatie die fout blijkt te zijn.
@@ -3623,7 +3623,7 @@ Laten we ons voorbeeld nemen van een PayJoin transactie voor de betaling van een
 ![BTC204](assets/nl/172.webp)
 
 
-Bij het zien van deze transactie op de  blockchain, zou een buitenstaander die de gebruikelijke heuristieken van blockchainanalyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 Sats te betalen aan Bob*".
+Bij het zien van deze transactie op de blockchain, zou een buitenstaander die de gebruikelijke heuristieken van blockchainanalyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 Sats te betalen aan Bob*".
 
 
 ![BTC204](assets/nl/173.webp)
@@ -3644,7 +3644,7 @@ Op deze manier wordt de analyse van de externe waarnemer in de richting van een 
 Het tweede doel van PayJoin is om een buitenstaander te misleiden over het werkelijke bedrag van de betaling die is gedaan. Door de structuur van de transactie te onderzoeken, zou de analist kunnen geloven dat de betaling gelijk is aan het bedrag van een van de outputs.
 
 
-Als we teruggaan naar ons voorbeeld van de aankoop van een stokbrood, zal de analist denken dat het betalingsbedrag ofwel overeenkomt met de UTXO van 6.000 Sats, of met de UTXO van 19.000 Sats. In dit geval zal de analist eerder denken dat het betalingsbedrag 19.000 Sats is, omdat er 2 UTXO's in uitgangen zijn, waarvan ten minste één groter is dan 6.000 Sats (er is geen logische reden om 2 UTXO's te gebruiken om 6.000 Sats te betalen, terwijl een enkele UTXO voldoende zou zijn geweest om deze betaling te voldoen).
+Als we teruggaan naar ons voorbeeld van de aankoop van een stokbrood, zal de analist denken dat het betalingsbedrag ofwel overeenkomt met de UTXO van 6.000 Sats, of met de UTXO van 19.000 Sats. In dit geval zal de analist eerder denken dat het betalingsbedrag 19.000 Sats is, omdat er 2 UTXO's in outputs zijn, waarvan ten minste één groter is dan 6.000 Sats (er is geen logische reden om 2 UTXO's te gebruiken om 6.000 Sats te betalen, terwijl een enkele UTXO voldoende zou zijn geweest om deze betaling te voldoen).
 
 
 ![BTC204](assets/nl/175.webp)
@@ -3714,7 +3714,7 @@ Wanneer je een betalingstransactie wilt uitvoeren met behoud van een zekere mate
 Stonewall is een specifieke vorm van Bitcoin-transactie, ontworpen om de vertrouwelijkheid van de gebruiker te vergroten bij uitgaven door een pseudo-CoinJoin tussen twee mensen na te bootsen, zonder er daadwerkelijk een te zijn. In feite werkt deze transactie niet samen. Een gebruiker kan het zelf bouwen, met alleen de UTXO's die hij of zij bezit als invoer. Je kunt dus een Stonewall-transactie maken voor elke gelegenheid, zonder dat je hoeft te synchroniseren met een andere gebruiker of de ontvanger.
 
 
-De Stonewall-transactie werkt als volgt: als invoer voor de transactie gebruikt de emittent 2 UTXO's die van hem zijn. Bij uitvoer levert de transactie 4 UTXO's op, waarvan 2 precies evenveel. De andere 2 UTXO's vormen buitenlands Exchange. Van de 2 outputs van hetzelfde bedrag gaat er slechts één daadwerkelijk naar de begunstigde.
+De Stonewall-transactie werkt als volgt: als invoer voor de transactie gebruikt de emittent 2 UTXO's die van hem zijn. Bij output levert de transactie 4 UTXO's op, waarvan 2 precies evenveel. De andere 2 UTXO's vormen buitenlands Exchange. Van de 2 outputs van hetzelfde bedrag gaat er slechts één daadwerkelijk naar de begunstigde.
 
 
 Er zijn dus maar 2 rollen in een Stonewall-transactie:
@@ -3744,13 +3744,13 @@ In dit voorbeeld heb ik opzettelijk de Mining kosten verwaarloosd om het makkeli
 De Stonewall-structuur voegt een enorme hoeveelheid entropie toe aan de transactie, waardoor de lijnen van ketenanalyse vervagen. Van buitenaf gezien kan zo'n transactie geïnterpreteerd worden als een mini-CoinJoin tussen twee mensen. Maar in werkelijkheid is het een betaling. Deze methode zorgt dus voor onzekerheden in de ketenanalyse, of leidt zelfs tot valse aanwijzingen.
 
 
-Laten we het voorbeeld nemen van Alice bij Bob de bakker. De transactie op  blockchain zou er als volgt uitzien:
+Laten we het voorbeeld nemen van Alice bij Bob de bakker. De transactie op blockchain zou er als volgt uitzien:
 
 
 ![BTC204](assets/nl/180.webp)
 
 
-Een waarnemer van buitenaf die vertrouwt op heuristieken voor gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*twee mensen hebben een kleine CoinJoin gemaakt, met elk een UTXO als invoer en twee UTXO's elk als uitvoer*". Deze transactie van buitenaf analyseren leidt niet tot de toepassing van de CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH in dit specifieke geval dus niet van toepassing.
+Een waarnemer van buitenaf die vertrouwt op heuristieken voor gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*twee mensen hebben een kleine CoinJoin gemaakt, met elk een UTXO als invoer en twee UTXO's elk als output*". Deze transactie van buitenaf analyseren leidt niet tot de toepassing van de CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH in dit specifieke geval dus niet van toepassing.
 
 
 ![BTC204](assets/nl/181.webp)
@@ -3771,7 +3771,7 @@ En wat bijzonder interessant is aan de structuur van de Stonewall-transactie is 
 Stonewall x2 is een andere specifieke vorm van Bitcoin-transactie die er ook op gericht is om de vertrouwelijkheid van de gebruiker te vergroten bij het doen van een uitgave, maar deze keer door samen te werken met een derde persoon die niet betrokken is bij die uitgave. Deze methode werkt als een pseudo-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
 
 
-De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier uitgangen: twee ervan in gelijke hoeveelheden, één bestemd voor de Address van de begunstigde, de andere voor een Address van de medewerker. Een derde UTXO wordt teruggestuurd naar een andere Address van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een Address van ons, die de betaling Exchange vormt.
+De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de Address van de begunstigde, de andere voor een Address van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een Address van ons, die de betaling Exchange vormt.
 
 
 In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
@@ -3802,13 +3802,13 @@ In dit voorbeeld heb ik de kosten bewust weggelaten om het begrijpelijker te mak
 Net als de Stonewall structuur voegt de Stonewall x2 structuur veel entropie toe aan de transactie en verwart de ketenanalyse. Van buitenaf gezien kan zo'n transactie worden geïnterpreteerd als een kleine CoinJoin tussen twee mensen. Maar in werkelijkheid is het een betaling. Deze methode zorgt dus voor onzekerheden in de ketenanalyse, of leidt zelfs tot valse leads.
 
 
-Laten we het voorbeeld nemen van Alice, Bob de Bakker en Charles. De transactie op de  blockchain zou er als volgt uitzien:
+Laten we het voorbeeld nemen van Alice, Bob de Bakker en Charles. De transactie op de blockchain zou er als volgt uitzien:
 
 
 ![BTC204](assets/nl/184.webp)
 
 
-Een externe waarnemer die vertrouwt op de heuristiek van gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*Alice en Charles hebben een kleine CoinJoin uitgevoerd, met elk één UTXO als input en twee UTXO's als output*". Opnieuw leidt het analyseren van deze transactie van buitenaf niet tot de toepassing van de ICOH, omdat de aanwezigheid van twee uitgangen van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH daarom niet van toepassing in dit specifieke geval.
+Een externe waarnemer die vertrouwt op de heuristiek van gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*Alice en Charles hebben een kleine CoinJoin uitgevoerd, met elk één UTXO als input en twee UTXO's als output*". Opnieuw leidt het analyseren van deze transactie van buitenaf niet tot de toepassing van de ICOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH daarom niet van toepassing in dit specifieke geval.
 
 
 ![BTC204](assets/nl/185.webp)
@@ -4000,13 +4000,13 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd
 
 
 
-Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van Ownership. Deze methode heeft als doel Ownership Bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de  blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
+Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van Ownership. Deze methode heeft als doel Ownership Bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
 
 
 ### De muntenruil
 
 
-Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van Bitcoin Ownership tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de  blockchain.
+Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van Bitcoin Ownership tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
 
 
 ![BTC204](assets/nl/199.webp)
@@ -4098,7 +4098,7 @@ $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_
 
 
 
-- Alice zendt deze ondertekende $m_B$ transactie uit op de Bitcoin  blockchain om de door Bob beloofde BTC op te halen. Wanneer Bob deze transactie op de  blockchain ziet, kan hij de handtekening $s_B = s_B' + t$ extraheren. Met deze informatie kan Bob het beroemde geheim $t$ isoleren dat hij nodig had:
+- Alice zendt deze ondertekende $m_B$ transactie uit op de Bitcoin blockchain om de door Bob beloofde BTC op te halen. Wanneer Bob deze transactie op de blockchain ziet, kan hij de handtekening $s_B = s_B' + t$ extraheren. Met deze informatie kan Bob het beroemde geheim $t$ isoleren dat hij nodig had:
 
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
@@ -4106,7 +4106,7 @@ $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
 
 
-- En dit geheim $t$ was het enige element dat ontbrak voor Bob naar generate de geldige handtekening $s_A$ van Alice's adaptor handtekening $s_A'$. Deze handtekening valideert de $m_A$ transactie, die een BTC van Alice naar Bob stuurt. Bob berekent dan $s_A$ en zendt de $m_A$ transactie uit op de  blockchain:
+- En dit geheim $t$ was het enige element dat ontbrak voor Bob naar generate de geldige handtekening $s_A$ van Alice's adaptor handtekening $s_A'$. Deze handtekening valideert de $m_A$ transactie, die een BTC van Alice naar Bob stuurt. Bob berekent dan $s_A$ en zendt de $m_A$ transactie uit op de blockchain:
 
 
 $$s_A = s_A' + t$$
@@ -4115,7 +4115,7 @@ $$s_A = s_A' + t$$
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
 
-Laten we eens samenvatten hoe een adaptorhandtekening werkt in een coinswap. In eerste instantie stuurt Alice Bob een niet-ondertekende transactie vergezeld van een adapter, zodat Bob kan verifiëren dat het later onthulde geheim hem toegang geeft tot bitcoins. In ruil daarvoor stuurt Bob Alice zijn eigen niet-ondertekende transactie en adapter. Alice kan dan Bob's transactie afronden en de bitcoins ophalen door een geldige transactie uit te zenden dankzij het geheim. Wanneer deze transactie wordt gepubliceerd op  blockchain, kan Bob het geheim ontfutselen en zo Alice's transactie ontgrendelen. Bijgevolg, als Alice een overdracht van Bob's Bitcoin initieert, kan Bob op zijn beurt toegang krijgen tot Alice's Bitcoin zonder dat wederzijds vertrouwen nodig is.
+Laten we eens samenvatten hoe een adaptorhandtekening werkt in een coinswap. In eerste instantie stuurt Alice Bob een niet-ondertekende transactie vergezeld van een adapter, zodat Bob kan verifiëren dat het later onthulde geheim hem toegang geeft tot bitcoins. In ruil daarvoor stuurt Bob Alice zijn eigen niet-ondertekende transactie en adapter. Alice kan dan Bob's transactie afronden en de bitcoins ophalen door een geldige transactie uit te zenden dankzij het geheim. Wanneer deze transactie wordt gepubliceerd op blockchain, kan Bob het geheim ontfutselen en zo Alice's transactie ontgrendelen. Bijgevolg, als Alice een overdracht van Bob's Bitcoin initieert, kan Bob op zijn beurt toegang krijgen tot Alice's Bitcoin zonder dat wederzijds vertrouwen nodig is.
 
 
 Merk op dat coinswaps voor het eerst werden voorgesteld door [Gregory Maxwell in oktober 2013 op BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
@@ -4748,7 +4748,7 @@ ECDHE wordt voor het eerst gebruikt in BIP47 om de betaalcode van de verzender n
 Voorafgaand hieraan Exchange is de verzender logischerwijs al op de hoogte van de betaalcode van de ontvanger, omdat hij deze off-chain heeft opgehaald van bijvoorbeeld zijn of haar website, Invoice of sociale netwerken. De ontvanger is echter niet noodzakelijkerwijs op de hoogte van de betaalcode van de verzender. De code moet echter wel aan hem worden doorgegeven, anders kan hij niet de efemere sleutels afleiden die nodig zijn om de adressen te identificeren waar zijn bitcoins zijn opgeslagen, of toegang krijgen tot zijn geld. Hoewel deze overdracht van de code van de verzender technisch off-chain kan worden uitgevoerd via andere communicatiemiddelen, levert dit een probleem op als de wallet alleen moet worden opgehaald uit de seed.
 
 
-Dit komt omdat, in tegenstelling tot conventionele adressen, BIP47-adressen niet direct worden afgeleid van de seed van de ontvanger - het gebruik van een `xpub` zou in dit geval eenvoudiger zijn - maar het resultaat zijn van een berekening die de twee betaalcodes combineert: die van de verzender en die van de ontvanger. Dus, als de ontvanger zijn wallet verliest en het probeert te herstellen vanuit zijn seed, zal hij zijn eigen betalingscode terugkrijgen, die direct is afgeleid van zijn seed. Om efemere adressen terug te krijgen, heeft hij echter ook de betaalcodes nodig van iedereen die hem bitcoins heeft gestuurd via BIP47. Vandaar het belang van de kennisgevingstransactie, die het mogelijk maakt om deze informatie op te slaan op de Bitcoin  blockchain, terwijl het nog steeds mogelijk is om het heel gemakkelijk terug te vinden zonder te hoeven zoeken in de miljard transacties die zijn uitgevoerd sinds de lancering in 2009.
+Dit komt omdat, in tegenstelling tot conventionele adressen, BIP47-adressen niet direct worden afgeleid van de seed van de ontvanger - het gebruik van een `xpub` zou in dit geval eenvoudiger zijn - maar het resultaat zijn van een berekening die de twee betaalcodes combineert: die van de verzender en die van de ontvanger. Dus, als de ontvanger zijn wallet verliest en het probeert te herstellen vanuit zijn seed, zal hij zijn eigen betalingscode terugkrijgen, die direct is afgeleid van zijn seed. Om efemere adressen terug te krijgen, heeft hij echter ook de betaalcodes nodig van iedereen die hem bitcoins heeft gestuurd via BIP47. Vandaar het belang van de kennisgevingstransactie, die het mogelijk maakt om deze informatie op te slaan op de Bitcoin blockchain, terwijl het nog steeds mogelijk is om het heel gemakkelijk terug te vinden zonder te hoeven zoeken in de miljard transacties die zijn uitgevoerd sinds de lancering in 2009.
 
 
 ![BTC204](assets/nl/230.webp)
@@ -4804,7 +4804,7 @@ In het onderstaande diagram geven de oranje lijnen de punten aan waar de informa
 In werkelijkheid is het in het traditionele vertrouwelijkheidsmodel van Bitcoin vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een Address of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de Layer encryptie die we later zullen bekijken.
 
 
-Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de  blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
+Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
 
 
 Kortom, het vertrouwelijkheidsmodel dat wordt aangeboden door BIP47 betalingen kan worden beschouwd als superieur aan het basismodel van Bitcoin, hoewel dit niet betekent dat het magisch is.
@@ -4884,10 +4884,10 @@ $$ c' = c \oplus f2 $$
 - Alice vervangt de werkelijke waarden van de openbare sleutel abscis $x$ en de stringcode $c$ in haar betalingscode door de versleutelde waarden $x'$ en $c'$.
 
 
-**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als invoer, een uitvoer naar Bob's kennisgeving Address, en een uitvoer `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
+**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als invoer, een output naar Bob's kennisgeving Address, en een output `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
 
 
-Een `OP_RETURN` is een opcode die de uitvoer van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin  blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
+Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
 
 
 Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel Exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
@@ -4918,18 +4918,18 @@ Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik va
 ![BTC204](assets/nl/233.webp)
 
 
-Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele ingang en 4 uitgangen heeft:
+Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele ingang en 4 outputs heeft:
 
 
 
 
-- De eerste uitvoer is de `OP_RETURN` die mijn verborgen betalingscode bevat;
+- De eerste output is de `OP_RETURN` die mijn verborgen betalingscode bevat;
 - De tweede uitgang van 546 Sats wijst naar de melding Address van mijn ontvanger;
 - De derde output van 15.000 Sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
-- De vierde uitgang van 2 miljoen Sats vertegenwoordigt het Exchange tarief, d.w.z. het resterende verschil in mijn input dat terugkeert naar een andere Address die van mij is.
+- De vierde uitgang van 2 miljoen Sats vertegenwoordigt het Exchange tarief, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
 
 
-De meest interessante om te bestuderen is natuurlijk uitvoer 0 met `OP_RETURN`. Laten we eens kijken wat er in staat. Hier is de `scriptPubKey` in hexadecimale :
+De meest interessante om te bestuderen is natuurlijk output 0 met `OP_RETURN`. Laten we eens kijken wat er in staat. Hier is de `scriptPubKey` in hexadecimale :
 
 
 ```text
@@ -5109,10 +5109,10 @@ Ten tweede lijkt deze versleutelingsmethode erg op het Vernam (One-Time Pad) cij
 Nu Alice de kennisgevingstransactie naar Bob heeft gestuurd, laten we eens kijken hoe Bob deze interpreteert. Ter herinnering, Bob moet toegang hebben tot Alice's betalingscode. Zonder deze informatie, zoals we in de volgende paragraaf zullen zien, zal hij niet in staat zijn om de sleutelparen af te leiden die Alice heeft gemaakt, en zal hij dus geen toegang hebben tot zijn bitcoins die hij via BIP47 heeft ontvangen. Op dit moment is de payload van Alice's betalingscode versleuteld. Laten we eens kijken hoe Bob het ontcijfert.
 
 
-**1-** Bob bewaakt transacties die uitgangen creëren met zijn melding Address.
+**1-** Bob bewaakt transacties die outputs creëren met zijn melding Address.
 
 
-**2-** Wanneer een transactie een Address uitvoer op haar melding heeft, analyseert Bob deze om te zien of ze een OP_RETURN uitvoer bevat die voldoet aan de BIP47 standaard.
+**2-** Wanneer een transactie een Address output op haar melding heeft, analyseert Bob deze om te zien of ze een OP_RETURN output bevat die voldoet aan de BIP47 standaard.
 
 
 **3-** Als de eerste byte van de OP_RETURN payload `0x01` is, begint Bob zijn zoektocht naar een mogelijk geheim gedeeld met ECDH :
@@ -5232,7 +5232,7 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een meldingstransa
 
 
 
-- Bob controleert de uitvoer van transacties naar zijn melding Address;
+- Bob controleert de output van transacties naar zijn melding Address;
 - Wanneer het er een detecteert, haalt het de informatie uit de OP_RETURN;
 - Bob selecteert de openbare sleutel als invoer en berekent een geheim punt met ECDH ;
 - Het gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
@@ -5317,7 +5317,7 @@ $$ K0 = B + s ≤ G $$
 - Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van Address afleiden (bijv. SegWit V0 in bech32).
 
 
-Zodra Alice de $K0$ ontvangst-adres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een uitvoer naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
+Zodra Alice de $K0$ ontvangst-adres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
 
 
 Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te verzenden:
@@ -5346,7 +5346,7 @@ Als Alice een tweede betaling wil doen, volgt ze dezelfde stappen als voorheen, 
 Het kan op deze manier doorgaan en tot `2^32` lege adressen van Bob afleiden.
 
 
-Van buitenaf gezien, kijkend naar de  blockchain, is het theoretisch onmogelijk om een BIP47 betaling te onderscheiden van een conventionele betaling. Hier is een voorbeeld van een BIP47 betalingstransactie op de Testnet:
+Van buitenaf gezien, kijkend naar de blockchain, is het theoretisch onmogelijk om een BIP47 betaling te onderscheiden van een conventionele betaling. Hier is een voorbeeld van een BIP47 betalingstransactie op de Testnet:
 
 
 ```text
@@ -5515,8 +5515,8 @@ Men zou naïef kunnen denken dat dit kennisgevingsproces off-chain kan worden ui
 
 
 
-- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de Exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de  blockchain uit te voeren. Bovendien zou het maken van de melding buiten de  blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
-- Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met onchain meldingen wordt dit risico vermeden, omdat de gebruiker de meldingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de  blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
+- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de Exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
+- Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met onchain meldingen wordt dit risico vermeden, omdat de gebruiker de meldingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
 
 
 Al deze beperkingen maken het gebruik van onchain notificatie essentieel voor BIP47. Silent Payments probeert deze onchain notificatiestap echter te vermijden, juist vanwege de kosten. De gekozen oplossing is daarom niet om de kennisgeving te verplaatsen, maar om deze volledig te elimineren. Om dit te bereiken moet een compromis worden aanvaard: scannen. In tegenstelling tot BIP47, waar de gebruiker dankzij notificatietransacties precies weet waar hij zijn geld kan vinden, moet de gebruiker met Silent Payments alle bestaande Bitcoin-transacties onderzoeken om voor hem bestemde betalingen op te sporen. Om deze operationele last te verminderen, is de zoekopdracht voor Stille Betalingen beperkt tot transacties die waarschijnlijk dergelijke betalingen bevatten, d.w.z. transacties met ten minste één Taproot P2TR uitgang. De scan richt zich ook uitsluitend op transacties vanaf de aanmaakdatum van wallet (het is niet nodig om transacties uit 2009 te scannen als de wallet in 2024 werd aangemaakt).
@@ -5583,7 +5583,7 @@ Door Address van Bob op te halen, kan Alice met behulp van ECDH een nieuwe lege 
 $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 
 
-In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een Hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice deze Address $P$ heeft, gebruikt ze het als uitvoer in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
+In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een Hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice deze Address $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
 
 
 > *In de context van Stille Betalingen komt de "Hash"-functie overeen met een SHA256 Hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
@@ -5632,10 +5632,10 @@ Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésle
 - $P$ : De openbare sleutel/unieke Address voor betaling aan Bob
 
 
-Hier is een nogal naïeve eerste benadering om Bob's statische Address, genoteerd $B$, te gebruiken om een unieke Address $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema niet meerdere uitgangen naar Bob kan maken binnen dezelfde transactie.
+Hier is een nogal naïeve eerste benadering om Bob's statische Address, genoteerd $B$, te gebruiken om een unieke Address $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema niet meerdere outputs naar Bob kan maken binnen dezelfde transactie.
 
 
-### Hoe maak ik meerdere uitgangen?
+### Hoe maak ik meerdere outputs?
 
 
 In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke Address $P$. Met dezelfde geselecteerde invoer is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
@@ -5659,7 +5659,7 @@ $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
 $$ P_1 = B + \text{Hash}(a \dot B \text{ ‖ } 1) \dot G $$
 
 
-Wanneer Bob  blockchain scant op Stille Betalingen die voor hem bedoeld zijn, begint hij met $i = 0$ voor Address $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Stille Betalingen bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
+Wanneer Bob blockchain scant op Stille Betalingen die voor hem bedoeld zijn, begint hij met $i = 0$ voor Address $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Stille Betalingen bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
 
 
 $$ P_0 = B + \text{Hash}(b \text{ ‖ } 0) \cdot G $$
@@ -5889,10 +5889,10 @@ Bob heeft daarom een statische Address $B$ voor Stille Betalingen zoals :
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 
 
-Het probleem met deze methode is dat je de verschillende betalingen die naar deze Address worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische Address, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele  blockchain twee keer wordt gescand (één keer voor elke Address) om betalingen te detecteren die respectievelijk voor elke Address bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
+Het probleem met deze methode is dat je de verschillende betalingen die naar deze Address worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische Address, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke Address) om betalingen te detecteren die respectievelijk voor elke Address bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
 
 
-Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Stille Betalingen op de  blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische Address, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
+Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Stille Betalingen op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische Address, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
 
 
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
@@ -5926,7 +5926,7 @@ Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische A
 $$ P_0 = B_{{bestedingen}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke uitvoer. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn portfolio. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Stille Betaling is die geassocieerd is met zijn statisch gelabelde Address $B_1$ :
+Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke output. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn portfolio. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Stille Betaling is die geassocieerd is met zijn statisch gelabelde Address $B_1$ :
 
 
 $$ Out_4 - P_0 = \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
@@ -6018,10 +6018,10 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 ```
 
 
-Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betalingsadressen die in uitgangen worden gebruikt, verschijnen op de  blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Stille Betaling te onderscheiden van een gewone transactie met P2TR uitgangen.
+Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betalingsadressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Stille Betaling te onderscheiden van een gewone transactie met P2TR outputs.
 
 
-Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische Address $B$ en een betalings-Address $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de  blockchain te scannen met de statische Address $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de private sleutel $b_{scan}}$ van Bob nodig hebben, ofwel de private sleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische Address expliciet te koppelen aan een vorm van persoonlijke identiteit.
+Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische Address $B$ en een betalings-Address $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische Address $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de private sleutel $b_{scan}}$ van Bob nodig hebben, ofwel de private sleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische Address expliciet te koppelen aan een vorm van persoonlijke identiteit.
 
 
 ### Hoe gebruik ik Stille Betalingen?

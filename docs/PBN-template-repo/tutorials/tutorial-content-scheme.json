@@ -42,7 +42,8 @@
     "headings": {
       "h1": {
         "allowed": false,
-        "reason": "Title comes from YAML 'name' field, do NOT use H1 in content"
+        "reason": "Title comes from YAML 'name' field, do NOT use H1 in content",
+        "exception": "H1 headings inside code blocks (fenced with ``` or ~~~, or indented) are allowed and not validated"
       },
       "h2": {
         "allowed": true,

@@ -112,6 +112,7 @@ Con DietPi esiste il comando `dietpi-Backup`, che ti consiglio di esplorare per 
 
 Seleziona la destinazione del backup, per esempio un altro disco, avviando `dietpi-Drive_Manager` per montare il drive di destinazione e usarlo per questa funzione.
 
+
 ## Configurazione
 
 Il self-hosting è un'esperienza consigliabile a tutti, curiosi o semplici appassionati. Tuttavia, tirar su e configurare un server implica delle sfide tecnologiche non indifferenti. È qui che **entra in gioco la semplicità di DietPi**, che permette di configurare un sistema su misura alle tue esigenze, con pochi e semplici passi.
@@ -168,6 +169,7 @@ Tutti i `log` li trovi in `/var/log`:
 
 ![img](assets/en/19.webp)
 
+
 ## Suggerimenti
 
 Se non è il tuo primo server, non hai bisogno di alcun suggerimento: hai sicuramente già trovato la parte che più ti interessa di questo piccolo universo.
@@ -178,7 +180,7 @@ Se sei alla tua prima esperienza con il self-hosting, invece, potresti iniziare 
 
 ![img](assets/en/20.webp)
 
-Nella parte inferiore della pagina di introduzione, troverai tutte le istruzioni per la configurazione, la manutenzione e l'aggiornamento. **Una volta installato, potresti stupirti di quanta di pubblicità è in grado di bloccare Pi Hole**.
+Nella parte inferiore della pagina di introduzione, troverai tutte le istruzioni per la configurazione, la manutenzione e l'aggiornamento. **Una volta installato, potresti stupirti di quanta pubblicità è in grado di bloccare Pi Hole**.
 
 Per iniziare a usare Pi-Hole, puoi trovare la guida nella sezione tutorial di Plan ₿ Network: 
 
@@ -201,4 +203,4 @@ L'interfaccia web di Portainer è disponibile all'URL `localhost:9000` ed è uno
 
 La gamma di software che puoi self-hostare con dietPi è molto ampia, sia per quantità che per qualità. Una volta appresi i meccanismi, potresti volere dedicare una SBC per il controllo degli apparati smart della tua casa, ospitare media server per l'intrattenimento, oppure installare un cloud privato.
 
-Oppure puoi considerarlo un primo step per addentrarti questo ambito, "senza sforzi" iniziali. Poi scoprire nuove tecniche più avanzate, adeguando hardware e difficoltà ai tuoi progressi. 
+Oppure puoi considerarlo un primo step per addentrarti questo ambito, "senza sforzi" iniziali. Poi scoprire nuove tecniche più avanzate, adeguando hardware e difficoltà ai tuoi progressi.

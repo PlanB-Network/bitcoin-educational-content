@@ -5,25 +5,25 @@ objectives:
 
 
   - De theoretische concepten definiëren die nodig zijn om privacykwesties te begrijpen
-  - De risico's in verband met verlies van vertrouwelijkheid voor Bitcoin gebruikers identificeren en beperken
-  - Methoden en hulpmiddelen gebruiken om uw privacy op Bitcoin te beschermen
+  - De risico's in verband met verlies van vertrouwelijkheid voor Bitcoin-gebruikers identificeren en beperken
+  - Methoden en hulpmiddelen gebruiken om je privacy op Bitcoin te beschermen
   - Ketenanalysemethoden begrijpen en verdedigingsstrategieën ontwikkelen
 
 
 ---
-# Bescherm uw privacy op Bitcoin
+# Bescherm je privacy op Bitcoin
 
 
-In een wereld waar de vertrouwelijkheid van financiële transacties langzamerhand een luxe wordt, is het begrijpen en beheersen van de principes van privacybescherming bij het gebruik van Bitcoin essentieel. Deze training geeft je alle sleutels, zowel theoretisch als praktisch, om dit zelfstandig te bereiken.
+In een wereld waar de vertrouwelijkheid van financiële transacties steeds meer een luxe wordt, is het begrijpen en beheersen van de principes van privacybescherming bij het gebruik van Bitcoin essentieel. Deze training geeft je alle sleutels, zowel theoretisch als praktisch, om dit zelfstandig te bereiken.
 
 
-Vandaag de dag, op Bitcoin, specialiseren bedrijven zich in Blockchain analyse. Hun core business bestaat juist uit het binnendringen in je privé-sfeer, om de vertrouwelijkheid van je transacties in gevaar te brengen. In werkelijkheid bestaat er niet zoiets als een "recht op privacy" in Bitcoin. Het is dus aan jou, de gebruiker, om je natuurlijke rechten te laten gelden en de vertrouwelijkheid van je transacties te beschermen, want niemand anders gaat dat voor je doen.
+Vandaag de dag specialiseren bedrijven zich in Bitcoin blockchainanalyse. Hun core business bestaat juist uit het binnendringen in je privé-sfeer, om de vertrouwelijkheid van je transacties in gevaar te brengen. In werkelijkheid bestaat er niet zoiets als een "recht op privacy" in Bitcoin. Het is dus aan jou, de gebruiker, om je natuurlijke rechten te laten gelden en de vertrouwelijkheid van je transacties te beschermen, want niemand anders gaat dat voor je doen.
 
 
-De cursus is uitgebreid en algemeen van opzet. Elk technisch concept wordt in detail behandeld en ondersteund door verklarende diagrammen. Het doel is om de kennis voor iedereen toegankelijk te maken. BTC204 is daarom betaalbaar voor beginners en gemiddelde gebruikers. De cursus biedt ook toegevoegde waarde voor meer ervaren bitcoiners, omdat we dieper ingaan op bepaalde technische concepten die vaak verkeerd begrepen worden.
+De cursus is uitgebreid en algemeen van opzet. Elk technisch concept wordt in detail behandeld en ondersteund door verklarende diagrammen. Het doel is om de kennis voor iedereen toegankelijk te maken. BTC204 is daarom toegankelijk voor beginners en gemiddelde gebruikers. De cursus biedt ook toegevoegde waarde voor meer ervaren bitcoiners, omdat we dieper ingaan op bepaalde technische concepten die vaak verkeerd begrepen worden.
 
 
-Doe met ons mee om uw gebruik van Bitcoin te veranderen en een geïnformeerde gebruiker te worden, die in staat is de problemen rond vertrouwelijkheid te begrijpen en uw privacy te beschermen.
+Doe met ons mee om je gebruik van Bitcoin te veranderen en een geïnformeerde gebruiker te worden die in staat is de problemen rond vertrouwelijkheid te begrijpen en je privacy te beschermen.
 
 
 +++
@@ -47,13 +47,13 @@ Welkom bij de BTC204-cursus!
 In een wereld waar de vertrouwelijkheid van financiële transacties stilaan een luxe wordt, is het essentieel om de principes van privacybescherming bij het gebruik van Bitcoin te begrijpen en te beheersen. Deze training geeft je alle sleutels, zowel theoretisch als praktisch, om dit zelfstandig te bereiken.
 
 
-Tegenwoordig, op Bitcoin, specialiseren bedrijven zich in Blockchain analyse. Hun core business bestaat juist uit het binnendringen in je privé-sfeer, om de vertrouwelijkheid van je transacties in gevaar te brengen. In werkelijkheid bestaat er niet zoiets als een "recht op privacy" in Bitcoin. Het is dus aan jou, de gebruiker, om je natuurlijke rechten te laten gelden en de vertrouwelijkheid van je transacties te beschermen, want niemand anders gaat dat voor je doen.
+Tegenwoordig specialiseren bedrijven zich in Bitcoin blockchainanalyse. Hun core business bestaat juist uit het binnendringen in je privé-sfeer, om de vertrouwelijkheid van je transacties in gevaar te brengen. In werkelijkheid bestaat er niet zoiets als een "recht op privacy" in Bitcoin. Het is dus aan jou, de gebruiker, om je natuurlijke rechten te laten gelden en de vertrouwelijkheid van je transacties te beschermen, want niemand anders gaat dat voor je doen.
 
 
-Bitcoin gaat niet alleen over "Number Go Up" en het behouden van de waarde van spaargeld. Met zijn unieke kenmerken en geschiedenis is het in de eerste plaats het gereedschap van de tegen-economie. Dankzij deze formidabele uitvinding kun je vrij over je geld beschikken, het uitgeven en accumuleren, zonder dat iemand je kan tegenhouden.
+Bitcoin gaat niet alleen over "Number Go Up" en het behouden van de waarde van spaargeld. Met zijn unieke kenmerken en geschiedenis is het in de eerste plaats de tool van de tegeneconomie. Dankzij deze formidabele uitvinding kun je vrij over je geld beschikken, het uitgeven en accumuleren, zonder dat iemand je kan tegenhouden.
 
 
-Bitcoin biedt een vreedzame ontsnapping aan het juk van de staat, waardoor je volledig kunt genieten van je natuurlijke rechten, die niet kunnen worden aangevochten door gevestigde wetten. Dankzij de uitvinding van Satoshi Nakamoto heb je de macht om respect voor je privébezit af te dwingen en de vrijheid van Contract terug te winnen.
+Bitcoin biedt een vreedzame ontsnapping aan het juk van de staat, waardoor je volledig kunt genieten van je natuurlijke rechten, die niet kunnen worden aangevochten door gevestigde wetten. Dankzij de uitvinding van Satoshi Nakamoto heb je de macht om respect voor je privébezit af te dwingen en de vrijheid terug te winnen om een contract aan te gaan.
 
 
 Bitcoin is echter niet standaard anoniem, wat een risico kan vormen voor individuen die zich bezighouden met de tegeneconomie, vooral in regio's onder despotisch bewind. Maar dit is niet het enige gevaar. Omdat Bitcoin een waardevol en oncontroleerbaar bezit is, kan het een doelwit zijn voor dieven. Het beschermen van je privacy wordt dus ook een kwestie van veiligheid: het kan je helpen hacken en fysiek geweld te voorkomen.
@@ -62,7 +62,7 @@ Bitcoin is echter niet standaard anoniem, wat een risico kan vormen voor individ
 Zoals we zullen zien, biedt het protocol op zichzelf al bepaalde bescherming voor vertrouwelijkheid, maar is het cruciaal om aanvullende hulpmiddelen te gebruiken om deze vertrouwelijkheid te optimaliseren en te verdedigen.
 
 
-Deze training is ontworpen om een uitgebreid, algemeen overzicht te geven van de zaken die komen kijken bij Bitcoin vertrouwelijkheid. Elk technisch concept wordt in detail behandeld, ondersteund door verklarende diagrammen. Het doel is om deze kennis voor iedereen toegankelijk te maken, zelfs voor beginners en gevorderden. Voor de meer doorgewinterde Bitcoiners behandelen we ook zeer technische en soms weinig bekende concepten door de cursus heen, om het begrip van elk onderwerp te verdiepen.
+Deze training is ontworpen om een uitgebreid, algemeen overzicht te geven van de zaken die komen kijken bij Bitcoin-vertrouwelijkheid. Elk technisch concept wordt in detail behandeld, ondersteund door verklarende diagrammen. Het doel is om deze kennis voor iedereen toegankelijk te maken, zelfs voor beginners en gevorderden. Voor de meer doorgewinterde bitcoiners behandelen we ook zeer technische en soms weinig bekende concepten door de cursus heen, om het begrip van elk onderwerp te verdiepen.
 
 
 Het doel van deze training is niet om je volledig anoniem te maken in je gebruik van Bitcoin, maar om je de essentiële tools te geven om te weten hoe je je vertrouwelijkheid kunt beschermen in overeenstemming met je persoonlijke doelstellingen. Je hebt de vrijheid om te kiezen uit de gepresenteerde concepten en tools om je eigen strategieën te ontwikkelen, aangepast aan je specifieke doelen en behoeften.
@@ -71,7 +71,7 @@ Het doel van deze training is niet om je volledig anoniem te maken in je gebruik
 **Deel 1: Definities en kernbegrippen**
 
 
-Om te beginnen gaan we de basisprincipes van de werking van Bitcoin doornemen, zodat we daarna rustig de begrippen met betrekking tot vertrouwelijkheid kunnen behandelen. Het is essentieel om een paar basisconcepten te beheersen, zoals [UTXO](https://planb.academy/resources/glossary/utxo), ontvangende adressen en scripting, voordat je de concepten die we in de volgende secties zullen behandelen volledig kunt begrijpen. We zullen ook het algemene vertrouwelijkheidsmodel van Bitcoin introduceren, zoals bedacht door Satoshi Nakamoto, dat ons in staat zal stellen de bijbehorende inzet en risico's te begrijpen.
+Om te beginnen gaan we de basisprincipes van de werking van Bitcoin doornemen, zodat we daarna rustig de begrippen met betrekking tot vertrouwelijkheid kunnen behandelen. Het is essentieel om een paar basisconcepten te beheersen, zoals [UTXO](https://planb.academy/resources/glossary/utxo), ontvangst-adressen en scripting, voordat je de concepten die we in de volgende secties zullen behandelen volledig kunt begrijpen. We zullen ook het algemene Bitcoin vertrouwelijkheidsmodel introduceren, zoals bedacht door Satoshi Nakamoto, dat ons in staat zal stellen de bijbehorende inzet en risico's te begrijpen.
 
 
 ![BTC204](assets/nl/001.webp)
@@ -80,7 +80,7 @@ Om te beginnen gaan we de basisprincipes van de werking van Bitcoin doornemen, z
 **Deel 2: Inzicht in en bescherming tegen ketenanalyse**
 
 
-In het tweede deel kijken we naar de technieken die Blockchain analysebedrijven gebruiken om uw activiteiten op Bitcoin te volgen. Inzicht in deze methoden is cruciaal om je privacy beter te beschermen. Het doel van dit hoofdstuk is om de strategieën van aanvallers te onderzoeken om de risico's beter te begrijpen en de basis te leggen voor de technieken die we in de volgende hoofdstukken zullen bestuderen. We zullen transactiepatronen, interne en externe heuristieken en waarschijnlijke interpretaties van deze patronen analyseren. Naast de theorie zullen we leren hoe we een Block explorer kunnen gebruiken voor ketenanalyse, door middel van praktische voorbeelden en oefeningen.
+In het tweede deel kijken we naar de technieken die blockchainanalyse-bedrijven gebruiken om je activiteiten op Bitcoin te volgen. Inzicht in deze methoden is cruciaal om je privacy beter te beschermen. Het doel van dit hoofdstuk is om de strategieën van aanvallers te onderzoeken om de risico's beter te begrijpen en de basis te leggen voor de technieken die we in de volgende hoofdstukken zullen bestuderen. We zullen transactiepatronen, interne en externe heuristieken en waarschijnlijke interpretaties van deze patronen analyseren. Naast de theorie zullen we leren hoe we een block explorer kunnen gebruiken voor ketenanalyse, door middel van praktische voorbeelden en oefeningen.
 
 
 ![BTC204](assets/nl/002.webp)
@@ -89,7 +89,7 @@ In het tweede deel kijken we naar de technieken die Blockchain analysebedrijven 
 **Sectie 3: De beste werkwijzen onder de knie krijgen om je privacy te beschermen**
 
 
-In het derde deel van onze training komen we tot de kern: de praktijk! Het doel is om alle essentiële best practices onder de knie te krijgen die een natuurlijke reflex zouden moeten worden voor elke Bitcoin gebruiker. We behandelen het gebruik van lege adressen, tagging, consolidatie, het gebruik van complete nodes, KYC en acquisitiemethoden. Het doel is om je een uitgebreid overzicht te geven van de valkuilen die je moet vermijden om een solide basis te leggen in ons streven om privacy te beschermen. Voor sommige van deze praktijken wordt u doorverwezen naar een specifieke handleiding over hoe u ze kunt implementeren.
+In het derde deel van onze training komen we tot de kern: de praktijk! Het doel is om alle essentiële best practices onder de knie te krijgen die een natuurlijke reflex zouden moeten worden voor elke Bitcoin-gebruiker. We behandelen het gebruik van lege adressen, tagging, consolidatie, het gebruik van complete nodes, KYC en acquisitiemethoden. Het doel is om je een uitgebreid overzicht te geven van de valkuilen die je moet vermijden om een solide basis te leggen in ons streven naar privacy. Voor sommige van deze praktijken verwijzen we je naar een specifieke implementatiehandleiding.
 
 
 ![BTC204](assets/nl/003.webp)
@@ -98,7 +98,7 @@ In het derde deel van onze training komen we tot de kern: de praktijk! Het doel 
 **Deel 4: CoinJoin transacties begrijpen**
 
 
-Hoe kunnen we het hebben over privacy op Bitcoin zonder [coinjoin](https://planb.academy/resources/glossary/coinjoin)s te noemen? In hoofdstuk 4 kom je alles te weten over deze mengmethode. Je leert wat coinjoins zijn, hun geschiedenis en doelstellingen, en de verschillende typen CoinJoin die er bestaan. Tot slot, voor de meer ervaren gebruiker, kijken we naar wat anonsets en entropie zijn, en hoe je ze berekent.
+Hoe kunnen we het hebben over privacy op Bitcoin zonder [coinjoin](https://planb.academy/resources/glossary/coinjoin)s te noemen? In hoofdstuk 4 kom je alles te weten over deze mengmethode. Je leert wat coinjoins zijn, hun geschiedenis en doelstellingen, en de verschillende typen coinjoin die er bestaan. Tot slot, voor de meer ervaren gebruiker, kijken we naar wat anonsets en entropie zijn, en hoe je ze berekent.
 
 
 ![BTC204](assets/nl/004.webp)
@@ -107,15 +107,15 @@ Hoe kunnen we het hebben over privacy op Bitcoin zonder [coinjoin](https://planb
 **Sectie 5: De uitdagingen van andere geavanceerde vertrouwelijkheidstechnieken begrijpen**
 
 
-In de vijfde sectie bekijken we alle andere technieken die beschikbaar zijn om je privacy te beschermen op Bitcoin, afgezien van CoinJoin. In de loop der jaren hebben ontwikkelaars een opmerkelijke creativiteit getoond in het ontwerpen van tools die gericht zijn op privacy. We zullen al deze methodes bekijken, zoals PayJoin, collaboratieve transacties, Coin Swap en Atomic Swap, met details over hoe ze werken, hun doelen en eventuele zwakheden.
+In de vijfde sectie bekijken we alle andere technieken die beschikbaar zijn om je privacy te beschermen op Bitcoin, afgezien van coinjoin. In de loop der jaren hebben ontwikkelaars een opmerkelijke creativiteit getoond in het ontwerpen van tools die gericht zijn op privacy. We zullen al deze methodes bekijken, zoals PayJoin, collaboratieve transacties, Coin Swap en Atomic Swap, met details over hoe ze werken, hun doelen en eventuele zwakheden.
 
 
-We zullen ook kijken naar privacy op het niveau van het netwerk van knooppunten en de verspreiding van transacties. We bespreken ook de verschillende protocollen die in de loop der jaren zijn voorgesteld om de privacy van gebruikers op Bitcoin te verbeteren, waaronder statische Address protocollen.
+We zullen ook kijken naar privacy op het niveau van het netwerk van knooppunten (nodes) en de verspreiding van transacties. We bespreken ook de verschillende protocollen die in de loop der jaren zijn voorgesteld om de privacy van gebruikers op Bitcoin te verbeteren, waaronder statische adres-protocollen.
 
 
 ![BTC204](assets/nl/005.webp)
 
-Klaar om de fijne kneepjes van privacy op Bitcoin te ontdekken? Laten we gaan!
+Klaar om de fijne kneepjes van privacy op Bitcoin te ontdekken? Laten we starten!
 
 
 # Definities en kernbegrippen
@@ -285,7 +285,7 @@ Wat de transactievergoedingen betreft, hoewel deze ook nieuw gecreëerde BTC ver
 
 Ten eerste beïnvloedt het UTXO model direct de transactiekosten van Bitcoin. Omdat de capaciteit van elk blok beperkt is, geven miners de voorkeur aan transacties die de beste vergoedingen bieden in verhouding tot de ruimte die ze innemen in het blok. Hoe meer UTXO's een transactie bevat in haar inputs en outputs, hoe zwaarder ze is en dus hogere vergoedingen vereist. Dit is een van de redenen waarom we vaak proberen het aantal UTXO's in onze portfolio te verminderen, wat ook invloed kan hebben op de vertrouwelijkheid, een onderwerp dat we in detail zullen behandelen in het derde deel van deze cursus.
 
-Ten tweede, zoals vermeld in de vorige paragrafen, zijn Bitcoin munten in wezen een keten van UTXO's. Elke transactie creëert dus een link tussen een vroegere UTXO en een toekomstige UTXO. Elke transactie creëert dus een link tussen een UTXO uit het verleden en een UTXO uit de toekomst. UTXO's maken het dus mogelijk om expliciet het pad van Bitcoins te volgen vanaf hun creatie tot hun huidige uitgaven. Deze transparantie kan positief worden beoordeeld, omdat het elke gebruiker in staat stelt om de authenticiteit van de ontvangen Bitcoins vast te stellen. Het is echter ook op dit principe van traceerbaarheid en controleerbaarheid dat de Blockchain analyse gebaseerd is, een praktijk die ontworpen is om uw vertrouwelijkheid in gevaar te brengen. In het tweede deel van de cursus gaan we dieper in op deze praktijk.
+Ten tweede, zoals vermeld in de vorige paragrafen, zijn Bitcoin munten in wezen een keten van UTXO's. Elke transactie creëert dus een link tussen een vroegere UTXO en een toekomstige UTXO. Elke transactie creëert dus een link tussen een UTXO uit het verleden en een UTXO uit de toekomst. UTXO's maken het dus mogelijk om expliciet het pad van Bitcoins te volgen vanaf hun creatie tot hun huidige uitgaven. Deze transparantie kan positief worden beoordeeld, omdat het elke gebruiker in staat stelt om de authenticiteit van de ontvangen Bitcoins vast te stellen. Het is echter ook op dit principe van traceerbaarheid en controleerbaarheid dat de blockchainanalyse gebaseerd is, een praktijk die ontworpen is om uw vertrouwelijkheid in gevaar te brengen. In het tweede deel van de cursus gaan we dieper in op deze praktijk.
 
 
 ## Bitcoin's privacymodel
@@ -386,7 +386,7 @@ Als je bijvoorbeeld een stokbrood koopt bij de bakker en betaalt in BTC, kan je 
 ![BTC204](assets/nl/025.webp)
 
 
-Maar omdat Bitcoin transacties openbaar worden gemaakt, is het nog steeds mogelijk om verbanden te leggen om informatie af te leiden over de betrokken partijen. Deze activiteit vormt zelfs een specialisme op zich, bekend als "Blockchain analyse". In het volgende deel van de cursus nodig ik je uit om de grondbeginselen van Blockchain analyse te verkennen, zodat je kunt begrijpen hoe je bitcoins worden getraceerd en je je er beter tegen kunt verdedigen.
+Maar omdat Bitcoin transacties openbaar worden gemaakt, is het nog steeds mogelijk om verbanden te leggen om informatie af te leiden over de betrokken partijen. Deze activiteit vormt zelfs een specialisme op zich, bekend als "blockchainanalyse". In het volgende deel van de cursus nodig ik je uit om de grondbeginselen van blockchainanalyse te verkennen, zodat je kunt begrijpen hoe je bitcoins worden getraceerd en je je er beter tegen kunt verdedigen.
 
 
 # Inzicht in en bescherming tegen ketenanalyse
@@ -407,7 +407,7 @@ Maar omdat Bitcoin transacties openbaar worden gemaakt, is het nog steeds mogeli
 ### Definitie en werking
 
 
-Blockchain analyse is de praktijk van het traceren van de stroom bitcoins op de Blockchain. Over het algemeen is ketenanalyse gebaseerd op de observatie van karakteristieken in steekproeven van eerdere transacties. Het bestaat dan uit het identificeren van diezelfde kenmerken bij een transactie die we willen analyseren, en daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, gebaseerd op een praktische benadering om een oplossing te vinden die goed genoeg is, staat bekend als een "heuristiek".
+blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de Blockchain. Over het algemeen is ketenanalyse gebaseerd op de observatie van karakteristieken in steekproeven van eerdere transacties. Het bestaat dan uit het identificeren van diezelfde kenmerken bij een transactie die we willen analyseren, en daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, gebaseerd op een praktische benadering om een oplossing te vinden die goed genoeg is, staat bekend als een "heuristiek".
 
 
 In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
@@ -419,19 +419,19 @@ In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
 ![BTC204](assets/nl/026.webp)
 
 
-Blockchain analyse kan door iedereen worden uitgevoerd. Alles wat je nodig hebt is toegang tot de openbare informatie van de Blockchain via een compleet knooppunt om transactiebewegingen te observeren en hypotheses te maken. Er zijn ook gratis tools die deze analyse vergemakkelijken, zoals [OXT.me](https://oxt.me/), die we in detail zullen onderzoeken in de laatste twee hoofdstukken van deze sectie. Het grootste risico voor vertrouwelijkheid komt echter van bedrijven die gespecialiseerd zijn in stringanalyse. Deze bedrijven hebben Blockchain analyse op industriële schaal gebracht en verkopen hun diensten aan financiële instellingen en overheden. Van deze bedrijven is Chainalysis zeker het bekendst.
+blockchainanalyse kan door iedereen worden uitgevoerd. Alles wat je nodig hebt is toegang tot de openbare informatie van de Blockchain via een compleet knooppunt om transactiebewegingen te observeren en hypotheses te maken. Er zijn ook gratis tools die deze analyse vergemakkelijken, zoals [OXT.me](https://oxt.me/), die we in detail zullen onderzoeken in de laatste twee hoofdstukken van deze sectie. Het grootste risico voor vertrouwelijkheid komt echter van bedrijven die gespecialiseerd zijn in stringanalyse. Deze bedrijven hebben blockchainanalyse op industriële schaal gebracht en verkopen hun diensten aan financiële instellingen en overheden. Van deze bedrijven is Chainalysis zeker het bekendst.
 
 
 ### Doelstellingen ketenanalyse
 
 
-Eén van de doelen van de Blockchain analyse is het groeperen van verschillende activiteiten op Bitcoin om de uniciteit te bepalen van de gebruiker die ze uitvoerde. Vervolgens kan geprobeerd worden om dit cluster van activiteiten te koppelen aan een echte identiteit.
+Eén van de doelen van de blockchainanalyse is het groeperen van verschillende activiteiten op Bitcoin om de uniciteit te bepalen van de gebruiker die ze uitvoerde. Vervolgens kan geprobeerd worden om dit cluster van activiteiten te koppelen aan een echte identiteit.
 
 
 ![BTC204](assets/nl/027.webp)
 
 
-Denk terug aan het vorige hoofdstuk. Ik heb uitgelegd waarom het privacymodel van Bitcoin oorspronkelijk gebaseerd was op de scheiding van gebruikersidentiteit en transacties. Het zou daarom verleidelijk zijn om te denken dat Blockchain analyse nutteloos is, omdat zelfs als we erin slagen om onchain activiteiten te aggregeren, we ze niet kunnen associëren met een echte identiteit.
+Denk terug aan het vorige hoofdstuk. Ik heb uitgelegd waarom het privacymodel van Bitcoin oorspronkelijk gebaseerd was op de scheiding van gebruikersidentiteit en transacties. Het zou daarom verleidelijk zijn om te denken dat blockchainanalyse nutteloos is, omdat zelfs als we erin slagen om onchain activiteiten te aggregeren, we ze niet kunnen associëren met een echte identiteit.
 
 
 Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen we dat cryptografische sleutelparen gebruikt worden om voorwaarden te stellen aan UTXO. In essentie geven deze sleutelparen geen informatie vrij over hun houders. In essentie geven deze sleutelparen geen informatie vrij over de identiteit van hun houders. Dus zelfs als we erin slagen om de activiteiten geassocieerd met verschillende sleutelparen te groeperen, zegt dit ons niets over de entiteit achter deze activiteiten.
@@ -455,7 +455,7 @@ Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook 
 ### Jezelf verdedigen tegen ketenanalyse
 
 
-We moeten dus ook kunnen omgaan met Blockchain analyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de aggregatie van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken.
+We moeten dus ook kunnen omgaan met blockchainanalyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de aggregatie van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken.
 
 
 ![BTC204](assets/nl/030.webp)
@@ -468,7 +468,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3
 
 https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin privacy. Inzicht in Blockchain analysemethoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie on chain analyse in deze training opgenomen.
+Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin privacy. Inzicht in blockchainanalyse-methoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie on chain analyse in deze training opgenomen.
 
 
 ### Ketenanalysemethoden
@@ -614,7 +614,7 @@ Dit model wordt gekenmerkt door het verbruik van meerdere UTXO's aan de ingang e
 ![BTC204](assets/nl/037.webp)
 
 
-De interpretatie van dit patroon is dat we te maken hebben met consolidatie. Dit is een gebruikelijke praktijk onder Bitcoin gebruikers, gericht op het samenvoegen van verschillende UTXO's in afwachting van een mogelijke verhoging van de transactiekosten. Door deze operatie uit te voeren in een periode waarin de vergoedingen laag zijn, is het mogelijk om te besparen op toekomstige vergoedingen. We zullen meer over deze praktijk vertellen in hoofdstuk 4.3.
+De interpretatie van dit patroon is dat we te maken hebben met consolidatie. Dit is een gebruikelijke praktijk onder Bitcoin-gebruikers, gericht op het samenvoegen van verschillende UTXO's in afwachting van een mogelijke verhoging van de transactiekosten. Door deze operatie uit te voeren in een periode waarin de vergoedingen laag zijn, is het mogelijk om te besparen op toekomstige vergoedingen. We zullen meer over deze praktijk vertellen in hoofdstuk 4.3.
 
 
 We kunnen afleiden dat de gebruiker achter dit transactiemodel waarschijnlijk in het bezit was van alle UTXO's in de invoer en nog steeds in het bezit is van de UTXO in de uitvoer. Het is dus waarschijnlijk een auto-transfer.
@@ -973,7 +973,7 @@ CIOH werd ontdekt door Satoshi Nakamoto. Hij vertelt erover in deel 10 van het w
 ![BTC204](assets/nl/061.webp)
 
 
-Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH en Address hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij Blockchain analyse.
+Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH en Address hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij blockchainanalyse.
 
 
 Om een voorbeeld te geven: hier is een transactie waarop we CIOH waarschijnlijk kunnen toepassen:
@@ -996,7 +996,7 @@ Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8
 Natuurlijk is ketenanalyse niet uitsluitend beperkt tot gegevens over de keten. Alle gegevens uit een eerdere analyse of beschikbaar op internet kunnen ook worden gebruikt om een analyse te verfijnen.
 
 
-Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IP Address identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in Blockchain analyse.
+Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IP Address identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
 
 
 De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een uitvoer vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op uitvoer die wijst naar een Exchange platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
@@ -1014,7 +1014,7 @@ Kanaalanalyse omvat ook een iets algemenere OSINT-component (*Open Source Intell
 ### Temporele modellen
 
 
-We staan er minder bij stil, maar bepaalde menselijke gedragingen zijn aan een ketting te herkennen. Misschien wel het nuttigst in een analyse is je slaappatroon! Ja, als je slaapt, zend je geen Bitcoin transacties uit. Maar over het algemeen slaap je op ongeveer dezelfde tijd. Daarom is het gebruikelijk om temporele analyse te gebruiken bij Blockchain analyse. Simpel gezegd is dit een telling van de tijden waarop de transacties van een bepaalde entiteit worden uitgezonden naar het Bitcoin netwerk. Door deze temporele patronen te analyseren, kunnen we een schat aan informatie afleiden.
+We staan er minder bij stil, maar bepaalde menselijke gedragingen zijn aan een ketting te herkennen. Misschien wel het nuttigst in een analyse is je slaappatroon! Ja, als je slaapt, zend je geen Bitcoin transacties uit. Maar over het algemeen slaap je op ongeveer dezelfde tijd. Daarom is het gebruikelijk om temporele analyse te gebruiken bij blockchainanalyse. Simpel gezegd is dit een telling van de tijden waarop de transacties van een bepaalde entiteit worden uitgezonden naar het Bitcoin netwerk. Door deze temporele patronen te analyseren, kunnen we een schat aan informatie afleiden.
 
 
 Allereerst kan een temporele analyse soms de aard van de getraceerde entiteit identificeren. Als we zien dat de transacties consistent over 24 uur worden uitgezonden, dan verraadt dit een hoog niveau van economische activiteit. De entiteit achter deze transacties is waarschijnlijk een bedrijf, mogelijk internationaal en misschien met geautomatiseerde interne procedures.
@@ -1052,7 +1052,7 @@ Dit bereik komt waarschijnlijk overeen met Europa, Afrika of het Midden-Oosten. 
 Op een andere manier leidde een tijdanalyse van dit type ook tot de hypothese dat Satoshi Nakamoto niet opereerde vanuit Japan, maar vanuit de VS: [*The Time Zones of Satoshi Nakamoto*](https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakamoto-aa40f035178f)
 
 
-## In de praktijk brengen met een Block explorer
+## In de praktijk brengen met een block explorer
 
 
 <chapterId>6493cf2f-225c-405f-9375-c4304f1087ed</chapterId>
@@ -1061,10 +1061,10 @@ Op een andere manier leidde een tijdanalyse van dit type ook tot de hypothese da
 In dit laatste hoofdstuk gaan we de concepten die we tot nu toe bestudeerd hebben in praktijk brengen. Ik laat je voorbeelden zien van echte Bitcoin transacties, en jij moet de informatie die ik je vraag eruit halen.
 
 
-Idealiter zou het gebruik van een professioneel kettinganalyseprogramma de voorkeur verdienen om deze oefeningen uit te voeren. Echter, sinds de arrestatie van de makers van Samourai Wallet, is de enige gratis analyse tool OXT.me niet langer beschikbaar. Daarom kiezen we voor deze oefeningen voor een klassieke Block explorer. Ik raad je aan om [Mempool.space](https://Mempool.space/) te gebruiken, vanwege de vele mogelijkheden en de reeks hulpmiddelen voor ketenanalyse, maar je kunt ook kiezen voor een andere verkenner, zoals [Bitcoin Explorer](https://bitcoinexplorer.org/).
+Idealiter zou het gebruik van een professioneel kettinganalyseprogramma de voorkeur verdienen om deze oefeningen uit te voeren. Echter, sinds de arrestatie van de makers van Samourai Wallet, is de enige gratis analyse tool OXT.me niet langer beschikbaar. Daarom kiezen we voor deze oefeningen voor een klassieke block explorer. Ik raad je aan om [Mempool.space](https://Mempool.space/) te gebruiken, vanwege de vele mogelijkheden en de reeks hulpmiddelen voor ketenanalyse, maar je kunt ook kiezen voor een andere verkenner, zoals [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
 
-Om te beginnen zal ik je de oefeningen laten zien. Gebruik je Block explorer om ze in te vullen en schrijf je antwoorden op een vel papier. Aan het einde van dit hoofdstuk geef ik je de antwoorden, zodat je je resultaten kunt controleren en corrigeren.
+Om te beginnen zal ik je de oefeningen laten zien. Gebruik je block explorer om ze in te vullen en schrijf je antwoorden op een vel papier. Aan het einde van dit hoofdstuk geef ik je de antwoorden, zodat je je resultaten kunt controleren en corrigeren.
 
 
 *De transacties die voor deze oefeningen zijn geselecteerd, zijn enigszins willekeurig gekozen op basis van hun kenmerken. Dit hoofdstuk is alleen bedoeld voor educatieve en informatieve doeleinden. Ik wil graag duidelijk maken dat ik het gebruik van deze tools voor kwaadaardige doeleinden ondersteun noch aanmoedig. Het doel is om je te leren hoe je jezelf kunt beschermen tegen stringanalyse, niet om analyses uit te voeren om privé-informatie van anderen bloot te leggen.*
@@ -1436,7 +1436,7 @@ ___
 
 
 - De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai Wallet in 2021;
-- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis Blockchain analyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai Wallet);
+- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis blockchainanalyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai Wallet);
 - Meer in het algemeen komt mijn kennis van verschillende tweets en inhoud van [@LaurentMT](https://twitter.com/LaurentMT) en [@ErgoBTC](https://twitter.com/ErgoBTC);
 - De [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) waaraan ik deelnam in het gezelschap van [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) en [@LaurentMT](https://twitter.com/LaurentMT).
 
@@ -1572,7 +1572,7 @@ Omdat de Blockchain openbaar is, is het eenvoudig om te zien welke adressen welk
 Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
 
-De bedoeling van Satoshi in deze zin was om een extra firewall te creëren in het geval van een associatie tussen de identiteit van een gebruiker en een sleutelpaar op Bitcoin, om te voorkomen dat zijn hele activiteit publiekelijk gekoppeld zou worden aan zijn identiteit. Vandaag de dag, met de proliferatie van Blockchain analysebedrijven en KYC regelgeving, is het gebruik van unieke adressen niet langer een "extra firewall", maar een onmisbare praktijk voor iedereen die een minimum aan privacy wil behouden.
+De bedoeling van Satoshi in deze zin was om een extra firewall te creëren in het geval van een associatie tussen de identiteit van een gebruiker en een sleutelpaar op Bitcoin, om te voorkomen dat zijn hele activiteit publiekelijk gekoppeld zou worden aan zijn identiteit. Vandaag de dag, met de proliferatie van blockchainanalyse-bedrijven en KYC regelgeving, is het gebruik van unieke adressen niet langer een "extra firewall", maar een onmisbare praktijk voor iedereen die een minimum aan privacy wil behouden.
 
 
 Wanneer je een Address hergebruikt, leg je een bijna onbetwistbare link tussen alle transacties die geassocieerd zijn met die Address. Hoewel dit je fondsen niet direct in gevaar brengt, omdat elliptische curve cryptografie de veiligheid van je privésleutels garandeert, maakt het het wel makkelijker om je activiteiten te controleren. Iedereen met een node kan de transacties en saldi van de adressen bekijken, waardoor je anonimiteit volledig in het gedrang komt.
@@ -1645,7 +1645,7 @@ Zoals we hebben ontdekt in het gedeelte over stringanalyse, zijn er veel heurist
 Dit betekent een rigoureus beheer van je Wallet in zelfbewaarneming, wat betekent dat je de herkomst van je UTXO's kent en zorgvuldig kiest welke UTXO's je gebruikt bij betalingen. Dit efficiënte Wallet beheer berust op twee belangrijke kenmerken van goede Bitcoin wallets: tagging en muntcontrole.
 
 
-In dit hoofdstuk zullen we deze functies bekijken en zien hoe u ze intelligent kunt gebruiken, zonder teveel werklast toe te voegen, om uw privacy op Bitcoin sterk te optimaliseren.
+In dit hoofdstuk zullen we deze functies bekijken en zien hoe u ze intelligent kunt gebruiken, zonder teveel werklast toe te voegen, om je privacy op Bitcoin sterk te optimaliseren.
 
 
 ### Wat is labelen?
@@ -1715,7 +1715,7 @@ Om uw UTXO beheer te verfijnen en uw fondsscheidingsstrategieën binnen uw porte
 Het is ook raadzaam om de labeling van een onderdeel in de loop van transacties te bestendigen. Als je bijvoorbeeld UTXO no-KYC consolideert, zorg er dan voor dat je de resulterende UTXO niet alleen markeert als `consolidatie`, maar specifiek als `consolidatie no-KYC` om duidelijk bij te houden waar de munten vandaan komen.
 
 
-Tot slot is het niet verplicht om een datum op een etiket te zetten. De meeste Wallet software geeft de transactiedatum al weer, en het is altijd mogelijk om deze informatie op een Block explorer te vinden dankzij de txid.
+Tot slot is het niet verplicht om een datum op een etiket te zetten. De meeste Wallet software geeft de transactiedatum al weer, en het is altijd mogelijk om deze informatie op een block explorer te vinden dankzij de txid.
 
 
 ### Hoe kies je de juiste onderdelen?
@@ -1807,19 +1807,19 @@ Praktisch gezien houdt KYC in dat er verschillende persoonlijke gegevens van de 
 Deze procedure is verplicht geworden voor alle gereguleerde Exchange platforms in de meeste westerse landen. Dit betekent dat iedereen die Exchange staatsvaluta's voor Bitcoin via deze platforms wil wisselen, moet voldoen aan de KYC-eisen.
 
 
-Deze procedure is niet zonder risico's voor de privacy en veiligheid van gebruikers. In dit hoofdstuk onderzoeken we deze risico's in detail en analyseren we de specifieke impact van KYC en identificatieprocessen op de privacy van Bitcoin gebruikers.
+Deze procedure is niet zonder risico's voor de privacy en veiligheid van gebruikers. In dit hoofdstuk onderzoeken we deze risico's in detail en analyseren we de specifieke impact van KYC en identificatieprocessen op de privacy van Bitcoin-gebruikers.
 
 
 ### Onchain tracering vergemakkelijken
 
 
-Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor Blockchain analyse. Zoals we in de vorige sectie zagen, kunnen analisten activiteit op de Blockchain clusteren en volgen met behulp van transactiepatronen en heuristieken. Als ze er eenmaal in geslaagd zijn om de onchain activiteit van een gebruiker te clusteren, hoeven ze alleen maar een enkel toegangspunt te vinden tussen al zijn transacties en sleutels om zijn vertrouwelijkheid volledig te compromitteren.
+Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor blockchainanalyse. Zoals we in de vorige sectie zagen, kunnen analisten activiteit op de Blockchain clusteren en volgen met behulp van transactiepatronen en heuristieken. Als ze er eenmaal in geslaagd zijn om de onchain activiteit van een gebruiker te clusteren, hoeven ze alleen maar een enkel toegangspunt te vinden tussen al zijn transacties en sleutels om zijn vertrouwelijkheid volledig te compromitteren.
 
 
 ![BTC204](assets/nl/082.webp)
 
 
-Als je een KYC uitvoert, lever je een hoogwaardig toegangspunt voor Blockchain analyse, omdat je de ontvangende adressen die je gebruikt bij het opnemen van je bitcoins van een Exchange platform koppelt aan je volledige, geverifieerde identiteit. In theorie is deze informatie alleen bekend bij het bedrijf waaraan je het hebt verstrekt, maar zoals we hieronder zullen zien, is het risico van gegevenslekken reëel. Bovendien kan alleen al het feit dat een bedrijf over deze informatie beschikt problematisch zijn, zelfs als ze het niet delen.
+Als je een KYC uitvoert, lever je een hoogwaardig toegangspunt voor blockchainanalyse, omdat je de ontvangst-adressen die je gebruikt bij het opnemen van je bitcoins van een Exchange platform koppelt aan je volledige, geverifieerde identiteit. In theorie is deze informatie alleen bekend bij het bedrijf waaraan je het hebt verstrekt, maar zoals we hieronder zullen zien, is het risico van gegevenslekken reëel. Bovendien kan alleen al het feit dat een bedrijf over deze informatie beschikt problematisch zijn, zelfs als ze het niet delen.
 
 
 Dus als je geen andere stappen neemt om de samenvoeging van je activiteiten op Blockchain te beperken, kan iedereen met kennis van dit KYC-ingangspunt potentieel al je activiteiten op Bitcoin aan je identiteit koppelen. Vanuit het oogpunt van dat bedrijf verliest jouw gebruik van Bitcoin alle vertrouwelijkheid.
@@ -1840,7 +1840,7 @@ Denk terug aan het eerste deel van deze training: Het vertrouwelijkheidsmodel va
 Het tweede grote probleem met KYC is dat het aan de staat onthult dat je op een bepaald moment Bitcoin in je bezit hebt gehad. Wanneer je bitcoins koopt via een gereguleerde speler, wordt het mogelijk voor de staat om te weten over dit bezit. Op dit moment lijkt dit misschien triviaal, maar het is belangrijk om te onthouden dat de politieke en economische toekomst van jouw land niet in jouw handen ligt.
 
 
-Ten eerste kan de staat snel een autoritaire houding aannemen. De geschiedenis staat bol van voorbeelden waarbij het beleid abrupt veranderde. Vandaag de dag kunnen Bitcoiners in Europa artikelen schrijven over Bitcoin, deelnemen aan conferenties en hun portemonnee zelf beheren. Maar wie kan zeggen wat de toekomst brengt? Als Bitcoin plotseling volksvijand nummer één wordt, kan het problematisch zijn om ermee geassocieerd te worden in overheidsdossiers.
+Ten eerste kan de staat snel een autoritaire houding aannemen. De geschiedenis staat bol van voorbeelden waarbij het beleid abrupt veranderde. Vandaag de dag kunnen bitcoiners in Europa artikelen schrijven over Bitcoin, deelnemen aan conferenties en hun portemonnee zelf beheren. Maar wie kan zeggen wat de toekomst brengt? Als Bitcoin plotseling volksvijand nummer één wordt, kan het problematisch zijn om ermee geassocieerd te worden in overheidsdossiers.
 
 
 Dan, in het geval van een ernstige economische crisis, zou de staat kunnen overwegen om bitcoins die in het bezit zijn van burgers in beslag te nemen. Misschien worden bitcoiners morgen gezien als crisisprofiteurs en worden ze buitensporig belast voor hun vermogenswinsten in het licht van de devaluatie van fiatvaluta.
@@ -1885,7 +1885,7 @@ Naast de specifieke risico's die Bitcoin met zich meebrengt, zijn er ook de geva
 Het is belangrijk om een aantal vooroordelen over KYC te deconstrueren die we vaak tegenkomen op Twitter of in onze uitwisselingen tussen bitcoiners.
 
 
-Ten eerste is het onjuist om te denken dat het beschermen van uw privacy voor Bitcoins die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor Bitcoins die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet u voorzichtig zijn met gereguleerde Exchange platforms om te voorkomen dat uw account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
+Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor Bitcoins die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor Bitcoins die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet u voorzichtig zijn met gereguleerde Exchange platforms om te voorkomen dat uw account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
 
 
 ![BTC204](assets/nl/084.webp)
@@ -1894,7 +1894,7 @@ Ten eerste is het onjuist om te denken dat het beschermen van uw privacy voor Bi
 Vertrouwelijkheid op Bitcoin moet niet gezien worden op een binaire manier, als een onderscheid tussen "anonieme" bitcoins en andere die dat niet zijn. Het bezitten van Bitcoins die zijn verkregen via KYC betekent niet dat alles verloren is; integendeel, het gebruik van vertrouwelijkheidstools kan zelfs nog voordeliger zijn.
 
 
-Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen perfecte vertrouwelijkheid, noch ontslaat het u van de noodzaak om andere beschermende maatregelen te nemen. Als u in het bezit bent van niet-KYC Bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen uw transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige Layer vertrouwelijkheid die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende gereedschappen en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra Layer aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
+Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen perfecte vertrouwelijkheid, noch ontslaat het u van de noodzaak om andere beschermende maatregelen te nemen. Als u in het bezit bent van niet-KYC Bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen uw transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige Layer vertrouwelijkheid die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende tools en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra Layer aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
 
 
 ### Kan KYC worden geannuleerd?
@@ -2217,7 +2217,7 @@ In dit voorbeeld zou het daarom verstandig zijn om een minimale waarde van 940.0
 ### Consolidatie en CIOH
 
 
-Een van de meest gebruikte heuristieken in Blockchain analyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle ingangen van een Bitcoin transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als invoer te gebruiken en één UTXO als uitvoer te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
+Een van de meest gebruikte heuristieken in blockchainanalyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle ingangen van een Bitcoin transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als invoer te gebruiken en één UTXO als uitvoer te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
 
 
 ![BTC204](assets/nl/102.webp)
@@ -2340,7 +2340,7 @@ Naast al deze goede praktijken die je dagelijks moet toepassen, zijn er nog effe
 Na het bestuderen van de basisprincipes van privacybescherming, gaan we nu kijken naar meer geavanceerde technieken om je vertrouwelijkheid actief te verdedigen, in het bijzonder door je Bitcoin geschiedenis te ontvlechten. In het volgende deel gaan we kijken naar een heleboel kleine technieken, maar eerst wil ik je vertellen over CoinJoin.
 
 
-CoinJoin wordt vaak beschouwd als de meest effectieve methode om de privacy van Bitcoin gebruikers te beschermen. Maar wat is een CoinJoin transactie precies? Laten we dat eens uitzoeken.
+CoinJoin wordt vaak beschouwd als de meest effectieve methode om de privacy van Bitcoin-gebruikers te beschermen. Maar wat is een CoinJoin transactie precies? Laten we dat eens uitzoeken.
 
 
 ### De basisprincipes van CoinJoin
@@ -2355,10 +2355,10 @@ Zoals we in de eerste delen van deze cursus zagen, zijn Bitcoin transacties beke
 ![BTC204](assets/nl/108.webp)
 
 
-De vertrouwelijkheid van Bitcoin wordt ondermijnd wanneer externe waarnemers in staat zijn om specifieke UTXO's te associëren met geïdentificeerde gebruikers. Zodra deze associatie is vastgesteld, wordt het mogelijk om hun transacties te traceren en hun Bitcoin geschiedenis te analyseren. CoinJoin is juist een techniek die ontwikkeld is om de traceerbaarheid van UTXO's te doorbreken, om Bitcoin gebruikers een zekere Layer vertrouwelijkheid op transactieniveau te bieden.
+De vertrouwelijkheid van Bitcoin wordt ondermijnd wanneer externe waarnemers in staat zijn om specifieke UTXO's te associëren met geïdentificeerde gebruikers. Zodra deze associatie is vastgesteld, wordt het mogelijk om hun transacties te traceren en hun Bitcoin geschiedenis te analyseren. CoinJoin is juist een techniek die ontwikkeld is om de traceerbaarheid van UTXO's te doorbreken, om Bitcoin-gebruikers een zekere Layer vertrouwelijkheid op transactieniveau te bieden.
 
 
-Coinjoins versterken de vertrouwelijkheid van Bitcoin gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen invoer- en uitvoeradressen te bepalen.
+Coinjoins versterken de vertrouwelijkheid van Bitcoin-gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen invoer- en uitvoeradressen te bepalen.
 
 
 Het is belangrijk om te begrijpen dat het doel van een CoinJoin transactie is om de geschiedenis van een munt te breken. Deze techniek verleent geen permanente anonimiteit of blokkeert definitief het volgen van Bitcoin, in tegenstelling tot wat je zou kunnen denken. CoinJoin heeft alleen tot doel de geschiedenis te breken op het moment dat de CoinJoin transactie wordt uitgevoerd. Voor en na deze operatie blijft de munt echter onderworpen aan dezelfde risico's in termen van vertrouwelijkheid.
@@ -3092,7 +3092,7 @@ Hier volgen enkele strategieën om ze te gebruiken:
 - **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
 - **Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
 - Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je Exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
-- **Ze consolideren via Monero:** Samourai Wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder uw privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de miningkosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
+- **Ze consolideren via Monero:** Samourai Wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder je privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de miningkosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
 - Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
 
 
@@ -3225,7 +3225,7 @@ Laten we ons bijvoorbeeld voorstellen dat ons CoinJoin onderdeel een retrospecti
 ### Hoe bereken je anonsets?
 
 
-Het is mogelijk om handmatig anonsets te berekenen met een Block explorer voor kleine ensembles. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de Blockchain te halen.
+Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor kleine ensembles. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de Blockchain te halen.
 
 
 ![BTC204](assets/nl/164.webp)
@@ -3245,7 +3245,7 @@ Zoals we in dit hoofdstuk hebben gezien, kunnen anonsets alleen worden berekend 
 
 
 
-Zoals we in dit gedeelte over coinjoins hebben gezien, speelt de homogeniteit van UTXO's in input en output een belangrijke rol in het verbeteren van de vertrouwelijkheid van een Bitcoin transactie. Deze parameter creëert een plausibele ontkenning voor Blockchain analyse. Er kunnen verschillende methoden gebruikt worden om deze homogeniteit te meten, maar een van de meest effectieve is naar mijn mening het gebruik van de indicatoren van de *Boltzmann* tool, ontwikkeld door de OXT en Samourai Wallet teams, en in het bijzonder de entropie van de transactie. Dit is waar we in dit hoofdstuk in detail naar zullen kijken.
+Zoals we in dit gedeelte over coinjoins hebben gezien, speelt de homogeniteit van UTXO's in input en output een belangrijke rol in het verbeteren van de vertrouwelijkheid van een Bitcoin transactie. Deze parameter creëert een plausibele ontkenning voor blockchainanalyse. Er kunnen verschillende methoden gebruikt worden om deze homogeniteit te meten, maar een van de meest effectieve is naar mijn mening het gebruik van de indicatoren van de *Boltzmann* tool, ontwikkeld door de OXT en Samourai Wallet teams, en in het bijzonder de entropie van de transactie. Dit is waar we in dit hoofdstuk in detail naar zullen kijken.
 
 
 In tegenstelling tot anonsets, die berekend worden op een reeks transacties, richten de hier gepresenteerde indicatoren zich op één enkele transactie, of het nu een CoinJoin of een meer traditionele transactie is.
@@ -3284,7 +3284,7 @@ Uit het aantal interpretaties van een Bitcoin transactie kunnen we de entropie e
 In de algemene context van cryptografie en informatie is entropie een kwantitatieve maat voor de onzekerheid of onvoorspelbaarheid van een gegevensbron of willekeurig proces. Met andere woorden, entropie is een manier om te meten hoe moeilijk een stuk informatie te voorspellen of te raden is.
 
 
-In de specifieke context van Blockchain analyse is entropie ook de naam van een indicator, afgeleid van Shannon's entropie en [uitgevonden door LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), die berekend kan worden op een Bitcoin transactie.
+In de specifieke context van blockchainanalyse is entropie ook de naam van een indicator, afgeleid van Shannon's entropie en [uitgevonden door LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), die berekend kan worden op een Bitcoin transactie.
 
 
 Als een transactie een groot aantal mogelijke interpretaties heeft, is het vaak relevanter om naar de entropie ervan te verwijzen. Deze indicator meet het gebrek aan kennis van de analisten over de exacte configuratie van de transactie. Met andere woorden, hoe hoger de entropie, hoe moeilijker het wordt voor analisten om de stroom bitcoins tussen inputs en outputs te identificeren.
@@ -3623,7 +3623,7 @@ Laten we ons voorbeeld nemen van een PayJoin transactie voor de betaling van een
 ![BTC204](assets/nl/172.webp)
 
 
-Bij het zien van deze transactie op de Blockchain, zou een buitenstaander die de gebruikelijke heuristieken van Blockchain analyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 Sats te betalen aan Bob*".
+Bij het zien van deze transactie op de Blockchain, zou een buitenstaander die de gebruikelijke heuristieken van blockchainanalyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 Sats te betalen aan Bob*".
 
 
 ![BTC204](assets/nl/173.webp)
@@ -3922,7 +3922,7 @@ Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uitei
 ![BTC204](assets/nl/193.webp)
 
 
-Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een Ownership verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden Blockchain analyse tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
+Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een Ownership verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden blockchainanalyse tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
 
 
 ![BTC204](assets/nl/194.webp)
@@ -4259,7 +4259,7 @@ BIP156 is niet geïntegreerd in Bitcoin Core en is momenteel geclassificeerd als
 P2P transport V2 is een ander netwerkprotocol dat wordt gepresenteerd in BIP324. Het is een nieuwe versie van het Bitcoin P2P transport protocol dat opportunistische encryptie bevat om de vertrouwelijkheid en veiligheid van communicatie tussen nodes te verbeteren.
 
 
-Deze verbetering is ontworpen om verschillende problemen met de basisversie van het P2P protocol op te lossen. Enerzijds maakt het de uitgewisselde gegevens voor een passieve waarnemer niet te onderscheiden van andere soorten gegevens die op het internet circuleren. Het belangrijkste doel is om te voorkomen dat overheden, ISP's en VPN-providers Bitcoin-gebruikers massaal in de gaten houden. Dit maakt het ook moeilijker voor deze entiteiten om te bepalen of een internetgebruiker ook een Bitcoin gebruiker is, d.w.z. of hij of zij een compleet knooppunt bedient.
+Deze verbetering is ontworpen om verschillende problemen met de basisversie van het P2P protocol op te lossen. Enerzijds maakt het de uitgewisselde gegevens voor een passieve waarnemer niet te onderscheiden van andere soorten gegevens die op het internet circuleren. Het belangrijkste doel is om te voorkomen dat overheden, ISP's en VPN-providers Bitcoin-gebruikers massaal in de gaten houden. Dit maakt het ook moeilijker voor deze entiteiten om te bepalen of een internetgebruiker ook een Bitcoin-gebruiker is, d.w.z. of hij of zij een compleet knooppunt bedient.
 
 
 P2P V2 helpt ook het risico op censuur en aanvallen te verminderen door specifieke patronen in gegevenspakketten te detecteren. Het compliceert en maakt de uitvoering van verschillende soorten Sybil-aanvallen op netwerkniveau duurder. Een Sybil-aanval vindt plaats wanneer een actor meerdere valse identiteiten creëert om een oneerlijk voordeel te behalen. In de context van het Bitcoin netwerk manifesteert dit zich vaak als een actor die een groot aantal complete nodes controleert en deze agressief gebruikt om verbindingen te vermenigvuldigen. Sybil aanvallen kunnen passief zijn, om informatie te verzamelen en de vertrouwelijkheid van gebruikers in gevaar te brengen, of actief, in de vorm van Eclipse aanvallen. Deze laatste isoleren een specifiek knooppunt van de rest van het netwerk en censureren de gebruiker of veranderen de gegevens die het ontvangt. Ten slotte maakt P2P V2 ook *Man-In-The-Middle* (MITM) aanvallen kostbaarder en gemakkelijker op te sporen.
@@ -5549,7 +5549,7 @@ Er zijn twee belangrijke redenen voor de beslissing om Silent Payments uitsluite
 ### Naïeve afleiding van een openbare sleutel van Silent Payments
 
 
-Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin gebruikers. Alice wil Bitcoins sturen naar Bob op een lege ontvangende Address. Dit proces heeft drie doelen:
+Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin-gebruikers. Alice wil Bitcoins sturen naar Bob op een lege ontvangende Address. Dit proces heeft drie doelen:
 
 
 

@@ -26,7 +26,7 @@ Ente Auth è stato sviluppato dal team che ha ideato Ente Photos, un servizio di
 
 **Sincronizzazione su più dispositivi**: puoi installare Ente Auth su diversi dispositivi (smartphone, tablet, computer) e accedere ai tuoi codici su ciascuno di essi. Qualsiasi modifica viene propagata automaticamente e istantaneamente agli altri dispositivi tramite il cloud crittografato, garantendo una grande flessibilità nel lavoro quotidiano.
 
-**Interfacciae minimalista e intuitiva**: l'applicazione offre un interfaccia semplificata, facile da imparare anche per gli utenti non tecnici. Gli account 2FA vengono visualizzati con il nome del servizio, il login e il codice a 6 cifre, aggiornato in tempo reale. Ente Auth visualizza anche il codice successivo con qualche secondo di anticipo per evitare di rimanere danneggiato dalla scadenza.
+**Interfaccia minimalista e intuitiva**: l'applicazione offre un interfaccia semplificata, facile da imparare anche per gli utenti non tecnici. Gli account 2FA vengono visualizzati con il nome del servizio, il login e il codice a 6 cifre, aggiornato in tempo reale. Ente Auth visualizza anche il codice successivo con qualche secondo di anticipo per evitare di rimanere indietro rispetto la sua scadenza.
 
 **Open source e verificato**: il codice sorgente di Ente Auth è [pubblico su GitHub](https://github.com/ente-io/auth) con licenza AGPL v3.0. Qualsiasi sviluppatore può verificarlo per controllare eventuali difetti o comportamenti indesiderati. La crittografia implementata è stata oggetto di un [audit esterno indipendente](https://ente.io/blog/cryptography-audit/), a garanzia della serietà della sicurezza dell'applicazione.
 
@@ -76,7 +76,7 @@ Ente Auth offre applicazioni desktop native. Visita [ente.io/download](https://e
 - **macOS**: trascinamento dell'immagine disco DMG in Applicazioni
 - **Linux**: sono disponibili diversi formati (AppImage portable, .deb per Debian/Ubuntu, .rpm per Fedora/Red Hat)
 
-**Nota:** questa esercitazione si basa su Ente Auth v4.4.4 e successive. Le versioni precedenti possono presentare piccole differenze di interfaccia.
+**Nota**: questa esercitazione si basa su Ente Auth v4.4.4 e successive. Le versioni precedenti possono presentare piccole differenze di interfaccia.
 
 ### Interfaccia Web
 
@@ -159,7 +159,7 @@ Il servizio visualizzerà quindi un codice QR da scansionare con la propria appl
 
 *Conferma dell'avvenuta attivazione di 2FA su Bull Bitcoin*
 
-**Codici di recupero**: Bull Bitcoin vi fornirà i codici di recupero. **Conservarli in un luogo sicuro, separato dall'autenticatore.**
+**Codici di recupero**: Bull Bitcoin ti fornirà i codici di recupero. **Conservarli in un luogo sicuro, separato dall'autenticatore.**
 
 ![Gestione dei codici di backup](assets/fr/11.webp)
 
@@ -178,7 +178,8 @@ Ente Auth offre diverse caratteristiche pratiche:
 **Azioni sensibili al contesto**: tieni premuto (o fai clic con il tasto destro del mouse sul desktop) per modificare, eliminare, condividere o appuntare una voce.
 
 **Tag e ricerca**: organizza i tuoi account con tag (personale/professionale, per categoria di servizio) e utilizza la barra di ricerca per filtrare rapidamente.
-reazione di un tag](assets/fr/17.webp)
+
+![Reazione di un tag](assets/fr/17.webp)
 
 *Processo di creazione dei tag: menu contestuale e finestra di dialogo di creazione*
 
@@ -215,10 +216,10 @@ Ente Auth offre numerose opzioni di personalizzazione accessibili tramite le imp
 
 Le impostazioni di sicurezza consentono di:
 
-- Abilita la verifica via e-mail per le nuove connessioni
+- Abilitare la verifica via e-mail per le nuove connessioni
 - Attivare la chiave d'accesso
 - Visualizzare le sessioni attive sui vari dispositivi
-- Impostazione di un codice PIN o della biometria
+- Impostare un codice PIN o la biometria
 
 ### Interfaccia e opzioni di utilizzo
 
@@ -263,7 +264,7 @@ La sincronizzazione richiede Internet, ma Ente Auth funziona perfettamente offli
 
 ### Garanzie crittografiche
 
-Ente Auth si basa su una robusta crittografia end-to-end con architettura zero-knowledge. I tuoi codici sono crittografati con una chiave di cui sei l'unic detentore, derivata dalla tua password principale grazie a funzioni avanzate di derivazione della chiave.
+Ente Auth si basa su una robusta crittografia end-to-end con architettura zero-knowledge. I tuoi codici sono crittografati con una chiave di cui sei l'unico detentore, derivata dalla tua password principale grazie a funzioni avanzate di derivazione della chiave.
 
 **Architettura a conoscenza zero:** Ente non può accedere fisicamente ai tuoi dati. Anche i metadati (nomi dei servizi, tag, note) vengono crittografati sul lato client prima della trasmissione. Questo approccio garantisce che, in caso di attacco ai tuoi server o di richiesta governativa, Ente possa divulgare solo dati criptati che non possono essere letti senza la tua password.
 
@@ -309,7 +310,7 @@ Ente Auth si distingue come una delle poche soluzioni in grado di combinare tutt
 
 ### Utenti individuali
 
-Ente Auth è ideale per le persone attente alla sicurezza che attivano sistematicamente la 2FA. Non dovrete più preoccuparvi di perdere i codici quando cambiate telefono o di dover scegliere tra comodità e sicurezza.
+Ente Auth è ideale per le persone attente alla sicurezza che attivano sistematicamente la 2FA. Non dovrai più preoccuparti di perdere i codici quando cambi telefono o di dover scegliere tra comodità e sicurezza.
 
 ### Utilizzo in famiglia e su più dispositivi
 
@@ -334,7 +335,7 @@ Per i team che gestiscono account sensibili, Ente Auth facilita la collaborazion
 
 Ente Auth rappresenta una soluzione moderna e completa per l'autenticazione a due fattori. Combinando sicurezza, trasparenza e facilità d'uso, questa applicazione open source soddisfa le esigenze degli utenti più esigenti senza sacrificare la convenienza.
 
-A differenza delle soluzioni proprietarie che vi bloccano in un ecosistema opaco, Ente Auth ti restituisce il controllo dei tuoi dati di autenticazione proteggendovi da perdite accidentali grazie ai suoi backup criptati.
+A differenza delle soluzioni proprietarie che vi bloccano in un ecosistema opaco, Ente Auth ti restituisce il controllo dei tuoi dati di autenticazione proteggendoti da perdite accidentali grazie ai suoi backup criptati.
 
 Sia che si tratti di un individuo che desidera proteggere i propri account personali, sia che si tratti di un team che gestisce gli accessi aziendali, Ente Auth è una scelta intelligente per modernizzare l'approccio alla sicurezza digitale senza compromettere la privacy.
 

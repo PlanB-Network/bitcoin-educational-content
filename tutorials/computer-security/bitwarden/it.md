@@ -2,36 +2,38 @@
 name: Bitwarden
 description: Come configurare un gestore di password?
 ---
+
 ![cover](assets/cover.webp)
 
 Nell'era digitale, dobbiamo gestire una moltitudine di account online che coprono vari aspetti della nostra vita quotidiana, inclusi servizi bancari, piattaforme finanziarie, email, archiviazione di file, salute, amministrazione, reti sociali, videogiochi, ecc.
 
 Per autenticarci su ciascuno di questi account, utilizziamo un identificativo, spesso un indirizzo email, accompagnato da una password. Di fronte all'impossibilità di memorizzare un gran numero di password uniche, si potrebbe essere tentati di riutilizzare la stessa password o di modificarne leggermente una base comune per ricordarla facilmente. Tuttavia, queste pratiche compromettono seriamente la sicurezza dei tuoi account.
 
-Il primo principio da seguire per le password è di non riutilizzarle. Ogni account online dovrebbe essere protetto da una password unica, completamente distinta dalle altre. Questo è importante perché, se un attaccante riesce a compromettere una delle vostre password, non si vuole che abbia accesso a tutti i vostri account. Avere una password unica per ogni account isola gli attacchi potenziali e ne limita la portata. Ad esempio, se si utilizza la stessa password per una piattaforma di videogiochi e per la propria email, e quella password viene compromessa tramite un sito di phishing relativo alla piattaforma di gioco, l'attaccante potrebbe poi facilmente accedere alla tua email e prendere il controllo di tutti gli altri tuoi account online.
+Il primo principio da seguire per le password è di non riutilizzarle. Ogni account online dovrebbe essere protetto da una password unica, completamente distinta dalle altre. Questo è importante perché, se un attaccante riesce a compromettere una delle tue password, non si vuole che abbia accesso a tutti i tuoi account. Avere una password unica per ogni account isola gli attacchi potenziali e ne limita la portata. Ad esempio, se si utilizza la stessa password per una piattaforma di videogiochi e per la propria email, e quella password viene compromessa tramite un sito di phishing relativo alla piattaforma di gioco, l'attaccante potrebbe poi facilmente accedere alla tua email e prendere il controllo di tutti gli altri tuoi account online.
 
-Il secondo principio essenziale è la forza della password. Una password è considerata forte se è difficile da forzare, cioè da indovinare attraverso tentativi ed errori. Ciò significa che le vostre password devono essere il più casuali possibile, lunghe e includere una varietà di caratteri (minuscole, maiuscole, numeri e simboli).
+Il secondo principio essenziale è la forza della password. Una password è considerata forte se è difficile da forzare, cioè da indovinare attraverso tentativi ed errori. Ciò significa che le tue password devono essere il più casuali possibile, lunghe e includere una varietà di caratteri (minuscole, maiuscole, numeri e simboli).
 
 Applicare questi due principi di sicurezza delle password (unicità e robustezza) può rivelarsi difficile nella vita di tutti i giorni, poiché è quasi impossibile memorizzare una password unica, casuale e forte per tutti i nostri account. Qui entra in gioco il gestore di password.
 
-Un gestore di password genera e memorizza in modo sicuro password forti, permettendovi di accedere a tutti i vostri account online senza la necessità di memorizzarli individualmente. È necessario ricordare solo una password, la password principale, che vi dà accesso a tutte le vostre password salvate nel gestore. Utilizzare un gestore di password migliora la vostra sicurezza online perché impedisce il riutilizzo delle password e genera sistematicamente password casuali. Ma semplifica anche l'uso quotidiano dei vostri account centralizzando l'accesso alle vostre informazioni sensibili.
-In questo tutorial, esploreremo come configurare e utilizzare un gestore di password per migliorare la vostra sicurezza online. Vi presenterò Bitwarden, e in un altro tutorial, esamineremo un'altra soluzione chiamata KeePass.
+Un gestore di password genera e memorizza in modo sicuro password forti, permettendoti di accedere a tutti i tuoi account online senza la necessità di memorizzarli individualmente. È necessario ricordare solo una password, la password principale, che ti dà accesso a tutte le tue password salvate nel gestore. Utilizzare un gestore di password migliora la tua sicurezza online perché impedisce il riutilizzo delle password e genera sistematicamente password casuali. Ma semplifica anche l'uso quotidiano dei tuoi account centralizzando l'accesso alle tue informazioni sensibili.
+In questo tutorial, esploreremo come configurare e utilizzare un gestore di password per migliorare la tua sicurezza online. Ti presenterò Bitwarden, e in un altro tutorial, esamineremo un'altra soluzione chiamata KeePass.
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-***Attenzione***: Un gestore di password è ottimo per memorizzare le password, ma **non dovreste mai memorizzare la frase mnemonica del vostro portafoglio Bitcoin in esso!** Ricordate, una frase mnemonica dovrebbe essere salvata esclusivamente in un formato fisico, come un pezzo di carta o metallo.
+**_Attenzione_**: un gestore di password è ottimo per memorizzare le password, ma **non dovreste mai memorizzare la frase mnemonica del tuo portafoglio Bitcoin in esso!** Ricordate, una frase mnemonica dovrebbe essere salvata esclusivamente in un formato fisico, come un pezzo di carta o metallo.
+
 
 ## Introduzione a Bitwarden
 
-Bitwarden è un gestore di password adatto sia per principianti che per utenti avanzati. Offre numerosi vantaggi. Prima di tutto, Bitwarden è una soluzione multi-piattaforma, il che significa che potete utilizzarlo come app mobile, applicazione web, estensione per browser e software desktop.
+Bitwarden è un gestore di password adatto sia per principianti che per utenti avanzati. Offre numerosi vantaggi. Prima di tutto, Bitwarden è una soluzione multi-piattaforma, il che significa che puoi utilizzarlo come app mobile, applicazione web, estensione per browser e software desktop.
 
 ![BITWARDEN](assets/notext/01.webp)
 
-Bitwarden ti permette di salvare le tue password online e di sincronizzarle su tutti i tuoi dispositivi, garantendo al contempo la crittografia end-to-end con la tua password principale. Questo ti consente, ad esempio, di accedere alle tue password sia sul computer che sullo smartphone, con sincronizzazione tra i due. Poiché le tue password sono crittografate, rimangono inaccessibili a chiunque, incluso Bitwarden, senza la chiave di decrittazione che è la tua password principale.
+Bitwarden ti permette di salvare le tue password online e di sincronizzarle su tutti i tuoi dispositivi, garantendo nel contempo la crittografia end-to-end con la tua password principale. Questo ti consente, ad esempio, di accedere alle tue password sia sul computer che sullo smartphone, con sincronizzazione tra i due. Poiché le tue password sono crittografate, rimangono inaccessibili a chiunque, incluso Bitwarden, senza la chiave di decrittazione che è la tua password principale.
 
 Inoltre, Bitwarden è open-source, il che significa che il software può essere sottoposto a verifica da esperti indipendenti. Per quanto riguarda i prezzi, Bitwarden offre tre piani:
 - una versione gratuita che esploreremo in questo tutorial. Anche se è gratuita, offre un livello di sicurezza equivalente a quello delle versioni a pagamento. Puoi memorizzare un numero illimitato di password e sincronizzare quanti dispositivi desideri;
-- una versione premium per $10 all'anno che include funzionalità aggiuntive come lo spazio di archiviazione per file, il backup della carta di credito, la possibilità di impostare la 2FA con una chiave di sicurezza fisica e l'accesso all'autenticazione 2FA TOTP direttamente con Bitwarden;
+- una versione premium per $10 all'anno che include funzionalità aggiuntive come lo spazio di archiviazione per file, il backup della carta di credito, la possibilità di impostare il 2FA con una chiave di sicurezza fisica e l'accesso all'autenticazione 2FA TOTP direttamente con Bitwarden;
 - e un piano famiglia per $40 all'anno che estende i benefici della versione premium a sei utenti diversi.
 
 ![BITWARDEN](assets/notext/02.webp)
@@ -79,6 +81,7 @@ Poi digita la tua password principale.
 Ora sei sull'interfaccia web del tuo gestore di password.
 
 ![BITWARDEN](assets/notext/10.webp)
+
 
 ## Come configurare Bitwarden?
 
@@ -134,7 +137,7 @@ Ora, se provi ad accedere nuovamente al tuo gestore, dovrai prima inserire la tu
 
 ![BITWARDEN](assets/notext/21.webp)
 
-Nelle impostazioni, hai anche l'opzione di personalizzare il tuo gestore nella scheda "*Preferenze*". Qui, puoi cambiare la durata prima che il tuo gestore si blocchi automaticamente, così come la lingua e il tema dell'interfaccia.
+Nelle impostazioni, hai anche l'opzione di personalizzare il tuo gestore nella scheda "_Preferenze_". Qui, puoi cambiare la durata prima che il tuo gestore si blocchi automaticamente, così come la lingua e il tema dell'interfaccia.
 
 ![BITWARDEN](assets/notext/22.webp)
 
@@ -148,29 +151,30 @@ Qui, puoi aumentare la lunghezza delle tue password fino a 40 e selezionare la c
 
 ![BITWARDEN](assets/notext/24.webp)
 
+
 ## Come proteggere i tuoi account con Bitwarden?
 
 Ora che il tuo gestore di password è configurato, puoi iniziare a memorizzare le credenziali per i tuoi account online. Per aggiungere un nuovo elemento, clicca direttamente sul pulsante "*New item*" o sul pulsante "*New*" situato in alto a destra dello schermo, poi su "*item*".
 
 ![BITWARDEN](assets/notext/25.webp)
 
-Nel modulo che si apre, inizia determinando la natura dell'elemento da salvare. Per memorizzare le credenziali di accesso, scegli l'opzione "*Login*" dal menu a tendina.
+Nel modulo che si apre, inizia determinando la natura dell'elemento da salvare. Per memorizzare le credenziali di accesso, scegli l'opzione "_Login_" dal menu a tendina.
 
 ![BITWARDEN](assets/notext/26.webp)
 
-Nel campo "*Name*", inserisci un nome descrittivo per le tue credenziali. Questo renderà più facile cercare e organizzare le tue password, specialmente se ne hai un gran numero. Ad esempio, se vuoi salvare le tue credenziali per il sito del PlanB Network, puoi nominare questo elemento in modo che sia immediatamente riconoscibile durante le tue future ricerche.
+Nel campo "_Name_", inserisci un nome descrittivo per le tue credenziali. Questo renderà più facile cercare e organizzare le tue password, specialmente se ne hai un gran numero. Ad esempio, se vuoi salvare le tue credenziali per il sito del PlanB Network, puoi nominare questo elemento in modo che sia immediatamente riconoscibile durante le tue future ricerche.
 
 ![BITWARDEN](assets/notext/27.webp)
 
-L'opzione "*Folder*" ti permette di classificare le tue credenziali in cartelle. Per ora, non ne abbiamo ancora create, ma ti mostrerò come fare più avanti.
+L'opzione "_Folder_" ti permette di classificare le tue credenziali in cartelle. Per ora, non ne abbiamo ancora create, ma ti mostrerò come fare più avanti.
 
 ![BITWARDEN](assets/notext/28.webp)
 
-Nel campo "*Username*", inserisci il tuo nome utente, che di solito è il tuo indirizzo email.
+Nel campo "_Username_", inserisci il tuo nome utente, che di solito è il tuo indirizzo email.
 
 ![BITWARDEN](assets/notext/29.webp)
 
-Successivamente, nel campo "*Password*", puoi inserire la tua password. Tuttavia, consiglio vivamente di lasciare che Bitwarden generi per te una password lunga, casuale e unica. Questo ti assicura di avere una password forte. Per utilizzare questa funzione, clicca sull'icona a doppia freccia sopra il campo da compilare.
+Successivamente, nel campo "_Password_", puoi inserire la tua password. Tuttavia, consiglio vivamente di lasciare che Bitwarden generi per te una password lunga, casuale e unica. Questo ti assicura di avere una password forte. Per utilizzare questa funzione, clicca sull'icona a doppia freccia sopra il campo da compilare.
 
 ![BITWARDEN](assets/notext/30.webp)
 
@@ -178,15 +182,15 @@ Puoi vedere che la tua password è stata generata.
 
 ![BITWARDEN](assets/notext/31.webp)
 
-Nel campo "*URI 1*", puoi inserire il nome di dominio del sito web.
+Nel campo "_URL 1_", puoi inserire il nome di dominio del sito web.
 
 ![BITWARDEN](assets/notext/32.webp)
 
-E infine, nel campo "*Notes*", puoi aggiungere dettagli aggiuntivi se necessario.
+E infine, nel campo "_Notes_", puoi aggiungere dettagli aggiuntivi se necessario.
 
 ![BITWARDEN](assets/notext/33.webp)
 
-Quando hai finito di compilare tutti questi campi, clicca sul pulsante "*Save*".
+Quando hai finito di compilare tutti questi campi, clicca sul pulsante "_Save_".
 
 ![BITWARDEN](assets/notext/34.webp)
 
@@ -202,7 +206,7 @@ Cliccando sui tre piccoli punti sulla destra, hai un accesso rapido per copiare 
 
 ![BITWARDEN](assets/notext/37.webp)
 
-Congratulazioni, hai salvato con successo la tua prima password nel tuo gestore! Se desideri organizzare meglio i tuoi identificativi, puoi creare delle cartelle specifiche. Per farlo, clicca sul pulsante "*Nuovo*" situato in alto a destra dello schermo, poi seleziona "*Cartella*".
+Congratulazioni, hai salvato con successo la tua prima password nel tuo gestore! Se desideri organizzare meglio i tuoi identificativi, puoi creare delle cartelle specifiche. Per farlo, clicca sul pulsante "_Nuovo_" situato in alto a destra dello schermo, poi seleziona "_Cartella_".
 
 ![BITWARDEN](assets/notext/38.webp)
 
@@ -210,7 +214,7 @@ Inserisci un nome per la tua cartella.
 
 ![BITWARDEN](assets/notext/39.webp)
 
-Poi clicca su "*Salva*".
+Poi clicca su "_Salva_".
 
 ![BITWARDEN](assets/notext/40.webp)
 
@@ -218,7 +222,7 @@ La tua cartella ora appare nel tuo gestore.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Puoi assegnare una cartella a un identificativo quando lo crei, come abbiamo fatto precedentemente, o modificando un identificativo esistente. Ad esempio, cliccando sul mio identificativo per PlanB Network, posso poi scegliere di classificarlo nella cartella "*Bitcoin*".
+Puoi assegnare una cartella a un identificativo quando lo crei, come abbiamo fatto precedentemente, o modificando un identificativo esistente. Ad esempio, cliccando sul mio identificativo per PlanB Network, posso poi scegliere di classificarlo nella cartella "_Bitcoin_".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -242,7 +246,7 @@ Scegli il tuo browser dalla lista fornita. Per questo esempio, sto usando Firefo
 
 ![BITWARDEN](assets/notext/45.webp)
 
-Clicca sul pulsante "*Aggiungi a Firefox*".
+Clicca sul pulsante "_Aggiungi a Firefox_".
 
 ![BITWARDEN](assets/notext/46.webp)
 
@@ -282,13 +286,14 @@ Cliccando su questo suggerimento che appare, si apre l'estensione. Mi permette d
 
 ![BITWARDEN](assets/notext/55.webp)
 
-Dopo aver completato le informazioni e cliccato su "*Salva*", l'estensione salva le credenziali.
+Dopo aver completato le informazioni e cliccato su "_Salva_", l'estensione salva le credenziali.
 
 ![BITWARDEN](assets/notext/56.webp)
 
 Poi, l'estensione compila automaticamente le nostre credenziali nei campi appropriati sul sito web.
 
 ![BITWARDEN](assets/notext/57.webp)
+
 
 ## Come utilizzare il software Bitwarden?
 
@@ -325,6 +330,7 @@ Per aumentare la sicurezza della tua applicazione, ti consiglio di andare nelle 
 
 
 ## Come fare il backup di Bitwarden?
+
 Per assicurarti di non perdere mai l'accesso alle tue password, anche in caso di perdita della tua password principale o di un disastro che colpisca i server di Bitwarden, ti consiglio di eseguire regolarmente un backup crittografato del tuo gestore su un supporto esterno.
 L'idea è di criptare tutte le tue credenziali Bitwarden con una password diversa dalla tua password principale e di salvare questo backup criptato su una chiavetta USB o un hard disk che conservi a casa tua, ad esempio. Puoi poi tenere una copia fisica della password di decrittazione in un luogo separato da dove è conservato il supporto di backup. Per esempio, potresti tenere la chiavetta USB a casa e affidare la copia fisica della password di criptazione a un amico di fiducia.
 
@@ -334,15 +340,15 @@ Tuttavia, in caso di problemi, puoi usare la password e il supporto esterno per 
 
 Pertanto, ti consiglio di eseguire questi backup regolarmente in modo che includano sempre le tue credenziali più recenti. Per evitare di disturbare il tuo amico, che detiene una copia della password di criptazione, ad ogni nuovo backup, puoi salvare questa password nel tuo gestore di password. Questo non è inteso come un backup, dato che il tuo amico ha già una copia fisica, ma piuttosto per semplificare le tue future procedure di esportazione.
 
-Per procedere con l'esportazione, è molto semplice: vai alla sezione "*Strumenti*" del tuo gestore Bitwarden, poi seleziona "*Esporta cassaforte*".
+Per procedere con l'esportazione, è molto semplice: vai alla sezione "_Strumenti_" del tuo gestore Bitwarden, poi seleziona "_Esporta cassaforte_".
 
 ![BITWARDEN](assets/notext/65.webp)
 
-Per il formato, scegli "*.json (Criptato)*".
+Per il formato, scegli "_.json (Criptato)_".
 
 ![BITWARDEN](assets/notext/66.webp)
 
-Poi seleziona l'opzione "*Protetto da password*".
+Poi seleziona l'opzione "_Protetto da password_".
 
 ![BITWARDEN](assets/notext/67.webp)
 
@@ -350,7 +356,7 @@ Qui, è importante scegliere una password forte, unica e generata casualmente pe
 
 ![BITWARDEN](assets/notext/68.webp)
 
-Clicca su "*Conferma formato*" e inserisci la tua password principale per procedere con l'esportazione.
+Clicca su "_Conferma formato_" e inserisci la tua password principale per procedere con l'esportazione.
 
 ![BITWARDEN](assets/notext/69.webp)
 

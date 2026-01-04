@@ -165,7 +165,7 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 
 # Pourquoi  et comment miner soit-même ?
 
-## 2.1 Pourquoi miner en Pool (supprimer tout les ##)
+## 2.1 Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
 
 ### Qu'est ce qu'une pool de mining ?
 
@@ -175,7 +175,7 @@ Ici, lorsqu'un des mineurs de la pool trouve un bloc, cette dernière reçoit la
 
 Cela **lisse les revenus** et **réduit la variance**, ce qui est vital pour les petits mineurs. 
 
-![Image](assets/fr/007.webp)
+![Image](assets/fr/009.webp)
 
 ### Pour des revenus réguliers et prévisibles
 
@@ -185,9 +185,9 @@ Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les c
 
 ## 2.2 Pourquoi faire du solo mining
 
-Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool**. 
+Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool mutualiste**. 
 
-Aujourd'hui les solominer sont clairement extrèmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
+Aujourd'hui les solominer sont clairement extrêmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
 
 Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs obligations. Cependant comme on le verra ci-dessous, il y a de vraies raisons (techniques, idéologiques et stratégiques) qui peuvent motiver ce choix.
 
@@ -689,11 +689,31 @@ La Pool des "[chauffagistes](![Image](assets/fr/055.webp))" est une petite pool 
 
 ### Les Pool "Mutualistes" adaptées au HomeMining
 
-Elles supportent LN 
+Ici nous nous concentrerons uniquement sur les pools de mining "mutualistent" où la récompense est partagé au prorata du hashrate apporté, permettant une distribution des récompenses via le lightning network. Cette caractéristique démontre clairement l'orientation vers les petits home miner de la pool et sa volonté de permettre même au tout petit hashrate de participer.
 
-#### Braiins 
+#### [Braiins ](https://braiins.com/pool)
+
+Braiins Pool, est la version de Braiins Solo évoquée précédemment. Elle permet les [retrait des récompenses de minage via le lightning network](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#lightning-payouts) ce qui est un gros plus pour le petits mineursqui devraient parfois attendre des semaines voir des moins avant de pouvoir récupérer leur récompense on-chain en cas de frais élevés sur le réseau bitcoin, ou pour éviter de se retrouver avec un "UTXO" (un morceau de bitcoin, un "pièce") "trop petite" en portefeuille. 
+
+*==**Voir avec Loic s'il existe une formation planB qui parle du management des UTXO à insérer ici**==*
+
+Braiins vous permet ainsi de renseigner une adresse Lightning  et de régler une limite "threshold" au delà de laquelle votre un paiement vers votre wallet lightning sera automatiquement déclenché. On voit dans la capture d'écran ci-dessous que dès que la récompense de minage atteint 10000 sats, alors Braiins paiera automatiquement la lightning adresses louferlou@getalby.com.
+
+![Image](assets/fr/057.webp)
+
+Par exemple un Avalon Nano 3S qui vous rapporterait environ 200 satoshis par jour, déclencherait une transaction vers votre wallet Lightning tous les moins et demi environ.
+
+Pour en savoir plus sur la manière d'obtenir et d'utiliser une LIghtning Address vouspouvez vous référer à **=="Voir avec Loic si ça existe"==**
+
+Vous pouvez bien évidemment régler une limite de retrait automatique plus basse de 10000 sats si vos le souhaitez, ou réaliser des retraits manuels à n'importe quels moments.
+
+Les récompenses de minage se font selon le modèle dit [FPPS (Full Pay Per Share) ](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#fpps-specification) permettant des revenus garantis pour tous les mineurs même si la pool ne trouve pas de blocs pendant un temps plus élevé qu'habituellement.
 
 #### Ocean Mining
+
+Ocean Mining est une des pool les plus récentes du paysage du mining Mondial et a pour objectif de permettre donner aux mineurs individuels plus qu'à la pool le pouvoir de choisir quelles transaction sont à inclure dans un bloc.
+Cette Pool a été créée  à telle date par blabla, à l'initiative de, soutenue et financée par.
+Datum
 ## 3.4 Découverte d'AxeOS
 
 

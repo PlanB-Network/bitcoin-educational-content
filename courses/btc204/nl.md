@@ -341,22 +341,22 @@ Aan de andere kant is het complexer om ervoor te zorgen dat er geen double-spend
 ### Dubbele uitgaven op Bitcoin voorkomen
 
 
-De enige manier om deze duplicatie van een digitaal actief te vermijden, is om op de hoogte te zijn van alle uitwisselingen op het systeem. Op die manier kunnen we weten wie wat bezit en ieders bezit bijwerken op basis van de uitgevoerde transacties. Dit gebeurt bijvoorbeeld met giraal geld in het banksysteem. Wanneer je €10 betaalt aan een handelaar met een creditcard, registreert de bank de Exchange en werkt het rekeningboek bij.
+De enige manier om deze duplicatie van een digitaal actief te vermijden, is om op de hoogte te zijn van alle uitwisselingen op het systeem. Op die manier kunnen we weten wie wat bezit en ieders bezit bijwerken op basis van de uitgevoerde transacties. Dit gebeurt bijvoorbeeld met giraal geld in het banksysteem. Wanneer je €10 betaalt aan een handelaar met een creditcard, registreert de bank de overdracht en werkt het rekeningboek bij.
 
 
 ![BTC204](assets/nl/021.webp)
 
 
-Op Bitcoin wordt Double-spending op dezelfde manier voorkomen. We proberen te bevestigen dat er geen transactie heeft plaatsgevonden waarbij de betreffende munten al zijn uitgegeven. Als de munten nooit zijn gebruikt, kunnen we er zeker van zijn dat er geen dubbele uitgaven zullen plaatsvinden. Dit principe werd beschreven door Satoshi Nakamoto in het Witboek met de beroemde zin:
+Op Bitcoin wordt double-spending op dezelfde manier voorkomen. We proberen te bevestigen dat er geen transactie heeft plaatsgevonden waarbij de betreffende munten al zijn uitgegeven. Als de munten nooit zijn gebruikt, kunnen we er zeker van zijn dat er geen dubbele uitgaven zullen plaatsvinden. Dit principe werd beschreven door Satoshi Nakamoto in het witboek met de beroemde zin:
 
 
 **De enige manier om de afwezigheid van een transactie te bevestigen is door op de hoogte te zijn van alle transacties**
 
 
-Maar in tegenstelling tot het bankmodel, willen we geen centrale entiteit op Bitcoin hoeven vertrouwen. Dus alle gebruikers moeten deze afwezigheid van dubbele uitgaven kunnen bevestigen, zonder afhankelijk te zijn van een derde partij. Iedereen moet dus op de hoogte zijn van alle Bitcoin-transacties. Daarom worden Bitcoin-transacties publiekelijk uitgezonden op alle netwerkknooppunten en in duidelijke tekst opgeslagen op de  blockchain.
+Maar in tegenstelling tot het bankmodel, willen we op Bitcoin geen centrale entiteit vertrouwen. Dus alle gebruikers moeten deze afwezigheid van dubbele uitgaven kunnen bevestigen, zonder afhankelijk te zijn van een derde partij. Iedereen moet dus op de hoogte zijn van alle Bitcoin-transacties. Daarom worden Bitcoin-transacties publiekelijk uitgezonden op alle netwerkknooppunten en in platte tekst opgeslagen op de blockchain.
 
 
-Het is precies deze publieke verspreiding van informatie die de bescherming van de privacy in Bitcoin bemoeilijkt. In het traditionele banksysteem is in theorie alleen de financiële instelling op de hoogte van de uitgevoerde transacties. Bij Bitcoin daarentegen zijn alle gebruikers via hun respectievelijke knooppunten op de hoogte van alle transacties.
+Het is precies deze publieke verspreiding van informatie die de bescherming van de privacy in Bitcoin bemoeilijkt. In het traditionele banksysteem is in theorie alleen de financiële instelling op de hoogte van de uitgevoerde transacties. Bij Bitcoin daarentegen zijn alle gebruikers via hun respectievelijke knooppunten (nodes) op de hoogte van alle transacties.
 
 
 ### Het vertrouwelijkheidsmodel: banksysteem vs. Bitcoin
@@ -374,13 +374,13 @@ Je bankier weet bijvoorbeeld dat je elke ochtend je stokbrood koopt bij de plaat
 ![BTC204](assets/nl/023.webp)
 
 
-Vanwege de beperking van openbare verspreiding van transacties die we in de vorige paragraaf zagen, kan het vertrouwelijkheidsmodel van Bitcoin niet het model van het banksysteem volgen. In het geval van Bitcoin, omdat de informatiestroom niet verbroken kan worden tussen de transacties en het publieke domein, is **het privacymodel gebaseerd op de scheiding tussen de identiteit van de gebruiker en de transacties** zelf.
+Vanwege de verplichting van openbare verspreiding van transacties die we in de vorige paragraaf zagen, kan het vertrouwelijkheidsmodel van Bitcoin niet het model van het banksysteem volgen. In het geval van Bitcoin, omdat de informatiestroom niet verbroken kan worden tussen de transacties en het publieke domein, is **het privacymodel gebaseerd op de scheiding tussen de identiteit van de gebruiker en de transacties** zelf.
 
 
 ![BTC204](assets/nl/024.webp)
 
 
-Als je bijvoorbeeld een stokbrood koopt bij de bakker en betaalt in BTC, kan je buurman, die zijn eigen volledige node heeft, jouw transactie zien doorgaan, net zoals hij alle andere transacties in het systeem kan zien. Maar als de vertrouwelijkheidsprincipes gerespecteerd worden, zou hij deze specifieke transactie niet moeten kunnen linken aan jouw identiteit.
+Als je bijvoorbeeld een stokbrood koopt bij de bakker en betaalt in BTC, kan je buurman, die zijn eigen volledige node heeft, jouw transactie zien doorgaan, net zoals hij alle andere transacties in het systeem kan zien. Maar als de vertrouwelijkheidsprincipes gerespecteerd worden, zou hij deze specifieke transactie niet kunnen linken aan jouw identiteit.
 
 
 ![BTC204](assets/nl/025.webp)
@@ -389,13 +389,13 @@ Als je bijvoorbeeld een stokbrood koopt bij de bakker en betaalt in BTC, kan je 
 Maar omdat Bitcoin-transacties openbaar worden gemaakt, is het nog steeds mogelijk om verbanden te leggen om informatie af te leiden over de betrokken partijen. Deze activiteit vormt zelfs een specialisme op zich, bekend als "blockchainanalyse". In het volgende deel van de cursus nodig ik je uit om de grondbeginselen van blockchainanalyse te verkennen, zodat je kunt begrijpen hoe je bitcoins worden getraceerd en je je er beter tegen kunt verdedigen.
 
 
-# Inzicht in en bescherming tegen ketenanalyse
+# Inzicht in en bescherming tegen ketenanalyse (chainanalysis)
 
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
 
-## Wat is Bitcoin ketenanalyse?
+## Wat is Bitcoin-ketenanalyse?
 
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
@@ -407,22 +407,22 @@ Maar omdat Bitcoin-transacties openbaar worden gemaakt, is het nog steeds mogeli
 ### Definitie en werking
 
 
-blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de  blockchain. Over het algemeen is ketenanalyse gebaseerd op de observatie van karakteristieken in steekproeven van eerdere transacties. Het bestaat dan uit het identificeren van diezelfde kenmerken bij een transactie die we willen analyseren, en daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, gebaseerd op een praktische benadering om een oplossing te vinden die goed genoeg is, staat bekend als een "heuristiek".
+Blockchainanalyse is de praktijk van het traceren van de stroom bitcoins op de  blockchain. Ketenanalyse observeert over het algemeen kenmerken in steekproeven van eerdere transacties. Vervolgens identificeert het dezelfde kenmerken in de transactie die we willen analyseren, om daaruit plausibele interpretaties af te leiden. Deze probleemoplossingsmethode, die een praktische oplossing zoekt die 'goed genoeg' is, noemen we een "heuristiek".
 
 
 In lekentaal zijn er drie hoofdfasen in de ketenanalyse:
-1. **Het observeren van de  blockchain ;**
-2. **De identificatie van bekende kenmerken ;**
-3. **Het aftrekken van aannames**
+1. **Het observeren van de blockchain;**
+2. **De identificatie van bekende kenmerken;**
+3. **De deductie van aannames**
 
 
 ![BTC204](assets/nl/026.webp)
 
 
-blockchainanalyse kan door iedereen worden uitgevoerd. Alles wat je nodig hebt is toegang tot de openbare informatie van de  blockchain via een compleet knooppunt om transactiebewegingen te observeren en hypotheses te maken. Er zijn ook gratis tools die deze analyse vergemakkelijken, zoals [OXT.me](https://oxt.me/), die we in detail zullen onderzoeken in de laatste twee hoofdstukken van deze sectie. Het grootste risico voor vertrouwelijkheid komt echter van bedrijven die gespecialiseerd zijn in stringanalyse. Deze bedrijven hebben blockchainanalyse op industriële schaal gebracht en verkopen hun diensten aan financiële instellingen en overheden. Van deze bedrijven is Chainalysis zeker het bekendst.
+Blockchainanalyse kan door iedereen worden uitgevoerd. Alles wat je nodig hebt is toegang tot de openbare informatie van de blockchain via een volledig knooppunt (full node) om transactiebewegingen te observeren en hypotheses te maken. Er zijn ook gratis tools die deze analyse vergemakkelijken, zoals [OXT.me](https://oxt.me/), die we in detail zullen onderzoeken in de laatste twee hoofdstukken van deze sectie. Het grootste risico voor vertrouwelijkheid komt echter van bedrijven die gespecialiseerd zijn in ketenanalyse. Deze bedrijven hebben blockchainanalyse op industriële schaal gebracht en verkopen hun diensten aan financiële instellingen en overheden. Van deze bedrijven is Chainalysis zeker het bekendst.
 
 
-### Doelstellingen ketenanalyse
+### Doelstellingen van ketenanalyse
 
 
 Eén van de doelen van de blockchainanalyse is het groeperen van verschillende activiteiten op Bitcoin om de uniciteit te bepalen van de gebruiker die ze uitvoerde. Vervolgens kan geprobeerd worden om dit cluster van activiteiten te koppelen aan een echte identiteit.
@@ -434,19 +434,19 @@ Eén van de doelen van de blockchainanalyse is het groeperen van verschillende a
 Denk terug aan het vorige hoofdstuk. Ik heb uitgelegd waarom het privacymodel van Bitcoin oorspronkelijk gebaseerd was op de scheiding van gebruikersidentiteit en transacties. Het zou daarom verleidelijk zijn om te denken dat blockchainanalyse nutteloos is, omdat zelfs als we erin slagen om onchain activiteiten te aggregeren, we ze niet kunnen associëren met een echte identiteit.
 
 
-Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen we dat cryptografische sleutelparen gebruikt worden om voorwaarden te stellen aan UTXO. In essentie geven deze sleutelparen geen informatie vrij over hun houders. In essentie geven deze sleutelparen geen informatie vrij over de identiteit van hun houders. Dus zelfs als we erin slagen om de activiteiten geassocieerd met verschillende sleutelparen te groeperen, zegt dit ons niets over de entiteit achter deze activiteiten.
+Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen we dat cryptografische sleutelparen gebruikt worden om voorwaarden te stellen aan UTXO's. In essentie geven deze sleutelparen geen informatie vrij over de identiteit van hun houders. Dus zelfs als we erin slagen om de activiteiten geassocieerd met verschillende sleutelparen te groeperen, zegt dit ons niets over de entiteit achter deze activiteiten.
 
 
 ![BTC204](assets/nl/028.webp)
 
 
-De praktische realiteit is echter veel complexer. Er is een veelheid aan gedragingen die een echte identiteit kunnen koppelen aan onchain-activiteiten. In analyse wordt dit een ingangspunt genoemd, en er zijn er een heleboel.
+De praktische realiteit is echter veel complexer. Er is een veelheid aan gedragingen die een echte identiteit kunnen koppelen aan onchain-activiteiten. In analyse wordt dit een ingangspunt (entry point) genoemd, en er zijn er een heleboel.
 
 
-De meest voorkomende is KYC (*Know Your Customer*). Als je Bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan die Address. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangst-adres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in Bitcoins doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin Address.
+De meest voorkomende is KYC (*Know Your Customer*). Als je bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan dat adres. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangst-adres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in bitcoin doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin-adres.
 
 
-Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook al proberen we hun bereik te beperken, ze zullen altijd aanwezig zijn. Daarom is het cruciaal om methodes te combineren die gericht zijn op het beschermen van je privacy. Hoewel het handhaven van een scheiding tussen je echte identiteit en je transacties een interessante benadering is, blijft het vandaag de dag onvoldoende. Sterker nog, als al je onchain-activiteiten kunnen worden gegroepeerd, zal zelfs het kleinste toegangspunt waarschijnlijk de enige Layer van vertrouwelijkheid die je hebt ingesteld in gevaar brengen.
+Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook al proberen we hun draagwijdte te beperken, ze zullen altijd aanwezig zijn. Daarom is het cruciaal om methodes te combineren die gericht zijn op het beschermen van je privacy. Hoewel het handhaven van een scheiding tussen je echte identiteit en je transacties een interessante benadering is, blijft het vandaag de dag onvoldoende. Sterker nog, als al je onchain-activiteiten kunnen worden gegroepeerd, zal zelfs het kleinste toegangspunt waarschijnlijk de enige laag van vertrouwelijkheid die je hebt ingesteld in gevaar brengen.
 
 
 ![BTC204](assets/nl/029.webp)
@@ -455,26 +455,26 @@ Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook 
 ### Jezelf verdedigen tegen ketenanalyse
 
 
-We moeten dus ook kunnen omgaan met blockchainanalyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de aggregatie van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken.
+We moeten dus ook het hoofd kunnen bieden aan blockchainanalyse in ons gebruik van Bitcoin. Door dit te doen, kunnen we de aggregatie van onze activiteiten minimaliseren en de impact van een toegangspunt op onze privacy beperken.
 
 
 ![BTC204](assets/nl/030.webp)
 
 
-Wat is een betere manier om de analyse van  blockchain tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals CoinJoin of PayJoin (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
+Wat is een betere manier om blockchainanalyse tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals CoinJoin of PayJoin (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin privacy. Inzicht in blockchainanalyse-methoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie on chain analyse in deze training opgenomen.
+Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin-privacy. Inzicht in blockchainanalyse-methoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie over ketenanalyse in deze training opgenomen.
 
 
 ### Ketenanalysemethoden
 
 
-Het is belangrijk om te begrijpen dat snaaranalyse geen exacte wetenschap is. Het is afhankelijk van heuristieken die zijn afgeleid van eerdere waarnemingen of logische interpretaties. Deze regels stellen ons in staat om redelijk betrouwbare resultaten te verkrijgen, maar nooit met absolute precisie. Met andere woorden, **kettinganalyse omvat altijd een dimensie van waarschijnlijkheid in de bereikte conclusies**. Het is bijvoorbeeld mogelijk om met verschillende mate van zekerheid te schatten dat twee adressen tot dezelfde entiteit behoren, maar volledige zekerheid zal altijd buiten bereik blijven.
+Het is belangrijk om te begrijpen dat ketenanalyse geen exacte wetenschap is. Het is afhankelijk van heuristieken die zijn afgeleid van eerdere waarnemingen of logische interpretaties. Deze regels stellen ons in staat om redelijk betrouwbare resultaten te verkrijgen, maar nooit met absolute precisie. Met andere woorden, **ketenanalyse omvat altijd een dimensie van waarschijnlijkheid in de bereikte conclusies**. Het is bijvoorbeeld mogelijk om met verschillende mate van zekerheid te schatten dat twee adressen tot dezelfde entiteit behoren, maar volledige zekerheid zal altijd buiten bereik blijven.
 
 
 Het hele punt van ketenanalyse ligt juist in het samenvoegen van verschillende heuristieken om het risico op fouten te minimaliseren. In zekere zin is het een opeenstapeling van bewijzen die ons dichter bij de werkelijkheid brengt.
@@ -485,9 +485,9 @@ Deze beroemde heuristieken kunnen gegroepeerd worden in verschillende categorie�
 
 
 
-- Transactiepatronen;
-- Transactie-interne heuristiek ;**
-- Heuristiek buiten de transactie.
+- **Transactiepatronen;**
+- **Transactie-interne heuristiek;**
+- **Heuristiek buiten de transactie.**
 
 
 ### Satoshi Nakamoto en ketenanalyse
@@ -499,7 +499,7 @@ De eerste twee heuristieken voor ketenanalyse werden ontdekt door Satoshi Nakamo
 
 
 - cIOH (*Common Input Ownership Heuristic*);
-- en Address hergebruik.
+- en adres-hergebruik.
 
 
 ![BTC204](assets/nl/031.webp)
@@ -766,7 +766,7 @@ Deze overeenkomsten tussen inputs en outputs stoppen niet bij Address hergebruik
 ![BTC204](assets/nl/047.webp)
 
 
-Op dit diagram kunnen we zien dat input n° 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output n° 0 gebruikt hetzelfde type script. Uitvoer nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat de Address met dezelfde versie als de invoer de Exchange Address is. Het zou dus altijd van dezelfde gebruiker zijn.
+Op dit diagram kunnen we zien dat input n° 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output n° 0 gebruikt hetzelfde type script. Uitvoer nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de invoer de Exchange Address is. Het zou dus altijd van dezelfde gebruiker zijn.
 
 
 Hier is een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -881,13 +881,13 @@ Het bestuderen van externe heuristieken betekent het analyseren van de overeenko
 ### Address hergebruik
 
 
-Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik van Address maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin die Address ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
+Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik van Address maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin dat adres ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
 
 
 Het is dus mogelijk om Address hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de Exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maar Address hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
 
 
-De interpretatie van het hergebruik van een Address is dat alle UTXO's die op die Address geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
+De interpretatie van het hergebruik van een Address is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
 
 
 ![BTC204](assets/nl/054.webp)
@@ -1146,7 +1146,7 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 
-Gebaseerd op deze informatie en gebruikmakend van **alleen de Address hergebruik heuristiek**, welke Bitcoin-transacties kunnen gelinkt worden aan Loïc's identiteit?
+Gebaseerd op deze informatie en gebruikmakend van **alleen het adres hergebruik heuristiek**, welke Bitcoin-transacties kunnen gelinkt worden aan Loïc's identiteit?
 
 
 *Uiteraard ben ik niet de echte eigenaar van deze receptie Address en heb ik hem niet op sociale netwerken geplaatst. Het is een Address die ik willekeurig uit de  blockchain* heb gehaald
@@ -1155,7 +1155,7 @@ Gebaseerd op deze informatie en gebruikmakend van **alleen de Address hergebruik
 ### Oefening 6
 
 
-Na oefening 5 was je, dankzij de Address hergebruik heuristiek, in staat om verschillende Bitcoin-transacties te identificeren waarbij Loïc betrokken lijkt te zijn. Normaal gesproken had je deze transactie moeten zien tussen de geïdentificeerde transacties:
+Na oefening 5 was je, dankzij het adres hergebruik heuristiek, in staat om verschillende Bitcoin-transacties te identificeren waarbij Loïc betrokken lijkt te zijn. Normaal gesproken had je deze transactie moeten zien tussen de geïdentificeerde transacties:
 
 
 ```plaintext
@@ -1169,7 +1169,7 @@ Deze transactie is de allereerste die geld stuurt naar Loïc's Address. Waar den
 ### Oefening 7
 
 
-Na oefening 5 heb je, dankzij de Address hergebruik heuristiek, verschillende Bitcoin-transacties kunnen identificeren waarbij Loïc betrokken lijkt te zijn. Nu wil je uitzoeken waar Loïc vandaan kwam. Voer op basis van de gevonden transacties een tijdanalyse uit om de tijdzone te vinden die Loïc waarschijnlijk gebruikt. Bepaal vanuit deze tijdzone een locatie waar Loïc lijkt te wonen (land, staat/regio, stad...).
+Na oefening 5 heb je, dankzij het adres hergebruik heuristiek, verschillende Bitcoin-transacties kunnen identificeren waarbij Loïc betrokken lijkt te zijn. Nu wil je uitzoeken waar Loïc vandaan kwam. Voer op basis van de gevonden transacties een tijdanalyse uit om de tijdzone te vinden die Loïc waarschijnlijk gebruikt. Bepaal vanuit deze tijdzone een locatie waar Loïc lijkt te wonen (land, staat/regio, stad...).
 
 
 ![BTC204](assets/nl/066.webp)
@@ -1353,7 +1353,7 @@ OP_CHECKMULTISIG
 ```
 
 
-Bovendien wordt de Address bestudeerde `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor Exchange platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
+Bovendien wordt het adres bestudeerde `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor Exchange platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
 
 
 De temporele heuristiek toegepast op deze Address toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een Exchange platform suggereert.
@@ -1516,7 +1516,7 @@ De opbouw van ontvangstadressen hangt ook af van het gekozen scriptmodel:
 
 
 
-- Voor `P2PKH` en `P2WPKH` adressen vertegenwoordigt de payload, d.w.z. de kern van de Address, de Hash van de openbare sleutel;
+- Voor `P2PKH` en `P2WPKH` adressen vertegenwoordigt de payload, d.w.z. de kern van het adres, de Hash van de openbare sleutel;
 - Voor `P2SH` en `P2WSH` adressen vertegenwoordigt de payload de Hash van een ;
 - Net als bij `P2TR` adressen is de payload een aangepaste publieke sleutel. P2TR outputs combineren aspecten van _Pay-to-PubKey_ en _Pay-to-Script_. De getweakte publieke sleutel is het resultaat van het toevoegen van een klassieke uitgaven publieke sleutel met een "tweak", afgeleid van de Merkle Root van een set scripts die ook kunnen worden gebruikt om bitcoins uit te geven.
 
@@ -1524,7 +1524,7 @@ De opbouw van ontvangstadressen hangt ook af van het gekozen scriptmodel:
 ![BTC204](assets/nl/069.webp)
 
 
-Adressen die worden weergegeven op je portfoliosoftware bevatten ook een HRP (*Human-Readable Part*), meestal `bc` voor post-SegWit adressen, een `1` scheidingsteken en een versienummer `q` voor SegWit V0 en `p` voor Taproot/SegWit V1. Er wordt ook een controlesom toegevoegd om de integriteit en geldigheid van de Address tijdens de transmissie te garanderen.
+Adressen die worden weergegeven op je portfoliosoftware bevatten ook een HRP (*Human-Readable Part*), meestal `bc` voor post-SegWit adressen, een `1` scheidingsteken en een versienummer `q` voor SegWit V0 en `p` voor Taproot/SegWit V1. Er wordt ook een controlesom toegevoegd om de integriteit en geldigheid van het adres tijdens de transmissie te garanderen.
 
 
 Tot slot worden de adressen in een standaard formaat gezet:
@@ -1562,7 +1562,7 @@ Wanneer verschillende ScriptPubKeys dezelfde ontvangst-adres bevatten, wordt dit
 ### Waarom is Address hergebruik een probleem?
 
 
-Omdat de  blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als dezelfde Address voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan die Address gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de  blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin Witboek:
+Omdat de  blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als dezelfde Address voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan dat adres gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de  blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin Witboek:
 
 
 > *Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar*
@@ -1575,7 +1575,7 @@ Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https:/
 De bedoeling van Satoshi in deze zin was om een extra firewall te creëren in het geval van een associatie tussen de identiteit van een gebruiker en een sleutelpaar op Bitcoin, om te voorkomen dat zijn hele activiteit publiekelijk gekoppeld zou worden aan zijn identiteit. Vandaag de dag, met de proliferatie van blockchainanalyse-bedrijven en KYC regelgeving, is het gebruik van unieke adressen niet langer een "extra firewall", maar een onmisbare praktijk voor iedereen die een minimum aan privacy wil behouden.
 
 
-Wanneer je een Address hergebruikt, leg je een bijna onbetwistbare link tussen alle transacties die geassocieerd zijn met die Address. Hoewel dit je fondsen niet direct in gevaar brengt, omdat elliptische curve cryptografie de veiligheid van je privésleutels garandeert, maakt het het wel makkelijker om je activiteiten te controleren. Iedereen met een node kan de transacties en saldi van de adressen bekijken, waardoor je anonimiteit volledig in het gedrang komt.
+Wanneer je een Address hergebruikt, leg je een bijna onbetwistbare link tussen alle transacties die geassocieerd zijn met dat adres. Hoewel dit je fondsen niet direct in gevaar brengt, omdat elliptische curve cryptografie de veiligheid van je privésleutels garandeert, maakt het het wel makkelijker om je activiteiten te controleren. Iedereen met een node kan de transacties en saldi van de adressen bekijken, waardoor je anonimiteit volledig in het gedrang komt.
 
 
 ![BTC204](assets/nl/071.webp)
@@ -1855,7 +1855,7 @@ Het is dus belangrijk om rekening te houden met het risico dat de staat weet dat
 Een ander probleem van KYC in termen van overheidstoezicht is de verplichte rapportage door gereguleerde platforms. Hoewel ik niet bekend ben met regelgeving in andere rechtsgebieden, zijn in Frankrijk *Prestataires de Services sur Actifs Numériques* (PSAN) verplicht om elke geldbeweging die zij verdacht vinden te melden bij de financiële toezichthouders.
 
 
-In Frankrijk werden in 2023 1.449 verdachte handelingen door PSAN's gemeld. Voorlopig zijn de meeste van deze handelingen gerelateerd aan criminaliteit. De autoriteiten vragen de gereguleerde platforms echter ook om verdachte Bitcoin-transacties alleen op basis van hun structuur te melden. Als je een gezamenlijke transactie uitvoert, of zelfs maar een transactie met een enigszins atypisch patroon, en deze transactie vindt niet ver van de opname van je Bitcoins van deze platforms plaats, dan kun je bij de autoriteiten worden aangegeven. Zelfs als er geen sprake is van wangedrag en u uw rechten legitiem uitoefent, kan zo'n melding leiden tot meer controles en toezicht, ongemakken die u had kunnen vermijden zonder KYC.
+In Frankrijk werden in 2023 1.449 verdachte handelingen door PSAN's gemeld. Voorlopig zijn de meeste van deze handelingen gerelateerd aan criminaliteit. De autoriteiten vragen de gereguleerde platforms echter ook om verdachte Bitcoin-transacties alleen op basis van hun structuur te melden. Als je een gezamenlijke transactie uitvoert, of zelfs maar een transactie met een enigszins atypisch patroon, en deze transactie vindt niet ver van de opname van je bitcoin van deze platforms plaats, dan kun je bij de autoriteiten worden aangegeven. Zelfs als er geen sprake is van wangedrag en u uw rechten legitiem uitoefent, kan zo'n melding leiden tot meer controles en toezicht, ongemakken die u had kunnen vermijden zonder KYC.
 
 
 ### Het risico van lekken van persoonlijke gegevens
@@ -1870,7 +1870,7 @@ Recente gebeurtenissen hebben ons eraan herinnerd dat niemand immuun is voor fin
 Iets meer dan twee jaar geleden zag een vlaggenschip in cryptocurrency cyberbeveiliging de persoonlijke gegevens van zijn klanten gestolen worden. Hoewel dit incident niet direct te maken had met de aankoop van bitcoins, blijft een dergelijk risico ook bestaan voor Exchange platforms. Er is dus zeker een risico verbonden aan persoonlijke gegevens.
 
 
-Het is waar dat we al veel van onze persoonlijke gegevens aan particuliere bedrijven toevertrouwen. Het risico is hier echter tweeledig, omdat deze gegevens u niet alleen identificeren, maar ook gekoppeld zijn aan activiteiten op Bitcoin. Immers, wanneer een hacker toegang krijgt tot de klantgegevens van een Exchange platform, kan hij er redelijkerwijs van uitgaan dat deze klanten Bitcoins bezitten. Dit risico wordt vergroot door het feit dat Bitcoin, net als elk ander waardevol bezit, de aandacht van dieven trekt.
+Het is waar dat we al veel van onze persoonlijke gegevens aan particuliere bedrijven toevertrouwen. Het risico is hier echter tweeledig, omdat deze gegevens u niet alleen identificeren, maar ook gekoppeld zijn aan activiteiten op Bitcoin. Immers, wanneer een hacker toegang krijgt tot de klantgegevens van een Exchange platform, kan hij er redelijkerwijs van uitgaan dat deze klanten bitcoin bezitten. Dit risico wordt vergroot door het feit dat Bitcoin, net als elk ander waardevol bezit, de aandacht van dieven trekt.
 
 
 In het geval van een datalek kun je in het beste geval het doelwit zijn van gerichte phishingpogingen. In het ergste geval kunt u het doelwit worden van fysieke bedreigingen van uw huis.
@@ -1885,16 +1885,16 @@ Naast de specifieke risico's die Bitcoin met zich meebrengt, zijn er ook de geva
 Het is belangrijk om een aantal vooroordelen over KYC te deconstrueren die we vaak tegenkomen op Twitter of in onze uitwisselingen tussen bitcoiners.
 
 
-Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor Bitcoins die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor Bitcoins die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet u voorzichtig zijn met gereguleerde Exchange platforms om te voorkomen dat uw account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
+Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor bitcoin die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor bitcoin die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet u voorzichtig zijn met gereguleerde Exchange platforms om te voorkomen dat uw account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
 
 
 ![BTC204](assets/nl/084.webp)
 
 
-Vertrouwelijkheid op Bitcoin moet niet gezien worden op een binaire manier, als een onderscheid tussen "anonieme" bitcoins en andere die dat niet zijn. Het bezitten van Bitcoins die zijn verkregen via KYC betekent niet dat alles verloren is; integendeel, het gebruik van vertrouwelijkheidstools kan zelfs nog voordeliger zijn.
+Vertrouwelijkheid op Bitcoin moet niet gezien worden op een binaire manier, als een onderscheid tussen "anonieme" bitcoins en andere die dat niet zijn. Het bezitten van bitcoin die zijn verkregen via KYC betekent niet dat alles verloren is; integendeel, het gebruik van vertrouwelijkheidstools kan zelfs nog voordeliger zijn.
 
 
-Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen perfecte vertrouwelijkheid, noch ontslaat het u van de noodzaak om andere beschermende maatregelen te nemen. Als u in het bezit bent van niet-KYC Bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen uw transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige Layer vertrouwelijkheid die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende tools en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra Layer aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
+Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen perfecte vertrouwelijkheid, noch ontslaat het u van de noodzaak om andere beschermende maatregelen te nemen. Als u in het bezit bent van niet-KYC Bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen uw transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige Layer vertrouwelijkheid die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende tools en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra laag aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
 
 
 ### Kan KYC worden geannuleerd?
@@ -1906,7 +1906,7 @@ Mij wordt soms gevraagd of het mogelijk is om "terug te gaan" na het uitvoeren v
 Als het gaat om het risico van het traceren van je transacties, is het gebruik van CoinJoin een oplossing. We zullen deze methode later in de cursus in detail bekijken, maar je moet weten dat je met CoinJoin de geschiedenis van een munt kunt doorbreken en kunt voorkomen dat deze verleden-heden en heden-verleden kan worden getraceerd. Zelfs voor BTC die zijn verkregen via een gereguleerd platform, kan deze techniek hun traceerbaarheid voorkomen.
 
 
-CoinJoin neemt echter het tweede risico van KYC niet weg: het feit dat de staat op de hoogte kan zijn van je bezit van bitcoins. Zelfs als uw munten niet meer traceerbaar zijn, kan de staat, afhankelijk van de jurisdictie, toegang hebben tot uw verklaringen van overdracht van crypto-activa. Aangezien dit risico niet technisch is, maar administratief, zijn er geen Bitcoin-specifieke oplossingen om het te elimineren, afgezien van jezelf in de eerste plaats niet bloot te stellen aan KYC. De enige legale manier om dit risico te beperken, is uw Bitcoins die u via gereguleerde platforms hebt verkregen, te verkopen op gereguleerde platforms en ze vervolgens terug te kopen via KYC-vrije middelen. Door te verkopen en de overdracht aan te geven, zouden de autoriteiten moeten zien dat u ze niet langer bezit.
+CoinJoin neemt echter het tweede risico van KYC niet weg: het feit dat de staat op de hoogte kan zijn van je bezit van bitcoins. Zelfs als uw munten niet meer traceerbaar zijn, kan de staat, afhankelijk van de jurisdictie, toegang hebben tot uw verklaringen van overdracht van crypto-activa. Aangezien dit risico niet technisch is, maar administratief, zijn er geen Bitcoin-specifieke oplossingen om het te elimineren, afgezien van jezelf in de eerste plaats niet bloot te stellen aan KYC. De enige legale manier om dit risico te beperken, is uw bitcoin die u via gereguleerde platforms hebt verkregen, te verkopen op gereguleerde platforms en ze vervolgens terug te kopen via KYC-vrije middelen. Door te verkopen en de overdracht aan te geven, zouden de autoriteiten moeten zien dat u ze niet langer bezit.
 
 
 Wat betreft het risico van het uitlekken van je persoonlijke gegevens en identiteitsdocumenten, dit is een gevaar dat buiten Bitcoin ligt, en er is geen technische oplossing om dit te voorkomen. Als je gegevens eenmaal zijn onthuld, is het moeilijk om de operatie ongedaan te maken. U kunt proberen uw account op het platform te sluiten, maar dit garandeert niet dat uw KYC-gegevens worden gewist, vooral wanneer de identiteitscontrole is uitbesteed. Controle op volledige verwijdering van je gegevens is onmogelijk. Er is daarom geen oplossing om dit risico volledig te voorkomen en ervoor te zorgen dat het niet meer bestaat.
@@ -2295,7 +2295,7 @@ Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele so
 ### Misleidende analyse heuristieken
 
 
-Meer in het algemeen is het belangrijk om de heuristieken waar we het in de vorige sectie over hadden te begrijpen, zodat je ze beter kunt vermijden of misleiden. Het toepassen van een aantal best practices kan nuttig zijn, zelfs als ze niet essentieel zijn. Ze bieden een extra Layer bescherming die belangrijk kan zijn bij het handhaven van vertrouwelijkheid bij het gebruik van Bitcoin.
+Meer in het algemeen is het belangrijk om de heuristieken waar we het in de vorige sectie over hadden te begrijpen, zodat je ze beter kunt vermijden of misleiden. Het toepassen van een aantal best practices kan nuttig zijn, zelfs als ze niet essentieel zijn. Ze bieden een extra beschermingslaag die belangrijk kan zijn bij het handhaven van vertrouwelijkheid bij het gebruik van Bitcoin.
 
 
 Het eerste advies dat ik kan geven, is om op te gaan in de dichtste menigte. Op Bitcoin betekent dit het gebruik van de meest gebruikte scriptsjablonen. P2WSH scripts bijvoorbeeld, vaak gebruikt voor SegWit V0 Multisig configuraties, zijn erg ongebruikelijk. Je kunt je er niet mee verbergen in een grote anonimiteitsset. Hetzelfde geldt voor oudere modellen zoals P2PKH of P2SH. Hoewel ze veel voorkomen in de UTXO set, worden ze steeds minder gebruikt voor nieuwe transacties.
@@ -4277,7 +4277,7 @@ P2P V2 transport werd opgenomen als een optie (standaard uitgeschakeld) in Bitco
 Een andere eenvoudige oplossing om het risico op verlies van vertrouwelijkheid voor een netwerkknooppunt te vermijden, is om het volledig onder Tor te laten draaien.
 
 
-Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindingen op het internet anonimiseert. Het werkt door gegevens in te kapselen in verschillende lagen van encryptie. Elk relaisknooppunt verwijdert een Layer om de Address van het volgende knooppunt te onthullen, totdat de eindbestemming is bereikt. Het Tor netwerk zorgt voor anonimiteit door te voorkomen dat tussenliggende knooppunten zowel de herkomst als de bestemming van gegevens kennen, waardoor het voor een waarnemer erg moeilijk wordt om de activiteit van een gebruiker te traceren.
+Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindingen op het internet anonimiseert. Het werkt door gegevens in te kapselen in verschillende lagen van encryptie. Elk relaisknooppunt verwijdert een Layer om het adres van het volgende knooppunt te onthullen, totdat de eindbestemming is bereikt. Het Tor netwerk zorgt voor anonimiteit door te voorkomen dat tussenliggende knooppunten zowel de herkomst als de bestemming van gegevens kennen, waardoor het voor een waarnemer erg moeilijk wordt om de activiteit van een gebruiker te traceren.
 
 
 ![BTC204](assets/nl/215.webp)
@@ -4730,7 +4730,7 @@ Een potentiële aanvaller die het onbeveiligde openbare netwerk observeert, kan 
 ECDH is daarom een Exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en Hash functies zoals SHA256.
 
 
-TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de Address balk van je browser - symbolen van versleutelde communicatie. Als je deze cursus volgt, gebruik je ECDH, en het is zeer waarschijnlijk dat je het dagelijks gebruikt zonder dat je het weet.
+TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk van je browser - symbolen van versleutelde communicatie. Als je deze cursus volgt, gebruik je ECDH, en het is zeer waarschijnlijk dat je het dagelijks gebruikt zonder dat je het weet.
 
 
 ### De kennisgevingstransactie
@@ -4804,7 +4804,7 @@ In het onderstaande diagram geven de oranje lijnen de punten aan waar de informa
 In werkelijkheid is het in het traditionele vertrouwelijkheidsmodel van Bitcoin vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een Address of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de Layer encryptie die we later zullen bekijken.
 
 
-Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om Bitcoins te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de  blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
+Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de  blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
 
 
 Kortom, het vertrouwelijkheidsmodel dat wordt aangeboden door BIP47 betalingen kan worden beschouwd als superieur aan het basismodel van Bitcoin, hoewel dit niet betekent dat het magisch is.
@@ -5317,7 +5317,7 @@ $$ K0 = B + s ≤ G $$
 - Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van Address afleiden (bijv. SegWit V0 in bech32).
 
 
-Zodra Alice de $K0$ ontvangst-adres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een uitvoer naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra de Address is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
+Zodra Alice de $K0$ ontvangst-adres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een uitvoer naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
 
 
 Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te verzenden:
@@ -5363,10 +5363,10 @@ Het ziet eruit als een klassieke transactie met een verbruikte invoer, een betal
 ### Ontvangst van BIP47-betaling en afleiden van privésleutel
 
 
-Alice heeft zojuist haar eerste betaling gedaan aan een lege BIP47 Address van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de private sleutel van de Address die ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
+Alice heeft zojuist haar eerste betaling gedaan aan een lege BIP47 Address van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de private sleutel van het adres die ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
 
 
-Zodra Bob de kennisgevingstransactie van Alice ontvangt, leidt hij de openbare sleutel BIP47 $K0$ af, nog voordat zijn correspondent een betaling heeft verzonden. Hij neemt dus elke betaling aan de geassocieerde Address waar. In feite leidt hij onmiddellijk verschillende adressen af die hij observeert ($K0$, $K1$, $K2$, $K3$...). Dit is hoe hij deze publieke sleutel $K0$ afleidt:
+Zodra Bob de kennisgevingstransactie van Alice ontvangt, leidt hij de openbare sleutel BIP47 $K0$ af, nog voordat zijn correspondent een betaling heeft verzonden. Hij neemt dus elke betaling aan het geassocieerde adres waar. In feite leidt hij onmiddellijk verschillende adressen af die hij observeert ($K0$, $K1$, $K2$, $K3$...). Dit is hoe hij deze publieke sleutel $K0$ afleidt:
 
 
 
@@ -5531,7 +5531,7 @@ Laten we eens kijken naar de technische werking van Silent Payments om beter te 
 ### Een paar concepten om te begrijpen
 
 
-Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in de Address. Dus een Taproot ontvangst-adres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
+Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in het adres. Dus een Taproot ontvangst-adres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
 
 
 ![BTC204](assets/nl/243.webp)
@@ -5549,7 +5549,7 @@ Er zijn twee belangrijke redenen voor de beslissing om Silent Payments uitsluite
 ### Naïeve afleiding van een openbare sleutel van Silent Payments
 
 
-Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin-gebruikers. Alice wil Bitcoins sturen naar Bob op een lege ontvangst-adres. Dit proces heeft drie doelen:
+Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin-gebruikers. Alice wil bitcoin sturen naar Bob op een lege ontvangst-adres. Dit proces heeft drie doelen:
 
 
 
@@ -5605,7 +5605,7 @@ Als hij de transactie van Alice scant, ziet hij dat $P'$ gelijk is aan $P$. Hij 
 $$ P' = B + \text{Hash}(b \cdot A) \cdot G = B + \text{Hash}(a \cdot B) \cdot G = P $$
 
 
-Van hieruit kan Bob de privésleutel $p$ berekenen waarmee de Address $P$ kan uitgeven:
+Van hieruit kan Bob de privésleutel $p$ berekenen waarmee het adres $P$ kan uitgeven:
 
 
 $$ p = (b + \text{Hash}(b \cdot A)) \bmod n $$
@@ -5638,13 +5638,13 @@ Hier is een nogal naïeve eerste benadering om Bob's statische Address, genoteer
 ### Hoe maak ik meerdere uitgangen?
 
 
-In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke Address $P$. Met dezelfde geselecteerde invoer is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk dezelfde Address. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
+In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke Address $P$. Met dezelfde geselecteerde invoer is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
 
 
 Om dit te bereiken, gaan we de berekening die Alice uitvoert om $P$ af te leiden iets aanpassen, zodat ze generate twee verschillende adressen kan geven aan Bob, namelijk $P_0$ en $P_1$.
 
 
-Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je gewoon een geheel getal toe dat het resultaat wijzigt. Zo zal Alice $0$ toevoegen aan haar berekening om de Address $P_0$ te verkrijgen en $1$ om de Address $P_1$ te verkrijgen. Laten we dit geheel getal $i$ noemen:
+Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je gewoon een geheel getal toe dat het resultaat wijzigt. Zo zal Alice $0$ toevoegen aan haar berekening om het adres $P_0$ te verkrijgen en $1$ om het adres $P_1$ te verkrijgen. Laten we dit geheel getal $i$ noemen:
 
 
 $$ P_i = B + \text{Hash}(a \cdot B ‖ } i) \cdot G $$
@@ -5714,7 +5714,7 @@ Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTX
 
 
 > *Address hergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
-Aangezien de unieke Address $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede Address afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies dezelfde Address $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van Address binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
+Aangezien de unieke Address $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van Address binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
 
 
 Wat we willen is dat elke UTXO die Alice gebruikt als invoer voor een betaling, een unieke Address oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke Address $P_0$. Deze referentie zal simpelweg de Hash zijn van de UTXO die als invoer wordt gebruikt:
@@ -5820,7 +5820,7 @@ De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de
 ### Aparte uitgave- en scansleutels
 
 
-Op dit moment noemen we de Silent Payment static Address $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling Address $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van de Address $P$.
+Op dit moment noemen we de Silent Payment static Address $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling Address $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
 
 
 Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Stille Betalingen hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Stille Betalingen terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een Hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
@@ -6007,7 +6007,7 @@ Met label $m$ :
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
 
 
-Zodra we deze payload hebben, voegen we de HRP (*Human-Readable Part*) `sp` en de versie `q` (= versie 0) toe. We voegen ook een checksum toe en formatteren de Address als bech32m.
+Zodra we deze payload hebben, voegen we de HRP (*Human-Readable Part*) `sp` en de versie `q` (= versie 0) toe. We voegen ook een checksum toe en formatteren het adres als bech32m.
 
 
 Hier is bijvoorbeeld mijn Silent Payments static Address:

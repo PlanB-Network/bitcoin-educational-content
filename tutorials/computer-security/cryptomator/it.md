@@ -21,7 +21,7 @@ In questa dimostrazione verrà utilizzato un computer Windows 11 22H2 con OneDri
 
 ![Image](assets/fr/020.webp)
 
-Cryptomator è un'alternativa ad altre applicazioni, in particolare Picocrypt presentato in un altro articolo, che ha un aspetto diverso, ma è altrettanto semplice da usare. Cryptomator è anche **open source**, conforme a RGPD e **codifica i dati con l'algoritmo di crittografia AES-256 bit**. Picocrypt, invece, si affida al più veloce algoritmo XChaCha20 (anch'esso a 256 bit).
+Cryptomator è un'alternativa ad altre applicazioni, in particolare Picocrypt presentato in un altro articolo, che ha un aspetto diverso, ma è altrettanto semplice da usare. Cryptomator è anche **open source**, conforme a GDPR e **codifica i dati con l'algoritmo di crittografia AES-256 bit**. Picocrypt, invece, si affida al più veloce algoritmo XChaCha20 (anch'esso a 256 bit).
 
 https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
@@ -34,7 +34,7 @@ Sul tuo computer, **Cryptomator creerà una cartella all'interno della quale cre
 
 ## II. Installazione di Cryptomator
 
-Per iniziare, è necessario **scaricare** e **installare** **Cryptomator**. Una volta completato il download, bastano pochi clic per completare l'installazione. Come [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), Cryptomator si affida a WinFsp per **montare un'unità virtuale sulla macchina Windows**.
+Per iniziare, è necessario **scaricare** e **installare Cryptomator**. Una volta completato il download, bastano pochi clic per completare l'installazione. Come [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), Cryptomator si affida a WinFsp per **montare un'unità virtuale sulla macchina Windows**.
 
 - [Scarica Cryptomator dal sito ufficiale](https://cryptomator.org/downloads/)
 
@@ -53,7 +53,7 @@ Iniziate dando un nome al vault, ad esempio "**IT-Connect**". In questo modo ver
 
 ![Image](assets/fr/011.webp)
 
-Nella fase successiva, Cryptomator probabilmente **rileverà il "Drive"** presente sul vostro computer: Google Drive, OneDrive, Dropbox, ecc.... Per consentirvi di selezionare direttamente il provider. Ho provato su due diversi computer Windows 11, con diverse unità, e non è stato rilevato. Non è un problema, basta definire una "**Collocazione personalizzata**" e selezionare la radice dello spazio di archiviazione. Ad esempio: **C:\Users\<Username>\OneDrive**.
+Nella fase successiva, Cryptomator probabilmente **rileverà il** "**Drive**" presente sul vostro computer: Google Drive, OneDrive, Dropbox, ecc.... Per consentirvi di selezionare direttamente il provider. Ho provato su due diversi computer Windows 11, con diverse unità, e non è stato rilevato. Non è un problema, basta definire una "**Collocazione personalizzata**" e selezionare la radice dello spazio di archiviazione. Ad esempio: **C:\Users\<Username>\OneDrive**.
 
 ![Image](assets/fr/018.webp)
 
@@ -61,13 +61,13 @@ Successivamente, è possibile regolare un'opzione in impostazioni esperto.
 
 ![Image](assets/fr/021.webp)
 
-Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password ti permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdete, perdete l'accesso ai vostri dati**. Infine, hai ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzara la chiave di backup nella root di OneDrive!
+Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password ti permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdi, perdi l'accesso ai tuoi dati**. Infine, hai ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzare la chiave di backup nella root di OneDrive!
 
-Fare clic su "**Crea una cassaforte**".
+Fai clic su "**Crea una cassaforte**".
 
 ![Image](assets/fr/019.webp)
 
-Copiate la chiave di recupero e memorizzatela nel vostro password manager preferito. Fare clic su "**Avanti**".
+Copia la chiave di recupero e memorizzala nel tuo password manager preferito. Fai clic su "**Avanti**".
 
 ![Image](assets/fr/013.webp)
 
@@ -85,11 +85,11 @@ Per sbloccare la cassaforte è necessario inserire la password. Quindi fai clic 
 
 ![Image](assets/fr/022.webp)
 
-**La vostra cassaforte è montata sulla macchina di Windows come un'unità virtuale**.Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).
+**La tua cassaforte è montata sulla macchina di Windows come un'unità virtuale**. Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).
 
 ![Image](assets/fr/017.webp)
 
-Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al vostro caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovete aggiungere i vostri dati utilizzando l'unità virtuale di Cryptomator.**
+Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al tuo caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovrai aggiungere i tuoi dati utilizzando l'unità virtuale di Cryptomator.**
 
 ![Image](assets/fr/012.webp)
 

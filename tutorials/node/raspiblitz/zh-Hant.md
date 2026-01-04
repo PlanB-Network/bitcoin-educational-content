@@ -17,7 +17,7 @@ RaspiBlitz 的主要目標是學習如何在家裡分散運行自己的節點 - 
 RASPIBLITZ - 如何運行閃電和 Bitcoin Full node by BTC session
 
 
-# Parman's Raspiblitz 設定指南
+## Parman's Raspiblitz 設定指南
 
 
 Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用。我向大多數用戶推薦它和MyNode節點（理想情況下應有兩個節點以實現冗餘）。一個主要優勢是Raspiblitz節點是「Free Open Source Software」，而MyNode或Umbrel則不是。[為什麼這很重要？Vlad Costa 解釋。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) 你還可以通過WiFi連接而不是以太網運行Raspiblitz – 這裡有一個[補充指南](https://armantheparman.com/headless-wifi/)供參考。（我還沒有找到在MyNode上實現這一點的方法）。
@@ -32,7 +32,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 基本上，該過程與使用Raspberry Pi 4設置[MyNode節點](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/)的過程非常相似。Raspiblitz指南建議您購買顯示器，但實際上您並不需要，而且我也不會建議這樣做。您甚至不需要額外的鍵盤或滑鼠。只需通過同一家庭網路上的電腦訪問設備的終端選單，並在終端中使用ssh指令即可。這在Linux/Mac（簡單）上可行，而在Windows上則稍微困難一些。
 
 
-## 步驟 1：購買設備。
+### 步驟 1：購買設備。
 
 
 您需要與執行 MyNode 節點完全相同的設備。您可以試試其中一種，唯一的差別在於 micro SD 卡上的資料。
@@ -69,7 +69,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 ![image](assets/3.webp)
 
 
-## 步驟 2：下載 Raspiblitz Image
+### 步驟 2：下載 Raspiblitz Image
 
 
 導航到 [Raspiblitz GitHub 網站](https://github.com/rootzoll/raspiblitz)，然後找到「download image」連結：
@@ -84,7 +84,7 @@ Raspiblitz是一個優秀的系統，用於運行比特幣節點和相關應用�
 ![image](assets/5.webp)
 
 
-## 步驟 3：驗證影像
+### 步驟 3：驗證影像
 
 
 在繼續之前，如果您不熟悉命令列上的檔案系統，很容易學會，而且您應該學會。
@@ -129,7 +129,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 電腦思考 20 秒左右。檢查輸出的雜湊檔是否與上一步從網站上下載的相符。如果完全相同，就可以繼續。
 
 
-## 步驟 4：快閃記憶卡
+### 步驟 4：快閃記憶卡
 
 
 您可以使用 Balena Etcher 來完成此操作。[在此下載](https://www.balena.io/etcher/)。
@@ -153,7 +153,7 @@ Etcher 的使用方法很簡單。插入您的 micro SD 卡，並將 Raspiblitz 
 一旦完成，磁碟機將不再可讀。您可能會收到作業系統的錯誤訊息，而硬碟機應該會從桌面消失。拔出記憶卡。
 
 
-## 步驟 5：設定 Pi 並插入 SD 卡
+### 步驟 5：設定 Pi 並插入 SD 卡
 
 
 零件（未顯示外殼）：
@@ -183,7 +183,7 @@ micro SD 卡放在這裡：
 ![image](assets/14.webp)
 
 
-## 步驟 6：尋找 Pi 的 IP Address
+### 步驟 6：尋找 Pi 的 IP Address
 
 
 使用 Raspiblitz 絕不需要顯示器。但是，您需要在家庭網絡上安裝另一台電腦。如果您的 Pi 沒有使用乙太網路，而您想使用 WiFi，那麼尋找 IP 需要一些電腦技能。幫不上忙，抱歉。您需要乙太網路連線。(問題來自需要存取顯示器和作業系統，才能連接 WiFi 並輸入密碼)。
@@ -201,7 +201,7 @@ micro SD 卡放在這裡：
 **註：** 您可以使用 Mac 或 Linux 機器上的終端機，使用「arp -a」指令找出家庭網路中所有乙太網路連線裝置的 IP Address。雖然輸出結果不如路由器所顯示的那麼漂亮，但您需要的所有資訊都在這裡。如果不清楚哪個是 Pi，請進行試誤。
 
 
-## 步驟 7：SSH 登入 Pi
+### 步驟 7：SSH 登入 Pi
 
 
 記得在開機前將 SD 卡放入 Pi。等待幾分鐘，然後在另一台 Linux/Mac 上開啟終端機。

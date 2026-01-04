@@ -18,11 +18,11 @@ Dans ce tutoriel, nous aborderons également la section des phrases de passe, un
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Connecter Ledger à Sparrow Bitcoin Wallet (guide d'écriture)
+## Connecter Ledger à Sparrow Bitcoin Wallet (guide d'écriture)
 
 Assurez-vous de consulter d'abord l'autre partie "Utilisation des portefeuilles matériels Bitcoin". Je survolerai certaines étapes et me concentrerai principalement sur ce qui est spécifique à Ledger ici.
 
-## Configuration de l'appareil
+### Configuration de l'appareil
 
 Le Ledger est livré avec son propre câble USB. Assurez-vous d'utiliser celui-ci et pas n'importe quel vieux câble. Certains câbles USB sont uniquement pour l'alimentation. Celui-ci transmet des données ET de l'énergie. Lorsque j'ai utilisé l'appareil avec un câble USB de charge de téléphone qui traînait, l'appareil n'a pas réussi à se connecter.
 
@@ -49,7 +49,7 @@ La prochaine partie est super ennuyeuse. Il mélange les 24 mots et vous devez c
 
 Vous verrez sur votre tableau de bord un bouton Paramètres et un bouton plus qui vous permet d'installer des applications. Mais vous devez d'abord vous connecter à Ledger Live. Nous allons faire cela ensuite...
 
-## Télécharger Ledger Live
+### Télécharger Ledger Live
 
 Vous pouvez télécharger Ledger Live depuis leur site web, mais il est préférable de l'obtenir depuis GitHub, où le code source est conservé.
 
@@ -88,7 +88,7 @@ Regardez la sortie du hash et assurez-vous qu'elle est identique à celle publi�
 
 Idéalement, vous voulez être encore plus sûr que les hashes publiés ne sont pas faux. Nous faisons cela avec des signatures gpg, mais cela dépasse le cadre de cet article. Si vous voulez en apprendre davantage à ce sujet (et je vous suggère de le faire à terme), parcourez cet article.
 
-## Connectez-vous à Ledger Live
+### Connectez-vous à Ledger Live
 
 Avant d'exécuter Ledger Live, il est utile d'activer un VPN pour préserver un peu votre vie privée. Ledger obtiendra toujours toutes vos adresses, mais il ne connaîtra pas votre adresse IP, qui révèle votre adresse personnelle. Mullvad VPN est un excellent service VPN et il n'est pas très cher (je ne fais pas de publicité, c'est juste ce que j'utilise).
 
@@ -127,7 +127,7 @@ Rappelez-vous qu'auparavant, sur l'appareil, nous avions un bouton de paramètre
 
 Vous pouvez maintenant fermer Ledger Live.
 
-## Ajouter une phrase de passe
+### Ajouter une phrase de passe
 
 Maintenant que nous avons l'application Bitcoin, nous pouvons ajouter une phrase de passe à notre phrase de récupération. Nous ne pouvions pas le faire auparavant lorsque la phrase de récupération a été créée pour la première fois car, au début, nous n'avions pas l'application Bitcoin et nous devions nous connecter à Ledger Live pour l'obtenir.
 
@@ -141,7 +141,7 @@ Il vous demandera le "code PIN actuel". Ce n'est pas le code PIN que vous associ
 
 Vous pouvez maintenant revenir au menu principal en sélectionnant plusieurs fois l'option de retour.
 
-## Portefeuille de surveillance
+### Portefeuille de surveillance
 
 Dans les articles précédents, j'ai expliqué comment télécharger et vérifier le portefeuille Sparrow, et comment le connecter à votre propre nœud ou à un nœud public. Vous devriez suivre ces guides :
 
@@ -187,7 +187,7 @@ Après une pause, pendant que l'ordinateur réfléchit, vous verrez les boutons 
 
 ![image](assets/21.webp)
 
-## Réception
+### Réception
 
 Pour recevoir des bitcoins, allez dans l'onglet "Adresses" à gauche et choisissez l'une des adresses pour recevoir. Cliquez simplement avec le bouton droit de la souris sur l'adresse souhaitée et sélectionnez "copier l'adresse". Ensuite, allez sur votre plateforme d'échange d'où l'argent est envoyé et collez l'adresse là-bas. Ou vous pouvez donner l'adresse à un client qui peut l'utiliser pour vous payer.
 
@@ -195,7 +195,7 @@ Lorsque vous utilisez le portefeuille pour la première fois, vous devriez recev
 
 Une fois que vous avez fait cela, vous devez sauvegarder les mots que vous avez écrits. Une seule copie ne suffit pas. Ayez au moins deux copies papier (le métal est préférable) et gardez-les dans deux endroits différents et bien sécurisés. Cela réduit le risque de destruction de votre HWW et de votre sauvegarde papier en cas de catastrophe naturelle. Consultez "Utilisation des portefeuilles matériels Bitcoin" pour une discussion complète à ce sujet.
 
-## Envoi
+### Envoi
 
 ![image](assets/22.webp)
 
@@ -205,11 +205,11 @@ Le portefeuille ne peut pas signer la transaction à moins que le HWW ne soit co
 
 Faites également attention que si vous choisissez d'utiliser une pièce qui est plus grande que le montant du paiement, le reste sera renvoyé à l'une des adresses de changement de vos portefeuilles. Certaines personnes ne le savent pas et consultent leur transaction sur une blockchain publique, pensant qu'une certaine quantité de bitcoins a été envoyée à une adresse d'attaquant, alors qu'en réalité, il s'agissait de leur propre adresse de changement.
 
-## Firmware
+### Firmware
 
 Pour mettre à jour le firmware, vous devez vous connecter à Ledger Live. Si vous souhaitez le faire, vous devez d'abord effacer l'appareil et vous assurer d'avoir vos mots de sauvegarde et votre phrase de passe disponibles pour restaurer l'appareil. La raison pour laquelle je préfère effacer l'appareil en premier est que vous devez connecter votre appareil à Ledger Live pour mettre à jour le firmware, et je préfère ne pas exposer votre nouveau portefeuille (celui avec la phrase de passe) à Ledger Live, jamais. Je ne fais tout simplement pas confiance à Ledger pour ne pas extraire mes informations de clé publique de l'appareil lorsque je me connecte à Ledger Live. Ils prétendent que non, mais je ne peux pas le vérifier moi-même à moins de lire le code et de comprendre le matériel interne également.
 
-## Conclusion
+### Conclusion
 
 Cet article vous a montré comment utiliser un HWW Ledger de manière plus sûre et plus privée que ce qui est annoncé, mais cet article seul ne suffit pas. Comme je l'ai dit au début, vous devriez le combiner avec les informations fournies dans "Utilisation des portefeuilles matériels Bitcoin".
 Conseils :

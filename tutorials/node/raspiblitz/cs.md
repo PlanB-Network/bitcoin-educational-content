@@ -12,7 +12,7 @@ RaspiBlitz je hlavně zaměřen na učení se, jak provozovat vlastní uzly dece
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Jak provozovat Lightning a Bitcoin Full Node od BTC session
 
-# Parmanův průvodce nastavením Raspiblitz
+## Parmanův průvodce nastavením Raspiblitz
 
 Raspiblitz je vynikající systém pro provozování Bitcoin uzlu a souvisejících aplikací. Doporučuji jej spolu s uzlem MyNode většině uživatelů (ideálně mít dva uzly pro redundanci). Jednou z hlavních výhod je, že uzel Raspiblitz je „Free Open Source Software“, na rozdíl od MyNode nebo Umbrel. [Proč je to důležité? Vysvětluje Vlad Costa.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitz můžete také provozovat přes WiFi připojení místo ethernetu – zde je [doplňkový návod](https://armantheparman.com/headless-wifi/) k tomu. (U MyNode jsem nenašel způsob, jak to udělat).
 
@@ -22,7 +22,7 @@ Můžete koupit připravený uzel s připojeným mini displejem, nebo si ho mů�
 
 V podstatě je proces velmi podobný procesu nastavení [MyNode uzlu](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) s Raspberry Pi 4. Příručka Raspiblitz doporučuje koupit monitor, ale ve skutečnosti ho nepotřebujete a já bych to ani nedoporučil. Dokonce nepotřebujete ani další klávesnici nebo myš. Stačí získat přístup k terminálovému menu zařízení prostřednictvím počítače ve stejné domácí síti a použít příkaz ssh v terminálu. To je možné v Linuxu/Macu (snadno) a o něco obtížnější ve Windows.
 
-## Krok 1: Kupte si vybavení.
+### Krok 1: Kupte si vybavení.
 
 Potřebujete přesně stejné vybavení, které potřebujete k provozu uzlu MyNode. Můžete vyzkoušet jedno nebo druhé, jediný rozdíl je data na mikro SD kartě.
 
@@ -48,7 +48,7 @@ Tohle je rychlejší, ale zbytečně drahé:
 
 ![image](assets/3.webp)
 
-## Krok 2: Stáhněte si obraz Raspiblitz
+### Krok 2: Stáhněte si obraz Raspiblitz
 Přejděte na [web GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz) a najděte odkaz „download image“:
 ![image](assets/4.webp)
 
@@ -56,7 +56,7 @@ Sha-256 hash staženého souboru je uveden na webových stránkách. Při každ�
 
 ![image](assets/5.webp)
 
-## Krok 3: Ověření obrazu
+### Krok 3: Ověření obrazu
 
 Před pokračováním, pokud nevíte, jak se orientovat v souborovém systému přes příkazovou řádku, je to snadné se naučit a měli byste to udělat.
 
@@ -87,7 +87,7 @@ kde xxxxxxxxxxxxxx je název souboru, který jste právě stáhli. Pokud nejste 
 
 Počítač přemýšlí asi 20 sekund. Zkontrolujte, že výstupní hash soubor odpovídá tomu, který jste stáhli z webové stránky v předchozím kroku. Pokud je totožný, můžete pokračovat.
 
-## Krok 4: Příprava SD karty
+### Krok 4: Příprava SD karty
 
 K tomu můžete použít Balena Etcher. [Stáhněte si jej zde](https://www.balena.io/etcher/).
 
@@ -103,7 +103,7 @@ Použití Etcher je intuitivní. Vložte vaši micro SD kartu a naflashujte na n
 
 Po dokončení již nebude jednotka čitelná. Může se objevit chyba od operačního systému a jednotka by měla zmizet z plochy. Vyjměte kartu.
 
-## Krok 5: Nastavení Pi a vložení SD karty
+### Krok 5: Nastavení Pi a vložení SD karty
 
 Součásti (obal není zobrazen):
 
@@ -123,7 +123,7 @@ Nakonec připojte napájení:
 
 ![image](assets/14.webp)
 
-## Krok 6: Najděte IP adresu Pi
+### Krok 6: Najděte IP adresu Pi
 
 S Raspiblitz nikdy nepotřebujete monitor. Potřebujete však další počítač ve vaší domácí síti. Pokud není vaše Pi připojeno ethernetem a chcete spoléhat na WiFi, nalezení IP vyžaduje určité počítačové dovednosti. Nemohu vám pomoci, promiňte. Potřebujete ethernetové připojení. (Problém spočívá v potřebě přístupu k monitoru a operačnímu systému pro připojení WiFi a zadání hesla.)
 
@@ -133,7 +133,7 @@ Nalezení IP adresy je klíčové.
 
 > AKTUALIZACE: na Macu nebo Linuxovém stroji můžete použít terminál k nalezení IP adresy všech zařízení připojených přes Ethernet v domácí síti pomocí příkazu „arp -a“. Výstup není tak přehledný, jak by zobrazil router, ale všechny potřebné informace jsou tam. Pokud není zřejmé, které zařízení je Pi, proveďte pokus omyl.
 
-## Krok 7: SSH připojení k Pi
+### Krok 7: SSH připojení k Pi
 
 Nezapomeňte vložit SD kartu do Pi před jeho zapnutím. Počkejte několik minut a poté na jiném Linuxu/Macu otevřete terminál.
 

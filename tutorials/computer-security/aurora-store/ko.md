@@ -14,7 +14,7 @@ description: 안드로이드 애플리케이션을 다운로드할 수 있는 Pl
 
 
 
-# Aurora 스토어 시작하기
+## Aurora 스토어 시작하기
 
 
 
@@ -88,7 +88,7 @@ Google Play 서비스가 필요하지 않으므로 오로라 스토어 Interface
 
 
 
-## 특징
+### 특징
 
 
 

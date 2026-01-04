@@ -12,7 +12,7 @@ RaspiBlitz主要面向那些想要学习如何在家中去中心化运行自己�
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - 如何运行一个闪电和比特币全节点，由BTC session提供
 
-# Parman的Raspiblitz设置指南
+## Parman的Raspiblitz设置指南
 
 Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用。我向大多数用户推荐它和MyNode节点（理想情况下应有两个节点以实现冗余）。一个主要优势是Raspiblitz节点是“Free Open Source Software”，而MyNode或Umbrel则不是。[为什么这很重要？Vlad Costa 解释道。](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) 你还可以通过WiFi连接而不是以太网运行Raspiblitz – 这里有一个[补充指南](https://armantheparman.com/headless-wifi/)供参考。（我还没有找到在MyNode上实现这一点的方法）。
 
@@ -22,7 +22,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 基本上，该过程与使用Raspberry Pi 4设置[MyNode节点](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/)的过程非常相似。Raspiblitz指南建议您购买显示器，但实际上您并不需要，而且我也不推荐这样做。您甚至不需要额外的键盘或鼠标。只需通过同一家庭网络上的计算机访问设备的终端菜单，并在终端中使用ssh命令即可。这在Linux/Mac（简单）上可行，而在Windows上则稍微困难一些。
 
-## 第1步：购买设备。
+### 第1步：购买设备。
 
 你需要的设备与运行MyNode节点完全相同。你可以尝试其中之一，唯一的区别是微SD卡上的数据。
 
@@ -48,7 +48,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 ![image](assets/3.webp)
 
-## 第2步：下载Raspiblitz镜像
+### 第2步：下载Raspiblitz镜像
 导航到 [Raspiblitz GitHub 网站](https://github.com/rootzoll/raspiblitz)，然后找到“download image”链接：
 ![image](assets/4.webp)
 
@@ -56,7 +56,7 @@ Raspiblitz是一个出色的系统，用于运行比特币节点和相关应用�
 
 ![image](assets/5.webp)
 
-## 步骤3：验证镜像
+### 步骤3：验证镜像
 
 在继续之前，如果你不熟悉命令行下的文件系统操作，这很容易学，你应该去了解一下。
 
@@ -87,7 +87,7 @@ certUtil -hashfile xxxxxxxxxxxxxxx SHA256
 
 计算机会思考大约20秒。检查输出的哈希文件是否与上一步从网站下载的文件匹配。如果它们完全相同，你就可以继续了。
 
-## 步骤4：刷写SD卡
+### 步骤4：刷写SD卡
 
 您可以使用 Balena Etcher 来完成此操作。[在此下载](https://www.balena.io/etcher/)。
 
@@ -103,7 +103,7 @@ Etcher的使用非常直观。插入你的micro SD卡并将Raspiblitz软件（.i
 
 完成后，驱动器将不再可读。你可能会从操作系统收到一个错误，驱动器应该会从桌面上消失。拔出卡片。
 
-## 步骤5：设置树莓派并插入SD卡
+### 步骤5：设置树莓派并插入SD卡
 
 部件（未显示外壳）：
 
@@ -123,7 +123,7 @@ micro SD卡放在这里：
 
 ![image](assets/14.webp)
 
-## 步骤6：找到树莓派的IP地址
+### 步骤6：找到树莓派的IP地址
 
 使用Raspiblitz，你永远不需要一个显示器。然而，你确实需要在家庭网络上使用另一台计算机。如果你的树莓派没有通过以太网连接，并且你想依赖WiFi，找到IP需要一些计算机技能。对不起，无法帮助你。你需要一个以太网连接。（问题来自于需要访问显示器和操作系统来连接WiFi并输入密码。）
 
@@ -133,7 +133,7 @@ micro SD卡放在这里：
 
 > 更新：您可以在Mac或Linux机器上使用终端，通过命令“arp -a”找到家庭网络上所有以太网连接设备的IP地址。输出的格式可能不如路由器显示的那么美观，但所有您需要的信息都在那里。如果不明显哪个是树莓派，进行试错。
 
-## 步骤7：SSH进入树莓派
+### 步骤7：SSH进入树莓派
 
 记得在开机前将SD卡插入树莓派。等待几分钟，然后在另一台Linux/Mac上，打开终端。
 

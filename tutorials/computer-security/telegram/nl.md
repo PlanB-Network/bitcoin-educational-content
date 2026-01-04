@@ -72,10 +72,10 @@ Op het volgende scherm kun je het nummer dat je hebt opgegeven controleren. Als 
 Telegram is nu volledig functioneel op mobiel, we kunnen verder gaan met de eerste basisinstellingen.
 
 
-# Beveiligings- en privacy-instellingen
+## Beveiligings- en privacy-instellingen
 
 
-## Gebruikersnaam configuratie
+### Gebruikersnaam configuratie
 
 
 De Telegram gebruikersnaam - ook wel `handle` genoemd - is veel meer dan alleen maar een fantasietje. De handle is namelijk **uniek voor elke gebruiker**.
@@ -129,7 +129,7 @@ Dat kunnen ze niet, dankzij de unieke gebruikersnaam.
 **Wat ze wel kunnen doen is een "soortgelijke" handle weergeven, die iets verandert (een letter/cijfer), zodat alleen een oplettend oog duidelijk kan zien dat het om een oplichter gaat**. Let altijd goed op de gebruikersnaam en je zult zien dat bedriegers het niet makkelijk hebben.
 
 
-## Privacy
+### Privacy
 
 
 Een andere belangrijke voorzorgsmaatregel die je kunt nemen is het beperken van de informatie die je vrijgeeft via je nieuw aangemaakte account.
@@ -165,7 +165,7 @@ Dit zijn maatregelen die voorkomen dat je telefoonnummer bekend wordt, zodat je 
 Nu je Telegram-account is ingesteld en je een beetje privacy hebt gekregen, kun je het gaan gebruiken.
 
 
-## Contacten en chats toevoegen
+### Contacten en chats toevoegen
 
 
 Als je account net is aangemaakt, is de hoofdpagina waarschijnlijk helemaal leeg.
@@ -229,7 +229,7 @@ Standaard wordt iedereen, van individuele gebruikers tot thematische kanalen, ge
 ⚠️Attention: **vermijd het lid worden van groepen en kanalen zonder hun authenticiteit te verifiëren**. Om het officiële Telegram kanaal/groep te vinden van een bedrijf of onderwerp dat je wilt volgen, zoek hulp bij de _Contacts_ sectie van officiële websites of bij zeer betrouwbare bronnen.
 
 
-### Geavanceerde berichtfuncties
+#### Geavanceerde berichtfuncties
 
 
 Met Telegram kun je unieke geavanceerde functies gebruiken voor het uitwisselen van berichten. Ga een chat binnen en klik op de achtergrond naast een bericht van een andere afzender.
@@ -257,7 +257,7 @@ Je kunt ook grote bestanden bijvoegen en "zware" media gemakkelijk uitwisselen, 
 ![image](assets/en/46.webp)
 
 
-### Persoonlijke wolk
+#### Persoonlijke wolk
 
 
 Onder de vele ongelooflijke functies van Telegram is er ook een persoonlijke cloud die - op het moment van schrijven - **onbeperkt** is.
@@ -285,7 +285,7 @@ De chat verschijnt op de voorgrond, klaar om gebruikt te worden.
 ***
 
 
-## Berichten plannen en Stil verzenden
+### Berichten plannen en Stil verzenden
 
 
 Andere handige geavanceerde functies maken het mogelijk om berichten te verzenden met respect voor de privacy van de ontvangers, te kiezen tussen stil verzenden en het bericht te plannen op de juiste tijdstippen en dagen.
@@ -301,7 +301,7 @@ Het enige wat je hoeft te doen is het bericht schrijven, maar in plaats van het 
 ![image](assets/en/48.webp)
 
 
-### De cache van je telefoon wissen
+#### De cache van je telefoon wissen
 
 
 Een andere nuttige gewoonte om je telefoon efficiënt te laten werken is om de Telegram-cache van tijd tot tijd te wissen. Afhankelijk van hoeveel groepen en kanalen je volgt, kunnen de informatie en media afkomstig van deze bronnen zich ophopen in de cache, waardoor je telefoon traag wordt.
@@ -350,7 +350,7 @@ Je kunt op de volgende foto zien waar je deze instelling kunt vinden.
 ![image](assets/en/28.webp)
 
 
-## Telegram bureaublad
+### Telegram bureaublad
 
 
 Telegram kan worden gebruikt vanaf je computer, zodat het wordt gesynchroniseerd met het account dat wordt weergegeven op je telefoon. Je kunt ervoor kiezen om de applicatie niet te downloaden en alleen via het web te gebruiken. Deze versie heeft echter beperkingen ten opzichte van de versie die op de computer draait, daarom raad ik aan om het te downloaden en te installeren om het meeste uit deze krachtige tool te halen.
@@ -421,7 +421,7 @@ Een melding op uw telefoon bevestigt dat het nieuwe apparaat met succes is toege
 Telegram is ook actief en bruikbaar op je desktopcomputer.
 
 
-### Groepsoproep
+#### Groepsoproep
 
 
 Als je een beheerder of eigenaar van een Telegram groep bent, kun je een gesprek starten vanuit het menu van de groep zelf. Op deze manier kun je livestreams doen met meerdere deelnemers, ze opnemen in audio en video, ze delen of ze gebruiken voor doeleinden zoals onderwijs.
@@ -433,7 +433,7 @@ In de volgende afbeelding kun je zien hoe je een groepsgesprek start met Telegra
 ![image](assets/en/47.webp)
 
 
-### Laatste overwegingen
+#### Laatste overwegingen
 
 
 Nu je deze tutorial hebt doorgelezen, ben je perfect in staat om te kiezen hoe je Telegram wilt gebruiken, zonder je te laten beïnvloeden door het lawaai dat wordt veroorzaakt door de hype van zijn gebruikers, of door de mainstream. Je kunt beginnen met een milde aanpak en dan ontdekken hoe je het meeste uit deze messaging app kunt halen, voor jouw persoonlijke behoeften.

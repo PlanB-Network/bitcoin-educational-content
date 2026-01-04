@@ -6,7 +6,7 @@ description: 商家會計平台
 
 ![presentation](assets/lnbits-intro.webp)
 
-# 會計系統
+## 會計系統
 
 
 LNbits 內含許多工具，可控制和疏導您的進出資金、連結您的網路商店，甚至是您自己建立的 Hardware Wallet 或 ATM 等裝置。使用者類型包括
@@ -19,7 +19,7 @@ LNbits 內含許多工具，可控制和疏導您的進出資金、連結您的�
 - 所有這些都有不同的需求。我們以模組化的方式建立 LNbits，讓每位使用者都能以最適合您的方式使用我們的功能。
 
 
-# Wallet 管理員
+## Wallet 管理員
 
 
 LNbits 是一個免費且開放原始碼的會計系統 - 不是節點管理器。通道管理是連接至 LNbits 作為資金來源的 Lightning 節點（如 LND 或 c-lightning）的領域。LNbits 系統中的 Superuser 或 Admin 用戶負責管理會計功能和內部擴展功能的整體可訪問性和配置。
@@ -40,13 +40,13 @@ LNbits 充當用戶與 Lightning 節點之間的 Interface，提供簡單易用�
 注意：您的 「客戶 」存入他們在您節點上的 LNbits 銀行帳戶的所有資金，將直接進入您節點的 LN 通道。這意味著您才是這些資金的真正擁有者。您對他們的資金有很大的責任。不要做惡，帶著資金逃跑，不要做惡，收取高昂的費用。我們要操那些法國銀行家，而不是操其他人（Bitcoin 使用者）。
 
 
-# 示範平台
+## 示範平台
 
 
 您可以在 [https://legend.lnbits.com](https://legend.lnbits.com)找到示範。其功能完整，可用來了解 LNbits 和 LNURL 的 Lightning Network 和一般功能。雖然我們無法阻止您使用它，但請您不要將它用於您的生產設定。我們不僅經常在伺服器上測試新功能，也鼓勵您以主權的方式運行自己的節點和 LNbits。如果您認為運行一個節點是太多的要求，你可以在雲端連接 LNbits 到保管人資金服務，如 Opennode、Luna 或 Votage，或到 Telegram 上的 Lightning Tipbot，僅舉幾個例子。
 
 
-# LNbits 傳單
+## LNbits 傳單
 
 
 想要將一些基本資訊交給商戶或您的建築朋友嗎？我們很高興地宣布，我們的第一份傳單可供大家使用。傳單的大小是全球典型的傳單格式，共有 6 頁（2 摺），寬度為 3508，高度為 2480px。
@@ -58,7 +58,7 @@ LNbits 充當用戶與 Lightning 節點之間的 Interface，提供簡單易用�
 LNbits for builders：[EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# 一些基本知識
+## 一些基本知識
 
 
 LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https://clearnet 連結（不允許自簽證書）或 http://v2/v3 onion 連結。若要提供 LNbits 服務，例如 LNURLp/w QR 碼或 NFC 卡，並可在野外使用，您需要將 LNbits 開放至 clearnet (https)。
@@ -90,10 +90,10 @@ LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https:
 
 
 
-# 安裝 LNbits
+## 安裝 LNbits
 
 
-## 基本安裝指南
+### 基本安裝指南
 
 
 LNbits 可以安裝在任何 Linux 作業系統的機器上。它不需要強大的機器或伺服器，只要有足夠的 RAM 記憶體和資料庫所需的磁碟空間即可。它可以與 BTC/LN 節點 (本機 PC 或遠端 VPS) 分開執行，也可以與節點一起安裝在同一台機器上，或已經安裝在 bundle 節點軟體機器上。
@@ -119,7 +119,7 @@ LNbits 可以安裝在任何 Linux 作業系統的機器上。它不需要強大
 對於 bundle 軟體節點，請參閱其有關 LNbits 的特定說明文件：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
 當您對技術性的東西不感興趣，也不想自己主持您的資金來源或您的 lnbits 時，您可以使用 [LNbits SaaS 版本](https://saas.lnbits.com) (軟體即服務)。它基本上就像雲端中的 LNbits，但您可以自行定義資金來源 (例如您的節點、LNbits Wallet、LNtipbot、fakewallet 等) 和環境變數 - 其他雲端解決方案大多不具備這些功能。
@@ -128,7 +128,7 @@ LNbits 可以安裝在任何 Linux 作業系統的機器上。它不需要強大
 [Here is a detailed guide how to use LNbits SaaS for specific use cases](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
-## 資金來源
+### 資金來源
 
 
 LNbits 並非節點管理軟體，而是在 LND 或 CLN 資金來源之上，以 LN 為重點的會計系統。首次安裝之後，您可以到 http://localhost:5000/ 瀏覽您的 LNbits。
@@ -157,7 +157,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 
 
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -168,7 +168,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: secret_access_key
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (REST)
@@ -192,7 +192,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 若要加密您的 macaroon，請執行 `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`。
 
 
-### LNbits (另一個 LNbits 實例)
+#### LNbits (另一個 LNbits 實例)
 
 
 
@@ -205,7 +205,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - `lnbits_endpoint`: https://legend.lnbits.com
   - LNBITS_KEY: legend-lnbits-AdminKey
 
-### 閃電提示機器人
+#### 閃電提示機器人
 
 
 要從 Telegram 連接您的 [Lightning Tipbot](https://t.me/LightningTipBot)，您需要設定以下參數：
@@ -219,7 +219,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 也請參閱本教學如何安裝 [LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
-### IBEX HUB
+#### IBEX HUB
 
 
 註冊 [這裡](https://ibexpay.ibexmercado.com/onboard)，然後從那裡取得您的金鑰/代號，端點是 https://ibexpay-api.ibexmercado.com。
@@ -227,7 +227,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
 更多資訊請參閱 [IBEX API-說明文件](https://ibexpay-api.readme.io/reference/getting-started-with-your-api)。
 
 
-### LNPay
+#### LNPay
 
 為了讓 Invoice 監聽器運作，您必須在您的 LNbits 設定一個公開存取的 URL，並設定一個 [LNPay webhook](https://dashboard.lnpay.co/webhook/)，指向 `<您的 LNbits 主機>/Wallet/webhook`，並設定 "Wallet Receive" 事件，且不給予任何秘密。設定 `https://mylnbits/Wallet/webhook` 將會是收到任何付款通知的端點 url。
 
@@ -238,7 +238,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### 開放式節點
+#### 開放式節點
 
 要讓 Invoice 正常運作，您需要在 LNbits 中擁有可公開存取的 URL。webhook 設定是可選的。
 
@@ -248,7 +248,7 @@ LNbits 可以運行在許多雷射網路資金來源之上。目前已支援 Cor
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
 Alby 是一個瀏覽器擴充套件，具有 LN Wallet 功能和 LNDHUB 帳戶，可作為 LNbits 的資金來源。[更多詳情請見此處](https://getalby.com/)。
@@ -263,13 +263,13 @@ Alby 是一個瀏覽器擴充套件，具有 LN Wallet 功能和 LNDHUB 帳戶�
 - Alby_access_token`：AlbyAccessToken
 
 
-## 其他 / 疑難排解指南
+### 其他 / 疑難排解指南
 
 
 以下是一些額外的說明，以備不時之需。按一下箭頭以展開說明。
 
 
-### Killswitch 🚨
+#### Killswitch 🚨
 
 
 最近不僅在整個領域，在 LNbits 中也出現了許多危險的 bug，因此我們決定採取一些措施。現在，當可能導致資金損失的漏洞或 bug 再次出现時，您可以選擇接收警告和/或直接採取行動。
@@ -285,13 +285,13 @@ Alby 是一個瀏覽器擴充套件，具有 LN Wallet 功能和 LNDHUB 帳戶�
 
 
 
-### 管理員與超級使用者的差異
+#### 管理員與超級使用者的差異
 
 
 LNbits 管理 UI 可以讓您透過 LNbits 前端更改 LNbits 設定。預設是關閉的，當您第一次在 `.env` 檔案中設定環境變數 `LNBITS_ADMIN_UI=true` 時，設定會被初始化並使用。自此之後，將會使用資料庫中的相關設定，而非 .env 檔案中的設定。
 
 
-### 超級使用者
+#### 超級使用者
 
 
 透過管理介面，我們引進了超級使用者，超級使用者擁有伺服器的存取權，因此可以透過前端和 api 變更可能導致伺服器當機或無法回應的設定，例如變更資金來源。超級使用者只儲存在資料庫的設定表中。當設定「重設為預設值」並重新啟動後，新的超級使用者就會被建立。我們也為 API 路由新增了一個裝飾程式，以檢查超級使用者是否存在。它的 ID 不會透過 api 和前端傳送，只會接收一個 bool (是/否) 來判斷您是否是超級使用者。
@@ -306,13 +306,13 @@ LNbits 管理 UI 可以讓您透過 LNbits 前端更改 LNbits 設定。預設�
 在前端，您也可以開啟「管理伺服器」部分，選擇「主題」->「自訂標誌」，以變更顯示在「建立 Wallet」頁面上的商店圖片。
 
 
-### 管理員使用者
+#### 管理員使用者
 
 
 環境變數：LNBITS_ADMIN_USERS」，以逗號隔開的使用者 ID 清單。管理員使用者可以變更管理介面中的設定 - 但資金來源設定除外，因為這將需要重新啟動伺服器，並可能導致伺服器無法存取。此外，他們也可以存取 `LNBITS_ADMIN_EXTENSIONS` 中專屬於他們的所有擴充套件。
 
 
-### 允許使用者
+#### 允許使用者
 
 
 環境變數：LNBITS_ALLOWED_USERS`，以逗號隔開的使用者 ID 清單。定義這些使用者後，LNbits 將不再對公眾開放。只有已定義的使用者和管理員才能存取 LNbits 前端。
@@ -320,7 +320,7 @@ LNbits 管理 UI 可以讓您透過 LNbits 前端更改 LNbits 設定。預設�
 
 
 
-#### 更新 LNbits
+##### 更新 LNbits
 
 更新 LNbits 本機實例的一般方式是複製貼上下列 CLI 指令：
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### SQLite 遷移到 PostgreSQL
+##### SQLite 遷移到 PostgreSQL
 
 
 如果您已經安裝 LNbits 並在 SQLite 資料庫上執行，我們強烈建議您遷移到 postgres，如果您打算大規模執行 LNbits。
@@ -385,14 +385,14 @@ make migration
 
 
 
-#### 資料庫的備份和還原
+##### 資料庫的備份和還原
 
 
 請參考 [這份非常詳細的備份與還原程序指南](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore)。
 
 
 
-#### 從我的節點為我的 LNbits Wallet 注資不起作用
+##### 從我的節點為我的 LNbits Wallet 注資不起作用
 
 
 如果您要從 LNbits 資金來源的相同節點傳送 Sats，您需要編輯 LND.conf 檔案。
@@ -407,7 +407,7 @@ make migration
 注意：建議改用新的 adminUI 擴充套件與「TopUp」選項來為 LNbits 帳戶充值。
 
 
-#### 錯誤 426
+##### 錯誤 426
 
 我收到錯誤："lnurl 需要透過公開存取的 https 網域或 tor 傳送。需要 426 升級"</summary>。
 
@@ -426,7 +426,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### 網路錯誤
+##### 網路錯誤
 
 掃描 QR 時，我收到「https 錯誤」、「網路錯誤」或其他錯誤</summary>。
 
@@ -443,7 +443,7 @@ LNbits 僅透過 Tor 執行，您無法在公共網域上開啟，例如 lnbits.
 
 
 
-#### 防止他人在我的 LNbits 上產生錢包
+##### 防止他人在我的 LNbits 上產生錢包
 
 
 當您在 clearnet 中執行 LNbits 時，基本上每個人都可以在上面使用 generate 和 Wallet。由於您節點的資金與這些錢包綁定在一起，您可能想要防止這種情況發生。有兩種方法可以做到這一點：
@@ -454,7 +454,7 @@ LNbits 僅透過 Tor 執行，您無法在公共網域上開啟，例如 lnbits.
 
 
 
-#### 自訂 Invoice 到期時間範圍
+##### 自訂 Invoice 到期時間範圍
 
 
 現在您可以使用自訂到期日的 generate 發票。與後端相容：LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet 到目前為止！
@@ -465,16 +465,16 @@ LNbits 僅透過 Tor 執行，您無法在公共網域上開啟，例如 lnbits.
 
 
 
-## Wallet-URL 已刪除
+### Wallet-URL 已刪除
 
 
-### 示範伺服器 legend.lnbits 上的 Wallet
+#### 示範伺服器 legend.lnbits 上的 Wallet
 
 
 請務必將您的 Wallet-URL、Export2phone-QR 或 LNDhub 的副本保存在安全的地方，以備您自己的錢包使用。遺失時，LNbits 無法幫助您找回。
 
 
-### 自己的資金來源/節點上的 Wallet
+#### 自己的資金來源/節點上的 Wallet
 
 請務必將您的 Wallet-URL、Export2phone-QR 或 LNDhub 的副本保存在安全的地方，以備您自己的錢包使用。您可以在您的 LNbits 用戶管理器擴展或 sqlite 資料庫中找到所有 LNbits 用戶和 Wallet-ID 。要編輯或讀取 LNbits 資料庫，請前往 LNbits /data 資料夾，並尋找名為 sqlite.db 的檔案。您可以使用 excel 或專用的 SQL 編輯器（如 [SQLite browser](https://sqlitebrowser.org/)）來開啟和編輯它。
 
@@ -511,14 +511,14 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 .quit
 ```
 
-#### LNURL 適用於閃電-Address 反之亦然
+##### LNURL 適用於閃電-Address 反之亦然
 
 
 試試 fiatjaf 的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).若要支付或檢查 LNURLp，您也可以使用 [LNurlpay](https://wwww.lnurlpay.com/)。它應該說明 HTTPS 而不是 HTTP。
 
 
 
-#### 設定人們向我的 LNURLp QR 付費時看到的註解
+##### 設定人們向我的 LNURLp QR 付費時看到的註解
 
 當您建立 LNURL-p 時，預設不填寫註解方塊。這表示不允許在付款上附加註解。
 
@@ -529,18 +529,18 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### 存入 onchain BTC 到 LNbits
+##### 存入 onchain BTC 到 LNbits
 
 有兩種方式可以將 Exchange Sats 從 onchain BTC 轉換成 LN BTC (resp. to LNbits)。
 
 
-##### 透過外部交換服務。
+###### 透過外部交換服務。
 
 
 其他無法存取您的 LNb 的使用者可以使用交換服務，例如 [Boltz](https://boltz.Exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/) 或 [ZigZag](https://zigzag.io/)。如果您在 LNbits 實例中只提供 LNURL/LN 發票，但付款人只有 onchain Sats，因此他們必須先在自己這邊交換這些 Sats，這就很有用了。程序很簡單：用戶發送 onchain btc 到交換服務，並提供來自 LNbits 的 LNURL / LN Invoice 作為交換的目的地。
 
 
-##### 使用 Onchain 和 Boltz LNbits 延伸。
+###### 使用 Onchain 和 Boltz LNbits 延伸。
 
 
 請記住，這是一個獨立的 Wallet，而不是 LNbits 在您的 LN 資金來源上表示為 「您的 Wallet 」的 LN btc。這個鏈上的 Wallet 也可以使用 LNbits Boltz 或 Deezy 擴展來交換 LN btc 到（例如您的 hardwarewallet）。如果您運行一個與您的 LNbits 相連的網路商店來進行 LN 付款，定期將 LN 中的所有 Sats 放到 onchain 中是非常方便的。這將使您的 LN 通道有更多空間來接收新的 Sats。
@@ -592,7 +592,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 
 
-## 使用 LNbits 製作工具與建置
+### 使用 LNbits 製作工具與建置
 
 
 LNbits 擁有各式各樣的 [開放 API](https://legend.lnbits.com/docs)和工具，可針對數千萬種不同的使用情況，編寫程式並連接至許多不同的裝置。
@@ -601,7 +601,7 @@ LNbits 擁有各式各樣的 [開放 API](https://legend.lnbits.com/docs)和工�
 如果你是個新手，可以從 Ben Arc 提供的 [MakerBits 簡報](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) 開始，了解如何根據 LNbits 製作小工具。
 
 
-### 重要事項：
+#### 重要事項：
 
 
 - LNbits 以 LNURL 協定為基礎，其請求有兩種有效形式：https://clearnet 連結（不允許自簽證書）或 http://v2/v3 onion 連結。若要提供 LNbits 服務，例如可在野外使用的 LNURLp/w QR 碼或 NFC 卡，您需要將 LNbits 開啟至 clearnet (https)。

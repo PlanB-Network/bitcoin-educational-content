@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: RaspiBlitzのセットアップガイド
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitzは、RaspberryPi（1TB SSD）上でBitcoin-Fullnodeと一緒に動作する自作のLightning Node（LNDおよび/またはCore Lightning）で、簡単なセットアップとモニタリングのための素敵なディスプレイが付いています。
 

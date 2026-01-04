@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Juhend oma RaspiBlitzi seadistamiseks
 ---
 
-![pilt](assets/0.webp)
+![pilt](assets/cover.webp)
 
 RaspiBlitz on tee-ise Lightning Node (LND ja/või Core Lightning), mis töötab koos Bitcoin-Fullnode'iga RaspberryPi peal (1TB SSD) ja ilusa ekraaniga lihtsaks seadistamiseks & jälgimiseks.
 

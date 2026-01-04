@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guide to set up your RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 The RaspiBlitz is a do-it-yourself Lightning Node (LND and/or Core Lightning) running together with a Bitcoin-Fullnode on a RaspberryPi (1TB SSD) and a nice display for easy setup & monitoring.
 

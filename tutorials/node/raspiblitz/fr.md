@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guide pour configurer votre RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 Le RaspiBlitz est un nœud Lightning (LND et/ou Core Lightning) à faire soi-même, fonctionnant avec un Bitcoin-Fullnode sur un RaspberryPi (1TB SSD) et un bel écran pour une configuration et une surveillance faciles.
 

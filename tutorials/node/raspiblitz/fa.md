@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: راهنمای راه‌اندازی RaspiBlitz شما
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz یک نود لایتنینگ خودساخته (LND و/یا Core Lightning) است که به همراه یک Bitcoin-Fullnode بر روی یک RaspberryPi (1TB SSD) و یک نمایشگر زیبا برای راه‌اندازی و نظارت آسان اجرا می‌شود.

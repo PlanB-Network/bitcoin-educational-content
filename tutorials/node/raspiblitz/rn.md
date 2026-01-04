@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Inyobora yo gushinga RaspiBlitz yawe
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz ni umuco w’umuravyo (LND na/canke umuco w’ishimikiro) ukorana n’umuco w’umuravyo Bitcoin-Fullnode kuri RaspberryPi (1TB SSD) n’ikigaragaza ciza kugira ngo ushobore gutegura & gukurikirana vyoroshe.

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guía para configurar tu RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 El RaspiBlitz es un nodo Lightning de bricolaje (LND y/o Core Lightning) que se ejecuta junto con un nodo completo de Bitcoin en una RaspberryPi (SSD de 1TB) y una buena pantalla para una configuración y monitoreo sencillos.
 

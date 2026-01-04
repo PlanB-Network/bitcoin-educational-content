@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: RaspiBlitz'inizi kurmak için kılavuz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz, RaspberryPi (1TB SSD) üzerinde bir Bitcoin-Fullnode ile birlikte çalışan bir kendin yap Lightning Node (LND ve/veya Core Lightning) ve kolay kurulum ve izleme için güzel bir ekrandır.

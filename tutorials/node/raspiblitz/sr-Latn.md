@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Vodič za postavljanje vašeg RaspiBlitz-a
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz je uradi-sam Lightning Node (LND i/ili Core Lightning) koji radi zajedno sa Bitcoin kompletnim node-om na RaspberryPi (1TB SSD) i lepim ekranom za jednostavno podešavanje i praćenje.

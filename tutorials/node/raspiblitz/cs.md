@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Průvodce nastavením vašeho RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitz je projekt "udělej si sám" Lightning Node (LND a/nebo Core Lightning), který běží společně s Bitcoin-Fullnode na RaspberryPi (1TB SSD) a s pěkným displejem pro snadné nastavení a monitorování.
 

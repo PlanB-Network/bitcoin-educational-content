@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Opas RaspiBlitzin pystyttämiseen
 ---
 
-![kuva](assets/0.webp)
+![kuva](assets/cover.webp)
 
 RaspiBlitz on tee-se-itse Lightning Node (LND ja/tai Core Lightning), joka toimii yhdessä Bitcoin-Fullnoden kanssa RaspberryPillä (1TB SSD) ja mukavalla näytöllä helppoa asetusta & seurantaa varten.
 

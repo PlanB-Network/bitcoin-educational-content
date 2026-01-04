@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: คู่มือการตั้งค่า RaspiBlitz ของคุณ
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz เป็นโหนดสายฟ้าแบบทำเอง (LND และ/หรือ Core Lightning) ที่ทำงานร่วมกับ Bitcoin-Fullnode บน RaspberryPi (1TB SSD) และมีหน้าจอที่สวยงามสำหรับการตั้งค่าและการตรวจสอบที่ง่ายดาย

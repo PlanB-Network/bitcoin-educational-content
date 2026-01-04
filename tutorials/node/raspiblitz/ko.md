@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: 라즈비블리츠 설정 가이드
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 라즈비블리츠는 라즈베리파이(1TB SSD)에서 Bitcoin-풀노드와 함께 실행되는 DIY 라이트닝 노드(LND 및/또는 코어 라이트닝)로, 간편한 설정 및 모니터링을 위한 멋진 디스플레이를 갖추고 있습니다.

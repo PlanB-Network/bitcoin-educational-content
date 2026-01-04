@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: 設定 RaspiBlitz 的指南
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz 是一個可自己動手完成的 Lightning 節點 (LND 和/或 Core Lightning)，可與 Bitcoin-Fullnode 一起在 RaspberryPi (1TB SSD) 上執行，並配備漂亮的顯示器，方便設定與監控。

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: 设置您的RaspiBlitz的指南
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitz是一个自助式的闪电网络节点（LND 和/或 Core Lightning），与比特币全节点一起运行在树莓派（1TB SSD）上，并配有一个漂亮的显示屏，便于设置和监控。
 

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Mwongozo wa kusanidi RaspiBlitz yako
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz ni Njia ya Umeme ya kukufanya-wewe-mwenyewe (LND na/au Umeme wa Msingi) inayoendesha pamoja na Bitcoin-Fullnode kwenye RaspberryPi (1TB SSD) na onyesho zuri kwa usanidi na ufuatiliaji kwa urahisi.

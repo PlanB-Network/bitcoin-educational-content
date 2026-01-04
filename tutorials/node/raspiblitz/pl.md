@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Przewodnik po konfiguracji RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz to węzeł Lightning Node (LND i/lub Core Lightning) działający razem z węzłem Bitcoin-Fullnode na RaspberryPi (1 TB SSD) i ładnym wyświetlaczem ułatwiającym konfigurację i monitorowanie.

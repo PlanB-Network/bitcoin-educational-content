@@ -3881,23 +3881,23 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-Abbiamo finito di elencare la maggior parte dei parametri di configurazione. Questo file `Bitcoin.conf' costituisce quindi la vera dashboard del nodo: definisce la configurazione della rete, la gestione del Mempool , l'uso del disco e della memoria, l'indicizzazione e l'amministrazione generale. Se volete saperne di più su questo file e crearne uno su misura per le vostre esigenze, vi consiglio di usare [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Abbiamo finito di elencare la maggior parte dei parametri di configurazione. Questo file `Bitcoin.conf' costituisce quindi la vera dashboard del nodo: definisce la configurazione del network, la gestione della Mempool, l'uso del disco e della memoria, l'indicizzazione e l'amministrazione generale. Se vuoi saperne di più su questo file e crearne uno su misura per le tue esigenze, ti consiglio di usare [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
-Siamo giunti alla conclusione di questo corso BTC 202, che vi avrà permesso non solo di comprendere le basi del funzionamento dei nodi e della loro interazione all'interno del sistema, ma anche di crearne uno vostro. Ora siete un Bitcoiner sovrano, con la vostra autocustodia Wallet, che trasmette le vostre transazioni tramite il vostro nodo. Congratulazioni!
+Siamo giunti alla conclusione del corso BTC 202, che ti avrà permesso non solo di comprendere le basi del funzionamento dei nodi e della loro interazione all'interno del sistema, ma anche di crearne uno tuo. Ora sei un Bitcoiner sovrano, con il tuo wallet autocustodito, che trasmette le tue transazioni tramite il tuo nodo. Congratulazioni!
 
 
 
-Ora potete passare alla parte finale del corso, dove potrete valutare il BTC 202 e poi prendere il diploma per verificare che abbiate acquisito tutti i concetti trattati.
+Ora potrai passare alla parte finale del corso, dove potrai valutare il corso BTC 202 e poi prendere il diploma per verificare che hai acquisito tutti i concetti trattati.
 
 
 
-Ora avete diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che vi permetta di essere completamente indipendenti per le vostre transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Academy.
+Ora hai diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che ti permetta di essere completamente indipendenti per le tue transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Academy.
 
 
 
-Nel frattempo, vi invito a scoprire la formazione BTC 204, che vi consentirà di comprendere e padroneggiare i principi di protezione della privacy nell'utilizzo di Bitcoin:
+Nel frattempo, ti invito a scoprire la formazione BTC 204, che ti consentirà di comprendere e padroneggiare i principi di protezione della privacy nell'utilizzo di Bitcoin:
 
 
 

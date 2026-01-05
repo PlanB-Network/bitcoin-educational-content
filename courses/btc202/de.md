@@ -1375,17 +1375,17 @@ Führe diesen Vorgang regelmäßig durch, um dein Betriebssystem und deine Anwen
 
 Wenn du deine Bitcoin Node nur zur Validierung und Weiterleitung deiner Transaktionen verwendest, deine Wallets aber außerhalb von Umbrel verwaltet wirst (z.B. mit einer Hardware Wallet und Sparrow Wallet), gibt es nichts, was du direkt in Umbrel sichern musst. In diesem Fall bleibt das wesentliche Backup der Recovery Phrase und der Descriptor deiner externen Wallet, und das gilt unabhängig davon, ob du deine eigene Node benutzt oder nicht. Es ändert sich also nichts an deiner bisherigen Konfiguration.
 
-Andererseits können je nach den zusätzlichen Anwendungen, die du auf Umbrel verwendest, weitere Backups erforderlich sein. Dies ist insbesondere dann der Fall, wenn du einen Lightning-Node auf Umbrel betreiben. In diesem Fall ist es unbedingt notwendig, das seed, das bei der Installation des Lightning-Node mitgeliefert wurde, zu sichern. Zusätzlich zum seed benötigen du ein aktuelles ***Static Channel Backup (SCB)***, um Ihren Lightning-Node im Falle eines Problems wiederherstellen zu können. Mit SCB können du Ihre Gelder wiederherstellen, indem du Kanäle zwangsweise schließen. Wenn entweder der seed oder die SCB fehlt, ist es unmöglich, einen Lightning-Node wiederherzustellen.
+Andererseits können je nach den zusätzlichen Anwendungen, die du auf Umbrel verwendest, weitere Backups erforderlich sein. Dies ist insbesondere dann der Fall, wenn du eine Lightning Node auf Umbrel betreibst. In diesem Fall ist es unbedingt notwendig, den Seed, der bei der Installation der Lightning Node mitgeliefert wurde, zu sichern. Zusätzlich zum Seed benötigst du ein aktuelles ***Static Channel Backup (SCB)***, um deine Lightning Node im Falle eines Problems wiederherstellen zu können. Mit SCB kannst du deine Gelder wiederherstellen, indem du Kanäle zwangsweise schließst. Wenn entweder der Seed oder das SCB fehlt, ist es unmöglich, eine Lightning Node wiederherzustellen.
 
-Umbrel bietet auch die Möglichkeit, diese SCB automatisch und dynamisch über Tor auf ihren Servern zu sichern, um sicherzustellen, dass immer eine aktuelle Datei verfügbar ist. In diesem Fall wird nur der seed benötigt, um den Node wiederherzustellen.
+Umbrel bietet auch die Möglichkeit, diese SCB automatisch und dynamisch über Tor auf deinen Servern zu sichern, um sicherzustellen, dass immer eine aktuelle Datei verfügbar ist. In diesem Fall wird nur der Seed benötigt, um die Node wiederherzustellen.
 
 Wir werden diese Aspekte im nächsten LNP202-Kurs noch einmal im Detail behandeln.
 
 ### Sicherheit im Tagesgeschäft
 
-Was die Sicherheit betrifft, verwenden du ein langes, eindeutiges und zufälliges Passwort für Interface Umbrel und denken du daran, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Bei Anwendungen, die sowohl einen Passwort- als auch einen 2FA-Schutz bieten, aktivieren du immer beide und ändern du die Standardpasswörter.
+Was die Sicherheit betrifft, verwende ein langes, eindeutiges und zufälliges Passwort für das Umbrel-Interface und denke daran, die Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Bei Anwendungen, die sowohl einen Passwort- als auch einen 2FA-Schutz bieten, aktiviere immer beide und ändere die Standardpasswörter.
 
-Stellen du das Dashboard niemals ins Internet, ohne ein sicheres Gateway zu verwenden (z. B. VPN, Tor oder nur lokaler Zugang). Begrenzen du die Anzahl der Anwendungen, die du installieren, und löschen du regelmäßig die Anwendungen, die du nicht mehr benötigen, um die Angriffsfläche zu verringern.
+Stelle das Dashboard niemals ins Internet, ohne ein sicheren Zugang zu verwenden (z. B. VPN, Tor oder nur lokaler Zugang). Begrenze die Anzahl der Anwendungen, die du installierst, und lösche du regelmäßig die Anwendungen, die du nicht mehr benötigst, um die Angriffsfläche zu verringern.
 
 Um dein Wissen über Computersicherheit im Allgemeinen zu vertiefen, empfehle ich dir, diesen anderen kostenlosen Kurs zu besuchen:
 
@@ -1393,31 +1393,31 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnose und Selbsthilfe
 
-Im Falle eines Fehlers auf Ihrem Umbrel, starten du zuerst generate ein Diagnosepaket über die Troubleshooting-Sektion von UmbrelOS oder der betreffenden Anwendung, dann starten du die Anwendung sauber neu. Versuchen du ggf. auch einen kompletten Neustart des Systems.
+Im Falle eines Fehlers auf deinem Umbrel, lass zuerst eine Diagnose über die Troubleshooting-Sektion von UmbrelOS oder der betreffenden Anwendung generieren, dann starte die Anwendung sauber neu. Versuche ggf. auch einen kompletten Neustart des Systems.
 
-Wenn das Problem weiterhin besteht, empfehle ich dir, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten](https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel "Allgemeine Unterstützung" posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
+Wenn das Problem weiterhin besteht, empfehle ich dir, [der Umbrel-Benutzergemeinschaft auf deren Discord beizutreten](https://discord.gg/efNtFzqtdx). Beginne mit einer Suche, um herauszufinden, ob jemand bereits auf das gleiche Problem gestoßen ist und eine Lösung gefunden hat. Wenn nicht, kannst du eine Nachricht im Channel `general-support` posten. Du kannst auch [das Umbrel-Forum](https://community.umbrel.com/) benutzen.
 
-In diesen Bereichen können du nicht nur Sicherheitsankündigungen und -aktualisierungen verfolgen, sondern auch Fragen stellen und letztlich anderen Benutzern helfen. Oft werden bei diesem Austausch bewährte Verfahren entdeckt.
+In diesen Bereichen kannst du nicht nur Sicherheitsankündigungen und -aktualisierungen verfolgen, sondern auch Fragen stellen und letztlich anderen Benutzern helfen. Oft werden bei diesem Austausch Best Practices entdeckt.
 
-Mit diesen einfachen Gewohnheiten wird dein Umbrel-Node stabil, sicher und nützlich bleiben, sowohl für du als auch für das Bitcoin Netz.
+Mit diesen einfachen Gewohnheiten wird deine Umbrel Node stabil, sicher und nützlich bleiben, sowohl für dich als auch für das Bitcoin Netzwerk.
 
 ## IBD und den Peer-Discovery-Prozess verstehen
 
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
-dein Bitcoin-Node wird ohne vorherige Kenntnis der Transaktionshistorie in Betrieb genommen. Zunächst ist er nur ein Computer, auf dem eine Software (Bitcoin core oder ähnlich) läuft. Um ein vollständig synchronisierter und funktionsfähiger Bitcoin-Node zu werden, muss er lokal den Zustand des Ledger rekonstruieren, indem er alle Blöcke überprüft, die seit dem Genesis-Block (Block 0, veröffentlicht von Satoshi Nakamoto am 3. Januar 2009) veröffentlicht wurden. Dieser Schritt wird **IBD (_Initial Block Download_)** genannt.
+Deine Bitcoin Node wird ohne vorherige Kenntnis der Transaktionshistorie in Betrieb genommen. Zunächst ist sie nur ein Computer, auf dem eine Software (Bitcoin Core oder ähnlich) läuft. Um eine vollständig synchronisierte und funktionsfähige Bitcoin Node zu werden, muss sie lokal den Zustand des Ledgers rekonstruieren, indem sie alle Blöcke überprüft, die seit dem Genesis-Block (Block 0, veröffentlicht von Satoshi Nakamoto am 3. Januar 2009) veröffentlicht wurden. Dieser Schritt wird **IBD (_Initial Block Download_)** genannt.
 
-IBD besteht darin, jeden Block und jede Transaktion einzeln herunterzuladen und zu verifizieren, wobei die Konsensregeln angewendet werden, um eine eigene Version des Blockchain zu erstellen. Ziel ist es nicht, einfach eine Kopie ungeprüfter Daten abzurufen, sondern völlig unabhängig zum gleichen Ergebnis zu kommen wie die ehrliche Mehrheit des Netzwerks.
+Der IBD besteht darin, jeden Block und jede Transaktion einzeln herunterzuladen und zu verifizieren, wobei die Konsensregeln angewendet werden, um eine eigene Version der Blockchain zu erstellen. Ziel ist es nicht, einfach eine Kopie ungeprüfter Daten abzurufen, sondern völlig unabhängig zum gleichen Ergebnis zu kommen wie die ehrliche Mehrheit des Netzwerks.
 
 ![Image](assets/fr/092.webp)
 
 ### IBD-Meilensteine
 
-Die Synchronisierung beginnt mit dem Schritt _**headers-first**_. dein Node fordert die Folge von Block-Headern von mehreren Peers an und prüft für jeden von ihnen Proof of Work, Schwierigkeitsanpassung, Syntax sowie Timestamp und Versionsnummernregeln. Kurz gesagt, er stellt sicher, dass jeder empfangene Header den Konsensregeln entspricht.
+Die Synchronisierung beginnt mit dem Schritt _**headers-first**_. Deine Node fordert die Folge von Block-Headern von mehreren Peers an und prüft für jeden von ihnen Proof-of-Work, Schwierigkeitsanpassung, Syntax sowie Timestamp und Versionsnummerregeln. Kurz gesagt, sie stellt sicher, dass jeder empfangene Header den Konsensregeln entspricht.
 
 ![Image](assets/fr/093.webp)
 
-Zur Erinnerung: Ein Bitcoin-Block besteht aus einem 80-Byte-Header und einer Liste von Transaktionen. Der Fingerabdruck des Blocks wird durch Anwendung eines doppelten SHA-256 Hash auf diesen Header erhalten, der 6 Felder enthält:
+Zur Erinnerung: Ein Bitcoin Block besteht aus einem 80-Byte-Header und einer Liste von Transaktionen. Der Fingerabdruck des Blocks wird durch Anwendung eines doppelten SHA-256 Hash auf diesen Header erhalten, der 6 Felder enthält:
 
 - version
 - Hash des vorherigen Blocks
@@ -1428,41 +1428,41 @@ Zur Erinnerung: Ein Bitcoin-Block besteht aus einem 80-Byte-Header und einer Lis
 
 ![Image](assets/fr/094.webp)
 
-Transaktionen werden in eine Merkle Tree übertragen. Dabei handelt es sich um eine Struktur, die eine große Datenmenge (in diesem Fall alle Transaktionen des Blocks) zusammenfasst, indem sie deren Hashes nach und nach zu einer einzigen "Wurzel" aggregiert und so die Zugehörigkeit eines Elements zu der Menge nachweist (und jede Änderung erkennt). Auf diese Weise ändert jede Änderung an einer Transaktion auch die Wurzel des Merkle Tree und damit den Fingerabdruck des Blockkopfes. SegWit hat ein separates zusätzliches Commitment für Cookies (Signaturen) eingeführt, das in der Coinbase platziert wird.
+Transaktionen werden in einen Merkle Tree übertragen. Dabei handelt es sich um eine Struktur, die eine große Datenmenge (in diesem Fall alle Transaktionen des Blocks) zusammenfasst, indem sie deren Hashes nach und nach zu einer einzigen "Root" aggregiert und so die Zugehörigkeit eines Elements zu der Menge nachweist (und jede Änderung erkennt). Auf diese Weise ändert jede Änderung an einer Transaktion auch die Root des Merkle Tree und damit den Fingerabdruck des Blockheaders. SegWit hat ein separates zusätzliches Commitment für Cookies (Signaturen) eingeführt, das in der Coinbase platziert wird.
 
 ![Image](assets/fr/095.webp)
 
-Dieser _**headers-first**_-Schritt ermöglicht es dem Node, den Zweig mit der meisten Arbeit (unabhängig von der Anzahl der Blöcke) zu identifizieren, d. h. den Zweig, auf den sich Bitcoin-Node synchronisieren. Sobald dieser Zweig identifiziert ist, lädt der Node den Inhalt der Blöcke parallel von mehreren Verbindungen herunter und validiert dann jede Transaktion: Format, Gültigkeit der Skripte (außer `assumevalid=1`), Beträge und das Fehlen von Doppelausgaben. Bei jeder erfolgreichen Prüfung wird der aktuelle Stand der nicht ausgegebenen Münzen (UTXO-Set) in der Datenbank "chainstate/" aktualisiert: ausgegebene Ausgaben werden entfernt, während neue gültige Ausgaben hinzugefügt werden.
+Dieser **headers-first**-Schritt ermöglicht es der Node, den Zweig mit der meisten Arbeit (unabhängig von der Anzahl der Blöcke) zu identifizieren, d. h. den Zweig, auf den sich Bitcoin Node synchronisiert. Sobald dieser Zweig identifiziert ist, lädt die Node den Inhalt der Blöcke parallel von mehreren Verbindungen herunter und validiert dann jede Transaktion: Format, Gültigkeit der Skripte (außer `assumevalid=1`), Beträge und das Fehlen von Doppelausgaben. Bei jeder erfolgreichen Prüfung wird der aktuelle Stand der nicht ausgegebenen Coins (UTXO-Set) in der Datenbank "chainstate/" aktualisiert: ausgegebene Outputs werden entfernt, während neue gültige Outputs hinzugefügt werden.
 
-Mempool hingegen kommt nur ins Spiel, wenn man sich der Spitze der Kette nähert: Solange der Node spät dran ist, hat er keine anstehenden Transaktionen zu speichern.
+Mempool hingegen kommt nur ins Spiel, wenn man sich der Spitze der Kette nähert: Solange die Node komplett aktuell, hat sie keine anstehenden Transaktionen zu speichern.
 
-Sobald die IBD abgeschlossen ist, tritt der Node in seine normale Phase ein: Er validiert neue Blöcke, sobald sie veröffentlicht werden, unterhält seinen Mempool mit ausstehenden Transaktionen gemäß seinen Relay-Regeln, leitet Transaktionen und Blöcke weiter und verwaltet etwaige Kettenumstrukturierungen.
+Sobald der IBD abgeschlossen ist, tritt die Node in ihre normale Phase ein: Sie validiert neue Blöcke, sobald sie veröffentlicht werden, unterhält ihren Mempool mit ausstehenden Transaktionen gemäß ihren Relay-Regeln, leitet Transaktionen und Blöcke weiter und verwaltet etwaige Kettenumstrukturierungen.
 
-### AnnehmenGültig
+### AssumeValid
 
-Bitcoin core enthält einen Mechanismus, der die Zeit bis zur vollen Betriebsbereitschaft eines Node verkürzen soll, wobei das Prinzip der autonomen Überprüfung im Wesentlichen beibehalten wird: AssumeValid.
+Bitcoin Core enthält einen Mechanismus, der die Zeit bis zur vollen Betriebsbereitschaft einer Node verkürzen soll, wobei das Prinzip der autonomen Überprüfung im Wesentlichen beibehalten wird: AssumeValid.
 
-Der Parameter `assumevalid` basiert auf einem vergangenen Referenzblock, dessen Hash in jede Softwareversion integriert ist. Wenn dein Node während der IBD feststellt, dass sich dieser Block tatsächlich auf dem Zweig mit der meisten Arbeit befindet, kann er die Skriptüberprüfung für alle Transaktionen vor diesem Punkt ignorieren.
+Der Parameter `assumevalid` basiert auf einem vergangenen Referenzblock, dessen Hash in jede Softwareversion integriert ist. Wenn deine Node während des IBD feststellt, dass sich dieser Block tatsächlich auf dem Zweig mit der meisten Arbeit befindet, kann sie die Skriptüberprüfung für alle Transaktionen vor diesem Punkt ignorieren.
 
-Alle anderen Regeln (Blockstruktur, Proof of Work, Größenbeschränkungen, Transaktionsbeträge, UTXOs usw.) werden weiterhin vollständig überprüft. Nur die Berechnung der Skripte vor diesem Referenzblock wird ignoriert. Der Leistungsgewinn ist bei der IBD beträchtlich, da die Überprüfung der Unterschriften einen großen Teil der CPU-Last ausmacht. Nach diesem Referenzblock kehrt die Überprüfung in den normalen Zustand zurück.
+Alle anderen Regeln (Blockstruktur, Proof-of-Work, Größenbeschränkungen, Transaktionsbeträge, UTXOs usw.) werden weiterhin vollständig überprüft. Nur die Berechnung der Skripte vor diesem Referenzblock wird ignoriert. Der Leistungsgewinn ist beim IBD beträchtlich, da die Überprüfung der Signaturen einen großen Teil der CPU-Last ausmacht. Nach diesem Referenzblock kehrt die Überprüfung in den normalen Zustand zurück.
 
-du können die vollständige Validierung aller Skripte erzwingen, indem du diesen Mechanismus deaktivieren, allerdings auf Kosten einer viel längeren IBD, indem du den Parameter `assumevalid=0` in der Datei `Bitcoin.conf` verwenden.
+Du kannst die vollständige Validierung aller Skripte erzwingen, indem du diesen Mechanismus deaktivierst, allerdings auf Kosten eines viel längeren IBD, indem du den Parameter `assumevalid=0` in der Datei `Bitcoin.conf` verwendest.
 
-### AnnehmenUTXO
+### AssumeUTXO
 
-ein weiterer vorhandener Parameter ist `assumeutxo`, der jedoch im Gegensatz zu `assumevalid` nicht standardmäßig aktiviert ist. Dieser Mechanismus ermöglicht es der Software, einen Schnappschuss des UTXO-Satzes zusammen mit seinen Metadaten zu laden und ihn vorläufig als Referenzzustand zu betrachten, nachdem überprüft wurde, dass die Header tatsächlich zu dem Blockchain mit der meisten Arbeit führen.
+Ein weiterer vorhandener Parameter ist `assumeutxo`, der jedoch im Gegensatz zu `assumevalid` nicht standardmäßig aktiviert ist. Dieser Mechanismus ermöglicht es der Software, einen Schnappschuss des UTXO-Sets zusammen mit seinen Metadaten zu laden und ihn vorläufig als Referenzzustand zu betrachten, nachdem überprüft wurde, dass die Header tatsächlich zu der Blockchain mit der meisten Arbeit führen.
 
-Auf diese Weise wird der Node schnell für gängige Zwecke (RPC, Verbindung zu Geldbörsen usw.) einsatzbereit, während er gleichzeitig im Hintergrund die vollständige, geprüfte Rekonstruktion seines eigenen UTXO-Satzes in Angriff nimmt. Sobald diese Phase abgeschlossen ist, wird der anfängliche Schnappschuss durch den lokal rekonstruierten Zustand ersetzt. Dieser Ansatz trennt die schnelle Bereitstellung von Node von der vollständigen Überprüfung, ohne letztere zu beeinträchtigen.
+Auf diese Weise wird die Node schnell für gängige Zwecke (RPC, Verbindung zu Wallets usw.) einsatzbereit, während sie gleichzeitig im Hintergrund die vollständige, geprüfte Rekonstruktion ihres eigenen UTXO-Sets in Angriff nimmt. Sobald diese Phase abgeschlossen ist, wird der anfängliche Schnappschuss durch den lokal rekonstruierten Zustand ersetzt. Dieser Ansatz trennt die schnelle Node-Bereitstellung von der vollständigen Überprüfung, ohne letztere zu beeinträchtigen.
 
-### Peer-Erkennung: Wie findet dein Node das Bitcoin-Netzwerk?
+### Peer-Erkennung: Wie findet deine Node das Bitcoin-Netzwerk?
 
-Wenn ein Node zum ersten Mal in Betrieb genommen wird, kennt er noch keine Peers. Er muss jedoch andere Bitcoin-Node im Internet finden, um Header und dann Blöcke anzufordern, um seinen IBD abzuschließen. Um diese Verbindungen zu initiieren, folgt Bitcoin core einer priorisierten Logik.
+Wenn eine Node zum ersten Mal in Betrieb genommen wird, kennt sie noch keine Peers. Sie muss jedoch andere Bitcoin Nodes im Internet finden, um Header und dann Blöcke anzufordern, um ihren IBD abzuschließen. Um diese Verbindungen zu initiieren, folgt Bitcoin Core einer priorisierten Logik.
 
 ![Image](assets/fr/096.webp)
 
-Wenn der Node neu gestartet wird, nachdem er bereits benutzt wurde, versucht Core zunächst, die Verbindung zu ausgehenden Gegenstellen wiederherzustellen, die vor dem Herunterfahren registriert wurden, wobei die Informationen in der Datei "anchors.dat" gespeichert sind. Dann konsultiert er sein IP-Address-Buch **`peers.dat`**, in dem die Liste der zuvor angetroffenen Gegenstellen gespeichert ist, um sich erneut mit ihnen zu verbinden. Dies ist einfach eine lokale Datei, die von Core aktualisiert und aufbewahrt wird. Bei einem neuen Node, der gerade erst gestartet wurde, sind diese beiden Dateien hingegen leer, da er noch nie mit anderen Bitcoin-Node kommuniziert hat.
+Wenn die Node neu gestartet wird, nachdem sie bereits benutzt wurde, versucht Core zunächst, die Verbindung zu ausgehenden Peers wiederherzustellen, die vor dem Herunterfahren registriert wurden, wobei die Informationen in der Datei "anchors.dat" gespeichert sind. Dann konsultiert sie ihr IP-Addressbuch **`peers.dat`**, in dem die Liste der zuvor angetroffenen Peers gespeichert ist, um sich erneut mit ihnen zu verbinden. Dies ist einfach eine lokale Datei, die von Core aktualisiert und aufbewahrt wird. Bei einer neuen Node, die gerade erst gestartet wurde, sind diese beiden Dateien hingegen leer, da er noch nie mit anderen Bitcoin Nodes kommuniziert hat.
 
-In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Node zurückgeben. Anhand dieser Adressen kann der neue Node seine ersten Verbindungen herstellen und die erforderlichen Daten von der IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
+In diesem Fall fragt die Software **DNS-Seeds** ab. Dabei handelt es sich um [von anerkannten Ökosystementwicklern unterhaltene Server](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), die eine Liste von IP-Adressen vermutlich aktiver Nodes zurückgeben. Anhand dieser Adressen kann die neue Node ihre ersten Verbindungen herstellen und die erforderlichen Daten vom IBD anfordern. Hier ist die Liste der *DNS-Seeds*, die bis heute (August 2025) aktiv sind:
 
 - Pieter Wuille: `seed.Bitcoin.sipa.be.`
 - Matt Corallo: `dnsseed.bluematt.me.`
@@ -1474,17 +1474,17 @@ In diesem Fall fragt die Software _**DNS-Seeds**_ ab. Dabei handelt es sich um [
 - Jason Maurice: `seed.Bitcoin.wiz.biz.`
 - Ava Chow: "seed.Mainnet.achownodes.xyz"
 
-In den allermeisten Fällen reicht der Schritt *DNS-Seeds* aus, um die ersten Verbindungen mit anderen Node herzustellen. Wenn diese Server ausnahmsweise nicht innerhalb von 60 Sekunden antworten, geht der Node zu einer anderen Methode über: [eine statische Liste mit über 1.000 Adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) von _Saatknoten_ ist in den Code von Bitcoin core eingebaut und wird regelmäßig aktualisiert. Wenn die ersten beiden Methoden zur Beschaffung von IP-Adressen fehlschlagen, stellt diese letzte Lösung eine erste Verbindung her, von der aus der Node dann neue IP-Adressen anfordern kann.
+In den allermeisten Fällen reicht der Schritt *DNS-Seeds* aus, um die ersten Verbindungen mit anderen Nodes herzustellen. Wenn diese Server ausnahmsweise nicht innerhalb von 60 Sekunden antworten, geht die Node zu einer anderen Methode über: [eine statische Liste mit über 1.000 Adressen](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) von *Seed Nodes* ist in den Code von Bitcoin Core eingebaut und wird regelmäßig aktualisiert. Wenn die ersten beiden Methoden zur Beschaffung von IP-Adressen fehlschlagen, stellt diese letzte Lösung eine erste Verbindung her, von der aus die Node dann neue IP-Adressen anfordern kann.
 
 ![Image](assets/fr/097.webp)
 
-Als letzten Ausweg können du manuell Supply IP-Adressen über die Datei "peers.dat" verwenden, um bestimmte Verbindungen zu erzwingen.
+Als letzten Ausweg kannst du manuell IP-Adressen über die Datei "peers.dat" bereitstellen, um bestimmte Verbindungen zu erzwingen.
 
-Nach dem Hochfahren diversifiziert der interne Address-Manager die Quellen (separate autonome Netze, Clearnet und Tor sowie verschiedene geografische Gebiete), um das Risiko einer topologischen Isolierung zu verringern. Der Node stellt diese ausgehenden Verbindungen her (Verbindungen, die er selbst auswählt und die daher sicherer sind).
+Nach dem Hochfahren diversifiziert der interne Address-Manager die Quellen (separate autonome Netze, Clearnet und Tor sowie verschiedene geografische Gebiete), um das Risiko einer topologischen Isolierung zu verringern. Die Node stellt diese ausgehenden Verbindungen her (Verbindungen, die sie selbst auswählt und die daher sicherer sind).
 
-Wenn dein Node an einem offenen Port lauscht (standardmäßig 8333), nimmt er eingehende Verbindungen an. Diese stärken die allgemeine Widerstandsfähigkeit des Netzwerks, indem sie eine Anlaufstelle für neue Node bieten, ohne einen besonderen Nutzen für deinen eigenen IBD zu bringen. Wenn dein Node auf Tor läuft, bleibt die Logik die gleiche, aber die verwendeten Adressen sind `.onion`-Dienste.
+Wenn deine Node an einem offenen Port erreichbar ist (standardmäßig 8333), nimmt sie eingehende Verbindungen an. Diese stärken die allgemeine Widerstandsfähigkeit des Netzwerks, indem sie eine Anlaufstelle für neue Nodes bieten, ohne einen besonderen Nutzen für deinen eigenen IBD zu bringen. Wenn deine Node auf Tor läuft, bleibt die Logik die gleiche, aber die verwendeten Adressen sind `.onion`-Dienste.
 
-## Anatomie deines Bitcoin-Node
+## Anatomie deiner Bitcoin Node
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 

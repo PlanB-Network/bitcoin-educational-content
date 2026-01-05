@@ -305,6 +305,8 @@ Dans le chapitre précédent, vous avez vu le cœur de la preuve de travail : le
 
 Bitcoin vise un rythme moyen d’un bloc trouvé toutes les 10 minutes. Ce rythme n’est évidemment pas une promesse à la seconde près. En pratique, certains blocs sont trouvés quelques secondes après le précédent, quand d’autres le sont après plus d'une heure. Ce qui importe ici, c’est la moyenne sur une période suffisamment longue.
 
+019
+
 Cette variabilité découle du caractère probabiliste du minage : chaque hachage est un essai indépendant, avec une probabilité constante (à cible inchangée) de produire un résultat inférieur à la cible. On peut donc le comparer à une loterie au tirage continu : plus les mineurs effectuent de hachages par seconde, plus le délai attendu avant l’apparition d’un bloc valide diminue, mais sans jamais supprimer l’aléa d’un tirage à l’autre.
 
 ### Pourquoi viser 10 minutes entre les blocs ?
@@ -313,9 +315,17 @@ Même si l'on n'a aucune preuve de cela, Satoshi Nakamoto a sûrement choisi 10 
 
 Lorsqu’un mineur trouve un bloc valide, il le diffuse immédiatement à ses pairs. Les nœuds qui le reçoivent vérifient sa validité (transactions, preuve de travail, règles de consensus...), puis le relaient à leur tour. Cette propagation prend un certain temps, limité par la latence d'Internet, la bande passante, et la capacité de chaque nœud à vérifier le bloc.
 
-Si, durant ce délai de diffusion, un autre mineur découvre lui aussi un bloc valide à la même hauteur, le réseau peut se retrouver temporairement scindé : une partie des nœuds et des mineurs se base sur le bloc A, tandis que l’autre se base sur le bloc B. C'est une division temporaire du réseau. Dès qu’un nouveau bloc est miné par-dessus le bloc A par exemple, l’ensemble du réseau se resynchronise sur cette branche et abandonne le bloc B, qui devient alors un "stale block", parfois appelé à tort un "bloc orphelin" dans le langage courant.
+020
 
-Ces divisions ne sont pas catastrophiques. Le consensus de Nakamoto prévoit qu’à terme, une seule branche l’emportera, celle qui accumule le plus de travail. En revanche, elles ont un coût : pendant quelques minutes, une fraction des mineurs travaille sur une branche qui sera abandonnée. Ce travail est alors gaspillé du point de vue de la sécurité globale, car il n’a pas contribué à la chaîne finale. Plus l'intervalle entre chaque bloc est rapide, plus la probabilité de ces divisions augmente, puisque le temps de propagation représente une part plus importante du temps entre chaque bloc.
+Si, durant ce délai de diffusion, un autre mineur découvre lui aussi un bloc valide à la même hauteur, le réseau peut se retrouver temporairement scindé : une partie des nœuds et des mineurs se base sur le bloc A, tandis que l’autre se base sur le bloc B. C'est une division temporaire du réseau.
+
+021
+
+Ces divisions ne sont pas catastrophiques. Le consensus de Nakamoto prévoit qu’à terme, une seule branche l’emportera : celle qui accumule le plus de travail. En effet, dès qu’un nouveau bloc est miné par-dessus le bloc A par exemple, l’ensemble du réseau se resynchronise sur cette branche et abandonne le bloc B, qui devient alors un "stale block", parfois appelé à tort un "bloc orphelin" dans le langage courant.
+
+022
+
+En revanche, elles ont un coût : pendant quelques minutes, une fraction des mineurs travaille sur une branche qui sera abandonnée. Ce travail est alors gaspillé du point de vue de la sécurité globale, car il n’a pas contribué à la chaîne finale. Plus l'intervalle entre chaque bloc est rapide, plus la probabilité de ces divisions augmente, puisque le temps de propagation représente une part plus importante du temps entre chaque bloc.
 
 L’intervalle de 10 minutes laisse généralement suffisamment de temps pour que le bloc gagnant se propage largement avant qu'un éventuel bloc à la même hauteur soit trouvé. C’est un compromis qui limite les divisions, réduit le gaspillage de la puissance de calcul, et aide le réseau à rester synchronisé à l’échelle mondiale.
 
@@ -334,6 +344,8 @@ Autrement dit, si demain le réseau Bitcoin double sa puissance de calcul en bra
 Bitcoin résout ce problème avec un mécanisme d’ajustement périodique de la cible, qui vient donc ajuster la difficulté du minage. Le principe est le suivant : tous les 2016 blocs (environ toutes les 2 semaines), chaque nœud recalcule la cible de difficulté en observant combien de temps a réellement été nécessaire pour produire ces 2016 blocs.
 
 L’objectif de ce mécanisme est de ramener le temps moyen de production d’un bloc autour de 10 minutes, alors que le hashrate global du réseau varie en permanence, en raison de machines qui se débranchent ou, au contraire, de nouvelles machines qui sont ajoutées.
+
+023
 
 Le calcul se fait à partir du temps observé pour la période écoulée :
 * si les 2016 derniers blocs ont été trouvés trop vite, cela signifie que le hashrate a augmenté pendant cette période ; Bitcoin rend alors la condition plus difficile en abaissant la cible pour la prochaine période ;

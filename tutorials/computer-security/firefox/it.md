@@ -27,9 +27,9 @@ Ma scegliere Firefox è solo il primo passo. Per impostazione predefinita, anche
 
 ### Principi importanti prima di iniziare
 
-- Non esiste una ricetta universale: più modifichi, più rischi di distinguerti (fingerprinting). L'obiettivo è quello di essere più protetti senza distinguersi dalla massa.
-- **Progressi passo dopo passo**: Modifica un'impostazione, testa i tuoi siti abituali, quindi continua. Non è necessario modificare tutto in una volta.
-- **Equilibrio personale**: Trova il TUO compromesso tra privacy e facilità d'uso.
+- **Non esiste una ricetta universale**: più modifichi, più rischi di distinguerti (fingerprinting). L'obiettivo è quello di essere più protetti senza distinguersi dalla massa.
+- **Progressi passo dopo passo**: modifica un'impostazione, testa i tuoi siti abituali, quindi continua. Non è necessario modificare tutto in una volta.
+- **Equilibrio personale**: trova il TUO compromesso tra privacy e facilità d'uso.
 
 
 ## Installazione rapida
@@ -57,11 +57,11 @@ Ma scegliere Firefox è solo il primo passo. Per impostazione predefinita, anche
 *Schermata iniziale di Firefox al termine della configurazione. Nota il menu* ☰ *in alto a destra, che dà accesso a Impostazioni ed Estensioni per personalizzare Firefox*
 
 
-## Protezioni già attivate di default (consigliato)
+## Protezioni già attivate di default (consigliate)
 
 - **Isolamento dei siti (Fission)**: in distribuzione progressiva. Questa funzione esegue ogni sito in un processo separato per evitare che una scheda dannosa acceda ai dati di un'altra. Controllate il suo stato tramite `about:support` (cercate "Fission"). Se non è abilitata, è possibile attivarla manualmente in `about:config` con `fission.autostart = true`.
 - **Protezione totale dei cookie (TCP)**: attiva per impostazione predefinita. I cookie e le altre forme di memorizzazione sono limitati al sito della prima parte (un "barattolo" per sito), il che neutralizza il tracciamento trasversale. Se necessario, vengono effettuate eccezioni temporanee tramite l'API di accesso allo storage (pulsanti di accesso integrati).
-- **Protezione dal tracciamento dei rimbalzi e dei reindirizzamenti**: Firefox rileva e ripulisce automaticamente i cookie lasciati dai siti di "rimbalzo" (link che reindirizzano l'utente tramite un tracker prima della destinazione), riducendo questo canale di tracciamento senza alcuna azione da parte dell'utente.
+- **Protezione dal tracciamento dei "rimbalzi" e dei reindirizzamenti**: Firefox rileva e ripulisce automaticamente i cookie lasciati dai siti di "rimbalzo" (link che reindirizzano l'utente tramite un tracker prima della destinazione), riducendo questo canale di tracciamento senza alcuna azione da parte dell'utente.
 
 
 ## Livello 1 - Essenziale (≤ 10 minuti)
@@ -84,11 +84,11 @@ Ecco i diversi livelli di sicurezza dell'ETP:
 - **Standard** (bilanciato, massima compatibilità).
   - Blocca: social tracker, cookie cross-site (tutte le finestre), tracciamento dei contenuti nella navigazione privata, minatori di criptovalute, rilevatori di impronte digitali.
   - Include **Total Cookie Protection** (TCP): un "barattolo" per sito.
-- **Rigoroso** (consigliato per la riservatezza)
+- **Strict** (consigliato per la riservatezza)
   - Blocca anche i contenuti di tracciamento in tutte le finestre + impronte digitali note e sospette.
   - Può interrompere alcuni siti; utilizzare lo scudo 🛡️ per un'eccezione locale.
-- **Personalizzato** (avanzato)
-  - Messa a punto: cookie, tracciamento dei contenuti, minori, impronte digitali (note/sospette).
+- **Custom** (avanzato)
+  - Regolazione fine: cookie, tracciamento dei contenuti, minori, impronte digitali (note/sospette).
 
 ![Parametri di protezione contro il monitoraggio](assets/fr/06.webp)
 
@@ -101,14 +101,14 @@ Ecco i diversi livelli di sicurezza dell'ETP:
 
 - Disattiva la **compilazione automatica** (ID, indirizzi, carte). Utilizza invece un gestore di password.
 - **Ricerca**: disattiva **"Mostra suggerimenti di ricerca"**.
-- **Barra Address**: taglia "**Suggerimenti sponsorizzati**" e "**Suggerimenti contestuali**".
+- **Barra degli indirizzi**: taglia "**Suggerimenti sponsorizzati**" e "**Suggerimenti contestuali**".
 - **Home**: disattiva **Pocket** e **contenuti sponsorizzati**.
 
 ![Parametri per i cookie e password](assets/fr/08.webp)
 
 **Solo HTTPS**
 
-- Attiva la "**modalità esclusiva HTTPS in tutte le finestre**".
+- Attiva la "**HTTPS modalità esclusiva in tutte le finestre**".
 
 ![Configurazione DNS over HTTPS](assets/fr/09.webp)
 
@@ -137,7 +137,7 @@ Ecco i diversi livelli di sicurezza dell'ETP:
 - **uBlock Origin**: blocca gli annunci e il tracciamento continuo, leggero.
 - **Privacy Badger**: impara a bloccare ciò che ti controlla; invia Do Not Track / GPC.
 - **ClearURLs** (opzionale): Firefox (ETP Strict) e uBO fanno già molta pulizia; tienilo se vedi ancora URL "sporchi" (utm, fbclid).
-- **Contenitori multi-account di Firefox**: isola i cookie/sessioni e l'archiviazione per contenitore; account multipli paralleli; meno tracciamento cross-site. Estensione ufficiale: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Contenitori multi-account di Firefox**: isola i cookie/sessioni e l'archiviazione per contenitore; account multipli paralleli; meno tracciamento cross-site. Estensione ufficiale: `https://addons.mozilla.org/it/firefox/addon/multi-account-containers/`.
 
 ![Estensioni Multi-Account Containers](assets/fr/12.webp)
 
@@ -154,7 +154,7 @@ Obiettivo: compartimentare le attività e ridurre le perdite di rete.
 
 - **Stato predefinito**: attivato automaticamente in alcune regioni (USA, Canada, Russia, Ucraina). Nelle altre regioni è necessaria l'attivazione manuale.
 - **Configurazione**: Impostazioni → Generale → Impostazioni di rete → **Abilita DoH** → **Cloudflare** o **Quad9** → **Protezione massima**.
-- Massima protezione = solo **TRR** (nessun fallback al DNS di sistema). Se una rete aziendale/alberghiera si blocca, torna a **Standard** o disabilita DoH.
+- Massima protezione = **solo TRR** (nessun fallback al DNS di sistema). Se una rete aziendale/alberghiera si blocca, torna a **Standard** o disabilita DoH.
 - **Ridondanza**: se utilizzi già una VPN affidabile con un proprio DNS sicuro, DoH può essere ridondante.
 - **Test di verifica**: `https://www.dnsleaktest.com/` deve visualizzare solo il fornitore DoH scelto.
 
@@ -162,7 +162,7 @@ Obiettivo: compartimentare le attività e ridurre le perdite di rete.
 
 **Compartimentazione con contenitori e profili**
 
-- **Contenitori multi-account**: create spazi (Personale, Lavoro, Finanza, Reti sociali, Shopping, Usa e getta). Configura **"Apri sempre in questo contenitore"** per i siti ricorrenti. Estensione ufficiale: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Contenitori multi-account**: crea spazi (Personale, Lavoro, Finanza, Reti sociali, Shopping, Usa e getta). Configura "**Apri sempre in questo contenitore**" per i siti ricorrenti. Estensione ufficiale: `https://addons.mozilla.org/it/firefox/addon/multi-account-containers/`.
 - Perché usarli?
 - **Forte isolamento** di cookie/sessioni/storage di spazio.
 - **Meno tracciamento cross-site**: limitare i 'giganti' (Facebook, Google).
@@ -195,7 +195,7 @@ Scegliete solo uno dei due approcci seguenti:
 
 ### Approccio A: modifiche manuali tramite about:config
 
-Digitare `about:config` nella barra Address → Accettare il rischio.
+Digitare `about:config` nella barra Address → Accetta il rischio.
 
 ![Avertimenti about:config](assets/fr/13.webp)
 
@@ -268,7 +268,7 @@ Installazione (idealmente su un **profilo dedicato**)
 
 Aggiornamenti
 
-- Seguire le release di Arkenfox (allineate alle ESR), sostituire il file `user.js`, rilanciare Firefox; leggere le note di rilascio.
+- Segui le release di Arkenfox (allineate alle ESR), sostituire il file `user.js`, rilanciare Firefox; leggere le note di rilascio.
 
 **Personalizzazione attraverso le sovrascritture**
 
@@ -321,9 +321,11 @@ Le migliori pratiche:
 - Modificare troppo può renderti **unico**. **RFP** standardizza; gli strumenti di randomizzazione (ad esempio Chameleon) possono... differenziarti. Testa, confronta, aggiusta.
 - Alternative/complementi:
   - Tor Browser: anonimato in rete tramite Tor; più lento. Consulta la nostra guida completa all'installazione e alla configurazione:
+  - 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
-  - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; footprint standardizzato. Scopri come installarlo nel nostro tutorial dedicato:
 
+  - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; footprint standardizzato. Scopri come installarlo nel nostro tutorial dedicato:
+  - 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 - Combinazioni consigliate: Firefox (livello 2) + VPN per l'uso quotidiano; Tor/Mullvad per le attività sensibili; profili separati per la compartimentazione.
@@ -359,7 +361,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Guide e comunità
 
-- [PrivacyGuides - Browser per desktop](https://www.privacyguides.org/en/desktop-browsers/): raccomandazioni e confronti tra browser.
+- [PrivacyGuides - Browser per desktop](https://www.privacyguides.org/it/desktop-browsers/): raccomandazioni e confronti tra browser.
 - **Reddit**: r/firefox, r/privacy per feedback e supporto.
 - **Forum PrivacyGuides**: discussioni tecniche approfondite.
 

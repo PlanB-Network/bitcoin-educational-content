@@ -596,7 +596,7 @@ Hier is bijvoorbeeld een Bitcoin-transactie die het veegpatroon gebruikt:
 ![BTC204](assets/nl/036.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
+Bron : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
 
 Pas echter op dat dit type patroon ook een zelfoverboeking naar de rekening van een cryptocurrency exchange-platform kan onthullen. Het zal de studie van bekende adressen en de context van de transactie zijn die ons zal vertellen of het een veeg is naar een zelfbewaarde (self-custody) wallet of een opname naar een platform. De adressen van exchange-platforms zijn namelijk vaak gemakkelijk te identificeren.
@@ -608,19 +608,19 @@ Laten we het voorbeeld van Alice nog eens nemen: als de scan leidt naar een adre
 ### Consolidatie
 
 
-Dit model wordt gekenmerkt door het verbruik van meerdere UTXO's aan de ingang en de productie van een enkele UTXO aan de uitgang.
+Dit model wordt gekenmerkt door het verbruik van meerdere UTXO's als invoer (input) en de productie van een enkele UTXO als uitvoer (output).
 
 
 ![BTC204](assets/nl/037.webp)
 
 
-De interpretatie van dit patroon is dat we te maken hebben met consolidatie. Dit is een gebruikelijke praktijk onder Bitcoin-gebruikers, gericht op het samenvoegen van verschillende UTXO's in afwachting van een mogelijke verhoging van de transactiekosten. Door deze operatie uit te voeren in een periode waarin de vergoedingen laag zijn, is het mogelijk om te besparen op toekomstige vergoedingen. We zullen meer over deze praktijk vertellen in hoofdstuk 4.3.
+We interpreteren dit patroon als een teken van consolidatie. Dit is een gebruikelijke praktijk onder Bitcoin-gebruikers, gericht op het samenvoegen van verschillende UTXO's in afwachting van een mogelijke verhoging van de transactiekosten. Door deze operatie uit te voeren in een periode waarin de vergoedingen laag zijn, is het mogelijk om te besparen op toekomstige vergoedingen. We zullen meer over deze praktijk vertellen in hoofdstuk 4.3.
 
 
-We kunnen afleiden dat de gebruiker achter dit transactiemodel waarschijnlijk in het bezit was van alle UTXO's in de invoer en nog steeds in het bezit is van de UTXO in de output. Het is dus waarschijnlijk een auto-transfer.
+We kunnen afleiden dat de gebruiker achter dit transactiemodel waarschijnlijk in het bezit was van alle UTXO's in de invoer (input) en nog steeds in het bezit is van de UTXO in de uitvoer (output). Het is dus waarschijnlijk een zelfoverdracht.
 
 
-Net als de sweep kan dit type patroon ook een zelfoverboeking naar de rekening van een Exchange platform onthullen. De studie van bekende adressen en de context van de transactie zullen ons vertellen of het een consolidatie is naar een self-custody portefeuille of een opname naar een platform.
+Net als de vegen-transactie kan dit type patroon ook een zelfoverboeking naar de rekening van een exchange-platform onthullen. De studie van bekende adressen en de context van de transactie zullen ons vertellen of het een consolidatie is naar een self-custody portefeuille of een opname naar een platform.
 
 
 Hier is bijvoorbeeld een Bitcoin-transactie die het consolidatiepatroon volgt:
@@ -634,7 +634,7 @@ Hier is bijvoorbeeld een Bitcoin-transactie die het consolidatiepatroon volgt:
 ![BTC204](assets/nl/038.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
+Bron : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
 
 In een ketenanalyse kan dit model veel informatie onthullen. Als we bijvoorbeeld weten dat één van de inputs van Alice is, kunnen we aannemen dat alle andere inputs en de output van deze transactie ook van haar zijn. Deze aanname maakt het dan mogelijk om terug te gaan in de keten van eerdere transacties om andere transacties te ontdekken en te analyseren die waarschijnlijk verbonden zijn met Alice.
@@ -652,13 +652,13 @@ Dit model wordt gekenmerkt door het verbruik van een paar UTXO's als input (vaak
 ![BTC204](assets/nl/040.webp)
 
 
-De interpretatie van dit model is dat we te maken hebben met gegroepeerde uitgaven. Het is een praktijk die waarschijnlijk een zeer grote economische activiteit onthult, zoals een Exchange platform. Gegroepeerde uitgaven stellen deze entiteiten in staat om kosten te besparen door hun uitgaven te combineren in een enkele transactie.
+De interpretatie van dit model is dat we te maken hebben met gegroepeerde uitgaven. Het is een praktijk die waarschijnlijk een zeer grote economische activiteit onthult, zoals een exchange-platform. Gegroepeerde uitgaven stellen deze entiteiten in staat om kosten te besparen door hun uitgaven te combineren in een enkele transactie.
 
 
-We kunnen uit dit model afleiden dat de UTXO in de input afkomstig is van een bedrijf met een hoog niveau van economische activiteit, en dat de UTXO's in de output zich zullen verspreiden. Veel zullen toebehoren aan de klanten van het bedrijf die bitcoins hebben opgenomen van het platform. Andere kunnen naar partnerbedrijven gaan. Tot slot zullen er zeker één of meer uitwisselingen zijn die teruggaan naar het bedrijf dat ze heeft uitgegeven.
+We kunnen uit dit model afleiden dat de UTXO in de input afkomstig is van een bedrijf met een hoge economische activiteit, en dat de UTXO's in de output zich zullen verspreiden. Veel zullen toebehoren aan de klanten van het bedrijf die bitcoins hebben opgenomen van het platform. Andere kunnen naar partnerbedrijven gaan. Tot slot zullen er zeker één of meer transacties zijn die teruggaan naar het bedrijf dat ze heeft uitgegeven.
 
 
-Hier is bijvoorbeeld een Bitcoin-transactie die het gebundelde uitgavenpatroon volgt (vermoedelijk is het een transactie uitgegeven door het Bybit platform):
+Hier is bijvoorbeeld een Bitcoin-transactie die het gebundelde uitgavenpatroon volgt (vermoedelijk is het een transactie uitgegeven door het Bybit-platform):
 
 
 ```plaintext
@@ -669,7 +669,7 @@ Hier is bijvoorbeeld een Bitcoin-transactie die het gebundelde uitgavenpatroon v
 ![BTC204](assets/nl/041.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
+Bron : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
 
 ### Protocol-specifieke transacties
@@ -684,7 +684,7 @@ Onder de transactiepatronen kunnen we ook die identificeren die het gebruik van 
 Analyse van dit patroon suggereert dat we ons waarschijnlijk in de aanwezigheid van een collaboratieve transactie bevinden. Het is ook mogelijk om een CoinJoin waar te nemen. Als deze laatste hypothese juist blijkt, dan kan het aantal exits ons een ruwe schatting geven van het aantal deelnemers aan de CoinJoin.
 
 
-Hier is bijvoorbeeld een Bitcoin-transactie die het CoinJoin collaboratieve transactiepatroon overneemt:
+Hier is bijvoorbeeld een Bitcoin-transactie die het CoinJoin collaboratieve transactiepatroon hanteert:
 
 
 ```plaintext
@@ -695,10 +695,10 @@ Hier is bijvoorbeeld een Bitcoin-transactie die het CoinJoin collaboratieve tran
 ![BTC204](assets/nl/043.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
+Bron : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
 
-Er zijn veel andere protocollen met hun eigen specifieke structuren. Er zijn bijvoorbeeld Wabisabi-transacties, Postzegeltransacties en Runentransacties.
+Er zijn veel andere protocollen met hun eigen specifieke structuren. Er zijn bijvoorbeeld Wabisabi-transacties, Stamps-transacties en Runes-transacties.
 
 
 Dankzij deze transactiepatronen kunnen we al een bepaalde hoeveelheid informatie over een bepaalde transactie interpreteren. Maar transactiestructuur is niet de enige bron van informatie voor analyse. We kunnen ook de details bestuderen. Deze interne details noem ik "interne heuristieken" en zullen we in het volgende hoofdstuk bekijken.
@@ -718,11 +718,11 @@ Een interne heuristiek is een specifiek kenmerk dat we identificeren binnen een 
 
 
 
-- De bedragen van de verschillende UTXO's in en uit;
+- De bedragen van de verschillende input en output UTXO's;
 - Alles wat met scripts te maken heeft: ontvangstadressen, versiebeheer, locktijden...
 
 
-Over het algemeen stelt dit type heuristiek ons in staat om de Exchange in een specifieke transactie te identificeren. Door dit te doen, kunnen we de tracering van een entiteit voortzetten over verschillende transacties. Als we namelijk een UTXO identificeren, die toebehoort aan een gebruiker die we willen traceren, is het cruciaal om te bepalen, wanneer hij een transactie uitvoert, welke output is overgedragen aan een andere gebruiker en welke uitvoer de Exchange vertegenwoordigt, die dus in zijn bezit blijft.
+Over het algemeen stelt dit type heuristiek ons in staat om de exchange (wisselgeld) in een specifieke transactie te identificeren. Door dit te doen, kunnen we de tracering van een entiteit voortzetten over verschillende transacties. Als we namelijk een UTXO identificeren, die toebehoort aan een gebruiker die we willen traceren, is het cruciaal om te bepalen, wanneer hij een transactie uitvoert, welke output is overgedragen aan een andere gebruiker en welke output de exchange vertegenwoordigt, die dus in zijn bezit blijft.
 
 
 ![BTC204](assets/nl/044.webp)
@@ -734,16 +734,16 @@ Ik wil je er nogmaals aan herinneren dat deze heuristieken niet absoluut nauwkeu
 ### Interne overeenkomsten
 
 
-Bij deze heuristiek wordt gekeken naar overeenkomsten tussen de inputs en outputs van dezelfde transactie. Als hetzelfde kenmerk wordt waargenomen op de inputs en op slechts één van de outputs van de transactie, dan is het waarschijnlijk dat deze output de Exchange vormt.
+Bij deze heuristiek wordt gekeken naar overeenkomsten tussen de inputs en outputs van dezelfde transactie. Als hetzelfde kenmerk wordt waargenomen op de inputs en op slechts één van de outputs van de transactie, dan is het waarschijnlijk dat deze output de exchange (wisselgeld) vormt.
 
 
-De meest voor de hand liggende eigenschap is het hergebruik van een ontvangst-adres in dezelfde transactie.
+De meest voor de hand liggende eigenschap is het hergebruik van een ontvangstadres in dezelfde transactie.
 
 
 ![BTC204](assets/nl/045.webp)
 
 
-Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn private sleutel gehackt is, onthult dezelfde ontvangen Address noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de transactie Exchange de output is met dezelfdeadres als de invoer. We kunnen het individu dan verder traceren vanaf deze Exchange.
+Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn private sleutel gehackt is, onthult hetzelfde ontvangstadres noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de exchange-transactie de output is met hetzelfde adres als de input. We kunnen het individu dan verder traceren vanaf deze exchange.
 
 
 Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -757,16 +757,16 @@ Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan wo
 ![BTC204](assets/nl/046.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
+Bron : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 
-Deze overeenkomsten tussen inputs en outputs stoppen niet bijadres hergebruik. Elke overeenkomst in het gebruik van scripts kan worden gebruikt om een heuristiek toe te passen. We kunnen bijvoorbeeld soms dezelfde versionering waarnemen tussen de invoer en een van de output van de transactie.
+Deze overeenkomsten tussen inputs en outputs stoppen niet bij adres-hergebruik. Elke overeenkomst in het gebruik van scripts kan worden gebruikt om een heuristiek toe te passen. We kunnen bijvoorbeeld soms dezelfde versie waarnemen tussen de input en een van de outputs van de transactie.
 
 
 ![BTC204](assets/nl/047.webp)
 
 
-Op dit diagram kunnen we zien dat input n° 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output n° 0 gebruikt hetzelfde type script. Uitvoer nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de invoer de Exchangeadres is. Het zou dus altijd van dezelfde gebruiker zijn.
+Op dit diagram kunnen we zien dat input nr. 0 een P2WPKH script opent (SegWit V0 beginnend met `bc1q`). Output nr. 0 gebruikt hetzelfde type script. Output nr. 1 daarentegen gebruikt een P2TR script (SegWit V1 beginnend met `bc1p`). De interpretatie van dit kenmerk is dat het waarschijnlijk is dat het adres met dezelfde versie als de input het exchange-adres is. Het zou dus altijd aan dezelfde gebruiker toebehoren.
 
 
 Hier is een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -780,13 +780,13 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ![BTC204](assets/nl/048.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
+Bron : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 
-Op de laatste kunnen we zien dat ingang nr. 0 en uitgang nr. 1 P2WPKH scripts gebruiken (SegWit V0), terwijl uitgang nr. 0 een ander P2PKH script gebruikt (Legacy).
+Op de laatste kunnen we zien dat input nr. 0 en output nr. 1 P2WPKH scripts gebruiken (SegWit V0), terwijl output nr. 0 een ander P2PKH script gebruikt (Legacy).
 
 
-In het begin van 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden [Taproot](https://planb.academy/resources/glossary/taproot) scripts (`bc1p`) minder vaak gebruikt dan SegWit V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
+In het begin van de jaren 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden [Taproot](https://planb.academy/resources/glossary/taproot) scripts (`bc1p`) minder vaak gebruikt dan SegWit V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
 
 
 ### Betalingen afronden
@@ -999,7 +999,7 @@ Natuurlijk is ketenanalyse niet uitsluitend beperkt tot gegevens over de keten. 
 Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IPadres identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
 
 
-De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een output vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op output die wijst naar een Exchange platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
+De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een output vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op output die wijst naar een exchange-platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
 
 
 Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee outputs, één daarvan betrekking heeft op eenadres cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere output waarschijnlijk Exchange voorstelt.
@@ -1020,7 +1020,7 @@ We staan er minder bij stil, maar bepaalde menselijke gedragingen zijn aan een k
 Allereerst kan een temporele analyse soms de aard van de getraceerde entiteit identificeren. Als we zien dat de transacties consistent over 24 uur worden uitgezonden, dan verraadt dit een hoog niveau van economische activiteit. De entiteit achter deze transacties is waarschijnlijk een bedrijf, mogelijk internationaal en misschien met geautomatiseerde interne procedures.
 
 
-Bijvoorbeeld, [ik herkende dit patroon een paar maanden geleden](https://twitter.com/Loic_Pandul/status/1701127409712452072) bij het analyseren van [de transactie die per ongeluk 19 bitcoins aan vergoedingen had toegewezen](https://Mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Een eenvoudige temporele analyse stelde me in staat om de hypothese te stellen dat we te maken hadden met een geautomatiseerde service, en dus waarschijnlijk met een grote entiteit zoals een Exchange platform.
+Bijvoorbeeld, [ik herkende dit patroon een paar maanden geleden](https://twitter.com/Loic_Pandul/status/1701127409712452072) bij het analyseren van [de transactie die per ongeluk 19 bitcoins aan vergoedingen had toegewezen](https://Mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Een eenvoudige temporele analyse stelde me in staat om de hypothese te stellen dat we te maken hadden met een geautomatiseerde service, en dus waarschijnlijk met een grote entiteit zoals een exchange-platform.
 
 
 Een paar dagen later werd inderdaad ontdekt dat het geld toebehoorde aan PayPal, via het Paxos Exchange platform.
@@ -1201,7 +1201,7 @@ Het model voor deze transactie is het eenvoudige betalingsmodel. Als we alleen d
 ***Uitoefening 2:***
 
 
-Het model voor deze transactie is dat van gegroepeerde uitgaven. Dit model laat waarschijnlijk een grootschalige economische activiteit zien, zoals een Exchange platform. We kunnen afleiden dat de input UTXO afkomstig is van een bedrijf met een hoog niveau van economische activiteit, en dat de output UTXO's verspreid zullen zijn. Sommige zullen toebehoren aan klanten van het bedrijf die hun bitcoins hebben opgenomen in self-custody wallets. Andere kunnen naar partnerbedrijven gaan. Ten slotte zullen er ongetwijfeld enkele Exchange teruggaan naar het bedrijf dat ze heeft uitgegeven.
+Het model voor deze transactie is dat van gegroepeerde uitgaven. Dit model laat waarschijnlijk een grootschalige economische activiteit zien, zoals een exchange-platform. We kunnen afleiden dat de input UTXO afkomstig is van een bedrijf met een hoog niveau van economische activiteit, en dat de output UTXO's verspreid zullen zijn. Sommige zullen toebehoren aan klanten van het bedrijf die hun bitcoins hebben opgenomen in self-custody wallets. Andere kunnen naar partnerbedrijven gaan. Ten slotte zullen er ongetwijfeld enkele Exchange teruggaan naar het bedrijf dat ze heeft uitgegeven.
 
 
 ***Uitoefening 3:***
@@ -1337,7 +1337,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 ***Uitoefening 6:***
 
 
-Als we naar het model van deze transactie kijken, is het duidelijk dat het om een gebundelde uitgave gaat. De transactie heeft namelijk één input en 51 outputs, wat duidt op een hoog niveau van economische activiteit. We kunnen daarom de hypothese stellen dat Loïc bitcoins heeft opgenomen van een Exchange platform.
+Als we naar het model van deze transactie kijken, is het duidelijk dat het om een gebundelde uitgave gaat. De transactie heeft namelijk één input en 51 outputs, wat duidt op een hoog niveau van economische activiteit. We kunnen daarom de hypothese stellen dat Loïc bitcoins heeft opgenomen van een exchange-platform.
 
 
 Verschillende factoren versterken deze hypothese. Ten eerste, het type script dat gebruikt werd om de UTXO invoer te beveiligen is een P2SH 2/3 Multisig script, wat duidt op een geavanceerd beveiligingsniveau dat typisch is voor Exchange platforms:
@@ -1356,10 +1356,10 @@ OP_CHECKMULTISIG
 Bovendien wordt het adres bestudeerde `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor Exchange platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
 
 
-De temporele heuristiek toegepast op dezeadres toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een Exchange platform suggereert.
+De temporele heuristiek toegepast op dezeadres toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een exchange-platform suggereert.
 
 
-Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. Deadres ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een Exchange platform.
+Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. Deadres ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een exchange-platform.
 
 
 ***Uitoefening 7:***
@@ -1684,7 +1684,7 @@ Er is geen standaardmethode om UTXO's te labelen. Het is aan jou om een labelsys
 Het is belangrijk dat je dierbaren gemakkelijk de herkomst van het geld kunnen achterhalen als ze op een dag toegang moeten hebben tot je portefeuille. Dit zal hen helpen, zowel om redenen van vertrouwelijkheid als voor juridische doeleinden, mochten ze de herkomst van het geld moeten rechtvaardigen tegenover een autoriteit.
 
 
-Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een Exchange platform? Een Invoice betaling van een klant? Een peer-to-peer Exchange? Of vertegenwoordigt het de Exchange van een uitgave? U kunt bijvoorbeeld specificeren:
+Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een exchange-platform? Een Invoice betaling van een klant? Een peer-to-peer Exchange? Of vertegenwoordigt het de Exchange van een uitgave? U kunt bijvoorbeeld specificeren:
 
 
 
@@ -1736,7 +1736,7 @@ Laten we een concreet voorbeeld nemen om het eerste punt te illustreren. Stel, j
 ![BTC204](assets/nl/078.webp)
 
 
-Als bijvoorbeeld één van je UTXO's afkomstig is van een Exchange platform en je hebt liever niet dat de bakker weet van je account op dat platform, dan vermijd je het gebruik van die UTXO voor betaling. Als je een UTXO met een hoge waarde hebt die een aanzienlijke hoeveelheid bitcoins onthult, zou je er ook voor kunnen kiezen deze niet te gebruiken om te voorkomen dat de bakker op de hoogte raakt van je BTC-fortuin.
+Als bijvoorbeeld één van je UTXO's afkomstig is van een exchange-platform en je hebt liever niet dat de bakker weet van je account op dat platform, dan vermijd je het gebruik van die UTXO voor betaling. Als je een UTXO met een hoge waarde hebt die een aanzienlijke hoeveelheid bitcoins onthult, zou je er ook voor kunnen kiezen deze niet te gebruiken om te voorkomen dat de bakker op de hoogte raakt van je BTC-fortuin.
 
 
 De keuze welke UTXO's je gebruikt voor dit eerste punt is daarom een persoonlijke beslissing, beïnvloed door wat je wel of niet bereid bent te onthullen. De labels die je aan je UTXO's toekent wanneer je ze ontvangt, helpen je bij het selecteren van UTXO's die, wanneer ze eenmaal zijn uitgegeven, alleen informatie onthullen waarvan jij het prettig vindt om ze aan de ontvanger te onthullen.
@@ -1819,7 +1819,7 @@ Het eerste risico van KYC is dat het een bevoorrechte ingang biedt voor blockcha
 ![BTC204](assets/nl/082.webp)
 
 
-Als je een KYC uitvoert, lever je een hoogwaardig toegangspunt voor blockchainanalyse, omdat je de ontvangst-adressen die je gebruikt bij het opnemen van je bitcoins van een Exchange platform koppelt aan je volledige, geverifieerde identiteit. In theorie is deze informatie alleen bekend bij het bedrijf waaraan je het hebt verstrekt, maar zoals we hieronder zullen zien, is het risico van gegevenslekken reëel. Bovendien kan alleen al het feit dat een bedrijf over deze informatie beschikt problematisch zijn, zelfs als ze het niet delen.
+Als je een KYC uitvoert, lever je een hoogwaardig toegangspunt voor blockchainanalyse, omdat je de ontvangst-adressen die je gebruikt bij het opnemen van je bitcoins van een exchange-platform koppelt aan je volledige, geverifieerde identiteit. In theorie is deze informatie alleen bekend bij het bedrijf waaraan je het hebt verstrekt, maar zoals we hieronder zullen zien, is het risico van gegevenslekken reëel. Bovendien kan alleen al het feit dat een bedrijf over deze informatie beschikt problematisch zijn, zelfs als ze het niet delen.
 
 
 Dus als je geen andere stappen neemt om de samenvoeging van je activiteiten op blockchain te beperken, kan iedereen met kennis van dit KYC-ingangspunt potentieel al je activiteiten op Bitcoin aan je identiteit koppelen. Vanuit het oogpunt van dat bedrijf verliest jouw gebruik van Bitcoin alle vertrouwelijkheid.
@@ -1870,7 +1870,7 @@ Recente gebeurtenissen hebben ons eraan herinnerd dat niemand immuun is voor fin
 Iets meer dan twee jaar geleden zag een vlaggenschip in cryptocurrency cyberbeveiliging de persoonlijke gegevens van zijn klanten gestolen worden. Hoewel dit incident niet direct te maken had met de aankoop van bitcoins, blijft een dergelijk risico ook bestaan voor Exchange platforms. Er is dus zeker een risico verbonden aan persoonlijke gegevens.
 
 
-Het is waar dat we al veel van onze persoonlijke gegevens aan particuliere bedrijven toevertrouwen. Het risico is hier echter tweeledig, omdat deze gegevens u niet alleen identificeren, maar ook gekoppeld zijn aan activiteiten op Bitcoin. Immers, wanneer een hacker toegang krijgt tot de klantgegevens van een Exchange platform, kan hij er redelijkerwijs van uitgaan dat deze klanten bitcoin bezitten. Dit risico wordt vergroot door het feit dat Bitcoin, net als elk ander waardevol bezit, de aandacht van dieven trekt.
+Het is waar dat we al veel van onze persoonlijke gegevens aan particuliere bedrijven toevertrouwen. Het risico is hier echter tweeledig, omdat deze gegevens u niet alleen identificeren, maar ook gekoppeld zijn aan activiteiten op Bitcoin. Immers, wanneer een hacker toegang krijgt tot de klantgegevens van een exchange-platform, kan hij er redelijkerwijs van uitgaan dat deze klanten bitcoin bezitten. Dit risico wordt vergroot door het feit dat Bitcoin, net als elk ander waardevol bezit, de aandacht van dieven trekt.
 
 
 In het geval van een datalek kun je in het beste geval het doelwit zijn van gerichte phishingpogingen. In het ergste geval kunt u het doelwit worden van fysieke bedreigingen van uw huis.
@@ -3916,7 +3916,7 @@ Om de afdruk van een gebeurtenis uit het verleden op een munt, zoals CoinJoin cy
 ![BTC204](assets/nl/192.webp)
 
 
-Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uiteindelijk naar hun eindbestemming, zoals een Exchange platform.
+Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uiteindelijk naar hun eindbestemming, zoals een exchange-platform.
 
 
 ![BTC204](assets/nl/193.webp)

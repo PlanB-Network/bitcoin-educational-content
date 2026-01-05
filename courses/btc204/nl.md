@@ -1550,19 +1550,19 @@ Hier is de optelmatrix voor bech32 en bech32m formaten (SegWit en Taproot) vanaf
 ### Wat is adres-hergebruik?
 
 
-Hergebruik van Address is het gebruik van dezelfde ontvangstadres om verschillende UTXO's te blokkeren.
+Adres-hergebruik van is het gebruik van hetzelfde ontvangstadres om verschillende UTXO's te blokkeren.
 
 
-Zoals we in de vorige sectie zagen, heeft elke UTXO zijn eigen ScriptPubKey, die het vergrendelt en waaraan voldaan moet worden om de UTXO te kunnen gebruiken als invoer in een nieuwe transactie. Het is binnen deze ScriptPubKey dat payload adressen worden geïntegreerd.
+Zoals we in de vorige sectie zagen, heeft elke UTXO zijn eigen ScriptPubKey, die het vergrendelt en waaraan voldaan moet worden om de UTXO te kunnen gebruiken als input in een nieuwe transactie. Het is binnen deze ScriptPubKey dat payload-adressen worden geïntegreerd.
 
 
-Wanneer verschillende ScriptPubKeys dezelfde ontvangstadres bevatten, wordt dit Address hergebruik genoemd. In de praktijk betekent dit dat een gebruiker herhaaldelijk dezelfde Address heeft verstrekt aan afzenders om bitcoins te ontvangen via meerdere betalingen. En juist deze praktijk is desastreus voor je privacy.
+Wanneer verschillende ScriptPubKeys hetzelfde ontvangstadres bevatten, wordt dit adres-hergebruik genoemd. In de praktijk betekent dit dat een gebruiker herhaaldelijk hetzelfde adres heeft verstrekt aan afzenders om bitcoins te ontvangen via meerdere betalingen. En juist deze praktijk is desastreus voor je privacy.
 
 
-### Waarom is Address hergebruik een probleem?
+### Waarom is adres-hergebruik een probleem?
 
 
-Omdat de blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als dezelfde Address voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan dat adres gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin Witboek:
+Omdat de blockchain openbaar is, is het eenvoudig om te zien welke adressen welke UTXO blokkeren en hoeveel bitcoins. Als hetzelfde adres voor meerdere transacties wordt gebruikt, wordt het mogelijk om af te leiden dat alle bitcoins die aan dat adres gekoppeld zijn, aan dezelfde persoon toebehoren. Deze praktijk brengt de privacy van gebruikers in gevaar, doordat er deterministische verbanden kunnen worden gelegd tussen verschillende transacties en bitcoins kunnen worden getraceerd op de blockchain. Satoshi Nakamoto zelf wees al op dit probleem in het Bitcoin-witboek:
 
 
 > *Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar*
@@ -1575,16 +1575,16 @@ Bron: S. Nakamoto, "Bitcoin: Een Peer-to-Peer elektronisch geldsysteem", https:/
 De bedoeling van Satoshi in deze zin was om een extra firewall te creëren in het geval van een associatie tussen de identiteit van een gebruiker en een sleutelpaar op Bitcoin, om te voorkomen dat zijn hele activiteit publiekelijk gekoppeld zou worden aan zijn identiteit. Vandaag de dag, met de proliferatie van blockchainanalyse-bedrijven en KYC regelgeving, is het gebruik van unieke adressen niet langer een "extra firewall", maar een onmisbare praktijk voor iedereen die een minimum aan privacy wil behouden.
 
 
-Wanneer je een Address hergebruikt, leg je een bijna onbetwistbare link tussen alle transacties die geassocieerd zijn met dat adres. Hoewel dit je fondsen niet direct in gevaar brengt, omdat elliptische curve cryptografie de veiligheid van je privésleutels garandeert, maakt het het wel makkelijker om je activiteiten te controleren. Iedereen met een node kan de transacties en saldi van de adressen bekijken, waardoor je anonimiteit volledig in het gedrang komt.
+Wanneer je een adres hergebruikt, leg je een bijna onbetwistbare link tussen alle transacties die geassocieerd zijn met dat adres. Hoewel dit je fondsen niet direct in gevaar brengt, omdat elliptische curve-cryptografie de veiligheid van je privésleutels garandeert, maakt het het wel makkelijker om je activiteiten te controleren. Iedereen met een node kan de transacties en saldi van de adressen bekijken, waardoor je anonimiteit volledig in het gedrang komt.
 
 
 ![BTC204](assets/nl/071.webp)
 
 
-Om dit punt te illustreren, nemen we het voorbeeld van Bob, een gebruiker die regelmatig kleine hoeveelheden bitcoins koopt in DCA en deze altijd naar dezelfde Address stuurt. Na twee jaar bevat deze Address een aanzienlijke hoeveelheid bitcoins. Als Bob deze Address gebruikt om een betaling te doen aan een lokale handelaar, kan deze alle bijbehorende fondsen zien en de rijkdom van Bob afleiden. Dit kan leiden tot persoonlijke veiligheidsrisico's, zoals poging tot diefstal of afpersing. Als Bob een blanco Address had gebruikt om elke periodieke aankoop te ontvangen, zou hij oneindig veel minder informatie hebben onthuld aan zijn handelaar.
+Om dit punt te illustreren, nemen we het voorbeeld van Bob, een gebruiker die regelmatig kleine hoeveelheden bitcoins koopt in DCA en deze altijd naar hetzelfde adres stuurt. Na twee jaar bevat dit adres een aanzienlijke hoeveelheid bitcoins. Als Bob dit adres gebruikt om een betaling te doen aan een lokale handelaar, kan deze alle bijbehorende fondsen zien en de rijkdom van Bob afleiden. Dit kan leiden tot persoonlijke veiligheidsrisico's, zoals poging tot diefstal of afpersing. Als Bob een blanco adres had gebruikt om elke periodieke aankoop te ontvangen, zou hij oneindig veel minder informatie hebben onthuld aan zijn handelaar.
 
 
-In de stringanalyse zijn er 2 types van Address hergebruik:
+In de ketenanalyse zijn er 2 types van adres-hergebruik:
 
 
 
@@ -1593,44 +1593,44 @@ In de stringanalyse zijn er 2 types van Address hergebruik:
 - Intern hergebruik binnen een transactie.
 
 
-De eerste is wanneer een Address wordt hergebruikt in verschillende Bitcoin-transacties. Dit is waar we het eerder over hadden: deze heuristiek leidt af dat alle UTXO's die door deze Address gaan, tot een enkele entiteit behoren.
+De eerste is wanneer een adres wordt hergebruikt in verschillende Bitcoin-transacties. Dit is waar we het eerder over hadden: deze heuristiek leidt af dat alle UTXO's die over dit adres gaan, tot een enkele entiteit behoren.
 
 
-Intern Address hergebruik vindt niet plaats wanneer hergebruik plaatsvindt over meerdere transacties, maar wanneer het plaatsvindt binnen een enkele transactie. Immers, als dezelfde Address die wordt gebruikt om een invoer te vergrendelen, wordt gebruikt als de output van een transactie, dan kunnen we afleiden dat deze output nog steeds toebehoort aan dezelfde gebruiker (Exchange), en dat de tweede output de werkelijke betaling voorstelt. Deze andere heuristiek maakt het mogelijk om een geldspoor over meerdere transacties te behouden.
+Intern adres hergebruik vindt niet plaats wanneer hergebruik plaatsvindt over meerdere transacties, maar wanneer het plaatsvindt binnen een enkele transactie. Immers, als hetzelfde adres dat wordt gebruikt om een input te vergrendelen, wordt gebruikt als de output van een transactie, dan kunnen we afleiden dat deze output nog steeds toebehoort aan dezelfde gebruiker (de exchange), en dat de tweede output de werkelijke betaling voorstelt. Deze andere heuristiek maakt het mogelijk om een geldspoor over meerdere transacties te behouden.
 
 
 ![BTC204](assets/nl/072.webp)
 
 
-Hergebruik van Address is een echte plaag op Bitcoin. Volgens de OXT.me website (momenteel ontoegankelijk) was het algemene percentage van hergebruik van Address op Bitcoin ongeveer 52% in 2022:
+Adres-hergebruik is een echte plaag op Bitcoin. Volgens de OXT.me website (momenteel ontoegankelijk) was het algemene percentage van adres-hergebruik op Bitcoin ongeveer 52% in 2022:
 
 
 ![BTC204](assets/nl/073.webp)
 
 
-Dit percentage is enorm, maar het komt voor het overgrote deel van Exchange platforms in plaats van individuele gebruikers.
+Dit percentage is enorm, maar het komt voor het overgrote deel van exchange-platforms in plaats van individuele gebruikers.
 
 
-### Hoe voorkom je hergebruik van Address?
+### Hoe voorkom je adres-hergebruik?
 
 
-Hergebruik van Address vermijden is heel eenvoudig: **gebruik gewoon een nieuwe, lege Address voor alle nieuwe betalingen naar uw wallet**.
+Adres-hergebruik vermijden is heel eenvoudig: **gebruik gewoon een nieuw, ongebruikt adres voor alle nieuwe betalingen naar je wallet**.
 
 
-Dankzij BIP32 zijn moderne portfolio's nu deterministisch en hiërarchisch. Dit betekent dat een gebruiker generate een groot aantal adressen kan koppelen aan één enkel initieel stukje informatie: de seed. Door dit ene stukje informatie op te slaan, is het mogelijk om alle privésleutels in de portefeuille te herstellen. Door dit ene stukje informatie op te slaan, is het mogelijk om alle privésleutels in de portefeuille te herstellen, waardoor toegang mogelijk wordt tot de fondsen die beveiligd zijn door de corresponderende adressen.
+Dankzij BIP32 zijn moderne wallets nu deterministisch en hiërarchisch. Dit betekent dat een gebruiker een groot aantal adressen kan generen op basis van van één enkel initieel stukje informatie: de seed. Door dit ene stukje informatie op te slaan, is het mogelijk om alle privésleutels in de portefeuille te herstellen, waardoor toegang mogelijk wordt tot de fondsen die beveiligd zijn door de corresponderende adressen.
 
 
 ![BTC204](assets/nl/074.webp)
 
 
-Daarom wordt, wanneer je op de knop "*ontvangen*" drukt in je wallet-software, telkens een ongebruikte ontvangstadres voorgesteld. Na ontvangst van bitcoins op deze Address, stelt de software automatisch een nieuwe voor.
+Daarom wordt, wanneer je op de knop "*ontvangen*" drukt in je wallet-software, telkens een ongebruikt ontvangstadres voorgesteld. Na ontvangst van bitcoins op dit adres, stelt de software automatisch een nieuwe voor.
 
 
-> *PS: Onlangs hebben sommige wallet softwareprogramma's aangekondigd te willen stoppen met het genereren van blanco adressen, uit angst dat dit door de autoriteiten zal worden gezien als een vorm van geld witwassen. Als uw software een van deze programma's is, raad ik u ten zeerste aan deze onmiddellijk te vervangen, aangezien dit niet acceptabel is voor de gebruiker.*
-Als je een statische identifier nodig hebt om betalingen te ontvangen, zoals donaties, is het niet aan te raden om een klassieke Bitcoin Address te gebruiken vanwege het risico op hergebruik. Gebruik in plaats daarvan een Lightning Address, of kies voor een statische onchain betalingsidentifier, zoals BIP47 of Silent Payments. Deze protocollen worden in detail uitgelegd in deel 6 van deze training.
+> *PS: Onlangs hebben sommige wallet softwareprogramma's aangekondigd te willen stoppen met het genereren van blanco adressen, uit angst dat dit door de autoriteiten zal worden gezien als een vorm van geld witwassen. Als je software een van deze programma's is, raad ik je ten zeerste aan deze onmiddellijk te vervangen, aangezien dit niet acceptabel is voor de gebruiker.*
+Als je een statische identifier nodig hebt om betalingen te ontvangen, zoals donaties, is het niet aan te raden om een klassiek Bitcoin-adres te gebruiken vanwege het risico op hergebruik. Gebruik in plaats daarvan een Lightning-adres, of kies voor een statische onchain betalingsidentifier, zoals BIP47 of Silent Payments. Deze protocollen worden in detail uitgelegd in deel 6 van deze training.
 
 
-## Etiketteren en controleren van onderdelen
+## Labeling en UTXO's controleren
 
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
@@ -1639,86 +1639,86 @@ Als je een statische identifier nodig hebt om betalingen te ontvangen, zoals don
 
 
 
-Zoals we hebben ontdekt in het gedeelte over stringanalyse, zijn er veel heuristieken en patronen die kunnen worden gebruikt om informatie over een transactie af te leiden. Als gebruiker is het belangrijk om op de hoogte te zijn van deze technieken om jezelf er beter tegen te beschermen.
+Zoals we hebben ontdekt in het gedeelte over ketenanalyse, zijn er veel heuristieken en patronen die kunnen worden gebruikt om informatie over een transactie af te leiden. Als gebruiker is het belangrijk om op de hoogte te zijn van deze technieken om jezelf er beter tegen te beschermen.
 
 
-Dit betekent een rigoureus beheer van je wallet in zelfbewaarneming, wat betekent dat je de herkomst van je UTXO's kent en zorgvuldig kiest welke UTXO's je gebruikt bij betalingen. Dit efficiënte wallet beheer berust op twee belangrijke kenmerken van goede Bitcoin wallets: tagging en muntcontrole.
+Dit betekent een rigoureus beheer van je self-custody wallet, wat betekent dat je de herkomst van je UTXO's kent en zorgvuldig kiest welke UTXO's je gebruikt bij betalingen. Dit efficiënt wallet beheer berust op twee belangrijke kenmerken van goede Bitcoin wallets: labeling en muntcontrole.
 
 
-In dit hoofdstuk zullen we deze functies bekijken en zien hoe u ze intelligent kunt gebruiken, zonder teveel werklast toe te voegen, om je privacy op Bitcoin sterk te optimaliseren.
+In dit hoofdstuk bekijken we hoe je deze functies intelligent kunt gebruiken om je privacy op Bitcoin sterk te optimaliseren, zonder dat het veel werk kost.
 
 
 ### Wat is labelen?
 
 
-Labelen is het toekennen van een annotatie of label aan een specifieke UTXO in een Bitcoin wallet. Deze annotaties worden lokaal opgeslagen door de wallet software en worden nooit verzonden via het Bitcoin netwerk. Labelen is daarom een persoonlijk beheertool.
+Labelen is het toekennen van een annotatie of label aan een specifieke UTXO in een Bitcoin-wallet. Deze annotaties worden lokaal opgeslagen door de wallet-software en worden nooit verzonden via het Bitcoin-netwerk. Labelen is daarom een persoonlijke beheerstool.
 
 
 Als ik bijvoorbeeld een UTXO heb van een P2P aankoop op Bisq met Charles, zou ik het kunnen labelen als "`Non-KYC Bisq Charles`".
 
 
-Tagging is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, uw Bitcoin wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke eigenaar zou kunnen onthullen. Door al je onderdelen goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
+Labeling is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, je Bitcoin-wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke eigenaar zou kunnen onthullen. Door al je onderdelen goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
 
 
-### Wat is hoekcontrole?
+### Wat is muntcontrole?
 
 
-Het actieve gebruik van labeling wordt nog interessanter wanneer het gekoppeld wordt aan een muntcontroleoptie in je portfoliosoftware.
+Het actieve gebruik van labeling wordt nog interessanter wanneer het gekoppeld wordt aan een muntcontrole-optie in je wallet-software.
 
 
-Muntcontrole is een functie in goede Bitcoin wallet software, die je de mogelijkheid geeft om handmatig specifieke UTXO's te selecteren om te gebruiken als invoer om een transactie te voltooien. In feite moet je, om aan een uitvoerbetaling te voldoen, in ruil daarvoor een UTXO invoer consumeren. Om een aantal redenen, die we later zullen bespreken, wil je misschien precies kiezen welke onderdelen je als input wilt gebruiken om een bepaalde betaling te voldoen. Dit is precies wat je met muntcontrole kunt doen. Om je een analogie te geven, deze functie is vergelijkbaar met het kiezen van een specifieke munt uit je wallet wanneer je voor je stokbrood betaalt.
+Muntcontrole is een functie in goede Bitcoin-wallet-software, die je de mogelijkheid geeft om handmatig specifieke UTXO's te selecteren om te gebruiken als input om een transactie te voltooien. In feite moet je, om aan een output betaling te doen, een UTXO als input consumeren. Om een aantal redenen, die we later zullen bespreken, wil je misschien precies kiezen welke UTXo's je als input wilt gebruiken om een bepaalde betaling te voldoen. Dit is precies wat je met muntcontrole kunt doen. Om je een analogie te geven, deze functie is vergelijkbaar met het kiezen van een specifieke munt uit je wallet wanneer je voor je stokbrood betaalt.
 
 
 ![BTC204](assets/nl/075.webp)
 
 
-Het gebruik van portfoliosoftware met muntcontrole, gekoppeld aan UTXO labeling, stelt gebruikers in staat om UTXO's te onderscheiden en nauwkeurig te selecteren voor hun transacties.
+Het gebruik van wallet-software met muntcontrole, gekoppeld aan UTXO-labeling, stelt gebruikers in staat om UTXO's te onderscheiden en nauwkeurig te selecteren voor hun transacties.
 
 
 ### Hoe label je je UTXO's?
 
 
-Er is geen standaardmethode om UTXO's te labelen. Het is aan jou om een labelsysteem te definiëren dat gemakkelijk te begrijpen is voor jouw portefeuille. Houd in elk geval in gedachten dat een goede etikettering een etikettering is die je kunt begrijpen wanneer je hem nodig hebt. Als je Bitcoin wallet vooral bedoeld is om mee te sparen, heb je misschien tientallen jaren niets aan de labels. Zorg er dus voor dat ze duidelijk, precies en uitgebreid zijn.
+Er is geen standaardmethode om UTXO's te labelen. Het is aan jou om een labelsysteem te definiëren dat gemakkelijk te begrijpen is voor jouw wallet. Houd in elk geval in gedachten dat een goede labeling een labeling is die je kunt begrijpen wanneer je hem nodig hebt. Als je Bitcoin-wallet vooral bedoeld is om mee te sparen, heb je misschien tientallen jaren niets aan de labels. Zorg er dus voor dat ze duidelijk, precies en uitgebreid zijn.
 
 
-Het is belangrijk dat je dierbaren gemakkelijk de herkomst van het geld kunnen achterhalen als ze op een dag toegang moeten hebben tot je portefeuille. Dit zal hen helpen, zowel om redenen van vertrouwelijkheid als voor juridische doeleinden, mochten ze de herkomst van het geld moeten rechtvaardigen tegenover een autoriteit.
+Het is belangrijk dat je dierbaren gemakkelijk de herkomst van het geld kunnen achterhalen als ze op een dag toegang moeten hebben tot je wallet. Dit zal hen helpen, zowel om redenen van vertrouwelijkheid als voor juridische doeleinden, mochten ze de herkomst van het geld moeten rechtvaardigen tegenover een autoriteit.
 
 
-Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een exchange-platform? Een Invoice betaling van een klant? Een peer-to-peer Exchange? Of vertegenwoordigt het de exchange van een uitgave? U kunt bijvoorbeeld specificeren:
+Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een exchange-platform? Een invoice betaling van een klant? Een peer-to-peer exchange? Of vertegenwoordigt het de exchange (wisselgeld) van een uitgave? Je kunt bijvoorbeeld specificeren:
 
 
 
 
-- gW-433.com verwijderen` ;
-- klantbetaling David` ;
-- gW-434 Charles kopen` ;
-- `Wissel bank kopen`
+- `opnmame Exchange.com`;
+- `klantbetaling David`;
+- `P2P Charles aankoop`;
+- `change sofa aankoop`
 
 
 ![BTC204](assets/nl/076.webp)
 
 
-Om uw UTXO beheer te verfijnen en uw fondsscheidingsstrategieën binnen uw portefeuille te respecteren, kunt u uw labels verrijken met een extra indicator die deze scheidingen weergeeft. Als uw portefeuille twee categorieën UTXO bevat die u niet wilt mengen, kunt u een markering in uw labels opnemen om deze groepen duidelijk van elkaar te onderscheiden. Deze scheidingsmarkeringen zijn afhankelijk van je eigen criteria, zoals het onderscheid tussen UTXO's die voortkomen uit een overnameproces waarbij KYC betrokken is, of tussen professionele en persoonlijke fondsen. Als je de hierboven genoemde voorbeelden van labels neemt, zou dit zich kunnen vertalen in:
+Om je UTXO beheer te verfijnen en je fondsscheidingsstrategieën binnen je wallet te respecteren, kun je je labels verrijken met een extra indicator die deze scheidingen weergeeft. Als je wallet twee categorieën UTXO's bevat die je niet wilt mengen, kun je een markering in je labels opnemen om deze groepen duidelijk van elkaar te onderscheiden. Deze scheidingsmarkeringen zijn afhankelijk van je eigen criteria, zoals het onderscheid tussen UTXO's die voortkomen uit een overnameproces waarbij KYC betrokken is, of tussen professionele en persoonlijke fondsen. Als je de hierboven genoemde voorbeelden van labels neemt, zou dit zich kunnen vertalen in:
 
 
 
 
 - `KYC - Geldopname Exchange.com` ;
 - `KYC - Klantbetaling David` ;
-- `NO KYC - P2P Charles` kopen` ;
-- `NO KYC - Wijzig bank aankoop`
+- `NO KYC - P2P Charles` aankoop` ;
+- `NO KYC - Wisselgeld sofa aankoop`
 
 
 ![BTC204](assets/nl/077.webp)
 
 
-Het is ook raadzaam om de labeling van een onderdeel in de loop van transacties te bestendigen. Als je bijvoorbeeld UTXO no-KYC consolideert, zorg er dan voor dat je de resulterende UTXO niet alleen markeert als `consolidatie`, maar specifiek als `consolidatie no-KYC` om duidelijk bij te houden waar de munten vandaan komen.
+Het is ook raadzaam om de labeling van een UTXO in de loop van transacties te bestendigen. Als je bijvoorbeeld UTXO no-KYC consolideert, zorg er dan voor dat je de resulterende UTXO niet alleen markeert als `consolidatie`, maar specifiek als `consolidatie no-KYC` om duidelijk bij te houden waar de munten vandaan komen.
 
 
-Tot slot is het niet verplicht om een datum op een etiket te zetten. De meeste wallet software geeft de transactiedatum al weer, en het is altijd mogelijk om deze informatie op een block explorer te vinden dankzij de txid.
+Tot slot is het niet verplicht om een datum op een etiket te zetten. De meeste wallet-software geeft de transactiedatum al weer, en het is altijd mogelijk om deze informatie op een block explorer te vinden dankzij de txid.
 
 
-### Hoe kies je de juiste onderdelen?
+### Hoe kies je de juiste UTXO's?
 
 
 Wanneer je een transactie uitvoert, kun je met de muntcontrole specifiek kiezen welke UTXO's je wilt gebruiken als invoer om aan de betalingsuitvoer te voldoen. Deze keuze heeft twee aspecten:
@@ -1801,7 +1801,7 @@ https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 KYC staat voor "Ken Uw Klant". Het is een regelgevingsprocedure die wordt toegepast door bepaalde bedrijven die actief zijn in de Bitcoin sector. Het doel van deze procedure is het verifiëren en registreren van de identiteit van hun klanten, met het verklaarde doel om het witwassen van geld en de financiering van terrorisme tegen te gaan.
 
 
-Praktisch gezien houdt KYC in dat er verschillende persoonlijke gegevens van de klant worden verzameld, die per jurisdictie kunnen verschillen, maar over het algemeen ID, foto en bewijs van Address omvatten. Deze informatie wordt vervolgens geverifieerd en opgeslagen voor toekomstig gebruik.
+Praktisch gezien houdt KYC in dat er verschillende persoonlijke gegevens van de klant worden verzameld, die per jurisdictie kunnen verschillen, maar over het algemeen ID, foto en bewijs van adres omvatten. Deze informatie wordt vervolgens geverifieerd en opgeslagen voor toekomstig gebruik.
 
 
 Deze procedure is verplicht geworden voor alle gereguleerde Exchange platforms in de meeste westerse landen. Dit betekent dat iedereen die Exchange staatsvaluta's voor Bitcoin via deze platforms wil wisselen, moet voldoen aan de KYC-eisen.
@@ -2395,7 +2395,7 @@ Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar z
 
 
 
-- In ruil voor het verbruiken van deze inputs, genereert elk een lege Address om vijf identieke outputs van elk 100.000 Sats te maken. Elk haalt één output op:
+- In ruil voor het verbruiken van deze inputs, genereert elk een ongebruikt adres om vijf identieke outputs van elk 100.000 Sats te maken. Elk haalt één output op:
 
 
 ![BTC204](assets/nl/113.webp)
@@ -2433,7 +2433,7 @@ CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken 
 
 
 
-- In ruil voor het verbruik van deze inputs levert elke gebruiker een lege Address die gebruikt kan worden om 5 outputs van 97.500 perfect gelijke Sats te maken. Elke gebruiker krijgt één output:
+- In ruil voor het verbruik van deze inputs levert elke gebruiker een ongebruikt adres die gebruikt kan worden om 5 outputs van 97.500 perfect gelijke Sats te maken. Elke gebruiker krijgt één output:
 
 
 ![BTC204](assets/nl/117.webp)
@@ -2533,7 +2533,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice stuurt de coördinator de UTXO die ze wil gebruiken als invoer voor de transactie, evenals de gemaskeerde ontvangst Address die ze wil gebruiken als output om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de Address van Alice weten. Hij ziet alleen haar gemaskerde versie:
+- Alice stuurt de coördinator de UTXO die ze wil gebruiken als invoer voor de transactie, evenals de gemaskeerde ontvangst adres die ze wil gebruiken als output om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de adres van Alice weten. Hij ziet alleen haar gemaskerde versie:
 
 
 ![BTC204](assets/nl/124.webp)
@@ -2541,7 +2541,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- De coördinator controleert de geldigheid van de ingangen en ondertekent dan de gemaskeerde Address van Alice met zijn privésleutel. Hij stuurt de blinde handtekening terug naar Alice:
+- De coördinator controleert de geldigheid van de ingangen en ondertekent dan de gemaskeerde adres van Alice met zijn privésleutel. Hij stuurt de blinde handtekening terug naar Alice:
 
 
 ![BTC204](assets/nl/125.webp)
@@ -2552,7 +2552,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice kan haar Address ontmaskeren, nu ondertekend door de private sleutel van de coördinator. Ze maakt een nieuwe verbinding onder een andere Tor-identiteit. De coördinator kan niet zien dat het Alice is die verbinding maakt onder deze nieuwe identiteit:
+- Alice kan haar adres ontmaskeren, nu ondertekend door de private sleutel van de coördinator. Ze maakt een nieuwe verbinding onder een andere Tor-identiteit. De coördinator kan niet zien dat het Alice is die verbinding maakt onder deze nieuwe identiteit:
 
 
 ![BTC204](assets/nl/126.webp)
@@ -2560,7 +2560,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice stuurt de ongemaskeerde Address en handtekening naar de coördinator (die nog steeds niet weet dat het Alice is):
+- Alice stuurt de ongemaskeerde adres en handtekening naar de coördinator (die nog steeds niet weet dat het Alice is):
 
 
 ![BTC204](assets/nl/127.webp)
@@ -2608,7 +2608,7 @@ Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het 
 Het is Hard om met zekerheid te zeggen wie het CoinJoin idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de Address waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
+> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de adres waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
 Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2645,7 +2645,7 @@ Een belangrijke preventieve maatregel van Zerolink is om ongemengde UTXO's volle
 ![BTC204](assets/nl/134.webp)
 
 
-Deze strikte scheiding van UTXO's dient vooral om toevallige koppelingen tussen een gemengde UTXO en een ongemengde UTXO te voorkomen. Als zulke koppelingen namelijk voorkomen, wordt de effectiviteit van de CoinJoin op de gemengde UTXO geannuleerd zonder dat de gebruiker zich daarvan bewust is, waardoor de vertrouwelijkheid van een UTXO wordt aangetast waarvan hij dacht dat hij de geschiedenis had verbroken. Deze verbanden kunnen ontstaan door hergebruik van Address bij het veiligstellen van een gemengde UTXO met een ongemengde, of door de toepassing van CIOH (_Common-Input-Ownership Heuristic_), als de gebruiker gemengde en ongemengde UTXO's gebruikt als invoer voor dezelfde transactie. Door de pre-mix en post-mix portefeuilles te scheiden, voorkomen we zulke toevallige associaties en beschermen we de gebruiker tegen onbedoelde fouten.
+Deze strikte scheiding van UTXO's dient vooral om toevallige koppelingen tussen een gemengde UTXO en een ongemengde UTXO te voorkomen. Als zulke koppelingen namelijk voorkomen, wordt de effectiviteit van de CoinJoin op de gemengde UTXO geannuleerd zonder dat de gebruiker zich daarvan bewust is, waardoor de vertrouwelijkheid van een UTXO wordt aangetast waarvan hij dacht dat hij de geschiedenis had verbroken. Deze verbanden kunnen ontstaan door hergebruik van adres bij het veiligstellen van een gemengde UTXO met een ongemengde, of door de toepassing van CIOH (_Common-Input-Ownership Heuristic_), als de gebruiker gemengde en ongemengde UTXO's gebruikt als invoer voor dezelfde transactie. Door de pre-mix en post-mix portefeuilles te scheiden, voorkomen we zulke toevallige associaties en beschermen we de gebruiker tegen onbedoelde fouten.
 
 
 ![BTC204](assets/nl/135.webp)
@@ -2760,7 +2760,7 @@ Persoonlijk vind ik dat het buitenlandse Exchange-beheer van Wabisabi verschille
 - Deze methode genereert ook UTXO's met een lage waarde die een beheersprobleem vormen voor de gebruiker. Deze kleine UTXO's kunnen, als ze te duur worden om uit te geven in verhouding tot hun waarde, "Dust" worden. Dit fenomeen leidt ertoe dat de gebruiker verschillende UTXO's samenvoegt tot inputs voor toekomstige transacties, of ze consolideert. In beide gevallen kan dit, vanwege het CIOH, de verkregen anonimiteit verminderen, of de vertrouwelijkheidsvoordelen verkregen door de initiële CoinJoin volledig teniet doen.
 
 
-In tegenstelling tot Whirlpool, dat het ZeroLink protocol implementeert dat een strikte scheiding tussen pre-mix en post-mix UTXO's garandeert, handhaaft Wabisabi deze strikte scheiding niet. Er zijn ook problemen geweest met hergebruik van Address door sommige Wasabi-klanten, wat uiteraard zeer nadelig is voor de gebruiker.
+In tegenstelling tot Whirlpool, dat het ZeroLink protocol implementeert dat een strikte scheiding tussen pre-mix en post-mix UTXO's garandeert, handhaaft Wabisabi deze strikte scheiding niet. Er zijn ook problemen geweest met hergebruik van adres door sommige Wasabi-klanten, wat uiteraard zeer nadelig is voor de gebruiker.
 
 
 In Wasabi versie 2.0 is een nieuw CoinJoin vergoedingenbeleid geïmplementeerd. Vanaf nu zijn de coördinatorvergoedingen vastgesteld op 0,3% voor UTXO's boven 0,01 Bitcoin, terwijl voor kleinere UTXO's deze vergoedingen volledig worden aangeboden. Bovendien zijn remixen voor deze kleinere UTXO's gratis, hoewel de gebruiker Mining vergoedingen blijft betalen voor alle transacties, inclusief remixen.
@@ -2944,7 +2944,7 @@ In feite zijn in elke Whirlpool CoinJoin 2 gebruikers onder de inputs nieuwkomer
 Dankzij dit vergoedingensysteem onderscheidt Whirlpool zich echt van andere CoinJoin implementaties, omdat de anonimiteit van de UTXO's niet evenredig is met de prijs die de gebruiker betaalt. Hierdoor is het mogelijk om aanzienlijk hogere niveaus van anonimiteit te bereiken door alleen de pool entry fee en de Mining fee te betalen voor 2 transacties (de `Tx0` en de initiële mix).
 
 
-Het is belangrijk op te merken dat de gebruiker ook de Mining kosten zal moeten betalen om zijn UTXO's uit de pool te halen na het voltooien van zijn meervoudige coinjoins, tenzij hij de `mix to` optie heeft geselecteerd, die een externe Address biedt die de fondsen direct uit CoinJoin zal ontvangen, zonder extra transactie.
+Het is belangrijk op te merken dat de gebruiker ook de Mining kosten zal moeten betalen om zijn UTXO's uit de pool te halen na het voltooien van zijn meervoudige coinjoins, tenzij hij de `mix to` optie heeft geselecteerd, die een externe adres biedt die de fondsen direct uit CoinJoin zal ontvangen, zonder extra transactie.
 
 
 ### HD-portefeuilleaccounts
@@ -3065,13 +3065,13 @@ Het samenvoegen van UTXO's is de meest voorkomende fout. Om CIOH (*Common-Input-
 ![BTC204](assets/nl/154.webp)
 
 
-Voorzichtigheid is ook geboden bij het consolideren van gemengde UTXO's. Matige consolidatie is mogelijk als je gemengde UTXO's significante anonsets hebben, maar dit zal onvermijdelijk de vertrouwelijkheid van je onderdelen verminderen. Zorg ervoor dat consolidaties niet te uitgebreid zijn of na een onvoldoende aantal remixen worden uitgevoerd, met het risico dat er afleidbare verbanden ontstaan tussen uw UTXO's voor en na CoinJoin cycli. Bij twijfel over deze manipulaties is de beste praktijk om UTXO's na het mengen niet te consolideren, maar ze één voor één over te brengen naar uw Hardware wallet, en telkens een nieuwe lege Address te genereren. Nogmaals, vergeet niet elke UTXO die u ontvangt te labelen.
+Voorzichtigheid is ook geboden bij het consolideren van gemengde UTXO's. Matige consolidatie is mogelijk als je gemengde UTXO's significante anonsets hebben, maar dit zal onvermijdelijk de vertrouwelijkheid van je onderdelen verminderen. Zorg ervoor dat consolidaties niet te uitgebreid zijn of na een onvoldoende aantal remixen worden uitgevoerd, met het risico dat er afleidbare verbanden ontstaan tussen uw UTXO's voor en na CoinJoin cycli. Bij twijfel over deze manipulaties is de beste praktijk om UTXO's na het mengen niet te consolideren, maar ze één voor één over te brengen naar uw Hardware wallet, en telkens een nieuwe ongebruikt adres te genereren. Nogmaals, vergeet niet elke UTXO die u ontvangt te labelen.
 
 
 Het is ook niet aan te raden om je postmix UTXOs naar een wallet over te brengen met scripts die niet veel gebruikt worden. Als je bijvoorbeeld Whirlpool van een Multisig wallet invoert met behulp van `P2WSH` scripts, is de kans klein dat je gemengd wordt met andere gebruikers die oorspronkelijk hetzelfde type wallet hadden. Als u uw postmixen opnieuw mengt naar deze zelfde Multisig wallet, zal het niveau van vertrouwelijkheid van uw gemengde bitcoins sterk afnemen. Naast scripts zijn er nog veel meer wallet vingerafdrukken die u voor de gek kunnen houden.
 
 
-Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangstadres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, lege Address.
+Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangstadres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, leeg adres.
 
 
 De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer u ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen u om fouten te vermijden.
@@ -3548,7 +3548,7 @@ Het was ook mogelijk om de KYCP.org website te gebruiken voor deze analyses:
 Na de arrestatie van de oprichters van Samourai zijn deze tools helaas niet meer operationeel.
 
 
-Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische Address protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
+Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische adres protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
 
 
 
@@ -3771,7 +3771,7 @@ En wat bijzonder interessant is aan de structuur van de Stonewall-transactie is 
 Stonewall x2 is een andere specifieke vorm van Bitcoin-transactie die er ook op gericht is om de vertrouwelijkheid van de gebruiker te vergroten bij het doen van een uitgave, maar deze keer door samen te werken met een derde persoon die niet betrokken is bij die uitgave. Deze methode werkt als een pseudo-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
 
 
-De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de Address van de begunstigde, de andere voor een Address van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een Address van ons, die de betaling Exchange vormt.
+De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling Exchange vormt.
 
 
 In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
@@ -3983,7 +3983,7 @@ De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op
 ![BTC204](assets/nl/198.webp)
 
 
-Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk om bitcoins handmatig te ricochetten op elke wallet software, zonder een gespecialiseerde tool te gebruiken. Het enige wat je hoeft te doen is achtereenvolgens dezelfde munt naar jezelf overmaken, waarbij je telkens een nieuwe, lege Address gebruikt.
+Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk om bitcoins handmatig te ricochetten op elke wallet software, zonder een gespecialiseerde tool te gebruiken. Het enige wat je hoeft te doen is achtereenvolgens dezelfde munt naar jezelf overmaken, waarbij je telkens een nieuwe, ongebruikt adres gebruikt.
 
 
 In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van eigenaar. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
@@ -4196,10 +4196,10 @@ In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt te
 Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion voorstel. Dit broadcast protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
 
 
-Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP Address (als het knooppunt opereert op het clearnet), wat een ingang zou kunnen bieden voor ketenanalyse.
+Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een ingang zou kunnen bieden voor ketenanalyse.
 
 
-Deze associatie tussen activiteit op Bitcoin en een IP Address vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP Address gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP Address en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
+Deze associatie tussen activiteit op Bitcoin en een IP adres vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP adres gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP adres en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
 
 
 In de klassieke Bitcoin werking worden transacties die door een gebruiker op zijn wallet software zijn gemaakt, naar zijn persoonlijke knooppunt gestuurd. Dit knooppunt zendt de nieuwe transactie onmiddellijk naar alle peers waarmee het verbonden is.
@@ -4220,7 +4220,7 @@ Deze verdeling van transacties die wachten op integratie in een blok is redelijk
 ![BTC204](assets/nl/210.webp)
 
 
-Het doel van BIP156 is om Address dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stam"-fase waarbij de transactie door een willekeurig pad van knooppunten wordt gestuurd.
+Het doel van BIP156 is om adres dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stam"-fase waarbij de transactie door een willekeurig pad van knooppunten wordt gestuurd.
 
 
 ![BTC204](assets/nl/211.webp)
@@ -4283,7 +4283,7 @@ Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindinge
 ![BTC204](assets/nl/215.webp)
 
 
-Tor versleutelt niet alleen gegevens, maar maskeert ook de herkomst en bestemming van communicatie. Door Tor te gebruiken voor communicatie vanaf je persoonlijke knooppunt, versterk je de vertrouwelijkheid van je transacties: je ISP kan de communicatie niet ontsleutelen en andere knooppunten in het Bitcoin netwerk kunnen het IP van het bronknooppunt Address niet identificeren. Bovendien verbergt Tor ook jouw gebruik van Bitcoin voor je ISP.
+Tor versleutelt niet alleen gegevens, maar maskeert ook de herkomst en bestemming van communicatie. Door Tor te gebruiken voor communicatie vanaf je persoonlijke knooppunt, versterk je de vertrouwelijkheid van je transacties: je ISP kan de communicatie niet ontsleutelen en andere knooppunten in het Bitcoin netwerk kunnen het IP van het bronknooppunt adres niet identificeren. Bovendien verbergt Tor ook jouw gebruik van Bitcoin voor je ISP.
 
 
 Het grootste risico van deze methode is dat Tor een protocol is dat onafhankelijk is van Bitcoin. Als je een Bitcoin node hebt die onder Tor draait en Tor stopt met werken, dan kan je Bitcoin node niet meer communiceren.
@@ -4292,7 +4292,7 @@ Het grootste risico van deze methode is dat Tor een protocol is dat onafhankelij
 Het is ook belangrijk om te weten dat de communicatie op Tor langzamer is. Deze latentie is vooral vervelend tijdens de initiële lancering van een node, omdat IBD (*Initial Block Download*) veel communicatie vereist. Als gevolg hiervan kan je initiële synchronisatie met het Bitcoin netwerk aanzienlijk langer duren als je Tor gebruikt. Het is ook mogelijk om IBD uit te voeren op het clearnet en dan Tor te activeren als tweede stap. Hoewel deze methode het bestaan van je Bitcoin node onthult aan je ISP, beschermt het je persoonlijke transactie informatie zodra je overschakelt naar Tor.
 
 
-Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkniveau, wil ik je in de volgende hoofdstukken ook kennis laten maken met twee elegante oplossingen om hergebruik van Address te voorkomen: BIP47 en Stille Betalingen.
+Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkniveau, wil ik je in de volgende hoofdstukken ook kennis laten maken met twee elegante oplossingen om hergebruik van adres te voorkomen: BIP47 en Stille Betalingen.
 
 
 ## BIP47 en herbruikbare betaalcodes
@@ -4304,13 +4304,13 @@ Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkn
 
 
 
-Zoals we in deel 3 zagen, is hergebruik van Address een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin protocol. Om deze risico's te beperken, is het sterk aanbevolen om generate een lege ontvangstadres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuwe Address nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
+Zoals we in deel 3 zagen, is hergebruik van adres een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin protocol. Om deze risico's te beperken, is het sterk aanbevolen om generate een lege ontvangstadres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuwe adres nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
 
 
 ![BTC204](assets/nl/216.webp)
 
 
-In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen, dat altijd hetzelfde blijft. Als we het eenmaal aan iemand hebben gegeven, kunnen ze ons meerdere betalingen sturen zonder opnieuw contact met ons op te hoeven nemen. Neo-banken bieden ook modernere mogelijkheden, zoals het gebruik van unieke e-mailadressen bij PayPal of RevTags bij Revolut. Zelfs buiten de financiële sfeer zijn onze dagelijkse identificaties zoals ons postnummer Address, telefoonnummer en e-mailadres Address ook uniek en permanent. We hoeven ze niet te vernieuwen voor elke nieuwe interactie.
+In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen, dat altijd hetzelfde blijft. Als we het eenmaal aan iemand hebben gegeven, kunnen ze ons meerdere betalingen sturen zonder opnieuw contact met ons op te hoeven nemen. Neo-banken bieden ook modernere mogelijkheden, zoals het gebruik van unieke e-mailadressen bij PayPal of RevTags bij Revolut. Zelfs buiten de financiële sfeer zijn onze dagelijkse identificaties zoals ons postnummer adres, telefoonnummer en e-mailadres adres ook uniek en permanent. We hoeven ze niet te vernieuwen voor elke nieuwe interactie.
 
 
 ![BTC204](assets/nl/217.webp)
@@ -4322,7 +4322,7 @@ Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuwe ontv
 **Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar.**
 
 
-Er zijn veel manieren om meerdere betalingen te ontvangen op een enkele identifier zonder een Address opnieuw te hoeven gebruiken. Elke methode heeft zijn eigen voor- en nadelen. Een van deze methoden is BIP47, een voorstel ontwikkeld door Justus Ranvier en gepubliceerd in 2015. Dit voorstel is gericht op het creëren van herbruikbare betaalcodes waarmee meerdere transacties tegen dezelfde persoon kunnen worden uitgevoerd, terwijl hergebruik van Address wordt vermeden. Kortom, BIP47 wil een betalingssysteem bieden dat net zo intuïtief is als een unieke identificatiecode, terwijl de vertrouwelijkheid van transacties behouden blijft.
+Er zijn veel manieren om meerdere betalingen te ontvangen op een enkele identifier zonder een adres opnieuw te hoeven gebruiken. Elke methode heeft zijn eigen voor- en nadelen. Een van deze methoden is BIP47, een voorstel ontwikkeld door Justus Ranvier en gepubliceerd in 2015. Dit voorstel is gericht op het creëren van herbruikbare betaalcodes waarmee meerdere transacties tegen dezelfde persoon kunnen worden uitgevoerd, terwijl hergebruik van adres wordt vermeden. Kortom, BIP47 wil een betalingssysteem bieden dat net zo intuïtief is als een unieke identificatiecode, terwijl de vertrouwelijkheid van transacties behouden blijft.
 
 
 ![BTC204](assets/nl/218.webp)
@@ -4337,13 +4337,13 @@ Aanvankelijk werd BIP47 voorgesteld voor integratie in Bitcoin Core, maar het we
 ### Algemeen principe van BIP47 en PayNym
 
 
-Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te ontvangen zonder adressen te hergebruiken. Het is gebaseerd op het gebruik van een herbruikbare betaalcode, waardoor verschillende emittenten meerdere betalingen kunnen sturen naar één code die toebehoort aan een andere gebruiker. Hierdoor hoeft de ontvanger niet voor elke transactie een nieuwe, blanco Address op te geven, wat uitwisselingen aanzienlijk vergemakkelijkt terwijl de vertrouwelijkheid behouden blijft.
+Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te ontvangen zonder adressen te hergebruiken. Het is gebaseerd op het gebruik van een herbruikbare betaalcode, waardoor verschillende emittenten meerdere betalingen kunnen sturen naar één code die toebehoort aan een andere gebruiker. Hierdoor hoeft de ontvanger niet voor elke transactie een nieuwe, blanco adres op te geven, wat uitwisselingen aanzienlijk vergemakkelijkt terwijl de vertrouwelijkheid behouden blijft.
 
 
 ![BTC204](assets/nl/219.webp)
 
 
-Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventionele ontvanger Address of publieke sleutel.
+Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventionele ontvanger adres of publieke sleutel.
 
 
 Om een transactie uit te voeren, moeten beide partijen een Bitcoin-wallet bezitten met een implementatie van BIP47, zoals PayNym op Ashigaru of Sparrow wallet. Het gezamenlijk gebruik van hun betalingscodes creëert een geheime kanaal tussen hen. Om dit kanaal doeltreffend tot stand te brengen, moet de verzender een specifieke transactie uitvoeren op de Bitcoin-blockchain, bekend als de "kennisgevingstransactie" (de details zal ik u later geven).
@@ -4374,7 +4374,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 ```
 
 
-Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventionele ontvangst Address.
+Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventionele ontvangst adres.
 
 
 Wat betreft de PayNym Bots – de robots die men soms ziet op X (Twitter) – het zijn visuele voorstellingen van de betalingscode, gecreëerd door Samourai wallet. Met Ashigaru zijn ze nu enigszins anders, maar het principe blijft hetzelfde. Ze worden gegenereerd via een hashfunctie, wat hen een bijna-uniciteit verleent. Ze verschijnen als een kleine tekenreeks die begint met `+` :
@@ -4775,7 +4775,7 @@ De betaalcode zelf vormt geen direct risico voor de vertrouwelijkheid. In tegens
 Dit komt omdat de betaalcode niet wordt gebruikt om de adressen die BIP47-betalingen ontvangen rechtstreeks af te leiden. In plaats daarvan worden deze adressen via de ECDH-toepassing gegenereerd tussen de sleutels die zijn afgeleid van de betalingscodes van de twee betrokken partijen.
 
 
-Een betaalcode op zich leidt dus niet direct tot verlies van vertrouwelijkheid, omdat alleen de melding Address ervan wordt afgeleid. Hoewel deze Address bepaalde informatie kan onthullen, onthult het normaal gesproken niet met welke partijen je een transactie doet, tenzij er een grondige ketenanalyse wordt uitgevoerd. Immers, als de verzender UTXO's gebruikt die aan zijn identiteit kunnen worden gekoppeld om de meldingstransactie uit te voeren, dan wordt het mogelijk om af te leiden dat zijn identiteit waarschijnlijk is gekoppeld aan BIP47-betalingen aan jouw betaalcode. Dit onthult niet de onderliggende transacties, maar geeft wel aan dat ze waarschijnlijk bestaan.
+Een betaalcode op zich leidt dus niet direct tot verlies van vertrouwelijkheid, omdat alleen de melding adres ervan wordt afgeleid. Hoewel dit adres bepaalde informatie kan onthullen, onthult het normaal gesproken niet met welke partijen je een transactie doet, tenzij er een grondige ketenanalyse wordt uitgevoerd. Immers, als de verzender UTXO's gebruikt die aan zijn identiteit kunnen worden gekoppeld om de meldingstransactie uit te voeren, dan wordt het mogelijk om af te leiden dat zijn identiteit waarschijnlijk is gekoppeld aan BIP47-betalingen aan jouw betaalcode. Dit onthult niet de onderliggende transacties, maar geeft wel aan dat ze waarschijnlijk bestaan.
 
 
 Het is daarom essentieel om deze strikte scheiding tussen de betalingscodes van gebruikers te handhaven. Met dit in gedachten is de eerste communicatie van de code een kritiek moment voor de vertrouwelijkheid van de betaling, maar wel een moment dat essentieel is voor de goede werking van het protocol. Als een van de betaalcodes openbaar kan worden verkregen (zoals op een website), mag de tweede code, die van de verzender, in geen geval worden gekoppeld aan de eerste.
@@ -4801,7 +4801,7 @@ In het onderstaande diagram geven de oranje lijnen de punten aan waar de informa
 ![BTC204](assets/nl/231.webp)
 
 
-In werkelijkheid is het in het traditionele vertrouwelijkheidsmodel van Bitcoin vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een Address of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de Layer encryptie die we later zullen bekijken.
+In werkelijkheid is het in het traditionele vertrouwelijkheidsmodel van Bitcoin vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een adres of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de Layer encryptie die we later zullen bekijken.
 
 
 Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
@@ -4821,7 +4821,7 @@ Laten we nu eens kijken hoe deze kennisgevingstransactie werkt. Stel dat Alice g
 
 
 
-- Ze selecteert een sleutelpaar van haar HD wallet op een andere tak dan haar betaalcode. Merk op dat dit paar niet gemakkelijk geassocieerd kan worden met Alice's kennisgeving Address, noch met Alice's identiteit (zie vorige sectie);
+- Ze selecteert een sleutelpaar van haar HD wallet op een andere tak dan haar betaalcode. Merk op dat dit paar niet gemakkelijk geassocieerd kan worden met Alice's kennisgeving adres, noch met Alice's identiteit (zie vorige sectie);
 - Alice selecteert de privésleutel voor dit paar. We noemen het $a$ (kleine letters);
 
 
@@ -4832,7 +4832,7 @@ $$
 
 
 
-- Alice haalt de openbare sleutel op die hoort bij Bob's kennisgeving Address. Deze sleutel is het eerste kind dat is afgeleid van de betalingscode van Bob (index $/0$). We noemen deze openbare sleutel $B$ (hoofdletters). De privésleutel die bij deze openbare sleutel hoort, heet $b$ (kleine letters). $B$ wordt bepaald door het optellen en verdubbelen van punten op de elliptische curve van $G$ (het genererende punt) met $b$ (de privésleutel):
+- Alice haalt de openbare sleutel op die hoort bij Bob's kennisgeving adres. Deze sleutel is het eerste kind dat is afgeleid van de betalingscode van Bob (index $/0$). We noemen deze openbare sleutel $B$ (hoofdletters). De privésleutel die bij deze openbare sleutel hoort, heet $b$ (kleine letters). $B$ wordt bepaald door het optellen en verdubbelen van punten op de elliptische curve van $G$ (het genererende punt) met $b$ (de privésleutel):
 
 
 $$ B = b \dot G $$
@@ -4884,7 +4884,7 @@ $$ c' = c \oplus f2 $$
 - Alice vervangt de werkelijke waarden van de openbare sleutel abscis $x$ en de stringcode $c$ in haar betalingscode door de versleutelde waarden $x'$ en $c'$.
 
 
-**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als invoer, een output naar Bob's kennisgeving Address, en een output `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
+**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als invoer, een output naar Bob's kennisgeving adres, en een output `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
 
 
 Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
@@ -4898,7 +4898,7 @@ Ik zal de stappen die we net hebben gezien samenvatten om een meldingstransactie
 
 
 
-- Alice haalt de betalingscode van Bob op en meldt Address;
+- Alice haalt de betalingscode van Bob op en meldt adres;
 - Alice selecteert een UTXO uit haar HD-portfolio met het bijbehorende sleutelpaar;
 - Het berekent een geheim punt op de elliptische curve met ECDH ;
 - Het gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
@@ -4924,7 +4924,7 @@ Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele ingang
 
 
 - De eerste output is de `OP_RETURN` die mijn verborgen betalingscode bevat;
-- De tweede uitgang van 546 Sats wijst naar de melding Address van mijn ontvanger;
+- De tweede uitgang van 546 Sats wijst naar de melding adres van mijn ontvanger;
 - De derde output van 15.000 Sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
 - De vierde uitgang van 2 miljoen Sats vertegenwoordigt de wisselkoers, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
 
@@ -5109,10 +5109,10 @@ Ten tweede lijkt deze versleutelingsmethode erg op het Vernam (One-Time Pad) cij
 Nu Alice de kennisgevingstransactie naar Bob heeft gestuurd, laten we eens kijken hoe Bob deze interpreteert. Ter herinnering, Bob moet toegang hebben tot Alice's betalingscode. Zonder deze informatie, zoals we in de volgende paragraaf zullen zien, zal hij niet in staat zijn om de sleutelparen af te leiden die Alice heeft gemaakt, en zal hij dus geen toegang hebben tot zijn bitcoins die hij via BIP47 heeft ontvangen. Op dit moment is de payload van Alice's betalingscode versleuteld. Laten we eens kijken hoe Bob het ontcijfert.
 
 
-**1-** Bob bewaakt transacties die outputs creëren met zijn melding Address.
+**1-** Bob bewaakt transacties die outputs creëren met zijn melding adres.
 
 
-**2-** Wanneer een transactie een Address output op haar melding heeft, analyseert Bob deze om te zien of ze een OP_RETURN output bevat die voldoet aan de BIP47 standaard.
+**2-** Wanneer een transactie een adres output op haar melding heeft, analyseert Bob deze om te zien of ze een OP_RETURN output bevat die voldoet aan de BIP47 standaard.
 
 
 **3-** Als de eerste byte van de OP_RETURN payload `0x01` is, begint Bob zijn zoektocht naar een mogelijk geheim gedeeld met ECDH :
@@ -5128,7 +5128,7 @@ $$ A = a \dot G $$
 
 
 
-- Bob selecteert de privésleutel $b$ die geassocieerd is met zijn persoonlijke melding Address :
+- Bob selecteert de privésleutel $b$ die geassocieerd is met zijn persoonlijke melding adres :
 
 
 $$ b $$
@@ -5232,7 +5232,7 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een meldingstransa
 
 
 
-- Bob controleert de output van transacties naar zijn melding Address;
+- Bob controleert de output van transacties naar zijn melding adres;
 - Wanneer het er een detecteert, haalt het de informatie uit de OP_RETURN;
 - Bob selecteert de openbare sleutel als invoer en berekent een geheim punt met ECDH ;
 - Het gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
@@ -5260,12 +5260,12 @@ Voordat ik dit proces uitleg, denk ik dat het belangrijk is om te onthouden aan 
 
 
 
-- Het eerste normale (niet-versterkte) dochterpaar is het paar dat gebruikt is voor generate de melding Address besproken in de vorige sectie: `m/47'/0'/0'/0` ;
+- Het eerste normale (niet-versterkte) dochterpaar is het paar dat gebruikt is voor generate de melding adres besproken in de vorige sectie: `m/47'/0'/0'/0` ;
 - Normale dochter sleutelparen worden gebruikt binnen ECDH om generate BIP47 betalingsontvangst adressen, zoals we zullen zien in deze sectie: van `m/47'/0'/0'/0` tot `m/47'/0'/0'/2,147,483,647` ;
 - Versterkte dochtersleutelparen zijn kortstondige betalingscodes: van `m/47'/0'/0'/0'` tot `m/47'/0'/0'/2,147,483,647'`.
 
 
-Elke keer dat Alice een betaling naar Bob wil sturen, leidt ze een nieuwe, unieke, lege Address af, wederom met behulp van het ECDH-protocol:
+Elke keer dat Alice een betaling naar Bob wil sturen, leidt ze een nieuwe, unieke, ongebruikt adres af, wederom met behulp van het ECDH-protocol:
 
 
 
@@ -5305,7 +5305,7 @@ $$ s = \text{SHA256}(Sx) $$
 
 
 
-- Alice gebruikt dit gedeelde geheim $s$ om een ontvangstbetaling Address voor Bitcoin te berekenen. Eerst controleert ze of $s$ in de orde van de secp256k1-curve zit. Als dit niet het geval is, verhoogt ze de openbare sleutelindex van Bob om een ander gedeeld geheim af te leiden;
+- Alice gebruikt dit gedeelde geheim $s$ om een ontvangstbetaling adres voor Bitcoin te berekenen. Eerst controleert ze of $s$ in de orde van de secp256k1-curve zit. Als dit niet het geval is, verhoogt ze de openbare sleutelindex van Bob om een ander gedeeld geheim af te leiden;
 - In een tweede stap berekent ze een openbare sleutel $K0$ door de punten $B$ en $s-G$ op de elliptische curve bij elkaar op te tellen. Met andere woorden, Alice voegt de openbare sleutel die is afgeleid van Bob's betalingscode $B$ toe aan een ander punt dat is berekend op de elliptische curve door punten toe te voegen en te verdubbelen met het gedeelde geheim $s$ van het secp256k1 curve generator punt $G$. Dit nieuwe punt vertegenwoordigt een openbare sleutel en we noemen het $K0$ :
 
 
@@ -5314,10 +5314,10 @@ $$ K0 = B + s ≤ G $$
 
 
 
-- Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van Address afleiden (bijv. SegWit V0 in bech32).
+- Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van adres afleiden (bijv. SegWit V0 in bech32).
 
 
-Zodra Alice de $K0$ ontvangstadres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
+Zodra Alice de $K0$ ontvangstadres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ adres te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
 
 
 Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te verzenden:
@@ -5331,7 +5331,7 @@ Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te 
 - Ze gebruikt dit gedeelde geheim om een nieuw geheim punt op de elliptische curve te berekenen;
 - Ze voegt dit nieuwe geheime punt toe aan de publieke sleutel van Bob;
 - Ze verkrijgt een nieuwe efemere publieke sleutel waarvan alleen Bob de bijbehorende privésleutel heeft;
-- Alice kan een klassieke transactie maken naar Bob met de afgeleide efemere ontvangst Address.
+- Alice kan een klassieke transactie maken naar Bob met de afgeleide efemere ontvangst adres.
 
 
 ![BTC204](assets/nl/236.webp)
@@ -5363,7 +5363,7 @@ Het ziet eruit als een klassieke transactie met een verbruikte invoer, een betal
 ### Ontvangst van BIP47-betaling en afleiden van privésleutel
 
 
-Alice heeft zojuist haar eerste betaling gedaan aan een lege BIP47 Address van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de private sleutel van het adres die ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
+Alice heeft zojuist haar eerste betaling gedaan aan een lege BIP47 adres van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de private sleutel van het adres die ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
 
 
 Zodra Bob de kennisgevingstransactie van Alice ontvangt, leidt hij de openbare sleutel BIP47 $K0$ af, nog voordat zijn correspondent een betaling heeft verzonden. Hij neemt dus elke betaling aan het geassocieerde adres waar. In feite leidt hij onmiddellijk verschillende adressen af die hij observeert ($K0$, $K1$, $K2$, $K3$...). Dit is hoe hij deze publieke sleutel $K0$ afleidt:
@@ -5443,7 +5443,7 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een BIP47 betaling
 ![BTC204](assets/nl/239.webp)
 
 
-Aangezien Alice niet aan $b$ (de privésleutel van Bob) kan komen, is ze niet in staat om $k0$ (de privésleutel van Bob's BIP47-ontvangst Address) te bepalen. Schematisch kunnen we de berekening van het gedeelde geheim $S$ als volgt weergeven:
+Aangezien Alice niet aan $b$ (de privésleutel van Bob) kan komen, is ze niet in staat om $k0$ (de privésleutel van Bob's BIP47-ontvangst adres) te bepalen. Schematisch kunnen we de berekening van het gedeelde geheim $S$ als volgt weergeven:
 
 
 ![BTC204](assets/nl/240.webp)
@@ -5487,10 +5487,10 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 BIP47 is alom bekritiseerd vanwege de onchain inefficiëntie. Zoals uitgelegd in het vorige hoofdstuk, moet er voor elke nieuwe ontvanger een kennisgevingstransactie worden uitgevoerd. Deze beperking wordt verwaarloosbaar als we van plan zijn om een duurzaam betalingskanaal met deze ontvanger op te zetten. Een enkele kennisgevingstransactie maakt de weg vrij voor een bijna oneindig aantal volgende BIP47 betalingen.
 
 
-In bepaalde situaties kan de meldingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin Address is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
+In bepaalde situaties kan de meldingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin adres is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
 
 
-Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder Address hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
+Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder adres hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
 
 
 ---
@@ -5554,9 +5554,9 @@ Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP
 
 
 
-- Alice moet een lege Address kunnen generate;
-- Bob moet een betaling kunnen identificeren die naar deze specifieke Address is gestuurd;
-- Bob moet de private sleutel die bij deze Address hoort kunnen bemachtigen om zijn geld te kunnen uitgeven.
+- Alice moet een ongebruikt adres kunnen generate;
+- Bob moet een betaling kunnen identificeren die naar deze specifieke adres is gestuurd;
+- Bob moet de private sleutel die bij dit adres hoort kunnen bemachtigen om zijn geld te kunnen uitgeven.
 
 
 Alice heeft een UTXO in haar beveiligde Bitcoin wallet met het volgende sleutelpaar:
@@ -5568,7 +5568,7 @@ Alice heeft een UTXO in haar beveiligde Bitcoin wallet met het volgende sleutelp
 - $A$: de openbare sleutel ($A = a cdot G$)
 
 
-Bob heeft een SP Address die hij op het internet heeft gepubliceerd met :
+Bob heeft een SP adres die hij op het internet heeft gepubliceerd met :
 
 
 
@@ -5577,13 +5577,13 @@ Bob heeft een SP Address die hij op het internet heeft gepubliceerd met :
 - $B$: de openbare sleutel ($B = b ≤ G$)
 
 
-Door Address van Bob op te halen, kan Alice met behulp van ECDH een nieuwe lege Address berekenen die bij Bob hoort. Laten we deze Address $P$ noemen:
+Door adres van Bob op te halen, kan Alice met behulp van ECDH een nieuwe ongebruikt adres berekenen die bij Bob hoort. Laten we dit adres $P$ noemen:
 
 
 $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 
 
-In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een Hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice deze Address $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
+In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een Hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice dit adres $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
 
 
 > *In de context van Stille Betalingen komt de "Hash"-functie overeen met een SHA256 Hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
@@ -5593,7 +5593,7 @@ Dankzij de eigenschappen van de elliptische curve waarop ECDH is gebaseerd, wete
 $$ a \dot B = b \dot A $$
 
 
-Bob kan dus berekenen naar welk ontvangend Address Alice de bitcoins heeft gestuurd. Om dit te doen, controleert hij alle Bitcoin-transacties die voldoen aan de Silent Payments criteria en past de volgende berekening toe op elk van hen om te zien of de betaling aan hem is gericht (*scannen*):
+Bob kan dus berekenen naar welk ontvangend adres Alice de bitcoins heeft gestuurd. Om dit te doen, controleert hij alle Bitcoin-transacties die voldoen aan de Silent Payments criteria en past de volgende berekening toe op elk van hen om te zien of de betaling aan hem is gericht (*scannen*):
 
 
 $$ P' = B + \text{Hash}(b \cdot A) \cdot G $$
@@ -5611,7 +5611,7 @@ Van hieruit kan Bob de privésleutel $p$ berekenen waarmee het adres $P$ kan uit
 $$ p = (b + \text{Hash}(b \cdot A)) \bmod n $$
 
 
-Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésleutel $b$ hebben. Alleen Bob heeft deze privésleutel $b$. Hij zal daarom de enige zijn die de bitcoins kan uitgeven die naar zijn Stille Betalingen Address zijn gestuurd.
+Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésleutel $b$ hebben. Alleen Bob heeft deze privésleutel $b$. Hij zal daarom de enige zijn die de bitcoins kan uitgeven die naar zijn Stille Betalingen adres zijn gestuurd.
 
 
 ![BTC204](assets/nl/244.webp)
@@ -5622,23 +5622,23 @@ Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésle
 
 
 
-- $B$ : De openbare sleutel/static Address gepubliceerd door Bob
+- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
 - $b$: Bob's privésleutel
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
 - $s$: het gemeenschappelijke geheim van ECDH
-- $P$ : De openbare sleutel/unieke Address voor betaling aan Bob
+- $P$ : De openbare sleutel/unieke adres voor betaling aan Bob
 
 
-Hier is een nogal naïeve eerste benadering om Bob's statische Address, genoteerd $B$, te gebruiken om een unieke Address $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema niet meerdere outputs naar Bob kan maken binnen dezelfde transactie.
+Hier is een nogal naïeve eerste benadering om Bob's statische adres, genoteerd $B$, te gebruiken om een unieke adres $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema niet meerdere outputs naar Bob kan maken binnen dezelfde transactie.
 
 
 ### Hoe maak ik meerdere outputs?
 
 
-In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke Address $P$. Met dezelfde geselecteerde invoer is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
+In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke adres $P$. Met dezelfde geselecteerde invoer is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
 
 
 Om dit te bereiken, gaan we de berekening die Alice uitvoert om $P$ af te leiden iets aanpassen, zodat ze generate twee verschillende adressen kan geven aan Bob, namelijk $P_0$ en $P_1$.
@@ -5650,7 +5650,7 @@ Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je 
 $$ P_i = B + \text{Hash}(a \cdot B ‖ } i) \cdot G $$
 
 
-Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat Hash verder gaat. Je wijzigt dan eenvoudig $i$ om een nieuwe Address te verkrijgen die bij Bob hoort. Bijvoorbeeld:
+Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat Hash verder gaat. Je wijzigt dan eenvoudig $i$ om een nieuwe adres te verkrijgen die bij Bob hoort. Bijvoorbeeld:
 
 
 $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
@@ -5659,7 +5659,7 @@ $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
 $$ P_1 = B + \text{Hash}(a \dot B \text{ ‖ } 1) \dot G $$
 
 
-Wanneer Bob blockchain scant op Stille Betalingen die voor hem bedoeld zijn, begint hij met $i = 0$ voor Address $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Stille Betalingen bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
+Wanneer Bob blockchain scant op Stille Betalingen die voor hem bedoeld zijn, begint hij met $i = 0$ voor adres $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Stille Betalingen bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
 
 
 $$ P_0 = B + \text{Hash}(b \text{ ‖ } 0) \cdot G $$
@@ -5692,7 +5692,7 @@ $$
 
 
 
-- $B$ : De openbare sleutel/static Address gepubliceerd door Bob
+- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
 - $b$: Bob's privésleutel
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
@@ -5700,30 +5700,30 @@ $$
 - $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke geheim ECDH
 - $s_1$: het tweede gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste openbare sleutel / unieke Address voor betaling aan Bob
-- $P_1$ : De tweede openbare sleutel / unieke Address voor betaling aan Bob
+- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
+- $P_1$ : De tweede openbare sleutel / unieke adres voor betaling aan Bob
 
 
-Met deze methode beginnen we een aardig protocol te krijgen, maar er zijn nog een paar uitdagingen te overwinnen, niet in de laatste plaats het voorkomen van hergebruik van Address.
+Met deze methode beginnen we een aardig protocol te krijgen, maar er zijn nog een paar uitdagingen te overwinnen, niet in de laatste plaats het voorkomen van hergebruik van adres.
 
 
-### Hoe voorkom je hergebruik van Address?
+### Hoe voorkom je hergebruik van adres?
 
 
-Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTXO beveiligt, dat ze zal gebruiken om het gedeelde ECDH-geheim met Bob te berekenen. Dit geheim stelt haar in staat om de unieke Address $P_0$ af te leiden. Het sleutelpaar ($a$, $A$) dat Alice gebruikt, kan echter meerdere UTXO's beveiligen als ze deze Address meerdere keren heeft hergebruikt. In het geval dat Alice twee betalingen doet aan Bob's statische Address $B$ met behulp van twee UTXO's beveiligd door dezelfde sleutel $A$, zou dit resulteren in hergebruik van Address voor Bob.
+Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTXO beveiligt, dat ze zal gebruiken om het gedeelde ECDH-geheim met Bob te berekenen. Dit geheim stelt haar in staat om de unieke adres $P_0$ af te leiden. Het sleutelpaar ($a$, $A$) dat Alice gebruikt, kan echter meerdere UTXO's beveiligen als ze dit adres meerdere keren heeft hergebruikt. In het geval dat Alice twee betalingen doet aan Bob's statische adres $B$ met behulp van twee UTXO's beveiligd door dezelfde sleutel $A$, zou dit resulteren in hergebruik van adres voor Bob.
 
 
-> *Address hergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
-Aangezien de unieke Address $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van Address binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
+> *adres hergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
+Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van adres binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
 
 
-Wat we willen is dat elke UTXO die Alice gebruikt als invoer voor een betaling, een unieke Address oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke Address $P_0$. Deze referentie zal simpelweg de Hash zijn van de UTXO die als invoer wordt gebruikt:
+Wat we willen is dat elke UTXO die Alice gebruikt als invoer voor een betaling, een unieke adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke adres $P_0$. Deze referentie zal simpelweg de Hash zijn van de UTXO die als invoer wordt gebruikt:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
 
 
-En Alice voegt deze verwijzing toe aan de invoer voor haar berekening van de unieke Address $P_0$ :
+En Alice voegt deze verwijzing toe aan de invoer voor haar berekening van de unieke adres $P_0$ :
 
 
 $$ P_0 = B + \text{Hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G $$
@@ -5751,7 +5751,7 @@ $$
 
 
 
-- $B$ : De openbare sleutel/static Address gepubliceerd door Bob
+- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
 - $b$: Bob's privésleutel
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
@@ -5759,7 +5759,7 @@ $$
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste openbare sleutel / unieke Address voor betaling aan Bob
+- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
 
 
 Voorlopig gaan onze berekeningen ervan uit dat Alice één ingang gebruikt voor haar transactie. Ze zou echter meerdere ingangen moeten kunnen gebruiken. Bijgevolg zou Bob voor elke transactie met meerdere ingangen theoretisch de ECDH voor elke ingang moeten berekenen om te bepalen of een betaling voor hem bedoeld is. Deze methode is niet bevredigend, dus we moeten een oplossing vinden om de werklast te verminderen!
@@ -5784,7 +5784,7 @@ Stel bijvoorbeeld dat de transactie van Alice 3 ingangen heeft, elk beveiligd me
 ![BTC204](assets/nl/247.webp)
 
 
-Volgens de eerder beschreven methode zou Alice een enkel sleutelpaar moeten kiezen uit $a_0$, $a_1$ en $a_2$ om het ECDH-geheim te berekenen en generate de enkele betaling Address $P$ uit Bob's statische Address $B$. Deze aanpak vereist echter dat Bob elke mogelijkheid achtereenvolgens test, te beginnen met $a_0$, dan $a_1$, enzovoort, totdat hij een paar identificeert dat een geldige Address $P$ genereert. Dit proces vereist dat Bob de ECDH berekening uitvoert op alle ingangen van alle transacties, wat de operationele belasting van het scannen aanzienlijk verhoogt.
+Volgens de eerder beschreven methode zou Alice een enkel sleutelpaar moeten kiezen uit $a_0$, $a_1$ en $a_2$ om het ECDH-geheim te berekenen en generate de enkele betaling adres $P$ uit Bob's statische adres $B$. Deze aanpak vereist echter dat Bob elke mogelijkheid achtereenvolgens test, te beginnen met $a_0$, dan $a_1$, enzovoort, totdat hij een paar identificeert dat een geldige adres $P$ genereert. Dit proces vereist dat Bob de ECDH berekening uitvoert op alle ingangen van alle transacties, wat de operationele belasting van het scannen aanzienlijk verhoogt.
 
 
 Om dit te vermijden, vragen we Alice om $P$ te berekenen met de som van alle ingevoerde sleutels. In ons voorbeeld wordt de getweakte privésleutel $a$ als volgt berekend:
@@ -5802,7 +5802,7 @@ $$ A = A_0 + A_1 + A_2 $$
 Met deze methode hoeft Bob alleen de som van de openbare sleutels van de transactie te berekenen en vervolgens het ECDH-geheim van $A$ alleen, wat het aantal berekeningen dat nodig is voor de scanfase sterk vermindert.
 
 
-Denk echter aan de vorige paragraaf. We hadden de hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een Nonce om hergebruik van Address te voorkomen:
+Denk echter aan de vorige paragraaf. We hadden de hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een Nonce om hergebruik van adres te voorkomen:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
@@ -5820,7 +5820,7 @@ De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de
 ### Aparte uitgave- en scansleutels
 
 
-Op dit moment noemen we de Silent Payment static Address $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling Address $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
+Op dit moment noemen we de Silent Payment static adres $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling adres $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
 
 
 Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Stille Betalingen hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Stille Betalingen terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een Hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
@@ -5835,13 +5835,13 @@ Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen geb
 - b_{{scan}}$: om unieke betalingsadressen te vinden.
 
 
-Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een Hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Stille Betalingen te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische Address $B$ bevinden:
+Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een Hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Stille Betalingen te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 
 
-Om een unieke betaling Address $P_0$ te berekenen die bij Bob hoort, zal Alice nu de volgende berekening uitvoeren:
+Om een unieke betaling adres $P_0$ te berekenen die bij Bob hoort, zal Alice nu de volgende berekening uitvoeren:
 
 
 $$ P_0 = B_{{spend}} + \text{Hash}(\text{inputHash} \cdot a \cdot B_{scan}} \text{ ‖ } 0) \cdot G $$
@@ -5867,9 +5867,9 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 
 
 
-- $B_{{scan}}$: Bob's publieke scansleutel (statische Address)
+- $B_{{scan}}$: Bob's publieke scansleutel (statische adres)
 - $b_{{scan}}$ : Bob's private scansleutel
-- $B_{{spend}}$ : Bob's openbare bestedingssleutel (statisch Address)
+- $B_{{spend}}$ : Bob's openbare bestedingssleutel (statisch adres)
 - $b_{{spend}}$ : Bob's privé bestedingssleutel
 - $A$ : Som van ingangen met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
@@ -5877,22 +5877,22 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke geheim ECDH
-- $P_0$ : De eerste openbare sleutel / unieke Address voor betaling aan Bob
+- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
 
 
 ### SP-adressen met een label gebruiken
 
 
-Bob heeft daarom een statische Address $B$ voor Stille Betalingen zoals :
+Bob heeft daarom een statische adres $B$ voor Stille Betalingen zoals :
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 
 
-Het probleem met deze methode is dat je de verschillende betalingen die naar deze Address worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische Address, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke Address) om betalingen te detecteren die respectievelijk voor elke Address bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
+Het probleem met deze methode is dat je de verschillende betalingen die naar dit adres worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische adres, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke adres) om betalingen te detecteren die respectievelijk voor elke adres bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
 
 
-Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Stille Betalingen op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische Address, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
+Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Stille Betalingen op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische adres, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
 
 
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
@@ -5904,29 +5904,29 @@ Bijvoorbeeld, voor de eerste onkostentoets met het label $1$ :
 $$ B_1 = B_{\text{spend}}} + \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
 
 
-De statische Address gepubliceerd door Bob zal nu bestaan uit $B_{{scan}}$ en $B_m$. Bijvoorbeeld, de eerste statische Address met het label $1$ zal :
+De statische adres gepubliceerd door Bob zal nu bestaan uit $B_{{scan}}$ en $B_m$. Bijvoorbeeld, de eerste statische adres met het label $1$ zal :
 
 
 $$ B = B_{{scan}} \‖ } B_1 $$
 
 
 > *We beginnen pas bij label 1 omdat label 0 gereserveerd is voor de verandering.*
-Alice zal op haar beurt de bedrijfstoeslag Address $P$ op dezelfde manier als voorheen afleiden, maar met de nieuwe $B_1$ in plaats van $B_{text{spend}}$ :
+Alice zal op haar beurt de bedrijfstoeslag adres $P$ op dezelfde manier als voorheen afleiden, maar met de nieuwe $B_1$ in plaats van $B_{text{spend}}$ :
 
 
 $$ P_0 = B_1 + \text{Hash}(\text{inputHash} \cdot a \cdot B_{scan} \text{ ‖ } 0) \cdot G $$
 
 
-In werkelijkheid hoeft Alice niet eens te weten dat Bob een gelabelde Address heeft, want ze gebruikt gewoon het tweede deel van de statische Address die hij gaf, en in dit geval is dat de waarde $B_1$ in plaats van $B_{text{spend}}$.
+In werkelijkheid hoeft Alice niet eens te weten dat Bob een gelabelde adres heeft, want ze gebruikt gewoon het tweede deel van de statische adres die hij gaf, en in dit geval is dat de waarde $B_1$ in plaats van $B_{text{spend}}$.
 
 
-Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische Address met $B_{text{spend}}$ op deze manier gebruiken:
+Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische adres met $B_{text{spend}}$ op deze manier gebruiken:
 
 
 $$ P_0 = B_{{bestedingen}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke output. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn portfolio. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Stille Betaling is die geassocieerd is met zijn statisch gelabelde Address $B_1$ :
+Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke output. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn portfolio. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Stille Betaling is die geassocieerd is met zijn statisch gelabelde adres $B_1$ :
 
 
 $$ Out_4 - P_0 = \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
@@ -5938,7 +5938,7 @@ Het werkt omdat :
 $$ B_1 = B_{\text{spend}}} + \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
 
 
-Dankzij deze methode kan Bob een veelheid aan statische adressen gebruiken ($B_1$, $B_2$, $B_3$...), allemaal afgeleid van zijn statische basis-Address ($B = B_{{scan}} ‖ } B_{{scan}}}$), om het gebruik gescheiden te houden.
+Dankzij deze methode kan Bob een veelheid aan statische adressen gebruiken ($B_1$, $B_2$, $B_3$...), allemaal afgeleid van zijn statische basis-adres ($B = B_{{scan}} ‖ } B_{{scan}}}$), om het gebruik gescheiden te houden.
 
 
 Houd er echter rekening mee dat deze scheiding van statische adressen alleen geldig is vanuit het oogpunt van persoonlijk portefeuillebeheer, maar geen scheiding van identiteiten inhoudt. Aangezien ze allemaal dezelfde $B_{{scan}}$ hebben, is het heel gemakkelijk om alle statische adressen samen te brengen en af te leiden dat ze tot één entiteit behoren.
@@ -5952,10 +5952,10 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 
 
 
-- $B_{{scan}}$: Bob's publieke scansleutel (statisch Address)
+- $B_{{scan}}$: Bob's publieke scansleutel (statisch adres)
 - $b_{{scan}}$ : Bob's private scansleutel
-- $B_{{spend}}$ : Bob's openbare bestedingssleutel (initieel Address)
-- $B_m$ : Bob's publieke bestedingssleutel gelabeld (statisch Address)
+- $B_{{spend}}$ : Bob's openbare bestedingssleutel (initieel adres)
+- $B_m$ : Bob's publieke bestedingssleutel gelabeld (statisch adres)
 - $b_m$: Bob's private bestedingssleutel gelabeld
 - $A$ : Som van ingangen met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
@@ -5963,15 +5963,15 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste publieke sleutel / uniek Address voor betaling aan Bob
-- $p_0$ : De private sleutel van de eerste unieke betaling Address aan Bob
+- $P_0$ : De eerste publieke sleutel / uniek adres voor betaling aan Bob
+- $p_0$ : De private sleutel van de eerste unieke betaling adres aan Bob
 - $X$ : De Hash van de particuliere sleutel van de scan met het label
 
 
-### Hoe bouw ik een Silent Payments Address?
+### Hoe bouw ik een Silent Payments adres?
 
 
-Om een Address voor Stille Betalingen te bouwen, moet je eerst 2 sleutelparen van je Bitcoin HD wallet afleiden:
+Om een adres voor Stille Betalingen te bouwen, moet je eerst 2 sleutelparen van je Bitcoin HD wallet afleiden:
 
 
 
@@ -5989,7 +5989,7 @@ spend : m / 352' / 0' / 0' / 0' / 0
 ```
 
 
-Zodra we deze 2 sleutelparen hebben, voegen we ze eenvoudigweg samen (end-to-end) om de statische Address payload te creëren:
+Zodra we deze 2 sleutelparen hebben, voegen we ze eenvoudigweg samen (end-to-end) om de statische adres payload te creëren:
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
@@ -6010,7 +6010,7 @@ $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
 Zodra we deze payload hebben, voegen we de HRP (*Human-Readable Part*) `sp` en de versie `q` (= versie 0) toe. We voegen ook een checksum toe en formatteren het adres als bech32m.
 
 
-Hier is bijvoorbeeld mijn Silent Payments static Address:
+Hier is bijvoorbeeld mijn Silent Payments static adres:
 
 
 ```text
@@ -6021,7 +6021,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betalingsadressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Stille Betaling te onderscheiden van een gewone transactie met P2TR outputs.
 
 
-Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische Address $B$ en een betalings-Address $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische Address $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de private sleutel $b_{scan}}$ van Bob nodig hebben, ofwel de private sleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische Address expliciet te koppelen aan een vorm van persoonlijke identiteit.
+Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische adres $B$ en een betalings-adres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de private sleutel $b_{scan}}$ van Bob nodig hebben, ofwel de private sleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
 
 
 ### Hoe gebruik ik Stille Betalingen?
@@ -6037,7 +6037,7 @@ Het Silent Payments voorstel is relatief recent en wordt op dit moment slechts d
 - [DonatieWallet](https://github.com/Sosthene00/donationwallet)
 
 
-Binnenkort geven we je een gedetailleerde tutorial over het opzetten van je eigen Silent Payments statische Address.
+Binnenkort geven we je een gedetailleerde tutorial over het opzetten van je eigen Silent Payments statische adres.
 
 
 Omdat deze functie nieuw is, raden we je aan voorzichtig te zijn en het gebruik van Stille Betalingen voor grote bedragen op Mainnet te vermijden.

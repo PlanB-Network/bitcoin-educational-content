@@ -878,22 +878,22 @@ Bron : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c
 Het bestuderen van externe heuristieken betekent het analyseren van de overeenkomsten, patronen en kenmerken van bepaalde elementen die niet specifiek zijn voor de transactie zelf. Met andere woorden, terwijl we ons eerder beperkten tot het benutten van elementen die intrinsiek zijn aan de transactie met interne heuristieken, verbreden we nu ons analysegebied naar de omgeving van de transactie, dankzij externe heuristieken.
 
 
-###adres hergebruik
+### Adres-hergebruik
 
 
-Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik vanadres maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin dat adres ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
+Dit is een van de bekendste heuristieken van bitcoiners. Adres-hergebruik maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin ontvangstadres meerdere keren wordt gebruikt.
 
 
-Het is dus mogelijk omadres hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maaradres hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
+Het is dus mogelijk om adres-hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de exchange (wisselgeld) te identificeren (zoals we in het vorige hoofdstuk zagen). Maar adres-hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
 
 
-De interpretatie van het hergebruik van eenadres is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
+De interpretatie van adres-hergebruik is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
 
 
 ![BTC204](assets/nl/054.webp)
 
 
-Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Satoshi Nakamoto zelf. In het witboek noemt hij een oplossing om gebruikers te helpen voorkomen dat ze deze heuristiek genereren, namelijk gewoon een legeadres gebruiken voor elke nieuwe transactie:
+Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Satoshi Nakamoto zelf. In het witboek stelt hij een eenvoudige oplossing voor om deze heuristiek te voorkomen: gebruik een nieuw adres voor elke nieuwe transactie:
 
 
 "_Als extra firewall zou voor elke transactie een nieuw sleutelpaar gebruikt kunnen worden om ze niet te koppelen aan een gemeenschappelijke eigenaar._"
@@ -905,7 +905,7 @@ Zoals uitgelegd in de inleiding van deel 3, werd deze heuristiek ontdekt door Sa
 Bron: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
 
-Hier is bijvoorbeeld eenadres die in meerdere transacties wordt hergebruikt:
+Hier is bijvoorbeeld een adres die in meerdere transacties wordt hergebruikt:
 
 
 ```plaintext
@@ -919,16 +919,16 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 Bron : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
 
-### Gelijksoortige scripts en wallet afdrukken
+### Gelijksoortige scripts en wallet vingerafdrukken
 
 
-Naast het hergebruik vanadres zijn er veel andere heuristieken waarmee je acties aan dezelfde portfolio ofadres cluster kunt koppelen.
+Naast het hergebruik van adressen zijn er veel andere heuristieken waarmee je acties aan dezelfde wallet of adres-cluster kunt koppelen.
 
 
-Ten eerste kan een analist zoeken naar overeenkomsten in scriptgebruik. Bepaalde minderheidsscripts zoals Multisig zijn bijvoorbeeld makkelijker te herkennen dan SegWit V0-scripts. Hoe groter de groep waarin we ons verbergen, hoe moeilijker het is om ons te herkennen. Dit is een van de redenen waarom bij goede CoinJoin protocollen alle deelnemers precies hetzelfde type script gebruiken.
+Ten eerste kan een analist zoeken naar overeenkomsten in scriptgebruik. Bepaalde minder gebruikte scripts zoals multisig zijn bijvoorbeeld makkelijker te herkennen dan SegWit V0-scripts. Hoe groter de groep waarin we ons verbergen, hoe moeilijker het is om ons te herkennen. Dit is een van de redenen waarom bij goede CoinJoin protocollen alle deelnemers precies hetzelfde type script gebruiken.
 
 
-Meer in het algemeen kan een analist zich ook richten op de karakteristieke vingerafdrukken van een portefeuille. Dit zijn gebruiksspecifieke processen die kunnen worden geïdentificeerd om ze te gebruiken als opsporingsheuristiek. Met andere woorden, als we een opeenstapeling van dezelfde interne kenmerken waarnemen bij transacties die worden toegeschreven aan de getraceerde entiteit, kunnen we proberen deze zelfde kenmerken te identificeren bij andere transacties.
+Meer in het algemeen kan een analist zich ook richten op de karakteristieke vingerafdrukken van een wallet. Dit zijn gebruiksspecifieke processen die kunnen worden geïdentificeerd om ze te gebruiken als opsporingsheuristiek. Met andere woorden, als we een opeenstapeling van dezelfde interne kenmerken waarnemen bij transacties die worden toegeschreven aan de getraceerde entiteit, kunnen we proberen deze zelfde kenmerken te identificeren bij andere transacties.
 
 
 We kunnen bijvoorbeeld vaststellen dat de getraceerde gebruiker zijn wijzigingen systematisch naar P2TR adressen stuurt (`bc1p...`). Als dit proces zich herhaalt, kunnen we het gebruiken als een heuristiek voor de rest van onze analyse. We kunnen ook andere vingerafdrukken gebruiken, zoals de volgorde van UTXO's, de plaats van de wijziging in de output, RBF (Replace-by-fee) signalering, of het versienummer, het `nSequence` veld en het `nLockTime` veld.
@@ -937,10 +937,10 @@ We kunnen bijvoorbeeld vaststellen dat de getraceerde gebruiker zijn wijzigingen
 ![BTC204](assets/nl/057.webp)
 
 
-Zoals [@LaurentMT](https://twitter.com/LaurentMT) opmerkt in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (een Franstalige podcast), neemt het nut van portfolio fingerprints in ketenanalyse in de loop der tijd aanzienlijk toe. Het groeiende aantal scripttypes en de steeds progressievere toepassing van deze nieuwe functies door portfoliosoftware accentueren de verschillen. In sommige gevallen is het zelfs mogelijk om de exacte software te identificeren die wordt gebruikt door de entiteit die wordt gevolgd. Het is daarom belangrijk om te begrijpen dat de studie van portfoliofootprints vooral relevant is voor recente transacties en niet zozeer voor transacties die begin 2010 zijn gestart.
+Zoals [@LaurentMT](https://twitter.com/LaurentMT) opmerkt in [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (een Franstalige podcast), neemt het nut van wallet-vingerafdrukken in ketenanalyse in de loop der tijd aanzienlijk toe. Het groeiende aantal scripttypes en de steeds progressievere toepassing van deze nieuwe functies door wallet-software accentueren de verschillen. In sommige gevallen is het zelfs mogelijk om de exacte software te identificeren die wordt gebruikt door de entiteit die wordt gevolgd. Het is daarom belangrijk om te begrijpen dat de studie van wallet-vingerafdrukken vooral relevant is voor recente transacties en niet zozeer voor transacties die begin 2010 zijn gestart.
 
 
-Kortom, een footprint kan elke specifieke praktijk zijn, automatisch uitgevoerd door wallet of handmatig door de gebruiker, die we kunnen vinden bij andere transacties om ons te helpen bij onze analyse.
+Kortom, een footprint kan elke specifieke praktijk zijn, automatisch uitgevoerd door een wallet of handmatig door de gebruiker, die we kunnen vinden bij andere transacties om ons te helpen bij onze analyse.
 
 
 ### De Common Input Ownership Heuristiek (CIOH)
@@ -952,13 +952,13 @@ De Common Input Ownership Heuristic (CIOH) is een heuristiek die stelt dat wanne
 ![BTC204](assets/nl/058.webp)
 
 
-Om het CIOH toe te passen, observeren we eerst een transactie met meerdere ingangen. Dit kunnen 2 ingangen zijn, of 30 ingangen. Zodra dit kenmerk is geïdentificeerd, controleren we of de transactie past in een bekend transactiemodel. Als er bijvoorbeeld 5 ingangen zijn met ongeveer hetzelfde bedrag en 5 outputs met precies hetzelfde bedrag, dan weten we dat dit de structuur van een CoinJoin is. We kunnen de CIOH dan niet toepassen.
+Om de CIOH toe te passen, observeren we eerst een transactie met meerdere inputs. Dit kunnen twee inputs zijn, of dertig inputs. Zodra dit kenmerk is geïdentificeerd, controleren we of de transactie past in een bekend transactiemodel. Als er bijvoorbeeld vijf inputs zijn met ongeveer hetzelfde bedrag en vijf outputs met precies hetzelfde bedrag, dan weten we dat dit de structuur van een CoinJoin is. We kunnen de CIOH dan niet toepassen.
 
 
 ![BTC204](assets/nl/059.webp)
 
 
-Aan de andere kant, als de transactie niet past in een bekend collaboratief transactiemodel, dan kunnen we interpreteren dat alle input waarschijnlijk van dezelfde entiteit komt. Dit kan erg nuttig zijn voor het uitbreiden van een al bekend cluster of het voortzetten van een spoor.
+Aan de andere kant, als de transactie niet past in een bekend collaboratief transactiemodel, dan kunnen we interpreteren dat alle input waarschijnlijk van dezelfde entiteit komt. Dit kan erg nuttig zijn voor het uitbreiden van een al bekende cluster of het voortzetten van een spoor.
 
 
 ![BTC204](assets/nl/060.webp)
@@ -967,13 +967,13 @@ Aan de andere kant, als de transactie niet past in een bekend collaboratief tran
 CIOH werd ontdekt door Satoshi Nakamoto. Hij vertelt erover in deel 10 van het witboek:
 
 
-"_[...] linken is onvermijdelijk bij transacties met meerdere ingangen, waarbij noodzakelijkerwijs zichtbaar wordt dat hun ingangen van dezelfde eigenaar waren. Het risico is dat als de eigenaar van een sleutel wordt onthuld, de koppelingen andere transacties kunnen onthullen die aan dezelfde eigenaar toebehoorden._"
+"_[...] linken is onvermijdelijk bij transacties met meerdere inputs, waarbij noodzakelijkerwijs zichtbaar wordt dat hun inputs van dezelfde eigenaar waren. Het risico is dat als de eigenaar van een sleutel wordt onthuld, de koppelingen andere transacties kunnen onthullen die aan dezelfde eigenaar toebehoorden._"
 
 
 ![BTC204](assets/nl/061.webp)
 
 
-Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH enadres hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij blockchainanalyse.
+Het is vooral fascinerend om te zien dat Satoshi Nakamoto, zelfs voor de officiële lancering van Bitcoin, al de twee belangrijkste privacykwetsbaarheden voor gebruikers had geïdentificeerd, namelijk CIOH en adres-hergebruik. Zo'n vooruitziende blik is opmerkelijk, omdat deze twee heuristieken zelfs vandaag de dag nog het meest bruikbaar zijn bij blockchainanalyse.
 
 
 Om een voorbeeld te geven: hier is een transactie waarop we CIOH waarschijnlijk kunnen toepassen:
@@ -987,22 +987,22 @@ Om een voorbeeld te geven: hier is een transactie waarop we CIOH waarschijnlijk 
 ![BTC204](assets/nl/062.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
+Bron : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
 
-### off-chain gegevens
+### Off-chain gegevens
 
 
 Natuurlijk is ketenanalyse niet uitsluitend beperkt tot gegevens over de keten. Alle gegevens uit een eerdere analyse of beschikbaar op internet kunnen ook worden gebruikt om een analyse te verfijnen.
 
 
-Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf hetzelfde Bitcoin knooppunt en we kunnen het IPadres identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
+Als we bijvoorbeeld zien dat getraceerde transacties systematisch worden uitgezonden vanaf dezelfde Bitcoin node en we kunnen het IP-adres identificeren, dan kunnen we mogelijk andere transacties van dezelfde entiteit identificeren en een deel van de identiteit van de emittent vaststellen. Hoewel deze praktijk niet gemakkelijk uitvoerbaar is, omdat het de werking van talrijke knooppunten (nodes) vereist, kan het gebruikt worden door sommige bedrijven die gespecialiseerd zijn in blockchainanalyse.
 
 
-De analist heeft ook de mogelijkheid om te vertrouwen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een output vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om te vertrouwen op output die wijst naar een exchange-platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
+De analist heeft ook de mogelijkheid om zich te beroepen op analyses die eerder open source zijn gemaakt, of op zijn eigen eerdere analyses. Misschien kunnen we een output vinden die wijst naar een cluster van adressen die we al geïdentificeerd hebben. Soms is het ook mogelijk om terug te vallen op output die wijst naar een exchange-platform, omdat de adressen van deze bedrijven algemeen bekend zijn.
 
 
-Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee outputs, één daarvan betrekking heeft op eenadres cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere output waarschijnlijk Exchange voorstelt.
+Op dezelfde manier kun je een analyse uitvoeren door eliminatie. Als bijvoorbeeld bij het analyseren van een transactie met twee outputs, één daarvan betrekking heeft op een adres-cluster dat al bekend is, maar verschilt van de entiteit die we traceren, dan kunnen we interpreteren dat de andere output waarschijnlijk exchange (wisselgeld) voorstelt.
 
 
 Kanaalanalyse omvat ook een iets algemenere OSINT-component (*Open Source Intelligence*), waarbij gezocht wordt op internet. Daarom raden we af om adressen rechtstreeks te publiceren op sociale netwerken of op een website, al dan niet onder een pseudoniem.

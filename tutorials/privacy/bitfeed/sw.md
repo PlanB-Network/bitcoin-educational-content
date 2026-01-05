@@ -11,7 +11,7 @@ Bitfeed ni jukwaa la kuibua safu ya onchain ya itifaki ya Bitcoin. Ilianzishwa n
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Katika somo hili, tutaangalia zana hii, ambayo inakuwezesha kuchunguza shughuli zote na vizuizi kwenye mtandao.
 
@@ -95,7 +95,7 @@ Muamala wa kwanza wa kitalu hiki unawakilisha shughuli ya **coinbase** ambayo hu
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Kwa chaguo-msingi, shughuli katika block inawakilishwa kulingana na vigezo viwili:
 

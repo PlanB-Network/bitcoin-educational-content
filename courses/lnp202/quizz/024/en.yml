@@ -1,0 +1,9 @@
+question: Why is backing up a Lightning node more complex than a wallet Bitcoin onchain?
+answer: The state of the channels is evolving
+wrong_answers:
+  - Channel liquidity depends on mempool
+  - Record the Lightning network gossip
+  - Revocation keys expire over time
+explanation: |
+  Lightning channels change state with each payment, making a simple fixed or periodic backup dangerous.
+reviewed: false

@@ -3,7 +3,7 @@ name: White Noise
 description: แอปพลิเคชันส่งข้อความส่วนตัวแบบกระจายศูนย์ที่ใช้โปรโตคอล Nostr และ MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

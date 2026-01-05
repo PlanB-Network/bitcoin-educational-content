@@ -3,7 +3,7 @@ name: Shelter
 description: Koresha telefone imwe ku kazi no ku buzima bwite na Shelter .
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -112,7 +112,7 @@ Hanyuma ukande kuri **Install** kandi mu rutonde rw’ibintu rugaragara ko rweme
 
 
 
-Ushobora kandi gushiramwo Ubuhungiro ukoresheje ububiko bwayo [Git] (https://gitea.angry.im/PeterCxy/Ubuhungiro).
+Ushobora kandi gushiramwo Ubuhungiro ukoresheje ububiko bwayo [Git](https://gitea.angry.im/PeterCxy/Ubuhungiro).
 
 
 

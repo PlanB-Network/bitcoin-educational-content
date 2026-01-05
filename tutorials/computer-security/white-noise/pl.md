@@ -3,7 +3,7 @@ name: White Noise
 description: Prywatna, zdecentralizowana aplikacja do przesyłania wiadomości oparta na protokołach Nostr i MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

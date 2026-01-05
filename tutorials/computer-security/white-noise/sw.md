@@ -3,7 +3,7 @@ name: White Noise
 description: Programu ya kutuma ujumbe ya kibinafsi, iliyogatuliwa kulingana na itifaki za Nostr na MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

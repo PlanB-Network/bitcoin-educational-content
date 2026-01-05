@@ -50,7 +50,7 @@ Android-gebruikers hebben ook alternatieve opties:
 
 
 - Download de APK rechtstreeks van de [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) pagina of
-- Installeren via de Nostr-compatibele [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
+- Installeren via de Nostr-compatibele [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
 Volg na het installeren van de applicatie het welkomstscherm om je account te configureren.
@@ -82,7 +82,7 @@ Hier kunnen we de geavanceerde instellingen configureren voordat we een wallet a
 
 2. Een `Aangepaste Electrum Server` instellen, of
 
-3. Pas de `Recover Bull` instellingen aan. We zullen later meer leren over de [Recover Bull] (https://recoverbull.com/).
+3. Pas de `Recover Bull` instellingen aan. We zullen later meer leren over de [Recover Bull](https://recoverbull.com/).
 
 
 Nadat u alle optionele aanpassingen hebt gemaakt, tikt u op `Gedaan`. Als u een bestaande Wallet opnieuw wilt gebruiken, klik dan op `Herstel Wallet` en vul de 12 woorden van uw herstelzin in.
@@ -164,7 +164,7 @@ Er is ook de optie van een versleutelde, anonieme back-up in de cloud. Maar zeid
 Zie het als een kluis. Het versleutelde back-up bestand is de *box*, die u overal kunt opslaan (zoals Google Drive). Uw Recovery PIN is de *sleutel*, die apart wordt opgeslagen door de Recoverbull Key Server. Een dief zou zowel uw specifieke doos als uw specifieke sleutel moeten hebben om het te openen. Dit ontwerp zorgt ervoor dat zelfs als iemand uw back-up bestand krijgt, het nutteloos is zonder de sleutel van de server, en de sleutel van de server is nutteloos zonder uw unieke back-up bestand.
 
 
-Leer meer over het `Recoverbull` wallet back-upprotocol [hier] (https://recoverbull.com/).
+Leer meer over het `Recoverbull` wallet back-upprotocol [hier](https://recoverbull.com/).
 
 
 Tik op `Gecodeerde kluis` en vervolgens op `Doorgaan` om het gebruik van de Standaardserver te bevestigen. De verbinding wordt omgeleid via het `Tor` Netwerk om privacy en anonimiteit te garanderen.
@@ -207,7 +207,7 @@ Sla nu het `back-up bestand` op. Tik vervolgens op `Test herstel`, selecteer je 
 ### Labels importeren/exporteren
 
 
-Nu we onze Back-up hebben gemaakt, gaan we eens kijken naar `labels`.  De Bull Bitcoin wallet verbetert de privacy en organisatie door gebruikers in staat te stellen aangepaste labels te maken voor hun ontvangstadressen en transacties. Deze labels helpen je bij het categoriseren van je geld, omdat transacties die naar een gelabeld adres worden gestuurd, dat label overnemen, en je kunt ook uitgaande transacties labelen om hun verandering bij te houden. De wallet ondersteunt de [BIP-329] (https://bip329.org/) standaard volledig, wat betekent dat u al uw labels naar een bestand kunt exporteren en in een andere wallet kunt importeren. Deze functie zorgt ervoor dat u naadloos een back-up kunt maken van uw transactiegeschiedenis en categorisaties, of deze kunt migreren tussen verschillende instanties van de wallet, zonder uw persoonlijke organisatie te verliezen.
+Nu we onze Back-up hebben gemaakt, gaan we eens kijken naar `labels`.  De Bull Bitcoin wallet verbetert de privacy en organisatie door gebruikers in staat te stellen aangepaste labels te maken voor hun ontvangstadressen en transacties. Deze labels helpen je bij het categoriseren van je geld, omdat transacties die naar een gelabeld adres worden gestuurd, dat label overnemen, en je kunt ook uitgaande transacties labelen om hun verandering bij te houden. De wallet ondersteunt de [BIP-329](https://bip329.org/) standaard volledig, wat betekent dat u al uw labels naar een bestand kunt exporteren en in een andere wallet kunt importeren. Deze functie zorgt ervoor dat u naadloos een back-up kunt maken van uw transactiegeschiedenis en categorisaties, of deze kunt migreren tussen verschillende instanties van de wallet, zonder uw persoonlijke organisatie te verliezen.
 
 
 ![image](assets/en/05.webp)
@@ -276,13 +276,13 @@ Bovendien heb je de optie om:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Direct vanuit de wallet heb je toegang tot de [Bull Bitcoin exchange] (https://www.bullbitcoin.com/), zodat je Bitcoin kunt kopen, verkopen en betalen zonder de app te verlaten. Deze integratie biedt een handige oplossing voor het beheren van uw Bitcoin behoeften. Houd er rekening mee dat de toegang tot de beurs en de diensten beperkt kan zijn, afhankelijk van uw jurisdictie, en dat het voltooien van een KYC-verificatie (Know Your Customer) vereist kan zijn om te voldoen aan de wettelijke normen en gebruik te maken van alle functies van het platform.
+Direct vanuit de wallet heb je toegang tot de [Bull Bitcoin exchange](https://www.bullbitcoin.com/), zodat je Bitcoin kunt kopen, verkopen en betalen zonder de app te verlaten. Deze integratie biedt een handige oplossing voor het beheren van uw Bitcoin behoeften. Houd er rekening mee dat de toegang tot de beurs en de diensten beperkt kan zijn, afhankelijk van uw jurisdictie, en dat het voltooien van een KYC-verificatie (Know Your Customer) vereist kan zijn om te voldoen aan de wettelijke normen en gebruik te maken van alle functies van het platform.
 
 
 Om te beginnen tikt u op `Exchange` in de rechterbenedenhoek en vervolgens op `Sign up` of `Login` voor uw account.
 
 
-De beurs biedt de volgende [functies] (https://www.bullbitcoin.com/):
+De beurs biedt de volgende [functies](https://www.bullbitcoin.com/):
 
 
 
@@ -331,7 +331,7 @@ Je hebt twee primaire modi voor het genereren van een ontvangstadres:
 **Standaardmodus (URI met extra invoerparameters)
 
 
-Standaard genereert de wallet een [BIP21 URI] (https://bips.dev/21/). Dit is een gestandaardiseerd formaat dat meer informatie verpakt dan een eenvoudig adres, waaronder een bedrag, een persoonlijke notitie en PayJoin parameters om de privacy te verbeteren. Deze uitgebreide URI wordt gecodeerd in een QR-code en beschikbaar gesteld om te kopiëren. Het formaat ziet er als volgt uit: `bitcoin:<adres>?<parameter1>=<waarde1>&<parameter2>=<waarde2>`.
+Standaard genereert de wallet een [BIP21 URI](https://bips.dev/21/). Dit is een gestandaardiseerd formaat dat meer informatie verpakt dan een eenvoudig adres, waaronder een bedrag, een persoonlijke notitie en PayJoin parameters om de privacy te verbeteren. Deze uitgebreide URI wordt gecodeerd in een QR-code en beschikbaar gesteld om te kopiëren. Het formaat ziet er als volgt uit: `bitcoin:<adres>?<parameter1>=<waarde1>&<parameter2>=<waarde2>`.
 
 
 
@@ -560,7 +560,7 @@ Selecteer in het welkomstscherm `Recover Wallet`. Kies deze keer de `Physical ba
 Voor het hoogste niveau van veiligheid kiezen veel Bitcoin gebruikers ervoor om hun geld op te slaan in `cold storage`. Dit betekent dat de `private sleutels` die uw Bitcoin besturen op een apparaat bewaard worden dat nooit met het internet verbonden is. Een `hardware wallet` (of Signing device) is een gespecialiseerd fysiek apparaat dat precies voor dit doel is ontworpen. Het fungeert als een digitale kluis voor uw sleutels en zorgt ervoor dat ze nooit worden blootgesteld aan de potentiële bedreigingen van een online computer of smartphone.
 
 
-Door een hardware wallet aan te sluiten op de Bull Bitcoin app, krijgt u het beste van twee werelden: de compromisloze veiligheid van koude opslag voor uw privésleutels, gecombineerd met de krachtige functies en gebruiksvriendelijke interface van de Bull Bitcoin wallet voor het bekijken van saldi en het beheren van transacties. In dit laatste hoofdstuk laten we zien hoe je een hardware wallet, zoals een [Coldcard Q] (https://coldcard.com/q), op je Bull Bitcoin wallet aansluit. Deze tutorial gaat niet dieper in op het instellen van een Coldcard Q; dat kun je hier leren:
+Door een hardware wallet aan te sluiten op de Bull Bitcoin app, krijgt u het beste van twee werelden: de compromisloze veiligheid van koude opslag voor uw privésleutels, gecombineerd met de krachtige functies en gebruiksvriendelijke interface van de Bull Bitcoin wallet voor het bekijken van saldi en het beheren van transacties. In dit laatste hoofdstuk laten we zien hoe je een hardware wallet, zoals een [Coldcard Q](https://coldcard.com/q), op je Bull Bitcoin wallet aansluit. Deze tutorial gaat niet dieper in op het instellen van een Coldcard Q; dat kun je hier leren:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

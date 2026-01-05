@@ -299,7 +299,7 @@ Una volta cliccato su **NEXT** e pagata la fattura Lightning, otterrete un numer
 
 
 
-SMS4Sats è accessibile tramite [Tor] (sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion). Questa configurazione maschera il vostro indirizzo IP quando accedete al servizio.
+SMS4Sats è accessibile tramite [Tor](sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion). Questa configurazione maschera il vostro indirizzo IP quando accedete al servizio.
 
 
 

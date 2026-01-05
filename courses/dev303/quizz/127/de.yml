@@ -1,8 +1,0 @@
-question: Welche grundlegende Einschränkung von Lightning Network-Zahlungen stellt für wallet-Entwickler eine besondere Herausforderung dar, die es bei on-chain-Bitcoin-Transaktionen nicht gibt?
-answer: Blitzzahlungen existieren nur als temporäre Zustände innerhalb der Zahlungskanäle und werden nicht dauerhaft in der Blockchain aufgezeichnet, was individuelle Systeme zur Verfolgung des Zahlungsverlaufs erfordert
-wrong_answers:
-  - Lightning-Zahlungen erfordern deutlich mehr Rechenleistung als on-chain-Transaktionen, was die mobile Implementierung ressourcenintensiv macht
-  - Lightning-Zahlungen können nicht auf dieselbe Weise kryptografisch verifiziert werden wie on-chain-Transaktionen, wodurch Sicherheitslücken für wallet-Implementierungen entstehen
-  - Blitzzahlungen müssen über zentralisierte Routing-Knoten abgewickelt werden, was es unmöglich macht, eine wirklich nicht-verwahrende wallet-Architektur aufrechtzuerhalten
-explanation: |
-  Die richtige Antwort benennt den zentralen architektonischen Unterschied zwischen Lightning- und on-chain-Zahlungen. On-Chain-Bitcoin-Transaktionen werden dauerhaft in der Blockchain aufgezeichnet, sodass der Zahlungsverlauf durch Blockchain-Abfragen einfach abgerufen werden kann. Lightning-Zahlungen hingegen existieren nur als temporäre Kanalzustände und hinterlassen keinen permanenten Blockchain-Datensatz, so dass Entwickler gezwungen sind, benutzerdefinierte Tracking- und Speichersysteme zu implementieren. Die falschen Antworten sind falsch, weil: Lightning-Zahlungen sind rechnerisch effizient (nicht ressourcenintensiv), sie bieten die gleiche kryptografische Sicherheit wie Bitcoin, und das Routing ist dezentralisiert (nicht zentralisiert).

@@ -299,13 +299,91 @@ Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût,
 
 Pour l’instant, vous pouvez résumer le fonctionnement du minage ainsi : les mineurs construisent un bloc candidat avec les transactions en attente dans les mempools, puis cherchent une empreinte de son entête (via `SHA256d`) qui soit inférieure ou égale à une cible. Ils y parviennent en testant des nonces par tâtonnement. Dans le chapitre suivant, nous allons découvrir comment cette cible de difficulté est déterminée par le système.
 
-
 ## L'ajustement de la cible de difficulté
 
+Dans le chapitre précédent, vous avez vu le cœur de la preuve de travail : les mineurs hachent l’entête de leur bloc candidat avec `SHA256d`, et le bloc n’est considéré valide que si l’empreinte obtenue est numériquement inférieure ou égale à une valeur de référence appelée la cible. Il reste alors une question : d’où vient cette cible, et comment le système s’assure qu’elle reste cohérente au fil du temps ?
 
+Bitcoin vise un rythme moyen d’un bloc trouvé toutes les 10 minutes. Ce rythme n’est évidemment pas une promesse à la seconde près. En pratique, certains blocs sont trouvés quelques secondes après le précédent, quand d’autres le sont après plus d'une heure. Ce qui importe ici, c’est la moyenne sur une période suffisamment longue.
 
+Cette variabilité découle du caractère probabiliste du minage : chaque hachage est un essai indépendant, avec une probabilité constante (à cible inchangée) de produire un résultat inférieur à la cible. On peut donc le comparer à une loterie au tirage continu : plus les mineurs effectuent de hachages par seconde, plus le délai attendu avant l’apparition d’un bloc valide diminue, mais sans jamais supprimer l’aléa d’un tirage à l’autre.
 
+### Pourquoi viser 10 minutes entre les blocs ?
 
+Même si l'on n'a aucune preuve de cela, Satoshi Nakamoto a sûrement choisi 10 minutes comme un compromis pratique entre efficacité et sécurité. Un intervalle plus court donnerait des confirmations plus fréquentes, mais provoquerait davantage de divisions temporaires du réseau. Pour comprendre ce point, il faut revenir à la manière dont un bloc se propage.
+
+Lorsqu’un mineur trouve un bloc valide, il le diffuse immédiatement à ses pairs. Les nœuds qui le reçoivent vérifient sa validité (transactions, preuve de travail, règles de consensus...), puis le relaient à leur tour. Cette propagation prend un certain temps, limité par la latence d'Internet, la bande passante, et la capacité de chaque nœud à vérifier le bloc.
+
+Si, durant ce délai de diffusion, un autre mineur découvre lui aussi un bloc valide à la même hauteur, le réseau peut se retrouver temporairement scindé : une partie des nœuds et des mineurs se base sur le bloc A, tandis que l’autre se base sur le bloc B. C'est une division temporaire du réseau. Dès qu’un nouveau bloc est miné par-dessus le bloc A par exemple, l’ensemble du réseau se resynchronise sur cette branche et abandonne le bloc B, qui devient alors un "stale block", parfois appelé à tort un "bloc orphelin" dans le langage courant.
+
+Ces divisions ne sont pas catastrophiques. Le consensus de Nakamoto prévoit qu’à terme, une seule branche l’emportera, celle qui accumule le plus de travail. En revanche, elles ont un coût : pendant quelques minutes, une fraction des mineurs travaille sur une branche qui sera abandonnée. Ce travail est alors gaspillé du point de vue de la sécurité globale, car il n’a pas contribué à la chaîne finale. Plus l'intervalle entre chaque bloc est rapide, plus la probabilité de ces divisions augmente, puisque le temps de propagation représente une part plus importante du temps entre chaque bloc.
+
+L’intervalle de 10 minutes laisse généralement suffisamment de temps pour que le bloc gagnant se propage largement avant qu'un éventuel bloc à la même hauteur soit trouvé. C’est un compromis qui limite les divisions, réduit le gaspillage de la puissance de calcul, et aide le réseau à rester synchronisé à l’échelle mondiale.
+
+### Comprendre la notion de hashrate
+
+Le "hashrate" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hashs par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
+
+Si la cible reste fixe, alors :
+* chaque essai a une probabilité fixe de réussite ;
+* faire plus d’essais par seconde augmente la probabilité qu’un essai gagnant apparaisse rapidement.
+
+Autrement dit, si demain le réseau Bitcoin double sa puissance de calcul en branchant deux fois plus de machines de minage, sans mécanisme correcteur, les blocs seraient trouvés en moyenne deux fois plus vite. Il faut donc ajuster la cible pour compenser les variations de hashrate.
+
+### L'ajustement
+
+Bitcoin résout ce problème avec un mécanisme d’ajustement périodique de la cible, qui vient donc ajuster la difficulté du minage. Le principe est le suivant : tous les 2016 blocs (environ toutes les 2 semaines), chaque nœud recalcule la cible de difficulté en observant combien de temps a réellement été nécessaire pour produire ces 2016 blocs.
+
+L’objectif de ce mécanisme est de ramener le temps moyen de production d’un bloc autour de 10 minutes, alors que le hashrate global du réseau varie en permanence, en raison de machines qui se débranchent ou, au contraire, de nouvelles machines qui sont ajoutées.
+
+Le calcul se fait à partir du temps observé pour la période écoulée :
+* si les 2016 derniers blocs ont été trouvés trop vite, cela signifie que le hashrate a augmenté pendant cette période ; Bitcoin rend alors la condition plus difficile en abaissant la cible pour la prochaine période ;
+* si les 2016 blocs ont été trouvés trop lentement, cela signifie que le hashrate a diminué ; Bitcoin facilite la condition en augmentant la cible.
+
+La formule est donc celle-ci :
+
+```txt
+Tn = To * (Ta / Tt)
+```
+
+Avec :
+* `Tn` : nouvelle cible
+* `To` : ancienne cible
+* `Ta` : temps réel écoulé pour les 2016 derniers blocs
+* `Tt` : temps cible (en secondes)
+
+Avec un temps cible de deux semaines, soit `Tt = 1 209 600` secondes :
+
+```txt
+Tn = To * (Ta / 1 209 600)
+```
+
+Pour bien comprendre l'ajustement de la difficulté du minage de Bitcoin, voici un exemple avec des valeurs réelles :
+
+```txt
+Tn = To * (Ta / 1 209 600)
+Tn = 18 045 755 102 * (1 000 000 / 1 209 600)
+Tn = 14 918 779 020
+```
+
+Avec :
+* **`To = 18 045 755 102`** : Ancienne cible, c’est-à-dire la valeur de référence avant l’ajustement.
+* **`Ta = 1 000 000` secondes** : Temps réellement passé pour produire les 2016 derniers blocs. Ce temps étant inférieur au temps cible, le réseau a miné trop rapidement.
+* **`1 209 600` secondes** : Temps cible correspondant à deux semaines, utilisé comme référence pour l’ajustement.
+* **`Tn = 14 918 779 020`** : Nouvelle cible calculée après l’ajustement de difficulté.
+
+La nouvelle cible est ici plus basse que l’ancienne, ce qui implique une augmentation de la difficulté de minage afin de ralentir la production des blocs lors de la période suivante.
+
+*Les valeurs des cibles dans cet exemple sont simplifiées et mises à l’échelle à des fins pédagogiques ; la cible réelle utilisée sur Bitcoin est un entier sur 256 bits d’un tout autre ordre de grandeur.*
+
+Ce calcul est exécuté localement par chaque nœud, à partir des horodatages inscrits dans les blocs. Comme tous les nœuds appliquent les mêmes règles, ils aboutissent au même résultat, et la nouvelle cible devient la référence commune pour les 2016 blocs suivants.
+
+Il y a un détail important à noter sur cet ajustement : **il est borné**. Bitcoin limite la variation de difficulté par période afin d’éviter des changements trop brutaux qui pourraient le bloquer. En effet, le temps réel pris en compte est contraint à rester dans une fourchette équivalente à un facteur 4 (au minimum un quart de deux semaines, au maximum quatre fois deux semaines). Cela empêche un reciblage extrême si les horodatages étaient très atypiques ou manipulés.
+
+### La représentation de la cible
+
+Dans l’entête de bloc, la cible n’apparaît pas sous sa forme complète de 256 bits, car cela prendrait trop de place. À la place, le champ `nBits` (de 32 bits) encode la cible dans un format compact, comparable à une notation scientifique en base 256 : un exposant (1 octet) et un coefficient (3 octets). La cible complète est ensuite reconstruite à partir de ces deux valeurs. Nous n’allons pas entrer dans le détail ici, car le sujet est relativement complexe et n’apporte rien à la compréhension du minage. Retenez simplement que la cible n’est pas stockée de manière brute dans l’entête du bloc, mais sous une forme compacte et normalisée.
+
+Avec ce dernier chapitre, nous avons fait le tour du fonctionnement de la preuve de travail sur Bitcoin : le mineur construit un bloc candidat en sélectionnant des transactions dans sa mempool, calcule l’entête du bloc candidat, la hache, compare l’empreinte obtenue à la cible de la période, puis recommence en modifiant le nonce jusqu’à obtenir une empreinte valide. Enfin, tous les 2016 blocs, le réseau recalcule une nouvelle cible afin de maintenir un temps moyen d’environ 10 minutes par bloc, malgré les variations permanentes du hashrate.
 
 
 # La distribution des récompenses de minage

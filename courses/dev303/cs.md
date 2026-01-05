@@ -43,7 +43,7 @@ Vítejte v tomto kurzu programování pro začátečníky o SDK. V tomto školen
 Videozáznamy školení, které bylo součástí živého semináře pořádaného v říjnu loňského roku v Toskánsku společností Fulgure Venture, budou prozatím k dispozici pouze v angličtině. Toto školení bude zaměřeno pouze na první týden. Druhá polovina byla zaměřena na RGB a najdete ji v kurzu RGB.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Toto školení vám poskytne příležitost rozvíjet své programátorské dovednosti na Lightning Network pomocí Rust a různých SDK. Je určeno pro vývojáře se solidními programátorskými zkušenostmi, kteří se chtějí ponořit do vývoje specifického pro Lightning Network. Seznámíte se se základy Rust, dozvíte se, proč je vhodný pro vývoj Bitcoin, a poté přejdete k praktické implementaci pomocí specializovaných SDK.
 

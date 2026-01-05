@@ -234,7 +234,7 @@ Untuk pemahaman yang lebih baik mengenai mekanisme ini dan berapa banyak siklus 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Untuk melihat jumlah remix yang dilakukan oleh masing-masing karya kamu, buka menu `UTXOs` di akun `Postmix`.
 
@@ -354,7 +354,7 @@ Performa dari beberapa siklus koin diukur dari ukuran himpunan tempat koin disem
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Bagaimana cara mengelola postmix?
 

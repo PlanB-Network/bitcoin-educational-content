@@ -234,7 +234,7 @@ Zum besseren Verständnis dieses Mechanismus und der Frage, wie viele Zyklen es 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Um die Anzahl der Remixe für jedes deiner Stücke zu sehen, öffne das Menü "UTXOs" im "Postmix"-Konto.
 
@@ -354,7 +354,7 @@ Die Leistung mehrerer Coinjoin-Zyklen wird anhand der Größe der Mengen gemesse
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Wie kann man den Postmix verwalten?
 

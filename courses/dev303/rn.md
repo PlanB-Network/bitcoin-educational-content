@@ -43,7 +43,7 @@ Ikaze muri iri shure ry'intango ry'ivy'iporogarama ku SDKs. Muri iri huriro, uzo
 Amasanamu y’ayo mahugurwa azoboneka mu congereza gusa ubu kandi yari mu nama y’ubuzima yateguwe mu kwezi kwa Gitugutu guheze i Toscane na Fulgure Venture. Iryo huriro rizoba ryibanda ku ndwi ya mbere gusa. Igice ca kabiri cari kigenewe RGB kandi gishobora gusangwa mu nyigisho ya RGB.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Iryo huriro riguha akaryo ko guteza imbere ubuhinga bwawe bwo gukora porogarama kuri Lightning Network ukoresheje Rust na SDK zitandukanye. Igenewe abahinguzi bafise ubumenyi bukomeye bwo gukora porogarama bashaka kwisuka mu gutegura ivy’ubuhinga bwa Lightning Network. Uzomenya ivy’ishimikiro vya Rust, igituma ibereye gutegura Bitcoin, hanyuma ugende ku gushirwa mu ngiro ukoresheje SDKs zidasanzwe.
 

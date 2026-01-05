@@ -174,7 +174,7 @@ UTXO's zijn de ruilinstrumenten op Bitcoin. Elke transactie resulteert in het ve
 ![BTC204](assets/nl/007.webp)
 
 
-Alle UTXO's zijn beveiligd door scripts die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een publieke sleutel (of een ontvangst-adres dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende private sleutel bezit, door een digitale handtekening te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je Bitcoin-wallet eigenlijk geen bitcoins bevat, maar je private sleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
+Alle UTXO's zijn beveiligd door scripts die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een publieke sleutel (of een ontvangstadres dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende private sleutel bezit, door een digitale handtekening te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je Bitcoin-wallet eigenlijk geen bitcoins bevat, maar je private sleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
 
 
 ![BTC204](assets/nl/008.webp)
@@ -222,7 +222,7 @@ Elke invoer (input) in een Bitcoin-transactie verwijst naar een eerder niet-uitg
 
 ![BTC204](assets/nl/012.webp)
 
-Elke uitvoer (output) specificeert op zijn beurt de hoeveelheid bitcoins die moet worden overgedragen, evenals de ontvanger. Deze laatste wordt gedefinieerd door een nieuw script, dat meestal de nieuw aangemaakte UTXO blokkeert met een ontvangst-adres of een nieuwe publieke sleutel.
+Elke uitvoer (output) specificeert op zijn beurt de hoeveelheid bitcoins die moet worden overgedragen, evenals de ontvanger. Deze laatste wordt gedefinieerd door een nieuw script, dat meestal de nieuw aangemaakte UTXO blokkeert met een ontvangstadres of een nieuwe publieke sleutel.
 
 Wil een transactie geldig zijn volgens de consensusregels, dan moet de totale uitvoer (output) kleiner zijn dan of gelijk aan de totale invoer (input). Met andere woorden, de som van de nieuwe UTXO's die door de transactie worden gegenereerd, mag niet groter zijn dan de som van de UTXO's die als invoer (inputs) zijn verbruikt. Dit principe is logisch: als je maar `500.000 sats` hebt, kun je geen aankoop doen van `700.000 sats`.
 
@@ -443,7 +443,7 @@ Theoretisch is deze bewering correct. In het eerste deel van deze cursus zagen w
 De praktische realiteit is echter veel complexer. Er is een veelheid aan gedragingen die een echte identiteit kunnen koppelen aan onchain-activiteiten. In analyse wordt dit een ingangspunt (entry point) genoemd, en er zijn er een heleboel.
 
 
-De meest voorkomende is KYC (*Know Your Customer*). Als je bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan dat adres. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangst-adres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in bitcoin doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin-adres.
+De meest voorkomende is KYC (*Know Your Customer*). Als je bitcoins opneemt van een gereguleerd platform naar een van je persoonlijke ontvangstadressen, dan zijn sommige mensen in staat om jouw identiteit te koppelen aan dat adres. In bredere zin kan een ingangspunt elke vorm van interactie zijn tussen jouw echte leven en een Bitcoin-transactie. Als je bijvoorbeeld een ontvangstadres publiceert op je sociale netwerken, kan dit een ingang zijn voor analyse. Als je een betaling in bitcoin doet aan je bakker, kan hij je gezicht (deel van je identiteit) associëren met een Bitcoin-adres.
 
 
 Deze ingangspunten zijn vrijwel onvermijdelijk bij het gebruik van Bitcoin. Ook al proberen we hun draagwijdte te beperken, ze zullen altijd aanwezig zijn. Daarom is het cruciaal om methodes te combineren die gericht zijn op het beschermen van je privacy. Hoewel het handhaven van een scheiding tussen je echte identiteit en je transacties een interessante benadering is, blijft het vandaag de dag onvoldoende. Sterker nog, als al je onchain-activiteiten kunnen worden gegroepeerd, zal zelfs het kleinste toegangspunt waarschijnlijk de enige laag van vertrouwelijkheid die je hebt ingesteld in gevaar brengen.
@@ -1435,7 +1435,7 @@ ___
 
 
 
-- De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai wallet in 2021;
+- De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai-wallet in 2021;
 - De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis blockchainanalyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai-wallet);
 - Meer in het algemeen komt mijn kennis van verschillende tweets en inhoud van [@LaurentMT](https://twitter.com/LaurentMT) en [@ErgoBTC](https://twitter.com/ErgoBTC);
 - De [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) waaraan ik deelnam in het gezelschap van [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) en [@LaurentMT](https://twitter.com/LaurentMT).
@@ -1456,7 +1456,7 @@ ___
 <partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
 
-##adres hergebruik
+## Adres-hergebruik
 
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
@@ -1468,29 +1468,29 @@ ___
 Na het bestuderen van de technieken die je vertrouwelijkheid op Bitcoin kunnen doorbreken, zullen we in dit derde deel kijken naar de beste manieren om jezelf te beschermen. Het doel van dit deel is niet om methoden te onderzoeken om de vertrouwelijkheid te verbeteren, een onderwerp dat later behandeld zal worden, maar om te begrijpen hoe je op de juiste manier met Bitcoin omgaat om de vertrouwelijkheid die het van nature biedt te behouden, zonder toevlucht te nemen tot extra technieken.
 
 
-Om dit derde deel te beginnen, gaan we het natuurlijk hebben overadres hergebruik. Dit fenomeen is de belangrijkste bedreiging voor de vertrouwelijkheid van gebruikers. Dit hoofdstuk is zeker het belangrijkste van de hele cursus.
+Om dit derde deel te beginnen, gaan we het natuurlijk hebben over adres-hergebruik. Dit fenomeen is de belangrijkste bedreiging voor de vertrouwelijkheid van gebruikers. Dit hoofdstuk is zeker het belangrijkste van de hele cursus.
 
 
-### Wat is een Address ontvangen?
+### Wat is een ontvangstadres?
 
 
-Een Bitcoin ontvangst-adres is een string of identifier die gebruikt wordt om bitcoins te ontvangen op een wallet.
+Een Bitcoin ontvangstadres is een string of identifier die gebruikt wordt om bitcoins te ontvangen op een wallet.
 
 
-Technisch gezien "ontvangt" een Bitcoin ontvangst-adres geen bitcoins in letterlijke zin, maar dient het om de voorwaarden te definiëren waaronder bitcoins kunnen worden uitgegeven. Concreet: wanneer een betaling naar jou wordt gestuurd, creëert de transactie van de verzender een nieuwe UTXO voor jou als output van de UTXO's die het als invoer heeft verbruikt. Op deze output wordt een script geplakt dat definieert hoe deze UTXO op een later tijdstip kan worden uitgegeven. Dit script staat bekend als "*ScriptPubKey*" of "*Locking Script*". Jouw ontvangen Address, of beter gezegd de payload ervan, is geïntegreerd in dit script. In lekentaal zegt dit script eigenlijk:
+Technisch gezien "ontvangt" een Bitcoin ontvangstadres geen bitcoins in letterlijke zin, maar dient het om de voorwaarden te definiëren waaronder bitcoins kunnen worden uitgegeven. Concreet: wanneer een betaling naar jou wordt gestuurd, creëert de transactie van de verzender een nieuwe UTXO voor jou als output van de UTXO's die het als input heeft verbruikt. Op deze output wordt een script geplakt dat definieert hoe deze UTXO op een later tijdstip kan worden uitgegeven. Dit script staat bekend als "*ScriptPubKey*" of "*Locking Script*". Jouw ontvangstadres, of beter gezegd de payload ervan, is geïntegreerd in dit script. In lekentaal zegt dit script eigenlijk:
 
 
-> "*Om deze nieuwe UTXO uit te geven, moet u een digitale handtekening zetten met de privésleutel die bij deze ontvangst-adres hoort.*"
+> "*Om deze nieuwe UTXO uit te geven, moet je een digitale handtekening zetten met de privésleutel die bij dit ontvangstadres hoort.*"
 ![BTC204](assets/nl/068.webp)
 
 
-Bitcoin adressen zijn er in verschillende types, afhankelijk van het gebruikte scriptingmodel. De eerste modellen, bekend als **Legacy**, omvatten de `P2PKH` (*Pay-to-PubKey-Hash*) en `P2SH` (*Pay-to-Script-Hash*) adressen. P2PKH-adressen beginnen altijd met `1` en P2SH met `3`. Hoewel deze formaten nog steeds veilig zijn, zijn ze nu verouderd omdat ze hogere transactiekosten met zich meebrengen en minder vertrouwelijkheid bieden dan de nieuwe standaarden.
+Bitcoin-adressen zijn er in verschillende types, afhankelijk van het gebruikte scriptingmodel. De eerste modellen, bekend als **Legacy**, omvatten de `P2PKH` (*Pay-to-PubKey-Hash*) en `P2SH` (*Pay-to-Script-Hash*) adressen. P2PKH-adressen beginnen altijd met `1` en P2SH met `3`. Hoewel deze formaten nog steeds veilig zijn, zijn ze nu verouderd omdat ze hogere transactiekosten met zich meebrengen en minder vertrouwelijkheid bieden dan de nieuwe standaarden.
 
 
-SegWit V0 (`P2WPKH` en `P2WSH`) en Taproot / SegWit V1 (`P2TR`) adressen vertegenwoordigen moderne formaten. SegWit adressen beginnen met `bc1q` en Taproot adressen, geïntroduceerd in 2021, beginnen met `bc1p`.
+SegWit V0 (`P2WPKH` en `P2WSH`) en Taproot / SegWit V1 (`P2TR`) adressen vertegenwoordigen moderne formaten. SegWit-adressen beginnen met `bc1q` en Taproot-adressen, geïntroduceerd in 2021, beginnen met `bc1p`.
 
 
-Hier is bijvoorbeeld een Taproot receptie Address:
+Hier is bijvoorbeeld een Taproot ontvangstadres:
 
 
 ```text
@@ -1516,15 +1516,15 @@ De opbouw van ontvangstadressen hangt ook af van het gekozen scriptmodel:
 
 
 
-- Voor `P2PKH` en `P2WPKH` adressen vertegenwoordigt de payload, d.w.z. de kern van het adres, de Hash van de openbare sleutel;
-- Voor `P2SH` en `P2WSH` adressen vertegenwoordigt de payload de Hash van een ;
-- Net als bij `P2TR` adressen is de payload een aangepaste publieke sleutel. P2TR outputs combineren aspecten van _Pay-to-PubKey_ en _Pay-to-Script_. De getweakte publieke sleutel is het resultaat van het toevoegen van een klassieke uitgaven publieke sleutel met een "tweak", afgeleid van de Merkle Root van een set scripts die ook kunnen worden gebruikt om bitcoins uit te geven.
+- Voor `P2PKH` en `P2WPKH` adressen vertegenwoordigt de payload, d.w.z. de kern van het adres, de hash van de openbare sleutel;
+- Voor `P2SH` en `P2WSH` adressen vertegenwoordigt de payload de hash van een ;
+- Net als bij `P2TR` adressen is de payload een aangepaste publieke sleutel. P2TR outputs combineren aspecten van _Pay-to-PubKey_ en _Pay-to-Script_. De getweakte publieke sleutel is het resultaat van het toevoegen van een publieke sleutel van een klassieke uitgave met een "tweak", afgeleid van de Merkle Root van een set scripts die ook kunnen worden gebruikt om bitcoins uit te geven.
 
 
 ![BTC204](assets/nl/069.webp)
 
 
-Adressen die worden weergegeven op je portfoliosoftware bevatten ook een HRP (*Human-Readable Part*), meestal `bc` voor post-SegWit adressen, een `1` scheidingsteken en een versienummer `q` voor SegWit V0 en `p` voor Taproot/SegWit V1. Er wordt ook een controlesom toegevoegd om de integriteit en geldigheid van het adres tijdens de transmissie te garanderen.
+Adressen die worden weergegeven op je wallet-software bevatten ook een HRP (*Human-Readable Part*), meestal `bc` voor post-SegWit adressen, een `1` scheidingsteken en een versienummer `q` voor SegWit V0 en `p` voor Taproot/SegWit V1. Er wordt ook een controlesom toegevoegd om de integriteit en geldigheid van het adres tijdens de transmissie te garanderen.
 
 
 Tot slot worden de adressen in een standaard formaat gezet:
@@ -1533,8 +1533,8 @@ Tot slot worden de adressen in een standaard formaat gezet:
 
 
 - Base58check voor oude legacy-adressen ;
-- Bech32 voor SegWit adressen ;
-- Bech32m voor Taproot adressen.
+- Bech32 voor SegWit-adressen ;
+- Bech32m voor Taproot-adressen.
 
 
 Hier is de optelmatrix voor bech32 en bech32m formaten (SegWit en Taproot) vanaf basis 10:
@@ -1547,16 +1547,16 @@ Hier is de optelmatrix voor bech32 en bech32m formaten (SegWit en Taproot) vanaf
 | 16 | s | 3 | j | n | 5 | 4 | k | h |
 | 24 | c | e | 6 | m | u | a | 7 | l |
 
-### Wat is Address hergebruik?
+### Wat is adres-hergebruik?
 
 
-Hergebruik van Address is het gebruik van dezelfde ontvangst-adres om verschillende UTXO's te blokkeren.
+Hergebruik van Address is het gebruik van dezelfde ontvangstadres om verschillende UTXO's te blokkeren.
 
 
 Zoals we in de vorige sectie zagen, heeft elke UTXO zijn eigen ScriptPubKey, die het vergrendelt en waaraan voldaan moet worden om de UTXO te kunnen gebruiken als invoer in een nieuwe transactie. Het is binnen deze ScriptPubKey dat payload adressen worden geïntegreerd.
 
 
-Wanneer verschillende ScriptPubKeys dezelfde ontvangst-adres bevatten, wordt dit Address hergebruik genoemd. In de praktijk betekent dit dat een gebruiker herhaaldelijk dezelfde Address heeft verstrekt aan afzenders om bitcoins te ontvangen via meerdere betalingen. En juist deze praktijk is desastreus voor je privacy.
+Wanneer verschillende ScriptPubKeys dezelfde ontvangstadres bevatten, wordt dit Address hergebruik genoemd. In de praktijk betekent dit dat een gebruiker herhaaldelijk dezelfde Address heeft verstrekt aan afzenders om bitcoins te ontvangen via meerdere betalingen. En juist deze praktijk is desastreus voor je privacy.
 
 
 ### Waarom is Address hergebruik een probleem?
@@ -1623,7 +1623,7 @@ Dankzij BIP32 zijn moderne portfolio's nu deterministisch en hiërarchisch. Dit 
 ![BTC204](assets/nl/074.webp)
 
 
-Daarom wordt, wanneer je op de knop "*ontvangen*" drukt in je wallet-software, telkens een ongebruikte ontvangst-adres voorgesteld. Na ontvangst van bitcoins op deze Address, stelt de software automatisch een nieuwe voor.
+Daarom wordt, wanneer je op de knop "*ontvangen*" drukt in je wallet-software, telkens een ongebruikte ontvangstadres voorgesteld. Na ontvangst van bitcoins op deze Address, stelt de software automatisch een nieuwe voor.
 
 
 > *PS: Onlangs hebben sommige wallet softwareprogramma's aangekondigd te willen stoppen met het genereren van blanco adressen, uit angst dat dit door de autoriteiten zal worden gezien als een vorm van geld witwassen. Als uw software een van deze programma's is, raad ik u ten zeerste aan deze onmiddellijk te vervangen, aangezien dit niet acceptabel is voor de gebruiker.*
@@ -3071,7 +3071,7 @@ Voorzichtigheid is ook geboden bij het consolideren van gemengde UTXO's. Matige 
 Het is ook niet aan te raden om je postmix UTXOs naar een wallet over te brengen met scripts die niet veel gebruikt worden. Als je bijvoorbeeld Whirlpool van een Multisig wallet invoert met behulp van `P2WSH` scripts, is de kans klein dat je gemengd wordt met andere gebruikers die oorspronkelijk hetzelfde type wallet hadden. Als u uw postmixen opnieuw mengt naar deze zelfde Multisig wallet, zal het niveau van vertrouwelijkheid van uw gemengde bitcoins sterk afnemen. Naast scripts zijn er nog veel meer wallet vingerafdrukken die u voor de gek kunnen houden.
 
 
-Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangst-adres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, lege Address.
+Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangstadres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, lege Address.
 
 
 De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer u ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen u om fouten te vermijden.
@@ -4304,7 +4304,7 @@ Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkn
 
 
 
-Zoals we in deel 3 zagen, is hergebruik van Address een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin protocol. Om deze risico's te beperken, is het sterk aanbevolen om generate een lege ontvangst-adres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuwe Address nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
+Zoals we in deel 3 zagen, is hergebruik van Address een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin protocol. Om deze risico's te beperken, is het sterk aanbevolen om generate een lege ontvangstadres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuwe Address nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
 
 
 ![BTC204](assets/nl/216.webp)
@@ -4316,7 +4316,7 @@ In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen
 ![BTC204](assets/nl/217.webp)
 
 
-Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuwe ontvangst-adres worden gegenereerd. Dit compromis tussen gebruiksgemak en vertrouwelijkheid gaat terug tot de oorsprong van het Witboek van Bitcoin. Al bij de publicatie van de eerste versie van zijn document eind 2008, waarschuwde Satoshi Nakamoto ons voor dit risico:
+Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuwe ontvangstadres worden gegenereerd. Dit compromis tussen gebruiksgemak en vertrouwelijkheid gaat terug tot de oorsprong van het Witboek van Bitcoin. Al bij de publicatie van de eerste versie van zijn document eind 2008, waarschuwde Satoshi Nakamoto ons voor dit risico:
 
 
 **Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar.**
@@ -5317,7 +5317,7 @@ $$ K0 = B + s ≤ G $$
 - Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van Address afleiden (bijv. SegWit V0 in bech32).
 
 
-Zodra Alice de $K0$ ontvangst-adres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
+Zodra Alice de $K0$ ontvangstadres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ Address te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
 
 
 Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te verzenden:
@@ -5337,7 +5337,7 @@ Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te 
 ![BTC204](assets/nl/236.webp)
 
 
-Als Alice een tweede betaling wil doen, volgt ze dezelfde stappen als voorheen, behalve dat ze deze keer de tweede publieke sleutel selecteert die is afgeleid van de betalingscode van Bob. Om precies te zijn, gebruikt ze de eerstvolgende ongebruikte sleutel. Zo verkrijgt ze een nieuwe ontvangst-adres van Bob, genaamd $K1$ :
+Als Alice een tweede betaling wil doen, volgt ze dezelfde stappen als voorheen, behalve dat ze deze keer de tweede publieke sleutel selecteert die is afgeleid van de betalingscode van Bob. Om precies te zijn, gebruikt ze de eerstvolgende ongebruikte sleutel. Zo verkrijgt ze een nieuwe ontvangstadres van Bob, genaamd $K1$ :
 
 
 ![BTC204](assets/nl/237.webp)
@@ -5531,7 +5531,7 @@ Laten we eens kijken naar de technische werking van Silent Payments om beter te 
 ### Een paar concepten om te begrijpen
 
 
-Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in het adres. Dus een Taproot ontvangst-adres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
+Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in het adres. Dus een Taproot ontvangstadres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
 
 
 ![BTC204](assets/nl/243.webp)
@@ -5802,7 +5802,7 @@ $$ A = A_0 + A_1 + A_2 $$
 Met deze methode hoeft Bob alleen de som van de openbare sleutels van de transactie te berekenen en vervolgens het ECDH-geheim van $A$ alleen, wat het aantal berekeningen dat nodig is voor de scanfase sterk vermindert.
 
 
-Denk echter aan de vorige paragraaf. We hadden de Hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een Nonce om hergebruik van Address te voorkomen:
+Denk echter aan de vorige paragraaf. We hadden de hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een Nonce om hergebruik van Address te voorkomen:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
@@ -5873,7 +5873,7 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 - $b_{{spend}}$ : Bob's privé bestedingssleutel
 - $A$ : Som van ingangen met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
-- $H$: de Hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
+- $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke geheim ECDH
@@ -5959,7 +5959,7 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 - $b_m$: Bob's private bestedingssleutel gelabeld
 - $A$ : Som van ingangen met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
-- $H$: de Hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
+- $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 Hash functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim

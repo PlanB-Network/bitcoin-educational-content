@@ -72,7 +72,7 @@ Eis uma comparação rápida entre o White Noise e algumas das aplicações de m
 
 
 
-Aceda ao [sítio Web do White Noise] (https://www.whitenoise.chat/) e, em seguida, clique em **Download**.
+Aceda ao [sítio Web do White Noise](https://www.whitenoise.chat/) e, em seguida, clique em **Download**.
 
 
 

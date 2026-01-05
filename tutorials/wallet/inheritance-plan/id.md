@@ -434,8 +434,8 @@ Mulailah dengan memilih solusi teknis yang sesuai dengan profil Anda, mengujinya
 
 
 
-- [BIP-65 : OP_CHECKLOCKTIMEVERIFY] (https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) - Spesifikasi kunci waktu absolut (CLTV)
-- [BIP-112: OP_CHECKSEQUENCEVERIFY] (https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) - Spesifikasi kunci waktu relatif (CSV)
+- [BIP-65 : OP_CHECKLOCKTIMEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) - Spesifikasi kunci waktu absolut (CLTV)
+- [BIP-112: OP_CHECKSEQUENCEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) - Spesifikasi kunci waktu relatif (CSV)
 - [Referensi Naskah Mini](https://bitcoin.sipa.be/miniscript/) - Dokumentasi Naskah Mini Resmi oleh Pieter Wuille
 
 
@@ -447,5 +447,5 @@ Mulailah dengan memilih solusi teknis yang sesuai dengan profil Anda, mengujinya
 
 
 - [Liana Wallet](https://wizardsardine.com/liana/) - Wizardsardine
-- [Bitcoin Keeper] (https://bitcoinkeeper.app/) - Bithyve
-- [Heritage Wallet] (https://btc-heritage.com/) - Crypto7
+- [Bitcoin Keeper](https://bitcoinkeeper.app/) - Bithyve
+- [Heritage Wallet](https://btc-heritage.com/) - Crypto7

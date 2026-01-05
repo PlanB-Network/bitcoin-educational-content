@@ -67,7 +67,7 @@ Sélectionnez votre hardware wallet. Dans cet exemple, nous utilisons un Coldcar
 
 Vous trouverez ci-dessous notre tutoriel concernant ce hardware wallet : 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Pour un Coldcard, vous devez exporter les clés publiques depuis le hardware wallet soit avec une connexion USB soit via une carte microSD.
 

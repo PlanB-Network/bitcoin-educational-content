@@ -296,7 +296,7 @@ Para os programadores que constroem com base no KaleidoSwap, a aplicação expõ
 - WebSocket**: Para subscrições de dados de mercado em tempo real.
 
 
-Consulte a [Documentação API] (https://docs.kaleidoswap.com/api/introduction) para obter informações completas sobre os pontos finais e as especificações.
+Consulte a [Documentação API](https://docs.kaleidoswap.com/api/introduction) para obter informações completas sobre os pontos finais e as especificações.
 
 
 ## Conclusão

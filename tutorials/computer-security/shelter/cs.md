@@ -112,7 +112,7 @@ Poté v zobrazené kontextové nabídce znovu klepněte na **Install** a autoriz
 
 
 
-Shelter můžete také nainstalovat z jeho úložiště [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Shelter můžete také nainstalovat z jeho úložiště [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

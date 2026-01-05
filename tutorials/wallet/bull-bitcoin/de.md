@@ -18,7 +18,7 @@ Dieser Leitfaden führt Sie durch die Installation, Konfiguration und Verwendung
 ## Einführung
 
 
-Bull Bitcoin Wallet, entwickelt von [Bull Bitcoin] (https://www.bullbitcoin.com/), ist ein **selbstverwaltetes** Bitcoin wallet, was bedeutet, dass Sie die volle Kontrolle über Ihre privaten Schlüssel und damit über Ihr Geld haben, ohne von einer dritten Partei abhängig zu sein. Open-Source und verwurzelt in einer Cypherpunk-Philosophie, kombiniert dieser Wallet Einfachheit, Vertraulichkeit und fortgeschrittene Funktionen wie netzwerkübergreifende Swaps und PayJoin-Unterstützung. Es ermöglicht Ihnen, Ihre Bitcoins in drei Netzwerken zu verwalten: **Bitcoin onchain**, **Liquid** und **Lightning**, die jeweils auf bestimmte Anwendungen zugeschnitten sind. Auf dem [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49) können Sie sich über aktuelle Themen und kommende Entwicklungen informieren. Da das Projekt zu 100 % quelloffen und "öffentlich gebaut" ist, können Sie auch Ihre Vorschläge und Fehler, auf die Sie stoßen, einsenden. Während einige Wallets mittlerweile mehrere Netzwerke unterstützen, zeichnet sich der Bull Bitcoin Wallet dadurch aus, dass er Datenschutzfunktionen in alle Netzwerke integriert, was ihn zu einem leistungsstarken Tool für die Verwaltung Ihres Bitcoin in allen wichtigen Netzwerken macht
+Bull Bitcoin Wallet, entwickelt von [Bull Bitcoin](https://www.bullbitcoin.com/), ist ein **selbstverwaltetes** Bitcoin wallet, was bedeutet, dass Sie die volle Kontrolle über Ihre privaten Schlüssel und damit über Ihr Geld haben, ohne von einer dritten Partei abhängig zu sein. Open-Source und verwurzelt in einer Cypherpunk-Philosophie, kombiniert dieser Wallet Einfachheit, Vertraulichkeit und fortgeschrittene Funktionen wie netzwerkübergreifende Swaps und PayJoin-Unterstützung. Es ermöglicht Ihnen, Ihre Bitcoins in drei Netzwerken zu verwalten: **Bitcoin onchain**, **Liquid** und **Lightning**, die jeweils auf bestimmte Anwendungen zugeschnitten sind. Auf dem [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) können Sie sich über aktuelle Themen und kommende Entwicklungen informieren. Da das Projekt zu 100 % quelloffen und "öffentlich gebaut" ist, können Sie auch Ihre Vorschläge und Fehler, auf die Sie stoßen, einsenden. Während einige Wallets mittlerweile mehrere Netzwerke unterstützen, zeichnet sich der Bull Bitcoin Wallet dadurch aus, dass er Datenschutzfunktionen in alle Netzwerke integriert, was ihn zu einem leistungsstarken Tool für die Verwaltung Ihres Bitcoin in allen wichtigen Netzwerken macht
 
 
 ## 1️⃣ Voraussetzungen
@@ -50,7 +50,7 @@ Android-Nutzer haben auch andere Möglichkeiten:
 
 
 - Lade die APK direkt von der [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Seite herunter oder
-- Installation über den Nostr-kompatiblen [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
+- Installation über den Nostr-kompatiblen [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
 Nach der Installation der Anwendung folgen Sie dem Willkommensbildschirm, um Ihr Konto zu konfigurieren.
@@ -76,13 +76,13 @@ Hier können wir die erweiterten Einstellungen konfigurieren, bevor wir eine wal
 
 1. Aktiviere den "Tor-Proxy", um den Verkehr über das Tor-Netzwerk zu leiten.
 
-1. die [Orbot-App] (https://orbot.app/en/) muss installiert sein und laufen, bevor sie aktiviert werden kann
+1. die [Orbot-App](https://orbot.app/en/) muss installiert sein und laufen, bevor sie aktiviert werden kann
 
 2. Tor Proxy gilt nur für Bitcoin (nicht Liquid) und kann zu einer langsameren Verbindung führen.
 
 2. Einrichten eines "benutzerdefinierten Electrum Server", oder
 
-3. Passen Sie die Einstellungen von "Recover Bull" an. Wir werden später mehr über [Recover Bull] (https://recoverbull.com/) erfahren.
+3. Passen Sie die Einstellungen von "Recover Bull" an. Wir werden später mehr über [Recover Bull](https://recoverbull.com/) erfahren.
 
 
 Nachdem Sie alle optionalen Einstellungen vorgenommen haben, tippen Sie auf "Fertig". Wenn Sie ein vorhandenes Wallet wiederverwenden möchten, klicken Sie auf "Wallet wiederherstellen" und geben Sie die 12 Wörter Ihrer Wiederherstellungsphrase ein.
@@ -164,7 +164,7 @@ recoverbull" ist ein Sicherungsprotokoll, das die Sicherung Ihres Bitcoin wallet
 Stellen Sie es sich wie ein Bankschließfach vor. Die verschlüsselte Sicherungsdatei ist die *Box*, die Sie überall (z.B. Google Drive) speichern können. Ihre Wiederherstellungs-PIN ist der *Schlüssel*, der separat auf dem Recoverbull Key Server gespeichert ist. Ein Dieb müsste sowohl Ihre spezielle Box als auch Ihren speziellen Schlüssel bekommen, um sie zu öffnen. Dieses Design stellt sicher, dass selbst wenn jemand Ihre Sicherungsdatei erhält, diese ohne den Schlüssel vom Server nutzlos ist, und der Schlüssel des Servers ist ohne Ihre einzigartige Sicherungsdatei nutzlos.
 
 
-Erfahren Sie mehr über das wallet-Sicherungsprotokoll "Recoverbull" [hier] (https://recoverbull.com/).
+Erfahren Sie mehr über das wallet-Sicherungsprotokoll "Recoverbull" [hier](https://recoverbull.com/).
 
 
 Tippen Sie auf "Verschlüsselter Tresor" und dann auf "Fortfahren", um die Verwendung des Standardservers zu bestätigen. Die Verbindung wird über das "Tor"-Netzwerk geleitet, um den Datenschutz und die Anonymität zu gewährleisten.
@@ -276,7 +276,7 @@ Außerdem haben Sie die Möglichkeit,:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Direkt vom wallet aus haben Sie Zugriff auf die [Bull Bitcoin-Börse] (https://www.bullbitcoin.com/), so dass Sie Bitcoin kaufen, verkaufen und bezahlen können, ohne die App zu verlassen. Diese Integration bietet eine bequeme Lösung für die Verwaltung Ihrer Bitcoin Bedürfnisse. Bitte beachten Sie, dass der Zugang zur Börse und ihren Diensten je nach Gerichtsbarkeit eingeschränkt sein kann und dass eine Überprüfung der Kundenidentität (Know Your Customer, KYC) erforderlich sein kann, um die regulatorischen Standards einzuhalten und alle Funktionen der Plattform zu nutzen.
+Direkt vom wallet aus haben Sie Zugriff auf die [Bull Bitcoin-Börse](https://www.bullbitcoin.com/), so dass Sie Bitcoin kaufen, verkaufen und bezahlen können, ohne die App zu verlassen. Diese Integration bietet eine bequeme Lösung für die Verwaltung Ihrer Bitcoin Bedürfnisse. Bitte beachten Sie, dass der Zugang zur Börse und ihren Diensten je nach Gerichtsbarkeit eingeschränkt sein kann und dass eine Überprüfung der Kundenidentität (Know Your Customer, KYC) erforderlich sein kann, um die regulatorischen Standards einzuhalten und alle Funktionen der Plattform zu nutzen.
 
 
 Um loszulegen, tippen Sie auf "Exchange" in der rechten unteren Ecke und dann auf "Anmelden" oder "Login" für Ihr Konto.
@@ -331,7 +331,7 @@ Es gibt zwei primäre Modi für die Generierung einer Empfangsadresse:
 **Standardmodus (URI mit zusätzlichen Eingabeparametern)
 
 
-Standardmäßig erzeugt der wallet eine [BIP21 URI] (https://bips.dev/21/). Dabei handelt es sich um ein standardisiertes Format, das mehr Informationen als eine einfache Adresse enthält, darunter einen Betrag, eine persönliche Notiz und PayJoin-Parameter zur Verbesserung des Datenschutzes. Diese umfassende URI wird in einen QR-Code kodiert und zum Kopieren zur Verfügung gestellt. Das Format sieht wie folgt aus: bitcoin:<Adresse>?<Parameter1>=<Wert1>&<Parameter2>=<Wert2>`.
+Standardmäßig erzeugt der wallet eine [BIP21 URI](https://bips.dev/21/). Dabei handelt es sich um ein standardisiertes Format, das mehr Informationen als eine einfache Adresse enthält, darunter einen Betrag, eine persönliche Notiz und PayJoin-Parameter zur Verbesserung des Datenschutzes. Diese umfassende URI wird in einen QR-Code kodiert und zum Kopieren zur Verfügung gestellt. Das Format sieht wie folgt aus: bitcoin:<Adresse>?<Parameter1>=<Wert1>&<Parameter2>=<Wert2>`.
 
 
 

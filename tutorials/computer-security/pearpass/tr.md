@@ -101,7 +101,7 @@ MacOS üzerinde, PearPass bir disk imajı (`.dmg`) olarak dağıtılır. Resmi i
 
 
 
-Linux'ta PearPass, herhangi bir özel bağımlılık olmadan çoğu dağıtımla geniş uyumluluğu garanti eden `.AppImage` formatında mevcuttur. .AppImage` dosyasını [resmi indirme sayfası] (https://pass.pears.com/download) adresinden indirin, ardından çift tıklayarak doğrudan başlatın.
+Linux'ta PearPass, herhangi bir özel bağımlılık olmadan çoğu dağıtımla geniş uyumluluğu garanti eden `.AppImage` formatında mevcuttur. .AppImage` dosyasını [resmi indirme sayfası](https://pass.pears.com/download) adresinden indirin, ardından çift tıklayarak doğrudan başlatın.
 
 
 
@@ -113,7 +113,7 @@ Ortamınıza bağlı olarak, dosyayı dosya özellikleri (sağ tıklama) veya `c
 
 
 
-PearPass, web'de gezinirken otomatik oturum açma ve kasanıza hızlı erişim için bir tarayıcı uzantısı sunar. Uzantı şu anda Google Chrome ve uyumlu tarayıcılar için kullanılabilir. Yüklemek için [resmi indirme sayfası] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh) adresine gidin.
+PearPass, web'de gezinirken otomatik oturum açma ve kasanıza hızlı erişim için bir tarayıcı uzantısı sunar. Uzantı şu anda Google Chrome ve uyumlu tarayıcılar için kullanılabilir. Yüklemek için [resmi indirme sayfası](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh) adresine gidin.
 
 
 

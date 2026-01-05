@@ -234,7 +234,7 @@ Tx0 की पुष्टि हो जाने के बाद, पहला
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 अपने प्रत्येक टुकड़े द्वारा किए गए रीमिक्स की संख्या देखने के लिए, `पोस्टमिक्स` खाते में `UTXOs` मेनू खोलें।
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## पोस्टमिक्स का प्रबंधन कैसे करें?
 

@@ -405,8 +405,8 @@ Denne veiledningen dekker de viktigste funksjonene i gratisversjonen av Bitcoin 
 
 
 
-- Offisiell nettside: [bitcoinkeeper.app] (https://bitcoinkeeper.app)
+- Offisiell nettside: [bitcoinkeeper.app](https://bitcoinkeeper.app)
 - Hjelpesenter: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
-- Kildekode: [github.com/bithyve/bitcoin-keeper] (https://github.com/bithyve/bitcoin-keeper)
-- Telegram : [t.me/BitcoinKeeper] (https://t.me/BitcoinKeeper)
-- Twitter / X: [@bitcoinkeeper_] (https://x.com/bitcoinkeeper_)
+- Kildekode: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
+- Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
+- Twitter / X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -12,7 +12,7 @@ description: Pesan terdesentralisasi dan bebas Internet untuk komunikasi gratis
 *Video tutorial dari BTC Sessions ini akan memandu Anda melalui proses pengaturan dan penggunaan Bitchat!
 
 
-Bitchat muncul dari upaya pembuatan prototipe yang cepat di mana [@jack] (https://primal.net/jack) mengembangkan konsep awal selama sesi coding di akhir pekan. [@calle](https://primal.net/calle) bergabung dengan proyek ini tidak lama kemudian untuk ikut mengembangkan implementasi Android. Jack saat ini memimpin pengembangan versi iOS, sementara calle mengawasi versi Android dengan dukungan dari banyak kontributor lainnya.
+Bitchat muncul dari upaya pembuatan prototipe yang cepat di mana [@jack](https://primal.net/jack) mengembangkan konsep awal selama sesi coding di akhir pekan. [@calle](https://primal.net/calle) bergabung dengan proyek ini tidak lama kemudian untuk ikut mengembangkan implementasi Android. Jack saat ini memimpin pengembangan versi iOS, sementara calle mengawasi versi Android dengan dukungan dari banyak kontributor lainnya.
 
 
 ## Pendahuluan: Mengobrol dengan Bebas, Tanpa Kisi-kisi
@@ -282,7 +282,7 @@ Saluran Geohash memungkinkan percakapan yang ditargetkan berdasarkan `lokasi geo
 ### Bagaimana `#geohash` bekerja
 
 
-Sistem ini membagi dunia ke dalam kotak-kotak grid menggunakan [sistem Geohash] (https://en.wikipedia.org/wiki/Geohash), di mana setiap karakter dalam hash merepresentasikan presisi yang lebih tinggi:
+Sistem ini membagi dunia ke dalam kotak-kotak grid menggunakan [sistem Geohash](https://en.wikipedia.org/wiki/Geohash), di mana setiap karakter dalam hash merepresentasikan presisi yang lebih tinggi:
 
 
 
@@ -319,7 +319,7 @@ Atau, Anda dapat mengetuk `ikon peta` untuk menggunakan tampilan peta guna menen
 ## 8️⃣ Peta Panas
 
 
-Peta panas adalah cara yang keren untuk menemukan acara dan saluran Bitchat di seluruh dunia. [Bitmap] (https://bitmap.lat/) memvisualisasikan dan melacak pesan-pesan anonim berbasis lokasi di seluruh jaringan Nostr, menampilkan acara-acara Nostr yang bersifat sementara. Lihat dan bergabunglah dengan saluran dan obrolan khusus lokasi.
+Peta panas adalah cara yang keren untuk menemukan acara dan saluran Bitchat di seluruh dunia. [Bitmap](https://bitmap.lat/) memvisualisasikan dan melacak pesan-pesan anonim berbasis lokasi di seluruh jaringan Nostr, menampilkan acara-acara Nostr yang bersifat sementara. Lihat dan bergabunglah dengan saluran dan obrolan khusus lokasi.
 
 
 ![image](assets/en/15.webp)

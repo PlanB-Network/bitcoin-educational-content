@@ -72,7 +72,7 @@ Hier is een snelle vergelijking tussen White Noise en een aantal van de bekendst
 
 
 
-Ga naar de [White Noise website] (https://www.whitenoise.chat/) en klik op **Download**.
+Ga naar de [White Noise website](https://www.whitenoise.chat/) en klik op **Download**.
 
 
 

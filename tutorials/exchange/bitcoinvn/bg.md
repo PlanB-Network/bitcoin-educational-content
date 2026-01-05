@@ -143,6 +143,6 @@ description: Кратко ръководство предоставя ръков
 - [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
 - [Facebook](https://www.facebook.com/www.bitcoinvn.io)
 - [X](https://x.com/Bitcoin_Vietnam) (бивш Twitter)
-- [TikTok] (https://www.tiktok.com/@bitcoinvn.io)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
 - [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
 - [Последни новини](https://bitcoinvn.io/news/)

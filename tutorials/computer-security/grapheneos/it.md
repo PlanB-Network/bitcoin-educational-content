@@ -22,6 +22,7 @@ GrapheneOS, originariamente fondato nel 2014 come 'CopperheadOS', si basa sul tr
 
 *Questo tutorial è un adattamento del contenuto originale pubblicato da [BitcoinQnA su Bitcoiner.Guide sotto licenza MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), a cui va tutto il merito per il lavoro di redazione iniziale.*
 
+
 ## Perché utilizzare GrapheneOS?
 
 I telefoni moderni sono dispositivi di tracciamento e raccolta dati da $500 a $1000. Attraverso di essi passa ogni aspetto della nostra vita e, sfortunatamente, gran parte di questi dati viene condivisa con terze parti in qualche forma.
@@ -68,7 +69,7 @@ Tutto ciò di cui hai bisogno è:
 - Un computer con un browser web (qualsiasi browser basato su Chromium: Chrome, Edge, Brave, ecc.).
 
 1. Il primo passo è andare su **Impostazioni** > **Informazioni sul telefono** e toccare ripetutamente il numero di build fino a quando non vedi che **'Modalità sviluppatore'** è attivata.
-2. Successivamente, vai su **Impostazioni** > **Sistema** > **Opzioni sviluppatore** e abilita **'Sblocco OEM'**.
+2. Successivamente, vai su **Impostazioni** > **Sistema** > **Opzioni sviluppatore** e abilita '**Sblocco OEM**'.
 3. Riavvia il dispositivo e tieni premuto il pulsante del volume in giù mentre il telefono si riaccende.
 4. Collega il telefono al tuo laptop e, se richiesta l'autorizzazione, permetti la connessione.
 5. Nella pagina del web installer, fai clic su 'Sblocca il bootloader'.
@@ -101,7 +102,7 @@ Ora che sei pronto, potresti notare quanto sia essenziale GrapheneOS all'install
 _App preinstallate_
 
 Gli unici due termini con cui potresti non essere familiare sono 'Auditor' e 'Vanadium'.
-- 'L'app [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) utilizza funzionalità di sicurezza basate sull'hardware per convalidare l'identità di un dispositivo insieme all'autenticità e all'integrità del sistema operativo. Verificherà che il dispositivo stia eseguendo il sistema operativo di serie con il bootloader bloccato e che non siano state apportate modifiche al sistema operativo.'
+- L'app [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) utilizza funzionalità di sicurezza basate sull'hardware per convalidare l'identità di un dispositivo insieme all'autenticità e all'integrità del sistema operativo. Verificherà che il dispositivo stia eseguendo il sistema operativo di serie con il bootloader bloccato e che non siano state apportate modifiche al sistema operativo.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) è una variante del browser web Chromium rinforzata per la privacy e la sicurezza.
 
 

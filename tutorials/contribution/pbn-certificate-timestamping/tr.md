@@ -12,7 +12,7 @@ Bu yazıyı okuyorsanız, planb.network'te katıldığınız kurslardan biri iç
 Bu eğitimde, Plan ₿ Academy'ün ₿-CERT test sertifikanız veya Kurs Tamamlama ile ilgili herhangi bir Diploma için doğrulanabilir kanıtları nasıl düzenlediğini keşfedeceğiz. Daha sonra, ikinci bir bölümde bu kanıtların gerçekliğini nasıl doğrulayacağımızı açıklayacağız.
 
 
-# Plan ₿ Academy kanıt mekanizması
+## Plan ₿ Academy kanıt mekanizması
 
 
 Plan ₿ Academy'te, sertifikaları ve diplomaları kriptografik olarak imzalıyoruz ve iki kriptografik işleme dayanan bir kanıt mekanizması aracılığıyla Zaman Zincirini (yani Bitcoin Blockchain) kullanarak bunları zaman damgasıyla damgalıyoruz:
@@ -34,7 +34,7 @@ Bu basit kanıt mekanizmasının, herkesin bağımsız olarak doğrulayabileceğ
 Bu kanıt mekanizması sayesinde, sertifikanızın veya diplomanızın en küçük ayrıntısını bile değiştirmeye yönelik herhangi bir girişim, imzalı dosyanın tamamen farklı bir SHA-256 Hash'u ile sonuçlanacak ve hem imza hem de Timestamp artık geçerli olmayacağından, herhangi bir tahrifatı anında ortaya çıkaracaktır. Dahası, herhangi biri Plan ₿ Academy adına kötü niyetle sertifika veya diploma taklit etmeye kalkışırsa, imzanın basit bir şekilde doğrulanması sahtekarlığı ortaya çıkaracaktır.
 
 
-## GPG-imzası nasıl çalışır?
+### GPG-imzası nasıl çalışır?
 
 
 GPG imzası, GNU Privacy Guard adlı açık kaynaklı bir yazılım kullanılarak oluşturulur. Bu yazılım kullanıcıların kolayca özel anahtarlar oluşturmasına, imzaları imzalamasına ve doğrulamasına ve dosyaları şifrelemesine ve şifrelerini çözmesine olanak tanır. Bu eğitimin amaçları doğrultusunda, Plan ₿ Academy'in özel/genel anahtarlarını oluşturmak ve tüm ₿-CERT Sertifikalarını ve Kurs Tamamlama Diplomalarını imzalamak için GPG kullandığını belirtmek önemlidir.
@@ -46,7 +46,7 @@ GPG imzası, GNU Privacy Guard adlı açık kaynaklı bir yazılım kullanılara
 Merak edenler ve bu harika yazılım hakkında daha fazla bilgi edinmek isteyenler için ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) adresine başvurabilirsiniz
 
 
-## Zaman damgası nasıl çalışır?
+### Zaman damgası nasıl çalışır?
 
 
 Herkes OpenTimestamps'ı kullanarak bir dosyayı Timestamp'ye ekleyebilir ve dosyanın varlığına dair doğrulanabilir bir kanıt elde edebilir. Başka bir deyişle, dosyanın ne zaman oluşturulduğuna dair kanıt sağlamaz, daha ziyade dosyanın zaman içinde belirli bir andan daha geç var olmadığına dair kanıt sağlar.
@@ -56,10 +56,10 @@ OpenTimestamps, Bitcoin Blockchain'te kanıt depolamak için oldukça verimli bi
 Bu işlem bir bloğa girdiğinde, ilk dosyaya ve onunla ilişkili `.ots` dosyasına sahip olan herkes zaman damgasının gerçekliğini doğrulayabilir. Eğitimin ikinci bölümünde, OpenTimestamps web sitesinde Bitcoin Sertifikanızı veya herhangi bir Kurs Tamamlama Diplomanızı teminal ve grafiksel bir Interface aracılığıyla nasıl doğrulayacağınızı göreceğiz.
 
 
-# Plan ₿ Academy ₿-CERT sertifikası veya Diploması nasıl doğrulanır?
+## Plan ₿ Academy ₿-CERT sertifikası veya Diploması nasıl doğrulanır?
 
 
-## 1. Adım Sertifikanızı veya Diplomanızı İndirin
+### 1. Adım Sertifikanızı veya Diplomanızı İndirin
 
 
 Planb.network adresinden kişisel/öğrenci panonuza giriş yapın.
@@ -89,7 +89,7 @@ Zip dosyasını indirin.
 - Bir PDF sertifikası (örn. certificate.pdf)
 
 
-## Adım 2: Metin Dosyasının İmzasını nasıl doğrulayabilirsiniz?
+### Adım 2: Metin Dosyasının İmzasını nasıl doğrulayabilirsiniz?
 
 
 İlk olarak, dosyaları çıkardığınız klasöre gidin ve bir terminal açın (klasör penceresine sağ tıklayın ve "Teminal'de Aç" seçeneğine tıklayın). Ardından, aşağıdaki talimatları izleyin.
@@ -147,10 +147,10 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 "BAD signature" gibi bir mesaj görürseniz, bu dosyanın tahrif edildiği anlamına gelir.
 
 
-## Adım 3: Açık Timestamp'ün Doğrulanması
+### Adım 3: Açık Timestamp'ün Doğrulanması
 
 
-### Grafiksel Interface ile Doğrulama
+#### Grafiksel Interface ile Doğrulama
 
 
 1. OpenTimestamps web sitesini ziyaret edin: https://opentimestamps.org/
@@ -170,7 +170,7 @@ Aşağıdaki gibi bir mesaj görürseniz, Timestamp geçerlidir:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 
-### CLI Yöntemi
+#### CLI Yöntemi
 
 
 NOT: bu prosedür **çalışan bir yerel Bitcoin düğümü gerektirecektir**
@@ -204,7 +204,7 @@ Bu komut:
 - Timestamp'ün gerçekliğini teyit edin
 
 
-### Nihai sonuçlar
+#### Nihai sonuçlar
 
 
 Aşağıdaki mesajların **her ikisi** de görüntülenirse doğrulama başarılı olur:

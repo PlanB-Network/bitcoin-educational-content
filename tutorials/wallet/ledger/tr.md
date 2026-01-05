@@ -25,13 +25,13 @@ Bu eğitimde, büyük meblağları saklamak için gelişmiş bir güvenlik çöz
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 
-# Ledger'i Sparrow'ye bağlayın Bitcoin Wallet (yazma kılavuzu)
+## Ledger'i Sparrow'ye bağlayın Bitcoin Wallet (yazma kılavuzu)
 
 
 Önce "Bitcoin Donanım Cüzdanlarını Kullanma" başlıklı diğer parçayı gözden geçirdiğinizden emin olun. Burada bazı adımları gözden geçireceğim ve çoğunlukla Ledger'e özgü olanlara odaklanacağım.
 
 
-## Cihazın kurulumu
+### Cihazın kurulumu
 
 
 Ledger kendi USB kablosuyla birlikte gelir. Bunu kullandığınızdan emin olun ve herhangi bir eski kabloyu kullanmayın. Bazı USB kabloları sadece güç sağlar. Bu kablo hem veri hem de güç iletiyor. Cihazı etrafta duran bir telefon şarj USB kablosuyla kullandığımda, cihaz bağlanamadı.
@@ -72,7 +72,7 @@ Bir sonraki kısım çok can sıkıcı. 24 kelimeyi karıştırıyor ve 1'den 24
 Kontrol panelinizde bir ayarlar düğmesi ve uygulamaları yüklemenizi sağlayan bir artı işareti düğmesi olduğunu göreceksiniz. Ama önce Ledger Live'a bağlanmanız gerekiyor. Bunu daha sonra yapacağız..
 
 
-## Ledger Canlı İndir
+### Ledger Canlı İndir
 
 
 Ledger Live'ı web sayfasından indirebilirsiniz, ancak kaynak kodunun tutulduğu GitHub'dan edinmek daha iyidir.
@@ -125,7 +125,7 @@ Hash'ün çıktısına bakın ve GitHub'da yayınlananla aynı olduğundan emin 
 İdeal olarak, ekstra süslü olmak ve yayınlanan hash'lerin sahte olmadığından emin olmak istersiniz. Bunu gpg imzaları ile yaparız, ancak bu makalenin kapsamı dışındadır. Eğer bu konuda bilgi edinmek istiyorsanız (ki eninde sonunda öğrenmenizi öneririm) bu makaleye göz atabilirsiniz.
 
 
-## Ledger Live'a bağlanın
+### Ledger Live'a bağlanın
 
 
 Ledger Live'ı çalıştırmadan önce, bir VPN açmak gizliliğe biraz yardımcı olur. Ledger yine de tüm adreslerinizi alacaktır, ancak evinizdeki Address'yı ele veren IP Address'nızı bilmeyeceklerdir. Mullvad VPN mükemmel bir VPN hizmetidir ve çok pahalı değildir (reklam yapmıyorum, sadece kullandığım şey bu).
@@ -184,7 +184,7 @@ Daha önce cihazda bir ayarlar düğmesi ve bir artı işareti düğmesi olduğu
 Ledger Live'ı şimdi kapatabilirsiniz.
 
 
-## Bir passphrase ekleyin
+### Bir passphrase ekleyin
 
 
 Artık Bitcoin Uygulamasına sahip olduğumuza göre, seed cümlemize bir passphrase ekleyebiliriz. seed ilk oluşturulduğunda bunu daha önce yapamıyorduk çünkü başlangıçta Bitcoin Uygulamamız yoktu ve onu almak için Ledger Live'a bağlanmamız gerekiyordu.
@@ -205,7 +205,7 @@ Sizden "Mevcut PIN" kodunu isteyecektir. Bu, yeni passphrase ile ilişkilendirdi
 Şimdi geri seçeneğini birkaç kez seçerek ana menüye çıkabilirsiniz.
 
 
-## Wallet izleniyor
+### Wallet izleniyor
 
 
 Önceki makalelerde, Sparrow wallet'yi nasıl indireceğinizi ve doğrulayacağınızı ve kendi düğümünüze veya genel bir düğüme nasıl bağlayacağınızı açıkladım. Bu kılavuzları takip etmelisiniz:
@@ -277,7 +277,7 @@ Bir duraklamadan sonra, bilgisayar düşünürken, soldaki düğmelerin griden m
 ![image](assets/21.webp)
 
 
-## Teslim alma
+### Teslim alma
 
 
 Bazı Bitcoin'ları almak için soldaki Adresler sekmesine gidin ve alınacak adreslerden birini seçin. İstediğiniz Address'e sağ tıklayın ve "Address'i kopyala" seçeneğini seçin. Ardından paranın gönderildiği Exchange'ünüze gidin ve oraya yapıştırın. Ya da Address'i size ödeme yapmak için kullanabilecek bir müşteriye verebilirsiniz.
@@ -289,7 +289,7 @@ Wallet'u ilk kez kullandığınızda, çok küçük bir miktar almalısınız, W
 Bunu yaptıktan sonra, yazdığınız kelimeleri yedeklemelisiniz. Tek bir kopya yeterli değildir. En az iki kağıt kopyanız olsun (metal daha iyidir) ve bunları iki farklı, iyi korunmuş yerde saklayın. Bu, doğal bir felaketin HWW'nizi ve kağıt yedeklemenizi tek bir olayda yok etme riskini azaltır. Bu konuda tam bir tartışma için "Bitcoin Donanım Cüzdanlarının Kullanımı" bölümüne bakın.
 
 
-## Gönderme
+### Gönderme
 
 
 ![image](assets/22.webp)
@@ -304,13 +304,13 @@ HWW bağlı olmadığı sürece Wallet işlemi imzalayamaz. Bu HWW'nin görevidi
 Ayrıca, ödeme tutarından daha büyük bir Coin kullanmayı seçerseniz, kalanın cüzdanlarınızın değişim adreslerinden birine geri gönderileceğine dikkat edin. Bazı kişiler bunu bilmemektedir ve işlemlerini herkese açık bir Blockchain'da aramış ve bir miktar Bitcoin'in bir saldırganın Address'sine gönderildiğini düşünmüştür, ancak aslında bu kendi değişim Address'leridir.
 
 
-## Ürün Yazılımı
+### Ürün Yazılımı
 
 
 Ürün yazılımını güncellemek için Ledger Live'a bağlanmanız gerekir. Bunu yapmak istiyorsanız, önce cihazı silmeli ve cihazı geri yüklemek için yedek kelimelerinizin ve passphrase'ın mevcut olduğundan emin olmalısınız. Önce cihazı silmeyi tercih etmemin nedeni, aygıt yazılımını güncellemek için cihazınızı Ledger Live'a bağlamanız gerekmesi ve yeni Wallet'nizi (passphrase'lı olan) asla Ledger Live'a maruz bırakmamayı tercih etmem. Ledger Live'a bağlandığımda Ledger'in cihazdan açık anahtar bilgilerimi almadığına güvenmiyorum. Yapmadıklarını iddia ediyorlar, ancak kodu okumadan ve dahili donanımı da anlamadan bunu kendim doğrulayamam.
 
 
-## Sonuç
+### Sonuç
 
 
 Bu makale size bir Ledger HWW'yi reklamı yapılandan daha güvenli ve daha özel bir şekilde nasıl kullanacağınızı gösterdi - ancak bu makale tek başına yeterli değil. Başta da söylediğim gibi, bunu "Bitcoin Donanım Cüzdanlarının Kullanımı" bölümünde verilen bilgilerle birleştirmelisiniz.

@@ -3,7 +3,7 @@ name: White Noise
 description: Một ứng dụng nhắn tin riêng tư, phi tập trung dựa trên giao thức Nostr và MLS.
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

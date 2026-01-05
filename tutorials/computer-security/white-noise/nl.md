@@ -3,7 +3,7 @@ name: White Noise
 description: Een besloten, gedecentraliseerde berichtentoepassing gebaseerd op de Nostr en MLS protocollen
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

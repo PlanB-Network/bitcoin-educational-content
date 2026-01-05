@@ -14,7 +14,7 @@ I denne veiledningen lærer vi om Aurora Store, et enkelt, åpent og sikkert alt
 
 
 
-# Kom i gang med Aurora Store
+## Kom i gang med Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Fra Aurora Store kan du få tilgang til katalogen over applikasjoner som er tilg
 
 
 
-## Funksjoner
+### Funksjoner
 
 
 

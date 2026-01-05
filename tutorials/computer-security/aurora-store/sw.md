@@ -14,7 +14,7 @@ Katika somo hili, tunagundua Aurora Store, njia rahisi, huria na salama ya Googl
 
 
 
-# Kuanza na Aurora Store
+## Kuanza na Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Kutoka kwa Aurora Store, unaweza kufikia orodha ya programu zinazopatikana kweny
 
 
 
-## Vipengele
+### Vipengele
 
 
 

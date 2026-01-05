@@ -3,7 +3,7 @@ name: Shelter
 description: Utilisez le même téléphone pour le travail et pour la vie privée avec Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 ## Introduction
 

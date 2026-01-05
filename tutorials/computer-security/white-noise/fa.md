@@ -3,7 +3,7 @@ name: White Noise
 description: یک برنامه پیام‌رسان خصوصی و غیرمتمرکز بر اساس پروتکل‌های Nostr و MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

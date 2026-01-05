@@ -3,7 +3,7 @@ name: White Noise
 description: Aplikasi perpesanan pribadi yang terdesentralisasi berdasarkan protokol Nostr dan MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

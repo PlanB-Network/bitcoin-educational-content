@@ -711,9 +711,25 @@ Les récompenses de minage se font selon le modèle dit [FPPS (Full Pay Per Shar
 
 #### Ocean Mining
 
-Ocean Mining est une des pool les plus récentes du paysage du mining Mondial et a pour objectif de permettre donner aux mineurs individuels plus qu'à la pool le pouvoir de choisir quelles transaction sont à inclure dans un bloc.
-Cette Pool a été créée  à telle date par blabla, à l'initiative de, soutenue et financée par.
-Datum
+Ocean Mining est une des pool d'envergure (environ 25Eh/s au moment où sont écrit ces lignes) les plus récentes du paysage du mining. Lancée en novembre 2023 sous l'impulsion de [Luke Dashjr](https://x.com/LukeDashjr)  (une figure tumultueuse de l'écosystème bitcoin doublé d'un développeur talentueux, contributeur à Bitcoin Core et beaucoup d'autres projets) et financé notemment pas le célèbre [Jack Dorsey](https://x.com/jack) a pour objectif de redonner le pouvoir aux mineurs individuels.
+
+L'accent est ainsi mis sur la possibilité pour chaque mineur de construire son propre bloc en sélectionnant les transactions qui lui importent grâce au protocole DATUM, un dérivé de STRATUM V2. En synthèse les mineurs sont en contrôle, la pool ne sert qu'à répartir les récompense et calculer le travail fournit par chacun, mais ne choisit pas les transactions à inclure, augmentant ainsi la décentralisation et diminuant ale risque de censure.
+
+![Image](assets/fr/058.webp)
+
+OCEAN est une pool qui se veut non custodiale, c'est à dire que les mineurs sont directement récompensés via la transaction coinbase de chaque bloc.
+Toute les récompenses au dessus de la limite de 0.01048576 BTC sont versées via la transaction Coinbase directement, sinon il y a un quand même un peu de confiance nécessaire le temps d'atteindre cette limite pour retirer ses bitcoins.
+
+Pour ceux qui ne souhaitent pas attendre cette limite pour retirer leurs précieux satoshis, comme les solominers que nous nous sommes, il est possible de mettre en place de "payout lightning" permettant même au très petit contributeurs de récupérer leur part du gateau.
+
+Les personnalisation des blocs est un feature amusante qui permet aux mineurs individuels de marquer leur nom à jamais dans la blockchain bitcoin. Même si les récompenses sont partagées, le mineur qui a trouvé le blocs laisse une trace indélébile.
+
+Aucun KYC n'est bien sur demandé.
+
+![Image](assets/fr/059.webp)
+
+
+
 ## 3.4 Découverte d'AxeOS
 
 

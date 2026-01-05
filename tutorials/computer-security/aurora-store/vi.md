@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá Aurora Store, một giải 
 
 
 
-# Bắt đầu với Aurora Store
+## Bắt đầu với Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Từ Aurora Store, bạn có thể truy cập danh mục ứng dụng có sẵn 
 
 
 
-## Đặc trưng
+### Đặc trưng
 
 
 

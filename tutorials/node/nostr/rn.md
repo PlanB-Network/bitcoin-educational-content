@@ -4,7 +4,7 @@ description: Vumbura kandi utangure gukoresha NOSTR
 ---
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 

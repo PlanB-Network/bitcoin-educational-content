@@ -2,9 +2,9 @@
 name: LNbits
 description: Piattaforma di contabilità commerciale
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Sistema di contabilità
+## Sistema di contabilità
 
 LNbits è dotato di molti strumenti per controllare e incanalare i fondi in entrata e in uscita, collegare il vostro negozio web o anche dispositivi come un portafoglio hardware o un bancomat che avete costruito voi stessi. I tipi di utente includono:
 
@@ -15,7 +15,7 @@ LNbits è dotato di molti strumenti per controllare e incanalare i fondi in entr
 - Operatori di nodi che desiderano integrare il proprio nodo con il sistema LNbits a fini contabili.
 - Tutti hanno esigenze diverse. Costruiamo LNbits in modo modulare, in modo che ogni utente possa utilizzare le nostre funzioni nel modo più adatto a lui.
 
-# Gestore del portafoglio
+## Gestore del portafoglio
 
 LNbits è un sistema di contabilità gratuito e open-source, non un gestore di nodi. La gestione dei canali è di competenza del nodo Lightning collegato a LNbits come fonte di finanziamento, come LND o c-lightning. Il superutente o l'utente amministratore del sistema LNbits sono responsabili della gestione dell'accessibilità complessiva e della configurazione delle funzioni di contabilità e delle estensioni interne.
 
@@ -29,11 +29,11 @@ Offrirete loro un modo semplice per aprire un "conto bancario" sul vostro nodo s
 
 NOTA: tutti i fondi che i vostri "clienti" depositano nei loro conti bancari LNbits sul vostro nodo, andranno direttamente nei canali LN del vostro nodo. Questo significa che TU sei il vero proprietario di quei fondi. Avrete una grande responsabilità per i loro fondi. Non siate malvagi e non scappate con i fondi, non siate malvagi e non applicate commissioni elevate. Vogliamo fottere i banchieri della fiat, non fottere gli altri (utenti bitcoin).
 
-# Piattaforma demo
+## Piattaforma demo
 
 La demo si trova all'indirizzo [https://legend.lnbits.com](https://legend.lnbits.com). È completamente funzionante e può essere utilizzata per conoscere la rete Lightning e le caratteristiche di LNbits e LNURL in generale. Sebbene non possiamo impedirvi di utilizzarla, vi chiediamo di non usarla per la vostra configurazione di produzione. Non solo lavoriamo spesso sui server per testare nuove funzionalità, ma vorremmo anche incoraggiarvi a gestire il vostro nodo e LNbits in modo sovrano. Se pensate che gestire un nodo sia troppo impegnativo per il momento, potete collegare LNbits a un servizio di finanziamento custode nel cloud come Opennode, Luna o Votage o al Lightning Tipbot su Telegram, solo per citarne alcuni.
 
-# Volantino LNbits
+## Volantino LNbits
 
 Volete consegnare alcune informazioni di base a un commerciante o a un vostro amico costruttore? Siamo lieti di annunciare il nostro primo volantino a disposizione di tutti. Il formato è quello tipico di un volantino di 6 pagine (2 pieghe) con una larghezza di 3508 e un'altezza di 2480px.
 
@@ -41,7 +41,7 @@ LNbits per i commercianti: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/
 
 LNbits per i costruttori: [EN](/assets/lnbits-builders-it.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# Alcune nozioni di base
+## Alcune nozioni di base
 
 LNbits funziona sulla base del protocollo LNURL, il che significa che le richieste sono valide in due forme: o come link https://clearnet (non sono ammessi certificati autofirmati) o come link http://v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).
 
@@ -66,9 +66,9 @@ Guide più dettagliate sull'utilizzo di LNbit in scenari d'uso specifici qui:
 - [Avvia il tuo mercato NOSTR con LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Guida alla sottostazione
 - [Utilizzo di LNbits per progetti scolastici o per eventi di festival](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) Guida all'utilizzo di Substack
 
-# Installare LNbits
+## Installare LNbits
 
-## Guida all'installazione di base
+### Guida all'installazione di base
 
 LNbits può essere installato su qualsiasi macchina con sistema operativo Linux. Non richiede una macchina o un server potente, ma solo sufficiente memoria RAM e spazio su disco per il database. Può essere eseguito separatamente da un nodo BTC/LN (PC locale o VPS remoto) o insieme sulla stessa macchina con il nodo o già installato in una macchina software del nodo.
 
@@ -87,13 +87,13 @@ Per tutti coloro che sono alle prime armi, troverete guide dettagliate passo-pas
 
 Per i nodi software bundle, fare riferimento alla loro documentazione specifica su LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 Se non siete interessati alle questioni tecniche e non volete ospitare la vostra fonte di finanziamento o il vostro LNbits, potete utilizzare [LNbits SaaS version](https://saas.lnbits.com) (Software-as-a-service). È fondamentalmente come LNbits in un cloud, ma potete definire voi stessi la fonte di finanziamento (ad esempio il vostro Nodo, un portafoglio LNbits, il LNtipbot, il fakewallet, ecc.) e le variabili di ambiente - cosa che per lo più non avviene in altre soluzioni cloud.
 
 [Ecco una guida dettagliata su come utilizzare LNbits SaaS per casi d'uso specifici](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
-## Fonti di finanziamento
+### Fonti di finanziamento
 
 LNbits non è un software per la gestione dei nodi, ma un sistema di contabilità focalizzato sugli LN in aggiunta a una fonte di finanziamento LND o CLN. Dopo la prima installazione è possibile visitare il proprio LNbits all'indirizzo http://localhost:5000/.
 
@@ -113,7 +113,7 @@ Un portafoglio backend (fonte di finanziamento) può essere configurato utilizza
 
 Se si desidera utilizzare la versione .env, è possibile trovare i parametri qui:
 
-### Fulmine di nucleo
+#### Fulmine di nucleo
 
 
 - CLN
@@ -124,7 +124,7 @@ Se si desidera utilizzare la versione .env, è possibile trovare i parametri qui
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - sPARK_TOKEN`: chiave_di_accesso_segreta
 
-### Demone della rete Lightning
+#### Demone della rete Lightning
 
 
 - LND (RIPOSO)
@@ -147,7 +147,7 @@ Si può anche usare un amaretto crittografato con AES (maggiori informazioni) us
 
 Per criptare il macaroon, eseguire `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
-### LNbits (un'altra istanza di LNbits)
+#### LNbits (un'altra istanza di LNbits)
 
 
 - Istanza LNbits ospitata su un server cloud o sul proprio server domestico
@@ -159,7 +159,7 @@ Per criptare il macaroon, eseguire `./venv/bin/python lnbits/wallets/macaroon/ma
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Fulmine TipBot
+#### Fulmine TipBot
 
 Per collegare il [Lightning Tipbot](https://t.me/LightningTipBot) da Telegram è necessario impostare i seguenti parametri:
 
@@ -170,13 +170,13 @@ Per collegare il [Lightning Tipbot](https://t.me/LightningTipBot) da Telegram è
 
 Si veda anche questo tutorial su come installare [LNbits con LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-### HUB IBEX
+#### HUB IBEX
 
 Registratevi [qui](https://ibexpay.ibexmercado.com/onboard) e poi prendete le vostre chiavi/token da lì, il punto finale è https://ibexpay-api.ibexmercado.com.
 
 Per maggiori informazioni, vedere [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-### LNPay
+#### LNPay
 
 Affinché l'ascoltatore di fatture funzioni, è necessario disporre di un URL accessibile pubblicamente nel proprio LNbits e impostare un [LNPay webhook](https://dashboard.lnpay.co/webhook/) che punti a `<l'host di LNbits>/wallet/webhook` con l'evento "Wallet Receive" e nessun segreto. L'impostazione `https://mylnbits/wallet/webhook` sarà l'url dell'endpoint che riceverà la notifica di ogni pagamento.
 
@@ -186,7 +186,7 @@ Affinché l'ascoltatore di fatture funzioni, è necessario disporre di un URL ac
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
-### Nodo aperto
+#### Nodo aperto
 
 Affinché la fattura funzioni, è necessario avere un URL accessibile pubblicamente nel proprio LNbits. L'impostazione del webhook è facoltativa.
 
@@ -195,7 +195,7 @@ Affinché la fattura funzioni, è necessario avere un URL accessibile pubblicame
   - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
-### Alby
+#### Alby
 
 Alby è un'estensione del browser con funzionalità di portafoglio LN e conto LNDHUB che può essere utilizzato come fonte di finanziamento per gli LNbit. [Maggiori dettagli qui](https://getalby.com/).
 
@@ -206,11 +206,11 @@ Affinché la fattura funzioni, è necessario disporre di un URL accessibile pubb
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-## Guide aggiuntive / Risoluzione dei problemi
+### Guide aggiuntive / Risoluzione dei problemi
 
 Ecco alcune istruzioni aggiuntive nel caso in cui ne aveste bisogno. Fate clic sulla freccia per espandere la descrizione.
 
-### I Killswitch 🚨
+#### I Killswitch 🚨
 
 Ultimamente si sono verificati così tanti bug pericolosi non solo nell'intero settore, ma anche in LNbits, che abbiamo deciso di fare qualcosa al riguardo. Ora è possibile ricevere avvisi e/o intraprendere azioni dirette, quando si ripresenta una vulnerabilità o un bug che potrebbe portare alla perdita di fondi.
 
@@ -220,11 +220,11 @@ Se si passa al void-wallet, tutti gli utenti dell'istanza vedranno un banner gia
 
 Come funziona? Quando il killswitch è abilitato, un repository github segreto, disponibile solo al team di LNbits, viene controllato a un intervallo di X minuti (che può essere specificato). Se in questo repository viene pubblicato un bug vulnerabile, questo segnale fa scattare il killswitch su tutte le installazioni che si sono iscritte e fa passare la vostra istanza lnbits all'uso del portafoglio vuoto. Se le nubi si sono diradate e avete installato l'aggiornamento di sicurezza, potete impostare nuovamente la fonte di finanziamento sul vostro nodo, sul vostro portafoglio o su qualsiasi altra cosa stiate usando, anche attraverso la sezione Manage Server. Questo wiki contiene una sezione su come cambiare fonte di finanziamento se non si sa cosa configurare.
 
-### Differenza tra admin e superuser
+#### Differenza tra admin e superuser
 
 L'interfaccia amministrativa di LNbits consente di modificare le impostazioni di LNbits tramite il frontend di LNbits. È disattivata per impostazione predefinita e la prima volta che si imposta la variabile di ambiente `LNBITS_ADMIN_UI=true` nel file `.env`, le impostazioni vengono inizializzate e saranno utilizzate. Da quel momento in poi verranno utilizzate le impostazioni del database al posto di quelle del file .env.
 
-### Super utente
+#### Super utente
 
 Con l'interfaccia utente dell'amministratore abbiamo introdotto il superutente, che ha accesso al server e può quindi modificare le impostazioni che potrebbero mandare in crash il server o renderlo poco reattivo tramite il frontend e le API, come ad esempio la modifica della fonte di finanziamento. Il superutente è memorizzato solo nella tabella delle impostazioni del database. Dopo che le impostazioni sono state "riportate ai valori predefiniti" e riavviate, viene creato un nuovo superutente. Abbiamo anche aggiunto un decoratore per le rotte API per verificare l'esistenza di un superutente. Il suo ID non viene mai inviato tramite l'API e il frontend e riceve solo un bool (sì/no) se si è superutente o meno.
 
@@ -234,15 +234,15 @@ Si può anche inviare il superutente tramite webhook a un altro servizio quando 
 
 Nel frontend troverete anche la possibilità di cambiare l'immagine del negozio che viene mostrata nella pagina "crea portafoglio" aprendo la sezione Gestisci server e scegliendo Tema -> Logo personalizzato.
 
-### Utenti amministratori
+#### Utenti amministratori
 
 Variabile di ambiente: `LNBITS_ADMIN_USERS`, elenco virgola-seperato di ID utente. Gli utenti amministratori possono modificare le impostazioni nell'interfaccia utente dell'amministrazione, a eccezione delle impostazioni della fonte di finanziamento, perché ciò richiederebbe il riavvio del server e potrebbe rendere il server inaccessibile. Inoltre hanno accesso a tutte le estensioni a loro dedicate in `LNBITS_ADMIN_EXTENSIONS`.
 
-### Utenti ammessi
+#### Utenti ammessi
 
 Variabile di ambiente: `LNBITS_ALLOWED_USERS`, elenco virgolettato di ID utente. Definendo questi utenti, LNbits non sarà più utilizzabile dal pubblico. Solo gli utenti e gli amministratori definiti possono accedere al frontend di LNbits.
 
-#### Aggiornare LNbits
+##### Aggiornare LNbits
 
 Per aggiornare normalmente l'istanza locale di LNbits è sufficiente copiare e incollare i seguenti comandi CLI:
 
@@ -275,7 +275,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### Migrazione da SQLite a PostgreSQL
+##### Migrazione da SQLite a PostgreSQL
 
 Se avete già LNbits installato e funzionante su un database SQLite, vi consigliamo vivamente di migrare a postgres se avete intenzione di far funzionare LNbits su scala.
 
@@ -296,11 +296,11 @@ make migration
 
 Si spera che ora tutto funzioni e venga migrato... Avviare nuovamente LNbits e verificare che tutto funzioni correttamente.
 
-#### Backup e ripristino del database
+##### Backup e ripristino del database
 
 Consultare [questa guida molto dettagliata sul processo di backup e ripristino](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
-#### Finanziare il mio portafoglio LNbits dal mio nodo non funziona
+##### Finanziare il mio portafoglio LNbits dal mio nodo non funziona
 
 Se si desidera inviare saturazioni dallo stesso nodo che è la fonte di finanziamento dei propri LNbit, è necessario modificare il file lnd.conf.
 
@@ -310,7 +310,7 @@ Lo si faccia nella sezione Application options del proprio lnd.conf. Su alcuni n
 
 NOTA: Si consiglia di utilizzare la nuova estensione adminUI con l'opzione "TopUp" per aggiungere fondi a un conto LNbits.
 
-#### Errore 426
+##### Errore 426
 
 Ho ricevuto l'errore: "lnurl deve essere consegnato su un dominio https pubblicamente accessibile o su tor. richiesto l'aggiornamento 426"</summary>
 
@@ -325,7 +325,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### Errore di rete
+##### Errore di rete
 
 Ho ottenuto "errore https", errore di rete" o altri durante la scansione di un QR</summary>
 
@@ -337,25 +337,25 @@ LNbits funziona solo via Tor, non è possibile aprirlo su un dominio pubblico co
 - Dato che volete che la vostra configurazione rimanga così, aprite il vostro portafoglio LNbits utilizzando l'URI .onion e createlo di nuovo. In questo modo il QR viene generato per essere accessibile tramite questo URI .onion, quindi solo via tor. Non generare il QR da un URI .local, perché non sarà raggiungibile via internet, ma solo dalla propria home-LAN.
 - Aprire l'applicazione del portafoglio LN utilizzata per la scansione del QR e questa volta utilizzare tor (vedere le impostazioni dell'applicazione del portafoglio). Se l'app non offre tor, è possibile utilizzare Orbot (Android). Per istruzioni dettagliate su come aprire i vostri LNbit per clearnet/https, consultate la sezione Installazione.
 
-#### Impedire ad altri di generare portafogli con i miei LNbit
+##### Impedire ad altri di generare portafogli con i miei LNbit
 
 Quando si gestisce il nodo LNbits in clearnet, tutti possono generare un portafoglio su di esso. Dal momento che i fondi del vostro nodo sono legati a questi portafogli, potreste volerlo impedire. Ci sono due modi per farlo:
 
 Configurare gli utenti e le estensioni consentite nel file `.env` ([vedere l'esempio di env qui](https://github.com/lnbits/lnbits/blob/main/.env.example)). Questo funziona solo se si usa l'impostazione `adminUI=FALSE` nel file .env, altrimenti è necessario farlo nella sezione Gestione del server -> Utenti -> Utenti consentiti. Tutti gli altri non saranno poi autorizzati.
 
-#### Personalizzare il periodo di scadenza della fattura
+##### Personalizzare il periodo di scadenza della fattura
 
 Ora è possibile generare fatture con una scadenza personalizzata. Compatibile con i backend: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet finora!
 
 È possibile impostare `LIGHTNING_INVOICE_EXPIRY` nel file .env o utilizzare l'AdminUI per modificare il valore predefinito per tutte le fatture. C'è anche un nuovo campo nell'endpoint /api/v1/payments in cui è possibile impostare la scadenza nei dati JSON.
 
-## Portafoglio-URL cancellato
+### Portafoglio-URL cancellato
 
-### Portafoglio sul server demo legend.lnbits
+#### Portafoglio sul server demo legend.lnbits
 
 Salvate sempre una copia del vostro wallet-URL, Export2phone-QR o LNDhub per i vostri portafogli in un luogo sicuro. LNbits non può aiutarvi a recuperarli in caso di smarrimento.
 
-### Portafoglio sulla propria fonte/nodo di finanziamento
+#### Portafoglio sulla propria fonte/nodo di finanziamento
 
 Salvate sempre una copia del vostro wallet-URL, Export2phone-QR o LNDhub per i vostri portafogli in un luogo sicuro. È possibile trovare tutti gli utenti LNbits e gli ID dei portafogli nell'estensione LNbits User Manager o nel database sqlite. Per modificare o leggere il database di LNbits, andate nella cartella LNbits /data e cercate il file sqlite.db. È possibile aprirlo e modificarlo con excel o con un editor SQL dedicato come [SQLite browser](https://sqlitebrowser.org/).
 
@@ -385,11 +385,11 @@ In questo modo si sostituisce f8a43fc363ea428db5c53b3559935f1f con il valore che
 .quit
 ```
 
-#### LNURL per un indirizzo di posta elettronica viceversa
+##### LNURL per un indirizzo di posta elettronica viceversa
 
 Provate questo [encoder](https://lnurl-codec.netlify.app/) di fiatjaf o [questo](https://lightningdecoder.com/). Per pagare o controllare un LNURLp si può anche usare [LNurlpay](https://wwww.lnurlpay.com/). Dovrebbe essere indicato HTTPS e non HTTP.
 
-#### Configurare un commento che le persone vedono quando pagano al mio LNURLp QR
+##### Configurare un commento che le persone vedono quando pagano al mio LNURLp QR
 
 Quando si crea un LNURL-p, per impostazione predefinita la casella dei commenti non è riempita. Ciò significa che i commenti non possono essere allegati ai pagamenti.
 
@@ -397,15 +397,15 @@ Per consentire i commenti, aggiungere la lunghezza dei caratteri della casella, 
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### Depositare BTC onchain su LNbits
+##### Depositare BTC onchain su LNbits
 
 Esistono due modi per scambiare saturazioni da BTC onchain a LN BTC (rispettivamente a LNbits).
 
-##### Tramite un servizio di swap esterno.
+###### Tramite un servizio di swap esterno.
 
 Altri utenti che non hanno accesso al vostro LNb possono usare un servizio di scambio come [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) o [ZigZag](https://zigzag.io/). Questo è utile se si forniscono solo fatture LNURL/LN dalla propria istanza LNbits, ma un pagatore dispone solo di saturazioni onchain, per cui dovrà prima scambiarle dalla propria parte. La procedura è semplice: l'utente invia btc onchain al servizio di swap e fornisce la fattura LNURL / LN di LNbits come destinazione dello swap.
 
-##### Utilizzo dell'estensione LNbits di Onchain e Boltz.
+###### Utilizzo dell'estensione LNbits di Onchain e Boltz.
 
 Tenete presente che si tratta di un portafoglio separato, non quello di LN btc che è rappresentato da LNbits come "il vostro portafoglio" sulla vostra fonte di finanziamento LN. Questo portafoglio onchain può essere utilizzato anche per scambiare LN btc con (ad esempio, il vostro hardwarewallet) utilizzando l'estensione LNbits Boltz o Deezy. Se gestite un negozio web che è collegato al vostro LNbits per i pagamenti in LN, è molto utile scaricare regolarmente tutte le sature da LN a onchain. In questo modo si ottiene più spazio nei canali LN per poter ricevere nuova saturazione.
 
@@ -441,13 +441,13 @@ Quando si esegue questa operazione, si consiglia di impostare anche l'URI della 
 
 Se si verifica l'errore "tipo di hash non supportato" quando si utilizza un ypub nell'estensione On-chain, verificare se l'istanza di LNbits utilizza python 3.10, potrebbe essere affetta da [questo problema](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Modificare il file openssl.cnf come descritto nella risposta di stackoverflow e riavviare LNbits.
 
-## Attrezzi e costruzione con LNbits
+### Attrezzi e costruzione con LNbits
 
 LNbits dispone di ogni sorta di [API aperte](https://legend.lnbits.com/docs) e di strumenti per programmare e connettersi a molti dispositivi diversi per una miriade di casi d'uso.
 
 Se siete alle prime armi con la costruzione, iniziate con questa [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) di Ben Arc sulla costruzione di gadget basati su LNbits.
 
-### IMPORTANTE:
+#### IMPORTANTE:
 
 
 - LNbits funziona sulla base del protocollo LNURL, le cui richieste sono valide in due forme: o come link https://clearnet (non sono ammessi certificati autofirmati) o come link http://v2/v3 onion. Per offrire servizi LNbits come i codici QR LNURLp/w o le carte NFC, che possono essere utilizzati in libertà, è necessario aprire LNbits a clearnet (https).

@@ -18,11 +18,11 @@ I denne veiledningen diskuterer vi også passfrase-delen, en avansert sikkerhets
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Koble Ledger til Sparrow Bitcoin Wallet (skriveguide)
+## Koble Ledger til Sparrow Bitcoin Wallet (skriveguide)
 
 Sørg for at du først går gjennom den andre delen "Bruk av Bitcoin Hardware Wallets". Jeg vil skumme gjennom noen steg og fokusere mest på det som er spesifikt for Ledger her.
 
-## Sette opp enheten
+### Sette opp enheten
 
 Ledger kommer med sin egen USB-kabel. Sørg for at du bruker den og ikke bare en hvilken som helst gammel kabel. Noen USB-kabler er kun for strøm. Denne overfører data OG strøm. Når jeg har brukt enheten med en telefonladings-USB-kabel som lå rundt, har enheten mislyktes i å koble til.
 
@@ -49,7 +49,7 @@ Neste bit er super irriterende. Den blander opp de 24 ordene, og du må bekrefte
 
 Du vil se på dashbordet ditt at du har en innstillingsknapp, og en pluss-tegn-knapp som lar deg installere apper. Men du må koble til Ledger Live først. Det gjør vi neste…
 
-## Last ned Ledger Live
+### Last ned Ledger Live
 
 Du kunne laste ned Ledger Live fra deres nettside, men det er bedre å få den fra GitHub, hvor kildekoden er oppbevart.
 
@@ -89,7 +89,7 @@ Se på outputen av hashen og forsikre deg om at den er identisk med den som er p
 
 Ideelt sett vil du bli ekstra nøye og forsikre deg om at hashene som er publisert ikke er falske. Vi gjør dette med gpg-signaturer, men det er utenfor rekkevidden av denne artikkelen. Hvis du vil lære om det (og det foreslår jeg at du til slutt gjør), så se gjennom denne artikkelen.
 
-## Koble til Ledger Live
+### Koble til Ledger Live
 
 Før du kjører Ledger Live, hjelper det litt på personvernet å slå på en VPN. Ledger vil fortsatt få alle adressene dine, men de vil ikke kjenne din IP-adresse, som avslører hjemmeadressen din. Mullvad VPN er en utmerket VPN-tjeneste og den er ikke veldig dyr (jeg reklamerer ikke, det er bare det jeg bruker).
 
@@ -128,7 +128,7 @@ Husk at tidligere, på enheten, hadde vi en innstillingsknapp og en pluss-tegn-k
 
 Du kan slå av Ledger Live nå.
 
-## Legg til en passfrase
+### Legg til en passfrase
 Nå som vi har Bitcoin-appen, kan vi legge til en passfrase til vår seed-frase. Vi kunne ikke gjøre det før når seeden først ble opprettet fordi vi i starten ikke hadde Bitcoin-appen, og vi måtte koble til Ledger Live for å få den.
 
 Gå til "innstillinger"-menyen på enheten, deretter undermenyen "sikkerhet". Velg deretter passfrase. Du vil se "Avansert funksjon". Klikk på høyre knapp, du vil se "les manualen..." og deretter etter et klikk på høyre knapp, vil du se "tilbake". Men det er ikke slutten. Intuitivt ville du tenke det, men klikk på høyre knapp igjen. Du vil se "sett opp passfrase".
@@ -141,7 +141,7 @@ Den vil spørre deg om "Nåværende PIN". Dette er ikke PIN-koden du assosierer 
 
 Du kan nå gå ut til hovedmenyen ved å velge tilbake-alternativet noen ganger.
 
-## Overvåke Lommebok
+### Overvåke Lommebok
 
 I tidligere artikler forklarte jeg hvordan du laster ned og verifiserer Sparrow-lommeboken, og hvordan du kobler den til din egen node, eller en offentlig node. Du bør følge disse veiledningene:
 
@@ -185,7 +185,7 @@ Etter en pause, mens datamaskinen tenker, vil du se at knappene på venstre side
 
 ![bilde](assets/21.webp)
 
-## Mottak
+### Mottak
 
 For å motta litt bitcoin, gå til fanen Adresser på venstre side og velg en av adressene for å motta. Bare høyreklikk på adressen du vil ha, og velg "kopier adresse". Gå deretter til din børs hvor pengene sendes fra og lim den inn der. Eller du kan gi adressen til en kunde som kan bruke den til å betale deg.
 
@@ -193,7 +193,7 @@ Når du bruker lommeboken for første gang, bør du motta et veldig lite beløp,
 
 Når du har gjort det, må du sikkerhetskopiere ordene du skrev ned. En enkelt kopi er ikke nok. Ha minst to papirkopier (metall er bedre), og oppbevar dem på to forskjellige, godt sikrede steder. Dette reduserer risikoen for at en naturkatastrofe ødelegger din HWW og papirsikkerhetskopi i én hendelse. Se "Bruk av Bitcoin Hardware Wallets" for en full diskusjon om dette.
 
-## Sending
+### Sending
 
 ![bilde](assets/22.webp)
 
@@ -203,11 +203,11 @@ Lommeboken kan ikke signere transaksjonen med mindre HWW er tilkoblet. Det er jo
 
 Vær også oppmerksom på at hvis du velger å bruke en mynt som er større enn betalingsbeløpet, vil resten bli sendt tilbake til en av dine lommebøkers vekseladresser. Noen mennesker har ikke kjent til dette, og sett opp transaksjonen sin på en offentlig blockchain, og trodd at noen bitcoin ble sendt til en angripers adresse, men faktisk var det deres egen vekseladresse.
 
-## Firmware
+### Firmware
 
 For å oppdatere firmwaren, må du koble til Ledger Live. Hvis du vil gjøre dette, bør du tørke enheten først, og sørge for at du har sikkerhetskopieringsordene og passphrase tilgjengelig for å gjenopprette enheten. Grunnen til at jeg foretrekker å tørke enheten først er at du må koble enheten din til Ledger Live for å oppdatere firmwaren, og jeg foretrekker å ikke eksponere din nye lommebok (den med passphrase) for Ledger Live, noensinne. Jeg stoler bare ikke på at Ledger ikke trekker ut min offentlige nøkkelinformasjon fra enheten når jeg kobler til Ledger Live. De hevder de ikke gjør det, men jeg kan ikke verifisere det selv med mindre jeg leser koden, og forstår den interne maskinvaren også.
 
-## Konklusjon
+### Konklusjon
 Denne artikkelen viste deg hvordan du kan bruke en Ledger HWW på en tryggere og mer privat måte enn det som er annonsert – men denne artikkelen alene er ikke nok. Som jeg sa i starten, bør du kombinere den med informasjonen som er gitt i "Bruk av Bitcoin Hardware Wallets". Tips:
 
 Statisk Lightning-adresse: dandysack84@walletofsatoshi.com

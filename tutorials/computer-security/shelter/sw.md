@@ -3,7 +3,7 @@ name: Shelter
 description: Tumia simu ile ile kwa kazi na maisha ya kibinafsi na Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

@@ -26,11 +26,11 @@ Você também pode comprar um kit NerdMiner já pré-montado em vários revended
 
 Primeiro, vamos ver como gravar o software no ESP-32 S3 e depois veremos como reiniciá-lo para mudar a rede Wi-Fi. Essas etapas são para usuários do Windows, se você estiver usando um sistema operacional Linux, siga as [etapas preliminares](#etapas-preliminares-para-usuários-linux) para permitir o reconhecimento do ESP-32 S3 pelo seu sistema.
 
-# Instalação do software NerdMiner_v2
+## Instalação do software NerdMiner_v2
 
 A instalação do software é grandemente simplificada pelo uso do webflasher.
 
-## Etapa 1: Preparação do webflasher
+### Etapa 1: Preparação do webflasher
 
 Primeiro, vá para o [flasher NM2 online](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Em seguida, selecione o firmware correspondente ao seu ESP-32. Na maioria das ve
 
 ![](assets/webflasher.webp)
 
-## Etapa 2: Conexão do ESP-32
+### Etapa 2: Conexão do ESP-32
 
 Depois de iniciar o webflasher, uma janela pop-up será aberta mostrando as diferentes portas USB reconhecidas pelo navegador.
 Você pode então conectar o seu ESP-32 e uma nova porta será exibida (neste caso, é a porta ttyACM0). Você deve selecioná-la e clicar em "conectar".
@@ -51,7 +51,7 @@ O software será então baixado para o seu ESP32 em questão de segundos.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Etapa 3: Configuração do NerdMiner
+### Etapa 3: Configuração do NerdMiner
 
 A configuração do seu NerdMiner será feita por meio de um smartphone ou computador.
 Ative o Wi-Fi e conecte-se à rede local NerdMinerAP. Se estiver usando um smartphone, o portal de configuração será aberto automaticamente, caso contrário, digite o endereço 192.168.4.1 em um navegador.
@@ -78,7 +78,7 @@ Agora você pode clicar em "salvar".
 
 Parabéns, agora você faz parte da rede de mineração de Bitcoin!
 
-## Operação do NerdMiner
+### Operação do NerdMiner
 
 O software NerdMinerv2 possui 3 telas diferentes, que você pode acessar clicando no botão no canto superior direito da sua tela:
 
@@ -91,7 +91,7 @@ Se você deseja reiniciar o NerdMiner, por exemplo, para trocar a rede WiFi, pre
 
 Se você pressionar o botão inferior uma vez, o NerdMiner será desligado. Pressionar duas vezes inverte a orientação da tela.
 
-### Etapas preliminares para usuários Linux
+#### Etapas preliminares para usuários Linux
 
 Aqui estão as etapas para que o Chrome possa detectar sua porta serial em um sistema Linux.
 
@@ -112,13 +112,13 @@ Aqui estão as etapas para que o Chrome possa detectar sua porta serial em um si
 
 Agora que seu ESP-32 é reconhecido pelo sistema, você pode voltar para a [primeira etapa](#etape-1-preparation-du-webflasher) para a instalação do software.
 
-## Conclusão
+### Conclusão
 
 E pronto! Seu NerdMiner_v2 está agora configurado e pronto para uso.
 
 Boa mineração e que a sorte esteja ao seu lado!
 
-### Estimando a probabilidade de ganhar
+#### Estimando a probabilidade de ganhar
 
 Vamos nos divertir estimando a probabilidade de ganhar uma recompensa de bloco. Essa estimativa será aproximada e busca apenas obter a ordem de grandeza da probabilidade.
 As piscinas às quais um NerdMiner pode se conectar são apenas "piscinas de mineração solo", o que significa que a piscina não mutualiza a taxa de hash de todos os mineradores conectados, mas atua apenas como coordenadora.
@@ -126,7 +126,7 @@ Agora, vamos supor que nosso NerdMiner tenha uma taxa de hash de cerca de 45kH/s
 
 Sabendo que a taxa de hash total é de cerca de 450 EH/s (ou 4,5 x 10^20 hash por segundo), podemos considerar que a probabilidade de encontrar o próximo bloco é de 1 em 100 milhões de bilhões, o que é muito, muito, muito improvável de acontecer. Portanto, além de ser uma ferramenta educacional e objeto de curiosidade, um NerdMiner pode servir como um bilhete de loteria na mineração de bitcoin a um custo elétrico marginal de 0,5 W - embora, como acabamos de ver, a probabilidade de ganhar seja ridiculamente baixa. Ainda assim, por que não desafiar sua sorte?
 
-### Informações adicionais
+#### Informações adicionais
 
 Aqui estão alguns links se você quiser ler mais sobre o assunto:
 

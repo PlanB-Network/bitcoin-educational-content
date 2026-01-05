@@ -3,7 +3,7 @@ name: Shelter
 description: Sử dụng cùng một điện thoại cho công việc và cuộc sống cá nhân với Shelter.
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

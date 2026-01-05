@@ -502,7 +502,7 @@ Czy jest lepszy sposób na przeciwdziałanie analizie Blockchain niż poznanie m
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 W tym przypadku możemy wyciągnąć analogię z kryptografią i kryptoanalizą. Dobry kryptograf jest przede wszystkim dobrym kryptoanalitykiem. Aby opracować nowy algorytm szyfrowania, trzeba wiedzieć, z jakimi atakami będzie musiał się zmierzyć, a także zbadać, dlaczego poprzednie algorytmy zostały złamane. Ta sama zasada dotyczy prywatności Bitcoin. Zrozumienie metod analizy Blockchain jest kluczem do ochrony przed nimi. Właśnie dlatego w tym szkoleniu zawarłem całą sekcję poświęconą analizie on chain.
 

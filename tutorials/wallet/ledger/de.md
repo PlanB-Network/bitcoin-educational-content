@@ -18,11 +18,11 @@ In diesem Tutorial behandeln wir auch den Abschnitt über Passphrasen, eine fort
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Verbindung des Ledger mit der Sparrow Bitcoin Wallet (Anleitung)
+## Verbindung des Ledger mit der Sparrow Bitcoin Wallet (Anleitung)
 
 Stellen Sie sicher, dass Sie zuerst den anderen Teil "Verwendung von Bitcoin-Hardware-Wallets" durchgehen. Ich werde einige Schritte überfliegen und mich hauptsächlich auf das konzentrieren, was spezifisch für Ledger ist.
 
-## Einrichten des Geräts
+### Einrichten des Geräts
 
 Der Ledger wird mit seinem eigenen USB-Kabel geliefert. Stellen Sie sicher, dass Sie dieses verwenden und nicht einfach irgendein altes Kabel. Einige USB-Kabel übertragen nur Strom. Dieses überträgt Daten UND Strom. Als ich das Gerät mit einem herumliegenden USB-Ladekabel für Telefone verwendet habe, konnte das Gerät keine Verbindung herstellen.
 
@@ -49,7 +49,7 @@ Der nächste Teil ist super nervig. Es werden die 24 Wörter durcheinander gebra
 
 Auf Ihrem Dashboard sehen Sie eine Einstellungsschaltfläche und eine Plus-Schaltfläche, mit der Sie Apps installieren können. Aber Sie müssen zuerst eine Verbindung zu Ledger Live herstellen. Das machen wir als Nächstes...
 
-## Ledger Live herunterladen
+### Ledger Live herunterladen
 
 Sie können Ledger Live von ihrer Webseite herunterladen, aber es ist besser, es von GitHub zu beziehen, wo der Quellcode aufbewahrt wird.
 
@@ -88,7 +88,7 @@ Schauen Sie sich die Ausgabe des Hashes an und stellen Sie sicher, dass sie mit 
 
 Idealerweise möchten Sie sicherstellen, dass die veröffentlichten Hashes nicht gefälscht sind. Wir tun dies mit GPG-Signaturen, aber das fällt nicht in den Rahmen dieses Artikels. Wenn Sie mehr darüber erfahren möchten (und ich empfehle Ihnen, es irgendwann zu tun), lesen Sie diesen Artikel durch.
 
-## Verbindung zu Ledger Live herstellen
+### Verbindung zu Ledger Live herstellen
 
 Bevor Sie Ledger Live ausführen, ist es hilfreich, einen VPN einzuschalten. Ledger erhält immer noch alle Ihre Adressen, aber sie kennen nicht Ihre IP-Adresse, die Ihre Heimadresse preisgibt. Mullvad VPN ist ein ausgezeichneter VPN-Dienst und nicht sehr teuer (ich mache keine Werbung, es ist nur das, was ich verwende).
 
@@ -127,7 +127,7 @@ Erinnern Sie sich daran, dass wir zuvor auf dem Gerät einen Einstellungen-Butto
 
 Sie können Ledger Live jetzt schließen.
 
-## Eine Passphrase hinzufügen'
+### Eine Passphrase hinzufügen'
 
 Jetzt, da wir die Bitcoin-App haben, können wir unserer Seed-Phrase eine Passphrase hinzufügen. Das konnten wir zuvor nicht tun, als die Seed-Phrase zum ersten Mal erstellt wurde, weil wir am Anfang die Bitcoin-App nicht hatten und uns mit Ledger Live verbinden mussten, um sie zu bekommen.
 Gehen Sie zum "Einstellungen"-Menü auf dem Gerät, dann zum Untermenü "Sicherheit". Wählen Sie dann "Passphrase" aus. Sie sehen "Erweiterte Funktion". Klicken Sie auf die rechte Taste, dann sehen Sie "Handbuch lesen..." und nach einem Klick auf die rechte Taste sehen Sie "Zurück". Aber das ist noch nicht das Ende. Intuitiv würde man das denken, aber klicken Sie noch einmal auf die rechte Taste. Sie sehen "Passphrase einrichten".
@@ -140,7 +140,7 @@ Es wird nach der "aktuellen PIN" gefragt. Dies ist nicht die PIN, die Sie mit de
 
 Sie können jetzt zum Hauptmenü zurückkehren, indem Sie mehrmals die Option "Zurück" auswählen.
 
-## Beobachtung des Wallets
+### Beobachtung des Wallets
 
 In früheren Artikeln habe ich erklärt, wie man die Sparrow Wallet herunterlädt und überprüft und wie man sie mit Ihrem eigenen Knoten oder einem öffentlichen Knoten verbindet. Sie sollten diesen Anleitungen folgen:
 
@@ -186,7 +186,7 @@ Nach einer Pause, während der Computer nachdenkt, werden Sie sehen, wie sich di
 
 ![image](assets/21.webp)
 
-## Empfangen
+### Empfangen
 
 Um Bitcoin zu empfangen, gehen Sie zum Tab "Adressen" auf der linken Seite und wählen Sie eine der Adressen zum Empfangen aus. Klicken Sie mit der rechten Maustaste auf die gewünschte Adresse und wählen Sie "Adresse kopieren". Gehen Sie dann zu Ihrer Börse, von der das Geld gesendet wird, und fügen Sie es dort ein. Oder Sie können die Adresse einem Kunden geben, der sie verwenden kann, um Ihnen zu bezahlen.
 
@@ -194,7 +194,7 @@ Wenn Sie die Brieftasche zum ersten Mal verwenden, sollten Sie einen sehr kleine
 
 Sobald Sie das getan haben, müssen Sie die aufgeschriebenen Wörter sichern. Eine einzige Kopie reicht nicht aus. Haben Sie mindestens zwei Papierkopien (Metall ist besser) und bewahren Sie sie an zwei verschiedenen, gut gesicherten Orten auf. Dadurch wird das Risiko verringert, dass eine Naturkatastrophe Ihre HWW und Ihre Papierkopie in einem Vorfall zerstört. Lesen Sie "Verwendung von Bitcoin-Hardware-Brieftaschen" für eine ausführliche Diskussion dazu.
 
-## Senden
+### Senden
 
 ![image](assets/22.webp)
 
@@ -204,11 +204,11 @@ Die Brieftasche kann die Transaktion nicht signieren, es sei denn, die HWW ist v
 
 Beachten Sie auch, dass, wenn Sie eine Münze wählen, die größer ist als der Zahlungsbetrag, der Restbetrag an eine der Änderungsadressen Ihrer Brieftasche zurückgesendet wird. Einige Leute wussten das nicht und haben ihre Transaktion in einer öffentlichen Blockchain nachgeschlagen und gedacht, dass einige Bitcoin an eine Adresse eines Angreifers gesendet wurden, aber in Wirklichkeit handelte es sich um ihre eigene Änderungsadresse.
 
-## Firmware
+### Firmware
 
 Um die Firmware zu aktualisieren, müssen Sie sich mit Ledger Live verbinden. Wenn Sie dies tun möchten, sollten Sie das Gerät zuerst löschen und sicherstellen, dass Sie Ihre Backup-Wörter und Passphrase zur Wiederherstellung des Geräts zur Verfügung haben. Der Grund, warum ich das Gerät lieber zuerst lösche, ist, dass Sie Ihr Gerät mit Ledger Live verbinden müssen, um die Firmware zu aktualisieren, und ich ziehe es vor, Ihre neue Brieftasche (die mit der Passphrase) Ledger Live niemals auszusetzen. Ich vertraue Ledger einfach nicht, dass sie meine öffentlichen Schlüsselinformationen nicht aus dem Gerät extrahieren, wenn ich mich mit Ledger Live verbinde. Sie behaupten, dass sie es nicht tun, aber ich kann das selbst nicht überprüfen, es sei denn, ich lese den Code und verstehe auch die interne Hardware.
 
-## Fazit
+### Fazit
 
 Dieser Artikel hat Ihnen gezeigt, wie Sie eine Ledger HWW auf sicherere und privaterer Weise verwenden können als beworben - aber dieser Artikel allein reicht nicht aus. Wie ich am Anfang sagte, sollten Sie ihn mit den Informationen aus "Verwendung von Bitcoin-Hardware-Brieftaschen" kombinieren.
 Tipps:

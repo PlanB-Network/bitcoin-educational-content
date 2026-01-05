@@ -76,7 +76,7 @@ En resumen, las transacciones Stonewall y Stonewall x2 comparten una estructura 
 
 
 
-[**-> Más información sobre las transacciones de Stonewall x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Más información sobre las transacciones de Stonewall x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

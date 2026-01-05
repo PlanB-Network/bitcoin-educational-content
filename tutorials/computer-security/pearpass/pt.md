@@ -73,7 +73,7 @@ O PearPass está disponível em todas as plataformas: Windows, Linux, macOS, And
 
 
 
-No Windows, o PearPass é fornecido como um instalador clássico. Vá para [a página oficial de download] (https://pass.pears.com/download), depois clique no botão `Download Windows installer`.
+No Windows, o PearPass é fornecido como um instalador clássico. Vá para [a página oficial de download](https://pass.pears.com/download), depois clique no botão `Download Windows installer`.
 
 
 
@@ -89,7 +89,7 @@ Uma vez descarregado o ficheiro, abra o instalador e siga os passos indicados pe
 
 
 
-No macOS, o PearPass é distribuído como uma imagem de disco (`.dmg`). Vá para [a página oficial de download] (https://pass.pears.com/download) e escolha a versão correspondente à arquitetura do seu Mac (Intel ou Apple Silicon). Após o download, abra o ficheiro `.dmg` e inicie a aplicação a partir da pasta `Applications`.
+No macOS, o PearPass é distribuído como uma imagem de disco (`.dmg`). Vá para [a página oficial de download](https://pass.pears.com/download) e escolha a versão correspondente à arquitetura do seu Mac (Intel ou Apple Silicon). Após o download, abra o ficheiro `.dmg` e inicie a aplicação a partir da pasta `Applications`.
 
 
 
@@ -101,7 +101,7 @@ No primeiro arranque, o macOS apresenta uma mensagem de segurança que indica qu
 
 
 
-No Linux, PearPass está disponível no formato `.AppImage`, que garante ampla compatibilidade com a maioria das distribuições sem quaisquer dependências específicas. Faça o download do ficheiro `.AppImage` a partir da [página oficial de download] (https://pass.pears.com/download), e depois inicie-o diretamente com um duplo clique.
+No Linux, PearPass está disponível no formato `.AppImage`, que garante ampla compatibilidade com a maioria das distribuições sem quaisquer dependências específicas. Faça o download do ficheiro `.AppImage` a partir da [página oficial de download](https://pass.pears.com/download), e depois inicie-o diretamente com um duplo clique.
 
 
 
@@ -113,7 +113,7 @@ Dependendo do seu ambiente, pode ser necessário tornar o ficheiro executável a
 
 
 
-O PearPass oferece uma extensão de browser para início de sessão automático e acesso rápido ao seu cofre enquanto navega na Web. A extensão está atualmente disponível para o Google Chrome e navegadores compatíveis. Para a instalar, aceda à [página oficial de transferência] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+O PearPass oferece uma extensão de browser para início de sessão automático e acesso rápido ao seu cofre enquanto navega na Web. A extensão está atualmente disponível para o Google Chrome e navegadores compatíveis. Para a instalar, aceda à [página oficial de transferência](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 
@@ -441,7 +441,7 @@ No telemóvel, pode também ativar, se assim o desejar, o preenchimento automát
 
 
 
-Ter um gestor de palavras-passe sincronizado entre o computador e o smartphone já é muito prático, mas integrá-lo diretamente no browser é ainda mais. Para isso, comece por [adicionar a extensão oficial do PearPass ao seu browser] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Ter um gestor de palavras-passe sincronizado entre o computador e o smartphone já é muito prático, mas integrá-lo diretamente no browser é ainda mais. Para isso, comece por [adicionar a extensão oficial do PearPass ao seu browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

@@ -2,9 +2,9 @@
 name: LNbits
 description: Platform Akuntansi Pedagang
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Sistem akuntansi
+## Sistem akuntansi
 
 LNbits dilengkapi dengan banyak alat untuk mengontrol dan menyalurkan dana masuk dan keluar Anda, menghubungkan toko web Anda atau bahkan perangkat seperti dompet perangkat keras atau ATM yang Anda buat sendiri. Jenis pengguna termasuk:
 
@@ -15,7 +15,7 @@ LNbits dilengkapi dengan banyak alat untuk mengontrol dan menyalurkan dana masuk
 - Operator node yang ingin mengintegrasikan node mereka dengan sistem LNbits untuk tujuan akuntansi.
 - Semuanya memiliki kebutuhan yang berbeda. Kami membangun LNbits dengan cara modular sehingga setiap pengguna dapat menggunakan fitur-fitur kami dengan cara yang paling sesuai untuk Anda.
 
-# Manajer dompet
+## Manajer dompet
 
 LNbits adalah sistem akuntansi sumber terbuka dan gratis - bukan pengelola node. Manajemen saluran adalah domain node Lightning yang terhubung ke LNbits sebagai sumber pendanaan seperti LND atau c-lightning. Pengguna Superuser atau Admin dalam sistem LNbits bertanggung jawab untuk mengelola keseluruhan akses dan konfigurasi fitur akuntansi dan ekstensi internal.
 
@@ -29,11 +29,11 @@ Anda akan menawarkan cara sederhana kepada mereka untuk membuka "akun perbankan"
 
 CATATAN: semua dana yang disetorkan oleh "pelanggan" Anda ke rekening bank LNbits mereka di node Anda, akan langsung masuk ke saluran LN node Anda. Itu berarti ANDA sebenarnya adalah pemilik sebenarnya dari dana tersebut. Anda akan memiliki tanggung jawab yang besar atas dana mereka. Jangan menjadi jahat dan melarikan diri dengan dana tersebut, jangan menjadi jahat dan membebankan biaya yang tinggi. Kami ingin bercinta dengan para bankir fiat, bukan bercinta dengan satu sama lain (pengguna bitcoin).
 
-# Platform demo
+## Platform demo
 
 Demo dapat ditemukan di [https://legend.lnbits.com](https://legend.lnbits.com). Demo ini berfungsi penuh dan dapat digunakan untuk mempelajari tentang Lightning Network dan fitur-fitur LNbits dan LNURL secara umum. Meskipun kami tidak dapat mencegah Anda untuk menggunakannya, kami ingin meminta Anda untuk tidak menggunakannya untuk pengaturan produksi Anda. Kami tidak hanya sering bekerja di server untuk menguji fitur-fitur baru, tetapi kami juga ingin mendorong Anda untuk menjalankan node dan LNbits Anda sendiri dengan cara yang berdaulat. Jika Anda merasa menjalankan node terlalu berat untuk saat ini, Anda dapat menghubungkan LNbits ke layanan pendanaan kustodian di cloud seperti Opennode, Luna atau Votage atau ke Lightning Tipbot di Telegram.
 
-# Selebaran LNbits
+## Selebaran LNbits
 
 Ingin memberikan beberapa informasi dasar kepada pedagang atau teman Anda yang sedang membangun? Kami dengan senang hati mengumumkan brosur pertama kami yang dapat digunakan oleh semua orang. Ukurannya adalah format brosur yang umum digunakan secara global dengan 6 halaman (2 lipatan) dan lebar 3508 dan tinggi 2480px.
 
@@ -41,7 +41,7 @@ LNbits untuk pedagang: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/lnbi
 
 LNbits untuk pembangun: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# Beberapa Hal Dasar
+## Beberapa Hal Dasar
 
 LNbits bekerja berdasarkan protokol LNURL yang berarti bahwa permintaan dapat dilakukan dalam dua bentuk: sebagai tautan https://clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http://v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam liar, Anda harus membuka LNbits ke clearnet (https).
 
@@ -66,9 +66,9 @@ Panduan lebih rinci menggunakan LNbits dalam skenario kasus penggunaan tertentu 
 - [Mulai Pasar NOSTR Anda dengan LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Panduan Substack
 - [Menggunakan LNbits untuk proyek sekolah atau acara festival](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) Panduan substack
 
-# Instal LNbits
+## Instal LNbits
 
-## Panduan instalasi dasar
+### Panduan instalasi dasar
 
 LNbits dapat diinstal pada mesin OS Linux apa pun. Tidak membutuhkan mesin atau server yang kuat, hanya cukup memori RAM dan ruang disk untuk database. LNbits dapat dijalankan secara terpisah dari node BTC/LN (PC lokal atau VPS jarak jauh) atau bersama-sama pada mesin yang sama dengan node atau sudah diinstal dalam mesin perangkat lunak node bundel.
 
@@ -87,13 +87,13 @@ Anda juga dapat menemukan video tentang [Pengaturan dockerised pada VPS dengan P
 
 Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 Jika Anda tidak tertarik dengan hal-hal teknis dan tidak ingin meng-host sumber pendanaan atau lnbits Anda sendiri, ada [versi LNbits SaaS](https://saas.lnbits.com) (Perangkat Lunak sebagai layanan) yang dapat Anda gunakan. Pada dasarnya ini seperti LNbits di cloud tetapi Anda dapat menentukan sumber pendanaan (misalnya Node Anda, dompet LNbits, LNtipbot, fakewallet, dll.) dan variabel lingkungan Anda sendiri - yang sebagian besar tidak terjadi pada solusi cloud lainnya.
 
 [Berikut adalah panduan rinci bagaimana menggunakan LNbits SaaS untuk kasus penggunaan tertentu](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
-## Sumber pendanaan
+### Sumber pendanaan
 
 LNbits bukanlah perangkat lunak manajemen node, melainkan sebuah sistem akuntansi yang berfokus pada LN di atas sumber pendanaan LND atau CLN. Setelah instalasi pertama, Anda dapat mengunjungi LNbits di http://localhost:5000/.
 
@@ -113,7 +113,7 @@ Dompet backend (sumber pendanaan) dapat dikonfigurasikan menggunakan variabel li
 
 Jika Anda ingin menggunakan versi .env, Anda dapat menemukan parameternya di sini:
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -124,7 +124,7 @@ Jika Anda ingin menggunakan versi .env, Anda dapat menemukan parameternya di sin
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - `SPARK_TAKEN`: kunci_akses_rahasia
 
-### Daemon Jaringan Petir
+#### Daemon Jaringan Petir
 
 
 - LND (REST)
@@ -147,7 +147,7 @@ Anda juga dapat menggunakan macaroon terenkripsi AES (info lebih lanjut) dengan 
 
 Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
-### LNbits (contoh LNbits lainnya)
+#### LNbits (contoh LNbits lainnya)
 
 
 - Instance LNbits dihosting di server cloud atau server rumah Anda sendiri
@@ -159,7 +159,7 @@ Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/mac
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legenda-lnbits-AdminKey
 
-### TipBot Petir
+#### TipBot Petir
 
 Untuk menghubungkan [Lightning Tipbot](https://t.me/LightningTipBot) Anda dari Telegram, Anda perlu mengatur parameter berikut:
 
@@ -170,13 +170,13 @@ Untuk menghubungkan [Lightning Tipbot](https://t.me/LightningTipBot) Anda dari T
 
 Lihat juga tutorial ini cara menginstal [LNbits dengan LightningTipBot melalui vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-### IBEX HUB
+#### IBEX HUB
 
 Daftarkan [di sini](https://ibexpay.ibexmercado.com/onboard) kemudian dapatkan kunci/token Anda dari sana, titik akhir adalah https://ibexpay-api.ibexmercado.com.
 
 Info lebih lanjut lihat [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-### LNPay
+#### LNPay
 
 Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan [LNPay webhook](https://dashboard.lnpay.co/webhook/) yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
 
@@ -186,7 +186,7 @@ Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakse
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
-### OpenNode
+#### OpenNode
 
 Agar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda. Pengaturan webhook bersifat opsional.
 
@@ -195,7 +195,7 @@ Agar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik d
   - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
-### Alby
+#### Alby
 
 Alby adalah ekstensi browser dengan fungsi dompet LN dan akun LNDHUB yang dapat digunakan sebagai sumber pendanaan untuk LNbits. [Selengkapnya di sini](https://getalby.com/).
 
@@ -206,11 +206,11 @@ Agar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik d
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-## Panduan Tambahan / Pemecahan Masalah
+### Panduan Tambahan / Pemecahan Masalah
 
 Berikut ini adalah beberapa petunjuk tambahan jika Anda membutuhkannya. Klik tanda panah untuk memperluas deskripsi.
 
-### Tombol Pembunuh 🚨
+#### Tombol Pembunuh 🚨
 
 Ada begitu banyak bug berbahaya akhir-akhir ini tidak hanya di seluruh dunia tetapi juga di LNbits sehingga kami memutuskan untuk melakukan sesuatu. Sekarang Anda dapat memilih untuk menerima peringatan dan/atau mengambil tindakan langsung, ketika kerentanan atau bug yang dapat menyebabkan hilangnya dana terjadi lagi.
 
@@ -220,11 +220,11 @@ Jika dialihkan ke void-wallet, semua usertype pada instance akan melihat spanduk
 
 Bagaimana cara kerjanya? Ketika killswitch diaktifkan, repositori github rahasia yang hanya tersedia untuk tim inti LNbits akan diperiksa pada interval X menit (yang dapat ditentukan). Jika bug yang rentan dipublikasikan di repositori ini, ini berfungsi sebagai sinyal yang memicu killswitch pada semua instalasi yang berlangganan dan mentransisikan instance lnbits Anda untuk menggunakan void wallet. Jika awan telah hilang dan Anda telah menginstal pembaruan keamanan, Anda dapat mengatur sumber pendanaan Anda ke node, dompet, atau apa pun yang Anda gunakan lagi melalui bagian Kelola Server. Wiki ini memiliki bagian tentang mengganti sumber pendanaan jika Anda tidak tahu apa yang harus dikonfigurasi.
 
-### Perbedaan antara admin dan pengguna super
+#### Perbedaan antara admin dan pengguna super
 
 LNbits Admin UI memungkinkan Anda mengubah pengaturan LNbits melalui frontend LNbits. Ini dinonaktifkan secara default dan saat pertama kali Anda mengatur variabel lingkungan `LNBITS_ADMIN_UI = true` di file `.env`, pengaturan diinisialisasi dan akan digunakan. Selanjutnya, pengaturan yang sesuai dari database akan digunakan sebagai pengganti pengaturan dari file .env.
 
-### Pengguna Super
+#### Pengguna Super
 
 Dengan Admin UI, kami memperkenalkan super user yang memiliki akses ke server sehingga dapat mengubah pengaturan yang dapat merusak server atau membuatnya tidak responsif melalui frontend dan api, seperti misalnya mengubah sumber pendanaan. Pengguna super hanya disimpan di dalam tabel pengaturan database. Setelah pengaturan "diatur ulang ke default" dan restart, super user baru akan dibuat. Kami juga menambahkan sebuah dekorator untuk rute API untuk memeriksa keberadaan super user. ID-nya tidak pernah dikirim melalui API dan frontend dan hanya menerima bool (ya/tidak) jika Anda pengguna super atau bukan.
 
@@ -234,15 +234,15 @@ Anda juga dapat memposting pengguna super melalui webhook ke layanan lain ketika
 
 Di bagian depan, Anda juga akan menemukan kemungkinan untuk mengubah gambar toko yang ditampilkan pada halaman "buat dompet" dengan membuka bagian Kelola Server dan memilih Tema -> Logo Kustom.
 
-### Pengguna Admin
+#### Pengguna Admin
 
 Variabel lingkungan: `LNBITS_ADMIN_USERS`, daftar ID pengguna yang dipisahkan dengan tanda koma. Pengguna Admin dapat mengubah pengaturan di ui admin - dengan pengecualian pengaturan sumber pendanaan, karena hal ini akan membutuhkan restart server dan berpotensi membuat server tidak dapat diakses. Mereka juga memiliki akses ke semua ekstensi yang didedikasikan untuk mereka di `LNBITS_ADMIN_EXTENSIONS`.
 
-### Pengguna yang Diizinkan
+#### Pengguna yang Diizinkan
 
 Variabel lingkungan: `LNBITS_ALLOWED_USERS`, daftar ID pengguna yang dipisahkan dengan tanda koma. Dengan mendefinisikan pengguna ini, LNbits tidak lagi dapat digunakan oleh publik. Hanya pengguna dan admin yang telah ditentukan yang dapat mengakses frontend LNbits.
 
-#### Perbarui LNbits
+##### Perbarui LNbits
 
 Pembaruan normal dari instance lokal LNbits Anda cukup dengan menyalin dan menempelkan perintah CLI berikut ini:
 
@@ -275,7 +275,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### Migrasi SQLite ke PostgreSQL
+##### Migrasi SQLite ke PostgreSQL
 
 Jika Anda telah memiliki LNbits yang terinstal dan berjalan di database SQLite, kami sangat menyarankan untuk bermigrasi ke postgres jika Anda berencana menjalankan LNbits dalam skala besar.
 
@@ -296,11 +296,11 @@ make migration
 
 Semoga sekarang semuanya sudah berfungsi dan dimigrasi... Luncurkan LNbits lagi dan periksa apakah semuanya berfungsi dengan baik.
 
-#### Pencadangan dan pemulihan basis data
+##### Pencadangan dan pemulihan basis data
 
 Silakan lihat [panduan yang sangat rinci tentang proses pencadangan & pemulihan](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
-#### Mendanai dompet LNbits saya dari node saya tidak berfungsi
+##### Mendanai dompet LNbits saya dari node saya tidak berfungsi
 
 Jika Anda ingin mengirim sats dari node yang sama dengan sumber pendanaan LNbits Anda, Anda perlu mengedit file lnd.conf.
 
@@ -310,7 +310,7 @@ Silakan lakukan di bagian Opsi aplikasi pada lnd.conf Anda. Pada beberapa simpul
 
 CATATAN: Disarankan untuk menggunakan ekstensi adminUI baru dengan opsi "TopUp" untuk menambahkan dana ke akun LNbits.
 
-#### Kesalahan 426
+##### Kesalahan 426
 
 Saya mendapatkan kesalahan: "lnurl harus dikirim melalui domain https atau tor yang dapat diakses publik. diperlukan peningkatan 426" </ ringkasan>
 
@@ -325,7 +325,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### Kesalahan Jaringan
+##### Kesalahan Jaringan
 
 Saya mendapat "kesalahan https", kesalahan jaringan" atau lainnya saat memindai QR< /ringkasan
 
@@ -337,25 +337,25 @@ LNbits hanya berjalan melalui Tor, Anda tidak dapat membukanya di domain publik 
 - Karena Anda ingin pengaturan Anda tetap seperti ini, buka dompet LNbits Anda menggunakan URI .onion dan buat lagi. Dengan cara ini, QR dibuat agar dapat diakses melalui URI .onion ini, jadi hanya melalui tor. Jangan membuat QR tersebut dari URI .local, karena QR tersebut tidak akan dapat diakses melalui internet - hanya dari dalam LAN rumah Anda.
 - Buka aplikasi dompet LN yang Anda gunakan untuk memindai QR tersebut dan kali ini dengan menggunakan tor (lihat pengaturan aplikasi dompet). Jika aplikasi tidak menawarkan tor, Anda bisa menggunakan Orbot (Android) sebagai gantinya. Lihat bagian instalasi untuk petunjuk terperinci tentang cara membuka LNbits Anda untuk clearnet/https.
 
-#### Mencegah orang lain membuat dompet di LNbits saya
+##### Mencegah orang lain membuat dompet di LNbits saya
 
 Ketika Anda menjalankan LNbits Anda di clearnet, pada dasarnya semua orang dapat membuat dompet di dalamnya. Karena dana dari node Anda terikat pada dompet ini, Anda mungkin ingin mencegahnya. Ada dua cara untuk melakukannya:
 
 Konfigurasikan pengguna dan ekstensi yang diizinkan dalam berkas `.env` ([lihat contoh env di sini](https://github.com/lnbits/lnbits/blob/main/.env.example)). Ini hanya berfungsi jika Anda menggunakan pengaturan `adminUI=FALSE` pada .env, jika tidak, Anda harus melakukannya pada bagian Kelola Server -> Pengguna -> Pengguna yang Diizinkan. Semua orang tidak akan diizinkan setelah itu.
 
-#### Sesuaikan jangka waktu kedaluwarsa faktur
+##### Sesuaikan jangka waktu kedaluwarsa faktur
 
 Sekarang Anda dapat membuat faktur dengan masa berlaku khusus. Kompatibel dengan backend: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet sejauh ini!
 
 Anda dapat mengatur `LIGHTNING_INVOICE_EXPIRY` di file .env Anda atau menggunakan AdminUI untuk mengubah nilai default untuk semua faktur. Ada juga bidang baru di titik akhir /api/v1/payments di mana Anda dapat mengatur masa berlaku dalam data JSON.
 
-## Dompet-URL dihapus
+### Dompet-URL dihapus
 
-### Dompet di server demo legend.lnbits
+#### Dompet di server demo legend.lnbits
 
 Selalu simpan salinan wallet-URL, Export2phone-QR atau LNDhub Anda di tempat yang aman. LNbits TIDAK dapat membantu Anda untuk memulihkannya ketika hilang.
 
-### Dompet pada sumber/simpul pendanaan Anda sendiri
+#### Dompet pada sumber/simpul pendanaan Anda sendiri
 
 Selalu simpan salinan wallet-URL, Export2phone-QR atau LNDhub Anda di tempat yang aman. Anda dapat menemukan semua pengguna LNbits dan wallet-ID di ekstensi pengelola pengguna LNbits Anda atau di database sqlite Anda. Untuk mengedit atau membaca database LNbits, masuk ke folder LNbits /data dan cari file bernama sqlite.db. Anda dapat membuka dan mengeditnya dengan excel atau dengan SQL-Editor khusus seperti [SQLite browser](https://sqlitebrowser.org/).
 
@@ -385,11 +385,11 @@ Di mana Anda mengganti f8a43fc363ea428db5c53b3559935f1f dengan nilai yang muncul
 .quit
 ```
 
-#### LNURL untuk alamat kilat dan sebaliknya
+##### LNURL untuk alamat kilat dan sebaliknya
 
 Cobalah [encoder](https://lnurl-codec.netlify.app/) dari fiatjaf atau [yang ini](https://lightningdecoder.com/). Untuk membayar atau memeriksa LNURLp, Anda juga dapat menggunakan [LNurlpay](https://wwww.lnurlpay.com/). Ini harus menyatakan HTTPS BUKAN HTTP.
 
-#### Mengonfigurasi komentar yang dilihat orang saat membayar ke QR LNURLp saya
+##### Mengonfigurasi komentar yang dilihat orang saat membayar ke QR LNURLp saya
 
 Ketika Anda membuat LNURL-p, secara default kotak komentar tidak diisi. Ini berarti komentar tidak diizinkan untuk dilampirkan ke pembayaran.
 
@@ -397,15 +397,15 @@ Untuk mengizinkan komentar, tambahkan panjang karakter pada kotak, dari 1 hingga
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### Menyetor onchain BTC ke LNbits
+##### Menyetor onchain BTC ke LNbits
 
 Ada dua cara untuk menukar satoshi dari onchain BTC ke LN BTC (resp. ke LNbits).
 
-##### Melalui layanan swap eksternal.
+###### Melalui layanan swap eksternal.
 
 Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
 
-##### Menggunakan ekstensi Onchain dan Boltz LNbits.
+###### Menggunakan ekstensi Onchain dan Boltz LNbits.
 
 Perlu diingat bahwa ini adalah dompet terpisah, bukan dompet LN btc yang diwakili oleh LNbits sebagai "dompet Anda" pada sumber pendanaan LN Anda. Dompet onchain ini juga dapat digunakan untuk menukar LN btc ke (mis. Dompet perangkat keras Anda) dengan menggunakan ekstensi LNbits Boltz atau Deezy. Jika Anda menjalankan toko web yang terhubung ke LNbits Anda untuk pembayaran LN, akan sangat berguna untuk mengalirkan semua sat dari LN ke onchain secara teratur. Hal ini akan memberikan lebih banyak ruang di saluran LN Anda untuk dapat menerima sat yang baru.
 
@@ -441,13 +441,13 @@ Ketika melakukan ini, kami merekomendasikan untuk mengatur URI jaringan LN ke sa
 
 Jika Anda mengalami kesalahan "tipe hash tidak didukung" saat menggunakan ypub dalam ekstensi On-chain, periksa apakah instance LNbits Anda menggunakan python 3.10 yang mungkin terpengaruh oleh [masalah ini](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit openssl.cnf seperti yang dijelaskan di jawaban stackoverflow dan mulai ulang LNbits Anda.
 
-## Perkakas & Bangunan dengan LNbits
+### Perkakas & Bangunan dengan LNbits
 
 LNbits memiliki berbagai macam [API terbuka](https://legend.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
 
 Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) dari Ben Arc tentang membangun gadget berdasarkan LNbits.
 
-### PENTING:
+#### PENTING:
 
 
 - LNbits bekerja berdasarkan protokol LNURL yang permintaannya dapat dilakukan dalam dua bentuk: baik sebagai tautan https://clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http://v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam bebas, Anda harus membuka LNbits ke clearnet (https).

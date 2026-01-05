@@ -7,7 +7,7 @@ description: Comment acheter et vendre des Bitcoin P2P avec BitcoinVoucherBot
 
 
 
-On entend encore parler de BitcoinVoucherBot, un bot Telegram créé pour acheter Bitcoin sans [KYC] (https://planb.academy/resources/glossary/kyc-know-your-customer) par virement bancaire SEPA. Malheureusement, depuis novembre 2025, le BitcoinVoucherBot sous sa forme centralisée n'est plus disponible en tant que service sans KYC.
+On entend encore parler de BitcoinVoucherBot, un bot Telegram créé pour acheter Bitcoin sans [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) par virement bancaire SEPA. Malheureusement, depuis novembre 2025, le BitcoinVoucherBot sous sa forme centralisée n'est plus disponible en tant que service sans KYC.
 
 
 
@@ -31,7 +31,7 @@ Parmi les portefeuilles pris en charge, nous pouvons trouver :
 
 
 
-Ou tout wallet qui a un "Lightning Address" et génère une facture Bolt11. Les portefeuilles qui generate une facture Bolt12 ne sont pas actuellement pris en charge. Pour plus d'informations, voir la définition de [Bolt] (https://planb.academy/resources/glossary/bolt).
+Ou tout wallet qui a un "Lightning Address" et génère une facture Bolt11. Les portefeuilles qui generate une facture Bolt12 ne sont pas actuellement pris en charge. Pour plus d'informations, voir la définition de [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 
@@ -57,7 +57,7 @@ Tout d'abord, si vous ne l'avez pas encore installé sur votre smartphone, tél�
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
+- [Google Play](https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
 - [App Store](https://apps.apple.com/au/app/wallet-of-satoshi/id1438599608)
 
 

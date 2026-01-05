@@ -1,0 +1,9 @@
+question: Why is LN+ unsuitable for retailers?
+answer: Substantial capital investment
+wrong_answers:
+  - Lack of reliability of the nodes involved
+  - No reputation system
+  - Channels too small
+explanation: |
+  Each inbound sat obtained requires an outbound sat to be blocked, which limits scalability for a business.
+reviewed: false

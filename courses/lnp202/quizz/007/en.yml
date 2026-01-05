@@ -1,0 +1,9 @@
+question: What fundamental property of Bitcoin is lost in custodial?
+answer: Monetary sovereignty
+wrong_answers:
+  - Monetary scalability
+  - Fast payment
+  - Monetary interoperability
+explanation: |
+  Without key control, the user relinquishes monetary sovereignty, the central pillar of Bitcoin.
+reviewed: false

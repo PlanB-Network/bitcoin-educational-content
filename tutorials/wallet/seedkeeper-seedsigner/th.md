@@ -64,7 +64,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-หากคุณยังไม่มี ให้ดาวน์โหลดซอฟต์แวร์ [Balena Etcher] (https://etcher.balena.io/) จากนั้นดำเนินการดังนี้:
+หากคุณยังไม่มี ให้ดาวน์โหลดซอฟต์แวร์ [Balena Etcher](https://etcher.balena.io/) จากนั้นดำเนินการดังนี้:
 
 
 

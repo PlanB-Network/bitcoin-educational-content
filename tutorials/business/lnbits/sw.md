@@ -4,9 +4,9 @@ name: LNbits
 description: Jukwaa la Uhasibu la Wafanyabiashara
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Mfumo wa hesabu
+## Mfumo wa hesabu
 
 
 LNbits imejaa zana nyingi za kudhibiti na kuelekeza fedha zako zinazoingia na kutoka, kuunganisha duka lako la tovuti au hata vifaa kama vile Hardware Wallet au ATM ambayo umejitengenezea mwenyewe. Aina za watumiaji ni pamoja na:
@@ -18,7 +18,7 @@ LNbits imejaa zana nyingi za kudhibiti na kuelekeza fedha zako zinazoingia na ku
 - Wote hao wana mahitaji tofauti. Tunaunda LNbits kwa njia ya kawaida ili kila mtumiaji aweze kutumia vipengele vyetu kwa njia inayokufaa zaidi.
 
 
-# Meneja wa Wallet
+## Meneja wa Wallet
 
 
 LNbits ni mfumo wa bure na wazi wa uhasibu - sio meneja ya node. Usimamizi wa kituo ni kikoa cha node ya Lightning ambayo imeunganishwa kwa LNbits kama chanzo cha ufadhili kama vile LND au c-Lightning. Mtumiaji Mkuu au Watumiaji Msimamizi katika mfumo wa LNbits wana jukumu la kudhibiti ufikiaji wa jumla na usanidi wa vipengele vya uhasibu na viendelezi vya ndani.
@@ -39,13 +39,13 @@ Utatoa njia rahisi kwao kufungua "akaunti ya benki" kwenye node yako bila kupata
 KUMBUKA: pesa zote ambazo "wateja" wako huweka kwenye akaunti zao za benki za LNbits kwenye node yako, zitaingia moja kwa moja kwenye node zako za LN. Hiyo ina maana kwamba WEWE ndiye mmiliki halisi wa fedha hizo. Utakuwa na jukumu kubwa kwa fedha zao. Usiwe mwovu na kukimbia na fedha, usiwe na uovu na ulipe ada kubwa. Tunataka kutomba benki za fiat, sio kutombana (watumiaji wa Bitcoin).
 
 
-# Jukwaa la onyesho
+## Jukwaa la onyesho
 
 
 Onyesho linaweza kupatikana katika [https://legend.lnbits.com](https://legend.lnbits.com). Inafanya kazi kikamilifu na inaweza kutumika kujifunza kuhusu Lightning Network na vipengele vya LNbits na LNURL kwa ujumla. Ingawa hatuwezi kukuzuia, tungependa kukuuliza usiitumie kwa usanidi wako wa uzalishaji. Sio tu kwamba tunafanya kazi kwenye server mara kwa mara ili kujaribu vipengele vipya lakini pia tungependa kukuhimiza kuendesha node yako mwenyewe na LNbits kwa njia huru. Iwapo unafikiri kuwa kuendesha node kunaulizwa sana kwa sasa unaweza kuunganisha LNbits kwa huduma ya ufadhili ya msimamizi katika cloud kama vile Opennode, Luna au Votage au kwa Tipbot ya Lightning kwenye Telegram ili kutaja baadhi tu.
 
 
-# Kipeperushi cha LNbits
+## Kipeperushi cha LNbits
 
 
 Je, ungependa kukabidhi maelezo ya msingi kwa mfanyabiashara au rafiki yako anayejenga ? Tunayo furaha kubwa kutangaza kipeperushi chetu cha kwanza kwa kila mtu kutumia. Ukubwa ni muundo wa kawaida wa kipeperushi wenye kurasa 6 (mikunjo 2) na upana wa 3508 na urefu wa 2480px.
@@ -57,7 +57,7 @@ LNbits kwa wafanyabiashara: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets
 LNbits kwa wajenzi: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# Baadhi ya Misingi
+## Baadhi ya Misingi
 
 
 LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo ina maana kwamba maombi ni halali katika aina mbili: ama kama kiungo cha https://clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http://v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits hadi clearnet (https).
@@ -89,10 +89,10 @@ Miongozo ya kina zaidi kwa kutumia LNbits katika hali maalum za utumiaji hapa:
 
 
 
-# Sakinisha LNbits
+## Sakinisha LNbits
 
 
-## Mwongozo wa msingi wa ufungaji
+### Mwongozo wa msingi wa ufungaji
 
 
 LNbits inaweza kusakinishwa kwenye mashine yoyote ya Linux OS. Haihitaji mashine au server yenye nguvu, kumbukumbu ya kutosha ya RAM na nafasi fulani ya disk kwa hifadhidata. Inaweza kuendeshwa kando na node ya BTC/LN (PC ya ndani au VPS ya mbali) au pamoja kwenye mashine moja yenye node au tayari imewekwa kwenye mashine ya programu ya node ya kifungu.
@@ -118,7 +118,7 @@ Unaweza pia kupata video kwenye [Usanidi uliowekwa kwenye VPS ukitumia PostgreSQ
 Kwa vifurushi vya programu, tafadhali rejelea hati zao mahususi kuhusu LNbits: [Citadel](https://runcitadel.space) | [Mwavuli](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
 Wakati hujishughulishi na mambo ya kiufundi na hutaki kupangisha chanzo chako cha ufadhili au lnbits zako mwenyewe kuna [LNbits SaaS toleo](https://saas.lnbits.com) (Programu-kama-huduma) unaweza kutumia. Kimsingi ni kama LNbits kwenye cloud lakini unaweza kufafanua chanzo cha ufadhili (k.m. Node yako, LNbits Wallet, LNtipbot, fakewallet n.k) na anuwai za mazingira wewe mwenyewe - ambayo sio hivyo kwenye suluhisho zingine za cloud.
@@ -127,7 +127,7 @@ Wakati hujishughulishi na mambo ya kiufundi na hutaki kupangisha chanzo chako ch
 [Huu hapa ni mwongozo wa kina jinsi ya kutumia LNbits SaaS kwa kesi mahususi za matumizi](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
-## Vyanzo vya ufadhili
+### Vyanzo vya ufadhili
 
 
 LNbits si programu ya usimamizi wa node bali ni mfumo wa uhasibu unaolenga LN juu ya chanzo cha ufadhili cha LND au CLN. Baada ya usakinishaji wa kwanza unaweza kutembelea LNbits zako kwa http://localhost:5000/.
@@ -156,7 +156,7 @@ Ikiwa ungependa kutumia toleo la .env unaweza kupata vigezo hapa:
 
 
 
-### Msingi wa Lightning
+#### Msingi wa Lightning
 
 
 - CLN
@@ -167,7 +167,7 @@ Ikiwa ungependa kutumia toleo la .env unaweza kupata vigezo hapa:
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: ufunguo_wa_ufikiaji_wa_siri
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (PUMZIKO)
@@ -191,7 +191,7 @@ Unaweza pia kutumia macaroon iliyosimbwa kwa AES (maelezo zaidi) badala yake kwa
 Ili kusimba macaroon yako, endesha `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
 
-### LNbits (mfano mwingine wa LNbits)
+#### LNbits (mfano mwingine wa LNbits)
 
 
 
@@ -204,7 +204,7 @@ Ili kusimba macaroon yako, endesha `./venv/bin/python lnbits/wallets/macaroon/ma
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Lightning TipBot
+#### Lightning TipBot
 
 
 Ili kuunganisha [Kidokezo cha Lightning](https://t.me/LightningTipBot) kutoka kwa Telegramu utahitaji kuweka kigezo kifuatacho:
@@ -218,7 +218,7 @@ Ili kuunganisha [Kidokezo cha Lightning](https://t.me/LightningTipBot) kutoka kw
 Pia tazama mafunzo haya jinsi ya kusakinisha [LNbits with LightningTipBot kupitia vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
-### IBEX HUB
+#### IBEX HUB
 
 
 Sajili [hapa](https://ibexpay.ibexmercado.com/onboard) kisha upate funguo/tokeni zako kutoka hapo, sehemu ya mwisho ni https://ibexpay-api.ibexmercado.com.
@@ -226,7 +226,7 @@ Sajili [hapa](https://ibexpay.ibexmercado.com/onboard) kisha upate funguo/tokeni
 Maelezo zaidi angalia [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 
-### LNPay
+#### LNPay
 
 Ili msikilizaji wa Invoice afanye kazi una URL inayoweza kufikiwa na umma katika LNbits zako na unatakiwa kusanidi [LNPay webhook](https://dashboard.lnpay.co/webhook/) inayoelekeza kwenye `<mpangishi wako wa LNbits>/Wallet/webhook` kwa tukio la "Wallet Pokea" na hakuna tukio la Kupokea. Mipangilio `https://mylnbits/Wallet/webhook` itakuwa url ya mwisho ambayo itaarifiwa kuhusu malipo yoyote.
 
@@ -237,7 +237,7 @@ Ili msikilizaji wa Invoice afanye kazi una URL inayoweza kufikiwa na umma katika
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### OpenNode
+#### OpenNode
 
 Ili Invoice ifanye kazi, unahitaji kuwa na URL inayoweza kufikiwa na umma katika LNbits zako. Mpangilio wa kitabu cha wavuti ni cha hiari.
 
@@ -247,7 +247,7 @@ Ili Invoice ifanye kazi, unahitaji kuwa na URL inayoweza kufikiwa na umma katika
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
 Alby ni kiendelezi cha kivinjari chenye utendaji wa LN Wallet na akaunti ya LNDHUB ambayo inaweza kutumika kama chanzo cha ufadhili kwa LNbits. [Maelezo zaidi hapa](https://getalby.com/).
@@ -262,13 +262,13 @@ Ili Invoice ifanye kazi, lazima uwe na URL inayoweza kufikiwa na umma kwenye LNb
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
 
-## Miongozo ya Ziada / ya Utatuzi
+### Miongozo ya Ziada / ya Utatuzi
 
 
 Hapa kuna maagizo ya ziada ikiwa utayahitaji. Bofya kwenye mshale ili kupanua maelezo.
 
 
-### Killswitch 🚨
+#### Killswitch 🚨
 
 
 Kumekuwa na bugs nyingi hatari hivi majuzi, sio tu katika nyanja nzima bali pia kwenye LNbits, kiasi kwamba tuliamua kuchukua hatua kulihusu. Sasa unaweza kuchagua kujiunga ili kupata maonyo na/au kuchukua hatua moja kwa moja, pale ambapo hitilafu inayoweza kusababisha upotevu wa pesa inapotokea.
@@ -284,13 +284,13 @@ Je, inafanyaje kazi? Wakati killswitch imewashwa, hazina ya siri ya github inayo
 
 
 
-### Tofauti kati ya msimamizi na mtumiaji mkuu
+#### Tofauti kati ya msimamizi na mtumiaji mkuu
 
 
 Kiolesura cha Msimamizi wa LNbits hukuruhusu kubadilisha mipangilio ya LNbits kupitia sehemu ya mbele ya LNbits. Imezimwa kwa chaguomsingi na mara ya kwanza unapoweka utofauti wa mazingira `LNBITS_ADMIN_UI=true` katika faili ya `.env`, mipangilio itaanzishwa na itatumika. Kuanzia hapo mipangilio kulingana na hifadhidata badala yake ile ya faili ya .env inatumika.
 
 
-### Mtumiaji Bora
+#### Mtumiaji Bora
 
 
 Kwa kutumia Kiolesura cha Msimamizi tulianzisha mtumiaji bora ambaye ana idhini ya kufikia server ili aweze kubadilisha mipangilio ambayo inaweza kuharibu server au kuifanya isifanye kazi kupitia mazingira ya mbele na api, kama vile kubadilisha chanzo cha ufadhili. Mtumiaji bora huhifadhiwa tu ndani ya jedwali la mipangilio ya hifadhidata. Baada ya mipangilio "kuwekwa upya kwa chaguo-msingi" na kuanzisha upya mtumiaji mpya bora anaundwa. Pia tuliongeza kipamba kwa njia za API ili kuangalia uwepo wa mtumiaji bora. Kitambulisho chake hakitumwi kupitia api na sehemu ya mbele na hupokea tu bool (ndio/hapana) ikiwa wewe ni mtumiaji bora au la.
@@ -305,13 +305,13 @@ Unaweza pia kutuma mtumiaji bora kupitia webhook kwa huduma nyingine inapoundwa.
 Katika sehemu ya mbele (Frontend) utapata pia chaguo (option) la kubadilisha picha ya duka inayoonyeshwa kwenye ukurasa (page) wa "unda Wallet", kwa kufungua sehemu ya Kudhibiti Seva na kuchagua Mandhari (Theme) -> Nembo Maalum (Custom Logo).
 
 
-### Watumiaji wa Usimamizi
+#### Watumiaji wa Usimamizi
 
 
 Tofauti ya mazingira: `LNBITS_ADMIN_USERS`, orodha iliyotenganishwa kwa koma ya vitambulisho vya watumiaji. Watumiaji Wasimamizi wanaweza kubadilisha mipangilio katika ui ya msimamizi - isipokuwa mipangilio ya chanzo cha ufadhili, kwa sababu hii itahitaji kuwashwa upya kwa server na kunaweza kufanya server isifikike. Pia wanaweza kufikia viendelezi vyote vilivyowekwa wakfu kwao katika `LNBITS_ADMIN_EXTENSIONS`.
 
 
-### Watumiaji Wanaoruhusiwa
+#### Watumiaji Wanaoruhusiwa
 
 
 Tofauti ya mazingira: `LNBITS_ALLOWED_USERS`, orodha iliyotenganishwa kwa koma ya vitambulisho vya watumiaji. Kwa kufafanua watumiaji hawa LNbits haitatumika tena na umma. Watumiaji na wasimamizi waliobainishwa pekee ndio wanaweza kufikia sehemu ya mbele ya LNbits.
@@ -319,7 +319,7 @@ Tofauti ya mazingira: `LNBITS_ALLOWED_USERS`, orodha iliyotenganishwa kwa koma y
 
 
 
-#### Sasisha LNbits
+##### Sasisha LNbits
 
 Usasishaji wa kawaida wa mfano wako wa karibu wa LNbits ni kwa kunakili kubandika amri zifuatazo za CLI:
 
@@ -356,7 +356,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### Uhamiaji wa SQLite hadi PostgreSQL
+##### Uhamiaji wa SQLite hadi PostgreSQL
 
 
 Ikiwa tayari una LNbits zilizosakinishwa na zinazoendeshwa kwenye hifadhidata ya SQLite tunapendekeza sana kuhamia postgres ikiwa unapanga kuendesha LNbits kwa ukubwa.
@@ -384,14 +384,14 @@ Tunatumahi sasa kila kitu kinafanya kazi na kuhamishwa... Zindua LNbits tena na 
 
 
 
-#### Hifadhi nakala na kurejesha hifadhidata
+##### Hifadhi nakala na kurejesha hifadhidata
 
 
 Tafadhali rejelea [mwongozo huu wa kina kuhusu mchakato wa kuhifadhi nakala na kurejesha](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 
 
-#### Kufadhili LNbits Wallet yangu kutoka kwa node yangu haifanyi kazi
+##### Kufadhili LNbits Wallet yangu kutoka kwa node yangu haifanyi kazi
 
 
 Ikiwa ungependa kutuma Sats kutoka kwa node ile ile ambayo ni chanzo cha ufadhili cha LNbits yako, utahitaji kuhariri faili ya LND.conf.
@@ -406,7 +406,7 @@ Tafadhali fanya hivyo katika sehemu ya Chaguo za Maombi ya LND.conf yako. Kwenye
 KUMBUKA: Inapendekezwa badala yake utumie kiendelezi kipya cha adminUI na chaguo la "TopUp" ili kuongeza fedha kwenye akaunti ya LNbits.
 
 
-#### Hitilafu 426
+##### Hitilafu 426
 
 Nilipata hitilafu: "lnurl inahitaji kuwasilishwa kupitia kikoa cha https kinachoweza kufikiwa na umma au tor. Uboreshaji wa 426 unahitajika"</summary>
 
@@ -425,7 +425,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### Hitilafu ya Mtandao
+##### Hitilafu ya Mtandao
 
 Nilipata "kosa la https", hitilafu ya mtandao" au wengine wakati wa kuchanganua QR</summary>
 
@@ -442,7 +442,7 @@ LNbits inaendeshwa kupitia Tor pekee, huwezi kuifungua kwenye kikoa cha umma kam
 
 
 
-#### Zuia wengine wasitengeneze wallet kwenye LNbits zangu
+##### Zuia wengine wasitengeneze wallet kwenye LNbits zangu
 
 
 Unapoendesha LNbits zako kwenye clearnet kimsingi kila mtu anaweza generate Wallet juu yake. Kwa kuwa pesa za node yako zimefungwa kwa wallet hizi unaweza kutaka kuzuia hilo. Kuna njia mbili za kufanya hivyo:
@@ -453,7 +453,7 @@ Sanidi watumiaji wanaoruhusiwa na viendelezi katika faili ya `.env` ([angalia mf
 
 
 
-#### Geuza kukufaa muda wa muda wa Invoice kuisha
+##### Geuza kukufaa muda wa muda wa Invoice kuisha
 
 
 Sasa unaweza ankara za generate kwa kuisha kwa muda maalum. Inatumika na sehemu za nyuma: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet hadi sasa!
@@ -464,16 +464,16 @@ Unaweza kuweka `LIGHTNING_INVOICE_EXPIRY` katika faili yako ya .env au utumie Ad
 
 
 
-## Wallet-URL imefutwa
+### Wallet-URL imefutwa
 
 
-### Wallet kwenye server ya onyesho legend.lnbits
+#### Wallet kwenye server ya onyesho legend.lnbits
 
 
 Hifadhi nakala ya Wallet-URL, Export2phone-QR au LNDhub yako kila wakati kwa wallet zako mahali salama. LNbits HAZIWEZI kukusaidia kuzipata zinapopotea.
 
 
-### Wallet kwenye chanzo/node yako ya ufadhili
+#### Wallet kwenye chanzo/node yako ya ufadhili
 
 Hifadhi nakala ya Wallet-URL, Export2phone-QR au LNDhub yako kila wakati kwa wallet zako mahali salama. Unaweza kupata watumiaji wote wa LNbits na Wallet-ID katika kiendelezi chako cha kidhibiti cha mtumiaji cha LNbits au katika hifadhidata yako ya sqlite. Ili kuhariri au kusoma hifadhidata ya LNbits, nenda kwenye folda ya LNbits /data na utafute faili inayoitwa sqlite.db. Unaweza kuifungua na kuihariri ukitumia excel au kwa SQL-Editor maalum kama vile [SQLite browser](https://sqlitebrowser.org/).
 
@@ -510,14 +510,14 @@ Ambapo unabadilisha f8a43fc363ea428db5c53b3559935f1f na thamani inayokuja kabla 
 .quit
 ```
 
-#### LNURL ya Lightning-Address kinyume chake
+##### LNURL ya Lightning-Address kinyume chake
 
 
 Jaribu hii [encoder](https://lnurl-codec.netlify.app/) kutoka fiatjaf au [hii](https://lightningdecoder.com/). Ili kulipa au kuangalia LNURLp unaweza pia kutumia [LNurlpay](https://wwww.lnurlpay.com/). Inapaswa kusema HTTPS SI HTTP.
 
 
 
-#### Sanidi maoni ambayo watu huona wanapolipa kwa LNURLp QR yangu
+##### Sanidi maoni ambayo watu huona wanapolipa kwa LNURLp QR yangu
 
 Unapounda LNURL-p, kwa chaguo-msingi kisanduku cha maoni hakijajazwa. Hiyo ina maana kwamba maoni hayaruhusiwi kuambatanishwa na malipo.
 
@@ -528,18 +528,18 @@ Ili kuruhusu maoni, ongeza urefu wa herufi za kisanduku, kutoka 1 hadi 250. Mara
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### Amana ya onchain BTC kwa LNbits
+##### Amana ya onchain BTC kwa LNbits
 
 Kuna njia mbili za Exchange Sats kutoka onchain BTC hadi LN BTC (resp. to LNbits).
 
 
-##### Kupitia huduma ya ubadilishaji wa nje.
+###### Kupitia huduma ya ubadilishaji wa nje.
 
 
 Watumiaji wengine ambao hawawezi kufikia LNb yako wanaweza kutumia huduma ya kubadilishana kama vile [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) au [ZigZag](https://zigza).g. Hii ni muhimu ikiwa utatoa tu ankara za LNURL/LN kutoka kwa mfano wako wa LNbits, lakini mlipaji ana onchain Sats pekee kwa hivyo atalazimika kubadilisha hizo Sats kwanza upande wao. Utaratibu ni rahisi: mtumiaji hutuma onchain btc kwa huduma ya kubadilishana na hutoa LNURL / LN Invoice kutoka LNbits kama marudio ya kubadilishana.
 
 
-##### Kwa kutumia kiendelezi cha Onchain na Boltz LNbits.
+###### Kwa kutumia kiendelezi cha Onchain na Boltz LNbits.
 
 
 Kumbuka kwamba hii ni Wallet tofauti, si ile ya LN btc ambayo inawakilishwa na LNbits kama "Wallet yako" kwenye chanzo chako cha ufadhili cha LN. Wallet hii ya onchain inaweza kutumika pia kubadilisha LN btc hadi (k.m. wallet yako ya vifaa) kwa kutumia LNbits Boltz au kiendelezi cha Deezy. Ukiendesha duka la wavuti ambalo limeunganishwa na LNbits zako kwa malipo ya LN, ni rahisi sana kuondoa mara kwa mara Sats zote kutoka LN hadi kwenye onchain. Hii husababisha nafasi zaidi katika chaneli zako za LN kuweza kupokea Sats mpya.
@@ -591,7 +591,7 @@ Iwapo una Hitilafu "aina ya Hash isiyotumika" unapotumia ypub katika kiendelezi 
 
 
 
-## Vyombo na Ujenzi na LNbits
+### Vyombo na Ujenzi na LNbits
 
 
 LNbits ina kila aina ya [API zilizofunguliwa](https://legend.lnbits.com/docs) na zana za kupanga na kuunganisha kwenye vifaa vingi tofauti kwa gazilioni ya visa vya utumiaji.
@@ -600,7 +600,7 @@ LNbits ina kila aina ya [API zilizofunguliwa](https://legend.lnbits.com/docs) na
 Ukiwa mgeni anza na [Maonyesho ya MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) kutoka kwa Ben Arc kuhusu kujenga vifaa kulingana na LNbits.
 
 
-### MUHIMU:
+#### MUHIMU:
 
 
 - LNbits hufanya kazi kulingana na itifaki ya LNURL ambayo maombi ni halali katika aina mbili: ama kama kiungo cha https://clearnet (hakuna vyeti vya kujiandikisha vinavyoruhusiwa) au kama kiungo cha kitunguu cha http://v2/v3. Ili kutoa huduma za LNbits kama vile misimbo ya QR ya LNURLp/w au Kadi za NFC, ambazo zinaweza kutumika porini, utahitaji kufungua LNbits ili clearnet (https).

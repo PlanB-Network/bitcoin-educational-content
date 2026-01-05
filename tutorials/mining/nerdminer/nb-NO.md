@@ -26,11 +26,11 @@ Du kan også kjøpe et forhåndsmontert NerdMiner-kit fra flere forhandlere som:
 
 Først vil vi se hvordan du flasher programvaren på ESP-32 S3, og deretter vil vi se hvordan du omstarter den for å endre wifi-nettverket. Disse stegene er for Windows-brukere, hvis du bruker et Linux OS, vennligst utfør [forberedende steg](#etapes-preliminaires-pour-utilisateurs-linux) for å tillate gjenkjenning av ESP-32 S3 av systemet ditt.
 
-# Installasjon av NerdMiner_v2-programvare
+## Installasjon av NerdMiner_v2-programvare
 
 Installasjonen av programvaren er sterkt forenklet takket være bruken av webflasher.
 
-## Steg 1: Forberedelse av webflasher
+### Steg 1: Forberedelse av webflasher
 
 Først må du gå til [online NM2 flasher](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Velg deretter firmwaren som tilsvarer din ESP-32. De fleste ganger er det den so
 
 ![](assets/webflasher.webp)
 
-## Steg 2: Koble til ESP-32
+### Steg 2: Koble til ESP-32
 
 Når webflasher er lansert, vil et pop-up vindu åpne som viser de forskjellige USB-portene som er gjenkjent av nettleseren.
 Du kan deretter koble til din ESP-32, og en ny port vil bli vist (i dette tilfellet er det ttyACM0-porten). Du må deretter velge den og klikke på "koble til".
@@ -50,7 +50,7 @@ Programvaren vil da bli lastet ned til din ESP32 på noen få sekunder.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Steg 3: NerdMiner-konfigurasjon
+### Steg 3: NerdMiner-konfigurasjon
 
 Konfigurasjonen av din NerdMiner vil bli gjort via en smarttelefon eller en datamaskin.
 Aktiver WiFi og koble til det lokale NerdMinerAP-nettverket. Hvis du bruker en smarttelefon, vil konfigurasjonsportalen åpne seg automatisk. Ellers, skriv inn adressen 192.168.4.1 i en nettleser.
@@ -77,7 +77,7 @@ Du kan nå klikke på "lagre".
 
 Gratulerer, du er nå en del av Bitcoin mining-nettverket!
 
-## NerdMiner-drift
+### NerdMiner-drift
 
 NerdMinerv2-programvaren har 3 forskjellige skjermer, som du kan få tilgang til ved å klikke på den øverste knappen på høyre side av skjermen din:
 
@@ -90,7 +90,7 @@ Hvis du ønsker å starte din NerdMiner på nytt, for eksempel for å endre WiFi
 
 Å trykke på den nederste knappen én gang vil slå av din NerdMiner. Å klikke to ganger vil rotere skjermorienteringen.
 
-### Forberedende steg for Linux-brukere
+#### Forberedende steg for Linux-brukere
 
 Her er stegene for at Chrome skal oppdage din serielle port på Linux.
 
@@ -109,13 +109,13 @@ Her er stegene for at Chrome skal oppdage din serielle port på Linux.
 
 Nå som din ESP-32 er gjenkjent av systemet ditt, kan du gå tilbake til [første steg](#etape-1-preparation-du-webflasher) for programvareinstallasjon.
 
-## Konklusjon
+### Konklusjon
 
 Og der har du det! Din NerdMiner_v2 er nå konfigurert og klar til bruk.
 
 Lykke til med mining og måtte lykken være på din side!
 
-### Estimere sannsynligheten for å vinne
+#### Estimere sannsynligheten for å vinne
 
 La oss ha det litt gøy med å estimere sannsynligheten for å vinne en blokkbelønning. Denne estimasjonen vil være grov og søker bare å få en størrelsesorden på sannsynligheten.
 Bassenget som en NerdMiner kan koble til er kun "solo mining pool", noe som betyr at bassenget ikke mutualiserer hashraten til alle tilkoblede gruvearbeidere, men simpelthen fungerer som en koordinator.
@@ -123,7 +123,7 @@ La oss nå anta at vår NerdMiner har en hashrate på omtrent 45kH/s.
 
 Med tanke på at den totale hashraten er omtrent 450 EH/s (eller 4.5 x 10^20 hasher per sekund), kan vi vurdere at sannsynligheten for å finne neste blokk er 1 i 100 millioner milliarder, noe som er veldig veldig veldig usannsynlig å skje. Så i tillegg til å være et pedagogisk verktøy og et objekt av nysgjerrighet, kan en NerdMiner tjene som et lodd i bitcoin-mining til en marginal elektrisk kostnad på 0,5 W--selv om vi nettopp har sett at sannsynligheten for å vinne er latterlig lav. Men hvorfor ikke utfordre lykken?
 
-### Tilleggsinformasjon
+#### Tilleggsinformasjon
 
 Her er noen lenker hvis du vil lese mer om emnet:
 

@@ -43,7 +43,7 @@ objectives:
 培训视频目前只有英文版，是 Fulgure Venture 去年 10 月在托斯卡纳举办的现场研讨会的一部分。本培训只针对第一周。后半部分针对 RGB，可在 RGB 课程中找到。
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 本培训让您有机会使用 Rust 和各种 SDK 在 Lightning Network 上开发编程技能。它专为具有扎实编程基础并希望深入了解 Lightning Network 开发的开发人员设计。您将学习 Rust 的基础知识，了解 Rust 为何适用于 Bitcoin 开发，然后使用专门的 SDK 进行实际操作。
 

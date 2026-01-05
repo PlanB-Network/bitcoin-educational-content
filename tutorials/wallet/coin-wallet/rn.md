@@ -25,7 +25,7 @@ Inyungu nyamukuru:
 - Yibanze ku ntumbero nyamukuru - kubika neza amafaranga y'ibanga, ata bintu bidakenewe
 - Gushigikira imbuga zitandukanye: telefone ngendanwa (iOS na Android), mudasobwa, urubuga
 - RBF (Gusubiriza-N'amafaranga) gufasha - kwihutisha amafaranga afashe igihe cose
-- Ivyuma 2FA bifise [Urufunguzo rwa Yubi] (bikorana-na-urufunguzo rwa Yubi/urutonde/igiceri-wallet/) / Urufunguzo rwa FIDO2
+- Ivyuma 2FA bifise [Urufunguzo rwa Yubi](bikorana-na-urufunguzo rwa Yubi/urutonde/igiceri-wallet/) / Urufunguzo rwa FIDO2
 - Infashanyo ya Tor yubatswemwo – inzira y'uruja n'uruza rwose biciye ku rubuga rwa Tor kugira ngo ubone ubuzima bwite
 
 
@@ -353,8 +353,8 @@ Coin Wallet ifise aderesi .onion yihishije kandi, kuva v6.6.3 (Ukuboza 2024), **
 1. **Shiraho Orbot** - porogaramu yemewe y'umugambi wa Tor (ku buntu)
 
 
-   - Android → [Ikiganiro ca Google] (ibisobanuro? ID=ishirahamwe.torproject.android) / [F-Droid]
-   - iPhone / iPad → [Iduka rya porogaramu] (iporogaramu.
+   - Android → [Ikiganiro ca Google](ibisobanuro? ID=ishirahamwe.torproject.android) / [F-Droid]
+   - iPhone / iPad → [Iduka rya porogaramu](iporogaramu.
 
 
 2. **Gufungura Orbot → ushireko Tangira**

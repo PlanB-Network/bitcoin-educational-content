@@ -1,0 +1,9 @@
+question: From a Bitcoin onchain point of view, what is a Lightning channel?
+answer: Multisignature output 2/2
+wrong_answers:
+  - Script P2MS 2/2
+  - UTXO single
+  - Federated contract
+explanation: |
+  Onchain, a Lightning channel is represented by a multisignature output requiring the signatures of both participants.
+reviewed: false

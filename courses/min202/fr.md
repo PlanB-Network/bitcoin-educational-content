@@ -709,6 +709,12 @@ Vous pouvez bien évidemment régler une limite de retrait automatique plus bass
 
 Les récompenses de minage se font selon le modèle dit [FPPS (Full Pay Per Share) ](https://academy.braiins.com/en/braiins-pool/rewards-and-payouts/#fpps-specification) permettant des revenus garantis pour tous les mineurs même si la pool ne trouve pas de blocs pendant un temps plus élevé qu'habituellement.
 
+Synthèse:
+
+- frais: 2 %
+- fiabilité: élevée
+- confiance: élevée
+
 #### Ocean Mining
 
 Ocean Mining est une des pool d'envergure (environ 25Eh/s au moment où sont écrit ces lignes) les plus récentes du paysage du mining. Lancée en novembre 2023 sous l'impulsion de [Luke Dashjr](https://x.com/LukeDashjr)  (une figure tumultueuse de l'écosystème bitcoin doublé d'un développeur talentueux, contributeur à Bitcoin Core et beaucoup d'autres projets) et financé notemment pas le célèbre [Jack Dorsey](https://x.com/jack) a pour objectif de redonner le pouvoir aux mineurs individuels.
@@ -728,7 +734,11 @@ Aucun KYC n'est bien sur demandé.
 
 ![Image](assets/fr/059.webp)
 
+Synthèse:
 
+- frais: 2 % / 1% si payout Lightning
+- fiabilité: élevée
+- confiance: élevée
 
 ## 3.4 Découverte d'AxeOS
 

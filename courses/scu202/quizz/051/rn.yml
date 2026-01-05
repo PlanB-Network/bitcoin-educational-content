@@ -1,9 +1,9 @@
-question: Ni igikoresho ikihe c’umurongo w’amabwirizwa gikenewe kugira ngo Linux ikureho amakuru yose y’imbere mu ishusho canke muri dosiye ya PDF?
-answer: igikoresho co hanze
+question: Ni igikoresho ikihe c’umurongo w’amabwirizwa uhanuriwe gukoresha kuri Linux kugira ngo ufute metadata zose kw’ishusho canke muri dosiye ya PDF?
+answer: exiftool
 wrong_answers:
-  - agapapuro k'inyandiko
+  - notepad
   - nanoexif
-  - guhindura
+  - sudoedit
 explanation: |
-  exiftool ni igikoresho gikomeye co kwerekana no gukuraho amakuru y’imbere mu madosiye atandukanye (amashusho, ama PDF, amajwi, n’ibindi).
-reviewed: false
+  exiftool ni igikoresho gikomeye co kwerekana no gufuta metadata mu madosiye atandukanye (amashusho, ama PDF, amajwi, n’ibindi).
+reviewed: true

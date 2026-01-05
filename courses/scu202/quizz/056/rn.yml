@@ -1,9 +1,9 @@
-question: Ni iyihe moteri y’uguhindura yaremwe ivuye muri Fork ya KHTML kugira ngo ikoreshe Safari?
-answer: Urubuga
+question: Ni iyihe moteri y’uguhindura yaremwe ivuye muri Fork ya KHTML kugira ngo ikoreshwe na Safari?
+answer: WebKit
 wrong_answers:
-  - Igikoko
-  - Inzoka
-  - Gukubita amaso
+  - Trident
+  - Gecko
+  - Blink
 explanation: |
-  WebKit ni Fork ya KHTML, yatowe na Apple ku Safari kuva mu 2003 gushika ubu, hanyuma yemerwa n’abashakashatsi benshi.
-reviewed: false
+  WebKit ni Fork ya KHTML, yatowe na Apple kubwa Safari kuva mu 2003 gushika ubu, hanyuma irateba yemerwa n’izindi mucukumbuzi nyinshi.
+reviewed: true

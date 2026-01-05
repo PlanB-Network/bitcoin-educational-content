@@ -1,7 +1,7 @@
 question: Quel est le principal risque de sécurité qui fait que la P2SH est fondamentalement différente des transactions Bitcoin standard en termes de récupération des fonds ?
 answer: La perte du script de rachat bloque définitivement les fonds, même si vous possédez les clés privées
 wrong_answers:
-  - Le hachage de 20 octets peut être forcé brutalement si le script de redémarrage est trop simple
+  - Le hachage de 20 octets peut être forcé brutalement si le script de rachat est trop simple
   - Les adresses P2SH expirent après une certaine hauteur de bloc, ce qui rend les fonds irrécupérables
   - Le processus de validation en deux étapes peut échouer de manière aléatoire et entraîner une perte permanente des fonds
 explanation: |

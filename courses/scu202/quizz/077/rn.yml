@@ -1,9 +1,9 @@
-question: Ni igiki gikoreshwa kuri Android?
-answer: Rema umwirondoro witandukanije kugira ngo ugabanye ikoreshwa
+question: Porogarame shelter Niki kuri Android?
+answer: Igufasha kurema umurongo w’ibikorwa witandukanije kugira ngo ugabure imikoreshereze
 wrong_answers:
-  - Ubwo nyene gupfuka amakuru yose ya telefone
-  - Guhagarika amatelefone udashaka
-  - Gushiramwo porogaramu hanze y'iduka rya Play
+  - Kunyegeza amakuru yose ya terefone ubwo nyene
+  - Guhagarika abaguhamagara udashaka
+  - Gushiramwo porogarame hanze ya Play Store
 explanation: |
-  Shelter iragufasha gukoresha igikorwa c'Umurongo w'Akazi kugira ngo utandukanye ibikorwa n'amakuru mu kibanza kiri ukwaco.
-reviewed: false
+  Shelter iragufasha gukoresha umurongo w’ibikorwa kugira utandukanye porogarame n’amakuru mu kibanza kiri ukwaco.
+reviewed: true

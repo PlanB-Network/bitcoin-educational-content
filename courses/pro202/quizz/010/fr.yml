@@ -2,7 +2,7 @@ question: Quel est l'objectif principal de l'utilisation de hash160 (SHA-256 pui
 answer: Pour cacher la clé publique jusqu'à ce qu'une dépense ait lieu et créer des adresses plus courtes et plus faciles à gérer
 wrong_answers:
   - Pour crypter la clé privée et empêcher tout accès non autorisé aux fonds wallet
-  - Pour generate la signature numérique requise pour la validation de la transaction sur la blockchain
+  - Pour generer la signature numérique requise pour la validation de la transaction sur la blockchain
   - Pour convertir les points de la courbe elliptique dans le format approprié pour les opérations secp256k1
 explanation: |
   Hash160 remplit plusieurs fonctions importantes dans la création d'adresses Bitcoin. En hachant la clé publique, il garde la clé publique réelle cachée jusqu'à ce que les pièces soient dépensées, fournissant une couche supplémentaire de sécurité. Le hachage permet également de réduire considérablement la taille des adresses, qui passe de 33/65 octets à 20 octets seulement, ce qui les rend plus faciles à gérer. Les mauvaises réponses confondent cette opération avec le cryptage de la clé privée (qui n'est pas effectué), les signatures numériques (qui utilisent des opérations cryptographiques différentes) ou le formatage de la courbe (qui a lieu lors de la sérialisation SEC, et non lors de la création de l'adresse).

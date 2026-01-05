@@ -112,7 +112,7 @@ https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c0
 
 
 
-Можете също така да инсталирате Shelter от неговото хранилище [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Можете също така да инсталирате Shelter от неговото хранилище [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

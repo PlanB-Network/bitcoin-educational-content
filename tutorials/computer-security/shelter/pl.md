@@ -112,7 +112,7 @@ Następnie ponownie dotknij **Install** w menu kontekstowym, które się pojawi,
 
 
 
-Shelter można również zainstalować z repozytorium [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Shelter można również zainstalować z repozytorium [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

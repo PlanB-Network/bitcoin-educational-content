@@ -792,29 +792,29 @@ In het begin van de jaren 2010 was deze heuristiek op basis van scriptversie rel
 ### Betalingen afronden
 
 
-Een andere interne heuristiek die ons kan helpen de Exchange te identificeren is de ronde getallen heuristiek. In het algemeen geldt dat wanneer we worden geconfronteerd met een eenvoudig betalingspatroon (1 invoer en 2 outputs), als een van de outputs een rond bedrag uitgeeft, dit de betaling is.
+Een andere interne heuristiek die ons kan helpen de exchange (wisselgeld) te identificeren is de heuristiek van ronde getallen. In het algemeen geldt dat wanneer we worden geconfronteerd met een eenvoudig betalingspatroon (1 input en 2 outputs), als een van de outputs een rond bedrag uitgeeft, dit de betaling is.
 
 
 ![BTC204](assets/nl/049.webp)
 
 
-Door eliminatie, als de ene uitgang een betaling voorstelt, stelt de andere uitgang Exchange voor. Het kan daarom worden geïnterpreteerd als waarschijnlijk dat de inputgebruiker altijd in het bezit is van de output die is geïdentificeerd als Exchange.
+Door eliminatie, als de ene output een betaling voorstelt, stelt de andere output de exchange voor. Het kan daarom worden geïnterpreteerd als waarschijnlijk dat de inputgebruiker altijd in het bezit is van de output die is geïdentificeerd als exchange.
 
 
-Benadrukt moet worden dat deze heuristiek niet altijd toepasbaar is, omdat de meeste betalingen nog steeds in fiduciaire rekeneenheden worden gedaan. Wanneer een winkelier in Frankrijk Bitcoin accepteert, zal hij over het algemeen geen stabiele prijzen in Sats weergeven. In plaats daarvan zal hij kiezen voor een omrekening tussen de prijs in euro's en het te betalen bedrag in bitcoins. Er zouden dus geen ronde getallen moeten zijn aan het einde van de transactie.
+Benadrukt moet worden dat deze heuristiek niet altijd toepasbaar is, omdat de meeste betalingen nog steeds in fiduciaire rekeneenheden worden gedaan. Wanneer een winkelier in Frankrijk bitcoin accepteert, zal hij over het algemeen geen stabiele prijzen in sats weergeven. In plaats daarvan zal hij kiezen voor een omrekening tussen de prijs in euro's en het te betalen bedrag in bitcoins. Er zouden dus geen ronde getallen voorkomen aan het einde van de transactie.
 
 
-Toch zou een analist kunnen proberen deze omrekening te maken door rekening te houden met het Exchange tarief dat van kracht was op het moment dat de transactie werd uitgezonden op het netwerk. Laten we het voorbeeld nemen van een transactie met een input van `97.552 Sats` en twee outputs, één van `31.085 Sats` en de andere van `64.152 Sats`. Op het eerste gezicht lijkt deze transactie geen ronde bedragen te bevatten. Maar door de Exchange koers van €64.339 toe te passen op het moment van de transactie, krijgen we de volgende omrekening in euro's:
+Toch zou een analist kunnen proberen deze omrekening te maken door rekening te houden met de wisselkoers die van kracht was op het moment dat de transactie werd uitgezonden op het netwerk. Laten we het voorbeeld nemen van een transactie met een input van `97.552 sats` en twee outputs, één van `31.085 sats` en de andere van `64.152 sats`. Op het eerste gezicht lijkt deze transactie geen ronde bedragen te bevatten. Maar door de wisselkoers van €64.339 toe te passen op het moment van de transactie, krijgen we de volgende omrekening in euro's:
 
 
 
 
-- Een invoer van €62,76;
-- Een productie van €20;
-- Een opbrengst van €41,27.
+- Een input van €62,76;
+- Een output van €20;
+- Een output van €41,27.
 
 
-Eenmaal omgezet in fiatvaluta, kan deze transactie gebruikt worden om de rond bedrag betaling heuristiek toe te passen. De €20 output ging waarschijnlijk naar een handelaar, of veranderde tenminste Ownership. De €41,27 output is waarschijnlijk in het bezit gebleven van de oorspronkelijke gebruiker.
+Eenmaal omgezet in fiatvaluta, kan deze transactie gebruikt worden om de heuristiek van ronde bedragen toe te passen. De €20 output ging waarschijnlijk naar een handelaar, of veranderde tenminste eigenaar. De €41,27 output is waarschijnlijk in het bezit gebleven van de oorspronkelijke gebruiker.
 
 
 ![BTC204](assets/nl/050.webp)
@@ -834,22 +834,22 @@ Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan wo
 ![BTC204](assets/nl/051.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
+Bron : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
 
 ### De grootste uitvoer (output)
 
 
-Wanneer we een voldoende grote kloof tussen 2 transactieoutputs identificeren op een eenvoudig betalingsmodel, kunnen we schatten dat de grootste output waarschijnlijk buitenlands Exchange is.
+Wanneer we een voldoende grote kloof tussen 2 transactieoutputs identificeren op een eenvoudig betalingsmodel, kunnen we inschatten dat de grootste output waarschijnlijk exchange (wisselgeld) is.
 
 
 ![BTC204](assets/nl/052.webp)
 
 
-Deze grootste outputheuristiek is zeker de meest onnauwkeurige van allemaal. Op zichzelf is hij behoorlijk zwak. Deze eigenschap kan echter worden gecombineerd met andere heuristieken om de onzekerheid van onze interpretatie te verminderen.
+Deze heuristiek van de grootste output is zeker de meest onnauwkeurige van allemaal. Op zichzelf is hij behoorlijk zwak. Deze eigenschap kan echter worden gecombineerd met andere heuristieken om de onzekerheid van onze interpretatie te verminderen.
 
 
-Als we bijvoorbeeld kijken naar een transactie met een ronde betaling en een grotere betaling, dan verminderen de toepassing van de heuristiek voor ronde betalingen en de heuristiek voor grotere betalingen samen onze mate van onzekerheid.
+Als we bijvoorbeeld kijken naar een transactie met een ronde betaling en een grotere betaling, dan verminderen de toepassing van de heuristiek voor ronde betalingen en de heuristiek voor grotere outputs samen onze mate van onzekerheid.
 
 
 Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -863,7 +863,7 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ![BTC204](assets/nl/053.webp)
 
 
-Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
+Bron : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
 
 ## Externe heuristieken
@@ -884,7 +884,7 @@ Het bestuderen van externe heuristieken betekent het analyseren van de overeenko
 Dit is een van de bekendste heuristieken van bitcoiners. Hergebruik vanadres maakt het mogelijk om een verband te leggen tussen verschillende transacties en verschillende UTXO's. Dit gebeurt wanneer een Bitcoin dat adres ontvangt meerdere keren wordt gebruikt. Dit gebeurt wanneer een Bitcoin ontvangst-adres meerdere keren wordt gebruikt.
 
 
-Het is dus mogelijk omadres hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de Exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maaradres hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
+Het is dus mogelijk omadres hergebruik binnen dezelfde transactie te gebruiken als een interne heuristiek om de exchange te identificeren (zoals we in het vorige hoofdstuk zagen). Maaradres hergebruik kan ook gebruikt worden als een externe heuristiek om de uniciteit van een entiteit achter verschillende transacties te herkennen.
 
 
 De interpretatie van het hergebruik van eenadres is dat alle UTXO's die op dat adres geblokkeerd zijn tot dezelfde entiteit behoren (of hebben behoord). Deze heuristiek laat weinig ruimte voor onzekerheid. Eenmaal geïdentificeerd, komt de resulterende interpretatie waarschijnlijk overeen met de werkelijkheid. Het maakt daarom het groeperen van verschillende activiteiten op de keten mogelijk.
@@ -946,7 +946,7 @@ Kortom, een footprint kan elke specifieke praktijk zijn, automatisch uitgevoerd 
 ### De Common Input Ownership Heuristiek (CIOH)
 
 
-De Common Input Ownership Heuristic (CIOH) is een heuristiek die stelt dat wanneer een transactie meerdere inputs heeft, ze waarschijnlijk allemaal van één entiteit afkomstig zijn. Bijgevolg is hun Ownership gemeenschappelijk.
+De Common Input Ownership Heuristic (CIOH) is een heuristiek die stelt dat wanneer een transactie meerdere inputs heeft, ze waarschijnlijk allemaal van één entiteit afkomstig zijn. Bijgevolg is hun eigenaar gemeenschappelijk.
 
 
 ![BTC204](assets/nl/058.webp)
@@ -1112,7 +1112,7 @@ Identificatiecode van de te analyseren transactie :
 Wat is het model voor deze transactie?
 
 
-Welke output zal de Exchange waarschijnlijk voorstellen, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
+Welke output zal de exchange waarschijnlijk voorstellen, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
 
 
 ### Oefening 4
@@ -1129,7 +1129,7 @@ Identificatiecode van de te analyseren transactie :
 Wat is het model voor deze transactie?
 
 
-Welke output zal de Exchange waarschijnlijk weergeven, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
+Welke output zal de exchange waarschijnlijk weergeven, nadat het model is geïdentificeerd met behulp van de interne heuristiek van de transactie?
 
 
 ### Oefening 5
@@ -1207,7 +1207,7 @@ Het model voor deze transactie is dat van gegroepeerde uitgaven. Dit model laat 
 ***Uitoefening 3:***
 
 
-Het model voor deze transactie is een eenvoudige betaling. We kunnen daarom interne heuristieken toepassen op de transactie om te proberen de Exchange te identificeren.
+Het model voor deze transactie is een eenvoudige betaling. We kunnen daarom interne heuristieken toepassen op de transactie om te proberen de exchange te identificeren.
 
 
 Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hypothese ondersteunen:
@@ -1252,13 +1252,13 @@ Om deze hypothese te ondersteunen of te weerleggen, kunnen we op zoek gaan naar 
 Ik heb minstens één andere heuristiek geïdentificeerd. Het is de grootste outputheuristiek. Uitgang `0` meet `123.689 Sats`, terwijl output `1` `505.839 Sats` meet. Er is dus een significant verschil tussen deze twee outputs. De grootste output heuristiek suggereert dat de grootste output waarschijnlijk buitenlands Exchange is. Deze heuristiek versterkt onze aanvankelijke hypothese nog verder.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de Exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
 
 
 ***Uitoefening 4:***
 
 
-Het model voor deze transactie is een eenvoudige betaling. We kunnen daarom interne heuristieken toepassen op de transactie om te proberen de Exchange te identificeren.
+Het model voor deze transactie is een eenvoudige betaling. We kunnen daarom interne heuristieken toepassen op de transactie om te proberen de exchange te identificeren.
 
 
 Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hypothese ondersteunen:
@@ -1306,7 +1306,7 @@ Ik heb ten minste één andere heuristiek geïdentificeerd. Het is de ronde hoev
 Maar in dit voorbeeld kan een andere heuristiek onze aanvankelijke hypothese in twijfel trekken. Output `0` is namelijk groter dan output `1`. Gebaseerd op de heuristiek dat de grootste output over het algemeen buitenlands Exchange is, zouden we kunnen afleiden dat output `0` buitenlands Exchange is. Deze tegenhypothese lijkt echter ongeloofwaardig, aangezien de andere twee heuristieken aanzienlijk overtuigender lijken dan de grootste output heuristiek. Bijgevolg lijkt het redelijk om onze aanvankelijke hypothese te handhaven ondanks deze schijnbare tegenspraak.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de Exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
 
 
 ***Oefening 5:***
@@ -1657,7 +1657,7 @@ Labelen is het toekennen van een annotatie of label aan een specifieke UTXO in e
 Als ik bijvoorbeeld een UTXO heb van een P2P aankoop op Bisq met Charles, zou ik het kunnen labelen als "`Non-KYC Bisq Charles`".
 
 
-Tagging is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, uw Bitcoin wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke Ownership zou kunnen onthullen. Door al je onderdelen goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
+Tagging is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, uw Bitcoin wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke eigenaar zou kunnen onthullen. Door al je onderdelen goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
 
 
 ### Wat is hoekcontrole?
@@ -1684,7 +1684,7 @@ Er is geen standaardmethode om UTXO's te labelen. Het is aan jou om een labelsys
 Het is belangrijk dat je dierbaren gemakkelijk de herkomst van het geld kunnen achterhalen als ze op een dag toegang moeten hebben tot je portefeuille. Dit zal hen helpen, zowel om redenen van vertrouwelijkheid als voor juridische doeleinden, mochten ze de herkomst van het geld moeten rechtvaardigen tegenover een autoriteit.
 
 
-Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een exchange-platform? Een Invoice betaling van een klant? Een peer-to-peer Exchange? Of vertegenwoordigt het de Exchange van een uitgave? U kunt bijvoorbeeld specificeren:
+Het belangrijkste om op het label te vermelden is de bron van de UTXO. Je moet gewoon aangeven hoe de munt in je wallet terecht is gekomen. Is het het resultaat van een aankoop op een exchange-platform? Een Invoice betaling van een klant? Een peer-to-peer Exchange? Of vertegenwoordigt het de exchange van een uitgave? U kunt bijvoorbeeld specificeren:
 
 
 
@@ -1775,7 +1775,7 @@ UTXO selectiemethoden zoals FIFO (*First In First Out*) en LIFO (*Last In First 
 Een meer geavanceerde methode is de *Knapsack Solver*. Deze werd gebruikt op de Bitcoin Kern wallet tot versie 0.17. Het bestaat uit het iteratief en willekeurig selecteren van UTXO's uit de wallet, ze bij elkaar optellen in deelverzamelingen en de oplossing kiezen die het transactiegewicht zoveel mogelijk vermindert, om de kosten voor de gebruiker te verlagen.
 
 
-De *Branch-and-Bound* (BNB), vaak het "Murch algoritme" genoemd naar de uitvinder, heeft de *Knapsack Solver* vervangen in Bitcoin Core vanaf versie 0.17. Deze meer geavanceerde methode heeft als doel een set UTXO's te vinden die precies overeenkomt met het bedrag dat nodig is om aan de output van een transactie te voldoen. Het doel van BNB is om zowel het Exchange bedrag als de kosten te minimaliseren, door het zogenaamde afvalcriterium te verlagen, dat rekening houdt met zowel de directe kosten als de verwachte toekomstige kosten van de Exchange. Deze methode is afgeleid van het oorspronkelijke concept van *Branch-and-Bound*, bedacht in 1960 door Ailsa Land en Alison Harcourt, en biedt een nauwkeurigere optimalisatie van vergoedingen dan de *Knapsack Solver*.
+De *Branch-and-Bound* (BNB), vaak het "Murch algoritme" genoemd naar de uitvinder, heeft de *Knapsack Solver* vervangen in Bitcoin Core vanaf versie 0.17. Deze meer geavanceerde methode heeft als doel een set UTXO's te vinden die precies overeenkomt met het bedrag dat nodig is om aan de output van een transactie te voldoen. Het doel van BNB is om zowel het Exchange bedrag als de kosten te minimaliseren, door het zogenaamde afvalcriterium te verlagen, dat rekening houdt met zowel de directe kosten als de verwachte toekomstige kosten van de exchange. Deze methode is afgeleid van het oorspronkelijke concept van *Branch-and-Bound*, bedacht in 1960 door Ailsa Land en Alison Harcourt, en biedt een nauwkeurigere optimalisatie van vergoedingen dan de *Knapsack Solver*.
 
 
 Al deze automatische UTXO selectiemethoden kunnen effectief zijn in het verminderen van transactiekosten, maar ze zijn vaak niet effectief in het behouden van de vertrouwelijkheid van de gebruiker. Deze algoritmen kunnen namelijk meerdere UTXO's samenvoegen tot inputs, waardoor een gemeenschappelijke eigenschap van deze UTXO's door CIOH aan het licht komt. Uiteraard kunnen deze methoden geen rekening houden met de labels die zijn aangebracht op de UTXO's, die desalniettemin cruciaal zijn voor het bewust kiezen welke delen worden onthuld aan de ontvanger van de transactie. Op dit moment is de enige manier om de vertrouwelijkheid bij het selecteren van munten te optimaliseren, dit handmatig te doen.
@@ -1963,7 +1963,7 @@ Zoals we hebben gezien, blijft de beste methode in termen van vertrouwelijkheid 
 ![BTC204](assets/nl/088.webp)
 
 
-Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt in het feit dat de tegenpartij tijdens de Exchange weet dat je een grote som geld in je bezit hebt, in contanten of in bitcoins. Deze informatie kan de aandacht trekken van kwaadwillende personen. Het is daarom over het algemeen aan te raden om discreet te zijn over je Bitcoin bezit. Dit advies kan ook worden toegepast op contant geld. Als je echter persoonlijk wisselt, is het onvermijdelijk om te onthullen dat je bitcoins bezit, en dit kan ongewenste aandacht trekken.
+Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt in het feit dat de tegenpartij tijdens de exchange weet dat je een grote som geld in je bezit hebt, in contanten of in bitcoins. Deze informatie kan de aandacht trekken van kwaadwillende personen. Het is daarom over het algemeen aan te raden om discreet te zijn over je Bitcoin bezit. Dit advies kan ook worden toegepast op contant geld. Als je echter persoonlijk wisselt, is het onvermijdelijk om te onthullen dat je bitcoins bezit, en dit kan ongewenste aandacht trekken.
 
 
 ![BTC204](assets/nl/089.webp)
@@ -2735,7 +2735,7 @@ Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool
 ![BTC204](assets/nl/139.webp)
 
 
-Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te chainen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de Exchange koers: in tegenstelling tot Wasabi 1.0, waar de Exchange koers direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de Exchange koers onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
+Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te chainen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de exchange koers: in tegenstelling tot Wasabi 1.0, waar de exchange koers direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de exchange koers onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
 
 
 Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 Exchange van 15.000 Sats voor Alice en 1 Exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
@@ -2756,7 +2756,7 @@ Persoonlijk vind ik dat het buitenlandse Exchange-beheer van Wabisabi verschille
 
 
 - Wanneer een gebruiker een UTXO bijdraagt die aanzienlijk groter is dan die van andere deelnemers, eindigt hij onvermijdelijk met een Exchange-bedrag dat aan zijn inbreng wordt gekoppeld. Dit druist in tegen het oorspronkelijke doel van het protocol, namelijk het elimineren van alle identificeerbare uitwisselingen;
-- Het vermenigvuldigen van benamingen met als doel de Exchange te fragmenteren kan paradoxaal genoeg nadelig zijn voor de efficiëntie van het mengen. Dit proces kan leiden tot een vermindering van anonsets voor bepaalde outputs, omdat ze gemakkelijker te identificeren zijn;
+- Het vermenigvuldigen van benamingen met als doel de exchange te fragmenteren kan paradoxaal genoeg nadelig zijn voor de efficiëntie van het mengen. Dit proces kan leiden tot een vermindering van anonsets voor bepaalde outputs, omdat ze gemakkelijker te identificeren zijn;
 - Deze methode genereert ook UTXO's met een lage waarde die een beheersprobleem vormen voor de gebruiker. Deze kleine UTXO's kunnen, als ze te duur worden om uit te geven in verhouding tot hun waarde, "Dust" worden. Dit fenomeen leidt ertoe dat de gebruiker verschillende UTXO's samenvoegt tot inputs voor toekomstige transacties, of ze consolideert. In beide gevallen kan dit, vanwege het CIOH, de verkregen anonimiteit verminderen, of de vertrouwelijkheidsvoordelen verkregen door de initiële CoinJoin volledig teniet doen.
 
 
@@ -3907,7 +3907,7 @@ Wat we nodig hebben om dit te voorkomen is een instrument dat de sporen van het 
 ### Wat is een ricochet?
 
 
-De ricochet is een techniek die bestaat uit het uitvoeren van verschillende fictieve transacties naar zichzelf (sweep) om een overdracht van Bitcoin Ownership te simuleren. Dit hulpmiddel verschilt van de andere transactiestructuren die we hebben besproken, omdat het geen prospectieve anonimiteit oplevert, maar eerder een vorm van retrospectieve anonimiteit. In feite vervaagt ricochet de specifieke kenmerken die de fungibiliteit van een Bitcoin munt in gevaar kunnen brengen vanwege het verleden.
+De ricochet is een techniek die bestaat uit het uitvoeren van verschillende fictieve transacties naar zichzelf (sweep) om een overdracht van Bitcoin eigenaar te simuleren. Dit hulpmiddel verschilt van de andere transactiestructuren die we hebben besproken, omdat het geen prospectieve anonimiteit oplevert, maar eerder een vorm van retrospectieve anonimiteit. In feite vervaagt ricochet de specifieke kenmerken die de fungibiliteit van een Bitcoin munt in gevaar kunnen brengen vanwege het verleden.
 
 
 Om de afdruk van een gebeurtenis uit het verleden op een munt, zoals CoinJoin cycli, glad te strijken, voert ricochet vier opeenvolgende transacties uit waarbij de gebruiker geld naar zichzelf overmaakt op verschillende adressen.
@@ -3922,7 +3922,7 @@ Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uitei
 ![BTC204](assets/nl/193.webp)
 
 
-Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een Ownership verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden blockchainanalyse tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
+Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een eigenaar verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden blockchainanalyse tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
 
 
 ![BTC204](assets/nl/194.webp)
@@ -3986,12 +3986,12 @@ De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op
 Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk om bitcoins handmatig te ricochetten op elke wallet software, zonder een gespecialiseerde tool te gebruiken. Het enige wat je hoeft te doen is achtereenvolgens dezelfde munt naar jezelf overmaken, waarbij je telkens een nieuwe, lege Address gebruikt.
 
 
-In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van Ownership. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
+In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van eigenaar. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
-## Geheime overdrachten van Ownership
+## Geheime overdrachten van eigenaar
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -4000,13 +4000,13 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd
 
 
 
-Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van Ownership. Deze methode heeft als doel Ownership Bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
+Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van eigenaar. Deze methode heeft als doel eigenaar Bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
 
 
 ### De muntenruil
 
 
-Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van Bitcoin Ownership tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
+Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van Bitcoin eigenaar tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
 
 
 ![BTC204](assets/nl/199.webp)
@@ -4024,19 +4024,19 @@ Deze naïeve methode brengt echter een groot vertrouwensrisico met zich mee. Nie
 ![BTC204](assets/nl/201.webp)
 
 
-Verder is er geen garantie dat Alice niet Bob's privé sleutel $B$ ontvangt en nooit haar privé sleutel $A$ doorgeeft in Exchange. Deze Exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van Ownership te garanderen.
+Verder is er geen garantie dat Alice niet Bob's privé sleutel $B$ ontvangt en nooit haar privé sleutel $A$ doorgeeft in Exchange. Deze Exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
 
 
 ![BTC204](assets/nl/202.webp)
 
 
-Om deze problemen op te lossen en uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, gaan we in plaats daarvan Smart contract systemen gebruiken. Een Smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan. In ons geval zorgt dit ervoor dat de Exchange van eigendom automatisch plaatsvindt, zonder dat wederzijds vertrouwen nodig is.
+Om deze problemen op te lossen en uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, gaan we in plaats daarvan Smart contract systemen gebruiken. Een Smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan. In ons geval zorgt dit ervoor dat de exchange van eigendom automatisch plaatsvindt, zonder dat wederzijds vertrouwen nodig is.
 
 
-Dit kan met HTLC (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de Exchange met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
+Dit kan met HTLC (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de exchange met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
 
 
-In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de Exchange veilig plaats: of het slaagt en ieder ontvangt de BTC van de ander, of het mislukt en ieder behoudt zijn eigen BTC. Dit maakt het onmogelijk voor een van de partijen om vals te spelen of de BTC van de ander te stelen.
+In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de exchange veilig plaats: of het slaagt en ieder ontvangt de BTC van de ander, of het mislukt en ieder behoudt zijn eigen BTC. Dit maakt het onmogelijk voor een van de partijen om vals te spelen of de BTC van de ander te stelen.
 
 
 > *De HTLC is ook het mechanisme dat gebruikt wordt om betalingen veilig te routeren via de bidirectionele kanalen van de Lightning Network*
@@ -4054,7 +4054,7 @@ Bij een coinswap maakt het gebruik van Adaptor Signatures de gelijktijdige beken
 
 
 
-- Alice initieert de Exchange door een $m_A$ transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar private sleutel $p_A$ ($P_A = p_A \cdot G$), een Nonce $n_A$ ($N_A = n_A \cdot G$) en een geheime $t$ ($T = t \cdot G$) :
+- Alice initieert de exchange door een $m_A$ transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar private sleutel $p_A$ ($P_A = p_A \cdot G$), een Nonce $n_A$ ($N_A = n_A \cdot G$) en een geheime $t$ ($T = t \cdot G$) :
 
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$
@@ -4079,7 +4079,7 @@ $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
 
 
-- Deze verificatie geeft Bob voldoende garanties dat hij de Exchange in alle vertrouwen kan voortzetten. Vervolgens creëert hij zijn eigen transactie $m_B$, bedoeld om 1 BTC naar Alice te sturen, en genereert hij zijn adaptorhandtekening $s_B'$, die ook aan hetzelfde geheime $t$ zal worden gekoppeld. In dit stadium kent alleen Alice de waarde van $t$; Bob kent alleen het corresponderende punt $T$ dat Alice aan hem heeft doorgegeven:
+- Deze verificatie geeft Bob voldoende garanties dat hij de exchange in alle vertrouwen kan voortzetten. Vervolgens creëert hij zijn eigen transactie $m_B$, bedoeld om 1 BTC naar Alice te sturen, en genereert hij zijn adaptorhandtekening $s_B'$, die ook aan hetzelfde geheime $t$ zal worden gekoppeld. In dit stadium kent alleen Alice de waarde van $t$; Bob kent alleen het corresponderende punt $T$ dat Alice aan hem heeft doorgegeven:
 
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
@@ -4145,10 +4145,10 @@ Tot slot, wanneer een atomaire swap onchain bitcoins en bitcoins op de Lightning
 ### Is het echt nuttig?
 
 
-Geheime overdrachten van Ownership, zoals coinswaps en atomic swaps, hebben het voordeel dat ze de heuristiek van de ketenanalyse misleiden. Deze methoden kunnen suggereren dat de transacties betrekking hebben op dezelfde gebruiker, terwijl de werkelijke Ownership van eigenaar is gewisseld. Het grootste nadeel van deze methoden is echter dat ze erg riskant zijn zonder het gebruik van een extra techniek om de geschiedenis van de munt te breken.
+Geheime overdrachten van eigenaar, zoals coinswaps en atomic swaps, hebben het voordeel dat ze de heuristiek van de ketenanalyse misleiden. Deze methoden kunnen suggereren dat de transacties betrekking hebben op dezelfde gebruiker, terwijl de werkelijke eigenaar van eigenaar is gewisseld. Het grootste nadeel van deze methoden is echter dat ze erg riskant zijn zonder het gebruik van een extra techniek om de geschiedenis van de munt te breken.
 
 
-Inderdaad, wanneer Alice een coinswap of atomic swap uitvoert met Bob, ruilt ze het bezit van haar bitcoins met die van Bob. In het geval van een atomic swap, omvat de Exchange een Altcoin, maar het principe blijft hetzelfde. Alice eindigt dus met de $B$ munt en Bob met de $A$ munt. Dit voegt twijfel toe aan de ketenanalyse, maar de geschiedenis van de munten blijft traceerbaar. Als een analist deel $A$ onderzoekt, kan hij of zij de eerdere activiteiten van Alice traceren, en omgekeerd voor deel $B$.
+Inderdaad, wanneer Alice een coinswap of atomic swap uitvoert met Bob, ruilt ze het bezit van haar bitcoins met die van Bob. In het geval van een atomic swap, omvat de exchange een Altcoin, maar het principe blijft hetzelfde. Alice eindigt dus met de $B$ munt en Bob met de $A$ munt. Dit voegt twijfel toe aan de ketenanalyse, maar de geschiedenis van de munten blijft traceerbaar. Als een analist deel $A$ onderzoekt, kan hij of zij de eerdere activiteiten van Alice traceren, en omgekeerd voor deel $B$.
 
 
 ![BTC204](assets/nl/205.webp)
@@ -4163,16 +4163,16 @@ Vanuit het oogpunt van Alice is het risico dat de geschiedenis van de $B$-munt d
 Het is onvermijdelijk dat vertrouwelijkheidsmethodes zoals coinswap of atomic swap de voorkeur genieten van criminelen wiens fondsen onder toezicht staan van de autoriteiten. Met deze protocollen kunnen ze hun bitcoins die onder toezicht staan in Exchange van de hand doen voor perfect fungibele bitcoins. Het stelt hen ook in staat om een afleiding te creëren, door de autoriteiten naar andere gebruikers te leiden. Deze mensen hebben dus een dubbel doel.
 
 
-Met CoinJoin wordt de geschiedenis van de munt verbroken, zelfs als jouw munt vermengd is met gecontroleerde bitcoins. Dit biedt een vorm van plausibele ontkenning die niet bestaat in geheime Ownership overdrachtsprotocollen zoals coinswap of atomic swap.
+Met CoinJoin wordt de geschiedenis van de munt verbroken, zelfs als jouw munt vermengd is met gecontroleerde bitcoins. Dit biedt een vorm van plausibele ontkenning die niet bestaat in geheime eigenaar overdrachtsprotocollen zoals coinswap of atomic swap.
 
 
 ![BTC204](assets/nl/207.webp)
 
 
-Als Alice elk risico wil vermijden, moet ze noodzakelijkerwijs een methode gebruiken om de geschiedenis van de $B$ munt te breken, zoals het passeren van coinjoins. Dit roept een vraag op over het nut van het combineren van de geheime overdracht van Ownership en de CoinJoin. De CoinJoin, door het breken van de geschiedenis van een munt, biedt al een voldoende niveau van vertrouwelijkheid voor Alice. Mijn mening is dus dat als Alice haar privacy wil beschermen, het verstandiger zou zijn om direct over te gaan op een CoinJoin in plaats van een coinswap gevolgd door een CoinJoin.
+Als Alice elk risico wil vermijden, moet ze noodzakelijkerwijs een methode gebruiken om de geschiedenis van de $B$ munt te breken, zoals het passeren van coinjoins. Dit roept een vraag op over het nut van het combineren van de geheime overdracht van eigenaar en de CoinJoin. De CoinJoin, door het breken van de geschiedenis van een munt, biedt al een voldoende niveau van vertrouwelijkheid voor Alice. Mijn mening is dus dat als Alice haar privacy wil beschermen, het verstandiger zou zijn om direct over te gaan op een CoinJoin in plaats van een coinswap gevolgd door een CoinJoin.
 
 
-Om geheime Ownership overdrachtsmethodes echt effectief te laten zijn en het risico te vermijden dat de geschiedenis van een $A$ gebruiker aan een $B$ gebruiker wordt gekoppeld, zou het paradoxaal genoeg nodig zijn dat het gebruik ervan algemeen bekend is. Als coinswap massaal wordt gebruikt en de autoriteiten op de hoogte zijn van deze gangbare praktijk, dan zou een plausibele vorm van ontkenning kunnen worden vastgesteld. Maar zolang het gebruik van deze transfers marginaal blijft, denk ik dat deze methodes te riskant blijven voor gebruikers.
+Om geheime eigenaar overdrachtsmethodes echt effectief te laten zijn en het risico te vermijden dat de geschiedenis van een $A$ gebruiker aan een $B$ gebruiker wordt gekoppeld, zou het paradoxaal genoeg nodig zijn dat het gebruik ervan algemeen bekend is. Als coinswap massaal wordt gebruikt en de autoriteiten op de hoogte zijn van deze gangbare praktijk, dan zou een plausibele vorm van ontkenning kunnen worden vastgesteld. Maar zolang het gebruik van deze transfers marginaal blijft, denk ik dat deze methodes te riskant blijven voor gebruikers.
 
 
 Tot nu toe hebben we vooral vertrouwelijkheidsmethoden bestudeerd op het niveau van de transacties zelf. In het volgende hoofdstuk kijken we naar problemen op netwerkniveau en de verspreiding van transacties.
@@ -4926,7 +4926,7 @@ Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele ingang
 - De eerste output is de `OP_RETURN` die mijn verborgen betalingscode bevat;
 - De tweede uitgang van 546 Sats wijst naar de melding Address van mijn ontvanger;
 - De derde output van 15.000 Sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
-- De vierde uitgang van 2 miljoen Sats vertegenwoordigt het Exchange tarief, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
+- De vierde uitgang van 2 miljoen Sats vertegenwoordigt de wisselkoers, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
 
 
 De meest interessante om te bestuderen is natuurlijk output 0 met `OP_RETURN`. Laten we eens kijken wat er in staat. Hier is de `scriptPubKey` in hexadecimale :
@@ -5515,7 +5515,7 @@ Men zou naïef kunnen denken dat dit kennisgevingsproces off-chain kan worden ui
 
 
 
-- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de Exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
+- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
 - Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met onchain meldingen wordt dit risico vermeden, omdat de gebruiker de meldingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
 
 

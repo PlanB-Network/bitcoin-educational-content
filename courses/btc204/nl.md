@@ -1014,7 +1014,7 @@ Kanaalanalyse omvat ook een iets algemenere OSINT-component (*Open Source Intell
 ### Temporele modellen
 
 
-We staan er minder bij stil, maar bepaalde menselijke gedragingen zijn aan een ketting te herkennen. Misschien wel het nuttigst in een analyse is je slaappatroon! Ja, als je slaapt, zend je geen Bitcoin-transacties uit. Maar over het algemeen slaap je op ongeveer dezelfde tijd. Daarom is het gebruikelijk om temporele analyse te gebruiken bij blockchainanalyse. Simpel gezegd is dit een telling van de tijden waarop de transacties van een bepaalde entiteit worden uitgezonden naar het Bitcoin netwerk. Door deze temporele patronen te analyseren, kunnen we een schat aan informatie afleiden.
+We staan er minder bij stil, maar bepaalde menselijke gedragingen zijn on-chain te herkennen. Misschien wel het nuttigst in een analyse is je slaappatroon! Ja, als je slaapt, zend je geen Bitcoin-transacties uit. Maar over het algemeen slaap je op ongeveer dezelfde tijd. Daarom is het gebruikelijk om temporele analyse te gebruiken bij blockchainanalyse. Simpel gezegd is dit een telling van de tijden waarop de transacties van een bepaalde entiteit worden uitgezonden naar het Bitcoin-netwerk. Door deze temporele patronen te analyseren, kunnen we een schat aan informatie afleiden.
 
 
 Allereerst kan een temporele analyse soms de aard van de getraceerde entiteit identificeren. Als we zien dat de transacties consistent over 24 uur worden uitgezonden, dan verraadt dit een hoog niveau van economische activiteit. De entiteit achter deze transacties is waarschijnlijk een bedrijf, mogelijk internationaal en misschien met geautomatiseerde interne procedures.
@@ -1023,7 +1023,7 @@ Allereerst kan een temporele analyse soms de aard van de getraceerde entiteit id
 Bijvoorbeeld, [ik herkende dit patroon een paar maanden geleden](https://twitter.com/Loic_Pandul/status/1701127409712452072) bij het analyseren van [de transactie die per ongeluk 19 bitcoins aan vergoedingen had toegewezen](https://Mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Een eenvoudige temporele analyse stelde me in staat om de hypothese te stellen dat we te maken hadden met een geautomatiseerde service, en dus waarschijnlijk met een grote entiteit zoals een exchange-platform.
 
 
-Een paar dagen later werd inderdaad ontdekt dat het geld toebehoorde aan PayPal, via het Paxos Exchange platform.
+Een paar dagen later werd inderdaad ontdekt dat het geld toebehoorde aan PayPal, via het Paxos exchange-platform.
 
 
 Als we daarentegen kunnen zien dat het temporele patroon eerder verspreid is over 16 specifieke uren, dan kunnen we inschatten dat we te maken hebben met een individuele gebruiker, of misschien een lokaal bedrijf, afhankelijk van de uitgewisselde volumes.
@@ -1032,7 +1032,7 @@ Als we daarentegen kunnen zien dat het temporele patroon eerder verspreid is ove
 Naast de aard van de waargenomen entiteit kan het temporele patroon ons ook vertellen waar de gebruiker zich ongeveer bevindt, dankzij tijdzones. Op deze manier kunnen we andere transacties matchen en hun tijdstempels gebruiken als een extra heuristiek die kan worden toegevoegd aan onze analyse.
 
 
-Op de meervoudig gebruikteadres die ik eerder noemde, kunnen we bijvoorbeeld zien dat transacties, zowel inkomend als uitgaand, geconcentreerd zijn op een interval van 13 uur.
+Op het meervoudig gebruikte adres die ik eerder noemde, kunnen we bijvoorbeeld zien dat transacties, zowel inkomend als uitgaand, geconcentreerd zijn op een interval van 13 uur.
 
 
 ```plaintext
@@ -1061,13 +1061,13 @@ Op een andere manier leidde een tijdanalyse van dit type ook tot de hypothese da
 In dit laatste hoofdstuk gaan we de concepten die we tot nu toe bestudeerd hebben in praktijk brengen. Ik laat je voorbeelden zien van echte Bitcoin-transacties, en jij moet de informatie die ik je vraag eruit halen.
 
 
-Idealiter zou het gebruik van een professioneel kettinganalyseprogramma de voorkeur verdienen om deze oefeningen uit te voeren. Echter, sinds de arrestatie van de makers van Samourai wallet, is de enige gratis analyse tool OXT.me niet langer beschikbaar. Daarom kiezen we voor deze oefeningen voor een klassieke block explorer. Ik raad je aan om [Mempool.space](https://Mempool.space/) te gebruiken, vanwege de vele mogelijkheden en de reeks hulpmiddelen voor ketenanalyse, maar je kunt ook kiezen voor een andere verkenner, zoals [Bitcoin Explorer](https://bitcoinexplorer.org/).
+Idealiter zou het gebruik van een professioneel ketenanalyseprogramma de voorkeur verdienen om deze oefeningen uit te voeren. Echter, sinds de arrestatie van de makers van Samourai-wallet, is de enige gratis analyse tool OXT.me niet langer beschikbaar. Daarom kiezen we voor deze oefeningen voor een klassieke block explorer. Ik raad je aan om [Mempool.space](https://Mempool.space/) te gebruiken, vanwege de vele mogelijkheden en de reeks hulpmiddelen voor ketenanalyse, maar je kunt ook kiezen voor een andere verkenner, zoals [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
 
 Om te beginnen zal ik je de oefeningen laten zien. Gebruik je block explorer om ze in te vullen en schrijf je antwoorden op een vel papier. Aan het einde van dit hoofdstuk geef ik je de antwoorden, zodat je je resultaten kunt controleren en corrigeren.
 
 
-*De transacties die voor deze oefeningen zijn geselecteerd, zijn enigszins willekeurig gekozen op basis van hun kenmerken. Dit hoofdstuk is alleen bedoeld voor educatieve en informatieve doeleinden. Ik wil graag duidelijk maken dat ik het gebruik van deze tools voor kwaadaardige doeleinden ondersteun noch aanmoedig. Het doel is om je te leren hoe je jezelf kunt beschermen tegen stringanalyse, niet om analyses uit te voeren om privé-informatie van anderen bloot te leggen.*
+*De transacties die voor deze oefeningen zijn geselecteerd, zijn enigszins willekeurig gekozen op basis van hun kenmerken. Dit hoofdstuk is alleen bedoeld voor educatieve en informatieve doeleinden. Ik wil graag duidelijk maken dat ik het gebruik van deze tools voor kwaadaardige doeleinden ondersteun noch aanmoedig. Het doel is om je te leren hoe je jezelf kunt beschermen tegen ketenanalyse, niet om analyses uit te voeren om privé-informatie van anderen bloot te leggen.*
 
 
 ### Oefening 1
@@ -1146,16 +1146,16 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 ```
 
 
-Gebaseerd op deze informatie en gebruikmakend van **alleen het adres hergebruik heuristiek**, welke Bitcoin-transacties kunnen gelinkt worden aan Loïc's identiteit?
+Gebaseerd op deze informatie en gebruikmakend van **alleen de adres-hergebruik-heuristiek**, welke Bitcoin-transacties kunnen gelinkt worden aan Loïc's identiteit?
 
 
-*Uiteraard ben ik niet de echte eigenaar van deze receptieadres en heb ik hem niet op sociale netwerken geplaatst. Het is eenadres die ik willekeurig uit de blockchain* heb gehaald
+*Uiteraard ben ik niet de echte eigenaar van dit ontvangstadres en heb ik hem niet op sociale netwerken geplaatst. Dit is een adres dat ik willekeurig uit de blockchain heb gehaald.*
 
 
 ### Oefening 6
 
 
-Na oefening 5 was je, dankzij het adres hergebruik heuristiek, in staat om verschillende Bitcoin-transacties te identificeren waarbij Loïc betrokken lijkt te zijn. Normaal gesproken had je deze transactie moeten zien tussen de geïdentificeerde transacties:
+Na oefening 5 was je, dankzij de adres-hergebruik-heuristiek, in staat om verschillende Bitcoin-transacties te identificeren waarbij Loïc betrokken lijkt te zijn. Normaal gesproken had je deze transactie moeten zien tussen de geïdentificeerde transacties:
 
 
 ```plaintext
@@ -1163,13 +1163,13 @@ Na oefening 5 was je, dankzij het adres hergebruik heuristiek, in staat om versc
 ```
 
 
-Deze transactie is de allereerste die geld stuurt naar Loïc'sadres. Waar denk je dat de bitcoins vandaan komen die Loïc via deze transactie heeft ontvangen?
+Deze transactie is de allereerste die geld stuurt naar Loïc's adres. Waar denk je dat de bitcoins vandaan komen die Loïc via deze transactie heeft ontvangen?
 
 
 ### Oefening 7
 
 
-Na oefening 5 heb je, dankzij het adres hergebruik heuristiek, verschillende Bitcoin-transacties kunnen identificeren waarbij Loïc betrokken lijkt te zijn. Nu wil je uitzoeken waar Loïc vandaan kwam. Voer op basis van de gevonden transacties een tijdanalyse uit om de tijdzone te vinden die Loïc waarschijnlijk gebruikt. Bepaal vanuit deze tijdzone een locatie waar Loïc lijkt te wonen (land, staat/regio, stad...).
+Na oefening 5 heb je, dankzij de adres-hergebruik-heuristiek, verschillende Bitcoin-transacties kunnen identificeren waarbij Loïc betrokken lijkt te zijn. Nu wil je uitzoeken waar Loïc vandaan kwam. Voer op basis van de gevonden transacties een tijdanalyse uit om de tijdzone te vinden die Loïc waarschijnlijk gebruikt. Bepaal vanuit deze tijdzone een locatie waar Loïc lijkt te wonen (land, staat/regio, stad...).
 
 
 ![BTC204](assets/nl/066.webp)
@@ -1195,13 +1195,13 @@ Welke informatie kunnen we interpreteren als we alleen naar deze transactie kijk
 ***Uitoefening 1:***
 
 
-Het model voor deze transactie is het eenvoudige betalingsmodel. Als we alleen de structuur bestuderen, kunnen we interpreteren dat één output het Exchange voorstelt en de andere output een daadwerkelijke betaling. We weten daarom dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee UTXO's in de output (die van de betaling), maar nog wel in het bezit is van de andere UTXO (die van Exchange).
+Het model voor deze transactie is het eenvoudige betalingsmodel. Als we alleen de structuur bestuderen, kunnen we interpreteren dat één output de exchange voorstelt en de andere output een daadwerkelijke betaling. We weten daarom dat de waargenomen gebruiker waarschijnlijk niet langer in het bezit is van één van de twee UTXO's in de output (die van de betaling), maar nog wel in het bezit is van de andere UTXO (die van de exchange).
 
 
 ***Uitoefening 2:***
 
 
-Het model voor deze transactie is dat van gegroepeerde uitgaven. Dit model laat waarschijnlijk een grootschalige economische activiteit zien, zoals een exchange-platform. We kunnen afleiden dat de input UTXO afkomstig is van een bedrijf met een hoog niveau van economische activiteit, en dat de output UTXO's verspreid zullen zijn. Sommige zullen toebehoren aan klanten van het bedrijf die hun bitcoins hebben opgenomen in self-custody wallets. Andere kunnen naar partnerbedrijven gaan. Ten slotte zullen er ongetwijfeld enkele Exchange teruggaan naar het bedrijf dat ze heeft uitgegeven.
+Het model voor deze transactie is dat van gegroepeerde uitgaven. Dit model laat waarschijnlijk een grootschalige economische activiteit zien, zoals een exchange-platform. We kunnen afleiden dat de input-UTXO afkomstig is van een bedrijf met een hoog niveau van economische activiteit, en dat de output-UTXO's verspreid zullen zijn. Sommige zullen toebehoren aan klanten van het bedrijf die hun bitcoins hebben opgenomen in self-custody-wallets. Andere kunnen naar partnerbedrijven gaan. Ten slotte zullen er ongetwijfeld enkele exchanges (wisselgeld transacties) teruggaan naar het bedrijf dat ze heeft uitgegeven.
 
 
 ***Uitoefening 3:***
@@ -1215,7 +1215,7 @@ Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hyp
 
 
 
-- Het hergebruik van hetzelfde type script ;
+- Het hergebruik van hetzelfde type script;
 - De grootste output.
 
 
@@ -1227,7 +1227,7 @@ De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzel
 ```
 
 
-Terwijl output `1` een `P2WPKH` is, herkenbaar aan zijnadres beginnend met `bc1q` :
+Terwijl output `1` een `P2WPKH` is, herkenbaar aan zij nadres beginnend met `bc1q` :
 
 
 ```plaintext
@@ -1235,7 +1235,7 @@ bc1qya6sw6sta0mfr698n9jpd3j3nrkltdtwvelywa
 ```
 
 
-De UTXO die gebruikt wordt als invoer voor deze transactie gebruikt ook een `P2WPKH` script:
+De UTXO die gebruikt wordt als input voor deze transactie gebruikt ook een `P2WPKH` script:
 
 
 ```plaintext
@@ -1243,16 +1243,16 @@ bc1qyfuytw8pcvg5vx37kkgwjspg73rpt56l5mx89k
 ```
 
 
-We kunnen dus aannemen dat output `0` overeenkomt met een betaling en output `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
+We kunnen dus aannemen dat output `0` overeenkomt met een betaling en output `1` de exchange-transactie is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
 
 
 Om deze hypothese te ondersteunen of te weerleggen, kunnen we op zoek gaan naar andere heuristieken die onze denkwijze bevestigen of de waarschijnlijkheid dat onze hypothese juist is, verkleinen.
 
 
-Ik heb minstens één andere heuristiek geïdentificeerd. Het is de grootste outputheuristiek. Uitgang `0` meet `123.689 Sats`, terwijl output `1` `505.839 Sats` meet. Er is dus een significant verschil tussen deze twee outputs. De grootste output heuristiek suggereert dat de grootste output waarschijnlijk buitenlands Exchange is. Deze heuristiek versterkt onze aanvankelijke hypothese nog verder.
+Ik heb minstens één andere heuristiek geïdentificeerd. Het is de heuristiek van de grootste output. Output `0` meet `123.689 sats`, terwijl output `1` `505.839 sats` bedraagt. Er is dus een significant verschil tussen deze twee outputs. De heuristiek van de grootste output suggereert dat de grootste output waarschijnlijk exchange is. Deze heuristiek versterkt onze aanvankelijke hypothese nog verder.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als input leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
 
 
 ***Uitoefening 4:***
@@ -1267,7 +1267,7 @@ Ik heb zelf minstens twee interne heuristieken geïdentificeerd die dezelfde hyp
 
 
 - Het hergebruik van hetzelfde type script ;
-- De output van de ronde paal.
+- De output van de ronde bedrag.
 
 
 De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzelfde type script. Inderdaad, output `0` is een `P2SH`, herkenbaar aan zijn ontvangstadres beginnend met `3` :
@@ -1278,7 +1278,7 @@ De meest voor de hand liggende heuristiek is die van het hergebruiken van hetzel
 ```
 
 
-Terwijl output `1` een `P2WPKH` is, identificeerbaar door zijnadres beginnend met `bc1q` :
+Terwijl output `1` een `P2WPKH` is, identificeerbaar door zijn adres beginnend met `bc1q` :
 
 
 ```plaintext
@@ -1286,7 +1286,7 @@ bc1qvdywdcfsyavt4v8uxmmrdt6meu4vgeg439n7sg
 ```
 
 
-De UTXO die gebruikt wordt als invoer voor deze transactie gebruikt ook een `P2WPKH` script:
+De UTXO die gebruikt wordt als input voor deze transactie gebruikt ook een `P2WPKH` script:
 
 
 ```plaintext
@@ -1294,25 +1294,25 @@ bc1qku3f2y294h3ks5eusv63dslcua2xnlzxx0k6kp
 ```
 
 
-Zo kunnen we aannemen dat output `0` overeenkomt met een betaling en output `1` de transactie Exchange is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
+Zo kunnen we aannemen dat output `0` overeenkomt met een betaling en output `1` de exchange-transactie is, wat zou betekenen dat de input gebruiker altijd eigenaar is van output `1`.
 
 
 Om deze hypothese te ondersteunen of te weerleggen, kunnen we op zoek gaan naar andere heuristieken die onze denkwijze bevestigen of de waarschijnlijkheid dat onze hypothese juist is, verkleinen.
 
 
-Ik heb ten minste één andere heuristiek geïdentificeerd. Het is de ronde hoeveelheid output. Uitgang `0` meet `70.000 Sats`, terwijl output `1` `22.962 Sats` meet. We hebben dus een perfect ronde output in de BTC rekeneenheid. De ronde output heuristiek suggereert dat de UTXO met een rond bedrag hoogstwaarschijnlijk die van betaling is, en dat door eliminatie, de andere Exchange voorstelt. Deze heuristiek versterkt verder onze initiële hypothese.
+Ik heb ten minste één andere heuristiek geïdentificeerd. Het is de heuristiek van het ronde bedrag. Output `0` meet `70.000 sats`, terwijl output `1` `22.962 sats` bedraagt. We hebben dus een perfect ronde output in de BTC-rekeneenheid. De heuristiek van het ronde bedrag suggereert dat de UTXO met een rond bedrag hoogstwaarschijnlijk die van betaling is, en dat door eliminatie, de andere de exchange voorstelt. Deze heuristiek versterkt verder onze initiële hypothese.
 
 
-Maar in dit voorbeeld kan een andere heuristiek onze aanvankelijke hypothese in twijfel trekken. Output `0` is namelijk groter dan output `1`. Gebaseerd op de heuristiek dat de grootste output over het algemeen buitenlands Exchange is, zouden we kunnen afleiden dat output `0` buitenlands Exchange is. Deze tegenhypothese lijkt echter ongeloofwaardig, aangezien de andere twee heuristieken aanzienlijk overtuigender lijken dan de grootste output heuristiek. Bijgevolg lijkt het redelijk om onze aanvankelijke hypothese te handhaven ondanks deze schijnbare tegenspraak.
+Maar in dit voorbeeld kan een andere heuristiek onze aanvankelijke hypothese in twijfel trekken. Output `0` is namelijk groter dan output `1`. Gebaseerd op de heuristiek dat de grootste output over het algemeen de exchange is, zouden we kunnen afleiden dat output `0` de exchange is. Deze tegenhypothese lijkt echter ongeloofwaardig, aangezien de andere twee heuristieken aanzienlijk overtuigender lijken dan de heuristiek van de grootste output. Bijgevolg lijkt het redelijk om onze aanvankelijke hypothese te handhaven ondanks deze schijnbare tegenspraak.
 
 
-Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als invoer leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
+Het lijkt daarom waarschijnlijk dat de gebruiker die de UTXO als input leverde nog steeds de `1` output heeft, die de exchange van de transactie lijkt te belichamen.
 
 
 ***Oefening 5:***
 
 
-We zien dat 8 transacties kunnen worden gekoppeld aan de identiteit van Loïc. Hiervan hebben er 4 betrekking op de ontvangst van bitcoins:
+We zien dat acht transacties kunnen worden gekoppeld aan de identiteit van Loïc. Hiervan hebben er vier betrekking op de ontvangst van bitcoins:
 
 
 ```plaintext
@@ -1323,7 +1323,7 @@ bc4dcf2200c88ac1f976b8c9018ce70f9007e949435841fc5681fd33308dd762
 ```
 
 
-De andere 4 hebben betrekking op Bitcoin zendingen:
+De andere vier hebben betrekking op bitcoin zendingen:
 
 
 ```plaintext
@@ -1337,10 +1337,10 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 ***Uitoefening 6:***
 
 
-Als we naar het model van deze transactie kijken, is het duidelijk dat het om een gebundelde uitgave gaat. De transactie heeft namelijk één input en 51 outputs, wat duidt op een hoog niveau van economische activiteit. We kunnen daarom de hypothese stellen dat Loïc bitcoins heeft opgenomen van een exchange-platform.
+Als we naar het model van deze transactie kijken, is het duidelijk dat het om een gegroepeerde uitgaven gaat. De transactie heeft namelijk één input en 51 outputs, wat duidt op een hoog niveau van economische activiteit. We kunnen daarom de hypothese stellen dat Loïc bitcoins heeft opgenomen van een exchange-platform.
 
 
-Verschillende factoren versterken deze hypothese. Ten eerste, het type script dat gebruikt werd om de UTXO invoer te beveiligen is een P2SH 2/3 Multisig script, wat duidt op een geavanceerd beveiligingsniveau dat typisch is voor Exchange platforms:
+Verschillende factoren versterken deze hypothese. Ten eerste, het type script dat gebruikt werd om de input-UTXO te beveiligen is een P2SH 2/3 Multisig script, wat duidt op een geavanceerd beveiligingsniveau dat typisch is voor exchange-platforms:
 
 
 ```plaintext
@@ -1353,13 +1353,13 @@ OP_CHECKMULTISIG
 ```
 
 
-Bovendien wordt het adres bestudeerde `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor Exchange platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
+Bovendien wordt het bestudeerde adres `3PUv9tQMSDCEPSMsYSopA5wDW86pwRFbNF` hergebruikt in meer dan 220.000 verschillende transacties, wat vaak kenmerkend is voor exchange-platforms, die zich over het algemeen geen zorgen maken over hun vertrouwelijkheid.
 
 
-De temporele heuristiek toegepast op dezeadres toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren over 24 uur, wat de continue activiteit van een exchange-platform suggereert.
+De temporele heuristiek toegepast op dit adres toont ook een regelmatige uitzending van transacties bijna dagelijks over een periode van 3 maanden, met uitgebreide uren gespreid over 24 uur, wat de continue activiteit van een exchange-platform suggereert.
 
 
-Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. Deadres ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een exchange-platform.
+Tot slot zijn de volumes die door deze entiteit worden verwerkt kolossaal. Het adres ontving en verzond 44 BTC in 222.262 transacties tussen december 2022 en maart 2023. Deze grote volumes bevestigen de waarschijnlijke aard van de activiteit van een exchange-platform.
 
 
 ***Uitoefening 7:***
@@ -1424,24 +1424,24 @@ Deze informatie suggereert dat Loïc waarschijnlijk aan de westkust van de Veren
 ***Uitoefening 8:***
 
 
-Analyse van deze transactie laat 5 inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle invoer UTXO's eigendom zijn van een enkele entiteit en dat de output UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één UTXO in output, met als doel zijn onderdelen te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
+Analyse van deze transactie laat vijf inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle input-UTXO's eigendom zijn van een enkele entiteit en dat de output-UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één output-UTXO, met als doel zijn onderdelen te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
 
 
 ___
 
 
-*Om deze deel 3 on chain analyse te schrijven, heb ik gebruik gemaakt van de volgende bronnen:*
+*Om dit deel 3 over on-chain analyse te schrijven, heb ik gebruik gemaakt van de volgende bronnen:*
 
 
 
 
 - De serie van vier artikelen getiteld: [Inzicht in Bitcoin Privacy met OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), geproduceerd door Samourai wallet in 2021;
-- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis blockchainanalyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai wallet);
+- De verschillende rapporten van [OXT Research](https://medium.com/oxt-research), evenals hun gratis blockchainanalyse-tool (momenteel niet langer beschikbaar na de arrestatie van de oprichters van Samourai-wallet);
 - Meer in het algemeen komt mijn kennis van verschillende tweets en inhoud van [@LaurentMT](https://twitter.com/LaurentMT) en [@ErgoBTC](https://twitter.com/ErgoBTC);
 - De [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) waaraan ik deelnam in het gezelschap van [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) en [@LaurentMT](https://twitter.com/LaurentMT).
 
 
-*Ik wil hun auteurs, ontwikkelaars en producenten bedanken. Dank ook aan de proeflezers die het artikel waarop dit deel 3 is gebaseerd nauwgezet hebben gecorrigeerd en mij hun deskundig advies hebben gegeven :*
+*Ik wil hun auteurs, ontwikkelaars en producenten bedanken. Dank ook aan de proeflezers die het artikel waarop dit deel 3 is gebaseerd nauwgezet hebben gecorrigeerd en mij hun deskundig advies hebben gegeven:*
 
 
 
@@ -2744,7 +2744,7 @@ Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruiker
 ![BTC204](assets/nl/140.webp)
 
 
-Volgens Wabisabi zou dezelfde transactie 3 keer 100.000 Sats en 5 keer 5.000 Sats hebben opgeleverd, waardoor het Exchange zo verspreid zou zijn dat het niet direct aan een specifieke input kon worden gekoppeld:
+Volgens Wabisabi zou dezelfde transactie 3 keer 100.000 Sats en 5 keer 5.000 Sats hebben opgeleverd, waardoor de exchange zo verspreid zou zijn dat het niet direct aan een specifieke input kon worden gekoppeld:
 
 
 ![BTC204](assets/nl/141.webp)
@@ -3080,7 +3080,7 @@ De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten
 ### Hoe ga je om met giftige uitwisselingen?
 
 
-Vervolgens moet je voorzichtig zijn met je beheer van doxisch Exchange, het Exchange dat niet in de CoinJoin pool terecht is gekomen. Deze giftige UTXO's, die het resultaat zijn van het gebruik van Whirlpool, vormen een risico voor je privacy, omdat ze een link leggen tussen jou en de CoinJoin gebruiker. Het is daarom noodzakelijk ze met zorg te beheren en ze niet te combineren met andere UTXO's, vooral gemengde UTXO's.
+Vervolgens moet je voorzichtig zijn met je beheer van doxisch Exchange, de exchange dat niet in de CoinJoin pool terecht is gekomen. Deze giftige UTXO's, die het resultaat zijn van het gebruik van Whirlpool, vormen een risico voor je privacy, omdat ze een link leggen tussen jou en de CoinJoin gebruiker. Het is daarom noodzakelijk ze met zorg te beheren en ze niet te combineren met andere UTXO's, vooral gemengde UTXO's.
 
 
 Hier volgen enkele strategieën om ze te gebruiken:

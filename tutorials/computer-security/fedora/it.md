@@ -1,6 +1,6 @@
 ---
 name: Fedora
-description: La distribuzione Linux che offre uno spazio di lavoro gratuito, completo e sicuro.
+description: La distribuzione Linux che offre uno spazio di lavoro libero, completo e sicuro.
 ---
 
 ![cover](assets/cover.webp)
@@ -23,7 +23,7 @@ Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in pa
 
 - **Modularità**: compatibile con diverse architetture di processore, Fedora può essere installato sulla maggior parte dei computer, anche quelli meno potenti, adattandosi perfettamente alle vostre esigenze.
 
-- Una **Interfaccia semplice e intuitiva**: Fedora combina una moderna interfaccia grafica con un potente interfaccia a riga di comando, rendendola facile da usare per tutti i profili.
+- Una **interfaccia semplice e intuitiva**: Fedora combina una moderna interfaccia grafica con un potente interfaccia a riga di comando, rendendola facile da usare per tutti i profili.
 
 - **Stabilità del kernel**: basata su Red Hat, Fedora è rinomata per l'affidabilità dei suoi aggiornamenti, in particolare quelli del kernel, che vengono eseguiti senza grossi bug grazie ai contributi gratuiti di un'ampia comunità.
 
@@ -36,9 +36,9 @@ A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle vostre 
 
 - **Fedora Workstation**: ideale per l'uso personale e/o professionale sui vostri computer, questa edizione è installata con utility generiche come browser, una suite per ufficio (editor di testo) e software di riproduzione multimediale.
 
-- **Fedora Server**: Questa edizione è dedicata alla gestione dei server. Fedora Server include una serie di strumenti che aiutano a distribuire e gestire i server sulla propria scala.
+- **Fedora Server**: questa edizione è dedicata alla gestione dei server. Fedora Server include una serie di strumenti che aiutano a distribuire e gestire i server su scala personale.
 
-- **Fedora CoreOS**: Volete eseguire e distribuire facilmente applicazioni cloud? Fedora CoreOS è l'edizione che offre gli strumenti per creare e gestire immagini con Docker e Kubernet, ad esempio.
+- **Fedora CoreOS**: vuoi eseguire e distribuire facilmente applicazioni cloud? Fedora CoreOS è l'edizione che offre gli strumenti per creare e gestire immagini con Docker e Kubernet, ad esempio.
 
 In questa guida ci occuperemo dell'edizione Fedora Workstation. Tuttavia, i processi descritti di seguito sono simili per le altre edizioni.
 
@@ -53,7 +53,7 @@ L'installazione di Fedora Workstation richiede la seguente configurazione hardwa
 
 ### Scaricare Fedora Workstation
 
-È possibile scaricare l'edizione [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) dal sito ufficiale del progetto Fedora. Seleziona la versione corrispondente all'architettura del processore (32-bit - 64-bit) e fare clic sull'icona **Download**.
+È possibile scaricare l'edizione [Fedora Workstation](https://fedoraproject.org/it/workstation/download) dal sito ufficiale del progetto Fedora. Seleziona la versione corrispondente all'architettura del processore (32-bit - 64-bit) e fai clic sull'icona **Download**.
 
 ![download](assets/fr/01.webp)
 
@@ -67,7 +67,7 @@ Per installare Fedora, è necessario creare una chiave USB avviabile utilizzando
 
 ![flash](assets/fr/04.webp)
 
-Una volta terminata l'installazione di Balena Etcher, apri l'applicazione e selezionare l'immagine ISO di Fedora Workspace scaricata. Seleziona la chiave USB come supporto di destinazione e fai clic sul pulsante **Flash** per avviare la creazione della chiave avviabile.
+Una volta terminata l'installazione di Balena Etcher, apri l'applicazione e seleziona l'immagine ISO di Fedora Workspace scaricata. Seleziona la chiave USB come supporto di destinazione e fai clic sul pulsante **Flash** per avviare la creazione della chiave avviabile.
 
 ![boot](assets/fr/05.webp)
 
@@ -75,7 +75,7 @@ Una volta terminata l'installazione di Balena Etcher, apri l'applicazione e sele
 
 Al termine dell'avvio della chiave USB, spegni il computer.
 
-Accendi il computer, quindi accedi al BIOS durante l'avvio premendo il tasto `F2`, `F12` o `ESC`, a seconda del computer.
+Riaccendi il computer, quindi accedi al BIOS durante l'avvio premendo il tasto `F2`, `F12` o `ESC`, a seconda del computer.
 
 Nelle opzioni di avvio, seleziona la chiave USB come dispositivo di avvio primario. Confermando questa scelta, il computer si riavvierà e lancerà automaticamente il programma di installazione di **Fedora** presente sulla chiave USB.
 
@@ -129,14 +129,13 @@ Al primo utilizzo, è necessario finalizzare alcune impostazioni:
 
 ![language](assets/fr/15.webp)
 
-- Seleziona un layout di tastiera adatto alle proprie preferenze.
+- Seleziona un layout di tastiera adatto alle tue preferenze.
 
 ![keyboard](assets/fr/16.webp)
 
 - Scegli il tuo fuso orario digitando il nome della tua città nella barra di ricerca, quindi fai clic sul suggerimento corrispondente.
 
 ![timezone](assets/fr/17.webp)
-
 
  - Abilita o disabilita l'accesso alla tua posizione per le applicazioni che lo richiedono, nonché l'invio automatico di segnalazioni di bug.
 
@@ -181,9 +180,10 @@ Fedora include di default la suite per ufficio **LibreOffice**, che offre divers
 - **Calc** per i fogli di calcolo.
 - **Impress** per creare presentazioni.
 
+
 ## Installazione delle applicazioni
 
-Per installare nuove applicazioni, puoi usare il **gestore software** di Fedora (chiamato _Software_), che rende l'installazione facile e visiva.  Tuttavia, l'uso del **terminale** è spesso più veloce e preciso.
+Per installare nuove applicazioni, puoi usare il **gestore software** di Fedora (chiamato _Software_), che rende l'installazione visivamente facile.  Tuttavia, l'uso del **terminale** è spesso più veloce e preciso.
 
 Prima di installare qualsiasi software, ricordateti sempre di aggiornare i **repository** per assicurarti di avere accesso alle ultime versioni disponibili.
 

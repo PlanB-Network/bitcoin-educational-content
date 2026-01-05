@@ -4,6 +4,12 @@ description: Wallet rahisi zaidi ya uhifadhi ili kuanza
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Tahadhari: tangu mwanzo wa mwaka 2026, Wallet of Satoshi katika hali ya custodial (kama ilivyoelezwa katika mwongozo huu) haipatikani tena ndani ya Umoja wa Ulaya. Ikiwa unaishi katika eneo hili na ungependa kuendelea kutumia zana hii, utahitaji kutumia VPN iliyo nje ya EU. Chaguo jingine ni kutumia Wallet of Satoshi katika hali ya self-custodial. Mwongozo maalum utachapishwa hivi karibuni kwenye Plan ₿ Academy.*
+
+---
+
 _Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincampus_)
 
 

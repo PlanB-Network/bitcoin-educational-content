@@ -4,6 +4,12 @@ description: De eenvoudigste Wallet om mee te beginnen
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Let op: sinds het begin van 2026 is Wallet of Satoshi in custodial-modus (zoals gepresenteerd in deze tutorial) niet langer toegankelijk binnen de Europese Unie. Als u in dit gebied woont en deze tool wilt blijven gebruiken, moet u een VPN gebruiken die buiten de EU is gevestigd. Een andere optie is om Wallet of Satoshi in self-custodial-modus te gebruiken. Een speciale tutorial zal binnenkort worden gepubliceerd op Plan ₿ Academy.*
+
+---
+
 deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

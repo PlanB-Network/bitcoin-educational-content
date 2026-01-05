@@ -1,9 +1,9 @@
-question: Ni uwuhe mucukumbuzi w’inkomoko yuguruye, yateguwe n’ishirahamwe ritagira inyungu, ari we arongoye ivyerekeye moteri ya Gecko?
-answer: Mozila Firefox
+question: Ni iyihe mucukumbuzi y’isoko yuguruye, yateguwe n’ishirahamwe ridaharanira inyungu, ari yo irongoye ivyerekeye moteri ya Gecko?
+answer: Mozilla Firefox
 wrong_answers:
-  - Intwari
+  - Brave
   - Safari
   - Chrome
 explanation: |
-  Mozilla Firefox, yateguwe n’ishirahamwe Mozilla Foundation, ni umucukumbuzi ahambaye akoresha Gecko, azwi cane kubera Commitment ku bijanye n’ubuzima bwite.
-reviewed: false
+  Mozilla Firefox, yateguwe n’ishirahamwe Mozilla Foundation, ni mucukumbuzi ikoresha Gecko cane, izwi cane kubera ugushira imbere kubungabunga ubuzima bw’ibanga.
+reviewed: true

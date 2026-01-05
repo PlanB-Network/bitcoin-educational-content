@@ -4,5 +4,5 @@ wrong_answers:
   - Tripler la sécurité en exigeant trois preuves cryptographiques distinctes avant d'accepter la transaction
   - Répartir la charge de travail de validation sur différents types de nœuds afin d'améliorer les performances et l'évolutivité du réseau
   - Prévenir les attaques double-spending en validant les mêmes données de transaction par trois méthodes indépendantes
-explanation: |
+explanation: | 
   Le SegWit enveloppé de P2SH utilise trois couches de validation spécifiquement pour la rétrocompatibilité : les nœuds pré-BIP16 acceptent le redémarrage comme valide, les nœuds post-BIP16 l'évaluent en laissant OP_0 + hachage sur la pile, et les nœuds SegWit effectuent une validation complète des témoins. Cette approche en couches garantit que tous les types de nœuds peuvent participer au consensus sans rupture, contrairement aux mauvaises réponses qui suggèrent la multiplication de la sécurité, la distribution des performances ou la prévention de la double dépense comme motivations principales.

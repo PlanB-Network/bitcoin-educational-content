@@ -82,7 +82,7 @@ För avancerade användare som föredrar terminalen erbjuder Heritage ett komman
 
 
 
-Fullständig CLI-dokumentation finns på [btc-heritage.com/heritage-cli] (https://btc-heritage.com/heritage-cli). Här hittar du instruktioner för nedladdning, anslutning till tjänsten, skapande av plånböcker (med Ledger eller lokala nycklar), hantering av arvingar och transaktioner.
+Fullständig CLI-dokumentation finns på [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli). Här hittar du instruktioner för nedladdning, anslutning till tjänsten, skapande av plånböcker (med Ledger eller lokala nycklar), hantering av arvingar och transaktioner.
 
 
 
@@ -102,7 +102,7 @@ Heritage Desktop är en grafisk applikation med ett intuitivt gränssnitt som gu
 
 
 
-Gå till [btc-heritage.com] (https://btc-heritage.com) och klicka på "Download application".
+Gå till [btc-heritage.com](https://btc-heritage.com) och klicka på "Download application".
 
 
 

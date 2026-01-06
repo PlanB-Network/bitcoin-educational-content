@@ -1,8 +1,0 @@
-question: Vilken grundläggande begränsning av Lightning Network-betalningar skapar en unik utmaning för wallet-utvecklare som inte finns med on-chain Bitcoin-transaktioner?
-answer: Blixtbetalningar existerar endast som tillfälliga tillstånd inom betalningskanaler och registreras inte permanent på blockkedjan, vilket kräver anpassade system för spårning av betalningshistorik
-wrong_answers:
-  - Lightning-betalningar kräver betydligt mer beräkningsresurser för att bearbetas än on-chain-transaktioner, vilket gör mobil implementering resurskrävande
-  - Lightning-betalningar kan inte verifieras kryptografiskt på samma sätt som on-chain-transaktioner, vilket skapar säkerhetssårbarheter för wallet-implementeringar
-  - Lightning-betalningar måste behandlas via centraliserade routing-noder, vilket gör det omöjligt att upprätthålla en verkligt icke-frihetsberövande wallet-arkitektur
-explanation: |
-  Det rätta svaret identifierar den grundläggande arkitektoniska skillnaden mellan Lightning- och on-chain-betalningar. Bitcoin-transaktioner i kedjan registreras permanent i blockkedjan, vilket gör det enkelt att hämta betalningshistorik genom blockkedjeförfrågningar. Lightning-betalningar existerar dock endast som tillfälliga kanaltillstånd och lämnar ingen permanent blockchain-post, vilket tvingar utvecklare att implementera anpassade spårnings- och lagringssystem. De felaktiga svaren är felaktiga eftersom: Lightning-betalningar är beräkningseffektiva (inte resursintensiva), de har samma kryptografiska säkerhet som Bitcoin och routingen är decentraliserad (inte centraliserad).

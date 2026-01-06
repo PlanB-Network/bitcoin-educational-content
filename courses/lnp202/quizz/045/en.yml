@@ -1,0 +1,9 @@
+question: Why can't a Lightning node operator profile rely on its own payments?
+answer: Mostly incoming flows
+wrong_answers:
+  - Mainly outbound flows
+  - Channels too small
+  - High onchain fees
+explanation: |
+  By cashing without spending, the merchant does not naturally move liquidity out of his channels.
+reviewed: false

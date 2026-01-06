@@ -3,7 +3,7 @@ name: White Noise
 description: Nostr ve MLS protokollerine dayalı özel, merkezi olmayan bir mesajlaşma uygulaması
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

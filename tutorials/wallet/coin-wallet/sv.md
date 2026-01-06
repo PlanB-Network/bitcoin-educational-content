@@ -6,7 +6,7 @@ description: Handledning om Coin Wallet och olika sätt att förbättra integrit
 ![cover](assets/cover.webp)
 
 
-Denna handledning handlar om [Coin Wallet] (https://coin.space/) - ett självförvaltande krypto wallet för mobila enheter, och hur man ökar säkerheten och integriteten när man använder mobila wallet-appar.
+Denna handledning handlar om [Coin Wallet](https://coin.space/) - ett självförvaltande krypto wallet för mobila enheter, och hur man ökar säkerheten och integriteten när man använder mobila wallet-appar.
 
 
 
@@ -20,12 +20,12 @@ Viktiga fördelar:
 
 
 - Arkitektur utan frihetsberövande
-- Helt och hållet [öppen källkod] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- Helt och hållet [öppen källkod](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Enkel och ren design
 - Fokuserad på huvudsyftet - säker förvaring av kryptovaluta, utan onödiga funktioner
 - Stöd för flera plattformar: mobil (iOS & Android), dator, webb
 - RBF (Replace-By-Fee)-stöd - snabba upp fastnade transaktioner när som helst
-- Hårdvara 2FA med [YubiKey] (https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2-nyckel
+- Hårdvara 2FA med [YubiKey](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2-nyckel
 - Inbyggt Tor-stöd - dirigera all trafik genom Tor-nätverket för maximal integritet
 
 
@@ -36,11 +36,11 @@ Coin Wallet finns tillgänglig på alla större plattformar.
 
 
 
-- [iOS App Store] (https://apps.apple.com/app/coin-wallet-bitcoin-crypto/id980719434)
+- [iOS App Store](https://apps.apple.com/app/coin-wallet-bitcoin-crypto/id980719434)
 
 
 
-- [Android Google Play] (https://play.google.com/store/apps/details?id=com.coinspace.app)
+- [Android Google Play](https://play.google.com/store/apps/details?id=com.coinspace.app)
 
 
 
@@ -48,15 +48,15 @@ Coin Wallet finns tillgänglig på alla större plattformar.
 
 
 
-- [Android (Huawei AppGallery)] (https://appgallery.huawei.com/app/C112183767)
+- [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 
 
-- [Android (Uptodown)] (https://coin-wallet.en.uptodown.com/android)
+- [Android (Uptodown)](https://coin-wallet.en.uptodown.com/android)
 
 
 
-- [Android APK] (https://coin.space/api/v3/download/android-apk/any)
+- [Android APK](https://coin.space/api/v3/download/android-apk/any)
 
 
 
@@ -72,7 +72,7 @@ Finns även för desktop (Windows, Linux, macOS), som webbapp och via Tor.
 ## 2️⃣ Skapa en Wallet och ange PIN-kod
 
 
-En wallet skapas med hjälp av en passphrase - en slumpmässig sekvens av 12 ord åtskilda av mellanslag, genererad från en [lista med 2048 ord] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+En wallet skapas med hjälp av en passphrase - en slumpmässig sekvens av 12 ord åtskilda av mellanslag, genererad från en [lista med 2048 ord](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin Wallet stöder lösenfraser med 12, 15, 18, 21 eller 24 ord som importeras från andra plånböcker.
 
@@ -287,7 +287,7 @@ Endast adresser som inte är tomma visas.
 Förvara aldrig den privata nyckeln digitalt i klartext. Efter svepningen kan den raderas på ett säkert sätt.
 
 
-För en komplett guide om privata nycklar och härledningsvägar: [How to Work with Private Keys: The Ultimate Guide] (https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
+För en komplett guide om privata nycklar och härledningsvägar: [How to Work with Private Keys: The Ultimate Guide](https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
 
 
 
@@ -354,7 +354,7 @@ Coin Wallet har en dold .onion-adress och, sedan v6.6.3 (december 2024), **inbyg
 
 
    - Android → [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) / [F-Droid](https://orbot.app/en/)
-   - iPhone / iPad → [App Store] (https://apps.apple.com/us/app/orbot/id1609461599)
+   - iPhone / iPad → [App Store](https://apps.apple.com/us/app/orbot/id1609461599)
 
 
 2. **Öppen Orbot → tryck på Start**
@@ -386,7 +386,7 @@ Njut av privat kryptohantering!
 ## 📝 Slutsats
 
 
-[Coin Wallet] (https://coin.space/) - en av de verkliga Bitcoin wallet-pionjärerna med en 10-årig utvecklingshistoria.
+[Coin Wallet](https://coin.space/) - en av de verkliga Bitcoin wallet-pionjärerna med en 10-årig utvecklingshistoria.
 
 Den är medvetet enkel och håller sig laserfokuserad på sitt kärnuppdrag: att säkert lagra din kryptovaluta.
 

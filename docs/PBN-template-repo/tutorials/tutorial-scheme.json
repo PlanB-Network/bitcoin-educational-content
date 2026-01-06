@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "tutorial-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID v4 identifier of the tutorial"
+    },
+    "project_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Optional UUID referencing a project in resources/projects/. Must match the 'id' field of an existing project's builder.yml or project.yml file."
+    },
+    "level": {
+      "type": "string",
+      "description": "Difficulty level of the tutorial from user's perspective",
+      "enum": ["beginner", "intermediate", "advanced", "expert"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Category of the tutorial, lowercase only",
+      "enum": [
+        "desktop",
+        "hardware",
+        "mobile",
+        "backup",
+        "bitcoin",
+        "lightning-network",
+        "others",
+        "pool",
+        "point-of-sale",
+        "peer-to-peer",
+        "centralized",
+        "on-chain",
+        "analysis",
+        "authentication",
+        "communication",
+        "operating system",
+        "data",
+        "tutorial",
+        "resource"
+      ]
+    },
+    "professor_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID of the professor who authored this tutorial"
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with this tutorial from the predefined tag list",
+      "items": {
+        "type": "string"
+      }
+    },
+    "credit_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional URL to the original source of the tutorial"
+    },
+    "license": {
+      "type": "string",
+      "description": "License of the tutorial content",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    },
+    "original_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code of the original tutorial language",
+      "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language version",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "ISO 639-1 language code for this proofreading entry",
+            "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+          },
+          "last_contribution_date": {
+            "type": ["string", "null"],
+            "description": "Date of the last contribution in YYYY-MM-DD format",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": "integer",
+            "description": "Level of urgency for proofreading, 1 being low urgency",
+            "minimum": 1
+          },
+          "contributor_names": {
+            "type": ["array", "null"],
+            "description": "List of contributor GitHub usernames",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number",
+            "description": "Amount of sats available for reward",
+            "minimum": 0
+          }
+        },
+        "required": ["language", "urgency", "reward"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "assets_rules": {
+      "type": "object",
+      "description": "Documentation of required image assets for tutorials. This property documents the asset structure but is not validated at runtime.",
+      "properties": {
+        "cover": {
+          "type": "object",
+          "description": "Required cover image for the tutorial",
+          "properties": {
+            "path": {
+              "type": "string",
+              "const": "assets/cover.webp",
+              "description": "File path relative to tutorial directory"
+            },
+            "required": {
+              "type": "boolean",
+              "const": true,
+              "description": "Cover image is mandatory for all tutorials"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Only WebP format is accepted"
+            },
+            "dimensions": {
+              "type": "object",
+              "properties": {
+                "width": {
+                  "type": "integer",
+                  "const": 1280,
+                  "description": "Required width in pixels"
+                },
+                "height": {
+                  "type": "integer",
+                  "const": 720,
+                  "description": "Required height in pixels"
+                },
+                "aspect_ratio": {
+                  "type": "string",
+                  "const": "16:9",
+                  "description": "Aspect ratio (horizontal/landscape)"
+                }
+              }
+            },
+            "usage": {
+              "type": "string",
+              "const": "Displayed on platform listings and at the top of tutorial content"
+            }
+          }
+        },
+        "language_specific": {
+          "type": "object",
+          "description": "Language-specific images containing text that requires translation",
+          "properties": {
+            "path_pattern": {
+              "type": "string",
+              "const": "assets/{lang}/",
+              "description": "Directory pattern where {lang} is ISO 639-1 code (e.g., assets/en/, assets/fr/)"
+            },
+            "naming_convention": {
+              "type": "string",
+              "const": "Sequential numbering with leading zeros: 01.webp, 02.webp, etc.",
+              "description": "Files must be numbered sequentially"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Only WebP format is accepted"
+            },
+            "recommended_dimensions": {
+              "type": "object",
+              "properties": {
+                "width": {
+                  "type": "integer",
+                  "const": 1280,
+                  "description": "Recommended width in pixels"
+                },
+                "height": {
+                  "type": "integer",
+                  "const": 720,
+                  "description": "Recommended height in pixels"
+                },
+                "orientation": {
+                  "type": "string",
+                  "const": "horizontal",
+                  "description": "Horizontal/landscape orientation recommended"
+                }
+              }
+            },
+            "usage": {
+              "type": "string",
+              "const": "Screenshots and images containing text that needs translation for each language"
+            }
+          }
+        },
+        "universal": {
+          "type": "object",
+          "description": "Universal images without text (no translation needed)",
+          "properties": {
+            "path": {
+              "type": "string",
+              "const": "assets/notext/",
+              "description": "Directory for language-independent images"
+            },
+            "naming_convention": {
+              "type": "string",
+              "const": "Sequential numbering without leading zeros: 1.webp, 2.webp, etc.",
+              "description": "Files must be numbered sequentially"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Only WebP format is accepted"
+            },
+            "usage": {
+              "type": "string",
+              "const": "Diagrams, icons, and images without text that work across all languages"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "level",
+    "category",
+    "professor_id",
+    "license",
+    "original_language",
+    "proofreading"
+  ],
+  "additionalProperties": false
+}

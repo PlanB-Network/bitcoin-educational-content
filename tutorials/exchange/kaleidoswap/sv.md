@@ -21,7 +21,7 @@ KaleidoSwap tillhandahåller förbyggda binärfiler för de flesta operativsyste
 ### Ladda ner Binaries
 
 
-Du kan hämta den senaste versionen för ditt operativsystem från [den officiella webbplatsen] (https://kaleidoswap.com/) eller [GitHubs sida för versioner] (https://github.com/kaleidoswap/desktop-app/releases).
+Du kan hämta den senaste versionen för ditt operativsystem från [den officiella webbplatsen](https://kaleidoswap.com/) eller [GitHubs sida för versioner](https://github.com/kaleidoswap/desktop-app/releases).
 
 
 ### Installationsmetoder
@@ -296,7 +296,7 @@ För utvecklare som bygger på KaleidoSwap, exponerar applikationen en API som s
 - WebSocket**: För prenumerationer på marknadsdata i realtid.
 
 
-Se [API Documentation] (https://docs.kaleidoswap.com/api/introduction) för fullständiga slutpunkter och specifikationer.
+Se [API Documentation](https://docs.kaleidoswap.com/api/introduction) för fullständiga slutpunkter och specifikationer.
 
 
 ## Slutsats

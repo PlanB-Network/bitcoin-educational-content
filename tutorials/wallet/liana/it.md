@@ -10,7 +10,7 @@ Nel gennaio 2025, i portafogli hardware compatibili con Liana erano:
 - [BitBox02](https://planb.academy/it/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c);
 - [Blockstream Jade](https://planb.academy/it/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3);
 - [Blockstream Jade Plus](https://planb.academy/it/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0);
-- [COLDCARD MK4](https://planb.academy/it/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59);
+- [COLDCARD MK4](https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59);
 - [COLDCARD Q](https://planb.academy/it/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3);
 - [Ledger Nano S](https://planb.academy/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
 - [Ledger Nano S Plus](https://planb.academy/it/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4);

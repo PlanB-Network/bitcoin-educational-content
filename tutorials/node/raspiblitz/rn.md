@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Inyobora yo gushinga RaspiBlitz yawe
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz ni umuco w’umuravyo (LND na/canke umuco w’ishimikiro) ukorana n’umuco w’umuravyo Bitcoin-Fullnode kuri RaspberryPi (1TB SSD) n’ikigaragaza ciza kugira ngo ushobore gutegura & gukurikirana vyoroshe.
@@ -18,7 +18,7 @@ RaspiBlitz ahanini igenewe kwiga ingene wokoresha node yawe bwite yegerejwe i mu
 RASPIBLITZ - Uko wokoresha umuravyo na Bitcoin Full node n'ikiganiro ca BTC
 
 
-# Inyigisho yo gutegura Raspiblitz ya Parman
+## Inyigisho yo gutegura Raspiblitz ya Parman
 
 
 Raspiblitz ni uburyo bwiza cane bwo gukoresha Bitcoin Node n’ibindi bikoresho bijana. Ndasaba iki n’uruzitiro rwa My Node ku bakoresha benshi (Ugire uruzitiro rubiri rwo gukoresha mu buryo bwiza.) Inyungu imwe ikomeye ni uko uruzitiro rwa Raspiblitz ari “Iporogarama y’Isoko Yuguruye y’Ubuntu”, itandukanye na MyNode canke Umbrel. [Kubera iki ivyo bihambaye? Vlad Costa asigura.] Ushobora kandi gukoresha RaspbiBlitz ukoresheje ubuhinga bwa WiFi aho gukoresha ubuhinga bwa ethernet – ng’aha umurongozi](https://armantheparman.com/wifi-itagira umutwe/) ku bw’ivyo. (Nta buryo mbonye bwo kubikora nkoresheje MyNode).
@@ -33,7 +33,7 @@ Urupapuro rwo kuri github ni rwiza cane, ariko birashoboka ko rufise ido n’ido
 Mu vy’ukuri, iyo nzira isa cane n’iyo gushinga [MyNode node](https://armantheparman.com/mynode-Bitcoin-node-easy-setup-guide-raspberry-pi/) n’iyi Raspberry Pi 4. Igitabu ca Raspiblitz ntikigusaba ko udashobora kugura igikoresho co kugenzura, ariko ntaco wogikeneye. Nta n’iyindi klavye canke imbeba ukeneye. Gusa n’ushike ku rutonde rw’ivyo bikoresho biciye kuri mudasobwa iri kuri iyo nzira nyene, hanyuma ukoreshe itegeko rya ssh ukoresheje terminal. Ivyo birashoboka kuri Linux/Mac (vyoroshe) kandi bikaba bikomeye cane kuri Windows.
 
 
-## Intambwe ya 1: Gura ivyo bikoresho.
+### Intambwe ya 1: Gura ivyo bikoresho.
 
 
 Ukeneye neza neza ibikoresho nk'ivyo ukeneye kugira ngo ukoreshe node ya MyNode. Ushobora kugerageza kimwe canke ikindi, itandukaniro ryonyene ni amakuru ari kuri micro SD card.
@@ -70,7 +70,7 @@ Ibi biranyaruka, ariko birazimvye bidakenewe:
 ![image](assets/3.webp)
 
 
-## Intambwe ya 2: Gukuraho ishusho ya Raspiblitz
+### Intambwe ya 2: Gukuraho ishusho ya Raspiblitz
 
 
 Ja kuri [urubuga rwa github rwa Raspiblitz](https://github.com/rootzoll/raspiblitz), maze urondere “ishusho yo gukuraho” urubuga:
@@ -85,7 +85,7 @@ Sha-256 Hash y’iyo dosiye yavanwe iraboneka ku rubuga. Bizohinduka uko bigenda
 ![image](assets/5.webp)
 
 
-## Intambwe ya 3: Suzuma ishusho
+### Intambwe ya 3: Suzuma ishusho
 
 
 Imbere yo gukomeza, nimba utazi inzira yawe yo gukikuza dosiye ku murongo w’amabwirizwa, biroroshe kwiga, kandi ukwiye kubimenya.
@@ -132,7 +132,7 @@ aho `xxxxxxxxxxxxxx` ari izina rya dosiye uherutse gukuraho. Niba utari mu muyob
 Iyo orodinateri irazirikana amasegonda 20 canke arenga. Suzuma ko hashfile y’isohoka ihuye n’iyo yakuwe ku rubuga mu ntambwe ibanza. Nimba ari kimwe, urashobora gukomeza.
 
 
-## Intambwe ya 4: Flash ikarita SD
+### Intambwe ya 4: Flash ikarita SD
 
 
 Ushobora gukoresha igikoresho ca Balena kugira ngo ubikore. [Uyikure hano](ku rubuga rwa interineti).
@@ -156,7 +156,7 @@ Etcher ni umuntu yisigura gukoresha. Injira ikarita yawe ya micro SD hanyuma ush
 Iyo bimaze gukorwa, iyo drive ntiba igishobora gusomwa. Ushobora kuronka ikosa riva kuri sisitemu ikoresha, kandi umuduga ukwiye kuzimangana kuri desktop. Kura iyo karata.
 
 
-## Intambwe ya 5: Shiraho Pi maze winjize ikarita SD
+### Intambwe ya 5: Shiraho Pi maze winjize ikarita SD
 
 
 Ibice (ikibazo ntivyerekanwa):
@@ -186,7 +186,7 @@ Ubwanyuma, huza ubushobozi:
 ![image](assets/14.webp)
 
 
-## Intambwe ya 6: Rondera IP Address ya Pi
+### Intambwe ya 6: Rondera IP Address ya Pi
 
 
 Ntiwigera ukenera igikoresho co kugenzura gifise Raspiblitz. Ariko rero, urakeneye iyindi mudasobwa iri ku rubuga rwo muhira. Nimba Pi yawe idahuye na ethernet, kandi ushaka kwizigira WiFi, kuronka IP bisaba ubuhinga bumwe bumwe bwo gukoresha mudasobwa. Ntashobora kugufasha, mbabarira. Ukeneye uruja n’uruza rwa ethernet. (Ikibazo kiva ku gukenera gushika ku moniteur n’ivyo gukoresha kugira ngo ushobore gufatanya WiFi no kwinjiza ijambo banga.)
@@ -204,7 +204,7 @@ Kuronka IP ni ikintu gihambaye cane.
 **Iciyumviro:** ushobora gukoresha terminal iri ku mashini ya Mac canke Linux kugira uronke IP Address y’ibikoresho vyose bifatanye na Ethernet ku rubuga rwo muhira ukoresheje itegeko “arp -a”. Ivyo usohora si vyiza nk’ivyo router izokwerekana, ariko amakuru yose ukeneye arahari. Niba bitagaragara neza ko ari Pi, gerageza n’amakosa.
 
 
-## Intambwe ya 7: SSH muri Pi
+### Intambwe ya 7: SSH muri Pi
 
 
 Ibuka gushiramwo SD card muri Pi imbere yo kuyifungura. Rindira iminota mikeyi, hanyuma ku yindi Linux/Mac, ufungure terminal.

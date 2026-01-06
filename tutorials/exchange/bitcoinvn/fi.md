@@ -144,5 +144,5 @@ Kannustamme sinua liittymään yhteisöömme ja pysymään ajan tasalla:
 - [Facebook](https://www.facebook.com/www.bitcoinvn.io)
 - [X](https://x.com/Bitcoin_Vietnam) (entinen Twitter)
 - [TikTok](https://www.tiktok.com/@bitcoinvn.io)
-- [Nostr] (https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
 - [Uusimmat uutiset](https://bitcoinvn.io/news/)

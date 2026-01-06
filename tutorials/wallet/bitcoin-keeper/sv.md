@@ -406,7 +406,7 @@ Denna handledning täcker de viktigaste funktionerna i Bitcoin Keeper i dess gra
 
 
 - Officiell hemsida: [bitcoinkeeper.app](https://bitcoinkeeper.app)
-- Hjälpcenter: [help.bitcoinkeeper.app] (https://help.bitcoinkeeper.app)
-- Källkod: [github.com/bithyve/bitcoin-keeper] (https://github.com/bithyve/bitcoin-keeper)
-- Telegram : [t.me/BitcoinKeeper] (https://t.me/BitcoinKeeper)
+- Hjälpcenter: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Källkod: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
+- Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
 - Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -72,10 +72,10 @@ Kwenye skrini inayofuata, unaweza kuangalia mara mbili nambari uliyotoa. Ikiwa n
 Telegram sasa inafanya kazi kikamilifu kwenye simu ya mkononi, tunaweza kuendelea na mipangilio ya msingi ya kwanza.
 
 
-# Mipangilio ya usalama na faragha
+## Mipangilio ya usalama na faragha
 
 
-## Usanidi wa jina la mtumiaji
+### Usanidi wa jina la mtumiaji
 
 
 Jina la mtumiaji la Telegram - wakati mwingine pia huitwa `kushughulikia` - ni zaidi ya dhana tu. Kipini hakika ni **kipekee kwa kila mtumiaji**.
@@ -129,7 +129,7 @@ Hawawezi, shukrani kwa upekee wa jina la mtumiaji.
 **Wanachoweza kufanya ni kuonyesha kishikio "kinachofanana", kubadilisha kidogo (herufi/nambari), ili jicho la uangalifu pekee liweze kuona wazi kuwa ni mlaghai**. Daima makini sana na jina la mtumiaji, na utaona kwamba walaghai hawatakuwa na mchezo rahisi.
 
 
-## Faragha
+### Faragha
 
 
 Tahadhari nyingine muhimu unayoweza kuchukua ni kupunguza maelezo unayotoa kutoka kwa akaunti yako mpya iliyoundwa.
@@ -165,7 +165,7 @@ Hizi ni hatua ambazo zitazuia kufichua nambari yako ya simu, kwa hivyo hutapokea
 Kwa vile sasa akaunti yako ya Telegram imeanzishwa na umepata faragha kidogo, unaweza kuanza kuitumia.
 
 
-## Kuongeza  address na gumzo
+### Kuongeza  address na gumzo
 
 
 Ikiwa akaunti yako imeundwa hivi punde, kuna uwezekano kwamba ukurasa kuu utaonekana tupu kabisa.
@@ -229,7 +229,7 @@ Kwa chaguo-msingi, kila mtu, kutoka kwa watumiaji binafsi hadi vituo vya mada, h
 ⚠️Tahadhari: **epuka kujiunga na vikundi na vituo bila kuthibitisha uhalisi wake**. Ili kupata chaneli/kikundi rasmi cha Telegram cha kampuni au mada unayotaka kufuata, tafuta usaidizi kutoka kwa sehemu ya _Mawasiliano_ ya tovuti rasmi au kutoka kwa vyanzo vinavyotegemewa sana.
 
 
-### Vipengele vya Juu vya Utumaji ujumbe
+#### Vipengele vya Juu vya Utumaji ujumbe
 
 
 Telegram hukuruhusu kutumia vipengele vya kipekee vya kina linapokuja suala la kubadilishana ujumbe. Ingiza gumzo na ubofye mandharinyuma, karibu na ujumbe wowote kutoka kwa mtumaji mwingine.
@@ -257,7 +257,7 @@ Unaweza pia kuambatisha faili kubwa, kubadilishana vyombo vya habari "nzito" kwa
 ![image](assets/en/46.webp)
 
 
-### Wingu la kibinafsi
+#### Wingu la kibinafsi
 
 
 Miongoni mwa vipengele vingi vya ajabu vya Telegram, pia kuna wingu la kibinafsi ambalo - wakati wa kuandika - ni ** ukomo **.
@@ -285,7 +285,7 @@ Soga inaonekana mbele, tayari kutumika.
 ***
 
 
-## Kupanga Ujumbe na Utumaji Kimya
+### Kupanga Ujumbe na Utumaji Kimya
 
 
 Vipengele vingine muhimu vya kina huruhusu kutuma ujumbe unaoheshimu faragha ya wapokeaji, kuchagua kati ya kutuma kimya kimya, na kuratibu ujumbe kwa nyakati na siku zinazofaa.
@@ -301,7 +301,7 @@ Unachohitaji kufanya ni kuandika ujumbe lakini, badala ya kuutuma mara moja, bon
 ![image](assets/en/48.webp)
 
 
-### Inafuta akiba ya simu yako
+#### Inafuta akiba ya simu yako
 
 
 Zoezi lingine muhimu la kufanya simu yako ifanye kazi vizuri ni kufuta akiba ya Telegram mara kwa mara. Kulingana na vikundi na idhaa ngapi unazofuata, kwa hakika, maelezo na midia kutoka kwa vyanzo hivi vinaweza kujilimbikiza kwenye akiba, na kufanya simu yako kuwa polepole.
@@ -350,7 +350,7 @@ Unaweza kuona kwenye picha ifuatayo wapi kupata mpangilio huu.
 ![image](assets/en/28.webp)
 
 
-## Desktop ya Telegram
+### Desktop ya Telegram
 
 
 Telegram inaweza kutumika kutoka kwa kompyuta yako, ili ilandanishwe na akaunti inayoonyeshwa kwenye simu yako. Unaweza kuchagua kutopakua programu na kuitumia kupitia wavuti pekee. Walakini, toleo hili lina mapungufu ikilinganishwa na lile linaloendeshwa kwenye kompyuta, kwa hivyo ninapendekeza kupakua na kusakinisha ili kutumia zana hii yenye nguvu zaidi.
@@ -421,7 +421,7 @@ Arifa kwenye simu yako inathibitisha kuwa kifaa kipya kimeongezwa.
 Hasa, Telegram inafanya kazi na inatumika pia kwenye kompyuta yako ya mezani.
 
 
-### Simu ya Kikundi
+#### Simu ya Kikundi
 
 
 Ikiwa wewe ni msimamizi au mmiliki wa kikundi cha Telegram, unaweza kuanzisha simu kutoka kwa menyu ya kikundi yenyewe. Kwa njia hii, unaweza kutiririsha moja kwa moja na washiriki wengi, kuwarekodi katika sauti na video, kuzishiriki, au kuzitumia kwa madhumuni kama vile elimu.
@@ -433,7 +433,7 @@ Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia
 ![image](assets/en/47.webp)
 
 
-### Mazingatio ya Mwisho
+#### Mazingatio ya Mwisho
 
 
 Kwa kuwa sasa umesoma somo hili, una uwezo kamili wa kuchagua jinsi ya kutumia Telegram, bila kuathiriwa na kelele inayotokana na kelele za watumiaji wake, au na watu wa kawaida. Unaweza kuanza kwa mbinu nyepesi kisha ugundue jinsi ya kufaidika nayo, kwa mahitaji yako ya kibinafsi, programu hii ya kutuma ujumbe.

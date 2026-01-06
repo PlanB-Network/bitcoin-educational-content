@@ -1,8 +1,0 @@
-question: Hvilken grunnleggende begrensning ved Lightning Network-betalinger skaper en unik utfordring for wallet-utviklere som ikke finnes med on-chain Bitcoin-transaksjoner?
-answer: Lynbetalinger eksisterer bare som midlertidige tilstander i betalingskanalene og registreres ikke permanent i blokkjeden, noe som krever tilpassede systemer for sporing av betalingshistorikk
-wrong_answers:
-  - Lynbetalinger krever betydelig mer dataressurser å behandle enn on-chain-transaksjoner, noe som gjør mobil implementering ressurskrevende
-  - Lynbetalinger kan ikke verifiseres kryptografisk på samme måte som on-chain-transaksjoner, noe som skaper sikkerhetsproblemer for wallet-implementeringer
-  - Lynbetalinger må behandles gjennom sentraliserte rutingnoder, noe som gjør det umulig å opprettholde en virkelig ikke-frihetsberøvende wallet-arkitektur
-explanation: |
-  Det riktige svaret identifiserer den viktigste arkitektoniske forskjellen mellom Lightning- og on-chain-betalinger. Bitcoin-transaksjoner i kjeden registreres permanent i blokkjeden, noe som gjør det enkelt å hente betalingshistorikk gjennom blokkjedeforespørsler. Lightning-betalinger eksisterer imidlertid bare som midlertidige kanaltilstander og etterlater ingen permanent blokkjedeoppføring, noe som tvinger utviklere til å implementere tilpassede sporings- og lagringssystemer. De gale svarene er feil fordi: Lynbetalinger er beregningseffektive (ikke ressurskrevende), de opprettholder den samme kryptografiske sikkerheten som Bitcoin, og rutingen er desentralisert (ikke sentralisert).

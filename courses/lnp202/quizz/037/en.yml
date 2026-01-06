@@ -1,0 +1,9 @@
+question: What is a Lightning merchant's top priority?
+answer: Acquisition of incoming cash
+wrong_answers:
+  - Acquiring outgoing cash
+  - Savings on routing costs
+  - Acquiring good LN+ reviews
+explanation: |
+  A merchant must be able to cash in without failure, which requires sufficient incoming liquidity.
+reviewed: false

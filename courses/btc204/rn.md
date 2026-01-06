@@ -510,7 +510,7 @@ Ni ubuhe buryo bwiza bwo kurwanya isesengura rya Blockchain kuruta kumenya ubury
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Muri ivyo, turashobora gushushanya n’ubuhinga bwo gukingira amakuru n’ugusesangura amakuru. Umuhinga mu vy’amabanga ni mbere na mbere umuhinga mu vy’amabanga. Kugira ngo utegure ubuhinga bushasha bwo gupfuka amakuru, urakeneye kumenya ibitero buzohura navyo, kandi ukiga n’igituma ubuhinga bwa kera bwacitse. Iryo hame nyene rirakora no ku bijanye n’ubuzima bwite bwa Bitcoin. Gutahura uburyo bwo gusesangura Blockchain ni urufunguruzo rwo kuvyikingira. Ni co gituma muri iri shure nashizemwo igice cose c’isesengura rya on chain.
 

@@ -46,7 +46,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-می‌توانید افزونه Alby را با مراجعه به فروشگاه افزونه [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) یا فروشگاه افزونه [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe) به مرورگر خود اضافه کنید.
+می‌توانید افزونه Alby را با مراجعه به فروشگاه افزونه [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) یا فروشگاه افزونه [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe) به مرورگر خود اضافه کنید.
 
 
 

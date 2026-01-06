@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-เคล็ดลับ: ใช้เครื่องมือ [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) เพื่อ generate สคริปต์โดยอัตโนมัติ แม้ว่าเครื่องมือนี้จะแนะนำให้ป้อนจำนวนใน BTC ให้คงหน่วยที่กำหนดค่าใน Electrum ไว้
+เคล็ดลับ: ใช้เครื่องมือ [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) เพื่อ generate สคริปต์โดยอัตโนมัติ แม้ว่าเครื่องมือนี้จะแนะนำให้ป้อนจำนวนใน BTC ให้คงหน่วยที่กำหนดค่าใน Electrum ไว้
 
 
 

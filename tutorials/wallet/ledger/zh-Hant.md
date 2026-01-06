@@ -22,13 +22,13 @@ Ledger 是以簡單方式保護比特幣的法國解決方案。
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 
-# 將 Ledger 連接到 Sparrow Bitcoin Wallet（書寫指南）
+## 將 Ledger 連接到 Sparrow Bitcoin Wallet（書寫指南）
 
 
 請務必先閱讀另一篇文章「使用 Bitcoin 硬體錢夾」。我將略略介紹一些步驟，並將重點放在 Ledger 特有的地方。
 
 
-## 設定裝置
+### 設定裝置
 
 
 Ledger 附有自己的 USB 連接線。請確定您使用的是 USB 纜線，而不是一般的舊纜線。有些 USB 纜線只有電源。這條傳輸資料和電源。當我使用隨身攜帶的手機充電 USB 纜線時，裝置無法連線。
@@ -69,7 +69,7 @@ Ledger 附有自己的 USB 連接線。請確定您使用的是 USB 纜線，而
 您會看到您的儀表板上有一個設定按鈕，以及一個可以讓您安裝應用程式的加號按鈕。但您需要先連線到 Ledger Live。我們接下來會做...
 
 
-## 下載 Ledger Live
+### 下載 Ledger Live
 
 
 您可以從他們的網頁下載 Ledger Live，但最好還是從保存原始碼的 GitHub 下載。
@@ -122,7 +122,7 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 理想的情況是，您想要花點心思，確保發佈的哈希值不是假的。我們使用 gpg 簽署來做到這一點，但這不在本文的範圍內。如果您想瞭解這方面的知識 (我建議您最終還是要瞭解)，請參閱這篇文章。
 
 
-## 連接至 Ledger Live
+### 連接至 Ledger Live
 
 
 在您執行 Ledger Live 之前，開啟 VPN 對隱私有一點幫助。Ledger 仍會取得您所有的位址，但他們不會知道您的 IP Address，這會暴露您家的 Address。Mullvad VPN 是一個很好的 VPN 服務，而且價格不貴（我不是在做廣告，只是我用的就是它）。
@@ -181,7 +181,7 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 您可以立即關閉 Ledger Live。
 
 
-## 新增 passphrase
+### 新增 passphrase
 
 
 現在我們有了 Bitcoin App，就可以在 seed 樂句中加入 passphrase。之前 seed 剛建立時我們無法這麼做，因為一開始我們沒有 Bitcoin App，需要連線到 Ledger Live 才能取得。
@@ -202,7 +202,7 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 現在您可以多選幾次返回選項，退出到主功能表。
 
 
-## 觀看 Wallet
+### 觀看 Wallet
 
 
 在之前的文章中，我介紹了如何下載和驗證 Sparrow Wallet，以及如何將其連接到您自己的節點或公共節點。您應該遵循這些指南：
@@ -274,7 +274,7 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 ![image](assets/21.webp)
 
 
-## 接收
+### 接收
 
 
 若要接收一些 Bitcoin，請移至左側的 [位址] 標籤，然後選擇其中一個位址來接收。只要用滑鼠右鍵按一下您想要的 Address，然後選擇「複製 Address」。然後到您要寄錢的 Exchange 貼到那裡。或者您可以將 Address 給客戶，讓他用 Address 付款給您。
@@ -286,7 +286,7 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 一旦這樣做了，您就必須把寫下來的文字備份。只有一份副本是不夠的。至少要有兩份紙本複本（金屬複本更好），並將它們分別存放在兩個不同的安全地點。這樣可以降低自然災害在一次事件中破壞您的 HWW 和紙本備份的風險。請參閱「使用 Bitcoin 硬體錢夾」，以瞭解完整的討論。
 
 
-## 傳送
+### 傳送
 
 
 ![image](assets/22.webp)
@@ -301,13 +301,13 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- For Windows
 另外要注意的是，如果您選擇使用的錢幣大於支付金額，那麼剩餘的錢幣將發送回您錢包中的一個零錢地址。有些人不知道這一點，在公開的 Blockchain 上查到自己的交易，以為一些 Bitcoin 被發送到攻擊者的 Address，但其實是自己的零錢 Address。
 
 
-## 韌體
+### 韌體
 
 
 若要更新韌體，您需要連線到 Ledger Live。如果您想這麼做，應該先抹除裝置，並確保您有備份字詞和 passphrase 可用來還原裝置。我傾向先抹除裝置的原因是，您必須將您的裝置連接到 Ledger Live 才能更新韌體，而且我傾向不要讓您的新 Wallet（有 passphrase 的那台）暴露在 Ledger Live 中，永遠都不要。我只是不相信 Ledger 會在我連線到 Ledger Live 時從裝置中擷取我的公開金鑰資訊。他們聲稱沒有，但我無法親自驗證，除非我閱讀程式碼，並且瞭解內部硬體。
 
 
-## 總結
+### 總結
 
 
 這篇文章向您展示了如何以比宣傳更安全、更隱私的方式使用 Ledger HWW - 但僅有這篇文章是不夠的。正如我在一開始所說，您應該結合 「使用 Bitcoin 硬體錢包 」中提供的資訊。

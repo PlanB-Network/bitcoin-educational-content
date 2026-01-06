@@ -27,11 +27,11 @@ Vous pouvez également acheter un kit NerdMiner déjà pré-assemblé chez plusi
 
 Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le redémarrer pour changer de réseau wifi. Ces étapes sont destinées pour des utilisateurs Windows, si vous utilisez un système d'exploitation Linux, veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
 
-# Installation du logiciel NerdMiner_v2
+## Installation du logiciel NerdMiner_v2
 
 L'installation du logiciel est grandemment simplifier grâce à l'utilisation du webflasher.
 
-## Étape 1 : Préparation du webflasher
+### Étape 1 : Préparation du webflasher
 
 Tout d'abord, il faut vous rendre sur le [flasher NM2 en ligne](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -41,7 +41,7 @@ Sélectionnez ensuite le firmware correspondant à votre ESP-32. La plupart du t
 
 ![](assets/webflasher.webp)
 
-## Étape 2: Branchement du ESP-32
+### Étape 2: Branchement du ESP-32
 
 Une fois le webflasher lancer une fenêtre pop-up s'ouvre présentant les différents ports USB reconnu par le naviguateur.
 Vous pouvez alors brancher votre ESP-32, et un nouveau port s'affichera (ici en l'occurence, c'est le port ttyACM0). Il vous faut alors le sélectionner et cliquez sur "connect".
@@ -52,7 +52,7 @@ Le logiciel va alors se télécharger sur votre ESP32, en une poignet de seconde
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Étape 3: Configuration du NerdMiner
+### Étape 3: Configuration du NerdMiner
 
 La configuration de votre NerdMiner va être effectuer via un smartphone ou un ordinateur.
 Activez le WiFi et connectez vous au réseau local NerdMinerAP. Si vous utilisez un smartphone, le portail de configuration s'ouvrira automatiquement, sinon tapez dans un naviguateur l'adresse 192.168.4.1.
@@ -79,7 +79,7 @@ Vous pouvez à présent cliquer sur "save".
 
 Félicitation vous faites à présent partie du réseau de minage Bitcoin !
 
-## Manipulation du NerdMiner
+### Manipulation du NerdMiner
 
 Le logiciel NerdMinerv2 comprends 3 écrans différents, que vous pouvez accèser en cliquant sur le bouton du haut, à droite de votre écran :
 
@@ -93,7 +93,7 @@ Si vous souhaitez redémarrer votre NerdMiner, pour changez de réseau WiFi par 
 
 Appuyer une fois sur le bouton du bas éteindra votre NerdMiner. Cliquer deux fois permet d'inverser l'orientation de l'écran.
 
-### Étapes préliminaires pour utilisateurs linux
+#### Étapes préliminaires pour utilisateurs linux
 
 Voici les étapes pour que Chrome puisse détecter votre port sérial sur un linux.
 
@@ -114,13 +114,13 @@ Voici les étapes pour que Chrome puisse détecter votre port sérial sur un lin
 
 Maintenant que vous ESP-32 est reconnu par votre système vous pouvez retourner à la [première étape](#etape-1-preparation-du-webflasher) pour l'installation du logiciel.
 
-## Conclusion
+### Conclusion
 
 Et voilà ! Votre NerdMiner_v2 est maintenant configuré et prêt à être utilisé.
 
 Bon minage et que la chance vous sourisse !
 
-### Estimation de la probabilité de gagner
+#### Estimation de la probabilité de gagner
 
 Amusons-nous à estimer la probabilité de gagner une récompense de bloc. Cette estimation sera approximative et vise uniquement à obtenir l'ordre de grandeur de la probabilité.
 Les pools auxquels un NerdMiner peut se connecter sont uniquement des "pools de minage en solo", ce qui signifie que le pool ne mutualise pas la puissance de calcul de tous les mineurs connectés, mais agit simplement en tant que coordinateur.
@@ -128,7 +128,7 @@ Supposons maintenant que notre NerdMiner ait une puissance de calcul d'environ 4
 
 Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit 4,5 x 10^20 hash par seconde), nous pouvons considérer que la probabilité de trouver le prochain bloc est de 1 sur 100 millions de milliards, ce qui est très très très peu probable. Ainsi, en plus d'être un outil éducatif et un objet de curiosité, un NerdMiner peut servir de billet de loterie dans le minage de bitcoins à un coût électrique marginal de 0,5 W - bien que, comme nous venons de le voir, la probabilité de gagner soit ridiculement faible. Pourquoi ne pas tenter votre chance ?
 
-### Informations supplémentaires
+#### Informations supplémentaires
 
 Voici quelques liens si vous souhaitez en savoir plus sur le sujet :
 

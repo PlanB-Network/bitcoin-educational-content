@@ -14,7 +14,7 @@ In deze tutorial ontdekken we Aurora Store, een eenvoudig, open-source en veilig
 
 
 
-# Aan de slag met Aurora Store
+## Aan de slag met Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Via de Aurora Store heb je toegang tot de catalogus met applicaties die beschikb
 
 
 
-## Kenmerken
+### Kenmerken
 
 
 

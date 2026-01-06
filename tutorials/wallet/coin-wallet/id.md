@@ -6,7 +6,7 @@ description: Tutorial tentang Coin Wallet dan cara-cara untuk meningkatkan priva
 ![cover](assets/cover.webp)
 
 
-Tutorial ini mencakup [Coin Wallet] (https://coin.space/) - kripto kustodian mandiri wallet untuk perangkat seluler, dan cara meningkatkan keamanan dan privasi saat menggunakan aplikasi wallet seluler.
+Tutorial ini mencakup [Coin Wallet](https://coin.space/) - kripto kustodian mandiri wallet untuk perangkat seluler, dan cara meningkatkan keamanan dan privasi saat menggunakan aplikasi wallet seluler.
 
 
 
@@ -25,7 +25,7 @@ Keunggulan utama:
 - Berfokus pada tujuan utama - menyimpan mata uang kripto dengan aman, tanpa fitur yang tidak perlu
 - Dukungan lintas platform: seluler (iOS & Android), desktop, web
 - Dukungan RBF (Ganti-Berdasarkan-Biaya) - mempercepat transaksi yang macet kapan saja
-- Perangkat keras 2FA dengan [YubiKey] (https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / kunci FIDO2
+- Perangkat keras 2FA dengan [YubiKey](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / kunci FIDO2
 - Dukungan Tor bawaan - rutekan semua lalu lintas melalui jaringan Tor untuk privasi maksimum
 
 
@@ -72,7 +72,7 @@ Juga tersedia untuk desktop (Windows, Linux, macOS), sebagai aplikasi web dan me
 ## 2️⃣ Membuat Wallet dan Mengatur PIN
 
 
-wallet dibuat menggunakan passphrase - urutan acak 12 kata yang dipisahkan oleh spasi, yang dihasilkan dari [daftar 2048 kata] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+wallet dibuat menggunakan passphrase - urutan acak 12 kata yang dipisahkan oleh spasi, yang dihasilkan dari [daftar 2048 kata](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin Wallet mendukung 12, 15, 18, 21, atau 24 kata sandi yang diimpor dari dompet lain.
 
@@ -341,7 +341,7 @@ Tor menyembunyikan alamat IP asli Anda dari node Bitcoin, pertukaran, dan pengam
 
 Semua lalu lintas (saldo, transaksi, swap) melewati jaringan Tor - tidak ada koneksi langsung, tidak ada kebocoran IP.
 
-Hal ini diimplementasikan secara langsung di dalam kode sumber aplikasi (lihat [.env configuration] (https://github.com/CoinSpace/CoinSpace/blob/master/web/.env#L31)).
+Hal ini diimplementasikan secara langsung di dalam kode sumber aplikasi (lihat [.env configuration](https://github.com/CoinSpace/CoinSpace/blob/master/web/.env#L31)).
 
 
 Coin Wallet memiliki alamat .onion yang tersembunyi dan, sejak v6.6.3 (Desember 2024), **dukungan Tor bawaan langsung di aplikasi seluler**.
@@ -386,7 +386,7 @@ Nikmati manajemen kripto pribadi!
 ## 📝 Kesimpulan
 
 
-[Coin Wallet] (https://coin.space/) - salah satu pelopor Bitcoin wallet yang sesungguhnya dengan sejarah pengembangan selama 10 tahun.
+[Coin Wallet](https://coin.space/) - salah satu pelopor Bitcoin wallet yang sesungguhnya dengan sejarah pengembangan selama 10 tahun.
 
 Ini sengaja dibuat sederhana dan tetap fokus pada misi utamanya: menyimpan mata uang kripto Anda dengan aman.
 

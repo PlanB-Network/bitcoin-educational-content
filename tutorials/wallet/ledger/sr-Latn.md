@@ -22,13 +22,13 @@ U ovom vodiču takođe diskutujemo o odeljku sa lozinkama, naprednom sigurnosnom
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 
-# Poveži Ledger sa Sparrow Bitcoin Wallet (vodič za pisanje)
+## Poveži Ledger sa Sparrow Bitcoin Wallet (vodič za pisanje)
 
 
 Obavezno prvo pročitajte drugi deo „Korišćenje Bitcoin hardverskih novčanika“. Ovde ću preleteti kroz neke korake i fokusiraću se uglavnom na ono što je specifično za Ledger.
 
 
-## Podešavanje uređaja
+### Podešavanje uređaja
 
 
 Ledger dolazi sa sopstvenim USB kablom. Uverite se da koristite taj kabl, a ne bilo koji stari kabl. Neki USB kablovi služe samo za napajanje. Ovaj prenosi podatke I napajanje. Kada sam koristio uređaj sa USB kablom za punjenje telefona koji je bio pri ruci, uređaj nije uspeo da se poveže.
@@ -69,7 +69,7 @@ Sledeći deo je super dosadan. Meša 24 reči i morate potvrditi svaku, od 1 do 
 Videćete na vašoj kontrolnoj tabli da imate dugme za podešavanja i dugme sa znakom plus koje vam omogućava instalaciju aplikacija. Ali prvo morate da se povežete sa Ledger Live. To ćemo uraditi sledeće…
 
 
-## Preuzmi Ledger Uživo
+### Preuzmi Ledger Uživo
 
 
 Možete preuzeti Ledger Live sa njihove veb stranice, ali je bolje da ga preuzmete sa GitHub-a, gde se čuva izvorni kod.
@@ -122,7 +122,7 @@ Pogledaj izlaz Hash i uveri se da je identičan onom objavljenom na GitHub-u.
 Idealno, želite da budete dodatno otmeni i osigurate da objavljeni heševi nisu lažni. To radimo pomoću gpg potpisa, ali to je van okvira ovog članka. Ako želite da naučite o tome (i predlažem da to na kraju uradite), onda pregledajte ovaj članak.
 
 
-## Poveži se na Ledger Uživo
+### Poveži se na Ledger Uživo
 
 
 Pre nego što pokrenete Ledger Live, pomaže malo privatnosti da uključite VPN. Ledger će i dalje dobiti sve vaše adrese, ali neće znati vaš IP Address, koji otkriva vaš dom Address. Mullvad VPN je odlična VPN usluga i nije veoma skupa (ne reklamiram, samo je koristim).
@@ -181,7 +181,7 @@ Zapamtite da smo ranije na uređaju imali dugme za podešavanja i dugme sa znako
 Možete isključiti Ledger Live sada.
 
 
-## Dodaj passphrase
+### Dodaj passphrase
 
 
 Sada kada imamo Bitcoin App, možemo dodati passphrase našoj seed frazi. To nismo mogli ranije kada je seed prvi put kreiran jer na početku nismo imali Bitcoin App, i trebali smo se povezati na Ledger Live da bismo ga dobili.
@@ -202,7 +202,7 @@ Tražiće od vas “Trenutni PIN”. Ovo nije PIN koji povezujete sa novim passp
 Sada možete izaći u glavni meni tako što ćete nekoliko puta odabrati opciju nazad.
 
 
-## Gledanje Wallet
+### Gledanje Wallet
 
 
 U prethodnim člancima, objasnio sam kako preuzeti i verifikovati Sparrow Wallet, i kako ga povezati sa vašim sopstvenim čvorom, ili javnim čvorom. Trebalo bi da pratite ove vodiče:
@@ -274,7 +274,7 @@ Nakon pauze, dok računar razmišlja, videćete kako se dugmad sa leve strane me
 ![image](assets/21.webp)
 
 
-## Primanje
+### Primanje
 
 
 Da biste primili neki Bitcoin, idite na karticu Adrese sa leve strane i izaberite jednu od adresa za primanje. Samo kliknite desnim tasterom miša na Address koji želite i izaberite „kopiraj Address“. Zatim idite na svoj Exchange odakle se novac šalje i nalepite ga tamo. Ili možete dati Address kupcu koji ga može koristiti da vam plati.
@@ -286,7 +286,7 @@ Kada prvi put koristite Wallet, trebalo bi da primite veoma malu količinu, vež
 Jednom kada to uradite, morate napraviti rezervnu kopiju reči koje ste zapisali. Jedna kopija nije dovoljna. Imajte najmanje dve papirne kopije (metal je bolji), i čuvajte ih na dve različite, dobro osigurane lokacije. Ovo smanjuje rizik da prirodna katastrofa uništi vaš HWW i papirnu rezervnu kopiju u jednom incidentu. Pogledajte “Korišćenje Bitcoin hardverskih novčanika” za potpunu diskusiju o tome.
 
 
-## Slanje
+### Slanje
 
 
 ![image](assets/22.webp)
@@ -301,13 +301,13 @@ Wallet ne može potpisati transakciju osim ako HWW nije povezan. To je posao HWW
 Takođe obratite pažnju da ako odlučite da koristite novčić koji je veći od iznosa plaćanja, ostatak će biti poslat nazad na jednu od adresa za kusur vaših novčanika. Neki ljudi nisu znali ovo, i proverili su svoju transakciju na javnom Blockchain, i pomislili da je neki Bitcoin poslat na napadačev Address, ali u stvari, to je bio njihov sopstveni kusur Address.
 
 
-## Firmware
+### Firmware
 
 
 Da biste ažurirali firmware, potrebno je da se povežete sa Ledger Live. Ako želite to da uradite, prvo treba da obrišete uređaj i da se uverite da imate svoje rezervne reči i passphrase dostupne za vraćanje uređaja. Razlog zašto preferiram da prvo obrišem uređaj je taj što morate povezati svoj uređaj sa Ledger Live da biste ažurirali firmware, i ne želim da izložim vaš novi Wallet (onaj sa passphrase) Ledger Live, nikada. Jednostavno ne verujem da Ledger ne izvlači informacije o mom javnom ključu sa uređaja kada se povežem sa Ledger Live. Oni tvrde da ne rade to, ali ne mogu to da proverim sam osim ako ne pročitam kod i razumem unutrašnji hardver takođe.
 
 
-## Zaključak
+### Zaključak
 
 
 Ovaj članak vam je pokazao kako da koristite Ledger HWW na sigurniji i privatniji način nego što je reklamirano – ali ovaj članak sam po sebi nije dovoljan. Kao što sam rekao na početku, trebalo bi da ga kombinujete sa informacijama iz „Korišćenje Bitcoin hardverskih novčanika“.

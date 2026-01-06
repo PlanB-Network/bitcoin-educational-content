@@ -1,0 +1,9 @@
+question: What information does watchtower receive to monitor cheating?
+answer: Partial TXID of the cheat TX
+wrong_answers:
+  - Private channel key
+  - Complete channel status
+  - TXID of the cheat TX
+explanation: |
+  The watchtower only receives part of the TXID of the cheating TX to identify a suspicious transaction without knowing the channel.
+reviewed: false

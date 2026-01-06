@@ -1,6 +1,6 @@
 ---
 name: Whonix
-description: Preservare la vostra privacy e riservatezza.
+description: Preservare la tua privacy e la tua riservatezza.
 ---
 
 ![cover](assets/cover.webp)

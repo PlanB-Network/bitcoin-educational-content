@@ -122,7 +122,7 @@ _Schermata di abbonamento a Orion+ nelle preferenze, che offre un abbonamento op
 - usufruite dell'ultimo motore WebKit
 - ottenere un badge distintivo sul forum di feedback
 
-Orion+ garantisce l'indipendenza del progetto: "Il vostro contributo finanziario ci aiuta a rimanere indipendenti e a mantenere la promessa di diventare il miglior browser per i nostri utenti". È questo modello di finanziamento degli utenti che mantiene Orion privo di pubblicità e di telemetria.
+Orion+ garantisce l'indipendenza del progetto: "Il tuo contributo finanziario ci aiuta a rimanere indipendenti e a mantenere la promessa di diventare il miglior browser per i nostri utenti". È questo modello di finanziamento degli utenti che mantiene Orion privo di pubblicità e di telemetria.
 
 
 ## Configurazione per la massima riservatezza
@@ -153,7 +153,7 @@ _Le impostazioni sulla privacy di Orion mostrano il blocco dei contenuti con 119
 
 **Opzioni di privacy**:
 - Rimuove i tracker dagli URL: **"solo per la navigazione privata"** pulisce i link copiati
-- Condividere i rapporti sugli incidenti: "dopo aver chiesto l'approvazione" rispetta il vostro consenso
+- Condividere i rapporti sugli incidenti: "dopo aver chiesto l'approvazione" rispetta il tuo consenso
 - **Agente utente personalizzato**: può essere modificato per aggirare alcuni blocchi
 
 ![YouTube avec Privacy Report](assets/fr/10.webp)
@@ -363,6 +363,6 @@ Per la massima protezione, consultate le nostre altre guide:
 - [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Completo anonimato in rete
 - [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Massima protezione dalle impronte digitali
 
-Se volete saperne di più sulla storia e sul funzionamento dei browser, nonché sui principali oggetti digitali della vostra vita quotidiana, vi invito a scoprire il nostro nuovo corso di formazione gratuito SCU 202, disponibile su Plan ₿ Academy:
+Se vuoi saperne di più sulla storia e sul funzionamento dei browser, nonché sui principali oggetti digitali della tua vita quotidiana, ti invito a scoprire il nostro nuovo corso di formazione gratuito SCU 202, disponibile su Plan ₿ Academy:
 
 https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

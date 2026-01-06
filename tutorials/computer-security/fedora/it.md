@@ -21,7 +21,7 @@ Fedora include anche un ambiente desktop, che è l'interfaccia grafica attravers
 
 Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in particolare per:
 
-- **Modularità**: compatibile con diverse architetture di processore, Fedora può essere installato sulla maggior parte dei computer, anche quelli meno potenti, adattandosi perfettamente alle vostre esigenze.
+- **Modularità**: compatibile con diverse architetture di processore, Fedora può essere installato sulla maggior parte dei computer, anche quelli meno potenti, adattandosi perfettamente alle tue esigenze.
 
 - Una **interfaccia semplice e intuitiva**: Fedora combina una moderna interfaccia grafica con un potente interfaccia a riga di comando, rendendola facile da usare per tutti i profili.
 
@@ -32,9 +32,9 @@ Tra la moltitudine di distribuzioni Linux disponibili, Fedora si distingue in pa
 
 ## Edizioni Fedora
 
-A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle vostre esigenze. Si trovano principalmente le edizioni:
+A seconda del profilo e dell'utilizzo, Fedora offre edizioni adatte alle tue esigenze. Si trovano principalmente le edizioni:
 
-- **Fedora Workstation**: ideale per l'uso personale e/o professionale sui vostri computer, questa edizione è installata con utility generiche come browser, una suite per ufficio (editor di testo) e software di riproduzione multimediale.
+- **Fedora Workstation**: ideale per l'uso personale e/o professionale sul tuo computer, questa edizione è installata con utility generiche come browser, una suite per ufficio (editor di testo) e software di riproduzione multimediale.
 
 - **Fedora Server**: questa edizione è dedicata alla gestione dei server. Fedora Server include una serie di strumenti che aiutano a distribuire e gestire i server su scala personale.
 
@@ -218,6 +218,6 @@ sudo dnf check-update
 sudo dnf upgrade
 ```
 
-Ora il tuo sistema Fedora è aggiornato e pronto all'uso per tutte le tue attività quotidiane. Scopri il nostro tutorial su Linux Mint, un'altra distribuzione Linux, e come configurare un ambiente sano e sicuro per le vostre transazioni Bitcoin.
+Ora il tuo sistema Fedora è aggiornato e pronto all'uso per tutte le tue attività quotidiane. Scopri il nostro tutorial su Linux Mint, un'altra distribuzione Linux, e come configurare un ambiente sano e sicuro per le tue transazioni Bitcoin.
 
 https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

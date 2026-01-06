@@ -15,7 +15,7 @@ ___
 
 **In questo tutorial impareremo ad eseguire un controllo di sicurezza su una macchina Linux utilizzando Lynis!** Per coloro che non conoscono **Lynis**, è una piccola utility a riga di comando che analizza la configurazione del tuo server e fornisce raccomandazioni per **migliorare la sicurezza della tua macchina**.
 
-Lynis è uno strumento open source di CISOFY, un'azienda specializzata in **system auditing e hardening**. Se volete fare progressi nell'hardening di Linux e dei servizi più diffusi (SSH, Apache2, ecc.), Lynis è il vostro alleato! Lynis non solo vi dice cosa sta andando storto, ma fornisce anche raccomandazioni per indirizzarti nella giusta direzione (e farti risparmiare tempo).
+Lynis è uno strumento open source di CISOFY, un'azienda specializzata in **system auditing e hardening**. Se volete fare progressi nell'hardening di Linux e dei servizi più diffusi (SSH, Apache2, ecc.), Lynis è il tuo alleato! Lynis non solo ti dice cosa sta andando storto, ma fornisce anche raccomandazioni per indirizzarti nella giusta direzione (e farti risparmiare tempo).
 
 **Lynis** funziona con la maggior parte delle distribuzioni Linux, tra cui: **Debian, FreeBSD, HP-UX, NetBSD, NixOS, OpenBSD, Solaris**. Lynis si rivolge agli utenti Linux / UNIX, ma è anche compatibile con **macOS**. L'installazione è molto rapida e non prevede la gestione delle dipendenze a livello di pacchetto.
 

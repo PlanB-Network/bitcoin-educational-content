@@ -3,7 +3,7 @@ name: White Noise
 description: 基於 Nostr 和 MLS 協定的私有、分散式訊息傳輸應用程式
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

@@ -3,7 +3,7 @@ name: White Noise
 description: Eine private, dezentrale Messaging-Anwendung, die auf den Protokollen Nostr und MLS basiert
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -72,7 +72,7 @@ Hier ist ein kurzer Vergleich zwischen White Noise und einer Reihe der bekanntes
 
 
 
-Rufen Sie die [White Noise-Website] (https://www.whitenoise.chat/) auf, und klicken Sie auf **Download**.
+Rufen Sie die [White Noise-Website](https://www.whitenoise.chat/) auf, und klicken Sie auf **Download**.
 
 
 

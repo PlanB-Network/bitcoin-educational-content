@@ -73,7 +73,7 @@ PearPass is beschikbaar op alle platforms: Windows, Linux, macOS, Android, iOS e
 
 
 
-Op Windows wordt PearPass geleverd als een klassiek installatieprogramma. Ga naar [de officiële downloadpagina] (https://pass.pears.com/download) en klik vervolgens op de knop `Download Windows-installer`.
+Op Windows wordt PearPass geleverd als een klassiek installatieprogramma. Ga naar [de officiële downloadpagina](https://pass.pears.com/download) en klik vervolgens op de knop `Download Windows-installer`.
 
 
 
@@ -150,7 +150,7 @@ Naast deze klassieke installatiemethoden is het ook mogelijk om de software rech
 
 - [Desktop](https://github.com/tetherto/pearpass-app-desktop);
 - [Mobiel](https://github.com/tetherto/pearpass-app-mobile);
-- [Browserextensie] (https://github.com/tetherto/pearpass-app-browser-extension).
+- [Browserextensie](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 
@@ -441,7 +441,7 @@ Op mobiel kunt u desgewenst ook het automatisch invullen van velden inschakelen.
 
 
 
-Een wachtwoordmanager hebben die gesynchroniseerd is tussen je computer en je smartphone is al erg praktisch, maar het direct integreren in je browser is nog praktischer. Om dit te doen, begint u met [de officiële PearPass-extensie toe te voegen aan uw browser] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Een wachtwoordmanager hebben die gesynchroniseerd is tussen je computer en je smartphone is al erg praktisch, maar het direct integreren in je browser is nog praktischer. Om dit te doen, begint u met [de officiële PearPass-extensie toe te voegen aan uw browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

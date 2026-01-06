@@ -9,7 +9,7 @@ Kui te seda loete, on suur tõenäosus, et olete saanud kas Bitcoin'i tunnistuse
 
 Selles juhendis vaatame, kuidas Plan ₿ võrgustik väljastab kontrollitavaid tõendeid teie Bitcoin'i tunnistuse või mis tahes kursuse lõpetamise diplomi kohta. Seejärel vaatame teises osas, kuidas kontrollida nende tõendite autentsust.
 
-# Plan ₿ võrgustiku tõendamismehhanism
+## Plan ₿ võrgustiku tõendamismehhanism
 
 Plan ₿ võrgustikus pakume teile tunnistusi ja diplomeid, mis on krüptograafiliselt allkirjastatud meie poolt ja ajatempliga märgistatud Timechain'is (st Bitcoin'i plokiahelas). Selle saavutamiseks pidime välja töötama tõendamismehhanismi, mis põhineb kahe krüptograafilise operatsiooni kasutamisel:
 
@@ -23,7 +23,7 @@ Usume, et see lihtne tõendamismehhanism võimaldab meil väljastada tunnistusi 
 
 Pange tähele, et tänu sellele tõendamismehhanismile loob teie tunnistuse või diplomi isegi kõige väiksema detaili muutmine täiesti erineva sha256 räsi allkirjastatud failist, mis paljastaks kohe võltsimise, kuna allkiri ja ajatempliga märkimine ei oleks enam kehtivad. Lisaks, kui keegi üritab pahatahtlikult võltsida mõningaid tunnistusi või diplomeid Plan ₿ võrgustiku nimel, paljastaks lihtne allkirja kontroll pettuse.
 
-## Kuidas GPG-allkiri töötab?
+### Kuidas GPG-allkiri töötab?
 
 GPG allkiri saadakse avatud lähtekoodiga tarkvara GNU Private Guard abil. See tarkvara võimaldab kellelgi hõlpsalt luua privaatvõtmeid, allkirjastada ja kontrollida allkirju ning samuti krüpteerida ja dekrüpteerida faile. Selle juhendi ulatuses teadke, et Plan ₿ võrgustik kasutab GPG-d oma privaat-/avaliku võtme loomiseks ja mis tahes Bitcoin'i tunnistuse või kursuse lõpetamise diplomi allkirjastamiseks.
 
@@ -31,15 +31,15 @@ Teisest küljest, kui keegi soovib kontrollida allkirjastatud faili autentsust, 
 
 Neile, kes on uudishimulikud ja soovivad selle suurepärase tarkvara kohta rohkem teada saada, võite viidata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Kuidas ajatempliga märkimine töötab?
+### Kuidas ajatempliga märkimine töötab?
 
 Igaüks saab kasutada OpenTimestamps'i faili ajatempliga märkimiseks ja saada kontrollitava tõendi faili olemasolu kohta. Teisisõnu, see ei anna teile tõendit selle kohta, millal fail loodi, vaid tõendi olemasolu kohta hiljemalt teatud hetkel.
 OpenTimestamps suudab seda teenust pakkuda tasuta tänu väga tõhusale viisile sellise tõendi salvestamiseks Bitcoin'i plokiahelas. See kasutab faili sha256 räsi kui teie faili unikaalset identifikaatorit ja ehitab teiste kasutajate esitatud failide räsidest merkle puu, ankurdamaks ainult Merkle puu struktuuri räsi OpReturn tehingus.
 Kui see tehing on mõnes plokis, saab igaüks, kellel on algne fail ja sellega seotud `.ots` fail, kontrollida ajatempli autentsust. Õpetuse teises osas näeme, kuidas kontrollida oma Bitcoin Certificate'i või mõne kursuse lõpetamise diplomi õigsust terminali ja OpenTimestamps veebilehe graafilise liidese kaudu.
 
-# Kuidas kontrollida Plan ₿ Academy Certificate'i või Diplomit
+## Kuidas kontrollida Plan ₿ Academy Certificate'i või Diplomit
 
-## 1. samm. Laadige alla oma Certificate või Diplom
+### 1. samm. Laadige alla oma Certificate või Diplom
 
 Logige sisse oma isiklikule Plan ₿ Academy armatuurlauale.
 
@@ -59,7 +59,7 @@ Pakkige sisu lahti, paremklõpsates `.zip` failil ja valides "Extract". Leiate s
 - Avatud ajatempel (OTS) fail (nt certificate.txt.ots)
 - PDF diplom (nt certificate.pdf)
 
-## 2. samm: Tekstifaili allkirja kontrollimine
+### 2. samm: Tekstifaili allkirja kontrollimine
 
 Avage esmalt terminal kaustas, kus failid asuvad (paremklõpsates kausta aknal ja klõpsates "Open in Terminal"). Seejärel järgige alltoodud juhiseid
 
@@ -102,9 +102,9 @@ gpg: Hea allkiri "Plan ₿ Academy (kasutatud Plan ₿ Academy platvormil) <admi
 
 Kui näete sõnumit nagu "BAD signature", tähendab see, et failiga on manipuleeritud.
 
-## 3. samm: Avatud Ajatempli Kontrollimine
+### 3. samm: Avatud Ajatempli Kontrollimine
 
-### Kontrollimine graafilise liidese kaudu
+#### Kontrollimine graafilise liidese kaudu
 
 1. Külastage OpenTimestamps veebilehte: https://opentimestamps.org/
 2. Klõpsake vahekaardil "Stamp & Verify".
@@ -115,7 +115,7 @@ Kui näete sõnumit nagu "BAD signature", tähendab see, et failiga on manipulee
 Kui näete sõnumit nagu järgnev, on teie ajatempel kehtiv:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### CLI Meetod
+#### CLI Meetod
 
 MÄRKUS: see protseduur **nõuab kohaliku Bitcoin'i sõlme töötamist**
 
@@ -139,7 +139,7 @@ See käsk teeb järgmist:
 - Näitab sulle täpselt, millal fail ajatempliga varustati
 - Kinnitab ajatempli autentsust
 
-### Lõpptulemused
+#### Lõpptulemused
 
 Pane tähele, et verifitseerimine on edukas, kui kuvatakse **mõlemad** järgmised sõnumid:
 

@@ -21,3 +21,5 @@ AGENTS.md
 scripts/pdf_courses
 scripts/quizz_to_pdfs/output
 claudedocs
+scripts/reports
+docs/PBN-template-repo/scripts/__pycache__

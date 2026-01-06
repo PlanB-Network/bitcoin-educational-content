@@ -14,7 +14,7 @@ Bu eğitimde, Google Play Store'a basit, açık kaynaklı ve güvenli bir altern
 
 
 
-# Aurora Store'u kullanmaya başlama
+## Aurora Store'u kullanmaya başlama
 
 
 
@@ -88,7 +88,7 @@ Aurora Store'dan, Google Play Store'da bulunan uygulamaların kataloğuna erişe
 
 
 
-## Özellikler
+### Özellikler
 
 
 

@@ -7,7 +7,7 @@ description: Cara Membeli dan Menjual Bitcoin P2P dengan BitcoinVoucherBot
 
 
 
-Kita masih mendengar tentang BitcoinVoucherBot, bot Telegram yang dibuat untuk membeli Bitcoin tanpa [KYC] (https://planb.academy/resources/glossary/kyc-know-your-customer) melalui transfer bank SEPA. Sayangnya, per November 2025, BitcoinVoucherBot dalam bentuknya yang tersentralisasi tidak lagi tersedia sebagai layanan tanpa KYC.
+Kita masih mendengar tentang BitcoinVoucherBot, bot Telegram yang dibuat untuk membeli Bitcoin tanpa [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) melalui transfer bank SEPA. Sayangnya, per November 2025, BitcoinVoucherBot dalam bentuknya yang tersentralisasi tidak lagi tersedia sebagai layanan tanpa KYC.
 
 
 
@@ -25,13 +25,13 @@ Di antara dompet yang didukung yang dapat kami temukan:
 
 
 
-- [Sats.Mobi] (https://planb.academy/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb) (Bot Telegram) (Penitipan)
-- [Wallet Dari Satoshi] (https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7) (Kustodian dengan pertukaran ke Non-Kustodian)
+- [Sats.Mobi](https://planb.academy/tutorials/wallet/mobile/satsmobi-ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb) (Bot Telegram) (Penitipan)
+- [Wallet Dari Satoshi](https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7) (Kustodian dengan pertukaran ke Non-Kustodian)
 - [Breez](https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06) (Non-custodial)
 
 
 
-Atau setiap wallet yang memiliki "Lightning Address" dan menghasilkan faktur Bolt11. Dompet yang menggunakan generate sebagai faktur Bolt12 saat ini tidak didukung. Untuk info lebih lanjut, lihat definisi [Bolt] (https://planb.academy/resources/glossary/bolt).
+Atau setiap wallet yang memiliki "Lightning Address" dan menghasilkan faktur Bolt11. Dompet yang menggunakan generate sebagai faktur Bolt12 saat ini tidak didukung. Untuk info lebih lanjut, lihat definisi [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 
@@ -96,9 +96,9 @@ Sekarang pilihlah bagaimana Anda ingin menjangkau platform ini.
 
 
 
-- [BitcoinVoucherBot] (https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
+- [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
 - [Desktop PC / Smartphone Browser](https://p2p.bitcoinvoucher.bot/?ref=55360009)
-- [Tor .Onion] (http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
+- [Tor .Onion](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
 
 
 

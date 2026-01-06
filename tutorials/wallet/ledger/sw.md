@@ -22,13 +22,13 @@ Katika somo hili, pia tunajadili sehemu ya kaulisiri, suluhisho la hali ya juu l
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 
-# Unganisha Ledger kwa Sparrow Bitcoin Wallet (mwongozo wa kuandika)
+## Unganisha Ledger kwa Sparrow Bitcoin Wallet (mwongozo wa kuandika)
 
 
 Hakikisha unapitia kipande kingine "Kutumia Bitcoin Hardware Wallets" kwanza. Nitapitia hatua kadhaa na nitazingatia zaidi kile ambacho ni maalum kwa Ledger hapa.
 
 
-## Kuweka kifaa
+### Kuweka kifaa
 
 
 Ledger inakuja na kebo yake ya USB. Hakikisha unatumia hiyo na sio kebo yoyote ya zamani. Baadhi ya nyaya za USB zina nguvu pekee. Hii inasambaza data NA nguvu. Wakati nimetumia kifaa chenye simu inayochaji kebo ya USB inayozunguka, kifaa kimeshindwa kuunganishwa.
@@ -69,7 +69,7 @@ Kidogo kinachofuata ni cha kuudhi sana. Inachanganya maneno 24 na inabidi uthibi
 Utaona kwenye dashibodi yako kwamba una kitufe cha mipangilio, na kitufe cha ishara zaidi kinachokuruhusu kusakinisha programu. Lakini unahitaji kuunganisha kwa Ledger Live kwanza. Tutafanya hivyo ijayo…
 
 
-## Pakua Ledger Live
+### Pakua Ledger Live
 
 
 Unaweza kupakua Ledger Live kutoka kwa ukurasa wao wa wavuti, lakini ni bora kuipata kutoka kwa GitHub, ambapo msimbo wa chanzo huhifadhiwa.
@@ -122,7 +122,7 @@ Angalia matokeo ya Hash na uhakikishe kuwa ni sawa na ile iliyochapishwa kwenye 
 Kwa kweli, unataka kupata dhana ya ziada na uhakikishe kuwa heshi ambazo zimechapishwa sio bandia. Tunafanya hivyo kwa saini za gpg, lakini iko nje ya wigo wa nakala hii. Ikiwa unataka kujifunza kuhusu hilo (na ninapendekeza ufanye hatimaye), kisha angalia makala hii.
 
 
-## Unganisha kwa Ledger Live
+### Unganisha kwa Ledger Live
 
 
 Kabla ya kutumia Ledger Live, inasaidia faragha kidogo kuwasha VPN. Ledger bado itapata addresses zako zote, lakini hawatajua IP yako Address, ambayo inatoa nyumba yako Address. Mullvad VPN ni huduma bora ya VPN na sio ghali sana (sitangazi, ni kile ninachotumia).
@@ -181,7 +181,7 @@ Kumbuka kwamba mapema, kwenye kifaa, tulikuwa na kifungo cha mipangilio na kifun
 Unaweza kuzima Ledger Live sasa.
 
 
-## Ongeza passphrase
+### Ongeza passphrase
 
 
 Kwa kuwa sasa tunayo Programu ya Bitcoin, tunaweza kuongeza passphrase kwa maneno yetu ya seed. Hatukuweza kufanya hivyo hapo awali seed ilipoundwa kwa mara ya kwanza kwa sababu mwanzoni, hatukuwa na Programu ya Bitcoin, na tulihitaji kuunganisha kwenye Ledger Live ili kuipata.
@@ -202,7 +202,7 @@ Itakuuliza "Current PIN". Hii si PIN unayoihusisha na passphrase mpya, bali ni P
 Sasa unaweza kuondoka hadi kwenye menyu kuu kwa kuchagua chaguo la nyuma mara chache.
 
 
-## Kuangalia Wallet
+### Kuangalia Wallet
 
 
 Katika makala zilizopita, nilielezea jinsi ya kupakua na kuthibitisha Sparrow Wallet, na jinsi ya kuiunganisha kwenye node yako mwenyewe, au node ya umma. Unapaswa kufuata miongozo hii:
@@ -274,7 +274,7 @@ Baada ya pause, wakati kompyuta inafikiri, utaona vifungo upande wa kushoto viki
 ![image](assets/21.webp)
 
 
-## Kupokea
+### Kupokea
 
 
 Ili kupokea Bitcoin, nenda kwenye kichupo cha Anwani kilicho upande wa kushoto na uchague mojawapo ya anwani za kupokea. Bofya tu kulia Address unayotaka, na uchague "nakala ya Address". Kisha nenda kwa Exchange yako ambapo pesa zinatumwa kutoka na ubandike hapo. Au unaweza kutoa Address kwa mteja ambaye anaweza kuitumia kukulipa.
@@ -286,7 +286,7 @@ Unapotumia Wallet kwa mara ya kwanza, unapaswa kupokea kiasi kidogo sana, ujizoe
 Ukishafanya hivyo, lazima uhifadhi nakala ya maneno uliyoandika. Nakala moja haitoshi. Kuwa na nakala mbili za karatasi angalau (chuma ni bora), na uziweke katika sehemu mbili tofauti, zilizolindwa vizuri. Hii inapunguza hatari ya janga la asili kuharibu HWW yako na nakala ya karatasi katika tukio moja. Tazama "Using Bitcoin Hardware Wallets" kwa majadiliano kamili kuhusu hili.
 
 
-## Kutuma
+### Kutuma
 
 
 ![image](assets/22.webp)
@@ -301,13 +301,13 @@ Wallet haiwezi kutia sahihi muamala isipokuwa HWW imeunganishwa. Hiyo ndiyo kazi
 Pia zingatia kwamba ukichagua kutumia sarafu ambayo ni kubwa kuliko kiasi cha malipo, basi salio litarejeshwa kwenye mojawapo ya anwani za kubadilisha Wallet zako. Baadhi ya watu hawajajua hili, na walitazama shughuli zao kwenye Blockchain ya umma, na walidhani kwamba baadhi ya Bitcoin ilitumwa kwa washambuliaji Address, lakini kwa kweli, ilikuwa mabadiliko yao wenyewe Address.
 
 
-## Firmware
+### Firmware
 
 
 Ili kusasisha firmware, unahitaji kuunganisha kwa Ledger Live. Ikiwa unataka kufanya hivyo, unapaswa kufuta kifaa kwanza, na uhakikishe kuwa una maneno yako ya kuhifadhi na passphrase inapatikana ili kurejesha kifaa. Sababu ninapendelea kufuta kifaa kwanza ni kwamba unapaswa kuunganisha kifaa chako kwa Ledger Live ili kusasisha firmware, na ninapendelea kutofichua Wallet yako mpya (ile iliyo na passphrase) kwa Ledger Live, milele. Siamini kwamba Ledger haitoi maelezo yangu ya ufunguo wa umma kutoka kwa kifaa ninapounganisha kwenye Ledger Live. Wanadai hawafanyi hivyo, lakini siwezi kuthibitisha hilo mimi mwenyewe isipokuwa nisome msimbo, na kuelewa maunzi ya ndani pia.
 
 
-## Hitimisho
+### Hitimisho
 
 
 Makala haya yalikuonyesha jinsi ya kutumia Ledger HWW kwa njia salama na ya faragha zaidi kuliko ilivyotangazwa - lakini makala hii pekee haitoshi. Kama nilivyosema mwanzoni, unapaswa kuichanganya na maelezo yaliyotolewa katika "Kutumia Bitcoin Hardware Wallets".

@@ -3,7 +3,7 @@ name: White Noise
 description: Частно, децентрализирано приложение за изпращане на съобщения, базирано на протоколите Nostr и MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

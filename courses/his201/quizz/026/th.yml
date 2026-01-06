@@ -5,5 +5,5 @@ wrong_answers:
   - การยืนยันการชำระเงินแบบง่าย
   - บล็อกเชน
 explanation: |
-  นโยบายการเงินเริ่มต้นสอดคล้องกับการออกเหรียญอย่างคงที่ (X BTC/block) ตามที่ระบุไว้ในเวอร์ชันแรกของเอกสารไวท์เปเปอร์และ [การแลกเปลี่ยน](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) ของ Satoshi กับ Ray Dillinger
+  นโยบายการเงินเริ่มต้นสอดคล้องกับการออกเหรียญอย่างคงที่ (X BTC/block) ตามที่ระบุไว้ในเวอร์ชันแรกของเอกสารไวท์เปเปอร์และ [การแลกเปลี่ยน](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) ของ Satoshi กับ Ray Dillinger
 reviewed: true

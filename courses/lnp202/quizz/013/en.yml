@@ -1,0 +1,9 @@
+question: Which solution enables you to run a real Lightning node on cell phones?
+answer: Embedded LN node
+wrong_answers:
+  - Wallet custodial Lightning
+  - Lightning atomic swap
+  - Federated channels
+explanation: |
+  Solutions such as Phoenix or Zeus Embedded embed a genuine Lightning node directly into the application.
+reviewed: false

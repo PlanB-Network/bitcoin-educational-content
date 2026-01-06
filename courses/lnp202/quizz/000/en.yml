@@ -1,0 +1,9 @@
+question: What is the capacity of a Lightning channel?
+answer: Total amount locked
+wrong_answers:
+  - Total available liquidity in one direction
+  - Maximum fees
+  - Maximum number of possible payments
+explanation: |
+  The capacity corresponds to the total sum of satss blocked in the channel's multisig output.
+reviewed: false

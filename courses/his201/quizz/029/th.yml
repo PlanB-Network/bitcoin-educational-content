@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin มีความเสี่ยงต่อการโจมตีแบบ Sybil
   - Bitcoin เป็นภาวะเงินฝืด
 explanation: |
-  เขา[วิจารณ์](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin ว่าบริโภคไฟฟ้าและปล่อยก๊าซคาร์บอนไดออกไซด์ (ก๊าซเรือนกระจก)
+  เขา[วิจารณ์](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin ว่าบริโภคไฟฟ้าและปล่อยก๊าซคาร์บอนไดออกไซด์ (ก๊าซเรือนกระจก)
 reviewed: true

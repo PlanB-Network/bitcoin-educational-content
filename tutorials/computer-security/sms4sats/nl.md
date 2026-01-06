@@ -347,4 +347,4 @@ Houd echter rekening met de beperkingen: de dienst garandeert geen absolute anon
 
 - [SMS4Sats officiële website](https://sms4sats.com)
 - [Service FAQ](https://sms4sats.com/faq)
-- [Tor-adres] (http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion)
+- [Tor-adres](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion)

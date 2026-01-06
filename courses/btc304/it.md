@@ -1,18 +1,18 @@
 ---
 name: Crea una community Bitcoin
-goal: Crea e organizza facilmente una comunità Bitcoin nella tua zona
+goal: Crea e organizza facilmente una community Bitcoin nella tua zona
 objectives:
-- Creare una comunità e/o un incontro Bitcoin
-- Costruire un'identità visiva e digitale per la vostra comunità
-- Stabilire obiettivi annuali per la propria comunità
-- Lanciare progetti e iniziative con la vostra comunità
-- Comprendere l'importanza di anticipare l'evoluzione futura di una comunità
+- Creare una community e/o un incontro Bitcoin
+- Costruire un'identità visiva e digitale per la vostra community
+- Stabilire obiettivi annuali per la propria community
+- Lanciare progetti e iniziative con la vostra community
+- Comprendere l'importanza di anticipare l'evoluzione futura di una community
 ---
 # Il primo passo verso l'adozione di Bitcoin
 
-Oggi, chiunque può imparare su Bitcoin online, ma ciò che spesso manca è l'opportunità di incontrarsi, scambiare idee e costruire insieme. Per colmare questa lacuna, molti bitcoiner formano comunità locali, dove gli incontri danno vita a workshop, presentazioni e discussioni significative.
+Oggi, chiunque può imparare riguardo Bitcoin online, ma ciò che spesso manca è l'opportunità di incontrarsi, scambiare idee e lavorare insieme. Per colmare questa lacuna, molti bitcoiner formano community locali, dove gli incontri danno vita a workshop, presentazioni e discussioni significative.
 
-In BTC304, esamineremo perché la costruzione della comunità è importante, esploreremo gli strumenti per creare una forte identità visiva e digitale e condivideremo progetti semplici e open-source che puoi lanciare. Considereremo anche come le iniziative locali si evolvono in comunità nazionali che possono contribuire a guidare un futuro iperbitcoinizzato.
+In BTC304, esamineremo perché la costruzione della community è importante, esploreremo gli strumenti per creare una forte identità visiva e digitale e condivideremo progetti semplici e open-source che puoi lanciare. Considereremo anche come le iniziative locali si evolvono in comunità nazionali che possono contribuire a guidare un futuro iperbitcoinizzato.
 +++
 # Introduzione
 
@@ -28,18 +28,18 @@ In BTC304, esamineremo perché la costruzione della comunità è importante, esp
 
 
 
-Benvenuti a BTC 304!
+Benvenuto a BTC 304!
 
 
 
-Dal 2009, il Bitcoin è cresciuto senza sosta. Questa crescita si è concretizzata in nuove proposte di miglioramento del Bitcoin (BIP), nella creazione di livelli aggiuntivi per rendere la rete scalabile (Lightning Network tra gli altri) e nello sviluppo di diverse aziende e start-up.
+Dal 2009, Bitcoin è cresciuto senza sosta. Questa crescita si è concretizzata in nuove proposte di miglioramento di Bitcoin (BIP), nella creazione di layer aggiuntivi per rendere il network scalabile (Lightning Network tra gli altri) e nello sviluppo di diverse aziende e start-up.
 
 
 
-Il suo sviluppo è evidente anche nel On-Chain, con un numero di transazioni in costante aumento.
+Il suo sviluppo è evidente anche on-chain, con un numero di transazioni in costante aumento.
 
 
-Ad esempio, tra il 1° gennaio 2018 e il 1° gennaio 2024, si stima che il numero di transazioni sul Bitcoin principale del Layer sia [aumentato del 66,2%](https://dune.com/queries/3375917/5663935). Nel frattempo, tra l'agosto 2021 e l'agosto 2023, il numero di transazioni pubbliche sul Lightning Network [è aumentato del 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Ad esempio, tra il 1° gennaio 2018 e il 1° gennaio 2024, si stima che il numero di transazioni sul layer principale Bitcoin sia [aumentato del 66,2%](https://dune.com/queries/3375917/5663935). Nel frattempo, tra l'agosto 2021 e l'agosto 2023, il numero di transazioni pubbliche sul Lightning Network [è aumentato del 1.212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -48,10 +48,10 @@ Questa crescita significativa è, ovviamente, strettamente legata a:
 
 
 
-- il [crescente interesse delle popolazioni di tutto il mondo per l'utilizzo del Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), per affrancarsi dal sistema bancario e/o utilizzare una valuta meno volatile o meno svalutata, come nel caso delle popolazioni di Libano, Siria, Egitto, Argentina e altre;
+- il [crescente interesse delle popolazioni di tutto il mondo per l'utilizzo di Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), per liberarsi dal sistema bancario e/o utilizzare una valuta meno volatile o meno svalutata, come nel caso delle popolazioni di Libano, Siria, Egitto, Argentina e altre;
 - la rivalutazione del suo prezzo nel tempo, affermandolo come riserva di valore e come investimento a lungo termine, grazie alla sua politica monetaria fissa;
 - la crescita successiva del mercato speculativo delle criptovalute, in particolare nel periodo 2017-2018 e 2020-2021;
-- La crescente presenza del Bitcoin nei media tradizionali.
+- La crescente presenza di Bitcoin nei media tradizionali.
 
 
 
@@ -60,12 +60,12 @@ Questa crescita significativa è, ovviamente, strettamente legata a:
 
 
 
-Sebbene il Bitcoin sia ancora nelle sue fasi iniziali, questa realtà, di cui probabilmente siete già a conoscenza, ci spinge a considerare due domande chiave:
+Sebbene Bitcoin sia ancora nelle sue fasi iniziali, questa realtà, di cui probabilmente sei già a conoscenza, ci spinge a considerare due domande chiave:
 
 
 
 
-- Come possiamo incoraggiare i Bitcoiners a spingersi oltre nell'apprendimento e nei progetti per **sfruttare appieno il potenziale di Bitcoin**?
+- **Come possiamo incoraggiare i Bitcoiners a spingersi oltre nel loro apprendimento e nei loro progetti, per sfruttare appieno il potenziale di Bitcoin**?
 
 
 

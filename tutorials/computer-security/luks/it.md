@@ -13,7 +13,7 @@ ___
 
 ## I. Presentazione
 
-La crittografia di una chiavetta USB è un buon modo per proteggere i dati sensibili. **In questa esercitazione vedremo come utilizzare LUKS (*Linux Unified Key Setup*) con cryptsetup per crittografare una chiavetta USB su un sistema Linux.** Questo metodo vi permetterà di proteggere i vostri dati, soprattutto in caso di perdita o furto della chiavetta USB.
+La crittografia di una chiavetta USB è un buon modo per proteggere i dati sensibili. **In questa esercitazione vedremo come utilizzare LUKS (*Linux Unified Key Setup*) con cryptsetup per crittografare una chiavetta USB su un sistema Linux.** Questo metodo vi permetterà di proteggere i tuoi dati, soprattutto in caso di perdita o furto della chiavetta USB.
 
 [**LUKS**](https://it.wikipedia.org/wiki/Linux_Unified_Key_Setup) (*Linux Unified Key Setup*) è uno standard di crittografia del disco utilizzato principalmente nei sistemi Linux. Protegge i dati criptando le partizioni del disco con algoritmi robusti. Il suo supporto sui sistemi Linux facilita la gestione delle chiavi di crittografia e delle password, offrendo un interfaccia standardizzata e la compatibilità con vari strumenti di gestione.
 

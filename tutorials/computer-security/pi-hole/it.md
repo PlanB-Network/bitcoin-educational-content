@@ -182,7 +182,7 @@ Personalmente ho scelto la seconda, perché se hai guardato bene, il link allo s
 
 La pagina visualizzerà il risultato dello script una volta completato, il che significa che l'elenco è stato preso in considerazione (a meno che non venga visualizzato un messaggio di errore, ovviamente).
 
-Come annunciato all'inizio di questo tutorial, Pi-Hole consente anche di **bloccare i domini noti per la distribuzione di malware. Per rafforzare questa funzione, vi suggerisco di aggiungere anche l'elenco dei domini regolarmente aggiornato distribuito da Abuse.ch**, che rafforzerà in modo significativo la sicurezza della vostra rete, disponibile all'indirizzo [Abuse.ch](https://urlhaus.abuse.ch/downloads/hostfile/).
+Come annunciato all'inizio di questo tutorial, Pi-Hole consente anche di **bloccare i domini noti per la distribuzione di malware. Per rafforzare questa funzione, vi suggerisco di aggiungere anche l'elenco dei domini regolarmente aggiornato distribuito da Abuse.ch**, che rafforzerà in modo significativo la sicurezza della tua rete, disponibile all'indirizzo [Abuse.ch](https://urlhaus.abuse.ch/downloads/hostfile/).
 
 Naturalmente, è possibile aggiungere qualsiasi elenco che si ritiene rilevante o gestire manualmente la propria blacklist tramite il menu blacklist.
 

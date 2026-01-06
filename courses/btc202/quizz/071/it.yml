@@ -5,5 +5,5 @@ wrong_answers:
   - Mempool.dat e ip.dat
   - ip.dat e anchors.dat
 explanation: |
-  Il Bitcoin core consulta prima anchors.dat (precedenti peer in uscita), poi peers.dat (libro noto del Address) per riconnettersi.
+  Bitcoin Core consulta prima anchors.dat (precedenti peer in uscita), poi peers.dat (libro degli indirizzi noti) per riconnettersi.
 reviewed: true

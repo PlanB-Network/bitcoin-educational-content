@@ -1,5 +1,5 @@
 ---
-name: Crea una comunità Bitcoin
+name: Crea una community Bitcoin
 goal: Crea e organizza facilmente una comunità Bitcoin nella tua zona
 objectives:
 - Creare una comunità e/o un incontro Bitcoin

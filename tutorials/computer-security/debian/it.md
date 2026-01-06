@@ -122,7 +122,7 @@ Seleziona la lingua e il layout della tastiera. Utilizzate il campo di prova inc
 
 - Creazione di un account utente
 
-Inserisci il tuo nome completo, il nome dell'account e una password forte per garantire la sicurezza della vostra sessione.
+Inserisci il tuo nome completo, il nome dell'account e una password forte per garantire la sicurezza della tua sessione.
 
 ![user](assets/fr/10.webp)
 

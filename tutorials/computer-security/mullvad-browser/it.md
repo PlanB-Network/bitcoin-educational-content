@@ -65,7 +65,7 @@ Mullvad Browser include **tre estensioni preinstallate** che costituiscono il nu
 
 Questa estensione per il blocco di annunci e tracker è preconfigurata con **elenchi di filtri ottimizzati** per bloccare:
 - Pubblicità invasiva
-- Tracker di terze parti che raccolgono i vostri dati
+- Tracker di terze parti che raccolgono i tuoi dati
 - Script dannosi
 - Elementi di monitoraggio comportamentali
 
@@ -168,7 +168,7 @@ Quando si avvia per la prima volta Mullvad Browser, viene visualizzato un'interf
 
 **Importante:** Mullvad Browser non maschera il tuo indirizzo IP per impostazione predefinita. Per una protezione completa, si consiglia vivamente di utilizzare una VPN in parallelo. È possibile utilizzare Mullvad VPN o qualsiasi altro servizio VPN affidabile.
 
-Il browser include anche **DNS-over-HTTPS (DoH)** che utilizza il servizio DNS di Mullvad: questa tecnologia cripta le richieste DNS (traducendo i nomi dei siti in indirizzi IP) per impedire al vostro ISP di monitorare i siti che visitate.
+Il browser include anche **DNS-over-HTTPS (DoH)** che utilizza il servizio DNS di Mullvad: questa tecnologia cripta le richieste DNS (traducendo i nomi dei siti in indirizzi IP) per impedire al tuo ISP di monitorare i siti che visiti.
 
 ### Impostazioni di sicurezza
 

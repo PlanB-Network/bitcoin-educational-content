@@ -91,7 +91,7 @@ _Potresti anche voler compiere il passaggio extra, opzionale ma consigliato, di 
 
 _Video che illustra i semplici passaggi descritti sopra._
 
-Se quei semplici passaggi sembrano troppo complicati, potresti considerare l'acquisto di un Pixel con il software GrapheneOS [pre-installato](https://ronindojo.io/en/roninmobile). Tieni solo presente che stai mettendo una piccola quantità di fiducia nel fornitore.
+Se quei semplici passaggi sembrano troppo complicati, potresti considerare l'acquisto di un Pixel con il software GrapheneOS pre-installato (esistono aziende che lo vendono). Tieni solo presente che stai mettendo una piccola quantità di fiducia nel fornitore.
 
 ### App preinstallate
 

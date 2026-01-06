@@ -160,6 +160,7 @@ https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c0
 ### Aurora Store
 
 [Aurora Store](https://auroraoss.com/) è una versione FOSS del Google Play Store. Aurora ha un aspetto e una sensazione molto simili al tradizionale Play Store e ti consente di scaricare e aggiornare qualsiasi app che normalmente troveresti tramite l'opzione Google.
+
 La caratteristica principale di Aurora è l'accesso anonimo. Ciò significa che puoi scaricare tutte le tue app preferite che non sono disponibili tramite F-Droid o APK diretto, senza dover effettuare l'accesso al tuo account Google.
 
 Prima di affrettarti a rendere questa la tua opzione di installazione predefinita, ricorda che molte delle applicazioni da cui stiamo cercando di allontanarci sono state installate dal Play Store. Il fatto che siano accessibili da Aurora non cambia il fatto che alcune potrebbero avere funzionalità di tracciamento incorporate. Non sarà sempre possibile, ma ogni volta che puoi, cerca un'alternativa F-Droid prima di scaricare tramite Aurora.

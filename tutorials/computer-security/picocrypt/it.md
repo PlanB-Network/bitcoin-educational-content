@@ -1,6 +1,6 @@
 ---
 name: Picocrypt
-description: Uno strumento open source per criptare i vostri dati
+description: Uno strumento open source per criptare i tuoi dati
 ---
 ![cover](assets/cover.webp)
 
@@ -17,12 +17,12 @@ In questa guida daremo un'occhiata a Picocrypt, un software di crittografia semp
 
 Adatto alla **crittografia dei file**, è possibile utilizzarlo per proteggere i **dati sul computer, su una chiavetta USB**, ma anche i dati archiviati nel Cloud. Ad esempio, è possibile criptare i dati e memorizzarli su **Microsoft OneDrive, Google Drive, iCloud o Dropbox**, anche se per questo scopo preferisco un altro software che verrà presentato in un prossimo articolo.
 
-Potete utilizzarlo anche quando dovete **condividere i dati con terzi**: grazie a Picocrypt e alla chiave di decrittazione, questi ultimi saranno in grado di decrittare i dati sul loro computer. In questo modo, se il vostro account o computer viene compromesso, i vostri dati sono protetti.
+Potete utilizzarlo anche quando dovete **condividere i dati con terzi**: grazie a Picocrypt e alla chiave di decrittazione, questi ultimi saranno in grado di decrittare i dati sul loro computer. In questo modo, se il tuo account o computer viene compromesso, i tuoi dati sono protetti.
 
 Per seguire il progetto Picocrypt, esiste solo un indirizzo:
 - [Picocrypt su GitHub](https://github.com/Picocrypt/Picocrypt)
 
-Totalmente **libero e open source**, PicoCrypt è disponibile per **Windows,** **Linux** e **macOS**. Su Windows, è possibile installarlo sul proprio computer o utilizzare la versione portatile.
+Totalmente **libero e open source**, PicoCrypt è disponibile per **Windows,** **Linux** e **macOS**. Su Windows, è possibile installarlo sul tuo computer o utilizzare la versione portatile.
 
 
 ## II. Picocrypt, software di crittografia open source

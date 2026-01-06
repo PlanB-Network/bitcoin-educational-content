@@ -9,7 +9,7 @@ Ogni clic, ogni ricerca, ogni sito visitato: il tuo browser web è diventato un 
 
 Questa realtà solleva una domanda essenziale: è ancora possibile navigare liberamente su Internet senza essere costantemente spiati e profilati? Fortunatamente la risposta è sì, grazie a progetti comunitari che rimettono l'utente al centro delle loro preoccupazioni.
 
-LibreWolf incarna questa filosofia di resistenza digitale. Nato da una comunità di sviluppatori indipendenti, questo browser trasforma Firefox in un vero e proprio scudo contro la sorveglianza online. Laddove i browser commerciali cercano di monetizzare la vostra attenzione, LibreWolf fa l'opposto: vi rende invisibili ai tracker preservando un'esperienza di navigazione fluida e moderna.
+LibreWolf incarna questa filosofia di resistenza digitale. Nato da una comunità di sviluppatori indipendenti, questo browser trasforma Firefox in un vero e proprio scudo contro la sorveglianza online. Laddove i browser commerciali cercano di monetizzare la tua attenzione, LibreWolf fa l'opposto: vi rende invisibili ai tracker preservando un'esperienza di navigazione fluida e moderna.
 
 In questa esercitazione scopriremo come LibreWolf può trasformare il modo di navigare sul web, offrendo una solida protezione contro il tracciamento senza sacrificare le prestazioni o la compatibilità con il web.
 
@@ -72,7 +72,7 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 - **Ad blocker/tracker nativo**: uBlock Origin è integrato di serie, quindi non dovi fare nulla per proteggerti da annunci e bug.
 
-- **Eccellente protezione anti-fingerprinting:** grazie a RFP e alle numerose impostazioni sulla privacy, LibreWolf riduce drasticamente la vostra impronta digitale unica sul web.
+- **Eccellente protezione anti-fingerprinting:** grazie a RFP e alle numerose impostazioni sulla privacy, LibreWolf riduce drasticamente la tua impronta digitale unica sul web.
 
 - **Prestazioni migliorate e leggerezza**: rimuovendo la telemetria e alcune funzioni non essenziali, LibreWolf può essere leggermente più veloce e meno avido di energia rispetto a Firefox standard.
 
@@ -163,19 +163,19 @@ Per impostazione predefinita, LibreWolf cancella i cookie e la memoria locale a 
 
 ### Aggiunta di estensioni utili
 
-In linea di principio, LibreWolf scoraggia l'aggiunta di estensioni non necessarie, poiché ogni estensione può essere un vettore di tracciamento. Tuttavia, alcune estensioni affidabili possono migliorare la vostra esperienza:
+In linea di principio, LibreWolf scoraggia l'aggiunta di estensioni non necessarie, poiché ogni estensione può essere un vettore di tracciamento. Tuttavia, alcune estensioni affidabili possono migliorare la tua esperienza:
 
 - **Firefox Multi-Account Containers** (di Mozilla) per la navigazione a compartimenti stagni
 - **Decentraleyes** o **LocalCDN** per servire localmente le librerie comuni
 
-Evitate soprattutto le estensioni "VPN gratuite" o i proxy di dubbia qualità: uBlock Origin copre già il 99% delle vostre esigenze.
+Evitate soprattutto le estensioni "VPN gratuite" o i proxy di dubbia qualità: uBlock Origin copre già il 99% delle tue esigenze.
 
 
 ## Uso quotidiano
 
 ### Navigazione quotidiana sul web
 
-Utilizzate LibreWolf per le vostre attività quotidiane su Internet. La differenza principale rispetto agli altri browser è che si lasciano molte meno tracce pubblicitarie. I banner di "accettazione dei cookie" scompaiono su molti siti, grazie agli elenchi di filtraggio di uBlock.
+Utilizzate LibreWolf per le tue attività quotidiane su Internet. La differenza principale rispetto agli altri browser è che si lasciano molte meno tracce pubblicitarie. I banner di "accettazione dei cookie" scompaiono su molti siti, grazie agli elenchi di filtraggio di uBlock.
 
 ### Utilizzare le schede private per compartimentare
 
@@ -183,7 +183,7 @@ Anche se LibreWolf cancella tutto al termine della sessione, può essere utile a
 
 ### Sfruttare i contenitori multi-account
 
-L'installazione dell'estensione Multi-Account Containers può aiutarvi a segmentare le vostre attività in silos a tenuta stagna. Ad esempio, è possibile definire un contenitore "Banking" per i siti bancari, un contenitore "Social Networks" per Facebook/Twitter, ecc. Ogni contenitore ha i suoi cookie, le sue sessioni e la sua memoria isolata. Ogni contenitore ha i suoi cookie, le sue sessioni e la sua memoria isolata.
+L'installazione dell'estensione Multi-Account Containers può aiutarti a segmentare le tue attività in silos a tenuta stagna. Ad esempio, è possibile definire un contenitore "Banking" per i siti bancari, un contenitore "Social Networks" per Facebook/Twitter, ecc. Ogni contenitore ha i suoi cookie, le sue sessioni e la sua memoria isolata. Ogni contenitore ha i suoi cookie, le sue sessioni e la sua memoria isolata.
 
 ### Gestione dei permessi ottimizzata per sito
 
@@ -195,7 +195,7 @@ LibreWolf consente di controllare le autorizzazioni concesse ai siti (posizione,
 2. **Evita di mescolare identità personale e navigazione privata**: idealmente, non dovresti accedere con i tuoi account personali nella stessa sessione in cui si sta effettuando una ricerca sensibile.
 3. **Non sovraccaricare LibreWolf con estensioni superflue**: ogni estensione installata può introdurre rischi di sicurezza o di fingerprinting.
 4. **Utilizza una VPN o un proxy Tor in aggiunta**: LibreWolf non rende anonimi nei confronti del proprio ISP. Per l'anonimato di rete, è possibile utilizzare LibreWolf dietro una VPN affidabile.
-5. **Salvate i vostri dati importanti**: segnalibri, password se memorizzate localmente. Considerate un gestore di password esterno (KeePassXC, Bitwarden) piuttosto che il gestore di password di base del browser.
+5. **Salva i tuoi dati importanti**: segnalibri, password se memorizzate localmente. Considera un gestore di password esterno (KeePassXC, Bitwarden) piuttosto che il gestore di password di base del browser.
 
 
 ## Confronto con altri browser

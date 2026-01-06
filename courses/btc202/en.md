@@ -194,7 +194,7 @@ The third role of the node involves managing mined blocks. When a miner discover
 ![Image](assets/fr/051.webp)
 
 
-## What's the difference between a bow and a wallet?
+## What's the difference between a node and a wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
@@ -2112,7 +2112,7 @@ As a reminder, a Bitcoin block consists of an 80-byte header and a list of trans
 ![Image](assets/fr/094.webp)
 
 
-Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for cookies (signatures), placed in the coinbase.
+Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for the witness (signatures), placed in the coinbase.
 
 
 ![Image](assets/fr/095.webp)

@@ -9,7 +9,7 @@ Si estás leyendo esto, hay una alta probabilidad de que hayas recibido un Certi
 
 En este tutorial, vamos a ver cómo Plan ₿ Academy emite pruebas verificables para tu Certificado Bitcoin o cualquier Diploma de Finalización de Curso. Luego, en una segunda parte, veremos cómo verificar la autenticidad de estas pruebas.
 
-# Mecanismo de prueba de Plan ₿ Academy
+## Mecanismo de prueba de Plan ₿ Academy
 
 En Plan ₿ Academy, te ofrecemos un certificado y diplomas que están firmados criptográficamente por nosotros y sellados en tiempo en la Timechain (es decir, la blockchain de Bitcoin). Para lograr esto, tuvimos que idear un mecanismo de prueba que se basa en 2 operaciones criptográficas:
 
@@ -23,7 +23,7 @@ Creemos que este sencillo mecanismo de prueba nos permite emitir certificados y 
 
 Nota que gracias a este mecanismo de prueba, cualquier intento de alterar incluso el más mínimo detalle de tu certificado o diploma creará un hash sha256 completamente diferente del archivo firmado, lo que revelaría instantáneamente la manipulación porque la firma y el sellado de tiempo ya no serían válidos. Además, si alguien intenta falsificar maliciosamente algunos certificados o diplomas en nombre de Plan ₿ Academy, una simple verificación de la firma revelaría el fraude.
 
-## ¿Cómo funciona la firma GPG?
+### ¿Cómo funciona la firma GPG?
 
 La firma GPG se obtiene con el uso de un software de código abierto llamado GNU Private Guard. Este software permite a cualquiera crear fácilmente claves privadas, firmar y verificar firmas, y también cifrar y descifrar archivos. Para el alcance de este tutorial, ten en cuenta que Plan ₿ Academy utiliza GPG para crear su clave privada/pública y para firmar cualquier Certificado Bitcoin o Diploma de Finalización de Curso.
 
@@ -31,15 +31,15 @@ Por otro lado, si alguien quiere verificar la autenticidad de un archivo firmado
 
 Para aquellos que tienen curiosidad y quieren aprender más sobre este fantástico software, pueden referirse a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## ¿Cómo funciona el sellado de tiempo?
+### ¿Cómo funciona el sellado de tiempo?
 
 Cualquiera puede usar OpenTimestamps para sellar un archivo en tiempo, y obtener una prueba verificable de la existencia del archivo. En otras palabras, no te proporciona una prueba de cuándo se creó el archivo, sino una prueba de existencia no más tarde de un cierto momento.
 OpenTimestamps es capaz de ofrecer este servicio de forma gratuita gracias a una manera altamente eficiente de almacenar dicha prueba en la Blockchain de Bitcoin. Utiliza el hash sha256 del archivo como un identificador único de tu archivo y construye un árbol de Merkle con otros hashes de archivos enviados por otros usuarios y solo ancla el hash de la estructura del Árbol de Merkle en una Transacción OpReturn.
 Una vez que esta transacción esté en algún bloque, cualquiera con el archivo inicial y el archivo `.ots` asociado a él puede verificar la autenticidad del sellado de tiempo. En la segunda parte del tutorial veremos cómo verificar tu Certificado de Bitcoin o cualquier Diploma de Finalización de Curso con un terminal y con una interfaz gráfica a través del sitio web de OpenTimestamps.
 
-# Cómo verificar un Certificado de Plan ₿ Academy o Diploma
+## Cómo verificar un Certificado de Plan ₿ Academy o Diploma
 
-## Paso 1. Descarga tu Certificado o Diploma
+### Paso 1. Descarga tu Certificado o Diploma
 
 Inicia sesión en tu panel de control personal de Plan ₿ Academy.
 
@@ -59,7 +59,7 @@ Extrae el contenido haciendo clic derecho en el archivo `.zip` y seleccionando "
 - Archivo de Open Timestamp (OTS) (por ejemplo, certificate.txt.ots)
 - Certificado en PDF (por ejemplo, certificate.pdf)
 
-## Paso 2: Verificando la Firma del Archivo de Texto
+### Paso 2: Verificando la Firma del Archivo de Texto
 
 Primero abre un terminal en la carpeta donde están los archivos (haciendo clic derecho en la ventana de la carpeta y clic en "Abrir en Terminal"). Luego sigue las instrucciones a continuación
 
@@ -102,9 +102,9 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 Si ves un mensaje como "BAD signature", eso significa que el archivo ha sido alterado.
 
-## Paso 3: Verificando el Open Timestamp
+### Paso 3: Verificando el Open Timestamp
 
-### Verificación a través de una Interfaz Gráfica
+#### Verificación a través de una Interfaz Gráfica
 
 1. Visita el sitio web de OpenTimestamps: https://opentimestamps.org/
 2. Haz clic en la pestaña "Stamp & Verify".
@@ -116,7 +116,7 @@ Si ves un mensaje como el siguiente tu sello de tiempo es válido:
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### Método CLI
+#### Método CLI
 
 NOTA: Este procedimiento **requerirá que se ejecute un nodo local de Bitcoin**
 
@@ -140,7 +140,7 @@ Este comando:
 - Te mostrará cuándo exactamente fue timestamped el archivo
 - Confirmará la autenticidad del timestamp
 
-### Resultados finales
+#### Resultados finales
 
 Nota que la verificación es exitosa si se muestran **ambos** mensajes siguientes:
 

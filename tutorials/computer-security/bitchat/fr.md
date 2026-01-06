@@ -27,7 +27,7 @@ Dans ce tutoriel, nous verrons comment fonctionne Bitchat et comment vous pouvez
 ## 🚀 Caractéristiques principales
 
 
-Bitchat permet d'envoyer des messages hors ligne grâce à ces [fonctionnalités] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features) :
+Bitchat permet d'envoyer des messages hors ligne grâce à ces [fonctionnalités](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features) :
 
 
 
@@ -54,7 +54,7 @@ Bitchat vous permet d'envoyer des messages à des téléphones proches directeme
 Bitchat vous permet également de rejoindre des salons de discussion géolocalisés à l'aide du protocole Nostr et de `#geohash`. Un geohash est un code court, comme `#u33d`, qui représente une zone géographique spécifique, allant d'un simple quartier à une ville ou une région entière. Vous pouvez vous téléporter dans n'importe quel salon de discussion geohash dans le monde en entrant simplement son tag. Vos messages sont envoyés par l'intermédiaire d'un réseau décentralisé de relais, qui protège votre position exacte. De plus, chaque fois que vous rejoignez un salon geohash, vous recevez une nouvelle identité temporaire, ce qui ajoute une couche supplémentaire de confidentialité à vos conversations basées sur la localisation.
 
 
-Pour plus de détails techniques, veuillez consulter le [livre blanc officiel] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Pour plus de détails techniques, veuillez consulter le [livre blanc officiel](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Installation et configuration
@@ -67,15 +67,15 @@ Vous pouvez installer Bitchat via :
 
 
 
-- [Apple App Store] (https://apps.apple.com/us/app/bitchat-mesh/id6748219622) (pour les appareils iOS)
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.bitchat.droid) (pour les appareils Android)
+- [Apple App Store](https://apps.apple.com/us/app/bitchat-mesh/id6748219622) (pour les appareils iOS)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bitchat.droid) (pour les appareils Android)
 
 
 Les utilisateurs d'Android disposent également d'autres options :
 
 
 
-- Télécharger l'APK directement depuis la page [GitHub Releases] (https://github.com/permissionlesstech/bitchat-android/releases) ou
+- Télécharger l'APK directement depuis la page [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) ou
 - Installation via le [Zapstore] compatible Nostr (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
 
 
@@ -146,7 +146,7 @@ Utilisez le menu `#location channels` (à droite du nom d'utilisateur) pour pass
 
 
 - BLE Mesh*** : Mode Bluetooth par défaut (pas d'internet, portée de 10 à 50 mètres)
-- #geohashes** : Communautés géographiques basées sur l'Internet utilisant le [protocole Nostr] (https://nostr.com/)
+- #geohashes** : Communautés géographiques basées sur l'Internet utilisant le [protocole Nostr](https://nostr.com/)
 
 
 Lorsque vous sélectionnez le mode `#geohashes`, Bitchat s'intègre au protocole Nostr pour permettre la création de communautés géographiques. Vos messages sont publiés sur des "relais Nostr décentralisés" plutôt que sur le réseau peer-to-peer de Bitchat, ce qui permet des conversations plus larges mais filtrées en fonction de la localisation. Les clés d'identité Bitchat signent cryptographiquement tous les événements Nostr pour maintenir l'authentification, tandis que les balises geohash (comme `#u4pruyd` pour un quartier) filtrent les messages selon le niveau de précision que vous avez choisi. Cela signifie que vous pouvez participer à des discussions locales sans révéler vos coordonnées exactes, bien qu'un accès à Internet soit nécessaire.
@@ -282,7 +282,7 @@ Les canaux Geohash permettent des conversations ciblées basées sur des "lieux 
 ### Comment fonctionnent les `#geohashes` ?
 
 
-Le système divise le monde en carrés de grille en utilisant le [système Geohash] (https://en.wikipedia.org/wiki/Geohash), où chaque caractère dans le hachage représente une plus grande précision :
+Le système divise le monde en carrés de grille en utilisant le [système Geohash](https://en.wikipedia.org/wiki/Geohash), où chaque caractère dans le hachage représente une plus grande précision :
 
 
 
@@ -331,7 +331,7 @@ Les cartes thermiques sont un moyen intéressant de découvrir les événements 
 Bitchat permet une communication sécurisée et décentralisée pour les scénarios où la messagerie traditionnelle échoue. Elle peut fonctionner sans infrastructure internet grâce à un réseau maillé BLE, ce qui la rend adaptée aux manifestations, aux zones sinistrées et aux régions éloignées où la connectivité est limitée ou censurée. L'application garantit la confidentialité grâce au cryptage par clé éphémère, aux canaux de localisation basés sur la géohash et à l'effacement des données en mode panique.
 
 
-L'application en est encore à ses premiers stades de développement, mais elle est déjà prometteuse. Les utilisateurs doivent s'attendre à des bugs occasionnels et signaler les problèmes via [GitHub] (https://github.com/permissionlesstech/bitchat-android/issues). Des améliorations sont prévues, notamment l'intégration de `ecash` pour les transactions privées in-app utilisant le protocole Cashu.
+L'application en est encore à ses premiers stades de développement, mais elle est déjà prometteuse. Les utilisateurs doivent s'attendre à des bugs occasionnels et signaler les problèmes via [GitHub](https://github.com/permissionlesstech/bitchat-android/issues). Des améliorations sont prévues, notamment l'intégration de `ecash` pour les transactions privées in-app utilisant le protocole Cashu.
 
 
 ![image](assets/en/14.webp)

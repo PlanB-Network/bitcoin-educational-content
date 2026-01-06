@@ -1,9 +1,9 @@
 ---
-name: 쉼터
+name: Shelter
 description: 쉘터로 업무와 사생활에 동일한 휴대폰을 사용하세요
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

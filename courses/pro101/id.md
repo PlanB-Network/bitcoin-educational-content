@@ -11,7 +11,7 @@ objectives:
 
 Apa yang diperlukan untuk membangun di Bitcoin? Kursus 20 jam ini membawa Anda di bawah permukaan Bitcoin dan Lightning Network, menjelajahi protokol yang menggerakkan infrastruktur keuangan paling tangguh di dunia. Baik Anda ingin berkontribusi pada proyek open-source atau membangun generasi berikutnya dari aplikasi Bitcoin, Anda akan mendapatkan kedalaman teknis yang diperlukan untuk mulai bekerja dengan percaya diri dalam ekosistem ini.
 
-Direkam selama bootcamp CUBO+ 2023 di El Salvador, kursus ini menyatukan perspektif dari pengembang dan pendidik Bitcoin terkemuka yang telah membentuk teknologi ini. Bagian terbaiknya? Ini sepenuhnya gratis, dimungkinkan oleh Fulgure Venture, Bitcoin Office dan DecouvreBitcoin. Jika Anda penasaran tentang bagaimana Bitcoin benar-benar bekerja di tingkat protokol, ini adalah kesempatan Anda untuk mengetahuinya.
+Direkam selama bootcamp CUBO+ 2023 di El Salvador, kursus ini menyatukan perspektif dari pengembang dan pendidik Bitcoin terkemuka yang telah membentuk teknologi ini. Bagian terbaiknya? Ini sepenuhnya gratis, dimungkinkan oleh Fulgure Ventures, Bitcoin Office dan DecouvreBitcoin. Jika Anda penasaran tentang bagaimana Bitcoin benar-benar bekerja di tingkat protokol, ini adalah kesempatan Anda untuk mengetahuinya.
 +++
 # Kursus Pengenalan dan Persiapan
 
@@ -59,7 +59,7 @@ Sepanjang kursus, para peserta akan memanfaatkan alat-alat utama yang akan memba
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Selamat datang di kuliah pertama dari program edukasi **Cubo Plus**. Hari ini, kita akan menyelami dunia Bitcoin, yang dipimpin oleh Ricky, pendiri **Podcast Bitcoin Italia**. Ricky adalah seorang aktivis hak asasi manusia yang menggunakan Bitcoin sebagai alat untuk melindungi dan mempromosikan hak asasi manusia. Dengan pengalaman lebih dari enam tahun, Ricky telah melakukan perjalanan secara ekstensif, mendokumentasikan adopsi Bitcoin di pasar negara berkembang seperti El Salvador dan Guatemala. Karyanya tidak hanya berupa podcast; ia juga aktif di YouTube (**Bitcoin Explorers**) dan Twitter (**BTC Explorer**, **Ricky6**). Commitment hingga Bitcoin milik Ricky berasal dari keyakinannya bahwa Commitment menawarkan kebebasan finansial dan privasi, menantang sistem perbankan tradisional yang terpusat.
+Selamat datang di kuliah pertama dari program edukasi **Cubo Plus**. Hari ini, kita akan menyelami dunia Bitcoin, yang dipimpin oleh Rikki, pendiri **Podcast Bitcoin Italia**. Rikki adalah seorang aktivis hak asasi manusia yang menggunakan Bitcoin sebagai alat untuk melindungi dan mempromosikan hak asasi manusia. Dengan pengalaman lebih dari enam tahun, Rikki telah melakukan perjalanan secara ekstensif, mendokumentasikan adopsi Bitcoin di pasar negara berkembang seperti El Salvador dan Guatemala. Karyanya tidak hanya berupa podcast; ia juga aktif di YouTube (**Bitcoin Explorers**) dan Twitter (**BTC Explorer**, **Rikki6**). Commitment hingga Bitcoin milik Rikki berasal dari keyakinannya bahwa Commitment menawarkan kebebasan finansial dan privasi, menantang sistem perbankan tradisional yang terpusat.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Kuliah ini, "Mengapa El Salvador Membutuhkan Bitcoin," memberikan gambaran umum 
 - inklusi keuangan:_ Menyediakan akses ke layanan keuangan bagi masyarakat yang selama ini tidak terjangkau oleh sistem perbankan tradisional, yang sering disebut sebagai "unbanked."
 - uang yang tidak disensor:_ Uang yang tidak dapat dikontrol atau dibatasi oleh pemerintah atau lembaga keuangan.
 
-#### Latar belakang Ricky dan advokasi Bitcoin
+#### Latar belakang Rikki dan advokasi Bitcoin
 
 
-Perjalanan Ricky ke Bitcoin berakar dari pekerjaannya sebagai advokat hak asasi manusia. Dia percaya bahwa Bitcoin dapat memberikan kendali atas keuangan individu, memungkinkan mereka untuk melindungi privasi mereka dan menghindari keterbatasan bank yang tersentralisasi. Eksplorasinya terhadap adopsi Bitcoin di tempat-tempat seperti El Salvador menyoroti bagaimana teknologi ini dapat memberdayakan orang-orang di pasar negara berkembang untuk mendapatkan kemandirian finansial.
+Perjalanan Rikki ke Bitcoin berakar dari pekerjaannya sebagai advokat hak asasi manusia. Dia percaya bahwa Bitcoin dapat memberikan kendali atas keuangan individu, memungkinkan mereka untuk melindungi privasi mereka dan menghindari keterbatasan bank yang tersentralisasi. Eksplorasinya terhadap adopsi Bitcoin di tempat-tempat seperti El Salvador menyoroti bagaimana teknologi ini dapat memberdayakan orang-orang di pasar negara berkembang untuk mendapatkan kemandirian finansial.
 
 
 ### Signifikansi global dan tantangan Bitcoin

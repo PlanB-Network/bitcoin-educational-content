@@ -1,0 +1,9 @@
+question: What is the outgoing liquidity of a Lightning node?
+answer: Ability to pay
+wrong_answers:
+  - Ability to connect
+  - Capacity to receive
+  - Ability to close channels
+explanation: |
+  Outgoing liquidity represents the sats available on the operator's side to make payments.
+reviewed: false

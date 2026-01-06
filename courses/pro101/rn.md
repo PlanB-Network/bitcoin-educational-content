@@ -11,7 +11,7 @@ objectives:
 
 Ni iki gikenewe kugira ngo wubake kuri Bitcoin? Iri somo ry'amasaha 20 rigukurikiza munsi y'ubuso bwa Bitcoin na Lightning Network, ukamenya protocole zikorera ibikorwa remezo by'imari bikomeye cyane ku isi. Waba ushaka kugira uruhare mu mishinga ifunguye cyangwa kubaka icyiciro gikurikira cy'porogaramu za Bitcoin, uzabona ubujyakuzimu bukomeye bukenewe kugira ngo utangire gukora witonze muri iyi ecosystem.
 
-Yafashwe mu gihe cya bootcamp ya CUBO+ 2023 muri El Salvador, iri somo rihuza ibitekerezo by'abatunganyabikorwa ba Bitcoin bakomeye n'abarimu bagize ikoranabuhanga. Igice cyiza cyane? Ni ubuntu rwose, bishobokaye biturutse kuri Fulgure Venture, Bitcoin Office na DecouvreBitcoin. Niba waba wari ufite amatsiko yo kumenya uko Bitcoin ikora mu rwego rwa protocole, iyi ni amahirwe yawe yo kubimenya.
+Yafashwe mu gihe cya bootcamp ya CUBO+ 2023 muri El Salvador, iri somo rihuza ibitekerezo by'abatunganyabikorwa ba Bitcoin bakomeye n'abarimu bagize ikoranabuhanga. Igice cyiza cyane? Ni ubuntu rwose, bishobokaye biturutse kuri Fulgure Ventures, Bitcoin Office na DecouvreBitcoin. Niba waba wari ufite amatsiko yo kumenya uko Bitcoin ikora mu rwego rwa protocole, iyi ni amahirwe yawe yo kubimenya.
 +++
 # Intangamarara n'amashure yo kwitegura
 
@@ -59,7 +59,7 @@ Mu gihe cose c’amashure, abazoja muri iyo nyigisho bazokoresha ibikoresho nyam
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Murakaze mu nyigisho ya mbere y'iporogarama y'inyigisho **Cubo Plus**. Uyu musi, turiko turisuka mw'isi ya Bitcoin, iyobowe na Ricky, uwashinze **Podcast ya Bitcoin y'Italiyano**. Ricky ni umunyagihugu akunda cane uburenganzira bwa muntu, akoresha Bitcoin nk’igikoresho co kurinda no guteza imbere uburenganzira bwa muntu. Ricky afise ubumenyi burenga imyaka itandatu, yaragize ingendo nyinshi, yandika ivyerekeye kwemera Bitcoin mu masoko ariko aratera imbere nka El Salvador na Guatemala. Ibikorwa vyiwe birenze gukora podcast; arakora kandi kuri YouTube (**Abashakashatsi ba Bitcoin**) no kuri Twitter (**Abashakashatsi ba BTC**, **Ricky6**). Commitment gushika kuri Bitcoin ya Ricky ikomoka ku ciyumviro ciwe c’uko itanga umwidegemvyo w’ivy’amahera n’ubuzima bwite, igatera ingorane uburyo bwa kera, bushingiye ku mabanki.
+Murakaze mu nyigisho ya mbere y'iporogarama y'inyigisho **Cubo Plus**. Uyu musi, turiko turisuka mw'isi ya Bitcoin, iyobowe na Rikki, uwashinze **Podcast ya Bitcoin y'Italiyano**. Rikki ni umunyagihugu akunda cane uburenganzira bwa muntu, akoresha Bitcoin nk’igikoresho co kurinda no guteza imbere uburenganzira bwa muntu. Rikki afise ubumenyi burenga imyaka itandatu, yaragize ingendo nyinshi, yandika ivyerekeye kwemera Bitcoin mu masoko ariko aratera imbere nka El Salvador na Guatemala. Ibikorwa vyiwe birenze gukora podcast; arakora kandi kuri YouTube (**Abashakashatsi ba Bitcoin**) no kuri Twitter (**Abashakashatsi ba BTC**, **Rikki6**). Commitment gushika kuri Bitcoin ya Rikki ikomoka ku ciyumviro ciwe c’uko itanga umwidegemvyo w’ivy’amahera n’ubuzima bwite, igatera ingorane uburyo bwa kera, bushingiye ku mabanki.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Iyi nyigisho, **"Igituma El Salvador ikeneye Bitcoin,"** itanga icegeranyo c'ama
 - _Ugushiramwo ivy'amafaranga:_ Gutanga uburyo bwo kuronka ubufasha bw'ivy'amafaranga abantu baciwe mu mice ya kera y'amabanki, akenshi bitwa "abatagira amabanki."
 - _Amahera atagenzuwe:_ Amahera adashobora kugenzurwa canke guhagarikwa n'intwaro canke ibigo vy'imari.
 
-#### Amateka ya Ricky n'ubuvugizi bwa Bitcoin
+#### Amateka ya Rikki n'ubuvugizi bwa Bitcoin
 
 
-Urugendo rwa Ricky rwo kwinjira muri Bitcoin rushingiye ku gikorwa ciwe co kuburanira uburenganzira bwa muntu. Yemera ko Bitcoin ishobora gutuma abantu bashobora kugenzura amafaranga yabo, bikabafasha kurinda ubuzima bwite bwabo no kwirinda imipaka y’amabanki akomeye. Ivyo yatohoje ku bijanye n’ukuntu Bitcoin yemerwa mu bibanza nka El Salvador birerekana ingene ubu buhinga bushobora guha ubushobozi abantu bo mu masoko ariko aratera imbere kugira ngo bashobore kwigenga mu vy’amahera.
+Urugendo rwa Rikki rwo kwinjira muri Bitcoin rushingiye ku gikorwa ciwe co kuburanira uburenganzira bwa muntu. Yemera ko Bitcoin ishobora gutuma abantu bashobora kugenzura amafaranga yabo, bikabafasha kurinda ubuzima bwite bwabo no kwirinda imipaka y’amabanki akomeye. Ivyo yatohoje ku bijanye n’ukuntu Bitcoin yemerwa mu bibanza nka El Salvador birerekana ingene ubu buhinga bushobora guha ubushobozi abantu bo mu masoko ariko aratera imbere kugira ngo bashobore kwigenga mu vy’amahera.
 
 
 ### Insobanuro y’isi yose n’ingorane za Bitcoin

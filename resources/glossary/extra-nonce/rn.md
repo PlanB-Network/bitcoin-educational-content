@@ -1,5 +1,5 @@
 ---
-term: IVYO KWONGERAKO-Nonce.
+term: IVYO KWONGERAKO-Nonce
 ---
 
 Igikoresho gikoreshwa muri `scriptSig` ya Coinbase Transaction y'ibarabara, kigatuma habaho ubushobozi bwinshi bwo kugerageza kugira ngo hagire Hash iri hasi y'intumbero y'ingorane, ushizwmwo Nonce ya kera, iboneka ataco ihinduye mu mutwe w'ibarabara rimwe rimwe.

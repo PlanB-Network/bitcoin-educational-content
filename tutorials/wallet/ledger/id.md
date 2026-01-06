@@ -18,11 +18,11 @@ Dalam tutorial ini, kami juga membahas bagian passphrase, solusi keamanan lanjut
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Menghubungkan Ledger ke Sparrow Bitcoin Wallet (panduan penulisan)
+## Menghubungkan Ledger ke Sparrow Bitcoin Wallet (panduan penulisan)
 
 Pastikan Anda telah membaca bagian lainnya "Menggunakan Bitcoin Hardware Wallets" terlebih dahulu. Saya akan melewati beberapa langkah dan lebih fokus pada apa yang spesifik untuk Ledger di sini.
 
-## Menyiapkan perangkat
+### Menyiapkan perangkat
 
 Ledger dilengkapi dengan kabel USB sendiri. Pastikan Anda menggunakan itu dan bukan sembarang kabel lama. Beberapa kabel USB hanya untuk daya. Yang ini mentransmisikan data DAN daya. Ketika saya menggunakan perangkat dengan kabel USB pengisian ponsel yang tergeletak di sekitar, perangkat gagal terhubung.
 
@@ -49,7 +49,7 @@ Bagian selanjutnya sangat menjengkelkan. Ini mencampuradukkan 24 kata dan Anda h
 
 Anda akan melihat di dasbor Anda bahwa Anda memiliki tombol pengaturan, dan tombol tanda tambah yang memungkinkan Anda untuk menginstal aplikasi. Tapi Anda perlu terhubung ke Ledger Live terlebih dahulu. Kami akan melakukannya selanjutnya…
 
-## Unduh Ledger Live
+### Unduh Ledger Live
 
 Anda bisa mengunduh Ledger Live dari halaman web mereka, tetapi lebih baik mendapatkannya dari GitHub, di mana kode sumber disimpan.
 
@@ -89,7 +89,7 @@ Lihat output dari hash dan pastikan itu identik dengan yang dipublikasikan di Gi
 
 Idealnya, Anda ingin lebih teliti dan memastikan bahwa hash yang dipublikasikan tidak palsu. Kami melakukan ini dengan tanda tangan gpg, tetapi itu di luar cakupan artikel ini. Jika Anda ingin belajar tentang itu (dan saya sarankan Anda akhirnya melakukannya), maka telusuri artikel ini.
 
-## Terhubung ke Ledger Live
+### Terhubung ke Ledger Live
 
 Sebelum Anda menjalankan Ledger Live, membantu privasi sedikit untuk mengaktifkan VPN. Ledger masih akan mendapatkan semua alamat Anda, tetapi mereka tidak akan tahu alamat IP Anda, yang memberikan alamat rumah Anda. Mullvad VPN adalah layanan VPN yang sangat baik dan tidak terlalu mahal (saya tidak beriklan, itu hanya yang saya gunakan).
 
@@ -128,7 +128,7 @@ Ingat bahwa sebelumnya, di perangkat, kami memiliki tombol pengaturan dan tombol
 
 Anda dapat mematikan Ledger Live sekarang.
 
-## Tambahkan passphrase
+### Tambahkan passphrase
 Kini setelah kita memiliki Aplikasi Bitcoin, kita dapat menambahkan passphrase ke seed phrase kita. Kita tidak bisa melakukan itu sebelumnya ketika seed pertama kali dibuat karena pada awalnya, kita tidak memiliki Aplikasi Bitcoin, dan kita perlu terhubung ke Ledger Live untuk mendapatkannya.
 
 Pergi ke menu "settings" di dalam perangkat, kemudian submenu "security". Kemudian pilih passphrase. Anda akan melihat "Advanced feature". Klik tombol kanan, Anda akan melihat "read manual..." dan kemudian setelah klik tombol kanan lagi, Anda akan melihat "back". Tapi itu bukan akhirnya. Secara intuitif, Anda mungkin berpikir itu sudah selesai, tapi klik tombol kanan lagi. Anda akan melihat "set up passphrase".
@@ -141,7 +141,7 @@ Ini akan meminta Anda untuk "Current PIN". Ini bukan PIN yang Anda asosiasikan d
 
 Anda sekarang dapat keluar ke menu utama dengan memilih opsi kembali beberapa kali.
 
-## Mengawasi Dompet
+### Mengawasi Dompet
 
 Dalam artikel sebelumnya, saya menjelaskan cara mengunduh dan memverifikasi Sparrow wallet, dan cara menghubungkannya ke node Anda sendiri, atau node publik. Anda harus mengikuti panduan ini:
 
@@ -185,7 +185,7 @@ Setelah jeda, sementara komputer berpikir, Anda akan melihat tombol di sebelah k
 
 ![image](assets/21.webp)
 
-## Menerima
+### Menerima
 
 Untuk menerima beberapa bitcoin, pergi ke tab Alamat di sebelah kiri dan pilih salah satu alamat untuk menerima. Cukup klik kanan alamat yang Anda inginkan, dan pilih "salin alamat". Kemudian pergi ke bursa tempat uang dikirim dari dan tempelkan di sana. Atau Anda dapat memberikan alamat tersebut kepada pelanggan yang dapat menggunakannya untuk membayar Anda.
 
@@ -193,7 +193,7 @@ Ketika Anda menggunakan dompet untuk pertama kalinya, Anda harus menerima jumlah
 
 Setelah Anda melakukan itu, Anda harus mencadangkan kata-kata yang Anda tulis. Satu salinan saja tidak cukup. Miliki setidaknya dua salinan kertas (logam lebih baik), dan simpan di dua lokasi yang berbeda dan aman. Ini mengurangi risiko bencana alam menghancurkan HWW dan cadangan kertas Anda dalam satu insiden. Lihat "Menggunakan Dompet Perangkat Keras Bitcoin" untuk diskusi lengkap tentang ini.
 
-## Mengirim
+### Mengirim
 
 ![image](assets/22.webp)
 
@@ -203,11 +203,11 @@ Dompet tidak dapat menandatangani transaksi kecuali HWW terhubung. Itulah tugas 
 
 Perhatikan juga jika Anda memilih untuk menggunakan koin yang lebih besar dari jumlah pembayaran, maka sisanya akan dikirim kembali ke salah satu alamat perubahan dompet Anda. Beberapa orang tidak mengetahui hal ini, dan melihat transaksi mereka di blockchain publik, dan berpikir bahwa beberapa bitcoin dikirim ke alamat penyerang, tetapi sebenarnya, itu adalah alamat perubahan mereka sendiri.
 
-## Firmware
+### Firmware
 
 Untuk memperbarui firmware, Anda perlu terhubung ke Ledger Live. Jika Anda ingin melakukan ini, Anda harus menghapus perangkat terlebih dahulu, dan pastikan Anda memiliki kata-kata cadangan dan frasa sandi Anda tersedia untuk mengembalikan perangkat. Alasan saya lebih suka menghapus perangkat terlebih dahulu adalah bahwa Anda harus menghubungkan perangkat Anda ke Ledger Live untuk memperbarui firmware, dan saya lebih suka tidak memaparkan dompet baru Anda (yang dengan frasa sandi) ke Ledger Live, sama sekali. Saya hanya tidak percaya Ledger tidak mengekstrak informasi kunci publik saya dari perangkat saat saya terhubung ke Ledger Live. Mereka mengklaim mereka tidak melakukannya, tetapi saya tidak dapat memverifikasi itu sendiri kecuali saya membaca kode, dan memahami perangkat keras internal juga.
 
-## Kesimpulan
+### Kesimpulan
 Artikel ini menunjukkan kepada Anda cara menggunakan Ledger HWW dengan cara yang lebih aman dan lebih privat daripada yang diiklankan - tetapi artikel ini saja tidak cukup. Seperti yang saya katakan di awal, Anda harus menggabungkannya dengan informasi yang disediakan dalam "Menggunakan Dompet Perangkat Keras Bitcoin". Tips:
 
 Alamat Lightning Statis: dandysack84@walletofsatoshi.com

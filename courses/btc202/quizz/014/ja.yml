@@ -1,9 +1,9 @@
-question: 2009年のBitcoinのオリジナルソフトは何を組み合わせたのですか？
-answer: Wallet、ボウ、マイナー
+question: 2009年のオリジナルのビットコイン・ソフトウェアは、何を組み合わせていましたか？
+answer: ウォレット、ノード、マイナー
 wrong_answers:
-  - ノード、Miner、Block explorer
-  - Wallet、チョッパー、Miner
-  - MinerとMining pool
+  - ノード、マイナー、ブロック・エクスプローラー
+  - ウォレット、チョッパー（Chopper）、Miner
+  - マイナーとマイニングプール
 explanation: |
-  オリジナルのBitcoinは、Wallet、node、Minerの機能を1つのプログラムに統合したもの。
+  オリジナルのビットコイン・ソフトウェアは、ウォレット、ノード、マイニングの機能を単一のプログラムに統合していました。
 reviewed: true

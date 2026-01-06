@@ -18,11 +18,11 @@ En este tutorial, también discutiremos la sección de frases de contraseña, un
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Conectar Ledger a Sparrow Bitcoin Wallet (guía de escritura)
+## Conectar Ledger a Sparrow Bitcoin Wallet (guía de escritura)
 
 Asegúrate de leer primero la otra parte "Usando billeteras de hardware de Bitcoin". Repasaré algunos pasos y me centraré principalmente en lo que es específico de Ledger aquí.
 
-## Configuración del dispositivo
+### Configuración del dispositivo
 
 El Ledger viene con su propio cable USB. Asegúrate de usar ese y no cualquier otro cable viejo. Algunos cables USB solo transmiten energía. Este transmite datos Y energía. Cuando he usado el dispositivo con un cable USB de carga de teléfono que tenía por ahí, el dispositivo no se ha conectado.
 
@@ -49,7 +49,7 @@ La siguiente parte es muy molesta. Mezcla las 24 palabras y debes confirmar cada
 
 Verás en tu panel que tienes un botón de configuración y un botón de signo más que te permite instalar aplicaciones. Pero primero necesitas conectarte a Ledger Live. Haremos eso a continuación...
 
-## Descargar Ledger Live
+### Descargar Ledger Live
 
 Podrías descargar Ledger Live desde su página web, pero es mejor obtenerlo de GitHub, donde se guarda el código fuente.
 
@@ -88,7 +88,7 @@ Mira la salida del hash y asegúrate de que sea idéntica a la publicada en GitH
 
 Idealmente, quieres ser un poco más sofisticado y asegurarte de que los hashes que se publican no sean falsos. Hacemos esto con firmas gpg, pero está fuera del alcance de este artículo. Si quieres aprender sobre eso (y te sugiero que eventualmente lo hagas), entonces lee este artículo.
 
-## Conéctate a Ledger Live
+### Conéctate a Ledger Live
 
 Antes de ejecutar Ledger Live, ayuda un poco a la privacidad activar una VPN. Ledger seguirá obteniendo todas tus direcciones, pero no conocerán tu dirección IP, que revela tu dirección de casa. Mullvad VPN es un excelente servicio de VPN y no es muy caro (no estoy haciendo publicidad, es solo lo que uso).
 
@@ -127,7 +127,7 @@ Recuerda que antes, en el dispositivo, teníamos un botón de configuración y u
 
 Puedes cerrar Ledger Live ahora.
 
-## Agregar una frase de contraseña'
+### Agregar una frase de contraseña'
 
 Ahora que tenemos la aplicación de Bitcoin, podemos agregar una frase de contraseña a nuestra frase de recuperación. Antes no podíamos hacerlo cuando se creó la frase de recuperación porque al principio no teníamos la aplicación de Bitcoin y necesitábamos conectarnos a Ledger Live para obtenerla.
 
@@ -141,7 +141,7 @@ Te pedirá el "PIN actual". Este no es el PIN que estás asociando con la nueva 
 
 Ahora puedes salir al menú principal seleccionando la opción de retroceso varias veces.
 
-## Observando la billetera
+### Observando la billetera
 
 En artículos anteriores, expliqué cómo descargar y verificar la billetera Sparrow, y cómo conectarla a tu propio nodo o a un nodo público. Debes seguir estas guías:
 
@@ -187,7 +187,7 @@ Después de una pausa, mientras la computadora piensa, verás que los botones de
 
 ![image](assets/21.webp)
 
-## Recepción
+### Recepción
 
 Para recibir bitcoins, ve a la pestaña "Direcciones" a la izquierda y elige una de las direcciones para recibir. Haz clic derecho en la dirección que desees y selecciona "copiar dirección". Luego ve a tu exchange desde donde se enviará el dinero y pégalo allí. O puedes darle la dirección a un cliente que pueda usarla para pagarte.
 
@@ -195,7 +195,7 @@ Cuando uses la billetera por primera vez, deberías recibir una cantidad muy peq
 
 Una vez que hagas eso, debes hacer una copia de seguridad de las palabras que anotaste. Una sola copia no es suficiente. Ten al menos dos copias en papel (mejor si es de metal) y guárdalas en dos ubicaciones diferentes y seguras. Esto reduce el riesgo de que un desastre natural destruya tu HWW y la copia de seguridad en papel en un solo incidente. Consulta "Usar billeteras de hardware de Bitcoin" para obtener una discusión completa sobre esto.
 
-## Envío
+### Envío
 
 ![image](assets/22.webp)
 
@@ -205,11 +205,11 @@ La billetera no puede firmar la transacción a menos que el HWW esté conectado.
 
 También presta atención de que si eliges usar una moneda que sea mayor que el monto del pago, el resto se enviará de vuelta a una de las direcciones de cambio de tus billeteras. Algunas personas no sabían esto y buscaron su transacción en una cadena de bloques pública, y pensaron que se enviaron bitcoins a la dirección de un atacante, pero en realidad era su propia dirección de cambio.
 
-## Firmware
+### Firmware
 
 Para actualizar el firmware, debes conectarte a Ledger Live. Si deseas hacer esto, debes borrar el dispositivo primero y asegurarte de tener tus palabras de respaldo y frase de contraseña disponibles para restaurar el dispositivo. La razón por la que prefiero borrar el dispositivo primero es que debes conectar tu dispositivo a Ledger Live para actualizar el firmware, y prefiero no exponer tu nueva billetera (la que tiene la frase de contraseña) a Ledger Live, nunca. Simplemente no confío en que Ledger no extraiga mi información de clave pública del dispositivo cuando me conecto a Ledger Live. Ellos afirman que no lo hacen, pero no puedo verificarlo por mí mismo a menos que lea el código y comprenda el hardware interno también.
 
-## Conclusión
+### Conclusión
 
 Este artículo te mostró cómo usar un HWW de Ledger de una manera más segura y privada de lo anunciado, pero este artículo solo no es suficiente. Como dije al principio, debes combinarlo con la información proporcionada en "Usar billeteras de hardware de Bitcoin".
 Consejos:

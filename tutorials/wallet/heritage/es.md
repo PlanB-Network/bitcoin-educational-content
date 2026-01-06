@@ -1,5 +1,5 @@
 ---
-name: Patrimonio
+name: Heritage
 description: Una cartera Bitcoin con mecanismo de herencia integrado mediante guiones Taproot
 ---
 

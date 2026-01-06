@@ -1,9 +1,9 @@
-question: Ni uruhe rutonde rwihariye kubera ubuhinga bwarwo bufunguye, bushingiye ku kibano?
+question: Ni sisiteme iyahe iza imbere y’izindi kubw’ikigereranyo cayo gishingiye ku muryango wagutse, kandi kikaba isoko y’uguruye(open-source)?
 answer: GNU/Linux
 wrong_answers:
-  - Amadirisha
-  - MacOS
-  - OS ya Chrome
+  - Windows
+  - macOS
+  - Chrome OS
 explanation: |
-  GNU/Linux ni ubuntu kandi yateguwe n’umuryango w’isi yose, itanga icemezo c’uguseruka, umutekano n’uguhinduranya ku mukoresha.
-reviewed: false
+  GNU/Linux ni ubuntu kandi yateguwe n’umuryango wagutse kw’isi yose, itanga icemezo c’ugukorera mu muco, umutekano n’uburenganzira busesuye ku mukoresha.
+reviewed: true

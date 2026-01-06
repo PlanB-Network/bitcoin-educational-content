@@ -56,7 +56,7 @@ Na secção "You receive" (Recebe) - o grande quadrado com o logótipo Bitcoin -
 ### Passo 3: Introduzir o montante em VND e rever os detalhes da transação
 
 
-Introduza manualmente o montante que pretende trocar e utilize a ligação [limites diários] (https://bitcoinvn.io/info) ou os botões Mín/Máx. para verificar a sua capacidade, caso não tenha uma conta. O sistema calcula instantaneamente o montante final de BTC que irá receber depois de ter em conta as [taxas de troca](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) e a taxa de câmbio nesse momento específico. Reveja o montante final de BTC para ver se está satisfeito com o negócio.
+Introduza manualmente o montante que pretende trocar e utilize a ligação [limites diários](https://bitcoinvn.io/info) ou os botões Mín/Máx. para verificar a sua capacidade, caso não tenha uma conta. O sistema calcula instantaneamente o montante final de BTC que irá receber depois de ter em conta as [taxas de troca](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) e a taxa de câmbio nesse momento específico. Reveja o montante final de BTC para ver se está satisfeito com o negócio.
 
 
 #### Dicas
@@ -65,7 +65,7 @@ Introduza manualmente o montante que pretende trocar e utilize a ligação [limi
 Lembre-se que as **taxas de transação variam**, por isso verifique sempre o preço final antes de confirmar.
 
 
-**Não é necessária uma conta com** transacções diárias limitadas a VND 250.000 (~ USD $8). Estão disponíveis mais informações nas nossas [políticas de transferência bancária] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Não é necessária uma conta com** transacções diárias limitadas a VND 250.000 (~ USD $8). Estão disponíveis mais informações nas nossas [políticas de transferência bancária](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Atenção**: a taxa de rede é geralmente mais barata quando se escolhe o Lightning Network em comparação com o método de transação onchain.
@@ -128,7 +128,7 @@ Dê tempo para a confirmação (segundos no Lightning, minutos no on-chain). O V
 Agradecemos sinceramente as suas perguntas, pedidos e comentários sobre os nossos produtos e serviços.
 
 
-Para obter informações específicas, pode consultar a nossa Política de Recuperação de Activos [aqui] (https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) ou contactar-nos diretamente através de [Telegram] (https://t.me/bitcoinvn_community).
+Para obter informações específicas, pode consultar a nossa Política de Recuperação de Activos [aqui](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) ou contactar-nos diretamente através de [Telegram](https://t.me/bitcoinvn_community).
 
 
 À medida que a adoção de activos digitais se integra nas finanças globais, a **BitcoinVN** está estrategicamente posicionada para liderar o desenvolvimento da capacidade financeira internacional do Vietname. Fazemos a ponte entre as economias física e digital, combinando a liquidez global com a facilidade local. A nossa missão é democratizar o acesso seguro e fácil a uma gama abrangente de produtos de qualidade e serviços profissionais aqui mesmo no Vietname.
@@ -143,6 +143,6 @@ Incentivamo-lo vivamente a juntar-se à nossa comunidade e a manter-se atualizad
 - [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
 - [Facebook](https://www.facebook.com/www.bitcoinvn.io)
 - [X](https://x.com/Bitcoin_Vietnam) (antigo Twitter)
-- [TikTok] (https://www.tiktok.com/@bitcoinvn.io)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
 - [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
 - [Últimas notícias](https://bitcoinvn.io/news/)

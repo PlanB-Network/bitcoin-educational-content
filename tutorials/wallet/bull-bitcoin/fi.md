@@ -82,7 +82,7 @@ Täällä voimme määrittää lisäasetukset ennen wallet:n luomista tai palaut
 
 2. Aseta `Custom Electrum Server`, tai
 
-3. Säädä `Recover Bull` -asetuksia. Lisätietoja [Recover Bull] (https://recoverbull.com/) -asetuksista on myöhemmin.
+3. Säädä `Recover Bull` -asetuksia. Lisätietoja [Recover Bull](https://recoverbull.com/) -asetuksista on myöhemmin.
 
 
 Kun olet tehnyt kaikki valinnaiset säädöt, napauta `Done`. Jos haluat käyttää olemassa olevaa Wallet:tä uudelleen, napsauta `Recover Wallet` ja täytä 12 sanaa palautuslausetta.
@@ -276,7 +276,7 @@ Lisäksi sinulla on mahdollisuus:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Suoraan wallet:stä pääset [Bull Bitcoin-pörssiin] (https://www.bullbitcoin.com/), jonka avulla voit ostaa, myydä ja maksaa Bitcoin:tä poistumatta sovelluksesta. Tämä integraatio tarjoaa kätevän ratkaisun Bitcoin-tarpeidesi hallintaan. Huomaa, että pörssin ja sen palveluiden käyttöä voidaan rajoittaa lainkäyttöalueesi mukaan, ja Know Your Customer (KYC) -tarkistuksen suorittaminen voi olla tarpeen, jotta voit noudattaa sääntelystandardeja ja käyttää alustan kaikkia ominaisuuksia.
+Suoraan wallet:stä pääset [Bull Bitcoin-pörssiin](https://www.bullbitcoin.com/), jonka avulla voit ostaa, myydä ja maksaa Bitcoin:tä poistumatta sovelluksesta. Tämä integraatio tarjoaa kätevän ratkaisun Bitcoin-tarpeidesi hallintaan. Huomaa, että pörssin ja sen palveluiden käyttöä voidaan rajoittaa lainkäyttöalueesi mukaan, ja Know Your Customer (KYC) -tarkistuksen suorittaminen voi olla tarpeen, jotta voit noudattaa sääntelystandardeja ja käyttää alustan kaikkia ominaisuuksia.
 
 
 Pääset alkuun napauttamalla oikeassa alakulmassa olevaa `Exchange` ja sen jälkeen `Liitäydy` tai `Login` tilillesi.
@@ -560,7 +560,7 @@ Valitse Tervetuloa-näytöstä "Palauta Wallet". Valitse tällä kertaa `Fyysine
 Korkeimman turvallisuustason saavuttamiseksi monet Bitcoin-käyttäjät säilyttävät varansa "kylmäsäilytyksessä". Tämä tarkoittaa, että Bitcoin:aa ohjaavat yksityiset avaimet säilytetään laitteessa, joka ei ole koskaan yhteydessä internetiin. wallet (tai allekirjoituslaite) on fyysinen laite, joka on suunniteltu juuri tähän tarkoitukseen. Se toimii ikään kuin digitaalisena holvina avaimillesi ja varmistaa, etteivät ne ole koskaan alttiina verkossa olevan tietokoneen tai älypuhelimen mahdollisille uhkille.
 
 
-Yhdistämällä wallet-laitteiston Bull Bitcoin-sovellukseen saat molempien maailmojen parhaat puolet: yksityisten avainten tinkimättömän kylmävarastoinnin turvallisuuden yhdistettynä Bull Bitcoin wallet:n tehokkaisiin ominaisuuksiin ja käyttäjäystävälliseen käyttöliittymään saldojen tarkastelua ja tapahtumien hallintaa varten. Tässä viimeisessä luvussa näytämme, miten laitteistokäyttöinen wallet, kuten [Coldcard Q] (https://coldcard.com/q), liitetään Bull Bitcoin wallet:een. Tässä oppaassa ei käsitellä Coldcard Q:n käyttöönottoa perusteellisesti; voit tutustua siihen täällä:
+Yhdistämällä wallet-laitteiston Bull Bitcoin-sovellukseen saat molempien maailmojen parhaat puolet: yksityisten avainten tinkimättömän kylmävarastoinnin turvallisuuden yhdistettynä Bull Bitcoin wallet:n tehokkaisiin ominaisuuksiin ja käyttäjäystävälliseen käyttöliittymään saldojen tarkastelua ja tapahtumien hallintaa varten. Tässä viimeisessä luvussa näytämme, miten laitteistokäyttöinen wallet, kuten [Coldcard Q](https://coldcard.com/q), liitetään Bull Bitcoin wallet:een. Tässä oppaassa ei käsitellä Coldcard Q:n käyttöönottoa perusteellisesti; voit tutustua siihen täällä:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

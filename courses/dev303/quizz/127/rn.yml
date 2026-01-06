@@ -1,8 +1,0 @@
-question: Ni uwuhe mupaka w’ishimikiro w’ukwishurwa kwa Lightning Network urema ingorane idasanzwe ku bategura wallet itabaho n’ibikorwa vya on-chain Bitcoin?
-answer: Ivyishyurwa vy’umuravyo bibaho gusa nk’ibihugu vy’igihe gito mu nzira z’ukwishyura kandi ntivyandikwa ubudasiba kuri blockchain, bisaba uburyo bwo gukurikirana amateka y’ukwishyura
-wrong_answers:
-  - Ivyishyurwa vy’umuravyo bisaba cane cane ubuhinga bwo gukoresha ubuhinga bwa none kuruta ubuhinga bwa on-chain, bikaba bituma ugushirwa mu ngiro kwa telefone ngendanwa bikoresha ubuhinga bwinshi
-  - Ivyishyurwa vy’umuravyo ntibishobora kugenzurwa mu buryo bw’ibanga nk’uko bigenda ku bikorwa vya on-chain, bikaba bituma habaho ingorane z’umutekano ku bijanye n’ugushirwa mu ngiro kwa wallet .
-  - Ivyishyurwa vy’umuravyo bitegerezwa gukorwa biciye ku nzira zitandukanye, bikaba bidashoboka kubungabunga vy’ukuri ubwubatsi bwa wallet butagiramwo ububiko .
-explanation: |
-  Inyishu ibereye yerekana itandukaniro nyamukuru ry’ubwubatsi hagati y’amahera y’umuravyo n’ay’amahera ya on-chain. Ivy’ugucuruza ku ruzitiro rwa Bitcoin birandikwa ubudasiba kuri blockchain, bikaba bituma gutora amateka y’ukwishyura bigororotse biciye ku bibazo vya blockchain. Ivyishyurwa vy’umuravyo, ariko, bibaho gusa nk’ibihugu vy’imirongo y’igihe gito kandi ntibisigarana inyandiko ihoraho ya blockchain, bikaba bihatira abahinguzi gushiramwo uburyo bwo gukurikirana no kubika. Inyishu zitari zo ntizibereye kubera ko: Ivyishyurwa vy’umuravyo birakora neza mu vy’ubuhinga bw’ibarabara (ntibikoresha ubutunzi bwinshi), bigumya umutekano w’ubuhinga bwa none nk’ubwa Bitcoin, kandi inzira y’ugutanga inzira irashirwa ahantu hamwe (ntiyishirwa ahantu hamwe).

@@ -1,9 +1,9 @@
 ---
-name: Skyddsrum
+name: Shelter
 description: Använd samma telefon för arbete och privatliv med Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

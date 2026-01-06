@@ -30,7 +30,7 @@ Welcome to this beginner-friendly programming course on SDKs. In this training, 
 
 The videos of the training will be available only in English for now and was part of a live seminar organized last October in Tuscany by Fulgure Venture. This training will focus on the first week only. The second half was targeted at RGB and can be found in the RGB course.
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 This training gives you the opportunity to develop your programming skills on the Lightning Network using Rust and various SDKs. It is designed for developers with a solid programming background who want to dive into Lightning Network-specific development. You’ll learn the basics of Rust, why it’s suitable for Bitcoin development, and then move on to hands-on implementation using specialized SDKs.
 

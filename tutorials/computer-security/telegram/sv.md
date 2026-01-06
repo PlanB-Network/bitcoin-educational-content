@@ -72,10 +72,10 @@ På nästa skärm kan du dubbelkolla det nummer du har angett. Om det är korrek
 Telegram är nu fullt fungerande på mobilen, vi kan gå vidare till de första grundläggande inställningarna.
 
 
-# Säkerhets- och sekretessinställningar
+## Säkerhets- och sekretessinställningar
 
 
-## Konfiguration av användarnamn
+### Konfiguration av användarnamn
 
 
 Telegram-användarnamnet - ibland också kallat "handtag" - är mycket mer än bara en fantasi. Handtaget är verkligen **unikt för varje användare**.
@@ -129,7 +129,7 @@ Det kan de inte, tack vare att användarnamnet är unikt.
 **Vad de kan göra är att visa ett "liknande" handtag, ändra något (en bokstav / nummer), så att endast ett noggrant öga tydligt kan se att det är en bedragare **. Var alltid uppmärksam på användarnamnet, så ser du att bedragare inte har ett lätt spel.
 
 
-## Integritet
+### Integritet
 
 
 En annan viktig försiktighetsåtgärd du kan vidta är att begränsa den information du lämnar ut från ditt nyskapade konto.
@@ -165,7 +165,7 @@ Det här är åtgärder som förhindrar att ditt telefonnummer avslöjas, så at
 Nu när ditt Telegram-konto är konfigurerat och du har fått lite integritet kan du börja använda det.
 
 
-## Lägga till kontakter och chattar
+### Lägga till kontakter och chattar
 
 
 Om ditt konto precis har skapats är det troligt att huvudsidan ser helt tom ut.
@@ -229,7 +229,7 @@ Som standard identifieras alla, från enskilda användare till tematiska kanaler
 ⚠️Attention: **undvik att gå med i grupper och kanaler utan att verifiera deras äkthet**. För att hitta den officiella Telegram-kanalen/gruppen för ett företag eller ämne som du vill följa, sök hjälp i avsnittet _Contacts_ på officiella webbplatser eller från mycket tillförlitliga källor.
 
 
-### Avancerade meddelandefunktioner
+#### Avancerade meddelandefunktioner
 
 
 Telegram låter dig använda unika avancerade funktioner när det gäller att utbyta meddelanden. Gå in i en chatt och klicka på bakgrunden, bredvid ett meddelande från en annan avsändare.
@@ -257,7 +257,7 @@ Du kan också bifoga stora filer och utbyta "tung" media på ett enkelt sätt, m
 ![image](assets/en/46.webp)
 
 
-### Personligt moln
+#### Personligt moln
 
 
 Bland de många otroliga funktionerna i Telegram finns det också ett personligt moln som - i skrivande stund - är ** obegränsat **.
@@ -285,7 +285,7 @@ Chatten visas i förgrunden, redo att användas.
 ***
 
 
-## Schemaläggning av meddelanden och tyst sändning
+### Schemaläggning av meddelanden och tyst sändning
 
 
 Andra användbara avancerade funktioner gör det möjligt att skicka meddelanden med respekt för mottagarnas integritet, välja mellan tyst sändning och schemalägga meddelandet vid lämpliga tidpunkter och dagar.
@@ -301,7 +301,7 @@ Allt du behöver göra är att skriva meddelandet, men istället för att skicka
 ![image](assets/en/48.webp)
 
 
-### Rensa telefonens cache
+#### Rensa telefonens cache
 
 
 En annan användbar praxis för att hålla din telefon igång effektivt är att rensa Telegram-cachen då och då. Beroende på hur många grupper och kanaler du följer, kan informationen och media som kommer från dessa källor faktiskt samlas i cacheminnet, vilket gör din telefon långsam.
@@ -350,7 +350,7 @@ På bilden nedan kan du se var du hittar den här inställningen.
 ![image](assets/en/28.webp)
 
 
-## Telegram skrivbord
+### Telegram skrivbord
 
 
 Telegram kan användas från din dator, så att det synkroniseras med kontot som visas på din telefon. Du kan välja att inte ladda ner applikationen och att bara använda den via webben. Den här versionen har dock begränsningar jämfört med den som körs på datorn, därför rekommenderar jag att du laddar ner och installerar den för att få ut det mesta av detta kraftfulla verktyg.
@@ -421,7 +421,7 @@ Ett meddelande på din telefon bekräftar att den nya enheten har lagts till på
 Speciellt är Telegram aktivt och användbart även på din stationära dator.
 
 
-### Gruppsamtal
+#### Gruppsamtal
 
 
 Om du är administratör eller ägare av en Telegram-grupp kan du starta ett samtal från själva gruppens meny. På så sätt kan du göra livestreaming med flera deltagare, spela in dem i ljud och video, dela dem eller använda dem för ändamål som utbildning.
@@ -433,7 +433,7 @@ I följande bild kan du se hur du startar ett gruppsamtal med Telegram-skrivbord
 ![image](assets/en/47.webp)
 
 
-### Slutliga överväganden
+#### Slutliga överväganden
 
 
 Nu när du har läst igenom den här handledningen är du helt kapabel att välja hur du använder Telegram utan att påverkas av det brus som genereras av hype från dess användare eller av mainstream. Du kan börja med ett milt tillvägagångssätt och sedan upptäcka hur du får ut det mesta av det, för dina personliga behov, den här meddelandeappen.

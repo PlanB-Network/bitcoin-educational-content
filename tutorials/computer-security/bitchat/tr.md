@@ -75,7 +75,7 @@ Android kullanıcılarının da alternatif seçenekleri var:
 
 
 
-- APK'yı doğrudan [GitHub Releases] (https://github.com/permissionlesstech/bitchat-android/releases) sayfasından indirin veya
+- APK'yı doğrudan [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) sayfasından indirin veya
 - Nostr uyumlu [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr) aracılığıyla yükleyin
 
 
@@ -282,7 +282,7 @@ Geohash kanalları, geleneksel ağ bağlantıları yerine `coğrafi konumlara` d
 ### #geohashes` nasıl çalışır?
 
 
-Sistem, [Geohash sistemi] (https://en.wikipedia.org/wiki/Geohash) kullanarak dünyayı ızgara karelere böler; burada hashteki her karakter daha fazla hassasiyeti temsil eder:
+Sistem, [Geohash sistemi](https://en.wikipedia.org/wiki/Geohash) kullanarak dünyayı ızgara karelere böler; burada hashteki her karakter daha fazla hassasiyeti temsil eder:
 
 
 

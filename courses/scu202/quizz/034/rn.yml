@@ -1,9 +1,9 @@
-question: Ni igiki ca mbere ukwiye gukora kugira ngo ushobore gukoresha mudasobwa yawe bwite?
-answer: Gushiraho ijambobanga rikomeye
+question: Ni igiki ca mbere ukwiye gukora kugira ngo ushobore gukoresha inyabwonko yawe bwite mu buryo butekanye?
+answer: Gushiraho ijambo ry’ibanga rikomeye ry’ikiganiro
 wrong_answers:
-  - Gushiramwo umugera
-  - Gutunganya uruhome rw'umuriro rwa UFW
-  - Gushoboza ububiko bwa disiki
+  - Gushiramwo porogarame ikingira umugera
+  - Gutunganya uruhome rw’umuriro (firewall) rwa UFW
+  - Guha ubushobozi bwo nyegeza amakuru disk
 explanation: |
-  Ijambobanga ry’ikiganiro ni ryo nzitizi ya mbere y’umutekano yo kubuza umuntu kwinjira mu mashine yawe ata wemerewe, imbere y’izindi ngingo z’inyongera.
-reviewed: false
+  Ijambo ry'ibanga ry’ikiganiro ni ryo nzitizi ya mbere y’umutekano yo kubuza umuntu ata vyemerewe kwinjira mu mashini yawe, imbere y’izindi ngingo z’inyongera.
+reviewed: true

@@ -46,7 +46,7 @@ Dalam tutorial ini, kita akan menggunakan ekstensi Alby di peramban Firefox dala
 
 
 
-Anda dapat menambahkan ekstensi Alby ke browser Anda dengan mengunjungi toko ekstensi [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) atau toko ekstensi [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Anda dapat menambahkan ekstensi Alby ke browser Anda dengan mengunjungi toko ekstensi [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) atau toko ekstensi [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

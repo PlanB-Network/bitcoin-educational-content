@@ -502,7 +502,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 在這方面，我們可以用密碼學和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
 

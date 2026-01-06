@@ -31,7 +31,7 @@ Unter den unterstützten Geldbörsen finden wir:
 
 
 
-Oder jeder wallet, der einen "Lightning Address" hat und eine Bolt11-Rechnung erzeugt. Geldbörsen, die generate eine Bolt12-Rechnung erzeugen, werden derzeit nicht unterstützt. Für weitere Informationen siehe die Definition von [Bolt] (https://planb.academy/resources/glossary/bolt).
+Oder jeder wallet, der einen "Lightning Address" hat und eine Bolt11-Rechnung erzeugt. Geldbörsen, die generate eine Bolt12-Rechnung erzeugen, werden derzeit nicht unterstützt. Für weitere Informationen siehe die Definition von [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 

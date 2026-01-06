@@ -1,0 +1,9 @@
+question: Why is the consumer profile easy to manage?
+answer: Little need for incoming liquidity
+wrong_answers:
+  - No channel required
+  - Little need for outgoing liquidity
+  - No need for backup
+explanation: |
+  Consumers don't need a lot of incoming liquidity, and outgoing payments naturally create some incoming liquidity without a complex strategy.
+reviewed: false

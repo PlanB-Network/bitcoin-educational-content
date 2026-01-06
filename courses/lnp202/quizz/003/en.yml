@@ -1,0 +1,9 @@
+question: Which of these Lightning operations requires the publication of an onchain transaction?
+answer: Channel opening
+wrong_answers:
+  - Lightning payment
+  - Multi-hop routing
+  - Mobile client connection
+explanation: |
+  The opening of a channel corresponds to a Bitcoin transaction published on the blockchain.
+reviewed: false

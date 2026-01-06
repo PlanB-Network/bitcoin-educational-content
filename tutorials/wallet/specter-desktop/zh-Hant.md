@@ -127,7 +127,7 @@ Specter Desktop 支援許多硬體錢包：Trezor、Ledger、BitBox02、Coldcard
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 對於 Coldcard，您需要透過 USB 連線或 microSD 卡從 wallet 硬體匯出公開金鑰。
 

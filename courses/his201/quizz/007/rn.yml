@@ -1,9 +1,9 @@
-question: Ni amafaranga ayahe ashingiye ku nzahabu n’ifeza yaremwe na Bernard von NotHaus mu 1998?
-answer:The Liberty Dollar
+question: "Ni amafaranga ayahe ashingiye ku nzahabu n'ifeza yaremwe na Bernard von NotHaus mu 1998?"
+answer: "The Liberty Dollar"
 wrong_answers:
-  - Liberty Reserve
-  - e-gold
-  - GoldMoney
+  - "Liberty Reserve"
+  - "e-gold"
+  - "GoldMoney"
 explanation: |
-  Aya mafaranga yaboneka mu biceri vy’ifeza no mu amahera y'impapuro, kandi guhera mu 2003, yaboneka mu buryo bwa digitale.
+  Aya mafaranga yaboneka mu biceri vy'ifeza no mu amahera y'impapuro, kandi guhera mu 2003, yaboneka mu buryo bwa digitale.
 reviewed: true

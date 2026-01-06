@@ -1,0 +1,9 @@
+question: What are the prerequisites for installing LND on Umbrel?
+answer: Synchronized Bitcoin node
+wrong_answers:
+  - Umbrel Premium account
+  - Existing Lightning channel
+  - Lightning address active
+explanation: |
+  LND relies on a 100% synchronized Bitcoin node, a prerequisite for its operation.
+reviewed: false

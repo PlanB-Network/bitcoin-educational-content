@@ -1586,7 +1586,7 @@ https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 - Решение за търговци аматьори: Swiss Bitcoin Pay
 
 
-https://planb.academy/tutorials/business/point-of-sale/swiss-биткойн-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 - Решение за големи организации или страстни биткойнери: BTCpay Server

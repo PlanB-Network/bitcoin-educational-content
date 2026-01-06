@@ -27,7 +27,7 @@ In diesem Tutorial zeigen wir Ihnen, wie Bitchat funktioniert und wie Sie es fü
 ## 🚀 Hauptmerkmale
 
 
-Bitchat ermöglicht Offline-Messaging durch diese [Funktionen] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Bitchat ermöglicht Offline-Messaging durch diese [Funktionen](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 
@@ -54,7 +54,7 @@ Mit dem Bitchat können Sie Telefone in der Nähe direkt über Bluetooth (wie fo
 Mit Bitchat können Sie auch ortsbezogenen Chat-Räumen beitreten, indem Sie das Nostr-Protokoll und "#geohashes" verwenden. Ein Geohash ist ein kurzer Code, wie z.B. "#u33d", der ein bestimmtes geografisches Gebiet repräsentiert, von einer einzelnen Nachbarschaft bis hin zu einer ganzen Stadt oder Region. Sie können sich in jeden Geohash-Chatraum auf der ganzen Welt "teleportieren", indem Sie einfach den entsprechenden Tag eingeben. Ihre Nachrichten werden über ein dezentrales Netzwerk von Relais gesendet, das Ihren genauen Standort schützt. Außerdem erhalten Sie jedes Mal, wenn Sie einem Geohash-Raum beitreten, eine neue, vorübergehende Identität, die Ihre ortsbezogenen Unterhaltungen zusätzlich schützt.
 
 
-Genauere technische Einzelheiten entnehmen Sie bitte dem [offiziellen Whitepaper] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Genauere technische Einzelheiten entnehmen Sie bitte dem [offiziellen Whitepaper](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Installation und Einrichtung
@@ -76,7 +76,7 @@ Android-Nutzer haben auch andere Möglichkeiten:
 
 
 - Lade die APK direkt von der [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) Seite herunter oder
-- Installation über den Nostr-kompatiblen [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
+- Installation über den Nostr-kompatiblen [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
 
 
 ![image](assets/en/01.webp)
@@ -146,7 +146,7 @@ Verwenden Sie das Menü "#Ortskanäle" (rechts vom Benutzernamen), um zwischen d
 
 
 - BLE Mesh***: Standard-Bluetooth-Modus (kein Internet, Reichweite von 10 bis 50 Metern)
-- #geohashes**: Internetfähige geografische Gemeinschaften mit [Nostr-Protokoll] (https://nostr.com/)
+- #geohashes**: Internetfähige geografische Gemeinschaften mit [Nostr-Protokoll](https://nostr.com/)
 
 
 Wenn Sie den Modus `#geohashes` wählen, integriert sich Bitchat in das Nostr-Protokoll, um geografische Gemeinschaften zu ermöglichen. Ihre Nachrichten werden an "dezentralisierte Nostr-Relais" statt an das Peer-to-Peer-Netzwerk von Bitchat weitergeleitet, was breitere, aber standortgefilterte Konversationen ermöglicht. Entscheidend ist, dass Ihre Bitchat-Identitätsschlüssel alle Nostr-Ereignisse kryptografisch signieren, um die Authentifizierung aufrechtzuerhalten, während Geohash-Tags (wie `#u4pruyd` für eine Nachbarschaft) Nachrichten auf den von Ihnen gewählten Präzisionsgrad filtern. Das bedeutet, dass Sie an lokalen Diskussionen teilnehmen können, ohne Ihre genauen Koordinaten preisgeben zu müssen, obwohl ein Internetzugang erforderlich ist.
@@ -282,7 +282,7 @@ Geohash-Kanäle ermöglichen gezielte Unterhaltungen, die auf "geografischen Sta
 ### Wie funktionieren `#geohashes`?
 
 
-Das System unterteilt die Welt in Rasterquadrate unter Verwendung des [Geohash-Systems] (https://en.wikipedia.org/wiki/Geohash), wobei jedes Zeichen in der Raute eine größere Genauigkeit darstellt:
+Das System unterteilt die Welt in Rasterquadrate unter Verwendung des [Geohash-Systems](https://en.wikipedia.org/wiki/Geohash), wobei jedes Zeichen in der Raute eine größere Genauigkeit darstellt:
 
 
 

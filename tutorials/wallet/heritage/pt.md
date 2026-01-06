@@ -82,7 +82,7 @@ Para os utilizadores avançados que preferem o terminal, a Heritage oferece uma 
 
 
 
-A documentação completa do CLI está disponível em [btc-heritage.com/heritage-cli] (https://btc-heritage.com/heritage-cli). Aqui encontrará instruções para descarregar, ligar ao serviço, criar carteiras (com Ledger ou chaves locais), gerir herdeiros e transacções.
+A documentação completa do CLI está disponível em [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli). Aqui encontrará instruções para descarregar, ligar ao serviço, criar carteiras (com Ledger ou chaves locais), gerir herdeiros e transacções.
 
 
 
@@ -102,7 +102,7 @@ O Heritage Desktop é uma aplicação gráfica com uma interface intuitiva que g
 
 
 
-Aceda a [btc-heritage.com] (https://btc-heritage.com) e clique em "Download application".
+Aceda a [btc-heritage.com](https://btc-heritage.com) e clique em "Download application".
 
 
 

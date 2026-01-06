@@ -1,8 +1,0 @@
-question: Batasan mendasar apa dari pembayaran Lightning Network yang menciptakan tantangan unik bagi pengembang wallet yang tidak ada pada transaksi on-chain Bitcoin?
-answer: Pembayaran kilat hanya ada sebagai status sementara dalam saluran pembayaran dan tidak dicatat secara permanen di blockchain, sehingga membutuhkan sistem pelacakan riwayat pembayaran khusus
-wrong_answers:
-  - Pembayaran Lightning membutuhkan lebih banyak sumber daya komputasi untuk diproses daripada transaksi on-chain, sehingga implementasi seluler membutuhkan sumber daya yang lebih besar
-  - Pembayaran Lightning tidak dapat diverifikasi secara kriptografis dengan cara yang sama seperti transaksi on-chain, sehingga menciptakan kerentanan keamanan untuk implementasi wallet
-  - Pembayaran Lightning harus diproses melalui node perutean terpusat, sehingga tidak mungkin untuk mempertahankan arsitektur wallet yang benar-benar non-kustodian
-explanation: |
-  Jawaban yang benar mengidentifikasi perbedaan arsitektur inti antara pembayaran Lightning dan on-chain. Transaksi Bitcoin on-chain dicatat secara permanen di blockchain, membuat pengambilan riwayat pembayaran menjadi mudah melalui kueri blockchain. Akan tetapi, pembayaran Lightning hanya ada sebagai status saluran sementara dan tidak meninggalkan catatan blockchain permanen, sehingga memaksa pengembang untuk mengimplementasikan sistem pelacakan dan penyimpanan khusus. Jawaban yang salah adalah salah karena: Pembayaran Lightning sangat efisien secara komputasi (tidak boros sumber daya), mereka menjaga keamanan kriptografi yang sama dengan Bitcoin, dan perutean terdesentralisasi (tidak terpusat).

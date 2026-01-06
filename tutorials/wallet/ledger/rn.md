@@ -25,13 +25,13 @@ Muri iyi nyigisho, turaganira kandi ku gice c’amajambo y’ibanga, umuti w’u
 v=_vsHNTLi8MQ
 
 
-# Huza Ledger na Sparrow Bitcoin Wallet (uburongozi bwo kwandika)
+## Huza Ledger na Sparrow Bitcoin Wallet (uburongozi bwo kwandika)
 
 
 Raba neza ko ubanza guca mu kindi gice “Gukoresha Amasakoshi y’Ivyuma vya Bitcoin”. Nzoca mu ntambwe zimwe zimwe maze nshire umutima cane ku vyo Ledger ivuga hano.
 
 
-## Gutegura igikoresho
+### Gutegura igikoresho
 
 
 Ledger izana n’umugozi wayo wa USB. Raba neza ko ukoresha ivyo atari umugozi wose wa kera gusa. Hariho intsinga za USB zikoreshwa n’amashanyarazi gusa. Iyi irungika amakuru n’ububasha. Iyo nkoresheje igikoresho gifise umugozi wa USB wo gushaja telefone uryamye hirya no hino, igikoresho carananiwe gukorana.
@@ -72,7 +72,7 @@ Igikurikira ni ikintu kibabaza cane. Ivanga amajambo 24 maze ubwirizwa kwemeza r
 Uzobona ku dashboard yawe ko ufise ubuto bwo guhindura, n’ubuto bwo gushiramwo ikimenyetso co kwongerako kigufasha gushiramwo porogarama. Ariko ukeneye kubanza kwifatanya na Ledger Live. Ivyo tuzobikora mu nyuma...
 
 
-## Kuvanaho Ledger Ubuzima
+### Kuvanaho Ledger Ubuzima
 
 
 Ushobora gukura Ledger Live kuri urubuga rwabo, ariko ni vyiza ko uyironka kuri GitHub, aho kode y’inkomoko ibikwa.
@@ -125,7 +125,7 @@ Raba igisohoka ca Hash maze urabe ko gisa n’ico casohowe kuri GitHub.
 Ivyiza ni uko ushaka kuronka ivyiza vyinshi kandi ukamenya neza ko ama hashes asohoka atari ay’ibinyoma. Ivyo tubikora dukoresheje imikono ya gpg, ariko biri hanze y’urugero rw’iyi ngingo. Niba ushaka kwiga ivyo (kandi ndagusavye amaherezo ubimenye), rero urabe muri iyi ngingo.
 
 
-## Huza na Ledger Ubuzima
+### Huza na Ledger Ubuzima
 
 
 Imbere yo gukoresha Ledger Live, birafasha ubuzima bwite gatoyi gufungura VPN. Ledger izoguma ironka amaderesi yawe yose, ariko ntibazomenya IP yawe Address, itanga inzu yawe Address. Mullvad VPN ni service nziza cane ya VPN kandi ntaco izimvye cane (sindiko ndamamaza, ni ivyo nkoresha gusa).
@@ -184,7 +184,7 @@ Nimwibuke yuko mbere, kuri iyo telefone, twari dufise ubuto bwo guhindura ibintu
 Ushobora gufunga Ledger Live ubu.
 
 
-## Wongereko passphrase
+### Wongereko passphrase
 
 
 Ubu ko dufise App ya Bitcoin, turashobora kwongerako passphrase ku nsiguro yacu ya seed. Ivyo ntitwari dushobora kubikora mbere igihe seed yaremwa ubwa mbere kuko mu ntango, ntitwari dufise Bitcoin App, kandi twari dukeneye kwifatanya na Ledger Live kugira ngo tuyironke.
@@ -205,7 +205,7 @@ Izogusaba “PIN y’ubu”. Iyi si PIN uriko urafatanya na passphrase nshasha. 
 Ubu ushobora gusohoka ukaja muri menyu nyamukuru mu guhitamwo uburyo bwo gusubira inyuma incuro nke.
 
 
-## Turaba Wallet
+### Turaba Wallet
 
 
 Mu ngingo za kera, narasiguye ingene wokura no kugenzura Sparrow wallet, n’ingene woyifatanya n’urudodo rwawe bwite, canke urudodo rwa bose. Ukwiye gukurikiza aya mabwirizwa:
@@ -277,7 +277,7 @@ Inyuma y’aho uhagaze, mu gihe orodinateri iriko iriyumvira, uzobona amabuto ar
 ![image](assets/21.webp)
 
 
-## Kwakira
+### Kwakira
 
 
 Kugira ngo uronke ama Bitcoin, genda ku rubuga rwitwa Addresses ruri ibubamfu maze uhitemwo imwe muri izo uzoronka. Fyonda gusa iburyo kuri Address ushaka, hanyuma uhitemwo “kopi Address”. Hanyuma ugende kuri Exchange yawe aho amahera ariko ararungikwa, uyamanikeyo. Canke woshobora guha Address umukiriya ashobora kuyikoresha kugira ngo akuhe amahera.
@@ -289,7 +289,7 @@ Iyo ukoresheje Wallet ku ncuro ya mbere, ukwiye kuronka amahera make cane, wimen
 Ivyo umaze kubikora, utegerezwa gushigikira amajambo wanditse. Kopi imwe gusa ntihagije. Nimugire n’imiburiburi kopi zibiri z’impapuro (ivyuma ni vyo vyiza kuruta), maze muzibike ahantu habiri hatandukanye, hakingiwe neza. Ivyo bigabanya ingorane z’ivyago vy’ivyaduka bishobora gusenyura HWW yawe n’impapuro zawe mu gihe kimwe. Raba “Gukoresha Amasakoshi y’Ivyuma vya Bitcoin” kugira ngo ubone ikiganiro cuzuye ku bijanye n’ivyo.
 
 
-## Kurungika
+### Kurungika
 
 
 ![image](assets/22.webp)
@@ -304,13 +304,13 @@ Wallet ntishobora gusinya iyo nzira kiretse HWW ihuye. Uwo ni wo murimo wa HWW �
 Kandi uzirikane ko niwahitamwo gukoresha Coin nini kuruta amahera y’ukwishura, rero amahera asigaye azosubirwamwo kuri imwe mu ma aderesi y’uguhindura amasakoshi yawe. Abantu bamwe ntibamenye ivyo, bararondera amafaranga yabo ku Blockchain ya bose, biyumvira ko hari Bitcoin yoherejwe ku Address y’abatera, ariko mu vy’ukuri, yari ihinduka ryabo bwite Address.
 
 
-## Porogaramu nshasha
+### Porogaramu nshasha
 
 
 Kugira ngo uhindure porogarama, ukeneye kwifatanya na Ledger Live. Niba ushaka kubikora, ukwiye kubanza guhanagura igikoresho, kandi ukamenya neza ko ufise amajambo yawe yo gusubiza inyuma be na passphrase kugira ngo ugarure igikoresho. Impamvu nkunda guhanagura igikoresho mbere ni uko utegerezwa gufatanya igikoresho cawe na Ledger Live kugira ngo uhindure firmware, kandi nkunda kudashira ahabona Wallet yawe nshasha (iyo ifise passphrase) kuri Ledger Live, ever. Ntaco nizigira ko Ledger itariko irakura amakuru yanje y’urufunguzo rwa bose ku gikoresho iyo nkoresheje Ledger Live. Bavuga ko batabikora, ariko jewe ubwanje sinshobora kubigenzura kiretse nsomye kode, kandi ntahura n’ibikoresho vyo mu mutima.
 
 
-## Iciyumviro
+### Iciyumviro
 
 
 Iyi nkuru yakweretse ingene wokoresha Ledger HWW mu buryo butekanye kandi bw’ibanga kuruta uko bwamamajwe – ariko iyi nkuru yonyene ntihagije. Nk’uko nabivuze mu ntango, ukwiye kubifatanya n’amakuru yatanzwe muri “Gukoresha Amasakoshi y’Ivyuma vya Bitcoin“.

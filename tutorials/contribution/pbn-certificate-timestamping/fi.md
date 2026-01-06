@@ -9,7 +9,7 @@ Jos luet tätä, on suuri todennäköisyys, että olet saanut joko Bitcoin-serti
 
 Tässä oppaassa käymme läpi, miten Plan B -verkko myöntää vahvistettavissa olevan todistuksen Bitcoin-sertifikaatistasi tai mistä tahansa kurssin suoritustodistuksesta. Toisessa osassa näemme, miten näiden todisteiden aitouden voi varmistaa.
 
-# Plan B -verkon todistusmekanismi
+## Plan B -verkon todistusmekanismi
 
 Plan ₿ -verkossa tarjoamme sinulle sertifikaatteja ja diplomeja, jotka on kryptografisesti allekirjoitettu meidän toimestamme ja aikaleimattu Timechainiin (eli Bitcoin-lohkoketjuun). Tämän saavuttamiseksi meidän piti kehittää todistusmekanismi, joka perustuu kahteen kryptografiseen toimenpiteeseen:
 
@@ -23,7 +23,7 @@ Uskomme, että tämä yksinkertainen todistusmekanismi mahdollistaa meidän myö
 
 Huomaa, että tämän todistusmekanismin ansiosta minkä tahansa sertifikaatin tai diplomin pieninkin yksityiskohdan muuttaminen luo täysin erilaisen sha256-tiivisteen allekirjoitetusta tiedostosta, mikä paljastaisi välittömästi manipuloinnin, koska allekirjoitus ja aikaleimaus eivät enää olisi päteviä. Lisäksi, jos joku yrittää pahantahtoisesti väärentää sertifikaatteja tai diplomeja Plan B -verkon nimissä, allekirjoituksen yksinkertainen varmistaminen paljastaisi petoksen.
 
-## Miten GPG-allekirjoitus toimii?
+### Miten GPG-allekirjoitus toimii?
 
 GPG-allekirjoitus saadaan käyttämällä avoimen lähdekoodin ohjelmistoa nimeltä GNU Private Guard. Tämä ohjelmisto mahdollistaa kenen tahansa luoda helposti yksityisiä avaimia, allekirjoittaa ja varmistaa allekirjoituksia sekä salata ja purkaa tiedostojen salauksen. Tämän oppaan tarkoituksessa tiedä, että Plan B -verkko käyttää GPG:tä luodakseen oman yksityisen/julkisen avaimensa ja allekirjoittaakseen minkä tahansa Bitcoin-sertifikaatin tai kurssin suoritustodistuksen.
 
@@ -31,14 +31,14 @@ Toisaalta, jos joku haluaa varmistaa allekirjoitetun tiedoston aitouden, hän vo
 
 Niille, jotka ovat uteliaita ja haluavat oppia lisää tästä fantastisesta ohjelmistosta, voitte viitata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Miten aikaleimaus toimii?
+### Miten aikaleimaus toimii?
 
 Kuka tahansa voi käyttää OpenTimestampsia aikaleimatakseen tiedoston ja saadakseen vahvistettavissa olevan todistuksen tiedoston olemassaolosta. Toisin sanoen, se ei tarjoa sinulle todistusta siitä, milloin tiedosto on luotu, vaan todistuksen olemassaolosta viimeistään tiettynä hetkenä.
 OpenTimestamps pystyy tarjoamaan tämän palvelun ilmaiseksi kiitos erittäin tehokkaan tavan tallentaa tällainen todiste Bitcoin-lohkoketjuun. Se käyttää tiedoston sha256-tiivistettä tiedoston yksilöllisenä tunnisteena ja rakentaa merkle-puun muiden käyttäjien toimittamien tiedostojen tiivisteistä ja ankkuroi vain Merkle-puun rakenteen tiivisteen OpReturn-transaktioon.
 Kun tämä transaktio on jossakin lohkossa, kuka tahansa alkuperäisen tiedoston ja siihen liittyvän `.ots`-tiedoston kanssa voi varmistaa aikaleiman aitouden. Tutoriaalin toisessa osassa näemme, miten voit varmistaa Bitcoin-sertifikaattisi tai minkä tahansa kurssin suoritustodistuksen aitouden terminaalin kautta ja graafisen käyttöliittymän kautta OpenTimestamps-verkkosivustolla.
-# Kuinka varmistaa Plan ₿ Academy -sertifikaatti tai -diplomi
+## Kuinka varmistaa Plan ₿ Academy -sertifikaatti tai -diplomi
 
-## Vaihe 1. Lataa sertifikaattisi tai diplomi
+### Vaihe 1. Lataa sertifikaattisi tai diplomi
 
 Kirjaudu henkilökohtaiseen Plan ₿ Academy-kojelautaasi.
 
@@ -58,7 +58,7 @@ Pura sisältö napsauttamalla oikealla `.zip`-tiedostoa ja valitsemalla "Pura". 
 - Avoin aikaleima (OTS) tiedosto (esim., certificate.txt.ots)
 - PDF-sertifikaatti (esim., certificate.pdf)
 
-## Vaihe 2: Tekstitiedoston allekirjoituksen varmistaminen
+### Vaihe 2: Tekstitiedoston allekirjoituksen varmistaminen
 
 Avaa ensin terminaali kansiossa, jossa tiedostot ovat (napsauttamalla kansioiden ikkunaa oikealla ja valitsemalla "Avaa terminaalissa"). Seuraa sitten alla olevia ohjeita
 
@@ -101,9 +101,9 @@ gpg: Hyvä allekirjoitus "Plan ₿ Academy (käytetään Plan ₿ Academy-alusta
 
 Jos näet viestin kuten "HUONO allekirjoitus", se tarkoittaa, että tiedostoa on muutettu.
 
-## Vaihe 3: Avoin aikaleiman varmistaminen
+### Vaihe 3: Avoin aikaleiman varmistaminen
 
-### Varmistaminen graafisen käyttöliittymän kautta
+#### Varmistaminen graafisen käyttöliittymän kautta
 
 1. Vieraile OpenTimestamps-verkkosivustolla: https://opentimestamps.org/
 2. Napsauta "Stamp & Verify" -välilehteä.
@@ -113,7 +113,7 @@ Jos näet viestin kuten "HUONO allekirjoitus", se tarkoittaa, että tiedostoa on
 
 Jos näet viestin kuten seuraava, aikaleimasi on voimassa:
 ![cover](assets/opentimestamp_wegui_verified.webp)
-### CLI-menetelmä
+#### CLI-menetelmä
 
 HUOM: tämä menettely **vaatii paikallisen Bitcoin-noden käynnissä olemisen**
 
@@ -137,7 +137,7 @@ Tämä komento:
 - Näyttää sinulle, milloin tiedosto on tarkalleen aikaleimattu
 - Vahvistaa aikaleiman aitouden
 
-### Lopputulokset
+#### Lopputulokset
 
 Huomaa, että vahvistus on onnistunut, jos **molemmat** viestit näytetään:
 

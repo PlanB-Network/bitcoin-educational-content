@@ -807,7 +807,7 @@ Heritage позволяет вам планировать преемственн
 
 
 
-- [Официальный сайт "Наследия"] (https://btc-heritage.com)
+- [Официальный сайт "Наследия"](https://btc-heritage.com)
 - [Документация CLI](https://btc-heritage.com/heritage-cli)
 - [GitHub Наследие CLI](https://github.com/crypto7world/heritage-cli)
 - [GitHub Heritage Desktop](https://github.com/crypto7world/heritage-gui)

@@ -3,7 +3,7 @@ name: White Noise
 description: Nostr 및 MLS 프로토콜을 기반으로 하는 비공개 분산형 메시징 애플리케이션
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

@@ -82,7 +82,7 @@ Terminali tercih eden ileri düzey kullanıcılar için Heritage, granüler kont
 
 
 
-CLI belgelerinin tamamına [btc-heritage.com/heritage-cli] (https://btc-heritage.com/heritage-cli) adresinden ulaşabilirsiniz. Burada indirme, hizmete bağlanma, cüzdan oluşturma (Ledger veya yerel anahtarlarla), varisleri ve işlemleri yönetme talimatlarını bulacaksınız.
+CLI belgelerinin tamamına [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli) adresinden ulaşabilirsiniz. Burada indirme, hizmete bağlanma, cüzdan oluşturma (Ledger veya yerel anahtarlarla), varisleri ve işlemleri yönetme talimatlarını bulacaksınız.
 
 
 

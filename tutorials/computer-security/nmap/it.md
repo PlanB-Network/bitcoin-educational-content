@@ -280,10 +280,9 @@ In questa sezione impareremo a eseguire le prime scansioni delle porte utilizzan
 
 D'ora in poi, ricordati di scansionare solo gli host in un ambiente controllato per i quali disponi di un'autorizzazione esplicita.
 
-- Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0)
-[art.167 bis - ter aggiornamento](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
+- Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0) e [art.167 bis - ter aggiornato](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
 
-**Se non ne avete uno a portata di mano**, vi consiglio le seguenti soluzioni gratuite, che fanno al caso vostro!
+**Se non ne avete uno a portata di mano**, ti consiglio le seguenti soluzioni gratuite, che fanno al caso tuo!
 
 - [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Piattaforma di addestramento all'hacking, Hack The Box mette costantemente a disposizione sistemi vulnerabili da attaccare come meglio credete. Sono disponibili diverse centinaia di sistemi, ma un pool rinnovato di 20 macchine è offerto gratuitamente tutto l'anno, con accesso tramite una VPN OpenVPN.
 
@@ -625,7 +624,7 @@ Come accennato nell'introduzione a Nmap, si tratta di un _Network Mapper_. Come 
 
 In effetti, come auditor e pentester di cybersecurity, utilizzo sistematicamente Nmap quando eseguo test di penetrazione interni per scoprire dove mi trovo, chi sono i miei vicini sulla rete locale e quali altre reti sono accessibili, nonché i sistemi che vi si trovano. Il mio obiettivo è semplice: mappare la rete, determinare le dimensioni del sistema informativo e, in particolare, delineare la sua superficie di attacco.
 
-La mappatura della rete può essere utile anche nel contesto della diagnostica di rete, della supervisione, della mappatura degli asset (siete davvero sicuri che il vostro IS sia costituito solo da ciò che è presente nell'Active Directory o nell'inventario GLPI/OCS? Può anche essere utilizzata per rilevare la presenza di Shadow IT nel vostro sistema informativo.
+La mappatura della rete può essere utile anche nel contesto della diagnostica di rete, della supervisione, della mappatura degli asset (sei davvero sicuro che il tuo IS sia costituito solo da ciò che è presente nell'Active Directory o nell'inventario GLPI/OCS? Può anche essere utilizzata per rilevare la presenza di Shadow IT nel tuo sistema informativo.
 
 ### II. Utilizzo di Nmap per la scansione di una rete
 
@@ -853,7 +852,7 @@ Nella prossima sezione, esamineremo i meccanismi e le opzioni per scoprire le ve
 
 In questa sezione impareremo a utilizzare Nmap per scoprire e rilevare con precisione le versioni dei servizi e dei sistemi operativi utilizzati dagli host sottoposti a scansione. Verrà dato uno sguardo dettagliato a come Nmap svolge questo compito e alle limitazioni dello strumento per comprendere e interpretare meglio i suoi risultati.
 
-Come abbiamo visto nelle sezioni precedenti di questa guida, per impostazione predefinita, Nmap non controlla quale servizio è esposto sulle porte che scansiona e considera aperte. Quindi, se si sta ascoltando un servizio web sulla porta TCP/22, Nmap continuerà a segnalarlo come aperto, ma come un servizio `SSH`. Questo perché utilizza un [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) locale al vostro sistema per cercare una relazione tra una porta/protocollo e il nome di un servizio (il file `/etc/services/`).
+Come abbiamo visto nelle sezioni precedenti di questa guida, per impostazione predefinita, Nmap non controlla quale servizio è esposto sulle porte che scansiona e considera aperte. Quindi, se si sta ascoltando un servizio web sulla porta TCP/22, Nmap continuerà a segnalarlo come aperto, ma come un servizio `SSH`. Questo perché utilizza un [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) locale al tuo sistema per cercare una relazione tra una porta/protocollo e il nome di un servizio (il file `/etc/services/`).
 
 Nella maggior parte dei casi, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) fornirà le informazioni corrette, poiché in un ambiente di produzione è raro trovare casi del genere. Tuttavia, i casi rimanenti sono situazioni in cui un servizio classico ([SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), HTTP, ecc.) è esposto su una porta non classica (ad esempio 2022 per un servizio SSH), nel qual caso Nmap non troverà una corrispondenza nel suo database locale, o una che non corrisponde alla realtà, e si perderanno informazioni importanti.
 
@@ -1006,7 +1005,7 @@ _Esempi di Probe a Rarity 8 e 9 nel file `/usr/share/nmap/nmap-service-probes`_
 
 Queste due _Probe_ rilevano i server di Quake1 e Quake2 (il videogioco). Interessanti per i nostalgici, ma difficilmente utili nella vita di tutti i giorni.
 
-A seconda delle vostre esigenze di precisione o velocità, ricordate che questo principio di "rarità" esiste e può influenzare il risultato.
+A seconda delle tue esigenze di precisione o velocità, ricorda che questo principio di "rarità" esiste e può influenzare il risultato.
 
 ### V. Uso di Nmap per rilevare i sistemi operativi
 
@@ -1111,7 +1110,7 @@ Ecco un comando che inizia ad assomigliare a casi d'uso più realistici di Nmap!
 
 ### IV. Comprendere i limiti di Nmap nella scansione delle vulnerabilità
 
-Sia chiaro: Nmap non è in grado di effettuare un test di penetrazione completo del vostro sistema informatico, né di simulare un'operazione di Red Team. Ha diverse limitazioni di cui dovete essere consapevoli se non volete avere un falso senso di sicurezza:
+Sia chiaro: Nmap non è in grado di effettuare un test di penetrazione completo del tuo sistema informatico, né di simulare un'operazione di Red Team. Ha diverse limitazioni di cui dovi essere consapevoli se non vuoi avere un falso senso di sicurezza:
 - **Copertura limitata**: sebbene gli script NSE di Nmap siano potenti, la loro copertura di test può essere limitata rispetto ad altri strumenti specializzati nella scoperta delle vulnerabilità. Alcune vulnerabilità potrebbero non essere coperte dagli script NSE disponibili, come le vulnerabilità di Active Directory, l'esposizione di dati sensibili o i casi più avanzati di applicazioni web vulnerabili.
 - **Complessità della vulnerabilità**: alcuni tipi di vulnerabilità possono essere difficili da rilevare con gli script NSE a causa della loro complessità. Ad esempio, le vulnerabilità che richiedono un'interazione complessa con un servizio remoto potrebbero non essere rilevate efficacemente da Nmap (come nel caso di permessi eccessivi in una condivisione di file o di una falla nel controllo dei permessi in un'applicazione web).
 - **Rilevamento passivo**: Nmap si concentra principalmente sulle scansioni attive per rilevare le vulnerabilità, il che significa che potrebbe non rilevare efficacemente le potenziali vulnerabilità senza stabilire una connessione attiva con gli host di destinazione. Le vulnerabilità che non si manifestano durante una scansione attiva possono quindi non essere rilevate (come nel caso di un'iniezione di codice in un'applicazione web).
@@ -1634,7 +1633,7 @@ Se normalmente Aquatone esegue il port discovery sugli host per trovare i serviz
 
 _Utilizza i risultati di Nmap in formato XML con `Aquatone`_
 
-Per vostra informazione, ecco un estratto del rapporto prodotto da Aquatone:
+Per tua informazione, ecco un estratto del rapporto prodotto da Aquatone:
 
 ![nmap-image](assets/fr/62.webp)
 
@@ -1648,7 +1647,7 @@ Anche in questo caso, avere un rapporto Nmap completo in formato XML consente di
 
 Questi due esempi mostrano chiaramente che il formato XML di Nmap facilita l'utilizzo dei risultati da parte di altri strumenti, in quanto si tratta di un formato di dati strutturato e facile da usare. Esistono molti altri strumenti in grado di elaborare questi risultati, come strumenti di reporting automatico, rappresentazioni grafiche o scanner di vulnerabilità proprietari più complessi.
 
-Naturalmente, potete anche sviluppare i vostri script e strumenti in Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) o qualsiasi altro linguaggio con una libreria di parsing XML per manipolare e riutilizzare i dati dei risultati di Nmap come meglio credete.
+Naturalmente, puoi anche sviluppare i tuoi script e strumenti in Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) o qualsiasi altro linguaggio con una libreria di parsing XML per manipolare e riutilizzare i dati dei risultati di Nmap come meglio credi.
 
 Questa sezione ci porta alla fine del modulo di esercitazione sull'uso più avanzato di Nmap, in particolare per la scansione delle vulnerabilità attraverso gli script NSE.
 
@@ -1755,7 +1754,7 @@ L'uso di Nmap all'interno di un sistema informatico può essere rapidamente clas
 
 ### II. Ottenere le autorizzazioni necessarie
 
-Prima di eseguire la scansione di una rete o di un sistema, accertarsi di aver ottenuto le autorizzazioni appropriate. La scansione dei sistemi alla ricerca di vulnerabilità (`NSE scripts`) senza autorizzazione può essere illegale e può avere conseguenze legali, soprattutto se la sicurezza dei sistemi informativi non rientra nei vostri compiti ufficiali.
+Prima di eseguire la scansione di una rete o di un sistema, accertarsi di aver ottenuto le autorizzazioni appropriate. La scansione dei sistemi alla ricerca di vulnerabilità (`NSE scripts`) senza autorizzazione può essere illegale e può avere conseguenze legali, soprattutto se la sicurezza dei sistemi informativi non rientra nei tuoi compiti ufficiali.
 
 - Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0)
 [art.167 bis - ter aggiornamento](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
@@ -2254,7 +2253,7 @@ nmap -sN 192.168.1.15
 nmap -sA 192.168.1.15
 ```
 
-Spero che questi comandi vi siano utili. Non dimenticate di adattare l'obiettivo delle scansioni al vostro contesto e di fare riferimento alla documentazione ufficiale per padroneggiare appieno i test eseguiti.
+Spero che questi comandi vi siano utili. Non dimenticare di adattare l'obiettivo delle scansioni al tuo contesto e di fare riferimento alla documentazione ufficiale per padroneggiare appieno i test eseguiti.
 
 ### III. Conclusione
 

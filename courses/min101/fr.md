@@ -400,9 +400,89 @@ Avec ce dernier chapitre, nous avons fait le tour du fonctionnement de la preuve
 
 # La distribution des récompenses de minage
 
-## La récompense de minage
+## La récompense de bloc
 
-- Comprendre la composition de la récompense de minage
+Vous vous en doutez sûrement : miner sur Bitcoin n’est pas une activité altruiste. Les mineurs ont des coûts bien réels : l’électricité pour faire tourner leurs ordinateurs qui minent, l'achat de matériel spécialisé, la masse salariale pour la maintenance, parfois des locaux et des systèmes de refroidissement refroidissement. Pour que le système Bitcoin fonctionne, il faut donc aligner l’intérêt privé des mineurs avec l’intérêt collectif du réseau. C’est exactement le rôle de la récompense de minage. Elle incite les mineurs à investir dans la preuve de travail, à inclure des transactions valides, et à respecter les règles du protocole plutôt que de tenter de le corrompre.
+
+Cette logique relève de la théorie des jeux : le protocole rend l’honnêteté rationnelle. Un mineur gagne de l’argent lorsqu’il produit un bloc valide accepté par les nœuds. À l’inverse, s'il essaie de tricher, son bloc sera rejeté par les nœuds, et il n’obtiendra rien. Comme produire un bloc a un coût, un bloc rejeté représente une perte sèche. Dans un environnement concurrentiel où des milliers d’acteurs cherchent simultanément un bloc valide, la stratégie la plus rentable, la plupart du temps, consiste donc à suivre strictement les règles et à maximiser son revenu de manière honnête.
+
+Pour ce faire, le protocole Bitcoin prévoit que le mineur qui trouve un bloc valide remporte le droit d’y inclure une transaction particulière qui lui attribue une certaine somme de BTC. C'est ce que l'on appelle **la récompense de bloc**. Dans ce premier chapitre, l’objectif est de comprendre de quoi elle est composée et comment elle est déterminée. Nous verrons plus tard comment la partie création monétaire évolue au fil du temps (avec les halvings) et comment elle est effectivement récupérée techniquement (via la transaction coinbase).
+
+### De quoi se compose la récompense de bloc ?
+
+Dans les chapitres précédents, nous avons vu comment les mineurs parviennent à trouver un bloc valide. Une fois qu’un mineur a trouvé une entête dont le hash est inférieur à la cible, son bloc candidat est considéré comme valide. Il peut alors le diffuser à l’ensemble du réseau Bitcoin. Le bloc est ajouté à la suite de la blockchain et permet de confirmer les transactions qu’il contient. C’est précisément cet événement (l’ajout effectif du bloc à la blockchain) qui déclenche l’attribution d’une récompense au mineur gagnant. Cette récompense se compose de deux éléments distincts que l'on additionne :
+- **la subvention de bloc** ;
+- **les frais de transaction**.
+
+Voyons ensemble à quoi correspondent ces deux parties de la récompense.
+
+### La subvention de bloc
+
+La subvention de bloc correspond à la partie création monétaire de la récompense. Lorsqu’un mineur produit un bloc valide, le protocole l’autorise à créer un certain nombre de nouveaux bitcoins et à se les attribuer comme rémunération. Ces bitcoins sont créés ex nihilo. Ils n’existaient pas auparavant.
+
+Toutefois, la quantité de bitcoins nouvellement créés n’est absolument pas arbitraire. Elle est strictement définie par les règles du protocole Bitcoin et identique pour tous les mineurs. Nous détaillerons ce mécanisme dans le chapitre suivant, car la subvention n’est pas une valeur fixe indéfiniment : elle est divisée périodiquement selon un calendrier précis. Pour l’instant, retenez simplement que :
+- la subvention de bloc constitue une des deux composantes de la récompense de bloc ;
+- elle est plafonnée et déterminée par le protocole, et non par le mineur (même si le mineur peut techniquement demander moins que le montant prévu) ;
+- elle crée des bitcoins à partir de rien.
+
+Cette subvention joue principalement deux rôles au sein du protocole Bitcoin. Le premier est d’inciter les acteurs à participer au minage. Durant les premières années de Bitcoin (et c’est encore parfois le cas aujourd’hui) les frais de transaction étaient très faibles. La subvention garantissait donc une rémunération suffisante pour attirer des mineurs et maintenir un niveau de sécurité pour le système.
+
+Le second rôle est lié à la distribution de la monnaie. Toute nouvelle monnaie fait face à une question : comment distribuer les unités monétaires de manière juste ? La subvention de bloc apporte une réponse juste à ce problème. En créant des bitcoins via le minage, elle permet leur distribution initiale de façon ouverte et neutre : n’importe qui peut en obtenir, à condition de participer au minage, sans autorisation préalable ni identité requise.
+
+En revanche, puisque ces bitcoins sont créés à partir de rien, leur valeur ne provient pas de nulle part. En augmentant la quantité de monnaie en circulation, la subvention dilue mécaniquement la valeur des bitcoins déjà existants. Elle introduit donc une forme d’inflation monétaire. Nous verrons toutefois dans le prochain chapitre que cette subvention est destinée à disparaître progressivement, et qu’à terme, cette inflation cessera.
+
+### Les frais de transaction
+
+La seconde composante de la récompense de bloc est liée à l’usage du système : lorsqu’un utilisateur diffuse une transaction, il veut qu’elle soit confirmée. Or, l’espace dans les blocs est limité et un bloc n’apparaît en moyenne qu’environ toutes les 10 minutes. L’espace de bloc est donc une ressource rare. Quand la demande dépasse l’offre, le prix monte : c’est le marché des frais de transaction. Chaque mineur qui parvient à produire un bloc valide obtient le droit de percevoir, pour son propre compte, l’intégralité des frais de transaction associés à toutes les transactions qu’il a incluses dans son bloc.
+
+Vous pouvez le voir comme un système d’enchères : chaque transaction propose un montant de frais, et les mineurs sélectionnent en priorité celles qui maximisent leur revenu, sous contrainte de place. Ce mécanisme aligne naturellement les intérêts :
+* les utilisateurs pressés paient davantage pour être inclus rapidement ;
+* les mineurs sont incités à inclure les transactions qui rémunèrent le mieux l’espace du bloc ;
+* le réseau évite le spam, car publier une transaction a un coût.
+
+#### Comment sont calculés les frais d’une transaction ?
+
+Contrairement à une idée reçue, les frais ne sont pas un output dans une transaction Bitcoin. En effet, une transaction dépense des inputs et crée des outputs. Les inputs représentent la source des bitcoins utilisés, tandis que les outputs représentent la destination des paiements. Les frais de transaction correspondent simplement à **la différence entre le total des inputs et le total des outputs**.
+
+Autrement dit, l’utilisateur engage en inputs des bitcoins qui lui appartiennent, crée des outputs pour les destinataires, mais ne recrée pas en outputs la totalité du montant consommé en inputs. La différence entre les deux constitue les frais de transaction que le mineur peut récupérer.
+
+Prenons un exemple. Une transaction consomme deux inputs, l’un de `100 000 sats` et l’autre de `150 000 sats`, et crée trois outputs de `35 000 sats`, `42 000 sats` et `170 000 sats`.
+
+
+
+La somme des inputs est donc de `250 000 sats`, tandis que la somme des outputs est de `247 000 sats`. Cela signifie que `3 000 sats` ont été consommés en inputs sans être recréés en outputs : ce montant correspond aux frais proposés par cette transaction.
+
+
+
+Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de récupérer ces `3 000 sats`, en plus des frais de toutes les autres transactions incluses dans le bloc. En revanche, il n’existe aucun lien direct on-chain entre la transaction qui paie les frais et les sats effectivement perçus par le mineur. Techniquement, les `3 000 sats` de frais sont détruits, et, en contrepartie, le mineur obtient le droit de les recréer pour lui-même.
+
+#### Le ratio de frais
+
+Un bloc n’est pas limité par le nombre de transactions, mais par sa capacité totale (aujourd’hui, en pratique, par le poids du bloc). Certaines transactions prennent plus de place que d’autres : une transaction avec de nombreux inputs et outputs sera plus volumineuse qu’une transaction simple avec un seul input et deux outputs. Les scripts utilisés vont aussi influencer la taille.
+
+Deux transactions peuvent donc payer le même montant de frais en valeur absolue, mais ne pas être équivalentes économiquement du point de vue du mineur. Si l’une est deux fois plus grosse, elle coûte deux fois plus d’espace dans le bloc. Or l’espace est rare : le mineur cherche donc à maximiser ses revenus par unité d’espace.
+
+C’est la raison pour laquelle, dans la pratique, on exprime la compétitivité d’une transaction avec un taux de frais, généralement en `sats/vB` (satoshis par octet virtuel). Le calcul de ce ratio est très simple :
+
+```text
+fee rate = fee / weight (in vB)
+```
+
+Par exemple, si l'on a une transaction qui pèse `141 vB` et qui alloue `1 974 sats` de frais, elle va avoir un taux de frais de `14 sats/vB`.
+
+```text
+1 974 / 141 ≈ 14 sats/vB
+```
+
+Ce ratio explique la stratégie des mineurs : à capacité fixe, inclure des transactions à taux élevé maximise les frais totaux du bloc, donc la rémunération du mineur. C’est aussi ce qui explique les périodes où les transactions à bas frais restent longtemps en attente dans les mempools : elles sont en concurrence avec d’autres transactions qui payent davantage par unité d’espace.
+
+### La protection du réseau contre le spam
+
+Les frais ont également une utilité de sécurité opérationnelle : ils introduisent un coût à la multiplication de transactions. Si publier une transaction était gratuit, il serait facile d’inonder le réseau de transactions inutiles et de saturer les mempools, augmentant la charge sur les nœuds.
+
+Dans la pratique, les nœuds appliquent des politiques locales de relais (règles de mempool) et fixent souvent un seuil minimal de frais en dessous duquel ils ne relaient pas une transaction (par défaut, `0.1 sat/vB` sur Bitcoin Core via `minRelayTxFee`). Une transaction peut être valide au sens strict des règles de consensus tout en étant non relayée par la plupart des nœuds si ses frais sont trop bas. Résultat : elle ne circule pas, n’atteint pas les mineurs, et a très peu de chances d’être confirmée.
+
+À ce stade, vous avez compris l’essentiel de la récompense de bloc : elle correspond à la rémunération du mineur gagnant et se compose de deux éléments distincts. D’une part, une subvention de bloc, définie par les règles du protocole, qui crée de nouveaux bitcoins ex nihilo. D’autre part, les frais des transactions incluses dans le bloc miné. Dans le chapitre suivant, nous allons nous concentrer plus en détail sur la subvention de bloc, afin de comprendre précisément comment elle est calculée et comment elle évolue au fil du temps selon les règles du protocole Bitcoin.
 
 ## Le halving
 

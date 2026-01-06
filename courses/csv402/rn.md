@@ -1198,20 +1198,20 @@ pos(c_i) = c_i mod (w - cofactor)
 ```
 
 
-aho `cofactor` ari umubare wose wongera ubushobozi bwo kuronka ibibanza bitandukanye kuri buri Contract. Mu bikorwa, ubwubatsi bukurikira inzira isubiramwo:
+aho `cofactor` ari umubare wose wongera ubushobozi bwo kuronka ibibanza bitandukanye kuri mumasezerano. Mu bikorwa, ubwubatsi bukurikira inzira isubiramwo:
 
 
 
 
-- Dutangura n’uburebure bukeyi (`d=3` ku masezerano kugira ngo twihishe umubare nyawo w’amasezerano);
+- Dutangura n’uburebure bukeyi (`d=3` ku masezerano kugira ngo tunyegeze igiharuro nyaco c'amasezerano);
 - Turagerageza `cofactors` zitandukanye (zishika kuri `w/2`, canke zishika 500 kubera imvo z’ubushobozi);
-- Iyo tunaniwe gushiramwo amasezerano yose ata guhura, twongera `d` tugasubira gutangura.
+- Iyo tunaniwe gushiramwo amasezerano yose ata guhuza, twongera `d` tugasubira tugatangura.
 
 
-Intumbero ni ukwirinda ibiti birenze urugero, mu gihe nyene ingorane zo gutombora ziguma ari ntoyi. Zirikana ko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://ru.wikipedia.org/wiki/Ingorane_y’Isabukuru_y’Ivuka).
+Intumbero ni ukwirinda ibiti birebire birenze urugero, mu gihe nyene ingorane zo guhuza ziguma ari ntoyi. Zirikana yuko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://ru.wikipedia.org/wiki/Ingorane_y’Isabukuru_y’Ivuka).
 
 
-#### Amababi atuwemwo
+#### Amababi abawemwo
 
 
 Igihe `C` ibibanza bitandukanye `pos(c_i)` vyaronswe ku masezerano `i = {0,1,..,C-1}`, urupapuro rwose rwuzuzwa igikorwa ca Hash (*rashizweko ikimenyetso Hash*):
@@ -1227,16 +1227,16 @@ hehe:
 
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, yama itoranywa hakurikijwe amasezerano ya Merkle ya RGB;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, yama ihitwamwo hifashishijwe amasezerano ya Merkle ya RGB;
 - `0x10` igaragaza _ibabi ry'amasezerano_;
-- `c_i` ni ikimenyetso ca Contract c'amabayiti 32 (kiva kuri Genesis Hash);
-- bundleId(c_i)` ni Hash y'amabayiti 32 idondora umugwi w'Impinduka z'Igihugu` zijanye n'i `c_i` (zikoranijwe muri *Transition Bundle*).
+- `c_i` ni ikimenyetso c'amasezerano ya 32 bytes (kiva kuri Hash y'itanguriro);
+- bundleId(c_i)` ni Hash y'ama bytes 32 idondora umugwi uko ihanahanwa rimeze` zijanye n'i `c_i` (zikoranijwe muri *Mumutekero w'ihanahanwa*).
 
 
-#### Amababi atabamwo
+#### Amababi atabawemwo
 
 
-Amababi asigaye, atashizwe kuri Contract (ni ukuvuga amababi ya `w - C`), yuzuye agaciro "k'ikinyoma" (_ibabi ry'ubuhinga_):
+Amababi asigaye, atashizwe kumasezerano (ni ukuvuga amababi ya `w - C`), yuzuye agaciro "k'ikinyoma" (_ibabi ry'ubuhinga_):
 
 
 ```txt
@@ -1251,14 +1251,14 @@ hehe:
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, yama itoranywa hakurikijwe amasezerano ya Merkle ya RGB;
 - `0x11` yerekana _ibabi ry'uburemere_;
-- `entropy` ni agaciro k'imburakimazi k'ibice 64, gatorwa n'umuntu yubaka igiti;
+- `entropy` ni agaciro k'imburakimazi c'ama bytes 64, atorwa n'umuntu yubatse igiti;
 - `j` ni ikibanza (mu bice 32 Little Endian) c'iri babi mu giti.
 
 
-#### Uturongo twa MPC
+#### Ama nodes ya MPC
 
 
-Tumaze gutera amababi `w` (agira abantu canke ataba), turabandanya gukora merkelization. Ivyuma vyose vyo mu mutima bifatwa nk'uko bikurikira:
+Tumaze gushiraho ibabi rya `w` (Ibawemwo canke itabawemwo), turabandanya gukora merkelization. Buri ma node y'indani araba hashed uku gukwirikira :
 
 
 ```txt
@@ -1271,17 +1271,17 @@ hehe:
 
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, yama itoranywa hakurikijwe amasezerano ya Merkle ya RGB;
-- b` ni _umubare w'amashami_ (ibice 8). Kenshi, `b=0x02` kuko igiti ari bibiri kandi kigizwe n’ibintu vyose;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, yama ahitwamwo hisunzwe amasezerano ya Merkle ya RGB;
+- b` ni _umubare w'amashami_ (ibice 8). Kenshi, `b=0x02` kuko igiti ari c'uburyo bubiri gusa kandi kigizwe n’ibintu vyose;
 - d` ni uburebure bw'urudodo ruri mu giti;
 - `w` ni ubwaguke bw'igiti (mu 256-bit Little Endian);
-- tH1` na `tH2` ni hashes z'abana nodes (canke amababi), asanzwe aharuwe nk'uko vyerekanwa haruguru.
+- tH1` na `tH2` ni hashes z'abana ba nodes (canke amababi), asanzwe aharuwe nk'uko vyerekanwa haruguru.
 
 
-Dutera imbere muri ubwo buryo, turonka umuzi `mpc::Root`. Turashobora rero kubara `mpc::Commitment` (nk'uko vyasiguwe haruguru) tukayishiramwo On-Chain.
+Dutera imbere muri ubwo buryo, turonka umuzi `mpc::Root`. Turashobora rero guharura `mpc::Commitment` (nk'uko bisigurwa aho hejuru) tukayishiramwo On-Chain.
 
 
-Kugira ngo ivyo tubisobanure, reka twiyumvire akarorero aho `C=3` (amasezerano atatu). Ivyicaro vyabo vyiyumviriwe ko ari `ahantu (c_0)=7`, `ahantu (c_1)=4`, `ahantu (c_2)=2`. Ayandi mababi (ibibanza 0, 1, 3, 5, 6) ni _amababi y’entropie_. Igishushanyo kiri musi kirerekana urutonde rw'ama hashes ku muzi n':
+Kugira ngo ivyo tubisigure, reka twiyumvire akarorero aho `C=3` (amasezerano atatu). Ivyicaro vyabo vyiyumviriwe ko ari `ahantu (c_0)=7`, `ahantu (c_1)=4`, `ahantu (c_2)=2`. Ayandi mababi (ibibanza 0, 1, 3, 5, 6) ni _amababi y’entropie_. Igishushanyo kiri musi kirerekana urutonde rw'ama hashes ku muzi n':
 
 
 
@@ -1291,13 +1291,13 @@ Kugira ngo ivyo tubisobanure, reka twiyumvire akarorero aho `C=3` (amasezerano a
 - Ishami ryose `tH_MPC_ISAMBI(...)` rifatanya ama hashes y'abana baryo babiri.
 
 
-Igisubizo ca nyuma ni **mpc::Umuzi**, hanyuma `mpc::Commitment`.
+Inyishu yanyuma ni **mpc::Umuzi**, hanyuma `mpc::Commitment`.
 
 
 ![RGB-Bitcoin](assets/en/053.webp)
 
 
-#### Igenzura ry'umugozi wa MPC
+#### Isuzumwa ry'inyubako ya MPC
 
 
 Iyo umugenzuzi yipfuza kumenya neza ko `c_i` Contract (na `BundleId` yayo) iri mu `mpc::Commitment` ya nyuma, aronka gusa ikimenyamenya ca Merkle. Iki kimenyamenya kigaragaza uturongo dukenewe kugira ngo amababi (muri iki gihe, `c_i`'s _contract leaf_) asubire ku muzi. Ntaco bimaze gutangaza *Igiti ca MPC* cose: ivyo birinda ibanga ry'ayandi masezerano.

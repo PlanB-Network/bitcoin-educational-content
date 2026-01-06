@@ -12,7 +12,7 @@ Il modello di sicurezza di Olvid si basa su un principio fondamentale: l’assen
 
 Olvid utilizza comunque un server centrale per la distribuzione dei messaggi, ma esso svolge unicamente un ruolo logistico: garantisce la trasmissione asincrona dei messaggi cifrati. Questo server non partecipa in alcun modo alla cifratura, non conosce l’identità reale degli utenti né il contenuto o i metadati dei messaggi (eccetto la chiave pubblica del destinatario, necessaria per l’instradamento). Può quindi essere considerato come ostile per impostazione predefinita, senza compromettere la sicurezza del sistema. Anche se compromesso, non permetterebbe l’accesso al contenuto delle comunicazioni. Olvid centralizza dunque la distribuzione dei messaggi (per motivi di efficienza e qualità del servizio), garantendo però una sicurezza indipendente da tale infrastruttura.
 
-Olvid offre una versione gratuita e una in abbonamento a 4,99 euro al mese. La versione gratuita offre tutte le funzionalità, ad eccezione dell'esecuzione di chiamate audio e video (anche se è possibile riceverle), e non consente la sincronizzazione dell'account su più dispositivi. Quindi, se avete intenzione di utilizzare esclusivamente il vostro smartphone e non avete bisogno di effettuare chiamate, Olvid è una soluzione eccellente.
+Olvid offre una versione gratuita e una in abbonamento a 4,99 euro al mese. La versione gratuita offre tutte le funzionalità, ad eccezione dell'esecuzione di chiamate audio e video (anche se è possibile riceverle), e non consente la sincronizzazione dell'account su più dispositivi. Quindi, se hai intenzione di utilizzare esclusivamente il tuo smartphone e non hai bisogno di effettuare chiamate, Olvid è una soluzione eccellente.
 
 Olvid è certificato dall'ANSSI (l'autorità francese per la sicurezza informatica). Questa applicazione è un'ottima alternativa ai servizi di messaggistica tradizionali (WhatsApp, Facebook Messenger, WeChat...) per chi cerca la privacy pur mantenendo la semplicità d'uso.
 
@@ -47,7 +47,7 @@ Olvid è disponibile su tutte le piattaforme. È possibile scaricare l'applicazi
 
 Su Android, è anche possibile [installare via APK](https://www.olvid.io/download/).
 
-In questo tutorial ci concentreremo sulla versione mobile, ma vi ricordiamo che [sono disponibili anche versioni per computer](https://www.olvid.io/download/) (MacOS, Linux e Windows). Se scegliete la versione a pagamento, potrete sincronizzare il vostro account su più dispositivi.
+In questo tutorial ci concentreremo sulla versione mobile, ma vi ricordiamo che [sono disponibili anche versioni per computer](https://www.olvid.io/download/) (MacOS, Linux e Windows). Se scegli la versione a pagamento, puoi sincronizzare il tuo account su più dispositivi.
 
 ![Image](assets/fr/01.webp)
 
@@ -58,7 +58,7 @@ Quando avvi l'applicazione per la prima volta, fai clic sul pulsante "*Sono un n
 
 ![Image](assets/fr/02.webp)
 
-Scegli un nickname o inserisci il vostro nome e cognome.
+Scegli un nickname o inserisci il tuo nome e cognome.
 
 ![Image](assets/fr/03.webp)
 

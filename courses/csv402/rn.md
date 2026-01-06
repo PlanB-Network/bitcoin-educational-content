@@ -1003,17 +1003,17 @@ Kugira ngo twongereko ukwiyemeza kwa Tapret, dukeneye kwinjiza *inyandiko zidako
 
 
 
-- `tHABC` igereranya Hash y'urugero rwo hejuru rw'imigwi `A, B, C`.
-- `tHT` igereranya Hash y'inyandiko ihuye n'inyandiko 64-byte `Tapret`.
+- `tHABC` isubiririra Hash yafatiweko yo hejuru y'imigwi `A, B, C`.
+- `tHT` isubirira Hash y'inyandiko ihuye na 64-byte `Tapret`.
 
 
-Dushingiye ku mategeko ya Taproot, ishami/ibabi ryose ritegerezwa guhurizwa hamwe hakurikijwe urutonde rw’inkoranyabumenyi Hash. Hariho ibintu bibiri bishoboka:
+Tisunze amategeko ya zino Taproot, ishami/ibabi ryose ritegerezwa guhurizwa hamwe hakurikijwe urukwirikirane rw’inkoranyabumenyi Hash. Hariho ibintu bibiri bishoboka:
 
 
 
 
-- `tHT` > `tHABC`: Tapret Commitment igenda iburyo bw'igiti. Ikimenyamenya c'ubudasa gikeneye gusa `tHABC` na `P`;
-- `tHT` < `tHABC`: **Tapret Commitment ishirwa ibubamfu**. Kugira ngo vyemezwe ko ata yindi Tapret Commitment iri iburyo, `tHAB` na `tHC` bitegerezwa guhishurirwa kugira ngo vyerekane ko ata yindi nyandiko nk'iyo iriho.
+- `tHT` > `tHABC`: ukwiyemeza kwa Tapret kugenda muruhande rw'iburyo rw'igiti. Ikimenyamenya c'ubudasa gikeneye gusa `tHABC` na `P`;
+- `tHT` < `tHABC`: **Ukwiyemeza kwa Tapret gushirwa ibubamfu**. Kugira ngo vyemezwe ko atakundi kwiyemeza kwa Tapret kuri iburyo, `tHAB` na `tHC` bitegerezwa guhishurirwa kugira ngo vyerekane ko ata yindi nyandiko nk'iyo iriho.
 
 
 Akarorero kaboneka k'ikibazo ca mbere (`tHABC < tHT`):
@@ -1028,55 +1028,55 @@ Akarorero k'ikibazo ca kabiri (`tHABC > tHT`):
 ![RGB-Bitcoin](assets/en/052.webp)
 
 
-#### Gutuma ibintu bigenda neza na Nonce
+#### Gutuma ibintu bigenda neza cane na Nonce
 
 
-Kugira ngo turonke ibanga ryiza, turashobora "gucukura" (ijambo ry'ukuri ryoba ari "ugukoresha nabi") agaciro ka `<Nonce>` (byte ya nyuma y'i `Tapret` y'amabayiti 64) mu kugerageza kuronka Hash `tHT` ku buryo HT` `tHABC. Muri ivyo, Commitment ishirwa iburyo, ivyo bikaba bituma uwuyikoresha adashobora gutangaza ibirimwo vyose mu nyandiko zisanzweho kugira ngo yerekane ko Tapret ari iyo kwihariza.
+Kugira ngo dukomeze ibanga, turashobora "gucukura" (ijambo ry'ukuri ryoba ari "ugukoresha igikenye") agaciro ka `<Nonce>` (byte ya nyuma y'i `Tapret` y'amabayiti 64) mu kugerageza kuronka Hash `tHT` ku buryo nka HT` `tHABC. Muri ivyo, ukwiyemeza gushirwa iburyo, ivyo bikaba bituma uwuyikoresha adashobora gutangaza ibirimwo vyose mu nyandiko zisanzweho kugira ngo yerekane ko Tapret ari iyo kwihariza.
 
 
 Mu ncamake, `Tapret` itanga uburyo butandukanye kandi bugaragara bwo kwinjiza Commitment mu gucuruza Taproot, mu gihe yubaha igisabwa co kuba uwudasanzwe n’ukudasobanuka bihambaye ku bijanye n’ubwenge bwa RGB bwa Client-side Validation na Single-Use Seal.
 
 
-#### Isohoka ribereye
+#### Isohoka ryemewe
 
 
-Ku bikorwa vy’ubudandaji vya RGB Commitment, igisabwa nyamukuru kugira ngo umuntu agire umugambi wa Bitcoin Commitment ukora ni ibi bikurikira: Ivyo bikorwa (*Witness Transaction*) bitegerezwa kuba birimwo Commitment imwe. Ico gisabwa gituma bidashoboka kwubaka amateka y’ubundi buryo bw’amakuru yemejwe n’umukiriya mu gihe c’ugucuruza kumwe. Ivyo bisigura ko ubutumwa _ikidodo c’ikoreshwa rimwe_ gikikuje ari ubwihariye.
+Kumahanahanwa yizewe ya RGB, igisabwa nyamukuru kukwiyemeza kwa Bicoin kwemewe gukwirikira igicapo gikwirikira: Ihanahanwa (*icabona c'ihanahanwa*) ritegerezwa kuba ririmwo ukwiyemeza kumwe. Ico gisabwa gituma bidashoboka kwubaka kahise k'amahitamwo yakabiri kumakuru y'uruhande rw'umuguzi mw'ihanahanwa rimwe. Ivyo bisigura ko ubutumwa _ikidodo c’ikoreshwa rimwe_ gikikuje ari ubwihariye.
 
 
-Kugira ngo iyo ngingo ngenderwako ishikeko, kandi tutaravye umubare w'ibisohoka mu gucuruza, dusaba ko **igisohoka kimwe kandi kimwe gusa** gishobora kubamwo Commitment. Ku migambi yose ikoreshwa (*Opret* canke *Tapret*), ibisohoka vyonyene bishobora kubamwo _ukwiyemeza_ kwa RGB ni ibi bikurikira:
-
-
-
-
-- Igisohoka ca mbere `OP_RETURN` (niba kiriho) c'umugambi wa *Opret*;
-- Igisohoka ca mbere ca Taproot (niba kiriho) c'umugambi wa *Tapret*.
-
-
-Zirikana ko bishoboka cane ko igikorwa co gucuruza kirimwo `Opret` Commitment imwe na `Tapret` Commitment imwe mu bisohoka bibiri bitandukanye. Kubera kamere y’ugushinga intahe ya Seal Definition, izo ndahiro zibiri rero zihuye n’ibice bibiri bitandukanye vy’amakuru yemejwe ku ruhande rw’umukiriya.
-
-
-### Isesengura n'amahitamwo ngirakamaro muri RGB
-
-
-Igihe twatangura RGB, twasubiyemwo ubwo buryo bwose kugira ngo tumenye aho n’ingene twoshira _umugambi_ mu gucuruza mu buryo bugaragara. Twarasobanuye ingingo zimwe zimwe:
+Kugira ngo iyo ngingo ngenderwako ishikweko, tutitaye kugitigiri c'ibisohoka mw'ihanahanwa, dusaba ko **igisohoka kimwe kandi kimwe rudende** gishobora kubamwo ukwiyemeza. Kuri imwe mubicapo bikoreshwa  (*Opret* canke *Tapret*), ibisohoka vyonyene bishobora kubamwo _ukwiyemeza_ kwa RGB ni ibi bikurikira:
 
 
 
 
-- Guhuza n’ibintu bitandukanye (nk’akarorero Multisig, Lightning, amasakoshi y’ibikoresho, n’ibindi);
-- Ingaruka ku kirere ca On-Chain;
+- Igisohoka ca mbere `OP_RETURN` (niba kiriho) c'igishushanyo wa *Opret*;
+- Igisohoka ca mbere ca Taproot (niba kiriho) c'igishushanyo wa *Tapret*.
+
+
+Zirikana ko bishoboka cane ko ihanaganwa rijamwo ukwiyemeza kwa `Opret` hamwe n'ukwiyemeza kwa `Tapret` imwe mubisohoka bibiri bitandukanye. Kubera kamere y’ugushinga intahe y'insiguro ya serire, ukwo kwiyemeza kubiri guhuriranye n'uduce tubiri dutandukanye kw'iyemeza kw'amakuru kuruhanderw'umuguzi.
+
+
+### Umwihwezo n'amahitamwo afatiwe kubikorwa muri RGB
+
+
+Igihe twatangura RGB, twasubiyemwo ubwo buryo bwose kugira ngo tumenye aho n’ingene twoshira _ukwiyemeza_ mw'ihanahanwa mu buryo bugaragara. Turashiraho ingingo zimwe zimwe:
+
+
+
+
+- Guhuza n’ibintu bitandukanye (nk’akarorero multisig, Lightning, hardware wallets, n’ibindi.);
+- Ingaruka kurubuga rwa On-Chain;
 - Ingorane zo gushirwa mu ngiro no kubungabunga;
-- Ibanga n’ukurwanya ugucengera.
+- Ibanga n’ukudafatwa n'ibihano.
 
 
-| Method                                             | On-chain trace & size | Client-side size | Wallet Integration | Hardware Compatibility | Lightning Compatibility | Taproot Compatibility |
+| Uburyo                                             | inzira ya On-chain n'uko ingana | uruhande rw'umuguzi ukorungana | Ugudhiramwo ingodo | uko Hardware vyohurirana | Uko Lightning vyohurirana | uko Taproot vyohurirana |
 | -------------------------------------------------- | --------------------- | ---------------- | ------------------ | ---------------------- | ---------------------- | --------------------- |
 | Keytweak (deterministic P2C)                      | 🟢                     | 🟡                 | 🔴                   | 🟠                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
 | Sigtweak (deterministic S2C)                      | 🟢                     | 🟢                 | 🟠                   | 🔴                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
 | Opret (OP_RETURN)                                 | 🔴                     | 🟢                 | 🟢                   | 🟠                     | 🔴 BOLT, 🟠 Bifrost     | -                     |
 | Tapret Algorithm: top-left node                   | 🟠                     | 🔴                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 | Tapret Algorithm #4: any node + proof             | 🟢                     | 🟠                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
-| Deterministic Commitment Scheme                               | Standard       | On-Chain Cost                                                                                                          | Proof Size on Client Side                                                                                       |
+| igicapo c'ukwiyemeza gushiraho                              | Standard       | Igiciro ca On-Chain                                                                                                        | ukweza uko kungana kuruhande rw'umuguzi                                                                                  |
 | ------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Keytweak (Deterministic P2C)                                  | LNPBP-1, 2     | 0 bytes                                                                                                                | 33 bytes (non-tweaked key)                                                                                       |
 | Sigtweak (Deterministic S2C)                                  | WIP (LNPBP-39) | 0 bytes                                                                                                                | 0 bytes                                                                                                          |
@@ -1116,26 +1116,26 @@ Igihe twatangura RGB, twasubiyemwo ubwo buryo bwose kugira ngo tumenye aho n’i
 
 
 
-Mu gihe c’itohoza, vyagaragaye ko ata n’imwe mu migambi ya Commitment yari ihuye neza n’ingingo ngenderwako ya Lightning iriho ubu (idakoresha Taproot, _muSig2_ canke infashanyo y’inyongera _y’ukwiyemeza_). Hariko harakorwa utwigoro two guhindura ubuhinga bwo kwubaka umurongo wa Lightning (*BiFrost*) kugira ngo bishobore kwinjiza amasezerano ya RGB. Iyi ni iyindi nzira dukeneye gusubiramwo imiterere y’ibikorwa, imfunguruzo n’uburyo ivy’uguhindura imirongo bishirwako umukono.
+Muri kino cirwa c'inyigisho, vyagaragaye ko ata n’imwe mu bicapo vy'ukwiyemeza vyahuriranye neza  n’ingingo ngenderwako ya Lightning iriho ubu (idakoresha Taproot, _muSig2_ canke infashanyo y’inyongera _y’ukwiyemeza_). Hariko harakorwa utwigoro two guhindura ubuhinga bwo kwubaka umuhora wa Lightning (*BiFrost*) kugira ngo bishobore kwinjiza amasezerano ya RGB. Iyi ni iyindi nzira dukeneye gusubiramwo imiterere y’ibikorwa, imfunguruzo n’uburyo ivy’uguhindura imihora bishirwako umukono.
 
 
-Isesengura ryerekanye ko, mu vy’ukuri, ubundi buryo (uguhindura urufunguzo, uguhindura ibimenyetso, uguhindura icabona, n’ibindi) bwari bufise ubundi buryo bwo kugorana:
+Isesengura ryerekanye ko, mu vy’ukuri, ubundi buryo (uguhindura urufunguzo, uguhindura ibimenyetso, uguhindura icabona, n’ibindi) bwerekana ubundi buryo bw'ukugorana:
 
 
 
 
 - Canke dufise igitabu kinini ca On-Chain;
-- Canke hariho ukudahuza gukomeye n’itegeko rya Wallet ririho;
-- Canke umuti ntushobora gushoboka muri Multisig idakorana.
+- Canke hariho ukudahuza gukomeye namakode y'ingodo (Wallet) isanzwe ihari;
+- Canke inyishu ntibaho kuri Multisig itariy amashirahamwe.
 
 
-Ku RGB, uburyo bubiri cane cane buragaragara: ***Opret*** na ***Tapret***, bwompi bushizwe mu rwego rw'"Igisubizo c'Ibikorwa", kandi buhuye n'uburyo bwa TxO2 bukoreshwa n'umurongo.
+Ku RGB, uburyo bubiri vy'umwihariko buragaragara: ***Opret*** na ***Tapret***, bwose bushizwe mu rwego rw'"Ibiva mw'ihanahanwa", kandi buhuye n'uburyo bwa TxO2 bukoreshwa n'urukwirikirane.
 
 
-### Ivyemezo vyinshi vy'amasezerano - MPC
+### Ikwiyemeza kw'inshi kw'amasezerano - MPC
 
 
-Muri iki gice, turaba ingene **RGB** ifata ivy’ugukoranya amasezerano menshi (canke, mu buryo bubereye, _imigwi yayo y’ihinduka_) mu Commitment imwe (*Commitment*) yanditswe mu bikorwa vya Bitcoin biciye ku mugambi w’ugushinga intahe (pre`t`t canke). Kugira ngo ivyo bishoboke, urutonde rw’uguhindura amasezerano atandukanye mu buryo bwa Merkel rubera mu ntumbero yitwa **Igiti ca MPC** (_Igiti ca Multi Protocol Commitment_). Muri iki gice, turaza kuraba ingene iki Giti ca MPC cubatswe, ingene tworonka umuzi waco, n’ingene amasezerano menshi ashobora gusangira igikorwa kimwe mu ibanga kandi ata gukeka.
+Muri kano gace, turaba ingene **RGB** ifata ivy’ugukoranya amasezerano menshi (canke, mu buryo bubereye, _imitekere y'ihanahanwa_) k'ukwiyemeza kumwe (*Ukwiyemeza*) yanditswe mw'ihanahanwa rya Bitcoin biciye kugicapo gishirwaho (pre`t`t canke). Kugira ngo ivyo bishikweko, urutonde rw’uguhindura amasezerano atandukanye mu buryo bwa Merkel rubera mu ntumbero yitwa **Igiti ca MPC** (_Multi Protocol Commitment Tree_). Muri kano gace, turaza kuraba ingene iki Giti ca MPC cubatswe, ingene tworonka umuzi waco, n’ingene amasezerano menshi ashobora gusangira ihanahanwa risa biciye mw'ibanga kandi ata gukeka.
 
 
 Multi Protocol Commitment (MPC) yagenewe gushitsa ibintu bibiri bikenewe:
@@ -1143,20 +1143,20 @@ Multi Protocol Commitment (MPC) yagenewe gushitsa ibintu bibiri bikenewe:
 
 
 
-- Ubwubatsi bwa `mpc::Commitment` Hash: ivyo bizoshirwa muri Bitcoin Blockchain hakurikijwe umugambi wa `Opret` canke `Tapret`, kandi bitegerezwa kwerekana amahinduka yose ya Leta kugira ngo yemezwe;
-- Gubika icarimwe amasezerano menshi mu _nsezerano_ imwe, bikaba bishoboza guhindura ibintu bitandukanye ku mitungo myinshi canke amasezerano ya RGB kugira ngo ashobore gucungirwa mu gikorwa kimwe ca Bitcoin.
+- Ubwubatsi bwa `mpc::Commitment` Hash: ivyo bizoshirwa muri Blockchain ya Bitcoin hakurikijwe igicapo ca `Opret` canke `Tapret`, kandi bitegerezwa kwerekana amahinduka yose y'uko impinduka yemezwa;
+- Gubika icarimwe amasezerano menshi mu _nsezerano_ imwe, bikaba bishoboza guhindura ibintu bitandukanye ku mitungo myinshi canke amasezerano ya RGB kugira ngo ashobore ihanahanwa rimwe rya Bitcoin.
 
 
-Mu majambo nyayo, buri _umugwi w'ihinduka_ ni uwa Contract yihariye. Aya makuru yose yinjizwa mu **Igiti ca MPC**, umuzi waco (`mpc::Umuzi`) ugasubira guhindurwa kugira ngo uhe `mpc::Commitment`. Iyi Hash ya nyuma ni yo ishirwa mu gikorwa ca Bitcoin (_igikorwa c’icabona_), hakurikijwe uburyo bwo guhitamwo bwatowe.
+Mu majambo nyayo, buri _umutekero wa buri ihanahanwa_ ni uwa Contract yihariye. Aya makuru yose yinjizwa mu **Igiti ca MPC**, umuzi waco (`mpc::Umuzi`) ugasubira guhindurwa kugira ngo uhe `mpc::Commitment`. N'iyi Hash ya nyuma ni yo ishirwa mw'ihanahanwa rya Bitcoin (_igikorwa c’icabona_), hakurikijwe uburyo bwo guhitamwo bwatowe.
 
 
 ![RGB-Bitcoin](assets/en/042.webp)
 
 
-#### Umuzi wa MPC Hash
+#### Umuzi wa Hash ya MPC
 
 
-Agaciro kanditswe On-Chain (mu rurimi rwitwa `mpc::Commitment`. Ivyo biharurwa mu buryo bwa [BIP-341], hakurikijwe uburyo:
+Agaciro kanditswe kuri On-Chain (mu rurimi rwitwa `mpc::Commitment`. Ivyo biharurwa mu buryo bwa [BIP-341], hakurikijwe ano mategeko ngederwako :
 
 
 ```txt
@@ -1171,7 +1171,7 @@ hehe:
 
 - `mpc_tag` ni ikimenyetso: `urn:ubideco:mpc:Commitment#2024-01-31`, yatowe hakurikijwe [amasezerano yo gushiramwo ikimenyetso ya RGB]
 - `uburebure` (1 byte) yerekana uburebure bw'Igiti ca *MPC*;
-- cofactor` (16 bits, mu rurimi rwa Little Endian) ni umurongo ukoreshwa mu guteza imbere ubudasa bw’ibibanza vyahawe Contract yose mu giti;
+- cofactor` (16 bits, mu rurimi rwa Little Endian) ni umurongo ukoreshwa mu guteza imbere ubudasa bw’ibibanza vyahawe amasezerano yose mu giti;
 - `mpc::Root` ni umuzi wa *MPC Tree*, ubazwe hakurikijwe uburyo buvugwa mu gice gikurikira.
 
 
@@ -1181,16 +1181,16 @@ hehe:
 #### MPC Ubwubatsi bw'igiti
 
 
-Kugira ngo twubake iki Giti ca MPC, turakeneye kumenya neza ko Contract yose ihuye n’aho amababi ari. Twibaze ko dufise:
+Kugira ngo twubake iki Giti ca MPC, turakeneye kumenya neza ko Contract yose ihuye n’aho amababi atumbereye. Dufateko dufise :
 
 
 
 
 - `c` amasezerano azoshirwa mu rutonde na `i` muri `i` = {0,1,..,C-1};
-- Ku Contract yose `c_i`, dufise ikimenyetso `Id y'Isezerano(i) = c_i`.
+- Ku Cmasezerano yariyo yose `c_i`, dufise ikimenyetso `Id y'Isezerano(i) = c_i`.
 
 
-Turaheza twubake igiti c'ubwaguke `w` n'uburebure `d` ku buryo `2^d = w`, n' `w > C`, kugira ngo Contract yose ishobore gushirwa mu _babi_ ritandukanye. Ikibanza `pos(c_i)` ca Contract yose mu giti kigenwa na:
+Turaheza tukubaka igiti c'ubwaguke `w` n'uburebure `d` ku buryo `2^d = w`, n' `w > C`, kugira ngo amasezerano yose ishobore gushirwa mu _babi_ ritandukanye. Ikibanza `pos(c_i)` kuri buri masezerano yose murico giti ashirwaho na :
 
 
 ```txt

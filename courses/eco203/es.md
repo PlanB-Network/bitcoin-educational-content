@@ -503,74 +503,51 @@ Como ya hemos visto, fue sobre todo la lucha de Cobden contra el proteccionismo 
 
 El proteccionismo es, en realidad, una forma de nacionalismo económico. Pretende eliminar la competencia extranjera mientras finge "defender los intereses nacionales" Luego intentan que los poderes públicos acepten un conjunto de falsedades puramente demagógicas, presentadas como virtuosas: la defensa del empleo, la competitividad, etc. Por supuesto, los cargos electos ceden a la presión de los productores, porque para ellos es una oportunidad de oro para consolidar su clientela y ampliar su poder.
 
-
 ![image](assets/es/057.webp)
 
 _un ejemplo de publicidad promocional de una batidora fabricada en Francia_
-
 
 ---
 
 > Nuestro encuentro con Arnaud Montebourg
 > Fabricado en Francia,
-> él cree en ello, nosotros lo probamos
+> Él cree en ello, nosotros lo probamos
 
 ---
 
 El argumento de la protección del empleo es lo que Bastiat llama una falacia. Porque, en realidad, equivale a un impuesto. Tiene el efecto de encarecer los productos. Tomemos el ejemplo que da el propio Bastiat.
 
-
 Imaginemos un cuchillo inglés que se vende en nuestro país a 2 euros, y un cuchillo fabricado en Francia cuesta 3. Si dejamos que el consumidor compre libremente el cuchillo que quiere, se ahorra 1 euro, que puede invertir en otra cosa (en un libro, o en un lápiz).
 
-
-Si prohibimos el producto inglés, el consumidor pagará una unidad más por su navaja. El proteccionismo produce así un beneficio para una industria nacional y dos pérdidas, una para otra industria (la de los lápices) y otra para el consumidor. Por el contrario, el libre comercio produce dos felices ganadores.
-
-
-
+Si prohibimos el producto inglés, el consumidor pagará una unidad más por su cuchillo. El proteccionismo produce así un beneficio para una industria nacional y dos pérdidas, una para otra industria (la de los lápices) y otra para el consumidor. Por el contrario, el libre comercio produce dos felices ganadores.
 
 El proteccionismo es también una forma de lucha de clases. Según Bastiat, es un sistema basado en el egoísmo y la codicia de los productores. Para aumentar su remuneración, los agricultores o los industriales exigen impuestos para cerrar el mercado a los productos extranjeros, obligando así a los consumidores a pagar más por sus productos.
 
-
 ![image](assets/es/058.webp)
-
 
 Bastiat se pone firmemente del lado de los consumidores. Frente al interés de clase, postula el interés general, que es el interés del consumidor, es decir, el interés de todos. Es siempre desde el punto de vista del consumidor desde el que debe posicionarse el Estado a la hora de actuar.
 
-
-Con la revolución de febrero de 1848 y sus barricadas, surgiría un enemigo más formidable que el proteccionismo, con el que comparte muchas afinidades: el socialismo.
-
+Con la revolución de febrero de 1848 y sus barricadas, surgiría un enemigo más formidable que el proteccionismo, con el que comparte muchas afinidades: El socialismo.
 
 ![image](assets/es/059.webp)
 
-
 ¿Qué es? Es un movimiento político que exige la organización del trabajo por ley, la nacionalización de industrias y bancos, y la redistribución de la riqueza mediante impuestos. Bastiat dedicaría ahora toda su energía, talento y escritos contra esta nueva doctrina, que sólo podía conducir al crecimiento exponencial del poder y a la perpetua lucha de clases. Así, desde los primeros días de la revolución, colaboró en un periódico de corta vida llamado "La République Française", que rápidamente se convirtió en una revista contrarrevolucionaria. Fue entonces cuando escribió sus panfletos sobre la propiedad, el Estado, el saqueo y la ley.
-
 
 El 27 de junio de 1848, al día siguiente de una nueva insurrección sangrienta en París, en una larga carta a Richard Cobden, se detiene en las causas que podrían haber provocado estos acontecimientos.
 
-
-
 - 1° La primera de estas causas es la ignorancia económica. Es ésta la que prepara las mentes para abrazar las utopías del socialismo y del falso republicanismo. Me remito al vídeo anterior sobre las tendencias de la educación clásica y universitaria en este punto.
-
-
 
 - 2° La nación se enamoró de la idea de que la fraternidad y la solidaridad podían introducirse en el derecho. Es decir, exigió que el Estado creara directamente la felicidad para sus ciudadanos. Bastiat ve aquí los inicios del Estado del bienestar.
 
-
 ![image](assets/es/060.webp)
-
 
 Y continuaría analizando sus efectos perversos a partir de entonces. He aquí un ejemplo, citado en la carta a Cobden:
 
-
 > En virtud de las inclinaciones naturales del corazón humano, todos empezaron a exigir al Estado, para sí mismos, una mayor parte del bienestar. Es decir, el Estado o el tesoro público fueron saqueados. Todas las clases exigían al Estado, como si fuera un derecho, los medios de existencia. Los esfuerzos realizados en este sentido por el Estado sólo condujeron a impuestos y obstáculos, y al aumento de la miseria.
-
 
 - 3° Bastiat añade que, en su opinión, el proteccionismo fue la primera manifestación de este desorden. Los capitalistas empezaron pidiendo la intervención de la ley para aumentar su parte de riqueza. Inevitablemente, los trabajadores quisieron hacer lo mismo.
 
-
 ![image](assets/es/061.webp)
-
 
 ---
 
@@ -581,179 +558,124 @@ Y continuaría analizando sus efectos perversos a partir de entonces. He aquí u
 
 Para concluir, proteccionistas y socialistas comparten un punto en común, según Bastiat: lo que pretenden de la ley no es asegurar a cada uno el libre ejercicio de sus facultades y la justa recompensa de sus esfuerzos, sino favorecer la explotación más o menos completa de una clase de ciudadanos por otra. Con el proteccionismo, es la minoría la que explota a la mayoría. Con el socialismo, es la mayoría la que explota a la minoría. En ambos casos, se viola la justicia y se compromete el interés general. Bastiat los contrapone.
 
-
 > El Estado es la gran ficción a través de la cual todos se esfuerzan por vivir a costa de todos los demás.
 
 ## Proudhon
-
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
 :::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
 
-
 Pierre-Joseph Proudhon es uno de los principales representantes del socialismo francés de mediados del siglo XIX. Es especialmente famoso por esta afirmación "La propiedad es un robo" en "¿Qué es la propiedad?" en 1840.
-
 
 ![image](assets/es/062.webp)
 
-
-
 Hay algo lógicamente absurdo en esta afirmación. Pues si no existiera la propiedad legítimamente adquirida, lógicamente no podría existir un acto como el robo. Por eso Proudhon aclararía más tarde que es la distribución real de la propiedad lo que considera robo, y no la propiedad en sí misma, lo que describe como una fuerza revolucionaria fundacional de la sociedad anarquista.
-
 
 ![image](assets/es/063.webp)
 
-
 Pero Proudhon es un anarquista individualista. No ve en el proletariado ni en el Estado fuentes legítimas de poder. Critica duramente el comunismo y aboga por el mutualismo obrero, una forma de solidaridad cooperativa estructurada, que se basaría en la puesta en común voluntaria de recursos para la ayuda mutua. Es menos conocido, pero Bastiat no se oponía en principio a esta idea. Simplemente temía que el Estado lo convirtiera en un servicio público monopolístico de facto. La historia le daría la razón.
-
-
-
 
 Por otra parte, es bien sabido que en "La pobreza de la filosofía", Marx atacaría violentamente a Proudhon y su socialismo, que calificó de "utópico", en favor de un socialismo llamado "científico".
 
-
 ![image](assets/es/064.webp)
 
-En junio de 1848, Proudhon es elegido diputado a la Asamblea Nacional, junto a Bastiat. Eran conocidos y se tenían en gran estima. Sin embargo, en 1849, en una sonada polémica, Bastiat intercambia catorce cartas con él en las columnas de La Voix du Peuple. En este vigoroso Exchange, aclaró su postura sobre cuestiones monetarias y bancarias. La disputa se reducía a la siguiente alternativa: ¿crédito libre o libertad de crédito?
-
+En junio de 1848, Proudhon es elegido diputado a la Asamblea Nacional, junto a Bastiat. Eran conocidos y se tenían en gran estima. Sin embargo, en 1849, en una sonada polémica, Bastiat intercambia catorce cartas con él en las columnas de La Voix du Peuple. En este vigoroso intercambio, aclaró su postura sobre cuestiones monetarias y bancarias. La disputa se reducía a la siguiente alternativa: ¿Crédito libre o libertad de crédito?
 
 ![image](assets/es/065.webp)
 
-
-Proudhon veía en el interés sobre el capital la causa inicial del pauperismo y de la desigualdad de condiciones. Abogaba por la creación monetaria ilimitada por parte de un banco estatal (el Banco Exchange o Banco del Pueblo), y veía en el "crédito libre" la solución al problema social. Por otra parte, Bastiat era partidario de la libertad de los bancos, entendiendo por tal la regulación de la circulación monetaria mediante la libertad de acceso a la profesión, unida a una necesaria responsabilidad sobre los fondos propios, y la libertad de competencia.
-
+Proudhon veía en el interés sobre el capital la causa inicial del pauperismo y de la desigualdad de condiciones. Abogaba por la creación monetaria ilimitada por parte de un banco estatal (el Banco de intercambio o Banco del Pueblo), y veía en el "crédito libre" la solución al problema social. Por otra parte, Bastiat era partidario de la libertad de los bancos, entendiendo por tal la regulación de la circulación monetaria mediante la libertad de acceso a la profesión, unida a una necesaria responsabilidad sobre los fondos propios, y la libertad de competencia.
 
 ![image](assets/es/066.webp)
 
-
 Bastiat refutó a su oponente en varias etapas. En primer lugar, analizó los efectos perversos del crédito libre y la creación monetaria. Un sistema así sólo podía fomentar las acciones más arriesgadas y temerarias de los bancos y los agentes privados porque se saben cubiertos por el Estado, es decir, por el dinero de los contribuyentes: "Es grave poner a todos los hombres en una situación en la que digan: Probemos suerte con la propiedad ajena; si tengo éxito, mejor para mí; si fracaso, peor para los demás" Una afirmación clarividente que podría aplicarse a nuestra época.
-
 
 ![image](assets/es/067.webp)
 
-
 La política de bajos tipos de interés practicada por los bancos centrales es una forma de crear dinero artificialmente. Y las sucesivas crisis del sistema financiero a lo largo del último siglo, con el endeudamiento de los Estados, son sus consecuencias directas.
-
 
 A continuación, Bastiat demuestra que es posible mejorar el poder adquisitivo de las clases trabajadoras, pero por otros medios, más justos y más eficaces. Para él, la reducción de los tipos de interés es también el objetivo de una política liberal. Pero es a través de la liberación y la acumulación de capital que esto se logra, no por la abolición del interés, es decir, del crédito libre.
 
-
 ![image](assets/es/068.webp)
-
 
 En efecto, según Bastiat, el progreso de la humanidad coincide con la formación del capital. En su opúsculo titulado Capital y renta, Bastiat nos lo hace comprender con Robinson Crusoe en su isla.
 
-
 ![image](assets/es/069.webp)
-
 
 Sin el capital o los materiales acumulados, Robinson estaría condenado a la muerte. A continuación explica que el capital enriquece al trabajador de dos maneras:
 
-
-
-- Aumenta la producción, con lo que disminuye el precio de los bienes de consumo;
-- que tiene el efecto de aumentar los salarios.
-
+- Aumenta la producción, con lo que disminuye el precio de los bienes de consumo
+- Que tiene el efecto de aumentar los salarios.
 
 En la sociedad moderna, el capital actúa como una fuerza igualadora. De hecho, Bastiat dice:
-
 
 > Cuando el capital aumenta, compite consigo mismo; su remuneración disminuye o, dicho de otro modo, el tipo de interés baja.
 
 En conclusión, tanto Proudhon como Bastiat reconocieron la importancia de la acumulación de capital y la tendencia de unos hombres a explotar a otros. Sin embargo, no sacaron las mismas conclusiones. Proudhon, al igual que Marx, preveía un empobrecimiento creciente de las masas en los países capitalistas. Bastiat creía que el capitalismo conduciría a una prosperidad sin precedentes en todas las clases y al desarrollo de una clase media cada vez más importante. Esto es, en efecto, lo que ocurrió.
 
-
 # Sofismas económicos
-
 
 <partId>59686d1d-58c6-59a8-9fc4-74a10d24cdbe</partId>
 
-
 ## Lo que se ve y lo que no se ve
-
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
 :::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
 
-
-En este capítulo, voy a desvelar una tecnología totalmente nueva, una tecnología revolucionaria. Un investigador ha desarrollado unas gafas biónicas con una minicámara ultrapotente incrustada en la parte frontal. Esta tecnología permite ver detalles imposibles de ver a simple vista. En los brazos hay un chip electrónico que transmite las imágenes directamente a la nube a través de mi smartphone.
-
+En este capítulo, vamos a desvelar una tecnología totalmente nueva, una tecnología revolucionaria. Un investigador ha desarrollado unas gafas biónicas con una minicámara ultrapotente incrustada en la parte frontal. Esta tecnología permite ver detalles imposibles de ver a simple vista. En los brazos hay un chip electrónico que transmite las imágenes directamente a la nube a través de mi smartphone.
 
 ![image](assets/es/070.webp)
 
-
-El inventor del primer prototipo de estas gafas fue Frédéric Bastiat en 1850 en un famoso panfleto: _Ce qu'on voit et ce qu'on ne voit pas_. Estas gafas son las del economista. Permiten medir las consecuencias de las decisiones tomadas por las autoridades sobre nuestras vidas. Son las gafas que "nos permiten ver lo que no vemos": la destrucción causada por las políticas clientelistas y las falsas teorías económicas. A menudo no vemos a sus víctimas, ni a sus beneficiarios, en resumen, sus efectos reales frente a las afirmaciones que se hacen en los discursos oficiales, lo que Bastiat llama "Sofismas económicos"
+El inventor del primer prototipo de estas gafas fue Frédéric Bastiat en 1850 en un famoso panfleto: _Ce qu'on voit et ce qu'on ne voit pas_. Estas gafas son las del economista. Permiten medir las consecuencias de las decisiones tomadas por las autoridades sobre nuestras vidas. Son las gafas que "nos permiten ver lo que no vemos": La destrucción causada por las políticas clientelistas y las falsas teorías económicas. A menudo no vemos a sus víctimas, ni a sus beneficiarios, en resumen, sus efectos reales frente a las afirmaciones que se hacen en los discursos oficiales, lo que Bastiat llama "Sofismas económicos"
 
 El buen economista, según Bastiat, debe describir los efectos de las decisiones políticas en la sociedad. Sin embargo, debe estar atento, no a sus efectos a corto plazo sobre un grupo concreto, sino a sus consecuencias a largo plazo para el conjunto de la sociedad. ¿Quiénes son las víctimas y quiénes los beneficiarios de estas políticas? ¿Cuáles son los costes ocultos de una determinada ley o decisión política? ¿Qué habrían hecho los contribuyentes en lugar del Gobierno con el dinero que se les ha quitado en impuestos? Estas son las preguntas que se plantea el buen economista según Bastiat.
 
-
 Así, en Obras públicas, Bastiat escribe:
-
 
 > El Estado abre una carretera, construye un palacio, endereza una calle, cava un canal; con ello, da trabajo a ciertos trabajadores, eso es lo que se ve; pero priva de trabajo a ciertos otros, eso es lo que no se ve.
 
 Uno de los sofismas más conocidos es la falacia de la ventana rota. Algunos afirman que la rotura de una ventana en una casa no perjudica a la economía puesto que beneficia al cristalero. Pero Bastiat demostrará que la destrucción no nos beneficia porque no crea riqueza. Cuesta más de lo que produce. El joven que rompe la ventana de un vecino da trabajo al vidriero. Pero he aquí cómo le consuelan sus amigos:
 
-
 > No hay mal que por bien no venga. Estos accidentes hacen que la industria siga adelante. Todo el mundo necesita vivir. ¿Qué sería de los cristaleros si nunca se rompieran ventanas?
 
 Así, según Keynes, la destrucción de la propiedad, al forzar el gasto, estimularía la economía y tendría un "efecto multiplicador" vigorizante sobre la producción y el empleo. Esto es sólo lo que se ve.
 
-
 Pero lo que no se ve es lo que el propietario habría comprado con ese dinero, pero de lo que ahora tiene que prescindir, con lo que tiene que gastar para reparar su ventana. Lo que no se ve es la oportunidad perdida por el propietario de la ventana rota. Podría haber destinado la suma entregada al cristalero a otra cosa. Si no hubiera tenido que gastar para reparar la ventana, podría haber destinado el dinero a su propio consumo, empleando así a personas para la producción.
 
-
-Por lo tanto, no habrá más "estimulación" de la economía con la rotura de la ventana que sin ella. Sin embargo, habrá habido una pérdida neta en el primer caso: el valor de la ventana.
-
+Por lo tanto, no habrá más "estimulación" de la economía con la rotura de la ventana que sin ella. Sin embargo, habrá habido una pérdida neta en el primer caso: El valor de la ventana.
 
 ![image](assets/es/071.webp)
 
-
 La primera lección que hay que aprender es que una "buena" decisión o una "buena" política es aquella que cuesta a la sociedad menos de lo que podría haber costado otra asignación de recursos. La eficacia de una política debe juzgarse no sólo en función de sus efectos, sino también de las alternativas que podrían haberse dado. Este es el concepto de "coste de oportunidad", muy apreciado por Bastiat.
-
 
 La segunda lección es que la destrucción no estimula la economía como piensan los keynesianos, sino que conduce al empobrecimiento. La destrucción de bienes materiales no tiene un efecto positivo en la economía, contrariamente a la creencia popular. Para utilizar las palabras finales del texto de Frédéric Bastiat: "la sociedad pierde el valor de los objetos innecesariamente destruidos"
 
-
 Tomemos un ejemplo actual. En cuanto la industria del automóvil atraviesa dificultades, los responsables políticos imaginan planes de desguace para "relanzarla". Lo que vemos es el aumento de las ventas de Renault y Peugeot. Lo que no vemos es la pérdida para otros sectores económicos y que se destruyen coches en perfecto estado de funcionamiento.
 
-
-Pero hay otras formas de impulsar la economía. Si el Estado se compromete en grandes proyectos o invierte fondos en determinados sectores industriales para apoyar el empleo, ¿no es una buena noticia para el crecimiento? Ya no, respondería Bastiat. Porque, ¿cómo se financiaría el gasto público? Aumentando los impuestos o con deuda, es decir, con costes invisibles pero muy reales, que afectarán al crecimiento. Además, el gobierno no produce nada; simplemente desvía recursos de su uso privado. Y lo que no vemos son las muchas cosas que se podrían haber producido si no se hubiera retirado capital del sector privado para financiar programas gubernamentales.
-
+Pero hay otras formas de impulsar la economía. Si el Estado se compromete en grandes proyectos o invierte fondos en determinados sectores industriales para apoyar el empleo, ¿No es una buena noticia para el crecimiento? Ya no, respondería Bastiat. Porque, ¿Cómo se financiaría el gasto público? Aumentando los impuestos o con deuda, es decir, con costes invisibles pero muy reales, que afectarán al crecimiento. Además, el gobierno no produce nada; simplemente desvía recursos de su uso privado. Y lo que no vemos son las muchas cosas que se podrían haber producido si no se hubiera retirado capital del sector privado para financiar programas gubernamentales.
 
 Por último, casi un siglo antes que Keynes, podemos decir que Bastiat refutó los sofismas keynesianos que afirman que el endeudamiento del Estado estimula la economía y que el gasto público produce crecimiento.
 
-
 ![image](assets/es/072.webp)
-
 
 La gran lección de esta serie de textos es que la intervención del Estado tiene efectos perversos que no se ven. Sólo un buen economista es capaz de preverlos. La política es lo que vemos. La economía es lo que no vemos.
 
-
 ## Petición de los fabricantes de velas
-
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
 :::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
-
 En 1840, la Cámara de Diputados votó una ley que aumentaba los impuestos a la importación para proteger la industria francesa. Este es el famoso patriotismo económico, que aún encontramos hoy en día.
-
 
 ![image](assets/es/073.webp)
 
 _arriba: Marine Le Pen, política francesa_
 
-
-
 Bastiat compuso entonces un texto satírico que más tarde se convertiría en una de sus obras más famosas: "La petición de los fabricantes de velas". Ilustra cómo ciertos grupos de presión de productores bien organizados obtienen privilegios indebidos del Estado, en detrimento de los ciudadanos. Al mismo tiempo, demuestra el carácter absurdo y destructivo de la legislación proteccionista.
 
-
 ![image](assets/es/074.webp)
-
 
 ---
 
@@ -763,118 +685,80 @@ Bastiat compuso entonces un texto satírico que más tarde se convertiría en un
 
 En esta petición, los fabricantes de velas solicitan a los diputados protección jurídica contra un rival peligroso:
 
-
 > Sufrimos la intolerable competencia de un rival extranjero que, al parecer, está en condiciones tan superiores para producir luz que inunda nuestro mercado nacional a un precio fabulosamente reducido.
 
-Entonces, ¿quién es este competidor extranjero desleal? No es otro que el sol. Los productores destacan entonces la oportunidad que supondría reservar "el mercado nacional al trabajo nacional", ordenando mediante una ley el cierre de "todas las ventanas, claraboyas, persianas, estores, cortinas, fanales, en una palabra, todas las aberturas, agujeros, rendijas y grietas por las que la luz del sol acostumbra a entrar en las casas".
-
+Entonces, ¿Quién es este competidor extranjero desleal? No es otro que el sol. Los productores destacan entonces la oportunidad que supondría reservar "el mercado nacional al trabajo nacional", ordenando mediante una ley el cierre de "todas las ventanas, claraboyas, persianas, estores, cortinas, fanales, en una palabra, todas las aberturas, agujeros, rendijas y grietas por las que la luz del sol acostumbra a entrar en las casas".
 
 En otras palabras, los fabricantes de velas intentan demostrar los efectos perjudiciales de un "competidor extranjero" (el sol) sobre la economía de Francia. Porque el sol no sólo puede proporcionar el mismo "producto" que las velas, sino que además lo hace gratis. Doscientos años después, esta historia sigue siendo increíblemente pertinente. Pensemos en los taxistas que piden que la ley prohíba los VTC y Uber. Piensa en las librerías que quieren prohibir Amazon.
 
-
 ![image](assets/es/075.webp)
-
 
 El verdadero adversario de Bastiat en esta ficción es el proteccionismo político y electoral, que se apoya únicamente en la codicia de los productores y la ingenuidad de los consumidores. Desvela la connivencia entre el mal capitalista de la época y el Estado. En lugar de innovar y adaptarse al mercado, el mal capitalista es el que busca obtener una ventaja política mediante el proteccionismo. El resultado es siempre un expolio para el consumidor, es decir, una injusticia.
 
 En resumen, el proteccionismo es una política deliberada a favor de los productores en contra de los consumidores. Sin embargo, según Bastiat, los verdaderos representantes del interés general son los consumidores, porque todos somos consumidores.
 
-
 El proteccionismo también se basa en un silogismo oculto que resulta ser una falacia:
 
-
-
-- Cuanto más trabajamos, más ricos somos;
-- Cuantas más dificultades tengamos que superar, más trabajaremos;
+- Cuanto más trabajamos, más ricos somos
+- Cuantas más dificultades tengamos que superar, más trabajaremos
 - Por lo tanto, cuantas más dificultades tengamos que superar, más ricos seremos.
-
 
 Ilustremos este absurdo con unas breves historias contadas por Bastiat. En el capítulo III de la segunda serie de Sofismas económicos, imagina a un carpintero que escribe al ministro una petición solicitando una legislación proteccionista. El carpintero formula así su petición Señor ministro, haga una ley que estipule que "Nadie podrá utilizar nada más que vigas y viguetas producidas con hachas romas" En otras palabras, haga una ley que prohíba el uso de hachas afiladas en Francia. Así, donde normalmente se dan 100 golpes de hacha, será necesario dar 300. Los carpinteros estarán muy solicitados y, por tanto, mejor pagados.
 
-
 ![image](assets/es/076.webp)
-
 
 En el capítulo XVI, hay otro texto muy irónico, titulado: La mano derecha y la mano izquierda. Tras una investigación, un enviado real redacta un informe en el que propone al rey cortar, o al menos atar, todas las manos derechas de los trabajadores. Así, prosigue, aumentará el trabajo y, en consecuencia, la riqueza. La producción se hará mucho más difícil, lo que hará necesaria la contratación masiva de mano de obra adicional y el aumento de los salarios. El pauperismo desaparecerá del país.
 
-
-Siguiendo esta lógica de crear empleo a toda costa, ¿por qué no sustituir también los camiones por carretillas y las palas por cucharillas? Todos estos sofismas tienen algo en común: confunden los medios con el fin. Para Bastiat, el objetivo de la economía no es la conservación de los empleos. No debemos juzgar la utilidad del trabajo por su duración e intensidad, sino por sus resultados: la satisfacción de las necesidades, la utilidad.
-
+Siguiendo esta lógica de crear empleo a toda costa, ¿Por qué no sustituir también los camiones por carretillas y las palas por cucharillas? Todos estos sofismas tienen algo en común: Confunden los medios con el fin. Para Bastiat, el objetivo de la economía no es la conservación de los empleos. No debemos juzgar la utilidad del trabajo por su duración e intensidad, sino por sus resultados: La satisfacción de las necesidades, la utilidad.
 
 Esta confusión de medios y fines se encuentra en el eslogan "el dinero es riqueza"
 
 Este es el axioma que rige la política monetaria de la mayoría de los Estados. En efecto, el aumento artificial de la cantidad de dinero permite a los bancos prestar dinero a los particulares y a los Estados para reembolsar fácilmente su deuda, esto es "lo que vemos". Pero "lo que no vemos" es que esta creación de dinero, no basada en ninguna creación de riqueza real, conducirá a la inflación y a la ruina de los ahorradores.
 
-
-
-
-La verdadera riqueza, según Bastiat, es por tanto el conjunto de cosas útiles que producimos mediante el trabajo para satisfacer nuestras necesidades. Así pues, el dinero no es más que un medio de uso corriente de Exchange, sólo desempeña el papel de intermediario.
-
+La verdadera riqueza, según Bastiat, es por tanto el conjunto de cosas útiles que producimos mediante el trabajo para satisfacer nuestras necesidades. Así pues, el dinero no es más que un medio de uso corriente de intercambio, sólo desempeña el papel de intermediario.
 
 ## Saqueo fiscal
-
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
 :::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
-
 > Cuando los ricos adelgazan, los pobres mueren.
 
 ![image](assets/es/077.webp)
 
-
 Esta cita, atribuida a Lao-Tzu, describe la consecuencia inevitable de un sistema fiscal que pretende golpear a los ricos con más dureza que a los demás.
 
-
-Sin embargo, ¿alguna vez has oído decir:
-
+Sin embargo, ¿Alguna vez has oído decir:
 
 > La fiscalidad es la mejor inversión: ¡es un rocío fertilizante! Mira cuántas familias mantiene, y sigue, con el pensamiento, sus rebotes en la industria: es infinito, es vida.
 
 En Francia, donde el gasto público se considera un beneficio, los impuestos son más altos que en otros países. Pero Bastiat nos advierte enseguida: "En todo gasto público, detrás del bien aparente hay un mal más difícil de discernir"
 
-
 ¿De qué se trata?
 
-
 La economía describe los efectos buenos o malos de las decisiones políticas en nuestras vidas. Sin embargo, según Bastiat, el economista debe estar atento no sólo a sus efectos a corto plazo sobre un grupo concreto, sino a sus consecuencias a largo plazo para el conjunto de la sociedad.
-
 
 > Lo que vemos es el trabajo y el beneficio que permite la contribución social. Lo que no vemos son las obras que generaría esa misma contribución si se dejara en manos de los contribuyentes. Lo que vemos es el trabajo y el beneficio que permite la contribución social. Lo que no vemos son las obras que generaría esa misma contribución si se dejara en manos de los contribuyentes.
 >
 
 > F. Bastiat
 
-
-
 De entrada, refuta el argumento, aún muy extendido, de que el gasto público financiado con impuestos crea empleo. En efecto, los impuestos no crean nada, puesto que lo que gasta el Estado ya no lo gastan los contribuyentes.
-
 
 Además, el Estado es más derrochador que los individuos. En efecto, recuerda, el Estado no posee nada, no produce riqueza. El gasto público es a menudo una fuente de despilfarro porque las inmensas sumas confiscadas a los particulares escapan a la responsabilidad de sus propietarios y son gastadas en su lugar por burócratas, sometidos a grupos de presión.
 
-
-
-
-Por supuesto, como pago por un servicio público equivalente recibido en Exchange, los impuestos son totalmente defendibles. Pero en Francia, el Estado ha asignado varias funciones a los impuestos.
-
+Por supuesto, como pago por un servicio público equivalente recibido en intercambio, los impuestos son totalmente defendibles. Pero en Francia, el Estado ha asignado varias funciones a los impuestos.
 
 Al principio, se suponía que servían para cubrir los gastos comunes. Luego, también se dio a los impuestos una función reguladora de la economía. En este caso, los políticos y los burócratas tienen un poder que sólo está limitado por su buena voluntad. Ensimismados en sus construcciones artificiales, modelan la economía gravando y regulando los sectores más o menos según sus caprichos para favorecerlos o desfavorecerlos.
 
-
 Por último, se asignó un papel social a los impuestos. Se convirtieron en un instrumento de justicia social. Así, los impuestos no deben afectar a todos de la misma manera. Los impuestos deben ser redistributivos, de los "que más tienen" a los "que menos tienen"
-
-
-
 
 El problema es que los impuestos, tal como están concebidos, están sujetos a la arbitrariedad de los gobernantes. Favorecen o desfavorecen a determinadas categorías sociales en función de si el poder espera votos de ellas o no. Además, los tipos progresivos aportan poco al erario público. Sin embargo, permiten a la mayoría expropiar a una minoría y se convierten naturalmente en confiscatorias.
 
-
 Por eso Bastiat ya había comprendido la curva de Laffer. Arthur Laffer es un economista estadounidense conocido por su famosa "curva" (una elipse), publicada en 1974, que demuestra que el rendimiento de los impuestos aumenta al bajar el tipo impositivo. Es la teoría del rendimiento decreciente de una fiscalidad excesiva.
 
-
 ![image](assets/es/078.webp)
-
 
 > Demasiados impuestos matan al impuesto.
 >
@@ -883,53 +767,38 @@ Por eso Bastiat ya había comprendido la curva de Laffer. Arthur Laffer es un ec
 
 Los políticos asumen ingenuamente que existe una relación automática y fija entre los tipos impositivos y los ingresos fiscales. Piensan que pueden duplicar los ingresos fiscales duplicando el tipo impositivo. Según Laffer, este planteamiento pasa por alto el hecho de que los contribuyentes pueden cambiar su comportamiento en respuesta a nuevos incentivos.
 
-
 ![image](assets/es/079.webp)
-
 
 La curva de Laffer muestra que el Estado no recauda ingresos cuando los tipos impositivos son del 100%. Por el contrario, cualquier reducción de impuestos sirve para estimular la actividad económica y, por tanto, los ingresos del Estado. En efecto, la reducción de los tipos impositivos marginales estimula la inversión, el trabajo, la creatividad y, por tanto, fomenta el crecimiento económico. Una reducción suficiente podría producir un estímulo económico suficiente para aumentar los ingresos públicos al ampliar significativamente la base impositiva.
 
-
 Bastiat podría añadir que debería darse tanta importancia a la reducción de los gastos del Estado como a la reducción de los impuestos. No obstante, como bien dijo Margaret Thatcher, discípula de Frédéric Bastiat:
 
-
 ![image](assets/es/080.webp)
-
 
 > El objetivo no es empobrecer a los ricos, sino enriquecer a los pobres.
 
 Y lo dijo dirigiéndose a los socialistas.
 
-
 ## Las dos moralidades
-
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
 :::video id=e2037025-a4db-4980-91e7-a04da99514de:::
 
-
 Mucha gente conoce "Tartufo o el impostor", la comedia de Molière en la que un astuto devoto intenta seducir a Elmire y estafar a su marido Orgon. ¿Cómo protegerse de los engaños de un hipócrita que finge hacerte el bien mientras conspira contra ti?
-
 
 ![image](assets/es/081.webp)
 
-
-Bastiat señala que hay dos formas de acabar con este tipo de impostura: corregir a Tartufo o iluminar a Orgón. Por supuesto, siempre habrá Tartufos, pero su poder de hacer daño se reduciría mucho si hubiera menos Orgones que los escucharan.
-
+Bastiat señala que hay dos formas de acabar con este tipo de impostura: Corregir a Tartufo o iluminar a Orgón. Por supuesto, siempre habrá Tartufos, pero su poder de hacer daño se reduciría mucho si hubiera menos Orgones que los escucharan.
 
 La debilidad de la razón humana está en la raíz del mal uso de la libertad. Es la principal limitación de los humanos y la causa de muchos males. Por ello, es necesario iluminar las conciencias sobre el carácter útil o perjudicial, y por tanto justo o injusto, de los actos humanos, ya sean individuales o colectivos.
 
-
 Sin embargo, hay dos formas complementarias de iluminar el juicio de los ciudadanos, como esboza Bastiat en un capítulo de la segunda serie de Sofismas económicos titulado "Las dos moralidades".
-
 
 ![image](assets/es/082.webp)
 
-
-
-- En primer lugar, existe una "moral filosófica o religiosa" que actúa purificando y corrigiendo la acción humana (el hombre como agente);
-- entonces, existe una "moral económica", que actúa mostrando al hombre "las consecuencias necesarias de sus actos" (el hombre como paciente).
+- En primer lugar, existe una "moral filosófica o religiosa" que actúa purificando y corrigiendo la acción humana (el hombre como agente)
+- Entonces, existe una "moral económica", que actúa mostrando al hombre "las consecuencias necesarias de sus actos" (el hombre como paciente).
 
 
 De hecho, se trata de dos marcos morales perfectamente complementarios.

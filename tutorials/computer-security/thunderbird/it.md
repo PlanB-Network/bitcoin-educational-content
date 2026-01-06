@@ -78,7 +78,7 @@ Si aprirà una nuova finestra che consentirà di collegarsi alla casella di post
 
 ![0_12](assets/fr/12.webp)
 
-Una volta configurato, il tuo account sarà automaticamente pronto e ti darà accesso a tutte le vostre e-mail. Potrai inviare, ricevere, archiviare o cancellare i tuoi messaggi con facilità.
+Una volta configurato, il tuo account sarà automaticamente pronto e ti darà accesso a tutte le tue e-mail. Potrai inviare, ricevere, archiviare o cancellare i tuoi messaggi con facilità.
 
 ![0_13](assets/fr/13.webp)
 

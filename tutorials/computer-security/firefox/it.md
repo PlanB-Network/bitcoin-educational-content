@@ -14,7 +14,7 @@ Tutti noi trascorriamo ore online, spesso senza renderci conto di ciò che il no
 
 *Quota di mercato dei browser web: Chrome domina con il 65% del mercato, seguito da Safari ed Edge. Fonte: [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
-Come mostra questo grafico, Google Chrome domina in modo massiccio, con oltre il 65% dell'utilizzo mondiale. Questa egemonia significa che la maggior parte degli utenti di Internet affida i propri dati di navigazione a Google, un'azienda il cui modello di business si basa sulla pubblicità mirata. Firefox, con appena il 3% del mercato, rappresenta un'alternativa sviluppata da Mozilla, un'organizzazione no-profit che non ha alcun interesse commerciale a sfruttare i vostri dati.
+Come mostra questo grafico, Google Chrome domina in modo massiccio, con oltre il 65% dell'utilizzo mondiale. Questa egemonia significa che la maggior parte degli utenti di Internet affida i propri dati di navigazione a Google, un'azienda il cui modello di business si basa sulla pubblicità mirata. Firefox, con appena il 3% del mercato, rappresenta un'alternativa sviluppata da Mozilla, un'organizzazione no-profit che non ha alcun interesse commerciale a sfruttare i tuoi dati.
 
 Ma scegliere Firefox è solo il primo passo. Per impostazione predefinita, anche Firefox richiede delle regolazioni per massimizzare la protezione. Questa guida ti accompagna passo dopo passo, dai più semplici ai più avanzati, per trasformare Firefox in un vero e proprio scudo contro il tracciamento, preservando al contempo una piacevole esperienza di navigazione.
 
@@ -317,7 +317,7 @@ Le migliori pratiche:
 
 ## Limiti e alternative
 
-- Un browser protetto ≠ Anonimato di rete: senza **VPN**, il vostro IP rimane visibile; anche con esso, la correlazione rimane possibile.
+- Un browser protetto ≠ Anonimato di rete: senza **VPN**, il tuo IP rimane visibile; anche con esso, la correlazione rimane possibile.
 - Modificare troppo può renderti **unico**. **RFP** standardizza; gli strumenti di randomizzazione (ad esempio Chameleon) possono... differenziarti. Testa, confronta, aggiusta.
 - Alternative/complementi:
   - Tor Browser: anonimato in rete tramite Tor; più lento. Consulta la nostra guida completa all'installazione e alla configurazione:

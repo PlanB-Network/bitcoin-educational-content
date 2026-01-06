@@ -53,6 +53,7 @@ Attualmente, GrapheneOS è disponibile solo per la gamma di telefoni [Google Pix
 ### Scegli un dispositivo
 
 Quando scegli il Pixel su cui installare GrapheneOS, assicurati di verificare per quanto tempo il dispositivo continuerà a ricevere [aggiornamenti di sicurezza](https://support.google.com/pixelphone/answer/4457705?hl=it#zippy=%2Cpixel-xl-a-a-g-a-g) predefiniti.
+
 Al momento della stesura, il modello Pixel 6a è il modello più economico disponibile con un buon supporto a lungo termine, garantito fino a luglio 2027. Se scegli questo modello, lo sblocco OEM non funzionerà con la versione del sistema operativo di serie. È necessario aggiornarlo alla versione di giugno 2022 o successiva tramite un aggiornamento over-the-air. Dopo averlo aggiornato, sarà anche necessario ripristinare le impostazioni di fabbrica del dispositivo per correggere lo sblocco OEM. Tutti gli altri modelli sbloccati dal gestore saranno pronti per GrapheneOS direttamente dalla confezione.
 
 Quando scegli un dispositivo, assicurati di acquistare una versione sbloccata. Alcuni gestori come Verizon inviano le loro unità con bootloader bloccato, il che impedisce completamente il processo seguente.

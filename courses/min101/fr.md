@@ -398,11 +398,11 @@ Dans l’entête de bloc, la cible n’apparaît pas sous sa forme complète de 
 Avec ce dernier chapitre, nous avons fait le tour du fonctionnement de la preuve de travail sur Bitcoin : le mineur construit un bloc candidat en sélectionnant des transactions dans sa mempool, calcule l’entête du bloc candidat, la hache, compare l’empreinte obtenue à la cible de la période, puis recommence en modifiant le nonce jusqu’à obtenir une empreinte valide. Enfin, tous les 2016 blocs, le réseau recalcule une nouvelle cible afin de maintenir un temps moyen d’environ 10 minutes par bloc, malgré les variations permanentes du hashrate.
 
 
-# La distribution des récompenses de minage
+# Le système d’incitations du minage de Bitcoin
 
 ## La récompense de bloc
 
-Vous vous en doutez sûrement : miner sur Bitcoin n’est pas une activité altruiste. Les mineurs ont des coûts bien réels : l’électricité pour faire tourner leurs ordinateurs qui minent, l'achat de matériel spécialisé, la masse salariale pour la maintenance, parfois des locaux et des systèmes de refroidissement refroidissement. Pour que le système Bitcoin fonctionne, il faut donc aligner l’intérêt privé des mineurs avec l’intérêt collectif du réseau. C’est exactement le rôle de la récompense de minage. Elle incite les mineurs à investir dans la preuve de travail, à inclure des transactions valides, et à respecter les règles du protocole plutôt que de tenter de le corrompre.
+Vous vous en doutez sûrement : miner sur Bitcoin n’est pas une activité altruiste. Les mineurs ont des coûts bien réels : l’électricité pour faire tourner leurs ordinateurs qui minent, l'achat de matériel spécialisé, la masse salariale pour la maintenance, parfois des locaux et des systèmes de refroidissement. Pour que le système Bitcoin fonctionne, il faut donc aligner l’intérêt privé des mineurs avec l’intérêt collectif du réseau. C’est exactement le rôle de la récompense de minage. Elle incite les mineurs à investir dans la preuve de travail, à inclure des transactions valides, et à respecter les règles du protocole plutôt que de tenter de le corrompre.
 
 Cette logique relève de la théorie des jeux : le protocole rend l’honnêteté rationnelle. Un mineur gagne de l’argent lorsqu’il produit un bloc valide accepté par les nœuds. À l’inverse, s'il essaie de tricher, son bloc sera rejeté par les nœuds, et il n’obtiendra rien. Comme produire un bloc a un coût, un bloc rejeté représente une perte sèche. Dans un environnement concurrentiel où des milliers d’acteurs cherchent simultanément un bloc valide, la stratégie la plus rentable, la plupart du temps, consiste donc à suivre strictement les règles et à maximiser son revenu de manière honnête.
 
@@ -413,6 +413,8 @@ Pour ce faire, le protocole Bitcoin prévoit que le mineur qui trouve un bloc va
 Dans les chapitres précédents, nous avons vu comment les mineurs parviennent à trouver un bloc valide. Une fois qu’un mineur a trouvé une entête dont le hash est inférieur à la cible, son bloc candidat est considéré comme valide. Il peut alors le diffuser à l’ensemble du réseau Bitcoin. Le bloc est ajouté à la suite de la blockchain et permet de confirmer les transactions qu’il contient. C’est précisément cet événement (l’ajout effectif du bloc à la blockchain) qui déclenche l’attribution d’une récompense au mineur gagnant. Cette récompense se compose de deux éléments distincts que l'on additionne :
 - **la subvention de bloc** ;
 - **les frais de transaction**.
+
+024
 
 Voyons ensemble à quoi correspondent ces deux parties de la récompense.
 
@@ -431,6 +433,8 @@ Le second rôle est lié à la distribution de la monnaie. Toute nouvelle monnai
 
 En revanche, puisque ces bitcoins sont créés à partir de rien, leur valeur ne provient pas de nulle part. En augmentant la quantité de monnaie en circulation, la subvention dilue mécaniquement la valeur des bitcoins déjà existants. Elle introduit donc une forme d’inflation monétaire. Nous verrons toutefois dans le prochain chapitre que cette subvention est destinée à disparaître progressivement, et qu’à terme, cette inflation cessera.
 
+025
+
 ### Les frais de transaction
 
 La seconde composante de la récompense de bloc est liée à l’usage du système : lorsqu’un utilisateur diffuse une transaction, il veut qu’elle soit confirmée. Or, l’espace dans les blocs est limité et un bloc n’apparaît en moyenne qu’environ toutes les 10 minutes. L’espace de bloc est donc une ressource rare. Quand la demande dépasse l’offre, le prix monte : c’est le marché des frais de transaction. Chaque mineur qui parvient à produire un bloc valide obtient le droit de percevoir, pour son propre compte, l’intégralité des frais de transaction associés à toutes les transactions qu’il a incluses dans son bloc.
@@ -448,17 +452,19 @@ Autrement dit, l’utilisateur engage en inputs des bitcoins qui lui appartienne
 
 Prenons un exemple. Une transaction consomme deux inputs, l’un de `100 000 sats` et l’autre de `150 000 sats`, et crée trois outputs de `35 000 sats`, `42 000 sats` et `170 000 sats`.
 
-
+027
 
 La somme des inputs est donc de `250 000 sats`, tandis que la somme des outputs est de `247 000 sats`. Cela signifie que `3 000 sats` ont été consommés en inputs sans être recréés en outputs : ce montant correspond aux frais proposés par cette transaction.
 
-
+028
 
 Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de récupérer ces `3 000 sats`, en plus des frais de toutes les autres transactions incluses dans le bloc. En revanche, il n’existe aucun lien direct on-chain entre la transaction qui paie les frais et les sats effectivement perçus par le mineur. Techniquement, les `3 000 sats` de frais sont détruits, et, en contrepartie, le mineur obtient le droit de les recréer pour lui-même.
 
 #### Le ratio de frais
 
 Un bloc n’est pas limité par le nombre de transactions, mais par sa capacité totale (aujourd’hui, en pratique, par le poids du bloc). Certaines transactions prennent plus de place que d’autres : une transaction avec de nombreux inputs et outputs sera plus volumineuse qu’une transaction simple avec un seul input et deux outputs. Les scripts utilisés vont aussi influencer la taille.
+
+026
 
 Deux transactions peuvent donc payer le même montant de frais en valeur absolue, mais ne pas être équivalentes économiquement du point de vue du mineur. Si l’une est deux fois plus grosse, elle coûte deux fois plus d’espace dans le bloc. Or l’espace est rare : le mineur cherche donc à maximiser ses revenus par unité d’espace.
 

@@ -18,11 +18,11 @@ Neste tutorial, também discutiremos a seção de frases de segurança, uma solu
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Conectar o Ledger à carteira de Bitcoin Sparrow (guia de escrita)
+## Conectar o Ledger à carteira de Bitcoin Sparrow (guia de escrita)
 
 Certifique-se de ler primeiro a outra parte "Usando Carteiras de Hardware Bitcoin". Vou passar rapidamente por algumas etapas e focar principalmente no que é específico para o Ledger aqui.
 
-## Configurando o dispositivo
+### Configurando o dispositivo
 
 O Ledger vem com seu próprio cabo USB. Certifique-se de usar esse cabo e não apenas qualquer cabo antigo. Alguns cabos USB são apenas para energia. Este transmite dados E energia. Quando usei o dispositivo com um cabo USB de carregamento de telefone que estava por perto, o dispositivo não conseguiu se conectar.
 
@@ -49,7 +49,7 @@ A próxima parte é super irritante. Ele mistura as 24 palavras e você precisa 
 
 Você verá no seu painel que você tem um botão de configurações e um botão de sinal de mais que permite instalar aplicativos. Mas você precisa se conectar ao Ledger Live primeiro. Faremos isso a seguir...
 
-## Baixe o Ledger Live
+### Baixe o Ledger Live
 
 Você pode baixar o Ledger Live em sua página da web, mas é melhor obtê-lo no GitHub, onde o código-fonte é mantido.
 
@@ -88,7 +88,7 @@ Observe a saída do hash e verifique se é idêntica àquela publicada no GitHub
 
 Idealmente, você deseja se certificar de que os hashes publicados não sejam falsos. Fazemos isso com assinaturas gpg, mas está fora do escopo deste artigo. Se você quiser aprender sobre isso (e sugiro que eventualmente faça), leia este artigo.
 
-## Conecte-se ao Ledger Live
+### Conecte-se ao Ledger Live
 
 Antes de executar o Ledger Live, é útil ativar uma VPN para garantir um pouco mais de privacidade. O Ledger ainda terá todos os seus endereços, mas não saberá seu endereço IP, que revela seu endereço residencial. O Mullvad VPN é um excelente serviço de VPN e não é muito caro (não estou fazendo propaganda, é apenas o que eu uso).
 
@@ -127,7 +127,7 @@ Lembre-se de que anteriormente, no dispositivo, tínhamos um botão de configura
 
 Agora você pode fechar o Ledger Live.
 
-## Adicionar uma senha'
+### Adicionar uma senha'
 
 Agora que temos o aplicativo Bitcoin, podemos adicionar uma frase de acesso à nossa frase de semente. Antes, quando a semente foi criada pela primeira vez, não podíamos fazer isso porque, no início, não tínhamos o aplicativo Bitcoin e precisávamos nos conectar ao Ledger Live para obtê-lo.
 Vá para o menu "configurações" dentro do dispositivo, em seguida, o submenu "segurança". Em seguida, selecione a frase de acesso. Você verá "Recurso avançado". Clique no botão direito, você verá "ler manual..." e depois de um clique no botão direito, você verá "voltar". Mas isso não é o fim. Intuitivamente, você pensaria isso, mas clique no botão direito novamente. Você verá "configurar frase de acesso".
@@ -140,7 +140,7 @@ Será solicitado o "PIN atual". Este não é o PIN que você está associando à
 
 Agora você pode sair para o menu principal selecionando a opção voltar algumas vezes.
 
-## Observando a Carteira
+### Observando a Carteira
 
 Em artigos anteriores, expliquei como baixar e verificar a carteira Sparrow e como conectá-la ao seu próprio nó ou a um nó público. Você deve seguir esses guias:
 
@@ -186,7 +186,7 @@ Após uma pausa, enquanto o computador pensa, você verá os botões à esquerda
 
 ![image](assets/21.webp)
 
-## Recebendo
+### Recebendo
 
 Para receber alguns bitcoins, vá para a guia "Endereços" à esquerda e escolha um dos endereços para receber. Basta clicar com o botão direito no endereço desejado e selecionar "copiar endereço". Em seguida, vá para sua exchange de onde o dinheiro está sendo enviado e cole-o lá. Ou você pode fornecer o endereço a um cliente que possa usá-lo para pagar você.
 
@@ -194,7 +194,7 @@ Quando você usa a carteira pela primeira vez, você deve receber uma quantia mu
 
 Depois de fazer isso, você deve fazer backup das palavras que você anotou. Uma única cópia não é suficiente. Tenha pelo menos duas cópias em papel (metal é melhor) e mantenha-as em dois locais diferentes e bem seguros. Isso reduz o risco de um desastre natural destruir sua HWW e o backup em papel em um único incidente. Veja "Usando Carteiras de Hardware Bitcoin" para uma discussão completa sobre isso.
 
-## Enviando
+### Enviando
 
 ![image](assets/22.webp)
 
@@ -204,11 +204,11 @@ A carteira não pode assinar a transação a menos que a HWW esteja conectada. E
 
 Também preste atenção que, se você escolher usar uma moeda que seja maior que o valor do pagamento, o restante será enviado de volta para um dos endereços de troco de suas carteiras. Algumas pessoas não sabiam disso e procuraram sua transação em uma blockchain pública e pensaram que alguns bitcoins foram enviados para o endereço de um atacante, mas na verdade era o próprio endereço de troco delas.
 
-## Firmware
+### Firmware
 
 Para atualizar o firmware, você precisa se conectar ao Ledger Live. Se você quiser fazer isso, deve limpar o dispositivo primeiro e garantir que tenha suas palavras de backup e frase de acesso disponíveis para restaurar o dispositivo. A razão pela qual prefiro limpar o dispositivo primeiro é que você precisa conectar seu dispositivo ao Ledger Live para atualizar o firmware, e prefiro não expor sua nova carteira (aquela com a frase de acesso) ao Ledger Live, nunca. Eu simplesmente não confio que a Ledger não esteja extraindo minhas informações de chave pública do dispositivo quando me conecto ao Ledger Live. Eles afirmam que não, mas não posso verificar isso a menos que leia o código e entenda o hardware interno também.
 
-## Conclusão
+### Conclusão
 
 Este artigo mostrou como usar uma HWW Ledger de maneira mais segura e privada do que o anunciado - mas este artigo sozinho não é suficiente. Como eu disse no início, você deve combiná-lo com as informações fornecidas em "Usando Carteiras de Hardware Bitcoin".
 Dicas:

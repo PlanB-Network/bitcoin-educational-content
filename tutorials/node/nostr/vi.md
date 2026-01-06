@@ -4,7 +4,7 @@ description: Khám phá và bắt đầu sử dụng NOSTR
 ---
 
 
-![Một thách thức mới đã xuất hiện](assets/1.webp)
+![Một thách thức mới đã xuất hiện](assets/cover.webp)
 
 *Vào cuối hướng dẫn này, bạn sẽ hiểu Nostr là gì, bạn sẽ tạo một tài khoản và bạn sẽ có thể sử dụng nó.*
 

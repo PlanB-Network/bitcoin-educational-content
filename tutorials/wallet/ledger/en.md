@@ -18,11 +18,11 @@ In this tutorial, we also discuss the passphrases section, an advanced security 
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Connect Ledger to Sparrow Bitcoin Wallet (writing guide)
+## Connect Ledger to Sparrow Bitcoin Wallet (writing guide)
 
 Make sure you go through the other piece “Using Bitcoin Hardware Wallets” first. I will skim through some steps and focus mostly on what is specific to Ledger here.
 
-## Setting up the device
+### Setting up the device
 
 The Ledger comes with its own USB cable. Make sure you use that and not just any old cable. Some USB cables are power only. This one transmits data AND power. When I’ve used the device with a phone charging USB cable lying around, the device has failed to connect.
 
@@ -49,7 +49,7 @@ The next bit is super annoying. It mixes up the 24 words and you have to confirm
 
 You will see on your dashboard that you have a settings button, and a plus-sign button that allows you to install apps. But you need to connect to Ledger Live first. We’ll do that next…
 
-## Download Ledger Live
+### Download Ledger Live
 
 You could download Ledger Live from their webpage, but it’s better to get it from GitHub, where the source code is kept.
 
@@ -86,7 +86,7 @@ Look at the output of the hash and make sure it is identical to the one publishe
 
 Ideally, you want to get extra fancy and make sure that the hashes that are published are not fake. We do this with gpg signatures, but it’s outside of the scope of this article. If you want to learn about that (and I suggest you eventually do), then look through this article.
 
-## Connect to Ledger Live
+### Connect to Ledger Live
 
 Before you run Ledger Live, it helps privacy a little to turn on a VPN. Ledger will still get all your addresses, but they won’t know your IP address, which gives away your home address. Mullvad VPN is an excellent VPN service and it is not very expensive (I’m not advertising, it’s just what I use).
 
@@ -125,7 +125,7 @@ Remember that earlier, on the device, we had a settings button and a plus-sign b
 
 You can shutdown Ledger Live now.
 
-## Add a passphrase
+### Add a passphrase
 
 Now that we have the Bitcoin App, we can add a passphrase to our seed phrase. We couldn’t do that before when the seed was first created because at the start, we didn’t have the Bitcoin App, and we needed to connect to Ledger Live to get it.
 
@@ -139,7 +139,7 @@ It will ask you for the “Current PIN”. This is not the PIN you are associati
 
 You can now exit to the main menu by selecting the back option a few times.
 
-## Watching Wallet
+### Watching Wallet
 
 In previous articles, I explained how to download and verify Sparrow wallet, and how to connect it to your own node, or a public node. You should follow these guides:
 
@@ -185,7 +185,7 @@ After a pause, while the computer thinks, you will see the buttons on the left c
 
 ![image](assets/21.webp)
 
-## Receiving
+### Receiving
 
 To receive some bitcoin, go to the Addresses tab on the left and choose one of the addresses to receive. Just right-click the address you want, and select “copy address”. Then go to your exchange where the money is being sent from and paste it there. Or you may give the address to a customer who can use it to pay you.
 
@@ -193,7 +193,7 @@ When you use the wallet for the first time, you should receive a very small amou
 
 Once you do that, you must back up the words that you wrote down. A single copy is not enough. Have two paper copies at least (metal is better), and keep them in two different, well secured, locations. This reduces the risk of a natural disaster destroying your HWW and paper back up in one incident. See “Using Bitcoin Hardware Wallets” for a full discussion on this.
 
-## Sending
+### Sending
 
 ![image](assets/22.webp)
 
@@ -203,11 +203,11 @@ The Wallet can not sign the transaction unless the HWW is connected. That’s th
 
 Also pay attention that if you choose to use a coin that is larger than the payment amount, then the remainder will be sent back to one of your wallets’ change addresses. Some people have not known this, and looked up their transaction on a public blockchain, and thought that some bitcoin was sent to an attackers address, but in fact, it was their own change address.
 
-## Firmware
+### Firmware
 
 To update the firmware, you need to connect to Ledger Live. If you want to do this, you should wipe the device first, and make sure you have your backup words and passphrase available to restore the device. The reason I prefer to wipe the device first is that you have to connect your device to Ledger Live to update the firmware, and I prefer not to expose your new wallet (the one with the passphrase) to Ledger Live, ever. I just don’t trust Ledger is not extracting my public key information from the device when I connect to Ledger Live. They claim they don’t, but I can’t verify that myself unless I read the code, and understand the internal hardware as well.
 
-## Conclusion
+### Conclusion
 
 This article showed you how to use a Ledger HWW in a safer and more private way than advertised – but this article alone is not enough. As I said at the start, you should combine it with the information provided in “Using Bitcoin Hardware Wallets“.
 Tips:

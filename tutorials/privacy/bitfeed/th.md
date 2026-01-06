@@ -11,7 +11,7 @@ Bitfeed เป็นแพลตฟอร์มสำหรับการแส
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ในบทแนะนำนี้ เราจะมาดูเครื่องมือนี้ ซึ่งช่วยให้คุณสำรวจธุรกรรมและบล็อกทั้งหมดบนเครือข่าย
 
@@ -95,7 +95,7 @@ Bitfeed เป็นแพลตฟอร์มที่มุ่งเน้น
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ตามค่าเริ่มต้น การทำธุรกรรมในบล็อกจะแสดงตามสองเกณฑ์:
 

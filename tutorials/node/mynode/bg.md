@@ -3,7 +3,7 @@ name: My Node
 description: Настройте своя Bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [My Node](https://mynodebtc.com/) е най-лесният и най-мощен начин за управление на възел Bitcoin и Lightning! Ние комбинираме най-добрия софтуер с отворен код с нашия интерфейс, управление и поддръжка, така че да можете лесно, частно и сигурно да използвате Bitcoin и Lightning.

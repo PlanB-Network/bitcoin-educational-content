@@ -3,7 +3,7 @@ name: Shelter
 description: Gunakan ponsel yang sama untuk pekerjaan dan kehidupan pribadi dengan Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -112,7 +112,7 @@ Kemudian ketuk **Instal** lagi pada menu konteks yang muncul untuk mengesahkan p
 
 
 
-Anda juga bisa menginstal Shelter dari repositori [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Anda juga bisa menginstal Shelter dari repositori [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

@@ -46,7 +46,7 @@ In questa esercitazione, utilizzeremo l'estensione Alby nel browser Firefox con 
 
 
 
-È possibile aggiungere l'estensione Alby al browser visitando il negozio di estensioni [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) o il negozio di estensioni [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+È possibile aggiungere l'estensione Alby al browser visitando il negozio di estensioni [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) o il negozio di estensioni [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

@@ -11,7 +11,7 @@ Application stores play a central role in the use of your device's resources, an
 In this tutorial, we discover Aurora Store, a simple, open-source and secure alternative to Google Play Store.
 
 
-# Getting started with Aurora Store
+## Getting started with Aurora Store
 
 
 Aurora Store is a product of *Aurora Open Source Software*, a collective of developers and privacy enthusiasts focused on building free, open-source tools that respect your digital life and freedom.
@@ -67,7 +67,7 @@ In the application settings, you can define the frequency of updates and the upd
 From Aurora Store, you can access the catalog of applications available on Google Play Store, read their descriptions, get user feedback and install them on your phone. However, this doesn't mean that all applications are free. If your application has to be paid for on Play Store, you'll need to make payment first, either using the Play Store application or by visiting the official Play Store website.
 
 
-## Features
+### Features
 
 
 Aurora Store not only mirrors Google Play Store, it also includes features that give you all the information you need about the applications you want to install. With these features, Aurora Store puts you in control of your data and your digital life.

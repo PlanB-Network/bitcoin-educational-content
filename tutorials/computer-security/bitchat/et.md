@@ -54,7 +54,7 @@ Bitchat võimaldab teil saata sõnumeid läheduses asuvatele telefonidele otse B
 Bitchat võimaldab teil liituda ka asukohapõhiste jututubadega, kasutades Nostr protokolli ja `#geohashes`. Geohash on lühike kood, näiteks `#u33d`, mis tähistab konkreetset geograafilist piirkonda, alates ühest naabruskonnast kuni terve linna või piirkonnani. Saate `teleportida` ükskõik millisesse geohashi jututuppa üle maailma, lihtsalt sisestades selle tagi. Teie sõnumid saadetakse läbi detsentraliseeritud releevõrgu, mis kaitseb teie täpset asukohta. Lisaks sellele antakse teile iga kord, kui liitute geohash-ruumiga, uus ajutine identiteet, mis lisab teie asukohapõhistele vestlustele täiendavat privaatsust.
 
 
-Täpsemaid tehnilisi üksikasju leiate [ametlikust teabelehes] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Täpsemaid tehnilisi üksikasju leiate [ametlikust teabelehes](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Paigaldamine ja seadistamine
@@ -319,7 +319,7 @@ Alternatiivina võite puudutada `kaardi ikooni`, et kasutada kaardivaadet täpsu
 ## 8️⃣ Heatmaps
 
 
-Heatmaps on lahe viis Bitchati sündmuste ja kanalite avastamiseks kogu maailmas. [Bitmap] (https://bitmap.lat/) visualiseerib ja jälgib anonüümseid, asukohapõhiseid sõnumeid Nostr võrgus, kuvades efektseid Nostr sündmusi. Vaadake ja liituge asukohaspetsiifiliste kanalite ja vestlustega.
+Heatmaps on lahe viis Bitchati sündmuste ja kanalite avastamiseks kogu maailmas. [Bitmap](https://bitmap.lat/) visualiseerib ja jälgib anonüümseid, asukohapõhiseid sõnumeid Nostr võrgus, kuvades efektseid Nostr sündmusi. Vaadake ja liituge asukohaspetsiifiliste kanalite ja vestlustega.
 
 
 ![image](assets/en/15.webp)

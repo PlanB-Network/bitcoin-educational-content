@@ -18,7 +18,7 @@ Panduan ini memandu Anda melalui instalasi, konfigurasi, dan penggunaan Bull Bit
 ## Pendahuluan
 
 
-Bull Bitcoin Wallet, yang dikembangkan oleh [Bull Bitcoin] (https://www.bullbitcoin.com/), merupakan sebuah **self-custodial** Bitcoin wallet, yang berarti Anda memiliki kontrol penuh atas kunci pribadi Anda dan juga dana Anda, tanpa bergantung pada pihak ketiga. Bersifat open-source dan berakar pada filosofi Cypherpunk, Wallet ini menggabungkan kesederhanaan, kerahasiaan, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan Anda untuk mengelola bitcoin Anda di tiga jaringan: **Bitcoin onchain**, **Liquid** dan **Lightning**, masing-masing disesuaikan dengan penggunaan tertentu. Di [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49), Anda dapat melihat topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", Anda juga dapat mengirimkan saran dan bug yang Anda temui. Meskipun beberapa dompet sekarang mendukung beberapa jaringan, Bull Bitcoin Wallet menonjol dengan mengintegrasikan fitur privasi secara mendalam di semua jaringan, menjadikannya alat yang ampuh untuk mengelola Bitcoin Anda di semua jaringan utama
+Bull Bitcoin Wallet, yang dikembangkan oleh [Bull Bitcoin](https://www.bullbitcoin.com/), merupakan sebuah **self-custodial** Bitcoin wallet, yang berarti Anda memiliki kontrol penuh atas kunci pribadi Anda dan juga dana Anda, tanpa bergantung pada pihak ketiga. Bersifat open-source dan berakar pada filosofi Cypherpunk, Wallet ini menggabungkan kesederhanaan, kerahasiaan, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan Anda untuk mengelola bitcoin Anda di tiga jaringan: **Bitcoin onchain**, **Liquid** dan **Lightning**, masing-masing disesuaikan dengan penggunaan tertentu. Di [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), Anda dapat melihat topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", Anda juga dapat mengirimkan saran dan bug yang Anda temui. Meskipun beberapa dompet sekarang mendukung beberapa jaringan, Bull Bitcoin Wallet menonjol dengan mengintegrasikan fitur privasi secara mendalam di semua jaringan, menjadikannya alat yang ampuh untuk mengelola Bitcoin Anda di semua jaringan utama
 
 
 ## 1️⃣ Prasyarat
@@ -76,13 +76,13 @@ Di sini, kita dapat mengonfigurasi pengaturan lanjutan sebelum membuat atau memu
 
 1. Aktifkan `Tor proxy` untuk merutekan lalu lintas melalui jaringan Tor.
 
-1. [Aplikasi Orbot] (https://orbot.app/en/) perlu diinstal dan dijalankan sebelum mengaktifkan
+1. [Aplikasi Orbot](https://orbot.app/en/) perlu diinstal dan dijalankan sebelum mengaktifkan
 
 2. Tor Proxy hanya berlaku untuk Bitcoin (bukan Liquid) dan dapat mengakibatkan koneksi yang lebih lambat.
 
 2. Menyiapkan `Custom Electrum Server`, atau
 
-3. Sesuaikan pengaturan `Pulihkan Banteng`. Kita akan mempelajari lebih lanjut mengenai [Recover Bull] (https://recoverbull.com/) nanti.
+3. Sesuaikan pengaturan `Pulihkan Banteng`. Kita akan mempelajari lebih lanjut mengenai [Recover Bull](https://recoverbull.com/) nanti.
 
 
 Setelah melakukan semua penyesuaian opsional, ketuk `Selesai`. Jika Anda ingin menggunakan kembali Wallet yang sudah ada, klik `Pulihkan Wallet` dan isi 12 kata frasa pemulihan Anda.
@@ -106,7 +106,7 @@ Sebelum kita menyelam lebih dalam, mari kita lihat `Layar Utama` untuk mendapatk
 - Akses `Bitcoin Bull Exchange` untuk `Beli, Jual, atau Bayar` (ini tergantung pada yurisdiksi dan mungkin memerlukan KYC).
 - 'Transfer' dana antar dompet
 - `Secure Bitcoin` sama dengan Onchain Bitcoin Wallet
-- pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid] (https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui [*pertukaran Boltz] (https://boltz.exchange/). Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
+- pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid](https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui [*pertukaran Boltz](https://boltz.exchange/). Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
 - `Kirim` dan `Terima` dana
 
 
@@ -207,7 +207,7 @@ Sekarang, simpan `file cadangan`. Selanjutnya, ketuk `Test Recovery`, pilih file
 ### Label Impor / Ekspor
 
 
-Sekarang setelah kita membuat Cadangan, mari kita lihat `Label`.  Bull Bitcoin wallet meningkatkan privasi dan pengaturan dengan memungkinkan pengguna untuk membuat label khusus untuk alamat penerima dan transaksi mereka. Label-label ini membantu Anda mengkategorikan dana Anda, karena transaksi yang dikirim ke alamat berlabel akan mewarisi label tersebut, dan Anda juga dapat memberi label pada transaksi keluar untuk melacak perubahannya. wallet sepenuhnya mendukung standar [BIP-329] (https://bip329.org/), yang berarti Anda dapat mengekspor semua label ke file dan mengimpornya ke wallet lainnya. Fitur ini memastikan Anda dapat mencadangkan riwayat transaksi dan kategorisasi dengan lancar, atau memigrasikannya di antara berbagai contoh wallet, tanpa kehilangan organisasi yang telah disesuaikan.
+Sekarang setelah kita membuat Cadangan, mari kita lihat `Label`.  Bull Bitcoin wallet meningkatkan privasi dan pengaturan dengan memungkinkan pengguna untuk membuat label khusus untuk alamat penerima dan transaksi mereka. Label-label ini membantu Anda mengkategorikan dana Anda, karena transaksi yang dikirim ke alamat berlabel akan mewarisi label tersebut, dan Anda juga dapat memberi label pada transaksi keluar untuk melacak perubahannya. wallet sepenuhnya mendukung standar [BIP-329](https://bip329.org/), yang berarti Anda dapat mengekspor semua label ke file dan mengimpornya ke wallet lainnya. Fitur ini memastikan Anda dapat mencadangkan riwayat transaksi dan kategorisasi dengan lancar, atau memigrasikannya di antara berbagai contoh wallet, tanpa kehilangan organisasi yang telah disesuaikan.
 
 
 ![image](assets/en/05.webp)
@@ -276,7 +276,7 @@ Selain itu, Anda memiliki opsi untuk:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Langsung dari wallet, Anda memiliki akses ke [Bull Bitcoin exchange] (https://www.bullbitcoin.com/), sehingga Anda dapat membeli, menjual, dan membayar Bitcoin tanpa harus meninggalkan aplikasi. Integrasi ini memberikan solusi yang nyaman untuk mengelola kebutuhan Bitcoin Anda. Perlu diketahui bahwa akses ke bursa dan layanannya mungkin dibatasi berdasarkan yurisdiksi Anda, dan menyelesaikan verifikasi Kenali Pelanggan Anda (KYC) mungkin diperlukan untuk mematuhi standar peraturan dan menggunakan fitur lengkap platform.
+Langsung dari wallet, Anda memiliki akses ke [Bull Bitcoin exchange](https://www.bullbitcoin.com/), sehingga Anda dapat membeli, menjual, dan membayar Bitcoin tanpa harus meninggalkan aplikasi. Integrasi ini memberikan solusi yang nyaman untuk mengelola kebutuhan Bitcoin Anda. Perlu diketahui bahwa akses ke bursa dan layanannya mungkin dibatasi berdasarkan yurisdiksi Anda, dan menyelesaikan verifikasi Kenali Pelanggan Anda (KYC) mungkin diperlukan untuk mematuhi standar peraturan dan menggunakan fitur lengkap platform.
 
 
 Untuk memulai, ketuk `Exchange` di sudut kanan bawah, lalu `Daftar` atau `Masuk` ke akun Anda.
@@ -331,7 +331,7 @@ Anda memiliki dua mode utama untuk menghasilkan alamat penerimaan:
 **Mode Default (URI dengan parameter masukan tambahan)
 
 
-Secara default, wallet menghasilkan [BIP21 URI] (https://bips.dev/21/). Ini adalah format standar yang mengemas lebih banyak informasi daripada alamat sederhana, termasuk jumlah, catatan pribadi, dan parameter PayJoin untuk meningkatkan privasi. URI komprehensif ini dikodekan ke dalam kode QR dan tersedia untuk disalin. Formatnya terlihat seperti ini: `bitcoin:<alamat>?<parameter1>=<nilai1>&<parameter2>=<nilai2>`.
+Secara default, wallet menghasilkan [BIP21 URI](https://bips.dev/21/). Ini adalah format standar yang mengemas lebih banyak informasi daripada alamat sederhana, termasuk jumlah, catatan pribadi, dan parameter PayJoin untuk meningkatkan privasi. URI komprehensif ini dikodekan ke dalam kode QR dan tersedia untuk disalin. Formatnya terlihat seperti ini: `bitcoin:<alamat>?<parameter1>=<nilai1>&<parameter2>=<nilai2>`.
 
 
 
@@ -560,7 +560,7 @@ Dari layar Selamat Datang, pilih `Pulihkan Wallet`. Kali ini, pilih metode `Phys
 Untuk tingkat keamanan tertinggi, banyak pengguna Bitcoin memilih untuk menyimpan dana mereka dalam `penyimpanan dingin`. Ini berarti menyimpan `kunci pribadi` yang mengontrol Bitcoin Anda pada perangkat yang tidak pernah terhubung ke internet. Sebuah `perangkat keras wallet` (atau perangkat Penandatanganan) adalah perangkat fisik khusus yang dirancang untuk tujuan ini. Perangkat ini berfungsi seperti brankas digital untuk kunci Anda, memastikan kunci tersebut tidak pernah terpapar pada potensi ancaman dari komputer atau ponsel pintar online.
 
 
-Dengan menghubungkan perangkat keras wallet ke aplikasi Bull Bitcoin, Anda mendapatkan yang terbaik dari kedua dunia: keamanan tanpa kompromi dari cold storage untuk private key Anda, dikombinasikan dengan fitur-fitur yang kuat dan antarmuka yang mudah digunakan dari Bull Bitcoin wallet untuk melihat saldo dan mengelola transaksi. Pada bab terakhir ini, kami akan menunjukkan kepada Anda cara menghubungkan perangkat keras wallet, seperti [Coldcard Q] (https://coldcard.com/q), ke Bull Bitcoin wallet Anda. Tutorial ini tidak akan membahas pengaturan Coldcard Q secara mendalam; Anda dapat mempelajarinya di sini:
+Dengan menghubungkan perangkat keras wallet ke aplikasi Bull Bitcoin, Anda mendapatkan yang terbaik dari kedua dunia: keamanan tanpa kompromi dari cold storage untuk private key Anda, dikombinasikan dengan fitur-fitur yang kuat dan antarmuka yang mudah digunakan dari Bull Bitcoin wallet untuk melihat saldo dan mengelola transaksi. Pada bab terakhir ini, kami akan menunjukkan kepada Anda cara menghubungkan perangkat keras wallet, seperti [Coldcard Q](https://coldcard.com/q), ke Bull Bitcoin wallet Anda. Tutorial ini tidak akan membahas pengaturan Coldcard Q secara mendalam; Anda dapat mempelajarinya di sini:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

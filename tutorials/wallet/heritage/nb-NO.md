@@ -82,7 +82,7 @@ For avanserte brukere som foretrekker terminalen, tilbyr Heritage et kommandolin
 
 
 
-Full CLI-dokumentasjon er tilgjengelig på [btc-heritage.com/heritage-cli] (https://btc-heritage.com/heritage-cli). Her finner du instruksjoner for nedlasting, tilkobling til tjenesten, opprettelse av lommebøker (med Ledger eller lokale nøkler), administrasjon av arvinger og transaksjoner.
+Full CLI-dokumentasjon er tilgjengelig på [btc-heritage.com/heritage-cli](https://btc-heritage.com/heritage-cli). Her finner du instruksjoner for nedlasting, tilkobling til tjenesten, opprettelse av lommebøker (med Ledger eller lokale nøkler), administrasjon av arvinger og transaksjoner.
 
 
 
@@ -102,7 +102,7 @@ Heritage Desktop er et grafisk program med et intuitivt grensesnitt som veileder
 
 
 
-Gå til [btc-heritage.com] (https://btc-heritage.com) og klikk på "Last ned applikasjon".
+Gå til [btc-heritage.com](https://btc-heritage.com) og klikk på "Last ned applikasjon".
 
 
 
@@ -810,4 +810,4 @@ Heritage lar deg planlegge Bitcoin-etterfølgeren din på en suveren måte via s
 - [Heritage offisielle nettsted](https://btc-heritage.com)
 - [Dokumentasjon CLI](https://btc-heritage.com/heritage-cli)
 - [GitHub Heritage CLI](https://github.com/crypto7world/heritage-cli)
-- [GitHub Heritage Desktop] (https://github.com/crypto7world/heritage-gui)
+- [GitHub Heritage Desktop](https://github.com/crypto7world/heritage-gui)

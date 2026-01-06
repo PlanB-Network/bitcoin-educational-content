@@ -1,8 +1,0 @@
-question: Lightning Network ödemelerinin hangi temel sınırlaması wallet geliştiricileri için on-chain Bitcoin işlemlerinde mevcut olmayan benzersiz bir zorluk yaratmaktadır?
-answer: Lightning ödemeleri yalnızca ödeme kanallarında geçici durumlar olarak bulunur ve blok zincirine kalıcı olarak kaydedilmez, bu da özel ödeme geçmişi izleme sistemleri gerektirir
-wrong_answers:
-  - Lightning ödemelerinin işlenmesi için on-chain işlemlerine kıyasla çok daha fazla hesaplama kaynağı gerekir, bu da mobil uygulamayı kaynak yoğun hale getirir
-  - Lightning ödemeleri kriptografik olarak on-chain işlemleriyle aynı şekilde doğrulanamaz, bu da wallet uygulamaları için güvenlik açıkları yaratır
-  - Yıldırım ödemelerinin merkezi yönlendirme düğümleri aracılığıyla işlenmesi gerekir, bu da gerçekten gözetim dışı wallet mimarisini sürdürmeyi imkansız hale getirir
-explanation: |
-  Doğru cevap, Lightning ve on-chain ödemeleri arasındaki temel mimari farkı tanımlar. Zincir üzerindeki Bitcoin işlemleri kalıcı olarak blok zincirine kaydedilir ve bu da blok zinciri sorguları aracılığıyla ödeme geçmişinin kolayca alınmasını sağlar. Ancak Lightning ödemeleri yalnızca geçici kanal durumları olarak mevcuttur ve kalıcı bir blok zinciri kaydı bırakmaz, bu da geliştiricileri özel izleme ve depolama sistemleri uygulamaya zorlar. Yanlış cevaplar yanlıştır çünkü: Lightning ödemeleri hesaplama açısından verimlidir (kaynak yoğun değildir), Bitcoin ile aynı kriptografik güvenliği korur ve yönlendirme merkezi değildir (merkezileştirilmemiştir).

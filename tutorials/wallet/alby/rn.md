@@ -46,7 +46,7 @@ Muri iyi nyigisho, tuzoba turiko turakoresha igice ca Alby mu mucukumbuzi wa Fir
 
 
 
-Ushobora kwongerako ivyagutse vya Alby ku mucukumbuzi wawe mu gusura ububiko bw'ivyagutse [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) canke ububiko bw'ivyagutse [Chrome] (Ibisobanuro/ibisobanuro/alby-bitcoin-wallet-ku-l/iokeahhehimjnefflcihljlcjccdbe).
+Ushobora kwongerako ivyagutse vya Alby ku mucukumbuzi wawe mu gusura ububiko bw'ivyagutse [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) canke ububiko bw'ivyagutse [Chrome](Ibisobanuro/ibisobanuro/alby-bitcoin-wallet-ku-l/iokeahhehimjnefflcihljlcjccdbe).
 
 
 

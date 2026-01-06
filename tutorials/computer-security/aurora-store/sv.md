@@ -14,7 +14,7 @@ I den här handledningen upptäcker vi Aurora Store, ett enkelt, öppet källkod
 
 
 
-# Kom igång med Aurora Store
+## Kom igång med Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Från Aurora Store kan du komma åt katalogen över applikationer som finns till
 
 
 
-## Funktioner
+### Funktioner
 
 
 

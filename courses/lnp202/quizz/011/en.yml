@@ -1,0 +1,9 @@
+question: Which solution offers the most sovereignty for Lightning users?
+answer: Classic Lightning knot
+wrong_answers:
+  - Wallet with atomic swap
+  - On-board LN node
+  - Wallet Lightning custodial
+explanation: |
+  The classic node provides total control over channels, liquidity and fee policies. It's the only one that allows you to be truly independent.
+reviewed: false

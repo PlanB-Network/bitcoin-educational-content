@@ -1,0 +1,9 @@
+question: Which free solution for inbound liquidity is based on cooperation?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus provides incoming liquidity via circular channel openings.
+reviewed: false

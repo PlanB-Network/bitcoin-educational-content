@@ -293,7 +293,7 @@ In conclusione, Tailscale si posiziona come una soluzione moderna e orientata al
 
 **Vantaggi di Tailscale**: Tailscale offre diversi vantaggi per il self-hosting:
 - **Semplicità e prestazioni** - installazione rapida su tutte le piattaforme senza configurazione di rete complessa. Il traffico segue il percorso più diretto tra le macchine (P2P mesh), con le prestazioni del protocollo WireGuard e nessun server centrale a limitare il throughput.
-- **Sicurezza e flessibilità** - crittografia end-to-end, superficie di attacco ridotta e funzionalità avanzate (ACL, autenticazione SSO/MFA). Funziona anche dietro i NAT o in movimento, con router di sottorete e nodi di uscita per adattare la rete alle vostre esigenze.
+- **Sicurezza e flessibilità** - crittografia end-to-end, superficie di attacco ridotta e funzionalità avanzate (ACL, autenticazione SSO/MFA). Funziona anche dietro i NAT o in movimento, con router di sottorete e nodi di uscita per adattare la rete alle tue esigenze.
 
 **Limiti:** tieni presente anche:
 - **Dipendenza esterna** - nella sua versione standard, il servizio si basa sull'infrastruttura di Tailscale Inc. Questa dipendenza può essere aggirata tramite Headscale (alternativa self-hosting).

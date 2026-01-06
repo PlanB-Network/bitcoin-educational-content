@@ -16,7 +16,7 @@ ___
 
 A tal fine, sono disponibili numerose tecniche e software/protocolli. Netflow, ad esempio, sviluppato da Cisco, può essere utilizzato per recuperare le statistiche dei flussi IP da un'interfaccia, ma il suo uso è limitato alle apparecchiature compatibili.
 
-Ecco perché in questo tutorial ti presenterò **Ntop** e ti mostrerò come utilizzarlo nella vostra infrastruttura per tenere sotto controllo l'utilizzo della rete.
+Ecco perché in questo tutorial ti presenterò **Ntopng** e ti mostrerò come utilizzarlo nella tua infrastruttura per tenere sotto controllo l'utilizzo della rete.
 
 Ntop è un software open source che può essere installato su qualsiasi macchina Linux. È gratuito e può raccogliere i seguenti dati:
 - Utilizzo della larghezza di banda
@@ -36,7 +36,7 @@ L'installazione di una indagine Ntop varia a seconda dell'apparecchiatura e dell
 
 ### A. Modalità di bordo
 
-Se avete un firewall pfSense, OPNSense o Endian in produzione, o anche una workstation Linux con NFTables, buone notizie! Potete installare direttamente Ntopng e iniziare a monitorare le vostre interfacce.
+Se avete un firewall pfSense, OPNSense o Endian in produzione, o anche una workstation Linux con NFTables, buone notizie! Potete installare direttamente Ntopng e iniziare a monitorare la tua interfaccia.
 
 Il vantaggio di questa tecnica è che non richiede hardware aggiuntivo. D'altra parte, aumenta l'utilizzo delle risorse, quindi assicuratevi di avere un hardware adeguato o una macchina virtuale di dimensioni sufficienti (minimo 2 core e 2BG di RAM).
 
@@ -84,7 +84,7 @@ Un semplice comando **ip add** restituirà un output con queste informazioni:
 ![Image](assets/fr/016.webp)
 
 Qui vedo 3 interfacce:
-- **Lo**: è l'interfaccia di loopback; è un'interfaccia virtuale che "gira" sull'apparecchiatura. In pratica, questa interfaccia, il cui indirizzo è 127.0.0.1 (anche se qualsiasi indirizzo in 127.0.0.0/8 va bene, poiché questo intervallo è riservato a questo scopo) viene utilizzato per contattare l'apparecchiatura stessa. Se avete installato un sito web sulla vostra workstation (usando WAMPP, per esempio), probabilmente avete usato l'indirizzo "*localhost*" per visualizzare il sito ospitato sulla propria macchina. Questo nome di host è associato all'indirizzo 127.0.0.1 e quindi al loopback dell'interfaccia.
+- **Lo**: è l'interfaccia di loopback; è un'interfaccia virtuale che "gira" sull'apparecchiatura. In pratica, questa interfaccia, il cui indirizzo è 127.0.0.1 (anche se qualsiasi indirizzo in 127.0.0.0/8 va bene, poiché questo intervallo è riservato a questo scopo) viene utilizzato per contattare l'apparecchiatura stessa. Se hai installato un sito web sulla tua workstation (usando WAMPP, per esempio), probabilmente avete usato l'indirizzo "*localhost*" per visualizzare il sito ospitato sulla tua macchina. Questo nome di host è associato all'indirizzo 127.0.0.1 e quindi al loopback dell'interfaccia.
 - **ens33**: questo è la mia prima interfaccia, che ha ricevuto un'indirizzo qui dal mio DHCP
 - **ens36**: la mia seconda interfaccia.
 

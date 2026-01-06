@@ -19,11 +19,12 @@ Proton Authenticator offre le seguenti caratteristiche principali:
 - Generazione di codici **TOTP** per gli account 2FA, compatibile con la maggior parte dei siti che utilizzano Google Authenticator, Authy, ecc.
 - **Backup cloud crittografato opzionale**: è possibile collegare l'applicazione al proprio account Proton per eseguire il backup e la sincronizzazione dei codici con crittografia end-to-end. Se si perde il dispositivo, è sufficiente ricollegarne uno nuovo per ripristinare tutti i codici.
 - **Sincronizzazione su più dispositivi**: accedendo a Proton nell'app, i codici 2FA si sincronizzano automaticamente tra più dispositivi tramite crittografia end-to-end. Su iOS, un'alternativa è la sincronizzazione tramite iCloud.
-- **Blocco locale tramite password o biometria**: l'applicazione offre il blocco tramite PIN e/o impronte digitali/Face ID. Quindi, anche se qualcuno accede fisicamente al vostro telefono sbloccato, non sarà in grado di aprire Proton Authenticator.
+- **Blocco locale tramite password o biometria**: l'applicazione offre il blocco tramite PIN e/o impronte digitali/Face ID. Quindi, anche se qualcuno accede fisicamente al tuo telefono sbloccato, non sarà in grado di aprire Proton Authenticator.
 - **Nessuna raccolta di dati o tracker**: Proton si impegna a non raccogliere dati personali tramite l'applicazione. Non c'è pubblicità nascosta o analisi comportamentale.
 - **Importazione/esportazione semplice**: uno dei punti di forza di Proton Authenticator è la procedura guidata di importazione degli account esistenti, compatibile con altre applicazioni (Google Authenticator, Authy, Aegis, ecc.). Se necessario, è anche possibile esportare i codici in un file.
 
 In breve, Proton Authenticator vuole essere una soluzione 2FA senza compromessi: sicura, privata e flessibile.
+
 
 ## Installazione
 
@@ -106,7 +107,7 @@ ProtonMail visualizzerà quindi un codice QR da scansionare con la propria appli
 
 ![PROTON AUTHENTICATOR](assets/fr/10.webp)
 
-_Codice QR ProtonMail da scansionare con la vostra applicazione di autenticazione, con l'opzione "Inserisci manualmente la chiave" disponibile_
+_Codice QR ProtonMail da scansionare con la tua applicazione di autenticazione, con l'opzione "Inserisci manualmente la chiave" disponibile_
 
 Se si preferisce inserire la chiave manualmente, fai clic su "Enter key manually instead" per visualizzare la chiave segreta.
 
@@ -229,11 +230,11 @@ Proton Authenticator consente di esportare gli account in qualsiasi momento, sia
 
 L'utilizzo di un autenticatore 2FA aumenta notevolmente la sicurezza, ma è necessario osservare alcune best practice:
 
-### Salvate i vostri codici di emergenza
+### Salva i tuoi codici di emergenza
 
 Quando si attiva la 2FA su un servizio, spesso viene fornito un elenco di codici di recupero. Conservateli fuori dal telefono (su carta, in un gestore di password criptato, ecc.). In caso di perdita totale dell'autenticatore, questi codici statici vi salveranno.
 
-### Non confondete le vostre password e i codici 2FA
+### Non confondere le tue password e i codici 2FA
 
 Sarai tentato di utilizzare un gestore di password che memorizzi anche i TOTP. Tuttavia, tenere la password e il codice 2FA nello stesso posto crea un unico punto di errore e indebolisce la doppia autenticazione. Per la massima sicurezza, molti esperti consigliano di separare i due fattori: le password in un gestore sicuro e i codici 2FA in un'applicazione separata come Proton Authenticator. Tuttavia, utilizzare un gestore integrato è sempre meglio che non avere affatto la 2FA.
 

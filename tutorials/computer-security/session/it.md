@@ -57,7 +57,7 @@ Al primo avvio, fai clic su "*Crea account*".
 
 ![Image](assets/fr/02.webp)
 
-Scegli un nome per il tuo profilo. Può essere uno pseudonimo o il vostro vero nome.
+Scegli un nome per il tuo profilo. Può essere uno pseudonimo o il tuo vero nome.
 
 ![Image](assets/fr/03.webp)
 
@@ -95,7 +95,7 @@ Per accedere alle impostazioni dell'applicazione, fai clic sulla foto del tuo pr
 
 ![Image](assets/fr/08.webp)
 
-Nel menu "*Privacy*" puoi attivare o disattivare varie funzioni (attenzione, alcune possono esporre il vostro IP Address). Ti consiglio inoltre di attivare l'opzione "*Blocca app*", che richiede l'autenticazione per accedere all'applicazione.
+Nel menu "*Privacy*" puoi attivare o disattivare varie funzioni (attenzione, alcune possono esporre il tuo IP Address). Ti consiglio inoltre di attivare l'opzione "*Blocca app*", che richiede l'autenticazione per accedere all'applicazione.
 
 ![Image](assets/fr/09.webp)
 

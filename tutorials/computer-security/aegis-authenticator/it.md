@@ -102,7 +102,7 @@ Il menu delle impostazioni di Aegis raggruppa diverse sezioni importanti:
 
 - **Aspetto**: personalizzazione del tema (chiaro, scuro, AMOLED), della lingua e di altre impostazioni visive
 - **Comportamento**: configurare il comportamento dell'applicazione quando interagisce con l'elenco di voci
-- **Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei vostri account
+- **Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei tuoi account
 - **Sicurezza**: impostazioni per la crittografia, lo sblocco biometrico, il blocco automatico e altri parametri di sicurezza
 - **Backup**: configurare i backup automatici in una posizione a scelta
 - **Importazione ed esportazione**: importazione di backup da altre applicazioni di autenticazione ed esportazione manuale del caveau Aegis

@@ -1879,13 +1879,13 @@ In het geval van een datalek kun je in het beste geval het doelwit zijn van geri
 Naast de specifieke risico's die Bitcoin met zich meebrengt, zijn er ook de gevaren die verbonden zijn aan de overdracht van identiteitsdocumenten. In het geval van een datalek is het namelijk mogelijk om slachtoffer te worden van identiteitsdiefstal. De inzet is dus niet alleen beperkt tot het beschermen van de vertrouwelijkheid van transacties, maar betreft ook de persoonlijke veiligheid van elk individu.
 
 
-### Enkele vooringenomen ideeën over KYC
+### Enkele vooropgezette ideeën over KYC
 
 
 Het is belangrijk om een aantal vooroordelen over KYC te deconstrueren die we vaak tegenkomen op Twitter of in onze uitwisselingen tussen bitcoiners.
 
 
-Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor bitcoin die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor bitcoin die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet u voorzichtig zijn met gereguleerde exchange-platforms om te voorkomen dat uw account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
+Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor bitcoin die zijn verkregen via KYC zinloos is. Privacytools en -methoden op Bitcoin zijn gevarieerd en dienen verschillende doelen. Het gebruik van CoinJoin-transacties voor bitcoin die via KYC zijn verkregen, is bijvoorbeeld geen slecht idee. Natuurlijk moet je voorzichtig zijn met gereguleerde exchange-platforms om te voorkomen dat je account wordt bevroren of geblokkeerd, maar vanuit een strikt technisch oogpunt zijn deze praktijken niet onverenigbaar. CoinJoin heeft als effect dat de geschiedenis van een munt wordt doorbroken, waardoor je bepaalde ketenanalyserisico's in verband met KYC kunt omzeilen. Hoewel het niet alle risico's wegneemt, is het wel een belangrijk voordeel.
 
 
 ![BTC204](assets/nl/084.webp)
@@ -1894,7 +1894,7 @@ Ten eerste is het onjuist om te denken dat het beschermen van je privacy voor bi
 Vertrouwelijkheid op Bitcoin moet niet gezien worden op een binaire manier, als een onderscheid tussen "anonieme" bitcoins en andere die dat niet zijn. Het bezitten van bitcoin die zijn verkregen via KYC betekent niet dat alles verloren is; integendeel, het gebruik van vertrouwelijkheidstools kan zelfs nog voordeliger zijn.
 
 
-Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen perfecte vertrouwelijkheid, noch ontslaat het u van de noodzaak om andere beschermende maatregelen te nemen. Als u in het bezit bent van niet-KYC Bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen uw transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige Layer vertrouwelijkheid die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende tools en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra laag aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
+Omgekeerd garandeert het verkrijgen van bitcoin via een niet-KYC-methode geen perfecte vertrouwelijkheid, noch ontslaat het je van de noodzaak om andere beschermende maatregelen te nemen. Als je in het bezit bent van niet-KYC bitcoin, maar meerdere keren ontvangstadressen gebruikt, kunnen je transacties worden getraceerd en samengevoegd. De kleinste link met de wereld buiten Bitcoin kan de enige vertrouwelijkheidslaag die je hebt in gevaar brengen. Het is dus belangrijk om alle privacyverbeterende tools en methoden op Bitcoin als complementair te beschouwen. Elke techniek pakt een specifiek risico aan en kan een extra laag aan bescherming toevoegen. Dus het bezitten van niet-KYC Bitcoin betekent niet dat je geen andere voorzorgsmaatregelen hoeft te nemen.
 
 
 ### Kan KYC worden geannuleerd?
@@ -1903,43 +1903,43 @@ Omgekeerd garandeert het verkrijgen van Bitcoin via een niet-KYC methode geen pe
 Mij wordt soms gevraagd of het mogelijk is om "terug te gaan" na het uitvoeren van een KYC, en zoals je je kunt voorstellen uit de voorgaande paragrafen, is het antwoord genuanceerd. De eenvoudigste manier om de risico's van KYC te vermijden is om het niet te gebruiken bij het verwerven van bitcoins. We zullen in het volgende hoofdstuk dieper op dit onderwerp ingaan. Maar als KYC al is uitgevoerd en bitcoins zijn gekocht, zijn er dan manieren om de risico's te beperken?
 
 
-Als het gaat om het risico van het traceren van je transacties, is het gebruik van CoinJoin een oplossing. We zullen deze methode later in de cursus in detail bekijken, maar je moet weten dat je met CoinJoin de geschiedenis van een munt kunt doorbreken en kunt voorkomen dat deze verleden-heden en heden-verleden kan worden getraceerd. Zelfs voor BTC die zijn verkregen via een gereguleerd platform, kan deze techniek hun traceerbaarheid voorkomen.
+Als het gaat om het risico van het traceren van je transacties, is het gebruik van CoinJoin een oplossing. We zullen deze methode later in de cursus in detail bekijken, maar je moet weten dat je met CoinJoin de geschiedenis van een munt kunt doorbreken waardoor het onmogelijk wordt om de herkomst en bestemming te traceren. Zelfs voor BTC die zijn verkregen via een gereguleerd platform, kan deze techniek hun traceerbaarheid voorkomen.
+ 
+
+CoinJoin neemt echter het tweede risico van KYC niet weg: het feit dat de staat op de hoogte kan zijn van je bezit van bitcoins. Zelfs als je munten niet meer traceerbaar zijn, kan de staat, afhankelijk van de jurisdictie, toegang hebben tot je verklaringen van overdracht van crypto-activa. Aangezien dit risico niet technisch is, maar administratief, zijn er geen Bitcoin-specifieke oplossingen om het te elimineren, afgezien van jezelf in de eerste plaats niet bloot te stellen aan KYC. De enige legale manier om dit risico te beperken, is je bitcoin die je via gereguleerde platforms hebt verkregen, te verkopen op gereguleerde platforms en ze vervolgens terug te kopen via KYC-vrije middelen. Door te verkopen en de overdracht aan te geven, zouden de autoriteiten moeten zien dat je ze niet langer bezit.
 
 
-CoinJoin neemt echter het tweede risico van KYC niet weg: het feit dat de staat op de hoogte kan zijn van je bezit van bitcoins. Zelfs als uw munten niet meer traceerbaar zijn, kan de staat, afhankelijk van de jurisdictie, toegang hebben tot uw verklaringen van overdracht van crypto-activa. Aangezien dit risico niet technisch is, maar administratief, zijn er geen Bitcoin-specifieke oplossingen om het te elimineren, afgezien van jezelf in de eerste plaats niet bloot te stellen aan KYC. De enige legale manier om dit risico te beperken, is uw bitcoin die u via gereguleerde platforms hebt verkregen, te verkopen op gereguleerde platforms en ze vervolgens terug te kopen via KYC-vrije middelen. Door te verkopen en de overdracht aan te geven, zouden de autoriteiten moeten zien dat u ze niet langer bezit.
-
-
-Wat betreft het risico van het uitlekken van je persoonlijke gegevens en identiteitsdocumenten, dit is een gevaar dat buiten Bitcoin ligt, en er is geen technische oplossing om dit te voorkomen. Als je gegevens eenmaal zijn onthuld, is het moeilijk om de operatie ongedaan te maken. U kunt proberen uw account op het platform te sluiten, maar dit garandeert niet dat uw KYC-gegevens worden gewist, vooral wanneer de identiteitscontrole is uitbesteed. Controle op volledige verwijdering van je gegevens is onmogelijk. Er is daarom geen oplossing om dit risico volledig te voorkomen en ervoor te zorgen dat het niet meer bestaat.
+Wat betreft het risico van het uitlekken van je persoonlijke gegevens en identiteitsdocumenten, dit is een gevaar dat buiten Bitcoin ligt, en er is geen technische oplossing om dit te voorkomen. Als je gegevens eenmaal zijn onthuld, is het moeilijk om de operatie ongedaan te maken. Je kunt proberen je account op het platform te sluiten, maar dit garandeert niet dat je KYC-gegevens worden gewist, vooral wanneer de identiteitscontrole is uitbesteed. Controle op volledige verwijdering van je gegevens is onmogelijk. Er is daarom geen oplossing om dit risico volledig te voorkomen en ervoor te zorgen dat het niet meer bestaat.
 
 
 ### Het verschil tussen KYC en sleutelidentificatie
 
 
-Soms hebben sommige bitcoiners de neiging om de term "KYC" uit te breiden naar elke BTC Exchange waarbij een bankoverschrijving of creditcardbetaling betrokken is, omdat deze middelen ook de herkomst van de betaling kunnen onthullen, net zoals een KYC dat zou doen. KYC mag echter niet verward worden met sleutelidentificatie. Persoonlijk moet ik toegeven dat mijn perceptie van dit onderwerp in de loop der tijd is geëvolueerd.
+Soms hebben sommige bitcoiners de neiging om de term "KYC" uit te breiden naar elke BTC-exchange waarbij een bankoverschrijving of creditcardbetaling betrokken is, omdat deze middelen ook de herkomst van de betaling kunnen onthullen, net zoals een KYC dat zou doen. KYC mag echter niet verward worden met sleutelidentificatie. Persoonlijk moet ik toegeven dat mijn perceptie van dit onderwerp in de loop der tijd is geëvolueerd.
 
 
-KYC verwijst specifiek naar een regelgevingsprocedure die door bepaalde bedrijven wordt geïmplementeerd om de identiteit van hun klanten te verifiëren en registreren. Het is een binair iets: wanneer je bitcoins verwerft, doe je KYC, of niet. Sleutelidentificatie, dat betrekking heeft op het verband tussen een facet van de identiteit van een gebruiker en onchain-activiteit, is echter niet zo binair, maar vertegenwoordigt eerder een continuüm. In de context van Bitcoin verwerving of overdracht is zulke identificatie altijd mogelijk, in verschillende mate.
+KYC verwijst specifiek naar een regelgevingsprocedure die door bepaalde bedrijven wordt geïmplementeerd om de identiteit van hun klanten te verifiëren en registreren. Het is een binair iets: wanneer je bitcoins verwerft, doe je KYC, of niet. Sleutelidentificatie, dat betrekking heeft op het verband tussen een facet van de identiteit van een gebruiker en on-chain-activiteit, is echter niet zo binair, maar vertegenwoordigt eerder een continuüm. In de context van bitcoin verwerving of overdracht is zulke identificatie altijd mogelijk, in verschillende mate.
 
 
-Als je bijvoorbeeld bitcoins koopt op een gereguleerd platform in Zwitserland, is KYC niet vereist. Uw sleutels kunnen echter wel worden geïdentificeerd, aangezien de aankoop via uw bankrekening is gedaan. Dit is waar de eerste twee risico's verbonden aan KYC - vergemakkelijking van on-chain tracing en blootstelling aan staatstoezicht - zich ook kunnen manifesteren in een Exchange zonder KYC. Als de Zwitserse entiteit verdachte transacties rapporteert aan de autoriteiten in jouw land, kunnen ze eenvoudigweg de bankrekening controleren die gebruikt is voor de aankoop om jouw identiteit te achterhalen. Kopen zonder KYC op gereguleerde platforms is dus vrij hoog op de risicoschaal voor sleutelidentificatie.
+Als je bijvoorbeeld bitcoins koopt op een gereguleerd platform in Zwitserland, is KYC niet vereist. Je sleutels kunnen echter wel worden geïdentificeerd, aangezien de aankoop via je bankrekening is gedaan. Dit is waar de eerste twee risico's verbonden aan KYC - vergemakkelijking van on-chain-tracing en blootstelling aan staatstoezicht - zich ook kunnen manifesteren in een exchange zonder KYC. Als de Zwitserse entiteit verdachte transacties rapporteert aan de autoriteiten in jouw land, kunnen ze eenvoudigweg de bankrekening controleren die gebruikt is voor de aankoop om jouw identiteit te achterhalen. Kopen zonder KYC op gereguleerde platforms is dus vrij hoog op de risicoschaal voor sleutelidentificatie.
 
 
 ![BTC204](assets/nl/085.webp)
 
 
-Het vermijden van gereguleerde platforms en kiezen voor P2P aankoopmethodes neemt het risico op sleutelidentificatie echter niet volledig weg, maar vermindert het slechts. Laten we het voorbeeld nemen van een aankoop op Bisq of een ander P2P platform. Om je tegenpartij te betalen, gebruik je waarschijnlijk je bankrekening. Als de autoriteiten de persoon met wie je hebt gehandeld ondervragen en om je naam vragen, zijn we weer terug bij risico 1 en 2. Hoewel deze risico's veel lager zijn dan wanneer je koopt op een platform zonder KYC, en zelfs lager dan wanneer je koopt met KYC, zijn ze nog steeds in mindere mate aanwezig.
+Het vermijden van gereguleerde platforms en kiezen voor P2P-aankoopmethodes neemt het risico op sleutelidentificatie echter niet volledig weg, maar vermindert het slechts. Laten we het voorbeeld nemen van een aankoop op Bisq of een ander P2P-platform. Om je tegenpartij te betalen, gebruik je waarschijnlijk je bankrekening. Als de autoriteiten de persoon met wie je hebt gehandeld ondervragen en om je naam vragen, zijn we weer terug bij risico 1 en 2. Hoewel deze risico's veel lager zijn dan wanneer je koopt op een platform zonder KYC, en zelfs lager dan wanneer je koopt met KYC, zijn ze nog steeds in mindere mate aanwezig.
 
 
 ![BTC204](assets/nl/086.webp)
 
 
-Tot slot, zelfs als je je bitcoins verkrijgt via een fysieke Exchange voor contant geld, ben je niet helemaal anoniem. De persoon met wie je ruilt heeft je gezicht gezien, wat deel uitmaakt van je identiteit. Hoewel minimaal in dit voorbeeld, is er nog steeds een mogelijkheid tot sleutelidentificatie.
+Tot slot, zelfs als je je bitcoins verkrijgt via een fysieke omruiling voor contant geld, ben je niet helemaal anoniem. De persoon met wie je ruilt heeft je gezicht gezien, wat deel uitmaakt van je identiteit. Hoewel minimaal in dit voorbeeld, is er nog steeds een mogelijkheid tot sleutelidentificatie.
 
 
 ![BTC204](assets/nl/087.webp)
 
 
-Concluderend, wanneer bitcoins worden uitgewisseld tegen andere activa, of het nu een aankoop is in staatsvaluta of een verkoop tegen een echt goed, is er altijd een vorm van sleutelidentificatie. Afhankelijk van de gekozen Exchange methode, kan deze identificatie variëren in intensiteit. Het is belangrijk om deze identificatie niet te verwarren met KYC, wat een goed gedefinieerd regelgevend proces is. Er is echter een verband tussen KYC en het identificatiespectrum, aangezien KYC zich aan de bovenkant van het spectrum bevindt, omdat het de identificatie van gebruikerssleutels door de autoriteiten systematisch vergemakkelijkt.
+Concluderend, wanneer bitcoins worden uitgewisseld tegen andere activa, of het nu een aankoop is in staatsvaluta of een verkoop tegen een echt goed, is er altijd een vorm van sleutelidentificatie. Afhankelijk van de gekozen exchange-methode, kan deze identificatie variëren in intensiteit. Het is belangrijk om deze identificatie niet te verwarren met KYC, wat een goed gedefinieerd regelgevend proces is. Er is echter een verband tussen KYC en het identificatiespectrum, aangezien KYC zich aan de bovenkant van het spectrum bevindt, omdat het de identificatie van gebruikerssleutels door de autoriteiten systematisch vergemakkelijkt.
 
 
 ## Verkoop- en aankoopmethoden
@@ -1951,19 +1951,19 @@ Concluderend, wanneer bitcoins worden uitgewisseld tegen andere activa, of het n
 
 
 
-Na het lezen van het vorige hoofdstuk, vraag je je misschien af hoe je Bitcoin kunt kopen of verkopen zonder een identiteitsverificatieprocedure te ondergaan, om de risico's van KYC te vermijden. Er zijn verschillende manieren om Bitcoin te verhandelen.
+Na het lezen van het vorige hoofdstuk, vraag je je misschien af hoe je bitcoin kunt kopen of verkopen zonder een identiteitsverificatieprocedure te ondergaan, om de risico's van KYC te vermijden. Er zijn verschillende manieren om bitcoin te verhandelen.
 
 
-### P2P geldwissels
+### P2P ruil met cash betaling
 
 
-Zoals we hebben gezien, blijft de beste methode in termen van vertrouwelijkheid P2P (persoon-tot-persoon) Exchange met contante betaling. Met deze methode kun je de achtergelaten sporen minimaliseren en de mogelijkheid van sleutelidentificatie aanzienlijk verminderen, of je nu koopt of verkoopt.
+Zoals we hebben gezien, blijft de beste methode in termen van vertrouwelijkheid P2P (persoon-tot-persoon) ruil met contante betaling. Met deze methode kun je de achtergelaten sporen minimaliseren en de mogelijkheid van sleutelidentificatie aanzienlijk verminderen, of je nu koopt of verkoopt.
 
 
 ![BTC204](assets/nl/088.webp)
 
 
-Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt in het feit dat de tegenpartij tijdens de exchange weet dat je een grote som geld in je bezit hebt, in contanten of in bitcoins. Deze informatie kan de aandacht trekken van kwaadwillende personen. Het is daarom over het algemeen aan te raden om discreet te zijn over je Bitcoin bezit. Dit advies kan ook worden toegepast op contant geld. Als je echter persoonlijk wisselt, is het onvermijdelijk om te onthullen dat je bitcoins bezit, en dit kan ongewenste aandacht trekken.
+Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt in het feit dat de tegenpartij tijdens de ruil weet dat je een grote som geld in je bezit hebt, in contanten of in bitcoins. Deze informatie kan de aandacht trekken van kwaadwillende personen. Het is daarom over het algemeen aan te raden om discreet te zijn over je bitcoin-bezit. Dit advies kan ook worden toegepast op contant geld. Als je echter persoonlijk wisselt, is het onvermijdelijk om te onthullen dat je bitcoins bezit, en dit kan ongewenste aandacht trekken.
 
 
 ![BTC204](assets/nl/089.webp)
@@ -1972,13 +1972,13 @@ Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt 
 Om dit risico te beperken, raad ik je aan de voorkeur te geven aan contante transacties met vertrouwde personen, zoals familieleden of goede vrienden. Als alternatief kun je ook overwegen om te handelen op [lokale Bitcoin meetups](https://btcmap.org/communities/map), nadat je een paar keer bent geweest. Zo leer je de andere deelnemers beter kennen en sta je er niet alleen voor wanneer je fysiek aan het ruilen bent. Het is echter belangrijk om te beseffen dat P2P contante uitwisselingen inherent risico's voor je persoonlijke veiligheid met zich meebrengen, die er niet zijn wanneer je via een gereguleerd platform en je bankrekening koopt.
 
 
-Bovendien kan, afhankelijk van waar je woont, het vervoeren en opslaan van grote sommen geld riskant zijn, of het nu Bitcoin of contant geld is.
+Bovendien kan, afhankelijk van waar je woont, het vervoeren en opslaan van grote sommen geld riskant zijn, of het nu bitcoin of contant geld is.
 
 
 Contant geld wisselen kan ook juridische risico's met zich meebrengen in geval van politie- of andere controles. Hoewel er in de meeste landen geen beperkingen zijn op de hoeveelheid contant geld die je bij je mag hebben, kunnen te grote bedragen argwaan wekken. Wees dus voorzichtig, vooral als je lange afstanden moet afleggen, en doe niet te veel grote transacties tegelijk om het bezit van grote bedragen niet te hoeven verantwoorden.
 
 
-Een ander nadeel van P2P aankopen is dat de prijs vaak hoger is dan op gereguleerde platforms. Verkopers rekenen vaak een toeslag van 1% tot soms meer dan 10%. Er zijn verschillende redenen voor dit prijsverschil. Ten eerste is dit een gangbare praktijk onder P2P verkopers die in de loop der tijd is ontstaan. Ten tweede hebben verkopers kosten verbonden aan de transactie om het geld naar de koper te sturen. Er is ook een verhoogd risico op diefstal bij de verkoop van P2P in vergelijking met platformtransacties, wat een compensatie voor het genomen risico rechtvaardigt. Ten slotte kunnen de extra kosten verband houden met de vraag naar en de kwaliteit van Exchange in termen van vertrouwelijkheid. Als koper heeft de winst in vertrouwelijkheid een prijs die wordt weerspiegeld in de marge die door de verkoper wordt toegepast. Sommige bitcoiners geloven ook dat de mark-up prijs van BTC gekocht op P2P de werkelijke prijs weerspiegelt, en beweren dat de lagere prijzen op gereguleerde platforms het resultaat zijn van een compromis over de vertrouwelijkheid van uw persoonlijke gegevens.
+Een ander nadeel van P2P-aankopen is dat de prijs vaak hoger is dan op gereguleerde platforms. Verkopers rekenen vaak een toeslag van 1% tot soms meer dan 10%. Er zijn verschillende redenen voor dit prijsverschil. Ten eerste is dit een gangbare praktijk onder P2P-verkopers die in de loop der tijd is ontstaan. Ten tweede hebben verkopers kosten verbonden aan de transactie om het geld naar de koper te sturen. Er is ook een verhoogd risico op diefstal bij de verkoop van P2P in vergelijking met platformtransacties, wat een compensatie voor het genomen risico rechtvaardigt. Ten slotte kunnen de extra kosten verband houden met de vraag naar en de kwaliteit van de ruil in termen van vertrouwelijkheid. Als koper heeft de winst in vertrouwelijkheid een prijs die wordt weerspiegeld in de marge die door de verkoper wordt toegepast. Sommige bitcoiners geloven ook dat de mark-up prijs van BTC gekocht op P2P de werkelijke prijs weerspiegelt, en beweren dat de lagere prijzen op gereguleerde platforms het resultaat zijn van een compromis over de vertrouwelijkheid van je persoonlijke gegevens.
 
 
 ![BTC204](assets/nl/090.webp)

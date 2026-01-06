@@ -74,7 +74,7 @@ Hai così creato il tuo profilo. Clicca nuovamente su "*Finish setup*" per final
 
 ## Salva il tuo account Keet
 
-La prima cosa da fare con il tuo nuovo account Keet è salvare la tua frase di recupero. Si tratta di una sequenza di 24 parole che vi permetterà di ripristinare l'accesso al vostro account in caso di smarrimento o cambio di dispositivo. Questa frase dà pieno accesso al tuo account a chiunque la conosca, quindi è importante fare un backup affidabile e non divulgarlo mai.
+La prima cosa da fare con il tuo nuovo account Keet è salvare la tua frase di recupero. Si tratta di una sequenza di 24 parole che vi permetterà di ripristinare l'accesso al tuo account in caso di smarrimento o cambio di dispositivo. Questa frase dà pieno accesso al tuo account a chiunque la conosca, quindi è importante fare un backup affidabile e non divulgarlo mai.
 
 A questo scopo, fai clic sulla scheda "*Profilo*" in basso a destra dell'interfaccia.
 
@@ -140,7 +140,7 @@ Una volta accettata la richiesta di DM, troverai questo contatto nella pagina in
 ![Image](assets/fr/21.webp)
 
 
-## Sincronizzate il vostro account su più dispositivi
+## Sincronizza il tuo account su più dispositivi
 
 Ora che sai come usare Keet e hai un account, puoi anche sincronizzarlo su un altro dispositivo, ad esempio un computer. Per farlo, apri l'applicazione sul cellulare, quindi cliccate su "*Profilo*" e accedi a "*Impostazioni*".
 

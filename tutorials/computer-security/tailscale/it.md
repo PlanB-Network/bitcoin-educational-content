@@ -331,3 +331,5 @@ Tailscale è uno strumento essenziale per il self-hosting, grazie alla sua sempl
 - **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - community di utenti e sviluppatori.
 
 Tailscale fornisce regolarmente nuovi contenuti e funzionalità. Consulta il loro [blog ufficiale](https://tailscale.com/blog/) per le ultime novità e i casi di studio.
+
+Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)

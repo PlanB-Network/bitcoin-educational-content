@@ -1488,233 +1488,127 @@ Wenn deine Node an einem offenen Port erreichbar ist (standardmäßig 8333), nim
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
-Wenn dein Node seine anfängliche Synchronisierung abgeschlossen hat, speichert er lokal mehrere komplementäre Datensätze, die es ihm ermöglichen, Blöcke und Transaktionen zu validieren, Netzwerk-Peers zu bedienen und unter Beibehaltung seines Zustands schnell neu zu starten. 3 Hauptbausteine sind für einen Node unerlässlich:
-
-
-
+Wenn dein Node ihre anfängliche Synchronisierung abgeschlossen hat, speichert sie lokal mehrere komplementäre Datensätze, die es ihr ermöglichen, Blöcke und Transaktionen zu validieren, Netzwerk-Peers zu bedienen und unter Beibehaltung ihres Zustands schnell neu zu starten. 3 Hauptbausteine sind für eine Node unerlässlich:
 
 - die auf der Festplatte gespeicherten **Blöcke** der Blockchain,
-- den **UTXO-Satz**, der in einer Schlüssel-Wert-Datenbank verwaltet wird,
+- das **UTXO-Set**, der in einer Key-Value-Datenbank verwaltet wird,
 - und der **Mempool** wird im RAM gespeichert und periodisch serialisiert.
 
+Darüber hinaus vervollständigen mehrere Hilfsdateien (Peers, Gebührenvoranschläge, Ausschlusslisten, Wallets usw.) das Bild. Lass uns die Rolle all dieser Dateien besprechen.
 
+### Wo befinden sich die Daten der Node tatsächlich?
 
-Darüber hinaus vervollständigen mehrere Hilfsdateien (Peers, Gebührenvoranschläge, Ausschlusslisten, Geldbörsen usw.) das Bild. Lassen du uns die Rolle all dieser Dateien entdecken.
-
-
-
-### Wo befinden sich die Daten des Node tatsächlich?
-
-
-
-Bitcoin core speichert seine Daten standardmäßig in einem bestimmten Arbeitsverzeichnis. Unter GNU/Linux befindet sich dieses Verzeichnis normalerweise in `~/.Bitcoin/`, unter Windows in `%APPDATA%\Bitcoin/` und unter macOS in `~/Library/Application Support/Bitcoin/`. Wenn du eine Paketlösung verwenden (z. B. innerhalb einer Node-Distribution), kann dieses Verzeichnis an anderer Stelle eingebunden sein, seine Struktur bleibt jedoch gleich. Die wichtigen Unterordner und Dateien, die im Folgenden beschrieben werden, befinden sich weiterhin hier.
-
-
+Bitcoin Core speichert seine Daten standardmäßig in einem bestimmten Arbeitsverzeichnis. Unter GNU/Linux befindet sich dieses Verzeichnis normalerweise in `~/.Bitcoin/`, unter Windows in `%APPDATA%\Bitcoin/` und unter macOS in `~/Library/Application Support/Bitcoin/`. Wenn du eine Paketlösung verwendest (z. B. innerhalb einer Node-Distribution), kann dieses Verzeichnis an anderer Stelle eingebunden sein, seine Struktur bleibt jedoch gleich. Die wichtigen Unterordner und Dateien, die im Folgenden beschrieben werden, befinden sich weiterhin hier.
 
 ![Image](assets/fr/098.webp)
 
-
-
 ### Die Blöcke
 
+Blockchain ist also eine Sammlung von Blöcken. Ein Full Node speichert diese Blöcke als sequentielle Flat Files und unterhält einen parallelen Index zum schnellen Abruf. Bei Bedarf (Reorganisation, Wallet Rescan, Peer-Service) werden diese Daten unverändert wieder eingelesen.
 
-
-Blockchain ist also eine Sammlung von Blöcken. Ein Full node speichert diese Blöcke als sequentielle Flat Files und unterhält einen parallelen Index zum schnellen Abruf. Bei Bedarf (Reorganisation, Wallet Rescan, Peer-Service) werden diese Daten unverändert wieder eingelesen.
-
-
-
-**Hinweis:** Eine Reorganisation oder Resynchronisation ist ein Phänomen, bei dem der Blockchain aufgrund der Existenz konkurrierender Blöcke auf gleicher Höhe eine Änderung seiner Struktur erfährt. Dies geschieht, wenn ein Teil des Blockchain durch eine andere Kette mit einer größeren Menge an angesammelter Arbeit ersetzt wird. Diese Resynchronisationen sind ein natürlicher Teil der Funktionsweise von Bitcoin, bei der verschiedene Schürfer fast gleichzeitig neue Blöcke finden können, wodurch das Bitcoin-Netzwerk in zwei Teile geteilt wird. In solchen Fällen kann sich das Netzwerk vorübergehend in konkurrierende Ketten aufteilen. Wenn eine dieser Ketten mehr Arbeit anhäuft, werden die anderen Ketten von den Node aufgegeben, und ihre Blöcke werden als "veraltete Blöcke" oder "verwaiste Blöcke" bezeichnet Dieser Prozess des Ersetzens einer Kette durch eine andere wird als Resynchronisierung bezeichnet.
-
-
+**Hinweis:** Eine Reorganisation oder Resynchronisation ist ein Phänomen, bei dem die Blockchain aufgrund der Existenz konkurrierender Blöcke auf gleicher Höhe eine Änderung seiner Struktur erfährt. Dies geschieht, wenn ein Teil der Blockchain durch eine andere Kette mit einer größeren Menge an angesammelter Arbeit ersetzt wird. Diese Resynchronisationen sind ein natürlicher Teil der Funktionsweise von Bitcoin, bei der verschiedene Miner fast gleichzeitig neue Blöcke finden können, wodurch das Bitcoin-Netzwerk in zwei Teile geteilt wird. In solchen Fällen kann sich das Netzwerk vorübergehend in konkurrierende Ketten aufteilen. Wenn eine dieser Ketten mehr Arbeit anhäuft, werden die anderen Ketten von den Node aufgegeben, und ihre Blöcke werden als "veraltete Blöcke" oder "verwaiste Blöcke" bezeichnet. Dieser Prozess des Ersetzens einer Kette durch eine andere wird als Resynchronisierung bezeichnet.
 
 #### Blk*.dat-Dateien (Rohblockdaten)
 
-
-
-Empfangene und validierte Blöcke werden in sequentielle Container mit dem Namen `blkNNNNN.dat` geschrieben, die im Ordner `blocks/` gespeichert werden. Jede Datei wird der Reihe nach gefüllt, bis sie eine maximale Größe von 128 MiB erreicht hat; zu diesem Zeitpunkt öffnet Core die nächste Datei. Darin ist jeder Block im Netzwerkformat serialisiert, wobei ihm ein magischer Bezeichner und eine Länge vorangestellt sind. Diese Organisation ermöglicht ein schnelles Schreiben auf die Festplatte und erleichtert den Blockdienst zur Synchronisierung von Peers.
-
-
+Empfangene und validierte Blöcke werden in sequentielle Container mit dem Namen `blkNNNNN.dat` geschrieben, die im Ordner `blocks/` gespeichert werden. Jede Datei wird der Reihe nach gefüllt, bis sie eine maximale Größe von 128 MiB erreicht hat; zu diesem Zeitpunkt öffnet Core die nächste Datei. Darin ist jeder Block im Netzwerkformat serialisiert, wobei ihm eine Netzwerkkennung (Magic-Bytes) und eine Länge vorangestellt sind. Diese Organisation ermöglicht ein schnelles Schreiben auf die Festplatte und erleichtert den Blockdienst zur Synchronisierung von Peers.
 
 ![Image](assets/fr/099.webp)
 
-
-
-Im pruned-Modus speichert der Node nur ein aktuelles Fenster dieser Dateien, um den Speicherplatzbedarf zu begrenzen. Er löscht die ältesten "blk*.dat"-Container, sobald das konfigurierte Speicherplatzziel erreicht ist, behält aber genügend Historie bei, um mit der besten bekannten Kette konsistent zu bleiben. Der Index und der UTXO-Satz bleiben normal, so dass die nächsten Transaktionen und Blöcke validiert werden können.
-
-
+Im Pruned-Modus speichert die Node nur ein aktuelles Fenster dieser Dateien, um den Speicherplatzbedarf zu begrenzen. Sie löscht die ältesten "blk*.dat"-Container, sobald das konfigurierte Speicherplatzziel erreicht ist, behält aber genügend Historie bei, um mit der besten bekannten Kette konsistent zu bleiben. Der Index und das UTXO-Set bleiben normal, so dass die nächsten Transaktionen und Blöcke validiert werden können.
 
 #### Rev*.dat-Dateien (Stornierungsdaten)
 
-
-
-Um während einer Reorganisation in der Zeit zurückgehen zu können, speichert Core parallel zu jeder "blk"-Datei eine "revNNNNN.dat"-Datei in "blocks/". Diese Datei enthält die Informationen, die erforderlich sind, um die Auswirkungen eines Blocks auf den UTXO-Satz rückgängig zu machen: für jeden vom Block verbrauchten Ausgang wird der vorherige Zustand des entsprechenden UTXO gespeichert (Menge, Skript, Höhe...). Im Falle eines Blockabbruchs kann der Node den vorherigen Zustand schnell wiederherstellen, ohne die gesamte Kette erneut scannen zu müssen.
-
-
+Um während einer Reorganisation in der Zeit zurückgehen zu können, speichert Core parallel zu jeder `blk`-Datei eine `revNNNNN.dat`-Datei in `blocks/`. Diese Datei enthält die Informationen, die erforderlich sind, um die Auswirkungen eines Blocks auf das UTXO-Set rückgängig zu machen: für jeden vom Block verbrauchten Output wird der vorherige Zustand des entsprechenden UTXO gespeichert (Menge, Skript, Höhe...). Im Falle eines Blockabbruchs kann die Node den vorherigen Zustand schnell wiederherstellen, ohne die gesamte Kette erneut scannen zu müssen.
 
 ![Image](assets/fr/100.webp)
 
-
-
 #### Blockindex (Blöcke/Index)
-
-
 
 Die Suche nach einem Block direkt in den Flat Files wäre zu zeitaufwändig. Core unterhält daher eine LevelDB-Datenbank in `blocks/index/`, die für jeden bekannten Block Metadaten wie Hash, Höhe, Validierungsstatus, `blk`-Datei und Offset auflistet, wo er sich befindet. Wenn ein Peer einen Block anfordert oder wenn eine interne Komponente auf einen bestimmten Block zugreifen muss, ermöglicht dieser Index einen schnellen Zugriff. Ohne diesen Index wären zu viele Operationen erforderlich.
 
-
-
 ![Image](assets/fr/101.webp)
-
-
 
 #### Optionale Indizes (indexes/)
 
-
-
 Einige Indizes sind optional und standardmäßig deaktiviert, da sie den Speicherplatzbedarf erhöhen:
 
+- `indexes/txindex/`, das wir bereits erwähnt haben, bietet eine Tabelle zur Abbildung von Transaktion → Ort, die es ermöglicht, jede bestätigte Transaktion abzurufen, ohne den Block zu kennen, der sie enthält. Das ist nützlich für RPC-Abfragen vom Typ `getrawtransaction` für Transaktionen außerhalb der eigenen Wallet, ist jedoch ziemlich kostspielig.
+- `indexes/blockfilter/`, die kompakte Blockfilter (BIP157/158) für Thin-Clients enthalten können. Diese Strukturen beschleunigen die clientseitige Überprüfung auf Kosten von zusätzlichem Speicherplatz auf der Indexer-Node.
 
-
-
-- indexes/txindex/`, das wir bereits erwähnt haben, bietet eine Tabelle zur Abbildung von Transaktion → Ort, die es ermöglicht, jede bestätigte Transaktion abzurufen, ohne den Block zu kennen, der sie enthält. Dies ist nützlich für Wallet-Abfragen vom Typ "getrawtransaction", ist aber recht teuer.
-- indexes/blockfilter/`, die kompakte Blockfilter (BIP157/158) für Thin Clients enthalten können. Diese Strukturen beschleunigen die clientseitige Überprüfung auf Kosten von zusätzlichem Speicherplatz auf dem Indexer-Node.
-
-
-
-### UTXO Satz (Kettenzustand)
-
-
+### UTXO-Set (Chainstate)
 
 Das Modell UTXO (*Unspent Transaction Output*) ist die buchhalterische Darstellung von Bitcoin: Jeder nicht ausgegebene Output ist ein verfügbarer "Coin", der als Input für eine zukünftige Transaktion verwendet werden kann.
 
-
-
 ![Image](assets/fr/102.webp)
 
-
-
-Die Gesamtheit all dieser Teile zu einem bestimmten Zeitpunkt T bildet den UTXO-Satz: eine große Liste aller jetzt verfügbaren Teile. Diesen Zustand konsultiert der Node, um zu entscheiden, ob eine Transaktion legitime Einheiten ausgibt, die nicht bereits in einer früheren Transaktion verwendet wurden (um Double-spending zu vermeiden).
-
-
+Die Gesamtheit all dieser Teile zu einem bestimmten Zeitpunkt T bildet das UTXO-Set: eine große Liste aller jetzt verfügbaren Teile. Diesen Zustand konsultiert die Node, um zu entscheiden, ob eine Transaktion legitime Einheiten ausgibt, die nicht bereits in einer früheren Transaktion verwendet wurden (um Double-Spending zu vermeiden).
 
 ![Image](assets/fr/103.webp)
 
-
-
-Der UTXO-Satz wird im Ordner `chainstate/` als kompakte LevelDB-Datenbank gespeichert. Jeder Teil verbindet einen von der Hash der Transaktion abgeleiteten Schlüssel und den Ausgabeindex mit einem Wert, der Folgendes enthält: den Betrag, die `scriptPubKey`-Sperre, die Höhe des Erstellungsblocks und einen Coinbase-Indikator.
-
-
+Das UTXO-Set wird im Ordner `chainstate/` als kompakte LevelDB-Datenbank gespeichert. Jeder Teil verbindet einen von der Hash der Transaktion abgeleiteten Key und den Outputindex mit einem Wert, der Folgendes enthält: den Betrag, die `scriptPubKey`-Sperre, die Höhe des Erstellungsblocks und einen Coinbase-Indikator.
 
 ![Image](assets/fr/104.webp)
 
+Die Node unterhält einen Speicher-Cache oberhalb von LevelDB, um häufige Lese- und Schreibvorgänge aufzufangen. Mit dem Parameter `dbcache` kann die Größe dieses Caches verändert werden: je größer er ist, desto mehr Speicherzugriffe kommen dem IBD und der aktuellen Validierung zugute, allerdings auf Kosten eines höheren RAM-Verbrauchs. Wird ein neuer Block von einem Miner gefunden, löscht die Node die von den im Block enthaltenen Transaktionen ausgegebenen (oder verbrauchten) Outputs aus dem UTXO-Set und fügt die neu erstellten Outputs hinzu.
 
+Theoretisch könnte man eine Transaktion validieren, indem man die Blockhistorie erneut durchsucht, um zu prüfen, ob eine Ausgabe nie getätigt wurde. In der Praxis wäre dies jedoch viel zu zeitaufwändig, da die gesamte Blockchain für jede neue Transaktion gescannt werden müsste. Das UTXO-Set bietet daher die Mindestansicht, die erforderlich ist, um lokal und in angemessener Zeit das Nichtvorhandensein von Double-spending nachzuweisen.
 
-Der Node unterhält einen Speicher-Cache oberhalb von LevelDB, um häufige Lese- und Schreibvorgänge aufzufangen. Mit dem Parameter `dbcache` kann die Größe dieses Caches verändert werden: je größer er ist, desto mehr Speicherzugriffe kommen der IBD und der aktuellen Validierung zugute, allerdings auf Kosten eines höheren RAM-Verbrauchs. Wird ein neuer Block von einem Miner gefunden, löscht der Node die von den im Block enthaltenen Transaktionen ausgegebenen (oder verbrauchten) Outputs aus dem UTXO-Satz und fügt die neu erstellten Outputs hinzu.
-
-
-
-Theoretisch könnte man eine Transaktion validieren, indem man die Blockhistorie erneut durchsucht, um zu prüfen, ob eine Ausgabe nie getätigt wurde. In der Praxis wäre dies jedoch viel zu zeitaufwändig, da der gesamte Blockchain für jede neue Transaktion gescannt werden müsste. Der Satz UTXO bietet daher die Mindestansicht, die erforderlich ist, um lokal und in angemessener Zeit das Nichtvorhandensein von Double-spending nachzuweisen.
-
-
-
-Es sei darauf hingewiesen, dass der UTXO-Satz oft im Mittelpunkt der Bedenken über die Dezentralisierung von Bitcoin steht, da seine Größe natürlich schnell zunimmt. Dies ist zum einen auf den steigenden Preis von Bitcoin zurückzuführen, der die Fragmentierung von Teilen fördert, und zum anderen auf die zunehmende Akzeptanz des Systems: Je mehr Nutzer es gibt, desto größer ist die Nachfrage nach UTXOs.
-
-
+Es sei darauf hingewiesen, dass das UTXO-Set oft im Mittelpunkt der Bedenken über die Dezentralisierung von Bitcoin steht, da seine Größe natürlich schnell zunimmt. Dies ist zum einen auf den steigenden Preis von Bitcoin zurückzuführen, der die Fragmentierung von Teilen fördert, und zum anderen auf die zunehmende Akzeptanz des Systems: Je mehr Nutzer es gibt, desto größer ist die Nachfrage nach UTXOs.
 
 ![Image](assets/fr/105.webp)
 
-
-
-Das Wachstum des UTXO-Satzes ergibt sich auch aus der Struktur des einfachen Zahlungsverkehrs auf Bitcoin. Wenn du eine Zahlung vornehmen, verbrauchen du einen einzigen UTXO als Input und erzeugen 2 neue UTXOs als Output (einen für die Zahlung und den anderen für den Exchange). Schließlich bietet eine Heuristik zur Kettenanalyse, genannt CIOH (*Common Input Ownership Heuristic*), einen weiteren Anreiz, die Konsolidierung von Coin zu vermeiden.
-
-
+Das Wachstum des UTXO-Sets ergibt sich auch aus der Struktur des einfachen Zahlungsverkehrs auf Bitcoin. Wenn du eine Zahlung vornimmst, verbrauchen du einen einzigen UTXO als Input und erzeugen 2 neue UTXOs als Output (einen für die Zahlung und den anderen für das Wechselgeld). Schließlich bietet eine Heuristik zur Kettenanalyse, genannt CIOH (*Common Input Ownership Heuristic*), einen weiteren Anreiz, die Konsolidierung von Coins zu vermeiden.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Da ein Teil davon im Arbeitsspeicher gehalten werden muss, um Transaktionen in einer angemessenen Zeit zu überprüfen, kann der UTXO-Satz den Betrieb eines Full node allmählich zu kostspielig machen. Zur Lösung dieses Problems gibt es bereits einige Vorschläge, vor allem [Utreexo](https://planb.academy/resources/glossary/utreexo).
-
-
+Da ein Teil davon im Arbeitsspeicher gehalten werden muss, um Transaktionen in einer angemessenen Zeit zu überprüfen, kann das UTXO-Set den Betrieb einer Full Node allmählich zu kostspielig machen. Zur Lösung dieses Problems gibt es bereits einige Vorschläge, vor allem [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 ### Der Mempool
 
+Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noch nicht bestätigt wurden. Zur Erinnerung: Eine "bestätigte Transaktion" ist eine Transaktion, die in einen gültigen Block aufgenommen wurde. Jede Node verwaltet ihren eigenen Mempool, der sich von dem anderer Nodes im Netzwerk unterscheiden kann, basierend auf:
 
+- dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Node mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Node mit einem kleineren Mempool (es sei denn, letzterer wird leer);
+- den Mempool-Regeln: sie bilden eine Teilmenge der Weiterleitungsregeln der Node und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
+- Perkolation von Transaktionen: Aufgrund verschiedener Faktoren kann eine bestimmte Transaktion bereits an einen Teil des Netzes verteilt worden sein, einen anderen aber noch nicht erreicht haben.
 
-Der Mempool ist der lokale Satz gültiger Transaktionen, die empfangen, aber noch nicht bestätigt wurden. Zur Erinnerung: Eine "bestätigte Transaktion" ist eine Transaktion, die in einen gültigen Block aufgenommen wurde. Jeder Node verwaltet seinen eigenen Mempool, der sich von dem anderer Node im Netzwerk unterscheiden kann, je nachdem:
-
-
-
-
-- die dem Mempool über den Parameter `maxmempool` zugewiesene Größe: ein Node mit einem größeren Mempool kann mehr Transaktionen aufnehmen als ein Node mit einem kleineren Mempool (es sei denn, letzterer wird leer);
-- die Mempool-Regeln: du bilden eine Teilmenge der Weiterleitungsregeln des Node und legen die Eigenschaften fest, die eine unbestätigte Transaktion erfüllen muss, um in den Mempool aufgenommen zu werden;
-- perkolation von Transaktionen: Aufgrund verschiedener Faktoren kann eine bestimmte Transaktion bereits an einen Teil des Netzes verteilt worden sein, einen anderen aber noch nicht erreicht haben.
-
-
-
-Es ist wichtig zu beachten, dass Node-Mempools keinen Konsenswert haben. Bitcoin funktioniert perfekt, auch wenn jeder Node einen anderen Mempool hat. Letztendlich sind die maßgeblichen Blöcke immer diejenigen, die dem Blockchain hinzugefügt wurden. Selbst wenn ein Node beispielsweise eine bestimmte Transaktion in seinem Mempool (der gemäß den Konsensregeln gültig ist) zunächst ablehnt, ist er verpflichtet, sie zu akzeptieren, wenn sie schließlich in einen Block mit einem gültigen Proof of Work aufgenommen wird. Würde er dies nicht tun und diesen Block ablehnen, obwohl er die Konsensregeln eingehalten hat, würde er einen Hard Fork auslösen, d. h. die Schaffung eines neuen, separaten Bitcoin, in dem er allein wäre.
-
-
+Es ist wichtig zu beachten, dass Node-Mempools keinen Konsenswert haben. Bitcoin funktioniert perfekt, auch wenn jeder Node einen anderen Mempool hat. Letztendlich sind die maßgeblichen Blöcke immer diejenigen, die der Blockchain hinzugefügt wurden. Selbst wenn eine Node beispielsweise eine bestimmte Transaktion in ihrem Mempool (der gemäß den Konsensregeln gültig ist) zunächst ablehnt, ist sie verpflichtet, sie zu akzeptieren, wenn sie schließlich in einen Block mit einem gültigen Proof-of-Work aufgenommen wird. Würde sie dies nicht tun und diesen Block ablehnen, obwohl er die Konsensregeln eingehalten hat, würde sie eine Hard Fork auslösen, d. h. die Schaffung eines neuen, separaten Bitcoin, in dem sie allein wäre.
 
 #### Speicherpolitik und -verwaltung
 
-
-
 Wenn eine Transaktion empfangen wird, führt Core eine Reihe von Überprüfungen anhand von Konsensregeln (Syntax, gültige Skripte, keine Doppelausgaben usw.) und Mempool-Regeln durch, bei denen es sich um eine lokale Richtlinie handelt (RBF, Mindestgebührenschwellen, Datenlimit in `OP_RETURN` usw.). Wenn die Transaktion diese Regeln einhält, wird sie gespeichert.
 
-
-
-Die Größe des Mempool wird durch den Parameter `maxmempool` in der Datei `Bitcoin.conf` begrenzt (mehr dazu im nächsten Kapitel). Standardmäßig liegt die Grenze bei 300 MB. Wenn er voll ist, erhöht der Node dynamisch seine Mindestgebührenschwelle und stößt die am wenigsten profitablen Transaktionen zuerst aus (d.h. er behält Transaktionen zurück, die zuerst abgebaut werden sollten). Transaktionen, die zu alt sind, können auch nach einer konfigurierten Verzögerung verfallen.
-
-
+Die Größe des Mempool wird durch den Parameter `maxmempool` in der Datei `Bitcoin.conf` begrenzt (mehr dazu im nächsten Kapitel). Standardmäßig liegt die Grenze bei 300 MB. Wenn er voll ist, erhöht die Node dynamisch seine Mindestgebührenschwelle und stößt die am wenigsten profitablen Transaktionen zuerst aus (d.h. sie behält Transaktionen zurück, die zuerst gemined werden sollten). Transaktionen, die zu alt sind, können auch nach einer konfigurierten Verzögerung verfallen.
 
 #### Mempool Persistenz auf Festplatte
 
-
-
-Um den Neustart zu beschleunigen, serialisiert Core regelmäßig den Zustand des Mempool in der Datei `Mempool.dat`, wenn der Node heruntergefahren wird. Zusätzlich zum eigentlichen Mempool, der im Speicher verbleibt, speichert Core diese "Mempool.dat"-Datei auf der Festplatte. Wenn der Node das nächste Mal gestartet wird, lädt er diesen Schnappschuss neu und löscht alles, was für den aktuellen Blockchain nicht mehr gültig ist.
-
-
+Um den Neustart zu beschleunigen, serialisiert Core regelmäßig den Zustand des Mempool in der Datei `Mempool.dat`, wenn die Node heruntergefahren wird. Zusätzlich zum eigentlichen Mempool, der im Speicher verbleibt, speichert Core diese "Mempool.dat"-Datei auf der Festplatte. Wenn die Node das nächste Mal gestartet wird, lädt sie diesen Schnappschuss neu und löscht alles, was für die aktuellen Blockchain nicht mehr gültig ist.
 
 ### Hilfsdateien und Datenbanken
 
-
-
 Mehrere andere Dateien auf der gleichen Ebene wie `blocks/`, `chainstate/` und `indexes/` tragen zum ordnungsgemäßen Funktionieren des Systems bei:
 
-
-
-
-- die Datei "peers.dat" enthält ein IP-Address-Buch potenzieller Peers, das durch die anfängliche DNS-Ermittlung, Netzwerkaustausch und manuelle Ergänzungen gespeist wird. Wenn der Node startet, kann er auf diese Datei zurückgreifen, um ausgehende Verbindungen herzustellen.
-- Beim Ausschalten des Node speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass du beim nächsten Start schnell wieder versuchen können, sie zu kontaktieren.
-- die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder vom Node beschlossen wurden (wiederholtes ungültiges Verhalten), um den Node daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
-- die Datei "fee_estimates.dat" speichert Zeithorizontstatistiken über beobachtete Bestätigungen, die vom Gebührenschätzer verwendet werden, um Gebührensätze vorzuschlagen, die mit den bei der Erstellung einer Transaktion gewählten Verzögerungszielen vereinbar sind.
-- `bitcoin.conf` enthält die Konfigurationsparameter Ihres Node. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
+- die Datei `peers.dat` enthält ein IP-Address-Buch potenzieller Peers, das durch die anfängliche DNS-Ermittlung, Netzwerkaustausch und manuelle Ergänzungen gespeist wird. Wenn die Node startet, kann sie auf diese Datei zurückgreifen, um ausgehende Verbindungen herzustellen.
+- Beim Ausschalten des Node speichert `anchors.dat` die Adressen der abgehenden Teilnehmer, so dass sie beim nächsten Start schnell wieder versuchen kann, sie zu kontaktieren.
+- die Datei `banlist.json` enthält lokale Verbote, die vom Betreiber oder von der Node beschlossen wurden (wiederholtes ungültiges Verhalten), um die Node daran zu hindern, sich erneut zu verbinden oder Verbindungen von diesen bestimmten Peers zu akzeptieren.
+- die Datei `fee_estimates.dat` speichert Zeithorizontstatistiken über beobachtete Bestätigungen, die vom Gebührenschätzer verwendet werden, um Gebührensätze vorzuschlagen, die mit den bei der Erstellung einer Transaktion gewählten Verzögerungszielen vereinbar sind.
+- `bitcoin.conf` enthält die Konfigurationsparameter deiner Node. In dieser Datei können insbesondere die Weiterleitungsregeln angepasst werden. Ich werde im nächsten Kapitel ausführlicher darauf eingehen;
 - die Datei `settings.json` enthält zusätzliche Parameter zu `Bitcoin.conf`.
-- debug.log" ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Knotenaktivitäten verwendet werden kann.
-- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. du wird beim Start des Node erstellt und beim Herunterfahren gelöscht;
+- `debug.log` ist das diagnostische Textprotokoll, das im Falle eines Fehlers zum Verständnis der Node-Aktivitäten verwendet werden kann.
+- `bitcoind.pid` speichert die Prozess-ID während der Ausführung, sodass andere Anwendungen oder Skripte Bitcoind (*Bitcoin Daemon*) leicht identifizieren und bei Bedarf mit ihm interagieren können. Sie wird beim Start der Node erstellt und beim Herunterfahren gelöscht;
 - `ip_asn.map` ist eine IP → ASN-Zuordnungstabelle (eigenständiges System), die für Bucketing und Peer Diversification (Option `-asmap`) verwendet wird.
-- `onion_v3_private_key` speichert den privaten Schlüssel des Tor v3 Dienstes, wenn die Option `-listenonion` aktiviert ist, um einen stabilen onion Address zwischen den Neustarts zu erhalten.
-- `i2p_private_key` speichert den privaten I2P-Schlüssel, wenn `-i2psam=` verwendet wird, um ausgehende und möglicherweise eingehende Verbindungen über I2P herzustellen.
-- .cookie" enthält einen ephemeren RPC-Authentifizierungs-token (beim Start erstellt, beim Herunterfahren gelöscht), wenn die Cookie-Authentifizierung verwendet wird. Dies kann z. B. für die Verbindung mit Wallet-Software verwendet werden.
-- .lock" ist die Datenverzeichnissperre, die verhindert, dass mehrere Instanzen gleichzeitig in dasselbe Datenverzeichnis schreiben.
+- `onion_v3_private_key` speichert den privaten Key des Tor v3 Dienstes, wenn die Option `-listenonion` aktiviert ist, um eine stabile onion Addresse zwischen den Neustarts zu erhalten.
+- `i2p_private_key` speichert den privaten I2P-Key, wenn `-i2psam=` verwendet wird, um ausgehende und möglicherweise eingehende Verbindungen über I2P herzustellen.
+- `.cookie` enthält einen ephemeren RPC-Authentifizierungs-token (beim Start erstellt, beim Herunterfahren gelöscht), wenn die Cookie-Authentifizierung verwendet wird. Dies kann z. B. für die Verbindung mit Wallet-Software verwendet werden.
+- `.lock` ist die Datenverzeichnissperre, die verhindert, dass mehrere Instanzen gleichzeitig in dasselbe Datenverzeichnis schreiben.
 - `guisettings.ini.bak` ist die automatische Speicherung der GUI-Einstellungen (*Bitcoin Qt*), wenn die Option `-resetguisettings` verwendet wird.
 
-
-
-Wie wir in den ersten Teilen dieses BTC 202-Kurses gesehen haben, ist Bitcoin core sowohl Bitcoin Node-Software als auch Wallet. Es ist jedoch nicht unbedingt die Lösung, die ich für die Verwaltung Ihrer Wallets empfehlen würde, da sein Interface grundlegend bleibt und seine Funktionalitäten im Vergleich zu moderner Software wie Sparrow oder Liana begrenzt sind. Core enthält auch Dateien für die Verwaltung Ihrer Geldbörsen:
-
-
-
-
+Wie wir in den ersten Teilen dieses BTC 202-Kurses gesehen haben, ist Bitcoin Core sowohl Bitcoin Node-Software als auch Wallet. Es ist jedoch nicht unbedingt die Lösung, die ich für die Verwaltung deiner Wallets empfehlen würde, da sein Interface simple bleibt und seine Funktionalitäten im Vergleich zu moderner Software wie Sparrow oder Liana begrenzt sind. Core enthält auch Dateien für die Verwaltung deiner Wallets:
 
 - `wallets/` ist das Standardverzeichnis, das eine oder mehrere Wallets beherbergt;
-- `wallets/<name>/Wallet.dat` ist die SQLite-Datenbank des Wallet (Schlüssel, Deskriptoren, Transaktions-Metadaten usw.);
+- `wallets/<name>/Wallet.dat` ist die SQLite-Datenbank des Wallet (Keys, Deskriptoren, Transaktions-Metadaten usw.);
 - `wallets/<name>/wallet.dat-journal` ist das SQLite-Rollback-Journal.
 
-
-
-Zusammenfassend lässt sich die Struktur der Bitcoin core-Datei wie folgt beschreiben:
-
-
+Zusammenfassend lässt sich die Struktur der Bitcoin Core-Datei wie folgt beschreiben:
 
 ```
 ~/.bitcoin/
@@ -1754,137 +1648,68 @@ Zusammenfassend lässt sich die Struktur der Bitcoin core-Datei wie folgt beschr
 └── .lock
 ```
 
-
-
 ### Der Validierungspfad für einen neuen Block
 
+Beim Empfang eines neuen Blocks prüft deine Node den Proof-of-Work und ganz allgemein die Einhaltung der Konsensregeln. Wenn alles in Ordnung ist, wendet sie die Änderungen Transaktion für Transaktion auf ihr UTXO-Set an: Sie prüft, ob jeder Eintrag bestehende UTXOs mit einem gültigen Skript ausgibt, löscht diese UTXOs und fügt die neuen Outputs hinzu. Wenn alles gültig ist, werden die Änderungen an `chainstate/` übergeben.
 
-
-Beim Empfang eines neuen Blocks prüft dein Node den Proof of Work und ganz allgemein die Einhaltung der Konsensregeln. Wenn alles in Ordnung ist, wendet er die Änderungen Transaktion für Transaktion auf seinen UTXO-Satz an: Er prüft, ob jeder Eintrag bestehende UTXOs mit einem gültigen Skript ausgibt, löscht diese UTXOs und fügt die neuen Ausgänge hinzu. Wenn alles gültig ist, werden die Änderungen an `chainstate/` übergeben.
-
-
-
-Parallel dazu werden die Rückgängigmachungsdaten in die Datei `rev*.dat` und die Metadaten in den Index `blocks/index/` geschrieben. Der Block wird dann in die richtige Datei "blk*.dat" serialisiert. Im Falle einer Umstrukturierung liest der Node `rev*.dat` in umgekehrter Reihenfolge, um die aufgegebenen Blöcke sauber zu trennen, den UTXO-Satz wiederherzustellen und dann die Blöcke der neuen besten Kette zu verbinden.
-
-
-
-
+Parallel dazu werden die Undo-Daten in die Datei `rev*.dat` und die Metadaten in den Index `blocks/index/` geschrieben. Der Block wird dann in die richtige Datei `blk*.dat` serialisiert. Im Falle einer Umstrukturierung liest die Node `rev*.dat` in umgekehrter Reihenfolge, um die aufgegebenen Blöcke sauber zu trennen, das UTXO-Set wiederherzustellen und dann die Blöcke der neuen besten Kette zu verbinden.
 
 ## Verstehen von Bitcoin.conf
 
-
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>
-
-
 
 Die Datei "Bitcoin.conf" ist die Hauptkonfigurationsdatei des Interface für den Bitcoin core. du ermöglicht es dir, das Verhalten und die Parameter Ihres Node anzupassen, ohne den Quellcode neu kompilieren oder Befehlszeilenänderungen vornehmen zu müssen. Konkret handelt es sich um eine einfache Textdatei, die in Schlüssel-Wert-Paaren strukturiert ist, d. h. jede Zeile der Datei verweist auf einen bestimmten Parameter (den Schlüssel) und den zugehörigen Wert, der geändert werden kann, um den Parameter anzupassen.
 
-
-
 Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und RPC-Zugangsparameter können in der Datei "Bitcoin.conf" definiert werden. Diese Konfigurationsdatei ändert jedoch niemals die Konsensregeln des Protokolls: du legt nur die lokale Politik des Node (Weiterleitungsregeln) fest, die Art und Weise, wie er sich verbindet, indiziert und Dienste bereitstellt.
-
-
 
 ### Standort und Priorität
 
-
-
 Standardmäßig befindet sich die Datei `Bitcoin.conf` im Bitcoin core-Datenverzeichnis. Dies ist das berühmte Verzeichnis, das wir im vorherigen Kapitel erwähnt haben. Allerdings wird diese Datei nicht automatisch von Bitcoin core erstellt, außer in bestimmten Umgebungen, wie z.B. Umbrel. Wenn sie noch nicht existiert, müssen du sie selbst erstellen, indem du einfach eine Datei mit dem Namen `Bitcoin.conf` erstellen und diese dann in einem Texteditor öffnen, um Ihre Änderungen vorzunehmen.
 
-
-
 Die in der Datei `Bitcoin.conf` definierten Parameter können von 2 Ebenen überschrieben werden:
-
-
-
 
 - `settings.json` (dynamisch von Interface-Grafiken oder einigen RPC geschrieben),
 - und über Befehlszeilen geänderte Optionen.
 
-
-
 Beachten du, dass jede Änderung an `Bitcoin.conf` einen Neustart des Node erfordert, um wirksam zu werden.
-
-
 
 ### Format und Struktur
 
-
-
 Das Format der `Bitcoin.conf` ist daher sehr einfach: eine Zeile pro Option, in der Form `Option=Wert`. Unnötige Leerzeichen und Leerzeilen werden ignoriert, und Code-Kommentare beginnen mit `#`.
-
-
 
 Fast alle booleschen Optionen können mit einem Präfix "no" deaktiviert werden. Zum Beispiel sind `listen=0` und `nolisten=1` je nach Version gleichwertig.
 
-
-
 Um die Konfiguration nach Netzen zu unterteilen, können du Abschnitte verwenden: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Alternativ können du dem Optionsnamen `regtest.maxmempool=100` voranstellen.
-
-
 
 ### Was Bitcoin.conf tun kann und was nicht
 
-
-
 Wie oben erläutert, sind die Konsensregeln in der Datei "Bitcoin.conf" offensichtlich nicht konfigurierbar, da dies einen Hard Fork erzeugen könnte. Auf der anderen Seite sind viele andere Aspekte konfigurierbar. Es gibt 3 nützliche Klassen, die man im Auge behalten sollte:
-
-
-
 
 - Rein lokale Parameter. Diese betreffen nur Ihren Node: Cache-Größe (`dbcache`), pruned-Modus (`prune`), optionale Indizes... du beeinflussen die Leistung Ihres Rechners, aber nicht die des Netzwerks.
 - Weiterleitungs- und Mempool-Richtlinien. Diese entscheiden darüber, was dein Node vor der Bestätigung akzeptiert, behält und weiterleitet: Mindestgebührenschwelle (`minrelaytxfee`), Mempool Größe und Aufbewahrungszeit (`maxmempool`, `mempoolexpiry`), Transaktionsersatz (RBF)... Diese Regeln sind nicht Teil des Konsens, so dass zwei verschiedene Node unterschiedliche Richtlinien haben können und trotzdem vollständig kompatibel sind. Andererseits haben diese Parameter einen Einfluss auf das Bitcoin-Netzwerk (wie im ersten Teil erklärt, insbesondere mit der Perkolationstheorie).
 - Netzwerk-Konnektivität. Diese Optionen bestimmen, wie dein Node Peers findet, zuhört, ein NAT durchläuft, Tor oder einen Proxy benutzt oder seine Bandbreite begrenzt. du formen Ihre Topologie, verändern aber nicht die Weiterleitung von Transaktionen.
 
-
-
 Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht den Konsensregeln entspricht, wird dein Node sie in jedem Fall ablehnen. Aber eine strengere lokale Richtlinie kann sich weigern, eine Transaktion weiterzuleiten, die im Sinne des Konsenses gültig ist.
-
-
 
 ### Netzwerk und Topologie
 
-
-
 Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen zu unterscheiden, die ein Bitcoin-Node haben kann:
-
-
-
 
 - Ausgehende Verbindungen, die von unserem Node zu einem anderen Node initiiert werden;
 
-
-
 ![Image](assets/fr/106.webp)
-
-
-
-
 
 - Eingehende Verbindungen, die von einem anderen Node zu unserem initiiert werden.
 
-
-
 ![Image](assets/fr/107.webp)
-
-
 
 Diese beiden Verbindungsarten sind durchaus in der Lage, dieselben Daten in beide Richtungen auszutauschen; es geht nicht darum, die Richtung des Datenflusses zu beschränken, sondern nur um den Unterschied im Initiator der Verbindung. Aus der Sicht unseres Node gelten ausgehende Verbindungen im Allgemeinen als sicherer, da wir sie initiieren und genau auswählen, zu welchem Node wir eine Verbindung herstellen wollen, so dass es unwahrscheinlich ist, dass die Verbindung böswillig ist. Standardmäßig unterhält der Bitcoin core 10 ausgehende Verbindungen (8 "*full-relay*" + 2 "*block-relay-only*").
 
-
-
 Ein Full node erhöht den Wert des Netzes, indem er eingehende Verbindungen annimmt. Mit dem Parameter "Listen=1" wird das Abhören auf dem Standard-Port 8333 des betreffenden Netzes aktiviert, so dass diese eingehenden Verbindungen über das Clearnet empfangen werden können. Damit dies funktioniert, muss dieser Port auch auf Ihrem Router geöffnet sein. Ist dies nicht der Fall, funktioniert dein Node weiterhin nur mit ausgehenden Verbindungen, was keine Auswirkungen auf Ihre persönliche Nutzung des Bitcoin hat. Die Entscheidung, ob du eingehende Verbindungen zulassen wollen, liegt bei dir; es gibt keine "beste Wahl"
-
-
 
 Wenn du es vorziehst, keinen Port auf deinem Router zu öffnen, aber trotzdem eingehende Verbindungen akzeptierst, kannst du den Parameter `listenonion=1` aktivieren. Damit erreichst du das gleiche Ergebnis, aber nur über das Tor-Netzwerk und nicht über clearnet.
 
-
-
 Auf der Netzebene haben wir auch:
-
-
-
 
 - `addnode`: fügt einen freundlichen Peer zur Kontaktaufnahme hinzu (kann mehrfach angegeben werden).
 - `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Node verbinden;
@@ -1897,16 +1722,9 @@ Auf der Netzebene haben wir auch:
 - feste Seeds": Erlaubt die Verwendung von *seed-Node* (hartkodierte Address-Liste), wenn _DNS-Seeds_ fehlschlagen oder deaktiviert sind (Standard: `1`).
 - `dns`: Erlaubt DNS-Auflösungen im Allgemeinen (z.B. für `-addnode`/`-seednode`/`-connect`).
 
-
-
 Standardmäßig kommuniziert dein Node über Clearnet, Tor und I2P. Das bedeutet, dass die Peers, mit denen er sich im Clearnetz verbindet, Ihre öffentliche IP Address sehen können, und dein ISP wird wahrscheinlich erkennen können, dass du einen Bitcoin-Node betreiben (obwohl P2P Transport V2 es für einen ISP schwieriger macht, zu lauschen). Das ist nicht unbedingt ein Problem, aber wenn du ein Durchsickern dieser Informationen vermeiden willst, kannst du deinen Node ausschließlich über das Tor-Netzwerk verbinden.
 
-
-
 Um vollständig Tor-fähig zu sein, musst du Bitcoin core zwingen, nur dieses Netzwerk zu benutzen und einen versteckten Dienst für eingehende Verbindungen zu erstellen (wenn du sie aktivieren willst). In der `Bitcoin.conf` musst du diese Konfiguration hinzufügen:
-
-
-
 
 - onlynet=onion",
 - `proxy=127.0.0.1:9050`,
@@ -1918,582 +1736,218 @@ Um vollständig Tor-fähig zu sein, musst du Bitcoin core zwingen, nur dieses Ne
 - upnp=0",
 - natpmp=0".
 
-
-
 Alle deine P2P-Verbindungen gehen durch Tor. Dein Node erhält einen "onion"-Address für eingehende Verbindungen, so dass keine Ports auf dem Router geöffnet werden müssen. Dein ISP sieht nur den Tor-Verkehr, und deine Partner wissen nichts von deiner tatsächlichen öffentlichen IP Address.
-
-
 
 Um die DNS-Auflösung im Klartext zu vermeiden, können du `dnsseed=0` und `dns=0` zu Ihrer Konfiguration hinzufügen. du müssen dann manuell `.onion`-Peers über `seednode=` oder `addnode=` bereitstellen, da die Erkennung neuer Node sonst schwierig ist.
 
-
-
 Wenn du Anfänger sind, würde ich dir natürlich raten, all diese Netzwerkeinstellungen vorerst in Ruhe zu lassen. Die Standardkonfiguration ist oft ausreichend.
-
-
 
 ### Mempool und Relaispolitik
 
-
-
 #### Grundlegende Parameter
-
-
 
 Hier sind die grundlegenden Parameter, die du in Ihrer "Bitcoin.conf" ändern können und die die Verwaltung Ihres Mempool und die Weiterleitung unbestätigter Transaktionen betreffen:
 
-
-
-
-
 - `maxmempool=<n>`: Begrenzt die maximale Größe des lokalen Mempool auf `<n>` Megabytes (Standard: `300`). Wenn das Limit erreicht ist, erhöht dein Node dynamisch seinen effektiven Gebührenschwellenwert und priorisiert die am wenigsten profitablen Transaktionen (basierend auf dem Gebührensatz, nicht auf dem absoluten Wert), um unter dem Limit zu bleiben. du können diese Einstellung als Standard belassen. du zu erhöhen kann nützlich sein, wenn du Mining alleine sind oder wenn du einen genaueren Überblick über die Mempool Überlastung erhalten und die Gebührenabschätzung verbessern wollen. Umgekehrt spart eine Verringerung des Wertes RAM und in geringerem Maße auch andere Systemressourcen.
-
-
-
-
 
 - `mempoolexpiry=<n>`: Maximale Aufbewahrungszeit für unbestätigte Transaktionen in Mempool (in Stunden, Standard: `336`). Nach dieser Zeit werden die Transaktionen entfernt, auch wenn noch Speicherplatz verfügbar ist.
 
-
-
-
-
 - persistmempool=1": Speichert einen Schnappschuss des Mempool im Stillstand und lädt ihn beim Neustart neu (Standard: `1`). Dies beschleunigt die Wiederherstellung nach einem Neustart und vermeidet die Notwendigkeit, den Zustand über das Netzwerk neu zu lernen.
-
-
-
-
 
 - `maxorphantx=<n>`: Maximale Anzahl der verwaisten Transaktionen, die beibehalten werden (abhängige Eingaben von UTXOs, die noch nicht im UTXO-Set gesehen wurden, Standardwert: `100`). Bei Überschreitung dieses Schwellenwerts werden die ältesten Transaktionen gelöscht, um ein unkontrolliertes Anwachsen des Cache zu vermeiden.
 
-
-
-
-
 - `blocksonly=1` : Deaktiviert die Annahme und Weiterleitung unbestätigter Transaktionen, die von Peers empfangen werden (außer bei speziellen Berechtigungen). Der Node lädt und kündigt nur noch Blöcke an. Lokal erstellte Transaktionen können weiterhin gesendet werden (zur Nutzung des Nodes mit Ihrer Wallet-Software). Dies reduziert die Bandbreite und den RAM-Bedarf erheblich, auf Kosten einer geringeren Nützlichkeit für das Relaying und ohne Kenntnis des Mempools.
-
-
-
-
 
 - `minrelaytxfee=<n>`: Minimaler Gebührensatz (in BTC/kvB), unter dem Transaktionen im Mempool des Node nicht akzeptiert und nicht an Peers weitergeleitet werden (Standard: `0.00001` = 1 sat/vB). Je höher dieser Wert ist, desto aggressiver filtert dein Node kostengünstige Transaktionen.
 
-
-
-
-
 - `mempoolfullrbf=1`: Akzeptiert RBF-Transaktionen auch ohne ausdrückliche RBF-Signalisierung in der ersetzten Transaktion. Mit dieser "*full-RBF*"-Politik kann eine Transaktion mit einem höheren Gebührensatz eine andere in Mempool ersetzen, wenn die anderen Ersetzungsbedingungen erfüllt sind.
-
-
 
 Zur Erinnerung: RBF ist ein Transaktionsmechanismus, der es dem Absender ermöglicht, eine Transaktion durch eine Transaktion mit höheren Gebühren zu ersetzen, um die Bestätigung zu beschleunigen. Wenn eine Transaktion mit einer zu niedrigen Gebühr blockiert bleibt, kann der Absender *Replace-by-fee* verwenden, um die Gebühr zu erhöhen und seine Ersatztransaktion in Mempools und bei Minern zu priorisieren.
 
-
-
 #### Erweiterte und spezifische Einstellungen
-
-
 
 Hier finden du die erweiterten Einstellungen für Mempool und die Relais-Richtlinie. Wenn du ein Anfänger sind, sollten du diese Einstellungen nicht ändern müssen:
 
-
-
-
-
 - `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen du geminte `OP_RETURN` akzeptieren.
-
-
-
-
 
 - datacarriersize=<n>`: Maximale Größe (in Bytes) des `OP_RETURN`, den der Node weiterleitet (Standard: `83`). Eine Verringerung dieses Wertes schränkt die über `OP_RETURN` transportierten Nutzdaten ein. Beachten du, dass dieses Limit in einer zukünftigen Version von Bitcoin core standardmäßig entfernt wird.
 
-
-
-
-
 - bytespersigop=<n>`: Parameter, der Signaturtransaktionen in äquivalente Bytes für die Auswertung des Relay-Limits umwandelt (Standard: `20`). Dies beeinflusst die Akzeptanz von "sigops"-reichen Transaktionen gemäß den lokalen Regeln.
-
-
-
-
 
 - permitbaremultisig=1": Erlaubt die Weiterleitung von *bare-Multisig* P2MS-Transaktionen (Standard: `1`). Dies ist die älteste Skriptvorlage für die Einrichtung von Multisignaturbedingungen auf einem UTXO (erfunden 2011 von Gavin Andresen).
 
-
-
-
-
 - whitelistrelay=1": Gewährt eingehenden Peers, die auf der Whitelist stehen, automatisch eine Relay-Erlaubnis (Standard: `1`). Die Transaktionen dieser Peers werden vom Relay akzeptiert, auch wenn sich dein Node nicht im allgemeinen Relay-Modus befindet.
-
-
-
-
 
 - whitelistforcerelay=1`: Weist "*forcerelay*"-Erlaubnis für Peers auf der Whitelist mit Standardberechtigungen zu (Standard: `0`). Der Node leitet dann ihre Transaktionen weiter, auch wenn sie bereits in Mempool vorhanden sind, und umgeht so die Anti-Redundanz-Mechanismen.
 
-
-
-
-
 - `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindet einen Interface- oder Address-Bereich und weist den entsprechenden Peers feinkörnige Berechtigungen zu: `relay`, `forcerelay`, `Mempool` (Mempool Inhaltsanforderung), `noban`, `download`, `addr`, `bloomfilter`. Dies kann nützlich sein, um vertrauenswürdigen Gegenstellen (wie Gateways, LANs und internen Diensten) eine privilegierte Behandlung zu gewähren.
-
-
-
-
 
 - `peerbloomfilters=1` : Aktiviert die Unterstützung von Bloom-Filtern (BIP37), um gefilterte Blöcke/Transaktionen an Light-Clients zu liefern (Standard: `0`). Achtung, dies erhöht die Belastung Ihrer Ressourcen.
 
-
-
-
-
 - `peerblockfilters=1` : Dient kompakten BIP157-Filtern (*Neutrino*) an Peers (Standard: `0`).
-
-
-
-
 
 - `blockreconstructionextratxn=<n>`: Zusätzliche Anzahl von Transaktionen, die im Speicher gehalten werden, um kompakte Blöcke wiederherzustellen (Voreinstellung: `100`). Verbessert den Erfolg von Rekonstruktionen während kompakter Synchronisationen, auf Kosten von etwas Speicher.
 
-
-
 Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkeit von Transaktionen, die in einem gültigen Block enthalten sind. du dienen dazu, Ihren Beitrag zum Relay anzupassen, Ihre Ressourcen zu schützen und Ihren Node in eingeschränkten Umgebungen berechenbar zu machen, aber sie erlauben dir niemals, Blöcke abzulehnen, die die Konsensregeln einhalten.
-
-
 
 ### Geldbörsen
 
-
-
 du können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der Datei `Bitcoin.conf` anpassen. Wenn du Wallet nicht direkt in Core verwenden, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
-
-
-
-
 
 - `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Legt das Format der vom Wallet für den Empfang generierten Adressen fest.
 
-
-
-
-
 - `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Erzwingt Exchange-Address-Format (Rest einer Eingabe auf eine einzige Zahlung).
-
-
-
-
 
 - gW-727=<Pfad>`: Lädt einen vorhandenen Wallet beim Start (kann wiederholt werden, um mehrere Geldbörsen zu laden).
 
-
-
-
-
 - `walletdir=<dir>`: Verzeichnis, das die Wallets enthält (Standard: `<datadir>/wallets` wenn es existiert, sonst `<datadir>`). Dies kann nützlich sein, wenn du die Wallets auf einem dedizierten oder verschlüsselten Volume speichern wollen.
-
-
-
-
 
 - walletbroadcast=1": Sendet automatisch Transaktionen, die von geladenen Geldbörsen erstellt wurden (Standard: `1`). Setzen du auf "0", wenn du die Übertragung über einen anderen Kanal verwalten möchten.
 
-
-
-
-
 - walletrbf=1": Aktiviert RBF Opt-in, um RBF bei allen Transaktionen zu signalisieren (Standard: `1`). Ermöglicht es dir, die Gebühren im Falle einer blockierten Transaktion später zu erhöhen.
-
-
-
-
 
 - `txconfirmtarget=<n>`: Bestätigungsziel für die Transaktion (in Anzahl der Blöcke, Standard: `6`). Die Wallet setzt die Gebühr für die Transaktion automatisch so fest, dass sie innerhalb dieser Anzahl von Blöcken bestätigt wird.
 
-
-
-
-
 - `paytxfee=<amt>`: Fester Gebührensatz (BTC/kvB), der auf Wallet-Transaktionen angewendet wird. Generell zu vermeiden: adaptive Schätzung über `txconfirmtarget` verwenden.
-
-
-
-
 
 - `fallbackfee=<amt>` : Notfallgebühr (BTC/kvB), die verwendet wird, wenn dem Schätzer Daten fehlen (Standard: `0.00`). Das Setzen auf 0 deaktiviert die Notfallgebühr vollständig.
 
-
-
-
-
 - mintxfee=<amt>`: Mindestschwellenwert (BTC/kvB), ab dem Wallet Transaktionen erstellt (Standardwert: "0,00001"). Wallet wird sich weigern, eine Transaktion unter diesem Schwellenwert zu erstellen.
-
-
-
-
 
 - maxtxfee=<amt>`: Absolute Obergrenze der Gesamtgebühren für eine Wallet-Transaktion (Standardwert: 0,10 BTC). Schützt vor abnorm hohen Gebühren, die unnötig Bitcoins zerstören würden.
 
-
-
-
-
 - teilausgaben vermeiden=1": Wählt UTXOs nach Address-Clustern aus, um Teilausgaben zu vermeiden.
-
-
-
-
 
 - spendzeroconfchange=1": Erlaubt die Wiederverwendung eines unbestätigten UTXO Exchange als Eintrag in einer neuen Transaktion (Standardwert: `1`).
 
-
-
-
-
 - consolidatefeerate=<amt>`: Maximaler Satz (BTC/kvB), bei dessen Überschreitung Wallet nicht mehr Inputs hinzufügt als für die Konsolidierung erforderlich. Dies ermöglicht opportunistische Konsolidierungen zu niedrigen Preisen und reduziert die Kosten, wenn die Kosten hoch sind.
-
-
-
-
 
 - `maxapsfee=<n>`: Budget für zusätzliche Gebühren (BTC, absoluter Wert), die der Wallet zu zahlen bereit ist, um die Option "*Teilausgaben vermeiden*" zu aktivieren.
 
-
-
-
-
 - `Discardfee=<amt>`: Satz (BTC/kvB), der angibt, inwieweit du bereit sind, den Exchange wegzuwerfen, indem du ihn zur Gebühr hinzufügen. Ausgaben, die bei diesem Satz mehr als ein Drittel ihres Wertes kosten würden, werden verworfen.
-
-
-
-
 
 - keypool=<n>`: Größe des vorgenerierten Address-Pools (Standard: `1000`). Zu kleine Werte erhöhen das Risiko einer unvollständigen Wiederherstellung.
 
-
-
-
-
 - disablewallet=1": Startet Bitcoin core ohne das Subsystem Wallet und deaktiviert die zugehörigen RPCs. Verringert die Angriffsfläche und den Fußabdruck, wenn der Node nur zur Validierung/Freigabe verwendet wird.
-
-
 
 ### Speicherung, Indizierung und Leistung
 
-
-
 In der Konfigurationsdatei können du auch die Parameter für Ihre Maschine einstellen. Dies kann besonders wichtig sein, wenn du über begrenzte Ressourcen oder im Gegenteil über eine große verfügbare Kapazität verfügen:
-
-
-
-
 
 - datadir=<dir>`: Legt das Hauptdatenverzeichnis des Bitcoin core fest.
 
-
-
-
-
 - `blocksdir=<dir>`: Entkoppelt den Ort der Blockdateien (`blocks/blk*.dat` und `blocks/rev*.dat`) vom `datadir`. Dies kann nützlich sein, um das Blocks-Archiv auf einem anderen Datenträger zu platzieren, während die Zustandsbasis (`chainstate/`) beispielsweise auf einem schnelleren Medium bleibt.
-
-
-
-
 
 - `dbcache=<n>`: Weist `<n>` MiB für den Datenbank-Cache (*LevelDB*) zu, der vom Blockindex und `chainstate` verwendet wird (Standard: `450`). Je höher der Wert, desto schneller die IBD und die aktuelle Validierung, allerdings auf Kosten eines höheren RAM-Verbrauchs.
 
-
-
-
-
 - prune=<n>`: Aktiviert das Pruning von Blockdateien und setzt ein Speicherplatzziel in MiB (Standard: `0` = deaktiviert; `1` = manuelles Pruning über RPC; `>=550` = automatisches Pruning unterhalb des Ziels). Inkompatibel mit `txindex=1`. Der Node bleibt ein voll validierender Node, kann aber nicht mehr die alte Historie liefern. Diese Option ist besonders nützlich, wenn der Festplattenspeicherplatz begrenzt ist, z. B. bei der Installation eines Node auf Ihrem Heimcomputer.
-
-
-
-
 
 - `txindex=1` : Erstellt und pflegt einen globalen Index bestätigter Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction` außerhalb der Wallet) und für Explorationszwecke, erhöht jedoch deutlich den Speicherbedarf. Nicht kompatibel mit dem abgespeckten Modus.
 
-
-
-
-
 - `assumevalid=<hex>`: Gibt einen Block an, von dem angenommen wird, dass er gültig ist, so dass du die Skriptprüfungen für seine Vorgänger überspringen können (setzen du `0`, um alles zu prüfen). Siehe das vorherige Kapitel für weitere Informationen.
-
-
-
-
 
 - `reindex=1`: Rekonstruiert Blockindizes und Status (`chainstate`) aus `blk*.dat`-Dateien auf der Festplatte. Baut auch optionale aktive Indizes wieder auf. Dies ist ein zeitaufwändiger Vorgang, um eine beschädigte Datenbank zu reparieren oder schwere Indizes sauber zu aktivieren/deaktivieren.
 
-
-
-
-
 - reindex-chainstate=1`: Stellt nur den `chainstate` vom aktuellen Blockindex wieder her. Bevorzugt, wenn die Blockdateien in Ordnung sind.
-
-
-
-
 
 - `blockfilterindex=<Typ>`: Verwaltet Indizes von kompakten Blockfiltern (z.B. `basic`), die von Thin Clients (BIP157/158) und einigen RPCs verwendet werden. Standardmäßig deaktiviert (`0`). Verbraucht zusätzlichen Plattenplatz und Indizierungszeit.
 
-
-
-
-
 - coinstatsindex=1": Führt einen UTXO-Statistikindex, der mit dem Aufruf "gettxoutsetinfo" betrieben wird. Nützlich für Audits und Metriken, da eine kostspielige Neuberechnung entfällt. Standardmäßig deaktiviert.
-
-
-
-
 
 - `loadblock=<Datei>`: Importiert beim Start Blöcke aus einer externen Datei `blk*.dat`. Wird verwendet, um den Verlauf aus einer Offline-Quelle (lokale Kopie, externe Medien) vorzuladen, um die Initialisierung zu beschleunigen.
 
-
-
-
-
 - `par=<n>`: Legt die Anzahl der Skriptüberprüfungs-Threads fest (von `-10` bis `15`, `0` = auto, `<0` = lässt diese Anzahl von Kernen frei). Erlaubt dir, die CPU-Parallelität während der Überprüfung anzupassen. Der Auto-Modus ist in den meisten Fällen geeignet.
-
-
-
-
 
 - `debuglogfile=<file>`: Gibt den Speicherort des Protokolls `debug.log` an.
 
-
-
-
-
 - shrinkdebugfile=1`: Verringert die Größe von `debug.log` beim Start (Standard: `1`, wenn `-debug` nicht aktiv ist).
-
-
-
-
 
 - einstellungen=<Datei>`: Pfad zur dynamischen Einstellungsdatei `settings.json`.
 
-
-
 ### RPC Zugang und Betriebssicherheit
-
-
 
 Schließlich können du in der Datei "Bitcoin.conf" auch die Zugriffsparameter für Ihren Node konfigurieren. Seien du vorsichtig mit diesen Einstellungen, besonders wenn du gerade erst anfangen: Vermeiden du es, sie zu ändern, ohne die Auswirkungen genau zu verstehen, da dies zu Schwachstellen führen könnte.
 
-
-
-
-
 - server=1": Aktiviert den JSON-RPC-Server. Unerlässlich, wenn du `bitcoind` über `bitcoin-cli` oder eine Anwendung eines Drittanbieters betreiben. Deaktivieren (`0`) auf einem reinen Validierungsknoten, der keine API offenlegt oder bereits einen Electrum-Server verwendet.
-
-
-
-
 
 - rpcbind=<addr>[:port]`: RPC-Server lauscht Address/Port. Standardmäßig erfolgt das Abhören nur lokal (`127.0.0.1` und `::1`). Dieser Parameter wird ignoriert, wenn `rpcallowip` nicht ebenfalls definiert ist. Verwenden du ihn, um Interface explizit einzuschränken.
 
-
-
-
-
 - rpcport=<Port>`: RPC-Port (Standard: `8332` auf Mainnet, `18332` auf Testnet, `38332` auf bookmark, `18443` auf regtest).
-
-
-
-
 
 - rpcallowip=<ip|cidr>`: Erlaubt RPC Clients von einer bestimmten IP oder einem Subnetz (kann wiederholt werden). In Verbindung mit `rpcbind` verwenden, um die API nur für ein vertrauenswürdiges Segment (LAN/VPN) freizugeben.
 
-
-
-
-
 - rpcauth=<USERNAME>:<SALT>$<Hash>`: Empfohlene RPC-Authentifizierungsmethode (Hash-Passwort). Erlaubt mehrere Einträge und vermeidet die Speicherung eines Geheimnisses im Klartext.
-
-
-
-
 
 - rpccookiefile=<Pfad>`: Pfad zum Authentifizierungs-Cookie (Standard: Datei `.cookie` unter `datadir/`). Dies wird für den lokalen Zugriff desselben Benutzers ohne Verwaltung dauerhafter Passwörter verwendet. Beispielsweise können du damit den Liana Wallet mit Ihrem Bitcoin core auf demselben Rechner verbinden.
 
-
-
-
-
 - rpcuser=<user>` / `rpcpassword=<pw>`: Klassische RPC-Authentifizierung mit Klartext-Passwort. Vermeiden du dies zugunsten von `rpcauth` oder einem Cookie.
-
-
-
-
 
 - rpcthreads=<n>`: Anzahl der Threads, die RPC-Aufrufe bedienen (Standard: `4`). Erhöhen du diese Zahl, wenn du hohe Aufrufspitzen auf der Seite der Überwachung/des externen Tools haben.
 
-
-
-
-
 - rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Whitelist der zugelassenen APIs. Reduziert die Angriffsfläche durch Einschränkung der zugänglichen Methoden.
-
-
-
-
 
 - rpcwhitelistdefault=1|0": Standardverhalten der Whitelist: wenn aktiviert und eine Whitelist verwendet wird, werden nicht gelistete Anrufe abgewiesen. Dies kann auch eine leere Standardmenge erzwingen (keine Anrufe erlaubt), solange nichts explizit aufgeführt ist.
 
-
-
-
-
 - rest=1": Aktivieren du die öffentliche REST-API (standardmäßig deaktiviert). Darf nur in einem vertrauenswürdigen Netzwerk offengelegt werden (gleiche Vorsicht wie bei JSON-RPC).
-
-
-
-
 
 - `conf=<Datei>`: Gibt, nur auf der Befehlszeile, eine schreibgeschützte Konfigurationsdatei an. Nützlich zum Einfrieren eines Ausführungsprofils (unveränderlich) auf der Ops-Seite.
 
-
-
-
-
 - `includeconf=<Datei>`: Lädt eine zusätzliche Konfigurationsdatei (Pfad relativ zu `datadir/`). Ermöglicht die Trennung der Rollen: gemeinsame Basis + sensible lokale Überladung.
-
-
-
-
 
 - gW-769=1` / `daemonwait=1`: Startet `bitcoind` im Hintergrund und wartet mit `daemonwait` auf das Ende der Initialisierung, bevor es übergeben wird. Dies erleichtert die Integration mit Überwachungsprogrammen (systemd, runit).
 
-
-
-
-
 - `pid=<Datei>`: Speicherort der PID-Datei.
-
-
-
-
 
 - `sandbox=<log-and-abort|abort>`: Aktiviert experimentelles Syscall-Sandboxing: nur erwartete Syscalls sind erlaubt.
 
-
-
-
-
 - `startupnotify=<cmd>` / `shutdownnotify=<cmd>`: Führt einen Befehl beim Starten oder Herunterfahren aus.
-
-
-
-
 
 - alertnotify=<cmd>`: Löst bei Empfang eines Alerts einen Befehl aus.
 
-
-
-
-
 - `blocknotify=<cmd>`: Führt für jeden neuen Block einen Befehl aus.
-
-
-
-
 
 - `debug=<Kategorie>|1` / `debugexclude=<Kategorie>`: Aktiviert/deaktiviert detaillierte Protokollkategorien (z.B. `net`, `Mempool`, `RPC`, `validation`...).
 
-
-
-
-
 - logips=1": Protokolliert IP-Adressen.
-
-
-
-
-
+  
 - `logsourcelocations=1` / `logthreadnames=1` / `logtimestamps=1`: Fügt den Protokollen Quellorte, Threadnamen und genaue Zeitstempel hinzu.
-
-
-
-
 
 - printtoconsole=1`: Sendet Traces/Debugs an die Konsole (*stdout*).
 
-
-
-
-
 - help-debug=1": Zeigt die Hilfe zur Debug-Option an und beendet das Programm.
-
-
-
-
 
 - uacomment=<cmt>`: Fügt einen Kommentar zum Benutzer-Agenten P2P hinzu.
 
-
-
 Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Node dar: du definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
-
-
 
 Wir sind am Ende dieses BTC 202-Kurses angelangt, der du nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch Ihren eigenen einzurichten. du sind jetzt ein souveräner Bitcoiner, mit Ihrem eigenen Wallet, der Ihre Transaktionen über Ihren eigenen Node überträgt. Herzlichen Glückwunsch!
 
-
-
 du können nun zum letzten Teil des Kurses übergehen, in dem du BTC 202 bewerten können, und anschließend dein Diplom ablegen, um zu überprüfen, ob du alle behandelten Konzepte beherrschen.
-
-
 
 dir stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung eines eigenen Lightning-Node, der es dir ermöglicht, bei Ihren off-chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
 
-
-
 In der Zwischenzeit lade ich du ein, die BTC 204-Schulung kennenzulernen, die du in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
-
-
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-
 # Letzter Teil
-
 
 <partId>679169f5-b990-47e1-9a00-45098ba8096b</partId>
 
-
-
-
-
 ## Rezensionen und Bewertungen
-
 
 <chapterId>c18f672d-1074-427e-9505-eecd7ae43e71</chapterId>
 
-
-
-
 <isCourseReview>true</isCourseReview>
-
 
 ## Abschlussprüfung
 
-
 <chapterId>a4c97701-996c-4cc5-81fa-37d2dc4ee856</chapterId>
-
-
-
 
 <isCourseExam>true</isCourseExam>
 
-
 ## Schlussfolgerung
 
-
 <chapterId>28c5cf1f-7b9c-4b68-8b8f-eee109629764</chapterId>
-
-
-
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -27,9 +27,9 @@ Oggi Jami è disponibile su molti sistemi. È rinomato per le sue prestazioni, l
 | SimpleX              | ✅             | ✅               | ✅                  | ✅                        | ✅                         | ✅                   | 2021             |
 | Olvid                | ✅             | ✅               | ✅                  | ✅                        | ❌                         | 🟡(nessuna directory)| 2019             |
 | Keet                 | ✅             | ✅               | ✅                  | ❌                        | N/A                        | ✅                   | 2022             |
-| **Jami**             | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 200              |
-| Briar                | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 208              |
-| Tox                  | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 213              |
+| **Jami**             | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2004             |
+| Briar                | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2008             |
+| Tox                  | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2013             |
 
 *E2EE = crittografia end-to-end*
 

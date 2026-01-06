@@ -1,0 +1,9 @@
+question: What is watchtower's role when it detects a cheating attempt?
+answer: Publish the court settlement
+wrong_answers:
+  - Close the channel cooperatively
+  - Freeze funds
+  - Report peer to Bitcoin Core
+explanation: |
+  The watchtower automatically broadcasts the penalty transaction on behalf of the user.
+reviewed: false

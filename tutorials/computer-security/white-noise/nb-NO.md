@@ -72,7 +72,7 @@ Her er en rask sammenligning mellom White Noise og en rekke av de mest kjente me
 
 
 
-Gå til [White Noise-nettstedet] (https://www.whitenoise.chat/), og klikk deretter på **Last ned**.
+Gå til [White Noise-nettstedet](https://www.whitenoise.chat/), og klikk deretter på **Last ned**.
 
 
 

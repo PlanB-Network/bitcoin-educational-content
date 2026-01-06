@@ -1,0 +1,9 @@
+question: What's the financial risk with a custodial wallet Lightning?
+answer: Fractional reserve
+wrong_answers:
+  - Arbitrary increase in mining fees
+  - 51% attack
+  - Definitive halt to the bear market
+explanation: |
+  The user cannot verify that the balances displayed actually correspond to bitcoins held. There is therefore a fractional reserve risk.
+reviewed: false

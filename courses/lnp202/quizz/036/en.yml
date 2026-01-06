@@ -1,0 +1,9 @@
+question: Why is routing on Lightning difficult to make profitable?
+answer: Costs and competition
+wrong_answers:
+  - Channel limit
+  - No request
+  - Lack of global liquidity
+explanation: |
+  Onchain costs, competition and operational requirements make the profitability of the routing business uncertain.
+reviewed: false

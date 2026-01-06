@@ -112,7 +112,7 @@ Kisha gusa **Sakinisha** tena kwenye menyu ya muktadha inayoonekana kuidhinisha 
 
 
 
-Unaweza pia kusakinisha Shelter kutoka kwenye hazina yake ya [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Unaweza pia kusakinisha Shelter kutoka kwenye hazina yake ya [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

@@ -276,7 +276,7 @@ Lisaks on teil võimalus:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Otse wallet-st on teil juurdepääs [Bull Bitcoin vahetusele] (https://www.bullbitcoin.com/), mis võimaldab teil osta, müüa ja maksta Bitcoin ilma rakendusest lahkumata. See integratsioon pakub mugavat lahendust oma Bitcoin vajaduste haldamiseks. Pange tähele, et juurdepääs börsile ja selle teenustele võib olla teie jurisdiktsioonist lähtuvalt piiratud ning regulatiivsete standardite järgimiseks ja platvormi kõigi funktsioonide kasutamiseks võib olla vajalik kliendiandmete kontrollimine (KYC).
+Otse wallet-st on teil juurdepääs [Bull Bitcoin vahetusele](https://www.bullbitcoin.com/), mis võimaldab teil osta, müüa ja maksta Bitcoin ilma rakendusest lahkumata. See integratsioon pakub mugavat lahendust oma Bitcoin vajaduste haldamiseks. Pange tähele, et juurdepääs börsile ja selle teenustele võib olla teie jurisdiktsioonist lähtuvalt piiratud ning regulatiivsete standardite järgimiseks ja platvormi kõigi funktsioonide kasutamiseks võib olla vajalik kliendiandmete kontrollimine (KYC).
 
 
 Alustamiseks koputage paremas alumises nurgas "Exchange", seejärel "Registreeru" või "Logi sisse" oma kontole.
@@ -331,7 +331,7 @@ Vastuvõtuaadressi genereerimiseks on kaks peamist režiimi:
 **Vaikimisi režiim (URI koos täiendavate sisendparameetritega)
 
 
-Vaikimisi genereerib wallet [BIP21 URI] (https://bips.dev/21/). See on standarditud vorming, mis pakendab rohkem teavet kui lihtne aadress, sealhulgas summa, isikliku märkuse ja PayJoini parameetrid, et suurendada privaatsust. See terviklik URI kodeeritakse QR-koodiks ja tehakse kopeerimiseks kättesaadavaks. Formaat näeb välja selline: `bitcoin:<aadress>?<parameeter1>=<väärtus1>&<parameeter2>=<väärtus2>`.
+Vaikimisi genereerib wallet [BIP21 URI](https://bips.dev/21/). See on standarditud vorming, mis pakendab rohkem teavet kui lihtne aadress, sealhulgas summa, isikliku märkuse ja PayJoini parameetrid, et suurendada privaatsust. See terviklik URI kodeeritakse QR-koodiks ja tehakse kopeerimiseks kättesaadavaks. Formaat näeb välja selline: `bitcoin:<aadress>?<parameeter1>=<väärtus1>&<parameeter2>=<väärtus2>`.
 
 
 
@@ -560,7 +560,7 @@ Valige tervitusekraanilt "Wallet taastamine". Seekord valige meetod `Füüsiline
 Kõrgeima turvalisuse tagamiseks otsustavad paljud Bitcoin kasutajad hoida oma raha "külmhoidlas". See tähendab, et teie Bitcoin-d kontrollivaid "privaatvõtmeid" hoitakse seadmes, mis ei ole kunagi ühendatud internetti. wallet (või signimisseade) on spetsiaalne füüsiline seade, mis on loodud just selleks otstarbeks. See toimib nagu teie võtmete digitaalne hoidla, mis tagab, et need ei ole kunagi avatud võimalikele ohtudele, mis võivad tekkida internetiarvutis või nutitelefonis.
 
 
-Ühendades riistvaralise wallet Bull Bitcoin rakendusega, saate mõlemast maailmast parima: oma isiklike võtmete kompromissitu turvalisuse külmhoidla koos Bull Bitcoin wallet võimsate funktsioonide ja kasutajasõbraliku kasutajaliidesega saldode vaatamiseks ja tehingute haldamiseks. Selles viimases peatükis näitame teile, kuidas ühendada riistvaraline wallet, näiteks [Coldcard Q] (https://coldcard.com/q), teie Bull Bitcoin wallet-ga. Selles õpetuses ei käsitleta põhjalikult Coldcard Q seadistamist; selle kohta saate teavet siin:
+Ühendades riistvaralise wallet Bull Bitcoin rakendusega, saate mõlemast maailmast parima: oma isiklike võtmete kompromissitu turvalisuse külmhoidla koos Bull Bitcoin wallet võimsate funktsioonide ja kasutajasõbraliku kasutajaliidesega saldode vaatamiseks ja tehingute haldamiseks. Selles viimases peatükis näitame teile, kuidas ühendada riistvaraline wallet, näiteks [Coldcard Q](https://coldcard.com/q), teie Bull Bitcoin wallet-ga. Selles õpetuses ei käsitleta põhjalikult Coldcard Q seadistamist; selle kohta saate teavet siin:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

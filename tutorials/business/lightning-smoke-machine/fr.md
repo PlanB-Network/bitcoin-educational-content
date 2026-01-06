@@ -203,7 +203,7 @@ Nous prendrons *Blink* comme exemple, mais *BTCPay Server* propose également *S
 - Rendez-vous sur https://www.blink.sv
 - Créez votre compte. Pour ça, vous pouvez vous référer au tutoriel : 
 
-[https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd](https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
+[https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
 
 **2 - Générer un clé API *Blink***
 - Accédez à l'interface API : **[https://www.blink.sv/en/api](https://www.blink.sv/en/api)** et connectez vous avec le même compte que lors de la création de votre wallet *Blink*

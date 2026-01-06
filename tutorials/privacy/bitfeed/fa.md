@@ -11,7 +11,7 @@ description: زنجیره پروتکل اصلی Bitcoin را بررسی کنید
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 در این آموزش، به این ابزار نگاهی خواهیم انداخت که به شما امکان می‌دهد تمام تراکنش‌ها و بلوک‌های شبکه را بررسی کنید.
 
@@ -95,7 +95,7 @@ https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 به طور پیش‌فرض، تراکنش‌ها در یک بلاک بر اساس دو معیار نمایش داده می‌شوند:
 

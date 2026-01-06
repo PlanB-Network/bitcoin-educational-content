@@ -112,7 +112,7 @@ Kemudian ketuk **Instal** lagi pada menu konteks yang muncul untuk mengesahkan p
 
 
 
-Anda juga bisa menginstal Shelter dari repositori [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Anda juga bisa menginstal Shelter dari repositori [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

@@ -1,0 +1,9 @@
+question: What is the main purpose of a router on Lightning?
+answer: Earn money with routing fees
+wrong_answers:
+  - Make money by showing the way
+  - Making money by selling incoming liquidity
+  - Make money by publishing outdated channel reports
+explanation: |
+  The router seeks to route payments from others by collecting routing fees.
+reviewed: false

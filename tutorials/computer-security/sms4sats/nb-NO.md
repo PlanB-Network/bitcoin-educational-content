@@ -23,7 +23,7 @@ Denne veiledningen guider deg gjennom de tre SMS4Sats-funksjonene: motta en bekr
 
 
 
-SMS4Sats er en nettbasert tjeneste tilgjengelig på [sms4sats.com] (https://sms4sats.com), som muliggjør anonym SMS-håndtering via betaling i Bitcoin Lightning. Tjenesten tilbyr tre forskjellige funksjoner: mottak av verifiseringskoder til engangsbruk, sending av SMS til et hvilket som helst nummer og leie av midlertidige numre i flere timer.
+SMS4Sats er en nettbasert tjeneste tilgjengelig på [sms4sats.com](https://sms4sats.com), som muliggjør anonym SMS-håndtering via betaling i Bitcoin Lightning. Tjenesten tilbyr tre forskjellige funksjoner: mottak av verifiseringskoder til engangsbruk, sending av SMS til et hvilket som helst nummer og leie av midlertidige numre i flere timer.
 
 
 
@@ -95,7 +95,7 @@ La oss se nærmere på hvordan du bruker SMS4Sats til å motta en bekreftelsesko
 
 
 
-Gå til [sms4sats.com] (https://sms4sats.com) og hold deg på **RECEIVE**-fanen. Velg landet til ønsket nummer fra rullegardinmenyen. Hvis måltjenesten for abonnementet ditt er oppført, velger du den for å optimalisere sjansene for mottak.
+Gå til [sms4sats.com](https://sms4sats.com) og hold deg på **RECEIVE**-fanen. Velg landet til ønsket nummer fra rullegardinmenyen. Hvis måltjenesten for abonnementet ditt er oppført, velger du den for å optimalisere sjansene for mottak.
 
 
 
@@ -345,6 +345,6 @@ Vær imidlertid oppmerksom på begrensningene: Tjenesten garanterer ikke absolut
 
 
 
-- [SMS4Sats offisielle nettsted] (https://sms4sats.com)
-- [Ofte stilte spørsmål om tjenesten] (https://sms4sats.com/faq)
+- [SMS4Sats offisielle nettsted](https://sms4sats.com)
+- [Ofte stilte spørsmål om tjenesten](https://sms4sats.com/faq)
 - [Tor-adresse](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion)

@@ -216,10 +216,10 @@ Negli ultimi anni le soluzioni di messaggistica crittografata sono diventate abb
 
 La maggior parte delle persone che non sono interessate alla privacy probabilmente utilizzeranno WhatsApp o iMessage. Il primo può essere scaricato tramite Aurora Store, ma il secondo non funzionerà su GrapheneOS (ovviamente!).
 
-- [Signal](https://signal.org/) è una delle chat di messaggistica end-to-end crittografata (E2EE) più popolare che ha un solido track record e un ricco set di funzionalità. Signal richiede un numero di telefono per la registrazione, quindi se hai intenzione di chattare con persone che preferiresti non conoscessero il tuo numero di telefono, forse dovresti considerare alcune alternative ***[o nascondere il numero nella schermata del tuo profilo](https://support.signal.org/hc/it/articles/6712070553754-Privacy-del-numero-di-telefono-e-nomi-utente)***. Signal deve essere scaricato tramite Aurora Store.
-- [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) è una chat di messaggistica E2EE abbastanza nuova. Non ha un ID utente, non richiede un numero di telefono o informazioni personali. Le persone ti trovano scansionando il tuo codice QR personale o visitando il tuo link unico. Simplex consente anche agli utenti avanzati di eseguire il proprio server per ridurre ulteriormente la dipendenza da qualsiasi entità centralizzata. Simplex non ha un client desktop, quindi potrebbe non essere adatto se la compatibilità multi-dispositivo è una priorità. Simplex per Android è disponibile tramite F-Droid.
-- [Threema](https://threema.ch/en/faq/libre_installation) offre un'esperienza simile a Simplex, ma è presente da più tempo e di conseguenza sembra un po' più rifinito. Threema non è gratuito, una licenza a vita costa $4.99 e può essere acquistata con i bitcoin. Threema offre un client web e applicazioni desktop native. L'applicazione Android è disponibile tramite F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) è un fork FOSS non ufficiale dell'app Telegram ufficiale per Android. Telegram ha 'chat segrete' E2EE, ma l'opzione predefinita non è privata. Telegram FOSS può essere scaricato da F-Droid.
+- [Signal](https://signal.org/) è una delle chat di messaggistica end-to-end crittografata (E2EE) più popolare che ha un solido track record e un ricco set di funzionalità. Signal richiede un numero di telefono per la registrazione, quindi se hai intenzione di chattare con persone che preferiresti non conoscessero il tuo numero di telefono, forse dovresti considerare alcune alternative **_[o nascondere il numero nella schermata del tuo profilo](https://support.signal.org/hc/it/articles/6712070553754-Privacy-del-numero-di-telefono-e-nomi-utente)_**. Signal deve essere scaricato tramite Aurora Store.
+- [Simplex](https://f-droid.org/it/packages/chat.simplex.app/) è una chat di messaggistica E2EE abbastanza nuova. Non ha un ID utente, non richiede un numero di telefono o informazioni personali. Le persone ti trovano scansionando il tuo codice QR personale o visitando il tuo link unico. Simplex consente anche agli utenti avanzati di eseguire il proprio server per ridurre ulteriormente la dipendenza da qualsiasi entità centralizzata. Simplex non ha un client desktop, quindi potrebbe non essere adatto se la compatibilità multi-dispositivo è una priorità. Simplex per Android è disponibile tramite F-Droid.
+- [Threema](https://threema.ch/en/faq/libre_installation) offre un'esperienza simile a Simplex, ma è presente da più tempo e di conseguenza sembra un po' più rifinito. Threema non è gratuito, una licenza a vita costa $4.99 e può essere acquistata con dei bitcoin. Threema offre un client web e applicazioni desktop native. L'applicazione Android è disponibile tramite F-Droid.
+- [Mercurygram](https://f-droid.org/it/packages/it.belloworld.mercurygram/) è un fork FOSS non ufficiale dell'app Telegram ufficiale per Android. Telegram ha 'chat segrete' E2EE, ma l'opzione predefinita non è privata. Telegram FOSS può essere scaricato da F-Droid.
 
 ![image](assets/fr/9.webp)
 
@@ -238,11 +238,10 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 ### Media
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) è un client Spotify multipiattaforma che non richiede un account Premium. Spotube è disponibile tramite F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) è una fantastica applicazione per lo steaming di qualsiasi musica da YouTube music, gratuitamente. ViMusic è disponibile da F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offre un'esperienza di YouTube senza i fastidiosi annunci e le autorizzazioni discutibili. Con NewPipe è possibile iscriversi a canali, ascoltare in background e anche scaricare per la visualizzazione offline. NewPipe è accessibile tramite F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) è un podcast player che ti permette di iscriverti e gestire tutti i tuoi podcast preferiti. AntennaPod è disponibile tramite F-Droid.
 
-![image](assets/fr/11.webp)
+![image](assets/it/11.webp)
 
 _A sinistra: Spotube, a destra: ViMusic_
 

@@ -1,6 +1,6 @@
 ---
 name: Jami
-description: Condividete liberamente e in modo confidenziale.
+description: Condividi liberamente e in modo confidenziale.
 ---
 
 ![cover](assets/cover.webp)
@@ -18,18 +18,18 @@ Oggi Jami è disponibile su molti sistemi. È rinomato per le sue prestazioni, l
 | Facebook Messenger   | ✅             | 🟡 (opzionale)   | ❌                 | ❌                         | ❌                         | ❌                   | 2011             |
 | Telegram             | 🟡 (opzionale) | ❌               | 🟡                 | ✅                         | ❌                         | ❌                   | 2013             |
 | LINE                 | ✅             | ✅               | ❌                 | ❌                         | ❌                         | ❌                   | 2011             |
-| Signal               | ✅             | ✅               | ❌                  | ✅                        | ✅                         | ❌                   | 2014             |
-| Threema              | ✅             | ✅               | ✅                  | ✅                        | ❌                         | ❌                   | 2012             |
-| Element (Matrix)     | ✅             | ✅               | ✅                  | ✅                        | ✅                         | 🟡 (federa)          | 2016             |
-| Delta Chat           | ✅             | ✅               | ✅                  | ✅                        | N/A                        | 🟡 (via email)       | 2017             |
-| Conversations (XMPP) | ✅             | ✅               | ✅                  | ✅                        | ✅                         | 🟡 (federato)        | 2014             |
-| Session              | ✅             | ✅               | ✅                  | ✅                        | ✅                         | ✅                   | 2020             |
-| SimpleX              | ✅             | ✅               | ✅                  | ✅                        | ✅                         | ✅                   | 2021             |
-| Olvid                | ✅             | ✅               | ✅                  | ✅                        | ❌                         | 🟡(nessuna directory)| 2019             |
-| Keet                 | ✅             | ✅               | ✅                  | ❌                        | N/A                        | ✅                   | 2022             |
-| **Jami**             | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2004             |
-| Briar                | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2008             |
-| Tox                  | ✅             | ✅               | ✅                  | ✅                        | N/A                        | ✅                   | 2013             |
+| Signal               | ✅             | ✅               | ❌                 | ✅                         | ✅                         | ❌                   | 2014             |
+| Threema              | ✅             | ✅               | ✅                 | ✅                         | ❌                         | ❌                   | 2012             |
+| Element (Matrix)     | ✅             | ✅               | ✅                 | ✅                         | ✅                         | 🟡 (federa)          | 2016             |
+| Delta Chat           | ✅             | ✅               | ✅                 | ✅                         | N/A                        | 🟡 (via email)       | 2017             |
+| Conversations (XMPP) | ✅             | ✅               | ✅                 | ✅                         | ✅                         | 🟡 (federato)        | 2014             |
+| Session              | ✅             | ✅               | ✅                 | ✅                         | ✅                         | ✅                   | 2020             |
+| SimpleX              | ✅             | ✅               | ✅                 | ✅                         | ✅                         | ✅                   | 2021             |
+| Olvid                | ✅             | ✅               | ✅                 | ✅                         | ❌                         | 🟡(nessuna directory)| 2019             |
+| Keet                 | ✅             | ✅               | ✅                 | ❌                         | N/A                        | ✅                   | 2022             |
+| **Jami**             | ✅             | ✅               | ✅                 | ✅                         | N/A                        | ✅                   | 2004             |
+| Briar                | ✅             | ✅               | ✅                 | ✅                         | N/A                        | ✅                   | 2008             |
+| Tox                  | ✅             | ✅               | ✅                 | ✅                         | N/A                        | ✅                   | 2013             |
 
 *E2EE = crittografia end-to-end*
 
@@ -54,7 +54,7 @@ L'applicazione è disponibile direttamente su App Store o Play Store. È suffici
 
 ### Per gli utenti di Windows o macOS
 
-Per installare Jami sul vostro dispositivo, dovete prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
+Per installare Jami sul tuo dispositivo, dovi prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
 
 ![0_02](assets/fr/02.webp)
 
@@ -70,7 +70,7 @@ Una volta scaricato l'eseguibile, avviare il processo di installazione facendo d
 
 ### Per gli utenti di Linux
 
-Per installare Jami su Linux, è meglio usare la riga di comando. È importante notare che Jami è disponibile per diverse distribuzioni Linux. Prima di iniziare l'installazione di Jami, assicuratevi di scegliere la distribuzione giusta per il vostro sistema.
+Per installare Jami su Linux, è meglio usare la riga di comando. È importante notare che Jami è disponibile per diverse distribuzioni Linux. Prima di iniziare l'installazione di Jami, assicuratevi di scegliere la distribuzione giusta per il tuo sistema.
 
 Una volta selezionata la distribuzione, è possibile installare il sistema. È necessario installare le dipendenze necessarie per eseguire Jami sul proprio sistema operativo Linux. I comandi sono disponibili direttamente su [questa pagina](https://jami.net/download-jami-linux/).
 
@@ -123,7 +123,7 @@ Per proteggere i dati a livello locale, è possibile impostare una password per 
 
 ![0_09](assets/fr/09.webp)
 
-Dopo aver crittografato il vostro account, impostate il vostro nome completo.
+Dopo aver crittografato il tuo account, imposta il tuo nome completo.
 
 ![0_10](assets/fr/10.webp)
 
@@ -132,7 +132,7 @@ Dopo aver crittografato il vostro account, impostate il vostro nome completo.
 
 ## Accesso a un account esistente
 
-Jami non utilizza **identificatori** e non ha un database da collegare al vostro account. Tutti i tuoi dati sono memorizzati direttamente sul tuo dispositivo. Per connettersi al vecchio account, è necessario eseguire un **backup** del vecchio account.
+Jami non utilizza **identificatori** e non ha un database da collegare al tuo account. Tutti i tuoi dati sono memorizzati direttamente sul tuo dispositivo. Per connettersi al vecchio account, è necessario eseguire un **backup** del vecchio account.
 
 Vai su **Impostazioni**, poi **Account**, poi **Gestione account**. Scorri fino in fondo ed eseguire un **backup del proprio account**. Scegli la posizione in cui salvare il file di backup, inserire la **password** definita al momento della creazione dell'account e convalidare.
 

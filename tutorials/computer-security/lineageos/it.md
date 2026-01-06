@@ -35,7 +35,7 @@ Le statistiche ufficiali rivelano la portata del progetto: con oltre 4,4 milioni
 
 **Android puro**: LineageOS offre un'autentica esperienza Android vicina ad AOSP, senza sovrapposizioni di produttori o applicazioni superflue. Il Interface rimane familiare agli utenti Android e offre una fluidità ottimale grazie all'assenza di bloatware.
 
-**Senza Google per impostazione predefinita**: Nessun servizio Google è preinstallato, per motivi legali ed etici. Questo approccio "Google-free" garantisce un controllo totale sui vostri dati personali e migliora le prestazioni evitando l'esecuzione di servizi in background.
+**Senza Google per impostazione predefinita**: Nessun servizio Google è preinstallato, per motivi legali ed etici. Questo approccio "Google-free" garantisce un controllo totale sui tuoi dati personali e migliora le prestazioni evitando l'esecuzione di servizi in background.
 
 ### Personalizzazione e sicurezza
 
@@ -66,7 +66,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 **Bootloader sbloccabile**: Verificare che il produttore/operatore consenta lo sblocco. Alcuni marchi, come Huawei, hanno eliminato questa possibilità sui modelli più recenti, mentre altri impongono procedure specifiche.
 
-**Modello esatto**: È fondamentale scaricare la ROM che corrisponde esattamente al vostro dispositivo. Due modelli con nomi commerciali simili possono differire dal punto di vista tecnico (Galaxy S10 vs S10 5G ad esempio) e richiedere file immagini diversi.
+**Modello esatto**: È fondamentale scaricare la ROM che corrisponde esattamente al tuo dispositivo. Due modelli con nomi commerciali simili possono differire dal punto di vista tecnico (Galaxy S10 vs S10 5G ad esempio) e richiedere file immagini diversi.
 
 **Supporto scalabile**: I dispositivi più recenti potrebbero non essere supportati immediatamente, poiché il porting richiede uno sviluppatore volontario che se ne occupi. Al contrario, il supporto può cessare se il manutentore di un dispositivo si ritira dal progetto.
 
@@ -344,7 +344,7 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 **GrapheneOS**: Offre un sistema Google Play sandboxed opzionale. Google Play può essere installato ma viene eseguito in una sandbox rigorosa, senza privilegi speciali di sistema. Questo approccio unico permette di utilizzare l'ecosistema Google mantenendo un controllo di sicurezza rigoroso.
 
-**LineageOS**: Permette all'utente di scegliere se installare i servizi Google (GApps), microG (alternativa gratuita) o se rimanere completamente libero da Google. Massima flessibilità per soddisfare le vostre esigenze.
+**LineageOS**: Permette all'utente di scegliere se installare i servizi Google (GApps), microG (alternativa gratuita) o se rimanere completamente libero da Google. Massima flessibilità per soddisfare le tue esigenze.
 
 ### Confronto tecnico
 
@@ -358,9 +358,9 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ### Raccomandazioni per l'uso
 
-**Scegliete GrapheneOS** se possedete un Pixel, se la massima sicurezza è la vostra priorità e se accettate vincoli per una maggiore protezione.
+**Scegliete GrapheneOS** se possedete un Pixel, se la massima sicurezza è la tua priorità e se accetti vincoli per una maggiore protezione.
 
-**Scegliete LineageOS** se avete un dispositivo non-Pixel, se cercate un buon equilibrio tra privacy e praticità o se volete scegliere il vostro livello di compromesso con l'ecosistema Google.
+**Scegliete LineageOS** se avete un dispositivo non-Pixel, se cercate un buon equilibrio tra privacy e praticità o se vuoi scegliere il tuo livello di compromesso con l'ecosistema Google.
 
 ## Conclusione
 

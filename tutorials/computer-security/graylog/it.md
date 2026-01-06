@@ -401,7 +401,7 @@ Per creare un nuovo flusso, fai clic su "**Flussi**" nel menu principale di Gray
 
 ![Image](assets/fr/002.webp)
 
-Quindi, nelle impostazioni di flusso, fai clic sul pulsante "**Aggiungi regola flusso**" per aggiungere una nuova regola di instradamento dei messaggi. Se non riesci a trovare questa finestra, clicca su "**Streams**" nel menu, quindi sulla riga corrispondente al vostro stream, cliccate su "**More**" e poi su "**Manage Rules**".
+Quindi, nelle impostazioni di flusso, fai clic sul pulsante "**Aggiungi regola flusso**" per aggiungere una nuova regola di instradamento dei messaggi. Se non riesci a trovare questa finestra, clicca su "**Streams**" nel menu, quindi sulla riga corrispondente al tuo stream, cliccate su "**More**" e poi su "**Manage Rules**".
 
 Scegli il tipo "**match input**" e seleziona l'input **Rsyslog in UDP** creato in precedenza. Conferma con il pulsante "**Crea regola**". Tutti i messaggi inviati al nuovo ingresso saranno ora inviati all'Indice per Linux.
 
@@ -539,7 +539,7 @@ Otteni altri risultati (non sorprendenti, dato che non filtriamo l'applicazione 
 
 ### VI. Conclusione
 
-Seguendo questa guida, dovresie essere in grado di configurare una macchina Linux per inviare i suoi log a un server Graylog. In questo modo, sarai in grado di centralizzare i log dei vostri host Linux nel vostro log sink!
+Seguendo questa guida, dovresie essere in grado di configurare una macchina Linux per inviare i suoi log a un server Graylog. In questo modo, sarai in grado di centralizzare i log dei tuoi host Linux nel tuo log sink!
 
 Per andare oltre, considera la possibilità di creare dashboard e avvisi per ricevere notifiche quando viene rilevata un'anomalia.
 

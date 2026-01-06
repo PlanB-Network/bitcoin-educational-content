@@ -56,7 +56,7 @@ Assegna un nome alla chiave di sicurezza per facilitarne il riconoscimento, quin
 
 ![Image](assets/fr/08.webp)
 
-I dettagli del vostro account appariranno sul display del Ledger. Premi il pulsante "*Register*" per confermare (o entrambi i pulsanti contemporaneamente, a seconda del modello in uso).
+I dettagli del tuo account appariranno sul display del Ledger. Premi il pulsante "*Register*" per confermare (o entrambi i pulsanti contemporaneamente, a seconda del modello in uso).
 
 ![Image](assets/fr/09.webp)
 

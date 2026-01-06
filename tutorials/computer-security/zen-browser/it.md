@@ -181,7 +181,7 @@ Fin dall'inizio, Zen Browser applica una configurazione ad alta privacy che supe
 - **Protezione anti-tracciamento rigorosa**: livello "Standard" attivato per impostazione predefinita, che blocca:
   - cookie per il tracciamento dei siti e supercookie
   - script di tracciamento degli annunci (Google Analytics, Facebook Pixel, ecc.)
-  - criptominter che utilizzano la vostra CPU per Miner criptovalute
+  - criptominter che utilizzano la tua CPU per mintare criptovalute
   - Impronte digitali tramite Canvas, WebGL e AudioContext
 - **Isolamento totale dei cookie**: First Party Isolation impedisce a un sito di leggere i cookie di un altro
 - **La telemetria è stata in gran parte disabilitata**: la maggior parte della raccolta dei dati è stata rimossa, anche se alcune connessioni ai servizi di Mozilla/Google potrebbero rimanere e richiedere un'ulteriore configurazione manuale

@@ -170,3 +170,5 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Se sei interessato a scoprire un altro provider VPN simile a IVPN, sia in termini di funzionalità che di prezzi, ti consiglio anche di consultare il nostro tutorial su Mullvad:
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)

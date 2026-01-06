@@ -1,6 +1,6 @@
 ---
 name: Amateka y'amahera
-goal: Raba ukuntu amahera yagiye arahindagurika kuva mu gihe cakera cane gushika ubu
+goal: Raba ukuntu amahera yagiye arahindagurika kuva mu gihe cakera cane ca Néolithique gushika ubu
 objectives: 
 
 
@@ -553,7 +553,7 @@ Hari ibipande bimwebimwe vyakora nk’ibipande vy’ukuri vy’ababifise, bikaba
 
 
 
-Kuba kwandika vyari bihambaye cane mu vy’ubutunzi, vyatumye abamenye neza ubwo buhinga bagira ububasha bwinshi. **Abanditsi, muri rusangi bari bafatanye n’insengero n’inzego zitwara, ni bo bari bafise ububasha bwo kugenzura ivy’ubutunzi**. Ubuhinga bwabo budasanzwe kandi bw’agaciro kanini bwatumye baba abacungera amafaranga yose ahambaye.
+Kuba kwandika bitari bizwi nabose  mu vy’ubutunzi, vyatumye abamenye neza ubwo buhinga bagira ububasha buhambaye. **Abanditsi, muri rusangi bari bafatanye n’insengero n’inzego zitwara, ni bo bari bafise ububasha bwo kugenzura ivy’ubutunzi**. Ubuhinga bwabo budasanzwe kandi bw’agaciro kanini bwatumye baba abacungera amafaranga yose ahamwa hamwa ahambaye.
 
 
 
@@ -561,43 +561,43 @@ Ukwo kwigarurira ubumenyi gusa ntikwabaye impanuka. Abategetsi bari bafise inyun
 
 
 
-Itegeko ry’itegeko ryo kwandika ibikorwa vyose vy’ubudandaji mu nyandiko ryari rifise intumbero zitari nke: kugenzura ivy’ubutunzi, kugenzura bikomeye ivy’itunganywa ry’amafaranga, no kuguma abafise uruhara mu vy’ubutunzi bava ku bikoresho vy’ubutegetsi. **Leta ya Mezopotamiya rero yarafashe ubushobozi bwo gucunga umwenda hagati y’abantu** ku rugero rw’imibano, gutyo ihindura inyandiko igikoresho c’ububasha bw’ubutunzi.
+Ibwirizwa riciye muma tegeko ryo kwandika ibikorwa vyose vy’ubudandaji mu nyandiko ryari bifise intumbero zitari nke: kugenzura ivy’ubutunzi, kugenzura bikomeye ivy’itunganywa ry’amafaranga, no kuguma abafise uruhara mu vy’ubutunzi bava ku bikoresho vy’ubutegetsi. **Leta ya Mezopotamiya rero yarafashe ubushobozi bwo gucunga ideni hagati y’abantu** ku rugero rw’imibano, gutyo ihindura inyandiko igikoresho c’ububasha bw’ubutunzi.
 
 
 
-### Ugubaho kumwe kw'imirongo ibiri y'amahera
+### Ukubana hamwe kw'imirongo ibiri y'amahera
 
 
 
-Isesengura ry’ivyo bisate ryerekana ukuri kw’ubutunzi gutandukanye kuruta uko kuba biri hose mu bubiko bw’ibitabu vyovyerekana. Ibisate vyinshi bivuga ivyerekeye **shekeli y’ifeza** nk’ikigereranyo c’agaciro, gutyo bikaba vyerekana ko hariho uburyo busa n’ubwo bw’amahera bushingiye ku bintu vy’umubiri bihuye.
+Isesengura ry’ivyo bisate ryerekana ukuri kw’ubutunzi gutandukanye kuruta uko kuba biri hose mu bubiko bw’ibitabu vyovyerekana. Ibisate(ibigura) vyinshi bivuga ivyerekeye **shekeli y’ifeza** nk’ikigereranyo c’agaciro, gutyo bikaba vyerekana ko hariho uburyo busa n’ubwo bw’amahera bushingiye ku bintu vy’umubiri bihuye.
 
 
 
-Ubwo bubiri bushobora gusigurwa n’ingene abantu bari mu migwi y’abantu bo muri ico gihe. **Uburyo bw’ibipande vy’inyuguti z’inyuguti bwari bugenewe abantu b’abanyacubahiro**: abakuru b’idini, abacuruzi batunze, n’abarongozi bashobora gusoma, kwandika no gusobanura izo nyandiko zigoye. Kugira ngo umuntu akoreshe neza igipande c’ibara ry’agahama, ntiyategerezwa gusa kumenya ingene cogisobanura, ariko kandi yategerezwa kuba ashoboye kugenzura ko ari ic’ukuri no gutahura ingaruka zaco zijanye n’amategeko.
+Ubwo bubiri bushobora gusigurwa n’ingene abantu bari mu migwi y’abantu bo muri ico gihe. **Uburyo bw’ibipande vy’inyandiko za cunéiformes bwari bugenewe abantu b’abanyacubahiro**: abakuru b’idini, abacuruzi batunze, n’abarongozi bashobora gusoma, kwandika no gusobanura izo nyandiko zigoye. Kugira ngo umuntu akoreshe neza igipande c’ibara ry’agahama, ntiyategerezwa gusa kumenya ingene cogisobanura, ariko kandi yategerezwa kuba ashoboye kugenzura ko ari ic’ukuri no gutahura ingaruka zaco zijanye n’amategeko.
 
 
 
-**Igitigiri c’abantu, kivuye muri iyo nzira y’abanyabwenge, carateguye uburyo bwaco bwo guhanahana**. Abantu basanzwe bakoresha uburyo bwo gupima intete busanzwe, uburemere bw’amahera, n’ibindi bintu vyoroshe gupima umuntu wese yoshobora kubisuzuma ata buhinga bwihariye afise.
+**Igitigiri c’abantu, kivuye muri iyo nzira y’abanyabwenge, catunganije uburyo bwaco bwo guhanahana**. Abantu basanzwe bakoresha uburyo bwo gupima intete busanzwe, uburemere bw’amahera, n’ibindi bintu vyoroshe gupima umuntu wese yoshobora kubisuzuma ata buhinga bwihariye afise.
 
 
 
-Ubwo butunzi bwari buzwi cane, naho butagira inyandiko nyinshi mu bubiko bw’ibitabu vy’ubutegetsi, birashoboka ko bwari bufise ubushobozi kandi bushobora guhinduka kuruta uburyo bwo gukoresha amatablette. Yaratuma haba uguhanahana amakuru vyihuse ku musi ku musi ata gukoresha abanditsi, bikaba vyatuma abahinguzi b’ibintu, abarimyi n’abacuruzi batobato bakeneye vuba.
+Ubwo butunzi bwari buzwi cane, naho butagira inyandiko nyinshi mu bubiko bw’ibitabu vy’ubutegetsi, birashoboka ko bwari bufise ubushobozi kandi bushobora guhinduka kuruta uburyo bwo gukoresha amatablette. Yaratuma haba uguhanahana amakuru vyihuse ku musi ku musi ata gukoresha abanditsi, bikaba vyatuma abahinguzi b’ibintu, abarimyi n’abacuruzi batobato bashobora gutanga ibikorwa vyabo vyihuse.
 
 
 
-Shekeli y’ifeza, iyo akenshi ivugwa mu bisate nk’ikigereranyo c’agaciro, birashoboka ko yari ikiraro hagati y’izo nzira zibiri z’ubutunzi zihuye, bikaba vyatuma umuntu ashobora guhindura imyenda yanditswe n’ivyo kwishura ku mubiri.
+Shekel d'argent, iyo akenshi ivugwa mu bisate nk’ikigereranyo c’agaciro, birashoboka ko yari ikiraro hagati y’izo nzira zibiri z’ubutunzi zihuye, bikaba vyatuma umuntu ashobora guhindura imyenda yanditswe n’ivyo kwishura bigaragara.
 
 
 
-### Ivyuka vyihuta n'ubugenzuzi bw'inzego
+### Ubuhinga bwikora hamwe nubuhinga bukwirikiranwa ni nzego....................
 
 
 
-Ukwo kubana kwerekana impaka z’ishimikiro mu mateka y’ubutunzi: **ukurwanya hagati y’uguseruka kw’uburyo bwo guhindura amahera n’ugufata amahera mu buryo bw’inzego**. Ku ruhande rumwe, ibintu nk’amahera vyavuye mu buryo busanzwe bivuye ku vyo abantu bakeneye mu guhinduranya. Ku rundi ruhande, inzego zarafashe iyo migenzo kandi irayigira mu buryo butegekanijwe kugira ngo zigenzure ingene zigenda.
+Ukwo kubana kwerekana impaka z’ishimikiro mu mateka y’ubutunzi: **ukurwanya hagati y’ukuvuka kw’uburyo bwo guhindura amahera vyikora n’ukwigarurira amahera kw’inzego**. Ku ruhande rumwe, ibintu nk’amahera vyavuye mu buryo busanzwe bivuye ku vyo abantu bakeneye mu guhanahana. Ku rundi ruhande, inzego zarafashe iyo migenzo kandi irayigira mu buryo butegekanijwe kugira ngo zigenzure ingene zigenda.
 
 
 
-Insengero z’Abasumeri zari zigaragaje iyo ntambara: zakoresheje ubuhinga bushasha bw’amahera bwari buzwi cane (ibivuga ku shekeli) mu gihe zariko zitegura ibikoresho vyazo bwite vyo kugenzura (ibipande vy’inyuguti z’inyuguti). Iryo tegeko ryatumye bashobora kwimbura inyungu z’izo nzira zompi: ukwemererwa kw’amahera y’imigenzo n’ubugenzuzi bw’ubutegetsi bw’imyenda yemewe.
+Insengero sumériens zari zigaragaje iyo ntambara: zakoresheje ubuhinga bushasha bw’amahera bwari buzwi cane (yibanda kuri shekel) mu gihe zariko zitegura ibikoresho vyazo bwite vyo kugenzura (ibipande vy’inyandiko za cunéiformes). Iryo tegeko ryatumye bashobora kwimbura inyungu z’izo nzira zompi: ukwemererwa kw’amahera y’imigenzo n’ubugenzuzi bw’ubutegetsi bw’amadeni yemewe.
 
 
 

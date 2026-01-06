@@ -69,6 +69,8 @@ Tutto ciò di cui hai bisogno è:
 - Un cavo USB per collegare il telefono al computer.
 - Un computer con un browser web (qualsiasi browser basato su Chromium: Chrome, Edge, Brave, ecc.).
 
+Entriamo al suo interno:
+
 1. Il primo passo è andare su **Impostazioni** > **Informazioni sul telefono** e toccare ripetutamente il numero di build fino a quando non vedi che **'Modalità sviluppatore'** è attivata.
 2. Successivamente, vai su **Impostazioni** > **Sistema** > **Opzioni sviluppatore** e abilita '**Sblocco OEM**'.
 3. Riavvia il dispositivo e tieni premuto il pulsante del volume in giù mentre il telefono si riaccende.

@@ -5,5 +5,5 @@ wrong_answers:
   - Ciascun fork moltiplica il numero di UTXO esistenti
   - Il numero di bitcoin che può essere creato è infinito
 explanation: |
-  Una transazione di pagamento consuma un UTXO e spesso ne ricrea due (pagamento + Exchange), gonfiando la dimensione totale dell'insieme.
+  Una transazione di pagamento consuma un UTXO e spesso ne ricrea due (pagamento + resto), gonfiando la dimensione totale dell'insieme.
 reviewed: true

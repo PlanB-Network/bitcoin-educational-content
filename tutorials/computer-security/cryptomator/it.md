@@ -53,7 +53,7 @@ Iniziate dando un nome al vault, ad esempio "**IT-Connect**". In questo modo ver
 
 ![Image](assets/fr/011.webp)
 
-Nella fase successiva, Cryptomator probabilmente **rileverà il** "**Drive**" presente sul vostro computer: Google Drive, OneDrive, Dropbox, ecc.... Per consentirvi di selezionare direttamente il provider. Ho provato su due diversi computer Windows 11, con diverse unità, e non è stato rilevato. Non è un problema, basta definire una "**Collocazione personalizzata**" e selezionare la radice dello spazio di archiviazione. Ad esempio: **C:\Users\<Username>\OneDrive**.
+Nella fase successiva, Cryptomator probabilmente **rileverà il** "**Drive**" presente sul tuo computer: Google Drive, OneDrive, Dropbox, ecc.... Per consentirti di selezionare direttamente il provider. Ho provato su due diversi computer Windows 11, con diverse unità, e non è stato rilevato. Non è un problema, basta definire una "**Collocazione personalizzata**" e selezionare la radice dello spazio di archiviazione. Ad esempio: **C:\Users\<Username>\OneDrive**.
 
 ![Image](assets/fr/018.webp)
 
@@ -61,7 +61,7 @@ Successivamente, è possibile regolare un'opzione in impostazioni esperto.
 
 ![Image](assets/fr/021.webp)
 
-Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password ti permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdi, perdi l'accesso ai tuoi dati**. Infine, hai ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzare la chiave di backup nella root di OneDrive!
+Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password ti permetterà di **sbloccare la tua cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdi, perdi l'accesso ai tuoi dati**. Infine, hai ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzare la chiave di backup nella root di OneDrive!
 
 Fai clic su "**Crea una cassaforte**".
 

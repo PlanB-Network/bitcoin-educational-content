@@ -18,11 +18,11 @@ Tässä oppaassa keskustelemme myös salasanojen osiosta, joka on edistynyt turv
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Yhdistä Ledger Sparrow Bitcoin -lompakkoon (kirjoitusopas)
+## Yhdistä Ledger Sparrow Bitcoin -lompakkoon (kirjoitusopas)
 
 Varmista, että olet käynyt läpi toisen osan “Bitcoin-laitelompakoiden käyttö” ensin. Tulen sivuuttamaan joitakin vaiheita ja keskittymään pääasiassa siihen, mikä on erityistä Ledgerille tässä.
 
-## Laitteen asettaminen
+### Laitteen asettaminen
 
 Ledgerin mukana tulee oma USB-kaapeli. Varmista, että käytät sitä etkä mitä tahansa vanhaa kaapelia. Jotkut USB-kaapelit ovat vain virtaa varten. Tämä lähettää sekä dataa ETTÄ virtaa. Kun olen käyttänyt laitetta puhelimen latauskaapelilla, laite ei ole onnistunut yhdistämään.
 
@@ -49,7 +49,7 @@ Seuraava osa on todella ärsyttävä. Se sekoittaa 24 sanaa ja sinun täytyy vah
 
 Näet kojelaudallasi, että sinulla on asetuspainike ja plus-merkkipainike, joka sallii sovellusten asentamisen. Mutta sinun täytyy ensin yhdistää Ledger Liveen. Teemme sen seuraavaksi…
 
-## Lataa Ledger Live
+### Lataa Ledger Live
 
 Voisit ladata Ledger Liven heidän verkkosivultaan, mutta parempi on hankkia se GitHubista, missä lähdekoodi sijaitsee.
 
@@ -89,7 +89,7 @@ Katso hashin tulostetta ja varmista, että se on identtinen GitHubissa julkaistu
 
 Ihanteellisesti haluat mennä vielä pidemmälle ja varmistaa, että julkaistut hashit eivät ole väärennettyjä. Teemme tämän gpg-allekirjoitusten avulla, mutta se on tämän artikkelin ulkopuolella. Jos haluat oppia siitä (ja ehdotan, että opit lopulta), tutustu tähän artikkeliin.
 
-## Yhdistä Ledger Liveen
+### Yhdistä Ledger Liveen
 
 Ennen kuin käynnistät Ledger Liven, yksityisyytesi kannalta on hyödyllistä kytkeä VPN päälle. Ledger saa edelleen kaikki osoitteesi, mutta he eivät tiedä IP-osoitettasi, joka paljastaa kotiosoitteesi. Mullvad VPN on erinomainen VPN-palvelu eikä se ole kovin kallis (en mainosta, se on vain mitä käytän).
 
@@ -128,7 +128,7 @@ Muista, että aiemmin laitteessa oli asetuspainike ja plus-merkkipainike. Nyt me
 
 Voit sammuttaa Ledger Liven nyt.
 
-## Lisää salasana
+### Lisää salasana
 Nyt kun meillä on Bitcoin-sovellus, voimme lisätä salasanan siemenlauseeseemme. Emme voineet tehdä sitä aiemmin, kun siemen oli ensin luotu, koska alussa meillä ei ollut Bitcoin-sovellusta, ja meidän piti yhdistää Ledger Liveen saadaksemme sen.
 
 Siirry laitteen "asetukset"-valikkoon, sitten alavalikkoon "turvallisuus". Valitse sitten salasana. Näet "Edistynyt ominaisuus". Klikkaa oikeaa painiketta, näet "lue manuaali..." ja sitten oikean painikkeen klikkauksen jälkeen, näet "takaisin". Mutta se ei ole loppu. Vaistomaisesti ajattelisit niin, mutta klikkaa oikeaa painiketta uudelleen. Näet "asettaa salasanan".
@@ -141,7 +141,7 @@ Se pyytää sinulta "Nykyistä PIN-koodia". Tämä ei ole PIN-koodi, jonka liit�
 
 Voit nyt poistua päävalikkoon valitsemalla takaisin-vaihtoehdon muutaman kerran.
 
-## Lompakon seuranta
+### Lompakon seuranta
 
 Aiemmissa artikkeleissa selitin, miten ladata ja varmistaa Sparrow-lompakko, ja miten yhdistää se omaan solmuun tai julkiseen solmuun. Sinun tulisi seurata näitä ohjeita:
 
@@ -181,7 +181,7 @@ Tauon jälkeen, kun tietokone miettii, näet vasemmalla olevien painikkeiden vai
 
 ![kuva](assets/21.webp)
 
-## Vastaanottaminen
+### Vastaanottaminen
 
 Vastaanottaaksesi joitakin bitcoineja, mene Vasemmalla olevaan Osoitteet-välilehteen ja valitse yksi osoitteista vastaanottamiseen. Klikkaa oikealla osoitetta, jonka haluat, ja valitse "kopioi osoite". Mene sitten vaihtopalveluun, josta raha lähetetään, ja liitä se sinne. Tai voit antaa osoitteen asiakkaalle, joka voi käyttää sitä maksamiseen sinulle.
 
@@ -189,7 +189,7 @@ Kun käytät lompakkoa ensimmäistä kertaa, sinun pitäisi vastaanottaa hyvin p
 
 Kun olet tehnyt sen, sinun on varmuuskopioitava sanat, jotka kirjoitit ylös. Yksi kopio ei riitä. Pidä vähintään kaksi paperikopiota (metalli on parempi), ja säilytä ne kahdessa eri, hyvin turvatussa paikassa. Tämä vähentää luonnonkatastrofin riskiä tuhota HWW ja paperivarmuuskopio yhdessä tapahtumassa. Katso "Bitcoinin laitteistolompakoiden käyttö" täydellistä keskustelua varten.
 
-## Lähettäminen
+### Lähettäminen
 
 ![kuva](assets/22.webp)
 
@@ -199,11 +199,11 @@ Lompakko ei voi allekirjoittaa transaktiota, ellei HWW ole yhdistetty. Se on HWW
 
 Kiinnitä myös huomiota siihen, että jos valitset maksun määrää suuremman kolikon, loput lähetetään takaisin yhteen lompakkojesi vaihto-osoitteista. Jotkut ihmiset eivät ole tienneet tätä ja ovat tarkistaneet transaktionsa julkisessa lohkoketjussa, ja luulleet, että jotkin bitcoinit on lähetetty hyökkääjän osoitteeseen, mutta itse asiassa se oli heidän oma vaihto-osoitteensa.
 
-## Firmware
+### Firmware
 
 Firmwaren päivittämiseksi sinun on yhdistettävä Ledger Liveen. Jos haluat tehdä tämän, sinun pitäisi pyyhkiä laite ensin ja varmistaa, että sinulla on varmuuskopiosanasi ja salalauseesi saatavilla laitteen palauttamiseksi. Syy, miksi haluan pyyhkiä laitteen ensin, on se, että sinun on yhdistettävä laitteesi Ledger Liveen firmwaren päivittämiseksi, ja mieluummin en altista uutta lompakkoani (se, jossa on salalause) Ledger Livelle koskaan. En vain luota, että Ledger ei poimi julkista avaintietoani laitteesta, kun yhdistän sen Ledger Liveen. He väittävät, etteivät tee niin, mutta en voi varmistaa sitä itse, ellei lue koodia ja ymmärrä sisäistä laitteistoa.
 
-## Yhteenveto
+### Yhteenveto
 Tämä artikkeli näytti sinulle, miten käyttää Ledger HWW:tä turvallisemmin ja yksityisemmin kuin mainostetaan – mutta pelkkä tämä artikkeli ei riitä. Kuten sanoin alussa, sinun tulisi yhdistää se tietoihin, jotka on annettu artikkelissa "Bitcoin-laitelompakoiden käyttö". Vinkkejä:
 
 Staattinen Lightning-osoite: dandysack84@walletofsatoshi.com

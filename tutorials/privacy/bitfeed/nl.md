@@ -11,7 +11,7 @@ Bitfeed is een platform voor het visualiseren van de onchainlaag van het Bitcoin
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In deze tutorial bekijken we deze tool, waarmee je alle transacties en blokken op het netwerk kunt verkennen.
 
@@ -95,7 +95,7 @@ De eerste transactie van dit blok vertegenwoordigt de **coinbase** transactie di
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Standaard worden transacties in een blok weergegeven volgens twee criteria:
 

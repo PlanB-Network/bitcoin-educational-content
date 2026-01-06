@@ -3,7 +3,7 @@ name: White Noise
 description: Yksityinen, hajautettu viestisovellus, joka perustuu Nostr- ja MLS-protokolliin
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -72,7 +72,7 @@ Tässä on nopea vertailu White Noise:n ja tunnetuimpien viestisovellusten väli
 
 
 
-Mene [White Noise:n verkkosivustolle] (https://www.whitenoise.chat/) ja napsauta sitten **Lataus**.
+Mene [White Noise:n verkkosivustolle](https://www.whitenoise.chat/) ja napsauta sitten **Lataus**.
 
 
 

@@ -447,5 +447,5 @@ Börja med att välja en teknisk lösning som passar din profil, testa den med e
 
 
 - [Liana Wallet](https://wizardsardine.com/liana/) - Wizardsardine
-- [Bitcoin Keeper] (https://bitcoinkeeper.app/) - Bithyve
+- [Bitcoin Keeper](https://bitcoinkeeper.app/) - Bithyve
 - [Heritage Wallet](https://btc-heritage.com/) - Crypto7

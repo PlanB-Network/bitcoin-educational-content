@@ -111,16 +111,16 @@ RGB ifise umwobo wayo w’inkwavu mu mwobo w’inkwavu wa Bitcoin, mu gihe ndiko
 - 5 Ubutumwa bw'ibara ry'agahama
 
 
-# Inyigisho y'urudodo rwa RGB
+## Inyigisho y'urudodo rwa RGB
 
 
-## Imenyekanisha
+### Imenyekanisha
 
 
 Muri iyi nyigisho turasigura ingene twokoresha RGB-node kugira ngo dukore token ishobora guhinduka n’ingene twoyirungika, iyi nyandiko ishingiye ku RGB-node demo kandi itandukanye n’uko iyi nyigisho ikoresha amakuru nyayo ya Testnet kandi ku bw’ivyo, dutegerezwa kwubaka Partially Signed Bitcoin Transaction yacu, PSBT kuva ubu.
 
 
-## Ibisabwa
+### Ibisabwa
 
 
 Gukoresha Linux ni vyiza, iyi nyigisho yanditswe hakoreshejwe Pop!OS, ishingiye kuri Ubuntu kandi uzokenera:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## Gusohora
+### Gusohora
 
 
 Kugira ngo dusohore umutungo dukoresha rgb0-CLI n'amabwirizwa mato mato y'isohoka, hanyuma tugatanga imvo, ikimenyetso USDT, izina "USD Tether" kandi mu gutanga tuzokoresha amahera atanga n'issuance_utxo nk'uko tubibona aha hepfo:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 Kugira ngo uronke USDT nshasha, RGB-node-1 ikeneye generate blinded UTXO ihuye na receive_utxo kugira ngo ifate umutungo.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 Kugira ngo dushobore kwemera kwimurirwa bijanye n’iyi UTXO, tuzokenera receive_utxo y’umwimerere n’igituma_gihuma.
 
 
-## Guhererekanya
+### Guhererekanya
 
 
 Kugira ngo twimure umubare umwe w’itunga kuri RGB-node-1 dukeneye kuwurungika kuri blinded UTXO, RGB-node-0 ikeneye gukora Consignment n’ugutangaza, maze tukabishira mu gikorwa co gucuruza Bitcoin. Hanyuma tuzokenera PSBT tuzoyihindura kugira ngo ishiremwo commit. Ikindi, amahitamwo -i na -a atuma dushobora gutanga igisohoka c'inyungu coba ari inkomoko y'umutungo n'ugutanga aho tuzoronka ihinduka, dutegerezwa kubigaragaza mu buryo bukurikira @<change_utxo>.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Ivyo bizokwandika amadosiye atatu mashasha, Consignment, gutangaza na PSBT harimwo n'ivyo guhindura, iyi PSBT yitwa Witness Transaction, Consignment yoherezwa kuri RGB-node-1.
 
 
-## Icabona
+### Icabona
 
 
 Witness Transaction ikwiye gushirwako umukono no gutangazwa, kubera ivyo dukeneye base64 kuyisubiramwo.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Ikiganiro
+### Ikiganiro
 
 
 Bitangaze ukoresheje itegeko ry'ugutuma kugira ngo vyemezwe muri Blockchain.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Kwemera
+### Kwemera
 
 
 Kugira ngo wemere kwimurira kwinjira RGB-node-1 yari akwiye kwakira dosiye ya Consignment ivuye kuri RGB-node-0, ugire receive_utxo n'igituma_gihuye n'ico gihuye n'ivyo vyavutse mu gihe c'uguhuma UTXO.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Insozero
+### Insozero
 
 
 Twarashoboye kurema umutungo ushobora guhinduka maze tukawukura mu bikorwa bimwe tuja mu kindi mu buryo bwihariye, iyo tugenzura ibikorwa vyemejwe muri Block explorer ntitworonka ikintu gitandukanye n’ibikorwa bisanzwe, ivyo bishimira kuba RGB ikoresha ibimenyetso vy’ikoreshwa rimwe gusa kugira ngo ihindure ibi bikorwa vya postro an IW-4. ibikorwa.

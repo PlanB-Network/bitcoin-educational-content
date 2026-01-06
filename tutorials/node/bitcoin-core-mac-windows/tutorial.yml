@@ -9,6 +9,8 @@ level: advanced
 
 # Proofreading metadata
 project_id: b1dcf2e8-81b0-4286-9e44-bb97a526ef69
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs

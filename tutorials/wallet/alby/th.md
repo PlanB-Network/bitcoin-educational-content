@@ -46,7 +46,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-คุณสามารถเพิ่มส่วนขยาย Alby ไปยังเบราว์เซอร์ของคุณได้โดยไปที่ร้านส่วนขยาย [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) หรือร้านส่วนขยาย [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe)
+คุณสามารถเพิ่มส่วนขยาย Alby ไปยังเบราว์เซอร์ของคุณได้โดยไปที่ร้านส่วนขยาย [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) หรือร้านส่วนขยาย [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe)
 
 
 

@@ -3,7 +3,7 @@ name: Shelter
 description: शेल्टर के साथ काम और निजी जीवन के लिए एक ही फोन का उपयोग करें।
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

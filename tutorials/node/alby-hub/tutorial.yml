@@ -10,6 +10,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 
 project_id: 92aa3c6b-deeb-4b50-adf5-92c28eb7a526
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr

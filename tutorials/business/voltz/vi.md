@@ -19,7 +19,7 @@ Ngoài chức năng là một thiết bị lưu trữ Lightning wallet cho phép
 
 
 
-Hãy truy cập nền tảng [Voltz] (https://www.voltz.com/en) và tạo tài khoản bằng cách nhấp vào nút "Dùng thử ngay".
+Hãy truy cập nền tảng [Voltz](https://www.voltz.com/en) và tạo tài khoản bằng cách nhấp vào nút "Dùng thử ngay".
 
 
 

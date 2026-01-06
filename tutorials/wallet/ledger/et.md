@@ -18,11 +18,11 @@ Selles õpetuses arutame ka paroolilauseid, mis on edasijõudnud turvalahendus s
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
-# Ühenda Ledger Sparrow Bitcoin Rahakotiga (juhendi kirjutamine)
+## Ühenda Ledger Sparrow Bitcoin Rahakotiga (juhendi kirjutamine)
 
 Veenduge, et olete läbi lugenud teise osa “Kasutades Bitcoin Riistvara Rahakotte” esmalt. Ma jätan mõned sammud vahele ja keskendun peamiselt sellele, mis on spetsiifiline Ledgeri jaoks siin.
 
-## Seadme seadistamine
+### Seadme seadistamine
 
 Ledgeriga tuleb kaasa oma USB kaabel. Veenduge, et kasutate just seda ja mitte suvalist vana kaablit. Mõned USB kaablid on ainult toite jaoks. See siin edastab andmeid JA toidet. Kui olen seadet kasutanud telefonilaadija USB kaabliga, mis juhtus olema käepärast, ei ole seade ühendust saanud.
 
@@ -49,7 +49,7 @@ Järgmine osa on ülimalt tüütu. See segab 24 sõna ja peate kinnitama igaühe
 
 Teie armatuurlaual näete, et teil on seadete nupp ja plussmärgiga nupp, mis võimaldab teil rakendusi installida. Kuid peate esmalt ühenduma Ledger Live'iga. Teeme seda järgmisena…
 
-## Laadi alla Ledger Live
+### Laadi alla Ledger Live
 
 Võiksite Ledger Live'i alla laadida nende veebilehelt, kuid parem on saada see GitHubist, kus hoitakse lähtekoodi.
 
@@ -89,7 +89,7 @@ Vaata räsi väljundit ja veendu, et see on identne GitHubis avaldatuga.
 
 Ideaaljuhul tahad sa olla veelgi ettevaatlikum ja veenduda, et avaldatud räsud ei ole võltsitud. Seda teeme gpg allkirjadega, kuid see on selle artikli ulatusest väljas. Kui soovid selle kohta rohkem teada saada (ja ma soovitan, et sa seda lõpuks teeksid), siis loe seda artiklit.
 
-## Ühendu Ledger Live'iga
+### Ühendu Ledger Live'iga
 
 Enne Ledger Live'i käivitamist aitab privaatsust veidi parandada VPN-i sisselülitamine. Ledger saab endiselt kõik su aadressid kätte, kuid nad ei tea sinu IP-aadressi, mis reedab sinu koduaadressi. Mullvad VPN on suurepärane VPN-teenus ja see ei ole väga kallis (ma ei reklaami, lihtsalt kasutan seda).
 
@@ -128,7 +128,7 @@ Mäleta, et varem, seadmes, oli meil seadete nupp ja plussmärgi nupp. Nüüd on
 
 Võid nüüd Ledger Live'i sulgeda.
 
-## Lisa paroolilause
+### Lisa paroolilause
 Nüüd, kui meil on Bitcoin App, saame oma seemnefraasile lisada paroolilause. Me ei saanud seda teha varem, kui seeme esimest korda loodi, sest alguses meil ei olnud Bitcoin Appi ja me pidime ühenduma Ledger Live'iga, et seda saada.
 
 Mine seadme "settings" menüüsse, seejärel alammenüüsse "security". Seejärel vali passphrase. Näed "Advanced feature". Klõpsa paremat nuppu, näed "read manuel…" ja seejärel pärast parema nupu klõpsamist näed "back". Kuid see pole veel kõik. Intuitiivselt võiksid arvata, et see on kõik, kuid klõpsa paremat nuppu uuesti. Näed "set up passphrase".
@@ -141,7 +141,7 @@ See küsib sinult "Current PIN". See ei ole PIN, mida seostad uue paroolilausega
 
 Nüüd saad peamenüüsse tagasi minna, valides mõned korrad tagasi valiku.
 
-## Rahakoti Jälgimine
+### Rahakoti Jälgimine
 
 Eelmistes artiklites selgitasin, kuidas alla laadida ja kontrollida Sparrow rahakotti ning kuidas seda ühendada omaenda noodiga või avaliku noodiga. Peaksid järgima neid juhiseid:
 
@@ -185,7 +185,7 @@ Pärast pausi, kui arvuti mõtleb, näete, kuidas vasakul olevad nupud muutuvad 
 
 ![image](assets/21.webp)
 
-## Vastuvõtmine
+### Vastuvõtmine
 
 Bitcoini vastuvõtmiseks minge vasakul olevale aadresside vahelehele ja valige üks aadressidest, millele soovite vastu võtta. Lihtsalt paremklõpsake soovitud aadressil ja valige "kopeeri aadress". Seejärel minge oma vahetusplatvormile, kust raha saadetakse, ja kleepige see sinna. Või võite aadressi anda kliendile, kes saab seda kasutada teile maksmiseks.
 
@@ -193,7 +193,7 @@ Kui kasutate rahakotti esimest korda, peaksite vastu võtma väga väikese summa
 
 Kui olete seda teinud, peate varundama sõnad, mille üles kirjutasite. Ühest koopiast ei piisa. Tehke vähemalt kaks paberkoopiat (metall on parem) ja hoidke neid kahes erinevas, hästi turvatud kohas. See vähendab loodusõnnetuse riski, mis hävitab teie HWW ja paberist varukoopia ühe sündmuse käigus. Vaadake täieliku arutelu jaoks "Bitcoini riistvararahakottide kasutamine".
 
-## Saatmine
+### Saatmine
 
 ![image](assets/22.webp)
 
@@ -203,11 +203,11 @@ Rahakott ei saa tehingut allkirjastada, kui HWW pole ühendatud. See on HWW üle
 
 Pöörake tähelepanu ka sellele, et kui valite maksesummast suurema mündi, siis ülejääk saadetakse tagasi ühele teie rahakottide vahetus aadressidest. Mõned inimesed ei ole seda teadnud ja on oma tehingut avalikul plokiahelal üles otsides arvanud, et mõned bitcoini saadeti ründaja aadressile, kuid tegelikult oli see nende enda vahetus aadress.
 
-## Püsivara
+### Püsivara
 
 Püsivara uuendamiseks peate ühenduma Ledger Live'iga. Kui soovite seda teha, peaksite seadme esmalt pühkima ja veenduma, et teil on olemas oma varundussõnad ja paroolilause seadme taastamiseks. Eelistan seadme esmalt pühkida, sest peate oma seadme Ledger Live'iga ühendama püsivara uuendamiseks ja eelistan mitte kunagi oma uut rahakotti (see, millel on paroolilause) Ledger Live'ile paljastada. Lihtsalt ei usalda, et Ledger ei ekstrakti minu avaliku võtme teavet seadmest, kui ühendan selle Ledger Live'iga. Nad väidavad, et nad ei tee seda, kuid ma ei saa seda ise kontrollida, kui ma ei loe koodi ja mõista sisemist riistvara.
 
-## Järeldus
+### Järeldus
 See artikkel näitas teile, kuidas kasutada Ledger HWW-d turvalisemal ja privaatsemal viisil, kui reklaamitud – kuid ainult see artikkel ei ole piisav. Nagu ma alguses ütlesin, peaksite seda kombineerima teabega, mis on esitatud teoses „Bitcoin'i riistvarakottide kasutamine“. Nõuanded:
 
 Staatiline Lightning aadress: dandysack84@walletofsatoshi.com

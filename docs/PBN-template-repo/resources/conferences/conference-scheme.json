@@ -52,7 +52,23 @@
       "minItems": 1
     }
   },
+  "assets_rules": {
+    "description": "Required image assets for conference content.",
+    "files": [
+      {
+        "path": "assets/thumbnail.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "width": 1280,
+          "height": 720,
+          "aspect_ratio": "16:9",
+          "orientation": "horizontal"
+        },
+        "description": "Conference banner or promotional image"
+      }
+    ]
+  },
   "required": ["name", "year", "builder", "location", "language", "links", "tags"],
   "additionalProperties": false
 }
-

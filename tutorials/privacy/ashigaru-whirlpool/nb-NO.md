@@ -234,7 +234,7 @@ For en bedre forståelse av denne mekanismen og hvor mange sykluser det er verdt
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Hvis du vil se antall remikser som er utført av hvert av stykkene dine, åpner du menyen `UTXOs` i `Postmix`-kontoen.
 
@@ -354,7 +354,7 @@ Ytelsen til flere coinjoin-sykluser måles ut fra størrelsen på mengdene som e
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Hvordan håndtere postmixen?
 

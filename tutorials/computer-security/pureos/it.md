@@ -1,6 +1,6 @@
 ---
 name: PureOS
-description: La distribuzione Linux che vi dà il controllo sulla vostra vita digitale.
+description: La distribuzione Linux che ti dà il controllo sulla tua vita digitale.
 ---
 
 ![cover](assets/cover.webp)

@@ -1,4 +1,4 @@
----
+---Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)
 name: Mozilla VPN
 description: Proteggi i tuoi dispositivi e i tuoi dati di navigazione in Internet.
 ---
@@ -27,7 +27,7 @@ Sulla base di questo principio, [Mozilla VPN](https://www.mozilla.org/it/product
 - Facilità d'uso: un' interfaccia grafica snella e minimalista che mostra gli elementi essenziali dei server e dei paesi tra cui è possibile scegliere.
 - Tecnologia [WireGuard](https://planb.academy/en/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779): un protocollo di comunicazione e un software open-source che utilizza la crittografia più avanzata per creare tunnel criptati, offrendo un'alternativa leggera e più facile da implementare, con una base di codice più piccola e un'attenzione particolare alla velocità e alla sicurezza.
 - Prezzi trasparenti: circa 10 euro per un canone mensile e 5 euro al mese per un abbonamento annuale.
-- Dispositivi multipli connessi: Collegate fino a 5 dispositivi contemporaneamente al vostro account Mozilla VPN.
+- Dispositivi multipli connessi: Collegate fino a 5 dispositivi contemporaneamente al tuo account Mozilla VPN.
 
 
 ## Come iniziare con Mozilla VPN
@@ -89,3 +89,5 @@ Sempre nell'ottica di garantire una maggiore riservatezza ai propri utenti, Mozi
 Ora sei pronto a navigare in Internet in modo sicuro e riservato. Se questo tutorial ti è piaciuto, ti invitiamo a mettere un pollice in su. Siamo certi che apprezzerai anche il nostro tutorial su MULLVAD VPN, un'altra soluzione VPN che non richiede dati personali ai suoi utenti e consente di pagare l'abbonamento in bitcoin (un'opzione più riservata rispetto alle carte di credito):
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)

@@ -223,7 +223,7 @@ La maggior parte delle persone che non sono interessate alla privacy probabilmen
 
 ![image](assets/fr/9.webp)
 
-_Sinistra: Threema; Destra: Simplex_
+_A Sinistra: Threema - A Destra: Simplex_
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
@@ -243,15 +243,15 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 
 ![image](assets/it/11.webp)
 
-_A sinistra: Spotube, a destra: ViMusic_
+_Immagine di Spotube_
 
 ### Mappe
 
 Se desideri avere l'assistente vocale durante la guida e l'utilizzo di un'app di mappe in GrapheneOS, è necessario installare [RHVoice](https://rhvoice.org/installation/) e [configuralo qui](https://discuss.grapheneos.org/d/2488-organic-maps-app-voice-instructions-are-not-available).
 
 - [Magic Earth](https://www.magicearth.com/) è un app alternativa sulle mappe che supporta la navigazione turn-by-turn, mappe 3D e offline. Magic Earth può essere scaricato dall'Aurora Store.
-- [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) è un app alternativa sulle mappe per viaggiatori, turisti, escursionisti e ciclisti basata sui dati OpenStreetMap. Si tratta di una fork open source per la privacy di Maps.me app (precedentemente conosciuta come MapsWithMe). Supporta il 100% delle funzionalità senza una connessione internet attiva e può essere scaricato da F-Droid.
-- [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) è un'altra grande app alternativa sulle mappe che supporta tutte le caratteristiche sopra menzionate.
+- [Organic Maps](https://f-droid.org/it/packages/app.organicmaps/) è un app alternativa sulle mappe per viaggiatori, turisti, escursionisti e ciclisti basata sui dati OpenStreetMap. Si tratta di una fork open source per la privacy di Maps.me app (precedentemente conosciuta come MapsWithMe). Supporta il 100% delle funzionalità senza una connessione internet attiva e può essere scaricato da F-Droid.
+- [OsmAnd](https://f-droid.org/it/packages/net.osmand.plus/) è un'altra grande app alternativa sulle mappe che supporta tutte le caratteristiche sopra menzionate.
 
 ![image](assets/fr/13.webp)
 
@@ -260,8 +260,8 @@ _A sinistra: Magic Earth, a destra: Organic Maps_
 ### Email
 
 - [Proton Mail](https://proton.me/mail) offre un servizio di posta elettronica privato gratuito che supporta E2EE verificato. Proton offre anche una versione a pagamento che supporta domini personalizzati e [aliasing](https://proton.me/support/creating-aliases). Proton Mail può essere scaricata direttamente come APK o via Aurora Store.
-- [Tutanota](https://tutanota.com/) ofre le stesse caratteristiche di Proton Mail, compresi i servizi a pagamento facoltativi e puo essere scaricata direttamente come APK o via F-Droid.
-- [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) è un client di posta elettronica open source che funziona fondamentalmente con ogni provider di posta elettronica. Supporta più account, una casella di posta unificata e lo standard di crittografia OpenPGP.
+- [Tutanota](https://tutanota.com/) offre le stesse caratteristiche di Proton Mail, compresi i servizi a pagamento facoltativi e puo essere scaricata direttamente come APK o via F-Droid.
+- [K-9 Mail](https://f-droid.org/it/packages/com.fsck.k9/) è un client di posta elettronica open source che funziona fondamentalmente con ogni provider di posta elettronica. Supporta più account, una casella di posta unificata e lo standard di crittografia OpenPGP.
 
 ![image](assets/fr/15.webp)
 
@@ -269,14 +269,14 @@ _A sinistra: Proton Mail, a destra: Tutanota_
 
 ### Produttività
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) è un programma di sincronizzazione dei file tra due o più dispositivi in tempo reale, protetti in modo sicuro da occhi indiscreti. I tuoi dati sono solo i tuoi dati e ti meriti di scegliere dove vengono memorizzati, se sono condivisi con terzi, e come viengono trasmessi su internet. Syncthing è disponibile tramite F-Droid.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) è un fork del programma di sincronizzazione dei file tra due o più dispositivi in tempo reale, protetti in modo sicuro da occhi indiscreti. I tuoi dati sono solo i tuoi dati e ti meriti di scegliere dove vengono memorizzati, se sono condivisi con terzi, e come vengono trasmessi su internet. Syncthing Fork è disponibile tramite F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) permette a tutti i tuoi dispositivi di comunicare facilmente tra loro quando sono connessi alla tua rete domestica. Puoi inviare facilmente file, foto e dati dagli appunti su tutti i tuoi dispositivi (anche su iOS!). KDE Connect può essere scaricato da F-Droid.
-- [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) è un'applicazione di appunti E2EE per sincronizzare i tuoi pensieri e le tue liste di cose da fare su tutti i tuoi dispositivi. Il loro piano gratuito dovrebbe coprire la maggior parte dei casi d'uso personali. Notesnook è disponibile su F-Droid.
-- [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) è molto simile a Notesnook, ma richiede un piano a pagamento per corrispondere alle funzionalità offerte. Standard Notes è disponibile su F-Droid.
+- [Notesnook](https://f-droid.org/it/packages/com.streetwriters.notesnook/) è un'applicazione di appunti E2EE per sincronizzare i tuoi pensieri e le tue liste di cose da fare su tutti i tuoi dispositivi. Il loro piano gratuito dovrebbe coprire la maggior parte dei casi d'uso personali. Notesnook è disponibile su F-Droid.
+- [Standard Notes](https://f-droid.org/it/packages/com.standardnotes/) è molto simile a Notesnook, ma richiede un piano a pagamento per corrispondere alle funzionalità offerte. Standard Notes è disponibile su F-Droid.
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) è un'app di gestione della tastiera che ti consente di personalizzare praticamente tutto ciò che riguarda la digitazione sul tuo telefono. Può essere scaricata tramite F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) è l'app di gestione della tastiera predefinita di Google. Sulla base della mia esperienza, offre di gran lunga la migliore esperienza di digitazione e scorrimento. Se scarichi questa app, assicurati di disabilitare completamente tutte le autorizzazioni relative alla rete. Può essere scaricata tramite Aurora.
-- ***[Joplin](https://f-droid.org/en/packages/net.cozic.joplin/) è un'applicazione per le note e per le liste to-do open-source con capacità di sincronizzazione. Joplin supporta la crittografia end-to-end e può essere scaricato da F-Droid.***
-- ***[LibreOffice Viewer](https://f-droid.org/en/packages/org.documentfoundation.libreoffice/) consente di visualizzare e modificare documenti, fogli di calcolo e presentazioni sul dispositivo mobile. Si tratta di una suite per uffici completa e può essere scaricata da F-Droid.***
+- [Joplin](https://f-droid.org/it/packages/net.cozic.joplin/) è un'applicazione per le note e per le liste to-do open-source con capacità di sincronizzazione. Joplin supporta la crittografia end-to-end e può essere scaricato da F-Droid.
+- [LibreOffice Viewer](https://f-droid.org/it/packages/org.documentfoundation.libreoffice/) consente di visualizzare e modificare documenti, fogli di calcolo e presentazioni sul dispositivo mobile. Si tratta di una suite per uffici completa e può essere scaricata da F-Droid.
 
 ![image](assets/fr/17.webp)
 
@@ -284,22 +284,22 @@ _A sinistra: Notesnook, a destra: KDE Connect_
 
 ### Stile di vita
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) è un'app meteo open source dal design accattivante disponibile su F-Droid. Supporta anche molti formati di widget diversi, così puoi vedere il meteo nella tua posizione preferita direttamente dalla schermata principale.
+- [Breezy weather](https://f-droid.org/it/packages/org.breezyweather/) è un'applicazione meteo ricca di funzioni e open source con interfaccia Material 3 Expressive; offre visualizzazioni ben pensate, previsioni, condizioni in tempo reale, qualità dell'aria, pollini, allerte meteo ottenute da più di 50 fonti, come Meteo AM e Open-Meteo.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) è un'app di traduzione open source che supporta più di 200 lingue, garantendo la privacy. Translate You è disponibile su F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) è un calendario semplice da usare che interagisce perfettamente con i tuoi account email di Proton. Proton Calendar può essere scaricato come APK o tramite l'Aurora Store.
-- [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) è un'app per visualizzare e archiviare carte d'imbarco, coupon, biglietti del cinema e tessere di associazioni, ecc. Basta scaricare il file `pkpass` o `espass` corrispondente e aprirlo con l'app. PassAndroid è disponibile su F-Droid.
+- [PassAndroid](https://f-droid.org/it/packages/org.ligi.passandroid/) è un'app per visualizzare e archiviare carte d'imbarco, coupon, biglietti del cinema e tessere di associazioni, ecc. Basta scaricare il file `pkpass` o `espass` corrispondente e aprirlo con l'app. PassAndroid è disponibile su F-Droid.
 
 ![image](assets/fr/19.webp)
 
-_A sinistra: Geometric Weather, a destra: Proton Calendar_
+_A sinistra: Breezy weather, a destra: Proton Calendar_
 
 ### Sicurezza/Privacy
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) offre una soluzione gratuita e E2EE per la gestione delle password su tutti i tuoi dispositivi. Il loro servizio a pagamento ti consente di integrare i codici 2FA nell'app. Il server di Bitwarden può essere auto-ospitato e l'app Android è disponibile su F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo/) offre una soluzione gratuita e E2EE per la gestione delle password su tutti i tuoi dispositivi. Il loro servizio a pagamento ti consente di integrare i codici 2FA nell'app. Il server di Bitwarden può essere auto-ospitato e l'app Android è disponibile su F-Droid.
 - [Proton Pass](https://proton.me/pass/download) offre un servizio gratuito simile a Bitwarden, ma i clienti di [Proton Unlimited](https://proton.me/pricing) possono accedere a funzionalità avanzate aggiuntive. Proton Pass è disponibile tramite APK o Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) è un'applicazione di autenticazione a due fattori per sistemi che utilizzano protocolli di password monouso. I token possono essere aggiunti facilmente scansionando un codice QR. FreeOTP è disponibile su F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) è un'app gratuita, sicura e open source per Android che consente di gestire i token di verifica in due passaggi per i tuoi servizi online. Aegis è disponibile tramite F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) è un servizio multipiattaforma ***gratuito, ma*** a pagamento ***per Android*** che crittografa i tuoi dati in locale in modo da poterli caricare in modo sicuro sul tuo servizio cloud preferito. Cryptomator può essere scaricato tramite F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) è un servizio multipiattaforma gratuito, (_a pagamento solo da Google Play per Android_) che crittografa i tuoi dati in locale in modo da poterli caricare in modo sicuro sul tuo servizio cloud preferito. Cryptomator può essere scaricato tramite F-Droid.
 
 ![image](assets/fr/21.webp)
 
@@ -317,7 +317,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 - [Proton Drive](https://proton.me/drive/download) è una soluzione cloud a pagamento con crittografia end-to-end per il backup e la memorizzazione di tutti i tuoi file. Al momento della stesura, hanno appena annunciato un client desktop per Windows, ma gli utenti Mac e Linux devono continuare a utilizzare la versione web per la sincronizzazione dai loro computer (per ora). Il client Android è disponibile come APK o tramite Aurora.
 - [Skiff](https://skiff.com/download) offre anche un servizio di archiviazione cloud a pagamento con crittografia end-to-end e strumenti di collaborazione sui file. Offrono un client desktop per Mac e Windows (oltre a un'app web) e i loro client Android devono essere scaricati da Aurora.
-- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) offre una soluzione basata su cloud completa per la collaborazione, la sincronizzazione tra dispositivi e l'archiviazione dei file. Gli utenti più esperti possono scegliere di ospitare autonomamente il loro software gratuito e open source su qualsiasi hardware desiderino. I client Android possono essere scaricati tramite F-Droid.
+- [Nextcloud](https://f-droid.org/it/packages/com.nextcloud.client/) offre una soluzione basata su cloud completa per la collaborazione, la sincronizzazione tra dispositivi e l'archiviazione dei file. Gli utenti più esperti possono scegliere di ospitare autonomamente il loro software gratuito e open source su qualsiasi hardware desiderino. I client Android possono essere scaricati tramite F-Droid.
 - [Cryptpad](https://cryptpad.fr/) offre un'alternativa gratuita a Google Docs, basata sul web, con crittografia end-to-end.
 
 ![image](assets/fr/23.webp)
@@ -358,7 +358,7 @@ Se hai solo una o due di quelle app indispensabili che richiedono i Servizi Goog
 
 Puoi leggere di più su questo caso d'uso [qui](https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
-Se decidi di aggiungere un profilo separato per adattarlo al tuo caso d'uso, l'app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) potrebbe esserti utile. Insular ti consente di clonare facilmente qualsiasi delle tue app esistenti nel nuovo profilo senza dover seguire le tradizionali procedure di installazione descritte in precedenza in questa guida. Insular ti consente anche di "congelare" rapidamente qualsiasi di queste app per disabilitare completamente tutti i servizi in background dell'app.
+Se decidi di aggiungere un profilo separato per adattarlo al tuo caso d'uso, l'app [Insular](https://f-droid.org/it/packages/com.oasisfeng.island.fdroid/) potrebbe esserti utile. Insular ti consente di clonare facilmente qualsiasi delle tue app esistenti nel nuovo profilo senza dover seguire le tradizionali procedure di installazione descritte in precedenza in questa guida. Insular ti consente anche di "congelare" rapidamente qualsiasi di queste app per disabilitare completamente tutti i servizi in background dell'app.
 
 ![image](assets/fr/25.webp)
 
@@ -366,7 +366,7 @@ _Schermata di gestione dei profili utente_
 
 ### e-SIM
 
-Se desideri portare la tua privacy telefonica al livello successivo e avere un servizio cellulare separato dalla tua identità nel mondo reale, potrebbe interessarti una eSIM. Una eSIM è una SIM virtuale che puoi acquistare online e aggiungere al tuo telefono tramite un codice QR. Le aziende che offrono tali servizi che possono essere pagati in modo anonimo con i bitcoin includono [Silent.Link](https://silent.link/) e [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
+Se desideri portare la tua privacy telefonica al livello successivo e avere un servizio cellulare separato dalla tua identità nel mondo reale, potrebbe interessarti una eSIM. Una eSIM è una SIM virtuale che puoi acquistare online e aggiungere al tuo telefono tramite un codice QR. Le aziende che offrono tali servizi che possono essere pagati in modo anonimo con dei bitcoin includono [Silent.Link](https://silent.link/) e [Bitrefill](https://www.bitrefill.com/it/it/esims/).
 
 Le eSIM non dovrebbero essere considerate come una panacea completa per la privacy telefonica. Possono essere uno strumento utile nelle mani giuste, ma ti preghiamo di fare le tue ricerche sui compromessi nell'uso di qualsiasi tipo di servizio cellulare se la tua intenzione è di andare completamente "fuori rete".
 
@@ -378,7 +378,7 @@ Dopo aver configurato il tuo nuovo telefono Pixel senza Google, è una buona ide
 Puoi scegliere di archiviare il file di backup su qualsiasi supporto di archiviazione esterno o su una soluzione cloud auto-ospitata come Nextcloud, anche se alcuni utenti riportano livelli di successo variabili con quest'ultima opzione.
 Per creare il tuo primo backup:
 
-1. Vai su **Impostazioni** > **Sistema** > **Backup**, quindi annota il tuo codice di ripristino di 12 parole. Questo codice è necessario per decrittare il file di backup in una data successiva. Perdi il codice, perdi l'accesso al backup del tuo telefono.
+1. Vai su **Impostazioni** > **Sistema** > **Backup**, quindi annota il tuo codice di ripristino di 12 parole. Questo codice è necessario per decrittare il file di backup in una data successiva. Se perdi il codice, perdi l'accesso al backup del tuo telefono.
 2. Successivamente, scegli la posizione di archiviazione. Consiglio un'unità USB esterna o una scheda microSD di grado industriale.
 3. Scegli i dati per cui eseguire il backup. Se hai spazio sul supporto di archiviazione specificato, consiglio di selezionare tutto.
 4. Tocca i tre puntini in alto a destra e scegli **Esegui backup ora**.
@@ -387,11 +387,12 @@ Per creare il tuo primo backup:
 
 _Schermata di backup_
 
-Ricorda che se stai effettuando backup offline su supporti di archiviazione esterni, ha senso completare questo passaggio regolarmente per assicurarti che eventuali aggiornamenti importanti recenti del tuo telefono non vengano persi nel caso peggiore.
+Ricorda che se stai effettuando un backup offline su supporti di archiviazione esterni, ha senso completare questo passaggio regolarmente per assicurarti che eventuali aggiornamenti importanti recenti del tuo telefono non vengano persi nel caso peggiore.
 
 ![video](https://www.youtube.com/embed/eyWmcItzisk)
 
-Video che illustra il processo di backup
+_Video che illustra il processo di backup_
+
 
 ## Conclusione
 
@@ -399,9 +400,7 @@ Negli ultimi anni, il software GrapheneOS è maturato notevolmente. È più stab
 
 Le violazioni dei dati e la sorveglianza di massa sono così comuni nel mondo di oggi che quasi non fanno più notizia. Sta a te proteggerti. Ci saranno adeguamenti e sacrifici da fare lungo il cammino, ma ridurre la tua esposizione a tali violazioni non è affatto difficile come pensi che sia.
 
-Spero che questa guida ti aiuti nel tuo percorso. Se hai trovato utile questa guida e desideri supportare il mio lavoro, considera di inviare una [donazione](/tips).
-
-Se sei un utente di GrapheneOS o diventerai tale a seguito di questa guida, considera di [donare](https://grapheneos.org/donate) per sostenere il loro importante lavoro.
+Spero che questa guida ti aiuti nel tuo percorso. Se sei un utente di GrapheneOS o diventerai tale a seguito di questa guida, considera di [donare](https://grapheneos.org/donate) per sostenere il loro importante lavoro.
 
 ### Per saperne di più
 
@@ -410,6 +409,6 @@ GrapheneOS è una tana del coniglio in cui chiunque potrebbe facilmente passare 
 - [Guida ufficiale all'uso di GrapheneOS](https://grapheneos.org/usage) - Sito web ufficiale
 - [Forum di GrapheneOS](https://discuss.grapheneos.org/) - Sito web ufficiale
 - [Masterclass sulle impostazioni di GrapheneOS](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video di 'The Privacy Wayfinder'
-- [Podcast generale su GrapheneOS](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast di 'Watchman Privacy'
+- [Podcast generale su GrapheneOS](https://www.youtube.com/@WatchmanPrivacy/podcasts) - Podcast di 'Watchman Privacy'
 
 *Questo tutorial è un adattamento del contenuto originale pubblicato da [BitcoinQnA su Bitcoiner.Guide sotto licenza MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), a cui va tutto il merito per il lavoro di redazione iniziale.*

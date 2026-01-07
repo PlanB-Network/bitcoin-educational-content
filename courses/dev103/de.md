@@ -281,7 +281,7 @@ Aber wenn du versuchst, dies zu tun:
 const pi = 3.14
 console.log(pi)
 
-pi = 99 // this line will cause an error
+pi = 99 // diese Zeile löst einen Fehler aus
 console.log(pi)
 ```
 
@@ -682,7 +682,7 @@ Wie zuvor gesehen, kann man auch `undefined` bekommen, wenn man auf einen Array-
 
 ```javascript
 const fruits = ["banana", "apple"]
-console.log(fruits[2]) // Es gibt keinen index 2
+console.log(fruits[2]) // Es gibt keinen Index 2
 ```
 
 Dies wird ausgegeben:
@@ -931,14 +931,14 @@ Wenn `count` 3 wird, stoppt die Schleife.
 Du kannst eine Schleife mit "abbrechen" (`break`) vorzeitig beenden:
 
 ```javascript
-let number = 1 // Start with number 1
+let number = 1 // Starte mit 1
 
-while (true) { // This condition is always true, so this loop will run forever unless we stop it
-  console.log(number) // Print the current number
-  if (number === 3) { // If the number is 3, stop the loop
+while (true) { // Diese Bedingung ist immer wahr, d.h. diese Schleife läuft für immer, es sei denn, wir stoppen sie
+  console.log(number) // Gib die aktuelle Zahl aus
+  if (number === 3) { // Wenn die Zahl 3 ist, stoppe die Schleife
     break
   }
-  number = number + 1 // Add 1 to the number
+  number = number + 1 // Erhöhe die Zahl um 1
 }
 ```
 
@@ -955,16 +955,16 @@ Denn wenn die Zahl `3` wird, wird der `if`-Block ausgeführt und die Schleife wi
 Du kannst den Rest einer Schleifeniteration mit "fortsetzen" (`continue`) überspringen:
 
 ```javascript
-let number = 0 // Start with number 0
+let number = 0 // Starte mit 0
 
-while (number < 5) { // Keep going while number is less than 5
-  number = number + 1 // Add 1 to the number
+while (number < 5) { // Mache weiter solange die Zahl kleiner als 5 ist
+  number = number + 1 // Erhöhe die Zahl um 1
 
-  if (number === 3) { // If the number is 3
-    continue // Skip the rest of the block and go to the next iteration of the loop
+  if (number === 3) { // Wenn die Zahl 3 ist
+    continue // Überspringe den Rest des Blocks und beginne die näcshte Iteration der Schleife
   }
 
-  console.log(number) // Print the number
+  console.log(number) // Gib die Zahl aus
 }
 ```
 
@@ -1125,39 +1125,39 @@ const october = 10
 const november = 11
 const december = 12
 
-// Declare an array that holds the months that have 30 days
+// Deklariere ein Array, welches die Monate enthält, die 30 Tage haben
 const monthsWith30Days = [
   april, june, september, november
 ]
 
-// Declare variables to keep track of the month and day we're in
+// Deklariere Variablen um mitzunotieren welcher Monat und Tag es ist
 let currentMonth = january
 let currentDay = 1
 
-monthsLoop: while (true) {  // Start a loop labeled "monthsLoop" to process each month
+monthsLoop: while (true) {  // Beginne eine Schleife mit dem Namen "monthsLoop" um jeden Monat zu verarbieten
 
-    daysLoop: while (true) {  // Start a loop labeled "daysLoop" to process each day in the month
-        totalDaysInOneYear = totalDaysInOneYear + 1  // Increase the total number of days we counted by 1
+    daysLoop: while (true) {  // Beginne eine Schleife mir dem Namen "daysLoop" um jeden Tag zu verarbeiten
+        totalDaysInOneYear = totalDaysInOneYear + 1  // Erhöhe die Gesamtzaahl der gezählten Tage um 1
 
-        if (                                                                   // We want to check if we're at the end of the month.
-            currentDay === 31                                                  // Check if the current day is 31 (for months with 31 days)...
-            || currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...or 30 if it's among the 30-days months...
-            || currentDay === 28 && (currentMonth === february)                // ...or 28 if it's February. If it's any of these three, then:
+        if (                                                                   // Wir wollen prüfen, ob wir am Ende des Monats angekommen sind.
+            currentDay === 31                                                  // Prüfen ob der aktuelle Tag 31 ist (für Monate mit 31 Tagen) with 31 days)...
+            || currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...oder 30  und es ist ein Monat mit 30 Tagen
+            || currentDay === 28 && (currentMonth === february)                // ...oder 28, falls es Februar ist. Falls eines von den dreien zutrifft...:
 
         ){
-            currentMonth = currentMonth + 1  // Move to the next month
-            currentDay = 1                   // Reset the day to 1 for the new month
-            break daysLoop                   // Exit the inner loop (which tracks days) and go back to the outer loop (which tracks months)
+            currentMonth = currentMonth + 1  // Wechsle in den nächsten Monat
+            currentDay = 1                   // Setze den aktuellen Tag des Monats zurück auf 1
+            break daysLoop                   // Verlasse die innere Schleife (für Tage) und gehe zurück zur äußeren Schleife (für Monate)
         }
-        else { currentDay = currentDay + 1 }                                   // Otherwise, we're not at the end of the month, and we just move to the next day
+        else { currentDay = currentDay + 1 }                                   // Andernfalls ist der Monat nicht zu Ende und wir gehen einfach einen Tag weiter
 
     }
-    if (currentMonth > 12) {  // After processing a month, check if we've gone past December
-        break monthsLoop  // If so, break the outer loop and stop the day-counting process
+    if (currentMonth > 12) {  // Wenn ein Monat zu Ende ist, prüfen wir, ob wir über Dezember hinausgelaufen sind
+        break monthsLoop  // Falls ja, beende die äußere Schleife und beende die Zählung der Tage
     }
 }
 
-console.log(totalDaysInOneYear)  // Print the total number of days in the year (should be 365)
+console.log(totalDaysInOneYear)  // Gebe die Gesamtzahl der Tage in einem Jahr aus (sollte 365 sein)
 ```
 
 Dies war ein sehr langweiliges Beispiel, aber es hat hoffentlich die (gelegentliche) Notwendigkeit von Labeln verdeutlicht.
@@ -1828,7 +1828,7 @@ class Vehicle {
 
 class Car extends Vehicle {
   constructor(brand, model) {
-    super(brand) // call the parent constructor and passes the brand argument to it
+    super(brand) // rufe den Konstruktor der Elternklasse auf und überge "brand" als Argument
     this.model = model
   }
 
@@ -1964,7 +1964,7 @@ Wenn du nicht willst, dass dein Programm abstürzt, wenn ein Fehler auftritt, ka
 try {
   const user = undefined
   console.log(user.name)
-  console.log("End of the block") // this will never get printed
+  console.log("End of the block") // wird nie angezeigt
 } catch (error) {
   console.log("Oops! Something went wrong.")
 }
@@ -1987,7 +1987,7 @@ Und so funktioniert es:
 try {
   const user = undefined
   console.log(user.name)
-  console.log("End of the block") // this will never get printed
+  console.log("End of the block") // wird nie angezeigt
 } catch (error) {
   console.log(`The message of the error was: "${error.message}"`)
 }
@@ -2422,9 +2422,9 @@ Du kannst sie sogar in einer Kette von Vorgängen kombinieren, etwa so:
 const numbers = [1, 2, 3, 4, 5]
 
 const result = numbers
-  .map(n => n * 2)        // Double each entry, obtain [2, 4, 6, 8, 10]
-  .filter(n => n > 3) // Keep only the entries bigger than 3, so you get [4, 6, 8, 10]
-  .reduce((n1, n2) => n1 + n2) // Adds them: 4 + 6 + 8 + 10 = 28
+  .map(n => n * 2)    // Verdoppele jeden Eintrag, ergibt [2, 4, 6, 8, 10]
+  .filter(n => n > 3) // Behalte nur Werte größer 3, es bleiben also [4, 6, 8, 10]
+  .reduce((n1, n2) => n1 + n2) // Addiere sie zusammen: 4 + 6 + 8 + 10 = 28
 
 console.log(result) // 28
 ```
@@ -2440,7 +2440,7 @@ Manchmal möchte man eine Eigenschaft eines Objekts ausblenden, damit sie nicht 
 
 ```javascript
 class Person {
-  #age // this is a private property
+  #age // dies ist eine private Eigenschaft
 
   constructor(name, age) {
     this.name = name
@@ -2454,8 +2454,8 @@ class Person {
 
 const alice = new Person("Alice", 30)
 console.log(alice.name)      // Alice
-console.log(alice.getAge())  // 30, the method can access the private property
-console.log(alice.#age)      // ❌ Error! You can't access private properties directly
+console.log(alice.getAge())  // 30, die Methode kann auf die private Eigenschaft zugreifen
+console.log(alice.#age)      // ❌ Error! Man kann auf private Eigenschaften nicht direkt zugreifen
 ```
 
 Private Eigenschaften sind hilfreich, wenn man versehentliche Änderungen verhindern will.
@@ -2466,17 +2466,17 @@ Manchmal möchte man, dass eine Eigenschaft zur Klasse selbst gehört und nicht 
 
 ```javascript
 class User {
-  static counter = 0 // this belongs to the class, not to instances. The same counter will be shared by all objects
+  static counter = 0 // dies gehört zur Klasse, nicht den Instanzen. Der gleiche Zählerwert wird zwischen allen Objekten geteilt.
 
   constructor() {
-    User.counter++ // changes the static property every time an object of this class gets initiated
+    User.counter++ // Ändert den Wert der statischen Eigenschaft jedes Mal wenn ein Objekt dieser Klasse erzeugt wird
   }
 }
 
-const a = new User() // the constructor will change the shared counter from 0 to 1
-const b = new User() // the constructor will change the shared counter from 1 to 2
+const a = new User() // der Konstruktor wird den Wert des geteilten Zählers von 0 auf 1 ändern
+const b = new User() // der Konstruktor wird den Wert des geteilten Zählers von 1 auf 2 ändern
 
-console.log(User.counter) //  prints 2
+console.log(User.counter) //  gibt 2 aus
 ```
 
 Dies ist nützlich für die Speicherung gemeinsamer Daten und Methoden, die für die gesamte Gruppe von Objekten gelten, nicht nur für ein einzelnes.
@@ -2518,10 +2518,10 @@ class User {
     return `${this.firstName} ${this.lastName}`
   }
 
-  set fullName(input) {            // gets the name that is passed
-    const parts = input.split(" ") // breaks it into parts
-    this.firstName = parts[0]      // uses the first part as first name
-    this.lastName = parts[1]       // uses the second part as last name
+  set fullName(input) {            // nimmt den Namen der übergeben wird
+    const parts = input.split(" ") // zerlegt ihn in Teile
+    this.firstName = parts[0]      // nimmt den ersten Teil als firstName
+    this.lastName = parts[1]       // nimmt den zweiten Teil als secondName
   }
 }
 
@@ -2858,8 +2858,8 @@ Um einen **Wert zu erhalten**, verwenden wir `myMap.get(key)`:
 
 ```javascript
 console.log(myMap.get("name"))     // Alice
-console.log(myMap.get(42))         // The answer
-console.log(myMap.get(objKey))     // Object as key
+console.log(myMap.get(42))         // Die Antwort
+console.log(myMap.get(objKey))     // Objekt als key
 ```
 
 Um **zu prüfen, ob ein Schlüssel existiert**, verwenden wir `myMap.has(key)`:
@@ -2901,7 +2901,7 @@ Um **Werte** hinzuzufügen, verwenden wir `mySet.add(value)`:
 ```javascript
 mySet.add(1)
 mySet.add(2)
-mySet.add(2) // duplicate, will be ignored
+mySet.add(2) // Duplikat, wird ignoriert
 ```
 
 Auch wenn wir versucht haben, `2` zweimal hinzuzufügen, wird die Menge nur eine Kopie behalten.
@@ -3082,14 +3082,14 @@ Jedes Mal, wenn du `.next()` aufrufst, erhältst du ein Objekt mit zwei Schlüss
 Lass uns ein vollständiges Beispiel machen:
 
 ```javascript
-const names = ["Lina", "Tom", "Eva"]      // declare an array
-const iterator = names[Symbol.iterator]() // use the Symbol.iterator function to get an iterator for this array
+const names = ["Lina", "Tom", "Eva"]      // Lege ein Array an
+const iterator = names[Symbol.iterator]() // nutze die Symbol.iterator Funktion um einen iterator für das Array zu erhalten
 
-let result = iterator.next()              // get the first element of the array
+let result = iterator.next()              // nimm das erste Element des Array
 
-while (!result.done) {                    // repeat this loop until you reach the last element of the array, which is marked with { done: true }
-  console.log(result.value)               // print the value of each element
-  result = iterator.next()                // get the next element of the array
+while (!result.done) {                    // wiederhole diese Schleife bis zum letzten Element im Array, was durch { done: true } gekennzeichnet ist
+  console.log(result.value)               // gibt den Wert jeden Elementes aus
+  result = iterator.next()                // nimm das nächste Array-Element
 }
 ```
 
@@ -3315,9 +3315,9 @@ Wir können ein Versprechen wie folgt erstellen:
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-  // Do something that takes time here...
+  // Hier passiert etwas das lange dauert...
 
-  resolve("It worked!") // This means everything went OK
+  resolve("It worked!") // Dies bedeutet: alles hat geklappt
 })
 ```
 
@@ -3337,9 +3337,9 @@ Um etwas zu tun, **nachdem** das Versprechen erfüllt ist, verwenden wir `.then(
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-  // Do something that takes time here...
+  // Hier passiert etwas das lange dauert...
 
-  resolve(100) // This means everything went OK
+  resolve(100) // Dies bedeutet: alles hat geklappt
 })
 
 promise.then(result => {
@@ -3473,10 +3473,10 @@ Beginnen wir damit, eine neue Version unserer Verdopplungsfunktion zu schreiben,
 ```javascript
 function doubleNumbers(numbers) {
   return new Promise(resolve => {
-    // Wait 1 second before doing the operation
+    // Warte 1 Sekunde vor der eigentlichen Operation
     setTimeout(() => {
       const doubled = numbers.map(n => n * 2)
-      resolve(doubled) // Return the result using resolve
+      resolve(doubled) // Gib das Ergebnis mit resolve zurück
     }, 1000)
   })
 }
@@ -3487,10 +3487,10 @@ Jetzt können wir mit `.then()` JavaScript mitteilen, was mit dem Ergebnis gesch
 ```javascript
 function doubleNumbers(numbers) {
   return new Promise(resolve => {
-    // Wait 1 second before doing the operation
+    // Warte 1 Sekunde vor der eigentlichen Operation
     setTimeout(() => {
       const doubled = numbers.map(n => n * 2)
-      resolve(doubled) // Return the result using resolve
+      resolve(doubled) // Gib das Ergebnis mit resolve zurück
     }, 1000)
   })
 }
@@ -3522,10 +3522,10 @@ Wir können für jeden Schritt eine Funktion schreiben, die alle Versprechen ver
 ```javascript
 function doubleNumbers(numbers) {
   return new Promise(resolve => {
-    // Wait 1 second before doing the operation
+    // Warte 1 Sekunde vor der eigentlichen Operation
     setTimeout(() => {
       const doubled = numbers.map(n => n * 2)
-      resolve(doubled) // Return the result using resolve
+      resolve(doubled) // Gib das Ergebnis mit resolve zurück
     }, 1000)
   })
 }
@@ -3947,7 +3947,7 @@ Dies kann abgekürzt werden zu:
 
 ```javascript
 let counter = 1
-counter += 1 // same as counter = counter + 1
+counter += 1 // dasselbe wie counter = counter + 1
 ```
 
 Hier sind die häufigsten:
@@ -4343,27 +4343,27 @@ Hier sind einige gängige Operationen, die man mit dieser API durchführen kann:
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Liste alle Dateien und Ordner auf
 const items = fs.readdirSync(".")
 console.log("Items in current directory:", items)
 
-// Create folder
+// Erzeuge einen Ordner
 fs.mkdirSync("my_folder")
 console.log("Folder created")
 
-// Delete folder
+// Lösche einen Ordner
 fs.rmdirSync("my_folder")
 console.log("Folder deleted")
 
-// Create & write file
+// Erzeuge und beschreibe eine Datei
 fs.writeFileSync("my_file.txt", "Hello world")
 console.log("File created & written")
 
-// Read file
+// Lese eine Datei
 const content = fs.readFileSync("my_file.txt", "utf8")
 console.log("File content:", content)
 
-// Delete file
+// Lösche eine Datei
 fs.unlinkSync("my_file.txt")
 console.log("File deleted")
 ```
@@ -4417,37 +4417,37 @@ Einige Beispiele für Dinge, die du mit dieser API tun kannst:
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Liste alle Dateien und Ordner auf
 fs.readdir(".", (err, items) => {
   if (err) return console.error(err)
   console.log("Items in current directory:", items)
 })
 
-// Create folder
+// Erzeuge einen Ordner
 fs.mkdir("my_folder", (err) => {
   if (err) return console.error(err)
   console.log("Folder created")
 })
 
-// Delete folder
+// Lösche einen Ordner
 fs.rmdir("my_folder", (err) => {
   if (err) return console.error(err)
   console.log("Folder deleted")
 })
 
-// Create & write file
+// Erzeuge und beschreibe eine Datei
 fs.writeFile("my_file.txt", "Hello world", (err) => {
   if (err) return console.error(err)
   console.log("File created & written")
 })
 
-// Read file
+// Lese eine Datei
 fs.readFile("my_file.txt", "utf8", (err, content) => {
   if (err) return console.error(err)
   console.log("File content:", content)
 })
 
-// Delete file
+// Lösche eine Datei
 fs.unlink("my_file.txt", (err) => {
   if (err) return console.error(err)
   console.log("File deleted")
@@ -4519,36 +4519,35 @@ Die übliche Liste von Beispielen für die API:
 ```javascript
 const fs = require("fs").promises
 
-// Use an async function to await operations
+// Benutze eine async Funktion um auf Ergebnisse zu warten
 async function main() {
-  // List files and folders
+  // Liste alle Dateien und Ordner auf
   const items = await fs.readdir(".")
   console.log("Items in current directory:", items)
 
-  // Create folder
+  // Erzeuge einen Ordner
   await fs.mkdir("my_folder")
   console.log("Folder created")
 
-  // Delete folder
+  // Lösche einen Ordner
   await fs.rmdir("my_folder")
   console.log("Folder deleted")
 
-  // Create & write file
+  // Erzeuge und beschreibe eine Datei
   await fs.writeFile("my_file.txt", "Hello world")
   console.log("File created & written")
 
-  // Read file
+  // Lese eine Datei
   const content = await fs.readFile("my_file.txt", "utf8")
   console.log("File content:", content)
 
-  // Delete file
+  // Lösche eine Datei
   await fs.unlink("my_file.txt")
   console.log("File deleted")
 }
 
 main().catch(err => console.error(err))
 ```
-
 
 ## NPM
 <chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
@@ -4854,14 +4853,14 @@ Beispiel mit Routing:
 
 ```javascript
 const server = http.createServer((req, res) => {
-  if (req.url === "/") { // handle requests for the root of the website
+  if (req.url === "/") { // behandele Anfragen für die root der Webseite
     res.statusCode = 200
     res.end("Home page")
-  } else if (req.url === "/about") { // handle requests for the about page
+  } else if (req.url === "/about") { // behandele Anfragen für die About-Seite
     res.statusCode = 200
     res.end("About page")
   } else {
-    res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
+    res.statusCode = 404 // wir senden den Statuscode 404 um anzuzeigen dass die angefragte Seite fehlt
     res.end("Not Found")
   }
 })
@@ -4936,7 +4935,7 @@ console.log(buf)
 Und Du kannst auf einzelne Bytes zugreifen:
 
 ```javascript
-console.log(buf[0]) // prints the ASCII number for 'a', which is 97
+console.log(buf[0]) // gibt die ACII Zahl für 'a" aus, was 97 entspricht
 ```
 
 Buffer sind besonders nützlich, wenn du Daten auf einer sehr niedrigen Ebene manipulieren musst.
@@ -5158,7 +5157,7 @@ const server = net.createServer((socket) => {
 
   socket.on("data", (chunk) => {
     console.log("Received:",
-      chunk.toString()  // we convert the chunk of data from Buffer to string
+      chunk.toString()  // wir wandeln den Daten-Brocken von Buffer in eine Zeichenkette um
     )
   })
 })
@@ -5189,7 +5188,7 @@ const readable = fs.createReadStream("bigfile.txt")     // erzeugt einen lesbare
 const zip = zlib.createGzip()                           // erzeugt ein Transormationsstrom der Daten komprimiert
 const writable = fs.createWriteStream("bigfile.txt.gz") // erzeugt einen beschreibbaren Steam der in eine Datei schreibt
 
-readable        // nimm denn lesbaren Stream
+readable          // nimm denn lesbaren Stream
   .pipe(zip)      // verknüpfe in mit dem Transformationsstrom um die Daten zu komprimieren
   .pipe(writable) // dann verknüpfe den Ausgang in den beschreibbaren Stream um die Daten in eine Zip-Datei zu speichern
 
@@ -5235,7 +5234,7 @@ readable.on("data", chunk => {               // Jeden Brocken den wir vom lesbar
 
 writable.on("drain",                // Der beschreibbare Stream löst ein "drain" Event aus, wenn der Rückstau behoben ist ...
 
-  () => { readable.resume() }      // also machen wir weiter mit dem Lesen (und Schreiben)
+  () => { readable.resume() }       // also machen wir weiter mit dem Lesen (und Schreiben)
 
 )
 ```

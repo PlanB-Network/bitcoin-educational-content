@@ -1287,12 +1287,12 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
-            border: 1px solid var(--color-border);
+            border: 2px solid #ffffff;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -1442,12 +1442,12 @@ def generate_html(data):
         }}
 
         .lang-stats-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .lang-stats-table td {{
@@ -1868,12 +1868,12 @@ def generate_html(data):
         }}
 
         .monthly-lang-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .monthly-lang-table td {{

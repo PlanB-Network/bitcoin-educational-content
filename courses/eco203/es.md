@@ -800,85 +800,59 @@ Sin embargo, hay dos formas complementarias de iluminar el juicio de los ciudada
 - En primer lugar, existe una "moral filosófica o religiosa" que actúa purificando y corrigiendo la acción humana (el hombre como agente)
 - Entonces, existe una "moral económica", que actúa mostrando al hombre "las consecuencias necesarias de sus actos" (el hombre como paciente).
 
-
 De hecho, se trata de dos marcos morales perfectamente complementarios.
 
-
 1. La primera se dirige al corazón y anima a los individuos a hacer el bien; es la moral religiosa o filosófica. Es la más noble. Arraiga en el corazón del hombre la conciencia de su deber. Le dice:
-
 
 > Mejórate; purifícate; deja de hacer el mal; haz el bien, doma tus pasiones; sacrifica tus intereses; no oprimas a tu prójimo a quien es tu deber amar y aliviar; sé justo primero y caritativo después.
 
 En resumen, enseña la virtud, el acto desinteresado. Esta moral, dice Bastiat, será eternamente la más bella y conmovedora, pues muestra lo mejor del hombre.
 
-
 ![image](assets/es/083.webp)
-
 
 2. La otra ayuda a denunciar y combatir el mal mediante el conocimiento de sus efectos, es la moral económica. Se dirige al intelecto y no al corazón, con el objetivo de ilustrar a la víctima sobre los efectos negativos de un comportamiento. Refuerza las lecciones de la experiencia. Se esfuerza por difundir el sentido común, el conocimiento y la desconfianza entre las masas oprimidas, dificultando la opresión.
 
-
 Esta moral económica aspira al mismo resultado que la moral religiosa, pero partiendo de los efectos de las acciones humanas. Nos enseña a reaccionar contra las acciones injustas o perjudiciales y a defender las que son justas o útiles.
-
 
 ![image](assets/es/084.webp)
 
-
 Bastiat destaca aquí el papel de la ciencia y, en particular, de la ciencia económica. Aunque diferente del de la moral tradicional, su papel es sin embargo necesario para luchar contra el expolio en todas sus formas. La moral ataca el vicio en su intención, educa la voluntad. En cambio, la ciencia ataca el vicio comprendiendo sus efectos, facilitando así el triunfo de la virtud.
-
 
 Concretamente, la ciencia económica, descrita por Bastiat como moral defensiva, consiste en refutar los sofismas económicos para desacreditarlos por completo y despojar así a la clase expoliadora de su justificación y su poder.
 
-
 La Economía Política, por tanto, tiene una utilidad práctica evidente. Revela el expolio en los costes ocultos, los obstáculos a la competencia y todas las formas de proteccionismo.
 
+Una vez más, habría menos Tartufos si hubiera menos Orgons para escucharlos. He aquí lo que dice Bastiat al respecto:
 
-Una vez más, habría menos Tartuffes si hubiera menos Orgons para escucharlos. He aquí lo que dice Bastiat al respecto:
+> Dejemos, pues, que la moral religiosa toque, si puede, el corazón de los tartufos. La tarea de la economía política es iluminar a sus incautos. De estos dos enfoques, ¿Cuál funciona más eficazmente para el progreso social? ¿Hay que decirlo? Creo que es el segundo. Me temo que la humanidad no puede escapar a la necesidad de aprender primero una moral defensiva.
 
-
-
-
-> Dejemos, pues, que la moral religiosa toque, si puede, el corazón de los tartufos. La tarea de la economía política es iluminar a sus incautos. De estos dos enfoques, ¿cuál funciona más eficazmente para el progreso social? ¿Hay que decirlo? Creo que es el segundo. Me temo que la humanidad no puede escapar a la necesidad de aprender primero una moral defensiva.
-
-Por supuesto, la economía política no es la ciencia universal; no excluye los enfoques filosóficos y religiosos. "Pero, ¿quién ha desplegado en su nombre una pretensión tan exorbitante?" Se pregunta Bastiat.
-
+Por supuesto, la economía política no es la ciencia universal; no excluye los enfoques filosóficos y religiosos. "Pero, ¿Quién ha desplegado en su nombre una pretensión tan exorbitante?" Se pregunta Bastiat.
 
 Una cosa es cierta, no es la política la que puede cambiar el curso de las cosas y perfeccionar al hombre. Al contrario, es necesario limitar la política y confinarla a su papel estricto, que es la seguridad. Es más bien en el ámbito cultural, familiar, religioso, asociativo, a través del trabajo sobre las ideas, a través de la educación y la instrucción, en definitiva, a través de la sociedad civil, como se puede reforzar la responsabilidad y la solidaridad.
 
-
 # Armonías económicas
-
 
 <partId>db04dfa4-a53e-5d3e-a307-a68ebc36dc4f</partId>
 
-
 ## El milagro del mercado
-
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
 :::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
 
-
-¿Puede una sociedad armoniosa prescindir de leyes escritas, de normas, de medidas represivas? Si se deja a los hombres en libertad, ¿no asistiremos al desorden, a la anarquía, a la desorganización? ¿Cómo evitar que se cree una mera yuxtaposición de individuos que actúan al margen de todo concierto, si no es mediante leyes y una organización política centralizada?
-
+¿Puede una sociedad armoniosa prescindir de leyes escritas, de normas, de medidas represivas? Si se deja a los hombres en libertad, ¿No asistiremos al desorden, a la anarquía, a la desorganización? ¿Cómo evitar que se cree una mera yuxtaposición de individuos que actúan al margen de todo concierto, si no es mediante leyes y una organización política centralizada?
 
 Este es el argumento que invocan a menudo quienes exigen la regulación del mercado o que la sociedad sea la única capaz de coordinar a los individuos en un todo coherente y armonioso.
 
-
 ![image](assets/es/085.webp)
-
 
 No es ésta la opinión de Bastiat. Según él, el mecanismo social, como el mecanismo celeste o el mecanismo del cuerpo humano, obedece a leyes generales. En otras palabras, ya es un todo armoniosamente organizado. Y el motor de esta organización es el libre mercado.
 
-
 El milagro del mercado libre, nos dice, es que utiliza conocimientos que ninguna persona puede poseer por sí sola y que proporciona satisfacciones muy superiores a cualquier cosa que pudiera hacer una organización artificial.
-
 
 Bastiat da algunos ejemplos para ilustrar las ventajas de este mercado. Nos hemos acostumbrado tanto a este fenómeno que ya no le prestamos atención.
 
 Pensemos en un carpintero de pueblo, dice, y observemos todos los servicios que presta a la sociedad y todos los que recibe:
-
 
 > Cada día, al levantarse, se viste, y no confeccionó personalmente ninguna de sus prendas. Sin embargo, para que estas prendas estuvieran a su disposición, hubo que realizar una enorme cantidad de trabajo, industria, transporte e ingeniosos inventos en todo el mundo.
 >
@@ -887,30 +861,24 @@ Pensemos en un carpintero de pueblo, dice, y observemos todos los servicios que 
 >
 
 > Este hombre enviará a su hijo a la escuela, para que reciba una educación que presupone investigación, muchos años de estudio previo.
-> Sale al exterior: encuentra una calle pavimentada e iluminada.
+> Sale al exterior: Encuentra una calle pavimentada e iluminada.
 >
 
-> Su propiedad es disputada: encontrará abogados para defender sus derechos, jueces para mantenerlos, oficiales de justicia para ejecutar la sentencia; todas las cosas que todavía presuponen el conocimiento adquirido, por lo tanto la iluminación y los medios de existencia.
+> Su propiedad es disputada: Encontrará abogados para defender sus derechos, jueces para mantenerlos, oficiales de justicia para ejecutar la sentencia; todas las cosas que todavía presuponen el conocimiento adquirido, por lo tanto la iluminación y los medios de existencia.
 
 Bastiat describe el mercado como una herramienta descentralizada e invisible de cooperación. A través del sistema de precios, transmite información sobre las necesidades y aptitudes de cada cual, pone en contacto a personas que desean cooperar para mejorar su existencia.
 
-
 Lo sorprendente, concluye Bastiat, es la inmensa desproporción que existe entre los beneficios que este hombre obtiene de la sociedad y los que se proporcionaría a sí mismo si se redujera a sus propios recursos. En un solo día, consume bienes que no podría producir por sí mismo.
-
 
 ![image](assets/es/086.webp)
 
-
 En 1958, el escritor estadounidense Leonard Read (Foundation for Economic Education) publicó en la revista The Freeman un breve ensayo, escrito a la manera de Bastiat, que se hizo muy famoso: "Yo, lápiz". Este texto es una metáfora de lo que es un mercado libre. Comienza así:
-
 
 > Soy un lápiz de mina, un lápiz de madera corriente que conocen todos los niños y niñas y adultos que saben leer y escribir. Es uno de los objetos más sencillos de la civilización humana. Y, sin embargo, ni una sola persona en esta tierra sabe cómo fabricarme.
 
 ![image](assets/es/087.webp)
 
-
 Retoma la idea de Bastiat de una cooperación invisible entre millones de individuos que no se conocen entre sí, que conduce a la construcción de algo tan mundano como un lápiz. Nadie sabe hacer un lápiz por sí solo. Sin embargo, millones de seres humanos participan sin saberlo en la creación de este sencillo lápiz, intercambiando y coordinando sus conocimientos y habilidades dentro de un sistema de precios sin que ninguna autoridad superior dicte su conducta. Esta historia demuestra que los individuos libres que trabajan en pos de su interés legítimo actúan más en beneficio de la sociedad que cualquier estrategia económica planificada y centralizada.
-
 
 El Premio Nobel de Economía de 1976, Milton Friedman, también retomó esta historia del lápiz para explicar al gran público cómo funciona la economía de mercado.
 
@@ -918,29 +886,21 @@ El Premio Nobel de Economía de 1976, Milton Friedman, también retomó esta his
 
 En un episodio de su serie de televisión Free to Choose, analiza los diversos componentes de algo tan mundano y sencillo como un lápiz y destaca el milagro del orden espontáneo, generado por miles de interacciones económicas en todo el mundo. Personas que no se conocen entre sí, que no comparten la misma religión ni las mismas costumbres, aún así consiguen coordinarse para producir este objeto. Concluye que el libre mercado es esencial para garantizar no sólo la prosperidad, sino también la armonía y la paz.
 
-
 ![image](assets/es/088.webp)
-
 
 Friedrich Hayek, en su ensayo "El uso del conocimiento en la sociedad" de 1945, ya explicaba por qué la economía de mercado y la descentralización de las decisiones son vitales para la prosperidad. Según Hayek, ningún planificador central o burócrata podría tener nunca conocimientos suficientes para guiar con éxito la totalidad de las acciones económicas. Sólo el sistema de precios de un mercado libre permite a millones de actores independientes decidir por sí mismos cómo asignar eficazmente los recursos.
 
-
 ![image](assets/es/089.webp)
-
 
 La planificación económica, que pretende hacerlo mejor que el mercado, no sólo conduce a una mala asignación de los recursos, sino también a la hegemonía de una clase sobre otra. Por eso el socialismo no es sólo un error intelectual, sino un error que, en última instancia, genera una inmensa injusticia.
 
-
 ## La libertad y la responsabilidad son la clave del problema social
-
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
 :::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
-
 En una carta dirigida a Alphonse de Lamartine en 1845, Bastiat escribió que toda su filosofía está contenida en un solo principio:
-
 
 > La libertad es la mejor forma de organización social.
 
@@ -948,137 +908,97 @@ En una carta dirigida a Alphonse de Lamartine en 1845, Bastiat escribió que tod
 
 Sin embargo, añade una condición:
 
-
 > Que la ley no elimine las consecuencias, positivas o negativas, de los actos de cada uno. Este es el principio corolario de la responsabilidad.
 
-En otras palabras, la libertad y la responsabilidad no pueden separarse; son inseparables. Para él, el liberalismo se distingue del socialismo por la creencia de que la libertad no puede existir sin responsabilidad. Pero, ¿qué realidades abarcan exactamente las palabras libertad y responsabilidad?
+En otras palabras, la libertad y la responsabilidad no pueden separarse; son inseparables. Para él, el liberalismo se distingue del socialismo por la creencia de que la libertad no puede existir sin responsabilidad. Pero, ¿Qué realidades abarcan exactamente las palabras libertad y responsabilidad?
 
-
-La libertad se define esencialmente de forma negativa: ser libre es actuar sin coacción externa en el ejercicio de los propios derechos. Sin embargo, esto no significa la ausencia de toda coacción. Porque la libertad exige reciprocidad: también nos impone actuar sin atentar contra la propiedad ajena y, por tanto, reparar el daño causado, si es necesario. Esto es la responsabilidad.
-
+La libertad se define esencialmente de forma negativa: Ser libre es actuar sin coacción externa en el ejercicio de los propios derechos. Sin embargo, esto no significa la ausencia de toda coacción. Porque la libertad exige reciprocidad: también nos impone actuar sin atentar contra la propiedad ajena y, por tanto, reparar el daño causado, si es necesario. Esto es la responsabilidad.
 
 Por tanto, la responsabilidad representa, en cierto modo, el aspecto positivo de la libertad: en la medida en que uno actúa libremente, debe asumir las consecuencias de sus propias acciones, buenas o malas.
 
-
 La responsabilidad individual es a la vez un importante vector de creatividad y un incentivo para la prudencia y la previsión.
-
 
 ![image](assets/es/091.webp)
 
-
 Cuando uno gasta su propio dinero, tiene cuidado de no endeudarse demasiado, de comprobar la calidad de los productos, la fiabilidad de los proveedores, a riesgo de ser fuertemente penalizado. Tal es el poder de la responsabilidad, que aliada con la libertad es el verdadero motor del progreso social.
 
-
-Pero, ¿de dónde viene el fenómeno de la irresponsabilidad o de la desresponsabilización? Frédéric Bastiat nos da una respuesta a esta pregunta, una respuesta política. Dice textualmente
-
+Pero, ¿De dónde viene el fenómeno de la irresponsabilidad o de la desresponsabilización? Frédéric Bastiat nos da una respuesta a esta pregunta, una respuesta política. Dice textualmente
 
 > La intervención del Estado nos quita el gobierno de nosotros mismos.
 
 De hecho, el estatismo reduce continuamente la iniciativa privada y la libre elección de las personas. Hace por ellos lo que podrían hacer ellos mismos y mejor. Sustrae así a los individuos de las consecuencias de sus actos. Destruye la responsabilidad.
 
-
 ![image](assets/es/092.webp)
-
 
 Según Bastiat, la hipertrofia de las leyes y la intervención excesiva del Estado tienen como consecuencia engendrar la lucha por el poder, el expolio, los privilegios, los monopolios, las guerras, en resumen, todo lo que obstaculiza el progreso de la civilización.
 
 El riesgo de favorecer excesivamente la vía de la ley o del control burocrático es que desalienta toda motivación al imponer un diluvio de restricciones, privándonos así de los múltiples avances que permiten la iniciativa privada y la libre elección.
 
-
 Ilustremos esta cuestión con algunos grandes temas de actualidad. Primer ejemplo, la crisis de 2008.
-
 
 ![image](assets/es/093.webp)
 
 (Alan Greenspan, Presidente de la FED, el banco central estadounidense, de 1987 a 2006)_
 
-
 Durante años, los responsables de la política monetaria explicaron que si los beneficios se privatizan cuando todo va bien, las pérdidas se mutualizarán en caso de quiebra (rescates, planes de salvamento, manipulación de los tipos de interés, impresión de dinero, etc.). Al hacerlo, crearon un riesgo moral, facilitaron la asunción de riesgos irracionales y animaron al mundo financiero a comportarse de forma irresponsable. De este modo precipitaron a las finanzas en la crisis que experimentamos.
-
-
-
 
 Y el fenómeno se repetirá indefinidamente mientras los bancos sigan bajo el dominio de las autoridades centrales que supuestamente deben protegerlos suprimiendo toda autonomía de decisión y funcionamiento.
 
-
-Otro ejemplo: los servicios públicos
-
+Otro ejemplo: Los servicios públicos
 
 ![image](assets/es/094.webp)
 
+Cada servicio público impone las preferencias de una élite burocrática, en detrimento de la libre elección individual. Según Bastiat, esto tiene dos consecuencias: El ciudadano "deja de ejercer el libre control sobre sus propias satisfacciones y, al no tener ya la responsabilidad, naturalmente deja de tener la inteligencia" La razón es sencilla: Toda ley escrita es coercitiva y es igual para todos, no tiene en cuenta las situaciones particulares, las necesidades y las preferencias de los ciudadanos.
 
-Cada servicio público impone las preferencias de una élite burocrática, en detrimento de la libre elección individual. Según Bastiat, esto tiene dos consecuencias: El ciudadano "deja de ejercer el libre control sobre sus propias satisfacciones y, al no tener ya la responsabilidad, naturalmente deja de tener la inteligencia" La razón es sencilla: toda ley escrita es coercitiva y es igual para todos, no tiene en cuenta las situaciones particulares, las necesidades y las preferencias de los ciudadanos.
-
-
-Por último, el servicio público es causa de inmovilidad. En efecto, cuando los servicios privados se convierten en públicos, escapan a la competencia. En consecuencia, dice Bastiat, y cito: "el funcionario está desprovisto de ese estímulo que empuja hacia el progreso"
-
+Por último, el servicio público es causa de inmovilidad. En efecto, cuando los servicios privados se convierten en públicos, escapan a la competencia. En consecuencia, dice Bastiat, y citamos: "El funcionario está desprovisto de ese estímulo que empuja hacia el progreso"
 
 ![image](assets/es/095.webp)
 
-
 Cuando observamos el servicio público de la educación nacional, comprendemos lo que quiere decir Bastiat. Libera a la inmensa mayoría de los padres de la carga de educar a sus hijos, reduciendo la escuela a una guardería. No anima a los profesores a innovar y asumir riesgos porque en un sistema así son meros ejecutores de un programa diseñado sin ellos, por burócratas. Por último, ignora la realidad de las necesidades particulares de cada individuo.
-
 
 ![image](assets/es/096.webp)
 
-Lo veremos en otro curso, según Bastiat, los únicos servicios públicos legítimos de un Estado son tres: el ejército, la policía y el poder judicial. Pero para concluir sobre la responsabilidad, el problema de la intervención del Estado es que los que toman las decisiones no son los que sufren las consecuencias.
+Lo veremos en otro curso, según Bastiat, los únicos servicios públicos legítimos de un Estado son tres: El ejército, la policía y el poder judicial. Pero para concluir sobre la responsabilidad, el problema de la intervención del Estado es que los que toman las decisiones no son los que sufren las consecuencias.
 
 En otras palabras, las elecciones colectivas no son elecciones responsables ya que, por un lado, no implican ninguna asunción de riesgos para los que toman las decisiones y, por otro, obligan a los demás a sufrir determinadas consecuencias, lo cual es tan desastroso como inmoral.
 
-
 ## El poder de la responsabilidad
-
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
 :::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
-
 En el curso anterior vimos por qué la libertad y la responsabilidad son claves en el problema social. Ahora profundizaremos en este punto mostrando cómo ve Frédéric Bastiat los males que aquejan a las sociedades y su solución.
-
 
 A veces se ha criticado a los liberales por ignorar el mal y construir la utopía de una libertad pura y perfecta en un mundo ideal. Esta crítica es absolutamente infundada en lo que respecta a nuestro autor.
 
+Nadie puede ignorar el mal que reina en la historia de las sociedades humanas: Injusticias, guerras y sufrimiento. Nos gustaría poder eliminar estos males. Este es, por otra parte, el objeto de gran parte de las filosofías modernas, de Rousseau a Heidegger, pasando por Hegel y Marx.
 
-Nadie puede ignorar el mal que reina en la historia de las sociedades humanas: injusticias, guerras y sufrimiento. Nos gustaría poder eliminar estos males. Este es, por otra parte, el objeto de gran parte de las filosofías modernas, de Rousseau a Heidegger, pasando por Hegel y Marx.
-
-
-Según Frédéric Bastiat, el mal no sólo es una realidad definitiva, sino que también desempeña un papel en la historia y en la acción humana. Se puede reducir, pero no erradicar por completo, porque eso significaría acabar con la libertad y la responsabilidad. Entonces, ¿de dónde viene el mal, cuál es su papel y cómo puede evitarse?
-
+Según Frédéric Bastiat, el mal no sólo es una realidad definitiva, sino que también desempeña un papel en la historia y en la acción humana. Se puede reducir, pero no erradicar por completo, porque eso significaría acabar con la libertad y la responsabilidad. Entonces, ¿De dónde viene el mal, cuál es su papel y cómo puede evitarse?
 
 Para responder a estas preguntas, Bastiat procederá a analizar la acción humana. Ésta, en efecto, puede conducir tanto al bien como al mal.
 
-
 ![image](assets/es/097.webp)
-
 
 El mal proviene en primer lugar de nuestra imperfección. Elegir libremente es correr el riesgo de hacer una mala elección, dice Bastiat. En efecto, podemos engañarnos de muchas maneras, incluso sobre nuestras propias necesidades e intereses. El hombre es falible, es propenso a equivocarse en la comprensión del juego de las leyes económicas o a desviarlas de su fin.
 
-
 Por tanto, es la imperfección de la razón el principal límite de los hombres y lo que permanece en el origen de nuestros sufrimientos.
 
-Si el mal proviene de la debilidad humana y no de la libertad misma, ni del libre comercio, el remedio no está en la supresión de la libertad o de Exchange sino en la responsabilidad misma, ya que es la fuente de toda experiencia. Este principio de responsabilidad es el siguiente, cito a Bastiat:
-
+Si el mal proviene de la debilidad humana y no de la libertad misma, ni del libre comercio, el remedio no está en la supresión de la libertad o del intercambio sino en la responsabilidad misma, ya que es la fuente de toda experiencia. Este principio de responsabilidad es el siguiente, citando a Bastiat:
 
 > Todo hombre que actúa recibe la recompensa o el castigo de sus actos.
 
 A través de esta sanción natural, el hombre aprende, descubre, se corrige, progresa y mejora. En otras palabras, la responsabilidad es un principio de perfectibilidad y progreso, como hemos visto en el curso anterior.
 
-
 ![image](assets/es/098.webp)
-
 
 Si un hombre soporta las consecuencias, buenas o malas, de sus decisiones, tenderá a mejorar aprendiendo de la experiencia. Por lo tanto, hay que dejar actuar a la responsabilidad individual, que es la gran educadora de los pueblos según Bastiat, el principio fundamental de toda regulación de los comportamientos y las sociedades.
 
-
 El mal genera sufrimiento, y el sufrimiento nos hace comprender la falta o el error, nos devuelve al buen camino. Es a través del conocimiento del mal como progresamos.
-
 
 Es porque el hombre corre el riesgo de equivocarse o de actuar mal y sufrir las consecuencias, por lo que se le anima a ser responsable. Así, se esforzará por anticiparse a los peligros que puedan acecharle para protegerse.
 
-
 ![image](assets/es/099.webp)
-
 
 ---
 

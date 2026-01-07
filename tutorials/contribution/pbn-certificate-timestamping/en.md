@@ -66,7 +66,7 @@ First, go to the folder where you extracted the files and open a terminal (right
 1. Import Plan ₿ Academy public PGP key with the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 You should see a message like the following if you successfully imported the PGP Key

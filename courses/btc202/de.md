@@ -1792,19 +1792,19 @@ Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkei
 
 ### Wallets
 
-du können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der Datei `Bitcoin.conf` anpassen. Wenn du Wallet nicht direkt in Core verwenden, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
+Du kannst auch die Art und Weise, wie deine Wallet verwaltet wird, in der Datei `Bitcoin.conf` anpassen. Wenn du deine Wallet nicht direkt in Core verwendest, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
 
-- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Legt das Format der vom Wallet für den Empfang generierten Adressen fest.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Legt das Format der von der Wallet für den Empfang generierten Adressen fest.
 
 - `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Erzwingt Exchange-Address-Format (Rest einer Eingabe auf eine einzige Zahlung).
 
-- gW-727=<Pfad>`: Lädt einen vorhandenen Wallet beim Start (kann wiederholt werden, um mehrere Geldbörsen zu laden).
+- `wallet=path`: Lädt eine vorhandene Wallet beim Start (kann für mehrere Wallets wiederholt werden)
 
-- `walletdir=<dir>`: Verzeichnis, das die Wallets enthält (Standard: `<datadir>/wallets` wenn es existiert, sonst `<datadir>`). Dies kann nützlich sein, wenn du die Wallets auf einem dedizierten oder verschlüsselten Volume speichern wollen.
+- `walletdir=<dir>`: Verzeichnis, das die Wallets enthält (Standard: `<datadir>/wallets` wenn es existiert, sonst `<datadir>`). Dies kann nützlich sein, wenn du die Wallets auf einem dedizierten oder verschlüsselten Datenträger speichern willst.
 
-- walletbroadcast=1": Sendet automatisch Transaktionen, die von geladenen Geldbörsen erstellt wurden (Standard: `1`). Setzen du auf "0", wenn du die Übertragung über einen anderen Kanal verwalten möchten.
+- `walletbroadcast=1`: Sendet automatisch Transaktionen, die von geladenen Wallets erstellt wurden (Standard: `1`). Setze es auf "0", wenn du die Übertragung über einen anderen Kanal verwalten möchtest.
 
-- walletrbf=1": Aktiviert RBF Opt-in, um RBF bei allen Transaktionen zu signalisieren (Standard: `1`). Ermöglicht es dir, die Gebühren im Falle einer blockierten Transaktion später zu erhöhen.
+- `walletrbf=`": Aktiviert RBF Opt-in, um RBF bei allen Transaktionen zu signalisieren (Standard: `1`). Ermöglicht es dir, die Gebühren im Falle einer blockierten Transaktion später zu erhöhen.
 
 - `txconfirmtarget=<n>`: Bestätigungsziel für die Transaktion (in Anzahl der Blöcke, Standard: `6`). Die Wallet setzt die Gebühr für die Transaktion automatisch so fest, dass sie innerhalb dieser Anzahl von Blöcken bestätigt wird.
 
@@ -1812,23 +1812,23 @@ du können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der
 
 - `fallbackfee=<amt>` : Notfallgebühr (BTC/kvB), die verwendet wird, wenn dem Schätzer Daten fehlen (Standard: `0.00`). Das Setzen auf 0 deaktiviert die Notfallgebühr vollständig.
 
-- mintxfee=<amt>`: Mindestschwellenwert (BTC/kvB), ab dem Wallet Transaktionen erstellt (Standardwert: "0,00001"). Wallet wird sich weigern, eine Transaktion unter diesem Schwellenwert zu erstellen.
+- `mintxfee=<amt>`: Mindestschwellenwert (BTC/kvB), ab dem Wallet-Transaktionen erstellt (Standard: `0,00001`). Die Wallet wird sich weigern, eine Transaktion unter diesem Schwellenwert zu erstellen.
 
-- maxtxfee=<amt>`: Absolute Obergrenze der Gesamtgebühren für eine Wallet-Transaktion (Standardwert: 0,10 BTC). Schützt vor abnorm hohen Gebühren, die unnötig Bitcoins zerstören würden.
+- `maxtxfee=<amt>`: Absolute Obergrenze für die Gesamtgebühren einer Wallet‑Transaktion (Standard: `0.10` BTC). Schützt vor ungewöhnlich hohen Gebühren, die unnötigerweise Bitcoins zerstören würden.
 
-- teilausgaben vermeiden=1": Wählt UTXOs nach Address-Clustern aus, um Teilausgaben zu vermeiden.
+- `avoidpartialspends=1`: Wählt UTXOs nach Address-Clustern aus, um Teilausgaben zu vermeiden.
 
-- spendzeroconfchange=1": Erlaubt die Wiederverwendung eines unbestätigten UTXO Exchange als Eintrag in einer neuen Transaktion (Standardwert: `1`).
+- `spendzeroconfchange=1`: Erlaubt die Wiederverwendung eines unbestätigten UTXO als Eintrag in einer neuen Transaktion (Standardwert: `1`).
 
-- consolidatefeerate=<amt>`: Maximaler Satz (BTC/kvB), bei dessen Überschreitung Wallet nicht mehr Inputs hinzufügt als für die Konsolidierung erforderlich. Dies ermöglicht opportunistische Konsolidierungen zu niedrigen Preisen und reduziert die Kosten, wenn die Kosten hoch sind.
+- `consolidatefeerate=<amt>`: Maximaler Satz (BTC/kvB), bei dessen Überschreitung die Wallet nicht mehr Inputs hinzufügt als für die Konsolidierung erforderlich. Dies ermöglicht opportunistische Konsolidierungen zu niedrigen Preisen und reduziert die Kosten, wenn die Kosten hoch sind.
 
 - `maxapsfee=<n>`: Budget für zusätzliche Gebühren (BTC, absoluter Wert), die der Wallet zu zahlen bereit ist, um die Option "*Teilausgaben vermeiden*" zu aktivieren.
 
-- `Discardfee=<amt>`: Satz (BTC/kvB), der angibt, inwieweit du bereit sind, den Exchange wegzuwerfen, indem du ihn zur Gebühr hinzufügen. Ausgaben, die bei diesem Satz mehr als ein Drittel ihres Wertes kosten würden, werden verworfen.
+- `discardfee=<amt>`: Satz (BTC/kvB), der angibt, inwieweit du bereit bist, Wechselgeld wegzuwerfen, indem du es zur Gebühr hinzufügst. Ausgaben, die bei diesem Satz mehr als ein Drittel ihres Wertes kosten würden, werden verworfen.
 
-- keypool=<n>`: Größe des vorgenerierten Address-Pools (Standard: `1000`). Zu kleine Werte erhöhen das Risiko einer unvollständigen Wiederherstellung.
+- `keypool=<n>`: Größe des vorgenerierten Address-Pools (Standard: `1000`). Zu kleine Werte erhöhen das Risiko einer unvollständigen Wiederherstellung.
 
-- disablewallet=1": Startet Bitcoin core ohne das Subsystem Wallet und deaktiviert die zugehörigen RPCs. Verringert die Angriffsfläche und den Fußabdruck, wenn der Node nur zur Validierung/Freigabe verwendet wird.
+- `disablewallet=1`: Startet Bitcoin Core ohne das Wallet Subsystem und deaktiviert die zugehörigen RPCs. Verringert die Angriffsfläche und den Fußabdruck, wenn die Node nur zur Validierung/Freigabe verwendet wird.
 
 ### Speicherung, Indizierung und Leistung
 

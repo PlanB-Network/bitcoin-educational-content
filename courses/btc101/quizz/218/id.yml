@@ -6,4 +6,4 @@ wrong_answers:
   - Node tidak tersinkronisasi
 explanation: |
   Bahkan dengan kapasitas besar, saluran hanya memungkinkan pembayaran jika likuiditas yang cukup berada di sisi yang benar.
-reviewed: false
+reviewed: true

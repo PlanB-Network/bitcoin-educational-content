@@ -1,5 +1,5 @@
 ---
-term: Twiyumvire ko UTXO.
+term: Twiyumvire ko UTXO
 ---
 
 Igiharuro c’imiterere mu mukiriya wa Bitcoin core kiremerera urudodo rushasha rwatangujwe (urutarakora Initial Block Download, canke IBD) gusubiramwo igenzura ry’ibikorwa n’itegeko rya UTXO imbere y’ifoto yatanzwe. Iciyumviro gishingiye ku gukoresha umugwi wa UTXO (urutonde rw’ama UTXO yose ariho mu gihe kinaka) yatanzwe na Core kandi yiyumviriwe ko ari ukuri Ivyo bituma urudodo rushobora gukorana ningoga n’uruzitiro rufise igikorwa cirundanijwe cane.

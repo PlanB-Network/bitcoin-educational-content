@@ -2256,7 +2256,7 @@ Vergeet in elk geval niet dat elke consolidatie onvermijdelijk een verlies van v
 Laten we eens kijken naar een paar andere best practices voor het optimaliseren van je privacy op Bitcoin.
 
 
-### De volledige knoop
+### De complete node (full node)
 
 
 Je bitcoins in eigen beheer hebben is geweldig, maar je eigen complete node gebruiken is nog beter! Hier is waarom het hebben van je eigen node cruciaal is voor een volledig soeverein gebruik van Bitcoin:
@@ -2265,34 +2265,34 @@ Je bitcoins in eigen beheer hebben is geweldig, maar je eigen complete node gebr
 
 
 - **Weerstand tegen censuur**: Je transacties kunnen door niemand worden geblokkeerd;
-- **Onafhankelijkheid van derden**: U bent niet langer afhankelijk van een externe service om blockchain gegevens te verifiëren;
+- **Onafhankelijkheid van derden**: Je bent niet langer afhankelijk van een externe service om blockchain gegevens te verifiëren;
 - **Actieve deelname**: Je kunt je eigen validatieregels definiëren en direct deelnemen aan de consensus;
-- **Netwerkbijdrage**: Door een node te runnen, help je het Bitcoin netwerk te versterken en te verspreiden;
-- **Technisch onderwijs**: Het beheren van een compleet knooppunt is een geweldige manier om je technische kennis van Bitcoin te verdiepen.
+- **Netwerkbijdrage**: Door een node te runnen, help je het Bitcoin-netwerk te versterken en te verspreiden;
+- **Technisch onderwijs**: Het beheren van een complete node (full node) is een geweldige manier om je technische kennis van Bitcoin te verdiepen.
 
 
-Naast deze voordelen verbetert het gebruik van een volledig knooppunt ook je vertrouwelijkheid bij het uitzenden van je transacties. Wanneer je een transactie uitvoert, wordt deze eerst via je wallet aangemaakt en ondertekend. Om het op het Bitcoin netwerk uit te zenden, moet het bekend zijn bij minstens één knooppunt. Door je eigen node te gebruiken, heb je directe controle over deze verspreiding, waardoor je vertrouwelijkheid wordt versterkt en het risico op gegevenslekken wordt beperkt.
+Naast deze voordelen verbetert het gebruik van een complete node ook je vertrouwelijkheid bij het uitzenden van je transacties. Wanneer je een transactie uitvoert, wordt deze eerst via je wallet aangemaakt en ondertekend. Om het op het Bitcoin-netwerk uit te zenden, moet het bekend zijn bij minstens één node. Door je eigen node te gebruiken, heb je directe controle over deze verspreiding, waardoor je vertrouwelijkheid wordt versterkt en het risico op gegevenslekken wordt beperkt.
 
 
 ![BTC204](assets/nl/104.webp)
 
 
-Als je geen eigen Bitcoin knooppunt hebt, ben je gedwongen een knooppunt van een derde partij te gebruiken, zoals het knooppunt dat wordt aangeboden door je wallet softwareleverancier. Naast het uitzenden van transacties, heeft je wallet toegang nodig tot verschillende gegevens, zoals openstaande transacties, saldi van je adressen en het aantal bevestigingen van je transacties. Om toegang te krijgen tot al deze gegevens, moet je een node bevragen.
+Als je geen eigen Bitcoin-node hebt, ben je gedwongen een node van een derde partij te gebruiken, zoals de node die wordt aangeboden door je wallet-softwareleverancier. Naast het uitzenden van transacties, heeft je wallet toegang nodig tot verschillende gegevens, zoals openstaande transacties, saldi van je adressen en het aantal bevestigingen van je transacties. Om toegang te krijgen tot al deze gegevens, moet je een node bevragen.
 
 
 ![BTC204](assets/nl/105.webp)
 
 
-Het grootste risico wanneer je niet je eigen Bitcoin node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet software te gebruiken die je verbindingen maskeert via Tor. Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
+Het grootste risico wanneer je niet je eigen Bitcoin-node gebruikt, is dat de operator van de node van een derde partij jouw activiteiten op de blockchain kan observeren, of zelfs deze informatie kan delen met andere entiteiten. Om dit risico te beperken, is een tussenoplossing om wallet-software te gebruiken die je verbindingen maskeert via Tor. Dit kan de blootstelling van je gegevens verminderen. De optimale oplossing is echter om je eigen Bitcoin-node te hebben en die te gebruiken om je transacties uit te zenden. Natuurlijk moet je ook oppassen dat je geen informatie lekt via je node, maar dat is een ander onderwerp waar we later naar zullen kijken.
 
 
-Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben van je eigen complete node je ook van de waarheidsgetrouwheid van gegevens op blockchain, beschermt het je tegen censuur en stelt het je in staat om actief deel te nemen aan het bestuur van Bitcoin. Door je eigen node te gebruiken, draag je je economische gewicht bij aan de keten van jouw keuze, wat belangrijk is tijdens conflicten binnen de gemeenschap, zoals bijvoorbeeld tijdens de Blocksize War van 2015 tot 2017. In het geval van een Fork kan het gebruik van een node van een derde partij ertoe leiden dat je een keten steunt die je niet wilt steunen, omdat de nodeoperator de keuze voor jou maakt.
+Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben van je eigen complete node je ook van de waarheidsgetrouwheid van gegevens op blockchain, beschermt het je tegen censuur en stelt het je in staat om actief deel te nemen aan het bestuur van Bitcoin. Door je eigen node te gebruiken, draag je je economische gewicht bij aan de keten van jouw keuze, wat belangrijk is tijdens conflicten binnen de gemeenschap, zoals bijvoorbeeld tijdens de Blocksize War van 2015 tot 2017. In het geval van een fork kan het gebruik van een node van een derde partij ertoe leiden dat je een keten steunt die je niet wilt steunen, omdat de nodeoperator de keuze voor jou maakt.
 
 
-Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele soevereiniteit essentieel om je eigen complete knooppunt te gebruiken!
+Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele soevereiniteit essentieel om je eigen complete node te gebruiken!
 
 
-### Misleidende analyse heuristieken
+### Analyse heuristieken misleiden
 
 
 Meer in het algemeen is het belangrijk om de heuristieken waar we het in de vorige sectie over hadden te begrijpen, zodat je ze beter kunt vermijden of misleiden. Het toepassen van een aantal best practices kan nuttig zijn, zelfs als ze niet essentieel zijn. Ze bieden een extra beschermingslaag die belangrijk kan zijn bij het handhaven van vertrouwelijkheid bij het gebruik van Bitcoin.
@@ -4196,7 +4196,7 @@ In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt te
 Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion voorstel. Dit broadcast protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
 
 
-Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
+Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin-netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
 
 
 Deze associatie tussen activiteit op Bitcoin en een IP adres vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP adres gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP adres en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
@@ -4262,7 +4262,7 @@ P2P transport V2 is een ander netwerkprotocol dat wordt gepresenteerd in BIP324.
 Deze verbetering is ontworpen om verschillende problemen met de basisversie van het P2P protocol op te lossen. Enerzijds maakt het de uitgewisselde gegevens voor een passieve waarnemer niet te onderscheiden van andere soorten gegevens die op het internet circuleren. Het belangrijkste doel is om te voorkomen dat overheden, ISP's en VPN-providers Bitcoin-gebruikers massaal in de gaten houden. Dit maakt het ook moeilijker voor deze entiteiten om te bepalen of een internetgebruiker ook een Bitcoin-gebruiker is, d.w.z. of hij of zij een compleet knooppunt bedient.
 
 
-P2P V2 helpt ook het risico op censuur en aanvallen te verminderen door specifieke patronen in gegevenspakketten te detecteren. Het compliceert en maakt de uitvoering van verschillende soorten Sybil-aanvallen op netwerkniveau duurder. Een Sybil-aanval vindt plaats wanneer een actor meerdere valse identiteiten creëert om een oneerlijk voordeel te behalen. In de context van het Bitcoin netwerk manifesteert dit zich vaak als een actor die een groot aantal complete nodes controleert en deze agressief gebruikt om verbindingen te vermenigvuldigen. Sybil aanvallen kunnen passief zijn, om informatie te verzamelen en de vertrouwelijkheid van gebruikers in gevaar te brengen, of actief, in de vorm van Eclipse aanvallen. Deze laatste isoleren een specifiek knooppunt van de rest van het netwerk en censureren de gebruiker of veranderen de gegevens die het ontvangt. Ten slotte maakt P2P V2 ook *Man-In-The-Middle* (MITM) aanvallen kostbaarder en gemakkelijker op te sporen.
+P2P V2 helpt ook het risico op censuur en aanvallen te verminderen door specifieke patronen in gegevenspakketten te detecteren. Het compliceert en maakt de uitvoering van verschillende soorten Sybil-aanvallen op netwerkniveau duurder. Een Sybil-aanval vindt plaats wanneer een actor meerdere valse identiteiten creëert om een oneerlijk voordeel te behalen. In de context van het Bitcoin-netwerk manifesteert dit zich vaak als een actor die een groot aantal complete nodes controleert en deze agressief gebruikt om verbindingen te vermenigvuldigen. Sybil aanvallen kunnen passief zijn, om informatie te verzamelen en de vertrouwelijkheid van gebruikers in gevaar te brengen, of actief, in de vorm van Eclipse aanvallen. Deze laatste isoleren een specifiek knooppunt van de rest van het netwerk en censureren de gebruiker of veranderen de gegevens die het ontvangt. Ten slotte maakt P2P V2 ook *Man-In-The-Middle* (MITM) aanvallen kostbaarder en gemakkelijker op te sporen.
 
 
 De versleuteling geïmplementeerd door P2P V2 bevat geen authenticatie, om geen onnodige complexiteit toe te voegen of het feit te compromitteren dat de verbinding met het netwerk zonder toestemming blijft. Desalniettemin biedt dit nieuwe P2P transportprotocol betere beveiliging tegen passieve aanvallen en maakt het actieve aanvallen aanzienlijk kostbaarder en detecteerbaarder. De introductie van een pseudo-willekeurige gegevensstroom in netwerkberichten maakt het moeilijker voor aanvallers om communicatie te censureren of te manipuleren.
@@ -4283,13 +4283,13 @@ Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindinge
 ![BTC204](assets/nl/215.webp)
 
 
-Tor versleutelt niet alleen gegevens, maar maskeert ook de herkomst en bestemming van communicatie. Door Tor te gebruiken voor communicatie vanaf je persoonlijke knooppunt, versterk je de vertrouwelijkheid van je transacties: je ISP kan de communicatie niet ontsleutelen en andere knooppunten in het Bitcoin netwerk kunnen het IP van het bronknooppunt adres niet identificeren. Bovendien verbergt Tor ook jouw gebruik van Bitcoin voor je ISP.
+Tor versleutelt niet alleen gegevens, maar maskeert ook de herkomst en bestemming van communicatie. Door Tor te gebruiken voor communicatie vanaf je persoonlijke knooppunt, versterk je de vertrouwelijkheid van je transacties: je ISP kan de communicatie niet ontsleutelen en andere knooppunten in het Bitcoin-netwerk kunnen het IP van het bronknooppunt adres niet identificeren. Bovendien verbergt Tor ook jouw gebruik van Bitcoin voor je ISP.
 
 
 Het grootste risico van deze methode is dat Tor een protocol is dat onafhankelijk is van Bitcoin. Als je een Bitcoin node hebt die onder Tor draait en Tor stopt met werken, dan kan je Bitcoin node niet meer communiceren.
 
 
-Het is ook belangrijk om te weten dat de communicatie op Tor langzamer is. Deze latentie is vooral vervelend tijdens de initiële lancering van een node, omdat IBD (*Initial Block Download*) veel communicatie vereist. Als gevolg hiervan kan je initiële synchronisatie met het Bitcoin netwerk aanzienlijk langer duren als je Tor gebruikt. Het is ook mogelijk om IBD uit te voeren op het clearnet en dan Tor te activeren als tweede stap. Hoewel deze methode het bestaan van je Bitcoin node onthult aan je ISP, beschermt het je persoonlijke transactie informatie zodra je overschakelt naar Tor.
+Het is ook belangrijk om te weten dat de communicatie op Tor langzamer is. Deze latentie is vooral vervelend tijdens de initiële lancering van een node, omdat IBD (*Initial Block Download*) veel communicatie vereist. Als gevolg hiervan kan je initiële synchronisatie met het Bitcoin-netwerk aanzienlijk langer duren als je Tor gebruikt. Het is ook mogelijk om IBD uit te voeren op het clearnet en dan Tor te activeren als tweede stap. Hoewel deze methode het bestaan van je Bitcoin node onthult aan je ISP, beschermt het je persoonlijke transactie informatie zodra je overschakelt naar Tor.
 
 
 Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkniveau, wil ik je in de volgende hoofdstukken ook kennis laten maken met twee elegante oplossingen om hergebruik van adres te voorkomen: BIP47 en Stille Betalingen.

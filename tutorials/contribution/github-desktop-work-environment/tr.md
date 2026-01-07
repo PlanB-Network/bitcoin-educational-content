@@ -178,6 +178,6 @@ Bunun için çeşitli seçenekler mevcuttur. Bu değişiklikler için bilgisayar
 Tebrikler! Çalışma ortamınız artık Plan ₿ Academy'e katkıda bulunmak için ayarlandı. Şimdi her bir katkı türü için diğer özel eğitimlerimizi keşfedebilirsiniz (çeviri, düzeltme, yazma.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

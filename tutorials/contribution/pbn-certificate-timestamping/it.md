@@ -67,7 +67,7 @@ Apri prima un terminale nella cartella dove si trovano i file (clicca con il tas
 1. Importa la chiave pubblica PGP di Plan ₿ Academy con il seguente comando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Dovresti vedere un messaggio come il seguente, se hai importato con successo la Chiave PGP:

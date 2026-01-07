@@ -178,6 +178,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 Поздравления! Вашата работна среда вече е създадена, за да допринася за Академията на Плана ₿. Сега можете да разгледате другите ни специфични ръководства за всеки вид принос (превод, корекция, писане.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

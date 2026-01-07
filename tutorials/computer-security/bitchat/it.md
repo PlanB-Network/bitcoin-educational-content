@@ -5,7 +5,6 @@ description: Messaggistica decentralizzata, senza Internet, per una comunicazion
 
 ![cover](assets/cover.webp)
 
-
 ![video](https://youtu.be/WfzcKAzgB9s)
 
 

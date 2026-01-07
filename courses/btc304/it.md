@@ -12,7 +12,7 @@ objectives:
 
 Oggi, chiunque può imparare riguardo Bitcoin online, ma ciò che spesso manca è l'opportunità di incontrarsi, scambiare idee e lavorare insieme. Per colmare questa lacuna, molti bitcoiner formano community locali, dove gli incontri danno vita a workshop, presentazioni e discussioni significative.
 
-In BTC304, esamineremo perché la costruzione della community è importante, esploreremo gli strumenti per creare una forte identità visiva e digitale e condivideremo progetti semplici e open-source che puoi lanciare. Considereremo anche come le iniziative locali si evolvono in comunità nazionali che possono contribuire a guidare un futuro iperbitcoinizzato.
+In BTC304, esamineremo perché la costruzione della community è importante, esploreremo gli strumenti per creare una forte identità visiva e digitale e condivideremo progetti semplici e open-source che puoi lanciare. Considereremo anche come le iniziative locali si evolvono in community nazionali che possono contribuire a guidare un futuro iperbitcoinizzato.
 +++
 # Introduzione
 
@@ -77,71 +77,71 @@ La soluzione migliore per entrambe le sfide è semplice: **essere presenti nel m
 
 
 
-L'obiettivo di questo corso è quello di fornirvi tutto ciò che vi serve per creare e organizzare in modo efficace una comunità o un meet-up Bitcoin. Che vogliate costruire un'iniziativa locale o far crescere un gruppo online, questo corso vi guiderà passo dopo passo: dalla creazione dell'identità visiva all'organizzazione di eventi regolari e alla gestione dei canali di comunicazione.
+L'obiettivo di questo corso è quello di fornirti tutto ciò che ti serve per creare e organizzare in modo efficace una community o un meet-up Bitcoin. Che tu voglia costruire un'iniziativa locale o far crescere un gruppo online, questo corso ti guiderà passo dopo passo: dalla creazione dell'identità visiva all'organizzazione di eventi regolari e alla gestione dei canali di comunicazione.
 
 
 
 **Sezione 1: Introduzione**
 
 
-Inizieremo sottolineando l'importanza di unire le persone intorno al Bitcoin, sia attraverso comunità online che attraverso incontri locali. Scoprirete perché e dove lanciare la vostra comunità e come fissare obiettivi chiari per favorirne la crescita e la sostenibilità a lungo termine.
+Inizieremo sottolineando l'importanza di unire le persone intorno a Bitcoin, sia attraverso community online che attraverso incontri locali. Scoprirai perché e dove lanciare la tua community e come fissare obiettivi chiari per favorirne la crescita e la sostenibilità a lungo termine.
 
 
 
-**Sezione 2: Progettare un'identità unica per la vostra comunità Bitcoin**
+**Sezione 2: Progettare un'identità unica per la vostra community Bitcoin**
 
 
-Per attirare nuovi membri e promuovere un senso di appartenenza, è essenziale costruire un'identità unica. In questa sezione imparerete come progettare loghi, poster e banner che incarnino lo spirito della vostra comunità Bitcoin.
-
-
-
-**Sezione 3: Creare canali di comunicazione per la vostra comunità Bitcoin**
-
-
-La comunicazione è la spina dorsale di ogni comunità. In questa sezione esploreremo i canali migliori da utilizzare e vi guideremo nella creazione efficiente di un gruppo Telegram o di un server Discord. Imparerete anche come integrare bot multifunzionali per semplificare la gestione della comunità.
+Per attirare nuovi membri e promuovere un senso di appartenenza, è essenziale costruire un'identità unica. In questa sezione imparerai come progettare loghi, poster e banner che incarnino lo spirito della vostra community Bitcoin.
 
 
 
-**Sezione 4: Lanciare le reti sociali** (in francese)
+**Sezione 3: Creare canali di comunicazione per la vostra community Bitcoin**
 
 
-La visibilità è fondamentale per far crescere la vostra comunità. In questa sezione imparerete a creare un profilo Twitter dedicato, a connettervi con i meetup locali e a sfruttare piattaforme come btcmap.org per aumentare la vostra visibilità e attirare nuovi membri.
-
-
-
-**Sezione 5: Organizzare un incontro del Bitcoin**
-
-
-Questa sezione tratta di come organizzare i meetup: dalla scelta della sede giusta alla gestione dell'evento stesso. Esploreremo anche le strategie per fidelizzare i partecipanti e garantire la sostenibilità a lungo termine della vostra comunità.
+La comunicazione è la spina dorsale di ogni community. In questa sezione esploreremo i canali migliori da utilizzare e ti guideremo nella creazione efficiente di un gruppo Telegram o di un server Discord. Imparerai anche come integrare bot multifunzionali per semplificare la gestione della community.
 
 
 
-**Sezione 6: Esempi di progetti e iniziative** (in francese)
+**Sezione 4: Lanciare le reti sociali**
 
 
-Per andare oltre i semplici meetup, questa sezione presenta progetti concreti e originali: da eventi e workshop a tema alla creazione di contenuti educativi e collaborazioni locali. Imparerete anche a progettare materiali fisici e digitali per promuovere la vostra comunità.
+La visibilità è fondamentale per far crescere la tua community. In questa sezione imparerai a creare un profilo Twitter dedicato, a connetterti con i meetup locali e a sfruttare piattaforme come btcmap.org per aumentare la tua visibilità e attirare nuovi membri.
+
+
+
+**Sezione 5: Organizzare un incontro Bitcoin**
+
+
+Questa sezione tratta di come organizzare i meetup: dalla scelta della sede giusta alla gestione dell'evento stesso. Esploreremo anche le strategie per fidelizzare i partecipanti e garantire la sostenibilità a lungo termine della tua community.
+
+
+
+**Sezione 6: Esempi di progetti e iniziative**
+
+
+Per andare oltre i semplici meetup, questa sezione presenta progetti concreti e originali: da eventi e workshop a tema alla creazione di contenuti educativi e collaborazioni locali. Imparerai anche a progettare materiale, sia fisico che digitale, per promuovere la tua community.
 
 
 
 **Sezione 7: Anticipare il futuro**
 
 
-Qui esamineremo la naturale evoluzione della vostra comunità: cosa fare se cresce troppo rapidamente, come decentralizzare la vostra organizzazione e come rispondere a un ambiente normativo ostile. Questa sezione vi aiuterà ad anticipare e superare queste sfide.
+Qui esamineremo la naturale evoluzione della tua community: cosa fare se cresce troppo rapidamente, come decentralizzare la tua organizzazione e come rispondere a un ambiente normativo ostile. Questa sezione ti aiuterà ad anticipare e superare queste sfide.
 
 
 
 **Sezione 8: Unire i Bitcoiners**
 
 
-La sezione finale è incentrata sull'essenza del progetto: unire gli appassionati del Bitcoin attorno a una visione condivisa. Imparerete come strutturare il vostro approccio per attrarre e mantenere i membri, delegare efficacemente i compiti e far crescere la vostra comunità in modo sostenibile.
+La sezione finale è incentrata sull'essenza del progetto: unire gli appassionati di Bitcoin attorno a una visione condivisa. Imparerai come strutturare il tuo approccio per attrarre e mantenere i membri, delegare efficacemente i compiti e far crescere la tua comunità in modo sostenibile.
 
 
 
-Siete pronti a imparare come costruire una comunità Bitcoin forte e vivace? Immergiamoci!
+Sei pronto a imparare come costruire una community Bitcoin forte e vivace? Immergiamoci!
 
 
 
-## Perché avviare una comunità o un meetup Bitcoin?
+## Perché avviare una community o un meetup Bitcoin?
 
 
 <chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
@@ -152,36 +152,36 @@ Siete pronti a imparare come costruire una comunità Bitcoin forte e vivace? Imm
 
 
 
-Sebbene non esista una definizione rigorosa di questi termini nell'ecosistema Bitcoin, una comunità è meglio intesa come un gruppo di persone che condividono una passione comune e comunicano regolarmente.
+Sebbene non esista una definizione rigorosa di questi termini nell'ecosistema Bitcoin, una community è meglio intesa come un gruppo di persone che condividono una passione comune e comunicano regolarmente.
 
 
-Un meetup, invece, è un evento organizzato da e per questa comunità, con uno scopo specifico. I meetup si svolgono in genere quando la comunità è già consolidata.
+Un meetup, invece, è un evento organizzato da e per questa community, con uno scopo specifico. I meetup si svolgono in genere quando la community è già consolidata.
 
 
-Per questo corso, partiamo dal presupposto che, prima di lanciare un meetup Bitcoin, abbiate già stabilito un contatto con alcune persone interessate a organizzare un evento del genere; in altre parole, la **comunità esiste già**.
-
-
-
-### Perché creare una comunità Bitcoin?
+Per questo corso, partiamo dal presupposto che, prima di lanciare un meetup Bitcoin, abbiate già stabilito un contatto con alcune persone interessate a organizzare un evento del genere; in altre parole, la **community esiste già**.
 
 
 
-La creazione di una comunità Bitcoin ha diverse ragioni:
+### Perché creare una community Bitcoin?
 
 
 
-- Condivisione delle conoscenze e collaborazione: Le comunità offrono ai membri uno spazio per Exchange idee e condividere le conoscenze. Il sostegno reciproco è un pilastro fondamentale per la crescita, che consente a tutti di accelerare l'apprendimento, particolarmente importante per il Bitcoin, visto quanto c'è da scoprire.
+La creazione di una community Bitcoin ha diverse ragioni:
 
 
 
-- Costruzione peer-to-peer: Molte iniziative e progetti sono concepiti, costruiti e sviluppati all'interno di queste comunità.
+- Condivisione delle conoscenze e collaborazione: Le community offrono ai membri uno spazio per scambiare idee e condividere le conoscenze. Il sostegno reciproco è un pilastro fondamentale per la crescita, che consente a tutti di accelerare l'apprendimento, particolarmente importante per Bitcoin, visto quanto c'è da scoprire.
 
 
 
-Le comunità Bitcoin spesso perseguono obiettivi più ampi, in particolare l'educazione pubblica:
+- Costruito peer-to-peer: Molte iniziative e progetti sono concepiti, costruiti e sviluppati all'interno di queste community.
 
 
-1. Che cos'è il Bitcoin;
+
+Le community Bitcoin spesso perseguono obiettivi più ampi, in particolare l'educazione pubblica:
+
+
+1. Che cos'è Bitcoin;
 
 
 2. Come funziona;
@@ -196,7 +196,7 @@ Le comunità Bitcoin spesso perseguono obiettivi più ampi, in particolare l'edu
 5. Le differenze fondamentali tra Bitcoin e altre criptovalute;
 
 
-Costruendo le prime "cittadelle" di domani, le comunità del Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti del **Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale del Bitcoin.
+Costruendo le prime "cittadelle" di domani, le community Bitcoin in tutto il mondo fungono da baluardo contro la disinformazione e la censura, fornendo al contempo un terreno fertile per l'apprendimento dei fondamenti di **Bitcoin**. Offrono ai nuovi arrivati, anche agli scettici, le risorse e le connessioni necessarie per esplorare il vero potenziale di Bitcoin.
 
 
 
@@ -204,7 +204,7 @@ Costruendo le prime "cittadelle" di domani, le comunità del Bitcoin in tutto il
 
 
 
-Vale anche la pena di notare che **una comunità può esistere interamente online**, che si tratti di un gruppo Telegram ("Bitcoin Londra"), di un gruppo Facebook ("Bitcoin Berlino"), di un server Discord ("Bitcoin Madrid") o persino di una lista di e-mail ("Bitcoin Francia").
+Vale anche la pena di notare che **una community può esistere interamente online**, che si tratti di un gruppo Telegram ("Bitcoin Londra"), di un gruppo Facebook ("Bitcoin Berlino"), di un server Discord ("Bitcoin Madrid") o persino di una lista di e-mail ("Bitcoin Francia").
 
 
 In altre parole, **una comunità non ha bisogno di incontri fisici per prosperare o lanciare progetti. Il suo scopo principale rimane lo stesso: condividere, costruire ed educare**.
@@ -215,7 +215,7 @@ In altre parole, **una comunità non ha bisogno di incontri fisici per prosperar
 
 
 
-Come già detto, i **riunioni di solito arrivano dopo che la comunità è stata creata e servono a completarla**.
+Come già detto, **gli incontri di solito arrivano dopo che la community è stata creata e servono a completarla**.
 
 
 Man mano che il viaggio di un bitcoiner si evolve, spesso nasce il desiderio, o addirittura la necessità, di **incontrare e interagire di persona con altri** dello stesso ecosistema. Questo può derivare dal sentirsi isolati o semplicemente dal non avere nessuno con cui parlare di Bitcoin nella vita quotidiana.
@@ -228,12 +228,12 @@ I meetup offrono un'esperienza più personale e accogliente rispetto alle chiama
 ![image](assets/it/003.webp)
 
 
-Gli incontri del Bitcoin possono servire a molti scopi:
+Gli incontri tra Bitcoiners possono servire a molti scopi:
 
 
 
 - Discutere di argomenti tecnici o di progetti in corso
-- Aiutare i nuovi bitcoiners a immergersi gradualmente nel mondo Bitcoin
+- Aiutare i nuovi Bitcoiners a immergersi gradualmente nel mondo Bitcoin
 - Annuncio di nuovi progetti o iniziative
 - Scambio di materiali o libri
 - Proiezione di documentari in anteprima
@@ -245,30 +245,30 @@ Molte di queste possibilità saranno trattate in dettaglio nella parte 6/8 di qu
 
 
 
-Mentre ogni comunità è libera di formare le proprie opinioni, lanciare progetti e sperimentare a modo suo, i meetup si stanno rivelando sempre più **essenziali per lo sviluppo del Bitcoin e per la crescita dei bitcoiners**. **Organizzarli richiede tempo e impegno**, ed è per questo che questo corso condivide l'esperienza combinata di [circa sessanta comunità Bitcoin in Francia e Belgio](https://btcmap.org/communities/map#2/5.24949/0.20000) **per aiutarvi a costruire e far crescere la vostra comunità e i vostri meetup nel modo più semplice possibile**.
+Mentre ogni community è libera di formare le proprie opinioni, lanciare progetti e sperimentare a modo suo, i meetup si stanno rivelando sempre più **essenziali per lo sviluppo di Bitcoin e per la crescita dei Bitcoiners**. **Organizzarli richiede tempo e impegno**, ed è per questo che questo corso condivide l'esperienza combinata di [circa sessanta community Bitcoin in Francia e Belgio](https://btcmap.org/communities/map#2/5.24949/0.20000) **per aiutarvi a costruire e far crescere la vostra community e i vostri meetup nel modo più semplice possibile**.
 
 
 
-## Dove creare la vostra comunità?
+## Dove creare la tua community?
 
 
 <chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
 
 
 
-La prima domanda da porsi è: dove dovrebbe avere sede la vostra comunità?
+La prima domanda da porsi è: dove dovrebbe avere sede la tua community?
 
 Questa decisione è fondamentale se si vuole mantenere la possibilità di organizzare incontri in seguito.
 
 
-Se i membri devono guidare per due ore per partecipare a un evento, è probabile che la partecipazione sia scarsa. Ecco perché la scelta della giusta **località per la vostra comunità, e quindi per i vostri futuri meetup, ha un grande impatto sulla sua crescita**.
+Se i membri devono guidare per due ore per partecipare a un evento, è probabile che la partecipazione sia scarsa. Ecco perché la scelta della giusta **location per la tua community, e quindi per i tuoi futuri meetup, ha un grande impatto sulla sua crescita**.
 
 
 
-Alcuni suggerimenti per orientare la vostra decisione:
+Alcuni suggerimenti per orientare la tua decisione:
 
 
-1/ **Creare e far crescere la propria comunità in una città di medie o grandi dimensioni**. In questo modo sarà più facile:
+1/ **Creare e far crescere la propria community in una città di medie o grandi dimensioni**. In questo modo sarà più facile:
 
 
 
@@ -278,12 +278,12 @@ Alcuni suggerimenti per orientare la vostra decisione:
 
 
 
-2/ **Scegliete un nome legato alla vostra città**. In questo modo è facile per le persone identificarsi con la vostra comunità. Esempi: Bitcoin Parigi, Einundzwanzig Berlino, Satoshi Spritz Milano, ecc.
+2/ **Scegli un nome legato alla tua città**. In questo modo è facile per le persone identificarsi con la tua community. Esempi: Bitcoin Parigi, Einundzwanzig Berlino, Satoshi Spritz Milano, ecc.
 
 
 3/ **Verifica se esiste già un incontro vicino a te**.
 
-È possibile consultare [btcmap.org](https://btcmap.org/communities/map#0/0/0/), che elenca la maggior parte delle comunità e dei meet-up Bitcoin in tutto il mondo.
+È possibile consultare [btcmap.org](https://btcmap.org/communities/map#0/0/0/), che elenca la maggior parte delle community e dei meet-up Bitcoin in tutto il mondo.
 
 
 
@@ -291,53 +291,53 @@ Alcuni suggerimenti per orientare la vostra decisione:
 
 
 
-Dopo qualche ricerca, potreste trovare un incontro o una comunità esistente nella vostra città.
+Dopo qualche ricerca, potresti trovare un incontro o una community esistente nella tua città.
 
 Bitcoin è decentralizzato, quindi naturalmente chiunque è libero di fare ciò che vuole.
 
 
-Tuttavia, **unire le forze spesso ha più senso che dividere comunità vicine e ridurre l'impatto di ciascuna**. L'avvio di una nuova comunità dove ne esiste già una può creare involontariamente concorrenza.
+Tuttavia, **unire le forze spesso ha più senso che dividere community vicine e ridurre l'impatto di ciascuna**. L'avvio di una nuova community dove ne esiste già una può creare involontariamente concorrenza.
 
 
-In questo senso, può essere utile una semplice "regola empirica": se non c'è una comunità Bitcoin attiva nel raggio di 30-45 minuti da dove si vive, può valere la pena di crearne una nuova. Detto questo, siete sempre liberi di fare come volete.
+In questo senso, può essere utile una semplice "regola empirica": se non c'è una community Bitcoin attiva nel raggio di 30-45 minuti da dove si vive, può valere la pena di crearne una nuova. Detto questo, sei sempre libero di fare come vuoi.
 
 
-E naturalmente, se una vecchia comunità si è "evoluta" in una direzione che non è più in linea con i vostri valori, e non avete il tempo o la motivazione per "arancinarla", allora creare la vostra Fork è sempre un'opzione.
+E naturalmente, se una vecchia community si è "evoluta" in una direzione che non è più in linea con i tuoi valori, e non hai il tempo o la motivazione per "orange-pill", allora creare la tua fork è sempre un'opzione.
 
 
 
-## Quali obiettivi dovrebbero guidare la vostra comunità?
+## Quali obiettivi dovrebbero guidare la tua community?
 
 
 <chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
 
 
 
-Una volta identificata la città (o l'area geografica) della vostra comunità, è il momento di **definire cosa volete ottenere**.
+Una volta identificata la città (o l'area geografica) della tua community, è il momento di **definire cosa vuoi ottenere**.
 
 
 Questi obiettivi possono essere fissati al momento del lancio o perfezionati in seguito, quando diversi membri si saranno uniti e il gruppo sarà impegnato attivamente.
 
 
 
-Ecco alcuni punti per orientare le vostre riflessioni:
+Ecco alcuni punti per orientare le tue riflessioni:
 
 
 
-1/ **Perché sto creando questa comunità come bitcoiner? ** È per condividere le conoscenze? Educare gli altri? Imparare da coetanei più esperti? Incontrare persone che la pensano come me? Essere coinvolto nell'ecosistema Bitcoin? Connettersi con i professionisti? O semplicemente bere qualcosa e fare nuove amicizie?
+1/ **Perché sto creando questa community come Bitcoiner? ** È per condividere le conoscenze? Educare gli altri? Imparare da coetanei più esperti? Incontrare persone che la pensano come me? Essere coinvolto nell'ecosistema Bitcoin? Connettersi con i professionisti? O semplicemente bere qualcosa e fare nuove amicizie?
 
 
 
-Le vostre risposte determineranno il vostro posizionamento e la vostra motivazione.
+Le tue risposte determineranno il tuo posizionamento e la tua motivazione.
 
 
-Se il vostro obiettivo è quello di **condividere le conoscenze ed educare le persone sul Bitcoin**, concentratevi sulla **creazione di contenuti educativi** (articoli, podcast, video, presentazioni, volantini, ecc.), risparmiando ad altri innumerevoli ore di ricerca. Potete anche andare oltre, **organizzando workshop, presentazioni e conferenze**.
+Se il tuo obiettivo è quello di **condividere le conoscenze ed educare le persone riguardo Bitcoin**, concentrati sulla **creazione di contenuti educativi** (articoli, podcast, video, presentazioni, volantini, ecc.), risparmiando ad altri innumerevoli ore di ricerca. Potrai anche andare oltre, **organizzando workshop, presentazioni e conferenze**.
 
 
 
-Se il vostro obiettivo è semplicemente quello di incontrare altri bitcoiners e condividere esperienze, potete adottare un approccio più rilassato, come quello di incontrarvi per un drink.
+Se il tuo obiettivo è semplicemente quello di incontrare altri Bitcoiners e condividere esperienze, puoi adottare un approccio più rilassato, come quello di incontrarvi per un drink.
 
-In questo modo, creerete più facilmente legami sociali. Tuttavia, ricordate sempre che **bere birra non è la strada giusta per costruire il mondo di domani**.
+In questo modo, creerai più facilmente legami sociali. Tuttavia, ricorda sempre che **bere birra non è la strada giusta per costruire il mondo di domani**.
 
 
 Ecco perché **fissare obiettivi e progetti concreti è essenziale**.
@@ -345,11 +345,11 @@ Ecco perché **fissare obiettivi e progetti concreti è essenziale**.
 
 
 
-2/ Devo dare alla mia comunità una **dimensione fisica**? Se sì, che tipo di eventi dovreste organizzare?
+2/ Devo dare alla mia community una **dimensione fisica**? Se sì, che tipo di eventi dovresti organizzare?
 
 
 
-Il vostro primo evento sarà probabilmente un meet-up. Il suo scopo principale è quello di riunire i bitcoiners della vostra zona.
+Il tuo primo evento sarà probabilmente un meet-up. Il suo scopo principale è quello di riunire i Bitcoiners della vostra zona.
 
 
 
@@ -357,9 +357,9 @@ Tuttavia, come vedremo più avanti in [Esempi di progetti e iniziative](https://
 
 
 
-- Combinate il networking con una presentazione educativa su un concetto di Bitcoin;
-- Ospitate una dimostrazione professionale delle soluzioni Bitcoin;
-- Strategie di dibattito per i commercianti locali che fanno arancione;
+- Combina il networking con una presentazione educativa su un concetto di Bitcoin;
+- Ospita una dimostrazione professionale delle soluzioni Bitcoin;
+- Dibattere strategie per "orange-pillare" i commercianti locali;
 
 e così via.
 
@@ -373,19 +373,19 @@ A seconda degli argomenti trattati (conferenze tecniche o workshop pratici), pot
 
 
 
-3/ Come voglio che la mia comunità contribuisca all'ecosistema Bitcoin?
+3/ Come voglio che la mia community contribuisca all'ecosistema Bitcoin?
 
 
 
 Questa è una domanda più avanzata, ma vale la pena di pensarci subito.
 
 
-Se la vostra visione è quella di **creare una comunità affiatata e motivata** che si concentri sull'aranciata di quante più persone possibile, allora:
+Se la tua visione è quella di **creare una community affiatata e motivata** che si concentri sull'orange-pillare quante più persone possibile, allora:
 
 
 
-- Collaborare con le comunità esistenti per accedere a informazioni più ampie, a risorse open-source e a un valido supporto quando necessario.
-- Organizzate e delegate i compiti all'interno del vostro gruppo per espandere e scalare i vostri sforzi in modo efficace.
+- Collaborare con le community esistenti per accedere a informazioni più ampie, a risorse open-source e a un valido supporto quando necessario.
+- Organizza e delega i compiti all'interno del tuo gruppo per espandere e scalare i tuoi sforzi in modo efficace.
 
 
 
@@ -395,9 +395,9 @@ Un modo pratico per pianificare è quello di fissare degli obiettivi per ogni pe
 
 
 
-- A breve termine: costruire una presenza sui social media e creare canali di comunicazione con la comunità.
+- A breve termine: costruire una presenza sui social media e creare canali di comunicazione con la community.
 - A medio termine: creare risorse educative (articoli, volantini, video).
-- A lungo termine: lanciare incontri fisici regolari.
+- A lungo termine: lanciare incontri regolari.
 
 
 Una volta stabiliti gli incontri, si potrebbe puntare a:
@@ -406,22 +406,22 @@ Una volta stabiliti gli incontri, si potrebbe puntare a:
 
 - A breve termine: ospitare workshop o presentazioni su argomenti specifici
 - A medio termine: campagne di sensibilizzazione o di educazione Bitcoin
-- A lungo termine: creare un'associazione formale o una partnership con un bar che accetti il Bitcoin come pagamento.
+- A lungo termine: creare un'associazione formale o una partnership con un bar che accetti Bitcoin come pagamento.
 
 
-Siate pronti: **costruire una comunità richiede impegno**
+Siate pronti: **costruire una community richiede impegno**
 
 
-La creazione di una comunità non avviene da un giorno all'altro. Richiede tempo, motivazione e organizzazione.
+La creazione di una community non avviene da un giorno all'altro. Richiede tempo, motivazione e organizzazione.
 
 A volte può sembrare scoraggiante, soprattutto quando non si presenta nessuno e ci si sente gli unici a portare questa missione sulle proprie spalle.
 
 
-Ecco perché **questo corso è stato progettato per condividere risorse e suggerimenti preziosi, aiutando le comunità a crescere in modo efficace e a diventare infine autosufficienti.**.
+Ecco perché **questo corso è stato progettato per condividere risorse e suggerimenti preziosi, aiutando le community a crescere in modo efficace e a diventare infine autosufficienti.**.
 
 
 
-# Progettazione di un'identità comunitaria Bitcoin
+# Progettare l'identità di una community Bitcoin
 
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
@@ -439,19 +439,19 @@ In questa fase, assumiamo che:
 
 
 
-- Sapete già dove avrà sede la vostra comunità (o un futuro incontro regolare).
-- Avete fissato obiettivi per diversi orizzonti temporali, anche se non sono ancora definitivi.
+- Sai già dove avrà sede la tua community (o un futuro incontro regolare).
+- Hai fissato obiettivi per diversi orizzonti temporali, anche se non sono ancora definitivi.
 
 
-Il passo successivo nella costruzione della vostra comunità è quello di **definire la sua identità**, sia il suo nome che il suo stile visivo.
+Il passo successivo nella costruzione della tua community è quello di **definire la sua identità**, sia il suo nome che il suo stile visivo.
 
 
-Questa sezione fornisce tutorial e soluzioni software facili da usare per i principianti, per aiutarvi a progettare l'identità visiva della vostra comunità, anche se siete alle prime armi.
+Questa sezione fornisce tutorial e soluzioni software facili da usare per i principianti, per aiutarti a progettare l'identità visiva della tua community, anche se sei alle prime armi.
 
 
 **Perché l'identità è importante?**
 
-Le persone si sentono più coinvolte e impegnate quando si identificano con un gruppo. Una forte identità aiuta la comunità a distinguersi e favorisce il senso di appartenenza.
+Le persone si sentono più coinvolte e impegnate quando si identificano con un gruppo. Una forte identità aiuta la community a distinguersi e favorisce il senso di appartenenza.
 
 
 Tutto inizia con la scelta del nome, e ogni Paese ha spesso le sue tendenze:
@@ -463,14 +463,14 @@ Tutto inizia con la scelta del nome, e ogni Paese ha spesso le sue tendenze:
 - Italia: La rete Satoshi Spritz utilizza nomi come Satoshi "Spritz [CITTA']".
 
 
-**Ogni comunità ha la propria identità, legata alla sua città natale, ma anche all'identità più ampia del suo Paese**.
+**Ogni community ha la propria identità, legata alla sua città natale, ma anche all'identità più ampia del suo Paese**.
 
 
 
-La vostra identità visiva: logo, colori, banner, è ciò che la gente ricorderà e assocerà al vostro gruppo.
+La tua identità visiva: logo, colori, banner, è ciò che la gente ricorderà e assocerà al tuo gruppo.
 
 
-Quando si creano account di social media e canali di comunicazione, avere un logo e un banner è un forte vantaggio. Non preoccupatevi, non è necessario avere competenze professionali nel campo del design: sono disponibili strumenti gratuiti e facili da usare.
+Quando si creano account di social media e canali di comunicazione, avere un logo e un banner è un forte vantaggio. Non preoccuparti, non è necessario avere competenze professionali nel campo del design: sono disponibili strumenti gratuiti e facili da usare.
 
 
 Un ottimo punto di partenza è incorporare un simbolo o un simbolo della vostra città. A Parigi, potrebbe essere la Torre Eiffel. A Lille, il campanile o la cittadella. A New York, la Statua della Libertà. A Londra, il Big Ben e così via.
@@ -480,7 +480,7 @@ Da qui si può progettare un logo semplice o più dettagliato, a seconda delle p
 
 
 
-Per darvi qualche idea, ecco alcuni esempi di loghi di comunità francesi:
+Per darti qualche idea, ecco alcuni esempi di loghi di comunità francesi:
 
 
 
@@ -523,9 +523,9 @@ Per darvi qualche idea, ecco alcuni esempi di loghi di comunità francesi:
 
 
 
-**Andate oltre se volete**
+**Vai oltre se vuoi**
 
-Se vi viene l'ispirazione, potete andare oltre: creare uno stemma, un motto o persino una canzone per la vostra comunità. L'unico limite è la vostra creatività!
+Se ti viene l'ispirazione, potete andare oltre: creare uno stemma, un motto o persino una canzone per la tua community. L'unico limite è la tua creatività!
 
 
 
@@ -540,7 +540,7 @@ Se vi viene l'ispirazione, potete andare oltre: creare uno stemma, un motto o pe
 
 
 
-Potete usare [Canva](https://www.canva.com/) per creare le varie immagini per la vostra comunità.
+Puoi usare [Canva](https://www.canva.com/) per creare le varie immagini per la tua community.
 
 
 
@@ -549,7 +549,7 @@ Questa piattaforma gratuita e facile da usare è famosa per la sua vasta libreri
 
 **Creazione del logo**
 
-Sulla home page di Canva, cercate i loghi predefiniti. Selezionatene uno o più che vi ispirano, duplicateli e personalizzateli per adattarli alla vostra comunità.
+Sulla home page di Canva, cerca i loghi predefiniti. Seleziona uno o più che ti ispirano, duplicali e personalizzali per adattarli alla tua community.
 
 
 È possibile aggiungere un punto di riferimento o un emblema locale allo sfondo (importando una foto o cercando "Illustrazioni" o "Immagini" nel menu del Elements), quindi sovrapporre il logo o il ₿ del Bitcoin, regolandone il colore se necessario.
@@ -557,7 +557,7 @@ Sulla home page di Canva, cercate i loghi predefiniti. Selezionatene uno o più 
 
 **Creazione di banner e poster**
 
-Per creare uno striscione o un poster, cercate nella libreria di Canva i modelli predefiniti. Una volta duplicato, modificate il testo e i caratteri, aggiungete il logo della vostra comunità e importate le foto utilizzando le cornici (cercate "frame" nel menu Elements).
+Per creare uno striscione o un poster, cerca nella libreria di Canva i modelli predefiniti. Una volta duplicato, modifica il testo e i caratteri, aggiungi il logo della tua community e importa le foto utilizzando le cornici (cerca "frame" nel menu elementi).
 
 
 È inoltre possibile utilizzare il menu Designs per esplorare altri modelli adatti alle proprie esigenze.
@@ -567,11 +567,11 @@ Per le miniature o i banner di YouTube, è sufficiente cercare questi modelli, d
 
 
 
-In breve, **le possibilità sono infinite e modellate non solo dalle vostre esigenze ma anche dallo stile visivo che volete creare** per la vostra comunità e i vostri incontri/eventi!
+In breve, **le possibilità sono infinite e modellate non solo dalle tue esigenze ma anche dallo stile visivo che vuoi creare** per la tua community e i tuoi incontri/eventi!
 
 
 
-Per darvi un'idea più chiara, abbiamo incluso un video tutorial non esaustivo che illustra alcune di queste possibilità:
+Per darti un'idea più chiara, abbiamo incluso un video tutorial non esaustivo che illustra alcune di queste possibilità:
 
 
 

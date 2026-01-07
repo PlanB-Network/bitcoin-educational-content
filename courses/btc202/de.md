@@ -1658,107 +1658,107 @@ Parallel dazu werden die Undo-Daten in die Datei `rev*.dat` und die Metadaten in
 
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>
 
-Die Datei "Bitcoin.conf" ist die Hauptkonfigurationsdatei des Interface für den Bitcoin core. du ermöglicht es dir, das Verhalten und die Parameter Ihres Node anzupassen, ohne den Quellcode neu kompilieren oder Befehlszeilenänderungen vornehmen zu müssen. Konkret handelt es sich um eine einfache Textdatei, die in Schlüssel-Wert-Paaren strukturiert ist, d. h. jede Zeile der Datei verweist auf einen bestimmten Parameter (den Schlüssel) und den zugehörigen Wert, der geändert werden kann, um den Parameter anzupassen.
+Die Datei "Bitcoin.conf" ist die Hauptkonfigurationsdatei für das Interface für den Bitcoin Core. Sie ermöglicht es dir, das Verhalten und die Parameter deiner Node anzupassen, ohne den Quellcode neu kompilieren oder Befehlszeilenänderungen vornehmen zu müssen. Konkret handelt es sich um eine einfache Textdatei, die in Key-Value-Paaren strukturiert ist, d. h. jede Zeile der Datei verweist auf einen bestimmten Parameter (den Key) und den zugehörigen Value, der geändert werden kann, um den Parameter anzupassen.
 
-Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und RPC-Zugangsparameter können in der Datei "Bitcoin.conf" definiert werden. Diese Konfigurationsdatei ändert jedoch niemals die Konsensregeln des Protokolls: du legt nur die lokale Politik des Node (Weiterleitungsregeln) fest, die Art und Weise, wie er sich verbindet, indiziert und Dienste bereitstellt.
+Netzwerk-, Transaktions-Relay-, Leistungs-, Indexierungs-, Protokollierungs- und RPC-Zugangsparameter können in der Datei 'Bitcoin.conf' definiert werden. Diese Konfigurationsdatei ändert jedoch niemals die Konsensregeln des Protokolls: sie legt nur die lokale Politik der Node (Relay-Regeln) fest, die Art und Weise, wie er sich verbindet, indiziert und Dienste bereitstellt.
 
 ### Standort und Priorität
 
-Standardmäßig befindet sich die Datei `Bitcoin.conf` im Bitcoin core-Datenverzeichnis. Dies ist das berühmte Verzeichnis, das wir im vorherigen Kapitel erwähnt haben. Allerdings wird diese Datei nicht automatisch von Bitcoin core erstellt, außer in bestimmten Umgebungen, wie z.B. Umbrel. Wenn sie noch nicht existiert, müssen du sie selbst erstellen, indem du einfach eine Datei mit dem Namen `Bitcoin.conf` erstellen und diese dann in einem Texteditor öffnen, um Ihre Änderungen vorzunehmen.
+Standardmäßig befindet sich die Datei `Bitcoin.conf` im Bitcoin Core-Datenverzeichnis. Dies ist das berühmte Verzeichnis, das wir im vorherigen Kapitel erwähnt haben. Allerdings wird diese Datei nicht automatisch von Bitcoin Core erstellt, außer in bestimmten Umgebungen, wie z.B. Umbrel. Wenn sie noch nicht existiert, musst du sie selbst erstellen, indem du einfach eine Datei mit dem Namen `Bitcoin.conf` erstellst und diese dann in einem Texteditor öffnest, um deine Änderungen vorzunehmen.
 
 Die in der Datei `Bitcoin.conf` definierten Parameter können von 2 Ebenen überschrieben werden:
 
 - `settings.json` (dynamisch von Interface-Grafiken oder einigen RPC geschrieben),
 - und über Befehlszeilen geänderte Optionen.
 
-Beachten du, dass jede Änderung an `Bitcoin.conf` einen Neustart des Node erfordert, um wirksam zu werden.
+Beachte, dass jede Änderung an `Bitcoin.conf` einen Neustart der Node erfordert, um wirksam zu werden.
 
 ### Format und Struktur
 
-Das Format der `Bitcoin.conf` ist daher sehr einfach: eine Zeile pro Option, in der Form `Option=Wert`. Unnötige Leerzeichen und Leerzeilen werden ignoriert, und Code-Kommentare beginnen mit `#`.
+Das Format der `Bitcoin.conf` Datei ist daher sehr einfach: eine Zeile pro Option, in der Form `option=value`. Unnötige Leerzeichen und Leerzeilen werden ignoriert, und Code-Kommentare beginnen mit `#`.
 
 Fast alle booleschen Optionen können mit einem Präfix "no" deaktiviert werden. Zum Beispiel sind `listen=0` und `nolisten=1` je nach Version gleichwertig.
 
-Um die Konfiguration nach Netzen zu unterteilen, können du Abschnitte verwenden: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Alternativ können du dem Optionsnamen `regtest.maxmempool=100` voranstellen.
+Um die Konfiguration nach Netzen zu unterteilen, kannst du Abschnitte verwenden: `[main]`, `[test]` (testnet3), `[testnet4]`, `[bookmark]`, `[regtest]`. Alternativ kannst du dem Optionsnamen `regtest.maxmempool=100` voranstellen.
 
 ### Was Bitcoin.conf tun kann und was nicht
 
-Wie oben erläutert, sind die Konsensregeln in der Datei "Bitcoin.conf" offensichtlich nicht konfigurierbar, da dies einen Hard Fork erzeugen könnte. Auf der anderen Seite sind viele andere Aspekte konfigurierbar. Es gibt 3 nützliche Klassen, die man im Auge behalten sollte:
+Wie oben erläutert, sind die Konsensregeln in der Datei `Bitcoin.conf` offensichtlich nicht konfigurierbar, da dies eine Hard Fork erzeugen könnte. Auf der anderen Seite sind viele andere Aspekte konfigurierbar. Es gibt 3 nützliche Klassen, die man im Auge behalten sollte:
 
-- Rein lokale Parameter. Diese betreffen nur Ihren Node: Cache-Größe (`dbcache`), pruned-Modus (`prune`), optionale Indizes... du beeinflussen die Leistung Ihres Rechners, aber nicht die des Netzwerks.
-- Weiterleitungs- und Mempool-Richtlinien. Diese entscheiden darüber, was dein Node vor der Bestätigung akzeptiert, behält und weiterleitet: Mindestgebührenschwelle (`minrelaytxfee`), Mempool Größe und Aufbewahrungszeit (`maxmempool`, `mempoolexpiry`), Transaktionsersatz (RBF)... Diese Regeln sind nicht Teil des Konsens, so dass zwei verschiedene Node unterschiedliche Richtlinien haben können und trotzdem vollständig kompatibel sind. Andererseits haben diese Parameter einen Einfluss auf das Bitcoin-Netzwerk (wie im ersten Teil erklärt, insbesondere mit der Perkolationstheorie).
-- Netzwerk-Konnektivität. Diese Optionen bestimmen, wie dein Node Peers findet, zuhört, ein NAT durchläuft, Tor oder einen Proxy benutzt oder seine Bandbreite begrenzt. du formen Ihre Topologie, verändern aber nicht die Weiterleitung von Transaktionen.
+- Rein lokale Parameter. Diese betreffen nur deine Node: Cache-Größe (`dbcache`), Pruned-Modus (`prune`), optionale Indizes... Sie beeinflussen die Leistung deines Rechners, aber nicht die des Netzwerks.
+- Relay- und Mempool-Richtlinien. Diese entscheiden darüber, was deine Node vor der Bestätigung akzeptiert, behält und weiterleitet: Mindestgebührenschwelle (`minrelaytxfee`), Mempool Größe und Aufbewahrungszeit (`maxmempool`, `mempoolexpiry`), Transaktionsersatz (`RBFB`)... Diese Regeln sind nicht Teil des Konsens, so dass zwei verschiedene Nodes unterschiedliche Richtlinien haben können und trotzdem vollständig kompatibel sind. Andererseits haben diese Parameter einen Einfluss auf das Bitcoin-Netzwerk (wie im ersten Teil erklärt, insbesondere mit der Perkolationstheorie).
+- Netzwerk-Konnektivität. Diese Optionen bestimmen, wie deine Node Peers findet, zuhört, ein NAT durchläuft, Tor oder einen Proxy benutzt oder ihre Bandbreite begrenzt. Sie bestimmen die Netzwerktopologie, verändern aber nicht die Weiterleitung von Transaktionen.
 
-Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht den Konsensregeln entspricht, wird dein Node sie in jedem Fall ablehnen. Aber eine strengere lokale Richtlinie kann sich weigern, eine Transaktion weiterzuleiten, die im Sinne des Konsenses gültig ist.
+Das Verständnis dieser Trennung ist entscheidend: Wenn eine Transaktion nicht den Konsensregeln entspricht, wird deine Node sie in jedem Fall ablehnen. Aber eine strengere lokale Richtlinie kann sich weigern, eine Transaktion weiterzuleiten, die im Sinne des Konsenses gültig ist.
 
 ### Netzwerk und Topologie
 
-Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen zu unterscheiden, die ein Bitcoin-Node haben kann:
+Zunächst einmal ist es wichtig, klar zwischen den beiden Arten von Verbindungen zu unterscheiden, die eine Bitcoin Node haben kann:
 
-- Ausgehende Verbindungen, die von unserem Node zu einem anderen Node initiiert werden;
+- Ausgehende Verbindungen, die von unserer Node zu einer anderen Node initiiert werden;
 
 ![Image](assets/fr/106.webp)
 
-- Eingehende Verbindungen, die von einem anderen Node zu unserem initiiert werden.
+- Eingehende Verbindungen, die von einer anderen Node zu unserer initiiert werden.
 
 ![Image](assets/fr/107.webp)
 
-Diese beiden Verbindungsarten sind durchaus in der Lage, dieselben Daten in beide Richtungen auszutauschen; es geht nicht darum, die Richtung des Datenflusses zu beschränken, sondern nur um den Unterschied im Initiator der Verbindung. Aus der Sicht unseres Node gelten ausgehende Verbindungen im Allgemeinen als sicherer, da wir sie initiieren und genau auswählen, zu welchem Node wir eine Verbindung herstellen wollen, so dass es unwahrscheinlich ist, dass die Verbindung böswillig ist. Standardmäßig unterhält der Bitcoin core 10 ausgehende Verbindungen (8 "*full-relay*" + 2 "*block-relay-only*").
+Diese beiden Verbindungsarten sind durchaus in der Lage, dieselben Daten in beide Richtungen auszutauschen; es geht nicht darum, die Richtung des Datenflusses zu beschränken, sondern nur um den Unterschied im Initiator der Verbindung. Aus der Sicht unserer Node gelten ausgehende Verbindungen im Allgemeinen als sicherer, da wir sie initiieren und genau auswählen, zu welcher Node wir eine Verbindung herstellen wollen, so dass es unwahrscheinlich ist, dass die Verbindung böswillig ist. Standardmäßig unterhält der Bitcoin Core 10 ausgehende Verbindungen (8 "*full-relay*" + 2 "*block-relay-only*").
 
-Ein Full node erhöht den Wert des Netzes, indem er eingehende Verbindungen annimmt. Mit dem Parameter "Listen=1" wird das Abhören auf dem Standard-Port 8333 des betreffenden Netzes aktiviert, so dass diese eingehenden Verbindungen über das Clearnet empfangen werden können. Damit dies funktioniert, muss dieser Port auch auf Ihrem Router geöffnet sein. Ist dies nicht der Fall, funktioniert dein Node weiterhin nur mit ausgehenden Verbindungen, was keine Auswirkungen auf Ihre persönliche Nutzung des Bitcoin hat. Die Entscheidung, ob du eingehende Verbindungen zulassen wollen, liegt bei dir; es gibt keine "beste Wahl"
+Ein Full Node erhöht den Wert des Netzwerks, indem sie eingehende Verbindungen annimmt. Mit dem Parameter `Listen=1` wird das Abhören auf dem Standard-Port 8333 des betreffenden Netzwerks aktiviert, so dass diese eingehenden Verbindungen über das Clearnet empfangen werden können. Damit dies funktioniert, muss dieser Port auch auf deinem Router geöffnet sein. Ist dies nicht der Fall, funktioniert deine Node weiterhin nur mit ausgehenden Verbindungen, was keine Auswirkungen auf deine persönliche Nutzung von Bitcoin hat. Die Entscheidung, ob du eingehende Verbindungen zulassen willst, liegt bei dir; es gibt keine "beste Wahl".
 
-Wenn du es vorziehst, keinen Port auf deinem Router zu öffnen, aber trotzdem eingehende Verbindungen akzeptierst, kannst du den Parameter `listenonion=1` aktivieren. Damit erreichst du das gleiche Ergebnis, aber nur über das Tor-Netzwerk und nicht über clearnet.
+Wenn du es vorziehst, keinen Port auf deinem Router zu öffnen, aber trotzdem eingehende Verbindungen akzeptierst, kannst du den Parameter `listenonion=1` aktivieren. Damit erreichst du das gleiche Ergebnis, aber nur über das Tor-Netzwerk und nicht über Clearnet.
 
-Auf der Netzebene haben wir auch:
+Auf der Netzwerkebene haben wir auch:
 
 - `addnode`: fügt einen freundlichen Peer zur Kontaktaufnahme hinzu (kann mehrfach angegeben werden).
-- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keinem anderen Node verbinden;
-- seednode": wird nur zum Ausfüllen des Book-Address verwendet, wenn eine Verbindung zu einem Node hergestellt und dann getrennt wird.
-- max Connections": legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass dein Node nie mehr als 125 Verbindungen akzeptiert.
+- `connect`: beschränkt die Verbindungen strikt auf die angegebene Adresse (kann mehrfach angegeben werden). Core wird sich mit keiner anderen Node verbinden;
+- `seednode`: wird ausschließlich verwendet, um beim Verbindungsaufbau zu einer Node das Adressbuch zu füllen, und trennt danach die Verbindung.
+- `max Connections`: legt die globale Obergrenze für eingehende und ausgehende Verbindungen fest. Standardmäßig ist dieser Parameter auf 125 gesetzt, was bedeutet, dass deine Node nie mehr als 125 Verbindungen akzeptiert.
 - `maxuploadtarget` : begrenzt den Upload, um die Bandbreite über ein gleitendes 24-Stunden-Fenster zu begrenzen. Diese Obergrenze beeinträchtigt nicht die Verbreitung wesentlicher neuer Elemente;
-- `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich dein Node nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
-- `dnsseed`: erlaubt oder verbietet _DNS-Seeds_, um Peers anzufordern, wenn dein lokaler Address-Pool niedrig ist (Voreinstellung: `1`, es sei denn `-connect` oder `-maxconnections=0`).
-- `forcednsseed`: erzwingt, dass _DNS-Seeds_ beim Start angefordert werden, auch wenn du bereits Adressen auf Lager haben (Voreinstellung: `0`).
-- feste Seeds": Erlaubt die Verwendung von *seed-Node* (hartkodierte Address-Liste), wenn _DNS-Seeds_ fehlschlagen oder deaktiviert sind (Standard: `1`).
+- `onlynet`: begrenzt ausgehende Verbindungen nur auf ausgewählte Netzwerke (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Wenn du zum Beispiel möchtest, dass sich deine Node nur über Tor mit dem Bitcoin-Netzwerk verbindet, kannst du den Parameter `onlynet=onion` aktivieren und eingehende Verbindungen deaktivieren (oder auch nur Verbindungen über Tor zulassen).
+- `dnsseed`: erlaubt oder verbietet *DNS-Seeds*, um Peers anzufordern, wenn dein lokaler Address-Pool niedrig ist (Default: `1`, es sei denn `-connect` oder `-maxconnections=0`).
+- `forcednsseed`: erzwingt, dass *DNS-Seeds* beim Start angefordert werden, auch wenn du bereits Adressen auf Lager hast (Voreinstellung: `0`).
+- `fixedseeds`: Erlaubt die Nutzung von *Seed‑Nodes* (fest einkodierte Adressliste), falls *DNS‑Seeds* fehlschlagen oder deaktiviert sind (Default: 1).
 - `dns`: Erlaubt DNS-Auflösungen im Allgemeinen (z.B. für `-addnode`/`-seednode`/`-connect`).
 
-Standardmäßig kommuniziert dein Node über Clearnet, Tor und I2P. Das bedeutet, dass die Peers, mit denen er sich im Clearnetz verbindet, Ihre öffentliche IP Address sehen können, und dein ISP wird wahrscheinlich erkennen können, dass du einen Bitcoin-Node betreiben (obwohl P2P Transport V2 es für einen ISP schwieriger macht, zu lauschen). Das ist nicht unbedingt ein Problem, aber wenn du ein Durchsickern dieser Informationen vermeiden willst, kannst du deinen Node ausschließlich über das Tor-Netzwerk verbinden.
+Standardmäßig kommuniziert deine Node über Clearnet, Tor und I2P. Das bedeutet, dass die Peers, mit denen sie sich im Clearnet verbindet, deine öffentliche IP Address sehen können, und dein ISP wird wahrscheinlich erkennen können, dass du einen Bitcoin Node betreibst (obwohl P2P Transport V2 es für einen ISP schwieriger macht, zu mitzulesen). Das ist nicht unbedingt ein Problem, aber wenn du ein Durchsickern dieser Informationen vermeiden willst, kannst du deine Node ausschließlich über das Tor-Netzwerk verbinden.
 
-Um vollständig Tor-fähig zu sein, musst du Bitcoin core zwingen, nur dieses Netzwerk zu benutzen und einen versteckten Dienst für eingehende Verbindungen zu erstellen (wenn du sie aktivieren willst). In der `Bitcoin.conf` musst du diese Konfiguration hinzufügen:
+Um vollständig Tor-fähig zu sein, musst du Bitcoin Core zwingen, nur dieses Netzwerk zu benutzen und einen versteckten Dienst für eingehende Verbindungen zu erstellen (wenn du sie aktivieren willst). In der `Bitcoin.conf` musst du diese Konfiguration hinzufügen:
 
-- onlynet=onion",
+- `onlynet=onion`,
 - `proxy=127.0.0.1:9050`,
 - `listenonion=1`,
 - `torcontrol=127.0.0.1:9051`,
-- proxyrandomize=1",
-- listen=1",
+- `proxyrandomize=1`,
+- `listen=1`,
 - `bind=127.0.0.1`,
-- upnp=0",
-- natpmp=0".
+- `upnp=0`,
+- `natpmp=0`.
 
-Alle deine P2P-Verbindungen gehen durch Tor. Dein Node erhält einen "onion"-Address für eingehende Verbindungen, so dass keine Ports auf dem Router geöffnet werden müssen. Dein ISP sieht nur den Tor-Verkehr, und deine Partner wissen nichts von deiner tatsächlichen öffentlichen IP Address.
+Alle deine P2P-Verbindungen gehen durch Tor. Dein Node erhält eine `onion`-Addresse für eingehende Verbindungen, so dass keine Ports auf dem Router geöffnet werden müssen. Dein ISP sieht nur den Tor-Verkehr, und deine Peers wissen nichts von deiner tatsächlichen öffentlichen IP Addresse.
 
-Um die DNS-Auflösung im Klartext zu vermeiden, können du `dnsseed=0` und `dns=0` zu Ihrer Konfiguration hinzufügen. du müssen dann manuell `.onion`-Peers über `seednode=` oder `addnode=` bereitstellen, da die Erkennung neuer Node sonst schwierig ist.
+Um eine unverschlüsselte DNS-Auflösung zu vermeiden, kannst du `dnsseed=0` und `dns=0` zu deiner Konfiguration hinzufügen. Du mussst dann manuell `.onion`-Peers über `seednode=` oder `addnode=` bereitstellen, da die Erkennung neuer Nodes sonst schwierig ist.
 
-Wenn du Anfänger sind, würde ich dir natürlich raten, all diese Netzwerkeinstellungen vorerst in Ruhe zu lassen. Die Standardkonfiguration ist oft ausreichend.
+Wenn du Anfänger bist, würde ich dir natürlich raten, all diese Netzwerkeinstellungen vorerst in Ruhe zu lassen. Die Standardkonfiguration ist oft ausreichend.
 
 ### Mempool und Relaispolitik
 
 #### Grundlegende Parameter
 
-Hier sind die grundlegenden Parameter, die du in Ihrer "Bitcoin.conf" ändern können und die die Verwaltung Ihres Mempool und die Weiterleitung unbestätigter Transaktionen betreffen:
+Hier sind die grundlegenden Parameter, die du in deiner `Bitcoin.conf` ändern kannst und die die Verwaltung deines Mempools und die Weiterleitung unbestätigter Transaktionen betreffen:
 
-- `maxmempool=<n>`: Begrenzt die maximale Größe des lokalen Mempool auf `<n>` Megabytes (Standard: `300`). Wenn das Limit erreicht ist, erhöht dein Node dynamisch seinen effektiven Gebührenschwellenwert und priorisiert die am wenigsten profitablen Transaktionen (basierend auf dem Gebührensatz, nicht auf dem absoluten Wert), um unter dem Limit zu bleiben. du können diese Einstellung als Standard belassen. du zu erhöhen kann nützlich sein, wenn du Mining alleine sind oder wenn du einen genaueren Überblick über die Mempool Überlastung erhalten und die Gebührenabschätzung verbessern wollen. Umgekehrt spart eine Verringerung des Wertes RAM und in geringerem Maße auch andere Systemressourcen.
+- `maxmempool=<n>`: Begrenzt die maximale Größe des lokalen Mempools auf `<n>` Megabytes (Standard: `300`). Wenn das Limit erreicht ist, erhöht deine Node dynamisch ihren effektiven Gebührenschwellenwert und priorisiert die am wenigsten profitablen Transaktionen (basierend auf dem Gebührensatz, nicht auf dem absoluten Wert), um unter dem Limit zu bleiben. Du kannst diese Einstellung als Standard belassen. Sie zu erhöhen kann nützlich sein, wenn du Mining alleine betreibst oder wenn du einen genaueren Überblick über die Mempool Überlastung erhalten und die Gebührenabschätzung verbessern willst. Umgekehrt spart eine Verringerung des Wertes RAM und in geringerem Maße auch andere Systemressourcen.
 
 - `mempoolexpiry=<n>`: Maximale Aufbewahrungszeit für unbestätigte Transaktionen in Mempool (in Stunden, Standard: `336`). Nach dieser Zeit werden die Transaktionen entfernt, auch wenn noch Speicherplatz verfügbar ist.
 
-- persistmempool=1": Speichert einen Schnappschuss des Mempool im Stillstand und lädt ihn beim Neustart neu (Standard: `1`). Dies beschleunigt die Wiederherstellung nach einem Neustart und vermeidet die Notwendigkeit, den Zustand über das Netzwerk neu zu lernen.
+- `persistmempool=1`: Speichert bei Stillstand einen Snapshot des Mempools und lädt ihn beim Neustart wieder (Standard: `1`). Dies beschleunigt die Wiederherstellung nach einem Reboot, da der Zustand nicht erneut über das Netzwerk erlernt werden muss.
 
-- `maxorphantx=<n>`: Maximale Anzahl der verwaisten Transaktionen, die beibehalten werden (abhängige Eingaben von UTXOs, die noch nicht im UTXO-Set gesehen wurden, Standardwert: `100`). Bei Überschreitung dieses Schwellenwerts werden die ältesten Transaktionen gelöscht, um ein unkontrolliertes Anwachsen des Cache zu vermeiden.
+- `maxorphantx=<n>`: Maximale Anzahl der verwaisten Transaktionen, die beibehalten werden (abhängige Eingaben von UTXOs, die noch nicht im UTXO-Set gesehen wurden, Standard: `100`). Bei Überschreitung dieses Schwellenwerts werden die ältesten Transaktionen gelöscht, um ein unkontrolliertes Anwachsen des Cache zu vermeiden.
 
-- `blocksonly=1` : Deaktiviert die Annahme und Weiterleitung unbestätigter Transaktionen, die von Peers empfangen werden (außer bei speziellen Berechtigungen). Der Node lädt und kündigt nur noch Blöcke an. Lokal erstellte Transaktionen können weiterhin gesendet werden (zur Nutzung des Nodes mit Ihrer Wallet-Software). Dies reduziert die Bandbreite und den RAM-Bedarf erheblich, auf Kosten einer geringeren Nützlichkeit für das Relaying und ohne Kenntnis des Mempools.
+- `blocksonly=1` : Deaktiviert die Annahme und Weiterleitung unbestätigter Transaktionen, die von Peers empfangen werden (außer bei speziellen Berechtigungen). Die Node lädt und kündigt nur noch Blöcke an. Lokal erstellte Transaktionen können weiterhin gesendet werden (zur Nutzung deiner Node mit deiner Wallet-Software). Dies reduziert die Bandbreite und den RAM-Bedarf erheblich, auf Kosten einer geringeren Nützlichkeit für das Relaying und ohne Kenntnis des Mempools.
 
-- `minrelaytxfee=<n>`: Minimaler Gebührensatz (in BTC/kvB), unter dem Transaktionen im Mempool des Node nicht akzeptiert und nicht an Peers weitergeleitet werden (Standard: `0.00001` = 1 sat/vB). Je höher dieser Wert ist, desto aggressiver filtert dein Node kostengünstige Transaktionen.
+- `minrelaytxfee=<n>`: Minimaler Gebührensatz (in BTC/kvB), unter dem Transaktionen im Mempool der Node nicht akzeptiert und nicht an Peers weitergeleitet werden (Standard: `0.00001` = 1 sat/vB). Je höher dieser Wert ist, desto aggressiver filtert deine Node kostengünstige Transaktionen.
 
 - `mempoolfullrbf=1`: Akzeptiert RBF-Transaktionen auch ohne ausdrückliche RBF-Signalisierung in der ersetzten Transaktion. Mit dieser "*full-RBF*"-Politik kann eine Transaktion mit einem höheren Gebührensatz eine andere in Mempool ersetzen, wenn die anderen Ersetzungsbedingungen erfüllt sind.
 
@@ -1766,31 +1766,31 @@ Zur Erinnerung: RBF ist ein Transaktionsmechanismus, der es dem Absender ermögl
 
 #### Erweiterte und spezifische Einstellungen
 
-Hier finden du die erweiterten Einstellungen für Mempool und die Relais-Richtlinie. Wenn du ein Anfänger sind, sollten du diese Einstellungen nicht ändern müssen:
+Hier findest du die erweiterten Einstellungen für Mempool und die Relay-Richtlinien. Wenn du ein Anfänger bist, solltest du diese Einstellungen nicht ändern müssen:
 
-- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über den Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanzielle Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall müssen du geminte `OP_RETURN` akzeptieren.
+- `datacarrier=1` : Erlaubt das Weiterleiten und (bei Mining über die Node) das Einfügen von Transaktionen, die nichtfinanzielle Daten über einen `OP_RETURN`-Output tragen (Standard: `1`). Das Deaktivieren dieser Einstellung reduziert leicht die Angriffsfläche für nichtfinanziellen Datenspam, verringert jedoch die Kompatibilität mit bestimmten Anwendungsfällen. In jedem Fall musst du geminte `OP_RETURN`'s akzeptieren.
 
-- datacarriersize=<n>`: Maximale Größe (in Bytes) des `OP_RETURN`, den der Node weiterleitet (Standard: `83`). Eine Verringerung dieses Wertes schränkt die über `OP_RETURN` transportierten Nutzdaten ein. Beachten du, dass dieses Limit in einer zukünftigen Version von Bitcoin core standardmäßig entfernt wird.
+- `datacarriersize=<n>`: Maximale Größe (in Bytes) von `OP_RETURN`, die die Node weiterleitet (Standard: `83`). Eine Absenkung dieses Werts schränkt die über `OP_RETURN` transportierten Nutzdaten ein. Beachte, dass diese Begrenzung in einer zukünftigen Version von Bitcoin Core standardmäßig aufgehoben wird.
 
-- bytespersigop=<n>`: Parameter, der Signaturtransaktionen in äquivalente Bytes für die Auswertung des Relay-Limits umwandelt (Standard: `20`). Dies beeinflusst die Akzeptanz von "sigops"-reichen Transaktionen gemäß den lokalen Regeln.
+- `bytespersigop=<n>`: Parameter, der Signaturoperationen (SigOps) für die Bewertung der Relaygrenzen in eine entsprechende Anzahl von Bytes umrechnet (Standard: `20`). Dies beeinflusst die Annahme `sigops`‑reicher Transaktionen gemäß den lokalen Policy‑Regeln.
 
-- permitbaremultisig=1": Erlaubt die Weiterleitung von *bare-Multisig* P2MS-Transaktionen (Standard: `1`). Dies ist die älteste Skriptvorlage für die Einrichtung von Multisignaturbedingungen auf einem UTXO (erfunden 2011 von Gavin Andresen).
+- `permitbaremultisig=1`: Erlaubt die Weiterleitung von Bare‑Multisig‑P2MS‑Transaktionen (Standard: `1`). Dies ist die älteste Skriptvorlage zur Festlegung von Multisignatur‑Bedingungen auf einem UTXO (2011 von Gavin Andresen eingeführt).
 
-- whitelistrelay=1": Gewährt eingehenden Peers, die auf der Whitelist stehen, automatisch eine Relay-Erlaubnis (Standard: `1`). Die Transaktionen dieser Peers werden vom Relay akzeptiert, auch wenn sich dein Node nicht im allgemeinen Relay-Modus befindet.
+- `whitelistrelay=1`: Gewährt eingehenden Peers, die auf der Whitelist stehen, automatisch eine Relay-Erlaubnis (Standard: `1`). Die Transaktionen dieser Peers werden vom Relay akzeptiert, auch wenn sich deine Node nicht im allgemeinen Relay-Modus befindet.
 
-- whitelistforcerelay=1`: Weist "*forcerelay*"-Erlaubnis für Peers auf der Whitelist mit Standardberechtigungen zu (Standard: `0`). Der Node leitet dann ihre Transaktionen weiter, auch wenn sie bereits in Mempool vorhanden sind, und umgeht so die Anti-Redundanz-Mechanismen.
+- `whitelistforcerelay=1`: Weist "*forcerelay*"-Erlaubnis für Peers auf der Whitelist mit Standardberechtigungen zu (Standard: `0`). Die Node leitet dann ihre Transaktionen weiter, auch wenn sie bereits im Mempool vorhanden sind, und umgeht so Anti-Redundanz-Mechanismen.
 
-- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindet einen Interface- oder Address-Bereich und weist den entsprechenden Peers feinkörnige Berechtigungen zu: `relay`, `forcerelay`, `Mempool` (Mempool Inhaltsanforderung), `noban`, `download`, `addr`, `bloomfilter`. Dies kann nützlich sein, um vertrauenswürdigen Gegenstellen (wie Gateways, LANs und internen Diensten) eine privilegierte Behandlung zu gewähren.
+- `whitebind=<[permissions@]addr>` / `whitelist=<[permissions@]CIDR>`: Bindet einen Interface- oder Address-Bereich und weist den entsprechenden Peers detailierte Berechtigungen zu: `relay`, `forcerelay`, `Mempool` (Mempool Inhaltsanforderung), `noban`, `download`, `addr`, `bloomfilter`. Dies kann nützlich sein, um vertrauenswürdigen Gegenstellen (wie Gateways, LANs und internen Diensten) eine privilegierte Behandlung zu gewähren.
 
-- `peerbloomfilters=1` : Aktiviert die Unterstützung von Bloom-Filtern (BIP37), um gefilterte Blöcke/Transaktionen an Light-Clients zu liefern (Standard: `0`). Achtung, dies erhöht die Belastung Ihrer Ressourcen.
+- `peerbloomfilters=1`: Aktiviert die Unterstützung von Bloom-Filtern (BIP37), um gefilterte Blöcke/Transaktionen an Lightweight-Clients zu liefern (Standard: `0`). Achtung, dies erhöht die Belastung deiner Ressourcen.
 
-- `peerblockfilters=1` : Dient kompakten BIP157-Filtern (*Neutrino*) an Peers (Standard: `0`).
+- `peerblockfilters=1`: Dient kompakten BIP157-Filtern (*Neutrino*) an Peers (Standard: `0`).
 
-- `blockreconstructionextratxn=<n>`: Zusätzliche Anzahl von Transaktionen, die im Speicher gehalten werden, um kompakte Blöcke wiederherzustellen (Voreinstellung: `100`). Verbessert den Erfolg von Rekonstruktionen während kompakter Synchronisationen, auf Kosten von etwas Speicher.
+- `blockreconstructionextratxn=<n>`: Zusätzliche Anzahl von Transaktionen, die im Speicher gehalten werden, um kompakte Blöcke wiederherzustellen (Standard: `100`). Verbessert den Erfolg von Rekonstruktionen während kompakter Synchronisationen, auf Kosten von etwas Speicher.
 
-Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkeit von Transaktionen, die in einem gültigen Block enthalten sind. du dienen dazu, Ihren Beitrag zum Relay anzupassen, Ihre Ressourcen zu schützen und Ihren Node in eingeschränkten Umgebungen berechenbar zu machen, aber sie erlauben dir niemals, Blöcke abzulehnen, die die Konsensregeln einhalten.
+Zur Erinnerung: Alle diese Relay-Regeln haben keinen Einfluss auf die Gültigkeit von Transaktionen, die in einem gültigen Block enthalten sind. Sie dienen dazu, deinen Beitrag zur Weiterleitung anzupassen, deine Ressourcen zu schützen und deine Node in eingeschränkten Umgebungen berechenbar zu machen, aber sie erlauben dir niemals, Blöcke abzulehnen, die die Konsensregeln einhalten.
 
-### Geldbörsen
+### Wallets
 
 du können auch die Art und Weise, wie Ihre Geldbörsen verwaltet werden, in der Datei `Bitcoin.conf` anpassen. Wenn du Wallet nicht direkt in Core verwenden, sondern eine externe Verwaltungssoftware wie Sparrow oder Liana, sind diese Parameter von geringer Bedeutung:
 

@@ -569,11 +569,8 @@ Nous sommes désormais parés, nous minons et participons à l'effort global et 
 
 **Disclaimer:** Les Pool de mining sont des tiers de confiance. Si vous ne faites pas tourner votre propre logiciel de mining et comptez sur quelqu'un d'autre pour le faire, de la confiance est nécessaire et rien ne garanti que l'opérateur du serveur auquel vous êtes connecté est honnêtes.
 
-Le 
-
-
 Nous venons de voir dans le rapide tutoriel du paragraphe précédent, 2 solo pool que l'on peut choisir afin de connecter notre "hasheur" au réseau Bitcoin et lui permettre de miner.
-Public Pool et CkPool sont en effet les 2 solutions les plus populaires du marché auprès des solominer mais elles sont loin d'être les seules.
+Public Pool et CkPool sont en effet les 2 solutions les plus populaires du marché auprès des solominers mais elles sont loin d'être les seules.
 
 Nous verrons dans ce paragraphe un panorama assez complet mais comme souvent non exhaustif des solutions qui s'offrent à nous, et des caractéristiques de chacune des solutions.
 
@@ -723,10 +720,10 @@ L'accent est ainsi mis sur la possibilité pour chaque mineur de construire son 
 
 ![Image](assets/fr/058.webp)
 
-OCEAN est une pool qui se veut non custodiale, c'est à dire que les mineurs sont directement récompensés via la transaction coinbase de chaque bloc.
+OCEAN est une pool qui se veut non custodiale, c'est à dire que les mineurs sont directement récompensés via la transaction coinbase (la transation qui crée des nouveau bitcoins à chaque nouveau blocks) de chaque bloc.
 Toute les récompenses au dessus de la limite de 0.01048576 BTC sont versées via la transaction Coinbase directement, sinon il y a un quand même un peu de confiance nécessaire le temps d'atteindre cette limite pour retirer ses bitcoins.
 
-Pour ceux qui ne souhaitent pas attendre cette limite pour retirer leurs précieux satoshis, comme les solominers que nous nous sommes, il est possible de mettre en place de "payout lightning" permettant même au très petit contributeurs de récupérer leur part du gateau.
+Pour ceux qui ne souhaitent pas attendre cette limite pour retirer leurs précieux satoshis, comme les solominers que nous nous sommes, il est possible de mettre en place de "payout lightning" permettant même au très petit contributeurs de récupérer leur part du gâteau. Les pâyout Lightning donnent droit à des frais réduits de 1% au lieu des 2% de la pool par défaut.
 
 Les personnalisation des blocs est un feature amusante qui permet aux mineurs individuels de marquer leur nom à jamais dans la blockchain bitcoin. Même si les récompenses sont partagées, le mineur qui a trouvé le blocs laisse une trace indélébile.
 
@@ -740,8 +737,34 @@ Synthèse:
 - fiabilité: élevée
 - confiance: élevée
 
-## 3.4 Découverte d'AxeOS
 
+| Type de Pool | Open Source | Frais | Spécificité |     |
+| ------------ | ----------- | ----- | ----------- | --- |
+| Solo         |             |       |             |     |
+| Mutualiste   |             |       |             |     |
+
+
+## 3.4 Découverte d'AxeOS (v2.12.2)
+
+Après ce panorama des différentes pools de mining auquel vous pourrez connecter votre Bitaxe, allons faire un tour d'horizon complet d'AxeOs  le logiciel de votre Bitaxe afin de comprendre comment en tirer le meilleur parti.
+
+### Onglet "Dashboard"
+
+Ici les paramètres généraux de votre Bitaxe comme:
+
+- son hashrate instantané, et moyenné sur différente période de temps (1m/10m/1h).
+- L'efficience de votre appareil, c'est à dire la puissance nécessaire pour produire 1Th/s, autrement dit l'énergie nécessaire pour produire 1 Th (ici 17.5 J/Th).
+- Les shares soumises à la pool de mining (preuvent de travail)
+- la meilleure difficulté de la vie de votre machine, et celle de la dernière session de celle-ci (depuis son dernier redémarrage). Pour rappel plus les hash trouvés par votre machine sont des nombres petits (le but du minage est de trouver les hash les plus petits possibles) plus la difficulté associée est élevée. Ainsi plus la difficulté affichée ici est grande, plus cela signifie vous avez été proche de trouver un bloc. Dans l'exemple ci-dessous, la meilleur difficulté jamais atteinte par notre Bitaxe est 17.56 G (17 560 000 000) sachant que la difficulté globale du réseau Bitcoin est de 148.26 T (148 260 000 000 000). Autrement dit, il aurait fallu trouver un hash 8333 fois plus petit que le plus petit jamais trouvé par l'appareil...On y est pas encore...
+
+En partie basse de l'écran de l'onglet "Dashboard", des informations sur l'Etat de votre pareil "Alimentation", "Chaleur", "Ventilateur" sont affichées. Ici ce que vous avez à retenir c'est que tant que les barres d'état ne sont pas totalement remplies alors votre appareil fonctionne de manière nominale.
+Une donnée particulièrement importante à surveiller pour un opérateur de Bitaxe est la température de l'ASIC. Au delà de 70°C la puce surchauffe et le bitaxe s'arrête de miner pour éviter d'endommager l'appareil. Ainsi dans les environnement chaud notamment en été il conviendra parfois d'abaisser la puissance de calcul de votre appareil pour lui éviter de surchauffer. Nous verrons comment régler cela plus bas.
+
+![Image](assets/fr/061.webp)
+
+### Onglet "Swarm"
+
+![Image](assets/fr/062.webp)
 
 # Miner via sa propre pool de mining 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)

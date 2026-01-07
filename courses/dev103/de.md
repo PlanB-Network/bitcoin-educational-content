@@ -776,8 +776,8 @@ Mit `let` oder `const` deklarierte Variablen innerhalb eines Blocks existieren *
 
 ```javascript
 {
-const message = "inside block"
-console.log(message)
+  const message = "inside block"
+  console.log(message)
 }
 ```
 
@@ -791,7 +791,7 @@ Aber wenn du das versuchst:
 
 ```javascript
 {
-const message = "inside block"
+  const message = "inside block"
 }
 console.log(message) // Error!
 ```
@@ -818,7 +818,7 @@ const myAge = 20
 console.log("Am I an adult?")
 
 if (myAge >= 18) {
-console.log("Yes I am!")
+  console.log("Yes I am!")
 }
 ```
 
@@ -841,7 +841,7 @@ const myAge = 17
 console.log("Am I an adult?")
 
 if (myAge >= 18) {
-console.log("Yes I am!")
+  console.log("Yes I am!")
 }
 ```
 
@@ -859,9 +859,9 @@ const myAge = 17
 console.log("Am I an adult?")
 
 if (myAge >= 18) {
-console.log("Yes I am!")
+  console.log("Yes I am!")
 } else {
-console.log("No, I am not.")
+  console.log("No, I am not.")
 }
 ```
 
@@ -886,7 +886,7 @@ const adult = myAge >= 18
 console.log("Am I an adult?")
 
 if (!adult) {
-console.log("No, I am not.")
+  console.log("No, I am not.")
 }
 ```
 
@@ -911,8 +911,8 @@ Eine "während" (`while`)-Schleife wiederholt den Code, *so lange* eine Bedingun
 let count = 0
 
 while (count < 3) {
-console.log("Count is", count)
-count = count + 1
+  console.log("Count is", count)
+  count = count + 1
 }
 console.log("the loop is over!")
 ```
@@ -934,11 +934,11 @@ Du kannst eine Schleife mit "abbrechen" (`break`) vorzeitig beenden:
 let number = 1 // Start with number 1
 
 while (true) { // This condition is always true, so this loop will run forever unless we stop it
-console.log(number) // Print the current number
-if (number === 3) { // If the number is 3, stop the loop
-break
-}
-number = number + 1 // Add 1 to the number
+  console.log(number) // Print the current number
+  if (number === 3) { // If the number is 3, stop the loop
+    break
+  }
+  number = number + 1 // Add 1 to the number
 }
 ```
 
@@ -958,13 +958,13 @@ Du kannst den Rest einer Schleifeniteration mit "fortsetzen" (`continue`) übers
 let number = 0 // Start with number 0
 
 while (number < 5) { // Keep going while number is less than 5
-number = number + 1 // Add 1 to the number
+  number = number + 1 // Add 1 to the number
 
-if (number === 3) { // If the number is 3
-continue // Skip the rest of the block and go to the next iteration of the loop
-}
+  if (number === 3) { // If the number is 3
+    continue // Skip the rest of the block and go to the next iteration of the loop
+  }
 
-console.log(number) // Print the number
+  console.log(number) // Print the number
 }
 ```
 
@@ -987,7 +987,7 @@ Wenn du ein Array hast und etwas mit jedem Element darin machen willst, kannst d
 const fruits = ["apple", "banana", "cherry"]
 
 for (const fruit of fruits) {
-console.log(fruit)
+  console.log(fruit)
 }
 ```
 
@@ -1011,7 +1011,7 @@ Du kannst `for ... in` verwenden, um eine Schleife über die Schlüssel (Indizes
 const fruits = ["apple", "banana", "cherry"]
 
 for (const index in fruits) {
-console.log(index)
+  console.log(index)
 }
 ```
 
@@ -1029,7 +1029,7 @@ Du kannst auch den Index verwenden, um den Wert zu erhalten:
 const fruits = ["apple", "banana", "cherry"]
 
 for (const index in fruits) {
-console.log(fruits[index])
+  console.log(fruits[index])
 }
 ```
 
@@ -1053,7 +1053,7 @@ Eine begrenzte Schleife enthält normalerweise drei Bedingungen, die durch ein S
 
 ```javascript
 for (let i = 0; i < 3; i = i + 1) {
-console.log(i)
+  console.log(i)
 }
 ```
 
@@ -1082,14 +1082,14 @@ Beispiel:
 
 ```javascript
 outer: {
-console.log("We're inside the outer scope.")
+  console.log("We're inside the outer scope.")
 
-inner: {
-console.log("We're inside the inner scope.")
-break outer
-}
+  inner: {
+    console.log("We're inside the inner scope.")
+    break outer
+  }
 
-console.log("This will not run")
+  console.log("This will not run")
 }
 
 console.log("Done")
@@ -1127,7 +1127,7 @@ const december = 12
 
 // Declare an array that holds the months that have 30 days
 const monthsWith30Days = [
-april, june, september, november
+  april, june, september, november
 ]
 
 // Declare variables to keep track of the month and day we're in
@@ -1136,25 +1136,25 @@ let currentDay = 1
 
 monthsLoop: while (true) {  // Start a loop labeled "monthsLoop" to process each month
 
-daysLoop: while (true) {  // Start a loop labeled "daysLoop" to process each day in the month
-totalDaysInOneYear = totalDaysInOneYear + 1  // Increase the total number of days we counted by 1
+    daysLoop: while (true) {  // Start a loop labeled "daysLoop" to process each day in the month
+        totalDaysInOneYear = totalDaysInOneYear + 1  // Increase the total number of days we counted by 1
 
-if (                                                                   // We want to check if we're at the end of the month.
-currentDay === 31                                                  // Check if the current day is 31 (for months with 31 days)...
-|| currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...or 30 if it's among the 30-days months...
-|| currentDay === 28 && (currentMonth === february)                // ...or 28 if it's February. If it's any of these three, then:
+        if (                                                                   // We want to check if we're at the end of the month.
+            currentDay === 31                                                  // Check if the current day is 31 (for months with 31 days)...
+            || currentDay === 30 && (monthsWith30Days.includes(currentMonth))  // ...or 30 if it's among the 30-days months...
+            || currentDay === 28 && (currentMonth === february)                // ...or 28 if it's February. If it's any of these three, then:
 
-){
-currentMonth = currentMonth + 1  // Move to the next month
-currentDay = 1                   // Reset the day to 1 for the new month
-break daysLoop                   // Exit the inner loop (which tracks days) and go back to the outer loop (which tracks months)
-}
-else { currentDay = currentDay + 1 }                                   // Otherwise, we're not at the end of the month, and we just move to the next day
+        ){
+            currentMonth = currentMonth + 1  // Move to the next month
+            currentDay = 1                   // Reset the day to 1 for the new month
+            break daysLoop                   // Exit the inner loop (which tracks days) and go back to the outer loop (which tracks months)
+        }
+        else { currentDay = currentDay + 1 }                                   // Otherwise, we're not at the end of the month, and we just move to the next day
 
-}
-if (currentMonth > 12) {  // After processing a month, check if we've gone past December
-break monthsLoop  // If so, break the outer loop and stop the day-counting process
-}
+    }
+    if (currentMonth > 12) {  // After processing a month, check if we've gone past December
+        break monthsLoop  // If so, break the outer loop and stop the day-counting process
+    }
 }
 
 console.log(totalDaysInOneYear)  // Print the total number of days in the year (should be 365)
@@ -1198,7 +1198,7 @@ Du kannst die Funktion so oft aufrufen, wie du willst:
 
 ```javascript
 function sayHello() {
-console.log("Hello!")
+  console.log("Hello!")
 }
 
 sayHello()
@@ -1222,7 +1222,7 @@ Zum Beispiel:
 
 ```javascript
 function sayHelloTo (friend) {
-console.log(`Hello ${friend}!`)
+  console.log(`Hello ${friend}!`)
 }
 ```
 
@@ -1258,7 +1258,7 @@ Du kannst auch mehr als ein Argument verwenden:
 
 ```javascript
 function greetTwoPeople(person1, person2) {
-console.log(`Hello ${person1} and ${person2}!`)
+  console.log(`Hello ${person1} and ${person2}!`)
 }
 
 greetTwoPeople("Lina", "Marco")
@@ -1278,7 +1278,7 @@ Hier ist ein einfaches Beispiel:
 
 ```javascript
 function getNumber() {
-return 42
+  return 42
 }
 
 const result = getNumber()
@@ -1297,7 +1297,7 @@ Du kannst auch etwas zurückgeben, das du berechnest:
 
 ```javascript
 function add(a, b) {
-return a + b
+  return a + b
 }
 
 const result = add(2, 3)
@@ -1315,9 +1315,9 @@ Sobald ein Wert "zurückgegeben" wird, endet die Funktion. Alles, was nach `retu
 ```javascript
 function saySomething() {
 
-return "hi"
+  return "hi"
 
-console.log("this never runs")
+  console.log("this never runs")
 
 }
 
@@ -1370,31 +1370,31 @@ schreiben und es wird eine Liste seiner enthaltenen Methoden ausgegeben. Auf mei
 
 ```javascript
 Object [console] {
-log: [Function: log],
-warn: [Function: warn],
-error: [Function: error],
-dir: [Function: dir],
-time: [Function: time],
-timeEnd: [Function: timeEnd],
-timeLog: [Function: timeLog],
-trace: [Function: trace],
-assert: [Function: assert],
-clear: [Function: clear],
-count: [Function: count],
-countReset: [Function: countReset],
-group: [Function: group],
-groupEnd: [Function: groupEnd],
-table: [Function: table],
-debug: [Function: debug],
-info: [Function: info],
-dirxml: [Function: dirxml],
-groupCollapsed: [Function: groupCollapsed],
-Console: [Function: Console],
-profile: [Function: profile],
-profileEnd: [Function: profileEnd],
-timeStamp: [Function: timeStamp],
-context: [Function: context],
-createTask: [Function: createTask]
+  log: [Function: log],
+  warn: [Function: warn],
+  error: [Function: error],
+  dir: [Function: dir],
+  time: [Function: time],
+  timeEnd: [Function: timeEnd],
+  timeLog: [Function: timeLog],
+  trace: [Function: trace],
+  assert: [Function: assert],
+  clear: [Function: clear],
+  count: [Function: count],
+  countReset: [Function: countReset],
+  group: [Function: group],
+  groupEnd: [Function: groupEnd],
+  table: [Function: table],
+  debug: [Function: debug],
+  info: [Function: info],
+  dirxml: [Function: dirxml],
+  groupCollapsed: [Function: groupCollapsed],
+  Console: [Function: Console],
+  profile: [Function: profile],
+  profileEnd: [Function: profileEnd],
+  timeStamp: [Function: timeStamp],
+  context: [Function: context],
+  createTask: [Function: createTask]
 }
 ```
 
@@ -1410,8 +1410,8 @@ Dadurch wird ein so genanntes **anonymes Objekt** erschaffen
 
 ```javascript
 const cat = {
-name: "Whiskers",
-age: 3
+  name: "Whiskers",
+  age: 3
 }
 ```
 
@@ -1455,8 +1455,8 @@ Im Falle von Objekten verhindert `const` nur, dass du das gesamte Objekt übersc
 
 ```javascript
 const cat = {
-name: "Whiskers",
-age: 3
+  name: "Whiskers",
+  age: 3
 }
 
 cat.age = 5 // Dies klappt
@@ -1471,10 +1471,10 @@ Hier ist ein Beispiel:
 
 ```javascript
 const cat = {
-name: "Whiskers",
-speak () {
-console.log("Meow!")
-}
+  name: "Whiskers",
+  speak () {
+    console.log("Meow!")
+  }
 }
 ```
 
@@ -1502,10 +1502,10 @@ Methoden können die Daten, die das Objekt enthält, durch das Schlüsselwort `t
 
 ```javascript
 const cat = {
-name: "Whiskers",
-speak () {
-console.log(`${this.name} says meow!`)
-}
+  name: "Whiskers",
+  speak () {
+    console.log(`${this.name} says meow!`)
+  }
 }
 
 cat.speak()
@@ -1564,7 +1564,7 @@ Ein Konstruktor ist eine spezielle Funktion, die ausgeführt wird, wenn ein neue
 
 ```javascript
 class Dog {
-constructor() { }
+  constructor() { }
 }
 ```
 
@@ -1572,7 +1572,7 @@ Wir wollen, dass jeder Hund einen Namen hat, also fügen wir der Funktion einen 
 
 ```javascript
 class Dog {
-constructor(name) { }
+  constructor(name) { }
 }
 ```
 
@@ -1580,18 +1580,19 @@ Und dann benutzen wir `this`, um zu deklarieren, dass `name` der `name` des `Dog
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}}
+  constructor(name) {
+    this.name = name
+  }
+}
 ```
 
 Versuchen wir jetzt, es zu benutzen:
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}
+  constructor(name) {
+    this.name = name
+  }
 }
 
 const myDog = new Dog("hachiko")
@@ -1618,12 +1619,12 @@ Fügen wir nun eine Methode zu unserer Klasse hinzu:
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}
-speak () {
-console.log(`${this.name} says barf!`)
-}
+  constructor(name) {
+    this.name = name
+  } 
+  speak () {
+    console.log(`${this.name} says barf!`)
+  }
 
 }
 
@@ -1644,12 +1645,12 @@ Wenn wir das Gleiche für zwei verschiedene Instanzen von `Dog` tun
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}
-speak () {
-console.log(`${this.name} says barf!`)
-}
+  constructor(name) {
+    this.name = name
+  }
+  speak () {
+    console.log(`${this.name} says barf!`)
+  }
 
 }
 
@@ -1685,13 +1686,13 @@ Beginnen wir mit unserer einfachen Klasse `Dog`:
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}
+  constructor(name) {
+    this.name = name
+  }
 
-speak() {
-console.log(`${this.name} says barf!`)
-}
+  speak() {
+    console.log(`${this.name} says barf!`)
+  }
 }
 
 const myDog = new Dog("Fido")
@@ -1709,7 +1710,7 @@ Wir können auch eine neue Methode hinzufügen:
 
 ```javascript
 myDog.jump = function () {
-console.log(`${this.name} jumps!`)
+  console.log(`${this.name} jumps!`)
 }
 
 myDog.jump() // Fido jumps!
@@ -1731,9 +1732,9 @@ Zum Beispiel, anstatt dies zu tun:
 
 ```javascript
 class Dog {
-constructor(name) {
-this.name = name
-}
+  constructor(name) {
+    this.name = name
+  }
 }
 
 const dog = new Dog("Rex")
@@ -1745,11 +1746,11 @@ kannst du Folgendes tun
 
 ```javascript
 class Dog {
-constructor(name, age, breed) {
-this.name = name
-this.age = age
-this.breed = breed
-}
+  constructor(name, age, breed) {
+    this.name = name
+    this.age = age
+    this.breed = breed
+  }
 }
 
 const dog = new Dog("Rex", 4, "Labrador")
@@ -1772,13 +1773,13 @@ Nehmen wir an, wir haben eine Basisklasse namens "Fahrzeug" (`Vehicle`):
 
 ```javascript
 class Vehicle {
-constructor(brand) {
-this.brand = brand
-}
+  constructor(brand) {
+    this.brand = brand
+  }
 
-start() {
-console.log(`${this.brand} vehicle is starting...`)
-}
+  start() {
+    console.log(`${this.brand} vehicle is starting...`)
+  }
 }
 ```
 
@@ -1786,9 +1787,9 @@ Jetzt wollen wir eine Klasse "Auto" (`Car`) erstellen. Ein Auto ist eine Art von
 
 ```javascript
 class Car extends Vehicle {
-start() {
-console.log(`${this.brand} car is ready to drive!`)
-}
+  start() {
+    console.log(`${this.brand} car is ready to drive!`)
+  }
 }
 ```
 
@@ -1815,25 +1816,25 @@ So geht's:
 
 ```javascript
 class Vehicle {
-constructor(brand) {
-this.brand = brand
-}
+  constructor(brand) {
+    this.brand = brand
+  }
 
-start() {
-console.log(`${this.brand} vehicle is starting...`)
-}
+  start() {
+    console.log(`${this.brand} vehicle is starting...`)
+  }
 
 }
 
 class Car extends Vehicle {
-constructor(brand, model) {
-super(brand) // call the parent constructor and passes the brand argument to it
-this.model = model
-}
+  constructor(brand, model) {
+    super(brand) // call the parent constructor and passes the brand argument to it
+    this.model = model
+  }
 
-start() {
-console.log(`${this.brand} ${this.model} is ready to drive!`)
-}
+  start() {
+    console.log(`${this.brand} ${this.model} is ready to drive!`)
+  }
 }
 
 const myCar = new Car("Toyota", "Corolla")
@@ -1867,9 +1868,9 @@ Nehmen wir an, wir haben eine Klasse namens "Benutzer" (`User`):
 
 ```javascript
 class User {
-constructor(username) {
-this.username = username
-}
+  constructor(username) {
+    this.username = username
+  }
 }
 
 const regularUser = new User("julia123")
@@ -1943,10 +1944,10 @@ Du kannst `throw` verwenden, um Regeln in deinem Programm durchzusetzen. Zum Bei
 
 ```javascript
 function divide(a, b) {
-if (b === 0) {
-throw new Error("You can't divide by zero")
-}
-return a / b
+  if (b === 0) {
+    throw new Error("You can't divide by zero")
+  }
+  return a / b
 }
 
 console.log(divide(10, 2))  // OK: prints 5
@@ -1961,11 +1962,11 @@ Wenn du nicht willst, dass dein Programm abstürzt, wenn ein Fehler auftritt, ka
 
 ```javascript
 try {
-const user = undefined
-console.log(user.name)
-console.log("End of the block") // this will never get printed
+  const user = undefined
+  console.log(user.name)
+  console.log("End of the block") // this will never get printed
 } catch (error) {
-console.log("Oops! Something went wrong.")
+  console.log("Oops! Something went wrong.")
 }
 ```
 
@@ -1984,11 +1985,11 @@ Und so funktioniert es:
 
 ```javascript
 try {
-const user = undefined
-console.log(user.name)
-console.log("End of the block") // this will never get printed
+  const user = undefined
+  console.log(user.name)
+  console.log("End of the block") // this will never get printed
 } catch (error) {
-console.log(`The message of the error was: "${error.message}"`)
+  console.log(`The message of the error was: "${error.message}"`)
 }
 ```
 
@@ -2004,12 +2005,12 @@ Du kannst auch einen `finally`-Block hinzufügen. Dieser enthält Code, der **im
 
 ```javascript
 try {
-console.log("Trying something risky...")
-throw new Error("Uh oh!")
+  console.log("Trying something risky...")
+  throw new Error("Uh oh!")
 } catch (error) {
-console.log("Caught the error:", error.message)
+  console.log("Caught the error:", error.message)
 } finally {
-console.log("This will run no matter what.")
+  console.log("This will run no matter what.")
 }
 ```
 
@@ -2034,7 +2035,7 @@ Zum Beispiel:
 
 ```javascript
 {
-var message = "hello"
+  var message = "hello"
 }
 console.log(message)
 ```
@@ -2047,7 +2048,7 @@ Schlimmer noch, in JavaScript kannst du Variablen Werte zuweisen, **ohne sie üb
 
 ```javascript
 function greet() {
-user = "Alice"
+  user = "Alice"
 }
 greet()
 console.log(user) // prints "Alice"
@@ -2150,7 +2151,7 @@ Das Gleiche passiert, wenn du ein Primitiv an eine Funktion übergibst: Es wird 
 
 ```javascript
 function plusOne(x) {
-x = x + 1
+  x = x + 1
 }
 
 let number = 5
@@ -2204,7 +2205,7 @@ Schauen wir uns an, was passiert, wenn wir ein Objekt an eine Funktion übergebe
 
 ```javascript
 function rename(user) {
-user.name = "Charlie"
+  user.name = "Charlie"
 }
 
 const person = { name: "Dana" }
@@ -2233,7 +2234,7 @@ Hier ist eine normale Funktion:
 
 ```javascript
 function greet(name) {
-return `Hello, ${name}!`
+  return `Hello, ${name}!`
 }
 ```
 
@@ -2241,7 +2242,7 @@ Die Pfeilversion sieht wie folgt aus:
 
 ```javascript
 const greet = (name) => {
-return `Hello, ${name}!`
+  return `Hello, ${name}!`
 }
 ```
 
@@ -2267,7 +2268,7 @@ Das kann man so machen:
 
 ```javascript
 function sayHello(name = "friend") {
-console.log(`Hello, ${name}!`)
+  console.log(`Hello, ${name}!`)
 }
 
 sayHello("Alice") // Hello, Alice!
@@ -2284,7 +2285,7 @@ Du kannst den **Spread-Operator** (`...`) verwenden, um sie in einem Array zu sa
 
 ```javascript
 function logAll(...items) {
-console.log(items)
+  console.log(items)
 }
 
 logAll(1, 2, 3) // [1, 2, 3]
@@ -2295,9 +2296,9 @@ Du kannst dann eine Schleife verwenden, um jedes Element zu verarbeiten:
 
 ```javascript
 function logEach(...items) {
-for (const item of items) {
-console.log(item)
-}
+  for (const item of items) {
+    console.log(item)
+  }
 }
 ```
 
@@ -2315,12 +2316,12 @@ Hier ist ein einfaches Beispiel:
 
 ```javascript
 function runTwice(action) {
-action()
-action()
+  action()
+  action()
 }
 
 function sayHello(name = "friend") {
-console.log(`Hello, ${name}!`)
+  console.log(`Hello, ${name}!`)
 }
 
 runTwice(sayHello)
@@ -2337,7 +2338,7 @@ Wir können eine Pfeilfunktion an sie übergeben:
 
 ```javascript
 runTwice(
-() => console.log("Hello!")
+  () => console.log("Hello!")
 )
 ```
 
@@ -2352,7 +2353,7 @@ Du kannst auch Funktionen schreiben, die andere Funktionen **zurückgeben**:
 
 ```javascript
 function makeGreeter(name) {
-return () => console.log(`Hi, ${name}`)
+  return () => console.log(`Hi, ${name}`)
 }
 
 const greetAlice = makeGreeter("Alice")
@@ -2421,9 +2422,9 @@ Du kannst sie sogar in einer Kette von Vorgängen kombinieren, etwa so:
 const numbers = [1, 2, 3, 4, 5]
 
 const result = numbers
-.map(n => n * 2)        // Double each entry, obtain [2, 4, 6, 8, 10]
-.filter(n => n > 3) // Keep only the entries bigger than 3, so you get [4, 6, 8, 10]
-.reduce((n1, n2) => n1 + n2) // Adds them: 4 + 6 + 8 + 10 = 28
+  .map(n => n * 2)        // Double each entry, obtain [2, 4, 6, 8, 10]
+  .filter(n => n > 3) // Keep only the entries bigger than 3, so you get [4, 6, 8, 10]
+  .reduce((n1, n2) => n1 + n2) // Adds them: 4 + 6 + 8 + 10 = 28
 
 console.log(result) // 28
 ```
@@ -2439,16 +2440,16 @@ Manchmal möchte man eine Eigenschaft eines Objekts ausblenden, damit sie nicht 
 
 ```javascript
 class Person {
-#age // this is a private property
+  #age // this is a private property
 
-constructor(name, age) {
-this.name = name
-this.#age = age
-}
+  constructor(name, age) {
+    this.name = name
+    this.#age = age
+  }
 
-getAge() {
-return this.#age
-}
+  getAge() {
+    return this.#age
+  }
 }
 
 const alice = new Person("Alice", 30)
@@ -2465,11 +2466,11 @@ Manchmal möchte man, dass eine Eigenschaft zur Klasse selbst gehört und nicht 
 
 ```javascript
 class User {
-static counter = 0 // this belongs to the class, not to instances. The same counter will be shared by all objects
+  static counter = 0 // this belongs to the class, not to instances. The same counter will be shared by all objects
 
-constructor() {
-User.counter++ // changes the static property every time an object of this class gets initiated
-}
+  constructor() {
+    User.counter++ // changes the static property every time an object of this class gets initiated
+  }
 }
 
 const a = new User() // the constructor will change the shared counter from 0 to 1
@@ -2488,14 +2489,14 @@ Eine `get`ter-Methode wird ausgeführt, wenn du versuchst, eine Eigenschaft zu *
 
 ```javascript
 class User {
-constructor(firstName, lastName) {
-this.firstName = firstName
-this.lastName = lastName
-}
+constructor(firstName,  lastName) {
+    this.firstName = firstName
+    this.lastName = lastName
+  }
 
-get fullName() {
-return `${this.firstName} ${this.lastName}`
-}
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`
+  }
 }
 
 const user = new User("Jane", "Doe")
@@ -2508,20 +2509,20 @@ Eine `set`er-Methode wird ausgeführt, wenn du einer Eigenschaft einen Wert *zuw
 
 ```javascript
 class User {
-constructor() {
-this.firstName = "John"
-this.lastName = "Doe"
-}
+  constructor() {
+    this.firstName = "John"
+    this.lastName = "Doe"
+  }
 
-get fullName() {
-return `${this.firstName} ${this.lastName}`
-}
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`
+  }
 
-set fullName(input) {            // gets the name that is passed
-const parts = input.split(" ") // breaks it into parts
-this.firstName = parts[0]      // uses the first part as first name
-this.lastName = parts[1]       // uses the second part as last name
-}
+  set fullName(input) {            // gets the name that is passed
+    const parts = input.split(" ") // breaks it into parts
+    this.firstName = parts[0]      // uses the first part as first name
+    this.lastName = parts[1]       // uses the second part as last name
+  }
 }
 
 const user = new User()
@@ -2544,8 +2545,8 @@ Zum Beispiel:
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 ```
 
@@ -2557,8 +2558,8 @@ Manchmal kennt man den Namen einer Eigenschaft nicht im Voraus... vielleicht erh
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 console.log(user["name"]) // Alice
@@ -2570,8 +2571,8 @@ Wir können einen Schlüssel in einer Variablen speichern und ihn später für d
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 const key = "name"
@@ -2609,7 +2610,7 @@ Du kannst sogar einen dynamischen Schlüssel *bei der Erstellung* des Objekts in
 ```javascript
 const key = "language"
 const config = {
-[key]: "JavaScript"
+  [key]: "JavaScript"
 }
 
 console.log(config.language) // JavaScript
@@ -2627,8 +2628,8 @@ Lass uns mit einem einfachen Beispiel beginnen:
 const id = Symbol("userID")
 
 const user = {
-name: "Bob",
-[id]: 12345
+  name: "Bob",
+  [id]: 12345
 }
 
 console.log(user[id]) // 12345
@@ -2653,7 +2654,7 @@ Mit Symbolen kannst du Schlüssel definieren, die nicht mit regulären Schlüsse
 
 ```javascript
 const obj = {
-name: "John"
+  name: "John"
 }
 
 obj.name = "Jimmy"
@@ -2667,7 +2668,7 @@ Wenn wir stattdessen ein Symbol verwenden:
 const name = Symbol("name")
 
 const obj = {
-[name]: "John"
+  [name]: "John"
 }
 
 obj.name = "Jimmy"
@@ -2710,8 +2711,8 @@ Zeigt ein Array oder Objekt als Tabelle an:
 
 ```javascript
 const users = [
-{ name: "Alice", age: 25 },
-{ name: "Bob", age: 30 }
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 }
 ]
 
 console.table(users)
@@ -2949,12 +2950,12 @@ Anders als Arrays oder Maps sind reguläre Objekte **nicht iterierbar** mit `for
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 for (const value of user) {
-console.log(value)
+  console.log (value)
 }
 ```
 
@@ -2972,14 +2973,14 @@ Du kannst `Object.keys(obj)` verwenden, um ein Array mit den **Schlüsseln** des
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 const keys = Object.keys(user)
 
 for (const key of keys) {
-console.log(key)
+  console.log(key)
 }
 ```
 
@@ -2996,14 +2997,14 @@ Um eine Schleife über die **Werte** zu laufen, verwende `Object.values()`:
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 const values = Object.values(user)
 
 for (const value of values) {
-console.log(value)
+  console.log(value)
 }
 ```
 
@@ -3020,14 +3021,14 @@ Wenn du **sowohl den Schlüssel als auch den Wert** benötigst, verwende `Object
 
 ```javascript
 const user = {
-name: "Alice",
-age: 30
+  name: "Alice",
+  age: 30
 }
 
 const entries = Object.entries(user)
 
 for (const [key, value] of entries) {
-console.log(`${key} is ${value}`)
+  console.log(`${key} is ${value}`)
 }
 ```
 
@@ -3087,8 +3088,8 @@ const iterator = names[Symbol.iterator]() // use the Symbol.iterator function to
 let result = iterator.next()              // get the first element of the array
 
 while (!result.done) {                    // repeat this loop until you reach the last element of the array, which is marked with { done: true }
-console.log(result.value)               // print the value of each element
-result = iterator.next()                // get the next element of the array
+  console.log(result.value)               // print the value of each element
+  result = iterator.next()                // get the next element of the array
 }
 ```
 
@@ -3108,7 +3109,7 @@ Das gleiche Ergebnis erhalten wir mit
 const names = ["Lina", "Tom", "Eva"]
 
 for (const result of names) {
-console.log(result)
+  console.log(result)
 }
 ```
 
@@ -3120,33 +3121,33 @@ Nehmen wir an, wir wollen eine Klasse, die einen **Zahlenbereich** darstellt, et
 
 ```javascript
 class Range {
-constructor(start, end) {
-this.start = start
-this.end = end
-}
+    constructor(start, end) {
+        this.start = start
+        this.end = end
+    }
 
-[Symbol.iterator]() {
-let current = this.start
-const end = this.end
+    [Symbol.iterator]() {
+        let current = this.start
+        const end = this.end
 
-return {
-next() {
-if (current <= end) {
-const result = { value: current, done: false }
-current = current + 1
-return result
-} else {
-return { done: true }
-}
-}
-}
-}
+        return {
+            next() {
+                if (current <= end) {
+                    const result = { value: current, done: false }
+                    current = current + 1
+                    return result
+                } else {
+                    return { done: true }
+                }
+            }
+        }
+    }
 }
 
 const myRange = new Range(1, 5)
 
 for (const num of myRange) {
-console.log(num)
+  console.log(num)
 }
 ```
 
@@ -3178,9 +3179,9 @@ Versuchen wir es:
 
 ```javascript
 function* numberGenerator() {
-yield 1
-yield 2
-yield 3
+  yield 1
+  yield 2
+  yield 3
 }
 
 const iterator = numberGenerator()
@@ -3197,7 +3198,7 @@ Du kannst auch mit `for...of` eine Schleife über einen Generator ziehen:
 
 ```javascript
 for (const num of numberGenerator()) {
-console.log(num)
+  console.log(num)
 }
 ```
 
@@ -3226,8 +3227,8 @@ Beispiel:
 console.log("Start")
 
 setTimeout(
-() => console.log("This runs after 2 seconds"),
-2000
+  () => console.log("This runs after 2 seconds"),
+  2000
 )
 
 console.log("End")
@@ -3257,14 +3258,14 @@ Hier ist eine Funktion, die dies mit einem **Callback** erledigt:
 
 ```javascript
 function doubleNumbers(numbersArray, callback) {
-// Wir tun mit setTimeout so, als ob wir eine langsame Operation ausführen
-setTimeout(() => {
-// Wir nutzen Map um ein neues Array zu erzeugen, in dem jede Zahl verdoppelt wurde
-const doubled = numbersArray.map(n => n * 2)
+  // Wir tun mit setTimeout so, als ob wir eine langsame Operation ausführen
+  setTimeout(() => {
+    // Wir nutzen Map um ein neues Array zu erzeugen, in dem jede Zahl verdoppelt wurde
+    const doubled = numbersArray.map(n => n * 2)
 
-// Wenn dies fertig ist, rufen die Callback-function mit dem Ergebnis auf
-callback(doubled)
-}, 1000) // Wir warten eine Sekunde bevor wir den obigen Code ausführen
+    // Wenn dies fertig ist, rufen die Callback-function mit dem Ergebnis auf
+    callback(doubled)
+  }, 1000) // Wir warten eine Sekunde bevor wir den obigen Code ausführen
 }
 ```
 
@@ -3274,7 +3275,7 @@ Versuchen wir, diese Funktion zu nutzen:
 const input = [1, 2, 3]
 
 doubleNumbers(input, function(result) {
-console.log("Here is the doubled array:", result)
+  console.log("Here is the doubled array:", result)
 })
 ```
 
@@ -3295,11 +3296,11 @@ Diese Technik funktioniert, aber stellen Sie sich vor, Sie wollen danach **mehr 
 
 ```javascript
 doubleNumbers(input, function(doubled) {
-filterBigNumbers(doubled, function(filtered) {
-sumNumbers(filtered, function(total) {
-console.log("Final result:", total)
-})
-})
+    filterBigNumbers(doubled, function(filtered) {
+      sumNumbers(filtered, function(total) {
+        console.log("Final result:", total)
+    })
+  })
 })
 ```
 
@@ -3314,9 +3315,9 @@ Wir können ein Versprechen wie folgt erstellen:
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+  // Do something that takes time here...
 
-resolve("It worked!") // This means everything went OK
+  resolve("It worked!") // This means everything went OK
 })
 ```
 
@@ -3336,13 +3337,13 @@ Um etwas zu tun, **nachdem** das Versprechen erfüllt ist, verwenden wir `.then(
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+  // Do something that takes time here...
 
-resolve(100) // This means everything went OK
+  resolve(100) // This means everything went OK
 })
 
 promise.then(result => {
-console.log("The result is:", result)
+  console.log("The result is:", result)
 })
 ```
 
@@ -3358,11 +3359,11 @@ Lass uns eine Aufgabe simulieren, die 2 Sekunden dauert, indem wir `setTimeout` 
 
 ```javascript
 const delayedPromise = new Promise(
-(resolve, reject) => {
-setTimeout(
-() => resolve("Done waiting!"),
-2000
-)
+  (resolve, reject) => {
+    setTimeout(
+      () => resolve("Done waiting!"),
+      2000
+    )
 })
 
 delayedPromise.then(result => console.log(result))
@@ -3382,7 +3383,7 @@ Schaffen wir ein Versprechen, das **nicht funktioniert**:
 
 ```javascript
 const failingPromise = new Promise((resolve, reject) => {
-reject("Something went wrong")
+  reject("Something went wrong")
 })
 ```
 
@@ -3392,16 +3393,16 @@ Um Fehler zu behandeln, verwenden wir `.catch()`:
 
 ```javascript
 const failingPromise = new Promise((resolve, reject) => {
-reject("Something went wrong")
+  reject("Something went wrong")
 })
 
 failingPromise
-.then(
-result => console.log("This will NOT run:", result)
-)
-.catch(
-error => console.log("Caught an error:", error)
-)
+  .then(
+    result => console.log("This will NOT run:", result)
+  )
+  .catch(
+    error => console.log("Caught an error:", error)
+  )
 ```
 
 Dies führt zu dieser Ausgabe:
@@ -3416,13 +3417,13 @@ Erstellen wir ein Versprechen, das **manchmal funktioniert und manchmal nicht**,
 
 ```javascript
 function checkNumber(n) {
-return new Promise((resolve, reject) => {
-if (n > 0) {
-resolve("Positive number")
-} else {
-reject("Not a positive number")
-}
-})
+  return new Promise((resolve, reject) => {
+    if (n > 0) {
+      resolve("Positive number")
+    } else {
+      reject("Not a positive number")
+    }
+  })
 }
 ```
 
@@ -3430,12 +3431,12 @@ Jetzt können wir dies aufrufen und beide Fälle behandeln:
 
 ```javascript
 checkNumber(5)
-.then(
-msg => console.log("Success:", msg)
-)
-.catch(
-err => console.log("Failure:", err)
-)
+  .then(
+    msg => console.log("Success:", msg)
+  )
+  .catch(
+    err => console.log("Failure:", err)
+  )
 ```
 
 Dies wird ausgegeben:
@@ -3448,12 +3449,12 @@ Und wenn wir es mit einer anderen Zahl versuchen:
 
 ```javascript
 checkNumber(-1)
-.then(
-msg => console.log("Success:", msg)
-)
-.catch(
-err => console.log("Failure:", err)
-)
+  .then(
+    msg => console.log("Success:", msg)
+  )
+  .catch(
+    err => console.log("Failure:", err)
+  )
 ```
 
 wird dies ausgegeben:
@@ -3471,13 +3472,13 @@ Beginnen wir damit, eine neue Version unserer Verdopplungsfunktion zu schreiben,
 
 ```javascript
 function doubleNumbers(numbers) {
-return new Promise(resolve => {
-// Wait 1 second before doing the operation
-setTimeout(() => {
-const doubled = numbers.map(n => n * 2)
-resolve(doubled) // Return the result using resolve
-}, 1000)
-})
+  return new Promise(resolve => {
+    // Wait 1 second before doing the operation
+    setTimeout(() => {
+      const doubled = numbers.map(n => n * 2)
+      resolve(doubled) // Return the result using resolve
+    }, 1000)
+  })
 }
 ```
 
@@ -3485,20 +3486,20 @@ Jetzt können wir mit `.then()` JavaScript mitteilen, was mit dem Ergebnis gesch
 
 ```javascript
 function doubleNumbers(numbers) {
-return new Promise(resolve => {
-// Wait 1 second before doing the operation
-setTimeout(() => {
-const doubled = numbers.map(n => n * 2)
-resolve(doubled) // Return the result using resolve
-}, 1000)
-})
+  return new Promise(resolve => {
+    // Wait 1 second before doing the operation
+    setTimeout(() => {
+      const doubled = numbers.map(n => n * 2)
+      resolve(doubled) // Return the result using resolve
+    }, 1000)
+  })
 }
 
 const input = [1, 2, 3]
 
 doubleNumbers(input)
-.then(
-result => console.log("Doubled numbers:", result)
+  .then(
+    result => console.log("Doubled numbers:", result)
 )
 ```
 
@@ -3520,31 +3521,31 @@ Wir können für jeden Schritt eine Funktion schreiben, die alle Versprechen ver
 
 ```javascript
 function doubleNumbers(numbers) {
-return new Promise(resolve => {
-// Wait 1 second before doing the operation
-setTimeout(() => {
-const doubled = numbers.map(n => n * 2)
-resolve(doubled) // Return the result using resolve
-}, 1000)
-})
+  return new Promise(resolve => {
+    // Wait 1 second before doing the operation
+    setTimeout(() => {
+      const doubled = numbers.map(n => n * 2)
+      resolve(doubled) // Return the result using resolve
+    }, 1000)
+  })
 }
 
 function filterBigNumbers(numbers) {
-return new Promise(resolve => {
-setTimeout(() => {
-const filtered = numbers.filter(n => n > 3)
-resolve(filtered)
-}, 1000)
-})
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const filtered = numbers.filter(n => n > 3)
+      resolve(filtered)
+    }, 1000)
+  })
 }
 
 function sumNumbers(numbers) {
-return new Promise(resolve => {
-setTimeout(() => {
-const total = numbers.reduce((acc, n) => acc + n, 0)
-resolve(total)
-}, 1000)
-})
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const total = numbers.reduce((acc, n) => acc + n, 0)
+      resolve(total)
+    }, 1000)
+  })
 }
 ```
 
@@ -3554,11 +3555,11 @@ Jetzt können wir sie auf diese Weise miteinander **verketten**:
 const input = [1, 2, 3]
 
 doubleNumbers(input)
-.then(filterBigNumbers)
-.then(sumNumbers)
-.then(
-result => console.log("Final result after all steps:", result)
-)
+  .then(filterBigNumbers)
+  .then(sumNumbers)
+  .then(
+    result => console.log("Final result after all steps:", result)
+  )
 ```
 
 Dies wird ausgegeben:
@@ -3591,7 +3592,7 @@ Schauen wir uns ein einfaches Beispiel an:
 
 ```javascript
 async function greet() {
-return "hello"
+  return "hello"
 }
 ```
 
@@ -3628,12 +3629,12 @@ Lass uns das Beispiel unter Verwendung von `await` neu schreiben:
 
 ```javascript
 async function greet() {
-return "hello"
+  return "hello"
 }
 
 async function greetAndLog() {
-const result = await greet()
-console.log(result)
+  const result = await greet()
+  console.log(result)
 }
 
 greetAndLog() // prints "hello"
@@ -3649,9 +3650,9 @@ Wir werden eine einfache `wait`-Funktion erstellen, die eine Anzahl von Millisek
 
 ```javascript
 function wait(ms) {
-return new Promise(resolve => {
-setTimeout(resolve, ms)
-})
+  return new Promise(resolve => {
+    setTimeout(resolve, ms)
+  })
 }
 ```
 
@@ -3659,9 +3660,9 @@ Versuchen wir, es zu benutzen:
 
 ```javascript
 async function test() {
-console.log("waiting 2 seconds...")
-await wait(2000)
-console.log("done waiting")
+  console.log("waiting 2 seconds...")
+  await wait(2000)
+  console.log("done waiting")
 }
 
 test()
@@ -3686,30 +3687,30 @@ Wir werden 3 Funktionen erstellen, die das Warten simulieren und Promises zurüc
 
 ```javascript
 function doubleNumbers(numbers) {
-return new Promise(resolve => {
-setTimeout(() => {
-const doubled = numbers.map(n => n * 2)
-resolve(doubled)
-}, 1000)
-})
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const doubled = numbers.map(n => n * 2)
+      resolve(doubled)
+    }, 1000)
+  })
 }
 
 function filterBigNumbers(numbers) {
-return new Promise(resolve => {
-setTimeout(() => {
-const filtered = numbers.filter(n => n > 3)
-resolve(filtered)
-}, 1000)
-})
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const filtered = numbers.filter(n => n > 3)
+      resolve(filtered)
+    }, 1000)
+  })
 }
 
 function sumNumbers(numbers) {
-return new Promise(resolve => {
-setTimeout(() => {
-const total = numbers.reduce((acc, n) => acc + n, 0)
-resolve(total)
-}, 1000)
-})
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const total = numbers.reduce((acc, n) => acc + n, 0)
+      resolve(total)
+    }, 1000)
+  })
 }
 ```
 
@@ -3717,11 +3718,11 @@ Schreiben wir nun eine `async`-Funktion, um sie zu kombinieren:
 
 ```javascript
 async function process(numbers) {
-const doubled = await doubleNumbers(numbers)
-const filtered = await filterBigNumbers(doubled)
-const total = await sumNumbers(filtered)
+  const doubled = await doubleNumbers(numbers)
+  const filtered = await filterBigNumbers(doubled)
+  const total = await sumNumbers(filtered)
 
-console.log("Final result:", total)
+  console.log("Final result:", total)
 }
 
 const input = [1, 2, 3]
@@ -3769,11 +3770,11 @@ Wir können nun `for await...of` verwenden, um die Werte zu verbrauchen:
 
 ```javascript
 async function run() {
-for await (const n of generateNumbers()) {
-console.log("Got number:", n)
-}
+  for await (const n of generateNumbers()) {
+    console.log("Got number:", n)
+  }
 
-console.log("Done!")
+  console.log("Done!")
 }
 
 run()
@@ -3796,7 +3797,7 @@ Lass uns wieder einen Verzögerungshelfer machen:
 
 ```javascript
 function wait(ms) {
-return new Promise(resolve => setTimeout(resolve, ms))
+  return new Promise(resolve => setTimeout(resolve, ms))
 }
 ```
 
@@ -3804,14 +3805,14 @@ Lass uns nun **langsam** Zahlen liefern:
 
 ```javascript
 async function* generateSlowNumbers() {
-await wait(1000)
-yield 1
+  await wait(1000)
+  yield 1
 
-await wait(1000)
-yield 2
+  await wait(1000)
+  yield 2
 
-await wait(1000)
-yield 3
+  await wait(1000)
+  yield 3
 }
 ```
 
@@ -3819,17 +3820,17 @@ Probieren wir es aus:
 
 ```javascript
 async function run() {
-for await (const n of generateSlowNumbers()) {
-console.log("Got number:", n)
-}
+  for await (const n of generateSlowNumbers()) {
+    console.log("Got number:", n)
+  }
 
-console.log("Done!")
+  console.log("Done!")
 }
 
 run()
 ```
 
-### Warum asynchrone Iteratoren verwenden?
+### Warum sollte man asynchrone Iteratoren verwenden?
 
 Async-Iteratoren sind nützlich, wenn:
 
@@ -3848,20 +3849,20 @@ Hier ist ein Beispiel, das Zahlen mit einer Verzögerung erzeugt:
 
 ```javascript
 function wait(ms) {
-return new Promise(resolve => setTimeout(resolve, ms))
+  return new Promise(resolve => setTimeout(resolve, ms))
 }
 
 class DelayedNumbers {
-constructor(numbers) {
-this.numbers = numbers
-}
+  constructor(numbers) {
+    this.numbers = numbers
+  }
 
-async *[Symbol.asyncIterator]() {
-for (const n of this.numbers) {
-await wait(1000)
-yield n
-}
-}
+  async *[Symbol.asyncIterator]() {
+    for (const n of this.numbers) {
+      await wait(1000)
+      yield n
+    }
+  }
 }
 ```
 
@@ -3869,13 +3870,13 @@ Wir können nun `for await...of` genau wie zuvor verwenden:
 
 ```javascript
 async function run() {
-const source = new DelayedNumbers([10, 20, 30])
+  const source = new DelayedNumbers([10, 20, 30])
 
-for await (const n of source) {
-console.log("Received:", n)
-}
+  for await (const n of source) {
+    console.log("Received:", n)
+  }
 
-console.log("All done!")
+  console.log("All done!")
 }
 
 run()
@@ -3900,9 +3901,9 @@ Anstatt:
 let message
 
 if (isMorning) {
-message = "Good morning"
+  message = "Good morning"
 } else {
-message = "Hello"
+  message = "Hello"
 }
 ```
 
@@ -4242,7 +4243,7 @@ const greeting1 = "hello"
 const greeting2 = "hi"
 
 module.exports = {
-greeting1, greeting2
+  greeting1, greeting2
 }
 ```
 
@@ -4276,7 +4277,7 @@ Du kannst verschiedene Deklarationen an verschiedenen Stellen der Datei exportie
 export const num = 10
 
 export function double (x) {
-return x*2
+  return x*2
 }
 ```
 
@@ -4379,11 +4380,11 @@ Anstatt das Ergebnis direkt zurückzugeben, wird eine Funktion (ein **Callback**
 const fs = require("fs")
 
 fs.readFile("example.txt", "utf8", (err, data) => {
-if (err) {
-console.error("Error reading file:", err)
-} else {
-console.log(data)
-}
+  if (err) {
+    console.error("Error reading file:", err)
+  } else {
+    console.log(data)
+  }
 })
 ```
 
@@ -4401,11 +4402,11 @@ So schreibt man in eine Datei:
 const fs = require("fs")
 
 fs.writeFile("output.txt", "Hello async!", (err) => {
-if (err) {
-console.error("Error writing file:", err)
-} else {
-console.log("File written!")
-}
+  if (err) {
+    console.error("Error writing file:", err)
+  } else {
+    console.log("File written!")
+  }
 })
 ```
 
@@ -4418,38 +4419,38 @@ const fs = require("fs")
 
 // List files and folders
 fs.readdir(".", (err, items) => {
-if (err) return console.error(err)
-console.log("Items in current directory:", items)
+  if (err) return console.error(err)
+  console.log("Items in current directory:", items)
 })
 
 // Create folder
 fs.mkdir("my_folder", (err) => {
-if (err) return console.error(err)
-console.log("Folder created")
+  if (err) return console.error(err)
+  console.log("Folder created")
 })
 
 // Delete folder
 fs.rmdir("my_folder", (err) => {
-if (err) return console.error(err)
-console.log("Folder deleted")
+  if (err) return console.error(err)
+  console.log("Folder deleted")
 })
 
 // Create & write file
 fs.writeFile("my_file.txt", "Hello world", (err) => {
-if (err) return console.error(err)
-console.log("File created & written")
+  if (err) return console.error(err)
+  console.log("File created & written")
 })
 
 // Read file
 fs.readFile("my_file.txt", "utf8", (err, content) => {
-if (err) return console.error(err)
-console.log("File content:", content)
+  if (err) return console.error(err)
+  console.log("File content:", content)
 })
 
 // Delete file
 fs.unlink("my_file.txt", (err) => {
-if (err) return console.error(err)
-console.log("File deleted")
+  if (err) return console.error(err)
+  console.log("File deleted")
 })
 ```
 
@@ -4471,12 +4472,12 @@ Verwendung von `.then()`:
 const fs = require("fs").promises
 
 fs.readFile("example.txt", "utf8")
-.then(data => {
-console.log(data)
-})
-.catch(err => {
-console.error("Error reading file:", err)
-})
+  .then(data => {
+    console.log(data)
+  })
+  .catch(err => {
+    console.error("Error reading file:", err)
+  })
 ```
 
 Oder noch besser, mit `async/await`:
@@ -4485,12 +4486,12 @@ Oder noch besser, mit `async/await`:
 const fs = require("fs").promises
 
 async function readFile(fileName) {
-try {
-const data = await fs.readFile(fileName, "utf8")
-console.log(data)
-} catch (err) {
-console.error("Error reading file:", err)
-}
+  try {
+    const data = await fs.readFile(fileName, "utf8")
+    console.log(data)
+  } catch (err) {
+    console.error("Error reading file:", err)
+  }
 }
 
 readFile("example.txt")
@@ -4502,12 +4503,12 @@ Schreiben in eine Datei:
 const fs = require("fs").promises
 
 async function writeFile(fileName, content) {
-try {
-await fs.writeFile(fileName, content)
-console.log("File written!")
-} catch (err) {
-console.error("Error writing file:", err)
-}
+  try {
+    await fs.writeFile(fileName, content)
+    console.log("File written!")
+  } catch (err) {
+    console.error("Error writing file:", err)
+  }
 }
 
 writeFile("output.txt", "Hello from promises!")
@@ -4520,29 +4521,29 @@ const fs = require("fs").promises
 
 // Use an async function to await operations
 async function main() {
-// List files and folders
-const items = await fs.readdir(".")
-console.log("Items in current directory:", items)
+  // List files and folders
+  const items = await fs.readdir(".")
+  console.log("Items in current directory:", items)
 
-// Create folder
-await fs.mkdir("my_folder")
-console.log("Folder created")
+  // Create folder
+  await fs.mkdir("my_folder")
+  console.log("Folder created")
 
-// Delete folder
-await fs.rmdir("my_folder")
-console.log("Folder deleted")
+  // Delete folder
+  await fs.rmdir("my_folder")
+  console.log("Folder deleted")
 
-// Create & write file
-await fs.writeFile("my_file.txt", "Hello world")
-console.log("File created & written")
+  // Create & write file
+  await fs.writeFile("my_file.txt", "Hello world")
+  console.log("File created & written")
 
-// Read file
-const content = await fs.readFile("my_file.txt", "utf8")
-console.log("File content:", content)
+  // Read file
+  const content = await fs.readFile("my_file.txt", "utf8")
+  console.log("File content:", content)
 
-// Delete file
-await fs.unlink("my_file.txt")
-console.log("File deleted")
+  // Delete file
+  await fs.unlink("my_file.txt")
+  console.log("File deleted")
 }
 
 main().catch(err => console.error(err))
@@ -4621,17 +4622,17 @@ Hier ist ein Beispiel:
 
 ```json
 {
-"name": "my_project",
-"version": "1.0.0",
-"description": "",
-"main": "index.js",
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit 1"
-},
-"keywords": [],
-"author": "",
-"license": "ISC",
-"type": "commonjs"
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
 
 ```
@@ -4663,7 +4664,7 @@ Du kannst es nun in deinem Projekt verwenden. Erstelle eine Datei `index.js` mit
 const pico = require('picocolors')
 
 console.log(
-pico.green("This text is green!")
+  pico.green("This text is green!")
 )
 ```
 
@@ -4691,7 +4692,7 @@ Beispiel:
 
 ```json
 "dependencies": {
-"picocolors": "^1.1.0"
+  "picocolors": "^1.1.0"
 }
 ```
 
@@ -4740,10 +4741,10 @@ Wenn du dies ausführst, siehst du etwas wie:
 
 ```
 {
-"userId": 1,
-"id": 1,
-"title": "...",
-"body": "..."
+  "userId": 1,
+  "id": 1,
+  "title": "...",
+  "body": "..."
 }
 ```
 
@@ -4763,9 +4764,9 @@ JSON ist nur ein Textformat, das JavaScript-Objekten sehr ähnlich sieht. Zum Be
 
 ```json
 {
-"name": "Alice",
-"age": 30,
-"likes": ["apples", "bananas"]
+  "name": "Alice",
+  "age": 30,
+  "likes": ["apples", "bananas"]
 }
 ```
 
@@ -4823,12 +4824,12 @@ Hier ist ein sehr einfaches Beispiel:
 const http = require("http")
 
 const server = http.createServer((req, res) => {
-res.statusCode = 200
-res.end("Hello from NodeJS server!")
+  res.statusCode = 200
+  res.end("Hello from NodeJS server!")
 })
 
 server.listen(3000, () => {
-console.log("Server running at http://localhost:3000/")
+  console.log("Server running at http://localhost:3000/")
 })
 ```
 
@@ -4853,16 +4854,16 @@ Beispiel mit Routing:
 
 ```javascript
 const server = http.createServer((req, res) => {
-if (req.url === "/") { // handle requests for the root of the website
-res.statusCode = 200
-res.end("Home page")
-} else if (req.url === "/about") { // handle requests for the about page
-res.statusCode = 200
-res.end("About page")
-} else {
-res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
-res.end("Not Found")
-}
+  if (req.url === "/") { // handle requests for the root of the website
+    res.statusCode = 200
+    res.end("Home page")
+  } else if (req.url === "/about") { // handle requests for the about page
+    res.statusCode = 200
+    res.end("About page")
+  } else {
+    res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
+    res.end("Not Found")
+  }
 })
 ```
 
@@ -4964,7 +4965,7 @@ const emitter = new EventEmitter()
 
 // Warten ("listen") auf ein Event
 emitter.on("greet", () => {
-console.log("Hello! An event happened.") // dies wird ausgegeben, wenn ein "greet" event ausgelöst wird
+  console.log("Hello! An event happened.") // dies wird ausgegeben, wenn ein "greet" event ausgelöst wird
 })
 
 // Löse das Event aus
@@ -4988,7 +4989,7 @@ Du kannst mit dem Ereignis weitere Daten übergeben:
 
 ```javascript
 emitter.on("greet",
-(name) => console.log(`Hello, ${name}!`)
+  (name) => console.log(`Hello, ${name}!`)
 )
 
 emitter.emit("greet", "Alice") // Das erste Argument ist vom Typ Event, das zweite Argument sind die Daten die wir dem Event mitgeben
@@ -5004,7 +5005,7 @@ Du kannst Zuhörer (listener) auch für andere Ereignisse registrieren:
 
 ```javascript
 emitter.on("goodbye", () => {
-console.log("Goodbye!")
+  console.log("Goodbye!")
 })
 
 emitter.emit("goodbye")
@@ -5040,19 +5041,19 @@ Nehmen wir an, Du hast eine `bigfile.txt` zu verarbeiten. Du kannst einen lesbar
 const fs = require("fs")
 
 const readableStream = fs.createReadStream(
-"bigfile.txt"
+  "bigfile.txt"
 )
 
 readableStream.on("data", (chunk) => {
-console.log("Received chunk:", chunk)
+  console.log("Received chunk:", chunk)
 })
 
 readableStream.on("end", () => {
-console.log("Finished reading file.")
+  console.log("Finished reading file.")
 })
 
 readableStream.on("error", (err) => {
-console.error("Error reading file:", err)
+  console.error("Error reading file:", err)
 })
 ```
 
@@ -5071,20 +5072,20 @@ Wenn wir wollen, dass die Daten in einer für den Menschen lesbaren Form (statt 
 const fs = require("fs")
 
 const readableStream = fs.createReadStream(
-"bigfile.txt",
-{ encoding: "utf8" } // wir sagen NodeJS, dass die Datei wie ein utf8 gelesen werden soll
+  "bigfile.txt",
+  { encoding: "utf8" } // wir sagen NodeJS, dass die Datei wie ein utf8 gelesen werden soll
 )
 
 readableStream.on("data", (chunk) => {
-console.log("Received chunk:", chunk)
+  console.log("Received chunk:", chunk)
 })
 
 readableStream.on("end", () => {
-console.log("Finished reading file.")
+  console.log("Finished reading file.")
 })
 
 readableStream.on("error", (err) => {
-console.error("Error reading file:", err)
+  console.error("Error reading file:", err)
 })
 ```
 
@@ -5106,11 +5107,11 @@ stream.write("Second line\n")
 stream.end("Finished writing\n")
 
 stream.on("finish", () => {
-console.log("All data written.")
+  console.log("All data written.")
 })
 
 stream.on("error", err => {
-console.error("Error:", err)
+  console.error("Error:", err)
 })
 ```
 
@@ -5153,17 +5154,17 @@ Hier ist ein sehr einfaches Beispiel, das das Modul `net` verwendet:
 const net = require("net")
 
 const server = net.createServer((socket) => {
-socket.write("Welcome!\n")
+  socket.write("Welcome!\n")
 
-socket.on("data", (chunk) => {
-console.log("Received:",
-chunk.toString()  // we convert the chunk of data from Buffer to string
-)
-})
+  socket.on("data", (chunk) => {
+    console.log("Received:",
+      chunk.toString()  // we convert the chunk of data from Buffer to string
+    )
+  })
 })
 
 server.listen(3000, () => {
-console.log("Server listening on port 3000")
+  console.log("Server listening on port 3000")
 })
 ```
 
@@ -5172,7 +5173,7 @@ In diesem Beispiel:
 * Ist das `socket`-Objekt ist Duplex-Stream.
 * Man kann darauf "schreiben" (`write()`) und auch auf "Data"-Ereignisse warten.
 
-### Ströme umwandeln
+### Datenströme umwandeln
 
 Ein Transformationsstrom (transform stream) ist ein Duplexstrom, der die Daten, die ihn durchlaufen, ebenfalls verändert.
 
@@ -5189,11 +5190,11 @@ const zip = zlib.createGzip()                           // erzeugt ein Transorma
 const writable = fs.createWriteStream("bigfile.txt.gz") // erzeugt einen beschreibbaren Steam der in eine Datei schreibt
 
 readable        // nimm denn lesbaren Stream
-.pipe(zip)      // verknüpfe in mit dem Transformationsstrom um die Daten zu komprimieren
-.pipe(writable) // dann verknüpfe den Ausgang in den beschreibbaren Stream um die Daten in eine Zip-Datei zu speichern
+  .pipe(zip)      // verknüpfe in mit dem Transformationsstrom um die Daten zu komprimieren
+  .pipe(writable) // dann verknüpfe den Ausgang in den beschreibbaren Stream um die Daten in eine Zip-Datei zu speichern
 
 writable.on("finish", () => {
-console.log("File compressed.")
+  console.log("File compressed.")
 })
 ```
 
@@ -5207,7 +5208,7 @@ const writable = fs.createWriteStream("bigfile.txt")
 readable.pipe(unzip).pipe(writable)
 
 writable.on("finish", () => {
-console.log("File decompressed.")
+  console.log("File decompressed.")
 })
 ```
 
@@ -5227,14 +5228,14 @@ const writable = fs.createWriteStream("copy.txt")
 
 readable.on("data", chunk => {               // Jeden Brocken den wir vom lesbaren Stream eralten...
 
-const canContinue = writable.write(chunk)  // ...senden wir an den beschreibbaren Stream, der uns einen Boolean zurückgibt, ob wir weiter machen können
+  const canContinue = writable.write(chunk)  // ...senden wir an den beschreibbaren Stream, der uns einen Boolean zurückgibt, ob wir weiter machen können
 
-if (!canContinue) { readable.pause() }     // ...falls das nicht möglich ist, machen wie eine vorübergehende Pause
+  if (!canContinue) { readable.pause() }     // ...falls das nicht möglich ist, machen wie eine vorübergehende Pause
 })
 
 writable.on("drain",                // Der beschreibbare Stream löst ein "drain" Event aus, wenn der Rückstau behoben ist ...
 
-() => { readable.resume() }      // also machen wir weiter mit dem Lesen (und Schreiben)
+  () => { readable.resume() }      // also machen wir weiter mit dem Lesen (und Schreiben)
 
 )
 ```

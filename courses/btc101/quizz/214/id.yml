@@ -6,4 +6,4 @@ wrong_answers:
   - Perutean multi-hop
 explanation: |
   Hanya pembukaan dan penutupan kanal Lightning yang sesuai dengan transaksi Bitcoin yang dipublikasikan di blockchain.
-reviewed: false
+reviewed: true

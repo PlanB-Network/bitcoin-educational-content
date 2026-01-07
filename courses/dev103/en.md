@@ -2083,11 +2083,11 @@ So if you change one, it doesn’t affect the other.
 
 This happens with primitive types, like:
 
-*numbers*
-*strings*
-*booleans* (`true` and `false`)
-`null`
-`*undefined*`
+* numbers
+* strings
+* booleans (`true` and `false`)
+* `null`
+* `undefined`
 
 Let’s look at an example:
 
@@ -2280,8 +2280,8 @@ The spread operator is useful when you don’t know how many arguments will be p
 
 A **higher-order function** is a function that:
 
-*takes another function as input*
-*and/or* returns a function as output
+* takes another function as input
+* and/or returns a function as output
 
 Here’s a simple example:
 
@@ -2854,8 +2854,8 @@ Maps are great for managing large collections of values, because accessing value
 
 A `Set` is a collection of **values only** (no keys), where each value must be **unique**. That means:
 
-*You can't have the same value twice*
-*The values are stored in the order you add them*
+* You can't have the same value twice
+* The values are stored in the order you add them
 
 You create a set like this:
 
@@ -3791,9 +3791,9 @@ run()
 
 Async iterators are useful when:
 
-*The values don't all arrive at once.*
-*You want to handle them one at a time,* **as they come**.
-**You're working with Promises, and want to loop in a clean way.**
+* The values don't all arrive at once.
+* You want to handle them one at a time,* **as they come**.
+* **You're working with Promises, and want to loop in a clean way.**
 
 For example, if you want to load messages from a chat server one by one, or download a large file in chunks, async iterators give you a way to write a `for` loop that works with delayed data.
 
@@ -4344,9 +4344,9 @@ fs.readFile("example.txt", "utf8", (err, data) => {
 
 Here’s what happens:
 
-`fs.readFile` starts reading `example.txt`.
-*NodeJS does not wait, it moves on to execute other code you might have written.*
-*When the file is done reading, the callback runs:*
+* `fs.readFile` starts reading `example.txt`.
+* NodeJS does not wait, it moves on to execute other code you might have written.
+* When the file is done reading, the callback runs:
 
   * If there was an error, `err` contains the error.
   * Otherwise, `data` contains the contents.
@@ -4514,9 +4514,9 @@ Instead of downloading and copying files manually, you can use a **package manag
 
 A package manager is a tool that:
 
-*downloads packages*
-*keeps track of which packages your project needs*
-**makes sure everyone on your team has the same versions of the packages**
+* downloads packages
+* keeps track of which packages your project needs
+* makes sure everyone on your team has the same versions of the packages
 
 ### What is NPM
 
@@ -4895,10 +4895,10 @@ In JavaScript, an **event** is something that happens in your program that you c
 
 For example:
 
-*a file finishes loading*
-*a timer goes off*
-*a user clicks a button*
-*a network request returns data*
+* a file finishes loading
+* a timer goes off
+* a user clicks a button
+* a network request returns data
 
 An **event** is just a signal that something happened, and you can write code to listen for those events and react to them.
 
@@ -5088,8 +5088,8 @@ readable.pipe(writable)
 
 Here:
 
-*The readable stream reads from `bigfile.txt`.*
-*The writable stream writes to `copy.txt`.*
+* The readable stream reads from `bigfile.txt`.
+* The writable stream writes to `copy.txt`.
 * `.pipe()` sends the data directly from the readable to the writable stream.
 
 ### Duplex streams
@@ -5118,8 +5118,8 @@ server.listen(3000, () => {
 
 In this example:
 
-*The `socket` object is a duplex stream.*
-*You can `write()` to it and also listen for `data` events from it.*
+* The `socket` object is a duplex stream.
+* You can `write()` to it and also listen for `data` events from it.
 
 ### Transform streams
 

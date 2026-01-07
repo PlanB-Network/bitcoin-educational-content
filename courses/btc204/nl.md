@@ -2492,19 +2492,19 @@ De huidige gebruikers geven daarom de voorkeur aan CoinJoin, omdat ze gedurende 
 De privacy die een CoinJoin biedt, wordt verdiend door de grootte van de groep waarin ons stuk verborgen is. Dit betekent dat we zoveel mogelijk deelnemers moeten vinden. Het is perfect mogelijk om handmatig een CoinJoin te maken, met gebruikers die we zelf hebben gevonden, maar dit is een ingewikkeld proces, en je zult er geen grote anonsets mee winnen.
 
 
-Daarom hebben CoinJoin coördinatoren zich ontwikkeld op Bitcoin. Hun rol is om de verschillende gebruikers met elkaar in contact te brengen en de informatie door te geven die nodig is om de gezamenlijke transactie te voltooien.
+Daarom hebben CoinJoin-coördinatoren zich ontwikkeld op Bitcoin. Hun rol is om de verschillende gebruikers met elkaar in contact te brengen en de informatie door te geven die nodig is om de gezamenlijke transactie te voltooien.
 
 
 ![BTC204](assets/nl/122.webp)
 
 
-Maar hoe kunnen we ervoor zorgen dat de coördinator nooit de bitcoins van gebruikers in handen heeft, en ondanks het feit dat hij de persoon is die de CoinJoin transactie bouwt, hoe kunnen we ervoor zorgen dat hij de inputs en outputs van gebruikers niet kan koppelen, wat een vertrouwelijkheidslek zou kunnen vormen?
+Maar hoe kunnen we ervoor zorgen dat de coördinator nooit de bitcoins van gebruikers in handen heeft, en ondanks het feit dat hij de persoon is die de CoinJoin-transactie bouwt, hoe kunnen we ervoor zorgen dat hij de inputs en outputs van gebruikers niet kan koppelen, wat een vertrouwelijkheidslek zou kunnen vormen?
 
 
-### Chaums blinde handtekeningen
+### Chaum's blinde handtekeningen
 
 
-Moderne CoinJoin implementaties gebruiken David Chaum's blinde handtekeningen om het lekken van informatie te voorkomen. Laten we eens kijken hoe deze blinde handtekeningen werken.
+Moderne CoinJoin-implementaties gebruiken David Chaum's blinde handtekeningen (blind signatures) om het lekken van informatie te voorkomen. Laten we eens kijken hoe deze blinde handtekeningen werken.
 
 
 Chaum's blinde handtekeningen zijn een vorm van digitale handtekening waarbij de uitgever van een handtekening de inhoud van het bericht dat hij ondertekent niet kent. Maar de handtekening kan dan worden geverifieerd aan de hand van het originele bericht. Deze techniek werd in 1983 ontwikkeld door cryptograaf David Chaum.
@@ -2513,27 +2513,27 @@ Chaum's blinde handtekeningen zijn een vorm van digitale handtekening waarbij de
 ![BTC204](assets/nl/123.webp)
 
 
-Laten we het voorbeeld nemen van een bedrijf dat een vertrouwelijk document, zoals een Contract, wil authenticeren zonder de inhoud te onthullen. Het bedrijf past een maskeerproces toe dat het originele document cryptografisch omvormt op een omkeerbare manier. Dit gewijzigde document wordt naar een certificeringsinstantie gestuurd, die een blinde handtekening aanbrengt zonder de onderliggende inhoud te kennen. Na ontvangst van het ondertekende document ontmaskert het bedrijf de handtekening. Het resultaat is een origineel document dat is geverifieerd door de handtekening van de certificeringsinstantie, zonder dat deze ooit de originele inhoud heeft gezien.
+Laten we het voorbeeld nemen van een bedrijf dat een vertrouwelijk document, zoals een contract, wil authenticeren zonder de inhoud te onthullen. Het bedrijf past een maskeerproces toe dat het originele document cryptografisch omvormt op een omkeerbare manier. Dit gewijzigde document wordt naar een certificeringsinstantie gestuurd, die een blinde handtekening aanbrengt zonder de onderliggende inhoud te kennen. Na ontvangst van het ondertekende document ontmaskert het bedrijf de handtekening. Het resultaat is een origineel document dat is geverifieerd door de handtekening van de certificeringsinstantie, zonder dat deze ooit de originele inhoud heeft gezien.
 
 
 Chaum's blinde handtekeningen kunnen daarom de authenticiteit van een document certificeren zonder de inhoud ervan te kennen, waardoor zowel de vertrouwelijkheid van de gegevens van de gebruiker als de integriteit van het ondertekende document wordt gegarandeerd.
 
 
-### Chaumian sluit zich aan bij
+### Chaumian coinjoins
 
 
 Zogenaamde "Chaumian" coinjoins combineren het gebruik van Tor en David Chaum's blinde handtekeningen om ervoor te zorgen dat de coördinator niet kan weten welke output bij welke gebruiker hoort.
 
 
-Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistratie, uitvoerregistratie en transactieondertekening. Laten we dit proces bekijken aan de hand van het voorbeeld van Alice, één van de CoinJoin deelnemers. Alle andere deelnemers volgen dezelfde stappen als Alice, ieder voor zich.
+Het CoinJoin-transactieconstructieproces bestaat uit 3 hoofdfasen: input-registratie, output-registratie en transactie-ondertekening. Laten we dit proces bekijken aan de hand van het voorbeeld van Alice, één van de CoinJoin-deelnemers. Alle andere deelnemers volgen dezelfde stappen als Alice, ieder voor zich.
 
 
-**Stap 1: Invoerregistratie**
+**Stap 1: Input-registratie**
 
 
 
 
-- Alice stuurt de coördinator de UTXO die ze wil gebruiken als input voor de transactie, evenals de gemaskeerde ontvangst adres die ze wil gebruiken als output om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de adres van Alice weten. Hij ziet alleen haar gemaskerde versie:
+- Alice stuurt de coördinator de UTXO die ze wil gebruiken als input voor de transactie, evenals het gemaskeerde ontvangstadres die ze wil gebruiken als output om haar bitcoins te ontvangen. De coördinator kan dus op geen enkele manier de adres van Alice weten. Hij ziet alleen haar gemaskeerde versie:
 
 
 ![BTC204](assets/nl/124.webp)
@@ -2541,13 +2541,13 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- De coördinator controleert de geldigheid van de ingangen en ondertekent dan de gemaskeerde adres van Alice met zijn privésleutel. Hij stuurt de blinde handtekening terug naar Alice:
+- De coördinator controleert de geldigheid van de inputs en ondertekent dan het gemaskeerde adres van Alice met zijn privésleutel. Hij stuurt de blinde handtekening terug naar Alice:
 
 
 ![BTC204](assets/nl/125.webp)
 
 
-**Stap 2: Uitvoerregistratie**
+**Stap 2: Output-registratie**
 
 
 
@@ -2560,7 +2560,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice stuurt de ongemaskeerde adres en handtekening naar de coördinator (die nog steeds niet weet dat het Alice is):
+- Alice stuurt het ongemaskeerde adres en handtekening naar de coördinator (die nog steeds niet weet dat het Alice is):
 
 
 ![BTC204](assets/nl/127.webp)
@@ -2571,7 +2571,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Op dezelfde manier haalt de coördinator de ongemaskerde output van alle deelnemers op. Dankzij de bijbehorende handtekeningen kan hij controleren of elke anoniem ingediende output vooraf is ondertekend door zijn privésleutel, waardoor hun legitimiteit is gegarandeerd. Hij is dan klaar om de CoinJoin transactie op te bouwen en deze ter ondertekening naar de deelnemers te sturen:
+- Op dezelfde manier haalt de coördinator de ongemaskerde output van alle deelnemers op. Dankzij de bijbehorende handtekeningen kan hij controleren of elke anoniem ingediende output vooraf is ondertekend door zijn privésleutel, waardoor hun legitimiteit is gegarandeerd. Hij is dan klaar om de CoinJoin-transactie op te bouwen en deze ter ondertekening naar de deelnemers te sturen:
 
 
 ![BTC204](assets/nl/128.webp)
@@ -2579,7 +2579,7 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Alice controleert, net als de andere deelnemers, of haar input en output correct zijn opgenomen in de transactie die door de coördinator is geconstrueerd. Als alles naar wens is, stuurt ze de handtekening die haar invoerscript ontsluit naar de coördinator:
+- Alice controleert, net als de andere deelnemers, of haar input en output correct zijn opgenomen in de transactie die door de coördinator is geconstrueerd. Als alles naar wens is, stuurt ze de handtekening die haar inputscript ontsluit naar de coördinator:
 
 
 ![BTC204](assets/nl/129.webp)
@@ -2587,35 +2587,35 @@ Het CoinJoin transactieconstructieproces bestaat uit 3 hoofdfasen: invoerregistr
 
 
 
-- Na het verzamelen van handtekeningen van alle CoinJoin deelnemers, kan de coördinator de transactie uitzenden op het Bitcoin netwerk, zodat deze kan worden toegevoegd aan een blok.
+- Na het verzamelen van handtekeningen van alle CoinJoin-deelnemers, kan de coördinator de transactie uitzenden op het Bitcoin-netwerk, zodat deze kan worden toegevoegd aan een blok.
 
 
 In dit systeem kan de coördinator geen input koppelen aan een specifieke output. Bovendien kan hij zich de fondsen van de deelnemers niet toe-eigenen, omdat hij nooit toegang heeft tot de privésleutels die nodig zijn om hun UTXO's te ontgrendelen. Gedurende het hele proces, tot het einde van stap 3, heeft hij ook geen toegang tot de handtekeningen. Wanneer Alice en de andere deelnemers de globale transactie ondertekenen, nadat ze hebben gecontroleerd of alles correct is, kan de coördinator de transactie niet meer wijzigen, inclusief de output, zonder deze ongeldig te maken. Dit voorkomt dat de coördinator bitcoins kan stelen.
 
 
-Tenslotte wil de gebruiker van CoinJoin bij het registreren van zijn output in de transactie garanties hebben die vergelijkbaar zijn met die van een burger die stemt bij een verkiezing. Er is een dualiteit tussen de publieke en private aspecten van deze acties. Aan de ene kant is er wat je privé wilt houden: voor de kiezer wil hij niet dat zijn stembiljet gekoppeld wordt aan zijn identiteit; voor de CoinJoin gebruiker wil hij niet dat zijn output geassocieerd wordt met zijn input. Sterker nog, als de coördinator, of een andere partij, erin slaagt een link te leggen tussen een input en een output, verliest de CoinJoin alle interesse. Zoals hierboven uitgelegd, moet de CoinJoin functioneren als een onderbreking in de geschiedenis van een munt. Deze onderbreking ontstaat juist door de onmogelijkheid om een specifieke input te associëren met een specifieke output in de CoinJoin transactie (prospectieve anonset) en vice versa (retrospectieve anonset).
+Tenslotte wil de gebruiker van CoinJoin bij het registreren van zijn output in de transactie garanties hebben die vergelijkbaar zijn met die van een burger die stemt bij een verkiezing. Er is een dualiteit tussen de publieke en private aspecten van deze acties. Aan de ene kant is er wat je privé wilt houden: voor de kiezer wil hij niet dat zijn stembiljet gekoppeld wordt aan zijn identiteit; voor de CoinJoin gebruiker wil hij niet dat zijn output geassocieerd wordt met zijn input. Sterker nog, als de coördinator, of een andere partij, erin slaagt een link te leggen tussen een input en een output, verliest de CoinJoin alle interesse. Zoals hierboven uitgelegd, moet de CoinJoin functioneren als een onderbreking in de geschiedenis van een munt. Deze onderbreking ontstaat juist door de onmogelijkheid om een specifieke input te associëren met een specifieke output in de CoinJoin-transactie (prospectieve anonset) en vice versa (retrospectieve anonset).
 
 
-Aan de andere kant is er het publieke aspect: de kiezer wil er zeker van zijn dat zijn stembiljet in de stembus zit; net zo wil de CoinJoin gebruiker er zeker van zijn dat zijn output in de CoinJoin transactie zit. Inderdaad, CoinJoin deelnemers moeten absoluut in staat zijn om de aanwezigheid van hun output te verifiëren voordat ze de transactie ondertekenen, anders zou de coördinator het geld kunnen stelen.
+Aan de andere kant is er het publieke aspect: de kiezer wil er zeker van zijn dat zijn stembiljet in de stembus zit; net zo wil de CoinJoin-gebruiker er zeker van zijn dat zijn output in de CoinJoin-transactie zit. Inderdaad, CoinJoin deelnemers moeten absoluut in staat zijn om de aanwezigheid van hun output te verifiëren voordat ze de transactie ondertekenen, anders zou de coördinator het geld kunnen stelen.
 
 
 Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het gebruik van David Chaum's blinde handtekeningen, die deelnemers aan Chaumian coinjoins garanderen dat hun bitcoins niet gestolen zullen worden, en dat hun fondsen niet getraceerd kunnen worden.
 
 
-### Wie heeft het CoinJoin concept uitgevonden?
+### Wie heeft het CoinJoin-concept uitgevonden?
 
 
-Het is Hard om met zekerheid te zeggen wie het CoinJoin idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
+Het is moeilijk om met zekerheid te zeggen wie het CoinJoin-idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en exchange adressen) en een cryptografisch blinded versie van de adres waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
+> *"Met behulp van Chaum's blinde handtekeningen: gebruikers loggen in en geven inputs (en exchange adressen) en een cryptografisch blinded versie van het adres waarnaar ze hun private UTXO's willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
 Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
 ![BTC204](assets/nl/130.webp)
 
 
-Er zijn echter andere eerdere vermeldingen, zowel voor Chaum-handtekeningen als onderdeel van mixen, maar ook voor coinjoins. [In juni 2011 presenteerde Duncan Townsend op BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) een mixer die Chaum-handtekeningen gebruikt op een manier die erg lijkt op moderne Chaumiaanse coinjoins.
+Er zijn echter andere eerdere vermeldingen, zowel voor Chaum-handtekeningen bij het mixen van UTXOs, maar ook voor coinjoins. [In juni 2011 presenteerde Duncan Townsend op BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) een mixer die Chaum-handtekeningen gebruikt op een manier die erg lijkt op moderne Chaumiaanse coinjoins.
 
 
 In dezelfde thread vinden we [een bericht van hashcoin in antwoord op Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) om zijn mixer te verbeteren. Het proces dat in dit bericht wordt beschreven is precies waar coinjoins over gaan. Vermelding van een soortgelijk systeem is ook te vinden in [een bericht van Alex Mizrahi in 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), toen hij advies gaf aan de makers van Tenebrix, een van de eerste altcoins die als basis diende voor de latere creatie van Litecoin. Zelfs de term "CoinJoin" zelf zou niet bedacht zijn door Greg Maxwell, maar afkomstig zijn van een idee van Peter Todd.
@@ -4890,7 +4890,7 @@ $$ c' = c \oplus f2 $$
 Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
 
 
-Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
+Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin-netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
 
 
 Ik zal de stappen die we net hebben gezien samenvatten om een meldingstransactie uit te voeren:

@@ -2292,16 +2292,16 @@ Naast het voor de hand liggende voordeel voor je privacy, verzekert het hebben v
 Zoals je kunt zien, is het in het belang van vertrouwelijkheid en individuele soevereiniteit essentieel om je eigen complete node te gebruiken!
 
 
-### Analyse heuristieken misleiden
+### Misleiden van analyse heuristieken 
 
 
 Meer in het algemeen is het belangrijk om de heuristieken waar we het in de vorige sectie over hadden te begrijpen, zodat je ze beter kunt vermijden of misleiden. Het toepassen van een aantal best practices kan nuttig zijn, zelfs als ze niet essentieel zijn. Ze bieden een extra beschermingslaag die belangrijk kan zijn bij het handhaven van vertrouwelijkheid bij het gebruik van Bitcoin.
 
 
-Het eerste advies dat ik kan geven, is om op te gaan in de dichtste menigte. Op Bitcoin betekent dit het gebruik van de meest gebruikte scriptsjablonen. P2WSH scripts bijvoorbeeld, vaak gebruikt voor SegWit V0 Multisig configuraties, zijn erg ongebruikelijk. Je kunt je er niet mee verbergen in een grote anonimiteitsset. Hetzelfde geldt voor oudere modellen zoals P2PKH of P2SH. Hoewel ze veel voorkomen in de UTXO set, worden ze steeds minder gebruikt voor nieuwe transacties.
+Het eerste advies dat ik kan geven, is om op te gaan in de dichtste menigte. Op Bitcoin betekent dit het gebruik maken van de meest gebruikte scriptsjablonen. P2WSH scripts bijvoorbeeld, vaak gebruikt voor SegWit V0 multisig-configuraties, zijn erg ongebruikelijk. Je kunt je er niet mee verbergen in een grote anonimiteitsset. Hetzelfde geldt voor oudere modellen zoals P2PKH of P2SH. Hoewel ze veel voorkomen in de UTXO-set, worden ze steeds minder gebruikt voor nieuwe transacties.
 
 
-Over het algemeen is het verstandiger om te kiezen voor de meest recente scriptingstandaard, mits deze voldoende is geadopteerd. Dus als ik in 2022 het gebruik van P2TR (Taproot) zou hebben afgeraden vanwege de lage adoptie, zou ik in 2024 adviseren om in plaats daarvan voor dit type script te kiezen, of als dat niet lukt, voor SegWit V0 script, aangezien het aantal transacties dat P2TR gebruikt een zeer aanzienlijk deel begint uit te maken.
+Over het algemeen is het verstandiger om te kiezen voor de meest recente scriptingstandaard, mits deze voldoende is geadopteerd. Dus als ik in 2022 het gebruik van P2TR (Taproot) zou hebben afgeraden vanwege de lage adoptie, zou ik in 2024 adviseren om in plaats daarvan voor dit type script te kiezen, of als dat niet lukt, voor SegWit V0-script, aangezien het aantal transacties dat P2TR gebruikt een zeer aanzienlijk deel begint uit te maken.
 
 
 ![BTC204](assets/nl/106.webp)
@@ -2310,7 +2310,7 @@ Over het algemeen is het verstandiger om te kiezen voor de meest recente scripti
 Bron : [txstats.com](https://txstats.com/d/000000054/UTXO-set-repartition-by-output-type)
 
 
-Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een output creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere output buitenlands exchange vertegenwoordigt. Als je 100 k Sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen output met buitenlands exchange te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke output buitenlands exchange vertegenwoordigt.
+Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een output creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere output het wisslegeld vertegenwoordigt. Als je 100 k sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen output met wisselgeld te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke output het wisselgeld vertegenwoordigt.
 
 
 ![BTC204](assets/nl/107.webp)
@@ -2319,16 +2319,16 @@ Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne tran
 Tenslotte, als je regelmatig Bitcoin-transacties uitvoert, zorg er dan voor dat je ze niet altijd op dezelfde tijden uitzendt. Door het uitzenden van je transacties over de dag en de week te spreiden, voorkom je dat externe waarnemers de kans krijgen om een op tijdzones gebaseerd tijdspatroon te ontdekken dat hun analyse zou kunnen versterken.
 
 
-Naast al deze goede praktijken die je dagelijks moet toepassen, zijn er nog effectievere methodes om de traceerbaarheid van je bitcoins volledig te doorbreken. Deze omvatten natuurlijk CoinJoin transacties, waar we in de volgende sectie dieper op in zullen gaan.
+Naast al deze goede praktijken die je dagelijks moet toepassen, zijn er nog effectievere methodes om de traceerbaarheid van je bitcoins volledig te doorbreken. Deze omvatten natuurlijk CoinJoin-transacties, waar we in de volgende sectie dieper op in zullen gaan.
 
 
-# CoinJoin transacties begrijpen
+# CoinJoin-transacties begrijpen
 
 
 <partId>6d0bbf16-3714-4db1-9897-2d45019f6bdc</partId>
 
 
-## Wat is een CoinJoin transactie?
+## Wat is een CoinJoin-transactie?
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
@@ -2337,16 +2337,16 @@ Naast al deze goede praktijken die je dagelijks moet toepassen, zijn er nog effe
 
 
 
-Na het bestuderen van de basisprincipes van privacybescherming, gaan we nu kijken naar meer geavanceerde technieken om je vertrouwelijkheid actief te verdedigen, in het bijzonder door je Bitcoin geschiedenis te ontvlechten. In het volgende deel gaan we kijken naar een heleboel kleine technieken, maar eerst wil ik je vertellen over CoinJoin.
+Na het bestuderen van de basisprincipes van privacybescherming, gaan we nu kijken naar meer geavanceerde technieken om je vertrouwelijkheid actief te verdedigen, in het bijzonder door je Bitcoin-geschiedenis te ontvlechten. In het volgende deel gaan we kijken naar een heleboel kleine technieken, maar eerst wil ik je vertellen over CoinJoin.
 
 
-CoinJoin wordt vaak beschouwd als de meest effectieve methode om de privacy van Bitcoin-gebruikers te beschermen. Maar wat is een CoinJoin transactie precies? Laten we dat eens uitzoeken.
+CoinJoin wordt vaak beschouwd als de meest effectieve methode om de privacy van Bitcoin-gebruikers te beschermen. Maar wat is een CoinJoin-transactie precies? Laten we dat eens uitzoeken.
 
 
 ### De basisprincipes van CoinJoin
 
 
-CoinJoin is een techniek om Bitcoin tracking op de blockchain te doorbreken. Het is gebaseerd op een collaboratieve transactie met een specifieke structuur met dezelfde naam: de CoinJoin transactie.
+CoinJoin is een techniek om bitcoin-tracking op de blockchain te doorbreken. Het is gebaseerd op een collaboratieve transactie met een specifieke structuur met dezelfde naam: de CoinJoin-transactie.
 
 
 Zoals we in de eerste delen van deze cursus zagen, zijn Bitcoin-transacties bekend bij alle gebruikers via hun node. Het is daarom eenvoudig om de elektronische handtekeningketen van elke munt te controleren en zijn geschiedenis te observeren. Dit betekent dat alle gebruikers kunnen proberen de transacties van andere gebruikers te analyseren. Hierdoor is anonimiteit op transactieniveau onmogelijk. De anonimiteit blijft echter behouden op het niveau van de individuele identificatie. In tegenstelling tot het conventionele banksysteem, waar elke rekening gekoppeld is aan een persoonlijke identiteit, worden op Bitcoin fondsen geassocieerd met cryptografische sleutelparen (of scripts), wat gebruikers een vorm van pseudonimiteit biedt achter cryptografische identifiers.
@@ -2355,13 +2355,13 @@ Zoals we in de eerste delen van deze cursus zagen, zijn Bitcoin-transacties beke
 ![BTC204](assets/nl/108.webp)
 
 
-De vertrouwelijkheid van Bitcoin wordt ondermijnd wanneer externe waarnemers in staat zijn om specifieke UTXO's te associëren met geïdentificeerde gebruikers. Zodra deze associatie is vastgesteld, wordt het mogelijk om hun transacties te traceren en hun Bitcoin geschiedenis te analyseren. CoinJoin is juist een techniek die ontwikkeld is om de traceerbaarheid van UTXO's te doorbreken, om Bitcoin-gebruikers een zekere Layer vertrouwelijkheid op transactieniveau te bieden.
+De vertrouwelijkheid van Bitcoin wordt ondermijnd wanneer externe waarnemers in staat zijn om specifieke UTXO's te associëren met geïdentificeerde gebruikers. Zodra deze associatie is vastgesteld, wordt het mogelijk om hun transacties te traceren en hun Bitcoin-geschiedenis te analyseren. CoinJoin is juist een techniek die ontwikkeld is om de traceerbaarheid van UTXO's te doorbreken, om Bitcoin-gebruikers een zekere graad van vertrouwelijkheid op transactieniveau te bieden.
 
 
-Coinjoins versterken de vertrouwelijkheid van Bitcoin-gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen invoer- en outputadressen te bepalen.
+Coinjoins versterken de vertrouwelijkheid van Bitcoin-gebruikers door ketenanalyse ingewikkelder te maken voor externe waarnemers. Door hun structuur kunnen meerdere munten van verschillende gebruikers worden samengevoegd tot één transactie, waardoor de grenzen vervagen en het moeilijk wordt om de verbanden tussen input- en outputadressen te bepalen.
 
 
-Het is belangrijk om te begrijpen dat het doel van een CoinJoin transactie is om de geschiedenis van een munt te breken. Deze techniek verleent geen permanente anonimiteit of blokkeert definitief het volgen van Bitcoin, in tegenstelling tot wat je zou kunnen denken. CoinJoin heeft alleen tot doel de geschiedenis te breken op het moment dat de CoinJoin transactie wordt uitgevoerd. Voor en na deze operatie blijft de munt echter onderworpen aan dezelfde risico's in termen van vertrouwelijkheid.
+Het is belangrijk om te begrijpen dat het doel van een CoinJoin-transactie is om de geschiedenis van een munt te breken. Deze techniek verleent geen permanente anonimiteit of blokkeert definitief het volgen van Bitcoin, in tegenstelling tot wat je zou kunnen denken. CoinJoin heeft alleen tot doel de geschiedenis te breken op het moment dat de CoinJoin transactie wordt uitgevoerd. Voor en na deze operatie blijft de munt echter onderworpen aan dezelfde risico's in termen van vertrouwelijkheid.
 
 
 ![BTC204](assets/nl/109.webp)
@@ -2370,24 +2370,24 @@ Het is belangrijk om te begrijpen dat het doel van een CoinJoin transactie is om
 ### Hoe werken coinjoins?
 
 
-Het CoinJoin principe is gebaseerd op een collaboratieve aanpak: verschillende gebruikers die hun bitcoins willen mixen storten identieke bedragen als input voor dezelfde transactie. Deze bedragen worden vervolgens herverdeeld in outputs van gelijke waarde voor elke gebruiker.
+Het CoinJoin-principe is gebaseerd op een collaboratieve aanpak: verschillende gebruikers die hun bitcoins willen mixen storten identieke bedragen als input voor dezelfde transactie. Deze bedragen worden vervolgens herverdeeld in outputs van gelijke waarde voor elke gebruiker.
 
 
 ![BTC204](assets/nl/110.webp)
 
 
-Aan het einde van de transactie wordt het onmogelijk om een specifieke output te associëren met een gebruiker die bekend staat als een input. Er is geen direct verband tussen inputs en outputs, waardoor de associatie tussen gebruikers en hun UTXO's wordt verbroken, evenals de geschiedenis van elk onderdeel.
+Aan het einde van de transactie wordt het onmogelijk om een specifieke output te associëren met een gebruiker die bekend staat als een input. Er is geen direct verband tussen inputs en outputs, waardoor de associatie tussen gebruikers en hun UTXO's wordt verbroken, evenals de geschiedenis van elke UTXO.
 
 
 ![BTC204](assets/nl/111.webp)
 
 
-Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar zus Eve sturen voor haar verjaardag. Alice wil echter niet dat Eve haar transactiegeschiedenis kan traceren, want ze wil niet onthullen hoeveel bitcoins ze heeft of hoe ze eraan komt. Daarom besluit Alice haar UTXO geschiedenis te breken met een CoinJoin transactie. Ze organiseert met Bob, Charles, David en Frank een gezamenlijke transactie:
+Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 sats naar haar zus Eve sturen voor haar verjaardag. Alice wil echter niet dat Eve haar transactiegeschiedenis kan traceren, want ze wil niet onthullen hoeveel bitcoins ze heeft of hoe ze eraan komt. Daarom besluit Alice haar UTXO-geschiedenis te breken met een CoinJoin-transactie. Ze organiseert met Bob, Charles, David en Frank een gezamenlijke transactie:
 
 
 
 
-- Alice, Bob, Charles, David en Frank verbinden elk een UTXO van 105.000 Sats (met 5.000 Sats voor Mining vergoedingen) als input voor de transactie:
+- Alice, Bob, Charles, David en Frank verbinden zich ertoe elk een UTXO van 105.000 sats (met 5.000 sats voor mining-vergoedingen) als input voor de transactie in te brengen:
 
 
 ![BTC204](assets/nl/112.webp)
@@ -2395,7 +2395,7 @@ Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar z
 
 
 
-- In ruil voor het verbruiken van deze inputs, genereert elk een ongebruikt adres om vijf identieke outputs van elk 100.000 Sats te maken. Elk haalt één output op:
+- In ruil voor het verbruiken van deze inputs, genereert elk een ongebruikt adres om vijf identieke outputs van elk 100.000 sats te maken. Elk haalt één output op:
 
 
 ![BTC204](assets/nl/113.webp)
@@ -2403,7 +2403,7 @@ Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar z
 
 
 
-- Alice vindt zichzelf met een UTXO van 100.000 Sats waarvan de geschiedenis verward is. Ze gebruikt deze UTXO in een nieuwe transactie om het bedrag naar Eve te sturen voor haar verjaardag:
+- Alice heeft terug een UTXO van 100.000 sats waarvan de geschiedenis gemixt is. Ze gebruikt deze UTXO in een nieuwe transactie om het bedrag naar Eve te sturen voor haar verjaardag:
 
 
 ![BTC204](assets/nl/114.webp)
@@ -2411,21 +2411,21 @@ Laten we het voorbeeld van Alice nemen. Ze wil ongeveer 100.000 Sats naar haar z
 
 
 
-- Als Eve deze transactie probeert te analyseren om er informatie uit te halen, wordt ze geconfronteerd met de CoinJoin transactie waarbij Alice, Bob, Charles, David en Frank betrokken zijn. Omdat Eve niet kan onderscheiden welke input aan wie toebehoort door de uniformiteit van de bedragen, kan ze Alice's UTXO geschiedenis niet traceren, noch bepalen hoeveel bitcoins haar zus bezit of hoe ze deze verworven heeft:
+- Als Eve deze transactie probeert te analyseren om er informatie uit te halen, wordt ze geconfronteerd met de CoinJoin-transactie waarbij Alice, Bob, Charles, David en Frank betrokken zijn. Omdat Eve niet kan onderscheiden welke input aan wie toebehoort door de uniformiteit van de bedragen, kan ze Alice's UTXO-geschiedenis niet traceren, noch bepalen hoeveel bitcoins haar zus bezit of hoe ze deze verworven heeft:
 
 
 ![BTC204](assets/nl/115.webp)
 
 
-In dit geval heeft Alice de CoinJoin techniek gebruikt om de vertrouwelijkheid met betrekking tot retrospectieve analyse te vergroten. In feite beschermt Alice zichzelf tegen een mogelijke analyse door Eve, die zou beginnen bij een specifieke transactie en terug zou werken door de geschiedenis van de UTXO. Deze bescherming tegen analyse vanuit het heden naar het verleden staat bekend als retrospectieve anonset. We zullen in de laatste hoofdstukken van dit hoofdstuk dieper op dit concept ingaan.
+In dit geval heeft Alice de CoinJoin-techniek gebruikt om de vertrouwelijkheid met betrekking tot retrospectieve analyse te vergroten. In feite beschermt Alice zichzelf tegen een mogelijke analyse door Eve, die zou beginnen bij een specifieke transactie en terug zou werken door de geschiedenis van de UTXO. Deze bescherming tegen analyse vanuit het heden naar het verleden staat bekend als retrospectieve anonset. We zullen in de laatste hoofdstukken van deze sectie dieper op dit concept ingaan.
 
 
-CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken bij een analyse van het verleden naar het heden, bekend als prospectieve anonset. Laten we teruggaan naar ons voorbeeld waar Alice Eve 98.000 Sats stuurde voor haar verjaardag, maar nu met de rollen omgedraaid. Laten we ons nu voorstellen dat Eve zich zorgen maakt over haar privacy. Alice zou in de verleiding kunnen komen om de munt die ze Eve stuurde te traceren om er informatie uit te halen. Eve zou deze UTXO, die ze net heeft ontvangen, kunnen consolideren met al haar andere UTXO's, wat Alice zou kunnen onthullen hoeveel bitcoins ze in haar wallet heeft. Om dit te vermijden, kan Eve ook de geschiedenis breken van de munt die ze net heeft ontvangen:
+CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken bij een analyse van het verleden naar het heden, bekend als prospectieve anonset. Laten we teruggaan naar ons voorbeeld waar Alice Eve 98.000 sats stuurde voor haar verjaardag, maar nu met de rollen omgedraaid. Laten we ons nu voorstellen dat Eve zich zorgen maakt over haar privacy. Alice zou in de verleiding kunnen komen om de munt die ze Eve stuurde te traceren om er informatie uit te halen. Eve zou deze UTXO, die ze net heeft ontvangen, kunnen consolideren met al haar andere UTXO's, wat Alice zou kunnen onthullen hoeveel bitcoins ze in haar wallet heeft. Om dit te vermijden, kan Eve ook de geschiedenis breken van de munt die ze net heeft ontvangen:
 
 
 
 
-- Eve, Grace, Mallory, Oscar en Victor zetten elk een UTXO van 98.000 Sats in als input voor een Bitcoin-transactie:
+- Eve, Grace, Mallory, Oscar en Victor zetten elk een UTXO van 98.000 sats in als input voor een Bitcoin-transactie:
 
 
 ![BTC204](assets/nl/116.webp)
@@ -2433,7 +2433,7 @@ CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken 
 
 
 
-- In ruil voor het verbruik van deze inputs levert elke gebruiker een ongebruikt adres die gebruikt kan worden om 5 outputs van 97.500 perfect gelijke Sats te maken. Elke gebruiker krijgt één output:
+- In ruil voor het verbruik van deze inputs levert elke gebruiker een ongebruikt adres die gebruikt kan worden om 5 perfect gelijke outputs van 97.500 sats te maken. Elke gebruiker krijgt één output:
 
 
 ![BTC204](assets/nl/117.webp)
@@ -2441,19 +2441,19 @@ CoinJoin biedt echter ook de mogelijkheid om de vertrouwelijkheid te versterken 
 
 
 
-- Eve heeft nu een UTXO van 97.500 Sats waarvan de geschiedenis is verbroken. Ze kan het zonder angst gebruiken om toekomstige transacties uit te voeren. Inderdaad, als Alice probeert de bitcoins te traceren die ze naar Eve heeft gestuurd, zal ze geconfronteerd worden met een CoinJoin transactie. Ze zal niet kunnen bepalen welke uitgaande UTXO van Eve is. Analyse wordt onmogelijk:
+- Eve heeft nu een UTXO van 97.500 sats waarvan de geschiedenis is verbroken. Ze kan het zonder angst gebruiken om toekomstige transacties uit te voeren. Inderdaad, als Alice probeert de bitcoins te traceren die ze naar Eve heeft gestuurd, zal ze geconfronteerd worden met een CoinJoin-transactie. Ze zal niet kunnen bepalen welke uitgaande UTXO van Eve is. Analyse wordt onmogelijk:
 
 
 ![BTC204](assets/nl/118.webp)
 
 
-In het eerste voorbeeld zagen we hoe de CoinJoin de privacy van een kamer kan beschermen in relatie tot het verleden, en in het tweede voorbeeld hoe het ook de geschiedenis van een kamer kan veiligstellen in relatie tot de toekomst. Daarom zei ik dat de CoinJoin gezien moet worden als een eenmalige gebeurtenis die in beide richtingen een deel geschiedenis vastlegt:
+In het eerste voorbeeld zagen we hoe de CoinJoin de privacy van een UTXO kan beschermen in relatie tot het verleden, en in het tweede voorbeeld hoe het ook de geschiedenis van een UTXO kan veiligstellen in relatie tot de toekomst. Daarom zei ik dat de CoinJoin gezien moet worden als een eenmalige gebeurtenis die in beide richtingen een deel geschiedenis vastlegt:
 
 
 ![BTC204](assets/nl/119.webp)
 
 
-### Mengpaneel, CoinJoin, mengpaneel... Wat is het verschil?
+### Mixer, CoinJoin, shufflers... Wat is het verschil?
 
 
 Coinjoins worden soms beschreven als "mixers", een term die sommige bitcoiners verwerpen uit angst dat hij verward zou kunnen worden met custodial mixers. Ik denk echter dat deze vrees ongegrond is, omdat CoinJoin in een wiskundige context precies het concept van mengen belichaamt.
@@ -2471,16 +2471,16 @@ Aan de andere kant is het belangrijk om CoinJoin te onderscheiden van shufflers.
 
 
 - Ze vereisen dat gebruikers afstand doen van het beheer van hun geld tijdens het mengproces, waardoor ze worden blootgesteld aan het risico van diefstal;
-- Er is geen garantie dat de mixer geen transactiegegevens registreert of zelfs deze informatie verkoopt aan bedrijven die ketenanalyses uitvoeren.
+- Er is geen garantie dat de mixer geen transactiegegevens registreert of deze informatie zelfs verkoopt aan bedrijven die ketenanalyses uitvoeren.
 
 
 ![BTC204](assets/nl/121.webp)
 
 
-De huidige gebruikers geven daarom de voorkeur aan CoinJoin, omdat ze gedurende het hele proces de volledige controle over hun fondsen behouden. CoinJoin deelnemers lopen geen risico dat hun bitcoins gestolen worden door de andere betrokken partijen. Hoe dit allemaal mogelijk is, bekijken we in het volgende hoofdstuk.
+De huidige gebruikers geven daarom de voorkeur aan CoinJoin, omdat ze gedurende het hele proces de volledige controle over hun fondsen behouden. CoinJoin-deelnemers lopen geen risico dat hun bitcoins gestolen worden door de andere betrokken partijen. Hoe dit allemaal mogelijk is, bekijken we in het volgende hoofdstuk.
 
 
-## Zerolink en chaumian medesamenvoegingen
+## Zerolink en chaumian coinjoins
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
@@ -2738,7 +2738,7 @@ Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool
 Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te chainen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de exchange koers: in tegenstelling tot Wasabi 1.0, waar de exchange koers direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de exchange koers onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
 
 
-Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 exchange van 15.000 Sats voor Alice en 1 exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
+Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin-transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 exchange van 15.000 Sats voor Alice en 1 exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
 
 
 ![BTC204](assets/nl/140.webp)
@@ -3304,7 +3304,7 @@ $$
 In de wiskunde is de binaire logaritme (basis-2 logaritme) de inverse bewerking van de exponent van 2. Met andere woorden, de binaire logaritme van $x$ is de exponent waartoe $2$ verheven moet worden om $x$ te verkrijgen. Deze indicator wordt daarom uitgedrukt in bits.
 
 
-Laten we het voorbeeld nemen van de berekening van de entropie voor een CoinJoin transactie gestructureerd volgens het Whirlpool 5x5 model, dat, zoals vermeld in het vorige hoofdstuk, een aantal mogelijke interpretaties van $1.496$ heeft:
+Laten we het voorbeeld nemen van de berekening van de entropie voor een CoinJoin-transactie gestructureerd volgens het Whirlpool 5x5 model, dat, zoals vermeld in het vorige hoofdstuk, een aantal mogelijke interpretaties van $1.496$ heeft:
 
 
 $$
@@ -3889,7 +3889,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 
 
 
-Het gebruik van Bitcoin-transactiestructuren die ambiguïteit toevoegen aan ketenanalyse, zoals CoinJoin, is vooral gunstig voor privacybescherming. Echter, zoals we in het hoofdstuk over payjoins hebben besproken, zijn CoinJoin transacties natuurlijk identificeerbaar in de keten. Denk aan de analogie die we trokken tussen versleuteling en coinjoins: als een bestand versleuteld is, kan een derde partij die het versleutelde bestand ontdekt, niet bij de inhoud, maar kan wel duidelijk zien dat het bestand is aangepast om de inhoud te verbergen. Hetzelfde geldt voor CoinJoin: wanneer een analist een CoinJoin transactie onderzoekt, kan hij of zij, hoewel hij of zij geen directe links kan leggen tussen inputs en outputs (en vice versa), toch herkennen dat de geobserveerde transactie een CoinJoin is.
+Het gebruik van Bitcoin-transactiestructuren die ambiguïteit toevoegen aan ketenanalyse, zoals CoinJoin, is vooral gunstig voor privacybescherming. Echter, zoals we in het hoofdstuk over payjoins hebben besproken, zijn CoinJoin transacties natuurlijk identificeerbaar in de keten. Denk aan de analogie die we trokken tussen versleuteling en coinjoins: als een bestand versleuteld is, kan een derde partij die het versleutelde bestand ontdekt, niet bij de inhoud, maar kan wel duidelijk zien dat het bestand is aangepast om de inhoud te verbergen. Hetzelfde geldt voor CoinJoin: wanneer een analist een CoinJoin-transactie onderzoekt, kan hij of zij, hoewel hij of zij geen directe links kan leggen tussen inputs en outputs (en vice versa), toch herkennen dat de geobserveerde transactie een CoinJoin is.
 
 
 Afhankelijk van hoe je je onderdeel wilt gebruiken na CoinJoin cycli, kan het feit dat het dit proces heeft ondergaan problematisch zijn. Als je bijvoorbeeld van plan bent om je munt te verkopen op een gereguleerd exchange-platform, maar hij heeft onlangs een CoinJoin ondergaan, dan zal de ketenanalysetool van het platform dit feit detecteren. Het platform kan dan weigeren om je UTXO munt te accepteren, of zelfs een verklaring van je eisen, met het risico dat je account wordt opgeschort of je fondsen worden bevroren. In sommige gevallen kan het platform je gedrag ook rapporteren aan overheidsinstanties (dit is bijvoorbeeld wat TRACFIN vereist van PSAN's in Frankrijk).

@@ -1,4 +1,4 @@
----
+ ---
 name: Guhindura urutonde rwa RGB
 goal: Uraronka ubuhinga bukenewe kugira ngo utahure kandi ukoreshe RGB.
 objectives:
@@ -1300,10 +1300,10 @@ Inyishu yanyuma ni **mpc::Umuzi**, hanyuma `mpc::Commitment`.
 #### Isuzumwa ry'inyubako ya MPC
 
 
-Iyo umugenzuzi yipfuza kumenya neza ko `c_i` Contract (na `BundleId` yayo) iri mu `mpc::Commitment` ya nyuma, aronka gusa ikimenyamenya ca Merkle. Iki kimenyamenya kigaragaza uturongo dukenewe kugira ngo amababi (muri iki gihe, `c_i`'s _contract leaf_) asubire ku muzi. Ntaco bimaze gutangaza *Igiti ca MPC* cose: ivyo birinda ibanga ry'ayandi masezerano.
+Iyo umugenzuzi yipfuza kumenya neza ko `c_i` amasezerano (na `BundleId` yayo) ari mu `mpc::Commitment` ya nyuma, aronka gusa ikimenyamenya ca Merkle. Iki kimenyamenya kigaragaza ko ama nodes akenewe kugira ngo amababi (muri iki gihe, `c_i`'s _contract leaf_) asubire ku muzi. Ntaco bimaze gutangaza *Igiti ca MPC* cose: ivyo birinda ibanga ry'ayandi masezerano.
 
 
-Mu karorero, umugenzuzi wa `c_2` akeneye gusa Hash yo hagati (`tH_MPC_IBABI(D)`), `tH_MPC_ISHAMI(...)` ibiri, ikimenyamenya c'aho `pos(c_2)` ari n'agaciro ka `cofactor`. Ishobora rero gusubira kwubaka umuzi mu karere, hanyuma igasubira kubara `mpc::Commitment` ikayigereranya n'iyo yanditswe mu gikorwa ca Bitcoin (mu `Opret` canke `Tapret`).
+Mu karorero, umugenzuzi wa `c_2` akeneye gusa Hash yo hagati (`tH_MPC_IBABI(D)`), `tH_MPC_ISHAMI(...)` ibiri, ikimenyamenya c'aho `pos(c_2)` ari n'agaciro ka `cofactor`. Ishobora rero gusubira kwubaka umuzi mu karere, hanyuma igasubira kubara `mpc::Commitment` ikayigereranya n'iyo yanditswe mwihanahanwa rya Bitcoin (mu `Opret` canke `Tapret`).
 
 
 ![RGB-Bitcoin](assets/en/054.webp)
@@ -1314,23 +1314,23 @@ Ubu buryo buratuma:
 
 
 
-- Igihugu gishingiye kuri `c_2` kiri mu vy'ukuri mu gice c'amakuru yose hamwe (uruhande rw'umukiriya);
-- Nta n’umwe ashobora kwubaka amateka y’ubundi buryo n’ugucuruza kumwe, kuko On-Chain _commitment_ yerekana umuzi umwe wa MPC.
+- Igishingiye kuri `c_2` kirakenew mu vy'ukuri mu gice c'amakuru yose hamwe (uruhande rw'umuguzi);
+- Nta n’umwe ashobora kwubaka kahise kandi akoresheje ihanahanwa rimwe, kuko ukwiyemeza kwa On-Chain kwerekana umuzi umwe wa MPC.
 
 
-#### Incamake y'imiterere ya MPC
+#### Incamake kw'inyubako ya MPC
 
 
 Multi Protocol Commitment* (MPC) ni ingingo ngenderwako ishoboza RGB gukoranya amasezerano menshi mu gikorwa kimwe ca Bitcoin, mu gihe iguma ifise ubudasa bw’amasezerano n’ibanga ku bandi bari muri iyo nama. Kubera inyubakwa y'igiti, Contract yose ihabwa ikibanza kidasanzwe, kandi ukubaho kw'amababi "y'ibinyoma" (*Entropy Leaves*) bipfuka igice c'umubare wose w'amasezerano agize uruhara mu gucuruza.
 
 
-Merkle Tree yose ntiyigera ibikwa ku mukiriya. Turaheza gusa generate _inzira ya Merkle_ kuri Contract yose ireba, kugira ngo irungikwe uwuyironka (uwushobora rero kwemeza Commitment). Mu bihe bimwe bimwe, ushobora kuba ufise itunga ryinshi ryaciye muri UTXO imwe. Ushobora rero gufatanya _inzira nyinshi za Merkle_ mu vyo bita _ibara ryinshi Commitment block_, kugira ngo wirinde gusubiramwo amakuru menshi cane.
+Igiti ca Merkle (Merkle Tree) cose nticigera kibikwa mumuguzi. Turaheza gusa tukazana _inzira ya Merkle_ kuri buri masezerano yose yerekeye, kugira ngo irungikwe uwuyironka (uwushobora rero kwemeza ukwiyemeza). Mu bihe bimwe bimwe, ushobora kuba ufise imitungo myinshi ryaciye muri UTXO imwe. Ushobora rero gufatanya _inzira nyinshi za Merkle_ mu vyo bita _ibara ryinshi Commitment block_, kugira ngo wirinde gusubiramwo amakuru menshi cane.
 
 
-Buri _Merkle proof_ rero iraremereye cane cane kuko uburebure bw'igiti butazorenga 32 muri RGB. Hariho kandi iciyumviro ca "Merkle block", kigumya amakuru menshi (igice c'umusaraba, entropi, n'ibindi), ngirakamaro mu gufatanya canke gutandukanya amashami menshi.
+Buri _ukwmeza kwa Merkle (Merkle proof)_ rero iraremereye cane cane kuko uburebure bw'igiti butazorenga 32 muri RGB. Hariho kandi iciyumviro ca "Merkle block", kigumya amakuru menshi (igice c'umusaraba, entropi, n'ibindi), ngirakamaro mu gufatanya canke gutandukanya amashami menshi.
 
 
-Ni co gituma vyatwaye igihe kirekire cane kugira ngo RGB irangizwe. Twari dufise iyerekwa rusangi kuva muri 2019: gushiramwo vyose ku ruhande rw’abaguzi, gukwiragiza ibimenyetso off-chain. Ariko ku bijanye n’ibintu nk’uguca ibice ku masezerano menshi, imiterere ya Merkle Tree, ingene umuntu yovyifatamwo mu gutombora no gufatanya ibimenyamenya... ivyo vyose vyasaba ko umuntu asubiramwo.
+Ni co gituma vyatwaye igihe kirekire cane kugira ngo RGB irangizwe. Twari dufise ishusho rusangi kuva muri 2019: gushiramwo vyose ku ruhande rw’amuguzi, gukwiragiza ibimenyetso off-chain. Ariko ku bijanye n’ibintu nk’uguca ibice ku masezerano menshi, uko igiti ca Merkle cubatse, ingene umuntu yovyifatamwo mu gutombora no gufatanya ibimenyamenya... ivyo vyose vyasaba ko umuntu asubiramwo.
 
 
 ### Anchors: ikoraniro ry'isi yose

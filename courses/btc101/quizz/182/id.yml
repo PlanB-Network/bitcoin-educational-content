@@ -1,10 +1,11 @@
-question: Negara mana yang telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021?
-answer: El Salvador
+question: Bagaimana Bitcoin menyelesaikan Byzantine Generals Problem?
+answer: Melalui penggunaan blockchain berbasis Proof of Work dengan kesulitan mengambang.
 wrong_answers:
-  - Prancis
-  - Amerika Serikat
-  - Cina
+  - lalui penggunaan tanda tangan digital.
+  - Melalui penggunaan buku besar publik.
+  - lalui penggunaan algoritma Proof of Stake.
 explanation: >-
-  El Salvador telah menjadikan Bitcoin sebagai alat pembayaran yang sah sejak 2021, berkontribusi pada
-  pengembangan ekonomi Bitcoin di wilayah tersebut.
-reviewed: false
+ Byzantine Generals Problem adalah masalah klasik dalam komputasi terdistribusi, yang melibatkan pencapaian konsensus
+ dalam jaringan di mana beberapa node mungkin rusak atau jahat. Bitcoin menyelesaikan masalah ini melalui penggunaan
+ blockchain berbasis Proof of Work, yang memastikan bahwa semua node menyetujui keadaan riwayat transaksi.
+reviewed: true

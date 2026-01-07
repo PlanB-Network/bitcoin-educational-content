@@ -1969,7 +1969,7 @@ Toch zijn er risico's voor de persoonlijke veiligheid. Het grootste gevaar ligt 
 ![BTC204](assets/nl/089.webp)
 
 
-Om dit risico te beperken, raad ik je aan de voorkeur te geven aan contante transacties met vertrouwde personen, zoals familieleden of goede vrienden. Als alternatief kun je ook overwegen om te handelen op [lokale Bitcoin meetups](https://btcmap.org/communities/map), nadat je een paar keer bent geweest. Zo leer je de andere deelnemers beter kennen en sta je er niet alleen voor wanneer je fysiek aan het ruilen bent. Het is echter belangrijk om te beseffen dat P2P contante uitwisselingen inherent risico's voor je persoonlijke veiligheid met zich meebrengen, die er niet zijn wanneer je via een gereguleerd platform en je bankrekening koopt.
+Om dit risico te beperken, raad ik je aan de voorkeur te geven aan contante transacties met vertrouwde personen, zoals familieleden of goede vrienden. Als alternatief kun je ook overwegen om te handelen op [lokale Bitcoin meetups](https://btcmap.org/communities/map), nadat je een paar keer bent geweest. Zo leer je de andere deelnemers beter kennen en sta je er niet alleen voor wanneer je fysiek aan het ruilen bent. Het is echter belangrijk om te beseffen dat P2P-ruil met contant geld inherent risico's voor je persoonlijke veiligheid met zich meebrengen, die er niet zijn wanneer je via een gereguleerd platform en je bankrekening koopt.
 
 
 Bovendien kan, afhankelijk van waar je woont, het vervoeren en opslaan van grote sommen geld riskant zijn, of het nu bitcoin of contant geld is.
@@ -1984,16 +1984,16 @@ Een ander nadeel van P2P-aankopen is dat de prijs vaak hoger is dan op geregulee
 ![BTC204](assets/nl/090.webp)
 
 
-### P2P uitwisselingen via een matchmaking platform
+### P2P uitwisselingen via een matchmaking-platform
 
 
-Een minder riskant alternatief wat betreft persoonlijke veiligheid is om P2P uitsluitend online te ruilen, via elektronische betaalmethoden zoals PayPal, bankoverschrijvingen of Revolut.
+Een minder riskant alternatief voor persoonlijke veiligheid is het uitsluitend online verrichten van P2P-ruiltransacties met elektronische betaalmethoden zoals PayPal, bankoverschrijvingen of Revolut.
 
 
 ![BTC204](assets/nl/091.webp)
 
 
-Deze aanpak vermijdt veel van de risico's die gepaard gaan met contante transacties. Het risico dat de tegenpartij in gebreke blijft bij een online Exchange is echter groter. Bij een fysieke Exchange, als je geld overhandigt aan de verkoper die je geen bitcoins terugstuurt, kun je hem onmiddellijk ter verantwoording roepen, omdat hij voor je staat. Online is het daarentegen vaak onmogelijk om iemand op te sporen die van je gestolen heeft.
+Deze aanpak vermijdt veel van de risico's die gepaard gaan met contante transacties. Het risico dat de tegenpartij in gebreke blijft bij een online exchange is echter groter. Bij een fysieke exchange, als je geld overhandigt aan de verkoper die je geen bitcoins terugstuurt, kun je hem onmiddellijk ter verantwoording roepen, omdat hij voor je staat. Online is het daarentegen vaak onmogelijk om iemand op te sporen die van je gestolen heeft.
 
 
 ![BTC204](assets/nl/092.webp)
@@ -2005,7 +2005,7 @@ Om dit risico te beperken, is het mogelijk om gespecialiseerde platforms te gebr
 ![BTC204](assets/nl/093.webp)
 
 
-In termen van persoonlijke veiligheid is deze aankoopmethode aanzienlijk veiliger dan een fysiek geldbedrag Exchange. Zoals hierboven vermeld, laten online P2P uitwisselingen echter meer sporen na dan een fysieke Exchange, wat schadelijk kan zijn voor de privacy op Bitcoin. Door een online fiat betaalmethode zoals een bank te gebruiken, geef je meer informatie vrij die sleutelidentificatie kan vergemakkelijken.
+In termen van persoonlijke veiligheid is deze aankoopmethode aanzienlijk veiliger dan een fysiek geldbedrag ruilen. Zoals hierboven vermeld, laten online P2P uitwisselingen echter meer sporen na dan een fysieke exchange, wat schadelijk kan zijn voor de privacy op Bitcoin. Door een online fiat betaalmethode zoals een bank te gebruiken, geef je meer informatie vrij die sleutelidentificatie kan vergemakkelijken.
 
 
 ![BTC204](assets/nl/094.webp)
@@ -2014,13 +2014,13 @@ In termen van persoonlijke veiligheid is deze aankoopmethode aanzienlijk veilige
 Nogmaals, ik zou niet aanraden om te veel grote transacties in één enkele transactie te doen op deze platforms. Door je transacties op te splitsen, spreid je het risico van diefstal door een tegenpartij.
 
 
-Een ander nadeel van P2P aankopen is dat de prijs vaak hoger is dan die op gereguleerde platforms. Verkopers rekenen vaak een toeslag van 1% tot soms meer dan 10%. Er zijn verschillende redenen voor dit prijsverschil. Ten eerste is dit een gangbare praktijk onder P2P verkopers die in de loop der tijd is ontstaan. Ten tweede hebben verkopers kosten verbonden aan de transactie om het geld naar de koper te sturen. Er is ook een verhoogd risico op diefstal bij de verkoop van P2P in vergelijking met platformtransacties, wat een compensatie voor het genomen risico rechtvaardigt. Tot slot kunnen de extra kosten verband houden met de vraag naar en de kwaliteit van Exchange in termen van vertrouwelijkheid. Als koper heeft de winst in vertrouwelijkheid een prijs die wordt weerspiegeld in de marge die de verkoper toepast. Sommige bitcoiners geloven ook dat de mark-up prijs van BTC gekocht op P2P de werkelijke prijs weerspiegelt, en beweren dat de lagere prijzen op gereguleerde platforms het resultaat zijn van een compromis over de vertrouwelijkheid van je persoonlijke gegevens.
+Een ander nadeel van P2P-aankopen is dat de prijs vaak hoger is dan die op gereguleerde platforms. Verkopers rekenen vaak een toeslag van 1% tot soms meer dan 10%. Er zijn verschillende redenen voor dit prijsverschil. Ten eerste is dit een gangbare praktijk onder P2P-verkopers die in de loop der tijd is ontstaan. Ten tweede hebben verkopers kosten verbonden aan de transactie om het geld naar de koper te sturen. Er is ook een verhoogd risico op diefstal bij de verkoop van P2P in vergelijking met platformtransacties, wat een compensatie voor het genomen risico rechtvaardigt. Tot slot kunnen de extra kosten verband houden met de vraag naar en de kwaliteit van de ruil in termen van vertrouwelijkheid. Als koper heeft de winst in vertrouwelijkheid een prijs die wordt weerspiegeld in de marge die de verkoper toepast. Sommige bitcoiners geloven ook dat de mark-up prijs van BTC gekocht op P2P de werkelijke prijs weerspiegelt, en beweren dat de lagere prijzen op gereguleerde platforms het resultaat zijn van een compromis over de vertrouwelijkheid van je persoonlijke gegevens.
 
 
 ![BTC204](assets/nl/095.webp)
 
 
-Wat oplossingen betreft, heb ik persoonlijk altijd [Bisq](https://bisq.network/) gebruikt en ik ben er erg tevreden over. Hun systeem is beproefd en lijkt betrouwbaar. Bisq is echter alleen beschikbaar op de PC en de Interface is misschien te complex voor beginners. Een ander nadeel is dat Bisq alleen met onchain-transacties werkt, wat duur kan worden in perioden met hoge Bitcoin-transactiekosten.
+Wat oplossingen betreft, heb ik persoonlijk altijd [Bisq](https://bisq.network/) gebruikt en ik ben er erg tevreden over. Hun systeem is beproefd en lijkt betrouwbaar. Bisq is echter alleen beschikbaar op de PC en de interface is misschien te complex voor beginners. Een ander nadeel is dat Bisq alleen met onchain-transacties werkt, wat duur kan worden in perioden met hoge Bitcoin-transactiekosten.
 
 
 -> Bekijk onze Bisq-tutorial.
@@ -2044,7 +2044,7 @@ Een andere online optie is [HodlHodl](https://hodlhodl.com/), een gerenommeerd p
 
 https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-Probeer voor Lightning Network-gebaseerde oplossingen [RoboSats](https://learn.robosats.com/) en [LNP2PBot](https://lnp2pbot.com/). RoboSats is toegankelijk via een website en is relatief eenvoudig te gebruiken. LNP2PBot is meer atypisch, omdat het werkt via een Exchange systeem op de Telegram berichtenapplicatie.
+Probeer voor Lightning Network-gebaseerde oplossingen [RoboSats](https://learn.robosats.com/) en [LNP2PBot](https://lnp2pbot.com/). RoboSats is toegankelijk via een website en is relatief eenvoudig te gebruiken. LNP2PBot is meer atypisch, omdat het werkt via een exchange-systeem op de Telegram berichtenapplicatie.
 
 
 -> Bekijk onze RoboSats-handleiding.
@@ -2063,7 +2063,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 ### Gereguleerde platforms zonder KYC
 
 
-Afhankelijk van het land waar je woont, heb je mogelijk toegang tot gereguleerde platforms die geen KYC-procedures vereisen om bitcoins te kopen of verkopen. In Zwitserland kunt u bijvoorbeeld platforms zoals [Relai](https://relai.app/) en [MtPelerin](https://www.mtpelerin.com/) gebruiken.
+Afhankelijk van het land waar je woont, heb je mogelijk toegang tot gereguleerde platforms die geen KYC-procedures vereisen om bitcoins te kopen of verkopen. In Zwitserland kan je bijvoorbeeld platforms zoals [Relai](https://relai.app/) en [MtPelerin](https://www.mtpelerin.com/) gebruiken.
 
 
 -> Bekijk onze handleiding over Relai.
@@ -2071,7 +2071,7 @@ Afhankelijk van het land waar je woont, heb je mogelijk toegang tot gereguleerde
 
 https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-Zoals we in het vorige hoofdstuk zagen, bespaart dit type platform je de risico's van KYC-procedures, maar ze brengen wel een hoger risiconiveau voor sleutelidentificatie met zich mee. In termen van Bitcoin vertrouwelijkheid bieden deze platforms dus een betere bescherming dan aankoopmethodes met KYC, maar ze blijven minder aantrekkelijk dan P2P exchanges.
+Zoals we in het vorige hoofdstuk zagen, bespaart dit type platform je de risico's van KYC-procedures, maar ze brengen wel een hoger risiconiveau voor sleutelidentificatie met zich mee. In termen van Bitcoin-vertrouwelijkheid bieden deze platforms dus een betere bescherming dan aankoopmethodes met KYC, maar ze blijven minder aantrekkelijk dan P2P exchanges.
 
 
 Wat persoonlijke veiligheid betreft, is het gebruik van deze platforms echter veel minder riskant dan P2P-uitwisselingen. Ze zijn ook vaak eenvoudiger te gebruiken dan P2P-platforms.
@@ -2086,10 +2086,10 @@ Een andere optie voor het kopen of verkopen van bitcoins zonder KYC zijn cryptoc
 ![BTC204](assets/nl/097.webp)
 
 
-Het probleem met geldautomaten is dat ze in sommige landen verboden zijn of in andere sterk gereguleerd. Als een geldautomaat een procedure voor identiteitsverificatie vereist, dan staat hij bloot aan dezelfde risico's als de risico's die inherent zijn aan KYC-gereguleerde platforms. Aan de andere kant, als de geldautomaat transacties toestaat zonder identiteitsverificatie voor kleine bedragen, dan kan het gebruik ervan een niveau van vertrouwelijkheid bieden dat vergelijkbaar is met dat van een P2P contant geld Exchange, terwijl de meeste risico's die geassocieerd worden met dit type Exchange vermeden worden.
+Het probleem met geldautomaten is dat ze in sommige landen verboden zijn of in andere sterk gereguleerd. Als een geldautomaat een procedure voor identiteitsverificatie vereist, dan staat hij bloot aan dezelfde risico's als de risico's die inherent zijn aan KYC-gereguleerde platforms. Aan de andere kant, als de geldautomaat transacties toestaat zonder identiteitsverificatie voor kleine bedragen, dan kan het gebruik ervan een niveau van vertrouwelijkheid bieden dat vergelijkbaar is met dat van een P2P-ruil met contant geld, terwijl de meeste risico's die geassocieerd worden met dit type exchange vermeden worden.
 
 
-Het grootste nadeel van geldautomaten zijn de vaak hoge Exchange-kosten, variërend van een paar procent tot soms wel 15% van het gewisselde bedrag.
+Het grootste nadeel van geldautomaten zijn de vaak hoge exchange-kosten, variërend van een paar procent tot soms wel 15% van het gewisselde bedrag.
 
 
 ### Cadeaubonnen
@@ -2098,7 +2098,7 @@ Het grootste nadeel van geldautomaten zijn de vaak hoge Exchange-kosten, variër
 Tot slot wilde ik je ook laten kennismaken met een oplossing die goed werkt voor degenen die hun bitcoins dagelijks willen gebruiken om aankopen te doen in plaats van ze te verkopen tegen fiatvaluta.
 
 
-De beste manier om BTC uit te geven is natuurlijk door Bitcoin of de Lightning Network direct te gebruiken om een goed of dienst te kopen. In veel landen is het aantal winkeliers dat Bitcoin accepteert echter nog beperkt. Een praktisch alternatief is het gebruik van cadeaubonnen.
+De beste manier om BTC uit te geven is natuurlijk door Bitcoin of het Lightning Network direct te gebruiken om een goed of dienst te kopen. In veel landen is het aantal winkeliers dat bitcoin accepteert echter nog beperkt. Een praktisch alternatief is het gebruik van cadeaubonnen.
 
 
 Verschillende platforms die geen KYC-procedures vereisen, bieden de mogelijkheid om bitcoins in te wisselen voor cadeaubonnen die gebruikt kunnen worden bij grote retailers. Deze omvatten [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) en [Bitrefill](https://www.bitrefill.com/). Deze platforms maken het veel gemakkelijker om je bitcoins dagelijks te gebruiken, waardoor je toegang krijgt tot een breed scala aan producten en diensten zonder dat je ze hoeft om te zetten in fiatvaluta.
@@ -2112,16 +2112,16 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 ### Andere verwervingsmethoden
 
 
-Andere manieren om bitcoins te verkrijgen terwijl je je privacy beschermt, zijn natuurlijk Mining. Om Mining Sats te starten, hoef je je identiteit niet bekend te maken; zoek gewoon een geldige Proof of Work en stuur deze naar het netwerk. Als je kiest voor pool Mining, vereisen sommige pools een vorm van identificatie, zoals een KYC, terwijl andere dat niet doen.
+Andere manieren om bitcoins te verkrijgen terwijl je je privacy beschermt, zijn natuurlijk mining. Om te starten met het minen van sats, hoef je je identiteit niet bekend te maken; zoek gewoon een geldige Proof of Work en stuur deze naar het netwerk. Als je kiest voor mining-pool, vereisen sommige pools een vorm van identificatie, zoals een KYC, terwijl andere dat niet doen.
 
 
-Een andere methode is om in Exchange te werken voor bitcoins. Deze methode kan interessant zijn, maar de mate van identificatie die nodig is, varieert aanzienlijk afhankelijk van de omstandigheden.
+Een andere methode is om in ruil te werken voor bitcoins. Deze methode kan interessant zijn, maar de mate van identificatie die nodig is, varieert aanzienlijk afhankelijk van de omstandigheden.
 
 
 *Om dit hoofdstuk te schrijven, heb ik gebruik gemaakt van de BTC205 training gegeven door [@pivi___](https://x.com/pivi___) over de Plan ₿ Academy (momenteel alleen beschikbaar in het Frans)*
 
 
-## Consolidatie, UTXO beheer en CIOH
+## Consolidatie, UTXO-beheer en CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
@@ -2139,7 +2139,7 @@ Een van de meest ingewikkelde aspecten van het beheren van een self-custody wall
 Bitcoin werkt als een veilingmarkt, waarbij miners de voorkeur geven aan transacties die de laagste vergoedingen bieden. Elk blok heeft echter een maximaal gewicht, wat het aantal transacties dat kan worden opgenomen beperkt. Aangezien een blok gemiddeld elke 10 minuten wordt geproduceerd, is de beschikbare ruimte in elk blok een schaars goed.
 
 
-Mijnbouwers, wier activiteiten generate aanzienlijke kosten met zich meebrengen in termen van elektriciteit, vaste activa en onderhoud, proberen natuurlijk hun winstgevendheid te maximaliseren. Daarom geven ze de voorkeur aan transacties met de hoogste generate vergoedingen in verhouding tot hun gewicht.
+Miners proberen hun winstgevendheid te maximaliseren, gezien de aanzienlijke kosten voor elektriciteit, vaste activa en onderhoud. Daarom geven ze de voorkeur aan transacties met de hoogste vergoedingen in verhouding tot hun gewicht.
 
 
 Niet alle Bitcoin-transacties wegen even zwaar. De transacties met meer input en output wegen zwaarder. Stel je bijvoorbeeld 2 transacties voor:
@@ -2147,19 +2147,19 @@ Niet alle Bitcoin-transacties wegen even zwaar. De transacties met meer input en
 
 
 
-- Transactie A bestaat uit 1 ingang en 1 output. Ze wijst 1.994 Sats aan vergoedingen toe en heeft een gewicht van 141 vB ;
-- Transactie B, een complexere transactie met 2 ingangen en 2 outputs, wijst 2.640 Sats aan vergoedingen toe voor een gewicht van 220 vB.
+- Transactie A bestaat uit 1 input en 1 output. Ze wijst 1.994 sats aan vergoedingen toe en heeft een gewicht van 141 vB ;
+- Transactie B, een complexere transactie met 2 inputs en 2 outputs, wijst 2.640 sats aan vergoedingen toe voor een gewicht van 220 vB.
 
 
 ![BTC204](assets/nl/099.webp)
 
 
-In dit voorbeeld zullen miners, hoewel transactie B een hogere totale vergoeding biedt, de voorkeur geven aan transactie A, omdat deze een betere verhouding tussen vergoeding en gewicht biedt. Hier is de berekening voor elke transactie, uitgedrukt in Sats per virtuele byte (sat/vB):
+In dit voorbeeld zullen miners, hoewel transactie B een hogere totale vergoeding biedt, de voorkeur geven aan transactie A, omdat deze een betere verhouding tussen vergoeding en gewicht biedt. Hier is de berekening voor elke transactie, uitgedrukt in sats per virtuele byte (sat/vB):
 
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2172,13 +2172,13 @@ Dit betekent dat transactie A per gewichtseenheid meer kosten met zich meebrengt
 Het is daarom altijd interessanter voor de gebruiker om zo weinig mogelijk input te verbruiken in zijn transacties. Je moet echter wel voldoende consumeren om aan de outputbetaling te kunnen voldoen. Wanneer je je wallet beheert, moet je voldoende grote UTXO's hebben.
 
 
-Het principe van consolidatie is juist om te profiteren van perioden waarin de kosten laag zijn op Bitcoin, om de kleinere UTXO's samen te voegen tot één grotere UTXO. Op deze manier kun je, wanneer de vergoedingen op Bitcoin stijgen, transacties maken met een minimum aan invoer, en dus in absolute zin minder uitgeven aan vergoedingen. Het doel is dus om te anticiperen op de verplichte transacties die moeten worden uitgevoerd tijdens perioden met hoge vergoedingen.
+Het principe van consolidatie is juist om te profiteren van perioden waarin de kosten laag zijn op Bitcoin, om de kleinere UTXO's samen te voegen tot één grotere UTXO. Op deze manier kun je, wanneer de vergoedingen op Bitcoin stijgen, transacties maken met een minimum aan input, en dus in absolute zin minder uitgeven aan vergoedingen. Het doel is dus om te anticiperen op de verplichte transacties die moeten worden uitgevoerd tijdens perioden met hoge vergoedingen.
 
 
 ![BTC204](assets/nl/101.webp)
 
 
-Naast het besparen op transactiekosten, helpt het consolideren van UTXO's de vorming van "Dust" voorkomen. Dust" verwijst naar UTXO's waarvan de waarde in Sats zo laag is dat het onvoldoende is om de transactiekosten te dekken die nodig zijn om ze uit te geven. Dit maakt deze UTXO's economisch irrationeel om te gebruiken zolang de transactiekosten hoog blijven. Door je UTXO's proactief samen te voegen, voorkom je dat ze in Dust veranderen, zodat al je fondsen bruikbaar blijven.
+Naast het besparen op transactiekosten, helpt het consolideren van UTXO's de vorming van "dust" voorkomen. "Dust" verwijst naar UTXO's waarvan de waarde in sats zo laag is dat het onvoldoende is om de transactiekosten te dekken die nodig zijn om ze uit te geven. Dit maakt deze UTXO's economisch irrationeel om te gebruiken zolang de transactiekosten hoog blijven. Door je UTXO's proactief samen te voegen, voorkom je dat ze in dust veranderen, zodat al je fondsen bruikbaar blijven.
 
 
 ### Wat is de minimale grootte voor je UTXO's?
@@ -2197,13 +2197,13 @@ Waar:
 
 
 
-- p$ is het transactiegewicht;
-- $F$ staat voor de maximale lading in satoshi's per vbyte (Sats/vB) waartegen je je indekt;
-- t$ is het percentage van de transactiekosten dat u bereid bent te betalen in verhouding tot de totale waarde van de UTXO ;
-- m$ is het minimumbedrag in satosjis voor elke UTXO.
+- $P$ is het transactiegewicht;
+- $F$ staat voor het maximale bedrag in satoshi's per vbyte (sats/vB) waartegen je je indekt;
+- $T$ is het percentage van de transactiekosten dat je bereid bent te betalen in verhouding tot de totale waarde van de UTXO;
+- $M$ is het minimumbedrag in satoshis voor elke UTXO.
 
 
-Laten we aannemen dat je van plan bent de kosten te dekken voor een standaard SegWit transactie met 1 input en 2 outputs, met een gewicht van 141 vB. Als je tot 800 Sats/vB dekt en bereid bent om maximaal 12% van de UTXO waarde aan vergoedingen uit te geven, dan is de berekening als volgt:
+Laten we aannemen dat je van plan bent de kosten te dekken voor een standaard SegWit transactie met 1 input en 2 outputs, met een gewicht van 141 vB. Als je tot 800 sats/vB dekt en bereid bent om maximaal 12% van de UTXO waarde aan vergoedingen uit te geven, dan is de berekening als volgt:
 
 
 $$
@@ -2211,13 +2211,13 @@ $$
 $$
 
 
-In dit voorbeeld zou het daarom verstandig zijn om een minimale waarde van 940.000 Sats aan te houden voor UTXO's in je portefeuille.
+In dit voorbeeld zou het daarom verstandig zijn om een minimale waarde van 940.000 sats aan te houden voor UTXO's in je wallet.
 
 
 ### Consolidatie en CIOH
 
 
-Een van de meest gebruikte heuristieken in blockchainanalyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle ingangen van een Bitcoin-transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als input te gebruiken en één UTXO als output te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
+Een van de meest gebruikte heuristieken in blockchainanalyse is de CIOH (*Common Input Ownership Heuristic*), die aanneemt dat alle inputs van een Bitcoin-transactie tot dezelfde entiteit behoren. Het principe van consolidatie is juist om meerdere UTXO's als input te gebruiken en één UTXO als output te creëren. Consolidatie maakt het dus mogelijk om de ICOH toe te passen.
 
 
 ![BTC204](assets/nl/102.webp)
@@ -2310,7 +2310,7 @@ Over het algemeen is het verstandiger om te kiezen voor de meest recente scripti
 Bron : [txstats.com](https://txstats.com/d/000000054/UTXO-set-repartition-by-output-type)
 
 
-Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een output creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere output buitenlands Exchange vertegenwoordigt. Als je 100 k Sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen output met buitenlands Exchange te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke output buitenlands Exchange vertegenwoordigt.
+Een andere tip om je vertrouwelijkheid te bewaren is om te proberen interne transactie heuristieken te omzeilen. Wanneer je bijvoorbeeld een betaling doet, kun je proberen te voorkomen dat je een output creëert met een rond bedrag, omdat dit een signaal kan zijn dat de andere output buitenlands exchange vertegenwoordigt. Als je 100 k Sats naar een vriend moet sturen, overweeg dan een iets hoger bedrag over te maken om aan deze heuristiek te ontsnappen. Probeer ook geen output met buitenlands exchange te maken die onevenredig hoog is in verhouding tot de betaling, omdat dit ook kan onthullen welke output buitenlands exchange vertegenwoordigt.
 
 
 ![BTC204](assets/nl/107.webp)
@@ -2608,7 +2608,7 @@ Het zijn precies deze 2 publieke en private aspecten, mogelijk gemaakt door het 
 Het is Hard om met zekerheid te zeggen wie het CoinJoin idee voor het eerst introduceerde bij Bitcoin, en wie op het idee kwam om David Chaum's blinde handtekeningen in deze context te gebruiken. Er wordt vaak gedacht dat het Gregory Maxwell was die het voor het eerst noemde in [een bericht op BitcoinTalk in 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en Exchange adressen) en een cryptografisch blinded versie van de adres waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
+> *"Met behulp van Chaums blinde handtekeningen: Gebruikers loggen in en geven inputs (en exchange adressen) en een cryptografisch blinded versie van de adres waarnaar ze hun private delen willen sturen; de server ondertekent de tokens en stuurt ze terug. Gebruikers maken opnieuw anoniem verbinding, ontmaskeren hun outputadressen en sturen ze terug naar de server. De server kan zien dat alle outputs door hem zijn ondertekend en dat alle outputs dus afkomstig zijn van geldige deelnemers. Later maken mensen opnieuw verbinding en melden zich aan"*
 Maxwell, G. (2013, augustus 22). *CoinJoin: Bitcoin privacy voor de echte wereld*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2688,7 +2688,7 @@ Elk van deze implementaties heeft als doel de geschiedenis van UTXO's te doorbre
 ### JoinMarket
 
 
-JoinMarket, opgericht in 2015 door Adam Gibson en Chris Belcher, onderscheidt zich duidelijk van andere CoinJoin implementaties dankzij zijn unieke model om gebruikers met elkaar in contact te brengen. Het systeem is gebaseerd op een P2P Exchange markt waar sommige gebruikers, de "makers", hun bitcoins beschikbaar stellen om te mengen, terwijl anderen, de "nemers", dit geld gebruiken om coinjoins te maken in ruil voor een vergoeding.
+JoinMarket, opgericht in 2015 door Adam Gibson en Chris Belcher, onderscheidt zich duidelijk van andere CoinJoin implementaties dankzij zijn unieke model om gebruikers met elkaar in contact te brengen. Het systeem is gebaseerd op een P2P exchange markt waar sommige gebruikers, de "makers", hun bitcoins beschikbaar stellen om te mengen, terwijl anderen, de "nemers", dit geld gebruiken om coinjoins te maken in ruil voor een vergoeding.
 
 
 ![BTC204](assets/nl/136.webp)
@@ -2697,7 +2697,7 @@ JoinMarket, opgericht in 2015 door Adam Gibson en Chris Belcher, onderscheidt zi
 In dit model stellen "makers" hun bitcoins beschikbaar aan "nemers" en ontvangen een vergoeding voor hun dienst. De takers betalen op hun beurt om de bitcoins van de makers te gebruiken om hun eigen CoinJoin transacties uit te voeren. De servicekosten variëren afhankelijk van de rol die ze vervullen: "makers" verzamelen vergoedingen voor het aanbieden van liquiditeit, terwijl "nemers" de vergoedingen betalen. De markt werkt vrij, zonder gebruiksvoorwaarden.
 
 
-Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebruik. Om JoinMarket doeltreffend te kunnen gebruiken, moet je een beetje vertrouwd zijn met terminals. Hoewel deze complexiteit geen belemmering vormt voor de ervaren gebruiker, kan het de toegang voor het grote publiek beperken. De recente introductie van een web Interface genaamd JAM heeft het gebruik echter iets eenvoudiger gemaakt.
+Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebruik. Om JoinMarket doeltreffend te kunnen gebruiken, moet je een beetje vertrouwd zijn met terminals. Hoewel deze complexiteit geen belemmering vormt voor de ervaren gebruiker, kan het de toegang voor het grote publiek beperken. De recente introductie van een web interface genaamd JAM heeft het gebruik echter iets eenvoudiger gemaakt.
 
 
 ![BTC204](assets/nl/137.webp)
@@ -2729,7 +2729,7 @@ Wabisabi is een andere CoinJoin implementatie, met een aanpak die transactiecoö
 Tegen het einde van de jaren 2010 paste Wasabi een radicaal andere CoinJoin transactiestructuur toe dan Whirlpool. Wasabi gebruikte zeer grote CoinJoin transacties, waarbij tientallen deelnemers betrokken waren, om de anonsets van haar deelnemers te vergroten. Whirlpool koos daarentegen voor meerdere kleine transacties, waardoor de anonimiteit bij elke cyclus exponentieel kon groeien.
 
 
-Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd buitenlands Exchange uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde buitenlands Exchange één van de outputs van de CoinJoin transactie, waarbij deterministische links tussen bepaalde ingangen en outputs werden onderhouden.
+Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd buitenlands exchange uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde buitenlands exchange één van de outputs van de CoinJoin transactie, waarbij deterministische links tussen bepaalde ingangen en outputs werden onderhouden.
 
 
 ![BTC204](assets/nl/139.webp)
@@ -2738,7 +2738,7 @@ Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool
 Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te chainen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de exchange koers: in tegenstelling tot Wasabi 1.0, waar de exchange koers direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de exchange koers onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
 
 
-Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 Exchange van 15.000 Sats voor Alice en 1 Exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
+Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 exchange van 15.000 Sats voor Alice en 1 exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
 
 
 ![BTC204](assets/nl/140.webp)
@@ -3001,7 +3001,7 @@ In dit voorbeeld van een `Tx0` transactie wordt een input van `372.000 Sats` van
 
 - Een bedrag van `5.000 Sats` voor de coördinator voor servicekosten, overeenkomend met de poolingang van `100.000 Sats`;
 - 3 UTXO's klaargemaakt voor menging, doorgestuurd naar onze **premix** rekening en geregistreerd bij de coördinator. Deze UTXO's zijn geëgaliseerd op `108.000 Sats` per stuk, om de Mining kosten te dekken voor hun toekomstige eerste menging;
-- Het overschot, dat niet in de pool kan omdat het te klein is, wordt beschouwd als giftig buitenlands Exchange. Het wordt naar zijn specifieke rekening gestuurd. Hier bedraagt dit Exchange `40.000 Sats`;
+- Het overschot, dat niet in de pool kan omdat het te klein is, wordt beschouwd als giftig buitenlands Exchange. Het wordt naar zijn specifieke rekening gestuurd. Hier bedraagt dit exchange `40.000 Sats`;
 - Tenslotte zijn er nog `3.000 Sats` over, die geen output vormen, maar de Mining kosten zijn die nodig zijn om `Tx0` te bevestigen.
 
 
@@ -3091,7 +3091,7 @@ Hier volgen enkele strategieën om ze te gebruiken:
 - **Mengen in kleinere zwembaden:** Als je giftige UTXO groot genoeg is om alleen in een kleiner zwembad te passen, overweeg dan om het te mengen. Dit is vaak de beste optie. Het is echter niet aan te raden om meerdere giftige UTXO's samen te voegen om toegang te krijgen tot een pool, omdat dit je verschillende inzendingen met elkaar kan verbinden;
 - **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
 - **Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
-- Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je Exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
+- Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
 - **Ze consolideren via Monero:** Samourai wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder je privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de miningkosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
 - Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
 
@@ -3141,7 +3141,7 @@ Nu we hebben bestudeerd hoe coinjoins werken en wat er allemaal komt kijken bij 
 Het nut van CoinJoin ligt in de mogelijkheid om plausibele ontkenning te produceren, door jouw deel in te bedden in een groep van niet te onderscheiden delen. Het doel van deze actie is om de banden van traceerbaarheid te verbreken, zowel van het verleden naar het heden als van het heden naar het verleden.
 
 
-Met andere woorden, een analist die uw initiële transactie (`Tx0`) bij het ingaan van CoinJoin cycli kent, zou niet in staat moeten zijn om met zekerheid uw UTXO bij het verlaten van remix cycli te identificeren (cyclus ingang tot cyclus uitgang analyse).
+Met andere woorden, een analist die uw initiële transactie (`Tx0`) bij het ingaan van CoinJoin cycli kent, zou niet in staat moeten zijn om met zekerheid uw UTXO bij het verlaten van remix cycli te identificeren (cyclus input tot cyclus uitgang analyse).
 
 
 ![BTC204](assets/nl/156.webp)
@@ -3210,7 +3210,7 @@ De retrospectieve anonset geeft het aantal mogelijke bronnen aan voor een bepaal
 ![BTC204](assets/nl/161.webp)
 
 
-Door je UTXO bij het verlaten van de cycli te kennen, bepaalt de retrospectieve anonset het aantal potentiële Tx0 transacties die je ingang in de CoinJoin cycli hadden kunnen vormen. In het diagram hieronder komt dit overeen met de som van alle oranje bellen.
+Door je UTXO bij het verlaten van de cycli te kennen, bepaalt de retrospectieve anonset het aantal potentiële Tx0 transacties die je input in de CoinJoin cycli hadden kunnen vormen. In het diagram hieronder komt dit overeen met de som van alle oranje bellen.
 
 
 ![BTC204](assets/nl/162.webp)
@@ -3257,7 +3257,7 @@ In tegenstelling tot anonsets, die berekend worden op een reeks transacties, ric
 De eerste indicator die kan worden waargenomen bij een Bitcoin-transactie is het totale aantal mogelijke interpretaties bij een analyse van een buitenstaander. Rekening houdend met de waarden van de UTXO's die betrokken zijn bij de transactie, toont deze indicator het aantal manieren waarop inputs geassocieerd kunnen worden met outputs. Met andere woorden, de indicator bepaalt het aantal mogelijke interpretaties van een transactie in Bitcoin stromen vanuit het gezichtspunt van een externe waarnemer die de transactie analyseert.
 
 
-Bijvoorbeeld, een eenvoudige betalingstransactie met 1 ingang en 2 outputs heeft maar één interpretatie, namelijk dat ingang #0 uitgang #0 en uitgang #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
+Bijvoorbeeld, een eenvoudige betalingstransactie met 1 input en 2 outputs heeft maar één interpretatie, namelijk dat input #0 uitgang #0 en uitgang #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
 
 
 ![BTC204](assets/nl/165.webp)
@@ -3467,7 +3467,7 @@ Door de entropiedichtheid van deze twee typen CoinJoin te analyseren, wordt het 
 Een ander stuk informatie dat wordt geanalyseerd in een transactie is de Boltzmann score van elk element ten opzichte van een ander. Dit is de tabel met overeenstemmingskansen tussen inputs en outputs. Deze tabel geeft via de Boltzmann score de voorwaardelijke waarschijnlijkheid aan dat een specifieke input gekoppeld is aan een bepaalde output. Het is dus een kwantitatieve maat voor de voorwaardelijke waarschijnlijkheid dat een associatie tussen een input en een output in een transactie zal voorkomen, gebaseerd op de verhouding van het aantal gunstige voorvallen van deze gebeurtenis tot het totale aantal mogelijke voorvallen, in een reeks interpretaties.
 
 
-Als we het voorbeeld van een Whirlpool CoinJoin gebruiken, zou de voorwaardelijke waarschijnlijkheidstabel de kans op een verband tussen elke ingang en uitgang benadrukken, en een kwantitatieve maatstaf bieden voor de ambiguïteit van associaties in de transactie:
+Als we het voorbeeld van een Whirlpool CoinJoin gebruiken, zou de voorwaardelijke waarschijnlijkheidstabel de kans op een verband tussen elke input en uitgang benadrukken, en een kwantitatieve maatstaf bieden voor de ambiguïteit van associaties in de transactie:
 
 
 | % | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
@@ -3524,7 +3524,7 @@ Hier zien we dat de waarschijnlijkheid dat elke output afkomstig is van input #0
 We kunnen ook het aantal deterministische koppelingen in een transactie berekenen. Deze indicator laat zien hoeveel van de verbindingen tussen inputs en outputs in de geanalyseerde transactie onbetwistbaar zijn, met een waarschijnlijkheid van 100%. Deze indicator kan vervolgens worden aangevuld door de verhouding van deterministische links te berekenen. De ratio geeft een beeld van het gewicht van deze deterministische links binnen de totale links van de transactie.
 
 
-Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één ingang en twee outputs) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
+Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één input en twee outputs) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
 
 
 ### Hoe bereken je deze indicatoren?
@@ -3756,7 +3756,7 @@ Een waarnemer van buitenaf die vertrouwt op heuristieken voor gemeenschappelijke
 ![BTC204](assets/nl/181.webp)
 
 
-Deze interpretatie is onjuist, want zoals je weet, werd één UTXO naar Bob de bakker gestuurd, kwamen de 2 UTXO inputs van Alice, en herstelde zij 3 Exchange outputs.
+Deze interpretatie is onjuist, want zoals je weet, werd één UTXO naar Bob de bakker gestuurd, kwamen de 2 UTXO inputs van Alice, en herstelde zij 3 exchange outputs.
 
 
 ![BTC204](assets/nl/182.webp)
@@ -3771,7 +3771,7 @@ En wat bijzonder interessant is aan de structuur van de Stonewall-transactie is 
 Stonewall x2 is een andere specifieke vorm van Bitcoin-transactie die er ook op gericht is om de vertrouwelijkheid van de gebruiker te vergroten bij het doen van een uitgave, maar deze keer door samen te werken met een derde persoon die niet betrokken is bij die uitgave. Deze methode werkt als een pseudo-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
 
 
-De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling Exchange vormt.
+De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling exchange vormt.
 
 
 In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
@@ -3814,7 +3814,7 @@ Een externe waarnemer die vertrouwt op de heuristiek van gemeenschappelijke kete
 ![BTC204](assets/nl/185.webp)
 
 
-Deze interpretatie is onjuist, omdat, zoals je weet, één UTXO naar Bob de bakker is gestuurd, Alice slechts één Exchange uitgang heeft en Charles er twee heeft.
+Deze interpretatie is onjuist, omdat, zoals je weet, één UTXO naar Bob de bakker is gestuurd, Alice slechts één exchange uitgang heeft en Charles er twee heeft.
 
 
 ![BTC204](assets/nl/186.webp)
@@ -4012,19 +4012,19 @@ Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme cont
 ![BTC204](assets/nl/199.webp)
 
 
-Laten we een naïef voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun private sleutels Exchange via een extern communicatiekanaal om een geheime overdracht uit te voeren.
+Laten we een naïef voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun private sleutels exchange via een extern communicatiekanaal om een geheime overdracht uit te voeren.
 
 
 ![BTC204](assets/nl/200.webp)
 
 
-Deze naïeve methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ private sleutel te bewaren na Exchange en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
+Deze naïeve methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ private sleutel te bewaren na exchange en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
 
 
 ![BTC204](assets/nl/201.webp)
 
 
-Verder is er geen garantie dat Alice niet Bob's privé sleutel $B$ ontvangt en nooit haar privé sleutel $A$ doorgeeft in Exchange. Deze Exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
+Verder is er geen garantie dat Alice niet Bob's privé sleutel $B$ ontvangt en nooit haar privé sleutel $A$ doorgeeft in Exchange. Deze exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
 
 
 ![BTC204](assets/nl/202.webp)
@@ -4040,7 +4040,7 @@ In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de exchange
 
 
 > *De HTLC is ook het mechanisme dat gebruikt wordt om betalingen veilig te routeren via de bidirectionele kanalen van de Lightning Network*
-Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die Exchange met zich meebrengt. Een ander groot voordeel van Adaptor-handtekeningen is dat ze niet het gebruik van een gemeenschappelijke Hash vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen Exchange.
+Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die exchange met zich meebrengt. Een ander groot voordeel van Adaptor-handtekeningen is dat ze niet het gebruik van een gemeenschappelijke Hash vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen Exchange.
 
 
 ### Handtekeningen van adapters
@@ -4049,7 +4049,7 @@ Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omd
 Adaptorhandtekeningen zijn een cryptografische methode die een geldige handtekening integreert met een extra handtekening, genaamd de "_adaptorhandtekening_", om geheime gegevens te onthullen. Dit mechanisme is zo ontworpen dat kennis van 2 van de 3 volgende elementen: de geldige handtekening, de adapterhandtekening en het geheim, ons toelaat om het ontbrekende derde element af te leiden. Een interessante eigenschap van deze methode is dat, als we de adaptorhandtekening van onze peer kennen en het specifieke punt op de elliptische curve dat geassocieerd is met het geheim dat gebruikt is om die adaptorhandtekening te berekenen, we onze eigen adaptorhandtekening kunnen afleiden die compatibel zal zijn met datzelfde geheim, zonder ooit directe toegang te hebben tot het geheim zelf.
 
 
-Bij een coinswap maakt het gebruik van Adaptor Signatures de gelijktijdige bekendmaking van twee stukken gevoelige informatie tussen deelnemers mogelijk, waardoor de noodzaak voor wederzijds vertrouwen wordt vermeden. Laten we een voorbeeld nemen om dit proces te illustreren met Alice en Bob, die elk 1 BTC willen Exchange bezitten, maar elkaar niet vertrouwen. Ze gebruiken Adaptor Signatures om de noodzaak om elkaar te vertrouwen in deze Exchange te elimineren. Dit is hoe ze het doen:
+Bij een coinswap maakt het gebruik van Adaptor Signatures de gelijktijdige bekendmaking van twee stukken gevoelige informatie tussen deelnemers mogelijk, waardoor de noodzaak voor wederzijds vertrouwen wordt vermeden. Laten we een voorbeeld nemen om dit proces te illustreren met Alice en Bob, die elk 1 BTC willen exchange bezitten, maar elkaar niet vertrouwen. Ze gebruiken Adaptor Signatures om de noodzaak om elkaar te vertrouwen in deze exchange te elimineren. Dit is hoe ze het doen:
 
 
 
@@ -4124,13 +4124,13 @@ Merk op dat coinswaps voor het eerst werden voorgesteld door [Gregory Maxwell in
 ### Atoomverwisseling
 
 
-Op een vergelijkbare manier als coinswap, en met behulp van dezelfde soorten smart contracts, is het ook mogelijk om atomic swaps uit te voeren. Een atomaire swap maakt een directe Exchange van verschillende cryptocurrencies mogelijk, zoals BTC en XMR, tussen twee gebruikers zonder de noodzaak van vertrouwen of de tussenkomst van een tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee mogelijke uitkomsten hebben: of de swap is succesvol en beide partijen zijn tevreden, of de swap mislukt en elk behoudt zijn oorspronkelijke cryptocurrencies, waardoor het niet meer nodig is om de andere partij te vertrouwen.
+Op een vergelijkbare manier als coinswap, en met behulp van dezelfde soorten smart contracts, is het ook mogelijk om atomic swaps uit te voeren. Een atomaire swap maakt een directe exchange van verschillende cryptocurrencies mogelijk, zoals BTC en XMR, tussen twee gebruikers zonder de noodzaak van vertrouwen of de tussenkomst van een tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee mogelijke uitkomsten hebben: of de swap is succesvol en beide partijen zijn tevreden, of de swap mislukt en elk behoudt zijn oorspronkelijke cryptocurrencies, waardoor het niet meer nodig is om de andere partij te vertrouwen.
 
 
 ![BTC204](assets/nl/203.webp)
 
 
-Atomic swap en coinswap hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst Exchange we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
+Atomic swap en coinswap hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst exchange we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
 
 
 ![BTC204](assets/nl/204.webp)
@@ -4160,7 +4160,7 @@ Vanuit het oogpunt van Alice is het risico dat de geschiedenis van de $B$-munt d
 ![BTC204](assets/nl/206.webp)
 
 
-Het is onvermijdelijk dat vertrouwelijkheidsmethodes zoals coinswap of atomic swap de voorkeur genieten van criminelen wiens fondsen onder toezicht staan van de autoriteiten. Met deze protocollen kunnen ze hun bitcoins die onder toezicht staan in Exchange van de hand doen voor perfect fungibele bitcoins. Het stelt hen ook in staat om een afleiding te creëren, door de autoriteiten naar andere gebruikers te leiden. Deze mensen hebben dus een dubbel doel.
+Het is onvermijdelijk dat vertrouwelijkheidsmethodes zoals coinswap of atomic swap de voorkeur genieten van criminelen wiens fondsen onder toezicht staan van de autoriteiten. Met deze protocollen kunnen ze hun bitcoins die onder toezicht staan in exchange van de hand doen voor perfect fungibele bitcoins. Het stelt hen ook in staat om een afleiding te creëren, door de autoriteiten naar andere gebruikers te leiden. Deze mensen hebben dus een dubbel doel.
 
 
 Met CoinJoin wordt de geschiedenis van de munt verbroken, zelfs als jouw munt vermengd is met gecontroleerde bitcoins. Dit biedt een vorm van plausibele ontkenning die niet bestaat in geheime eigenaar overdrachtsprotocollen zoals coinswap of atomic swap.
@@ -4196,7 +4196,7 @@ In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt te
 Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion voorstel. Dit broadcast protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
 
 
-Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een ingang zou kunnen bieden voor ketenanalyse.
+Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
 
 
 Deze associatie tussen activiteit op Bitcoin en een IP adres vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP adres gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP adres en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
@@ -4477,7 +4477,7 @@ Concreet, om generate de gecomprimeerde publieke sleutel en stringcode geassocie
 ![BTC204](assets/nl/224.webp)
 
 
-### Diffie-Hellman sleutel Exchange op elliptische krommen (ECDH)
+### Diffie-Hellman sleutel exchange op elliptische krommen (ECDH)
 
 
 Het cryptografische protocol in het hart van BIP47 staat bekend onder het acroniem ECDH, voor *Elliptic-Curve Diffie-Hellman*. Deze methode is een variant van de originele Diffie-Hellman sleutel Exchange.
@@ -4503,7 +4503,7 @@ Om dit te bereiken gebruikt Diffie-Hellman modulaire rekenkunde om het gedeelde 
 - Alice en Bob zijn het eens over een gemeenschappelijke kleur, in dit geval geel, wat openbare gegevens zijn (de aanvallers kennen deze kleur);
 - Alice selecteert een geheime kleur, in dit geval rood, en mengt de twee om oranje te krijgen;
 - Bob kiest ook een geheime kleur, in dit geval blauw, en mengt die met geel om Green te krijgen;
-- Ze Exchange vervolgens de resulterende kleuren, oranje en Green. Dit Exchange kan plaatsvinden op een onveilig netwerk en geobserveerd worden door aanvallers;
+- Ze exchange vervolgens de resulterende kleuren, oranje en Green. Dit exchange kan plaatsvinden op een onveilig netwerk en geobserveerd worden door aanvallers;
 - Door Bob's Green te mengen met haar eigen geheime kleur, Alice, ontstaat bruin;
 - Bob, die hetzelfde doet met Alice's oranje en geheime blauw, krijgt ook bruin.
 
@@ -4526,7 +4526,7 @@ Voordat we ons gaan verdiepen in de Diffie-Hellman mechanismen, wil ik u kort he
 - De **modulo** (ook wel $mod$ of $%$ genoemd) is een wiskundige bewerking die tussen twee gehele getallen de rest geeft van de Euclidische deling van de eerste door de tweede. Bijvoorbeeld: $16 modulo 5 = $1$.
 
 
-**De Diffie-Hellman sleutel Exchange tussen Alice en Bob verloopt als volgt:**
+**De Diffie-Hellman sleutel exchange tussen Alice en Bob verloopt als volgt:**
 
 
 
@@ -4554,7 +4554,7 @@ $$
 
 
 
-- De waarden $A$ (gelijk aan **de kleur oranje**) en $B$ (gelijk aan **de kleur Green**) worden uitgewisseld tussen de twee partijen. Deze Exchange kan in heldere tekst plaatsvinden op een onbeveiligd netwerk;
+- De waarden $A$ (gelijk aan **de kleur oranje**) en $B$ (gelijk aan **de kleur Green**) worden uitgewisseld tussen de twee partijen. Deze exchange kan in heldere tekst plaatsvinden op een onbeveiligd netwerk;
 - Alice, die $B$ heeft ontvangen, berekent de waarde van $z$ als volgt:
 
 
@@ -4692,7 +4692,7 @@ $$
 
 
 
-- Alice en Bob Exchange hun openbare sleutels $Ka$ en $Kb$ op een onbeveiligd openbaar netwerk.
+- Alice en Bob exchange hun openbare sleutels $Ka$ en $Kb$ op een onbeveiligd openbaar netwerk.
 - Alice berekent een punt $(x,y)$ op de curve door haar privésleutel $ka$ toe te passen op de openbare sleutel $Kb$ van Bob:
 
 
@@ -4727,7 +4727,7 @@ $$
 Een potentiële aanvaller die het onbeveiligde openbare netwerk observeert, kan alleen de openbare sleutels van elk individu en de parameters van de gekozen elliptische curve verkrijgen. Zoals hierboven uitgelegd, is deze informatie alleen niet voldoende om de privésleutels te bepalen. Bijgevolg kan de aanvaller het gedeelde geheim tussen Alice en Bob niet vinden.
 
 
-ECDH is daarom een Exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en Hash functies zoals SHA256.
+ECDH is daarom een exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en Hash functies zoals SHA256.
 
 
 TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk van je browser - symbolen van versleutelde communicatie. Als je deze cursus volgt, gebruik je ECDH, en het is zeer waarschijnlijk dat je het dagelijks gebruikt zonder dat je het weet.
@@ -4736,7 +4736,7 @@ TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk
 ### De kennisgevingstransactie
 
 
-Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman Exchange waarbij sleutelparen op een elliptische curve worden gebruikt. Het is maar goed dat we al veel sleutelparen hebben die aan deze standaard voldoen in onze Bitcoin portemonnees! Het idee van BIP47 is om de sleutelparen van de hiërarchische deterministische Bitcoin wallets van beide partijen te gebruiken om gedeelde, kortstondige geheimen tussen hen vast te stellen. BIP47 gebruikt in plaats daarvan ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
+Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman exchange waarbij sleutelparen op een elliptische curve worden gebruikt. Het is maar goed dat we al veel sleutelparen hebben die aan deze standaard voldoen in onze Bitcoin portemonnees! Het idee van BIP47 is om de sleutelparen van de hiërarchische deterministische Bitcoin wallets van beide partijen te gebruiken om gedeelde, kortstondige geheimen tussen hen vast te stellen. BIP47 gebruikt in plaats daarvan ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
 
 
 ![BTC204](assets/nl/229.webp)
@@ -4745,7 +4745,7 @@ Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman Ex
 ECDHE wordt voor het eerst gebruikt in BIP47 om de betaalcode van de verzender naar de ontvanger te sturen. Dit is de beroemde **notificatietransactie**. Deze stap is essentieel omdat BIP47 alleen effectief kan werken als beide betrokken partijen (verzender en ontvanger) elkaars betaalcodes kennen. Deze kennis maakt het mogelijk om efemere publieke sleutels af te leiden en dus ook de bijbehorende lege ontvangstadressen.
 
 
-Voorafgaand hieraan Exchange is de verzender logischerwijs al op de hoogte van de betaalcode van de ontvanger, omdat hij deze off-chain heeft opgehaald van bijvoorbeeld zijn of haar website, Invoice of sociale netwerken. De ontvanger is echter niet noodzakelijkerwijs op de hoogte van de betaalcode van de verzender. De code moet echter wel aan hem worden doorgegeven, anders kan hij niet de efemere sleutels afleiden die nodig zijn om de adressen te identificeren waar zijn bitcoins zijn opgeslagen, of toegang krijgen tot zijn geld. Hoewel deze overdracht van de code van de verzender technisch off-chain kan worden uitgevoerd via andere communicatiemiddelen, levert dit een probleem op als de wallet alleen moet worden opgehaald uit de seed.
+Voorafgaand hieraan exchange is de verzender logischerwijs al op de hoogte van de betaalcode van de ontvanger, omdat hij deze off-chain heeft opgehaald van bijvoorbeeld zijn of haar website, Invoice of sociale netwerken. De ontvanger is echter niet noodzakelijkerwijs op de hoogte van de betaalcode van de verzender. De code moet echter wel aan hem worden doorgegeven, anders kan hij niet de efemere sleutels afleiden die nodig zijn om de adressen te identificeren waar zijn bitcoins zijn opgeslagen, of toegang krijgen tot zijn geld. Hoewel deze overdracht van de code van de verzender technisch off-chain kan worden uitgevoerd via andere communicatiemiddelen, levert dit een probleem op als de wallet alleen moet worden opgehaald uit de seed.
 
 
 Dit komt omdat, in tegenstelling tot conventionele adressen, BIP47-adressen niet direct worden afgeleid van de seed van de ontvanger - het gebruik van een `xpub` zou in dit geval eenvoudiger zijn - maar het resultaat zijn van een berekening die de twee betaalcodes combineert: die van de verzender en die van de ontvanger. Dus, als de ontvanger zijn wallet verliest en het probeert te herstellen vanuit zijn seed, zal hij zijn eigen betalingscode terugkrijgen, die direct is afgeleid van zijn seed. Om efemere adressen terug te krijgen, heeft hij echter ook de betaalcodes nodig van iedereen die hem bitcoins heeft gestuurd via BIP47. Vandaar het belang van de kennisgevingstransactie, die het mogelijk maakt om deze informatie op te slaan op de Bitcoin blockchain, terwijl het nog steeds mogelijk is om het heel gemakkelijk terug te vinden zonder te hoeven zoeken in de miljard transacties die zijn uitgevoerd sinds de lancering in 2009.
@@ -4890,7 +4890,7 @@ $$ c' = c \oplus f2 $$
 Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
 
 
-Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel Exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
+Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
 
 
 Ik zal de stappen die we net hebben gezien samenvatten om een meldingstransactie uit te voeren:
@@ -4918,7 +4918,7 @@ Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik va
 ![BTC204](assets/nl/233.webp)
 
 
-Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele ingang en 4 outputs heeft:
+Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele input en 4 outputs heeft:
 
 
 
@@ -5762,7 +5762,7 @@ $$
 - $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
 
 
-Voorlopig gaan onze berekeningen ervan uit dat Alice één ingang gebruikt voor haar transactie. Ze zou echter meerdere ingangen moeten kunnen gebruiken. Bijgevolg zou Bob voor elke transactie met meerdere ingangen theoretisch de ECDH voor elke ingang moeten berekenen om te bepalen of een betaling voor hem bedoeld is. Deze methode is niet bevredigend, dus we moeten een oplossing vinden om de werklast te verminderen!
+Voorlopig gaan onze berekeningen ervan uit dat Alice één input gebruikt voor haar transactie. Ze zou echter meerdere ingangen moeten kunnen gebruiken. Bijgevolg zou Bob voor elke transactie met meerdere ingangen theoretisch de ECDH voor elke input moeten berekenen om te bepalen of een betaling voor hem bedoeld is. Deze methode is niet bevredigend, dus we moeten een oplossing vinden om de werklast te verminderen!
 
 
 ### Openbare sleutels omzetten in invoer
@@ -5777,8 +5777,8 @@ Stel bijvoorbeeld dat de transactie van Alice 3 ingangen heeft, elk beveiligd me
 
 
 - $a_0$ wordt gebruikt om input #0 te beveiligen;
-- $a_1$ wordt gebruikt om ingang #1 te beveiligen;
-- $a_2$ beveiligt ingang #2.
+- $a_1$ wordt gebruikt om input #1 te beveiligen;
+- $a_2$ beveiligt input #2.
 
 
 ![BTC204](assets/nl/247.webp)

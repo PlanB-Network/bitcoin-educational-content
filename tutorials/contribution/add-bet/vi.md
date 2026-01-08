@@ -26,11 +26,11 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 - Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
 ![event](assets/05.webp)
 - Tạo một thư mục cho nội dung của bạn. Tại ô `Name your file...`, bạn nhập tên nội dung bằng chữ thường và dùng dấu gạch ngang thay cho khoảng trắng. Ví dụ: tôi muốn thêm một tài liệu PDF minh họa cho danh sách từ vựng BIP39 (BIP39 wordlist) gồm 2048 từ, tôi sẽ đặt tên thư mục là `bip39-wordlist`: ![event](assets/06.webp)
-- Để chắc chắn rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `bip39-wordlist/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một folder:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `bip39-wordlist/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![event](assets/07.webp)
 - Trong thư mục vừa tạo, bạn sẽ tạo một tệp YAML đầu tiên có tên `bet.yml`:
 ![event](assets/08.webp)
-- Điền thông tin liên quan đến nội dung của bạn vào tệp này bằng cách sử dụng mẫu (template) sau:
+- Điền thông tin về nội dung của bạn vào tệp này theo mẫu sau:
 
 ```yaml
 project: 
@@ -46,9 +46,9 @@ contributors:
   - 
 ```
 
-Dưới đây là chi tiết các thông tin bạn cần điền vào từng trường:
+Dưới đây là thông tin chi tiết cho từng trường:
 
-- **`project`**: Nhập mã định danh (identifier) cho tổ chức của bạn trên Plan ₿ Academy. Nếu công ty của bạn chưa có mã định danh "project", bạn có thể khởi tạo bằng cách làm theo hướng dẫn này.
+- **`project`**: Mã định danh (identifier) cho tổ chức của bạn trên Plan ₿ Academy. Nếu công ty của bạn chưa có mã định danh "project", bạn có thể khởi tạo bằng cách làm theo hướng dẫn này.
 
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
@@ -72,7 +72,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 - **`contributors`**: Điền mã định danh người đóng góp (contributor identifier) của bạn nếu đã có.
 
-Dưới đây là một ví dụ về tệp YAML sau khi hoàn thiện:
+Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
 project: Plan ₿ Academy
@@ -96,7 +96,7 @@ links:
 ![event](assets/14.webp)
 - Chọn bản fork của repository Plan ₿ Academy:
 ![event](assets/15.webp)
-- Bạn sẽ thấy một thông báo ở đầu cửa sổ về nhánh (branch) mới của bạn. Thông thường nó sẽ có tên là `patch-1`. Hãy nhấn vào đó:
+- Bạn sẽ thấy thông báo ở đầu cửa sổ về nhánh (branch) mới của bạn (thường tên là `patch-1`). Nhấn vào đó:
 ![event](assets/16.webp)
 - Bây giờ, bạn đang ở trên nhánh làm việc của mình (**hãy đảm bảo bạn đang ở đúng nhánh chứa các thay đổi trước đó, điều này rất quan trọng!**):
 ![event](assets/17.webp)
@@ -104,14 +104,14 @@ links:
 ![event](assets/18.webp)
 - Trong thư mục nội dung đó, nhấn vào nút `Add file`, sau đó chọn `Create new file`:
 ![event](assets/19.webp)
-- Đặt tên thư mục mới này là `assets` và xác nhận việc tạo nó bằng cách đặt một dấu gạch chéo `/` ở cuối:
+- Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
 ![event](assets/20.webp)
 - Trong thư mục `assets` này, tạo một tệp có tên `.gitkeep`: ![event](assets/21.webp)
 - Nhấn vào nút `Commit changes...`: ![event](assets/22.webp)
 - Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn vào `Commit changes`: ![event](assets/23.webp)
 - Quay lại thư mục `assets`: ![event](assets/24.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Upload files`: ![event](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo thả ảnh thu nhỏ (thumbnail) đại diện cho nội dung của bạn vào vùng này. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![event](assets/26.webp)
+- Một trang mới sẽ mở ra. Kéo thả ảnh thu nhỏ (thumbnail) đại diện cho nội dung của bạn vào khu vực tải lên. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![event](assets/26.webp)
 - Đó có thể là một bản xem trước, logo, hoặc biểu tượng: ![event](assets/27.webp)
 - Sau khi hình ảnh đã được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn vào `Commit changes`: ![event](assets/28.webp)
 - Lưu ý, hình ảnh của bạn phải được đặt tên là `logo` và có định dạng `.webp`. Tên tệp tin đầy đủ phải là: `logo.webp`: ![event](assets/29.webp)
@@ -122,7 +122,7 @@ links:
 - Quay lại thư mục nội dung của bạn: ![event](assets/34.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Create new file`: ![event](assets/35.webp)
 - Tạo một tệp YAML mới và đặt tên theo mã ngôn ngữ bản địa của bạn. Tệp này sẽ dùng để mô tả nội dung. Ví dụ, nếu tôi muốn viết mô tả của mình bằng tiếng Anh, tôi sẽ đặt tên file này là `en.yml` (hoặc `vi.yml` nếu viết bằng tiếng Việt): ![event](assets/36.webp)
-- Điền vào tệp YAML này sử dụng mẫu sau:
+- Điền vào tệp YAML này theo mẫu sau:
 
 ```yaml
 name: 
@@ -137,7 +137,7 @@ Dưới đây là ví dụ minh họa cho tệp của bạn:
 ```yaml
 name: DANH SÁCH TỪ VỰNG BIP39
 description: |
-  Danh sách đầy đủ và được đánh số thứ tự của 2048 từ tiếng Anh từ bộ từ điển BIP39 được sử dụng để thiết lập các cụm từ khôi phục (mnemonic phrases). Tài liệu có thể được in trên một trang duy nhất.
+  Danh sách hoàn chỉnh có đánh số thứ tự của 2048 từ tiếng Anh từ bộ từ điển BIP39 được sử dụng để thiết lập cụm ghi nhớ (mnemonic phrases). Tài liệu này có thể in trên một trang duy nhất.
 ```
 
 ![event](assets/37.webp)
@@ -206,9 +206,9 @@ Thao tác này giúp chúng ta xác định trước đường dẫn cố địn
 ![event](assets/54.webp)
 - Nhấn vào nút `Create pull request`:
 ![event](assets/55.webp)
-Chúc mừng bạn! Bản PR của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
+Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
 
-Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi nó trong tab "Pull requests" trên repository của Plan ₿ Academy:
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi nó trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
 ![event](assets/56.webp)
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

@@ -137,7 +137,7 @@ Du har nu tillgång till programvaran Interface.
 Innan du börjar, om din Ledger är ny, se till att du har ställt in PIN-koden och sparat återställningsfrasen. Du behöver inte Ledger Live för dessa inledande steg. Anslut helt enkelt din Ledger via USB-kabeln för att driva den. Om du inte är säker på hur du ska gå vidare med dessa två steg kan du hänvisa till början av den handledning som är specifik för din modell:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

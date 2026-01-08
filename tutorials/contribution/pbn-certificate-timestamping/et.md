@@ -66,7 +66,7 @@ Avage esmalt terminal kaustas, kus failid asuvad (paremklõpsates kausta aknal j
 1. Importige Plan ₿ Academy avalik PGP võti järgmise käsu abil:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Kui PGP võti on edukalt imporditud, peaksite nägema sõnumit nagu järgmine

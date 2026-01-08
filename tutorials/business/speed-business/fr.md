@@ -4,7 +4,7 @@ description: Intégrez facilement les paiements en bitcoins et en stablecoins da
 ---
 ![cover](assets/cover.webp)
 
-L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpables dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiement unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
+L'adoption du Bitcoin sur l'ensemble du globe passe par des cas d'utilisations palpables dans la vie quotidienne. L'utilisation de Bitcoin dans les transactions commerciales instantanées partout dans le monde renforce cette adoption aussi bien au niveau des grandes institutions qu'au niveau de petits commerces. Dans ce tutoriel, nous découvrirons Speed Business, une plateforme de paiements unifiés qui permet à votre commerce d'accepter des paiements par Bitcoin via Lightning.
 
 ![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
 
@@ -30,9 +30,9 @@ Fournissez des informations à Speed Wallet pour qu'il puisse vous aider à simp
 
 ![onboard](assets/fr/02.webp)
 
-Speed dispose d'un kit de développement logiciel qui vous permet de personnaliser votre intégration et d'une extension pour une intégration standard.
+Speed dispose d'un kit de développement logiciel qui vous permet de personnaliser votre intégration et d'une extension pour une intégration standarde.
 
-Nous partirons, dans le cadre de ce tutoriel, sur une intégration standard en utilisant l'extension fournie par Speed.
+Nous partirons, dans le cadre de ce tutoriel, sur une intégration standarde en utilisant l'extension fournie par Speed.
 
 Pour faciliter votre expérience, Speed vous propose un mode de test qui vous permet de tester les différentes fonctionnalités sans avoir à vous inquiéter de leurs répercussions sur la gestion de votre boutique. 
 
@@ -115,7 +115,7 @@ Vous pouvez envoyer cette facture sous format PDF, par mail ou générer un lien
 
 ![addresses](assets/fr/19.webp)
 
-⚠️ Vous avez la possibilité d'ajouter et d'utiliser des noms de domaine autres que celui de Speed, toutefois, pour une première expérience, nous vous recommandons d'utiliser la configuration standard afin de bénéficier de toute l'expertise du support technique de Speed business.
+⚠️ Vous avez la possibilité d'ajouter et d'utiliser des noms de domaine autres que celui de Speed, toutefois, pour une première expérience, nous vous recommandons d'utiliser la configuration standarde afin de bénéficier de toute l'expertise du support technique de Speed business.
 
 - Le **One QR**: Idéal pour les paiements sur site, créez un code QR associé à votre commerce pour permettre à vos clients de payer vos produits.
 
@@ -125,7 +125,7 @@ Vous pouvez envoyer cette facture sous format PDF, par mail ou générer un lien
 
 Speed business ne se limite pas qu'à l'encaissement des paiements de votre commerce, il constitue un portefeuille qui vous permet de gérer sans accroc, tout l'aspect financier de votre structure.
 
-Dans le menu **Send Payments**, vous retrouverez toutes les possibilités de speed vous propose en matière de transfert d'argent.
+Dans le menu **Send Payments**, vous retrouverez toutes les possibilités que speed vous propose en matière de transfert d'argent.
 
 - **Les paiements instantanés** : Grâce à l'option Instant Send, envoyez de façon sécurisée, des bitcoins instantanément à partir de votre compte marchand.
 
@@ -153,11 +153,11 @@ Dans l'option **Balances** retrouvez le solde de vos portefeuilles Bitcoin, USDT
 
 ![balance](assets/fr/24.webp)
 
-A l'instar de Speed Wallet, dans le menu **Swap**, Speed Business vous permet de faire des opérations de change entre vos différents portefeuilles de devises (BTC, USDT, USDC) à partir de 20.000 sats (environ $20 au taux actuel).
+À l'instar de Speed Wallet, dans le menu **Swap**, Speed Business vous permet de faire des opérations de change entre vos différents portefeuilles de devises (BTC, USDT, USDC) à partir de 20.000 sats (environ $20 au taux actuel).
 
 ![swap](assets/fr/25.webp)
 
-Dans le menu **Transfer**, communiquez avec d'autres marchants et transférez des bitcoins facilement en utilisant leur identifiant Speed.
+Dans le menu **Transfer**, communiquez avec d'autres marchands et transférez des bitcoins facilement en utilisant leur identifiant Speed.
 
 ![transferts](assets/fr/26.webp)
 
@@ -167,11 +167,11 @@ Dans le menu **Customers**, vous pourrez enregistrer et consulter la liste de vo
 
 Gagnez des récompenses en participant au programme d'affiliation initié par Speed.
 
-Dans le menu **Partners**, invitez des marchants à configurer leur commerce sur Speed business et faites-vous du revenu passif.
+Dans le menu **Partners**, invitez des marchands à configurer leur commerce sur Speed business et faites-vous du revenu passif.
 
 ![partners](assets/fr/28.webp)
 
-## Intégrer Speed sur le site Web de votre commerce
+## Intégrez Speed sur le site Web de votre commerce
 
 Speed Business possède un Kit de développement qui vous permet d'intégrer sa solution de paiement dans votre propre site Web.
 
@@ -183,11 +183,11 @@ Retrouvez la [documentation](https://apidocs.tryspeed.com/reference/introduction
 
 ## Personnaliser son commerce
 
-Dans le menu **Settings**, vous pouvez configurer votre profil marchant et les informations relatives à votre commerce.
+Dans le menu **Settings**, vous pouvez configurer votre profil marchand et les informations relatives à votre commerce.
 
 Dans la section **Business Settings** :
 
-- Éditez les détails de votre compte marchant tels que votre nom, votre localisation et votre fuseau horaire.
+- Éditez les détails de votre compte marchand tels que votre nom, votre localisation et votre fuseau horaire.
 
 - Vérifiez les permissions activées (réception de paiement, envoi de bitcoin, échange, transfert, retrait) sur votre compte dans le menu **Account Status**.
 
@@ -203,7 +203,7 @@ Dans la section **Business Settings** :
 
 
 
-Vous avez une bonne prise en main de Speed, intégrez Bitcoin dans votre commerce et développez votre économie locale circulaire basée sur Bitcoin. Si ce tutoriel vous a été utile, nous sommes convaincues que vous apprécierez tout autant notre tutoriel sur Swiss Bitcoin Pay.
+Vous avez une bonne prise en main de Speed, intégrez Bitcoin dans votre commerce et développez votre économie locale circulaire basée sur Bitcoin. Si ce tutoriel vous a été utile, nous sommes convaincus que vous apprécierez tout autant notre tutoriel sur Swiss Bitcoin Pay.
 
 https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 

@@ -1,11 +1,11 @@
-question: 在coinjoin中，使用什么加密方法来防止协调者关联输入和输出？
+question: 在混币中，使用什么加密方法来防止协调者关联输入和输出？
 
-answer: Chaum盲签名。
+answer: Chaum Blind Signatures（Chaum 盲签名）。
 
 wrong_answers:
-  - Schnorr签名。
-  - P2SH地址。
-  - P2TR地址。
+  - Schnorr 签名。
+  - P2SH 地址。
+  - P2TR 地址。
 
 explanation: |
-  在所谓的“Chaumian”coinjoins中，结合使用Tor和David Chaum的盲签名来确保协调者无法知道哪个输出属于哪个用户。
+  在所谓的 “Chaumian” 混币中，结合使用 Tor 和 David Chaum 的盲签名来确保协调者无法知道哪个输出属于哪个用户。

@@ -1,6 +1,6 @@
-question: coinswaps和atomic swaps在隐私方面的主要缺点是什么？
+question: Coinswap 和原子交换（Atomic Swap）在隐私方面的主要缺点是什么？
 
-answer: 它们无法打破交换硬币的历史记录
+answer: 它们无法模糊交换比特币的历史记录
 
 wrong_answers:
   - 它们在交易费用上非常昂贵
@@ -8,4 +8,4 @@ wrong_answers:
   - 它们可能受到交易平台的分析
 
 explanation: |
-  这些方法的主要缺点是，如果不使用额外的技术来打破硬币的历史记录，它们将非常有风险。
+  这些方法的主要缺点是，如果不使用额外的技术来模糊硬币的历史记录，它们将非常有风险。

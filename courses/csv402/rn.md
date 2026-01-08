@@ -1333,10 +1333,10 @@ Buri _ukwmeza kwa Merkle (Merkle proof)_ rero iraremereye cane cane kuko uburebu
 Ni co gituma vyatwaye igihe kirekire cane kugira ngo RGB irangizwe. Twari dufise ishusho rusangi kuva muri 2019: gushiramwo vyose ku ruhande rw’amuguzi, gukwiragiza ibimenyetso off-chain. Ariko ku bijanye n’ibintu nk’uguca ibice ku masezerano menshi, uko igiti ca Merkle cubatse, ingene umuntu yovyifatamwo mu gutombora no gufatanya ibimenyamenya... ivyo vyose vyasaba ko umuntu asubiramwo.
 
 
-### Anchors: ikoraniro ry'isi yose
+### Anchors: ikoraniro ryavyose
 
 
-Dukurikije ukwubaka amasezerano yacu (`Opret` canke `Tapret`) na MPC yacu (*Multi Protocol Commitment*), turakeneye Address iciyumviro ca **Anchor** mu masezerano ya RGB. Anchor ni umubumbe wemejwe n’umukiriya uzana hamwe Elements ikenewe kugira ngo umuntu asuzume ko Bitcoin Commitment mu vy’ukuri irimwo amakuru yihariye y’amasezerano. Mu yandi majambo, Anchor ivuga mu ncamake amakuru yose akenewe kugira ngo yemeze _amasezerano_ yavuzwe haruguru.
+Dukurikije ukwubaka amasezerano yacu (`Opret` canke `Tapret`) na MPC yacu (*Multi Protocol Commitment*), turakeneye kwerekana inyigisho za **Anchor** murukwirikirane rwa RGB. Anchor ni inyubako kuruhande rw'ukwemeza rw'umuguzi ushira hamwe ibintu vyose bikenewe gusuzumwa yuko ukwiyemeza kwa Bitcoin kurimwo amakuru y'amasezerano yihariwe. Mu yandi majambo, Anchor ivuga mu ncamake amakuru yose akenewe kugira ngo yemeze _amasezerano_ yavuzwe haruguru.
 
 
 Anchor igizwe n’ibice bitatu vy’urutonde:
@@ -1346,35 +1346,35 @@ Anchor igizwe n’ibice bitatu vy’urutonde:
 
 - 'txid'
 - `Ikimenyamenya ca MPC`
-- Ikimenyamenya c'ibikorwa vy'inyongera - ETP
+- Ikimenyamenya c'ihanahanwa rirenze - ETP
 
 
-Imwe muri izo nzira irafise uruhara mu nzira yo kwemeza, haba ari ikibazo co gusubira kwubaka igikorwa ca Bitcoin canke kwemeza ko hariho Commitment yihishije (cane cane ku bijanye na `Tapret`).
+Buri imwe murizino ngingo irafise uruhara mu nzira yo kwemeza, haba ari ikibazo co gusubira kwubaka ihanahanwa rya Bitcoin riciweko akarongo canke kwemeza ko hariho ukwiyemeza kwinyegeje ( Vy'umwihariko kuribino bijanye na `Tapret`).
 
 
 #### txid
 
 
-Umurima wa `txid` uhuye n'ikimenyetso c'amabayiti 32 c'ibikorwa vya Bitcoin birimwo `Opret` canke `Tapret` Commitment.
+Umurima wa `txid` uhuye n'ikimenyetso c'ama byte 32 kwihanahanwa rya Bitcoin ririmwo ukwiyemeza kwa `Opret` canke `Tapret`.
 
 
-Mu vyiyumviro, vyoshoboka ko umuntu aronka iyo `txid` mu gukurikirana uruhererekane rw’imihindukire ya Leta ubwayo yerekana Witness Transaction imwe imwe, hakurikijwe ubuhinga bw’Ibimenyetso vy’Ikoreshwa Rimwe. Ariko rero, kugira ngo vyorohe kandi vyihute kugenzura, iyo `txid` ishirwa gusa muri Anchor, gutyo igakiza uwuyigenzura ngo ntasubire mu mateka yose ya off-chain.
+Mu vyiyumviro, vyoshoboka ko umuntu aronka iyo `txid` mu gukurikirana uruhererekane rw’imihindukire yuko ihanahanwa rimweze rikerekana kuri buricabona c'ihanahana imwe imwe, hakurikijwe ubuhinga bw’Ibimenyetso vy’Ikoreshwa Rimwe. Ariko rero, kugira ngo vyorohe kandi vyihute kugenzura, iyo `txid` ishirwa gusa muri Anchor, gutyo igakiza uwuyigenzura ngo ntasubire muri kahise kose ka off-chain.
 
 
 #### Ikimenyamenya ca MPC
 
 
-Ikibanza ca kabiri, `Ikimenyamenya ca MPC`, kivuga ikimenyamenya c'uko iyo Contract (nk'akarorero `c_i`) iri mu _Isezerano ry'amasezerano menshi_. Ni uruvange rwa:
+Ikibanza ca kabiri, `Ikimenyamenya ca MPC`, kivuga ikimenyamenya c'uko ayo masezerano (nk'akarorero `c_i`) ari mu _Isezerano ry'amasezerano menshi_. Ni uruvange rwa:
 
 
 
 
-- `pos_i`, ikibanza c'iyi Contract mu giti ca MPC;
-- cofactor`, agaciro gasobanuwe kugira ngo utore umuti w’ugutombokana kw’ibibanza;
-- `Merkle Proof`, ni ukuvuga umugwi w'ibice n'ibice bikoreshwa mu gusubira kwubaka umuzi wa MPC no kugenzura ko ikimenyetso ca Contract na `Transition Bundle` yaco vyiyemeje ku muzi.
+- `pos_i`, ikibanza c'aya masezerano mu giti ca MPC;
+- cofactor`, agaciro gasobanuwe kugira ngo utore inyishu yuko vyohura;
+- `Merkle Proof`, ni ukuvuga umugwi w'ibice n'ibice bikoreshwa mu gusubira kwubaka umuzi wa MPC no kugenzura ko ikimenyetso c'amasezerano  `umutekero w'ihanahanwa` yaco vyiyemeje ku muzi.
 
 
-Ubwo buryo bwavuzwe mu gice ca mbere ku bijanye no kwubaka *Igiti ca MPC*, aho Contract yose ironka ibabi ryihariye kubera:
+Ubwo buryo bwavuzwe mu gice ca mbere ku bijanye no kwubaka *Igiti ca MPC*, aho burimasezerano aronka ibabi ryihariwe ivyo dukesha :
 
 
 ```txt
@@ -1385,49 +1385,49 @@ pos(c_i) = c_i mod (w - cofactor)
 Hanyuma, umugambi w’uguhindura amababi (merkelization) ukoreshwa kugira ngo amababi yose akoranirizwe hamwe (amasezerano + entropie). Mu mpera, `Ikimenyamenya ca MPC` kiremesha umuzi gusubira kwubakwa mu karere no kugereranywa na `mpc::Commitment` harimwo On-Chain.
 
 
-#### Ikimenyamenya c'inyongera c'ibikorwa - ETP
+#### Icemeza ihanahanwa rirenze - ETP
 
 
-Ico kibanza ca gatatu, **ETP**, kivana n’ubwoko bwa Commitment ikoreshwa. Iyo Commitment ari iyo mu bwoko bwa `Opret`, nta kindi kimenyamenya gikenewe. Uwugenzura asuzuma igisohoka ca mbere `OP_RETURN` c'ugucuruza maze agasanga `mpc::Commitment` ari ho nyene.
+Ico kibanza ca gatatu, **ETP**, kivana n’ubwoko bwa'ukwiyemeza bukoreshwa. Nimba kuno kwiyemeza kuri mubwoko bwa `Opret`, nta kindi kimenyamenya gikenewe. Uwugenzura asuzuma igisohoka ca mbere `OP_RETURN` c'ugucuruza maze agasanga `mpc::Commitment` ari ho nyene.
 
 
-**Nimba Commitment ari iyo mu bwoko bwa `Tapret`**, hategerezwa gutangwa ikimenyamenya c’inyongera citwa *Ikimenyamenya c’Ibikorwa vy’Iyongera - ETP*. Birimwo:
+**Nimba ukwiyemeza ukw'ubwoko bwa `Tapret`**, hategerezwa gutangwa ikimenyamenya c’inyongera citwa *Icemeza ihanahanwa rirenze - ETP*. Birimwo:
 
 
 
 
-- Urufunguzo rwa bose rw'imbere (`P`) rw'isohoka rya Taproot aho *Commitment* ishizwemwo;
+- Urufunguzo rwa bose rw'indani (`P`) rw'isohoka rya Taproot aho *ukwiyemeza* Gushizwemwo;
 - Ivyuma vy'abafatanyabikorwa vya `Inzira y'Inyandiko Gukoresha` (igihe Tapret *Commitment* yinjijwe mu nyandiko), kugira ngo vyemeze aho nya nyandiko iyi nyandiko iri mu giti ca Taproot:
- - Iyo `Tapret` *Commitment* iri kw'ishami ry'iburyo, duhishura urudodo rw'ibubamfu (nk'akarorero `tHABC`),
- - Niba `Tapret` *Commitment* iri ibubamfu, ukeneye gutangaza uturongo 2 (nk'akarorero `tHAB` na `tHC`) kugira ngo werekane ko ata wundi *Commitment* uri ku ruhande rw'iburyo.
-- `Nonce` ishobora gukoreshwa mu "gucukura" imiterere myiza, igatuma *Commitment* ishirwa iburyo bw'igiti (ugutuma ibimenyamenya bigenda neza).
+ - Iyo `Tapret` *Ukwiyemeza* kuri kw'ishami ry'iburyo, duhishura urudodo rw'ibubamfu (nk'akarorero `tHABC`),
+ - Niba `Tapret` *Ukwiyemeza* kuri ibubamfu, ukeneye gutangaza uturongo 2 (nk'akarorero `tHAB` na `tHC`) kugira ngo werekane ko ata wundi *Ukwiyemeza* kuri ku ruhande rw'iburyo.
+- `Nonce` ishobora gukoreshwa mu "gucukura" imiterere myiza, igatuma *Ukwiyemeza* guhirwa iburyo bw'igiti (ugutuma ibimenyamenya bigenda neza).
 
 
-Ico kimenyamenya c’inyongera ni ngombwa kuko, bitandukanye na `Opret`, `Tapret` Commitment yinjijwe mu mibumbe y’inyandiko ya Taproot, ivyo bikaba bisaba guhishura igice c’igiti ca Taproot kugira ngo umuntu ashobore kwemeza neza aho *Commitment* iri.
+Ico kimenyamenya c’inyongera ni ngombwa kuko, bitandukanye na `Opret`, n'ukwiyemeza kwa `Tapret` Ukwiyemeza kwinjijwe mu mibumbe y’inyandiko ya Taproot, ivyo bikaba bisaba guhishura igice c’igiti ca Taproot kugira ngo umuntu ashobore kwemeza neza aho *ukwiyemeza* kuri.
 
 
 ![RGB-Bitcoin](assets/en/045.webp)
 
 
-**Ivyuma** rero bishiramwo amakuru yose asabwa kugira ngo umuntu yemeze Bitcoin Commitment mu bijanye n'ivyo RGB ivuga. Birerekana vyose bibiri, igikorwa gifitaniye isano (`txid`) n'ikimenyamenya c'aho Contract iri (`Ikimenyamenya ca MPC`), mu gihe bicungera ikimenyamenya c'inyongera (`ETP`) ku bijanye na `Tapret`. Muri ubwo buryo, Anchor irinda ubutungane n’ubudasa bwa Leta ya off-chain mu kumenya neza ko iyo nzira nyene idashobora gusubirwamwo ku yandi makuru y’amasezerano.
+**Anchors** rero bishiramwo amakuru yose asabwa kugira ngo umuntu yemeze ukwiyemeza kwa Bitcoin mubijanye n'ivya RGB ivuga. Birerekana vyose bibiri, ihanahanwa rya nyaryo (`txid`) n'ikimenyamenya c'aho amasezerano ari (`Ikimenyamenya ca MPC`), mu gihe bicungera ikimenyamenya c'inyongera (`ETP`) ku bijanye na `Tapret`. Muri ubwo buryo, Anchor irinda ubutungane n’ubudasa bw'uko off-chain imeze mukwerekana y'uko ihanahanwa rimwe ntirishobora gusubirwamwo ku yandi makuru y’amasezerano.
 
 
-### Iciyumviro
+### Ugusozera
 
 
-Muri iki kigabane, twarihweje ibi:
+Muri kino kigabane, twarihweje ibi:
 
 
 
 
-- Uko woshira mu ngiro iciyumviro c'Ibimenyetso Bikoreshwa Rimwe muri Bitcoin (cane cane biciye ku _isohoka_);
-- Uburyo butandukanye bwo kwinjiza mu buryo butegekanijwe _ukwiyemeza_ mu gucuruza (Guhindura Sig, Guhindura urufunguzo, Guhindura icabona, OP_RETURN, Taproot/Tapret);
-- Impamvu zituma RGB yibanda ku masezerano ya Tapret;
-- Uburongozi bwa Multi-Contract biciye ku _masezerano menshi_, ni ngombwa nimba udashaka gushikiriza Leta yose canke ayandi masezerano igihe ushaka kwemeza ingingo yihariye;
-- Twarabonye kandi uruhara rwa _Anchors_, zizana vyose hamwe (ugucuruza txid, ikimenyamenya ca Merkle Tree n'ikimenyamenya ca Taproot) mu gice kimwe.
+- Uko woshira mu ngiro iciyumviro ca serire ikoreshwa rimwe muri muri Bitcoin (Vy'umwihariko biciye ku _isohoka_);
+- Uburyo butandukanye bwo kwinjiza mu buryo butegekanijwe _ukwiyemeza_ mw'ihanahanwa (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret);
+- Impamvu zituma RGB yibanda kukwiyemeza kwa Tapret;
+- Uburongozi bw'amasezerano menshi biciye ku _ukwiyemeza gufise inzira nyinshi_, ni ngombwa nimba udashaka gushikiriza uko bimeze vyose canke ayandi masezerano masezerano igihe ushaka kwemeza ingingo yihariye;
+- Twarabonye kandi uruhara rwa _Anchors_, zizana vyose hamwe (ugucuruza txid, ikimenyamenya c'igiti ca Merkle n'ikimenyamenya ca Taproot) mu gice kimwe.
 
 
-Mu bikorwa, ugushirwa mu ngiro kw’ubuhinga kugabanywa hagati y’ibikoresho vyinshi vy’ubuhinga bwa Rust (mu _kwemeza_ku ruhande_rw’umukiriya, _gusuzuma_, _bp_core_, n’ibindi). Ivyiyumviro vy’ishimikiro biri ng’aho:
+Mu bikorwa, ugushirwa mu ngiro kw’ubuhinga kugabuwe muma Rust crates yabigenewe ( Kuruhande_rw'ukwemeza kw'umuguzi, _gusuzuma ukwemeza_, _bp_core_, n’ibindi). Ivyiyumviro vy’ishimikiro biri ng’aho:
 
 
 ![RGB-Bitcoin](assets/en/046.webp)

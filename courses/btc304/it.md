@@ -2445,7 +2445,7 @@ Quindi consegna loro un volantino, come "21 ragioni per utilizzare Bitcoin" o "1
 
 3/ **Organizzare una dimostrazione**
 
-Quando esprimono interesse, fissate un appuntamento per mostrare loro una soluzione di pagamento.
+Quando esprimono interesse, fissa un appuntamento per mostrare loro una soluzione di pagamento.
 
 Un'ottima opzione è **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, perché:
 
@@ -2453,22 +2453,22 @@ Un'ottima opzione è **[Swiss Bitcoin Pay](https://swiss-Bitcoin-pay.ch/)**, per
     - Consente ai commercianti di convertire automaticamente i BTC in fiat ogni giorno, in modo da poter pagare i fornitori.
     - Permette loro di mantenere una percentuale in BTC, se lo desiderano.
     - Genera rapporti contabili esportabili per i loro contabili.
-    - Dispone di un semplice cruscotto per i manager.
-    - Offre ai dipendenti un Interface intuitivo per accettare i pagamenti senza toccare la cassa.
+    - Dispone di una semplice dashboard per i manager.
+    - Offre ai dipendenti un'interaccia intuitivo per accettare i pagamenti senza toccare la cassa.
     - Costa meno delle commissioni del 2-3% applicate dalle reti di pagamento tradizionali.
 
 
-4/ **Sostenerli una volta che iniziano ad accettare il Bitcoin**
+4/ **Sostenerli una volta che iniziano ad accettare Bitcoin**
 
 Dopo che sono saliti a bordo:
 
 
-    - Visitare regolarmente e fare acquisti.
-    - Controllate se tutto funziona bene.
-    - Condividete nuovamente le vostre informazioni di contatto, se necessario.
-    - Invitateli ai vostri incontri.
-    - Aggiungeteli a [btcmap.org map](https://btcmap.org/) e fatelo sapere a [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) su Twitter per aumentare la visibilità.
-    - Considerate la possibilità di ospitare workshop o incontri presso la loro sede.
+    - Visita regolarmente e fare acquisti.
+    - Controlla se tutto funziona bene.
+    - Condividi nuovamente le tue informazioni di contatto, se necessario.
+    - Invitali ai tuoi incontri.
+    - Aggiungili a [btcmap.org map](https://btcmap.org/) e fatelo sapere a [Swiss Bitcoin Pay](https://x.com/swissbitcoinpay) su Twitter per aumentare la visibilità.
+    - Considera la possibilità di ospitare workshop o incontri presso la loro sede.
 
 
 
@@ -2478,7 +2478,7 @@ Dopo che sono saliti a bordo:
 
 5/ **Collegare i commercianti locali**
 
-Una volta che avete un paio di attività commerciali che accettano il Bitcoin, suggerite di creare un gruppo Telegram per soli commercianti. Questo può:
+Una volta che hai un paio di attività commerciali che accettano Bitcoin, suggerisci di creare un gruppo Telegram per soli commercianti. Questo può:
 
 
 - Permettete loro di condividere le esperienze e di accogliere nuove imprese.
@@ -2486,7 +2486,7 @@ Una volta che avete un paio di attività commerciali che accettano il Bitcoin, s
 - Rafforzare la rete locale Bitcoin.
 
 
-Il canvassing è un'attività a lungo termine. Richiede pazienza, persistenza e strategia. Ma se la vostra community è pronta, potreste iniziare a gettare le basi per una vera economia circolare Bitcoin, proprio come [Arnhem nei Paesi Bassi](https://www.arnhembitcoinstad.nl/) nei Paesi Bassi.
+Il canvassing è un'attività a lungo termine. Richiede pazienza, persistenza e strategia. Ma se la tua community è pronta, potreste iniziare a gettare le basi per una vera economia circolare Bitcoin, proprio come [Arnhem nei Paesi Bassi](https://www.arnhembitcoinstad.nl/) nei Paesi Bassi.
 
 
 
@@ -2497,15 +2497,15 @@ Il canvassing è un'attività a lungo termine. Richiede pazienza, persistenza e 
 
 
 
-I bitcoiners spesso si concentrano sui social media e sulle piattaforme online per raggiungere il pubblico, ma questa è solo una parte del quadro. La stampa locale e la radio possono essere potenti alleati.
+I Bitcoiners spesso si concentrano sui social media e sulle piattaforme online per raggiungere il pubblico, ma questa è solo una parte del quadro. La stampa locale e la radio possono essere potenti alleati.
 
 
 Alcune community, come [Breizh Bitcoin](https://breizhbitcoin.com/) in Francia, **contattano regolarmente i loro media locali** per:
 
 
 - Annunciare i prossimi eventi (incontri, presentazioni, workshop, feste Halving, ecc.).
-- Invitare i giornalisti a visitare le aziende che rispettano il Bitcoin e a scriverne.
-- Condividete le date e i luoghi degli eventi per inserirli negli elenchi locali.
+- Invitare i giornalisti a visitare le aziende che rispettano Bitcoin e a scriverne.
+- Condividere le date e i luoghi degli eventi per inserirli negli elenchi locali.
 
 
 Molti giornali hanno ancora una sezione "Cosa c'è", spesso nascosta nelle ultime pagine, dove vengono elencati i prossimi eventi locali. Breizh Bitcoin ha scoperto che questo approccio funziona: i nuovi arrivati si sono presentati agli incontri semplicemente perché hanno notato l'elenco sul giornale.

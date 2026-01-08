@@ -2,7 +2,7 @@ question: Jaka była wyjątkowa cecha weksli własnych wprowadzonych na giełdzi
 answer: Nosiły nazwy i daty zapadalności
 wrong_answers:
   - Były wykonane ze złota
-  - Zostały wyemitowane przez Bank of Amsterdam
+  - Zostały wyemitowane przez Bank Amsterdamu
   - Były wymienialne na floreny
 explanation: |
   Giełda papierów wartościowych w Antwerpii wprowadziła weksle, które nosiły nazwy i daty zapadalności. Utrudniało to ich wycofanie z giełdy przed upływem terminu płatności. Wprowadzono jednak praktykę dyskontowania tych weksli przed terminem płatności, czyniąc je bardziej płynnymi i wprowadzając koncepcję wartości pieniądza w czasie.

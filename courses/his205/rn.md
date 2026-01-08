@@ -682,7 +682,7 @@ Ariko nta n’akarongo k’ayo matongo azwi cane amanitswe i Babiloni kariho. Ku
 
 
 
-## Ubutunzi muri Mezopotamiya
+## Itunganywa ry'Ubutunzi muri Mezopotamiya
 
 
 <chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
@@ -690,19 +690,19 @@ Ariko nta n’akarongo k’ayo matongo azwi cane amanitswe i Babiloni kariho. Ku
 
 :::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
 
-### Imiterere y'ubutunzi n'ubuja vy'imbere y'ubu kapitalizimu
+### Imiterere y'ubutunzi mugihe c'ubuja n'imbere y'ubu capitalistes
 
 
 
-Murakaze muri iki gice kivuga ku bijanye n’imitunganirize y’ubutunzi muri Mezopotamiya. Ubutunzi bw’imbere y’ubu kapitalizimu bwaciye mu ntambwe zitatu nyamukuru: ubw’intango, ubw’ubuja n’ubw’abanyagihugu.
+Murakaze muri iki gice kivuga ku bijanye n’imitunganirize y’ubutunzi muri Mezopotamiya. Ubutunzi bw’imbere y’ubu capitalistes bwaciye mu ntambwe zitatu nyamukuru: ubw’intango(primitive), ubw’ubuja(esclavage) na "féodale".
 
 
 
-Birumvikana ko ubufeudal bwabaye inyuma cane, bigaragara ko mu kinjana ca mbere, kandi twamaze guca mu ntambwe y’intango twadondora mbere n’igihe c’amabuye y’agaciro. None, muri Mezopotamiya, iyo tuvuga ivy’ugutunganya ubutunzi, tuba tuvuga ivy’ubuja.
+Birumvikana ko "féodale" yabaye inyuma cane, bigaragara ko mu kinjana ca mbere, kandi twamaze guca mu ntambwe y’intango twadondora mbere n’igihe c’amabuye y’agaciro. None, muri Mezopotamiya, iyo tuvuga ivy’ugutunganya ubutunzi, tuba tuvuga ivy’ubuja(esclavage).
 
 
 
-Ariko rero, muri Mezopotamiya, igice kinini c’igikorwa cari gikorwa n’umugwi w’abantu bavyifatamwo neza usa n’abaja, abo na bo bakaba batari ivy’aba shebuja mu buryo butegekanijwe n’amategeko, ariko bakabuzwa ivyamwa vy’igikorwa cabo biciye ku guhatirwa ku mubiri canke ku ngendo.
+Ariko rero, muri Mezopotamiya, igice kinini c’igikorwa cari gikorwa n’umugwi uzera inze usa n’abaja(esclavage), abo na bo bakaba batari ivy’aba shebuja mu buryo butegekanijwe n’amategeko, ariko bakabuzwa ivyamwa vy’igikorwa vyabo biciye ku guhatirwa vyu mubiri canke ku gutezwamwo ivyiyumviro.
 
 
 
@@ -710,67 +710,67 @@ Ariko rero, muri Mezopotamiya, igice kinini c’igikorwa cari gikorwa n’umugwi
 
 
 
-Amatongo menshi ni yo yari ahambaye mu vy’ubutunzi. Abafise amatongo barakoresha amatongo yabo ata guca ku ruhande mu gukoresha abakozi, canke bagakodesha amatongo yabo kugira ngo bakodeshe. Bakora kandi ibikorwa vy’ivy’ubutunzi, baguriza amahera ku nyungu nyinshi, muri rusangi zikaba ziri hagati ya 20% na 33,3% ku mwaka, ivyo bikaba vyari bitandukanye cane n’amategeko akomeye cane y’Abaheburayo bari babanyi.
+Abafise amatongo menshi ni bo bari bahambaye mu vy’ubutunzi. Abafise amatongo barakoresha amatongo yabo ata guca ku ruhande mu gukoresha abakozi, canke bagakodesha amatongo yabo kugira . Bakora kandi ibikorwa vy’ivy’ubutunzi, baguriza amahera ku nyungu nyinshi, muri rusangi zikaba ziri hagati ya 20% na 33,3% ku mwaka, ivyo bikaba vyari bitandukanye cane n’amategeko akomeye cane y’Abaheburayo ba babanyi.
 
 
 
-Inguzanyo abarimyi bafata ntizari zigenewe gushiramwo amafaranga - uretse amashirahamwe y’ubwato - ahubwo zari zigenewe gutuma bashobora kugumaho gushika mu mwimbu ukurikira. Ivyo vyatuma kenshi abarimyi baguma bafise umwenda.
+Inguzanyo abarimyi bafata ntizari zigenewe gushiramwo amafaranga - uretse amashirahamwe y’ubwato - ahubwo zari zigenewe gutuma bashobora kugumaho gushika mu mwimbu ukurikira. Ivyo vyatuma kenshi abarimyi baguma bafise umwenda udahera.
 
 
 
-Reka ngereranye n’igihe ca kera cane (i Roma), aho abanyagihugu babeshwaho n’amahera y’ubukode y’uburimyi yaronswa n’abarimyi be n’abakozi batagira umwidegemvyo, be n’iminyago y’intambara. **Izo nyungu zagabanywa mu benegihugu, atari kugira ngo generate baronke inyungu nyinshi, ahubwo kugira ngo bongere ikibanza cabo mu kibano.** Ubudandaji n’ubuhinga muri rusangi vyasigazwa n’imigwi iri hanze y’abanyacubahiro mu kibano. Ivyo vyose bitandukanye n’ubutunzi bwo mu kinjana ca mbere bwari bushingiye ku nyungu biciye mu bucuruzi no mu bikorwa vy’ubuhinga.
+Reka ngereranye n’igihe ca kera cane (i Roma), aho abanyagihugu babeshwaho n’amahera y’ugukodesha y’uburimyi yaronswa n’abarimyi be n’abakozi batagira umwidegemvyo, be n’iminyago y’intambara. **Izo nyungu zagabanywa mu benegihugu, atari kugira ngo babandanye baronke inyungu nyinshi, ahubwo kugira ngo bongere ikibanza cabo mu kibano.** Ubudandaji n’ubuhinga muri rusangi vyasigazwa n’imigwi iri hanze y’abanyacubahiro mu kibano. Ivyo vyose bitandukanye n’ubutunzi bwo mu kinjana ca mbere bwari bushingiye ku nyungu biciye mu bucuruzi no mu bikorwa vy’ubuhinga.
 
 
 
-Rero ico turiko turagerageza kuvuga hano ni uko ndiko ndahuza n’uko abantu bakoresha ibikoresho vyo kuguriza amahera atari ngombwa ngo batere imbere mu buryo bwo gukora, hanyuma mu nyuma i Roma, inyungu ntizasubirwamwo, ahubwo zakoreshwa mu kwongerera icubahiro abantu bashobora kwungukira kuri izo nyungu. Turacari kure cane y’impwemu y’ubu kapitalizimu yadutse mu nyuma mu kinjana ca mbere, aho akazi kashobora kuremwa kugira ngo haboneke uburyo bwo gukora, kandi amasaranganya agafatwa agaremwa mu gukurikirana inyungu. Turashobora rero kubona ko imitunganirize y’ubutunzi yari itarashika ku ntambwe ya gatatu y’iterambere ry’ubutunzi ryavuzwe haruguru.
+Rero ico turiko turagerageza kuvuga hano ni uko ndiko ndahuza n’uko abantu bakoresha ibikoresho vyo kuguriza amahera atari ngombwa ngo batere imbere mu buryo bwo gukora, mu nyuma i Roma, inyungu mugushira imitahe muyindi migambi, ahubwo zakoreshwa mu kwongerera icubahiro abantu bashobora kwungukira kuri izo nyungu. Turacari kure cane y’impwemu y’ubu ya capitalismw yadutse mu nyuma mu kinjana ca mbere, aho akazi kashobora kuremwa kugira ngo haboneke uburyo bwo gukora, kandi amasaranganya agafatwa agaremwa mu gukurikirana inyungu. Turashobora rero kubona ko imitunganirize y’ubutunzi yari itarashika ku ntambwe ya gatatu y’iterambere ry’ubutunzi ryavuzwe haruguru.
 
 
 
-### Guseruka kw'uburyo bwo gutanga inguzanyo n'ibice vya konti
+### Kuvuka kw'uburyo bwo gutanga inguzanyo n'ibice vya konti
 
 
 
-**Karl Polanyi atandukanya uburyo butatu bwo guhana ubutunzi: uguhana hagati y’imigwi iringaniye,** ivyo vyoba mu miryango ya kera aho tudakeneye amahera vy’ukuri kuko duhana inguzanyo zidasanzwe no guhana no gusubira gusangira. **Ugusubira gusangira bishingiye ku nsengero n’ibihome,** ubwo buryo bwo guhinduranya burahuye na Mezopotamiya, aho insengero zari hagati y’imitunganirize y’ubutunzi kandi zari zishobora igihe kimwe gutanga, gutanga ubutunzi mu buryo bw’ibifungurwa. Mu nyuma ni ho iciyumviro c’imishahara catangura. Rero, gushika ubu, turafise uburyo bwa kera (1), ugusubira gusangira hagati (2) mu nsengero no mu bibanza vy’ubwami, hanyuma tugashobora guheza tugatanga inzira ku guhanahana amasoko (3). Naho isoko nk’uko tubitahura uno musi ritariho mu buryo bushitse, ukubaho kw’isoko ry’ubudandaji muri Mezopotamiya ntibishobora guharirwa, bikaba vyemezwa n’ukubaho kw’amajambo yihariye mu rurimi rw’ikinyakadi be n’ukubaho kw’ibimenyamenya vy’ubucukuzi vyerekana ibiciro, inyungu, ibihombo, uguhinduka n’ibintu vy’ubukene.
+**Karl Polanyi atandukanya uburyo butatu bwo guhana ubutunzi: uguhana hagati y’imigwi ishaka ibintu bimwe mumwanya umwe,** ivyo vyoba mu miryango ya kera aho hatakenerwa amahera vy’ukuri kuko hahanwa inguzanyo zidaciye mumategeko ,hamwe no guhanahana no gusubira gusangiza. **Ugusubira gusangiza bishingiye ku nsengero n’ingoro,** ubwo buryo bwo guhinduranya burahuye na Mezopotamiya, aho insengero zari hagati y’imitunganirize y’ubutunzi kandi zari zishobora igihe kimwe gutanga, gusangiza ubutunzi mu buryo bw’ibifungurwa. Mu nyuma ni ho iciyumviro c’imishahara catangura. Rero, gushika ubu, turafise uburyo bwa kera (1), ugusubira gusangira hagati (2) mu nsengero no mu bibanza vy’ubwami, hanyuma tugashobora guheza tugatanga inzira ku guhanahana amasoko (3). Naho isoko nk’uko tubitahura uno musi ritariho mu buryo bushitse, ukubaho kw’isoko ry’ubudandaji muri Mezopotamiya ntibishobora guharirwa, bikaba vyemezwa n’ukubaho kw’amajambo yihariye mu rurimi rwiki akkadien be n’ukubaho kw’ibimenyamenya vy’ubucukuzi vyerekana ibiciro, inyungu, ibihombo, uguhinduka n’ibintu vy’ubukene.
 
 
 
-Imiryango yo muri Mezopotamiya yari yigenga mu bijanye n’inzira zose z’uburimyi, kuva ku kubiba gushika ku guhingura umukate n’inzoga. Abagore na bo nyene barahingura impuzu zari zikenewe n’abo babafasha. Ku bicuruzwa bitava mu karere, ingo zari zija ku bacuruzi b’abahinga.
+Imiryango yo muri Mezopotamiya yari yigenga mu bijanye n’inzira zose z’uburimyi, kuva ku kubiba gushika ku guhingura umukate n’inzoga. Abagore na bo nyene barahingura impuzu zari zikenewe n’abo bazishaka. Ku bicuruzwa bitava mu karere, imiryango yaja ku bacuruzi b’abahinga babizobereyemwo.
 
 
 
-Amasano yo mu muryango yari ahambaye canecane mu vy’ubudandaji. Mu gihe c’aba Paleo-Ashuri (c. 1910-1830 BC), abacuruzi bo mu gisagara ca Ashuri barashinze igihugu c’ubudandaji i Kanesh muri Anatoliya, bazana amabati n’impuzu kugira ngo baronke inzahabu n’ifeza. Ubudandaji bwari bushingiye ku bucuruzi bw’umuryango bufitaniye isano cane n’ubugeni n’ubufatanye bw’ubudandaji. Kanesh yari uruja n’uruza rumwe gusa mu nzira nini y’ubudandaji mpuzamakungu.
+Amasano yo mu muryango yari ahambaye canecane mu vy’ubudandaji. Mu gihe c’aba  paléo-assyrienn (c. 1910-1830 BC), abacuruzi bo mu gisagara ca Assur barashinze igihugu c’ubudandaji i Kanesh muri Anatolie, bazana amabati n’impuzu kugira ngo baronke inzahabu n’ifeza. Ubudandaji bwari bushingiye ku bucuruzi bw’umuryango bufitaniye isano cane n’ubugeni n’ubufatanye bw’ubudandaji. Kanesh yari uruja n’uruza rumwe gusa mu nzira nini y’ubudandaji mpuzamakungu.
 
 
 
-Muri ivyo biganiro, hariho ivyuma, kandi vyari ivyuma vy’agaciro kandi atari ngombwa, nk’akarorero, umuringa, wari ufise akamaro vy’ukuri ico gihe, kandi twiyumvira ko ivyo vyuma vyahindurwa n’ivyiyumviro vy’ububiko bw’agaciro. Rero ntitwoshobora kuvuga vy’ukuri ivy’uguhinduranya, aho ibintu bibiri bihindurwa kubera akamaro kavyo, ahubwo ni iciyumviro co kwishura umuntu afise ubumenyi bumwe bumwe bwo kwirundanya ivyuma vy’agaciro kugira ngo bikoreshwe nk’ububiko bw’agaciro ntibikoreshwe nk’ibicuruzwa, nk’akarorero, gukoresha umuringa kugira ngo umuntu akore ibirwanisho.
+Muri ivyo biganiro, hariho ivyuma, kandi vyari ivyuma vy’agaciro kandi atari ngombwa, nk’akarorero, umuringa(cuivre), wari ufise akamaro vy’ukuri ico gihe, kandi twiyumvira ko ivyo vyuma vyahindurwa n’ivyiyumviro vy’ububiko bw’agaciro. Rero ntitwoshobora kuvuga vy’ukuri ivy’uguhinduranya, aho ibintu bibiri bihindurwa kubera akamaro kavyo, ahubwo ni iciyumviro co kwishura umuntu afise ubumenyi bumwe bumwe bwo kwirundanya ivyuma vy’agaciro kugira ngo bikoreshwe nk’ububiko bw’agaciro ntibikoreshwe nk’ibicuruzwa, nk’akarorero, gukoresha umujumbu(bronze) kugira ngo umuntu akore ibirwanisho.
 
 
 
-Imisoro n’imisoro ahanini vyari vyishyurwa mu buryo bw’amahera (sayiri canke ifeza zipimwe). Insengero n’ibihome ni vyo vyari ibibanza nyamukuru vy’ubutunzi, ubutegetsi, politike n’idini, kandi vyakora kandi ibikorwa vya mbere vy’amabanki biciye mu kubika ibintu ata nkomanzi, mbere intete, hanyuma ibindi bikoresho vy’uburimyi n’ivyuma vy’agaciro. Muri ubwo buryo, ni ho ibikorwa vya mbere vy’inguzanyo n’inguzanyo vyateguwe, kera cane imbere y’uko ibiceri biboneka.
+Imisoro n’imisoro ahanini vyari vyishyurwa mu buryo bw’amahera (orge ou argent pesé). Insengero n’ibihome ni vyo vyari ibibanza nyamukuru vy’ubutunzi, ubutegetsi, politike n’idini, kandi vyakora kandi ibikorwa vya mbere vy’amabanki biciye mu kubika ibintu ata nkomanzi, mbere intete, hanyuma ibindi bikoresho vy’uburimyi n’ivyuma vy’agaciro. Muri ubwo buryo, ni ho ibikorwa vya mbere vy’inguzanyo vyateguwe, kera cane imbere y’uko ibiceri biboneka.
 
 
 
-Ubutunzi bwa Mezopotamiya bwakoresha canecane sayiri n’ifeza nk’ingingo mfatirwako z’agaciro. Ifeza yapimwa mu bipimo bihuye, nk’akarorero sìqlum (shekeli) y’amagarama nka 8,33. Kuva mu gihe ca kera c'Abanyababiloni (mu gihe ca Hammurabi), ifeza yakoreshwa nk'uburyo bwo kwishura, n'iciyumviro ca kera c'agaciro k'izina ("nūbum") bitandukanye n'uburemere nyakuri ("šuqulum"), **bitegereje iciyumviro ca none c'amahera ya fiat**.
+Ubutunzi bwa Mezopotamiya bwakoresha canecane "orge" n’ifeza nk’ingingo mfatirwako z’agaciro. Ifeza yapimwa mu bipimo ngenderwako, nk’akarorero sìqlum (shekeli) y’amagarama nka 8,33. Kuva mu gihe ca kera c'Abanyababiloni (mu gihe ca Hammurabi), ifeza yakoreshwa nk'uburyo bwo kwishura, n'iciyumviro ca kera c'agaciro k'izina ("nūbum") bitandukanye n'uburemere nyakuri ("šuqulum"), **bitegereje iciyumviro ca none c'amahera "fiduciaire"**.
 
 
 
-Ariko ntiyari bwabe amahera ya fiat mu busobanuro nyabwo bw’iryo jambo. Nta ciyumviro c’ikidodo gifise igiharuro c’ubukuru cariho, mugabo hariho iciyumviro c’igiharuro c’izina, bitandukanye n’iciyumviro c’icuma gipimwe. Hariho itandukaniro mu rurimi rw’ivyo vyiyumviro bibiri, kandi mbona ko ari ngombwa kubivuga.
+Ariko ntiyari bwabe amahera "fiduciaire' mu busobanuro nyabwo bw’iryo jambo. Nta ciyumviro c’ikidodo gifise igiharuro c’ubukuru cariho, mugabo hariho iciyumviro c’igiharuro c’izina, bitandukanye n’iciyumviro c’icuma gipimwe. Hariho itandukaniro mu rurimi rw’ivyo vyiyumviro bibiri, kandi mbona ko vyari ngombwa kubivuga.
 
 
 
-Guhindukira ngo baje mw’isoko ry’akazi ry’umushahara vyari bigoye cane. Vyasaba ibintu bibiri bikomeye vy'ivyiyumviro: gutandukanya igikorwa c'umuntu n'igicuruzwa ca nyuma, no gushiramwo "igihe co gukora" nk'igipimo gishobora gupimwa. Kugira ngo tugire ico ciyumviro c’umushahara n’umukozi ahembwa, twabwirizwa kubanza guca muri ivyo bishasha bibiri. **Mu kinjana ca III, akazi kabanza guhembwa n’ibifungurwa bihoraho, imbere y’uko buhoro buhoro gatera imbere gushika ku nzira y’imishahara mu ntango z’ikimpumbi ca II.**
+Guhindukira ngo baje mw’isoko ry’akazi ry’umushahara vyari bigoye cane. Vyasaba ibintu bibiri bikomeye vy'ivyiyumviro: gutandukanya igikorwa c'umuntu n'igicuruzwa ca nyuma, no gushiramwo "igihe co gukora" nk'igipimo gishobora gupimwa. Kugira ngo tugire ico ciyumviro c’umushahara n’umukozi ahembwa, twabwirizwa kubanza guca murizo mpinduka zibiri. **Mu kimpumbi ca III, akazi kabanza guhembwa n’ibifungurwa bihoraho, imbere y’uko buhoro buhoro gatera imbere gushika ku nzira y’imishahara mu ntango z’ikimpumbi ca II.**
 
 
 
-Ubwa nyuma, kuva mu kinjana ca 26 imbere ya Kristu, iciyumviro nyaco c'agaciro k'amahera carashinze imizi, naho nyene "amahera" yo muri Mezopotamiya atari igiceri, ahubwo yari ingero y'uburemere bw'intete canke y'icuma. **Gutyo, ku bikorwa bihambaye canke mu bihe bisaba ko agaciro kagumaho, kenshi vyari vyiza guhindura intete zikaba ifeza, ivyo bikaba vyari vyoroshe kuzigama.** Gatoyi nk’akarorero k’i Kanesh, aho ivyuma vy’ifeza vyaronswa kugira ngo bibikwe.
+Ubwa nyuma, kuva mu kinjana ca 26 imbere ya Kristu, iciyumviro nyaco c'agaciro k'amahera carashinze imizi, naho nyene "amahera" yo muri Mezopotamiya atari igiceri, ahubwo yari ingero y'uburemere bw'intete canke y'icuma. **Gutyo, ku bikorwa bihambaye canke mu bihe bisaba ko agaciro kagumaho, kenshi vyari vyiza guhindura intete zikaba ifeza, ivyo bikaba vyari vyoroshe kuzigama.** Gatoyi nk’akarorero k’i Kanesh, aho ivyuma vy’ifeza vyaronswa kugira ngo bibikwe nkagaciro .
 
 
 
-Kuva mu kinjana ca 21 imbere ya Kristu, **n’uguzimangana kw’ibintu bitari vyo**, turabona ko mu masezerano y’ugutanga ibikorwa, inshinga sa, yerekeza ku kwishura igiciro. Ico ciyumviro citwa "sa", kiboneka mu masezerano kandi kivuga ukwishura igiciro, atari ingero y'ikintu kinaka. "Sa" yerekeza gusa ku kwishura canke ku giciro. Ni umuhinga mu vy’imico kama abibona akavuga ko vy’ukuri ari ugutera imbere; turabona ubwoko bw'ugutandukana hagati y'imbere n'inyuma y'iyi ntangamarara y'inshinga "sa" mu masezerano.
+Kuva mu kinjana ca 21 imbere ya Kristu, **n’uguzimangana kw’ibintu bidahuye**, turabona ko mu masezerano y’ugutanga ibikorwa, inshinga "sa", yerekana kwishura igiciro. Ico ciyumviro citwa "sa", kiboneka mu masezerano kandi kivuga ukwishura igiciro, atari ingero y'ikintu kanaka. "Sa" yerekeza gusa ku kwishura canke ku giciro. Ni umuhinga mu vy’imico kama abibona akavuga ko vy’ukuri ari ugutera imbere; turabona ubwoko bw'ugutandukana hagati y'imbere n'inyuma y'iyi ntangamarara y'inshinga "sa" mu masezerano.
 
 
 
-Ntidushobora kwirengagiza amakuru y’ivyashikiye abantu ari mu bubiko bw’ibitabu bwo mu Buseruko bwa hafi yemeza ko hariho **uburyo bumwe bumwe bwo gukora isoko**, ashiramwo **ivyiyumviro vy’inyungu** n’**uguhomba**, **uguhinduka kw’ibiciro** n’ibintu vy’**ubukene**. Ariko ingorane nyamukuru iri mu kumenya akamaro k’uguhinduranya ibintu bishingiye ku masoko mu bukungu bwa kera bwa Mezopotamiya muri rusangi.
+Ntidushobora kwirengagiza amakuru y’ivyashikiye abantu, biri mu bubiko bw’ibitabu vyo muri "Proche-Orient" yemeza ko hariho **uburyo bumwe bumwe bwo gukora isoko**, ashiramwo **ivyiyumviro vy’inyungu** n’**uguhomba**, **uguhinduka kw’ibiciro** n’ibintu vy’**ubukene**. Ariko ingorane nyamukuru iri mu kumenya akamaro k’uguhinduranya ibintu bishingiye ku masoko mu bukungu bwa kera bwa Mezopotamiya muri rusangi.
 
 
 
@@ -789,7 +789,7 @@ Mu bice bikurikira, tuzokora nk’ukwo nyene ku Misiri n’Ubushinwa.
 
 
 
-## Ubutunzi n'imitunganirize y'amahera muri Misiri ya kera
+## Imitunganirize y'Ubutunzi n'amahera muri Misiri ya kera
 
 
 <chapterId>bffcc16c-7fbf-5992-a0fa-6a7726d7d287</chapterId>
@@ -807,19 +807,19 @@ Iki gice kivuga ku bijanye n’imitunganirize y’ubutunzi n’amahera yo muri M
 
 
 
-- Ubwami bwa kera (nk’umwaka wa 2575 - nk’umwaka wa 2130 imbere ya Kristu)**. Igihe carangwa n'ubwubatsi bw'amapiramide manini manini, cane cane ayo muri Giza. Ico cari igihe c’inzahabu c’ubwami bwa Misiri bwari bushingiye hagati.
-- Ubwami bwo hagati (nk’umwaka w’1938 - nk’umwaka w’1630 imbere ya Kristu)**. Ivugurura rya politike n’imico kama inyuma y’igihe c’ukudatekana.
-- Ubwami Bushasha (nko mu 1539 - 1075 imbere ya Kristu)**. Igihe c’ukwaguka kw’intara, ububasha bwa gisirikare be n’ubudandaji mpuzamakungu. Harimwo n’ingoma za ba farawoni bazwi cane nka Tutankhamon na Ramses wa kabiri.
-- 1323 BC. - Urupfu rwa Tutani**. Uwo musore Farawoni yapfuye afise imyaka nka 18-19. Imva yiwe hafi y’aho ata co ihinduye, yaravumbuwe mu 1922, ivyo bikaba vyatumye iba imwe mu mva zizwi cane kuruta izindi zose abacukuzi bavumbuye.
-- Ramses wa kabiri - Yaganje mu mwaka w’1279-1213 imbere ya Kristu**. Umwe mu bafarawoni b’abanyabubasha kuruta abandi bose bo mu Bwami Bushasha. Yamenyekanye kubera ibikorwa vyiwe vy’intambara, ibimenyetso vyiwe bikomeye, be n’uko kumbure ari we yagiranye amasezerano ya mbere y’amahoro azwi.
-- 1275 BC - Ibihugu vyo mu kiyaga**. Ibitero canke ukwimuka kw'imigwi yitwa "Abantu bo mu kiyaga" bitera ingorane amateka menshi yo mu kiyaga Mediterane, harimwo na Misiri.
-- Intambara ya Xoïs - 1178 imbere ya Kristu**. Intambara hagati y’ingabo za Misiri n’abatera, kumbure zifitaniye isano n’Ibihugu vyo mu Kiyaga. Imwe mu ntambara nyinshi zo ku mpera y’Ubwami Bushasha.
-- Igihe ca nyuma** ni igihe c’amateka ya kera ya Misiri kuva nko mu mwaka w’664 gushika mu mwaka w’332 imbere ya Kristu.
-- Kileyopatira wa VII (69 - 30 imbere ya Kristu)**. Umwamikazi wa nyuma wa Misiri, azwi cane kubera ubwenge bwiwe, ubuhanga bwiwe n’amasezerano yagiranye na Julius Caesar na Marc Antony, kandi kumbure n’izuru ryiwe. Ingoma yiwe ni yo yatumye Misiri ya Farawoni ihera imbere y’uko Uburoma buyifata.
+- Ancien Empire (nk’umwaka wa 2575 - nk’umwaka wa 2130 imbere ya Kristu)**. Igihe carangwa n'ubwubatsi bw'amapiramide manini manini, cane cane ayo muri "Gizeh". Ico cari igihe c’inzahabu c’ubwami bwa Misiri bwari bushingiye hagati yabwo.
+-  Moyen Empire (nk’umwaka w’1938 - nk’umwaka w’1630 imbere ya Kristu)**. Isubira kuvuka rya politike n’imico kama inyuma y’ibihe bitari bihaze neza.
+- Nouvel Empire (nko mu 1539 - 1075 imbere ya Kristu)**. Igihe c’ukwaguka kw’imbibe, ububasha bwa gisirikare be n’ubudandaji mpuzamakungu. Harimwo n’ingoma za ba farawoni bazwi cane nka Tutankhamon na Ramses wa kabiri.
+- 1323 BC. - Urupfu rwa Toutankhamon**. Uwo musore Farawoni yapfuye afise imyaka nka 18-19. Imva yiwe isa niyikimeze neza, yaravumbuwe mu 1922, ivyo bikaba vyatumye iba imwe mubintu abacukuzi bavumbuye bizwi cane.
+- Ramses wa kabiri - Yaganje mu mwaka w’1279-1213 imbere ya Kristu**. Umwe mu bafarawoni b’abanyabubasha kuruta abandi bose bo muri  Nouvel Empire . Yamenyekanye kubera ibikorwa vyiwe vy’intambara, ibimenyetso vyiwe bikomeye, be n’uko kumbure ari we yagiranye amasezerano ya mbere y’amahoro azwi.
+- 1275 av. J.-C. – Peuples de la mer**. Ibitero canke ukwimuka kw'imigwi yitwa "Peuples de la mer" vyateje ingorane amateka menshi yo mubice vyo hakurya yi kiyaga Mediterane, harimwo na Misiri.
+- Bataille de Xoïs – 1178 av. J.-C.**. Intambara hagati y’ingabo za Misiri n’abatera, kumbure zifitaniye isano na "Peuples de la mer".Imwe mu ntambara nyinshi zo mu mpera ya "Nouvel Empire".
+- La Basse Époque** ni igihe c’amateka ya kera ya Misiri kuva nko mu mwaka 664 à 332 inyuma ya yezu christu.
+- Cléopâtre VII (69 - 30 av. J.-C.)**. Umwamikazi wa nyuma wa Misiri, azwi cane kubera ubwenge bwiwe, ubuhanga bwiwe n’amasezerano yagiranye na Julius Caesar na Marc Antony, kandi kumbure n’izuru ryiwe. Mugihe cubwo bwamu Misiri ya Farawoni niho yahera , imbere y’uko Uburoma buyifata.
 
 
 
-Mu kinjana ca 5 n’ica 4 imbere ya Kristu, Misiri yari imaze gushikirwa n’ibikorwa vy’ubudandaji bikomeye ku rugero runini, ihuza uturere twa Nubiya, Palestina, Libiya n’ikiyaga Gitukura biciye mu bucuruzi bwo mu kiyaga, ku ruzi no ku butaka (cane cane biciye ku nzira z’indogoba).
+Mu kinjana ca 5 n’ica 4 imbere ya Kristu, Misiri yari imaze gushikirwa n’ibikorwa vy’ubudandaji bikomeye ku rugero runini, ihuza uturere twa Nubie, Palestina, Libiya n’ikiyaga Gitukura biciye mu bucuruzi bwo mu kiyaga, ku ruzi no ku butaka (cane cane biciye ku nzira z’indogoba).
 
 
 

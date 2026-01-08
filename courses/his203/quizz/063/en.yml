@@ -1,0 +1,9 @@
+question: Which Bitcoin ecosystem service was NOT affected by the Linode hosting service hack on March 1, 2012?
+answer: The BitInstant foreign exchange service, managed by Charlie Shrem
+wrong_answers:
+  - The Bitcoinica trading platform, managed by Zhou Tong
+  - BitcoinCZ Mining mining cooperative, managed by Slush
+  - The Bitcoin faucet, managed by Gavin Andresen
+explanation: |
+ The hacker accessed the company's customer service portal and took control of eight accounts, all of which had a relationship with Bitcoin. He seized 43,554 bitcoins belonging to Bitcoinica, removed 3,094 bitcoins from Slush's co-op hot wallet and got his hands on the 5 bitcoins present on Gavin's Bitcoin faucet.
+reviewed: false

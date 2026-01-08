@@ -1,0 +1,9 @@
+question: Which mining cooperative briefly exceeded the 50% network hash rate in the summer of 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush's Pool
+  - GHash.io
+explanation: |
+ According to OrganOfCorti, Deepbit's measured hash rate was 52.86% on August 5.
+reviewed: false

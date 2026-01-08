@@ -2847,13 +2847,13 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outpu
 ![BTC204](assets/nl/146.webp)
 
 
-Het model van Whirlpool is gebaseerd op kleine CoinJoin transacties. In tegenstelling tot Wabisabi en JoinMarket, waar de robuustheid van anonsets is gebaseerd op het volume van deelnemers in één cyclus (of een paar cycli), is Whirlpool gebaseerd op de opeenvolging van verschillende kleine cycli.
+Het model van Whirlpool is gebaseerd op kleine CoinJoin-transacties. In tegenstelling tot Wabisabi en JoinMarket, waar de robuustheid van anonsets is gebaseerd op het volume van deelnemers in één cyclus (of een paar cycli), is Whirlpool gebaseerd op de opeenvolging van verschillende kleine cycli.
 
 
-In dit model betalen gebruikers alleen wanneer ze voor het eerst lid worden van een pool, waardoor ze zonder extra kosten kunnen deelnemen aan een groot aantal remixes. Nieuwkomers betalen de Mining vergoedingen voor remixers.
+In dit model betalen gebruikers alleen wanneer ze voor het eerst lid worden van een pool, waardoor ze zonder extra kosten kunnen deelnemen aan een groot aantal remixes. Nieuwkomers betalen de mining-vergoedingen voor remixers.
 
 
-Met elke extra CoinJoin waaraan een stuk deelneemt en met zijn soortgenoten uit het verleden, zullen de anonsets exponentieel groeien. Het doel is om te profiteren van deze gratis remixen, die elke keer dat ze voorkomen bijdragen aan het versterken van de dichtheid van de anonsets die geassocieerd zijn met elk gemixt stuk.
+Met elke extra CoinJoin waaraan een UTXO deelneemt en met zijn peers uit het verleden, zullen de anonsets exponentieel groeien. Het doel is om te profiteren van deze gratis remixen, die elke keer dat ze voorkomen bijdragen aan het versterken van de dichtheid van de anonsets die geassocieerd zijn met elke gemixte UTXO.
 
 
 ![BTC204](assets/nl/147.webp)
@@ -2864,60 +2864,60 @@ Whirlpool is ontworpen met twee belangrijke eisen in gedachten:
 
 
 
-- De toegankelijkheid van de implementatie op mobiele apparaten, aangezien Samourai wallet in de eerste plaats een smartphoneapplicatie is;
+- De toegankelijkheid van de implementatie op mobiele apparaten, aangezien Samourai wallet in de eerste plaats een smartphone-applicatie is;
 - Snelle remixcycli om een aanzienlijke toename in anonsets te bevorderen.
 
 
 Deze vereisten leidden de keuzes van de ontwikkelaars van Samourai wallet bij het ontwerpen van Whirlpool, waardoor ze het aantal deelnemers per cyclus beperkten. Te weinig deelnemers zou de efficiëntie van CoinJoin in gevaar hebben gebracht en het aantal gegenereerde anonsets per cyclus drastisch hebben verminderd, terwijl te veel deelnemers problemen zouden hebben opgeleverd bij het beheer van mobiele toepassingen en de doorstroming van de cyclus zouden hebben belemmerd.
 
 
-Tenslotte is het niet nodig om een groot aantal deelnemers per CoinJoin op Whirlpool te hebben, omdat anonsets gemaakt worden op de accumulatie van meerdere CoinJoin cycli. Het belangrijkste principe hier is de homogeniteit van de UTXO's van alle deelnemers, omdat dit een perfecte menging garandeert, en dus volledig voordeel uit de meng- en remixcycli.
+Tenslotte is het niet nodig om een groot aantal deelnemers per Whirlpool-CoinJoin te hebben, omdat anonsets gemaakt worden op de accumulatie van meerdere CoinJoin-cycli. Het belangrijkste principe hier is de homogeniteit van de UTXO's van alle deelnemers. Dit garandeert een perfecte menging, waardoor maximaal profijt wordt getrokken uit de meng- en remixcycli.
 
 
-### CoinJoin zwembaden en vergoedingen
+### CoinJoin pools en vergoedingen
 
 
-Voor deze meervoudige cycli om de anonsets van de gemengde onderdelen te verhogen, is een bepaald kader nodig om de gebruikte hoeveelheden UTXO's te beperken. Whirlpool definieert verschillende pools.
+Om deze meervoudige cycli van de gemengde UTXO anonsets te verhogen, is een bepaald kader nodig om de gebruikte hoeveelheden UTXO's te beperken. Whirlpool definieert verschillende pools.
 
 
-Een groep vertegenwoordigt een groep gebruikers die samen willen mengen en die het eens zijn over de hoeveelheid UTXO's die gebruikt moet worden om het CoinJoin proces te optimaliseren met behoud van perfecte onderdeelhomogeniteit. Elke pool specificeert een vaste UTXO hoeveelheid, waar de gebruiker zich aan moet houden om te kunnen deelnemen. Dus, om coinjoins te maken met Whirlpool, moet je een pool selecteren. De volgende pools zijn momenteel beschikbaar:
+Een pool vertegenwoordigt een groep gebruikers die samen willen mengen en die het eens zijn over de hoeveelheid UTXO's die gebruikt moet worden om het CoinJoin-proces te optimaliseren met behoud van perfecte onderdeelhomogeniteit. Elke pool specificeert een vaste UTXO-hoeveelheid, waar de gebruiker zich aan moet houden om te kunnen deelnemen. Dus, om coinjoins te maken met Whirlpool, moet je een pool selecteren. De volgende pools zijn momenteel beschikbaar:
 
 
 
 
-- 0.5 bitcoins ;
-- 0.05 Bitcoin ;
-- 0.01 Bitcoin ;
-- 0.001 Bitcoin (= 100.000 Sats).
+- 0,5 bitcoins;
+- 0,05 Bitcoin;
+- 0,01 Bitcoin;
+- 0,001 Bitcoin (= 100.000 sats).
 
 
-Als je een pool binnengaat met je bitcoins, worden ze verdeeld in generate UTXO's die perfect homogeen zijn met die van de andere deelnemers in de pool. Elke pool heeft een maximumlimiet, dus voor bedragen die deze limiet overschrijden, moet je of twee aparte entries maken in dezelfde pool, of naar een andere pool gaan met een hoger bedrag:
+Als je een pool binnengaat met je bitcoins, worden ze verdeeld in UTXO's die perfect homogeen zijn met die van de andere deelnemers in de pool. Elke pool heeft een maximumlimiet, dus voor bedragen die deze limiet overschrijden, moet je of twee aparte entries maken in dezelfde pool, of naar een andere pool gaan met een hoger bedrag:
 
 
-| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+| Pool (bitcoin) | Maximum bedrag per entry (bitcoin) |
 |----------------|--------------------------------------|
 | 0,5 | 35 |
 | 0,05 | 3,5 |
 | 0,01 | 0,7 |
 | 0,001 | 0,025 |
 
-Een UTXO wordt geacht deel uit te maken van een pool wanneer deze gereed is om te worden geïntegreerd in een CoinJoin. Dit betekent echter niet dat de gebruiker het bezit ervan verliest. Zoals we in de eerste hoofdstukken van dit hoofdstuk zagen, behoud je tijdens de verschillende mengcycli de volledige controle over je sleutels en dus ook over je bitcoins. Dit is wat de CoinJoin techniek onderscheidt van andere gecentraliseerde mengtechnieken.
+Een UTXO wordt geacht deel uit te maken van een pool wanneer deze gereed is om te worden geïntegreerd in een CoinJoin. Dit betekent echter niet dat de gebruiker het bezit ervan verliest. Zoals we in de eerste hoofdstukken van deze sectie zagen, behoud je tijdens de verschillende mengcycli de volledige controle over je sleutels en dus ook over je bitcoins. Dit is wat de CoinJoin-techniek onderscheidt van andere gecentraliseerde mengtechnieken.
 
 
-Om lid te worden van een CoinJoin pool, moet je een servicevergoeding en een Mining vergoeding betalen. De servicekosten zijn vastgesteld voor elke pool en zijn bedoeld om de teams te vergoeden die verantwoordelijk zijn voor de ontwikkeling en het onderhoud van Whirlpool.
+Om lid te worden van een CoinJoin-pool, moet je een servicevergoeding en een mining-vergoeding betalen. De servicekosten zijn vastgesteld voor elke pool en zijn bedoeld om de teams te vergoeden die verantwoordelijk zijn voor de ontwikkeling en het onderhoud van Whirlpool.
 
 
 De servicekosten voor het gebruik van Whirlpool betaal je eenmalig als je lid wordt van de pool. Als je eenmaal lid bent, kun je zonder extra kosten deelnemen aan een onbeperkt aantal remixes. Hier zijn de huidige vaste kosten voor elke pool:
 
 
-| Pool (bitcoin) | Entry fee (bitcoin) |
+| Pool (bitcoin) | Toetredingsvergoeding (bitcoin) |
 |----------------|---------------------------------|
 | 0,5 | 0,0175 |
 | 0,05 | 0,00175 |
-| 0.01 | 0.0005 (50,000 sats) |
-| 0.001 | 0.00005 (5,000 sats) |
+| 0,01 | 0,0005 (50.000 sats) |
+| 0,001 | 0,00005 (5.000 sats) |
 
-Deze fees fungeren in wezen als een toegangsticket tot de gekozen pool, ongeacht het bedrag dat je in CoinJoin stopt. Dus, of je nu de 0.01 pool instapt met precies 0.01 BTC of 0.5 BTC, de fees blijven hetzelfde in absolute termen.
+Deze fees fungeren in wezen als een toegangsticket tot de gekozen pool, ongeacht het bedrag dat je in CoinJoin stopt. Dus, of je nu de 0,01 pool instapt met precies 0,01 BTC of 0,5 BTC, de fees blijven hetzelfde in absolute termen.
 
 
 Alvorens verder te gaan met Whirlpool coinjoins, kan de gebruiker kiezen uit 2 strategieën:
@@ -2929,48 +2929,48 @@ Alvorens verder te gaan met Whirlpool coinjoins, kan de gebruiker kiezen uit 2 s
 - Of je kiest voor een grotere pool en bent bereid om hogere vergoedingen te betalen, om uiteindelijk te eindigen met een kleiner aantal UTXO's met een hogere waarde.
 
 
-Het is over het algemeen niet aan te raden om meerdere gemengde UTXO's samen te voegen na CoinJoin cycli, omdat dit de verkregen vertrouwelijkheid in gevaar kan brengen, met name door de gemeenschappelijke input Ownership heuristiek (CIOH: *Common-Input-Ownership-Heuristic*). Daarom kan het zinvol zijn om een grotere pool te kiezen, zelfs als dit betekent dat er meer betaald moet worden, om te voorkomen dat er te veel UTXO's met een kleine waarde in de output zitten. De gebruiker moet deze afwegingen evalueren om de pool te kiezen waaraan hij de voorkeur geeft.
+Het is over het algemeen niet aan te raden om meerdere gemengde UTXO's samen te voegen na CoinJoin-cycli, omdat dit de verkregen vertrouwelijkheid in gevaar kan brengen, met name door de gemeenschappelijke input eigenaar heuristiek (CIOH: *Common-Input-Ownership-Heuristic*). Daarom kan het zinvol zijn om een grotere pool te kiezen, zelfs als dit betekent dat er meer betaald moet worden, om te voorkomen dat er te veel UTXO's met een kleine waarde in de output zitten. De gebruiker moet deze afwegingen evalueren om de pool te kiezen waaraan hij de voorkeur geeft.
 
 
-Naast de servicekosten moet ook rekening worden gehouden met de Mining kosten die specifiek zijn voor Bitcoin-transacties. Als Whirlpool gebruiker moet je de Mining vergoeding betalen voor de voorbereidingstransactie (`Tx0`) en voor de eerste CoinJoin. Alle volgende remixen zijn gratis, dankzij het model van Whirlpool dat gebaseerd is op het betalen van nieuwe gebruikers. Alle volgende remixen zijn gratis, dankzij het model van Whirlpool dat gebaseerd is op het betalen van nieuwe toetreders.
+Naast de servicekosten moet ook rekening worden gehouden met de mining kosten die specifiek zijn voor Bitcoin-transacties. Als Whirlpool gebruiker moet je de mining vergoeding betalen voor de voorbereidingstransactie (`Tx0`) en voor de eerste CoinJoin. Alle volgende remixen zijn gratis, dankzij het model van Whirlpool dat gebaseerd is op het betalen van nieuwe gebruikers. 
 
 
-In feite zijn in elke Whirlpool CoinJoin 2 gebruikers onder de inputs nieuwkomers. De andere input is afkomstig van remixers. Als gevolg daarvan worden de Mining kosten voor alle deelnemers aan de transactie gedragen door deze 2 nieuwkomers, die vervolgens ook kunnen profiteren van gratis remixen:
+In feite zijn in elke Whirlpool CoinJoin 2 gebruikers onder de inputs nieuwkomers. De andere input is afkomstig van remixers. Als gevolg daarvan worden de mining-kosten voor alle deelnemers aan de transactie gedragen door deze 2 nieuwkomers, die vervolgens ook kunnen profiteren van gratis remixes:
 
 
 ![BTC204](assets/nl/148.webp)
 
 
-Dankzij dit vergoedingensysteem onderscheidt Whirlpool zich echt van andere CoinJoin-implementaties, omdat de anonimiteit van de UTXO's niet evenredig is met de prijs die de gebruiker betaalt. Hierdoor is het mogelijk om aanzienlijk hogere niveaus van anonimiteit te bereiken door alleen de pool entry fee en de Mining fee te betalen voor 2 transacties (de `Tx0` en de initiële mix).
+Dankzij dit vergoedingensysteem onderscheidt Whirlpool zich echt van andere CoinJoin-implementaties, omdat de anonimiteit van de UTXO's niet evenredig is met de prijs die de gebruiker betaalt. Hierdoor is het mogelijk om aanzienlijk hogere niveaus van anonimiteit te bereiken door alleen entry fee voor de pool en de mining fee te betalen voor 2 transacties (de `Tx0` en de initiële mix).
 
 
-Het is belangrijk op te merken dat de gebruiker ook de Mining kosten zal moeten betalen om zijn UTXO's uit de pool te halen na het voltooien van zijn meervoudige coinjoins, tenzij hij de `mix to` optie heeft geselecteerd, die een externe adres biedt die de fondsen direct uit CoinJoin zal ontvangen, zonder extra transactie.
+Het is belangrijk op te merken dat de gebruiker ook de mining-kosten zal moeten betalen om zijn UTXO's uit de pool te halen na het voltooien van zijn meervoudige coinjoins, tenzij hij de `mix to` optie heeft geselecteerd, dat een extern adres biedt om de fondsen direct uit CoinJoin te ontvangen, zonder extra transactie.
 
 
-### HD-portefeuilleaccounts
+### De rekening van de HD-wallet
 
 
-Om een CoinJoin via Whirlpool aan te maken, moet de wallet generate verschillende aparte accounts hebben. Dit is het principe achter het ZeroLink protocol. Een account, in de context van een HD (*Hierarchical Deterministic*) portefeuille, vormt een sectie die volledig geïsoleerd is van de andere, deze scheiding vindt plaats op het niveau van de derde diepte van de portefeuillehiërarchie, d.w.z. op het `xpub` niveau.
+Om een CoinJoin via Whirlpool aan te maken, moet de wallet verschillende aparte rkeningen (accounts) hebben. Dit is het principe achter het ZeroLink-protocol. Een rekening (account), in de context van een HD (*Hierarchical Deterministic*) wallet, vormt een sectie die volledig geïsoleerd is van de andere, deze scheiding vindt plaats op het niveau van de derde diepte van de wallethiërarchie, d.w.z. op het `xpub` niveau.
 
 
 ![BTC204](assets/nl/149.webp)
 
 
-Een HD wallet kan theoretisch tot `2^(31)` verschillende accounts afleiden. De initiële rekening, standaard gebruikt op alle Bitcoin portemonnees, komt overeen met de `0'` index.
+Een HD wallet kan theoretisch tot `2^(31)` verschillende accounts afleiden. De initiële rekening, standaard gebruikt op alle Bitcoin-wallets, komt overeen met de `0'` index.
 
 
-Voor wallets die zijn aangepast aan Whirlpool worden 4 accounts gebruikt om te voldoen aan de behoeften van het ZeroLink proces:
+Voor wallets die zijn aangepast aan Whirlpool worden 4 accounts gebruikt om te voldoen aan de behoeften van het ZeroLink-proces:
 
 
 
 
-- De **deposito** rekening, geïdentificeerd door index `0'` ;
-- De **slechte bank** (of "doxxic change") rekening, geïdentificeerd door de index `2,147,483,644'` ;
-- De **premix**-rekening, geïdentificeerd met de index `2 147 483 645'` ;
-- De **postmix** rekening, geïdentificeerd door de index `2 147 483 646'`.
+- De **deposito**-rekening, geïdentificeerd door index `0'` ;
+- De **slechte bank** (of "doxxic change") rekening, geïdentificeerd door de index `2.147.483.644'` ;
+- De **premix**-rekening, geïdentificeerd met de index `2.147.483.645'` ;
+- De **postmix** rekening, geïdentificeerd door de index `2.147.483.646'`.
 
 
-Elk van deze accounts vervult een bepaalde functie in het CoinJoin proces, die we in de volgende secties zullen verkennen.
+Elk van deze accounts vervult een bepaalde functie in het CoinJoin-proces, die we in de volgende secties zullen verkennen.
 
 
 Al deze accounts zijn gekoppeld aan één seed, waardoor de gebruiker toegang kan krijgen tot al zijn bitcoins met behulp van zijn herstelzin en, indien van toepassing, zijn passphrase. Tijdens het herstel moet de software echter op de hoogte worden gebracht van de verschillende accountindexen die worden gebruikt.
@@ -2982,27 +2982,27 @@ Laten we eens kijken naar de verschillende stadia van een Whirlpool CoinJoin bin
 ### De TX0
 
 
-Het startpunt van elke Whirlpool CoinJoin is de **deposit** account. Dit is de rekening die je automatisch gebruikt als je een nieuwe Bitcoin wallet aanmaakt. Deze rekening moet worden gecrediteerd met de bitcoins die je wilt mengen.
+Het startpunt van elke Whirlpool CoinJoin is de **deposit**-account. Dit is de rekening die je automatisch gebruikt als je een nieuwe Bitcoin-wallet aanmaakt. Deze rekening moet worden gecrediteerd met de bitcoins die je wilt mengen.
 
 
-Tx0" is de eerste stap in het mengproces van de Whirlpool. Het doel is om de UTXO's voor de CoinJoin voor te bereiden en te egaliseren, door ze te verdelen in eenheden die overeenkomen met de hoeveelheid van de geselecteerde pool, om een homogene menging te garanderen. De aldus vereffende UTXO's worden vervolgens naar de **premix** rekening gestuurd. Het verschil dat niet in de pool kan, wordt gescheiden in een specifieke rekening: de **slechte bank** (of "doxxic change").
+`Tx0` is de eerste stap in het mengproces van de Whirlpool. Het doel is om de UTXO's voor de CoinJoin voor te bereiden en te egaliseren, door ze te verdelen in eenheden die overeenkomen met de hoeveelheid van de geselecteerde pool, om een homogene menging te garanderen. De aldus vereffende UTXO's worden vervolgens naar de **premix**-rekening gestuurd. Het verschil dat niet in de pool kan, wordt gescheiden in een specifieke rekening: de **slechte bank** (of "doxxic change").
 
 
-Deze initiële `Tx0` transactie wordt ook gebruikt om de service fee te betalen die verschuldigd is aan de CoinJoin coördinator. In tegenstelling tot de volgende stappen, werkt deze transactie niet samen, dus de gebruiker moet de volledige kosten van Mining dragen:
+Deze initiële `Tx0` transactie wordt ook gebruikt om de service fee te betalen die verschuldigd is aan de CoinJoin-coördinator. In tegenstelling tot de volgende stappen, is dit geen collaboratieve transactie, dus de gebruiker moet de volledige mining-kosten dragen:
 
 
 ![BTC204](assets/nl/150.webp)
 
 
-In dit voorbeeld van een `Tx0` transactie wordt een input van `372.000 Sats` van onze **deposito** rekening gesplitst in verschillende output UTXO's, die als volgt worden opgesplitst:
+In dit voorbeeld van een `Tx0` transactie wordt een input van `372.000 sats` van onze **deposito**-rekening gesplitst in verschillende output UTXO's, die als volgt worden opgesplitst:
 
 
 
 
-- Een bedrag van `5.000 Sats` voor de coördinator voor servicekosten, overeenkomend met de poolingang van `100.000 Sats`;
-- 3 UTXO's klaargemaakt voor menging, doorgestuurd naar onze **premix** rekening en geregistreerd bij de coördinator. Deze UTXO's zijn geëgaliseerd op `108.000 Sats` per stuk, om de Mining kosten te dekken voor hun toekomstige eerste menging;
-- Het overschot, dat niet in de pool kan omdat het te klein is, wordt beschouwd als giftig buitenlands Exchange. Het wordt naar zijn specifieke rekening gestuurd. Hier bedraagt dit exchange `40.000 Sats`;
-- Tenslotte zijn er nog `3.000 Sats` over, die geen output vormen, maar de Mining kosten zijn die nodig zijn om `Tx0` te bevestigen.
+- Een bedrag van `5.000 sats` voor de coördinator voor servicekosten, overeenkomend met de poolingang van `100.000 sats`;
+- 3 UTXO's klaargemaakt voor menging, doorgestuurd naar onze **premix**-rekening en geregistreerd bij de coördinator. Deze UTXO's zijn geëgaliseerd op `108.000 sats` per stuk, om de mining kosten te dekken voor hun toekomstige eerste menging;
+- Het overschot, dat niet in de pool kan omdat het te klein is, wordt beschouwd als doxxic change. Het wordt naar zijn specifieke rekening gestuurd. Hier bedraagt dit `40.000 sats` exchange;
+- Tenslotte zijn er nog `3.000 sats` over, die geen output vormen, maar de mining kosten zijn die nodig zijn om `Tx0` te bevestigen.
 
 
 Hier is bijvoorbeeld een echte Whirlpool Tx0 (niet de mijne): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://Mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
@@ -3011,10 +3011,10 @@ Hier is bijvoorbeeld een echte Whirlpool Tx0 (niet de mijne): [edef60744f539483d
 ![BTC204](assets/nl/151.webp)
 
 
-### De doxische veranderingen
+### De doxxic change
 
 
-Het overschot dat niet geïntegreerd kon worden in de pool, hier gelijk aan `40.000 Sats`, wordt omgeleid naar de **slechte bank** rekening, ook bekend als "doxxic Exchange", om strikte scheiding te garanderen van de andere UTXO's in de portefeuille.
+Het overschot dat niet geïntegreerd kon worden in de pool, hier gelijk aan `40.000 sats`, wordt omgeleid naar de **slechte bank**-rekening, ook bekend als "doxxic change", om strikte scheiding te garanderen van de andere UTXO's in de wallet.
 
 
 Deze UTXO is gevaarlijk voor de vertrouwelijkheid van de gebruiker, omdat het niet alleen nog steeds verbonden is aan het verleden, en dus mogelijk aan de identiteit van de eigenaar, maar het staat ook genoteerd als behorend aan een gebruiker die een CoinJoin heeft gemaakt.
@@ -3023,7 +3023,7 @@ Deze UTXO is gevaarlijk voor de vertrouwelijkheid van de gebruiker, omdat het ni
 ![BTC204](assets/nl/152.webp)
 
 
-Als deze UTXO wordt samengevoegd met gemengde output, verliest deze alle vertrouwelijkheid die is verkregen tijdens CoinJoin cycli, met name door CIOH (*Common-Input-Ownership-Heuristic*). Als het wordt samengevoegd met andere doxische veranderingen, loopt de gebruiker het risico vertrouwelijkheid te verliezen, omdat het de verschillende CoinJoin cyclus ingangen zal koppelen. Het moet daarom met voorzichtigheid behandeld worden. In de laatste paragraaf van dit hoofdstuk gaan we dieper in op het beheer van deze UTXO's doxxic.
+Als deze UTXO wordt samengevoegd met gemengde output, verliest deze alle vertrouwelijkheid die is verkregen tijdens CoinJoin cycli, met name door CIOH (*Common-Input-Ownership-Heuristic*). Als het wordt samengevoegd met andere doxische changes, loopt de gebruiker het risico vertrouwelijkheid te verliezen, omdat het de verschillende CoinJoin cyclus ingangen zal koppelen. Het moet daarom met voorzichtigheid behandeld worden. In de laatste paragraaf van dit hoofdstuk gaan we dieper in op het beheer van deze doxxic UTXO's.
 
 
 ### De initiële mix
@@ -3032,7 +3032,7 @@ Als deze UTXO wordt samengevoegd met gemengde output, verliest deze alle vertrou
 Na `Tx0` worden de geëgaliseerde UTXO's naar de **premix** account van onze portfolio gestuurd, klaar om te worden geïntroduceerd in hun eerste CoinJoin cyclus, ook bekend als de "initiële mix". Als, zoals in ons voorbeeld, de `Tx0` meerdere UTXO's genereert om te mengen, wordt elk van hen geïntegreerd in een aparte initiële mix.
 
 
-Aan het einde van deze eerste mixen zal de **premix** rekening leeg zijn, terwijl onze munten, die de Mining kosten voor deze eerste CoinJoin hebben betaald, precies zullen worden aangepast aan het bedrag dat door de gekozen pool is gedefinieerd. In ons voorbeeld zullen onze initiële UTXO's van `108.000 Sats` gereduceerd zijn tot precies `100.000 Sats`.
+Aan het einde van deze eerste mixen zal de **premix** rekening leeg zijn, terwijl onze munten, die de mining kosten voor deze eerste CoinJoin hebben betaald, precies zullen worden aangepast aan het bedrag dat door de gekozen pool is gedefinieerd. In ons voorbeeld zullen onze initiële UTXO's van `108.000 Sats` gereduceerd zijn tot precies `100.000 Sats`.
 
 
 ![BTC204](assets/nl/153.webp)
@@ -3044,7 +3044,7 @@ Aan het einde van deze eerste mixen zal de **premix** rekening leeg zijn, terwij
 Na de eerste mix worden de UTXO's overgebracht naar het **postmix** account. Dit account verzamelt UTXO's die al gemengd zijn en UTXO's die nog geremixt moeten worden. Wanneer de Whirlpool klant actief is, zijn UTXO's die zich in het **postmix** account bevinden automatisch beschikbaar voor remixen en worden willekeurig geselecteerd om deel te nemen aan deze nieuwe cycli.
 
 
-Ter herinnering, remixen zijn dan 100% gratis: er zijn geen extra servicekosten of Mining kosten nodig. Door UTXO's op de **postmix** rekening te houden, blijft hun waarde intact en verbetert tegelijkertijd hun anonsets. Daarom is het belangrijk om deze munten deel te laten nemen aan verschillende CoinJoin cycli. Het kost je helemaal niets en verhoogt hun anonimiteit.
+Ter herinnering, remixen zijn dan 100% gratis: er zijn geen extra servicekosten of mining kosten nodig. Door UTXO's op de **postmix** rekening te houden, blijft hun waarde intact en verbetert tegelijkertijd hun anonsets. Daarom is het belangrijk om deze munten deel te laten nemen aan verschillende CoinJoin cycli. Het kost je helemaal niets en verhoogt hun anonimiteit.
 
 
 Als je besluit om gemengde UTXO's uit te geven, kun je dat rechtstreeks vanuit dit **postmix** account doen. We raden je aan om gemengde UTXO's op dit account te houden om te kunnen profiteren van gratis remixen en om te voorkomen dat ze het Whirlpool circuit verlaten, wat hun vertrouwelijkheid zou kunnen verminderen.
@@ -3602,7 +3602,7 @@ Laten we een voorbeeld nemen om dit proces beter te begrijpen. Alice koopt een s
 ![BTC204](assets/nl/171.webp)
 
 
-In dit voorbeeld voert bakker Bob 15.000 Sats in en komt eruit met 19.000 Sats, het verschil is precies 4.000 Sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 Sats in en eindigt met 6.000 Sats aan output, wat neerkomt op een saldo van -4.000 Sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de Mining kosten in deze transactie bewust weggelaten.
+In dit voorbeeld voert bakker Bob 15.000 Sats in en komt eruit met 19.000 Sats, het verschil is precies 4.000 Sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 Sats in en eindigt met 6.000 Sats aan output, wat neerkomt op een saldo van -4.000 Sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de mining kosten in deze transactie bewust weggelaten.
 
 
 ### Waar is de PayJoin voor?
@@ -3735,7 +3735,7 @@ Laten we een voorbeeld nemen om deze transactiestructuur te begrijpen. Alice gaa
 Door deze transactie te analyseren, kunnen we zien dat Bob de bakker eigenlijk 4.000 Sats ontving als betaling voor het stokbrood. Alice gebruikte 2 UTXO's als input: één voor 10.000 Sats en één voor 15.000 Sats. Als output heeft ze 3 UTXO's teruggekregen: één voor 4.000 Sats, één voor 6.000 Sats en één voor 11.000 Sats. Alice heeft dus een nettosaldo van -4.000 Sats op deze transactie, wat overeenkomt met de prijs van het stokbrood.
 
 
-In dit voorbeeld heb ik opzettelijk de Mining kosten verwaarloosd om het makkelijker te begrijpen te maken. In werkelijkheid worden transactiekosten volledig gedragen door de emittent.
+In dit voorbeeld heb ik opzettelijk de mining kosten verwaarloosd om het makkelijker te begrijpen te maken. In werkelijkheid worden transactiekosten volledig gedragen door de emittent.
 
 
 ### Wat zijn de doelstellingen van een Stonewall-transactie?
@@ -3771,7 +3771,7 @@ En wat bijzonder interessant is aan de structuur van de Stonewall-transactie is 
 Stonewall x2 is een andere specifieke vorm van Bitcoin-transactie die er ook op gericht is om de vertrouwelijkheid van de gebruiker te vergroten bij het doen van een uitgave, maar deze keer door samen te werken met een derde persoon die niet betrokken is bij die uitgave. Deze methode werkt als een pseudo-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
 
 
-De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de Mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling exchange vormt.
+De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling exchange vormt.
 
 
 In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
@@ -3781,7 +3781,7 @@ In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
 
 - De emittent, die de feitelijke betaling verricht ;
 - De ontvanger, die zich mogelijk niet bewust is van de specifieke aard van de transactie en gewoon betaling verwacht van de verzender;
-- De medewerker, die bitcoins beschikbaar stelt om de analyse van de transactie in twijfel te trekken, terwijl hij aan het eind zijn geld volledig terugkrijgt (een neutrale actie voor hem, afgezien van de Mining kosten).
+- De medewerker, die bitcoins beschikbaar stelt om de analyse van de transactie in twijfel te trekken, terwijl hij aan het eind zijn geld volledig terugkrijgt (een neutrale actie voor hem, afgezien van de mining kosten).
 
 
 Laten we teruggaan naar ons voorbeeld met Alice, die bij Bob de bakker is om haar stokbrood te kopen, dat 4.000 Sats kost. Ze wil in bitcoins betalen, met behoud van een zekere mate van vertrouwelijkheid over haar betaling. Dus doet ze een beroep op haar vriend Charles, die haar hierbij zal helpen.
@@ -3793,7 +3793,7 @@ Laten we teruggaan naar ons voorbeeld met Alice, die bij Bob de bakker is om haa
 Als we deze transactie analyseren, zien we dat bakker Bob in werkelijkheid 4.000 Sats ontving als betaling voor het stokbrood. Alice gebruikte 10.000 Sats als input en ontving 6.000 Sats als output, d.w.z. een nettosaldo van -4.000 Sats, wat overeenkomt met de prijs van het stokbrood. Charles gebruikte 15 000 Sats als input en ontving twee outputs: een van 4 000 Sats en de andere van 11 000 Sats, wat een saldo van 0 oplevert.
 
 
-In dit voorbeeld heb ik de kosten bewust weggelaten om het begrijpelijker te maken. In werkelijkheid worden de kosten voor Mining over het algemeen gelijk verdeeld tussen de uitgever van de betaling en de bijdrager.
+In dit voorbeeld heb ik de kosten bewust weggelaten om het begrijpelijker te maken. In werkelijkheid worden de kosten voor mining over het algemeen gelijk verdeeld tussen de uitgever van de betaling en de bijdrager.
 
 
 ### Wat zijn de doelstellingen van een Stonewall x2-transactie?

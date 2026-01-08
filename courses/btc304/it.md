@@ -1657,21 +1657,21 @@ Passi in più per far risaltare il tuo evento:
 Il grande giorno è arrivato! Una o due ore prima dell'inizio dell'evento, invia un promemoria attraverso i canali di comunicazione della tua community. Riconferma l'orario di inizio e comunica ai partecipanti come riconoscerti, ad esempio dicendo che indosserai la maglietta e il cappellino con il logo Bitcoin.
 
 
-Man mano che i vostri meetup crescono e iniziate ad accogliere più di 20 persone, la preparazione della sede diventerà sempre più importante.
+Man mano che i tuoi meetup crescono e inizi ad accogliere più di 20 persone, la preparazione della sede diventerà sempre più importante.
 
 
 Ecco cosa fare:
 
 1) **Arrivare in anticipo** per organizzare le cose.
 
-2) **Organizzate lo spazio** in base alle vostre esigenze e alle possibilità del locale. Se siete solo sei persone, non è necessario un allestimento particolare. Ma quando si raggiungono i 10-20 partecipanti, una disposizione completamente seduta può limitare le interazioni. In questo caso, scegliete un allestimento in piedi con tavoli alti e ben distanziati, se disponibili, ma prevedete comunque alcune sedie (preferibilmente alte). Se è prevista una presentazione, mantenete la disposizione in piedi per la maggior parte della serata e portate le sedie solo prima dell'intervento.
+2) **Organizza lo spazio** in base alle tue esigenze e alle possibilità del locale. Se siete solo sei persone, non è necessario un allestimento particolare. Ma quando si raggiungono i 10-20 partecipanti, una disposizione completamente seduta può limitare le interazioni. In questo caso, scegli un allestimento in piedi con tavoli alti e ben distanziati, se disponibili, ma prevedi comunque alcune sedie (preferibilmente alte). Se è prevista una presentazione, mantieni la disposizione in piedi per la maggior parte della serata e porta le sedie solo prima dell'intervento.
 
-3) Aggiungete piccoli tocchi personalizzati:
+3) Aggiungi piccoli tocchi personalizzati:
 
 
-    - Affiggete un manifesto all'ingresso per indicare la vostra posizione (utilizzate Patafix e ottenete prima il permesso del locale).
-    - All'interno, esponete i poster a tema Bitcoin (il libro bianco Bitcoin, lo statuto della community, i progetti in corso, ecc.)
-    - Sui tavoli sono presenti adesivi, volantini o spunti di conversazione, ad esempio: un Nerdminer, un Hardware Wallet, un computer portatile che espone il suo Mempool, ASIC Miner o una piastra di backup in metallo per le chiavi private.
+    - Affiggi un manifesto all'ingresso per indicare tua posizione (utilizza Patafix e otteni prima il permesso del locale).
+    - All'interno, esponi i poster a tema Bitcoin (il White Paper di Bitcoin, lo statuto della community, i progetti in corso, ecc.)
+    - Sui tavoli sono presenti adesivi, volantini o spunti di conversazione, ad esempio: un Nerdminer, un hardware wallet, un computer portatile che espone la sua Mempool, ASIC Miner o una piastra di backup in metallo per le chiavi private.
 
 
 
@@ -1679,10 +1679,10 @@ Ecco cosa fare:
 
 
 
-Se vi aspettate solo pochi partecipanti e non avete ancora instaurato un rapporto con i gestori della sede, evitate di portare ed esporre subito tutta l'attrezzatura. Una volta instaurata la fiducia, avrete più libertà di organizzare lo spazio come desiderate.
+Se ti aspettate solo pochi partecipanti e non hai ancora instaurato un rapporto con i gestori della sede, evita di portare ed esporre subito tutta l'attrezzatura. Una volta instaurata la fiducia, avrai più libertà di organizzare lo spazio come desideri.
 
 
-Infine, prendete un drink e aspettate che le persone arrivino. E ricordate: non scoraggiatevi se la prima volta non arriva nessuno. Portate con voi un libro o un video da guardare, non si sa mai.
+Infine, prendi un drink e aspetta che le persone arrivino. E ricorda: non scoraggiatevi se la prima volta non arriva nessuno. Porta con te un libro o un video da guardare, non si sa mai.
 
 
 
@@ -1693,18 +1693,18 @@ Infine, prendete un drink e aspettate che le persone arrivino. E ricordate: non 
 
 
 
-Quando l'incontro termina, è il momento delle pulizie per il personale del locale. Prima di andar via, offritevi di dare una mano ai camerieri o ai gestori. Può trattarsi semplicemente di raccogliere tutti i bicchieri su un tavolo o, se siete vicini al bar, di restituirli prima di andarvene.
+Quando l'incontro termina, è il momento delle pulizie per il personale del locale. Prima di andar via, offriti di dare una mano ai camerieri o ai gestori. Può trattarsi semplicemente di raccogliere tutti i bicchieri su un tavolo o, se siete vicini al bar, di restituirli prima di andarvene.
 
 
-Una volta tornati a casa, probabilmente avrete ancora in mente il Bitcoin per giorni. È il momento perfetto per tastare il polso alla vostra community e raccogliere il feedback dei partecipanti. È possibile:
+Una volta tornato a casa, probabilmente avrai ancora in mente Bitcoin per giorni. È il momento perfetto per tastare il polso alla tua community e raccogliere il feedback dei partecipanti. È possibile:
 
 
-- Pubblicate un messaggio di ringraziamento sui vostri canali di comunicazione e condividete qualsiasi link o risorsa menzionata durante l'evento.
-- Invitate i partecipanti a suggerire miglioramenti per il prossimo incontro.
-- Iniziate a pianificare il vostro prossimo evento.
+- Pubblica un messaggio di ringraziamento sui tuoi canali di comunicazione e condividi qualsiasi link o risorsa menzionata durante l'evento.
+- Invita i partecipanti a suggerire miglioramenti per il prossimo incontro.
+- Inizia a pianificare il tuo prossimo evento.
 
 
-Avrete quindi alcune settimane per sviluppare nuove idee, immagini o progetti per rendere il prossimo incontro ancora migliore.
+Avrai quindi alcune settimane per sviluppare nuove idee, immagini o progetti per rendere il prossimo incontro ancora migliore.
 
 
 
@@ -1715,23 +1715,23 @@ Avrete quindi alcune settimane per sviluppare nuove idee, immagini o progetti pe
 
 
 
-Roma non è stata costruita in un giorno, e nemmeno la vostra community lo sarà. L'impulso al Bitcoin viene dall'organizzazione di incontri ed eventi regolari.
+Roma non è stata costruita in un giorno, e nemmeno la tua community lo sarà. L'impulso a Bitcoin viene dall'organizzazione di incontri ed eventi regolari.
 
 
 Per far sì che ciò accada, una cosa è essenziale: **mantenere i partecipanti impegnati**.
 
 
-Si potrebbe iniziare con un piccolo gruppo di appassionati di bitcoiners, il cui scopo è riunirsi regolarmente e parlare del Bitcoin. Nel corso del tempo, a seconda della disponibilità e degli interessi di ciascuno, si possono **condividere alcuni compiti organizzativi con il gruppo**, o invitare i **membri principali ad occuparsi di progetti specifici**. Questi possono essere unici per la vostra community, i vostri incontri o la vostra città o anche ispirati alle molte iniziative proposte nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Questo non solo favorisce il Commitment da parte dei membri principali, ma aiuta anche la community a crescere e a prosperare.**.
+Si potrebbe iniziare con un piccolo gruppo di appassionati di Bitcoiners, il cui scopo è riunirsi regolarmente e parlare di Bitcoin. Nel corso del tempo, a seconda della disponibilità e degli interessi di ciascuno, si possono **condividere alcuni compiti organizzativi con il gruppo**, o invitare i **membri principali ad occuparsi di progetti specifici**. Questi possono essere unici per la vostra community, i vostri incontri o la vostra città o anche ispirati alle molte iniziative proposte nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Questo non solo favorisce l'impegno da parte dei membri principali, ma aiuta anche la community a crescere e a prosperare.**.
 
 
 Man mano che gli incontri si susseguono, compaiono nuovi volti: persone che hanno acquistato BTC e/o altcoin nei cicli precedenti, appassionati di tecnologia che vogliono approfondire la loro conoscenza, o principianti assoluti curiosi di questo sistema di pagamento non censurabile, decentralizzato, trasparente ed equo che funziona senza condizioni e senza terze parti fidate.
 
 
-Per far sì che tutti si sentano inclusi nei vostri eventi, concentratevi su due aspetti fondamentali:
+Per far sì che tutti si sentano inclusi nei tuoi eventi, concentrati su due aspetti fondamentali:
 
 
 - **Inclusione sociale**: Tutti i partecipanti devono sentirsi benvenuti. Sforzatevi di salutare i nuovi arrivati, chiedete perché sono venuti e presentateli agli altri. Quando le persone si sentono incluse, sono più propense a tornare e magari a contribuire all'organizzazione di eventi futuri.
-- **Pazienza e apertura**: Questo richiede tempo e motivazione. Se si sta parlando con un convinto "shitcoiner" (o peggio, un XRP Maximalist), si può essere tentati di respingerlo. Ma impegnandosi nella conversazione, si possono chiarire i malintesi o i ragionamenti errati. Se sono disposti ad ascoltare, potrebbero essere pronti a capire veramente il Bitcoin.
+- **Pazienza e apertura**: Questo richiede tempo e motivazione. Se si sta parlando con un convinto "shitcoiner" (o peggio, un XRP Maximalist), si può essere tentati di respingerlo. Ma impegnandosi nella conversazione, si possono chiarire i malintesi o i ragionamenti errati. Se sono disposti ad ascoltare, potrebbero essere pronti a capire veramente Bitcoin.
 
 
 
@@ -1739,7 +1739,7 @@ Per far sì che tutti si sentano inclusi nei vostri eventi, concentratevi su due
 
 
 
-Da un punto di vista pratico, pensate all'esperienza complessiva dell'evento:
+Da un punto di vista pratico, pensa all'esperienza complessiva dell'evento:
 
 
 - Il **viaggio è stato piacevole**?
@@ -1755,7 +1755,7 @@ Ogni partecipante ha la propria personalità, i propri obiettivi e interessi, qu
 Costruire un meetup richiede tempo ma soprattutto organizzazione. È un progetto umano e funzionerà e crescerà a lungo termine solo se è ben pianificato, aperto e inclusivo.
 
 
-In definitiva, spetta a voi decidere fino a che punto "aperto e inclusivo" debba spingersi. Ricordate solo che uno shitcoiner spesso è solo un bitcoiner in divenire.
+In definitiva, spetta a te decidere fino a che punto "aperto e inclusivo" debba spingersi. Ricorda solo che uno shitcoiner spesso è solo un Bitcoiner in divenire.
 
 
 # Esempi di progetti e iniziative
@@ -1772,20 +1772,20 @@ In definitiva, spetta a voi decidere fino a che punto "aperto e inclusivo" debba
 
 
 
-Con il passare dei blocchi, la vostra community si evolverà. Nuovi volti si uniranno, altri si allontaneranno, ma il principio guida dovrebbe rimanere lo stesso: sviluppare l'ecosistema Bitcoin e rafforzare i legami tra i membri.
+Con il passare dei blocchi, la tua community si evolverà. Nuovi volti si uniranno, altri si allontaneranno, ma il principio guida dovrebbe rimanere lo stesso: sviluppare l'ecosistema Bitcoin e rafforzare i legami tra i membri.
 
 
-Sono molti i progetti e le iniziative che si possono realizzare. Questo capitolo offre un elenco non esaustivo di idee che possono essere realizzate all'interno di una community o durante un meetup. Sentitevi liberi di scegliere quelle che vi ispirano e anche di contribuire con le vostre idee a questo corso [facendo una "Pull Request" su GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Sono molti i progetti e le iniziative che si possono realizzare. Questo capitolo offre un elenco non esaustivo di idee che possono essere realizzate all'interno di una community o durante un meetup. Sentiti libero di scegliere quelle che ti ispirano e anche di contribuire con le tue idee a questo corso [facendo una "Pull Request" su GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Prima di immergerci, rivediamo un punto citato in precedenza.
 
 
-Quando si organizza un incontro Bitcoin, si incontrano nuove persone. L'interazione sociale è essenziale e la birra (o l'alcol in generale) può contribuire a creare un'atmosfera di festa. Ma è bene tenere a mente che
+Quando si organizza un incontro Bitcoin, si incontrano nuove persone. L'interazione sociale è essenziale e la birra (o l'alcol in generale) può contribuire a creare un'atmosfera di festa. Ma è bene tenere a mente che:
 
 
 - L'alcol compromette le capacità cognitive, come il pensiero e la comprensione, rendendo più difficile per i partecipanti seguire discussioni o presentazioni serie.
-- L'alcol può anche diventare un rituale di conforto: ogni mese si condivide il proprio "momento Bitcoin" con gli amici davanti a un drink. Sebbene sia un ottimo modo per entrare in contatto, bere birra è davvero l'obiettivo principale del vostro incontro? O preferite fare ricerche sul Exchange, imparare dagli altri e aiutare i nuovi arrivati a scoprire il Bitcoin?
+- L'alcol può anche diventare un rituale di conforto: ogni mese si condivide il proprio "momento Bitcoin" con gli amici davanti a un drink. Sebbene sia un ottimo modo per entrare in contatto, bere birra è davvero l'obiettivo principale del tuo incontro? O preferite scambiare ricerche, imparare dagli altri e aiutare i nuovi arrivati a scoprire Bitcoin?
 
 
 Ognuno ha le proprie preferenze, convinzioni e personalità. Non si tratta di giudicare un meetup rispetto a un altro. Tuttavia, anche se spesso si parla di cambiare il mondo davanti a una birra, le rivoluzioni non iniziano né crescono in questo modo.
@@ -1806,7 +1806,7 @@ Il segreto è semplicemente esserne consapevoli.
 
 
 
-Una volta creato un gruppo di base di circa dieci persone, potete iniziare ad aggiungere presentazioni a ogni evento. Queste possono seguire un tema annunciato in anticipo o essere completamente indipendenti l'una dall'altra.
+Una volta creato un gruppo di base di circa dieci persone, puoi iniziare ad aggiungere presentazioni a ogni evento. Queste possono seguire un tema annunciato in anticipo o essere completamente indipendenti l'una dall'altra.
 
 
 Quando si pianificano presentazioni o workshop, è utile creare una progressione chiara e ben strutturata. L'obiettivo è quello di **coprire i concetti fondamentali del Bitcoin passo dopo passo**, fornendo ai partecipanti una visione completa dell'argomento da più angolazioni.
@@ -1840,7 +1840,7 @@ Ulteriori materiali modificabili si trovano anche nel [Bitcoin Teaching Toolbox]
 I capitoli 2 e 7 possono essere suddivisi in due presentazioni più brevi per non sovraccaricare i partecipanti. Tuttavia, la loro esecuzione in un'unica sessione libera spazio nel calendario per attività speciali, come incontri congiunti con gruppi vicini, quiz o workshop.
 
 
-**Siete liberi di usare, adattare e condividere queste risorse, ma assicuratevi di dare credito agli autori originali se riutilizzate il loro lavoro **
+**Sei liberi di usare, adattare e condividere queste risorse, ma assicurati di dare credito agli autori originali se riutilizzi il loro lavoro.**
 
 
 Poiché non tutti possono partecipare a ogni incontro, è una buona idea registrare le presentazioni e caricarle su una piattaforma di streaming o sul vostro sito web. In questo modo gli assenti possono recuperare e i partecipanti possono rivedere il materiale in un secondo momento.
@@ -1849,10 +1849,10 @@ Poiché non tutti possono partecipare a ogni incontro, è una buona idea registr
 In parallelo, è possibile organizzare altri meetup a tema, come ad esempio:
 
 
-- Un quiz di conoscenza del Bitcoin (con un Hardware Wallet in premio)
+- Un quiz a tema Bitcoin (con un hardware wallet in premio)
 - Una sfida di onboarding in cui si inviano satoshis gratuiti ai no-coiners per strada
-- Invitare un relatore esperto o un'azienda a presentare un prodotto legato al Bitcoin
-- Un tour notturno dei bar e dei negozi che accettano il Bitcoin
+- Invitare un relatore esperto o un'azienda a presentare un prodotto legato a Bitcoin
+- Un tour notturno dei bar e dei negozi che accettano Bitcoin
 
 
 E molto altro ancora, l'unico limite è la vostra immaginazione!
@@ -1866,13 +1866,13 @@ E molto altro ancora, l'unico limite è la vostra immaginazione!
 
 
 
-In base alla vostra disponibilità e al livello di coinvolgimento nella vostra community, potete pianificare altri eventi nel corso dell'anno, ad esempio:
+In base alla vostra disponibilità e al livello di coinvolgimento nella vostra community, puoi pianificare altri eventi nel corso dell'anno, ad esempio:
 
 
 - Una serata al ristorante per il **Pizza Day** del 22 maggio
 - Una serata o un weekend per festeggiare il prossimo **Halving**
 - Una serata di **gioco** in famiglia sul Bitcoin e sul suo funzionamento, utilizzando giochi come [Le Coin de Table](https://www.Maximalist.ovh/) o [SHAmory](https://shamory.com/)
-- Un workshop **Mining** che presenta diversi tipi di hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
+- Un workshop a tema **mining** che presenta diversi tipi di hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - Un **pomeriggio o una serata per principianti**, con laboratori a tema
 - Un **incontro congiunto con le community vicine**
 
@@ -1882,7 +1882,7 @@ In base alla vostra disponibilità e al livello di coinvolgimento nella vostra c
 
 
 
-Fate attenzione a non sovraccaricare il calendario. Troppi eventi in un solo mese possono portare al burnout degli organizzatori e a una riduzione della partecipazione nel tempo.
+Fai attenzione a non sovraccaricare il calendario. Troppi eventi in un solo mese possono portare al burnout degli organizzatori e a una riduzione della partecipazione nel tempo.
 
 
 
@@ -1893,7 +1893,7 @@ Fate attenzione a non sovraccaricare il calendario. Troppi eventi in un solo mes
 
 
 
-Gli adesivi sono un modo divertente per promuovere il Bitcoin e la vostra community, rafforzando al contempo la vostra identità.
+Gli adesivi sono un modo divertente per promuovere Bitcoin e la vostra community, rafforzando al contempo la vostra identità.
 
 
 Prima di ordinare, tenete a mente questi suggerimenti:
@@ -1902,7 +1902,7 @@ Prima di ordinare, tenete a mente questi suggerimenti:
 - Per l'uso all'esterno, assicurarsi che gli adesivi siano impermeabili.
 - Mantenere il logo leggermente più piccolo dell'area di taglio per evitare problemi di ritaglio durante il taglio laser.
 - Per una maggiore qualità di stampa, utilizzare un file vettoriale anziché un'immagine raster.
-- Scegliete la misura giusta: 8 cm di diametro (circa la dimensione del palmo di un adulto) sono molto visibili, mentre 4 cm sono più discreti. Cercate visibilità o discrezione?
+- Scegli la misura giusta: 8 cm di diametro (circa la dimensione del palmo di un adulto) sono molto visibili, mentre 4 cm sono più discreti. Cercate visibilità o discrezione?
 - Per una stampa in nero intenso ("quad black"), utilizzare 30% ciano, 30% magenta, 30% giallo e 100% nero. Se si utilizza solo il 100% di nero, si può ottenere una tonalità grigia. Le stampanti spesso controllano questo aspetto, ma vale la pena di saperlo.
 
 
@@ -1920,10 +1920,9 @@ Detto questo, 1.000 adesivi sono molti. Di solito è meglio iniziare con circa 1
 Importante: **Verificare le normative locali prima di collocare gli adesivi in spazi pubblici**.
 
 
-In Francia, gli adesivi possono essere affissi solo sulle bacheche pubbliche ufficiali. Se vengono affissi altrove (ad esempio su un cartello di divieto di sosta) verranno probabilmente rimossi ed eventualmente multati se possono essere collegati a voi o al vostro meetup. Informate i vostri membri su questo punto.
+In Francia, gli adesivi possono essere affissi solo sulle bacheche pubbliche ufficiali. Se vengono affissi altrove (ad esempio su un cartello di divieto di sosta) verranno probabilmente rimossi ed eventualmente multati se possono essere collegati a te o al tuo meetup. Informa i tuoi membri su questo punto.
 
-In luoghi privati come concerti, bar o stadi, controllate se sono già presenti adesivi prima di aggiungere il vostro. In caso contrario, chiedete il permesso al personale. Non volete che la prima impressione del proprietario di un'attività commerciale sia che avete vandalizzato il suo spazio.
-
+In luoghi privati come concerti, bar o stadi, controlla se sono già presenti adesivi prima di aggiungere il tuo. In caso contrario, chiedi il permesso al personale. Non vuoi che il proprietario di un’attività commerciale abbia come prima impressione che tu abbia vandalizzato il suo spazio.
 
 
 ## Creare una biblioteca
@@ -1936,13 +1935,13 @@ In luoghi privati come concerti, bar o stadi, controllate se sono già presenti 
 Un altro progetto che si può facilmente mettere in piedi è la **creazione di una biblioteca nei vostri incontri**.
 
 
-Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato al Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario nel Exchange per un deposito, ad esempio 21.000 satoshi via Lightning.
+Si potrebbero invitare i partecipanti che desiderano condividere il proprio materiale di lettura a portare un libro legato a Bitcoin. Se qualcun altro al meeting-up vuole prenderlo in prestito, si potrebbe concordare un prestito con il proprietario in cambio di un deposito, ad esempio 21.000 satoshi via Lightning.
 
 
 Per il proprietario, il deposito serve a coprire eventuali perdite o furti. Per il mutuatario, è un incentivo a tornare a un futuro incontro per recuperare il deposito.
 
 
-Se gestite un'associazione e volete investire parte dei vostri fondi in risorse educative, potete anche acquistare diversi libri da offrire nella vostra **biblioteca Bitcoin**, disponibile a ogni incontro.
+Se gestisci un'associazione e vuoi investire parte dei tuoi fondi in risorse educative, puoi anche acquistare diversi libri da offrire nella tua **biblioteca Bitcoin**, disponibile a ogni incontro.
 
 
 
@@ -1974,11 +1973,11 @@ Ecco un esempio open-source che potete utilizzare e adattare:
 
 
 
-Infine, per incoraggiare la lettura del Bitcoin, potreste visitare le **biblioteche comunali** per vedere se hanno libri sul Bitcoin.
+Infine, per incoraggiare la lettura di Bitcoin, potresti visitare le **biblioteche comunali** per vedere se hanno libri riguardo Bitcoin.
 
-In caso affermativo, chiedete ai bibliotecari se sono previste **tavole rotonde** sull'argomento e offrite loro i contatti del vostro meet-up.
+In caso affermativo, chiedi ai bibliotecari se sono previsti **incontri** sull'argomento e offri loro i contatti del tuo meet-up.
 
-In caso contrario, suggerite loro di acquistare alcuni libri da un elenco preselezionato. Il [publisher Konsensus Network](https://konsensus.network/) può essere una fonte di ispirazione.
+In caso contrario, suggerisci loro di acquistare alcuni libri da un elenco preselezionato. Il [publisher Konsensus Network](https://konsensus.network/) può essere una fonte di ispirazione.
 
 
 
@@ -1989,24 +1988,24 @@ In caso contrario, suggerite loro di acquistare alcuni libri da un elenco presel
 
 
 
-Progettare e redigere i volantini richiede tempo, ma ne vale la pena: vi danno una risorsa tangibile da distribuire quando parlate del Bitcoin, il che è sempre apprezzato.
+Progettare e redigere i volantini richiede tempo, ma ne vale la pena: ti danno una risorsa tangibile da distribuire quando parli di Bitcoin, il che è sempre apprezzato.
 
 
 Questi volantini possono essere indirizzati a:
 
 
-- Commercianti, se volete introdurre il Bitcoin come metodo di pagamento;
+- Commercianti, se volete introdurre Bitcoin come metodo di pagamento;
 - I partecipanti all'evento, con un volantino che spiega come utilizzare e pagare con Bitcoin/Lightning;
-- I principianti, incontrati per strada, al lavoro o durante una riunione di famiglia, con un volantino che evidenzia i principali vantaggi del Bitcoin.
+- I principianti, incontrati per strada, al lavoro o durante una riunione di famiglia, con un volantino che evidenzia i principali vantaggi di Bitcoin.
 
 
-Potreste anche progettare un volantino specifico per la vostra community o meet-up, presentando le vostre attività, gli obiettivi, i link ai social media, i canali di comunicazione e i prossimi eventi.
+Potresti anche progettare un volantino specifico per la tua community o meet-up, presentando le tue attività, gli obiettivi, i link ai social media, i canali di comunicazione e i prossimi eventi.
 
 
 Diversi volantini sono già **disponibili come open-source nel [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** su planB.network e altri saranno aggiunti nel tempo.
 
 
-Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) con 21 motivi per utilizzare il Bitcoin. Il suo design è anche [disponibile in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per essere modificato, adattato e condiviso. Ricordatevi solo di citare le fonti.
+Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) con 21 motivi per utilizzare Bitcoin. Il suo design è anche [disponibile in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per essere modificato, adattato e condiviso. Ricordati solo di citare le fonti.
 
 
 
@@ -2017,10 +2016,10 @@ Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-ra
 
 
 
-Come già detto, potete lasciare questi volantini praticamente ovunque: su una scrivania condivisa al lavoro, al tavolo della famiglia, in una biblioteca pubblica, ecc.
+Come già detto, puoi lasciare questi volantini praticamente ovunque: su una scrivania condivisa al lavoro, al tavolo della famiglia, in una biblioteca pubblica, ecc.
 
 
-In Francia e in alcuni altri Paesi esistono anche le "cassette dei libri", piccole scatole di legno dove le persone possono donare o prendere in prestito liberamente i libri. Potreste lasciare lì un volantino o, meglio ancora, un libro.
+In Italia e in alcuni altri Paesi esistono anche le "cassette dei libri", piccole scatole di legno dove le persone possono donare o prendere in prestito liberamente i libri. Potresti lasciare lì un volantino o, meglio ancora, un libro.
 
 
 
@@ -2043,11 +2042,11 @@ Per realizzare questo progetto, i partecipanti hanno dovuto innanzitutto raccogl
 - più articoli della stampa locale
 
 
-Sebbene il libro bianco Bitcoin sia simbolico, spesso è troppo complesso da capire per i nuovi arrivati. L'idea è stata invece quella di creare un piccolo opuscolo contenente:
+Sebbene il White Paper di Bitcoin sia simbolico, spesso è troppo complesso da capire per i nuovi arrivati. L'idea è stata invece quella di creare un piccolo opuscolo contenente:
 
 
-- un'introduzione accessibile e ben documentata al Bitcoin, ai suoi usi e ai problemi che risolve;
-- il libro bianco Bitcoin, tradotto in francese.
+- un'introduzione accessibile e ben documentata a Bitcoin, ai suoi usi e ai problemi che risolve;
+- il White Paper di Bitcoin, tradotto in italiano.
 
 
 Ecco [l'opuscolo condiviso dai bitcoiners francesi](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) che è stato collocato in decine di librerie in tutto il Paese. Il suo design è anche [disponibile come open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
@@ -2061,20 +2060,20 @@ Ecco [l'opuscolo condiviso dai bitcoiners francesi](https://profedustream.substa
 
 
 
-## Produzione di una videoproiezione
+## Produrre una videoproiezione
 
 
 <chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
 
 
 
-Quasi tutti i bitcoiner hanno probabilmente visto l'affascinante serie centrale di [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Il mistero del Satoshi: le origini del Bitcoin).
+Quasi tutti i Bitcoiner hanno probabilmente visto l'affascinante serie centrale di [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Il mistero del Satoshi: le origini di Bitcoin).
 
 
 Pubblicato nel 2021, è stato visualizzato [diversi milioni di volte su YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
-Un'idea potrebbe essere quella di organizzare una proiezione de Il mistero del Satoshi per la vostra community, magari come evento extra mensile.
+Un'idea potrebbe essere quella di organizzare una proiezione de "Il mistero del Satoshi" per la tua community, magari come evento extra mensile.
 
 
 Un avvertimento: sebbene ARTE France abbia confermato che le proiezioni pubbliche sono consentite, è necessario pagare i diritti di proiezione per farlo legalmente. Nel 2023, il costo era di circa 250 euro a proiezione, o 120 euro a proiezione se almeno cinque meetup lo proiettavano durante l'anno.
@@ -2089,7 +2088,7 @@ Naturalmente sono possibili altre proiezioni.
 Ad esempio, in Francia, la **regista [Alana Mediavilla](https://twitter.com/AlanaMediavilla) ha concesso ai meet-up locali il diritto di presentare in anteprima il suo documentario "Stranded "**, che include filmati del prossimo film del 2024 [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
-Alcuni bitcoiners hanno persino preso l'iniziativa di tradurre completamente "Stranded" in francese, aggiungere i sottotitoli e condividerlo con i meetup di tutto il Paese. Durante la settimana del 4 marzo 2024, il film è stato proiettato simultaneamente in una dozzina di meetup in tutto il Paese.
+Alcuni Bitcoiners hanno persino preso l'iniziativa di tradurre completamente "Stranded" in francese, aggiungere i sottotitoli e condividerlo con i meetup di tutto il Paese. Durante la settimana del 4 marzo 2024, il film è stato proiettato simultaneamente in una dozzina di meetup in tutta la Francia.
 
 
 
@@ -2097,7 +2096,7 @@ Alcuni bitcoiners hanno persino preso l'iniziativa di tradurre completamente "St
 
 
 
-L'evento ha suscitato vivaci discussioni sul Bitcoin Mining, sul suo consumo energetico e sul suo più ampio impatto ambientale.
+L'evento ha suscitato vivaci discussioni sul Bitcoin mining, sul suo consumo energetico e sul suo più ampio impatto ambientale.
 
 
 
@@ -2108,12 +2107,12 @@ L'evento ha suscitato vivaci discussioni sul Bitcoin Mining, sul suo consumo ene
 
 
 
-In diversi Paesi europei (tra cui Germania, Spagna e Francia) i bitcoiners hanno preso l'iniziativa di affiggere manifesti nelle loro città.
+In diversi Paesi europei (tra cui Germania, Spagna e Francia) i Bitcoiners hanno preso l'iniziativa di affiggere manifesti nelle loro città.
 
 Alcuni disegni rielaborano l'arte di Banksy per includere il logo Bitcoin.
 
 
-Un esempio è [StreetCyberArt](https://twitter.com/streetcyber_art), un bitcoiner tedesco che da diversi anni crea collage e arte di strada.
+Un esempio è [StreetCyberArt](https://twitter.com/streetcyber_art), un Bitcoiner tedesco che da diversi anni crea collage e arte di strada.
 
 
 
@@ -2121,9 +2120,9 @@ Un esempio è [StreetCyberArt](https://twitter.com/streetcyber_art), un bitcoine
 
 
 
-Se volete dedicarvi all'affissione stradale, assicuratevi di conoscere le leggi del vostro Paese. In Francia, ad esempio, i manifesti possono essere affissi solo su cartelloni pubblici. In altri luoghi è del tutto vietato e punibile con una multa.
+Se vuoi dedicarti all'affissione stradale, assicurati di conoscere le leggi del tuo Paese. In Francia, ad esempio, i manifesti possono essere affissi solo su cartelloni pubblici. In altri luoghi è del tutto vietato e punibile con una multa.
 
-Se decidete di oltrepassare i limiti e sperate di non essere colti "in flagrante", evitate di inserire nei manifesti informazioni identificative (come il nome dell'incontro o @Twitter).
+Se decidi di oltrepassare i limiti e speri di non essere colti "in flagrante", evita di inserire nei manifesti informazioni identificative (come il nome dell'incontro o @Twitter).
 
 
 Si noti inoltre che la stampa di questi manifesti con una stampante personale di solito provoca un'emorragia di inchiostro e un rapido deterioramento all'esterno. L'approccio migliore è quello di collaborare con uno stampatore professionista che possa produrre i manifesti su una speciale carta autoadesiva progettata per l'uso all'aperto, garantendo qualità e durata.
@@ -2137,7 +2136,7 @@ Si noti inoltre che la stampa di questi manifesti con una stampante personale di
 Questa iniziativa può avere un costo superiore a 0,40€ per manifesto (circa 40€ per un centinaio di manifesti) e i prezzi online possono variare dal doppio al quintuplo. I buoni contatti sono essenziali.
 
 
-Come già detto, il bitcoiner francese [@Mill3sim3](https://twitter.com/Mill3sim3) dispone dell'attrezzatura professionale adatta e può essere contattato per i dettagli.
+Come già detto, il Bitcoiner francese [@Mill3sim3](https://twitter.com/Mill3sim3) dispone dell'attrezzatura professionale adatta e può essere contattato per i dettagli.
 
 
 In alternativa, un'opzione più fai-da-te consiste nel creare uno stencil da un grande pezzo di cartone e utilizzare la vernice spray per applicare il disegno in punti selezionati della città.
@@ -2151,7 +2150,7 @@ In alternativa, un'opzione più fai-da-te consiste nel creare uno stencil da un 
 
 
 
-Un'altra idea originale del progetto è quella di creare carte NFC personalizzate per i pagamenti Lightning (compatibili con lo standard BoltCard). Per questo, Swiss Bitcoin Pay è un ottimo partner.
+Un'altra idea originale del progetto è quella di creare carte NFC personalizzate per i pagamenti Lightning (compatibili con lo standard BoltCard). In questo, Swiss Bitcoin Pay è un ottimo partner.
 
 
 [Il sito web (https://swiss-Bitcoin-pay.ch/cards) offre attualmente quattro modelli standard.

@@ -164,7 +164,7 @@ This platform, quickly dubbed the Amazon of drugs, was created by a 26-year-old 
 Born in 1984, Ross William Ulbricht grew up in Austin, Texas, where he spent an uneventful youth surrounded by a loving family. He was a boy scout for many years, which gave him a taste for outdoor activities such as hiking and camping, and for sports. A brilliant student, he was awarded a full scholarship to go to university, where he obtained a bachelor's degree in physics and a master's degree in materials science and engineering, specializing in crystallography.
 
 
-![Ross Ulbricht](assets/en/ross-ulbricht-tree.webp)
+![Ross Ulbricht](assets/en/001.webp)
 
 
 *Ross Ulbricht, at an undetermined date (source: FreeRoss.org)*
@@ -264,7 +264,7 @@ Silk Road draws the attention of Bitcoin users, and in particular agorists, who 
 Silk Road is a marketplace, meaning it acts as an intermediary between buyers and sellers, much like Amazon or eBay. A reputation system is in place to avoid scams. Exchanges are made in bitcoins, and in the early days bitcoin was used as the unit of account rather than the dollar. In addition, Silk Road uses an escrow system that enables the administrators (initially just Ross) to arbitrate in the event of a dispute between a seller and a buyer.
 
 
-![Capture d'écran de Silk Road](assets/en/silk-road-screenshot-gawker-2011.webp)
+![Capture d'écran de Silk Road](assets/en/002.webp)
 
 
 *Screenshot of Silk Road in May 2011 (source: [archive](https://web.archive.org/web/20110603015735/http://gawker.com/5805928/the-underground-website-where-you-can-buy-any-drug-imaginable) from Gawker)*
@@ -291,7 +291,7 @@ The existence of Silk Road has been known on the Bitcoin forum since its incepti
 The first mention of Silk Road in the mainstream media came on June 1, 2011, when an article by Adrien Chen was [published](https://www.gawkerarchives.com/the-underground-website-where-you-can-buy-any-drug-imag-30818160) on Gawker, a popular blog hosting multiple authors. The article, entitled "The Underground Website Where You Can Buy Any Drug Imaginable" (original: "Le site web souterrain où vous pouvez acheter n'importe quelle drogue imaginable"), presents the platform in a favorable light and includes testimonials from several satisfied users.
 
 
-![Article du 1er juin 2011 à propos de Silk Road](assets/en/gawker-silk-road-article-2011.webp)
+![Article du 1er juin 2011 à propos de Silk Road](assets/en/003.webp)
 
 
 *June 1, 2011 article about Silk Road (source: [archive](https://web.archive.org/web/20110603015735/http://gawker.com/5805928/the-underground-website-where-you-can-buy-any-drug-imaginable) from Gawker)*
@@ -388,7 +388,7 @@ Along with Silk Road, the platform was central to this part of Bitcoin's history
 Mark Karpelès was born in France in 1985. An only child, he was raised by his single mother. He quickly developed an interest in computers, video games and manga. By his twenties, he was a geek (https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/): in 2007, he even appeared in the French documentary *Suck my Geek*, dedicated to those passionate about fantasy, technology and computers. In 2009, keen to leave France where he had never really felt at home, he moved to Japan [in June 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) out of an attraction for the local culture. There, he founded Tibanne Co. Ltd (named after his cat, Tibane), through which he works on a freelance basis. In particular, he runs a hosting service called [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
 
 
-![Mark Karpelès dans Suck My Geek en 2007](assets/en/mark-karpeles-suck-my-geek-2007.webp)
+![Mark Karpelès dans Suck My Geek en 2007](assets/en/004.webp)
 
 
 *Mark Karpelès in Suck My Geek in 2007 (source: [MrReportageTV](https://www.youtube.com/watch?v=cAOLU4_4QGg) on Youtube)*
@@ -465,7 +465,7 @@ In the late spring of 2011, the first speculative bubble in the price of bitcoin
 In April, following the publication of [the Forbes article](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), the price surpasses its former peak and reaches $3. Speculative enthusiasm continues in May, and the price rises to $10. Finally, the publication of the Gawker article completes the generalization of attention to Bitcoin and triggers the final speculative episode, with the price briefly reaching $32 on June 8.
 
 
-![L'évolution du prix du bitcoin sur Mt. Gox en 2011](assets/en/great-bubble-2011-bitcoincom.webp)
+![L'évolution du prix du bitcoin sur Mt. Gox en 2011](assets/en/005.webp)
 
 
 *The price of bitcoin on Mt. Gox in 2011 (source: Bitcoin Charts via [Bitcoin.com](https://news.bitcoin.com/look-bitcoin-bubble-will-next-one/))*
@@ -480,7 +480,7 @@ Managing this growth, however, is a nightmare: Mark receives countless emails an
 As time goes by, things improve. In June, Mark Karpelès hires an employee to help him, a certain Adam Turner, [whose](https://www.reddit.com/r/Bitcoin/comments/3fe92x/im_ashley_barr_aka_adam_turner_the_first_mtgox/) civilian name is Ashley Barr. He also decides to set up the company in an office in Tokyo's prestigious Cerulean Tower, a true mark of success.
 
 
-![Bureau de Mt. Gox en juin 2011](assets/en/mt-gox-office-june-2011.webp)
+![Bureau de Mt. Gox en juin 2011](assets/en/006.webp)
 
 
 *The Mt. Gox office in June 2011 (source: Mark Karpelès on [Twitter](https://twitter.com/MagicalTux/status/1310018500602130432))*
@@ -498,7 +498,7 @@ Apart from Bitcoin Market (mentioned in HIS201), the first platform to really co
 A second platform is Britcoin, which was [launched](https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) on March 26 by Amir Taaki (aka Genjix), the young British developer of Iranian origin who wanted to send a letter to WikiLeaks in November 2010 recommending Bitcoin. As its name suggests, the platform is based in the UK and integrates the exchange between sterling and bitcoin. Like David François, Amir [publishes](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) the underlying software [under an open source license](https://github.com/dooglus/intersango/blob/master/LICENSE) (AGPL), which he christens "Intersango" (from the Esperanto *interŝanĝo* meaning exchange). Amir was soon [joined](https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php) by Donald Norman and Patrick Strateman (also known by the pseudonym Phantomcircuit) to manage the platform.
 
 
-![Patrick Strateman en 2016](assets/en/patrick-strateman-phantomcircuit-2016.webp)
+![Patrick Strateman en 2016](assets/en/007.webp)
 
 
 *Patrick Strateman in 2016 (source: [SF Bitcoin Developers](https://www.youtube.com/watch?v=Y6kibPzbrIc))*
@@ -507,7 +507,7 @@ A second platform is Britcoin, which was [launched](https://bitcointalk.org/inde
 In April, the three men founded [Bitcoin Consultancy](https://web.archive.org/web/20110513023005/http://bitcoinconsultancy.com/), an organization offering software development and technical consultancy. They are assisted by others such as Nils Schneider (Tcatm) and Denis Rojo (Jaromil). This entity also had influence, as it organized the first European conferences, in Prague and London. However, beneath its serious exterior lies a spirit influenced by *hacker* philosophy, as Amir Taaki's personality suggests.
 
 
-![Capture du site de la Bitcoin Consultancy du 13 mai 2011](assets/en/bitcoin-consultancy-screenshot-20110513.webp)
+![Capture du site de la Bitcoin Consultancy du 13 mai 2011](assets/en/008.webp)
 
 
 *Bitcoin Consultancy website, May 13, 2011 (source: [archive](https://web.archive.org/web/20110513023005/http://bitcoinconsultancy.com/))*
@@ -522,7 +522,7 @@ In Eastern Europe, the Bitomat platform, based in Poland, was [launched](https:/
 Another platform is VirWoX (*Virtual World Exchange*), based in Austria. Opened in 2007, it is a leading marketplace for the exchange of video game virtual currencies, including the Linden dollar from *Second Life*. On April 27, 2011, the site [adds](https://web.archive.org/web/20110511075334/https://www.virwox.com/) bitcoin to its offering, opening exchange only with the Linden Dollar, enabling its users to purchase Nakamoto's cryptocurrency.
 
 
-![Logo de TradeHill en 2011](assets/en/tradehill-logo-2011.webp)
+![Logo de TradeHill en 2011](assets/en/009.webp)
 
 
 Finally, the last marketplace to appear during this period is TradeHill, a platform founded by Jered Kenna, a former marine turned entrepreneur, and Adam Stradling, a financial technology consultant. It was launched on June 8, 2011 and [announced](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776) on the forum by Bruce Wagner, host of the *Bitcoin Show*, who works closely with the platform. TradeHill is based in the U.S. and facilitates exchange with the U.S. dollar, so that it quickly becomes the second-largest platform in terms of volume, far behind Mt. Gox, which remains the benchmark.
@@ -578,7 +578,7 @@ On June 21, to improve the situation and reassure customers, Mark Karpelès and 
 A final consequence of the Mt. Gox hack is the accelerated development of dual-factor authentication (*two-factor authentication*) as a means of accessing an account. This procedure generally adds to the simple password the need to enter information from a third-party device, such as a cell phone. As of July 7, Mt. Gox [proposes](https://bitcointalk.org/index.php?topic=26917.msg338630#msg338630) that its customers order dedicated YubiKeys, which are specialized USB keys that issue one-time passwords. These began to be distributed during the following week.
 
 
-![YubiKey dédiée à Mt. Gox](assets/en/yubikey-mtgox.webp)
+![YubiKey dédiée à Mt. Gox](assets/en/010.webp)
 
 
 *YubiKey dedicated to Mt. Gox (source: [Tech Solvency](https://www.techsolvency.com/mfa/security-keys/yubikeys/rare/))*
@@ -599,7 +599,7 @@ In the days following June 19, MyBitcoin suffered the consequences of the Mt. Go
 However, the application's setbacks didn't stop there. On July 29, MyBitcoin suddenly shut down. Nearly 78,740 bitcoins were missing from the application's wallet, an amount equivalent to over a million dollars at the time and corresponding to 51% of the funds in customers' accounts, forcing the service to refund the rest and disappear. Although MyBitcoin [claims](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) hacking (yet another one!), there is evidence [to suggest](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) that its manager, Tom Williams, was behind the theft.
 
 
-![Annonce de Tom Williams du 4 août 2011](assets/en/mybitcoin-20110804.webp)
+![Annonce de Tom Williams du 4 août 2011](assets/en/011.webp)
 
 
 *Tom Williams announcement of August 4, 2011 (source: [Bitcoin Wiki](https://en.bitcoin.it/wiki/MyBitcoin))*
@@ -681,7 +681,7 @@ Other libertarians, such as bloggers [Michael Suede](https://web.archive.org/web
 Among the first people to take an interest in Bitcoin within the libertarian sphere were Free Talk Live hosts Ian Freeman and Mark Edge. Free Talk Live is a libertarian free radio program that has been around since 2002, and is recorded in the town of Keene, New Hampshire. It is broadcast throughout the U.S. via the Genesis Communications Network (the same network used by *InfoWars* host Alex Jones). It is also available as a podcast on the Internet.
 
 
-![Ian Freeman et Mark Edge, les animateurs de Free Talk Live](assets/en/ian-freeman-mark-edge-decrypt.webp)
+![Ian Freeman et Mark Edge, les animateurs de Free Talk Live](assets/en/012.webp)
 
 
 *Ian Freeman and Mark Edge, hosts of Free Talk Live (source: Mark Edge for [Decrypt](https://decrypt.co/61894/fbi-raids-new-hampshire-bitcoin-operations-charges-radio-host))*
@@ -702,7 +702,7 @@ One of Free Talk Live's most loyal listeners is Roger Ver, and mentions of Bitco
 Roger Ver is a man of action. In 2000, he ran for the California State Assembly on the Libertarian Party ticket. However, his outspokenness didn't sit well with the authorities, and in 2002 he was arrested for selling unlicensed fireworks and jailed for 5 months. This traumatic experience prompted him to move to Japan, where he became a permanent resident. As of 2011, he lives in Tokyo.
 
 
-![Roger Ver à la convention Money2020 en octobre 2012](assets/en/roger-ver-money2020-oct-2012.webp)
+![Roger Ver à la convention Money2020 en octobre 2012](assets/en/013.webp)
 
 
 *Roger Ver at the Money2020 convention in October 2012 (source: [Digital Trends](https://web.archive.org/web/20121212165432/http://www.digitaltrends.com/cool-tech/the-future-of-money-its-not-in-your-hands/))*
@@ -719,7 +719,7 @@ He learned about Bitcoin in December 2010 via Free Talk Live and bought a few. H
 Following this experience, Roger Ver became involved in the community. On April 26, he [begins](https://bitcointalk.org/index.php?topic=4667.msg95746#msg95746) to accept bitcoin payments with his company MemoryDealers. On June 4, he uses a billboard at his disposal to promote Bitcoin and his company. The billboard can be seen from a busy highway in Sunnyvale, Silicon Valley, which [draws](https://www.instagram.com/p/FNIFl/) attention to Bitcoin at a time when speculative enthusiasm is at its peak.
 
 
-![Panneau publicitaire pour Bitcoin, juin 2011](assets/en/bitcoin-billboard-roger-ver-2011.webp)
+![Panneau publicitaire pour Bitcoin, juin 2011](assets/en/014.webp)
 
 
 *Billboard advertising Bitcoin in Sunnyvale (source: Roger Ver on [Bitcointalk](https://web.archive.org/web/20130524003126/https://bitcointalk.org/index.php?topic=7961.40))*
@@ -740,7 +740,7 @@ What's more, Roger is particularly optimistic about the cryptocurrency's stock m
 But Roger isn't the only fervent libertarian involved in Bitcoin; there's also Erik Voorhees. Born in 1984, Erik Voorhees grew up in Colorado. He is the son of Jacques Voorhees, who was CEO of diamond trading platform Polygon before selling it for $8.4 million in 2004. His father, also a libertarian, passed on to him a liberal and entrepreneurial streak. After graduating from the University of Puget-Sound with a degree in business administration and political economy, Erik lived in Dubai for a time, where he held the position of communications manager for a real estate company. He was particularly affected by the 2008 crisis, which prompted him to take an interest in the banking system and money.
 
 
-![Erik Voorhees au Colorado Renaissance Festival de Larkspur en juin 2007](assets/en/erik-voorhees-forbes-2007.webp)
+![Erik Voorhees au Colorado Renaissance Festival de Larkspur en juin 2007](assets/en/015.webp)
 
 
 *Erik Voorhees at the Colorado Renaissance Festival in Larkspur in June 2007 (source: [Forbes](https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/))*
@@ -763,7 +763,7 @@ In June, Erik Voorhees buys a large quantity of bitcoins at a time when the pric
 One of the people he meets at the conference is Ira Miller, aka Bearbones on the forum. The latter is a young developer originally from Illinois, now living in Denver, Colorado. Despite his rather technical profile, Ira Miller is also politically committed. Following in his family's footsteps, Ira Miller [was](https://isysd.medium.com/change-by-example-not-politics-or-money-e232c25d58a7) initially a social democrat (*liberal* in the American sense) and voted for Barack Obama in 2008. However, he was fundamentally disappointed by the Democratic camp's broken promises and anti-freedom policies. Also disliking the Republican camp, he turned to libertarianism, supporting Ron Paul in particular.
 
 
-![Ira Miller en novembre 2011](assets/en/ira-miller-bitcoin-show-2011.webp)
+![Ira Miller en novembre 2011](assets/en/016.webp)
 
 
 *Ira Miller in November 2011 (source: [Bitcoin Show](https://www.youtube.com/watch?v=VuLAhZsFc1A) on Youtube)*
@@ -781,7 +781,7 @@ The two men get on very well and their skills complement each other. In August, 
 As hinted at, these people have more or less close ties to the *Free State Project*. The *Free State Project* is a political migration movement, aimed at bringing libertarians together in one state in order to influence local government. It was [initiated](https://web.archive.org/web/20010727113202/http://www.webleyweb.com/tle/libe131-20010723-03.html) in July 2001 by Yale PhD student Jason Sorens, who lamented the failure of libertarian efforts at the polls and invited "libertarians of all stripes" to move to a small state. In 2003, the state of New Hampshire was chosen because of its individualist culture, its official motto being "*Live Free or Die*". People had to sign a declaration of intent, with a target of 20,000. This threshold will be reached in 2016, but the most motivated people are moving out in the meantime.
 
 
-![Panneau de bienvenue à l'entrée du New Hampshire en 2018](assets/en/new-hampshire-welcoming-sign-2018.webp)
+![Panneau de bienvenue à l'entrée du New Hampshire en 2018](assets/en/017.webp)
 
 
 *Welcome sign at the entrance to New Hampshire in 2018 (source: [New Hampshire Public Radio](https://www.nhpr.org/the-exchange/2018-02-28/its-tax-season-how-does-new-hampshires-complex-unique-tax-system-work))*
@@ -817,7 +817,7 @@ The movement needs to finance itself: the demonstrators [need](https://web.archi
 Thus, the multiple organizations within the movement decide to accept bitcoin, which they see as an anonymous digital currency and which has proved its worth by being accepted by WikiLeaks. The general assembly of protesters in New York [receives](https://web.archive.org/web/20111004195625/http://nycga.cc/donate/) donations as early as September 19, for a total of 686 BTC or over $3,000 at the time of receipt. \#FeedtheProtest [accepts](https://web.archive.org/web/20111004164350/http://feedtheprotest.com/node/223) also bitcoin from the 27th, in reaction to the closure of its account. For their part, Bitcoin community members [are interested](https://observer.com/2011/10/bitcoin-community-takes-an-interest-in-occupy-wall-street/) in *Occupy Wall Street*, as they too are opposed to the traditional financial world. They therefore promote the use of Bitcoin to the movement (even if it means going there, like [Matt Cropp](https://web.archive.org/web/20110929140153/http://btcbusiness.net/?q=node/22)) and also make a number of donations.
 
 
-![Le joueur de poker Prahlad Friedman manifestant à Occupy Los Angeles en novembre 2011](assets/en/bitcoin-sign-occupy-LA-prahlad-friedman-20111123-bryan-micon.webp)
+![Le joueur de poker Prahlad Friedman manifestant à Occupy Los Angeles en novembre 2011](assets/en/018.webp)
 
 
 *Poker player Prahlad Friedman protesting at Occupy Los Angeles in November 2011 (source: [Bryan Micon](https://twitter.com/BryanMicon/status/139154625638055936) on Twitter)*
@@ -861,7 +861,7 @@ On August 7, Timothy Lee, writer for tech news site Arstechnica and Bitcoin [ske
 In the meantime, other criticisms are emerging, more at the macroeconomic level. In September, James Surowiecki, an American journalist known for having published *The Wisdom of Crowds* (original: "La Sagesse des foules") in 2004, [published](https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/) an indictment of Bitcoin in the *MIT Technology Review*. He accuses the bitcoin limit of encouraging hoarding, which would prevent it from becoming an exchange intermediary, ultimately creating a situation where "the vast majority of bitcoins are held by people hoping to sell them to other people". On September 7, Paul Krugman, neo-Keynesian economist and winner of the 2008 Nobel Prize in Economics, [repeats](https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) this reasoning in an article published on the *New York Times* website, entitled "Golden Cyberfetters". The title is a reference to Barry Eichengreen's 1992 book *Golden Fetters*, which argued that the Great Depression of the 1930s was the consequence of the overly restrictive gold standard. In the article, Paul Krugman argues that "Bitcoin has created its own private model of the gold standard, in which the money supply is fixed" (original: "Bitcoin has created its own private gold standard world, in which the money supply is fixed rather than subject to increase via the printing press") and that the resulting deflation has meant that "the actual value of transactions in bitcoins has fallen rather than risen" and "the real gross product in bitcoins has fallen sharply" (original: "The actual value of transactions in Bitcoins has fallen rather than rising. In effect, real gross Bitcoin product has fallen sharply").
 
 
-![Le premier article de Paul Krugman sur Bitcoin](assets/en/krugman-golden-cyberfetters-2011.webp)
+![Le premier article de Paul Krugman sur Bitcoin](assets/en/019.webp)
 
 
 *Paul Krugman's first article on Bitcoin (source: [archive](https://web.archive.org/web/20110909021607/http://krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) from the New York Times)*
@@ -870,7 +870,7 @@ In the meantime, other criticisms are emerging, more at the macroeconomic level.
 On October 17, the price of BTC fell sharply below $3.2, representing a drop of more than 90% from the peak of the bubble, a fact not lost on [reminder](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/) Timothy Lee the following day. Still on Arstechnica, he describes the problems associated with cryptocurrency use, such as hacks and volatility. He doesn't put much stock in Bitcoin, as "five months of bad news and depreciation have done serious damage" to its reputation (original: "But the value of a currency is built on its reputation, and five months of bad news and depreciation have done serious damage"). In the same vein, an article in *The Economist* with the [title](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) "The bursting of the Bitcoin bubble" (original: "L'éclatement de la bulle du bitcoin") is published on October 21.
 
 
-![L'évolution du prix du bitcoin sur Mt. Gox entre juin et octobre 2011](assets/en/arstechnica-bitcoin-implodes-bitcoincharts-june-oct-2011.webp)
+![L'évolution du prix du bitcoin sur Mt. Gox entre juin et octobre 2011](assets/en/020.webp)
 
 
 *The price of bitcoin on Mt. Gox between June and October 2011 (source: Bitcoin Charts via [Arstechnica](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/))*
@@ -897,7 +897,7 @@ However, the Mt. Gox platform remains largely dominant. This poses a problem for
 This is the problem that a 23-year-old Welsh developer called Gareth Nelson (aka GarethNelsonUK on the forum) is trying to solve with an instant currency exchange service to be known as BitInstant. Gareth discovered Bitcoin during the spring. After becoming [interested](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) in mining, he [encountered](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) himself the difficulty of sending money to Mt. Gox, and carried out an over-the-counter exchange to obtain bitcoins.
 
 
-![Gareth Nelson vers 2011–2012](assets/en/gareth-nelson-bitinstant-2011.webp)
+![Gareth Nelson vers 2011–2012](assets/en/021.webp)
 
 
 *Gareth Nelson circa 2011-2012 (source: [archive](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus) from BitInstant.com)*
@@ -917,7 +917,7 @@ He knows he has the technical skills to put this idea into practice, but lacks t
 Charlie Shrem comes from a strict Syrian Orthodox Jewish family (https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/), and grew up in the Midwood neighborhood of Brooklyn. His father works for a jewelry retailer. Shy and awkward as a child, he took refuge in computers, taught himself to code and made a name for himself on hacker forums. During his high school and university years, he helped launch a number of businesses, including *Epiphany Design and Production*, a printer and computer repair service; and [Daily Checkout](https://web.archive.org/web/20110618225450/http://www.dailycheckout.com/), an e-commerce site for electronics founded in March 2009. It was then that he discovered his commercial flair.
 
 
-![Charlie Shrem en novembre 2011](assets/en/charlie-shrem-bitcoin-show-20111124-onlyonetv.webp)
+![Charlie Shrem en novembre 2011](assets/en/022.webp)
 
 
 *Charlie Shrem in November 2011 (source: [Bitcoin Show](https://www.youtube.com/watch?v=PxMazut6-0U) on Youtube)*
@@ -932,7 +932,7 @@ So when Gareth published his advert on June 13, Charlie was all ears. He contact
 They develop the service over the summer. On August 23, after a two-week [beta phase](https://bitcointalk.org/index.php?topic=36184.msg469342#msg469342), BitInstant [opens](https://bitcointalk.org/index.php?topic=38914.msg476106#msg476106) its doors to the general public. The company benefits from a partnership with foreign exchange platform TradeHill, enabling instant transfers to the latter using Liberty Reserve or Dwolla. On November 21, Mt. Gox is finally [added](https://bitcointalk.org/index.php?topic=52476.msg626239#msg626239) as an option to the service.
 
 
-![Capture du site de BitInstant, le 26 janvier 2012](assets/en/bitinstant-howitworks-2012.webp)
+![Capture du site de BitInstant, le 26 janvier 2012](assets/en/023.webp)
 
 
 *BitInstant website capture, January 26, 2012 (source: [archive](https://web.archive.org/web/20120126191036/https://bitinstant.com/) from Bitinstant.com)*
@@ -944,7 +944,7 @@ At the same time, Charlie Shrem promotes the startup as a co-founder. In August,
 In December, BitInstant [realizes](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) a round of financing from angel investors (or *business angels*). The most important of these was none other than Roger Ver, who acquired 15% of the company for $120,000 and quickly became its marketing director. Roger Ver advises Charlie Shrem to hire Erik Voorhees, who becomes the company's head of communications and marketing in February 2012. Ira Miller also joins the team as a developer. Although Charlie Shrem is not politically motivated as such, the association with these people will have the effect of altering his perception of politics.
 
 
-![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](assets/en/bitinstant-2012-02-brian-patrick-eha.webp)
+![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](assets/en/024.webp)
 
 
 *Erik Voorhees, Charlie Shrem and Ira Miller at BitInstant's offices in February 2012 (source: Brian Patrick Eha for [Fortune](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/))*
@@ -953,7 +953,7 @@ In December, BitInstant [realizes](https://observer.com/2011/12/brooklyn-based-b
 At the start of 2012, BitInstant diversified its money transfer methods to interact with the main platforms in the ecosystem, notably adding cash deposit to its offering, and began to become popular. On January 2, the volume transferred since opening [is](https://bitcointalk.org/index.php?topic=56392.msg671272#msg671272) $1.2 million, which is a good start. In a sign of good business health, a new interface [goes live](https://bitcointalk.org/index.php?topic=74624.msg826565#msg826565) at the end of March.
 
 
-![Interface de BitInstant en juin 2012](assets/en/bitinstant-screenshot-20120630.webp)
+![Interface de BitInstant en juin 2012](assets/en/025.webp)
 
 
 *Interface from BitInstant in June 2012 (source: [archive](https://web.archive.org/web/20120630110945/https://www.bitinstant.com/) from Bitinstant.com)*
@@ -968,7 +968,7 @@ At the end of summer 2011, existing exchange platforms only offered ways of exch
 Bitcoinica was [launched](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) on September 8, 2011 by a 17-year-old Chinese boy called Zhou Tong, whose real name is Ryan Tong Zhou. He is a gifted student in Singapore. He is inspired by personal development, having read Robert Kiyosaki's *Rich Father, Poor Father* and taken an interest in the lives of successful entrepreneurs such as Tony Hsieh (of Zappos) and Steve Jobs (of Apple). He also has a background in web development.
 
 
-![Zhou Tong en janvier 2010](assets/en/zhou-tong-flickr-20100130.webp)
+![Zhou Tong en janvier 2010](assets/en/026.webp)
 
 
 *Zhou Tong in January 2010 (source: Zhou Tong on [Flickr](https://www.flickr.com/photos/zhoutong/4359164894/))*
@@ -980,7 +980,7 @@ He [heard](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) ab
 It presents Bitcoinica as an "advanced bitcoin trading platform" (original: "Advanced Bitcoin Trading Platform"), which is "elegant", "professional" and "revolutionary" (original: "Elegant. Professional. Revolutionary."). The platform does not initially manage wallets, bitcoins being held in a dedicated account on Mt. Gox account. Deposits and withdrawals are made in bitcoins, by redeemable Mt. Gox codes or by international bank transfer.
 
 
-![Interface de Bitcoinica en février 2012](assets/en/bitcoinica-screenshot-201202.webp)
+![Interface de Bitcoinica en février 2012](assets/en/027.webp)
 
 
 *Interface from Bitcoinica in February 2012 (source: [archive](https://web.archive.org/web/20120209171119/http://bitcoinica.com/) from Bitcoinica.com)*
@@ -1004,7 +1004,7 @@ In 2011, Bitcoin's lack of need for authorization led community members to imagi
 One of the individuals involved in this movement is James McCarthy, who uses the pseudonym Nefario on the Bitcoin forum, in reference to the character of the same name in the animated film *Moi, moche et méchant*. Nefario is an Irishman living in China, with a job as an English professor at a university. He is interested in the Austrian school and the ideas of the cypherpunks, [declaring](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) himself to be "something of a cypherpunk". He [discovered](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) the existence of Bitcoin during 2010 and mined over a thousand of them. He then got involved in several projects, including the Bitcoin Weekly online magazine project.
 
 
-![James McCarthy (Nefario) en février 2012](assets/en/nefario-tedxleeds-feb-2012.webp)
+![James McCarthy (Nefario) en février 2012](assets/en/028.webp)
 
 
 *James McCarthy (Nefario) in February 2012 (source: [archive](https://web.archive.org/web/20121008033716/https://www.tedxleeds.com/nefario-james-mccarthy/) from TEDxLeeds)*
@@ -1013,7 +1013,7 @@ One of the individuals involved in this movement is James McCarthy, who uses the
 In April 2011, James [launches](https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943) GLBSE (pronounced glib-zee), an acronym for *GLobal Bitcoin Stock Exchange*. Users interact with the platform's server via a command-line interface. The client is a modified version of software developed by Amir Taaki. According to the website, the platform [allows](https://web.archive.org/web/20110427033244/http://glbse.com/) "issue shares to raise capital; pay dividends to shareholders; submit resolutions to shareholders and obtain their vote; issue and sell bonds; borrow and lend on the market; make and receive loan repayments; issue futures contracts; meta-trade in unlisted companies (on other exchanges); and exchange all of the above with other traders on the market" (original: "Issue shares to raise capital; Pay dividends to shareholders; Put resolutions to shareholders and get their vote; Issue and sell bonds; Borrow and lend to the market; Make and recieve \[sic\] loan repayments; Issue futures contracts; Meta-trade on non listed companies (on other exchanges); And trade all of the above with other traders on the market").
 
 
-![Capture du site web de GLBSE, le 17 août 2011](assets/en/glbse-20110817.webp)
+![Capture du site web de GLBSE, le 17 août 2011](assets/en/029.webp)
 
 
 *GLBSE website, August 17, 2011 (source: [archive](https://web.archive.org/web/20110817072049/http://glbse.com/))*
@@ -1031,7 +1031,7 @@ Despite this, GLBSE continues to operate. By early autumn, some 30 assets are [a
 Another such project to emerge some time later is MPEx, the creation of a highly controversial figure by the name of Mircea Popescu. Romanian, originally from Transylvania, he is a prolific writer on his blog [Trilema](http://trilema.com/archives-categories/): he writes on all subjects (philosophy, politics, sexuality), in a deliberately provocative style, initially in Romanian. He became interested in Bitcoin in the summer of 2011 and began to [talk](http://trilema.com/2011/ce-este-bitcoin/) about it on his blog.
 
 
-![Mircea Popescu, date indéterminée](assets/en/mircea-popescu-wired-2014-bitcoin-baron.webp)
+![Mircea Popescu, date indéterminée](assets/en/030.webp)
 
 
 *Mircea Popescu, undetermined date (source: Mircea Popescu for [Wired](https://web.archive.org/web/20140405150603/https://www.wired.com/2014/01/openbsd/))*
@@ -1043,7 +1043,7 @@ In August, Mircea [opens](https://bitcointalk.org/index.php?topic=15672.msg44436
 At the end of February 2012, he proceeds with a [fundraising](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) by issuing shares and bonds, raising over 3,200 bitcoins, or around $16,000 at the time. On April 11, after a beta phase, the platform [finally becomes](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) a bitcoin exchange for issuing and exchanging various shares, and is renamed MPEx (for "Mircea Popescu's Exchange").
 
 
-![Capture de MPEx, août 2012](assets/en/mpex-20120829.webp)
+![Capture de MPEx, août 2012](assets/en/031.webp)
 
 
 *Capture of MPEx, August 2012 (source: [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php) from Polymedia.us)*
@@ -1091,7 +1091,7 @@ In this chapter, we will study the different ways of using Bitcoin that emerged 
 In 2011, the most popular custodian application, after the infamous MyBitcoin, is Instawallet. It's an easy-to-use web application [launched](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) on April 29, 2011 by Jan Vornberger, aka Jav, a young German developer. It's a custodial service: the funds are held "server-side", meaning that Jav manages them. It requires no registration; access is via a URL, such as `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, which is generated during the first interaction with the service and saved in the web browser. Users are assigned a Bitcoin address, enabling them to send and receive funds. Transfers between Instawallet users are processed internally and are therefore instantaneous. What's more, from the end of July, the service [integrates](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) a certification process (called "green address") enabling proof to other market players that a transaction issued originates from Instawallet, to ensure that it is processed more quickly, as part of a relationship of trust.
 
 
-![Interface d'Instawallet en juin 2012](assets/en/instawallet-screenshot-bitcoinmagazine-june-2012.webp)
+![Interface d'Instawallet en juin 2012](assets/en/032.webp)
 
 
 *Instawallet's Interface in June 2012 (source: [Bitcoin Magazine](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
@@ -1106,7 +1106,7 @@ Paymium SAS is a French company [founded](https://web.archive.org/web/2011112023
 In early 2012, Paymium developed its own Custodial app: Paytunia. The Paytunia app is described as "a groundbreaking application based on the open source Bitcoin protocol for secure, easy, online payments and money transfers" (original: "Paytunia is a groundbreaking application based on the open source Bitcoin protocol for secure, easy, online payments and money transfers"). It was [launched](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) in April 2012 on Android. Users of Bitcoin-Central (the money exchange platform run by David François) [can](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) also access it with their existing account, as both services use the same system in the background. As with Instawallet, transfers between Paytunia users [are](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948) instantaneous.
 
 
-![Interface (en français) de l'application Paytunia en novembre 2012](assets/en/paytunia-fr-eenewseurope-nov-2012.webp)
+![Interface (en français) de l'application Paytunia en novembre 2012](assets/en/033.webp)
 
 
 *Interface (in French) from the Paytunia application in November 2012 (source: [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))*
@@ -1135,7 +1135,7 @@ Mike Hearn's software implementation is BitCoinJ. This is an implementation of S
 The rewriting of the Bitcoin protocol doesn't stop there. In July 2011, after the departure of Satoshi, Bitcoin Consultancy members Amir Taaki and Patrick Strateman [launched](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, a C++ implementation aiming for the highest possible extensibility, scalability and configurability. Their aim is to "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable". The code is published under an open copyleft license (AGPL), which obliges those who reuse the software to publish their work under the same license.
 
 
-![Logo de Libbitcoin en septembre 2013](assets/en/libbitcoin-logo-sept-2013.webp)
+![Logo de Libbitcoin en septembre 2013](assets/en/034.webp)
 
 
 *Libbitcoin logo in September 2013 (source: [archive](https://web.archive.org/web/20130913065137/http://libbitcoin.dyne.org/) from Libbitcoin.dyne.org)*
@@ -1153,7 +1153,7 @@ The problem with full implementations is that they are resource-intensive and im
 The first idea is to use a node as a remote server, in which the user has complete trust. In February 2011, Amir Taaki [launched](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) a software client for managing a wallet locally by connecting to an existing node called Spesmilo. The client initially ran on Linux, but was soon ported to Windows. The name is a reference to spesmilo, the ancient international currency unit proposed by Swiss mathematician René de Saussure (the brother of linguist Ferdinand) in 1907, as part of the Esperanto project.
 
 
-![Interface de Spesmilo en février 2011](assets/en/spesmilo-english-screenshot-20110214.webp)
+![Interface de Spesmilo en février 2011](assets/en/035.webp)
 
 
 *Interface from Spesmilo in February 2011 (source: [Bitcoin Wiki](https://en.bitcoin.it/w/index.php?title=Spesmilo&oldid=8271))*
@@ -1162,7 +1162,7 @@ The first idea is to use a node as a remote server, in which the user has comple
 Amir [is](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) an Esperanto speaker himself and has been translating the software into Esperanto from day one. He is joined by developer Luke-Jr, who helps him maintain the software. The latter [adds](https://gitlab.com/bitcoin/spesmilo/-/commit/b889211e98111b243de2b11fe88caf91d069b2a5) to the program the [tonal numeration](https://en.bitcoin.it/wiki/Tonal_Bitcoin) system, a hexadecimal system proposed by John W. Nystrom in the 19th century, where the unit "bitcoin" equals 65,536 satoshis. The Spesmilo project was abandoned in November 2011, however, in favor of a far more ambitious project (presented below): Electrum.
 
 
-![Andreas Schildbach à la conférence re:publica à Berlin en mai 2016](assets/en/andreas-schildbach-rpen-may-2016-twitter-holger-bleich.webp)
+![Andreas Schildbach à la conférence re:publica à Berlin en mai 2016](assets/en/036.webp)
 
 
 *Andreas Schildbach at the re:publica conference in Berlin in May 2016 (source: Holger Bleich on [Twitter](https://twitter.com/_robinhob/status/727167827132727300))*
@@ -1171,7 +1171,7 @@ Amir [is](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) an Esp
 The other, more convenient idea is to use simplified payment verification (SPV), which allows transactions to be verified as belonging to the blockchain without having to download the entire data set. On March 11, 2011, a few days after the release of BitCoinJ, a Berlin-based developer by the name of Andreas Schildbach, aka Goonie on the forum, [unveiled](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) the prototype of a wallet for phones running Android, based on Mike Hearn's implementation. Soberly named *Bitcoin Wallet for Android*, this becomes the first working model of a lightweight wallet on mobile.
 
 
-![Interface du Bitcoin Wallet for Android en juillet 2011](assets/en/bitcoin-wallet-android-july-2011.webp)
+![Interface du Bitcoin Wallet for Android en juillet 2011](assets/en/037.webp)
 
 
 *Interface from Bitcoin Wallet for Android in July 2011 (source: Brandon Iles for [Wired](https://web.archive.org/web/20110710020745/https://www.wired.com/gadgetlab/2011/07/bitcoin-android-app/))*
@@ -1189,7 +1189,7 @@ The effort to improve the use of Bitcoin has also led to the appearance of deter
 Deterministic wallets are largely the brainchild of American developer Gregory Maxwell. A supporter of free software, he has been a [contributor](https://commons.wikimedia.org/wiki/User:Gmaxwell) to Wikipedia since 2004 and works for the Xiph.org foundation, where he is involved in the development of the Opus audio codec. In May 2011, he began to get involved with Bitcoin, and [tried his hand](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) at mining. He also writes a lot and quickly becomes very active on the forum and on the IRC channel \#bitcoin-dev, where he uses the pseudonym Gmaxwell.
 
 
-![Gregory Maxwell en 2006](assets/en/gmaxwell-boat-2006-wikimedia.webp)
+![Gregory Maxwell en 2006](assets/en/038.webp)
 
 
 *Gregory Maxwell in 2006 (source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
@@ -1220,7 +1220,7 @@ Other software wallets appear during 2011. During the summer, a Danish developer
 A few months later, this interface was used to create a lightweight wallet called BitcoinSpinner, available on Google Play. This is [announced](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) by Jan on November 23. It is officially managed by the Danish company Miracle A/S, which Jan [joins](https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264) at the end of December.
 
 
-![Interface de BitcoinSpinner en juin 2012](assets/en/bitcoinspinner-june-2012.webp)
+![Interface de BitcoinSpinner en juin 2012](assets/en/039.webp)
 
 
 *Interface from BitcoinSpinner in June 2012 (source: [Bitcoin Magazine](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))*
@@ -1235,7 +1235,7 @@ These shortcomings particularly bothered Frenchman Thomas Voegtlin, who was a co
 The result is Electrum, which [comes out](https://bitcointalk.org/index.php?topic=50936.msg607510#msg607510) on November 5. Its name refers to electrum, a natural alloy of gold and silver, which was used to mint the first coins in Lydia and Greece.
 
 
-![Thomas Voegtlin en 2006](assets/en/thomas-voegtlin-loria-2006.webp)
+![Thomas Voegtlin en 2006](assets/en/040.webp)
 
 
 *Thomas Voegtlin in 2006 (source: [archive](https://web.archive.org/web/20060516200739/http://www.loria.fr/%7Evoegtlin/) from his personal page)*
@@ -1244,7 +1244,7 @@ The result is Electrum, which [comes out](https://bitcointalk.org/index.php?topi
 The client connects to a network of special servers to retrieve the transactions. The servers run the software (bitcoind) and index all transactions using the ABE block explorer code. In this wallet, the seed takes the form of a hexadecimal character string. As of November 10, it [is](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) also represented as a 12-word mnemonic phrase. Each word is chosen from a predefined list, allowing information bits to be represented. This type of sentence will be standardized by BIP 39, [draft](https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) in 2013.
 
 
-![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/electrum-seed-mnemonic-2012.webp)
+![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/041.webp)
 
 
 *Electrum seed and mnemonic phrase in 2012 (source: [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html) from the Electrum website)*
@@ -1256,7 +1256,7 @@ On December 16, Electrum [integrates](https://bitcointalk.org/index.php?topic=50
 A third advanced wallet [comes out](https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650) in early 2012: Armory. This software was developed from July 2011 by American engineer Alan Reiner, who goes by the forum name Etotheipi (in reference to Euler's mathematical identity). It [initially](https://github.com/etotheipi/BitcoinArmory/blob/d68259dcf4116473d82458770e5ad73b95238797/README) takes the form of a Python software library called PyBtcEngine, before becoming a full-fledged client in November.
 
 
-![Interface du portefeuille Armory en janvier 2012](assets/en/armory-main-window-jan-2012-bitcoinarmory-com.webp)
+![Interface du portefeuille Armory en janvier 2012](assets/en/042.webp)
 
 
 *Interface from the Armory wallet in January 2012 (source: [archive](https://web.archive.org/web/20120225130943/http://bitcoinarmory.com/) from the Armory website)*
@@ -1286,7 +1286,7 @@ The first developer to exploit this library was a forum member calling himself D
 The BitcoinJS library is also [used](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) by Benjamin Reeves, a young British developer living in York, known on the forum as Piuk. Very much a recluse, he's also a workaholic. In August, he [develops](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) a block explorer that "Includes orphaned blocks which can be used to track possible double spends" and "Estimates the actual volume of BTC transacted (not just BTC sent)", which he hosts on his personal website. It competes with Theymos' Bitcoin Block Explorer (BBE), and with [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), an open-source alternative intended to be hosted by users. In October, the site [obtains](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) its own domain name: Blockchain.info. It quickly becomes the preferred explorer for community members.
 
 
-![Ben Reeves dans les locaux de Y Combinator à San Francisco en avril 2012](assets/en/ben-reeves-y-combinator-april-2012-imgur.webp)
+![Ben Reeves dans les locaux de Y Combinator à San Francisco en avril 2012](assets/en/043.webp)
 
 
 *Ben Reeves at the Y Combinator offices in San Francisco in April 2012 (source: [Imgur](https://imgur.com/U5iUy))*
@@ -1295,7 +1295,7 @@ The BitcoinJS library is also [used](https://web.archive.org/web/20180611012256/
 On December 1, Ben Reeves [integrates](http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) a wallet functionality to the platform. This feature, soberly named "My Wallet", is similar to StrongCoin: users access their wallet with a login and password; their private keys are encrypted and stored on the server. No commission is charged, however. What's more, the service benefits from the clarity of the block explorer, showing details of the transactions carried out.
 
 
-![Interface de My Wallet en décembre 2011](assets/en/blockchain-info-dec-2011-bitcointalk.webp)
+![Interface de My Wallet en décembre 2011](assets/en/044.webp)
 
 
 *Interface from My Wallet in December 2011 (source: [Bitcointalk](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140))*
@@ -1304,7 +1304,7 @@ On December 1, Ben Reeves [integrates](http://bitcointalk.org/index.php?topic=40
 The wallet's practicality makes it very popular. The service quickly attracts thousands of users, reaching [5,000](https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) open accounts in March 2012. Daily volume on the blockchain, which counts bitcoins moved by transactions issued from Blockchain.info (My Wallet and API) and exaggerates actual transfers, grows steadily. At the beginning of May, it exploded thanks to the activity generated by the online dice game SatoshiDICE, exceeding 18,000 bitcoins, or $90,000 at that point! By July, the total volume moved by Blockchain.info will be [estimated](https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/) at $13.6 million.
 
 
-![Volume journalier des transactions émises par Blockchain.info](assets/en/blockchain-info-my-wallet-transaction-volume-june-2012.webp)
+![Volume journalier des transactions émises par Blockchain.info](assets/en/045.webp)
 
 
 *Daily volume of transactions issued by Blockchain.info (source: [archive](https://web.archive.org/web/20120604084256/http://blockchain.info/charts/my-wallet-transaction-volume))*
@@ -1322,7 +1322,7 @@ Cold storage can be achieved by storing your private keys on a digital backup me
 A paper wallet can also be generated using a specific tool. This type of tool was launched in the summer of 2011. The main one is BitAddress, developed by a certain Pointbiz, which was [launched](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) in September. This is a Javascript-coded, browser-based tool. The interface invites the user to create entropy to optimize the generation of pseudo-random numbers. The resulting private key and address can then be printed out for safekeeping. It can of course (and is recommended!) be used without an Internet connection, by saving the HTML page.
 
 
-![Portefeuille papier généré avec BitAddress en septembre 2011](assets/en/bitaddress-paper-wallet-20110922.webp)
+![Portefeuille papier généré avec BitAddress en septembre 2011](assets/en/046.webp)
 
 
 *Paper wallet generated with BitAddress in September 2011 (source: [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) from BitAddress.org)*
@@ -1343,7 +1343,7 @@ Another possibility for cold storage is the physical storage of private key, whi
 The first objects of this type are Bitbills, [launched](https://bitcointalk.org/index.php?topic=7724.msg112655#msg112655) by Doug Feigelson (aka Llama) in May 2011, which are plastic cards with QR codes representing the address and private key respectively. The private key is covered by a sticker, so that it cannot be read without showing signs of tampering. The card is fitted with holograms to prevent counterfeiting. Bitbills are, according to their designer, "the first physical incarnation of bitcoins". They [form](https://web.archive.org/web/20110511215306/http://bitbills.com/) a good way of "transferring bitcoins in person, just like cash!" (original: "With Bitbills you can transfer bitcoins in person, just like cash!").
 
 
-![Bitbills mis aux enchères par Charlie Lee en avril 2013](assets/en/bitbills-auctioned-by-coblee-april-2013.webp)
+![Bitbills mis aux enchères par Charlie Lee en avril 2013](assets/en/047.webp)
 
 
 *Bitbills auctioned by Charlie Lee in April 2013 (source: Inversor Inteligente on [Substack](https://inversorinteligente.substack.com/p/casascius-monedas-fisicas-de-bitcoin))*
@@ -1361,7 +1361,7 @@ Bitbills met with some success, but Doug Feigelson struggled to keep up with dem
 Mike Caldwell is a 33-year-old American developer who lives in the suburbs of Salt Lake City, Utah, and runs a business automation company called [Swipeclock](https://www.linkedin.com/company/swipeclock/). His pseudonym, Casascius, is a Latinized form of CASAS, the initials of the saying *call a spade a spade*. A rationalist, he is fascinated by cryptography and is attracted by the technical side of Bitcoin. He tries his hand at mining for a while.
 
 
-![Mike Caldwell en 2013](assets/en/mike-caldwell-casascius-2013-imdb.webp)
+![Mike Caldwell en 2013](assets/en/048.webp)
 
 
 *Mike Caldwell, aka Casascius, in 2013 (source: [IMDb](https://www.imdb.com/fr/name/nm5669287/))*
@@ -1373,7 +1373,7 @@ Casascius is particularly interested in bitcoin storage, and therefore wallets. 
 On August 19, Casascius [share](https://bitcointalk.org/index.php?topic=38048.msg467209#msg467209) publicly announced his plan to manufacture "real physical representations of bitcoin". On September 6, he begins machining them. On September 6, he [announces](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883) the sale of "Casascius physical representations of bitcoin", more commonly known as "Casascius coins". The private key is covered by a personalized hologram, so that it cannot be recovered without damaging the coin. The first 8 characters of Bitcoin's public address are visible on the outside and pre-printed on the hologram by the manufacturer. Surprisingly, the first coins feature a typographical error: Casascius is spelled Casacius.
 
 
-![Les premiers bitcoins de Casascius en 2011](assets/en/casasciusphysicalbitcoins-2011.webp)
+![Les premiers bitcoins de Casascius en 2011](assets/en/049.webp)
 
 
 *Casascius' first bitcoins in 2011 (source: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
@@ -1414,7 +1414,7 @@ The second blender is Bitcoin Fog (the "bitcoin scrambler"), [created](https://w
 The third is of a special kind, as it's the blender built into Ben Reeves' Blockchain.info wallet. This service was [implemented](https://bitcointalk.org/index.php?topic=40264.msg1015499#msg1015499) in July 2012 as a feature called "Send Anonymously". The commission charged is 1.5%.
 
 
-![Illustration de la fonctionnalité Send Anonymously du portefeuille de Blockchain.info](assets/en/blockchain-info-send-anonymously-mixer-20120708.webp)
+![Illustration de la fonctionnalité Send Anonymously du portefeuille de Blockchain.info](assets/en/050.webp)
 
 
 *Illustration of the "Send Anonymously" functionality of the Blockchain.info wallet (source: [archive](https://web.archive.org/web/20120708011906/https://blockchain.info/wallet/send-anonymously))*
@@ -1455,7 +1455,7 @@ In this chapter, we'll analize the emergence of the various mining pools, which 
 With the widespread use of GPU mining and the record exchange rate growth between 2010 and 2011, the network's hash rate is rising exponentially. It increased by a factor of 1,000 in less than a year. From just 10 gigahashes per second (GH/s) in September 2010, it reached 100 GH/s in December, then 1 TH/s in May 2011 and exceeded 10 TH/s in June. It peaks at 15.8 TH/s before dropping precipitously, following the bursting of the great bubble in 2011. After bottoming out at 7 GH/s in December, it stabilizes between 10 and 15 GH/s in the first half of 2012.
 
 
-![Taux de hachage total du réseau entre avril 2011 et juillet 2012](assets/en/btc-hashrate-coinwarz-20110420-20110720.webp)
+![Taux de hachage total du réseau entre avril 2011 et juillet 2012](assets/en/051.webp)
 
 
 Total hash rate of the Bitcoin network between April 2011 and July 2012 (source: [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
@@ -1497,7 +1497,7 @@ Also in June (on the 13th), a certain Josh Zerlan (alias Inaba) opens the Eclips
 Other cooperatives will be able to make the most of the situation. One example is the American mining group BitMinter, [launched](https://bitcointalk.org/index.php?topic=22432.msg281686#msg281686) in June, which has the distinction of having its own mining software. Also worth mentioning is the Russian cooperative 50BTC.com, [created](https://bitcointalk.org/index.php?topic=54673.msg651025#msg651025) in December, which will provide an activity monitoring tool for miners called Mining Explorer.
 
 
-![L'outil Mining Explorer en mai 2012](assets/en/mining-explorer-50btc-may-2012.webp)
+![L'outil Mining Explorer en mai 2012](assets/en/052.webp)
 
 
 *The Mining Explorer tool in May 2012 (source: [archive](https://web.archive.org/web/20120609002559/http://miningexplorer.org/) from Miningexplorer.org)*
@@ -1515,7 +1515,7 @@ An original mining co-op is Eligius, which was opened by developer Luke-Jr in Ap
 Luke [learned](https://www.youtube.com/watch?v=3sXei0Iwf4Q) about Bitcoin on December 31, 2010 on IRC. In January 2011, he set up a hosting service, [Lightfoot Hosting](https://bitcointalk.org/index.php?topic=30.msg36268#msg36268), which accepts bitcoin. He also contributed to the Spesmilo software client as mentioned in the previous chapter.
 
 
-![Avatar utilisé par Luke-Jr à partir de 2013](assets/en/luke-jr-gravatar-2013.webp)
+![Avatar utilisé par Luke-Jr à partir de 2013](assets/en/053.webp)
 
 
 *Avatar used by Luke-Jr from 2013 (source: [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
@@ -1533,7 +1533,7 @@ Eligius also innovates with the practice of "coinbase signing", which consists i
 As of August 5, Luke-Jr uses this specific field to [add](https://ourbigbook.com/cirosantilli/cool-data-embedded-in-the-bitcoin-blockchain/prayer-wars) messages of a religious nature in the blocks generated by the cooperative. In keeping with the operator's traditionalist Catholic faith, these include prayers in Latin: the Divine Praises, the *Je vous salue Marie*, the *Salve Regina*, the *Notre Père*, the Prayer of the Heart, and so on. But there are also texts in English: the Acts of Contrition, Faith, Hope and Charity, the Confiteor, the prayer to the Guardian Angel, meditations from the Rosary of the Sacred Heart of Jesus, passages from the Gospel, commemorations of saints (such as that of Augustine of Hippo on August 28).
 
 
-![Louanges divines présentes dans les blocs minés par Eligius en août 2011](assets/en/eligius-coinbase-prayers-201108-blockchair.webp)
+![Louanges divines présentes dans les blocs minés par Eligius en août 2011](assets/en/054.webp)
 
 
 *Divine praises present in the blocks mined by Eligius in August 2011 (source: [Blockchair](https://blockchair.com/))*
@@ -1554,7 +1554,7 @@ As the number of cooperatives increases in 2011, the question of centralization 
 The transparent activity of public cooperatives (such as Deepbit, which [publishes](https://web.archive.org/web/20110602135526/http://deepbit.net/stats) its found blocks every day) makes it possible to estimate the proportion of their hash rate to the total power of the network. This makes it possible to generate sector graphs illustrating the distribution of cooperatives, such as [Bitcoin Watch](https://web.archive.org/web/20110401115146/http://www.bitcoinwatch.com/) (then [managed](https://bitcointalk.org/index.php?topic=5016.msg73505#msg73505) by Nils Schneider) or the block explorer [Blockchain.info](https://web.archive.org/web/20111018232813/http://blockchain.info/pools). This ensures that computing power is not centralized within a single cooperative.
 
 
-![Distribution du taux de hachage de Bitcoin le 6 juillet 2011](assets/en/hashrate-distribution-pie-20110706bitcoinwatch.webp)
+![Distribution du taux de hachage de Bitcoin le 6 juillet 2011](assets/en/055.webp)
 
 
 *Bitcoin hash rate distribution on July 6, 2011 (source: [archive](https://web.archive.org/web/20110706215910/http://www.bitcoinwatch.com/) from Bitcoin Watch)*
@@ -1563,7 +1563,7 @@ The transparent activity of public cooperatives (such as Deepbit, which [publish
 Even so, this is what happens at the beginning of July, when Tycho's cooperative Deepbit's share of the measured hash rate approaches 50% (in the short term). This domination provokes a reaction from some people on the forum [for whom](https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) "Bitcoin Security \[is\] nearly Breached". But this assertion is a little exaggerated: the more reasonable users, annoyed, point out [that](https://bitcointalk.org/index.php?topic=26630.msg333929#msg333929) the operator has no economic interest in attacking the network, that the impact of such an attack would be limited and [that](https://bitcointalk.org/index.php?topic=26630.msg334029#msg334029) participants are free to change service at any time, since "the pool operator does not control the hardware of the members of the pool". So there is a centralization problem, but it's not as serious as it seems.
 
 
-![Pourcentage de production des blocs, mesuré de façon journalière et hebdomadaire, entre 2011 et 2014](assets/en/organofcorti-mining-pools-network-blocks-daily-weekly-20112014.webp)
+![Pourcentage de production des blocs, mesuré de façon journalière et hebdomadaire, entre 2011 et 2014](assets/en/056.webp)
 
 
 *Percentage of block production, measured daily and weekly, between 2011 and 2014 (source: OrganOfCorti for the blog [Neighbourhood Pool Watch](https://organofcorti.blogspot.com/2014/06/166-fifty-percent-club.html))*
@@ -1578,7 +1578,7 @@ Deepbit's dominance peaks in the summer, with a measured share of computing powe
 One way to combat the centralization induced by the widespread use of cooperative mining is the decentralized P2Pool service. The latter was [created](https://bitcointalk.org/index.php?topic=61131.msg231927#msg231927) on June 17, 2011 by Forrest Voight, an 18-year-old Floridian developer, who uses the pseudonym ForrestV and has been frequenting IRC a lot [since March](https://buildingbitcoin.org/bitcoin-dev/log-2011-03-09.html). He presents P2Pool as a "Decentralized, DoS-resistant, Hop-Proof pool".
 
 
-![Forrest Voight vers 2011](assets/en/forrest-voight-circa-2011-forre-st.webp)
+![Forrest Voight vers 2011](assets/en/057.webp)
 
 
 *Forrest Voight circa 2011 (source: [archive](https://web.archive.org/web/20110816144339/https://forre.st/) from his personal website)*
@@ -1587,7 +1587,7 @@ One way to combat the centralization induced by the widespread use of cooperativ
 The model [relies](https://im.forre.st/pb/85341005.txt) on a "sharechain, which is maintained by participating miners connected peer-to-peer, similar to Bitcoin's blockchain. Each share contains the fingerprint of the previous share, which links the shares together and ensures the integrity of the whole. The difficulty (which is initially 600 times lower than the difficulty of the main network) is adjusted regularly to guarantee an average interval of 5 seconds. The remuneration method is payment according to the last N shares (PPLNS), made directly in the reward transaction, each time a block is found.
 
 
-![Visualisation de la share chain](assets/en/p2pool-share-chain-gregory-maxwell-20120108.webp)
+![Visualisation de la share chain](assets/en/058.webp)
 
 
 *Sharechain visualization (source: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
@@ -1620,7 +1620,7 @@ The standard proposed by Slush is the Stratum mining protocol (or StratumMP). It
 This publication has prompted reactions from certain developers in the community, such as [Luke-Jr](https://bitcointalk.org/index.php?topic=108854.msg1183283#msg1183283) and [Gregory Maxwell](https://bitcointalk.org/index.php?topic=108854.msg1183301#msg1183301). In particular, Stratum is criticized for having been "developed-behind-closed-doors", and for competing with a standard that has been openly discussed for months and is already being deployed, namely GMP/GBT. Marek Palatinus [responds](https://bitcointalk.org/index.php?topic=108854.msg1183400#msg1183400) by writing that both solutions have their advantages and disadvantages, one being lighter and simpler than the other: he considers that "I see the difference between Stratum and GMP as Electrum client and Satoshi client".
 
 
-![Bande dessinée de XKCD partagée par Luke-Jr en réaction au développement du nouveau standard Stratum](assets/en/xkcd-standards-20110720.webp)
+![Bande dessinée de XKCD partagée par Luke-Jr en réaction au développement du nouveau standard Stratum](assets/en/059.webp)
 
 
 "How standards multiply": humorous comic strip shared by Luke-Jr in reaction to the development of the new Stratum standard (source: [XKCD](https://xkcd.com/927/))
@@ -1664,7 +1664,7 @@ In this chapter, we look back at this unique episode in Bitcoin's technical hist
 Following the release of version 0.4 of the software on September 23, which marks Gavin Andresen's takeover as main maintainer, development of the main Bitcoin implementation continues. In particular, a new graphical interface for the software appeared: Bitcoin-Qt, which was [developed](https://bitcointalk.org/index.php?topic=15276.msg203205#msg203205) by Wladimir van der Laan from June onwards. It is based on the Qt graphics framework, which replaces the wxWindows library originally used by Satoshi. The interface is [included](https://bitcointalk.org/index.php?topic=45742.msg545547#msg545547) in the main branch of the code on September 26 and [becomes](https://bitcointalk.org/index.php?topic=52480.msg626275#msg626275) the official graphical appearance of the software in version 0.5, released on November 21. From then on, the software is called Bitcoin-Qt/bitcoind, or even Bitcoin-Qt for short (bitcoind being the daemon).
 
 
-![Capture de Bitcoin-Qt 0.5.2 en février 2012](assets/en/bitcoin-qt-0-5-2-screenshot-2012-wikimedia.webp)
+![Capture de Bitcoin-Qt 0.5.2 en février 2012](assets/en/060.webp)
 
 
 *Capture of Bitcoin-Qt 0.5.2 in February 2012 (source: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
@@ -1673,7 +1673,7 @@ Following the release of version 0.4 of the software on September 23, which mark
 Gavin is still the project leader, but he is helped by several people. As of October 2011, Bitcoin's "titular" developers (i.e. those [listed](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) on Bitcoin.org) are Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik and Wladimir van der Laan. These programmers are supposed to represent Bitcoin on a technical level, and can be contacted by e-mail. They are maintainers, who [benefit](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) from write access to the GitHub repository. Gregory Maxwell [joined](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) in February 2012, and Nils Schneider stopped contributing in May of the same year. The resulting team of developers [will remain](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) in place until 2014.
 
 
-![The Gavinator, dessin de Gavin Andresen brûlant des billets réalisé par Shazow en avril 2011](assets/en/the-gavinator-shazow-20110426.webp)
+![The Gavinator, dessin de Gavin Andresen brûlant des billets réalisé par Shazow en avril 2011](assets/en/061.webp)
 
 
 *"The Gavinator": drawing of Gavin Andresen burning bills, made by Shazow in April 2011 (source: [archive](https://web.archive.org/web/20140426185712/https://bitcointalk.org/index.php?topic=5770.80) from BitcoinTalk)*
@@ -1728,7 +1728,7 @@ Following Gavin's message, Casascius [proposes](https://bitcointalk.org/index.ph
 The `OP_EVAL` operator is used to execute a script within a script. It is executed at the end of the locking script to assess the validity of the script supplied, whose hash is compared with the given fingerprint. This allows any script to be executed.
 
 
-![Fonctionnement technique de l'opérateur OP_EVAL](assets/en/bytecoin-opeval-20111002.webp)
+![Fonctionnement technique de l'opérateur OP_EVAL](assets/en/062.webp)
 
 
 *Technical operation of the `OP_EVAL` operator (source: ByteCoin on [BitcoinTalk](https://bitcointalk.org/index.php?topic=46538.msg553689#msg553689))*
@@ -1833,7 +1833,7 @@ However, this is not the opinion of Gavin Andresen, who chooses to settle the de
 Luke-Jr [creates](https://buildingbitcoin.org/bitcoin-dev/log-2012-01-30.html#l-2147) a page on the Bitcoin wiki listing developers' positions, following the suggestion of a certain Userjj. Gavin's rejection of CHV is categorical, and contrasts with the other technicians who approve of it or consider it better than nothing.
 
 
-![Avis des développeurs sur les différentes propositions, le 2 février 2012](assets/en/p2sh-votes-feb-2012.webp)
+![Avis des développeurs sur les différentes propositions, le 2 février 2012](assets/en/063.webp)
 
 
 *Developer opinions on the various proposals, February 2, 2012 (source: [Bitcoin.it](https://en.bitcoin.it/w/index.php?title=P2SH_Votes&oldid=23259))*
@@ -1858,7 +1858,7 @@ Another problem concerns the activation of the upgrade by mining pools. For the 
 At the time, computing power was divided among some [fifty](https://en.bitcoin.it/w/index.php?title=Comparison_of_mining_pools&oldid=21595) mining pools, but three stood out: DeepBit, BTC Guild and BitcoinCZ Mining (Slush's cooperative). In particular, DeepBit remains the dominant cooperative: at the start of 2012, it alone possessed around 30% of the network's computing power. The other two account for around 10-15%.
 
 
-![Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011](assets/en/blockchain-info-mining-pools-20111219.webp)
+![Proportion des blocs minés par les coopératives de minage durant la journée du 19 décembre 2011](assets/en/064.webp)
 
 
 *Proportion of blocks mined by mining pools during the day of December 19, 2011 (source: [Blockchain.info](https://web.archive.org/web/20111219124912/http://blockchain.info/pools))*
@@ -1976,7 +1976,7 @@ Meanwhile, an effort to implement BitDNS is being made in the Bitcoin community.
 This effort eventually led to the creation of a functional system separate from Bitcoin: Namecoin. The chain was [launched](https://bitcointalk.org/index.php?topic=6017.msg88356#msg88356) on April 19, 2011 by a certain Vincent Durham, who uses the pseudonym Vinced on the forum. The software is a modified version of Bitcoin. Namecoin is thus very similar to its big brother: units called namecoins are issued at each block by miners every 10 minutes on average, they are transferred by transactions that are included in the blocks, the monetary issue is halved every 4 years, etc. Domain names, which [will](https://bitcointalk.org/index.php?topic=6851.msg126500#msg126500) use the `.bit` extension, are special tokens that cannot be mixed together (Vitalik Buterin [will](https://ethereum.org/whitepaper/) named them "non-fungible assets" in 2014) and are moved with the units to be linked to an address. Names are created and renewed through a special type of transaction. Domains expire after 12,000 blocks, or around 83 days.
 
 
-![Noms réservés sur Namecoin le 13 juin 2011](assets/en/namecoin-block-explorer-names-20110613.webp)
+![Noms réservés sur Namecoin le 13 juin 2011](assets/en/065.webp)
 
 
 *Names reserved on Namecoin on June 13, 2011 (source: [capture](https://web.archive.org/web/20110613130957/http://explorer.dot-bit.org/) from Explorer.dot-bit.org)*
@@ -2018,7 +2018,7 @@ As a result of this proliferation, several bitcoin exchange services are appeari
 On the forum, due to the multiplication of threads concerning *altcoins*, a sub-section entitled "Alternate currencies" was created in September. A website, Allchains.info, is also [opened](https://bitcointalk.org/index.php?topic=41546.msg505943#msg505943) to list exchange rates, difficulty and hash rates of the various chains.
 
 
-![Taux de change entre les différentes cryptomonnaies alternatives en janvier 2012](assets/en/allchainsinfo-20120113.webp)
+![Taux de change entre les différentes cryptomonnaies alternatives en janvier 2012](assets/en/066.webp)
 
 
 *Exchange rates between different alternative cryptocurrencies in January 2012 (source: [capture](https://web.archive.org/web/20120113143526/http://allchains.info/) from Allchains.info)*
@@ -2042,7 +2042,7 @@ Like GeistGeld, Tenebrix uses a modified version of the MultiCoin software. The 
 Charlie Lee [is](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/) an American developer of Chinese origin, who was born in the Ivory Coast in 1977 and moved to the USA with his family at the age of 13. A studious student, he earned a master's degree in computer science at MIT. By 2011, he was living in Silicon Valley and working as a developer for Google, notably on ChromeOS. Skeptical of the Federal Reserve, he is enthusiastic about precious metals.
 
 
-![Charlie Lee en mars 2013](assets/en/charlie-lee-march-2013-bitcoin-conf.webp)
+![Charlie Lee en mars 2013](assets/en/067.webp)
 
 
 *Charlie Lee in March 2013 (source: [archive](https://web.archive.org/web/20130331071808/http://www.bitcoin2013.com/bitcoin-2013-panelists.html) from Bitcoin2013.com)*
@@ -2054,7 +2054,7 @@ Charlie discovered Bitcoin in June 2011 by [reading](https://twitter.com/satoshi
 However, he was not satisfied with the project. Fairbrix is based on the MultiCoin client, and suffers from numerous bugs. So Charlie decided to launch a new cryptocurrency, copying the Bitcoin source code. He [calls it](https://bitcointalk.org/index.php?topic=47417.msg564414#msg564414) Litecoin and presents it as "a lite version of Bitcoin". He hopes to make it "a coin that is silver to Bitcoin's gold".
 
 
-![Litecoin physique dit « de Lealana » vendu en 2013](assets/en/litecoin-lealana-wired-201308.webp)
+![Litecoin physique dit « de Lealana » vendu en 2013](assets/en/068.webp)
 
 
 *Physical Litecoin known as "Lealana's" sold in 2013 (source: [Wired](https://web.archive.org/web/20130831040759/http://www.wired.com/wiredenterprise/2013/08/litecoin/))*
@@ -2156,7 +2156,7 @@ This decision is contested by some, and the Silk Road administrator is accused o
 The captain's analogy appealed to Silk Road forum members, who were quick to use it both positively and negatively in their messages, so much so that Ross used it to forge a unique image for himself. A month later, he decided to change his name on the forum and in his official communications. Until then, Ross had presented himself under the pseudonym "Silk Road". His new name, unveiled on February 5, is Dread Pirate Roberts (often abbreviated to DPR). This is a reference to the film *The Princess Bride*, a 1987 comedy parody of medieval fairy tales, in which Roberts is portrayed as a bloodthirsty pirate. The film's revelation [is](https://www.youtube.com/watch?v=aHZGqBVBCRw) that the name "Dread Pirate Roberts" is only a title, and that the actual pirate inherited the title from the man who captured him, who himself had inherited the title from his predecessor, etc., the name being supposed to "inspire the necessary fear" in his enemies.
 
 
-![Le personnage de Dread Pirate Roberts dans The Princess Bride](assets/en/dread-pirate-roberts-princess-bride-1987.webp)
+![Le personnage de Dread Pirate Roberts dans The Princess Bride](assets/en/069.webp)
 
 
 *The character of Dread Pirate Roberts in [The Princess Bride](https://www.imdb.com/title/tt0093779/)*
@@ -2180,7 +2180,7 @@ Activity on the main platform is nonetheless flourishing, contrary to what membe
 Daily sales volume also doubled, rising from 8,000 BTC in March to 15,000 BTC in May, before appearing to fall back to 11,000 BTC in July. This is due to the fact that the price of bitcoin, which had stagnated at around $5 for months, began to rise again over the summer, topping $8 in July. The monthly volume corresponds to record sales of $1.9 million. By comparison, exchange volume on Mt. Gox amounted to almost 60,000 bitcoins at the same time.
 
 
-![Évolution du volume journalier de Silk Road (en BTC) entre mars et juillet 2012](assets/en/silk-road-daily-volume-2012-christin.webp)
+![Évolution du volume journalier de Silk Road (en BTC) entre mars et juillet 2012](assets/en/070.webp)
 
 
 *Silk Road daily volume (in BTC) between March and July 2012 (source: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
@@ -2189,7 +2189,7 @@ Daily sales volume also doubled, rising from 8,000 BTC in March to 15,000 BTC in
 As a result, Roberts' commissions are enormous. From $3,000 a day in March, they rise to over $6,000 a day in July. Over the period measured, they average $143,000, corresponding to an annual income of $1.7 million.
 
 
-![Évolution des commissions journalières générées par Silk Road (en dollars) entre mars et juillet 2012](assets/en/silk-road-commissions-2012-christin.webp)
+![Évolution des commissions journalières générées par Silk Road (en dollars) entre mars et juillet 2012](assets/en/071.webp)
 
 
 *Daily commissions generated by Silk Road (in dollars) between March and July 2012 (source: [Nicolas Christin](https://arxiv.org/pdf/1207.7139))*
@@ -2198,7 +2198,7 @@ As a result, Roberts' commissions are enormous. From $3,000 a day in March, they
 All this means that Silk Road occupies a prominent place in the economic activity carried out with cryptocurrency. An *a posteriori* study [will show](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/) that the proportion of activity to total activity on the Bitcoin chain oscillates between 10% and 20% throughout 2012. This proportion peaks in February, then again in September 2012, before rapidly dropping below 5%, to the benefit of other activities such as gambling, conventional trading and speculation.
 
 
-![Évolution de l'activité économique de Silk Road durant son existence entre janvier 2011 et octobre 2013](assets/en/silk-road-economic-volume-chainalysis.webp)
+![Évolution de l'activité économique de Silk Road durant son existence entre janvier 2011 et octobre 2013](assets/en/072.webp)
 
 
 *Evolution of Silk Road's economic activity during its existence between January 2011 and October 2013 (source: [Chainalysis](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/))*
@@ -2222,7 +2222,7 @@ One of the first large-scale services to offer cash deposits is BitInstant, run 
 The service was an instant hit: in five days, over $30,000 was [transferred](https://bitcointalk.org/index.php?topic=56392.msg671272#msg671272) in this way. In particular, it attracted a certain Robert Faiella, a Floridian plumber in his fifties, who [introduced himself](https://antilop.cc/sr/vendors/16af931d32.htm) under the pseudonym BTCKing. In December, he [opens](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Faiella%2C%20Robert%20M.%20and%20Charlie%20Shrem%20Complaint.pdf#page=10) a bitcoin resale service hosted on Silk Road, which operates BitInstant's cash deposit service. He supplies bitcoins directly to buyers and charges an additional fee for his work.
 
 
-![Robert M. Faiella, alias BTCKing, en septembre 2014](assets/en/robert-faiella-btcking-sept-2014-cbc-craig-ruttle.webp)
+![Robert M. Faiella, alias BTCKing, en septembre 2014](assets/en/073.webp)
 
 
 *Robert M. Faiella, aka BTCKing, in September 2014 (source: Craig Ruttle for [CBC](https://www.cbc.ca/news/science/robert-faiella-sentenced-to-4-years-for-enabling-silk-road-transactions-1.2921103))*
@@ -2251,7 +2251,7 @@ Cash deposits aren't the only way to exchange dollars and bitcoins; there are al
 Jeremias Kangas is a Finnish programmer and hacker in his early thirties. He runs the company [Kangas Bros. Innovations Oy](https://web.archive.org/web/20101030185646/http://kangasbros.fi/) with his younger brother, Nikolaus, with whom they publish a number of iPhone and web applications. He [heard](https://bensonsamuel.wordpress.com/2013/01/01/universal-bitcoin-exchange/) about Bitcoin in late 2010 through Hacker News, and was immediately fascinated by Nakamoto's model, which he [described](https://web.archive.org/web/20120517205800/http://blog.kangasbros.fi/?p=85) as "a great and crazy innovation" and "a revolutionary concept". In 2011, after a trip to India, he started working full-time on Bitcoin and developed several programs such as the software implementation [django-bitcoin](https://bitcointalk.org/index.php?topic=30448.msg382233#msg382233) or the Custodial application [Easywallet.org](https://bitcointalk.org/index.php?topic=75665.msg838319#msg838319). He also [develops](https://bitcointalk.org/index.php?topic=87553.msg1035076#msg1035076) the Acceptbit online payment processor with Stefan Thomas during a hackathon, a solution that takes advantage of Electrum's master public key functionality to generate new addresses without having to access the corresponding private key.
 
 
-![Jeremias Kangas vers 2012](assets/en/jeremias-kangas-2012.webp)
+![Jeremias Kangas vers 2012](assets/en/074.webp)
 
 
 *Jeremias Kangas circa 2012 (source: [Blogger](https://www.blogger.com/profile/12265387388248206585))*
@@ -2260,7 +2260,7 @@ Jeremias Kangas is a Finnish programmer and hacker in his early thirties. He run
 On May 22, he [remarks](https://bitcointalk.org/index.php?topic=82968.msg914432#msg914432) on the Bitcoin forum that "cash exchange sites already exist" but that "they suck", and that "when there isn't a good business model, you get crappy sites. When there isn't a good business model, you get crappy sites."). That's why he decided to develop his own matchmaking platform, with the help of his brother. The platform, called LocalBitcoins, was [launched](https://bitcointalk.org/index.php?topic=86012.msg946497#msg946497) on June 7. It is accompanied by a [guide](https://web.archive.org/web/20120616084213/https://localbitcoins.com/cash_exchange_howto), which explains how to become a cash changer.
 
 
-![Interface de LocalBitcoins en septembre 2012](assets/en/localbitcoins-screenshot-20120919.webp)
+![Interface de LocalBitcoins en septembre 2012](assets/en/075.webp)
 
 
 *Interface from LocalBitcoins in September 2012 (source: [archive](https://web.archive.org/web/20120919184133/https://localbitcoins.com/) from LocalBitcoins.com)*
@@ -2281,7 +2281,7 @@ While Silk Road traffic and cash exchange are flourishing, so is conventional tr
 We've also seen a number of large online stores flourish over the course of the year. Such is the case of Coinabul, a gold and silver sales service in the USA, opened in October 2011 by Jay Shore and Jon Holmquist. In just a few months, the platform attracted many customers, [exceeding](https://bitcoinmagazine.com/business/coinabul-celebrates-six-months-of-gold-1335646624) 6,000 bitcoins in monthly volume in April 2012 ($30,000 at that time), and [totaling](https://bitcoinmagazine.com/business/coinabul-celebrates-one-year-in-business-1350442160) a total volume of 120,000 bitcoins in October. Also worth mentioning is Bitmit.net, [dubbed](https://www.coindesk.com/markets/2013/10/28/bitmit-is-still-the-ebay-of-bitcoin-despite-setbacks) the "eBay of bitcoin", a marketplace allowing individuals to put items up for sale or auction, which was [launched](https://bitcointalk.org/index.php?topic=41592.msg506512#msg506512) in September 2011 by a German calling himself Tosaki.
 
 
-![Articles achetés en bitcoins par le groupe de chercheurs ayant réalisé l'étude « A Fistful of Bitcoin », prépubliée en août 2013](assets/en/items-bought-with-btc-20130821-meiklejohn-a-fistful-of-bitcoins.webp)
+![Articles achetés en bitcoins par le groupe de chercheurs ayant réalisé l'étude « A Fistful of Bitcoin », prépubliée en août 2013](assets/en/076.webp)
 
 
 *Articles purchased in bitcoins by the group of researchers who carried out the study "A Fistful of Bitcoin", prepublished in August 2013 (source: [Sarah Meiklejohn](https://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf))*
@@ -2317,7 +2317,7 @@ Tony Gallippi, aka [Tonygal](https://bitcointalk.org/index.php?action=profile;u=
 Together, they develop a payment processor called BitPay, which they initially spell Bit-Pay. Stephen takes care of the technical side and Tony of the business side. They [test](https://bitcointalk.org/index.php?topic=25375.msg315757#msg315757) the software in early July 2011, deploying it for the sale of STARE Magazine.
 
 
-![L'équipe de BitPay au CES de Las Vegas en janvier 2012, de gauche à droite : Stephanie, Tony Gallippi, Stephen Pair, Alison Skipper](assets/en/bitpay-team-stephanie-tony-steve-alison-2012-bitpay-com-about-us.webp)
+![L'équipe de BitPay au CES de Las Vegas en janvier 2012, de gauche à droite : Stephanie, Tony Gallippi, Stephen Pair, Alison Skipper](assets/en/077.webp)
 
 
 *The BitPay team at CES in Las Vegas in January 2012, from left to right: Stephanie, Tony Gallippi, Stephen Pair, Alison Skipper (source: [archive](https://web.archive.org/web/20120513020703/https://bit-pay.com/aboutUs.html) from the BitPay website)*
@@ -2326,7 +2326,7 @@ Together, they develop a payment processor called BitPay, which they initially s
 The principle behind BitPay is to give merchants the option of accepting payments in bitcoins and instantly converting them into dollars, so that they can hedge against volatility. The business model is thus the opposite of BitInstant: BitPay advances the dollars to their customers against a commission (processing fees are 1% in total), and takes care of selling the bitcoins later. The founders' aim is to [facilitate](https://bitcointalk.org/index.php?topic=25665.msg319196#msg319196) the use of Bitcoin as a means of payment to [counteract](https://bitcointalk.org/index.php?topic=36729.msg454397#msg454397) the oligopoly of the Visa and Mastercard networks. The advantages, [listed](https://web.archive.org/web/20120210233724/https://bit-pay.com/) in early 2012 on the company's website, are as follows: "NO RISK of Chargebacks or Indentity Theft. NO HASSLE of PCI Compliance. NO BORDERS Accept a payment from ANY country". Vitalik Buterin [considers](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii) that BitPay is "one of the most significant innovations for Bitcoin businesses".
 
 
-![Demande de paiement via BitPay en juillet 2011](assets/en/bitpay-invoice-20110727-bitcoin-show.webp)
+![Demande de paiement via BitPay en juillet 2011](assets/en/078.webp)
 
 
 *Payment request via BitPay in July 2011 (source: [Bitcoin Show](https://www.youtube.com/watch?v=UZAnM4FjTOg) on Youtube)*
@@ -2356,7 +2356,7 @@ Representatives from BitInstant [are present](https://web.archive.org/web/201207
 But most importantly, BitInstant members are manning a booth, called "*Bernanke's Bitcoin Exchange*", where they provide dollar exchange and teach the curious how to use Bitcoin. They show people how to easily accept and spend bitcoin using BitcoinSpinner, Blockchain.info or Instawallet. Over the course of the week, they sell $2,500 worth of bitcoins, and a few hundred dollars worth of Casascius Coins, of interest to numismatic enthusiasts.
 
 
-![Le stand de BitInstant au PorcFest le 21 juin 2012](assets/en/porcfest-2012-bitinstant-charlie-shrem-erik-voorhees-ira-miller-20120621.webp)
+![Le stand de BitInstant au PorcFest le 21 juin 2012](assets/en/079.webp)
 
 
 *The BitInstant booth at PorcFest on June 21, 2012 (source: Charlie Shrem on [Twitter](https://twitter.com/CharlieShrem/status/215824423616385025))*
@@ -2418,7 +2418,7 @@ Bitcoin fits the bill perfectly. Gambling was one of the possibilities envisaged
 A bitcoin-based online poker platform already exists: it's Betco.in, [launched](https://bitcointalk.org/index.php?topic=840.msg9795#msg9795) in August 2010 by Pavel Karoukin, a Belarusian developer then living in the USA and using the pseudonym Hippich. The interface is rudimentary, but functional.
 
 
-![Capture du client de Seals with Clubs en 2013](assets/en/betcoin-screenshot-20110623.webp)
+![Capture du client de Seals with Clubs en 2013](assets/en/080.webp)
 
 
 *Betco.in customer capture in 2011 (source: [Hippich](https://www.youtube.com/watch?v=N6SjCgOY61E) on Youtube)*
@@ -2430,7 +2430,7 @@ In 2011, with "Black Friday", platforms are multiplying: Moonco.in [opens](https
 The most emblematic platform [opens its doors](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) at the end of August: Seals with Clubs. It was launched by an anonymous developer, FreeMoney, who discovered Bitcoin during slashdotting in July 2010.
 
 
-![Capture du client de Seals with Clubs en 2013](assets/en/sealswithclubs-table-2013-thepokerbank.webp)
+![Capture du client de Seals with Clubs en 2013](assets/en/081.webp)
 
 
 *Customer capture from Seals with Clubs in 2013 (source: [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))*
@@ -2451,7 +2451,7 @@ But all these games rely on a centralized platform, and are not verifiable. That
 Fireduck, real name Joseph Gleason, is an American developer [age 30](http://fireduck.com/index-single.html). He became interested in Bitcoin in the summer of 2011, after which he started frequenting the Bitcoin subforum on Reddit (r/Bitcoin). In addition, he invested himself in developing a few software tools: he [programmed](https://www.reddit.com/r/Bitcoin/comments/im5h6/using_bitcoin_for_crypto_timestamping_hashes_not/) a timestamping tool, [deployed](https://www.reddit.com/r/Namecoin/comments/iw8cd/unable_to_download_blocks/) a node for Namecoin and [launched](https://www.reddit.com/r/Bitcoin/comments/j6ahv/buy_bitcoins_via_google_checkout/) a rudimentary exchange service compatible with the short-lived Google Checkout online payment system.
 
 
-![Joseph Gleason, alias Fireduck, en février 2014](assets/en/joseph-gleason-fireduck-20140228-032402-twitter.webp)
+![Joseph Gleason, alias Fireduck, en février 2014](assets/en/082.webp)
 
 
 *Joseph Gleason, aka Fireduck, in February 2014 (source: Fireduck1209k on [Twitter](https://twitter.com/Fireduck1209k))*
@@ -2463,7 +2463,7 @@ In 2012, Fireduck found a way to make betting money auditable in a decentralized
 The game takes the form of a dice game. A draw is made for each transaction, and the result lies between 0 and 65,536. This "lucky number" is [obtained](https://web.archive.org/web/20120507154620/http://satoshidice.com/secrets.php) by selecting the first two bytes of the digest (calculated by HMAC-SHA-512) of secret information and the identifier of the incoming transaction. If this number is strictly less than a target linked to the address (32,768 for the address multiplying the stake by two), then the draw is a winner and the person receives the expected amount. If it's higher, then the person receives a small fraction of the amount, to confirm that the system has worked. Each bet therefore generates two transactions added to the chain.
 
 
-![Quelques paris réalisés le 18 avril 2012](assets/en/fireduck-1209k-casino-bets-20120418.webp)
+![Quelques paris réalisés le 18 avril 2012](assets/en/083.webp)
 
 
 *Some bets made on April 18, 2012 (source: [archive](https://web.archive.org/web/20120419202740/http://1209k.com/bitcasino) from 1209k.com)*
@@ -2478,7 +2478,7 @@ Operation is simple (all you need is a wallet to play), instantaneous (for small
 The opportunity was seized almost immediately by Erik Voorhees, who, as a staunch libertarian, has no qualms about defying regulations. After discussions with Fireduck in the comments and privately, he acquires the concept [for](https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/) 40 bitcoins, or around $200 at the time of exchange. The next day, the platform is [operational](https://www.reddit.com/r/Bitcoin/comments/segz0/comment/c4dwi5q/) on a new site: Satoshidice.com. On April 24, after a minor graphic overhaul, Erik [announces](https://bitcointalk.org/index.php?topic=77870.msg865877#msg865877) the launch of the platform on the Bitcoin forum.
 
 
-![Logo de SatoshiDICE](assets/en/satoshidice-logo-2012.webp)
+![Logo de SatoshiDICE](assets/en/084.webp)
 
 
 *SatoshiDICE logo (source: [capture](https://web.archive.org/web/20120804125615/http://satoshidice.com/) from Satoshidice.com)*
@@ -2522,7 +2522,7 @@ So it's only logical that this use should emerge during this period, even if it 
 On March 26, 2012, a subforum on Reddit called r/GirlsGoneBitcoin was [opened](https://bitcointalk.org/index.php?topic=73666.msg816065#msg816065) by Julian Tosh, aka "Tuxavant", a Linux and privacy advocate living in Las Vegas. It is inspired by the adult sub-forum r/GoneWild, where users post nude photos of themselves. The beauty of r/GirlsGoneBitcoin is that girls can add an address to their photos in order to receive tips in bitcoins. A user going by the pseudonym LadyBytes makes a [tutorial](https://www.dailymotion.com/video/xpsy75) (NSFW) to show how easily they can use Bitcoin.
 
 
-![LadyBytes en mars 2012](assets/en/ladybytes-photo-tutorial-20120329-imgur.webp)
+![LadyBytes en mars 2012](assets/en/085.webp)
 
 
 *LadyBytes in March 2012 (source: [Imgur](https://web.archive.org/web/20120401012310/http://imgur.com/a/JDVRZ))*
@@ -2614,7 +2614,7 @@ However, things don't go as planned, as a second hack [occurs](https://bitcoinic
 On May 13, Zhou Tong [publishes](https://bitcointalk.org/index.php?topic=81581.msg897948#msg897948) a long message on the Bitcoin forum in which he announces that he is "leaving Bitcoin". He explains that "this isn't related to the Bitcoinica hack", and that it's based on the lack of meaning brought by his work. He feels that he has failed to "generate value for the society", considering that "speculation is a zero-sum game". He wanted to "build products that save people time, money and headaches", and Bitcoin "doesn't help address my real need". He has now moved to Australia to continue his studies, and is keen to continue his entrepreneurial activities, notably with a project called [NameTerrific](https://bitcointalk.org/index.php?topic=82566.msg910076#msg910076). He remains attached to Bitcoin, however, and claims to keep a Casascius coin worth 1,000 bitcoins. He returns in 2013, co-founding CoinJar, an Australian exchange platform.
 
 
-![Ryan Zhou, dit « Zhou Tong », en 2012](assets/en/zhou-tong-2012-coinabul.webp)
+![Ryan Zhou, dit « Zhou Tong », en 2012](assets/en/086.webp)
 
 
 *Ryan Zhou, aka "Zhou Tong," in 2012 (source: [archive](https://web.archive.org/web/20120617170206/http://coinabul.tumblr.com/post/24022841613/10qs-zhou-tong-bitcoinica) from Coinabul's blog)*
@@ -2629,7 +2629,7 @@ The process is slow. The first payments [took place](https://web.archive.org/web
 However, something unexpected happened again. On July 7, Amir Taaki, who is [in conflict](https://bitcointalk.org/index.php?topic=196150.msg2038900#msg2038900) with Bitcoinica's management, [releases](https://www.reddit.com/r/Bitcoin/comments/w6xen/bitcoinica_press_release/) the platform's full source code. This source code contains a API key, which also happens to be the password giving access to Bitcoinica's LastPass safe, containing some of his passwords, including that of his Mt. Gox account. On July 13, a hacker exploited this vulnerability and [managed](https://bitcointalk.org/index.php?topic=93074.msg1027282#msg1027282) to withdraw 40,000 bitcoins and 40,000 LR-USD from Mt. Gox (the upper limit), representing almost $350,000! This brings the total amount lost by the platform (in dollars) to over $650,000.
 
 
-![Les piratages de Bitcoinica résumés par Jeremias Kangas lors de l'Assembly Summer 2014](assets/en/bitcoinica-hacks-jeremias-kangas-assembly-summer-2014.webp)
+![Les piratages de Bitcoinica résumés par Jeremias Kangas lors de l'Assembly Summer 2014](assets/en/087.webp)
 
 
 *Bitcoinica hacks summarized by Jeremias Kangas at Assembly Summer 2014 (source: capture from [AssemblyTV](https://www.youtube.com/watch?v=CgcK3xZpjdI))*
@@ -2659,7 +2659,7 @@ It goes without saying that the Bitcoin community is not immune to this type of 
 The fund was launched by Trendon Shavers, a 29-year-old Texan father. He calls himself PirateAt40 on the Bitcoin forum and on IRC, in reference to Jimmy Buffett's 1974 song "*A Pirate Looks At Forty*", in which a modern-day drug dealer laments being born too late to have been a buccaneer.
 
 
-![Trendon Shavers à la sortie du tribunal fédéral de Manhattan en novembre 2014](assets/en/trendon-shavers-pirateat40-manhattan-federal-court-20141124-brendan-mcdermid-reuters.webp)
+![Trendon Shavers à la sortie du tribunal fédéral de Manhattan en novembre 2014](assets/en/088.webp)
 
 
 *Trendon Shavers leaving Manhattan federal court in November 2014 (source: Brendan McDermid for [Reuters](https://www.reuters.com/article/world/us/texan-gets-one-and-a-half-years-in-prison-for-running-bitcoin-ponzi-scheme-idUSKCN1012W7/))*
@@ -2677,7 +2677,7 @@ At the beginning of 2012, the investment plan [is](https://web.archive.org/web/2
 In January, the name of the fund [becomes](https://bitcointalk.org/index.php?topic=50822.msg678316#msg678316) First Pirate Savings & Trust, referring to the name of certain American banks. In April, the service changes its name again and [becomes](https://bitcointalk.org/index.php?topic=50822.msg844657#msg844657) Bitcoin Savings & Trust (BTCS&T). The interface is upgraded and hosted at BTCST.com.
 
 
-![Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart](assets/en/btcst-unofficial-logo-johnbigheart-20120418.webp)
+![Logo non officiel de Bitcoin Savings & Trust conçu par JohnBigheart](assets/en/089.webp)
 
 
 *Unofficial Bitcoin Savings & Trust logo designed by JohnBigheart (source: [archive](https://web.archive.org/web/20140429144117/https://bitcointalk.org/index.php?topic=76689.0) from Bitcointalk.org)*
@@ -2698,7 +2698,7 @@ The end comes in the summer. In June, the price of bitcoin rises from $5 to $6.5
 On August 17, 2012, Trendon finally makes the [decision](https://bitcointalk.org/index.php?topic=50822.msg605957#msg605957) to close BTCS&T. He reimburses his closest collaborators, but a majority of people are hurt. The repercussions of this closure are felt, particularly on the market. The price on Mt. Gox immediately plummeted, halving in the space of 48 hours from a local high of $15.4 on the 17th to briefly below $8 on the 19th. In the days that followed, it stabilized at around $10, before recovering to an acceptable level.
 
 
-![Évolution du prix du BTC sur Mt. Gox entre le 12 et le 22 août](assets/en/crash-bitcoin-price-august-2012-timothy-b-lee-forbes-bitcoincharts.webp)
+![Évolution du prix du BTC sur Mt. Gox entre le 12 et le 22 août](assets/en/090.webp)
 
 
 *BTC price trend on Mt. Gox between August 12 and 22 (source: Bitcoin Charts via [Forbes](https://www.forbes.com/sites/timothylee/2013/04/11/an-illustrated-history-of-bitcoin-crashes/))*
@@ -2722,7 +2722,7 @@ The BTC-e hack [occurs](https://web.archive.org/web/20120731215829/https://btc-e
 The Bitfloor hack, which took place in September, was more significant. BitFloor is an American exchange platform based in New York. It was [launched](https://bitcointalk.org/index.php?topic=47109.msg578260#msg578260) in October 2011 by a 25-year-old named Roman Shtylman, with the help of a friend. The platform managed to quickly attract users by [rewarding](https://bitcointalk.org/index.php?topic=51078.msg608833#msg608833) liquidity providers (*makers*) with "rebates" credited upon exchange execution. In May 2012, BitFloor also began [accepting](https://bitcointalk.org/index.php?topic=81915.msg902211#msg902211) cash deposits, a very attractive feature as we explained.
 
 
-![Roman Shtylman en février 2012](assets/en/roman-shtylman-bitfloor-20120223-bitcoin-show.webp)
+![Roman Shtylman en février 2012](assets/en/091.webp)
 
 
 *Roman Shtylman in February 2012 (source: [Bitcoin Show](https://www.youtube.com/watch?v=F7SsavHX6tc) on Youtube)*

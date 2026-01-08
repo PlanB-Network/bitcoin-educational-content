@@ -1433,65 +1433,65 @@ Mu bikorwa, ugushirwa mu ngiro kw’ubuhinga kugabuwe muma Rust crates yabigenew
 ![RGB-Bitcoin](assets/en/046.webp)
 
 
-Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubuhinga bwa Contract. Turabona ingene amasezerano ya RGB, atunganijwe nk'ibice vy'amamashini ya leta_, ashika ku vyo guserura vyinshi kuruta inyandiko za Bitcoin, mu gihe azigama ibanga ry'amakuru yabo.
+Mu kigabane gikwirikira, turaza kuraba igice ca off-chain gusa ca RGB, nk'amasezerano y'urukwirikirane. Turabona ingene amasezerano ya RGB, atunganijwe nkuko imashine irangiye imeze_, ashika ku vyo guserura vyinshi kuruta inyandiko za Bitcoin, mu gihe azigama ibanga ry'amakuru yabo.
 
 
-## Intangamarara y'amasezerano y'ubwenge n'ibihugu vyayo
+## Intangamarara kuri smart contracts niko imeze
 
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 
-:::id y'amasanamu y'amasanamu:::
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa::::
 
 
-Muri iki gice n'ikindi gikurikira, turaza kuraba iciyumviro ca **Smart contract** mu bidukikije vya RGB maze tubone uburyo butandukanye ayo masezerano ashobora gusobanura no guhindura *igihugu* cayo. Turabona igituma ubuhinga bwa RGB, bukoresheje urutonde rw’Ibimenyetso vy’Ikoreshwa Rimwe, butuma bishoboka gukora ubwoko butandukanye bw’Ibikorwa vya ***Contract*** mu buryo bushobora guhindurwa kandi ata guca mu gitabu c’ivyandikano gihurikiye hamwe. Turaba kandi uruhara rwa ***Business Logic*** mu gutegura iterambere rya Contract State.
+Murikino kigabane hamwe n'igikwirikira, turaza kuraba inyigisho za **Smart contract** muri RGB maze tubone uburyo butandukanye ayo masezerano ashobora gusobanura no guhindura *uko ameze*. Turabona igituma unyubako ya RGB, bukoresheje urutonde rw’Ibimenyetso vy'iserire ikora rimwe gusa, butuma bishoboka gukora ubwoko butandukanye bw’**Ibikorwa vya amasezerano*** mu buryo bushobora guhindurwa kandi ata guca mu gitabu c’ivyandikano gihurikiye hamwe. Turaba kandi uruhara rw'***ishoramari rigenda*** mu gutegura iterambere ry'uko amasezerano ameze.
 
 
-### Amasezerano y'ubwenge n'uburenganzira bw'abatwara
+### Smart contracts  n'uburenganzira bw'abatwara
 
 
-Intumbero ya RGB ni ugutanga ibikorwa remezo vyo gushitsa amasezerano y'ubwenge kuri Bitcoin. Mu kuvuga "Smart contract" dushaka kuvuga amasezerano hagati y'imigwi myinshi ashirwa mu ngiro ubwayo kandi akoresheje ubuhinga bwa none, ata muntu yinjiyemwo kugira ngo ashitse ingingo. Mu yandi majambo, itegeko rya Contract rishirwa mu ngiro na porogarama, atari n’uwundi muntu yizigirwa.
+Intumbero ya RGB ni ugutanga ibikorwa remezo vyo gushira ama smart contracts kuri Bitcoin. Mu kuvuga "Smart contract" dushaka kuvuga amasezerano hagati y'imigwi myinshi ashirwa mu ngiro ubwayo kandi akoresheje ubuhinga bwa none, ata muntu yinjiyemwo kugira ngo ashitse ingingo. Mu yandi majambo, itegeko ry'amsezerano rishirwa mu ngiro na porogarama, atari n’uwundi muntu yizigirwa.
 
 
-Ivyo bikoresho vy’ubuhinga bwa none bivyura ikibazo c’ugusenyura ubutegetsi: twoshobora gute kwibohora mu gitabu c’ivyandikano (nk’akarorero, urubuga canke urutonde rw’amakuru) kugira ngo dushobore gucunga ibikorwa vya Ownership na Contract? Iciyumviro c'intango, cafashwe na RGB, ni ugusubira ku buryo bwa Ownership buzwi nka "ibikoresho vy'abatwara". Mu mateka, hariho ivyemezo bimwebimwe (amabondi, imigabane n’ibindi) vyasohorwa mu buryo bw’umuntu afise iyo nyandiko, ivyo bikaba vyatuma umuntu wese yari afise iyo nyandiko ku mubiri ashobora gushitsa uburenganzira bwiwe.
+Ivyo bikoresho vy’ubuhinga bwa none bivyura ikibazo c'ukutagira aho riyoboka: twoshobora gute kwibohora mu gitabu c’ivyandikano kiyobowe (nk’akarorero, urubuga ruyobowe canke ubushinguzi bw'amakuru) kugira ngo dushobore gucunga ibikorwa kwitirirwa ikintu canke amasezerano agenda? Iciyumviro c'intango, cafashwe na RGB, ni ugusubira ku buryo bw'ukwitirirwa ikintu buzwi nka "ibikoresho vy'abatwara". Muri kahise, hariho ivyemezo bimwebimwe (amafagitire, ugusangira imitungo, n'ibindi) vyasohorwa mu buryo bw’umuntu afise iyo nyandiko, ivyo bikaba vyatuma umuntu wese yari afise iyo nyandiko ku mubiri ashobora gushitsa uburenganzira bwiwe.
 
 
 ![RGB-Bitcoin](assets/en/055.webp)
 
 
-RGB ikoresha ico ciyumviro kw’isi y’ubuhinga bwa none: uburenganzira (n’inshingano) bushirwa mu makuru akoreshwa nabi off-chain, kandi ikibanza c’ayo makuru kiremezwa n’abaje mu nama ubwabo. Ivyo bituma, a priori, habaho urugero runini cane rw’ibanga n’ukwigenga kuruta uko bitangwa n’izindi nzira zishingiye ku bitabo vya bose.
+RGB ikoresha ico ciyumviro kw’isi y’ubuhinga bwa none: uburenganzira (n’inshingano) bushirwa mu makuru akoreshwa nabi off-chain, kandi ikibanza c’ayo makuru kiremezwa n’abaje mu nama ubwabo. Ivyo bituma, a priori, habaho urugero runini cane rw’ibanga n’ukwigenga kuruta uko bitangwa n’izindi nzira zishingiye ku bitabo biri kukarubanda.
 
 
-### Intangamarara ku bijanye n'imimerere ya Smart contract
+### Intangamarara kuri Smart Contract hamwe n'uko RGB imeze
 
 
-Smart contract muri RGB ishobora kubonwa nk’imashini ya Leta, isobanurwa na:
+Smart contract muri RGB ishobora kubonwa nk’imashini ya Leta, isigurwa na:
 
 
 
 
-- A **Igihugu**, ni ukuvuga urutonde rw’amakuru yerekana uko Contract iteye ubu;
-- A **Business Logic** (urutonde rw’amategeko), adondora ingene Leta ishobora guhindurwa n’uwushobora guhindurwa.
+- A **Igihugu**, akarorero urutonde rw'amakuru rwerekana ugushirwaho kuhari kw'amasezerano;
+- A **Uko ishoramari rimeze** (urutonde rw’amategeko), vyerekana n'ayahe masezerano canke biciye hehe Ukobimeze bishoborwa guhindurwa.
 
 
 ![RGB-Bitcoin](assets/en/056.webp)
 
 
-Ni vyiza gutahura ko ayo masezerano atagarukira ku gutanga ibimenyetso vyoroshe. Bishobora gukoresha uburyo bwinshi: kuva ku mutungo wa kera (ibimenyetso, amafaranga, amabondi) gushika ku buhinga bukomeye cane (uburenganzira bwo gukoresha, amajambo y’ubudandaji, n’ibindi). Udakunze izindi blockchains, aho kode ya Contract ishobora gushikwako kandi igashirwa mu ngiro na bose, uburyo bwa RGB buragabanya uburyo bwo gushikira no kumenya Contract ku bari muri iyo nama ("***abaje muri Contract***"). Hariho uruhara rwinshi:
+Ni vyiza gutahura ko ayo masezerano atagarukira kukurungika ama tokens. Bishobora gukoresha uburyo bwinshi: kuva ku mutungo wa kera ( amatokene, ibigega, amafagitire) gushika ku buhinga bukomeye cane (uburenganzira bwo gukoresha, amajambo y’ubudandaji, n’ibindi). aho bitandukaniye n'izindi blockchains, aho kode y'amasezerano ashobora kubineka kandi agakoreshwa nabose, uburyo bwa RGB buragabanya uburyo bwo gushikira no kumenya Contract ku bari muri iyo nama ("***amasezerano y'abahashika***"). Hariho uruhara rwinshi:
 
 
 
 
-- **Uwutanga** canke umuremyi wa Contract, ni we asigura Genesis ya Contract n'ibihinduka vyayo vy'intango;
-- Abafise **uburenganzira** (*Ownership*) canke ubundi bushobozi bwo gushitsa amategeko;
-- **Abarorerezi**, bashobora kuba bafise aho babona amakuru amwamye, ariko badashobora gutuma habaho ihinduka.
+- **Uwutanga** canke uwukora amasezerano, ni we asigura inkomoko y'amasezerano n'ibihinduka vyayo vy'intango;
+-  **Ibice vy'uburenganzira** (*Gutunga ikintu*) canke ubundi bushobozi bwo gushitsa amategeko;
+- **Abarorere**, bashobora kuba bafise aho babona amakuru amwamye, ariko badashobora gutuma habaho ihinduka.
 
 
-Ukwo gutandukanya uruhara biratuma habaho ukurwanya ugucengera, mu kumenya ko abantu bemerewe bonyene ari bo bashobora gukorana na Leta y’amasezerano. Iha kandi RGB ubushobozi bwo gupima mu buryo buringaniye: ivyemezo vyinshi bibera hanze ya Blockchain, kandi ni vyo vyonyene bifata amabanga (*amasezerano*) vyanditswe kuri Bitcoin.
+Ukwo gutandukanya uruhara biratuma habaho ukurinda ibihano, mu kumenya ko abantu bemerewe bonyene ari bo bashobora gukorana n'uko amasezerano ameze. Iha kandi RGB ubushobozi bwo gupima mu buryo buringaniye: ivyemezo vyinshi bibera hanze ya Blockchain, kandi ni vyo vyonyene bifata amabanga (*ukwiyemeza*) vyanditswe kuri Bitcoin.
 
 
-### Ikibanza na Business Logic muri RGB
+### Ikibanza n'uko ishoramari rimeze muri RGB
 
 
 Uvuye ku bijanye n’ibikorwa, **Business Logic** ya Contract ifata uburyo bw’amategeko n’inyandiko, zisobanurwa mu co RGB yita **Schema**. Schema ivuga:

@@ -424,7 +424,7 @@ Anza kwa kuchagua suluhisho la kiufundi linalofaa wasifu wako, jaribu kwa kiasi 
 
 
 
-- [Kiolezo cha Mpango wa Urithi wa Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Kiolezo cha Nyaraka cha Plan ₿ Network
+- [Kiolezo cha Mpango wa Urithi wa Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Kiolezo cha Nyaraka cha Plan ₿ Academy
 
 
 

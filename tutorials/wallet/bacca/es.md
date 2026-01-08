@@ -98,7 +98,7 @@ Ahora tiene acceso a la interfaz del software.
 
 Antes de empezar, si su Ledger es nuevo, asegúrese de haber configurado el código PIN y guardado la frase de recuperación. No necesita Ledger Live para estos pasos iniciales. Simplemente conecta tu Ledger a través del cable USB para encenderlo. Si no estás seguro de cómo proceder con estos dos pasos, puedes consultar el principio del tutorial específico para tu modelo:
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

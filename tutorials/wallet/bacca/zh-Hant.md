@@ -137,7 +137,7 @@ cargo run -p ledger_manager_gui
 在您開始之前，如果您的 Ledger 是新的，請確認您已設定 PIN 碼並儲存復原短語。這些初始步驟不需要 Ledger Live。只要透過 USB 傳輸線連接 Ledger 供電即可。如果您不確定如何進行這兩個步驟，您可以參考您機型的特定教學開頭：
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

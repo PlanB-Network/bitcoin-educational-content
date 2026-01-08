@@ -214,7 +214,7 @@ Commencez par choisir une solution technique adaptée à votre profil, testez-la
 
 ### Modèle de plan d'héritage
 
-- [Bitcoin Inheritance Plan Template (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Modèle de documentation Plan ₿ Network
+- [Bitcoin Inheritance Plan Template (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Modèle de documentation Plan ₿ Academy
 
 ### Références techniques
 

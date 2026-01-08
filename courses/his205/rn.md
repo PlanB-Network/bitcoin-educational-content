@@ -823,35 +823,35 @@ Mu kinjana ca 5 n’ica 4 imbere ya Kristu, Misiri yari imaze gushikirwa n’ibi
 
 
 
-### Uburyo bwo guhindura amafaranga bwa kera n'amafaranga ya kera
+### Uburyo bwo guhindura amafaranga bwa kera n'amafaranga ya kera(paléomonnaie)
 
 
 
-Igihe ubukuru bwa mbere bwa Misiri bwatangura nko mu 3650-3400 imbere ya Kristu, ahantu ha Maadi, mu bumanuko bwa Cairo y’ubu, haciye haba ikibanza gikomeye c’ubuhinga bw’umuringa n’ubudandaji bw’inzira ndende, cane cane na Mezopotamiya biciye ku nkengera y’ikiyaga ca Siriya.
+Igihe ubukuru bwa mbere bwa Misiri bwatangura nko mu 3650-3400 imbere ya Kristu, ahantu ha Maadi, mu bumanuko bwa Caire y’ubu, haciye haba ikibanza gikomeye c’ubuhinga bwa cuivre n’ubudandaji bw’inzira ndende, cane cane na Mezopotamiya biciye ku nkengera y’ikiyaga ca Siriya.
 
 
 
-Naho ubudandaji buhambaye bwari bushingiye ahanini ku guhinduranya, birashoboka ko hariho uburyo bwa kera bw’amahera (“paleo-currency”), bugizwe n’ibintu vy’icubahiro nk’amabuye y’agaciro gatoyi n’ibikoko vy’ibisigazwa vy’ibikoko. Kumbure inzahabu yari imaze kugira uruhara runini muri ivyo biganiro. Igihe ca mbere havugwa mu buryo butomoye igiceri mu nyandiko z’Abanyamisiri hagati mu kinjana ca 3 imbere ya Kristu, vyerekana ko hariho iterambere rirerire rifitaniye isano n’imigenzo y’ubudandaji.
+Naho ubudandaji buhambaye bwari bushingiye ahanini ku guhinduranya ibintu kubindi, birashoboka ko hariho uburyo bwa kera bw’amahera (“paléomonnaie”), bugizwe n’ibintu vy’icubahiro nk’amabuye afise igice cagaciro(semi-precieuse) hamwe nibisigarizwa vyakera vyoba bihari. Kumbure inzahabu yari imaze kugira uruhara runini muri ivyo biganiro. Igihe ca mbere havugwa mu buryo butomoye igiceri mu nyandiko z’Abanyamisiri hagati mu kinyagihumbi ca 3 imbere ya Kristu, vyerekana ko hariho iterambere rirerire rifitaniye isano n’imigenzo y’ubudandaji.
 
 
 
-Mu kibano ca kera (aha ntituri ngombwa ko tuvuga Misiri, ariko mu kibano ca kera muri rusangi), amahera yariko aratanga kenshi, atari ugugura ataco akora, ahubwo ni ugutanga inkwano, imigenzo y’idini, n’ibindi bikorwa vy’imibano. Ivyo bikorwa vyasaba igiciro n’agaciro nyavyo. Imiryango myinshi ya kera yari ifise ibintu vy’agaciro, vy’amahera (ni ukuvuga bishobora guharurwa), ivyo bikaba ari vyo vyari bigereranywako ako gaciro. Nimba uriko uriha inkwano, birashoboka ko utegerezwa kwandika igitigiri c’ikintu co guhindura kugira ngo urihe inkwano. Ico kigereranyo mu vy’ukuri ni ic’abantu.
+Mu kibano ca kera (aha ntituri ngombwa ko tuvuga Misiri, ariko mu kibano ca kera muri rusangi), amariha yari menshi cane, atari atarikugura vyako kanya nyene, ahubwo ni ugutanga inkwano, imigenzo y’idini, n’ibindi bikorwa vy’imibano. Ivyo bikorwa vyasaba igiciro nyako kagenywe neza. Imiryango myinshi ya kera yari ifise ibintu vy’agaciro, vy’amahera (ni ukuvuga bishobora guharurwa), ivyo bikaba ari vyo vyari bigereranywako ako gaciro. Nimba uriko uriha inkwano, birashoboka ko utegerezwa kwandika igitigiri c’ikintu co guhindura kugira ngo urihe inkwano. Ico kigereranyo mu vy’ukuri ni ic’abantu bishingira.
 
 
 
-Mu mibano ya kera, imbere y’uko amahera canke uburyo bwo gutanga amahera buza, hariho ukwishurwa, ariko kenshi kwari gufitaniye isano n’inshingano z’imibano, kandi agaciro kavyo kava ku gaciro k’abantu ku giti cabo, nk’uko biri mu kwishura inkwano canke amahera y’amaraso.
+Mu mibano ya kera, imbere y’uko amahera canke uburyo bwo gutanga amahera buza, hariho ukwishura, ariko kenshi kwari gufitaniye isano n’ingir z’imibano, kandi agaciro kavyo kava ku gaciro k’abantu ku giti cabo, nk’uko biri mu kwishura inkwano canke ibiciro vy’amaraso.
 
 
 
-Kugaruka mu Misiri, mu gihe c'ingoma ya kera, "shât(y)", mu ntango cari igice c'amahera nyaco (agaceri gatoyi k'inzahabu canke k'ifeza gapima nk'amagarama 7,6), caravuye mu gikorwa caco nyaco c'amahera akomeye kija mu **gikorwa co kubara** catumye habaho iciyumviro c'agaciro. Turashobora kumenya muri ryo ubwoko bw’igice c’ibara kugira ngo tugaragaze agaciro, mu ntango cari ubwoko bw’igiceri, ariko mu vy’ukuri ntidushobora kuvyita igiceri kuko kitagira ikidodo, ni ingero y’icuma gusa. Turagenda twegera iciyumviro c’igice c’ibara.
+Tugarutse mu Misiri, mu gihe c'ingoma ya kera, "shât(y)", mu ntango cari igice c'amahera nyaco (agaceri gatoyi k'inzahabu canke k'ifeza gapima nk'amagarama 7,6), caravuye mu gikorwa caco nyaco c'amahera akomeye kija mu **gikorwa co guharurwa** catumye habaho iciyumviro c'agaciro. Turashobora kumenya muri ryo ubwoko bw’igice c’ibara kugira ngo tugaragaze agaciro, mu ntango cari ubwoko bw’igiceri, ariko mu vy’ukuri ntidushobora kuvyita igiceri kuko kitagira ikidodo, ni ingero y’icuma gusa. Turagenda twegera iciyumviro c’igice c’ibara.
 
 
 
-Ico ciyumviro c’uko shât(y) carahevye, kumbure kubera ko hariho ingorane zo guhendahenda. Tuzobona mu nyuma ko Abanyamisiri bateba gufata ibiceri vy’ibiceri vy’ikidodo mbere bakabandanya kubipima, mbere n’inyuma y’aho vyari bimaze gufatwa n’ababanyi babo.
+Ico ciyumviro c’uko shât(y) carabwe, kumbure kubera ko hariho ingorane zubusuma. Tuzobona mu nyuma ko Abanyamisiri batevye gukoresha ibiceri bicuze biriko n’ibidodo mbere bakabandanya bakoresha ubuhinga bwo kubima, mbere n’inyuma y’aho  bimaze gufatwa n’ababanyi babo.
 
 
 
-Mu kinjana ca mbere, ifeza ntiyakoreshwa cane mu bikorwa vya misi yose, ivyo bikaba vyakoreshwa canecane hakoreshejwe ingero z’intete be n’ingero z’imikate. Muri ico kiringo ni ho habonetse ubwoko bw’amahera yo mu Vyanditswe, aho amahera yo kwishura yashobora kwandikwa mu nyandiko, canke mu gutanga amahera nyayo.
+Muri Moyen Empire, ifeza ntiyakoreshwa cane mu bikorwa vya misi yose, ivyo bikaba vyakoreshwa canecane hakoreshejwe ingero z’intete be n’ingero z’imikate. Muri ico kiringo ni ho habonetse ubwoko bw’amahera yanditseko agaciro, aho amahera yo kwishura yashobora kwandikwa mu nyandiko, canke mu gutanga amahera nyayo.
 
 
 

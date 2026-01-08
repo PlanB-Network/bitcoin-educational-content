@@ -1,6 +1,6 @@
-question: 当您不使用自己的比特币节点时，可以采取哪种中间措施来隐藏连接？
+question: 当您不使用自己的比特币节点时，可以采取哪种中间措施来避免信息泄露？
 
-answer: 使用Tor。
+answer: 使用 Tor。
 
 wrong_answers:
   - 使用防火墙。
@@ -8,6 +8,6 @@ wrong_answers:
   - 使用双重钱包。
 
 explanation: |
-  为了限制被观察的风险，一个中间解决方案是使用允许您通过Tor隐藏连接的钱包软件。
+  为了限制被观察的风险，一个中间解决方案是使用允许您通过 Tor 隐藏连接的钱包软件。
 
 reviewed: true

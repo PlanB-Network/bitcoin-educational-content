@@ -2627,37 +2627,37 @@ In dezelfde thread vinden we [een bericht van hashcoin in antwoord op Duncan Tow
 ### Zerolink
 
 
-Zerolink is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met portefeuillebeheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink is een uitgebreid mengprotocol dat Chaumian coinjoins en verschillende strategieën bevat om de anonimiteit van gebruikers te beschermen tegen verschillende vormen van ketenanalyse, in het bijzonder door fouten te minimaliseren die geassocieerd worden met wallet-beheer. Dit protocol [werd geïntroduceerd door nopara73 en TDevD in 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/nl/132.webp)
 
 
-Zoals de naam al aangeeft, is het principe achter Zerolink om CoinJoin transacties te creëren die ervoor zorgen dat de links tussen inputs en outputs niet kunnen worden getraceerd. Dit wordt bereikt door ervoor te zorgen dat alle outputs perfect identieke bedragen hebben.
+Zoals de naam al aangeeft, is het principe achter Zerolink om CoinJoin-transacties te creëren die ervoor zorgen dat de links tussen inputs en outputs niet kunnen worden getraceerd. Dit wordt bereikt door ervoor te zorgen dat alle outputs perfect identieke bedragen hebben.
 
 
 ![BTC204](assets/nl/133.webp)
 
 
-Een belangrijke preventieve maatregel van Zerolink is om ongemengde UTXO's volledig gescheiden te houden van gemengde UTXO's door aparte cryptografische sleutelsets of zelfs aparte portefeuilles te gebruiken. Dit onderscheidt de "*pre-mix*" wallet, bedoeld voor onderdelen vóór het mengen, van het "*post-mix*" wallet, gereserveerd voor onderdelen die gemengd zijn.
+Een belangrijke preventieve maatregel van Zerolink is om ongemengde UTXO's volledig gescheiden te houden van gemengde UTXO's door aparte cryptografische sleutelsets of zelfs aparte wallets te gebruiken. Dit onderscheidt de "*pre-mix*" wallet, bedoeld voor UTXO's vóór het mengen, van het "*post-mix*" wallet, gereserveerd voor UTXO's die gemengd zijn.
 
 
 ![BTC204](assets/nl/134.webp)
 
 
-Deze strikte scheiding van UTXO's dient vooral om toevallige koppelingen tussen een gemengde UTXO en een ongemengde UTXO te voorkomen. Als zulke koppelingen namelijk voorkomen, wordt de effectiviteit van de CoinJoin op de gemengde UTXO geannuleerd zonder dat de gebruiker zich daarvan bewust is, waardoor de vertrouwelijkheid van een UTXO wordt aangetast waarvan hij dacht dat hij de geschiedenis had verbroken. Deze verbanden kunnen ontstaan door hergebruik van adres bij het veiligstellen van een gemengde UTXO met een ongemengde, of door de toepassing van CIOH (_Common-Input-Ownership Heuristic_), als de gebruiker gemengde en ongemengde UTXO's gebruikt als input voor dezelfde transactie. Door de pre-mix en post-mix portefeuilles te scheiden, voorkomen we zulke toevallige associaties en beschermen we de gebruiker tegen onbedoelde fouten.
+Deze strikte scheiding van UTXO's dient vooral om toevallige koppelingen tussen een gemengde UTXO en een ongemengde UTXO te voorkomen. Als zulke koppelingen namelijk voorkomen, wordt de effectiviteit van de CoinJoin op de gemengde UTXO geannuleerd zonder dat de gebruiker zich daarvan bewust is, waardoor de vertrouwelijkheid van een UTXO wordt aangetast waarvan hij dacht dat hij de geschiedenis had verbroken. Deze verbanden kunnen ontstaan door hergebruik van adres bij het veiligstellen van een gemengde UTXO met een ongemengde, of door de toepassing van CIOH (_Common-Input-Ownership Heuristic_), als de gebruiker gemengde en ongemengde UTXO's gebruikt als input voor dezelfde transactie. Door de pre-mix en post-mix wallets te scheiden, voorkomen we zulke toevallige associaties en beschermen we de gebruiker tegen onbedoelde fouten.
 
 
 ![BTC204](assets/nl/135.webp)
 
 
-Deze scheiding biedt ook de mogelijkheid om verschillende regels toe te passen tussen pre-mix en post-mix portefeuilles op het niveau van de portefeuillesoftware. In de post-mix wallet kan de software bijvoorbeeld het samenvoegen van UTXO's in inputs verbieden om de toepassing van CIOH te voorkomen, wat de anonset van de gebruiker in gevaar zou brengen. Het is ook mogelijk om het gebruik van scripts en transactieopties (zoals RBF rapportage) te standaardiseren om identificatie door wallet vingerafdrukken te voorkomen.
+Deze scheiding biedt ook de mogelijkheid om verschillende regels toe te passen tussen pre-mix en post-mix wallets op het niveau van de wallet-software. In de post-mix wallet kan de software bijvoorbeeld het samenvoegen van UTXO's in inputs verbieden om de toepassing van CIOH te voorkomen, wat de anonset van de gebruiker in gevaar zou brengen. Het is ook mogelijk om het gebruik van scripts en transactieopties (zoals RBF rapportage) te standaardiseren om identificatie door wallet-vingerafdrukken te voorkomen.
 
 
-Op dit moment is Whirlpool de enige CoinJoin implementatie die het Zerolink protocol strikt toepast. In het volgende hoofdstuk kijken we naar de verschillende CoinJoin implementaties die er zijn, en de voor- en nadelen van elk.
+Op dit moment is Whirlpool de enige CoinJoin-implementatie die het Zerolink-protocol strikt toepast. In het volgende hoofdstuk kijken we naar de verschillende CoinJoin-implementaties die er zijn, en de voor- en nadelen van elk.
 
 
-## CoinJoin implementaties
+## CoinJoin-implementaties
 
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
@@ -2668,7 +2668,7 @@ Op dit moment is Whirlpool de enige CoinJoin implementatie die het Zerolink prot
 
 
 
-Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bitcoin:
+Op dit moment zijn er voornamelijk 3 verschillende CoinJoin-implementaties op Bitcoin:
 
 
 
@@ -2678,26 +2678,26 @@ Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bi
 - JoinMarket.
 
 
-Naast deze drie historische implementaties is er onlangs een nieuwe verschenen: Joinstr. Ik zal deze niet behandelen in dit hoofdstuk, maar u kunt alle bijbehorende informatie terugvinden in deze speciale handleiding:
+Naast deze drie historische implementaties is er onlangs een nieuwe verschenen: Joinstr. Ik zal deze niet behandelen in dit hoofdstuk, maar je kan alle bijbehorende informatie terugvinden in deze speciale handleiding:
 
 https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
-Elk van deze implementaties heeft als doel de geschiedenis van UTXO's te doorbreken via CoinJoin transacties. Hun mechanismen verschillen echter aanzienlijk. Het is daarom essentieel om te begrijpen hoe ze werken, zodat je de optie kunt kiezen die het beste bij je behoeften past.
+Elk van deze implementaties heeft als doel de geschiedenis van UTXO's te doorbreken via CoinJoin-transacties. Hun mechanismen verschillen echter aanzienlijk. Het is daarom essentieel om te begrijpen hoe ze werken, zodat je de optie kunt kiezen die het beste bij je behoeften past.
 
 
 ### JoinMarket
 
 
-JoinMarket, opgericht in 2015 door Adam Gibson en Chris Belcher, onderscheidt zich duidelijk van andere CoinJoin implementaties dankzij zijn unieke model om gebruikers met elkaar in contact te brengen. Het systeem is gebaseerd op een P2P exchange markt waar sommige gebruikers, de "makers", hun bitcoins beschikbaar stellen om te mengen, terwijl anderen, de "nemers", dit geld gebruiken om coinjoins te maken in ruil voor een vergoeding.
+JoinMarket, opgericht in 2015 door Adam Gibson en Chris Belcher, onderscheidt zich duidelijk van andere CoinJoin-implementaties dankzij zijn unieke model om gebruikers met elkaar in contact te brengen. Het systeem is gebaseerd op een P2P-exchange-markt waar sommige gebruikers, de "makers", hun bitcoins beschikbaar stellen om te mengen, terwijl anderen, de "nemers", dit geld gebruiken om coinjoins te maken in ruil voor een vergoeding.
 
 
 ![BTC204](assets/nl/136.webp)
 
 
-In dit model stellen "makers" hun bitcoins beschikbaar aan "nemers" en ontvangen een vergoeding voor hun dienst. De takers betalen op hun beurt om de bitcoins van de makers te gebruiken om hun eigen CoinJoin transacties uit te voeren. De servicekosten variëren afhankelijk van de rol die ze vervullen: "makers" verzamelen vergoedingen voor het aanbieden van liquiditeit, terwijl "nemers" de vergoedingen betalen. De markt werkt vrij, zonder gebruiksvoorwaarden.
+In dit model stellen "makers" hun bitcoins beschikbaar aan "nemers" en ontvangen een vergoeding voor hun dienst. De takers betalen op hun beurt om de bitcoins van de makers te gebruiken om hun eigen CoinJoin-transacties uit te voeren. De servicekosten variëren afhankelijk van de rol die ze vervullen: "makers" verzamelen vergoedingen voor het aanbieden van liquiditeit, terwijl "nemers" de vergoedingen betalen. De markt werkt vrij, zonder gebruiksvoorwaarden.
 
 
-Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebruik. Om JoinMarket doeltreffend te kunnen gebruiken, moet je een beetje vertrouwd zijn met terminals. Hoewel deze complexiteit geen belemmering vormt voor de ervaren gebruiker, kan het de toegang voor het grote publiek beperken. De recente introductie van een web interface genaamd JAM heeft het gebruik echter iets eenvoudiger gemaakt.
+Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebruik. Om JoinMarket doeltreffend te kunnen gebruiken, moet je een beetje vertrouwd zijn met terminals. Hoewel deze complexiteit geen belemmering vormt voor de ervaren gebruiker, kan het de toegang voor het grote publiek beperken. De recente introductie van de web-interface JAM heeft het gebruik echter iets eenvoudiger gemaakt.
 
 
 ![BTC204](assets/nl/137.webp)
@@ -2706,13 +2706,13 @@ Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebru
 Bron : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 
-De technische barrière blijft echter een groot obstakel. In het CoinJoin ecosysteem, waar vertrouwelijkheid wordt versterkt door het aantal deelnemers, heeft elke beperking van de toegankelijkheid direct invloed op de beschikbare liquiditeit, wat een cruciale factor is voor de efficiëntie van de mix. Bitcoin, dat al een niche in financiële transacties is, ziet het gebruik van coinjoins als een subniche, en JoinMarket vertegenwoordigt een nog meer gespecialiseerde fractie daarvan, waardoor het potentieel om de anonimiteit van zijn gebruikers te vergroten wordt beperkt.
+De technische barrière blijft echter een groot obstakel. In het CoinJoin-ecosysteem, waar vertrouwelijkheid wordt versterkt door het aantal deelnemers, heeft elke beperking van de toegankelijkheid direct invloed op de beschikbare liquiditeit, wat een cruciale factor is voor de efficiëntie van de mix. Bitcoin, dat al een niche in financiële transacties is, ziet het gebruik van coinjoins als een subniche, en JoinMarket vertegenwoordigt een nog meer gespecialiseerde fractie daarvan, waardoor het potentieel om de anonimiteit van zijn gebruikers te vergroten wordt beperkt.
 
 
-Ondanks het innovatieve P2P koppelingsmodel voor coinjoiners, heeft JoinMarket een aantal belangrijke nadelen, met name op het gebied van transactiestructuur. In tegenstelling tot andere implementaties zoals Whirlpool, garandeert JoinMarket geen perfecte gelijkheid tussen outputs en is het mogelijk om deterministische links tussen inputs en outputs te traceren. Bovendien heeft het geen tools om te voorkomen dat onderdelen die al met elkaar zijn vermengd, opnieuw worden vermengd, wat de vertrouwelijkheid waar gebruikers naar streven in gevaar zou kunnen brengen.
+Ondanks het innovatieve P2P-koppelingsmodel voor coinjoiners, heeft JoinMarket een aantal belangrijke nadelen, met name op het gebied van transactiestructuur. In tegenstelling tot andere implementaties zoals Whirlpool, garandeert JoinMarket geen perfecte gelijkheid tussen outputs en is het mogelijk om deterministische links tussen inputs en outputs te traceren. Bovendien heeft het geen tools om te voorkomen dat UTXO's die al met elkaar zijn vermengd, opnieuw worden vermengd, wat de vertrouwelijkheid waar gebruikers naar streven in gevaar zou kunnen brengen.
 
 
-Tot slot, hoewel het JoinMarket concept interessant is, vooral voor degenen die geïnteresseerd zijn in een dynamische liquiditeitsmarkt, maken de structurele zwakheden en technische complexiteit het naar mijn mening minder interessant voor zowel beginners als experts die op zoek zijn naar een CoinJoin implementatie.
+Tot slot, hoewel het JoinMarket-concept interessant is, vooral voor degenen die geïnteresseerd zijn in een dynamische liquiditeitsmarkt, maken de structurele zwakheden en technische complexiteit het naar mijn mening minder interessant voor zowel beginners als experts die op zoek zijn naar een CoinJoin-implementatie.
 
 
 https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
@@ -2720,75 +2720,75 @@ https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9
 ### Wabisabi
 
 
-Wabisabi is een andere CoinJoin implementatie, met een aanpak die transactiecoördinatie centraliseert. Dit model werd in 2021 bedacht door Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero en István András Seres, en werd het jaar daarop geïntegreerd in Wasabi 2.0 software. Wabisabi is precies een evolutie van het Wasabi-softwaremodel CoinJoin dat in 2018 werd gelanceerd.
+Wabisabi is een andere CoinJoin-implementatie, met een aanpak die transactiecoördinatie centraliseert. Dit model werd in 2021 bedacht door Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero en István András Seres, en werd het jaar daarop geïntegreerd in Wasabi 2.0 software. Wabisabi is precies een evolutie van het Wasabi CoinJoin-softwaremodel dat in 2018 werd gelanceerd.
 
 
 ![BTC204](assets/nl/138.webp)
 
 
-Tegen het einde van de jaren 2010 paste Wasabi een radicaal andere CoinJoin transactiestructuur toe dan Whirlpool. Wasabi gebruikte zeer grote CoinJoin transacties, waarbij tientallen deelnemers betrokken waren, om de anonsets van haar deelnemers te vergroten. Whirlpool koos daarentegen voor meerdere kleine transacties, waardoor de anonimiteit bij elke cyclus exponentieel kon groeien.
+Tegen het einde van de jaren 2010 paste Wasabi een radicaal andere CoinJoin-transactiestructuur toe dan Whirlpool. Wasabi gebruikte zeer grote CoinJoin-transacties, waarbij tientallen deelnemers betrokken waren, om de anonsets van haar deelnemers te vergroten. Whirlpool koos daarentegen voor meerdere kleine transacties, waardoor de anonimiteit bij elke cyclus exponentieel kon groeien.
 
 
-Exchange beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd buitenlands exchange uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde buitenlands exchange één van de outputs van de CoinJoin transactie, waarbij deterministische links tussen bepaalde ingangen en outputs werden onderhouden.
+Exchange-beheermethoden onderscheidden ook de twee implementaties. Met Whirlpool werd exchange (wisselgeld) uitgesloten en geïsoleerd van UTXO's voorafgaand aan CoinJoin cycli dankzij TX0, een concept dat ik verder zal uitleggen in het volgende hoofdstuk. Met Wasabi daarentegen vormde exchange één van de outputs van de CoinJoin-transactie, waarbij deterministische links tussen bepaalde inputs en outputs werden onderhouden.
 
 
 ![BTC204](assets/nl/139.webp)
 
 
-Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te chainen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de exchange koers: in tegenstelling tot Wasabi 1.0, waar de exchange koers direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de exchange koers onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
+Met Wabisabi heeft Wasabi versie 2.0 zijn benadering van coinjoins aangepast aan die van Whirlpool. Hoewel CoinJoin-transacties erg groot blijven, is het nu mogelijk om meerdere opeenvolgende cycli te koppelen, volgens het Whirlpool model. Er is ook speciale aandacht besteed aan het beheer van de exchange (wisselgeld): in tegenstelling tot Wasabi 1.0, waar de exchange direct gekoppeld was aan de input van gebruikers, probeert Wabisabi de exchange onder te verdelen in verschillende kleine bedragen, verdeeld in gelijke denominaties voor alle deelnemers.
 
 
-Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 Sats mengen en Bob, 210.000 Sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin-transactie met Wasabi 1.0 3 outputs van 100.000 Sats hebben gegenereerd, plus 1 exchange van 15.000 Sats voor Alice en 1 exchange van 10.000 Sats voor Bob. De Exchange-uitgangen zouden nog steeds gekoppeld zijn aan de ingangen:
+Laten we dit illustreren met een vereenvoudigd voorbeeld van slechts 2 gebruikers: Alice wil 115.000 sats mengen en Bob, 210.000 sats. Als we de kosten buiten beschouwing laten, zou een CoinJoin-transactie met Wasabi 1.0 3 outputs van 100.000 sats hebben gegenereerd, plus 1 exchange van 15.000 sats voor Alice en 1 exchange van 10.000 sats voor Bob. De exchange-outputs zouden nog steeds gekoppeld zijn aan de inputs:
 
 
 ![BTC204](assets/nl/140.webp)
 
 
-Volgens Wabisabi zou dezelfde transactie 3 keer 100.000 Sats en 5 keer 5.000 Sats hebben opgeleverd, waardoor de exchange zo verspreid zou zijn dat het niet direct aan een specifieke input kon worden gekoppeld:
+Met Wabisabi zou dezelfde transactie 3 keer 100.000 sats en 5 keer 5.000 sats hebben opgeleverd, waardoor de exchange zo verspreid zou zijn dat het niet direct aan een specifieke input kon worden gekoppeld:
 
 
 ![BTC204](assets/nl/141.webp)
 
 
-Persoonlijk vind ik dat het buitenlandse Exchange-beheer van Wabisabi verschillende risico's met zich meebrengt die de effectiviteit op het gebied van vertrouwelijkheid in gevaar kunnen brengen:
+Persoonlijk vind ik dat het exchange-beheer van Wabisabi verschillende risico's met zich meebrengt die de effectiviteit op het gebied van vertrouwelijkheid in gevaar kunnen brengen:
 
 
 
 
-- Wanneer een gebruiker een UTXO bijdraagt die aanzienlijk groter is dan die van andere deelnemers, eindigt hij onvermijdelijk met een Exchange-bedrag dat aan zijn inbreng wordt gekoppeld. Dit druist in tegen het oorspronkelijke doel van het protocol, namelijk het elimineren van alle identificeerbare uitwisselingen;
-- Het vermenigvuldigen van benamingen met als doel de exchange te fragmenteren kan paradoxaal genoeg nadelig zijn voor de efficiëntie van het mengen. Dit proces kan leiden tot een vermindering van anonsets voor bepaalde outputs, omdat ze gemakkelijker te identificeren zijn;
-- Deze methode genereert ook UTXO's met een lage waarde die een beheersprobleem vormen voor de gebruiker. Deze kleine UTXO's kunnen, als ze te duur worden om uit te geven in verhouding tot hun waarde, "Dust" worden. Dit fenomeen leidt ertoe dat de gebruiker verschillende UTXO's samenvoegt tot inputs voor toekomstige transacties, of ze consolideert. In beide gevallen kan dit, vanwege het CIOH, de verkregen anonimiteit verminderen, of de vertrouwelijkheidsvoordelen verkregen door de initiële CoinJoin volledig teniet doen.
+- Wanneer een gebruiker een UTXO bijdraagt die aanzienlijk groter is dan die van andere deelnemers, eindigt hij onvermijdelijk met een exchange-bedrag dat aan zijn inbreng wordt gekoppeld. Dit druist in tegen het oorspronkelijke doel van het protocol, namelijk het elimineren van alle identificeerbare uitwisselingen;
+- Het vermenigvuldigen van de munteenheden met als doel de exchange te fragmenteren kan paradoxaal genoeg nadelig zijn voor de efficiëntie van het mengen. Dit proces kan leiden tot een vermindering van anonsets voor bepaalde outputs, omdat ze gemakkelijker te identificeren zijn;
+- Deze methode genereert ook UTXO's met een lage waarde die een beheersprobleem vormen voor de gebruiker. Deze kleine UTXO's kunnen, als ze te duur worden om uit te geven in verhouding tot hun waarde, "dust" worden. Dit fenomeen leidt ertoe dat de gebruiker verschillende UTXO's samenvoegt tot inputs voor toekomstige transacties, of ze consolideert. In beide gevallen kan dit, vanwege het CIOH, de verkregen anonimiteit verminderen, of de vertrouwelijkheidsvoordelen verkregen door de initiële CoinJoin volledig teniet doen.
 
 
-In tegenstelling tot Whirlpool, dat het ZeroLink protocol implementeert dat een strikte scheiding tussen pre-mix en post-mix UTXO's garandeert, handhaaft Wabisabi deze strikte scheiding niet. Er zijn ook problemen geweest met hergebruik van adres door sommige Wasabi-klanten, wat uiteraard zeer nadelig is voor de gebruiker.
+In tegenstelling tot Whirlpool, dat het ZeroLink-protocol implementeert dat een strikte scheiding tussen pre-mix en post-mix UTXO's garandeert, handhaaft Wabisabi deze strikte scheiding niet. Er zijn ook problemen geweest met adres-hergebruik door sommige Wasabi-klanten, wat uiteraard zeer nadelig is voor de gebruiker.
 
 
-In Wasabi versie 2.0 is een nieuw CoinJoin vergoedingenbeleid geïmplementeerd. Vanaf nu zijn de coördinatorvergoedingen vastgesteld op 0,3% voor UTXO's boven 0,01 Bitcoin, terwijl voor kleinere UTXO's deze vergoedingen volledig worden aangeboden. Bovendien zijn remixen voor deze kleinere UTXO's gratis, hoewel de gebruiker Mining vergoedingen blijft betalen voor alle transacties, inclusief remixen.
+In Wasabi versie 2.0 is een nieuw CoinJoin-vergoedingenbeleid geïmplementeerd. Vanaf nu zijn de coördinatorvergoedingen vastgesteld op 0,3% voor UTXO's boven 0,01 Bitcoin, terwijl voor kleinere UTXO's deze vergoedingen volledig worden aangeboden. Bovendien zijn remixen voor deze kleinere UTXO's gratis, hoewel de gebruiker mining-vergoedingen blijft betalen voor alle transacties, inclusief remixen.
 
 
-Dit in tegenstelling tot het beleid van Whirlpool, waar de vergoedingen vast blijven, ongeacht de grootte van de verkregen anonsets. Met Wasabi 2.0 worden coördinatorvergoedingen kwijtgescholden voor kleine UTXO's, maar de gebruiker moet nog steeds Mining vergoedingen betalen voor alle transacties, inclusief remixen.
+Dit in tegenstelling tot het beleid van Whirlpool, waar de vergoedingen vast blijven, ongeacht de grootte van de verkregen anonsets. Met Wasabi 2.0 worden coördinatorvergoedingen kwijtgescholden voor kleine UTXO's, maar de gebruiker moet nog steeds mining-vergoedingen betalen voor alle transacties, inclusief remixen.
 
 
-Terwijl ik deze regels schrijf, is het gebruik van Wabisabi aanzienlijk complexer geworden als gevolg van recente gebeurtenissen. Na de arrestatie van de oprichters van Samourai wallet, kondigde zkSNACKs, het bedrijf dat de ontwikkeling van Wasabi financiert en beheert, aan dat de CoinJoin coördinatordienst op 1 juni 2024 zou worden stopgezet. Deze coördinator, die standaard was ingesteld op Wasabi, was verantwoordelijk voor het overgrote deel van de liquiditeit.
+Terwijl ik deze regels schrijf, is het gebruik van Wabisabi aanzienlijk complexer geworden als gevolg van recente gebeurtenissen. Na de arrestatie van de oprichters van Samourai wallet, kondigde zkSNACKs, het bedrijf dat de ontwikkeling van Wasabi financiert en beheert, aan dat de CoinJoin-coördinatordienst op 1 juni 2024 zou worden stopgezet. Deze coördinator, die standaard was ingesteld op Wasabi, was verantwoordelijk voor het overgrote deel van de liquiditeit.
 
 
 Met het wegvallen van deze hoofdcoördinator moeten gebruikers nu verbinding maken met nieuwe, onafhankelijke coördinatoren. Deze verandering brengt een aantal problemen met zich mee: aan de ene kant hebben nieuwe coördinatoren mogelijk niet voldoende liquiditeit, waardoor de effectiviteit van coinjoins op het gebied van vertrouwelijkheid afneemt. Aan de andere kant bestaat het risico dat je een kwaadwillende coördinator tegen het lijf loopt. Deze situatie voegt aanzienlijke nieuwe risico's toe voor degenen die Wabisabi willen gebruiken.
 
 
-Naast de technische kwesties roept de beslissing van zkSNACKs, het bedrijf achter Wasabi, om gebruik te maken van de diensten van een stringanalysebedrijf om CoinJoin deelnemers te filteren, ernstige ethische en strategische vragen op. Het oorspronkelijke idee was om het gebruik van coinjoins op Wasabi door criminelen te voorkomen, een zet die legitiem lijkt. Het roept echter een paradox op: geld betalen aan een coördinator wiens primaire missie is om de vertrouwelijkheid van gebruikers te versterken, om hem vervolgens een bedrijf te laten financieren wiens doel het is om diezelfde vertrouwelijkheid in gevaar te brengen.
+Naast de technische kwesties roept de beslissing van zkSNACKs, het bedrijf achter Wasabi, om gebruik te maken van de diensten van een chainanalysebedrijf om CoinJoin-deelnemers te filteren, ernstige ethische en strategische vragen op. Het oorspronkelijke idee was om het gebruik van coinjoins op Wasabi door criminelen te voorkomen, een zet die legitiem lijkt. Het roept echter een paradox op: geld betalen aan een coördinator wiens primaire missie is om de vertrouwelijkheid van gebruikers te versterken, om hem vervolgens een bedrijf te laten financieren wiens doel het is om diezelfde vertrouwelijkheid in gevaar te brengen.
 
 
 Nog verontrustender is het principe van filteren, dat in schril contrast staat met de filosofie van Bitcoin om een open, ongecensureerd financieel systeem aan te bieden. Hoewel het gerechtvaardigd lijkt om criminele activiteiten te willen uitsluiten, zou dit filteren ook gevolgen kunnen hebben voor individuen wiens acties, hoewel ze in bepaalde contexten als illegaal worden geclassificeerd, moreel gerechtvaardigd of sociaal nuttig zouden kunnen zijn. Het voorbeeld van Edward Snowden illustreert deze dichotomie perfect: sommige regeringen beschouwen hem als een crimineel vanwege zijn onthullingen, terwijl anderen hem zien als een klokkenluider die handelde in het algemeen belang. Deze complexiteit onderstreept het potentiële gevaar van filteren dat, hoewel goed bedoeld, uiteindelijk de rechten en veiligheid van legitieme gebruikers kan ondermijnen. Ik had ook activisten en journalisten kunnen noemen die onder bepaalde autoritaire regimes worden vervolgd.
 
 
-Zoals je inmiddels wel begrepen zult hebben, gaat mijn voorkeur absoluut uit naar het Whirlpool model voor coinjoins op Bitcoin. Dit systeem onderscheidt zich door zijn nauwkeurigheid en biedt superieure garanties voor vertrouwelijkheid. Het is ook het enige dat een mix biedt die in een wiskundige context als perfect wordt beschouwd. Naar mijn mening vertegenwoordigt dit model de toekomst van coinjoins op Bitcoin. Ik nodig je uit om dit model verder uit te diepen in het volgende hoofdstuk.
+Zoals je inmiddels wel begrepen zult hebben, gaat mijn voorkeur absoluut uit naar het Whirlpool-model voor coinjoins op Bitcoin. Dit systeem onderscheidt zich door zijn nauwkeurigheid en biedt superieure garanties voor vertrouwelijkheid. Het is ook het enige dat een mix biedt die in een wiskundige context als perfect wordt beschouwd. Naar mijn mening vertegenwoordigt dit model de toekomst van coinjoins op Bitcoin. Ik nodig je uit om dit model verder uit te diepen in het volgende hoofdstuk.
 
 
 https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
-## Hoe Whirlpool werkt
+## De werking van Whirlpool
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
@@ -2797,7 +2797,7 @@ https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-
 
 
 
-Wat Whirlpool onderscheidt van andere CoinJoin methoden is het gebruik van "_ZeroLink_" transacties, die ervoor zorgen dat er strikt geen technisch verband mogelijk is tussen alle inputs en outputs. Deze perfecte mix wordt bereikt door een structuur waarin elke deelnemer een identieke hoeveelheid input bijdraagt (met uitzondering van de Mining-vergoedingen), waardoor een perfect gelijke output wordt gegenereerd.
+Wat Whirlpool onderscheidt van andere CoinJoin-methoden is het gebruik van "_ZeroLink_"-transacties, die ervoor zorgen dat er strikt genomen geen technisch verband mogelijk is tussen alle inputs en outputs. Deze perfecte mix wordt bereikt door een structuur waarin elke deelnemer een identieke hoeveelheid input bijdraagt (met uitzondering van de mining-vergoedingen), waardoor een perfect gelijke output wordt gegenereerd.
 
 
 Deze restrictieve benadering van inputs geeft Whirlpool's CoinJoin-transacties een uniek kenmerk: de totale afwezigheid van deterministische verbanden tussen inputs en outputs. Met andere woorden, elke output heeft een gelijke waarschijnlijkheid om te worden toegewezen aan een deelnemer, ten opzichte van alle andere outputs in de transactie.
@@ -2806,10 +2806,10 @@ Deze restrictieve benadering van inputs geeft Whirlpool's CoinJoin-transacties e
 ![BTC204](assets/nl/142.webp)
 
 
-### Hoe Whirlpool werkt
+### De algemene werking van Whirlpool
 
 
-Aanvankelijk was het aantal deelnemers in elke Whirlpool CoinJoin beperkt tot 5, met 2 nieuwkomers en 3 remixers (we leggen deze concepten later uit). De stijging van de transactiekosten voor On-Chain die in 2023 werd waargenomen, zette de teams van Samourai er echter toe aan hun model te heroverwegen om de vertrouwelijkheid te verbeteren en tegelijkertijd de kosten te verlagen. Dus, rekening houdend met de situatie op de fee-markt en het aantal deelnemers, kan de coördinator nu coinjoins organiseren met 6, 7 of 8 deelnemers. Deze verbeterde sessies staan bekend als "Surge Cycles". Het is belangrijk op te merken dat, ongeacht de configuratie, er altijd slechts 2 nieuwe deelnemers zijn bij coinjoins van Whirlpool.
+Aanvankelijk was het aantal deelnemers in elke Whirlpool-CoinJoin beperkt tot 5, met 2 nieuwkomers en 3 remixers (we leggen deze concepten later uit). De stijging van de on-chain transactiekosten die in 2023 werd waargenomen, zette de teams van Samourai er echter toe aan hun model te heroverwegen om de vertrouwelijkheid te verbeteren en tegelijkertijd de kosten te verlagen. Dus, rekening houdend met de situatie op de fee-markt en het aantal deelnemers, kan de coördinator nu coinjoins organiseren met 6, 7 of 8 deelnemers. Deze verbeterde sessies staan bekend als "Surge Cycles". Het is belangrijk op te merken dat, ongeacht de configuratie, er altijd slechts 2 nieuwe deelnemers kunnen zijn bij Whirlpool-coinjoins.
 
 
 Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outputs, die :
@@ -2817,7 +2817,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outpu
 
 
 
-- 5 ingangen en 5 outputs ;
+- 5 inputs en 5 outputs;
 
 
 ![BTC204](assets/nl/143.webp)
@@ -2825,7 +2825,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outpu
 
 
 
-- 6 ingangen en 6 outputs ;
+- 6 inputs en 6 outputs;
 
 
 ![BTC204](assets/nl/144.webp)
@@ -2833,7 +2833,7 @@ Zo worden Whirlpool-transacties gekenmerkt door een identiek aantal in- en outpu
 
 
 
-- 7 ingangen en 7 outputs ;
+- 7 inputs en 7 outputs;
 
 
 ![BTC204](assets/nl/145.webp)
@@ -2941,7 +2941,7 @@ In feite zijn in elke Whirlpool CoinJoin 2 gebruikers onder de inputs nieuwkomer
 ![BTC204](assets/nl/148.webp)
 
 
-Dankzij dit vergoedingensysteem onderscheidt Whirlpool zich echt van andere CoinJoin implementaties, omdat de anonimiteit van de UTXO's niet evenredig is met de prijs die de gebruiker betaalt. Hierdoor is het mogelijk om aanzienlijk hogere niveaus van anonimiteit te bereiken door alleen de pool entry fee en de Mining fee te betalen voor 2 transacties (de `Tx0` en de initiële mix).
+Dankzij dit vergoedingensysteem onderscheidt Whirlpool zich echt van andere CoinJoin-implementaties, omdat de anonimiteit van de UTXO's niet evenredig is met de prijs die de gebruiker betaalt. Hierdoor is het mogelijk om aanzienlijk hogere niveaus van anonimiteit te bereiken door alleen de pool entry fee en de Mining fee te betalen voor 2 transacties (de `Tx0` en de initiële mix).
 
 
 Het is belangrijk op te merken dat de gebruiker ook de Mining kosten zal moeten betalen om zijn UTXO's uit de pool te halen na het voltooien van zijn meervoudige coinjoins, tenzij hij de `mix to` optie heeft geselecteerd, die een externe adres biedt die de fondsen direct uit CoinJoin zal ontvangen, zonder extra transactie.
@@ -2959,7 +2959,7 @@ Om een CoinJoin via Whirlpool aan te maken, moet de wallet generate verschillend
 Een HD wallet kan theoretisch tot `2^(31)` verschillende accounts afleiden. De initiële rekening, standaard gebruikt op alle Bitcoin portemonnees, komt overeen met de `0'` index.
 
 
-Voor portefeuilles die zijn aangepast aan Whirlpool worden 4 accounts gebruikt om te voldoen aan de behoeften van het ZeroLink proces:
+Voor wallets die zijn aangepast aan Whirlpool worden 4 accounts gebruikt om te voldoen aan de behoeften van het ZeroLink proces:
 
 
 

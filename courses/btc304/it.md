@@ -1342,7 +1342,7 @@ Ora che i canali di comunicazione e i social network sono impostati e riflettono
 
 
 
-Su Twitter, iniziate a seguire gli account chiave che promuovono il Bitcoin a livello globale, come [@Bitcoin](https://twitter.com/Bitcoin) e [@planb_network](https://twitter.com/planb_network), nonché iniziative come [@FBCEglobal](https://twitter.com/FBCEglobal). Potete anche retwittare il famoso tweet di [@halfin](https://twitter.com/halfin) "Running Bitcoin" dell'11 gennaio 2009. E soprattutto, **seguite gli account delle community e dei meetup Bitcoin nel vostro Paese**.
+Su Twitter, inizia a seguire gli account chiave che promuovono Bitcoin a livello globale, come [@Bitcoin](https://twitter.com/Bitcoin) e [@planb_network](https://twitter.com/planb_network), nonché iniziative come [@FBCEglobal](https://twitter.com/FBCEglobal). Puoi anche retwittare il famoso tweet di [@halfin](https://twitter.com/halfin) "Running Bitcoin" dell'11 gennaio 2009. E soprattutto, **segui gli account delle community e dei meetup Bitcoin nel tuo Paese**.
 
 
 Questo crea **opportunità di seguirsi a vicenda, di taggarsi a vicenda e di aumentare la visibilità collettiva**. È già una pratica comune tra le circa 50 community Bitcoin in Francia, le iniziative "Satoshi Spritz" in Italia e i gruppi "Einundzwanzig" in Germania.
@@ -1362,13 +1362,13 @@ I pasti del **Cercle du Coin** sono un altro buon esempio.
 In Francia, può anche essere rilevante **seguire le iniziative come [@KonsensusFR](https://twitter.com/KonsensusFR), [@bitcoinpointfr](https://twitter.com/bitcoinpointfr), [@DecouvreBitcoin](https://twitter.com/DecouvreBitcoin) e [@btcmap](https://twitter.com/btcmap)**. Naturalmente questi sono solo suggerimenti e ogni community è libera di fare ciò che vuole, in completa decentralizzazione e autonomia.
 
 
-Come già detto, l'obiettivo di seguirsi a vicenda è quello di aumentare la visibilità reciproca. Più promuovete la vostra community e quelle della vostra regione/paese sui social network, più le persone parleranno di voi. Più le persone parleranno di voi, più sarà probabile che partecipino ai vostri eventi.
+Come già detto, l'obiettivo di seguirsi a vicenda è quello di aumentare la visibilità reciproca. Più promuovi la tua community e quelle della tua regione/paese sui social network, più le persone parleranno di voi. Più le persone parleranno di voi, più sarà probabile che partecipino ai vostri eventi.
 
 
-Il fatto di apprezzare e retwittare i post di altre community può quindi aiutare molto il loro sviluppo... e il vostro.
+Il fatto di apprezzare e retwittare i post di altre community può quindi aiutare molto il loro sviluppo... e il tuo.
 
 
-Si potrebbe anche suggerire che **gli organizzatori dei meetup e i bitcoiners che gestiscono le community si incontrino due o tre volte l'anno in videoconferenza per esaminare i progressi dei progetti nazionali e delle relative community. Questo può avvenire anche durante gli eventi di persona **
+Si potrebbe anche suggerire che **gli organizzatori dei meetup e i Bitcoiners che gestiscono le community, si incontrino due o tre volte l'anno in videoconferenza per esaminare i progressi dei progetti nazionali e delle relative community. Questo può avvenire anche durante gli eventi in persona.**
 
 L'obiettivo è semplice: raccogliere il feedback di tutti, discutere l'evoluzione delle community, condividere idee e progetti di successo e proporre soluzioni quando necessario. Una sintesi scritta dell'incontro può essere condivisa con gli organizzatori delle community del vostro Paese che non hanno potuto partecipare.
 
@@ -1381,17 +1381,17 @@ L'obiettivo è semplice: raccogliere il feedback di tutti, discutere l'evoluzion
 
 
 
-A questo punto, la vostra community è già attiva e funzionante. Non resta che accogliere altre persone interessate e aiutarla a crescere.
+A questo punto, la tua community è già attiva e funzionante. Non resta che accogliere altre persone interessate e aiutarla a crescere.
 
 
-Ma non si può andare avanti senza sapere che **esistono piattaforme in cui i bitcoiners possono trovare community e meetup vicini a loro**. Ecco perché è importante prendersi qualche minuto per richiedere l'inserimento in questi siti.
+Ma non si può andare avanti senza sapere che **esistono piattaforme in cui i Bitcoiners possono trovare community e meetup vicini a loro**. Ecco perché è importante prendersi qualche minuto per richiedere l'inserimento in questi siti.
 
 
 Questi includono:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere il proprio Sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
+- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere il proprio sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da bitcoiners, per bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
 - a seconda del vostro Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li avete ancora seguiti su Twitter o contattati per condividere informazioni sulla vostra community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero l'abitudine di**
     - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community

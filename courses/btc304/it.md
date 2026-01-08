@@ -2520,7 +2520,7 @@ Questa strategia può funzionare meglio in alcune aree rispetto ad altre, ma val
 e contattando le stazioni radio locali per proporre un'intervista o un'apparizione in podcast.
 
 
-Siate consapevoli che le interviste con i media possono essere complicate. Le parole possono essere estrapolate dal contesto o travisate. La preparazione è essenziale.
+Sii consapevole che le interviste con i media possono essere complicate. Le parole possono essere estrapolate dal contesto o travisate. La preparazione è essenziale.
 
 
 
@@ -2535,12 +2535,12 @@ Suggerimenti finali per qualsiasi progetto di sensibilizzazione:
 
 1) **Pianificare in anticipo**: definire gli obiettivi, le fasi necessarie e chi farà cosa.
 
-2) **Passo dopo passo**: evitate l'esaurimento ritmando i vostri sforzi.
+2) **Passo dopo passo**: evita l'esaurimento ritmando i tuoi sforzi.
 
 3) **Chiedere aiuto**: attingere ai propri membri e alle community vicine per ottenere supporto.
 
 
-Ricordate: ogni community Bitcoin è stata al vostro posto. Non esitate a imparare dalle loro esperienze e dai loro consigli.
+Ricordate: ogni community Bitcoin è stata al tuo posto. Non esitare a imparare dalle loro esperienze e dai loro consigli.
 
 
 
@@ -2558,28 +2558,28 @@ Ricordate: ogni community Bitcoin è stata al vostro posto. Non esitate a impara
 
 
 
-Quando il Bitcoin entrò nella sua quarta era al blocco 840.000, sempre più persone iniziarono a riconoscerlo come una rivoluzione tecnologica, finanziaria e sociale.
+Quando Bitcoin entrò nella sua quarta era al blocco 840.000, sempre più persone iniziarono a riconoscerlo come una rivoluzione tecnologica, finanziaria e sociale.
 
 
-Come l'ascesa di Internet, questa rivoluzione richiederà tempo, il che è in realtà un vantaggio. Questo dà alle persone la possibilità di **apprendere i fondamenti** del Bitcoin, di capire come usarlo e permette agli sviluppatori e alle aziende di **costruire i protocolli e le applicazioni** che ne sbloccheranno il pieno potenziale.
+Come l'ascesa di Internet, questa rivoluzione richiederà tempo, il che è in realtà un vantaggio. Questo dà alle persone la possibilità di **apprendere i fondamenti** di Bitcoin, capire come usarlo, permette agli sviluppatori e alle aziende di **costruire i protocolli e le applicazioni** che ne sbloccheranno il pieno potenziale.
 
 
-Nessuno può prevedere il futuro, ma possiamo **aspettarci un forte aumento dell'adozione del Bitcoin**. Ciò significa **essere pronti a tutti gli scenari**, anche quelli estremi, come il crollo del sistema finanziario tradizionale o il divieto assoluto del Bitcoin.
+Nessuno può prevedere il futuro, ma possiamo **aspettarci un forte aumento dell'adozione di Bitcoin**. Ciò significa **essere pronti a tutti gli scenari**, anche quelli estremi, come il crollo del sistema finanziario tradizionale o il divieto assoluto di Bitcoin.
 
 
-In questa settima e penultima parte del corso, esamineremo i punti chiave da tenere a mente durante la crescita della vostra community e dei meet-up.
+In questa settima e penultima parte del corso, esamineremo i punti chiave da tenere a mente durante la crescita della tua community e dei meet-up.
 
 
-Il primo, il più facile da prevedere, è l'aumento del numero di persone che si uniscono alla vostra community. Questo vi influenzerà in due modi principali:
+Il primo, il più facile da prevedere, è l'aumento del numero di persone che si uniscono alla vostra community. Questo ti influenzerà in due modi principali:
 
 
-1/ **I vostri canali di comunicazione (Telegram, Signal, Matrix, ecc.) finiranno per affollarsi**, rendendo più difficile seguire le conversazioni. Ci sono due cose da tenere a mente.
+1/ **I tuoi canali di comunicazione (Telegram, Signal, Matrix, ecc.) finiranno per affollarsi**, rendendo più difficile seguire le conversazioni. Ci sono due cose da tenere a mente.
 
 
-In primo luogo, se avete 500 persone che discutono di ogni tipo di argomento in un'unica chat, il volume dei messaggi e delle notifiche porterà inevitabilmente molti membri ad escludersi. È un buon momento per ripensare la vostra configurazione, ad esempio passando ai supergruppi di Telegram o a un server Discord, che consentono di organizzare facilmente le discussioni per argomento.
+In primo luogo, se hai 500 persone che discutono di ogni tipo di argomento in un'unica chat, il volume dei messaggi e delle notifiche porterà inevitabilmente molti membri ad escludersi. È un buon momento per ripensare la tua configurazione, ad esempio passando ai supergruppi di Telegram o a un server Discord, che consentono di organizzare facilmente le discussioni per argomento.
 
 
-In secondo luogo, più persone nei vostri canali significa più bot, più truffe e quindi più moderazione da gestire. Preparatevi a questo problema creando un insieme chiaro di regole a cui fare riferimento per la moderazione dei messaggi. Secondo la nostra esperienza, questo permette di evitare i conflitti, soprattutto se le regole sono facilmente accessibili nei vostri canali.
+In secondo luogo, più persone nei vostri canali significa più bot, più truffe e quindi più moderazione da gestire. Preparati a questo problema creando un insieme chiaro di regole a cui fare riferimento per la moderazione dei messaggi. Secondo la nostra esperienza, questo permette di evitare i conflitti, soprattutto se le regole sono facilmente accessibili nei tuoi canali.
 
 Un buon esempio è il regolamento open-source del **[Bitcoin Lille](https://bitcoinlille.fr/reglement/)** scritto qualche anno fa per il suo gruppo Telegram e il server Discord. Si basa su principi semplici e universali, ed è anche possibile ottenere [una versione personalizzabile del progetto qui](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
@@ -2589,50 +2589,50 @@ Un buon esempio è il regolamento open-source del **[Bitcoin Lille](https://bitc
 
 
 
-2/ **I vostri incontri ed eventi inizieranno ad attirare grandi folle, con molte facce nuove che si presentano per entrare in contatto**.
+2/ **I tuoi incontri ed eventi inizieranno ad attirare grandi folle, con molte facce nuove che si presentano per entrare in contatto**.
 
 Con questa impennata di presenze:
 
 
-    - potrebbe valere la pena di **trovare una sede più grande per i vostri incontri ed eventi**, soprattutto se in passato siete riusciti a ospitare solo una ventina di persone.
+    - potrebbe valere la pena di**trovare una sede più grande per i tuoi incontri ed eventi**, soprattutto se in passato sei riuscito a ospitare solo una ventina di persone.
     - se il numero di partecipanti diventa eccessivo, per i prossimi incontri è possibile **richiedere ai partecipanti di registrarsi** (tramite l'app Meetup o un semplice modulo) oppure **organizzare più incontri al mese** (per esempio: un incontro per principianti, uno intermedio e uno avanzato).
-    - Allo stesso tempo, aspettatevi molti nuovi arrivati nell'ecosistema, spesso con l'obiettivo principale di fare soldi. Per **mantenere le conversazioni focalizzate sul Bitcoin** in questi meetup in rapida crescita, è una buona idea:
+    - Allo stesso tempo, aspettati molti nuovi arrivati nell'ecosistema, spesso con l'obiettivo principale di fare soldi. Per **mantenere le conversazioni focalizzate su Bitcoin** in questi meetup in rapida crescita, è una buona idea:
 
 a) Includere una presentazione a tema **Bitcoin** durante questi eventi, in quanto ciò indirizzerà naturalmente gran parte della conversazione verso questo argomento (e lontano dall'ultimo progetto di shitcoin presumibilmente "rivoluzionario");
 
-b) **Evitare di stare solo con i colleghi bitcoiners**. Invece, fate in modo di **approcciare i nuovi arrivati**, anche se questo significa stare in fondo alla stanza per salutarli. Da lì, potrete parlare del motivo per cui sono venuti, di cosa stanno cercando, degli obiettivi (o anche dei principi fondamentali) della vostra community, e così via.
+b) **Evitare di stare solo con i colleghi Bitcoiners**. Invece, fai in modo di **approcciare i nuovi arrivati**, anche se questo significa stare in fondo alla stanza per salutarli. Da lì, potrete parlare del motivo per cui sono venuti, di cosa stanno cercando, degli obiettivi (o anche dei principi fondamentali) della vostra community, e così via.
 
 
-Infine, anche se è spiacevole doverlo dire, i truffatori possono presentarsi ai meetup. Il loro obiettivo potrebbe essere quello di parlare all'infinito del loro schema Ponzi, del loro MLM o di una "rivoluzione Blockchain alimentata dall'AI" È anche del tutto possibile che un giorno qualcuno con cattive intenzioni partecipi appositamente per riciclare denaro o cercare di acquistare BTC con banconote false.
+Infine, anche se è spiacevole doverlo dire, i truffatori possono presentarsi ai meetup. Il loro obiettivo potrebbe essere quello di parlare all'infinito del loro schema Ponzi, MLM(multi-level-marketing) o di una "rivoluzione blockchain alimentata dall'AI". È anche del tutto possibile che un giorno qualcuno con cattive intenzioni partecipi appositamente per riciclare denaro o cercare di acquistare bitcoin con banconote false.
 
 
 In situazioni difficili come queste, l'approccio più semplice è quello di spiegare gentilmente che l'incontro non è il luogo adatto, sostenendolo con qualsiasi argomentazione (ad esempio, menzionando che potrebbe essere presente la polizia in borghese).
 
 
-Se, sfortunatamente, si rifiutano di andarsene o di comportarsi in modo rispettoso (sì, è capitato), è possibile Address il gruppo direttamente durante il meetup per far sapere a tutti che una persona, o più persone, stanno tentando un'attività dannosa.
+Se, sfortunatamente, si rifiutano di andarsene o di comportarsi in modo rispettoso (sì, è capitato), è possibile rivolgersi al gruppo direttamente durante il meetup per far sapere a tutti che una persona, o più persone, stanno tentando un'attività dannosa.
 
 
 Fortunatamente queste situazioni sono rare e spesso più assurde che minacciose, ma è comunque meglio essere preparati.
 
 
-Per stare tranquilli: finché non infrangete personalmente la legge o non agevolate direttamente le transazioni illegali, non siete legalmente responsabili delle azioni altrui durante il vostro evento (almeno secondo la legge francese).
+Per stare tranquilli: finché non infrangi personalmente la legge o non agevoli direttamente le transazioni illegali, non sei legalmente responsabile delle azioni altrui durante il tuo evento (almeno secondo la legge francese).
 
 
-In un mondo ideale, avreste uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la vostra community cresce e creereste anche **rapporti solidi tra i bitcoiners** e i futuri bitcoiners durante il mercato ribassista, in modo che quando arriva la corsa al rialzo, abbiate il maggior numero possibile di persone pronte a fare da cuscino arancione agli altri.
+In un mondo ideale, avresti uno **spazio abbastanza grande da ospitare diverse decine di persone** man mano che la tua community cresce e creeresti anche **rapporti solidi tra i Bitcoiners** e i futuri Bitcoiners durante il mercato ribassista, in modo che quando arriva la corsa al rialzo, abbiate il maggior numero possibile di persone pronte a orange-pillare agli altri.
 
 
 
-## Decentramento dell'organizzazione comunitaria
+## Decentramento dell'organizzazione della community
 
 
 <chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
 
 
 
-Immaginate questo: avete gestito il vostro meet-up Bitcoin per anni e un giorno decidete di lasciare il lavoro, magari per allevare lama in Perù o inseguire onde perfette in El Salvador. Cosa succede alla vostra community quando ve ne andate?
+Immagina questo: hai gestito il tuo meet-up Bitcoin per anni e un giorno decidi di lasciare il lavoro, magari per allevare lama in Perù o inseguire onde perfette in El Salvador. Cosa succede alla tua community quando te ne andrai?
 
 
-Si prega di pianificare in anticipo il trasferimento della community da parte di:
+Si prega di pianificare in anticipo il trasferimento della community a scopo di:
 
 1) **Affidare i diritti di amministratore (o Ownership)** per i canali di comunicazione a membri fidati. I ruoli possono sempre cambiare in seguito.
 
@@ -2642,13 +2642,13 @@ Si prega di pianificare in anticipo il trasferimento della community da parte di
 Senza questo accesso, è quasi impossibile per chiunque altro subentrare in modo efficace. Ricominciare da zero, creando gruppi "biforcati" e ricostruendo la rete, è lento, faticoso e spesso demoralizzante.
 
 
-Se non avete un contatto fidato all'interno del vostro meet-up, potete sempre contattare @ProfEduStream, @copinmalin o @gabtribe su Telegram. Possono aiutarvi a trovare un successore motivato e a coordinare il trasferimento degli account e dei diritti di amministrazione.
+Se non hai un contatto fidato all'interno del tuo meet-up, puoi sempre contattare @ProfEduStream, @copinmalin o @gabtribe su Telegram. Possono aiutarti a trovare un successore motivato e a coordinare il trasferimento degli account e dei diritti di amministrazione.
 
 
 **Perché il decentramento è importante?**
 
 
-Se siete gli unici coinvolti e avete tutto il controllo, cosa succede se sparite? La risposta è semplice: anche la vostra community scomparirà.
+Se sei l'unico coinvolto e hai tutto il controllo, cosa succede se sparisci? La risposta è semplice: anche la tua community scomparirà.
 
 
 La soluzione: decentralizzare i compiti, i ruoli e l'accesso, in modo che il gruppo possa continuare a funzionare anche se uno degli organizzatori si ritira, per mancanza di tempo o, in uno scenario più cupo, perché arrestato per possesso di un Bitcoin non KYC.
@@ -2658,11 +2658,11 @@ La soluzione: decentralizzare i compiti, i ruoli e l'accesso, in modo che il gru
 
 Adottare **software libero e open-source** come [la suite framasoft](https://framasoft.org/fr/) per ridurre la dipendenza da piattaforme centralizzate e aggiungere resilienza contro potenziali censure statali o divieti Bitcoin.
 
-Utilizzate **strumenti di comunicazione criptati o anonimi** per proteggere la privacy dei vostri membri e le attività della vostra community.
+Utilizza **strumenti di comunicazione criptati o anonimi** per proteggere la privacy dei tuoi membri e le attività della tua community.
 
 
 
-## E se il Bitcoin diventasse il nemico pubblico n. 1?
+## E se Bitcoin diventasse il nemico pubblico n. 1?
 
 
 <chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
@@ -2676,13 +2676,13 @@ Il 5 aprile 1933, Franklin Roosevelt, 32° Presidente degli Stati Uniti d'Americ
 
 
 
-Naturalmente, la Grande Depressione (crollo del mercato azionario del 1929) non è la nostra realtà attuale. Ma un governo potrebbe un giorno fare lo stesso con il Bitcoin: **vietare del tutto il ownership privato?**
+Naturalmente, la Grande Depressione (crollo del mercato azionario del 1929) non è la nostra realtà attuale. Ma un governo potrebbe un giorno fare lo stesso con Bitcoin: **vietarne del tutto la proprietà privata?**
 
 
 La verità è che una misura orwelliana di questo tipo non impedirebbe a qualcuno di possedere veramente BTC, perché nessuna legge può impedire a una persona di memorizzare una sequenza di parole.
 
 
-Tuttavia, cosa succederebbe se i leader mondiali si rendessero finalmente conto del potenziale del Bitcoin di rimodellare l'ordine globale, anche a livello statale? Verrebbe allora etichettato come "Nemico pubblico n. 1"?
+Tuttavia, cosa succederebbe se i leader mondiali si rendessero finalmente conto del potenziale di Bitcoin di rimodellare l'ordine globale, anche a livello statale? Verrebbe allora etichettato come "Nemico pubblico n. 1"?
 
 
 Non dobbiamo cadere nel pensiero della cospirazione. Ma nulla ci impedisce di anticipare, decentralizzare ed educare, a partire da ora.
@@ -2693,7 +2693,7 @@ Non dobbiamo cadere nel pensiero della cospirazione. Ma nulla ci impedisce di an
 
 
 
-# Unire i bitcoiners
+# Unire i Bitcoiners
 
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
@@ -2707,16 +2707,16 @@ Non dobbiamo cadere nel pensiero della cospirazione. Ma nulla ci impedisce di an
 
 
 
-Satoshi Nakamoto ha creato uno strumento rivoluzionario che sta già cambiando il nostro mondo. Ma sta a noi, i bitcoiners, decidere come plasmare il futuro.
+Satoshi Nakamoto ha creato uno strumento rivoluzionario che sta già cambiando il nostro mondo. Ma sta a noi, i Bitcoiners, decidere come plasmare il futuro.
 
 
-Il Bitcoin è una vasta tana di coniglio, che tocca la storia, l'economia, la letteratura, la matematica, l'informatica e la crittografia. Nessuno può esplorarla tutta, e questo fa parte della sua bellezza.
+Bitcoin è una vasta tana di coniglio, che tocca la storia, l'economia, la letteratura, la matematica, l'informatica e la crittografia. Nessuno può esplorarla tutta, e questo fa parte della sua bellezza.
 
 
 Poiché il nostro tempo è limitato, la chiave è rimanere umili, continuare a imparare e condividere la conoscenza Exchange con gli altri. In questo modo, ognuno di noi può raggiungere il livello di comprensione che cerca.
 
 
-**Le community globali Bitcoin svolgono quindi un ruolo fondamentale nella costruzione del mondo di domani**: spazi in cui i bitcoiners possono **Exchange, costruire e condividere**. **Insieme**.
+**Le community Bitcoin globali svolgono quindi un ruolo fondamentale nella costruzione del mondo di domani**: spazi in cui i bitcoiners possono **scambiare, costruire e condividere**. **Insieme**.
 
 
 
@@ -2725,58 +2725,58 @@ Poiché il nostro tempo è limitato, la chiave è rimanere umili, continuare a i
 
 
 
-Come avete visto nel corso di questo corso, **costruire una community Bitcoin e organizzare incontri** richiede pianificazione e motivazione. A seconda dei vostri obiettivi e del tempo che potete dedicare, potreste intraprendere progetti più ambiziosi o mantenere le cose semplici.
+Come hao visto nel corso di questo corso, **costruire una community Bitcoin e organizzare incontri** richiede pianificazione e motivazione. A seconda dei tuoi obiettivi e del tempo che puoi dedicare, potresti intraprendere progetti più ambiziosi o mantenere le cose semplici.
 
 
-In ogni caso, l'obiettivo è lo stesso: **suscitare interesse e aiutare il Bitcoin a crescere nella vostra città**.
+In ogni caso, l'obiettivo è lo stesso: **suscitare interesse e aiutare Bitcoin a crescere nella tua città**.
 
 
-Per concludere i molti capitoli e sottocapitoli che abbiamo trattato, ecco un **piano d'azione conciso** per creare la vostra community Bitcoin:
+Per concludere i molti capitoli e sottocapitoli che abbiamo trattato, ecco un **piano d'azione conciso** per creare la tua community Bitcoin:
 
-1) Decidete in anticipo perché volete creare una community Bitcoin, quali sono i vostri obiettivi e in quale città o località opererete.
+1) Decidi in anticipo perché vuoi creare una community Bitcoin, quali sono i tuoi obiettivi e in quale città o località opererete.
 
-2) Entrate in contatto con le community esistenti nelle vicinanze e non esitate a chiedere loro consigli quando ne avete bisogno;
+2) Entra in contatto con le community esistenti nelle vicinanze e non esita a chiedere loro consigli quando ne hai bisogno;
 
-3) Creare un'identità chiara per la community che rifletta la community e la località (logo, poster, banner, volantini, ecc.)
+3) Crea un'identità chiara per la community che rifletta la community stessa e la località (logo, poster, banner, volantini, ecc.)
 
-4) Creare canali di comunicazione e reti sociali come Telegram, Twitter, NOSTR, Discord o Simplex. Considerate anche canali decentralizzati e/o resistenti alla censura.
+4) Crea canali di comunicazione e reti sociali come Telegram, Twitter, NOSTR, Discord o Simplex. Considera anche canali decentralizzati e/o resistenti alla censura.
 
-5) Seguite altri incontri e community locali online e inserite il vostro gruppo in varie mappe e piattaforme per aumentare la visibilità.
+5) Segui altri incontri e community locali online e inserite il vostro gruppo in varie mappe e piattaforme per aumentare la visibilità.
 
 
-Una volta che i canali di comunicazione della vostra community sono attivi:
+Una volta che i canali di comunicazione della tua community sono attivi:
 
-6) Lanciate un sondaggio per proporre il vostro primo incontro una volta che sentite un interesse sufficiente.
+6) Lancia un sondaggio per proporre il tuo primo incontro una volta che senti un interesse sufficiente.
 
-7) Definite gli obiettivi che volete raggiungere con questo evento di persona.
+7) Definisci gli obiettivi che vuoi raggiungere con questo evento di persona.
 
-8) Scegliete un luogo accogliente e ben posizionato, in linea con i vostri obiettivi, e prenotate un tavolo o una sala.
+8) Scegli un luogo accogliente e ben posizionato, in linea con i tuoi obiettivi, e prenota un tavolo o una sala.
 
-9) Promuovete l'evento sui vostri canali una settimana prima e poi di nuovo due o tre giorni prima della data.
+9) Promuovi l'evento sui tuoi canali una settimana prima e poi di nuovo due o tre giorni prima della data.
 
-10) Inserite il vostro evento su siti e piattaforme rilevanti.
+10) Inserisci il tuo evento su siti e piattaforme rilevanti.
 
-11) Il giorno dell'evento, lasciate che l'evento scorra in modo naturale e coinvolgete i partecipanti, guidando delicatamente le discussioni se necessario.
+11) Il giorno dell'evento, lascia che l'evento scorra in modo naturale e coinvolgi i partecipanti, guidando delicatamente le discussioni se necessario.
 
 
 Dopo:
 
-12) Concentrarsi sul mantenimento e sul coinvolgimento dei partecipanti in modo che ritornino.
+12) Concentrati sul mantenimento e sul coinvolgimento dei partecipanti in modo che ritornino.
 
-13) Suggerite progetti o iniziative semplici e avviate quelli che vi stanno a cuore personalmente. Se qualcun altro vuole condurre un progetto diverso, sostenetelo dove potete.
+13) Suggerisci progetti o iniziative semplici e avviate quelli che vi stanno a cuore personalmente. Se qualcun altro vuole condurre un progetto diverso, sostienilo dove puoi.
 
 
 Infine:
 
-14) Anticipare il futuro pensando a una sede più ampia per gli incontri, a regole per i canali di comunicazione, a un sito web, ecc;
+14) Anticipa il futuro pensando a una sede più ampia per gli incontri, a regole per i canali di comunicazione, a un sito web, ecc;
 
-15) Incoraggiate gli esercizi commerciali locali ad accettare il Bitcoin, anche semplicemente chiedendolo ogni volta che fate acquisti.
+15) Incoraggia gli esercizi commerciali locali ad accettare Bitcoin, anche semplicemente chiedendolo ogni volta che fai acquisti.
 
 16) Delegare compiti e diritti di amministrazione del canale/rete a membri fidati.
 
-17) Promuovete ampiamente la vostra community in modo che più persone si uniscano e coinvolgete coloro che mostrano interesse.
+17) Promuovi ampiamente la tua community in modo che più persone si uniscano e coinvolgete coloro che mostrano interesse.
 
-18) Andate oltre con i progetti che vi piacciono e che sono importanti per voi.
+18) Prosegui i progetti che ti piacciono e che sono importanti per te.
 
 
 Per una panoramica più rapida, questo video di 21 minuti riassume questi passaggi:
@@ -2787,7 +2787,7 @@ Per una panoramica più rapida, questo video di 21 minuti riassume questi passag
 
 
 
-Ricordate: **Non siete soli, le community esistenti sono qui per sostenervi**.
+Ricordate: **Non sei solo, le community esistenti sono qui per sostenerti**.
 
 
 
@@ -2798,24 +2798,24 @@ Ricordate: **Non siete soli, le community esistenti sono qui per sostenervi**.
 
 
 
-Quando si cade nella tana del coniglio del Bitcoin, la prospettiva della vita cambia.
+Quando si cade nella tana del coniglio di Bitcoin, la prospettiva della vita cambia.
 
-Dentro di voi sentite la voglia di andare oltre, di incontrare altri che stanno affrontando lo stesso viaggio mentale.
+Dentro di te senti la voglia di andare oltre, di incontrare altri che stanno affrontando lo stesso percorso mentale.
 
 
-Questa energia vi spinge a contribuire al puzzle condividendo la vostra scoperta: Bitcoin. Vi ispira anche a pensare al mondo di domani, quello che volete contribuire a costruire, e alle community che lavorano per realizzarlo.
+Questa energia ti spinge a contribuire al puzzle condividendo la tua scoperta: Bitcoin. Ti ispira anche a pensare al mondo di domani, quello che vuoi contribuire a costruire, e alle community che lavorano per realizzarlo.
 
 
 La costruzione di una community è un lungo tunnel che richiede motivazione, strategia, dedizione e tempo. Può essere un compito ingrato, quindi è importante procedere passo dopo passo per evitare di bruciarsi.
 
 
-**Pensate a voi stessi, ai vostri limiti**. E sebbene il Bitcoin possa guidarvi notte e giorno, **non cercate di fare tutto da soli, o vi brucerete**.
+**Pensa a te stesso, ai tuoi limiti**. E sebbene Bitcoin possa guidarvi notte e giorno, **non cercare di fare tutto da solo, o andrai in esaurimento**.
 
 
-Invece, **cercate aiuto dai bitcoiners che hanno già percorso lo stesso tunnel, esplorato gli stessi sentieri e costruito gli stessi strumenti**. Vi farà risparmiare un sacco di tempo.
+Invece, **cerca aiuto dai Bitcoiners che hanno già percorso lo stesso tunnel, esplorato gli stessi sentieri e costruito gli stessi strumenti**. Ti farà risparmiare un sacco di tempo.
 
 
-**Invitate coloro che vi seguono in questa avventura a dare una mano**, anche se delegare richiede più tempo per alcuni compiti. A lungo termine, la vostra community sarà più forte e più resistente.
+**Invita coloro che ti seguono in questa avventura a dare una mano**, anche se delegare richiede più tempo per alcuni compiti. A lungo termine, la tua community sarà più forte e più resistente.
 
 
 
@@ -2823,10 +2823,10 @@ Invece, **cercate aiuto dai bitcoiners che hanno già percorso lo stesso tunnel,
 
 
 
-Da soli, potete esplorare rapidamente uno dei tanti tunnel della tana del coniglio del Bitcoin. Ma ricordate, ci sono innumerevoli altre direzioni da esplorare.
+Da solo, puoi esplorare rapidamente uno dei tanti tunnel della tana del coniglio di Bitcoin. Ma ricorda, ci sono innumerevoli altre direzioni da esplorare.
 
 
-**Creando e/o entrando a far parte di una community di bitcoiners, e condividendo e scambiando regolarmente con loro, vi muoverete in tutte le direzioni della tana del coniglio allo stesso tempo**
+**Creando e/o entrando a far parte di una community di Bitcoiners, e condividendo e interagendo regolarmente con loro, ti muoverai in tutte le direzioni della tana del coniglio allo stesso tempo**
 
 
 
@@ -2837,10 +2837,10 @@ Da soli, potete esplorare rapidamente uno dei tanti tunnel della tana del conigl
 
 
 
-In questo corso BTC 304 abbiamo approfondito come creare una community o un meet-up e come lanciare una serie di progetti.
+In questo corso "BTC 304" abbiamo approfondito come creare una community o un meet-up e come lanciare una serie di progetti.
 
 
-Quando la vostra community è pronta a fare il passo successivo, **potete creare un'associazione formale**.
+Quando la tua community è pronta a fare il passo successivo, **puoi creare un'associazione formale**.
 
 In Francia, ad esempio, delle circa sessanta community e meet-up, quasi una dozzina ha lo status di associazione.
 
@@ -2852,7 +2852,7 @@ I vantaggi sono duplici:
 - **Organizzazione strutturata**: è possibile definire ruoli chiari, facilitando la gestione della community e la realizzazione dei progetti.
 
 
-Con l’obiettivo di far crescere ulteriormente la vostra community, **non si esclude che un seguito di questa formazione possa essere pubblicato su [Plan ₿ Academy](https://planb.academy/) nei prossimi mesi**.
+Con l’obiettivo di far crescere ulteriormente la tua community, **non si esclude che un seguito di questa formazione possa essere pubblicata su [Plan ₿ Academy](https://planb.academy/) nei prossimi mesi**.
 
 
 
@@ -2860,7 +2860,7 @@ Con l’obiettivo di far crescere ulteriormente la vostra community, **non si es
 La prossima sessione potrebbe esplorare argomenti avanzati quali:
 
 
-- Progettare presentazioni o workshop per i vostri incontri e fissare obiettivi chiari.
+- Progettare presentazioni o workshop per i tuoi incontri e fissare obiettivi chiari.
 - Organizzazione di un evento su larga scala con circa 100 partecipanti.
 
 Per questo, ci baseremo sulle esperienze delle community che hanno già creato i propri eventi e presentazioni.

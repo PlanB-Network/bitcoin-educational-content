@@ -589,7 +589,7 @@ Shekel d'argent, iyo akenshi ivugwa mu bisate nk’ikigereranyo c’agaciro, bir
 
 
 
-### Ubuhinga bwikora hamwe nubuhinga bukwirikiranwa ni nzego....................
+### Ubuhinga bwikora hamwe nubuhinga bukwirikiranwa ni nzego.
 
 
 
@@ -605,7 +605,7 @@ Ivyabaye muri Mezopotamiya biratanga ingero ziramvye z’ugutera imbere kw’imi
 
 
 
-Ico gihe c’imbuto kirahishura kandi ibibazo vy’ububasha biri mu buhinga bwose bw’amahera: ni nde agenzura ubuhinga, ni nde asobanura amategeko, n’ingene uburyo busanzwe n’imigenzo izwi cane bishirwa ahabona. Ivyo bibazo vy’ishimikiro vyagumyeho mu mateka yose y’ubutunzi, bishika no ku mpari zo muri iki gihe ku mafaranga y’ubuhinga bwa none n’amahera y’ubuhinga bwa none.
+Ico gihe c’imbuto kirerekana kandi ibibazo vy’ububasha biri mu buhinga bwose bw’amahera: ni nde agenzura ubuhinga, ni nde asobanura amategeko, n’ingene uburyo busanzwe n’imigenzo izwi cane bishirwa ahabona. Ivyo bibazo vy’ishimikiro vyagumyeho mu mateka yose y’ubutunzi, bishika no ku mpari zo muri iki gihe ku mafaranga y’ubuhinga bwa none n’amahera y’ubuhinga bwa none(cryptomonnaies).
 
 
 
@@ -616,7 +616,7 @@ Ico gihe c’imbuto kirahishura kandi ibibazo vy’ububasha biri mu buhinga bwos
 
 
 
-## Ubuhinga bukomeye bwo mu gihe c'umuringa
+## Ubuhinga bukomeye bwo mu gihe ca bronze
 
 
 <chapterId>fab9334c-7385-5d7c-ad40-7d152beb22a1</chapterId>
@@ -624,20 +624,20 @@ Ico gihe c’imbuto kirahishura kandi ibibazo vy’ububasha biri mu buhinga bwos
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
-Muri iki gice citwa "Ivyiyumviro bikomeye vy'Ikinjana c'Umuringa", tuzotangura n'igice co mu gitabu *A History of Money: From Ancient Day gushika Ubu* canditswe na Glyn Davies, ivyo mbona ko ari intangamarara nziza cane y'iki gice kivuga ku vyiyumviro bikomeye vy'igihe ca kera.
+Muri iki gice citwa "Ivyiyumviro bikomeye vy'Ikinjana ca bronze", tuzotangura n'igice co mu gitabu *A History of Money: From Ancient Day gushika Ubu* canditswe na Glyn Davies, ivyo mbona ko ari intangamarara nziza cane y'iki gice kivuga ku vyiyumviro bikomeye vy'igihe ca kera.
 
 
 
-> Toynbee yerekana "imico kama" itandukanye nka mirongo ibiri n'umwe, ariko kubera ko cumi n'itanu muri izo zavuye mu buryo butaziguye canke butaziguye ku ngero za kera, agabanya igitigiri c'imico kama yateye imbere yigenga, akayigira itandatu: Abasumeri, Abanyamisiri, Abamino, Abashinwa, Abamaya n'Abanyande. Muri abo, Abanya-Inca bo mu misozi ya Andes ni bo bonyene bashoboye gushika ku rugero rwo hejuru rw’ubutekerezi batakoresheje amahera, naho nyene mu buryo buteye ubwoba bari bafise ibikoresho vyinshi muri rusangi bibonwa ko ari vyo vyiza kuruta ibindi vyose vyo gukoresha nk’amahera - inzahabu n’ifeza.
+> Toynbee yerekana "imico kama" itandukanye nka mirongo ibiri n'umwe, ariko kubera ko cumi n'itanu muri izo zavuye mu buryo buziguye canke butaziguye ku ngero za kera, agabanya igitigiri c'imico kama yateye imbere yigenga, akayigira itandatu: Aba sumérienne, Abanyamisiri, aba minoenne, Abashinwa, Aba maya n'andine. Muri abo, Abanya Incas bo mu misozi ya Andes ni bo bonyene bashoboye gushika ku rugero rwo hejuru rw’ubutekerezi batakoresheje amahera, naho nyene mu buryo butangaje bari bafise ibikoresho vyinshi muri rusangi bibonwa ko ari vyo vyiza kuruta ibindi vyose vyo gukoresha nk’amahera - inzahabu n’ifeza.
 
-Abanya-Inca ntibari bafise uburyo bwo gukoresha amahera, mugabo bari bafise ivyuma vy’agaciro vyinshi cane. Ivyo ni ibiteye ubwoba cane. Reka tubandanye n’ivyo twavuze:
-
-
-
-> Uko igihugu kirushiriza kugira imigwi, kandi uburyo bwaco bwo gutegura bukaba bukora neza cane, ni ko n’ugukoresha amahera bigenda bigabanuka ku baturage baco. Ivyo bishobora gusigura igituma abanyagihugu b’Abanyasipaniyo bavumbuye ko Abanyamegizike, intwaro yabo yari ifise umwidegemvyo mwinshi, bakoresha ubudasiba ifu y’inzahabu (ibikwa mu bikoresho bibonerana) n’ibitoke vya kakawo (ibikwa kugira ngo umuntu yishure amahera menshi mu mifuko y’ibice 24.000) nk’amahera, mu gihe ibihushanye n’ivyo, bakoresha cane nta mafaranga yari afise na gato: ikintu kidasanzwe cemezwa n’itegeko rikomeye. Inkomoko y’amahera mu Bushinwa yari yigenga rwose ku bindi bihugu; ariko rero, ukuntu ubuhinga bw’Abasumeri, Abanyamisiri n’Abamino bwari hafi cane, biratuma habaho amakenga ku bijanye n’ingene umwe wese muri bo atamenya imigenzo y’amahera, canecane turavye ubudandaji bwinshi bwashinzwe kuva mu bihe vya kera cane.
+Abanya-Inca ntibari bafise uburyo bwo gukoresha amahera, mugabo bari bafise ivyuma vy’agaciro vyinshi cane. Ivyo bikaba bitangaje cane. Reka tubandanye n’ivyo twavuze:
 
 
-Mu Bushinwa, ibiceri vyakozwe mu buryo butandukanye rwose n’imigenzo y’Abanyaburaya. Yari amahera ya fiat kuva mu ntango. Vyari ibiceri vy’ibiceri.
+
+> Uko igihugu kirushiriza kugira integuro irimwo ubwenge, niko uburyo bwaco bwo gutegura bukora neza cane, ni ko n’ugukoresha amahera bigenda bigabanuka ku baturage baco. Ivyo bishobora gusigura igituma abaturage b’Aba espagnol bavumbuye ko Abanya mexique, intwaro yabo yari ifise umwidegemvyo mwinshi, bakoresha ubudasiba ifu y’inzahabu (ibikwa mu bikoresho bibonerana) n’ibitoke vya kakawo (ibikwa kugira ngo umuntu yishure amahera menshi mu mifuko y’ibice 24.000) nk’amahera, mu gihe ibitandukanye nivyo,aba incas, bakoresha urukurikirane rwinzego rukomye ,ntamafaranga bakoresha : ikintu kidasanzwe cemezwa n’itegeko rikomeye. Inkomoko y’amahera mu Bushinwa yari yigenga rwose ku bindi bihugu; ariko rero, ukuntu ubuhinga bw’Aba sumérienne, Abanyamisiri n’Aba minoenne bwasize amakenga ku bijanye n’ingene umwe wese muri bo atamenya ingene uburyo bwamahera bukora, canecane turavye ubudandaji bwinshi bwashinzwe kuva mu bihe vya kera cane.
+
+
+Mu Bushinwa, ibiceri vyakozwe mu buryo butandukanye rwose n’imigenzo y’Abanyaburaya. Yari amahera ya fiat kuva mu ntango. Vyari "monnaie coulée.".
 
 
 Kandi aha, Bwana Davies avuga ubudandaji. Hariho vy’ukuri uguhanahana hagati y’Abashinwa n’abandi bantu mu bihe bimwebimwe, ariko uburyo bwo guhanahana ubudandaji n’amahanga bwari ubudodo. Nk’uko tuzobibona mu nyuma, inzahabu yarakoreshwa no mu turere two ku mipaka y’Ubushinwa, aho Abashinwa bari bake. Kandi mbere n’ubudandaji mpuzamakungu; kubera ivyo, vyari ubudodo.
@@ -666,18 +666,18 @@ Ni we yabaye umutware wa mbere w’Ubwami bwa Akadiya, ari bwo bundi buhinga bwa
 
 
 
-Tekereza ko vy’ukuri hari mbere n’amabaruwa y’ibumba. Ivyo bisate vyari gushobora kuzingizwa mu mabaruwa y’ibumba, hanze hakaba hariho umukono w’uwo muntu kugira ngo bibe ibanga. Abantu rero baramenagura ibahasha kugira ngo baronke ico gipande. Uwo murongo w’iposita tuwufitiye Sarugoni w’i Akadi.
+Tekereza ko vy’ukuri hari hariho nama anverope akozwe mw’ibumba. Ivyo bisate vyari gushobora kuzingirwa muma enverope yo mw'ibumba, inyuma hakaba hariho umukono w’uwo muntu kugira ngo birange nyene umukono. Abantu rero baramenagura ibahasha kugira ngo baronke ico gipande. Uwo murongo w’iposita tuwukesha Sargon d'Akkad.
 
 
 
-Hanyuma hariho Babiloni, igisagara gikomeye cabaye umurwa mukuru w’Ubwami bwa Babiloni. Iyindi ntara, izwi cane kubera Ziggurat n’ibihome vyayo biteye igomwe, be n’Itegeko ry’i Hammurabi rizwi cane, rizwi cane kubera itegeko ry’amategeko ryari riteye imbere cane.
+Hanyuma hariho Babiloni, igisagara gikomeye cabaye umurwa mukuru w’Ubwami bwa Babiloni. Iyindi ntara, izwi cane kubera Ziggurat n’ibihome vyayo biteye igomwe, be n’ubuhinga bwa Hammourabi rizwi cane, rizwi cane kubera amategeko y'izengo yazo ateye imbere cane.
 
 
 
-Kandi ibisagara bibiri vyo gusozera iki gice. Turafise Ashuri, yari umurwa mukuru w’Ubwami bwa Ashuri, ikibanza gihambaye c’idini. Kandi turafise Ninewe, uwahavuye aba umurwa mukuru w’Ubwami bwa Ashuri. Baciye bimurira umurwa mukuru wabo ng’aho kandi uzwi kubera ingabo zawo zikomeye, ibihome bininibinini n’amasomero. Kandi ni kimwe mu bibanza bishoboka vy’Itongo ry’Imigani ry’i Babiloni. Turakunda kwumva ivy’ico gitangaza kizwi cane c’isi ya kera.
+Kandi ibisagara bibiri vyo gusozera iki gice. Turafise Assur, yari umurwa mukuru w’Ubwami bwa Assur nyene, ikibanza gihambaye c’idini. Kandi turafise Ninewe, uwahavuye aba umurwa mukuru w’Ubwami bwa Assur . Baciye bimurira umurwa mukuru wabo ng’aho kandi uzwi kubera ingabo zawo zikomeye, ibihome bininibinini n’amasomero. Kandi ni kimwe mu bibanza bishoboka vy’Itongo ry’Imigani ry’i Babiloni. Turakunda kwumva ivy’ico gitangaza kizwi cane c’isi ya kera.
 
 
-Ariko nta n’akarongo k’ayo matongo azwi cane amanitswe i Babiloni kariho. Ku rundi ruhande, i Ninewe hari ibimenyamenya vy’abacukuzi b’ivya kera vyerekana ko hari amatongo yari ku magorofa menshi. Birashoboka ko abahinga mu vya kahise b’Abagiriki nka Herodote bavyivangamwo Nineve na Babiloni. Igihe bagendeye ibisagara vyo muri Mezopotamiya, kumbure bavyita Babiloni. I Nineve harabonetse ibimenyetso vy’amatongo azwi cane yamanitse, kandi intiti zirashobora kwibaza nimba Ninive ari co kibanza kizwi cane aho ayo matongo yari, kikaba citwa Amatongo Amanika y’i Babiloni.
+Ariko nta n’akarongo k’ayo matongo azwi cane amanitswe i Babiloni kariho. Ku rundi ruhande, i Ninive hari ivyemezo vy’abacukuzi b’ivya kera vyerekana ko hari amatongo yari ku magorofa menshi. Birashoboka ko abahinga mu vya kahise b’Abagiriki nka Herodote bashobora kuba baritiranya Nineve na Babiloni. Igihe bagendeye ibisagara vyo muri Mezopotamiya, kumbure bavyita Babiloni. I Nineve harabonetse ibimenyetso vy’amatongo azwi cane yamanitse, kandi incabwenge zirashobora kwibaza nimba Ninive ari co kibanza cigitangaza hari amatongo(jardin) yavurwa " jardins suspendus de Babylone ".
 
 
 

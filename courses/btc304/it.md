@@ -2178,12 +2178,12 @@ Il prezzo unitario di queste carte varia in genere da 2,50€ a 5€, a seconda 
 
 
 
-A un certo punto della crescita della vostra community, può essere utile avere un sito web che funga da vetrina per il vostro gruppo, gli incontri, gli eventi e i contenuti educativi.
+A un certo punto della crescita della tua community, può essere utile avere un sito web che funga da vetrina per il gruppo, gli incontri, gli eventi e i contenuti educativi.
 
 
-Creare un sito web richiede tempo, ma l'esercitazione che segue mostra come creare un sito WordPress gratuito in soli 30 minuti. Sarete in grado di impostare una homepage personalizzabile, pubblicare articoli e incorporare media come video di YouTube, immagini o PDF.
+Creare un sito web richiede tempo, ma l'esercitazione che segue mostra come creare un sito WordPress gratuito in soli 30 minuti. Sarai in grado di impostare una homepage personalizzabile, pubblicare articoli e incorporare media come video di YouTube, immagini o PDF.
 
-In seguito, potrete acquistare il vostro nome di dominio o addirittura ospitare il sito sul vostro server.
+In seguito, potrai acquistare il tuo nome di dominio o addirittura ospitare il sito sul tuo server.
 
 
 
@@ -2194,7 +2194,7 @@ In seguito, potrete acquistare il vostro nome di dominio o addirittura ospitare 
 Sebbene esistano altre piattaforme CMS, alcune con interfacce più semplici e adatte ai principianti, di solito sono molto meno personalizzabili. Ecco perché WordPress è generalmente il miglior punto di partenza.
 
 
-WordPress supporta anche un'ampia gamma di plug-in (alcuni a pagamento ma di alta qualità) che possono espandere in modo significativo le capacità del vostro sito senza richiedere competenze di codifica. Un esempio è il [tema premium "Uncode"](https://undsgn.com/uncode/)
+WordPress supporta anche un'ampia gamma di plug-in (alcuni a pagamento ma di alta qualità) che possono espandere in modo significativo le capacità del tuo sito senza richiedere competenze di codifica. Un esempio è il [tema premium "Uncode"](https://undsgn.com/uncode/)
 
 
 
@@ -2205,12 +2205,12 @@ WordPress supporta anche un'ampia gamma di plug-in (alcuni a pagamento ma di alt
 
 
 
-Alcuni membri della vostra community potrebbero voler creare contenuti multimediali, come ad esempio video didattici.
+Alcuni membri della tua community potrebbero voler creare contenuti multimediali, come ad esempio video didattici.
 
-Potreste anche tenere delle presentazioni in occasione di incontri o addirittura di università.
+Potresti anche tenere delle presentazioni in occasione di incontri o addirittura di università.
 
 
-**Quando arriverà il momento, un canale video dedicato vi permetterà di pubblicare e centralizzare tutti i vostri contenuti in un unico luogo**
+**Quando arriverà il momento, un canale video dedicato ti permetterà di pubblicare e centralizzare tutti i tuoi contenuti in un unico luogo**
 
 
 Le piattaforme più diffuse includono:
@@ -2221,7 +2221,7 @@ Le piattaforme più diffuse includono:
 - [**peertube**](https://joinpeertube.org/fr_FR), consente di ospitare la propria piattaforma video, anche se è più complessa da configurare.
 
 
-Qualunque sia la vostra scelta, progettate immagini specifiche per la piattaforma per rendere il vostro canale attraente. Canva, di cui si è parlato nella [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), offre una categoria "Miniature di YouTube" con design predefiniti e personalizzabili.
+Qualunque sia la tua scelta, progetta immagini specifiche per la piattaforma per rendere il tuo canale attraente. Canva, di cui si è parlato nella [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), offre una categoria "Miniature di YouTube" con design predefiniti e personalizzabili.
 
 
 
@@ -2237,7 +2237,7 @@ Per il **montaggio video**, [Wondershare Filmora](https://filmora.wondershare.fr
 Per l'intro e l'outro del vostro **video**, potete trovare facilmente dei modelli adatti su Canva. Personalizzate il design secondo i vostri gusti, scaricatelo e aggiungetelo al vostro software di editing.
 
 
-Suggerimento: se Bitcoin dovesse essere vietato o censurato, conservate sempre un backup locale dei vostri video su un'unità Hard.
+Suggerimento: se Bitcoin dovesse essere vietato o censurato, conservate sempre un backup locale dei vostri video su un hard disk.
 
 
 
@@ -2261,7 +2261,7 @@ Le piattaforme podcast più diffuse includono:
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Ogni piattaforma ha il suo pubblico, quindi essere presenti su più piattaforme amplierà la vostra portata. **[Spotify per podcaster](https://podcasters.spotify.com/) semplifica questo aspetto, consentendovi di caricare il vostro podcast una volta sola e generate un feed RSS per le altre piattaforme**.
+Ogni piattaforma ha il suo pubblico, quindi essere presenti su più piattaforme amplierà la vostra portata. **[Spotify per podcaster](https://podcasters.spotify.com/) semplifica questo aspetto, consentendoti di caricare il tuo podcast una volta sola e genera un feed RSS per le altre piattaforme**.
 
 Quindi, una volta terminato il lavoro su "Spotify per podcaster", non resta che formattare i contenuti per le altre piattaforme, un processo relativamente veloce.
 
@@ -2277,11 +2277,11 @@ Ecco un breve tutorial di 10 minuti che illustra gli elementi essenziali per la 
 
 
 
-Suggerimento: Come per i video, conservate un backup locale di tutti i podcast in caso di censura futura.
+Suggerimento: Come per i video, conserva un backup locale di tutti i podcast in caso di censura futura.
 
 
 
-## Create un badge per i vostri eventi
+## Crea un badge per i vostri eventi
 
 
 <chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
@@ -2314,7 +2314,7 @@ Diversi modelli di badge utilizzati dall'associazione Bitcoin Lille sono [dispon
 
 
 
-Su una nota completamente diversa, affrontiamo Address un argomento delicato: la scomparsa di un membro della vostra community Bitcoin .
+Su una nota completamente diversa, affrontiamo un argomento delicato: la scomparsa di un membro della vostra community Bitcoin .
 
 
 Un giorno potreste essere contattati dalla famiglia di un ex socio per informarvi della sua morte. Potrebbero spiegarvi che il defunto ha lasciato delle istruzioni, tra cui quella di mettersi in contatto con la vostra community, ritrovo o associazione.
@@ -2327,8 +2327,8 @@ In alcuni casi, la famiglia può anche chiedere aiuto per recuperare i fondi com
 
 
 - Il defunto ha già consigliato alla sua famiglia di **non condividere mai le chiavi private o portare portafogli fisici a un incontro**.
-- La famiglia capisce che lo scopo della loro visita è educativo: imparare come funziona il Bitcoin, in modo da poter assumere in seguito il controllo sovrano dei fondi.
-- La famiglia è a conoscenza delle leggi vigenti nel proprio Paese in materia di doni, eredità e conversione della Bitcoin in denaro.
+- La famiglia capisce che lo scopo della loro visita è educativo: imparare come funziona Bitcoin, in modo da poter assumere in seguito il controllo sovrano dei fondi.
+- La famiglia è a conoscenza delle leggi vigenti nel proprio Paese in materia di doni, eredità e conversione di Bitcoin in denaro.
 
 
 Un protocollo standard impedisce inoltre a chiunque, membro o ospite, di approfittare della situazione per sottrarre fondi.
@@ -2350,7 +2350,7 @@ L'elenco dei progetti descritti sopra non è ovviamente esaustivo. In generale, 
 Passiamo ora all'onboarding.
 
 
-Come sapete, uno dei modi migliori **per raggiungere un vasto pubblico in una sola volta è quello di tenere una conferenza gratuita**. Questo può essere fatto nei college e nelle università, introducendo sia i giovani (che i meno giovani) al Bitcoin, sia che si tratti di persone completamente nuove o che vogliano approfondire la loro conoscenza.
+Come sapete, uno dei modi migliori **per raggiungere un vasto pubblico in una sola volta è quello di tenere una conferenza gratuita**. Questo può essere fatto nei college e nelle università, introducendo sia i giovani (che i meno giovani) a Bitcoin, sia che si tratti di persone completamente nuove o che vogliano approfondire la loro conoscenza.
 
 
 Tenere una conferenza a decine o addirittura centinaia di persone richiede più di una semplice competenza tecnica. Avrete bisogno di:
@@ -2366,7 +2366,7 @@ Tenere una conferenza a decine o addirittura centinaia di persone richiede più 
 Altrettanto importante è **mantenere una mente aperta e sapere quando semplificare i concetti**, soprattutto durante la sessione di domande e risposte o una tavola rotonda. Non si tratta di rinunciare ai propri principi, ma solo di riconoscere che gli altri potrebbero vedere le cose in modo diverso. A volte è meglio rispondere più tardi o lasciar perdere, in modo che la discussione possa continuare. Se i vostri punti sono sostenuti da argomentazioni solide e ben documentate, le persone lo riconosceranno.
 
 
-Se vi sentite pronti, fatelo! Il mondo ha un disperato bisogno di una migliore educazione sul Bitcoin.
+Se ti senti pronto, fallo! Il mondo ha un disperato bisogno di una migliore educazione su Bitcoin.
 
 Detto questo, non si tratta di un'impresa leggera: richiede motivazione, impegno e le giuste conoscenze.
 
@@ -2386,13 +2386,13 @@ L'organizzazione di una conferenza o di un workshop in una scuola o in un'univer
 - Il coordinatore del programma accademico, se si contatta direttamente
 
 
-Il primo passo è solitamente quello di presentare la propria iniziativa o associazione e richiedere un incontro. Nel migliore dei casi, questo porterà a una presentazione sul Bitcoin di fronte agli studenti qualche settimana dopo.
+Il primo passo è solitamente quello di presentare la propria iniziativa o associazione e richiedere un incontro. Nel migliore dei casi, questo porterà a una presentazione su Bitcoin di fronte agli studenti qualche settimana dopo.
 
 
-Purtroppo, il Bitcoin è ancora demonizzato da gran parte dei media e da molti politici, il che porta alcuni a credere che non abbia posto nelle aule scolastiche. I rifiuti sono comuni, soprattutto nei circoli accademici dove argomenti come il Proof of Work e il consumo energetico rimangono controversi.
+Purtroppo, Bitcoin è ancora demonizzato da gran parte dei media e da molti politici, il che porta alcuni a credere che non abbia posto nelle aule scolastiche. I rifiuti sono comuni, soprattutto nei circoli accademici dove argomenti come il Proof of Work e il consumo energetico rimangono controversi.
 
 
-Vale comunque la pena di provare, soprattutto con i sindacati e le associazioni studentesche. E chi lo sa? Anche se il vostro primo tentativo dovesse ricevere un "no", potreste trovare nella vostra casella di posta elettronica un'e-mail che vi invita a parlare, ad esempio, a 280 studenti!
+Vale comunque la pena di provare, soprattutto con i sindacati e le associazioni studentesche. E chi lo sa? Anche se il tuo primo tentativo dovesse ricevere un "no", potresti trovare nella tua casella di posta elettronica un'e-mail che ti invita a parlare, ad esempio, a 280 studenti!
 
 
 
@@ -2407,7 +2407,7 @@ Vale comunque la pena di provare, soprattutto con i sindacati e le associazioni 
 
 
 
-Far accettare il Bitcoin a un'azienda è, per molti bitcoiners, un po' come sbloccare un risultato raro nel proprio Pokédex.
+Far accettare Bitcoin a un'azienda è, per molti Bitcoiners, un po' come sbloccare un risultato raro nel proprio Pokédex.
 
 
 Ogni commerciante è diverso dall'altro e l'onboarding comporta una serie di sfide:
@@ -2416,9 +2416,9 @@ Ogni commerciante è diverso dall'altro e l'onboarding comporta una serie di sfi
 - Hanno ancora bisogno di moneta fiat per pagare i fornitori.
 - Richiedono rapporti finanziari chiari e pronti per la contabilità.
 - I loro sistemi di pagamento devono essere affidabili, facili da usare e a prova di furto.
-- Possono avere idee sbagliate o preconcetti negativi sul Bitcoin.
+- Possono avere idee sbagliate o preconcetti negativi su Bitcoin.
 - Trovare una soluzione software impeccabile può essere difficile.
-- Far capire al commerciante perché vale la pena accettare il Bitcoin come pagamento.
+- Far capire al commerciante perché vale la pena accettare Bitcoin come pagamento.
 
 
 
@@ -2426,21 +2426,21 @@ Ogni commerciante è diverso dall'altro e l'onboarding comporta una serie di sfi
 
 
 
-L'integrazione delle imprese locali è uno dei modi migliori per far crescere l'ecosistema Bitcoin della vostra città. Il segreto è procedere passo dopo passo:
+L'integrazione delle imprese locali è uno dei modi migliori per far crescere l'ecosistema Bitcoin della tua città. Il segreto è procedere passo dopo passo:
 
 
-1/ **Chiede di pagare in Bitcoin, ogni volta che fa acquisti**
+1/ **Chiedere di pagare in Bitcoin, ogni volta che fai acquisti**
 
-Nella maggior parte dei casi riceverete un "no" e forse un'occhiata perplessa, o addirittura un po' giudicante, ma basta chiedere per far capire che il Bitcoin è qualcosa che la "gente comune" può usare e che sta diventando sempre più popolare come metodo di pagamento. Si può anche fare squadra con un paio di amici e fermarsi nello stesso negozio in giorni diversi, chiedendo ogni volta di poter pagare in Bitcoin. Prima o poi il proprietario si incuriosirà.
+Nella maggior parte dei casi riceverai un "no" e forse un'occhiata perplessa, o addirittura un po' giudicante, ma basta chiedere per far capire che Bitcoin è qualcosa che la "gente comune" può usare e che sta diventando sempre più popolare come metodo di pagamento. Si può anche fare squadra con un paio di amici e fermarsi nello stesso negozio in giorni diversi, chiedendo ogni volta di poter pagare in Bitcoin. Prima o poi il proprietario si incuriosirà.
 
 
 2/ **Offrire una spiegazione semplice e chiara**
 
-Se vi chiedono che cos'è il Bitcoin, siate brevi e privi di gergo. Per esempio:
+Se vi chiedono che cos'è Bitcoin, siate brevi e privi di gergo. Per esempio:
 
-*"Il Bitcoin è denaro che non è controllato dalle banche, funziona senza intermediari, non può essere censurato, non è soggetto all'inflazione e ha commissioni più basse rispetto alle banche tradizionali "*
+*"Bitcoin è denaro che non è controllato dalle banche, funziona senza intermediari, non può essere censurato, non è soggetto all'inflazione e ha commissioni più basse rispetto alle banche tradizionali. "*
 
-Quindi consegnate loro un volantino, come "21 ragioni per utilizzare Bitcoin" o "10 ragioni per accettare Bitcoin nella vostra azienda", con le vostre informazioni di contatto o i dettagli del vostro incontro. In questo modo, quando saranno pronti per una dimostrazione, sapranno dove trovarvi.
+Quindi consegna loro un volantino, come "21 ragioni per utilizzare Bitcoin" o "10 ragioni per accettare Bitcoin nella vostra azienda", con le tue informazioni di contatto o i dettagli del tuo incontro. In questo modo, quando saranno pronti per una dimostrazione, sapranno dove trovarti.
 
 
 3/ **Organizzare una dimostrazione**

@@ -120,7 +120,7 @@ Die Node unterhält auch eine lokale Aufzeichnung aller zu einem bestimmten Zeit
 
 ### Überprüfen und Verteilen von Transaktionen
 
-Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln) übereinstimmt. Zum Beispiel:
+Die zweite Aufgabe einer Node besteht darin, die Überprüfung und Weiterleitung (Relay) von Transaktionen sicherzustellen. Wenn eine neue Transaktion die Node erreicht (entweder über die Wallet-Software oder eine andere Node), prüft sie, ob sie mit einer Reihe von Regeln (Konsensregeln und Weiterleitungsregeln (Relay Regeln) übereinstimmt. Zum Beispiel:
 
 - ausgegebene Bitcoins müssen in seinem UTXO-Set (der Datenbank der nicht ausgegebenen Bitcoin-Fragmente) vorhanden sein;
 - die Signatur muss gültig sein, und alle Ausgabebedingungen müssen erfüllt sein (gültiges Skript);
@@ -1832,101 +1832,101 @@ Du kannst auch die Art und Weise, wie deine Wallet verwaltet wird, in der Datei 
 
 ### Speicherung, Indizierung und Leistung
 
-In der Konfigurationsdatei können du auch die Parameter für Ihre Maschine einstellen. Dies kann besonders wichtig sein, wenn du über begrenzte Ressourcen oder im Gegenteil über eine große verfügbare Kapazität verfügen:
+In der Konfigurationsdatei kannst du auch die Parameter für deine Maschine einstellen. Dies kann besonders wichtig sein, wenn du über begrenzte Ressourcen oder im Gegenteil über eine große verfügbare Kapazität verfügen:
 
-- datadir=<dir>`: Legt das Hauptdatenverzeichnis des Bitcoin core fest.
+- `datadir=<dir>`: Legt das Hauptdatenverzeichnis von Bitcoin Core fest.
 
-- `blocksdir=<dir>`: Entkoppelt den Ort der Blockdateien (`blocks/blk*.dat` und `blocks/rev*.dat`) vom `datadir`. Dies kann nützlich sein, um das Blocks-Archiv auf einem anderen Datenträger zu platzieren, während die Zustandsbasis (`chainstate/`) beispielsweise auf einem schnelleren Medium bleibt.
+- `blocksdir=<dir>`: Entkoppelt den Ort der Blockdateien (`blocks/blk*.dat` und `blocks/rev*.dat`) von `datadir`. Dies kann nützlich sein, um das Block-Archiv auf einem anderen Datenträger zu platzieren, während die Zustandsbasis (`chainstate/`) beispielsweise auf einem schnelleren Medium bleibt.
 
-- `dbcache=<n>`: Weist `<n>` MiB für den Datenbank-Cache (*LevelDB*) zu, der vom Blockindex und `chainstate` verwendet wird (Standard: `450`). Je höher der Wert, desto schneller die IBD und die aktuelle Validierung, allerdings auf Kosten eines höheren RAM-Verbrauchs.
+- `dbcache=<n>`: Weist `<n>` MiB für den Datenbank-Cache (*LevelDB*) zu, der vom Blockindex und `chainstate` verwendet wird (Standard: `450`). Je höher der Wert, desto schneller der IBD und die aktuelle Validierung, allerdings auf Kosten eines höheren RAM-Verbrauchs.
 
-- prune=<n>`: Aktiviert das Pruning von Blockdateien und setzt ein Speicherplatzziel in MiB (Standard: `0` = deaktiviert; `1` = manuelles Pruning über RPC; `>=550` = automatisches Pruning unterhalb des Ziels). Inkompatibel mit `txindex=1`. Der Node bleibt ein voll validierender Node, kann aber nicht mehr die alte Historie liefern. Diese Option ist besonders nützlich, wenn der Festplattenspeicherplatz begrenzt ist, z. B. bei der Installation eines Node auf Ihrem Heimcomputer.
+- `prune=<n>`: Aktiviert das Pruning von Blockdateien und setzt ein Speicherplatzziel in MiB (Standard: `0` = deaktiviert; `1` = manuelles Pruning über RPC; `>=550` = automatisches Pruning unterhalb des Ziels). Inkompatibel mit `txindex=1`. Die Node bleibt eine voll validierende Node, kann aber nicht mehr die alte Historie liefern. Diese Option ist besonders nützlich, wenn der Festplattenspeicherplatz begrenzt ist, z. B. bei der Installation einer Node auf deinem Heimcomputer.
 
-- `txindex=1` : Erstellt und pflegt einen globalen Index bestätigter Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction` außerhalb der Wallet) und für Explorationszwecke, erhöht jedoch deutlich den Speicherbedarf. Nicht kompatibel mit dem abgespeckten Modus.
+- `txindex=1`: Erstellt und pflegt einen globalen Index bestätigter Transaktionen. Unverzichtbar für bestimmte Abfragen (`getrawtransaction` außerhalb der Wallet) und für Explorationszwecke, erhöht jedoch deutlich den Speicherbedarf. Nicht kompatibel mit dem abgespeckten Modus.
 
-- `assumevalid=<hex>`: Gibt einen Block an, von dem angenommen wird, dass er gültig ist, so dass du die Skriptprüfungen für seine Vorgänger überspringen können (setzen du `0`, um alles zu prüfen). Siehe das vorherige Kapitel für weitere Informationen.
+- `assumevalid=<hex>`: Gibt einen Block an, von dem angenommen wird, dass er gültig ist, so dass du die Skriptprüfungen für seine Vorgänger überspringen kannst (setze auf `0`, um alles zu prüfen). Schau dir das vorherige Kapitel für weitere Informationen an.
 
 - `reindex=1`: Rekonstruiert Blockindizes und Status (`chainstate`) aus `blk*.dat`-Dateien auf der Festplatte. Baut auch optionale aktive Indizes wieder auf. Dies ist ein zeitaufwändiger Vorgang, um eine beschädigte Datenbank zu reparieren oder schwere Indizes sauber zu aktivieren/deaktivieren.
 
-- reindex-chainstate=1`: Stellt nur den `chainstate` vom aktuellen Blockindex wieder her. Bevorzugt, wenn die Blockdateien in Ordnung sind.
+- `reindex-chainstate=1`: Stellt nur den `chainstate` vom aktuellen Blockindex wieder her. Bevorzugt, wenn die Blockdateien in Ordnung sind.
 
-- `blockfilterindex=<Typ>`: Verwaltet Indizes von kompakten Blockfiltern (z.B. `basic`), die von Thin Clients (BIP157/158) und einigen RPCs verwendet werden. Standardmäßig deaktiviert (`0`). Verbraucht zusätzlichen Plattenplatz und Indizierungszeit.
+- `blockfilterindex=<Typ>`: Verwaltet Indizes von kompakten Blockfiltern (z.B. `basic`), die von Thin Clients (BIP157/158) und einigen RPCs verwendet werden. Standardmäßig deaktiviert (`0`). Verbraucht zusätzlichen Speicherplatz und Indizierungszeit.
 
-- coinstatsindex=1": Führt einen UTXO-Statistikindex, der mit dem Aufruf "gettxoutsetinfo" betrieben wird. Nützlich für Audits und Metriken, da eine kostspielige Neuberechnung entfällt. Standardmäßig deaktiviert.
+- `coinstatsindex=1`: Führt einen UTXO-Set-Statistikindex, der mit dem Aufruf `gettxoutsetinfo` betrieben wird. Nützlich für Audits und Metriken, da eine kostspielige Neuberechnung entfällt. Standardmäßig deaktiviert.
 
-- `loadblock=<Datei>`: Importiert beim Start Blöcke aus einer externen Datei `blk*.dat`. Wird verwendet, um den Verlauf aus einer Offline-Quelle (lokale Kopie, externe Medien) vorzuladen, um die Initialisierung zu beschleunigen.
+- `loadblock=<file>`: Importiert beim Start Blöcke aus einer externen Datei `blk*.dat`. Wird verwendet, um den Verlauf aus einer Offline-Quelle (lokale Kopie, externe Medien) vorzuladen, um die Initialisierung zu beschleunigen.
 
 - `par=<n>`: Legt die Anzahl der Skriptüberprüfungs-Threads fest (von `-10` bis `15`, `0` = auto, `<0` = lässt diese Anzahl von Kernen frei). Erlaubt dir, die CPU-Parallelität während der Überprüfung anzupassen. Der Auto-Modus ist in den meisten Fällen geeignet.
 
 - `debuglogfile=<file>`: Gibt den Speicherort des Protokolls `debug.log` an.
 
-- shrinkdebugfile=1`: Verringert die Größe von `debug.log` beim Start (Standard: `1`, wenn `-debug` nicht aktiv ist).
+- `shrinkdebugfile=1`: Verringert die Größe von `debug.log` beim Start (Standard: `1`, wenn `-debug` nicht aktiv ist).
 
-- einstellungen=<Datei>`: Pfad zur dynamischen Einstellungsdatei `settings.json`.
+- `setting=<file>`: Pfad zur dynamischen Einstellungsdatei `settings.json`.
 
 ### RPC Zugang und Betriebssicherheit
 
-Schließlich können du in der Datei "Bitcoin.conf" auch die Zugriffsparameter für Ihren Node konfigurieren. Seien du vorsichtig mit diesen Einstellungen, besonders wenn du gerade erst anfangen: Vermeiden du es, sie zu ändern, ohne die Auswirkungen genau zu verstehen, da dies zu Schwachstellen führen könnte.
+Schließlich kannst du in der Datei `Bitcoin.conf` auch die Zugriffsparameter für deine Node konfigurieren. Sei vorsichtig mit diesen Einstellungen, besonders wenn du gerade erst anfängst: Vermeide es, sie zu ändern, ohne die Auswirkungen genau zu verstehen, da dies zu Schwachstellen führen könnte.
 
-- server=1": Aktiviert den JSON-RPC-Server. Unerlässlich, wenn du `bitcoind` über `bitcoin-cli` oder eine Anwendung eines Drittanbieters betreiben. Deaktivieren (`0`) auf einem reinen Validierungsknoten, der keine API offenlegt oder bereits einen Electrum-Server verwendet.
+- `server=1`: Aktiviert den JSON-RPC-Server. Unerlässlich, wenn du `bitcoind` über `bitcoin-cli` oder eine Anwendung eines Drittanbieters betreibst. Deaktiviert (`0`) auf einer reinen Validierungsnode, die keine API offenlegt oder bereits einen Electrum-Server verwendet.
 
-- rpcbind=<addr>[:port]`: RPC-Server lauscht Address/Port. Standardmäßig erfolgt das Abhören nur lokal (`127.0.0.1` und `::1`). Dieser Parameter wird ignoriert, wenn `rpcallowip` nicht ebenfalls definiert ist. Verwenden du ihn, um Interface explizit einzuschränken.
+- `rpcbind=<addr>[:port]`: RPC-Server-Abhöraddresse/-port. Standardmäßig erfolgt das Abhören nur lokal (`127.0.0.1` und `::1`). Dieser Parameter wird ignoriert, wenn `rpcallowip` nicht ebenfalls definiert ist. Verwende ihn, um das Interface explizit einzuschränken.
 
-- rpcport=<Port>`: RPC-Port (Standard: `8332` auf Mainnet, `18332` auf Testnet, `38332` auf bookmark, `18443` auf regtest).
+- `rpcport=<Port>`: RPC-Port (Standard: `8332` auf Mainnet, `18332` auf Testnet, `38332` auf bookmark, `18443` auf regtest).
 
-- rpcallowip=<ip|cidr>`: Erlaubt RPC Clients von einer bestimmten IP oder einem Subnetz (kann wiederholt werden). In Verbindung mit `rpcbind` verwenden, um die API nur für ein vertrauenswürdiges Segment (LAN/VPN) freizugeben.
+- `rpcallowip=<ip|cidr>`: Erlaubt RPC Clients von einer bestimmten IP oder einem Subnetz (kann wiederholt werden). Verwende es in Verbindung mit `rpcbind`, um die API nur für ein vertrauenswürdiges Segment (LAN/VPN) freizugeben.
 
-- rpcauth=<USERNAME>:<SALT>$<Hash>`: Empfohlene RPC-Authentifizierungsmethode (Hash-Passwort). Erlaubt mehrere Einträge und vermeidet die Speicherung eines Geheimnisses im Klartext.
+- `rpcauth=<USERNAME>:<SALT>$<Hash>`: Empfohlene RPC-Authentifizierungsmethode (Hash-Passwort). Erlaubt mehrere Einträge und vermeidet die Speicherung eines Geheimnisses im Klartext.
 
-- rpccookiefile=<Pfad>`: Pfad zum Authentifizierungs-Cookie (Standard: Datei `.cookie` unter `datadir/`). Dies wird für den lokalen Zugriff desselben Benutzers ohne Verwaltung dauerhafter Passwörter verwendet. Beispielsweise können du damit den Liana Wallet mit Ihrem Bitcoin core auf demselben Rechner verbinden.
+- `rpccookiefile=<Pfad>`: Pfad zum Authentifizierungs-Cookie (Standard: Datei `.cookie` unter `datadir/`). Dies wird für den lokalen Zugriff desselben Benutzers ohne Verwaltung dauerhafter Passwörter verwendet. Beispielsweise kannst du damit den Liana Wallet mit Bitcoin Core auf demselben Rechner verbinden.
 
-- rpcuser=<user>` / `rpcpassword=<pw>`: Klassische RPC-Authentifizierung mit Klartext-Passwort. Vermeiden du dies zugunsten von `rpcauth` oder einem Cookie.
+- `rpcuser=<user>` / `rpcpassword=<pw>`: Klassische RPC-Authentifizierung mit Klartext-Passwort. Vermeide dies zugunsten von `rpcauth` oder einem Cookie.
 
-- rpcthreads=<n>`: Anzahl der Threads, die RPC-Aufrufe bedienen (Standard: `4`). Erhöhen du diese Zahl, wenn du hohe Aufrufspitzen auf der Seite der Überwachung/des externen Tools haben.
+- `rpcthreads=<n>`: Anzahl der Threads, die RPC-Aufrufe bedienen (Standard: `4`). Erhöhe diese Zahl, wenn du hohe Aufrufspitzen auf der Überwachungseite oder des externen Tools hast.
 
-- rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Whitelist der zugelassenen APIs. Reduziert die Angriffsfläche durch Einschränkung der zugänglichen Methoden.
+- `rpcwhitelist=<USERNAME>:<rpc1>,<rpc2>,...`: Whitelist der zugelassenen APIs. Reduziert die Angriffsfläche durch Einschränkung der zugänglichen Methoden.
 
-- rpcwhitelistdefault=1|0": Standardverhalten der Whitelist: wenn aktiviert und eine Whitelist verwendet wird, werden nicht gelistete Anrufe abgewiesen. Dies kann auch eine leere Standardmenge erzwingen (keine Anrufe erlaubt), solange nichts explizit aufgeführt ist.
+- `rpcwhitelistdefault=1|0`: Standardverhalten der Whitelist: wenn aktiviert und eine Whitelist verwendet wird, werden nicht gelistete Anrufe abgewiesen. Dies kann auch eine leere Standardmenge erzwingen (keine Anrufe erlaubt), solange nichts explizit aufgeführt ist.
 
-- rest=1": Aktivieren du die öffentliche REST-API (standardmäßig deaktiviert). Darf nur in einem vertrauenswürdigen Netzwerk offengelegt werden (gleiche Vorsicht wie bei JSON-RPC).
+- `rest=1`: Aktiviert die öffentliche REST-API (standardmäßig deaktiviert). Darf nur in einem vertrauenswürdigen Netzwerk offengelegt werden (gleiche Vorsicht wie bei JSON-RPC).
 
-- `conf=<Datei>`: Gibt, nur auf der Befehlszeile, eine schreibgeschützte Konfigurationsdatei an. Nützlich zum Einfrieren eines Ausführungsprofils (unveränderlich) auf der Ops-Seite.
+- `conf=<file>`: Gibt, nur auf der Befehlszeile, eine schreibgeschützte Konfigurationsdatei an. Nützlich zum Einfrieren eines Ausführungsprofils (unveränderlich) auf der Betriebsseite (Ops).
 
-- `includeconf=<Datei>`: Lädt eine zusätzliche Konfigurationsdatei (Pfad relativ zu `datadir/`). Ermöglicht die Trennung der Rollen: gemeinsame Basis + sensible lokale Überladung.
+- `includeconf=<file>`: Lädt eine zusätzliche Konfigurationsdatei (Pfad relativ zu `datadir/`). Ermöglicht die Trennung der Rollen: gemeinsame Basis + sensible lokale Überladung.
 
-- gW-769=1` / `daemonwait=1`: Startet `bitcoind` im Hintergrund und wartet mit `daemonwait` auf das Ende der Initialisierung, bevor es übergeben wird. Dies erleichtert die Integration mit Überwachungsprogrammen (systemd, runit).
+- `deamon=1` / `daemonwait=1`: Startet `bitcoind` im Hintergrund und wartet mit `daemonwait` auf das Ende der Initialisierung, bevor es übergeben wird. Dies erleichtert die Integration mit Überwachungssystemen (systemd, runit).
 
-- `pid=<Datei>`: Speicherort der PID-Datei.
+- `pid=<file>`: Speicherort der PID-Datei.
 
 - `sandbox=<log-and-abort|abort>`: Aktiviert experimentelles Syscall-Sandboxing: nur erwartete Syscalls sind erlaubt.
 
 - `startupnotify=<cmd>` / `shutdownnotify=<cmd>`: Führt einen Befehl beim Starten oder Herunterfahren aus.
 
-- alertnotify=<cmd>`: Löst bei Empfang eines Alerts einen Befehl aus.
+- `alertnotify=<cmd>`: Löst bei Empfang eines Alerts einen Befehl aus.
 
 - `blocknotify=<cmd>`: Führt für jeden neuen Block einen Befehl aus.
 
-- `debug=<Kategorie>|1` / `debugexclude=<Kategorie>`: Aktiviert/deaktiviert detaillierte Protokollkategorien (z.B. `net`, `Mempool`, `RPC`, `validation`...).
+- `debug=<category>|1` / `debugexclude=<category>`: Aktiviert/deaktiviert detaillierte Protokollkategorien (z.B. `net`, `Mempool`, `RPC`, `validation`...).
 
-- logips=1": Protokolliert IP-Adressen.
+- `logips=1`: Protokolliert IP-Adressen.
   
 - `logsourcelocations=1` / `logthreadnames=1` / `logtimestamps=1`: Fügt den Protokollen Quellorte, Threadnamen und genaue Zeitstempel hinzu.
 
-- printtoconsole=1`: Sendet Traces/Debugs an die Konsole (*stdout*).
+- `printtoconsole=1`: Sendet Traces-/Debug-Ausgaben an die Konsole (*stdout*).
 
-- help-debug=1": Zeigt die Hilfe zur Debug-Option an und beendet das Programm.
+- `help-debug=1`: Zeigt die Hilfe zur Debug-Option an und beendet das Programm.
 
-- uacomment=<cmt>`: Fügt einen Kommentar zum Benutzer-Agenten P2P hinzu.
+- `uacomment=<cmt>`: Fügt einen Kommentar zum P2P-User-Agent hinzu.
 
-Wir haben nun die meisten Konfigurationsparameter aufgelistet. Diese Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard Ihres Node dar: du definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf Ihre Bedürfnisse zugeschnittene Datei erstellen möchten, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Wir haben nun die meisten Konfigurationsparameter aufgelistet. Die Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard deiner Node dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf deine Bedürfnisse zugeschnittene Datei erstellen möchtest, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
-Wir sind am Ende dieses BTC 202-Kurses angelangt, der du nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch Ihren eigenen einzurichten. du sind jetzt ein souveräner Bitcoiner, mit Ihrem eigenen Wallet, der Ihre Transaktionen über Ihren eigenen Node überträgt. Herzlichen Glückwunsch!
+Wir sind am Ende dieses BTC 202-Kurses angelangt, der dich nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch deine eigenen einzurichten. Du bist jetzt ein souveräner Bitcoiner, mit deiner eigenen Wallet, der seine Transaktionen über seine eigene Node überträgt. Herzlichen Glückwunsch!
 
-du können nun zum letzten Teil des Kurses übergehen, in dem du BTC 202 bewerten können, und anschließend dein Diplom ablegen, um zu überprüfen, ob du alle behandelten Konzepte beherrschen.
+Du kannst nun zum letzten Teil des Kurses übergehen, in dem du BTC 202 bewerten kannst, und anschließend dein Diplom ablegst, um zu überprüfen, ob du alle behandelten Konzepte beherrschst.
 
-dir stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung eines eigenen Lightning-Node, der es dir ermöglicht, bei Ihren off-chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
+Dir stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung einer eigenen Lightning Node, die es dir ermöglicht, bei deinen Off-Chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
 
-In der Zwischenzeit lade ich du ein, die BTC 204-Schulung kennenzulernen, die du in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
+In der Zwischenzeit lade ich dich ein, den BTC 204-Kurs kennenzulernen, der dich in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 

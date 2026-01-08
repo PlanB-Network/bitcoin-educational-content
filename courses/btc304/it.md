@@ -1391,10 +1391,10 @@ Questi includono:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere il proprio sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da bitcoiners, per bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
-- a seconda del vostro Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li avete ancora seguiti su Twitter o contattati per condividere informazioni sulla vostra community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero l'abitudine di**
-    - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community
+- [Btcmap.org](https://btcmap.org/)**, un sito web con due mappe aggiornate quotidianamente: **[la mappa mondiale delle aziende che accettano Bitcoin](https://btcmap.org/map)** e **[la mappa delle community mondiali](https://btcmap.org/communities/map)**. Molti Bitcoiners controllano regolarmente queste mappe, sia in viaggio che nella vita di tutti i giorni, per conoscere nuove persone o trovare luoghi in cui spendere i propri sats. Btcmap è il punto di riferimento globale e inserirvi la propria community è essenziale per la visibilità.**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), un sito web creato da Bitcoiners, per Bitcoiners. **Consente di pubblicare i prossimi eventi della propria community**. In Francia, tuttavia, non è ancora molto utilizzato.
+- a seconda del vostro Paese, potrebbero esserci altre iniziative locali. In Francia, ad esempio, c'è [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), che **elenca decine di eventi Bitcoin ogni mese**. Quindi, se non li avete ancora seguiti su Twitter o contattati per condividere informazioni sulla vostra community e sugli eventi, è il momento giusto! **Per contribuire a mantenere aggiornato il calendario degli eventi in Francia, sarebbe bello se tutte le community Bitcoin francesi prendessero questa abitudine.**
+    - menzionando @bitcoinpointfr su Twitter per ogni nuovo evento della community.
     - appuntare gli annunci di nuovi eventi nel loro gruppo Telegram.
 
 

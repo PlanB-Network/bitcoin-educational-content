@@ -1008,15 +1008,11 @@ Es porque el hombre corre el riesgo de equivocarse o de actuar mal y sufrir las 
 
 Así pues, está claro que Bastiat está lejos de ser ciego. No niega la existencia del mal. El hombre es débil, propenso al error y a la falta. En ninguna parte se verá a Bastiat negar el hecho de que el ejercicio de la libertad individual está asociado con la posibilidad de error, la posibilidad de una elección irrazonable o sin sentido.
 
-
 Simplemente afirma que si el origen del mal está en la ausencia de libertad, el remedio está en la propia libertad y, más concretamente, en el ejercicio pleno y total de la responsabilidad personal.
-
 
 ![image](assets/es/100.webp)
 
-
 Pero si el mal uso de la libertad está en el origen de nuestros males, su buen uso es el remedio, es decir, el ejercicio pleno y total de la responsabilidad personal, basada en el derecho de propiedad. La regulación social, por tanto, pasa por la responsabilidad, no por la intervención del Estado en todos los ámbitos, que es una de las grandes fuentes del expolio y, por tanto, de los males.
-
 
 ![image](assets/es/101.webp)
 
@@ -1024,44 +1020,30 @@ Contrariamente a Rousseau, que pretende erradicar el mal mediante instituciones 
 
 Hay que aclarar que este desarrollo del progreso a través de la responsabilidad no es en absoluto automático. No se trata en absoluto, como en el caso de Hegel o Marx, de una especie de determinismo natural o histórico, que conduciría milagrosa o mecánicamente a la armonía y al progreso. Se trata de una reducción gradual e indefinida del mal y nunca de su eliminación definitiva.
 
-
 ## Solidaridad verdadera y falsa
-
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 :::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
-
-
-
 Frédéric Bastiat, en su célebre opúsculo "El derecho", denuncia la perversión del derecho que consiste en legalizar, bajo el nombre de "solidaridad", lo que en realidad debe llamarse expolio. En efecto, hay una contradicción en querer imponer por ley la fraternidad, lo que hoy llamaríamos "justicia social" o solidaridad.
-
-
-
 
 Porque la moralidad se define como un comportamiento voluntario. Cuando se obliga a un individuo a dar algo que no quiere dar, siempre es víctima de un robo.
 
-
 ![image](assets/es/102.webp)
-
 
 De hecho, cuando una donación se hace obligatoria por ley, deja de ser una actitud moral. La actitud moral de dar se sustituye por la reivindicación "de derechos", que son reivindicaciones sobre el trabajo de los demás. La falsa solidaridad es la llamada a vivir a costa de los demás.
 
-
 Es lo que Bastiat llama "el sofisma de la fraternidad jurídica" Citémosle a este respecto:
-
 
 > La fraternidad es espontánea o no lo es. Decretarla es destruirla.
 
 Y otra vez:
 
-
-> Los gobiernos sólo ejercen una acción sancionada por la Fuerza. Ahora bien, es lícito obligar a alguien a ser justo, no obligarle a ser caritativo. La Ley, cuando pretende hacer por la fuerza lo que la moral consigue por la persuasión, lejos de elevarse al reino de la Caridad, cae en el dominio del Expolio.
-> Sin embargo, esta perversión del derecho tiene un nombre, es el socialismo, es decir, la ideología de la redistribución forzosa de la riqueza por parte del Estado. El socialismo, según Bastiat, se caracteriza por la ideología del saqueo legal. Pero la astucia de esta ideología es que enmascara su violencia bajo un abuso del lenguaje: el llamamiento a la solidaridad o a la fraternidad.
+> Los gobiernos sólo ejercen una acción sancionada por la Fuerza. Ahora bien, es lícito obligar a alguien a ser justo, no obligarle a ser caritativo. La Ley, cuando pretende hacer por la fuerza lo que la moral consigue por la persuasión, lejos de elevarse al reino de la caridad, cae en el dominio del expolio.
+> Sin embargo, esta perversión del derecho tiene un nombre, es el socialismo, es decir, la ideología de la redistribución forzosa de la riqueza por parte del Estado. El socialismo, según Bastiat, se caracteriza por la ideología del saqueo legal. Pero la astucia de esta ideología es que enmascara su violencia bajo un abuso del lenguaje: El llamamiento a la solidaridad o a la fraternidad.
 
 ![image](assets/es/103.webp)
-
 
 ---
 
@@ -1073,15 +1055,11 @@ Y otra vez:
 
 Sin embargo, según Bastiat, existe una alternativa a la solidaridad estatal obligatoria: "la sociedad de socorros mutuos", la ayuda mutua y espontánea de los hombres entre sí gracias a las sociedades de socorros mutuos. Pero también preveía que el Estado acabaría apoderándose de estas mutualidades para convertirlas en un organismo único y centralizado, fomentando el gasto y el despilfarro.
 
-
 ![image](assets/es/104.webp)
 
-
-En un panfleto titulado "Justicia y fraternidad", Bastiat también explora la idea de un sistema fiscal simplificado y equitativo para financiar las necesidades colectivas (policía, justicia, ejército): las rentas y los beneficios estarían sujetos a un tipo impositivo único y proporcional. Es lo que hoy se conoce como "Flat Tax".
-
+En un panfleto titulado "Justicia y fraternidad", Bastiat también explora la idea de un sistema fiscal simplificado y equitativo para financiar las necesidades colectivas (policía, justicia, ejército): Las rentas y los beneficios estarían sujetos a un tipo impositivo único y proporcional. Es lo que hoy se conoce como "Flat Tax".
 
 ![image](assets/es/105.webp)
-
 
 ---
 
@@ -1096,240 +1074,167 @@ En un panfleto titulado "Justicia y fraternidad", Bastiat también explora la id
 
 De hecho, la solidaridad intrafamiliar, la solidaridad local o la filantropía organizada están mucho más desarrolladas en los países que tienen un sistema fiscal ligero y un grado relativamente alto de libertad económica, como Suiza y Estados Unidos, mientras que está muy ahogada en los países en los que el Estado ha sustituido ampliamente la responsabilidad individual, como Francia o Alemania.
 
-
 A menudo está de moda lamentar el "egoísmo" que prevalecería en las sociedades liberales. Pero ocurre exactamente lo contrario. Cuando una sociedad está cargada de impuestos y los individuos ya no son dueños de sus bienes, no se les anima a dar, sino a replegarse sobre sí mismos.
 
-
-
-
-En realidad, una sociedad civil libre no se basa en el egoísmo: la economía de mercado funciona sobre la base del servicio al prójimo y la reciprocidad. Sólo se puede servir al propio interés sirviendo al interés del otro, ofreciéndole una contrapartida que conduzca a una Exchange mutuamente beneficiosa. En otras palabras, es la Exchange voluntaria la que crea la verdadera solidaridad.
-
+En realidad, una sociedad civil libre no se basa en el egoísmo: La economía de mercado funciona sobre la base del servicio al prójimo y la reciprocidad. Sólo se puede servir al propio interés sirviendo al interés del otro, ofreciéndole una contrapartida que conduzca a un intercambio mutuamente beneficiosa. En otras palabras, es el intercambio voluntario el que crea la verdadera solidaridad.
 
 La redistribución forzosa no tiene nada que ver con la auténtica solidaridad humana, que es de carácter privado o voluntario y que se observa en el seno de las familias, o entre los miembros de una asociación.
-
 
 Bastiat se opone aquí a los socialistas en lo que respecta al papel de la ley. Escribe:
 
 La ley puede obligar a un hombre a ser justo, pero no puede obligarle a ser devoto. La falsa solidaridad de los socialistas elimina la devoción en favor de la pura coacción estatal, que constituye la base del totalitarismo.
 
-
 # La Ley
-
 
 <partId>653cbe58-60e1-5401-8f91-4d9843ac6045</partId>
 
-
 ## Derecho de propiedad
-
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
 :::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
 
-
 Por propiedad no debemos entender aquí la tierra. Significa "el derecho de un trabajador sobre el valor que ha creado con su trabajo" Precisa Bastiat:
-
 
 > Considero que el derecho de propiedad consiste en la libertad de disponer primero de la propia persona, luego del propio trabajo y, por último, de los productos del propio trabajo, lo que demuestra, además, que, desde cierto punto de vista, la libertad y el derecho de propiedad no pueden distinguirse entre sí.
 
 Una vez establecido este punto, para comprender el fundamento moral de la propiedad, Bastiat parte de un sencillo principio antropológico según el cual, desde el principio, el hombre debe trabajar para vivir y que el fruto de su trabajo es una extensión de sus facultades, es decir, de su persona.
 
-
 > Personalidad, Libertad, Propiedad, eso es el hombre. De estas tres cosas se puede decir, sin ninguna sutileza demagógica, que son anteriores y superiores a cualquier legislación humana.
 
-Entendido en este sentido, el derecho de Propiedad se encuentra entre aquellos derechos que no derivan del derecho positivo, sino que lo preceden y son su razón de ser. En efecto,
-
+Entendido en este sentido, el derecho de propiedad se encuentra entre aquellos derechos que no derivan del derecho positivo, sino que lo preceden y son su razón de ser. En efecto,
 
 > La ley es la organización colectiva del derecho individual de legítima defensa.
 > La Ley
 
 Su misión es defender a la persona y sus bienes.
 
-
 ![image](assets/es/106.webp)
 
 Por lo tanto, el derecho no es lo mismo que la ley. El derecho no se identifica con la palabra del soberano, ni depende exclusivamente de su legitimidad. Es el producto de una tradición, un orden jurídico anterior y superior a la ley, que se impone tanto al legislador como a cualquiera de los ciudadanos de a pie.
 
-
 El derecho "no se crea". No se inventa a partir de una visión ideal de lo que deben ser las leyes de la sociedad; se descubre en la naturaleza del hombre y en las reglas de urbanidad, transmitidas por la sabiduría de las costumbres.
 
-Los individuos tienen derechos naturales que preexisten a la ley: Propiedad, Libertad, Personalidad. El papel del Derecho debe ser preservar estos derechos naturales del individuo. En consecuencia, el Estado debe ser limitado. Hoy diríamos que Bastiat es un defensor del Estado mínimo.
-
+Los individuos tienen derechos naturales que preexisten a la ley: Propiedad, Libertad, Personalidad. El papel del derecho debe ser preservar estos derechos naturales del individuo. En consecuencia, el Estado debe ser limitado. Hoy diríamos que Bastiat es un defensor del Estado mínimo.
 
 ![image](assets/es/107.webp)
 
-
 En el sistema de Rousseau, del que ya hablamos en un curso anterior, la misión del legislador es organizar, modificar e incluso abolir la propiedad si lo considera oportuno. Para Rousseau, la propiedad no es natural sino convencional, como la sociedad misma. Esta idea procede del derecho romano, con el que Rousseau estaba profundamente familiarizado.
-
 
 ![image](assets/es/108.webp)
 
-
 Robespierre, a su vez, postula el principio de que "la propiedad es el derecho de todo ciudadano a disfrutar y disponer de la porción de bienes que le garantiza la ley."
-
 
 Para Rousseau, la propiedad no es anterior a la ley; no es más que una convención establecida por la voluntad general y dentro de los límites que ésta decida. En consecuencia, no hay libertad ni derecho independientemente de la sociedad y de la buena voluntad de los legisladores. Pero si se disocia el derecho de propiedad, se justifican fácilmente falsos derechos, que sólo se adquieren violando los derechos de los demás.
 
-
-Por ejemplo: el derecho al trabajo o el derecho a la vivienda.
-
-
-
+Por ejemplo: Eel derecho al trabajo o el derecho a la vivienda.
 
 Para que yo adquiera algo gratis, alguien debe pagar en mi nombre. Y si es el Estado quien paga, como no produce riqueza, sólo puede hacerlo quitándole una vivienda a alguien, o su equivalente, para dármela a mí.
 
-
 Esta idea de que el derecho de propiedad es una creación de la ley conduce así, según Bastiat, a abrir un campo ilimitado a los utopistas que desean modelar la sociedad según sus planes.
-
 
 En el sistema de libertad natural, existe una ley natural, independiente de los caprichos de los legisladores. Es válida para todos los hombres y es anterior a cualquier sociedad. Y es deber del gobierno garantizar los derechos naturales de cada individuo. Una sociedad justa es aquella en la que los derechos de propiedad se respetan plenamente, es decir, se protegen contra cualquier interferencia de terceros.
 
-
 ![image](assets/es/109.webp)
-
 
 Aquí, Bastiat se alinea con el legado de los fisiócratas y, más allá, con la tradición de la filosofía del derecho de Cicerón y Aristóteles. La ley no crea derechos. Su misión es defenderlos y, por tanto, defender la propiedad, tanto la propiedad de uno mismo, la integridad de la persona, como la propiedad de los frutos del propio trabajo.
 
-
-
 (Cicerón)
 
-
 ## El expolio legal: Una perversión de la ley
-
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
 :::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
-
 La idea principal de Bastiat en "El Derecho", su famoso panfleto de 1850, es mostrar por qué y cómo el Derecho se ha convertido en expoliador, es decir, en fuente de privilegios, rentas de situación y arbitrariedad fiscal.
-
 
 ![image](assets/es/110.webp)
 
-
 ¿Cuál es la verdadera naturaleza de la ley?
-
 
 Bastiat comienza sentando las bases antropológicas naturales del derecho: vida, libertad y propiedad.
 
-
 El sistema institucional de la libertad natural es aquel para el que la sociedad, los individuos y las propiedades existen con anterioridad a las leyes. En este sistema, añade Bastiat:
-
 
 > No es porque haya leyes por lo que hay propiedades, sino porque hay propiedades por lo que hay leyes.
 > Propiedad y Derecho
 
 ![image](assets/es/111.webp)
 
-
 Todo hombre puede defender su vida y hacer uso de sus facultades. Y la ley es la organización colectiva de esta legítima defensa. La ley defiende la justicia. No una justicia positiva que organizaría la fraternidad y la solidaridad, sino una justicia negativa que se limita a impedir que los derechos de una persona usurpen los de otra.
-
 
 Sin embargo, cuando la ley deja de ser negativa y se convierte en positiva, el sentimiento de desigualdad aumenta en la sociedad y genera conflictos. Si ampliamos indefinidamente el dominio de la Ley, es decir, la responsabilidad del gobierno, abrimos la puerta a "una serie interminable de quejas, odios, disturbios y revueltas", escribe.
 
-
 La falsa filantropía, dice Bastiat, es una de las principales causas de la perversión de la ley. Algunos hombres se consideran por encima del resto de la humanidad y capaces de tomar mejores decisiones que los demás.
-
 
 ![image](assets/es/112.webp)
 
-
 Ellos saben mejor lo que es bueno para los demás e impondrán su concepción del bien a todo el mundo; éstos son los filántropos. Han creado falsos derechos que hoy se llaman derechos sociales. Los derechos sociales no son más que derechos sobre el trabajo de los demás, derechos a disponer de la propia propiedad, del fruto del propio trabajo: derecho a la vivienda, derecho a la sanidad, a la educación, al trabajo, al salario mínimo, etc.
-
 
 ¿Qué es el expolio? Es exactamente lo contrario de la propiedad, nos dice Bastiat. Saquear viene del latín _spoliare_, que significa despojar. Hemos visto que el hombre sólo puede vivir apropiándose de las cosas, aplicando sus facultades a las cosas, es decir, trabajando. Pero también puede apropiarse del producto de las facultades de sus semejantes, es decir, expoliarlos.
 
-Toda la misión del Derecho es impedir este expolio extralegal, es decir, defender la propiedad y la libertad, dos cosas inseparables.
-
+Toda la misión del derecho es impedir este expolio extralegal, es decir, defender la propiedad y la libertad, dos cosas inseparables.
 
 En cuanto se admite en principio que la ley puede desviarse de su verdadera misión, que puede violar las propiedades en lugar de garantizarlas, se produce necesariamente una lucha de clases, ya sea para defenderse del expolio o para organizarlo también en beneficio propio.
 
-
 ![image](assets/es/113.webp)
-
 
 En lugar de defender los derechos naturales, la ley se transforma en protección de intereses corporativos y categóricos. El saqueo es organizado por la ley, en beneficio de las clases que la hacen y de sus amigos o clientes. Bastiat se anticipa así a la escuela de la elección pública del siglo XX, para la que la ley es el resultado de un "mercado político" por el que grupos de individuos buscan satisfacer sus intereses a costa de los demás.
 
-
 ![image](assets/es/114.webp)
-
 
 Para él, el propósito de la Ley debe ser simplemente "poner fin a todos los saqueos" Si el Estado no interviene en la vida privada, los individuos son efectivamente dueños y responsables de sus vidas. Hacen su propia felicidad. Soportan las consecuencias buenas o malas de sus actos.
 
-
 Tienen la certeza de que sus derechos naturales están garantizados y son intocables. Los derechos de propiedad seguros dan a la gente la capacidad de hacer planes a largo plazo porque saben que sus bienes están a salvo del saqueo.
 
-
-> Ausencia de Expolio, - es el principio de justicia, paz, orden, estabilidad, conciliación, sentido común que proclamaré con toda la fuerza, ¡ay! insuficiente, de mis pulmones, hasta mi último aliento
+> Ausencia de Expolio, - Es el principio de justicia, paz, orden, estabilidad, conciliación, sentido común que proclamaré con toda la fuerza, ¡ay! insuficiente, de mis pulmones, hasta mi último aliento
 
 Bastiat escribió la frase anterior en La Ley, algún tiempo antes de morir.
 
-
 ![image](assets/es/115.webp)
-
 
 Un siglo después de la muerte de Frédéric Bastiat, el expolio jurídico queda patente en la Declaración Universal de Derechos Humanos de 1948, especialmente en sus artículos 22 ("toda persona tiene derecho a la seguridad social"), 23 ("toda persona tiene derecho al trabajo"), 24 ("toda persona tiene derecho al descanso y al disfrute del tiempo libre"), 25 ("toda persona tiene derecho a un nivel de vida adecuado que le asegure la salud y el bienestar"), 26 ("toda persona tiene derecho a la educación").
 
-
 ## El papel del Derecho y del Estado
-
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
 :::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
 
-
-En 1848, Bastiat es diputado. Fue nombrado vicepresidente de la Comisión de Hacienda. Por tanto, estaba especialmente bien situado para responder a esta pregunta: ¿qué es el Estado? Recurrimos al Estado para garantizar nuestro bienestar. Pero Bastiat nos recuerda que el Estado no puede dar nada a los ciudadanos que no les haya quitado primero.
-
+En 1848, Bastiat es diputado. Fue nombrado vicepresidente de la Comisión de Hacienda. Por tanto, estaba especialmente bien situado para responder a esta pregunta: ¿Qué es el Estado? Recurrimos al Estado para garantizar nuestro bienestar. Pero Bastiat nos recuerda que el Estado no puede dar nada a los ciudadanos que no les haya quitado primero.
 
 Bastiat comienza dando la vuelta a una ecuación comúnmente aceptada: es el Estado el que sostiene a la nación. Sin embargo, el Estado no puede sostener a los ciudadanos porque no produce riqueza; se limita a moverla, a redistribuirla. Por el contrario, son los ciudadanos quienes sostienen al Estado mediante la creación de riqueza.
 
-
 ![image](assets/es/116.webp)
-
 
 Además, el Estado en sí mismo no existe; sólo hay hombres que constituyen el Estado, que gobiernan, administran, que viven del Estado directa o indirectamente. Por lo tanto, los hombres que administran el Estado son como los demás; buscan satisfacer sus intereses personales.
 
-
 ![image](assets/es/117.webp)
-
 
 Y como la acción del Estado es puramente redistributiva, está sometida a la presión de los grupos de intereses particulares. En efecto, ciertos grupos de intereses especiales han comprendido que era más fácil ganar dinero mediante el compromiso político que mediante comportamientos productivos. Tratan de robar el dinero de los demás bajo la apariencia del Estado, socavando la capacidad de producción del mercado mediante la multiplicación de leyes, impuestos y trabas burocráticas.
 
-
 ![image](assets/es/118.webp)
 
-
-En otras palabras, el Estado sólo persigue objetivos clientelistas, y la noción de interés general carece de sentido. Cualquier ganancia obtenida por unos es a costa de otros: no se trata de un juego de suma cero, sino de un juego de suma negativa.
+En otras palabras, el Estado sólo persigue objetivos clientelistas, y la noción de interés general carece de sentido. Cualquier ganancia obtenida por unos es a costa de otros: No se trata de un juego de suma cero, sino de un juego de suma negativa.
 
 Bastiat anticipa así, con un siglo de antelación, los análisis del funcionamiento del mercado político que surgirían a finales de los años cincuenta con la llamada escuela de la Elección Pública de James Buchanan, Premio Nobel de Economía, y su colega Gordon Tullock.
 
 ![image](assets/es/119.webp)
 
-
-
 Además, afirma Bastiat, el Estado no tiene derechos que no preexistan primero en el individuo. ¿Por qué el Estado tiene derecho a garantizar, incluso por la fuerza, la propiedad de cada individuo? Sencillamente porque este derecho preexiste en el individuo. No se puede negar a los individuos el derecho a la autodefensa, el derecho a usar la fuerza si es necesario para repeler ataques contra sus personas, sus facultades y sus propiedades. Este derecho natural de autodefensa, que reside en todos los ciudadanos, puede adoptar una forma colectiva y legitimar la fuerza común.
-
 
 Por lo tanto, para saber si el Estado está legítimamente investido de un derecho, hay que preguntarse si ese derecho reside en el individuo en virtud de su organización y en ausencia de todo gobierno.
 
-
 Por ello, el Estado no puede en ningún caso atentar contra los derechos naturales; al contrario, debe garantizarlos.
-
 
 ![image](assets/es/120.webp)
 
-
 Garantiza la Seguridad, tanto interior como exterior, y la Justicia. Puede ser fuerte y eficaz en su ámbito. Pero la ley no puede salirse de este papel tan estricto porque entonces se convierte en un instrumento de saqueo de unos en beneficio de otros. Cuando la Ley se pervierte, actúa como instrumento de injusticia. La perversión de la ley conduce siempre al expolio, como hemos visto en el curso anterior. Es inmediato, automático, inevitable y seguro. Sacar la ley de su ámbito sólo puede atentar contra los derechos naturales. Se despoja entonces a la sociedad civil de su poder (instituciones naturales, contratos, intercambios, asociaciones) en favor de la gestión estatal, es decir, tecnocrática y burocrática.
-
 
 ![image](assets/es/121.webp)
 
-
 En consecuencia, los únicos servicios públicos legítimos de un Estado según Bastiat son tres: el ejército, la policía y el poder judicial. En otras palabras, el Estado debe garantizar la protección interna y externa de los individuos, su libertad y su propiedad. Por tanto, es normal que todos contribuyan a esta protección. Sin embargo, más allá de estas funciones legítimas, cualquier otra contribución a otro servicio prestado por el Estado está sujeta a escrutinio. Fuera de este círculo, escribe Bastiat:
-
 
 > Religión, educación, asociación, trabajo, intercambios, todo pertenece al dominio de la actividad privada, bajo la mirada de la autoridad pública, que sólo debe tener una misión de vigilancia y represión.
 
@@ -1337,33 +1242,23 @@ En cuanto a los servicios públicos, enuncia un principio sencillo:
 
 Si quieres crear una función, demuestra su utilidad. Demuestre que vale los servicios que presta, equivalentes a lo que cuesta. Por lo tanto, concluye, es razonable confiar al sector público sólo lo que el sector privado no puede realizar en absoluto.
 
-
 En resumen, cuando un gobierno se extralimita en su misión de defender a las personas y la propiedad, fomenta que los grupos de interés busquen privilegios e influyan en el poder para obtener beneficios a costa de los contribuyentes y los consumidores.
-
 
 > El Estado es la gran ficción a través de la cual todos se esfuerzan por vivir a costa de todos los demás.
 
 Escribió Frédéric Bastiat en un breve panfleto titulado El Estado.
 
-
-
-
 ## El legado de Frédéric Bastiat
-
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
 :::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
-
 La influencia de Bastiat empezó a declinar a finales del siglo XIX, con el auge del socialismo y, en particular, del marxismo en las universidades y los institutos de investigación, financiados con dinero público.
-
 
 Con el siglo XX, el conocimiento y la popularidad de Bastiat desaparecieron. Dejó de mencionarse en los manuales de economía. No sería hasta el final de la Segunda Guerra Mundial cuando surgiría un renovado interés por las ideas de libertad, tan evidentemente olvidadas con Roosevelt y los regímenes totalitarios de Europa. Uno de los artífices de este renacimiento fue el economista austriaco Ludwig von Mises, uno de los muchos intelectuales europeos que huyeron de Europa a través de España y Portugal para llegar a América.
 
-
 Instalado en Nueva York en 1943, Mises organizó seminarios que atrajeron a mentes notables: George Stigler, Milton Friedman, ambos futuros premios Nobel, y Murray Rothbard, entonces estudiante en Columbia. Fue durante estos seminarios cuando habló por primera vez de Bastiat como una de las principales referencias del liberalismo clásico. Presentó a sus oyentes los panfletos de Bastiat La ley y El Estado, aún no traducidos al inglés. En 1953, uno de los participantes en el seminario, Leonard Read, haría traducir "The Law" de Bastiat al inglés y se encargaría de distribuir el libro por todo el país a través de su fundación: la Foundation for Economic Education.
-
 
 ![image](assets/es/122.webp)
 
@@ -1371,48 +1266,33 @@ Pero quien también popularizaría las tesis de Frédéric Bastiat fue un column
 
 ![image](assets/es/123.webp)
 
-
 Hazlitt comienza su libro relatando la historia de Bastiat de la ventana rota. Resume la historia en una lección sencilla y singular:
-
 
 > El arte de la economía consiste en observar no sólo los efectos inmediatos, sino también los efectos a más largo plazo de cualquier acto o política; consiste en trazar las consecuencias de esa política no sólo para un grupo, sino para todos los grupos.
 
-A continuación, Hazlitt aplica esta lección a una gran variedad de problemas económicos: el control de los alquileres, las leyes sobre el salario mínimo, los supuestos beneficios de la guerra, las obras públicas y el déficit presupuestario, la inflación monetaria, los aranceles y, por último, el ahorro.
-
+A continuación, Hazlitt aplica esta lección a una gran variedad de problemas económicos: El control de los alquileres, las leyes sobre el salario mínimo, los supuestos beneficios de la guerra, las obras públicas y el déficit presupuestario, la inflación monetaria, los aranceles y, por último, el ahorro.
 
 Bastiat era uno de los economistas favoritos de Ronald Reagan, mucho antes de que fuera elegido presidente. Es menos conocido, pero durante ocho años, Reagan trabajó para la empresa General Electric como presentador de su programa de televisión en la CBS, y como responsable de la formación del personal de la empresa. Su programa de formación se basaba en textos introductorios a la economía de mercado. Las obras elegidas fueron las de dos austriacos, Hayek y Mises, dos ingleses, Cobden y Bright, y un francés, Frédéric Bastiat.
-
 
 La lección que Reagan enseñó a sus empleados, siguiendo a Bastiat, es que no hay mayor mito que el de estimular el crecimiento y el empleo mediante el gasto público.
 
 ![image](assets/es/124.webp)
 
-
-Fue sobre todo John Maynard Keynes quien sugirió que el gasto público aumentaba la producción debido a un multiplicador: si el gobierno construye un puente, los trabajadores de ese puente podrán comprar pan, luego el panadero podrá comprar zapatos, y así sucesivamente. Si la industria privada está en declive, puede remediarse con grandes obras. Si hay desempleo, el Estado puede crear empleos públicos.
-
+Fue sobre todo John Maynard Keynes quien sugirió que el gasto público aumentaba la producción debido a un multiplicador: Si el gobierno construye un puente, los trabajadores de ese puente podrán comprar pan, luego el panadero podrá comprar zapatos, y así sucesivamente. Si la industria privada está en declive, puede remediarse con grandes obras. Si hay desempleo, el Estado puede crear empleos públicos.
 
 Pero, como demostró acertadamente Bastiat, la intervención del Estado tiene efectos perversos que no se ven. Sólo un buen economista es capaz de preverlos. Pongamos un ejemplo: Es ilusorio creer que el gobierno puede "crear empleo" porque por cada empleo público creado, destruye un empleo en el mercado. En efecto, los empleos públicos se pagan con los impuestos. Los empleos públicos no se crean; se perciben. Cada céntimo gastado por el Estado debe obtenerse necesariamente a través de un céntimo de impuestos o de deuda.
 
-
 ![image](assets/es/125.webp)
-
 
 Si miramos las cosas desde este ángulo, explicó Reagan a los empleados de GE, los llamados milagros del gasto estatal aparecen bajo una luz completamente diferente. Porque los impuestos desincentivan la producción, y la riqueza creada por el gasto público no puede compensar plenamente la que se impidió que naciera por los impuestos recaudados para pagar esos gastos.
 
-
-
-
-En esencia, Reagan tomó de Bastiat varios Elements clave de una visión liberal de la sociedad y el hombre: la primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco jurídico flexible y mínimo, que permita la confianza y el respeto de los contratos, la ley fundamental de que la riqueza debe crearse antes de poder distribuirse, el deseo de dar a todos una oportunidad en mercados competitivos..
-
+En esencia, Reagan tomó de Bastiat varios elementos clave de una visión liberal de la sociedad y el hombre: La primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco jurídico flexible y mínimo, que permita la confianza y el respeto de los contratos, la ley fundamental de que la riqueza debe crearse antes de poder distribuirse, el deseo de dar a todos una oportunidad en mercados competitivos..
 
 # Sección final
 
-
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 
-
 ## Opiniones y valoraciones
-
 
 <chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
 
@@ -1420,13 +1300,11 @@ En esencia, Reagan tomó de Bastiat varios Elements clave de una visión liberal
 
 ## Examen final
 
-
 <chapterId>7e2285c9-d7f4-4e30-a1f5-f78aae06b7b3</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusión
-
 
 <chapterId>a3e98f2f-a072-4696-9553-5d24c6d236c9</chapterId>
 

@@ -1034,13 +1034,13 @@ In questo esempio, gli amministratori del Bitcoin Lille hanno personalizzato il 
 
 
 
-In "Impostazioni del gruppo", potrebbe essere opportuno **abilitare "Approvare i nuovi membri "**.
+In "Impostazioni del gruppo", potrebbe essere opportuno **abilitare l'opzione "Approvare i nuovi membri"**.
 
 
 Alcuni gruppi Telegram Bitcoin sono stati presi di mira da migliaia di account falsi progettati per spammare o disturbare la community.
 
 
-**Attivare l'approvazione dei membri può salvare il gruppo da un attacco di spam **
+**Attivare l'approvazione dei membri può salvare il gruppo da un attacco spam**
 
 
 
@@ -1050,14 +1050,14 @@ Non è sempre necessario, ma può aggiungere un ulteriore Layer di protezione.
 
 
 
-## Aggiunta di un bot multifunzione al vostro gruppo Telegram
+## Aggiunta di un bot multifunzione al tuo gruppo Telegram
 
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
 
 
-**Un'altra opzione per configurare e proteggere il vostro gruppo o supergruppo Telegram è aggiungere un bot multifunzione**. In questo modo è possibile ampliare in modo significativo le funzionalità e le capacità di moderazione del gruppo.
+**Un'altra opzione per configurare e proteggere il tuo gruppo o supergruppo Telegram è aggiungere un bot multifunzione**. In questo modo è possibile ampliare in modo significativo le funzionalità e le capacità di moderazione del gruppo.
 
 
 Utilizzando **il bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, le opzioni più utili sono:
@@ -1116,27 +1116,27 @@ Tuttavia, come già detto, la **complessità aggiunta e l'aumento degli argoment
 
 Perché prendere in considerazione Discord?
 
-**Discord è un'alternativa** ai supergruppi di Telegram, in quanto consente agli utenti di **creare stanze di chat testuali e vocali specifiche** e permette ai membri di escludere i canali a cui non sono interessati.
+**Discord è un'alternativa** ai supergruppi di Telegram, in quanto consente agli utenti di **creare chat testuali e vocali specifiche** e permette ai membri di escludere i canali a cui non sono interessati.
 
 
 Naturalmente, la gestione di Telegram e Discord richiede un po' più di tempo, soprattutto durante la configurazione e il lancio.
 
 
 
-Per facilitarvi le cose, **condividiamo un [server Discord che potete duplicare e personalizzare](https://discord.com/template/bDY4eXXJk2C8)**:
+Per facilitarti le cose, **condividiamo un [server Discord che puoi duplicare e personalizzare](https://discord.com/template/bDY4eXXJk2C8)**:
 
 
 
 :::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 
-Se ben progettato, un server Discord può essere una vera risorsa per la vostra community. Molti Bitcoiners utilizzano già **Discord** quotidianamente e la possibilità di seguire le conversazioni di Telegram direttamente all'interno di Discord (e viceversa) può far risparmiare molto tempo a tutti.
+Se ben progettato, un server Discord può essere una vera risorsa per la tua community. Molti Bitcoiners utilizzano **Discord** quotidianamente e la possibilità di seguire le conversazioni di Telegram direttamente all'interno di Discord (e viceversa) può far risparmiare molto tempo a tutti.
 
 
 Per sincronizzare entrambe le piattaforme, esiste un bot open-source chiamato [TediCross](https://github.com/TediCross/TediCross). Il suo scopo è semplice: inoltrare automaticamente i messaggi da un canale di testo Discord a un gruppo Telegram (o a un argomento di un supergruppo) e viceversa.
 
 
-Tuttavia, tenete presente che l'installazione non è delle più semplici. È necessario mantenere un prompt dei comandi (CMD) in esecuzione sul computer per far funzionare il bot e potrebbero verificarsi errori occasionali. Fortunatamente, risolverli è semplice: basta riavviare il bot e, nella maggior parte dei casi, tutto torna alla normalità.
+Tuttavia, tieni presente che l'installazione non è delle più semplici. È necessario mantenere un prompt dei comandi (CMD) in esecuzione sul computer per far funzionare il bot e potrebbero verificarsi errori occasionali. Fortunatamente, risolverli è semplice: basta riavviare il bot e, nella maggior parte dei casi, tutto torna alla normalità.
 
 
 Per risparmiare tempo, ecco un tutorial su come aggiungere questo bot multifunzione a un gruppo o supergruppo di Telegram:
@@ -1157,7 +1157,7 @@ Per risparmiare tempo, ecco un tutorial su come aggiungere questo bot multifunzi
 Come discusso in precedenza, Twitter e Telegram sono gli strumenti di comunicazione più utilizzati dalle community Bitcoin in Europa (se non in tutto il mondo).
 
 
-Tuttavia, Telegram non è esattamente nota per essere l'app di messaggistica più sicura o attenta alla privacy e Twitter, ora X, è di proprietà di una delle società più libere del pianeta.
+Tuttavia, Telegram non è esattamente nota per essere l'app di messaggistica più sicura o attenta alla privacy e Twitter, ora X, è di proprietà di una delle società che si muove con maggior libertà del pianeta.
 
 
 Per questo motivo, una volta che i canali principali sono stati creati e le cose funzionano senza problemi, può valere la pena di esplorare altre opzioni.
@@ -1168,34 +1168,34 @@ Nei prossimi mesi, questo corso e la piattaforma planb.network offriranno eserci
 
 **Perché preoccuparsi di esaminare queste opzioni?**
 
-Perché, proprio come il social network NOSTR, non solo garantiscono una maggiore privacy, ma anche una salvaguardia contro la censura o la chiusura arbitraria del vostro gruppo Telegram.
+Perché, proprio come il social network NOSTR, non solo garantiscono una maggiore privacy, ma anche una salvaguardia contro la censura o la chiusura arbitraria del tuo gruppo Telegram.
 
 
-E davvero, cosa c'è di più in linea con lo spirito del Bitcoin che essere resistente alla censura e resiliente per design?
+E davvero, cosa c'è di più in linea con lo spirito di Bitcoin che essere resiliente e resistente alla censura per design?
 
 
 
-# Lanciate le vostre reti sociali
+# Apri le tue pagine sui social network
 
 
 <partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
 
 
 
-## L'importanza della visibilità per far crescere la vostra community Bitcoin
+## L'importanza della visibilità per far crescere la tua community Bitcoin
 
 
 <chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
 
 
 
-La vostra community è pronta e funzionante. Avete creato il vostro spazio Telegram o Matrix... ma per ora ci siete solo voi. **È ora di far sapere alla gente che esistete!**
+La tua community è pronta e funzionante. Hai creato il tuo spazio Telegram o Matrix... ma per ora ci sei solo tu. **È ora di far sapere alla gente che esisti!**
 
 
-È semplice: se nessuno è in grado di accedere al vostro gruppo e vedere quando si terrà il prossimo incontro, non farete altro che postare nel vuoto. Ecco perché i social media, e alcune piattaforme specifiche che tratteremo più avanti, sono così importanti per costruire la vostra community.
+È semplice: se nessuno è in grado di accedere al tuo gruppo e vedere quando si terrà il prossimo incontro, non farai altro che postare nel vuoto. Ecco perché i social media, e alcune piattaforme specifiche che tratteremo più avanti, sono così importanti per costruire la tua community.
 
 
-Twitter (X) è diventato quasi sinonimo di conversazione online sul Bitcoin. Non è perfetto, tutt'altro, ma attualmente è il luogo in cui si riunisce gran parte della community. Non è perfetto, tutt'altro, ma attualmente è il luogo in cui si riunisce gran parte della community. Si consiglia vivamente di creare un account su questo sito.
+Twitter (X) è diventato quasi sinonimo di conversazione online a tema Bitcoin. Non è perfetto, tutt'altro, ma attualmente è il luogo in cui si riunisce gran parte della community. Si consiglia vivamente di creare un account su questo sito.
 
 
 Per evitare possibili censure o restrizioni, alcune community aprono anche un profilo NOSTR.
@@ -1223,24 +1223,24 @@ Detto questo, tenete presente che **più canali di comunicazione e reti sociali 
 
 
 
-Twitter è molto facile da usare e per migliorare la vostra privacy dovrete regolare alcune impostazioni.
+Twitter è molto facile da usare e per migliorare la tua privacy dovrai regolare alcune impostazioni.
 
 
 **Quando si crea un nuovo account Twitter, è necessario inserire quattro informazioni essenziali:**:
 
 
-1/ **la @ Twitter**, che definisce la vostra identità e vi rende facilmente reperibili. Se il nome della vostra community è "Bitcoin [CITTA']", è opportuno scegliere "@Bitcoin[CITTA']";
+1/ **la @ Twitter**, che definisce la tua identità e ti rende facilmente reperibile. Se il nome della vostra community è "Bitcoin [CITTA']", è opportuno scegliere "@Bitcoin[CITTA']";
 
 
-2/ **il logo e il banner** che avete creato per la vostra community o meet-up (vedi sezione [Creare un logo, un poster e un banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **il logo e il banner** che hai creato per la tua community o meet-up (vedi sezione [Creare un logo, un poster e un banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
-3/ **la descrizione**, che vi permette di condividere le informazioni chiave sulla vostra community in poche centinaia di caratteri. Ad esempio:
+3/ **la descrizione**, che ti permette di condividere le informazioni chiave sulla tua community in poche centinaia di caratteri. Ad esempio:
 
 
 > Account ufficiale della community Bitcoin [CITY] #BTC | Incontri ogni 1° mercoledì del mese al [BAR_NAME] di [CITY] 🍻 | Unisciti a noi su Telegram 🔽
 
-4/ Sotto questa descrizione, è possibile **inserire un link**. Questo può condurre gli utenti a una pagina "social media" sul sito web della vostra community o al vostro canale Telegram. Sta a voi decidere cosa volete mettere in evidenza.
+4/ Sotto questa descrizione, è possibile **inserire un link**. Questo può condurre gli utenti a una pagina "social media" sul sito web della tua community o al tuo canale Telegram. Sta a te decidere cosa vuoi mettere in evidenza.
 
 
 
@@ -1257,10 +1257,10 @@ Inoltre, **alcune impostazioni sulla privacy meritano di essere regolate**:
 - disattivare la localizzazione e la condivisione dei dati con altre entità (nelle impostazioni sulla privacy).
 
 
-Per ogni evento, probabilmente utilizzerete Twitter per condividere informazioni utili. Ma, come per la maggior parte dei social network, la **visibilità è tutto**.
+Per ogni evento, probabilmente utilizzerai Twitter per condividere informazioni utili. Ma, come per la maggior parte dei social network, la **visibilità è tutto**.
 
 
-Per farvi risparmiare tempo, ci siamo presi il tempo di studiare [l'algoritmo di ranking open-source di Twitter](https://github.com/twitter).
+Per farti risparmiare tempo, ci siamo presi il tempo di studiare [l'algoritmo di ranking open-source di Twitter](https://github.com/twitter).
 
 
 Ecco gli **elementi chiave su cui concentrarsi per aumentare la propria visibilità**:
@@ -1269,31 +1269,31 @@ Ecco gli **elementi chiave su cui concentrarsi per aumentare la propria visibili
 
 - Suggerimenti generali:
     - Twitta nella lingua impostata del tuo account o in inglese: twittare in altre lingue può ridurre di molto la tua visibilità;
-    - Attenetevi alla vostra nicchia, condividendo solo contenuti relativi all'obiettivo del vostro account; i tweet fuori tema vengono penalizzati dall'algoritmo;
+    - Attieniti alla tua nicchia, condividendo solo contenuti relativi all'obiettivo del tuo account; i tweet fuori tema vengono penalizzati dall'algoritmo;
     - Puntate a 1 o 2 tweet al giorno;
-    - Postate nelle ore di punta: Il giovedì o il venerdì tra le 8 e le 10 del mattino tendono a dare i risultati migliori (controllate il vostro account: Twitter Analytics).
+    - Postate nelle ore di punta: Il giovedì o il venerdì tra le 8 e le 10 del mattino tendono a dare i risultati migliori (controlla il tuo account: Twitter Analytics).
 
 
 
 - Quando si scrive un tweet:
     - aggiungere una foto (o anche un video);
-    - Utilizzare un solo hashtag (di solito #Bitcoin è il più pertinente. Se opportuno, potete aggiungere un hashtag di tendenza relativo alla vostra area di interesse);
-    - Incoraggiate la vostra community a interagire:
+    - Utilizzare un solo hashtag (di solito #Bitcoin è il più pertinente. Se opportuno, puoi aggiungere un hashtag di tendenza relativo alla tua area di interesse);
+    - Incoraggia la tua community a interagire:
         - Come = peso 0,5
         - Retweet = peso 1
 - Risposta = peso 27 (!!)
-- Rispondete alle persone che rispondono ai vostri **tweet** (peso di 75!!);
-    - Evitate di inserire i link nel tweet principale: aggiungeteli invece nel primo commento..;
-    - Scrivete le parole per esteso, evitando le abbreviazioni.
+- Rispondi alle persone che rispondono ai tuoi **tweet** (peso di 75!!);
+    - Evita di inserire i link nel tweet principale: aggiungili invece nel primo commento..;
+    - Scrivi le parole per esteso, evitando le abbreviazioni.
 
 
 
 - Altri suggerimenti:
     - Twitta su argomenti di tendenza, purché siano in linea con l'area di competenza del tuo account;
-    - Ripostate i vostri tweet più performanti;
-    - Di tanto in tanto, eseguire sondaggi;
-    - Scrivere le filettature quando è possibile;
-    - Incoraggiate la vostra community a visitare il vostro profilo e a seguirvi.
+    - Riposta i tuoi tweet più performanti;
+    - Di tanto in tanto, esegui sondaggi;
+    - Scrivi dei threads quando è possibile;
+    - Incoraggia la tua community a visitare il tuo profilo e a seguirti.
 
 
 
@@ -1310,7 +1310,7 @@ Si noti inoltre che è possibile rimanere collegati a due account Twitter contem
 Fate solo attenzione... postare per sbaglio una foto di una festa dall'account della community può accadere più velocemente di quanto pensiate!
 
 
-Infine, anche se il vostro nome utente "@Bitcoin[CITY]" è unico e ormai vostro, è bene prevedere account falsi o imitatori. Considerate anche la possibilità di registrarvi:
+Infine, anche se il tuo nome utente "@Bitcoin[CITY]" è unico e ormai vostro, è bene prevedere account falsi o imitatori. Considera anche la possibilità di registrare:
 
 
 
@@ -1319,7 +1319,7 @@ Infine, anche se il vostro nome utente "@Bitcoin[CITY]" è unico e ormai vostro,
 - @[CITTÀ]_Bitcoin
 
 
-In questo modo, ridurrete notevolmente le possibilità che qualcuno si spacci per la vostra community.
+In questo modo, ridurrai notevolmente le possibilità che qualcuno si spacci per la tua community.
 
 
 
@@ -1331,14 +1331,14 @@ Tutorial per la creazione di un account Twitter:
 
 
 
-## Avvicinarsi ai meetup vicini
+## Avvicinarsi ai meetup locali
 
 
 <chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
 
 
 
-Ora che i canali di comunicazione e i social network sono impostati e riflettono l'identità visiva della vostra community, è il momento di iniziare a seguire le persone giuste.
+Ora che i canali di comunicazione e i social network sono impostati e riflettono l'identità visiva della tua community, è il momento di iniziare a seguire le persone giuste.
 
 
 

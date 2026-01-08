@@ -1407,7 +1407,7 @@ Anche altre piattaforme possono aumentare la vostra visibilità. **[Meetup](http
 Costa circa 8 euro al mese (o circa 90 euro all'anno), il che può essere costoso per una piccola community non strutturata. Detto questo, Meetup è molto utilizzato in alcuni Paesi, soprattutto in Canada e negli Stati Uniti, ed è utile per gestire le iscrizioni.
 
 
-Allo stesso modo, **[Orangepillapp](https://www.orangepillapp.com/)** è un'applicazione mobile a pagamento (50.000 Sats/anno o 200.000 Sats per l'accesso a vita) che aiuta i bitcoiners a incontrarsi.
+Allo stesso modo, **[Orangepillapp](https://www.orangepillapp.com/)** è un'applicazione mobile a pagamento (50.000 Sats/anno o 200.000 Sats per l'accesso a vita) che aiuta i Bitcoiners a incontrarsi.
 
 
 Sebbene queste ultime due piattaforme possano contribuire ad aumentare la visibilità, non sono consigliate per il lancio di una community, semplicemente perché non sono gratuite.
@@ -1415,10 +1415,10 @@ Sebbene queste ultime due piattaforme possano contribuire ad aumentare la visibi
 **Iniziare con un annuncio su [btcmap.org](https://btcmap.org/), [BitcoinerEvents](https://www.bitcoinerevents.com/) e per le community francesi, su [Bitcoin.fr](https://Bitcoin.fr) è più che sufficiente**.
 
 
-Congratulazioni! La vostra **community è stata creata**, i vostri **visivi sono pronti**, i vostri **obiettivi sono stati fissati**, i vostri **canali di comunicazione sono pronti**, i vostri **social network sono stati lanciati** e la vostra **strategia di visibilità è stata decisa**.
+Congratulazioni! La tua **community è stata creata**, le tue **visual(logo, banner, ecc.) sono pronte**, i tuoi **obiettivi sono stati fissati**, i tuoi **canali di comunicazione sono pronti**, i tuoi **social network sono stati lanciati** e la tua **strategia di visibilità è stata decisa**.
 
 
-Una volta che un piccolo gruppo di bitcoiners si è unito a voi, è il momento del passo successivo: organizzare il vostro primo meetup Bitcoin.
+Una volta che un piccolo gruppo di Bitcoiners si è unito a voi, è il momento del passo successivo: organizzare il tuo primo meetup Bitcoin.
 
 
 
@@ -1429,23 +1429,23 @@ Una volta che un piccolo gruppo di bitcoiners si è unito a voi, è il momento d
 
 
 
-## Perché lanciare un incontro regolare con la vostra community?
+## Perché lanciare un incontro regolare con la tua community?
 
 
 <chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
 
 
 
-Ora che i social network e i canali di comunicazione della vostra community sono stati lanciati, è il momento di far sentire la vostra presenza su queste piattaforme. Incoraggiate i nuovi membri a presentarsi e a unirsi gradualmente alla conversazione.
+Ora che i social network e i canali di comunicazione della tua community sono stati lanciati, è il momento di far sentire la tua presenza su queste piattaforme. Incoraggia i nuovi membri a presentarsi e a unirsi gradualmente alla conversazione.
 
 
-In questo modo si libererà del tempo, che potrebbe essere utilizzato per pensare di creare una sorta di meetup. Questo diventerà ancora più importante quando inizierete a sentire un vero e proprio entusiasmo all'interno della vostra community.
+In questo modo si libererà del tempo, che potrebbe essere utilizzato per pensare di creare una sorta di meetup. Questo diventerà ancora più importante quando inizierai a sentire un vero e proprio entusiasmo all'interno della community.
 
 
 Come accennato in precedenza, **un meetup Bitcoin può essere visto come il "livello" successivo per una community**. Da un lato, permette ai **membri di incontrarsi di persona**, dall'altro, aiuta a **formare i nuovi arrivati interessati a questo ecosistema**.
 
 
-Un evento come questo vi permette, su scala personale, di **creare un fermento intorno al Bitcoin** nella vostra città, che può crescere nel tempo man mano che la vostra community intraprende i progetti.
+Un evento come questo ti permette, su scala personale, di **creare un fermento intorno a Bitcoin** nella tua città, che può crescere nel tempo man mano che la community intraprende i progetti.
 
 
 
@@ -1453,9 +1453,9 @@ Un evento come questo vi permette, su scala personale, di **creare un fermento i
 
 
 
-Naturalmente, più grandi sono gli obiettivi di sviluppo della community, più tempo voi e i vostri membri dovrete investire.
+Naturalmente, più grandi sono gli obiettivi di sviluppo della community, più tempo te e i vostri membri dovrai investire.
 
-Ecco perché è importante **iniziare a fissare obiettivi raggiungibili per il vostro meetup**.
+Ecco perché è importante **iniziare a fissare obiettivi raggiungibili per il tuo meetup**.
 
 
 
@@ -1466,7 +1466,7 @@ Ecco perché è importante **iniziare a fissare obiettivi raggiungibili per il v
 
 
 
-Potete lanciare un meet-up poche settimane dopo aver creato la vostra community.
+Puoi lanciare un meet-up poche settimane dopo aver creato la vostra community.
 
 Tuttavia, a quel punto il gruppo sarà probabilmente ancora piccolo, il che significa che c'è la possibilità che nessuno si presenti.
 
@@ -1474,7 +1474,7 @@ Tuttavia, a quel punto il gruppo sarà probabilmente ancora piccolo, il che sign
 È meglio organizzare un incontro quando si hanno almeno alcuni membri attivi nei propri canali di comunicazione, ad esempio qualche decina. Questo può avvenire rapidamente, ma dipende anche dalla personalità delle persone.
 
 
-Una volta scoccata la scintilla, proponete di incontrarvi di persona. Se gli altri sono interessati, non resta che **fissare una data per il primo incontro**.
+Una volta scoccata la scintilla, proponi di incontrarvi di persona. Se gli altri sono interessati, non resta che **fissare una data per il primo incontro**.
 
 
 Piuttosto che scegliere la data da soli, di solito è meglio **creare un sondaggio una decina di giorni prima con diversi giorni e orari possibili**. In questo modo, potrete utilizzare i voti per massimizzare la partecipazione, creare entusiasmo e utilizzare al meglio il vostro tempo.
@@ -1488,24 +1488,24 @@ Piuttosto che scegliere la data da soli, di solito è meglio **creare un sondagg
 È meglio non avere aspettative fisse su come si svolgerà l'incontro, su quante persone verranno o su quali argomenti verranno discussi. In questo modo si evitano delusioni e si evita che i partecipanti si sentano sotto pressione.
 
 
-Lasciate che le cose fluiscano naturalmente, magari davanti a un drink. Le conversazioni dovrebbero svolgersi in modo semplice e, se necessario, si può riportare la discussione sul Bitcoin con delicatezza, se inizia a sfuggire.
+Lascia che le cose fluiscano naturalmente, magari davanti a un drink. Le conversazioni dovrebbero svolgersi in modo semplice e, se necessario, si può riportare la discussione su Bitcoin con delicatezza, se inizia a sfuggire.
 
 
-Se volete prepararvi per i momenti più tranquilli, potete pianificare alcune attività o punti di conversazione, come ad esempio:
+Se vuoi prepararti per i momenti più tranquilli, puoi pianificare alcune attività o punti di conversazione, come ad esempio:
 
 
 
-- mostrando il **[Mempool](https://Mempool.space/)** su un computer o uno smartphone;
+- mostrando la **[Mempool](https://Mempool.space/)** su un computer o uno smartphone;
 - portare un libro;
 - portando un **Nerdminer**, un Bitaxe, un FPGA o persino un ASIC;
 - avere un **volantino Bitcoin**;
-- ideare un visual o un logo Bitcoin per la vostra community;
+- ideare un visual o un logo Bitcoin per la tua community;
 - giocare a un **[gioco di carte Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
-- che mostra la mappa **[btcmap.org](https://btcmap.org/)** delle community e dei commercianti;
+- mostrare la mappa **[btcmap.org](https://btcmap.org/)** delle community e dei commercianti;
 - inviare o ricevere Bitcoin utilizzando **Lightning**.
 
 
-Quando il vostro meet-up è agli inizi, spesso non è il momento giusto per una presentazione formale. Se la partecipazione è scarsa, di solito è meglio una discussione aperta e informale.
+Quando il tuo meet-up è agli inizi, spesso non è il momento giusto per una presentazione formale. Se la partecipazione è scarsa, di solito è meglio una discussione aperta e informale.
 
 
 
@@ -1513,14 +1513,14 @@ Quando il vostro meet-up è agli inizi, spesso non è il momento giusto per una 
 
 
 
-Dopo il primo incontro, probabilmente vorrete organizzarne un altro. Finché la vostra community è ancora piccola, è meglio scegliere le date tramite sondaggi, ad esempio una volta al mese o ogni due mesi. Potete discuterne nei vostri canali di comunicazione.
+Dopo il primo incontro, probabilmente vorrete organizzarne un altro. Finché la tua community è ancora piccola, è meglio scegliere le date tramite sondaggi, ad esempio una volta al mese o ogni due mesi. Puoi discuterne nei vostri canali di comunicazione.
 
 
-Se si forma un gruppo regolare di bitcoiners e di partecipanti interessati, ha senso stabilire un calendario ricorrente per due motivi:
+Se si forma un gruppo regolare di Bitcoiners e di partecipanti interessati, ha senso stabilire un calendario ricorrente per due motivi:
 
 1) rende più facile per tutti pianificare il futuro;
 
-2) aiuta a **stabilire un'"abitudine "**. Anche se qualcuno smette di controllare regolarmente i vostri canali, saprà comunque quando si terrà l'incontro e potrà passare come al solito.
+2) aiuta a **stabilire un'"abitudine "**. Anche se qualcuno smette di controllare regolarmente i vostri canali, saprà comunque quando si terrà l'incontro e potrà presentarsi, come al solito.
 
 
 Questo secondo punto è uno dei motivi per cui, **in Francia, la maggior parte dei meetup si svolge il primo mercoledì di ogni mese** (vedi l'iniziativa "ambasciatori", lanciata da [DecouvreBitcoin](https://decouvrebitcoin.fr/) nel 2022).
@@ -1528,17 +1528,17 @@ Questo secondo punto è uno dei motivi per cui, **in Francia, la maggior parte d
 In Germania e in Italia non esiste una giornata nazionale fissa.
 
 
-Tuttavia, avere tutti i meet-up a livello nazionale nello stesso giorno crea un problema di centralizzazione: impedisce ai bitcoiners di partecipare agli eventi nelle community vicine e può anche sollevare problemi di sicurezza. Parlare con gli organizzatori dei meet-up vicini può aiutare a trovare un buon accordo.
+Tuttavia, avere tutti i meet-up a livello nazionale nello stesso giorno crea un problema di centralizzazione: impedisce ai Bitcoiners di partecipare agli eventi nelle community vicine e può anche sollevare problemi di sicurezza. Parlare con gli organizzatori dei meet-up vicini può aiutare a trovare un buon accordo.
 
 
-Man mano che la vostra community cresce e gli incontri attirano più persone, potreste:
+Man mano che la tua community cresce e gli incontri attirano più persone, potresti:
 
 
 - fissare un obiettivo specifico per ogni incontro;
 - o addirittura **aggiungere un secondo evento ogni mese**.
 
 
-Nel primo caso, pur tenendo conto delle preferenze di ciascuno, un obiettivo chiaro può garantire che i partecipanti vadano via dopo aver imparato qualcosa di nuovo e che le conversazioni si concentrino sul Bitcoin.
+Nel primo caso, pur tenendo conto delle preferenze di ciascuno, un obiettivo chiaro può garantire che i partecipanti vadano via dopo aver imparato qualcosa di nuovo e che le conversazioni si concentrino su Bitcoin.
 
 Nel secondo caso, un secondo evento mensile potrebbe essere dedicato a un tema specifico, come sessioni per principianti o workshop (Mining, Lightning, installazione di nodi, ecc.).
 
@@ -1547,10 +1547,10 @@ Nel secondo caso, un secondo evento mensile potrebbe essere dedicato a un tema s
 
 
 
-Tenete presente che **questo richiede più organizzazione e più tempo**. Fortunatamente, nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), troverete una serie di risorse open-source riutilizzabili per aiutarvi.
+Tieni presente che **questo richiede più organizzazione e più tempo**. Fortunatamente, nella [parte 6/8 di questo corso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), troverai una serie di risorse open-source riutilizzabili per aiutarti.
 
 
-In ogni caso, tutto dipende dal piano d'azione a breve, medio e lungo termine che voi, o la vostra community, vi siete dati.
+In ogni caso, tutto dipende dal piano d'azione a breve, medio e lungo termine che tu, o la tua community, vi siete dati.
 
 
 
@@ -1561,12 +1561,12 @@ In ogni caso, tutto dipende dal piano d'azione a breve, medio e lungo termine ch
 
 
 
-Trovare una sede per i vostri eventi spesso non è un compito facile. Inoltre, è essenziale che questa sede sia **localizzata nella città della vostra community**.
+Trovare una sede per i vostri eventi spesso non è un compito facile. Inoltre, è essenziale che questa sede sia **localizzata nella città della tua community**.
 
 
 Ci sono diversi criteri da considerare, tra cui:
 
-1) **Località**: è facilmente raggiungibile con i mezzi pubblici? In auto? È disponibile un parcheggio?
+1) **Location**: è facilmente raggiungibile con i mezzi pubblici? In auto? È disponibile un parcheggio?
 
 2) La sede è piacevole e non troppo **rumorosa**? Cercate un ambiente formale (spazio di co-working, sala riunioni) o qualcosa di più informale (bar, ristorante)?
 
@@ -1581,7 +1581,7 @@ Inoltre, ecco tre punti importanti da tenere a mente:
 
 
 - Se si prevede di dividere la serata in due parti: prima una presentazione in uno spazio formale per aiutare tutti a concentrarsi, poi il trasferimento in un bar o in un ristorante per continuare in un'atmosfera più rilassata, l'esperienza dimostra che cambiare luogo a metà serata spesso porta alcuni partecipanti ad abbandonare la sala durante la pausa. Questo approccio è quindi sconsigliato.
-- Ai primi incontri, la partecipazione sarà probabilmente ridotta e probabilmente non farete presentazioni formali. In questo caso, non è necessario presentarsi al proprietario o spiegare i propri obiettivi. Tuttavia, **quando gli incontri diventano regolari e ben frequentati, vale la pena farlo per dimostrare professionalità ed esprimere il desiderio di tornare mensilmente**. Questo può portare a molte discussioni (prenotazioni mensili automatiche, tavole di bevande e/o cibo gratuite, sconti, conversazioni sul Bitcoin, accettazione dei pagamenti del Bitcoin, ecc.) Ovviamente, se cercate specificamente un locale con un videoproiettore per fare delle presentazioni, sembra essenziale chiedere un incontro (faccia a faccia, o anche per telefono) con il proprietario e/o il gestore per presentare il vostro progetto e i vostri obiettivi.
+- Ai primi incontri, la partecipazione sarà probabilmente ridotta e probabilmente non farai presentazioni formali. In questo caso, non è necessario presentarsi al proprietario o spiegare i propri obiettivi. Tuttavia, **quando gli incontri diventano regolari e ben frequentati, vale la pena farlo per dimostrare professionalità ed esprimere il desiderio di tornare mensilmente**. Questo può portare a molte discussioni (prenotazioni mensili automatiche, tavole di bevande e/o cibo gratuite, sconti, conversazioni su Bitcoin, accettazione dei pagamenti Bitcoin, ecc.) Ovviamente, se cerchi specificamente un locale con un videoproiettore per fare delle presentazioni, sembra essenziale chiedere un incontro (faccia a faccia, o anche per telefono) con il proprietario e/o il gestore per presentare il tuo progetto e i tuoi obiettivi.
 
 
 
@@ -1593,10 +1593,10 @@ Inoltre, ecco tre punti importanti da tenere a mente:
 - infine, alcune community **vogliono organizzare i loro eventi solo in luoghi che accettano pagamenti Bitcoin**, il che è comprensibile. In questo caso, è una buona idea **iniziare a cercare gli esercizi commerciali che accettano Bitcoin nella propria città** (su [btcmap.org](https://btcmap.org/map/)e contattarli per vedere se soddisfano i propri criteri. Se non c'è nulla di adatto, si può provare a coinvolgere nuovi commercianti, ma ci si deve aspettare molti rifiuti, il che può essere scoraggiante. Ecco perché spesso è meglio non porsi questo obiettivo fin dall'inizio e prenderlo in considerazione una volta che la vostra community è ben consolidata e avete abbastanza "potenza di fuoco"
 
 
-Inoltre, quando lanciate il vostro meet-up, non esitate a **cambiare sede per i primi mesi**. Questo vi aiuterà a **costruire relazioni con diversi manager**, a esplorare varie atmosfere e a raccogliere informazioni sui potenziali futuri ospiti.
+Inoltre, quando lanci il tuo meet-up, non esitare a **cambiare sede per i primi mesi**. Questo ti aiuterà a **costruire relazioni con diversi manager**, a esplorare varie atmosfere e a raccogliere informazioni sui potenziali futuri ospiti.
 
 
-In seguito, quando il vostro gruppo sarà cresciuto, potreste anche dedicare un pomeriggio a visitare diversi esercizi commerciali e bar, chiedendo se hanno uno spazio adatto a ospitare i vostri eventi e incontri mensili.
+In seguito, quando il tuo gruppo sarà cresciuto, potresti anche dedicare un pomeriggio a visitare diversi esercizi commerciali e bar, chiedendo se hanno uno spazio adatto a ospitare i vostri eventi e incontri mensili.
 
 
 
@@ -1607,9 +1607,9 @@ In seguito, quando il vostro gruppo sarà cresciuto, potreste anche dedicare un 
 
 
 
-Avete intenzione di organizzare un incontro nelle prossime settimane?
+Hai intenzione di organizzare un incontro nelle prossime settimane?
 
-Ecco una lista di controllo per aiutarvi a prepararvi:
+Ecco una checklist per aiutarti a essere preparato:
 
 1/ **Confermare la sede**
 
@@ -1618,10 +1618,10 @@ Contattare il luogo in cui si terrà l'evento e prenotarlo per il numero di part
 2/ **Annunciare l'evento**:
 
 
-    - Condividete la data, l'ora e il luogo sui vostri social network e altri canali di comunicazione. Se necessario, includete un link per la registrazione.
-    - Creare un visual dedicato (ad esempio un poster Canva, vedi parte 2/8 "[Progettare un'identità per la vostra community Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
-    - Massimizzate la visibilità appuntando l'annuncio su Telegram e Twitter e utilizzando una menzione "@tutti" su Discord.
-    - Pubblicate gli annunci da 7 a 10 giorni prima dell'evento, in modo che i partecipanti possano pianificare in anticipo.
+    - Condividi la data, l'ora e il luogo sui vostri social network e altri canali di comunicazione. Se necessario, includi un link per la registrazione.
+    - Crea un visual dedicato (ad esempio un poster Canva, vedi parte 2/8 "[Progettare un'identità per la vostra community Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Massimizza la visibilità appuntando l'annuncio su Telegram e Twitter e utilizzando una menzione "@tutti" su Discord.
+    - Pubblica gli annunci da 7 a 10 giorni prima dell'evento, in modo che i partecipanti possano pianificare in anticipo.
 
 
 
@@ -1631,19 +1631,19 @@ Contattare il luogo in cui si terrà l'evento e prenotarlo per il numero di part
 
 3/ **Ricordare al pubblico**
 
-Due o tre giorni prima dell'evento, condividete e ritwittate i vostri annunci per aumentare la visibilità.
+Due o tre giorni prima dell'evento, condividi e ritwittata i tuoi annunci per aumentare la visibilità.
 
 4/ **Aggiornamento della sede**
 
-Il giorno prima (o due giorni prima), controllate le iscrizioni e comunicate alla sede il numero definitivo di partecipanti previsto.
+Il giorno prima (o due giorni prima), controlla le iscrizioni e comunica alla sede il numero definitivo di partecipanti previsto.
 
 
-Passi in più per far risaltare il vostro evento:
+Passi in più per far risaltare il tuo evento:
 
 
 - Stampa di volantini e/o manifesti
-- Preparare una presentazione su un argomento specifico
-- Organizzare un'attività o un workshop
+- Prepara una presentazione su un argomento specifico
+- Organizza un'attività o un workshop
 
 
 
@@ -1654,7 +1654,7 @@ Passi in più per far risaltare il vostro evento:
 
 
 
-Il grande giorno è arrivato! Una o due ore prima dell'inizio dell'evento, inviate un promemoria attraverso i canali di comunicazione della vostra community. Riconfermate l'orario di inizio e comunicate ai partecipanti come riconoscervi, ad esempio dicendo che indosserete la maglietta e il cappellino del Bitcoin.
+Il grande giorno è arrivato! Una o due ore prima dell'inizio dell'evento, invia un promemoria attraverso i canali di comunicazione della tua community. Riconferma l'orario di inizio e comunica ai partecipanti come riconoscerti, ad esempio dicendo che indosserai la maglietta e il cappellino con il logo Bitcoin.
 
 
 Man mano che i vostri meetup crescono e iniziate ad accogliere più di 20 persone, la preparazione della sede diventerà sempre più importante.

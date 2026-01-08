@@ -11,6 +11,8 @@ description: Betaal in bitcoins overal waar Visa-bankkaarten worden geaccepteerd
 
 ⚠️ *Update december 2025: Let op, **sinds begin december 2025 is een deel van de diensten van Moon niet langer beschikbaar**, met name de oplaadbare Visa-bankkaarten. We weten nog niet of deze onbeschikbaarheid tijdelijk of definitief is. Deze handleiding wordt bijgewerkt zodra er meer informatie beschikbaar is.*
 
+*Als u de prepaid Visa-kaart gebruikte voordat deze werd geblokkeerd, kunt u nu uw tegoeden terugkrijgen door het identiteitsverificatieproces rechtstreeks via uw Moon-dashboard te volgen. In principe zou Moon u een e-mail hebben gestuurd om u te informeren over de te volgen procedure en de stappen die nodig zijn om deze terugvordering uit te voeren.*
+
 ---
 
 Met Moon kun je cryptocurrencies zoals bitcoin gebruiken om KYC-vrije virtuele Visa-kaarten en cadeaubonnen te kopen, die je kunt gebruiken bij miljoenen online handelaars, net als een traditionele bankpas. Het biedt dus een eenvoudige manier om je sats uit te geven waar Visa wordt geaccepteerd, zonder via een uitwisselingsplatform te gaan.

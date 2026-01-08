@@ -1,11 +1,11 @@
-question: 在币币交换中使用的两种主要智能合约变体是什么？
+question: 在 Coinswap 中使用的两种主要智能合约是什么？
 
 answer: HTLC 和 PTLC
 
 wrong_answers:
   - 多重签名和单一签名
-  - 智能合约和DApps
+  - 智能合约和 DApps
   - SegWit 和 Taproot
 
 explanation:
-  要执行币币交换，可以使用HTLCs（哈希时间锁定合约）或PTLCs（点时间锁定合约）。
+  为了进行 Coinswap，可以使用 HTLC（哈希时间锁合约）或 PTLC（点时间锁定合约）。

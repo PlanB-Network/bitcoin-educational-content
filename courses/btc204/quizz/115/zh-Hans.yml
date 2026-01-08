@@ -1,13 +1,13 @@
-question: 在比特币的背景下，什么是ricochet？
+question: 在比特币的背景下，什么是 Ricochet？
 
 answer: 一种涉及对自己进行多次交易的技术
 
 wrong_answers:
-  - 一种涉及多个参与者的协作交易
+  - 一种涉及多个参与者的合作式交易
   - 一种混合比特币以增加潜在匿名性的方法
-  - 特定于某些交易平台的一种coinjoin类型
+  - 特定于某些交易平台的一种混币类型
 
 explanation: |
-  Ricochet是一种涉及对自己进行几次虚构交易（清扫）的技术。
+  Ricochet 是一种涉及对自己进行几次虚构交易（整额转出）的技术。
 
 reviewed: false

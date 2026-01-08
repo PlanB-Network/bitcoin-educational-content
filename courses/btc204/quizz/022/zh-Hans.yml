@@ -1,8 +1,8 @@
-question: 由单个输入UTXO和单个输出UTXO组成的模式叫什么名字？
-answer: 清扫
+question: 由单个输入 UTXO 和单个输出 UTXO 组成的模式叫什么名字？
+answer: 整额转出模式
 wrong_answers:
-  - 合并
-  - Coinjoin
-  - 批量支出
+  - 整合
+  - 混币
+  - 分组支出
 explanation: |
-  对这种结构的解释是，我们处于一次比特币自我转账的清扫过程中。
+  对这种结构的解释是一次比特币自我转账的过程。

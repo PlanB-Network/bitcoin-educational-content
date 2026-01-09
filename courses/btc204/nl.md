@@ -3524,7 +3524,7 @@ Hier zien we dat de waarschijnlijkheid dat elke output afkomstig is van input #0
 We kunnen ook het aantal deterministische koppelingen in een transactie berekenen. Deze indicator laat zien hoeveel van de verbindingen tussen inputs en outputs in de geanalyseerde transactie onbetwistbaar zijn, met een waarschijnlijkheid van 100%. Deze indicator kan vervolgens worden aangevuld door de verhouding van deterministische links te berekenen. De ratio geeft een beeld van het gewicht van deze deterministische links binnen de totale links van de transactie.
 
 
-Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één input en twee outputs) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
+Een Whirlpool CoinJoin-transactie heeft bijvoorbeeld geen deterministische links tussen inputs en outputs, en toont daarom een indicator van 0 links en een ratio van 0%. In onze tweede onderzochte eenvoudige betalingstransactie (met één input en twee outputs) vertelt de indicator ons daarentegen dat er twee deterministische links zijn en dat de ratio 100% is. Met andere woorden, een indicator van nul wijst op een uitstekende vertrouwelijkheid, dankzij de afwezigheid van directe en onbetwistbare links tussen inputs en outputs.
 
 
 ### Hoe bereken je deze indicatoren?
@@ -3533,7 +3533,7 @@ Een Whirlpool CoinJoin transactie heeft bijvoorbeeld geen deterministische links
 Het handmatig berekenen van deze indicatoren met behulp van de vergelijkingen die ik heb gegeven is relatief eenvoudig. De moeilijkheid ligt vooral in het bepalen van het aantal mogelijke interpretaties van een transactie. Voor een klassieke transactie kan deze berekening met de hand worden gedaan. Voor een CoinJoin is de taak echter veel complexer.
 
 
-Voorheen was er een Python tool genaamd _Boltzmann Calculator_, ontwikkeld door de OXT en Samourai teams, die automatisch al deze indicatoren berekende voor een Bitcoin-transactie:
+Voorheen was er een Python-tool genaamd _Boltzmann Calculator_, ontwikkeld door de OXT en Samourai teams, die automatisch al deze indicatoren berekende voor een Bitcoin-transactie:
 
 
 ![BTC204](assets/nl/169.webp)
@@ -3548,7 +3548,7 @@ Het was ook mogelijk om de KYCP.org website te gebruiken voor deze analyses:
 Na de arrestatie van de oprichters van Samourai zijn deze tools helaas niet meer operationeel.
 
 
-Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische adres protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
+Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin-transactietypen, statische adresprotocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten (nodes).
 
 
 
@@ -3559,7 +3559,7 @@ Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytech
 <partId>19989ae6-d608-4acf-b698-2cf1e7e5e6ae</partId>
 
 
-## PayJoin transacties
+## PayJoin-transacties
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
@@ -3568,16 +3568,16 @@ Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytech
 
 
 
-CoinJoin is momenteel de meest effectieve methode om onzekerheid te introduceren in de tracering van UTXO's in een ketenanalyse. Zoals we in eerdere hoofdstukken hebben gezien, moeten inputs en outputs zo homogeen mogelijk zijn om een hoogwaardige mix te verkrijgen. Daarnaast is het belangrijk dat UTXO's worden geïntegreerd in een zo groot mogelijke groep om anonsets te maximaliseren. Dus, om coinjoins effectief te laten zijn, moet er een groot aantal uniforme UTXO's bij betrokken zijn. Deze veelheid aan vereisten betekent dat CoinJoin transacties een zeer rigide structuur hebben: de bedragen staan van tevoren vast en alle deelnemers moeten zich eraan houden om de uniformiteit van het proces te garanderen. Bovendien vereisen coinjoins synchronisatie tussen alle deelnemers en de coördinator tijdens de constructie van de transactie.
+CoinJoin is momenteel de meest effectieve methode om onzekerheid te introduceren in de tracering van UTXO's in een ketenanalyse. Zoals we in eerdere hoofdstukken hebben gezien, moeten inputs en outputs zo homogeen mogelijk zijn om een hoogwaardige mix te verkrijgen. Daarnaast is het belangrijk dat UTXO's worden geïntegreerd in een zo groot mogelijke groep om anonsets te maximaliseren. Dus, om coinjoins effectief te laten zijn, moet er een groot aantal uniforme UTXO's bij betrokken zijn. Deze veelheid aan vereisten betekent dat CoinJoin-transacties een zeer rigide structuur hebben: de bedragen staan van tevoren vast en alle deelnemers moeten zich eraan houden om de uniformiteit van het proces te garanderen. Bovendien vereisen coinjoins synchronisatie tussen alle deelnemers en de coördinator tijdens de constructie van de transactie.
 
 
-Deze vereisten maken CoinJoin ongeschikt voor directe betalingen. Als je bijvoorbeeld een 1M Sats munt hebt in een CoinJoin pool, zou het direct gebruiken als betaling complex zijn. Het zou synchronisatie vereisen met de andere deelnemers en de coördinator om de gezamenlijke transactie precies op te bouwen op het moment dat je een betaling moet doen, en het aankoopbedrag zou precies moeten overeenkomen met de waarde van jouw munt, wat vrijwel onhaalbaar is. De CoinJoin transactie is daarom van nature een collaboratieve veegtransactie, d.w.z. het zijn meestal dezelfde eigenaren van de inputs die we terugvinden in de outputs.
+Deze vereisten maken CoinJoin ongeschikt voor directe betalingen. Als je bijvoorbeeld een munt hebt van 1M sats in een CoinJoin-pool, zou het direct gebruiken als betaling complex zijn. Het zou synchronisatie vereisen met de andere deelnemers en de coördinator om de gezamenlijke transactie precies op te bouwen op het moment dat je een betaling moet doen, en het aankoopbedrag zou precies moeten overeenkomen met de waarde van jouw munt, wat vrijwel onhaalbaar is. De CoinJoin-transactie is daarom van nature een collaboratieve veegtransactie, d.w.z. het zijn meestal dezelfde eigenaren van de inputs die we terugvinden in de outputs.
 
 
 Het zou echter interessant zijn om transactiestructuren te hebben die betalingen op een praktische manier mogelijk maken en tegelijkertijd twijfel introduceren in de ketenanalyse. Dit is precies waar we in dit hoofdstuk en het volgende naar zullen kijken.
 
 
-### Wat is een PayJoin transactie?
+### Wat is een PayJoin-transactie?
 
 
 De PayJoin is een specifieke Bitcoin-transactiestructuur die de privacy van de gebruiker bij uitgaven verbetert door samen te werken met de ontvanger van de betaling.
@@ -3587,25 +3587,25 @@ In 2015 besprak LaurentMT deze methode voor het eerst onder de naam "*steganogra
 
 
 
-- PayJoin ;
-- Verstekeling;
+- PayJoin;
+- Stowaway;
 - P2EP (*Pay-to-End-Point*) ;
 - Steganografische transactie.
 
 
-Het bijzondere van PayJoin ligt in de mogelijkheid om generate een transactie te doen die op het eerste gezicht gewoon lijkt, maar in feite een mini CoinJoin is tussen twee mensen. Om dit te bereiken, betrekt de transactiestructuur de ontvanger van de betaling in de input naast de feitelijke verzender. De ontvanger neemt dus een betaling aan zichzelf op in het midden van de transactie, waardoor hij zelf betaald kan worden.
+Het bijzondere van PayJoin ligt in de mogelijkheid om een transactie te doen die op het eerste gezicht gewoon lijkt, maar in feite een mini-CoinJoin is tussen twee mensen. Om dit te bereiken, betrekt de transactiestructuur de ontvanger van de betaling in de input naast de feitelijke verzender. De ontvanger neemt dus een betaling aan zichzelf op in het midden van de transactie, waardoor hij zelf betaald kan worden.
 
 
-Laten we een voorbeeld nemen om dit proces beter te begrijpen. Alice koopt een stokbrood voor 4.000 Sats met een UTXO van 10.000 Sats en kiest voor een PayJoin. Haar bakker, Bob, voegt een UTXO van 15.000 Sats van hem toe als input, die hij volledig terugkrijgt als output, naast de 4.000 Sats van Alice.
+Laten we een voorbeeld nemen om dit proces beter te begrijpen. Alice koopt een stokbrood voor 4.000 sats met een UTXO van 10.000 sats en kiest voor een PayJoin. Haar bakker, Bob, voegt een UTXO van 15.000 sats van hem toe als input, die hij volledig terugkrijgt als output, naast de 4.000 sats van Alice.
 
 
 ![BTC204](assets/nl/171.webp)
 
 
-In dit voorbeeld voert bakker Bob 15.000 Sats in en komt eruit met 19.000 Sats, het verschil is precies 4.000 Sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 Sats in en eindigt met 6.000 Sats aan output, wat neerkomt op een saldo van -4.000 Sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de mining kosten in deze transactie bewust weggelaten.
+In dit voorbeeld voert bakker Bob 15.000 sats in en komt eruit met 19.000 sats, het verschil is precies 4.000 sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 sats in en eindigt met 6.000 sats aan output, wat neerkomt op een saldo van -4.000 sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de mining kosten in deze transactie bewust weggelaten.
 
 
-### Waar is de PayJoin voor?
+### Waarvoor dient de PayJoin?
 
 
 De PayJoin-transactie vervult twee doelen, waardoor gebruikers de vertrouwelijkheid van hun betaling kunnen verbeteren.

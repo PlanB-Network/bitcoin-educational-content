@@ -770,7 +770,8 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 कुछ लोग बिटकॉइन को एक [फफूंद (माइसीलियम)](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/) की तरह बताते हैं, तो कुछ इसे [ब्लैक होल](https://dergigi.com/) कहते हैं। इसे पसंद करें या नापसंद, बिटकॉइन अपने 10 मिनट प्रति ब्लॉक के निरंतर लय के साथ, एक नई मौद्रिक प्रणाली के दिल की धड़कन की तरह, अस्तित्व में बना रहता है।
 
-सतोशी नाकामोतो के लेखन के बारे में अधिक जानने के लिए, आप फिल शैम्पेन की किताब ["द बुक ऑफ सतोशी"](https://planb.academy/en/resources/books/98) या ARTE की डॉक्यूमेंट्री "Le mystaire Satoshi" देख सकते हैं।
+सातोशी नाकामोटो के लेखन को गहराई से समझने के लिए, मैं फिल शैम्पेन की पुस्तक [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) पढ़ने की सिफारिश करता हूँ, जो उनके प्रमुख लेखों को संकलित कर संदर्भित करती है, साथ ही ARTE की डॉक्यूमेंट्री [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), जो उनकी पहचान और विरासत पर एक सुलभ और अच्छी तरह प्रलेखित जाँच प्रस्तुत करती है।
+
 
 ![image](assets/hi/044.webp)
 

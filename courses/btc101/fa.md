@@ -742,7 +742,8 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 برای برخی، بیت کوین به عنوان یک موجود قارچی مانند [میسلیوم](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/) تعریف می شود، در حالی که دیگران آن را به عنوان یک [سوراخ سیاه](https://dergigi.com/) توصیف می کنند. خواه شما آن را دوست داشته باشید یا از آن متنفر باشید، بیت کوین همچنان وجود دارد، با ریتم ثابت 10 دقیقه در هر بلوک، مانند ضربان قلب یک سیستم پولی جدید.
 
-برای یادگیری بیشتر درباره نوشته های ساتوشی ناکاموتو، ما پیشنهاد می کنیم کتاب ["کتاب ساتوشی"](https://planb.academy/en/resources/books/98) نوشته فیل شامپاین یا مستند ARTE "Le mystaire Satoshi" را بخوانید.
+برای تعمیق در نوشته‌های ساتوشی ناکاموتو، مطالعهٔ [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) اثر فیل شامپاین را توصیه می‌کنم که متون اصلی او را گردآوری و در بستر خود قرار می‌دهد، و همچنین مستند شبکهٔ ARTE با عنوان [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c) که پژوهشی قابل‌دسترس و مستند دربارهٔ هویت و میراث او ارائه می‌دهد.
+
 
 ![image](assets/fa/044.webp)
 

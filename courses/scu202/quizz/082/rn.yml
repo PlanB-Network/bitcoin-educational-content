@@ -1,10 +1,9 @@
-question: Ni iyihe porogarame yubatse mu buryo bukwiragiye ata seriveri nyamukuru yo gutanga ubutumwa?
-answer: Gukomeza
-answer: Keet
+question: "Ni iyihe porogarame yubatse mu buryo bukwiragiye ata seriveri nyamukuru yo gutanga ubutumwa?"
+answer: "Keet"
 wrong_answers:
-  - Telegram
-  - Signal
-  - Threema
+  - "Telegram"
+  - "Signal"
+  - "Threema"
 explanation: |
-  Keet ishingiye ku kigereranyo ca peer-to-peer aho ivy’itumanako vyose bica hagati y’abakoresha, ata server nyamukuru, bikaba vyemeza ukwihangana gukomeye n’ibanga.
+  Keet ishingiye ku kigereranyo ca peer-to-peer aho ivy'itumanako vyose bica hagati y'abakoresha, ata server nyamukuru, bikaba vyemeza ukwihangana gukomeye n'ibanga.
 reviewed: true

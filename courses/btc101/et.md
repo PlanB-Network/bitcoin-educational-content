@@ -719,7 +719,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 
 Mõnede jaoks on Bitcoin määratletud kui seeneolend nagu [mütseel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), samas kui teised kirjeldavad seda kui [musta auku](https://dergigi.com/). Armastage või vihkake seda, Bitcoin jätkab oma pideva rütmiga (10 minutit ploki kohta) nagu uue rahasüsteemi südamelöök.
 
-Satoshi Nakamoto kirjutistest rohkem teada saamiseks soovitame lugeda Phil Champagne'i ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) või ARTE dokumentaalfilmi "Le mystaire Satoshi".
+Satoshi Nakamoto kirjutiste põhjalikumaks mõistmiseks soovitan lugeda Phil Champagne’i teost [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30), mis koondab ja kontekstualiseerib tema peamised tekstid, samuti ARTE dokumentaalfilmi [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), mis pakub ligipääsetavat ja hästi dokumenteeritud uurimust tema identiteedi ja pärandi kohta.
 
 ![image](assets/et/044.webp)
 

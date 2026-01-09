@@ -803,4 +803,4 @@ O Matrix representa uma solução moderna, aberta e segura para a comunicação 
 Para saber mais e descobrir todas as funcionalidades oferecidas pelo Matrix, pode consultar a documentação oficial disponível aqui :
 
 
-[https://matrix.org/docs/] (https://matrix.org/docs/)
+[https://matrix.org/docs/](https://matrix.org/docs/)

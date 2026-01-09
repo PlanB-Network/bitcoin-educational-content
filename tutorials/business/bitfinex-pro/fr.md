@@ -6,7 +6,7 @@ description: Création et gestion d'un compte entreprise sur Bitfinex
 
 Fondée en 2012, Bitfinex est l'une des premières plateformes d'échange de bitcoin et d'altcoins. Initialement centrée sur des échanges P2P de bitcoins, la plateforme a rapidement élargi ses services pour inclure le trading sur marge, le financement P2P, le trading de produits dérivés, et un marché OTC ("*over-the-counter*") pour les transactions de gros volumes.
 
-Aujourd'hui, Bitfinex est une plateforme complète, permettant aussi bien des achats simples de bitcoins que l'utilisation de fonctionnalités de trading avancées (trading traditionnel, dérivés, OTC, lending, etc.) avec des outils de gestion de risque . Elle est accessible en version web, et pour des transactions simples, une application mobile facile à prendre en main est également disponible.
+Aujourd'hui, Bitfinex est une plateforme complète, permettant aussi bien des achats simples de bitcoins que l'utilisation de fonctionnalités de trading avancées (trading traditionnel, dérivés, OTC, lending, etc.) avec des outils de gestion de risque. Elle est accessible en version web, et pour des transactions simples, une application mobile facile à prendre en main est également disponible.
 
 Dans ce tutoriel, nous allons découvrir le processus de création d’un compte entreprise sur Bitfinex, l'achat et la vente de bitcoins, la gestion des transactions pour la comptabilité, ainsi que le dépôt et le retrait d'euros et de bitcoins. L'objectif est de vous fournir les connaissances de base, que vous envisagiez d'intégrer le bitcoin dans votre trésorerie ou d'accepter le bitcoin comme moyen de paiement.
 
@@ -170,7 +170,7 @@ Sélectionnez la paire "*BTC/EUR*" si vous désirez acheter ou vendre des BTC en
 
 ![BITFINEX](assets/fr/26.webp)
 
-L'interface affiche au centre un graphique du cours, l'order book en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
+L'interface affiche au centre un graphique du cours, l'_order book_ en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
 
 ![BITFINEX](assets/fr/27.webp)
 

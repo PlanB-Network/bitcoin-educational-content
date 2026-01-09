@@ -43,7 +43,7 @@ Rust 또는 Bitcoin 개발 경험이 반드시 필요한 것은 아니지만 기
 이 교육 동영상은 현재 영어로만 제공되며, 지난 10월 토스카나에서 풀큐어 벤처가 주최한 라이브 세미나의 일부입니다. 이 교육은 첫 주에만 집중할 예정입니다. 후반부는 RGB을 대상으로 하며 RGB 과정에서 확인할 수 있습니다.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 이 교육은 Lightning Network과 다양한 SDK를 사용하여 Rust에서 프로그래밍 기술을 개발할 수 있는 기회를 제공합니다. 이 교육은 탄탄한 프로그래밍 배경 지식을 갖춘 개발자가 Lightning Network 전용 개발에 뛰어들고자 하는 개발자를 위해 설계되었습니다. Rust의 기본 사항과 Bitcoin 개발에 적합한 이유를 학습한 다음, 전문 SDK를 사용하여 실습을 진행합니다.
 

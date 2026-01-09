@@ -3,7 +3,7 @@ name: Shelter
 description: Tumia simu ile ile kwa kazi na maisha ya kibinafsi na Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -112,7 +112,7 @@ Kisha gusa **Sakinisha** tena kwenye menyu ya muktadha inayoonekana kuidhinisha 
 
 
 
-Unaweza pia kusakinisha Shelter kutoka kwenye hazina yake ya [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Unaweza pia kusakinisha Shelter kutoka kwenye hazina yake ya [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

@@ -1,0 +1,9 @@
+question: By whom was the first bitcoin blending service called BitLaundry created in September 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses was an American entrepreneur with a degree in cryptography who discovered Bitcoin at the time of slashdotting. He developed the service to make it more difficult to track funds. In May 2011, sensing legal complications ahead, he sold the service to activist Mike Gogulski.
+reviewed: false

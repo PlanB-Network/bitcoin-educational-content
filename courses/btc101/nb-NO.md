@@ -717,7 +717,7 @@ I 2010, da Bitcoin begynte å tiltrekke seg medieoppmerksomhet, bestemte Satoshi
 
 For noen er Bitcoin definert som en sopp-enhet som et [mycel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mens andre beskriver det som et [svart hull](https://dergigi.com/). Uansett om man elsker eller hater den, fortsetter Bitcoin å eksistere, med sin konstante rytme på 10 minutter per blokk, som hjerteslagene til et nytt pengesystem.
 
-Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
+For å gå dypere inn i skriftene til Satoshi Nakamoto anbefaler jeg å lese [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) av Phil Champagne, som samler og setter hans viktigste tekster i kontekst, samt ARTE-dokumentaren [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), som tilbyr en tilgjengelig og godt dokumentert undersøkelse av hans identitet og arv.
 
 ![image](assets/nb-NO/044.webp)
 

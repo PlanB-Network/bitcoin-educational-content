@@ -65,7 +65,7 @@ Ręcznie wprowadź kwotę, którą chcesz wymienić i użyj [linku do dziennych 
 Pamiętaj, że **stawki transakcyjne ulegają wahaniom**, więc zawsze sprawdź ostateczną cenę przed potwierdzeniem.
 
 
-**Konto nie jest wymagane, a** dzienne transakcje są ograniczone do 250 000 VND (~ 8 USD). Więcej informacji można znaleźć w naszych [zasadach przelewów bankowych] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Konto nie jest wymagane, a** dzienne transakcje są ograniczone do 250 000 VND (~ 8 USD). Więcej informacji można znaleźć w naszych [zasadach przelewów bankowych](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Uwaga**: opłata sieciowa jest generalnie tańsza w przypadku wybrania Lightning Network w porównaniu do metody transakcji onchain.

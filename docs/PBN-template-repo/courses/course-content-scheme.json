@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Course Content Markdown",
+  "description": "Schema for validating course markdown content files (e.g., en.md, fr.md). These files contain YAML front-matter and structured markdown content.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Short, explicit name of the course. Should be concise but descriptive.",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "goal": {
+      "type": "string",
+      "description": "The main end goal of the course expressed in one sentence. Describes what students will achieve upon completion.",
+      "minLength": 1
+    },
+    "objectives": {
+      "type": "array",
+      "description": "Learning objectives for the course. Should use action verbs to define skills students will acquire. Recommended: 3-4 objectives.",
+      "items": {
+        "type": "string",
+        "description": "A single learning objective starting with an action verb (e.g., 'Understand', 'Learn', 'Master', 'Implement', 'Analyze').",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "maxItems": 10
+    }
+  },
+  "required": ["name", "goal", "objectives"],
+  "additionalProperties": false,
+  "content_rules": {
+    "description": "Structural rules for the markdown body content. JSON Schema cannot fully validate markdown structure, but these rules document the required format.",
+    "structure": {
+      "description_section": {
+        "description": "The content between the YAML front-matter closing '---' and the '+++' separator serves as the course description page.",
+        "rules": [
+          "Must start with an H1 heading (# Title) immediately after the front-matter",
+          "Contains introductory text about the course",
+          "Should state approximate time to complete the course",
+          "Should mention prerequisites if applicable",
+          "The thumbnail.webp image from assets/ folder will be displayed here"
+        ]
+      },
+      "separator": {
+        "description": "The '+++' marker is REQUIRED and separates the description section from the main course content.",
+        "pattern": "^\\+\\+\\+$",
+        "required": true
+      },
+      "parts": {
+        "description": "Parts are major sections of the course, defined by H1 headings (#).",
+        "rules": [
+          "Each part MUST have a <partId>UUID</partId> tag immediately after the heading",
+          "UUID format: 8-4-4-4-12 hexadecimal characters (e.g., 97ccb669-12a0-5eed-83ac-c2f51839d998)",
+          "Parts separate the course into themes or main subjects",
+          "UUIDs must be identical across translations of the same content"
+        ],
+        "example": "# Part Title\n\n<partId>97ccb669-12a0-5eed-83ac-c2f51839d998</partId>"
+      },
+      "chapters": {
+        "description": "Chapters are sub-sections within parts, defined by H2 headings (##).",
+        "rules": [
+          "Each chapter MUST have a <chapterId>UUID</chapterId> tag immediately after the heading",
+          "UUID format: 8-4-4-4-12 hexadecimal characters",
+          "Each chapter is displayed on its own page on Plan B Academy",
+          "A part must contain at least one chapter",
+          "UUIDs must be identical across translations of the same content"
+        ],
+        "example": "## Chapter Title\n\n<chapterId>4dc58281-5179-507c-afde-8c9204cbd3fd</chapterId>"
+      },
+      "sections": {
+        "description": "Sections are optional sub-divisions within chapters, defined by H3 headings (###).",
+        "rules": [
+          "Sections do NOT require UUID tags",
+          "Used to separate chapter content into sub-topics for clarity",
+          "Optional - chapters can exist without sections"
+        ],
+        "example": "### Section Title"
+      }
+    },
+    "media": {
+      "video_embeds": {
+        "description": "Video content can be embedded using two syntaxes.",
+        "formats": [
+          {
+            "type": "directive",
+            "pattern": ":::video id=UUID:::",
+            "description": "Preferred format for internal video references",
+            "example": ":::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::"
+          },
+          {
+            "type": "markdown_image",
+            "pattern": "![description](https://www.youtube.com/watch?v=VIDEO_ID)",
+            "description": "Alternative format using markdown image syntax for YouTube videos",
+            "example": "![Awesome music](https://www.youtube.com/watch?v=IO-tUpkygaI)"
+          }
+        ]
+      },
+      "images": {
+        "description": "Images should be stored in the assets/ folder and referenced with relative paths.",
+        "rules": [
+          "Images with text: ./assets/{language_code}/filename.webp (e.g., ./assets/en/diagram.webp)",
+          "Images without text: ./assets/no-txt/filename.webp",
+          "Preferred format: WebP for storage efficiency",
+          "Alternative formats accepted but WebP conversion recommended"
+        ],
+        "patterns": {
+          "with_text": "^\\./assets/[a-z]{2}(-[A-Z]{2})?/.+\\.webp$",
+          "without_text": "^\\./assets/no-txt/.+\\.webp$"
+        },
+        "examples": [
+          "![BTC 101 curriculum](./assets/en/btc101-curriculum.webp)",
+          "![Plan B Academy logo](./assets/no-txt/PBN-logo.webp)"
+        ]
+      }
+    },
+    "special_markers": {
+      "description": "Special HTML-like tags that mark specific chapter types for platform functionality.",
+      "markers": {
+        "isCourseReview": {
+          "description": "Marks a chapter as the course review section",
+          "pattern": "<isCourseReview>true</isCourseReview>",
+          "placement": "Immediately after the chapterId tag",
+          "optional": true
+        },
+        "isCourseExam": {
+          "description": "Marks a chapter as the final exam section",
+          "pattern": "<isCourseExam>true</isCourseExam>",
+          "placement": "Immediately after the chapterId tag",
+          "optional": true
+        },
+        "isCourseConclusion": {
+          "description": "Marks a chapter as the course conclusion",
+          "pattern": "<isCourseConclusion>true</isCourseConclusion>",
+          "placement": "Immediately after the chapterId tag",
+          "optional": true
+        }
+      },
+      "example": "## Course Review\n\n<chapterId>f551b514-6ba5-11f0-833e-b33af48c067b</chapterId>\n\n<isCourseReview>true</isCourseReview>"
+    },
+    "uuid_format": {
+      "description": "UUID format specification used for partId and chapterId tags.",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "example": "97ccb669-12a0-5eed-83ac-c2f51839d998",
+      "notes": [
+        "UUIDs are version 4 (random)",
+        "Must be lowercase hexadecimal",
+        "Python scripts are available to generate UUIDs",
+        "Reviewers can also add UUIDs during PR review"
+      ]
+    }
+  },
+  "presentation_md": {
+    "description": "Optional presentation.md file for in-person/live courses. Serves as a landing page with marketing and logistics information.",
+    "applies_when": "Course has format field in course.yml (online, inperson, or hybrid)",
+    "location": "Course root directory alongside course.yml",
+    "structure": {
+      "description": "Pure markdown file without YAML front-matter",
+      "rules": [
+        "Starts with H1 heading (# Title) describing the course",
+        "Contains marketing/presentation content for the course landing page",
+        "Should describe target audience and who the course is for",
+        "Should outline course format and structure (sections, duration)",
+        "Should list prerequisites (can be 'none required')",
+        "Should include logistics section with date, time, location, price, and registration info",
+        "Images can be included from assets/ folder",
+        "No partId or chapterId tags required - this is not course content"
+      ],
+      "recommended_sections": [
+        "# Course Title - Main heading with course description",
+        "### Target Audience - Who should attend",
+        "### Course Format - Structure and sections outline",
+        "## Prerequisites - Required knowledge or 'no prerequisites'",
+        "# Logistics - Date, time, location, price, registration details"
+      ]
+    },
+    "example_structure": "# Course Title\n\nIntroductory paragraph...\n\n![Course image](assets/image.webp)\n\n### Target Audience\n- Bullet points...\n\n### Course Format\n**Section 1 - ...**\n**Section 2 - ...**\n\n## Prerequisites\nNo prerequisites required...\n\n# Logistics\n**When:** Date and time\n**Where:** Location\n**Price:** Cost or FREE\n"
+  },
+  "examples": [
+    {
+      "description": "Minimal valid front-matter",
+      "yaml": "---\nname: Introduction to Bitcoin\ngoal: Understand the basics of Bitcoin technology\nobjectives:\n  - Learn what Bitcoin is\n  - Understand blockchain fundamentals\n  - Know how to secure bitcoins\n---"
+    },
+    {
+      "description": "Complete front-matter with detailed objectives",
+      "yaml": "---\nname: Advanced Lightning Network Development\ngoal: Master Lightning Network protocol implementation and channel management\nobjectives:\n  - Understand the Lightning Network architecture and its relationship with Bitcoin\n  - Implement payment channels and HTLCs\n  - Deploy and manage Lightning nodes in production\n  - Develop applications using Lightning Network APIs\n---"
+    }
+  ]
+}

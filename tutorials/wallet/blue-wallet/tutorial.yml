@@ -1,9 +1,14 @@
 id: 2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+last_update_date: 2025-06-04
+
 project_id: 448e0634-3970-4863-8e50-08c658e8374d
 level: beginner
 category: mobile
 
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 original_language: fr
@@ -49,7 +54,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.41
+    reward: 2.46
   - language: id
     last_contribution_date:
     urgency: 1
@@ -64,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -100,7 +105,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -140,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -48,9 +48,9 @@ On the next screen, you can double-check the number you have provided. If it's c
 
 Telegram is now fully functional on mobile, we can move on to the first basic settings.
 
-# Security and privacy settings
+## Security and privacy settings
 
-## Username configuration
+### Username configuration
 
 The Telegram username - sometimes also called `handle` - is much more than a mere fancy. The handle is indeed **unique for each user**.
 On Telegram, it's easy to encounter impostors who write in private, pretending to be someone they're not. Every user can fall into the trap and reveal personal information believing they are chatting with a contact they fully trust. **We will see that the handle is the best defense to mitigate these kinds of dangers**.
@@ -84,7 +84,7 @@ How does an impostor assume someone else's identity?
 They can't, thanks to the uniqueness of the username.
 **What they can do is display a "similar" handle, changing slightly (a letter/number), so that only a careful eye can clearly see that it's a scammer**. Always pay close attention to the username, and you'll see that impostors won't have an easy game.
 
-## Privacy
+### Privacy
 
 Another important precaution you can take is to limit the information you let out from your newly created account.
 
@@ -107,7 +107,7 @@ Be sure to set:
 These are measures that will prevent exposing your phone number, so you won't receive unwanted calls or be unknowingly added to groups of dubious origin. Later, you can adjust all the other parameters as you wish.
 Now that your Telegram account is set up and you have gained a bit of privacy, you can start using it.
 
-## Adding contacts and chats
+### Adding contacts and chats
 
 If your account has just been created, it's likely that the main page will appear completely empty.
 
@@ -149,7 +149,7 @@ You can access a very advanced menu by clicking on the 3 dots at the top right, 
 By default, everyone, from individual users to thematic channels, is identified by their handle. When searching for someone or something, it's enough to put the at symbol `@` followed by a name.
 ⚠️Attention: **avoid joining groups and channels without verifying their authenticity**. To find the official Telegram channel/group of a company or topic you wish to follow, seek assistance from the _Contacts_ section of official websites or from highly reliable sources.
 
-### Advanced Messaging Features
+#### Advanced Messaging Features
 
 Telegram allows you to use unique advanced features when it comes to exchanging messages. Enter a chat and click on the background, next to any message from another sender.
 
@@ -168,7 +168,7 @@ You can also attach large files, exchanging "heavy" media easily, much more so t
 
 ![image](assets/en/46.webp)
 
-### Personal Cloud
+#### Personal Cloud
 
 Among the many incredible features of Telegram, there is also a personal cloud that - at the time of writing - is **unlimited**.
 
@@ -186,7 +186,7 @@ The chat appears in the foreground, ready to be used.
 **(1)** _Do not use Telegram's cloud for confidential information such as passwords, pins, mnemonics, and data of this kind_.
 ***
 
-## Scheduling Messages and Silent Sending
+### Scheduling Messages and Silent Sending
 
 Other useful advanced features allow sending messages respecting the privacy of the recipients, choosing between silent sending, and scheduling the message at appropriate times and days.
 All you need to do is write the message but, instead of sending it immediately, press and hold the send icon for a few seconds. What usually becomes a sent message, gives way to a new screen where you can choose from:
@@ -196,7 +196,7 @@ All you need to do is write the message but, instead of sending it immediately, 
 
 ![image](assets/en/48.webp)
 
-### Clearing your phone's cache
+#### Clearing your phone's cache
 
 Another useful practice to keep your phone running efficiently is to clear the Telegram cache from time to time. Depending on how many groups and channels you follow, in fact, the information and media coming from these sources could accumulate in the cache, making your phone slow.
 
@@ -228,7 +228,7 @@ You can see in the following photo where to find this setting.
 
 ![image](assets/en/28.webp)
 
-## Telegram desktop
+### Telegram desktop
 
 Telegram can be used from your computer, so that it is synchronized with the account displayed on your phone. You can choose not to download the application and to use it only via web. However, this version has limitations compared to the one run on the computer, therefore I recommend downloading and installing it to make the most of this powerful tool.
 
@@ -275,7 +275,7 @@ A notification on your phone confirms that the new device has been added success
 
 Especially, Telegram is active and usable also on your desktop computer.
 
-### Group Call
+#### Group Call
 
 If you are an administrator or owner of a Telegram group, you can start a call from the group's menu itself. This way, you can do live streaming with multiple participants, record them in audio and video, share them, or use them for purposes such as education.
 
@@ -283,6 +283,6 @@ In the following image, you can see how to start a group call using Telegram des
 
 ![image](assets/en/47.webp)
 
-### Final Considerations
+#### Final Considerations
 
 Now that you have read through this tutorial, you are perfectly capable of choosing how to use Telegram, without being influenced by the noise generated by the hype of its users, or by the mainstream. You can start with a mild approach and then discover how to make the most of it, for your personal needs, this messaging app.

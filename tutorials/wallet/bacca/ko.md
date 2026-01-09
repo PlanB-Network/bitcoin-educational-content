@@ -137,7 +137,7 @@ cargo run -p ledger_manager_gui
 시작하기 전에 Ledger를 처음 사용하는 경우 PIN 코드를 설정하고 복구 문구를 저장했는지 확인하세요. 이러한 초기 단계에는 Ledger Live가 필요하지 않습니다. USB 케이블을 통해 Ledger를 연결하여 전원을 공급하기만 하면 됩니다. 이 두 단계를 어떻게 진행해야 할지 잘 모르겠다면 사용 중인 모델에 맞는 튜토리얼의 시작 부분을 참조하세요:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

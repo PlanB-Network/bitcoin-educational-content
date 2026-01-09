@@ -72,10 +72,10 @@ Na sledećem ekranu, možete dvaput proveriti broj koji ste uneli. Ako je tačan
 Telegram je sada potpuno funkcionalan na mobilnom, možemo preći na prva osnovna podešavanja.
 
 
-# Postavke bezbednosti i privatnosti
+## Postavke bezbednosti i privatnosti
 
 
-## Konfiguracija korisničkog imena
+### Konfiguracija korisničkog imena
 
 
 Telegram korisničko ime - ponekad se naziva i `handle` - mnogo je više od pukog pomodarstva. Handle je zaista **jedinstven za svakog korisnika**.
@@ -129,7 +129,7 @@ Oni ne mogu, zahvaljujući jedinstvenosti korisničkog imena.
 **Ono što mogu da urade jeste da prikažu "sličan" nalog, blago menjajući (slovo/broj), tako da samo pažljivo oko može jasno videti da je to prevarant**. Uvek obratite pažnju na korisničko ime, i videćete da imitatorima neće biti lako.
 
 
-## Privatnost
+### Privatnost
 
 
 Još jedna važna mera predostrožnosti koju možete preduzeti je da ograničite informacije koje iznosite sa svog novokreiranog naloga.
@@ -165,7 +165,7 @@ Ovo su mere koje će sprečiti izlaganje vašeg broja telefona, tako da nećete 
 Sada kada je vaš Telegram nalog podešen i stekli ste malo privatnosti, možete ga početi koristiti.
 
 
-## Dodavanje kontakata i ćaskanja
+### Dodavanje kontakata i ćaskanja
 
 
 Ako je vaš nalog tek kreiran, verovatno će se glavna stranica pojaviti potpuno prazna.
@@ -229,7 +229,7 @@ Po podrazumevanoj vrednosti, svi, od pojedinačnih korisnika do tematskih kanala
 ⚠️Pažnja: **izbegavajte pridruživanje grupama i kanalima bez provere njihove autentičnosti**. Da biste pronašli zvanični Telegram kanal/grupu kompanije ili teme koju želite da pratite, potražite pomoć u odeljku _Kontakti_ na zvaničnim veb-sajtovima ili od visoko pouzdanih izvora.
 
 
-### Napredne funkcije razmene poruka
+#### Napredne funkcije razmene poruka
 
 
 Telegram vam omogućava korišćenje jedinstvenih naprednih funkcija kada je u pitanju razmena poruka. Uđite u čet i kliknite na pozadinu, pored bilo koje poruke od drugog pošiljaoca.
@@ -257,7 +257,7 @@ Takođe možete prikačiti velike fajlove, razmenjujući "teške" medije lako, m
 ![image](assets/en/46.webp)
 
 
-### Lični oblak
+#### Lični oblak
 
 
 Među mnogim neverovatnim funkcijama Telegrama, postoji i lični oblak koji je - u trenutku pisanja - **neograničen**.
@@ -285,7 +285,7 @@ Da biste pristupili _Sačuvanim porukama_ vašeg naloga, idite na glavni meni i 
 ***
 
 
-## Zakazivanje poruka i tiho slanje
+### Zakazivanje poruka i tiho slanje
 
 
 Druge korisne napredne funkcije omogućavaju slanje poruka uz poštovanje privatnosti primalaca, biranje između tihog slanja i zakazivanje poruke u odgovarajuće vreme i dane.
@@ -301,7 +301,7 @@ Sve što treba da uradiš je da napišeš poruku, ali umesto da je odmah pošalj
 ![image](assets/en/48.webp)
 
 
-### Brisanje keša na telefonu
+#### Brisanje keša na telefonu
 
 
 Još jedna korisna praksa za efikasno funkcionisanje vašeg telefona je povremeno brisanje keša Telegrama. U zavisnosti od broja grupa i kanala koje pratite, informacije i mediji iz ovih izvora mogu se akumulirati u kešu, usporavajući vaš telefon.
@@ -350,7 +350,7 @@ Možete videti na sledećoj fotografiji gde da pronađete ovo podešavanje.
 ![image](assets/en/28.webp)
 
 
-## Telegram desktop
+### Telegram desktop
 
 
 Telegram se može koristiti sa vašeg računara, tako da je sinhronizovan sa nalogom prikazanim na vašem telefonu. Možete izabrati da ne preuzmete aplikaciju i da je koristite samo putem veba. Međutim, ova verzija ima ograničenja u poređenju sa onom koja se pokreće na računaru, stoga preporučujem preuzimanje i instalaciju kako biste maksimalno iskoristili ovaj moćan alat.
@@ -421,7 +421,7 @@ Obaveštenje na vašem telefonu potvrđuje da je novi uređaj uspešno dodat.
 Posebno, Telegram je aktivan i upotrebljiv i na vašem desktop računaru.
 
 
-### Grupni Poziv
+#### Grupni Poziv
 
 
 Ako ste administrator ili vlasnik Telegram grupe, možete pokrenuti poziv direktno iz menija grupe. Na ovaj način, možete vršiti prenos uživo sa više učesnika, snimati ih u audio i video formatu, deliti ih ili koristiti u svrhe kao što je obrazovanje.
@@ -433,7 +433,7 @@ Na sledećoj slici možete videti kako da započnete grupni poziv koristeći Tel
 ![image](assets/en/47.webp)
 
 
-### Konačne razmatranje
+#### Konačne razmatranje
 
 
 Sada kada ste pročitali ovaj vodič, savršeno ste sposobni da izaberete kako da koristite Telegram, bez uticaja buke koju generiše hajp njegovih korisnika ili mejnstrim. Možete početi sa blagim pristupom, a zatim otkriti kako da ga maksimalno iskoristite, za vaše lične potrebe, ovu aplikaciju za razmenu poruka.

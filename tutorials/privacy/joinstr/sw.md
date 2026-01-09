@@ -534,7 +534,7 @@ Joinstr kwa sasa inazalisha vikundi vya washiriki 2 hadi 5 ** kwa wastani. Takwi
 
 
 
-💡 **Ili kuelewa seti za kutokujulikana na hesabu zao kwa undani**, angalia kozi yetu kamili: [Kutokujulikana seti](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b9311d7d).
+💡 **Ili kuelewa seti za kutokujulikana na hesabu zao kwa undani**, angalia kozi yetu kamili: [Kutokujulikana seti](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 

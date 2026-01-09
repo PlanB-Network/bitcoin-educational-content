@@ -11,7 +11,7 @@ Bitfeed là một nền tảng trực quan hóa lớp onchain của giao thức 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Trong hướng dẫn này, chúng ta sẽ xem xét công cụ này, cho phép bạn khám phá tất cả các giao dịch và khối trên mạng.
 
@@ -95,7 +95,7 @@ Giao dịch đầu tiên của khối này đại diện cho giao dịch **coinb
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Theo mặc định, các giao dịch trong một khối được biểu diễn theo hai tiêu chí:
 

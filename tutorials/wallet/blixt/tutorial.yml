@@ -1,5 +1,7 @@
 id: 04b319cf-8cbe-4027-b26f-840571f2244f
 
+last_update_date: 2025-05-16
+
 level: intermediate
 
 category: mobile
@@ -14,6 +16,8 @@ tags:
   - wallets
 
 credit_link: https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -60,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 26.45
+    reward: 18.92
   - language: id
     last_contribution_date:
     urgency: 1
@@ -75,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.68
+    reward: 18.92
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,7 +115,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.68
+    reward: 18.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -151,7 +155,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.68
+    reward: 18.92
   - language: bg
     last_contribution_date:
     urgency: 1

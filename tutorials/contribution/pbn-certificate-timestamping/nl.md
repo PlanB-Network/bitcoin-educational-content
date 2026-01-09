@@ -12,7 +12,7 @@ Als je dit leest, is de kans groot dat je een ₿-CERT testcertificaat of een di
 In deze tutorial zullen we ontdekken hoe Plan ₿ Academy verifieerbare bewijzen afgeeft voor je ₿-CERT-testcertificaat of elk diploma voor het voltooien van een cursus. Vervolgens beschrijven we in een tweede deel hoe je de echtheid van deze bewijzen kunt verifiëren.
 
 
-# Plan ₿ Academy bewijsmechanisme
+## Plan ₿ Academy bewijsmechanisme
 
 
 Op Plan ₿ Academy ondertekenen we certificaten en diploma's cryptografisch en voorzien we ze van een tijdstempel met behulp van de Timechain (d.w.z. Bitcoin blockchain), via een bewijsmechanisme dat berust op twee cryptografische operaties:
@@ -34,7 +34,7 @@ Wij geloven dat dit eenvoudige bewijsmechanisme ons in staat stelt om certificat
 Dankzij dit bewijsmechanisme zal elke poging om zelfs maar het kleinste detail van je certificaat of diploma te veranderen, resulteren in een compleet andere SHA-256 hash van het ondertekende bestand, wat onmiddellijk elke manipulatie onthult, aangezien zowel de handtekening als de tijdstempel niet langer geldig zijn. Bovendien, als iemand probeert om certificaten of diploma's te vervalsen in naam van Plan ₿ Academy, zal een eenvoudige verificatie van de handtekening de fraude aan het licht brengen.
 
 
-## Hoe werkt de GPG-handtekening?
+### Hoe werkt de GPG-handtekening?
 
 
 De GPG handtekening wordt gegenereerd met behulp van open-source software genaamd GNU Privacy Guard. Met deze software kunnen gebruikers eenvoudig privésleutels aanmaken, ondertekenen en handtekeningen verifiëren, en bestanden versleutelen en ontsleutelen. Voor deze tutorial is het belangrijk op te merken dat Plan ₿ Academy GPG gebruikt om haar private/publieke sleutels te maken en om alle ₿-CERT Certificaten en Diploma's van cursus voltooiing te ondertekenen.
@@ -46,7 +46,7 @@ Aan de andere kant, als iemand de authenticiteit van een ondertekend bestand wil
 Wie nieuwsgierig is en meer wil weten over deze fantastische software, kan ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) raadplegen.
 
 
-## Hoe werkt tijdstempelen?
+### Hoe werkt tijdstempelen?
 
 
 Iedereen kan OpenTimestamps gebruiken om een bestand te timestempelen en verifieerbaar bewijs te verkrijgen van het bestaan ervan. Met andere woorden, het levert geen bewijs van wanneer het bestand is gemaakt, maar eerder bewijs dat het bestand niet later bestond dan een specifiek moment in de tijd.
@@ -56,10 +56,10 @@ OpenTimestamps levert deze service gratis door gebruik te maken van een zeer eff
 Als deze transactie eenmaal in een blok zit, kan iedereen met het initiële bestand en het bijbehorende `.ots`-bestand de echtheid van de tijdstempels verifiëren. In het tweede deel van de tutorial zullen we zien hoe je je Bitcoin Certificaat of een Diploma van cursus voltooiing kunt verifiëren via een teminal en via een grafische interface op de website van OpenTimestamps.
 
 
-# Hoe een Plan ₿ Academy ₿-CERT-certificaat of -diploma verifiëren
+## Hoe een Plan ₿ Academy ₿-CERT-certificaat of -diploma verifiëren
 
 
-## Stap 1. Download je certificaat of diploma
+### Stap 1. Download je certificaat of diploma
 
 
 Log in op je persoonlijke/studenten dashboard op planb.network.
@@ -89,7 +89,7 @@ Pak de inhoud uit door met de rechtermuisknop op het `.zip` bestand te klikken e
 - Een PDF-certificaat (bijv. certificate.pdf)
 
 
-## Stap 2: Hoe kun je de handtekening van het tekstbestand verifiëren?
+### Stap 2: Hoe kun je de handtekening van het tekstbestand verifiëren?
 
 
 Ga eerst naar de map waar je de bestanden hebt uitgepakt en open een terminal (klik met de rechtermuisknop op het mapvenster en klik op "Open in Teminal"). Volg dan de onderstaande instructies.
@@ -99,7 +99,7 @@ Ga eerst naar de map waar je de bestanden hebt uitgepakt en open een terminal (k
 
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 
@@ -147,10 +147,10 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 Als je een bericht als "BAD signature" ziet, betekent dit dat er met het bestand geknoeid is.
 
 
-## Stap 3: Controleer de Open Timestamp
+### Stap 3: Controleer de Open Timestamp
 
 
-### Verifiëren via een grafische interface
+#### Verifiëren via een grafische interface
 
 
 1. Bezoek de website van OpenTimestamps: https://opentimestamps.org/
@@ -170,7 +170,7 @@ Als je een bericht als het volgende ziet, is de tijdstempel geldig:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 
-### De CLI-Methode
+#### De CLI-Methode
 
 
 OPMERKING: deze procedure **vereist een draaiende lokale Bitcoin node**
@@ -204,7 +204,7 @@ Deze opdracht zal:
 - de echtheid van de Timestamp bevestigen
 
 
-### Eindresultaten
+#### Eindresultaten
 
 
 De verificatie is geslaagd als **beide** van de volgende berichten worden weergegeven:

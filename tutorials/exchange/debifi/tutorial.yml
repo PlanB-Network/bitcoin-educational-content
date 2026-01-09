@@ -1,5 +1,7 @@
 id: f99dd1ed-c171-458c-b735-52cd9ba9968f
 
+last_update_date: 2025-11-17
+
 category: peer-to-peer
 
 project_id: 26d603ee-4b5a-4695-86c1-fe7658294413
@@ -12,6 +14,8 @@ tags:
 level: beginner
 
 professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -64,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.2
+    reward: 4.46
   - language: id
     last_contribution_date:
     urgency: 1
@@ -79,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.33
+    reward: 4.46
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -109,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.33
+    reward: 4.46
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.33
+    reward: 4.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

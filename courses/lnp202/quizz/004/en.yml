@@ -1,0 +1,9 @@
+question: What must a Lightning node connect to?
+answer: A Bitcoin node
+wrong_answers:
+  - A minor
+  - A block explorer
+  - A federated server
+explanation: |
+  The Lightning node depends on a Bitcoin node to access information from the main blockchain.
+reviewed: false

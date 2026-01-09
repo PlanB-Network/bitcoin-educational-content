@@ -1,5 +1,7 @@
 id: 54158e74-801b-4ab5-bfbf-bcd9e4edb645
 
+last_update_date: 2025-09-16
+
 professor_id: 32334703-651c-4f2c-b835-71a3e19e2f01
 
 credit_link: https://grunch.dev/guides/rpi-neutrino/
@@ -14,6 +16,8 @@ tags:
   - lightning
   - guides
   - node
+
+license: CC-BY-SA-V4
 
 original_language: en
 
@@ -66,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.38
+    reward: 5.3
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -82,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.34
+    reward: 5.3
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +116,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.34
+    reward: 5.3
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -143,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.34
+    reward: 5.3
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

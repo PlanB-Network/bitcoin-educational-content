@@ -27,7 +27,7 @@ W tym samouczku pokażemy, jak działa Bitchat i jak można go używać do prawd
 ## najważniejsze cechy
 
 
-Bitchat umożliwia przesyłanie wiadomości offline dzięki tym [funkcjom] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Bitchat umożliwia przesyłanie wiadomości offline dzięki tym [funkcjom](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 
@@ -54,7 +54,7 @@ Bitchat umożliwia wysyłanie wiadomości do pobliskich telefonów bezpośrednio
 Bitchat umożliwia również dołączanie do czatów opartych na lokalizacji przy użyciu protokołu Nostr i `#geohashes`. Geohash to krótki kod, taki jak `#u33d`, który reprezentuje określony obszar geograficzny, od pojedynczej dzielnicy, aż po całe miasto lub region. Możesz "teleportować się" do dowolnego pokoju czatu geohash na całym świecie, po prostu wprowadzając jego tag. Wiadomości są wysyłane przez zdecentralizowaną sieć przekaźników, która chroni dokładną lokalizację użytkownika. Co więcej, za każdym razem, gdy dołączasz do pokoju geohash, otrzymujesz nową, tymczasową tożsamość, dodając dodatkową warstwę prywatności do rozmów opartych na lokalizacji.
 
 
-Więcej szczegółów technicznych można znaleźć w [oficjalnym dokumencie] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Więcej szczegółów technicznych można znaleźć w [oficjalnym dokumencie](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Instalacja i konfiguracja

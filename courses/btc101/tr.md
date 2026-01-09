@@ -1059,7 +1059,7 @@ Satoshi'in yokluğuna rağmen, Bitcoin geliştirilmeye devam etti: Bitcoin'ün t
 Bazıları için Bitcoin bir [miselyum](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/) gibi mantar bir varlık olarak tanımlanırken, diğerleri onu bir [kara delik](https://dergigi.com/) olarak tanımlamaktadır. Sevin ya da nefret edin, Bitcoin yeni bir para sisteminin kalp atışı gibi blok başına 10 dakikalık sabit ritmiyle var olmaya devam ediyor.
 
 
-Satoshi Nakamoto'nun yazıları hakkında daha fazla bilgi edinmek için Phil Champagne tarafından yazılan ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) veya ARTE belgeseli "Le mystaire Satoshi "yi okumanızı öneririz.
+Satoshi Nakamoto’nun yazılarını daha derinlemesine incelemek için, başlıca metinlerini bir araya getirip bağlamlandıran Phil Champagne’ın [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) adlı eserini ve kimliği ile mirası etrafında erişilebilir ve iyi belgelenmiş bir soruşturma sunan ARTE belgeseli [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c)’yi tavsiye ederim.
 
 
 ![image](assets/tr/044.webp)

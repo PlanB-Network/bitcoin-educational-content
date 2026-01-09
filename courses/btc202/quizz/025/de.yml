@@ -1,9 +1,9 @@
-question: Wann ist ein pruned-Knoten ein Problem für einen Wallet?
-answer: Bei der Restaurierung eines alten Wallet
+question: Wann ist eine Pruned-Node ein Problem für eine Wallet?
+answer: Bei der Restaurierung einer alten Wallet
 wrong_answers:
-  - Beim Erstellen eines neuen Empfangs Address
+  - Beim Erstellen einer neuen Empfangs Addresse
   - Beim Senden einer neuen Transaktion
-  - Bei der Auswahl des Gebührenbetrags
+  - Bei der Auswahl der Gebühren
 explanation: |
-  Ein pruned-Knoten speichert keine alten Blöcke, was dazu führen kann, dass vergangene Transaktionen während der Wiederherstellung nicht gescannt werden können.
+  Ein Pruned-Node speichert keine alten Blöcke, was dazu führen kann, dass vergangene Transaktionen während der Wiederherstellung nicht gescannt werden können.
 reviewed: true

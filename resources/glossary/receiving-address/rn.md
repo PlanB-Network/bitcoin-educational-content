@@ -1,5 +1,5 @@
 ---
-term: KWAKIRA Address.
+term: KWAKIRA Address
 ---
 
 Amakuru akoreshwa mu kwakira ama bitcoins. Address akenshi yubakwa hakoreshejwe urufunguzo rwa bose, hakoreshejwe `SHA256` na `RIMPEMD160`, no kwongerako amakuru y'imbere muri iki gitabu. Imfunguruzo za bose zikoreshwa mu kwubaka Address yakira ni igice ca Wallet y'ukoresha kandi rero zikomoka kuri seed yabo. Nk’akarorero, amaderesi ya SegWit agizwe n’amakuru akurikira:

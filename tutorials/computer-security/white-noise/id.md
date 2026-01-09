@@ -3,7 +3,7 @@ name: White Noise
 description: Aplikasi perpesanan pribadi yang terdesentralisasi berdasarkan protokol Nostr dan MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -72,7 +72,7 @@ Berikut ini adalah perbandingan singkat antara White Noise dan sejumlah aplikasi
 
 
 
-Buka [situs web White Noise] (https://www.whitenoise.chat/), lalu klik **Unduh**.
+Buka [situs web White Noise](https://www.whitenoise.chat/), lalu klik **Unduh**.
 
 
 

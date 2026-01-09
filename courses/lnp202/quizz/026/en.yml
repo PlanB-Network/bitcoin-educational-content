@@ -1,0 +1,9 @@
+question: What can a watchtower in normal operation deduce about the channel it is protecting?
+answer: How often its status is updated
+wrong_answers:
+  - Allocating cash
+  - Its capacity
+  - Expense policy
+explanation: |
+  It receives encrypted packets for each new state, revealing only the normal rate of activity.
+reviewed: false

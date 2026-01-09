@@ -717,7 +717,7 @@ Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satosh
 
 Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
-Jos haluat lisätietoja Satoshi Nakamoton kirjoituksista, suosittelemme lukemaan Phil Champagnen kirjoittaman ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) tai ARTE:n dokumentin "Le mystaire Satoshi".
+Satoshi Nakamoton kirjoituksiin syventymiseksi suosittelen Phil Champagnen teosta [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30), joka kokoaa ja kontekstualisoi hänen keskeiset tekstinsä, sekä ARTE:n dokumenttia [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), joka tarjoaa helposti lähestyttävän ja hyvin dokumentoidun tutkinnan hänen identiteetistään ja perinnöstään.
 
 ![image](assets/fi/044.webp)
 

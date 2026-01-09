@@ -6,4 +6,4 @@ wrong_answers:
   - Hanya mentransmisikan informasi ke node lain
 explanation: >-
   Node dalam jaringan Bitcoin melakukan beberapa fungsi krusial, termasuk mempertahankan salinan dari blockchain Bitcoin, memvalidasi transaksi, mentransmisikan informasi ke node lain, dan menegakkan aturan dari protokol Bitcoin.
-reviewed: false
+reviewed: true

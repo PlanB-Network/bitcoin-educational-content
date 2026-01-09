@@ -94,6 +94,9 @@ Ready to build your first Lightning app? Let's start with Lesson 1! ⚡🚀
 ## HTML Fundamentals & Layout Logic
 <chapterId>d7997b5b-fb48-476c-a734-e4e9e2a4a16a</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/4e27cf2b-0832-40bd-8f19-d73619d5a813)
+
+
 ### What is HTML?
 
 #### Definition
@@ -593,6 +596,8 @@ Save this as `blog.html` and open it in your browser to see your Bitcoin blog in
 ## Learn CSS: CSS Foundations & Style Logic
 <chapterId>ee807797-77f6-453c-9adc-7a28ea43d883</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/2e3d0178-b8c3-4256-a16e-bce17d1d0cd0)
+
 ### Introduction to CSS
 
 #### Definition
@@ -727,6 +732,7 @@ Measurements relative to other elements or viewport:
     width: 100vw;      /* Full viewport width */
 }
 ```
+
 ## Precision Styling & Selectors
 <chapterId>41895064-cdc6-4aeb-bdfb-736b216b917c</chapterId>
 
@@ -1763,6 +1769,8 @@ Save these files in your project folder and open `index.html` in your browser to
 
 ## Introduction to JavaScript
 <chapterId>bed2fa44-e3fd-4ee0-8f9b-60fef10c4181</chapterId>
+
+![Video](https://peertube.planb.network/videos/embed/d314ee60-cec4-48e4-8031-4e51f78676a5)
 
 ### Definition and Why JavaScript Matters
 JavaScript is the **only** programming language that runs natively in web browsers. While other languages can run on servers or desktop applications, JavaScript is unique because it's built into every web browser, making it the universal language of web development.
@@ -3413,6 +3421,8 @@ The journey from here only gets more exciting! 🚀
 ## The Local Ecosystem
 <chapterId>dc9223b2-ac06-4288-a934-4a9846f146fc</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/f896d075-9561-4d22-9889-8d417a2646fd)
+
 ### Why Development Environments Matter
 
 Real developers don't just write code in isolation. They work within ecosystems of tools, services, and processes that enable:
@@ -3981,6 +3991,8 @@ A good README includes:
 ## Moving to React Architecture
 <chapterId>68055299-b666-47de-925b-91783cca4ca6</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/afef2c34-dda0-4a53-be23-b41be0be5d96)
+
 ### Introduction to React
 
 React is a **JavaScript library for building user interfaces**, particularly web applications. It was created by Facebook (now Meta) and has become the most popular way to build modern web applications.
@@ -4485,6 +4497,8 @@ function BitcoinPrice() {
 
 ## Deploying to Production with Vercel
 <chapterId>fe8fe942-0ae7-4f1b-8667-01ace11f3481</chapterId>
+
+
 
 ### What is Production Deployment?
 
@@ -7763,7 +7777,7 @@ Companies building on Lightning and Bitcoin:
 - **Fountain** - Lightning-powered podcasting
 - **Zap** - Lightning wallet and services
 
-#### Key Takeaways
+### Key Takeaways
 
 1. **React revolutionizes development** - Component-based architecture scales infinitely better than vanilla JavaScript
 2. **State management is everything** - useState and useEffect are the foundation of dynamic React applications
@@ -7776,7 +7790,7 @@ Companies building on Lightning and Bitcoin:
 9. **Performance optimization matters** - Memoization and code splitting improve user experience
 10. **Security is paramount** - Proper environment variable handling protects user funds
 
-#### Final Project Checklist
+### Final Project Checklist
 
 - [ ] **Bitcoin price display** - Real-time price from Coinbase API
 - [ ] **Wallet balance** - Live balance from LNbits wallet
@@ -7829,6 +7843,8 @@ The journey to becoming a Bitcoin developer continues! 🚀
 
 ## Final examination
 <chapterId>3e64a633-9c5c-41e1-8918-77594c6dce40</chapterId>
+
+
 
 
 <isCourseExam>true</isCourseExam>

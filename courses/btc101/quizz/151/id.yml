@@ -8,4 +8,4 @@ explanation: >-
   Proof of Work adalah algoritma konsensus yang digunakan dalam jaringan Bitcoin
   untuk memvalidasi transaksi dan menciptakan blok baru. Ini mengharuskan penambang untuk menyelesaikan masalah matematika yang kompleks,
   yang memastikan keaslian informasi dalam jaringan tanpa perlu adanya pihak ketiga yang dipercaya.
-reviewed: false
+reviewed: true

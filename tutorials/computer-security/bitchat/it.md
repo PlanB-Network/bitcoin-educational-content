@@ -23,10 +23,10 @@ In questo tutorial ti mostreremo come funziona Bitchat e come puoi utilizzarlo p
 
 Il Bitchat consente la messaggistica offline attraverso queste [funzioni](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 - **Compatibilità multipiattaforma**: piena compatibilità del protocollo tra iOS e Android
-- **Rete mesh decentralizzata**: individuazione automatica dei peer e trasmissione di messaggi multi-hop tramite Bluetooth Low Energy (BLE)
+- **Rete mesh decentralizzata**: individuazione automatica dei peer (utenti) e trasmissione di messaggi multi-hop tramite Bluetooth Low Energy (BLE)
 - **Crittografia end-to-end**: scambio di chiavi X25519 + AES-256-GCM per i messaggi privati
 - **Chat basate su canali**: messaggistica di gruppo basata su argomenti con protezione opzionale tramite password
-- **Store & Forward**: messaggi memorizzati nella cache per i peer offline e consegnati quando si riconnettono
+- **Store & Forward**: messaggi memorizzati nella cache per i peer (utenti) offline e consegnati quando si riconnettono
 - **La privacy prima di tutto**: nessun account, nessun numero di telefono, nessun identificatore persistente
 - **Comandi in stile IRC**: interfaccia familiare in stile `/join, /msg, /who`
 - **Conservazione dei messaggi**: salvataggio opzionale dei messaggi a livello di canale, controllato dai proprietari del canale
@@ -105,7 +105,7 @@ Quando si seleziona la modalità `#geohashes`, Bitchat si integra con il protoco
 
 ![image](assets/en/04.webp)
 
-### Monitoraggio dei peer
+### Monitoraggio dei peer (utenti)
 
 Il contatore peer mostra gli utenti (_licenza: CC-BY-SA-V4_):
 - Nelle vicinanze (rete BLE) o

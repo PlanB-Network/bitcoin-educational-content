@@ -9,4 +9,4 @@ explanation: |
   yang melibatkan pencapaian konsensus dalam jaringan di mana beberapa node mungkin rusak
   atau berbahaya. Bitcoin menyelesaikan masalah ini melalui penggunaan blockchain berbasis
   Bukti Kerja, yang memastikan semua node setuju pada keadaan riwayat transaksi.
-reviewed: false
+reviewed: true

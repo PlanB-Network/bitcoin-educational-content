@@ -8,4 +8,4 @@ explanation: >-
   Penambang dalam jaringan Bitcoin memiliki peran untuk memvalidasi transaksi
   dengan memasukkannya ke dalam sebuah blok. Mereka melakukan ini dengan memecahkan teka-teki kriptografi dalam
   proses yang disebut bukti kerja.
-reviewed: false
+reviewed: true

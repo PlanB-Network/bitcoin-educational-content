@@ -738,7 +738,8 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 對於一些人來說，比特幣被定義為像[菌絲體](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)一樣的真菌實體，而另一些人則把它描述為[黑洞](https://dergigi.com/)。無論你愛它還是恨它，比特幣繼續存在著，以每 10 分鐘產出一個區塊的節奏，持續跳動，如同新貨幣體系的心跳。
 
-若要進一步瞭解中本聰的著作，我們建議您閱讀 Phil Champagne 的 [「The Book of Satoshi」](https://planb.academy/en/resources/books/98) 或 ARTE 的紀錄片「Le mystaire Satoshi」。
+為了深入了解中本聰的著作，我推薦閱讀菲爾·香檳撰寫的 [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30)，該書彙集並脈絡化了他的主要文本，以及 ARTE 的紀錄片 [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c)，其就他的身分與遺產提供了一項通俗且詳實的調查。
+
 
 ![image](assets/zh-Hant/044.webp)
 

@@ -59,7 +59,7 @@ Lorsque votre catalogue est assez grand, cela pourrait devenir compliqué d'ajou
 
 ![import](assets/fr/07.webp)
 
-Dans cette même section, vous pouvez définir la durée de validité de vos factures Lightning. À partir de ce moment, pour toutes vos factures, vos clients disposent de `N` secondes pour effectuer leur paiement, faute de quoi vous devrez régénérer une nouvelle facture Lightning.
+Dans cette même section, vous pouvez définir la durée de validité de vos factures Lightning. À partir de ce moment, pour toutes vos factures, vos clients disposent de `N` secondes pour effectuer leur paiement, faute de quoi vous devrez regénérer une nouvelle facture Lightning.
 
 ![invoice_time](assets/fr/08.webp)
 

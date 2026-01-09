@@ -1,0 +1,9 @@
+question: Which U.S. state chosen by the Free State Project became a center of Bitcoin adoption in 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - California
+explanation: |
+ The Free State Project was a political migration movement, aimed at grouping libertarians in one state in order to influence the local government there. Members of this movement began using Bitcoin thanks to the proselytizing of libertarian activists like Roger Ver and Erik Voorhees.
+reviewed: false

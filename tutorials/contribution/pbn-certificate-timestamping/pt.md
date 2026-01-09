@@ -66,7 +66,7 @@ Primeiro abra um terminal na pasta onde os arquivos estão (clicando com o botã
 1. Importe a chave pública PGP da Rede Plan ₿ com o seguinte comando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Você deve ver uma mensagem como a seguinte se você importou a Chave PGP com sucesso

@@ -66,7 +66,7 @@ Pakk ut innholdet ved å høyreklikke på `.zip`-filen og velge "Pakk ut". Du vi
 1. Importer Plan ₿ Networks offentlige PGP-nøkkel med følgende kommando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Du bør se en melding som følgende hvis du har importert PGP-nøkkelen vellykket

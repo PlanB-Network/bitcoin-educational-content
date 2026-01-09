@@ -65,7 +65,7 @@ Avaa ensin terminaali kansiossa, jossa tiedostot ovat (napsauttamalla kansioiden
 1. Tuo Plan ₿ Networkin julkinen PGP-avain seuraavalla komennolla:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Jos PGP-avaimen tuonti onnistui, näet viestin kuten seuraava

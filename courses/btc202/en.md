@@ -248,7 +248,7 @@ In the face of this evolution, the roles of the Bitcoin node and the miner have 
 A miner needs a Bitcoin node to interact with the network.
 
 
-The role of the miner is also sometimes differentiated from that of the chopper. A mincer is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
+The role of the miner is also sometimes differentiated from that of the chopper. A miner is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
 
 
 ![Image](assets/fr/054.webp)

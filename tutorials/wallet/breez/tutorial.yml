@@ -8,6 +8,8 @@ tags:
   - lightning
   - user-friendly
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -53,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.12
+    reward: 3.69
   - language: id
     last_contribution_date:
     urgency: 1
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -104,7 +106,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -144,7 +146,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: bg
     last_contribution_date:
     urgency: 1

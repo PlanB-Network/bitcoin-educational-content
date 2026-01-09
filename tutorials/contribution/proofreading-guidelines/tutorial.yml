@@ -13,6 +13,8 @@ level: beginner
 
 professor_id: ee75acb2-110d-45bd-b476-dca07781a24d
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: en
@@ -59,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.6
+    reward: 4.75
   - language: id
     last_contribution_date:
     urgency: 1
@@ -76,7 +78,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 4.75
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 4.75
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -152,7 +154,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 4.75
   - language: bg
     last_contribution_date:
     urgency: 1

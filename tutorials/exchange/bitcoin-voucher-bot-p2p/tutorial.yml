@@ -5,7 +5,6 @@ category: peer-to-peer
 
 level: intermediate
 
-licence: CC-BY-SA-V4
 
 professor_id: 61afe93a-6e69-4846-a71f-c96e69f7a805
 
@@ -74,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.74
+    reward: 6.27
   - language: id
     last_contribution_date:
     urgency: 1
@@ -134,7 +133,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.5
+    reward: 6.27
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

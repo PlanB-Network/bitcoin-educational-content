@@ -15,6 +15,8 @@ level: intermediate
 
 professor_id: 2a24e333-d272-40b3-9840-3462191185e2
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 0.15
   - language: id
     last_contribution_date:
     urgency: 1
@@ -80,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -110,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -141,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

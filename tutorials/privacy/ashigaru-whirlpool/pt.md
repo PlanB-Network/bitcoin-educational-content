@@ -234,7 +234,7 @@ Para uma melhor compreensão deste mecanismo e de quantos ciclos vale a pena esp
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Para ver o número de remixes realizados por cada uma das suas peças, abra o menu `UTXOs` na conta `Postmix`.
 
@@ -354,7 +354,7 @@ O desempenho de vários ciclos de junção de moedas é medido pelo tamanho dos 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Como gerir o postmix?
 

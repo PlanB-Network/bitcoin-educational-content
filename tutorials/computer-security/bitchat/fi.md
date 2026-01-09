@@ -54,7 +54,7 @@ Bitchatin avulla voit lähettää viestejä lähistöllä oleviin puhelimiin suo
 Bitchatin avulla voit myös liittyä sijaintiin perustuviin keskusteluhuoneisiin Nostr-protokollan ja `#geohashes` -tekstin avulla. Geohash on lyhyt koodi, kuten `#u33d`, joka edustaa tiettyä maantieteellistä aluetta yksittäisestä naapurustosta aina kokonaiseen kaupunkiin tai alueeseen asti. Voit `teleportoida` mihin tahansa geohash-keskusteluhuoneeseen ympäri maailmaa yksinkertaisesti syöttämällä sen tunnisteen. Viestisi lähetetään hajautetun releiden verkon kautta, joka suojaa tarkan sijaintisi. Lisäksi aina kun liityt geohash-huoneeseen, sinulle annetaan uusi, väliaikainen henkilöllisyys, mikä lisää yksityisyyden suojaa sijaintiin perustuviin keskusteluihisi.
 
 
-Tarkempia teknisiä yksityiskohtia on [virallisessa Whitepaperissa] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Tarkempia teknisiä yksityiskohtia on [virallisessa Whitepaperissa](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Asennus ja asennus
@@ -282,7 +282,7 @@ Geohash-kanavat mahdollistavat kohdennetut keskustelut, jotka perustuvat "maanti
 ### Miten `#geohashes` toimii
 
 
-Järjestelmä jakaa maailman ruudukkoon käyttäen [Geohash-järjestelmää] (https://en.wikipedia.org/wiki/Geohash), jossa jokainen merkki hashissa edustaa suurempaa tarkkuutta:
+Järjestelmä jakaa maailman ruudukkoon käyttäen [Geohash-järjestelmää](https://en.wikipedia.org/wiki/Geohash), jossa jokainen merkki hashissa edustaa suurempaa tarkkuutta:
 
 
 

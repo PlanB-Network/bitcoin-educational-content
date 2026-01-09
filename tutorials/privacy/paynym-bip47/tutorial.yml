@@ -13,7 +13,7 @@ tags:
   - wallets
   - protocols
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 
 # Proofreading metadata
@@ -66,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.24
+    reward: 5.2
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +142,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

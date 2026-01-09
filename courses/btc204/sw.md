@@ -340,7 +340,7 @@ Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika 
 Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
 ### Mbinu za Chainalysis 

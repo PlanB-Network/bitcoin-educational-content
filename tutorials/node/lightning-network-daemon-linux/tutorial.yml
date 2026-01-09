@@ -8,6 +8,8 @@ category: lightning-network
 level: intermediate
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -54,7 +56,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.05
+    reward: 6.5
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.78
+    reward: 6.5
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -107,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.78
+    reward: 6.5
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -147,7 +149,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.78
+    reward: 6.5
   - language: bg
     last_contribution_date:
     urgency: 1

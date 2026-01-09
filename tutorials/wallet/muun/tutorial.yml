@@ -9,6 +9,8 @@ credit_link: https://agora256.com/muun-wallet-guide-dutilisation-complet/
 
 # Proofreading metadata
 project_id: a1533596-4113-4c41-bcf2-cb53b0c3e39f
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -52,7 +54,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.62
+    reward: 5.53
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -69,7 +71,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 3.31
+    reward: 2.77
   - language: et
     last_contribution_date:
     urgency: 1
@@ -95,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.71
+    reward: 5.53
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.62
+    reward: 5.53
   - language: bg
     last_contribution_date:
     urgency: 1

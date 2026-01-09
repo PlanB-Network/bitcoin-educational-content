@@ -3,7 +3,7 @@ name: White Noise
 description: NostrおよびMLSプロトコルをベースとしたプライベートな分散型メッセージングアプリケーション
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

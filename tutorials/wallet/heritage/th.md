@@ -1,5 +1,5 @@
 ---
-name: มรดก
+name: Heritage
 description: พอร์ตโฟลิโอ Bitcoin พร้อมกลไกการสืบทอดที่ผสานรวมผ่านสคริปต์ Taproot
 ---
 

@@ -9,6 +9,8 @@ credit_link: https://armantheparman.com/bitbox02/
 
 # Proofreading metadata
 project_id: ebcca57b-2be5-498f-b161-424f6f908f47
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -52,7 +54,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.46
+    reward: 3.74
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.46
+    reward: 3.74
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.19
+    reward: 3.74
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.46
+    reward: 3.74
   - language: bg
     last_contribution_date:
     urgency: 1

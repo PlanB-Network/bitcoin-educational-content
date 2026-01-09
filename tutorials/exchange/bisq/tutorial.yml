@@ -7,6 +7,8 @@ category: peer-to-peer
 professor_id: 2e1b5182-567e-453a-af29-36009340ff02
 
 project_id: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -52,7 +54,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 3.5
+    reward: 2.92
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.99
+    reward: 5.84
   - language: et
     last_contribution_date:
     urgency: 1
@@ -93,7 +95,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.14
+    reward: 5.84
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.99
+    reward: 5.84
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -7,6 +7,8 @@ tags:
   - personal-security
   - guides
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -55,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 3.28
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -71,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.92
+    reward: 3.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -122,7 +124,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.92
+    reward: 3.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.92
+    reward: 3.28
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Panduan untuk mengatur RaspiBlitz kamu
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitz adalah proyek DIY (Do-It-Yourself) untuk Node Lightning (LND dan atau Core Lightning) yang berjalan bersama Bitcoin full node di Raspberry Pi dengan SSD 1 TB dan dilengkapi layar yang memudahkan pengaturan dan pemantauan.
 
@@ -12,7 +12,7 @@ RaspiBlitz terutama ditujukan untuk belajar cara menjalankan node kamu sendiri s
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Cara Menjalankan Lightning dan Bitcoin Full Node oleh BTC session
 
-# Panduan Pengaturan Raspiblitz Parman
+## Panduan Pengaturan Raspiblitz Parman
 
 RaspiBlitz adalah sistem yang sangat baik untuk menjalankan node Bitcoin dan aplikasi terkait. Aku merekomendasikan ini dan node MyNode ke sebagian besar pengguna, idealnya punya dua node untuk redundansi. Salah satu keuntungan utama adalah bahwa node RaspiBlitz merupakan "Free Open Source Software", tidak seperti MyNode atau Umbrel. [Mengapa itu penting? Vlad Costa menjelaskan.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Kamu juga bisa menjalankan Raspiblitz dengan koneksi WiFi daripada ethernet – berikut adalah [panduan tambahan](https://armantheparman.com/headless-wifi/). (Aku belum menemukan cara untuk melakukan ini dengan MyNode).
 
@@ -22,7 +22,7 @@ Kamu bisa membeli node yang sudah jadi dengan layar mini terpasang, atau kamu bi
 
 Pada dasarnya, proses ini sangat mirip dengan proses menyiapkan [node MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) dengan Raspberry Pi 4. Panduan RaspiBlitz menyarankan kamu membeli monitor, tapi sebenarnya kamu tidak membutuhkannya dan aku juga tidak akan merekomendasikannya. Kamu juga tidak perlu keyboard atau mouse tambahan. Cukup akses menu terminal perangkat lewat komputer di jaringan rumah yang sama dan gunakan perintah ssh lewat terminal. Ini mudah dilakukan di Linux atau Mac, dan sedikit lebih ribet kalau pakai Windows.
 
-## Langkah 1: Beli peralatan.
+### Langkah 1: Beli peralatan.
 
 Kamu memerlukan perlengkapan yang sama persis seperti saat menjalankan node MyNode. Kamu bisa coba salah satu atau yang lain, karena satu satunya perbedaan ada pada data di kartu microSD.
 
@@ -48,7 +48,7 @@ Ini lebih cepat, tetapi tidak perlu mahal:
 
 ![image](assets/3.webp)
 
-## Langkah 2: Unduh Gambar Raspiblitz
+### Langkah 2: Unduh Gambar Raspiblitz
 Arahkan ke [situs GitHub Raspiblitz](https://github.com/rootzoll/raspiblitz), dan temukan tautan “download image”:
 ![image](assets/4.webp)
 
@@ -56,7 +56,7 @@ Hash sha256 dari file yang kamu unduh disediakan di situs web. Angkanya akan ber
 
 ![image](assets/5.webp)
 
-## Langkah 3: Verifikasi Gambar
+### Langkah 3: Verifikasi Gambar
 
 Sebelum lanjut, kalau kamu belum tahu cara bernavigasi di sistem file lewat command line, itu gampang dipelajari dan memang seharusnya kamu kuasai.
 
@@ -88,7 +88,7 @@ di mana xxxxxxxxxxxxxx adalah nama file yang baru aja kamu unduh. Kalau kamu tid
 
 Komputer akan memproses selama sekitar 20 detik atau lebih. Pastikan hash file yang dihasilkan cocok dengan yang diunduh dari situs web pada langkah sebelumnya. Jika sama, kamu bisa melanjutkan.
 
-## Langkah 4: Flash kartu SD
+### Langkah 4: Flash kartu SD
 
 Kamu bisa menggunakan Balena Etcher untuk melakukan ini. [Unduh di sini](https://www.balena.io/etcher/).
 
@@ -104,7 +104,7 @@ Etcher mudah dipakai. Masukkan kartu micro SD dan flash perangkat lunak Raspibli
 
 Setelah selesai, drive tidak akan bisa dibaca lagi. Kamu mungkin mendapat pesan kesalahan dari sistem operasi, dan drive akan hilang dari desktop. Cabut kartunya.
 
-## Langkah 5: Siapkan Pi dan masukkan kartu SD
+### Langkah 5: Siapkan Pi dan masukkan kartu SD
 
 Bagian-bagiannya (kasus tidak ditampilkan):
 
@@ -124,7 +124,7 @@ Akhirnya, sambungkan daya:
 
 ![image](assets/14.webp)
 
-## Langkah 6: Temukan alamat IP dari Pi
+### Langkah 6: Temukan alamat IP dari Pi
 
 Kamu tidak pernah benar-benar membutuhkan monitor dengan RaspiBlitz. Namun, kamu memerlukan komputer lain di jaringan rumah. Jika Pi kamu tidak terhubung lewat ethernet dan kamu ingin pakai WiFi, menemukan IP butuh sedikit keterampilan komputer. Maaf, aku tidak bisa membantu soal ini. Kamu memang perlu koneksi ethernet karena masalahnya terkait akses monitor dan sistem operasi untuk menghubungkan WiFi serta memasukkan kata sandi.
 
@@ -132,7 +132,7 @@ Periksa router kamu untuk daftar semua IP dari perangkat yang terhubung. Aku men
 
 PEMBARUAN: Kamu bisa pakai terminal di Mac atau Linux untuk menemukan alamat IP semua perangkat yang terhubung lewat Ethernet di jaringan rumah dengan perintah “arp -a”. Outputnya mungkin tidak sejelas yang ditampilkan router, tapi semua info yang kamu butuhkan ada di sana. Kalau tidak jelas mana Pi, pakai cara coba-coba.
 
-## Langkah 7: SSH ke Pi
+### Langkah 7: SSH ke Pi
 
 Ingat untuk memasukkan kartu SD ke Pi sebelum menyalakannya. Tunggu beberapa menit, lalu di Linux/Mac lain, buka terminal.
 

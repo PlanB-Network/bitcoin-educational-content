@@ -1,0 +1,9 @@
+question: In Umbrel, which application must be installed to establish a NWC connection?
+answer: Alby Hub
+wrong_answers:
+  - NWC Connector
+  - ThunderHub
+  - Zeus Server
+explanation: |
+  As the Umbrel application specifically dedicated to NWC is no longer available, you now need to use Alby Hub for this type of connection.
+reviewed: false

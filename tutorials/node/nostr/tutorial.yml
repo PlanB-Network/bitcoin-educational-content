@@ -9,6 +9,8 @@ credit_link: https://agora256.com/nostr/
 
 # Proofreading metadata
 project_id: 1440e595-1f1b-45cc-a687-8a0cd73655ce
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -53,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.21
+    reward: 4.36
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.21
+    reward: 4.36
   - language: et
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.06
+    reward: 4.36
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.21
+    reward: 4.36
   - language: bg
     last_contribution_date:
     urgency: 1

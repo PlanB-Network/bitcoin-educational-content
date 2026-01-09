@@ -1,0 +1,9 @@
+question: What role does ThunderHub play in relation to your LND node?
+answer: Interface management
+wrong_answers:
+  - Lightning implementation
+  - Service custodial
+  - Routing node
+explanation: |
+  ThunderHub is an interface that connects to LND to manage the node.
+reviewed: false

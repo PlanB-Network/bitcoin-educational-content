@@ -5,6 +5,8 @@ category: mobile
 
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 original_language: fr
 proofreading:
@@ -49,7 +51,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.41
+    reward: 2.46
   - language: id
     last_contribution_date:
     urgency: 1
@@ -64,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -100,7 +102,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -140,7 +142,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.46
   - language: bg
     last_contribution_date:
     urgency: 1

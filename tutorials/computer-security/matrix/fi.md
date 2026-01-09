@@ -1,5 +1,5 @@
 ---
-name: Matriisi
+name: Matrix
 description: Opas Matrixin, turvallisen, avoimen ja hajautetun viestintäalustan ymmärtämiseen, konfigurointiin ja käyttöön.
 ---
 

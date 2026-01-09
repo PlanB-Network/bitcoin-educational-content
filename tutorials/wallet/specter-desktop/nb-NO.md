@@ -127,7 +127,7 @@ Nedenfor finner du vår veiledning for denne wallet-maskinvaren:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 For et Coldcard må du eksportere de offentlige nøklene fra wallet-maskinvaren enten via en USB-tilkobling eller et microSD-kort.
 

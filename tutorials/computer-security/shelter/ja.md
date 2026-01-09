@@ -1,9 +1,9 @@
 ---
-name: シェルター
+name: Shelter
 description: シェルターで仕事とプライベートで同じ電話を使う
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

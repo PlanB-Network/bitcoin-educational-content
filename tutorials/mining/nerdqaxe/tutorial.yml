@@ -13,6 +13,8 @@ category: hardware
 
 level: advanced
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -62,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.36
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.36
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.36
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -137,7 +139,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.36
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

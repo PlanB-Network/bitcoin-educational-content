@@ -8,6 +8,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -51,7 +53,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.41
+    reward: 8.69
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,7 +69,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 5.2
+    reward: 4.34
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.12
+    reward: 8.69
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.41
+    reward: 8.69
   - language: bg
     last_contribution_date:
     urgency: 1

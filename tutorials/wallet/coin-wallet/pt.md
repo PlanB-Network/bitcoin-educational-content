@@ -20,7 +20,7 @@ Principais vantagens:
 
 
 - Arquitetura sem custódia
-- Totalmente [código-fonte aberto] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- Totalmente [código-fonte aberto](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Design simples e limpo
 - Centrado no objetivo principal - armazenar criptomoedas de forma segura, sem funcionalidades desnecessárias
 - Suporte multiplataforma: telemóvel (iOS e Android), computador de secretária, Web
@@ -72,7 +72,7 @@ Também disponível para ambiente de trabalho (Windows, Linux, macOS), como uma 
 ## 2️⃣ Criar um Wallet e definir o PIN
 
 
-Um wallet é criado utilizando um passphrase - uma sequência aleatória de 12 palavras separadas por espaços, gerada a partir de uma [lista de 2048 palavras] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+Um wallet é criado utilizando um passphrase - uma sequência aleatória de 12 palavras separadas por espaços, gerada a partir de uma [lista de 2048 palavras](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin O Wallet suporta frases-passe de 12, 15, 18, 21 ou 24 palavras importadas de outras carteiras.
 
@@ -287,7 +287,7 @@ Só aparecem os endereços não vazios.
 Nunca guarde a chave privada digitalmente em texto simples. Depois de varrida, pode ser eliminada em segurança.
 
 
-Para obter um guia completo sobre chaves privadas e caminhos de derivação: [How to Work with Private Keys: The Ultimate Guide] (https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
+Para obter um guia completo sobre chaves privadas e caminhos de derivação: [How to Work with Private Keys: The Ultimate Guide](https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
 
 
 

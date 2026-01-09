@@ -8,6 +8,8 @@ professor_id: 03cb7507-ad65-4848-88f8-bfa72e2b67f8
 
 # Proofreading metadata
 project_id: 418f3d44-e36f-485b-b5d9-c5b2bad1cff4
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -31,7 +33,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.94
+    reward: 5.7
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: bg
     last_contribution_date:
     urgency: 1

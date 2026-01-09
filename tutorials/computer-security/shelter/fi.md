@@ -1,9 +1,9 @@
 ---
-name: Suoja
+name: Shelter
 description: Käytä samaa puhelinta työssä ja yksityiselämässä Shelterin kanssa
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

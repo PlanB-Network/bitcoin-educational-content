@@ -17,6 +17,8 @@ tags:
 
 credit_link: https://officinebitcoin.it/lezioni/coinco/
 
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: it
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.81
+    reward: 8.47
   - language: id
     last_contribution_date:
     urgency: 1
@@ -80,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.14
+    reward: 8.47
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -120,7 +122,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.14
+    reward: 8.47
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -150,7 +152,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.14
+    reward: 8.47
   - language: bg
     last_contribution_date:
     urgency: 1

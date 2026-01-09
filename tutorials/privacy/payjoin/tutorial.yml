@@ -7,6 +7,8 @@ level: advanced
 professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -51,7 +53,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.73
+    reward: 3.96
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -66,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.73
+    reward: 3.96
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.5
+    reward: 3.96
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -145,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.73
+    reward: 3.96
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,9 +1,9 @@
-question: Welches Protokoll wird von Electrs und Fulcrum für die Verbindung von Geldbörsen verwendet?
-answer: Elektrum
+question: Welches Protokoll wird von Electrs und Fulcrum für die Verbindung von Wallets verwendet?
+answer: Electrum
 wrong_answers:
   - RPC REST
   - JSON-API
-  - Blitzschlag gRPC
+  - Lightning gRPC
 explanation: |
-  Diese Softwarepakete stellen einen Electrum-Server zur Verfügung, den Standard, der von vielen Geldbörsen wie Sparrow oder Electrum Wallet verwendet wird.
+  Diese Softwarepakete stellen einen Electrum-Server zur Verfügung, den Standard, der von vielen Wallets wie Sparrow oder Electrum Wallet verwendet wird.
 reviewed: true

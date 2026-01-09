@@ -1,0 +1,9 @@
+question: What does the Node ID of a Lightning node represent?
+answer: Node public key and address
+wrong_answers:
+  - Node seed and address
+  - Node alias and public key
+  - Hash node alias and seed
+explanation: |
+  The Node ID combines the node's public key with its network address and port.
+reviewed: false

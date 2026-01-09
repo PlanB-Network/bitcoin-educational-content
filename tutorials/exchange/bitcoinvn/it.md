@@ -65,7 +65,7 @@ Inserite manualmente l'importo che desiderate scambiare e utilizzate i pulsanti 
 Ricordate che i **tassi di transazione fluttuano**, quindi controllate sempre il prezzo finale prima di confermare.
 
 
-**Non è richiesto un conto corrente con** transazioni giornaliere limitate a 250.000 VND (~ 8 USD). Ulteriori informazioni sono disponibili nelle nostre [politiche di trasferimento bancario] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Non è richiesto un conto corrente con** transazioni giornaliere limitate a 250.000 VND (~ 8 USD). Ulteriori informazioni sono disponibili nelle nostre [politiche di trasferimento bancario](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Attenzione**: la commissione di rete è generalmente più conveniente quando si sceglie il Lightning Network rispetto al metodo di transazione onchain.
@@ -128,7 +128,7 @@ Lasciare il tempo necessario per la conferma (secondi su Lightning, minuti su on
 Accogliamo con piacere le vostre domande, richieste e feedback sui nostri prodotti e servizi.
 
 
-Per informazioni specifiche, è possibile consultare la nostra Politica di recupero dei beni [qui] (https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), oppure contattarci direttamente al numero [Telegram] (https://t.me/bitcoinvn_community).
+Per informazioni specifiche, è possibile consultare la nostra Politica di recupero dei beni [qui](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), oppure contattarci direttamente al numero [Telegram](https://t.me/bitcoinvn_community).
 
 
 Mentre l'adozione di asset digitali si integra nella finanza globale mainstream, **BitcoinVN** è strategicamente posizionata per guidare lo sviluppo della capacità finanziaria internazionale del Vietnam. Noi colmiamo il divario tra l'economia fisica e quella digitale, fondendo la liquidità globale con la facilità locale. La nostra missione è democratizzare l'accesso sicuro e facile a una gamma completa di prodotti di qualità e servizi professionali proprio qui in Vietnam.

@@ -27,7 +27,7 @@ Neste tutorial, vamos mostrar como o Bitchat funciona e como pode utilizá-lo pa
 ## 🚀 Caraterísticas principais
 
 
-O Bitchat permite o envio de mensagens offline através destas [funcionalidades] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+O Bitchat permite o envio de mensagens offline através destas [funcionalidades](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 
@@ -54,7 +54,7 @@ O Bitchat permite-lhe enviar mensagens para telefones próximos diretamente atra
 O Bitchat também permite que você entre em salas de bate-papo baseadas em localização usando o protocolo Nostr e `#geohashes`. Um geohash é um código curto, como `#u33d`, que representa uma área geográfica específica, de um único bairro, até uma cidade ou região inteira. Você pode se `teleportar` para qualquer sala de bate-papo geohash ao redor do mundo simplesmente digitando sua tag. As suas mensagens são enviadas através de uma rede descentralizada de retransmissores, que protege a sua localização exacta. Além disso, cada vez que se junta a uma sala de geohash, é-lhe atribuída uma nova identidade temporária, acrescentando uma camada extra de privacidade às suas conversas baseadas na localização.
 
 
-Para obter pormenores técnicos mais precisos, consulte o [Livro Branco oficial] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Para obter pormenores técnicos mais precisos, consulte o [Livro Branco oficial](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Instalação e configuração
@@ -282,7 +282,7 @@ Os canais Geohash permitem conversas direcionadas com base em "localizações ge
 ### Como funcionam os `#geohashes
 
 
-O sistema divide o mundo em quadrados de grelha utilizando o [sistema Geohash] (https://en.wikipedia.org/wiki/Geohash), em que cada carácter no hash representa uma maior precisão:
+O sistema divide o mundo em quadrados de grelha utilizando o [sistema Geohash](https://en.wikipedia.org/wiki/Geohash), em que cada carácter no hash representa uma maior precisão:
 
 
 

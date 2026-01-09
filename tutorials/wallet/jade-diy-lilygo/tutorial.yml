@@ -15,7 +15,7 @@ level: intermediate
 
 professor_id: e40f52b5-73d2-4d77-8b31-1bbde7dd0f9c
 
-licence: MIT
+license: MIT
 
 # Proofreading metadata
 
@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.62
+    reward: 11.9
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -143,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -7,7 +7,7 @@ topic: bitcoin
 
 # subtopic
 # Depends on the chosen topic. Subtopics for Bitcoin are limited to just Bitcoin
-# For other topics, refer to https: //github.com/orgs/DecouvreBitcoin/projects/3/views/7
+# For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: bitcoin
 
 # type
@@ -92,7 +92,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 17.76
+    reward: 14.81
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -110,7 +110,7 @@ proofreading:
     contributor_names:
       - Henry-Da0
       - Anh-La
-    reward: 8.88
+    reward: 7.4
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
@@ -147,7 +147,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 20.71
+    reward: 14.81
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -201,7 +201,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - barakana
-    reward: 17.76
+    reward: 14.81
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1

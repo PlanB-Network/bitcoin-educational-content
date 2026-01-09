@@ -9,6 +9,8 @@ credit_link: https://armantheparman.com/mint/
 
 # Proofreading metadata
 project_id: d0112afe-ce46-4ef2-9cca-f352ea9c46cf
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -51,7 +53,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.35
+    reward: 10.31
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -66,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.35
+    reward: 10.31
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.39
+    reward: 10.31
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -144,7 +146,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.35
+    reward: 10.31
   - language: bg
     last_contribution_date:
     urgency: 1

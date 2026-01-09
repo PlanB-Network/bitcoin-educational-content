@@ -111,16 +111,16 @@ RGB는 Bitcoin 토끼굴 안에 자체 토끼굴이 있는데, 제가 그 토끼
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# RGB 노드 튜토리얼
+## RGB 노드 튜토리얼
 
 
-## 소개
+### 소개
 
 
 이 튜토리얼에서는 RGB 노드를 사용하여 대체 가능한 token을 생성하는 방법과 이를 전송하는 방법을 설명합니다. 이 문서는 RGB 노드 데모를 기반으로 하며 실제 Testnet 데이터를 사용한다는 점에서 다르며, 이를 위해서는 지금부터 자체 Partially Signed Bitcoin Transaction, PSBT를 구축해야 한다는 점이 다릅니다.
 
 
-## 요구 사항
+### 요구 사항
 
 
 이 튜토리얼은 우분투를 기반으로 하는 Pop!OS를 사용하여 작성되었으므로 Linux 배포판을 사용하는 것이 좋습니다:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## 발급
+### 발급
 
 
 자산을 발행하려면 대체 가능한 발행 하위 명령으로 rgb0-CLI를 실행한 다음 인수, 티커 USDT, 이름 "USD Tether", 할당에 아래에서 보는 것처럼 발행 금액과 발행_utxo를 사용합니다:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 새로운 USDT를 받기 위해 RGB-node-1은 자산을 보유하기 위해 receive_utxo에 해당하는 blinded UTXO을 generate해야 합니다.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 이 UTXO과 관련된 전송을 수락하려면 원본 receive_utxo와 blinding_factor가 필요합니다.
 
 
-## 전송
+### 전송
 
 
 자산의 일정량을 RGB-node-1로 전송하려면 blinded UTXO로 전송해야 하고, RGB-node-0은 Consignment와 공개를 생성하고 이를 Bitcoin 트랜잭션에 커밋해야 합니다. 그런 다음 커밋을 포함하도록 수정할 PSBT이 필요합니다. 또한 -i 및 -a 옵션을 사용하면 자산의 원본이 될 입력 아웃포인트와 변경 사항을 받을 할당을 제공할 수 있으며, @<change_utxo>와 같은 방식으로 이를 표시해야 합니다.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 이렇게 하면 Consignment, 공개 및 조정 내용을 포함한 PSBT라는 세 개의 새 파일이 작성되고, 이 PSBT는 Witness Transaction이라고 하며, Consignment은 RGB-node-1로 전송됩니다.
 
 
-## 증인
+### 증인
 
 
 Witness Transaction를 서명하고 브로드캐스트해야 하므로 이를 다시 Base64로 인코딩해야 합니다.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## 방송
+### 방송
 
 
 Sendrawtransaction 하위 명령을 사용하여 브로드캐스트하여 Blockchain로 확인을 받습니다.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## 수락
+### 수락
 
 
 들어오는 전송을 수락하려면 RGB-node-1이 RGB-node-0으로부터 Consignment 파일을 수신해야 하며, 블라인드 UTXO 생성 중에 receive_utxo와 해당 블라인드_팩터가 생성되어 있어야 합니다.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## 결론
+### 결론
 
 
 우리는 대체 가능한 자산을 생성하고 비공개 방식으로 한 거래에서 다른 거래로 이동할 수있었습니다. Block explorer에서 확인 된 거래를 확인하면 일반 거래와 다른 점을 찾을 수 없으며, 이는 RGB가 일회용 씰을 사용하여 거래를 조정한다는 사실 덕분입니다. 이 게시물에서는 RGB가 어떻게 작동하는지 소개합니다.

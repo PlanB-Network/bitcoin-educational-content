@@ -1,0 +1,9 @@
+question: What mechanism prevents the release of an old Lightning channel state?
+answer: The revocation key
+wrong_answers:
+  - Transaction fees
+  - Absolute timelocks
+  - Network gossip
+explanation: |
+  Revocation keys are used to penalize a node that tries to publish an old channel state.
+reviewed: false

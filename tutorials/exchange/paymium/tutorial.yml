@@ -8,6 +8,8 @@ professor_id: 2e1b5182-567e-453a-af29-36009340ff02
 
 # Proofreading metadata
 project_id: cf8ac868-c02a-4d67-98e7-ed9c907e7a7b
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -52,7 +54,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 0.22
+    reward: 0.19
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.43
+    reward: 0.38
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.38
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.43
+    reward: 0.38
   - language: bg
     last_contribution_date:
     urgency: 1

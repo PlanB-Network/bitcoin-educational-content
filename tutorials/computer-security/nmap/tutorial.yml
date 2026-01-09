@@ -13,6 +13,8 @@ level: advanced
 
 professor_id: 5ce53b80-c842-4ae9-b0f7-fb542aeb425f
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -62,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 158.63
+    reward: 113.34
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 135.99
+    reward: 113.34
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -119,7 +121,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 135.99
+    reward: 113.34
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -149,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 135.99
+    reward: 113.34
   - language: bg
     last_contribution_date:
     urgency: 1

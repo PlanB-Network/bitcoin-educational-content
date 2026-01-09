@@ -1,9 +1,9 @@
 ---
-name: Barınak
+name: Shelter
 description: Shelter ile iş ve özel hayat için aynı telefonu kullanın
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

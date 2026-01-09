@@ -65,7 +65,7 @@ Masukkan jumlah yang ingin Anda tukar secara manual dan gunakan tombol [tautan b
 Ingatlah bahwa **tarif transaksi berfluktuasi**, jadi selalu periksa harga akhir sebelum melakukan konfirmasi.
 
 
-**Rekening tidak diperlukan dengan** transaksi harian dibatasi hingga VND 250.000 (~ USD $8). Informasi lebih lanjut tersedia di [kebijakan transfer bank] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Rekening tidak diperlukan dengan** transaksi harian dibatasi hingga VND 250.000 (~ USD $8). Informasi lebih lanjut tersedia di [kebijakan transfer bank](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Hati-hati**: biaya jaringan umumnya lebih murah jika Anda memilih Lightning Network dibandingkan dengan metode transaksi onchain.
@@ -142,7 +142,7 @@ Kami sangat menganjurkan Anda untuk bergabung dengan komunitas kami dan terus me
 
 - [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
 - [Facebook](https://www.facebook.com/www.bitcoinvn.io)
-- [X] (https://x.com/Bitcoin_Vietnam) (sebelumnya Twitter)
+- [X](https://x.com/Bitcoin_Vietnam) (sebelumnya Twitter)
 - [TikTok](https://www.tiktok.com/@bitcoinvn.io)
-- [Nostr] (https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
 - [Berita Terbaru](https://bitcoinvn.io/news/)

@@ -3,7 +3,7 @@ name: White Noise
 description: Nostr ja MLS protokollidel põhinev privaatne, detsentraliseeritud sõnumirakendus
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

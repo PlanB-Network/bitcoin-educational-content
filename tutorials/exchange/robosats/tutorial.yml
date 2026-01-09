@@ -9,6 +9,8 @@ credit_link: https://bitcoiner.guide/robosats/
 
 # Proofreading metadata
 project_id: 0821d190-3990-4308-b69a-af5e3f161e70
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -55,7 +57,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 3.55
+    reward: 2.96
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -71,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.09
+    reward: 5.93
   - language: et
     last_contribution_date:
     urgency: 1
@@ -96,7 +98,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.26
+    reward: 5.93
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.09
+    reward: 5.93
   - language: bg
     last_contribution_date:
     urgency: 1

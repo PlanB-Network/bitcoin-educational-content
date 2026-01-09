@@ -19,7 +19,7 @@ Más allá de ser un Lightning wallet de custodia que te permite enviar, recibir
 
 
 
-Vaya a la plataforma [Voltz] (https://www.voltz.com/en) y cree una cuenta haciendo clic en el botón "Probar ahora".
+Vaya a la plataforma [Voltz](https://www.voltz.com/en) y cree una cuenta haciendo clic en el botón "Probar ahora".
 
 
 

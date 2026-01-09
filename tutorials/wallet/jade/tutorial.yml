@@ -9,6 +9,8 @@ credit_link: https://armantheparman.com/jade/
 
 # Proofreading metadata
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -52,7 +54,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.46
+    reward: 4.57
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.46
+    reward: 4.57
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +94,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.36
+    reward: 4.57
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.46
+    reward: 4.57
   - language: bg
     last_contribution_date:
     urgency: 1

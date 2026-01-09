@@ -178,6 +178,6 @@ Ku bw’ivyo, hariho uburyo bwinshi bwo kubigira. Naho igitabu gisanzwe co kuri 
 Urakoze cane! Ubu aho ukorera hashizweho kugira ngo ushiremwo umusanzu ku rubuga rwa PlanB. Ubu urashobora gutohoza izindi nyigisho zacu zidasanzwe ku bwoko bwose bw’intererano (uguhindura, gukosora, kwandika.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ...).

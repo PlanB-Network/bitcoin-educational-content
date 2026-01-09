@@ -1,5 +1,5 @@
 ---
-name: Erfgoed
+name: Heritage
 description: Een Bitcoin portfolio met geïntegreerd overervingsmechanisme via Taproot scripts
 ---
 
@@ -808,6 +808,6 @@ Met Heritage kunt u uw Bitcoin opvolging op een soevereine manier plannen via de
 
 
 - [Officiële website erfgoed](https://btc-heritage.com)
-- [Documentatie CLI] (https://btc-heritage.com/heritage-cli)
+- [Documentatie CLI](https://btc-heritage.com/heritage-cli)
 - [GitHub Heritage CLI](https://github.com/crypto7world/heritage-cli)
 - [GitHub Heritage Desktop](https://github.com/crypto7world/heritage-gui)

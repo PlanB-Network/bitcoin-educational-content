@@ -1,5 +1,5 @@
 ---
-name: Matirisi
+name: Matrix
 description: Inyobora yo gutahura, gutunganya no gukoresha Matrix, urubuga rw’itumanaho rutekanye, rwuguruye kandi rwigenga.
 ---
 

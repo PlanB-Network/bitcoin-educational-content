@@ -11,6 +11,8 @@ category: explorer
 
 # proofreading metadata
 
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -53,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.68
+    reward: 3.37
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -108,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -148,7 +150,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
   - language: bg
     last_contribution_date:
     urgency: 1

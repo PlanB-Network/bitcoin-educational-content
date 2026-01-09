@@ -1,9 +1,9 @@
-question: Ni igikoresho ikihe gishobora gupfuka neza disiki iri munsi ya Linux?
-answer: Amahirwe
+question: Ni igikoresho ikihe c’isoko y’uguruye gishobora kunyegeza amakuru ari kuri disk yose kuri Linux?
+answer: LUKS
 wrong_answers:
   - BitLocker
-  - Ububiko bwa dosiye
-  - Ibanga rikomeye
+  - FileVault
+  - SuperCrypt
 explanation: |
-  LUKS (Linux Unified Key Setup) ni umuti usanzwe kuri Linux wo gupfuka disiki yuzuye mu gihe co gushiramwo.
-reviewed: false
+  LUKS (Linux Unified Key Setup) ni umuti usanzwe kuri Linux wo kunyegeza amakuru kuri disk yose mu gihe co kuyishiramwo.
+reviewed: true

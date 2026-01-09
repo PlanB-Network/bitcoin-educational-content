@@ -8,6 +8,8 @@ tags:
   - user-friendly
 
 #proofreading metadata
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -55,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.52
+    reward: 1.83
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -71,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.83
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.83
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.18
+    reward: 1.83
   - language: bg
     last_contribution_date:
     urgency: 1

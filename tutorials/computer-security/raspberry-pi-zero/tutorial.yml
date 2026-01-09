@@ -8,6 +8,8 @@ professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
 tags:
 
+license: CC-BY-SA-V4
+
 original_language: it
 proofreading:
   - language: it
@@ -60,7 +62,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.2
+    reward: 10.17
   - language: id
     last_contribution_date:
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -121,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -141,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: bg
     last_contribution_date:
     urgency: 1

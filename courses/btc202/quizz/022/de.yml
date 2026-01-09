@@ -1,9 +1,9 @@
 question: Was bewirkt nach der Perkolationstheorie das Überschreiten der kritischen Schwelle?
-answer: Ausbreitung von Transaktionen im gesamten Netz
+answer: Ausbreitung von Transaktionen im gesamten Netzwerk
 wrong_answers:
   - Sofortige Erstellung eines neuen Blocks
-  - Automatische Kostenunterdrückung durch Knotenpunkte
-  - Sperrung einer Transaktion durch das Netz
+  - Automatische Kostenunterdrückung durch Nodes
+  - Sperrung einer Transaktion durch das Netzwerk
 explanation: |
-  Sobald die Perkolationsschwelle überschritten wird, breitet sich eine Transaktion fast augenblicklich im gesamten Bitcoin-Netz aus.
+  Sobald die Perkolationsschwelle überschritten wird, breitet sich eine Transaktion fast augenblicklich im gesamten Bitcoin-Netzwerk aus.
 reviewed: true

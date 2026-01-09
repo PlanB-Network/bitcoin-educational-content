@@ -1,9 +1,9 @@
-question: Was ist die Hauptfunktion eines Bitcoin Wallet?
-answer: Speichern und Verwalten von privaten Schlüsseln
+question: Was ist die Hauptfunktion einer Bitcoin Wallet?
+answer: Speichern und Verwalten von privaten Keys
 wrong_answers:
-  - Speichern und Verwalten des kompletten Blockchain
-  - Gültigkeit des Blocks prüfen
-  - Relay-Netz-Transaktionen
+  - Speichern und Verwalten der kompletten Blockchain
+  - Gültigkeit der Blöcke prüfen
+  - Transaktionen im Netzwerk weiterleiten
 explanation: |
-  Ein Bitcoin Wallet verwaltet die privaten Schlüssel, mit denen Bitcoins ausgegeben werden können, erfüllt aber nicht die Funktionen eines Knotens.
+  Eine Bitcoin Wallet verwaltet die privaten Keys, mit denen Bitcoins ausgegeben werden können, erfüllt aber nicht die Funktionen einer Node.
 reviewed: true

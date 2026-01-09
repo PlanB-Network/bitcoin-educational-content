@@ -1,4 +1,4 @@
-question: Según Rousseau, ¿de dónde proviene el mal en la sociedad?
+question: Según Rousseau, ¿De dónde proviene el mal en la sociedad?
 answer: De la propiedad
 wrong_answers:
   - De la desigualdad
@@ -6,4 +6,4 @@ wrong_answers:
   - Del individualismo
 explanation: |
   Rousseau ve la propiedad como una fuente de mal social porque introduce desigualdades y un deseo de dominación.
-reviewed: false
+reviewed: true

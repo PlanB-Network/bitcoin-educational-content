@@ -717,7 +717,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ある人にとっては、ビットコインは[菌糸体](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)のような菌類のような存在と定義され、ある人にとっては[ブラックホール](https://dergigi.com/)と形容される。好むと好まざるとにかかわらず、ビットコインは 1 ブロック 10 分という一定のリズムで、新しい通貨システムの鼓動のように存在し続けている。
 
-サトシ・ナカモトの著作についてもっと知りたい方は、フィル・シャンパーニュ著『The Book of Satoshi』(https://planb.academy/en/resources/books/98)やARTEのドキュメンタリー『Le mystaire Satoshi』を読むことをお勧めする。
+サトシ・ナカモトの著作をより深く理解するために、主要なテキストを収集し文脈化したフィル・シャンパーニュ著の [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) と、彼の正体と遺産について分かりやすく十分に調査された検証を提供するARTEのドキュメンタリー [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c) の視聴をおすすめします。
 
 ![image](assets/ja/044.webp)
 

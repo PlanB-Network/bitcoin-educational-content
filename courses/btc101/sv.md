@@ -738,7 +738,8 @@ Trots Satoshis frånvaro fortsatte Bitcoin att utvecklas: Bitcoins historia skri
 
 För vissa definieras Bitcoin som en svampliknande enhet som ett [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), medan andra beskriver det som ett [svart hål](https://dergigi.com/). Vare sig man älskar eller hatar den fortsätter Bitcoin att existera, med sin konstanta rytm på 10 minuter per block, som hjärtslaget i ett nytt monetärt system.
 
-För att lära dig mer om Satoshi Nakamotos skrifter rekommenderar vi att du läser ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentären "Le mystaire Satoshi".
+För att fördjupa dig i Satoshi Nakamotos skrifter rekommenderar jag att läsa [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) av Phil Champagne, som samlar och sätter hans viktigaste texter i sitt sammanhang, samt ARTE-dokumentären [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), som erbjuder en lättillgänglig och väl dokumenterad undersökning av hans identitet och arv.
+
 
 ![image](assets/sv/044.webp)
 

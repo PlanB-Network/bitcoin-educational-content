@@ -53,7 +53,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -78,12 +78,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.28
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.28
   - language: pl
     last_contribution_date:
     urgency: 1

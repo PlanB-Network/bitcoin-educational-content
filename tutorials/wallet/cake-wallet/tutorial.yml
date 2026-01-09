@@ -1,5 +1,7 @@
 id: fdf7b138-e743-406c-9b36-6007cc16aa1b
 
+last_update_date: 2025-09-18
+
 tags:
   - privacy
   - onchain
@@ -66,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 2.9
   - language: id
     last_contribution_date:
     urgency: 1
@@ -81,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -111,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

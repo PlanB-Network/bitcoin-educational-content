@@ -1,5 +1,7 @@
 id: d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
+last_update_date: 2024-08-31
+
 category: data
 
 level: intermediate
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.86
+    reward: 6.57
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.86
+    reward: 6.57
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.16
+    reward: 6.57
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.86
+    reward: 6.57
   - language: bg
     last_contribution_date:
     urgency: 1

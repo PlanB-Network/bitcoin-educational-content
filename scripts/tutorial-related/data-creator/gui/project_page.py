@@ -14,7 +14,7 @@ from utils.file_ops import (
     create_project_yaml,
     create_project_language_yaml
 )
-from utils.constants import PROJECT_CATEGORIES, LICENCE_OPTIONS, DEFAULT_LICENCE
+from utils.constants import PROJECT_CATEGORIES, LICENSE_OPTIONS, DEFAULT_LICENSE
 
 class ProjectPage(ctk.CTkFrame):
     def __init__(self, parent, settings):
@@ -25,9 +25,9 @@ class ProjectPage(ctk.CTkFrame):
 
         project_data = self.settings.get("project_data", {})
 
-        self.licence_var = ctk.StringVar(value=project_data.get("licence", DEFAULT_LICENCE))
-        if self.licence_var.get() not in LICENCE_OPTIONS:
-            self.licence_var.set(DEFAULT_LICENCE)
+        self.license_var = ctk.StringVar(value=project_data.get("license", DEFAULT_LICENSE))
+        if self.license_var.get() not in LICENSE_OPTIONS:
+            self.license_var.set(DEFAULT_LICENSE)
 
         self.master.active_page = self
         
@@ -118,11 +118,11 @@ class ProjectPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text="Licence:", font=("Arial", 14)).grid(
             row=row, column=0, sticky="w", padx=10
         )
-        self.licence_menu = ctk.CTkOptionMenu(
-            self, values=LICENCE_OPTIONS, variable=self.licence_var,
+        self.license_menu = ctk.CTkOptionMenu(
+            self, values=LICENSE_OPTIONS, variable=self.license_var,
             width=180, font=("Arial", 14, "bold")
         )
-        self.licence_menu.grid(row=row, column=1, padx=10, pady=5, sticky="w")
+        self.license_menu.grid(row=row, column=1, padx=10, pady=5, sticky="w")
         row += 1
 
         # Tags input and suggestions (minimum 2 tags required)
@@ -316,7 +316,7 @@ class ProjectPage(ctk.CTkFrame):
                 language_code,
                 current_date,
                 global_contributor,
-                licence=self.licence_var.get(),
+                license=self.license_var.get(),
                 nostr=nostr,
                 linkedin=linkedin,
                 github=github
@@ -347,7 +347,7 @@ class ProjectPage(ctk.CTkFrame):
             "linkedin": self.linkedin_var.get(),
             "github": self.github_var.get(),
             "category": self.category_var.get(),
-            "licence": self.licence_var.get(),
+            "license": self.license_var.get(),
             "tag1": self.tag1_var.get(),
             "tag2": self.tag2_var.get(),
             "tag3": self.tag3_var.get(),

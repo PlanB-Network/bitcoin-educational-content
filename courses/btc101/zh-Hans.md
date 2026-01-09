@@ -717,7 +717,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 对于一些人来说，比特币被定义为像[菌丝]一样的真菌实体(https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)，而另一些人则将其描述为[黑洞](https://dergigi.com/)。不管你是爱它还是恨它，比特币都将继续存在，它每块 10 分钟的恒定节奏，就像一个新货币体系的心跳。
 
-要了解有关中本聪著作的更多信息，我们推荐阅读 Phil Champagne 撰写的["The Book of Satoshi"](https://planb.academy/en/resources/books/98) 或 ARTE 的纪录片 "Le mystaire Satoshi"。
+为了深入了解中本聪的著作，我推荐阅读菲尔·香槟撰写的 [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30)，该书汇集并阐释了他的主要文本，以及 ARTE 的纪录片 [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c)，其围绕他的身份与遗产提供了一项通俗且资料翔实的调查。
 
 ![image](assets/zh-Hans/044.webp)
 

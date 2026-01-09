@@ -1,5 +1,7 @@
 id: 6fb540d1-12eb-48fa-959b-626849c690fe
 
+last_update_date: 2025-11-11
+
 tags:
   - software
   - guides
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.08
+    reward: 7.58
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -138,7 +140,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.08
+    reward: 7.58
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -153,4 +155,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.08
+    reward: 7.58

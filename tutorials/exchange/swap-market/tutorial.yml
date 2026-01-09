@@ -1,5 +1,7 @@
 id: d1f92971-b808-4498-b294-cf33bc5d68b5
 
+last_update_date: 2025-10-21
+
 tags:
   - lightning
   - onchain
@@ -64,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.53
+    reward: 8.27
   - language: id
     last_contribution_date:
     urgency: 1
@@ -79,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -109,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +141,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

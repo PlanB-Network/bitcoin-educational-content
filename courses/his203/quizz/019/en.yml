@@ -1,0 +1,9 @@
+question: At around what level did the price of bitcoin fall at the end of the bear market that followed the great bubble of 2011?
+answer: 2 $
+wrong_answers:
+  - 0,01 $
+  - 6 $
+  - 17,5 $
+explanation: |
+ After peaking at $32 in June 2011, the price of bitcoin dropped drastically to $6 in early August, then continued to fall, finally reaching around $2 in November 2011. This represented a drop of over 90% from the June peak.
+reviewed: false

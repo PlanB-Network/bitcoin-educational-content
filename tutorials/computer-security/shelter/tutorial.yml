@@ -1,5 +1,7 @@
 id: 37e865f5-e676-4f9a-a8ec-c801c24513a0
 
+last_update_date: 2025-11-27
+
 category: data
 
 tags:
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.02
+    reward: 2.19
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 2.19
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 2.19
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -147,7 +149,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.6
+    reward: 2.19
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -1,4 +1,7 @@
 id: 34cf6f5d-4464-4f26-809f-de4af3cec5fd
+
+last_update_date: 2025-07-22
+
 project_id: 02dc57e7-81b5-4163-a360-3d8ea96085be
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 category: centralized
@@ -60,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.06
+    reward: 1.5
   - language: id
     last_contribution_date:
     urgency: 1
@@ -75,7 +78,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.78
+    reward: 1.5
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -115,7 +118,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.78
+    reward: 1.5
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -145,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.78
+    reward: 1.5
   - language: bg
     last_contribution_date:
     urgency: 1

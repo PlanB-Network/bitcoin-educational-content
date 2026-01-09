@@ -19,10 +19,10 @@ L'objectif de ce tutoriel est de permettre au propriétaire d'un petit commerce,
 Dans certaines régions du monde, il existe des communautés que l'on peut définir comme "circulaires", où le Bitcoin est à la fois accepté et largement utilisé par la population pour payer des services dans le cadre d'activités commerciales. Même les commerçants, après avoir été payés en Bitcoin par leurs clients, ont conclu des accords avec leurs fournisseurs pour payer les marchandises en Bitcoin.
 
 
-## Acceptation de la Bitcoin
+## Acceptation du Bitcoin
 
 
-L'étape suivante consiste à accepter les Bitcoin directement dans votre entreprise. Le moyen le plus simple est d'installer et de configurer un Lightning Network (LN) Wallet pour recevoir des paiements instantanés, ce qui permet aux clients de payer en même temps des frais de transaction réduits.
+L'étape suivante consiste à accepter les Bitcoins directement dans votre entreprise. Le moyen le plus simple est d'installer et de configurer un Lightning Network (LN) Wallet pour recevoir des paiements instantanés, ce qui permet aux clients de payer en même temps des frais de transaction réduits.
 
 
 Pour des raisons de simplicité, nous utiliserons Wallet de Satoshi comme exemple. Suivez les étapes suivantes pour l'installer et le configurer :
@@ -30,7 +30,7 @@ Pour des raisons de simplicité, nous utiliserons Wallet de Satoshi comme exempl
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Après avoir suivi le guide, vous serez prêt à accepter la Bitcoin comme méthode de paiement : ouvrez simplement l'application mobile et cliquez sur le bouton "Recevoir", puis entrez le montant (généralement dans votre monnaie locale) à payer par l'utilisateur pour la generate et la Invoice.
+Après avoir suivi le guide, vous serez prêt à accepter la Bitcoin comme méthode de paiement : ouvrez simplement l'application mobile et cliquez sur le bouton "Recevoir", puis entrez le montant (généralement dans votre monnaie locale) à payer par l'utilisateur pour la _generate_ et la _Invoice_.
 
 
 **Astuce** : ajouter une note à la Invoice avant de la créer permet d'associer facilement le paiement à un événement spécifique (par exemple, la vente de 1 kg de pommes pour 900 Sats). Les notes insérées manuellement ne sont pas visibles par la contrepartie et sont donc réservées à un usage interne.
@@ -64,7 +64,7 @@ https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc
 ## Règlement
 
 
-La réglementation du Bitcoin varie considérablement d'un pays à l'autre. Certains pays ont des réglementations claires et strictes, tandis que d'autres sont plus ambigus et vagues. De nombreux pays exigent que vous déclariez le Bitcoin en votre possession (tant en tant que particulier qu'en tant qu'entreprise) à des fins de contrôle fiscal ou d'imposition.
+La réglementation du Bitcoin varie considérablement d'un pays à l'autre. Certains pays ont des réglementations claires et strictes, tandis que d'autres sont plus ambigus et vagues. De nombreux pays exigent que vous déclariez le Bitcoin en votre possession (tant, en tant que particulier qu'en tant qu'entreprise) à des fins de contrôle fiscal ou d'imposition.
 
 
 ## La solution pour les commerçants
@@ -85,19 +85,19 @@ Examinons les avantages et les inconvénients de cette solution :
 Cette approche simple permet d'éviter plusieurs problèmes : elle supprime la nécessité d'appliquer les procédures KYC (Know Your Customer) aux bitcoins reçus en paiement, ce qui est une pratique très préjudiciable à la vie privée et à la sécurité des personnes ; elle maintient les activités comptables inchangées, puisqu'il n'est pas nécessaire d'enregistrer ces bitcoins.
 
 
-Vous n'aurez pas besoin d'investir du temps et de l'argent supplémentaires avec votre conseiller fiscal pour suivre ces revenus, car ils seront égaux à tous les autres revenus.
+Vous n'aurez pas besoin d'investir du temps et de l'argent supplémentaire avec votre conseiller fiscal pour suivre ces revenus, car ils seront égaux à tous les autres revenus.
 
 
 ### Inconvénients
 
 
-Au fur et à mesure que le volume des transactions Bitcoin augmente, il peut devenir impossible d'introduire des espèces dans la caisse, par exemple parce que les espèces disponibles ne couvrent pas tous les reçus Bitcoin. Il s'agit toutefois d'un scénario peu probable pour la plupart des commerçants qui commencent à accepter la Bitcoin. Un autre problème potentiel dans certains pays européens est que le type de votre entreprise peut vous empêcher d'accepter l'argent liquide comme méthode de paiement pour les biens et services fournis aux clients. Dans ce cas, la solution proposée ne sera plus suffisante.
+Au fur et à mesure que le volume des transactions Bitcoin augmente, il peut devenir impossible d'introduire des espèces dans la caisse, par exemple parce que les espèces disponibles ne couvrent pas tous les reçus Bitcoin. Il s'agit toutefois d'un scénario peu probable pour la plupart des commerçants qui commencent à accepter le Bitcoin. Un autre problème potentiel dans certains pays européens est que le type de votre entreprise peut vous empêcher d'accepter l'argent liquide comme méthode de paiement pour les biens et services fournis aux clients. Dans ce cas, la solution proposée ne sera plus suffisante.
 
 
 ## Rapport Bitcoin
 
 
-Comme nous l'avons vu, il est facile d'accepter la Bitcoin sans introduire de nouvelles procédures comptables préjudiciables à la vie privée ; il serait toutefois souhaitable de maintenir un système de comptabilité parallèle pour suivre votre flux de Bitcoin. Ne vous inquiétez pas, cela peut être aussi simple que vous le souhaitez, tant que vous comprenez combien de bitcoins entrent et sortent de votre Wallet.
+Comme nous l'avons vu, il est facile d'accepter le Bitcoin sans introduire de nouvelles procédures comptables préjudiciables à la vie privée ; il serait toutefois souhaitable de maintenir un système de comptabilité parallèle pour suivre votre flux de Bitcoin. Ne vous inquiétez pas, cela peut être aussi simple que vous le souhaitez, tant que vous comprenez combien de bitcoins entrent et sortent de votre Wallet.
 
 
 **Attention** : remplir le champ "Note" lors de la création de la LN Invoice pour le client facilitera grandement la mise à jour de la comptabilité Bitcoin. Il en va de même pour les paiements LN aux fournisseurs. Idéalement, chaque transaction est associée à une note de paiement.
@@ -106,4 +106,4 @@ Comme nous l'avons vu, il est facile d'accepter la Bitcoin sans introduire de no
 ## Conclusion
 
 
-L'acceptation de Bitcoin n'est qu'une première étape. Dans le cadre d'activités commerciales, il est essentiel d'assurer le suivi de vos opérations sans sacrifier la vie privée et la liberté de chacun. Comme nous l'avons vu, une solution simple résout de nombreux problèmes et satisfait toutes les parties impliquées dans la transaction - l'entreprise et le client.
+L'acceptation de Bitcoin n'est qu'une première étape. Dans le cadre d'activités commerciales, il est essentiel d'assurer le suivi de vos opérations sans sacrifier la vie privée et la liberté de chacun. Comme nous l'avons vu, une solution simple résout de nombreux problèmes et satisfait toutes les parties impliquées dans la transaction - l'entreprise et le client.-

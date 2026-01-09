@@ -3231,7 +3231,7 @@ Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor k
 ![BTC204](assets/nl/164.webp)
 
 
-Zoals we in dit hoofdstuk hebben gezien, kunnen anonsets alleen worden berekend als er een bepaalde homogeniteit is in de CoinJoin structuur. In het volgende hoofdstuk zullen we uitzoeken hoe we deze homogeniteit kunnen kwantificeren op een Bitcoin-transactie, of het nu een CoinJoin of een meer traditionele transactie is.
+Zoals we in dit hoofdstuk hebben gezien, kunnen anonsets alleen worden berekend als er een bepaalde homogeniteit is in de CoinJoin-structuur. In het volgende hoofdstuk zullen we uitzoeken hoe we deze homogeniteit kunnen kwantificeren op een Bitcoin-transactie, of het nu een CoinJoin of een meer traditionele transactie is.
 
 
 
@@ -3245,7 +3245,7 @@ Zoals we in dit hoofdstuk hebben gezien, kunnen anonsets alleen worden berekend 
 
 
 
-Zoals we in dit gedeelte over coinjoins hebben gezien, speelt de homogeniteit van UTXO's in input en output een belangrijke rol in het verbeteren van de vertrouwelijkheid van een Bitcoin-transactie. Deze parameter creëert een plausibele ontkenning voor blockchainanalyse. Er kunnen verschillende methoden gebruikt worden om deze homogeniteit te meten, maar een van de meest effectieve is naar mijn mening het gebruik van de indicatoren van de *Boltzmann* tool, ontwikkeld door de OXT en Samourai wallet teams, en in het bijzonder de entropie van de transactie. Dit is waar we in dit hoofdstuk in detail naar zullen kijken.
+Zoals we in dit gedeelte over coinjoins hebben gezien, speelt de homogeniteit van UTXO's in input en output een belangrijke rol in het verbeteren van de vertrouwelijkheid van een Bitcoin-transactie. Deze parameter creëert een plausibele ontkenning voor blockchainanalyse. Er kunnen verschillende methoden gebruikt worden om deze homogeniteit te meten, maar een van de meest effectieve is naar mijn mening het gebruik van de indicatoren van de *Boltzmann* tool, ontwikkeld door de OXT en Samourai wallet-teams, en in het bijzonder de entropie van de transactie. Dit is waar we in dit hoofdstuk in detail naar zullen kijken.
 
 
 In tegenstelling tot anonsets, die berekend worden op een reeks transacties, richten de hier gepresenteerde indicatoren zich op één enkele transactie, of het nu een CoinJoin of een meer traditionele transactie is.
@@ -3257,19 +3257,19 @@ In tegenstelling tot anonsets, die berekend worden op een reeks transacties, ric
 De eerste indicator die kan worden waargenomen bij een Bitcoin-transactie is het totale aantal mogelijke interpretaties bij een analyse van een buitenstaander. Rekening houdend met de waarden van de UTXO's die betrokken zijn bij de transactie, toont deze indicator het aantal manieren waarop inputs geassocieerd kunnen worden met outputs. Met andere woorden, de indicator bepaalt het aantal mogelijke interpretaties van een transactie in Bitcoin stromen vanuit het gezichtspunt van een externe waarnemer die de transactie analyseert.
 
 
-Bijvoorbeeld, een eenvoudige betalingstransactie met 1 input en 2 outputs heeft maar één interpretatie, namelijk dat input #0 uitgang #0 en uitgang #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
+Bijvoorbeeld, een eenvoudige betalingstransactie met 1 input en 2 outputs heeft maar één interpretatie, namelijk dat input #0 output #0 en output #1 heeft gefinancierd. Er is geen andere mogelijke interpretatie:
 
 
 ![BTC204](assets/nl/165.webp)
 
 
-Aan de andere kant heeft een Whirlpool 5x5 hoek $1.496$ mogelijke combinaties:
+Aan de andere kant heeft een coinjoin op basis vah het Whirlpool 5x5 model $1.496$ mogelijke combinaties:
 
 
 ![BTC204](assets/nl/166.webp)
 
 
-Een Whirlpool Surge Cycle 8x8 CoinJoin heeft $9.934.563$ mogelijke interpretaties:
+Een Whirlpool CoinJoin Surge Cycle 8x8 heeft $9.934.563$ mogelijke interpretaties:
 
 
 ![BTC204](assets/nl/167.webp)
@@ -3278,7 +3278,7 @@ Een Whirlpool Surge Cycle 8x8 CoinJoin heeft $9.934.563$ mogelijke interpretatie
 ### Entropie
 
 
-Uit het aantal interpretaties van een Bitcoin-transactie kunnen we de entropie ervan berekenen.
+Op basis van het aantal interpretaties van een Bitcoin-transactie kunnen we de entropie berekenen.
 
 
 In de algemene context van cryptografie en informatie is entropie een kwantitatieve maat voor de onzekerheid of onvoorspelbaarheid van een gegevensbron of willekeurig proces. Met andere woorden, entropie is een manier om te meten hoe moeilijk een stuk informatie te voorspellen of te raden is.
@@ -3293,7 +3293,7 @@ Als een transactie een groot aantal mogelijke interpretaties heeft, is het vaak 
 In de praktijk laat entropie zien of een transactie, vanuit het oogpunt van een externe waarnemer, meerdere mogelijke interpretaties vertoont, uitsluitend gebaseerd op input- en outputbedragen, zonder rekening te houden met andere externe of interne patronen en heuristieken. Een hoge entropie staat daarom gelijk aan een grotere vertrouwelijkheid van de transactie.
 
 
-Entropie wordt gedefinieerd als de binaire logaritme van het aantal mogelijke combinaties. Hier is de gebruikte formule met $E$ de entropie van de transactie en $C$ het aantal mogelijke interpretaties:
+Entropie wordt gedefinieerd als het binaire logaritme van het aantal mogelijke combinaties. Hier is de gebruikte formule waarbij $E$ de entropie van de transactie is en $C$ het aantal mogelijke interpretaties:
 
 
 $$
@@ -3301,7 +3301,7 @@ E = \log_2(C)
 $$
 
 
-In de wiskunde is de binaire logaritme (basis-2 logaritme) de inverse bewerking van de exponent van 2. Met andere woorden, de binaire logaritme van $x$ is de exponent waartoe $2$ verheven moet worden om $x$ te verkrijgen. Deze indicator wordt daarom uitgedrukt in bits.
+In de wiskunde is het binaire logaritme (basis-2 logaritme) de inverse bewerking van de exponent van 2. Met andere woorden, het binaire logaritme van $x$ is de exponent waartoe $2$ verheven moet worden om $x$ te verkrijgen. Deze indicator wordt daarom uitgedrukt in bits.
 
 
 Laten we het voorbeeld nemen van de berekening van de entropie voor een CoinJoin-transactie gestructureerd volgens het Whirlpool 5x5 model, dat, zoals vermeld in het vorige hoofdstuk, een aantal mogelijke interpretaties van $1.496$ heeft:
@@ -3309,14 +3309,14 @@ Laten we het voorbeeld nemen van de berekening van de entropie voor een CoinJoin
 
 $$
 \begin{align*}
-C &= 1\,496 \\
-E &= \log_2(1\,496) \\
-E &= 10.5469 \text{ bits}
+C &= 1\.496 \\
+E &= \log_2(1\.496) \\
+E &= 10,5469 \text{ bits}
 \end{align*}
 $$
 
 
-Deze CoinJoin transactie heeft dus een entropie van $10.5469$ bits, wat als zeer bevredigend wordt beschouwd. Hoe hoger deze waarde, hoe meer verschillende interpretaties de transactie toelaat, waardoor het niveau van vertrouwelijkheid wordt versterkt.
+Deze CoinJoin-transactie heeft dus een entropie van $10,5469$ bits, wat als zeer bevredigend wordt beschouwd. Hoe hoger deze waarde, hoe meer verschillende interpretaties de transactie toelaat, waardoor het niveau van vertrouwelijkheid wordt versterkt.
 
 
 Voor een CoinJoin 8x8 transactie met $9.934.563$ interpretaties zou de entropie :

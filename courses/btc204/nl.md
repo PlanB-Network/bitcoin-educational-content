@@ -1424,7 +1424,7 @@ Deze informatie suggereert dat Loïc waarschijnlijk aan de westkust van de Veren
 ***Uitoefening 8:***
 
 
-Analyse van deze transactie laat vijf inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle input-UTXO's eigendom zijn van een enkele entiteit en dat de output-UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één output-UTXO, met als doel zijn onderdelen te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
+Analyse van deze transactie laat vijf inputs en één output zien, wat duidt op consolidatie. Door de CIOH heuristiek toe te passen, kunnen we aannemen dat alle input-UTXO's eigendom zijn van een enkele entiteit en dat de output-UTXO ook tot deze entiteit behoort. Het lijkt erop dat de gebruiker ervoor koos om verschillende UTXO's die hij bezat samen te voegen tot één output-UTXO, met als doel zijn UTXO's te consolideren. Deze stap werd waarschijnlijk ingegeven door de wens om te profiteren van de lage transactiekosten in die tijd, om toekomstige kosten te verlagen.
 
 
 ___
@@ -1657,7 +1657,7 @@ Labelen is het toekennen van een annotatie of label aan een specifieke UTXO in e
 Als ik bijvoorbeeld een UTXO heb van een P2P aankoop op Bisq met Charles, zou ik het kunnen labelen als "`Non-KYC Bisq Charles`".
 
 
-Labeling is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, je Bitcoin-wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke eigenaar zou kunnen onthullen. Door al je onderdelen goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
+Labeling is een goede gewoonte die helpt om de herkomst of beoogde bestemming van een UTXO te onthouden. Inderdaad, je Bitcoin-wallet beveiligt zeker meerdere UTXO's. Als de bronnen van deze UTXO's verschillend zijn, wil je deze UTXO's in de toekomst misschien niet samenvoegen, omdat je anders hun gemeenschappelijke eigenaar zou kunnen onthullen. Door al je UTXO's goed te labelen, weet je zeker dat je nog weet waar ze vandaan komen als je ze nodig hebt, zelfs als dat over jaren is.
 
 
 ### Wat is muntcontrole?
@@ -3029,10 +3029,10 @@ Als deze UTXO wordt samengevoegd met gemengde output, verliest deze alle vertrou
 ### De initiële mix
 
 
-Na `Tx0` worden de geëgaliseerde UTXO's naar de **premix** account van onze portfolio gestuurd, klaar om te worden geïntroduceerd in hun eerste CoinJoin cyclus, ook bekend als de "initiële mix". Als, zoals in ons voorbeeld, de `Tx0` meerdere UTXO's genereert om te mengen, wordt elk van hen geïntegreerd in een aparte initiële mix.
+Na `Tx0` worden de geëgaliseerde UTXO's naar de **premix**-account van onze wallet gestuurd, klaar om te worden geïntroduceerd in hun eerste CoinJoin-cyclus, ook bekend als de "initiële mix". Als, zoals in ons voorbeeld, de `Tx0` meerdere UTXO's genereert om te mengen, wordt elk van hen geïntegreerd in een aparte initiële mix.
 
 
-Aan het einde van deze eerste mixen zal de **premix** rekening leeg zijn, terwijl onze munten, die de mining kosten voor deze eerste CoinJoin hebben betaald, precies zullen worden aangepast aan het bedrag dat door de gekozen pool is gedefinieerd. In ons voorbeeld zullen onze initiële UTXO's van `108.000 Sats` gereduceerd zijn tot precies `100.000 Sats`.
+Aan het einde van deze eerste mixen zal de **premix**-rekening leeg zijn, terwijl onze munten, die de mining-kosten voor deze eerste CoinJoin hebben betaald, precies zullen worden aangepast aan het bedrag dat door de gekozen pool is gedefinieerd. In ons voorbeeld zullen onze initiële UTXO's van `108.000 sats` gereduceerd zijn tot precies `100.000 sats`.
 
 
 ![BTC204](assets/nl/153.webp)
@@ -3041,46 +3041,46 @@ Aan het einde van deze eerste mixen zal de **premix** rekening leeg zijn, terwij
 ### Remixen
 
 
-Na de eerste mix worden de UTXO's overgebracht naar het **postmix** account. Dit account verzamelt UTXO's die al gemengd zijn en UTXO's die nog geremixt moeten worden. Wanneer de Whirlpool klant actief is, zijn UTXO's die zich in het **postmix** account bevinden automatisch beschikbaar voor remixen en worden willekeurig geselecteerd om deel te nemen aan deze nieuwe cycli.
+Na de eerste mix worden de UTXO's overgebracht naar het **postmix**-account. Dit account verzamelt UTXO's die al gemengd zijn en UTXO's die nog geremixt moeten worden. Wanneer de Whirlpool-client actief is, zijn UTXO's die zich in het **postmix**-account bevinden automatisch beschikbaar voor remixen en worden willekeurig geselecteerd om deel te nemen aan deze nieuwe cycli.
 
 
-Ter herinnering, remixen zijn dan 100% gratis: er zijn geen extra servicekosten of mining kosten nodig. Door UTXO's op de **postmix** rekening te houden, blijft hun waarde intact en verbetert tegelijkertijd hun anonsets. Daarom is het belangrijk om deze munten deel te laten nemen aan verschillende CoinJoin cycli. Het kost je helemaal niets en verhoogt hun anonimiteit.
+Ter herinnering, remixen zijn dan 100% gratis: er zijn geen extra servicekosten of mining-kosten nodig. Door UTXO's op de **postmix**-rekening te houden, blijft hun waarde intact en verbetert tegelijkertijd hun anonsets. Daarom is het belangrijk om deze munten deel te laten nemen aan verschillende CoinJoin-cycli. Het kost je helemaal niets en verhoogt hun anonimiteit.
 
 
-Als je besluit om gemengde UTXO's uit te geven, kun je dat rechtstreeks vanuit dit **postmix** account doen. We raden je aan om gemengde UTXO's op dit account te houden om te kunnen profiteren van gratis remixen en om te voorkomen dat ze het Whirlpool circuit verlaten, wat hun vertrouwelijkheid zou kunnen verminderen.
+Als je besluit om gemengde UTXO's uit te geven, kun je dat rechtstreeks vanuit dit **postmix**-account doen. We raden je aan om gemengde UTXO's op dit account te houden om te kunnen profiteren van gratis remixen en om te voorkomen dat ze het Whirlpool circuit verlaten, wat hun vertrouwelijkheid zou kunnen verminderen.
 
 
 ### Hoe beheer je je postmixen?
 
 
-Na het uitvoeren van CoinJoin cycli is de beste strategie om je UTXO's in de **postmix** account te bewaren, in afwachting van toekomstig gebruik. Het is zelfs aan te raden om ze onbeperkt te laten remixen totdat je ze nodig hebt om uit te geven.
+Na het uitvoeren van CoinJoin-cycli is de beste strategie om je UTXO's in de **postmix**-account te bewaren, in afwachting van toekomstig gebruik. Het is zelfs aan te raden om ze onbeperkt te laten remixen totdat je ze nodig hebt om uit te geven.
 
 
-Sommige gebruikers zouden kunnen overwegen om hun gemengde bitcoins over te zetten naar een wallet beveiligd door een Hardware wallet. Dit is mogelijk, maar het is belangrijk om de aanbevelingen van Samourai wallet nauwgezet op te volgen om de verkregen vertrouwelijkheid niet in gevaar te brengen.
+Sommige gebruikers zouden kunnen overwegen om hun gemengde bitcoins over te zetten naar een wallet beveiligd door een hardware wallet. Dit is mogelijk, maar het is belangrijk om de aanbevelingen van Samourai wallet nauwgezet op te volgen om de verkregen vertrouwelijkheid niet in gevaar te brengen.
 
 
-Het samenvoegen van UTXO's is de meest voorkomende fout. Om CIOH (*Common-Input-Ownership-Heuristic*) te voorkomen, moet je voorkomen dat je gemengde UTXO's combineert met ongemengde UTXO's in dezelfde transactie. Dit vereist zorgvuldig beheer van uw UTXO's binnen uw portefeuille, met name in termen van labeling.
+Het samenvoegen van UTXO's is de meest voorkomende fout. Om CIOH (*Common-Input-Ownership-Heuristic*) te voorkomen, moet je voorkomen dat je gemengde UTXO's combineert met ongemengde UTXO's in dezelfde transactie. Dit vereist zorgvuldig beheer van je UTXO's labels binnen je wallet.
 
 
 ![BTC204](assets/nl/154.webp)
 
 
-Voorzichtigheid is ook geboden bij het consolideren van gemengde UTXO's. Matige consolidatie is mogelijk als je gemengde UTXO's significante anonsets hebben, maar dit zal onvermijdelijk de vertrouwelijkheid van je onderdelen verminderen. Zorg ervoor dat consolidaties niet te uitgebreid zijn of na een onvoldoende aantal remixen worden uitgevoerd, met het risico dat er afleidbare verbanden ontstaan tussen uw UTXO's voor en na CoinJoin cycli. Bij twijfel over deze manipulaties is de beste praktijk om UTXO's na het mengen niet te consolideren, maar ze één voor één over te brengen naar uw Hardware wallet, en telkens een nieuwe ongebruikt adres te genereren. Nogmaals, vergeet niet elke UTXO die u ontvangt te labelen.
+Voorzichtigheid is ook geboden bij het consolideren van gemengde UTXO's. Matige consolidatie is mogelijk als je gemengde UTXO's significante anonsets hebben, maar dit zal onvermijdelijk de vertrouwelijkheid van je UTXO's verminderen. Zorg ervoor dat consolidaties niet te uitgebreid zijn of na een onvoldoende aantal remixen worden uitgevoerd, met het risico dat er afleidbare verbanden ontstaan tussen uw UTXO's voor en na CoinJoin-cycli. Bij twijfel over deze manipulaties is de beste praktijk om UTXO's na het mengen niet te consolideren, maar ze één voor één over te brengen naar je hardware wallet, en telkens een nieuw ongebruikt adres te genereren. Nogmaals, vergeet niet elke UTXO die je ontvangt te labelen.
 
 
-Het is ook niet aan te raden om je postmix UTXOs naar een wallet over te brengen met scripts die niet veel gebruikt worden. Als je bijvoorbeeld Whirlpool van een Multisig wallet invoert met behulp van `P2WSH` scripts, is de kans klein dat je gemengd wordt met andere gebruikers die oorspronkelijk hetzelfde type wallet hadden. Als u uw postmixen opnieuw mengt naar deze zelfde Multisig wallet, zal het niveau van vertrouwelijkheid van uw gemengde bitcoins sterk afnemen. Naast scripts zijn er nog veel meer wallet vingerafdrukken die u voor de gek kunnen houden.
+Het is ook niet aan te raden om je postmix-UTXOss naar een wallet over te brengen met scripts die niet veel gebruikt worden. Als je bijvoorbeeld Whirlpool van een multisig wallet invoert met behulp van `P2WSH`-scripts, is de kans klein dat je gemengd wordt met andere gebruikers die oorspronkelijk hetzelfde type wallet hadden. Als je je postmixen opnieuw mengt naar deze zelfde multisig wallet, zal het niveau van vertrouwelijkheid van je gemengde bitcoins sterk afnemen. Naast scripts zijn er nog veel meer wallet-vingerafdrukken die je voor de gek kunnen houden.
 
 
-Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangstadres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, leeg adres.
+Zoals bij elke Bitcoin-transactie, is het ook belangrijk om het ontvangstadres niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuw, leeg adres.
 
 
-De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer u ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen u om fouten te vermijden.
+De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer je ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen je om fouten te vermijden.
 
 
-### Hoe ga je om met giftige uitwisselingen?
+### Hoe ga je om met doxxic wisselgeld?
 
 
-Vervolgens moet je voorzichtig zijn met je beheer van doxisch Exchange, de exchange dat niet in de CoinJoin pool terecht is gekomen. Deze giftige UTXO's, die het resultaat zijn van het gebruik van Whirlpool, vormen een risico voor je privacy, omdat ze een link leggen tussen jou en de CoinJoin gebruiker. Het is daarom noodzakelijk ze met zorg te beheren en ze niet te combineren met andere UTXO's, vooral gemengde UTXO's.
+Vervolgens moet je voorzichtig zijn met je beheer van doxxic wisselgeld, de exchange dat niet in de CoinJoin-pool terecht is gekomen. Deze giftige UTXO's, die het resultaat zijn van het gebruik van Whirlpool, vormen een risico voor je privacy, omdat ze een link leggen tussen jou en de CoinJoin-gebruiker. Het is daarom noodzakelijk ze met zorg te beheren en ze niet te combineren met andere UTXO's, vooral gemengde UTXO's.
 
 
 Hier volgen enkele strategieën om ze te gebruiken:
@@ -3088,12 +3088,12 @@ Hier volgen enkele strategieën om ze te gebruiken:
 
 
 
-- **Mengen in kleinere zwembaden:** Als je giftige UTXO groot genoeg is om alleen in een kleiner zwembad te passen, overweeg dan om het te mengen. Dit is vaak de beste optie. Het is echter niet aan te raden om meerdere giftige UTXO's samen te voegen om toegang te krijgen tot een pool, omdat dit je verschillende inzendingen met elkaar kan verbinden;
-- **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
+- **Mengen in kleinere pools:** Als je giftige UTXO groot genoeg is om alleen in een kleinere pool te passen, overweeg dan om het te mengen. Dit is vaak de beste optie. Het is echter niet aan te raden om meerdere giftige UTXO's samen te voegen om toegang te krijgen tot een pool, omdat dit je verschillende inputs met elkaar kan verbinden;
+- **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon te HODL-en. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
 - **Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
-- Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
-- **Ze consolideren via Monero:** Samourai wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder je privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de miningkosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
-- Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
+- **Koop cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je exchange (wisselgeld) bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
+- **Ze consolideren via Monero:** Samourai wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder je privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de mining-kosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
+- **Stuur ze naar de Lightning Network:** Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
 
 
 ### Hoe gebruik ik Whirlpool?
@@ -3109,21 +3109,21 @@ Na de arrestatie van de oprichters van Samourai wallet en de inbeslagname van hu
 
 
 
-Voortaan is Whirlpool opnieuw toegankelijk via de mobiele applicatie Ashigaru, een fork van Samourai wallet, dankzij de software Ashigaru Terminal.
+Voortaan is Whirlpool opnieuw toegankelijk via de mobiele applicatie Ashigaru, een fork van Samourai wallet, dankzij de Ashigaru Terminal software.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
-De kern van de werking van Whirlpool blijft ongewijzigd, maar er zijn toch enkele verschillen vergeleken met het gebruik op Samourai: in 2025 zijn op Ashigaru slechts twee pools beschikbaar, met bedragen van `0.25 BTC` en `0.025 BTC`, en respectieve instapkosten van `0.0125 BTC` en `0.00125 BTC`.
+De kern van de werking van Whirlpool blijft ongewijzigd, maar er zijn toch enkele verschillen vergeleken met het gebruik op Samourai: in 2025 zijn op Ashigaru slechts twee pools beschikbaar, met bedragen van `0,25 BTC` en `0,025 BTC`, en respectieve instapkosten van `0,0125 BTC` en `0,00125 BTC`.
 
-In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin cycli in te schatten.
-
-
+In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin-cycli in te schatten.
 
 
 
 
 
-## Anonimiteit sets
+
+
+## Anonimiteitssets (anonsets)
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
@@ -3132,34 +3132,34 @@ In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indi
 
 
 
-Nu we hebben bestudeerd hoe coinjoins werken en wat er allemaal komt kijken bij effectief mixen, gaan we uitzoeken hoe we de effectiviteit ervan kunnen meten. Hoe kunnen we bepalen of een coinjoiningproces effectief is geweest en welke mate van anonimiteit een onderdeel heeft verkregen? Dat gaan we in dit hoofdstuk uitzoeken met anonimiteitssets of "anonsets".
+Nu we hebben bestudeerd hoe coinjoins werken en wat er allemaal komt kijken bij effectief mixen, gaan we uitzoeken hoe we de effectiviteit ervan kunnen meten. Hoe kunnen we bepalen of een coinjoiningproces effectief is geweest en welke mate van anonimiteit een UTXO heeft verkregen? Dat gaan we in dit hoofdstuk uitzoeken met anonimiteitssets of "anonsets".
 
 
-### Een herinnering aan het nut van CoinJoin
+### Een herhaling over het nut van CoinJoin
 
 
-Het nut van CoinJoin ligt in de mogelijkheid om plausibele ontkenning te produceren, door jouw deel in te bedden in een groep van niet te onderscheiden delen. Het doel van deze actie is om de banden van traceerbaarheid te verbreken, zowel van het verleden naar het heden als van het heden naar het verleden.
+Het nut van CoinJoin ligt in de mogelijkheid om plausibele ontkenning te produceren, door jouw UTXO in te bedden in een groep van niet te onderscheiden UTXO's. Het doel van deze actie is om de banden van traceerbaarheid te verbreken, zowel van het verleden naar het heden als van het heden naar het verleden.
 
 
-Met andere woorden, een analist die uw initiële transactie (`Tx0`) bij het ingaan van CoinJoin cycli kent, zou niet in staat moeten zijn om met zekerheid uw UTXO bij het verlaten van remix cycli te identificeren (cyclus input tot cyclus uitgang analyse).
+Met andere woorden, een analist die je initiële transactie (`Tx0`) bij het ingaan van CoinJoin-cycli kent, zou niet in staat mogen zijn om met zekerheid je UTXO bij het verlaten van remix-cycli te identificeren (cyclus input tot cyclus output analyse).
 
 
 ![BTC204](assets/nl/156.webp)
 
 
-Omgekeerd moet een analist die uw UTXO bij het verlaten van CoinJoin cycli kent, niet in staat zijn om de oorspronkelijke transactie bij het binnenkomen van de cycli te bepalen (cyclus exit naar cyclus entry analyse).
+Omgekeerd mag een analist die je UTXO bij het verlaten van CoinJoin-cycli kent, niet in staat zijn om de oorspronkelijke transactie bij het binnenkomen van de cycli te bepalen (cyclus exit naar cyclus entry analyse).
 
 
 ![BTC204](assets/nl/157.webp)
 
 
-Om te beoordelen hoe moeilijk het is voor een analist om het verleden aan het heden te koppelen en vice versa, moeten we de grootte van de groepen homogene onderdelen waarbinnen jouw onderdeel verborgen zit kwantificeren. Deze maat vertelt ons hoeveel analyses dezelfde waarschijnlijkheid hebben. Dus, als de juiste analyse verdrinkt tussen 3 andere analyses met gelijke waarschijnlijkheid, dan is je niveau van verhulling erg laag. Aan de andere kant, als de juiste analyse wordt gevonden binnen een verzameling van 20.000 even waarschijnlijke analyses, dan is je deel zeer goed verborgen. De grootte van deze groepen vertegenwoordigt indicatoren die bekend staan als "anonsets".
+Om te beoordelen hoe moeilijk het is voor een analist om het verleden aan het heden te koppelen en vice versa, moeten we de grootte van de groepen homogene UTXO's waarbinnen jouw UTXO verborgen zit kwantificeren. Deze maat vertelt ons hoeveel analyses dezelfde waarschijnlijkheid hebben. Dus, als de juiste analyse zoek raakt tussen 3 andere analyses met gelijke waarschijnlijkheid, dan is je niveau van verhulling erg laag. Aan de andere kant, als de juiste analyse wordt gevonden binnen een verzameling van 20.000 even waarschijnlijke analyses, dan is je UTXO zeer goed verborgen. De grootte van deze groepen vertegenwoordigt indicatoren die bekend staan als "anonsets".
 
 
 ### Anonsets begrijpen
 
 
-Anonsets worden gebruikt als indicatoren om de mate van vertrouwelijkheid van een bepaalde UTXO te beoordelen. Meer specifiek meten ze het aantal niet te onderscheiden UTXO's binnen de set die het bestudeerde deel omvat. De eis voor een homogene set UTXO's betekent dat anonsets meestal berekend worden op CoinJoin cycli. Het gebruik van deze indicatoren is vooral relevant voor Whirlpool muntjoints, vanwege hun uniformiteit.
+Anonsets worden gebruikt als indicatoren om de mate van vertrouwelijkheid van een bepaalde UTXO te beoordelen. Meer specifiek meten ze het aantal niet te onderscheiden UTXO's binnen de set die de bestudeerde UTXO omvat. De eis voor een homogene set UTXO's betekent dat anonsets meestal berekend worden op CoinJoin-cycli. Het gebruik van deze indicatoren is vooral relevant voor Whirlpool coinjoins, vanwege hun uniformiteit.
 
 
 Indien nodig kunnen anonsets worden gebruikt om de kwaliteit van coinjoins te beoordelen. Een grote anonset betekent een hoog niveau van anonimiteit, aangezien het moeilijk wordt om een specifieke UTXO te onderscheiden binnen de homogene set.
@@ -3170,53 +3170,53 @@ er bestaan 2 soorten anonsets:
 
 
 
-- De toekomstige anonimiteit;
-- Retrospectieve anonset.
+- **De toekomstige anonimiteit (forward anonset)**;
+- **De retrospectieve anonimiteit (backward anonset)**.
 
 
-### De verwachte anonimiteit
+### De toekomstige anonimiteit
 
 
-De toekomstgerichte anonset geeft de grootte aan van de groep waartussen de bestudeerde UTXO aan het eind van de cyclus verborgen is, gegeven de UTXO aan het begin, d.w.z. het aantal niet te onderscheiden delen dat binnen deze groep aanwezig is. De naam van deze indicator is "toekomstgerichte metriek".
+De toekomstgerichte anonset geeft de grootte aan van de groep waartussen de bestudeerde UTXO aan het eind van de cyclus verborgen is, gegeven de UTXO aan het begin, d.w.z. het aantal niet te onderscheiden UTXO's dat binnen deze groep aanwezig is. De naam van deze indicator is « *forward anonset* », ou « *forward-looking metrics* ». 
 
 
-Deze indicator meet de weerstand van de vertrouwelijkheid van de ruimte tegen een analyse van verleden naar heden (input naar output).
+Deze indicator meet de weerstand van de vertrouwelijkheid van de UTXO tegen een analyse van verleden naar heden (input naar output).
 
 
 ![BTC204](assets/nl/158.webp)
 
 
-Deze metriek wordt gebruikt om in te schatten in hoeverre uw UTXO beschermd is tegen pogingen om zijn geschiedenis te reconstrueren vanaf het punt van binnenkomst tot het punt van uitgang in het CoinJoin proces.
+Deze metriek wordt gebruikt om in te schatten in hoeverre je UTXO beschermd is tegen pogingen om zijn geschiedenis te reconstrueren vanaf het punt van binnenkomst tot het punt van uitgang in het CoinJoin proces.
 
 
-Als je transactie bijvoorbeeld heeft deelgenomen aan de eerste CoinJoin cyclus en er zijn nog twee dalende cycli voltooid, dan zou de verwachte anonset van je munt `13` zijn:
+Als je transactie bijvoorbeeld heeft deelgenomen aan de eerste CoinJoin-cyclus en er zijn nog twee bijkomende cycli voltooid, dan zou de verwachte anonset van je munt `13` zijn:
 
 
 ![BTC204](assets/nl/159.webp)
 
 
-Laten we ons bijvoorbeeld voorstellen dat onze munt aan het begin van de CoinJoin cyclus een verwachte anonset heeft van `86.871`. In praktische termen betekent dit dat het verborgen is tussen `86.871` niet te onderscheiden delen. Voor een buitenstaander die deze munt kent aan het begin van de CoinJoin cycli en de uitgang ervan probeert te traceren, zal hij geconfronteerd worden met `86.871` mogelijke UTXO's, elk met een identieke waarschijnlijkheid de munt te zijn die hij zoekt.
+Laten we ons bijvoorbeeld voorstellen dat onze munt aan het begin van de CoinJoin-cyclus een verwachte anonset heeft van `86.871`. In praktische termen betekent dit dat het verborgen is tussen `86.871` niet te onderscheiden UTXO's. Voor een buitenstaander die deze munt kent aan het begin van de CoinJoin cycli en de uitgang ervan probeert te traceren, worden er 86.871 mogelijke UTXO's getoond, elk met een identieke waarschijnlijkheid de gezochte munt te zijn.
 
 
 ![BTC204](assets/nl/160.webp)
 
 
-### De retrospectieve anonset
+### De retrospectieve anonimiteit
 
 
-De retrospectieve anonset geeft het aantal mogelijke bronnen aan voor een bepaald onderdeel, de UTXO kennende aan het einde van de cyclus. Deze indicator meet de weerstand van de vertrouwelijkheid van het onderdeel tegen een heden-naar-verleden (output-naar-input) analyse, d.w.z. hoe moeilijk het is voor een analist om je onderdeel terug te traceren naar zijn oorsprong, voor de CoinJoin cycli. De naam van deze indicator is "backward anonset", of "backward-looking metrics".
+De retrospectieve anonset geeft het aantal mogelijke bronnen aan voor een bepaalde UTXO, de UTXO kennende aan het einde van de cyclus. Deze indicator meet de weerstand van de vertrouwelijkheid van de UTXO tegen een heden-naar-verleden (output-naar-input) analyse, d.w.z. hoe moeilijk het is voor een analist om je UTXO terug te traceren naar zijn oorsprong, voor de CoinJoin-cycli. De naam van deze indicator is « *backward anonset* », of « *backward-looking metrics* ».
 
 
 ![BTC204](assets/nl/161.webp)
 
 
-Door je UTXO bij het verlaten van de cycli te kennen, bepaalt de retrospectieve anonset het aantal potentiële Tx0 transacties die je input in de CoinJoin cycli hadden kunnen vormen. In het diagram hieronder komt dit overeen met de som van alle oranje bellen.
+Door je UTXO bij het verlaten van de cycli te kennen, bepaalt de retrospectieve anonset het aantal potentiële Tx0-transacties die je input in de CoinJoin-cycli hadden kunnen vormen. In het diagram hieronder komt dit overeen met de som van alle oranje bubbels.
 
 
 ![BTC204](assets/nl/162.webp)
 
 
-Laten we ons bijvoorbeeld voorstellen dat ons CoinJoin onderdeel een retrospectieve anonset heeft van `42.185`. Praktisch gezien betekent dit dat er `42.185` potentiële bronnen zijn voor deze UTXO. Als een externe waarnemer deze munt identificeert aan het einde van de cycli en de oorsprong probeert te achterhalen, zal hij of zij geconfronteerd worden met `42.185` mogelijke bronnen, die allemaal even waarschijnlijk de gezochte oorsprong zijn.
+Laten we ons bijvoorbeeld voorstellen dat onze CoinJoin UTXO een retrospectieve anonset heeft van `42.185`. Praktisch gezien betekent dit dat er `42.185` potentiële bronnen zijn voor deze UTXO. Als een externe waarnemer deze munt identificeert aan het einde van de cycli en de oorsprong probeert te achterhalen, zal hij of zij geconfronteerd worden met `42.185` mogelijke bronnen, die allemaal even waarschijnlijk de gezochte oorsprong zijn.
 
 
 ![BTC204](assets/nl/163.webp)
@@ -3225,7 +3225,7 @@ Laten we ons bijvoorbeeld voorstellen dat ons CoinJoin onderdeel een retrospecti
 ### Hoe bereken je anonsets?
 
 
-Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor kleine ensembles. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de blockchain te halen.
+Het is mogelijk om handmatig anonsets te berekenen met een block explorer voor kleine groep. Maar voor grotere anonsets wordt het gebruik van een gespecialiseerde tool noodzakelijk. Voor zover ik weet is de enige software die deze taak kan uitvoeren *Whirlpool Stats Tool*, een Python-tool ontwikkeld door de Samourai- en OXT-teams. Helaas is deze tool momenteel buiten gebruik na de arrestatie van de oprichters van Samourai en de onderbreking van OXT, dat gebruikt werd om gegevens uit de blockchain te halen.
 
 
 ![BTC204](assets/nl/164.webp)
@@ -3568,7 +3568,7 @@ Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytech
 
 
 
-CoinJoin is momenteel de meest effectieve methode om onzekerheid te introduceren in de tracering van onderdelen in een ketenanalyse. Zoals we in eerdere hoofdstukken hebben gezien, moeten inputs en outputs zo homogeen mogelijk zijn om een hoogwaardige mix te verkrijgen. Daarnaast is het belangrijk dat onderdelen worden geïntegreerd in een zo groot mogelijke groep om anonsets te maximaliseren. Dus, om coinjoins effectief te laten zijn, moet er een groot aantal uniforme onderdelen bij betrokken zijn. Deze veelheid aan vereisten betekent dat CoinJoin transacties een zeer rigide structuur hebben: de bedragen staan van tevoren vast en alle deelnemers moeten zich eraan houden om de uniformiteit van het proces te garanderen. Bovendien vereisen coinjoins synchronisatie tussen alle deelnemers en de coördinator tijdens de constructie van de transactie.
+CoinJoin is momenteel de meest effectieve methode om onzekerheid te introduceren in de tracering van UTXO's in een ketenanalyse. Zoals we in eerdere hoofdstukken hebben gezien, moeten inputs en outputs zo homogeen mogelijk zijn om een hoogwaardige mix te verkrijgen. Daarnaast is het belangrijk dat UTXO's worden geïntegreerd in een zo groot mogelijke groep om anonsets te maximaliseren. Dus, om coinjoins effectief te laten zijn, moet er een groot aantal uniforme UTXO's bij betrokken zijn. Deze veelheid aan vereisten betekent dat CoinJoin transacties een zeer rigide structuur hebben: de bedragen staan van tevoren vast en alle deelnemers moeten zich eraan houden om de uniformiteit van het proces te garanderen. Bovendien vereisen coinjoins synchronisatie tussen alle deelnemers en de coördinator tijdens de constructie van de transactie.
 
 
 Deze vereisten maken CoinJoin ongeschikt voor directe betalingen. Als je bijvoorbeeld een 1M Sats munt hebt in een CoinJoin pool, zou het direct gebruiken als betaling complex zijn. Het zou synchronisatie vereisen met de andere deelnemers en de coördinator om de gezamenlijke transactie precies op te bouwen op het moment dat je een betaling moet doen, en het aankoopbedrag zou precies moeten overeenkomen met de waarde van jouw munt, wat vrijwel onhaalbaar is. De CoinJoin transactie is daarom van nature een collaboratieve veegtransactie, d.w.z. het zijn meestal dezelfde eigenaren van de inputs die we terugvinden in de outputs.
@@ -5577,7 +5577,7 @@ Bob heeft een SP adres die hij op het internet heeft gepubliceerd met :
 - $B$: de openbare sleutel ($B = b ≤ G$)
 
 
-Door adres van Bob op te halen, kan Alice met behulp van ECDH een nieuwe ongebruikt adres berekenen die bij Bob hoort. Laten we dit adres $P$ noemen:
+Door adres van Bob op te halen, kan Alice met behulp van ECDH een nieuw ongebruikt adres berekenen die bij Bob hoort. Laten we dit adres $P$ noemen:
 
 
 $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
@@ -5823,7 +5823,7 @@ De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de
 Op dit moment noemen we de Silent Payment static adres $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling adres $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
 
 
-Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Stille Betalingen hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Stille Betalingen terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een Hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
+Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Stille Betalingen hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Stille Betalingen terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
 
 
 Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen gebruiken:
@@ -5835,7 +5835,7 @@ Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen geb
 - b_{{scan}}$: om unieke betalingsadressen te vinden.
 
 
-Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een Hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Stille Betalingen te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
+Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Stille Betalingen te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$

@@ -6,4 +6,4 @@ wrong_answers:
   - Hadiah untuk menemukan hash yang valid ditingkatkan
 explanation: >-
   Protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan dengan menyesuaikan kesulitan menemukan hash yang valid setiap 2016 blok. Hal ini terjadi terlepas dari jumlah penambang dan kekuatan komputasi mereka.
-reviewed: false
+reviewed: true

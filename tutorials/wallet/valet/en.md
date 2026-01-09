@@ -22,6 +22,7 @@ Valet is currently only available for Android devices, and can be downloaded and
 Valet can be downloaded as an APK file from the Standard Sats' GitHub page. [Standard Sats](https://standardsats.github.io/) is the company that developed Valet.
 
 👉 To download Valet, visit the Standard Sats [GitHub page](https://github.com/standardsats/valet/releases), and locate the ***latest*** release (This is often the topmost one).
+
 👉 Go to ***Assets*** and click on the file with only a ***.apk*** extension. Your download will start automatically.
 
 ![Standard_Sats_GitHub_page_view](assets/en/001.webp)
@@ -50,6 +51,7 @@ Alternatively, you can also download Valet from the ***F-Droid*** app store. If 
 You can set up a Bitcoin wallet on Valet in two simple steps.
 
 👉 Launch Valet from your device's home screen or from the F-Droid app. A wallet setup screen will appear, with two options: ***Create New Wallet*** and ***Restore Existing Wallet***.
+
 👉 Select ***Create New Wallet***, and instantly, a new wallet will be created, and you will be redirected to the home page.
 
 ![set_up_a\_new_wallet](assets/en/006.webp)
@@ -71,7 +73,7 @@ You can set up a Bitcoin wallet on Valet in two simple steps.
 -   If you ever lose your seed phrase, you will ***never*** get access to your wallet.
 -   If someone gets your seed phrase, they can irretrievably steal all your Bitcoins.
 
-Therefore, you must write down your 12-word seed phrase and keep it in a safe location. You should never take a screenshot, save it as a draft in your email, or save it on any electronic device that has ever been connected to the internet.
+So, you'll need to write down your 12-word seed phrase and keep it in a safe location. You should never take a screenshot, save it as a draft in your email, or save it on any electronic device that has ever been connected to the internet.
 
 
 ## RECEIVING AND SENDING BITCOINS ON VALET
@@ -86,11 +88,13 @@ However, to be able to receive or send Bitcoin through Lightning, you need to se
 To receive Bitcoin through on-chain, you'll need to generate a Bitcoin address.
 
 👉 On the wallet home page, you will see an ***Orange*** and a ***Purple card***, respectively labeled ***Bitcoin*** and ***Lightning***.
+
 👉 Click on the Orange card labeled ***Bitcoin***. You'll be redirected to a screen displaying a Bitcoin address.
 
 ![click_on_Bitcoin_card](assets/en/009.webp)
 
 👉 You can ***copy*** the address and send it to the person who is sending Bitcoins to you, or click the ***share*** button to send the QR code to the person via social media or other communication channels.
+
 👉 You can also click on the ***Edit*** button to set the amount of Bitcoins that should be sent to that address.
 
 **NB:** Like an invoice, the edit feature comes in handy in scenarios where you may want to receive a specific amount of Bitcoins to an address at a point; however, this does not mean that the address cannot receive higher or lower amounts.
@@ -363,6 +367,7 @@ Valet is a non-custodial wallet, so if you lose your device or uninstall your wa
 There are two important tools needed for recovering your Valet wallet, depending on whether you had an active Lightning channel or not. For a user who did not have an active normal Lightning channel, all they need is their ***12-word seed phrase***, following the simple steps below:
 
 👉 Install a new Valet app, and launch/start the app.
+
 👉 Select ***Restore Existing Wallet***
 
 ![restore_existing_wallet](assets/en/042.webp)
@@ -384,7 +389,9 @@ The other way to recover your Valet wallet, especially if you had a normal Light
 Here are the steps:
 
 👉 Install a new Valet app, and launch/start the app.
+
 👉 Select ***Restore Existing Wallet***.
+
 👉 Select ***Backup + Recovery phrase***.
 
 ![select_backup_and_recovery_seed](assets/en/045.webp)
@@ -398,6 +405,7 @@ Once the correct backup file is selected, a prompt confirming that a ***"Backup 
 ![enter_12_words](assets/en/047.webp)
 
 👉 Enter your 12-word recovery phrase and click ***OK***. You will be taken to your wallet home page.
+
 👉 Wait for the Bitcoin network synchronization (***SYNC***), and the Lightning node synchronization (***LN Sync***) to complete, and your wallet will be fully restored, including your Lightning channels.
 
 ![LN_sync](assets/en/048.webp)

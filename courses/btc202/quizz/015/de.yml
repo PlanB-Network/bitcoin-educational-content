@@ -1,7 +1,7 @@
-question: Was ist die wichtigste alternative Umsetzung von Bitcoin core?
+question: Was ist die wichtigste alternative Umsetzung von Bitcoin Core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Bargeld
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

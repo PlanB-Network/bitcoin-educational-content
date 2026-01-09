@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Bukti Kerja adalah algoritma konsensus yang digunakan dalam jaringan Bitcoin
   untuk memvalidasi transaksi dan menciptakan blok baru. Ini mengharuskan penambang untuk menyelesaikan masalah matematika yang kompleks, memastikan keamanan dan integritas jaringan.
-reviewed: false
+reviewed: true

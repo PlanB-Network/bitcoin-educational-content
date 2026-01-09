@@ -83,7 +83,7 @@ license: CC-BY-SA-V4
 # - urgency: level of urgency from 1 (low urgency) to X (high urgency)
 # - contributor_names: list of contributors PBN ids
 # - reward: amount of sats available for reward
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 original_language: en
 proofreading:

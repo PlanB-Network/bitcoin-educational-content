@@ -1,0 +1,8 @@
+question: When performing database operations in SQL, which command combination allows you to both retrieve specific user records and simultaneously modify their data within the same transaction?
+answer: You cannot combine SELECT and UPDATE in a single command; they must be executed as separate statements
+wrong_answers:
+  - SELECT...UPDATE allows you to query and modify data simultaneously in one statement
+  - UPDATE...WHERE automatically returns the modified records like a SELECT statement
+  - INSERT...SELECT...UPDATE enables querying, adding, and modifying data in one operation
+explanation: |
+  SQL commands are designed with specific, distinct purposes and cannot be combined into hybrid operations. SELECT retrieves data, UPDATE modifies existing data, INSERT adds new data, and DELETE removes data - each requires its own separate statement. While you can use subqueries or execute multiple statements in sequence within a transaction, there is no single command that performs both selection and modification simultaneously. This separation of concerns is fundamental to SQL's structured design and helps prevent accidental data corruption.

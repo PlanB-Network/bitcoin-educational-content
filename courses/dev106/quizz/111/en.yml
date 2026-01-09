@@ -1,0 +1,8 @@
+question: What is the correct sequence of steps when implementing JWT authentication in an Express application for the first time?
+answer: Install required packages (jsonwebtoken, bcryptjs, dotenv), import dependencies, create token generation function, set up environment variables
+wrong_answers:
+  - Create token generation function, install required packages, set up environment variables, import dependencies into the application
+  - Set up environment variables, create token generation function, install required packages, import dependencies into the router files
+  - Import dependencies, set up environment variables, install required packages, create token generation function with payload and options
+explanation: |
+  The correct implementation sequence starts with installing the necessary packages (jsonwebtoken for JWT handling, bcryptjs for password hashing, and dotenv for environment management), then importing these dependencies into your router files, followed by creating the token generation function with proper payload and options configuration, and finally setting up environment variables to store sensitive data like JWT secrets. This order ensures all dependencies are available before use and follows proper security practices by establishing environment variable management last to protect sensitive configuration data.

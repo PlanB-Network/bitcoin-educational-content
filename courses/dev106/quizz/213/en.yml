@@ -1,0 +1,8 @@
+question: What is the most critical security consideration when configuring automatic deployments with the 'Wait for CI to pass' option enabled?
+answer: Ensuring CI tests include comprehensive security validations before allowing production deployment
+wrong_answers:
+  - Configuring the deployment to only trigger during specific time windows to avoid peak traffic
+  - Setting up multiple staging environments to distribute the deployment load across different servers
+  - Implementing rollback mechanisms that automatically revert changes if deployment takes too long
+explanation: |
+  When automatic deployments are enabled with 'Wait for CI to pass', the CI pipeline becomes the gatekeeper for production releases. Since every push to main triggers deployment automatically, the CI tests must include thorough security validations, dependency vulnerability scans, and code quality checks to prevent insecure code from reaching production. The other options focus on performance or operational concerns but miss the critical security aspect of automated deployment pipelines.

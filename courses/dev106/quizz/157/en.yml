@@ -1,0 +1,8 @@
+question: When designing a Lightning wallet database schema, why should the payment_request field in the Invoices table have a UNIQUE constraint?
+answer: Lightning invoices are cryptographically unique identifiers that should never be duplicated to prevent double-spending and maintain payment integrity
+wrong_answers:
+  - The UNIQUE constraint improves database query performance by creating an automatic index on the payment_request field
+  - Lightning Network protocol requires unique constraints on all text fields to ensure proper node synchronization across the network
+  - Database normalization rules mandate that any field longer than 255 characters must have a UNIQUE constraint for optimal storage
+explanation: |
+  Lightning payment requests are cryptographically generated unique identifiers that represent specific payment obligations. Each invoice contains unique cryptographic data including payment hashes, amounts, and routing information. Allowing duplicate payment requests could lead to serious issues like double-spending, payment confusion, or security vulnerabilities. The UNIQUE constraint ensures database integrity by preventing the same invoice from being stored multiple times, which is crucial for financial applications where payment accuracy is paramount.

@@ -1,0 +1,8 @@
+question: What is the primary reason JavaScript uses Promises and async/await when making network requests to APIs?
+answer: JavaScript is designed for speed and doesn't wait for network requests by default, so Promises handle asynchronous operations
+wrong_answers:
+  - JavaScript needs special permission from the browser to access external websites and APIs safely
+  - Network requests require additional security protocols that only Promises can provide to protect user data
+  - JavaScript must convert all network data to JSON format before it can be processed by the browser
+explanation: |
+  JavaScript is designed to be non-blocking and fast. When you make a network request, JavaScript immediately continues to the next line of code rather than waiting for the response. Promises provide a way to handle this asynchronous behavior, and async/await makes it easier to work with by allowing you to 'wait' for the data to arrive before proceeding. Without this system, your code would either freeze waiting for responses or try to use data that hasn't arrived yet.

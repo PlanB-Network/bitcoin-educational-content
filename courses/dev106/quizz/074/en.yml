@@ -1,0 +1,8 @@
+question: What is the primary purpose of modules in Node.js development?
+answer: To keep code organized, manageable, and enable reuse across different files
+wrong_answers:
+  - To automatically optimize code performance and reduce memory usage
+  - To provide direct database connectivity and handle SQL queries
+  - To compile JavaScript code into machine language for faster execution
+explanation: |
+  Modules are self-contained units of code that serve to keep code organized and manageable while enabling code reuse and sharing between files. They have their own variables and functions that can be imported and exported as needed. The wrong answers describe other programming concepts: performance optimization is handled by different tools, database connectivity requires specific database modules, and JavaScript is interpreted rather than compiled to machine code in Node.js.

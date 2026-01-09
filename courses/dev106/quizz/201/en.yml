@@ -1,0 +1,8 @@
+question: What is the most critical configuration oversight that could cause a Lightning wallet backend to lose all transaction history and user data after each Heroku dyno restart?
+answer: Using Heroku's built-in SQLite database without configuring a persistent external database service
+wrong_answers:
+  - "Failing to set the NODE_ENV environment variable to production mode in Heroku's config vars"
+  - "Not enabling automatic deploys from the GitHub repository in Heroku's deployment settings"
+  - "Forgetting to toggle the web dyno to ON status in Heroku's resources configuration panel"
+explanation: |
+  Heroku's built-in SQLite database is ephemeral and resets every 24 hours or whenever dynos restart, making it unsuitable for production applications that need persistent data storage. Lightning wallet applications require permanent storage of user accounts, transaction history, and payment records. The other options are configuration issues that affect functionality but don't cause data loss - NODE_ENV affects optimization settings, automatic deploys affect update processes, and web dyno status affects server availability but doesn't impact data persistence.

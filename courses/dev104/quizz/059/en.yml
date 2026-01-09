@@ -1,0 +1,8 @@
+question: Which combination of factors makes Vercel's automatic configuration particularly effective for React applications created with Create React App?
+answer: Framework detection, predefined build commands, and automatic output directory mapping work together seamlessly
+wrong_answers:
+  - Custom domain integration, manual build script configuration, and developer-specified deployment regions
+  - GitHub authentication, user-defined environment variables, and personalized CDN cache settings
+  - Repository size optimization, custom Node.js version selection, and manual dependency management
+explanation: |
+  Vercel's effectiveness stems from its intelligent automatic detection system that recognizes Create React App projects and automatically configures the correct build command (npm run build) and output directory (build/). This seamless integration eliminates manual configuration errors and ensures optimal deployment settings. The other options involve manual configurations or features that aren't part of the core automatic setup process.

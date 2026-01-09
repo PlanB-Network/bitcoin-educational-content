@@ -1,8 +1,8 @@
-question: When using the useEffect hook in a Bitcoin price component, what happens if you omit the dependency array entirely?
-answer: The effect runs after every render, potentially causing infinite API calls and performance issues
+question: Which media query approach would implement a mobile-first responsive design strategy for a navigation menu?
+answer: Start with mobile styles as default, then use min-width media queries to add desktop features
 wrong_answers:
-  - The effect runs only once when the component mounts, similar to having an empty dependency array
-  - The effect never runs because React requires an explicit dependency array to execute useEffect
-  - The effect runs only when the component unmounts, making it equivalent to a cleanup function
+  - Start with desktop styles as default, then use max-width media queries to remove features for mobile
+  - Use only max-width media queries with decreasing pixel values from largest to smallest screens
+  - Apply separate media queries for each device type using device-specific pixel dimensions
 explanation: |
-  Without a dependency array, useEffect runs after every render cycle. In a Bitcoin price component, this means if the effect updates state (like setting a new price), it triggers a re-render, which runs the effect again, creating an infinite loop. This differs from an empty array [] which runs once on mount, or an array with dependencies which runs only when those values change. Omitting the dependency array is rarely intentional and usually indicates a bug that will cause performance problems and excessive API calls.
+  Mobile-first design starts with styles for the smallest screens as the base CSS, then progressively enhances the design using min-width media queries as screen size increases. This approach is more efficient because mobile styles are typically simpler, and you build up complexity rather than stripping it down. The wrong answers represent desktop-first approaches or overly specific device targeting, which are less flexible and maintainable than the progressive enhancement strategy of mobile-first design.

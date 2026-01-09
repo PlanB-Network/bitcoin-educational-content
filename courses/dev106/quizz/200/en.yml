@@ -1,0 +1,8 @@
+question: What is the most critical security vulnerability when implementing input validation for Lightning Network payment amounts in frontend applications?
+answer: Client-side validation alone can be bypassed by malicious users who can modify requests directly
+wrong_answers:
+  - Using parseInt() instead of parseFloat() will cause precision errors in satoshi calculations
+  - Storing payment amounts in JavaScript variables exposes them to XSS attacks through DOM manipulation
+  - Validating amounts in real-time creates race conditions that can corrupt the Lightning Network state
+explanation: |
+  Client-side validation is purely cosmetic and can be easily bypassed by attackers who can modify HTTP requests directly using browser developer tools or API clients. While frontend validation improves user experience by providing immediate feedback, all critical validation must be performed on the server side where it cannot be circumvented. The other options describe technical issues but not fundamental security vulnerabilities - parseInt vs parseFloat is a precision issue, variable storage doesn't inherently expose data to XSS, and real-time validation doesn't create race conditions with the Lightning Network.

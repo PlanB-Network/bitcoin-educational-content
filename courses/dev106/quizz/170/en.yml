@@ -1,0 +1,8 @@
+question: When implementing a Lightning wallet database with Knex.js migrations, what is the most critical consideration for ensuring data integrity across invoice and user relationships?
+answer: Implementing foreign key constraints with proper references to maintain referential integrity between tables
+wrong_answers:
+  - Using auto-incrementing primary keys to ensure unique identification of all database records
+  - Setting timestamp fields with default values to track creation and settlement dates accurately
+  - Implementing unique constraints on payment_request fields to prevent duplicate invoice strings
+explanation: |
+  Foreign key constraints are essential for maintaining referential integrity in relational databases. In the Lightning wallet schema, the foreign key constraint on user_id ensures that every invoice must belong to a valid user, preventing orphaned records and maintaining data consistency. While unique constraints, timestamps, and primary keys are important database features, they don't address the critical relationship between tables. Without foreign key constraints, invoices could reference non-existent users, leading to data corruption and application errors when querying related data.

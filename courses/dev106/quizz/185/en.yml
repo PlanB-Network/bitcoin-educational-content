@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React frontend architecture, what is the most critical design flaw when implementing the handleSend function that attempts to pay Lightning invoices?
+answer: It lacks proper error handling differentiation between network failures, insufficient funds, and permission errors, only showing a generic admin permission alert
+wrong_answers:
+  - It fails to validate the payment_request format before sending it to the backend, potentially causing unnecessary API calls
+  - "It doesn't implement proper loading states during payment processing, creating poor user experience during network delays"
+  - It stores the payment result in component state instead of persisting it to localStorage for transaction history tracking
+explanation: |
+  The handleSend function demonstrates poor error handling architecture by catching all errors generically and only alerting about admin permissions. Real Lightning payment failures can occur due to routing issues, insufficient channel liquidity, invalid invoices, network connectivity problems, or actual permission restrictions. By lumping all these diverse failure modes into a single generic message about admin permissions, users cannot distinguish between temporary network issues (retry later) versus permanent restrictions (need different permissions) versus invalid input (fix the invoice). This creates confusion and prevents users from taking appropriate corrective action based on the actual failure reason.

@@ -1,0 +1,8 @@
+question: Which three environments are essential for a modern professional development workflow?
+answer: Local Environment, Remote Repository, and Production Environment
+wrong_answers:
+  - Development Environment, Testing Environment, and Staging Environment
+  - Frontend Environment, Backend Environment, and Database Environment
+  - Personal Environment, Team Environment, and Client Environment
+explanation: |
+  The three essential environments in modern development are Local Environment (your computer where you write and test code), Remote Repository (like GitHub where code is stored and shared), and Production Environment (live servers where users access your application). These three work together to create a complete development workflow from coding to deployment. While testing and staging environments are useful, they are not among the three essential environments outlined. Frontend/backend divisions are architectural concerns, not environmental ones, and personal/team/client divisions relate to stakeholders rather than technical environments.

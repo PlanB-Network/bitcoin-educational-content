@@ -1,0 +1,8 @@
+question: When implementing an invoice event stream in an LND application, what parameters should be set to ensure you receive notifications for all historical and future invoice events?
+answer: Set both add_index and settle_index to 0 to start from the beginning of invoice history
+wrong_answers:
+  - Set add_index to -1 and settle_index to current timestamp to get all events
+  - Set both add_index and settle_index to null to enable automatic event detection
+  - "Set add_index to 'latest' and settle_index to 'all' to capture complete event stream"
+explanation: |
+  The subscribeInvoices method requires add_index and settle_index parameters to determine where to start reading invoice events. Setting both to 0 tells LND to start from the very beginning of both invoice creation history (add_index) and settlement history (settle_index). This ensures you receive notifications for all past and future invoice events. The other options use invalid parameter values - LND expects numeric indices, not strings like 'latest' or 'all', null values, or negative numbers for timestamps.

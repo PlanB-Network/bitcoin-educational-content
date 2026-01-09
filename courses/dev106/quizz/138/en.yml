@@ -1,0 +1,8 @@
+question: In a Lightning Network application, what is the key difference between local_balance and remote_balance in channel balance information?
+answer: local_balance represents satoshis you can send, while remote_balance represents satoshis you can receive
+wrong_answers:
+  - local_balance shows your on-chain Bitcoin, while remote_balance shows your Lightning Network funds
+  - local_balance indicates pending transactions, while remote_balance shows confirmed channel capacity
+  - "local_balance displays your node's total capacity, while remote_balance shows the peer's total capacity"
+explanation: |
+  In Lightning Network channels, local_balance specifically refers to the amount of satoshis on your side of the channel that you can spend or send to others. Remote_balance represents the satoshis on the other party's side of the channel, which determines how much you can potentially receive. This is fundamentally different from on-chain balances, pending transactions, or total node capacities. Understanding this distinction is crucial for Lightning applications because it determines payment capabilities and liquidity management. The sum of local_balance and remote_balance equals the total channel capacity.

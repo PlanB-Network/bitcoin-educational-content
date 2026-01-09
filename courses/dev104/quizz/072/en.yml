@@ -1,0 +1,8 @@
+question: When building a Lightning wallet in React that requires secure key management and payment processing, which fundamental security consideration must be addressed during the initial project setup phase?
+answer: Private keys must never be stored in browser localStorage or sessionStorage due to XSS vulnerability exposure
+wrong_answers:
+  - Payment channels should be automatically opened with maximum capacity to ensure optimal routing performance
+  - All Lightning Network operations should be performed client-side to minimize server dependency and latency
+  - Invoice generation must be handled exclusively through third-party services to maintain regulatory compliance
+explanation: |
+  Private key security is paramount in Lightning wallet development. Browser storage mechanisms like localStorage and sessionStorage are vulnerable to XSS attacks, making them unsuitable for sensitive cryptographic material. Proper key management requires secure storage solutions, hardware security modules, or server-side key custody with proper authentication. The other options are incorrect: payment channels should be opened based on actual usage needs, not maximum capacity; Lightning operations often require backend services for security; and invoice generation can be handled locally with proper key management.

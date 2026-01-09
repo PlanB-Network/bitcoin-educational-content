@@ -1,0 +1,8 @@
+question: Which Express response object method would you use to send the client to a different URL endpoint?
+answer: res.redirect()
+wrong_answers:
+  - res.status()
+  - res.json()
+  - res.send()
+explanation: |
+  The res.redirect() method is specifically designed to redirect the client's browser to a different URL or endpoint. When called, it sends an HTTP redirect response (typically with status code 302) that tells the browser to navigate to the specified location. The other methods serve different purposes: res.status() sets the HTTP status code, res.json() sends JSON data as a response, and res.send() sends a general response body. Only res.redirect() actually causes the client to navigate to a new location.

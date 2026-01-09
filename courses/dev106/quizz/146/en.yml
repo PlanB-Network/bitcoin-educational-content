@@ -1,0 +1,8 @@
+question: In the Pleb Wallet schema design, what is the primary purpose of the 'send' boolean field in the Invoices table?
+answer: To distinguish between incoming invoices (receive payments) and outgoing payments (send payments)
+wrong_answers:
+  - To indicate whether the invoice has been successfully transmitted to the Lightning network
+  - To determine if the invoice requires additional routing fees before processing the payment
+  - To mark whether the invoice data should be sent to external monitoring services
+explanation: |
+  The 'send' boolean field serves as a critical identifier in Lightning wallet applications to differentiate between two fundamental types of transactions. When 'send' is false, it represents an incoming invoice created by the user to receive payments from others. When 'send' is true, it represents an outgoing payment where the user is paying someone else's invoice. This distinction is essential because these two transaction types require different handling, display differently in the user interface, and affect the wallet balance in opposite ways. The other options incorrectly suggest technical transmission status, fee requirements, or external service integration, which are handled by different fields and processes in the schema.

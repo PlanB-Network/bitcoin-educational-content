@@ -1,0 +1,8 @@
+question: What is the primary benefit of adding VS Code to your system PATH during installation?
+answer: It allows you to open VS Code from the terminal using the 'code' command
+wrong_answers:
+  - It enables automatic synchronization of settings across multiple devices
+  - It allows VS Code to automatically install required extensions for your projects
+  - It provides access to IntelliSense features for JavaScript code completion
+explanation: |
+  Adding VS Code to PATH creates a command-line shortcut that lets you open the editor from any terminal location using 'code' followed by a file or folder path. This streamlines the development workflow by eliminating the need to manually navigate through the file system or drag-and-drop folders. The other options describe different VS Code features: settings sync requires signing in with a GitHub account, extensions must be manually installed from the marketplace, and IntelliSense is a built-in code intelligence feature that works regardless of PATH configuration.

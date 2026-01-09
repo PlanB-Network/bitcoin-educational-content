@@ -1,0 +1,8 @@
+question: What is the correct sequence of steps that occurs when a user makes a request to a protected endpoint with a valid JWT token?
+answer: Token is extracted from Authorization header, verified with JWT secret, and next() is called to proceed to the endpoint
+wrong_answers:
+  - Token is verified first, then extracted from Authorization header, and finally next() is called to proceed
+  - Authorization header is checked for existence, token is decoded without verification, and next() is called immediately
+  - JWT secret is retrieved, token is extracted and stored in database, then next() is called to proceed
+explanation: |
+  The authentication middleware follows a specific sequence: first, it extracts the token from the Authorization header, then uses jwt.verify() to validate the token against the JWT secret, and finally calls next() to pass control to the next middleware or endpoint. The other options either have the steps in wrong order, skip crucial verification steps, or include unnecessary operations like database storage that aren't part of the authentication flow.

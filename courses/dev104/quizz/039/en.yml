@@ -1,0 +1,8 @@
+question: When implementing error handling in a Bitcoin wallet application using try/catch blocks with async functions, what is the most important reason for providing fallback values when API calls fail?
+answer: To prevent the entire application from breaking and ensure users can still interact with basic wallet functionality even when external services are unavailable
+wrong_answers:
+  - To automatically retry the failed API request with exponential backoff until it succeeds or reaches maximum retry attempts
+  - To immediately redirect users to an alternative API endpoint that provides the same data with better reliability and performance
+  - To store the error details in local storage for debugging purposes and send automated error reports to the development team
+explanation: |
+  Providing fallback values in error handling is crucial for maintaining application stability and user experience. When external APIs fail (like Bitcoin price feeds or Lightning Network services), fallback values ensure the wallet remains functional rather than crashing or displaying broken states. This allows users to continue using core features while the app gracefully handles service interruptions. The other options describe specific error recovery strategies but miss the fundamental purpose of preventing application failure and maintaining basic functionality.

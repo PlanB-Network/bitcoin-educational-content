@@ -1,0 +1,8 @@
+question: When implementing environment-specific configurations for a Lightning wallet deployment, what is the most critical reason for using different log levels across development, staging, and production environments?
+answer: To balance debugging capabilities with performance and security, preventing sensitive information exposure in production while maintaining detailed logs for development
+wrong_answers:
+  - To ensure that all environments use identical logging formats for consistency across the deployment pipeline and easier log aggregation
+  - To reduce database storage costs by limiting log entries in production while allowing unlimited logging in development and staging environments
+  - To comply with regulatory requirements that mandate different logging standards for each deployment environment in financial applications
+explanation: |
+  Different log levels serve crucial security and performance purposes. Development uses 'debug' level for comprehensive troubleshooting, staging uses 'info' for moderate detail during testing, and production uses 'error' level to minimize performance impact and prevent sensitive data exposure. This graduated approach protects user privacy and system security while maintaining operational visibility. The other options incorrectly focus on format consistency, cost reduction, or regulatory compliance rather than the fundamental security and performance trade-offs.

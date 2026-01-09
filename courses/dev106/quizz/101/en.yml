@@ -1,0 +1,8 @@
+question: In Express.js middleware, what happens when a middleware function calls next() with an argument passed to it?
+answer: It triggers error handling middleware and skips all remaining regular middleware functions
+wrong_answers:
+  - It passes the argument as data to the next middleware function in the chain
+  - It terminates the request-response cycle and sends the argument as the response
+  - It logs the argument to the console and continues to the next middleware normally
+explanation: |
+  When next() is called with any argument in Express middleware, it signals that an error has occurred and immediately jumps to error handling middleware, bypassing all remaining regular middleware functions. This is Express's built-in error handling mechanism. The other options are incorrect: next() doesn't pass data between middleware (that's done through req/res objects), doesn't send responses automatically, and doesn't perform logging operations.

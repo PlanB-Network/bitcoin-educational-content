@@ -1,0 +1,8 @@
+question: When building a pleb-wallet API with Express Router, which sequence of steps correctly implements the modular routing structure?
+answer: Create router files, define routes with express.Router(), export routers, import and use them in index.js with server.use()
+wrong_answers:
+  - Import express.Router() in index.js, define all routes directly, then separate them into files using module.exports
+  - Create router files, define routes with app.Router(), import them in index.js, then export the entire server module
+  - Define routes in index.js first, test them with Insomnia, then move working routes to separate router files
+explanation: |
+  The correct implementation sequence follows Express Router best practices: first create separate router files, then use express.Router() to create router instances and define routes within each file, export these routers using module.exports, and finally import them in index.js using require() and mount them with server.use(). The wrong answers either use incorrect methods (app.Router() doesn't exist), suggest improper workflow (defining routes in main file first), or mix up the import/export process.

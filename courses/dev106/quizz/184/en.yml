@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React frontend, what is the most significant architectural risk of using periodic polling with setInterval to fetch wallet balances, transaction history, and Bitcoin prices every 30 seconds?
+answer: Resource accumulation and memory leaks if components unmount without properly clearing intervals using the cleanup function
+wrong_answers:
+  - API rate limiting violations causing permanent service blocking due to excessive requests to external Bitcoin price endpoints
+  - State synchronization conflicts when multiple users access the same wallet simultaneously leading to balance inconsistencies
+  - JWT token expiration during polling cycles causing authentication failures that require immediate user re-login
+explanation: |
+  The correct answer identifies the critical memory management issue in React applications. When using setInterval, failing to clear intervals in the cleanup function (return () => clearInterval(interval)) can cause intervals to continue running even after components unmount, leading to memory leaks and resource accumulation. The wrong answers, while plausible concerns, are not the primary architectural risk: API rate limiting is typically handled gracefully, state conflicts don't occur with single-user wallets, and JWT expiration is managed separately from polling mechanisms.

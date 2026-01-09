@@ -1,0 +1,8 @@
+question: When testing a Lightning wallet deployment with separate admin and regular user permissions, what is the most critical verification step to confirm the security model is properly implemented?
+answer: Attempting to send a Lightning payment as a regular user and verifying it fails with a 401 unauthorized error
+wrong_answers:
+  - Confirming that regular users can generate Lightning invoices and receive payments without restrictions
+  - Verifying that admin users can successfully create invoices and receive payments through the frontend interface
+  - Testing that both user types can view their transaction history and wallet balance in the application
+explanation: |
+  The most critical security verification is testing that regular users cannot perform admin-only operations like sending payments. This confirms the permission system is working correctly - if regular users could send payments, it would represent a major security flaw. The other options test normal functionality that both user types should have access to, rather than testing the security boundaries between different permission levels.

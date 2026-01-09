@@ -1,0 +1,8 @@
+question: What HTTP status code and response structure should be returned when a request is made to a protected endpoint without providing any authorization token?
+answer: Status 401 with a JSON object containing a message property indicating no token was provided
+wrong_answers:
+  - Status 403 with a JSON object containing an error property indicating insufficient permissions
+  - Status 400 with a JSON object containing a validation property indicating malformed request headers
+  - Status 500 with a JSON object containing a server property indicating internal authentication failure
+explanation: |
+  When no authorization token is provided, both authentication middleware functions return a 401 Unauthorized status code with a JSON response containing a message property (specifically 'No token!'). Status 403 is for forbidden access when authenticated but lacking permissions, 400 is for bad requests with malformed data, and 500 is for server errors, none of which apply to missing authentication tokens.

@@ -1,0 +1,8 @@
+question: Which Lightning implementation characteristic makes LDK (Lightning Development Kit) most suitable for companies wanting to integrate Lightning payments into their existing wallet infrastructure?
+answer: Its modular, customizable toolkit architecture that allows building custom Lightning implementations
+wrong_answers:
+  - Its extensive documentation and great developer experience compared to other implementations
+  - Its optimized performance and reliability with a flexible plugin system for extensions
+  - Its highly scalable architecture with enterprise-level features and mobile SDK support
+explanation: |
+  LDK is specifically designed as a modular, customizable toolkit written in Rust that focuses on safety and performance for building custom Lightning implementations and wallet integration. While LND offers extensive documentation, Core Lightning provides optimized performance with plugins, and Eclair delivers scalability with enterprise features, LDK's unique value proposition is its toolkit nature that allows developers to integrate Lightning functionality into existing applications rather than running a full Lightning node. This modular approach makes it ideal for wallet developers who want to embed Lightning capabilities without the overhead of managing a complete Lightning implementation.

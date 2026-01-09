@@ -1,0 +1,8 @@
+question: What HTTP status code should be returned when a client requests a resource that doesn't exist on the server?
+answer: 404 Not Found
+wrong_answers:
+  - 400 Bad Request
+  - 403 Forbidden
+  - 401 Unauthorized
+explanation: |
+  404 Not Found is the correct status code when a requested resource doesn't exist on the server. This indicates that the server cannot find the requested resource, such as when accessing a non-existent endpoint or user ID. 400 Bad Request is used for invalid request data, 403 Forbidden means access is denied to an existing resource, and 401 Unauthorized indicates authentication is required.

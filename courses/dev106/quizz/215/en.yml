@@ -1,0 +1,8 @@
+question: When a Lightning wallet health check endpoint returns a status of 'unhealthy' with a 500 HTTP status code, what is the most likely underlying cause based on the implementation pattern?
+answer: Either the database connection failed or the Lightning node connection failed during the health verification process
+wrong_answers:
+  - The health check endpoint is being called too frequently and has triggered a rate limiting mechanism
+  - "The server's memory usage has exceeded the allocated threshold causing the application to reject new requests"
+  - The health check endpoint lacks proper authentication headers required for accessing system status information
+explanation: |
+  The health check implementation uses a try-catch block that specifically tests database connectivity with 'knex.raw('SELECT 1')' and Lightning node connectivity with 'lnd.getInfo({})'. When either of these operations fails, the catch block executes and returns a 500 status with 'unhealthy' status. The other options are incorrect because rate limiting, memory issues, and authentication are not part of this specific health check implementation pattern.

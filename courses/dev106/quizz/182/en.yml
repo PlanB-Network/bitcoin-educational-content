@@ -1,0 +1,8 @@
+question: What is the primary architectural advantage of using the clearForm() function in the PaymentsModal component when closing modals or completing transactions?
+answer: It prevents state pollution by ensuring previous transaction data doesn't interfere with new operations
+wrong_answers:
+  - It automatically saves transaction history to localStorage for offline access and data persistence
+  - It triggers immediate balance updates by forcing the parent component to refresh all Lightning data
+  - It validates all form inputs and prevents users from submitting incomplete payment requests
+explanation: |
+  The clearForm() function serves a critical state management purpose by resetting component state variables (amount, invoice, paymentRequest, paymentResult) to their initial values. This prevents data from previous transactions from persisting in the modal when users open it again, ensuring each new transaction starts with a clean slate. Without this cleanup, users might see old invoice data or payment results when creating new transactions, leading to confusion and potential errors. The other options are incorrect: clearForm() doesn't handle localStorage operations, doesn't trigger parent component updates, and doesn't perform input validation - it purely manages local component state cleanup.

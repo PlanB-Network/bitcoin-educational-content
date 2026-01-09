@@ -1,0 +1,8 @@
+question: According to the chapter, what is the main challenge that Polar is designed to solve for Lightning developers?
+answer: Providing a safe development environment for testing without risking real money
+wrong_answers:
+  - Managing Lightning liquidity and opening channels with sufficient capacity
+  - Hosting and maintaining Lightning nodes in production environments
+  - Simplifying gRPC communication between applications and Lightning nodes
+explanation: |
+  Polar is specifically mentioned as a solution for the "Development Environment" challenge, which is creating a safe environment for testing Lightning applications without using real money. While the other options represent legitimate Lightning development challenges mentioned in the chapter, they have different solutions: liquidity is addressed by services like FLOW and Magma, node hosting by Voltage and Umbrel, and gRPC communication by wrapper libraries like LND-GRPC. Polar's primary purpose is to provide developers with a controlled testing environment where they can experiment with Lightning functionality using fake money.

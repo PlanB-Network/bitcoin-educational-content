@@ -1,0 +1,8 @@
+question: In a relational database design, what is the primary mechanism that ensures referential integrity between related tables?
+answer: Foreign key constraints that enforce valid references between tables
+wrong_answers:
+  - Primary key auto-increment sequences that prevent duplicate records
+  - SQL transaction isolation levels that maintain data consistency
+  - Table indexes that optimize query performance across relationships
+explanation: |
+  Foreign key constraints are the primary mechanism for ensuring referential integrity in relational databases. They enforce that foreign key values must reference valid primary keys in related tables, preventing orphaned records and maintaining data consistency across relationships. Primary keys ensure uniqueness within a table but don't enforce relationships. Transaction isolation levels manage concurrent access but don't validate references. Indexes improve performance but don't enforce data integrity rules.

@@ -1,8 +1,8 @@
-question: In a mobile-first responsive design approach, which media query would you use to apply styles specifically for tablet screens and larger devices?
-answer: @media (min-width: 768px)
+question: Which HTML attribute is used to create a unique identifier for an element that can be used for anchor links?
+answer: id
 wrong_answers:
-  - @media (max-width: 768px)
-  - @media (width: 768px)
-  - @media (min-height: 768px)
+  - class
+  - name
+  - href
 explanation: |
-  Mobile-first design starts with styles for the smallest screens, then uses min-width media queries to progressively enhance for larger devices. @media (min-width: 768px) applies styles to screens 768px and wider, covering tablets and desktops. The max-width option targets smaller screens instead, width targets only exactly 768px, and min-height relates to screen height rather than the standard responsive breakpoint approach.
+  The 'id' attribute creates a unique identifier for HTML elements and is specifically used for anchor links to navigate within a page. When you create a link like <a href='#section1'>, it targets an element with id='section1'. The 'class' attribute is used for categorization and CSS styling, 'name' is used to pass form data to servers, and 'href' specifies the destination URL for links but doesn't identify the target element itself.

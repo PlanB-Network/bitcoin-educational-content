@@ -1,0 +1,8 @@
+question: In a Lightning wallet database schema with foreign key constraints, what happens when you attempt to insert an invoice record with a user_id that doesn't exist in the Users table?
+answer: The database will reject the insert operation and return a foreign key constraint violation error
+wrong_answers:
+  - The database will automatically create a new user record with the specified user_id
+  - The invoice will be inserted successfully but with a NULL value in the user_id field
+  - The database will insert the invoice and set the user_id to the primary key of the first user
+explanation: |
+  Foreign key constraints enforce referential integrity by ensuring that foreign key values must exist in the referenced table. When you try to insert an invoice with a non-existent user_id, the database validates this constraint and rejects the operation to maintain data consistency. This prevents orphaned records and ensures every invoice is properly linked to a valid user, which is crucial for Lightning wallet functionality where invoices must belong to authenticated users.

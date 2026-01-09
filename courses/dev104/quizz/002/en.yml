@@ -1,8 +1,8 @@
-question: What is the primary purpose of HTML according to the chapter?
-answer: To instruct web browsers how to display content on a web page
+question: What is the main difference between block elements and inline elements in HTML?
+answer: Block elements cover the full width of the page and force new lines, while inline elements have variable width and can appear side by side
 wrong_answers:
-  - To perform calculations and process data like a programming language
-  - To store and manage data in databases for web applications
-  - To create interactive animations and visual effects on websites
+  - Block elements are used for text content while inline elements are used for images and multimedia content only
+  - Block elements can only contain other block elements while inline elements can only contain text and no other elements
+  - Block elements are displayed in red boxes while inline elements are displayed in yellow boxes by default
 explanation: |
-  HTML (HyperText Markup Language) is specifically defined as a markup language that tells web browsers how to display images, text, and other content. The chapter explicitly states that HTML is not a programming language since it cannot perform calculations - it simply provides instructions for content display. The other options describe functions of programming languages, database systems, or JavaScript/CSS, which are different technologies with distinct purposes from HTML's core role of structuring and presenting web content.
+  Block elements like div, p, and headings take up the full width available and create line breaks before and after themselves, stacking vertically. Inline elements like span, a, and img only take up as much width as their content needs and can sit next to each other on the same line. The other options are incorrect because both element types can contain various content, nesting rules are more complex than described, and elements have no default colored boxes.

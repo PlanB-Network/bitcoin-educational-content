@@ -1,0 +1,8 @@
+question: What is the primary advantage of React's Virtual DOM when building a Bitcoin wallet that updates prices every 5 seconds?
+answer: React compares virtual DOM snapshots and updates only the elements that actually changed, making frequent updates efficient
+wrong_answers:
+  - React creates a backup copy of the DOM in case the browser crashes during Bitcoin price fluctuations
+  - React stores the DOM in virtual memory to prevent hackers from accessing sensitive wallet information
+  - React converts the entire DOM to JavaScript objects to make Bitcoin price calculations faster in memory
+explanation: |
+  The Virtual DOM's key benefit is efficient diffing - React maintains a lightweight JavaScript representation of the DOM, compares snapshots when data changes, and updates only what's necessary. This prevents expensive full page re-renders when Bitcoin prices update frequently. The wrong answers confuse Virtual DOM with backup systems, security measures, or performance optimizations unrelated to selective DOM updates.

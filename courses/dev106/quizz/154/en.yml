@@ -1,0 +1,8 @@
+question: Which SQL command combination would be most appropriate for a developer who needs to first check if specific user records exist in a Lightning wallet database, then add new transaction records only for those verified users?
+answer: SELECT to verify user existence, then INSERT with WHERE conditions to add transaction records
+wrong_answers:
+  - UPDATE to modify user status, then CREATE to establish new transaction tables
+  - DELETE to remove invalid users, then ALTER to add transaction columns to existing tables
+  - DROP to clear old data, then INSERT to rebuild both user and transaction information
+explanation: |
+  The correct approach uses SELECT to query and verify existing user records, followed by INSERT with conditional logic to add new transaction data only for verified users. This preserves data integrity while adding new records. The wrong answers either modify existing data unnecessarily (UPDATE), remove data when verification is needed (DELETE), or involve destructive operations (DROP) that would eliminate the very data needed for verification.

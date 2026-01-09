@@ -1,8 +1,8 @@
-question: What is the fundamental difference between how arrays and objects store and access data in JavaScript?
-answer: Arrays use numeric indexes starting from 0 and maintain order, while objects use key-value pairs without guaranteed order
+question: What CSS property ensures that borders and padding are included in element width calculations?
+answer: box-sizing: border-box
 wrong_answers:
-  - Arrays store strings only while objects can store any data type including numbers and functions
-  - Arrays are mutable and can be changed after creation, while objects are immutable and cannot be modified
-  - Arrays use dot notation for access while objects require bracket notation with numeric indexes
+  - width: border-box
+  - padding: border-box
+  - margin: border-box
 explanation: |
-  Arrays are ordered collections accessed by numeric indexes (fruits[0], fruits[1]) and preserve the sequence of elements. Objects store data as key-value pairs accessed by keys (fruits['red fruit']) and browsers may reorder properties. This distinction is crucial for choosing the right data structure: arrays for ordered lists like transaction histories, objects for structured data like API responses with named properties.
+  The box-sizing property with the value 'border-box' ensures that when you set a width on an element, that width includes the padding and border, not just the content area. This makes layout calculations much more predictable. The other options are incorrect because 'width' sets the actual width value, 'padding' controls spacing inside elements, and 'margin' controls spacing outside elements - none of these properties control how the box model calculates total element dimensions.

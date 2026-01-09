@@ -1,0 +1,8 @@
+question: When setting up LND connection credentials in a Node.js application, what is the most critical security practice mentioned for protecting admin macaroons?
+answer: Never commit credentials to version control systems like Git
+wrong_answers:
+  - Store macaroons in encrypted database tables with hashed passwords
+  - Use HTTPS encryption when transmitting macaroon data over networks
+  - Rotate macaroon credentials every 24 hours using automated scripts
+explanation: |
+  The chapter explicitly warns that macaroon credentials provide full admin access to your Lightning node and should never be committed to version control. This is critical because version control systems maintain history and can expose sensitive credentials to anyone with repository access. While the other options represent good security practices in general, they are not the specific security concern highlighted in the material. The chapter emphasizes using environment variables in .env files specifically to keep these powerful credentials out of your codebase and version control history.

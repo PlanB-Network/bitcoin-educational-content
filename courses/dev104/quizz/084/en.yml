@@ -1,0 +1,8 @@
+question: When planning the component hierarchy for a React Lightning wallet, what is the most effective strategy for organizing the MainContent section to handle both transaction history and real-time price data?
+answer: Create separate Transactions and Chart components as siblings under MainContent to maintain clear separation of concerns while sharing parent state
+wrong_answers:
+  - Embed the Chart component inside the Transactions component to create a nested hierarchy that groups all financial data together
+  - Place both transaction and chart logic directly in MainContent component to avoid unnecessary component fragmentation and prop drilling
+  - Create a single TransactionChart component that handles both functionalities to reduce the overall number of components in the hierarchy
+explanation: |
+  The correct approach maintains separation of concerns by creating distinct Transactions and Chart components as siblings under MainContent. This allows each component to focus on its specific responsibility while receiving shared state from their common parent. The wrong approaches either create unnecessary coupling (embedding Chart in Transactions), violate component-based principles (putting everything in MainContent), or combine unrelated functionalities (TransactionChart), which would make the code harder to maintain and test.

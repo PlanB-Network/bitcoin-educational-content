@@ -1,0 +1,8 @@
+question: What is the primary advantage of Vercel's Global CDN feature for a React application deployed to production compared to traditional single-server hosting?
+answer: Content is distributed across multiple geographic locations, reducing latency by serving users from the nearest server
+wrong_answers:
+  - Application code is automatically optimized and compressed only when served through multiple data centers
+  - Database queries are cached globally, eliminating the need for redundant API calls across different regions
+  - Server-side rendering is performed simultaneously across all locations, improving SEO rankings worldwide
+explanation: |
+  Vercel's Global CDN distributes your application's static assets and content across multiple geographic locations worldwide. When users access your React app, they receive content from the server closest to their location, significantly reducing loading times and improving user experience. The wrong answers incorrectly describe CDN functionality - CDNs don't optimize code differently based on location, don't cache database queries (that's application-level caching), and don't perform server-side rendering across locations simultaneously.

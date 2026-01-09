@@ -1,0 +1,8 @@
+question: When implementing error handling for Lightning Network payments in a React application, what is the most critical security consideration for API key management?
+answer: Store API keys in environment variables and never commit them to version control repositories
+wrong_answers:
+  - Encrypt API keys directly in the component state and decrypt them during runtime execution
+  - "Hash API keys using SHA-256 before storing them in the application's local storage"
+  - "Rotate API keys every 24 hours and store the current key in the browser's session storage"
+explanation: |
+  API keys must be stored in environment variables to prevent exposure in source code repositories, which could lead to unauthorized access to Lightning wallets. The wrong answers are flawed because: encrypting in component state still exposes keys in bundled code, hashing API keys would make them unusable for authentication, and storing keys in browser storage exposes them to XSS attacks and makes them accessible to malicious scripts.

@@ -1,0 +1,8 @@
+question: What is the primary purpose of the dependency array in React's useEffect hook?
+answer: To control when the effect runs by specifying which values it depends on
+wrong_answers:
+  - To define which state variables can be updated within the effect function
+  - To list all the components that will be re-rendered when the effect executes
+  - To specify the order in which multiple effects should run in the component
+explanation: |
+  The dependency array in useEffect controls when the effect runs by telling React which values to watch for changes. When any value in the dependency array changes, React re-runs the effect. An empty array means the effect runs only once after the component mounts, while no array means it runs after every render. The other options are incorrect because the dependency array doesn't control state updates, component re-rendering order, or effect execution sequence - it solely determines the conditions under which the effect should be triggered.

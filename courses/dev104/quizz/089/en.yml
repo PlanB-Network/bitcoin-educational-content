@@ -1,0 +1,8 @@
+question: In the React Lightning wallet implementation, what is the most critical reason for setting the loading state to false in the finally block rather than only in the catch block?
+answer: To ensure the loading spinner disappears regardless of whether the payment succeeds or fails, preventing permanent loading states
+wrong_answers:
+  - To prevent memory leaks by properly cleaning up the loading state variable before component unmounting
+  - To optimize performance by reducing the number of state updates when multiple payments are processed simultaneously
+  - "To maintain consistency with React's lifecycle methods and ensure proper component re-rendering after state changes"
+explanation: |
+  The finally block executes regardless of whether the try block succeeds or the catch block handles an error. By setting loading to false in finally, the UI spinner will always disappear after a payment attempt, whether successful or failed. If loading were only set to false in the catch block, successful payments would leave the spinner running indefinitely, creating a poor user experience and potentially blocking further interactions.

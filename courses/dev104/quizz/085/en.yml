@@ -1,0 +1,8 @@
+question: What is the most significant advantage of React's automatic UI updates over manual DOM manipulation when building Lightning wallet interfaces that handle real-time Bitcoin price changes and transaction updates?
+answer: React eliminates the risk of UI inconsistencies by automatically re-rendering components when underlying data changes, ensuring the interface always reflects the current state
+wrong_answers:
+  - React provides better performance by batching all DOM updates into a single operation that executes only when the user interacts with the interface
+  - React automatically validates all Lightning network data before updating the UI, preventing invalid transaction information from being displayed to users
+  - React creates immutable snapshots of the wallet state at each update, allowing users to roll back to previous versions if errors occur during transactions
+explanation: |
+  React's declarative nature means developers describe what the UI should look like for any given state, and React handles updating the DOM when state changes. This eliminates the manual, error-prone process of tracking which DOM elements need updates when Bitcoin prices change or new transactions arrive. The wrong answers describe features React doesn't provide: it doesn't automatically batch updates based on user interaction, doesn't validate Lightning network data, and doesn't create rollback snapshots.

@@ -1,0 +1,8 @@
+question: What is the primary architectural consequence of using Heroku's dyno containerization system for a Lightning wallet application that requires persistent state management?
+answer: Application state and file-based data are lost during dyno restarts, requiring external persistent storage solutions
+wrong_answers:
+  - "Dyno containers automatically scale horizontally but cannot handle Lightning network's real-time payment processing requirements"
+  - Container isolation prevents direct Lightning node communication, requiring complex proxy configurations for payment channels
+  - Dyno memory limitations restrict the number of concurrent Lightning invoices that can be processed simultaneously
+explanation: |
+  Heroku's dyno system uses ephemeral containers that reset periodically, losing any data stored in the local filesystem or application memory. This is particularly problematic for Lightning wallets that need to maintain persistent state for invoices, payments, and user data. The chapter specifically mentions this issue when discussing SQLite resetting every 24 hours, which is why external database solutions like Heroku Postgres are necessary for production deployments. The other options describe fictional limitations that don't actually exist in Heroku's architecture.

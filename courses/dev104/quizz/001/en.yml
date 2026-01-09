@@ -1,8 +1,8 @@
-question: What is the main difference between block elements and inline elements in HTML?
-answer: Block elements cover the full width of the page and force new lines before and after
+question: What happens when you visit a website in terms of how HTML content is delivered to your browser?
+answer: Your browser downloads the HTML document from a server and reads it to display the content
 wrong_answers:
-  - Block elements can only contain text while inline elements can contain images
-  - Block elements are faster to load while inline elements require more processing time
-  - Block elements are used for styling while inline elements are used for content structure
+  - The server processes the HTML code and sends only the final visual result to your browser
+  - "Your browser creates the HTML code locally based on the website's URL and domain name"
+  - "The HTML content is streamed directly from the website owner's computer to your browser"
 explanation: |
-  Block elements like <div>, <p>, and <h1> take up the full width available and create line breaks before and after themselves, causing them to stack vertically. Inline elements like <span>, <a>, and <img> only take up as much width as needed and can sit side by side on the same line. This fundamental difference affects how content flows and is positioned on a webpage, making it crucial for proper HTML layout and structure.
+  When you visit a website, the process involves your browser downloading the complete HTML document from the server where it's hosted. The browser then interprets this HTML code to display the content according to the markup instructions. The server doesn't process the HTML into a visual format - it sends the raw HTML code. Browsers don't generate HTML from URLs alone, and websites aren't typically hosted on personal computers but on dedicated servers.

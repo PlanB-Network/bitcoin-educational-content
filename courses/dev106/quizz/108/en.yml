@@ -1,0 +1,8 @@
+question: Which middleware component is responsible for automatically adding security headers like X-XSS-Protection and X-Frame-Options to HTTP responses?
+answer: Helmet middleware
+wrong_answers:
+  - Morgan middleware
+  - CORS middleware
+  - Express rate-limit middleware
+explanation: |
+  Helmet middleware is specifically designed to enhance security by automatically adding various HTTP security headers to responses, including X-XSS-Protection, X-Frame-Options, X-Content-Type-Options, and Strict-Transport-Security. Morgan middleware handles logging of HTTP requests, CORS middleware manages cross-origin resource sharing policies, and express-rate-limit middleware controls request frequency to prevent abuse. Only Helmet focuses on adding these protective security headers that help prevent common web vulnerabilities like XSS attacks and clickjacking.

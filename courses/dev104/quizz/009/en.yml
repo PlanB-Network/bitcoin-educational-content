@@ -1,8 +1,8 @@
-question: What happens when two CSS properties with the same name are declared for the same element within a single CSS rule?
-answer: The second property overwrites the first due to CSS cascade reading top to bottom
+question: Which HTML element contains document metadata and is not visible to users on the webpage?
+answer: <head>
 wrong_answers:
-  - Both properties are combined and applied together creating a merged effect
-  - The first property takes precedence and the second property is ignored completely
-  - A CSS error occurs and neither property is applied to the element
+  - <body>
+  - <meta>
+  - <title>
 explanation: |
-  CSS follows the cascade principle, reading rules from top to bottom within the same selector. When duplicate properties exist, the last one declared overwrites previous ones. This behavior is intentional and useful for creating fallbacks or specific overrides, like setting a general margin and then overriding margin-bottom. The other options are incorrect because CSS doesn't merge duplicate properties, doesn't give precedence to the first declaration, and doesn't throw errors for duplicate properties.
+  The <head> element is the correct answer because it serves as the container for all document metadata that is not displayed to users on the webpage itself. While <body> contains the visible content, <meta> is just one type of metadata element that goes inside <head>, and <title> is also metadata but specifically for the page title. The <head> element encompasses all metadata including <meta>, <title>, and other non-visible elements that provide information about the document to browsers and search engines.

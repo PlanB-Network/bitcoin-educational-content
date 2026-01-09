@@ -1,0 +1,8 @@
+question: What HTTP status code should be returned when a client's request contains invalid or malformed data?
+answer: 400 Bad Request
+wrong_answers:
+  - 401 Unauthorized
+  - 403 Forbidden
+  - 422 Unprocessable Entity
+explanation: |
+  The 400 Bad Request status code is specifically designed for situations where the client sends invalid or malformed data that the server cannot process. This differs from 401 Unauthorized (which indicates authentication is required), 403 Forbidden (which means the server understood the request but refuses to authorize it), and 422 Unprocessable Entity (which is used when the request is well-formed but contains semantic errors). Status code 400 is the standard response for general client-side input validation failures.

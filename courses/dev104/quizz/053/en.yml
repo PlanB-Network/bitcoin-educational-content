@@ -1,0 +1,8 @@
+question: In React JSX syntax, what is the primary reason for using className instead of class when defining CSS classes?
+answer: Because 'class' is a reserved JavaScript keyword and would cause syntax conflicts
+wrong_answers:
+  - "Because 'className' provides better performance optimization in the React virtual DOM"
+  - "Because 'className' allows for dynamic CSS class binding while 'class' is static"
+  - "Because 'className' is required for React's component lifecycle methods to function properly"
+explanation: |
+  JSX uses 'className' instead of 'class' because 'class' is a reserved keyword in JavaScript used for defining ES6 classes. Since JSX gets transpiled to JavaScript function calls, using 'class' would create syntax conflicts and compilation errors. This is purely a JavaScript language constraint, not related to performance, dynamic binding capabilities, or lifecycle methods. Other HTML attributes that conflict with JavaScript keywords also get renamed in JSX, such as 'htmlFor' instead of 'for'.

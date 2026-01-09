@@ -1,0 +1,8 @@
+question: Which built-in Node.js module would you use to read and write files on the system?
+answer: fs (file system)
+wrong_answers:
+  - os (operating system)
+  - readline (input/output)
+  - http (web requests)
+explanation: |
+  The fs (file system) module is the correct built-in Node.js module for file operations like reading and writing files. As shown in the example with fs.readFile(), this module provides the necessary functions to interact with the file system. The os module provides operating system information like platform and architecture, readline handles console input/output interactions, and http deals with web server functionality - none of these handle file operations.

@@ -1,0 +1,8 @@
+question: What HTTP status code should be returned when a POST request successfully creates a new resource?
+answer: 201 Created
+wrong_answers:
+  - 200 OK
+  - 202 Accepted
+  - 204 No Content
+explanation: |
+  The correct answer is 201 Created, which is specifically designed to indicate that a POST request has successfully created a new resource. While 200 OK indicates general success, it's typically used for successful GET, PUT, or DELETE operations. 202 Accepted means the request has been accepted for processing but hasn't been completed yet. 204 No Content indicates success but with no response body, often used for DELETE operations. The 201 status code is the standard and most appropriate response for successful resource creation via POST requests.

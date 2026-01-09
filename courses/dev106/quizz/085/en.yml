@@ -1,0 +1,8 @@
+question: According to the client-server model described for HTTP APIs, which component is responsible for making requests and displaying data?
+answer: Client side
+wrong_answers:
+  - Server side
+  - Database layer
+  - API gateway
+explanation: |
+  In the client-server model, the client side is responsible for making requests to the server and displaying data to users. The client handles user interactions and presents information, while the server side handles requests, stores and processes data, and contains the business logic. The database layer and API gateway are not the primary components in this fundamental client-server relationship.

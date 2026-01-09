@@ -1,0 +1,8 @@
+question: Which of the following best describes what a Git commit represents in version control?
+answer: A saved snapshot of your code at a specific point in time with unique ID, message, timestamp, and author
+wrong_answers:
+  - A temporary backup that gets overwritten when you make new changes to your repository
+  - A connection between your local repository and the remote GitHub server for synchronization
+  - A branch that allows you to experiment with new features without affecting the main codebase
+explanation: |
+  A Git commit is fundamentally a saved snapshot of your entire codebase at a specific moment, complete with a unique hash ID, descriptive message, timestamp, and author information. This creates a permanent record in your project's history. The wrong answers confuse commits with other Git concepts: temporary backups (commits are permanent), remote connections (that's pushing/pulling), and branches (which are separate lines of development that contain commits).

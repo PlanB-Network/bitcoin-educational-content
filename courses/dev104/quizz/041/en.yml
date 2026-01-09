@@ -1,0 +1,8 @@
+question: What is the primary purpose of ESLint in a JavaScript development environment?
+answer: To analyze JavaScript code and highlight errors, warnings, and style issues in real-time
+wrong_answers:
+  - To automatically format code with consistent indentation and spacing on save
+  - To provide a runtime environment for executing JavaScript outside of browsers
+  - To manage and install code libraries and dependencies for Node.js projects
+explanation: |
+  ESLint is specifically designed as a code quality tool that analyzes JavaScript code as you write it, catching syntax errors, enforcing style rules, and highlighting potential issues before you run your code. While Prettier handles automatic code formatting, Node.js provides the runtime environment, and npm manages packages, ESLint focuses exclusively on code analysis and quality assurance to help developers write better, more consistent JavaScript.

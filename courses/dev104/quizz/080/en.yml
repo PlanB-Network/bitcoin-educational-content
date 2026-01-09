@@ -1,0 +1,8 @@
+question: What is the most critical factor to consider when implementing automated backup strategies for Lightning wallet private keys in a production environment?
+answer: Ensuring backup encryption keys are stored separately from wallet infrastructure with offline recovery capabilities
+wrong_answers:
+  - Implementing daily automated backups to the same cloud provider hosting the wallet infrastructure
+  - Creating encrypted backups stored on the same server filesystem with different directory permissions
+  - Using blockchain-based backup solutions that store encrypted keys directly on the Bitcoin network
+explanation: |
+  Production Lightning wallet deployments require robust key backup strategies where encryption keys are stored separately from the main infrastructure, ensuring offline recovery capabilities. This prevents single points of failure where compromised infrastructure could expose both wallet keys and backup encryption keys. Storing backups with the same provider, on the same server, or on-chain creates security vulnerabilities and potential loss scenarios that could be catastrophic in production environments.

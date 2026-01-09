@@ -1,0 +1,8 @@
+question: When building a React component hierarchy for a Lightning wallet, what is the most effective strategy for organizing components like Header, BalanceCards, and Transactions to maximize code reusability and maintainability?
+answer: Create single-responsibility components where each component handles one specific function and can be composed together to build complex UI structures
+wrong_answers:
+  - Build large monolithic components that contain all related functionality to minimize the number of files and reduce complexity in the component tree
+  - Group components by data type rather than functionality so all Bitcoin-related components are together regardless of their UI responsibilities
+  - Create components based on visual layout sections of the screen rather than logical functionality to ensure consistent styling across the application
+explanation: |
+  The single-responsibility principle is fundamental to React's component-based architecture. Each component should have one clear purpose, making it easier to test, debug, and reuse across different parts of the application. This approach allows BalanceCard to be reused for both balance and price display, while keeping components modular and maintainable. Monolithic components defeat React's core benefits, grouping by data type ignores UI concerns, and layout-based organization creates tight coupling between visual design and component logic.

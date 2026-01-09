@@ -1,0 +1,8 @@
+question: In the client-server model, what is the primary role of the server?
+answer: Hold and serve data, handle business logic, and maintain security
+wrong_answers:
+  - Request and display data while handling user interactions
+  - "Execute client-side code within the user's browser environment"
+  - Consume data from other servers and manage browser capabilities
+explanation: |
+  In the client-server model, the server's primary role is to hold and serve data, handle business logic, and maintain security. This is the backend component that processes requests, manages databases, and ensures secure operations. The wrong answers describe client-side responsibilities like requesting/displaying data and handling user interactions, or incorrectly describe servers as consuming data from other servers, which is actually what clients do when they request resources from servers.

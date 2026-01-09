@@ -1,0 +1,8 @@
+question: What happens to the JWT token when a user logs out in a stateless JWT authentication system?
+answer: The token remains valid until expiration since JWTs are stateless and cannot be invalidated server-side
+wrong_answers:
+  - The server immediately invalidates the token by removing it from the active tokens database
+  - The token is automatically destroyed and becomes unusable across all client applications
+  - The server marks the token as expired in its session storage to prevent further use
+explanation: |
+  JWTs are stateless by design, meaning the server doesn't store token information or maintain session state. When a user logs out, the JWT continues to exist and remains technically valid until its expiration time. The server cannot revoke or invalidate JWTs because there's no server-side storage tracking them. This is both an advantage (scalability, no database lookups) and a limitation (tokens can't be immediately revoked). The other options incorrectly suggest server-side token storage or immediate invalidation, which contradicts the stateless nature of JWT authentication.

@@ -1,0 +1,8 @@
+question: What is the key difference between how arrays and objects store and access data in JavaScript?
+answer: Arrays use numeric indexes starting from 0, while objects use custom keys to access values
+wrong_answers:
+  - Arrays store strings only, while objects can store any data type including numbers
+  - Arrays maintain alphabetical order automatically, while objects store items randomly
+  - Arrays use curly braces for creation, while objects use square brackets for initialization
+explanation: |
+  Arrays are ordered collections that use numeric indexes starting from 0 (like fruits[0], fruits[1]), making them perfect for lists where position matters. Objects use custom string keys (like fruits['red fruit']) to access values, making them ideal for structured data where you need descriptive labels. The other options are incorrect: both arrays and objects can store any data type, arrays don't sort automatically, and arrays use square brackets [] while objects use curly braces {}.

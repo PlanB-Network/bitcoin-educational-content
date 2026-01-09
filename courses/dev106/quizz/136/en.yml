@@ -1,0 +1,8 @@
+question: What is the primary advantage of using event streams over traditional polling when monitoring Lightning invoice payments?
+answer: Event streams provide instant notifications when invoices are paid without repeatedly asking for status updates
+wrong_answers:
+  - Event streams reduce the computational load on the Lightning node by caching payment status locally
+  - Event streams encrypt payment data automatically while polling requires manual encryption implementation
+  - Event streams allow multiple invoices to be created simultaneously while polling limits concurrent operations
+explanation: |
+  Event streams are superior to polling because they push notifications instantly when events occur, eliminating the need to repeatedly query the system. Traditional polling requires asking 'Is my invoice paid?' every few seconds, creating unnecessary network traffic and delays. Event streams use the subscribeInvoices method to listen for real-time updates, providing immediate notification when invoices are settled, created, or expire. This approach is more efficient, responsive, and reduces server load compared to continuous polling.

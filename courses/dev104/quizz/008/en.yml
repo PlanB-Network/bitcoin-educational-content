@@ -1,8 +1,8 @@
-question: What is the primary advantage of using relative units like rem and % over absolute units like px in responsive web design?
-answer: They automatically scale and adapt to different screen sizes and user preferences
+question: Which HTML element is used to declare the document type and should appear at the very beginning of an HTML document?
+answer: <!DOCTYPE html>
 wrong_answers:
-  - They load faster and consume less bandwidth than absolute units
-  - They provide more precise control over element positioning and spacing
-  - They are supported by more browsers and have better compatibility
+  - <html>
+  - <head>
+  - <meta>
 explanation: |
-  Relative units like rem and % are essential for responsive design because they scale proportionally based on their reference point - rem scales with the root font size, while % scales with the parent element. This automatic scaling ensures your design adapts gracefully to different screen sizes and user font preferences. Absolute units like px remain fixed regardless of context, making them unsuitable for responsive layouts. The other options are incorrect: relative units don't affect loading speed, they actually provide less precise control (which is beneficial for flexibility), and browser support is comparable between unit types.
+  The <!DOCTYPE html> declaration must appear at the very beginning of an HTML document to tell the browser what type of document it is processing. While <html> is the root element, <head> contains metadata, and <meta> provides specific metadata information, none of these serve the purpose of declaring the document type. The DOCTYPE declaration ensures the browser renders the page in standards mode and is essential for proper HTML5 document structure.

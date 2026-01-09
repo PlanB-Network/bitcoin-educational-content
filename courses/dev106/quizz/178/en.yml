@@ -1,0 +1,8 @@
+question: In the Lightning invoice model implementation, why is payment_request used as the primary lookup field instead of the database auto-generated id?
+answer: Payment requests are unique identifiers in Lightning that work across different systems and are essential for Lightning operations
+wrong_answers:
+  - Payment requests are shorter than database IDs and provide better performance for query operations in SQLite databases
+  - Database IDs are not thread-safe when multiple Lightning nodes are processing invoices simultaneously in the same application
+  - Payment requests contain encrypted payment information that database IDs cannot store, making them mandatory for security compliance
+explanation: |
+  The payment_request serves as a natural unique identifier in the Lightning Network ecosystem that transcends individual database implementations. Unlike auto-generated database IDs which are only meaningful within a single application's context, payment_requests are standardized Lightning Network identifiers that can be used across different systems, nodes, and applications. This makes them ideal for operations like checking invoice existence before updates, handling invoice event streams from LND, and maintaining consistency between the Lightning node's state and the application's database. The other options are incorrect because payment_requests are actually longer than typical database IDs, thread-safety is handled at the database level regardless of identifier type, and payment_requests don't contain encrypted payment information but rather encoded invoice details.

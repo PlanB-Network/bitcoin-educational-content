@@ -1,0 +1,8 @@
+question: What type of system access does JavaScript have when running in a web browser compared to Node.js?
+answer: Sandboxed access with limited system permissions for security reasons
+wrong_answers:
+  - Full system access including file system and network operations
+  - Direct memory management and operating system API access
+  - Complete control over hardware resources and system processes
+explanation: |
+  JavaScript running in web browsers operates in a sandboxed environment with restricted access to system resources for security purposes. This prevents malicious websites from accessing your files, network, or system components. In contrast, Node.js provides full system access including file system operations, network sockets, memory management, and OS APIs because it runs in a controlled server environment where such access is necessary and safe.

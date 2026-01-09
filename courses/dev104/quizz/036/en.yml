@@ -1,0 +1,8 @@
+question: When using querySelector methods in JavaScript for DOM manipulation, what is the primary difference between document.querySelector() and document.querySelectorAll()?
+answer: querySelector() returns the first matching element while querySelectorAll() returns all matching elements as a NodeList
+wrong_answers:
+  - querySelector() searches by ID only while querySelectorAll() searches by class names and other selectors
+  - querySelector() is synchronous while querySelectorAll() is asynchronous and requires await to access results
+  - querySelector() modifies elements directly while querySelectorAll() only reads element properties without modification
+explanation: |
+  The fundamental difference lies in the quantity of elements returned. document.querySelector() finds and returns only the first element that matches the CSS selector, while document.querySelectorAll() returns a NodeList containing all elements that match the selector. Both methods accept the same types of CSS selectors (ID, class, element type, etc.), both are synchronous operations, and neither directly modifies elements - they simply return references to DOM elements that can then be manipulated.

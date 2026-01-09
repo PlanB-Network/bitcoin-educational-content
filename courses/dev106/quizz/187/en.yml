@@ -1,0 +1,8 @@
+question: In the full-stack Lightning wallet application, what specific authentication mechanism prevents regular users from sending payments while allowing them to receive payments?
+answer: JWT token validation combined with user role-based permissions checked in backend middleware
+wrong_answers:
+  - CORS policy configuration that blocks POST requests for non-admin users in the frontend
+  - Rate limiting that applies different request limits based on user authentication status
+  - Frontend state management that conditionally renders send buttons only for admin users
+explanation: |
+  The application uses JWT token validation combined with role-based permissions in the backend middleware to control access. When a user attempts to send a payment, the backend authenticates the JWT token and checks the user's role/permissions before allowing the transaction. This server-side validation ensures that only admin users can send payments while all authenticated users can receive them. CORS policies don't differentiate between user roles, rate limiting applies equally to all users regardless of admin status, and frontend-only restrictions could be bypassed by direct API calls.

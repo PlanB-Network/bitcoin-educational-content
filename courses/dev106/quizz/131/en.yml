@@ -1,0 +1,8 @@
+question: What are the three main architectural decision categories that developers must consider when building a Lightning application?
+answer: Node management, wallet custody, and user experience
+wrong_answers:
+  - Frontend design, database selection, and payment processing
+  - Security protocols, scalability planning, and API development
+  - Channel management, liquidity provision, and network routing
+explanation: |
+  According to the chapter content, when building a Lightning app, developers face three key architectural decision categories: Node Management (whether to use dedicated nodes, LSPs, or user-run nodes), Wallet Custody (custodial vs non-custodial options and user wallet connections), and User Experience (how much Lightning complexity to expose and trade-offs for ease of use). The other options, while relevant to app development, don't represent the specific architectural framework outlined for Lightning applications. These three categories form the foundation for all other technical decisions in Lightning app development.

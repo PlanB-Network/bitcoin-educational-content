@@ -1,0 +1,8 @@
+question: What is the correct sequence of actions that occurs when a middleware function encounters an error and needs to pass it to Express's error handling system?
+answer: Call next() with the error as an argument to trigger Express's error handling middleware
+wrong_answers:
+  - Use res.status(500).send() to immediately return an error response to the client
+  - Throw the error using throw new Error() to let Express automatically catch it
+  - Call res.error() with the error object to activate the built-in error handler
+explanation: |
+  In Express middleware, when an error occurs, you must call next(error) with the error as an argument to properly trigger Express's error handling system. This passes control to error-handling middleware functions that have four parameters (err, req, res, next). Simply using res.status().send() bypasses the error handling system, throwing errors doesn't automatically trigger Express error handlers, and res.error() is not a valid Express method.

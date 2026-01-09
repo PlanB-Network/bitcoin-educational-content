@@ -1,0 +1,8 @@
+question: What is the primary reason why Lightning Network nodes require multiple different types of connections to operate effectively?
+answer: Each connection type serves a distinct purpose: Bitcoin Core for blockchain data, peer connections for network updates, and payment channels for actual transactions
+wrong_answers:
+  - Multiple connections provide redundancy so if one connection fails, the node can continue operating using the remaining connection types
+  - Different connection types use separate encryption protocols to ensure maximum security for different types of data being transmitted
+  - Each connection type operates on different network ports to prevent interference and ensure optimal performance for Lightning operations
+explanation: |
+  Lightning nodes require three distinct connection types because each serves a unique, irreplaceable function. Bitcoin Core connections provide essential blockchain data that Lightning depends on. Peer connections enable gossip protocol communication for network awareness and channel information sharing. Payment channels handle the actual money transfers. These aren't redundant systems but complementary components - redundancy, encryption differences, or port separation aren't the driving factors for this architecture.

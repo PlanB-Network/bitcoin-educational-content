@@ -1,0 +1,8 @@
+question: What is the primary data format difference between HTTP/REST and gRPC protocols in Lightning application development?
+answer: HTTP/REST uses JSON text format while gRPC uses Protocol Buffers binary format
+wrong_answers:
+  - HTTP/REST uses XML text format while gRPC uses JSON binary format
+  - HTTP/REST uses binary Protocol Buffers while gRPC uses JSON text format
+  - HTTP/REST uses compressed binary while gRPC uses uncompressed text format
+explanation: |
+  According to the comparison table, HTTP/REST uses JSON (text) as its data format, while gRPC uses Protocol Buffers (binary). This binary format makes gRPC more efficient than text-based JSON. The other options incorrectly swap the formats or mention technologies not associated with these protocols in this context.

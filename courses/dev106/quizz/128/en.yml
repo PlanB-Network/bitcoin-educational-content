@@ -1,0 +1,8 @@
+question: In a Polar Lightning Network development environment, what does the visual color shift from green to blue in a payment channel represent?
+answer: The movement of satoshis from your side to the remote side as you send payments through the channel
+wrong_answers:
+  - The channel transitioning from an active state to an inactive state during payment processing
+  - The confirmation status changing from unconfirmed to confirmed transactions on the blockchain
+  - The network switching between different Lightning implementations like LND and Core Lightning
+explanation: |
+  In Polar's visual interface, green represents your liquidity (satoshis you can send) and blue represents remote liquidity (capacity to receive payments). When you send a payment through a channel, satoshis physically move from your side to the remote side within that channel, causing the visual representation to shift from green to blue. This color change directly reflects the redistribution of funds within the payment channel, which is fundamental to how Lightning Network channels operate - they're essentially shared wallets where the balance can shift between participants without requiring blockchain transactions.

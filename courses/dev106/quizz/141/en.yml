@@ -1,0 +1,8 @@
+question: What is the primary benefit of using primary keys in relational database tables?
+answer: They provide a unique identifier for each row that never changes and ensures data integrity
+wrong_answers:
+  - They automatically create indexes on all columns to improve query performance across the table
+  - They establish direct connections to foreign tables and enable automatic data synchronization
+  - They define the data types for all other columns and enforce validation rules throughout the table
+explanation: |
+  Primary keys serve as unique, stable identifiers for each row in a table, which is fundamental to relational database design. They ensure that every record can be uniquely identified and referenced, and they never change once assigned, maintaining referential integrity. The wrong answers confuse primary keys with other database concepts: indexes are separate performance optimization tools, foreign keys (not primary keys) create table relationships, and column data types are defined independently of primary key designation.

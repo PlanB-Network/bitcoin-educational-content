@@ -1,0 +1,8 @@
+question: When implementing JWT authentication in a Lightning wallet application, what happens to the authentication token when the React development server is restarted?
+answer: The JWT token persists in localStorage and remains valid until expiration or manual logout
+wrong_answers:
+  - The JWT token is automatically invalidated and requires immediate re-authentication
+  - The JWT token is stored in session storage and gets cleared on server restart
+  - The JWT token remains in memory but loses its authentication privileges
+explanation: |
+  JWT tokens in web applications are typically stored in localStorage, which persists data across browser sessions and server restarts. The token remains valid until it expires based on its encoded expiration time or the user manually logs out. Server restarts don't affect client-side localStorage data, and the backend validates tokens based on the JWT secret and expiration time, not server uptime. Session storage and memory storage would indeed be cleared on restart, making those options incorrect.

@@ -1,0 +1,8 @@
+question: What is the most critical reason why implementing proper access controls for Lightning wallet API endpoints is essential before production deployment?
+answer: Publicly accessible endpoints like /lightning/invoices expose sensitive wallet activity and transaction data to unauthorized users
+wrong_answers:
+  - Access controls are needed to prevent excessive API calls that could overwhelm the Heroku dyno and cause service interruptions
+  - Without access controls, the JWT authentication system becomes incompatible with Lightning Network protocol requirements
+  - Access controls prevent database migration conflicts when multiple users attempt to modify SQLite schemas simultaneously
+explanation: |
+  The chapter explicitly identifies that API endpoints like `/lightning/invoices` being publicly accessible creates serious privacy concerns, as wallet activity isn't private and sensitive transaction data becomes exposed to anyone who can access these endpoints. This represents a fundamental security vulnerability that could compromise user financial privacy and potentially enable malicious actors to gather intelligence about wallet operations, unlike the other options which address technical performance or compatibility issues rather than core security exposures.

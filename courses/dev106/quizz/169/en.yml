@@ -1,0 +1,8 @@
+question: In a Lightning wallet database migration using Knex.js, what is the critical requirement for the exports.down function implementation?
+answer: It must reverse all schema changes made in the exports.up function to enable rollback functionality
+wrong_answers:
+  - It must validate all foreign key constraints and data integrity before executing the migration
+  - It must create backup copies of all affected tables before applying any schema modifications
+  - It must populate the tables with seed data to ensure the database remains functional after rollback
+explanation: |
+  The exports.down function in Knex.js migrations must exactly reverse all changes made by the exports.up function, enabling developers to rollback migrations when needed. This is essential for database version control and recovery scenarios. The down function doesn't handle validation, backups, or seeding - those are separate concerns handled by constraints, backup strategies, and seed files respectively. Without proper rollback functionality, teams cannot safely experiment with schema changes or recover from problematic migrations in production environments.

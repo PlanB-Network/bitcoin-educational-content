@@ -1,0 +1,8 @@
+question: What happens when Node.js encounters a slow operation like reading a file or making a network request?
+answer: It starts the task, registers a callback function, moves to the next task, and executes the callback when complete
+wrong_answers:
+  - It pauses all execution until the slow operation completes before moving to any other tasks
+  - It creates multiple threads to handle the slow operation while the main thread continues processing
+  - It immediately throws an error and terminates the program to prevent blocking other operations
+explanation: |
+  Node.js handles slow operations asynchronously through its event loop mechanism. When it encounters a slow task, it doesn't wait or block - instead, it initiates the operation, sets up a callback function to handle the result, and immediately continues with other tasks. Once the slow operation finishes, the callback is executed. This non-blocking approach allows Node.js to remain efficient and responsive even with a single-threaded architecture.

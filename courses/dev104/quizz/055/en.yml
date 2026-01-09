@@ -1,0 +1,8 @@
+question: When implementing a React component that fetches Bitcoin price data on mount and needs to update every 30 seconds, what is the most critical aspect to prevent memory leaks?
+answer: Returning a cleanup function from useEffect that clears the interval when the component unmounts
+wrong_answers:
+  - "Setting the dependency array to include all state variables that might change during the component's lifecycle"
+  - Using async/await syntax inside the useEffect hook to properly handle the asynchronous API calls
+  - Wrapping the interval logic in a try-catch block to handle potential errors during price fetching
+explanation: |
+  The correct answer addresses memory leak prevention through proper cleanup. When useEffect sets up an interval, it continues running even after the component is removed from the DOM unless explicitly cleared. The cleanup function (returned from useEffect) automatically runs when the component unmounts, clearing the interval and preventing memory leaks. The wrong answers focus on other aspects like dependency management, async handling, and error handling, which are important but don't address the memory leak issue.

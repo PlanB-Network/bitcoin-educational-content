@@ -1,0 +1,8 @@
+question: What type of relationship exists between the Users and Invoices tables in the Pleb Wallet schema design?
+answer: One-to-many relationship where one user can have many invoices
+wrong_answers:
+  - Many-to-many relationship where users can share invoices with each other
+  - One-to-one relationship where each user has exactly one invoice
+  - Many-to-one relationship where multiple users can own the same invoice
+explanation: |
+  The Users and Invoices tables have a one-to-many relationship, which is enforced by the foreign key constraint on user_id in the Invoices table. This means one user can create and own multiple invoices, but each invoice belongs to exactly one user. This design makes sense for a Lightning wallet where users need to create multiple invoices over time for different payments. The other options are incorrect: many-to-many would require a junction table, one-to-one would severely limit functionality, and many-to-one would allow invoice ownership conflicts.

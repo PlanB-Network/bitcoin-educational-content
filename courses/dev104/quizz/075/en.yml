@@ -1,0 +1,8 @@
+question: When initializing a Lightning wallet React application with Create React App, which critical modification to the default webpack configuration is essential for proper Bitcoin cryptographic library compatibility?
+answer: Adding Node.js polyfills for crypto and buffer modules that are required by Bitcoin libraries but not available in browser environments
+wrong_answers:
+  - Enabling hot module replacement with custom Lightning Network event listeners to maintain WebSocket connections during development
+  - Configuring webpack to bundle Lightning Network daemon binaries directly into the application for offline transaction processing
+  - Setting up automatic code splitting based on Lightning channel states to optimize bundle size for different wallet functionalities
+explanation: |
+  Bitcoin and Lightning Network libraries rely heavily on Node.js-specific modules like 'crypto' and 'buffer' for cryptographic operations. Since Create React App targets browser environments where these modules aren't natively available, webpack polyfills must be configured to provide browser-compatible versions. The other options describe either impossible configurations (bundling daemon binaries), unnecessary optimizations (HMR with WebSockets), or premature optimizations (channel-based code splitting) that aren't fundamental setup requirements.

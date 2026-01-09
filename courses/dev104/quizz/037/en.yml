@@ -1,0 +1,8 @@
+question: When implementing live Bitcoin price updates in a web wallet application, what is the primary purpose of using setTimeout() within the async function rather than setInterval()?
+answer: To prevent overlapping API calls when the previous request takes longer than the interval duration
+wrong_answers:
+  - To reduce memory usage by creating a single timer instance instead of multiple recurring timers
+  - To ensure the API calls execute synchronously in the correct order without race conditions
+  - To avoid CORS errors that occur when making too many simultaneous requests to external APIs
+explanation: |
+  Using setTimeout() within an async function creates a self-scheduling pattern that waits for the current API call to complete before scheduling the next one. This prevents the scenario where a slow API response takes longer than the interval duration, which would cause multiple overlapping requests with setInterval(). The recursive setTimeout approach ensures that each update cycle completes fully before the next one begins, maintaining proper timing and preventing API rate limiting issues. While setInterval() would fire every 10 seconds regardless of whether the previous call finished, setTimeout() creates a more robust pattern for handling asynchronous operations.

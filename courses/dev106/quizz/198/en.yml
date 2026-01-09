@@ -1,0 +1,8 @@
+question: In the smart polling optimization technique, what is the primary reason for clearing the poll interval when the document becomes hidden?
+answer: To prevent unnecessary API calls when the user is not actively viewing the page, reducing server load and battery consumption
+wrong_answers:
+  - To avoid memory leaks caused by accumulating event listeners when the browser tab loses focus
+  - To prevent JWT tokens from expiring due to excessive refresh requests while the application runs in background
+  - To stop WebSocket connections from timing out when the browser window is minimized or switched away
+explanation: |
+  Smart polling optimization clears intervals when document.hidden is true to prevent wasteful API calls when users aren't actively viewing the page. This reduces unnecessary server requests, saves bandwidth, and preserves device battery life. The other options are incorrect because: memory leaks from polling are caused by not clearing intervals properly (not visibility), JWT expiration is time-based regardless of request frequency, and WebSocket connections are separate from polling intervals and have their own timeout mechanisms.

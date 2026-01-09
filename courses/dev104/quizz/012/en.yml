@@ -1,8 +1,8 @@
-question: What happens when you perform the operation String(3) + 2 in JavaScript?
-answer: It results in '32' because the number 2 is converted to a string and concatenated
+question: What is the primary purpose of CSS (Cascading Style Sheets) in web development?
+answer: To make HTML look beautiful and separate content from presentation
 wrong_answers:
-  - It results in 5 because JavaScript automatically converts the string to a number for arithmetic
-  - It throws an error because you cannot add a string and a number together in JavaScript
-  - It results in NaN because the string cannot be converted to a valid number for calculation
+  - To create interactive forms and handle user input validation
+  - To store and manage database connections for web applications
+  - To provide server-side processing and backend functionality
 explanation: |
-  When you use String(3) + 2, JavaScript performs string concatenation, not arithmetic addition. The String(3) creates the string '3', and when you use the + operator with a string and a number, JavaScript converts the number 2 to the string '2' and concatenates them, resulting in '32'. This demonstrates why explicit data typing is important - if you wanted arithmetic, you'd need Number(3) + 2 = 5 instead.
+  CSS (Cascading Style Sheets) is specifically designed to handle the visual presentation of HTML content. Its main purpose is to make HTML look beautiful by controlling colors, fonts, layouts, and other visual aspects, while keeping the content (HTML) separate from its presentation (CSS). This separation allows developers to change the appearance without modifying the content structure. The wrong answers describe JavaScript functionality (form validation), database management systems, and server-side technologies respectively, which are completely different aspects of web development that CSS does not handle.

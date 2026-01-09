@@ -1,0 +1,8 @@
+question: Which HTTP method is typically used to replace an entire resource with new data?
+answer: PUT
+wrong_answers:
+  - PATCH
+  - POST
+  - UPDATE
+explanation: |
+  PUT is the correct HTTP method for replacing an entire resource with new data, corresponding to the Update operation in CRUD. PATCH is used for partial updates, not complete replacement. POST is primarily used for creating new resources. UPDATE is not a standard HTTP method, though it represents the concept in CRUD operations.

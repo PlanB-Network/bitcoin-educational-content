@@ -1,0 +1,8 @@
+question: In the Pleb Wallet architecture described, what combination of node management and user permissions is implemented?
+answer: One hosted node with multiple users who can create invoices but cannot spend funds
+wrong_answers:
+  - Multiple dedicated nodes with each user running their own node and full spending control
+  - One hosted node with single user access and full administrative spending privileges
+  - Multiple hosted nodes with users able to spend funds but unable to create invoices
+explanation: |
+  The Pleb Wallet uses a custodial architecture with one hosted node (Alice in the Polar setup) serving multiple users. In this setup, users can create invoices and receive payments, but only the administrators can spend funds. This differs from non-custodial solutions where users control their own nodes and spending, or single-user systems where one person has full control. The custodial model provides simplicity for users while centralizing fund management with the service provider.

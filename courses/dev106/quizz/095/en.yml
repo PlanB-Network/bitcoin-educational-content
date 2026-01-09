@@ -1,0 +1,8 @@
+question: Which directory is recommended for storing custom middleware files in an Express.js project structure?
+answer: middleware/
+wrong_answers:
+  - models/
+  - utils/
+  - routes/
+explanation: |
+  The middleware/ directory is specifically designated for storing custom middleware files like authentication handlers. The models/ directory is for data models, utils/ is for utility functions, and routes/ is for route definitions. This organized structure follows Express.js best practices by separating concerns and keeping related functionality grouped together, making the codebase more maintainable and easier to navigate.

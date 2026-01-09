@@ -1,0 +1,8 @@
+question: When implementing the payInvoice method in an LND integration, what should you check to determine if a Lightning payment was successful?
+answer: Check if the payment_route property exists in the response object
+wrong_answers:
+  - Check if the payment_error property is null or undefined
+  - Check if the invoice_settled property returns true in the response
+  - "Check if the payment_status property equals 'PAYMENT_SUCCEEDED'"
+explanation: |
+  According to the code example, a successful Lightning payment is determined by checking if the `payment_route` property exists in the response. The code specifically uses `if (pay?.payment_route)` to verify success before saving the payment to the database. While checking for `payment_error` is also done, it's used to catch failures early, not to confirm success. The other options (`invoice_settled` and `payment_status`) are not the actual properties used in the LND gRPC response for payment verification.

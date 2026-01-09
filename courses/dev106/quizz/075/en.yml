@@ -1,0 +1,8 @@
+question: What does NPM stand for in the context of Node.js development?
+answer: Node Package Manager
+wrong_answers:
+  - Node Program Manager
+  - Network Package Module
+  - New Project Manager
+explanation: |
+  NPM stands for Node Package Manager, which is the official package manager for Node.js. It provides access to over 1 million open-source packages, manages project dependencies, and includes a command-line interface for easy package management. The other options are incorrect abbreviations that don't represent what NPM actually does in the Node.js ecosystem.

@@ -1,0 +1,8 @@
+question: In the pleb-wallet-backend API structure, which combination of endpoint design and access control correctly implements RESTful principles for Lightning wallet operations?
+answer: GET /lightning/balance (anyone), POST /lightning/invoice (authenticated users), POST /lightning/pay (admin only)
+wrong_answers:
+  - POST /lightning/balance (admin only), GET /lightning/invoice (anyone), PUT /lightning/pay (authenticated users)
+  - PUT /lightning/balance (authenticated users), DELETE /lightning/invoice (admin only), GET /lightning/pay (anyone)
+  - DELETE /lightning/balance (anyone), POST /lightning/invoice (admin only), GET /lightning/pay (authenticated users)
+explanation: |
+  The correct answer follows proper REST principles and security requirements. GET /lightning/balance uses the appropriate HTTP method for retrieving data and allows public access for transparency. POST /lightning/invoice correctly uses POST for creating new resources and restricts access to authenticated users who can generate payment requests. POST /lightning/pay properly uses POST for the action of making payments and limits access to admins only for security. The wrong answers use inappropriate HTTP methods (PUT/DELETE for balance operations, GET for payment actions) and incorrect permission levels that would compromise wallet security or violate RESTful design principles.

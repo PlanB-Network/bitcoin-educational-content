@@ -1,0 +1,8 @@
+question: What is the primary security concern with storing JWT tokens in localStorage compared to httpOnly cookies in frontend applications?
+answer: localStorage is vulnerable to XSS attacks since JavaScript can access it, while httpOnly cookies cannot be accessed by client-side scripts
+wrong_answers:
+  - localStorage tokens expire faster than httpOnly cookies, requiring more frequent authentication and reducing user experience
+  - localStorage has limited storage capacity that can cause token truncation, while httpOnly cookies have unlimited size for token storage
+  - localStorage tokens are automatically sent with every HTTP request, creating unnecessary network overhead compared to httpOnly cookies
+explanation: |
+  The chapter correctly identifies that localStorage is less secure than httpOnly cookies for JWT token storage. The main vulnerability is Cross-Site Scripting (XSS) attacks - malicious JavaScript can read tokens from localStorage, but httpOnly cookies are inaccessible to client-side scripts. The other options are incorrect: localStorage doesn't have faster expiration, size limitations aren't the primary concern, and localStorage tokens aren't automatically sent with requests (unlike cookies).

@@ -1,0 +1,8 @@
+question: When planning database schema growth for a Lightning wallet application, which design consideration is most important for handling millions of transaction records efficiently?
+answer: Using appropriate data types and indexes to optimize query performance as data volume increases
+wrong_answers:
+  - Creating separate tables for each user to distribute data across multiple database files
+  - Storing all transaction data in a single TEXT field to simplify the schema structure
+  - Using VARCHAR fields for all columns to ensure maximum flexibility for future changes
+explanation: |
+  Performance optimization through proper data types and indexing is crucial for scalability. As transaction volume grows to millions of records, queries will become slower without proper optimization. Creating separate tables per user would create management nightmares and doesn't scale. Storing everything in TEXT fields eliminates the benefits of relational databases and constraints. Using VARCHAR everywhere wastes storage space and reduces query performance compared to appropriate types like INTEGER for amounts or BOOLEAN for status flags.

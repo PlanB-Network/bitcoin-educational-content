@@ -1,0 +1,8 @@
+question: What does REST stand for in the context of API architectural principles?
+answer: Representational State Transfer
+wrong_answers:
+  - Resource Exchange State Transfer
+  - Remote Execution State Transfer
+  - Request Entity State Transfer
+explanation: |
+  REST stands for Representational State Transfer, which is a set of architectural principles for designing web APIs. The term 'Representational' refers to how resources are represented in different formats, 'State' refers to the application state, and 'Transfer' refers to how these representations are transferred between client and server. The other options are fabricated terms that sound similar but are not the correct definition of REST.

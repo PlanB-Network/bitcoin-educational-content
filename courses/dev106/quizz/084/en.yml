@@ -1,0 +1,8 @@
+question: In RESTful API design, what would be the correct endpoint pattern to delete a specific user with ID 456?
+answer: DELETE /users/456
+wrong_answers:
+  - POST /users/456/delete
+  - GET /users/456/remove
+  - PUT /users/456/destroy
+explanation: |
+  In RESTful API design, the DELETE HTTP method is used with the resource path to remove a specific item. The pattern DELETE /users/456 follows REST conventions where the HTTP method indicates the operation (DELETE) and the URL path identifies the specific resource (/users/456). The wrong answers use incorrect HTTP methods or non-standard URL patterns that don't follow RESTful principles.

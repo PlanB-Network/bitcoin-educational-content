@@ -1,0 +1,8 @@
+question: When establishing the development environment for a React-based Lightning wallet application, which dependency management strategy is most crucial for ensuring reproducible builds across different development environments?
+answer: Lock file commitment with exact version pinning for all cryptographic and networking dependencies
+wrong_answers:
+  - Using semantic versioning ranges to allow automatic updates for all Lightning Network libraries
+  - Installing dependencies globally to ensure consistent versions across all Lightning wallet projects
+  - "Relying on npm's default caching mechanism without version constraints for faster installation"
+explanation: |
+  Lightning wallets require absolute consistency in cryptographic libraries and networking protocols to ensure security and compatibility. Lock file commitment with exact version pinning prevents unexpected updates that could introduce vulnerabilities or break Lightning Network compatibility. Semantic versioning ranges can introduce breaking changes in critical dependencies, global installations create environment inconsistencies, and unconstrained caching doesn't guarantee version stability across team members' machines.

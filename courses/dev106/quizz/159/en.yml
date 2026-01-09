@@ -1,0 +1,8 @@
+question: In a Lightning wallet database, what is the primary purpose of using a FOREIGN KEY constraint between the Invoices table's user_id field and the Users table's id field?
+answer: To enforce referential integrity and prevent orphaned invoice records that reference non-existent users
+wrong_answers:
+  - To automatically delete all invoices when a user is deleted from the Users table
+  - To improve query performance by creating an automatic index on the user_id field
+  - To encrypt the relationship between users and invoices for enhanced security
+explanation: |
+  Foreign key constraints enforce referential integrity, which means they prevent the creation of 'orphaned' records that reference non-existent parent records. In this case, it ensures every invoice must belong to a valid user that exists in the Users table. The constraint doesn't automatically delete related records (that would require CASCADE), doesn't create indexes for performance (though it may help), and has nothing to do with encryption. This data integrity protection is crucial for Lightning wallets to maintain consistent relationships between users and their payment records.

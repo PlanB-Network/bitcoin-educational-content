@@ -1,0 +1,8 @@
+question: What is the main advantage of React's component-based architecture compared to vanilla JavaScript for building user interfaces?
+answer: Components are reusable pieces of UI that combine HTML, CSS, and JavaScript in one place
+wrong_answers:
+  - Components automatically optimize performance by reducing memory usage and CPU cycles
+  - Components eliminate the need for CSS styling and manual event handler attachments
+  - Components provide built-in security features that prevent XSS attacks and data breaches
+explanation: |
+  React's component-based architecture allows developers to create reusable UI pieces that encapsulate HTML structure, CSS styling, and JavaScript logic together. This solves vanilla JavaScript's problem of scattered code across multiple files and makes UI elements easily reusable throughout an application. The other options are incorrect because React doesn't automatically optimize performance, still requires CSS and event handlers, and doesn't provide built-in security features.

@@ -91,7 +91,7 @@ Ready to build your first Lightning app? Let's start with Lesson 1! ⚡🚀
 # Introducing Frontend Development 
 <partId>e48f404b-0536-4e65-8d87-4d4eadeef91f</partId>
 
-## HTML & Bitcoin: Building Your First Bitcoin Blog
+## HTML Fundamentals & Layout Logic
 <chapterId>d7997b5b-fb48-476c-a734-e4e9e2a4a16a</chapterId>
 
 ### What is HTML?
@@ -119,7 +119,7 @@ HTML is a markup language that instructs web browsers how to display a web page.
 </html>
 ```
 
-### Understanding the Box Model
+### The Box Model & Layout basics
 
 #### What is the Box Model?
 HTML uses a box model to display content. It divides content into different boxes (called elements) and displays those boxes on the page.
@@ -153,7 +153,7 @@ To see the box model in action, add background colors:
 </div>
 ```
 
-### Block vs. Inline Elements
+### Element Flow: Block vs. Inline Elements
 
 #### Block Elements
 - **Cover the full width of the page**
@@ -175,6 +175,9 @@ To see the box model in action, add background colors:
 <span>Inline element 1</span>
 <span>Inline element 2</span>
 ```
+
+## Essential HTML Components & Data
+<chapterId>5570c27f-6980-4514-af32-770e5f330b59</chapterId>
 
 ### Common HTML Elements
 
@@ -208,7 +211,7 @@ To see the box model in action, add background colors:
 | `<textarea>` | Multi-line text input | Inline |
 | `<button>` | Clickable button | Inline |
 
-### Element Attributes
+### Element Attributes & Metadata
 
 #### Common Attributes
 - **`style`** - Change appearance (color, font, size)
@@ -250,6 +253,9 @@ Create internal page navigation:
 
 #### Important Note
 Forms require server-side code or JavaScript to process data. Without it, forms will either do nothing or show errors.
+
+## Practical Project: The Bitcoin Blog
+<chapterId>0f7e874d-b850-43e1-ba43-bf1fe67e5bd5</chapterId>
 
 ### Building Your Bitcoin Blog
 
@@ -358,8 +364,6 @@ We'll create a blog post about Bitcoin using the Bitcoin whitepaper content. Thi
 </nav>
 ```
 
-### CSS Fundamentals (Preview)
-
 #### What CSS Does
 - **Cascading Style Sheets** make your HTML look beautiful
 - **Separates content from presentation**
@@ -379,7 +383,7 @@ We'll create a blog post about Bitcoin using the Bitcoin whitepaper content. Thi
 ```
 This ensures borders and padding are included in element width calculations.
 
-### Best Practices
+### Best Practices and Common Issues
 
 #### 1. File Organization
 - Use descriptive filenames (`blog.html`, not `page1.html`)
@@ -401,7 +405,7 @@ This ensures borders and padding are included in element width calculations.
 - Use "View Page Source" to learn from other sites
 - Validate your HTML
 
-### Common Issues and Solutions
+#### Common Issues and Solutions
 
 #### 1. Elements Not Displaying
 - Check for unclosed tags
@@ -418,7 +422,7 @@ This ensures borders and padding are included in element width calculations.
 - Use `action` attribute to specify destination
 - Include `name` attributes on inputs
 
-### Hands-on Exercises
+### Hands-on Exercises and Next Steps
 
 #### Exercise 1: Personal Blog Post
 1. Create a new HTML file
@@ -438,7 +442,7 @@ This ensures borders and padding are included in element width calculations.
 3. Add placeholder text
 4. Style the form elements
 
-### Learning Resources
+#### Learning Resources
 
 #### Essential References
 - **[W3Schools HTML Tutorial](https://www.w3schools.com/html/)** - Comprehensive HTML reference
@@ -458,7 +462,7 @@ When you don't know how to do something:
 - "HTML table tutorial"
 - "responsive HTML forms"
 
-### Next Steps
+#### Next Steps
 
 #### Immediate Actions
 1. **Complete the blog project** from this lesson
@@ -479,7 +483,7 @@ In the next lesson, we'll dive deeper into CSS and learn how to:
 - Link your projects together
 - Share your work on GitHub
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **HTML is the foundation** of all web development
 2. **Box model understanding** is crucial for layout
@@ -586,10 +590,10 @@ Here's the complete HTML for the Bitcoin blog we built in this lesson:
 
 Save this as `blog.html` and open it in your browser to see your Bitcoin blog in action! 
 
-## Learn CSS: Styling Your Bitcoin Wallet
+## Learn CSS: CSS Foundations & Style Logic
 <chapterId>ee807797-77f6-453c-9adc-7a28ea43d883</chapterId>
 
-### What is CSS?
+### Introduction to CSS
 
 #### Definition
 CSS (Cascading Style Sheets) is a rule-based language that describes how HTML elements should be displayed. While HTML provides the structure and content, CSS handles the presentation - colors, fonts, layout, spacing, and visual effects.
@@ -723,8 +727,11 @@ Measurements relative to other elements or viewport:
     width: 100vw;      /* Full viewport width */
 }
 ```
+## Precision Styling & Selectors
+<chapterId>41895064-cdc6-4aeb-bdfb-736b216b917c</chapterId>
 
-### CSS Selectors
+
+### The Power of Selectors
 
 #### What Are Selectors?
 Selectors determine which HTML elements receive your CSS styles. They're patterns that match elements in your HTML.
@@ -950,6 +957,9 @@ Media queries allow you to apply different styles based on device characteristic
 @media (orientation: landscape) { }
 @media (orientation: portrait) { }
 ```
+
+## The Pleb Wallet & Workflow
+<chapterId>40ec5e6f-17f1-4523-a203-acc8d973380b</chapterId>
 
 ### Building the Pleb Wallet Project
 
@@ -1242,7 +1252,7 @@ footer p {
 }
 ```
 
-### Advanced CSS Techniques
+### Advanced CSS Techniques and Best Practices
 
 #### Box Model Understanding
 ```css
@@ -1290,7 +1300,7 @@ This ensures padding and borders are included in element width calculations.
 }
 ```
 
-### CSS Organization Best Practices
+#### CSS Organization 
 
 #### 1. File Structure
 ```
@@ -1370,7 +1380,7 @@ styles/
 3. **Flexbox alignment** - Check `justify-content` vs `align-items`
 4. **Mobile responsiveness** - Test on actual devices
 
-### Performance Optimization
+#### Performance Optimization
 
 #### CSS Performance Tips
 1. **Minimize CSS file size**
@@ -1390,27 +1400,27 @@ styles/
 div div div p { }
 ```
 
-### Hands-on Exercises
+### Practice & Resources
 
-#### Exercise 1: Customize the Pleb Wallet
+#### Hands-on Exercises
+
+**Exercise 1: Customize the Pleb Wallet**
 1. Change the color scheme to your preference
 2. Add a new section for "Recent Activity"
 3. Implement a dark/light mode toggle
 4. Add animations to button hovers
 
-#### Exercise 2: Build a Bitcoin Price Dashboard
+**Exercise 2: Build a Bitcoin Price Dashboard**
 1. Create a grid layout for multiple cryptocurrencies
 2. Add price change indicators (green/red arrows)
 3. Make it fully responsive
 4. Add a search filter
 
-#### Exercise 3: Create a Lightning Invoice Generator
+**Exercise 3: Create a Lightning Invoice Generator**
 1. Build a form with proper styling
 2. Add validation styling (error states)
 3. Create a QR code display area
 4. Style for mobile-first design
-
-### Learning Resources
 
 #### Essential References
 - **[CSS-Tricks](https://css-tricks.com/)** - Comprehensive CSS guide
@@ -1431,9 +1441,9 @@ div div div p { }
 - **[Awwwards](https://awwwards.com/)** - Award-winning web design
 - **[CodePen](https://codepen.io/)** - CSS experiments and demos
 
-### Next Steps
+#### Next Steps
 
-#### Immediate Actions
+**Immediate Actions**
 1. **Complete the Pleb Wallet project** with all responsive features
 2. **Experiment with different layouts** using Flexbox and Grid
 3. **Practice media queries** on various screen sizes
@@ -1453,7 +1463,7 @@ In the next lesson, we'll dive into JavaScript and learn how to:
 - Build responsive layouts
 - Share your work on CodePen or GitHub
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **CSS is about presentation** - Separate styling from content
 2. **Selectors are powerful** - Use classes for styling, avoid IDs
@@ -1463,9 +1473,9 @@ In the next lesson, we'll dive into JavaScript and learn how to:
 6. **Tools are your friend** - Use browser DevTools for debugging
 7. **Performance matters** - Write efficient, maintainable CSS
 
-### Troubleshooting Common Issues
+#### Troubleshooting Common Issues
 
-#### CSS Not Loading
+- CSS Not Loading
 ```html
 <!-- Check file path -->
 <link rel="stylesheet" href="./styles.css">
@@ -1473,19 +1483,19 @@ In the next lesson, we'll dive into JavaScript and learn how to:
 <link rel="stylesheet" href="styles.css">
 ```
 
-#### Styles Not Applying
+- Styles Not Applying
 1. Check selector specificity
 2. Verify HTML class names match CSS
 3. Look for typos in property names
 4. Ensure proper syntax (semicolons, brackets)
 
-#### Responsive Issues
+- Responsive Issues
 1. Add viewport meta tag
 2. Test on actual devices
 3. Use relative units (%, rem, em)
 4. Check media query syntax
 
-#### Layout Problems
+- Layout Problems
 1. Use browser DevTools to inspect
 2. Add temporary borders to see boundaries
 3. Check box model with `box-sizing`
@@ -1497,7 +1507,7 @@ Happy styling! 🎨⚡️
 
 ---
 
-### Complete Pleb Wallet Code
+#### Complete Pleb Wallet Code
 
 #### HTML (index.html)
 ```html
@@ -1748,22 +1758,22 @@ footer p {
 Save these files in your project folder and open `index.html` in your browser to see your complete Bitcoin wallet interface! 
 
 
-## Learn JavaScript: Building Your First Bitcoin Wallet
+# Learn JavaScript: Building Your First Bitcoin Wallet
+<partId>d039b767-640f-43f9-b14d-b8b73af1e41a</partId>
+
+## Introduction to JavaScript
 <chapterId>bed2fa44-e3fd-4ee0-8f9b-60fef10c4181</chapterId>
 
-### What is JavaScript?
-
-#### Definition
+### Definition and Why JavaScript Matters
 JavaScript is the **only** programming language that runs natively in web browsers. While other languages can run on servers or desktop applications, JavaScript is unique because it's built into every web browser, making it the universal language of web development.
 
-#### Why JavaScript Matters
 - **Interactivity** - Make websites respond to user actions
 - **Dynamic content** - Update pages without refreshing
 - **API integration** - Connect to external services and databases
 - **Real-time updates** - Display live data like Bitcoin prices
 - **User experience** - Create smooth, app-like experiences
 
-#### JavaScript's Role in Web Development
+**JavaScript's Role in Web Development**
 ```
 HTML (Structure) + CSS (Style) + JavaScript (Behavior) = Complete Web Application
 ```
@@ -2183,6 +2193,9 @@ async function safeFetchData() {
 }
 ```
 
+## Mastering the DOM in a Functional Pleb Wallet
+<chapterId>850c6fb1-a5d0-4864-ae60-f40246cc26b3</chapterId>
+
 ### DOM Manipulation: Updating Web Pages
 
 #### What is the DOM?
@@ -2259,6 +2272,8 @@ async function updateBitcoinPrice() {
 updateBitcoinPrice();
 setInterval(updateBitcoinPrice, 10000);
 ``` 
+
+
 
 ### Building the Pleb Wallet Project
 
@@ -2812,7 +2827,7 @@ function updateTransactionsList(transactions) {
 }
 ```
 
-### Hands-on Exercises
+### Practice & Resources of Javascript
 
 #### Exercise 1: Enhanced Price Display
 Extend the Bitcoin price functionality:
@@ -2939,31 +2954,31 @@ Add analytics to your wallet:
    - Show user when rate limited
    - Queue requests during high traffic
 
-### Learning Resources
+#### Learning Resources
 
-#### Essential JavaScript References
+**Essential JavaScript References**
 - **[MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)** - Comprehensive official documentation
 - **[W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)** - Beginner-friendly tutorials with examples
 - **[JavaScript.info](https://javascript.info/)** - Modern JavaScript tutorial
 - **[Can I Use](https://caniuse.com/)** - Check browser compatibility
 
-#### API and Async Programming
+**API and Async Programming**
 - **[Promises and Async/Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)** - Deep dive into asynchronous JavaScript
 - **[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)** - Modern alternative to XMLHttpRequest
 - **[JSON Working Group](https://www.json.org/)** - Official JSON specification
 
-#### Bitcoin and Lightning Development
+**Bitcoin and Lightning Development**
 - **[LNbits Documentation](https://lnbits.com/)** - Complete LNbits API reference
 - **[Lightning Network Basics](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md)** - Understanding Lightning Network
 - **[Bitcoin Developer Guide](https://developer.bitcoin.org/)** - Official Bitcoin development resources
 - **[Lightning Address](https://lightningaddress.com/)** - Human-readable Lightning addresses
 
-#### DOM Manipulation and Web APIs
+**DOM Manipulation and Web APIs**
 - **[DOM Manipulation Guide](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)** - Complete DOM reference
 - **[Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)** - Local and session storage
 - **[Progressive Web Apps](https://web.dev/progressive-web-apps/)** - Making web apps feel native
 
-#### Advanced JavaScript
+**Advanced JavaScript**
 - **[Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)** - Complete array method reference
 - **[JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)** - Organizing code into modules
 - **[Error Handling](https://javascript.info/try-catch)** - Comprehensive error handling guide
@@ -3112,15 +3127,15 @@ window.addEventListener('beforeunload', function() {
 3. **Keep API keys secure** - Don't expose in client-side code in production
 4. **Handle expired sessions** - Gracefully handle auth failures
 
-### Next Steps
+#### Next Steps
 
-#### Immediate Actions
+**Immediate Actions**
 1. **Complete the full wallet** with send/receive functionality
 2. **Test with real Lightning payments** using small amounts
 3. **Add error handling** to all API calls
 4. **Implement loading states** for better UX
 
-#### Prepare for Advanced Topics
+**Prepare for Advanced Topics**
 In future lessons, you'll learn:
 - **React** - Building more complex UIs with components
 - **State management** - Managing application data efficiently
@@ -3128,13 +3143,13 @@ In future lessons, you'll learn:
 - **Build tools** - Webpack, npm, and development workflows
 - **Testing** - Writing tests for your JavaScript code
 
-#### Building Your Portfolio
+**Building Your Portfolio**
 - **Enhance the wallet** with additional features
 - **Create new Bitcoin tools** - Price trackers, converters, etc.
 - **Contribute to open source** - Help improve LNbits or other projects
 - **Share your work** - Deploy to GitHub Pages or Vercel
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **JavaScript is essential** - The only language that runs in browsers
 2. **Async/await simplifies promises** - Use it for all API calls
@@ -3145,7 +3160,7 @@ In future lessons, you'll learn:
 7. **Bitcoin development is accessible** - You can build Lightning apps today
 8. **User experience matters** - Loading states and error messages improve apps
 
-### Complete Pleb Wallet Code
+#### Complete Pleb Wallet Code
 
 #### HTML (index.html)
 ```html
@@ -3392,12 +3407,14 @@ In the next lesson, we'll dive into **React** - a powerful library that makes bu
 
 The journey from here only gets more exciting! 🚀 
 
-## Learn Development Environments: Setting Up Your Professional Workflow
+# Learn Development Environments: Setting Up Your Professional Workflow
+<partId>5674be06-4861-408e-80ec-50182ce394a6</partId>
+
+## The Local Ecosystem
 <chapterId>dc9223b2-ac06-4288-a934-4a9846f146fc</chapterId>
 
 ### Why Development Environments Matter
 
-#### The Professional Developer Workflow
 Real developers don't just write code in isolation. They work within ecosystems of tools, services, and processes that enable:
 
 - **Collaboration** - Multiple developers working on the same codebase
@@ -3415,9 +3432,7 @@ Modern development typically involves three key environments:
 
 Each serves a specific purpose and they work together to create a professional development workflow. 
 
-### Setting Up Your Local Development Environment
-
-#### Installing Essential Tools
+### Installing Essential Tools: Node js, visual code and more 
 
 ##### Node.js: The JavaScript Runtime
 Node.js allows JavaScript to run outside of browsers and provides the foundation for modern web development tools.
@@ -3550,9 +3565,9 @@ Example with console.log:
 console.log() // Hover to see: "(method) Console.log(...data: any[]): void"
 ```
 
-#### Working with Projects
+### First Steps with Projects in Your Environment
 
-##### Opening Projects
+##### Opening Projects 
 Three ways to open projects in VS Code:
 1. **File → Open Folder** - Browse and select your project folder
 2. **Command line** - `code /path/to/your/project`
@@ -3590,9 +3605,10 @@ Configure settings per project by creating `.vscode/settings.json`:
 }
 ``` 
 
-### Git and GitHub: Version Control and Collaboration
+## Version Control Basics (Git)
+<chapterId>59aef5f2-0fe7-4008-83d3-752f22f4b609</chapterId>
 
-#### Understanding Git vs GitHub
+### Git and GitHub: Version Control and Collaboration
 
 ##### Git: The Version Control System
 Git is a **protocol** - a set of rules for tracking changes in code. Think of it as a sophisticated "Save" system that:
@@ -3639,7 +3655,7 @@ GitHub acts as your developer portfolio:
 - **Share easily** - send links to your projects
 - **Version history** - see how your code evolved
 
-#### Essential Git Terminology
+### Essential Git Terminology
 
 Understanding these terms is crucial for working with Git and GitHub:
 
@@ -3701,7 +3717,7 @@ A **request to merge** your branch into the main branch. It includes:
 - Experimenting with existing code
 - Creating your own version of a project
 
-#### Installing and Configuring Git
+### Installing and Configuring Git
 
 ##### Installation
 **Mac:** Git comes pre-installed, but you can update it:
@@ -3777,9 +3793,7 @@ cd your-repo-name
 code .
 ```
 
-#### Basic Git Workflow
-
-##### The Daily Git Workflow
+### The Daily Git Workflow
 This is what you'll do every time you make changes:
 
 ```bash
@@ -3938,46 +3952,47 @@ The green squares on your profile show:
 #### README Best Practices
 A good README includes:
 ```markdown
-## Project Name
-Brief description of what it does
+    ## Project Name
+    Brief description of what it does
 
-### Features
-- List key features
-- What makes it special
+    ### Features
+    - List key features
+    - What makes it special
 
-### Demo
-[Live Demo](https://your-app.vercel.app)
+    ### Demo
+    [Live Demo](https://your-app.vercel.app)
 
-### Screenshots
-![App Screenshot](screenshot.png)
+    ### Screenshots
+    ![App Screenshot](screenshot.png)
 
-### Installation
-Steps to run locally
+    ### Installation
+    Steps to run locally
 
-### Technologies Used
-- HTML, CSS, JavaScript
-- React, Node.js
-- LNbits, Bitcoin APIs
+    ### Technologies Used
+    - HTML, CSS, JavaScript
+    - React, Node.js
+    - LNbits, Bitcoin APIs
 
-### What I Learned
-- New skills gained
-- Challenges overcome
+    ### What I Learned
+    - New skills gained
+    - Challenges overcome
 ``` 
+
+## Moving to React Architecture
+<chapterId>68055299-b666-47de-925b-91783cca4ca6</chapterId>
 
 ### Introduction to React
 
-#### What is React?
-
 React is a **JavaScript library for building user interfaces**, particularly web applications. It was created by Facebook (now Meta) and has become the most popular way to build modern web applications.
 
-##### Why React Matters
+#### Why React Matters
 - **Industry standard** - Most companies use React for frontend development
 - **Component-based** - Build UIs as reusable pieces
 - **Easier to manage** - Organizes complex applications
 - **Better developer experience** - Powerful tools and debugging
 - **Job market** - High demand for React developers
 
-##### React vs Vanilla JavaScript
+#### React vs Vanilla JavaScript
 In previous lessons, we built applications with HTML, CSS, and JavaScript separately. This works for small projects but becomes difficult as applications grow:
 
 **Vanilla JavaScript challenges:**
@@ -3994,9 +4009,9 @@ In previous lessons, we built applications with HTML, CSS, and JavaScript separa
 - **Predictable state** - Easier to understand and debug
 - **Rich ecosystem** - Tools, libraries, and community support
 
-#### React Fundamentals
+### React Fundamentals
 
-##### Components: The Building Blocks
+#### Components: The Building Blocks
 React applications are built from **components** - reusable pieces of UI that combine HTML, CSS, and JavaScript:
 
 ```jsx
@@ -4017,7 +4032,7 @@ function BitcoinPrice() {
 - **Reusable** - Use the same component multiple times
 - **Composable** - Combine components to build complex UIs
 
-##### JSX: HTML in JavaScript
+#### JSX: HTML in JavaScript
 JSX lets you write HTML-like syntax directly in JavaScript:
 
 ```jsx
@@ -4097,9 +4112,9 @@ function BitcoinPrice() {
 - **Cleanup function** - Prevent memory leaks
 - **Lifecycle events** - React automatically manages when effects run
 
-#### Creating Your First React App
+### Creating Your First React App
 
-##### Using Create React App
+#### Using Create React App
 Create React App is a tool that sets up a complete React development environment with one command:
 
 ```bash
@@ -4123,7 +4138,7 @@ code .
 - **Testing setup** - Framework for writing tests
 - **Git repository** - Version control ready to go
 
-##### Project Structure Overview
+#### Project Structure Overview
 ```
 pleb-wallet-react/
 ├── public/
@@ -4176,6 +4191,7 @@ The `node_modules` folder contains all the code libraries your project depends o
 ##### Starting Your Development Server
 ```bash
 # Start the development server
+<partId>de47af6c-e9be-4456-96b6-d41f0cdd9a83</partId>
 npm start
 ```
 
@@ -4427,7 +4443,7 @@ React's development server provides hot reloading:
 - **State preserved** → No need to recreate app state
 - **Fast iteration** → See changes immediately
 
-##### Debugging React Apps
+### Debugging React Apps
 
 ##### Browser Developer Tools
 React provides additional debugging tools:
@@ -4467,9 +4483,10 @@ function BitcoinPrice() {
 }
 ``` 
 
-### Deploying to Production with Vercel
+## Deploying to Production with Vercel
+<chapterId>fe8fe942-0ae7-4f1b-8667-01ace11f3481</chapterId>
 
-#### What is Production Deployment?
+### What is Production Deployment?
 
 **Production deployment** means making your application available to real users on the internet. Up until now, your app only runs on your computer (`localhost:3000`). Deployment puts it on a real URL that anyone can visit.
 
@@ -4507,9 +4524,9 @@ Vercel automatically detects:
 - **Output directory** - `build/`
 - **Node.js version** - Uses latest stable version
 
-#### Understanding the Deployment Process
+### Understanding the Deployment Process
 
-##### What Happens During Deployment
+#### What Happens During Deployment
 1. **Code checkout** - Vercel downloads your GitHub repository
 2. **Install dependencies** - Runs `npm install`
 3. **Build application** - Runs `npm run build`
@@ -4528,7 +4545,7 @@ Vercel automatically detects:
 ✅ Creates production-ready files in build/ folder
 ```
 
-#### Live Deployment Workflow
+### Live Deployment Workflow
 
 ##### The Complete Workflow
 This is the professional development cycle you'll use:
@@ -4856,10 +4873,15 @@ git commit -m "Update documentation"
 git push origin main
 
 # Vercel automatically:
+<partId>cc2212b1-604c-479a-9b3e-2572bcb929eb</partId>
 # 1. Detects the push
+<partId>a8c1192c-4737-4212-b6dd-d6ec999e8d67</partId>
 # 2. Starts building
+<partId>134a9452-fde4-4a06-a820-1e00c4f78605</partId>
 # 3. Deploys new version
+<partId>39915c97-1fcd-4625-9ef4-e990b4825e2a</partId>
 # 4. Updates live URL
+<partId>db8ef232-4c24-4dd4-9f40-b1b6a7f329e0</partId>
 ```
 
 ##### Branch Previews
@@ -4996,9 +5018,9 @@ Contribute to the Bitcoin development community:
    - Learn from code review
    - Celebrate when merged!
 
-### Learning Resources
+#### Learning Resources
 
-#### Official Documentation
+**Official Documentation**
 - **[React Documentation](https://react.dev/)** - Official React docs with interactive examples
 - **[Create React App](https://create-react-app.dev/)** - Complete setup and configuration guide
 - **[Node.js Documentation](https://nodejs.org/docs/)** - Node.js and npm reference
@@ -5006,25 +5028,25 @@ Contribute to the Bitcoin development community:
 - **[GitHub Guides](https://guides.github.com/)** - Step-by-step GitHub tutorials
 - **[Vercel Documentation](https://vercel.com/docs)** - Deployment and hosting guide
 
-#### Development Tools
+**Development Tools**
 - **[Visual Studio Code](https://code.visualstudio.com/docs)** - Editor documentation and tutorials
 - **[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/)** - Browser extension for debugging
 - **[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)** - Quick Git command reference
 - **[npm Documentation](https://docs.npmjs.com/)** - Package management guide
 
-#### Bitcoin Development Resources
+**Bitcoin Development Resources**
 - **[Bitcoin Developer Documentation](https://developer.bitcoin.org/)** - Official Bitcoin development guide
 - **[Lightning Network Resources](https://lightning.network/lightning-network-paper.pdf)** - Lightning Network whitepaper
 - **[LNbits Documentation](https://lnbits.com/)** - Lightning wallet and account system
 - **[Bitcoin APIs](https://bitcoinbook.info/wp-content/themes/bitcoinbook/assets/appendix-bitcoin-apis.html)** - List of Bitcoin APIs
 
-#### React Learning Path
+**React Learning Path**
 - **[React Tutorial](https://react.dev/learn)** - Interactive tutorial from React team
 - **[React Hooks Guide](https://react.dev/reference/react)** - Complete hooks reference
 - **[React Patterns](https://reactpatterns.com/)** - Common React patterns and best practices
 - **[React Performance](https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render)** - Optimization techniques
 
-#### Project Ideas and Inspiration
+**Project Ideas and Inspiration**
 - **[GitHub Explore](https://github.com/explore)** - Discover trending repositories
 - **[Awesome Bitcoin](https://github.com/igorbarinov/awesome-bitcoin)** - Curated Bitcoin resources
 - **[React Projects](https://github.com/topics/react-projects)** - Example React applications
@@ -5068,7 +5090,7 @@ Contribute to the Bitcoin development community:
 4. **Keep dependencies updated** - Regularly update packages
 5. **Follow security advisories** - Subscribe to security notifications
 
-### Next Steps and Career Development
+#### Next Steps and Career Development
 
 #### Immediate Next Steps
 1. **Complete the course project** - Build and deploy your Bitcoin wallet
@@ -5109,7 +5131,7 @@ Contribute to the Bitcoin development community:
 - **Server-side rendering** - Next.js, Gatsby
 - **Mobile development** - React Native
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **Professional development requires proper tooling** - VS Code, Git, Node.js are industry standards
 2. **Version control is essential** - Git and GitHub are used by every professional developer
@@ -5137,12 +5159,13 @@ In future lessons, you'll learn:
 
 The journey continues, and you're well-equipped for what comes next! ⚡️🧡 
 
-## Learn React: Building the Pleb Wallet Frontend
+# Building the Pleb Wallet Frontend
+<partId>65ca5d69-60a4-4906-a293-ff87567f2299</partId>
+
+## The React Paradigm Shift
 <chapterId>9cb5b0d7-401b-4758-a1e6-03af4707f9b7</chapterId>
 
-### Why React Matters for Bitcoin Development
-
-#### The Problem with Vanilla JavaScript
+### The Problem with Vanilla JavaScript
 Our previous wallet worked, but it had limitations:
 - **Scattered code** - HTML, CSS, and JavaScript in separate files
 - **Manual DOM manipulation** - Tedious and error-prone updates
@@ -5157,8 +5180,6 @@ React solves these problems with:
 - **Automatic updates** - React updates DOM when data changes
 - **Developer tools** - Excellent debugging and development experience
 - **Industry adoption** - Used by Facebook, Netflix, Airbnb, and most Bitcoin companies
-
-### React from a High Level
 
 #### Understanding the Virtual DOM
 React's secret weapon is the Virtual DOM - a JavaScript representation of your actual webpage:
@@ -5264,9 +5285,11 @@ For our Lightning wallet, we'll create:
 - **Chart** - Real-time price visualization
 - **PaymentsModal** - Send/receive Lightning payments
 
+## React Syntax & Data Flow
+<chapterId>8741a311-7a6c-4268-b9fe-e2b1d64a59d1</chapterId>
+
 ### JSX: HTML in JavaScript
 
-#### What is JSX?
 JSX lets you write HTML-like syntax directly in JavaScript:
 
 ```jsx
@@ -5407,9 +5430,10 @@ useEffect(() => {
 }, [price]);
 ```
 
-### Building Our Lightning Wallet in React
+## Building Our Lightning Wallet in React
+<chapterId>409ef049-7b10-4dd1-97a3-45ac12fad6c7</chapterId>
 
-#### Project Setup
+### Project Setup & Environment
 Starting from our Create React App foundation:
 
 ```bash
@@ -6007,6 +6031,11 @@ useEffect(() => {
 }, []);
 ```
 
+
+
+## Deployment of Our Lightning Wallet & Career Path
+<chapterId>8a5b9a90-6580-4ca6-a747-81b2546b465b</chapterId>
+
 ### Deployment and Production
 
 #### Building for Production
@@ -6278,29 +6307,29 @@ test('can create lightning invoice', async () => {
 });
 ```
 
-### Learning Resources
+### The Bitcoin Developer Journey
 
-#### React Documentation
+#### Learning Resources & Advanced Topics
+
+**React Documentation**
 - **[React.dev](https://react.dev/)** - Official React documentation with interactive examples
 - **[React Hooks Reference](https://react.dev/reference/react)** - Complete hooks documentation
 - **[React Patterns](https://reactpatterns.com/)** - Common patterns and best practices
 
-#### React Learning Paths
+**React Learning Paths**
 - **[React Tutorial](https://react.dev/learn)** - Step-by-step interactive tutorial
 - **[FreeCodeCamp React Course](https://www.freecodecamp.org/learn/front-end-development-libraries/)** - Comprehensive free course
 - **[React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)** - For adding TypeScript
 
-#### Lightning Development
+**Lightning Development**
 - **[LNbits Documentation](https://lnbits.com/)** - Lightning wallet and account system
 - **[Lightning Network Paper](https://lightning.network/lightning-network-paper.pdf)** - Understanding Lightning Network
 - **[Bitcoin Development Guide](https://developer.bitcoin.org/)** - Official Bitcoin development resources
 
-#### Development Tools
+**Development Tools**
 - **[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/)** - Browser extension for debugging
 - **[Axios Documentation](https://axios-http.com/)** - HTTP client for API calls
 - **[React Modal](https://reactcommunity.org/react-modal/)** - Modal component documentation
-
-### Next Steps and Advanced Topics
 
 #### Immediate Next Steps
 1. **Complete the wallet project** - Implement all features from the lesson
@@ -6330,7 +6359,7 @@ test('can create lightning invoice', async () => {
 - **Start Your Own Project** - Lightning-powered business ideas
 - **Teach Others** - Share knowledge with the Bitcoin community
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **React transforms development** - Component-based architecture scales much better than vanilla JavaScript
 2. **State management is crucial** - useState and useEffect are the foundation of dynamic React apps
@@ -6360,7 +6389,7 @@ In the final lesson (Lesson 6), you'll learn:
 
 The journey to becoming a Bitcoin developer continues! 🚀 
 
-## Building Your Lightning Wallet with React
+## Designing for Lightning: Architecture & Setup
 <chapterId>3f282c6a-37b8-4532-80cf-98471f074101</chapterId>
 
 ### Why React for Lightning Development
@@ -6997,7 +7026,7 @@ function PaymentsModal({ modalState, setModalState }) {
 }
 ```
 
-### Package Management with NPM
+#### Package Management with NPM
 
 #### Installing and Managing Dependencies
 
@@ -7040,9 +7069,10 @@ npm audit
 }
 ```
 
-### Lightning Network Integration Deep Dive
+## Lightning Network Integration Deep Dive
+<chapterId>330b4bc6-b62c-40f7-a844-b032d8411242</chapterId>
 
-#### LNbits API Integration
+### LNbits API Integration
 
 Complete API integration for Lightning functionality:
 
@@ -7358,9 +7388,10 @@ if (!apiKey) {
 .env.production.local
 ```
 
-### Deployment and Production
+## Deployment, Exercises & Career
+<chapterId>eaac757d-c2f4-4a69-a6bc-d227e875a770</chapterId>
 
-#### Building for Production
+### Building for Production
 
 ```bash
 ## Create optimized production build
@@ -7395,7 +7426,7 @@ Set environment variables in Vercel dashboard:
 2. Add environment variables
 3. Redeploy to apply changes
 
-### Hands-on Exercises
+#### Hands-on Exercises
 
 #### Exercise 1: Enhanced Error Handling
 Add comprehensive error handling to your wallet:
@@ -7732,7 +7763,7 @@ Companies building on Lightning and Bitcoin:
 - **Fountain** - Lightning-powered podcasting
 - **Zap** - Lightning wallet and services
 
-### Key Takeaways
+#### Key Takeaways
 
 1. **React revolutionizes development** - Component-based architecture scales infinitely better than vanilla JavaScript
 2. **State management is everything** - useState and useEffect are the foundation of dynamic React applications
@@ -7745,7 +7776,7 @@ Companies building on Lightning and Bitcoin:
 9. **Performance optimization matters** - Memoization and code splitting improve user experience
 10. **Security is paramount** - Proper environment variable handling protects user funds
 
-### Final Project Checklist
+#### Final Project Checklist
 
 - [ ] **Bitcoin price display** - Real-time price from Coinbase API
 - [ ] **Wallet balance** - Live balance from LNbits wallet
@@ -7798,8 +7829,6 @@ The journey to becoming a Bitcoin developer continues! 🚀
 
 ## Final examination
 <chapterId>3e64a633-9c5c-41e1-8918-77594c6dce40</chapterId>
-
-
 
 
 <isCourseExam>true</isCourseExam>

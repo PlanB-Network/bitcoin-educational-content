@@ -1,0 +1,8 @@
+question: In a Lightning wallet application with admin-only sending capabilities, what architectural design pattern ensures proper permission enforcement when a regular user attempts to make outbound payments?
+answer: Server-side authentication middleware that validates admin privileges before processing Lightning payment requests and returns 401 errors for unauthorized users
+wrong_answers:
+  - Client-side JavaScript validation that hides the send payment interface from non-admin users while allowing all backend payment processing
+  - Database-level constraints that automatically reject payment transactions from users without admin flags set in their account records
+  - Lightning node configuration that creates separate channels for admin and regular users with different permission levels for outbound payments
+explanation: |
+  Proper security architecture requires server-side validation of admin privileges before processing any sensitive operations like Lightning payments. Client-side validation can be bypassed, database constraints don't prevent API calls, and Lightning channels don't have user-specific permission systems. The middleware approach ensures that even if someone bypasses the frontend, the backend will still enforce permissions and return appropriate 401 errors for unauthorized payment attempts.

@@ -1,0 +1,8 @@
+question: In a React component that uses useState to manage a Bitcoin wallet object, what is the correct approach to update only the balance property while preserving other properties?
+answer: Use the spread operator to create a new object: setWallet({...wallet, balance: newBalance})
+wrong_answers:
+  - Directly mutate the property: wallet.balance = newBalance; setWallet(wallet)
+  - Use Object.assign to modify the original: Object.assign(wallet, {balance: newBalance}); setWallet(wallet)
+  - Update the property then trigger re-render: wallet.balance = newBalance; forceUpdate()
+explanation: |
+  React state must be treated as immutable, meaning you cannot directly modify state objects. The spread operator creates a new object with all existing properties copied over, then overwrites specific properties with new values. This ensures React detects the state change and triggers a re-render. Direct mutation of state objects will not trigger re-renders and violates React's fundamental principles, leading to bugs and unpredictable behavior.

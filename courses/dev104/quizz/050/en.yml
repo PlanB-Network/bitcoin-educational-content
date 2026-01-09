@@ -1,0 +1,8 @@
+question: When examining a Git repository folder structure, what indicates that a regular project folder has been converted into a Git repository?
+answer: The presence of a hidden .git/ folder that contains all version control metadata
+wrong_answers:
+  - The presence of a visible git.config file in the root directory of the project
+  - "The presence of a README.md file that describes the project's version history"
+  - The presence of numbered backup folders like v1/, v2/, v3/ for each version
+explanation: |
+  A Git repository is distinguished from a regular folder by the presence of a hidden .git/ directory that contains all the version control metadata, tracking information, and history. This hidden folder is what gives the project folder its 'superpowers' for version control. The other options represent either incorrect file structures (git.config files don't indicate Git repos), documentation files (README.md is optional and doesn't create version control), or manual backup methods (numbered folders) that represent the chaotic approach Git was designed to replace.

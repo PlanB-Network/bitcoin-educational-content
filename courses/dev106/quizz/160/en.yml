@@ -1,0 +1,8 @@
+question: In a Lightning wallet database, what SQL query would correctly show all users along with their total invoice values, including users who have never created any invoices?
+answer: SELECT Users.username, COALESCE(SUM(Invoices.value), 0) as total_value FROM Users LEFT JOIN Invoices ON Users.id = Invoices.user_id GROUP BY Users.id
+wrong_answers:
+  - SELECT Users.username, SUM(Invoices.value) as total_value FROM Users INNER JOIN Invoices ON Users.id = Invoices.user_id GROUP BY Users.id
+  - SELECT Users.username, COUNT(Invoices.value) as total_value FROM Users RIGHT JOIN Invoices ON Users.id = Invoices.user_id GROUP BY Users.id
+  - SELECT Users.username, AVG(Invoices.value) as total_value FROM Users FULL OUTER JOIN Invoices ON Users.id = Invoices.user_id GROUP BY Users.id
+explanation: |
+  The correct answer uses LEFT JOIN to include all users even without invoices, SUM to calculate total values, and COALESCE to convert NULL results to 0 for users with no invoices. INNER JOIN would exclude users without invoices. COUNT would count records not sum values. RIGHT JOIN would exclude users without invoices and potentially include orphaned invoices. AVG calculates average not total, and FULL OUTER JOIN is unnecessary complexity here.

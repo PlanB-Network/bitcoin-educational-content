@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React application, what is the most significant architectural implication of using component-based state management with React hooks instead of a centralized state management solution like Redux?
+answer: Each component manages its own state locally, requiring prop drilling and potential state synchronization issues between components
+wrong_answers:
+  - All application state is automatically persisted to localStorage, creating security vulnerabilities for sensitive wallet data
+  - Component re-renders are eliminated entirely, improving performance but making real-time balance updates impossible to implement
+  - State mutations become immutable by default, preventing any dynamic updates to wallet balances or transaction histories
+explanation: |
+  The Pleb Wallet uses local component state with React hooks (useState) in App.js, which means state is managed at the component level rather than in a centralized store. This approach requires passing data down through props (prop drilling) and can lead to synchronization challenges when multiple components need access to the same data. While this works for smaller applications, it can become complex as the app grows, unlike centralized solutions that provide a single source of truth for application state.

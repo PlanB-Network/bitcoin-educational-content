@@ -1,0 +1,8 @@
+question: What is the fundamental reason why relational databases organize data into tables with rows and columns rather than using a flat file structure?
+answer: To enable efficient searching, sorting, and querying through structured organization
+wrong_answers:
+  - To reduce the total storage space required for large amounts of data
+  - To automatically encrypt sensitive data and provide built-in security features
+  - To eliminate the need for backup systems and data recovery procedures
+explanation: |
+  The structured organization of relational databases into tables with rows and columns is specifically designed to make data easily accessible and manageable through efficient searching, sorting, and querying operations. This organized structure is what makes databases powerful compared to simple file storage. The wrong answers focus on storage optimization, security, and backup features, which are benefits of databases but not the fundamental reason for their tabular structure. The core purpose is to provide a systematic way to organize and retrieve data efficiently.

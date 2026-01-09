@@ -1,0 +1,8 @@
+question: In the User model implementation, what is the fundamental difference between the findAll() and findByUsername() methods in terms of their return value structure?
+answer: findAll() returns a Promise that resolves to an array of user objects, while findByUsername() returns a Promise that resolves to a single user object or undefined
+wrong_answers:
+  - findAll() returns a Promise that resolves to a single user object, while findByUsername() returns a Promise that resolves to an array of user objects
+  - findAll() returns a synchronous array of users, while findByUsername() returns an asynchronous Promise containing a single user object
+  - findAll() returns a Knex query builder object, while findByUsername() returns a Promise that resolves to a database connection instance
+explanation: |
+  The key distinction lies in the use of the .first() method in findByUsername(). The findAll() method executes db('users') which returns all matching records as an array, resulting in Promise<User[]>. In contrast, findByUsername() uses .where({ username }).first(), where the .first() method limits the result to only the first matching record, returning Promise<User | undefined>. This architectural difference is crucial for API endpoints - you use findAll() when you need multiple users (like in admin dashboards) and findByUsername() when you need to authenticate or fetch a specific user's data.

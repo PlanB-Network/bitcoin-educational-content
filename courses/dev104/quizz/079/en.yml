@@ -1,0 +1,8 @@
+question: Which production environment consideration is most critical for ensuring Lightning Network channel liquidity management in a deployed wallet application?
+answer: Implementing automated channel rebalancing algorithms with proper fee management and liquidity monitoring systems
+wrong_answers:
+  - Configuring static channel capacity limits with fixed routing parameters and manual intervention protocols
+  - Establishing direct channels only with major hub nodes while avoiding smaller network participants
+  - Setting up centralized liquidity pools that require periodic manual redistribution across all channels
+explanation: |
+  Automated channel rebalancing with proper fee management is essential for production Lightning wallets because channels can become unbalanced through normal usage, making them unusable for payments in one direction. Static configurations lack the flexibility needed for dynamic network conditions, direct channels only with hubs create centralization risks and limit routing options, and manual redistribution doesn't scale for production environments where immediate liquidity adjustments are crucial for user experience.

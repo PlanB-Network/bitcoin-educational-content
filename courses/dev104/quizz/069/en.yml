@@ -1,0 +1,8 @@
+question: In a React component, what is the correct way to handle cleanup operations like clearing intervals or removing event listeners when using useEffect?
+answer: Return a cleanup function from the useEffect callback that performs the cleanup operations
+wrong_answers:
+  - Call the cleanup operations directly at the end of the useEffect callback function
+  - Use a separate useCleanup hook to handle cleanup operations when the component unmounts
+  - Pass the cleanup operations as a second parameter to the useEffect hook function
+explanation: |
+  The correct approach is to return a cleanup function from the useEffect callback. React automatically calls this returned function when the component unmounts or before the effect runs again. This prevents memory leaks and ensures proper resource management. The other options are not valid React patterns - there's no useCleanup hook, cleanup operations can't be passed as a second parameter, and calling cleanup directly at the end of useEffect won't work for component unmounting scenarios.

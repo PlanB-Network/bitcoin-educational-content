@@ -1,0 +1,8 @@
+question: What is the primary purpose of implementing rate limiting middleware in a Node.js Express application?
+answer: To prevent Denial of Service attacks by limiting the number of requests per IP address within a specific time window
+wrong_answers:
+  - To automatically compress response data and reduce bandwidth usage for improved server performance
+  - To encrypt all incoming HTTP requests and responses to ensure data security during transmission
+  - To cache frequently requested resources in memory to speed up response times for users
+explanation: |
+  Rate limiting middleware is specifically designed to protect against DoS attacks by controlling how many requests an IP address can make within a certain timeframe. When the limit is exceeded, the server responds with a 429 'Too Many Requests' status code. This prevents attackers from overwhelming the server with repetitive requests, which is the core pattern of most cyber attacks. The other options describe different middleware functionalities: compression middleware handles data compression, security middleware like Helmet manages encryption headers, and caching middleware stores frequently accessed data.

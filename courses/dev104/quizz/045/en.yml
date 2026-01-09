@@ -1,0 +1,8 @@
+question: What happens when you enable 'Format On Save' in VS Code with Prettier extension installed?
+answer: Your code is automatically formatted according to consistent style rules every time you save a file
+wrong_answers:
+  - Your code is automatically saved to a remote repository whenever you make changes
+  - Your code is automatically compiled and deployed to the production environment on each save
+  - Your code is automatically backed up to a local backup folder each time you save
+explanation: |
+  When 'Format On Save' is enabled with Prettier, VS Code automatically applies consistent formatting rules (indentation, spacing, line breaks) to your code each time you save a file. This ensures professional, readable code without manual formatting effort. The wrong answers confuse this with version control, deployment, or backup processes, which are separate functionalities that require different tools and configurations.

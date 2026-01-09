@@ -1,0 +1,8 @@
+question: What happens to the execution flow when middleware function 2 calls res.send() without calling next() in a chain of three middleware functions?
+answer: The request-response cycle terminates and middleware function 3 never executes
+wrong_answers:
+  - All three middleware functions execute but only the first response is sent to the client
+  - Middleware function 3 executes but cannot send another response due to headers already being sent
+  - An error is thrown and the application crashes because next() was not called
+explanation: |
+  When a middleware function sends a response using res.send(), res.json(), or similar methods, it terminates the request-response cycle immediately. Control is not passed to subsequent middleware functions unless next() is explicitly called before sending the response. In the example, middleware function 2 sends 'Hello World!' and ends the cycle, so middleware function 3 never executes at all. This is the normal behavior in Express.js - once a response is sent, the cycle is complete.

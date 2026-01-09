@@ -1,8 +1,8 @@
-question: What does the 'name' attribute in HTML form elements primarily accomplish?
-answer: It identifies form fields so data can be passed to servers
+question: Which HTML element would be most appropriate for creating a clickable link that appears within a paragraph of text?
+answer: The <a> element because it is an inline element designed for links
 wrong_answers:
-  - It sets the visible label text that users see on the webpage
-  - It determines the visual styling and appearance of the form element
-  - It creates unique anchor links for navigation within the page
+  - The <div> element because it can contain any type of content including links
+  - The <p> element because it is specifically designed for text content
+  - The <span> element because it can be styled to look like a clickable link
 explanation: |
-  The 'name' attribute in HTML form elements serves as an identifier that allows form data to be properly transmitted to servers when the form is submitted. When a user fills out a form and clicks submit, the server receives the data in name-value pairs, where the 'name' attribute becomes the key that identifies each piece of data. This is different from visible labels (which require separate label elements), styling (which is handled by CSS or style attributes), or navigation anchors (which use the 'id' attribute instead).
+  The <a> element is specifically designed for creating hyperlinks and is an inline element, which means it can appear within other content without forcing line breaks. This makes it perfect for links within paragraphs. While <div> can contain links, it's a block element that would disrupt text flow. The <p> element is for paragraphs, not links specifically. Although <span> is inline, it's a generic container without the semantic meaning and built-in link functionality of <a>.

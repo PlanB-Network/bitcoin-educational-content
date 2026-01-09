@@ -1,0 +1,8 @@
+question: In Knex.js seed files, what is the primary reason for using await knex('users').del() before inserting new data?
+answer: To ensure idempotent operations by clearing existing data and preventing duplicate entries when seeds are run multiple times
+wrong_answers:
+  - To optimize database performance by defragmenting the table structure before adding new records
+  - To reset the auto-increment counter and ensure primary key values start from the beginning sequence
+  - To validate table schema integrity and confirm all required columns exist before data insertion
+explanation: |
+  The del() operation ensures seeds are idempotent, meaning they produce the same result regardless of how many times they're executed. Without clearing existing data first, running seeds multiple times would create duplicate entries or cause unique constraint violations. This is essential for development workflows where seeds need to be re-run frequently to reset the database to a known state.

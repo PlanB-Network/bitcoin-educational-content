@@ -1,0 +1,8 @@
+question: What analogy is used to describe asynchronous operations in Node.js?
+answer: Text messaging where responses come when convenient
+wrong_answers:
+  - Phone calls where both parties must be present
+  - Email chains where messages are sent in sequence
+  - Video conferences where everyone joins simultaneously
+explanation: |
+  The chapter uses text messaging as the analogy for asynchronous operations because, like async code, text messages don't require both parties to be actively engaged at the same time - responses come when convenient. Phone calls represent synchronous operations since both parties must be present simultaneously. Email chains and video conferences don't accurately capture the non-blocking, event-driven nature of asynchronous programming where tasks can be initiated and completed independently of the main execution flow.

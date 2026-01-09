@@ -1,0 +1,8 @@
+question: In a React component using useEffect with a dependency array containing [price, currency], what happens when only the price value changes from 50000 to 55000 while currency remains 'USD'?
+answer: The useEffect runs once because React detects that price has changed in the dependency array
+wrong_answers:
+  - The useEffect runs twice, once for the price change and once to confirm currency is unchanged
+  - "The useEffect doesn't run because currency didn't change and both dependencies must change to trigger"
+  - The useEffect runs continuously until both price and currency values stabilize to prevent inconsistent state
+explanation: |
+  React's useEffect hook with dependencies performs a shallow comparison on each value in the dependency array after every render. When any dependency changes (like price going from 50000 to 55000), the effect runs exactly once. React doesn't require all dependencies to change simultaneously - any single change triggers the effect. The hook doesn't run multiple times for a single render cycle, nor does it require all dependencies to change together.

@@ -1,8 +1,8 @@
-question: What is the primary purpose of having three distinct environments (local, remote repository, and production) in a professional development workflow?
-answer: To enable safe development, collaboration, and deployment by separating where code is written, stored/shared, and accessed by users
+question: What is the recommended method for integrating CSS into HTML documents?
+answer: External stylesheets linked via the <link> element
 wrong_answers:
-  - To provide redundant backups of the same codebase in case one environment fails or becomes corrupted
-  - To allow different programming languages to be used in each environment based on performance requirements
-  - To ensure that each developer on the team has their own dedicated workspace without interfering with others
+  - Internal styles within <style> tags in the head section
+  - Inline styles using the style attribute on HTML elements
+  - Embedded CSS directly within JavaScript functions
 explanation: |
-  The three environments serve distinct purposes in the development lifecycle: local environments allow developers to write and test code safely, remote repositories (like GitHub) facilitate code storage and team collaboration through version control, and production environments host the live application for end users. This separation ensures code quality, enables teamwork, and prevents development work from affecting live systems. The other options misunderstand the purpose - these aren't backup systems, don't require different languages, and aren't about giving developers separate workspaces but rather about creating a structured workflow from development to deployment.
+  External stylesheets are the recommended method because they provide clean separation of concerns, keeping HTML focused on structure while CSS handles presentation. This approach offers the best reusability across multiple pages, improved organization and maintainability, and better performance through browser caching. While internal styles are acceptable for limited use and inline styles work functionally, they create maintenance challenges and violate the principle of separating content from presentation.

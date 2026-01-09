@@ -1,0 +1,8 @@
+question: In the React Lightning wallet architecture, what is the primary responsibility of the App component regarding data management and API integration?
+answer: The App component holds all state and centralizes API integration, sharing data to child components via props
+wrong_answers:
+  - The App component delegates state management to child components and handles only UI rendering responsibilities
+  - The App component manages only authentication state while child components handle their own API calls independently
+  - The App component serves as a router that distributes API calls to specialized service components for data management
+explanation: |
+  According to the data flow architecture outlined, the App component serves as the central state container holding all wallet state (price, balance, transactions, chart data) and centralizes API integration. Child components receive this data through props and communicate back through callbacks, creating a predictable unidirectional data flow. This centralized approach prevents the scattered architecture problems mentioned with vanilla JavaScript implementations, where logic was spread across multiple files and state synchronization was difficult to manage.

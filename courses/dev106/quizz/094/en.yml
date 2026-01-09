@@ -1,0 +1,8 @@
+question: What is the recommended file extension for environment variables in an Express.js project?
+answer: .env
+wrong_answers:
+  - .config
+  - .vars
+  - .settings
+explanation: |
+  The correct answer is .env, which is the standard file extension for environment variables in Node.js and Express.js projects. This file stores sensitive configuration data like database URLs, API keys, and port numbers that shouldn't be hardcoded in the application. The .env file is typically placed in the project root directory and loaded using packages like dotenv. The other options (.config, .vars, .settings) are not standard conventions for environment variable files in the Node.js ecosystem.

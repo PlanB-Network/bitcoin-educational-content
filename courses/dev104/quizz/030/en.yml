@@ -1,8 +1,8 @@
-question: When designing a React Lightning wallet's component hierarchy, what is the most critical architectural principle for managing complex state interactions between balance updates, transaction history, and real-time price data?
-answer: Centralizing all state in the App component and distributing data through props while collecting events through callbacks
+question: In the Pleb Wallet project, what CSS selector technique is used to create hover effects that change button opacity when users interact with them?
+answer: The :hover pseudo-class selector combined with the opacity property
 wrong_answers:
-  - Distributing state across individual components and using event emitters to synchronize data between sibling components
-  - Creating separate state managers for each data type and using global variables to share information between components
-  - Implementing direct component-to-component communication through refs and allowing each component to manage its own state independently
+  - The :active pseudo-element selector combined with the transform property
+  - The :focus class selector combined with the visibility property
+  - The :target pseudo-class selector combined with the display property
 explanation: |
-  The correct approach centralizes state management in the App component, which serves as the single source of truth for all wallet data including balance, transactions, and price information. This creates a predictable unidirectional data flow where props flow down to child components and events flow up through callbacks. The wrong answers represent anti-patterns that lead to scattered state, synchronization issues, and unpredictable data flow - exactly the problems React was designed to solve. Distributing state across components or using global variables creates the same architectural problems that plagued vanilla JavaScript implementations.
+  The :hover pseudo-class selector is the correct CSS technique for creating interactive effects when users hover over elements. In the Pleb Wallet, it's combined with the opacity property to create smooth fade effects on buttons. The :active selector triggers on click rather than hover, :focus is for keyboard navigation, and :target is for anchor links. Pseudo-elements like ::before are for adding content, while visibility and display properties control element visibility rather than creating smooth interactive effects like opacity does.

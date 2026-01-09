@@ -1,0 +1,8 @@
+question: In the Lightning wallet database schema, why is the 'fees' field allowed to be null while the 'value' field is marked as notNullable?
+answer: Fees are only known after a payment is completed and routed through the Lightning network, while the invoice value is always known at creation time
+wrong_answers:
+  - Fees are optional because users can choose whether to pay routing fees, while the value represents the mandatory base payment amount
+  - Fees are calculated by external services that may be unavailable, while the value is computed locally and always accessible
+  - Fees can be waived for certain transaction types like internal transfers, while the value must always reflect the actual payment amount
+explanation: |
+  The 'fees' field is nullable because routing fees in the Lightning Network are only determined and known after a payment has been successfully routed through the network channels. Until the payment is actually sent and completed, there's no way to know what the routing fees will be, hence the field starts as null. In contrast, the 'value' field represents the invoice amount which is always known when the invoice is created, whether it's an incoming or outgoing payment, making it a required field that cannot be null.

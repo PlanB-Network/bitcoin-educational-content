@@ -1,0 +1,8 @@
+question: When you want to create a function that displays a personalized greeting message using a user's name, which approach follows JavaScript best practices?
+answer: Use template literals with backticks and ${} syntax: `Hello ${name}!`
+wrong_answers:
+  - 'Use string concatenation with + operator: "Hello " + name + "!"'
+  - 'Use double quotes with variable insertion: "Hello name!" where name gets replaced'
+  - "Use single quotes with comma separation: 'Hello', name, '!' joined together"
+explanation: |
+  Template literals with backticks (`) and ${} syntax are the modern JavaScript best practice for string interpolation. This approach avoids conflicts with apostrophes in text, makes variable insertion cleaner and more readable, and supports multi-line strings. String concatenation with + operators works but is more error-prone and harder to read, especially with complex expressions. The other options describe non-existent or incorrect JavaScript syntax for variable insertion.

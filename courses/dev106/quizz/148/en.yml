@@ -1,0 +1,8 @@
+question: When designing a database schema for a Lightning wallet application, which constraint would be most critical to apply to the payment_request field in the Invoices table?
+answer: UNIQUE constraint to prevent duplicate Lightning invoice strings
+wrong_answers:
+  - CHECK constraint to validate the payment amount is positive
+  - NOT NULL constraint to ensure every invoice has a payment request
+  - FOREIGN KEY constraint to link payment requests to user accounts
+explanation: |
+  The UNIQUE constraint on the payment_request field is most critical because Lightning invoice strings must be unique across the entire system to prevent double-spending and ensure proper payment routing. Each Lightning invoice represents a specific payment request that should only be settled once. While NOT NULL is also important, UNIQUE is more critical for Lightning-specific functionality. CHECK constraints are used for amount validation, and FOREIGN KEY constraints link tables but don't apply to the payment_request field itself, which contains the actual Lightning invoice string rather than a reference to another table.

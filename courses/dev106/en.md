@@ -9,28 +9,37 @@ objectives:
 ---
 
 # Course Overview
-Welcome to PlebDevs Backend Course! In this comprehensive 13-lesson journey, we'll transform you from a JavaScript developer into a proficient backend developer with a special focus on Lightning App Development. This course builds on frontend fundamentals to create robust server-side applications.
 
-**What You'll Build**
-Throughout this course, you'll build a complete **Lightning Wallet Backend** that includes:
-- Node.js server with Express
-- User authentication & authorization with JWTs
-- Local Lightning development environment
-- Lightning integration using LND
-- SQL database with Knex
-- Full deployment pipeline
+Unlock the power of server-side JavaScript and build scalable, high-performance applications. This course is designed for aspiring developers who want to master the Node.js ecosystem from the ground up. You will go from installing your first environment to deploying professional-grade APIs, learning about the event loop, asynchronous programming, and the massive NPM library along the way. Practical, project-based, and aligned with industry standards.
 
 +++
 
-# Introducing Node JS seccion
+# Introduction
+<partId>b2642fea-3242-4ead-bda5-c02a8811d0fd</partId>
+
+## Course overview
+<chapterId>45922af8-b89c-47a9-b548-1900838dc55d</chapterId>
+
+Welcome to the world of Node.js. In this initial chapter, we will explore why Node.js has become the industry standard for building fast and scalable network applications. We will break down the myth that "JavaScript is only for browsers" and see how the V8 engine allows us to run powerful code directly on servers.
+
+### Prerequisites
+* Basic knowledge of JavaScript (variables, functions, and objects).
+* A code editor installed (VS Code recommended).
+* Access to a terminal or command prompt.
+
+### What we will build
+We will start by creating a "System Information Tool," a small script that interacts with your operating system to display hardware stats, serving as your first step into the Node.js runtime.
+
+Ready to dive into the fascinating world of Bitcoin Development, specifically the backend side,  and understand all its inner workings? Let's go!
+
+# Node.js & Module System
 <partId>d6635b9f-bef8-4c25-914a-c7431adb14a6</partId>
 
-## Learn Node.js - Introduction to Node.js and the Server Environment
+## Node.js Environment
 <chapterId>986f478c-6780-4a64-a191-5816c8da454d</chapterId>
 
-### What is Node.js?
+### Introducing Node.js
 
-#### Definition
 Node.js is a **JavaScript runtime** built on the V8 engine that allows you to run JavaScript code outside of a web browser.
 
 #### Key Components
@@ -90,9 +99,10 @@ The **client-server model** is a fundamental concept in web development:
 - **Web scraping** - Automated data collection
 - **REST APIs** - The foundation of modern web services
 
-### Essential Node.js Concepts
+## Modules and Packages
+<chapterId>bf5ac02b-933a-479d-93dd-fbf47a427cf1</chapterId>
 
-#### 1. Modules and the CommonJS System
+### Modules and the CommonJS System
 
 ##### What Are Modules?
 Modules are self-contained units of code that:
@@ -130,7 +140,7 @@ const { add, subtract } = require('./math');
 console.log(add(5, 3)); // 8
 ```
 
-#### 2. Node Package Manager (NPM)
+### Node Package Manager (NPM)
 
 ##### What is NPM?
 NPM is a package manager that:
@@ -147,7 +157,7 @@ npm install axios     # Install a package
 npm install           # Install all dependencies
 ```
 
-##### Working with Built-in Modules
+### Working with Built-in Modules
 Node.js provides many built-in modules for common tasks:
 
 ```javascript
@@ -164,41 +174,6 @@ console.log(os.platform());
 console.log(os.architecture());
 ```
 
-### Setting Up Your First Node.js Project
-
-#### Step 1: Installation
-1. Visit [nodejs.org](https://nodejs.org)
-2. Download the LTS version for your operating system
-3. Run the installer and follow the prompts
-4. Verify installation:
-```bash
-node --version
-npm --version
-```
-
-#### Step 2: Create Your Project
-```bash
-# Create project directory
-mkdir hello-node
-cd hello-node
-
-## Initialize Node.js project
-npm init -y
-
-## Create main file
-touch index.js  # or create in your code editor
-```
-
-#### Step 3: Your First Node.js Code
-```javascript
-// index.js
-console.log("Hello, Node.js!");
-```
-
-#### Step 4: Run Your Code
-```bash
-node index.js
-```
 
 ### Hands-on Mini Project: Command-Line Greeting App
 
@@ -248,6 +223,9 @@ node index.js
 5. **Display result**: Shows greeting with user's name and timestamp
 6. **Close interface**: Properly terminates the program
 
+## Async Logic & Project Setup
+<chapterId>c605916f-4a5e-4c2c-ac4d-8e556f454012</chapterId>
+
 ### Understanding Node.js Under the Hood
 
 #### The Event Loop
@@ -285,6 +263,42 @@ fs.readFile('data.txt', 'utf8', (err, data) => {
 console.log('This runs BEFORE the file is read');
 ```
 
+### Setting Up Your First Node.js Project
+
+#### Step 1: Installation
+1. Visit [nodejs.org](https://nodejs.org)
+2. Download the LTS version for your operating system
+3. Run the installer and follow the prompts
+4. Verify installation:
+```bash
+node --version
+npm --version
+```
+
+#### Step 2: Create Your Project
+```bash
+# Create project directory
+mkdir hello-node
+cd hello-node
+
+## Initialize Node.js project
+npm init -y
+
+## Create main file
+touch index.js  # or create in your code editor
+```
+
+#### Step 3: Your First Node.js Code
+```javascript
+// index.js
+console.log("Hello, Node.js!");
+```
+
+#### Step 4: Run Your Code
+```bash
+node index.js
+```
+
 ### Best Practices for Node.js Development
 
 #### 1. Project Organization
@@ -304,7 +318,7 @@ console.log('This runs BEFORE the file is read');
 - Comment complex logic
 - Keep functions small and focused
 
-### Common Issues and Solutions
+#### Common Issues and Solutions
 
 #### 1. "Module not found" Error
 **Problem**: `Error: Cannot find module 'module-name'`
@@ -331,7 +345,7 @@ npx package-name
 npm config set prefix '~/.npm-global'
 ```
 
-### Exercise: Build Your First Node.js App
+#### Exercise: Build Your First Node.js App
 
 #### Challenge
 Create a simple calculator app that:
@@ -358,7 +372,7 @@ const rl = readline.createInterface({
 4. Handle division by zero
 5. Close the interface properly
 
-### Additional Resources
+### Additional Resources and Next Steps of Node Js
 
 #### Documentation
 - [Node.js Official Documentation](https://nodejs.org/en/docs/)
@@ -374,7 +388,6 @@ const rl = readline.createInterface({
 - [Nodemon](https://nodemon.io/) - Auto-restart server during development
 - [Node.js Debugger](https://nodejs.org/en/docs/guides/debugging-getting-started/) - Built-in debugging tools
 
-### Next Steps
 
 #### Immediate Actions
 1. **Set up Node.js** on your development machine
@@ -382,7 +395,7 @@ const rl = readline.createInterface({
 3. **Experiment** with different built-in modules
 4. **Practice** the require/module.exports pattern
 
-#### Prepare for Lesson 2
+#### Prepare for next Lesson 
 In our next lesson, we'll dive into building our first server using Express.js. We'll cover:
 - Setting up an Express server
 - Creating routes and endpoints
@@ -396,18 +409,20 @@ In our next lesson, we'll dive into building our first server using Express.js. 
 - NPM provides access to millions of packages
 - Asynchronous programming is fundamental to Node.js
 
-### Remember
+#### Remember
 Every expert was once a beginner. Node.js might seem overwhelming at first, but it's built on JavaScript fundamentals you already know. Focus on understanding the concepts, practice regularly, and don't be afraid to experiment.
 
 The journey from frontend to full-stack developer starts with this single step. You're not just learning Node.js – you're building the foundation for creating powerful, scalable applications that can handle real-world traffic and solve real problems.
 
-Ready to build your first server? Let's continue to Lesson 2! 🚀 
+Ready to build your first server? Let's continue to next Lesson! 🚀 
 
+# Building APIs with Express
+<partId>159cb08d-a0de-4259-94cb-a5c7df238ac1</partId>
 
-## Lesson 2: Learn Express Basics - Building Your First Server
+## Express Server Basics 
 <chapterId>dabebb1d-26a3-4101-bd6b-8d7a67e3b746</chapterId>
 
-### What are HTTP APIs?
+### Understanding HTTP APIs
 
 #### Definition
 An **HTTP API** (Application Programming Interface) is a web-based interface that allows communication between different systems or applications over the internet using the HTTP protocol.
@@ -597,6 +612,9 @@ server.listen(PORT, () => {
 - `server.listen()` starts the server
 - Callback function runs when server is ready
 
+## Requests, Responses & Testing
+<chapterId>3d95cc16-925c-47ff-9177-f96bf218b31a</chapterId>
+
 ### Understanding Request and Response Objects
 
 #### The Request Object (req)
@@ -654,7 +672,7 @@ res.status(404).json({ error: "User not found" });
 res.status(500).json({ error: "Server error" });
 ```
 
-### Testing Your API
+### Testing Your API (Insomnia/Postman)
 
 #### Using Insomnia or Postman
 
@@ -773,6 +791,9 @@ server.listen(PORT, () => {
 });
 ```
 
+## Building Your Express.js Server 
+<chapterId>90b9132e-8f1a-4012-a6e7-c5572c2d1a58</chapterId>
+
 ### Best Practices for Express Development
 
 #### 1. Project Organization
@@ -846,7 +867,7 @@ server.post("/users", (req, res) => {
 });
 ```
 
-### Common Issues and Solutions
+#### Common Issues and Solutions
 
 #### 1. Port Already in Use
 **Problem**: `Error: listen EADDRINUSE :::5500`
@@ -948,51 +969,6 @@ server.delete("/tasks/:id", (req, res) => {
 });
 ```
 
-### Understanding Middleware
-
-#### What is Middleware?
-Middleware functions are functions that have access to the request object, response object, and the next middleware function in the application's request-response cycle.
-
-#### Built-in Middleware
-```javascript
-// JSON parsing middleware
-server.use(express.json());
-
-// URL-encoded form data
-server.use(express.urlencoded({ extended: true }));
-
-// Serve static files
-server.use(express.static('public'));
-```
-
-#### Custom Middleware
-```javascript
-// Logging middleware
-const logger = (req, res, next) => {
-  console.log(`${req.method} ${req.url} - ${new Date().toISOString()}`);
-  next(); // Pass control to next middleware
-};
-
-server.use(logger);
-
-// Authentication middleware (coming in later lessons)
-const authenticate = (req, res, next) => {
-  // Check for valid token
-  const token = req.headers.authorization;
-  
-  if (!token) {
-    return res.status(401).json({ error: "No token provided" });
-  }
-  
-  // Verify token logic here
-  next();
-};
-
-// Use on specific routes
-server.get("/protected", authenticate, (req, res) => {
-  res.json({ message: "You are authenticated!" });
-});
-```
 
 ### Environment Variables and Configuration
 
@@ -1070,10 +1046,9 @@ server.post("/users", (req, res) => {
 });
 ```
 
-### Next Steps and Advanced Concepts
 
 #### What's Coming Next
-In Lesson 3, we'll dive deeper into:
+we'll dive deeper into:
 - Advanced routing with Express Router
 - Database integration with SQL
 - User authentication and authorization
@@ -1094,8 +1069,6 @@ In Lesson 3, we'll dive deeper into:
 - Middleware provides a powerful way to extend functionality
 - Proper error handling is essential for robust APIs
 
-### Additional Resources
-
 #### Official Documentation
 - [Express.js Official Documentation](https://expressjs.com/)
 - [Node.js HTTP Module](https://nodejs.org/api/http.html)
@@ -1111,7 +1084,7 @@ In Lesson 3, we'll dive deeper into:
 - [Postman](https://www.postman.com/) - Alternative API testing
 - [Nodemon](https://nodemon.io/) - Development server auto-restart
 
-### Summary
+#### Summary
 
 Congratulations! You've just built your first Express.js server and learned the fundamentals of HTTP API development. You now understand:
 
@@ -1126,13 +1099,13 @@ This foundation is crucial for everything we'll build in the rest of the course.
 
 The journey from understanding Node.js to building production-ready APIs is well underway. You're not just learning Express.js - you're mastering the patterns and practices that power modern web applications.
 
-Ready to add a database to your server? Let's continue to Lesson 3! 🚀 
+Ready to add a database to your server? Let's continue to the next lesson! 🚀 
 
-## Lesson 3: Learn Express Router
+
+## Modular Routing
 <chapterId>11c569de-ecee-4dec-9bff-a45f60fe038f</chapterId>
 
-
-### Key Concepts about Express Router
+### Express Router Concepts
 
 #### REST APIs
 **REST** (Representational State Transfer) is a widely adopted philosophy for building APIs that can communicate in a structured way. Think of REST as a common language that developers use to build API routes and endpoints.
@@ -1362,7 +1335,7 @@ Examples:
 - `/users/123` - id would be "123"
 - `/users/john-doe` - id would be "john-doe"
 
-### Testing Your API
+#### Testing Your API
 
 #### Start Your Server
 ```bash
@@ -1442,7 +1415,7 @@ Content-Type: application/json
 DELETE http://localhost:5500/users/1
 ```
 
-### Key Takeaways
+### Key Takeaways and Resources
 
 #### Express Router Benefits
 - **Modular Organization**: Keep related routes together
@@ -1459,15 +1432,8 @@ DELETE http://localhost:5500/users/1
 #### DRY Principle
 **Don't Repeat Yourself** - By organizing code into routers, we avoid duplicating logic and create reusable components.
 
-### What's Next?
 
-In the next lesson, we'll:
-- Connect our API to a real database
-- Implement proper user authentication
-- Add data validation and error handling
-- Begin integrating Lightning Network functionality
-
-### Resources
+#### Resources
 
 - [Express Routing Official Documentation](https://expressjs.com/en/guide/routing.html)
 - [Express Router Tutorial](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4)
@@ -1475,7 +1441,7 @@ In the next lesson, we'll:
 - [REST APIs: How They Work](https://blog.hubspot.com/website/what-is-rest-api)
 - [Express Request Parameters](https://www.educative.io/answers/what-is-reqparams-in-expressjs)
 
-### Review
+#### Review
 
 In this lesson, we covered:
 
@@ -1487,8 +1453,10 @@ In this lesson, we covered:
 We now have a solid foundation for our pleb-wallet-backend with organized, testable endpoints ready for the next phase of development! 
 
 
-## Lesson 4: Express Middleware - Securing & Enhancing Your Server
+
+## Express Middleware Logic
 <chapterId>07e08ea3-904a-44c0-a7ed-4cdac8c2dc98</chapterId>
+
 
 ### What is Middleware?
 
@@ -1516,6 +1484,8 @@ Middleware is a function that sits between the request and response objects and 
 ---
 
 ### How Express Middleware Works
+
+Middleware functions are functions that have access to the request object, response object, and the next middleware function in the application's request-response cycle.
 
 #### Middleware Function Structure
 
@@ -1555,6 +1525,48 @@ app.use((req, res, next) => {
 ```
 
 ---
+
+#### Built-in Middleware
+```javascript
+// JSON parsing middleware
+server.use(express.json());
+
+// URL-encoded form data
+server.use(express.urlencoded({ extended: true }));
+
+// Serve static files
+server.use(express.static('public'));
+```
+
+#### Custom Middleware
+```javascript
+// Logging middleware
+const logger = (req, res, next) => {
+  console.log(`${req.method} ${req.url} - ${new Date().toISOString()}`);
+  next(); // Pass control to next middleware
+};
+
+server.use(logger);
+
+// Authentication middleware (coming in later lessons)
+const authenticate = (req, res, next) => {
+  // Check for valid token
+  const token = req.headers.authorization;
+  
+  if (!token) {
+    return res.status(401).json({ error: "No token provided" });
+  }
+  
+  // Verify token logic here
+  next();
+};
+
+// Use on specific routes
+server.get("/protected", authenticate, (req, res) => {
+  res.json({ message: "You are authenticated!" });
+});
+```
+
 
 ### Setting Up Middleware in Our Pleb Wallet Backend
 
@@ -1682,6 +1694,9 @@ server.listen(PORT, () => {
 
 ---
 
+## Security & Development Tools
+<chapterId>594cecd2-38a4-4cb3-a6f5-e0080e824463</chapterId>
+
 ### Development Tool: Nodemon
 
 #### What is Nodemon?
@@ -1799,7 +1814,6 @@ Rate limiting protects against these attacks by:
 
 ---
 
-### Testing Rate Limiting - Mini DoS Attack
 
 Let's test our rate limiting by performing a controlled attack on our own server!
 
@@ -1868,7 +1882,7 @@ The `429` status code means "Too Many Requests" - your rate limiting is working!
 
 ---
 
-### Key Takeaways
+### Key Takeaways about Middleware and Resources
 
 #### Middleware Concepts
 - **Functions between request and response**: Middleware sits in the request-response cycle
@@ -1889,7 +1903,7 @@ The `429` status code means "Too Many Requests" - your rate limiting is working!
 
 ---
 
-### What's Next?
+#### What's Next?
 
 In the next lesson, we'll dive deeper into custom middleware by building our own authentication middleware. We'll learn how to:
 
@@ -1900,7 +1914,7 @@ In the next lesson, we'll dive deeper into custom middleware by building our own
 
 ---
 
-### Resources
+#### Resources
 
 #### Official Documentation
 - [Express Middleware Guide](https://expressjs.com/en/guide/using-middleware.html)
@@ -1915,7 +1929,6 @@ In the next lesson, we'll dive deeper into custom middleware by building our own
 
 ---
 
-### Troubleshooting
 
 #### Common Issues
 
@@ -1941,14 +1954,14 @@ In the next lesson, we'll dive deeper into custom middleware by building our own
 
 ---
 
-*Great job completing Lesson 4! You've successfully enhanced your server with essential middleware for security, logging, and development efficiency. Your Pleb Wallet backend is becoming more robust and production-ready with each lesson.* 
+*Great job completing the Lesson! You've successfully enhanced your server with essential middleware for security, logging, and development efficiency. Your Pleb Wallet backend is becoming more robust and production-ready with each lesson.* 
 
 
-## Lesson 5: Learn Express Authentication
+## JWT Authentication & Hashing
 <chapterId>00d42dd7-4cf2-4f3e-a358-c12e020fd05b</chapterId>
 
 
-### What is Authentication?
+### Authentication Basics & JSON Web Tokens (JWT)
 
 Authentication is the process of verifying the identity (or pseudo-identity) of a user or system accessing your server. In web applications, authentication is crucial for:
 
@@ -1959,8 +1972,6 @@ Authentication is the process of verifying the identity (or pseudo-identity) of 
 > 🔒 **Security First**: Without proper authentication, anyone could potentially access your sensitive information or perform actions on your behalf.
 
 ---
-
-### JSON Web Tokens (JWT)
 
 #### What are JWTs?
 
@@ -2144,6 +2155,9 @@ router.post("/login", (req, res) => {
 ```
 
 ---
+
+## Authorization & Route Protection
+<chapterId>5c45a258-9270-42a1-815c-7e8c35816c88</chapterId>
 
 ### Custom Authentication Middleware
 
@@ -2343,7 +2357,7 @@ curl -X POST http://localhost:5500/lightning/pay \
 
 ---
 
-### Common HTTP Status Codes
+#### Common HTTP Status Codes
 
 Understanding these status codes is crucial for authentication:
 
@@ -2354,9 +2368,9 @@ Understanding these status codes is crucial for authentication:
 
 ---
 
-### Security Best Practices
+#### Security Best Practices
 
-#### 1. Strong JWT Secrets
+##### 1. Strong JWT Secrets
 ```javascript
 // BAD - Predictable secret
 JWT_SECRET=password123
@@ -2365,19 +2379,19 @@ JWT_SECRET=password123
 JWT_SECRET=h8f9d7s6f5g4h3j2k1l0m9n8b7v6c5x4z3a2s1d0f9g8h7j6k5l4m3n2b1v0c9x8z7
 ```
 
-#### 2. Token Expiration
+##### 2. Token Expiration
 ```javascript
 const options = {
   expiresIn: "1d", // Tokens expire in 1 day
 };
 ```
 
-#### 3. Environment Variables
+##### 3. Environment Variables
 - Never commit `.env` files to version control
 - Use different secrets for different environments
 - Rotate secrets regularly in production
 
-#### 4. Password Hashing
+##### 4. Password Hashing
 ```javascript
 // Use appropriate salt rounds (12-15 for production)
 const hashedPassword = bcrypt.hashSync(password, 14);
@@ -2385,7 +2399,7 @@ const hashedPassword = bcrypt.hashSync(password, 14);
 
 ---
 
-### Troubleshooting Common Issues
+#### Troubleshooting Common Issues
 
 #### Issue: "Invalid signature" error
 **Cause**: Token was signed with a different secret
@@ -2405,17 +2419,7 @@ const hashedPassword = bcrypt.hashSync(password, 14);
 
 ---
 
-### Next Steps
-
-In the next lesson, we'll:
-- Set up a real database to store users
-- Implement proper user registration
-- Connect our authentication system to the database
-- Begin integrating with the Lightning Network
-
----
-
-### Key Takeaways
+### Last Steps about Authentication
 
 1. **Authentication is Critical** - Never skip security in your applications
 2. **JWTs are Stateless** - Perfect for scalable applications
@@ -2425,7 +2429,7 @@ In the next lesson, we'll:
 
 ---
 
-### Additional Resources
+#### Additional Resources
 
 - [JWT.io](https://jwt.io/) - JWT debugger and documentation
 - [bcryptjs npm package](https://www.npmjs.com/package/bcryptjs) - Password hashing library
@@ -2434,7 +2438,7 @@ In the next lesson, we'll:
 
 ---
 
-### Practice Exercises
+#### Practice Exercises
 
 1. **Create a logout endpoint** that invalidates tokens (hint: you'll need to maintain a blacklist)
 2. **Add token refresh functionality** to extend user sessions
@@ -2443,15 +2447,22 @@ In the next lesson, we'll:
 
 > 💡 **Remember**: This is one of the most complex lessons in the course. Take your time, experiment with the code, and don't hesitate to review the concepts multiple times. Authentication is a fundamental skill that you'll use in every backend application you build.
 
-# Entering into the Ligthning Network seccion
+#### Additional Resources
+
+- [JWT.io](https://jwt.io/) - JWT debugger and documentation
+- [bcryptjs npm package](https://www.npmjs.com/package/bcryptjs) - Password hashing library
+- [dotenv npm package](https://www.npmjs.com/package/dotenv) - Environment variable management
+- [Express Middleware Guide](https://expressjs.com/en/guide/using-middleware.html) - Official Express middleware documentation
+
+---
+
+# Entering into the Ligthning Network Layer
 <partId>4e7d3c30-07b7-4ddb-91cc-77a6d3f107ec</partId>
 
-## Lesson 6: Introduction to the Lightning Network
+## Introduction to the Protocol
 <chapterId>44ffb7e7-252c-454b-8458-0aa35917526d</chapterId>
 
 ### The Lightning Network
-
-#### What is the Lightning Network?
 
 The Lightning Network is a **second-layer solution** built on top of Bitcoin's blockchain that enables faster and more scalable transactions.
 
@@ -2569,6 +2580,9 @@ Alice can pay Carol even without a direct channel!
    - Actual channels for moving money
    - Built on top of peer connections
    - Where the real Lightning magic happens
+
+## Development Environment
+<chapterId>ee2416e8-6c3c-4c41-a571-16822a14a5bc</chapterId>
 
 ### Lightning Implementations
 
@@ -2759,7 +2773,7 @@ Polar shows channel liquidity with colors:
 
 As you send payments, watch the colors shift - this represents the movement of satoshis within the channel!
 
-### Key Takeaways
+### Key Takeaways About Lightning Network
 
 1. **Lightning is a Second Layer:** Built on Bitcoin, not changing it
 2. **Nodes Route Payments:** Your payment may hop through multiple nodes
@@ -2768,15 +2782,6 @@ As you send payments, watch the colors shift - this represents the movement of s
 5. **App vs Protocol:** We're building apps, not the protocol itself
 6. **Polar is Essential:** Perfect tool for Lightning development and learning
 
-### What's Next?
-
-In the next lesson, we'll:
-- Connect our Express server to a Lightning node
-- Make our first API calls to LND
-- Start building real Lightning functionality
-- Use the Polar network we just created
-
-### Resources
 
 #### Essential Reading
 - [Lightning Network White Paper](https://lightning.network/lightning-network-paper.pdf)
@@ -2792,7 +2797,7 @@ In the next lesson, we'll:
 - [Polar Lightning](https://polarlightning.com)
 - [LND Documentation](https://docs.lightning.engineering/)
 
-### Practice Exercises
+#### Practice Exercises
 
 1. **Set up Polar** with at least 3 LND nodes
 2. **Create channels** between all nodes
@@ -2802,7 +2807,7 @@ In the next lesson, we'll:
 
 Remember: This is a safe environment to break things and learn! Try force-closing channels, routing through multiple nodes, and getting familiar with Lightning concepts before we start building our application. 
 
-## Lesson 7: Building on LND
+## Building on LND
 <chapterId>54143d9f-bb41-4874-bba4-2474e565da6f</chapterId>
 
 
@@ -2939,6 +2944,8 @@ We can use LND-GRPC wrapper:
 // With LND-GRPC wrapper - simple and clean!
 const info = await lnd.services.Lightning.getInfo();
 ```
+## Integrating LND with Code
+<chapterId>5273d1b7-6940-41eb-8147-f38cc8e7448c</chapterId>
 
 ### Setting Up LND Connection
 
@@ -3156,7 +3163,7 @@ const connect = async () => {
 };
 ```
 
-### Adding Lightning Routes
+### Adding Lightning Routes & Testing
 
 #### Import LND Methods
 
@@ -3234,9 +3241,7 @@ router.post("/pay", authenticateAdmin, async (req, res) => {
 });
 ```
 
-### Testing Your Lightning Integration
-
-#### Using Insomnia/Postman
+#### Testing Your Lightning Integration Using Insomnia/Postman
 
 1. **Start your server** and ensure Polar network is running
 2. **Login** to get a JWT token
@@ -3277,7 +3282,7 @@ router.post("/pay", authenticateAdmin, async (req, res) => {
    - Verify invoice is valid
    - Ensure route exists between nodes
 
-### Key Takeaways
+### Key Takeaways about Integrating LND
 
 1. **gRPC is Powerful:** Enables real-time communication with Lightning nodes
 2. **Wrapper Libraries Help:** LND-GRPC reduces complexity significantly
@@ -3285,23 +3290,14 @@ router.post("/pay", authenticateAdmin, async (req, res) => {
 4. **Security Matters:** Macaroons provide fine-grained access control
 5. **Testing is Key:** Use Polar for safe development environment
 
-### What's Next?
 
-In the next lesson, we'll:
-- Set up a proper database to store our invoice and payment data
-- Learn SQL fundamentals
-- Integrate our Lightning methods with persistent storage
-- Build a complete data flow from invoice creation to payment confirmation
-
-### Practice Exercises
+#### Practice Exercises
 
 1. **Explore the LND API:** Browse the [LND documentation](https://lightning.engineering/api-docs/) and try calling different methods
 2. **Create Multiple Invoices:** Test creating invoices with different values and memos
 3. **Test Payment Routes:** Create invoices on different nodes and pay them
 4. **Monitor Event Streams:** Watch the console logs when invoices are paid
 5. **Experiment with Channels:** Open new channels in Polar and test routing
-
-### Resources
 
 #### Essential Reading
 - [LND gRPC Documentation](https://lightning.engineering/api-docs/)
@@ -3324,10 +3320,10 @@ In the next lesson, we'll:
 
 Remember: This is just the beginning! Lightning development opens up incredible possibilities for micropayments, instant settlements, and innovative financial applications. Take your time to understand these concepts - they're the foundation for everything we'll build going forward. 
 
-# Managing databases seccion
+# Managing Relational Databases & SQL
 <partId>3266da0c-6d0f-4e90-824f-27631ad30836</partId>
 
-## Lesson 8: Introduction to Databases
+## Introduction to Databases
 <chapterId>61114e89-8587-48b8-8376-dba352b0914b</chapterId>
 
 **Note:** This is a foundational lesson that will prepare us for hands-on database development in the next lessons!
@@ -3354,7 +3350,7 @@ Databases can store many different types of data:
 
 For our Lightning wallet application, we'll primarily work with text and numbers, but understanding the full scope helps you make informed decisions for future projects.
 
-### Types of Databases
+#### Types of Databases
 
 Understanding different database types is crucial for choosing the right tool for your project. Each type is optimized for different use cases and comes with its own trade-offs.
 
@@ -3439,6 +3435,7 @@ Understanding different database types is crucial for choosing the right tool fo
 - **Neo4j:** Leading graph database
 - **Amazon Neptune:** Managed graph database service
 
+
 ### Deep Dive: Relational Databases
 
 For our Lightning wallet application, we'll use a relational database. Let's understand why and how they work.
@@ -3497,7 +3494,8 @@ In this example:
 - Each order references a customer through `customer_id` (foreign key)
 - The database ensures every order belongs to a valid customer
 
-### What is SQL?
+
+### Understanding SQL & Basic Commands
 
 **Structured Query Language (SQL)** is the standard language for working with relational databases. It's been around since the 1970s and is used across virtually all relational database systems.
 
@@ -3562,7 +3560,7 @@ As you grow more comfortable with SQL, you'll discover powerful features:
 - **Indexes:** Optimizing query performance
 - **Transactions:** Ensuring data consistency
 
-### SQL vs NoSQL
+### SQL vs NoSQL Trade-offs
 
 Understanding the trade-offs between SQL and NoSQL databases helps you choose the right tool for each project.
 
@@ -3602,6 +3600,9 @@ For our Lightning wallet application, we're choosing SQL because:
 - **Clear Relationships:** Users and invoices have well-defined connections
 - **Industry Standard:** SQL skills are valuable in the job market
 - **Learning Value:** Understanding SQL provides a solid foundation
+
+## Schema Design
+<chapterId>da893e37-0c14-4e50-a9e9-4eea34bd8348</chapterId>
 
 ### Understanding Database Schemas
 
@@ -3650,6 +3651,10 @@ What rules should the data follow?
 - Usernames must be unique
 - Amounts must be positive
 - Foreign keys must reference valid records
+
+#### Security Considerations
+
+Database security is critical, especially for financial applications:
 
 ### Designing Our Pleb Wallet Schema
 
@@ -3801,9 +3806,6 @@ Lightning payments include routing fees. Our schema tracks:
 - **fees:** Additional fees paid for routing
 - **Total cost:** value + fees (calculated in application)
 
-### Security Considerations
-
-Database security is critical, especially for financial applications:
 
 #### Password Security
 
@@ -3834,7 +3836,7 @@ const hashedPassword = await bcrypt.hash(password, 10);
 - **Permissions:** Grant only necessary permissions
 - **Network Security:** Restrict database access by IP/network
 
-### Best Practices
+### Best Practices and Key Takeaways
 
 #### Naming Conventions
 
@@ -3860,7 +3862,7 @@ Design your schema with future growth in mind:
 - **Performance:** Will queries remain fast as data grows?
 - **Maintenance:** Is the schema easy to understand and modify?
 
-### Key Takeaways
+
 
 1. **Databases are Essential:** Every serious backend application needs persistent data storage
 2. **Relational Databases are Standard:** SQL databases are the industry standard for most applications
@@ -3870,39 +3872,20 @@ Design your schema with future growth in mind:
 6. **Security is Critical:** Never store sensitive data in plain text
 7. **Planning Prevents Problems:** Design your schema before writing code
 
-### What's Next?
 
-In the next lesson, we'll:
-- Set up a real database for our application
-- Learn hands-on SQL commands
-- Implement our schema using database migration tools
-- Connect our Express server to the database
-- Write queries to create, read, update, and delete data
-
-### Practice Exercises
+#### Practice Exercises and Resources
 
 1. **Explore QuickDB:** Create different schema designs for various applications (blog, e-commerce, social media)
 2. **Identify Relationships:** Practice identifying one-to-many, many-to-many, and one-to-one relationships
 3. **Design Constraints:** Think about what constraints would be appropriate for different types of data
 4. **Research Database Types:** Look into when you might choose MongoDB vs PostgreSQL vs Redis
-5. **Study Existing Schemas:** Look at open-source projects to see how they design their databases
-
-### Resources
+5. **Study Existing Schemas:** Look at open-source projects to see how they design their databases 
 
 #### Essential Reading
 - [Database Design Fundamentals](https://www.lucidchart.com/pages/database-diagram/database-design) - Comprehensive guide to database design
 - [SQL Tutorial](https://www.w3schools.com/sql/) - Interactive SQL learning
 - [Database Normalization](https://www.studytonight.com/dbms/database-normalization.php) - Understanding normal forms
 
-#### Video Resources
-- [Database Design Course](https://www.youtube.com/watch?v=ztHopE5Wnpc) - Complete database design tutorial
-- [SQL Explained](https://www.youtube.com/watch?v=HXV3zeQKqGY) - SQL fundamentals
-- [Database Relationships](https://www.youtube.com/watch?v=V5DyvUfsboA) - Understanding table relationships
-
-#### Tools and References
-- [QuickDB Diagrams](https://app.quickdatabasediagrams.com/) - Visual schema design tool
-- [SQLite Browser](https://sqlitebrowser.org/) - Great for exploring databases
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/) - Comprehensive database documentation
 
 #### Lightning Development Context
 - [Database Design for Bitcoin Apps](https://bitcoin.design/guide/daily-spending-wallet/database-design/) - Specific considerations for Bitcoin applications
@@ -3912,12 +3895,12 @@ Remember: Database design is both an art and a science. Start with solid fundame
 
 In the next lesson, we'll bring this schema to life by setting up a real database and implementing our design with actual SQL commands! 
 
-## Lesson 9: Introduction to SQL
+## Hands-on SQL Foundations
 <chapterId>9a0b7628-bf7b-4c44-ad9c-0f7ec071ed32</chapterId>
 
 **Note:** This lesson provides the SQL foundation you'll need for the next lesson where we'll integrate a real database into our Pleb Wallet backend!
 
-### What is SQL?
+### Basics in SQL
 
 **SQL stands for Structured Query Language.** It's essentially a language that allows us to "communicate" with databases. Let's break down what makes SQL special:
 
@@ -4227,6 +4210,9 @@ The DROP command is permanent! This is the source of the famous "Little Bobby Ta
 
 **Never allow user input to directly execute DROP commands!**
 
+## Advanced SQL
+<chapterId>8226de3b-7b5e-4245-ab69-085054b8cd42</chapterId>
+
 ### SQL Joins: Connecting Tables
 
 Joins are where SQL gets sophisticated. They allow you to combine data from multiple tables based on relationships between them.
@@ -4359,7 +4345,7 @@ Now let's apply what we've learned to create the actual database tables for our 
 
 #### Our Database Schema
 
-Based on our design from Lesson 8, we need two tables:
+Based on our design from the last Lesson, we need two tables:
 
 ##### Users Table
 Stores information about wallet users:
@@ -4599,8 +4585,16 @@ query = "SELECT * FROM Users WHERE username = '" + userInput + "'";
 -- SAFE - Use parameterized queries
 query = "SELECT * FROM Users WHERE username = ?";
 ```
+#### Common Pitfalls to Avoid
 
-### Key Takeaways
+1. **Forgetting WHERE clauses:** Always double-check UPDATE and DELETE statements
+2. **Not using constraints:** PRIMARY KEY, FOREIGN KEY, and UNIQUE constraints prevent data corruption
+3. **Ignoring data types:** Choose appropriate data types for better performance and storage
+4. **Complex joins too early:** Master simple queries before attempting complex multi-table joins
+5. **Security oversights:** Always validate input and use parameterized queries
+
+
+#### Key Takeaways to start safe
 
 1. **SQL is Universal:** Learning SQL provides a foundation that works across many database systems
 2. **Start with Basics:** Master SELECT, INSERT, UPDATE, DELETE, and WHERE before moving to advanced topics
@@ -4610,25 +4604,8 @@ query = "SELECT * FROM Users WHERE username = ?";
 6. **Schema Design Matters:** Good table design makes queries easier and more efficient
 7. **Lightning Context:** Consider the specific needs of Lightning applications in your database design
 
-### Common Pitfalls to Avoid
 
-1. **Forgetting WHERE clauses:** Always double-check UPDATE and DELETE statements
-2. **Not using constraints:** PRIMARY KEY, FOREIGN KEY, and UNIQUE constraints prevent data corruption
-3. **Ignoring data types:** Choose appropriate data types for better performance and storage
-4. **Complex joins too early:** Master simple queries before attempting complex multi-table joins
-5. **Security oversights:** Always validate input and use parameterized queries
-
-### What's Next?
-
-In the next lesson, we'll:
-- Set up a real database for our Pleb Wallet application
-- Learn about database migration tools (specifically Knex.js)
-- Connect our Express server to the database
-- Implement our Users and Invoices tables in code
-- Create API endpoints that interact with our database
-- Handle database connections and error management
-
-### Practice Exercises
+### Practice Exercises and Resources
 
 1. **SQLite Online Exploration:** 
    - Create different database schemas (blog, e-commerce, social media)
@@ -4655,7 +4632,6 @@ In the next lesson, we'll:
    - Learn about database user permissions
    - Study password hashing best practices
 
-### Resources
 
 #### Essential Learning
 - [SQL Cheat Sheet](https://cheatography.com/fetttobse/cheat-sheets/sqlite/) - Visual reference for SQL syntax
@@ -4681,13 +4657,15 @@ Remember: SQL is both powerful and potentially dangerous. Start with simple quer
 
 In the next lesson, we'll bring these SQL concepts to life by integrating a real database into our Pleb Wallet backend! 
 
+# Database Dev with Knex.js
+<partId>f8de8385-6824-43c1-9438-ffeeea1b3c77</partId>
 
-## Lesson 10: Database Development with Knex.js
+## Database Development with Knex.js
 <chapterId>7f08bc46-d25b-4ff1-810f-cd87833089fa</chapterId>
 
 **Note:** This lesson represents a major milestone in our Lightning wallet backend! We're moving from mock data to real database integration, setting the foundation for our production-ready application.
 
-### What is Knex.js?
+### The Importance of Knex.js
 
 **Knex.js is like a translator between JavaScript and SQL.** It allows you to write database requests in JavaScript, which is easier for many developers to work with, and then automatically translates these commands into proper SQL.
 
@@ -4731,36 +4709,36 @@ knex.schema.createTable('users', function(table) {
 
 The Knex version is more readable and integrates seamlessly with your JavaScript code.
 
-### Why Use Knex.js?
+#### Why Use Knex.js?
 
-#### Unified Query Syntax
+##### Unified Query Syntax
 Knex provides a consistent syntax across different SQL databases. This means you can:
 - Write your schema once
 - Switch databases with minimal code changes
 - Use the same development patterns for local and production environments
 
-#### Schema Builder
+##### Schema Builder
 Knex's schema builder makes it easy to:
 - Create and modify tables
 - Define relationships between tables
 - Set up constraints and indexes
 - Handle complex database structures
 
-#### Migration System
+##### Migration System
 Migrations help you:
 - Track database changes over time
 - Version control your database structure
 - Collaborate with team members effectively
 - Roll back changes if needed
 
-#### Seeding Capabilities
+##### Seeding Capabilities
 Seeds allow you to:
 - Populate databases with test data
 - Create consistent development environments
 - Test your application with known data sets
 - Set up reference data
 
-#### Production Features
+##### Production Features
 Knex also provides:
 - **Transaction Support:** Ensure data integrity with all-or-nothing operations
 - **Connection Pooling:** Manage database connections efficiently
@@ -5047,6 +5025,9 @@ This command:
 - Clears existing data first
 - Inserts fresh test data
 
+## Getting Deep in Knex.Js
+<chapterId>86cb9e77-3a60-4ccd-b38b-d6cace223189</chapterId>
+
 ### Creating the Invoices Table
 
 Now let's create our second table for Lightning invoices. This table will store both incoming and outgoing Lightning payments.
@@ -5306,7 +5287,7 @@ Our database design specifically supports Lightning wallet functionality:
 - settle_date for payment history
 - Enables time-based queries and reports
 
-### The Database Development Flowchart
+#### The Database Development Flowchart
 
 Looking back at our complete setup, here's how all the pieces fit together:
 
@@ -5346,7 +5327,7 @@ This architecture provides:
 - **Version Control:** Migrations track all schema changes
 - **Testing Support:** Seeds provide consistent test data
 
-### Key Takeaways
+### Key Takeaways for what's coming
 
 1. **Knex.js Advantages:** JavaScript-first database development with SQL power
 2. **Migration System:** Version control for database structure changes
@@ -5356,7 +5337,7 @@ This architecture provides:
 6. **Data Integrity:** Foreign keys and constraints ensure data consistency
 7. **Development Workflow:** Systematic approach to database changes
 
-### Common Pitfalls to Avoid
+#### Common Pitfalls to Avoid
 
 1. **Missing Down Functions:** Always implement rollback functionality
 2. **Forgetting Dependencies:** Run migrations in correct order
@@ -5365,17 +5346,7 @@ This architecture provides:
 5. **Security Oversights:** Never store plain text passwords
 6. **Schema Mismatches:** Ensure seeds match your schema exactly
 
-### What's Next?
-
-In the next lesson, we'll:
-- Create database models for clean data access
-- Integrate our database with Express routes
-- Build API endpoints that interact with our database
-- Implement user authentication using our database
-- Connect Lightning operations to database storage
-- Handle database errors and edge cases
-
-### Practice Exercises
+#### Practice Exercises and Resources
 
 1. **Schema Design Practice:**
    - Design a migration for a "transactions" table
@@ -5402,7 +5373,6 @@ In the next lesson, we'll:
    - Set up a PostgreSQL instance for testing
    - Configure environment variables properly
 
-### Resources
 
 #### Essential Documentation
 - [Knex.js Official Documentation](https://knexjs.org/) - Complete reference guide
@@ -5429,13 +5399,12 @@ Remember: Database development is a process, not a single event. Each step build
 In our next lesson, we'll bring this database to life by connecting it to our Express server and building the API endpoints that will power our Lightning wallet application! 
 
 
-## Lesson 11: Connecting the API and Database
+## Connecting API and Database
 <chapterId>5ecc16dc-96e3-40ad-9fc0-a4943af087c6</chapterId>
-
 
 **Note:** This lesson represents the culmination of our backend development! By the end, you'll have a fully functional Lightning wallet backend that connects your API to your database seamlessly.
 
-### The Big Picture: Our Complete Setup
+#### The Big Picture: Our Complete Setup
 
 Before we dive into the code, let's understand where we are in our development journey. We've completed all the foundational pieces:
 
@@ -5610,7 +5579,7 @@ Each method returns a Knex query, which returns a Promise. This allows us to use
 - Uses `.del()` to remove the record
 - Returns: `Promise<number>` (number of deleted rows)
 
-### Updating User Endpoints
+### Updating User Endpoints (Auth Logic)
 
 Now let's update our user endpoints to use the database models.
 
@@ -5814,7 +5783,7 @@ router.delete("/:id", authenticateAdmin, (req, res) => {
 - Use `User.delete()` to remove user from database
 - Return success message instead of user data
 
-### Updating Authentication Middleware
+#### Updating Authentication Middleware
 
 Our middleware also needs to be updated to use the database instead of mock data.
 
@@ -5867,8 +5836,6 @@ module.exports = (req, res, next) => {
 - Use `User.findByUsername()` to get real user from database
 - Check actual admin key from user record
 - Added proper error handling for database operations
-
-### Testing User Endpoints
 
 Let's test our updated user endpoints to ensure everything works correctly.
 
@@ -6040,6 +6007,9 @@ Authorization: [admin-token]
   "message": "User deleted successfully"
 }
 ```
+
+## Persisting Lightning Data
+<chapterId>191d4c63-e18c-44c8-91bb-b9276c736da7</chapterId>
 
 ### Creating the Invoice Model
 
@@ -6279,7 +6249,7 @@ router.post("/pay", authenticateAdmin, async (req, res) => {
 - Record all payment details including fees
 - Set `send: true` to indicate outgoing payment
 
-### Testing Invoice Endpoints
+### Testing Invoice Endpoints and Debugging
 
 Let's test our updated invoice endpoints with both Postman and Polar.
 
@@ -6407,7 +6377,7 @@ You should see both invoices:
 - One incoming (paid by Bob): `send: false`, `settled: true`
 - One outgoing (paid to Bob): `send: true`, `settled: true`
 
-### Common Issues and Debugging
+#### Common Issues and Debugging
 
 #### SQLite Constraint Errors
 
@@ -6448,7 +6418,7 @@ You should see both invoices:
 2. Check your `.env` file has correct paths
 3. Ensure the LND node is started in Polar
 
-### The Complete Data Flow
+#### The Complete Data Flow
 
 Understanding how data flows through our system:
 
@@ -6476,25 +6446,7 @@ Lightning Flow:
 9. **Payment Occurs** → Event Stream updates database
 10. **Database** now shows `settled: true`
 
-### Key Takeaways
-
-1. **Models Provide Abstraction:** Clean interface between API and database
-2. **Promises Enable Async Operations:** Use `.then()` and `.catch()` for database operations
-3. **Error Handling is Critical:** Always handle both success and failure cases
-4. **JWT Integration:** Extract user data from tokens for database operations
-5. **Lightning Integration:** Combine LND operations with database persistence
-6. **Event Streams:** Real-time updates when Lightning payments occur
-7. **Testing is Essential:** Use Postman and Polar to verify complete functionality
-
-### What's Next?
-
-In the next lesson, we'll:
-- Connect our backend to the frontend application
-- Update the frontend to use our API instead of LNBits
-- Test the complete full-stack application
-- Prepare for deployment to production
-
-### Practice Exercises
+### Practice Exercises and Resources
 
 1. **Add New Model Methods:**
    - Create a `findByUserId()` method in the Invoice model
@@ -6516,7 +6468,6 @@ In the next lesson, we'll:
    - Add support for invoice expiration
    - Implement webhook notifications for payments
 
-### Resources
 
 #### Essential Documentation
 - [Knex.js Query Builder](https://knexjs.org/guide/query-builder.html) - Complete query reference
@@ -6540,10 +6491,10 @@ The next lesson will bring everything together by connecting our backend to a fr
 <partId>4e8b0dbf-81c8-4f40-a087-6a3adb9bee9e</partId>
 
 
-## Lesson 12: Connecting the database with the Frontend
+## Full-Stack Frontend Architecture
 <chapterId>d221e6bd-37ff-459c-993c-3a22a65df0a0</chapterId>
 
-### The Journey So Far
+### Understanding the Pleb Wallet Frontend
 
 Before we dive into the frontend integration, let's appreciate what we've accomplished:
 
@@ -6555,8 +6506,6 @@ Before we dive into the frontend integration, let's appreciate what we've accomp
 - ✅ **Complete API:** All endpoints tested and working with Postman/Insomnia
 
 Now we're ready to provide a user-friendly interface that makes all this functionality accessible to real users!
-
-### Understanding the Pleb Wallet Frontend
 
 The Pleb Wallet is a React-based Lightning wallet interface that provides:
 
@@ -6603,9 +6552,9 @@ src/
 - **API Integration:** Axios for HTTP requests to our backend
 - **Real-time Updates:** Periodic polling for fresh data
 
-### Getting the Updated Frontend
+#### Getting the Updated Frontend
 
-#### Option 1: Clone the Updated Repository
+##### Option 1: Clone the Updated Repository
 
 The easiest way to get started is to clone the pre-updated frontend:
 
@@ -6615,11 +6564,11 @@ cd pleb-wallet-frontend
 npm install
 ```
 
-#### Option 2: Update Your Existing Frontend
+##### Option 2: Update Your Existing Frontend
 
 If you have the original frontend from Course #1, you can update it manually by following the changes we'll outline in this lesson.
 
-### Frontend Code Walkthrough
+### Frontend Architecture Walkthrough
 
 Let's examine the key components and understand how they work with our backend.
 
@@ -6898,7 +6847,7 @@ const PaymentsModal = ({ modalState, setModalState, user, backendUrl }) => {
 export default PaymentsModal;
 ```
 
-### Setting Up the Frontend
+### Setting Up the Frontend & Backend Preparation
 
 #### Prerequisites
 
@@ -6942,7 +6891,7 @@ npm start
 
 The frontend will start on `http://localhost:3000` and automatically open in your browser.
 
-### Backend Preparation
+#### Backend Preparation
 
 Before testing the frontend, ensure your backend is properly configured:
 
@@ -6988,6 +6937,8 @@ npm run start
 cd pleb-wallet-frontend
 npm start
 ```
+## System Testing & Data Flow
+<chapterId>e99fbaf2-0ed1-42da-9a1a-332a48fe34ca</chapterId>
 
 ### Testing the Complete System
 
@@ -7073,9 +7024,8 @@ Now let's test the entire full-stack application with real user scenarios.
 3. The payment should be received successfully
 4. This confirms that regular users can receive payments
 
-### Understanding the Data Flow
 
-#### Frontend to Backend Communication
+### Frontend to Backend Communication
 
 ```
 1. User Action → React Event Handler → API Call
@@ -7125,7 +7075,7 @@ useEffect(() => {
 }, []);
 ```
 
-### Common Issues and Troubleshooting
+### Full-Stack Troubleshooting
 
 #### CORS Errors
 
@@ -7182,7 +7132,10 @@ const limiter = rateLimit({
 2. Check that nodes have channels with sufficient balance
 3. Verify your backend is connected to the correct LND node
 
-### Frontend Customization Ideas
+## Frontend Optimization & Security
+<chapterId>fe4165fe-12c1-4755-b653-f0146b2685fd</chapterId>
+
+### Frontend Customization and Best Practices
 
 The current frontend is a basic template. Here are some enhancement ideas:
 
@@ -7264,7 +7217,7 @@ useEffect(() => {
 }, [paymentRequest]);
 ```
 
-### Responsive Design
+#### Responsive Design
 
 The current frontend works on desktop but could be improved for mobile:
 
@@ -7287,7 +7240,6 @@ The current frontend works on desktop but could be improved for mobile:
 }
 ```
 
-### Security Considerations
 
 #### Frontend Security Best Practices
 
@@ -7317,8 +7269,6 @@ const validateAmount = (amount) => {
   alert('Payment failed. Please try again.'); // Generic user message
 });
 ```
-
-### Performance Optimization
 
 #### API Call Optimization
 
@@ -7431,20 +7381,7 @@ npm run build
 - Next.js (if converting to SSR)
 - Gatsby (for static generation)
 
-### What's Next?
-
-Congratulations! You now have a complete full-stack Lightning wallet application running locally. In the next lesson, we'll:
-
-1. **Deploy the Backend:** Set up your server on a cloud provider
-2. **Deploy the Lightning Node:** Configure a real Lightning node
-3. **Deploy the Frontend:** Host your React app on Vercel
-4. **Connect Everything:** Make your deployed services work together
-5. **Domain Setup:** Configure custom domains
-6. **SSL Certificates:** Secure your application with HTTPS
-7. **Monitoring:** Set up logging and monitoring
-8. **Backup Strategies:** Protect your data and funds
-
-### Key Takeaways
+### Key Takeaways for Frontend Optimization
 
 1. **Full-Stack Integration:** Successfully connecting frontend and backend requires careful attention to CORS, authentication, and API contracts
 2. **Real-time Updates:** User interfaces need to stay synchronized with backend state through polling or WebSockets
@@ -7454,7 +7391,7 @@ Congratulations! You now have a complete full-stack Lightning wallet application
 6. **Testing:** Comprehensive testing ensures all user flows work correctly
 7. **Customization:** The basic template can be extensively customized for your specific needs
 
-### Practice Exercises
+#### Practice Exercises and Resources
 
 1. **Add QR Code Generation:**
    - Install a QR code library
@@ -7481,7 +7418,7 @@ Congratulations! You now have a complete full-stack Lightning wallet application
    - Implement balance history chart
    - Add user profile management
 
-### Resources
+
 
 #### Frontend Development
 - [React Documentation](https://react.dev/) - Complete React reference
@@ -7508,13 +7445,16 @@ You've now completed the full backend course! Your Lightning wallet application 
 Remember: This is just the beginning. The patterns and techniques you've learned here can be applied to build any Lightning-enabled application. The Lightning ecosystem is growing rapidly, and you're now equipped to be part of that growth! 
 
 
-## Lesson 13: Deploy Your Production Database and Node
+# Production Deployment
+<partId>ccc611f9-4369-4e18-a096-758cde12a97b</partId>
+
+## Deploy Your Production Database and Node
 <chapterId>f2f066a1-63a5-4a8a-9d92-32ba07d8a645</chapterId>
 
 
 **Warning:** We'll be dealing with real money and real Lightning networks in this lesson. We'll discuss security considerations and provide options for using testnet vs mainnet.
 
-### The Journey So Far
+### Pre-Deployment Assessment
 
 Congratulations on making it this far! Let's recap what we've accomplished:
 
@@ -7527,8 +7467,6 @@ Congratulations on making it this far! Let's recap what we've accomplished:
 - ✅ **Frontend Integration:** React app connected to backend
 
 Now we're ready to take this entire system live and make it accessible to the world!
-
-### Considerations Before Deploying
 
 Before we dive into deployment, let's discuss some important considerations:
 
@@ -7573,7 +7511,7 @@ Ask yourself:
 - Do you need it live and deployed?
 - Could a local demo video be enough?
 
-### What is Heroku?
+### Deploying Backend to Heroku
 
 Heroku is a cloud platform service that allows developers to deploy, manage, and scale applications without a lot of overhead. It abstracts away the complexities of managing servers, infrastructure, and databases, allowing you to focus purely on the code.
 
@@ -7590,8 +7528,6 @@ Heroku is a cloud platform service that allows developers to deploy, manage, and
 - Consistent performance
 - Easy to set up and scale
 - Great for first-time deployments
-
-### Deploying Server and Database
 
 #### Step 1: Create a New Heroku App
 
@@ -7770,6 +7706,9 @@ production: {
 },
 ```
 
+## Launching the Wallet Stack
+<chapterId>ecfef4ea-e2f8-484b-9bc3-b1522506c29f</chapterId>
+
 ### Deploying Lightning Node with Voltage
 
 #### What is Voltage?
@@ -7865,7 +7804,6 @@ REACT_APP_BACKEND_URL=https://your-app-name.herokuapp.com
    - Wallet balance displaying
    - Transaction history (empty initially)
 
-### Complete System Testing
 
 #### Test Scenario 1: Non-Admin User Receiving Payment
 
@@ -7913,7 +7851,7 @@ REACT_APP_BACKEND_URL=https://your-app-name.herokuapp.com
 3. **Should fail with 401 error**
 4. **Confirms admin-only sending works**
 
-### Security Hardening
+### Security Hardening & Monitoring
 
 #### Step 17: Secure Your Secrets
 
@@ -7955,7 +7893,6 @@ app.use(cors({
 }));
 ```
 
-### Cost Optimization
 
 #### Monthly Costs Breakdown
 
@@ -8012,9 +7949,9 @@ Monitor your database:
 2. View connection counts
 3. Monitor query performance
 
-### Troubleshooting Common Issues
+#### Troubleshooting Common Issues
 
-#### Frontend Can't Connect to Backend
+##### Frontend Can't Connect to Backend
 
 **Check:**
 - Environment variable spelling
@@ -8022,7 +7959,7 @@ Monitor your database:
 - CORS configuration
 - Heroku dyno is running
 
-#### Lightning Node Connection Issues
+##### Lightning Node Connection Issues
 
 **Check:**
 - LND_CONNECT_URI is correct
@@ -8030,7 +7967,7 @@ Monitor your database:
 - Network connectivity
 - Firewall issues
 
-#### Database Connection Problems
+##### Database Connection Problems
 
 **Check:**
 - DATABASE_URL is set
@@ -8038,7 +7975,7 @@ Monitor your database:
 - Migration status
 - Connection limits
 
-#### Payment Failures
+##### Payment Failures
 
 **Check:**
 - Channel liquidity
@@ -8046,7 +7983,7 @@ Monitor your database:
 - Invoice validity
 - Admin permissions
 
-### Performance Optimization
+### Reliability: Optimization & Backups
 
 #### Database Optimization
 
@@ -8086,6 +8023,9 @@ app.get('/api/price', (req, res) => {
   // ... price fetching logic
 });
 ```
+
+## Optimizing the Wallet Stack
+<chapterId>4132c2e3-3078-4356-8207-d094584dbfd5</chapterId>
 
 ### Advanced Deployment Features
 
@@ -8230,7 +8170,7 @@ Congratulations! You've successfully deployed a complete Lightning wallet system
    - Container orchestration
    - Blue-green deployments
 
-### Key Takeaways
+### Key Takeaways and Resources
 
 1. **Deployment is a Process:** Deploying to production involves many steps and considerations beyond just running code
 
@@ -8248,7 +8188,7 @@ Congratulations! You've successfully deployed a complete Lightning wallet system
 
 8. **Plan for Costs:** Understand the ongoing costs and plan accordingly
 
-### Practice Exercises
+#### Practice Exercises
 
 1. **Deploy to Testnet:**
    - Create a testnet version of your entire stack
@@ -8271,7 +8211,6 @@ Congratulations! You've successfully deployed a complete Lightning wallet system
    - Set up automated database backups
    - Create disaster recovery procedures
 
-### Resources
 
 #### Deployment Platforms
 - [Heroku Documentation](https://devcenter.heroku.com/) - Complete deployment guide

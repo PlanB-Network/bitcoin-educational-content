@@ -1,0 +1,8 @@
+question: When implementing middleware in an Express.js application, what determines the sequence in which different middleware functions will process incoming requests?
+answer: The order in which middleware is defined and added to the Express application
+wrong_answers:
+  - The alphabetical order of the middleware package names in package.json
+  - "The priority level specified in each middleware's configuration options"
+  - The execution speed and performance characteristics of each middleware function
+explanation: |
+  Middleware execution follows a strict sequential order based on how they are defined in the code. Express processes middleware in the exact order they are added using app.use() or other middleware mounting methods. This is why the chapter emphasizes that 'order matters' - middleware like Helmet, Morgan, CORS, and rate limiting must be positioned correctly in the application setup. The other options are incorrect because Express doesn't automatically sort middleware alphabetically, doesn't use priority systems, and doesn't reorder based on performance characteristics.

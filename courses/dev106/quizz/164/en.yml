@@ -1,0 +1,8 @@
+question: In a Knex.js migration, what happens when you run 'npx knex migrate:latest' on a database that already has some migrations applied?
+answer: Only pending migrations that haven't been applied yet will be executed
+wrong_answers:
+  - All migrations will be re-executed from the beginning, potentially duplicating data
+  - The command will fail with an error because migrations can only run on empty databases
+  - All existing migrations will be rolled back first, then all migrations will run fresh
+explanation: |
+  Knex.js maintains a migration tracking table that records which migrations have already been applied to the database. When you run 'npx knex migrate:latest', Knex checks this tracking table and only executes migrations that haven't been run yet. This prevents duplicate table creation, data corruption, and ensures migrations are idempotent. The other options are incorrect because Knex is designed to be safe and incremental - it never re-runs completed migrations, doesn't require empty databases, and doesn't automatically rollback existing migrations.

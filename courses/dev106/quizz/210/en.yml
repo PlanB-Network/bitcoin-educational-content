@@ -1,0 +1,8 @@
+question: When configuring environment variables for a Lightning wallet deployment, what is the primary advantage of using LND_CONNECT_URI over separate host, certificate, and macaroon variables?
+answer: It consolidates all connection parameters into a single encrypted string, reducing configuration complexity and potential security misconfigurations
+wrong_answers:
+  - It provides faster connection speeds by using a compressed protocol format that reduces network latency between services
+  - It automatically rotates authentication credentials every 24 hours, eliminating the need for manual security updates
+  - It enables direct peer-to-peer connections without requiring cloud-based intermediary services for Lightning transactions
+explanation: |
+  LND Connect URI encapsulates all necessary connection information (host, port, certificate, and macaroon) into a single standardized string format. This approach significantly reduces the risk of misconfiguration that could occur when managing multiple separate environment variables, and ensures all authentication components remain properly synchronized. The other options describe features that don't exist in LND Connect - it doesn't affect connection speed, doesn't auto-rotate credentials, and doesn't change the underlying network architecture.

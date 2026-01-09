@@ -1,0 +1,8 @@
+question: What happens when a child component attempts to directly modify a prop value it received from its parent component?
+answer: React will throw an error because props are read-only and cannot be mutated by child components
+wrong_answers:
+  - "The prop value changes locally in the child but the parent component's state remains unchanged"
+  - React automatically triggers a re-render of both parent and child components to sync the changes
+  - The modification succeeds but breaks the one-way data flow causing unpredictable component behavior
+explanation: |
+  Props in React are immutable and read-only by design. When a child component receives props from its parent, it cannot modify them directly. This is a fundamental rule of React's one-way data flow architecture. If a child needs to communicate changes back to the parent, it must do so through callback functions passed as props, not by mutating the props themselves.

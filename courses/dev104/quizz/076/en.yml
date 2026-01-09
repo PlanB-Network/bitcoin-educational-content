@@ -1,0 +1,8 @@
+question: When deploying a Lightning wallet application to production, what is the most critical security consideration that differs from traditional web application deployment?
+answer: Private key management and secure storage of cryptographic material in a distributed environment
+wrong_answers:
+  - Load balancing configuration to handle multiple concurrent HTTP requests efficiently
+  - Database connection pooling optimization for handling user session data at scale
+  - Content delivery network setup for serving static assets and reducing latency
+explanation: |
+  Lightning wallet deployment requires specialized cryptographic security measures that traditional web applications don't face. Private keys must be securely stored and managed in production environments, as any compromise could result in immediate loss of funds. Unlike traditional applications where security breaches might affect user data, Lightning wallets handle real financial assets that cannot be recovered if keys are compromised. Load balancing, database optimization, and CDN setup are standard web deployment concerns but don't address the unique cryptographic security requirements of Lightning Network applications.

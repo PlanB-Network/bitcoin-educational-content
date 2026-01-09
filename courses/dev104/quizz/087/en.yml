@@ -1,0 +1,8 @@
+question: In the LNbits API integration code, what is the primary purpose of dividing the balance response by 1000 in the getWalletBalance function?
+answer: To convert the balance from millisatoshis to satoshis for display purposes
+wrong_answers:
+  - To convert the balance from satoshis to Bitcoin for standard denomination
+  - To apply a transaction fee calculation before displaying the available balance
+  - To normalize the balance value for compatibility with the chart data format
+explanation: |
+  The LNbits API returns balance values in millisatoshis (1/1000th of a satoshi), which is the smallest unit used internally by Lightning Network implementations. Dividing by 1000 converts this to satoshis, the standard unit for displaying Bitcoin amounts to users. The other options are incorrect: the conversion is not to Bitcoin (which would require dividing by 100,000,000), it's not applying fees, and it's not for chart compatibility but for proper unit representation.

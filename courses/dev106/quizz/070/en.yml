@@ -1,0 +1,8 @@
+question: Which JavaScript engine does Node.js use to compile and execute JavaScript code?
+answer: Google's V8 engine
+wrong_answers:
+  - "Mozilla's SpiderMonkey engine"
+  - "Microsoft's Chakra engine"
+  - "Apple's JavaScriptCore engine"
+explanation: |
+  Node.js is built on Google's V8 engine, which is the same open-source JavaScript engine that powers Google Chrome. The V8 engine was specifically designed to compile and execute JavaScript code at lightning-fast speeds, making it ideal for Node.js's server-side runtime environment. While other engines like SpiderMonkey, Chakra, and JavaScriptCore exist for different browsers and platforms, Node.js specifically uses V8 for its performance capabilities.

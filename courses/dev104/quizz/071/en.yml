@@ -1,0 +1,8 @@
+question: When implementing a React-based Lightning wallet that needs to handle real-time payment updates, which architectural pattern would be most critical for maintaining state consistency across multiple components?
+answer: Implementing a centralized state management system with event-driven updates to synchronize payment status across all wallet components
+wrong_answers:
+  - Using local component state with prop drilling to pass payment data down through the component hierarchy manually
+  - Storing all payment information in browser localStorage and polling it periodically from each component that needs the data
+  - Creating separate API calls in each component to fetch payment status independently without any shared state coordination
+explanation: |
+  Lightning payments require real-time updates and state consistency across multiple UI components. A centralized state management system ensures all components reflect the same payment status simultaneously, preventing inconsistencies that could lead to double-spending or incorrect balance displays. The other approaches would create race conditions, stale data, or performance issues in a real-time payment environment.

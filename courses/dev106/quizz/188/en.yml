@@ -1,0 +1,8 @@
+question: When a regular user attempts to send a Lightning payment through the frontend, what specific HTTP status code and error mechanism prevents the transaction from being processed?
+answer: HTTP 401 status code returned by the authentication middleware after JWT token validation fails for insufficient permissions
+wrong_answers:
+  - HTTP 403 status code returned by the rate limiting middleware after exceeding the maximum requests per IP address
+  - HTTP 400 status code returned by the Lightning Network when the payment request format is invalid or malformed
+  - "HTTP 500 status code returned by the database when the user's transaction history cannot be retrieved or updated"
+explanation: |
+  The chapter explicitly demonstrates that regular users receive a '401' error when attempting to send payments, indicating authentication/authorization failure. The backend uses JWT tokens and middleware to verify not just user identity but also permission levels. While HTTP 403 would seem logical for permission denial, the system actually returns 401, suggesting the authentication middleware treats insufficient permissions as an authentication failure rather than a forbidden action. The other status codes (400 for bad requests, 500 for server errors) relate to different types of failures unrelated to the permission system.

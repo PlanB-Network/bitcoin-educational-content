@@ -1,0 +1,8 @@
+question: What is the key difference between synchronous and asynchronous operations in Node.js?
+answer: Synchronous operations require both parties to be present like a phone call, while asynchronous operations allow responses when convenient like text messaging
+wrong_answers:
+  - Synchronous operations use callbacks while asynchronous operations execute functions immediately without waiting for responses
+  - Synchronous operations handle multiple tasks simultaneously while asynchronous operations process one task at a time sequentially
+  - Synchronous operations are faster and more efficient while asynchronous operations are slower and block the execution thread
+explanation: |
+  The correct answer uses the phone call vs text messaging analogy from the chapter to illustrate the fundamental difference. Synchronous operations require immediate, simultaneous interaction (like both people being on a phone call), while asynchronous operations allow for delayed responses when convenient (like texting back later). The wrong answers incorrectly describe callbacks, multi-tasking capabilities, or performance characteristics that don't accurately represent the core distinction between synchronous and asynchronous operations.

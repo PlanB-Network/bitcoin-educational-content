@@ -1,0 +1,8 @@
+question: When using bcrypt.hashSync('pass1', 14) in a Knex.js seed file, what does the number 14 specifically represent in the password hashing process?
+answer: The salt rounds parameter that determines the computational cost and security level of the hash
+wrong_answers:
+  - The maximum length in characters that the resulting hashed password can contain
+  - The number of iterations the password string is processed through different encryption algorithms
+  - The version number of the bcrypt algorithm being used for backward compatibility
+explanation: |
+  The number 14 in bcrypt.hashSync represents salt rounds, which determines how computationally expensive the hashing process is. Higher numbers mean more security but slower processing. Salt rounds specifically control how many times the hashing algorithm runs, with each increment roughly doubling the time required. This is different from simple iterations, algorithm versions, or length constraints - it's specifically about the exponential cost factor that makes brute force attacks increasingly difficult.

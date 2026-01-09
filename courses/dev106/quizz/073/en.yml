@@ -1,0 +1,8 @@
+question: What command is used to install all dependencies listed in a Node.js project's package.json file?
+answer: npm install
+wrong_answers:
+  - npm init -y
+  - npm --version
+  - npm install axios
+explanation: |
+  The command 'npm install' without any package name reads the package.json file and installs all dependencies listed in it. This is different from 'npm init -y' which initializes a new project, 'npm --version' which checks the NPM version, and 'npm install axios' which installs a specific package called axios. When you run 'npm install' alone, it looks for the dependencies section in package.json and downloads all required packages for the project.

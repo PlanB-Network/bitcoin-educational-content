@@ -1,0 +1,8 @@
+question: When transitioning from vanilla JavaScript to React for a Lightning wallet application, which architectural change provides the most significant improvement for code maintainability and debugging?
+answer: Moving from scattered HTML, CSS, and JavaScript files to a component-based architecture where each piece has a single responsibility
+wrong_answers:
+  - Replacing manual DOM manipulation with automatic Virtual DOM updates that improve rendering performance
+  - Implementing declarative programming patterns that describe UI appearance rather than imperative DOM operations
+  - Adopting functional components with hooks instead of class-based components for better React optimization
+explanation: |
+  While all options represent React improvements, component-based architecture fundamentally transforms code organization by consolidating related HTML, CSS, and JavaScript into logical, reusable pieces with single responsibilities. This directly addresses the vanilla JavaScript problems of scattered code and complex debugging by making it easy to trace issues within isolated components. Performance improvements and programming paradigms are benefits, but the architectural shift to modular components provides the foundation for all other maintainability gains.

@@ -1,0 +1,8 @@
+question: When building a Lightning wallet application that needs to store user data, transaction records, and wallet balances across multiple interconnected tables, which SQL feature is most essential for ensuring data accuracy?
+answer: Primary keys and foreign keys that establish relationships between tables
+wrong_answers:
+  - SELECT statements with wildcard operators for querying all table data
+  - CREATE and ALTER commands for building and modifying table structures
+  - INSERT and UPDATE commands with WHERE clauses for data manipulation
+explanation: |
+  Primary keys and foreign keys are fundamental to relational database integrity. Primary keys ensure each record is uniquely identifiable, while foreign keys create reliable connections between tables (like linking users to their transactions). This relational structure prevents data inconsistencies and maintains referential integrity across the entire database. While SELECT, CREATE, ALTER, INSERT, and UPDATE commands are important SQL operations, they don't provide the structural foundation that makes data relationships reliable and consistent in a multi-table application.

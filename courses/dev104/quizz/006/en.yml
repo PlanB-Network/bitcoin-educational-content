@@ -1,8 +1,8 @@
-question: Which CSS integration method is recommended for best practices and why?
-answer: External stylesheets because they provide clean separation of concerns and reusability
+question: Which HTML element is used to create a multi-line text input field in forms?
+answer: <textarea>
 wrong_answers:
-  - Inline styles because they offer the fastest rendering and direct element control
-  - Internal styles because they keep everything in one file for better organization
-  - Universal selectors because they apply styles globally across all elements
+  - <input>
+  - <textbox>
+  - <multitext>
 explanation: |
-  External stylesheets are the recommended CSS integration method because they maintain clean separation between content (HTML) and presentation (CSS). This approach offers several key benefits: styles can be reused across multiple pages, code is better organized and maintainable, and browsers can cache the CSS files for improved performance. Inline styles violate separation of concerns and are hard to maintain, while internal styles are limited to single pages and don't offer reusability benefits.
+  The <textarea> element is specifically designed for multi-line text input in HTML forms, allowing users to enter longer content that spans multiple lines. The <input> element is used for single-line text fields and other input types, but cannot handle multi-line text input. <textbox> and <multitext> are not valid HTML elements - they don't exist in the HTML specification and would not function as form controls.

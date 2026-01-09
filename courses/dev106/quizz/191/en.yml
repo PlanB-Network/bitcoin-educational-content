@@ -1,0 +1,8 @@
+question: When testing a Lightning wallet application with Polar, what is the correct sequence of actions to verify that a regular user can successfully receive a Lightning payment?
+answer: Login as regular user, click Receive, enter amount, create invoice, copy payment request, open Polar, select Bob's node, pay invoice, verify payment appears in transactions
+wrong_answers:
+  - "Open Polar first, create invoice on Bob's node, login as regular user, click Send, paste payment request, pay invoice, verify balance update in frontend"
+  - "Login as admin user, click Receive, create invoice, open Polar, select Alice's node, pay invoice, logout admin, login as regular user, verify transaction history"
+  - Create invoice in Polar, copy payment request, login as regular user, click Send, paste request, attempt payment, expect 401 error, verify permission restriction
+explanation: |
+  The correct testing sequence for regular user payment reception starts with logging in as a regular user, creating an invoice through the frontend's Receive function, then using Polar to pay that invoice from an external node (Bob's), and finally verifying the payment appears in the user's transaction list. The wrong answers either confuse sending with receiving (regular users cannot send), mix up admin/regular user roles, or describe testing permission restrictions rather than successful payment reception.

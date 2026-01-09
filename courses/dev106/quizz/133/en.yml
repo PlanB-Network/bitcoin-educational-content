@@ -1,0 +1,8 @@
+question: In a typical full stack Lightning application architecture, which component is responsible for managing Bitcoin/Lightning funds and connecting to the Lightning Network?
+answer: The Lightning Node layer
+wrong_answers:
+  - The API communication layer
+  - The frontend user interface
+  - The database storage layer
+explanation: |
+  The Lightning Node is the foundational layer that actually manages Bitcoin/Lightning funds, connects to the Lightning Network, and processes payments. While the API layer handles communication between components, the frontend manages user experience, and the database stores application data, only the Lightning Node has the capability to hold funds and interact with the broader Lightning Network infrastructure for payment processing.

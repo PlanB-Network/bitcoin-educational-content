@@ -1,0 +1,8 @@
+question: When implementing batch API requests using Promise.all() for initial data loading, what is the primary advantage over sequential API calls?
+answer: All requests execute concurrently, reducing total loading time to the duration of the slowest request
+wrong_answers:
+  - Requests are automatically retried if they fail, improving reliability and error recovery
+  - The API server processes batched requests with higher priority, resulting in faster responses
+  - Memory usage is significantly reduced because only one HTTP connection is established
+explanation: |
+  Promise.all() executes all promises concurrently rather than sequentially, meaning the total time equals the longest individual request rather than the sum of all requests. This dramatically improves performance when loading multiple independent data sources. The wrong answers are incorrect because Promise.all() doesn't provide automatic retry mechanisms, doesn't change server-side request prioritization, and actually establishes multiple concurrent connections rather than reducing them.

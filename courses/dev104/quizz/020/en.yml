@@ -1,8 +1,8 @@
-question: In a professional development workflow, what is the most critical reason why ESLint and Prettier extensions work synergistically rather than redundantly in VS Code?
-answer: ESLint focuses on code quality and error detection while Prettier handles formatting, creating complementary functionality for comprehensive code improvement
+question: When strategically overriding CSS properties using the cascade, what is the most effective approach for setting general margins while ensuring the bottom margin is removed?
+answer: Set margin: 1% auto first, then override with margin-bottom: 0
 wrong_answers:
-  - Both extensions perform identical functions but Prettier serves as a backup when ESLint fails to detect formatting issues
-  - ESLint handles client-side code analysis while Prettier manages server-side code formatting, dividing responsibilities by execution environment
-  - Prettier detects logical errors and syntax issues while ESLint automatically fixes code structure and indentation problems
+  - Set margin-bottom: 0 first, then apply margin: 1% auto
+  - Use !important on margin-bottom: 0 to ensure it takes precedence
+  - Define separate margin-top, margin-left, and margin-right properties individually
 explanation: |
-  ESLint and Prettier serve distinct but complementary purposes in code development. ESLint is a linting tool that analyzes JavaScript code for potential errors, bugs, and adherence to coding standards - it catches syntax errors, identifies unused variables, and enforces best practices. Prettier, on the other hand, is purely a code formatter that handles visual presentation - consistent indentation, spacing, line breaks, and bracket placement. Together, they create a comprehensive code quality system where ESLint ensures your code works correctly and follows standards, while Prettier ensures it looks professional and consistent. This division of labor is intentional and powerful, as mixing these concerns would create conflicts and reduce effectiveness.
+  The cascade reads CSS properties top to bottom, with later declarations overwriting earlier ones for the same property. Setting margin: 1% auto establishes general margins for all sides, then margin-bottom: 0 specifically overrides just the bottom margin while preserving the auto left/right and 1% top values. This leverages CSS's natural cascade behavior without needing !important or verbose individual property declarations.

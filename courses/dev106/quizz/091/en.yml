@@ -1,0 +1,8 @@
+question: What HTTP status code should be returned when a requested user is not found in the database?
+answer: 404
+wrong_answers:
+  - 400
+  - 500
+  - 401
+explanation: |
+  The HTTP status code 404 (Not Found) is the correct response when a requested resource, such as a user, does not exist in the database. Status code 400 indicates a bad request with invalid input, 500 represents an internal server error, and 401 means unauthorized access. The 404 status specifically communicates that the server cannot find the requested resource, making it the appropriate choice for missing users.

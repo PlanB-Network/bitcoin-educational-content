@@ -1,8 +1,8 @@
-question: What happens when you visit a website and your browser needs to display the content?
-answer: Your browser downloads the HTML document from the server and reads it to display content according to the instructions
+question: What is the fundamental concept that HTML uses to organize and display content on a web page?
+answer: The box model that divides content into different boxes called elements
 wrong_answers:
-  - "Your browser directly connects to the website's database and retrieves the raw data to display on screen"
-  - "Your browser generates the HTML code locally based on the website's URL and displays the predicted content"
-  - Your browser sends your personal information to the server which then customizes and displays content specifically for you
+  - The grid system that arranges content in rows and columns automatically
+  - The layer model that stacks content on top of each other in 3D space
+  - The flow system that moves content dynamically based on user interactions
 explanation: |
-  When you visit a website, a specific process occurs: HTML documents are stored on servers, and when you request a webpage, your browser downloads that HTML document from the server. The browser then interprets the HTML markup language instructions to properly display images, text, and other content on your screen. This is the fundamental way web browsing works - the HTML acts as instructions telling your browser exactly how to present the content, rather than the browser generating content independently or accessing databases directly.
+  HTML uses the box model as its fundamental approach to organize and display content. This model treats every piece of content as a box (called an element) that can be positioned and styled on the page. You can visualize these boxes by adding background colors to see how HTML divides content into separate containers. The other options are incorrect - HTML doesn't use an automatic grid system, 3D layering model, or dynamic flow system as its core organizational principle.

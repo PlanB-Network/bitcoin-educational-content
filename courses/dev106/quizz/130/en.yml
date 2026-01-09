@@ -1,0 +1,8 @@
+question: What is the key architectural difference between the development approaches recommended for Lightning protocol development versus Lightning application development?
+answer: Protocol development follows 'move slow and fix things' while application development follows 'move fast and break things'
+wrong_answers:
+  - Protocol development uses containerized environments while application development uses native system installations
+  - Protocol development requires multiple programming languages while application development uses only one language
+  - Protocol development focuses on user interfaces while application development focuses on backend consensus mechanisms
+explanation: |
+  The chapter clearly distinguishes between two development philosophies: protocol development (like building LND or Bitcoin Core) emphasizes reliability, security, and consensus with a 'move slow and fix things' approach, while application development (like building Lightning wallets) focuses on user experience and iteration with a 'move fast and break things' mentality. The other options incorrectly describe technical implementation details rather than the fundamental philosophical approaches to each type of development.

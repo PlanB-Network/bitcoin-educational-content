@@ -1,8 +1,8 @@
-question: What are the two essential VS Code extensions mentioned for JavaScript development and what are their primary functions?
-answer: ESLint for code quality analysis and error detection, and Prettier for automatic code formatting
+question: What happens when two CSS properties with the same name are declared for the same element?
+answer: The second property overwrites the first one due to the cascade
 wrong_answers:
-  - IntelliSense for auto-completion and Live Documentation for function parameter hints
-  - Node.js runtime for JavaScript execution and npm for package management
-  - Git integration for version control and Terminal for command line access
+  - Both properties are applied and their values are combined together
+  - The first property takes priority and the second one is ignored
+  - An error occurs and neither property will be applied to the element
 explanation: |
-  ESLint and Prettier are the two essential extensions specifically highlighted in the chapter. ESLint analyzes JavaScript code in real-time to catch syntax errors, enforce consistent style, and teach best practices. Prettier automatically formats code with consistent indentation and spacing, especially when configured to format on save. The other options describe built-in VS Code features or separate tools rather than the specific extensions recommended for JavaScript development workflow.
+  CSS follows the cascade principle, which means properties are read from top to bottom. When the same property is declared multiple times for the same element, the last declaration wins and overwrites any previous ones. This cascading behavior allows developers to set general styles first and then override them with more specific values when needed, making CSS flexible and powerful for styling web pages.

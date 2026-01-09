@@ -1,0 +1,8 @@
+question: When designing a RESTful API for a Lightning wallet application, which approach best demonstrates proper separation of concerns using Express Router?
+answer: Create separate router files for different resource categories (users, lightning) and mount them with specific base paths in the main server file
+wrong_answers:
+  - Define all routes in the main index.js file with detailed comments to separate different functionalities and resource types
+  - Create one router file containing all endpoints but use different middleware functions to handle users versus lightning operations
+  - Organize routes by HTTP method rather than resource type, creating separate files for GET, POST, PUT, and DELETE operations
+explanation: |
+  Proper Express Router implementation follows the principle of separation of concerns by grouping related functionality into separate modules. Creating distinct router files for different resources (like usersRouter.js for user operations and lightningRouter.js for Lightning Network operations) and mounting them with specific base paths (like '/users' and '/lightning') creates a clean, maintainable architecture. This approach makes code easier to debug, test, and scale compared to mixing all routes in one file or organizing by HTTP methods rather than business logic.

@@ -1,0 +1,8 @@
+question: When integrating LNbits API for wallet balance display, why is the balance value divided by 1000 before showing it to users?
+answer: Lightning Network uses millisatoshis (1/1000 of a satoshi) for precise micropayments, so division converts to user-friendly satoshis
+wrong_answers:
+  - The API returns values in Bitcoin units, so division by 1000 converts them to satoshi denomination for smaller numbers
+  - LNbits stores balances with three decimal places for accuracy, requiring division to remove the decimal formatting
+  - The conversion accounts for network fees and transaction costs that are automatically deducted by the Lightning protocol
+explanation: |
+  The Lightning Network operates using millisatoshis (millisats) as its base unit, which are 1/1000th of a satoshi. This allows for extremely precise micropayments that wouldn't be possible with whole satoshis. When LNbits API returns balance data, it's in millisatoshi units, so dividing by 1000 converts it to satoshis for user display. The other options are incorrect: the API doesn't return Bitcoin units, there are no decimal formatting issues, and the conversion isn't related to fees or network costs.

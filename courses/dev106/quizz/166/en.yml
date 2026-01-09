@@ -1,0 +1,8 @@
+question: In a Lightning wallet database schema, what is the primary purpose of storing both 'send' and 'settled' boolean fields separately in the invoices table?
+answer: To distinguish between payment direction (incoming/outgoing) and completion status independently, enabling tracking of four distinct payment states
+wrong_answers:
+  - "To create redundant data validation where 'send' confirms the transaction and 'settled' provides backup verification of the same information"
+  - "To separate user permissions where 'send' indicates authorization level and 'settled' tracks whether the user has sufficient balance"
+  - "To implement database normalization where 'send' stores the primary state and 'settled' maintains a denormalized copy for faster queries"
+explanation: |
+  The 'send' and 'settled' fields serve completely different purposes in Lightning payment tracking. The 'send' boolean indicates direction (true for outgoing payments, false for incoming invoices), while 'settled' indicates completion status (true when paid, false when pending). This creates four possible states: incoming unpaid invoices, incoming settled payments, outgoing unpaid attempts, and outgoing completed payments. Each state requires different handling - fees are only recorded for settled outgoing payments, settle_date is null until payment completes, and the combination enables proper Lightning wallet functionality where users can create invoices to receive payments and make payments to others.

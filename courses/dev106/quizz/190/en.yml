@@ -1,0 +1,8 @@
+question: When troubleshooting a CORS error in a full-stack Lightning wallet application where the frontend at localhost:3000 cannot access the backend API, what is the most likely cause and solution?
+answer: The backend CORS configuration is missing or incorrectly configured and needs to include the frontend origin in the allowed origins array
+wrong_answers:
+  - The React frontend environment variables are not properly configured with REACT_APP_ prefix and the development server needs restarting
+  - The JWT authentication token has expired or is missing from localStorage and the user needs to log in again
+  - The Lightning Network nodes in Polar are disconnected or lack sufficient channel balance for routing payments
+explanation: |
+  CORS (Cross-Origin Resource Sharing) errors occur when a web application running on one domain tries to access resources from another domain without proper server configuration. In this case, the frontend at localhost:3000 is blocked from accessing the backend API because the server hasn't explicitly allowed this origin. The solution requires configuring the backend with cors middleware that includes the frontend's origin in the allowed origins array. While environment variables, authentication tokens, and Lightning Network connectivity can cause other issues, they don't produce the specific CORS policy blocking error described.

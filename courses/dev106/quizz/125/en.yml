@@ -1,0 +1,8 @@
+question: What is the fundamental requirement that enables Lightning Network nodes to route payments through multiple channels to reach distant recipients?
+answer: Lightning nodes must maintain peer connections with other nodes to share network topology and channel information
+wrong_answers:
+  - Lightning nodes must hold Bitcoin reserves equal to the total value of all transactions they route
+  - Lightning nodes must establish direct payment channels with every possible recipient in the network
+  - Lightning nodes must synchronize their local databases with the Bitcoin blockchain after every payment
+explanation: |
+  Lightning nodes use gossip protocol to communicate with peer nodes and share network information, including channel states and topology. This network awareness allows nodes to discover routing paths to distant recipients without needing direct channels. The wrong answers are incorrect because: nodes don't need reserves for routing (they forward existing channel funds), direct channels to everyone would defeat the purpose of multi-hop routing, and blockchain synchronization isn't required for every payment since Lightning transactions occur off-chain.

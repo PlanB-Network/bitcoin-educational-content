@@ -1,0 +1,8 @@
+question: When designing a Lightning wallet database with foreign key constraints, what happens if you attempt to delete a user record that has associated invoice records in the invoices table?
+answer: The database will reject the deletion and throw a foreign key constraint violation error
+wrong_answers:
+  - The user record will be deleted and all associated invoices will be automatically deleted via cascade
+  - The user record will be deleted but the associated invoices will remain with null user_id values
+  - The deletion will succeed but the foreign key relationships will be automatically updated to reference a default user
+explanation: |
+  Foreign key constraints enforce referential integrity by preventing actions that would leave orphaned records. When a foreign key relationship exists without CASCADE DELETE specified, the database will reject any attempt to delete a parent record (user) that has dependent child records (invoices). This protects data integrity by ensuring all invoice records maintain valid references to existing users. The other options describe behaviors that would either require explicit CASCADE settings or would violate the NOT NULL constraint on the user_id field.

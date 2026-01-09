@@ -1,8 +1,8 @@
-question: What is the correct sequence that describes how JavaScript executes code and handles API requests?
-answer: JavaScript runs line by line from top to bottom, but API requests return Promises that resolve asynchronously
+question: According to the Bitcoin blog project, which HTML element should be used specifically for the main title of a blog post?
+answer: <h1> for main headings
 wrong_answers:
-  - JavaScript executes all functions first, then variables, and finally processes API requests in parallel
-  - JavaScript runs bottom to top for variables, then top to bottom for functions, with APIs blocking execution
-  - JavaScript processes all API requests first, then executes the remaining code in random order
+  - <title> for main headings
+  - <header> for main headings
+  - <main> for main headings
 explanation: |
-  JavaScript follows a sequential execution model, running code line by line from top to bottom. However, when making API requests, JavaScript uses Promises to handle asynchronous operations. This means the API request is initiated in sequence, but the response is handled separately when it arrives, allowing other code to continue executing without waiting. The other options incorrectly describe JavaScript's execution order or suggest that APIs block execution or run in non-sequential patterns.
+  The <h1> element is the correct choice for main headings in HTML documents. In the Bitcoin blog project, <h1> is specifically used for the main title 'Bitcoin: A Peer-to-Peer Electronic Cash System'. The chapter emphasizes semantic HTML and mentions using '<h1> for main headings' as a best practice. While <title> sets the browser tab title, <header> is for header sections, and <main> is for main content areas, only <h1> is designed for the primary heading that users see on the page itself.

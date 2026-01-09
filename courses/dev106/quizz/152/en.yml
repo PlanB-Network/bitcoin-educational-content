@@ -1,0 +1,8 @@
+question: When using the ALTER TABLE command to modify an existing database structure, what is the primary advantage this provides over recreating the table from scratch?
+answer: It preserves all existing data while modifying the table structure without requiring data migration
+wrong_answers:
+  - It automatically creates backup copies of the original table structure for rollback purposes
+  - It executes faster than CREATE TABLE because it uses existing memory allocation patterns
+  - It maintains better security by preventing unauthorized access during the modification process
+explanation: |
+  The ALTER TABLE command is designed to modify existing table structures while preserving all the data already stored in the table. This is crucial because recreating a table would require dropping the existing table (losing all data) and then inserting all the data back after creating the new structure. ALTER TABLE allows you to add columns, modify existing columns, or change constraints without data loss or the complex process of data migration. The other options are incorrect: ALTER doesn't automatically create backups, speed differences are negligible and depend on the operation, and security isn't the primary concern of ALTER operations.

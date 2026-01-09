@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React frontend, what is the most critical security vulnerability introduced by the automatic token inclusion mechanism in the axiosWithAuth utility?
+answer: JWT tokens are exposed to XSS attacks through localStorage access and automatic header injection
+wrong_answers:
+  - JWT tokens become vulnerable to CSRF attacks due to automatic inclusion in all HTTP requests
+  - JWT tokens are susceptible to man-in-the-middle attacks when automatically added to request headers
+  - JWT tokens face replay attacks because they are automatically reused across multiple API calls
+explanation: |
+  The axiosWithAuth utility automatically retrieves JWT tokens from localStorage and injects them into request headers. This creates a significant XSS vulnerability because any malicious JavaScript code executed on the page can access localStorage and steal the token, then make authenticated requests on behalf of the user. While CSRF, MITM, and replay attacks are potential concerns, the primary risk comes from XSS exploitation of localStorage token storage combined with automatic header injection, making token theft trivial for attackers.

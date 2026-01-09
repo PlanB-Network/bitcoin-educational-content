@@ -1,0 +1,8 @@
+question: When implementing the User model's delete() method with Knex.js, what type of value does the .del() operation return that differs from other CRUD operations?
+answer: A Promise that resolves to the number of deleted rows
+wrong_answers:
+  - A Promise that resolves to the deleted user object with all fields
+  - A Promise that resolves to a boolean indicating success or failure
+  - A Promise that resolves to the ID of the deleted user record
+explanation: |
+  The Knex.js .del() method returns a Promise that resolves to the number of rows affected by the delete operation, typically 0 or 1 for single record deletions. This differs from other CRUD operations like create() or update() which can return the actual record data when using .returning('*'). The delete operation doesn't return the deleted record itself because the data no longer exists in the database after deletion, making row count the most meaningful return value.

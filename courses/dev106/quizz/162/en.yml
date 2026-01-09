@@ -1,0 +1,8 @@
+question: When implementing a Knex.js schema builder with table.increments('id'), what fundamental database optimization is automatically applied that distinguishes it from a manually created integer column?
+answer: An index is automatically created on the primary key column for optimal query performance
+wrong_answers:
+  - The column automatically cascades deletions to all related foreign key references
+  - The column implements automatic data compression to reduce storage requirements
+  - The column enables automatic backup and recovery mechanisms for data protection
+explanation: |
+  The table.increments() method in Knex.js creates an auto-incrementing primary key that is automatically indexed by the database engine. This indexing is crucial for query performance, especially for lookups, joins, and sorting operations. Unlike the wrong answers, increments() doesn't handle cascading deletions (that's defined in foreign key constraints), doesn't compress data (that's a storage-level feature), and doesn't enable backup mechanisms (that's a database administration feature). The automatic indexing is the key optimization that makes primary keys efficient for database operations.

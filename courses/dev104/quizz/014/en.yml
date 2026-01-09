@@ -1,8 +1,8 @@
-question: When using template literals with backticks in JavaScript functions, what is the primary advantage over string concatenation with the + operator?
-answer: Template literals allow easy variable insertion with ${} syntax and avoid conflicts with apostrophes in strings
+question: What is the correct file extension that must be used when saving HTML files to ensure they display properly in web browsers?
+answer: .html
 wrong_answers:
-  - Template literals execute faster than string concatenation and use less memory in the browser
-  - Template literals automatically convert all variables to strings while concatenation requires manual conversion
-  - Template literals can only be used inside functions while concatenation works in global scope
+  - .css
+  - .txt
+  - .web
 explanation: |
-  Template literals using backticks provide cleaner syntax for embedding variables with ${variable} notation and eliminate issues with apostrophes in strings like "I'm a developer". The other options are incorrect: template literals don't have significant performance advantages, both methods handle type conversion similarly, and template literals work in any scope, not just functions. The main benefits are readability, easier variable interpolation, and avoiding quote conflicts.
+  HTML files must be saved with the .html extension to be properly recognized and displayed by web browsers. This extension tells the browser that the file contains HTML markup that should be interpreted and rendered as a webpage. The .css extension is used for Cascading Style Sheets files, .txt is for plain text files, and .web is not a standard web file extension. Without the proper .html extension, browsers may not display the content correctly or may treat it as plain text instead of formatted HTML.

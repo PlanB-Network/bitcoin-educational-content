@@ -1,0 +1,8 @@
+question: When designing a database schema for financial applications, which security practice is most critical for protecting user credentials?
+answer: Always hash passwords using cryptographic functions like bcrypt before storing them in the database
+wrong_answers:
+  - Store passwords in a separate encrypted table with restricted database user permissions
+  - Use VARCHAR data type with maximum length constraints to prevent password overflow attacks
+  - Apply UNIQUE constraints on password fields to prevent duplicate credentials across users
+explanation: |
+  Password hashing is the fundamental security requirement for any application storing user credentials. The chapter explicitly states 'Never store plain text passwords' and shows the correct approach using bcrypt.hash(). Hashing transforms passwords into irreversible cryptographic representations, making them useless even if the database is compromised. The wrong answers, while potentially useful security measures, don't address the core vulnerability of plain text password storage. Encrypted tables still contain recoverable data, VARCHAR constraints don't prevent credential theft, and unique password constraints actually weaken security by preventing users from choosing the same secure passwords.

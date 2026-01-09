@@ -1,0 +1,8 @@
+question: What is the primary reason for using bcrypt.compareSync() instead of direct string comparison when validating user passwords in the login endpoint?
+answer: bcrypt.compareSync() properly handles the salt and hashing algorithm to securely compare the plaintext password with the stored hash
+wrong_answers:
+  - bcrypt.compareSync() automatically generates a new JWT token when the password comparison is successful
+  - bcrypt.compareSync() prevents SQL injection attacks by sanitizing the password input before database queries
+  - bcrypt.compareSync() encrypts the password transmission between the client and server to ensure network security
+explanation: |
+  The bcrypt.compareSync() method is essential because passwords are stored as hashed values using bcrypt.hashSync() during registration. When a user logs in, you cannot simply compare the plaintext password with the stored hash using regular string comparison. The compareSync() method takes the plaintext password, applies the same hashing algorithm with the original salt (embedded in the stored hash), and compares the result with the stored hash. This is the only secure way to validate passwords without storing them in plaintext, which would be a major security vulnerability.

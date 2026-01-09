@@ -1,0 +1,8 @@
+question: What is the primary function of the integrated terminal in Visual Studio Code?
+answer: Access command line functionality without leaving the code editor
+wrong_answers:
+  - Display real-time error messages and syntax highlighting for code
+  - Provide auto-completion suggestions and parameter hints while coding
+  - Manage and install Visual Studio Code extensions automatically
+explanation: |
+  The integrated terminal allows developers to execute command line operations directly within VS Code, including running build commands, starting development servers, executing Git commands, and installing packages with npm. This eliminates the need to switch between the code editor and a separate terminal application, creating a more efficient workflow. The other options describe different VS Code features: error display is handled by the Problems panel, auto-completion is provided by IntelliSense, and extension management occurs through the Extensions panel.

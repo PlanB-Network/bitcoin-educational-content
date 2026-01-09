@@ -1,0 +1,8 @@
+question: What is the most critical architectural problem that React's component-based approach solves when transitioning from vanilla JavaScript Lightning wallet implementations?
+answer: Eliminates manual DOM manipulation and provides automatic UI updates when wallet state changes
+wrong_answers:
+  - Reduces Lightning Network transaction fees through optimized component rendering algorithms
+  - Provides built-in cryptographic functions for secure Bitcoin private key generation and storage
+  - Automatically handles Lightning channel opening and closing without requiring user intervention
+explanation: |
+  React's core value proposition is its declarative approach where developers describe what the UI should look like based on state, and React automatically handles DOM updates when that state changes. This eliminates the tedious and error-prone manual DOM manipulation that plagued the vanilla JavaScript implementation. The wrong answers confuse React's UI management capabilities with Lightning Network protocol features, transaction optimization, or cryptographic operations - none of which are React's responsibilities in a Lightning wallet architecture.

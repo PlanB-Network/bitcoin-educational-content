@@ -1,0 +1,8 @@
+question: What is the primary advantage of SQL's declarative nature when querying databases compared to other programming approaches?
+answer: You describe what data you want rather than specifying the step-by-step process to retrieve it
+wrong_answers:
+  - You must explicitly define each step the database engine should take to execute the query
+  - You write procedural code that tells the database exactly how to access and process the data
+  - You specify the physical storage locations and indexing methods the database should use
+explanation: |
+  SQL is declarative, meaning you specify what results you want (SELECT name FROM users WHERE age > 25) rather than how to get them. The database engine determines the optimal execution plan, including which indexes to use, how to join tables, and in what order to process operations. This contrasts with imperative programming where you must specify each step explicitly, making SQL both more powerful and easier to use for data retrieval.

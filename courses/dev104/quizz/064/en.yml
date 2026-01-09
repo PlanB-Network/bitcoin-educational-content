@@ -1,0 +1,8 @@
+question: When implementing a Lightning wallet's real-time price updates using React's Virtual DOM, what is the most accurate description of how React optimizes performance during frequent data changes?
+answer: React compares virtual DOM snapshots to identify differences and updates only the specific DOM elements that actually changed
+wrong_answers:
+  - React caches all price data in memory and batches DOM updates every 10 seconds to minimize browser reflow operations
+  - React creates a complete copy of the entire webpage in JavaScript and replaces the full DOM structure on each update
+  - React monitors individual DOM elements directly and applies changes immediately without any intermediate processing steps
+explanation: |
+  React's Virtual DOM works through a diffing algorithm that compares the current virtual representation with the previous snapshot, identifying only the elements that need updates. This is crucial for Lightning wallets with frequent price updates because it avoids re-rendering the entire interface. The wrong answers misrepresent React's process: it doesn't batch updates arbitrarily, doesn't replace entire DOM structures, and doesn't monitor DOM elements directly but works through virtual representations.

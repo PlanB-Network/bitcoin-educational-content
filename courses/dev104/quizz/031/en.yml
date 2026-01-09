@@ -1,0 +1,8 @@
+question: What happens when you call getData() to fetch information from an API without using the await keyword?
+answer: It returns a Promise object immediately, not the actual data from the API
+wrong_answers:
+  - It waits for the data to arrive and then returns the actual response
+  - It throws an error because async functions require the await keyword
+  - It returns undefined because the function cannot execute without await
+explanation: |
+  When you call getData() without await, JavaScript immediately returns a Promise object rather than waiting for the actual data. This is because JavaScript is designed for speed and non-blocking operations - it fires off the request and continues executing the next line of code without waiting. The Promise serves as a placeholder that will eventually contain the data when the request completes. Only by using await do you tell JavaScript to pause execution and wait for the Promise to resolve with the actual data.

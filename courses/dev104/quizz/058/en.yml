@@ -1,0 +1,8 @@
+question: What is the critical difference between a React application running on localhost:3000 during development versus after production deployment to Vercel?
+answer: The application becomes accessible to anyone on the internet through a public URL instead of being limited to the local development machine
+wrong_answers:
+  - The application automatically scales to handle millions of concurrent users without any code modifications or performance optimizations
+  - The React components are converted from JavaScript to native machine code for faster execution on the production servers
+  - The application runs on multiple programming languages simultaneously to ensure cross-platform compatibility across different devices
+explanation: |
+  The fundamental difference is accessibility scope. During development, localhost:3000 only allows access from the developer's local machine, making it impossible for external users to interact with the application. Production deployment transforms this by hosting the application on public servers with a globally accessible URL, enabling real users worldwide to access and use the application through their browsers.

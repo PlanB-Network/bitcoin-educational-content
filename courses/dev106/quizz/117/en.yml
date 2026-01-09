@@ -1,0 +1,8 @@
+question: When implementing the authentication middleware, what happens if a valid JWT token is provided but the user lacks the required admin key for the authenticateAdmin middleware?
+answer: The middleware returns a 401 status with 'Must be an admin' message and blocks access to the endpoint
+wrong_answers:
+  - The middleware automatically generates a temporary admin key and allows the request to proceed
+  - The middleware downgrades the user to basic authentication level and redirects to a different endpoint
+  - The middleware returns a 403 status and prompts the user to upgrade their account permissions
+explanation: |
+  The authenticateAdmin middleware performs a two-step verification process. First, it validates the JWT token, and second, it checks if the user's adminKey matches the ADMIN_KEY environment variable. Even with a valid JWT token, if the adminKey comparison fails, the middleware specifically returns a 401 status with the message 'Must be an admin' and calls res.status(401).json(), which prevents the next() function from executing and blocks access to the protected endpoint. This ensures that only users with both valid authentication and proper admin privileges can access admin-protected routes.

@@ -1,0 +1,8 @@
+question: What is the primary difference between the authenticate middleware and the authenticateAdmin middleware in terms of authorization checks?
+answer: The authenticateAdmin middleware performs an additional admin key verification after JWT token validation
+wrong_answers:
+  - The authenticate middleware uses a different JWT secret than the authenticateAdmin middleware
+  - The authenticateAdmin middleware skips JWT token verification and only checks the admin key
+  - The authenticate middleware requires both username and password while authenticateAdmin only needs a token
+explanation: |
+  Both middleware functions perform JWT token verification first, but authenticateAdmin goes further by checking if the decoded user has a valid admin key that matches the environment variable ADMIN_KEY. The authenticate middleware stops after successful JWT verification, while authenticateAdmin adds this second layer of authorization to ensure only admin users can access admin-protected endpoints. This two-step process allows for role-based access control where regular authenticated users can create invoices but only admins can pay them.

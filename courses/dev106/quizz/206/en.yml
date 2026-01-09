@@ -1,0 +1,8 @@
+question: When deploying a Lightning wallet application with Voltage and Vercel, what is the critical security consideration regarding the LND_CONNECT_URI environment variable?
+answer: The LND_CONNECT_URI should only be stored in the backend server environment variables on Heroku, never in the frontend Vercel deployment
+wrong_answers:
+  - The LND_CONNECT_URI must be shared between both Heroku backend and Vercel frontend environment variables for proper synchronization
+  - The LND_CONNECT_URI should be stored in the frontend Vercel environment variables to enable direct Lightning Network connections from the browser
+  - The LND_CONNECT_URI can be safely embedded in the frontend code since it only provides read-only access to the Lightning node
+explanation: |
+  The LND_CONNECT_URI contains sensitive authentication credentials that provide full access to your Lightning node, including the ability to send payments and manage channels. This URI should only be stored securely in the backend server environment (Heroku) where it's protected from client-side exposure. Storing it in frontend environment variables or code would expose these credentials to users' browsers, creating a massive security vulnerability. The frontend should only communicate with the Lightning node through the secure backend API endpoints, never directly.

@@ -1,0 +1,8 @@
+question: In the React Lightning wallet implementation, what is the most critical architectural reason for using the `out: false` parameter when creating invoices versus `out: true` when paying invoices?
+answer: It distinguishes between incoming payments (receiving funds) and outgoing payments (sending funds) for proper transaction flow direction
+wrong_answers:
+  - It controls whether the transaction is broadcast to the Lightning Network or kept as a draft in the local wallet
+  - It determines whether the payment uses the mainnet or testnet Lightning Network for processing the transaction
+  - It specifies whether the payment requires additional cryptographic signatures or can be processed with standard authentication
+explanation: |
+  The `out` parameter is crucial for indicating transaction direction in the LNbits API. When `out: false`, you're creating an incoming payment request (invoice) to receive funds. When `out: true`, you're making an outgoing payment to send funds. This boolean flag tells the API whether money should flow into or out of your wallet, ensuring proper accounting and transaction processing. The other options incorrectly describe network selection, broadcasting mechanisms, or signature requirements, which are not controlled by this parameter.

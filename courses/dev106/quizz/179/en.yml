@@ -1,0 +1,8 @@
+question: In the Lightning invoice database model, what specific field configuration correctly distinguishes between incoming payments received and outgoing payments sent?
+answer: The send field is set to false for incoming invoices and true for outgoing payments
+wrong_answers:
+  - The settled field is set to true for incoming invoices and false for outgoing payments
+  - The value field uses positive numbers for incoming and negative numbers for outgoing payments
+  - "The payment_request field contains 'in_' prefix for incoming and 'out_' prefix for outgoing transactions"
+explanation: |
+  The send field is the key discriminator in the invoice model architecture. When creating an invoice (incoming payment), send is set to false because you're receiving funds. When paying an invoice (outgoing payment), send is set to true because you're sending funds. The settled field indicates payment status regardless of direction, the value field always stores positive amounts with fees tracked separately, and payment_request is a Lightning protocol standard that doesn't use directional prefixes.

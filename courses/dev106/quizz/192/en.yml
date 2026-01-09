@@ -1,0 +1,8 @@
+question: What is the most critical security implication when a Lightning wallet application returns 'Request failed with status 401' for payment sending attempts by non-admin users?
+answer: It demonstrates proper role-based access control preventing unauthorized users from spending wallet funds
+wrong_answers:
+  - It indicates a JWT token expiration issue that needs immediate session refresh and re-authentication
+  - It shows a CORS configuration error blocking legitimate API requests from the frontend application
+  - It reveals a rate limiting mechanism protecting the Lightning node from excessive payment requests
+explanation: |
+  The 401 status code in this context represents successful implementation of role-based authorization, not a system failure. The application correctly restricts payment sending to admin users only, preventing unauthorized fund transfers while still allowing regular users to receive payments. This is a deliberate security feature, not an authentication error, CORS issue, or rate limiting problem that needs fixing.

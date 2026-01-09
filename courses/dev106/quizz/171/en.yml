@@ -1,0 +1,8 @@
+question: In the authenticateAdmin middleware implementation, what is the primary security vulnerability that could occur if the admin key comparison logic is not properly handled?
+answer: Type coercion vulnerabilities where null or undefined adminKey values could bypass authentication through loose equality comparisons
+wrong_answers:
+  - SQL injection attacks through improperly sanitized admin key values passed to database queries
+  - Cross-site scripting vulnerabilities from displaying admin key values in client-side error messages
+  - Buffer overflow attacks from admin keys exceeding the maximum string length limits in JavaScript
+explanation: |
+  The correct answer identifies the critical type coercion vulnerability. In the middleware code, the admin key is converted to string with `user?.adminKey?.toString() ?? ""` and compared using strict equality. Without proper null/undefined handling, loose equality comparisons could allow unauthorized access when adminKey is null or undefined, as these values might coerce to match empty strings or other falsy values. The wrong answers describe vulnerabilities that don't apply to this specific authentication context - SQL injection isn't relevant since the key isn't used in queries, XSS concerns client-side display which doesn't happen here, and buffer overflows aren't a JavaScript string comparison issue.

@@ -1,0 +1,8 @@
+question: What is the primary purpose of using primary keys and foreign keys in a relational database management system?
+answer: To establish unique identifiers for records and create reliable connections between related tables
+wrong_answers:
+  - To encrypt sensitive data and provide security authentication for database access
+  - To optimize query performance by creating automatic indexes on all table columns
+  - To enable automatic backup functionality and prevent data loss during system failures
+explanation: |
+  Primary keys and foreign keys are fundamental components of relational database design that serve to maintain data integrity and establish relationships. Primary keys provide unique identifiers for each record in a table, ensuring no duplicate entries exist. Foreign keys create reliable connections between tables by referencing the primary key of another table, enabling the relational aspect of RDBMS. This system allows multiple tables to work together cohesively, much like connecting multiple spreadsheets with certainty. The other options describe different database features: encryption and security are handled by separate authentication systems, query optimization uses indexes but not specifically through keys, and backup functionality is a separate database management feature unrelated to keys.

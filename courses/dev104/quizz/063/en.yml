@@ -1,0 +1,8 @@
+question: In a React-based Lightning wallet application with multiple BalanceCard components displaying different data, what is the most critical factor that determines whether components should be separate instances or consolidated into a single component?
+answer: Each component should have a single responsibility and manage distinct state or data sources independently
+wrong_answers:
+  - Components should be consolidated whenever they share similar visual styling or CSS classes to reduce code duplication
+  - The number of props passed to each component should determine consolidation, with fewer props indicating need for separation
+  - Components displaying financial data should always be separate for security reasons regardless of their functionality
+explanation: |
+  The single responsibility principle is fundamental to React component architecture. Each component should manage one specific piece of functionality or state. In a Lightning wallet, separate BalanceCard instances for balance and price make sense because they handle different data sources, update frequencies, and business logic. Visual similarity or shared styling doesn't justify consolidation - that's what CSS classes and component composition are for. The number of props is irrelevant to architectural decisions, and security concerns don't dictate component separation patterns.

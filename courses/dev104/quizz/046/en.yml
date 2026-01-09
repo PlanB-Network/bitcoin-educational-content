@@ -1,0 +1,8 @@
+question: What is the primary relationship between Git and GitHub in the context of version control and collaboration?
+answer: Git is the underlying protocol for version control, while GitHub is a cloud-based platform that provides a visual interface and collaboration tools built on top of Git
+wrong_answers:
+  - Git is a web-based platform for storing code, while GitHub is the command-line tool used to interact with Git repositories locally
+  - Git and GitHub are competing version control systems, with Git being open-source and GitHub being a proprietary alternative to Git
+  - "Git is the newer version of GitHub that was developed to replace GitHub's outdated version control system with better performance"
+explanation: |
+  Git is fundamentally a protocol - a set of rules for tracking code changes - that works as a sophisticated version control system. GitHub, on the other hand, is a web-based platform built on top of Git that provides remote repositories, visual interfaces, and collaboration features. The analogy given in the material perfectly captures this: if Git is the engine, GitHub is the car that makes it accessible and user-friendly. This relationship allows developers to use Git's powerful version control locally while leveraging GitHub's cloud storage and collaboration tools.

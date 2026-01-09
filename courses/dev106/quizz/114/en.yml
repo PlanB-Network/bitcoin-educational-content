@@ -1,0 +1,8 @@
+question: Which of the following best describes why JWTs are considered 'self-contained' in the context of authentication systems?
+answer: JWTs carry all necessary user information and claims within the token itself, eliminating the need for server-side lookups
+wrong_answers:
+  - JWTs automatically encrypt all user data using built-in cryptographic algorithms without requiring external libraries
+  - JWTs can validate themselves without any secret key or signature verification process on the server side
+  - "JWTs store user session data directly in the browser's local storage and manage their own expiration automatically"
+explanation: |
+  JWTs are self-contained because they embed all necessary user information (like ID, username, admin status) directly in the payload section of the token. This means the server doesn't need to query a database or maintain session storage to retrieve user details - everything needed for authorization decisions is contained within the token itself. The other options are incorrect: JWTs don't automatically encrypt data (they're encoded, not encrypted), they absolutely require signature verification using a secret key, and while they can be stored in browser storage, this isn't what makes them self-contained.

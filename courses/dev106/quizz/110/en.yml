@@ -1,0 +1,8 @@
+question: What happens when you make a request to an Express server that has Morgan middleware properly configured?
+answer: The request details including IP address, timestamp, HTTP method, path, and status code are logged to the terminal
+wrong_answers:
+  - The request is automatically blocked and returns a 403 Forbidden status code for security reasons
+  - The server response includes additional authentication tokens in the response headers for client verification
+  - The request is cached in memory and duplicate requests are served from cache to improve performance
+explanation: |
+  Morgan is a logging middleware that records HTTP request information to the console or log files. When properly configured, it captures and displays request details like IP address, timestamp, HTTP method, path, status code, and response size in a formatted string. The other options describe functionality of different types of middleware - security blocking, authentication, and caching - which are not what Morgan does.

@@ -1,0 +1,8 @@
+question: What is the primary architectural consequence of implementing the User model's update() method with .where({ id }).update(user).returning('*') instead of using separate find and update operations?
+answer: It performs atomic database operations that prevent race conditions and ensures data consistency
+wrong_answers:
+  - It automatically validates user input fields before applying changes to the database record
+  - It creates a backup of the original record before applying updates for rollback purposes
+  - It encrypts sensitive data fields during the update process to maintain security standards
+explanation: |
+  The combined .where().update().returning() chain creates a single atomic database transaction that prevents race conditions where another process could modify the record between a separate find and update operation. This ensures data consistency and eliminates the possibility of lost updates or inconsistent state. The other options describe functionality that is not inherent to this Knex pattern - input validation occurs at the application layer, backup creation requires separate implementation, and encryption would be handled by dedicated middleware or model methods.

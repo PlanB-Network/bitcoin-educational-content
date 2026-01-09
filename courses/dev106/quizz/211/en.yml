@@ -1,0 +1,8 @@
+question: In a Lightning wallet health check endpoint, what is the primary purpose of checking both database and Lightning node connections before returning a healthy status?
+answer: To ensure all critical services are operational before confirming the wallet can process transactions safely
+wrong_answers:
+  - To reduce server load by preventing unnecessary database queries when the Lightning node is offline
+  - "To comply with Heroku's automatic deployment requirements for production environment validation"
+  - To generate the node public key identifier needed for the health check response formatting
+explanation: |
+  A comprehensive health check validates that all essential services are functioning properly before declaring the system healthy. This prevents the wallet from appearing operational when critical components like database connectivity or Lightning network access are compromised, which could lead to failed transactions or data inconsistencies. The other options focus on secondary benefits or incorrect assumptions about deployment requirements and response formatting.

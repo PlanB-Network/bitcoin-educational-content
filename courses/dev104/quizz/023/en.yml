@@ -1,8 +1,8 @@
-question: In React's component hierarchy, what is the fundamental rule governing how data flows between parent and child components?
-answer: Data flows unidirectionally from parent to child components through props, and child components cannot modify the props they receive
+question: Which CSS selector combination would target only paragraph elements that are direct children of elements with the class 'article-content'?
+answer: .article-content > p
 wrong_answers:
-  - Data flows bidirectionally between parent and child components, allowing children to directly modify parent state through props
-  - Data flows upward from child to parent components through state, while props are used for internal component communication only
-  - Data flows through a centralized store that all components access equally, eliminating the need for parent-child relationships
+  - .article-content p
+  - .article-content + p
+  - .article-content ~ p
 explanation: |
-  React enforces a unidirectional data flow architecture where data moves down the component tree from parent to child through props. Props are read-only in child components, meaning children cannot directly modify the data passed to them. This design pattern ensures predictable data flow, easier debugging, and prevents unexpected side effects. When children need to communicate changes back to parents, they do so through callback functions passed down as props, maintaining the unidirectional flow principle that makes React applications more maintainable and easier to reason about.
+  The child combinator (>) selects only direct children, making '.article-content > p' target paragraphs that are immediate children of elements with class 'article-content'. The descendant selector '.article-content p' would target ALL paragraphs inside the element, including nested ones. The adjacent sibling selector '+' targets elements immediately following the specified element, while the general sibling selector '~' targets all siblings that come after.

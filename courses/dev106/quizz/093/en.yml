@@ -1,0 +1,8 @@
+question: What HTTP status code should be returned when input validation fails for a POST request in Express.js?
+answer: 400
+wrong_answers:
+  - 422
+  - 401
+  - 500
+explanation: |
+  Status code 400 (Bad Request) is the correct response when input validation fails, as it indicates the client sent malformed or invalid data. The example shows returning 400 for invalid user IDs and validation errors. Status 422 (Unprocessable Entity) is sometimes used for validation but 400 is more standard. Status 401 indicates authentication issues, not validation problems. Status 500 represents server errors, not client-side input problems.

@@ -1,0 +1,8 @@
+question: When implementing environment-specific configurations for a Lightning wallet stack, why is it essential to use different host configurations across development, staging, and production environments?
+answer: To isolate financial transactions and prevent accidental mainnet operations during testing phases
+wrong_answers:
+  - To optimize server performance by distributing computational load across multiple domains
+  - To enable different user authentication mechanisms for each deployment environment
+  - To comply with regulatory requirements that mandate separate hosting providers for each environment
+explanation: |
+  Different host configurations across environments are crucial for transaction isolation and safety. Development typically uses localhost for local testing, staging uses a separate deployment for integration testing, and production handles real financial operations. This separation prevents catastrophic errors like accidentally sending real Bitcoin transactions during development or testing phases. The other options are incorrect: load distribution is not the primary concern for environment separation, authentication mechanisms can be the same across environments, and regulatory compliance doesn't typically mandate different hosting providers for development environments.

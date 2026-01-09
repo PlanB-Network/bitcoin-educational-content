@@ -1,0 +1,8 @@
+question: What is Node.js fundamentally classified as?
+answer: A JavaScript runtime built on the V8 engine
+wrong_answers:
+  - A web browser extension for server development
+  - A programming language designed for backend systems
+  - A database management system with JavaScript support
+explanation: |
+  Node.js is fundamentally a JavaScript runtime environment, not a programming language, browser extension, or database system. It's built on Google's V8 JavaScript engine and serves as a platform that allows JavaScript code to execute outside of web browsers. This runtime provides the necessary environment and tools for JavaScript to run on servers and access system-level resources like file systems and networks.

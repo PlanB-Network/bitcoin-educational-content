@@ -1,0 +1,8 @@
+question: When implementing real-time balance updates in a Lightning wallet frontend, what is the most appropriate strategy for retrieving current wallet state without overwhelming the backend server?
+answer: Use a 30-second polling interval with setInterval to periodically fetch price, balance, and transaction data
+wrong_answers:
+  - Implement WebSocket connections with continuous streaming of all Lightning network events and blockchain updates
+  - Use a 1-second polling interval with immediate API calls to ensure real-time accuracy of all wallet data
+  - Configure event-driven updates that trigger API calls every time the user interacts with any UI component
+explanation: |
+  The 30-second polling interval strikes the optimal balance between providing reasonably current data and avoiding excessive server load. This approach batches multiple data requests (Bitcoin price, on-chain balance, Lightning balance, and transactions) into periodic updates rather than overwhelming the backend with constant requests. WebSocket streaming would be overkill for wallet data that doesn't change frequently, while 1-second polling would create unnecessary server strain. Event-driven updates on every UI interaction would result in redundant API calls when users are simply browsing their wallet interface.

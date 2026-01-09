@@ -1,8 +1,8 @@
-question: What is the fundamental advantage of React's predictable data flow pattern (props down, events up) in Lightning wallet development compared to vanilla JavaScript approaches?
-answer: It eliminates state synchronization issues by creating a unidirectional data flow that makes UI updates automatic and debugging straightforward
+question: In the Pleb Wallet project, which CSS display property and value combination is used to create the flexible button layout that automatically distributes space between the Send and Receive buttons?
+answer: display: flex with justify-content: space-around
 wrong_answers:
-  - It allows components to directly modify parent state without callbacks, reducing the complexity of inter-component communication patterns
-  - It enables bidirectional data binding where child components can automatically update parent props, creating seamless state synchronization
-  - It permits multiple components to share mutable state references, allowing for faster updates and reduced memory usage in wallet operations
+  - display: grid with grid-template-columns: repeat(2, 1fr)
+  - display: inline-block with text-align: center
+  - display: block with margin: 0 auto
 explanation: |
-  React's unidirectional data flow (props down, events up) solves the core problem of state synchronization that plagued vanilla JavaScript wallets. When data flows predictably in one direction - from parent to child via props, and changes flow back up via event callbacks - it eliminates the chaos of scattered state updates and manual DOM manipulation. This pattern ensures that when wallet data changes (like balance updates or new transactions), the UI automatically re-renders consistently across all components. The wrong answers describe anti-patterns that would actually recreate the synchronization problems React was designed to solve.
+  The buttons container uses 'display: flex' to create a flexible container, combined with 'justify-content: space-around' to automatically distribute equal space around each button. This creates the desired spacing effect where buttons are evenly distributed within their container. Grid would create columns but doesn't provide the same automatic spacing, inline-block with text-align centers elements but doesn't control spacing between them, and display block with margin only centers the container itself, not the individual buttons within it.

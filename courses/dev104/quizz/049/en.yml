@@ -1,0 +1,8 @@
+question: What would be the most significant consequence for a development team working on a large codebase without any version control system like Git?
+answer: Files would frequently get overwritten and there would be no way to track who made specific changes or roll back problematic modifications
+wrong_answers:
+  - The code would run slower and consume more memory due to lack of optimization features provided by version control systems
+  - Team members would be unable to write code in different programming languages since version control enables multi-language support
+  - The application would be more vulnerable to security attacks because version control systems provide built-in encryption and firewall protection
+explanation: |
+  Without version control, teams face the exact problems Git was designed to solve: files getting overwritten when multiple developers work simultaneously, no ability to track change history or authorship, and no way to safely revert problematic changes. The wrong answers incorrectly suggest that version control affects code performance, language compatibility, or security features, when Git actually focuses on change tracking and collaboration management.

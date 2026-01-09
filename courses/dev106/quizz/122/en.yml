@@ -1,0 +1,8 @@
+question: What is the primary purpose of the gossip protocol communication between Lightning Network nodes?
+answer: To share network updates and channel information for maintaining network awareness
+wrong_answers:
+  - To process actual payment transactions and route funds between users
+  - To synchronize with Bitcoin Core nodes and download blockchain data
+  - To establish new payment channels and negotiate multisignature wallet terms
+explanation: |
+  The gossip protocol is specifically used for peer-to-peer communication between Lightning nodes to share network topology information, channel updates, and maintain awareness of the network state. This is distinct from payment channels (which handle actual transactions), Bitcoin Core connections (which provide blockchain data), and channel establishment (which involves creating multisig wallets). The gossip protocol ensures all nodes have current information about available channels and routing paths.

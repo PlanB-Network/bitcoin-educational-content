@@ -1,0 +1,8 @@
+question: In a Lightning wallet database with Users and Invoices tables, what would be the result of a LEFT JOIN query when a user exists but has no associated invoices?
+answer: The user's information appears with NULL values for all invoice columns
+wrong_answers:
+  - The user is excluded from the results since no matching invoices exist
+  - An error occurs because the foreign key constraint prevents unmatched records
+  - The query returns an empty result set until invoices are created for that user
+explanation: |
+  LEFT JOIN returns all records from the left table (Users) regardless of whether matching records exist in the right table (Invoices). When no invoices exist for a user, the user's data still appears in the result set, but all invoice columns show NULL values. This behavior is crucial for Lightning wallets to display all users, including new ones who haven't created any invoices yet. INNER JOIN would exclude such users, while the other options describe incorrect database behaviors that don't reflect how LEFT JOIN actually operates.

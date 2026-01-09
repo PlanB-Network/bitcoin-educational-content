@@ -1,0 +1,8 @@
+question: What is the recommended minimum length for a username according to the Express.js validation example?
+answer: 3 characters
+wrong_answers:
+  - 5 characters
+  - 8 characters
+  - 6 characters
+explanation: |
+  According to the validation function shown in the chapter, usernames must be at least 3 characters long. The code specifically checks 'if (!userData.username || userData.username.length < 3)' and returns an error message 'Username must be at least 3 characters' if this condition is met. The other options (5, 6, and 8 characters) are not mentioned in the validation logic and would be unnecessarily restrictive for basic username requirements.

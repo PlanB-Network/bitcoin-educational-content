@@ -1,0 +1,8 @@
+question: When using JSX in React, which syntax correctly demonstrates embedding a JavaScript expression to display a dynamic Bitcoin wallet balance?
+answer: <div>Wallet Balance: {balance} BTC</div>
+wrong_answers:
+  - <div>Wallet Balance: ${balance} BTC</div>
+  - <div>Wallet Balance: {{balance}} BTC</div>
+  - <div>Wallet Balance: (balance) BTC</div>
+explanation: |
+  In JSX, JavaScript expressions must be wrapped in single curly braces {}. The correct syntax {balance} tells React to evaluate the JavaScript variable or expression. Using ${balance} is template literal syntax for regular JavaScript strings, not JSX. Double curly braces {{balance}} would create an object literal inside JSX, which React cannot render directly. Parentheses (balance) are not valid JSX expression syntax and would be treated as literal text.

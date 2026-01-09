@@ -1,0 +1,8 @@
+question: When implementing real-time invoice updates using WebSockets, what is the most critical consideration for preventing memory leaks in a React component?
+answer: Properly closing the WebSocket connection in the useEffect cleanup function to prevent accumulating connections
+wrong_answers:
+  - Using JSON.parse() to handle incoming WebSocket messages to avoid data corruption and parsing errors
+  - Implementing message type checking to filter relevant invoice_paid events from other WebSocket messages
+  - Setting up the WebSocket connection URL to match the backend server port for proper communication
+explanation: |
+  The correct answer addresses a critical memory management issue in React applications. When a WebSocket connection is established in useEffect without proper cleanup, each component re-render or unmount can leave the connection open, leading to memory leaks and multiple active connections. The cleanup function (return statement in useEffect) must close the WebSocket to prevent this. The wrong answers, while representing good practices for WebSocket implementation, don't address the memory leak prevention aspect that's crucial for application stability.

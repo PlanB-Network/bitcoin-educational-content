@@ -1,0 +1,8 @@
+question: In the provided React Lightning wallet code, what is the primary architectural benefit of using separate CSS files for each component rather than placing all styles in App.css?
+answer: Better organization and maintainability with component-specific styling that prevents style conflicts and enables easier debugging
+wrong_answers:
+  - Faster loading times because the browser can cache smaller CSS files more efficiently than one large file
+  - Automatic CSS minification that only occurs when styles are separated into individual component files
+  - Enhanced security by preventing CSS injection attacks that target monolithic stylesheets in React applications
+explanation: |
+  Separating CSS into component-specific files follows modular design principles, making code more maintainable and preventing style conflicts between components. This approach allows developers to easily locate and modify styles for specific components without affecting others. While the other options mention technical benefits, they are incorrect: file size rarely impacts caching significantly, minification works regardless of file structure, and CSS separation doesn't provide security benefits against injection attacks.

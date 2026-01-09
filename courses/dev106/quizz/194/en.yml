@@ -1,0 +1,8 @@
+question: When a Lightning wallet frontend displays the error 'No route found' during payment processing, what is the most likely underlying cause in the Lightning Network infrastructure?
+answer: The Lightning nodes lack sufficient channel capacity or connectivity to establish a payment path between sender and receiver
+wrong_answers:
+  - The backend server has exceeded its rate limiting threshold and is temporarily blocking payment requests
+  - The JWT authentication token has expired and needs to be refreshed before processing the payment
+  - The frontend polling interval is too frequent and causing database connection timeouts during payment processing
+explanation: |
+  The 'No route found' error is specifically a Lightning Network routing issue that occurs when the network cannot establish a viable payment path between nodes. This happens when there's insufficient channel liquidity, missing channel connections, or network fragmentation. The other options relate to application-level issues (rate limiting, authentication, polling) rather than Lightning Network routing problems, which operate at the protocol level independently of these frontend/backend concerns.

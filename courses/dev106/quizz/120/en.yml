@@ -1,0 +1,8 @@
+question: What would be the most appropriate environment variable configuration to ensure secure operation of the JWT authentication system in a production environment?
+answer: Set JWT_SECRET to a strong, randomly generated string and ADMIN_KEY to a unique, unpredictable value
+wrong_answers:
+  - "Use the default values 'Satoshi Nakamoto' for JWT_SECRET and leave ADMIN_KEY undefined for security"
+  - Set JWT_SECRET to the application name and ADMIN_KEY to a simple numeric sequence like 12345
+  - Configure JWT_SECRET as an empty string and set ADMIN_KEY to match the database password
+explanation: |
+  The authentication system relies on two critical environment variables: JWT_SECRET for signing and verifying tokens, and ADMIN_KEY for admin privilege validation. In production, both must be strong, unique values. The default 'Satoshi Nakamoto' is publicly visible in code and predictable. Simple sequences or empty strings provide no security. Using database passwords creates unnecessary coupling and security risks.

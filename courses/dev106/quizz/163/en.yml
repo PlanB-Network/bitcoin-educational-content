@@ -1,0 +1,8 @@
+question: What is the fundamental difference between Knex.js migrations and seeds in terms of their primary purpose and execution timing?
+answer: Migrations manage database structure changes and run once per deployment, while seeds populate tables with data and can run repeatedly
+wrong_answers:
+  - Migrations handle data insertion and run repeatedly, while seeds manage schema changes and run once per environment setup
+  - Migrations create test data for development environments, while seeds define table structures and relationships for production use
+  - Migrations are used for production deployments only, while seeds are development-specific tools for creating database schemas
+explanation: |
+  Migrations and seeds serve completely different purposes in database management. Migrations are version control for your database structure - they create, modify, or delete tables and columns, and each migration typically runs only once per environment when deployed. Seeds, on the other hand, are designed to populate existing tables with data, particularly test data for development environments, and can be run multiple times to refresh the data. This separation of concerns ensures that structural changes (migrations) are tracked and versioned separately from data population (seeds), making database management more organized and predictable.

@@ -1,0 +1,8 @@
+question: When working with JSON data from an API response, what must you do before you can access nested properties like data.amount?
+answer: Use JSON.parse() to convert the string response into a JavaScript object
+wrong_answers:
+  - Use JSON.stringify() to format the response data properly
+  - Use await to wait for the nested properties to load
+  - Use template literals with backticks to access the properties
+explanation: |
+  API responses are returned as strings, even though they look like JavaScript objects. Before you can access nested properties like data.amount, you must use JSON.parse() to convert the string into an actual JavaScript object. JSON.stringify() does the opposite (converts objects to strings), await is for handling promises not parsing data, and template literals are for string formatting, not data parsing. Without JSON.parse(), attempting to access properties on a string will result in undefined values.

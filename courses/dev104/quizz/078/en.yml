@@ -1,0 +1,8 @@
+question: When transitioning a Lightning wallet from development to production deployment, which configuration change is most essential for maintaining operational reliability?
+answer: Implementing automated channel backup and recovery mechanisms with encrypted remote storage
+wrong_answers:
+  - Switching from testnet to mainnet Bitcoin network configuration parameters
+  - Enabling debug logging and comprehensive error tracking for production monitoring
+  - Configuring load balancers and horizontal scaling for increased user capacity
+explanation: |
+  Automated channel backup and recovery mechanisms are absolutely critical for Lightning wallet production deployment because Lightning channels contain off-chain state that cannot be recovered from the blockchain alone. Without proper backup systems, users risk losing funds if the application crashes or data is corrupted. While switching to mainnet is necessary, load balancing helps with scale, and logging aids debugging, none of these address the fundamental risk of irrecoverable fund loss that makes Lightning applications uniquely challenging compared to traditional applications.

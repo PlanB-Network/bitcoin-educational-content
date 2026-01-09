@@ -1,0 +1,8 @@
+question: In the Lightning invoice model's createInvoice function, what is the correct sequence of operations when a new invoice is created?
+answer: Call LND's addInvoice method first, then save the invoice data to the database with settled: false
+wrong_answers:
+  - "Save invoice data to database first, then call LND's addInvoice method to generate payment_request"
+  - "Call LND's addInvoice method and database save operation simultaneously using Promise.all for performance"
+  - Generate a local payment_request hash, save to database, then register with LND using the pre-generated hash
+explanation: |
+  The correct sequence is crucial for data integrity. The LND addInvoice call must happen first because it generates the unique payment_request identifier that serves as the primary key for database operations. Only after LND successfully creates the Lightning invoice can we safely store it in our database with the correct payment_request value. The settled field is initialized to false since new invoices are unpaid. Any other sequence would risk data inconsistency or missing the payment_request needed for database storage.

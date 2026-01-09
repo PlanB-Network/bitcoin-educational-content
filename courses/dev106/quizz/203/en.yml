@@ -1,0 +1,8 @@
+question: What is the most significant financial risk when deploying a Lightning wallet backend with JWT-based authentication and publicly accessible API endpoints to mainnet?
+answer: The application has admin rights to the Lightning node, enabling potential attackers to steal all funds through compromised authentication
+wrong_answers:
+  - Monthly hosting costs of approximately $24 could accumulate to substantial expenses without proper budget monitoring and cost controls
+  - "Heroku's dyno restart cycles could cause temporary service interruptions leading to failed Lightning transactions and user complaints"
+  - The SQLite database lacks encryption at rest, making sensitive user data vulnerable to unauthorized access through database breaches
+explanation: |
+  The correct answer identifies the critical security vulnerability where the backend application maintains admin-level permissions to the Lightning node. If an attacker compromises the JWT authentication system or exploits the publicly accessible API endpoints, they gain complete control over the Lightning node and can drain all funds. The other options represent operational concerns (hosting costs, service interruptions) or data privacy issues, but none pose the immediate financial threat of total fund loss that comes with compromised admin access to a Lightning node containing real Bitcoin.

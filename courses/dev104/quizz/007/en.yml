@@ -1,8 +1,8 @@
-question: When multiple CSS rules target the same element with different selectors, what determines which style will be applied?
-answer: CSS specificity, where classes override elements, and IDs override classes
+question: Which HTML attribute is used to specify where form data should be sent when the form is submitted?
+answer: action
 wrong_answers:
-  - The order in which the CSS files are loaded in the HTML head section
-  - The physical position of the element in the HTML document structure
-  - The last rule written in the stylesheet always takes precedence regardless of selector type
+  - method
+  - target
+  - submit
 explanation: |
-  CSS specificity is a scoring system that determines which styles are applied when multiple rules target the same element. The hierarchy is: inline styles (highest), IDs, classes, and elements (lowest). While the last wrong answer mentions cascade order (which does matter for rules of equal specificity), specificity always takes precedence first. File loading order and HTML position don't affect which styles win - only selector specificity and source order for equal-specificity rules matter.
+  The 'action' attribute specifies the URL or destination where the form data should be sent when submitted. This is essential for forms to function properly, as it tells the browser where to process the data. The 'method' attribute specifies how data is sent (GET or POST), 'target' determines where to display the response, and 'submit' is not a valid form attribute but rather a button type.

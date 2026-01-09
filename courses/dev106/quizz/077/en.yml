@@ -1,0 +1,8 @@
+question: What is the primary characteristic of Node.js's execution model?
+answer: Single-threaded and non-blocking
+wrong_answers:
+  - Multi-threaded and blocking
+  - Single-threaded and blocking
+  - Multi-threaded and non-blocking
+explanation: |
+  Node.js operates on a single-threaded, non-blocking execution model. This means it executes one task at a time (single-threaded) but doesn't get stuck waiting for slow operations (non-blocking). When encountering slow tasks like file reading or network requests, Node.js starts the operation, registers a callback, and moves on to the next task rather than waiting. The other options are incorrect because Node.js specifically avoids multi-threading for its main execution and eliminates blocking behavior through its event-driven architecture.

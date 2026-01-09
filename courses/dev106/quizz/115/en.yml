@@ -1,0 +1,8 @@
+question: When implementing JWT authentication, what is the most important security consideration when defining the payload data that gets included in the token?
+answer: Never include sensitive information like passwords or private keys since JWT payloads are only base64 encoded, not encrypted
+wrong_answers:
+  - "Always include the user's password hash in the payload to verify identity on each request without database lookups"
+  - Include all user profile data in the payload to minimize database queries and improve application performance significantly
+  - "Store the JWT secret key in the payload so the client can verify the token's authenticity independently"
+explanation: |
+  JWT payloads are only base64 encoded, meaning they can be easily decoded by anyone who has access to the token. This makes them readable to clients and potential attackers. Therefore, sensitive information like passwords, private keys, or confidential data should never be included in the payload. The other options are incorrect because including passwords would expose them, storing all user data creates unnecessarily large tokens and security risks, and including the secret key in the payload would completely compromise the security system.

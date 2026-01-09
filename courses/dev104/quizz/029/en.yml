@@ -1,8 +1,8 @@
-question: What is the most significant architectural benefit of React's automatic UI updates compared to manual DOM manipulation in Lightning wallet development?
-answer: React eliminates state synchronization issues by automatically re-rendering components when underlying data changes, ensuring UI consistency
+question: When organizing CSS code for maintainability, what naming convention uses double underscores and double hyphens to create structured class names like 'wallet-card__title--highlighted'?
+answer: BEM (Block Element Modifier) methodology
 wrong_answers:
-  - React provides faster transaction processing by optimizing Lightning Network protocol calls through virtual DOM batching
-  - React reduces Lightning channel opening costs by caching DOM elements and reusing them across multiple payment operations
-  - React improves Lightning invoice generation speed by pre-compiling component templates into optimized JavaScript bytecode
+  - SMACSS (Scalable and Modular Architecture for CSS)
+  - OOCSS (Object-Oriented CSS) methodology
+  - ITCSS (Inverted Triangle CSS) architecture
 explanation: |
-  React's automatic UI updates solve the critical problem of keeping the user interface synchronized with changing wallet data. In vanilla JavaScript Lightning wallets, developers must manually update DOM elements whenever balance, transaction history, or payment status changes, which is error-prone and can lead to inconsistent UI states. React's declarative approach automatically re-renders components when their underlying data (state or props) changes, eliminating the need for manual DOM manipulation and ensuring the UI always reflects the current wallet state. The wrong answers incorrectly suggest React optimizes Lightning Network protocol performance, reduces blockchain costs, or improves cryptographic operations - none of which are React's actual benefits.
+  BEM (Block Element Modifier) is the correct naming convention that uses specific separators: single hyphens for word separation within names, double underscores (__) to separate elements from blocks, and double hyphens (--) to separate modifiers. In the example 'wallet-card__title--highlighted', 'wallet-card' is the block, 'title' is the element, and 'highlighted' is the modifier. While SMACSS, OOCSS, and ITCSS are legitimate CSS methodologies, they don't use this specific double underscore and double hyphen naming pattern that makes BEM distinctive and easily recognizable in codebases.

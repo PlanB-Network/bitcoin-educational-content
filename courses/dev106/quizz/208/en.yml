@@ -1,0 +1,8 @@
+question: What is the primary reason Voltage offers a free inbound channel with 500,000 sats capacity to new Lightning node users?
+answer: To enable immediate receiving of Lightning payments without requiring manual channel management
+wrong_answers:
+  - To provide initial outbound liquidity for making Lightning payments to other nodes
+  - To establish routing capacity that generates fee income from forwarding payments
+  - To create backup channels that prevent node isolation during network partitions
+explanation: |
+  The free inbound channel with 500,000 sats capacity specifically enables new users to receive Lightning payments immediately without needing to understand or manage channel liquidity themselves. Inbound capacity allows funds to flow into your node, making it possible to receive payments right away. The other options are incorrect because outbound liquidity requires the opposite channel direction, routing income requires being positioned between active payment paths (not typical for new users), and backup channels serve redundancy purposes rather than basic receiving functionality.

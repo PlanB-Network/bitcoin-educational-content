@@ -1,0 +1,8 @@
+question: When implementing the invoice event stream for Lightning payments, what is the critical condition that must be checked before updating an invoice record in the database?
+answer: The invoice must have data.settled === true and must exist in the database via Invoice.findOne()
+wrong_answers:
+  - The invoice must have a valid payment_request and the user must be authenticated as admin
+  - The invoice must have data.payment_error === null and the settle_date must be within 24 hours
+  - The invoice must have data.add_index > 0 and the memo field must not be empty
+explanation: |
+  The invoice event stream only processes invoices when data.settled is true, indicating the payment has been completed. Additionally, it must verify the invoice exists in the local database using Invoice.findOne() before attempting to update it. This two-step verification prevents updating non-existent records and ensures only paid invoices are marked as settled. The other options involve irrelevant conditions - admin authentication isn't needed for automatic event processing, payment_error relates to outgoing payments not incoming invoice events, and add_index/memo are not settlement criteria.

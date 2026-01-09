@@ -1,0 +1,8 @@
+question: What happens when you call a state setter function like setPrice in a React component?
+answer: React schedules a re-render of the component with the new state value
+wrong_answers:
+  - The component immediately updates without triggering a re-render cycle
+  - React directly modifies the DOM element without updating the component state
+  - The function synchronously updates the state and pauses execution until complete
+explanation: |
+  When you call a state setter function like setPrice, React schedules a re-render of the component with the new state value. This is React's fundamental mechanism for updating the user interface - it doesn't immediately modify the DOM or update the state synchronously. Instead, React batches these updates and triggers a re-render cycle where the component function runs again with the new state value, allowing React to efficiently update only the parts of the UI that have changed.

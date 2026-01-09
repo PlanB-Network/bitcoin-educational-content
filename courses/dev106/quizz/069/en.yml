@@ -1,0 +1,8 @@
+question: What major limitation of JavaScript did Node.js overcome when it was introduced?
+answer: JavaScript was confined to running only in web browsers
+wrong_answers:
+  - JavaScript could only handle small amounts of data processing
+  - JavaScript was limited to creating simple user interfaces
+  - JavaScript could not interact with HTML and CSS elements
+explanation: |
+  Before Node.js, JavaScript was exclusively a client-side language that could only run within web browsers. Node.js revolutionized JavaScript by creating a runtime environment that allows JavaScript code to execute outside of browsers, enabling server-side development, command-line tools, desktop applications, and system-level access. The other options describe functional limitations rather than the fundamental environmental constraint that Node.js solved.

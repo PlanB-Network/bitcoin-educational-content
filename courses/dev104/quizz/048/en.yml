@@ -1,0 +1,8 @@
+question: Why was Git originally created in the early 2000s according to the development challenges faced at that time?
+answer: To solve the chaos of multiple developers working on the same codebase without proper version control
+wrong_answers:
+  - To replace existing backup systems that were too slow for large software companies
+  - To create a visual interface that would make programming more accessible to beginners
+  - To establish a standardized way of writing code comments and documentation across teams
+explanation: |
+  Git was specifically created to address the chaos that occurred when multiple developers worked on the same codebase without version control. The problems included files getting overwritten, inability to roll back changes, impossible tracking of who made changes, and no safe way to experiment. The other options describe general software problems but not the specific collaboration and version control issues that Git was designed to solve.

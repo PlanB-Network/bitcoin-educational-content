@@ -1,0 +1,8 @@
+question: What is the most significant operational consequence of enabling Heroku's web dyno versus leaving it disabled for a Lightning wallet backend application?
+answer: The application will remain persistently online and accessible versus shutting down after periods of inactivity
+wrong_answers:
+  - The application will automatically scale to handle multiple concurrent Lightning transactions versus single transaction processing
+  - "The application will gain access to Heroku's premium database features versus being limited to basic SQLite functionality"
+  - The application will receive enhanced security protection against Lightning network attacks versus standard vulnerability exposure
+explanation: |
+  Enabling Heroku's web dyno ensures the Lightning wallet backend remains continuously running and accessible to users, which is critical for a payment application that needs to handle Lightning invoices and transactions at any time. Without the web dyno enabled, Heroku puts the application to sleep after 30 minutes of inactivity, making it unavailable for Lightning operations. The other options incorrectly describe scaling, database, or security features that are not directly controlled by the web dyno setting.

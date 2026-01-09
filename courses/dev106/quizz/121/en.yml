@@ -1,0 +1,8 @@
+question: What is the fundamental characteristic that distinguishes Lightning Network channels from traditional Bitcoin transactions in terms of blockchain recording?
+answer: Lightning channels conduct multiple transactions off-chain with only opening and closing recorded on-chain
+wrong_answers:
+  - Lightning channels record every transaction on-chain but with faster confirmation times than Bitcoin
+  - Lightning channels use a separate blockchain that periodically syncs with the main Bitcoin network
+  - Lightning channels store transactions in compressed blocks that require fewer confirmations than regular Bitcoin
+explanation: |
+  Lightning Network channels are specifically designed to enable off-chain transactions, meaning that only the channel opening and closing transactions are recorded on the Bitcoin blockchain. All intermediate payments within the channel happen off-chain, which is what enables faster transactions and reduced blockchain load. The wrong answers incorrectly suggest that Lightning uses on-chain recording, separate blockchains, or compressed blocks, none of which accurately describe how Lightning's off-chain payment system actually works.

@@ -1,0 +1,8 @@
+question: When a document-oriented database becomes problematic at scale compared to relational databases, what is the primary underlying cause of this limitation?
+answer: Loose constraints and flexible schema make it harder to maintain data consistency across distributed systems
+wrong_answers:
+  - Document databases cannot store JSON data efficiently when handling millions of records
+  - The lack of SQL support prevents document databases from performing complex mathematical calculations
+  - Document-oriented databases require more memory per record due to their binary storage format
+explanation: |
+  Document-oriented databases trade structure for flexibility, using loose constraints and flexible schemas that allow documents to vary in structure. While this enables rapid development, it becomes problematic at scale because maintaining data consistency across distributed systems becomes increasingly difficult without enforced relationships and constraints. The other options are incorrect: document databases are actually optimized for JSON storage, many support query languages beyond SQL, and they don't inherently use more memory due to binary formats.

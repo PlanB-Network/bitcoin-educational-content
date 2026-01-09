@@ -1,8 +1,8 @@
-question: Which HTML element is used to create a clickable link to another webpage or section?
-answer: The <a> element with an href attribute
+question: What is HTML primarily used for?
+answer: Instructing web browsers how to display content on a web page
 wrong_answers:
-  - The <link> element with a url attribute
-  - The <href> element with a target attribute
-  - The <nav> element with a destination attribute
+  - Performing mathematical calculations and data processing operations
+  - Creating databases and managing server-side data storage
+  - Building mobile applications and desktop software programs
 explanation: |
-  The <a> (anchor) element is the correct HTML element for creating clickable links. It uses the href attribute to specify the destination URL or anchor point. The <link> element is used for linking external resources like stylesheets, not for clickable links. There is no <href> element in HTML - href is an attribute, not an element. The <nav> element is a container for navigation links but doesn't create clickable links by itself, and there's no destination attribute in HTML.
+  HTML is a markup language specifically designed to instruct web browsers how to display content such as text, images, and other elements on web pages. It is not a programming language and cannot perform calculations, manage databases, or create applications. HTML simply provides structure and formatting instructions that browsers interpret to render web content visually for users.

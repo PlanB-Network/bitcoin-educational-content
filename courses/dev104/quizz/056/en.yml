@@ -1,0 +1,8 @@
+question: When a React application is deployed to Vercel's production environment, which sequence of operations occurs during the automated build and deployment pipeline?
+answer: Code checkout from GitHub, dependency installation, application build, asset optimization, CDN distribution, and URL generation
+wrong_answers:
+  - Asset optimization, code checkout from GitHub, dependency installation, URL generation, application build, and CDN distribution
+  - CDN distribution, dependency installation, code checkout from GitHub, asset optimization, application build, and URL generation
+  - URL generation, application build, code checkout from GitHub, asset optimization, dependency installation, and CDN distribution
+explanation: |
+  Vercel follows a specific deployment sequence: first downloading code from the connected GitHub repository, then installing dependencies with npm install, building the application with npm run build, optimizing assets through compression and minification, distributing the built application globally via CDN for fast access, and finally generating the live application URL. This logical order ensures dependencies are available before building, assets are optimized before distribution, and the URL is created after successful deployment.

@@ -1,0 +1,8 @@
+question: What is the correct syntax to export multiple functions from a CommonJS module in Node.js?
+answer: module.exports = { functionName1, functionName2 }
+wrong_answers:
+  - export { functionName1, functionName2 }
+  - exports.default = { functionName1, functionName2 }
+  - module.export = { functionName1, functionName2 }
+explanation: |
+  In CommonJS modules used by Node.js, you export multiple items by assigning an object to module.exports containing the functions or variables you want to share. The syntax 'export { }' is ES6 module syntax, not CommonJS. 'exports.default' is also ES6 syntax. 'module.export' is incorrect because the property name should be 'exports' (plural), not 'export' (singular). CommonJS specifically uses module.exports as the standard way to expose functionality from a module.

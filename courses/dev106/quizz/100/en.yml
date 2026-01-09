@@ -1,0 +1,8 @@
+question: In a RESTful API design, what is the most appropriate way to handle request parameters when implementing a route that retrieves a specific user by their unique identifier?
+answer: Use req.params.id to extract the parameter from a route defined as router.get('/:id', callback)
+wrong_answers:
+  - "Use req.body.id to extract the parameter from a route defined as router.get('/user', callback)"
+  - "Use req.query.id to extract the parameter from a route defined as router.post('/:id', callback)"
+  - "Use req.headers.id to extract the parameter from a route defined as router.put('/users', callback)"
+explanation: |
+  Express Router uses route parameters defined with a colon (:) to capture dynamic values from the URL path. When a route is defined as '/:id', Express automatically parses the URL segment and makes it available through req.params.id. This follows RESTful conventions where resource identifiers are part of the URL path, not in the request body, query parameters, or headers. The other options are incorrect because req.body is for POST data, req.query is for URL query strings, and req.headers is for HTTP headers - none of which are appropriate for capturing URL path parameters.

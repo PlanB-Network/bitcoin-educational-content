@@ -1,0 +1,8 @@
+question: When implementing custom middleware for authentication in Express.js, what should the middleware function do if no authorization token is found in the request headers?
+answer: Return a 401 status response with an error message and avoid calling next()
+wrong_answers:
+  - Call next() to pass control to the route handler and let it handle the missing token
+  - Set req.authenticated to false and call next() to continue processing the request
+  - Redirect the request to a login endpoint using res.redirect() and then call next()
+explanation: |
+  When authentication middleware detects a missing token, it should immediately return a 401 Unauthorized response and terminate the request cycle without calling next(). This prevents unauthorized access to protected routes. Calling next() would allow the request to continue to the route handler, defeating the purpose of authentication middleware. Setting flags and continuing or redirecting while calling next() would create improper flow control and potential security vulnerabilities.

@@ -1,0 +1,8 @@
+question: Which property of the Express request object (req) contains the query string parameters from a URL?
+answer: req.query
+wrong_answers:
+  - req.params
+  - req.body
+  - req.headers
+explanation: |
+  The req.query property contains the query string parameters from the URL (the part after the ? symbol). For example, in a URL like '/users?name=john&age=25', req.query would contain {name: 'john', age: '25'}. req.params contains URL path parameters (like :id in '/users/:id'), req.body contains the request body data for POST/PUT requests, and req.headers contains the HTTP headers sent with the request.

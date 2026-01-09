@@ -1,0 +1,8 @@
+question: What is the fundamental principle behind React's data flow architecture that ensures predictable state management in Lightning wallet applications?
+answer: Props flow down from parent to child components while events flow up through callbacks
+wrong_answers:
+  - State flows bidirectionally between components while props remain static in parent components
+  - Events flow down through props while state updates propagate upward through component refs
+  - Data flows horizontally between sibling components while state updates occur through direct manipulation
+explanation: |
+  React implements unidirectional data flow where parent components pass data to children via props (downward flow) and children communicate back to parents through callback functions passed as props (upward event flow). This creates predictable state management because data changes originate from a single source and flow in one direction, making it easy to trace how data moves through the application. The wrong answers describe bidirectional or horizontal data flows that would create unpredictable state synchronization issues, exactly the problems React was designed to solve.

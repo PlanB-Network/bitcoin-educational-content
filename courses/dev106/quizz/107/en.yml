@@ -1,0 +1,8 @@
+question: When testing a DoS attack simulation using the provided script, what status code indicates that rate limiting middleware is successfully blocking excessive requests?
+answer: 429 (Too Many Requests)
+wrong_answers:
+  - 403 (Forbidden)
+  - 503 (Service Unavailable)
+  - 400 (Bad Request)
+explanation: |
+  The HTTP status code 429 specifically means 'Too Many Requests' and is the standard response when rate limiting middleware blocks requests that exceed the configured limits. When the attack script initially runs, it receives 200 status codes for successful requests, but once the rate limit threshold is reached (100 requests in this case), the middleware automatically responds with 429 codes. Status codes 403, 503, and 400 serve different purposes - 403 indicates forbidden access due to permissions, 503 indicates server unavailability, and 400 indicates malformed requests, none of which are related to rate limiting functionality.

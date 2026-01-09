@@ -1,0 +1,8 @@
+question: What is the primary difference between using server.use(middleware) and server.get('/path', middleware, handler) when implementing Express middleware?
+answer: server.use(middleware) applies the middleware to all routes and HTTP methods, while server.get('/path', middleware, handler) applies it only to GET requests on that specific path
+wrong_answers:
+  - "server.use(middleware) can only be used with built-in middleware, while server.get('/path', middleware, handler) works with custom middleware functions"
+  - "server.use(middleware) executes middleware after the route handler, while server.get('/path', middleware, handler) executes it before the handler"
+  - "server.use(middleware) requires the next() function to be called, while server.get('/path', middleware, handler) automatically passes control to the next function"
+explanation: |
+  The server.use() method applies middleware globally to all incoming requests regardless of HTTP method or path, making it ideal for functionality like logging, security headers, or JSON parsing that should affect every request. In contrast, when middleware is specified as a parameter in route-specific methods like server.get(), it only applies to that particular route and HTTP method combination, allowing for targeted functionality like authentication on protected endpoints.

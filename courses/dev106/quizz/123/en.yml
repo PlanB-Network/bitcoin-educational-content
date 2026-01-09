@@ -1,0 +1,8 @@
+question: What is the minimum number of blockchain layers that must be operational for a Lightning Network payment to be successfully processed?
+answer: Two layers - the Bitcoin blockchain layer and the Lightning Network layer must both be functional
+wrong_answers:
+  - One layer - only the Lightning Network layer is needed since payments happen off-chain
+  - Three layers - Bitcoin blockchain, Lightning Network, and application layer are all required for processing
+  - Four layers - Bitcoin Core, peer gossip, payment channels, and application layers must all be active
+explanation: |
+  Lightning Network operates as a second-layer solution built on top of Bitcoin's blockchain, creating a two-layer architecture. While Lightning payments happen off-chain, the Lightning layer absolutely depends on the underlying Bitcoin blockchain layer for security, channel funding, and settlement. The Bitcoin layer provides the foundation that secures all Lightning channels through multisig wallets, while the Lightning layer handles the actual payment routing and processing. The application layer is just the user interface, and communication types like gossip are functions within the Lightning layer, not separate architectural requirements.

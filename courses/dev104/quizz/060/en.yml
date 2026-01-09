@@ -1,0 +1,8 @@
+question: What is the most significant security advantage that Vercel provides by default for React applications compared to manual server deployment configurations?
+answer: HTTPS encryption is automatically enabled for all deployed applications without requiring SSL certificate configuration
+wrong_answers:
+  - User authentication and authorization systems are automatically integrated into all React component structures
+  - "Database connections are encrypted and protected through Vercel's proprietary security protocol implementation"
+  - Client-side JavaScript code is automatically obfuscated to prevent reverse engineering and code theft
+explanation: |
+  Vercel automatically provides HTTPS encryption for all deployed applications, which is a crucial security feature that protects data transmission between users and the server. This eliminates the need for developers to manually configure SSL certificates, which can be complex and error-prone. The other options are incorrect because Vercel doesn't automatically add authentication systems to React apps, doesn't handle database encryption (as it's primarily a frontend platform), and doesn't obfuscate JavaScript code beyond standard build optimization.

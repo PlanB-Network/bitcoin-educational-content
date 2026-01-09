@@ -1,0 +1,8 @@
+question: In the full-stack Lightning wallet application's frontend-to-backend communication flow, what is the correct sequence of steps when a user creates an invoice?
+answer: User Action → React Event Handler → API Call → Backend Route → Middleware → Controller → Database/Lightning → Response → Frontend State Update → UI Update
+wrong_answers:
+  - User Action → Database/Lightning → Backend Route → API Call → Controller → Middleware → Response → Frontend State Update → UI Update
+  - User Action → Controller → React Event Handler → API Call → Middleware → Backend Route → Database/Lightning → Frontend State Update → Response
+  - User Action → API Call → Database/Lightning → React Event Handler → Backend Route → Controller → Middleware → Response → UI Update
+explanation: |
+  The correct flow follows a logical client-server architecture pattern: the user's action triggers a React event handler, which makes an authenticated API call to the backend. The backend processes this through its route system, applies middleware (like authentication), passes it to the controller which interacts with both the database and Lightning Network, returns a response, and finally the frontend updates its state and UI. The wrong sequences either place database operations before proper routing, mix up the order of middleware and controllers, or incorrectly position the response handling, which would break the application's functionality.

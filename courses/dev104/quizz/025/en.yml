@@ -1,8 +1,8 @@
-question: In React's JSX syntax, what is the primary reason why event handlers use camelCase naming convention like onClick instead of HTML's onclick?
-answer: JSX is JavaScript syntax that follows JavaScript naming conventions, and React's event system uses SyntheticEvents that wrap native events with consistent cross-browser behavior.
+question: What is the primary reason why ID selectors should be avoided for styling purposes in CSS?
+answer: They have too high specificity making them difficult to override and reducing code reusability
 wrong_answers:
-  - JSX requires camelCase to distinguish between HTML attributes and React props, preventing conflicts when components receive onClick as a prop from parent components.
-  - "React's Virtual DOM optimization algorithm can only efficiently diff and update DOM elements when event handlers follow camelCase naming patterns for performance reasons."
-  - JSX transpilation to React.createElement() calls requires camelCase event names to properly bind event listeners to the correct DOM nodes during rendering.
+  - They cannot be used with pseudo-classes like :hover or :focus for interactive effects
+  - They only work with JavaScript and are not recognized by CSS rendering engines
+  - They cause performance issues because browsers must search the entire DOM for unique IDs
 explanation: |
-  JSX is fundamentally JavaScript syntax that gets transpiled to React.createElement() calls, so it must follow JavaScript naming conventions where camelCase is standard. React's event system creates SyntheticEvents that provide consistent behavior across different browsers, abstracting away browser-specific differences. The other options incorrectly suggest that camelCase is needed for prop conflicts, Virtual DOM performance, or transpilation requirements, but the real reason is simply that JSX follows JavaScript conventions and React's event system design.
+  ID selectors have very high specificity in CSS, making them extremely difficult to override when needed. This creates maintenance problems and reduces code reusability since styles tied to IDs cannot be easily applied to multiple elements. Class selectors are preferred because they offer medium specificity, allowing for better control and flexibility in styling while maintaining the ability to override when necessary.

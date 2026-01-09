@@ -1,0 +1,8 @@
+question: What is the primary architectural challenge when scaling a Lightning wallet application for production deployment compared to development environments?
+answer: Managing channel liquidity distribution and routing optimization across multiple nodes while maintaining high availability
+wrong_answers:
+  - Implementing basic user authentication and session management protocols for wallet access control
+  - Configuring standard database connection pooling and implementing basic caching mechanisms
+  - Setting up conventional load balancers and implementing standard horizontal scaling techniques
+explanation: |
+  Lightning wallet production deployment faces unique challenges specific to the Lightning Network's architecture. Managing channel liquidity distribution ensures funds can flow efficiently through payment channels, while routing optimization becomes critical at scale to find viable payment paths. High availability is essential since Lightning requires nodes to be online for channel management. The wrong answers describe standard web application scaling concerns that, while important, don't address the Lightning-specific complexities of channel state management, liquidity balancing, and the need for real-time network connectivity that distinguishes Lightning applications from traditional web services.

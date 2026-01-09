@@ -1,0 +1,8 @@
+question: What is the main purpose of the callback queue in Node.js's event loop?
+answer: To manage tasks that are waiting to be executed after asynchronous operations complete
+wrong_answers:
+  - To store all synchronous operations before they are processed by the main thread
+  - To handle error messages and exceptions that occur during file system operations
+  - To maintain a list of all active network connections and their current status
+explanation: |
+  The callback queue is a crucial component of Node.js's event loop that manages tasks waiting to be executed. When Node.js starts an asynchronous operation like reading a file or making a network request, it registers a callback function and continues with other tasks. Once the asynchronous operation completes, its callback is placed in the callback queue to wait for execution. This system allows Node.js to handle multiple operations efficiently without blocking the main thread, making it non-blocking and event-driven.

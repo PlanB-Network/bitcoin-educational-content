@@ -1,0 +1,8 @@
+question: What is the primary reason why application developers building Lightning wallets typically choose to use existing implementations like LND rather than creating their own Lightning protocol implementation?
+answer: Lightning protocol development requires moving slow with focus on reliability and security, while application development benefits from faster iteration on user experience
+wrong_answers:
+  - Existing implementations like LND are only compatible with specific programming languages and cannot be integrated with modern application frameworks
+  - Lightning protocol specifications are proprietary and require expensive licensing fees that make custom implementations financially unfeasible for most developers
+  - Application developers lack the necessary hardware requirements to run Lightning nodes, so they must rely on cloud-based implementation services
+explanation: |
+  The chapter clearly distinguishes between protocol development ("move slow and fix things") which focuses on reliability, security, and consensus with very high complexity, versus application development ("move fast and break things") which focuses on user experience and features with moderate complexity. Application developers can leverage existing, battle-tested implementations like LND to handle the complex protocol layer while focusing their efforts on building great user experiences. The wrong answers are incorrect because: Lightning implementations are language-agnostic and can be integrated via APIs, the Lightning specification is open-source and free, and Lightning nodes can run on standard hardware without special requirements.

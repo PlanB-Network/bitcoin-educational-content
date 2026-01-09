@@ -1,0 +1,8 @@
+question: What is the primary role of an API as described in the client-server communication model?
+answer: A contract or gateway that defines how clients and servers communicate
+wrong_answers:
+  - A database that stores all the client requests and server responses
+  - A programming language used to write server-side business logic
+  - A security protocol that encrypts data between client and server
+explanation: |
+  An API acts as a contract or gateway between the client and server, defining exactly what data can be requested, what data can be sent, how communication happens, and what responses will be received. It's not a database, programming language, or security protocol, but rather an interface that establishes the rules and methods for communication between different systems over HTTP.

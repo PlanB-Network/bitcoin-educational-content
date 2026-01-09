@@ -1,0 +1,8 @@
+question: When setting up a Lightning wallet React application using Create React App as the foundation, what is the most critical consideration for ensuring proper integration with Lightning Network protocols?
+answer: Configuring WebSocket connections and polyfills for Node.js modules that Lightning libraries require in browser environments
+wrong_answers:
+  - Installing Redux for state management since Lightning payments require centralized store architecture for transaction history
+  - Setting up server-side rendering with Next.js to handle the cryptographic operations securely on the backend
+  - Implementing PWA manifest files to enable offline transaction signing and local storage of payment channels
+explanation: |
+  Lightning Network libraries typically depend on Node.js-specific modules and real-time communication protocols that don't exist natively in browsers. Create React App requires additional configuration including WebSocket polyfills, buffer polyfills, and crypto module alternatives to make Lightning libraries function properly in the browser environment. The other options, while potentially useful features, are not fundamental requirements for Lightning Network integration and don't address the core compatibility issues between Lightning libraries and browser environments.

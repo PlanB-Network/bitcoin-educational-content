@@ -1,0 +1,8 @@
+question: When developing Lightning applications, what is the primary advantage of using RegTest over TestNet for your development environment?
+answer: RegTest runs completely locally without internet requirements and allows instant block generation for faster testing
+wrong_answers:
+  - RegTest uses real Bitcoin while TestNet uses fake Bitcoin, making it more realistic for production testing
+  - "RegTest automatically connects to other developers' nodes worldwide for collaborative testing scenarios"
+  - "RegTest provides better security features and encryption compared to TestNet's simplified protocol implementation"
+explanation: |
+  RegTest is a local Bitcoin network that runs entirely on your machine, allowing instant block generation and complete control over the testing environment. Unlike TestNet which is a global network requiring internet connectivity, RegTest enables developers to test Lightning applications offline with immediate feedback. This makes development faster and more reliable since you don't depend on external network conditions or other users' actions.

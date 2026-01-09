@@ -1,0 +1,8 @@
+question: When testing a REST API endpoint that creates a new user account, what combination of HTTP method, URL path, and Content-Type header should be used?
+answer: POST method with /users/register path and Content-Type: application/json header
+wrong_answers:
+  - PUT method with /users/create path and Content-Type: application/json header
+  - GET method with /users/register path and Content-Type: text/plain header
+  - POST method with /users/new path and Content-Type: application/xml header
+explanation: |
+  The POST method is the correct RESTful approach for creating new resources, as it's specifically designed for data creation operations. The /users/register path follows RESTful naming conventions for user registration endpoints. The Content-Type: application/json header is essential because Express needs to know the incoming data format to properly parse the request body using express.json() middleware. PUT is typically used for updates, GET retrieves data without modification, and XML is not the standard format for modern REST APIs.

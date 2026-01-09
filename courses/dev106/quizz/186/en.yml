@@ -1,0 +1,8 @@
+question: What is the primary purpose of the 30-second polling interval implemented in the React frontend's useEffect hook?
+answer: To continuously fetch updated data including Bitcoin price, wallet balances, and transaction history from the backend
+wrong_answers:
+  - To automatically refresh the JWT authentication token before it expires to maintain user session
+  - To periodically check the connection status between the frontend and the Lightning Network nodes
+  - To synchronize the frontend state with other connected users and broadcast real-time notifications
+explanation: |
+  The polling interval serves as a simple real-time update mechanism that regularly fetches fresh data from various sources. It calls getPrice() for current Bitcoin prices from Coinbase, getWalletBalance() and getChannelBalance() for current Lightning and on-chain balances from LND, and getTransactions() for the latest transaction history from the database. This ensures users see current information without manual refresh. The other options are incorrect because JWT token refresh would typically happen on API calls or before expiration, connection status checking would use different mechanisms like heartbeat pings, and user synchronization would require WebSocket connections or server-sent events rather than simple polling.

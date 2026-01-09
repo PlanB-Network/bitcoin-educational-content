@@ -1,0 +1,8 @@
+question: What is the primary reason why bcryptjs is specifically chosen for password hashing in JWT authentication systems instead of using standard JavaScript string methods?
+answer: bcryptjs provides cryptographically secure one-way hashing with salt that makes password reversal computationally infeasible
+wrong_answers:
+  - bcryptjs automatically integrates with JWT tokens to embed hashed passwords directly in the token payload
+  - bcryptjs creates reversible encryption that allows password recovery while maintaining security through obfuscation
+  - bcryptjs generates unique tokens that can be used as JWT signatures to verify user authentication status
+explanation: |
+  bcryptjs is specifically designed for secure password hashing using cryptographically strong algorithms that include salt generation and are computationally expensive to reverse. This makes it nearly impossible for attackers to recover original passwords even if they access the hashed values. The wrong answers are incorrect because: bcryptjs doesn't integrate with JWT payloads (passwords should never be in tokens), it creates irreversible hashes not reversible encryption, and it doesn't generate JWT signatures (that's done by the jsonwebtoken library).

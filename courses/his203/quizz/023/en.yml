@@ -1,0 +1,9 @@
+question: Who created the GLBSE online stock exchange in April 2011, a platform that enabled players in the Bitcoin ecosystem to issue financial securities such as shares or bonds to finance themselves?
+answer: James McCarthy (Nefario)
+wrong_answers:
+  - Charlie Shrem (Yankee)
+  - Mircea Popescu (MPOE-PR)
+  - Nathaniel Theis (Cuddlefish)
+explanation: |
+ He was an Irishman living in China, who held a position as professor of English at a university. He was interested in the Austrian school and the ideas of the Cypherpunks. In April 2011, he launched GLBSE, which offered all kinds of financial services to its customers, including the possibility of issuing shares and bonds.
+reviewed: false

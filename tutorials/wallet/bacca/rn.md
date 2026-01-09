@@ -137,7 +137,7 @@ Ubu urashobora gukoresha porogarama Interface.
 Imbere y’uko utangura, nimba Ledger yawe ari nshasha, urabe neza ko washizeho kode ya PIN kandi ukabika ijambo ry’ugusubirana. Ntukeneye Ledger Live kuri izo ntambwe z’intango. Gusa n’ushobora gufatanya Ledger yawe biciye ku nzira ya USB kugira ngo uyihe ubushobozi. Niba utazi neza ingene wogenda muri izo ntambwe zibiri, ushobora kuraba intango y'inyigisho yihariye ku citegererezo cawe:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

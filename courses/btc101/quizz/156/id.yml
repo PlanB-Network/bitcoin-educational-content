@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Rata-rata, sebuah blok dibuat setiap 10 menit dalam protokol Bitcoin.
   Waktu ini tetap konstan tanpa memandang jumlah penambang dan kekuatan komputasi mereka.
-reviewed: false
+reviewed: true

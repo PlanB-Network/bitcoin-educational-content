@@ -133,8 +133,6 @@ See this example Config.json:
   "CoordinatorExtPubKeyCurrentDepth": 0,
   "MaxSuggestedAmountBase": "100.00",
   "RoundParallelization": 1,
-  "WW200CompatibleLoadBalancing": false,
-  "WW200CompatibleLoadBalancingInputSplit": 0.75,
   "CoordinatorIdentifier": "CoinJoinCoordinatorIdentifier",
   "AllowP2wpkhInputs": true,
   "AllowP2trInputs": true,
@@ -162,29 +160,36 @@ See this example Config.json:
 ```
 ### Tor configuration 🧅
 
-To fill in your OnionServicePrivateKey you likely need to generate one first. This can be generated with setting in ```/etc/tor/torrc``` :
-```
-############### This section is just for location-hidden services ###
+To fill in your OnionServicePrivateKey you likely need to generate one first. 
 
-## Once you have configured a hidden service, you can look at the
-## contents of the file ".../hidden_service/hostname" for the address
-## to tell people.
-##
-## HiddenServicePort x y:z says to redirect requests on port x to the
-## address y:z.
+Wasabi Wallet will generate a private key for you if you run it the first time with ```"PublishAsOnionService": true,``` set in the Config.json file.
 
-HiddenServiceDir /var/lib/tor/hidden_service/
-HiddenServicePort 80 127.0.0.1:80
+Run the coordinator once with command:
+
 ```
-Then running `tor` once, now the OnionServicePrivateKey can be found with:
-```
-sudo cat /var/lib/tor/hidden_service/*secret_key
-```
-With hidden service (.onion link) found here:
-```
-sudo cat /var/lib/tor/hidden_service/hostname
+ASPNETCORE_URLS="http://localhost:5001" wcoordinator
 ```
 
+To see your Onion hidden service address, either check the coordinator logs with:
+```
+cat ~/.walletwasabi/coordinator/Logs.txt | grep .onion
+```
+
+and you'll find something like:
+
+```
+2026-01-09 21:21:21.210 [14] INFO       TorProcessManagerService.StartAsync (50)        Coordinator server listening on http://acoo3vgmo4rawaeujh6wckurymm2fp4ojauoag6zwov3pryyopis47qd.onion
+```
+
+The long URL ending in .onion is your hidden service address or CoordinatorUri.
+
+Or check again your coordinator configuration file with:
+
+```
+cat ~/.walletwasabi/coordinator/Config.json | grep CoordinatorUri
+```
+
+Which should automatically be filled in now.
 
 ## Running ⚡
 
@@ -192,7 +197,7 @@ Once all the config parameters have been set you can run the coordinator service
 
 Simply start the coordinator with the command:
 ```
-wcoordinator
+ASPNETCORE_URLS="http://localhost:5001" wcoordinator
 ```
 
 ### Optional: debugging coordinator server

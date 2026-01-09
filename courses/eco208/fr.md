@@ -16,17 +16,26 @@ Ce séminaire propose une exploration approfondie de la pensée de Friedrich von
 
 +++
 
-# Partie I - Fondements et implications
+# Fondements et implications
 
 <partId>ec788fc8-f225-4b7c-af20-ffce6ee08e5b</partId>
 
-## Introduction
+## Séminaire Hayek : Philosophie et Monnaie
 
 <chapterId>35009b33-47d0-4bf9-910f-ef2f274decc5</chapterId>
 
-Merci de participer à notre séminaire sur l'héritage philosophique d'Hayek et la question monétaire !
+<releasePlace>Paris, France</releasePlace>
+<isOnline>false</isOnline>
+<isInPerson>true</isInPerson>
+<isGdprCompliance>true</isGdprCompliance>
+<startDate>2025-01-22 18:30:00</startDate>
+<endDate>2025-01-22 21:30:00</endDate>
+<timeZone>Europe/Paris</timeZone>
+<availableSeats>30</availableSeats>
+<liveLanguage>fr</liveLanguage>
+<addressLine1>Institut Périclès, 6 rue Saint Joseph, Paris</addressLine1>
 
-Voici toutes les informations pratiques dont vous avez besoin :
+Merci de vous être inscrits à ce séminaire. Les informations sont les suivantes :
 
 **Date et Horaire :** Mercredi 22 janvier 2025 de 18h30 à 21h30
 
@@ -39,95 +48,14 @@ Voici toutes les informations pratiques dont vous avez besoin :
 - Curiosité intellectuelle et ouverture d'esprit
 - Intérêt pour les questions monétaires et économiques
 
-## Aborder Hayek sous l'angle philosophique
+---
 
-<chapterId>6c28e625-fcbc-4af2-9420-1c043befd0cc</chapterId>
+Et pour rappel, la structure du séminaire sera :
 
-<releasePlace>Paris, France</releasePlace>
-<isOnline>false</isOnline>
-<isInPerson>true</isInPerson>
-<isGdprCompliance>true</isGdprCompliance>
-<startDate>2025-01-22 18:30:00</startDate>
-<endDate>2025-01-22 19:00:00</endDate>
-<timeZone>Europe/Paris</timeZone>
-<availableSeats>30</availableSeats>
-<liveLanguage>fr</liveLanguage>
-<addressLine1>Institut Périclès, 6 rue Saint Joseph, Paris</addressLine1>
-
-Introduction méthodologique sur l'approche philosophique de la pensée hayékienne :
-- Précision quant à ce que signifie aborder une pensée sous un angle philosophique
-- Établir l'héritage philosophique d'Hayek (influences de Hume, Kant, École autrichienne)
-- Donner les enjeux d'une approche philosophique pour comprendre les implications monétaires
-
-## Le fondement épistémique de l'œuvre d'Hayek
-
-<chapterId>db9d900c-8c1c-4792-acf9-19f92b97aa97</chapterId>
-
-<releasePlace>Paris, France</releasePlace>
-<isOnline>false</isOnline>
-<isInPerson>true</isInPerson>
-<isGdprCompliance>true</isGdprCompliance>
-<startDate>2025-01-22 19:00:00</startDate>
-<endDate>2025-01-22 19:50:00</endDate>
-<timeZone>Europe/Paris</timeZone>
-<availableSeats>30</availableSeats>
-<liveLanguage>fr</liveLanguage>
-<addressLine1>Institut Périclès, 6 rue Saint Joseph, Paris</addressLine1>
-
-Exploration des fondements de la théorie de la connaissance chez Hayek :
-- Distinguer la raison du rationalisme
-- Le rationalisme est-il irrationnel ?
-- Refus du "totalisme" et des concepts totalisants
-- Usage hayékien de la notion d'information / Lien avec la cybernétique
-- Conséquences sur la portée pratique des sciences humaines et la question saint-simonienne : le cas de l'École Polytechnique
-- **Conséquences épistémiques sur la monnaie** : la monnaie comme signal et le système des prix comme système de découverte
-
-## Conséquences politiques, sociales et juridiques
-
-<chapterId>b8e655eb-9aee-4435-8bf1-9eb70383d7fe</chapterId>
-
-<releasePlace>Paris, France</releasePlace>
-<isOnline>false</isOnline>
-<isInPerson>true</isInPerson>
-<isGdprCompliance>true</isGdprCompliance>
-<startDate>2025-01-22 19:50:00</startDate>
-<endDate>2025-01-22 20:40:00</endDate>
-<timeZone>Europe/Paris</timeZone>
-<availableSeats>30</availableSeats>
-<liveLanguage>fr</liveLanguage>
-<addressLine1>Institut Périclès, 6 rue Saint Joseph, Paris</addressLine1>
-
-Application des fondements épistémiques aux sphères politique, sociale et juridique :
-- Comprendre ce qu'est une société complexe
-- Distinguer l'ordre de l'organisation
-- Distinguer le droit de la législation
-- Comprendre ce que sont les règles de juste conduite
-- Les fictions mises à mal
-- La "justice sociale" comme fiction
-- **Conséquences institutionnelles sur la monnaie** : dénationalisation de la monnaie et refus du contrôle de la monnaie
-
-## Ontologie et axiologie hayékiennes
-
-<chapterId>2849904e-25d5-414d-b370-efacb277fbe8</chapterId>
-
-<releasePlace>Paris, France</releasePlace>
-<isOnline>false</isOnline>
-<isInPerson>true</isInPerson>
-<isGdprCompliance>true</isGdprCompliance>
-<startDate>2025-01-22 20:40:00</startDate>
-<endDate>2025-01-22 21:20:00</endDate>
-<timeZone>Europe/Paris</timeZone>
-<availableSeats>30</availableSeats>
-<liveLanguage>fr</liveLanguage>
-<addressLine1>Institut Périclès, 6 rue Saint Joseph, Paris</addressLine1>
-
-Synthèse philosophique et perspectives contemporaines :
-- Une triple ontologie : l'individu, le devenir et l'ordre spontané
-- L'héritage axiologique de Lord Acton
-- La liberté bien comprise contre la fiction du libre-arbitre
-- **Conséquences axiologiques sur la monnaie** : la confiance de l'agent dans la stabilité au cours de l'évolution
-- Perspectives hayékiennes : nature humaine et droit naturel
-- L'ambiguïté du rapport aux droits de l'Homme
+1. Aborder Hayek sous l'angle philosophique 
+2. Le fondement épistémique de l'œuvre d'Hayek 
+3. Conséquences politiques, sociales et juridiques 
+4. Ontologie et axiologie hayékiennes 
 
 # Conclusion
 

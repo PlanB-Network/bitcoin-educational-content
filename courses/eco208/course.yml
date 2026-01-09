@@ -19,7 +19,7 @@ address_city_country: Paris, France
 start_date: 2025-01-22
 end_date: 2025-01-22
 requires_payment: true
-inperson_price_dollars: 50
+inperson_price_dollars: 0
 payment_expiration_date: 2025-01-21
 available_seats: 30
 paid_description: |

@@ -1,6 +1,6 @@
 # Présentation
 
-## Séminaire PlanB Academy : L'héritage philosophique d'Hayek et la question monétaire
+## Séminaire Plan ₿ Academy : L'héritage philosophique d'Hayek et la question monétaire
 
 Friedrich von Hayek (1899-1992) est souvent réduit à son célèbre essai "La route de la servitude" (1944), occultant ainsi la profondeur et la cohérence d'une œuvre philosophique majeure du XXe siècle. Ce séminaire propose une exploration approfondie de la pensée hayékienne, depuis ses fondements épistémiques jusqu'à ses implications concrètes sur les questions monétaires contemporaines.
 
@@ -66,5 +66,5 @@ Ce séminaire est accessible à tous les niveaux de connaissances philosophiques
 
 **Langue :** Le séminaire sera conduit en français.
 
-**Prix :** Le coût de ce séminaire augmentera au fil du temps, jusqu'à 50$. Profitez des tarifs early bird.
-**NOTE : Le prix affiché peut être soumis à la TVA selon le mode de paiement choisi et le pays de résidence de l'acheteur.**
+**Prix :** Le seminaire est gratuit, mais celui-ci nécessite de réserver sa
+place

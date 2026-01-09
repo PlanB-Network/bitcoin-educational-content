@@ -5,4 +5,6 @@ wrong_answers:
   - Tidak ada tren sama sekali.
   - Tren yang berfluktuasi liar tanpa pola yang dapat dikenali.
 explanation: >-
-  Bitcoin, karena jumlahnya yang terbatas sebanyak 21 juta bitcoin dan proses halvingnnya (memotong penciptaan moneter setiap 4 tahun sekali rata-rata), mengikuti tren umum ke atas.
+  Bitcoin, karena jumlahnya yang terbatas sebanyak 21 juta bitcoin dan proses halvingnnya 
+  (memotong penciptaan moneter setiap 4 tahun sekali rata-rata), mengikuti tren umum ke atas.
+reviewed: true

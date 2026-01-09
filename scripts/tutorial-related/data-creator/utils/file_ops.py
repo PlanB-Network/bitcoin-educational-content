@@ -53,7 +53,10 @@ description:
     
     lines = [
         f"id: {uuid_value}",
+        "",
+        f"last_update_date: {current_date}",
     ]
+
     
     # Add credit_link if we have it
     if credit_link:

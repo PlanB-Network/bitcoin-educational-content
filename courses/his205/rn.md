@@ -7,7 +7,7 @@ objectives:
   - Gutahura ukuntu amahera atandukanye yagiye arabaho n'ukuntu yagiye aratere imbere muri kahise
   - Gusuzuma uburyo bw’amahera bw’ibihugu vy'ibihangange n’inganji zikomeye.
   - Iga ukuntu amafaranga yagiye arahindagurika kuva kumabuye yinzahabu kuja ku mafaranga y'impapuro n'uburyo bufatiye kukwizera agaciro.
-  - Gusuzuma uruhara rw'amabanki n'amabanki makuru mu guteza imbere amafaranga .
+  - Gusuzuma uruhara rw'amabanki n'amabanki makuru mu guteza imbere amafaranga.
   - Gushinga amasano hagati y'amateka y'amahera hamwe n'ingorane z'ubutunzi zo muri iki gihe
 
 

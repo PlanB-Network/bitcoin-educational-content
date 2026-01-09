@@ -492,17 +492,83 @@ Dans la pratique, les nœuds appliquent des politiques locales de relais (règle
 
 ## Le halving
 
+Dans le chapitre précédent, nous avons vu que les mineurs qui produisent un bloc valide reçoivent une récompense composée des frais des transactions incluses dans le bloc, ainsi que d’une subvention de bloc. En revanche, nous n’avons pas encore expliqué comment le montant de cette subvention est déterminé. Le mécanisme qui fixe et fait évoluer cette valeur est ce que l’on appelle le ***halving***.
 
-- Comprendre le principe du halving
-- Appréhender la fin de la subvention de bloc : il se passera quoi et quand ?
-- Jamais 21m de BTC
+### En quoi consiste le halving ?
 
+Le halving est un événement programmé dans le protocole Bitcoin qui réduit de moitié la subvention de bloc, c’est-à-dire la quantité maximale de nouveaux bitcoins que le mineur gagnant est autorisé à créer à chaque bloc. Il ne concerne pas les frais de transaction : les frais existent indépendamment et restent déterminés par l’activité des utilisateurs et la concurrence pour l’espace de bloc.
+
+Lors du lancement de Bitcoin en 2009, la subvention de bloc était fixée à 50 BTC pour chaque bloc miné. Depuis, cette subvention a été divisée par deux à plusieurs reprises, lors de chaque halving.
+
+029
+
+Le halving n’est pas déclenché par une date, mais par la hauteur de bloc. Il est exécuté **tous les 210 000 blocs**. Comme Bitcoin vise un intervalle moyen d’environ 10 minutes par bloc, 210 000 blocs correspondent à peu près à quatre ans.
+
+```cpp
+CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
+{
+    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
+    // Force block reward to zero when right shift is undefined.
+    if (halvings >= 64)
+        return 0;
+
+    CAmount nSubsidy = 50 * COIN;
+    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    nSubsidy >>= halvings;
+    return nSubsidy;
+}
+```
+
+Ainsi, si l’on note `n` le nombre de halvings déjà survenus, la subvention de bloc en BTC peut être calculée de cette manière :
+
+```text
+subsidy(n) = 50 / 2^n
+```
+
+### Les halvings déjà passés
+
+Voici un tableau récapitulatif des halvings déjà survenus, avec leur hauteur de bloc, la date et la nouvelle subvention de bloc applicable après l’événement :
+
+| Événement           |   Hauteur | Date                        | Subvention |
+| ------------------- | --------: | --------------------------- | ---------: |
+| Halving 1           |   210 000 | 28 novembre 2012            |     25 BTC |
+| Halving 2           |   420 000 | 9 juillet 2016              |   12,5 BTC |
+| Halving 3           |   630 000 | 11 mai 2020                 |   6,25 BTC |
+| Halving 4           |   840 000 | 20 avril 2024               |  3,125 BTC |
+| Halving 5 (à venir) | 1 050 000 | Printemps 2028 (estimation) | 1,5625 BTC |
+
+### Quand et comment la subvention s’arrête ?
+
+Le halving se répète tant que la subvention reste exprimable dans l’unité minimale du système : le satoshi.
+
+```text
+1 BTC = 100 000 000 sats
+```
+
+À mesure que la subvention est divisée par deux, on finit par atteindre des fractions de bitcoin si petites qu’elles deviennent inférieures à 1 sat. À partir de ce moment, il n’est plus possible de créer une demi-unité de satoshi. La création monétaire via la subvention de bloc s’arrête, et la rémunération des mineurs repose alors uniquement sur les frais de transaction. À partir de ce moment-là, tous les bitcoins seront en circulation et il ne sera plus possible de produire de nouvelles unités.
+
+L’arrêt définitif de la subvention de bloc interviendra à la hauteur de bloc 6 930 000, soit lors du 33ème et dernier halving. Cet événement est attendu aux alentours de l’année 2140. Il est toutefois impossible de donner une date exacte, car celle-ci dépendra de la vitesse réelle à laquelle les blocs seront trouvés d’ici là.
+
+En revanche, comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ème halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Autrement dit, il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
+
+030
+
+### Pourquoi il n’y aura jamais 21 millions de BTC ?
+
+On présente souvent l’offre monétaire maximale de Bitcoin comme étant de 21 millions de BTC. C’est une bonne approximation pour comprendre sa politique monétaire, mais d’un point de vue strictement technique, l’offre totale n’atteindra en réalité jamais exactement 21 000 000 de bitcoins.
+
+La raison principale est mécanique. À force de halvings successifs, la subvention de bloc finit par passer sous la valeur minimale d’un satoshi, ce qui met fin à l’émission avant d’atteindre précisément la somme théorique. En raison de cette granularité minimale et des règles d’arrondi, le total des bitcoins créés par la subvention est donc légèrement inférieur à 21 millions.
+
+À cela peuvent s’ajouter des écarts marginaux d’origine protocolaire. Il est par exemple arrivé, de manière très rare, que certains mineurs n’aient pas réclamé la totalité de leur subvention, ce qui réduit encore définitivement la quantité de bitcoins effectivement émise. On peut également mentionner le bloc de genèse, produit par Satoshi le 3 janvier 2009, dont les bitcoins créés ne font pas partie de l’UTXO set, ainsi que certains événements historiques liés à des bugs, comme celui des identifiants de transactions coinbase dupliqués.
+
+Enfin, il faut aussi prendre en compte tous les bitcoins qui ont été détruits ou bloqués :
+- les bitcoins verrouillés dans des scripts insolubles ;
+- ceux volontairement détruits via des scripts `OP_RETURN` ;
+- ou encore les pertes de clés privées au niveau applicatif.
+
+En théorie, l’offre de Bitcoin est donc strictement bornée à 21 millions. En pratique, cependant, il n’y aura jamais réellement 21 millions de bitcoins en circulation.
 
 ## La transaction coinbase
-
-- Comprendre la construction de la transaction coinbase
-
-
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka mengelola transaksi antar pengguna
 explanation: >-
   Penambang dalam protokol Bitcoin mengamankan baik jaringan saat ini maupun historis. Mereka tidak mengatur harga Bitcoin, mengontrol pasokannya, atau mengelola transaksi antar pengguna.
-reviewed: false
+reviewed: true

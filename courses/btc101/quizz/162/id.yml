@@ -8,4 +8,4 @@ explanation: >-
   Protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk
   blok berikutnya dengan hadiah yang jumlahnya ditentukan oleh aturan konsensus, serta
   biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid.
-reviewed: false
+reviewed: true

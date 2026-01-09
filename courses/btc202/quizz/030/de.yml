@@ -5,5 +5,5 @@ wrong_answers:
   - Direkter Zugriff auf Blockchain ohne Speicherung
   - Kompatibilität mit einer anderen Währung als Bitcoin
 explanation: |
-  Der Node-in-a-Box vereinfacht die Installation und Verwaltung zahlreicher Zusatzanwendungen über ein einheitliches Interface.
+  Die Node-in-a-Box vereinfacht die Installation und Verwaltung zahlreicher Zusatzanwendungen über ein einheitliches Interface.
 reviewed: true

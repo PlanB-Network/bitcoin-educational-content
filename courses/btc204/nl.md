@@ -3358,13 +3358,13 @@ Op basis van de entropie van de transactie kunnen we ook de efficiëntie ervan b
 Dit brengt ons bij het concept van maximale entropie, dat overeenkomt met de hoogste entropie die een specifieke transactiestructuur theoretisch kan bereiken. De efficiëntie van een transactie wordt vervolgens berekend door deze maximale entropie te vergelijken met de werkelijke entropie van de geanalyseerde transactie.
 
 
-De gebruikte formule is als volgt met :
+De gebruikte formule is als volgt, waarbij :
 
 
 
 
-- e_R$: de werkelijke entropie van de transactie uitgedrukt in bits;
-- e_M$: de maximaal mogelijke entropie voor een transactiestructuur, ook uitgedrukt in bits;
+- $E_R$: de werkelijke entropie van de transactie uitgedrukt in bits;
+- $E_M$: de maximaal mogelijke entropie voor een transactiestructuur, ook uitgedrukt in bits;
 - $Ef$: transactie-efficiëntie in bits :
 
 
@@ -3373,15 +3373,15 @@ Ef = E_R - E_M
 $$
 
 
-Bijvoorbeeld, voor een Whirlpool 5x5 CoinJoin structuur is de maximale entropie $10.5469$ :
+Bijvoorbeeld, voor een Whirlpool 5x5 CoinJoin structuur is de maximale entropie $10,5469$ :
 
 
 $$
 \begin{align*}
-E_R &= 10.5469 \\
-E_M &= 10.5469 \\
+E_R &= 10,5469 \\
+E_M &= 10,5469 \\
 Ef &= E_R - E_M \\
-Ef &= 10.5469 - 10.5469 \\
+Ef &= 10,5469 - 10,5469 \\
 Ef &= 0 \text{ bits}
 \end{align*}
 $$
@@ -3392,15 +3392,15 @@ Deze indicator wordt ook uitgedrukt als percentage. De gebruikte formule is als 
 
 
 
-- c_R$ : het aantal mogelijke reële interpretaties ;
-- c_M$: het maximale aantal mogelijke interpretaties van dezelfde structuur;
+- $C_R$ : het aantal mogelijke reële interpretaties;
+- $C_M$: het maximale aantal mogelijke interpretaties van dezelfde structuur;
 - $Ef$: efficiëntie uitgedrukt als percentage:
 
 
 $$
 \begin{align*}
 E_f &= \frac{C_R}{C_M} \\
-E_f &= \frac{1\,496}{1\,496} \\
+E_f &= \frac{1\.496}{1\.496} \\
 E_f &= 100 \%
 \end{align*}
 $$
@@ -3420,9 +3420,9 @@ Om deze te berekenen delen we simpelweg de totale entropie van de transactie doo
 
 
 
-- e_D$: entropiedichtheid uitgedrukt in bits;
-- e$: de entropie van de transactie uitgedrukt in bits;
-- t$: totaal aantal in- en outputs in de transactie:
+- $E_D$: entropiedichtheid uitgedrukt in bits;
+- $E$: de entropie van de transactie uitgedrukt in bits;
+- $T$: totaal aantal in- en outputs in de transactie:
 
 
 $$
@@ -3430,16 +3430,16 @@ E_D = \frac{E}{T}
 $$
 
 
-Laten we het voorbeeld nemen van een Whirlpool 5x5 CoinJoin:
+Laten we het voorbeeld nemen van een CoinJoin van het type Whirlpool 5x5:
 
 
 $$
 \begin{align*}
 T &= 5 + 5 = 10 \\
-E &= 10.5469 \\
+E &= 10,5469 \\
 E_D &= \frac{E}{T} \\
-E_D &= \frac{10.5469}{10} \\
-E_D &= 1.054 \text{ bits}
+E_D &= \frac{10,5469}{10} \\
+E_D &= 1,054 \text{ bits}
 \end{align*}
 $$
 
@@ -3450,10 +3450,10 @@ Laten we ook de entropiedichtheid van een 8x8 Whirlpool CoinJoin berekenen:
 $$
 \begin{align*}
 T &= 8 + 8 = 16 \\
-E &= 23.244 \\
+E &= 23,244 \\
 E_D &= \frac{E}{T} \\
-E_D &= \frac{23.244}{16} \\
-E_D &= 1.453 \text{ bits}
+E_D &= \frac{23,244}{16} \\
+E_D &= 1,453 \text{ bits}
 \end{align*}
 $$
 
@@ -3467,7 +3467,7 @@ Door de entropiedichtheid van deze twee typen CoinJoin te analyseren, wordt het 
 Een ander stuk informatie dat wordt geanalyseerd in een transactie is de Boltzmann score van elk element ten opzichte van een ander. Dit is de tabel met overeenstemmingskansen tussen inputs en outputs. Deze tabel geeft via de Boltzmann score de voorwaardelijke waarschijnlijkheid aan dat een specifieke input gekoppeld is aan een bepaalde output. Het is dus een kwantitatieve maat voor de voorwaardelijke waarschijnlijkheid dat een associatie tussen een input en een output in een transactie zal voorkomen, gebaseerd op de verhouding van het aantal gunstige voorvallen van deze gebeurtenis tot het totale aantal mogelijke voorvallen, in een reeks interpretaties.
 
 
-Als we het voorbeeld van een Whirlpool CoinJoin gebruiken, zou de voorwaardelijke waarschijnlijkheidstabel de kans op een verband tussen elke input en uitgang benadrukken, en een kwantitatieve maatstaf bieden voor de ambiguïteit van associaties in de transactie:
+Als we het voorbeeld van een Whirlpool CoinJoin gebruiken, zou de voorwaardelijke waarschijnlijkheidstabel de kans op een verband tussen elke input en output benadrukken, en een kwantitatieve maatstaf bieden voor de ambiguïteit van associaties in de transactie:
 
 
 | % | Output 0 | Output 1 | Output 2 | Output 3 | Output 4 |
@@ -3511,7 +3511,7 @@ Als we het voorbeeld nemen van een Whirlpool 8x8 Surge Cycle CoinJoin, dan zou d
 In het geval van een eenvoudige transactie met een enkele input en 2 outputs is de situatie echter anders:
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
 | Input 0 | 100% | 100% |
 

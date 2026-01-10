@@ -1619,43 +1619,43 @@ Bob arungikira amakuru ya Alice yigizwe ibanga mu buryo bwa ***Invoice*** (tuzoj
 ![RGB-Bitcoin](assets/en/060.webp)
 
 
-**Gutegura urugero rw'ugucuruza:**
+**Gutegura urugero rw'ihanahanwa:**
 
 
-Alice rero irema igikorwa ca Bitcoin ikoresha UTXO yavuzwe muri Seal ya kera (iyo yamuhaye uburenganzira bwo kuba uwuyifise). Mu gisohoka c'iyi nzira, *Commitment* (biciye muri `Opret` canke `Tapret`) yinjizwa muri Anchor igihugu gishasha ca RGB. Amasezerano ya `Opret` canke `Tapret` akomoka ku giti ca *MPC* (nk’uko vyabonetse mu bice vyabanje), gishobora gukoranya amahinduka menshi ava mu masezerano atandukanye.
+Alice rero arakora ihanahanwa rya Bitcoin  ikoresha UTXO yavuzwe muri Serire iheruka (iyo yamuhaye uburenganzira bwo kuba uwuyifise). Mu gisohoka c'iyi hanahanwa, *Ukwiyemeza* (biciye muri `Opret` canke `Tapret`) yinjizwa muri Mumizi y'uko RGB isigaye imeze. Ukwiyemeza kwa `Opret` canke `Tapret` akomoka ku giti ca *MPC* (nk’uko vyabonetse mubigabane biheruka), gishobora gukoranya amahinduka menshi ava mu masezerano atandukanye.
 
 
-**Ugutanga *Consignment* kuri Bob:**
+**Ugutanga *ikintu* kwa Bob:**
 
 
-Imbere yo gutangaza iyo nzira, Alice yohereza Bob ***Consignment*** irimwo amakuru yose akenewe *yo ku ruhande rw’umukiriya* (*Stash* yiwe) n’amakuru mashasha ya Leta afasha Bob. Muri iki gihe, Bob ikoresha amategeko y’uguhurizako RGB:
+Imbere yo gutangaza iryo hanahanwa, Alice arungikira Bob ***ikintu*** irimwo amakuru yose akenewe *yo ku ruhande rw’umuguzi* (*Stash* yiwe) hanyuma uko amakuru mashahsa afashe na Bob. Muri iki gihe, Bob ikoresha amategeko y’uguhurizako ya RGB:
 
 
 
 
-- Iremeza amakuru yose ya RGB ari muri *Consignment*, harimwo na Leta nshasha iyiha Ownership y’umutungo;
-- Ishingiye ku *Anchors* ziri muri *Consignment*, igenzura urutonde rw'ibikorwa vy'abashingantahe (kuva kuri Genesis gushika ku mpinduka iherutse) kandi ikemeza amasezerano ahuye muri Blockchain.
+- Iremeza amakuru yose ya RGB ari muri *Ibintu*, harimwo uko bisigaye bimeze muvvyatanzwe mugutunga inomtungo;
+- Ishingiye ku *Mubihubakiye* Harimwo *ibibintu*, igenzura urutonde rw'ivyabona vy'ihanahanwa (kuva mwitangiro gushika ku mpinduka iherutse) kandi ikemeza amasezerano ahuye muri Blockchain.
 
 
 **Uguheza kw'ihinduka:**
 
 
-Iyo Bob yuzuye, arashobora gutanga ukwemera kwiwe (nk’akarorero, mu gushira umukono kuri *Consignment*). Alice irashobora rero gutangaza ivyerekanwa vy’ugucuruza vyateguwe. Ivyo bimaze kwemezwa, ivyo bica bifunga Seal yari ifiswe na Alice, bigatuma Ownership igira Bob. Umutekano wo kurwanya Double-spending rero ushingiye ku buryo bumwe nk’ubwo muri Bitcoin: UTXO irakoreshwa, bikaba vyerekana ko Alice itagishobora kuyikoresha.
+Iyo Bob akwihje, arashobora gutanga ukwemeza kwiwe (nk’akarorero, mu gushira umukono mu *ibintu*). Alice arashobora rero gutangaza ivyerekanwa vy’ihanahanwa vyateguwe. Mugihe vyemewe, ivyo bica bifunga Serire yari ifiswe na Alice, bigatuma Bitingwa na Bob. Umutekano wo kurwanya Ukuriha kabiri rero ushingiye ku buryo bumwe nk’ubwo muri Bitcoin: UTXO irakoreshwa, bikaba vyerekana ko Alice atagishobora kuyikoresha.
 
 
 ![RGB-Bitcoin](assets/en/061.webp)
 
 
-Leta nshasha ubu ikoresha Bob ya Bob, igaha Bob Ownership yahora ifiswe na Alice. Igisohoka ca Bitcoin aho amakuru ya RGB ashizweho gica kiba ikimenyamenya kidashobora gusubirwamwo c'ukwimurirwa kwa Ownership.
+Uko bisigaye bimeze rero vyerekana UTXO ya Bob, bigaha Bob Uburenganzira bw'ugutunga ivyaheruka kuba bifiswe na Alice. Igisohoka ca Bitcoin aho amakuru ya RGB ashizweho gica kiba ikimenyamenya kidashobora gusubirwamwo c'ukurungika.
 
 
-Akarorero k’i DAG ntoyi (*Directed Acyclic Graph*) igizwe n’ibikorwa bibiri vya Contract (**Genesis** hanyuma ***State Transition***) karashobora kwerekana ingene igihugu ca RGB (*uruhande rw’umukiriya* Layer, mu mutuku) gifatanya na Blockchain4 G4*W-740). mu rurimi rw’umuhondo).
+Akarorero k’i DAG ntoyi (*Directed Acyclic Graph*) igizwe n’ibikorwa bibiri vya mumasezerano (**mw'itanguriro** hanyuma ***uko bihinduka***) karashobora kwerekana ingene igihugu ca RGB (*uruhande rw’umuguzi* Layer, mw'ibara ritukura) gifatanya na Blockchain4 G4*W-740). mu rurimi rw’umuhondo).
 
 
 ![RGB-Bitcoin](assets/en/062.webp)
 
 
-Birerekana ko Genesis isobanura Seal (*Seal Definition*), hanyuma *State Transition* igafunga iyo Seal kugira ngo ireme indi nshasha mu yindi UTXO.
+Birerekana ko Itanguro isobanura Iserire (*Insiguro ya Serire*), hanyuma *Uko bisigaye bimeze* igafunga iyo Serire kugira ngo ireme indi nshasha mu yindi UTXO.
 
 
 Muri ivyo, ng’ibi ivyibutsa bikeyi vy’amajambo:
@@ -1663,28 +1663,27 @@ Muri ivyo, ng’ibi ivyibutsa bikeyi vy’amajambo:
 
 
 
-- ***Assignment*** ihuriza hamwe ibi bikurikira:
-    - Indege ***Seal Definition*** (ikaba yerekana indege 755);
+- ***Umwimenyerezo*** ihuriza hamwe ibi bikurikira:
+    - ***Insiguro ya Serire*** (iyikora kuri UTXO);
 - Ibihugu vy'ubutunzi, ni ukuvuga amakuru ahuye na **Ownership** (nk'akarorero, igitigiri c'ibimenyetso vyimuriwe).
-- **Global State** ihuriza hamwe imiterere rusangi ya Contract, iboneka kuri bose, kandi igatuma ivy’ubwihindurize bihuye kw’isi yose.
+- **Uko bimeze murirusangi** ihuriza hamwe imiterere rusangi y'amasezerano, Aboneka , kandi igatuma ivy’ubwihindurize bihuye kw’isi yose.
 
 
-**Impinduka za Leta**, zavuzwe mu kigabane c'imbere, ni zo nzira nyamukuru za Contract Operation. Bivuga intara imwe canke nyinshi za kera (kuva kuri Genesis canke iyindi State Transition) hanyuma zigasubiramwo intara nshasha.
+**Impinduka z'uko bimeze**, zavuzwe mu kigabane c'imbere, ni zo nzira nyamukuru z'ibikorwa vy'amasazerano. Bivuga intara imwe canke nyinshi za kera (kuva kw'itanguriro canke iyindi uko impinduka imeze) hanyuma zigasubiramwo intara nshasha.
 
 
 ![RGB-Bitcoin](assets/en/063.webp)
 
 
-Iki kigereranyo kirerekana ingene, muri *State Transition Bundle*, ibimenyetso vyinshi bishobora gupfungwa mu gucuruza kw’akarorero kamwe, mu gihe nyene bifungura ibimenyetso bishasha. Nkako, ikintu gishimishije c’umurongo wa RGB ni ubushobozi bwawo bwo gupima: inzira nyinshi zishobora guteranirizwa hamwe zigacika Transition Bundle, iyo nzira yose ikaba ifatanijwe n’ibabi ridasanzwe ry’igiti ca *MPC* (ikimenyetso kidasanzwe c’umugwi). Kubera uburyo bwa *Deterministic Bitcoin Commitment* (DBC), ubutumwa bwose bwinjizwa mu gisohoka ca `Tapret` canke `Opret`, mu gihe bufunga ibimenyetso vya kera kandi bishoboka ko busobanura ibindi bishasha. `Anchor` ikora nk’ihuriro ry’ukuri hagati ya Commitment ibitswe muri Blockchain n’imiterere ya Client-side Validation (*uruhande rw’umukiriya*).
+Iki kigereranyo kirerekana ingene, muri *Umutekero w'uko imoinduka zimeze*, ibimenyetso vyinshi bishobora gupfungwa mu gucuruza kw’akarorero kamwe, mu gihe nyene bifungura ibimenyetso bishasha. Nkako, ikintu gishimishije c’umurongo wa RGB ni ubushobozi bwawo bwo gupima: inzira nyinshi zishobora guteranirizwa hamwe zigacika mumutekero w'ipinduka, iyo nzira yose ikaba ifatanijwe n’ibabi ridasanzwe ry’igiti ca *MPC* (ikimenyetso kidasanzwe c’umugwi). Kubera uburyo bwa *Deterministic Bitcoin Commitment* (DBC), ubutumwa bwose bwinjizwa mu gisohoka ca `Tapret` canke `Opret`, mu gihe bufunga ibimenyetso vya kera kandi bishoboka ko busobanura ibindi bishasha. `Anchor` ikora nk’ihuriro ry’ukuri hagati y'ukwiyemeza ibitswe muri Blockchain n’imiterere y'ukwmwza kuruhande rw'umuguzi (*uruhande rw’umukiriya*).
 
 
-Mu bice bikurikira, turaza kuraba ibice vyose n'ingene bigenda mu kwubaka no kwemeza State Transition. Vyinshi muri ivyo Elements biri mu vyo RGB yemeranije, bishirwa mu ngiro mu **Isoko ry’Ibitabo ry’Ishingiro rya RGB**.
+Mu bice bikurikira, turaza kuraba ibice vyose n'ingene bigenda mu kwubaka no kwemeza Uko bihinduka. Vyinshi muri ivyobintu biri mu vyo RGB yemeranije, bishirwa mu ngiro mu **Isoko ry’Ibitabo ry’Ishingiro rya RGB**.
 
 
-### Transition Bundle
+### Ukwemeza kw'uko bihinduka
 
-
-Ku RGB, birashoboka gukoranya Impinduka za Leta zitandukanye ziri muri Contract imwe (ni ukuvuga gusangira **ContractId** imwe, ikomoka kuri Genesis **OpId**). Mu buryo bworoshe, nk’uko biri hagati ya Alice na Bob mu karorero kari hejuru, **Transition Bundle** irimwo inzira imwe gusa. Ariko gushigikira ibikorwa vy’abariha benshi (nk’ama coinjoins, ugufungura imirongo ya Lightning, n’ibindi) bisigura ko abakoresha benshi bashobora gufatanya Impinduka zabo za Leta mu mugwi umwe.
+Ku RGB, birashoboka gukoranya Impinduka za Leta zitandukanye ziri mumasezerano imwe (ni ukuvuga gusangira **Ikiranga amasezerano** imwe, ikomoka kwitanguriro **OpId**). Mu buryo bworoshe, nk’uko biri hagati ya Alice na Bob mu karorero kari hejuru, **Umutekero w'impinduka** irimwo inzira imwe gusa. Ariko gushigikira ibikorwa vy’abariha benshi (nk’ama coinjoins, ugufungura imirongo ya Lightning, n’ibindi) bisigura ko abakoresha benshi bashobora gufatanya Impinduka zabo uko bimeze mu mugwi umwe.
 
 
 Iyo zimaze kwegeranywa, izo mpinduka zishirwako (n’uburyo bwa MPC + DBC) mu gikorwa kimwe ca Bitcoin:
@@ -1692,12 +1691,12 @@ Iyo zimaze kwegeranywa, izo mpinduka zishirwako (n’uburyo bwa MPC + DBC) mu gi
 
 
 
-- State Transition yose irashirwako hashe maze igashirwa mu migwi ikaba Transition Bundle;
-- Transition Bundle ubwayo irahashwa maze igashirwa mu ibabi ry’igiti ca MPC rihuye n’iri Contract (BundleId);
-- Igiti ca MPC gica gikorana na `Opret` canke `Tapret` muri Witness Transaction, ivyo bikaba bifunga ibimenyetso vyakoreshejwe kandi bikasobanura ibimenyetso bishasha.
+- Uko bizaguhinduka yose irashirwako hashe maze igashirwa mu migwi ikaba Mumutekero w'impinduka;
+- Umutekero w'impinduka ubwayo irahashwa maze igashirwa mu ibabi ry’igiti ca MPC rihuye mumasezerano (Ikiranga umutekero);
+- Igiti ca MPC gica gikorana na `Opret` canke `Tapret` muri Ukwemeza kw'ihanahanwa, ivyo bikaba bifunga ibimenyetso vyakoreshejwe kandi bikasobanura ibimenyetso bishasha.
 
 
-Mu buryo bw'ubuhinga, **BundleId** yinjijwe mu rupapuro rwa MPC iboneka ku Hash ikoreshwa ku gukurikirana gukomeye kw'umurima wa *InputMap* w'umugwi:
+Mu buryo bw'ubuhinga, **Ikiranga umutekero** yinjijwe mu rupapuro rwa MPC iboneka ku Hash ikoreshwa ku gukurikirana gukomeye kw'umurima wa *InputMap* w'umugwi:
 
 
 ```txt
@@ -1708,7 +1707,7 @@ BundleId = SHA256( SHA256(bundle_tag) || SHA256(bundle_tag) || InputMap )
 Mu `umugwi_tag = urn:lnp-bp:RGB:umugwi#2024-02-03` nk'akarorero.
 
 
-*InputMap* ni urutonde rw'amakuru rutanga urutonde, kuri buri nkuru `i` y'urugero rw'ibikorwa, ivyerekeye *OpId* ya State Transition ihuye. Nk'akarorero:
+*InputMap* ni urutonde rw'amakuru rutanga urutonde, kuri buri nkuru `i` y'urugero rw'ibikorwa, ivyerekeye *OpId* ya Uko ibihinduka bimeze ihuye. Nk'akarorero:
 
 
 ```txt
@@ -1724,17 +1723,17 @@ MapElement1                MapElement2                       MapElementN
 
 
 
-- `N` ni umubare wose w'ibintu vyinjijwe mu gucuruza vyerekeye `OpId`;
-- opId(input_j)` ni ikimenyetso c'ibikorwa ca kimwe mu bihinduka vya Leta biri mu mugwi.
+- `N` ni igitigiri cose c'ibintu vyinjijwe mu gucuruza vyerekeye `OpId`;
+- opId(input_j)` ni ikimenyetso c'ibikorwa ca kimwe mu bihinduka uko bimeze biri mu mugwi.
 
 
-Mu gusubiramwo ikintu cose cinjijwe rimwe gusa kandi mu buryo bubereye, turabuza ko Seal imwe ikoreshwa incuro zibiri mu Nzira zibiri z’Igihugu zikora icarimwe.
+Mu gusubiramwo ikintu cose cinjijwe rimwe gusa kandi mu buryo bubereye, turabuza Serire imwe ikoreshwa incuro zibiri mu Nzira zibiri z’uko bimeze zikora icarimwe.
 
 
-### Uruvyaro rwa Leta n'Igihugu gikora
+### Gushiraho uko bimeze hamwe n'uko bimeze bikora
 
 
-Impinduka za Leta rero zirashobora gukoreshwa mu gukura Ownership y'umutungo ku muntu umwe ukayijana ku wundi. Ariko rero, si vyo vyonyene bishobora gukorwa mu masezerano ya RGB. Iryo tegeko risobanura ibikorwa bitatu vya **Contract**:
+Impinduka z'uko bimeze rero zirashobora gukoreshwa mu gukura ukugira ukobi y'umutungo ku muntu umwe ukayijana ku wundi. Ariko rero, si vyo vyonyene bishobora gukorwa mu masezerano ya RGB. Iryo tegeko risobanura ibikorwa bitatu vya **Amasezerano**:
 
 
 
@@ -1744,7 +1743,7 @@ Impinduka za Leta rero zirashobora gukoreshwa mu gukura Ownership y'umutungo ku 
 - 794.
 
 
-Muri ivyo, **Genesis** na **State Extension** rimwe na rimwe vyitwa "*Ibikorwa vyo Guhingura Leta*", kuko bihingura Leta nshasha ata n'imwe ihita ifunga. Iyi ni ingingo ihambaye cane: **Genesis** na **State Extension** ntibirimwo gufunga Seal. Ahubwo, basigura Seal nshasha, itegerezwa rero gukoreshwa n’iyindi **State Transition** ikurikira kugira ngo yemezwe vy’ukuri muri kahise ka Blockchain.
+Muri ivyo, **Itanguriro** na **State Extension** rimwe na rimwe vyitwa "*Ibikorwa vyo Guhingura Leta*", kuko bihingura Leta nshasha ata n'imwe ihita ifunga. Iyi ni ingingo ihambaye cane: **Genesis** na **State Extension** ntibirimwo gufunga Seal. Ahubwo, basigura Seal nshasha, itegerezwa rero gukoreshwa n’iyindi **State Transition** ikurikira kugira ngo yemezwe vy’ukuri muri kahise ka Blockchain.
 
 
 ![RGB-Bitcoin](assets/en/064.webp)

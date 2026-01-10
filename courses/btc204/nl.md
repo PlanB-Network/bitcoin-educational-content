@@ -4005,47 +4005,47 @@ Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van e
 ### De muntenruil
 
 
-Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van Bitcoin eigenaar tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
+Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme contracten om een overdracht van bitcoin-eigenaar tussen twee gebruikers mogelijk te maken, zonder dat er vertrouwen nodig is en zonder dat deze overdracht expliciet zichtbaar is op de blockchain.
 
 
 ![BTC204](assets/nl/199.webp)
 
 
-Laten we een naïef voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun private sleutels exchange via een extern communicatiekanaal om een geheime overdracht uit te voeren.
+Laten we een eenvoudug voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun private sleutels uitwisselen via een extern communicatiekanaal om een geheime overdracht uit te voeren.
 
 
 ![BTC204](assets/nl/200.webp)
 
 
-Deze naïeve methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ private sleutel te bewaren na exchange en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
+Deze eenvoudige methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ private sleutel te bewaren na uitwisseling en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
 
 
 ![BTC204](assets/nl/201.webp)
 
 
-Verder is er geen garantie dat Alice niet Bob's privé sleutel $B$ ontvangt en nooit haar privé sleutel $A$ doorgeeft in Exchange. Deze exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
+Bovendien is er geen garantie dat Alice, eenmaal de privésleutel $B$ van Bob ontvangen, in ruil daarvoor haar privésleutel $A$ zal overdragen. Deze exchange berust dus op overmatig vertrouwen tussen de partijen en is niet effectief om een veilige geheime overdracht van eigenaar te garanderen.
 
 
 ![BTC204](assets/nl/202.webp)
 
 
-Om deze problemen op te lossen en uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, gaan we in plaats daarvan Smart contract systemen gebruiken. Een Smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan. In ons geval zorgt dit ervoor dat de exchange van eigendom automatisch plaatsvindt, zonder dat wederzijds vertrouwen nodig is.
+Om deze problemen op te lossen en uitwisselingen mogelijk te maken tussen partijen die elkaar niet vertrouwen, gaan we in plaats daarvan smart contract-systemen gebruiken. Een smart contract is een programma dat automatisch wordt uitgevoerd wanneer aan vooraf gedefinieerde voorwaarden wordt voldaan. In ons geval zorgt dit ervoor dat de uitwisseling van eigendom automatisch plaatsvindt, zonder dat wederzijds vertrouwen nodig is.
 
 
-Dit kan met HTLC (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de exchange met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
+Dit kan met HTLC (*Hash Time-Locked Contracts*) of PTLC (*Point Time-Locked Contracts*). Deze twee protocollen werken op een vergelijkbare manier en gebruiken een tijdvergrendelingssysteem dat ervoor zorgt dat de uitwisseling met succes wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC en PTLC is dat HTLC hashes en preimages gebruikt om de transactie te beveiligen, terwijl PTLC Adaptor Signatures gebruikt.
 
 
 In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de exchange veilig plaats: of het slaagt en ieder ontvangt de BTC van de ander, of het mislukt en ieder behoudt zijn eigen BTC. Dit maakt het onmogelijk voor een van de partijen om vals te spelen of de BTC van de ander te stelen.
 
 
-> *De HTLC is ook het mechanisme dat gebruikt wordt om betalingen veilig te routeren via de bidirectionele kanalen van de Lightning Network*
-Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die exchange met zich meebrengt. Een ander groot voordeel van Adaptor-handtekeningen is dat ze niet het gebruik van een gemeenschappelijke Hash vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen Exchange.
+> *De HTLC is ook het mechanisme dat gebruikt wordt om betalingen veilig te routeren via de bidirectionele kanalen van het Lightning Network*
+Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "_scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die de uitwisseling met zich meebrengt. Een ander groot voordeel van Adaptor Signatures is dat ze het gebruik van een gemeenschappelijke hash niet vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen van uitwisselingen.
 
 
-### Handtekeningen van adapters
+### Adaptor Signatures
 
 
-Adaptorhandtekeningen zijn een cryptografische methode die een geldige handtekening integreert met een extra handtekening, genaamd de "_adaptorhandtekening_", om geheime gegevens te onthullen. Dit mechanisme is zo ontworpen dat kennis van 2 van de 3 volgende elementen: de geldige handtekening, de adapterhandtekening en het geheim, ons toelaat om het ontbrekende derde element af te leiden. Een interessante eigenschap van deze methode is dat, als we de adaptorhandtekening van onze peer kennen en het specifieke punt op de elliptische curve dat geassocieerd is met het geheim dat gebruikt is om die adaptorhandtekening te berekenen, we onze eigen adaptorhandtekening kunnen afleiden die compatibel zal zijn met datzelfde geheim, zonder ooit directe toegang te hebben tot het geheim zelf.
+Adaptor Signatures zijn een cryptografische methode die een geldige handtekening integreert met een extra handtekening, genaamd de "_adaptor signature_", om geheime gegevens te onthullen. Dit mechanisme is zo ontworpen dat kennis van 2 van de 3 volgende elementen: de geldige handtekening, de adapterhandtekening en het geheim, ons toelaat om het ontbrekende derde element af te leiden. Een interessante eigenschap van deze methode is dat, als we de adaptorhandtekening van onze peer kennen en het specifieke punt op de elliptische curve dat geassocieerd is met het geheim dat gebruikt is om die adaptorhandtekening te berekenen, we onze eigen adaptorhandtekening kunnen afleiden die compatibel zal zijn met datzelfde geheim, zonder ooit directe toegang te hebben tot het geheim zelf.
 
 
 Bij een coinswap maakt het gebruik van Adaptor Signatures de gelijktijdige bekendmaking van twee stukken gevoelige informatie tussen deelnemers mogelijk, waardoor de noodzaak voor wederzijds vertrouwen wordt vermeden. Laten we een voorbeeld nemen om dit proces te illustreren met Alice en Bob, die elk 1 BTC willen exchange bezitten, maar elkaar niet vertrouwen. Ze gebruiken Adaptor Signatures om de noodzaak om elkaar te vertrouwen in deze exchange te elimineren. Dit is hoe ze het doen:

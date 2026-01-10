@@ -1061,7 +1061,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 สำหรับบางคน Bitcoin ถูกกำหนดให้เป็นสิ่งมีชีวิตเชื้อราเหมือนกับ [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/) ในขณะที่คนอื่นอธิบายว่าเป็น [หลุมดำ](https://dergigi.com/) จะรักหรือเกลียดมัน Bitcoin ยังคงมีอยู่ ด้วยจังหวะคงที่ของ 10 นาทีต่อบล็อก เหมือนกับการเต้นของหัวใจของระบบการเงินใหม่
 
 
-หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับงานเขียนของ Satoshi Nakamoto เราขอแนะนำให้อ่าน ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) โดย Phil Champagne หรือสารคดี ARTE "Le mystaire Satoshi"
+เพื่อทำความเข้าใจงานเขียนของซาโตชิ นากาโมโตะให้ลึกซึ้งยิ่งขึ้น ข้าพเจ้าขอแนะนำให้อ่าน [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) โดยฟิล แชมเปญ ซึ่งรวบรวมและจัดวางงานเขียนสำคัญของเขาไว้ในบริบท รวมถึงสารคดีของ ARTE เรื่อง [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c) ที่นำเสนอการสืบสวนซึ่งเข้าถึงได้ง่ายและมีการบันทึกข้อมูลไว้อย่างดีเกี่ยวกับอัตลักษณ์และมรดกของเขา
 
 
 ![image](assets/en/044.webp)

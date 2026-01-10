@@ -137,7 +137,7 @@ cargo run -p ledger_manager_gui
 शुरू करने से पहले, अगर आपका Ledger नया है, तो सुनिश्चित करें कि आपने पिन कोड सेट कर लिया है और रिकवरी वाक्यांश सहेज लिया है। इन शुरुआती चरणों के लिए आपको Ledger लाइव की ज़रूरत नहीं है। बस अपने Ledger को USB केबल के ज़रिए कनेक्ट करें ताकि उसे पावर मिल सके। अगर आपको नहीं पता कि इन दो चरणों को कैसे आगे बढ़ाया जाए, तो आप अपने मॉडल के लिए खास ट्यूटोरियल की शुरुआत देख सकते हैं:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

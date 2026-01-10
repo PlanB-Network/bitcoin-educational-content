@@ -1,4 +1,7 @@
 id: 7a3dc8a8-629b-4971-bb0d-4eab94f93973
+
+last_update_date: 2025-07-21
+
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 category: operating system
 level: intermediate
@@ -57,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.81
+    reward: 4.89
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -73,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.85
+    reward: 4.89
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -114,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.85
+    reward: 4.89
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -144,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.85
+    reward: 4.89
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,9 +1,9 @@
-question: Was kann der dbcache-Parameter in Bitcoin core bewirken?
-answer: Zuweisung von RAM zur Beschleunigung von IBD
+question: Was bewirkt der dbcache-Parameter in Bitcoin Core?
+answer: Zuweisung von RAM zur Beschleunigung des IBD
 wrong_answers:
   - Blockchain-Größe definieren
   - Anpassung der maximalen Mining-Schwierigkeit
   - Begrenzung der Anzahl der verbundenen Peers
 explanation: |
-  Der Parameter dbcache vergrößert den Speicherplatz, der für die vorübergehende Speicherung des UTXO-Satzes verwendet wird, was den anfänglichen Synchronisierungsprozess beschleunigen kann.
+  Der Parameter dbcache vergrößert den Speicherplatz, der für die vorübergehende Speicherung des UTXO-Set verwendet wird, was den anfänglichen Synchronisierungsprozess beschleunigen kann.
 reviewed: true

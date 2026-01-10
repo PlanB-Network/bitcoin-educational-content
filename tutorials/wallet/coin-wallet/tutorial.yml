@@ -1,5 +1,7 @@
 id: 4eeb4331-bbfd-4a56-bded-a1abd7480a4c
 
+last_update_date: 2025-12-01
+
 license: CC-BY-SA-V4
 
 tags:
@@ -80,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.33
+    reward: 2.79
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -110,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.33
+    reward: 2.79
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -145,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.33
+    reward: 2.79
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

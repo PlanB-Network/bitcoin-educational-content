@@ -1,4 +1,7 @@
 id: 2b3f73ed-0dab-4c3b-b561-667f3ebf4050
+
+last_update_date: 2025-12-11
+
 project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
 
 category: peer-to-peer
@@ -73,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.74
+    reward: 6.27
   - language: id
     last_contribution_date:
     urgency: 1
@@ -133,7 +136,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.5
+    reward: 6.27
   - language: zh-Hant
     last_contribution_date:
     urgency: 1

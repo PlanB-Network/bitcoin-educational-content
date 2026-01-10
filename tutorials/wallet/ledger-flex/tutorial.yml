@@ -1,5 +1,6 @@
 id: 3728773e-74d4-4177-b39f-bd923700c76a
 
+last_update_date: 2024-10-02
 
 category: hardware
 
@@ -35,7 +36,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -85,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -95,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.04
+    reward: 10.06
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,7 @@
 id: 985d5679-c046-4c4a-8598-2f7e908557de
 
+last_update_date: 2025-07-25
+
 tags:
   - keys
   - hardware
@@ -63,7 +65,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.35
+    reward: 2.42
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.42
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -119,7 +121,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.42
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -149,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.42
   - language: bg
     last_contribution_date:
     urgency: 1

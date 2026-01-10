@@ -1,4 +1,7 @@
 id: d09a57ec-8372-40ca-bcff-499415209e1f
+
+last_update_date: 2025-07-16
+
 project_id: 546548af-8e2f-4878-a4fb-1080bc048b81
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 category: operating system
@@ -58,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.09
+    reward: 2.24
   - language: id
     last_contribution_date:
     urgency: 1
@@ -73,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.67
+    reward: 2.24
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -114,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.67
+    reward: 2.24
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -144,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.67
+    reward: 2.24
   - language: bg
     last_contribution_date:
     urgency: 1

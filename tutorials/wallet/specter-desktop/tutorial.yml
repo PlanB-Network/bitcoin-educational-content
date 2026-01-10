@@ -1,5 +1,7 @@
 id: 9c5684cd-4391-46f8-b0bc-f7fe8a9431ec
 
+last_update_date: 2025-10-18
+
 project_id: 75aa8e7c-d603-431e-9250-04dca714654c
 
 tags:
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.54
+    reward: 3.98
   - language: id
     last_contribution_date:
     urgency: 1
@@ -80,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.98
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -110,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.98
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -140,7 +142,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.98
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

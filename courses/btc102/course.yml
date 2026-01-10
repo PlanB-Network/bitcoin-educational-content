@@ -62,7 +62,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 52.23
+    reward: 43.54
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -80,7 +80,7 @@ proofreading:
     contributor_names:
       - Henry-Da0
       - Ahn-La
-    reward: 13.06
+    reward: 10.88
   - language: et
     last_contribution_date:
     urgency: 1
@@ -122,7 +122,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 60.91
+    reward: 43.54
   - language: sw
     last_contribution_date: 2025-12-04
     urgency: 1
@@ -163,7 +163,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - barakana
-    reward: 26.11
+    reward: 21.77
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1

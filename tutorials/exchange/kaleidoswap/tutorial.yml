@@ -1,5 +1,7 @@
 id: 995cb68c-44a5-4fad-972c-16f2fa387095
 
+last_update_date: 2025-12-12
+
 project_id: 8a5e01cd-8a8a-4463-b887-5319a4ae8c74
 
 professor_id: a67f1982-88d1-4c9d-b42e-0d908c45b66e
@@ -79,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.9
+    reward: 6.6
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -109,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.9
+    reward: 6.6
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -144,7 +146,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.9
+    reward: 6.6
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

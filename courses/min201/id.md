@@ -10,7 +10,8 @@ objectives:
 
 # Langkah Pertama Anda dalam Penambangan!
 
-Dalam pelatihan ini, kita akan mendalami industri penambangan untuk membuka tabir subjek kompleks ini! Pelatihan ini terbuka untuk semua orang dan tidak memerlukan investasi awal.
+Dalam pelatihan ini, kita akan menyelami industri pertambangan untuk mengungkap misteri di balik subjek yang kompleks ini! 
+Pelatihan ini dapat diakses oleh siapa saja dan tidak memerlukan investasi awal apa pun.
 
 Bagian pertama akan bersifat teoritis, di mana Ajelex dan saya akan memiliki diskusi mendalam tentang berbagai topik terkait penambangan. Ini akan membantu kita lebih memahami industri ini dan isu-isu ekonomi serta geopolitik yang terkait dengannya.
 Di bagian kedua, kita akan menangani kasus praktis. Memang, kita akan belajar cara mengubah penambang S9 bekas menjadi sistem pemanas rumah! Melalui panduan tertulis dan video, kita akan menunjukkan dan menjelaskan semua langkah untuk mencapai ini di rumah Anda :)

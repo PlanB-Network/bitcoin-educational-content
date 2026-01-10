@@ -25,7 +25,7 @@ Peamised eelised:
 - Keskendub põhieesmärgile - krüptoraha turvaline säilitamine, ilma ebavajalike funktsioonideta
 - Platvormiülene tugi: mobiilne (iOS ja Android), töölauaarvuti, veebi
 - RBF (Replace-By-Fee) tugi - kiirendada kinni jäänud tehinguid igal ajal
-- Riistvaraline 2FA koos [YubiKey] (https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2 võtmega
+- Riistvaraline 2FA koos [YubiKey](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2 võtmega
 - Sisseehitatud Tor-tugi - suunake kogu liiklus läbi Tor-võrgu maksimaalse privaatsuse tagamiseks
 
 

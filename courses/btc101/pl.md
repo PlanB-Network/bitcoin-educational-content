@@ -1060,7 +1060,7 @@ Pomimo nieobecności Satoshi, Bitcoin był nadal rozwijany: historia Bitcoin jes
 Dla niektórych Bitcoin jest definiowany jako byt grzybowy, taki jak [grzybnia](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), podczas gdy inni opisują go jako [czarną dziurę](https://dergigi.com/). Można go kochać lub nienawidzić, Bitcoin nadal istnieje, ze swoim stałym rytmem 10 minut na blok, jak bicie serca nowego systemu monetarnego.
 
 
-Aby dowiedzieć się więcej o pismach Satoshi Nakamoto, zalecamy przeczytanie ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autorstwa Phila Champagne'a lub filmu dokumentalnego ARTE "Le mystaire Satoshi".
+Aby pogłębić znajomość pism Satoshiego Nakamoto, polecam lekturę [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) autorstwa Phila Champagne’a, która gromadzi i kontekstualizuje jego najważniejsze teksty, a także dokument ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), oferujący przystępne i dobrze udokumentowane śledztwo dotyczące jego tożsamości i dziedzictwa.
 
 
 ![image](assets/en/044.webp)

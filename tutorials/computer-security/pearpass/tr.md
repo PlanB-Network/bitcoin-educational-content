@@ -11,7 +11,7 @@ Her bireyin düzinelerce, hatta yüzlerce çevrimiçi hesabı yönettiği bir za
 
 
 
-Yine de, artan saldırı sayısına rağmen, kötü uygulamalar halk arasında yaygın olmaya devam ediyor: zayıf parolalar, tekrar kullanılan parolalar, açık metin olarak saklanan parolalar veya yaklaşık olarak ezberlenmiş parolalar. Bu sorunları hayatı günlük olarak daha karmaşık hale getirmeden çözmek için çözüm bir parola yöneticisi kullanmaktır.
+Buna rağmen, saldırıların artmasına karşın kötü uygulamalar toplum genelinde hâlâ yaygındır: zayıf parolalar, yeniden kullanılan parolalar, düz metin olarak saklanan veya yaklaşık şekilde hatırlanan parolalar. Günlük yaşamı karmaşıklaştırmadan bu sorunları çözmek için çözüm, bir parola yöneticisi kullanmaktır.
 
 
 
@@ -19,7 +19,7 @@ Düzinelerce parola yöneticisi zaten mevcut ve Plan ₿ Academy bunların çoğ
 
 
 
-**PearPass, kullanıcılara verileri üzerinde tam kontrol sağlamak için tasarlanmış açık kaynaklı, yerel öncelikli, eşler arası bir parola yöneticisidir
+**PearPass, kullanıcıya verileri üzerinde tam kontrolü yeniden kazandırmak için tasarlanmış, eşler arası, local-first ve açık kaynaklı bir parola yöneticisidir.**
 
 
 
@@ -101,7 +101,7 @@ MacOS üzerinde, PearPass bir disk imajı (`.dmg`) olarak dağıtılır. Resmi i
 
 
 
-Linux'ta PearPass, herhangi bir özel bağımlılık olmadan çoğu dağıtımla geniş uyumluluğu garanti eden `.AppImage` formatında mevcuttur. .AppImage` dosyasını [resmi indirme sayfası] (https://pass.pears.com/download) adresinden indirin, ardından çift tıklayarak doğrudan başlatın.
+Linux'ta PearPass, herhangi bir özel bağımlılık olmadan çoğu dağıtımla geniş uyumluluğu garanti eden `.AppImage` formatında mevcuttur. .AppImage` dosyasını [resmi indirme sayfası](https://pass.pears.com/download) adresinden indirin, ardından çift tıklayarak doğrudan başlatın.
 
 
 
@@ -113,7 +113,7 @@ Ortamınıza bağlı olarak, dosyayı dosya özellikleri (sağ tıklama) veya `c
 
 
 
-PearPass, web'de gezinirken otomatik oturum açma ve kasanıza hızlı erişim için bir tarayıcı uzantısı sunar. Uzantı şu anda Google Chrome ve uyumlu tarayıcılar için kullanılabilir. Yüklemek için [resmi indirme sayfası] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh) adresine gidin.
+PearPass, web'de gezinirken otomatik oturum açma ve kasanıza hızlı erişim için bir tarayıcı uzantısı sunar. Uzantı şu anda Google Chrome ve uyumlu tarayıcılar için kullanılabilir. Yüklemek için [resmi indirme sayfası](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh) adresine gidin.
 
 
 
@@ -182,7 +182,7 @@ Sırada ana parolanızı seçmek gibi önemli bir adım var. Giriş bölümünde
 
 
 
-Ana parola iki ana risk taşır: kayıp ve ele geçirme. Bu parolaya erişiminizi kaybederseniz, artık giriş bilgilerinize erişemezsiniz. PearPass ana parolanızı asla saklamaz: **Eğer kaybolursa, giriş bilgileriniz kalıcı olarak kaybolur**. Hiçbir kurtarma mekanizması yoktur. Tersine, bu parola ele geçirilirse ve bir saldırgan cihazlarınızdan birine erişim sağlarsa, tüm hesaplarınıza erişebilir.
+Ana parola iki temel risk içerir: kayıp ve ele geçirilme. Bu parolaya erişimi kaybederseniz, kimlik bilgilerinize artık erişemezsiniz. Nitekim PearPass ana parolanızı asla saklamaz: **kaybolursa, kimlik bilgileriniz kalıcı olarak kaybolur**. Herhangi bir kurtarma mekanizması yoktur. Buna karşılık, bu parola ele geçirilir ve bir saldırgan cihazlarınızdan birine erişim sağlarsa, tüm hesaplarınıza erişebilir.
 
 
 
@@ -429,7 +429,7 @@ Bilgisayarınızdaki ve cep telefonunuzdaki kasalarınız artık senkronize. Bir
 
 
 
-Cep telefonlarında otomatik alan doldurmayı da etkinleştirebilirsiniz. Bunu yapmak için, `Ayarlar > Gelişmiş` bölümüne gidin ve ardından `Otomatik Doldurma` bölümündeki `Varsayılan Olarak Ayarla` düğmesine tıklayın.
+Mobilde, dilerseniz alanların otomatik doldurulmasını da etkinleştirebilirsiniz. Bunun için `Settings > Advanced` bölümüne gidin, ardından `Autofill` kısmındaki `Set as Default` düğmesine tıklayın.
 
 
 

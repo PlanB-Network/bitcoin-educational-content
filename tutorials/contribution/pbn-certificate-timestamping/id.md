@@ -10,7 +10,7 @@ Dalam tutorial ini, kita akan melihat bagaimana masalah Plan ₿ Academy dapat d
 
 sertifikat Bitcoin Anda atau Sertifikat Penyelesaian Kursus. Kemudian di bagian kedua, kita akan melihat bagaimana cara memverifikasi keaslian bukti-bukti ini.
 
-# Rencana ₿ Mekanisme bukti jaringan
+## Rencana ₿ Mekanisme bukti jaringan
 
 Di Plan ₿ Academy, kami menawarkan sertifikat dan ijazah yang ditandatangani secara kriptografis oleh kami, dan diberi cap waktu di Timechain (yaitu blockchain Bitcoin). Untuk mencapai hal ini, kami harus membuat mekanisme pembuktian yang mengandalkan 2 operasi kriptografi:
 
@@ -26,7 +26,7 @@ Kami percaya bahwa mekanisme pembuktian yang sederhana ini memungkinkan kami unt
 
 Perhatikan bahwa berkat mekanisme pembuktian ini, setiap upaya untuk mengubah detail terkecil dari sertifikat atau ijazah Anda akan membuat hash sha256 yang sama sekali berbeda dari file yang ditandatangani, yang akan langsung mengungkapkan pemalsuan karena tanda tangan dan stempel waktu tidak akan valid lagi. Selain itu, jika ada orang yang mencoba memalsukan sertifikat atau ijazah atas nama Plan ₿ Academy, verifikasi tanda tangan yang sederhana akan mengungkapkan penipuan tersebut.
 
-## Bagaimana cara kerja tanda tangan GPG?
+### Bagaimana cara kerja tanda tangan GPG?
 
 Tanda tangan GPG diperoleh dengan menggunakan perangkat lunak sumber terbuka bernama GNU Private Guard. Perangkat lunak ini memungkinkan siapa saja untuk dengan mudah membuat kunci privat, menandatangani dan memverifikasi tanda tangan, serta mengenkripsi dan mendekripsi file. Untuk cakupan tutorial ini, ketahuilah bahwa Plan ₿ Academy menggunakan GPG untuk membuat kunci privat/publik dan untuk menandatangani Sertifikat Bitcoin atau Sertifikat Kelulusan Kursus.
 
@@ -34,7 +34,7 @@ Di sisi lain, jika seseorang ingin memverifikasi keaslian file yang ditandatanga
 
 Bagi mereka yang penasaran dan ingin mempelajari lebih lanjut tentang perangkat lunak yang luar biasa ini, Anda dapat merujuk ke ["Buku Pegangan Privasi GNU"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Bagaimana cara kerja cap waktu?
+### Bagaimana cara kerja cap waktu?
 
 Siapa pun dapat menggunakan OpenTimestamps untuk menandai waktu pada sebuah berkas, dan mendapatkan bukti keberadaan berkas yang dapat diverifikasi. Dengan kata lain, aplikasi ini tidak memberikan Anda bukti kapan file tersebut dibuat, tetapi bukti keberadaan file tersebut tidak lebih dari waktu tertentu.
 
@@ -42,9 +42,9 @@ OpenTimestamps dapat menawarkan layanan ini secara gratis berkat cara yang sanga
 
 Setelah transaksi ini berada di beberapa blok, siapa pun yang memiliki file awal dan file `.ots` yang terkait dengannya dapat memverifikasi keaslian stempel waktu. Pada bagian kedua dari tutorial ini, kita akan melihat bagaimana cara memverifikasi Sertifikat Bitcoin Anda atau Ijazah Kelulusan Kursus dengan teminal dan dengan antarmuka grafis melalui situs web OpenTimestamps.
 
-# Cara memverifikasi Sertifikat atau Ijazah Jaringan Paket ₿ Plan
+## Cara memverifikasi Sertifikat atau Ijazah Jaringan Paket ₿ Plan
 
-## Langkah 1. Unduh Sertifikat atau Ijazah Anda
+### Langkah 1. Unduh Sertifikat atau Ijazah Anda
 
 Masuk ke dasbor Plan ₿ Academy pribadi Anda.
 
@@ -63,14 +63,14 @@ Ekstrak isinya dengan mengklik kanan pada file `.zip` dan pilih "Ekstrak". Anda 
 - File teks yang ditandatangani (misalnya, sertifikat.txt)
 - Buka file stempel waktu (OTS) (mis., certificate.txt.ots)
 - Sertifikat PDF (mis., sertifikat.pdf)
-## Langkah 2: Memverifikasi Tanda Tangan File Teks
+### Langkah 2: Memverifikasi Tanda Tangan File Teks
 
 Pertama, buka terminal di folder tempat file-file tersebut berada (klik kanan pada jendela folder dan klik "Open in Teminal"). Kemudian ikuti petunjuk di bawah ini
 
 1. Paket Impor ₿ Kunci PGP publik jaringan dengan perintah berikut:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Anda akan melihat pesan seperti berikut ini jika Anda berhasil mengimpor Kunci PGP
@@ -105,9 +105,9 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 Jika Anda melihat pesan seperti "Tanda tangan BAD", itu berarti file tersebut telah dirusak.
 
-## Langkah 3: Memverifikasi Cap Waktu Terbuka
+### Langkah 3: Memverifikasi Cap Waktu Terbuka
 
-### Memverifikasi melalui Antarmuka Grafis
+#### Memverifikasi melalui Antarmuka Grafis
 
 1. Kunjungi situs web OpenTimestamps: https://opentimestamps.org/
 
@@ -123,7 +123,7 @@ Jika Anda melihat pesan seperti berikut ini, cap waktu Anda valid:
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### Metode CLI
+#### Metode CLI
 
 CATATAN: prosedur ini **akan membutuhkan simpul Bitcoin lokal yang berjalan**
 
@@ -146,7 +146,7 @@ Perintah ini akan melakukannya:
 - Periksa stempel waktu terhadap blockchain Bitcoin
 - Menunjukkan kepada Anda kapan tepatnya file diberi cap waktu
 - Konfirmasikan keaslian stempel waktu
-### Hasil akhir
+#### Hasil akhir
 
 Perhatikan bahwa verifikasi berhasil jika pesan **kedua** berikut ini ditampilkan:
 

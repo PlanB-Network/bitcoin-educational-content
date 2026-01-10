@@ -11,7 +11,7 @@ Wakati ambapo kila mtu anasimamia akaunti nyingi, hata mamia ya mtandaoni, usala
 
 
 
-Na bado, licha ya idadi inayoongezeka ya mashambulizi, mazoea mabaya yanabaki kuenea miongoni mwa watu: nywila dhaifu, nywila zinazotumika tena, nywila zilizohifadhiwa katika maandishi wazi au nywila zilizokaririwa kwa takriban. Ili kutatua matatizo haya bila kufanya maisha kuwa magumu zaidi kila siku, suluhisho ni kutumia kidhibiti cha nywila.
+Hata hivyo, licha ya kuongezeka kwa mashambulizi, mazoea mabaya bado yameenea sana miongoni mwa watu: nenosiri dhaifu, yanayotumiwa tena, yaliyohifadhiwa kama maandishi wazi au yanayokumbukwa kwa takriban. Ili kutatua matatizo haya bila kufanya maisha ya kila siku kuwa magumu, suluhisho ni kutumia msimamizi wa nenosiri.
 
 
 
@@ -19,7 +19,7 @@ Kuna vidhibiti vingi vya nenosiri tayari, na Plan ₿ Academy inatoa mafunzo kwa
 
 
 
-**PearPass ni kidhibiti cha nenosiri cha chanzo huria, cha ndani, kilichoundwa ili kuwapa watumiaji udhibiti kamili wa data zao
+**PearPass ni msimamizi wa nenosiri wa rika-kwa-rika, local-first na wa chanzo huria, uliobuniwa ili kumrudishia mtumiaji udhibiti kamili wa data zake.**
 
 
 
@@ -182,7 +182,7 @@ Ifuatayo inakuja hatua muhimu ya kuchagua nenosiri lako kuu. Kama tulivyoona kat
 
 
 
-Nenosiri kuu lina hatari mbili kuu: kupotea na maelewano. Ukipoteza ufikiaji wa nenosiri hili, hutaweza tena kufikia maelezo yako ya kuingia. PearPass haihifadhi nenosiri lako kuu: **Ikiwa limepotea, maelezo yako ya kuingia yanapotea kabisa**. Hakuna utaratibu wa kurejesha. Kinyume chake, ikiwa nenosiri hili limeathiriwa na mshambuliaji anapata ufikiaji wa moja ya vifaa vyako, ataweza kufikia akaunti zako zote.
+Nenosiri kuu lina hatari kuu mbili: kupotea na kuathiriwa. Ukipoteza ufikiaji wa nenosiri hili, hutaweza tena kufikia vitambulisho vyako. Kwa hakika, PearPass haihifadhi kamwe nenosiri lako kuu: **likipotea, vitambulisho vyako hupotea kabisa**. Hakuna utaratibu wowote wa kurejesha. Kinyume chake, ikiwa nenosiri hili litaathiriwa na mshambuliaji akapata ufikiaji wa mojawapo ya vifaa vyako, ataweza kufikia akaunti zako zote.
 
 
 
@@ -429,7 +429,7 @@ Vizuizi vyako kwenye kompyuta yako na simu yako sasa vimesawazishwa. Kila kitamb
 
 
 
-Kwenye simu za mkononi, unaweza pia kuwezesha kujaza sehemu kiotomatiki. Ili kufanya hivyo, nenda kwenye `Mipangilio > Advanced`, kisha bofya kitufe cha `Weka kama Chaguo-msingi` katika sehemu ya `Otomatiki`.
+Kwenye simu ya mkononi, unaweza pia, ukipenda, kuwasha ujazaji wa kiotomatiki wa sehemu. Ili kufanya hivyo, nenda kwenye `Settings > Advanced`, kisha bofya kitufe cha `Set as Default` katika sehemu ya `Autofill`.
 
 
 

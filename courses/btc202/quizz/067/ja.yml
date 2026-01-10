@@ -1,9 +1,9 @@
-question: Lightningノードのリストアにはどのバックアップが必要ですか？
-answer: seedとSCB
+question: ライトニングノードの復元にはどのバックアップが必要ですか？
+answer: シードとStatic Channel Backup (SCB)
 wrong_answers:
-  - seedとtxindexファイル
-  - seedとパブリックIP Address
+  - シードとtxindexファイル
+  - シードとパブリックIPアドレス
   - seedと2FA
 explanation: |
-  ライトニング・ノードのリストアには、seedとSCB（スタティック・チャネル・バックアップ）の両方が必要であり、SCBがなければチャネル・ファンドはリカバリできない。
+  ライトニングノードの復元には、seedとSCBS（tatic Channel Backup (SCB)）の両方が必要であり、SCBがなければチャネル資金をリカバリーできない。
 reviewed: true

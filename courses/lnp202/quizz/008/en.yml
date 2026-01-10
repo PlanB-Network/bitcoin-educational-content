@@ -1,0 +1,9 @@
+question: With a custodial wallet Lightning, who owns the bitcoins?
+answer: To the company
+wrong_answers:
+  - To the user
+  - To the Lightning network
+  - To Bitcoin Core
+explanation: |
+  In a custodial model, the company holds the keys and controls the funds, while the user only has an accounting balance.
+reviewed: false

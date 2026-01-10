@@ -424,7 +424,7 @@ Aloita valitsemalla profiiliisi sopiva tekninen ratkaisu, testaa sitä pienellä
 
 
 
-- [Bitcoin perintösuunnitelman malli (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network dokumentointimalli
+- [Bitcoin perintösuunnitelman malli (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy dokumentointimalli
 
 
 

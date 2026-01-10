@@ -1,5 +1,5 @@
 ---
-term: ANCHORS.DAT.
+term: ANCHORS.DAT
 
 ---
 

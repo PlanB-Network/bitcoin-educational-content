@@ -1,5 +1,5 @@
 ---
-name: Matriks
+name: Matrix
 description: Panduan untuk memahami, mengonfigurasi, dan menggunakan Matrix, platform komunikasi yang aman, terbuka, dan terdesentralisasi.
 ---
 

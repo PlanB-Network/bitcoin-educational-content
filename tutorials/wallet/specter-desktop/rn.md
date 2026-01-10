@@ -127,7 +127,7 @@ Aha hepfo uzosanga inyigisho yacu y’iyi hardware ya wallet:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Ku Coldcard, ukeneye gutanga imfunguruzo za bose zivuye mu bikoresho vya wallet biciye ku nzira ya USB canke ikarita ya microSD.
 

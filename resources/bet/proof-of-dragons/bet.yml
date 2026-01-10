@@ -112,7 +112,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.22
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -143,6 +143,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.2
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
 tags:
   - adoption
   - use-case

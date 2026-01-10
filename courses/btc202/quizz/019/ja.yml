@@ -1,9 +1,9 @@
-question: Bitcoin coreはどの言語で書かれているのですか？
+question: ビットコインコアはどの言語で書かれているのですか？
 answer: C++
 wrong_answers:
-  - 行く
-  - ジャバスクリプト
+  - Go
+  - JavaScript
   - Rust
 explanation: |
-  Bitcoin coreはC++で書かれ、大規模なオープンソースコミュニティによって保守されている。
+  ビットコインコアはC++で書かれ、大規模なオープンソース・コミュニティによって保守されている。
 reviewed: true

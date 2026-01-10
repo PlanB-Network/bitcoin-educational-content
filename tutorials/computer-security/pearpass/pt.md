@@ -11,7 +11,7 @@ Numa altura em que cada indivíduo gere dezenas, ou mesmo centenas, de contas em
 
 
 
-E, no entanto, apesar do número crescente de ataques, as más práticas continuam generalizadas entre a população: palavras-passe fracas, palavras-passe reutilizadas, palavras-passe armazenadas em texto claro ou palavras-passe aproximadamente memorizadas. Para resolver estes problemas sem tornar a vida mais complicada no dia a dia, a solução é utilizar um gestor de palavras-passe.
+No entanto, apesar do aumento dos ataques, as más práticas continuam amplamente disseminadas na população: palavras-passe fracas, reutilizadas, armazenadas em texto simples ou memorizadas de forma aproximada. Para resolver estes problemas sem complicar o dia a dia, a solução passa por utilizar um gestor de palavras-passe.
 
 
 
@@ -19,7 +19,7 @@ Já existem dezenas de gestores de palavras-passe, e o Plan ₿ Academy oferece 
 
 
 
-**O PearPass é um gestor de senhas de código aberto, local e ponto a ponto, concebido para dar aos utilizadores controlo total sobre os seus dados
+**PearPass é um gestor de palavras-passe peer-to-peer, local-first e open-source, concebido para devolver ao utilizador o controlo total sobre os seus dados.**
 
 
 
@@ -73,7 +73,7 @@ O PearPass está disponível em todas as plataformas: Windows, Linux, macOS, And
 
 
 
-No Windows, o PearPass é fornecido como um instalador clássico. Vá para [a página oficial de download] (https://pass.pears.com/download), depois clique no botão `Download Windows installer`.
+No Windows, o PearPass é fornecido como um instalador clássico. Vá para [a página oficial de download](https://pass.pears.com/download), depois clique no botão `Download Windows installer`.
 
 
 
@@ -89,7 +89,7 @@ Uma vez descarregado o ficheiro, abra o instalador e siga os passos indicados pe
 
 
 
-No macOS, o PearPass é distribuído como uma imagem de disco (`.dmg`). Vá para [a página oficial de download] (https://pass.pears.com/download) e escolha a versão correspondente à arquitetura do seu Mac (Intel ou Apple Silicon). Após o download, abra o ficheiro `.dmg` e inicie a aplicação a partir da pasta `Applications`.
+No macOS, o PearPass é distribuído como uma imagem de disco (`.dmg`). Vá para [a página oficial de download](https://pass.pears.com/download) e escolha a versão correspondente à arquitetura do seu Mac (Intel ou Apple Silicon). Após o download, abra o ficheiro `.dmg` e inicie a aplicação a partir da pasta `Applications`.
 
 
 
@@ -101,7 +101,7 @@ No primeiro arranque, o macOS apresenta uma mensagem de segurança que indica qu
 
 
 
-No Linux, PearPass está disponível no formato `.AppImage`, que garante ampla compatibilidade com a maioria das distribuições sem quaisquer dependências específicas. Faça o download do ficheiro `.AppImage` a partir da [página oficial de download] (https://pass.pears.com/download), e depois inicie-o diretamente com um duplo clique.
+No Linux, PearPass está disponível no formato `.AppImage`, que garante ampla compatibilidade com a maioria das distribuições sem quaisquer dependências específicas. Faça o download do ficheiro `.AppImage` a partir da [página oficial de download](https://pass.pears.com/download), e depois inicie-o diretamente com um duplo clique.
 
 
 
@@ -113,7 +113,7 @@ Dependendo do seu ambiente, pode ser necessário tornar o ficheiro executável a
 
 
 
-O PearPass oferece uma extensão de browser para início de sessão automático e acesso rápido ao seu cofre enquanto navega na Web. A extensão está atualmente disponível para o Google Chrome e navegadores compatíveis. Para a instalar, aceda à [página oficial de transferência] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+O PearPass oferece uma extensão de browser para início de sessão automático e acesso rápido ao seu cofre enquanto navega na Web. A extensão está atualmente disponível para o Google Chrome e navegadores compatíveis. Para a instalar, aceda à [página oficial de transferência](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 
@@ -182,7 +182,7 @@ Em seguida, vem o passo importante de escolher a sua palavra-passe mestra. Como 
 
 
 
-A palavra-passe mestra comporta dois riscos principais: perda e comprometimento. Se perder o acesso a esta palavra-passe, deixará de poder aceder aos seus dados de início de sessão. O PearPass nunca guarda a sua palavra-passe mestra: **Se ela for perdida, seus detalhes de login serão perdidos permanentemente**. Não existe nenhum mecanismo de recuperação. Por outro lado, se esta palavra-passe for comprometida e um atacante obtiver acesso a um dos seus dispositivos, poderá aceder a todas as suas contas.
+A palavra-passe mestra comporta dois riscos principais: a perda e a compromissão. Se perder o acesso a esta palavra-passe, deixará de poder aceder às suas credenciais. Com efeito, a PearPass nunca conserva a sua palavra-passe mestra: **se for perdida, as suas credenciais perdem-se definitivamente**. Não existe qualquer mecanismo de recuperação. Em contrapartida, se esta palavra-passe for comprometida e um atacante obtiver acesso a um dos seus dispositivos, poderá aceder à totalidade das suas contas.
 
 
 
@@ -429,7 +429,7 @@ Os cofres do seu computador e do seu telemóvel estão agora sincronizados. Cada
 
 
 
-Nos telemóveis, também é possível ativar o preenchimento automático de campos. Para o fazer, vá a `Definições > Avançadas` e, em seguida, clique no botão `Definir como predefinição` na secção `Preenchimento automático`.
+No telemóvel, pode também ativar, se assim o desejar, o preenchimento automático dos campos. Para tal, vá a `Settings > Advanced` e, em seguida, clique no botão `Set as Default` na secção `Autofill`.
 
 
 
@@ -441,7 +441,7 @@ Nos telemóveis, também é possível ativar o preenchimento automático de camp
 
 
 
-Ter um gestor de palavras-passe sincronizado entre o computador e o smartphone já é muito prático, mas integrá-lo diretamente no browser é ainda mais. Para isso, comece por [adicionar a extensão oficial do PearPass ao seu browser] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Ter um gestor de palavras-passe sincronizado entre o computador e o smartphone já é muito prático, mas integrá-lo diretamente no browser é ainda mais. Para isso, comece por [adicionar a extensão oficial do PearPass ao seu browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

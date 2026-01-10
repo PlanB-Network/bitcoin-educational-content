@@ -1059,7 +1059,7 @@ Naho Satoshi itahari, Bitcoin yarabandanije itera imbere: kahise ka Bitcoin kagu
 Kuri bamwe, Bitcoin isigura ikintu kibi cane  nk’[igikoko](Bitcoin-ni-igikoko-c’amahera/), mu gihe abandi bagisigura nk’[ikinogo cirirabura](https://dergigi.com/). Muyikunde canke muyanke, Bitcoin irabandanya kubaho, n’umuvuduko wayo uhoraho w’iminota 10 kuri buri nyubako, nk'itera ry'umutima ry'ugwubako rusha rw'tunganywa ry'amahera.
 
 
-Ushaka kwiga vyinshi vyerekeye inyandiko za Satoshi Nakamoto, turaguhanura gusoma ["Igitabo ca Satoshi"] ca Phil Champagne canke inyandiko ya ARTE "Le mystaire Satoshi".
+Kugira ngo wimbitse inyandiko za Satoshi Nakamoto, ndagusaba gusoma [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) ya Phil Champagne, ikusanya ikanashyira mu miterere inyandiko ziwe nyamukuru, hamwe n’inyandiko ndangamuntu ya ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), itanga iperereza ryoroshe kandi ryanditswe neza ku bijanye n’akaranga kiwe n’iragi ryiwe.
 
 
 ![image](assets/rn/044.webp)

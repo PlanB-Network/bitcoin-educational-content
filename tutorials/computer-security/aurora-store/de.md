@@ -14,7 +14,7 @@ In diesem Tutorial lernen wir Aurora Store kennen, eine einfache, quelloffene un
 
 
 
-# Erste Schritte mit Aurora Store
+## Erste Schritte mit Aurora Store
 
 
 
@@ -88,7 +88,7 @@ In den Anwendungseinstellungen können Sie die Häufigkeit der Aktualisierungen 
 
 
 
-## Eigenschaften
+### Eigenschaften
 
 
 

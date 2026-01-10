@@ -1,5 +1,6 @@
 id: 4581d8b0-0888-45c2-9545-d0a298b36f98
 
+last_update_date: 2025-05-20
 
 category: on-chain
 
@@ -13,15 +14,18 @@ tags:
   - risks
   - cypherpunk
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 original_language: it
 proofreading:
   - language: it
-    last_contribution_date: 2025-05-18
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 5.11
+      - overbomb
+    reward: 2.56
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -61,22 +65,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.72
+    reward: 16.97
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 13.6
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 16.97
+      - 62maximalist
+    reward: 8.49
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.35
+    reward: 16.97
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -114,7 +119,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.35
+    reward: 16.97
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -149,7 +154,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.35
+    reward: 16.97
   - language: bg
     last_contribution_date:
     urgency: 1

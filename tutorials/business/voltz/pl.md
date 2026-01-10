@@ -19,7 +19,7 @@ Voltz to nie tylko depozyt Lightning wallet, który umożliwia codzienne wysyła
 
 
 
-Przejdź do platformy [Voltz] (https://www.voltz.com/en) i utwórz konto, klikając przycisk "Wypróbuj teraz".
+Przejdź do platformy [Voltz](https://www.voltz.com/en) i utwórz konto, klikając przycisk "Wypróbuj teraz".
 
 
 

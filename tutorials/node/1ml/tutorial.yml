@@ -1,12 +1,14 @@
 id: 37ada2ab-7a24-4473-87fd-007cb7640e7b
 
+last_update_date: 2025-12-17
+
 level: intermediate
 
 category: lightning-network
 
 professor_id: 47064624-48d3-4099-a3c2-3269a6213c2e
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 project_id: 7db42ed3-8400-4ebf-9589-ff1494763023
 
@@ -18,7 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Bened45
-    reward: 0
+    reward: 1.94
   - language: bg
     last_contribution_date:
     urgency: 1
@@ -73,7 +75,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.66
+    reward: 6.4
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -103,7 +105,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.66
+    reward: 6.4
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -138,7 +140,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.66
+    reward: 6.4
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

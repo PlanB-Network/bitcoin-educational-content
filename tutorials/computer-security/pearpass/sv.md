@@ -11,7 +11,7 @@ I en tid när varje individ hanterar dussintals, till och med hundratals onlinek
 
 
 
-Trots det ökande antalet attacker är dåliga metoder fortfarande utbredda bland befolkningen: svaga lösenord, återanvända lösenord, lösenord som lagras i klartext eller ungefär memorerade lösenord. För att lösa dessa problem utan att göra livet mer komplicerat på daglig basis är lösningen att använda en lösenordshanterare.
+Trots detta, och trots ökningen av attacker, är dåliga rutiner fortfarande mycket utbredda bland befolkningen: svaga lösenord, återanvända lösenord, lösenord som lagras i klartext eller som bara memoreras ungefärligt. För att lösa dessa problem utan att komplicera vardagen är lösningen att använda en lösenordshanterare.
 
 
 
@@ -19,7 +19,7 @@ Dussintals lösenordshanterare finns redan, och Plan ₿ Academy erbjuder en han
 
 
 
-**PearPass är en lösenordshanterare med öppen källkod, lokal förstahandsval och peer-to-peer som är utformad för att ge användarna total kontroll över sina data
+**PearPass är en peer-to-peer-lösenordshanterare, local-first och öppen källkod, utformad för att ge användaren full kontroll över sina data.**
 
 
 
@@ -73,7 +73,7 @@ PearPass finns tillgänglig på alla plattformar: Windows, Linux, macOS, Android
 
 
 
-På Windows levereras PearPass som en klassisk installatör. Gå till [den officiella nedladdningssidan] (https://pass.pears.com/download) och klicka sedan på knappen `Download Windows installer`.
+På Windows levereras PearPass som en klassisk installatör. Gå till [den officiella nedladdningssidan](https://pass.pears.com/download) och klicka sedan på knappen `Download Windows installer`.
 
 
 
@@ -89,7 +89,7 @@ När filen har laddats ner öppnar du installationsprogrammet och följer de ste
 
 
 
-På macOS distribueras PearPass som en diskavbildning (`.dmg`). Gå till [den officiella nedladdningssidan] (https://pass.pears.com/download) och välj den version som motsvarar din Macs arkitektur (Intel eller Apple Silicon). Efter nedladdningen öppnar du filen `.dmg` och startar programmet från mappen `Applications`.
+På macOS distribueras PearPass som en diskavbildning (`.dmg`). Gå till [den officiella nedladdningssidan](https://pass.pears.com/download) och välj den version som motsvarar din Macs arkitektur (Intel eller Apple Silicon). Efter nedladdningen öppnar du filen `.dmg` och startar programmet från mappen `Applications`.
 
 
 
@@ -101,7 +101,7 @@ Vid första uppstarten visar macOS ett säkerhetsmeddelande som anger att progra
 
 
 
-På Linux finns PearPass tillgängligt i formatet `.AppImage`, vilket garanterar bred kompatibilitet med de flesta distributioner utan några specifika beroenden. Ladda ner filen `.AppImage` från [den officiella nedladdningssidan] (https://pass.pears.com/download) och starta den sedan direkt genom att dubbelklicka.
+På Linux finns PearPass tillgängligt i formatet `.AppImage`, vilket garanterar bred kompatibilitet med de flesta distributioner utan några specifika beroenden. Ladda ner filen `.AppImage` från [den officiella nedladdningssidan](https://pass.pears.com/download) och starta den sedan direkt genom att dubbelklicka.
 
 
 
@@ -113,7 +113,7 @@ Beroende på din miljö kan du behöva göra filen körbar via filegenskaper (h�
 
 
 
-PearPass erbjuder ett webbläsartillägg för automatisk inloggning och snabb åtkomst till ditt kassaskåp när du surfar på webben. Tillägget är för närvarande tillgängligt för Google Chrome och kompatibla webbläsare. För att installera det, gå till [den officiella nedladdningssidan] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+PearPass erbjuder ett webbläsartillägg för automatisk inloggning och snabb åtkomst till ditt kassaskåp när du surfar på webben. Tillägget är för närvarande tillgängligt för Google Chrome och kompatibla webbläsare. För att installera det, gå till [den officiella nedladdningssidan](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 
@@ -134,8 +134,8 @@ På iPhone och Android laddar du helt enkelt ner applikationen från din appbuti
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.pears.pass);
-- [App Store] (https://apps.apple.com/us/app/pearpass/id6752954830).
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.pears.pass);
+- [App Store](https://apps.apple.com/us/app/pearpass/id6752954830).
 
 
 
@@ -148,9 +148,9 @@ Förutom dessa klassiska installationsmetoder är det också möjligt att ladda 
 
 
 
-- [Skrivbord] (https://github.com/tetherto/pearpass-app-desktop);
-- [Mobil] (https://github.com/tetherto/pearpass-app-mobile);
-- [Webbläsartillägg] (https://github.com/tetherto/pearpass-app-browser-extension).
+- [Skrivbord](https://github.com/tetherto/pearpass-app-desktop);
+- [Mobil](https://github.com/tetherto/pearpass-app-mobile);
+- [Webbläsartillägg](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 
@@ -182,7 +182,7 @@ Därefter kommer det viktiga steget att välja ditt huvudlösenord. Som vi såg 
 
 
 
-Huvudlösenordet medför två huvudsakliga risker: förlust och kompromettering. Om du förlorar tillgången till detta lösenord kommer du inte längre att kunna komma åt dina inloggningsuppgifter. PearPass behåller aldrig ditt huvudlösenord: **Om det går förlorat, går dina inloggningsuppgifter förlorade permanent**. Det finns ingen återställningsmekanism. Omvänt, om detta lösenord äventyras och en angripare får tillgång till en av dina enheter, kommer han eller hon att kunna komma åt alla dina konton.
+Huvudlösenordet medför två huvudsakliga risker: förlust och kompromettering. Om du förlorar åtkomsten till detta lösenord kommer du inte längre att kunna komma åt dina inloggningsuppgifter. PearPass lagrar nämligen aldrig ditt huvudlösenord: **om det går förlorat, är dina inloggningsuppgifter förlorade för alltid**. Det finns ingen återställningsmekanism. Omvänt, om detta lösenord komprometteras och en angripare får tillgång till en av dina enheter, kommer denne att kunna få tillgång till samtliga dina konton.
 
 
 
@@ -429,7 +429,7 @@ Dina valv på din dator och din mobil är nu synkroniserade. Varje ID som läggs
 
 
 
-På mobiltelefoner kan du också aktivera automatisk fältfyllning. Detta gör du genom att gå till `Inställningar > Avancerat` och sedan klicka på knappen `Set as Default` i avsnittet `Autofyll`.
+På mobil kan du även, om du vill, aktivera automatisk ifyllning av fält. För att göra detta, gå till `Settings > Advanced` och klicka sedan på knappen `Set as Default` i avsnittet `Autofill`.
 
 
 
@@ -441,7 +441,7 @@ På mobiltelefoner kan du också aktivera automatisk fältfyllning. Detta gör d
 
 
 
-Att ha en lösenordshanterare som är synkroniserad mellan din dator och din smartphone är redan mycket praktiskt, men att integrera den direkt i din webbläsare är ännu mer praktiskt. För att göra det, börja med att [lägga till det officiella PearPass-tillägget i din webbläsare] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Att ha en lösenordshanterare som är synkroniserad mellan din dator och din smartphone är redan mycket praktiskt, men att integrera den direkt i din webbläsare är ännu mer praktiskt. För att göra det, börja med att [lägga till det officiella PearPass-tillägget i din webbläsare](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

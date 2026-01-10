@@ -98,7 +98,7 @@ cargo run -p ledger_manager_gui
 
 始める前に、Ledgerが新しい場合は、PINコードを設定し、リカバリーフレーズを保存していることを確認してください。これらの初期ステップにはLedger Liveは必要ありません。USBケーブルでLedgerを接続し、電源を入れるだけです。この2つのステップの進め方がわからない場合は、お使いのモデルに特化したチュートリアルの冒頭を参照してください：
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

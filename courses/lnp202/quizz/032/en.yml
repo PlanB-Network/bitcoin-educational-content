@@ -1,0 +1,9 @@
+question: Why avoid very large knots for a first channel?
+answer: Restrictive policies
+wrong_answers:
+  - Low connectivity
+  - Costs too low
+  - Lack of liquidity
+explanation: |
+  Very large nodes often impose high minimum amounts and easily close small channels.
+reviewed: false

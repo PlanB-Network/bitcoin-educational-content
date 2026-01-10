@@ -1,9 +1,9 @@
 ---
-name: 避难所
+name: Shelter
 description: 与 Shelter 一起使用同一部手机工作和生活
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

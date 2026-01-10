@@ -14,7 +14,7 @@ Muri iyi nyigisho, turabona Aurora Store, uburyo bworoshe, bufunguye kandi butek
 
 
 
-# Gutangura n'iduka rya Aurora
+## Gutangura n'iduka rya Aurora
 
 
 
@@ -88,7 +88,7 @@ Uvuye kuri Aurora Store, urashobora gushika ku rutonde rw’ibikoresho biri kuri
 
 
 
-## Utuntu dutandukanye
+### Utuntu dutandukanye
 
 
 

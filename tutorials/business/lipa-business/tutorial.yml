@@ -1,5 +1,7 @@
 id: 2a133dc4-dbe7-4bff-8a6e-6b52cd1379c4
 
+last_update_date: 2025-09-07
+
 project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
 
 tags:
@@ -12,6 +14,8 @@ category: point-of-sale
 level: beginner
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -62,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 2.34
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -124,10 +128,11 @@ proofreading:
     contributor_names:
     reward: 1.44
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 1.89
+      - Tinnah924
+    reward: 0.95
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -137,7 +142,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

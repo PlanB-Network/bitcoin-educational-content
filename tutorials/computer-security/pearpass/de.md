@@ -11,7 +11,7 @@ In einer Zeit, in der jeder Einzelne Dutzende, ja Hunderte von Online-Konten ver
 
 
 
-Doch trotz der wachsenden Zahl von Angriffen sind schlechte Praktiken in der Bevölkerung nach wie vor weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte Passwörter oder etwa auswendig gelernte Passwörter. Um diese Probleme zu lösen, ohne das tägliche Leben komplizierter zu machen, besteht die Lösung in der Verwendung eines Passwortmanagers.
+Dennoch bleiben trotz der Zunahme von Angriffen schlechte Praktiken in der Bevölkerung weit verbreitet: schwache Passwörter, wiederverwendete Passwörter, im Klartext gespeicherte oder nur ungenau gemerkte Passwörter. Um diese Probleme zu lösen, ohne den Alltag unnötig zu verkomplizieren, besteht die Lösung in der Nutzung eines Passwortmanagers.
 
 
 
@@ -19,7 +19,7 @@ Es gibt bereits Dutzende von Passwortmanagern, und Plan ₿ Academy bietet für 
 
 
 
-**PearPass ist ein quelloffener, lokaler Peer-to-Peer-Passwortmanager, der den Benutzern die vollständige Kontrolle über ihre Daten gibt
+**PearPass ist ein Peer-to-Peer-Passwortmanager, lokal zuerst und Open Source, der entwickelt wurde, um dem Nutzer die volle Kontrolle über seine Daten zurückzugeben.**
 
 
 
@@ -73,7 +73,7 @@ PearPass ist auf allen Plattformen verfügbar: Windows, Linux, macOS, Android, i
 
 
 
-Unter Windows wird PearPass als klassisches Installationsprogramm geliefert. Gehen Sie auf [die offizielle Download-Seite] (https://pass.pears.com/download), und klicken Sie dann auf die Schaltfläche "Windows-Installationsprogramm herunterladen".
+Unter Windows wird PearPass als klassisches Installationsprogramm geliefert. Gehen Sie auf [die offizielle Download-Seite](https://pass.pears.com/download), und klicken Sie dann auf die Schaltfläche "Windows-Installationsprogramm herunterladen".
 
 
 
@@ -89,7 +89,7 @@ Sobald die Datei heruntergeladen ist, öffnen Sie das Installationsprogramm und 
 
 
 
-Unter macOS wird PearPass als Disk-Image (`.dmg`) verteilt. Gehen Sie auf [die offizielle Download-Seite] (https://pass.pears.com/download) und wählen Sie die Version, die der Architektur Ihres Macs entspricht (Intel oder Apple Silicon). Nach dem Herunterladen öffnen Sie die `.dmg`-Datei und starten Sie die Anwendung aus dem Ordner `Applications`.
+Unter macOS wird PearPass als Disk-Image (`.dmg`) verteilt. Gehen Sie auf [die offizielle Download-Seite](https://pass.pears.com/download) und wählen Sie die Version, die der Architektur Ihres Macs entspricht (Intel oder Apple Silicon). Nach dem Herunterladen öffnen Sie die `.dmg`-Datei und starten Sie die Anwendung aus dem Ordner `Applications`.
 
 
 
@@ -101,7 +101,7 @@ Beim ersten Start zeigt macOS eine Sicherheitsmeldung an, die darauf hinweist, d
 
 
 
-Unter Linux ist PearPass im `.AppImage'-Format verfügbar, das eine breite Kompatibilität mit den meisten Distributionen ohne spezielle Abhängigkeiten garantiert. Laden Sie die "AppImage"-Datei von [der offiziellen Download-Seite] (https://pass.pears.com/download) herunter und starten Sie sie dann direkt durch Doppelklick.
+Unter Linux ist PearPass im `.AppImage'-Format verfügbar, das eine breite Kompatibilität mit den meisten Distributionen ohne spezielle Abhängigkeiten garantiert. Laden Sie die "AppImage"-Datei von [der offiziellen Download-Seite](https://pass.pears.com/download) herunter und starten Sie sie dann direkt durch Doppelklick.
 
 
 
@@ -113,7 +113,7 @@ Je nach Ihrer Umgebung müssen Sie die Datei möglicherweise über die Dateieige
 
 
 
-PearPass bietet eine Browser-Erweiterung für die automatische Anmeldung und den schnellen Zugriff auf Ihren Safe beim Surfen im Internet. Die Erweiterung ist derzeit für Google Chrome und kompatible Browser verfügbar. Um sie zu installieren, gehen Sie auf [die offizielle Download-Seite] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+PearPass bietet eine Browser-Erweiterung für die automatische Anmeldung und den schnellen Zugriff auf Ihren Safe beim Surfen im Internet. Die Erweiterung ist derzeit für Google Chrome und kompatible Browser verfügbar. Um sie zu installieren, gehen Sie auf [die offizielle Download-Seite](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 
@@ -135,7 +135,7 @@ Auf iPhone und Android laden Sie die Anwendung einfach aus Ihrem App Store herun
 
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.pears.pass);
-- [App Store] (https://apps.apple.com/us/app/pearpass/id6752954830).
+- [App Store](https://apps.apple.com/us/app/pearpass/id6752954830).
 
 
 
@@ -148,9 +148,9 @@ Zusätzlich zu diesen klassischen Installationsmethoden ist es auch möglich, di
 
 
 
-- [Desktop] (https://github.com/tetherto/pearpass-app-desktop);
-- [Mobil] (https://github.com/tetherto/pearpass-app-mobile);
-- [Browser-Erweiterung] (https://github.com/tetherto/pearpass-app-browser-extension).
+- [Desktop](https://github.com/tetherto/pearpass-app-desktop);
+- [Mobil](https://github.com/tetherto/pearpass-app-mobile);
+- [Browser-Erweiterung](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 
@@ -182,7 +182,7 @@ Als Nächstes folgt der wichtige Schritt der Wahl Ihres Hauptkennworts. Wie wir 
 
 
 
-Das Master-Kennwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugang zu diesem Passwort verlieren, können Sie nicht mehr auf Ihre Anmeldedaten zugreifen. PearPass speichert niemals Ihr Master-Passwort: **Wenn es verloren geht, sind Ihre Anmeldedaten dauerhaft verloren**. Es gibt keinen Wiederherstellungsmechanismus. Umgekehrt, wenn dieses Passwort kompromittiert wird und ein Angreifer Zugang zu einem Ihrer Geräte erhält, kann er oder sie auf alle Ihre Konten zugreifen.
+Das Master-Passwort birgt zwei Hauptrisiken: Verlust und Kompromittierung. Wenn Sie den Zugriff auf dieses Passwort verlieren, können Sie nicht mehr auf Ihre Zugangsdaten zugreifen. Tatsächlich speichert PearPass Ihr Master-Passwort niemals: **geht es verloren, sind Ihre Zugangsdaten endgültig verloren**. Es existiert kein Wiederherstellungsmechanismus. Umgekehrt kann ein Angreifer, wenn dieses Passwort kompromittiert wird und er Zugriff auf eines Ihrer Geräte erhält, auf sämtliche Ihrer Konten zugreifen.
 
 
 
@@ -429,7 +429,7 @@ Ihre Tresore auf Ihrem Computer und Ihrem Mobiltelefon sind jetzt synchronisiert
 
 
 
-Auf Mobiltelefonen können Sie auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu "Einstellungen > Erweitert" und klicken Sie auf die Schaltfläche "Als Standard festlegen" im Abschnitt "Automatisches Ausfüllen".
+Auf dem Smartphone können Sie bei Bedarf auch das automatische Ausfüllen von Feldern aktivieren. Gehen Sie dazu zu `Settings > Advanced` und klicken Sie anschließend in der Sektion `Autofill` auf die Schaltfläche `Set as Default`.
 
 
 
@@ -441,7 +441,7 @@ Auf Mobiltelefonen können Sie auch das automatische Ausfüllen von Feldern akti
 
 
 
-Ein Passwortmanager, der zwischen Ihrem Computer und Ihrem Smartphone synchronisiert wird, ist bereits sehr praktisch, aber die direkte Integration in Ihren Browser ist noch praktischer. Beginnen Sie dazu mit [Hinzufügen der offiziellen PearPass-Erweiterung zu Ihrem Browser] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Ein Passwortmanager, der zwischen Ihrem Computer und Ihrem Smartphone synchronisiert wird, ist bereits sehr praktisch, aber die direkte Integration in Ihren Browser ist noch praktischer. Beginnen Sie dazu mit [Hinzufügen der offiziellen PearPass-Erweiterung zu Ihrem Browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

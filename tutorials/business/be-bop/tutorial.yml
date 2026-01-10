@@ -1,4 +1,7 @@
 id: d8c40a3b-9090-48e7-9ba7-235d0c17e5fa
+
+last_update_date: 2025-07-01
+
 project_id: 272d7b76-af05-4c79-bcce-d3b96b100be1
 professor_id: e3a74139-2a66-494a-930d-8d7aae0144c4
 level: beginner
@@ -7,6 +10,8 @@ tags:
   - adoption
   - software
   - business
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 original_language: fr
@@ -56,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.13
+    reward: 8.69
   - language: id
     last_contribution_date:
     urgency: 1
@@ -71,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.41
+    reward: 8.69
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -98,15 +103,16 @@ proofreading:
     contributor_names:
     reward: 6.97
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 6.97
+      - Tinnah924
+    reward: 3.49
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.41
+    reward: 8.69
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -141,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.41
+    reward: 8.69
   - language: bg
     last_contribution_date:
     urgency: 1

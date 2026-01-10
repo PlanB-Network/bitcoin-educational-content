@@ -3,7 +3,7 @@ name: White Noise
 description: Un'applicazione di messaggistica privata e decentralizzata basata sui protocolli Nostr e MLS
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -72,7 +72,7 @@ Ecco un rapido confronto tra White Noise e alcune delle più note applicazioni d
 
 
 
-Andare al [sito web White Noise] (https://www.whitenoise.chat/), quindi fare clic su **Download**.
+Andare al [sito web White Noise](https://www.whitenoise.chat/), quindi fare clic su **Download**.
 
 
 

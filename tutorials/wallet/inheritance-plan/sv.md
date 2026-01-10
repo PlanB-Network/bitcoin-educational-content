@@ -424,7 +424,7 @@ Börja med att välja en teknisk lösning som passar din profil, testa den med e
 
 
 
-- [Bitcoin Mall för arvsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network Dokumentationsmall
+- [Bitcoin Mall för arvsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy Dokumentationsmall
 
 
 
@@ -447,5 +447,5 @@ Börja med att välja en teknisk lösning som passar din profil, testa den med e
 
 
 - [Liana Wallet](https://wizardsardine.com/liana/) - Wizardsardine
-- [Bitcoin Keeper] (https://bitcoinkeeper.app/) - Bithyve
+- [Bitcoin Keeper](https://bitcoinkeeper.app/) - Bithyve
 - [Heritage Wallet](https://btc-heritage.com/) - Crypto7

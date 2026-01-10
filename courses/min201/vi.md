@@ -114,8 +114,8 @@ Ví dụ, nếu một pooltìm thấy một khối và giành được 6,25 bitc
 
 ### Phần mềm được sử dụng trong ngành đào bitcoin
 
-Trong ngành đào bitcoin, vai trò của phần mềm cũng quan trọng như phần cứng. Điều này được minh họa bởi vai trò của Bitmain, một nhà sản xuất nổi tiếng đã phát triển Antminer S9. Ngoài phần cứng, ngành này còn phụ thuộc nhiều vào các pool đào hợp tác, như Brainspool, kiểm soát khoảng 5% tổng hashrate của mạng lưới Bitcoin toàn cầu.
-Các bên tham gia ngành này luôn tìm cách tăng hiệu quả thông qua phần cứng và phần mềm. Ví dụ, một phần mềm phổ biến được sử dụng là BrainsOS Plus. Phần mềm này thay thế hệ điều hành gốc của máy đào, cho phép vận hành một cách hiệu quả hơn. Với phần mềm như vậy, một thợ đào có thể tăng hiệu quả đào của mình lên 25%. Điều này có nghĩa là với một lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng phần thưởng mà thợ đào nhận được. Tối ưu hóa phần mềm là một yếu tố thiết yếu để cạnh tranh trong đào bitcoin, chứng minh tầm quan trọng của việc kết hợp cả cải tiến phần cứng và phần mềm nhằm tối đa hóa hiệu quả và lợi nhuận.
+Trong ngành đào bitcoin, vai trò của phần mềm cũng quan trọng như phần cứng. Điều này được minh họa bởi vai trò của Bitmain, một nhà sản xuất nổi tiếng đã phát triển Antminer S9. Ngoài phần cứng, ngành này còn phụ thuộc nhiều vào các pool đào hợp tác, như Braiinspool, kiểm soát khoảng 5% tổng hashrate của mạng lưới Bitcoin toàn cầu.
+Các bên tham gia ngành này luôn tìm cách tăng hiệu quả thông qua phần cứng và phần mềm. Ví dụ, một phần mềm phổ biến được sử dụng là BraiinsOS Plus. Phần mềm này thay thế hệ điều hành gốc của máy đào, cho phép vận hành một cách hiệu quả hơn. Với phần mềm như vậy, một thợ đào có thể tăng hiệu quả đào của mình lên 25%. Điều này có nghĩa là với một lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng phần thưởng mà thợ đào nhận được. Tối ưu hóa phần mềm là một yếu tố thiết yếu để cạnh tranh trong đào bitcoin, chứng minh tầm quan trọng của việc kết hợp cả cải tiến phần cứng và phần mềm nhằm tối đa hóa hiệu quả và lợi nhuận.
 
 ### Quy định và giá điện
 

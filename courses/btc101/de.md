@@ -716,7 +716,8 @@ Trotz Satoshis Abwesenheit wurde Bitcoin weiter entwickelt: Die Geschichte von B
 
 Für die einen ist Bitcoin ein pilzartiges Gebilde wie ein [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), während andere es als [Schwarzes Loch](https://dergigi.com/) bezeichnen. Ob man es liebt oder hasst, Bitcoin existiert weiter, mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Geldsystems.
 
-Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektüre von ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) von Phil Champagne oder die ARTE-Dokumentation "Le mystaire Satoshi".
+Um die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich die Lektüre von [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) von Phil Champagne, das seine wichtigsten Texte zusammenführt und einordnet, sowie die ARTE-Dokumentation [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), die eine zugängliche und gut dokumentierte Untersuchung seiner Identität und seines Vermächtnisses bietet.
+
 
 ![image](assets/de/044.webp)
 

@@ -1,9 +1,9 @@
-question: Ni igikoresho ikihe ca macOS gishoboza gushiramwo amakuru yuzuye kuri disiki?
-answer: Ububiko bwa dosiye
+question: Ni igikoresho ikihe ca macOS gishoboza kunyegeza amakuru yose ari kuri disk?
+answer: FileVault
 wrong_answers:
-  - Ubuhinga bwa disiki
-  - Urufunguzo rwa iCloud
+  - Disk Utility
+  - iCloud Keychain
   - BitLocker
 explanation: |
-  FileVault ni umuti w'ububiko bwa disiki kavukire winjijwe muri macOS.
-reviewed: false
+  FileVault ni umuti kavukire kuri macOS wo kunyegeza amakuru ari kuri disk.
+reviewed: true

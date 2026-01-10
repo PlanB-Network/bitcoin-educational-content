@@ -18,7 +18,7 @@ Den här guiden tar dig igenom installation, konfiguration och användning av Bu
 ## Inledning
 
 
-Bull Bitcoin Wallet, utvecklad av [Bull Bitcoin] (https://www.bullbitcoin.com/), är en **self-custodial** Bitcoin wallet, vilket innebär att du har full kontroll över dina privata nycklar och därmed dina pengar, utan att vara beroende av en tredje part. Denna Wallet är öppen källkod och har sina rötter i en Cypherpunk-filosofi och kombinerar enkelhet, konfidentialitet och avancerade funktioner som swappar över nätverk och PayJoin-stöd. Det låter dig hantera dina bitcoins på tre nätverk: ** Bitcoin onchain**, ** Liquid** och ** Lightning**, var och en skräddarsydd för specifika användningsområden. På [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49) kan du kolla in aktuella ämnen och kommande utvecklingar. Eftersom projektet är 100% öppen källkod och "byggt offentligt" kan du också skicka dina förslag och eventuella buggar du stöter på. Medan vissa plånböcker nu stöder flera nätverk, sticker Bull Bitcoin Wallet ut genom att djupt integrera integritetsfunktioner över dem alla, vilket gör det till ett kraftfullt verktyg för att hantera din Bitcoin över alla större nätverk
+Bull Bitcoin Wallet, utvecklad av [Bull Bitcoin](https://www.bullbitcoin.com/), är en **self-custodial** Bitcoin wallet, vilket innebär att du har full kontroll över dina privata nycklar och därmed dina pengar, utan att vara beroende av en tredje part. Denna Wallet är öppen källkod och har sina rötter i en Cypherpunk-filosofi och kombinerar enkelhet, konfidentialitet och avancerade funktioner som swappar över nätverk och PayJoin-stöd. Det låter dig hantera dina bitcoins på tre nätverk: ** Bitcoin onchain**, ** Liquid** och ** Lightning**, var och en skräddarsydd för specifika användningsområden. På [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) kan du kolla in aktuella ämnen och kommande utvecklingar. Eftersom projektet är 100% öppen källkod och "byggt offentligt" kan du också skicka dina förslag och eventuella buggar du stöter på. Medan vissa plånböcker nu stöder flera nätverk, sticker Bull Bitcoin Wallet ut genom att djupt integrera integritetsfunktioner över dem alla, vilket gör det till ett kraftfullt verktyg för att hantera din Bitcoin över alla större nätverk
 
 
 ## 1️⃣ Förkunskapskrav
@@ -42,15 +42,15 @@ Du kan installera programmet via:
 
 
 - [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(för iOS-enheter)
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (för Android-enheter)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (för Android-enheter)
 
 
 Android-användare har också alternativa möjligheter:
 
 
 
-- Ladda ner APK direkt från sidan [GitHub Releases] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) eller
-- Installera via den Nostr-kompatibla [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
+- Ladda ner APK direkt från sidan [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) eller
+- Installera via den Nostr-kompatibla [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
 När du har installerat programmet ska du följa upp välkomstskärmen för att konfigurera ditt konto.
@@ -82,7 +82,7 @@ Här kan vi konfigurera de avancerade inställningarna innan vi skapar eller åt
 
 2. Installera en `Custom Electrum Server`, eller
 
-3. Justera inställningarna för `Recover Bull`. Vi kommer att lära oss mer om [Recover Bull] (https://recoverbull.com/) senare.
+3. Justera inställningarna för `Recover Bull`. Vi kommer att lära oss mer om [Recover Bull](https://recoverbull.com/) senare.
 
 
 När du har gjort alla valfria justeringar trycker du på `Done`. Om du vill återanvända en befintlig Wallet klickar du på "Återanvänd Wallet" och fyller i de 12 orden i din återanvändningsfras.
@@ -164,7 +164,7 @@ Det finns också möjlighet till en krypterad, anonym säkerhetskopiering i moln
 Tänk på det som ett bankfack. Den krypterade backupfilen är *boxen*, som du kan lagra var som helst (som Google Drive). Din återställnings-PIN är *nyckeln*, som lagras separat av Recoverbull Key Server. En tjuv skulle behöva både din specifika låda och din specifika nyckel för att öppna den. Denna design säkerställer att även om någon får din säkerhetskopieringsfil, är den värdelös utan nyckeln från servern, och serverns nyckel är värdelös utan din unika säkerhetskopieringsfil.
 
 
-Läs mer om `Recoverbull` wallet backup protokoll [här] (https://recoverbull.com/).
+Läs mer om `Recoverbull` wallet backup protokoll [här](https://recoverbull.com/).
 
 
 Tryck på `Krypterat valv` och sedan `Fortsätt` för att bekräfta att du använder standardservern. Anslutningen kommer att dirigeras genom `Tor`-nätverket för att säkerställa integritet och anonymitet.
@@ -276,13 +276,13 @@ Dessutom har du möjlighet att:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Direkt från wallet har du tillgång till [Bull Bitcoin exchange] (https://www.bullbitcoin.com/), vilket gör att du kan köpa, sälja och betala Bitcoin utan att lämna appen. Denna integration ger en bekväm lösning för att hantera dina Bitcoin-behov. Observera att åtkomst till börsen och dess tjänster kan vara begränsad baserat på din jurisdiktion, och att det kan krävas att du slutför en kundkännedomskontroll (KYC) för att följa regleringsstandarder och använda plattformens alla funktioner.
+Direkt från wallet har du tillgång till [Bull Bitcoin exchange](https://www.bullbitcoin.com/), vilket gör att du kan köpa, sälja och betala Bitcoin utan att lämna appen. Denna integration ger en bekväm lösning för att hantera dina Bitcoin-behov. Observera att åtkomst till börsen och dess tjänster kan vara begränsad baserat på din jurisdiktion, och att det kan krävas att du slutför en kundkännedomskontroll (KYC) för att följa regleringsstandarder och använda plattformens alla funktioner.
 
 
 För att komma igång, tryck på `Exchange` i det nedre högra hörnet, sedan `Sign up` eller `Login` till ditt konto.
 
 
-Börsen erbjuder följande [funktioner] (https://www.bullbitcoin.com/):
+Börsen erbjuder följande [funktioner](https://www.bullbitcoin.com/):
 
 
 
@@ -331,7 +331,7 @@ Du har två primära sätt att generera en mottagningsadress:
 **Default Mode (URI med ytterligare inmatningsparametrar)
 
 
-Som standard genererar wallet en [BIP21 URI] (https://bips.dev/21/). Detta är ett standardiserat format som innehåller mer information än en enkel adress, inklusive ett belopp, en personlig anteckning och PayJoin-parametrar för att förbättra integriteten. Denna omfattande URI kodas till en QR-kod och görs tillgänglig för kopiering. Formatet ser ut så här: `bitcoin:<adress>?<parameter1>=<värde1>&<parameter2>=<värde2>`.
+Som standard genererar wallet en [BIP21 URI](https://bips.dev/21/). Detta är ett standardiserat format som innehåller mer information än en enkel adress, inklusive ett belopp, en personlig anteckning och PayJoin-parametrar för att förbättra integriteten. Denna omfattande URI kodas till en QR-kod och görs tillgänglig för kopiering. Formatet ser ut så här: `bitcoin:<adress>?<parameter1>=<värde1>&<parameter2>=<värde2>`.
 
 
 
@@ -560,7 +560,7 @@ Från välkomstskärmen väljer du `Recover Wallet`. Den här gången väljer du
 För högsta säkerhetsnivå väljer många Bitcoin-användare att lagra sina medel i "kall förvaring". Detta innebär att du förvarar de "privata nycklar" som styr din Bitcoin på en enhet som aldrig är ansluten till internet. En "hårdvaru-wallet" (eller signeringsenhet) är en specialiserad fysisk enhet som är utformad för just detta ändamål. Den fungerar som ett digitalt valv för dina nycklar och säkerställer att de aldrig utsätts för de potentiella hoten från en online-dator eller smartphone.
 
 
-Genom att ansluta en hårdvaru-wallet till Bull Bitcoin-appen får du det bästa av två världar: den kompromisslösa säkerheten med kall lagring för dina privata nycklar, kombinerat med de kraftfulla funktionerna och det användarvänliga gränssnittet i Bull Bitcoin wallet för att visa saldon och hantera transaktioner. I det här sista kapitlet visar vi hur du ansluter en hårdvaru-wallet, t.ex. ett [Coldcard Q] (https://coldcard.com/q), till din Bull Bitcoin wallet. Den här handledningen kommer inte att gå på djupet med att konfigurera ett Coldcard Q; du kan läsa mer om det här:
+Genom att ansluta en hårdvaru-wallet till Bull Bitcoin-appen får du det bästa av två världar: den kompromisslösa säkerheten med kall lagring för dina privata nycklar, kombinerat med de kraftfulla funktionerna och det användarvänliga gränssnittet i Bull Bitcoin wallet för att visa saldon och hantera transaktioner. I det här sista kapitlet visar vi hur du ansluter en hårdvaru-wallet, t.ex. ett [Coldcard Q](https://coldcard.com/q), till din Bull Bitcoin wallet. Den här handledningen kommer inte att gå på djupet med att konfigurera ett Coldcard Q; du kan läsa mer om det här:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

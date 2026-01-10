@@ -11,7 +11,7 @@ En una época en la que cada individuo gestiona decenas, incluso centenares de c
 
 
 
-Y sin embargo, a pesar del creciente número de ataques, las malas prácticas siguen estando muy extendidas entre la población: contraseñas débiles, contraseñas reutilizadas, contraseñas almacenadas en texto claro o contraseñas aproximadamente memorizadas. Para resolver estos problemas sin complicarse la vida a diario, la solución es utilizar un gestor de contraseñas.
+Sin embargo, a pesar de la multiplicación de los ataques, las malas prácticas siguen estando ampliamente extendidas entre la población: contraseñas débiles, reutilizadas, almacenadas en texto plano o memorizadas de forma aproximada. Para resolver estos problemas sin complicar la vida cotidiana, la solución consiste en utilizar un gestor de contraseñas.
 
 
 
@@ -19,7 +19,7 @@ Ya existen decenas de gestores de contraseñas, y Plan ₿ Academy ofrece un tut
 
 
 
-**PearPass es un gestor de contraseñas peer-to-peer de código abierto, diseñado para ofrecer a los usuarios un control total sobre sus datos
+**PearPass es un gestor de contraseñas peer-to-peer, local-first y de código abierto, diseñado para devolver al usuario un control total sobre sus datos.**
 
 
 
@@ -182,7 +182,7 @@ A continuación viene el importante paso de elegir tu contraseña maestra. Como 
 
 
 
-La contraseña maestra conlleva dos riesgos principales: pérdida y compromiso. Si pierdes el acceso a esta contraseña, ya no podrás acceder a tus datos de inicio de sesión. PearPass nunca guarda su contraseña maestra: **Si se pierde, sus datos de acceso se pierden permanentemente**. No existe ningún mecanismo de recuperación. Por el contrario, si esta contraseña se ve comprometida y un atacante consigue acceder a uno de tus dispositivos, podrá acceder a todas tus cuentas.
+La contraseña maestra conlleva dos riesgos principales: la pérdida y la compromisión. Si pierde el acceso a esta contraseña, ya no podrá acceder a sus credenciales. De hecho, PearPass nunca conserva su contraseña maestra: **si se pierde, sus credenciales se pierden de forma definitiva**. No existe ningún mecanismo de recuperación. Por el contrario, si esta contraseña se ve comprometida y un atacante obtiene acceso a uno de sus dispositivos, podrá acceder a la totalidad de sus cuentas.
 
 
 
@@ -429,7 +429,7 @@ Los bóvedas de tu ordenador y tu móvil están ahora sincronizados. Cada ID añ
 
 
 
-En los teléfonos móviles, también puedes activar el rellenado automático de campos. Para ello, vaya a `Configuración > Avanzado` y, a continuación, haga clic en el botón `Configurar como predeterminado` de la sección `Relleno automático`.
+En el móvil, también puede activar, si lo desea, el autocompletado de campos. Para ello, vaya a `Settings > Advanced` y, a continuación, haga clic en el botón `Set as Default` en la sección `Autofill`.
 
 
 

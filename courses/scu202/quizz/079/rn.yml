@@ -1,9 +1,9 @@
-question: Ni ikihe kibazo nyamukuru gishobora guterwa n’itelefone ngendanwa idahinduwe?
-answer: Bica bishobora gushikirwa n'ingorane zizwi .
+question: Ni ikihe kibazo nyamukuru gishobora guterwa na terefone ngendanwa idashirwa kugihe?
+answer: Ica igira utunenge tw’umutekano ikaba ishobora gushikiriwa n’ingorane ziwi
 wrong_answers:
   - Ikoresha ubushobozi bwinshi bwa bateri
   - Yatakaje Wi-Fi yiwe
-  - Bica birushiriza gushikirwa n'ubuhendanyi .
+  - Ica irushiriza gushikirirwa n’ububeshi bwa phishing
 explanation: |
-  Telefone ngendanwa itavuguruwe irashikirwa n’ibintu bishobora gukosora ku mugaragaro bishobora gukoreshwa nabi bitagoranye n’abatera.
-reviewed: false
+  Terefone ngendanwa idashizwe kugihe iba ifise utu nenge tuzwi dushobora gukoreshwa nabi bitagoranye n’abatera.
+reviewed: true

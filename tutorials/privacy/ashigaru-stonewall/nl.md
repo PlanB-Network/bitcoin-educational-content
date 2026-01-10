@@ -74,7 +74,7 @@ Kortom, Stonewall- en Stonewall x2-transacties hebben een identieke structuur. H
 
 
 
-[**-> Meer informatie over Stonewall transacties x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Meer informatie over Stonewall transacties x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

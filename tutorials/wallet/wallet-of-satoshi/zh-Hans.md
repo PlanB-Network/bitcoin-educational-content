@@ -4,6 +4,12 @@ description: 最简单的托管 Wallet 开始使用
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*注意：自2026年初起，本教程中介绍的托管模式 Wallet of Satoshi 已无法在欧盟境内使用。如果您居住在该地区并希望继续使用该工具，则需要使用位于欧盟以外的 VPN。另一种选择是以自托管模式使用 Wallet of Satoshi。专门的教程将很快在 Plan ₿ Academy 上发布。*
+
+---
+
 _本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
 
 

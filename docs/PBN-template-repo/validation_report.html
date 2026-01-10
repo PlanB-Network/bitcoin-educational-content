@@ -1,0 +1,2794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schema Validation Report - PlanB Network</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --success-color: #238636;
+            --error-color: #da3633;
+            --warning-color: #d29922;
+            --link-color: #58a6ff;
+            --course-color: #f7931a;
+            --tutorial-color: #8b5cf6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #f7931a, #ffcd00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .timestamp { color: var(--text-secondary); font-size: 0.9rem; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+        .stat-card.course { border-top: 3px solid var(--course-color); }
+        .stat-card.tutorial { border-top: 3px solid var(--tutorial-color); }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.25rem;
+        }
+        .stat-value.success { color: var(--success-color); }
+        .stat-value.error { color: var(--error-color); }
+        .stat-value.warning { color: var(--warning-color); }
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        section { margin-bottom: 3rem; }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .error-summary {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+        .error-header {
+            background: rgba(218, 54, 51, 0.1);
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .error-header:hover { background: rgba(218, 54, 51, 0.15); }
+        .error-type { font-weight: 600; color: var(--error-color); font-size: 0.9rem; }
+        .error-counts { display: flex; gap: 0.5rem; }
+        .error-count {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        .error-count.course { background: var(--course-color); color: white; }
+        .error-count.tutorial { background: var(--tutorial-color); color: white; }
+        .error-details { padding: 1rem 1.5rem; display: none; }
+        .error-details.active { display: block; }
+        .error-item {
+            padding: 0.75rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.85rem;
+        }
+        .error-file { color: var(--link-color); margin-bottom: 0.25rem; }
+        .error-message { color: var(--text-secondary); word-break: break-word; }
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        .tab {
+            padding: 0.5rem 1rem;
+            border-radius: 6px 6px 0 0;
+            cursor: pointer;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-bottom: none;
+            color: var(--text-secondary);
+        }
+        .tab.active {
+            background: var(--bg-color);
+            color: var(--text-primary);
+            border-bottom: 2px solid var(--bg-color);
+            margin-bottom: -1px;
+        }
+        .tab.course.active { color: var(--course-color); }
+        .tab.tutorial.active { color: var(--tutorial-color); }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 0.75rem;
+        }
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .content-card.has-errors { border-left: 4px solid var(--error-color); }
+        .content-card.has-warnings { border-left: 4px solid var(--warning-color); }
+        .content-card.valid { border-left: 4px solid var(--success-color); }
+        .content-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content-stats {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        .errors-count { color: var(--error-color); }
+        .warnings-count { color: var(--warning-color); }
+        .badge {
+            display: inline-block;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .badge.success { background: rgba(35, 134, 54, 0.2); color: var(--success-color); }
+        .badge.error { background: rgba(218, 54, 51, 0.2); color: var(--error-color); }
+        .badge.warning { background: rgba(210, 153, 34, 0.2); color: var(--warning-color); }
+        .progress-bar {
+            height: 8px;
+            background: var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+        .progress-fill { height: 100%; border-radius: 4px; }
+        .progress-fill.success { background: var(--success-color); }
+        footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--link-color); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Schema Validation Report</h1>
+            <p class="timestamp">Generated: 2026-01-04 16:00:14</p>
+        </header>
+
+        <section class="summary">
+            <h2>Overall Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">354</div>
+                    <div class="stat-label">Total Content</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value success">0</div>
+                    <div class="stat-label">Passing</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value error">354</div>
+                    <div class="stat-label">With Errors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value error">354</div>
+                    <div class="stat-label">Total Errors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value warning">0</div>
+                    <div class="stat-label">Total Warnings</div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card course">
+                    <div class="stat-value">44</div>
+                    <div class="stat-label">Courses</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill success" style="width: 0.0%"></div>
+                    </div>
+                </div>
+                <div class="stat-card course">
+                    <div class="stat-value success">0</div>
+                    <div class="stat-label">Courses Passing</div>
+                </div>
+                <div class="stat-card course">
+                    <div class="stat-value error">44</div>
+                    <div class="stat-label">Courses Failed</div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card tutorial">
+                    <div class="stat-value">310</div>
+                    <div class="stat-label">Tutorials</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill success" style="width: 0.0%"></div>
+                    </div>
+                </div>
+                <div class="stat-card tutorial">
+                    <div class="stat-value success">0</div>
+                    <div class="stat-label">Tutorials Passing</div>
+                </div>
+                <div class="stat-card tutorial">
+                    <div class="stat-value error">310</div>
+                    <div class="stat-label">Tutorials Failed</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2>Content Details</h2>
+            <div class="tabs">
+                <div class="tab course active" onclick="showTab('courses')">Courses (44)</div>
+                <div class="tab tutorial" onclick="showTab('tutorials')">Tutorials (310)</div>
+            </div>
+
+            <div class="tab-content active" id="courses-tab">
+                <div class="content-grid">
+                    <div class="content-card has-errors">
+                        <div class="content-name">biz101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">biz205 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc102 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc202 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc204 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc208 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc303 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">btc304 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">csv402 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">csv404 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">cyp201 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">cyp302 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">dev103 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">dev303 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">eco104 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">eco201 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">eco203 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">eco204 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">ene101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">his201 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">his203 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">his204 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">his205 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">lnp201 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">lnp202 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">lnp206 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">lnp404 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">min201 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">min306 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">net302 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">phi101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">phi102 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">phi305 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">pos305 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">pro101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">pro202 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">scu101 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">scu202 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">sid202 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">sid302 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">sid402 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">sid406 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">soc104 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tutorials-tab">
+                <div class="content-grid">
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/accounting-payments <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/be-bop <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/bitfinex-pro <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/breez-pos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/btc-map <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/btcpay-server <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/btcpay-server-umbrel <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/btcpay-usdt-plugin <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/coinos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/help-spend-btc <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/ibexpay <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/kraken-pro <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/lightning-smoke-machine <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/lipa-business <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/lnbits <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/lnbits-server <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/open-node <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/pay-with-flash <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/speed-business <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/swiss-bitcoin-pay-2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/tiankii <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/voltz <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">business/wallet-of-satoshi-pos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/aegis-authenticator <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/alias-vault <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/angry-ip-scanner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/arch-linux <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/aurora-store <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/authy <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/bitchat <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/bitwarden <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/cryptomator <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/debian <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/delta-chat <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/dietpi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/elementary-os <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ente-auth <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/f-droid <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/fedora <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/firefox <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/grapheneos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/graylog <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/integrity-authenticity <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ivpn <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/jami <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/kali-linux <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/keepass <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/keet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ledger-fido-u2f <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/librewolf <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/lineageos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/linux-mint <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ln-vpn <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/luks <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/lynis <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/manjaro <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/matrix <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/microsoft-windows <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/mozilla-vpn <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/mullvad <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/mullvad-browser <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/nmap <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ntopng <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/olvid <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/opnsense <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/orion-browser <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pearpass <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pears <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pfsense <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pi-hole <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/picocrypt <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pop-os <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/proton-authenticator <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/proton-drive <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/proton-mail <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/pureos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/qubes <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/raspberry-pi-zero <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/security-key <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/seedkeeper-password <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/session <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/shelter <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/signal <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/simple-login <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/simplex-chat <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/sms4sats <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/tails <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/tailscale <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/telegram <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/threema <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/thunderbird <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/tor-browser <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/tox <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/trezor-u2f-fido2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/ubuntu <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/veracrypt <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/virtualbox <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/white-noise <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/whonix <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/wireguard <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">computer-security/zen-browser <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-bet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-book <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-builder <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-conference-replay <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-event <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/add-podcast <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/create-github-account <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/create-teacher-profile <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/github-desktop-work-environment <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/local-deployment-of-pbn-platform <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/pbn-certificate-timestamping <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/pears-plan-b-academy <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/proofreading-guidelines <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/proofreading-review-tutorial <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/weblate-add-new-language <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/weblate-translate-front-end <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/write-tutorials <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/write-tutorials-git-expert <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/write-tutorials-github-desktop-intermediate <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">contribution/write-tutorials-github-web-beginner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/banxaas <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bisq <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bisq-v2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitcoin-voucher-bot-p2p <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitcoinvn <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitfinex <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitika <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitrefill <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitspenda <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitstack <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bitstamp <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bittr <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/boltz <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/bull-bitcoin-europe <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/coincards <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/debifi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/ejara-crypto <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/flash <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/hodlhodl <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/kaleidoswap <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/kraken <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/ln-markets <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/lnp2pbot-v2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/moon <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/mostro <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/paymium <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/peach <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/relai-v2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/robosats <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/stackinsat <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/swap-market <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/tando <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/thebitcoincompany <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/vexl <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">exchange/zeus-swap <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/attakai <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/bitaxe <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/braiins-mini-miner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/braiins-pool <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/canaan-avalon-mini <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/canaan-avalon-nano <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/nerdaxe-gamma <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/nerdminer <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/nerdqaxe <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/ocean-pool <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">mining/public-pool <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/1ml <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/alby-hub <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/amboss <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/bitcoin-core-linux <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/bitcoin-core-mac-windows <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/bitcoin-knots <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/dojo <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/lapp <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/lightning-network-daemon-linux <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/mynode <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/nakamochi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/neutrino <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/nostr <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/phoenixd <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/raspiblitz <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/rgb <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/rgb-cli <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/ride-the-lightning <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/rln <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/ronin-dojo <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/ronin-dojo-v2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/start9 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/thunderhub <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/umbrel <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/umbrel-lnd <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/umbrel-nostr <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">node/watch-tower <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-ricochet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-stonewall <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-stonewall-x2 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-stowaway <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-terminal <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/ashigaru-whirlpool <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/bitfeed <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/blockstream-explorer <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/coin-control <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/joinmarket <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/joinstr <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/mempool-space <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/payjoin <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/paynym-bip47 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/remix-whirlpool <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/sparrow-stonewall <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">privacy/utxo-labelling <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/alby <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/alby-go <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/aqua <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/arkadeos <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ashigaru <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bacca <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/backup-mnemonic <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bip-85 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitbanana <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitbox02 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitcoin-keeper <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitcoin-keeper-inheritance <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitkey <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bitkit <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blink <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blitz-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blixt <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blockstream-app-desktop <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blockstream-app-liquid <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blockstream-app-onchain <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blockstream-app-watch-only <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blockstream-green-2FA <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/blue-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/breez <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/bull-bitcoin <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/cake-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/cashu-me <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coin-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coldcard-co-sign <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coldcard-mk4 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coldcard-q <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coldcard-q-advanced <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/coldcard-q-key-teleport <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/dana-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/electrum <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/electrum-airgap <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/electrum-opreturn <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/envoy <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/fedi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/frostsnap <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/generate-mnemonic-phrase <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ginger-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/heritage <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/inheritance-plan <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/jade <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/jade-diy-lilygo <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/jade-electrum <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/jade-plus-green <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/jade-plus-sparrow <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/krux <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ledger <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ledger-flex <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ledger-nano-s-plus <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/liana <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/lipa <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/macadamia <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/machankura-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/minibits-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/misty-breez <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/muun <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/ninja-safu <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/nunchuk <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/opendime <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/passphrase <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/passphrase-ledger <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/passport <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/phoenix <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/portal <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/proton-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/recovery-test <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/rumble-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/samourai-recover <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/satochip <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/satodime <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/satscard <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/satsmobi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/seedkeeper <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/seedkeeper-seedsigner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/seedsigner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/seedsigner-passphrase <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/seedsigner-satochip <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/sentinel <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/silentium <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/sparrow <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/sparrow-multisig <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/specter-desktop <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/specter-diy <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/speed-wallet <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/stashpay <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/tapsigner <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/trezor-model-one <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/trezor-passphrase <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/trezor-safe-3 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/trezor-safe-5 <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/trezor-shamir-backup <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/wallet-of-satoshi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/wasabi <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/zeus-embedded <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                    <div class="content-card has-errors">
+                        <div class="content-name">wallet/zeus-embedded-advanced <span class="badge error">FAILED</span></div>
+                        <div class="content-stats">
+                            <span>0 files</span>
+                            <span class="errors-count">1 errors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Schema Validator for <a href="https://planb.network">PlanB Network</a> Educational Content</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('active');
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelector('.tab.' + tabName.slice(0, -1)).classList.add('active');
+            document.getElementById(tabName + '-tab').classList.add('active');
+        }
+    </script>
+</body>
+</html>

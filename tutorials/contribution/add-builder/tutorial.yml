@@ -1,5 +1,7 @@
 id: b5834c46-6dcc-4064-8d68-1ef529991d3d
 
+last_update_date: 2024-09-01
+
 category: resource
 
 level: beginner
@@ -54,7 +56,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.75
+    reward: 2.31
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -69,7 +71,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.75
+    reward: 2.31
   - language: et
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.2
+    reward: 2.31
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.75
+    reward: 2.31
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,7 @@
 id: d17725d8-3de5-4fbd-a439-cab20267a38e
 
+last_update_date: 2025-12-07
+
 credit_link: https://youtu.be/WfzcKAzgB9s
 
 project_id: 28168b0b-31a1-4138-91eb-b830ced7e4ec
@@ -81,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.81
+    reward: 5.69
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -111,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.81
+    reward: 5.69
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.81
+    reward: 5.69
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

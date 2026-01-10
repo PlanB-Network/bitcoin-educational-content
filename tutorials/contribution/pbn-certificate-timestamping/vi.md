@@ -66,7 +66,7 @@ Giải nén nội dung bằng cách nhấp chuột phải vào file `.zip` và c
 1. Nhập khóa công khai PGP của Plan ₿ Academy với lệnh sau:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Bạn nên thấy một thông báo như sau nếu bạn đã nhập khóa PGP thành công

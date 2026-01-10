@@ -1,5 +1,7 @@
 id: d31ab499-ea41-4629-816f-ccf98ee1fd5a
 
+last_update_date: 2025-12-21
+
 tags:
   - lightning
   - privacy
@@ -77,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.0
+    reward: 2.52
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.0
+    reward: 2.52
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.0
+    reward: 2.52
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

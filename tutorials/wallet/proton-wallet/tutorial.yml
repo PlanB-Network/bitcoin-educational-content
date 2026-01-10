@@ -1,5 +1,7 @@
 id: 0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
+last_update_date: 2025-02-19
+
 project_id: d655e18b-d299-4c88-beb5-e6b688d86024
 
 category: desktop
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.1
+    reward: 1.77
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -85,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.1
+    reward: 1.77
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -95,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.44
+    reward: 1.77
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.1
+    reward: 1.77
   - language: bg
     last_contribution_date:
     urgency: 1

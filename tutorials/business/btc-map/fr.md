@@ -54,22 +54,22 @@ Le site vous propose deux cartes aux objectifs différents. Mais commençons par
 
 *note : Les établissements boostés sont ceux ayant reçu le pourboire d’un visiteur ou d’un utilisateur satisfait, leur assurant pour un temps une visibilité améliorée*
 
-Vous constaterez également, en haut à droite de chaque carte, un bouton pour modifier le calque de la carte. Dans ce tutorial j'ai choisi de laisser la version dark.
+Vous constaterez également, en haut à droite de chaque carte, un bouton pour modifier le calque de la carte. Dans ce tutoriel, j'ai choisi de laisser la version dark.
 
 ## Merchant Map
 
 ![image](assets/fr/04.webp)
 
-La « Merchant Map » liste les établissements dans le monde acceptant les paiements en BTC. On peut voir différents types d’icône lesquels sont un premier indice sur la nature de l’établissement (une pinte pour un bar, un diamant pour une bijouterie...). Je vais en prendre un au hasard.
+La « Merchant Map » liste les établissements dans le monde acceptant les paiements en BTC. On peut voir différents types d’icônes, lesquels sont un premier indice sur la nature de l’établissement (une pinte pour un bar, un diamant pour une bijouterie...). Je vais en prendre un au hasard.
 
-Considérons ce paysagiste texan, en cliquant dessus un encart apparait :
+Considérons ce paysagiste texan, en cliquant dessus un encart apparaît :
 
 ![image](assets/fr/05.webp)
 
 - Le nom en bleu est celui de l'établissement
 - L'adresse ainsi que les horaires d'ouverture suivent juste en dessous, si renseignés sur OSM
 - "Navigate" peut établir un itinéraire entre votre position et l'établissement
-- "Edit" vous permettra de suggérer des modifications tenant à la fiche OSM (nécessite un compte OSM gratuit) à savoir le nom, les coordonnées, horaires etc
+- "Edit" vous permettra de suggérer des modifications tenant à la fiche OSM (nécessite un compte OSM gratuit) à savoir le nom, les coordonnées, les horaires, etc
 - "Share" vous emmène sur une fiche élargie de l'établissement
 - "More" déroule les options suivantes :
 
@@ -103,7 +103,7 @@ La « Community Map » vous propose de découvrir les différentes communauté
 
 ![image](assets/fr/09.webp)
 
-On constate immédiatement des zones colorées en orange. Vous l'avez compris, il s'agit des différentes communautés Bitcoin recensées sur BTC Map. D'un clic gauche sur l'une d'entre elles, on peut voir un petit encart qui nous présentera tous les liens renseignés, tels que le site internet et les comptes sur différents réseaux sociaux. Qui sait, vous êtes peut-être sans le savoir en plein centre d'une communauté active de Bitcoiners, à quelques clics seulement de la rejoindre si le cœur vous en dit !
+On constate immédiatement des zones colorées en orange. Vous l'avez compris, il s'agit des différentes communautés Bitcoin recensées sur BTC Map. D'un clic gauche sur l'une d'entre elles, on peut voir un petit encart qui nous présentera tous les liens renseignés, tels que le site internet et les comptes sur différents réseaux sociaux. Qui sait, vous êtes peut-être sans le savoir en plein centre d'une communauté active de Bitcoiners, à quelques clics seulement de la rejoindre si le cœur vous en dit!
 
 ## Les autres onglets du site
 
@@ -145,7 +145,7 @@ BTC Map permet d'[ajouter soi-même une communauté](https://btcmap.org/communit
 - 5 : Les références des réseaux sociaux sur lesquels est présente votre communauté
 - 6 : Votre courriel afin que la plateforme puisse éventuellement vous demander de plus amples renseignements
 - 7 : Une description concise (par ex : communauté germanophone, région de Francfort)
-- 8 : Renseignez le captcha (attention aux majuscules minuscules)
+- 8 : Renseignez le captcha (attention aux majuscules et aux minuscules)
 - 9 : Cliquez sur "Submit Community" afin de transmettre le formulaire
 
 ## "Add Location" (ajouter un établissement)
@@ -165,14 +165,14 @@ BTC Map permet d'[ajouter soi-même une communauté](https://btcmap.org/communit
 - 6 : L'URL du site internet (facultatif)
 - 7 : Un numéro de téléphone (facultatif)
 - 8 : Les horaires d'ouverture (facultatif)
-- 9 : Le compte X (twitter) de l'établissement, puis le votre (facultatif)
+- 9 : Le compte X (twitter) de l'établissement, puis le vôtre (facultatif)
 - 10 : Tout détail que vous jugez judicieux
 - 11 : Votre rôle 
 	 - "I am the business owner" : Je suis le gérant de l'établissement
 	 - "I visited as a customer" : J'ai rendu visite à cet établissement en tant que client
 	 - "other method" : autre
 - 12 : Votre courriel au cas où la plateforme souhaiterait de plus amples renseignements
-- 13 : Vérification captcha (attention aux majuscules minuscules)
+- 13 : Vérification captcha (attention aux majuscules et aux minuscules)
 - 14 : Cliquez sur "Submit Location" afin d'envoyer votre fiche
 
 En bas de page, plusieurs onglets peuvent également vous intéresser si la langue de Shakespeare ne constitue pas pour vous un obstacle. Le manifeste des cypherpunks par Eric Hughes, publié le 9 mars 1993, ou encore le livre blanc de Satoshi Nakamoto publié le 31 octobre 2008, sont présents.

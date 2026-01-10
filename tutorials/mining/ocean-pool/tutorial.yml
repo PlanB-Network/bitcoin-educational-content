@@ -1,5 +1,7 @@
 id: 30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
+last_update_date: 2024-09-01
+
 category: pool
 
 level: advanced
@@ -55,7 +57,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 5.49
+    reward: 4.58
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.98
+    reward: 9.16
   - language: et
     last_contribution_date:
     urgency: 1
@@ -95,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.79
+    reward: 9.16
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.98
+    reward: 9.16
   - language: bg
     last_contribution_date:
     urgency: 1

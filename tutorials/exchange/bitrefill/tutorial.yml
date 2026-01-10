@@ -1,5 +1,6 @@
 id: 8c588412-1bfc-465b-9bca-e647a647fbc1
 
+last_update_date: 2024-09-09
 
 category: centralized
 
@@ -34,7 +35,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 1.03
+    reward: 0.87
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -85,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 1.74
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -95,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.4
+    reward: 1.74
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -145,7 +146,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.07
+    reward: 1.74
   - language: bg
     last_contribution_date:
     urgency: 1

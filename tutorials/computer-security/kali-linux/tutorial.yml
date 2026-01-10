@@ -1,5 +1,7 @@
 id: 428e01af-4722-4e42-a340-f4c5cb4f2bd4
 
+last_update_date: 2025-11-21
+
 tags:
   - software
   - guides
@@ -62,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.51
+    reward: 8.25
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.88
+    reward: 8.25
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.88
+    reward: 8.25
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -137,7 +139,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.88
+    reward: 8.25
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,7 @@
 id: 78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
+last_update_date: 2025-02-07
+
 project_id: e5a16b6f-763c-4cc9-a2a2-7d3ae70babe9
 
 category: operating system
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 1.53
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -90,12 +92,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 1.53
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.11
+    reward: 1.53
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -147,7 +149,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 1.53
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,7 @@
 id: d317e1a7-d775-401d-85df-51f4f2217566
 
+last_update_date: 2025-06-30
+
 category: hardware
 
 level: advanced
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.94
+    reward: 5.7
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -145,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.82
+    reward: 5.7
   - language: bg
     last_contribution_date:
     urgency: 1

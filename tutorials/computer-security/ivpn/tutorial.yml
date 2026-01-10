@@ -1,5 +1,7 @@
 id: 5a0cd5df-29f1-4382-a817-975a96646e68
 
+last_update_date: 2024-08-31
+
 category: communication
 
 level: beginner
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.91
+    reward: 2.82
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: bg
     last_contribution_date:
     urgency: 1

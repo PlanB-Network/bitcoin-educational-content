@@ -11,6 +11,8 @@ description: Ishura mu bitcoins aho hose amakarita ya Visa yemerwa.
 
 ⚠️ *Ivugurura ryo mu kwezi kwa kigarama 2025: Mwitonze, **kuva mu ntango z’ukwezi kwa kigarama 2025, igice c’ivyo Moon itanga ntikiboneka**, cane cane amakarata ya Visa ashobora gusubirwamwo amafaranga. Ntituramenya nimba uku kutaboneka ari ivy’akanya gato canke ivy’igihe kirekire. Iyi nyigisho izovugururwa uko tuzobona ayandi makuru.*
 
+*Niwaba warakoresheje ikarita ya Visa yishuwe mbere y’uko ifungwa, ubu ushobora gusubirana amahera yawe ukurikije inzira yo kwemeza umwirondoro ukoresheje urubaho rwa Moon rwawe. Mu by’ukuri, Moon yari ikwiye kuba yakwoherereje ubutumwa kuri e-mail bukumenyesha uko bikorwa n’intambwe zikenewe kugira ngo usubirane ayo mafaranga.*
+
 ---
 
 Ukwezi kugufasha gukoresha amafaranga y’amahera nk’aya bitcoin kugira ugure amakarita ya Visa n’amakarata y’ingabirano ata KYC, ashobora gukoreshwa ku miliyoni z’abadandaza bo kuri internet, nk’ikarita ya banki isanzwe. Gutyo rero itanga uburyo bworoshe bwo gukoresha sats yawe aho Visa yemerewe hose, utaciye ku rubuga rwo guhinduranya.

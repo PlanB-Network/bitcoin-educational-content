@@ -1,4 +1,7 @@
 id: b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+
+last_update_date: 2025-09-04
+
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 level: beginner
 category: data
@@ -58,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.09
+    reward: 1.52
   - language: id
     last_contribution_date:
     urgency: 1
@@ -73,7 +76,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 1.52
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -103,7 +106,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 1.52
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -134,7 +137,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.8
+    reward: 1.52
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

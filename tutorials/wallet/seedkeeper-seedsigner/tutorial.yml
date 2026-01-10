@@ -1,5 +1,7 @@
 id: 45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
+last_update_date: 2025-09-18
+
 credit_link: https://www.youtube.com/@satochip/videos
 
 project_id: 50b37aab-a064-4d56-8ae6-3678bda2efeb
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.86
+    reward: 7.79
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.33
+    reward: 7.79
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.33
+    reward: 7.79
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.33
+    reward: 7.79
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

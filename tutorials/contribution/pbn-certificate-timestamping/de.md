@@ -65,7 +65,7 @@ Extrahieren Sie den Inhalt, indem Sie mit der rechten Maustaste auf die `.zip`-D
 1. Importieren Sie den öffentlichen PGP-Schlüssel des Plan ₿ Netzwerks mit dem folgenden Befehl:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Wenn der PGP-Schlüssel erfolgreich importiert wurde, sollten Sie eine Nachricht wie die folgende sehen

@@ -1,5 +1,7 @@
 id: 0532f569-fb00-4fad-acba-2fcb1bf05de9
 
+last_update_date: 2024-08-31
+
 category: authentication
 
 level: beginner
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.48
+    reward: 5.42
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.48
+    reward: 5.42
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.54
+    reward: 5.42
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.48
+    reward: 5.42
   - language: bg
     last_contribution_date:
     urgency: 1

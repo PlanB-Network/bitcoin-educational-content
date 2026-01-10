@@ -717,7 +717,7 @@ V roce 2010, kdy Bitcoin začal přitahovat pozornost médií, se Satoshi rozhod
 
 Pro některé je Bitcoin definován jako houbová entita, jako [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatímco jiní ho popisují jako [černou díru](https://dergigi.com/). Ať už ho milujete, nebo nenávidíte, Bitcoin nadále existuje, se svým stálým rytmem 10 minut na blok, jako tlukot srdce nového peněžního systému.
 
-Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) od Phila Champagneho nebo dokumentární film od ARTE "Le mystaire Satoshi".
+Pro hlubší porozumění spisům Satoshiho Nakamota doporučuji knihu [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) od Phila Champagnea, která shromažďuje a zasazuje do kontextu jeho hlavní texty, a také dokument stanice ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), jenž nabízí přístupné a dobře zdokumentované pátrání po jeho identitě a odkazu.
 
 ![image](assets/cs/044.webp)
 

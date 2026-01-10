@@ -1,5 +1,6 @@
 id: ffc02528-329b-4e16-bd83-873d0299feea
 
+last_update_date: 2025-01-17
 
 category: others
 
@@ -67,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -87,7 +88,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -98,7 +99,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.04
+    reward: 10.06
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -150,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.05
+    reward: 10.06
   - language: bg
     last_contribution_date:
     urgency: 1

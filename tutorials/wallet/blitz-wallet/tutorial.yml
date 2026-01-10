@@ -1,5 +1,7 @@
 id: 794bdac4-1af4-49d5-9ea5-abb8228ca196
 
+last_update_date: 2025-05-23
+
 level: beginner
 
 category: mobile
@@ -60,7 +62,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.3
+    reward: 1.67
   - language: id
     last_contribution_date:
     urgency: 1
@@ -75,7 +77,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.67
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.67
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -151,7 +153,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.98
+    reward: 1.67
   - language: bg
     last_contribution_date:
     urgency: 1

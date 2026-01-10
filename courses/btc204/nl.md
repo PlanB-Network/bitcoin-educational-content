@@ -3770,7 +3770,7 @@ En wat bijzonder interessant is aan de structuur van de Stonewall-transactie is 
 Stonewall x2 is een andere specifieke vorm van Bitcoin-transactie die er ook op gericht is om de vertrouwelijkheid van de gebruiker te vergroten bij het doen van een uitgave, maar deze keer door samen te werken met een derde persoon die niet betrokken is bij die uitgave. Deze methode werkt als een pseudo-CoinJoin tussen twee deelnemers, terwijl er tegelijkertijd een betaling wordt gedaan aan een derde persoon.
 
 
-De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de betaling exchange vormt.
+De werking van de Stonewall x2 transactie is relatief eenvoudig: we gebruiken een UTXO in ons bezit om de betaling te doen, en roepen de hulp in van een derde partij die ook bijdraagt met een UTXO die van hem of haar is. De transactie eindigt met vier outputs: twee ervan in gelijke hoeveelheden, één bestemd voor de adres van de begunstigde, de andere voor een adres van de medewerker. Een derde UTXO wordt teruggestuurd naar een ander adres van de medewerker, waardoor hij het oorspronkelijke bedrag kan terugkrijgen (een neutrale actie voor hem, modulo de mining kosten), en een laatste UTXO gaat terug naar een adres van ons, die de exchange van de betaling vormt.
 
 
 In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
@@ -3778,42 +3778,42 @@ In Stonewall x2 transacties worden dus drie verschillende rollen gedefinieerd:
 
 
 
-- De emittent, die de feitelijke betaling verricht ;
+- De uitgever, die de feitelijke betaling verricht;
 - De ontvanger, die zich mogelijk niet bewust is van de specifieke aard van de transactie en gewoon betaling verwacht van de verzender;
 - De medewerker, die bitcoins beschikbaar stelt om de analyse van de transactie in twijfel te trekken, terwijl hij aan het eind zijn geld volledig terugkrijgt (een neutrale actie voor hem, afgezien van de mining kosten).
 
 
-Laten we teruggaan naar ons voorbeeld met Alice, die bij Bob de bakker is om haar stokbrood te kopen, dat 4.000 Sats kost. Ze wil in bitcoins betalen, met behoud van een zekere mate van vertrouwelijkheid over haar betaling. Dus doet ze een beroep op haar vriend Charles, die haar hierbij zal helpen.
+Laten we teruggaan naar ons voorbeeld met Alice, die bij Bob de bakker is om haar stokbrood te kopen, dat 4.000 sats kost. Ze wil in bitcoins betalen, met behoud van een zekere mate van vertrouwelijkheid over haar betaling. Dus doet ze een beroep op haar vriend Charles, die haar hierbij zal helpen.
 
 
 ![BTC204](assets/nl/183.webp)
 
 
-Als we deze transactie analyseren, zien we dat bakker Bob in werkelijkheid 4.000 Sats ontving als betaling voor het stokbrood. Alice gebruikte 10.000 Sats als input en ontving 6.000 Sats als output, d.w.z. een nettosaldo van -4.000 Sats, wat overeenkomt met de prijs van het stokbrood. Charles gebruikte 15 000 Sats als input en ontving twee outputs: een van 4 000 Sats en de andere van 11 000 Sats, wat een saldo van 0 oplevert.
+Als we deze transactie analyseren, zien we dat bakker Bob in werkelijkheid 4.000 sats ontving als betaling voor het stokbrood. Alice gebruikte 10.000 sats als input en ontving 6.000 sats als output, d.w.z. een nettosaldo van -4.000 sats, wat overeenkomt met de prijs van het stokbrood. Charles gebruikte 15.000 sats als input en ontving twee outputs: een van 4.000 sats en de andere van 11.000 sats, wat een saldo van 0 oplevert.
 
 
-In dit voorbeeld heb ik de kosten bewust weggelaten om het begrijpelijker te maken. In werkelijkheid worden de kosten voor mining over het algemeen gelijk verdeeld tussen de uitgever van de betaling en de bijdrager.
+In dit voorbeeld heb ik de kosten bewust weggelaten om het begrijpelijker te maken. In werkelijkheid worden de kosten voor mining over het algemeen gelijk verdeeld tussen de uitgever van de betaling en de medewerker.
 
 
 ### Wat zijn de doelstellingen van een Stonewall x2-transactie?
 
 
-Net als de Stonewall structuur voegt de Stonewall x2 structuur veel entropie toe aan de transactie en verwart de ketenanalyse. Van buitenaf gezien kan zo'n transactie worden geïnterpreteerd als een kleine CoinJoin tussen twee mensen. Maar in werkelijkheid is het een betaling. Deze methode zorgt dus voor onzekerheden in de ketenanalyse, of leidt zelfs tot valse leads.
+Net als de Stonewall structuur voegt de Stonewall x2 structuur veel entropie toe aan de transactie en verwart de ketenanalyse. Van buitenaf gezien kan zo'n transactie worden geïnterpreteerd als een kleine CoinJoin tussen twee mensen. Maar in werkelijkheid is het een betaling. Deze methode zorgt dus voor onzekerheden in de ketenanalyse, of leidt zelfs tot valse aanwijzingen.
 
 
-Laten we het voorbeeld nemen van Alice, Bob de Bakker en Charles. De transactie op de blockchain zou er als volgt uitzien:
+Laten we het voorbeeld nemen van Alice, Bob de bakker en Charles. De transactie op de blockchain zou er als volgt uitzien:
 
 
 ![BTC204](assets/nl/184.webp)
 
 
-Een externe waarnemer die vertrouwt op de heuristiek van gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*Alice en Charles hebben een kleine CoinJoin uitgevoerd, met elk één UTXO als input en twee UTXO's als output*". Opnieuw leidt het analyseren van deze transactie van buitenaf niet tot de toepassing van de ICOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH daarom niet van toepassing in dit specifieke geval.
+Een externe waarnemer die vertrouwt op de heuristiek van gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*Alice en Charles een kleine CoinJoin hebben uitgevoerd, met elk één UTXO als input en twee UTXO's als output*". Opnieuw leidt het analyseren van deze transactie van buitenaf niet tot de toepassing van de ICOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin-patroon suggereert. Van buitenaf gezien is de CIOH daarom niet van toepassing in dit specifieke geval.
 
 
 ![BTC204](assets/nl/185.webp)
 
 
-Deze interpretatie is onjuist, omdat, zoals je weet, één UTXO naar Bob de bakker is gestuurd, Alice slechts één exchange uitgang heeft en Charles er twee heeft.
+Deze interpretatie is onjuist, omdat, zoals je weet, één UTXO naar Bob de bakker is gestuurd, Alice slechts één exchange output heeft en Charles er twee heeft.
 
 
 ![BTC204](assets/nl/186.webp)
@@ -3825,7 +3825,7 @@ En nogmaals, wat bijzonder interessant is aan de structuur van de Stonewall x2-t
 ### Wat is het verschil tussen Stonewall en Stonewall x2?
 
 
-Een StonewallX2 transactie werkt precies hetzelfde als een Stonewall transactie, behalve dat de eerste gezamenlijk is, terwijl de laatste dat niet is. Zoals we hebben gezien, is er bij een StonewallX2-transactie een derde partij (Charles) betrokken, die buiten de betaling staat en die zijn bitcoins beschikbaar stelt om de vertrouwelijkheid van de transactie te vergroten. In een klassieke Stonewall-transactie wordt de rol van de medewerker aangenomen door de verzender.
+Een StonewallX2-transactie werkt precies hetzelfde als een Stonewall-transactie, behalve dat de eerste gezamenlijk is, terwijl de laatste dat niet is. Zoals we hebben gezien, is er bij een StonewallX2-transactie een derde partij (Charles) betrokken, die buiten de betaling staat en die zijn bitcoins beschikbaar stelt om de vertrouwelijkheid van de transactie te vergroten. In een klassieke Stonewall-transactie wordt de rol van de medewerker aangenomen door de verzender.
 
 
 ![BTC204](assets/nl/187.webp)
@@ -3837,13 +3837,13 @@ Vanuit extern oogpunt is het transactiepatroon precies hetzelfde.
 ![BTC204](assets/nl/188.webp)
 
 
-Het feit dat deze twee transactiestructuren precies hetzelfde patroon hebben, betekent dat zelfs als een externe waarnemer erin slaagt om een "Stonewall(x2)" patroon te identificeren, hij niet alle informatie zal hebben. Hij zal niet kunnen bepalen welke van de twee UTXO's met dezelfde bedragen overeenkomt met de betaling. Bovendien zal hij niet kunnen bepalen of de twee UTXO's met ingangen van twee verschillende mensen komen (Stonewall x2) of dat ze van één persoon zijn die ze heeft samengevoegd (Stonewall).
+Het feit dat deze twee transactiestructuren precies hetzelfde patroon hebben, betekent dat zelfs als een externe waarnemer erin slaagt om een "Stonewall(x2)" patroon te identificeren, hij niet alle informatie zal hebben. Hij zal niet kunnen bepalen welke van de twee UTXO's met dezelfde bedragen overeenkomt met de betaling. Bovendien zal hij niet kunnen bepalen of de twee input UTXO's van twee verschillende mensen komen (Stonewall x2) of dat ze van één persoon zijn die ze heeft samengevoegd (Stonewall).
 
 
-Dit laatste is te wijten aan het feit dat Stonewall x2 transacties precies hetzelfde patroon volgen als Stonewall transacties. Van buitenaf gezien, en zonder aanvullende contextuele informatie, is het onmogelijk om een Stonewall transactie te onderscheiden van een Stonewall x2 transactie. De eerste zijn geen collaboratieve transacties, terwijl de laatste dat wel zijn. Dit voegt nog meer twijfel toe aan de analyse van een van deze transacties.
+Dit laatste is te wijten aan het feit dat Stonewall x2-transacties precies hetzelfde patroon volgen als Stonewall transacties. Van buitenaf gezien, en zonder aanvullende contextuele informatie, is het onmogelijk om een Stonewall-transactie te onderscheiden van een Stonewall x2-transactie. De eerste zijn geen collaboratieve transacties, terwijl de laatste dat wel zijn. Dit voegt nog meer twijfel toe aan de analyse van een van deze transacties.
 
 
-### Wanneer moeten Stonewall en Stonewall x2 transacties worden gebruikt?
+### Wanneer moeten Stonewall en Stonewall x2-transacties worden gebruikt?
 
 
 De logica moet als volgt zijn wanneer je een vertrouwelijkheidstool wilt gebruiken voor een uitgave:
@@ -3853,7 +3853,7 @@ De logica moet als volgt zijn wanneer je een vertrouwelijkheidstool wilt gebruik
 
 - Als prioriteit kunnen we kiezen om een PayJoin te maken;
 - Als de verkoper geen payjoins ondersteunt, kan een gezamenlijke transactie worden gedaan met een andere persoon buiten de betaling om met behulp van de Stonewall x2-structuur;
-- Als je niemand kunt vinden die een Stonewall x2 transactie wil doen, kun je een Stonewall only transactie doen, die het gedrag van een Stonewall x2 transactie nabootst.
+- Als je niemand kunt vinden die een Stonewall x2 transactie wil doen, kun je een Stonewall only transactie doen, die het gedrag van een Stonewall x2-transactie nabootst.
 
 
 ### Hoe gebruik ik Stonewall en Stonewall x2 transacties?
@@ -3867,7 +3867,7 @@ Stonewall-transacties zijn beschikbaar in Sparrow wallet en ook in Ashigaru, ter
 
 
 
-Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bitcoin wallet software.
+Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bitcoin wallet-software.
 
 
 In het volgende hoofdstuk kijken we naar een andere vertrouwelijkheidstechniek die relatief onbekend is, maar die erg nuttig is als aanvulling op wat we al bestudeerd hebben.
@@ -3879,7 +3879,7 @@ https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
-## De ketsen
+## Keieen ketsen (ricochets)
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -3888,16 +3888,16 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 
 
 
-Het gebruik van Bitcoin-transactiestructuren die ambiguïteit toevoegen aan ketenanalyse, zoals CoinJoin, is vooral gunstig voor privacybescherming. Echter, zoals we in het hoofdstuk over payjoins hebben besproken, zijn CoinJoin transacties natuurlijk identificeerbaar in de keten. Denk aan de analogie die we trokken tussen versleuteling en coinjoins: als een bestand versleuteld is, kan een derde partij die het versleutelde bestand ontdekt, niet bij de inhoud, maar kan wel duidelijk zien dat het bestand is aangepast om de inhoud te verbergen. Hetzelfde geldt voor CoinJoin: wanneer een analist een CoinJoin-transactie onderzoekt, kan hij of zij, hoewel hij of zij geen directe links kan leggen tussen inputs en outputs (en vice versa), toch herkennen dat de geobserveerde transactie een CoinJoin is.
+Het gebruik van Bitcoin-transactiestructuren die ambiguïteit toevoegen aan ketenanalyse, zoals CoinJoin, is vooral gunstig voor privacybescherming. Echter, zoals we in het hoofdstuk over payjoins hebben besproken, zijn CoinJoin-transacties van nature identificeerbaar in de keten. Denk aan de analogie die we trokken tussen versleuteling en coinjoins: als een bestand versleuteld is, kan een derde partij die het versleutelde bestand ontdekt, niet bij de inhoud, maar kan wel duidelijk zien dat het bestand is aangepast om de inhoud te verbergen. Hetzelfde geldt voor CoinJoin: wanneer een analist een CoinJoin-transactie onderzoekt, kan hij of zij, hoewel hij of zij geen directe links kan leggen tussen inputs en outputs (en vice versa), toch herkennen dat de geobserveerde transactie een CoinJoin is.
 
 
-Afhankelijk van hoe je je onderdeel wilt gebruiken na CoinJoin cycli, kan het feit dat het dit proces heeft ondergaan problematisch zijn. Als je bijvoorbeeld van plan bent om je munt te verkopen op een gereguleerd exchange-platform, maar hij heeft onlangs een CoinJoin ondergaan, dan zal de ketenanalysetool van het platform dit feit detecteren. Het platform kan dan weigeren om je UTXO munt te accepteren, of zelfs een verklaring van je eisen, met het risico dat je account wordt opgeschort of je fondsen worden bevroren. In sommige gevallen kan het platform je gedrag ook rapporteren aan overheidsinstanties (dit is bijvoorbeeld wat TRACFIN vereist van PSAN's in Frankrijk).
+Afhankelijk van hoe je je UTXO na de CoinJoin-cycli wilt gebruiken, kan het CoinJoin-proces een probleem vormen. Als je bijvoorbeeld van plan bent om je munt te verkopen op een gereguleerd exchange-platform, maar hij heeft onlangs een CoinJoin ondergaan, dan zal de ketenanalysetool van het platform dit feit detecteren. Het platform kan dan weigeren om je UTXO te accepteren, of zelfs een verklaring van je eisen, met het risico dat je account wordt opgeschort of je fondsen worden bevroren. In sommige gevallen kan het platform je gedrag ook rapporteren aan overheidsinstanties (dit is bijvoorbeeld wat TRACFIN vereist van PSAN's in Frankrijk).
 
 
 ![BTC204](assets/nl/190.webp)
 
 
-Wat we nodig hebben om dit te voorkomen is een instrument dat de sporen van het verleden van een Bitcoin munt kan vervagen, om zo een vorm van fungibiliteit te herstellen. Dit is precies het doel van ricochet.
+Wat we nodig hebben om dit te voorkomen is een instrument dat de sporen van het verleden van een Bitcoin-munt kan vervagen, om zo een vorm van fungibiliteit te herstellen. Dit is precies het doel van ricochet.
 
 
 ![BTC204](assets/nl/191.webp)
@@ -3906,22 +3906,22 @@ Wat we nodig hebben om dit te voorkomen is een instrument dat de sporen van het 
 ### Wat is een ricochet?
 
 
-De ricochet is een techniek die bestaat uit het uitvoeren van verschillende fictieve transacties naar zichzelf (sweep) om een overdracht van Bitcoin eigenaar te simuleren. Dit hulpmiddel verschilt van de andere transactiestructuren die we hebben besproken, omdat het geen prospectieve anonimiteit oplevert, maar eerder een vorm van retrospectieve anonimiteit. In feite vervaagt ricochet de specifieke kenmerken die de fungibiliteit van een Bitcoin munt in gevaar kunnen brengen vanwege het verleden.
+De ricochet is een techniek die bestaat uit het uitvoeren van verschillende fictieve transacties naar zichzelf (sweep) om een overdracht van bitcoin-eigenaar te simuleren. Deze tool verschilt van de andere transactiestructuren die we hebben besproken, omdat het geen prospectieve anonimiteit oplevert, maar eerder een vorm van retrospectieve anonimiteit. In feite vervaagt ricochet de specifieke kenmerken die de fungibiliteit van een Bitcoin-munt in gevaar kunnen brengen vanwege het verleden.
 
 
-Om de afdruk van een gebeurtenis uit het verleden op een munt, zoals CoinJoin cycli, glad te strijken, voert ricochet vier opeenvolgende transacties uit waarbij de gebruiker geld naar zichzelf overmaakt op verschillende adressen.
+Om de afdruk van een gebeurtenis uit het verleden op een munt, zoals CoinJoin-cycli, glad te strijken, voert ricochet vier opeenvolgende transacties uit waarbij de gebruiker geld naar zichzelf overmaakt op verschillende adressen.
 
 
 ![BTC204](assets/nl/192.webp)
 
 
-Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uiteindelijk naar hun eindbestemming, zoals een exchange-platform.
+Na deze opeenvolging van transacties routeert de ricochet-tool de bitcoins uiteindelijk naar hun eindbestemming, zoals bijvoorbeeld een exchange-platform.
 
 
 ![BTC204](assets/nl/193.webp)
 
 
-Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een eigenaar verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden blockchainanalyse tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
+Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt, zoals een CoinJoin-transactie, en de uiteindelijke uitgave, die deze munt zou kunnen verwerpen vanwege het verleden. Ketenanalysetools zouden dus kunnen concluderen dat er waarschijnlijk een eigenaar verwisseld is na de gebeurtenis, en deze munt als fungibel beschouwen. In het geval van een CoinJoin, zouden blockchainanalyse-tools dan kunnen aannemen dat het niet dezelfde persoon was die de bitcoins verstuurde en de CoinJoin uitvoerde, en dat het daarom geen zin heeft om actie te ondernemen tegen de verzender.
 
 
 ![BTC204](assets/nl/194.webp)
@@ -3930,16 +3930,16 @@ Het doel is om afstand te creëren die de fungibiliteit van de munt beïnvloedt,
 ### Waarom werkt het?
 
 
-Geconfronteerd met deze ricochetmethode zou je kunnen denken dat software voor ketenanalyse het onderzoek zou verdiepen tot meer dan vier stuiters. Deze platforms staan echter voor een dilemma bij het optimaliseren van de detectiedrempel. Ze moeten een grens stellen aan het aantal hops waarna ze accepteren dat er waarschijnlijk een verandering van eigenschap heeft plaatsgevonden en dat de link met een eerdere gebeurtenis (zoals een CoinJoin) genegeerd moet worden.
+Geconfronteerd met deze ricochetmethode zou je kunnen denken dat software voor ketenanalyse het onderzoek zou verdiepen tot meer dan vier sprongen. Deze platforms staan echter voor een dilemma bij het optimaliseren van de detectiedrempel. Ze moeten een grens stellen aan het aantal hops waarna ze accepteren dat er waarschijnlijk een verandering van eigenschap heeft plaatsgevonden en dat de link met een eerdere gebeurtenis (zoals een CoinJoin) genegeerd moet worden.
 
 
 ![BTC204](assets/nl/195.webp)
 
 
-Het instellen van deze drempel is echter riskant: elke uitbreiding van het aantal waargenomen sprongen verhoogt exponentieel het aantal fout-positieven, d.w.z. individuen die ten onrechte als deelnemers aan een gebeurtenis worden gemarkeerd, terwijl de handeling in feite door iemand anders werd uitgevoerd. Dit scenario vormt een groot risico voor deze bedrijven, omdat fout-positieven leiden tot ontevredenheid, wat getroffen klanten naar de concurrentie kan drijven. Op de lange termijn leidt een te hoge detectiedrempel ertoe dat een platform meer klanten verliest dan zijn concurrenten, wat zijn levensvatbaarheid in gevaar kan brengen. Daarom is het voor deze platforms ingewikkeld om het aantal waargenomen bounces te verhogen, en 4 is vaak voldoende om hun analyses tegen te gaan.
+Het instellen van deze drempel is echter riskant: elke uitbreiding van het aantal waargenomen sprongen verhoogt exponentieel het aantal fout-positieven (false positives), d.w.z. individuen die ten onrechte als deelnemers aan een gebeurtenis worden gemarkeerd, terwijl de handeling in feite door iemand anders werd uitgevoerd. Dit scenario vormt een groot risico voor deze bedrijven, omdat fout-positieven leiden tot ontevredenheid, wat getroffen klanten naar de concurrentie kan drijven. Op de lange termijn leidt een te hoge detectiedrempel ertoe dat een platform meer klanten verliest dan zijn concurrenten, wat zijn levensvatbaarheid in gevaar kan brengen. Daarom is het voor deze platforms ingewikkeld om het aantal waargenomen bounces te verhogen, en 4 is vaak voldoende om hun analyses tegen te gaan.
 
 
-Het fenomeen dat hier wordt waargenomen is enigszins analoog aan de theorie van de zes scheidingsgraden.
+Het fenomeen dat hier wordt waargenomen is enigszins analoog aan de theorie van de zes scheidingsgraden (six degrees of separation).
 
 
 De theorie van de zes graden van scheiding suggereert dat elke persoon op aarde met elke andere persoon verbonden is door een keten van relaties die uit maximaal zes tussenpersonen bestaat. Het zou daarom voldoende zijn om door een reeks van zes mensen te gaan, waarbij elk persoon de volgende persoonlijk kent, om elk individu in de wereld te bereiken.
@@ -3954,10 +3954,10 @@ In het geval van Bitcoin-transacties vinden we een vergelijkbaar fenomeen. Door 
 De meest voorkomende toepassing van ricochet is wanneer het nodig is om een eerdere deelname aan een CoinJoin te verbergen op een UTXO die je bezit. Idealiter vermijd je best de overdracht van bitcoins die een CoinJoin hebben ondergaan naar gereguleerde entiteiten. Als je echter geen andere optie hebt, vooral als je dringend bitcoins in staatsvaluta moet liquideren, biedt ricochet een effectieve oplossing.
 
 
-Deze methode is niet alleen effectief voor samenvoegingen, maar ook voor andere markeringen die de vervangbaarheid van een onderdeel in gevaar kunnen brengen.
+Deze methode is niet alleen effectief voor coinjoins, maar ook voor andere markeringen die de vervangbaarheid (fungbility) van een UTXO in gevaar kunnen brengen.
 
 
-Het idee achter deze ricochet-methode komt oorspronkelijk van de teams van Samourai wallet, die deze in hun applicatie hadden geïntegreerd om de werking te automatiseren. De dienst was betaald op Samourai, aangezien een ricochet een vaste kost van 100.000 sats aan servicekosten met zich meebracht, bovenop de miningkosten. Hetzelfde geldt vandaag de dag op Ashigaru. Daarom wordt het gebruik ervan vooral aanbevolen voor overdrachten van grote bedragen.
+Het idee achter deze ricochet-methode komt oorspronkelijk van de teams van Samourai wallet, die deze in hun applicatie hadden geïntegreerd om de werking te automatiseren. De dienst was betalend op Samourai, aangezien een ricochet een vaste kost van 100.000 sats aan servicekosten met zich meebracht, bovenop de mining-kosten. Hetzelfde geldt vandaag de dag op Ashigaru. Daarom wordt het gebruik ervan vooral aanbevolen voor overdrachten van grote bedragen.
 
 
 ![BTC204](assets/nl/196.webp)
@@ -3982,7 +3982,7 @@ De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op
 ![BTC204](assets/nl/198.webp)
 
 
-Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk om bitcoins handmatig te ricochetten op elke wallet software, zonder een gespecialiseerde tool te gebruiken. Het enige wat je hoeft te doen is achtereenvolgens dezelfde munt naar jezelf overmaken, waarbij je telkens een nieuwe, ongebruikt adres gebruikt.
+Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk om bitcoins handmatig te ricochetten op elke wallet-software, zonder een gespecialiseerde tool te gebruiken. Het enige wat je hoeft te doen is achtereenvolgens dezelfde munt naar jezelf overmaken, waarbij je telkens een nieuwe, ongebruikt adres gebruikt.
 
 
 In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van eigenaar. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
@@ -3999,7 +3999,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd
 
 
 
-Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van eigenaar. Deze methode heeft als doel eigenaar Bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
+Een andere vertrouwelijkheidstechniek van Bitcoin is de geheime overdracht van eigenaar. Deze methode heeft als doel het bezit van bitcoins over te dragen van de ene persoon naar de andere, en vice versa, zonder dat de transactie expliciet zichtbaar is op de blockchain. Laten we eens kijken naar de verschillende technieken die beschikbaar zijn, samen met hun voor- en nadelen.
 
 
 ### De muntenruil
@@ -4924,7 +4924,7 @@ Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele input 
 
 - De eerste output is de `OP_RETURN` die mijn verborgen betalingscode bevat;
 - De tweede uitgang van 546 Sats wijst naar de melding adres van mijn ontvanger;
-- De derde output van 15.000 Sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
+- De derde output van 15.000 sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
 - De vierde uitgang van 2 miljoen Sats vertegenwoordigt de wisselkoers, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
 
 

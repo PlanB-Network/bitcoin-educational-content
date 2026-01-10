@@ -5,5 +5,5 @@ wrong_answers:
   - コインジョイン（Coinjoin）
   - バッチスペンディング（Batch spending）
 explanation: |
-  この構造の解釈は、ビットコインの自己転送、つまりスイープの存在を意味しています。
+  この構造の解釈は、ビットコインの自己転送、つまりスイープ（Sweep）の存在を意味しています。
 reviewed: false

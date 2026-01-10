@@ -3602,7 +3602,7 @@ Laten we een voorbeeld nemen om dit proces beter te begrijpen. Alice koopt een s
 ![BTC204](assets/nl/171.webp)
 
 
-In dit voorbeeld voert bakker Bob 15.000 sats in en komt eruit met 19.000 sats, het verschil is precies 4.000 sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 sats in en eindigt met 6.000 sats aan output, wat neerkomt op een saldo van -4.000 sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de mining kosten in deze transactie bewust weggelaten.
+In dit voorbeeld voert bakker Bob 15.000 sats in en komt eruit met 19.000 sats, het verschil is precies 4.000 sats, d.w.z. de prijs van het stokbrood. Alice voert 10.000 sats in en eindigt met 6.000 sats aan output, wat neerkomt op een saldo van -4.000 sats, ofwel de prijs van het stokbrood. Om het voorbeeld te vereenvoudigen, heb ik de mining-kosten in deze transactie bewust weggelaten.
 
 
 ### Waarvoor dient de PayJoin?
@@ -3611,25 +3611,25 @@ In dit voorbeeld voert bakker Bob 15.000 sats in en komt eruit met 19.000 sats, 
 De PayJoin-transactie vervult twee doelen, waardoor gebruikers de vertrouwelijkheid van hun betaling kunnen verbeteren.
 
 
-Ten eerste probeert PayJoin een buitenstaander te misleiden door een lokmiddel te creëren in de ketenanalyse. Dit wordt mogelijk gemaakt door de CIOH heuristiek (*Common Input Ownership Heuristiek*). Zoals we in deel 3 zagen, wordt gewoonlijk, wanneer een transactie op de blockchain meerdere ingangen heeft, aangenomen dat al deze ingangen toebehoren aan dezelfde entiteit of gebruiker.
+Ten eerste probeert PayJoin een buitenstaander te misleiden door een lokmiddel te creëren in de ketenanalyse. Dit wordt mogelijk gemaakt door de CIOH-heuristiek (*Common Input Ownership Heuristiek*). Zoals we in deel 3 zagen, wordt gewoonlijk, wanneer een transactie op de blockchain meerdere ingangen heeft, aangenomen dat al deze ingangen toebehoren aan dezelfde entiteit of gebruiker.
 
 
-Dus wanneer een analist een PayJoin transactie onderzoekt, wordt hij of zij wijsgemaakt dat alle inputs van dezelfde persoon afkomstig zijn. Deze perceptie is echter verkeerd, omdat de begunstigde ook bijdraagt aan de inputs naast de eigenlijke betaler. De ketenanalyse wordt dus afgeleid naar een interpretatie die fout blijkt te zijn.
+Dus wanneer een analist een PayJoin-transactie onderzoekt, wordt hij of zij wijsgemaakt dat alle inputs van dezelfde persoon afkomstig zijn. Deze perceptie is echter verkeerd, omdat de begunstigde ook bijdraagt aan de inputs naast de eigenlijke betaler. De ketenanalyse wordt dus afgeleid naar een interpretatie die fout blijkt te zijn.
 
 
-Laten we ons voorbeeld nemen van een PayJoin transactie voor de betaling van een baguette:
+Laten we ons voorbeeld nemen van een PayJoin-transactie voor de betaling van een stokbrood:
 
 
 ![BTC204](assets/nl/172.webp)
 
 
-Bij het zien van deze transactie op de blockchain, zou een buitenstaander die de gebruikelijke heuristieken van blockchainanalyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 Sats te betalen aan Bob*".
+Bij het zien van deze transactie op de blockchain, zou een buitenstaander die de gebruikelijke heuristieken van blockchainanalyse volgt, de volgende interpretatie maken: "*Alice voegde 2 UTXO's samen als input voor de transactie om 19.000 sats te betalen aan Bob*".
 
 
 ![BTC204](assets/nl/173.webp)
 
 
-Deze interpretatie is duidelijk onjuist, want zoals je al weet, behoren de twee UTXO's in ingangen niet toe aan dezelfde persoon. De ene komt van Alice, de stokbroodkoper, en de andere van Bob, de bakker.
+Deze interpretatie is duidelijk onjuist, want zoals je al weet, behoren de twee input UTXO's niet toe aan dezelfde persoon. De ene komt van Alice, de stokbroodkoper, en de andere van Bob, de bakker.
 
 
 ![BTC204](assets/nl/174.webp)
@@ -3641,10 +3641,10 @@ Op deze manier wordt de analyse van de externe waarnemer in de richting van een 
 ### De steganografische transactie
 
 
-Het tweede doel van PayJoin is om een buitenstaander te misleiden over het werkelijke bedrag van de betaling die is gedaan. Door de structuur van de transactie te onderzoeken, zou de analist kunnen geloven dat de betaling gelijk is aan het bedrag van een van de outputs.
+Het tweede doel van PayJoin is om een buitenstaander te misleiden over het werkelijke bedrag van de betaling dat is gedaan. Door de structuur van de transactie te onderzoeken, zou de analist kunnen geloven dat de betaling gelijk is aan het bedrag van een van de outputs.
 
 
-Als we teruggaan naar ons voorbeeld van de aankoop van een stokbrood, zal de analist denken dat het betalingsbedrag ofwel overeenkomt met de UTXO van 6.000 Sats, of met de UTXO van 19.000 Sats. In dit geval zal de analist eerder denken dat het betalingsbedrag 19.000 Sats is, omdat er 2 UTXO's in outputs zijn, waarvan ten minste één groter is dan 6.000 Sats (er is geen logische reden om 2 UTXO's te gebruiken om 6.000 Sats te betalen, terwijl een enkele UTXO voldoende zou zijn geweest om deze betaling te voldoen).
+Als we teruggaan naar ons voorbeeld van de aankoop van een stokbrood, zal de analist denken dat het betalingsbedrag ofwel overeenkomt met de UTXO van 6.000 sats, of met de UTXO van 19.000 sats. In dit geval zal de analist eerder denken dat het betalingsbedrag 19.000 sats is, omdat er 2 UTXO's in outputs zijn, waarvan ten minste één groter is dan 6.000 sats (er is geen logische reden om 2 UTXO's te gebruiken om 6.000 sats te betalen, terwijl een enkele UTXO voldoende zou zijn geweest om deze betaling te voldoen).
 
 
 ![BTC204](assets/nl/175.webp)
@@ -3656,7 +3656,7 @@ Maar in werkelijkheid is deze analyse gebrekkig. Het betalingsbedrag komt met ge
 ![BTC204](assets/nl/176.webp)
 
 
-In dit opzicht valt de PayJoin transactie onder steganografie. Het maakt het mogelijk om het echte bedrag van een transactie te verbergen in een valse transactie die als afleiding dient.
+In dit opzicht valt de PayJoin-transactie onder steganografie. Het maakt het mogelijk om het echte bedrag van een transactie te verbergen in een valse transactie die als afleiding dient.
 
 
 Steganografie is een techniek om informatie te verbergen in andere gegevens of objecten, zodat de aanwezigheid van de verborgen informatie niet waarneembaar is. Een geheime boodschap kan bijvoorbeeld verborgen worden in een punt in ongerelateerde tekst, waardoor het niet met het blote oog waarneembaar is (dit is de [microdot](https://fr.wikipedia.org/wiki/Micropoint) techniek).
@@ -3679,14 +3679,14 @@ Bekende softwareprogramma's die PayJoin ondersteunen zijn Sparrow wallet, Wasabi
 
 
 
-De meest geavanceerde payjoin-implementatie is ongetwijfeld Stowaway, uitgevonden door de ontwikkelaars van Samourai wallet. Sinds de arrestatie van de software-oprichters werkt dit hulpmiddel slechts gedeeltelijk op Samourai. Maar het is opnieuw gelanceerd in de Ashigaru-applicatie.
+De meest geavanceerde payjoin-implementatie is ongetwijfeld Stowaway, uitgevonden door de ontwikkelaars van Samourai wallet. Sinds de arrestatie van de software-oprichters werkt deze tool slechts gedeeltelijk op Samourai. Maar het is opnieuw gelanceerd in de Ashigaru-applicatie.
 
 Het voordeel van Stowaway is dat het een volledig en zeer gebruiksvriendelijk protocol is dat zowel het ontvangen als het verzenden van payjoins ondersteunt. Gedeeltelijk ondertekende transacties kunnen handmatig worden uitgewisseld door meerdere QR-codes te scannen of automatisch via Tor met Soroban.
 
 ![BTC204](assets/nl/178.webp)
 
 
-De moeilijkheid bij het gebruik van PayJoin ligt in de afhankelijkheid van de deelname van de winkelier. Als klant kun je geen PayJoin gebruiken als de winkelier het niet ondersteunt. Dit voegt nog een extra moeilijkheid toe aan het aankoopproces: het is niet alleen moeilijk om winkeliers te vinden die Bitcoin accepteren, maar als je ook nog op zoek gaat naar winkeliers die payjoins ondersteunen, wordt het nog ingewikkelder.
+De moeilijkheid bij het gebruik van PayJoin ligt in de afhankelijkheid van de deelname van de winkelier. Als klant kun je geen PayJoin gebruiken als de winkelier het niet ondersteunt. Dit voegt nog een extra moeilijkheid toe aan het aankoopproces: het is niet alleen moeilijk om winkeliers te vinden die bitcoin accepteren, maar als je ook nog op zoek gaat naar winkeliers die payjoins ondersteunen, wordt het nog ingewikkelder.
 
 
 Een oplossing zou zijn om transactiestructuren te gebruiken die ambiguïteit introduceren in de ketenanalyse zonder de medewerking van de ontvanger te vereisen. Dit zou ons in staat stellen om de vertrouwelijkheid van onze betalingen te verbeteren zonder afhankelijk te zijn van de actieve medewerking van winkeliers. Dit is precies waar we naar gaan kijken in het volgende hoofdstuk.
@@ -3696,7 +3696,7 @@ Een oplossing zou zijn om transactiestructuren te gebruiken die ambiguïteit int
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
-## Betaling mini-CoinJoin
+## Mini-CoinJoin betaling
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -3711,10 +3711,10 @@ Wanneer je een betalingstransactie wilt uitvoeren met behoud van een zekere mate
 ### De Stonewall-transactie
 
 
-Stonewall is een specifieke vorm van Bitcoin-transactie, ontworpen om de vertrouwelijkheid van de gebruiker te vergroten bij uitgaven door een pseudo-CoinJoin tussen twee mensen na te bootsen, zonder er daadwerkelijk een te zijn. In feite werkt deze transactie niet samen. Een gebruiker kan het zelf bouwen, met alleen de UTXO's die hij of zij bezit als invoer. Je kunt dus een Stonewall-transactie maken voor elke gelegenheid, zonder dat je hoeft te synchroniseren met een andere gebruiker of de ontvanger.
+Stonewall is een specifieke vorm van Bitcoin-transactie, ontworpen om de vertrouwelijkheid van de gebruiker te vergroten bij uitgaven door een pseudo-CoinJoin tussen twee mensen na te bootsen, zonder er daadwerkelijk een te zijn. In feite werkt deze transactie niet samen. Een gebruiker kan het zelf bouwen, met alleen de UTXO's die hij of zij bezit als input. Je kunt dus een Stonewall-transactie maken voor elke gelegenheid, zonder dat je hoeft te synchroniseren met een andere gebruiker of de ontvanger.
 
 
-De Stonewall-transactie werkt als volgt: als input voor de transactie gebruikt de emittent 2 UTXO's die van hem zijn. Bij output levert de transactie 4 UTXO's op, waarvan 2 precies evenveel. De andere 2 UTXO's vormen buitenlands Exchange. Van de 2 outputs van hetzelfde bedrag gaat er slechts één daadwerkelijk naar de begunstigde.
+De Stonewall-transactie werkt als volgt: als input voor de transactie gebruikt de uitgever 2 UTXO's die van hem zijn. Bij output levert de transactie 4 UTXO's op, waarvan 2 met exact hetzelfde bedrag. De andere 2 UTXO's vormen exchange (wisselgeld). Van de 2 outputs van hetzelfde bedrag gaat er slechts één daadwerkelijk naar de begunstigde.
 
 
 Er zijn dus maar 2 rollen in een Stonewall-transactie:
@@ -3722,20 +3722,20 @@ Er zijn dus maar 2 rollen in een Stonewall-transactie:
 
 
 
-- De uitgever, die de betaling uitvoert ;
+- De uitgever, die de betaling uitvoert;
 - De ontvanger, die zich mogelijk niet bewust is van de specifieke aard van de transactie en gewoon betaling verwacht van de verzender.
 
 
-Laten we een voorbeeld nemen om deze transactiestructuur te begrijpen. Alice gaat naar Bob de bakker om haar stokbrood te kopen, dat 4.000 Sats kost. Ze wil betalen in bitcoins, met behoud van enige vorm van vertrouwelijkheid over haar betaling. Dus besluit ze een Stonewall-transactie te bouwen voor de betaling.
+Laten we een voorbeeld nemen om deze transactiestructuur te begrijpen. Alice gaat naar Bob de bakker om haar stokbrood te kopen, dat 4.000 sats kost. Ze wil betalen in bitcoins, met behoud van enige vorm van vertrouwelijkheid over haar betaling. Dus besluit ze een Stonewall-transactie te bouwen voor de betaling.
 
 
 ![BTC204](assets/nl/179.webp)
 
 
-Door deze transactie te analyseren, kunnen we zien dat Bob de bakker eigenlijk 4.000 Sats ontving als betaling voor het stokbrood. Alice gebruikte 2 UTXO's als input: één voor 10.000 Sats en één voor 15.000 Sats. Als output heeft ze 3 UTXO's teruggekregen: één voor 4.000 Sats, één voor 6.000 Sats en één voor 11.000 Sats. Alice heeft dus een nettosaldo van -4.000 Sats op deze transactie, wat overeenkomt met de prijs van het stokbrood.
+Door deze transactie te analyseren, kunnen we zien dat Bob de bakker eigenlijk 4.000 sats ontving als betaling voor het stokbrood. Alice gebruikte 2 UTXO's als input: één voor 10.000 sats en één voor 15.000 sats. Als output heeft ze 3 UTXO's teruggekregen: één voor 4.000 sats, één voor 6.000 sats en één voor 11.000 sats. Alice heeft dus een nettosaldo van -4.000 sats op deze transactie, wat overeenkomt met de prijs van het stokbrood.
 
 
-In dit voorbeeld heb ik opzettelijk de mining kosten verwaarloosd om het makkelijker te begrijpen te maken. In werkelijkheid worden transactiekosten volledig gedragen door de emittent.
+In dit voorbeeld heb ik opzettelijk de mining-kosten verwaarloosd om het makkelijker te begrijpen te maken. In werkelijkheid worden transactiekosten volledig gedragen door de uitgever.
 
 
 ### Wat zijn de doelstellingen van een Stonewall-transactie?
@@ -3750,14 +3750,13 @@ Laten we het voorbeeld nemen van Alice bij Bob de bakker. De transactie op block
 ![BTC204](assets/nl/180.webp)
 
 
-Een waarnemer van buitenaf die vertrouwt op heuristieken voor gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*twee mensen hebben een kleine CoinJoin gemaakt, met elk een UTXO als input en twee UTXO's elk als output*". Deze transactie van buitenaf analyseren leidt niet tot de toepassing van de CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH in dit specifieke geval dus niet van toepassing.
+Een waarnemer van buitenaf die vertrouwt op heuristieken voor gemeenschappelijke ketenanalyse zou ten onrechte kunnen concluderen dat "*twee mensen een kleine CoinJoin gemaakt hebben, met elk een UTXO als input en twee UTXO's elk als output*". Deze transactie van buitenaf analyseren leidt niet tot de toepassing van de CIOH, omdat de aanwezigheid van twee outputs van hetzelfde bedrag een CoinJoin patroon suggereert. Van buitenaf gezien is het CIOH in dit specifieke geval dus niet van toepassing.
 
 
 ![BTC204](assets/nl/181.webp)
 
 
-Deze interpretatie is onjuist, want zoals je weet, werd één UTXO naar Bob de bakker gestuurd, kwamen de 2 UTXO inputs van Alice, en herstelde zij 3 exchange outputs.
-
+Deze interpretatie is onjuist, want zoals je weet, werd één UTXO naar Bob de bakker gestuurd, kwamen de 2 input UTXO's van Alice, en kreeg zij 3 exchange outputs terug.
 
 ![BTC204](assets/nl/182.webp)
 

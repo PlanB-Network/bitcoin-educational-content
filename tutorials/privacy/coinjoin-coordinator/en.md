@@ -199,6 +199,12 @@ Simply start the coordinator with the command:
 ```
 ASPNETCORE_URLS="http://localhost:5001" wcoordinator
 ```
+You can monitor the current round and number of registered UTXO's/coins by checking (in Tor browser for .onion): 
+
+```
+http://coinjoin.yourdomain/wabisabi/human-monitor/
+```
+![detected](assets/en/01.webp)
 
 ### Optional: debugging coordinator server
 
@@ -211,8 +217,6 @@ rpcbind=127.0.0.1
 rpcuser=your_bitcoin_rpcuser
 rpcpassword=your_bitcoin_rpcpassword
 ```
-
-
 
 ### Optional: Running the backend server
 
@@ -233,7 +237,7 @@ name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.your
 ```
 When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
 
-![detected](assets/en/01.webp)
+![detected](assets/en/02.webp)
 
 💚🍣 Congratulations on decentralizing bitcoin privacy 🕶️
 

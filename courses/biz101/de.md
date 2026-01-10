@@ -184,44 +184,42 @@ Die traditionelle Zahlungsverkehrsbranche repräsentiert ein jährliches Wirtsch
 | Langsame Vorautorisierung | Aktuelle Systeme können Transaktionen nicht im Millisekundenbereich verarbeiten oder kontinuierliche Zahlungsströme in Echtzeit unterstützen.                                                                                                                   | Dies schränkt Anwendungsfälle ein, die sofortige oder laufende Zahlungen erfordern, was Innovation und Skalierbarkeit einschränkt. |
 | Notwendigkeit eines Bank-/Kartenkontos | Der Zugang zu diesen Zahlungsmethoden erfordert ein verbundenes Bank- oder Kartenkonto, wodurch Personen ohne ein solches Konto automatisch ausgeschlossen werden.                                                                                                       | Schränkt die finanzielle Eingliederung ein und verringert den Zugang für Bevölkerungsgruppen, die keine oder nur wenige Bankkonten haben.                 |
 | Wiederholte Erstellung von Online-Konten | Benutzer müssen oft mehrere Online-Konten erstellen, was zu Ermüdung, geringerem Komfort und einer erhöhten Offenlegung persönlicher Daten führt.                                                                                                | Verschlechtert die Nutzererfahrung, erhöht die Bedenken hinsichtlich des Datenschutzes und das Risiko von Datenschutzverletzungen.          |
-| Das Fehlen einer universellen Rechnungseinheit erzwingt kostspielige Währungsumrechnungen bei grenzüberschreitenden Transaktionen.                                                                                                                              | Erhöht die Kosten für den internationalen Handel und macht globale Transaktionen weniger erschwinglich.             |
+| Fremdwährungsgebühren (FX-Gebühren) | Das Fehlen einer universellen Rechnungseinheit erzwingt kostspielige Währungsumrechnungen bei grenzüberschreitenden Transaktionen.                                                                                                                              | Erhöht die Kosten für den internationalen Handel und macht globale Transaktionen weniger erschwinglich.             |
 
-So wie wir von der minutengenauen Abrechnung von Telefongesprächen zur nahezu kostenlosen IP-basierten Kommunikation übergegangen sind, kann das Entstehen offenerer und effizienterer Netze den Zahlungsverkehr neu definieren, Kosten und Vermittler reduzieren und neue Geschäftsmodelle fördern.
+So wie wir von der minutengenauen Abrechnung von Telefongesprächen zur nahezu kostenlosen IP-basierten Kommunikation übergegangen sind, kann das Entstehen offenerer und effizienterer Netzwerke den Zahlungsverkehr neu definieren, Kosten und Vermittler reduzieren und neue Geschäftsmodelle fördern.
 
-## Bitcoin für Unternehmen: eine neue Währung
+## Bitcoin für Unternehmen: Eine neue Währung
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
 **WAS IST BITCOIN?**
 
-Bitcoin ist ein **Peer-to-Peer-Tauschsystem für digitale Währungen** (elektronisches Bargeld). Der Begriff "Bitcoin" bezieht sich auf die folgenden Komponenten:
-
+Bitcoin ist ein **elektronisches Peer-to-Peer-Cash-System** (elektronisches Bargeld). Der Begriff "Bitcoin" bezieht sich auf die folgenden Komponenten:
 
 - Ein **Computerprotokoll**, das den Austausch von Werten im Internet ohne Vermittler, ohne Genehmigungspflicht und auf pseudonyme Weise ermöglicht. Es nutzt fortschrittliche kryptografische Prinzipien.
 - Ein **physisches Netzwerk** von Maschinen, die mit dem Internet verbunden sind (Nodes, Miner usw.) und von Privatpersonen und Unternehmen betrieben werden, die ein dezentrales System bilden (ohne zentrale Autorität oder einen einzigen Kontrollpunkt).
 - Die **Recheneinheit** innerhalb des Systems. Es wird nie mehr als 21 Millionen Bitcoins geben. Jeder Bitcoin ist in 100 Millionen Einheiten teilbar, die "Satoshis" genannt werden, benannt zu Ehren seines anonymen Schöpfers.
 
-Zusammen machen sie Bitcoin zu einem **Vermögenswert auf Inhaberbasis** und einer digitalen Währung **ohne Emittent**. Das Eigentum wird allein durch den Besitz des **privaten kryptografischen Schlüssels** gesichert, der die volle Kontrolle **ohne Vermittler oder vertrauenswürdige Dritte** gewährt. Bei einer Übertragung geht das Eigentum **unmittelbar** über: Der neue Inhaber besitzt es vollständig, ohne sich zum Schutz oder zur Konvertierbarkeit auf eine zentrale Behörde verlassen zu müssen. Transaktionen sind **unveränderlich** - sobald sie in der Blockchain aufgezeichnet sind, können sie nicht mehr geändert oder gelöscht werden.
+Zusammen machen sie Bitcoin zu einem **Inhaberwert** und einer digitalen Währung **ohne Emittent**. Das Eigentum wird allein durch den Besitz des **privaten kryptografischen Schlüssels ( Private Key)** gesichert, der die volle Kontrolle **ohne Vermittler oder vertrauenswürdige Dritte** gewährt. Bei einer Übertragung geht das Eigentum **unmittelbar** über: Der neue Inhaber besitzt es vollständig, ohne sich zum Schutz oder zur Konvertierbarkeit auf eine zentrale Behörde verlassen zu müssen. Transaktionen sind **unveränderlich** - sobald sie in der Blockchain aufgezeichnet sind, können sie nicht mehr geändert oder gelöscht werden.
 
 ![BIZ101](assets/de/003.webp)
 
-Bitcoin hat eine feste Geldpolitik, mit einer **Kapazität von 21 Millionen Bitcoins**, von denen ~19,8 Millionen bereits verteilt worden sind. Dies macht ihn **deflationär**, wobei sein Wert im Laufe der Zeit steigt, da die Nutzer Ersparnisse und Produktivitätsgewinne in ihm speichern.
+Bitcoin hat eine feste Geldpolitik, mit einem **Maximum von 21 Millionen Bitcoins**, von denen ~19,8 Millionen bereits gemined worden sind. Dies macht ihn **deflationär**, wobei sein Wert im Laufe der Zeit steigt, da die Nutzer Ersparnisse und Produktivitätsgewinne in ihm speichern.
 
-Seine technischen Eigenschaften übertreffen die von Gold und dem Dollar zusammen und machen ihn zum härtesten Finanzwert, der je geschaffen wurde. Bitcoin ist sowohl ein Wertaufbewahrungsmittel als auch ein Tauschmittel, eine Währung im Entstehen. Stellen du sich vor, du könnten schnell, ohne Vermittler, zu minimalen Kosten, ohne Betrug, rund um die Uhr und ohne Beteiligung Dritter Werte aus der Kasse eines Unternehmens in eine andere transferieren.
+Seine technischen Eigenschaften übertreffen die von Gold und dem Dollar zusammen und machen ihn zum härtesten Finanzwert, der je geschaffen wurde. Bitcoin ist sowohl ein Wertaufbewahrungsmittel als auch ein Tauschmittel, eine Währung im Entstehen. Stell dir vor, du könntest schnell, ohne Vermittler, zu minimalen Kosten, ohne Betrug, rund um die Uhr und ohne Beteiligung Dritter Werte aus der Kasse eines Unternehmens in eine andere transferieren.
 
 ![BIZ101](assets/de/004.webp)
 
-Bitcoin ist effektiv wertbeständig, da sein Hauptbuch fälschungssicher ist. Sein Wert steigt aufgrund des seltenen und begrenzten Angebots in Verbindung mit der wachsenden Zahl von Tauschmöglichkeiten, die durch die steigende Zahl von Nutzern bedingt sind.
+Bitcoin ist effektiv wertbeständig, da sein Ledger (Hauptbuch) fälschungssicher ist. Sein Wert steigt aufgrund des seltenen und begrenzten Angebots in Verbindung mit der wachsenden Zahl von Tauschmöglichkeiten, die durch die steigende Zahl von Nutzern bedingt sind.
 
 Bitcoin ist bahnbrechend, weil er uns dazu anregt, Konzepte in den Bereichen Mathematik, Kryptographie, Wirtschaft und Geschichte zu lernen, die uns nie beigebracht wurden. Obwohl er oft als komplex wahrgenommen wird, ist er in Wirklichkeit eine Innovation, die durch Übung und Experimentieren zugänglich ist.
 
-Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könnten du erklären, was Geld wirklich ist? Ein Angestellter oder Unternehmer verbringt vielleicht 50.000 bis 100.000 Stunden seines Lebens damit, Geld zu verdienen, aber wie viele **wenden auch nur 100 Stunden auf, um es besser zu verstehen** und zu bewahren? Bitcoin ermutigt uns, die grundlegenden Gründe für unser Bedürfnis nach Geld und unsere zeitliche Perspektive zu hinterfragen. Dient Geld dem sofortigen Luxus oder der langfristigen Beständigkeit? Wenn wir einen wertsteigernden Vermögenswert hätten, der uns erlaubt, Käufe aufzuschieben, welche Entscheidungen würden wir dann treffen? Welche Gespräche würden wir mit uns selbst in 20 oder 30 Jahren führen wollen?
+Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könntest du erklären, was Geld wirklich ist? Ein Angestellter oder Unternehmer verbringt vielleicht 50.000 bis 100.000 Stunden seines Lebens damit, Geld zu verdienen, aber wie viele **wenden auch nur 100 Stunden auf, um es besser zu verstehen** und aufzubewahren? Bitcoin ermutigt uns, die grundlegenden Gründe für unser Bedürfnis nach Geld und unsere zeitliche Perspektive zu hinterfragen. Dient Geld dem sofortigen Luxus oder der langfristigen Beständigkeit? Wenn wir einen wertsteigernden Vermögenswert hätten, der uns erlaubt, Käufe aufzuschieben, welche Entscheidungen würden wir dann treffen? Welche Gespräche würden wir mit uns selbst in 20 oder 30 Jahren führen wollen?
 
 **BITCOIN-AUSWEIS**
 
-
 - **Alter:** 15 Jahre (3. Januar 2009)
-- **Täglicher Börsenwert:** $10 Milliarden (> CAC40)
+- **Tägliches Handelsvolumen:** $10 Milliarden (> CAC40)
 - **Marktkapitalisierung:** 1,8 Billionen Dollar (> Meta, Visa, Silber ; < Apple, Google, Gold)
 - **Nutzer:** ~100 bis 200 Millionen (1-2% der Weltbevölkerung)
 - **Volatilität:** Innerlich keine (1 Bitcoin = 1 Bitcoin), äußerlich sehr hoch (in Fiat-Währungsbörsen)
@@ -231,12 +229,11 @@ Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könnten
 
 **Ein Wunder menschlicher Zusammenarbeit:**
 
-
 - Vollständig **Open-Source**
 - **Rechtsperson:** Keine
-- **CEO:** Keine
+- **CEO:** Keiner
 - **Risikokapitalinvestitionen:** Keine
-- **Marketing:** Keine
+- **Marketing:** Keines
 - **F&E:** Ehrenamtlich betrieben
 - **Governance:** Durch die Nutzer
 - **Innovatives Wirtschaftsmodell:** Die Blockerstellung wird durch Transaktionsgebühren subventioniert (auktionsbasiert)
@@ -245,35 +242,33 @@ Für weitere Informationen über Bitcoin, seine Geschichte, seine Funktionsweise
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-## Einführung in das Lightning Network
+## Einführung in das Lightning-Netzwerk
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**WAS IST EIN BLITZ?**
+**WAS IST LIGHTNING?**
 
-Das Lightning Network ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Transaktionen mit minimaler Interaktion mit der Haupt-Blockchain von Bitcoin ermöglicht. Hier ist, wie es funktioniert:
-
+Das Lightning-Netzwerk ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Transaktionen mit minimaler Interaktion mit der Haupt-Blockchain von Bitcoin ermöglicht. So funktioniert es:
 
 - **Ersteinrichtung:** Gelder werden auf der Hauptblockchain gesperrt (escrowed), um einen Zahlungskanal zwischen 2 Parteien zu etablieren.
-- **Zahlungsnetz:** Ein Netz von Zahlungskanälen zwischen mehreren Parteien bildet ein Zahlungsnetz (Weiterleitung und Zusammenschaltung).
-- **Off-Chain-Transaktionen:** Transaktionen finden zwischen Parteien statt, werden aber **nicht sofort** auf der Haupt-Blockchain von Bitcoin veröffentlicht (**"off-chain"**).
-- **On-Chain-Abrechnungen:** Nur der **Endsaldo** der Transaktionen eines Kanals wird auf der Bitcoin-Hauptblockchain (**"on-chain"**) veröffentlicht, so dass in der Zwischenzeit zahlreiche Transaktionen stattfinden können. Diese Bündelung mehrerer Zahlungen verringert die Überlastung und senkt somit die Gebühren im Vergleich zu vielen On-Chain-Transaktionen.
+- **Zahlungsnetzwerk:** Ein Netz von Zahlungskanälen zwischen mehreren Parteien bildet ein Zahlungsnetzwerk (Weiterleitung und Zusammenschaltung).
+- **Off-Chain-Transaktionen:** Transaktionen finden zwischen Parteien statt, werden aber **nicht sofort** auf der Haupt-Blockchain von Bitcoin veröffentlicht (**"Off-Chain"**).
+- **On-Chain-Abrechnungen:** Nur der **Endsaldo** der Transaktionen eines Kanals wird auf der Bitcoin-Hauptblockchain (**"On-Chain"**) veröffentlicht, so dass in der Zwischenzeit zahlreiche Transaktionen stattfinden können. Diese Bündelung mehrerer Zahlungen verringert die Überlastung und senkt somit die Gebühren im Vergleich zu vielen On-Chain-Transaktionen.
 - **Kanalschließung:** Ein Nutzer kann seinen Kanal jederzeit schließen und seine Bitcoin zurückfordern, indem er den letzten Transaktionsstatus veröffentlicht. Dies ist das Prinzip von Transaktionen, die jederzeit **"veröffentlicht"** werden können, aber **"unveröffentlicht"** sind, bis sie benötigt werden. Der Ausstieg (Kanalschließung) kann einseitig (von einer der beiden Parteien jederzeit entschieden) oder einvernehmlich erfolgen (was zu niedrigeren On-Chain-Gebühren führt)
 
 ![BIZ101](assets/de/005.webp)
 
-Dieser Ansatz vermeidet die Langsamkeit und Komplexität der Durchführung jeder Transaktion direkt auf der Bitcoin-Hauptblockchain, indem er nur die endgültigen Salden aufzeichnet und seine Sicherheit beibehält. Das Lightning Network ist eine Schicht "on top" von Bitcoin, bleibt aber mit diesem verankert.
+Dieser Ansatz vermeidet die Langsamkeit und Komplexität der Durchführung jeder Transaktion direkt auf der Bitcoin-Hauptblockchain, indem er nur die endgültigen Salden aufzeichnet und seine Sicherheit beibehält. Das Lightning-Netzwerk ist eine Schicht "auf" von Bitcoin, bleibt aber mit diesem verankert.
 
 **Ein globales Zahlungsnetzwerk**
 
-Das Protokoll schafft ein **Netzwerk** von Maschinen, deren Kanäle ein universelles Zahlungssystem bilden. Diese Knotenpunkte können von Privatpersonen oder Unternehmen frei betrieben werden, so dass es sich um ein völlig offenes Netz handelt.
+Das Protokoll schafft ein **Netzwerk** von Maschinen, deren Kanäle ein universelles Zahlungssystem bilden. Diese Nodes können von Privatpersonen oder Unternehmen frei betrieben werden, so dass es sich um ein völlig offenes Netzwerk handelt.
 
-Das Lightning Network ermöglicht den sofortigen Austausch von Werten in Lichtgeschwindigkeit. Es ist wie ein E-Mail-Protokoll, das auf Zahlungen angewendet wird: ein Zahlungsnetzwerk der nächsten Generation. Es verändert die Art und Weise, wie "Geld" bewegt wird, radikal und macht es so kostenlos und schnell wie die Datenübertragung im Internet.
+Das Lightning-Netzwerk ermöglicht den sofortigen Austausch von Werten in Lichtgeschwindigkeit. Es ist wie ein E-Mail-Protokoll, das auf Zahlungen angewendet wird: ein Zahlungsnetzwerk der nächsten Generation. Es verändert die Art und Weise, wie "Geld" bewegt wird, radikal und macht es so kostenlos und schnell wie die Datenübertragung im Internet.
 
 ![BIZ101](assets/de/006.webp)
 
 **Schlüsselvorteile:**
-
 
 - **Geschwindigkeit:** Sofortige Transaktionen.
 - **Niedrige Gebühren:** Viel niedrigere Kosten im Vergleich zu traditionellen Bankennetzen.
@@ -289,26 +284,24 @@ Die Anwendungsmöglichkeiten von Lightning gehen weit über niedrige Gebühren u
 
 Lightning stärkt die Rolle von Bitcoin als "Tauschmittel" Indem es die Häufigkeit und Freiheit von Transaktionen erhöht, stärkt es die primäre Funktion von Geld: die Erleichterung des wirtschaftlichen Austauschs und der Wertschöpfung für alle Teilnehmer.
 
-Der künftige Aufstieg der "Smart-Machine-Economy" erfordert ein ultraschnelles, hochfrequentes Zahlungssystem, einen technischen Standard, den nur Lightning erfüllen kann. Dies ermöglicht die Schaffung von mehr Waren und Dienstleistungen. Da das Angebot von Bitcoin begrenzt bleibt, wird die Kaufkraft jeder Einheit steigen. Bitcoin und Lightning werden gemeinsam stärker, wenn deine Netzwerke expandieren.
+Der künftige Aufstieg der "Smart-Machine-Wirtschaft" erfordert ein ultraschnelles, hochfrequentes Zahlungssystem, einen technischen Standard, den nur Lightning erfüllen kann. Dies ermöglicht die Schaffung von mehr Waren und Dienstleistungen. Da das Angebot von Bitcoin begrenzt bleibt, wird die Kaufkraft jeder Einheit steigen. Bitcoin und Lightning werden gemeinsam stärker, wenn ihre Netzwerke expandieren.
 
 Lightning bietet einen Blick in eine Zukunft, in der alle Unternehmen, die internetbasiert sind, auch Bitcoin-basiert sein werden.
 
 **Bitcoin-Zahlungen mit Lightning: Ein typischer Anwendungsfall für Händler**
 
-Das Lightning Network ist aufgrund seiner Geschwindigkeit und der Endgültigkeit der Zahlung ideal für Bitcoin-Zahlungen in physischen oder Online-Geschäften.
-
+Das Lightning-Netzwerk ist aufgrund seiner Geschwindigkeit und der Endgültigkeit der Zahlung ideal für Bitcoin-Zahlungen in physischen oder Online-Geschäften.
 
 - **Geschwindigkeit:** Lightning (~500ms bis wenige Sekunden) ist deutlich schneller als das Bitcoin-Hauptnetzwerk, wo Transaktionen bis zu 30 Minuten dauern können, um bestätigt zu werden. Für große Käufe (weit über 1.000 $) kann das Bitcoin-Hauptnetzwerk immer noch bevorzugt werden, da die Geschwindigkeit weniger kritisch ist. Diese Details bleiben dem Durchschnittsnutzer jedoch oft verborgen, da Anwendungen diese Entscheidungen nahtlos im Hintergrund abwickeln.
 - **Endgültigkeit:** Sobald eine Zahlung über Lightning erfolgt ist, ist sie endgültig. Es gibt keine Möglichkeit von Rückbuchungen durch Dritte oder betrugsbedingte Streitigkeiten.
-- **Gebühren:** Die Transaktionsgebühren im Lightning Network sind minimal und werden vom Nutzer bezahlt, nicht vom Händler. Für Händler fallen nur dann Gebühren an, wenn sie deine Bitcoin später auf ein anderes Netzwerk oder einen anderen Dienst übertragen müssen.
+- **Gebühren:** Die Transaktionsgebühren im Lightning-Netzwerk sind minimal und werden vom Nutzer bezahlt, nicht vom Händler. Für Händler fallen nur dann Gebühren an, wenn sie ihre Bitcoin später auf ein anderes Netzwerk oder einen anderen Dienst übertragen müssen.
 
-**BLITZAUSWEIS**
-
+**LIGHTNING-AUSWEIS**
 
 - **Erfindung:** 2015
 - **Einführung:** 2016
-- **Alter:** 7 Jahre (erste Transaktion: 28. Dezember 2017)
-- **Technische Fähigkeiten des Netzes:** Im großen Maßstab kann es 1.000-mal mehr Soforttransaktionen verarbeiten als herkömmliche Systeme.
+- **Alter:** 8 Jahre (erste Transaktion: 28. Dezember 2017)
+- **Technische Fähigkeiten des Netzwerks:** Im großen Maßstab kann es 1.000-mal mehr Soforttransaktionen verarbeiten als herkömmliche Systeme.
 - **Transaktionsgrößen:** Die Bandbreite reicht von so groß bis 1.000-mal kleiner als bei herkömmlichen Systemen.
 - **Transaktionsgeschwindigkeit:** Bis zu 100 Mal schneller.
 - **Gebühren:** Bis zu 90 % niedriger.
@@ -317,17 +310,17 @@ Das Lightning Network ist aufgrund seiner Geschwindigkeit und der Endgültigkeit
 - **Merkmale:**
     - Peer-to-Peer
     - Universal
-    - Erlaubnisfrei
+    - Permissionless
     - Gute Privatsphäre
     - Bewährte Sicherheit
     - Hohe Verfügbarkeit (hervorragende Betriebszeit)
     - Kontrollierbar und anpassungsfähig
 
-Für weitere Informationen über die technische Funktionsweise des Lightning Network empfehle ich auch diesen anderen umfassenden Kurs zu besuchen:
+Für weitere Informationen über die technische Funktionsweise des Lightning-Netzwerks empfehle ich auch diesen anderen umfassenden Kurs zu besuchen:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-# Bitcoin in der Staatskasse
+# Bitcoin in der Bilanz
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
 

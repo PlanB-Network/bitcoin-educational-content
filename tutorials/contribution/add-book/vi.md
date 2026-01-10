@@ -13,7 +13,7 @@ Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bi
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Truy cập [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
+- Truy cập vào [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
 ![book](assets/02.webp)
 - Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![book](assets/03.webp)
@@ -21,7 +21,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/04.webp)
 - Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
 ![book](assets/05.webp)
-- Tạo một thư mục cho cuốn sách của bạn. Tại ô `Name your file...`, nhập tên cuốn sách bằng chữ thường và dùng dấu gạch ngang thay cho khoảng trắng. Ví dụ, nếu cuốn sách của bạn có tên là "*My Bitcoin Book*", bạn nên ghi là `my-bitcoin-book`:
+- Tạo một thư mục cho cuốn sách của bạn. Tại ô `Name your file...`, nhập tên cuốn sách bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu cuốn sách của bạn có tên là "*My Bitcoin Book*", bạn nên ghi là `my-bitcoin-book`:
 ![book](assets/06.webp)
 - Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `my-bitcoin-book/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![book](assets/07.webp)
@@ -40,16 +40,16 @@ tags:
 Dưới đây là thông tin chi tiết cho từng trường:
 - **`author`**: Tên tác giả cuốn sách.
 - **`level`**: Mức độ kiến thức cần thiết để đọc và hiểu sách. Chọn một trong các mức sau:
-	- `beginner` (người mới)
-	- `intermediate` (trung cấp)
-  - `advanced` (nâng cao)
-  - `expert` (chuyên gia)
+	- `beginner`
+	- `intermediate`
+  - `advanced`
+  - `expert`
 - **`tags`**: Thêm 2-3 thẻ (tag) liên quan đến cuốn sách của bạn. Ví dụ:
     - `bitcoin`
-    - `history` (lịch sử)
-    - `technology` (công nghệ)
-    - `economy` (kinh tế)
-    - `education` (giáo dục)...
+    - `history`
+    - `technology`
+    - `economy`
+    - `education`
 
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
@@ -67,9 +67,9 @@ tags:
 - Thêm tiêu đề cho thay đổi của bạn, kèm theo mô tả ngắn: ![book](assets/11.webp)
 - Nhấn vào nút `Propose changes`:
 ![book](assets/12.webp)
-- Bạn sẽ đến trang tóm tắt tất cả các thay đổi của mình:
+- Hệ thống sẽ chuyển bạn đến trang tổng hợp tất cả các thay đổi vừa thực hiện:
 ![book](assets/13.webp)
-- Nhấn vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
+- Nhấn vào ảnh hồ sơ GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
 ![book](assets/14.webp)
 - Chọn bản fork của repository Plan ₿ Academy:
 ![book](assets/15.webp)
@@ -93,13 +93,13 @@ tags:
 ![book](assets/24.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Upload files`:
 ![book](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo thả ảnh bìa sách của bạn vào khu vực tải lên. Ảnh này sẽ được hiển thị trên trang Plan ₿ Academy:
+- Một trang mới sẽ mở ra. Kéo thả ảnh bìa sách của bạn vào khu vực tải lên. Ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
 ![book](assets/26.webp)
 - Lưu ý: Ảnh nên có định dạng giống bìa sách để phù hợp nhất với website, ví dụ như:
 ![book](assets/27.webp)
-- Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn vào `Commit changes`:
+- Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn `Commit changes`:
 ![book](assets/28.webp)
-- Lưu ý quan trọng: Ảnh phải được đặt tên là `cover_en` nếu bìa bằng tiếng Anh và định dạng `.webp`. Tên file đầy đủ sẽ là `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, v.v. Nếu bạn muốn dùng bìa khác nhau cho từng ngôn ngữ (ví dụ sách dịch), bạn có thể đặt tất cả trong cùng thư mục assets:
+- Lưu ý quan trọng: Ảnh phải được đặt tên là `cover_en` nếu bìa bằng tiếng Anh và phải ở định dạng `.webp`. Tên file đầy đủ sẽ là `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, v.v. Nếu bạn muốn dùng bìa khác nhau cho từng ngôn ngữ (ví dụ sách dịch), bạn có thể đặt tất cả trong cùng thư mục assets:
 ![book](assets/29.webp)
 - Quay lại thư mục `assets` và nhấn vào tệp trung gian `.gitkeep`:
 ![book](assets/30.webp)
@@ -131,7 +131,7 @@ Dưới đây là chi tiết cần điền cho mỗi trường:
 - **`publication_year`**: Năm xuất bản sách.
 - **`cover`**: Tên của tệp ảnh bìa tương ứng với ngôn ngữ của tệp YAML đang chỉnh sửa. Ví dụ, với tệp `en.yml` và ảnh bìa tiếng Anh đã tải lên trước đó là `cover_en.webp`, điền `cover_en.webp` trong trường này.
 - **`description`**: Thêm một mô tả ngắn về sách. Mô tả phải bằng ngôn ngữ tương ứng với tên tệp YAML.
-- **`contributors`**: Thêm ID người đóng góp của bạn nếu có.
+- **`contributors`**: Thêm ID người đóng góp (contributor) của bạn nếu có.
 
 Ví dụ, tệp YAML của bạn có thể trông như thế sau:
 

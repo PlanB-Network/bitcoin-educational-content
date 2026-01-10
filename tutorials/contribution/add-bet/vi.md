@@ -25,7 +25,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/04.webp)
 - Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
 ![event](assets/05.webp)
-- Tạo một thư mục cho nội dung của bạn. Tại ô `Name your file...`, bạn nhập tên nội dung bằng chữ thường và dùng dấu gạch ngang thay cho khoảng trắng. Ví dụ: tôi muốn thêm một tài liệu PDF minh họa cho danh sách từ vựng BIP39 (BIP39 wordlist) gồm 2048 từ, tôi sẽ đặt tên thư mục là `bip39-wordlist`: ![event](assets/06.webp)
+- Tạo một thư mục cho nội dung của bạn. Tại ô `Name your file...`, bạn nhập tên nội dung bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ: tôi muốn thêm một tài liệu PDF minh họa cho danh sách từ vựng BIP39 (BIP39 wordlist) gồm 2048 từ, tôi sẽ đặt tên thư mục là `bip39-wordlist`: ![event](assets/06.webp)
 - Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `bip39-wordlist/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![event](assets/07.webp)
 - Trong thư mục vừa tạo, bạn sẽ tạo một tệp YAML đầu tiên có tên `bet.yml`:
@@ -86,13 +86,13 @@ links:
 ![event](assets/09.webp)
 - Sau khi hoàn tất việc chỉnh sửa tệp này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
 ![event](assets/10.webp)
-- Thêm một tiêu đề cho các thay đổi của bạn, kèm theo một mô tả ngắn gọn:
+- Thêm tiêu đề cho các thay đổi của bạn, kèm theo một mô tả ngắn gọn:
 ![event](assets/11.webp)
 - Nhấn vào nút `Propose changes`:
 ![event](assets/12.webp)
 - Hệ thống sẽ chuyển bạn đến trang tổng hợp tất cả các thay đổi vừa thực hiện:
 ![event](assets/13.webp)
-- Nhấn vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
+- Nhấn vào ảnh hồ sơ GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
 ![event](assets/14.webp)
 - Chọn bản fork của repository Plan ₿ Academy:
 ![event](assets/15.webp)
@@ -108,13 +108,13 @@ links:
 ![event](assets/20.webp)
 - Trong thư mục `assets` này, tạo một tệp có tên `.gitkeep`: ![event](assets/21.webp)
 - Nhấn vào nút `Commit changes...`: ![event](assets/22.webp)
-- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn vào `Commit changes`: ![event](assets/23.webp)
+- Giữ nguyên tiêu đề commit mặc định, và đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn `Commit changes`: ![event](assets/23.webp)
 - Quay lại thư mục `assets`: ![event](assets/24.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Upload files`: ![event](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo thả ảnh thu nhỏ (thumbnail) đại diện cho nội dung của bạn vào khu vực tải lên. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![event](assets/26.webp)
+- Một trang mới sẽ mở ra. Kéo thả ảnh thu nhỏ (thumbnail) đại diện cho nội dung của bạn vào khu vực tải lên. Ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![event](assets/26.webp)
 - Đó có thể là một bản xem trước, logo, hoặc biểu tượng: ![event](assets/27.webp)
-- Sau khi hình ảnh đã được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn vào `Commit changes`: ![event](assets/28.webp)
-- Lưu ý, hình ảnh của bạn phải được đặt tên là `logo` và có định dạng `.webp`. Tên tệp tin đầy đủ phải là: `logo.webp`: ![event](assets/29.webp)
+- Sau khi hình ảnh đã được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn `Commit changes`: ![event](assets/28.webp)
+- Lưu ý, hình ảnh của bạn phải được đặt tên là `logo` và phải ở định dạng `.webp`. Tên tệp tin đầy đủ phải là: `logo.webp`: ![event](assets/29.webp)
 - Quay lại thư mục `assets` của và nhấp vào tệp trung gian `.gitkeep`: ![event](assets/30.webp)
 - Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`: ![event](assets/31.webp)
 - Đảm bảo bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấn vào nút `Commit changes`: ![event](assets/32.webp)

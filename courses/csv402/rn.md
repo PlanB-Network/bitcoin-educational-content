@@ -1749,91 +1749,91 @@ Muri ivyo, **Itanguriro** na **State Extension** rimwe na rimwe vyitwa "*Ibikorw
 ![RGB-Bitcoin](assets/en/064.webp)
 
 
-**Igihugu gikora** ca Contract akenshi gisobanurwa nk'umugwi w'ibihugu bishasha biva ku mateka (DAG) y'ibikorwa, gutangura na Genesis bigakurikira ivyuma vyose biri muri Bitcoin Blockchain. Intara zose za kera zisanzwe zitagikoreshwa (i.e. zifatanye n’ama UTXO yakoreshejwe) ntizigifatwa nk’izikora, ariko ziguma ari ngirakamaro mu kugenzura ukuntu amateka ahuye.
+**Uko bimeze** ivy'amasezerano kenshi biba bisigurwa nk'umugwi w'ibihugu bishasha biva kuri kahise (DAG) k'ihanahanwa, gutangura kw'itanguriro bigakurikira ibishinze mumizi vyose biri muri Blockchain ya Bitcoin. Uko vyari bimeze kwose kera biba vyaravuye kugihe (i.e. zifatanye kugira zikoreshwe ama UTXO) ntizigifatwa nk’izikora, ariko ziguma ari ngirakamaro mu kugenzura ukuntu kahise ihuye.
 
 
-### Genesis
+### Itanguriro
 
 
-Genesis ni intango ya RGB yose Contract. Iremwa n'uwayitanga Contract kandi isobanura ibipimo vy'intango, bihuye na **Schema**. Ku bijanye na RGB token, Genesis ishobora gusobanura, nk’akarorero:
+Itanguriro ni intango y'amasezerano ya RGB. Iremwa n'uwayitanga Amasezerano kandi isobanura ibipimo vy'intango, bihuye n' **Igicapo**. Ku bijanye na token ya RGB, Itanguriro ishobora kubivuga neza, akarorero:
 
 
 
 
-- Igitigiri c’ibimenyetso vyaremwe mu ntango n’ababifise;
+- Igitigiri c’ama token yakozwe vy'ukuri n'abayafise;
 - Igitigiri cose c’ibibazo bishoboka;
-- Amategeko yose yo gusubira gusohora, n’abaje mu nama bashobora gutora.
+- Amategeko yose yo gusubira gusohora, ayo abayikoresha bashobora gutora.
 
 
-Kubera ko ari ryo rya mbere rigurishwa muri Contract, Genesis ntivuga igihugu na kimwe ca kera, eka mbere ntiyifunga Seal iyo ari yo yose. Ariko rero, kugira ngo Genesis iboneke muri kahise kandi yemezwe, itegerezwa **gukoreshwa** (ipfungwa) na State Transition ya mbere (kenshi ni igikorwa co gucapura/kwikoresha ubwaco ku wuyitanga ubwiwe, canke ugutanga ubwa mbere ku bakoresha).
+Kuba  ihanahanwa ryambere mumasezerano, Itanguriro ntakindi citegererezo nakimwe ifise, eka mbere ntaniyindi Serire nimwe yugara. Ariko rero, kugira ngo Itanguriro riboneke muri kahise nakamwe kandi yemerwe, itegerezwa **gukoreshwa** (ipfungwa) n'uko yarimeze imbere  (kenshi ni igikorwa co gucapura/kwikoresha ubwaco ku wuyitanga ubwiwe, canke ugutanga ubwa mbere ku bakoresha).
 
 
-### State Extension
+### Uko bimeze iyongerwako
 
 
-**Ivyiyumviro vya Leta** bitanga ikintu c'umwimerere ku masezerano y'ubwenge. Bituma bishoboka ku Redeem uburenganzira bumwe bumwe bw'ubuhinga bwa none (*Valenties*) buvugwa mu nsobanuro ya Contract, ata gufunga Seal ubwo nyene. Akenshi, ivyo bireba:
+**Uko bimeze iyongeweko** bitanga ikintu c'umwimerere kuri smart contracts. Bituma bishoboka kwitangira uburenganzira bumwe bumwe bw'ubuhinga bwa none (*Valenties*) buvugwa mu nsobanuro y'amasezerano, ata gufunga Serire ubwo nyene. Akenshi, vyerekeye:
 
 
 
 
-- Ibinyamakuru vya token vyatanzwe;
+- Ingirane za token zasabikanijwe;
 - Uburyo bwo guhindura itunga;
 - Gusubira gusohora bifise ivyangombwa (bishobora kubamwo no gusenyura ibindi bintu n’ibindi).
 
 
-Mu buryo bw’ubuhinga, State Extension yerekeza kuri *Redeem* (ubwoko bumwe bw’inyungu ya RGB) buhuye na *Valency* yasobanuwe mbere (nk’akarorero, muri Genesis canke uwundi State Transition). Irasobanura Seal nshasha, iboneka ku muntu canke ku kibazo kivyungukirako. Kugira ngo iyo Seal ikore, itegerezwa gukoreshwa n’iyindi State Transition ikurikira.
+Mu buryo bw’ubuhinga, Uko bimeze iviyongeweko vyerekana *Ukwitanga* (ubwoko bumwe bw’inyungu ya RGB) buhuye na *Valency* yasobanuwe ubuheruka (nk’akarorero, mw'itanguriro canke uwundi uko bimeze ivyongeweko). Isigura Serire nshasha, iboneka ku muntu canke ku kibazo kivyungukirako. Kugira ngo iyo Serire ikore, itegerezwa gukoreshwa n’iyindi ukobimeze ivyongeweko.
 
 
 ![RGB-Bitcoin](assets/en/065.webp)
 
 
-Nk’akarorero: Genesis irema uburenganzira bwo gutanga (*Valency*). Ivyo bishobora gukorwa n’umukinyi yemerewe, aca yubaka State Extension:
+Nk’akarorero: Itanguriro rirema uburenganzira bwo gutanga (*Valency*). Ivyo bishobora gukorwa n’umukinyi yemerewe, aca yubaka uko bimeze ivyongeweko:
 
 
 
 
 - Rivuga igitabu ca Valency (Redeem);
-- Irema *Assignment* nshasha (amakuru mashasha ya *Owned State*) yerekana UTXO;
-- State Transition izoza, isohowe na nyen’iyi UTXO nshasha, mu vy’ukuri izokwimurira canke igatanga ivyo bimenyetso bishasha vyasohowe.
+- Irema *Umwimenyerezo* nshasha (amakuru mashasha ya *y'uko bimeze ibifiswe*) yerekana UTXO;
+- Uko bimeze ivyongeweko bizoza, isohowe na nyen’iyi UTXO nshasha, mu vy’ukuri izokwimurira canke igatanga ivyo bimenyetso bishasha vyasohowe.
 
 
-### Ibice vy'indege Contract Operation
+### Ibigizwe n'ibikorwa vy'amasezerano
 
 
-Ubu rero ndashaka kuraba mu buryo burambuye buri kimwe mu bigize Elements ya **Contract Operation** muri RGB. Contract Operation ni igikorwa gihindura uko Contract imeze, kandi cemezwa ku ruhande rw’umukiriya, mu buryo bugenwa, n’uwuyironka mu buryo bubereye. Cane cane, turabona ingene Contract Operation ifata mu muzirikanyi, ku ruhande rumwe, **ivya kera** vya Contract, ku rundi ruhande, insobanuro ya **ivya kera** .
+Ubu rero ndashaka kuraba mu buryo burambuye buri kimwe muduce tugize **Ibikorwa vy'amasezerano** muri RGB. Ibikorwa vy'amasezerano ni igikorwa gihindura uko amasezerano ameze, kandi cemezwa ku ruhande rw’umuguzi, mu buryo bugenwa, n’uwuyironka mu buryo bubereye. Cane cane, turabona ingene Ibikorwa vy'amasezerano ifata mu muzirikanyi, ku ruhande rumwe, **ivya kera** vy'amasezerano, ku rundi ruhande, insobanuro ya **ivya kera** .
 
 
 ```txt
 +---------------------------------------------------------------------------------------------------------------------+
-|  Contract Operation                                                                                                 |
+|  Ibikorwa vy'amasezerano                                                                                                 |
 |                                                                                                                     |
 |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |
-|  | Ffv |     | ContractId | SchemaId |      | TransitionType | ExtensionType |      | Testnet |     | AltLayers1 |  |
+|  | Ffv |     | Ikoranga amasezerano | Ikiranga igicapo |      | Uko impinduka imeze | Uko ivyiyongerwako bimeze |      | Ivyo ukugerageza |     | AltLayers1 |  |
 |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |
 |                                                                                                                     |
 |  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|  | Metadata                                      |  | Global State                                               |  |
+|  | Amakuru y'umwimerere                                      |  | Uko bimeze muri rusangi                                              |  |
 |  |                                               |  | +----------------------------------+                       |  |
 |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
-|  | |          Structured Data            |       |  | | |  GlobalStateType  | |  Data  | |     ...     ...       |  |
+|  | |          Amakuru uko yubatse           |       |  | | | Uko bimeze muri rusangi  | |  Amakuru  | |     ...     ...       |  |
 |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
 |  |                                               |  | +----------------------------------+                       |  |
 |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
-|                                                                                                                     +---------> OpId |
+|                                                                                                                     +---------> Ikiranga igikorwa |
 |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
-|  | Inputs                                        |  | Assignments                                                |  |
+|  | Ibishirwamwo                                        |  | Imyimenyererezo                                                |  |
 |  |                                               |  |                                                            |  |
 |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  | | Input #1                                  | |  | | Assignment #1                                          | |  |
+|  | | Ibishirwamwo #1                                  | |  | | Umwimenyererezo #1                                          | |  |
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
-| OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
+| Ikiranga igikorwa +--------------> Ibiranga ivyemeza igikorwa | | Ubwoko bw'umwimenyerezo | | Urutonde | | |  | | | Ubwoko bw'umwimenyerezo | | Ukobimeze | | Insiguro ya Serire +--------------> UTXO ya Bitcoin |
 +------+       |  | | +----------+ + ---------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
 |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
 |  |                                               |  |                                                            |  |
 |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  | | Input #2                                  | |  | | Assignment #2                                          | |  |
+|  | | Ibishirwamwo #2                                  | |  | | Umwimenyerezo #2                                          | |  |
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
-| OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
+| Ikiranga igikorwa +--------------> Ibiranga ivyemeza igikorwa | | Ubwoko bw'umwimenyerezon | | Urutonde | | |  | | | ikieranga umwimenyerezo | | Ukobimeze| | Insiguro ya Serire +--------------> UTXO ya Bitcoin |
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
 |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
 |  |                                               |  |                                                            |  |
@@ -1842,11 +1842,11 @@ Ubu rero ndashaka kuraba mu buryo burambuye buri kimwe mu bigize Elements ya **C
 |  +-----------------------------------------------+  +------------------------------------------------------------+  |
 |                                                                                                                     |
 |  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|  | Redeems                                       |  | Valencies                                                  |  |
+|  | Ubwitange                                       |  | Valencies                                                  |  |
 |  |                                               |  |                                                            |  |
 |  | +------------------------------+              |  |                                                            |  |
 +------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |
-| OpId +--------------> PrevOpId | | ValencyType | |  ...   ...   |  |  | ValencyType |  | ValencyType |         ...              |  |
+| Ibiranga igkorwa +--------------> Ibiranga ivyemeza igikorwa | | Ubwoko bwa Valency | |  ...   ...   |  |  | Ubwoko bwa Valency |  | Ubwoko bwa Valency |         ...              |  |
 +------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |
 |  | +------------------------------+              |  |                                                            |  |
 |  |                                               |  |                                                            |  |
@@ -1857,196 +1857,196 @@ Ubu rero ndashaka kuraba mu buryo burambuye buri kimwe mu bigize Elements ya **C
 ```
 
 
-Turavye igishushanyo kiri hejuru, turabona ko Contract Operation irimwo Elements yerekeza ku **Leta Nshasha** n’izindi zivuga **Leta ya kera** yahinduwe.
+Turavye igishushanyo kiri hejuru, turabona ko igikorwa c'amasezerano kirimwo ibintu yerekeza ku **Ibintu bisigaye bimeze** n’izindi zivuga **uko ibintu vyari biri** vyashizwe kugihe.
 
 
-Elements za **Leta Nshasha** ni:
-
-
-
-
-- **Inshingano**, muri zo zisobanurwa:
- - Ivyo **Seal Definition**;
- - Ivyo **Owned State**.
-- Ico **Global State**, gishobora guhindurwa canke gutunganirizwa;
-- **Ivyiza**, bishobora kuba bisobanuwe muri State Transition canke Genesis.
-
-
-**Igihugu ca kera** kivugwa biciye kuri:
+Ibintu za **v'uko vyahora bimeze** ni:
 
 
 
 
-- **Inputs**, zigaragaza *Ibikorwa* vy'imihindukire ya Leta ya kera (ntibiri muri Genesis);
-- **Redeems**, zivuga ku Valencies zasobanuwe mbere (mu Vyagutse vya Leta gusa).
+- **Umwimenyerezo**, muriwo bisiguwe:
+ - Ivyo **Insiguro ya Serire**;
+ - Ivyo **Uko bimeze bifiswe n'abandi**.
+- Ico **Uko bimeze muri rusangi**, bishobora guhindurwa canke bigatunganirizwa;
+- **Valencies**, bishobora kuba bisobanuwe muri n'uko bimeze ivyongeweko canke Itanguriro.
 
 
-Ikindi, Contract Operation irimwo ibindi bibanza rusangi vyerekeye igikorwa:
+**Uko vyaribimeze** vyerekanwa biciye kuri:
 
 
 
 
-- `ffv` (*Verisiyo yihuta*): umubare wose w'amabayiti 2 ugaragaza verisiyo ya Contract;
-- `UbwokoBw'Impinduka` canke `UbwokoBw'Ikwaguka`: Umubare w'ibice 16 ugaragaza ubwoko bw'Impinduka canke Ukwaguka, hakurikijwe Business Logic;
-- `Id y'amasezerano`: umubare w'amabayiti 32 yerekeye *OpId* ya Contract Genesis. Ishizwe mu Nzira z’Impinduka n’Ivyagutse, ariko ntiziri mu Genesis;
-- schemaId: iri muri Genesis gusa, iyi ni Hash y'amabayite 32 iserukira imiterere (*Schema*) ya Contract;
-- `Testnet`: Igiharuro kigaragaza nimba uri ku rubuga rwa Testnet canke Mainnet. Genesis gusa;
-- `altlayers1`: umuhinduzi ugaragaza ubundi buryo Layer (Sidechain canke ubundi) bukoreshwa ku makuru ya Anchor yongerako Bitcoin. Iriho gusa muri Genesis;
-- `metadata`: umwanya ushobora kubika amakuru y'igihe gito, ngirakamaro mu kwemeza Contract igoye, ariko udategerezwa kwandikwa mu mateka y'imimerere ya nyuma.
+- **Ibishirwamwo**, zigaragaza *Ibikorwa* vy'imihindukire y'iko vyari bimeze (ntibiri mw'itanguriro);
+- **ukwitanga**, bivugwa ku Valencies zasobanuwe mbere (mu Vy'uko bimeze ivyiyongeweko).
 
 
-Ubwa nyuma, ivyo bibanza vyose bihurizwa hamwe n'uburyo bwo gukora hashing, kugira ngo bivemwo ikimenyetso c'urutoke kidasanzwe, `OpId`. Iyi `OpId` ica ishirwa muri Transition Bundle, igatuma ishobora kwemezwa no kwemezwa muri porotokole.
+Ikindi, Ibikorwa vy'amasezerano birimwo ibindi bibanza rusangi vyerekeye igikorwa:
 
 
-Buri *Contract Operation* rero imenyekana n'igice ca Hash c'amabayite 32 citwa `OpId`. Iyi Hash ibarwa n’i SHA256 Hash y’iyi Elements yose igize igikorwa. Mu yandi majambo, *Contract Operation* yose irafise Commitment yayo y’ibanga, irimwo amakuru yose akenewe kugira ngo umuntu asuzume ukuri n’uko igikorwa gihuye.
 
 
-RGB Contract rero imenyekana na `ContractId`, ikomoka kuri Genesis `OpId` (kubera ko ata gikorwa c’imbere ya Genesis). Mu majambo nyayo, dufata Genesis `OpId`, tugahindura urutonde rwa byte maze tugakoresha ubuhinga bwa Base58. Ivyo bituma `ContractId` yoroha gukoresha no kumenya.
+- `ffv` (*Verisiyo yihuta*): igitigiri cose c'ama byte 2 cerekana uko amasezerano ameze;
+- `Ubwoko Bw'Impinduka` canke `Ubwoko bw'Ukwongerwako`: Umubare w'ibice 16 ugaragaza ubwoko bw'Impinduka canke Ukwaguka, hakurikijwe uko ishoramari rimeze;
+- `Id y'amasezerano`: umubare w'amabayiti 32 yerekeye *OpId* y'amasezerano y'itanguriro. Ishizwe mu Nzira z’Impinduka n’Ivyagutse, ariko ntiziri mw'itanguriro;
+- schemaId: iri mw'itanguriro gusa, iyi ni Hash y'amabayite 32 iserukira imiterere (*Schema*) y'amasezerano;
+- `Testnet`: Igiharuro kigaragaza nimba uri ku rubuga rwa Testnet canke Mainnet. Itanguriro gusa;
+- `altlayers1`: umuhinduzi ugaragaza ubundi buryo Layer (Sidechain canke ubundi) bukoreshwa ku makuru ya Anchor yongerako Bitcoin. Iriho gusa mw'itanguriro;
+- `metadata`: umwanya ushobora kubika amakuru y'igihe gito, ngirakamaro mu kwemeza amasezerano igoye, ariko udategerezwa kwandikwa mu mateka y'imimerere ya nyuma.
+
+
+Ubwa nyuma, ivyo bibanza vyose bihurizwa hamwe n'uburyo bwo gukora hashing, kugira ngo bivemwo ikimenyetso c'urutoke kidasanzwe, `OpId`. Iyi `OpId` ica ishirwa muri Umutekero w'impinduka, igatuma ishobora kwemezwa no kwemezwa murukwirikirane.
+
+
+Buri *Gikorwa c'amasezerano* rero imenyekana n'igice ca Hash c'ama byte 32 citwa `OpId`. Iyi Hash ibarwa n’i SHA256 Hash y’uduce twose igize igikorwa. Mu yandi majambo, *Igikorwa c'amasezerano* yose irafise ukwiyemeza yayo y’ibanga, irimwo amakuru yose akenewe kugira ngo umuntu asuzume ukuri n’uko igikorwa gihuye.
+
+
+Amasezerano ya RGB rero amenyekana na `ContractId`, ikomoka kw'itanguriro `OpId` (kubera ko ata gikorwa c’imbere y'itanguriro). Mu majambo nyayo, dufata Itanguriro `OpId`, tugahindura urutonde rwa byte maze tugakoresha ubuhinga bwa Base58. Ivyo bituma `ContractId` yoroha gukoresha no kumenya.
 
 ### Uburyo bwo kuvugurura ivyangombwa n'amabwirizwa
 
 
-**Contract State** igereranya amakuru yose umurongo wa RGB utegerezwa gukurikirana ku Contract. Igizwe na:
+**Uko amasezerano ameze** igereranya amakuru yose umurongo wa RGB utegerezwa gukurikirana kumasezerano. Igizwe na:
 
 
 
 
-- **Global State** imwe: iki ni igice ca Contract ca bose, co kw'isi yose, kiboneka kuri bose;
-- Igihugu kimwe canke vyinshi vy'Umutungo: **Owned State** yose ifatanye n'iyindi Seal yihariye (kandi rero UTXO kuri Bitcoin). Hariho itandukaniro hagati ya:
-    - Ibihugu **vya bose**,
-    - Ibihugu **vy’abikorera ku giti cabo**.
+- **Uko bimeze murirsangi** imwe: iki ni igice c'amasezerano ca bose, co kw'isi yose, kiboneka kuri bose;
+- Uko bimeze kimwe canke vyinshi vy'Umutungo: **Owned State** yose ifatanye n'iyindi Serire yihariye (kandi rero UTXO kuri Bitcoin). Hariho itandukaniro hagati ya:
+    - Uko bimeze **kuri bose**,
+    - Uko bimeze **ivy’abikorera ku giti cabo**.
 
 
 ![RGB-Bitcoin](assets/en/066.webp)
 
 
-*Global State* ishirwa ataco ihinduye muri *Contract Operation* nk'igice kimwe. *Ibihugu vy'Umutungo* bisobanurwa muri *Assignment* yose, iruhande ya *Seal Definition*.
+*Uko bimeze muri rusangi* ishirwa ataco ihinduye muri *Igikorwa c'amasezerano* nk'igice kimwe. *Ibihugu vy'Umutungo* bisobanurwa muri *Umwimenyerezo* wose, iruhande ya *insiguro ya Serire*.
 
 
-Ikintu nyamukuru kiranga RGB ni uburyo Global State n’Ibihugu vy’Igihugu bihindurwa. Muri rusangi hari ubwoko bubiri bw'inyifato:
+Ikintu nyamukuru kiranga RGB ni uburyo Uko bimeze muri rusangi n’Ibihugu vy’Igihugu bihindurwa. Muri rusangi hari ubwoko bubiri bw'inyifato:
 
 
 
 
-- **Mutable**: iyo ikintu c'igihugu kidondowe nk'igihinduka, igikorwa gishasha cose gisubirira igihugu ca kera n'igihugu gishasha. Amakuru ya kera rero abonwa ko ataco amaze;
+- **Ihinduka**: iyo ikintu c'uko bimeze bidondowe nk'ibihinduka, igikorwa gishasha cose gisubirira uko vyaribimeze ivya kera n'uko bimeze ivyubu. Amakuru ya kera rero abonwa ko ataco amaze;
 - **Kwirundanira**: iyo ikintu c'intara gisobanuwe nk'ikirundanira, igikorwa gishasha cose congera amakuru mashasha ku ntara y'imbere, ata kwandikako. Ico bivamwo ni ubwoko bw'amateka yirundanijwe.
 
 
-Iyo, muri Contract, ikintu ca leta kitasobanuwe nk'igihinduka canke gitera, ico kintu kizoguma ari ubusa ku bikorwa bikurikira (mu yandi majambo, nta verisiyo nshasha z'iki kibanza). Ni Contract Schema (i.e. Business Logic ifise kode) igena nimba Leta (Isi yose canke Iy’Umuntu) ihinduka, ishobora kwirundanira canke idahinduka. Igihe Genesis imaze gusobanurwamwo, ivyo bishobora guhindurwa gusa iyo Contract ubwayo ibirekuriye, nk'akarorero biciye ku State Extension yihariye.
+Iyo, muma sezerano, ikintu c'uko bimeze bidasiguwe nk'igihinduka canke gitera, ico kintu kizoguma ari ubusa ku bikorwa bikurikira (mu yandi majambo, nta verisiyo nshasha z'iki kibanza). N'igicapo c'amasezerano (i.e. Uko ishoramari ifise kode) igena nimba Leta (Isi yose canke Iy’Umuntu) ihinduka, ishobora kwirundanira canke idahinduka. Igihe itanguriro imaze gusobanurwamwo, ivyo bishobora guhindurwa gusa iyo Amasezerano ubwayo abirekuriye, nk'akarorero biciye kukw'iyongerako ukobimeze yihariye.
 
 
 Imbonerahamwe iri musi yerekana ingene ubwoko bumwebumwe bwa Contract Operation bushobora gukoresha (canke kutakoresha) Global State na Owned State:
 
 
-|                              | Genesis | State Extension | State Transition |
-| ---------------------------- |:-----: |:-------------: |:--------------: |
-| **Addition of Global State** |    +    |        -        |        +         |
-| **Mutation of Global State** |   n/a   |        -        |        +         |
-| **Addition of Owned State**  |    +    |        -        |        +         |
-| **Mutation of Owned State**  |   n/a   |       No        |        +         |
-| **Addition of Valencies**    |    +    |        +        |        +         |
+|                                           | Itanguriro | Uko bimeze ivyongeweko | Uko bimeze ivyongeweko |
+| ---------------------------- |:-----:     |:---------: |:--------------: |
+| **Ivyongegwako kuko bimeze muri rusangi** |    +       |        -        |        +         |
+| **Ivyinguruza kuko bimeze muri rusangi**  |   n/a      |        -        |        +         |
+| **Ivyongerwako ukobimeze ibifiswe**       |    +       |        -        |        +         |
+| **Ivyiguruza ukobimeze ibifiswe**         |   n/a      |       No        |        +         |
+| **Ivyiyongerako kuri  Valencies**         |    +       |        +        |        +         |
 
 
-**`+`**: igikorwa gishoboka iyo Schema ya Contract ibirekuriye.
+**`+`**: igikorwa gishoboka iyo Igicapo c'amasezerano kibirekuriye.
 
 
-**`-`**: igikorwa kigomba kwemezwa na State Transition ikurikira (State Extension yonyene ntifunga Single-Use Seal).
+**`-`**: igikorwa kigomba kwemezwa na Ibihinduka uko bimeze ikurikira (Ivyongerwako kukobimeze vyonyene ntivyugara Serire ikoreshwa rimwe).
 
 
 Ikindi, urugero rw’igihe n’uburenganzira bwo guhindura ubwoko bumwebumwe bw’amakuru birashobora gutandukanywa mu mbonerahamwe ikurikira:
 
 
-|                        | Metadata                                | Global State                                     | Owned State                                                                                              |
+|                        | Amakuruy'imitererere                               | Uko bimeze murirusangi                                     | Ibifiswe uko bimeze                                                                                              |
 | ---------------------- | --------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| **Scope**              | Defined for a single Contract Operation | Defined globally for the contract                | Defined for each seal (*Assignment*)                                                                     |
-| **Who can update it?** | Non-updatable (ephemeral data)          | Operation issued by actors (issuer, etc.)        | Depends on the legitimate holder who owns the seal (the one who can spend it in a following transaction) |
-| **Temporal Scope**     | Only for the current operation          | State is established at the end of the operation | State is defined before the operation (by the *Seal Definition* of the previous operation)               |
+| **Ahobikorerwa**              | Bisigura kubikorwa vy'isezerano | Bisugura murirusangi amasezerano                | Bisigura kuri buri Serire  (*Umwimenyerezo*)                                                                     |
+| **Ninde ashobora kubishira kugihe?** | Ntishobora gushirwa kugihe (Aamakuru afise ahoaherera)          | Igikorwa catanzwe n'abakozi  (Uwutanga, n'ibindi.)        | Bivanye nabemerewe kubitunga bafise Serire (Umwe ashobora kubitanga mwihanahanwa rikurikira) |
+| **Aho bikorerwa vy'infatakibanza**     | Gusa kugikorwa kiriko kiraba          | Uko bimeze bishirwa kumpera y'igikorwa | Ukobimeze bisigurwa imbere y'igikorwa (Imbere *y'insiguro ya Serire* Y'ibikorwa biheruka)               |
 
 
-### Global State
+### Uko bimeze murirusangi
 
 
-Global State akenshi idondorwa ngo "nta n'umwe ayifise, bose barabizi". Irimwo amakuru rusangi yerekeye Contract, ikaba iboneka ku mugaragaro. Nk’akarorero, mu Contract itanga token, birashoboka ko irimwo:
+Uko bimeze muri rusangi akenshi idondorwa ngo "nta n'umwe ayifise, bose barabizi". Irimwo amakuru rusangi yerekeye Aamasezerano, ikaba iboneka ku mugaragaro. Nk’akarorero, mumasezerano atanga token, birashoboka ko irimwo:
 
 
 
 
-- Igiharuro (inyuguti ngufi y’ikigereranyo ya token): `igiharuro`;
+- Igiharuro (indome ngufi y’ikigereranyo ya token): `igiharuro`;
 - Izina ryose rya token: `izina`;
-- Ugushikama (umubare w'ibibanza vy'icumi): `ugushikama`;
+- Ugushikama (Igitigiri c'ibibanza vy'icumi): `ugushikama`;
 - Ivyo gutanga vya mbere (na/canke umupaka w’agaciro kanini wa token): `Itangazwa`;
 - Itariki y'isohoka: `yaremwe`;
 - Amakuru y'amategeko canke ayandi makuru ya bose: `amakuru`.
 
 
-Iyi Global State ishobora gushirwa ku bikoresho vya bose (imbuga ngurukanabumenyi, IPFS, Nostr, Torrent, n’ibindi) igashikirizwa abantu bose. Kandi, inguvu z’ubutunzi (ugukenera gufata no gutanga ivyo bimenyetso, n’ibindi) ni vyo bituma abakoresha Contract bo ubwabo babungabunga no gukwiragiza ayo makuru.
+Uko bimee murirusangi bishobora gushirwa ku bikoresho vya bose (imbuga ngurukanabumenyi, IPFS, Nostr, Torrent, n’ibindi) igashikirizwa abantu bose. Kandi, inguvu z’ubutunzi (ugukenera gufata no gutanga ivyo bimenyetso, n’ibindi) ni vyo bituma abakoresha Amasezerano bo ubwabo babungabunga no gukwiragiza ayo makuru.
 
 
 ### Ibikorwa
 
 
-*Assignment* ni umubumbe w'ishimikiro wo gusobanura:
+*Umwimenyerezo* ni umubumbe w'ishimikiro wo gusigura:
 
 
 
 
-- Igikoresho ca Seal (*Igikoresho ca Seal Definition*), kigaragaza igikoresho ca UTXO kidasanzwe;
-- *Owned State*, ni ukuvuga umutungo canke amakuru ajanye n'iyi Seal.
+- Igikoresho ca Serire (*Igikoresho c'insiguro ya Serire*), kigaragaza igikoresho ca UTXO kidasanzwe;
+- *Uko bimeze*, ni ukuvuga umutungo canke amakuru ajanye n'iyi Serire.
 
 
-*Assignment* ishobora kubonwa nk’ikigereranyo c’igisohoka c’ugucuruza ca Bitcoin, ariko ikaba ifise ubushobozi bwo guhinduranya. Aha niho hari uburyo bwo kwimurira umutungo: *Assignment* ifatanya ubwoko bumwe bw'umutungo canke uburenganzira (`Ubwoko bw'Igikorwa`) na Seal. Uwufise urufunguzo rw’ibanga rwa UTXO rufatanye n’iyi Seal (canke uwushobora gukoresha iyi UTXO) afatwa ko ari nyen’iyi *Owned State*.
+*Umwimenyerezo* ushobora kubonwa nk’ikigereranyo c’igisohoka c’ugucuruza ca Bitcoin, ariko ikaba ifise ubushobozi bwo guhinduranya. Aha niho hari uburyo bwo kwimurira umutungo: *Umwimenyerezo* Ufatanya ubwoko bumwe bw'umutungo canke uburenganzira (`Ubwoko bw'Igikorwa`) na Serire. Uwufise urufunguzo rw’ibanga rwa UTXO rufatanye n’iyi Serire (canke uwushobora gukoresha iyi UTXO) afatwa ko ari nyen’iyi *Owned State*.
 
 
-Kimwe mu bintu bikomeye bikomeye vya RGB ni ubushobozi bwo *guhishura* canke guhisha (*guhisha*) imirima ya *Seal Definition* na *Owned State* uko ushaka. Ivyo bitanga uruvange rukomeye rw’ibanga n’uguhitamwo. Nk’akarorero, urashobora kwemeza ko ihinduka rifise akamaro ata makuru yose utangaje, mu gutanga verisiyo yahishuriwe ku muntu ategerezwa kuyishingira intahe, mu gihe abandi bantu babona gusa verisiyo yihishije (Hash). Mu bikorwa, `OpId` y'ihinduka yama ibarwa ivuye ku makuru *hishijwe*.
+Kimwe mu bintu bikomeye bikomeye vya RGB ni ubushobozi bwo *guhishura* canke guhisha (*guhisha*) imirima ya *Insiguroya Serire* na *Uko bimeze birimuminwe y'abantu* uko ushaka. Ivyo bitanga uruvange rukomeye rw’ibanga n’uguhitamwo. Nk’akarorero, urashobora kwemeza ko ihinduka rifise akamaro ata makuru yose utangaje, mu gutanga verisiyo yahishuriwe ku muntu ategerezwa kuyishingira intahe, mu gihe abandi bantu babona gusa verisiyo yihishije (Hash). Mu bikorwa, `OpId` y'ihinduka yama ibarwa ivuye ku makuru *hishijwe*.
 
 
 ![RGB-Bitcoin](assets/en/067.webp)
 
 
-#### Seal Definition
+#### Insiguro ya Serire
 
 
-*Seal Definition*, mu buryo bwayo bwahishuriwe, ifise ivyicaro bine vy'ishimikiro: `txptr`, `vout`, `uguhuma` na `uburyo`:
+*Insiguro ya Serire*, mu buryo bwayo bwahishuriwe, ifise ivyicaro bine vy'ishimikiro: `txptr`, `vout`, `uguhuma` na `uburyo`:
 
 
 
 
 - **txptr**: ibi ni ivyerekeye UTXO kuri Bitcoin:
-    - Ku bijanye n’indege **Genesis Seal**, yerekana ata guca ku ruhande UTXO iriho (iyo ifatanye n’iyo Genesis);
-    - Mu gihe c'**Igishushanyo Seal**, dushobora kugira:
+    - Ku bijanye n’indege **Itanguriro rya Serire**, yerekana ata guca ku ruhande UTXO iriho (iyo ifatanye n’iyo Tanguriro);
+    - Mu gihe c'**Igishushanyo c'iserire**, dushobora kugira:
         - `txid` yoroshe, iyo yerekana UTXO yihariye,
-        - Canke `WitnessTx`, yerekana ikintu umuntu yishingirako: Seal yerekana igikorwa ubwaco. Ivyo birakenewe cane cane iyo ata UTXO yo hanze iriho, nk'akarorero mu gufungura umurongo wa Lightning, canke iyo uwuronka ata UTXO afise.
-- **vout**: umubare w'isohoka ry'ibikorwa vyerekanywe na `txptr`. Itangazwa gusa ku gishushanyo gisanzwe Seal (si ku `IcabonaTx`);
+        - Canke `WitnessTx`, yerekana ikintu umuntu yishingirako: Serire yerekana igikorwa ubwaco. Ivyo birakenewe cane cane iyo ata UTXO yo hanze iriho, nk'akarorero mu gufungura umurongo wa Lightning, canke iyo uwuronka ata UTXO afise.
+- **vout**: umubare w'isohoka ry'ibikorwa vyerekanywe na `txptr`. Itangazwa gusa ku gishushanyo gisanzwe Serire (si ku `IcabonaTx`);
 - **blinding**: umubare w'ibintu 8 vy'ibanga, kugira ngo hakomezwe ibanga no kubuza gukoresha inguvu z'agahomerabunwa ku bijanye n'akaranga ka UTXO;
 - **uburyo**: yerekana uburyo bwo gushingira intahe bukoreshwa (`Tapret` canke `Opret`).
 
 
-Igishushanyo *cahishijwe* ca Seal Definition ni SHA256 Hash (gifise ikimenyetso) c'uguhuza ivyo bibanza 4, gifise ikimenyetso kidasanzwe kuri RGB.
+Igishushanyo *cahishijwe* c'insiguro ya Serire ni SHA256 Hash (gifise ikimenyetso) c'uguhuza ivyo bibanza 4, gifise ikimenyetso kidasanzwe kuri RGB.
 
 
 ![RGB-Bitcoin](assets/en/068.webp)
 
 
-#### Leta zifise
+#### Uko bimeze bifashwe muminwe
 
 
-Igice ca kabiri ca *Assignment* ni Owned State. Udakunze Global State, ishobora kubaho mu buryo bwa bose canke bw’abantu ku giti cabo:
-
-
-
-
-- **Owned State ya bose**: umuntu wese arazi amakuru ajanye na Seal. Nk'akarorero, ishusho y'abantu bose;
-- **Private Owned State**: amakuru aranyegezwa, amenyekana gusa na nyen'ayo makuru (kandi bishoboka ko ari uwuyashingira intahe iyo bikenewe). Nk'akarorero, igitigiri c'ibimenyetso bifise.
-
-
-RGB isobanura ubwoko bune bw'intara bushoboka (*UbwokoBw'intara*) bwa Owned State:
+Igice ca kabiri ca *Umwimenyerezo* n'uko bimeze biri muminwe y'uwundi. Udakunze Ukobimeze muri rusangi, ishobora kubaho mu buryo bwa bose canke bw’abantu ku giti cabo:
 
 
 
 
-- **Itangazo**: nta makuru y'imibare arimwo, uburenganzira bwo gutangaza gusa (nk'uburenganzira bwo gutora). Ivyo bihishijwe n'ivyo bihishuwe birasa;
-- **Fungible**: igereranya umubare ushobora guhinduka (nk'ibimenyetso). Mu buryo bwahishuriwe, dufise `umubare` n'`uguhuma`. Mu buryo bwihishije, dufise *Pedersen commitment* imwe ihisha umubare n'uguhuma amaso;
-- **Itunganijwe**: ibika amakuru atunganijwe (gushika kuri 64 kB). Mu buryo bwahishuriwe, ni data blob. Mu buryo bwihishije, ni Hash y'iki gice:
+- **Uko bimeze bifashwe muminwe ya bose**: umuntu wese arazi amakuru ajanye na Serire. Nk'akarorero, ishusho y'abantu bose;
+- **Ukobimeze bifashwe muminwe vy'abigenga**: amakuru aranyegezwa, amenyekana gusa na nyen'ayo makuru (kandi bishoboka ko ari uwuyashingira intahe iyo bikenewe). Nk'akarorero, igitigiri c'ibimenyetso bifise.
+
+
+RGB isobanura ubwoko bune bw'intara bushoboka (*UbwokoBw'intara*) bw'uk bimeze bifashwe muminwe:
+
+
+
+
+- **Itangazo**: nta makuru y'ibiharuro arimwo, uburenganzira bwo gutangaza gusa (nk'uburenganzira bwo gutora). Ivyo bihishijwe n'ivyo bihishuwe birasa;
+- **Iyishibotra gusubirirwa**: igereranya igitigiri gshobora guhinduka (nk'ibimenyetso). Mu buryo bwahishuriwe, dufise `igiaruro` n'`uguhuma`. Mu buryo bwihishije, dufise *ukwiyemeza kwa Perdersen* imwe ihisha igitigiri n'uguhuma amaso;
+- **Itunganijwe**: ibika amakuru atunganijwe (gushika kuri 64 kB). Mu buryo bwahishuriwe, mu biharuro blob. Mu buryo bwihishije, ni Hash y'iki gice:
 
 
 ```txt
@@ -2064,7 +2064,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 
 
 
-- **Ivyashizweko**: bihuza dosiye (amajwi, ishusho, bibiri, n'ibindi) na Owned State, bikabika dosiye Hash `file_hash`, ubwoko bwa MIME `ubwoko bw'amakuru` n'umunyu w'ibanga `umunyu`. Dosiye ubwayo iracumbikirwa ahandi. Mu buryo bwihishije, ni Hash ifise ikimenyetso c'ibintu bitatu bibanza:
+- **Ivyashizweko**: bihuza dosiye (amajwi, ishusho, bibiri, n'ibindi) na Ibifiswe muminwe, bikabika dosiye Hash `file_hash`, ubwoko bwa MIME `ubwoko bw'amakuru` n'umunyu w'ibanga `umunyu`. Dosiye ubwayo iracumbikirwa ahandi. Mu buryo bwihishije, ni Hash ifise ikimenyetso c'ibintu bitatu bibanza:
 
 
 ```txt
@@ -2084,13 +2084,13 @@ Mu ncamake, ng’ubu ubwoko 4 bushoboka bwa Leta mu buryo bwa bose no mu buryo b
 
 
 ```txt
-State                      Concealed form                              Revealed form
+Uko bimeze                      Aho kwuzuza hanyegejwe                              Aho kwuzuza haboneka
 
 +---------------------------------------------------------------------------------------------------------
 
 +--------------------------------------------------------------------------------+
 |                                                                                |
-Declarative        |                              < void >                                          |
+Ukwemanga        |                              < Ugugahakana >                                          |
 |                                                                                |
 +--------------------------------------------------------------------------------+
 
@@ -2098,7 +2098,7 @@ Declarative        |                              < void >                      
 
 +--------------------------+             +---------------------------------------+
 | +----------------------+ |             |         +--------+ +----------+       |
-Fungible           | | Pedersen Commitement | | <========== |         | Amount | | Blinding |       |
+Ishobora guhinduka           | | Ukwiyemeza kwa Pedersen | | <========== |         | Igitigiri | | Umuvuduko |       |
 | +----------------------+ |             |         +--------+ +----------+       |
 +--------------------------+             +---------------------------------------+
 
@@ -2106,7 +2106,7 @@ Fungible           | | Pedersen Commitement | | <========== |         | Amount |
 
 +--------------------------+             +---------------------------------------+
 | +----------------------+ |             |         +--------------------+        |
-Structured         | |     Tagged Hash      | | <========== |         |     Data Blob      |        |
+Inyubako         | |     Hash yahiswemwo     | | <========== |         |     amakuru ya Blob      |        |
 | +----------------------+ |             |         +--------------------+        |
 +--------------------------+             +---------------------------------------+
 
@@ -2114,7 +2114,7 @@ Structured         | |     Tagged Hash      | | <========== |         |     Data
 
 +--------------------------+             +---------------------------------------+
 | +----------------------+ |             | +-----------+ +------------+ +------+ |
-Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Media Type | | Salt | |
+Ibifadikanije        | |     Hash yahiswemwo      | | <========== | | dokima ya Hash | | Uboko bw'ikinyamakuru | | Akabirya | |
 | +----------------------+ |             | +-----------+ +------------+ +------+ |
 
 +--------------------------+             +---------------------------------------+
@@ -2123,58 +2123,58 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 
 
 
-| **Element**     | **Declarative** | **Fungible**                      | **Structured**       | **Attachments**        |
+| **Ikintu**     | **Ukwemanga** | **Ishobora guhinduka**                      | **Inyubako**       | **Iyifadikanijwe**        |
 | --------------- | --------------- | --------------------------------- | -------------------- | ---------------------- |
-| **Data**        | None            | Signed or unsigned 64-bit integer | Any strict data type | Any file               |
-| **Info Type**   | None            | Signed or unsigned                | Strict types         | MIME Type              |
-| **Privacy**     | Not required    | Pedersen commitment               | Hash with blinding   | Hashed file identifier |
-| **Size Limits** | N/A             | 256 bytes                         | Up to 64 KB          | Up to ~500 GB          |
+| **Ibiharuro**        | ntanimwe            | Iyateweko umukono or Iyitateweko umukono 64-bit integer | Ubwoko bw'ibiharuro ivyarivyo vyose | Dokima yariyo yose              |
+| **Ubwoko bw'amakuru**   | Oya           | Bwateweko umukono canke butateweko umukono                | Ubwoko bumeze uko         | MIME Type              |
+| **Ibanga**     | Ntikenewe    | Pedersen commitment               | Hash with blinding   | Hashed file identifier |
+| **Urugero rw;'uko ingana** | N/A             | Ama bytes 256                         | Gushika kuri 64 KB          | Gushika kuri ~500 GB          |
 
 
 ### Injiza
 
 
-Ivyo Inputs za *Contract Operation* vyerekeye *Ibikorwa* biriko birakoreshwa muri iki gikorwa gishasha. Injiza yerekana:
+Ibija mu *Bikorwa vy'amasezerano* vyerekeye *Ibikorwa* biriko birakoreshwa muri iki gikorwa gishasha. Injiza yerekana:
 
 
 
 
-- `prevOpId`: ikimenyetso (`OpId`) c'igikorwa c'imbere aho *Assignment* yari;
-- `UbwokoBw'Igikorwa`: ubwoko bwa *Assignment* (nk'akarorero, `Nyitungo` ku token);
-- `Index`: urutonde rwa *Assignment* ruri ku rutonde rujanye n'i `OpId` y'imbere, rugenwa inyuma y'ugutoranya kw'inkoranyabumenyi kw'ibimenyetso vyihishijwe.
+- `prevOpId`: ikimenyetso (`OpId`) c'igikorwa c'imbere aho *Umwimenyerezo* yari;
+- `UbwokoBw'Igikorwa`: ubwoko bwa *Umwimenyerezpo* (nk'akarorero, `Nyitungo` ku token);
+- `Index`: urutonde rw' *Umwimenyerezo* ruri ku rutonde rujanye n'i `OpId` y'imbere, rugenwa inyuma y'ugutoranya kw'inkoranyabumenyi kw'ibimenyetso vyihishijwe.
 
 
-Ivyinjira ntivyigera biboneka muri Genesis, kuko ata Mirimo y’imbere iriho. Eka mbere ntiziboneka mu Vyagutse vya Leta (kuko Ivyagutse vya Leta bitafunga ibimenyetso; ahubwo, bisubira gusobanura ibimenyetso bishasha bishingiye ku Valencies).
+Ivyinjira ntivyigera biboneka mw'itanguriro, kuko ata Mirimo y’imbere iriho. Eka mbere ntiziboneka mu Vyagutse vy'uko bimeze (kuko Ivyagutse vy'uko bimeze bitafunga ibimenyetso; ahubwo, bisubira gusobanura ibimenyetso bishasha bishingiye ku Valencies).
 
 
-Iyo dufise Owned States z’ubwoko bwa `Fungible`, ubuhinga bwo kwemeza (biciye mu nyandiko ya AluVM itangwa muri Schema) burasuzuma ukuntu imibare ihuye: umubare w’ibimenyetso vyinjira (*Inputs*) utegerezwa kuba ungana n’umubare w’ibimenyetso bisohoka (mu *As* nshasha).
+Iyo dufise Uko bimeze bifashwe muminwe  z’ubwoko `Bushobora guhinduka`, ubuhinga bwo kwemeza (biciye mu nyandiko ya AluVM itangwa mugicapo) burasuzuma ukuntu imibare ihuye: umubare w’ibimenyetso vyinjira (*Ivyinjizwa*) utegerezwa kuba ungana n’umubare w’ibimenyetso bisohoka (mu *As* nshasha).
 
 
 ### Amakuru
 
 
-**Metadata** field ishobora gushika kuri 64 KiB kandi ikoreshwa mu gushiramwo amakuru y'igihe gito ngirakamaro mu kwemeza, ariko ntashizwe mu gihe c'ubudasiba ca Contract. Nk'akarorero, ibihinduka vy'imibare yo hagati y'inyandiko zikomeye birashobora kubikwa hano. Ico kibanza ntikigenewe kubikwa mu mateka y'isi yose, ni co gituma kiri hanze y'ububasha bw'Ibihugu vy'Igihugu canke Global State.
+**Ubwoko bw'amakuru y'biharuro** Murubuga ishobora gushika kuri 64 KiB kandi ikoreshwa mu gushiramwo amakuru y'igihe gito ngirakamaro mu kwemeza, ariko ntashizwe mu gihe c'ubudasiba c'amasezerano Nk'akarorero, ibihinduka vy'imibare yo hagati y'inyandiko zikomeye birashobora kubikwa hano. Ico kibanza ntikigenewe kubikwa mu mateka y'isi yose, ni co gituma kiri hanze y'ububasha bw'Ibihugu vy'Igihugu canke Uko bimeze muri rusangi.
 
 
 ### Ivyiza
 
 
-**Ivyiyumviro** ni uburyo bw'umwimerere bw'amasezerano ya RGB. Bishobora gusangwa muri Genesis, Impinduka za Leta canke Impinduka za Leta. Bigereranya uburenganzira bw’imibare bushobora gukoreshwa na State Extension (biciye muri *Redeems*), hanyuma bikarangizwa n’Impinduka ikurikira. Buri Valency imenyekana n'`UbwokoBw'Uburemere` (ibice 16). Insobanuro yayo (uburenganzira bwo gusubira gusohora, guhindura token, uburenganzira bwo guturira, n'ibindi) zisobanurwa muri Schema.
+**Ivyiyumviro** ni uburyo bw'umwimerere bw'amasezerano ya RGB. Bishobora gusangwa mw'itanguriro, Impinduka z'iko bimeze canke Impinduka z'iko biri. Bigereranya uburenganzira bw’imibare bushobora gukoreshwa na Iyongengwa ry'uko imeze (biciye muri *Redeems*), hanyuma bikarangizwa n’Impinduka ikurikira. Buri Valency imenyekana n'`UbwokoBw'Uburemere` (ibice 16). Insobanuro yayo (uburenganzira bwo gusubira gusohora, guhindura token, uburenganzira bwo guturira, n'ibindi) zisobanurwa murico gicapo.
 
 
-Mu majambo nyayo, twoshobora kwiyumvira Genesis isobanura "uburenganzira bwo gusubira gusohora" Valency. State Extension izoyirya (*Redeem*) iyo hari ibintu bimwe bimwe bishitse, kugira ngo haboneke umubare mushasha w’ibimenyetso. Hanyuma, State Transition iva ku wufise Seal yaremwe gutyo irashobora kwimurira ivyo bimenyetso bishasha.
+Mu majambo nyayo, twoshobora kwiyumvira Itanguriro isobanura "uburenganzira bwo gusubira gusohora" Valency. Ukwongerako ukobimeze izoyirya (*Redeem*) iyo hari ibintu bimwe bimwe bishitse, kugira ngo haboneke umubare mushasha w’ibimenyetso. Hanyuma, Uko bimeze vyongerwako iva ku wufise Serire yaremwe gutyo irashobora kwimurira ivyo bimenyetso bishasha.
 
 
 ### Gucungura
 
 
-Ivyo gucungura ni Valency bingana n’Ivyinjira mu bikorwa. Biboneka gusa mu Vyagutse vya Leta, kuko ni ho Valency yari yarasobanuwe mbere ikoreshwa. Redeem igizwe n’ibice bibiri:
+Ivyo gucungura ni Valency bingana n’Ivyinjira mu bikorwa. Biboneka gusa mu Vyagutse vy'uko bimeze, kuko ni ho Valency yari yarasobanuwe mbere ikoreshwa. Redeem igizwe n’ibice bibiri:
 
 
 
 
 - `PrevOpId`: `OpId` y'igikorwa aho Valency yari yaravuzwe;
-- `UbwokoBw'Ubushobozi`: ubwoko bwa Valency wipfuza gukoresha (buri `UbwokoBw'Ubushobozi` bushobora gukoreshwa rimwe gusa na State Extension).
+- `UbwokoBw'Ubushobozi`: ubwoko bwa Valency wipfuza gukoresha (buri `UbwokoBw'Ubushobozi` bushobora gukoreshwa rimwe gusa na Uko bimeze ivyongerwako).
 
 
 Akarorero: Redeem ishobora guhura n'ugushirwa mu ngiro kwa CoinSwap, bivanye n'ivyo vyari vyashizwe muri Valency.
@@ -2183,23 +2183,23 @@ Akarorero: Redeem ishobora guhura n'ugushirwa mu ngiro kwa CoinSwap, bivanye n'i
 ### Ibiranga ikibanza ca RGB
 
 
-Ubu tugiye kuraba ibiranga Leta vyinshi vy'ishimikiro muri RGB. Cane cane, turaza kuraba:
+Ubu tugiye kuraba ibiranga Uko bimeze vyinshi vy'ishimikiro muri RGB. Cane cane, turaza kuraba:
 
 
 
 
 - **Uburyo bw’ubwoko bukomeye**, butegeka gutunganya amakuru mu buryo bubereye kandi bufise ubwoko;
-- Akamaro ko gutandukanya **kwemeza** na **Ownership**;
+- Akamaro ko gutandukanya **kwemeza** na **Ukuvyitirirwa**;
 - Uburyo bwa **ugutera imbere kw'uguhurizako** muri RGB, burimwo ivyiyumviro vy'*ugutera imbere vyihuta* n'*ugusubira inyuma*.
 
 
-Nk’uko bisanzwe, uzirikane ko ikintu cose gifitaniye isano n’ivy’uburenganzira bwa Contract cemezwa ku ruhande rw’umukiriya hakurikijwe amategeko y’uguhurizako ashizweho mu masezerano, kandi ko ishingiro ryayo ry’iherezo ry’ubuhinga bwa none rishingiye ku bikorwa vya Bitcoin.
+Nk’uko bisanzwe, uzirikane ko ikintu cose gifitaniye isano n’ivy’uburenganzira bw'amasezerano cemezwa ku ruhande rw’umuguzi hakurikijwe amategeko y’uguhurizako ashizweho mu masezerano, kandi ko ishingiro ryayo ry’iherezo ry’ubuhinga bwa none rishingiye ku bikorwa vya Bitcoin.
 
 
 #### Ubwoko bukomeye
 
 
-RGB ikoresha *Ubwoko bukomeye* n'uburyo bwo gukurikirana (*Ugushiramwo amakuru*). Iryo shirahamwe ryagenewe gutuma amakuru ya Contract ashobora gusubirwamwo neza kandi akagira ukuri mu gusobanura, gukoresha no kwemeza.
+RGB ikoresha *Ubwoko bukomeye* n'uburyo bwo gukurikirana (*Ugushiramwo amakuru*). Iryo shirahamwe ryagenewe gutuma amakuru y'amasezerano ashobora gusubirwamwo neza kandi akagira ukuri mu gusobanura, gukoresha no kwemeza.
 
 
 Mu bidukikije vyinshi vy’iporogarama (JSON, YAML...), imiterere y’amakuru irashobora guhinduka, mbere n’ugushobora kwemera cane. Ku rundi ruhande, muri RGB, Imiterere n’Ubwoko bw’umurima wose birasobanurwamwo ibintu bigaragara. Nk'akarorero:

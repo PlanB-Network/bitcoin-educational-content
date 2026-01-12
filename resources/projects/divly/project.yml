@@ -1,0 +1,30 @@
+id: dafb0c1d-1a8c-4b65-bfd7-32a6f98f6090
+
+name: Divly
+
+links:
+  website: https://divly.com/fr/
+  twitter: https://twitter.com/DivlyTaxes
+  linkedin: https://www.linkedin.com/company/74222694
+
+category: service
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - investment
+  - finance
+  - regulation
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-12
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

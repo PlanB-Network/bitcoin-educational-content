@@ -5,4 +5,4 @@ wrong_answers:
   - Environ toutes les deux semaines
   - Environ tous les quatre mois
 explanation: |
-  Rust suit un calendrier de publication prévisible avec de nouvelles versions stables toutes les six semaines environ. Ce cycle de publication fréquent garantit que les nouvelles fonctionnalités et améliorations parviennent régulièrement aux utilisateurs tout en maintenant la stabilité. Les autres délais sont incorrects - trois mois et quatre mois seraient beaucoup plus lents que le rythme actuel de Rust, tandis que deux semaines seraient excessivement rapides pour des versions stables qui nécessitent des tests approfondis.
+  Rust suit un calendrier de publication prévisible avec de nouvelles versions stables toutes les six semaines environ. Ce cycle de publication fréquent garantit que les nouvelles fonctionnalités et améliorations parviennent régulièrement aux utilisateurs tout en maintenant la stabilité. Les autres délais sont incorrects : trois mois et quatre mois seraient beaucoup plus lents que le rythme actuel de Rust, tandis que deux semaines seraient excessivement rapides pour des versions stables qui nécessitent des tests approfondis.

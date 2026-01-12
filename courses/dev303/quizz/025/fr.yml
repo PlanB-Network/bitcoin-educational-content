@@ -4,5 +4,5 @@ wrong_answers:
   - méthode
   - struct
   - fn
-explanation: |
+explanation: | 
   Le mot-clé `impl` est spécifiquement utilisé pour créer des blocs d'implémentation dans lesquels vous définissez des méthodes et des fonctions associées pour les structures. Alors que `struct` définit la structure elle-même, `fn` définit des fonctions individuelles, et `method` n'est pas du tout un mot-clé Rust, seul `impl` crée le bloc qui contient le comportement associé à un type. Les blocs d'implémentation utilisant `impl` vous permettent d'ajouter des fonctionnalités à vos structures, les rendant plus que de simples conteneurs de données.

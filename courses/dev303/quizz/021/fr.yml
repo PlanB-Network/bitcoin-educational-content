@@ -1,5 +1,5 @@
 question: Quel type de paramètre une méthode Rust doit-elle utiliser si elle doit modifier l'instance de la structure tout en permettant à l'appelant d'en conserver la propriété ?
-answer: "&mut self"
+answer: "&mut self" 
 wrong_answers:
   - "&self"
   - soi

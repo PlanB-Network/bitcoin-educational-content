@@ -1,6 +1,5 @@
 id: 6179843a-0e54-48ec-b7bb-3d1b83889510
 
-
 name: Standard Sats
 
 links:
@@ -18,17 +17,16 @@ proofreading:
     last_contribution_date: 2026-01-11
     urgency: 1 
     contributor_names:
-      - @evd0kim
-      - @0orion
+      - evd0kim
+      - 0orion
     reward: 0
 
 tags:
   - adoption
   - finance
 
-
 contributor_names:
-  - @evd0kim
-  - @0orion
+  - evd0kim
+  - 0orion
 
-license: Apache 2.0
+license: CC-BY-SA-V4

@@ -43,6 +43,16 @@ Here's a quick comparison between White Noise and a number of the best-known mes
 
 
 
+| Comparison points           | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE encryption / 1:1       | ✅ Yes        | Optional   | ✅ Yes            | ✅ Yes   | ✅ Yes    | ✅ Yes             | ✅ Yes  |
+| Group E2EE encryption       | ✅ Yes        | ❌ No       | ✅ Yes            | ✅ Yes   | ✅ Yes    | Optional          | ✅ Yes  |
+| Identity anonymization      | ✅ Yes        | Optional   | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ❌ No   |
+| Open source server          | ✅ Yes        | ❌ No       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ✅ Yes  |
+| Open source client          | ✅ Yes        | ✅ Yes       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ✅ Yes  |
+| Decentralized server        | ✅ Yes        | ❌ No       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ❌ No   |
+| Year of creation            | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Getting started with White Noise
 
 

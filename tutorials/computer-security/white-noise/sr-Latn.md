@@ -55,6 +55,16 @@ Evo brze uporedbe između White Noise i nekoliko najpoznatijih aplikacija za raz
 
 
 
+| Tačke poređenja             | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE šifrovanje / 1:1       | ✅ Da         | Opciono    | ✅ Da             | ✅ Da    | ✅ Da     | ✅ Da              | ✅ Da   |
+| Grupno E2EE šifrovanje      | ✅ Da         | ❌ Ne       | ✅ Da             | ✅ Da    | ✅ Da     | Opciono           | ✅ Da   |
+| Anonimizacija identiteta    | ✅ Da         | Opciono    | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Server otvorenog koda       | ✅ Da         | ❌ Ne       | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ✅ Da   |
+| Klijent otvorenog koda      | ✅ Da         | ✅ Da        | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ✅ Da   |
+| Decentralizovani server     | ✅ Da         | ❌ Ne       | ❌ Ne             | ✅ Da    | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Godina osnivanja            | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Početak sa White Noise
 
 

@@ -55,6 +55,16 @@ Dưới đây là bảng so sánh nhanh giữa White Noise và một số ứng 
 
 
 
+| Điểm so sánh                | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Mã hóa E2EE / 1:1           | ✅ Có         | Tùy chọn   | ✅ Có             | ✅ Có    | ✅ Có     | ✅ Có              | ✅ Có   |
+| Mã hóa nhóm E2EE            | ✅ Có         | ❌ Không    | ✅ Có             | ✅ Có    | ✅ Có     | Tùy chọn          | ✅ Có   |
+| Ẩn danh danh tính           | ✅ Có         | Tùy chọn   | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ❌ Không|
+| Máy chủ mã nguồn mở         | ✅ Có         | ❌ Không    | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ✅ Có   |
+| Ứng dụng mã nguồn mở        | ✅ Có         | ✅ Có        | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ✅ Có   |
+| Máy chủ phi tập trung       | ✅ Có         | ❌ Không    | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ❌ Không|
+| Năm thành lập               | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Bắt đầu với White Noise
 
 

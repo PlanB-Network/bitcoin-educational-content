@@ -55,6 +55,16 @@ Ecco un rapido confronto tra White Noise e alcune delle più note applicazioni d
 
 
 
+| Punti di confronto          | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Crittografia E2EE / 1:1     | ✅ Sì         | Facoltativo| ✅ Sì             | ✅ Sì    | ✅ Sì     | ✅ Sì              | ✅ Sì   |
+| Crittografia di gruppo E2EE | ✅ Sì         | ❌ No       | ✅ Sì             | ✅ Sì    | ✅ Sì     | Facoltativo       | ✅ Sì   |
+| Anonimizzazione dell'identità| ✅ Sì        | Facoltativo| ❌ No             | ✅ Sì    | ❌ No     | ❌ No              | ❌ No   |
+| Server open source          | ✅ Sì         | ❌ No       | ❌ No             | ✅ Sì    | ❌ No     | ❌ No              | ✅ Sì   |
+| Client open source          | ✅ Sì         | ✅ Sì        | ❌ No             | ✅ Sì    | ❌ No     | ❌ No              | ✅ Sì   |
+| Server decentralizzato      | ✅ Sì         | ❌ No       | ❌ No             | ✅ Sì    | ❌ No     | ❌ No              | ❌ No   |
+| Anno di creazione           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Come iniziare con il White Noise
 
 

@@ -55,6 +55,16 @@ Her er en rask sammenligning mellom White Noise og en rekke av de mest kjente me
 
 
 
+| Sammenligningspunkter       | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-kryptering / 1:1       | ✅ Ja         | Valgfritt  | ✅ Ja             | ✅ Ja    | ✅ Ja     | ✅ Ja              | ✅ Ja   |
+| Gruppe-E2EE-kryptering      | ✅ Ja         | ❌ Nei      | ✅ Ja             | ✅ Ja    | ✅ Ja     | Valgfritt         | ✅ Ja   |
+| Anonymisering av identitet  | ✅ Ja         | Valgfritt  | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ❌ Nei  |
+| Åpen kildekode-server       | ✅ Ja         | ❌ Nei      | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ✅ Ja   |
+| Åpen kildekode-klient       | ✅ Ja         | ✅ Ja        | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ✅ Ja   |
+| Desentralisert server       | ✅ Ja         | ❌ Nei      | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ❌ Nei  |
+| Opprettelsesår              | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Kom i gang med White Noise
 
 

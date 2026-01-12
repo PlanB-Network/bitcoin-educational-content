@@ -55,6 +55,16 @@ Berikut ini adalah perbandingan singkat antara White Noise dan sejumlah aplikasi
 
 
 
+| Poin perbandingan           | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Enkripsi E2EE / 1:1         | ✅ Ya         | Opsional   | ✅ Ya             | ✅ Ya    | ✅ Ya     | ✅ Ya              | ✅ Ya   |
+| Enkripsi grup E2EE          | ✅ Ya         | ❌ Tidak    | ✅ Ya             | ✅ Ya    | ✅ Ya     | Opsional          | ✅ Ya   |
+| Anonimisasi identitas       | ✅ Ya         | Opsional   | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ❌ Tidak|
+| Server sumber terbuka       | ✅ Ya         | ❌ Tidak    | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ✅ Ya   |
+| Klien sumber terbuka        | ✅ Ya         | ✅ Ya        | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ✅ Ya   |
+| Server terdesentralisasi    | ✅ Ya         | ❌ Tidak    | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ❌ Tidak|
+| Tahun pembuatan             | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Memulai dengan White Noise
 
 

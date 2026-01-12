@@ -55,6 +55,16 @@ Tässä on nopea vertailu White Noise:n ja tunnetuimpien viestisovellusten väli
 
 
 
+| Vertailukohdat              | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-salaus / 1:1           | ✅ Kyllä      | Valinnainen| ✅ Kyllä          | ✅ Kyllä | ✅ Kyllä  | ✅ Kyllä           | ✅ Kyllä|
+| Ryhmä-E2EE-salaus           | ✅ Kyllä      | ❌ Ei       | ✅ Kyllä          | ✅ Kyllä | ✅ Kyllä  | Valinnainen       | ✅ Kyllä|
+| Identiteetin anonymisointi  | ✅ Kyllä      | Valinnainen| ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Avoimen lähdekoodin palvelin| ✅ Kyllä      | ❌ Ei       | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ✅ Kyllä|
+| Avoimen lähdekoodin asiakas | ✅ Kyllä      | ✅ Kyllä     | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ✅ Kyllä|
+| Hajautettu palvelin         | ✅ Kyllä      | ❌ Ei       | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Perustamisvuosi             | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## White Noise:n käytön aloittaminen
 
 

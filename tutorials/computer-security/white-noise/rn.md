@@ -55,6 +55,16 @@ Aha niho tugereranya vyihuse hagati ya White Noise n’umubare w’ibikoresho bi
 
 
 
+| Ingingo zo kugereranya      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Gushiramwo E2EE / 1:1       | ✅ Ego        | Birashoboka| ✅ Ego            | ✅ Ego   | ✅ Ego    | ✅ Ego             | ✅ Ego  |
+| Gushiramwo E2EE mu mugwi    | ✅ Ego        | ❌ Oya      | ✅ Ego            | ✅ Ego   | ✅ Ego    | Birashoboka       | ✅ Ego  |
+| Guhisha akaranga            | ✅ Ego        | Birashoboka| ❌ Oya            | ✅ Ego   | ❌ Oya    | ❌ Oya             | ❌ Oya  |
+| Seriveri ifunguye           | ✅ Ego        | ❌ Oya      | ❌ Oya            | ✅ Ego   | ❌ Oya    | ❌ Oya             | ✅ Ego  |
+| Umukiriya afunguye          | ✅ Ego        | ✅ Ego       | ❌ Oya            | ✅ Ego   | ❌ Oya    | ❌ Oya             | ✅ Ego  |
+| Seriveri itandukanye        | ✅ Ego        | ❌ Oya      | ❌ Oya            | ✅ Ego   | ❌ Oya    | ❌ Oya             | ❌ Oya  |
+| Umwaka w’itanguriro         | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Gutangura na White Noise
 
 

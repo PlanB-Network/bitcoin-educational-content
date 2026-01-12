@@ -55,6 +55,16 @@ Zde je rychlé srovnání White Noise s několika nejznámějšími aplikacemi p
 
 
 
+| Body srovnání               | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Šifrování E2EE / 1:1        | ✅ Ano        | Volitelné  | ✅ Ano            | ✅ Ano   | ✅ Ano    | ✅ Ano             | ✅ Ano  |
+| Skupinové šifrování E2EE    | ✅ Ano        | ❌ Ne       | ✅ Ano            | ✅ Ano   | ✅ Ano    | Volitelné         | ✅ Ano  |
+| Anonymizace identity        | ✅ Ano        | Volitelné  | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Open source server          | ✅ Ano        | ❌ Ne       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ✅ Ano  |
+| Open source klient          | ✅ Ano        | ✅ Ano       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ✅ Ano  |
+| Decentralizovaný server     | ✅ Ano        | ❌ Ne       | ❌ Ne             | ✅ Ano   | ❌ Ne     | ❌ Ne              | ❌ Ne   |
+| Rok založení                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## Začínáme s White Noise
 
 

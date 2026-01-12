@@ -55,6 +55,16 @@ MLS (Messaging Layer Security) ise mesajların uçtan uca şifrelenmesini sağla
 
 
 
+| Karşılaştırma noktaları     | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE şifreleme / 1:1        | ✅ Evet       | İsteğe bağlı| ✅ Evet           | ✅ Evet  | ✅ Evet   | ✅ Evet            | ✅ Evet |
+| Grup E2EE şifreleme         | ✅ Evet       | ❌ Hayır    | ✅ Evet           | ✅ Evet  | ✅ Evet   | İsteğe bağlı      | ✅ Evet |
+| Kimlik anonimleştirme       | ✅ Evet       | İsteğe bağlı| ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ❌ Hayır|
+| Açık kaynak sunucu          | ✅ Evet       | ❌ Hayır    | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ✅ Evet |
+| Açık kaynak istemci         | ✅ Evet       | ✅ Evet      | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ✅ Evet |
+| Merkeziyetsiz sunucu        | ✅ Evet       | ❌ Hayır    | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ❌ Hayır|
+| Kuruluş yılı                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
+
 ## White Noise ile çalışmaya başlama
 
 

@@ -11,6 +11,26 @@ Die Ende-zu-Ende-Verschlüsselung ist ein Dienst, der von vielen Messaging-Apps 
 
 
 
+| Anwendung            | E2EE 1:1       | E2EE Gruppen  | Anonyme Registrierung | Open-Source-Clientlizenz | Open-Source-Serverlizenz | Dezentraler Server    | Gründungsjahr      |
+| -------------------- | -------------- | -------------- | -------------------- | ------------------------ | ------------------------- | --------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                    | ❌                        | ❌                         | ❌                     | 2009              |
+| WeChat               | ❌              | ❌              | ❌                    | ❌                        | ❌                         | ❌                     | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optional)  | ❌                    | ❌                        | ❌                         | ❌                     | 2011              |
+| Telegram             | 🟡 (optional)  | ❌              | 🟡                   | ✅                        | ❌                         | ❌                     | 2013              |
+| LINE                 | ✅              | ✅              | ❌                    | ❌                        | ❌                         | ❌                     | 2011              |
+| Signal               | ✅              | ✅              | ❌                    | ✅                        | ✅                         | ❌                     | 2014              |
+| Threema              | ✅              | ✅              | ✅                    | ✅                        | ❌                         | ❌                     | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                    | ✅                        | ✅                         | 🟡 (föderiert)         | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                    | ✅                        | N/A                        | 🟡 (per E-Mail)        | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                    | ✅                        | ✅                         | 🟡 (föderiert)         | 2014              |
+| Session              | ✅              | ✅              | ✅                    | ✅                        | ✅                         | ✅                     | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                    | ✅                        | ✅                         | ✅                     | 2021              |
+| Olvid                | ✅              | ✅              | ✅                    | ✅                        | ❌                         | 🟡(kein Verzeichnis)   | 2019              |
+| Keet                 | ✅              | ✅              | ✅                    | ❌                        | N/A                        | ✅                     | 2022              |
+| Jami                 | ✅              | ✅              | ✅                    | ✅                        | N/A                        | ✅                     | 2005              |
+| Briar                | ✅              | ✅              | ✅                    | ✅                        | N/A                        | ✅                     | 2018              |
+| **Tox**              | ✅              | ✅              | ✅                    | ✅                        | N/A                        | ✅                     | 2013              |
+
 *E2EE = Ende-zu-Ende-Verschlüsselung*
 
 

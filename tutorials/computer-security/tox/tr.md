@@ -11,6 +11,26 @@ Uçtan uca şifreleme, WhatsApp ve Telegram gibi birçok mesajlaşma uygulaması
 
 
 
+| Uygulama             | E2EE 1:1       | E2EE gruplar | Anonim kayıt        | Açık kaynak istemci lisansı | Açık kaynak sunucu lisansı | Merkeziyetsiz sunucu | Kuruluş yılı    |
+| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | -------------------- | --------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                    | 2009            |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                    | 2011            |
+| Facebook Messenger   | ✅              | 🟡 (isteğe bağlı) | ❌                | ❌                           | ❌                           | ❌                    | 2011            |
+| Telegram             | 🟡 (isteğe bağlı) | ❌           | 🟡                  | ✅                           | ❌                           | ❌                    | 2013            |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                    | 2011            |
+| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                    | 2014            |
+| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                    | 2012            |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federe)           | 2016            |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                          | 🟡 (e-posta ile)       | 2017            |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federe)           | 2014            |
+| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                    | 2020            |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                    | 2021            |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                           | ❌                           | 🟡(dizin yok)          | 2019            |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                          | ✅                    | 2022            |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2005            |
+| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2018            |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                           | N/A                          | ✅                    | 2013            |
+
 *E2EE = Uçtan uca şifreleme*
 
 

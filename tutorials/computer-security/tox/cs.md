@@ -11,6 +11,26 @@ Koncové šifrování je služba, kterou nabízí mnoho aplikací pro zasílán�
 
 
 
+| Aplikace             | E2EE 1:1       | E2EE skupiny  | Anonymní registrace | Open-source licence klienta | Open-source licence serveru | Decentralizovaný server | Rok založení       |
+| -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | ---------------------------- | ---------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                            | ❌                      | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                            | ❌                      | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (volitelné) | ❌                   | ❌                            | ❌                            | ❌                      | 2011              |
+| Telegram             | 🟡 (volitelné) | ❌              | 🟡                  | ✅                            | ❌                            | ❌                      | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                            | ❌                      | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                            | ❌                      | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                            | ❌                      | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                            | 🟡 (federované)        | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                           | 🟡 (přes e-mail)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                            | 🟡 (federované)        | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                            | ✅                      | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                            | ✅                      | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                            | ❌                            | 🟡(bez adresáře)       | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                            | N/A                           | ✅                      | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                            | N/A                           | ✅                      | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                            | N/A                           | ✅                      | 2018              |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                            | N/A                           | ✅                      | 2013              |
+
 *E2EE = End-to-end šifrování*
 
 

@@ -11,6 +11,26 @@ Mã hóa đầu cuối là một dịch vụ được cung cấp bởi nhiều �
 
 
 
+| Ứng dụng             | E2EE 1:1       | E2EE nhóm    | Đăng ký ẩn danh     | Giấy phép khách hàng mã nguồn mở | Giấy phép máy chủ mã nguồn mở | Máy chủ phi tập trung | Năm ra đời      |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------------- | -------------------------------- | --------------------- | -------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                                | ❌                                | ❌                     | 2009           |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                                | ❌                                | ❌                     | 2011           |
+| Facebook Messenger   | ✅              | 🟡 (tùy chọn) | ❌                   | ❌                                | ❌                                | ❌                     | 2011           |
+| Telegram             | 🟡 (tùy chọn) | ❌              | 🟡                  | ✅                                | ❌                                | ❌                     | 2013           |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                                | ❌                                | ❌                     | 2011           |
+| Signal               | ✅              | ✅              | ❌                   | ✅                                | ✅                                | ❌                     | 2014           |
+| Threema              | ✅              | ✅              | ✅                   | ✅                                | ❌                                | ❌                     | 2012           |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                                | ✅                                | 🟡 (liên kết)           | 2016           |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                                | N/A                               | 🟡 (qua email)          | 2017           |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                                | ✅                                | 🟡 (liên kết)           | 2014           |
+| Session              | ✅              | ✅              | ✅                   | ✅                                | ✅                                | ✅                     | 2020           |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                                | ✅                                | ✅                     | 2021           |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                                | ❌                                | 🟡(không có danh bạ)     | 2019           |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                                | N/A                               | ✅                     | 2022           |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                                | N/A                               | ✅                     | 2005           |
+| Briar                | ✅              | ✅              | ✅                   | ✅                                | N/A                               | ✅                     | 2018           |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                                | N/A                               | ✅                     | 2013           |
+
 *E2EE = Mã hóa đầu cuối*
 
 

@@ -11,6 +11,26 @@ Loppuun asti tapahtuva salaus on monien viestisovellusten, kuten WhatsAppin ja T
 
 
 
+| Sovellus             | E2EE 1:1       | E2EE ryhmät  | Anonyymi rekisteröinti | Avoimen lähdekoodin asiakaslisenssi | Avoimen lähdekoodin palvelinlisenssi | Hajautettu palvelin | Perustamisvuosi |
+| -------------------- | -------------- | -------------- | ---------------------- | ---------------------------------- | ----------------------------------- | -------------------- | --------------- |
+| WhatsApp             | ✅              | ✅              | ❌                      | ❌                                  | ❌                                   | ❌                    | 2009            |
+| WeChat               | ❌              | ❌              | ❌                      | ❌                                  | ❌                                   | ❌                    | 2011            |
+| Facebook Messenger   | ✅              | 🟡 (valinnainen) | ❌                    | ❌                                  | ❌                                   | ❌                    | 2011            |
+| Telegram             | 🟡 (valinnainen) | ❌            | 🟡                     | ✅                                  | ❌                                   | ❌                    | 2013            |
+| LINE                 | ✅              | ✅              | ❌                      | ❌                                  | ❌                                   | ❌                    | 2011            |
+| Signal               | ✅              | ✅              | ❌                      | ✅                                  | ✅                                   | ❌                    | 2014            |
+| Threema              | ✅              | ✅              | ✅                      | ✅                                  | ❌                                   | ❌                    | 2012            |
+| Element (Matrix)     | ✅              | ✅              | ✅                      | ✅                                  | ✅                                   | 🟡 (federatiivinen)    | 2016            |
+| Delta Chat           | ✅              | ✅              | ✅                      | ✅                                  | N/A                                  | 🟡 (sähköpostin kautta) | 2017            |
+| Conversations (XMPP) | ✅              | ✅              | ✅                      | ✅                                  | ✅                                   | 🟡 (federatiivinen)    | 2014            |
+| Session              | ✅              | ✅              | ✅                      | ✅                                  | ✅                                   | ✅                    | 2020            |
+| SimpleX              | ✅              | ✅              | ✅                      | ✅                                  | ✅                                   | ✅                    | 2021            |
+| Olvid                | ✅              | ✅              | ✅                      | ✅                                  | ❌                                   | 🟡(ei hakemistoa)       | 2019            |
+| Keet                 | ✅              | ✅              | ✅                      | ❌                                  | N/A                                  | ✅                    | 2022            |
+| Jami                 | ✅              | ✅              | ✅                      | ✅                                  | N/A                                  | ✅                    | 2005            |
+| Briar                | ✅              | ✅              | ✅                      | ✅                                  | N/A                                  | ✅                    | 2018            |
+| **Tox**              | ✅              | ✅              | ✅                      | ✅                                  | N/A                                  | ✅                    | 2013            |
+
 *E2EE = End-to-end-salaus*
 
 

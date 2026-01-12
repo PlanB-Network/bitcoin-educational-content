@@ -11,6 +11,26 @@ Lõppkrüpteerimine on teenus, mida pakuvad paljud sõnumirakendused, näiteks W
 
 
 
+| Rakendus             | E2EE 1:1       | E2EE rühmad   | Anonüümne registreerimine | Avatud lähtekoodiga kliendilitsents | Avatud lähtekoodiga serverilitsents | Detsentraliseeritud server | Loomisaasta      |
+| -------------------- | -------------- | -------------- | ------------------------ | ---------------------------------- | ----------------------------------- | ------------------------ | ---------------- |
+| WhatsApp             | ✅              | ✅              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2009             |
+| WeChat               | ❌              | ❌              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Facebook Messenger   | ✅              | 🟡 (valikuline)| ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Telegram             | 🟡 (valikuline)| ❌              | 🟡                       | ✅                                  | ❌                                   | ❌                        | 2013             |
+| LINE                 | ✅              | ✅              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Signal               | ✅              | ✅              | ❌                        | ✅                                  | ✅                                   | ❌                        | 2014             |
+| Threema              | ✅              | ✅              | ✅                        | ✅                                  | ❌                                   | ❌                        | 2012             |
+| Element (Matrix)     | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | 🟡 (föderatiivne)        | 2016             |
+| Delta Chat           | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | 🟡 (e-posti kaudu)        | 2017             |
+| Conversations (XMPP) | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | 🟡 (föderatiivne)        | 2014             |
+| Session              | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | ✅                        | 2020             |
+| SimpleX              | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | ✅                        | 2021             |
+| Olvid                | ✅              | ✅              | ✅                        | ✅                                  | ❌                                   | 🟡(ilma kataloogita)     | 2019             |
+| Keet                 | ✅              | ✅              | ✅                        | ❌                                  | N/A                                  | ✅                        | 2022             |
+| Jami                 | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2005             |
+| Briar                | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2018             |
+| **Tox**              | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2013             |
+
 *E2EE = End-to-end krüpteerimine*
 
 

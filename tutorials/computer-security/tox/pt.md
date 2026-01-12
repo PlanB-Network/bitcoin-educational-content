@@ -11,6 +11,26 @@ A encriptação de ponta a ponta é um serviço oferecido por muitas aplicaçõe
 
 
 
+| Aplicação            | E2EE 1:1       | E2EE grupos  | Inscrição anônima   | Licença de cliente open-source | Licença de servidor open-source | Servidor descentralizado | Ano de criação  |
+| -------------------- | -------------- | -------------- | ------------------- | ------------------------------ | ------------------------------ | ---------------------- | --------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                              | ❌                              | ❌                      | 2009            |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                              | ❌                              | ❌                      | 2011            |
+| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                              | ❌                              | ❌                      | 2011            |
+| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                              | ❌                              | ❌                      | 2013            |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                              | ❌                              | ❌                      | 2011            |
+| Signal               | ✅              | ✅              | ❌                   | ✅                              | ✅                              | ❌                      | 2014            |
+| Threema              | ✅              | ✅              | ✅                   | ✅                              | ❌                              | ❌                      | 2012            |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                              | ✅                              | 🟡 (federado)           | 2016            |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                              | N/A                             | 🟡 (via e-mail)         | 2017            |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                              | ✅                              | 🟡 (federado)           | 2014            |
+| Session              | ✅              | ✅              | ✅                   | ✅                              | ✅                              | ✅                      | 2020            |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                              | ✅                              | ✅                      | 2021            |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                              | ❌                              | 🟡(sem diretório)       | 2019            |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                              | N/A                             | ✅                      | 2022            |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                              | N/A                             | ✅                      | 2005            |
+| Briar                | ✅              | ✅              | ✅                   | ✅                              | N/A                             | ✅                      | 2018            |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                              | N/A                             | ✅                      | 2013            |
+
 *E2EE = Encriptação de ponta a ponta*
 
 

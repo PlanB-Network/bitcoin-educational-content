@@ -1,8 +1,8 @@
 question: Quel est le principal mécanisme utilisé par Rust pour prévenir les bogues liés à la mémoire, tels que l'utilisation après coup et les débordements de mémoire tampon ?
-answer: L'analyse statique est entièrement réalisée au moment de la compilation
+answer: L'analyse statique est entièrement réalisée au moment de la compilation.
 wrong_answers:
-  - Ramassage des ordures en cours d'exécution avec nettoyage automatique de la mémoire
-  - Contrôle dynamique de la mémoire pendant l'exécution du programme
-  - Gestion manuelle de la mémoire avec des appels d'allocation explicites
+  - Ramassage des ordures en cours d'exécution avec nettoyage automatique de la mémoire.
+  - Contrôle dynamique de la mémoire pendant l'exécution du programme.
+  - Gestion manuelle de la mémoire avec des appels d'allocation explicites.
 explanation: |
   Le Rust prévient les bogues liés à la mémoire grâce à une analyse statique effectuée entièrement au moment de la compilation, où le compilateur examine le code source et détermine avec certitude si les opérations sur la mémoire sont sûres. Cette méthode diffère de la collecte des déchets (utilisée par Java/Go) qui introduit une surcharge d'exécution, du contrôle dynamique qui nécessite une vérification en cours d'exécution et de la gestion manuelle de la mémoire (utilisée par C/C++) qui repose sur la discipline du programmeur. L'approche compilée de Rust garantit la sécurité de la mémoire sans coûts d'exécution ni pauses imprévisibles.

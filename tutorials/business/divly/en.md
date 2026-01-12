@@ -22,7 +22,7 @@ To begin:
 
 Divly uses this configuration to apply appropriate tax rules and currency conversions when generating your report.
 
-01
+![img](assets/en/01.webp)
 
 ## Step 1 - Import All Bitcoin Transactions from your wallets and exchanges
 
@@ -36,7 +36,7 @@ Divly supports multiple import methods:
 
 Ensure you import **every BTC inflow and outflow** relevant to the tax period you are reporting.
 
-02
+![img](assets/en/02.webp)
 
 ## Step 2 - Review Imported Transactions
 
@@ -48,7 +48,7 @@ To do this, start by navigating to the Overview page. Check that each individual
 
 You can filter by wallet if you find any issues. This helps you understand what wallet may be out of synch.
 
-03
+![img](assets/en/03.webp)
 
 After importing:
 
@@ -58,7 +58,7 @@ After importing:
 
 **Important:** Make sure to import **ALL** of your crypto transactions into Divly before you proceed to the next step. Including cold wallets! Otherwise there is a risk your taxes won't be correct.
 
-04
+![img](assets/en/04.webp)
 
 ## Step 3 - Categorize relevant deposits and withdrawals
 
@@ -68,7 +68,7 @@ In most cases, Divly automatically assigns the correct labels. However, when the
 
 To label transactions, go to the Transactions page. Select one or more transactions and choose the correct label from the dropdown menu at the top of the page.
 
-05
+![img](assets/en/05.webp)
 
 ## Step 4 - Generate the Tax Report
 
@@ -82,7 +82,7 @@ The summary aggregates taxable events based on the imported data and classificat
 
 Divly’s tax report interface allows you to confirm that all transactions are captured before exporting.
 
-06
+![img](assets/en/06.webp)
 
 ## Step 5 - Export the Report
 
@@ -91,6 +91,6 @@ After review:
 - Export the finalized BTC tax report in the format available for your country.
 - Save the exported file or print it for submission to your tax authority.
 
-07
+![img](assets/en/07.webp)
 
 Depending on your jurisdiction, you may need to follow specific submission instructions or use country-specific forms with your exported data. [Divly’s country-specific guides](https://divly.com/en/guides) can help you with submission steps if needed.

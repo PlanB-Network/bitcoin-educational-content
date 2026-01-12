@@ -12,6 +12,9 @@ objectives:
 Co je potřeba k tomu, abyste mohli stavět na Bitcoinu? Tento 20hodinový kurz vás zavede pod povrch Bitcoinu a Lightning Network a prozkoumá protokoly, které pohánějí nejodolnější finanční infrastrukturu světa. Ať už chcete přispívat do open-source projektů nebo budovat další generaci bitcoinových aplikací, získáte technickou hloubku potřebnou k tomu, abyste mohli v tomto ekosystému pracovat s jistotou.
 
 Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Ventures, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
+
+Poznámka: Videa k tomuto kurzu jsou dostupná pouze v angličtině.
+
 +++
 # Úvod a přípravné kurzy
 

@@ -21,6 +21,7 @@ Le projet Bitaxe représente un changement de paradigme dans le minage de bitcoi
 
 Aucune expérience préalable de minage n'est requise, bien qu'une connaissance de base de l'électronique et une familiarité avec GitHub soient utiles. Ce cours vous fera passer du statut d'observateur curieux à celui de constructeur et contributeur Bitaxe compétent.
 
+Note : Les vidéos de ce cours sont uniquement disponibles en anglais.
 
 +++
 

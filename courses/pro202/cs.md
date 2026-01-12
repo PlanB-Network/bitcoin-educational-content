@@ -17,6 +17,7 @@ Tento intenzivní dvoudenní kurz, který vede Jimmy Song, vás zavede hluboko d
 
 Užijte si cestu!
 
+Poznámka: Videa k tomuto kurzu jsou dostupná pouze v angličtině.
 
 +++
 

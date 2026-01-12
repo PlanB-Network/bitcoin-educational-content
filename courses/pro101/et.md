@@ -12,6 +12,9 @@ objectives:
 Mida on vaja Bitcoinil ehitamiseks? See 20-tunnine kursus viib teid Bitcoin'i ja Lightning Network'i pinna alla, uurides protokolle, mis toitavad maailma vastupidavamat finantstaristut. Olenemata sellest, kas soovite panustada avatud lähtekoodiga projektidesse või ehitada järgmise põlvkonna Bitcoin'i rakendusi, omandате tehnilise sügavuse, mis on vajalik selles ökosüsteemis enesekindlalt töötamiseks.
 
 Salvestatud CUBO+ 2023 laagri ajal El Salvadoris, toob see kursus kokku juhtivate Bitcoin'i arendajate ja haridustegelaste vaatenurgad, kes on tehnoloogiat kujundanud. Parim osa? See on täiesti tasuta, võimaldatud Fulgure Ventures'i, Bitcoin Office'i ja DecouvreBitcoin'i poolt. Kui olete olnud uudishimulik, kuidas Bitcoin protokolli tasemel tegelikult töötab, on see teie võimalus seda välja selgitada.
+
+Märkus: Selle kursuse videod on saadaval ainult inglise keeles.
+
 +++
 # Sissejuhatus ja ettevalmistavad kursused
 

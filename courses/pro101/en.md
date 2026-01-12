@@ -12,6 +12,9 @@ objectives:
 What does it take to build on Bitcoin? This 20-hour course takes you beneath the surface of Bitcoin and the Lightning Network, exploring the protocols that power the world's most resilient financial infrastructure. Whether you're looking to contribute to open-source projects or build the next generation of Bitcoin applications, you'll gain the technical depth needed to start working confidently in this ecosystem.
 
 Recorded during the CUBO+ 2023 bootcamp in El Salvador, this course brings together perspectives from leading Bitcoin developers and educators who've shaped the technology. The best part? It's completely free, made possible by Fulgure Ventures, the Bitcoin Office and DecouvreBitcoin. If you've been curious about how Bitcoin really works at the protocol level, this is your chance to find out.
+
+Note: The videos for this course are only available in English.
+
 +++
 # Introduction and Preparatory Courses
 

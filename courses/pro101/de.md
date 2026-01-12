@@ -12,6 +12,9 @@ objectives:
 Was braucht es, um auf Bitcoin aufzubauen? Dieser 20-stündige Kurs führt Sie unter die Oberfläche von Bitcoin und dem Lightning Network und erkundet die Protokolle, die die widerstandsfähigste Finanzinfrastruktur der Welt antreiben. Ob Sie zu Open-Source-Projekten beitragen oder die nächste Generation von Bitcoin-Anwendungen entwickeln möchten – Sie erhalten die technische Tiefe, die Sie benötigen, um selbstbewusst in diesem Ökosystem zu arbeiten.
 
 Aufgezeichnet während des CUBO+ 2023 Bootcamps in El Salvador, vereint dieser Kurs Perspektiven führender Bitcoin-Entwickler und Pädagogen, die die Technologie geprägt haben. Das Beste daran? Er ist völlig kostenlos, ermöglicht durch Fulgure Ventures, das Bitcoin Office und DecouvreBitcoin. Wenn Sie neugierig waren, wie Bitcoin wirklich auf Protokollebene funktioniert, ist dies Ihre Chance, es herauszufinden.
+
+Hinweis: Die Videos zu diesem Kurs sind nur auf Englisch verfügbar.
+
 +++
 # Einführung und vorbereitende Kurse
 

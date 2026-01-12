@@ -12,6 +12,9 @@ objectives:
 Šta je potrebno da biste gradili na Bitcoinu? Ovaj 20-časovni kurs vas vodi ispod površine Bitcoina i Lightning mreže, istražujući protokole koji pokreću najotporniju finansijsku infrastrukturu na svetu. Bilo da želite da doprinosite open-source projektima ili da gradite novu generaciju Bitcoin aplikacija, steći ćete tehničku dubinu potrebnu da počnete da radite sa samopouzdanjem u ovom ekosistemu.
 
 Snimljen tokom CUBO+ 2023 bootcamp-a u El Salvadoru, ovaj kurs okuplja perspektive vodećih Bitcoin programera i edukatora koji su oblikovali tehnologiju. Najbolji deo? Potpuno je besplatan, omogućen zahvaljujući Fulgure Ventures, Bitcoin Office i DecouvreBitcoin. Ako ste bili radoznali o tome kako Bitcoin zaista funkcioniše na nivou protokola, ovo je vaša prilika da saznate.
+
+Napomena: Video snimci za ovaj kurs dostupni su samo na engleskom jeziku.
+
 +++
 # Uvodni i pripremni kursevi
 

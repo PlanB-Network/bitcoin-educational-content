@@ -17,6 +17,7 @@ Este curso intensivo de dos días, impartido por Jimmy Song, le llevará a profu
 
 ¡Disfrute del viaje!
 
+Nota: Los vídeos de este curso solo están disponibles en inglés.
 
 +++
 

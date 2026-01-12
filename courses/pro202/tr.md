@@ -17,6 +17,7 @@ Jimmy Song tarafından verilen bu iki günlük yoğun kurs, sıfırdan eksiksiz 
 
 Yolculuğun tadını çıkarın!
 
+Not: Bu kursun videoları yalnızca İngilizce olarak mevcuttur.
 
 +++
 

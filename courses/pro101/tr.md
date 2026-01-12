@@ -12,6 +12,9 @@ objectives:
 Bitcoin üzerinde inşa etmek için ne gerekir? Bu 20 saatlik kurs sizi Bitcoin ve Lightning Network'ün yüzeyinin altına götürerek, dünyanın en dayanıklı finansal altyapısını güçlendiren protokolleri keşfetmenizi sağlar. İster açık kaynak projelerine katkıda bulunmak ister yeni nesil Bitcoin uygulamaları oluşturmak isteyin, bu ekosistemde güvenle çalışmaya başlamak için gereken teknik derinliği kazanacaksınız.
 
 El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Ventures, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
+
+Not: Bu kursun videoları yalnızca İngilizce olarak mevcuttur.
+
 +++
 # Giriş ve Hazırlık Kursları
 

@@ -12,6 +12,9 @@ objectives:
 Wat is er nodig om op Bitcoin te bouwen? Deze cursus van 20 uur neemt je mee onder het oppervlak van Bitcoin en het Lightning Network, en verkent de protocollen die 's werelds meest veerkrachtige financiële infrastructuur aandrijven. Of je nu wilt bijdragen aan open-sourceprojecten of de volgende generatie Bitcoin-applicaties wilt bouwen, je krijgt de technische diepgang die nodig is om met vertrouwen in dit ecosysteem te gaan werken.
 
 Opgenomen tijdens het CUBO+ 2023 bootcamp in El Salvador, brengt deze cursus perspectieven samen van toonaangevende Bitcoin-ontwikkelaars en docenten die de technologie hebben gevormd. Het beste deel? Het is volledig gratis, mogelijk gemaakt door Fulgure Ventures, het Bitcoin Office en DecouvreBitcoin. Als je nieuwsgierig bent geweest naar hoe Bitcoin echt werkt op protocolniveau, is dit je kans om erachter te komen.
+
+Opmerking: De video's voor deze cursus zijn alleen beschikbaar in het Engels.
+
 +++
 # Introductie en voorbereidende cursussen
 

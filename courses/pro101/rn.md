@@ -12,6 +12,9 @@ objectives:
 Ni iki gikenewe kugira ngo wubake kuri Bitcoin? Iri somo ry'amasaha 20 rigukurikiza munsi y'ubuso bwa Bitcoin na Lightning Network, ukamenya protocole zikorera ibikorwa remezo by'imari bikomeye cyane ku isi. Waba ushaka kugira uruhare mu mishinga ifunguye cyangwa kubaka icyiciro gikurikira cy'porogaramu za Bitcoin, uzabona ubujyakuzimu bukomeye bukenewe kugira ngo utangire gukora witonze muri iyi ecosystem.
 
 Yafashwe mu gihe cya bootcamp ya CUBO+ 2023 muri El Salvador, iri somo rihuza ibitekerezo by'abatunganyabikorwa ba Bitcoin bakomeye n'abarimu bagize ikoranabuhanga. Igice cyiza cyane? Ni ubuntu rwose, bishobokaye biturutse kuri Fulgure Ventures, Bitcoin Office na DecouvreBitcoin. Niba waba wari ufite amatsiko yo kumenya uko Bitcoin ikora mu rwego rwa protocole, iyi ni amahirwe yawe yo kubimenya.
+
+Iciyumviro: Amavidewo y'iri somo aboneka mu congereza gusa.
+
 +++
 # Intangamarara n'amashure yo kwitegura
 

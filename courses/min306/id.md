@@ -21,6 +21,7 @@ Proyek Bitaxe mewakili pergeseran paradigma dalam Bitcoin mining, mematahkan mon
 
 Tidak diperlukan pengalaman mining sebelumnya, meskipun pengetahuan elektronik dasar dan keakraban dengan GitHub akan sangat membantu. Kursus ini akan mengubah Anda dari seorang pengamat yang ingin tahu menjadi pembuat dan kontributor Bitaxe yang cakap.
 
+Catatan: Video untuk kursus ini hanya tersedia dalam bahasa Inggris.
 
 +++
 

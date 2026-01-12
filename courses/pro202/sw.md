@@ -17,6 +17,7 @@ Kozi hii ya siku mbili yenye nguvu, inayofundishwa na Jimmy Song, inakupeleka nd
 
 Furahia safari!
 
+Kumbuka: Video za kozi hii zinapatikana kwa Kiingereza pekee.
 
 +++
 

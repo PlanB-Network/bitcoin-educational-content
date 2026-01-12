@@ -17,6 +17,7 @@ Questo corso intensivo di due giorni, tenuto da Jimmy Song, approfondisce le bas
 
 Godetevi il viaggio!
 
+Nota: I video di questo corso sono disponibili solo in inglese.
 
 +++
 

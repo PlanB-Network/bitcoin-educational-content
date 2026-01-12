@@ -17,6 +17,7 @@ Khóa học chuyên sâu kéo dài hai ngày này, do Jimmy Song giảng dạy, 
 
 Chúc bạn có một chuyến đi vui vẻ!
 
+Lưu ý: Video của khóa học này chỉ có sẵn bằng tiếng Anh.
 
 +++
 

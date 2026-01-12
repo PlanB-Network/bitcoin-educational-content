@@ -17,6 +17,7 @@ Tämä intensiivinen kaksipäiväinen kurssi, jonka opettajana toimii Jimmy Song
 
 Nauti matkasta!
 
+Huomio: Tämän kurssin videot ovat saatavilla vain englanniksi.
 
 +++
 

@@ -22,13 +22,13 @@ Optional:
 It is recommended to have some experience with commandline prompts and bash, as not all steps can be automated.
 
 Hardware-wise it is adviced to have a system with:
-- 4-cores
-- 16GB RAM
-- 2TB SSD/NVMe (for full-node) / 128GB SSD (for pruned-node)
+- 4 cores
+- 16 GB RAM
+- 2 TB SSD or NVMe (for a full-node) / 128 GB SSD (for a pruned-node)
 
-which a Raspberry Pi 5 can provide for just 120$, excluding the storage which costs around 100$ for a 2TB NVMe stick.
+Such requirements can be provided by a Raspberry Pi 5 for just 120$, excluding the storage which costs around 100$ for a 2TB NVMe stick.
 
-Cheap VPS's typically come with only 1-core and 4GB RAM, which I've found is too little to sync and verify the entire bitcoin blockchain at blockheight 911817.
+Cheap VPS typically come with only 1 core and 4GB RAM, which I've found is too little to sync and verify the entire bitcoin blockchain at blockheight 911817.
 
 Storage-wise a full-node will require at minimum a 2TB of disc storage, preferably SSD or NVMe type. When pruning the blockchain a much smaller storage drive is acceptable (e.g. a 128GB SSD).
 
@@ -44,12 +44,12 @@ The deployment details differ depending on hardware (CPU-architecture) and OS ch
 
 Find the installation instructions here: [Wasabi Docs](https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html)
 
-### RaspiBlitz/Debian deployment:
+### RaspiBlitz/Debian deployment
 
 For RaspiBlitz (tested with v1.11) nodes a deployment script building from source code can be used: [home.admin/config.scripts/bonus.wasabi.sh](https://github.com/kravens/raspiblitz/blob/dev/home.admin/config.scripts/bonus.wasabi.sh)
 
 
-### Easy deployment: 
+### Easy deployment
 
 For a minimal deployment you just want to extract the executables for your platform in a folder.
 Example commandline codes for Debian/Ubuntu:

@@ -1,8 +1,8 @@
 question: Quel est le principal avantage des énums Rust, qui permettent de transporter des données à l'intérieur de chaque variante ?
-answer: Il évite les incohérences entre les indicateurs de type et les données associées en les regroupant
+answer: Il évite les incohérences entre les indicateurs de type et les données associées en les regroupant.
 wrong_answers:
-  - Il permet aux enums d'implémenter automatiquement tous les traits standard sans déclaration explicite
-  - Il permet d'utiliser les enums comme paramètres génériques dans n'importe quelle fonction ou méthode
-  - Les enums consomment moins de mémoire que les structures traditionnelles contenant des données similaires
+  - Il permet aux enums d'implémenter automatiquement tous les traits standard sans déclaration explicite.
+  - Il permet d'utiliser les enums comme paramètres génériques dans n'importe quelle fonction ou méthode.
+  - Les enums consomment moins de mémoire que les structures traditionnelles contenant des données similaires.
 explanation: |
-  Les enums Rust peuvent attacher des données directement à chaque variante, ce qui élimine l'erreur de programmation courante consistant à maintenir des variables distinctes pour les indicateurs de type et leurs données associées. Cette conception garantit que les données correspondent toujours à la variante, ce qui évite les incohérences susceptibles d'entraîner des erreurs d'exécution. Contrairement à d'autres langages où l'on peut avoir un enum séparé pour le type et des variables pour les données, le Rust regroupe tous les éléments, ce qui rend impossible l'inadéquation entre le type et les données.
+  Les enums Rust peuvent attacher des données directement à chaque variante, ce qui élimine l'erreur de programmation courante consistant à maintenir des variables distinctes pour les indicateurs de type et leurs données associées. Cette conception garantit que les données correspondent toujours à la variante, ce qui évite les incohérences susceptibles d'entraîner des erreurs d'exécution. Contrairement à d'autres langages où l'on peut avoir un enum séparé pour le type et des variables pour les données, Rust regroupe tous les éléments, ce qui rend impossible l'inadéquation entre le type et les données.

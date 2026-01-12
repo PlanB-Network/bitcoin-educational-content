@@ -4,9 +4,9 @@ name: LNbits
 description: 판매자 계정 플랫폼
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# 회계 시스템
+## 회계 시스템
 
 
 LNbits에는 수신 및 발신 자금을 제어하고, 웹스토어 또는 Hardware Wallet 또는 직접 구축한 ATM과 같은 장치를 연결할 수 있는 다양한 도구가 포함되어 있습니다. 사용자 유형은 다음과 같습니다:
@@ -19,7 +19,7 @@ LNbits에는 수신 및 발신 자금을 제어하고, 웹스토어 또는 Hardw
 - 사용자마다 요구사항이 모두 다릅니다. 저희는 모든 사용자가 자신에게 가장 적합한 방식으로 기능을 사용할 수 있도록 모듈식 방식으로 LNbits를 구축했습니다.
 
 
-# Wallet 관리자
+## Wallet 관리자
 
 
 LNbits는 노드 관리자가 아닌 무료 오픈소스 회계 시스템입니다. 채널 관리는 LND 또는 c-lightning과 같은 펀딩 소스로 LNbits에 연결된 라이트닝 노드의 도메인입니다. LNbits 시스템의 수퍼유저 또는 관리 사용자는 계정 기능 및 내부 확장 기능의 전반적인 접근성과 구성을 관리할 책임이 있습니다.
@@ -40,13 +40,13 @@ LNbits를 나만의 은행 재무 관리 소프트웨어라고 생각하세요. 
 참고: "고객"이 귀하의 노드에 있는 LNbits 은행 계좌에 입금하는 모든 자금은 귀하의 노드 LN 채널로 바로 이동합니다. 이는 귀하가 실제로 해당 자금의 실제 소유자라는 의미입니다. 여러분은 그들의 자금에 대해 큰 책임을 지게 됩니다. 악의적으로 자금을 가지고 도망치거나, 악의적으로 높은 수수료를 부과하지 마세요. 우리는 법정화폐 은행가들을 엿먹이고 싶지, 서로(Bitcoin 사용자)를 엿먹이고 싶지 않습니다.
 
 
-# 데모 플랫폼
+## 데모 플랫폼
 
 
 데모는 [https://legend.lnbits.com](https://legend.lnbits.com)에서 확인할 수 있습니다. 데모는 모든 기능을 갖추고 있으며 Lightning Network와 LNbits 및 LNURL의 기능에 대해 전반적으로 학습하는 데 사용할 수 있습니다. 사용을 막을 수는 없지만 프로덕션 설정에 사용하지 말아 주시기를 부탁드립니다. 저희는 새로운 기능을 테스트하기 위해 서버에서 자주 작업하고 있을 뿐만 아니라, 여러분 자신의 노드와 LNbits를 주권적인 방식으로 실행하도록 권장하고 싶습니다. 노드 운영이 현재로서는 너무 무리라고 생각되신다면, 오픈노드, 루나, 보타지와 같은 클라우드의 커스터디 펀딩 서비스나 텔레그램의 라이트닝 팁봇에 LNbits를 연결할 수 있습니다.
 
 
-# LNbits 전단지
+## LNbits 전단지
 
 
 상인이나 건물 친구에게 몇 가지 기본 정보를 전달하고 싶으신가요? 모두가 사용할 수 있는 첫 번째 전단지를 발표하게 되어 매우 기쁩니다. 크기는 6페이지(2단 접기), 너비 3508, 높이 2480px의 전 세계적으로 일반적인 전단지 형식입니다.
@@ -58,10 +58,10 @@ LNbits를 나만의 은행 재무 관리 소프트웨어라고 생각하세요. 
 빌더를 위한 LNbits: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# 몇 가지 기본 사항
+## 몇 가지 기본 사항
 
 
-LNbits는 LNURL 프로토콜을 기반으로 작동하므로 요청은 https:// clearnet 링크(자체 서명 인증서 허용되지 않음) 또는 http:// v2/v3 onion 링크의 두 가지 형태로 유효합니다. 야생에서 사용할 수 있는 LNURLp/w QR코드 또는 NFC 카드와 같은 LNbits 서비스를 제공하려면 클리어넷(https)으로 LNbits를 열어야 합니다.
+LNbits는 LNURL 프로토콜을 기반으로 작동하므로 요청은 https://clearnet 링크(자체 서명 인증서 허용되지 않음) 또는 http://v2/v3 onion 링크의 두 가지 형태로 유효합니다. 야생에서 사용할 수 있는 LNURLp/w QR코드 또는 NFC 카드와 같은 LNbits 서비스를 제공하려면 클리어넷(https)으로 LNbits를 열어야 합니다.
 
 
 LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇이며 어떤 가능성을 열어주는지에 대해 이해했는지 확인하세요.
@@ -90,10 +90,10 @@ LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇
 
 
 
-# LNbits 설치
+## LNbits 설치
 
 
-## 기본 설치 가이드
+### 기본 설치 가이드
 
 
 LNbits는 모든 Linux OS 머신에 설치할 수 있습니다. 강력한 머신이나 서버가 필요하지 않으며, 데이터베이스를 위한 충분한 RAM 메모리와 약간의 디스크 공간만 있으면 됩니다. BTC/LN 노드(로컬 PC 또는 원격 VPS)와 별도로 실행하거나 노드와 동일한 머신에서 함께 실행하거나 번들 노드 소프트웨어 머신에 이미 설치되어 있을 수 있습니다.
@@ -119,7 +119,7 @@ Nginx를 사용하여 PostgreSQ, LightningTipBot을 펀딩 소스로 사용하�
 번들 소프트웨어 노드의 경우, LNbits에 대한 특정 문서를 참조하세요: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
 기술적인 부분에 관심이 없고 펀딩 소스를 직접 호스팅하고 싶지 않다면 [LNbits SaaS 버전](https://saas.lnbits.com) (서비스형 소프트웨어)을 사용할 수 있습니다. 기본적으로 클라우드의 LNbits와 비슷하지만 다른 클라우드 솔루션에서는 대부분 제공되지 않는 펀딩 소스(예: 노드, LNbits Wallet, LNtipbot, 가짜 지갑 등)와 환경 변수를 직접 정의할 수 있습니다.
@@ -128,7 +128,7 @@ Nginx를 사용하여 PostgreSQ, LightningTipBot을 펀딩 소스로 사용하�
 [특정 사용 사례에 대한 LNbits SaaS 사용 방법 상세 가이드](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools)를 참조하세요.
 
 
-## 자금 출처
+### 자금 출처
 
 
 LNbits는 노드 관리 소프트웨어가 아니라 LND 또는 CLN 펀딩 소스를 기반으로 하는 LN 중심의 회계 시스템입니다. 처음 설치한 후에는 http://localhost:5000/ 에서 LNbits를 방문하실 수 있습니다.
@@ -157,7 +157,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 
 
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -168,7 +168,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: secret_access_key
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND(REST)
@@ -192,7 +192,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 마카롱을 암호화하려면 `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`를 실행합니다.
 
 
-### LNbits(또 다른 LNbits 인스턴스)
+#### LNbits(또 다른 LNbits 인스턴스)
 
 
 
@@ -205,7 +205,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
   - lnbits_endpoint`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### 라이트닝 팁봇
+#### 라이트닝 팁봇
 
 
 텔레그램에서 [라이트닝 팁봇](https://t.me/LightningTipBot)을 연결하려면, 다음 파라미터를 설정해야 합니다:
@@ -219,7 +219,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 또한 이 튜토리얼에서 [vps를 통해 라이트닝팁봇과 함께 LNbits 설치하기](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)를 참조하세요
 
 
-### IBEX 허브
+#### IBEX 허브
 
 
 여기](https://ibexpay.ibexmercado.com/onboard)에 등록한 다음 거기에서 키/토큰을 받으세요(엔드포인트는 https://ibexpay-api.ibexmercado.com).
@@ -227,7 +227,7 @@ LNbits는 다양한 라이트닝 네트워크 펀딩 소스에서 실행할 수 
 자세한 내용은 [IBEX API-문서](https://ibexpay-api.readme.io/reference/getting-started-with-your-api)를 참조하세요.
 
 
-### LNPay
+#### LNPay
 
 Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 하며, "Wallet 수신" 이벤트와 함께 `<귀하의 LNbits 호스트>/Wallet/웹훅`을 가리키는 [LNPay 웹훅](https://dashboard.lnpay.co/webhook/)을 설정하고 비밀을 제공하지 않아야 합니다. 설정 `https://mylnbits/Wallet/webhook`은 결제에 대한 알림을 받는 엔드포인트 URL이 됩니다.
 
@@ -238,7 +238,7 @@ Invoice 리스너가 작동하려면 LNbits에 공개적으로 액세스할 수 
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### OpenNode
+#### OpenNode
 
 Invoice가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL이 있어야 합니다. 웹훅 설정은 선택 사항입니다.
 
@@ -248,7 +248,7 @@ Invoice가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
 Alby는 LN Wallet 기능을 갖춘 브라우저 확장 프로그램으로, LNbits의 자금 출처로 사용할 수 있는 LNDHUB 계정을 제공합니다. [자세한 내용은 여기를 참조하세요(https://getalby.com/).
@@ -263,13 +263,13 @@ Invoice가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL
 - 알비_액세스_토큰`: 알비액세스토큰
 
 
-## 추가 / 문제 해결 가이드
+### 추가 / 문제 해결 가이드
 
 
 필요한 경우를 대비하여 몇 가지 추가 지침을 알려드립니다. 화살표를 클릭하면 설명이 펼쳐집니다.
 
 
-### 킬스위치 🚨
+#### 킬스위치 🚨
 
 
 최근 전체 공간뿐만 아니라 LNbits에서도 위험한 버그가 너무 많이 발생하여 이에 대한 조치를 취하기로 결정했습니다. 이제 자금 손실로 이어질 수 있는 취약점이나 버그가 다시 발생할 경우 경고를 받거나 직접 조치를 취하도록 선택할 수 있습니다.
@@ -285,13 +285,13 @@ Invoice가 작동하려면 LNbits에 공개적으로 액세스할 수 있는 URL
 
 
 
-### 관리자와 수퍼유저의 차이점
+#### 관리자와 수퍼유저의 차이점
 
 
 LNbits 관리자 UI를 사용하면 LNbits 프론트엔드를 통해 LNbits 설정을 변경할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있으며, '.env' 파일에서 환경 변수 `LNBITS_ADMIN_UI=true`를 처음 설정하면 설정이 초기화되어 사용됩니다. 그 이후부터는 데이터베이스의 해당 설정 대신 .env 파일의 설정이 사용됩니다.
 
 
-### 슈퍼 사용자
+#### 슈퍼 사용자
 
 
 관리자 UI에서는 서버에 액세스할 수 있는 슈퍼 유저를 도입하여 펀딩 소스 변경과 같이 서버를 다운시키거나 프론트엔드 및 API를 통해 응답하지 않을 수 있는 설정을 변경할 수 있도록 했습니다. 수퍼 유저는 데이터베이스의 설정 테이블에만 저장됩니다. 설정을 "기본값으로 재설정"하고 다시 시작하면 새로운 수퍼 유저가 생성됩니다. 또한 슈퍼 사용자의 존재 여부를 확인하기 위해 API 경로에 데코레이터를 추가했습니다. 해당 ID는 API와 프론트엔드를 통해 전송되지 않으며 수퍼 유저인지 여부만 부울(예/아니요)로 받습니다.
@@ -306,13 +306,13 @@ LNbits 관리자 UI를 사용하면 LNbits 프론트엔드를 통해 LNbits 설�
 프런트엔드에서 서버 관리 섹션을 열고 테마 -> 사용자 지정 로고를 선택하면 "Wallet 생성" 페이지에 표시되는 상점 이미지를 변경할 수도 있습니다.
 
 
-### 관리자 사용자
+#### 관리자 사용자
 
 
 환경 변수: 쉼표로 구분된 사용자 ID 목록인 `LNBITS_ADMIN_USERS`. 관리자 사용자는 관리자 UI에서 설정을 변경할 수 있지만, 펀딩 소스 설정은 서버를 다시 시작해야 하고 서버에 액세스할 수 없게 될 수 있으므로 예외로 합니다. 또한 `LNBITS_ADMIN_EXTENSIONS`에 있는 모든 확장 기능에 액세스할 수 있습니다.
 
 
-### 허용된 사용자
+#### 허용된 사용자
 
 
 환경 변수: 쉼표로 구분된 사용자 ID 목록인 `LNBITS_ALLOWED_USERS`. 이러한 사용자를 정의하면 일반인은 더 이상 LNbits를 사용할 수 없게 됩니다. 그러면 정의된 사용자와 관리자만 LNbits 프론트엔드에 액세스할 수 있습니다.
@@ -320,7 +320,7 @@ LNbits 관리자 UI를 사용하면 LNbits 프론트엔드를 통해 LNbits 설�
 
 
 
-#### LNbits 업데이트
+##### LNbits 업데이트
 
 LNbits 로컬 인스턴스의 일반적인 업데이트는 다음 CLI 명령을 복사하여 붙여넣기만 하면 됩니다:
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### SQLite에서 PostgreSQL로의 마이그레이션
+##### SQLite에서 PostgreSQL로의 마이그레이션
 
 
 이미 SQLite 데이터베이스에 LNbits를 설치하여 실행 중인 경우, LNbits를 대규모로 실행할 계획이라면 포스트그레스로 마이그레이션할 것을 적극 권장합니다.
@@ -385,14 +385,14 @@ make migration
 
 
 
-#### 데이터베이스 백업 및 복원
+##### 데이터베이스 백업 및 복원
 
 
 백업 및 복원 프로세스에 대한 자세한 가이드](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore)를 참조하세요.
 
 
 
-#### 내 노드에서 내 LNbits Wallet에 펀딩이 작동하지 않습니다
+##### 내 노드에서 내 LNbits Wallet에 펀딩이 작동하지 않습니다
 
 
 LNbits의 펀딩 소스인 동일한 노드에서 Sats을 보내려면 LND.conf 파일을 편집해야 합니다.
@@ -407,7 +407,7 @@ LND.conf의 애플리케이션 옵션 섹션에서 그렇게 하세요. 일부 �
 참고: 대신 "충전" 옵션이 있는 새로운 adminUI 확장 프로그램을 사용하여 LNbits 계정에 자금을 추가하는 것이 좋습니다.
 
 
-#### 오류 426
+##### 오류 426
 
 오류가 발생했습니다: "공개적으로 액세스 가능한 https 도메인 또는 토르를 통해 lnurl을 전송해야 합니다. 426 업그레이드 필요"</summary>
 
@@ -426,7 +426,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### 네트워크 오류
+##### 네트워크 오류
 
 QR을 스캔할 때 'https 오류', '네트워크 오류' 등이 발생했어요</summary>
 
@@ -443,7 +443,7 @@ LNbits는 Tor를 통해서만 실행되며, lnbits.yourdomain.com과 같은 공�
 
 
 
-#### 다른 사람이 내 LNbits에서 지갑을 생성하지 못하도록 차단하기
+##### 다른 사람이 내 LNbits에서 지갑을 생성하지 못하도록 차단하기
 
 
 클리어넷에서 LNbits를 실행하면 기본적으로 모든 사람이 generate을 Wallet로 바꿀 수 있습니다. 노드의 자금이 이러한 지갑에 묶여 있기 때문에 이를 방지하고 싶을 수 있습니다. 이를 방지하는 방법에는 두 가지가 있습니다:
@@ -454,7 +454,7 @@ LNbits는 Tor를 통해서만 실행되며, lnbits.yourdomain.com과 같은 공�
 
 
 
-#### Invoice 만료 기간 사용자 지정하기
+##### Invoice 만료 기간 사용자 지정하기
 
 
 이제 사용자 지정 만료일을 사용하여 인보이스를 generate로 만들 수 있습니다. 백엔드와 호환됩니다: LndRest지갑, Lnd지갑, CoreLightning지갑, 에클레어지갑, Lnbits지갑, 스파크지갑까지!
@@ -465,16 +465,16 @@ LNbits는 Tor를 통해서만 실행되며, lnbits.yourdomain.com과 같은 공�
 
 
 
-## Wallet-URL 삭제됨
+### Wallet-URL 삭제됨
 
 
-### 데모 서버의 Wallet legend.lnbits
+#### 데모 서버의 Wallet legend.lnbits
 
 
 지갑용 Wallet-URL, Export2phone-QR 또는 LNDhub 사본을 항상 안전한 곳에 보관하세요. LNbits는 분실 시 복구에 도움을 드릴 수 없습니다.
 
 
-### 자체 펀딩 소스/노드의 Wallet
+#### 자체 펀딩 소스/노드의 Wallet
 
 항상 지갑용 Wallet-URL, Export2phone-QR 또는 LNDhub의 사본을 안전한 곳에 저장하세요. 모든 LNbits 사용자 및 Wallet-ID는 LNbits 사용자 관리자 확장 프로그램 또는 sqlite 데이터베이스에서 찾을 수 있습니다. LNbits 데이터베이스를 편집하거나 읽으려면 LNbits /data 폴더로 이동하여 sqlite.db라는 파일을 찾습니다. 엑셀 또는 [SQLite 브라우저](https://sqlitebrowser.org/)와 같은 전용 SQL 편집기를 사용하여 파일을 열고 편집할 수 있습니다.
 
@@ -511,14 +511,14 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 .quit
 ```
 
-#### 라이트닝-Address의 경우 LNURL, 그 반대도 마찬가지입니다
+##### 라이트닝-Address의 경우 LNURL, 그 반대도 마찬가지입니다
 
 
 이 [인코더](https://lnurl-codec.netlify.app/) 또는 [이 인코더](https://lightningdecoder.com/)를 사용해 보세요. LNURLp를 결제하거나 확인하려면 [LNurlpay](https://wwww.lnurlpay.com/)를 사용할 수도 있습니다. HTTP가 아닌 HTTPS라고 표시되어야 합니다.
 
 
 
-#### 내 LNURLp QR로 결제할 때 사람들이 볼 수 있는 댓글 구성하기
+##### 내 LNURLp QR로 결제할 때 사람들이 볼 수 있는 댓글 구성하기
 
 LNURL-p를 생성하면 기본적으로 댓글 상자가 채워지지 않습니다. 즉, 결제에 댓글을 첨부할 수 없습니다.
 
@@ -529,18 +529,18 @@ LNURL-p를 생성하면 기본적으로 댓글 상자가 채워지지 않습니�
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### 온체인 BTC를 LNbits에 입금하기
+##### 온체인 BTC를 LNbits에 입금하기
 
 온체인 BTC에서 Exchange Sats로 전환하는 방법은 두 가지가 있습니다(각각 LNbits로 전환).
 
 
-##### 외부 스왑 서비스를 통해.
+###### 외부 스왑 서비스를 통해.
 
 
 LNb에 액세스할 수 없는 다른 사용자는 [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) 또는 [ZigZag](https://zigzag.io/)와 같은 스왑 서비스를 사용할 수 있습니다. 이는 LNbits 인스턴스에서 LNURL/LN 인보이스만 제공하지만, 결제자는 온체인 Sats만 가지고 있어 먼저 해당 Sats을 스왑해야 하는 경우에 유용합니다. 절차는 간단합니다. 사용자가 온체인 비트코인을 스왑 서비스에 전송하고 LNbits의 LNURL/LN Invoice를 스왑 대상자로 제공합니다.
 
 
-##### 온체인과 볼츠 LNbits 확장 프로그램 사용.
+###### 온체인과 볼츠 LNbits 확장 프로그램 사용.
 
 
 이는 LN 자금 출처에서 LNbits가 "귀하의 Wallet"로 표시하는 LN btc가 아닌 별도의 Wallet라는 점을 명심하시기 바랍니다. 이 온체인 Wallet는 LNbits 볼츠 또는 디지 확장 프로그램을 사용하여 LN 비트코인을 (예: 하드웨어 지갑)으로 스왑하는 데에도 사용할 수 있습니다. LN 결제를 위해 LNbits와 연결된 웹샵을 운영하는 경우, LN의 모든 Sats을 온체인으로 정기적으로 배출하는 것이 매우 편리합니다. 이렇게 하면 LN 채널에 더 많은 공간을 확보하여 새로운 Sats을 받을 수 있습니다.
@@ -592,7 +592,7 @@ On-Chain 확장에서 ypub를 사용할 때 "지원되지 않는 Hash 유형" �
 
 
 
-## LNbits를 사용한 툴링 및 빌드
+### LNbits를 사용한 툴링 및 빌드
 
 
 LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍하고 연결할 수 있는 모든 종류의 [오픈 API](https://legend.lnbits.com/docs)와 도구를 제공합니다.
@@ -601,10 +601,10 @@ LNbits는 수많은 사용 사례를 위해 다양한 기기를 프로그래밍�
 메이커비트를 처음 접하는 분이라면 벤 아크의 [메이커비트 프레젠테이션](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos)을 통해 LNbits를 기반으로 가젯을 제작하는 방법을 알아보세요.
 
 
-### 중요:
+#### 중요:
 
 
-- LNbits는 LNURL 프로토콜을 기반으로 작동하며, 요청은 https:// clearnet 링크(자체 서명 인증서 허용되지 않음) 또는 http:// v2/v3 onion 링크의 두 가지 형태로 유효합니다. 야생에서 사용할 수 있는 LNURLp/w QR코드 또는 NFC 카드와 같은 LNbits 서비스를 제공하려면 LNbits를 clearnet(https)으로 열어야 합니다.
+- LNbits는 LNURL 프로토콜을 기반으로 작동하며, 요청은 https://clearnet 링크(자체 서명 인증서 허용되지 않음) 또는 http://v2/v3 onion 링크의 두 가지 형태로 유효합니다. 야생에서 사용할 수 있는 LNURLp/w QR코드 또는 NFC 카드와 같은 LNbits 서비스를 제공하려면 LNbits를 clearnet(https)으로 열어야 합니다.
 - Esp32에 전원을 공급할 때는 데이터 케이블만 사용하세요. 모든 케이블이 esp에 전원을 공급하는 것 외에 데이터를 지원하는 것은 아닙니다. esp와 함께 제공된 케이블이 전원 전용 케이블인 경우 다음과 같이 하세요
 - 다른 장치가 연결된 상태에서 USB 허브를 사용하지 마세요. 이렇게 하면 디버깅에 Hard인 이상한 효과(예: 시작 또는 중지되지 않음)가 발생할 수 있습니다.
 - MacOS에서 esp 프로젝트를 구현하려면 UART 브리지 드라이버가 필요합니다. Mac 또는 Linux 시스템에서 드라이버에 문제가 있는 경우 여기에서 드라이버를 찾을 수 있으며, TTGO 디스플레이가 관련된 경우 여기에서 드라이버를 찾을 수 있습니다. Windows를 사용 중이고 연결에 문제가 있는 경우 최신 버전이 작동하지 않으므로 구버전 11.1.0을 다운로드하세요! 또한 여기에서 직렬 터미널을 찾아 연결 상태를 확인할 수 있습니다(전송 속도 115200으로 설정).

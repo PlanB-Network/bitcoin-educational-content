@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Kurulum ve yapılandırma
 
 
-Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/Liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan] (https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
+Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/Liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ Onaylandıktan sonra Coin'iniz güvende! Bir sonraki son kullanma tarihine kadar
 Liana Wallet'ten fonları kurtarırken iki durumdan biriyle karşı karşıya kalabilirsiniz. Yazılımın yüklü olduğu bilgisayara erişiminiz olabilir, bu durumda tek yapmanız gereken onu açmaktır (gelişmiş yedekleme modelinde bu gerçekleşecektir). Ancak, bu bilgisayara erişiminiz olmayabilir, bu nedenle burada sıfırdan başlayacağız. Kurtarma prosedürünün her iki durumda da aynı olduğunu unutmayın.
 
 
-Başlamak için Liana'yı [resmi Wizardsardine web sitesinden] (https://wizardsardine.com/Liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan] (https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
+Başlamak için Liana'yı [resmi Wizardsardine web sitesinden](https://wizardsardine.com/Liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
@@ -455,7 +455,7 @@ Ardından "*Yayın*" seçeneğine tıklayarak ağ üzerinden yayınlayın.
 ## Bonus: Descriptor analizi
 
 
-Descriptor, bir dizi adresi kapsamlı bir şekilde tanımlayan, insan tarafından okunabilir bir karakter dizisidir. Gelişmiş bir Wallet'un parçalarını (UTXO) almak için bir dizi temel bilgiyi birleştirir. Descriptor'in yazım şekli, Andrew Poelstra, Pieter Wuille ve Sanket Kanjalkar tarafından 2019 yılında geliştirilen komut dosyası dili olan [Miniscript syntax] (https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/)'a dayanmaktadır.
+Descriptor, bir dizi adresi kapsamlı bir şekilde tanımlayan, insan tarafından okunabilir bir karakter dizisidir. Gelişmiş bir Wallet'un parçalarını (UTXO) almak için bir dizi temel bilgiyi birleştirir. Descriptor'in yazım şekli, Andrew Poelstra, Pieter Wuille ve Sanket Kanjalkar tarafından 2019 yılında geliştirilen komut dosyası dili olan [Miniscript syntax](https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/)'a dayanmaktadır.
 
 
 Bu karakter dizisinin neden önemli olduğunu daha iyi anlamak için örneğimizdeki Descriptor'yi analiz edelim, yani :

@@ -1,0 +1,8 @@
+question: Koja je primarna razlika između metoda unwrap_or() i unwrap_or_default() prilikom rukovanja tipovima Result i Option?
+answer: unwrap_or() zahteva da navedete rezervnu vrednost, dok unwrap_or_default() koristi podrazumevanu implementaciju tipa
+wrong_answers:
+  - unwrap_or() izaziva paniku pri greškama dok unwrap_or_default() vraća None, pružajući sigurnije rukovanje greškama u produkciji
+  - unwrap_or() radi samo sa tipovima Result dok unwrap_or_default() radi isključivo sa tipovima Option za ekstrakciju vrednosti
+  - unwrap_or() propagira greške uz stek poziva dok unwrap_or_default() pretvara sve greške u podrazumevane string poruke
+explanation: |
+  Metoda unwrap_or() omogućava vam da obezbedite specifičnu rezervnu vrednost kada Result sadrži grešku ili Option sadrži None, dajući vam kontrolu nad tim koju vrednost da koristite u slučajevima neuspeha. Nasuprot tome, unwrap_or_default() automatski koristi implementaciju Default osobine tipa, što je zgodno kada je podrazumevana vrednost odgovarajuća za vašu upotrebu. Obe metode rade sa oba tipa, Result i Option, i nijedna ne izaziva paniku niti propagira greške - obe pružaju gracioznu degradaciju vraćanjem upotrebljivih vrednosti umesto neuspeha.

@@ -1,0 +1,8 @@
+question: Vilka är de tre komponenter som utgör en strängs struktur i Rust:s minneslayout?
+answer: En pekare till heapdata, den aktuella längden och den totala kapaciteten
+wrong_answers:
+  - En pekare till stackdata, den aktuella storleken och den maximala längden
+  - En minnesadress, teckenantalet och allokeringstypen
+  - En datareferens, bytestorlek och ägarstatus
+explanation: |
+  En sträng i Rust består av exakt tre komponenter som lagras i stacken: en pekare till den allokerade teckeninformationen i heapen, den aktuella längden på strängens innehåll och den totala kapaciteten i den allokerade bufferten. Denna struktur gör att strängar effektivt kan växa och krympa samtidigt som de behåller kunskapen om sina gränser. De andra alternativen är felaktiga eftersom de antingen hänvisar till fel platser (stack istället för heap), använder oprecis terminologi (storlek vs längd, teckenantal vs byte-längd) eller inkluderar icke-existerande komponenter som allokeringstyp eller ägarstatus.

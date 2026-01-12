@@ -149,8 +149,8 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-- Android Flash-verktyg**: Använd det officiella Google-verktyget [flash.android.com] (https://flash.android.com) för att enkelt återställa din Pixel-enhet till standard-Android från din webbläsare (Chrome/Edge krävs)
-- Alternativ**: Fabriksbilder manuellt från [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Android Flash-verktyg**: Använd det officiella Google-verktyget [flash.android.com](https://flash.android.com) för att enkelt återställa din Pixel-enhet till standard-Android från din webbläsare (Chrome/Edge krävs)
+- Alternativ**: Fabriksbilder manuellt från [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ Enligt officiell statistik omfattar de mest använda modellerna en mängd olika 
 
 
 
-**ADB- och Fastboot-verktyg:** Följ den [officiella LineageOS-guiden] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) för att installera Android SDK Platform Tools. Verifiera installationen med `adb version` och `fastboot --version`.
+**ADB- och Fastboot-verktyg:** Följ den [officiella LineageOS-guiden](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) för att installera Android SDK Platform Tools. Verifiera installationen med `adb version` och `fastboot --version`.
 
 
 
@@ -723,7 +723,7 @@ LineageOS erbjuder ett moget alternativ för att återfå kontrollen över din A
 
 
 - [LineageOS officiella webbplats](https://lineageos.org)
-- [LineageOS Wiki] (https://wiki.lineageos.org) - Installationsguider efter modell
+- [LineageOS Wiki](https://wiki.lineageos.org) - Installationsguider efter modell
 - [LineageOS för microG](https://lineage.microg.org) - Version med integrerad microG
 
 
@@ -733,7 +733,7 @@ LineageOS erbjuder ett moget alternativ för att återfå kontrollen över din A
 
 
 
-- [Subreddit r/LineageOS] (https://reddit.com/r/LineageOS)
+- [Subreddit r/LineageOS](https://reddit.com/r/LineageOS)
 - [Mastodon-konto @LineageOS](https://fosstodon.org/@LineageOS)
 
 

@@ -1,0 +1,8 @@
+question: ¿Qué limitación arquitectónica fundamental del Lightning Development Kit (LDK) crea el riesgo operativo más grave para los usuarios de wallet móvil durante los picos de tarifas de red?
+answer: Ausencia de salidas de anclaje que impidan el cierre forzoso del canal cuando las comisiones preestablecidas resulten insuficientes para la confirmación de la transacción
+wrong_answers:
+  - La falta de compatibilidad con LNURL requiere la generación manual de facturas y el procesamiento de pagos para todas las transacciones Lightning
+  - La falta de sincronización del grafo de red provoca fallos en el enrutamiento de pagos cuando las aplicaciones móviles se reinician tras largos periodos
+  - Gestión insuficiente de la reserva de canales, lo que provoca bloqueos de fondos cuando los usuarios intentan gastar todo el saldo que muestran
+explanation: |
+  La ausencia de salidas de anclaje en LDK crea una vulnerabilidad crítica en la que los canales no pueden cerrarse a la fuerza durante los picos de tarifas porque las tarifas preestablecidas se vuelven insuficientes para la confirmación de blockchain. Esto es especialmente peligroso para los monederos móviles, en los que los usuarios pueden abandonar la aplicación sin un cierre cooperativo, lo que podría dejar varados los fondos indefinidamente. Aunque la ausencia de LNURL afecta a la experiencia del usuario y los problemas de enrutamiento afectan a la fiabilidad, ninguno de ellos crea el riesgo existencial para la recuperación de fondos que presentan las limitaciones de salida de anclaje durante los entornos de comisiones altas.

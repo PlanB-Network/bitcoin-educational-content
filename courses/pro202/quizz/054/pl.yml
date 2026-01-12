@@ -1,0 +1,8 @@
+question: Jaki konkretny warunek musi zostać spełniony w procesie uzgadniania Bitcoin z P2P, zanim dwa węzły będą mogły rozpocząć aktywne przekazywanie zapasów i danych transakcji?
+answer: Oba węzły muszą wymieniać między sobą komunikaty dotyczące wersji i verack
+wrong_answers:
+  - Węzeł łączący musi otrzymać potwierdzenie DNS seed od deweloperów rdzenia
+  - "Oba węzły muszą wzajemnie zweryfikować wysokość bloku i hash końcówki łańcucha"
+  - "Węzeł odbierający musi zweryfikować certyfikat peer węzła łączącego"
+explanation: |
+  Uścisk Bitcoin P2P wymaga dwukierunkowej wymiany, w której łączący się węzeł wysyła komunikat o wersji, odbiorca odpowiada komunikatem verack i własną wersją, a pierwotny nadawca odpowiada swoim komunikatem verack. Dopiero po tej kompletnej wymianie czterech komunikatów (wersja→verack+wersja→verack) węzły mogą rozpocząć aktywną komunikację. Nasiona DNS są używane tylko do początkowego wykrywania peerów, a nie do uzgadniania. Bitcoin nie używa certyfikatów, a walidacja łańcucha następuje po nawiązaniu połączenia.

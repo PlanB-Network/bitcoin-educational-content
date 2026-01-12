@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre les méthodes et les fonctions associées dans les structures Rust ?
+answer: Les méthodes prennent self comme premier paramètre, ce qui n'est pas le cas des fonctions associées
+wrong_answers:
+  - Les méthodes sont publiques par défaut, tandis que les fonctions associées sont privées par défaut
+  - Les méthodes ne peuvent que lire les données, tandis que les fonctions associées peuvent modifier les champs de la structure
+  - Les méthodes utilisent la notation par points pour être appelées, tandis que les fonctions associées utilisent la notation par flèches
+explanation: |
+  Les méthodes en Rust sont des fonctions définies dans un bloc impl qui prennent une certaine forme de self comme premier paramètre (self, &self, ou &mut self), ce qui leur permet d'opérer sur des instances de la structure. Les fonctions associées sont également définies dans des blocs impl mais ne prennent pas self comme paramètre, ce qui les rend similaires aux méthodes statiques dans d'autres langages. Les fonctions associées sont appelées à l'aide de la syntaxe des deux points (Type::nom_de_la_fonction()) et sont généralement utilisées comme constructeurs, tandis que les méthodes sont appelées sur les instances à l'aide de la notation par points. Les autres options sont incorrectes car les méthodes et les fonctions associées suivent les mêmes règles de visibilité, les deux peuvent être conçues pour modifier ou lire des données en fonction de leur implémentation, et les fonctions associées utilisent la syntaxe des deux points, et non la notation fléchée.

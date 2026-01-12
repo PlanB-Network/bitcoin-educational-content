@@ -1,5 +1,5 @@
 ---
-name: Specter Schreibtisch
+name: Specter Desktop
 description: Verwalten Sie Ihre Multi-Signatur-Bitcoin-Portfolios in völliger Souveränität mit Ihrem eigenen Knotenpunkt
 ---
 
@@ -127,7 +127,7 @@ Nachfolgend finden Sie unsere Anleitung für diese wallet-Hardware:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Für eine Coldcard müssen Sie die öffentlichen Schlüssel von der wallet-Hardware entweder über eine USB-Verbindung oder eine microSD-Karte exportieren.
 
@@ -500,7 +500,7 @@ Obwohl die Anwendung eine anfängliche Investition in die Infrastruktur und das 
 
 - [Specter Desktop offizielle Website](https://specter.solutions/desktop/)
 - [GitHub-Quellcode](https://github.com/cryptoadvance/specter-desktop)
-- [Vollständige Dokumentation] (https://docs.specter.solutions/)
+- [Vollständige Dokumentation](https://docs.specter.solutions/)
 
 
 
@@ -509,6 +509,6 @@ Obwohl die Anwendung eine anfängliche Investition in die Infrastruktur und das 
 
 
 
-- [Telegram Specter Community Group] (https://t.me/spectersupport)
+- [Telegram Specter Community Group](https://t.me/spectersupport)
 - [Reddit Diskussionsforum](https://reddit.com/r/specterdesktop/)
-- [GitHub Fehlerberichte] (https://github.com/cryptoadvance/specter-desktop/issues)
+- [GitHub Fehlerberichte](https://github.com/cryptoadvance/specter-desktop/issues)

@@ -1,0 +1,9 @@
+question: Quelle a été la cause du piratage de Mt. Gox le 19 juin ?
+answer: L'accès à la base de données des mots de passe, qui étaient hachés par MD5, mais sans salage
+wrong_answers:
+  - Jed McCaleb a laissé fuité le mot de passe permettant d'accéder à son compte personnel sur la plateforme
+  - Un krach éclair, qui a permis au pirate de retirer plus de bitcoins qu'il n'en avait
+  - Des injection XML dans des requêtes de retrait pour siphonner les comptes
+explanation: |
+ Cette fuite a permis au pirate d'accéder aux comptes dont les mots de passe étaient faibles (courts ou facile à deviner). Il a en particulier accédé au compte de Jed McCaleb de cette manière. Il a vendu des bitcoins pour faire baisser le prix, de sorte à retirer un maxium de bitcoins (la limite de retrait journalière était de 1 000 $).
+reviewed: false

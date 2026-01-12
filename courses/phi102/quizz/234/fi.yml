@@ -1,0 +1,8 @@
+question: Mihin taloudelliseen mekanismiin sopimusvapaus ensisijaisesti nojaa varmistaakseen, että molemmat osapuolet hyötyvät vapaaehtoisesta vaihdosta?
+answer: Kummankin osapuolen subjektiivinen arvostus, jonka perusteella vaihto on parempi kuin siitä pidättäytyminen
+wrong_answers:
+  - Valtion sääntely, jolla varmistetaan hyötyjen tasapuolinen jakautuminen sopimuspuolten kesken
+  - Markkinahintojen valvonta, joka takaa oikeudenmukaisen korvauksen kaikille pörssin osallistujille
+  - Objektiivinen arvon mittaaminen, joka tuottaa matemaattisesti samanarvoisia voittoja molemmille osapuolille
+explanation: |
+  Vapaaehtoiset sopimukset tuottavat molemminpuolista hyötyä, koska kukin yksilö päättää osallistua vain silloin, kun hän subjektiivisesti arvostaa saamaansa enemmän kuin sitä, mistä hän luopuu. Tämä subjektiivinen mieltymys, ei niinkään mikään ulkoinen sääntely tai objektiivinen arvon mittaaminen, on vapaaehtoisen vaihdon positiivisen summan luonne. Valtion sääntely tai hintasäännöstely itse asiassa heikentäisi tätä vapaaehtoista mekanismia, kun taas objektiivinen arvon mittaaminen jättää huomiotta henkilökohtaiset mieltymykset, jotka motivoivat yksilöitä tekemään sopimuksia.

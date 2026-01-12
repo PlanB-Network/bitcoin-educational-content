@@ -1,0 +1,8 @@
+question: 與傳統基於 daemon 的 Lightning 節點相比，LDK 具備哪些關鍵能力，可在連線中斷的行動錢包中維持 Lightning 功能？
+answer: LDK 在上線時可與 Lightning Service Providers (LSP) 同步，同時維持非保管式私密金鑰控制的能力
+wrong_answers:
+  - 「LDK 內建的離線付款處理系統可讓交易排隊，直到網路連線恢復為止」
+  - 「LDK的分散式通道狀態備份系統，可在多個雲端提供商之間自動複製資料」
+  - 「LDK 的點對點網狀網路協定，可讓裝置對裝置直接進行 Lightning 付款，無需網際網路」
+explanation: |
+  LDK 的模組化架構可讓行動應用程式在上線後與 LSP 同步，以實現間歇性的連線模式，讓使用者即使在行動裝置離線時也能接收付款和管理通路。這與需要連續運作的傳統 Lightning daemon 有根本的不同。錯誤答案描述不存在的功能 - LDK 沒有內建離線付款處理、分散式備份或網狀網路功能。

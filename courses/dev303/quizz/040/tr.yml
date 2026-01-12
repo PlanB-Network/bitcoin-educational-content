@@ -1,0 +1,8 @@
+question: Bir closure belirli tiplerle çağrıldığında closure tip çıkarımına ne olur?
+answer: Bu tipler o kapanış örneği için sabit hale gelir
+wrong_answers:
+  - Kapanış, gelecekteki çağrılarda farklı türleri kabul etmeye devam edebilir
+  - Derleyici bir sonraki işlev çağrısı için türleri sıfırlar
+  - Tipler esnektir ve bağlama göre değişebilir
+explanation: |
+  Rust'da, closure'lar otomatik tip çıkarımından yararlanır, ancak bu esnekliğin sınırları vardır. Bir closure belirli parametre tipleriyle çağrıldığında, derleyici bu tipleri söz konusu closure örneği için kilitler. Bu, aynı closure'un daha sonra farklı türlerle çağrılamayacağı anlamına gelir - karşılaştığı ilk türlere tek biçimli hale gelir. Bu, farklı türlerle çağrılabilen genel fonksiyonlardan farklıdır çünkü her çağrı ayrı bir örnekleme oluşturur. Diğer seçenekler yanlıştır çünkü closure'ın tipleri belirlendikten sonra var olmayan esnekliğin devam edeceğini öne sürerler.

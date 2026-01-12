@@ -1,0 +1,8 @@
+question: Bitcoin 的 secp256k1 使用什麼橢圓曲線公式？
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin 特別使用 secp256k1 橢圓曲線，其簡化公式為 y² = x³ + 7。這是一般橢圓曲線 y² = x³ + ax + b 的特例，其中 a = 0，b = 7。其他選項都不對：y² = x³ + ax + b 是一般形式，但不是 Bitcoin 的特定曲線；y² = x³ + 5 使用了錯誤的常數；y² = x³ + x + 7 錯誤地包含了一個在 secp256k1 中不存在的線性 x 項。

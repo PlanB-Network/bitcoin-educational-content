@@ -1,0 +1,8 @@
+question: Koji fundamentalni dizajnerski princip omogućava LDK-u da kreira Lightning-svesne HSM-ove koji mogu inteligentno proceniti da li transakcija predstavlja legitimno usmeravanje plaćanja naspram potencijalno zlonamernih pokušaja?
+answer: Modularna arhitektura LDK omogućava izdvajanje specifičnih komponenti za potpisivanje i verifikaciju transakcija uz očuvanje svesti o kontekstu Lightning protokola
+wrong_answers:
+  - "Sistem zasnovan na događajima LDK-a automatski označava sumnjive transakcije putem algoritama mašinskog učenja integrisanih u osnovni proces potpisivanja"
+  - "Sloj apstrakcije blockchaina LDK-a omogućava detekciju prevara u realnom vremenu ukrštanjem svih transakcija sa podacima o mrežnim glasovima"
+  - "Sistem za upravljanje vršnjacima LDK-a implementira napredne kriptografske potpise koji inherentno razlikuju između legitimnih i zlonamernih obrazaca transakcija"
+explanation: |
+  Modularni dizajn LDK omogućava programerima da izdvoje samo komponente za potpisivanje i verifikaciju, dok očuvaju inteligenciju Lightning protokola potrebnu za razumevanje konteksta transakcija. Ovo omogućava HSM-ovima da donose informisane odluke o prosleđivanju plaćanja, operacijama kanala i bezbednosnim pretnjama, umesto da slepo potpisuju transakcije. Pogrešni odgovori pogrešno pripisuju ovu sposobnost automatskoj detekciji prevara, praćenju blockchain-a ili kriptografskim potpisima, dok je zapravo sposobnost modularne arhitekture da održi svest o protokolu u izolovanim komponentama ono što omogućava inteligentnu evaluaciju transakcija.

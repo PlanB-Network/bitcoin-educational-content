@@ -1,0 +1,10 @@
+question: บทบาทของกุญแจสาธารณะใน Bitcoin wallet คืออะไร?
+answer: มันถูกใช้เพื่อที่อยู่ generate Bitcoin และรับเงิน
+wrong_answers:
+  - มันถูกใช้ในการเข้ารหัสธุรกรรม Bitcoin
+  - มันถูกใช้เพื่อเข้าถึง Bitcoin wallet
+  - มันถูกใช้เพื่อสำรองข้อมูล Bitcoin wallet.
+explanation: |
+  คีย์สาธารณะได้มาจากคีย์ส่วนตัวและถูกใช้
+  เพื่อ generate Bitcoin ที่อยู่เพื่อรับเงิน
+reviewed: true

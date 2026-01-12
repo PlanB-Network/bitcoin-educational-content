@@ -1,0 +1,9 @@
+question: Hva er, ifølge Eric Hughes' Cypherpunk Manifesto, det primære ansvaret for å forsvare personvernet i et åpent elektronisk samfunn?
+answer: Enkeltpersoner må aktivt forsvare sitt eget personvern i stedet for å stole på at myndigheter eller selskaper skal sørge for det
+wrong_answers:
+  - Myndighetene bør etablere omfattende personvernregler for å beskytte innbyggerne mot bedriftsovervåking
+  - Selskaper må implementere frivillige personvernstandarder og selvregulere sin datainnsamlingspraksis
+  - Internasjonale organisasjoner bør opprette bindende avtaler som pålegger alle land å beskytte personvernet
+explanation: |
+  Eric Hughes uttalte eksplisitt i Cypherpunk-manifestet at "Vi kan ikke forvente at myndigheter, selskaper eller andre store anonyme organisasjoner skal garantere oss konfidensialitet...". Mitt hovedmål for Cypherpunks er å få folk til å forsvare konfidensialiteten sin, i stedet for å stole på at noen andre skal sørge for den
+  Denne filosofien legger vekt på individuelt ansvar og selvstendighet gjennom kryptografiske verktøy, og avviser avhengighet av eksterne institusjoner for personvern, noe som er grunnen til at cypherpunks utviklet desentraliserte kryptografiske systemer.

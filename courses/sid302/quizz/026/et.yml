@@ -1,0 +1,8 @@
+question: Milline on peamine arhitektuuriline erinevus Blockstream AMP 1. ja 2. versiooni vahel seoses tehingu ülesehituse ja sõlmede nõuetega?
+answer: Versioon 2 nihutab keerukuse serverile, mis tegeleb tehingu koostamisega ja esitab emitentidele PSETid, kõrvaldades vajaduse full node sünkroniseerimise järele
+wrong_answers:
+  - Versioon 2 nõuab emitentidelt mitme sünkroniseeritud Elements sõlme kasutamist redundantsi tagamiseks, samas kui versioon 1 nõudis ainult ühe sõlme ühendamist
+  - Versioon 2 paigutab kõik krüptograafilised operatsioonid kliendi poolsetesse riistvaralistesse rahakottidesse, samas kui versioon 1 viis kõik allkirjastamistoimingud läbi serveri infrastruktuuris
+  - Versioon 2 kaotab kaasallkirja nõude täielikult ja võimaldab otseseid vastastikuseid ülekandeid, samas kui versioon 1 nõudis iga tehingu puhul serveri autoriseerimist
+explanation: |
+  Arenemine AMP versioonist 1 versioonile 2 kujutab endast põhimõttelist üleminekut mudelilt "arukas klient, keeruline infrastruktuur" lähenemisviisile "arukas server, lihtsustatud klient". Versioon 1 nõudis emitentidelt täielikult sünkroniseeritud Elements sõlmede haldamist ja tuginemist monoliitse Green SDK-le, mis tekitas suuri tehnilisi takistusi. Versioon 2 paigutab keerukuse serveripoolele, kus AMP-server tegeleb tehingu koostamise, UTXO valiku ja tasu arvutamisega ning esitab emitentidele osaliselt allkirjastatud Elements tehingud (PSET), mis nõuavad ainult allkirju. See kaotab vajaduse täielike sõlmede järele ja võimaldab standardseid wallet integratsioone.

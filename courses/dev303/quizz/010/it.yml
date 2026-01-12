@@ -1,0 +1,8 @@
+question: Cosa succede a una variabile quando la proprietà viene spostata su un'altra variabile in Rust?
+answer: La variabile originale diventa non valida e non può più essere utilizzata
+wrong_answers:
+  - La variabile originale diventa un riferimento di sola lettura ai dati
+  - Entrambe le variabili condividono la proprietà e possono modificare i dati in modo indipendente
+  - La variabile originale viene automaticamente convertita in un riferimento mutabile
+explanation: |
+  Quando la proprietà viene spostata in Rust, la variabile originale diventa completamente invalida e non vi si può più accedere. Si tratta di una caratteristica di sicurezza fondamentale che impedisce a più variabili di gestire la stessa memoria heap, il che potrebbe portare a bug di use-after-free o a errori double-free. L'operazione di spostamento trasferisce il controllo completo alla nuova variabile e il compilatore produce un errore se si cerca di utilizzare la variabile originale dopo lo spostamento. Questo differisce dalla copia (in cui entrambe le variabili rimangono valide) e dal prestito (in cui il proprietario originale mantiene la proprietà).

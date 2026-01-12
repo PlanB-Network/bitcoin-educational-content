@@ -3377,7 +3377,7 @@ Mesin pencari yang Anda gunakan memiliki pengaruh langsung pada privasi Anda. Fa
 - Disimpan dan dianalisis untuk membuat profil perilaku;
 - Digunakan untuk iklan bertarget atau dijual kembali kepada pihak ketiga.
 
-Jadi, mesin pencari seperti Google menyediakan hasil yang cepat dan relevan (meskipun [beberapa penelitian menunjukkan] (https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) bahwa Google menjadi semakin kurang efektif), tetapi dengan mengorbankan pemantauan sistematis terhadap kueri Anda. Bing (Microsoft) dan Yahoo mengikuti model serupa dalam mengumpulkan aktivitas online Anda untuk memasok jaringan periklanan mereka.
+Jadi, mesin pencari seperti Google menyediakan hasil yang cepat dan relevan (meskipun [beberapa penelitian menunjukkan](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) bahwa Google menjadi semakin kurang efektif), tetapi dengan mengorbankan pemantauan sistematis terhadap kueri Anda. Bing (Microsoft) dan Yahoo mengikuti model serupa dalam mengumpulkan aktivitas online Anda untuk memasok jaringan periklanan mereka.
 
 Untuk membatasi pelacakan ini, kami merekomendasikan untuk memilih mesin pencari yang menghormati privasi dan tidak menyimpan pengenal pribadi atau riwayat pencarian Anda:
 
@@ -3385,7 +3385,7 @@ Untuk membatasi pelacakan ini, kami merekomendasikan untuk memilih mesin pencari
 - [Kagi Search](https://kagi.com/);
 - [Qwant](https://www.qwant.com/);
 - [Mojeek](https://www.mojeek.com/);
-- [SearXNG] (https://docs.searxng.org/) (yang dapat dihosting sendiri).
+- [SearXNG](https://docs.searxng.org/) (yang dapat dihosting sendiri).
 
 ![Image](assets/fr/123.webp)
 
@@ -4417,7 +4417,7 @@ Openreads adalah alternatif open-source untuk pelacakan bacaan yang ramah privas
 
 **Alternatif**:
 
-- [Chrono] (https://github.com/vicolo-dev/chrono)
+- [Chrono](https://github.com/vicolo-dev/chrono)
 
 Tersedia di F-Droid dan sepenuhnya open-source, Chrono menawarkan Interface modern yang rapi, tanpa iklan atau pengumpulan data. Aplikasi ini memungkinkan Anda membuat alarm yang dapat disesuaikan: Pengulangan menurut hari atau rentang tanggal tertentu, pilihan suara, intensitas progresif, getar, atau bahkan tugas yang harus dilakukan untuk menonaktifkan alarm (Menyelesaikan perhitungan, membaca ulang teks, dll.).
 

@@ -1,0 +1,8 @@
+question: Koji je identitetni element u grupi eliptičke krive korišćen za operacije sabiranja tačaka?
+answer: Tačka u beskonačnosti
+wrong_answers:
+  - Tačka porekla (0,0)
+  - Generator tačka G
+  - Parametar krive a
+explanation: |
+  Tačka u beskonačnosti služi kao identitetni element u grupama eliptičkih krivih, što znači da dodavanje bilo koje tačke P tački u beskonačnosti vraća P nepromenjenu. Ovo je analogno tome kako dodavanje nule funkcioniše u regularnoj aritmetici. Početna tačka (0,0) nije nužno na krivoj, generator tačka G se koristi za kreiranje javnih ključeva, a parametar krive a je samo koeficijent u jednačini krive, a ne identitetni element.

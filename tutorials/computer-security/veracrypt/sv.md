@@ -222,4 +222,4 @@ Du kan nu ta bort ditt lagringsmedium.
 Grattis, du har nu ett krypterat medium för att lagra dina personuppgifter på ett säkert sätt och har därmed en komplett 3-2-1-strategi utöver kopian på din dator och din lagringslösning online.
 
 
-Om du vill stödja utvecklingen av VeraCrypt kan du också göra en donation i bitcoins [på denna sida] (https://www.veracrypt.fr/en/Donation.html).
+Om du vill stödja utvecklingen av VeraCrypt kan du också göra en donation i bitcoins [på denna sida](https://www.veracrypt.fr/en/Donation.html).

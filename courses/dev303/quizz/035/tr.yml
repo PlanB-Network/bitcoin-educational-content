@@ -1,0 +1,8 @@
+question: Rust'da bir Sonuç türü üzerinde çağrıldığında unwrap yöntemi ne yapar?
+answer: Başarı değerini çıkarır ancak bir hata oluşursa panikler
+wrong_answers:
+  - Bir hata oluşursa None, başarılı olursa Some döndürür
+  - Hatayı bir uyarı mesajına dönüştürür ve yürütmeye devam eder
+  - Hatayı çağıran işleve otomatik olarak yayar
+explanation: |
+  Unwrap yöntemi bir Result'dan başarı değerini çıkarır, ancak bir hata oluşursa programın paniklemesine neden olur. Bu, hızlı prototip oluşturma veya bir işlemin başarılı olacağından emin olduğunuz durumlar için kullanışlıdır. Diğer seçenekler farklı davranışları tanımlar: None/Some döndürmek Option türlerini tanımlar, hataları uyarılara dönüştürmek standart bir Rust kalıbı değildir ve otomatik hata yayılımı unwrap değil soru işareti operatörünün (?) yaptığı şeydir.

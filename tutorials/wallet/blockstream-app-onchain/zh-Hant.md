@@ -67,7 +67,7 @@ description: 在手機上設定 Blockstream App 並管理onchain 交易
 
 
 
-- **Blockstream App**是一款手機（iOS、Android）和桌面應用程式，用於管理Bitcoin投資組合和Liquid Network上的資產。於 2016 年被 [Blockstream] (https://blockstream.com/) 收購，之前的名稱為 *Green Address*，之後改名為 *Blockstream Green*。
+- **Blockstream App**是一款手機（iOS、Android）和桌面應用程式，用於管理Bitcoin投資組合和Liquid Network上的資產。於 2016 年被 [Blockstream](https://blockstream.com/) 收購，之前的名稱為 *Green Address*，之後改名為 *Blockstream Green*。
 - **主要功能**：
 - Blockchain Bitcoin 上的 **Onchain** 交易。
     - 網路交易 **Liquid**（Sidechain 用於快速、機密的交換）。

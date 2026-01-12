@@ -1,0 +1,9 @@
+question: Jaký je podle základní kritiky Satoshi Nakamota hlavní problém konvenčních systémů fiat měn?
+answer: Vyžadují nadměrnou důvěru v centralizované instituce, které tuto důvěru historicky narušily znehodnocením měny
+wrong_answers:
+  - Nemají dostatečnou technologickou infrastrukturu pro efektivní a bezpečné zpracování moderních digitálních transakcí
+  - Vytvářejí příliš velkou volatilitu směnných kurzů, což činí mezinárodní obchod nepředvídatelným a nákladným
+  - generate nadměrné transakční poplatky, které činí mikroplatby pro běžné uživatele ekonomicky neúnosnými
+explanation: |
+  Satoshi Nakamoto výslovně prohlásil, že "základním problémem konvenční měny je veškerá důvěra, která je nutná k jejímu fungování" a že "historie fiat měn je plná porušení této důvěry"
+  Jeho kritika se soustředila na zásadní spoléhání se na to, že centrální banky neznehodnotí měnu, což opakovaně nedodržely. Ostatní možnosti, ačkoli potenciálně oprávněné obavy týkající se tradičních systémů, postrádají Nakamotovu základní filozofickou námitku proti měnovým systémům založeným na důvěře a jeho motivaci k vytvoření nedůvěryhodné alternativy.

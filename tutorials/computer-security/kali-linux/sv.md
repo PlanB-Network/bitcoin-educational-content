@@ -90,7 +90,7 @@ Du kan använda flera verktyg, till exempel Balena Etcher :
 
 
 
-- Ladda ner och installera [Balena Etcher] (https://etcher.balena.io/).
+- Ladda ner och installera [Balena Etcher](https://etcher.balena.io/).
 
 
 
@@ -343,7 +343,7 @@ Om du använder bilden **Live** kommer nästa steg inte att visas.
 
 
 
-Du kan sedan välja de [metapaket] (https://www.kali.org/docs/general-use/metapackages/) som du vill installera. Standardalternativen installerar ett standard Kali Linux-system, så du behöver inte ändra något.
+Du kan sedan välja de [metapaket](https://www.kali.org/docs/general-use/metapackages/) som du vill installera. Standardalternativen installerar ett standard Kali Linux-system, så du behöver inte ändra något.
 
 
 

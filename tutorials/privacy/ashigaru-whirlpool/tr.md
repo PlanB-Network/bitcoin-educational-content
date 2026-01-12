@@ -234,7 +234,7 @@ Bu mekanizmayı ve kaç döngü beklemeye değer olduğunu daha iyi anlamak içi
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Parçalarınızın her biri tarafından gerçekleştirilen remiks sayısını görüntülemek için, `Postmix` hesabındaki `UTXOs` menüsünü açın.
 
@@ -324,7 +324,7 @@ Bu değişiklik, her Tx0 için oluşturulan bir UTXO'e karşılık gelir. Diğer
 
 
 
-- Ön ödemeli hediye kartları veya Visa kartları satın alın:** [Bitrefill] (https://www.bitrefill.com/) gibi platformlar, bitcoinlerinizi mağazalarda kullanılabilecek hediye kartları veya yeniden yüklenebilir Visa kartları ile değiştirmenize olanak tanır. Bu, toksik UTXO'larınızı harcamak için basit ve gizli bir yol olabilir.
+- Ön ödemeli hediye kartları veya Visa kartları satın alın:** [Bitrefill](https://www.bitrefill.com/) gibi platformlar, bitcoinlerinizi mağazalarda kullanılabilecek hediye kartları veya yeniden yüklenebilir Visa kartları ile değiştirmenize olanak tanır. Bu, toksik UTXO'larınızı harcamak için basit ve gizli bir yol olabilir.
 
 
 
@@ -354,7 +354,7 @@ Birkaç coinjoin döngüsünün performansı, bir madeni paranın gizlendiği k�
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Postmiks nasıl yönetilir?
 

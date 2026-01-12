@@ -1,0 +1,8 @@
+question: Mengapa implementasi surat promes Mayfell pada Liquid secara khusus memanfaatkan Confidential Transactions daripada menggunakan catatan blockchain yang transparan?
+answer: Persyaratan privasi komersial menuntut agar jumlah pinjaman tetap terlihat hanya oleh pemberi pinjaman dan peminjam sambil menjaga kemampuan verifikasi auditor
+wrong_answers:
+  - Kepatuhan terhadap peraturan di Meksiko mengamanatkan bahwa semua transaksi keuangan harus sepenuhnya tersembunyi dari pengawasan pemerintah dan otoritas pajak
+  - Pencatatan yang transparan akan menciptakan hambatan skalabilitas yang mencegah sistem memproses 25.000+ surat promes yang diperlukan secara efisien
+  - Visibilitas publik atas jumlah pinjaman akan memicu peristiwa perpajakan otomatis yang membuat proses tokenisasi tidak layak secara finansial bagi para peserta
+explanation: |
+  Confidential Transactions memecahkan masalah bisnis yang penting dalam pinjaman komersial: menjaga privasi yang kompetitif sekaligus memungkinkan kepatuhan terhadap peraturan. Dalam keuangan tradisional, jumlah pinjaman antar bisnis adalah informasi komersial rahasia yang tidak boleh diakses oleh pesaing, namun auditor dan regulator perlu memverifikasi integritas buku besar. Confidential Transactions dari Liquid mencapai keseimbangan ini dengan menyembunyikan jumlah secara kriptografis dari publik sambil mengizinkan pihak-pihak yang berwenang untuk memverifikasi transaksi. Jawaban yang salah akan menggambarkan teknologi yang salah - CT tidak menyembunyikan transaksi dari regulator (privasi vs kerahasiaan), tidak menyelesaikan masalah skalabilitas (itu adalah masalah teknis yang terpisah), dan tidak menciptakan mekanisme penghindaran pajak (alat privasi yang sah tidak menghindari kewajiban pajak).

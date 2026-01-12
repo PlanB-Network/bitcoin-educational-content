@@ -1,0 +1,8 @@
+question: Koji je osnovni mehanizam koji omogućava RC-u da dozvoli višestruko vlasništvo uz održavanje sigurnosti memorije?
+answer: Interni brojač koji prati reference i oslobađa memoriju samo kada brojač dostigne nulu
+wrong_answers:
+  - Analiza u vreme kompajliranja koja verifikuje sve obrasce referenci pre izvršavanja programa
+  - Sakupljač smeća koji periodično skenira i čisti nedostupne memorijske alokacije
+  - Sistem zasnovan na zaključavanju koji sinhronizuje pristup između više vlasnika istih podataka
+explanation: |
+  RC održava interni brojač referenci koji se povećava kada se klonira i smanjuje kada se odbaci, osiguravajući da se memorija oslobađa samo kada ne ostanu reference. Ovo se razlikuje od analize u vreme kompilacije (koju koristi Box), sakupljanja smeća (koje Rust ne koristi) ili mehanizama zaključavanja (koji se koriste za sinhronizaciju niti, a ne za praćenje vlasništva). Pristup zasnovan na brojaču omogućava sigurno deljeno vlasništvo bez troškova u vremenu izvršavanja koje nosi sakupljanje smeća ili ograničenja pojedinačnog vlasništva.

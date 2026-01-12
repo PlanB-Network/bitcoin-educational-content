@@ -1,0 +1,8 @@
+question: Hva er den primære begrensningen ved å bruke anyhow-biblioteket til feilhåndtering i utviklingen av Rust-biblioteket?
+answer: Den konverterer alle feil til strengmeldinger, slik at forbrukerne ikke kan reagere programmatisk på ulike feiltilstander
+wrong_answers:
+  - Den fungerer bare med Result-typer og kan ikke håndtere Option-typer, noe som begrenser nytten i blandede scenarier
+  - Den krever manuell feilkonvertering for hver feiltype, noe som gjør den mer omfattende enn standard Result-håndtering
+  - Den får automatisk panikk ved visse feiltyper, noe som gjør den uegnet for produksjonsbibliotekskode
+explanation: |
+  Den største ulempen med anyhow-biblioteket når det gjelder biblioteksutvikling, er at det i bunn og grunn reduserer alle feil til strengrepresentasjoner, slik at man mister den strukturerte feilinformasjonen som bibliotekets brukere trenger for å ta programmatiske beslutninger. Mens anyhow er utmerket til å forenkle feilhåndteringen for sluttbrukerapplikasjoner der feil primært vises, må bibliotekene tilby spesifikke feiltyper som gjør det mulig for brukerne å skille mellom ulike feilmodi (som ugyldig input vs. kjøretidsfeil) og reagere på riktig måte. De andre alternativene er feil: anyhow fungerer fint med både Result- og Option-typer, reduserer faktisk ordbruken gjennom automatisk konvertering, og forårsaker ikke panikk.

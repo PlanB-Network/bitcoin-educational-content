@@ -1,0 +1,8 @@
+question: 哪种性状代表可多次调用而不会改变捕获环境的闭包？
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn 是限制性最强的闭包特质，它表示在不改变捕获环境的情况下可多次调用的闭包。这些闭包只能通过不可变引用进行捕获，并且可以安全地并发调用。FnOnce 表示只能被调用一次的闭包，而 FnMut 表示可以被调用多次但可能会更改捕获环境的闭包。FnCapture 并不是真正的 Rust 特性。

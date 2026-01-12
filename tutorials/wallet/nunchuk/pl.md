@@ -20,7 +20,7 @@ Po ponad 4 latach rozwoju i użytkowania jest gotowy do wypróbowania na dużą 
 ## Pobierz
 
 
-Pierwszym krokiem jest zdecydowanie, skąd pobrać aplikację. Przejdź do [oficjalnej strony] (https://nunchuk.io/), gdzie znajdziesz dokumentację (niewiele, ale to początek), prezentację funkcji, a także, na końcu strony, wszystkie linki do pobrania.
+Pierwszym krokiem jest zdecydowanie, skąd pobrać aplikację. Przejdź do [oficjalnej strony](https://nunchuk.io/), gdzie znajdziesz dokumentację (niewiele, ale to początek), prezentację funkcji, a także, na końcu strony, wszystkie linki do pobrania.
 
 
 
@@ -394,7 +394,7 @@ Znajdujesz się w _Home_, gdzie wyświetlany jest nowo utworzony Wallet raportuj
 
 
 - Ikona soczewki w prawym górnym rogu umożliwia wyszukiwanie transakcji;
-- `View Wallet config` daje dostęp do menu konfiguracji, gdzie można edytować nazwę Wallet i włączyć zaawansowane opcje, w prawym górnym rogu (z których nie można uzyskać zrzutów ekranu). Tutaj można wyeksportować konfigurację Wallet, etykiety, zastąpić klawisze, zmienić [limit odstępu] (https://planb.academy/en/resources/glossary/gap-limit) i nie tylko.
+- `View Wallet config` daje dostęp do menu konfiguracji, gdzie można edytować nazwę Wallet i włączyć zaawansowane opcje, w prawym górnym rogu (z których nie można uzyskać zrzutów ekranu). Tutaj można wyeksportować konfigurację Wallet, etykiety, zastąpić klawisze, zmienić [limit odstępu](https://planb.academy/en/resources/glossary/gap-limit) i nie tylko.
 
 
 

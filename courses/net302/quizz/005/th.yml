@@ -1,0 +1,9 @@
+question: เอกสารใดที่ใช้เป็นข้อมูลอ้างอิงทางเทคนิคสำหรับข้อกำหนดของโปรโตคอล TCP/IP?
+answer: RFC
+wrong_answers:
+  - เอกสารไวท์เปเปอร์
+  - ISO
+  - IIP
+explanation: |
+  RFCs (Request For Comments) เป็นเอกสารอ้างอิงที่กำหนดรายละเอียดของโปรโตคอล TCP/IP
+reviewed: false

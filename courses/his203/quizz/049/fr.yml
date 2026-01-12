@@ -1,0 +1,9 @@
+question: Qui était le cerveau derrière la première implémentation hybride de preuve d'enjeu réalisée en août 2012 par le biais de la cryptomonnaie PPCoin ?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King était le nom de plume du développeur principal de ce projet. Il s'agissait de mettre en place un modèle hybride où certains blocs étaient validés par preuve de conservation (basé sur le concept de coin age), en plus des blocs minés par minage classique. Sunny King et ses collaborateurs ont lancé PPCoin en août 2012 (renommé plus tard Peercoin). Ils décrivaient leur solution comme « économe en énergie à long terme ».
+reviewed: false

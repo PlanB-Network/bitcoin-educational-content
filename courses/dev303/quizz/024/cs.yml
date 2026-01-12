@@ -1,0 +1,8 @@
+question: Jaká syntaxe se používá pro přístup k prvnímu poli struktury tuple v Rust?
+answer: Tečkový zápis s indexem 0 (např. instance.0)
+wrong_answers:
+  - Hranaté závorky s indexem 0 (např. instance[0])
+  - Zápis šipek s indexem 0 (např. instance->0)
+  - Dvojtečka s indexem 0 (např. instance::0)
+explanation: |
+  Struktury tuple v Rust používají pro přístup k nepojmenovaným polím tečkovou notaci následovanou indexem pole. První pole je přístupné pomocí .0, druhé pomocí .1 atd. Tím se liší od polí nebo vektorů, které používají hranaté závorky, a na rozdíl od jazyka C++, který pro ukazatele používá šipkovou notaci. Syntaxe s dvojitou dvojtečkou je vyhrazena pro asociované funkce a jmenný řádek, nikoli pro přístup k polím.

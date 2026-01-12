@@ -171,7 +171,7 @@ Este controlo é muito simples:
 
 
 
-A imagem ISO do Pop!OS deve ser descarregada diretamente da página oficial do System76: [system76.com/pop] (https://system76.com/pop/).
+A imagem ISO do Pop!OS deve ser descarregada diretamente da página oficial do System76: [system76.com/pop](https://system76.com/pop/).
 
 
 
@@ -251,7 +251,7 @@ Adaptada à arquitetura ARM, trata-se de uma versão específica para estes mini
 
 
 
-- Transfira e instale o [Balena Etcher] (https://etcher.balena.io/).
+- Transfira e instale o [Balena Etcher](https://etcher.balena.io/).
 
 
 

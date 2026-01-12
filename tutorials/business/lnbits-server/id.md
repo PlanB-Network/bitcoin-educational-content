@@ -1,5 +1,5 @@
 ---
-name: Server LNbits
+name: LNbits Server
 description: Instalasi dan konfigurasi server LNbits yang dihosting sendiri di Ubuntu VPS dengan Phoenixd atau di Umbrel
 ---
 
@@ -651,6 +651,6 @@ Self-hosting menyiratkan tanggung jawab: mencadangkan benih, melindungi akses, m
 
 
 - [Konfigurasi server Ubuntu awal](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) oleh Daniel P. Costas (keamanan VPS langkah demi langkah)
-- [Instalasi LNbits + Phoenixd di Ubuntu VPS] (https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) oleh Daniel P. Costas (panduan lengkap)
+- [Instalasi LNbits + Phoenixd di Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) oleh Daniel P. Costas (panduan lengkap)
 - [LNbits Server di Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) oleh Axel
 - [LNbits on VPS](https://github.com/TrezorHannes/vps-lnbits) oleh Hannes

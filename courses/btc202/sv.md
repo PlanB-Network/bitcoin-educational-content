@@ -853,7 +853,7 @@ Det här är det mest suveräna och flexibla tillvägagångssättet: du vet exak
 
 
 
-[Bitcoin core är nätverkets ultramajoritetsklient] (https://bitcoincore.org/). Den hämtar, validerar och underhåller Blockchain, tillhandahåller RPC/REST API:er och kan integrera en Wallet. Om du föredrar standardverktyg och känner dig bekväm med att lägga till tjänster själv (t.ex. Electrum-server, explorer och LND) är det bättre att använda Core som det är.
+[Bitcoin core är nätverkets ultramajoritetsklient](https://bitcoincore.org/). Den hämtar, validerar och underhåller Blockchain, tillhandahåller RPC/REST API:er och kan integrera en Wallet. Om du föredrar standardverktyg och känner dig bekväm med att lägga till tjänster själv (t.ex. Electrum-server, explorer och LND) är det bättre att använda Core som det är.
 
 
 
@@ -974,7 +974,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode är en distribution som uteslutande fokuserar på Bitcoin och Lightning] (https://mynodebtc.com/) och erbjuder en webb Interface, en marknadsplats för applikationer och uppgraderingar med ett klick. Du kan antingen köpa färdig hårdvara (*Model Two* finns för 549 dollar) eller installera MyNode gratis på din egen maskin. Projektet erbjuder också en *Premium*-version av programvaran (94 dollar), som inkluderar prioriterad support och avancerade funktioner.
+[MyNode är en distribution som uteslutande fokuserar på Bitcoin och Lightning](https://mynodebtc.com/) och erbjuder en webb Interface, en marknadsplats för applikationer och uppgraderingar med ett klick. Du kan antingen köpa färdig hårdvara (*Model Two* finns för 549 dollar) eller installera MyNode gratis på din egen maskin. Projektet erbjuder också en *Premium*-version av programvaran (94 dollar), som inkluderar prioriterad support och avancerade funktioner.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo är en integritetsfokuserad node-in-a-box] (https://wiki.ronindojo.io/en/home) som automatiserar distributionen av Samurai Dojo och Whirlpool, med en dedikerad Interface och plugins som är särskilt utformade för Samurai-ekosystemet.
+[RoninDojo är en integritetsfokuserad node-in-a-box](https://wiki.ronindojo.io/en/home) som automatiserar distributionen av Samurai Dojo och Whirlpool, med en dedikerad Interface och plugins som är särskilt utformade för Samurai-ekosystemet.
 
 
 
@@ -1032,7 +1032,7 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-En annan [node-in-a-box-lösning är Nodl] (https://www.nodl.eu/). Precis som med de tidigare projekten kan du antingen köpa den förkonfigurerade hårdvaran (mellan 599 och 799 euro, beroende på modell) eller installera den själv i DIY-läge.
+En annan [node-in-a-box-lösning är Nodl](https://www.nodl.eu/). Precis som med de tidigare projekten kan du antingen köpa den förkonfigurerade hårdvaran (mellan 599 och 799 euro, beroende på modell) eller installera den själv i DIY-läge.
 
 
 
@@ -1509,7 +1509,7 @@ Genom att distribuera applikationer i containrar kan du forma Umbrel som du vill
 
 
 
-En av Umbrels viktigaste fördelar jämfört med sina konkurrenter är dess stora och mycket aktiva användargemenskap. Du kan nå dem främst via [deras Discord] (https://discord.gg/efNtFzqtdx) och [deras onlineforum] (https://community.umbrel.com/). Här hittar du inte bara praktiska råd utan framför allt lösningar för att lösa problem eller fixa buggar. Det är ett bra ställe att börja, att utvecklas och så småningom hjälpa andra användare, så att du inte blir ensam med din Coin.
+En av Umbrels viktigaste fördelar jämfört med sina konkurrenter är dess stora och mycket aktiva användargemenskap. Du kan nå dem främst via [deras Discord](https://discord.gg/efNtFzqtdx) och [deras onlineforum](https://community.umbrel.com/). Här hittar du inte bara praktiska råd utan framför allt lösningar för att lösa problem eller fixa buggar. Det är ett bra ställe att börja, att utvecklas och så småningom hjälpa andra användare, så att du inte blir ensam med din Coin.
 
 
 
@@ -1633,7 +1633,7 @@ Gå till [den officiella Umbrel-webbplatsen för att ladda ner ISO-bilden](https
 
 
 
-För att skapa det startbara USB-minnet använder du ett enkelt plattformsoberoende verktyg som heter [Balena Etcher] (https://www.balena.io/etcher/). Ladda ner och installera det på din dator.
+För att skapa det startbara USB-minnet använder du ett enkelt plattformsoberoende verktyg som heter [Balena Etcher](https://www.balena.io/etcher/). Ladda ner och installera det på din dator.
 
 
 
@@ -2042,7 +2042,7 @@ Var försiktig så att du inte allokerar ett värde som är för stort för din 
 
 
 
-Om du vill veta mer om hur parametern `dbcache` påverkar den initiala synkroniseringen rekommenderar jag den här analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+Om du vill veta mer om hur parametern `dbcache` påverkar den initiala synkroniseringen rekommenderar jag den här analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 
@@ -2761,7 +2761,7 @@ I händelse av en bugg på din Umbrel, först generate ett diagnostikpaket via f
 
 
 
-Om problemet kvarstår rekommenderar jag att du [går med i Umbrels användargrupp på deras Discord] (https://discord.gg/efNtFzqtdx). Börja med att göra en sökning för att avgöra om någon redan har stött på samma problem och hittat en lösning. Om inte, kan du posta ett meddelande i kanalen `general-support`. Du kan också använda [the Umbrel forum](https://community.umbrel.com/).
+Om problemet kvarstår rekommenderar jag att du [går med i Umbrels användargrupp på deras Discord](https://discord.gg/efNtFzqtdx). Börja med att göra en sökning för att avgöra om någon redan har stött på samma problem och hittat en lösning. Om inte, kan du posta ett meddelande i kanalen `general-support`. Du kan också använda [the Umbrel forum](https://community.umbrel.com/).
 
 
 
@@ -3079,7 +3079,7 @@ Tillväxten av UTXO-uppsättningen härrör också från strukturen för enkla b
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Eftersom en del av den måste förvaras i RAM-minnet för att transaktioner ska kunna verifieras inom rimlig tid, kan UTXO-uppsättningen gradvis göra driften av en Full node alltför kostsam. För att lösa detta problem finns det redan några förslag, bland annat [Utreexo] (https://planb.academy/resources/glossary/utreexo).
+Eftersom en del av den måste förvaras i RAM-minnet för att transaktioner ska kunna verifieras inom rimlig tid, kan UTXO-uppsättningen gradvis göra driften av en Full node alltför kostsam. För att lösa detta problem finns det redan några förslag, bland annat [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3882,7 +3882,7 @@ Slutligen kan du i filen `Bitcoin.conf` även konfigurera åtkomstparametrarna f
 
 
 
-Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator] (https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi är nu färdiga med att lista de flesta konfigurationsparametrarna. Denna fil `Bitcoin.conf` utgör således den verkliga instrumentpanelen för din nod: den definierar nätverkskonfiguration, Mempool-hantering, disk- och minnesanvändning, indexering och allmän administration. Om du vill lära dig mer om den här filen och skapa en som är skräddarsydd efter dina behov rekommenderar jag att du använder [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 

@@ -101,7 +101,7 @@ Begränsning: 50 samtidiga positioner. Perfekt för att börja handla med hävst
 
 
 
-Gå till [lnmarkets.com] (https://lnmarkets.com) och klicka på "Open App".
+Gå till [lnmarkets.com](https://lnmarkets.com) och klicka på "Open App".
 
 
 
@@ -299,7 +299,7 @@ Bitcoin och syntetiska USD-saldon med historik över insättningar, uttag, korsv
 
 
 
-LN Markets erbjuder en komplett API REST (V2 och V3) för att helt automatisera din handel via skript eller bots. Du kan skapa API-nycklar med anpassningsbara behörigheter (skrivskyddad, handel, uttag) direkt från gränssnittet. Officiella SDK:er för TypeScript och Python finns tillgängliga för enkel integration. Fullständig API V3-dokumentation finns tillgänglig på [api.lnmarkets.com/v3] (https://api.lnmarkets.com/v3).
+LN Markets erbjuder en komplett API REST (V2 och V3) för att helt automatisera din handel via skript eller bots. Du kan skapa API-nycklar med anpassningsbara behörigheter (skrivskyddad, handel, uttag) direkt från gränssnittet. Officiella SDK:er för TypeScript och Python finns tillgängliga för enkel integration. Fullständig API V3-dokumentation finns tillgänglig på [api.lnmarkets.com/v3](https://api.lnmarkets.com/v3).
 
 
 
@@ -678,5 +678,5 @@ Börja i liten skala, testa med några tusen satss och utforska gradvis denna ny
 
 
 
-- [LN Markets:s officiella webbplats] (https://lnmarkets.com)
-- [Dokumentation] (https://docs.lnmarkets.com)
+- [LN Markets:s officiella webbplats](https://lnmarkets.com)
+- [Dokumentation](https://docs.lnmarkets.com)

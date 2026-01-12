@@ -63,7 +63,7 @@ O Speed Wallet está disponível como aplicação móvel nas plataformas Android
 
 
 
-Pode encontrar ligações para plataformas de transferência no sítio Web oficial [Speed Wallet] (https://speed.app).
+Pode encontrar ligações para plataformas de transferência no sítio Web oficial [Speed Wallet](https://speed.app).
 
 
 
@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Para além da aplicação móvel, o Speed Wallet também oferece uma [extensão Web do Chrome] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) que pode ser adicionada ao navegador Google Chrome do seu computador para transacções seguras.
+Para além da aplicação móvel, o Speed Wallet também oferece uma [extensão Web do Chrome](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) que pode ser adicionada ao navegador Google Chrome do seu computador para transacções seguras.
 
 
 
@@ -365,7 +365,7 @@ O Speed Wallet dá especial ênfase à integração e utilização do Bitcoin e 
 
 
 
-A partir de [Speed Business] (https://www.tryspeed.com/), dispõe de um agregador de pagamentos unificado para aceitar Bitcoin, alimentado por Lightning Network, que pode utilizar na sua loja, online ou física.
+A partir de [Speed Business](https://www.tryspeed.com/), dispõe de um agregador de pagamentos unificado para aceitar Bitcoin, alimentado por Lightning Network, que pode utilizar na sua loja, online ou física.
 
 
 

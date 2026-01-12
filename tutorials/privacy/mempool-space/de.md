@@ -52,7 +52,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-Wie bereits erwähnt, ist [Mempool.space] (https://Mempool.space) ein Bitcoin-Protokoll-Explorer, mit dem Sie Ihre Transaktionen und deren Ausbreitung im gewählten Bitcoin-Netzwerk in Echtzeit von einem grafischen Interface aus überwachen können.
+Wie bereits erwähnt, ist [Mempool.space](https://Mempool.space) ein Bitcoin-Protokoll-Explorer, mit dem Sie Ihre Transaktionen und deren Ausbreitung im gewählten Bitcoin-Netzwerk in Echtzeit von einem grafischen Interface aus überwachen können.
 
 
 

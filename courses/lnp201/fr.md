@@ -155,7 +155,7 @@ Le script le plus courant demande une signature avec la clé privée associée �
 
 ### Les UTXO : Unspent Transaction Outputs
 
-Sur Bitcoin, ce que nous échangeons réellement ne sont pas directement des bitcoins, mais des **UTXO** (_Unspent Transaction Outputs_), c'est-à-dire des "sorties de transactions non dépensées".
+Sur Bitcoin, ce que nous échangeons réellement ne sont pas directement des bitcoins, mais des **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), c'est-à-dire des "sorties de transactions non dépensées".
 
 Un UTXO est un morceau de bitcoin qui peut être de n'importe quelle valeur, par exemple **2 000 bitcoins**, **8 bitcoins** ou encore **8 000 sats**. Chaque UTXO est bloqué par un script, et pour le dépenser, il faut satisfaire les conditions du script, souvent une signature avec la clé privée correspondant à une adresse de réception donnée.
 
@@ -168,7 +168,7 @@ Voici un exemple de transaction avec 2 sorties :
 
 ![LNP201](assets/en/006.webp)
 
-### Les adresses multisignatures
+### Les adresses [multisignature](https://planb.academy/resources/glossary/multisig)s
 
 En plus des adresses simples générées à partir d'une seule clé publique, il est possible de créer des **adresses multisignatures** à partir de plusieurs clés publiques. Un cas particulier intéressant pour le Lightning Network est l'**adresse multisignature 2/2**, générée à partir de deux clés publiques :
 
@@ -292,7 +292,7 @@ Pour valider ce transfert, Alice et Bob créent une nouvelle **transaction Bitco
 
 ### Processus de transfert : la facture (invoice)
 
-Lorsque Bob souhaite recevoir des fonds, il envoie à Alice une **_invoice_** pour 30 000 satoshis. Alice procède alors au paiement de cette facture en commençant le transfert au sein du canal. Comme nous l’avons vu, ce processus repose sur la création et la signature d'une nouvelle **transaction d’engagement**.
+Lorsque Bob souhaite recevoir des fonds, il envoie à Alice une **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** pour 30 000 satoshis. Alice procède alors au paiement de cette facture en commençant le transfert au sein du canal. Comme nous l’avons vu, ce processus repose sur la création et la signature d'une nouvelle **transaction d’engagement**.
 
 Chaque transaction d’engagement représente la nouvelle répartition des fonds dans le canal après le transfert. Dans cet exemple, après la transaction, Bob dispose de 30 000 satoshis et Alice de 100 000 satoshis. Si l’un des deux participants décidait de publier cette transaction d'engagement sur la blockchain, elle entraînerait la fermeture du canal et les fonds seraient distribués conformément à cette dernière répartition.
 
@@ -614,7 +614,7 @@ Dans ce chapitre, nous avons découvert le routage des paiements sur le Lightnin
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-Dans ce chapitre, nous allons découvrir comment Lightning permet de faire transiter des paiements par des nœuds intermédiaires sans avoir besoin de leur faire confiance, grâce aux **HTLC** (_Hashed Time-Locked Contracts_). Ces contrats intelligents permettent de garantir que chaque nœud intermédiaire ne recevra les fonds de son canal que s'il envoie le paiement vers le destinataire final, sans quoi le paiement ne sera pas validé.
+Dans ce chapitre, nous allons découvrir comment Lightning permet de faire transiter des paiements par des nœuds intermédiaires sans avoir besoin de leur faire confiance, grâce aux **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Ces contrats intelligents permettent de garantir que chaque nœud intermédiaire ne recevra les fonds de son canal que s'il envoie le paiement vers le destinataire final, sans quoi le paiement ne sera pas validé.
 
 La problématique qui se pose pour le routage d'un paiement est donc la confiance nécessaire dans les nœuds intermédiaires, et entre les nœuds intermédiaires eux-mêmes. Pour illustrer cela, reprenons notre exemple de réseau Lightning simplifié avec 3 nœuds et 2 canaux :
 

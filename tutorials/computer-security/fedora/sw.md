@@ -111,7 +111,7 @@ Kufunga Fedora Workstation inahitaji usanidi wa vifaa ufuatao:
 
 
 
-Unaweza kupakua toleo la [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) kutoka kwa tovuti rasmi ya mradi wa Fedora. Kisha chagua toleo linalolingana na usanifu wa kichakataji chako (32-bit - 64-bit) na ubofye ikoni ya **Pakua**.
+Unaweza kupakua toleo la [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) kutoka kwa tovuti rasmi ya mradi wa Fedora. Kisha chagua toleo linalolingana na usanifu wa kichakataji chako (32-bit - 64-bit) na ubofye ikoni ya **Pakua**.
 
 
 

@@ -1,0 +1,9 @@
+question: ธง sighash ใดที่อนุญาตให้มีการระดมทุนโดยครอบคลุมอินพุตเดียวและเอาต์พุตทั้งหมด?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL รวมกับ SIGHASH_ANYONECANPAY ช่วยให้สามารถเพิ่มอินพุตได้โดยไม่ต้องแก้ไขเอาต์พุต
+reviewed: false

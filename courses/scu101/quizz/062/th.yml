@@ -1,0 +1,9 @@
+question: แง่มุมใดของความรู้เกี่ยวกับเครือข่ายที่จำเป็นในด้านความปลอดภัยทางไซเบอร์?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  บทนี้กล่าวถึง TCP/IP, VPN, และไฟร์วอลล์เป็นบางแง่มุมของความรู้ด้านเครือข่ายที่จำเป็นในความปลอดภัยทางไซเบอร์
+reviewed: true

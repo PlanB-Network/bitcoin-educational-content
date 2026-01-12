@@ -2670,7 +2670,7 @@ Mis siis, kui selle asemel, et saatja lükkab makse, lubab saatja vastuvõtjal t
 ### Väljamaksed
 
 
-Väljamaksefunktsioon on seotud funktsiooniga [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). See funktsioon võimaldab teil luua väljamakseid oma BTCPay raames. See funktsioon võimaldab teil töödelda pull-makseid (tagasimaksed, palga väljamaksed või väljamaksed).
+Väljamaksefunktsioon on seotud funktsiooniga [Pull Payments](https://docs.btcpayserver.org/PullPayments/). See funktsioon võimaldab teil luua väljamakseid oma BTCPay raames. See funktsioon võimaldab teil töödelda pull-makseid (tagasimaksed, palga väljamaksed või väljamaksed).
 
 
 #### Näide 1: Tagasimakse
@@ -2700,7 +2700,7 @@ Klient saab nüüd nõude esitamise lehel ajakohastatud. Ta saab jälgida tehing
 #### Näide 2: Palk
 
 
-Nüüd vaatleme palga väljamaksmist, sest seda juhitakse poe seest, mitte kliendi soovil. Alusidee on sama; see kasutab pull-makseid. Kuid selle asemel, et luua tagasimakse, teeme [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Nüüd vaatleme palga väljamaksmist, sest seda juhitakse poe seest, mitte kliendi soovil. Alusidee on sama; see kasutab pull-makseid. Kuid selle asemel, et luua tagasimakse, teeme [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Mine oma BTCPay serveris vahekaardile Pull Payments. Klõpsake üleval paremal pool nupul Create Pull Payment.

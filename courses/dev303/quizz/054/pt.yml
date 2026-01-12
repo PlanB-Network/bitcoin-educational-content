@@ -1,0 +1,8 @@
+question: Em que cenário seria mais adequado utilizar o RefCell para resolver uma restrição de empréstimo em tempo de compilação?
+answer: Ao implementar um objeto de simulação que precisa de seguir as alterações de estado interno através de uma interface de caraterísticas imutável
+wrong_answers:
+  - Quando é necessário partilhar dados entre várias threads e é necessária uma contagem atómica de referências
+  - Quando se pretende evitar a sobrecarga de tempo de execução, passando toda a verificação de empréstimos para o tempo de compilação
+  - Ao criar referências circulares entre estruturas de dados que necessitam de limpeza automática de memória
+explanation: |
+  O RefCell foi projetado para cenários de mutabilidade interna em que é necessário alterar dados por meio de uma referência imutável, particularmente quando a análise estática do compilador é muito conservadora. Os objetos de simulação que implementam caraterísticas com métodos imutáveis, mas precisam rastrear o estado interno, representam um caso de uso perfeito. As outras opções estão incorretas: RefCell não é thread-safe, move a verificação para o tempo de execução (não para o tempo de compilação) e não resolve problemas de referência circular - na verdade, pode contribuir para eles quando combinado com RC.

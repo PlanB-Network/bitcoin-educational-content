@@ -22,7 +22,7 @@ Ten samouczek krok po kroku pokazuje, jak napisać wiadomość na Blockchain Bit
 - Komputer (Windows, macOS lub Linux).
 - Połączenie internetowe.
 - Kilka satoshi (Sats) lub bitcoinów (BTC) w Wallet na pokrycie kwoty transakcji i opłat.
-- Konwerter tekstu na szesnastkowy (np. strona internetowa) lub dedykowane narzędzie, takie jak [ten generator skryptów OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/).
+- Konwerter tekstu na szesnastkowy (np. strona internetowa) lub dedykowane narzędzie, takie jak [ten generator skryptów OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -218,7 +218,7 @@ który składa się z :
 
 
 
-Wskazówka: Użyj narzędzia [Generator OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/), aby automatycznie utworzyć skrypt generate. Nawet jeśli to narzędzie sugeruje wprowadzenie kwoty w BTC, zachowaj jednostkę skonfigurowaną w Electrum.
+Wskazówka: Użyj narzędzia [Generator OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/), aby automatycznie utworzyć skrypt generate. Nawet jeśli to narzędzie sugeruje wprowadzenie kwoty w BTC, zachowaj jednostkę skonfigurowaną w Electrum.
 
 
 

@@ -33,7 +33,7 @@ I denna handledning tittar vi på 3 sätt att använda en **Watchtower** :
 
 
 
-*Denna handledning är hämtad från [den officiella LND-dokumentationen] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Vissa ändringar kan ha gjorts i den ursprungliga versionen
+*Denna handledning är hämtad från [den officiella LND-dokumentationen](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Vissa ändringar kan ha gjorts i den ursprungliga versionen
 
 
 
@@ -327,7 +327,7 @@ OPTIONS:
 
 
 
-*Denna handledning är delvis hämtad från en artikel på [Summer of Bitcoin Blog] (https://blog.summerofbitcoin.org/). Ändringar har gjorts i originalversionen*
+*Denna handledning är delvis hämtad från en artikel på [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/). Ändringar har gjorts i originalversionen*
 
 
 

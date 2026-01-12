@@ -28,7 +28,7 @@ U BTC304, razmotrićemo zašto je izgradnja zajednice važna, istražiti alate z
 
 
 
-Dobrodošli u BTC302!
+Dobrodošli u BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sami, možete brzo istražiti jedan od mnogih tunela u zečjoj rupi Bitcoin. Ali
 
 
 
-## BTC302, Šta je sledeće
+## BTC 304, Šta je sledeće
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-U ovom BTC302 kursu, detaljno smo objasnili kako postaviti zajednicu ili okupljanje, kao i kako pokrenuti razne projekte.
+U ovom BTC 304 kursu, detaljno smo objasnili kako postaviti zajednicu ili okupljanje, kao i kako pokrenuti razne projekte.
 
 
 Kada vaša zajednica bude spremna da preduzme sledeći korak, **možete osnovati formalno udruženje**.

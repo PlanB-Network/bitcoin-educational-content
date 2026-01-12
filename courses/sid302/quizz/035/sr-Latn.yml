@@ -1,0 +1,8 @@
+question: Koja je primarna svrha trostepenog procesa Connect, Prepare i Execute u interfejsu za programere Breez SDK-a?
+answer: Da se standardizuju složeni finansijski tokovi sinhronizacijom novčanika, proračunavanjem svih naknada unapred, a zatim konstruisanjem transakcija.
+wrong_answers:
+  - Da se uspostave redundantne rezervne veze preko više provajdera zamene pre pokretanja bilo kakvih atomskih operacija
+  - Da biste kreirali zasebne kriptografske potpise za svaku mrežu uključenu u transakcije zamene između lanaca (cross-chain submarine swap)
+  - Da biste potvrdili preimage plaćanja u odnosu na vremenski zaključane ugovore pre nego što oslobodite sredstva iz escrow mehanizama
+explanation: |
+  Obrazac Connect, Prepare, Execute pojednostavljuje razvoj razbijanjem složenih operacija na upravljive korake: Connect inicijalizuje novčanike i uspostavlja veze za nadgledanje, Prepare izračunava i prikazuje sve troškove transparentno korisnicima, a Execute upravlja stvarnom konstrukcijom i emitovanjem transakcija. Ova standardizacija apstrahuje osnovnu složenost podmorskih zamena i operacija između lanaca, olakšavajući programerima integraciju Bitcoin funkcionalnosti bez upravljanja detaljima niskog nivoa.

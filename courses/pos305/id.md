@@ -154,7 +154,7 @@ Pelanggan membeli produk dari toko dengan Bitcoin.
 
 
 - Siapkan:
-  - Lihat diagram/penjelasan pada Figjam terlampir - [Skema Kegiatan] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Lihat diagram/penjelasan pada Figjam terlampir - [Skema Kegiatan](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Mintalah tiga sukarelawan siswa untuk berperan sebagai Pelanggan (Alice), Pedagang (Bob), dan Bank.
 - Peragakan urutan kejadian:
   - Pelanggan- menjelajahi toko secara online dan menemukan barang seharga $25, yang mereka inginkan, dan memberi tahu Penjual bahwa mereka ingin membeli
@@ -176,7 +176,7 @@ Pelanggan membeli produk dari toko dengan Bitcoin.
 
 
 - Siapkan:
-  - Lihat diagram/penjelasan pada Figjam terlampir - [Skema Kegiatan] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Lihat diagram/penjelasan pada Figjam terlampir - [Skema Kegiatan](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Menggantikan Bank dengan sembilan siswa yang akan memainkan peran sebagai Komputer (Bitcoin Node/Miner) dalam jaringan untuk menggantikan Bank.
 - Masing-masing dari 9 Komputer memiliki catatan historis lengkap tentang semua transaksi masa lalu yang pernah dilakukan (sehingga saldo yang akurat tanpa pemalsuan), serta seperangkat aturan:
   - Verifikasi transaksi telah ditandatangani dengan benar (thekeyfitsthelock)
@@ -838,7 +838,7 @@ Fitur Pindai Ulang bergantung pada "Scantxoutset" Bitcoin core 0.17.0 untuk memi
 
 1. Masalah batas celah - Kebanyakan dompet pihak ketiga adalah dompet ringan yang berbagi simpul di antara banyak pengguna. Dompet ringan dan dompet yang bergantung pada Full node membatasi jumlah (biasanya 20) alamat tanpa saldo yang mereka lacak pada Blockchain untuk mencegah masalah kinerja. Server BTCPay menghasilkan Address baru untuk setiap Invoice. Dengan mempertimbangkan hal di atas, setelah BTCPay Server menghasilkan 20 faktur yang belum dibayar secara berurutan, Wallet eksternal akan berhenti mengambil transaksi, dengan asumsi tidak ada transaksi baru yang terjadi. Wallet eksternal Anda tidak akan menampilkannya setelah faktur dibayar pada tanggal 21, 22, dan seterusnya. Di sisi lain, secara internal, BTCPay Server Wallet melacak setiap Address yang dihasilkannya, bersama dengan batas selisih yang jauh lebih tinggi. Ini tidak bergantung pada pihak ketiga dan selalu dapat menunjukkan saldo yang benar.
 
-2. Solusi batas celah - Jika [Wallet eksternal/yang sudah ada] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) Anda mengizinkan konfigurasi batas celah, solusi yang mudah adalah meningkatkannya. Akan tetapi, sebagian besar wallet tidak mengizinkan hal ini. Satu-satunya wallet yang saat ini mendukung konfigurasi gap-limit yang kami ketahui adalah Electrum, Wasabi, dan Sparrow wallet. Sayangnya, Anda mungkin akan mengalami masalah dengan banyak dompet lainnya. Untuk pengalaman pengguna dan privasi terbaik, pertimbangkan untuk menggunakan Wallet internal BTCPay Server daripada dompet eksternal.
+2. Solusi batas celah - Jika [Wallet eksternal/yang sudah ada](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) Anda mengizinkan konfigurasi batas celah, solusi yang mudah adalah meningkatkannya. Akan tetapi, sebagian besar wallet tidak mengizinkan hal ini. Satu-satunya wallet yang saat ini mendukung konfigurasi gap-limit yang kami ketahui adalah Electrum, Wasabi, dan Sparrow wallet. Sayangnya, Anda mungkin akan mengalami masalah dengan banyak dompet lainnya. Untuk pengalaman pengguna dan privasi terbaik, pertimbangkan untuk menggunakan Wallet internal BTCPay Server daripada dompet eksternal.
 
 
 #### Server BTCPay menggunakan "mempoolfullrbf=1"
@@ -1002,7 +1002,7 @@ Anda juga dapat mengikuti panduan video tentang cara menghubungkan Hardware Wall
 Unduh BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
 
-Pastikan Anda mengunduh file yang benar untuk sistem spesifik Anda. Pengguna Windows harus mengunduh paket [BTCPayServerVault-2.0.5-setup.exe] (https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), pengguna Mac mengunduh paket [BTCPayServerVault-osx-x64-2.0.5.dmg] (https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), dan pengguna Linux mengunduh [BTCPayServerVault-Linux-2.0.5.tar.gz] (https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
+Pastikan Anda mengunduh file yang benar untuk sistem spesifik Anda. Pengguna Windows harus mengunduh paket [BTCPayServerVault-2.0.5-setup.exe](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-2.0.5-setup.exe), pengguna Mac mengunduh paket [BTCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-osx-x64-2.0.5.dmg), dan pengguna Linux mengunduh [BTCPayServerVault-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPayServer.Vault/releases/download/Vault%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.tar.gz)
 
 
 Setelah menginstal BTCPay Server Vault, jalankan perangkat lunak dengan mengeklik ikon di Desktop Anda. Ketika BTCPay Server Vault terinstal dengan benar dan dijalankan untuk pertama kalinya, perangkat lunak ini akan meminta izin untuk digunakan dengan Aplikasi Web. Ia akan meminta untuk memberikan akses ke Server BTCPay tertentu yang Anda gunakan. Setujui ketentuan ini. BTCPay Server Vault sekarang akan mencari perangkat Hardware. Setelah perangkat ditemukan, BTCPay Server akan mengenali bahwa Vault sedang berjalan dan telah mengambil perangkat Anda.
@@ -2222,7 +2222,7 @@ Pertama dan terutama, cobalah untuk menentukan kapan masalah terjadi. Cobalah un
 ##### Memperbarui server
 
 
-Periksa versi Server BTCPay Anda jika versi tersebut jauh lebih lama daripada [versi terbaru] (https://github.com/btcpayserver/btcpayserver/releases) Server BTCPay. Memperbarui Server Anda dapat menyelesaikan masalah ini.
+Periksa versi Server BTCPay Anda jika versi tersebut jauh lebih lama daripada [versi terbaru](https://github.com/btcpayserver/btcpayserver/releases) Server BTCPay. Memperbarui Server Anda dapat menyelesaikan masalah ini.
 
 
 ##### Memulai ulang server
@@ -2259,7 +2259,7 @@ Log dapat memberikan informasi yang sangat penting. Pada paragraf berikut, kami 
 Sejak v1.0.3.8, Anda dapat dengan mudah mengakses log BTCPay Server dari ujung depan. Jika Anda adalah admin server, buka Pengaturan Server > Log dan buka file log. Jika Anda tidak mengetahui arti dari kesalahan tertentu dalam log, sebutkanlah saat melakukan pemecahan masalah.
 
 
-Jika Anda menginginkan log yang lebih terperinci dan menggunakan penerapan Docker, Anda dapat melihat log kontainer Docker tertentu menggunakan baris perintah. Lihat [instruksi untuk ssh] (https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) ini ke dalam sebuah instans BTCPay yang berjalan di VPS.
+Jika Anda menginginkan log yang lebih terperinci dan menggunakan penerapan Docker, Anda dapat melihat log kontainer Docker tertentu menggunakan baris perintah. Lihat [instruksi untuk ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) ini ke dalam sebuah instans BTCPay yang berjalan di VPS.
 
 
 Di halaman berikutnya, daftar umum nama-nama kontainer yang digunakan untuk BTCPay Server.
@@ -2375,7 +2375,7 @@ bitcoin-lightning-cli.sh getlog
 Selain [melihat log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) dari kontainer bitcoind Anda, Anda juga dapat menggunakan salah satu dari [perintah bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
 
 
-[(membuka jendela baru)] (https://developer.Bitcoin.org/reference/RPC/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
+[(membuka jendela baru)](https://developer.Bitcoin.org/reference/RPC/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
 
 
 Di dalam folder btcpayserver-docker, dapatkan informasi Blockchain menggunakan node Anda:
@@ -2452,7 +2452,7 @@ Di BTCPay Server, Invoice mewakili dokumen yang harus dibayar dalam interval wak
 Inti dari BTCPay Server adalah kemampuan untuk bertindak sebagai sistem manajemen Bitcoin Invoice. Invoice adalah alat penting untuk melacak dan mengelola pembayaran yang diterima.
 
 
-Kecuali jika Anda menggunakan [Wallet] (https://docs.btcpayserver.org/Wallet/) yang sudah terpasang untuk menerima pembayaran secara manual, semua pembayaran di dalam toko akan ditampilkan di halaman Faktur. Halaman ini secara kumulatif mengurutkan pembayaran berdasarkan tanggal dan berfungsi sebagai sumber daya pusat untuk manajemen Invoice dan pemecahan masalah pembayaran.
+Kecuali jika Anda menggunakan [Wallet](https://docs.btcpayserver.org/Wallet/) yang sudah terpasang untuk menerima pembayaran secara manual, semua pembayaran di dalam toko akan ditampilkan di halaman Faktur. Halaman ini secara kumulatif mengurutkan pembayaran berdasarkan tanggal dan berfungsi sebagai sumber daya pusat untuk manajemen Invoice dan pemecahan masalah pembayaran.
 
 
 ![image](assets/en/093.webp)
@@ -2621,7 +2621,7 @@ Penerima pembayaran dan pemohon dapat melihat status permintaan pembayaran setel
 Konten deskripsi dapat diedit menggunakan editor teks permintaan pembayaran. Kedua opsi tersebut tersedia jika Anda ingin menggunakan tema warna tambahan atau gaya CSS khusus.
 
 
-Pengguna non-teknis dapat menggunakan [tema bootstrap] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Kustomisasi lebih lanjut dapat dilakukan dengan memberikan kode CSS tambahan, seperti yang ditunjukkan di bawah ini.
+Pengguna non-teknis dapat menggunakan [tema bootstrap](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Kustomisasi lebih lanjut dapat dilakukan dengan memberikan kode CSS tambahan, seperti yang ditunjukkan di bawah ini.
 
 
 ```css
@@ -2676,7 +2676,7 @@ Fungsionalitas pembayaran terkait dengan fitur [Tarik Pembayaran](https://docs.b
 #### Contoh 1: Pengembalian dana
 
 
-Mari kita mulai dengan contoh pengembalian dana. Pelanggan telah membeli barang di toko Anda, tetapi sayangnya, mereka harus mengembalikannya. Mereka menginginkan pengembalian dana. Di dalam BTCPay, Anda dapat membuat [Pengembalian Dana] (https://docs.btcpayserver.org/Refund/) dan memberikan tautan kepada pelanggan untuk mengklaim dana mereka. Setelah pelanggan memberikan Address mereka dan mengklaim dana, maka akan ditampilkan di bagian Pembayaran.
+Mari kita mulai dengan contoh pengembalian dana. Pelanggan telah membeli barang di toko Anda, tetapi sayangnya, mereka harus mengembalikannya. Mereka menginginkan pengembalian dana. Di dalam BTCPay, Anda dapat membuat [Pengembalian Dana](https://docs.btcpayserver.org/Refund/) dan memberikan tautan kepada pelanggan untuk mengklaim dana mereka. Setelah pelanggan memberikan Address mereka dan mengklaim dana, maka akan ditampilkan di bagian Pembayaran.
 
 
 Status pertama yang dimilikinya adalah Menunggu Persetujuan. Pegawai toko dapat memeriksa apakah ada beberapa yang menunggu, dan setelah membuat pilihan, Anda dapat menggunakan tombol Tindakan.
@@ -2700,7 +2700,7 @@ Nasabah sekarang mendapatkan informasi terbaru di halaman Klaim. Dia dapat mengi
 #### Contoh 2: Gaji
 
 
-Sekarang mari kita bahas pembayaran gaji, karena ini digerakkan dari dalam toko dan bukan berdasarkan permintaan pelanggan. Konsep yang mendasarinya sama, yaitu menggunakan pembayaran tarikan. Tetapi alih-alih membuat pengembalian dana, kita akan membuat [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Sekarang mari kita bahas pembayaran gaji, karena ini digerakkan dari dalam toko dan bukan berdasarkan permintaan pelanggan. Konsep yang mendasarinya sama, yaitu menggunakan pembayaran tarikan. Tetapi alih-alih membuat pengembalian dana, kita akan membuat [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Buka tab Pembayaran Tarik di server BTCPay Anda. Di bagian kanan atas, klik Tombol Buat Pembayaran Tarik.

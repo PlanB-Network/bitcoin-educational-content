@@ -1,0 +1,8 @@
+question: Kwa nini utekelezaji wa hati za ahadi za Mayfell kwenye Liquid unatumia Confidential Transactions badala ya kutumia rekodi za blockchain zenye uwazi?
+answer: Mahitaji ya faragha ya kibiashara yanahitaji kwamba kiasi cha mkopo kionekane kwa wakopeshaji na wakopaji pekee huku kikihifadhi uwezo wa ukaguzi wa mkaguzi.
+wrong_answers:
+  - Utiifu wa sheria nchini Meksiko unaamuru kwamba miamala yote ya kifedha lazima ifichwe kabisa kutoka kwa usimamizi wa serikali na mamlaka za kodi
+  - Kumbukumbu zenye uwazi zingesababisha vikwazo vya kupanuka ambavyo vinazuia mfumo kusindika hati 25,000+ zinazohitajika kwa ufanisi.
+  - Kuonekana kwa umma kwa kiasi cha mkopo kungesababisha matukio ya kodi ya kiotomatiki ambayo hufanya mchakato wa uwasilishaji wa tokeni kuwa mgumu kifedha kwa washiriki
+explanation: |
+  Confidential Transactions hutatua tatizo muhimu la biashara katika mikopo ya kibiashara: kudumisha faragha ya ushindani huku ikiwezesha kufuata sheria. Katika fedha za kawaida, kiasi cha mkopo kati ya biashara ni taarifa za siri za kibiashara ambazo washindani hawapaswi kuzipata, lakini wakaguzi na wasimamizi wanahitaji kuthibitisha uadilifu wa leja. Confidential Transactions ya Liquid inafikia usawa huu kwa kuficha kiasi kutoka kwa umma kwa njia ya kimtandao huku ikiruhusu pande zilizoidhinishwa kuthibitisha miamala. Majibu yasiyo sahihi yanapotosha teknolojia - CT haifichi miamala kutoka kwa wasimamizi (faragha dhidi ya usiri), haisuluhishi masuala ya uwezo wa kupanuka (hilo ni tatizo tofauti la kiufundi), na haileti mifumo ya kuepuka kodi (zana halali za faragha haziepuki majukumu ya kodi).

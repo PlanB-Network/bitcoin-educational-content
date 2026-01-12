@@ -1,9 +1,9 @@
 question: None iyo Bitcoin Faucet, yaremwe muri Ruheshi 2010 na Gavin Andresen, yatanga iki?
-answer: Amafaranga
+answer: Ama Bitcoins
 wrong_answers:
   - Impapuro zo kugura
   - Igabanywa ry'amafaranga y'isoko rya Bitcoin
-  - Amahirwe yo gucukura ibuye
+  - Amahirwe yo gucukura block
 explanation: |
-  Iyi serivisi mu ntango yatanga ama bitcoins atanu ku busabe bwose kugira ngo abantu bagerageze iyo sisitemu. Ivyo bihembo vyaragabanutse uko igihe cagenda kirarenga, maze Faucet irafunga mu 2012.
+  Iyi serivisi mu ntango yatanga ama bitcoins atanu ku busabe bwose kugira ngo abantu bagerageze iyo sisitemu. Ivyo bihembo vyaragabanutse uko igihe cagenda kirarenga, maze iyo Faucet irugara mu 2012.
 reviewed: true

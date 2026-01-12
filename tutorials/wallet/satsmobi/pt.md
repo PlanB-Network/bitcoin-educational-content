@@ -20,7 +20,7 @@ Se preferir utilizá-lo de forma simples, iniciar uma conversa no Telegram revel
 
 ## Definições
 
-Na barra de pesquisa do Telegram, procure por "satsmobi" e aparecerá o link para o [bot] (@SatsMobiBot).
+Na barra de pesquisa do Telegram, procure por "satsmobi" e aparecerá o link para o [bot](@SatsMobiBot).
 
 
 **Atenção**: Se não tiver a certeza de pesquisar através do Telegram, aceda ao bot de forma segura utilizando o seguinte [link](https://t.me/SatsMobiBot)

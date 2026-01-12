@@ -6,4 +6,4 @@ wrong_answers:
   - daemon
 explanation: |
   Tux je zvanična maskota Linux kernela od 1996. godine, kreirao ga je Larry Ewing.
-reviewed: false
+reviewed: true

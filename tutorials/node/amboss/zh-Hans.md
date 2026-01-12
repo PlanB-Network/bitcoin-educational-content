@@ -1,5 +1,5 @@
 ---
-name: 安博斯
+name: Amboss
 description: 探索和分析 Lightning Network
 ---
 

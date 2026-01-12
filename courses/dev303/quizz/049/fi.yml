@@ -1,0 +1,8 @@
+question: Minkä perustavanlaatuisen ongelman RC ratkaisee, jota Box ei pysty käsittelemään Rust:n omistusjärjestelmässä?
+answer: RC mahdollistaa saman datan moninkertaisen omistajuuden viittauslaskennan avulla
+wrong_answers:
+  - RC tarjoaa nopeamman muistin varaamisen ja poistamisen kuin Box
+  - RC mahdollistaa automaattisen muistinhallinnan ilman suoritusaikaa
+  - RC mahdollistaa käännösaikaiset lainaustarkastukset, joita Box ei voi suorittaa
+explanation: |
+  RC (Reference Counter) korjaa erityisesti Boxin yhden omistajuuden mallin rajoituksen sallimalla useiden koodin osien jakaa saman datan omistusoikeuden samanaikaisesti. Box noudattaa perinteisiä omistussääntöjä, joiden mukaan vain yksi taho voi omistaa dataa kerrallaan, mikä tekee mahdottomaksi luoda skenaarioita, kuten jaettuja tietorakenteita, joissa useat listat viittaavat samaan hännän osaan. RC ylläpitää sisäistä laskuria, joka seuraa viittauksia, kasvattaa niitä, kun niitä kloonataan, ja pienentää niitä, kun niitä ei enää käytetä, ja vapauttaa muistia vasta, kun laskuri saavuttaa nollan. Tämä mahdollistaa joustavat tiedonjakomallit säilyttäen samalla muistiturvallisuuden, mikä eroaa olennaisesti Boxin yksinoikeusomistajuuslähestymistavasta.

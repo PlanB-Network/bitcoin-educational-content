@@ -1,0 +1,8 @@
+question: Qual é o principal risco de segurança que torna o P2SH fundamentalmente diferente das transacções Bitcoin normais em termos de recuperação de fundos?
+answer: A perda do script de resgate bloqueia permanentemente os fundos, mesmo que tenha as chaves privadas
+wrong_answers:
+  - O hash de 20 bytes pode ser forçado se o script de resgate for muito simples
+  - Os endereços P2SH expiram após uma determinada altura de bloco, tornando os fundos irrecuperáveis
+  - O processo de validação em duas etapas pode falhar aleatoriamente, causando a perda permanente de fundos
+explanation: |
+  O P2SH introduz um requisito de segurança único: tanto as chaves privadas como o guião de resgate são necessários para gastar fundos. Ao contrário das transacções normais em que apenas são necessárias as chaves privadas, o P2SH exige que o script de resgate seja fornecido durante a utilização. Se o guião de resgate se perder, os fundos ficam permanentemente inacessíveis, independentemente de se ter as chaves privadas corretas, porque as condições de gasto não podem ser reconstruídas ou validadas.

@@ -1,5 +1,7 @@
 id: 64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
 
+last_update_date: 2025-10-02
+
 project_id: 50b37aab-a064-4d56-8ae6-3678bda2efeb
 
 tags:
@@ -13,6 +15,8 @@ level: intermediate
 
 professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -22,7 +26,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.23
+    reward: 1.24
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,12 +66,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.62
+    reward: 4.05
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.04
+    reward: 4.05
   - language: it
     last_contribution_date:
     urgency: 1
@@ -77,12 +81,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.83
+    reward: 4.05
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.04
+    reward: 4.05
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -107,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.83
+    reward: 4.05
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -132,19 +136,29 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.04
+    reward: 4.05
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.83
+    reward: 4.05
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.04
+    reward: 4.05
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.04
+    reward: 4.05
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.26
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.05

@@ -1,0 +1,8 @@
+question: Ni mlinganyo gani wa mkunjo wa duaradufu unaotumia secp256k1 ya Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + shoka + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin hutumia hasa mkunjo wa mviringo wa secp256k1, ambao una mlinganyo uliorahisishwa y² = x³ + 7. Hii ni kesi maalum ya umbo la mkunjo wa mviringo wa jumla y² = x³ + ax + b ambapo a = 0 na b = 7. Chaguzi zingine si sahihi: y² = x³ + ax + b ni umbo la jumla lakini si mkunjo maalum wa Bitcoin, y² = x³ + 5 hutumia kigezo kisicho sahihi, na y² = x³ + x + 7 inajumuisha kimakosa neno la mstari la x ambalo halipo katika secp256k1.

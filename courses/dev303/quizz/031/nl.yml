@@ -1,0 +1,8 @@
+question: Welk type fout zou een paniek moeten veroorzaken in Rust programma's?
+answer: Onherstelbare fouten die wijzen op fouten in de programmeringslogica of onveilige toestanden
+wrong_answers:
+  - Netwerkverbindingsfouten of time-outfouten van externe services
+  - Ongeldige gebruikersinvoer of ontbrekende configuratiebestanden
+  - Fouten met bestand niet gevonden of uitzonderingen met toestemming geweigerd
+explanation: |
+  Paniek zou gereserveerd moeten worden voor onherstelbare fouten die programmeerfouten representeren of situaties waarin het programma in een onveilige toestand terecht is gekomen, zoals array bounds violations of geheugenveiligheidsproblemen. De foute antwoorden beschrijven allemaal herstelbare fouten - netwerkstoringen, problemen met gebruikersinvoer en problemen met het bestandssysteem zijn verwachte omstandigheden die programma's netjes moeten afhandelen met behulp van Result Types in plaats van te crashen. Deze herstelbare fouten zorgen ervoor dat programma's kunnen blijven draaien door de juiste foutafhandelingsstrategieën te implementeren.

@@ -1,5 +1,7 @@
 id: 5b14dabb-453d-4555-836b-2ff301f4694a
 
+last_update_date: 2025-11-24
+
 tags:
   - wallets
   - onchain
@@ -11,18 +13,19 @@ level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-23
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 2.19
+      - nrak10
+    reward: 1.09
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +65,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.08
+    reward: 7.23
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.65
+    reward: 7.23
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.65
+    reward: 7.23
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -124,10 +127,11 @@ proofreading:
     contributor_names:
     reward: 4.38
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 5.8
+      - Tinnah924
+    reward: 2.9
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -137,13 +141,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.65
+    reward: 7.23
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 7.23
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.23
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.8
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:

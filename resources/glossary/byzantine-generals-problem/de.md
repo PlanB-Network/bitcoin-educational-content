@@ -2,7 +2,7 @@
 term: PROBLEM DER BYZANTINISCHEN GENERÄLE
 
 ---
-Das Problem wurde erstmals von Leslie Lamport, Robert Shostak und Marshall Pease in der Fachzeitschrift *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"] (https://lamport.azurewebsites.net/pubs/byz.pdf) im Juli 1982 formuliert. Es wird heute verwendet, um die Herausforderungen in Bezug auf die Entscheidungsfindung zu veranschaulichen, wenn ein verteiltes System keinem Akteur vertrauen kann.
+Das Problem wurde erstmals von Leslie Lamport, Robert Shostak und Marshall Pease in der Fachzeitschrift *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) im Juli 1982 formuliert. Es wird heute verwendet, um die Herausforderungen in Bezug auf die Entscheidungsfindung zu veranschaulichen, wenn ein verteiltes System keinem Akteur vertrauen kann.
 
 In dieser Metapher lagert eine Gruppe byzantinischer Generäle mit ihren jeweiligen Armeen um eine Stadt, die sie angreifen oder belagern wollen. Die Generäle sind geografisch voneinander getrennt und müssen über Boten kommunizieren, um ihre Strategie zu koordinieren. Ob sie angreifen oder sich zurückziehen, spielt keine Rolle, solange alle Generäle einen Konsens finden.
 

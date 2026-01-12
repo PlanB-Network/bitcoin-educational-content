@@ -1,0 +1,9 @@
+question: Vad representerar den högra sidan av den ekonomiska axeln (mot 100) i det tvådimensionella politiska diagrammet?
+answer: Preferens för ekonomisk frihet med mindre statlig inblandning, lägre skatter och fria marknader
+wrong_answers:
+  - Preferens för stark statlig inblandning i ekonomin med höga skatter och regleringar
+  - Preferens för individuella personliga friheter och social tolerans med minimala moraliska restriktioner
+  - Preferens för traditionella värderingar, ordning och säkerhet med statligt påtvingade moraliska normer
+explanation: |
+  Den högra sidan av den ekonomiska axeln representerar ekonomisk frihet, som kännetecknas av minimal statlig inblandning i ekonomin, lägre regleringar och skatter,
+  och betoning på fria marknader, privat egendom och konkurrens. Detta står i kontrast till vänstersidan som förespråkar ett starkt statligt ekonomiskt ingripande. De övriga alternativen beskriver antingen vänsterns ekonomiska position eller positioner på axeln för personliga friheter (högst upp för individuell frihet, längst ned för traditionell ordning).

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Koinjoin
+name: Ashigaru - Whirlpool Coinjoin
 description: Wie kann ich in der Ashigaru-Anwendung Coinjoins erstellen?
 ---
 
@@ -234,7 +234,7 @@ Zum besseren Verständnis dieses Mechanismus und der Frage, wie viele Zyklen es 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Um die Anzahl der Remixe für jedes deiner Stücke zu sehen, öffne das Menü "UTXOs" im "Postmix"-Konto.
 
@@ -324,7 +324,7 @@ Hier sind mehrere mögliche Strategien für die Verwaltung Ihrer Devisen UTXOs v
 
 
 
-- Kaufen Sie Prepaid-Geschenkkarten oder Visa-Karten:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Ihre Bitcoins in Geschenkkarten oder wiederaufladbare Visa-Karten einzutauschen, die in Geschäften verwendet werden können. Dies kann ein einfacher und diskreter Weg sein, um Ihre toxischen UTXOs auszugeben.
+- Kaufen Sie Prepaid-Geschenkkarten oder Visa-Karten:** Plattformen wie [Bitrefill](https://www.bitrefill.com/) ermöglichen es Ihnen, Ihre Bitcoins in Geschenkkarten oder wiederaufladbare Visa-Karten einzutauschen, die in Geschäften verwendet werden können. Dies kann ein einfacher und diskreter Weg sein, um Ihre toxischen UTXOs auszugeben.
 
 
 
@@ -354,7 +354,7 @@ Die Leistung mehrerer Coinjoin-Zyklen wird anhand der Größe der Mengen gemesse
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Wie kann man den Postmix verwalten?
 

@@ -195,7 +195,7 @@ Verilerin şifresini çözmeniz gerekiyorsa, bu şifrelemekten daha karmaşık d
 
 
 
-Verileri korumak için güçlü parolalar kullandığınızdan emin olun ve bir anahtar dosyası kullanıyorsanız, bunu yedeklemeyi unutmamalısınız, aksi takdirde Picocrypt tarafından oluşturulan PCV konteynerinin şifresini artık çözemezsiniz. Son olarak, Picocrypt'i komut satırından çalıştırmanıza izin veren [bir CLI sürümü] (https://github.com/Picocrypt/CLI) (daha az özelliğe sahip) olduğunu bilmelisiniz: burada yine Picocrypt yeni olasılıklara kapı açıyor.
+Verileri korumak için güçlü parolalar kullandığınızdan emin olun ve bir anahtar dosyası kullanıyorsanız, bunu yedeklemeyi unutmamalısınız, aksi takdirde Picocrypt tarafından oluşturulan PCV konteynerinin şifresini artık çözemezsiniz. Son olarak, Picocrypt'i komut satırından çalıştırmanıza izin veren [bir CLI sürümü](https://github.com/Picocrypt/CLI) (daha az özelliğe sahip) olduğunu bilmelisiniz: burada yine Picocrypt yeni olasılıklara kapı açıyor.
 
 
 

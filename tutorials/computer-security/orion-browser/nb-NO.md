@@ -660,8 +660,8 @@ Test oppsettet etter at du har konfigurert det:
 
 
 - [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) - Fingeravtrykkstest
-- [DNS Leak Test] (https://www.dnsleaktest.com/) - Se etter DNS-lekkasjer
-- [BrowserLeaks] (https://browserleaks.com/) - Komplett pakke med personverntester
+- [DNS Leak Test](https://www.dnsleaktest.com/) - Se etter DNS-lekkasjer
+- [BrowserLeaks](https://browserleaks.com/) - Komplett pakke med personverntester
 
 
 
@@ -673,9 +673,9 @@ For maksimal beskyttelse, se våre andre guider:
 
 
 
-- [Firefox hardened] (https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avansert konfigurasjon for flere plattformer
-- [Tor Browser] (https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullstendig anonymitet på nettet
-- [Mullvad Browser] (https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimal beskyttelse mot fingeravtrykk
+- [Firefox hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avansert konfigurasjon for flere plattformer
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullstendig anonymitet på nettet
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksimal beskyttelse mot fingeravtrykk
 
 
 

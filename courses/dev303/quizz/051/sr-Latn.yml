@@ -1,0 +1,8 @@
+question: Ko koristite RefCell u okruženju sa više niti, koja je primarna briga o bezbednosti?
+answer: RefCell nije bezbedan za niti i izazvaće neodređeno ponašanje ako mu pristupe više niti istovremeno
+wrong_answers:
+  - RefCell će automatski sinhronizovati pristup između niti, ali uz značajan trošak performansi.
+  - RefCell će izazvati paniku u vreme izvršavanja kada više niti pokuša da mu pristupi istovremeno
+  - RefCell će izazvati zastoj kada više niti pokuša istovremeno da pozajmi iste podatke.
+explanation: |
+  RefCell je dizajniran isključivo za scenarije sa jednim niti i nema nikakve mehanizme za sinhronizaciju niti. Za razliku od niti-bezbednih alternativa kao što je Mutex, RefCell ne izvodi atomske operacije ili zaključavanje, što dovodi do neodređenog ponašanja i potencijalnih trka podataka pri istovremenom pristupu iz više niti. Provere pozajmljivanja u runtime-u koje RefCell izvodi nisu niti-bezbedne i mogu biti oštećene istovremenim pristupom, što dovodi do kršenja bezbednosti memorije koje Rust obično sprečava.

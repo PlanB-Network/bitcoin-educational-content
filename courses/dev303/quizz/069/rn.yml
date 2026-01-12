@@ -1,0 +1,8 @@
+question: Ni uruhara uruhe rw’intango rw’ivyemezo mu gutegura ibikorwa vya Bitcoin hakurikijwe ingendo nziza za Rust?
+answer: Kugira ngo ufate ibikoko mu gihe c'igerageza, gutuma porogarama idakora neza iyo ingorane zishitse, kandi ukore nk'inyandiko zishobora gushirwa mu ngiro z'ivyiyumviro vy'umuhinguzi w'iporogarama
+wrong_answers:
+  - Gutorera umuti amakosa y'igihe co gukora nk'ukunanirwa gushika ku dosiye n'ibibazo vyo guhuza urubuga mu buryo bwiza
+  - Guhindura amakosa yo mu bubiko bw’ibitabu yo mu rwego rwo hasi mu makosa yo mu rwego rwo hejuru abakoresha bashobora gutahura no gukurikiza
+  - Kugira ngo wirinde amakosa y'injiza atari yo mu kubuza imirongo y'imikorere kwemera gusa agaciro kari mu mirongo ibereye
+explanation: |
+  Ivyemezo bikora ibikorwa bitatu bihambaye mu gutegura porogarama ikomeye ya Bitcoin: bifata ibikoko mu gihe c’igerageza, bituma porogarama zidashobora gukora neza iyo ivyiyumviro vy’ishimikiro birenganye (bituma gukosora vyoroha), kandi bikora nk’inyandiko zishobora gukorwa zidondora ivyo umuhinga mu vy’iporogarama yiteze ku bijanye n’ingene porogarama imeze. Ayandi mahitamwo adondora ingamba zitandukanye zo gutorera umuti amakosa - gutorera umuti neza amakosa y’ibintu vyo hanze, guhindura amakosa hagati y’ibice vy’ibintu bitaboneka, no kwemeza ivyinjijwe - ivyo bikaba bihambaye ariko bitandukanye n’uruhara rwihariye rw’ivyemezo mu kugenzura ivyiyumviro vya porogarama yo mu mutima.

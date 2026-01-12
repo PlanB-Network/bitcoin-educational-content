@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - 石牆
+name: Sparrow Wallet - Stonewall
 description: 瞭解並使用 Sparrow 上的石牆交易
 ---
 
@@ -76,7 +76,7 @@ Stonewall 是一種特殊形式的 Bitcoin 交易，旨在透過模仿兩個人�
 
 
 
-[**-> 進一步瞭解石牆交易 x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> 進一步瞭解石牆交易 x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

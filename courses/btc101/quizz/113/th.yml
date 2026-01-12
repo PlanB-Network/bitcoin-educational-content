@@ -1,0 +1,9 @@
+question: เมื่อไหร่ที่ Bitcoin ถูกใช้ครั้งแรกในการซื้อสินค้าจริง?
+answer: เมื่อ Laszlo Hanyecz ซื้อพิซซ่า 2 ถาดในราคา 10,000 BTC
+wrong_answers:
+  - เมื่อ Hal Finney ซื้อรถในราคา 100,000 BTC.
+  - เมื่อ Satoshi Nakamoto ซื้อบ้านในราคา 1,000,000,000 BTC.
+  - ไม่มีตัวเลือกอื่นใด
+explanation: |
+  ครั้งแรกที่ Bitcoin ถูกใช้ในการซื้อสินค้าจริงคือเมื่อ Laszlo Hanyecz ซื้อพิซซ่า 2 ถาดด้วย 10,000 BTC เมื่อวันที่ 2010/05/22 ซึ่งปัจจุบันรู้จักกันในชื่อ Pizza Day
+reviewed: true

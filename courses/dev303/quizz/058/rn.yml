@@ -1,0 +1,8 @@
+question: Igihe urema macro imeze nk'ibikorwa vy'umugenzo ikeneye gukorana n'imibare itandukanye y'imvo z'injiza, ni uwuhe murongo w'ibice n'umurongo w'ugusubiramwo woba ubereye kuruta?
+answer: Koresha $($x:expr),* kugira ngo uhuze zero canke imvugo nyinshi zitandukanijwe n'inyuguti
+wrong_answers:
+  - Koresha $($x:ident)+ kugira ngo uhuze n'ikimenyetso kimwe canke vyinshi ata bitandukanya
+  - Koresha $($x:ty);* kugira ngo uhuze zero canke ubwoko bwinshi butandukanijwe n'uturongo
+  - Koresha $($x:isobanuro)? guhuza imvugo imwe idasanzwe ata gusubiramwo
+explanation: |
+  Igishushanyo $($x:expr),* cakozwe cane cane ku macros z'imvo n'imvano zihinduka, aho expr ihuye n'imvugo iyo ari yo yose kandi ,* insiguro ifata zero canke vyinshi bisubiramwo bitandukanijwe n'ibiharuro. Ivyo nivyo nyene bikenewe ku ma macros nka vec! iyo ishobora kwemera igitigiri c’imvo zitandukanye. Ayandi mahitamwo ntabwo ari meza kuko: ident ihuye gusa n'ibimenyetso (si imvugo yuzuye), ty ihuye n'ubwoko (si agaciro), na ? ihuye n'ibintu bimwe bimwe bidasanzwe aho gusubiramwo bihinduka.

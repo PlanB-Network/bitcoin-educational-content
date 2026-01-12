@@ -1,9 +1,9 @@
-question: None Satoshi yashize nde inshingano zo gutegura porogarama igihe yavayo?
-answer: Gavini Andresen
+question: Ninde Satoshi yasigiye igikorwa co gutegura porogarama igihe yavamwo?
+answer: Gavin Andresen
 wrong_answers:
-  - Mariti Malmi
-  - Jefu Garzik
-  - Mike Umva
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
 explanation: |
-  Gavin yari yaravuze mbere ko azorongora umugambi wa Bitcoin n'umwete kandi yari yafunguye ububiko bwa GitHub mu kwezi kwa kigarama 2010.
+  Gavin yari yaravuze mbere ko azorongora umugambi wa Bitcoin n'umwete kandi yari yuguruye ububiko bwa GitHub mu kwezi kwa kigarama 2010.
 reviewed: true

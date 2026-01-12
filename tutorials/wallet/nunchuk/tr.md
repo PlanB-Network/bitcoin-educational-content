@@ -20,7 +20,7 @@ Nunchuk 2020'nin sonlarında net bir felsefeyle ortaya çıktı: çoklu imzayı 
 ## İndir
 
 
-İlk adım kesinlikle uygulamayı nereden indireceğinize karar vermektir. Bazı belgeleri (fazla değil ama bir başlangıç), özellik sunumunu ve sayfanın sonuna doğru tüm indirme bağlantılarını bulabileceğiniz [resmi siteye] (https://nunchuk.io/) gidin.
+İlk adım kesinlikle uygulamayı nereden indireceğinize karar vermektir. Bazı belgeleri (fazla değil ama bir başlangıç), özellik sunumunu ve sayfanın sonuna doğru tüm indirme bağlantılarını bulabileceğiniz [resmi siteye](https://nunchuk.io/) gidin.
 
 
 
@@ -394,7 +394,7 @@ Yeni oluşturulan Wallet'in bakiye ve bağlantı durumunu bildirdiği _Home_ kon
 
 
 - Sağ üst köşedeki mercek simgesi bir işlem araması yapmanızı sağlar;
-- `View Wallet config`, Wallet'nın adını düzenleyebileceğiniz ve sağ üstteki gelişmiş seçenekleri etkinleştirebileceğiniz (ekran görüntüsü alamayacağınız) yapılandırma menüsüne erişim sağlar. Burada Wallet yapılandırmasını, etiketleri dışa aktarabilir, tuşları değiştirebilir, [boşluk sınırını] (https://planb.academy/en/resources/glossary/gap-limit) ve daha fazlasını değiştirebilirsiniz.
+- `View Wallet config`, Wallet'nın adını düzenleyebileceğiniz ve sağ üstteki gelişmiş seçenekleri etkinleştirebileceğiniz (ekran görüntüsü alamayacağınız) yapılandırma menüsüne erişim sağlar. Burada Wallet yapılandırmasını, etiketleri dışa aktarabilir, tuşları değiştirebilir, [boşluk sınırını](https://planb.academy/en/resources/glossary/gap-limit) ve daha fazlasını değiştirebilirsiniz.
 
 
 

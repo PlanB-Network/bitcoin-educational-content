@@ -114,7 +114,7 @@ Dále můžete upravit možnost v části expertní nastavení.
 
 
 
-Dále je třeba definovat **heslo odpovídající šifrovacímu klíči**. Toto heslo vám umožní **odemknout trezor Cryptomator** a získat přístup k jeho datům. **Pokud ho ztratíte, ztratíte přístup k datům**. Nakonec máte ještě možnost **vytvořit záložní klíč** zaškrtnutím možnosti "**Ano, raději bezpečně, než litovat**", podobně jako u klíče pro obnovení [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). To se doporučuje, ale neukládejte tento záložní klíč v kořenovém adresáři služby OneDrive!
+Dále je třeba definovat **heslo odpovídající šifrovacímu klíči**. Toto heslo vám umožní **odemknout trezor Cryptomator** a získat přístup k jeho datům. **Pokud ho ztratíte, ztratíte přístup k datům**. Nakonec máte ještě možnost **vytvořit záložní klíč** zaškrtnutím možnosti "**Ano, raději bezpečně, než litovat**", podobně jako u klíče pro obnovení [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). To se doporučuje, ale neukládejte tento záložní klíč v kořenovém adresáři služby OneDrive!
 
 
 

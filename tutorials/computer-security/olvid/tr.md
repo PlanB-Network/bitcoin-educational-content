@@ -69,7 +69,7 @@ Android'de [APK ile yüklemek](https://www.olvid.io/download/) de mümkündür.
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu] (https://www.olvid.io/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ücretli sürümü seçerseniz, hesabınızı birden fazla cihazda senkronize edebileceksiniz.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu](https://www.olvid.io/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ücretli sürümü seçerseniz, hesabınızı birden fazla cihazda senkronize edebileceksiniz.
 
 
 

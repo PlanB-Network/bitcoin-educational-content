@@ -1,5 +1,5 @@
 ---
-name: Zeus Takası
+name: Zeus Swap
 description: On-Chain ve Lightning Network bitcoinleri arasında gözetim dışı Exchange hizmeti
 ---
 

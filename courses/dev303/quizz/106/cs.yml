@@ -1,0 +1,8 @@
+question: Jaký základní princip návrhu umožňuje společnosti LDK vytvářet HSM s podporou blesků, které dokáží inteligentně vyhodnotit, zda transakce představuje legitimní směrování platby a zda se jedná o potenciálně škodlivé pokusy?
+answer: Modulární architektura LDK umožňuje extrakci specifických komponent pro podepisování a ověřování transakcí při zachování povědomí o kontextu protokolu Lightning
+wrong_answers:
+  - "Systém LDK řízený událostmi automaticky označuje podezřelé transakce pomocí algoritmů strojového učení integrovaných do hlavního procesu podepisování."
+  - "Abstraktní vrstva blockchainu LDK umožňuje detekci podvodů v reálném čase křížovým porovnáním všech transakcí se síťovými drby."
+  - "Systém správy peerů LDK implementuje pokročilé kryptografické podpisy, které ze své podstaty rozlišují mezi legitimními a škodlivými transakčními vzory."
+explanation: |
+  Modulární konstrukce LDK umožňuje vývojářům vyjmout pouze komponenty pro podepisování a ověřování a zároveň zachovat inteligenci protokolu Lightning potřebnou k pochopení kontextu transakcí. Díky tomu mohou HSM činit informovaná rozhodnutí o předávání plateb, operacích v kanálech a bezpečnostních hrozbách, a ne jen slepě podepisovat transakce. Špatné odpovědi nesprávně připisují tuto schopnost automatizované detekci podvodů, monitorování blockchainu nebo kryptografickým podpisům, zatímco ve skutečnosti je to schopnost modulární architektury zachovat povědomí o protokolu v izolovaných komponentách, která umožňuje inteligentní vyhodnocování transakcí.

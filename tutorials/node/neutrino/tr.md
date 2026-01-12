@@ -11,7 +11,7 @@ description: LND Neutrino Kurulum Kılavuzu
 ### 1. Raspberry Pi OS Lite İndir
 
 
-Görüntüyü Windows, Mac ve Linux'ta bir mikro SD karta indirmek ve yüklemek için talimatlar [bu sayfada] (https://www.raspberrypi.org/software/operating-systems/) bulunabilir.
+Görüntüyü Windows, Mac ve Linux'ta bir mikro SD karta indirmek ve yüklemek için talimatlar [bu sayfada](https://www.raspberrypi.org/software/operating-systems/) bulunabilir.
 
 
 ### 2. SD Kartı Biçimlendirme

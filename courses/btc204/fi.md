@@ -68,13 +68,13 @@ Koulutuskurssimme kolmannessa osiossa siirrymme itse asiaan: harjoitteluun! Tavo
 
 **Jakso 4: Coinjoin-transaktioiden ymmärtäminen**
 
-Miten voimme puhua Bitcoinin yksityisyydestä mainitsematta kolikkoliitoksia? Luvussa 4 saat selville kaiken, mitä sinun tarvitsee tietää tästä yhdistämismenetelmästä. Saat tietää, mitä coinjoinit ovat, niiden historian ja tavoitteet sekä erilaiset olemassa olevat coinjoin-tyypit. Kokeneemmille käyttäjille kerrotaan lopuksi, mitä anonsetit ja entropia ovat ja miten ne lasketaan.
+Miten voimme puhua Bitcoinin yksityisyydestä mainitsematta kolikkoliitoksia? Luvussa 4 saat selville kaiken, mitä sinun tarvitsee tietää tästä yhdistämismenetelmästä. Saat tietää, mitä [coinjoin](https://planb.academy/resources/glossary/coinjoin)it ovat, niiden historian ja tavoitteet sekä erilaiset olemassa olevat coinjoin-tyypit. Kokeneemmille käyttäjille kerrotaan lopuksi, mitä anonsetit ja entropia ovat ja miten ne lasketaan.
 
 ![BTC204](assets/fi/004.webp)
 
 **5 jakso: Muiden kehittyneiden luottamuksellisuustekniikoiden haasteiden ymmärtäminen**
 
-Viidennessä osiossa tarkastelemme kaikkia muita tekniikoita, joilla voit suojata yksityisyytesi Bitcoinissa, coinjoinin lisäksi. Vuosien varrella kehittäjät ovat osoittaneet huomattavaa luovuutta suunnitellessaan yksityisyyden suojaan tarkoitettuja työkaluja. Tarkastelemme kaikkia näitä menetelmiä, kuten payjoinia, yhteistransaktioita, Coin Swapia ja Atomic Swapia, ja kerromme yksityiskohtaisesti, miten ne toimivat, niiden tavoitteet ja mahdolliset heikkoudet.
+Viidennessä osiossa tarkastelemme kaikkia muita tekniikoita, joilla voit suojata yksityisyytesi Bitcoinissa, coinjoinin lisäksi. Vuosien varrella kehittäjät ovat osoittaneet huomattavaa luovuutta suunnitellessaan yksityisyyden suojaan tarkoitettuja työkaluja. Tarkastelemme kaikkia näitä menetelmiä, kuten [payjoin](https://planb.academy/resources/glossary/payjoin)ia, yhteistransaktioita, Coin Swapia ja Atomic Swapia, ja kerromme yksityiskohtaisesti, miten ne toimivat, niiden tavoitteet ja mahdolliset heikkoudet.
 
 Tarkastelemme myös yksityisyyden suojaa solmujen verkon ja tapahtumien levittämisen tasolla. Keskustelemme myös erilaisista protokollista, joita on vuosien varrella ehdotettu käyttäjien yksityisyyden suojaamiseksi Bitcoinissa, mukaan lukien staattiset osoiteprotokollat.
 
@@ -85,7 +85,7 @@ Valmiina tutkimaan Bitcoinin yksityisyyden monimutkaisuuksia? Lähdetään liikk
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Bitcoinin UTXO-malli
+## Bitcoinin [UTXO](https://planb.academy/resources/glossary/utxo)-malli
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Jälkimmäisestä nähdään, että tulo nro 0 ja lähtö nro 1 käyttävät P2WPKH-skriptejä (SegWit V0), kun taas lähtö nro 0 käyttää eri P2PKH-skriptiä (Legacy).
 
-2010-luvun alussa tämä skriptien versiointiin perustuva heuristiikka oli suhteellisen hyödytön, koska käytettävissä oli vain vähän skriptityyppejä. Ajan myötä ja peräkkäisten Bitcoin-päivitysten myötä skriptityyppejä on kuitenkin otettu käyttöön yhä enemmän. Tästä heuristiikasta on siis tulossa yhä merkityksellisempi, sillä skriptityyppien laajemman valikoiman myötä käyttäjät jakautuvat pienempiin ryhmiin, mikä lisää mahdollisuuksia soveltaa tätä sisäisen versioinnin uudelleenkäytön heuristiikkaa. Tästä syystä pelkästään luottamuksellisuuden näkökulmasta on suositeltavaa valita yleisin käsikirjoitustyyppi. Esimerkiksi näitä rivejä kirjoittaessani Taproot-skriptejä (`bc1p`) käytetään harvemmin kuin SegWit V0 -skriptejä (`bc1q`). Vaikka edelliset tarjoavat taloudellisia ja luottamuksellisuutta koskevia etuja tietyissä erityistilanteissa, perinteisemmissä yhden allekirjoituksen käyttötarkoituksissa voi olla järkevää pitäytyä vanhemmassa standardissa luottamuksellisuussyistä, kunnes uusi standardi otetaan laajemmin käyttöön.
+2010-luvun alussa tämä skriptien versiointiin perustuva heuristiikka oli suhteellisen hyödytön, koska käytettävissä oli vain vähän skriptityyppejä. Ajan myötä ja peräkkäisten Bitcoin-päivitysten myötä skriptityyppejä on kuitenkin otettu käyttöön yhä enemmän. Tästä heuristiikasta on siis tulossa yhä merkityksellisempi, sillä skriptityyppien laajemman valikoiman myötä käyttäjät jakautuvat pienempiin ryhmiin, mikä lisää mahdollisuuksia soveltaa tätä sisäisen versioinnin uudelleenkäytön heuristiikkaa. Tästä syystä pelkästään luottamuksellisuuden näkökulmasta on suositeltavaa valita yleisin käsikirjoitustyyppi. Esimerkiksi näitä rivejä kirjoittaessani [Taproot](https://planb.academy/resources/glossary/taproot)-skriptejä (`bc1p`) käytetään harvemmin kuin SegWit V0 -skriptejä (`bc1q`). Vaikka edelliset tarjoavat taloudellisia ja luottamuksellisuutta koskevia etuja tietyissä erityistilanteissa, perinteisemmissä yhden allekirjoituksen käyttötarkoituksissa voi olla järkevää pitäytyä vanhemmassa standardissa luottamuksellisuussyistä, kunnes uusi standardi otetaan laajemmin käyttöön.
 
 ### Pyöreät numeromaksut
 
@@ -3892,7 +3892,7 @@ BIP47:ää on kritisoitu laajalti sen tehottomuudesta ketjussa. Kuten edellisess
 
 Tietyissä tilanteissa ilmoitustapahtuma voi kuitenkin olla käyttäjälle esteenä. Otetaan esimerkki kertaluonteisesta lahjoituksesta vastaanottajalle: klassisella Bitcoin-osoitteella yksi transaktio riittää lahjoituksen loppuunsaattamiseen. Mutta BIP47-osoitteessa tarvitaan kaksi transaktiota: yksi ilmoitusta varten ja toinen varsinaista maksua varten. Kun lohkotilan kysyntä on vähäistä ja transaktiomaksut alhaisia, tämä ylimääräinen vaihe ei yleensä ole ongelma. Ruuhka-aikoina transaktiomaksut voivat kuitenkin nousta kohtuuttoman korkeiksi yhdestä maksusta, jolloin käyttäjän kustannukset saattavat kaksinkertaistua tavanomaiseen Bitcoin-tapahtumaan verrattuna, mikä voi osoittautua käyttäjälle mahdottomaksi hyväksyä.
 
-Tilanteisiin, joissa käyttäjä aikoo suorittaa vain muutamia maksuja staattiseen tunnisteeseen, on kehitetty muita ratkaisuja. Näitä ovat esimerkiksi hiljaiset maksut, jotka on kuvattu asiakirjassa [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Tämä protokolla mahdollistaa staattisen tunnisteen käyttämisen maksujen vastaanottamiseen ilman osoitteen uudelleenkäyttöä ja vaatimatta ilmoitustapahtumien käyttöä. Katsotaanpa, miten tämä protokolla toimii.
+Tilanteisiin, joissa käyttäjä aikoo suorittaa vain muutamia maksuja staattiseen tunnisteeseen, on kehitetty muita ratkaisuja. Näitä ovat esimerkiksi hiljaiset maksut, jotka on kuvattu asiakirjassa [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Tämä protokolla mahdollistaa staattisen tunnisteen käyttämisen maksujen vastaanottamiseen ilman osoitteen uudelleenkäyttöä ja vaatimatta ilmoitustapahtumien käyttöä. Katsotaanpa, miten tämä protokolla toimii.
 
 ---
 *Tämän luvun ymmärtäminen edellyttää ECDH:n (Elliptic Curve Diffie-Hellman) ja HD-lompakon salausavainten johtamisen hallintaa. Näitä käsitteitä käsiteltiin yksityiskohtaisesti edellisessä luvussa BIP47. En toista niitä tässä. Jos et vielä tunne näitä käsitteitä, suosittelen, että tutustut edelliseen lukuun ennen kuin jatkat tähän lukuun. En käy vielä kerran läpi vastaanotto-osoitteiden uudelleenkäyttöön liittyviä riskejä enkä sitä, miten tärkeää on, että maksujen vastaanottamisessa on yksilöllinen tunniste.* Mainitsen vain muutaman seikan, jotka haluan tässä yhteydessä tuoda esiin
@@ -3957,7 +3957,7 @@ $$ P = B + \text{hash}(a \cdot B) \cdot G $$$
 
 Tässä yhtälössä Alice on yksinkertaisesti laskenut yksityisen avaimensa $a$ ja Bobin julkisen avaimen $B$ skalaaritulon. Hän on syöttänyt tämän tuloksen kaikkien tuntemaan hash-funktioon. Tuloksena saatu arvo kerrotaan sitten skalaarisesti elliptisen käyrän `secp256k1` generointipisteellä $G$. Lopuksi Alice lisää tuloksena saadun pisteen Bobin julkiseen avaimeen $B$. Kun Alicella on tämä osoite $P$, hän käyttää sitä transaktion tulona eli lähettää siihen bitcoineja.
 
-> *Hiljaisten maksujen yhteydessä 'hash'-funktio vastaa SHA256-hash-funktiota, joka on erityisesti merkitty tunnisteella `BIP0352/SharedSecret`, jolla varmistetaan, että luodut hashit ovat ainutlaatuisia tämän protokollan osalta eikä niitä voida käyttää uudelleen muissa yhteyksissä, ja joka samalla tarjoaa lisäsuojaa allekirjoituksissa käytettävien noncesien uudelleenkäyttöä vastaan. Tämä standardi vastaa [BIP340:ssä Schnorr-allekirjoituksille määriteltyä] (https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) standardia "secp256k1":ssä. *
+> *Hiljaisten maksujen yhteydessä 'hash'-funktio vastaa SHA256-hash-funktiota, joka on erityisesti merkitty tunnisteella `BIP0352/SharedSecret`, jolla varmistetaan, että luodut hashit ovat ainutlaatuisia tämän protokollan osalta eikä niitä voida käyttää uudelleen muissa yhteyksissä, ja joka samalla tarjoaa lisäsuojaa allekirjoituksissa käytettävien noncesien uudelleenkäyttöä vastaan. Tämä standardi vastaa [BIP340:ssä Schnorr-allekirjoituksille määriteltyä](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) standardia "secp256k1":ssä. *
 ECDH:n perustana olevan elliptisen käyrän ominaisuuksien ansiosta tiedämme, että :
 
 $$ a \cdot B = b \cdot A $$$

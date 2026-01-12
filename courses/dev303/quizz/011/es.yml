@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja del enfoque de seguridad de memoria en tiempo de compilación de Rust en comparación con la recolección de basura?
+answer: Elimina la sobrecarga en tiempo de ejecución y las pausas imprevisibles en el rendimiento
+wrong_answers:
+  - Utiliza más memoria pero ofrece mejores garantías de seguridad
+  - Requiere menos código, pero es más lento que la recogida de basuras
+  - Evita todos los errores de ejecución, pero utiliza más CPU durante la ejecución
+explanation: |
+  El enfoque de seguridad de memoria en tiempo de compilación de Rust analiza el código durante la compilación para garantizar la seguridad de la memoria sin ningún coste en tiempo de ejecución. A diferencia de la recolección de basura utilizada en lenguajes como Java y Go, que introduce una sobrecarga de rendimiento y puede causar pausas impredecibles durante la ejecución del programa, el sistema de Rust tiene un impacto nulo en tiempo de ejecución. Las otras opciones son incorrectas porque Rust realmente utiliza la memoria de manera más eficiente (no más), no se ejecuta más lento (se ejecuta más rápido sin comprobaciones en tiempo de ejecución), y no utiliza más CPU durante la ejecución (el trabajo se realiza en tiempo de compilación).

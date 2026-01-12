@@ -6,4 +6,4 @@ wrong_answers:
   - Brzi BSS
 explanation: |
   WPA3 je najnoviji i najsigurniji protokol, koji ispravlja nedostatke prethodnih verzija i nudi bolju zaštitu od napada.
-reviewed: false
+reviewed: true

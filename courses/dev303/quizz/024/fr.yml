@@ -1,0 +1,8 @@
+question: Quelle est la syntaxe utilisée pour accéder au premier champ d'une structure tuple dans Rust ?
+answer: Notation en points avec l'indice 0 (par exemple, instance.0)
+wrong_answers:
+  - Crochets avec l'indice 0 (par exemple, instance[0])
+  - Notation des flèches avec l'indice 0 (par exemple, instance->0)
+  - Deux points avec l'indice 0 (par exemple, instance::0)
+explanation: |
+  Les structures de tuple dans Rust utilisent la notation par points suivie de l'indice de champ pour accéder à leurs champs non nommés. Le premier champ est accessible avec .0, le second avec .1, et ainsi de suite. Cela diffère des tableaux ou des vecteurs qui utilisent des crochets, et du C++ qui utilise la notation en flèche pour les pointeurs. La syntaxe des deux points est réservée aux fonctions associées et à l'espacement des noms, et non à l'accès aux champs.

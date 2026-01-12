@@ -1,0 +1,9 @@
+question: Quelle innovation technique a intégré la cryptomonnaie Namecoin en octobre 2011 ?
+answer: Le minage combiné (merged mining)
+wrong_answers:
+  - Le minage résistant aux GPU (GPU-resistant mining)
+  - Les nœuds de confiance (trusted nodes)
+  - La preuve d'enjeu (proof of stake)
+explanation: |
+ Il s'agit d'un procédé consistant à réutiliser le travail fourni sur une « chaine mère » (à savoir celle de Bitcoin) pour la validation de chaines « auxiliaires » plus petites. Ce procédé a été proposé dans la discussion sur BitDNS par Satoshi lui-même. Le minage combiné a été activé sur le réseau de Namecoin le 8 octobre 2011, à la hauteur de bloc 19 200.
+reviewed: false

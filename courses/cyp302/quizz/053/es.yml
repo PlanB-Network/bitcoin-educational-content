@@ -6,4 +6,4 @@ wrong_answers:
   - Un campo vectorial
 explanation: |
   Un campo finito también es conocido como un campo de Galois, nombrado así por el matemático Évariste Galois, y es esencial en la criptografía moderna.
-reviewed: false
+reviewed: true

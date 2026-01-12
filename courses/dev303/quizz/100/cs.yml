@@ -1,0 +1,8 @@
+question: Jaká je hlavní architektonická výhoda, která umožňuje LDK fungovat v prostředí prohlížeče WebAssembly, kde tradiční uzly Lightning nemohou pracovat?
+answer: Filozofie návrhu LDK bez systémových volání mu umožňuje pracovat bez přímého přístupu k souborovým systémům, síťovým soketům nebo zdrojům entropie
+wrong_answers:
+  - "Modulární struktura knihovny Rust v sadě LDK automaticky zajišťuje kompatibilitu s WebAssembly prostřednictvím nativních funkcí pro kompilaci z Rust do WASM."
+  - "Architektura LDK řízená událostmi eliminuje potřebu trvalých připojení a může fungovat výhradně prostřednictvím cyklů požadavek-odpověď HTTP."
+  - "Odlehčená integrace blokového řetězce LDK snižuje využití paměti natolik, že vyhovuje přísným omezením zdrojů a limitům WebAssembly."
+explanation: |
+  Kompatibilitu s prohlížeči umožňuje právě návrh LDK bez systémových volání. Tradiční uzly Lightning se spoléhají na přímá systémová volání pro síť, vstup/výstup souborů a náhodnost, což prostředí WebAssembly z bezpečnostních důvodů zakazuje. LDK tyto závislosti abstrahuje a umožňuje vývojářům poskytovat implementace kompatibilní s prohlížeči pomocí WebSockets pro síťování a API prohlížeče pro perzistenci a náhodnost při zachování plné shody s protokolem Lightning.

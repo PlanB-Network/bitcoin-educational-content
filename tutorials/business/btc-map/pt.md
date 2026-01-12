@@ -14,7 +14,7 @@ Baseado no OSM (OpenStreetMap), ele próprio uma ferramenta de cartografia parti
 
 
 
-Aceder a [btcmap.org] (https://btcmap.org/):
+Aceder a [btcmap.org](https://btcmap.org/):
 
 
 
@@ -30,7 +30,7 @@ Disponível em:
 - iOS através da [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
 - Android através da [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) o catálogo de aplicações android de código aberto
-- descarregando o [apk android] (https://github.com/teambtcmap/btcmap-android/releases/latest) diretamente do github do projeto
+- descarregando o [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) diretamente do github do projeto
 - através da aplicação Web a partir do seu browser (a nossa visão atual)
 
 
@@ -247,7 +247,7 @@ Irá notar imediatamente as áreas de cor laranja. Como pode ver, estas são as 
 
 
 
-O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/communities/add/), vejamos passo a passo:
+O BTC Map permite-lhe [adicionar a sua própria comunidade](https://btcmap.org/communities/add/), vejamos passo a passo:
 
 
 
@@ -274,7 +274,7 @@ O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/
 
 
 
-[Esta página] (https://btcmap.org/add-location/) mostra-lhe como adicionar uma listagem de propriedades em conformidade com o Bitcoin, utilizando o Open Street Map. Se tiver problemas, existe um formulário para preencher, para que outra pessoa possa criar a listagem por si (isto pode demorar várias semanas). Vamos dar uma olhadela:
+[Esta página](https://btcmap.org/add-location/) mostra-lhe como adicionar uma listagem de propriedades em conformidade com o Bitcoin, utilizando o Open Street Map. Se tiver problemas, existe um formulário para preencher, para que outra pessoa possa criar a listagem por si (isto pode demorar várias semanas). Vamos dar uma olhadela:
 
 
 

@@ -304,7 +304,7 @@ Dessa tre tillägg arbetar tillsammans för att skapa ett sammanhängande ekosys
 
 
 
-Mullvad Browser finns tillgängligt gratis för Windows, macOS och Linux. För att installera den, gå till [den officiella Mullvad-webbplatsen] (https://mullvad.net/browser).
+Mullvad Browser finns tillgängligt gratis för Windows, macOS och Linux. För att installera den, gå till [den officiella Mullvad-webbplatsen](https://mullvad.net/browser).
 
 
 
@@ -546,9 +546,9 @@ Mullvad Browser är en utmärkt lösning för dig som vill ha en integritetsvän
 
 
 - [Officiell webbplats för Mullvad Browser](https://mullvad.net/fr/browser)
-- [Nedladdningssida för Mullvad Browser] (https://mullvad.net/en/download/browser)
-- [Detaljerade tekniska specifikationer] (https://mullvad.net/en/browser/Hard-facts)
-- [Mullvad Browser Extension] (https://mullvad.net/en/help/mullvad-browser-extension)
+- [Nedladdningssida för Mullvad Browser](https://mullvad.net/en/download/browser)
+- [Detaljerade tekniska specifikationer](https://mullvad.net/en/browser/Hard-facts)
+- [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 
 
@@ -557,10 +557,10 @@ Mullvad Browser är en utmärkt lösning för dig som vill ha en integritetsvän
 
 
 
-- [Varför integritet är viktigt] (https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
-- [Tor utan Tor: Mullvad Browser-koncept] (https://mullvad.net/en/browser/tor-without-tor)
-- [Så här väljer du en integritetsvänlig webbläsare] (https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
-- [Förståelse för fingeravtryck i webbläsare] (https://mullvad.net/en/browser/browser-fingerprinting)
+- [Varför integritet är viktigt](https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
+- [Tor utan Tor: Mullvad Browser-koncept](https://mullvad.net/en/browser/tor-without-tor)
+- [Så här väljer du en integritetsvänlig webbläsare](https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
+- [Förståelse för fingeravtryck i webbläsare](https://mullvad.net/en/browser/browser-fingerprinting)
 
 
 
@@ -569,8 +569,8 @@ Mullvad Browser är en utmärkt lösning för dig som vill ha en integritetsvän
 
 
 
-- [Hjälpcenter för Mullvad Browser] (https://mullvad.net/en/help/tag/mullvad-browser)
-- [Första stegen till integritet på nätet] (https://mullvad.net/en/help/first-steps-towards-online-privacy)
+- [Hjälpcenter för Mullvad Browser](https://mullvad.net/en/help/tag/mullvad-browser)
+- [Första stegen till integritet på nätet](https://mullvad.net/en/help/first-steps-towards-online-privacy)
 
 
 

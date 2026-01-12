@@ -1,0 +1,8 @@
+question: Nella piattaforma di gestione degli asset (AMP) di Liquid, qual è il meccanismo tecnico principale che impedisce le azioni di conformità a un singolo punto di fallimento mantenendo il controllo normativo sugli asset tokenizzati?
+answer: Autorizzazione a più firme che richiede l'approvazione da parte di più soggetti di azioni di conformità come il congelamento dei fondi o la riemissione di token
+wrong_answers:
+  - Smart contract token di governance che consentono alla comunità di votare su tutte le decisioni relative alla conformità e all'applicazione delle norme
+  - Conti deposito vincolati che eseguono automaticamente le azioni di conformità allo scadere di periodi di attesa predeterminati
+  - Consenso crittografico proof-of-stake in cui i validatori devono raggiungere un accordo di maggioranza prima di eseguire qualsiasi azione di conformità
+explanation: |
+  AMP utilizza il controllo a più firme per garantire che le azioni di conformità richiedano l'autorizzazione di più parti, impedendo a un singolo dipendente di agire unilateralmente. In questo modo si crea un sistema di controlli e bilanciamenti per le operazioni sensibili, mantenendo al contempo la supervisione normativa richiesta per le attività istituzionali. Le risposte sbagliate descrivono meccanismi che non esistono in AMP o che sarebbero inappropriati per la compliance finanziaria regolamentata.

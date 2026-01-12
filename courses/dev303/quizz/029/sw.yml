@@ -1,0 +1,8 @@
+question: Ni aina gani mbili za enum ya Matokeo ya Rust zinazotumika kushughulikia makosa yanayoweza kurejeshwa?
+answer: Sawa(T) kwa shughuli zilizofanikiwa na Hitilafu(E) kwa hitilafu
+wrong_answers:
+  - Mafanikio (T) kwa shughuli zilizofanikiwa na Kushindwa (E) kwa kushindwa
+  - Baadhi (T) kwa ajili ya shughuli zilizofanikiwa na Hakuna kwa ajili ya kushindwa
+  - Pasi (T) kwa shughuli zilizofanikiwa na Hofu (E) kwa kushindwa
+explanation: |
+  Kiambatisho cha Matokeo katika Rust kina aina mbili haswa: Ok(T) ambayo ina thamani iliyofanikiwa ya aina T, na Err(E) ambayo ina hitilafu ya aina E. Muundo huu unawalazimisha wasanidi programu kushughulikia waziwazi kesi zote mbili za mafanikio na kushindwa. Chaguzi zingine si sahihi - Mafanikio/Kushindwa si aina za Matokeo, Baadhi/Hakuna ni mali ya kiambatisho cha Chaguo cha kushughulikia thamani zisizotumika, na Pass/Panic si aina za kawaida za kiambatisho cha Rust za kushughulikia hitilafu.

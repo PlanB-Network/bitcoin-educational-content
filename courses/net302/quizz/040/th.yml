@@ -1,0 +1,9 @@
+question: ระเบียนใดที่จำเป็นในทุกไฟล์โซน DNS?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  ระเบียน SOA กำหนดอำนาจของโซนและจำเป็นต้องมีในไฟล์โซน DNS ทุกไฟล์
+reviewed: false

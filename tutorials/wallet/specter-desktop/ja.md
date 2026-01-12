@@ -1,5 +1,5 @@
 ---
-name: スペクターデスクトップ
+name: Specter Desktop
 description: マルチシグネチャーのBitcoinポートフォリオを、あなた自身のノードで完全に主権を持って管理する。
 ---
 
@@ -127,7 +127,7 @@ walletハードウェアを選択します。この例ではColdcard MK4を使�
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Coldcardの場合、walletハードウェアからUSB接続またはmicroSDカード経由で公開鍵をエクスポートする必要がある。
 

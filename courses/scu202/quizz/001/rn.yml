@@ -1,9 +1,9 @@
-question: Ni ibikorwa ibihe bihambaye kugira ngo amakuru yawe ntamenyekane igihe uriko urakoresha Internet?
-answer: Gukuraho amakuru y'ivya kera
+question: Ni imigenzo iyihe ihambaye kugira ngo ugabanye amakuru yawe aja ahagaragara igihe uriko urakoresha Interineti?
+answer: Gufuta ama cookies kenshi gashoboka
 wrong_answers:
-  - Bika ibikuki vyose
-  - Guhagarika uburyo bwihariye bwa mucukumbuzi
-  - Gukoresha umucukumbuzi wa kera
+  - Kugumizako ama cookies yose
+  - Guhagarika uburyo bwo kurondera mw’ibanga bwa mucukumbuzi
+  - Gukoresha mucukumbuzi ya kera
 explanation: |
-  Gukuraho canke guhagarika amakuru bigabanya ugukurikirana kwamamaza no kuzigama ubuzima bwite mu gihe co gusura urubuga.
-reviewed: false
+  Gufuta canke kugabanya ama cookies bigabanya amatangazo y’amamazwa bigatuma ubasha kuronderera ku mbuga mw’ibanga.
+reviewed: true

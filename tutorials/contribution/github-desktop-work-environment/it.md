@@ -160,6 +160,6 @@ Per questo, hai diverse opzioni a disposizione. Sebbene il blocco note standard 
 
 Congratulazioni! Il tuo ambiente di lavoro è ora configurato per contribuire su Plan ₿ Academy. Ora puoi esplorare i nostri altri tutorial specifici per ogni tipo di contributo (traduzione, proofreading, scrittura..):
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 

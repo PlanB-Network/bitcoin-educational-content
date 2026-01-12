@@ -1,0 +1,8 @@
+question: Miten UniFFI käsittelee virheiden leviämistä Rust-funktioista kohdekieliin, kuten Kotliniin ja Pythoniin?
+answer: Tulostyyppejä palauttavat funktiot merkitään UDL:ssä ja generate:n kohdekielissä natiiveilla poikkeuksilla 'throws'
+wrong_answers:
+  - Virhetyypit muunnetaan automaattisesti merkkijonoviesteiksi ja palautetaan valinnaisina arvoina kaikilla kohdekielillä
+  - Kaikki Rust:n virheet on kääritty yleiseen UniFFI-virhetyyppiin, joka kehittäjien on purettava manuaalisesti
+  - Virheenkäsittely edellyttää, että kehittäjät toteuttavat virheiden käännöskoodin manuaalisesti kutakin kohdekielialustaa varten
+explanation: |
+  UniFFI tarjoaa kehittyneen virheenkäsittelyn, joka säilyttää Rust:n tulospohjaisen virhemallin ja kääntää sen samalla asianmukaisesti kullekin kohdekielelle. Rust:n Result-tyyppejä palauttavat funktiot merkitään UDL:ssä avainsanalla 'throws', ja nämä generate:n natiivit poikkeuskäsittelyt kohdekielissä - Kotlinin metodit heittävät poikkeuksia Java/Kotlin-käytäntöjen mukaisesti, kun taas Python käyttää Pythonin poikkeusmallia. Näin varmistetaan, että virheenkäsittely tuntuu luonnolliselta ja idiomaattiselta kussakin kielessä ja samalla säilytetään alkuperäisten Rust-virhetyyppien semanttinen merkitys, toisin kuin geneerisissä kääreissä tai manuaalisissa käännöksissä.

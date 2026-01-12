@@ -1,0 +1,8 @@
+question: Koja je primarna svrha Rust-ovog Option<T> enum tipa?
+answer: Da biste bezbedno predstavili vrednosti koje mogu, ali i ne moraju biti prisutne, sprečavajući greške null pokazivača
+wrong_answers:
+  - Da biste sačuvali više različitih tipova podataka u jednoj promenljivoj bez provere tipa
+  - Da biste kreirali opcione parametre u definicijama funkcija koji se mogu preskočiti tokom poziva
+  - Da se obezbedi način za vraćanje više mogućih tipova grešaka iz jedne funkcije
+explanation: |
+  Enum Option<T> služi kao rešenje za probleme sa null pokazivačima u Rust tako što forsira eksplicitno rukovanje nedostajućim vrednostima. Ima dve varijante: Some(T) za prisutne vrednosti i None za odsutne vrednosti. Kompajler zahteva da proverite koju varijantu imate pre nego što koristite vrednost, čime se sprečavaju greške u vreme izvršavanja. Pogrešni odgovori mešaju Option sa drugim konceptima: unijama/varijantama (prvi), podrazumevanim parametrima (drugi) i Result tipovima za rukovanje greškama (treći).

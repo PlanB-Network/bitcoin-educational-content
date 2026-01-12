@@ -1,0 +1,8 @@
+question: Milline LDK komponentide disainifilosoofia põhiline omadus eristab seda monoliitsetest Lightning-sõlmede rakendustest nagu CLightning või LND?
+answer: Iga komponent pakub vaikimisi rakendusi, mida saab individuaalselt asendada kohandatud lahendustega, säilitades samal ajal protokollide vastavuse
+wrong_answers:
+  - Kõik komponendid peavad olema arendajate poolt nullist rakendatud, vaikimisi rakendusi ei ole raamatukogu poolt ette nähtud
+  - Komponendid on püsivalt kokku lukustatud ja neid ei saa muuta, kui need on integreeritud rakendusarhitektuuri
+  - Raamatukogu nõuab, et kõik komponendid kasutaksid identseid programmeerimiskeeli ja ei saa toetada platvormideüleseid keelesidemeid
+explanation: |
+  LDK põhifilosoofia keskendub modulaarsete komponentide pakkumisele koos töötavate vaikimisi rakendustega, mida arendajad saavad vajaduse korral valikuliselt asendada. See võimaldab kohandada konkreetseid funktsioone (nagu plokiahela jälgimine või tehingute allkirjastamine), jättes samal ajal muud komponendid muutmata. Valed vastused moonutavad LDK lähenemisviisi: see pakub vaikimisi, mitte ei nõua kõike nullist, võimaldab komponentide asendamist, mitte nende kokku lukustamist, ja toetab oma sidumissüsteemi kaudu mitut programmeerimiskeelt.

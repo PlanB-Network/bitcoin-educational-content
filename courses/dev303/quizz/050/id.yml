@@ -1,0 +1,8 @@
+question: Apa risiko paling signifikan ketika menggunakan RC<RefCell<T>> untuk status berubah bersama, dan mekanisme apa yang membantu mencegahnya?
+answer: Siklus referensi yang menyebabkan kebocoran memori, dicegah dengan menggunakan referensi yang lemah
+wrong_answers:
+  - Balapan data antar thread, dicegah dengan menggunakan Mutex, bukan RefCell
+  - Kepanikan runtime akibat pelanggaran peminjaman, dicegah dengan pemeriksaan waktu kompilasi
+  - Tumpukan meluap dari rekursi yang dalam, dicegah dengan membatasi kedalaman referensi
+explanation: |
+  Ketika menggunakan RC<RefCell<T>, bahaya utama adalah membuat siklus referensi di mana struktur data mereferensikan dirinya sendiri secara langsung atau melalui rantai. Siklus ini mencegah jumlah referensi mencapai nol, sehingga menyebabkan kebocoran memori karena data tampaknya selalu memiliki referensi aktif. Referensi yang lemah mengatasi hal ini dengan tidak memberikan kontribusi pada jumlah referensi yang digunakan untuk manajemen memori, memutus siklus sekaligus menjaga koneksi. Opsi lainnya tidak benar: RC<RefCell<T> tidak aman terhadap thread sehingga data race tidak menjadi perhatian utama, RefCell secara khusus memindahkan pengecekan ke runtime daripada mencegahnya pada saat kompilasi, dan stack overflow tidak terkait dengan mekanisme penghitungan referensi.

@@ -9,7 +9,7 @@ If you are reading this, there is a high probability that you received either a 
 
 In this tutorial, we will discover how Plan ₿ Academy issues verifiable proofs for your ₿-CERT test certificate or any Diploma regarding Course Completion. Then, in a second part we will describe how to verify the authenticity of these proofs.
 
-# Plan ₿ Academy proof mechanism
+## Plan ₿ Academy proof mechanism
 
 At Plan ₿ Academy, we cryptographically sign certificates and diplomas, and time-stamp them using the Timechain (i.e. The Bitcoin blockchain), through a proof mechanism that relies on two cryptographic operations:
 
@@ -23,7 +23,7 @@ We believe that this simple proof mechanism empowers us to issue certificates an
 
 Thanks to this proof mechanism, any attempt to alter even the smallest detail of your certificate or diploma will result in a completely different SHA-256 hash of the signed file, instantly revealing any tampering, as both the signature and the timestamp will no longer be valid. Moreover, if anyone attempts to maliciously forge certificates or diplomas on behalf of Plan ₿ Academy, a simple verification of the signature will expose the fraud.
 
-## How does the GPG-signature work?
+### How does the GPG-signature work?
 
 The GPG signature is generated using an open-source software called GNU Privacy Guard. This software allows users to easily create private keys, sign and verify signatures, and encrypt and decrypt files. For the purposes of this tutorial, it's important to note that Plan ₿ Academy uses GPG to create its private/public keys and to sign all ₿-CERT Certificates and Diplomas of Course Completion.
 
@@ -31,15 +31,15 @@ On the other hand, if someone wants to verify the authenticity of a signed file,
 
 For those who are curious and want to learn more about this fantastic software, you can refer to ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## How does time-stamping work?
+### How does time-stamping work?
 
 Anyone can use OpenTimestamps to timestamp a file and obtain verifiable proof of its existence. In other words, it does not provide proof of when the file was created, but rather proof that the file existed no later than a specific moment in time.
 OpenTimestamps provides this service for free by utilizing a highly efficient method to store proof in the Bitcoin blockchain. It employs the SHA-256 hash algorithm to create a unique identifier for your file, and constructs a Merkle tree using the hashes of the files submitted by other users. Only the hash of the Merkle tree structure is anchored in an OP_RETURN transaction, ensuring a secure and compact way to verify file existence.
 Once this transaction gets into a block, anyone with the initial file and the `.ots` file associated to it can verify the authencity of the timestamping. In the second part of the tutorial, we will see how to verify your Bitcoin Certificate or any Diploma of Course Completion through a teminal and through a graphical interface on the website of OpenTimestamps.
 
-# How to verify a Plan ₿ Academy ₿-CERT certificate or Diploma
+## How to verify a Plan ₿ Academy ₿-CERT certificate or Diploma
 
-## Step 1. Download your Certificate or Diploma
+### Step 1. Download your Certificate or Diploma
 
 Log into your personal/student dashboard on planb.network.
 
@@ -59,14 +59,14 @@ Extract the contents by right-clicking on the `.zip` file and selecting "Extract
 - An Open timestamp (OTS) file (e.g. certificate.txt.ots)
 - A PDF certificate (e.g. certificate.pdf)
 
-## Step 2: How can you verify the Signature of the Text File?
+### Step 2: How can you verify the Signature of the Text File?
 
 First, go to the folder where you extracted the files and open a terminal (right-click on the folder window and clik on "Open in Teminal"). Then, follow the instructions below.
 
 1. Import Plan ₿ Academy public PGP key with the following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 You should see a message like the following if you successfully imported the PGP Key
@@ -102,9 +102,9 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 If you see a message like "BAD signature", that means that the file has been tampered.
 
-## Step 3: Verifying the Open Timestamp
+### Step 3: Verifying the Open Timestamp
 
-### Verifying via a Graphical Interface
+#### Verifying via a Graphical Interface
 
 1. Visit the OpenTimestamps website: https://opentimestamps.org/
 2. Click on the "Stamp & Verify" tab.
@@ -116,7 +116,7 @@ If you see a message like the following, the timestamp is valid:
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### The CLI Method
+#### The CLI Method
 
 NOTE: this procedure **will require a running local Bitcoin node**
 
@@ -140,7 +140,7 @@ This command will:
 - Show you exactly when the file was timestamped
 - Confirm the timestamp's authenticity
 
-### Final results
+#### Final results
 
 The verification is successful if **both** the following messages are displayed:
 

@@ -1,0 +1,8 @@
+question: Mikä perustavanlaatuinen oivallus Lightningin käyttöönotosta sai Breez:n siirtymään yksittäisen mobiilisovelluksen rakentamisesta SDK-arkkitehtuurin kehittämiseen?
+answer: Mobiilisovellusten ekosysteemi ei helpota sovellusten välistä kommunikointia, mikä estää erikoistuneita sovelluksia hyödyntämästä yhteistä Lightning-infrastruktuuria
+wrong_answers:
+  - Mobiililaitteissa ei ole riittävästi laskentatehoa Lightning-solmujen luotettavaan toimintaan, joten asianmukainen toiminta edellyttää pilvipohjaista infrastruktuuria
+  - Lainsäädännön noudattaminen edellyttää, että Lightning-toiminnot on keskitetty SDK:iin eikä hajautettu yksittäisiin mobiilisovelluksiin
+  - Käyttäjäkokemustutkimus osoitti, että kuluttajat pitävät parempana sitä, että salamamaksuja hallinnoivat kolmannen osapuolen palvelut kuin yksittäiset sovellukset
+explanation: |
+  Oikea vastaus tunnistaa alkuperäisen Breez-sovelluksen avulla havaitun keskeisen arkkitehtuurirajoituksen: mobiiliekosysteemit eivät salli helppoa sovellusten välistä viestintää, mikä pakottaa kehittäjät rakentamaan kaikki Lightning-ominaisuudet yksittäisiin sovelluksiin sen sijaan, että he loisivat Lightning-infrastruktuuria jakavia erikoissovelluksia. Tämä oivallus johti SDK-lähestymistapaan, jonka avulla useat sovellukset voivat muodostaa yhteyden samaan Lightning-solmuun. Väärissä vastauksissa keskitytään teknisiin rajoituksiin, sääntelyyn liittyviin kysymyksiin tai käyttäjien mieltymyksiin, mutta nämä eivät olleet se perustavanlaatuinen arkkitehtuurin oivallus, joka johti strategiseen siirtymiseen SDK-malliin.

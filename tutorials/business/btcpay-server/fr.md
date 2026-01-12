@@ -73,7 +73,7 @@ Créez un **compte utilisateur** avec une adresse e-mail valide et un mot de pas
 
 Voltage offre un **essai gratuit de 7 jours**. À noter qu’après nos 7 jours d’essai gratuit, vous serez invité à souscrire à un abonnement fixe de **25 $ par mois** afin de continuer à **garder vos nœuds actifs**.
 
-Une fois votre compte Voltage créé et votre première connexion effectuée, vous serez redirigé vers la page d’accueil, qui présente deux sections principales :
+Une fois votre compte Voltage créé et votre première connexion effectuée, vous serez redirigés vers la page d’accueil, qui présente deux sections principales :
 - Une section **Infrastructure** qui permet de gérer les nœuds Lightning, Bitcoin Core, BTCPay Server et d’autres services Bitcoin dans le cloud ;
 - et une section **Paiements** qui vous permet d’accéder à l’API Lightning de Voltage pour intégrer des paiements Bitcoin dans des applications personnalisées.
 
@@ -155,7 +155,7 @@ Ensuite, vous serez redirigé vers le tableau de bord de votre magasin. Sur l'in
 
 ![capture](assets/fr/17.webp)
 
-Un peu plus bas nous avons le bouton **Configurer un portefeuille** et **Configurer un nœud Lightning**. Dans notre cas, nous nous sommes déjà connecté à un nœud Lightning qui tourne sur voltage. Donc on aura plus à le faire ici.
+Un peu plus bas nous avons le bouton **Configurer un portefeuille** et **Configurer un nœud Lightning**. Dans notre cas, nous nous sommes déjà connectés à un nœud Lightning qui tourne sur voltage. Donc on aura plus à le faire ici.
 
 Nous allons donc passer à la configuration d’un portefeuille. Cliquez sur le bouton **Configurer un portefeuille**.
 

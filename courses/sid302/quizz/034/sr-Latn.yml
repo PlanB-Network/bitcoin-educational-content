@@ -1,0 +1,8 @@
+question: Koji arhitektonski mehanizam omogućava Breez SDK-u da izvrši Liquid-do-Bitcoin transfere bez oslanjanja na federated peg-izlaze ili centralizovane berze?
+answer: Mehanizam dvostruke zamene sa istovremenim zaključavanjem transakcija na oba lanca gde pošiljalac preuzima Bitcoin sredstva, a primalac preuzima Liquid sredstva
+wrong_answers:
+  - Jedna zamena podmornice gde su Bitcoin sredstva prvo zaključana, a zatim preuzeta korišćenjem preimage Lightning plaćanja iz Liquid transakcije
+  - Arhitektura reverzne zamene podmornica gde Liquid Network deluje kao posrednički most za validaciju transakcija između Bitcoin i mainchain
+  - Federisani sistem eskrouta sa višestrukim potpisom kojim upravlja Boltz koji koordinira atomske zamene između Liquid i Bitcoin koristeći vremenski zaključane ugovore
+explanation: |
+  Mehanizam dvostruke zamene je specifično dizajniran za međulančane Bitcoin transfere, koji uključuju istovremene transakcije zaključavanja na obe Liquid i Bitcoin mreže. Ovaj pristup bez poverenja omogućava direktno povezivanje bez federated peg-izlaza. Druge opcije pogrešno opisuju jednousmerne podmorske zamene, pogrešno predstavljaju ulogu Liquid Network, ili pogrešno sugerišu oslanjanje na federativne sisteme koje SDK eksplicitno izbegava.

@@ -4,7 +4,7 @@ description: 发现并开始使用NOSTR
 ---
 
 
-![一个新的挑战者已经到来](assets/1.webp)
+![一个新的挑战者已经到来](assets/cover.webp)
 
 *在本指南的最后，您将了解什么是 Nostr，您将创建一个账户，并且能够使用它。*
 

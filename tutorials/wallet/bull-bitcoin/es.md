@@ -6,1285 +6,635 @@ description: Descubra cómo utilizar la Wallet Bull Bitcoin
 ![cover](assets/cover.webp)
 
 
+![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
-Esta guía le lleva a través de la instalación, configuración y uso de Bull Bitcoin Mobile. Aprenderá a recibir y enviar fondos en las tres redes: onchain, Liquid y Lightning, y a transferir su Bitcoin de una red a otra. Los apéndices proporcionan recursos y contactos, información de fondo y breves explicaciones de conceptos técnicos.
 
+*Este videotutorial de BTC Sessions te guía a través del proceso de configuración y uso de Bull Bitcoin Wallet!*
+
+
+Esta guía le lleva a través de la instalación, configuración y uso de Bull Bitcoin Wallet. Aprenderá a enviar y recibir fondos en las redes Bitcoin On-Chain, Liquid y Lightning, así como a mover Bitcoin entre ellas. Las amplias funciones de wallet la convierten en una potente herramienta todo en uno para gestionar su Bitcoin. Empecemos.
 
 
 ## Introducción
 
 
-
-**Bull Bitcoin Mobile**, desarrollado por **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([crear cuenta](https://app.bullbitcoin.com/registration/orangepeel)), es un ** Wallet de Bitcoin autocustodiado**, lo que significa que tiene pleno control sobre sus claves privadas y, por tanto, sobre sus fondos, sin depender de terceros. De código abierto y arraigada en una filosofía Cypherpunk, esta Wallet combina simplicidad, confidencialidad y funciones avanzadas como los intercambios entre redes y la compatibilidad con PayJoin. Te permite gestionar tus bitcoins en tres redes: **Bitcoin onchain**, **Liquid** y **Lightning**, cada una adaptada a usos específicos.
-
+Bull Bitcoin Wallet, desarrollada por [Bull Bitcoin](https://www.bullbitcoin.com/), es una Bitcoin wallet **autocustodiada**, lo que significa que usted tiene pleno control sobre sus claves privadas y, por tanto, sobre sus fondos, sin depender de terceros. De código abierto y arraigada en una filosofía Cypherpunk, esta Wallet combina simplicidad, confidencialidad y funciones avanzadas como los swaps entre redes y la compatibilidad con PayJoin. Te permite gestionar tus bitcoins en tres redes: **Bitcoin onchain**, **Liquid** y **Lightning**, cada una adaptada a usos específicos. En [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), puedes consultar los temas actuales y los próximos desarrollos. Como el proyecto es 100% de código abierto y "construido en público", también puedes enviar tus sugerencias y cualquier error que encuentres. Mientras que algunos monederos ahora soportan múltiples redes, el Bull Bitcoin Wallet destaca por integrar profundamente características de privacidad en todas ellas, lo que lo convierte en una poderosa herramienta para gestionar tu Bitcoin en todas las redes principales
 
 
-### Contexto de desarrollo
+## 1️⃣ Requisitos previos
 
 
-
-Wallet responde a un reto importante: Las tarifas de la red Bitcoin son inadecuadas para los pequeños pagos, o para abrir pequeños canales Lightning autogestionados. Wallet Bull Bitcoin Mobile ofrece una solución de autocustodia al tiempo que se apoya en las 3 principales redes Bitcoin:
+Antes de empezar a utilizar el **Bull Bitcoin Wallet**, asegúrese de que dispone de los siguientes elementos:
 
 
 
-
-
-- **Red Bitcoin (onchain)**: Ideal para el almacenamiento a medio y largo plazo de UTXOs y transacciones de gran valor, donde las comisiones son proporcionalmente insignificantes.
-- **Liquid Network**: Diseñado para transacciones rápidas (~2 minutos), más confidenciales (cantidades ocultas) y de bajo coste, perfecto para acumular pequeñas cantidades o proteger su privacidad.
-- **Red Lightning**: Optimizada para pagos instantáneos y de bajo coste, adecuada para transacciones diarias de valor pequeño o medio.
-
-
-
-Con Bull Bitcoin Mobile, por ejemplo, puedes acumular pequeñas cantidades en las carteras **Liquid** o **Lightning** y luego, una vez alcanzada una cantidad significativa, puedes :
-
-
-
-
-
-- Transferencia a la red onchain para un almacenamiento seguro a medio o largo plazo, con una confidencialidad mejorada con Liquid y/o Lightning en sentido ascendente, y con tarifas onchain para una única transacción
-
-
-
-### Evolución continua
-
-
-
-Wallet evoluciona constantemente, así que no te sorprendas si encuentras discrepancias entre este tutorial y tu aplicación actualizada.
-
-
-
-
-- Por ejemplo, a partir del 19/07/2025, los botones **"Comprar / Vender / Pagar "** están visibles pero en gris en la aplicación, ya que estas opciones, disponibles en Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), pronto se integrarán para una experiencia unificada. Su uso seguirá siendo totalmente opcional. Muchos otros desarrollos están en curso o previstos: gestión multi-Wallet, passphrase, compatibilidad con los monederos hardware...
-- En [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), puede consultar los temas actuales y los próximos desarrollos. Como el proyecto es 100% de código abierto y "construido en público", también puedes enviarnos tus sugerencias y cualquier error que encuentres.
-
-
-
-
-## 1. Requisitos previos
-
-
-
-Antes de empezar a utilizar **Bull Bitcoin Mobile**, asegúrese de que dispone de los siguientes elementos:
-
-
-
-
-
-- **Smartphone compatible**: Un dispositivo **iOS** (iPhone o iPad) o **Android**
+- Smartphone compatible**: Un dispositivo **iOS** (iPhone o iPad) o **Android**
 - Conexión a Internet
-- **Asegure los soportes de copia de seguridad**: Escribe tu **frase de recuperación** (12 palabras) en papel o metal y guárdala en un lugar seguro.
-- **Conocimientos básicos**: Una comprensión mínima de los conceptos de Bitcoin (direcciones, transacciones, tasas) es útil, aunque este tutorial explica cada paso para principiantes.
+- Asegure los soportes de copia de seguridad**: Escribe tu **frase de recuperación** (12 palabras) en papel o metal y guárdala en un lugar seguro.
+- Conocimientos básicos**: Una comprensión mínima de los conceptos de Bitcoin (direcciones, transacciones, tasas) es útil, aunque este tutorial explica cada paso para principiantes.
+
+
+## 2️⃣ Instalación
+
+
+Puede instalar la aplicación a través de:
 
 
 
-## 2. Instalación
+- [Apple App Store](https://apps.apple.com/app/bull-bitcoin/id6743380972)[ ](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)(para dispositivos iOS)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&hl=en) (para dispositivos Android)
+
+
+Los usuarios de Android también tienen opciones alternativas:
 
 
 
+- Descarga el APK directamente desde la página [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) o
+- Instalación a través de [Zapstore] compatible con Nostr (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
-- **Descargar la solicitud**:
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Descargar de la tienda de aplicaciones para dispositivos Android**
-- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Descarga directamente el APK para dispositivos Android**
-- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Descarga a través de TestFlight para dispositivos Apple**
- - Compruebe el nombre del promotor (Bull Bitcoin) para evitar solicitudes fraudulentas.
- - Asegúrese de que la versión descargada corresponde a la última versión estable indicada en GitHub.
- - Bull Bitcoin Mobile es **de código abierto**. Para ver el código: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
+Tras instalar la aplicación, sigue las instrucciones de la pantalla de bienvenida para configurar tu cuenta.
 
 
+## 3️⃣ Configuración inicial
 
 
-
-- Instalar la aplicación
+Al abrirlo, se le ofrecen las siguientes opciones:
 
 
 
-
-## 3. Configuración inicial
-
-
-
-### 3.1 Inicie la aplicación :
+- crear nuevo Wallet
+- `Recuperar Wallet` y
+- opciones avanzadas
 
 
-
-La aplicación utiliza una única frase de recuperación de 12 palabras para ambas carteras:
-
+Empecemos pulsando sobre `Opciones Avanzadas`.
 
 
-
-- **Seguro Bitcoin Wallet**: Para transacciones en la red Bitcoin (onchain)
-- **Instant Payments' Wallet**: Para transacciones instantáneas en las redes Liquid y Lightning
+Aquí podemos configurar los parámetros avanzados antes de crear o recuperar un wallet:
 
 
+1. Habilita el `Tor proxy` para enrutar el tráfico a través de la red Tor.
 
-Al abrirlo, se le pedirá que importe una frase de recuperación existente o que cree una nueva Wallet :
+1. la [aplicación Orbot](https://orbot.app/en/) debe estar instalada y en funcionamiento antes de activarla
 
+2. Tor Proxy sólo se aplica a Bitcoin (no a Liquid) y puede resultar en una conexión más lenta.
 
+2. Configurar un `Electrum Server personalizado`, o bien
 
-![image](assets/fr/02.webp)
-
-
-
-### 3.2 Frase de recuperación :
-
+3. Ajuste la configuración de `Recuperar Toro`. Más adelante aprenderemos más sobre [Recover Bull](https://recoverbull.com/).
 
 
-Si desea reutilizar una Wallet existente, haga clic en "**Recuperar Wallet**" y rellene las 12 palabras de su frase de recuperación.
+Una vez realizados todos los ajustes opcionales, pulse `Hecho`. Si desea reutilizar un Wallet existente, pulse `Recuperar Wallet` y rellene las 12 palabras de su frase de recuperación.
 
 
+Si no, haga clic en `Crear un nuevo Wallet`.
 
-De lo contrario, haga clic en "**Crear nuevo Wallet**" :
 
+![image](assets/en/01.webp)
+
+
+## 4️⃣ Pantalla de inicio
+
+
+Antes de profundizar, echemos un vistazo a la `Pantalla de inicio` para orientarnos:
 
 
 
-- Escriba su frase de recuperación con sumo cuidado. Escríbela en papel o metal y guárdala en un lugar seguro (caja fuerte, ubicación fuera de línea). Esta frase es tu único medio de acceder a tus bitcoins en caso de pérdida de tu dispositivo o de borrado de la aplicación.
+- el "resumen de transacciones" y el "menú de configuración" se encuentran en la parte superior.
+- El "Saldo disponible" tiene una opción de privacidad que puede activarse o desactivarse.
+- Acceda a la `Bitcoin Bull Exchange` para `Comprar, Vender o Pagar` (esto depende de la jurisdicción y puede requerir KYC).
+- transferencia de fondos entre monederos
+- `Secure Bitcoin` es igual a Onchain Bitcoin Wallet
+- `Pagos instantáneos` a través de Lightning- / Liquid Network *(Nota: Bull Bitcoin Wallet permite realizar y recibir pagos a través de Lightning. Los fondos recibidos a través de Lightning se almacenan en la [*red Liquid](https://liquid.net/) (en los pagos instantáneos Wallet) gracias a un intercambio automático a través de [*intercambio Boltz](https://boltz.exchange/). Esto le da la posibilidad de interactuar con Lightning sin tener que gestionar canales de liquidez, permaneciendo en autocustodia.)*
+- envío y recepción de fondos
+
+
+![image](assets/en/02.webp)
+
+
+Primero, hagamos algunas configuraciones importantes y empecemos con el `Backup`.
+
+
+## 5️⃣ Copia de seguridad
+
+
+Para iniciar el proceso de copia de seguridad, toca el icono del engranaje (⚙) en la esquina superior derecha de la aplicación y selecciona "Copia de seguridad de Wallet". Se te presentarán dos métodos para proteger tu wallet: "Copia de seguridad cifrada" y "Copia de seguridad física". Exploremos cada uno de ellos.
+
+
+![image](assets/en/03.webp)
+
+
+### Copia de seguridad física
+
+
+Pulse sobre `Respaldo Físico` para ver una lista de 12 palabras que representan su frase de recuperación o seed. Tenga en cuenta lo siguiente:
+
+
+
+- Escriba su `frase de recuperación` con sumo cuidado. Escríbela en papel o metal y guárdala en un lugar seguro (caja de seguridad, ubicación offline). Esta frase es tu único medio de acceder a tus bitcoins en caso de pérdida de tu dispositivo o borrado de la aplicación.
 - También es importante tener en cuenta que cualquiera con esta frase puede robarte todos tus bitcoins. Nunca los almacenes digitalmente:
- - Sin captura de pantalla
- - Sin copias de seguridad en la nube, correo electrónico o mensajería
- - Sin copiar/pegar (riesgo de guardar en el portapapeles)
+- Sin captura de pantalla
+- Sin copias de seguridad en la nube, correo electrónico o mensajería
+- Sin copiar/pegar (riesgo de guardar en el portapapeles)
 
 
+![image](assets/en/25.webp)
 
-**¡!** Este punto es crítico. Para más ayuda :
 
+En la siguiente pantalla tendrás que poner la palabra en el orden correcto para asegurarte de que has acertado la frase seed. Recibirás una confirmación cuando la prueba haya terminado y sea correcta.
+
+
+¡! **Este punto es crítico**. Para más ayuda :
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-### 3.3 Asegurar el acceso :
+### Bóveda encriptada
 
 
+También existe la opción de realizar una copia de seguridad cifrada y anónima en la nube. Pero, ¿no hemos mencionado en el último párrafo que las copias de seguridad en la nube son arriesgadas y deben evitarse? Sin embargo, el equipo de Bull Bitcoin ha desarrollado una forma inteligente de hacer que el proceso sea seguro. Así es como funciona:
 
 
+`Recoverbull` es un protocolo de copia de seguridad que simplifica la seguridad de su Bitcoin wallet dividiendo la copia de seguridad en dos partes. En primer lugar, el archivo de copia de seguridad de su wallet se cifra en su dispositivo utilizando una clave de cifrado fuerte. Puedes guardar este archivo cifrado donde quieras, como Google Drive o tu dispositivo. Segundo, la clave de encriptación necesaria para desbloquear el archivo es almacenada por el Recoverbull Key Server. Para recuperar tu wallet, necesitas tanto el archivo de copia de seguridad cifrado como la clave, a la que accedes con tu PIN o contraseña. Este diseño asegura que su copia de seguridad en la nube por sí sola es inútil y que el servidor de claves por sí solo es inútil sin su archivo de copia de seguridad específico. Esto mantiene sus fondos a salvo incluso si una de las partes se ve comprometida.
 
-- Vaya a configuración y haga clic en **Código PIN**.
-- Establezca un sólido **código PIN** para proteger el acceso a la aplicación.
-- Este paso es opcional, pero se recomienda encarecidamente para evitar que cualquier persona con acceso a su teléfono pueda acceder a su Wallet.
 
+Piénsalo como una caja de seguridad. El archivo de copia de seguridad encriptado es la *caja*, que puedes almacenar en cualquier lugar (como Google Drive). Tu PIN de recuperación es la *llave*, que se almacena por separado en el Recoverbull Key Server. Un ladrón necesitaría conseguir tanto tu caja específica como tu llave específica para abrirla. Este diseño asegura que incluso si alguien consigue tu archivo de copia de seguridad, es inútil sin la llave del servidor, y la llave del servidor es inútil sin tu archivo de copia de seguridad único.
 
 
-![image](assets/fr/03.webp)
+Más información sobre el protocolo de copia de seguridad wallet de `Recoverbull` [aquí](https://recoverbull.com/).
 
 
+Pulse sobre `Encrypted vault` y luego `Continue` para confirmar el uso del servidor predeterminado. La conexión se enrutará a través de la red `Tor` para garantizar la privacidad y el anonimato.
 
-### 3.4 Conexión a un nodo personal (opcional):
 
+**Entender sus PIN**
 
 
-BullBitcoin Wallet se conecta por defecto a los servidores Electrum: el primero gestionado por Bull Bitcoin y un servidor secundario de Blockstream, ambos se considera que no guardan registros, lo que reduce el riesgo de rastreo.
 
+- `PIN de desbloqueo de la aplicación`**:** El PIN opcional establecido en `Configuración > PIN de seguridad` para bloquear la aplicación en tu teléfono.
+- pIN de recuperación**:** El PIN obligatorio creado durante el proceso de copia de seguridad de la bóveda cifrada, utilizado para descifrar el archivo de copia de seguridad durante la recuperación.
 
 
-Para una mayor confidencialidad, puede conectar la aplicación a su propio nodo Bitcoin a través de un servidor Electrum (instrucciones disponibles en [GitHub de BullBitcoin](https://github.com/orgs/SatoshiPortal/projects/49) ).
+Se trata de dos PIN distintos. No olvides tu PIN de recuperación, ya que es esencial para restaurar tu wallet"
 
 
+**Configuración del PIN de recuperación:**
 
 
-## 4. Recepción de fondos
 
+- Debe crear un PIN o una contraseña para recuperar el acceso a su wallet.
+- El PIN / contraseña debe tener al menos 6 dígitos (por ejemplo, evite secuencias simples como 123456, que no se aceptan).
+- Sin este PIN, la recuperación de wallet es imposible.
 
 
-Recibir fondos con **Bull Bitcoin Mobile** es sencillo y se adapta a sus necesidades, tanto si utiliza :
+A continuación, seleccione un proveedor de cámaras acorazadas:
 
 
 
+- google Drive o
+- una `ubicación personalizada` (por ejemplo, su dispositivo)
 
-  - la red **Bitcoin (onchain)** para su conservación a largo plazo,
-  - la red **Liquid** para un Confidential Transactions más rápido,
-  - la red **Lightning** para pagos instantáneos de poco valor.
 
+![image](assets/en/04.webp)
 
 
-La aplicación genera automáticamente direcciones de recepción Lightning o Invoice, en función de la red seleccionada. A continuación se indica cómo proceder para cada red.
+Ahora, guarde el "archivo de copia de seguridad". A continuación, pulsa "Probar recuperación", selecciona el archivo de copia de seguridad guardado y pulsa "Descifrar bóveda". Introduce tu PIN o contraseña. Si todo ha funcionado, aparecerá la pantalla "Prueba completada con éxito".
 
 
+### Etiquetas de importación y exportación
 
-### 4.1. onchain (red Bitcoin)
 
+Ahora que hemos creado nuestro Backup echemos un vistazo a `Etiquetas`.  La Bull Bitcoin wallet mejora la privacidad y la organización permitiendo a los usuarios crear etiquetas personalizadas para sus direcciones de recepción y sus transacciones. Estas etiquetas le ayudan a categorizar sus fondos, ya que las transacciones enviadas a una dirección etiquetada heredarán esa etiqueta, y también puede etiquetar las transacciones salientes para realizar un seguimiento de su cambio. La wallet es totalmente compatible con el estándar [BIP-329](https://bip329.org/), lo que significa que puede exportar todas sus etiquetas a un archivo e importarlas en otra wallet. Esta característica garantiza que pueda realizar sin problemas copias de seguridad de su historial de transacciones y categorizaciones, o migrarlas entre diferentes instancias de wallet, sin perder su organización personalizada.
 
 
-En la pantalla de inicio, puede :
+![image](assets/en/05.webp)
 
 
+## 6️⃣ Configuración
 
 
-- o seleccione el **Secure Bitcoin Wallet** y haga clic en "**Recibir "** :
+Una vez asegurada la copia de seguridad principal, vamos a explorar las demás funciones disponibles en la configuración.
 
 
+### A - Asegurar el acceso
 
-![image](assets/fr/04.webp)
 
+Para proteger la aplicación, vaya a "Ajustes" y elija "PIN de seguridad" para seleccionar el código PIN. Crea un PIN seguro para bloquear el acceso a tu wallet. Aunque este paso es opcional, se recomienda encarecidamente para evitar el acceso no autorizado si otra persona utiliza el teléfono.
 
 
+![image](assets/en/06.webp)
 
 
-- o haga clic en "**Recibir "** y, a continuación, elija la red **Bitcoin**:
+### B - Conexión a un nodo personal (opcional)
 
 
+BullBitcoin Wallet se conecta por defecto a servidores Electrum: el primero gestionado por Bull Bitcoin y un servidor secundario de Blockstream, ambos se considera que no guardan registros, lo que reduce el riesgo de rastreo.
 
-![image](assets/fr/05.webp)
 
+Para una mayor confidencialidad, puede conectar la aplicación a su propio nodo Bitcoin a través de un servidor Electrum. Para ello, pulse `Configuración` > `Configuración Bitcoin` > `Configuración Electrum Server` y, a continuación, pulse `+Añadir servidor personalizado` para introducir la dirección y las credenciales de su servidor.
 
 
-#### 4.1.1. Opción "Sólo copiar o escanear Address" desactivada (por defecto)
+![image](assets/en/07.webp)
 
 
+### C - Moneda
 
-![image](assets/fr/06.webp)
 
+El saldo disponible se muestra en la pantalla principal tanto en `sats` como en `USD`. Para cambiarlo, vaya a "Configuración" > "Divisa". Allí podrá alternar entre "sats/BTC" y seleccionar su "moneda fiduciaria predeterminada".
 
 
+![image](assets/en/08.webp)
 
 
-- Permite acceder a parámetros avanzados opcionales. Puede especificar :
- - Una **cantidad** en BTC, Sats o fiat.
- - Una **nota personal** que se incluirá en la copia del URI / Código QR.
- - Activación de **PayJoin** (véase el apéndice 3 para más detalles), que mejora la confidencialidad combinando las entradas de remitente y destinatario.
+### D - Ajustes Bitcoin
 
 
+El menú `Bitcoin Settings` ofrece un acceso profundo a las configuraciones y datos centrales de su wallet. Aquí, puede inspeccionar los detalles fundamentales de su `Secure Bitcoin` y `Instant payments wallets`, dándole total transparencia y control. Las principales funciones de este menú son:
 
 
 
-- **Ejemplo de URI generado automáticamente**:
+- Wallet Detalles:** Navegue a su Bitcoin seguro o wallet pagos instantáneos para ver información específica.
+- Wallet Fingerprint:** Un identificador único para su wallet.
+- Clave pública (Pubkey):** La clave utilizada para generate sus direcciones de recepción Bitcoin.
+- Descriptor:** Un resumen técnico de la estructura de su wallet.
+- Ruta de derivación:** La ruta específica utilizada para generate todas las direcciones de su clave privada maestra.
+- Address View:** Acceda a una lista de sus direcciones de recepción no utilizadas y cambie las direcciones (próximamente)
 
+
+Además, tienes la opción de:
+
+
+
+- habilite la transferencia automática para establecer un saldo máximo instantáneo de wallet, que se transferirá automáticamente a la cuenta segura de bitcoin wallet.
+- Importar monederos genéricos mediante la frase `Mnemonic` o importar `watch-only`
+- Conectar `Monederos de hardware`: los dispositivos compatibles actualmente son ColdcardQ, SeedSigner, Specter, Krux, Blockstream Jade y Foundation Passport
+
+
+## 7️⃣ Bull Bitcoin Exchange
+
+
+Directamente desde wallet, tienes acceso a la [bolsa de Bull Bitcoin](https://www.bullbitcoin.com/), lo que te permite comprar, vender y pagar Bitcoin sin salir de la app. Esta integración ofrece una cómoda solución para gestionar tus necesidades de Bitcoin. Tenga en cuenta que el acceso a la bolsa y a sus servicios puede estar restringido en función de su jurisdicción, y que puede ser necesario completar la verificación "Conozca a su cliente" (KYC) para cumplir con las normas reguladoras y utilizar todas las funciones de la plataforma.
+
+
+Para empezar, pulse "Exchange" en la esquina inferior derecha y, a continuación, "Regístrese" o "Inicie sesión" en su cuenta.
+
+
+La bolsa ofrece las siguientes [prestaciones](https://www.bullbitcoin.com/):
+
+
+
+- Compre Bitcoin con autocustodia desde su cuenta bancaria
+- Sin custodia
+- Particulares o empresas
+- Retirada instantánea
+- Sin gastos ocultos
+- Lightning Network disponible
+- Sin límites de transacciones
+- Opciones de compra recurrentes
+
+
+![image](assets/en/09.webp)
+
+
+Para saber más, visita este tutorial:
+
+
+https://planb.academy/en/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+
+## 8️⃣ Recepción de fondos
+
+
+Recibir fondos con **Bull Bitcoin Wallet** es sencillo y flexible, ya que admite tres redes distintas adaptadas a diferentes casos de uso:
+
+
+
+- La red `Bitcoin (onchain)` para el almacenamiento seguro a largo plazo.
+- La red `Liquid` para transacciones rápidas y más confidenciales.
+- La red `Lightning` para pagos instantáneos y de bajo coste.
+
+
+La aplicación genera automáticamente la dirección o factura adecuada en función de la red seleccionada. A continuación te indicamos cómo proceder para cada red.
+
+
+### Recepción a través de Onchain (red Bitcoin)
+
+
+Para recibir fondos de on-chain, puede seleccionar `Bitcoin Wallet` en la pantalla de inicio y pulsar `Recibir`, o bien pulsar el botón principal `Recibir` y luego elegir la `red Bitcoin`.
+
+
+Existen dos modos principales para generar una dirección de recepción:
+
+
+**Modo por defecto (URI con parámetros de entrada adicionales)
+
+
+Por defecto, wallet genera un [BIP21 URI](https://bips.dev/21/). Se trata de un formato estandarizado que contiene más información que una simple dirección, incluido un importe, una nota personal y parámetros PayJoin para mejorar la privacidad. Este URI completo se codifica en un código QR y se pone a disposición para su copia. El formato es el siguiente `bitcoin:<dirección>?<parámetro1>=<valor1>&<parámetro2>=<valor2>`.
+
+
+
+- Parámetros de entrada adicionales:**
+    - Importe:** Especifique el importe solicitado en BTC, sats o una moneda fiduciaria.
+    - Mensaje:** Añade una nota personal que será visible para el remitente.
+    - PayJoin:** Active esta opción para mejorar la privacidad combinando las entradas del remitente y del destinatario en la transacción.
+
+
+Ejemplo de URI:
 
 
 ```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemple+de+note&pj=HTTPS%3A%2F%2FPAYJO.IN%2FUJA9LJ6L4CMHY%23RK1QT3YSGFC6PMKRUXND2DSGQMLESTUNH29AY0305XAQ678742CVT5ES+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1RRH8C6Q
+bitcoin:bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54xxxxx?amount=0.0005&message=Tip+for+tutorial&pj=HTTPS%3A%2F%2FPAYJO.IN%2F78UH9WZUP8KKJ%23RK1Q2H30FASCU9WW09DQY2LK0K8P2DPRJ99V72CA78ACQAEL675QYTMQ+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1L0LYV6G
 ```
 
 
+*Nota Importante: Por favor, no envíe fondos a las direcciones de este tutorial, el wallet será eliminado.*
 
 
+![image](assets/en/10.webp)
 
-- **Uso**: Copia el URI para compartirlo con el remitente, o deja que escanee el código QR.
 
+**Sólo opción de copia o escaneado Address activada
 
 
-#### 4.1.2. Opción "Copiar o escanear sólo Address" activada
-
-
-
-![image](assets/fr/07.webp)
-
-
-
-
-
-- Con la opción **"Copiar o escanear sólo Address"** activada, la aplicación genera un Bitcoin Address simple en formato SegWit (bech32).
-
-
-
-
-
-- Ejemplo:
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-Aunque introduzca un importe o una nota, no se incluirán en el código QR ni en la copia de la Address
-
-
-
-
-
-- **Uso**: Copia el Address para compartirlo con el remitente, o deja que escanee el código QR.
-
-
-
-#### 4.1.3. Generar un nuevo Address
-
-
-
-
-
-- ¿Por qué utilizar una Address nueva para cada transacción? Esto **protege su privacidad** impidiendo que varios pagos se vinculen a la misma Address, y limita las posibilidades de seguimiento en la Blockchain.
-- Por defecto, Bull Bitcoin genera automáticamente un **Address** sin utilizar
- - Puede forzar la creación de un nuevo Address haciendo clic en **"Nuevo Address"** en la parte inferior de la pantalla.
- - Todas sus direcciones están vinculadas a su frase seed: no importa cuántas direcciones utilice, su cartera mostrará un único saldo y podrá consolidar automáticamente los fondos cuando se realice un envío.
-
-
-
-
-
-- Consejo: Utilice siempre el nuevo **Address** proporcionado por Bull Bitcoin, a menos que tenga una necesidad específica (por ejemplo, un Address público para recibir donaciones).
-
-
-
-### 4.2. Liquid
-
-
-
-En la pantalla de inicio, puede :
-
-
-
-
-- o seleccione los **Pagos instantáneos Wallet** y luego haga clic en **"Recibir "** y luego en **"Liquid"** :
-
-
-
-![image](assets/fr/08.webp)
-
-
-
-
-
-- o haga clic en "**Recibir "** y, a continuación, elija la red **Liquid**:
-
-
-
-![image](assets/fr/09.webp)
-
-
-
-Una vez en la pantalla **"Recibir "**, copie una Liquid Address:
-
-
-
-
-
-- Sin importe ni nota. Ejemplo:
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-
-
-- O especificando un **importe** (en BTC, Sats o fiat) y/o una **nota personal** que se incluirá en la copia del URI / Código QR. Ejemplo:
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-**Utilizar**: Copia el Address/URI para compartirlo con el remitente, o deja que escanee el código QR.
-
-
-
-### 4.3. Rayo
-
-
-
-En la pantalla de inicio, puede :
-
-
-
-
-- o seleccione los **Pagos instantáneos Wallet** y, a continuación, haga clic en "**Recibir "** :
-
-
-
-![image](assets/fr/10.webp)
-
-
-
-
-
-- o haga clic en "**Recibir "** y, a continuación, elija la red **Rayo**:
-
-
-
-![image](assets/fr/11.webp)
-
-
-
-#### 4.3.1. Funcionamiento, límites y ventajas
-
-
-
-
-
-- **Mecanismo**: Bull Bitcoin Wallet es una Wallet que permite realizar y recibir pagos a través de Lightning. Los fondos recibidos a través de Lightning se almacenan en la red **Liquid** (en los pagos instantáneos Wallet) gracias a un intercambio automático a través de **Boltz**. Esto te da la posibilidad de interactuar con Lightning sin tener que gestionar canales de liquidez, permaneciendo en autocustodia.
-
-
-
-
-
-- **Límites:**
-- Una cantidad mínima **de 100 satoshis** (a partir del 19/07/2025) al generate la Invoice.
-- Usted paga los gastos, que se deducirán del importe enviado por el remitente, a diferencia de la recepción con Wallet Lightning native, en la que sólo el remitente paga los gastos de transferencia además del importe enviado. A 19/07/2025, 47 Sats se deducen del importe enviado.
-
-
-
-
-
-- **Ventajas**:
-- **Autocustodia**: Sus fondos permanecen bajo su control, almacenados en la Liquid Network.
-- **Sin elevadas comisiones onchain**: El almacenamiento en Liquid evita costosos depósitos onchain para abrir su canal Lightning o añadir liquidez. Estas operaciones pueden realizarse más adelante, cuando la cantidad acumulada en Liquid justifique las comisiones.
-
-
-
-
-
-- **Sugerencia:** Si el remitente dispone de Wallet Bull Bitcoin, utilice directamente el Liquid Network para evitar gastos de intercambio
-
-
-
-#### 4.3.2. generate Invoice
-
-
-
-
-
-- Introduzca un **importe** (en BTC, Sats o fiat)
-
-
-
-
-
-- Añada una **nota personal** que se integrará en la Invoice. Si el remitente paga la Invoice, su Wallet también la incluirá en los detalles de la transacción.
-
-
-
-
-
-- **Validez del Invoice:** El Invoice relámpago es válido durante **12 horas**. Transcurrido este tiempo, caduca y ya no se puede pagar. Deberá generarse una nueva Invoice.
-
-
-
-
-
-- **Uso**: Copia el Invoice para compartirlo con el remitente, o deja que escanee el código QR.
-
-
-
-
-## 5. Envío de fondos
-
-
-
-### 5.1. 1. Principio básico
-
-
-
-Desde la página de inicio o desde los monederos :
-
-
-
-![image](assets/fr/12.webp)
-
-
-
-para acceder a la pantalla de envío:
-
-
-
-![image](assets/fr/13.webp)
-
-
-
-**Bull Bitcoin Mobile** facilita el envío de dinero detectando automáticamente la red (Bitcoin, Liquid o Lightning) en función de la Address o Invoice introducida (copiada o escaneada mediante código QR).
-
-
-
-### 5.2. transmisión en cadena (red Bitcoin)
-
-
-
-#### 5.2.1. Pantalla de envío
-
-
-
-**Acción**: Introducir o escanear un Bitcoin onchain Address
-
-
-
-
-
-- Si no se ha definido el importe, por ejemplo :
-
-
-
-```
-bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
-```
-
-
-
-
-
-- A continuación, puede elegir en la pantalla de envío :
- - Importe en BTC, sat o fiat. Importe mínimo: 546 satoshis el 22/07/2025.
- - Una nota opcional para identificar la transacción. Solo visible para usted, en los detalles de la transacción.
-
-
-
-![image](assets/fr/14.webp)
-
-
-
-
-
-- Si el importe ya se ha definido, por ejemplo :
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-A continuación, accederá directamente a la siguiente pantalla de confirmación.
-
-
-
-#### 5.2.2 Pantalla de confirmación
-
-
-
-Tómese su tiempo para comprobar todos los parámetros, especialmente el importe, el destino Address y las tasas.
-
-
-A continuación, puedes ajustar los parámetros:
-
-
-
-![image](assets/fr/15.webp)
-
-
-
-
-- **Tarifas**: Puede elegir :
-- Se estimará la **velocidad de ejecución** de su transacción y las comisiones asociadas
-- Se estimarán las **comisiones**, en modo Absoluto (comisiones totales en satoshis) o Relativo (comisiones por byte), y la velocidad de su transacción
-
-
-
-
-
-- **Ajustes avanzados**:
-
-
-
-
-
-- **Replace-by-fee (RBF)**: Activada por defecto, esta función acelera la transacción mediante el pago de una comisión más elevada (véase el Apéndice 4 para más detalles).
-
-
-
-
-
-- **Selección manual de UTXO**: Si sus fondos están almacenados en varias direcciones Wallet diferentes, puede seleccionar las direcciones desde las que enviar los fondos. ¿Por qué debería hacerlo? Con la creciente adopción de la Bitcoin, las comisiones de transferencia están aumentando. Enviar desde varias direcciones con pequeñas cantidades es más caro que enviar desde una sola Address, pero hacerlo ahora evita tener que hacerlo más tarde, cuando las comisiones serán aún más altas. Esto se llama **consolidación de UTXO**.
-
-
-
-![image](assets/fr/16.webp)
-
-
-
-
-
-- **Envío con PayJoin**: Si la función ha sido activada por el destinatario que suministró el URI, por ejemplo :
-
-
-
-```
-bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F7GAEA52UMTYQ7%23RK1QVJZYR38X2MC585ZPZ60QY72DMXHWT67LERFWW6GQ4LDEA7MRP78X+OH1QYP87E2AVMDKXDTU6R25WCPQ5ZUF02XHNPA65JMD8ZA2W4YRQN6UUWG+EX1EJ78U6Q
-```
-
-
-
-A continuación, Bull Bitcoin Mobile configurará el envío combinando sus UTXOs con los UTXOs del destinatario como entrada, mejorando la confidencialidad (véase el Apéndice 3 para más detalles).
-
-
-
-### 5.3. Enviar a Liquid
-
-
-
-#### 5.3.1 Pantalla de envío
-
-
-
-La red **Liquid** permite transacciones rápidas (~2 minutos gracias a un bloque por minuto), más confidenciales (importes enmascarados) que en la red onchain, y con comisiones muy bajas. Los fondos se retiran de **Instant Payments Wallet**.
-
-
-
-**Acción**: Introducir o escanear un Liquid Address
-
-
-
-
-
-- Si no se ha definido el importe, por ejemplo :
-
-
-
-```
-lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz
-```
-
-
-
-A continuación, puede elegir en la pantalla de envío :
-
-
-
-
-- Cantidad en BTC, sat o fiat. Sin mínimo, 1 Satoshi posible;
-- Una nota opcional para identificar la transacción. Solo visible para usted, en los detalles de la transacción.
-
-
-
-![image](assets/fr/17.webp)
-
-
-
-
-
-- Si el importe ya se ha definido, por ejemplo :
-
-
-
-```
-liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7x53ahpz?amount=2.1e-7&message=Test+de+note+Liquid&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
-```
-
-
-
-A continuación, accederá directamente a la siguiente pantalla de confirmación.
-
-
-
-#### 5.3.2 Pantalla de confirmación
-
-
-
-Tómese su tiempo para comprobar todos los parámetros, especialmente la cantidad y el destino Address.
-
-
-
-![image](assets/fr/18.webp)
-
-
-
-
-
-- **Comisiones**: Proporcionales a la complejidad de la transacción, generalmente sobre una base de 0,1 satoshis/vB, es decir, 20-40 satoshis para una transacción sencilla (33 Sats a 22/07/2025).
-
-
-
-### 5.4. Enviar a Lightning
-
-
-
-#### 5.4.1 Pantalla de envío
-
-
-
-La red **Lightning** permite realizar pagos instantáneos y de bajo coste por importes pequeños, ideales para pequeñas transacciones diarias.
-
-
-
-**Acción**: Introducir o escanear un Rayo Invoice
-
-
-
-
-
-- Si escanea una LN-URL Address que le permite establecer la cantidad
-
-
-Ejemplo: `orangepeel@walletofsatoshi.com`.
-
-
-a continuación, puede elegir en la pantalla de envío :
-
-
-
-
- - Importe en BTC, sat o fiat. Importe mínimo de 1000 satoshis el 23/07/2025
- - Una nota opcional para identificar la transacción. Se enviará al destinatario.
-
-
-
-![image](assets/fr/19.webp)
-
-
-
-
-
-- Si escanea una Invoice Lightning que contiene una cantidad definida
+Con la opción `Copiar o escanear sólo Address` activada, la aplicación genera una dirección Bitcoin simple en formato SegWit (bech32).
 
 
 Ejemplo:
 
 
-
-```
-lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8vc3xy26er5rc965lxjllhd82je97au7ysvv6lpq7r7shs9q7sqqqqqqqqqqqqqqqqqqqsqqqqqysgqdqqmqz9gxqyjw5qrzjqwryaup9lh50kkranzgcdnn2fgvx390wgj5jd07rwr3vxeje0glclle6wrlm37k39uqqqqlgqqqqqeqqjqnf7w9f2evnzptm2vtdknk7483hsndkl98c4mv2kfe64v5pkq0j6x2dqt9y9wayszv3z33az7c8hkj3yqj9jd7ans7ugq8xv0xefp23gqltph72
-```
-
-
-
-A continuación, accederá directamente a la siguiente pantalla de confirmación.
-
-
-
-Nota: el importe debe ser superior a 21 Sats el 23/07/2025
-
-
-
-#### 5.4.2 Funcionamiento, límites y ventajas
-
-
-
-
-
-- **Mecanismo**: Los fondos se extraen de **Pagos Instantáneos Wallet** (Liquid) y se convierten mediante un swap **Liquid → Lightning** con **Boltz**.
-
-
-
-
-
-- **Límites:**
-- Una cantidad mínima **superior** a una Wallet Lightning nativa (véase más arriba)
-- **Gastos** más Liquid → Intercambio de rayos a través de Boltz
-
-
-
-
-
-- **Ventajas**:
-- **Autocustodia**: Sus fondos permanecen bajo su control, almacenados en la Liquid Network, y transferibles a través de Lightning si es necesario
-- **Sin altas comisiones onchain**: Almacenar en Liquid te ha ahorrado costosos depósitos onchain para abrir tu canal Lightning o añadir liquidez. Estas operaciones pueden realizarse más adelante, cuando la cantidad acumulada en Liquid justifique las comisiones.
-
-
-
-
-
-- **Consejo:** Si el destinatario dispone de Wallet Bull Bitcoin, utilice directamente el Liquid Network para evitar costes de intercambio
-
-
-
-#### 5.3.3 Pantalla de confirmación
-
-
-
-Tómese su tiempo para comprobar todos los parámetros, especialmente la cantidad y el destino Address.
-
-
-
-![image](assets/fr/20.webp)
-
-
-
-
-## 6. Ver historial
-
-
-
-**Bull Bitcoin Mobile** facilita el seguimiento de sus transacciones en las redes **Bitcoin (onchain)**, **Liquid**, y **Lightning**. Se puede acceder al historial de dos maneras, y muestra información detallada para cada tipo de transacción. También puede consultar sus transacciones mediante navegadores de bloques externos.
-
-
-
-### 6.1. Historial de acceso
-
-
-
-
-
-- A través de la **pantalla de inicio**:
- - Haga clic en **Bitcoin Wallet** para ver las transacciones **onchain**, o en **Instant Payments Wallet** para las transacciones **Liquid** y **Lightning**.
- - El historial se muestra directamente debajo del total de la cartera, filtrado según el tipo de Wallet seleccionado.
-
-
-
-![image](assets/fr/21.webp)
-
-
-
-
-
-- A través de la página dedicada:
- - En la pantalla de inicio, pulsa sobre el **símbolo de la historia** (icono del reloj o similar).
- - Acceda a una página que enumera todas las transacciones, con filtros por tipo de acción: **Enviar**, **Recibir**, **Intercambiar**, **PayJoin**, **Vender**, **Comprar** (nota: Vender y Comprar están en desarrollo y no están disponibles en este momento, 20 de julio de 2025).
-
-
-
-![image](assets/fr/22.webp)
-
-
-
-### 6.2. Detalles de la transacción
-
-
-
-Cada transacción muestra información específica en función de la red y del tipo de acción (envío o recepción). Estos son los detalles disponibles para una **transacción onchain** :
-
-
-
-![image](assets/fr/23.webp)
-
-
-
-### 6.3. Comprobación mediante Block explorer
-
-
-
-La lista de exploradores de las redes **Bitcoin onchain**, **Liquid** y **Lightning** figura en el apéndice 4.
-
-
-
-Para **Lightning**, las transacciones no son visibles en los navegadores públicos. Comprueba los detalles (incluido el ID de intercambio para Boltz) en la aplicación.
-
-
-
-
-## 7. Ajustes
-
-
-
-Se puede acceder a la página de "Configuración" directamente desde la página de inicio de la aplicación Bull Bitcoin, y se utiliza para configurar y gestionar diversos aspectos de la cartera y la experiencia del usuario.
-
-
-
-![image](assets/fr/24.webp)
-
-
-
-
-
-- **Wallet Copia de seguridad**: Muestra la frase de recuperación de la cartera para una copia de seguridad segura. Consulte la sección 3. sobre creación de carteras para conocer las mejores prácticas de gestión y almacenamiento de la frase de recuperación.
-
-
-
-
-
-- **Wallet Detalles**:
-- **Pubkey**: Clave pública asociada a la Wallet, utilizada para generate Bitcoin direcciones de recepción.
-- **Ruta de derivación**: Ruta de derivación utilizada para generate Wallet direcciones de la clave privada.
-
-
-
-
-
-- **Servidor Electrum (Nodo Bitcoin)**: Establece una conexión con un nodo Bitcoin personalizado para transacciones onchain.
-
-
-
-
-
-- **Código PIN**: Active y/o modifique el código de seguridad para proteger el acceso a la aplicación y a las funciones Wallet.
-
-
-
-
-
-- **Moneda**: Elige si quieres mostrar los importes en BTC o Sats, y la moneda fiduciaria por defecto (dólar, euro, etc.).
-
-
-
-
-
-- **Configuración de Auto Swap**: La función *Auto Swap* le permite automatizar la transferencia de su BTC desde el **Instant Payments Wallet (Liquid)** a su **Bitcoin On-Chain Wallet**, tan pronto como la cantidad alcance un umbral que considere lo suficientemente alto como para justificar la tarifa de transacción.
-
-
-
-
-
-- **Registros**: Registros de actividad visibles, que pueden compartirse con el servicio de asistencia técnica para facilitar la resolución de problemas.
-
-
-
-
-
-- **Acceso a Telegram para asistencia**: Enlace directo al canal oficial de Telegram para asistencia al usuario.
-
-
-
-
-
-- **Acceso a Github**: Enlace al [repositorio Github de Bull Bitcoin](https://github.com/SatoshiPortal) para ver el código de fuente abierta o informar de problemas.
-
-
-
-
-## ANEXOS
-
-
-
-### A1. Explicación de PayJoin (P2EP)
-
-
-
-![image](assets/fr/25.webp)
-
-
-
-**Definición** :
-
-
-
-
-- PayJoin, o **Pay-to-EndPoint (P2EP)**, es una técnica de transacción de Bitcoin que mejora la confidencialidad en la red **onchain**. Combina entradas de remitente y destinatario en una única transacción, lo que dificulta el rastreo de importes y direcciones.
-
-
-
-**Operación:**
-
-
-
-
-- En una transacción PayJoin, el emisor y el receptor trabajan juntos a través de un servidor PayJoin compatible para generate una transacción conjunta.
-- En lugar de que sólo el emisor aporte entradas (UTXO), el receptor también contribuye con una de sus propias UTXO. Esto difumina la información visible en la Blockchain: en lugar de una única entrada correspondiente al importe real, ahora hay dos entradas, y las salidas no reflejan directamente el importe intercambiado.
-- La transacción final se asemeja a una transacción Bitcoin estándar (multientrada/multisalida), pero oculta la cantidad real enviada y los vínculos entre direcciones gracias a una estructura esteganográfica.
-
-
-
-**Para uso en Bull Bitcoin Mobile**
-
-
-
-
-- **Recepción** (Address Supply): PayJoin está activado por defecto.
-- **Enviar**: Wallet detecta automáticamente un URI de PayJoin y configura la transacción en consecuencia, por ejemplo:
-
-
-
-```
-bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPAYJO.IN%2F475QR36G3ZCFZ%23...
+```javascript
+bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
+Aunque introduzcas un importe o una nota, no se incluirán en el código QR ni en la dirección copiada.
 
 
-**Beneficios**
+![image](assets/en/11.webp)
 
 
+### Recepción a través de Liquid Network
 
 
-- **Mayor confidencialidad**: PayJoin invalida la suposición de que todas las entradas de una transacción pertenecen a una única entidad. Con PayJoin, las entradas proceden tanto del emisor como del receptor, lo que rompe esta suposición.
-- **Enmascaramiento del importe**: El importe real intercambiado no aparece directamente en los resultados. Se calcula como la diferencia entre las UTXO de entrada y salida del destinatario, lo que hace que el análisis sea engañoso.
+Puede recibir un pago en la Liquid Network. Una vez en la pantalla `Recibir`, tiene las mismas dos opciones para generar una solicitud de pago:
 
 
+**1. Address simple:** Copie la dirección estándar `Liquid address`. Se trata de un identificador único para su wallet en la red Liquid y no incluye ninguna cantidad o mensaje específico.
 
-**Límites**
 
+Ejemplo Address:
 
 
+```javascript
+lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yyp35qynkcw2xqmy7xxxxxxx
+```
 
-- PayJoin requiere que el emisor y el receptor utilicen monederos compatibles, de lo contrario se utiliza una transacción onchain estándar.
-- La transacción es ligeramente más compleja (más entradas y salidas), lo que se traduce en unos costes ligeramente más elevados.
-- Aunque está diseñado para parecerse a una transacción estándar, la heurística avanzada (por ejemplo, salidas ambiguas, servidores PayJoin conocidos) puede hacer sospechar de su uso, aunque sin certeza absoluta.
 
+**2. Solicitud de pago detallada (URI):** Para una solicitud más estructurada, puede especificar un importe y una nota personal. Esta información se codifica automáticamente en una URI compartible y su correspondiente código QR.
 
 
-**Más información:**
 
+- Importe:** Puede establecer el importe en Bitcoin (BTC), Satoshis (Sats) o una moneda fiduciaria.
+- Nota:** Añada un mensaje personal para identificar la transacción.
 
 
+**Ejemplo URI:**
 
-- [Glosario](https://planb.academy/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
+```javascript
+liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdgkgzmfycrud0zsygqgyjclycckpasxxxxxx?amount=0.00001&message=Test&assetid=6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d
+```
 
 
+Para completar la transacción, facilite al remitente la `dirección` o `URI`. Puedes hacerlo copiándolo en el portapapeles o haciendo que escaneen el código QR directamente desde tu pantalla.
 
-### A2. Explicación de Replace-by-fee (RBF)
 
+![image](assets/en/12.webp)
 
 
-**Definición**: Replace-by-fee (RBF) es una característica de la red Bitcoin que permite al remitente acelerar la confirmación de una transacción **onchain** aceptando pagar una tarifa más alta.
+### Recepción a través de Lightning
 
 
 
-**Límites** :
+La Bull Bitcoin Wallet también le permite enviar y recibir pagos a través de la Lightning Network. Una característica clave es que los fondos recibidos a través de Lightning se intercambian automáticamente y se almacenan en el `Liquid Network` dentro de su `Instant Payments Wallet`. Este servicio funciona con la Boltz. Este diseño le permite disfrutar de la velocidad y el bajo coste de Lightning sin la complejidad de gestionar canales de liquidez, al tiempo que mantiene la autocustodia total de sus fondos. Aunque este enfoque híbrido es de autocustodia y evita la complejidad de gestionar canales, introduce un servicio de terceros (Boltz), una pequeña comisión de intercambio y la dependencia de la federación de funcionarios de la Liquid Network como titulares de claves, que es diferente de una wallet Lightning tradicional, sin autocustodia, en la que usted gestiona sus propios canales. Puede obtener más información sobre la Liquid y su modelo de gobierno aquí:
 
 
+https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
 
 
-- RBF no está disponible para las transacciones Liquid o Lightning.
-- La transacción inicial debe marcarse como compatible con RBF cuando se crea, lo que Bull Bitcoin Mobile hace automáticamente a menos que se desactive.
+- Límites:**
+    - Importe mínimo:** Se requiere un importe mínimo de facturación. Consulta la aplicación para conocer el límite actual
+    - Comisiones:** Usted, el receptor, es responsable de una pequeña comisión de intercambio. Esta comisión se deduce del importe que transfiere el remitente y está sujeta a cambios
+- Beneficios:**
+    - Autocustodia:** Sus fondos están siempre bajo su control, asegurados en la red Liquid.
+    - Evite las elevadas comisiones de On-Chain:** Al utilizar Lightning y almacenar en Liquid, elude las comisiones de on-chain asociadas a la apertura de un canal Lightning tradicional. Puede optar por trasladar los fondos a un canal on-chain más adelante, cuando el importe acumulado justifique el gasto.
+    - Consejo:** Para realizar la transacción más rentable entre dos usuarios de Bull Bitcoin, utilice directamente la **red Liquid** para evitar por completo las tarifas de intercambio Lightning.
 
 
+Para recibir un pago, debe generate una `Factura relámpago`:
 
-**Más información:**
 
+1. introduzca una cantidad**:** Especifique la cantidad que desea recibir en Bitcoin (BTC), Satoshis (Sats), o una moneda fiduciaria.
 
+2. **(Opcional):** Incluya una nota. Esto se incrustará en la factura y se mostrará en su historial de transacciones una vez que el pago se haya completado, por lo que es más fácil de identificar.
 
+3. `Invoice Validez`**:** La factura relámpago tiene un plazo de validez de **12 horas**. Si no se paga dentro de este periodo, pierde su validez y tendrá que generate una nueva.
 
-- [Glosario](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
+Facilite al remitente la factura copiándola en su portapapeles o dejándole escanear el código QR que aparece en su pantalla.
 
 
+![image](assets/en/13.webp)
 
-### A3. Buenas prácticas
 
+## 9️⃣ Envío de fondos
 
 
-Para utilizar **Bull Bitcoin Mobile** de forma segura y eficiente, siga estas recomendaciones. Le ayudarán a proteger sus fondos, optimizar sus transacciones y preservar su confidencialidad en las redes **Bitcoin (onchain)**, **Liquid** y **Lightning**.
+Puede acceder a la pantalla de envío directamente desde la página de inicio o desde cualquiera de sus monederos. Bull Bitcoin Wallet simplifica el proceso detectando automáticamente la red de destino -`Bitcoin`, `Liquid` o `Lightning` - en función de la dirección o factura que introduzcas, ya sea pegada o escaneada mediante código QR.
 
 
+### On-Chain Transmisión a través de la red Bitcoin
 
 
+El envío de fondos on-chain significa que su transacción se registra directamente en la blockchain Bitcoin. Este método es el mejor para transferencias grandes o transferencias no sensibles al tiempo. Para empezar, puede pulsar el "Botón de envío" situado abajo a la derecha y escanear o introducir una "dirección Bitcoin estándar".
 
-- **Asegura tu frase de recuperación**:
- - Tutorial: [Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
+Si la dirección que proporciona no incluye una cantidad específica, se le pedirá que rellene los detalles en la pantalla de envío. Puede especificar la cantidad en la unidad que prefiera, como BTC, satoshis o un equivalente fiat. También tiene la opción de añadir una nota personal, que es una nota privada para su propia referencia que le ayudará a identificar la transacción más tarde. Esta nota no se comparte con el destinatario.
 
 
+Por el contrario, si la solicitud de pago que escanea o pega ya contiene todos los datos necesarios, como un URI BIP21 con un importe predefinido, la wallet omitirá la pantalla de introducción de datos y le llevará directamente a la pantalla de confirmación para autorizar el pago.
 
 
-- **Utilizar autenticación segura**:
- - Activar un **PIN fuerte** o **autenticación biométrica** (huella dactilar o reconocimiento facial) para proteger el acceso a la aplicación.
- - Nunca compartas tu PIN ni tus datos biométricos.
+![image](assets/en/14.webp)
 
 
+Antes de que se emita su transacción, se le presentará una pantalla de confirmación. Es crucial que se tome un momento y revise detenidamente cada parámetro, prestando especial atención a la dirección del destinatario, el importe que se envía y las tarifas de la red. Esta pantalla también proporciona potentes herramientas para personalizar su transacción.
 
 
+Puede controlar las tarifas de dos formas principales. La primera consiste en seleccionar la velocidad de transacción deseada (baja, media o alta) y wallet calculará automáticamente la tarifa correspondiente. El segundo método permite un control más preciso, ya que le permite establecer una tarifa específica, ya sea como un total absoluto en satoshis o como una tarifa relativa por byte, que luego proporciona un tiempo de confirmación estimado.
 
-- **Proteja su intimidad**:
- - generate una nueva Address para cada recepción onchain o Liquid para limitar el rastreo en la Blockchain.
- - Utilice PayJoin cuando esté disponible para aumentar la confidencialidad sobre la cantidad enviada en cadena
- - Para obtener la máxima confidencialidad, conecte su Wallet a su propio nodo Bitcoin a través de un servidor Electrum en lugar de utilizar el nodo público
 
+Para usuarios avanzados, wallet ofrece varios ajustes para afinar la transacción. la función `Replace-by-Fee` (RBF) está activada por defecto, una valiosa función que permite acelerar una transacción si se queda atascada en el mempool, retransmitiéndola con una tarifa más alta. También puede seleccionar manualmente de qué `Salidas de transacciones no gastadas` (UTXOs) gastar. Se trata de una potente herramienta para la consolidación UTXO, una estrategia en la que se combinan varias entradas pequeñas en una sola más grande. Aunque esto puede costar más en comisiones para la transacción actual, puede reducir significativamente las comisiones en transacciones futuras, especialmente si se espera que las comisiones de red aumenten.
 
 
+![image](assets/en/15.webp)
 
 
-- **Elija la red que mejor se adapte a sus necesidades**:
-- **Onchain**: Preferido para custodia a largo plazo o transacciones de gran valor (comisiones insignificantes en relación con el importe).
-- **Liquid**: Para transferencias rápidas y económicas con mayor confidencialidad.
-- **Relámpago**: Opta por transferencias instantáneas de bajo coste para pequeñas cantidades. Si sois dos usuarios de Wallet Bull Bitcoin, elegid Liquid para evitar las comisiones de intercambio Lightning <> Liquid a través de Boltz.
+PayJoin se intenta automáticamente cuando se escanea una solicitud de pago de un destinatario (un URI BIP21) que incluye un parámetro `pj=`. Si simplemente pega una dirección sin parámetros adicionales, esta función no se activará. Este método colaborativo mejora la privacidad al combinar las entradas tanto del remitente como del destinatario, rompiendo la heurística de la propiedad común de las entradas y permitiendo también un mejor escalado y ahorro de tasas en algunas circunstancias.
 
 
+### Envío a la Liquid Network
 
 
+La `Liquid Network` está diseñada para transacciones rápidas y confidenciales con comisiones mínimas. Cuando envía fondos a través de la Liquid, éstos se retiran de su `Wallet de Pagos Instantáneos`. El proceso es sencillo: basta con introducir o escanear la dirección del destinatario en la Liquid.
 
-- **Compruebe siempre las direcciones de envío**:
- - Antes de enviar fondos, compruebe cuidadosamente la Address. Los fondos enviados a una Address incorrecta se pierden para siempre. Utiliza copiar/pegar o escanear código QR, nunca copies/modifiques una Address a mano.
 
+Si la dirección no especifica un importe, se le pedirá que lo indique en la pantalla de envío. Puede introducir la cantidad en BTC, satoshis o fiat. Una ventaja clave de Liquid es su bajo umbral mínimo. Al igual que con las transacciones on-chain, puede añadir una nota personal opcional para sus propios registros. Si la solicitud de pago ya incluye un importe, la wallet pasará directamente a la pantalla de confirmación.
 
 
+En la pantalla de confirmación de una transacción Liquid, revisará los detalles. Las comisiones son notablemente bajas y se calculan en función de la complejidad de la transacción. Suelen rondar los 0,1 sat/vB, lo que para una transacción sencilla equivale a apenas 20-40 satoshis (por ejemplo, 26 satoshis a 21 de diciembre de 2025).
 
 
-- **Optimizar los costes**:
- - Para las transacciones onchain, elija las tarifas adecuadas (lenta, media, rápida) en función de la urgencia y la congestión de la red.
- - Utilice Liquid, o Lightning para pequeñas cantidades.
- - Active Replace-by-fee (RBF) (véase el Apéndice 4) para los envíos en cadena si prevé que necesitará acelerar la confirmación.
+![image](assets/en/16.webp)
 
 
+### Envío a la Lightning Network
 
 
+Puede escanear un Address Lightning (por ejemplo, `runningbitcoin@rizful.com`) que le permite establecer el importe y una nota opcional para el destinatario, o escanear una factura con un importe predefinido, que le lleva directamente a la pantalla de confirmación.
 
-- Mantener actualizada la aplicación
 
+*Tenga en cuenta que se aplican importes mínimos y comisiones.*
 
 
+La Bull Bitcoin Wallet envía pagos Lightning retirando fondos de su `Instant Payments Wallet` (en la Liquid) e intercambiándolos a través de la `Boltz`. Este enfoque híbrido es totalmente autocustodiable y evita las elevadas tarifas de on-chain de gestionar un canal Lightning dedicado, pero requiere pagar una `tarifa de intercambio`. Para obtener el coste más bajo, envíe directamente a la dirección Liquid de un destinatario si también utiliza una Bull Bitcoin wallet.
 
-### A4. Recursos adicionales
 
+## 🔟 Transferencia de fondos entre tus carteras
 
 
+Bull Bitcoin le permite mover su Bitcoin entre su `Secure Bitcoin` wallet y su `Instant Payments Wallet` en la Liquid Network o a una `Wallet externa`. Para realizar una transferencia, simplemente navegue hasta la sección `Transferencia`, seleccione los monederos de origen y destino, introduzca la cantidad que desea mover y confirme la transacción.
 
 
-- **Enlaces oficiales y asistencia:**
-- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : correo electrónico de apoyo
-- [Sitio web oficial de Bull Bitcoin](https://bullbitcoin.com/): **Información sobre los servicios de Bull Bitcoin, creación de cuenta, acceso a la aplicación**
-- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Ver código, evolución y hoja de ruta, contribuir al desarrollo...**
-- [Cuenta X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
-- **Grupo de Telegram** para Wallet móvil: chat de grupo con asistencia, consulta la página "Configuración".
+![image](assets/en/17.webp)
 
 
+## 1️⃣1️⃣ Recuperar su Bull Bitcoin Wallet
 
 
+Esta sección explica cómo recuperar el acceso a sus fondos Bull Bitcoin Wallet si pierde su dispositivo, desinstala la aplicación o simplemente necesita cambiar a uno nuevo. Como ya se ha explicado, hay dos métodos principales para la recuperación: utilizando el método único `Recoverbull` y utilizando una frase estándar `BIP39 seed`.
 
-- Exploradores de bloques :**
- - on chain : **[Mempool.space](https://Mempool.space/)**
- - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
- - Rayo: **[1ML (Lightning Network)](https://1ml.com/)**
 
+### Método 1: Recoverbull
 
 
+Recapitulemos: Las copias de seguridad de Wallet se cifran localmente. El archivo encriptado puede almacenarse en la nube o en otro dispositivo. La clave de encriptación es almacenada por el Recoverbull Key Server. Ambas se mantienen separadas y deben combinarse para recuperar una wallet.
 
 
-- **Aprendizaje y tutorías:** **[Plan ₿ Academy](https://planb.academy/)**:
- - Asegurar su frase de recuperación
+Para empezar voy a borrar el Wallet con todos los fondos en él y reinstalar el wallet. Aterrizaremos de nuevo en la `Pantalla de bienvenida`. Esta vez, seleccione la opción "Recuperar Wallet". Luego, navegue al método `Encrypted Vault`, confirme usando el `Default Key server`, y seleccione la ubicación o `Vault provider` donde almacenó el archivo de respaldo.
 
 
+![image](assets/en/18.webp)
 
-https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
+Indica que la bóveda se ha importado correctamente. Pulse el botón `Decrypt Vault` e introduzca el `PIN`. La siguiente pantalla mostrará sus "saldos" y el "número de transacciones" recuperadas.
 
 
-https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+![image](assets/en/19.webp)
 
 
+### Método 2: Frase semilla
 
 
-- **Liquid Network** :
-- [Glosario](https://planb.academy/resources/glossary/liquid-network)
+Este método utiliza la frase maestra de recuperación de su wallet, una lista estándar de 12 palabras que sirve como copia de seguridad definitiva de sus fondos. Es la forma más universal de recuperar una Bitcoin wallet, ya que no está vinculada a ningún servicio o servidor específico. Siempre que tenga esta frase, podrá recuperar su wallet en cualquier dispositivo compatible, incluso sin acceso al servidor de claves Bull Bitcoin.
 
 
+En la pantalla de bienvenida, seleccione "Recuperar Wallet". Esta vez, elija el método "Copia de seguridad física". La aplicación presentará una cuadrícula de palabras. Seleccione cuidadosamente cada palabra de su frase seed de 12 palabras en el orden correcto. Sea meticuloso, ya que un solo error resultará en una wallet incorrecta.
 
 
-https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+## 1️⃣2️⃣ Conexión de una Hardware Wallet
 
 
+Para obtener el máximo nivel de seguridad, muchos usuarios de Bitcoin optan por guardar sus fondos en `almacenamiento en frío`. Esto significa mantener las claves privadas que controlan su Bitcoin en un dispositivo que nunca está conectado a Internet. Una "wallet de hardware" (o dispositivo de firma) es un dispositivo físico especializado diseñado exactamente para este fin. Actúa como una cámara acorazada digital para sus claves, garantizando que nunca estén expuestas a las amenazas potenciales de un ordenador o smartphone conectado a Internet.
 
 
+Al conectar una wallet de hardware a la aplicación Bull Bitcoin, obtendrá lo mejor de ambos mundos: la seguridad sin concesiones del almacenamiento en frío para sus claves privadas, combinada con las potentes funciones y la interfaz fácil de usar de la Bull Bitcoin wallet para ver saldos y gestionar transacciones. En este capítulo final, le mostraremos cómo conectar una wallet de hardware, como una [Coldcard Q](https://coldcard.com/q), a su Bull Bitcoin wallet. Este tutorial no cubrirá en profundidad la configuración de una Coldcard Q; puede aprender sobre eso aquí:
 
-- **Lightning Network**:
-- [Glosario](https://planb.academy/resources/glossary/lightning-network)
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
+https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
+### Importar una Wallet
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
+![image](assets/en/26.webp)
 
-### A5. Toro Bitcoin
 
+En primer lugar, en el menú principal de su Coldcard Q, seleccione `Exportar Wallet` y, a continuación, `Bull Wallet`. Su Coldcard generate mostrará un código QR.
 
 
-#### Presentación de la empresa
+![image](assets/en/20.webp)
 
 
+Abra el Bull Bitcoin Wallet y navegue hasta `Configuración` > `Configuración Bitcoin` > `Importar wallet` y seleccione `Coldcard Q` en su teléfono y pulse `Abrir la cámara` para escanear este código QR e importar las claves públicas de su wallet hardware.
 
-**[Bull Bitcoin](https://www.bullbitcoin.com/fr)**, es la plataforma no depositaria de Exchange más antigua dedicada exclusivamente a Bitcoin, fundada en 2013 en la Embajada de Bitcoin en Montreal, Canadá. Dirigida por Francis Pouliot, reconocido pionero del ecosistema Bitcoin, la empresa se posiciona como un actor clave en la promoción de la soberanía financiera y la autonomía de los usuarios. Su misión es permitir a las personas recuperar el control de su dinero utilizando Bitcoin como herramienta de libertad y pago, al tiempo que rechaza las monedas fiduciarias y las criptodivisas distintas de Bitcoin.
 
+![image](assets/en/21.webp)
 
 
-![image](assets/fr/26.webp)
+### Recepción con Coldcard Q
 
 
+Para recibir Bitcoin utilizando su Coldcard Q conectada, no necesita que el dispositivo esté físicamente conectado a su teléfono. La Bull Bitcoin Wallet ya ha importado las claves públicas necesarias, lo que le permite generate direcciones por su cuenta.
 
-[Crea tu cuenta](https://app.bullbitcoin.com/registration/orangepeel) con un 0,25% de descuento en compras y ventas de Bitcoin.
 
+1. Pulse sobre su dispositivo de firma Coldcard Q importado y seleccione `Recibir`.
 
+2. La aplicación mostrará automáticamente una nueva dirección Bitcoin a partir de la wallet de su Coldcard.
 
-#### Valores y filosofía
+3. Utilice esta dirección para recibir fondos. La Bitcoin se asegurará directamente a las claves de la wallet de hardware, a pesar de que el dispositivo estaba fuera de línea durante el proceso.
 
 
+![image](assets/en/22.webp)
 
-Bull Bitcoin destaca por sus principios Commitment a Cypherpunk y su ética Bitcoin:
 
+### Envío con Coldcard Q
 
 
+El envío de Bitcoin con su Coldcard Q requiere su confirmación física para autorizar cualquier transacción. Aunque la aplicación Bull Wallet se utiliza para crear la transacción, la firma final solo puede crearse en la propia wallet.
 
 
-- **Enfoque exclusivo en Bitcoin**: La plataforma es fiel a la visión de una moneda descentralizada y resistente a la censura.
+Para empezar, abre tu `Coldcard Q` wallet y pulsa sobre `Enviar`. A continuación, abre la cámara para escanear el código QR de la dirección de destino. Después de escanearlo, introduzca el "importe" que desea enviar y ajuste la "prioridad de tarifa" según sea necesario.
 
 
+Para más opciones, puede buscar en Ajustes avanzados. Aquí encontrará la opción `Reemplazar por cuota` (RBF), que está activada por defecto y le permite acelerar una transacción atascada más adelante. También tiene la opción `Coin Control`, que le permite seleccionar manualmente los UTXO específicos que desea gastar.
 
 
+Una vez que haya revisado todos los detalles, pulse `Mostrar PSBT` para preparar la transacción.
 
-- **No custodio**: Los usuarios conservan el control total de sus Bitcoins enviando fondos a sus propias carteras.
 
+![image](assets/en/23.webp)
 
 
+Pulse el botón `Escanear` de su Coldcard Q y utilice su cámara para escanear el código QR que aparece en su teléfono. La pantalla de la tarjeta Coldcard le mostrará todos los detalles de la transacción. Compruebe cuidadosamente el importe, la dirección del destinatario y su dirección de cambio. Si todo es correcto, pulse el botón `Enter` de la Coldcard Q para firmar la transacción. A continuación, aparecerá en la pantalla un código QR de la transacción firmada.
 
 
-- **Confidencialidad**: Recopilación minimizada de datos personales, con opciones de compra sin KYC para transacciones inferiores a 999 USD. Los datos están protegidos conforme a la normativa (FINTRAC en Canadá, AMF en Francia).
+![image](assets/en/24.webp)
 
 
+En Bull wallet, pulse "He terminado" y, a continuación, pulse el botón "Cámara" para escanear el código QR de la "transacción firmada" desde su Coldcard Q. Bull Wallet mostrará ahora una pantalla de resumen de la transacción firmada. Revísela una última vez y, a continuación, pulse "Transmitir transacción". Esto finaliza el proceso enviando la transacción a la red Bitcoin, y sus fondos estarán en camino.
 
 
+## 🎯 Conclusión
 
-- **Transparencia**: Sin comisiones ocultas, los costes están incluidos en el diferencial (la diferencia entre los precios de compra y venta).
 
+Ha completado su viaje a través de Bull Bitcoin Wallet. La aplicación pone a tu alcance potentes herramientas de privacidad y seguridad, simplificando el uso de funciones avanzadas. Te ayuda a mantener la privacidad con funciones como `PayJoin`, que oculta tus transacciones en la cadena de bloques, y `Tor integration`, que enmascara tu actividad en la red de miradas indiscretas. Quienes deseen el máximo control pueden conectarse a su "nodo Bitcoin personal" para dejar de depender de servidores de terceros, y utilizar una "wallet de hardware" para mantener sus claves privadas completamente seguras y sin conexión. Con opciones de copia de seguridad inteligentes y compatibilidad sin fisuras con Bitcoin, Liquid y Lightning, Bull Bitcoin Wallet es una sólida opción todo en uno para cualquiera que se tome en serio mantener sus fondos privados, seguros y totalmente bajo su propio control.
 
 
+## 📚 Recursos de Bull Wallet
 
 
-- **Soberanía financiera**: La bula Bitcoin promueve la independencia de los sistemas bancarios tradicionales y de las instituciones centralizadas.
-
-
-
-#### Servicios principales
-
-
-
-
-
-- **Depósito en fiat**: Los usuarios pueden depositar fondos en su cuenta Bull Bitcoin con moneda fiduciaria (CAD, EUR, etc.) mediante transferencia bancaria o efectivo/tarjeta de débito en determinadas oficinas de correos canadienses.
-
-
-
-
-
-- **Adquisición de Bitcoin**: Los usuarios pueden comprar Bitcoin que se envía directamente a su cartera no depositaria, garantizando el control total de sus fondos.
-
-
-
-
-
-- **Compra programada de Bitcoin**: Bull Bitcoin ofrece un servicio de compra recurrente automatizada (DCA - Dollar Cost Averaging) a intervalos regulares, con cargo a su saldo disponible, con transferencia directa de Bitcoins a una Wallet controlada por el usuario, reduciendo el impacto de la volatilidad de los precios.
-
-
-
-Tenga en cuenta que una opción llamada "Autocompra" le permite convertir sus fiats en cuanto toquen su saldo de Bitcoin Toro, y enviar sus Bitcoins a su propia Wallet. Esta opción también se puede combinar con una transferencia bancaria periódica programada con su banco para hacer un DCA. Esta opción automatiza tu acumulación de Bitcoin sin tener que abrir nunca la aplicación.
-
-
-
-
-
-
-- **Comprar Bitcoin a un precio fijo 'Orden Límite'**: Permite comprar Bitcoin a un precio especificado de antemano por el usuario, que se ejecuta automáticamente cuando el precio del índice Bull Bitcoin alcanza o cae por debajo del límite establecido.
-
-
-
-
-
-- **Venta de Bitcoin**: Los usuarios pueden vender sus Bitcoins y recibir los fondos en moneda fiduciaria directamente en su cuenta bancaria mediante transferencia bancaria o SEPA.
-
-
-
-
-
-- **Pagos a terceros**: Bull Bitcoin permite a los usuarios enviar dinero fiduciario a cuentas bancarias desde sus Bitcoins, de forma totalmente transparente para el destinatario.
-
-
-
-
-
-- **Bull Bitcoin Prime**: Bull Bitcoin Prime es un servicio premium para clientes de alto poder adquisitivo y empresas, que ofrece soluciones personalizadas y asistencia premium. Esto incluye el acceso a comisiones reducidas, un gestor de cuenta dedicado y servicios corporativos a medida. Este servicio está dirigido a instituciones, operadores profesionales y clientes corporativos que buscan una experiencia en profundidad y un tratamiento prioritario.
-
-
-
-
-
-- **Wallet móvil**: Bull Bitcoin ofrece una Wallet móvil de código abierto y autocustodia, disponible en Android e iOS, que admite transacciones onchain, Liquid y Lightning Network.
-
-
-
-
-
-- **Apoyo pedagógico**: Guías gratuitas y asesoramiento personalizado para ayudar a los usuarios a crear, asegurar y gestionar sus carteras Bitcoin, reforzando la autonomía financiera.
-
-
-
-#### Conformidad y seguridad
-
-
-
-
-
-- **Reglamentación**: Registrado en FINTRAC (Canadá) y AMF (Francia), Bull Bitcoin cumple con los requisitos KYC/AML.
-
-
-
-
-
-- **Seguridad**: Uso de carteras seguras y recomendaciones de almacenamiento offline. Los datos personales se alojan en la infraestructura Bitcoin de Bull, que es 100% autoalojada y no depende de terceros.
+[Github](https://github.com/SatoshiPortal/bullbitcoin-mobile) | [Sitio web ](https://www.bullbitcoin.com/)| [Recoverbull](https://recoverbull.com/)

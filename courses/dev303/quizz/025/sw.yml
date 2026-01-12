@@ -1,0 +1,8 @@
+question: Ni neno gani muhimu linalotumika kufafanua vizuizi vya utekelezaji vyenye mbinu na vitendaji vinavyohusiana kwa miundo katika Rust?
+answer: impl
+wrong_answers:
+  - mbinu
+  - muundo
+  - fn
+explanation: |
+  Neno muhimu la `impl` hutumika mahususi kuunda vizuizi vya utekelezaji ambapo unafafanua mbinu na vitendaji vinavyohusiana kwa miundo. Ingawa `struct` hufafanua muundo wenyewe, `fn` hufafanua vitendaji vya mtu binafsi, na `method` si neno muhimu la Rust hata kidogo, `impl` pekee ndiyo huunda kizuizi ambacho kina tabia inayohusiana na aina. Vizuizi vya utekelezaji vinavyotumia `impl` hukuruhusu kuongeza utendakazi kwenye miundo yako, na kuifanya kuwa zaidi ya vyombo vya data tu.

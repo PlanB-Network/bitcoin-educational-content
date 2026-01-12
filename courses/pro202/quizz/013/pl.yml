@@ -1,0 +1,8 @@
+question: Jaki rodzaj struktury matematycznej tworzą punkty krzywej eliptycznej w ramach operacji dodawania?
+answer: Grupa matematyczna z domknięciem, asocjatywnością, tożsamością i odwrotnościami
+wrong_answers:
+  - Skończone pole ze zdefiniowanymi operacjami mnożenia i dzielenia
+  - Przestrzeń wektorowa z mnożeniem skalarnym i kombinacjami liniowymi
+  - Struktura pierścieniowa z operacjami dodawania i mnożenia
+explanation: |
+  Punkty krzywej eliptycznej tworzą grupę matematyczną pod dodawaniem, co oznacza, że spełniają cztery podstawowe właściwości: domknięcie (dodanie dwóch punktów daje kolejny punkt na krzywej), asocjatywność (kolejność operacji nie ma znaczenia), tożsamość (punkt w nieskończoności działa jak zero) i odwrotności (każdy punkt ma odbicie w osi x, które go anuluje). Ta struktura grupowa ma fundamentalne znaczenie dla kryptografii krzywych eliptycznych, ponieważ zapewnia, że operacje takie jak mnożenie skalarne (wielokrotne dodawanie punktu do siebie) są dobrze zdefiniowane i przewidywalne, umożliwiając bezpieczne protokoły kryptograficzne, takie jak te używane w Bitcoin.

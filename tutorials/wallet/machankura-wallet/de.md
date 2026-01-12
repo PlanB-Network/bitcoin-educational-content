@@ -101,7 +101,7 @@ Machankura geht dieses Problem jedoch an, indem es seine Funktionalität über s
 
 
 
-Um über neue Länder, in denen der Dienst verfügbar sein wird, informiert zu werden, besuchen Sie bitte regelmäßig die [Website] (https://8333.mobi).
+Um über neue Länder, in denen der Dienst verfügbar sein wird, informiert zu werden, besuchen Sie bitte regelmäßig die [Website](https://8333.mobi).
 
 
 
@@ -301,7 +301,7 @@ Eine Nachricht wird automatisch an die vorregistrierte Nummer gesendet, und der 
 
 
 
-Sie können die [Video-Sende-Demo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) von Bitcoins von PIO TARAS (Lead Machankura Afrique Francophone) über Machankura auf einem einfachen Telefon ansehen.
+Sie können die [Video-Sende-Demo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) von Bitcoins von PIO TARAS (Lead Machankura Afrique Francophone) über Machankura auf einem einfachen Telefon ansehen.
 
 
 
@@ -370,7 +370,7 @@ Die zweite, die eine logische Erweiterung der ersten ist, soll eine integrative 
 
 
 
-Um loszulegen, müssen Sie eine Nachricht an Machankuras WhatsApp-Bot schreiben (ein einfaches "Hallo" ist mehr als genug). Seine WhatsApp-Nummer lautet [+27 73 762 5720] (https://wa.me/+27737625720).
+Um loszulegen, müssen Sie eine Nachricht an Machankuras WhatsApp-Bot schreiben (ein einfaches "Hallo" ist mehr als genug). Seine WhatsApp-Nummer lautet [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

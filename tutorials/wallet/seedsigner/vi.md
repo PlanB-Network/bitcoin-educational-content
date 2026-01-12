@@ -289,7 +289,7 @@ Việc xác minh thành công đảm bảo rằng tệp `.img` của bạn vừa
 
 
 
-Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher] (https://etcher.balena.io/), sau đó:
+Nếu bạn chưa có, hãy tải xuống phần mềm [Balena Etcher](https://etcher.balena.io/), sau đó:
 
 
 

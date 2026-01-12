@@ -1,0 +1,8 @@
+question: Que equação de curva elíptica utiliza o secp256k1 do Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  O Bitcoin utiliza especificamente a curva elíptica secp256k1, que tem a equação simplificada y² = x³ + 7. Este é um caso especial da forma geral da curva elíptica y² = x³ + ax + b onde a = 0 e b = 7. As outras opções estão incorrectas: y² = x³ + ax + b é a forma geral mas não a curva específica do Bitcoin, y² = x³ + 5 utiliza a constante errada, e y² = x³ + x + 7 inclui incorretamente um termo x linear que não existe no secp256k1.

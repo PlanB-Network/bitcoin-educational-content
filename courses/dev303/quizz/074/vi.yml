@@ -1,0 +1,8 @@
+question: Hạn chế chính của việc sử dụng thư viện anyhow để xử lý lỗi trong quá trình phát triển thư viện Rust là gì?
+answer: Nó chuyển đổi tất cả các lỗi thành thông báo dạng chuỗi, ngăn người dùng phản hồi theo lập trình đối với các điều kiện lỗi khác nhau.
+wrong_answers:
+  - Nó chỉ hoạt động với kiểu dữ liệu Kết quả (Result) và không thể xử lý kiểu dữ liệu Tùy chọn (Option), do đó hạn chế tính hữu dụng của nó trong các tình huống hỗn hợp.
+  - Việc này đòi hỏi phải chuyển đổi lỗi thủ công cho từng loại lỗi, khiến nó dài dòng hơn so với cách xử lý Kết quả tiêu chuẩn.
+  - Nó tự động báo lỗi nghiêm trọng (panic) khi gặp một số loại lỗi nhất định, khiến nó không phù hợp để sử dụng trong mã thư viện sản xuất.
+explanation: |
+  Nhược điểm chính của thư viện `anyhow` đối với việc phát triển thư viện là nó về cơ bản làm phẳng tất cả các lỗi thành dạng chuỗi, làm mất đi thông tin lỗi có cấu trúc mà người dùng thư viện cần để đưa ra các quyết định lập trình. Mặc dù `anyhow` rất tốt trong việc đơn giản hóa việc xử lý lỗi cho các ứng dụng người dùng cuối, nơi lỗi chủ yếu được hiển thị, nhưng các thư viện cần cung cấp các loại lỗi cụ thể cho phép người dùng phân biệt giữa các chế độ lỗi khác nhau (như đầu vào không hợp lệ so với lỗi thời gian chạy) và phản hồi thích hợp. Các tùy chọn khác không chính xác: `anyhow` hoạt động tốt với cả kiểu `Result` và `Option`, thực sự giảm bớt sự rườm rà thông qua chuyển đổi tự động và không gây ra lỗi nghiêm trọng.

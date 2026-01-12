@@ -1,0 +1,8 @@
+question: Quale parola chiave è necessaria per rendere modificabile una variabile dopo la sua dichiarazione iniziale in Rust?
+answer: mut
+wrong_answers:
+  - var
+  - mutabile
+  - cambiamento
+explanation: |
+  In Rust, la parola chiave 'mut' è necessaria per dichiarare una variabile come mutabile, consentendo di cambiare il suo valore dopo l'assegnazione iniziale. Per impostazione predefinita, tutte le variabili in Rust sono immutabili per motivi di sicurezza. La sintassi è "let mut x = 5" per una variabile mutabile e "let x = 5" per una immutabile. Le altre opzioni come 'var', 'mutable' e 'change' non sono parole chiave Rust valide per questo scopo.

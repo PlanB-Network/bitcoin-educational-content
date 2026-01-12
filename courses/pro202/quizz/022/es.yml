@@ -1,0 +1,8 @@
+question: ¿Qué limitación fundamental del modelo UTXO requiere un tratamiento específico al gastar Bitcoin?
+answer: Los UTXO deben gastarse en su totalidad y no pueden consumirse parcialmente
+wrong_answers:
+  - Los UTXOs sólo pueden gastarse una vez por bloque para evitar el doble gasto
+  - Los UTXOs deben gastarse en orden cronológico basado en el tiempo de creación
+  - Los UTXO requieren varias firmas de claves diferentes para ser válidos
+explanation: |
+  El modelo UTXO tiene la restricción fundamental de que las salidas de transacción no gastadas deben consumirse en su totalidad: no existe ningún mecanismo para el gasto parcial. Cuando necesite gastar menos de la cantidad total de UTXO, debe crear una transacción que gaste toda la UTXO e incluya una salida de cambio para usted por el resto. Las otras opciones describen limitaciones inexistentes: Los UTXOs pueden gastarse varias veces por bloque (UTXOs diferentes), no requieren orden cronológico y normalmente sólo necesitan una firma válida a menos que estén diseñados específicamente como multisig.

@@ -1,0 +1,9 @@
+question: Why is restoring an old channel.db dangerous?
+answer: Penalty risk
+wrong_answers:
+  - Loss of seed
+  - Gossip corruption
+  - Blocking routing
+explanation: |
+  An out-of-date state can be interpreted as an attempt to cheat and result in the loss of channel funds.
+reviewed: false

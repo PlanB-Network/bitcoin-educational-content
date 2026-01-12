@@ -1,0 +1,8 @@
+question: Theo hệ thống sở hữu của Rust, một giá trị có thể có bao nhiêu chủ sở hữu tại bất kỳ thời điểm nào?
+answer: Chỉ có một chủ sở hữu
+wrong_answers:
+  - Nhiều chủ sở hữu được phép
+  - Tối đa hai chủ sở hữu
+  - Chưa có chủ sở hữu cho đến khi được truy cập.
+explanation: |
+  Hệ thống sở hữu của Rust hoạt động dựa trên ba quy tắc cơ bản, trong đó quy tắc đầu tiên là mỗi giá trị chỉ có duy nhất một chủ sở hữu tại bất kỳ thời điểm nào. Nguyên tắc sở hữu duy nhất này rất quan trọng đối với tính an toàn của bộ nhớ vì nó ngăn chặn nhiều phần của chương trình cố gắng giải phóng cùng một vùng nhớ hoặc sửa đổi dữ liệu đồng thời. Việc có nhiều chủ sở hữu sẽ dẫn đến lỗi sử dụng sau khi giải phóng (use-after-free) và tranh chấp dữ liệu (data race), trong khi việc không có chủ sở hữu nào có nghĩa là bộ nhớ không bao giờ có thể được dọn dẹp đúng cách.

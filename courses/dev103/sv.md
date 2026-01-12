@@ -6211,7 +6211,7 @@ res.end("Not Found")
 ```
 
 
-Det här är mycket grundläggande exempel. För att bygga mer avancerade servrar skulle de flesta utvecklare förmodligen ladda ner ett färdigt backend-bibliotek som [express] (https://www.npmjs.com/package/express).
+Det här är mycket grundläggande exempel. För att bygga mer avancerade servrar skulle de flesta utvecklare förmodligen ladda ner ett färdigt backend-bibliotek som [express](https://www.npmjs.com/package/express).
 
 
 ## Bearbetning av data: buffertar, händelser, strömmar

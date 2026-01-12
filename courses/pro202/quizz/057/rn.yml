@@ -1,0 +1,8 @@
+question: Ni kuki P2WSH ikoresha SHA256 aho gukoresha hash160 (RIPEMD160+SHA256) ku bijanye n’ukwiyemeza kw’inyandiko muri porogarama z’ivyabona?
+answer: SHA256 itanga hash y’amabyte 32 itandukanya P2WSH na hash160 y’amabyte 20 ya P2WPKH kandi itanga umutekano ukomeye ku nyandiko zikomeye .
+wrong_answers:
+  - SHA256 irihuta guharura kurusha hash160, igabanya igihe co kwemeza ibikorwa bikomeye vy'amafaranga menshi mu bihe vy'ubushobozi bwinshi
+  - "Hash160 yaracitse intege muri SegWit kubera ubugoyagoye bwo gutombora bwabonetse mu gihe c'iterambere rya mbere rya Bitcoin"
+  - SHA256 iremeza ko inyandiko z'ivyabona ziba nini kuruta 520 bytes, mu gihe hash160 yashizeho imipaka ikomeye y'ubunini ku bijanye n'ugusobanuka kw'inyandiko
+explanation: |
+  P2WSH ikoresha SHA256 kugira ngo ireme ama hashes y’ama byte 32 cane cane kugira ngo itandukanye n’ivyo P2WPKH yiyemeje 20 byte hash160, bikaba vyemerera ama node guca amenya verisiyo ya porogarama y’icabona. Hash ndende kandi itanga umutekano mwiza ku nyandiko zikomeye zishobora kuba zifise agaciro kanini canke ahantu henshi ho gutera. Ayandi mahitamwo ntabwo ari meza: SHA256 ntabwo ari ngombwa ko yihuta kurusha hash160, hash160 ntiyacitse intege kubera ubugoyagoye, kandi uguhitamwo igikorwa ca hash ntigira ico gikoze ku mipaka y’ubunini bw’inyandiko.

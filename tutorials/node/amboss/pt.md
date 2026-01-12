@@ -21,7 +21,7 @@ Tal como na cadeia principal, tornou-se essencial permitir que os utilizadores c
 
 
 
-Tal como [Mempool Space] (https://Mempool.space), que fornece informações úteis sobre a cadeia principal do protocolo Bitcoin, desde 2022 [Amboss] (https://amboss.space) fornece informações sobre :
+Tal como [Mempool Space](https://Mempool.space), que fornece informações úteis sobre a cadeia principal do protocolo Bitcoin, desde 2022 [Amboss](https://amboss.space) fornece informações sobre :
 
 
 

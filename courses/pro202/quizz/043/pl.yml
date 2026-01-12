@@ -1,0 +1,8 @@
+question: Kiedy skróty bloków Bitcoin są interpretowane jako liczby całkowite little-endian dla porównania docelowego, dlaczego prawidłowe bloki zazwyczaj wyświetlają wiele końcowych zer w ich szesnastkowej reprezentacji?
+answer: Ponieważ interpretacja little-endian oznacza, że najbardziej prawe bajty w hex odpowiadają najbardziej znaczącym bitom wartości całkowitej
+wrong_answers:
+  - Ponieważ algorytm SHA-256 naturalnie generuje końcowe zera, gdy dane wejściowe zawierają dane transakcji z powtarzającymi się wzorcami
+  - Ponieważ górnicy celowo wypełniają nagłówek bloku zerowymi bajtami, aby obliczenia hashowania były bardziej wydajne dla sprzętu ASIC
+  - Ponieważ pole nonce jest zwiększane od zera w górę, powodując, że funkcja skrótu generate wzorce z końcowymi zerami
+explanation: |
+  W interpretacji little-endian bajty są odczytywane w odwrotnej kolejności, więc najbardziej prawe bajty w systemie szesnastkowym stają się najbardziej znaczącą częścią liczby całkowitej. Aby hash był poniżej celu (mała liczba), jego najbardziej znaczące bity muszą być zerami, które pojawiają się jako końcowe zera na wyświetlaczu szesnastkowym. Jest to wyłącznie artefakt reprezentacji konwersji endianness, a nie właściwość sprzętu SHA-256 lub mining.

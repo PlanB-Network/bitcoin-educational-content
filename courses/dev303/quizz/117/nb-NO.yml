@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende grunnen til at Breez SDK-arkitekturen forhindrer regulatoriske hindringer som vanligvis påvirker depotbaserte lyntjenester?
+answer: Brukerne beholder full kontroll over sine private nøkler, som aldri forlater enhetene deres, noe som gjør programvaren fri for frihetsberøvelse
+wrong_answers:
+  - SDK opererer gjennom desentraliserte LSP-er som fordeler reguleringsansvaret på tvers av flere jurisdiksjoner
+  - Greenlight-infrastrukturen er lagret i reguleringsvennlige jurisdiksjoner som unntar skybaserte lyntjenester
+  - Just-in-time-mekanismen skaper midlertidige betalingskanaler som faller utenfor tradisjonelle finansreguleringer
+explanation: |
+  Breez SDK unngår regulatoriske hindringer fordi den opprettholder ikke-depotprinsipper - brukernes private nøkler forlater aldri enhetene deres, og Greenlight har ikke tilgang til brukernes midler eller kan utføre uautoriserte operasjoner. Denne ikke-depotbaserte arkitekturen betyr at programvaren ikke oppbevarer kundemidler, i motsetning til depottjenester som står overfor betydelige regulatoriske krav ettersom de kontrollerer brukernes eiendeler. De andre alternativene antyder feilaktig at de regulatoriske fordelene kommer fra tekniske funksjoner eller jurisdiksjonsstrategier, mens den viktigste fordelen ganske enkelt er at programvare som ikke er depotbasert, står overfor færre regulatoriske hindringer globalt.

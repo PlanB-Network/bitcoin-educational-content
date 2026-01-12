@@ -1,0 +1,8 @@
+question: De acordo com a teoria do conhecimento disperso de Hayek, por que razão o planeamento central é fundamentalmente imperfeito enquanto mecanismo de coordenação económica?
+answer: O conhecimento existe apenas como fragmentos dispersos entre os indivíduos, tornando impossível aos planeadores centrais acederem à informação completa necessária para uma coordenação eficiente
+wrong_answers:
+  - Os planeadores centrais não têm autoridade moral para tomar decisões por outros, mesmo quando possuem informações completas sobre o mercado
+  - A corrupção política e os interesses próprios impedem os responsáveis pelo planeamento central de implementar soluções economicamente óptimas, apesar de terem acesso a todos os dados necessários
+  - O planeamento central requer demasiado poder computacional e tecnologia que não estava disponível no tempo de Hayek mas que poderia funcionar atualmente
+explanation: |
+  A crítica de Hayek ao planeamento central é epistemológica e não moral ou tecnológica. Argumentou que o conhecimento nunca existe de forma concentrada, mas apenas como "fragmentos dispersos de conhecimento incompleto e frequentemente contraditório, possuídos por todos os indivíduos distintos" Este problema de conhecimento disperso significa que os planeadores centrais não podem aceder aos custos subjectivos, aos benefícios e às preferências locais que só os indivíduos possuem, tornando impossível uma coordenação económica eficiente, independentemente das suas intenções ou capacidades computacionais.

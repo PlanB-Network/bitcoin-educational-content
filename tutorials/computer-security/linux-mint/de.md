@@ -39,7 +39,6 @@ Vermeiden Sie:
 - Chromebooks - oft ist die Speicherkapazität zu gering
 - Jeder Computer mit einem eMMC-Laufwerk; Wenn es eine SSD hat, ist das perfekt
 - Macs - sie sind teuer, und die Hardware harmoniert meiner Erfahrung nach nicht gut mit Linux-Betriebssystemen
-- Alles, was generalüberholt oder gebraucht ist (aber kein absolutes Ausschlusskriterium)
   Stattdessen suchen Sie nach einem Windows 11 Laptop (Derzeit ist Windows 11 die neueste Version. Wir werden diese Software loswerden, keine Sorge.). Ich habe auf amazon.com nach "Windows 11 Laptop" gesucht und dieses gute Beispiel gefunden:
   ![image](assets/1.webp)
 

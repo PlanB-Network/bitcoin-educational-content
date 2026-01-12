@@ -4042,18 +4042,18 @@ In een coinswap-scenario met HTLC of PTLC tussen Alice en Bob, vindt de exchange
 Het gebruik van Adaptor Signatures is in deze context bijzonder interessant, omdat het het mogelijk maakt om af te zien van traditionele scripts (een mechanisme dat soms "_scriptloze scripts_" wordt genoemd). Deze functie vermindert de kosten die de uitwisseling met zich meebrengt. Een ander groot voordeel van Adaptor Signatures is dat ze het gebruik van een gemeenschappelijke hash niet vereisen voor beide partijen bij de transactie, waardoor het niet nodig is om een directe link tussen hen te onthullen in bepaalde typen van uitwisselingen.
 
 
-### Adaptor Signatures
+### Adaptor-handtekeningen (Adaptor Signatures)
 
 
-Adaptor Signatures zijn een cryptografische methode die een geldige handtekening integreert met een extra handtekening, genaamd de "_adaptor signature_", om geheime gegevens te onthullen. Dit mechanisme is zo ontworpen dat kennis van 2 van de 3 volgende elementen: de geldige handtekening, de adapterhandtekening en het geheim, ons toelaat om het ontbrekende derde element af te leiden. Een interessante eigenschap van deze methode is dat, als we de adaptorhandtekening van onze peer kennen en het specifieke punt op de elliptische curve dat geassocieerd is met het geheim dat gebruikt is om die adaptorhandtekening te berekenen, we onze eigen adaptorhandtekening kunnen afleiden die compatibel zal zijn met datzelfde geheim, zonder ooit directe toegang te hebben tot het geheim zelf.
+Adaptor-handtekeningen zijn een cryptografische methode die een geldige handtekening integreert met een extra handtekening, genaamd de "_adaptor signature_", om geheime gegevens te onthullen. Dit mechanisme is zo ontworpen dat kennis van 2 van de 3 volgende elementen: de geldige handtekening, de adaptor-handtekening en het geheim, ons toelaat om het ontbrekende derde element af te leiden. Een interessante eigenschap van deze methode is dat, als we de adaptor-handtekening van onze peer kennen en het specifieke punt op de elliptische curve dat geassocieerd is met het geheim dat gebruikt is om die adaptor-handtekening te berekenen, we onze eigen adaptor-handtekening kunnen afleiden die compatibel zal zijn met datzelfde geheim, zonder ooit directe toegang te hebben tot het geheim zelf.
 
 
-Bij een coinswap maakt het gebruik van Adaptor Signatures de gelijktijdige bekendmaking van twee stukken gevoelige informatie tussen deelnemers mogelijk, waardoor de noodzaak voor wederzijds vertrouwen wordt vermeden. Laten we een voorbeeld nemen om dit proces te illustreren met Alice en Bob, die elk 1 BTC willen exchange bezitten, maar elkaar niet vertrouwen. Ze gebruiken Adaptor Signatures om de noodzaak om elkaar te vertrouwen in deze exchange te elimineren. Dit is hoe ze het doen:
+Bij een coinswap maakt het gebruik van adaptor-handtekeningen de gelijktijdige bekendmaking van twee stukken gevoelige informatie tussen deelnemers mogelijk, waardoor de noodzaak voor wederzijds vertrouwen wordt vermeden. Laten we een voorbeeld nemen om dit proces te illustreren met Alice en Bob, die elk 1 BTC bezitten en willen omruilen , maar elkaar niet vertrouwen. Ze gebruiken adaptor-handtekeningen om de noodzaak om elkaar te vertrouwen in deze ruil te elimineren. Dit is hoe ze het doen:
 
 
 
 
-- Alice initieert de exchange door een $m_A$ transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar private sleutel $p_A$ ($P_A = p_A \cdot G$), een Nonce $n_A$ ($N_A = n_A \cdot G$) en een geheime $t$ ($T = t \cdot G$) :
+- Alice initieert de exchange door een $m_A$-transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar private sleutel $p_A$ ($P_A = p_A \cdot G$), een nonce $n_A$ ($N_A = n_A \cdot G$) en een geheim $t$ ($T = t \cdot G$) :
 
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$
@@ -4061,7 +4061,7 @@ $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$
 
 
 
-- Alice berekent de adaptorhandtekening $s_A'$ door de geheime $t$ van zijn echte handtekening $s_A$ af te trekken:
+- Alice berekent de adaptor-handtekening $s_A'$ door het geheim $t$ van haar echte handtekening $s_A$ af te trekken:
 
 
 $$s_A' = s_A - t$$
@@ -4069,8 +4069,8 @@ $$s_A' = s_A - t$$
 
 
 
-- Alice stuurt Bob haar handtekeningadapter $s'_A$, haar niet-ondertekende transactie $m_A$, het punt dat overeenkomt met het geheim ($T$) en het punt dat overeenkomt met de Nonce ($N_A$). Deze elementen vormen wat bekend staat als een "adapter". Het is belangrijk op te merken dat, met alleen deze informatie, Bob de BTC van Alice niet kan herstellen.
-- Bob kan echter controleren of Alice niet van hem probeert te stelen. Om dit te doen, controleert hij of Alice's adapterhandtekening $s_A'$ daadwerkelijk overeenkomt met de voorgestelde transactie $m_A$. Als de volgende vergelijking klopt, dan kan hij er zeker van zijn dat de handtekeningadapter van Alice geldig is:
+- Alice stuurt Bob haar handtekening-adapter $s'_A$, haar niet-ondertekende transactie $m_A$, het punt dat overeenkomt met het geheim ($T$) en het punt dat overeenkomt met de nonce ($N_A$). Deze elementen vormen wat bekend staat als een "adaptor". Het is belangrijk op te merken dat, met alleen deze informatie, Bob de BTC van Alice niet kan ophalen.
+- Bob kan echter controleren of Alice niet van hem probeert te stelen. Om dit te doen, controleert hij of Alice's adaptor-handtekening $s_A'$ daadwerkelijk overeenkomt met de voorgestelde transactie $m_A$. Als de volgende vergelijking klopt, dan kan hij er zeker van zijn dat de adaptor-handtekening van Alice geldig is:
 
 
 $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
@@ -4078,7 +4078,7 @@ $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
 
 
-- Deze verificatie geeft Bob voldoende garanties dat hij de exchange in alle vertrouwen kan voortzetten. Vervolgens creëert hij zijn eigen transactie $m_B$, bedoeld om 1 BTC naar Alice te sturen, en genereert hij zijn adaptorhandtekening $s_B'$, die ook aan hetzelfde geheime $t$ zal worden gekoppeld. In dit stadium kent alleen Alice de waarde van $t$; Bob kent alleen het corresponderende punt $T$ dat Alice aan hem heeft doorgegeven:
+- Deze verificatie geeft Bob voldoende garanties dat hij de uitwisseling in alle vertrouwen kan voortzetten. Vervolgens creëert hij zijn eigen transactie $m_B$, bedoeld om 1 BTC naar Alice te sturen, en genereert hij zijn adaptor-handtekening $s_B'$, die ook aan hetzelfde geheim $t$ zal worden gekoppeld. In dit stadium kent alleen Alice de waarde van $t$; Bob kent alleen het corresponderende punt $T$ dat Alice aan hem heeft doorgegeven:
 
 
 $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
@@ -4086,7 +4086,7 @@ $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
 
 
 
-- Bob stuurt Alice zijn adaptorhandtekening $s_B'$, zijn niet-ondertekende transactie $m_B$, evenals het punt dat overeenkomt met het geheim ($T$) en het punt dat overeenkomt met de Nonce ($N_B$). Alice, die het geheim $t$ kent, kan nu Bob's adaptorhandtekening $s_B'$ combineren met dit geheim om generate een geldige handtekening $s_B$ te geven voor de transactie $m_B$ die Bob's BTC naar haar zal overmaken:
+- Bob stuurt Alice zijn adaptor-handtekening $s_B'$, zijn niet-ondertekende transactie $m_B$, evenals het punt dat overeenkomt met het geheim ($T$) en het punt dat overeenkomt met de nonce ($N_B$). Alice, die het geheim $t$ kent, kan nu Bob's adaptor-handtekening $s_B'$ combineren met dit geheim om generate een geldige handtekening $s_B$ te genereren voor de transactie $m_B$ die Bob's BTC naar haar zal overmaken:
 
 
 $$s_B = s_B' + t$$
@@ -4097,7 +4097,7 @@ $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_
 
 
 
-- Alice zendt deze ondertekende $m_B$ transactie uit op de Bitcoin blockchain om de door Bob beloofde BTC op te halen. Wanneer Bob deze transactie op de blockchain ziet, kan hij de handtekening $s_B = s_B' + t$ extraheren. Met deze informatie kan Bob het beroemde geheim $t$ isoleren dat hij nodig had:
+- Alice zendt deze ondertekende $m_B$ transactie uit op de Bitcoin blockchain om de door Bob beloofde BTC op te halen. Wanneer Bob deze transactie op de blockchain ziet, kan hij de handtekening $s_B = s_B' + t$ extraheren. Met deze informatie kan Bob het zogeheten geheim $t$ isoleren dat hij nodig had:
 
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
@@ -4105,7 +4105,7 @@ $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
 
 
-- En dit geheim $t$ was het enige element dat ontbrak voor Bob naar generate de geldige handtekening $s_A$ van Alice's adaptor handtekening $s_A'$. Deze handtekening valideert de $m_A$ transactie, die een BTC van Alice naar Bob stuurt. Bob berekent dan $s_A$ en zendt de $m_A$ transactie uit op de blockchain:
+- En dit geheim $t$ was het enige element dat ontbrak voor Bob om de geldige handtekening $s_A$ van Alice's adaptor-handtekening $s_A'$ te genereren. Deze handtekening valideert de $m_A$-transactie, die een BTC van Alice naar Bob stuurt. Bob berekent dan $s_A$ en zendt de $m_A$ transactie uit op de blockchain:
 
 
 $$s_A = s_A' + t$$
@@ -4114,31 +4114,31 @@ $$s_A = s_A' + t$$
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
 
-Laten we eens samenvatten hoe een adaptorhandtekening werkt in een coinswap. In eerste instantie stuurt Alice Bob een niet-ondertekende transactie vergezeld van een adapter, zodat Bob kan verifiëren dat het later onthulde geheim hem toegang geeft tot bitcoins. In ruil daarvoor stuurt Bob Alice zijn eigen niet-ondertekende transactie en adapter. Alice kan dan Bob's transactie afronden en de bitcoins ophalen door een geldige transactie uit te zenden dankzij het geheim. Wanneer deze transactie wordt gepubliceerd op blockchain, kan Bob het geheim ontfutselen en zo Alice's transactie ontgrendelen. Bijgevolg, als Alice een overdracht van Bob's Bitcoin initieert, kan Bob op zijn beurt toegang krijgen tot Alice's Bitcoin zonder dat wederzijds vertrouwen nodig is.
+Laten we eens samenvatten hoe een adaptor-handtekening werkt in een coinswap. In eerste instantie stuurt Alice Bob een niet-ondertekende transactie vergezeld van een adaptor, zodat Bob kan verifiëren dat het later onthulde geheim hem toegang geeft tot bitcoins. In ruil daarvoor stuurt Bob Alice zijn eigen niet-ondertekende transactie en adaptor. Alice kan dan Bob's transactie afronden en de bitcoins ophalen door een geldige transactie uit te zenden dankzij het geheim. Wanneer deze transactie wordt gepubliceerd op blockchain, kan Bob het geheim ontfutselen en zo Alice's transactie ontgrendelen. Bijgevolg, als Alice een overdracht van Bob's Bitcoin initieert, kan Bob op zijn beurt toegang krijgen tot Alice's Bitcoin zonder dat wederzijds vertrouwen nodig is.
 
 
 Merk op dat coinswaps voor het eerst werden voorgesteld door [Gregory Maxwell in oktober 2013 op BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 
-### Atoomverwisseling
+### Atoomverwisseling (Atomic swap)
 
 
-Op een vergelijkbare manier als coinswap, en met behulp van dezelfde soorten smart contracts, is het ook mogelijk om atomic swaps uit te voeren. Een atomaire swap maakt een directe exchange van verschillende cryptocurrencies mogelijk, zoals BTC en XMR, tussen twee gebruikers zonder de noodzaak van vertrouwen of de tussenkomst van een tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee mogelijke uitkomsten hebben: of de swap is succesvol en beide partijen zijn tevreden, of de swap mislukt en elk behoudt zijn oorspronkelijke cryptocurrencies, waardoor het niet meer nodig is om de andere partij te vertrouwen.
+Op een vergelijkbare manier als coinswap, en met behulp van dezelfde soorten smart contracts, is het ook mogelijk om atomic swaps uit te voeren. Een atomic swap maakt een directe uitwisseling van verschillende cryptocurrencies mogelijk, zoals BTC en XMR, tussen twee gebruikers zonder de noodzaak van vertrouwen of de tussenkomst van een tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee mogelijke uitkomsten hebben: of de swap is succesvol en beide partijen zijn tevreden, of de swap mislukt en elk behoudt zijn oorspronkelijke cryptocurrencies, waardoor het niet meer nodig is om de andere partij te vertrouwen.
 
 
 ![BTC204](assets/nl/203.webp)
 
 
-Atomic swap en coinswap hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst exchange we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
+Atomic swaps en coinswaps hebben een vergelijkbare werkwijze en bieden dezelfde voor- en nadelen op het gebied van vertrouwelijkheid. Vanuit het oogpunt van Bitcoin is een atomic swap namelijk vergelijkbaar met een coinswap die in twee fasen wordt uitgevoerd. Eerst wisselen we onze BTC voor een andere cryptocurrency, dan kan deze cryptocurrency worden geruild voor andere BTC. Uiteindelijk krijgen we de BTC van een andere gebruiker terug. Daarom groepeer ik deze twee protocollen bij de analyse van vertrouwelijkheidsproblemen in de categorie van geheime uitwisselingen voor eigen gebruik.
 
 
 ![BTC204](assets/nl/204.webp)
 
 
-Pas echter op dat, in tegenstelling tot coinswap, atomic swap onevenwichtigheden kan hebben in termen van beschikbare liquiditeit, vooral in BTC/XMR exchanges. Het is over het algemeen gemakkelijker om bitcoins te ruilen voor altcoins, omdat er veel vraag is naar bitcoins, waardoor de premies voor deze conversierichting laag blijven. Het omwisselen van altcoins voor BTC kan echter complexer zijn vanwege de lagere vraag, wat vaak resulteert in zeer hoge premies.
+Pas echter op dat, in tegenstelling tot coinswap, atomic swap onevenwichtigheden kan hebben in termen van beschikbare liquiditeit, vooral in BTC/XMR-uitwisselingen. Het is over het algemeen gemakkelijker om bitcoins te ruilen voor altcoins, omdat er veel vraag is naar bitcoins, waardoor de premies voor deze conversierichting laag blijven. Het omwisselen van altcoins voor BTC kan echter complexer zijn vanwege de lagere vraag, wat vaak resulteert in zeer hoge premies.
 
 
-Tot slot, wanneer een atomaire swap on-chain bitcoins en bitcoins op de Lightning Network betreft, spreken we van een "onderzeese swap".
+Tot slot, wanneer een atomaire swap on-chain bitcoins en bitcoins op de Lightning Network betrekt bij de omwisseling, spreken we van een "submarine swap".
 
 
 ### Is het echt nuttig?
@@ -4147,31 +4147,31 @@ Tot slot, wanneer een atomaire swap on-chain bitcoins en bitcoins op de Lightnin
 Geheime overdrachten van eigenaar, zoals coinswaps en atomic swaps, hebben het voordeel dat ze de heuristiek van de ketenanalyse misleiden. Deze methoden kunnen suggereren dat de transacties betrekking hebben op dezelfde gebruiker, terwijl de werkelijke eigenaar van eigenaar is gewisseld. Het grootste nadeel van deze methoden is echter dat ze erg riskant zijn zonder het gebruik van een extra techniek om de geschiedenis van de munt te breken.
 
 
-Inderdaad, wanneer Alice een coinswap of atomic swap uitvoert met Bob, ruilt ze het bezit van haar bitcoins met die van Bob. In het geval van een atomic swap, omvat de exchange een Altcoin, maar het principe blijft hetzelfde. Alice eindigt dus met de $B$ munt en Bob met de $A$ munt. Dit voegt twijfel toe aan de ketenanalyse, maar de geschiedenis van de munten blijft traceerbaar. Als een analist deel $A$ onderzoekt, kan hij of zij de eerdere activiteiten van Alice traceren, en omgekeerd voor deel $B$.
+Inderdaad, wanneer Alice een coinswap of atomic swap uitvoert met Bob, ruilt ze het bezit van haar bitcoins met die van Bob. In het geval van een atomic swap, omvat de uitwisseling een altcoin, maar het principe blijft hetzelfde. Alice eindigt dus met de $B$-munt en Bob met de $A$-munt. Dit voegt twijfel toe aan de ketenanalyse, maar de geschiedenis van de munten blijft traceerbaar. Als een analist UTXO $A$ onderzoekt, kan hij of zij de eerdere activiteiten van Alice traceren, en omgekeerd voor UTXO $B$.
 
 
 ![BTC204](assets/nl/205.webp)
 
 
-Vanuit het oogpunt van Alice is het risico dat de geschiedenis van de $B$-munt door bepaalde entiteiten als verdacht kan worden beschouwd. Als Bob bijvoorbeeld de $B$-munt had verkregen door een criminele daad, zoals hacken, zou de munt verbonden blijven aan zijn illegale activiteiten. Alice zou dan in het bezit kunnen komen van een munt die ze niet kan overdragen aan gereguleerde Exchange-platforms zonder het risico te lopen dat haar fondsen bevroren worden, of zelfs beschuldigd worden van Bob's misdaden, ook al had ze er niets mee te maken.
+Vanuit het oogpunt van Alice is het risico dat de geschiedenis van de $B$-munt door bepaalde entiteiten als verdacht kan worden beschouwd. Als Bob bijvoorbeeld de $B$-munt had verkregen door een criminele daad, zoals hacken, zou de munt verbonden blijven aan zijn illegale activiteiten. Alice zou dan in het bezit kunnen komen van een munt die ze niet kan overdragen aan gereguleerde exchange-platforms zonder het risico te lopen dat haar fondsen bevroren worden, of zelfs beschuldigd worden van Bob's misdaden, ook al had ze er niets mee te maken.
 
 
 ![BTC204](assets/nl/206.webp)
 
 
-Het is onvermijdelijk dat vertrouwelijkheidsmethodes zoals coinswap of atomic swap de voorkeur genieten van criminelen wiens fondsen onder toezicht staan van de autoriteiten. Met deze protocollen kunnen ze hun bitcoins die onder toezicht staan in exchange van de hand doen voor perfect fungibele bitcoins. Het stelt hen ook in staat om een afleiding te creëren, door de autoriteiten naar andere gebruikers te leiden. Deze mensen hebben dus een dubbel doel.
+Het is onvermijdelijk dat vertrouwelijkheidsmethodes zoals coinswap of atomic swap de voorkeur genieten van criminelen wiens fondsen onder toezicht staan van de autoriteiten. Met deze protocollen kunnen ze hun bitcoins die onder toezicht staan in ruil voor perfect fungibele bitcoins van de hand doen. Het stelt hen ook in staat om een afleiding te creëren, door de autoriteiten naar andere gebruikers te leiden. Deze mensen hebben dus een dubbel doel.
 
 
-Met CoinJoin wordt de geschiedenis van de munt verbroken, zelfs als jouw munt vermengd is met gecontroleerde bitcoins. Dit biedt een vorm van plausibele ontkenning die niet bestaat in geheime eigenaar overdrachtsprotocollen zoals coinswap of atomic swap.
+Met CoinJoin wordt de geschiedenis van de munt verbroken, zelfs als jouw munt vermengd is met gecontroleerde bitcoins. Dit biedt een vorm van plausibele ontkenning die niet bestaat in geheime overdrachtsprotocollen van eigendom zoals coinswap of atomic swap.
 
 
 ![BTC204](assets/nl/207.webp)
 
 
-Als Alice elk risico wil vermijden, moet ze noodzakelijkerwijs een methode gebruiken om de geschiedenis van de $B$ munt te breken, zoals het passeren van coinjoins. Dit roept een vraag op over het nut van het combineren van de geheime overdracht van eigenaar en de CoinJoin. De CoinJoin, door het breken van de geschiedenis van een munt, biedt al een voldoende niveau van vertrouwelijkheid voor Alice. Mijn mening is dus dat als Alice haar privacy wil beschermen, het verstandiger zou zijn om direct over te gaan op een CoinJoin in plaats van een coinswap gevolgd door een CoinJoin.
+Als Alice elk risico wil vermijden, moet ze noodzakelijkerwijs een methode gebruiken om de geschiedenis van de $B$-munt te breken, zoals het passeren van coinjoins. Dit roept een vraag op over het nut van het combineren van de geheime overdracht van eigendom en de CoinJoin. De CoinJoin, door het breken van de geschiedenis van een munt, biedt al een voldoende niveau van vertrouwelijkheid voor Alice. Mijn mening is dus dat als Alice haar privacy wil beschermen, het verstandiger zou zijn om direct over te gaan op een CoinJoin in plaats van een coinswap gevolgd door een CoinJoin.
 
 
-Om geheime eigenaar overdrachtsmethodes echt effectief te laten zijn en het risico te vermijden dat de geschiedenis van een $A$ gebruiker aan een $B$ gebruiker wordt gekoppeld, zou het paradoxaal genoeg nodig zijn dat het gebruik ervan algemeen bekend is. Als coinswap massaal wordt gebruikt en de autoriteiten op de hoogte zijn van deze gangbare praktijk, dan zou een plausibele vorm van ontkenning kunnen worden vastgesteld. Maar zolang het gebruik van deze transfers marginaal blijft, denk ik dat deze methodes te riskant blijven voor gebruikers.
+Om geheime eigendom overdrachtsmethodes echt effectief te laten zijn en het risico te vermijden dat de geschiedenis van een $A$-gebruiker aan een $B$-gebruiker wordt gekoppeld, zou het paradoxaal genoeg nodig zijn dat het gebruik ervan algemeen bekend is. Als coinswap massaal wordt gebruikt en de autoriteiten op de hoogte zijn van deze gangbare praktijk, dan zou een plausibele vorm van ontkenning kunnen worden vastgesteld. Maar zolang het gebruik van deze transfers marginaal blijft, denk ik dat deze methodes te riskant blijven voor gebruikers.
 
 
 Tot nu toe hebben we vooral vertrouwelijkheidsmethoden bestudeerd op het niveau van de transacties zelf. In het volgende hoofdstuk kijken we naar problemen op netwerkniveau en de verspreiding van transacties.
@@ -4186,22 +4186,22 @@ Tot nu toe hebben we vooral vertrouwelijkheidsmethoden bestudeerd op het niveau 
 
 
 
-In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt te gebruiken om de vertrouwelijkheid van je transacties te beschermen. Het is echter belangrijk om te begrijpen dat je knooppunt zelf onderhevig kan zijn aan aanvallen om informatie over je activiteiten te achterhalen. In dit hoofdstuk bekijken we daarom de verschillende maatregelen die je kunt nemen om je privacy te beschermen, niet op het niveau van de transacties zelf of de Bitcoin stromen, maar op het niveau van het netwerk.
+In Deel 4 hebben we besproken hoe belangrijk het is om een compleet knooppunt (full node) te gebruiken om de vertrouwelijkheid van je transacties te beschermen. Het is echter belangrijk om te begrijpen dat je node zelf onderhevig kan zijn aan aanvallen om informatie over je activiteiten te achterhalen. In dit hoofdstuk bekijken we daarom de verschillende maatregelen die je kunt nemen om je privacy te beschermen, niet op het niveau van de transacties zelf of de bitcoin-stromen, maar op het niveau van het netwerk.
 
 
-### Paardenbloem
+### Dandelion
 
 
-Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion voorstel. Dit broadcast protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
+Een manier om de verschillende de-anonimiseringsaanvallen te omzeilen is het gebruik van het Dandelion-voorstel. Dit broadcast-protocol werd geformaliseerd in BIP156, maar is nooit geïmplementeerd op Bitcoin.
 
 
-Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin-netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
+Het idee achter Dandelion is om de vertrouwelijkheid van de routering van transacties in het Bitcoin-netwerk te verbeteren om verschillende vormen van aanvallen tegen te gaan. Het hoofddoel is het verbergen van het bronknooppunt (source node) dat in eerste instantie een transactie op het netwerk heeft uitgezonden. Openbaarmaking van dit knooppunt zou het mogelijk kunnen maken om een Bitcoin-transactie te linken aan een specifiek IP adres (als het knooppunt opereert op het clearnet), wat een input zou kunnen bieden voor ketenanalyse.
 
 
-Deze associatie tussen activiteit op Bitcoin en een IP adres vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP adres gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP adres en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
+Deze associatie tussen activiteit op Bitcoin en een IP-adres vormt een aanzienlijk risico voor de vertrouwelijkheid van gebruikers. Veel entiteiten zijn namelijk in staat om een IP-adres gemakkelijk te koppelen aan een persoonlijke identiteit. Hieronder vallen overheden en internetproviders. Bovendien kan deze informatie openbaar toegankelijk worden, bijvoorbeeld als je IP-adres en persoonlijke gegevens uitlekken wanneer de database van een website wordt gehackt.
 
 
-In de klassieke Bitcoin werking worden transacties die door een gebruiker op zijn wallet software zijn gemaakt, naar zijn persoonlijke knooppunt gestuurd. Dit knooppunt zendt de nieuwe transactie onmiddellijk naar alle peers waarmee het verbonden is.
+In de klassieke Bitcoin-werking worden transacties die door een gebruiker op zijn wallet software zijn gemaakt, naar zijn persoonlijke knooppunt gestuurd. Dit knooppunt zendt de nieuwe transactie onmiddellijk naar alle peers waarmee het verbonden is.
 
 
 ![BTC204](assets/nl/208.webp)
@@ -4219,22 +4219,22 @@ Deze verdeling van transacties die wachten op integratie in een blok is redelijk
 ![BTC204](assets/nl/210.webp)
 
 
-Het doel van BIP156 is om adres dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stam"-fase waarbij de transactie door een willekeurig pad van knooppunten wordt gestuurd.
+Het doel van BIP156 is om dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stengel"-fase waarbij de transactie door een willekeurig pad van knooppunten wordt gestuurd.
 
 
 ![BTC204](assets/nl/211.webp)
 
 
-De transactie wordt dan uitgezonden naar het hele netwerk tijdens de "Fluff" fase.
+De transactie wordt dan uitgezonden naar het hele netwerk tijdens de "fluff"-fase.
 
 
 ![BTC204](assets/nl/212.webp)
 
 
-De stengel en de "Fluff" zijn verwijzingen naar het gedrag van transactiepropagatie door het netwerk, dat lijkt op de vorm en evolutie van een paardenbloem.
+De stengel en de "fluff" zijn verwijzingen naar het gedrag van transactiepropagatie door het netwerk, dat lijkt op de vorm en evolutie van een dandelion (paardenbloem).
 
 
-Spionnenknooppunten kunnen de transactie dus mogelijk terugleiden naar het knooppunt dat de "Fluff"-fase (de massale uitzending) heeft gestart, maar dat knooppunt is niet degene die de transactie als eerste heeft uitgezonden, omdat het de transactie van het laatste knooppunt van de stam heeft ontvangen. Als de spionnenknooppunten de stam niet kunnen traceren, kunnen ze ook het bronknooppunt niet identificeren.
+Spionnenknooppunten kunnen de transactie dus mogelijk terugleiden naar het knooppunt dat de "fluff"-fase (de massale uitzending) heeft gestart, maar dat knooppunt is niet degene die de transactie als eerste heeft uitgezonden, omdat het de transactie van het laatste knooppunt van de stam heeft ontvangen. Als de spionnenknooppunten de stam niet kunnen traceren, kunnen ze ook het bronknooppunt niet identificeren.
 
 
 ![BTC204](assets/nl/213.webp)

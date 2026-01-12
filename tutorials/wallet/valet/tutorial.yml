@@ -13,8 +13,9 @@ level: beginner
 
 professor_id: f1a5468b-cf53-45e8-bb70-ae6a7b77c245
 
-# Proofreading metadata
+license: CC-BY-SA-V4
 
+# Proofreading metadata
 original_language: en
 proofreading:
   - language: en

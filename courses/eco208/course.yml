@@ -15,11 +15,11 @@ professors_id:
 
 format: inperson
 address_city_country: Paris, France
-start_date: 2025-01-08
-end_date: 2025-01-22
+start_date: 2026-01-22
+end_date: 2026-01-22
 requires_payment: true
 inperson_price_dollars: 0
-payment_expiration_date: 2025-01-21
+payment_expiration_date: 2026-01-23
 available_seats: 30
 paid_description: |
   Séminaire philosophique sur l'héritage de Friedrich von Hayek et ses implications sur la question monétaire. Une exploration approfondie de la pensée hayékienne à travers ses fondements épistémiques, ses conséquences politiques et sociales, et son ontologie.

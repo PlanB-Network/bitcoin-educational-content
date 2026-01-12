@@ -683,53 +683,35 @@ Abgesehen von den Gebühren und der Ausführungsgeschwindigkeit - die weniger in
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
-Zunächst einmal ist es wichtig zu verstehen, dass Bitcoin eine Störung von der gleichen Größenordnung wie das Internet ist.
+Zunächst einmal ist es wichtig zu verstehen, dass Bitcoin eine Disruption von der gleichen Größenordnung wie das Internet ist.
 
 In den Anfängen ermöglichte das Internet die Abschaffung von Zwischenhändlern in den Kommunikationskanälen, und diese Infrastruktur führte zu zahllosen, zuvor unvorstellbaren Anwendungen. Welches Unternehmen hat heute keine Online-Präsenz?
 
-Bitcoin ist eine Infrastruktur des Vertrauens, deren erste Anwendung darin besteht, Vermittler aus der Speicherung und dem Austausch von Werten - Geld - zu entfernen. Andere, derzeit noch unvorstellbare Anwendungen werden auf dieser Infrastruktur entstehen. deine anfängliche Präsenz hier ist das Äquivalent zu einer Website: ein Gateway für Peer-to-Peer-Zahlungen und den Austausch von Werten.
+Bitcoin ist eine Infrastruktur des Vertrauens, deren erste Anwendung darin besteht, Vermittler aus der Speicherung und dem Austausch von Werten & Geld zu entfernen. Andere, derzeit noch unvorstellbare Anwendungen werden auf dieser Infrastruktur entstehen. Deine anfängliche Präsenz hier ist das Äquivalent zu einer Website: ein Tor für Peer-to-Peer-Zahlungen und den Austausch von Werten.
 
 ![BIZ101](assets/de/016.webp)
 
 Betrachten wir nun die Perspektive eines praktischen Unternehmens, dessen Kerngeschäft nichts mit Bitcoin zu tun hat. Warum sollte es sich entscheiden, Bitcoin-Zahlungen zu akzeptieren?
 
+- **Aufbau einer Bitcoin-Bilanz:** Siehe unseren früheren Artikel über den Kauf von Bitcoin. Ob aus Überzeugung oder als Diversifizierungsstrategie, einige Geschäftsleute entscheiden sich dafür, Bitcoin-Zahlungen zu akzeptieren. Einige Bitcoin-Anhänger argumentieren, dass es für ein Unternehmen umso wichtiger ist, in der härtesten Form des Geldes bezahlt zu werden, je weniger es über finanzielle Mittel verfügt - das heißt, es hat weder die Zeit noch die Mittel, um komplexe finanzielle Manöver durchzuführen. Auf diese Weise wird das Spielfeld geebnet und ermöglicht es auch kleinen, zeitlich eingeschränkten Unternehmen, ihren Wert zu erhalten, ohne in finanzielle Spielchen verwickelt zu werden.
 
-- **Aufbau einer Bitcoin-Schatzkammer:**
+- **Erreichen einer neuen Bevölkerungsgruppe:** Die Zahl der Bitcoin-Nutzer wächst, und sie verfügen über eine erhebliche Kaufkraft. Sie werden sich natürlich zu Geschäften hingezogen fühlen, die ihre Währung akzeptieren. Da es sich um die erste universelle, im Internet gebräuchliche Währung handelt, kannst du auch internationale Kunden auf der Durchreise anziehen.
 
-Siehe unseren früheren Artikel über den Kauf von Bitcoin. Ob aus Überzeugung oder als Diversifizierungsstrategie, einige Geschäftsleute entscheiden sich dafür, Bitcoin-Zahlungen zu akzeptieren. Einige Bitcoin-Anhänger argumentieren, dass es für ein Unternehmen umso wichtiger ist, in der härtesten Form des Geldes bezahlt zu werden, je weniger es über finanzielle Mittel verfügt - das heißt, es hat weder die Zeit noch die Mittel, um komplexe finanzielle Manöver durchzuführen. Auf diese Weise wird das Spielfeld geebnet und ermöglicht es auch kleinen, zeitlich eingeschränkten Unternehmen, ihren Wert zu erhalten, ohne in finanzielle Spielchen verwickelt zu werden.
+- **Erhöhung der Sichtbarkeit:** Indem du dein Unternehmen zum Beispiel auf Plattformen wie BTCmap.org auflistest. Nur wenige Unternehmen akzeptieren derzeit Bitcoin, so dass die Mundpropaganda zu deinem Vorteil wirkt. Außerdem hebst du dich dadurch von deinem Mitbewerbern ab.
 
+- **Niedrigere Gebühren:** Sofortige Bitcoin-Zahlungen erfolgen über das Lightning Network. **Die Gebühren sind minimal und werden vom Käufer bezahlt**. Es gibt keine Gebühren für Zahlungsterminals, keine fehlgeschlagenen Zahlungsgenehmigungen und keinen Betrug. Im Vergleich dazu kostet die Zahlungsindustrie (Karten, Terminals, Überweisungen, Zahlungsdienstleister usw.) weltweit etwa 2,2 Billionen Dollar pro Jahr. Hinzu kommen Rückbuchungen und Betrug, so dass insgesamt fast ein Zehntel des US-amerikanischen BIP von produktiven Unternehmen weltweit "abgeschöpft" wird, nur um Werte zu übertragen. Unabhängig von deinem Geschäft sind Finanzgebühren eine Belastung, die optimiert werden sollte, und in einigen Fällen können hohe Gebühren bestimmte Geschäftsmodelle ersticken.
 
-- Erreichen einer neuen Bevölkerungsgruppe:
+- **Freiheit und Erlaubnisfreiheit, 24/7:** Für die Nutzung von Bitcoin muss man nicht um Erlaubnis fragen. Jeder kann innerhalb weniger Minuten mit einer Smartphone-App an der Wirtschaft teilnehmen. Du kannst jederzeit und ohne zeitliche Einschränkungen oder Verzögerungen eine Zahlung von jeder Person - ob Privatperson oder Unternehmen - senden oder empfangen.
 
-Die Zahl der Bitcoin-Nutzer wächst, und sie verfügen über eine erhebliche Kaufkraft. du werden sich natürlich zu Geschäften hingezogen fühlen, die deine Währung akzeptieren. Da es sich um die erste universelle, im Internet gebräuchliche Währung handelt, können du auch internationale Kunden auf der Durchreise anziehen.
+- **Die Vorteile des Bitcoin-Netzwerks Nutzen:** Du bist nicht verpflichtet, deine Zahlungen in Bitcoin zu behalten - vor allem, wenn du Lieferanten bezahlen oder die Mehrwertsteuer abführen musst. Bestimmte Dienste können alle oder einen Teil deiner Bitcoin-Zahlungen gegen eine Gebühr in die Währung deiner Wahl umwandeln (z. B. Euro an deine IBAN). In diesem Szenario könnte der Vorteil der Akzeptanz von Bitcoin darin liegen, neue Nutzer anzuziehen oder in den Vorteilen von Bitcoin selbst (z. B. niedrigere Gebühren, Betrieb rund um die Uhr und kein Risiko von Betrug oder Rückbuchungen).
 
+### Welche Zahlungslösung solltest du wählen?
 
-- **Erhöhung der Sichtbarkeit:**
+Es ist relativ einfach, Bitcoin-Zahlungen zu akzeptieren. Um die richtige Lösung zu wählen, solltest du die Merkmale der von dir abgewickelten Transaktionen berücksichtigen: den durchschnittlichen Zahlungsbetrag, die Transaktionshäufigkeit und die Frage, ob du Zahlungen in einer physischen Umgebung, online oder beides akzeptieren werden.
 
-Indem du dein Unternehmen zum Beispiel auf Plattformen wie BTCmap.org auflisten. Nur wenige Unternehmen akzeptieren derzeit Bitcoin, so dass die Mundpropaganda zu Ihrem Vorteil wirkt. Außerdem heben du sich dadurch von Ihren Mitbewerbern ab.
+Auch deine Denkweise als Händler ist wichtig. Führst du einen einfachen Test durch oder gehen du davon aus, dass Bitcoin zu einer bedeutenden und wiederkehrenden Einnahmequelle wird? Wenn letzteres der Fall ist, benötigst du eine robuste, umfassende und anpassbare Einrichtung.
 
-
-- **Niedrigere Gebühren:**
-
-Sofortige Bitcoin-Zahlungen erfolgen über das Lightning Network. **Die Gebühren sind minimal und werden vom Käufer bezahlt**. Es gibt keine Gebühren für Zahlungsterminals, keine fehlgeschlagenen Zahlungsgenehmigungen und keinen Betrug. Im Vergleich dazu kostet die Zahlungsindustrie (Karten, Terminals, Überweisungen, Zahlungsdienstleister usw.) weltweit etwa 2,2 Billionen Dollar pro Jahr. Hinzu kommen Rückbuchungen und Betrug, so dass insgesamt fast ein Zehntel des US-amerikanischen BIP von produktiven Unternehmen weltweit "abgeschöpft" wird, nur um Werte zu übertragen. Unabhängig von Ihrem Geschäft sind Finanzgebühren eine Belastung, die optimiert werden sollte, und in einigen Fällen können hohe Gebühren bestimmte Geschäftsmodelle ersticken.
-
-
-- **Freiheit und Erlaubnisfreiheit, 24/7:**
-
-Für die Nutzung von Bitcoin muss man nicht um Erlaubnis fragen. Jeder kann innerhalb weniger Minuten mit einer Smartphone-App an der Wirtschaft teilnehmen. du können jederzeit und ohne zeitliche Einschränkungen oder Verzögerungen eine Zahlung von jeder Person - ob Privatperson oder Unternehmen - senden oder empfangen.
-
-
-- Nutzen du die Vorteile des Bitcoin-Netzwerks:
-
-du sind nicht verpflichtet, deine Zahlungen in Bitcoin zu behalten - vor allem, wenn du Lieferanten bezahlen oder die Mehrwertsteuer abführen müssen. Bestimmte Dienste können alle oder einen Teil Ihrer Bitcoin-Zahlungen gegen eine Gebühr in die Währung Ihrer Wahl umwandeln (z. B. Euro in deine IBAN). In diesem Szenario könnte der Vorteil der Akzeptanz von Bitcoin darin liegen, neue Nutzer anzuziehen oder in den Vorteilen von Bitcoin selbst (z. B. niedrigere Gebühren, Betrieb rund um die Uhr und kein Risiko von Betrug oder Rückbuchungen).
-
-### Welche Zahlungslösung sollten du wählen?
-
-Es ist relativ einfach, Bitcoin-Zahlungen zu akzeptieren. Um die richtige Lösung zu wählen, sollten du die Merkmale der von Ihnen abgewickelten Transaktionen berücksichtigen: den durchschnittlichen Zahlungsbetrag, die Transaktionshäufigkeit und die Frage, ob du Zahlungen in einer physischen Umgebung, online oder beides akzeptieren werden.
-
-Auch deine Denkweise als Händler ist wichtig. Führen du einen einfachen Test durch oder gehen du davon aus, dass Bitcoin zu einer bedeutenden und wiederkehrenden Einnahmequelle wird? Wenn letzteres der Fall ist, benötigen du eine robuste, umfassende und anpassbare Einrichtung.
-
-Vergessen du nicht, die verschiedenen Rollen Ihrer Mitarbeiter und deren Standorte zu berücksichtigen. Denken du in jedem Fall daran, dass du in der Lage sein müssen, Ihrem Buchhalter alle erforderlichen Informationen zur Verfügung zu stellen und den Buchhaltungsprozess zu rationalisieren.
+Vergiss nicht, die verschiedenen Rollen deiner Mitarbeiter und deren Standorte zu berücksichtigen. Denke in jedem Fall daran, dass du in der Lage sein musst, deinem Buchhalter alle erforderlichen Informationen zur Verfügung zu stellen und den Buchhaltungsprozess zu rationalisieren.
 
 Um den Entscheidungsprozess zu vereinfachen, haben wir vier verschiedene Geschäftsprofile definiert. In den folgenden Tabellen sind die wichtigsten Merkmale und empfohlenen Zahlungslösungen für jedes Profil aufgeführt.
 
@@ -739,16 +721,16 @@ Um den Entscheidungsprozess zu vereinfachen, haben wir vier verschiedene Geschä
 
 | Attribut | Der Starter |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind** | "meine erste physische Zahlung ausprobieren", "einen Tipp für meine Online-Inhalte annehmen", "sehr kleine Einnahmen anstreben" |
+| **Einstellung** | "meine erste physische Zahlung ausprobieren", "einen Spende für meine Online-Inhalte annehmen", "sehr kleine Einnahmen anstreben" |
 | **Transaktionshäufigkeit** | "erste Transaktion, um zu lernen", "gelegentliches Bezahlen"                                                                    |
-| **Beispiele für Geschäftstypen** | Kreativwirtschaft (Autoren von Inhalten, Blogs, Artikeln usw.), gelegentliche Tipps, einmaliger persönlicher Produktverkauf, Verbände, einmalige Veranstaltungen |
+| **Beispiele für Geschäftstypen** | Kreativwirtschaft (Autoren von Inhalten, Blogs, Artikeln usw.), gelegentliche Spenden, einmaliger persönlicher Produktverkauf, Verbände, einmalige Veranstaltungen |
 | **Zahlungsart** | In der Regel ein paar Cent bis ein paar Euro/Dollar; unter ~300 Euro/Dollar pro Artikel |
-| **Einstellungen Komplexität** | Keine |
+| **Komplexität der Einstellungen** | Keine |
 | **Beispiel für eine empfohlene Lösung** | Eine verwahrte Lightning-Wallet wie Wallet of Satoshi oder eine nicht-verwahrte Wallet wie Phoenix |
-| Einfache Bitcoin Lightning Wallet: eine App auf einem Mobiltelefon |
-| **Kundenschnittstelle** | Bitcoin QR-Zahlungscode, gescannt über die persönliche Geldbörse des Kunden |
+| **Händler-Interface** | Einfache Bitcoin Lightning Wallet: eine App auf einem Mobiltelefon |
+| **Kunden-Interface** | Bitcoin QR-Zahlungscode, gescannt über die persönliche Wallet des Kunden |
 | **Gebühren** | Der Kunde zahlt die Bitcoin Lightning-Gebühren plus alle anfallenden App-Gebühren |
-| **Point of Sale Device** | Kostenlose Smartphone-App oder eine Option für ein physisches Terminal (z.B. Bitcoinize) |
+| **Kassengerät** | Kostenlose Smartphone-App oder eine Option für ein physisches Terminal (z.B. Bitcoinize) |
 | **Verwaltung und Rollen** | Verwaltung einer einzigen Anwendung; minimale Rollendifferenzierung |
 | **Buchhaltungsexporte** | Grundlegende Transaktionsverlaufslisten |
 | **API** | Nein |
@@ -756,15 +738,16 @@ Um den Entscheidungsprozess zu vereinfachen, haben wir vier verschiedene Geschä
 #### Profil 2 - Das Wesentliche
 | Attribut                          | Das Wesentliche                                                                                                       |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **State of Mind**                 | "Ich akzeptiere Bitcoin in meinem Geschäft, aber ich erwarte kein bedeutendes Volumen"                                |
+| **Einstellung**                 | "Ich akzeptiere Bitcoin in meinem Geschäft, aber ich erwarte kein bedeutendes Volumen"                                |
 | **Transaktionshäufigkeit**        | Wenige Transaktionen pro Monat                                                                                         |
 | **Zielgruppe**                    | Bars, Restaurants, halb-regulärer Verkauf von frischen oder direkt bezogenen Produkten, mehrere Geschäfte unter einem Eigentümer, kreative Wirtschaft für Künstler |
 | **Zahlungsart**                   | In der Regel zwischen einigen Euro/Dollar und einigen Hundert pro Artikel; unter ~300 pro Artikel und unter ~3.000 pro Monat |
 | **Komplexität der Einstellungen** | Minimal (mobile Anwendung)                                                                                             |
-| **Beispiel für eine empfohlene Lösung** | Swiss Bitcoin Pay                                                                                                      |
-| **Kundenschnittstelle**           | Bitcoin QR-Zahlungscode, gescannt über die persönliche Geldbörse des Kunden                                           |
+| **Beispiel für eine empfohlene Lösung** | Swiss Bitcoin Pay              
+| **Händler-Interface** | Einfache Bitcoin Lightning Wallet: eine App auf einem Mobiltelefon; einfache Rechnungen mit minimalen Details |                                                                                        |
+| **Kunden-Interface**           | Bitcoin QR-Zahlungscode, gescannt über die persönliche Wallet des Kunden                                           |
 | **Gebühren**                      | Normalerweise <1% für den Versand an eine Bitcoin-Adresse und <1,5% für die Umwandlung in Fiat                        |
-| **Point of Sale Device**          | Kostenlose Smartphone-App oder eine Option für ein physisches Terminal (z.B. Bitcoinize)                             |
+| **Kassengerät**          | Kostenlose Smartphone-App oder eine Option für ein physisches Terminal (z.B. Bitcoinize)                             |
 | **Verwaltung und Rollen**         | Option für eine reine Verkaufsrolle für Mitarbeiter; Online-Dashboard für die Verwaltung                             |
 | **Buchhaltungsexporte**           | CSV-Export mit vollständigen Transaktionsdetails                                                                       |
 | **API**                           | Ja                                                                                                                     |
@@ -772,16 +755,16 @@ Um den Entscheidungsprozess zu vereinfachen, haben wir vier verschiedene Geschä
 #### Profil 3 - Der Profi
 | Attribut                          | Der Profi                                                                                                                 |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                 | - Eine Zahlungsmethode wie jede andere für meinen E-Commerce - Oder gemeinsames Management für eine Gruppe von Unternehmen, die bereit sind für höhere Volumen |
+| **Einstellung**                 | "Eine Zahlungsmethode wie jede andere für mein E-Commerce", Gemeinsames Management für eine Gruppe von Unternehmen, die bereit sind für höhere Volumen |
 | **Transaktionshäufigkeit**        | Mehrere Transaktionen pro Tag                                                                                             |
 | **Beispiele für Geschäftstypen**  | E-Commerce-Websites mit mäßigem Volumen, kleine Marktplätze, Gruppen von physischen Geschäften (z. B. Click & Collect), KMU-Betriebe |
 | **Zahlungsart**                   | In der Regel von wenigen Euro/Dollar bis zu einigen Hundert; keine feste Obergrenze für die Höhe der Zahlungen; weniger als 250.000 pro Jahr |
-| **Einstellungskomplexität**       | Leicht bis voll funktionsfähig (lokales oder Cloud-Hosting), erfordert oft eine E-Commerce-Storefront                     |
+| **Komplexität der Einstellungen**       | Leicht bis voll funktionsfähig (lokales oder Cloud-Hosting), erfordert oft eine E-Commerce-Shop                     |
 | **Beispiel für eine empfohlene Lösung** | BTC Pay Server für E-Commerce und/oder physische Umgebungen; ZapRite, Musqet oder PayWithFlash für den Checkout, Be-BOP für einen integrierten E-Store |
-| **Händlerschnittstelle**          | Website (mobil und Desktop) mit Rechnungsbearbeitung, Warenkorboptionen und Erstellung von Zahlungsschaltflächen; automatische Rechnungsstellung mit E-Commerce-Integration |
-| **Kundenschnittstelle**           | Bitcoin QR-Zahlungscode, gescannt über die persönliche Geldbörse des Kunden                                               |
+| **Händler-Interface**          | Website (mobil und Desktop) mit Rechnungsbearbeitung, Warenkorboptionen und Erstellung von Zahlungsschaltflächen; automatische Rechnungsstellung mit E-Commerce-Integration |
+| **Kunden-Interface**           | Bitcoin QR-Zahlungscode, gescannt über die persönliche Wallet des Kunden                                               |
 | **Gebühren**                      | Mix aus kostenlosem Open-Source-Backend und kostenpflichtigen Lightning-Hosting-/Dienstleistungsgebühren; Front-End-Gebühren beinhalten Bitcoin Lightning-Gebühren und <1,5% Konvertierungsgebühren |
-| **Point of Sale Device**          | Webshop, optionales physisches Display (z.B. iPad, das die Seite anzeigt oder Bitcoin-Terminal)                         |
+| **Kassengerät**          | Webshop, optionales physisches Display (z.B. iPad, das die Seite anzeigt oder Bitcoin-Terminal)                         |
 | **Verwaltung und Rollen**         | Voll ausgestatteter Shop mit mehreren Admin-Rollen; Mitarbeiter und Kunden interagieren mit dem System                   |
 | **Buchhaltungsexporte**           | CSV-Export mit vollständigen Transaktionsdetails                                                                         |
 | **API**                           | Ja                                                                                                                       |
@@ -790,16 +773,16 @@ Um den Entscheidungsprozess zu vereinfachen, haben wir vier verschiedene Geschä
 
 | Attribut                          | Das Unternehmen                                                                                                         |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **State of Mind**                 | - Eine strategische Zahlungsmethode für das Unternehmen - Mit etwas Entwicklungsarbeit zur Integration in die Serviceplattform gemäß den spezifischen Spezifikationen |
+| **Einstellung**                 | Eine strategische Zahlungsmethode für das Unternehmen, Mit etwas Entwicklungsarbeit zur Integration in die Serviceplattform gemäß den spezifischen Spezifikationen |
 | **Transaktionshäufigkeit**        | Unbegrenzte, hochfrequente Transaktionen                                                                                   |
 | **Beispiele für Unternehmenstypen** | Mittelständische Unternehmen, IT-Dienstleister, Großunternehmen, große Marktplätze                                         |
 | **Zahlungsart**                   | Beliebige Größe oder Volumen                                                                                              |
-| **Einstellungen Komplexität**     | Mittel bis hoch, abhängig von der Wahl der Architektur                                                                    |
+| **Komplexität der Einstellungen**     | Mittel bis hoch, abhängig von der Wahl der Architektur                                                                    |
 | **Beispiel für eine empfohlene Lösung** | Maßgeschneiderte Architektur oder Orchestrierung von SaaS-gehosteten Lösungen, möglicherweise unter Verwendung von LSP-Diensten (*Lightning Service Provider*) Dritter |
-| **Händlerschnittstelle**          | Vollständig angepasste Front-End- und Back-End-Schnittstellen, die vollständig in die Arbeitsabläufe und Prozesse des Unternehmens integriert sind |
-| **Kundenschnittstelle**           | Von einem Bitcoin-QR-Zahlungscode bis hin zu einer vollständig angepassten Benutzeroberfläche und/oder API-Integration     |
+| **Händler-Interface**          | Vollständig angepasste Front-End- und Back-End-Schnittstellen, die vollständig in die Arbeitsabläufe und Prozesse des Unternehmens integriert sind |
+| **KundenInterface**           | Von einem Bitcoin-QR-Zahlungscode bis hin zu einer vollständig angepassten Benutzeroberfläche und/oder API-Integration     |
 | **Gebühren**                      | Kombination aus internen Entwicklungs- und Drittanbietergebühren; der Kunde zahlt Bitcoin Lightning-Gebühren plus etwaige Transaktionsgebühren von Dienstleistern |
-| **Point of Sale Device**          | Kundenspezifische Lösungen, die auf die Unternehmensumgebung zugeschnitten sind                                           |
+| **Kassengerät**          | Kundenspezifische Lösungen, die auf die Unternehmensumgebung zugeschnitten sind                                           |
 | **Management und Rollen**         | Vollständig angepasste Rollen in den Bereichen Vertrieb, Verwaltung, Devops, Buchhaltung und Finanzen                     |
 | **Buchhaltungsexporte**           | Vollständig angepasste Buchhaltungsexporte                                                                                 |
 | **API**                           | Ja                                                                                                                       |

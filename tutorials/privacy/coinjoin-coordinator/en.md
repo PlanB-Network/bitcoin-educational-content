@@ -1,5 +1,5 @@
 ---
-name: Coinjoin Coordinator
+name: Coinjoin Coordinator - WabiSabi
 description: How to setup and run a coinjoin coordinator following the WabiSabi protocol (used in Wasabi Wallet 2.0)
 ---
 
@@ -26,7 +26,7 @@ Hardware-wise it is adviced to have a system with:
 - 16 GB RAM
 - 2 TB SSD or NVMe (for a full-node) / 128 GB SSD (for a pruned-node)
 
-Such requirements can be provided by a Raspberry Pi 5 for just 120$, excluding the storage which costs around 100$ for a 2TB NVMe stick.
+Such requirements can be provided by a Raspberry Pi 5 for just 120 $, excluding the storage which costs around 100 $ for a 2TB NVMe stick.
 
 Cheap VPS typically come with only 1 core and 4GB RAM, which I've found is too little to sync and verify the entire bitcoin blockchain at blockheight 911817.
 
@@ -53,6 +53,7 @@ For RaspiBlitz (tested with v1.11) nodes a deployment script building from sourc
 
 For a minimal deployment you just want to extract the executables for your platform in a folder.
 Example commandline codes for Debian/Ubuntu:
+
 ```
 wget https://github.com/WalletWasabi/WalletWasabi/releases/download/v2.7.2/Wasabi-2.7.2.deb
 wget https://github.com/WalletWasabi/WalletWasabi/releases/download/v2.7.2/Wasabi-2.7.2.deb.asc
@@ -60,7 +61,9 @@ wget https://raw.githubusercontent.com/WalletWasabi/WalletWasabi/refs/heads/mast
 gpg --import PGP.txt
 gpg --verify Wasabi-2.7.2.deb.asc Wasabi-2.7.2.deb
 ```
+
 This should result in the following valid signature message:
+
 ```
 gpg: Signature made Mon Nov 17 01:33:09 2025 CET
 gpg:                using RSA key 6FB3872B5D42292F59920797856348328949861E
@@ -69,7 +72,9 @@ gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 6FB3 872B 5D42 292F 5992  0797 8563 4832 8949 861E
 ```
+
 And you can proceed to install the downloaded package:
+
 ```
 sudo apt install ./Wasabi-2.7.2.deb
 ```
@@ -98,6 +103,7 @@ sudo nano ~/.walletwasabi/coordinator/Config.json
 ```
 
 See this example Config.json:
+
 ```
 {
   "Network": "Main",
@@ -171,6 +177,7 @@ ASPNETCORE_URLS="http://localhost:5001" wcoordinator
 ```
 
 To see your Onion hidden service address, either check the coordinator logs with:
+
 ```
 cat ~/.walletwasabi/coordinator/Logs.txt | grep .onion
 ```
@@ -196,14 +203,17 @@ Which should automatically be filled in now.
 Once all the config parameters have been set you can run the coordinator service and start announcing your first round 🕶️ 
 
 Simply start the coordinator with the command:
+
 ```
 ASPNETCORE_URLS="http://localhost:5001" wcoordinator
 ```
+
 You can monitor the current round and number of registered UTXO's/coins by checking (in Tor browser for .onion): 
 
 ```
 http://coinjoin.yourdomain/wabisabi/human-monitor/
 ```
+
 ![detected](assets/en/01.webp)
 
 ### Optional: debugging coordinator server
@@ -211,6 +221,7 @@ http://coinjoin.yourdomain/wabisabi/human-monitor/
 You can monitor for any issues or errors in the logfile at ```~/.walletwasabi/backend/Logs.txt```
 
 Typical issues include RPC connection issues, this has to be enabled in ```~/.bitcoin/bitcoin.conf``` with:
+
 ```
 [main] # or [test] for testnet
 rpcbind=127.0.0.1
@@ -235,6 +246,7 @@ For other users to find your service you can rely on the nostr announcer, or sha
 ```
 name=Your%20Coordinator%20Name&network=main&coordinatorUri=https://coinjoin.yourdomain&coordinationFeeRate=0&readMore=https://coinjoin.yourdomain/&absoluteMinInputCount=21
 ```
+
 When a user copies the magic link and opens their Wasabi Wallet, the software will automatically show the coordinator dialog with your domain and parameters.
 
 ![detected](assets/en/02.webp)

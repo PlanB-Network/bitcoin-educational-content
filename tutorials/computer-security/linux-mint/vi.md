@@ -39,7 +39,6 @@ Tránh:
 - Chromebooks – thường dung lượng lưu trữ quá thấp
 - Bất kỳ máy tính nào có ổ đĩa eMMC; Nếu nó có ổ đĩa SSD, đó là hoàn hảo
 - Macs – chúng đắt đỏ, và phần cứng không tương thích tốt với hệ điều hành Linux theo kinh nghiệm của tôi
-- Bất cứ thứ gì đã được tân trang hoặc đã qua sử dụng (không phải là điều không thể chấp nhận được hoàn toàn)
 
 Thay vào đó, hãy tìm một chiếc laptop Windows 11 (Hiện tại Windows 11 là phiên bản mới nhất. Đừng lo, chúng tôi sẽ loại bỏ phần mềm đó.). Tôi đã tìm trên amazon.com với từ khóa “Windows 11 Laptop” và tìm thấy ví dụ tốt này:
 ![hình ảnh](assets/1.webp)
